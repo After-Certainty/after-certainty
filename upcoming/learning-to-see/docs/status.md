@@ -1,0 +1,66 @@
+# Learning to See — Drafting Status
+
+## Current phase
+
+**Phase 0 — Structure (outline complete)**
+
+## Active branch
+
+`cursor/learning-to-see-outline-cc77`
+
+## Manuscript hub
+
+[`index.md`](../index.md) is the source of truth for reading order and paths.
+
+## Key docs
+
+- [`outline.md`](outline.md) — canonical structural authority
+- [`book-rules.md`](book-rules.md)
+- [`comparative-map.md`](comparative-map.md)
+- [`open-questions.md`](open-questions.md)
+- [`drafting-process.md`](drafting-process.md)
+- Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
+
+## Unit progress
+
+| Unit | Phase | Notes |
+|------|-------|-------|
+| Introduction — Learning to See | draft (external) | RESERVED — import to `front-matter/introduction-learning-to-see.md`; do not overwrite |
+| Part I bridge | outline | Scaffold stub |
+| Chapter 1 — The Experiment I Had Never Tried | draft (external) | RESERVED — import; do not overwrite |
+| Chapter 2 — Answers Are Not Enough | draft (external) | RESERVED — import; do not overwrite |
+| Chapter 3 — What the Mirror Cannot Show | outline | Per `outline.md` |
+| Part II bridge | outline | Scaffold stub |
+| Chapter 4 — Learning What to Notice | outline | Per `outline.md` |
+| Chapter 5 — The Defenses We Build | outline | Per `outline.md` |
+| Chapter 6 — Wisdom Is Social | outline | Per `outline.md` |
+| Chapter 7 — What Must Be Repeated | outline | Per `outline.md` |
+| Chapter 8 — Being Right Is Not Enough | outline | Per `outline.md` |
+| Chapter 9 — When Explanation Is Not Enough | outline | Per `outline.md` |
+| Part III bridge | outline | Scaffold stub |
+| Chapter 10 — Cultural Sediment | outline | Per `outline.md`; coordinate with *Living in Sediment* |
+| Chapter 11 — Archaeology Without Contempt | outline | Per `outline.md` |
+| Chapter 12 — Integration Without Reduction | outline | Per `outline.md` |
+| Part IV bridge | outline | Scaffold stub |
+| Chapter 13 — When Answers Become Cheap | outline | Per `outline.md`; Ch 1 callback |
+| Chapter 14 — Ancient Practices, Future Problems | outline | Per `outline.md` |
+| Epilogue — Becoming Better Knowers | outline | Scaffold stub |
+
+## Next actions
+
+1. Import external drafts for Introduction, Chapter 1, and Chapter 2 without overwriting reserved stubs until author confirms.
+2. Author review of `outline.md`, subtitle candidates, and open questions.
+3. Secure consultation contacts (see `open-questions.md`) before drafting Part II.
+4. Begin Phase 1 with Chapter 3 or imported drafts (editorial pass).
+
+## Open decisions / known issues
+
+- See [`open-questions.md`](open-questions.md).
+- Draft chapters assumed to exist outside repository as of outline scaffold (July 2026).
+- Title disambiguation from *What We Cannot See* Part I ("Learning to See Your Own Mind") required in series guide.
+
+## Rough scale
+
+- Manuscript words (target): ~55,000–70,000
+- Outline scaffold complete: July 2026
+- Current manuscript words: 0 (reserved drafts external)

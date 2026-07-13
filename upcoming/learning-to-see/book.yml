@@ -1,0 +1,31 @@
+version: 1
+
+publishing:
+  enabled: false
+
+book:
+  id: learning-to-see
+  title: "Learning to See"
+  subtitle: "Practices of Attention, Humility, and Wisdom Across Traditions"
+  description: "A comparative inquiry into how scientific, philosophical, psychological, and spiritual traditions develop practices that help finite human beings notice more honestly, resist self-deception, learn from others, preserve hard-won insight, and live with uncertainty—without claiming those traditions are secretly the same."
+  author:
+    name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
+  language: en
+  copyright_year: 2026
+
+paths:
+  manuscript: "./index.md"
+  output: "."
+
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false
+
+github:
+  release: false

@@ -90,6 +90,16 @@ The earlier books are primarily diagnostic. They explain how meaning forms, how 
 
 **Question:** How do we live responsibly after certainty loses its ability to settle the world?
 
+### [Learning to See](../upcoming/learning-to-see/index.md) *(upcoming)*
+
+How scientific, philosophical, psychological, and spiritual traditions develop **practices** that form better knowers—attention, humility, community, memory, repair, moral imagination—without claiming those traditions are secretly the same. Culminates in what becomes scarce when AI makes answers abundant.
+
+**Question:** Why have traditions that disagree profoundly about reality often developed analogous practices for addressing recurring human limitations?
+
+**Not to be confused with:** [*What We Cannot See*](../books/what-we-cannot-see/index.md) Part I (*Bias: Learning to See Your Own Mind*), which examines cognitive limits of individual perspective—not comparative practice across traditions.
+
+**Pair with:** *What We Cannot See* (why perspective is partial) → this book (how practices form knowers) → *After Certainty* (how to live when frameworks fail).
+
 ---
 
 ## The Thread Running Through All of Them
@@ -180,6 +190,7 @@ A parallel arc on **partial perspective, judgment, and integration**—how finit
 | [Trust Beyond Similarity](../books/trust-beyond-similarity/index.md) | Trust across perspectives you do not share |
 | [Why Diversity Matters](../books/why-diversity-matters/index.md) | What gets noticed, trusted, and ignored |
 | [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) | Decision quality under incomplete information |
+| [Learning to See](../upcoming/learning-to-see/index.md) *(upcoming)* | Comparative practices that form knowers; not WWCS Part I |
 | [After Certainty](../books/after-certainty/index.md) | Practice capstone after diagnostic volumes |
 
 ### [What We Cannot See](../books/what-we-cannot-see/index.md)
@@ -188,7 +199,7 @@ Why every perspective is necessarily partial, how individuals judge responsibly 
 
 **Question:** Given finite perspectives, how should we organize ourselves to know more together than we can alone?
 
-**Suggested entry:** Read after the trust trilogy or alongside *The Discipline of Uncertainty* for judgment under incomplete information; pair with *After Certainty* for practice.
+**Suggested entry:** Read after the trust trilogy or alongside *The Discipline of Uncertainty* for judgment under incomplete information; pair with [*Learning to See*](../upcoming/learning-to-see/index.md) for how traditions form knowers through practice, then *After Certainty* for practice.
 
 ---
 
