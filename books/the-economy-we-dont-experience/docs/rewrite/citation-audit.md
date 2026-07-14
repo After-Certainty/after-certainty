@@ -30,9 +30,9 @@ No footnotes. Orientation only. No citation migration required.
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^c1-bls-jobs]` | BLS Employment Situation publishes sampling/revisions/sector detail; public channels compress into partisan win/loss | Ch 1 — factual hinge on jobs-release day | Needs precision (URL present; still 2020–2024 range) | Documentary | Strongest documentary hinge in Ch 1; keep |
-| `[^c1-shelter]` | National shelter CPI can cool while a local renewal jumps due to insurance/tax/inventory | Ch 1; echo Ch 3 / Ch 4 | Umbrella | Documentary pattern + composite renewal magnitude | “Eighteen-percent renewal” is illustrative magnitude — softlabel as composite unless tied to a documented case |
-| `[^c1-cpi-lag]` | Households can cross-check CPI against receipts before press conference ends; Shiller on narrative interpretation | Ch 1 historical/speed section | Needs precision (Shiller OK; BLS schedule OK) | Documentary | Retain Shiller bibliography entry |
+| `[^c1-bls-jobs]` | BLS Employment Situation publishes sampling/revisions/sector detail; public channels compress into partisan win/loss | Ch 1 — factual hinge on jobs-release day | Needs precision (URL present; still 2020–2024 range) | Documentary | **In rewrite draft** as Friday release opening |
+| `[^c1-shelter]` | National shelter CPI can cool while a local renewal jumps due to insurance/tax/inventory | Ch 1; echo Ch 3 / Ch 4 | Umbrella | Documentary pattern + composite renewal magnitude | **In rewrite draft**; “two hundred dollars” renewal is illustrative magnitude |
+| `[^c1-shiller]` (was `[^c1-cpi-lag]` in production) | Economic statistics travel through simplified, morally charged public narratives | Ch 1 — map→flag hinge | Complete (Shiller in bibliography) | Documentary | Rewrite draft uses Shiller at signaling hinge; production’s CPI-lag speed claim can return in Intro/Ch 3 if needed |
 
 **Uncited illustrations (flag for labeling, not deletion):** regional distributor / specialty valve; town-hall “on average” pattern; greedflation vs supply-shock moral labels; platform revision montage — treat as composite/illustrative.
 
