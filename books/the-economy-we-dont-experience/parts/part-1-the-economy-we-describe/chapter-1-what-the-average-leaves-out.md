@@ -2,10 +2,6 @@
 
 ## **What the Average Leaves Out**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-1-the-economy-we-describe/chapter-1-the-compression-problem.md`  
-> Intake: Pandoc footnotes; staccato paragraphs merged
-
 At 8:30 on a Friday morning, the Bureau of Labor Statistics releases the monthly employment report. The document arrives with tables, definitions, revisions, sampling notes, and distinctions between industries that added jobs and industries that lost them. It separates people who are unemployed from people who have stopped looking. It distinguishes full-time work from part-time work, temporary layoffs from permanent ones, and changes that appear meaningful from those that may still fall within the uncertainty of the survey. The report is not a verdict. It is an attempt to describe a moving system from several angles at once.[^c1-bls-jobs]
 
 Within minutes, the report begins to shrink. A news alert reduces it to a number. A headline turns the number into a direction: hiring strengthened, hiring weakened, the economy surprised, the economy disappointed. By midday, television panels have turned the direction into a judgment about whoever currently holds power. By evening, the report has become a mood—the economy is strong, or the economy is failing.

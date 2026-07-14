@@ -2,10 +2,6 @@
 
 ## **The People Who Sound Like They See Us**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-2-why-pain-travels-farther/chapter-5-resonance-without-understanding.md`  
-> Intake: Pandoc footnotes; staccato paragraphs merged; hardware-store scenes labeled composite
-
 A man stood beside a stack of lumber outside a hardware store and explained why he thought everything cost more.[^c5-composite] He wore a work jacket and spoke into a phone propped against the dashboard of his truck. Behind him, forklifts moved pallets through the yard. He pointed toward the lumber, mentioned diesel, freight, wages, and the price of replacing a piece of equipment that had failed the month before.
 
 His explanation was incomplete. Some of the causes he named were local. Others were national. Several had already begun changing by the time he recorded the video. He moved easily between what had happened to his business and what he believed had happened to the country, without marking the boundary between them. The video spread anyway.

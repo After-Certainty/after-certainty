@@ -2,10 +2,6 @@
 
 ## **Leadership in a Compressed World**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-3-leadership-under-compression/bridge.md`  
-> Intake: author draft; staccato paragraphs merged; no footnotes in source
-
 Recognition can win a hearing. It can gather people around a shared injury, restore dignity to experiences that were dismissed, and give language to pressures that official summaries left unnamed. But recognition is not yet governance.
 
 The person outside the institution can remain credible by continuing to name what hurts. The person inside the institution must eventually decide what to do, which tradeoffs to accept, which risks to take, and how to explain outcomes that will not arrive evenly. This is where the work changes.

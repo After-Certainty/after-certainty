@@ -2,10 +2,6 @@
 
 ## **The Economy at the Kitchen Table**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-1-the-economy-we-describe/chapter-3-the-economy-we-experience.md`  
-> Intake: Pandoc footnotes; staccato paragraphs merged; nurse labeled composite
-
 A nurse in a midsized city began photographing her grocery receipts. She did not arrange them carefully or enter every item into a spreadsheet. Most of the photographs were taken quickly in the front seat of her car or beneath the fluorescent lights near the store exit. The paper curled at the edges. A thumb sometimes covered the date. What mattered was the number at the bottom. She wanted a record.
 
 Her wages had increased, and the official measures said inflation was beginning to slow. Both claims were true. Yet the amount left in her checking account seemed to be shrinking. Groceries cost more than she remembered. Her insurance premium had risen. A repair on the car had gone onto a credit card whose interest rate made the repair more expensive each month it remained unpaid.

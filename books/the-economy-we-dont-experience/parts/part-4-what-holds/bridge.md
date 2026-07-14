@@ -2,10 +2,6 @@
 
 ## **What Holds**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-4-stability-memory-and-fragility/bridge.md`  
-> Intake: author draft; staccato paragraphs merged; no footnotes in source
-
 An election can remove a government. It cannot remove the systems that must still clear payments, insure deposits, move goods, extend credit, deliver benefits, and absorb the next shock. The campaign ends. The plumbing remains.
 
 Most people rarely notice this layer of economic life when it works. A paycheck arrives. A card payment clears. A bank opens on Monday. A business renews its credit line. Unemployment insurance reaches someone after a job disappears. Shelves refill before the shortage becomes permanent. Continuity does not feel like an event. Failure does.

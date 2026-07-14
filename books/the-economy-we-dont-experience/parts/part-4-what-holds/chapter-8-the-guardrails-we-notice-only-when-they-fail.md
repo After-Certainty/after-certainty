@@ -2,10 +2,6 @@
 
 ## **The Guardrails We Notice Only When They Fail**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-4-stability-memory-and-fragility/chapter-8-resilience-reform-and-forgotten-guardrails.md`  
-> Intake: Pandoc footnotes; staccato paragraphs merged; manufacturer labeled composite
-
 On Friday morning, payroll cleared. The employees of a small manufacturing company opened their banking apps and saw the ordinary evidence of another completed week. Mortgages would be paid. Groceries would be bought. Automatic withdrawals would move through accounts as though nothing unusual had happened.
 
 That was the achievement—not growth, not prosperity, not even confidence, but continuity.

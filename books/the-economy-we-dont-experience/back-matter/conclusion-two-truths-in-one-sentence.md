@@ -2,10 +2,6 @@
 
 ## **Two Truths in One Sentence**
 
-> Rewrite status: Migrated  
-> Source sections: `back-matter/conclusion-leadership-after-explanation-stops-scaling.md`; appendix residual  
-> Intake: author draft; staccato paragraphs merged; no footnotes in source; lightly cited compression
-
 The chart and the receipt were never enemies. One was built to reveal what no household could see alone. The other recorded what no national measure could feel. The trouble began when either was asked to become the whole story.
 
 A chart can show that inflation is slowing, employment remains strong, or a financial system has absorbed a shock. It can reveal patterns beyond the reach of any workplace, neighborhood, or kitchen table. A receipt can show what those patterns cost when they arrive in a life. The grocery total remains high after inflation slows. The rent rises inside a strong labor market. The credit line remains available but becomes too expensive to use. The safeguard works, yet the household it protected emerges with more debt and fewer choices.

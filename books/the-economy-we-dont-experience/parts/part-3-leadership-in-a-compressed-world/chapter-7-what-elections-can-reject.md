@@ -2,10 +2,6 @@
 
 ## **What Elections Can Reject**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-3-leadership-under-compression/chapter-7-elections-without-shared-understanding.md`  
-> Intake: Pandoc footnotes; staccato paragraphs merged; neighbors/election scenes labeled composite
-
 Two neighbors entered the same elementary school gymnasium to vote in the same election.[^c7-composite] One had bought her house several years earlier and refinanced when mortgage rates were low. Her monthly payment had barely changed. Her retirement account had recovered from earlier losses, and the company where she worked was still hiring. She thought the economy was more stable than the political conversation suggested.
 
 The other neighbor rented a townhouse nearby. His lease had risen twice in three years. He had postponed buying a home because the monthly payment on anything available in the area exceeded what he could safely afford. His wages had increased, but so had childcare, insurance, and the interest on the balance he carried after a car repair. He thought the economy was far worse than the official numbers suggested.

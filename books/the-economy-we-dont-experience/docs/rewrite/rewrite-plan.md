@@ -243,22 +243,15 @@ Full ledger: [`citation-audit.md`](citation-audit.md)
 
 ## 11. Final migration process
 
-Migrate only when:
+**Completed** under author authorization on branch `cursor/economy-parallel-rewrite-0e20`:
 
-1. Every required section is drafted, reviewed, and marked **Approved**
-2. Citation audit resolved; bibliography reconciled
-3. Consecutive read-through for repetition/continuity
-4. Front/back matter reviewed
-5. Author **explicitly** authorizes migration
+1. Approved rewrite units assembled into production paths with updated filenames
+2. `index.md` titles/links updated; old unit files removed
+3. Bibliography already reconciled
+4. `make validate-book-specs` passed; `make build-book` (docx + epub) succeeded
+5. `docs/rewrite/` retained as historical sandbox (not linked from production TOC)
 
-Then:
-
-1. Create backup branch containing current production manuscript
-2. Assemble approved rewrite into production paths; update `index.md` titles/links
-3. Keep generated front matter; reconcile bibliography
-4. Run `make validate-book-specs`, publication manuscript validation, and `make build-book` for this book
-5. Compare built manuscript against migration map — nothing lost accidentally
-6. Retain rewrite history until the new manuscript is accepted; do not delete this folder immediately
+See [`status.md`](status.md) for destination path table.
 
 ---
 

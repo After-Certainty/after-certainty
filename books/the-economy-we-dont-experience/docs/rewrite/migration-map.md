@@ -56,6 +56,6 @@ Actions: Rewrite | Condense | Split | Move | Absorb | Retain (production) | Defe
 
 ---
 
-## Production files intentionally not replaced by this pass
+## Production files after migration
 
-All of `front-matter/`, `parts/`, `back-matter/`, `index.md`, and `book.yml` remain the live manuscript. This map is a plan for a future migration only.
+Production `front-matter/` (except generated templates), `parts/`, `back-matter/` unit files, and `index.md` were replaced from Approved rewrite units on author authorization. See [`status.md`](status.md) for destination paths. The `docs/rewrite/` sandbox remains as historical archive and is not linked from production `index.md`.

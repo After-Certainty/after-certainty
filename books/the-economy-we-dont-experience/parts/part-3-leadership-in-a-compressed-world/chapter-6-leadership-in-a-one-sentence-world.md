@@ -2,10 +2,6 @@
 
 ## **Leadership in a One-Sentence World**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-3-leadership-under-compression/chapter-6-leadership-under-interpretive-stress.md`  
-> Intake: Pandoc footnotes; staccato paragraphs merged; press-conference scene labeled composite
-
 A press conference begins with good news.[^c6-composite] The monthly employment report is stronger than expected. The unemployment rate remains low. Several sectors added jobs. The official at the podium explains that the broader economy has continued to expand despite higher interest rates and persistent uncertainty.[^c6-bls-jobs]
 
 The answer lasts several minutes. By the afternoon, only one sentence remains: *The economy is strong.* The sentence appears in a headline, then in a campaign email, then in a short video posted by an opponent beside footage of a shuttered factory and a woman describing her rent increase. What began as a summary of national labor conditions becomes a claim about whether ordinary people should feel secure.

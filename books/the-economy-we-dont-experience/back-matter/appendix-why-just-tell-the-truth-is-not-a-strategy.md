@@ -2,11 +2,6 @@
 
 ## **Why “Just Tell the Truth” Is Not a Strategy**
 
-> Rewrite status: Migrated  
-> Source sections: `back-matter/appendix-a-why-just-tell-the-truth.md`  
-> Intake: Pandoc footnote; staccato paragraphs merged; Option 3 residual decision deferred to Approved gate  
-> Note: Author supplied a full appendix draft. Strongest arguments may still distribute into Intro / Ch 6 / Conclusion at migration; this file preserves the complete afterword so nothing is lost.
-
 After a public explanation fails, someone usually offers a simpler remedy: just tell the truth. The phrase feels bracing because it reduces a complicated failure to a moral choice. Stop spinning. Stop hiding. Stop treating people as though they cannot handle reality. Say what happened, admit what went wrong, and let the facts speak for themselves.
 
 Sometimes this is exactly what is needed. Institutions do lie. Leaders conceal tradeoffs, select favorable comparisons, delay corrections, and use technically defensible language to avoid responsibility. No theory of communication should become an excuse for dishonesty. Truth is necessary. But truth does not speak by itself.

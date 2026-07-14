@@ -2,10 +2,6 @@
 
 ## **What Travels**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-2-why-pain-travels-farther/bridge.md`  
-> Intake: author draft; staccato paragraphs merged; no footnotes in source
-
 By the time an economic claim reaches the kitchen table, it has already passed through several worlds. It began as a measure: prices collected, jobs counted, spending classified, uncertainty reduced into something a public could carry. It became a headline, then an argument, then a sentence repeated by someone who needed the sentence to mean more than the number alone could support.
 
 At the kitchen table, the claim meets another kind of evidence—the rent notice, the work schedule, the insurance renewal, the receipt folded beside the salt shaker. This is where credibility is tested: not only by whether the statistic was calculated correctly, but by whether the story built around it can survive contact with what people must actually pay.

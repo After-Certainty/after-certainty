@@ -2,10 +2,6 @@
 
 ## **When a Forecast Becomes a Promise**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-1-the-economy-we-describe/chapter-2-the-forecast-era-that-didnt-break.md`  
-> Intake: Pandoc footnotes; staccato paragraphs merged; manufacturer labeled composite
-
 In late 2022, the owner of a small manufacturing company began preparing for a recession that had not yet arrived. Her company fabricated metal components for agricultural and industrial equipment. It employed about eighty people in a Midwestern town where a canceled shift traveled quickly—from the production schedule to the diner, the school fundraiser, and the local bank.
 
 Orders were still coming in, but almost every signal around her pointed toward caution. Interest rates were rising. Economists warned that bringing inflation down could weaken the labor market. Business headlines repeated the possibility of recession. Her lender wanted to know how the company would respond if demand fell. So she did what responsible owners are expected to do when the future becomes uncertain.

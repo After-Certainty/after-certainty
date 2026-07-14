@@ -2,10 +2,6 @@
 
 ## **Why Pain Moves Faster**
 
-> Rewrite status: Migrated  
-> Source sections: `parts/part-2-why-pain-travels-farther/chapter-4-why-pain-always-scales.md`  
-> Intake: Pandoc footnotes; staccato paragraphs merged; notes attached at factual hinges
-
 Two messages appeared in the same state on the same morning. The first came from the governor’s office. Employment had reached a record level. Several companies had announced new investments. Average wages were rising. The release included county maps, industry tables, and a quotation about the state’s economic momentum.[^c4-jolts]
 
 The second message came from a woman sitting in her parked car. She held up a grocery receipt, pointed to the total, and said that the same week of meals now cost far more than it had a few years earlier. She mentioned rent, electricity, and the insurance payment due at the end of the month. The video lasted less than a minute.

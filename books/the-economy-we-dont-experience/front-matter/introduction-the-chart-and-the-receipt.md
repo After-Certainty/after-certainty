@@ -2,10 +2,6 @@
 
 ## **The Chart and the Receipt**
 
-> Rewrite status: Migrated  
-> Source sections: `front-matter/introduction-the-economy-we-argue-about.md`  
-> Intake: Pandoc footnotes; staccato paragraphs merged; notes attached at factual hinges
-
 A phone can announce that inflation is easing while someone is standing in a grocery aisle wondering when ordinary food became expensive enough to require strategy.[^intro-cpi] The notification is not necessarily wrong. The shopper is not confused. One describes a rate of change across a large economy. The other describes the amount due at the register. The chart and the receipt are both evidence. They are simply evidence from different distances.
 
 This difference has become one of the central problems in public economic life. We speak of *the economy* as though it were a place everyone inhabits together. In practice, people encounter it through rent, wages, interest, insurance, childcare, fuel, medical bills, work schedules, and the time required to hold all of those obligations together. A national measure can show improvement while a household remains under pressure. Employment can be strong while a particular worker loses overtime. Inflation can slow while prices remain far above the level people remember. The financial system can remain stable while borrowing becomes expensive enough to close off choices.[^intro-shed]
