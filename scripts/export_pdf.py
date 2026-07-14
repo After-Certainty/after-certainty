@@ -123,6 +123,12 @@ def main() -> None:
             "--from=markdown+fenced_divs+raw_tex",
         ]
 
+        # Raw LaTeX covers from prepare_title_page_for_pdf use \includegraphics but do
+        # not create a Pandoc Image node, so the default template's $if(graphics)$
+        # gate stays false unless we force it.
+        if title_page_cover_unnumbered(spec) and title_page_cover_basename(spec):
+            cmd.extend(["-V", "graphics"])
+
         header = pdf_header_tex(book_dir)
         if header is not None:
             cmd.append(f"--include-in-header={header.as_posix()}")
