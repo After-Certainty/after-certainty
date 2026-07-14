@@ -189,9 +189,9 @@ Detail lives in [`migration-map.md`](migration-map.md). Summary:
 - **Chapter 6** — dismissive truth / sentence order under interpretive stress
 - **Conclusion** — legitimacy as interpretive; “tell the truth in a form that admits who is still paying”
 
-Keep [`appendix.md`](appendix.md) as a stub through drafting/review so nothing is lost. At the **Approved** gate, either:
+Keep [`appendix.md`](appendix.md) through drafting/review so nothing is lost. **Author full draft is now filed** (Pandoc `[^app-trust-repair]`; staccato merged). At the **Approved** gate, either:
 
-- drop residual material if fully absorbed, or
+- drop residual material if fully absorbed into Intro / Ch 6 / Conclusion, or
 - keep a **brief** afterword/appendix only for unrecovered points
 
 Do **not** delete production Appendix A until migration.

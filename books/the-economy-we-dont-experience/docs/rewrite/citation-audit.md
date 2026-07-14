@@ -168,7 +168,9 @@ No footnotes in author draft; none added at intake. Rewrite conclusion remains l
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^app-trust-repair]` | More information can increase distrust under contested information systems; motivated reasoning / media trust; narrative-policy / interpretive frames | Intro / Ch 6 / Conclusion (Option 3 distribute) | Provisional / incomplete | Documentary survey + literature gesture | Split claim if distributed; strengthen with specific Pew titles; do not invent “narrative-policy” citations |
+| `[^app-trust-repair]` | Additional disclosure *can* deepen distrust when trust is thin; revisions/definitions heard as story-management | Appendix “When More Information Creates More Distrust” (also candidate for Intro / Ch 6 / Conclusion if Option 3 distributes) | Umbrella / provisional | Documentary survey | **In rewrite draft**; Pew polarization/media-trust/economy views 2020–2024; contingent *can* kept; no invented narrative-policy cites; sharpen specific Pew titles at migration |
+
+**Status:** Author full appendix drafted in `docs/rewrite/appendix.md`. Option 3 distribute remains open at Approved: strongest themes already appear across Intro / Ch 6 / Conclusion; this file preserves the complete afterword so nothing is lost before residual decision.
 
 Appendix also cross-references Ch 1 town hall, Ch 3 wages, Part II asymmetry, Part III sentence order, Part IV guardrails — those remains are conceptual migrations, not new footnotes.
 
@@ -208,7 +210,7 @@ Appendix also cross-references Ch 1 town hall, Ch 3 wages, Part II asymmetry, Pa
 | Part bridges (I–IV) | N/A (none) | N/A |
 | Chapters 1–8 | Yes | Yes |
 | Conclusion | N/A (none) | N/A |
-| Appendix A | Yes | Yes (distribute) |
+| Appendix A | Yes | Yes (draft filed; Option 3 residual open) |
 | Bibliography | Audited | Gaps flagged |
 
 Nothing cited should disappear accidentally; redistribution is into rewrite stubs listed above.

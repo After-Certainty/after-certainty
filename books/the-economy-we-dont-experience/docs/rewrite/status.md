@@ -20,7 +20,7 @@
 | Part IV Bridge — What Holds | Drafted | Yes | N/A | No | No |
 | Chapter 8 — The Guardrails We Notice Only When They Fail | Drafted | Yes | Yes | No | No |
 | Conclusion — Two Truths in One Sentence | Drafted | Yes | Yes | No | No |
-| Appendix — Why “Just Tell the Truth” Is Not a Strategy | Stub | Yes | Yes | No | No |
+| Appendix — Why “Just Tell the Truth” Is Not a Strategy | Drafted | Yes | Yes | No | No |
 
 ## Gates
 
@@ -44,6 +44,7 @@
 | Part IV bridge draft | Done | Author draft; staccato merged; no footnotes; election→plumbing / resilience≠flourishing attention shift |
 | Ch 8 author intake | Done | Pandoc IDs `c8-composite` / `c8-stress-tests` / `c8-aggregates` / `c8-reinhart` / `c8-banks-2023` / `c8-bernanke` / `c8-fiscal-stabilizers`; manufacturer composite labeled; unused Reinhart/Bernanke attached at hinges; ~10 movements (review consolidate); add FSB/CBO/FDIC bibliography sharpening at migration |
 | Conclusion author intake | Done | Author draft (~700w); staccato merged; no footnotes; returns to grocery/chart-receipt; no chapter résumé; two-truths leadership close |
+| Appendix author intake | Done | Author full draft filed; Pandoc `[^app-trust-repair]` at disclosure/distrust hinge (Pew, contingent *can*); staccato merged; ~8 movements; **Option 3 residual still open at Approved** (keep brief afterword vs distribute-only) |
 | Full consecutive read-through | Not started | After all Drafted |
 | Citation audit resolved | Not started | Gaps flagged in `citation-audit.md` |
 | Bibliography reconciled | Not started | At migration |
@@ -53,5 +54,5 @@
 
 - Front matter templates (title page, copyright, about-the-series) stay in production; rewrite does not duplicate them.
 - Bibliography remains production `back-matter/bibliography.md` until migration; working notes live in `citation-audit.md`.
-- Appendix recommendation: distribute strongest ideas into Intro / Ch 6 / Conclusion; keep stub until Approved gate decides residual afterword vs short appendix.
+- Appendix recommendation: Option 3 (distribute strongest ideas into Intro / Ch 6 / Conclusion) remains the migration default; **author full appendix draft is now filed** in `appendix.md`. At Approved gate: drop residual if absorbed, or keep a brief afterword for unrecovered points. Do not delete production Appendix A until migration.
 - **Intake rule:** every author-provided chapter must get Pandoc `[^id]` citations and a pass that merges single-sentence staccato into flowing paragraphs (see `README.md` → Incoming chapter intake).
