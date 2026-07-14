@@ -12,7 +12,7 @@
 | Chapter 2 — When a Forecast Becomes a Promise | Drafted | Yes | Yes | No | No |
 | Chapter 3 — The Economy at the Kitchen Table | Drafted | Yes | Yes | No | No |
 | Part II Bridge — What Travels | Stub | Yes | Yes | No | No |
-| Chapter 4 — Why Pain Moves Faster | Stub | Yes | Yes | No | No |
+| Chapter 4 — Why Pain Moves Faster | Drafted | Yes | Yes | No | No |
 | Chapter 5 — The People Who Sound Like They See Us | Stub | Yes | Yes | No | No |
 | Part III Bridge — Leadership in a Compressed World | Stub | Yes | Yes | No | No |
 | Chapter 6 — Leadership in a One-Sentence World | Stub | Yes | Yes | No | No |
@@ -27,11 +27,13 @@
 | Gate | Status | Notes |
 |------|--------|-------|
 | All stubs created | Done | This pass |
-| Intro drafted + voice lock | Not started | Draft Intro next; Ch 1 drafted from author prose ahead of Intro queue |
-| Intro + Ch 1 reviewed together | Not started | Required before Chapters 2+ |
+| Intro drafted + voice lock | Drafted | Author Intro filed; treat as provisional voice model pending review with Ch 1 |
+| Intro + Ch 1 reviewed together | Not started | Required before Chapters 4+ (Ch 2–3 already drafted from author prose) |
 | Ch 1 author intake | Done | Pandoc IDs `c1-bls-jobs` / `c1-shelter` / `c1-shiller`; staccato merged |
 | Ch 2 author intake | Done | Pandoc IDs `c2-fomc` / `c2-aggregate` / `c2-shed` / `c2-safeguards` / `c2-tetlock` / `c2-beige`; composite labeled; staccato merged; note ~10 `###` movements (above 3–5 target — consolidate at review) |
 | Ch 3 author intake | Done | Pandoc IDs `c3-cpi` / `c3-kahneman` / `c3-shelter` / `c3-health` / `c3-wages`; nurse composite labeled; unused author `[^5]` attached at wage hinge; ~7 movements (review consolidate); KFF still missing from production bibliography |
+| Intro author intake | Done | Split production `[^intro-cpi]` into `[^intro-cpi]` / `[^intro-shed]` / `[^intro-pew]`; attached at hinges (body had notes without markers); staccato merged; no internal `###` |
+| Ch 4 author intake | Done | Pandoc IDs `c4-jolts` / `c4-shiller` / `c4-cpi-level` / `c4-kahneman` / `c4-household` / `c4-pew`; unused notes attached at hinges; ~11 movements (review consolidate); absolute “always” avoided |
 | Full consecutive read-through | Not started | After all Drafted |
 | Citation audit resolved | Not started | Gaps flagged in `citation-audit.md` |
 | Bibliography reconciled | Not started | At migration |

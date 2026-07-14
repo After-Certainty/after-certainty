@@ -80,10 +80,14 @@ No footnotes.
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^c4-jolts]` | “Jobs strong” could mean overtime in one warehouse and cut hours at a supplier; JOLTS + Employment Situation | Ch 4 | Umbrella | Documentary | Pairs with employment report / time card image |
-| `[^c4-cpi-level]` | Inflation rate can fall while price levels remain high relative to household reference points; prospect theory / loss aversion | Ch 4 | Needs precision | Mixed (BLS documentary + Kahneman/Tversky) | Keep level-vs-rate distinction; Kahneman already in bibliography |
+| `[^c4-jolts]` | Employment / wage release claims used in public optimism; overtime vs “jobs strong” | Ch 4 opening dual messages | Umbrella | Documentary | **In rewrite draft** at governor release |
+| `[^c4-cpi-level]` | Inflation rate can fall while price levels remain high vs household reference | Ch 4 memory section | Needs precision | Documentary | **In rewrite draft** |
+| `[^c4-kahneman]` | Reference-dependent judgment / loss weighting | Ch 4 | Complete | Documentary theory | **In rewrite draft** (was bundled with CPI in production) |
+| `[^c4-household]` | CPI category stack + SHED household strain when bills arrive together | Ch 4 bill-stack section | Umbrella | Documentary | **New in rewrite draft** |
+| `[^c4-shiller]` | Viral painful narratives vs slower corrections | Ch 4 one-data-point / correction | Complete | Documentary | **New in rewrite draft** |
+| `[^c4-pew]` | Perceptions / trust environment around pain vs praise | Ch 4 moral safety | Umbrella | Documentary | **New in rewrite draft** |
 
-**Claim softeness:** title/framing “always scales” → rewrite Ch 4 as speed / coordination-cost claim; do not overclaim universal necessity. Composites: campaign dual messages; governor vs parent; plant manager schedule vs national openings.
+**Claim softeness:** title uses “moves faster,” not “always scales.” Illustrative governor/receipt-video scenes — composite / pattern, not named journalism.
 
 ---
 
