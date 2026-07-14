@@ -58,11 +58,13 @@ No footnotes. Orientation only. No citation migration required.
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^c3-shelter]` | Sun Belt / regional shelter: national cooling vs local renewal + insurance after storms | Ch 3 | Umbrella | Documentary pattern + composite couple | Softlabel geography as illustrative region unless citing specific ACS/BLS tables |
-| `[^c3-health]` | Households experience premiums/deductibles/denied claims more vividly than macro goods prints; medical care CPI + KFF surveys | Ch 3 | **Missing from bibliography** (KFF) | Documentary | **Add KFF Employer Health Benefits to bibliography before migration** |
-| `[^c3-wages]` | Nominal wage growth can be real and still insufficient vs rent/childcare/debt; ECI / AHE + Fed SHED | Ch 3 | Umbrella | Documentary | Keep; soft-wording on “victory lap” remains interpretive |
+| `[^c3-cpi]` | CPI as shared basket measure / methodology | Ch 3 household basket | Umbrella | Documentary | **New in rewrite draft** (methodology hinge) |
+| `[^c3-kahneman]` | Reference points and loss weighting in judgment | Ch 3 rate vs level / raise vs baseline | Complete | Documentary theory | **In rewrite draft** |
+| `[^c3-shelter]` | National shelter moderation vs local renewal drivers | Ch 3 | Umbrella | Documentary pattern | **In rewrite draft** |
+| `[^c3-health]` | Medical CPI vs premiums/deductibles/network changes; KFF benefits survey | Ch 3 | **Missing from bibliography** (KFF) | Documentary | **In rewrite draft**; **add KFF before migration** |
+| `[^c3-wages]` | Wage gains can coexist with lost purchasing power vs rent/care/debt; ECI/AHE + SHED | Ch 3 | Umbrella | Documentary | **In rewrite draft** (author note `[^5]` attached at raise/power hinge) |
 
-**Composites:** nurse receipt photo-roll; corner hardware store owner; regional banker with three clients near default; creator grocery-aisle benchmark — **label**. Relational credibility / creator beats may migrate mechanism to Ch 5 with citation remaining where claim sits.
+**Composites:** nurse receipt photo-roll — **explicitly labeled in rewrite draft**. Creator / steward / landlord remain illustrative pattern voices.
 
 ---
 

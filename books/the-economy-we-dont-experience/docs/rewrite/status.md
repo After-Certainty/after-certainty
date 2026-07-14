@@ -10,7 +10,7 @@
 | Part I Bridge — The Economy We Describe | Stub | Yes | Yes | No | No |
 | Chapter 1 — What the Average Leaves Out | Drafted | Yes | Yes | No | No |
 | Chapter 2 — When a Forecast Becomes a Promise | Drafted | Yes | Yes | No | No |
-| Chapter 3 — The Economy at the Kitchen Table | Stub | Yes | Yes | No | No |
+| Chapter 3 — The Economy at the Kitchen Table | Drafted | Yes | Yes | No | No |
 | Part II Bridge — What Travels | Stub | Yes | Yes | No | No |
 | Chapter 4 — Why Pain Moves Faster | Stub | Yes | Yes | No | No |
 | Chapter 5 — The People Who Sound Like They See Us | Stub | Yes | Yes | No | No |
