@@ -22,17 +22,36 @@ from assemble import assemble_markdown_units, assemble_part_sections  # noqa: E4
 from book_export_assets import (  # noqa: E402
     prepare_title_page_for_docx,
     reference_docx,
+    replace_newpage_for_docx,
     title_page_cover_basename,
     title_page_cover_unnumbered,
 )
 from book_output_stem import stem_for_book_dir  # noqa: E402
-from book_specs import load_spec_for_book_dir  # noqa: E402
+from book_specs import load_spec_for_book_dir, spec_format_config  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
 from publication_markdown import stage_publication_units  # noqa: E402
 
 
 def run(cmd: list[str]) -> None:
     subprocess.run(cmd, check=True)
+
+
+def _running_title(spec: dict) -> str:
+    book = spec.get("book") if isinstance(spec.get("book"), dict) else {}
+    title = str(book.get("title") or "").strip()
+    return title or "Manuscript"
+
+
+def _maybe_finish_interior(out: Path, *, spec: dict) -> None:
+    cfg = spec_format_config(spec, "docx")
+    if cfg.get("interior_finish") is not True:
+        return
+    # Lazy: book-export CI installs python-docx only when needed; other books
+    # must not import docx_interior_finish at module load.
+    from docx_interior_finish import finish_interior_docx
+
+    status = finish_interior_docx(out, running_title=_running_title(spec))
+    print(f"interior_finish: {status}")
 
 
 def stage_docx_units(units: list[Path], tmp_dir: Path, *, spec: dict, book_dir: Path) -> list[Path]:
@@ -42,12 +61,11 @@ def stage_docx_units(units: list[Path], tmp_dir: Path, *, spec: dict, book_dir: 
 
     staged: list[Path] = []
     for unit in publication_units:
+        text = unit.read_text(encoding="utf-8")
         if unit.name == "title-page.md" and unnumbered_cover and cover_basename:
-            text = prepare_title_page_for_docx(
-                unit.read_text(encoding="utf-8"),
-                cover_basename,
-            )
-            unit.write_text(text, encoding="utf-8")
+            text = prepare_title_page_for_docx(text, cover_basename)
+        text = replace_newpage_for_docx(text)
+        unit.write_text(text, encoding="utf-8")
         staged.append(unit)
     return staged
 
@@ -78,10 +96,13 @@ def export_docx_file(
     book_dir: Path,
     units: list[Path],
     out: Path,
+    spec: dict | None = None,
 ) -> None:
     if not units:
         raise SystemExit(f"No markdown units to export for {out.name}")
     run(build_pandoc_cmd(pandoc=pandoc, book_dir=book_dir, units=units, out=out))
+    if spec is not None:
+        _maybe_finish_interior(out, spec=spec)
     print(out.as_posix())
 
 
@@ -133,6 +154,7 @@ def main() -> None:
                 book_dir=book_dir,
                 units=list(section.paths),
                 out=out,
+                spec=spec,
             )
         return
 
@@ -148,6 +170,7 @@ def main() -> None:
             book_dir=book_dir,
             units=docx_units,
             out=out,
+            spec=spec,
         )
 
 

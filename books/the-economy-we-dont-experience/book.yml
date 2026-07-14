@@ -7,13 +7,15 @@ book:
   id: the-economy-we-dont-experience
   title: "The Economy We Don't Experience"
   subtitle: "Leadership, Communication, and the Credibility Crisis in Economics and Politics"
-  description: "How aggregate economic speech diverges from lived experience—and what that gap means for compression, signaling, and leadership under interpretive stress."
+  description: "How the chart and the receipt diverge—and what that gap means for compression, signaling, credibility, and leadership under interpretive stress."
   author:
     name: "Kevin Steffensen"
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
+  title_page_cover_unnumbered: true
+  title_page_newpage_after: true
   open_graph_image: open-graph.png
 
 paths:
@@ -32,12 +34,14 @@ frontmatter:
 
     about_the_series:
       repo_template: templates/about_the_series.md.j2
-      output: front-matter/about-the-series.md
+      output: back-matter/about-the-series.md
 
 build:
   formats:
     docx:
       enabled: true
+      # Cover/front-matter silent; Arabic from Introduction; no heads on openers; TOC field.
+      interior_finish: true
     epub:
       enabled: true
     pdf:

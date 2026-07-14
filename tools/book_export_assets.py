@@ -37,6 +37,17 @@ _COVER_IMAGE_RE = re.compile(
     re.M,
 )
 
+_NEWPAGE_RE = re.compile(r"(?m)^\\newpage[ \t]*$")
+
+_OPENXML_PAGEBREAK = (
+    "```{=openxml}\n<w:p>\n  <w:r>\n    <w:br w:type=\"page\"/>\n  </w:r>\n</w:p>\n```"
+)
+
+
+def replace_newpage_for_docx(text: str) -> str:
+    """Translate LaTeX ``\\newpage`` markers into OpenXML page breaks for DOCX."""
+    return _NEWPAGE_RE.sub(_OPENXML_PAGEBREAK, text)
+
 
 def title_page_cover_basename(spec: dict[str, Any]) -> str:
     book = _as_dict(spec.get("book"))
@@ -72,6 +83,8 @@ def prepare_title_page_for_pdf(
         path = match.group(1).strip()
         if Path(path).name != cover_basename:
             return match.group(0)
+        # Absolute or book-relative paths work for xelatex; basename alone does not,
+        # because raw LaTeX bypasses Pandoc's --resource-path resolution.
         return (
             "```{=latex}\n"
             "\\thispagestyle{empty}\n"

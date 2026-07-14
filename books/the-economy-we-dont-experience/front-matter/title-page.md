@@ -7,3 +7,5 @@
 ## **Leadership, Communication, and the Credibility Crisis in Economics and Politics**
 
 **Kevin Steffensen**
+
+\newpage

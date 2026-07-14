@@ -1,19 +1,23 @@
+\newpage
+
 # **Part I**
 
 ## **The Economy We Describe**
 
-The introduction named the split that organizes this book: the economy we argue about is not always the economy we experience. Part I stays on the **described** side of that split first—how summaries are built, how they fail in public, and why good-faith speech can still lose trust when channels are thin and fear is high.
+Before an economy becomes a headline, it becomes a measurement. Someone decides what to count, how to group it, which period to compare, and what level of variation can be set aside long enough for a pattern to appear. Millions of purchases become an inflation rate. Millions of working lives become an unemployment figure. Thousands of expectations become a forecast.
 
-You will read three chapters as one argument, not three topics.
+This work is not the enemy of experience. It is one of the ways a society becomes capable of seeing beyond experience. No household can observe a national labor market. No business owner can infer the condition of an entire economy from one order book. No receipt can show whether a price increase is local, temporary, or widespread. We need institutions that collect what none of us can collect alone.
 
-**Compression** is the starting point. No public can coordinate on ten million payrolls or every price in a basket. GDP, CPI, unemployment, and confidence indices are shorthands for something much larger in real life. That reduction is not a mistake. The mistake is when the summary is treated as the whole—when a headline about resilience sounds like denial of your renewal, your late shipment, or your cut hours. Chapter 1 names the slide from **explanation** toward **signaling**: speech heard as positioning rather than as a map you can check against your ledger.
+But every act of measurement creates a remainder. The average cannot preserve every household. The forecast cannot preserve every possible future. The headline cannot preserve every qualification in the report beneath it. Something is always left behind so that something larger can be seen.
 
-**Forecasts** add time and conditionality. Institutions speak in probabilities—if policy holds, if shocks do not compound. Households and firms often hear verdicts. Chapter 2 walks the forecast era that did not break in the way many headlines promised: aggregates improved, worst-case paths often did not arrive, and credibility still thinned. The lesson is not that forecasters are fools. It is that **conditional** maps can land as categorical alarms, and that avoided disaster does not automatically feel like relief on the ground.
+Most of the time, this is accepted without much thought. The number provides orientation, and life continues close enough to the number that the distance does not feel important. The trouble begins when the remainder becomes where people live.
 
-**Experience** becomes the integrity check when abstraction fails that test. Chapter 3 follows trust as it pools in housing renewals, shop-floor ledgers, receipts, and voices that feel close. That shift is not always anti-intellectual. It is often adaptive reasoning under low trust: if the headline does not match my costs, I will trust what matches until shown otherwise.
+A national report says wages are rising, while the raise disappears into rent and insurance. A forecast warns of recession, and a business delays hiring for a downturn that does not arrive. Inflation begins to fall, but the price level remains high enough that the household never experiences the change as relief. The description is not necessarily false. It is incomplete in a way that has become difficult to ignore.
 
-Across Part I, one invariant holds (named in the introduction, tested in the chapters): necessary reduction becomes harmful when audiences cannot tell whether speech is meant to explain or to position. Leaders who want explanation learn a habit the book returns to: name **two clocks** in the same breath—the national indicator and the local bill—without treating local pain as illegitimate or unpatriotic.
+Under those conditions, people do not merely disagree with the economic story. They begin to question what kind of story it is. Is this number meant to help me understand what is happening? Is it meant to reassure markets? Is it meant to defend the people currently in office? Is it meant to persuade me that the strain I feel should no longer count? The same statistic can move through each of these roles without changing its value. What changes is the relationship between the speaker and the listener. A measure intended as a map begins to sound like a verdict.
 
-Part I does not ask whether aggregates are useful. Aggregates are indispensable. Part I asks what happens to legitimacy when compression becomes signaling—and when signaling sends audiences back to experience as the only map they trust. It prepares the question Part II will sharpen: once trust thins, which messages travel farther, and why?
+This is why the credibility crisis cannot be solved simply by choosing between experts and experience. Experts can see patterns that experience cannot. Experience can reveal what expertise has compressed away. Each becomes dangerous when it claims completeness.
 
-Chapter 1 begins with the compression problem itself: how complex economies travel through simple channels, and why that slide is structural, not a failure of attention spans alone.
+The chapters that follow remain inside that tension. They begin with the average: the necessary act of turning a complicated economy into something public life can carry. They move into the forecast, where uncertainty is compressed into a future people may reorganize their lives around. They end at the kitchen table, where every public claim is checked against what must actually be paid. The movement is from distance toward touch—from the report to the headline, from the headline to the decision, from the decision to the receipt.
+
+The purpose is not to prove that the chart is wrong. It is to understand what the chart had to leave out in order to become visible at all—and what happens when the people living inside that remainder are told the summary should matter more than the life it summarizes.
