@@ -29,7 +29,6 @@ from book_export_assets import (  # noqa: E402
 from book_output_stem import stem_for_book_dir  # noqa: E402
 from book_specs import load_spec_for_book_dir, spec_format_config  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
-from docx_interior_finish import finish_interior_docx  # noqa: E402
 from publication_markdown import stage_publication_units  # noqa: E402
 
 
@@ -47,6 +46,10 @@ def _maybe_finish_interior(out: Path, *, spec: dict) -> None:
     cfg = spec_format_config(spec, "docx")
     if cfg.get("interior_finish") is not True:
         return
+    # Lazy: book-export CI installs python-docx only when needed; other books
+    # must not import docx_interior_finish at module load.
+    from docx_interior_finish import finish_interior_docx
+
     status = finish_interior_docx(out, running_title=_running_title(spec))
     print(f"interior_finish: {status}")
 
