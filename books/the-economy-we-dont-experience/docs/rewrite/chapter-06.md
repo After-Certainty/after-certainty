@@ -20,7 +20,7 @@ The leader has more information than the sentence can carry. The sentence will o
 
 Certainty has practical uses. Markets respond to expectations. Employees take cues from executives. Households may delay purchases when leaders appear alarmed. Legislatures become harder to coordinate when officials publicly disagree about the condition they are trying to address. A leader therefore does more than describe reality. The leader also tries to stabilize behavior inside it.
 
-A central banker signals seriousness about inflation partly because expectations can influence wages, prices, borrowing, and investment.[^c6-fed] A chief executive emphasizes confidence because employees, customers, and investors may interpret visible uncertainty as evidence that conditions are worse than they appear. A mayor announcing a new development wants residents and businesses to believe the city is moving forward. Confidence can become a tool of coordination. That does not make it false. It makes it dangerous to confuse with explanation.
+A central banker signals seriousness about inflation partly because expectations can influence wages, prices, borrowing, and investment.[^c6-fed][^c6-bernanke] A chief executive emphasizes confidence because employees, customers, and investors may interpret visible uncertainty as evidence that conditions are worse than they appear. A mayor announcing a new development wants residents and businesses to believe the city is moving forward. Confidence can become a tool of coordination. That does not make it false. It makes it dangerous to confuse with explanation.
 
 Explanation asks whether the account maps the world well enough for people to understand what is happening. Signaling asks what the statement will cause people to believe, feel, or do. Leadership requires both. The problem begins when the signaling function becomes invisible to the speaker.
 
@@ -96,7 +96,7 @@ Institutions therefore need coalitions for restraint: journalists who distinguis
 
 ### **The Sentence That Remains**
 
-At the end of the press conference, the official answers a question about housing. The national data, the official says, show progress on inflation. But housing costs remain severe in many places, and recent borrowers are experiencing a different economy from homeowners who locked in lower rates years earlier.[^c6-bernanke] The answer is accurate. It is also too long for the evening headline.
+At the end of the press conference, the official answers a question about housing. The national data, the official says, show progress on inflation. But housing costs remain severe in many places, and recent borrowers are experiencing a different economy from homeowners who locked in lower rates years earlier. The answer is accurate. It is also too long for the evening headline.
 
 One outlet keeps the first clause: *Inflation progress continues.* Another keeps the second: *Officials admit housing crisis remains severe.* Both are fragments. The public receives them as competing realities.
 

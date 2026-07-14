@@ -146,10 +146,15 @@ No footnotes.
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^c8-stress-tests]` | Bank stress tests as counterfactual machines; Fed annual results + FSB post-2008 summaries | Ch 8 | Umbrella | Documentary | Keep; optionally cite a specific annual stress test summary year when drafting |
-| `[^c8-fiscal-stabilizers]` | UI, Medicaid valves, tax brackets as automatic stabilizers; pandemic fiscal response remembered 2008 lessons | Ch 8 | Umbrella | Documentary | Needs CBO/legislative precision when drafting |
+| `[^c8-composite]` | Manufacturer / credit-line / payroll scenes are composites | Ch 8 opening | N/A | Composite | **In rewrite draft** |
+| `[^c8-stress-tests]` | Capital requirements, deposit protections, stress tests, liquidity facilities as safeguards against contagion | Ch 8 success-that-looks-like-nothing | Umbrella | Documentary | **In rewrite draft**; optionally cite a specific annual stress-test year at migration |
+| `[^c8-aggregates]` | Early-2020s employment/CPI strength + SHED household unevenness beside aggregate resilience | Ch 8 resilience≠flourishing | Umbrella | Documentary | **In rewrite draft** |
+| `[^c8-reinhart]` | Crisis memory → reform → forgetting cycle; financial folly recurring | Ch 8 memory-inside-a-rule | Complete | Documentary | **In rewrite draft** (author orphan note attached at hinge) |
+| `[^c8-banks-2023]` | 2023 regional-bank failures; Fed/FDIC stabilization response | Ch 8 regional bank / local business | Umbrella | Documentary | **In rewrite draft**; keep publicized failures documentary; composite for other firms |
+| `[^c8-bernanke]` | 2008 systemic-collapse contrast / crisis-aftermath institutional memory | Ch 8 resilience≠flourishing (2008 hinge) | Complete | Documentary memoir | **In rewrite draft** (author orphan note attached at hinge) |
+| `[^c8-fiscal-stabilizers]` | UI, Medicaid, nutrition assistance, tax collections as automatic stabilizers | Ch 8 automatic help | Umbrella | Documentary | **In rewrite draft**; sharpen CBO/legislative cites at migration |
 
-**Composites:** manufacturer credit line stayed open; regional bank failure 2023 vs non-failures (2023 episode is historical — keep carefully documentary for the publicized failures, composite for “thousands did not fail”); Gulf Coast vs inland regulation memory; warehouse overtime under logistics resilience.
+**Composites:** manufacturer credit line stayed open — labeled. 2023 regional-bank episode is historical for the publicized failures; composite for ordinary firms beside them. Warehouse overtime under logistics resilience retained as illustration.
 
 ---
 
@@ -175,9 +180,10 @@ Appendix also cross-references Ch 1 town hall, Ch 3 wages, Part II asymmetry, Pa
 |--------------------|-------|-------------------------|
 | Fed SHED; BLS CPI; BLS Employment/JOLTS; Census housing; Pew inflation views; Kahneman/Tversky; Shiller; Bernanke; Reinhart/Rogoff; Rodrik; Tetlock; Yellen; Haldane; Kashyap/Stein; Mankiw | Present | Retain; tighten titles/years as footnotes pin down |
 | **Kaiser Family Foundation** Employer Health Benefits | **Cited in Ch 3 (`[^c3-health]`) but absent from bibliography** | **Add** |
+| **Key, *The Responsible Electorate*; Fiorina, *Retrospective Voting*** | **Cited in rewrite Ch 7; absent from production bibliography** | **Add** |
 | Sunstein — *How Facts Change Minds* / “see also *#Republic*” | **Provisional wording** | Verify intended title/year or replace with the work actually relied on |
-| Classic economic voting (footnote only) | Not a bibliography line | Add precise work when `[^c7-economic-voting]` is repaired |
-| Financial Stability Board; CBO | Referenced in footnotes, not always bibliography lines | Add when Ch 8 footnotes are sharpened |
+| Classic economic voting (old production footnote) | Was vague | **Superseded by Key + Fiorina in rewrite Ch 7** |
+| Financial Stability Board; CBO; FDIC 2023 materials | Referenced in rewrite Ch 8 footnotes (`c8-stress-tests` / `c8-fiscal-stabilizers` / `c8-banks-2023`) | **Add / sharpen bibliography lines at migration** |
 | Works present but lightly used (e.g., Kashyap/Stein, Haldane, Reinhart/Rogoff, Rodrik, Mankiw, Tetlock, Yellen) | May be portfolio/background | Confirm still needed after rewrite; do not drop silently if a claim still depends on them |
 
 ---
