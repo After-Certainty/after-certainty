@@ -50,9 +50,7 @@ A family does not experience a four-percent raise as a gain if rent, childcare, 
 
 ### **The Costs That Do Not Fit Neatly**
 
-The most consequential household costs are not always the easiest to summarize.
-
-Housing is one example. National shelter measures can show moderation while rents continue rising sharply in a particular city or county. Local inventory, construction, insurance, taxes, migration, and ownership patterns shape the renewal notice received by an individual tenant.[^c3-shelter] A national measure can correctly describe the broader pattern and still be a poor guide to whether one family can remain in its home.
+The most consequential household costs are not always the easiest to summarize. Housing is one example. National shelter measures can show moderation while rents continue rising sharply in a particular city or county. Local inventory, construction, insurance, taxes, migration, and ownership patterns shape the renewal notice received by an individual tenant.[^c3-shelter] A national measure can correctly describe the broader pattern and still be a poor guide to whether one family can remain in its home.
 
 Healthcare produces a similar divide. A medical-price index may moderate while an employer changes its benefit plan. The monthly premium rises. The deductible resets higher. The network narrows. A prescription moves to a different tier. The household experiences all of these changes as medical cost, even when they enter official measures differently or on different timelines.[^c3-health] The family is not wrong to say healthcare became more expensive. The index may not be wrong either. They are describing different layers of the same system.
 
