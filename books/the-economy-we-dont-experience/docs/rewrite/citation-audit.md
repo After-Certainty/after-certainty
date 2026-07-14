@@ -147,12 +147,12 @@ No footnotes.
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
 | `[^c8-composite]` | Manufacturer / credit-line / payroll scenes are composites | Ch 8 opening | N/A | Composite | **In rewrite draft** |
-| `[^c8-stress-tests]` | Capital requirements, deposit protections, stress tests, liquidity facilities as safeguards against contagion | Ch 8 success-that-looks-like-nothing | Umbrella | Documentary | **In rewrite draft**; optionally cite a specific annual stress-test year at migration |
+| `[^c8-stress-tests]` | Capital requirements, deposit protections, stress tests, liquidity facilities as safeguards against contagion | Ch 8 success-that-looks-like-nothing | Umbrella | Documentary | **In rewrite draft**; Fed stress-test materials + FSB in bibliography |
 | `[^c8-aggregates]` | Early-2020s employment/CPI strength + SHED household unevenness beside aggregate resilience | Ch 8 resilience≠flourishing | Umbrella | Documentary | **In rewrite draft** |
 | `[^c8-reinhart]` | Crisis memory → reform → forgetting cycle; financial folly recurring | Ch 8 memory-inside-a-rule | Complete | Documentary | **In rewrite draft** (author orphan note attached at hinge) |
-| `[^c8-banks-2023]` | 2023 regional-bank failures; Fed/FDIC stabilization response | Ch 8 regional bank / local business | Umbrella | Documentary | **In rewrite draft**; keep publicized failures documentary; composite for other firms |
+| `[^c8-banks-2023]` | 2023 regional-bank failures; Fed/FDIC stabilization response | Ch 8 regional bank / local business | Umbrella | Documentary | **In rewrite draft**; FDIC + Fed FSR in bibliography |
 | `[^c8-bernanke]` | 2008 systemic-collapse contrast / crisis-aftermath institutional memory | Ch 8 resilience≠flourishing (2008 hinge) | Complete | Documentary memoir | **In rewrite draft** (author orphan note attached at hinge) |
-| `[^c8-fiscal-stabilizers]` | UI, Medicaid, nutrition assistance, tax collections as automatic stabilizers | Ch 8 automatic help | Umbrella | Documentary | **In rewrite draft**; sharpen CBO/legislative cites at migration |
+| `[^c8-fiscal-stabilizers]` | UI, Medicaid, nutrition assistance, tax collections as automatic stabilizers | Ch 8 automatic help | Umbrella | Documentary | **In rewrite draft**; CBO automatic-stabilizers reports in bibliography |
 
 **Composites:** manufacturer credit line stayed open — labeled. 2023 regional-bank episode is historical for the publicized failures; composite for ordinary firms beside them. Warehouse overtime under logistics resilience retained as illustration.
 
