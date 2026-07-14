@@ -83,13 +83,13 @@ def prepare_title_page_for_pdf(
         path = match.group(1).strip()
         if Path(path).name != cover_basename:
             return match.group(0)
-        # Prefer the basename so --resource-path can resolve the cover reliably.
-        image_name = Path(image_ref).name
+        # Absolute or book-relative paths work for xelatex; basename alone does not,
+        # because raw LaTeX bypasses Pandoc's --resource-path resolution.
         return (
             "```{=latex}\n"
             "\\thispagestyle{empty}\n"
             "\\begin{center}\n"
-            f"\\includegraphics[width=\\textwidth]{{{image_name}}}\n"
+            f"\\includegraphics[width=\\textwidth]{{{image_ref}}}\n"
             "\\end{center}\n"
             "\\clearpage\n"
             "```\n"
