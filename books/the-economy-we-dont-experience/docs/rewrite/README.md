@@ -42,11 +42,26 @@ When the author provides a chapter (or bridge) draft for this workspace, apply t
 
 ## Drafting order (after stubs)
 
+Reading order (bridges open each part after the preceding unit):
+
+1. Introduction — The Chart and the Receipt  
+2. Part I Bridge — The Economy We Describe  
+3. Chapters 1–3  
+4. Part II Bridge — What Travels  
+5. Chapters 4–5  
+6. Part III Bridge — Leadership in a Compressed World  
+7. Chapters 6–7  
+8. Part IV Bridge — What Holds  
+9. Chapter 8  
+10. Conclusion  
+
+Bridges target **~500–900 words**: shift attention; do not summarize the prior part or preview every chapter.
+
 1. Confirm migration map + citation audit cover every production unit.
 2. Draft **Introduction** first; treat it as the voice model.
 3. Review and revise the Introduction before drafting further.
-4. Draft **Chapter 1**; review Introduction + Chapter 1 together.
-5. Draft remaining units in reading order; update `status.md` after each step.
+4. Draft **Part I bridge**, then **Chapter 1**; review Introduction + bridge + Chapter 1 together.
+5. Draft remaining units in reading order (insert each part bridge before that part’s chapters); update `status.md` after each step.
 6. Do **not** bulk-rewrite the whole book in one pass.
 7. Production manuscript stays unchanged until the migration gate.
 8. For every author-supplied chapter, run the **Incoming chapter intake** checks above.

@@ -1,52 +1,21 @@
-# Part II Bridge — What Travels
+# **Part II**
 
-> Rewrite status: Stub  
+## **What Travels**
+
+> Rewrite status: Drafted  
 > Source sections: `parts/part-2-why-pain-travels-farther/bridge.md`  
-> Target length: ~300–450 words  
-> Primary recurring image: Receipt / denial letter traveling farther than a distribution table  
-> Primary compression: Brief — from where credibility pools to why some messages move.
+> Intake: essayistic handoff; no chapter syllabus; target ~500–900 words
 
-## Purpose
+When belief settles near what people can touch, another problem appears that is not solved by better measurement alone. The question is no longer only whether a claim is true. It is which true claim can move.
 
-Move from kitchen-table credibility pooling to the politics of motion: why some explanations must fight for every inch while others circulate with lower coordination cost.
+A national employment release and a grocery total can both be accurate on the same morning. One may contain more information. The other may circulate farther before evening. The difference is not automatically a preference for feeling over fact. It is a difference in what each message asks of the people who receive it.
 
-## Opening Observation
+Recognition asks for overlap. A person needs only remember a similar moment at a register, a renewal notice, or a shortened schedule. Interpretation asks for alignment: a starting point, a measure, a period, a theory of who benefited, and a judgment about whether the gain outweighs the costs that arrived with it. Under thin public channels—alerts, clips, comments, the brief attention of a workday—the first request is cheaper. The second has more work to do before it can travel.
 
-Once belief anchors in what touches people, the next question is not only what is true, but what can travel through a thin public channel before the day ends.
+This is why pain often moves as if it had been built for bandwidth. Grievance compresses into a short moral sentence. Improvement arrives with caveats, distributional tables, and arguments over credit. A correction that arrives after schedules have already changed may still be accurate and still arrive late. Timing is part of the mechanism. The incomplete story does not need permanent belief in order to matter. It only needs to shape decisions while belief is unsettled.
 
-## Essay Movement
+Neither speed is a moral virtue by itself. Pain can force neglected costs into view. It can also gather a crowd around a false cause, granting an explanation more authority than the suffering it borrows. Improvement can describe a real pattern. It can also ask listeners to wait for a theory while the bill remains unpaid. Recognition without mechanism becomes politics without governance. Mechanism without recognition becomes a lecture delivered to people who have already stopped listening.
 
-1. Observation — messages compete under bandwidth limits  
-2. Widening — grievance compresses well; explanation needs qualifiers clips cut  
-3. Light mechanism preview — overlap vs alignment (owned by Ch 4)  
-4. Complication — not “people love negativity”; coordination cost  
-5. Return — Part II watches travel, not virtue  
-6. Soft handoff without “Chapter 4 opens with…”
+Part II turns from where credibility pools to why some explanations fight for every inch. It watches how overlap spreads without a shared program, how a single receipt can defeat a cheerful average in conversation, and how messengers who seem to see a household’s circumstance can open a door that explanation still has to walk through. The point is not that audiences are wired only for negativity. The point is coordination cost—what a thin channel can carry before the day ends, and what leadership must do when the fastest message is not yet an explanation.
 
-## Existing Material to Preserve
-
-- Coordination-cost framing (not wire-for-negativity)  
-- Part II’s two jobs: pain’s travel advantage; resonance before mechanism  
-
-## Material to Condense or Move
-
-- Part I diagnostic re-teach — cut  
-- Full chapter syllabus with titles and theses — cut  
-- Campaign dual-message preview that Ch 4 owns — leave to Ch 4  
-
-## Factual Anchors and Citations
-
-- None  
-
-## Risks
-
-- Restating Part I  
-- Celebrating pain politics  
-
-## Closing Compression
-
-Provisional: Under thin channels, the message that asks only for recognition often outruns the message that asks for alignment.
-
-## Draft Notes
-
-_(Empty.)_
+If Part I asked how the economy we describe can leave people out, Part II asks what happens once they notice. The receipt does not only contradict the chart. It sometimes outruns it.

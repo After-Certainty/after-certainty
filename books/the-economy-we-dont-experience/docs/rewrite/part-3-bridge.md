@@ -2,7 +2,7 @@
 
 > Rewrite status: Stub  
 > Source sections: `parts/part-3-leadership-under-compression/bridge.md`  
-> Target length: ~300–450 words  
+> Target length: ~500–900 words  
 > Primary recurring image: From resonant messengers to people who must govern in one-sentence channels  
 > Primary compression: Brief pivot — resonate is not the same job as govern.
 

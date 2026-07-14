@@ -7,11 +7,11 @@
 | Section | Status | Source mapped | Citations mapped | Draft reviewed | Approved |
 |---------|--------|---------------|------------------|----------------|----------|
 | Introduction — The Chart and the Receipt | Drafted | Yes | Yes | No | No |
-| Part I Bridge — The Economy We Describe | Stub | Yes | Yes | No | No |
+| Part I Bridge — The Economy We Describe | Drafted | Yes | N/A | No | No |
 | Chapter 1 — What the Average Leaves Out | Drafted | Yes | Yes | No | No |
 | Chapter 2 — When a Forecast Becomes a Promise | Drafted | Yes | Yes | No | No |
 | Chapter 3 — The Economy at the Kitchen Table | Drafted | Yes | Yes | No | No |
-| Part II Bridge — What Travels | Stub | Yes | Yes | No | No |
+| Part II Bridge — What Travels | Drafted | Yes | N/A | No | No |
 | Chapter 4 — Why Pain Moves Faster | Drafted | Yes | Yes | No | No |
 | Chapter 5 — The People Who Sound Like They See Us | Stub | Yes | Yes | No | No |
 | Part III Bridge — Leadership in a Compressed World | Stub | Yes | Yes | No | No |
@@ -34,6 +34,9 @@
 | Ch 3 author intake | Done | Pandoc IDs `c3-cpi` / `c3-kahneman` / `c3-shelter` / `c3-health` / `c3-wages`; nurse composite labeled; unused author `[^5]` attached at wage hinge; ~7 movements (review consolidate); KFF still missing from production bibliography |
 | Intro author intake | Done | Split production `[^intro-cpi]` into `[^intro-cpi]` / `[^intro-shed]` / `[^intro-pew]`; attached at hinges (body had notes without markers); staccato merged; no internal `###` |
 | Ch 4 author intake | Done | Pandoc IDs `c4-jolts` / `c4-shiller` / `c4-cpi-level` / `c4-kahneman` / `c4-household` / `c4-pew`; unused notes attached at hinges; ~11 movements (review consolidate); absolute “always” avoided |
+| Part I bridge draft | Done | ~500–700w attention shift Intro→described economy; no TOC syllabus |
+| Part II bridge draft | Done | ~500–700w attention shift kitchen-table credibility→what travels; no Ch 4 preview scene |
+| Reading order locked | Done | Intro → P1 bridge → Ch1–3 → P2 bridge → Ch4–5 → P3 bridge → Ch6–7 → P4 bridge → Ch8 → Conclusion |
 | Full consecutive read-through | Not started | After all Drafted |
 | Citation audit resolved | Not started | Gaps flagged in `citation-audit.md` |
 | Bibliography reconciled | Not started | At migration |

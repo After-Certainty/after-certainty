@@ -135,20 +135,22 @@ Working titles (sequence locked; only small refinements allowed without explanat
 | Unit | Working title | Target length |
 |------|---------------|---------------|
 | Introduction | The Chart and the Receipt | ~1,400–1,800 words |
-| Part I bridge | The Economy We Describe | ~300–500 |
+| Part I bridge | The Economy We Describe | ~500–900 (shift attention; do not summarize) |
 | Chapter 1 | What the Average Leaves Out | ~2,500–3,500 |
 | Chapter 2 | When a Forecast Becomes a Promise | ~2,500–3,500 |
 | Chapter 3 | The Economy at the Kitchen Table | ~2,200–3,200 |
-| Part II bridge | What Travels | ~300–450 |
+| Part II bridge | What Travels | ~500–900 |
 | Chapter 4 | Why Pain Moves Faster | ~2,400–3,400 |
 | Chapter 5 | The People Who Sound Like They See Us | ~2,200–3,200 |
-| Part III bridge | Leadership in a Compressed World | ~300–450 |
+| Part III bridge | Leadership in a Compressed World | ~500–900 |
 | Chapter 6 | Leadership in a One-Sentence World | ~2,000–2,800 |
 | Chapter 7 | What Elections Can Reject | ~1,800–2,600 |
-| Part IV bridge | What Holds | ~300–450 |
+| Part IV bridge | What Holds | ~500–900 |
 | Chapter 8 | The Guardrails We Notice Only When They Fail | ~2,200–3,000 |
 | Conclusion | Two Truths in One Sentence | ~500–700 |
 | Appendix | Why “Just Tell the Truth” Is Not a Strategy | Stub retained; see §7 |
+
+**Reading order:** bridges open each part after the preceding unit (Intro → Part I bridge → Ch 1–3 → Part II bridge → Ch 4–5 → Part III bridge → Ch 6–7 → Part IV bridge → Ch 8 → Conclusion).
 
 Edition band after drafting: still aim toward **~28–32k** ([`docs/book-rules.md`](../book-rules.md)). Current production prose undershoots (~18.6k including appendix); rewrite should deepen scenes rather than re-add scaffolding.
 

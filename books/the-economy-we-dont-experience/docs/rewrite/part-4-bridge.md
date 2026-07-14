@@ -2,7 +2,7 @@
 
 > Rewrite status: Stub  
 > Source sections: `parts/part-4-stability-memory-and-fragility/bridge.md`  
-> Target length: ~300–450 words  
+> Target length: ~500–900 words  
 > Primary recurring image: From political legitimacy fights toward safeguards that work as silence  
 > Primary compression: Brief — systems can hold in the plumbing while households still hurt.
 
