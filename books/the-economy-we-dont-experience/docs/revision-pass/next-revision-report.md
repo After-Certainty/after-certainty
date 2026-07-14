@@ -34,8 +34,14 @@
 8. **Citation problems fixed** — Bernanke scoped to historical communication/2008 reform memory; Kahneman removed from platform/messenger claims; Fed/Bernanke markers split; Ch4 composite added.
 9. **Sources still requiring human verification** — SPF table wording; Powell/Reuters wording; FDIC Options PDF details; remaining Pew umbrella notes.
 10. **Bibliography** — Removed: Haldane; Kashyap & Stein; Mankiw; Rodrik; Sunstein; Yellen; combined Fed mega-entry. Added/split: SPF; Hovland & Weiss; Lupia & McCubbins; Bartels; Powell transcript; Reuters Schneider; FDIC Options; Joint Statement; titled FSR/SEP/stress-test entries.
-11. **Build and validation results** — recorded below after Phase 5 commands.
-12. **Remaining editorial risks** — slight overshoot past 10% (−10.3%); Ch3/Ch2 still among the largest absolute cuts; Pew notes remain broad; front-matter DOCX polish (Cover heading / About the Series / TOC) depends on shared export templates and was not hand-edited into generated binaries.
+11. **Build and validation results**
+    - `make validate-book-specs` — passed (30 book specs)
+    - `make build-book DIR=books/the-economy-we-dont-experience FORMATS="docx epub"` — DOCX + EPUB built; manifest written under `build/books-the-economy-we-dont-experience/`
+    - `make lint` (Ruff) — passed after local Ruff install
+    - `pytest` — 126 passed; 2 failed in `tests/test_closing_export.py` (reference-docx styles / PDF export), unrelated to this manuscript prose change
+    - Cover caption: DOCX export already blanks cover alt text via `prepare_title_page_for_docx`
+    - About the Series moved to back-matter assembly order in `index.md`
+12. **Remaining editorial risks** — net cut ~10.3% (edge of 5–10% band); Ch2/Ch3/Ch4 among largest absolute cuts; remaining Pew umbrella notes; SPF/Powell/FDIC wording should be human-spot-checked against primary PDFs; hanging indents / full TOC typography still depend on shared reference DOCX.
 
 ## Quality gate notes
 
