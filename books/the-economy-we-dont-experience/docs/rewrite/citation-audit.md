@@ -14,9 +14,11 @@
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^intro-cpi]` | In 2022–24, official measures could show cooling inflation / strong employment while households still felt hostile prices | Introduction (primary); optional Ch 1 echo | Umbrella | Documentary (stats) + general household | Sharpen later to specific CPI summary months and SHED/Pew report titles if drafting needs tighter hinge; keep as retained set |
+| `[^intro-cpi]` | Official CPI / employment releases can report easing or strength while grocery/register experience remains strained | Introduction opening | Umbrella | Documentary (stats) | **In rewrite draft** at phone/aisle hinge; split from former combined umbrella |
+| `[^intro-shed]` | Households can remain under pressure amid uneven national improvement (rent, overtime, price levels, borrowing) | Introduction | Umbrella | Documentary survey | **In rewrite draft**; production bundled this inside old `[^intro-cpi]` |
+| `[^intro-pew]` | Credibility / perception splits; trust relocates when speakers seem not to see omitted coordinates | Introduction | Umbrella | Documentary survey | **In rewrite draft** at credibility question |
 
-Opening observation and closing compression in rewrite should **not** invent new citeable claims.
+Opening lyric and closing compression otherwise uncited. Author draft listed three notes without body markers — intake attached them at factual hinges.
 
 ---
 

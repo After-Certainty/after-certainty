@@ -6,7 +6,7 @@
 
 | Section | Status | Source mapped | Citations mapped | Draft reviewed | Approved |
 |---------|--------|---------------|------------------|----------------|----------|
-| Introduction — The Chart and the Receipt | Stub | Yes | Yes | No | No |
+| Introduction — The Chart and the Receipt | Drafted | Yes | Yes | No | No |
 | Part I Bridge — The Economy We Describe | Stub | Yes | Yes | No | No |
 | Chapter 1 — What the Average Leaves Out | Drafted | Yes | Yes | No | No |
 | Chapter 2 — When a Forecast Becomes a Promise | Drafted | Yes | Yes | No | No |
@@ -31,6 +31,7 @@
 | Intro + Ch 1 reviewed together | Not started | Required before Chapters 2+ |
 | Ch 1 author intake | Done | Pandoc IDs `c1-bls-jobs` / `c1-shelter` / `c1-shiller`; staccato merged |
 | Ch 2 author intake | Done | Pandoc IDs `c2-fomc` / `c2-aggregate` / `c2-shed` / `c2-safeguards` / `c2-tetlock` / `c2-beige`; composite labeled; staccato merged; note ~10 `###` movements (above 3–5 target — consolidate at review) |
+| Ch 3 author intake | Done | Pandoc IDs `c3-cpi` / `c3-kahneman` / `c3-shelter` / `c3-health` / `c3-wages`; nurse composite labeled; unused author `[^5]` attached at wage hinge; ~7 movements (review consolidate); KFF still missing from production bibliography |
 | Full consecutive read-through | Not started | After all Drafted |
 | Citation audit resolved | Not started | Gaps flagged in `citation-audit.md` |
 | Bibliography reconciled | Not started | At migration |

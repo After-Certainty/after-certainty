@@ -1,64 +1,49 @@
-# Introduction — The Chart and the Receipt
+# **Introduction**
 
-> Rewrite status: Stub  
-> Source sections: `front-matter/introduction-the-economy-we-argue-about.md`; light seeds from Ch 1 opening + Ch 3 receipt imagery  
-> Target length: ~1,400–1,800 words  
-> Primary recurring image: Chart and receipt  
-> Primary compression: The chart was not wrong. The receipt was not wrong. The failure began when either was asked to erase the other.
+## **The Chart and the Receipt**
 
-## Purpose
+> Rewrite status: Drafted  
+> Source sections: `front-matter/introduction-the-economy-we-argue-about.md`  
+> Intake: Pandoc footnotes; staccato paragraphs merged; notes attached at factual hinges
 
-Orient the reader to the book’s deeper claim: people do not experience “the economy” as a single object—they experience prices, hours, rent, interest, insurance, care, travel, and time—and credibility fails when a necessary summary is treated as the whole. Reveal enough argument to set the stakes without summarizing every chapter.
+A phone can announce that inflation is easing while someone is standing in a grocery aisle wondering when ordinary food became expensive enough to require strategy.[^intro-cpi] The notification is not necessarily wrong. The shopper is not confused. One describes a rate of change across a large economy. The other describes the amount due at the register. The chart and the receipt are both evidence. They are simply evidence from different distances.
 
-## Opening Observation
+This difference has become one of the central problems in public economic life.
 
-A phone notification says inflation is easing while a shopping cart, rent renewal, insurance notice, or credit-card statement still says life is expensive. Two true instruments; one badly asked to cancel the other.
+We speak of *the economy* as though it were a place everyone inhabits together. In practice, people encounter it through rent, wages, interest, insurance, childcare, fuel, medical bills, work schedules, and the time required to hold all of those obligations together. A national measure can show improvement while a household remains under pressure. Employment can be strong while a particular worker loses overtime. Inflation can slow while prices remain far above the level people remember. The financial system can remain stable while borrowing becomes expensive enough to close off choices.[^intro-shed]
 
-## Essay Movement
+None of these contradictions requires anyone to be lying. They require only a large system, unevenly experienced, communicated through language too small to carry all of it.
 
-1. Observation — notification vs cart / renewal / statement  
-2. Widening frame — people meet the economy through household instruments, not through GDP vocabulary  
-3. Factual grounding — post-2020 perception gap / CPI + SHED + Pew (`[^intro-cpi]`)  
-4. Complication — compression is necessary; the wound is substitution and signaling under thin channels, not “people hate numbers”  
-5. Return — chart needs receipt; receipt needs chart  
-6. Closing compression — neither instrument erases the other
+Economic measures exist because no one can see the whole economy directly. Gross domestic product, unemployment, inflation, and consumer confidence compress millions of transactions and circumstances into forms that can be compared. Without them, public argument would collapse into competing anecdotes. A receipt can show what happened to one household. It cannot show what is happening across a country. The chart sees patterns the receipt cannot. But the chart achieves this by leaving things out.
 
-## Existing Material to Preserve
+An average cannot preserve every region, industry, age group, housing arrangement, debt position, or family structure from which it was constructed. That omission is not a flaw added by careless economists. It is how aggregation works. The problem begins when a summary is presented as though nothing meaningful was lost in the compression.
 
-- Uneven experience by sector, region, cohort, assets, household structure  
-- Accurate summaries can still feel dishonest when coordinates are omitted (housing / energy-food baskets)  
-- Compression → signaling invariant (name lightly; do not lecture TOC)  
-- Credibility as judgment of whether speech comprehends “your slice”  
-- Credibility pooling into proximate interpreters when institutions fail the check  
-- Structural diagnosis (not mass irrationality or anti-expert screed)  
-- Three widening forces after 2020: asynchronous shocks; accelerated channels; thin trust remembering revision as deceit  
-- Position: not partisan brief / not policy manifesto  
+A government official says the economy is resilient. A renter hears that the increase in her renewal does not count. A report says wages are rising. A parent looks at childcare and wonders who received the improvement. A headline says supply chains have normalized. A small manufacturer is still waiting for the component that stops the line. The national statement may be accurate. What it cannot do is live the local consequence.
 
-## Material to Condense or Move
+When institutions respond to these mismatches by repeating the aggregate more forcefully, the number changes its social meaning. It stops sounding like an attempt to orient the public and begins sounding like an attempt to establish a mood: the economy is strong; inflation is under control; the recovery is working. Statements like these may emerge from defensible data. They are also claims about how people should interpret their circumstances. When the interpretation does not match the bill, the schedule, or the renewal notice, the disagreement becomes larger than economics. It becomes a disagreement about credibility.
 
-- “How The Argument Proceeds” part syllabus → cut  
-- Long “Who Should Read This” audience menu → cut or one sentence  
-- Dense heading ladder (“Uneven Experience…”, “Invariant…”, “Core Claim…”) → 3–5 movements without scaffolding titles that announce the curriculum  
-- Full definitional freight of two clocks → secondary; prefer chart/receipt  
-- Appendix “just tell the truth” seed: truth necessary but insufficient / channel mismatch → absorb lightly here  
+People begin asking not only whether the statistic is correct, but whether the speaker understands what the statistic leaves out.[^intro-pew] When the answer appears to be no, trust moves elsewhere. It moves toward the employer who knows which shifts are being cut, the landlord who knows why insurance rose, the union steward who has heard the layoff rumors, the shop owner watching customers choose cheaper products, or the person holding a camera in the grocery aisle and saying, in plain language, *this is what it costs now*.
 
-## Factual Anchors and Citations
+These voices do not always have better explanations. They may misunderstand causes, generalize from narrow experience, or direct real pain toward false villains. Sincerity is not accuracy. Recognition is not understanding. But recognition matters. A person who seems to see your circumstances may be trusted before an institution with a better method but no visible awareness of your life. That is not simply a failure of economic literacy. It is a response to repeated experiences of being described by summaries that do not seem to include you.
 
-- Retain `[^intro-cpi]` at the observation→evidence hinge  
-- Opening lyric and closing compression generally uncited unless they make specific factual claims  
-- Do not invent new statistics for the opening scene  
+The public then divides into different economic realities. One group points to employment, output, or declining inflation and sees evidence that conditions are improving. Another points to housing, debt, insurance, or grocery prices and sees proof that leaders are detached or deceptive. Each side believes the other is refusing obvious facts. Often they are looking at different clocks.
 
-## Risks
+The first clock records the movement of a national indicator. The second records when that movement reaches a particular household, firm, or region. Those clocks rarely change together. Inflation may slow before prices feel manageable. Interest-rate policy may reduce future pressure while immediately raising the cost of borrowing. A recession may be avoided while businesses still delay hiring and investment. Financial safeguards may prevent collapse while the households they protect experience little that resembles relief. A stable system is not the same thing as a flourishing public.
 
-- Opening becomes vibes-vs-stats caricature of the deeper claim  
-- Over-summarizing the whole book in the introduction  
-- Partisan periodization of 2022–2024  
-- Single-sentence staccato rhythm  
+This book begins in the distance between those claims.
 
-## Closing Compression
+It is not an argument against economic statistics. We need shared measures precisely because individual experience is partial. The receipt cannot reveal the whole any more than the chart can. Nor is this a claim that distrust is always justified. Lived experience can mislead. People notice vivid increases, interpret local conditions as universal, and accept explanations from messengers who make them feel seen. Pain can be real while the story attached to it is false.
 
-> The chart was not wrong. The receipt was not wrong. The failure began when either was asked to erase the other.
+The challenge is to hold these limits together. The chart is incomplete. The receipt is incomplete. Expertise can become signaling. Recognition can become manipulation. A forecast can be reasonable and still spend credibility. A safeguard can work and still leave people hurting. A leader can speak truthfully and still fail to communicate the truth that matters to the listener.
 
-## Draft Notes
+The question is not how to restore a single national story. There may never have been one that included everyone equally. The question is how leaders, institutions, journalists, and citizens can speak about a shared economy without asking people to deny the part they actually experience.
 
-_(Empty — fill during drafting.)_
+That requires a more difficult kind of honesty—not the confidence of announcing that the numbers are good or the anger of insisting that everything is broken, but the discipline to name two truths in the same sentence: here is what improved; here is who is still paying; here is what the measure can tell us; here is what it cannot see.
+
+The chart was not wrong. The receipt was not wrong. The failure began when either was asked to erase the other.
+
+[^intro-cpi]: U.S. Bureau of Labor Statistics, Consumer Price Index and Employment Situation releases, 2022–2024. https://www.bls.gov/cpi/
+
+[^intro-shed]: Board of Governors of the Federal Reserve System, *Report on the Economic Well-Being of U.S. Households*, 2022–2024. https://www.federalreserve.gov/consumerscommunities/shed.htm
+
+[^intro-pew]: Pew Research Center, surveys on public perceptions of inflation, economic conditions, and institutional trust, 2022–2024. https://www.pewresearch.org
