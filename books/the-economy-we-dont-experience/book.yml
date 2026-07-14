@@ -40,6 +40,8 @@ build:
   formats:
     docx:
       enabled: true
+      # Cover/front-matter silent; Arabic from Introduction; no heads on openers; TOC field.
+      interior_finish: true
     epub:
       enabled: true
     pdf:

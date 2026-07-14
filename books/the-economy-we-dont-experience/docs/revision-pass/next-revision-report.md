@@ -54,6 +54,17 @@
 - Endings varied: Ch2/Ch6/Ch7 scene-integrated; Ch1/Ch4/Ch5/Ch8 compressions retained.
 
 
+## Final production micro-pass (post–editorial finish)
+
+Author verdict: editorially finished; no further developmental rewrite.
+
+Completed:
+
+1. Chapter 2: “the previous chapter” → “the same two-clock discipline.”
+2. Contents: dropped Front Matter / Back Matter labels; DOCX now injects a Word TOC field (page numbers + links on Update Field). Markdown links retained for EPUB.
+3. DOCX `interior_finish` (`build.formats.docx.interior_finish`): no running head/page number on cover or front matter; Arabic numbering from Introduction; running heads suppressed on part/chapter/conclusion/appendix/bibliography openers.
+4. Bibliography print URLs: kept only the five unique web sources (Powell transcript, FDIC Options, SPF Q4 2022, Reuters soft-landing, Joint Statement). No further aggressive stripping.
+
 ## Controlled editorial/production pass (follow-up)
 
 | Item | Status |

@@ -176,7 +176,7 @@
               "$ref": "#/$defs/pdfFormatConfig"
             },
             "docx": {
-              "$ref": "#/$defs/formatConfig"
+              "$ref": "#/$defs/docxFormatConfig"
             }
           },
           "minProperties": 1
@@ -210,6 +210,22 @@
       "properties": {
         "enabled": {
           "type": "boolean"
+        }
+      }
+    },
+    "docxFormatConfig": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "interior_finish": {
+          "type": "boolean",
+          "description": "Post-process DOCX: silent front matter, Arabic from Introduction, no running heads on openers, TOC field."
         }
       }
     },

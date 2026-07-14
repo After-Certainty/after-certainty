@@ -27,13 +27,28 @@ from book_export_assets import (  # noqa: E402
     title_page_cover_unnumbered,
 )
 from book_output_stem import stem_for_book_dir  # noqa: E402
-from book_specs import load_spec_for_book_dir  # noqa: E402
+from book_specs import load_spec_for_book_dir, spec_format_config  # noqa: E402
 from diagram_rasterize import rasterize_book_diagrams  # noqa: E402
+from docx_interior_finish import finish_interior_docx  # noqa: E402
 from publication_markdown import stage_publication_units  # noqa: E402
 
 
 def run(cmd: list[str]) -> None:
     subprocess.run(cmd, check=True)
+
+
+def _running_title(spec: dict) -> str:
+    book = spec.get("book") if isinstance(spec.get("book"), dict) else {}
+    title = str(book.get("title") or "").strip()
+    return title or "Manuscript"
+
+
+def _maybe_finish_interior(out: Path, *, spec: dict) -> None:
+    cfg = spec_format_config(spec, "docx")
+    if cfg.get("interior_finish") is not True:
+        return
+    status = finish_interior_docx(out, running_title=_running_title(spec))
+    print(f"interior_finish: {status}")
 
 
 def stage_docx_units(units: list[Path], tmp_dir: Path, *, spec: dict, book_dir: Path) -> list[Path]:
@@ -78,10 +93,13 @@ def export_docx_file(
     book_dir: Path,
     units: list[Path],
     out: Path,
+    spec: dict | None = None,
 ) -> None:
     if not units:
         raise SystemExit(f"No markdown units to export for {out.name}")
     run(build_pandoc_cmd(pandoc=pandoc, book_dir=book_dir, units=units, out=out))
+    if spec is not None:
+        _maybe_finish_interior(out, spec=spec)
     print(out.as_posix())
 
 
@@ -133,6 +151,7 @@ def main() -> None:
                 book_dir=book_dir,
                 units=list(section.paths),
                 out=out,
+                spec=spec,
             )
         return
 
@@ -148,6 +167,7 @@ def main() -> None:
             book_dir=book_dir,
             units=docx_units,
             out=out,
+            spec=spec,
         )
 
 
