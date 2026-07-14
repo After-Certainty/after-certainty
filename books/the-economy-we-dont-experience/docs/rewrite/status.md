@@ -13,7 +13,7 @@
 | Chapter 3 — The Economy at the Kitchen Table | Drafted | Yes | Yes | No | No |
 | Part II Bridge — What Travels | Drafted | Yes | N/A | No | No |
 | Chapter 4 — Why Pain Moves Faster | Drafted | Yes | Yes | No | No |
-| Chapter 5 — The People Who Sound Like They See Us | Stub | Yes | Yes | No | No |
+| Chapter 5 — The People Who Sound Like They See Us | Drafted | Yes | Yes | No | No |
 | Part III Bridge — Leadership in a Compressed World | Stub | Yes | Yes | No | No |
 | Chapter 6 — Leadership in a One-Sentence World | Stub | Yes | Yes | No | No |
 | Chapter 7 — What Elections Can Reject | Stub | Yes | Yes | No | No |
@@ -35,7 +35,7 @@
 | Intro author intake | Done | Split production `[^intro-cpi]` into `[^intro-cpi]` / `[^intro-shed]` / `[^intro-pew]`; attached at hinges (body had notes without markers); staccato merged; no internal `###` |
 | Ch 4 author intake | Done | Pandoc IDs `c4-jolts` / `c4-shiller` / `c4-cpi-level` / `c4-kahneman` / `c4-household` / `c4-pew`; unused notes attached at hinges; ~11 movements (review consolidate); absolute “always” avoided |
 | Part I bridge draft | Done | Author draft (~570w); staccato merged; no footnotes; measurement→remainder attention shift |
-| Part II bridge draft | Done | ~500–700w attention shift kitchen-table credibility→what travels; no Ch 4 preview scene |
+| Part II bridge draft | Done | Author draft; staccato merged; no footnotes; kitchen-table→what travels attention shift |
 | Reading order locked | Done | Intro → P1 bridge → Ch1–3 → P2 bridge → Ch4–5 → P3 bridge → Ch6–7 → P4 bridge → Ch8 → Conclusion |
 | Ch 5 author intake | Done | Pandoc IDs `c5-composite` / `c5-shed` / `c5-shiller` / `c5-kahneman` / `c5-pew`; unused notes attached at hinges; hardware-store composite labeled; ~9 movements (review consolidate) |
 | Full consecutive read-through | Not started | After all Drafted |
