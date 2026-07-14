@@ -17,7 +17,7 @@
 | Part III Bridge — Leadership in a Compressed World | Drafted | Yes | N/A | No | No |
 | Chapter 6 — Leadership in a One-Sentence World | Drafted | Yes | Yes | No | No |
 | Chapter 7 — What Elections Can Reject | Drafted | Yes | Yes | No | No |
-| Part IV Bridge — What Holds | Stub | Yes | Yes | No | No |
+| Part IV Bridge — What Holds | Drafted | Yes | N/A | No | No |
 | Chapter 8 — The Guardrails We Notice Only When They Fail | Stub | Yes | Yes | No | No |
 | Conclusion — Two Truths in One Sentence | Stub | Yes | Yes | No | No |
 | Appendix — Why “Just Tell the Truth” Is Not a Strategy | Stub | Yes | Yes | No | No |
@@ -40,6 +40,7 @@
 | Ch 5 author intake | Done | Pandoc IDs `c5-composite` / `c5-shed` / `c5-shiller` / `c5-kahneman` / `c5-pew`; unused notes attached at hinges; hardware-store composite labeled; ~9 movements (review consolidate) |
 | Part III bridge draft | Done | Author draft; staccato merged; no footnotes; recognition→governance attention shift |
 | Ch 6 author intake | Done | Pandoc IDs `c6-composite` / `c6-bls-jobs` / `c6-shed` / `c6-fed` / `c6-bernanke` / `c6-pew`; composite labeled; staccato merged; ~7 movements |
+| Ch 7 author intake | Done | Pandoc IDs `c7-composite` / `c7-economic-voting` (Key+Fiorina) / `c7-bls-shed` / `c7-pew` / `c7-shiller`; neighbors composite labeled; economic-voting cite resolved; add Key/Fiorina to bibliography at migration |
 | Full consecutive read-through | Not started | After all Drafted |
 | Citation audit resolved | Not started | Gaps flagged in `citation-audit.md` |
 | Bibliography reconciled | Not started | At migration |
