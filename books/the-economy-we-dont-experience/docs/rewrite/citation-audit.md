@@ -95,10 +95,13 @@ No footnotes.
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^c5-pew-trust]` | Under thin channels, narrative coherence is cheaper to verify socially than factual coherence | Ch 5 | Umbrella | Documentary survey base | Same Pew family as elsewhere — prefer specific report titles when possible |
-| `[^c5-kahneman]` | “Vibes” as heuristics under bandwidth limits; prospect theory / reference dependence | Ch 5 | Complete (bibliography OK) | Documentary theory | Interpretive application — do not overclaim experiment→politics leap |
+| `[^c5-composite]` | Hardware-store owner / related scenes are composites | Ch 5 | N/A (method note) | Composite | **In rewrite draft** at opening |
+| `[^c5-shed]` | Household constraints (rent vs pay, margins, credit cost, overtime) as lived exposure | Ch 5 recognition examples | Umbrella | Documentary survey | **In rewrite draft** |
+| `[^c5-shiller]` | Local/object-rich stories travel farther in thin channels | Ch 5 better-sentence / chamber | Complete | Documentary | **In rewrite draft** |
+| `[^c5-kahneman]` | Quick classification / reference heuristics under platform bandwidth | Ch 5 platforms reward classification | Complete | Documentary theory | **In rewrite draft** (interpretive application) |
+| `[^c5-pew]` | Fragmented trust and news consumption; different credibility tests | Ch 5 missing translators | Umbrella | Documentary | **In rewrite draft** (was `[^c5-pew-trust]` in production) |
 
-**Illustrative:** chart creator vs pickup-truck creator; chamber vs vacant storefronts; union hall safety award; grain elevator phone video; housing affordability briefing sequence — label medium/pattern illustrations.
+**Composites:** hardware-store owner, chamber/storefront, union near-miss — labeled. Do not romanticize relational messengers.
 
 ---
 
