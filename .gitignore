@@ -17,6 +17,10 @@ tools/__pycache__/
 # Local build outputs (e.g. make generate-books-manifest → build/books-manifest.json)
 build/
 
+# Portfolio-audit snapshots (regenerate per docs/portfolio-audit/data/README.md)
+docs/portfolio-audit/data/books-manifest.json
+docs/portfolio-audit/data/semantic-manifest.json
+
 # Phase B draft YAML from extract_semantic_* tools (regenerate locally; do not commit)
 semantic/_drafts/generated/
 semantic/_drafts/enrichment/
