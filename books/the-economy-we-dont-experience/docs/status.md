@@ -130,11 +130,16 @@ Cross-manuscript pass after all units pipelined. Part gates (I–IV) already cau
 
 **Severity before skim:** medium (verbatim Ch 3/Ch 5 line; bridge/Ch 1 discipline copy). **After skim:** low.
 
+## Parallel rewrite workspace
+
+Essayistic rewrite in progress under [`docs/rewrite/`](rewrite/) (stubs + plan only). **Production manuscript above remains the source of truth** until every rewrite section is Approved and migration is explicitly authorized. Do not link `docs/rewrite/` from `index.md`. Tracker: [`docs/rewrite/status.md`](rewrite/status.md).
+
 ## Next actions
 
 1. Review editorial-fold PR [#152](https://github.com/ksteffe/after-certainty/pull/152) (depth-pass fold; unnumbered sub-headings).
 2. Manuscript pipeline **complete** including full-book echo skim; **author re-read** or `make build-book` export smoke.
 3. Optional future expansion toward long-term band in `docs/book-rules.md` if a fuller edition is commissioned.
+4. Parallel rewrite: draft Introduction next (voice model), then Chapter 1 — see [`docs/rewrite/rewrite-plan.md`](rewrite/rewrite-plan.md).
 
 ## Open decisions / known issues
 
