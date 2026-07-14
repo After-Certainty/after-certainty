@@ -160,7 +160,7 @@ No footnotes.
 
 ## Conclusion
 
-No footnotes currently. Rewrite conclusion should remain lightly cited; if absorbing appendix claims that need evidence, migrate `[^app-trust-repair]` or introduce only verified sources.
+No footnotes in author draft; none added at intake. Rewrite conclusion remains lightly cited compression (chart/receipt return; legitimacy; shared meaning). If absorbing appendix claims that need evidence at review/Approved, migrate `[^app-trust-repair]` or introduce only verified sources—do not invent cites for this unit.
 
 ---
 

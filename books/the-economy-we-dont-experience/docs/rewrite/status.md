@@ -19,7 +19,7 @@
 | Chapter 7 — What Elections Can Reject | Drafted | Yes | Yes | No | No |
 | Part IV Bridge — What Holds | Drafted | Yes | N/A | No | No |
 | Chapter 8 — The Guardrails We Notice Only When They Fail | Drafted | Yes | Yes | No | No |
-| Conclusion — Two Truths in One Sentence | Stub | Yes | Yes | No | No |
+| Conclusion — Two Truths in One Sentence | Drafted | Yes | Yes | No | No |
 | Appendix — Why “Just Tell the Truth” Is Not a Strategy | Stub | Yes | Yes | No | No |
 
 ## Gates
@@ -43,6 +43,7 @@
 | Ch 7 author intake | Done | Pandoc IDs `c7-composite` / `c7-economic-voting` (Key+Fiorina) / `c7-bls-shed` / `c7-pew` / `c7-shiller`; neighbors composite labeled; economic-voting cite resolved; add Key/Fiorina to bibliography at migration |
 | Part IV bridge draft | Done | Author draft; staccato merged; no footnotes; election→plumbing / resilience≠flourishing attention shift |
 | Ch 8 author intake | Done | Pandoc IDs `c8-composite` / `c8-stress-tests` / `c8-aggregates` / `c8-reinhart` / `c8-banks-2023` / `c8-bernanke` / `c8-fiscal-stabilizers`; manufacturer composite labeled; unused Reinhart/Bernanke attached at hinges; ~10 movements (review consolidate); add FSB/CBO/FDIC bibliography sharpening at migration |
+| Conclusion author intake | Done | Author draft (~700w); staccato merged; no footnotes; returns to grocery/chart-receipt; no chapter résumé; two-truths leadership close |
 | Full consecutive read-through | Not started | After all Drafted |
 | Citation audit resolved | Not started | Gaps flagged in `citation-audit.md` |
 | Bibliography reconciled | Not started | At migration |
