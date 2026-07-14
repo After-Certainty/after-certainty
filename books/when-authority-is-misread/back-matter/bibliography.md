@@ -1,5 +1,13 @@
 # **Bibliography**
 
+- Alexander, Robin. *Die Getriebenen: Merkel und die Flüchtlingspolitik*. Munich: Siedler, 2017.
+
+- Blackwell, Richard J. *Galileo, Bellarmine, and the Bible*. Notre Dame: University of Notre Dame Press, 1991.
+
+- Blyth, Mark. *Austerity: The History of a Dangerous Idea*. Oxford: Oxford University Press, 2013.
+
+- Branch, Taylor. *Parting the Waters: America in the King Years 1954–63*. New York: Simon & Schuster, 1988.
+
 - Chernow, Ron. *Washington: A Life*. New York: Penguin Press, 2010.
 
 - Dunbar, Erica Armstrong. *Never Caught: The Washingtons’ Relentless
@@ -13,9 +21,19 @@
 - Ellis, Joseph J. *His Excellency: George Washington*. New York: Alfred
   A. Knopf, 2004.
 
+- Fantoli, Annibale. *Galileo: For Copernicanism and for the Church*. 3rd ed. Vatican City: Vatican Observatory Publications, 2012.
+
+- Galilei, Galileo. *Dialogue Concerning the Two Chief World Systems*. Translated by Stillman Drake. Berkeley: University of California Press, 1967.
+
+- Galilei, Galileo. *Sidereus Nuncius, or The Sidereal Messenger*. Translated by Albert Van Helden. Chicago: University of Chicago Press, 1989.
+
+- Garrow, David J. *Bearing the Cross: Martin Luther King, Jr., and the Southern Christian Leadership Conference*. New York: William Morrow, 1986.
+
 - Grice, H. P. "Logic and Conversation." In *Syntax and Semantics*, vol.
   3, *Speech Acts*, edited by Peter Cole and Jerry L. Morgan, 41–58. New
   York: Academic Press, 1975.
+
+- Heilbron, John L. *Galileo*. Oxford: Oxford University Press, 2010.
 
 - Hirschfeld, Fritz. *George Washington and Slavery: A Documentary
   Portrayal*. Columbia: University of Missouri Press, 1997.
@@ -30,6 +48,8 @@
 - Marton, Kati. *The Chancellor: The Remarkable Odyssey of Angela Merkel*.
   New York: Simon & Schuster, 2021.
 
+- Nooyi, Indra. *My Life in Full: Work, Family, and Our Future*. New York: Portfolio/Penguin, 2021.
+
 - Sampson, Anthony. *Mandela: The Authorized Biography*. New York:
   Alfred A. Knopf, 1999.
 
@@ -38,6 +58,8 @@
 
 - Sparks, Allister. *Tomorrow Is Another Country: The Inside Story of
   South Africa’s Road to Change*. New York: Hill and Wang, 1995.
+
+- Steffensen, Kevin. *How Meaning Moves*. after-certainty.com, 2026.
 
 - Steffensen, Kevin. *When Authority Outlives Accountability: A Lens for
   Moral Leadership*. after-certainty.com, 2026.
@@ -48,6 +70,8 @@
 
 - Truth and Reconciliation Commission of South Africa. *Report*. Cape
   Town: TRC, 1998–2003.
+
+- Vogel, Ezra F. *Deng Xiaoping and the Transformation of China*. Cambridge, MA: Belknap Press of Harvard University Press, 2011.
 
 - Waldmeir, Patti. *Anatomy of a Miracle: The End of Apartheid and the
   Birth of the New South Africa*. New York: W. W. Norton, 1997.

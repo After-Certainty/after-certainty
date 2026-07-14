@@ -1,3 +1,7 @@
 # Part III — Looking Twice
 
-When interpretation itself stops working as a shared medium, what remains visible? This part closes by naming the limits of the analysis and what becomes visible when we look twice.
+After seven leaders, looking twice can separate appearance from the
+conditions that produced it. It cannot restore a shared world once speech
+stops seeking understanding and starts sorting allegiance. This part names
+that boundary—where conversation becomes attendance—and then returns to
+what a second look still makes visible while interpretation remains mutual.
