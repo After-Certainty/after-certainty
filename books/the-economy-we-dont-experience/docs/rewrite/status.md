@@ -9,7 +9,7 @@
 | Introduction — The Chart and the Receipt | Stub | Yes | Yes | No | No |
 | Part I Bridge — The Economy We Describe | Stub | Yes | Yes | No | No |
 | Chapter 1 — What the Average Leaves Out | Drafted | Yes | Yes | No | No |
-| Chapter 2 — When a Forecast Becomes a Promise | Stub | Yes | Yes | No | No |
+| Chapter 2 — When a Forecast Becomes a Promise | Drafted | Yes | Yes | No | No |
 | Chapter 3 — The Economy at the Kitchen Table | Stub | Yes | Yes | No | No |
 | Part II Bridge — What Travels | Stub | Yes | Yes | No | No |
 | Chapter 4 — Why Pain Moves Faster | Stub | Yes | Yes | No | No |
@@ -30,6 +30,7 @@
 | Intro drafted + voice lock | Not started | Draft Intro next; Ch 1 drafted from author prose ahead of Intro queue |
 | Intro + Ch 1 reviewed together | Not started | Required before Chapters 2+ |
 | Ch 1 author intake | Done | Pandoc IDs `c1-bls-jobs` / `c1-shelter` / `c1-shiller`; staccato merged |
+| Ch 2 author intake | Done | Pandoc IDs `c2-fomc` / `c2-aggregate` / `c2-shed` / `c2-safeguards` / `c2-tetlock` / `c2-beige`; composite labeled; staccato merged; note ~10 `###` movements (above 3–5 target — consolidate at review) |
 | Full consecutive read-through | Not started | After all Drafted |
 | Citation audit resolved | Not started | Gaps flagged in `citation-audit.md` |
 | Bibliography reconciled | Not started | At migration |

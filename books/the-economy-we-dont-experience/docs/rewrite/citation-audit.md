@@ -42,13 +42,15 @@ No footnotes. Orientation only. No citation migration required.
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^c2-aggregate]` | Post-pandemic U.S. aggregates avoided feared collapse; employment relatively strong; banks stressed without systemic breaks | Ch 2; light seed for Ch 8 | Umbrella | Documentary | Keep; optional pointer to Financial Stability Report years |
-| `[^c2-fomc]` | Post-pandemic warnings often conditional under FOMC / SEP materials | Ch 2 — if/when hinge | Umbrella | Documentary | Prefer naming SEP/press conference as observable artifacts |
-| `[^c2-shed]` | Perception gap: official measures easing while households report strain | Ch 2; possible Intro echo | Umbrella | Documentary | Overlaps intro-cpi sources — de-dupe wording, keep both footnotes if claims remain |
-| `[^c2-beige]` | Beige Book qualitative regional reporting coexists with national models | Ch 2 | Complete enough | Documentary | Strong institutional example |
-| `[^c2-labor]` | Post-pandemic labor labels (“hot labor market”) covered opposite experiences | Ch 2; optional Ch 4 time-card echo | Umbrella | Documentary | JOLTS overlap with Ch 4 |
+| `[^c2-fomc]` | SEP collects conditional projections from policymakers under assumptions | Ch 2 — if/when hinge | Umbrella | Documentary | **In rewrite draft** |
+| `[^c2-aggregate]` | Employment held; financial system absorbed strain without 2008-style cascade | Ch 2; light seed for Ch 8 | Umbrella | Documentary | **In rewrite draft** |
+| `[^c2-shed]` | CPI/employment + SHED frame uneven resilience / soft-landing heterogeneity | Ch 2 | Umbrella | Documentary | **In rewrite draft** at resilience section (CPI + employment + SHED) |
+| `[^c2-safeguards]` | Stress tests, capital, liquidity, continuity as counterfactual output | Ch 2 invisible achievement; echo Ch 8 | Umbrella | Documentary | **New in rewrite draft**; overlaps Ch 8 stress-test cite — reconcile at migration |
+| `[^c2-tetlock]` | Forecasting as probabilistic updating; data revisions | Ch 2 revision problem | Complete (Tetlock in bibliography) | Documentary | **New in rewrite draft**; Gardner co-author now named |
+| `[^c2-beige]` | Beige Book regional texture vs national headline | Ch 2 | Complete enough | Documentary | **In rewrite draft** |
+| `[^c2-labor]` (production) | Hot labor market as opposite experiences | Optional Ch 2 / Ch 4 echo | Umbrella | Documentary | Not used in current rewrite draft; may return if labor-label beat restored |
 
-**Composites:** Midwest manufacturer; chamber breakfast fan-chart caption; private consensus recession headlines — **label composite/illustrative**.
+**Composites:** Midwest manufacturer — **explicitly labeled in rewrite draft**.
 
 ---
 
