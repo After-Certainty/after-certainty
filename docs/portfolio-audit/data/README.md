@@ -1,6 +1,6 @@
 # Audit data artifacts
 
-Generated 2026-05-21 for [portfolio audit #99](https://github.com/ksteffe/after-certainty/issues/99).
+Local snapshots for [portfolio audit #99](https://github.com/ksteffe/after-certainty/issues/99). These JSON files are **gitignored**—regenerate them when needed; do not commit.
 
 | File | Command |
 |------|---------|
