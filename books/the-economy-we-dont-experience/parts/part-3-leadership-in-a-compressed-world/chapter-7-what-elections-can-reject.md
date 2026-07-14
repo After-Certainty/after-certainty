@@ -24,7 +24,7 @@ Campaigns rarely resolve this difference. They organize it. One side selects the
 
 The election becomes a contest between baselines. Compared with the worst months of the crisis, conditions improved. Compared with the life people remember before the crisis, conditions deteriorated. Compared with other advanced economies, the country performed well. Compared with what leaders promised, the outcome disappointed. Each comparison can be defensible. The ballot does not record which one the voter used.
 
-If the two neighbors at the gym had compared notes afterward, they might have discovered that they were not voting on the same sentence. One was voting on recovery from a national shock. The other was voting on the accumulated cost of living in a place where recovery had not made the next lease affordable.
+If the two neighbors at the gym had compared notes afterward, they might have discovered that they were not voting on the same sentence. One was voting on recovery from a national shock. The other was voting on the accumulated cost of living in a place where recovery had not made the next lease affordable. The ballot recorded neither sentence. It recorded only which choice they made when the sentences could not both organize the country at once.
 
 ### **The Candidate Who Gets It and the Coalition of No**
 
@@ -90,7 +90,7 @@ Months later, the two neighbors met again near their mailboxes. The homeowner ha
 
 The renter still believed the election mattered. He also felt the first edge of disappointment. The homeowner remained skeptical of the new administration but admitted that several proposed housing changes made sense. She worried about what additional construction would do to traffic and neighborhood character.
 
-Their positions had become more complicated than their ballots. The renter had voted for urgency and encountered time. The homeowner had voted for continuity and encountered costs she had not expected. Neither election-night story fully contained what followed.
+Their positions had become more complicated than their ballots. The renter had voted for urgency and encountered time. The homeowner had voted for continuity and encountered costs she had not expected. Neither election-night story fully contained what followed. Standing there, sorting mail into the same shared wall of boxes, they could finally hear that they had never been arguing about one number. They had been arguing about which scale deserved to organize the story of the street.
 
 This is not evidence that voting is futile or that campaigns are inherently dishonest. Elections are one of the ways a public assigns responsibility, changes direction, and removes leaders who have lost credibility. But an election cannot supply the shared understanding that the campaign did not build. It can authorize a government. It cannot automatically align the different reasons people wanted that government.
 

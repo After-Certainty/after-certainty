@@ -1,51 +1,55 @@
 # **Bibliography**
 
+- Bartels, Larry M. “Beyond the Running Tally: Partisan Bias in Political Perceptions.” *Political Behavior* 24, no. 2 (2002): 117–150.
+
 - Bernanke, Ben S. *The Courage to Act: A Memoir of a Crisis and Its Aftermath*. New York: W. W. Norton, 2015.
 
 - Board of Governors of the Federal Reserve System. *Beige Book: Summary of Commentary on Current Economic Conditions by Federal Reserve District*. Washington, DC: Federal Reserve Board, 2022–2024. https://www.federalreserve.gov/monetarypolicy/beige-book-default.htm
 
-- Board of Governors of the Federal Reserve System. *Financial Stability Report*. Washington, DC: Federal Reserve Board, 2022–2024. https://www.federalreserve.gov/publications/financial-stability-report.htm
+- Board of Governors of the Federal Reserve System. *Financial Stability Report*. May 2023; November 2023. Washington, DC: Federal Reserve Board. https://www.federalreserve.gov/publications/financial-stability-report.htm
 
 - Board of Governors of the Federal Reserve System. *Report on the Economic Well-Being of U.S. Households*. Washington, DC: Federal Reserve Board, 2022–2024. https://www.federalreserve.gov/consumerscommunities/shed.htm
 
-- Board of Governors of the Federal Reserve System. *Summary of Economic Projections*, Federal Open Market Committee statements, monetary-policy reports, press-conference transcripts, and annual bank stress-test results. Washington, DC: Federal Reserve Board, 2011–2024. https://www.federalreserve.gov
+- Board of Governors of the Federal Reserve System. *Summary of Economic Projections* and related Federal Open Market Committee materials. Washington, DC: Federal Reserve Board, 2022–2024. https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 
-- Congressional Budget Office. *Effects of Automatic Stabilizers on the Federal Budget* reports. Washington, DC: Congressional Budget Office, 2020–2024. https://www.cbo.gov
+- Board of Governors of the Federal Reserve System. “Transcript of Chair Powell’s Press Conference.” September 20, 2023. https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20230920.pdf
 
-- Federal Deposit Insurance Corporation. Reports and materials concerning the 2023 regional-bank failures, deposit-insurance options, and resolution actions. Washington, DC: FDIC, 2023. https://www.fdic.gov
+- Board of Governors of the Federal Reserve System. Supervisory bank stress-test results and related supervisory materials. Washington, DC: Federal Reserve Board, 2011–2024. https://www.federalreserve.gov/supervisionreg/dof-stress-tests.htm
 
-- Financial Stability Board. Summaries and progress reports on post-2008 financial regulatory reforms. Basel: Financial Stability Board, 2011–2024. https://www.fsb.org
+- Congressional Budget Office. *Effects of Automatic Stabilizers on the Federal Budget: 2024 to 2034*. Washington, DC: Congressional Budget Office, November 2024. https://www.cbo.gov
+
+- Federal Deposit Insurance Corporation. *Options for Deposit Insurance Reform*. Washington, DC: FDIC, May 2023. https://www.fdic.gov/analysis/options-deposit-insurance-reforms/report/options-deposit-insurance-reform-full.pdf
+
+- Federal Reserve Bank of Philadelphia. *Survey of Professional Forecasters*, Fourth Quarter 2022. Released November 14, 2022. https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/spf-q4-2022
+
+- Financial Stability Board. *Implementation and Effects of the G20 Financial Regulatory Reforms*. Basel: Financial Stability Board, selected annual reports, 2011–2024. https://www.fsb.org
 
 - Fiorina, Morris P. *Retrospective Voting in American National Elections*. New Haven: Yale University Press, 1981.
 
-- Haldane, Andrew. "The Second Wave: The Economic and Financial Impact of COVID-19." Speech, Bank of England, 2020.
+- Hovland, Carl I., and Walter Weiss. “The Influence of Source Credibility on Communication Effectiveness.” *Public Opinion Quarterly* 15, no. 4 (1951): 635–650.
 
-- Kahneman, Daniel, and Amos Tversky. "Prospect Theory: An Analysis of Decision under Risk." *Econometrica* 47, no. 2 (1979): 263–291.
-
-- Kashyap, Anil K., and Jeremy C. Stein. "What Do a Million Observations on Banks Say about the Transmission of Monetary Policy?" *American Economic Review* 90, no. 3 (2000): 407–428.
+- Kahneman, Daniel, and Amos Tversky. “Prospect Theory: An Analysis of Decision under Risk.” *Econometrica* 47, no. 2 (1979): 263–291.
 
 - Key, V. O., Jr. *The Responsible Electorate: Rationality in Presidential Voting, 1936–1960*. With the assistance of Milton C. Cummings, Jr. Cambridge, MA: Belknap Press of Harvard University Press, 1966.
 
 - KFF. *Employer Health Benefits Survey*. San Francisco: KFF, 2022–2024. https://www.kff.org/series/employer-health-benefits-survey/
 
-- Mankiw, N. Gregory. "The Macroeconomist as Scientist and Engineer." *Journal of Economic Perspectives* 20, no. 4 (2006): 29–46.
+- Lupia, Arthur, and Mathew D. McCubbins. *The Democratic Dilemma: Can Citizens Learn What They Need to Know?* Cambridge: Cambridge University Press, 1998.
 
-- Pew Research Center. Surveys and reports on Americans’ views of inflation and the economy; institutional trust; news consumption; and political polarization, 2020–2024. https://www.pewresearch.org
+- Pew Research Center. “Americans’ Views of Inflation and the Economy,” and related surveys on institutional trust, news consumption, and political polarization, 2020–2024. https://www.pewresearch.org
 
 - Reinhart, Carmen M., and Kenneth S. Rogoff. *This Time Is Different: Eight Centuries of Financial Folly*. Princeton, NJ: Princeton University Press, 2009.
 
-- Rodrik, Dani. *Economics Rules: The Rights and Wrongs of the Dismal Science*. New York: W. W. Norton, 2015.
+- Schneider, Howard. “Powell says soft-landing not baseline, but it’s sure in the forecast.” Reuters, September 20, 2023. https://www.reuters.com/markets/us/fed-policymakers-see-51-policy-rate-end-2024-2023-09-20/
 
 - Shiller, Robert J. *Narrative Economics: How Stories Go Viral and Drive Major Economic Events*. Princeton, NJ: Princeton University Press, 2019.
 
-- Sunstein, Cass R. *#Republic: Divided Democracy in the Age of Social Media*. Princeton, NJ: Princeton University Press, 2017.
-
 - Tetlock, Philip E., and Dan Gardner. *Superforecasting: The Art and Science of Prediction*. New York: Crown, 2015.
 
-- U.S. Bureau of Labor Statistics. Consumer Price Index (CPI) news releases and databases, 2020–2024. https://www.bls.gov/cpi/
+- U.S. Bureau of Labor Statistics. Consumer Price Index (CPI) news releases, methodology notes, and databases, 2020–2024. https://www.bls.gov/cpi/
 
-- U.S. Bureau of Labor Statistics. Employment Situation news releases; Employment Cost Index; average hourly earnings; Job Openings and Labor Turnover Survey (JOLTS), 2020–2024. https://www.bls.gov
+- U.S. Bureau of Labor Statistics. *The Employment Situation*; Employment Cost Index; average hourly earnings; Job Openings and Labor Turnover Survey (JOLTS), 2020–2024. https://www.bls.gov
 
 - U.S. Census Bureau. Housing statistics and American Community Survey materials on regional cost pressures, 2020–2024. https://www.census.gov
 
-- Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024.
+- U.S. Department of the Treasury, Board of Governors of the Federal Reserve System, and Federal Deposit Insurance Corporation. “Joint Statement by the Department of the Treasury, Federal Reserve, and FDIC.” March 12, 2023. https://www.federalreserve.gov/newsevents/pressreleases/bcreg20230312a.htm
