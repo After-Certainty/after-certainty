@@ -18,4 +18,4 @@ Neither speed is a moral virtue by itself. Pain can force neglected costs into v
 
 Part II turns from where credibility pools to why some explanations fight for every inch. It watches how overlap spreads without a shared program, how a single receipt can defeat a cheerful average in conversation, and how messengers who seem to see a household’s circumstance can open a door that explanation still has to walk through. The point is not that audiences are wired only for negativity. The point is coordination cost—what a thin channel can carry before the day ends, and what leadership must do when the fastest message is not yet an explanation.
 
-If Part I asked how the economy we describe can leave people out, Part II asks what happens once they notice. The receipt does not only contradict the chart. It sometimes outruns it.
+If Part I asked how the economy we describe can leave people out, Part II asks what happens once they notice. The instruments have not changed. The problem of motion has arrived. The receipt does not only contradict the chart. It sometimes outruns it.
