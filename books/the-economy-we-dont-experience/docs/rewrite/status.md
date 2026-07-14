@@ -15,8 +15,8 @@
 | Chapter 4 — Why Pain Moves Faster | Drafted | Yes | Yes | No | No |
 | Chapter 5 — The People Who Sound Like They See Us | Drafted | Yes | Yes | No | No |
 | Part III Bridge — Leadership in a Compressed World | Drafted | Yes | N/A | No | No |
-| Chapter 6 — Leadership in a One-Sentence World | Stub | Yes | Yes | No | No |
-| Chapter 7 — What Elections Can Reject | Stub | Yes | Yes | No | No |
+| Chapter 6 — Leadership in a One-Sentence World | Drafted | Yes | Yes | No | No |
+| Chapter 7 — What Elections Can Reject | Drafted | Yes | Yes | No | No |
 | Part IV Bridge — What Holds | Stub | Yes | Yes | No | No |
 | Chapter 8 — The Guardrails We Notice Only When They Fail | Stub | Yes | Yes | No | No |
 | Conclusion — Two Truths in One Sentence | Stub | Yes | Yes | No | No |

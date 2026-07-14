@@ -128,10 +128,11 @@ No footnotes.
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^c7-economic-voting]` | Classic economic voting heuristics still operate inside fragmented frames | Ch 7 | **Provisional / incomplete** | Documentary literature | **Needs bibliographic precision** — replace “e.g. retrospective…” with at least one canonical work (e.g., Fiorina / Lewis-Beck / Duch & Stevenson) before migration |
-| `[^c7-pew-trust]` | Polarization / media / trust surveys; permanent campaign mode for economic truth | Ch 7 | Umbrella | Documentary | Overlaps Ch 5 / appendix Pew cites |
-
-**Composites:** swing-suburb split screen; county treasurer race; main-street owner ads — label; keep nonpartisan mechanism language.
+| `[^c7-composite]` | Neighbors / campaign / election scenes are composites | Ch 7 opening | N/A | Composite | **In rewrite draft** |
+| `[^c7-economic-voting]` | Retrospective economic voting / incumbents rewarded or punished for conditions | Ch 7 shared-baseline section | **Resolved** | Documentary literature | **Key (1966) + Fiorina (1981)** — replace production’s vague umbrella; **add both to bibliography at migration** |
+| `[^c7-bls-shed]` | Same reports yield different scale meanings (rate vs level, employment vs hours/credit) | Ch 7 | Umbrella | Documentary | **In rewrite draft** |
+| `[^c7-pew]` | Vibes / betrayal risk / fragmented media and trust | Ch 7 | Umbrella | Documentary | **In rewrite draft** (was `[^c7-pew-trust]`) |
+| `[^c7-shiller]` | Expressive-rejection cycles / contested interpretive frames | Ch 7 procedures section | Complete | Documentary | **In rewrite draft** |
 
 ---
 
