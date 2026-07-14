@@ -115,7 +115,12 @@ No footnotes.
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^c6-fed-communication]` | Central bank communications necessarily conditional under democratic consequence; Bernanke on credibility under crisis | Ch 6; also absorb appendix “strategy vs slogan” themes | Needs precision | Documentary (transcripts) + memoir | Prefer **observable** press conference / transcript beats over private chair interiority; softlabel opening “chair knows…” as composite institutional tension |
+| `[^c6-composite]` | Press conference / leadership scenes are composites | Ch 6 opening | N/A | Composite | **In rewrite draft** |
+| `[^c6-bls-jobs]` | Stronger-than-expected employment release as public speech object | Ch 6 opening | Umbrella | Documentary | **In rewrite draft** |
+| `[^c6-shed]` | Uneven household/firm exposure beside aggregate strength | Ch 6 environment | Umbrella | Documentary | **In rewrite draft** |
+| `[^c6-fed]` | FOMC/SEP/transcripts; confidence as policy tool via expectations | Ch 6 certainty pressure | Umbrella | Documentary | **In rewrite draft** (was `[^c6-fed-communication]`) |
+| `[^c6-bernanke]` | Central-bank communication and credibility under crisis | Ch 6 with Fed cite | Complete | Documentary memoir | **In rewrite draft** |
+| `[^c6-pew]` | Interpretive stress; speech heard as positioning | Ch 6 | Umbrella | Documentary | **In rewrite draft** |
 
 ---
 

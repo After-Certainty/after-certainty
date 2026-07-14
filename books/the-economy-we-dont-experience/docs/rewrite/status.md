@@ -39,6 +39,7 @@
 | Reading order locked | Done | Intro → P1 bridge → Ch1–3 → P2 bridge → Ch4–5 → P3 bridge → Ch6–7 → P4 bridge → Ch8 → Conclusion |
 | Ch 5 author intake | Done | Pandoc IDs `c5-composite` / `c5-shed` / `c5-shiller` / `c5-kahneman` / `c5-pew`; unused notes attached at hinges; hardware-store composite labeled; ~9 movements (review consolidate) |
 | Part III bridge draft | Done | Author draft; staccato merged; no footnotes; recognition→governance attention shift |
+| Ch 6 author intake | Done | Pandoc IDs `c6-composite` / `c6-bls-jobs` / `c6-shed` / `c6-fed` / `c6-bernanke` / `c6-pew`; composite labeled; staccato merged; ~7 movements |
 | Full consecutive read-through | Not started | After all Drafted |
 | Citation audit resolved | Not started | Gaps flagged in `citation-audit.md` |
 | Bibliography reconciled | Not started | At migration |
