@@ -8,9 +8,7 @@
 
 A phone can announce that inflation is easing while someone is standing in a grocery aisle wondering when ordinary food became expensive enough to require strategy.[^intro-cpi] The notification is not necessarily wrong. The shopper is not confused. One describes a rate of change across a large economy. The other describes the amount due at the register. The chart and the receipt are both evidence. They are simply evidence from different distances.
 
-This difference has become one of the central problems in public economic life.
-
-We speak of *the economy* as though it were a place everyone inhabits together. In practice, people encounter it through rent, wages, interest, insurance, childcare, fuel, medical bills, work schedules, and the time required to hold all of those obligations together. A national measure can show improvement while a household remains under pressure. Employment can be strong while a particular worker loses overtime. Inflation can slow while prices remain far above the level people remember. The financial system can remain stable while borrowing becomes expensive enough to close off choices.[^intro-shed]
+This difference has become one of the central problems in public economic life. We speak of *the economy* as though it were a place everyone inhabits together. In practice, people encounter it through rent, wages, interest, insurance, childcare, fuel, medical bills, work schedules, and the time required to hold all of those obligations together. A national measure can show improvement while a household remains under pressure. Employment can be strong while a particular worker loses overtime. Inflation can slow while prices remain far above the level people remember. The financial system can remain stable while borrowing becomes expensive enough to close off choices.[^intro-shed]
 
 None of these contradictions requires anyone to be lying. They require only a large system, unevenly experienced, communicated through language too small to carry all of it.
 
@@ -30,9 +28,7 @@ The public then divides into different economic realities. One group points to e
 
 The first clock records the movement of a national indicator. The second records when that movement reaches a particular household, firm, or region. Those clocks rarely change together. Inflation may slow before prices feel manageable. Interest-rate policy may reduce future pressure while immediately raising the cost of borrowing. A recession may be avoided while businesses still delay hiring and investment. Financial safeguards may prevent collapse while the households they protect experience little that resembles relief. A stable system is not the same thing as a flourishing public.
 
-This book begins in the distance between those claims.
-
-It is not an argument against economic statistics. We need shared measures precisely because individual experience is partial. The receipt cannot reveal the whole any more than the chart can. Nor is this a claim that distrust is always justified. Lived experience can mislead. People notice vivid increases, interpret local conditions as universal, and accept explanations from messengers who make them feel seen. Pain can be real while the story attached to it is false.
+This book begins in the distance between those claims. It is not an argument against economic statistics. We need shared measures precisely because individual experience is partial. The receipt cannot reveal the whole any more than the chart can. Nor is this a claim that distrust is always justified. Lived experience can mislead. People notice vivid increases, interpret local conditions as universal, and accept explanations from messengers who make them feel seen. Pain can be real while the story attached to it is false.
 
 The challenge is to hold these limits together. The chart is incomplete. The receipt is incomplete. Expertise can become signaling. Recognition can become manipulation. A forecast can be reasonable and still spend credibility. A safeguard can work and still leave people hurting. A leader can speak truthfully and still fail to communicate the truth that matters to the listener.
 
