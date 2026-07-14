@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 3**
 
 ## **The Economy at the Kitchen Table**
@@ -32,7 +34,7 @@ The nurse’s photographs entered that gap. They did not replace the CPI or the 
 
 ### **Exposure, Not Income Alone**
 
-Chapter 1 explained how national measures summarize baskets and rates. The household does not merely observe those measures from lower altitude. It observes whether the month still fits.
+National measures summarize baskets and rates. The household observes something else: whether the month still fits.
 
 No family buys the entire national basket. One spends heavily on rent and childcare. Another owns its home and spends more on medical care. A contractor’s diesel bill makes fuel central to the month. A family managing food allergies may depend on products whose prices do not move with the cheapest substitutes. The national index is designed to summarize these differences. The household basket is made from them.[^c3-cpi]
 
@@ -88,12 +90,12 @@ When public speech holds these claims together, the household does not have to r
 
 People trust what touches them before they trust what summarizes them.
 
-[^c3-cpi]: U.S. Bureau of Labor Statistics, Consumer Price Index news releases, methodology, and expenditure-category materials, 2020–2024. https://www.bls.gov/cpi/
+[^c3-cpi]: U.S. Bureau of Labor Statistics, Consumer Price Index news releases, methodology, and expenditure-category materials, 2020–2024.
 
 [^c3-kahneman]: Daniel Kahneman and Amos Tversky, “Prospect Theory: An Analysis of Decision under Risk,” *Econometrica* 47, no. 2 (1979): 263–291.
 
 [^c3-shelter]: U.S. Bureau of Labor Statistics, Consumer Price Index shelter components and regional indexes; U.S. Census Bureau, housing and rental-market materials, including the American Community Survey, 2020–2024.
 
-[^c3-health]: U.S. Bureau of Labor Statistics, medical-care CPI components; KFF, *Employer Health Benefits Survey*, 2022–2024. https://www.kff.org/series/employer-health-benefits-survey/
+[^c3-health]: U.S. Bureau of Labor Statistics, medical-care CPI components; KFF, *Employer Health Benefits Survey*, 2022–2024.
 
 [^c3-wages]: U.S. Bureau of Labor Statistics, Employment Cost Index and average-hourly-earnings releases, 2022–2024; Board of Governors of the Federal Reserve System, *Report on the Economic Well-Being of U.S. Households*, 2022–2024.

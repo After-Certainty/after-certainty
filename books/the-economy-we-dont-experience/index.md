@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [Contents](front-matter/contents.md)
 - [Introduction — The Chart and the Receipt](front-matter/introduction-the-chart-and-the-receipt.md)
 
 ## Part I — The Economy We Describe
@@ -38,5 +39,5 @@
 
 - [Conclusion — Two Truths in One Sentence](back-matter/conclusion-two-truths-in-one-sentence.md)
 - [Appendix — Why “Just Tell the Truth” Is Not a Strategy](back-matter/appendix-why-just-tell-the-truth-is-not-a-strategy.md)
-- [About the Series](front-matter/about-the-series.md)
+- [About the Series](back-matter/about-the-series.md)
 - [Bibliography](back-matter/bibliography.md)

@@ -1,3 +1,5 @@
+\newpage
+
 # **Introduction**
 
 ## **The Chart and the Receipt**
@@ -28,8 +30,8 @@ That requires a more difficult kind of honesty—not the confidence of announcin
 
 The chart was not wrong. The receipt was not wrong. The failure began when either was asked to erase the other.
 
-[^intro-cpi]: U.S. Bureau of Labor Statistics, Consumer Price Index news releases, 2022–2024. https://www.bls.gov/cpi/
+[^intro-cpi]: U.S. Bureau of Labor Statistics, Consumer Price Index news releases, 2022–2024.
 
-[^intro-shed]: Board of Governors of the Federal Reserve System, *Report on the Economic Well-Being of U.S. Households*, 2022–2024. https://www.federalreserve.gov/consumerscommunities/shed.htm
+[^intro-shed]: Board of Governors of the Federal Reserve System, *Report on the Economic Well-Being of U.S. Households*, 2022–2024.
 
-[^intro-pew]: Pew Research Center, “Americans’ Views of Inflation and the Economy,” survey reports, 2022–2024. https://www.pewresearch.org
+[^intro-pew]: Pew Research Center, “Americans’ Views of Inflation and the Economy,” survey reports, 2022–2024.

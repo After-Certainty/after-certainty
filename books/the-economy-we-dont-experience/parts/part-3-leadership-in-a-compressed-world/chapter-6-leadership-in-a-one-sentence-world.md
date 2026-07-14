@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 6**
 
 ## **Leadership in a One-Sentence World**
@@ -68,7 +70,7 @@ The deeper incentive is not simply vanity. Institutions fear that revision will 
 
 The leader who overclaims recovery must later defend the claim, redefine recovery, or admit that the earlier language exceeded the evidence. The leader who says, "This improved, this did not, and this is what we are watching," has less distance to travel when conditions change. Restraint shortens the path to revision. It also reduces the temptation to treat disagreement as disloyalty. If the public story already includes multiple scales, a person naming the omitted scale is not automatically attacking the institution.
 
-This is a quieter form of authority. It does not promise command over uncertainty. It demonstrates the capacity to remain answerable to it. Restraint cannot survive through individual virtue alone. A leader who speaks carefully inside a system that rewards overstatement will often lose to someone who does not.[^c6-pew]
+This is a quieter form of authority. It does not promise command over uncertainty. It demonstrates the capacity to remain answerable to it. Restraint cannot survive through individual virtue alone. A leader who speaks carefully inside a system that rewards overstatement will often lose to someone who does not.
 
 Institutions therefore need coalitions for restraint: journalists who distinguish updating from scandal; allies willing to defend a mixed account; local leaders who add regional context rather than repeating national slogans; experts who communicate uncertainty without retreating into technical language; citizens willing to accept that an honest answer may contain more than one direction. Without such support, the incentive toward certainty remains stronger than the obligation to map.
 
@@ -90,10 +92,8 @@ That may be the quietest form of leadership available under these incentives. Th
 
 [^c6-shed]: Board of Governors of the Federal Reserve System, *Report on the Economic Well-Being of U.S. Households*, 2022–2024.
 
-[^c6-fed]: Board of Governors of the Federal Reserve System, Federal Open Market Committee statements, *Summary of Economic Projections*, monetary-policy reports, and press-conference transcripts, 2022-2024. https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+[^c6-fed]: Board of Governors of the Federal Reserve System, Federal Open Market Committee statements, *Summary of Economic Projections*, monetary-policy reports, and press-conference transcripts, 2022-2024.
 
 [^c6-bernanke]: Ben S. Bernanke, *The Courage to Act: A Memoir of a Crisis and Its Aftermath* (New York: W. W. Norton, 2015), especially on central-bank communication, expectations, and credibility under crisis conditions. Used here for historical communication lessons from the 2008-era crisis period, not as factual support for post-2020 events.
 
 [^c6-powell-soft-landing]: Board of Governors of the Federal Reserve System, "Transcript of Chair Powell's Press Conference," September 20, 2023, especially Powell's response declining to call a soft landing the baseline expectation while describing it as possible and as a primary objective. https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20230920.pdf; Howard Schneider, "Powell says soft-landing not baseline, but it's sure in the forecast," Reuters, September 20, 2023. https://www.reuters.com/markets/us/fed-policymakers-see-51-policy-rate-end-2024-2023-09-20/
-
-[^c6-pew]: Pew Research Center, surveys and reports on institutional trust, economic perceptions, political polarization, and news consumption, 2022–2024.

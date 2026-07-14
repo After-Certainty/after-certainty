@@ -22,6 +22,7 @@ from assemble import assemble_markdown_units, assemble_part_sections  # noqa: E4
 from book_export_assets import (  # noqa: E402
     prepare_title_page_for_docx,
     reference_docx,
+    replace_newpage_for_docx,
     title_page_cover_basename,
     title_page_cover_unnumbered,
 )
@@ -42,12 +43,11 @@ def stage_docx_units(units: list[Path], tmp_dir: Path, *, spec: dict, book_dir: 
 
     staged: list[Path] = []
     for unit in publication_units:
+        text = unit.read_text(encoding="utf-8")
         if unit.name == "title-page.md" and unnumbered_cover and cover_basename:
-            text = prepare_title_page_for_docx(
-                unit.read_text(encoding="utf-8"),
-                cover_basename,
-            )
-            unit.write_text(text, encoding="utf-8")
+            text = prepare_title_page_for_docx(text, cover_basename)
+        text = replace_newpage_for_docx(text)
+        unit.write_text(text, encoding="utf-8")
         staged.append(unit)
     return staged
 

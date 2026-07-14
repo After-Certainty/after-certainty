@@ -37,6 +37,17 @@ _COVER_IMAGE_RE = re.compile(
     re.M,
 )
 
+_NEWPAGE_RE = re.compile(r"(?m)^\\newpage[ \t]*$")
+
+_OPENXML_PAGEBREAK = (
+    "```{=openxml}\n<w:p>\n  <w:r>\n    <w:br w:type=\"page\"/>\n  </w:r>\n</w:p>\n```"
+)
+
+
+def replace_newpage_for_docx(text: str) -> str:
+    """Translate LaTeX ``\\newpage`` markers into OpenXML page breaks for DOCX."""
+    return _NEWPAGE_RE.sub(_OPENXML_PAGEBREAK, text)
+
 
 def title_page_cover_basename(spec: dict[str, Any]) -> str:
     book = _as_dict(spec.get("book"))

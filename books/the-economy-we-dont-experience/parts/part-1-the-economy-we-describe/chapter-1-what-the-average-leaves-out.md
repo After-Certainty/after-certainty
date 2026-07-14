@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 1**
 
 ## **What the Average Leaves Out**
@@ -102,7 +104,7 @@ The chart deserves a place in the conversation because no one household can see 
 
 A summary becomes deceptive not when it is false, but when it asks to be mistaken for the whole.
 
-[^c1-bls-jobs]: U.S. Bureau of Labor Statistics, *The Employment Situation*, including documentation concerning household and establishment surveys, sampling, revisions, and sector-level reporting, 2020–2024. https://www.bls.gov/news.release/empsit.nr0.htm
+[^c1-bls-jobs]: U.S. Bureau of Labor Statistics, *The Employment Situation*, including documentation concerning household and establishment surveys, sampling, revisions, and sector-level reporting, 2020–2024.
 
 [^c1-shelter]: U.S. Bureau of Labor Statistics, Consumer Price Index shelter components and regional indexes, 2020–2024; U.S. Census Bureau, housing-cost and rental-market materials, including the American Community Survey.
 

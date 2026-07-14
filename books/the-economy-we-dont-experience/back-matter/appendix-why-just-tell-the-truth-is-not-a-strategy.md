@@ -1,3 +1,5 @@
+\newpage
+
 # **Appendix**
 
 ## **Why “Just Tell the Truth” Is Not a Strategy**
@@ -38,7 +40,7 @@ More complete truth is not only a matter of adding facts. It is a matter of arra
 
 Institutions often respond to credibility loss by publishing more: more tables, more dashboards, more methodological notes, more explanations of why the original statement was technically defensible. Transparency is valuable. Public institutions should make evidence, assumptions, and revisions available for scrutiny.
 
-But information does not enter a neutral environment. When trust is already thin, additional information can be interpreted as evidence of management rather than openness.[^app-trust-repair] Why was this table not included before? Why did the definition change? Why was the revision announced after the confident statement had already circulated?
+But information does not enter a neutral environment. When trust is already thin, additional information can be read as story-management rather than openness: Why was this table not included before? Why did the definition change? Why was the revision announced after the confident statement had already circulated? The claim is structural rather than a universal empirical law. Disclosure can deepen distrust when audiences already treat late qualification as evidence that the earlier sentence was incomplete on purpose.
 
 This response can become unfair; complex measures require revisions, and different windows answer different questions. But complexity has often been used defensively. A leader makes a broad claim in simple language and retreats into technical precision when challenged. The confidence was public. The conditionality was procedural.
 
@@ -48,7 +50,7 @@ Publishing more information without changing this pattern can deepen distrust. T
 
 People are more likely to hear an explanation after they know their experience will not be erased by it. First, recognition: your rent increased even though the national measure began to cool; your wages rose, but care, insurance, and debt absorbed the gain; the banking system remained stable, but your cost of credit still changed what you could build. Then, explanation: here is how the broader measure works; here are the local mechanisms that produced a different outcome; here is where your experience fits the distribution; here is what the available evidence can and cannot establish.
 
-Recognition does not require accepting every interpretation attached to the pain. A household can be correct that life became less affordable and mistaken about the cause. A business owner can accurately describe shrinking margins and misunderstand the national economy. A community can experience a real loss and adopt a remedy that would make the underlying problem worse. Chapter 5 made this distinction at greater length: pain can be valid while the proposed cause remains unproven.
+Recognition does not require accepting every interpretation attached to the pain. A household can be correct that life became less affordable and mistaken about the cause. A business owner can accurately describe shrinking margins and misunderstand the national economy. A community can experience a real loss and adopt a remedy that would make the underlying problem worse. Pain can be valid while the proposed cause remains unproven.
 
 Honesty can also become a form of moral comfort that stops short of usefulness. A leader may feel virtuous for admitting difficulty while still leaving the audience without a usable map of what changed, what remains, and what the institution will do. The comfort of confession is not the same as the discipline of arrangement. A true admission that “things are hard” can still fail if it does not reconnect recognition to mechanism, responsibility, and update.
 
@@ -88,5 +90,3 @@ The framework is short on purpose. It does not replace judgment, politics, or re
 “Just tell the truth” is a moral beginning. It is not yet a public strategy. A strategy asks how truth will travel, what it will leave out, who will hear themselves excluded, and how the account will change when reality refuses to remain inside it.
 
 The better promise is not: we will always tell the whole truth. No one can fit the whole into a sentence. The better promise is: we will tell the truth in a form that admits what it cannot contain, names who is still paying, and changes in public when the explanation no longer fits.
-
-[^app-trust-repair]: On trust in institutions and media under contested information environments, see Pew Research Center surveys on polarization, news trust, and Americans’ views of inflation and the economy, 2020–2024. The claim is contingent: additional disclosure *can* deepen distrust when audiences already interpret revisions, definition changes, and late clarifications as story-management rather than openness.

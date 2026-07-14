@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 5**
 
 ## **The People Who Sound Like They See Us**
@@ -104,27 +106,21 @@ These sentences carry relational risk. They may disappoint the audience or weake
 
 ### **The Missing Translators**
 
-National institutions cannot speak intimately to every household. Their scale makes that impossible. A central bank cannot produce a different inflation explanation for every county. A federal agency cannot open every report with the particular bill affecting each listener. A national newspaper cannot maintain deep knowledge of every local labor market, insurance system, housing constraint, and supply network.
-
-This is why intermediate translators matter. Local journalists, regional economists, community organizations, trade associations, union leaders, mayors, county officials, librarians, teachers, and business owners can connect broad measures with specific places. They can say: here is the national pattern; here is how it appears here; here is where our experience diverges; here is what the local evidence cannot establish about the whole.
+National institutions cannot speak intimately to every household. Their scale makes that impossible. This is why intermediate translators matter: local journalists, regional economists, community organizations, trade associations, union leaders, mayors, county officials, and business owners who can say what the national pattern looks like *here*, where it diverges, and what the local evidence cannot establish about the whole.
 
 These translators do not eliminate compression. They add layers to it. They make it possible for a national measure to reach a household without pretending the route is direct.
 
-Where local institutions weaken, the gap is filled by national personalities performing proximity. A creator hundreds of miles away becomes the interpreter of a town because the creator's language feels closer than the institutions physically present there. The result is a strange form of distance. People reject national abstractions and turn toward national messengers who speak in the style of local experience. The messenger may know little about the region. The audience supplies the details. The story feels personal because it provides a recognizable structure into which local pain can be placed.
+Where local institutions weaken, the gap fills with national personalities performing proximity. A creator hundreds of miles away becomes the interpreter of a town because the language feels closer than the institutions present there. People reject national abstractions and turn toward messengers who speak in the style of local experience. The messenger may know little about the region. The audience supplies the details. The story feels personal because it offers a recognizable structure for local pain.
 
-Pew's recent work on inflation perceptions, trust in government, and news consumption points toward the same interpretive fracture.[^c5-pew] The important change is not only that audiences consume different information. They inhabit different relationships to information. One audience trusts institutions that demonstrate method. Another trusts messengers who demonstrate recognition. Each sees the other's credibility test as evidence of gullibility. The first says: they believe anyone who sounds like them. The second says: you believe anyone with a title. Both criticisms can be correct.
+One audience trusts institutions that demonstrate method. Another trusts messengers who demonstrate recognition. Each sees the other's credibility test as evidence of gullibility.[^c5-pew] A healthy interpretive system needs people who can translate between those forms—close enough to recognize the receipt, disciplined enough to respect the chart. That work rarely produces a viral sentence. It is also where shared understanding is most likely to be rebuilt.
 
-A healthy interpretive system needs people capable of translating between these forms of trust--messengers close enough to recognize the receipt and disciplined enough to respect the chart. That role is less glamorous than national influence. It rarely produces a viral sentence. It requires knowing a place, maintaining relationships, and sometimes disappointing the people who trust you. It is also where shared understanding is most likely to be rebuilt.
-
-Months after the hardware-store video circulated, the owner announced that he would close one of his locations. He recorded another message. He described insurance, financing, slower customer traffic, and the difficulty of carrying inventory. Some viewers treated the closure as proof that his earlier explanation had been correct. Others pointed to new businesses opening elsewhere in the region and said the closure was only one company's failure.
+Months after the hardware-store video circulated, the owner announced that he would close one of his locations. He described insurance, financing, slower traffic, and the difficulty of carrying inventory. Some viewers treated the closure as proof that his earlier explanation had been correct. Others pointed to new businesses opening elsewhere and said the closure was only one company's failure.
 
 Again, the chart and the receipt appeared to disagree. The regional economy could expand while one business closed. The owner could understand his own costs while misunderstanding the broader pattern. The viewers could recognize his loss without accepting every cause he attached to it. These possibilities are harder to hold together than a simple story of success or betrayal. They are also closer to the world as people actually inhabit it.
 
-The owner's credibility began with something real. He could point to prices his customers had seen and decisions his business had faced. He spoke before institutions had found language for the strain. That recognition deserved attention. It did not place his explanation beyond question.
+The owner's credibility began with something real. He could point to prices his customers had seen and decisions his business had faced. That recognition deserved attention. It did not place his explanation beyond question. The same standard should apply to the institutions that answered him. Method without recognition can become detached from the lives it measures. Recognition without method can become attached to explanations that merely feel true.
 
-The same standard should apply to the institutions that answered him. Their broader measures deserved attention. Their expertise did not excuse them from noticing what their summaries omitted. Relational credibility and methodological credibility are not enemies. Each repairs a weakness in the other. Method without recognition can become detached from the lives it measures. Recognition without method can become attached to explanations that merely feel true.
-
-The work of public understanding begins when the person who sees us is willing to explain--and when the person who explains is willing to see us first.
+The work of public understanding begins when the person who sees us is willing to explain—and when the person who explains is willing to see us first.
 
 Recognition opens the door. Explanation still has to walk through it.
 

@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 7**
 
 ## **What Elections Can Reject**
@@ -82,7 +84,7 @@ The problem is not disagreement. The problem is the loss of common tests for rev
 
 Without answers, every side can preserve its story indefinitely. If prices remain high, the government failed. If inflation falls, the government claims credit. If employment rises, the opposition says the jobs are bad. If employment falls, the warnings were ignored. If a policy works slowly, supporters request patience. If it creates costs, those costs are described as sabotage, inheritance, or necessary transition. Each explanation may contain truth. Together they create a political environment in which no event can settle anything.
 
-Elections then become recurring acts of expressive rejection. The public removes one coalition, becomes disappointed by the next, and removes it in turn. Each campaign promises to replace signaling with honesty. Each administration discovers that governing requires compression. The cycle does not prove that democracy is failing. It reveals how much democracy depends on interpretive habits that ballots alone cannot create.[^c7-shiller]
+Elections then become recurring acts of expressive rejection. The public removes one coalition, becomes disappointed by the next, and removes it in turn. Each campaign promises to replace signaling with honesty. Each administration discovers that governing requires compression. The cycle does not prove that democracy is failing. It reveals how much democracy depends on interpretive habits that ballots alone cannot create.
 
 ### **The Two Neighbors After the Election**
 
@@ -107,5 +109,3 @@ At the mailboxes, the point was no longer abstract: elections can tell us what p
 [^c7-bartels]: Larry M. Bartels, "Beyond the Running Tally: Partisan Bias in Political Perceptions," *Political Behavior* 24, no. 2 (2002): 117-150.
 
 [^c7-pew]: Pew Research Center, surveys and reports on economic perceptions, trust in government, political polarization, and fragmented media use, 2022–2024.
-
-[^c7-shiller]: Robert J. Shiller, *Narrative Economics: How Stories Go Viral and Drive Major Economic Events* (Princeton: Princeton University Press, 2019).

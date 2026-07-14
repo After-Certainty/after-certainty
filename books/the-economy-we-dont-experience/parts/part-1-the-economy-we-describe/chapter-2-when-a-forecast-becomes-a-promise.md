@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 2**
 
 ## **When a Forecast Becomes a Promise**
@@ -74,7 +76,7 @@ None of these decisions proves that the forecast was wrong. Decisions made under
 
 Its costs appear as absences: the employee never hired, the machine never purchased, the store never opened, the move never made. These absences do not appear together in a single national statistic. They remain distributed among households and firms, each too small to become the public story. The manufacturer who delayed the second shift could later say employment remained strong nationally. That did not put the postponed shift on the shop floor or restore the year of production she did not attempt.
 
-When the worst outcome is avoided, institutions naturally emphasize resilience. The labor market held. The financial system absorbed the strain. The feared recession did not arrive. These statements can all be true.[^c2-aggregate] They do not reverse the decisions made while the warning was active. (What those safeguards protect, and what resilience still costs while they work, is taken up later in this book.)
+When the worst outcome is avoided, institutions naturally emphasize resilience. The labor market held. The financial system absorbed the strain. The feared recession did not arrive. These statements can all be true.[^c2-aggregate] They do not reverse the decisions made while the warning was active. Continuity and invisible protection still leave costs; what the system holds back is not the same as what a household or firm is free to attempt.
 
 This creates a peculiar credibility problem. The institution evaluates the forecast against the range of outcomes that might have occurred. The public evaluates it against the life reorganized in response. The institution sees avoided risk. The household or firm sees a cost already paid. Both are looking backward. They are remembering different events. A later speech celebrating soft landing can therefore sound accurate to the room that owns the chart and premature to the room that owns the unused equipment proposal.
 
@@ -112,7 +114,7 @@ She could not point to one forecast and say it caused the project to disappear. 
 
 Institutions had spoken in probabilities. She had reorganized the company around conditions she heard as a promise. The recession had not arrived as a national event. Its possibility had still shaped her payroll, her inventory, and the machine that never moved from the proposal page to the shop floor.
 
-[^c2-fomc]: Board of Governors of the Federal Reserve System, *Summary of Economic Projections* and related Federal Open Market Committee materials, 2022–2024. https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+[^c2-fomc]: Board of Governors of the Federal Reserve System, *Summary of Economic Projections* and related Federal Open Market Committee materials, 2022–2024.
 
 [^c2-spf]: Federal Reserve Bank of Philadelphia, *Survey of Professional Forecasters*, Fourth Quarter 2022 (released November 14, 2022), reporting survey-mean probabilities of a negative quarter near fifty percent for several quarters of 2023. https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/spf-q4-2022
 
@@ -122,4 +124,4 @@ Institutions had spoken in probabilities. She had reorganized the company around
 
 [^c2-tetlock]: Philip E. Tetlock and Dan Gardner, *Superforecasting: The Art and Science of Prediction* (New York: Crown, 2015).
 
-[^c2-beige]: Board of Governors of the Federal Reserve System, *Beige Book: Summary of Commentary on Current Economic Conditions by Federal Reserve District*, 2022–2024. https://www.federalreserve.gov/monetarypolicy/beige-book-default.htm
+[^c2-beige]: Board of Governors of the Federal Reserve System, *Beige Book: Summary of Commentary on Current Economic Conditions by Federal Reserve District*, 2022–2024.

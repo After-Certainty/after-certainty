@@ -14,6 +14,8 @@ book:
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
+  title_page_cover_unnumbered: true
+  title_page_newpage_after: true
   open_graph_image: open-graph.png
 
 paths:
@@ -32,7 +34,7 @@ frontmatter:
 
     about_the_series:
       repo_template: templates/about_the_series.md.j2
-      output: front-matter/about-the-series.md
+      output: back-matter/about-the-series.md
 
 build:
   formats:

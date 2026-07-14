@@ -1,8 +1,10 @@
+\newpage
+
 # **Chapter 4**
 
 ## **Why Pain Moves Faster**
 
-Two composite messages, drawn from recurring patterns in state economic communication and viral cost-of-living videos, appeared in the same state on the same morning.[^c4-composite] The first came from the governor's office. Employment had reached a record level.[^c4-employment] Several companies had announced new investments. Average wages were rising. The release included county maps, industry tables, and a quotation about the state's economic momentum.
+Two composite messages, drawn from recurring patterns in state economic communication and viral cost-of-living videos, appeared in the same state on the same morning.[^c4-composite] The first came from the governor's office. Employment had reached a record level. Several companies had announced new investments. Average wages were rising. The release included county maps, industry tables, and a quotation about the state's economic momentum.
 
 The second message came from a woman sitting in her parked car. She held up a grocery receipt, pointed to the total, and said that the same week of meals now cost far more than it had a few years earlier. She mentioned rent, electricity, and the insurance payment due at the end of the month. The video lasted less than a minute.
 
@@ -32,7 +34,7 @@ This is why fact-checking alone often fails to reverse a painful narrative. A co
 
 ### **The Memory of the Higher Price**
 
-Pain also moves faster because it has a durable reference point. When inflation slows, prices generally continue rising, but at a lower rate. As Chapter 3 established, the improvement appears in the slope of the line. The household experiences the level at which the line has arrived.[^c4-cpi-level]
+Pain also moves faster because it has a durable reference point. When inflation slows, prices generally continue rising, but at a lower rate. The improvement appears in the slope of the line. The household experiences the level at which the line has arrived.[^c4-cpi-level]
 
 A carton that once cost three dollars and now costs five does not feel cheaper when its price stops rising as quickly. The slower increase matters. The remembered three dollars matters too. Economic measures usually compare defined periods because consistency makes analysis possible. People compare the present with a time when life felt more manageable. This produces different stories from the same movement. The chart says the rate declined. The receipt says the price never went back.
 
@@ -64,13 +66,13 @@ Leaders who know that a fear is circulating cannot assume that silence preserves
 
 ### **The Moral Safety of Pain**
 
-Painful narratives also possess a form of moral safety. In an environment where inflation remains a prominent public concern and trust in institutions and news sources is uneven, criticizing worsening conditions can sound aligned with the people bearing the cost.[^c4-pew] Praising improvement risks sounding aligned with the system that produced the suffering. A person who says housing is unaffordable sounds concerned about renters. A person who says housing construction is improving may sound as though the current pain matters less.
+Painful narratives also possess a form of moral safety. Under thin public trust, criticizing worsening conditions can sound aligned with the people bearing the cost. Praising improvement risks sounding aligned with the system that produced the suffering. A person who says housing is unaffordable sounds concerned about renters. A person who says housing construction is improving may sound as though the current pain matters less. That asymmetry is an inference from communication incentives more than a finding of any single survey.
 
 This asymmetry affects what leaders are willing to say. Negative claims can be morally incomplete and still feel compassionate. Positive claims can be statistically careful and still feel callous. The result is not that public life contains too much acknowledgment of pain. Often it contains too little serious acknowledgment and too much symbolic use of it.
 
 Pain becomes a credential. A messenger demonstrates belonging by naming a grievance. Once the bond is established, the explanation attached to the grievance may receive less scrutiny. The rent is real, so the villain must be real. The factory closure is real, so the political theory built around it must be correct. The grocery bill is real, so the person displaying it must understand inflation.
 
-This is where recognition can become dangerous. A messenger can accurately describe what hurts and falsely explain why. Shared pain can force neglected realities into public view. It can also carry explanations that have not earned the authority of the suffering they borrow. Chapter 5 develops that transfer more fully. The relevant point here is structural rather than psychological: pain gathers witnesses faster than improvement gathers agreement.
+This is where recognition can become dangerous. A messenger can accurately describe what hurts and falsely explain why. Shared pain can force neglected realities into public view. It can also carry explanations that have not earned the authority of the suffering they borrow. The relevant point here is structural: pain gathers witnesses faster than improvement gathers agreement.
 
 Prosperity moves slowly for another reason: people must decide who produced it and who benefited. Did employment grow because of public policy, private investment, demographic change, monetary conditions, or recovery from an earlier disruption? Did inflation fall because interest rates rose, supply chains healed, energy prices changed, consumer demand softened, or firms altered their behavior? The answer is usually several things at once. Public communication prefers one. Credit then becomes another coordination problem layered on top of the original improvement.
 
@@ -78,7 +80,7 @@ Every improvement has a distribution. A policy lowers borrowing costs, helping d
 
 The woman with the grocery video did not need a complete theory of attribution to make the governor's employment release feel incomplete. She needed only to show a bill that the victory language had not yet absorbed. The omitted beneficiary and the omitted burden travel in opposite directions with equal force: people who benefited remain quiet; people who did not become the public remainder.
 
-This does not mean improvement is an illusion or that every gain should be paralyzed by exceptions. It means victory language is structurally fragile. The person omitted from the benefit becomes the counterexample that travels. If leaders hide the distribution, opponents will name it for them. The counter-narrative may be exaggerated, but it begins from a truth the official story tried to subordinate. Elections can later convert that remainder into a coalition of rejection; Chapter 7 takes up that turn. Here the point is simpler: pain organizes faster than credit can allocate.
+This does not mean improvement is an illusion or that every gain should be paralyzed by exceptions. It means victory language is structurally fragile. The person omitted from the benefit becomes the counterexample that travels. If leaders hide the distribution, opponents will name it for them. The counter-narrative may be exaggerated, but it begins from a truth the official story tried to subordinate. Elections can later convert that remainder into a coalition of rejection. The point here is simpler: pain organizes faster than credit can allocate.
 
 This is why broad claims such as *the economy is working* are so vulnerable. Working for whom? At what cost? On which clock? These questions are not cynical interruptions of an otherwise clean result. They are part of what the result means. A policy can be successful and still impose costs that deserve recognition. A recovery can be real and still leave regions behind. A system can become more resilient while remaining more expensive to live inside.
 
@@ -96,8 +98,6 @@ Pain needs a witness. Prosperity needs a theory.
 
 [^c4-composite]: The governor's employment release and the grocery-video woman are composites constructed from recurring patterns in state economic announcements, local reporting, and public cost-of-living videos. They are not presented as documentary accounts of a single identifiable official, state, or person.
 
-[^c4-employment]: U.S. Bureau of Labor Statistics, *The Employment Situation* releases, 2022-2024; state employment and economic-development releases commonly cite these measures alongside state and local labor-market data.
-
 [^c4-shiller]: Robert J. Shiller, *Narrative Economics: How Stories Go Viral and Drive Major Economic Events* (Princeton: Princeton University Press, 2019).
 
 [^c4-cpi-level]: U.S. Bureau of Labor Statistics, Consumer Price Index news releases and historical data, 2020-2024. The distinction between a slowing inflation rate and the continuing price level is central to understanding post-pandemic public perceptions of cost.
@@ -105,5 +105,3 @@ Pain needs a witness. Prosperity needs a theory.
 [^c4-kahneman]: Daniel Kahneman and Amos Tversky, "Prospect Theory: An Analysis of Decision under Risk," *Econometrica* 47, no. 2 (1979): 263-291.
 
 [^c4-household]: U.S. Bureau of Labor Statistics, Consumer Price Index shelter, food, energy, medical-care, and regional components, 2020-2024; Board of Governors of the Federal Reserve System, *Report on the Economic Well-Being of U.S. Households*, 2022-2024.
-
-[^c4-pew]: Pew Research Center, surveys and reports on public views of inflation and economic conditions, trust in government, news consumption, and confidence in information sources, 2022-2024.

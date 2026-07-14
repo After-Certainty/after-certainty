@@ -1,3 +1,5 @@
+\newpage
+
 # **Part III**
 
 ## **Leadership in a Compressed World**

@@ -1,3 +1,5 @@
+\newpage
+
 # **Conclusion**
 
 ## **Two Truths in One Sentence**

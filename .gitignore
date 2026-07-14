@@ -7,6 +7,7 @@
 *.pdf
 !when-others-look-to-you/*/docs/reference.docx
 !books/everyone-knows-love/docs/export/reference.docx
+!books/the-economy-we-dont-experience/docs/export/reference.docx
 .DS_Store
 .obsidian/workspace.json
 

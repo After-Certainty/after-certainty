@@ -52,3 +52,21 @@
 - Chapter 8 owns resilience/guardrails with 2023 banking case.
 - Appendix shorter and more practical; conclusion concise.
 - Endings varied: Ch2/Ch6/Ch7 scene-integrated; Ch1/Ch4/Ch5/Ch8 compressions retained.
+
+
+## Controlled editorial/production pass (follow-up)
+
+| Item | Status |
+|------|--------|
+| Remove chapter-navigation scaffolding | Done (Ch2–Ch4, appendix) |
+| Optional Ch5 Missing Translators trim | Done (~210 words) |
+| Optional Ch8 Politics of Friction trim | Done (~320 words) |
+| Weak citation fixes (Ch4 employment/Pew; Ch6 Pew; Ch7 Shiller; Appendix) | Done — interpretive claims no longer carry mismatched notes |
+| Cover caption | Fixed via `title_page_cover_unnumbered` + empty-alt staging |
+| Page breaks | `\newpage` → OpenXML in DOCX staging; markers on parts/chapters/back matter |
+| Contents | Added `front-matter/contents.md` |
+| Bibliography hanging style | `custom-style="Bibliography"` + economy `docs/export/reference.docx` |
+| Running header / page numbers | In economy reference.docx |
+| About the Series | Moved to back matter (generation path + index) |
+
+Body words after this follow-up: ~27,659 (excl. bibliography).
