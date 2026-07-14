@@ -32,6 +32,14 @@ Parent-book CI may rebuild when any file under this book changes. That rebuild d
 | [`status.md`](status.md) | Stub → Migrated tracker |
 | `introduction.md` … `appendix.md` | Chapter stubs (planning metadata; not polished prose) |
 
+## Incoming chapter intake (author-provided prose)
+
+When the author provides a chapter (or bridge) draft for this workspace, apply these edits before marking the unit Drafted:
+
+1. **Pandoc citations** — Convert any inline parenthetical, bracketed, or prose-style sources to repository Pandoc footnotes: `[^unit-slug]` at the factual hinge, with matching definitions at the bottom of the unit (Chicago-ish note text). Sync new works into the citation audit / eventual bibliography. Do not leave `(BLS 2023)`-style or hyperlink-only citations in body prose. Prefer chapter-scoped IDs (`intro-…`, `c1-…`, etc.). See production [`docs/agents/05-citation-pass.md`](../agents/05-citation-pass.md).
+2. **No single-sentence staccato** — Merge stacks of one-sentence paragraphs into flowing multi-sentence paragraphs. Keep an occasional short paragraph only when it earns emphasis; do not default to a telegram rhythm. Source Markdown: one flowing line per paragraph, blank line between paragraphs.
+3. Preserve the chapter’s argument and examples; do not replace production files.
+
 ## Drafting order (after stubs)
 
 1. Confirm migration map + citation audit cover every production unit.
@@ -41,6 +49,7 @@ Parent-book CI may rebuild when any file under this book changes. That rebuild d
 5. Draft remaining units in reading order; update `status.md` after each step.
 6. Do **not** bulk-rewrite the whole book in one pass.
 7. Production manuscript stays unchanged until the migration gate.
+8. For every author-supplied chapter, run the **Incoming chapter intake** checks above.
 
 ## Migration gate
 

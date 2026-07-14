@@ -47,6 +47,15 @@ Sensibility may move like Rebecca Solnit between ordinary observation, systems, 
 - Save the strongest compression for the **end** of the chapter; do not scatter bold invariants every few paragraphs
 - Prefer flowing paragraphs; avoid frequent single-sentence paragraphs and staccato rhythm
 - Repository convention: one flowing line per paragraph in source Markdown
+- **Author-supplied drafts:** before filing into this workspace, (1) convert all citations to Pandoc `[^id]` footnotes with bottom-of-unit definitions, and (2) repair single-sentence staccato into flowing paragraphs
+
+### Citation format (Pandoc only)
+
+- Inline marker at the factual hinge: `[^c1-bls-jobs]`
+- Definition at unit bottom: `[^c1-bls-jobs]: U.S. Bureau of Labor Statistics, …`
+- No APA/MLA parentheticals in body prose; no “verify source” placeholders
+- Opening observations and closing compressions ordinarily uncited unless they make specific factual claims
+- Follow [`docs/agents/05-citation-pass.md`](../agents/05-citation-pass.md)
 
 ### Essay movement template
 

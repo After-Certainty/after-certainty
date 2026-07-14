@@ -39,3 +39,4 @@
 - Front matter templates (title page, copyright, about-the-series) stay in production; rewrite does not duplicate them.
 - Bibliography remains production `back-matter/bibliography.md` until migration; working notes live in `citation-audit.md`.
 - Appendix recommendation: distribute strongest ideas into Intro / Ch 6 / Conclusion; keep stub until Approved gate decides residual afterword vs short appendix.
+- **Intake rule:** every author-provided chapter must get Pandoc `[^id]` citations and a pass that merges single-sentence staccato into flowing paragraphs (see `README.md` → Incoming chapter intake).
