@@ -2,7 +2,7 @@
 
 ## **The Chart and the Receipt**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `front-matter/introduction-the-economy-we-argue-about.md`  
 > Intake: Pandoc footnotes; staccato paragraphs merged; notes attached at factual hinges
 

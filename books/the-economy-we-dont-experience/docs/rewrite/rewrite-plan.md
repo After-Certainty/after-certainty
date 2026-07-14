@@ -205,7 +205,7 @@ Do **not** delete production Appendix A until migration.
 - Keep Pandoc footnotes `[^id]` and Chicago-style bibliography per [`docs/agents/05-citation-pass.md`](../agents/05-citation-pass.md)
 - Distinguish documentary vs hypothetical vs composite on the page
 - Do not invent sources; do not broaden research unless verifying an existing citation’s accuracy/completeness
-- Resolve audit gaps (KFF missing from bibliography; vague economic-voting note; provisional Sunstein entry; agency date-range umbrellas) before migration
+- Resolve audit gaps before migration: **Done** (bibliography reconciliation under author approval; gaps closed in `back-matter/bibliography.md`)
 
 Full ledger: [`citation-audit.md`](citation-audit.md)
 

@@ -2,7 +2,7 @@
 
 ## **When a Forecast Becomes a Promise**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-1-the-economy-we-describe/chapter-2-the-forecast-era-that-didnt-break.md`  
 > Intake: Pandoc footnotes; staccato paragraphs merged; manufacturer labeled composite
 

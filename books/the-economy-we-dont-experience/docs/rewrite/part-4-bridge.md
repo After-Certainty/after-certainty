@@ -2,7 +2,7 @@
 
 ## **What Holds**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-4-stability-memory-and-fragility/bridge.md`  
 > Intake: author draft; staccato paragraphs merged; no footnotes in source
 

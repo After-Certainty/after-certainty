@@ -2,7 +2,7 @@
 
 ## **The People Who Sound Like They See Us**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-2-why-pain-travels-farther/chapter-5-resonance-without-understanding.md`  
 > Intake: Pandoc footnotes; staccato paragraphs merged; hardware-store scenes labeled composite
 

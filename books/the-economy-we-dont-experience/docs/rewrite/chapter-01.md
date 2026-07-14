@@ -2,7 +2,7 @@
 
 ## **What the Average Leaves Out**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-1-the-economy-we-describe/chapter-1-the-compression-problem.md`  
 > Intake: Pandoc footnotes; staccato paragraphs merged
 

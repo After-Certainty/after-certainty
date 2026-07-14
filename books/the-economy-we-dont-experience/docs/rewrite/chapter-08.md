@@ -2,7 +2,7 @@
 
 ## **The Guardrails We Notice Only When They Fail**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-4-stability-memory-and-fragility/chapter-8-resilience-reform-and-forgotten-guardrails.md`  
 > Intake: Pandoc footnotes; staccato paragraphs merged; manufacturer labeled composite
 

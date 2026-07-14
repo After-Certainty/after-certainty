@@ -2,7 +2,7 @@
 
 ## **Leadership in a Compressed World**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-3-leadership-under-compression/bridge.md`  
 > Intake: author draft; staccato paragraphs merged; no footnotes in source
 

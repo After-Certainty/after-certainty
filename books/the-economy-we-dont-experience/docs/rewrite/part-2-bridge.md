@@ -2,7 +2,7 @@
 
 ## **What Travels**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-2-why-pain-travels-farther/bridge.md`  
 > Intake: author draft; staccato paragraphs merged; no footnotes in source
 

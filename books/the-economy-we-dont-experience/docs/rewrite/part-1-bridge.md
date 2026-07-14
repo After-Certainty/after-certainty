@@ -2,7 +2,7 @@
 
 ## **The Economy We Describe**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-1-the-economy-we-describe/bridge.md`  
 > Intake: author draft; staccato paragraphs merged; no footnotes in source
 

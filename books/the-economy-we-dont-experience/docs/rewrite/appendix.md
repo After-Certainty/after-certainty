@@ -2,7 +2,7 @@
 
 ## **Why “Just Tell the Truth” Is Not a Strategy**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `back-matter/appendix-a-why-just-tell-the-truth.md`  
 > Intake: Pandoc footnote; staccato paragraphs merged; Option 3 residual decision deferred to Approved gate  
 > Note: Author supplied a full appendix draft. Strongest arguments may still distribute into Intro / Ch 6 / Conclusion at migration; this file preserves the complete afterword so nothing is lost.

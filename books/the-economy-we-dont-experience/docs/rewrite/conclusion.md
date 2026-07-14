@@ -2,7 +2,7 @@
 
 ## **Two Truths in One Sentence**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `back-matter/conclusion-leadership-after-explanation-stops-scaling.md`; appendix residual  
 > Intake: author draft; staccato paragraphs merged; no footnotes in source; lightly cited compression
 

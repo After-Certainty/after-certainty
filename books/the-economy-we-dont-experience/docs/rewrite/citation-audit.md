@@ -63,7 +63,7 @@ No footnotes. Orientation only. No citation migration required.
 | `[^c3-cpi]` | CPI as shared basket measure / methodology | Ch 3 household basket | Umbrella | Documentary | **New in rewrite draft** (methodology hinge) |
 | `[^c3-kahneman]` | Reference points and loss weighting in judgment | Ch 3 rate vs level / raise vs baseline | Complete | Documentary theory | **In rewrite draft** |
 | `[^c3-shelter]` | National shelter moderation vs local renewal drivers | Ch 3 | Umbrella | Documentary pattern | **In rewrite draft** |
-| `[^c3-health]` | Medical CPI vs premiums/deductibles/network changes; KFF benefits survey | Ch 3 | **Missing from bibliography** (KFF) | Documentary | **In rewrite draft**; **add KFF before migration** |
+| `[^c3-health]` | Medical CPI vs premiums/deductibles/network changes; KFF benefits survey | Ch 3 | Complete (KFF in bibliography) | Documentary | **In rewrite draft**; bibliography reconciled |
 | `[^c3-wages]` | Wage gains can coexist with lost purchasing power vs rent/care/debt; ECI/AHE + SHED | Ch 3 | Umbrella | Documentary | **In rewrite draft** (author note `[^5]` attached at raise/power hinge) |
 
 **Composites:** nurse receipt photo-roll — **explicitly labeled in rewrite draft**. Creator / steward / landlord remain illustrative pattern voices.
@@ -129,7 +129,7 @@ No footnotes.
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
 | `[^c7-composite]` | Neighbors / campaign / election scenes are composites | Ch 7 opening | N/A | Composite | **In rewrite draft** |
-| `[^c7-economic-voting]` | Retrospective economic voting / incumbents rewarded or punished for conditions | Ch 7 shared-baseline section | **Resolved** | Documentary literature | **Key (1966) + Fiorina (1981)** — replace production’s vague umbrella; **add both to bibliography at migration** |
+| `[^c7-economic-voting]` | Retrospective economic voting / incumbents rewarded or punished for conditions | Ch 7 shared-baseline section | Complete | Documentary literature | **Key (1966) + Fiorina (1981)** — bibliography reconciled |
 | `[^c7-bls-shed]` | Same reports yield different scale meanings (rate vs level, employment vs hours/credit) | Ch 7 | Umbrella | Documentary | **In rewrite draft** |
 | `[^c7-pew]` | Vibes / betrayal risk / fragmented media and trust | Ch 7 | Umbrella | Documentary | **In rewrite draft** (was `[^c7-pew-trust]`) |
 | `[^c7-shiller]` | Expressive-rejection cycles / contested interpretive frames | Ch 7 procedures section | Complete | Documentary | **In rewrite draft** |
@@ -168,49 +168,55 @@ No footnotes in author draft; none added at intake. Rewrite conclusion remains l
 
 | ID | Claim supported | Likely new home | Source quality | Example type | Notes / action |
 |----|-----------------|-----------------|----------------|--------------|----------------|
-| `[^app-trust-repair]` | Additional disclosure *can* deepen distrust when trust is thin; revisions/definitions heard as story-management | Appendix “When More Information Creates More Distrust” (also candidate for Intro / Ch 6 / Conclusion if Option 3 distributes) | Umbrella / provisional | Documentary survey | **In rewrite draft**; Pew polarization/media-trust/economy views 2020–2024; contingent *can* kept; no invented narrative-policy cites; sharpen specific Pew titles at migration |
+| `[^app-trust-repair]` | Additional disclosure *can* deepen distrust when trust is thin; revisions/definitions heard as story-management | Appendix “When More Information Creates More Distrust” (also candidate for Intro / Ch 6 / Conclusion if Option 3 distributes) | Umbrella | Documentary survey | **In rewrite draft**; Pew entry sharpened in bibliography; contingent *can* kept |
 
-**Status:** Author full appendix drafted in `docs/rewrite/appendix.md`. Option 3 distribute remains open at Approved: strongest themes already appear across Intro / Ch 6 / Conclusion; this file preserves the complete afterword so nothing is lost before residual decision.
+**Status:** Author full appendix **Approved** in `docs/rewrite/appendix.md`. At migration, either retain as afterword/appendix or absorb residual into Intro / Ch 6 / Conclusion (Option 3). Production appendix stays until migration.
 
 Appendix also cross-references Ch 1 town hall, Ch 3 wages, Part II asymmetry, Part III sentence order, Part IV guardrails — those remains are conceptual migrations, not new footnotes.
 
 ---
 
-## Bibliography — entry-level issues
+## Bibliography — reconciliation (Approved rewrite)
 
-| Bibliography entry | Issue | Action before migration |
-|--------------------|-------|-------------------------|
-| Fed SHED; BLS CPI; BLS Employment/JOLTS; Census housing; Pew inflation views; Kahneman/Tversky; Shiller; Bernanke; Reinhart/Rogoff; Rodrik; Tetlock; Yellen; Haldane; Kashyap/Stein; Mankiw | Present | Retain; tighten titles/years as footnotes pin down |
-| **Kaiser Family Foundation** Employer Health Benefits | **Cited in Ch 3 (`[^c3-health]`) but absent from bibliography** | **Add** |
-| **Key, *The Responsible Electorate*; Fiorina, *Retrospective Voting*** | **Cited in rewrite Ch 7; absent from production bibliography** | **Add** |
-| Sunstein — *How Facts Change Minds* / “see also *#Republic*” | **Provisional wording** | Verify intended title/year or replace with the work actually relied on |
-| Classic economic voting (old production footnote) | Was vague | **Superseded by Key + Fiorina in rewrite Ch 7** |
-| Financial Stability Board; CBO; FDIC 2023 materials | Referenced in rewrite Ch 8 footnotes (`c8-stress-tests` / `c8-fiscal-stabilizers` / `c8-banks-2023`) | **Add / sharpen bibliography lines at migration** |
-| Works present but lightly used (e.g., Kashyap/Stein, Haldane, Reinhart/Rogoff, Rodrik, Mankiw, Tetlock, Yellen) | May be portfolio/background | Confirm still needed after rewrite; do not drop silently if a claim still depends on them |
+| Entry | Action taken |
+|-------|--------------|
+| Fed SHED; BLS CPI; BLS Employment/JOLTS/ECI/AHE; Census housing; Kahneman/Tversky; Shiller; Bernanke; Reinhart/Rogoff | **Retained** / titles tightened |
+| Fed *Financial Stability Report*; *Beige Book*; FOMC/`Summary of Economic Projections`/stress-test materials | **Added** (rewrite Ch 2, 6, 8) |
+| **KFF** *Employer Health Benefits Survey* | **Added** (`[^c3-health]`) |
+| **Key**, *The Responsible Electorate*; **Fiorina**, *Retrospective Voting* | **Added** (`[^c7-economic-voting]`) |
+| Financial Stability Board post-2008 reform summaries | **Added** (`[^c2-safeguards]`, `[^c8-stress-tests]`) |
+| Congressional Budget Office automatic-stabilizers reports | **Added** (`[^c8-fiscal-stabilizers]`) |
+| FDIC 2023 regional-bank / deposit-insurance materials | **Added** (`[^c8-banks-2023]`) |
+| Pew inflation/economy + trust / news / polarization surveys | **Sharpened** (covers intro/Ch4–7/appendix `[^app-trust-repair]`) |
+| Tetlock | **Corrected** to Tetlock and Gardner, *Superforecasting* |
+| Sunstein | **Corrected** provisional *How Facts Change Minds* → *#Republic* (2017); not actively footnoted in rewrite (appendix distrust claim uses Pew) |
+| Haldane; Kashyap/Stein; Rodrik; Mankiw; Yellen | **Retained** as portfolio/background (not actively footnoted in approved rewrite; do not drop until migration decides residual bibliography) |
+
+**Status:** Bibliography reconciled for approved rewrite. Production chapter files remain unchanged until migration is explicitly authorized.
 
 ---
 
 ## Claims needing wording softeness (match evidence)
 
-| Location | Risk | Softeness guidance |
-|----------|------|--------------------|
-| Ch 4 “pain always scales” | Over-absolute | Prefer speed / coordination-cost asymmetry |
-| Ch 2 / Ch 6 private thoughts of officials | Mind-reading | Observable communications composite |
-| Exact renewal % / receipt totals for composites | Implied documentary | Label composite; avoid fake precision as journalism |
-| “Major banks showed stress without systemic breaks” | Needs careful wording | Keep tied to official stability assessments |
-| Appendix “more information increases distrust” | Contingent | Keep as can / under contested trust — not always |
+| Location | Risk | Softeness guidance | Status in rewrite |
+|----------|------|--------------------|-------------------|
+| Ch 4 “pain always scales” | Over-absolute | Prefer speed / coordination-cost asymmetry | Title uses “moves faster” |
+| Ch 2 / Ch 6 private thoughts of officials | Mind-reading | Observable communications composite | Composites labeled |
+| Exact renewal % / receipt totals for composites | Implied documentary | Label composite; avoid fake precision as journalism | Composites labeled |
+| “Major banks showed stress without systemic breaks” | Needs careful wording | Keep tied to official stability assessments | Tied to Fed FSR / stress materials |
+| Appendix “more information increases distrust” | Contingent | Keep as can / under contested trust — not always | Contingent *can* + Pew |
 
 ---
 
 ## Coverage check
 
-| Production unit | Citations inventoried | Destinations assigned |
-|-----------------|----------------------|----------------------|
-| Introduction | Yes | Yes |
-| Part bridges (I–IV) | N/A (none) | N/A |
-| Chapters 1–8 | Yes | Yes |
-| Conclusion | N/A (none) | N/A |
-| Appendix A | Yes | Yes (draft filed; Option 3 residual open) |
-| Bibliography | Audited | Gaps flagged |
+| Production unit | Citations inventoried | Destinations assigned | Bibliography |
+|-----------------|----------------------|----------------------|--------------|
+| Introduction | Yes | Yes | Reconciled |
+| Part bridges (I–IV) | N/A (none) | N/A | N/A |
+| Chapters 1–8 | Yes | Yes | Reconciled |
+| Conclusion | N/A (none) | N/A | N/A |
+| Appendix A | Yes | Yes (Approved full draft; Option 3 residual optional at migration) | Reconciled (`[^app-trust-repair]`) |
+| Bibliography | Audited | Gaps closed | **Done** |
 
-Nothing cited should disappear accidentally; redistribution is into rewrite stubs listed above.
+Nothing cited should disappear accidentally; redistribution is into rewrite units listed above.

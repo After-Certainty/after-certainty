@@ -2,7 +2,7 @@
 
 ## **What Elections Can Reject**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-3-leadership-under-compression/chapter-7-elections-without-shared-understanding.md`  
 > Intake: Pandoc footnotes; staccato paragraphs merged; neighbors/election scenes labeled composite
 

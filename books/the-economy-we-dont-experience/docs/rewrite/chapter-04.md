@@ -2,7 +2,7 @@
 
 ## **Why Pain Moves Faster**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-2-why-pain-travels-farther/chapter-4-why-pain-always-scales.md`  
 > Intake: Pandoc footnotes; staccato paragraphs merged; notes attached at factual hinges
 

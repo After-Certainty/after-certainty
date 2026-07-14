@@ -2,7 +2,7 @@
 
 ## **Leadership in a One-Sentence World**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-3-leadership-under-compression/chapter-6-leadership-under-interpretive-stress.md`  
 > Intake: Pandoc footnotes; staccato paragraphs merged; press-conference scene labeled composite
 

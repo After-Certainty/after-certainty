@@ -2,7 +2,7 @@
 
 ## **The Economy at the Kitchen Table**
 
-> Rewrite status: Drafted  
+> Rewrite status: Approved  
 > Source sections: `parts/part-1-the-economy-we-describe/chapter-3-the-economy-we-experience.md`  
 > Intake: Pandoc footnotes; staccato paragraphs merged; nurse labeled composite
 
