@@ -28,7 +28,7 @@ test.describe("thinkers and book influences", () => {
   });
 
   test("thinker index links to detail pages that load successfully", async ({ page }) => {
-    await page.goto("/explore/thinkers", { waitUntil: "domcontentloaded" });
+    await page.goto("/explore/thinkers?q=dewey", { waitUntil: "domcontentloaded" });
     await expect(page.locator(mainContent)).toBeVisible();
 
     const johnDeweyLink = page.locator('a[href="/explore/thinkers/john-dewey"]').first();
