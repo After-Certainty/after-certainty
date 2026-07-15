@@ -1,4 +1,4 @@
-.PHONY: help check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -49,6 +49,7 @@ help:
 	@echo "  make audit-semantic-graph  (unified graph data-quality audit → reports/semantic-graph-audit.{json,md})"
 	@echo "  make audit-semantic-metadata-quality  (source/thinker display metadata → reports/)"
 	@echo "  make audit-thinker-concepts  (thinker↔concept coverage → reports/)"
+	@echo "  make audit-bibliography-semantic-drift  (biblio ↔ sources/thinkers → reports/bibliography-semantic-drift.{md,json})"
 	@echo "  make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=path/to/glossary.md"
 	@echo "  make extract-semantic-glossary-drafts GLOSSARY_IN=books/.../glossary.md BOOK_ID=book-slug-from-book-yml"
 	@echo "  make scan-book-glossary-usage BOOK_DIR=books/... [GLOSSARY_SCOPE=book|all]"
@@ -88,7 +89,8 @@ help:
 	@echo "  - verify-semantic-manifest runs verify-semantic-yaml, semantic generation, and validation."
 	@echo "  - render-semantic-glossary renders templates/glossary.md.j2 from a semantic manifest JSON."
 	@echo "  - extract-semantic-glossary-drafts / extract-semantic-pattern-drafts / extract-semantic-source-drafts emit reviewable YAML under semantic/_drafts/generated/ (gitignored)."
-	@echo "  - extract-semantic-source-drafts expects list-style bibliographies like when-others-look-to-you/v1 and how-meaning-moves (Author. *Title* or Author. \"Article.\")."
+	@echo "  - extract-semantic-source-drafts supports list, Pandoc Bibliography divs, and plain Chicago paragraphs (see tools/bibliography_parse.py)."
+	@echo "  - audit-bibliography-semantic-drift compares bibliographies to semantic/sources + thinkers (read-only report)."
 	@echo "  - promote-semantic-source-drafts merges semantic/_drafts/generated/sources/<book-id>/ into semantic/sources/ (Author — Title names + v1.5 metadata). Full promote (no SOURCE_PROMOTE_BOOK_IDS) passes --prune unless SOURCE_PROMOTE_NO_PRUNE=1."
 	@echo "  - backfill-source-metadata adds creatorSlugs, title, citation, sourceKind to existing semantic/sources/*.yml (see .cursor/skills/semantic-sources/)."
 	@echo "  - derive-thinker-drafts aggregates enriched sources into semantic/_drafts/generated/thinkers/ (see .cursor/skills/semantic-thinkers/)."
@@ -179,6 +181,11 @@ audit-semantic-graph:
 	python3 tools/audit_semantic_graph.py --repo . \
 		--json-out reports/semantic-graph-audit.json \
 		--md-out reports/semantic-graph-audit.md
+
+audit-bibliography-semantic-drift:
+	python3 tools/audit_bibliography_semantic_drift.py --repo . \
+		--md-out reports/bibliography-semantic-drift.md \
+		--json-out reports/bibliography-semantic-drift.json
 
 normalize-semantic-metadata:
 	@python3 tools/normalize_semantic_metadata.py --repo . $(if $(DRY_RUN),--dry-run,) $(if $(ALL),--all,)

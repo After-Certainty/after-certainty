@@ -98,13 +98,23 @@ python3 tools/infer_semantic_source_links.py --repo . --book-id <book-id>
 
 Updates `concepts`, `patterns`, and pattern `relatedSources` where heuristics match.
 
-## 6 — Verify (required)
+## 6 — Audit bibliography drift (optional)
+
+Compare manuscript bibliographies to `semantic/sources` / thinkers (read-only):
+
+```bash
+make audit-bibliography-semantic-drift
+```
+
+Writes `reports/bibliography-semantic-drift.{md,json}`. Bibliographies are source of truth for book membership; reconcile YAML in a follow-on pass.
+
+## 7 — Verify (required)
 
 ```bash
 make verify-semantic-ontology
 ```
 
-## 7 — Open PR
+## 8 — Open PR
 
 ```bash
 git checkout main && git pull
