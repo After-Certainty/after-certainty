@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Architectural rewrite in progress** — essay edition (~14.5k, seven-heading scaffold) being reconstructed as essayistic full book (~52–68k).
+**Architectural rewrite — manuscript units complete** (July 2026). Essayistic reconstruction replacing the ~14.5k seven-heading essay edition.
 
 ## Manuscript hub
 
@@ -10,12 +10,10 @@
 
 ## Rewrite decision
 
-**Locked (July 2026):** replace the concentrated essay’s *architecture*, not refill the old report template.
-
 | Band | Status |
 |------|--------|
-| Essay edition (~13–15k), 13 case chapters, fixed scaffold | **Superseded** as reader architecture |
-| Essayistic reconstruction (~52–68k), 9 chapters, widen-and-return | **In progress** |
+| Essay edition (~13–15k), 13 case chapters, fixed scaffold | **Superseded** |
+| Essayistic reconstruction (~47k manuscript units), 9 chapters, widen-and-return | **Draft complete — author gate next** |
 
 ## Final TOC (locked)
 
@@ -34,19 +32,26 @@
   - Ch 9 — What Judgment Can Still Do (Khmer Rouge)
 - Conclusion — The Meeting After the Meeting
 
-## Removed as standalone units
+## Removed
 
-Sun Myung Moon; Hugo Chávez (echo only); Adolf Hitler (contrast only); Appendix A taxonomic map; How to Read; Part bridges as syllabus units.
+Standalone chapters for Moon, Chávez, Hitler; Part bridges; How to Read; Appendix A taxonomic map; old Part II–IV report-scaffold files.
 
-## Drafting sequence
+## Mechanism ownership
 
-1. Ch 2 Jones (core distinction) — **rewritten** (`chapter-2-everyone-already-knows.md`)
-2. Ch 3 Trump → Ch 5 Stalin → Ch 6 Koresh → Ch 8 Mao — **rewritten**
-3. Ch 1 Smith → Ch 4 Perón → Ch 7 Holmes/Neumann — **rewritten** (Ch 4: `chapter-4-the-name-that-survives-every-platform.md`)
-4. Ch 9 Khmer Rouge — **rewritten** (`chapter-9-what-judgment-can-still-do.md`)
-5. Introduction + Conclusion — **rewritten** (`introduction-the-question-this-book-asks.md`, `conclusion-after-interpretation.md`)
-6. Glossary / bibliography / index / echo pass
+| Mechanism | Owner |
+|-----------|--------|
+| Prior assent / frame jurisdiction | Smith |
+| Understanding without leverage | Jones |
+| Open-system sorting | Trump |
+| Identity saturation | Perón (+ Chávez echo) |
+| Performative legitimacy under coercion | Stalin (+ Hitler contrast) |
+| Narrative enclosure | Koresh |
+| Transitional organizational drift | Holmes + Neumann |
+| Anti-repair | Mao |
+| Judgment as witness | Khmer Rouge |
 
 ## Next actions
 
-Ch 1–9 rewritten essayistically; introduction and conclusion rewritten. Remaining: slim glossary; rebuild bibliography; author gate on Trump tone, Smith boundary, Ch 9 ethics, mechanism uniqueness.
+1. Author gate: Trump tone, Smith boundary, Ch 9 ethics, mechanism uniqueness.
+2. Build smoke: `make validate-book-specs` and book export formats.
+3. Optional echo pass for residual scaffolding stems after author read.

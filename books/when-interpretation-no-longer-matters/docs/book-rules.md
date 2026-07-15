@@ -8,7 +8,7 @@ Architectural constraints for **When Interpretation No Longer Matters** (*Author
 
 ### Target length
 
-- **Rewrite target:** essayistic full book (~52–68k words)
+- **Rewrite target:** essayistic full book (~45–65k words; draft ~47k manuscript units)
 - 3 parts, 9 chapters, slim glossary, rebuilt bibliography
 - No dedicated Part bridges; no standalone How-to-Read unit; no 13-row structural appendix
 
