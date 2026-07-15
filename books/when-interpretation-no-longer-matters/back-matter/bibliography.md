@@ -102,6 +102,8 @@ Works cited in the notes appear below in alphabetical order by author. Series vo
 
 - The Church of Jesus Christ of Latter-day Saints. *Pearl of Great Price*. Salt Lake City: The Church of Jesus Christ of Latter-day Saints, 2013.
 
+- Ung, Loung. *First They Killed My Father: A Daughter of Cambodia Remembers*. New York: HarperCollins, 2000.
+
 - Klemperer, Victor. *I Will Bear Witness: A Diary of the Nazi Years, 1933–1941*. New York: Modern Library, 1998.
 
 - Weber, Max. *Economy and Society*. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California Press, 1978.
