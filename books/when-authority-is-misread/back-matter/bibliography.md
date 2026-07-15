@@ -38,6 +38,8 @@ Works cited by name in the notes, with selected primary sources.
 
 - Finocchiaro, Maurice A. *The Galileo Affair: A Documentary History*. Berkeley: University of California Press, 1989.
 
+- Fitzpatrick, John C., ed. *The Writings of George Washington from the Original Manuscript Sources, 1745–1799*. 39 vols. Washington, DC: U.S. Government Printing Office, 1931–1944.
+
 - Galilei, Galileo. *Dialogue Concerning the Two Chief World Systems*. Translated by Stillman Drake. Berkeley: University of California Press, 1967.
 
 - Galilei, Galileo. *Sidereus Nuncius, or The Sidereal Messenger*. Translated by Albert Van Helden. Chicago: University of Chicago Press, 1989.
@@ -64,6 +66,8 @@ Works cited by name in the notes, with selected primary sources.
 
 - Marton, Kati. *The Chancellor: The Remarkable Odyssey of Angela Merkel*. New York: Simon & Schuster, 2021.
 
+- Merritt, Anna C., Daniel A. Effron, and Benoît Monin. “Moral Self-Licensing: When Being Good Frees Us to Be Bad.” *Social and Personality Psychology Compass* 4, no. 5 (2010): 344–357.
+
 - Navasky, Victor S. *Naming Names*. New York: Viking Press, 1980.
 
 - Nooyi, Indra. *My Life in Full: Work, Family, and Our Future*. New York: Portfolio/Penguin, 2021.
@@ -89,5 +93,7 @@ Works cited by name in the notes, with selected primary sources.
 - Waldmeir, Patti. *Anatomy of a Miracle: The End of Apartheid and the Birth of the New South Africa*. New York: W. W. Norton, 1997.
 
 - Washington, George. Farewell Address. 19 September 1796.
+
+- Weber, Max. *Economy and Society: An Outline of Interpretive Sociology*. Edited by Guenther Roth and Claus Wittich. Berkeley: University of California Press, 1978.
 
 - Zhou, Kate Xiao. *How the Farmers Changed China: Power of the People*. Boulder, CO: Westview Press, 1996.

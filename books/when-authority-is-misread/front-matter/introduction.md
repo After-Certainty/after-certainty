@@ -32,7 +32,7 @@ matter.
 At human scale, these dynamics are familiar. Misunderstanding is
 tolerated when repair feels risky. Small harms are excused when outcomes
 seem acceptable. Authority persists because challenging it threatens
-relationships that matter. These are coordination strategies under
+relationships that matter. These are habitual coordination moves under
 pressure. They also create blind spots. At historical scale, the blind
 spots widen.
 

@@ -297,7 +297,7 @@ Looking twice does not choose a side by arithmetic. It refuses to let
 gratitude, however large, finish the work of moral description before
 the description is done.
 
-[^c7-vogel]: Ezra F. Vogel, *Deng Xiaoping and the Transformation of China* (Cambridge, MA: Harvard University Press, 2011), the major English-language biography for Deng’s career, reforms, and governing style.
+[^c7-vogel]: Ezra F. Vogel, *Deng Xiaoping and the Transformation of China* (Cambridge, MA: Belknap Press of Harvard University Press, 2011), the major English-language biography for Deng’s career, reforms, and governing style.
 
 [^c7-vogel-late]: Vogel, *Deng Xiaoping*, on the late-Mao aftermath, Deng’s restorations, and the political setting of reform and opening.
 

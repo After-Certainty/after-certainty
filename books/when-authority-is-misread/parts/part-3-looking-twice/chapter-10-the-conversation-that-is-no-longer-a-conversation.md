@@ -116,11 +116,11 @@ the boundary prevents overextension. It clarifies responsibility. And
 it preserves the distinction without which diagnosis collapses into
 accusation, and explanation becomes ideology.
 
-The leaders examined earlier in this book operate at the far edge of
-misreading, not beyond it. They reveal how authority can persist through
-distortion, delay, and constraint while interpretation still matters—
-while people still quarrel about what happened because they still think
-what happened is jointly knowable. Where interpretation no longer
+Earlier cases move between misreading and refusal; leaders and
+institutions still quarrel over what events mean even as coercion tries
+to close the argument. The loyalty-security state isolates the boundary
+more clearly: refusal ceases to be an episode within interpretation and
+becomes the governing purpose of speech. Where interpretation no longer
 functions, a different inquiry is required—one concerned with
 enforcement, identity capture, and the organized replacement of
 understanding by alignment.

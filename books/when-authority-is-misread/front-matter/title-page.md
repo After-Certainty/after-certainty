@@ -1,4 +1,4 @@
-![Cover](book-cover.png){ width=100% }
+![When Authority Is Misread cover](book-cover.png){ width=100% }
 
 \newpage
 

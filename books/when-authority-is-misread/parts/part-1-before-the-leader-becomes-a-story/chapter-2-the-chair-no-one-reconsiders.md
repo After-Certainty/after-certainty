@@ -8,13 +8,13 @@ This ordinary conversion of emergency placement into fixture is where authority 
 
 ---
 
-Leadership is often evaluated as if moral intent, effectiveness, and legitimacy were interchangeable. A leader meant well. Things worked. Authority persisted. Judgment collapses into outcome: if results were acceptable, leadership must have been justified. The collapse is intuitive. It is also misleading.[^c2-outcome]
+Leadership is often evaluated as if moral intent, effectiveness, and legitimacy were interchangeable. A leader meant well. Things worked. Authority persisted. Judgment collapses into outcome: if results were acceptable, leadership must have been justified. The collapse is intuitive. It is also misleading.
 
-In practice, leadership moves across dimensions that do not travel together. A leader’s **moral posture** toward harm, their **effectiveness** in producing outcomes, and the **persistence of their legitimacy** over time are related but independent. When these dimensions drift apart, authority can survive conditions that would otherwise call it into question. **Accountability thins not because harm disappears, but because it becomes harder to locate.**[^c2-dimensions]
+In practice, leadership moves across dimensions that do not travel together. A leader’s **moral posture** toward harm, their **effectiveness** in producing outcomes, and the **persistence of their legitimacy** over time are related but independent. When these dimensions drift apart, authority can survive conditions that would otherwise call it into question. **Accountability thins not because harm disappears, but because it becomes harder to locate.**
 
 Moral posture concerns how a leader stands in relation to harm: where responsibility is placed, who bears risk, whether harm is acknowledged, deflected, or absorbed. Posture is often inferred from tone, intent, or stated values rather than examined through consequence. A sincere apology can travel farther than a map of who still carries the cost. Leaders who appear well-meaning receive moral credit even when costs accumulate elsewhere—on staff who absorbed overtime, on quiet seats that never reached the head of the table.[^c2-posture]
 
-Effectiveness concerns whether desired outcomes are achieved. It is the most visible dimension, and therefore the most likely to dominate judgment. Things worked; therefore leadership was good. Metrics crowd out the slower harms that never fitted a column. Effectiveness answers *what happened*. It does not answer who paid for the success, or whether the success was purchased by making future reconsideration harder.[^c2-effectiveness]
+Effectiveness concerns whether desired outcomes are achieved. It is the most visible dimension, and therefore the most likely to dominate judgment. Things worked; therefore leadership was good. Metrics crowd out the slower harms that never fitted a column. Effectiveness answers *what happened*. It does not answer who paid for the success, or whether the success was purchased by making future reconsideration harder.
 
 Legitimacy persistence concerns how long authority continues after the conditions that justified it have changed. Once granted, legitimacy is sticky. It accumulates through habit, reputation, institutional reinforcement, and the cost of challenge. Titles outlast occasions. Leaders rarely lose authority the moment accountability weakens. More often, authority persists by default—sustained by the same coordination pressures that discourage repair at human scale.[^c2-inertia]
 
@@ -34,7 +34,7 @@ Years later, the crisis justification has thinned, but the seat has not. Effecti
 
 **Authority often survives not because it has been reconsidered, but because reconsideration costs more than continuation.**
 
-This is authority’s inertia: not a conspiracy to retain power, but a grammar of rooms that treat interruption as more dangerous than misalignment. Informal authority works the same way—expertise, seniority, or simply the ability to withstand conflict. When outcomes are tolerable, authority continues even when harm goes unaddressed.[^c2-informal]
+This is authority’s inertia: not a conspiracy to retain power, but a grammar of rooms that treat interruption as more dangerous than misalignment. Informal authority works the same way—expertise, seniority, or simply the ability to withstand conflict. When outcomes are tolerable, authority continues even when harm goes unaddressed.
 
 The tension is genuine. Groups that reopen every placement dissolve into permanent renegotiation. Groups that never reopen placement convert temporary necessity into furniture and then moralize the furniture as tradition. Drift is the second failure arriving without announcement—felt first as etiquette, then as inevitability, then as loyalty to a past that no longer matches the present table.
 
@@ -44,29 +44,16 @@ Scale intensifies consequence without inventing the mechanism.
 
 In institutions, the cost of repair rises. Process replaces proximity. Reputation outruns testimony. A review that would take an afternoon in a small room becomes a career risk across an organization that has already narrated the occupant of the chair as proof of continuity. In public life, authority becomes abstract, and accountability diffuses across systems. Harm disperses into externalities and “complicated contexts.” Deeply consequential harm can coexist with public approval. The chair looked permanent because no one had been rewarded for asking whose emergency still justified it—and because many people had been rewarded for treating the question as disloyal.
 
-This is why some leaders are condemned despite effectiveness while others are celebrated long after accountability has faded. People argue across dimensions without realizing the mismatch: one side speaks from outcomes, another from harm, another from legitimacy. The argument is not only about facts. It is about which dimension is being allowed to settle the room.[^c2-mismatch]
+This is why some leaders are condemned despite effectiveness while others are celebrated long after accountability has faded. People argue across dimensions without realizing the mismatch: one side speaks from outcomes, another from harm, another from legitimacy. The argument is not only about facts. It is about which dimension is being allowed to settle the room.
 
 On its own, moral analysis of authority risks assuming interpretive clarity—as if harm, once present, should be obvious. That assumption overlooks how signal, compression, and constraint shape what becomes visible at all. Communication analysis, alone, can explain misunderstanding without explaining why authority remains intact once harm is visible. Leadership is where the two failures meet: misunderstanding stabilizes authority, and authority reinforces misunderstanding by making interruption costly precisely when it is most needed.
 
-**Authority does not usually survive because it is deserved.**
-It survives because challenging it is harder than living with its consequences.[^c2-cost]
+Authority does not usually survive because it is deserved; it survives because challenging it is harder than living with its consequences.
 
 The chair at the head of the table is not nature. It is an old decision. The room forgot it was made. Forgetting feels like continuity. Continuity feels like wisdom. Wisdom, in this form, is only the price of reconsideration deferred until the deferral itself has become the settlement—until newcomers can no longer see the emergency that placed the chair, and veterans can no longer imagine the table without it.
 
 That is the leadership pressure on every later case in this book. Before a leader becomes a story of virtue or failure, a chair has already been left in place—because once it settled something, asking who should sit there again felt like starting the crisis over.
 
-[^c2-outcome]: Outcome-based evaluation is a common shortcut in leadership judgment under uncertainty, where results are easier to assess than responsibility or moral cost.
+[^c2-posture]: On moral licensing—how past good faith or virtuous appearance can reduce later scrutiny—see Anna C. Merritt, Daniel A. Effron, and Benoît Monin, “Moral Self-Licensing: When Being Good Frees Us to Be Bad,” *Social and Personality Psychology Compass* 4, no. 5 (2010): 344–357.
 
-[^c2-dimensions]: Separating moral posture, effectiveness, and legitimacy persistence aligns with critiques of consequentialism applied without attention to responsibility, distribution of harm, or moral agency.
-
-[^c2-posture]: Research on moral licensing and perceived intent shows that sincerity or good faith can reduce scrutiny even when negative consequences persist.
-
-[^c2-effectiveness]: Institutional incentives often privilege measurable outputs over diffuse or delayed harms, making effectiveness the dominant evaluative criterion by default.
-
-[^c2-inertia]: Sociological accounts of authority emphasize inertia: once legitimacy is established, removing it requires more justification than granting it did.
-
-[^c2-informal]: Informal authority dynamics are well documented in sociology, where legitimacy frequently precedes explicit accountability mechanisms.
-
-[^c2-mismatch]: Leadership debates often stall because participants emphasize different dimensions—outcomes, harm, or legitimacy—without recognizing the mismatch.
-
-[^c2-cost]: The social, professional, or institutional cost of challenge is a central mechanism by which authority persists beyond accountability.
+[^c2-inertia]: On the stickiness of legitimate authority once belief in its legitimacy is established, see Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed. Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978), esp. the analysis of legitimate domination.
