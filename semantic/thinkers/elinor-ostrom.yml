@@ -11,10 +11,12 @@ concepts:
 - trust
 patterns: []
 relatedBooks:
+- coupling
 - how-trust-forms
 - living-in-sediment
 - trust-beyond-similarity
 - when-trust-stops-tracking-reality
+- why-collaboration-is-so-hard
 works:
 - ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action
 whyThisMatters: Ostrom shows how communities can steward shared resources when scale

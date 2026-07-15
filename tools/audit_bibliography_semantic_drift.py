@@ -44,6 +44,25 @@ from source_metadata import (  # noqa: E402
 MATCH_THRESHOLD = 50
 
 
+def dedupe_expected_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Drop duplicate bibliography rows (same author+title), keeping the first."""
+    out: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    for row in rows:
+        author = normalize_match_text(str(row.get("author") or row.get("name") or ""))
+        title = normalize_match_text(str(row.get("workTitle") or ""))
+        if not title:
+            # Fall back to summary when title missing so wrapped entries still dedupe.
+            title = normalize_match_text(str(row.get("summary") or ""))[:120]
+        key = (author, title)
+        if key in seen and title:
+            continue
+        if title:
+            seen.add(key)
+        out.append(row)
+    return out
+
+
 @dataclass
 class MatchHit:
     expected_slug: str
@@ -291,13 +310,14 @@ def audit_book(
 ) -> BookDrift:
     text = biblio_path.read_text(encoding="utf-8")
     parsed = parse_bibliography(text)
+    expected_rows = dedupe_expected_rows(parsed.rows)
     rel_biblio = (
         str(biblio_path.relative_to(repo)) if biblio_path.is_relative_to(repo) else str(biblio_path)
     )
 
     linked = {slug: src for slug, src in sources.items() if book_id in related_books_of(src)}
 
-    hits, unmatched_exp, unmatched_linked = match_expected_to_sources(parsed.rows, linked)
+    hits, unmatched_exp, unmatched_linked = match_expected_to_sources(expected_rows, linked)
 
     # For unmatched expected, try corpus-wide match (exists but missing relatedBooks)
     other_sources = {s: sources[s] for s in sources if s not in linked}
@@ -312,12 +332,12 @@ def audit_book(
         bibliography=rel_biblio,
         parse_style=parsed.style,
         parse_warnings=list(parsed.warnings),
-        biblio_count=len(parsed.rows),
+        biblio_count=len(expected_rows),
         linked_count=len(linked),
         weak_parse=weak,
     )
 
-    exp_by_slug = {str(r.get("slug", "")): r for r in parsed.rows}
+    exp_by_slug = {str(r.get("slug", "")): r for r in expected_rows}
     for hit in hits:
         exp = exp_by_slug.get(hit.expected_slug, {})
         src = linked.get(hit.source_slug, {})
@@ -350,7 +370,7 @@ def audit_book(
         )
 
     matched_exp_slugs = {h.expected_slug for h in hits} | {h.expected_slug for h in global_hits}
-    for exp in parsed.rows:
+    for exp in expected_rows:
         slug = str(exp.get("slug", ""))
         if slug in matched_exp_slugs:
             continue
@@ -377,7 +397,7 @@ def audit_book(
 
     # Thinkers layer
     expected_creators: dict[str, str] = {}
-    for row in parsed.rows:
+    for row in expected_rows:
         for cslug in expected_creator_slugs(row):
             expected_creators[cslug] = str(row.get("author") or row.get("name") or "")
 

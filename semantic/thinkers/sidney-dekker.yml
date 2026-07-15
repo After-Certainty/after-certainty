@@ -12,12 +12,15 @@ concepts:
 - harm
 - repair
 - responsibility
+- trust
 patterns: []
 relatedBooks:
 - coupling
 - how-serious-systems-learn
+- when-others-look-to-you-v1
 works:
 - dekker-sidney-drift-into-failure-from-hunting-broken-components-to-understanding-complex-systems
 - dekker-sidney-the-field-guide-to-understanding-human-error
+- dekker-sidney-w-a-just-culture-restoring-trust-and-accountability
 whyThisMatters: Dekker bridges operational safety and moral accountability when systems
   hurt people.

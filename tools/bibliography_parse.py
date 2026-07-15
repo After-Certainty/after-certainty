@@ -153,11 +153,23 @@ def _row_from_block(block: str, used_slugs: set[str]) -> dict | None:
     first = _first_line(block)
     if not first:
         return None
+    # Prefer first line; if title missing (common for wrapped list entries),
+    # fall back to the whole block (continuation lines hold *Title*).
     author, frag, kind = _author_and_title_fragment(first)
     work_title = _extract_work_title(frag)
+    if not work_title:
+        compact = " ".join(normalize_typography(block).split())
+        compact = re.sub(r"^-\s*", "", compact)
+        author2, frag2, kind2 = _author_and_title_fragment(compact)
+        work_title2 = _extract_work_title(frag2)
+        if work_title2:
+            author, frag, kind = author2, frag2, kind2
+            work_title = work_title2
     if not author:
         return None
     name = display_author_name(author)
+    # Strip trailing editorial role markers from display author when present.
+    name = re.sub(r",?\s*eds?\.?\s*$", "", name, flags=re.I).strip().rstrip(",")
     slug = make_source_slug(author, work_title, used_slugs)
     typ = _infer_type(work_title, block, kind)
     return {

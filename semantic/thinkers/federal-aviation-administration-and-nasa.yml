@@ -6,8 +6,10 @@ summary: U.S. aviation regulators and NASA publishing safety reporting, human fa
 concepts: []
 patterns: []
 relatedBooks:
+- coupling
 - what-we-cannot-see
 works:
 - federal-aviation-administration-and-nasa-aviation-safety-reporting-system-asrs
+- national-aeronautics-and-space-administration-aviation-safety-reporting-system-asrs-program-mate
 whyThisMatters: FAA/NASA sources anchor just culture and reporting systems—correction
   without scapegoating in transport.

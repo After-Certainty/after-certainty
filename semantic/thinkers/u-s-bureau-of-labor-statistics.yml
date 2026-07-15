@@ -5,9 +5,12 @@ summary: U.S. federal statistical agency publishing CPI, employment, and labor-m
   indicators.
 concepts: []
 patterns: []
-relatedBooks: []
+relatedBooks:
+- the-economy-we-dont-experience
 works:
 - u-s-bureau-of-labor-statistics-consumer-price-index-cpi-news-releases-and-databases-2020-2024-ht
+- u-s-bureau-of-labor-statistics-consumer-price-index-cpi-news-releases-methodology-notes-and-data
 - u-s-bureau-of-labor-statistics-employment-situation-news-releases-job-openings-and-labor-turnove
-whyThisMatters: BLS releases ground macro claims about inflation, employment, and how
-  economic reality is publicly measured.
+- u-s-bureau-of-labor-statistics-the-employment-situation
+whyThisMatters: BLS releases ground macro claims about inflation, employment, and
+  how economic reality is publicly measured.

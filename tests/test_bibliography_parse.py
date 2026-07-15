@@ -169,3 +169,36 @@ def test_match_classifies_matched_missing_stale() -> None:
     assert hits[0].source_slug == "known-work"
     assert {e["slug"] for e in unmatched_exp} == {"b-two"}
     assert unmatched_src == ["stale-work"]
+
+
+def test_dedupe_expected_rows_drops_duplicate_titles() -> None:
+    from audit_bibliography_semantic_drift import dedupe_expected_rows
+
+    rows = [
+        {
+            "slug": "a",
+            "author": "Mark Monmonier",
+            "workTitle": "How to Lie with Maps",
+            "summary": "x",
+        },
+        {
+            "slug": "a-2",
+            "author": "Mark Monmonier",
+            "workTitle": "How to Lie with Maps",
+            "summary": "y",
+        },
+    ]
+    out = dedupe_expected_rows(rows)
+    assert len(out) == 1
+    assert out[0]["slug"] == "a"
+
+
+def test_parse_wrapped_list_title() -> None:
+    text = (
+        "- Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy,\n"
+        "  eds. *Site Reliability Engineering: How Google Runs Production Systems*.\n"
+        "  Sebastopol, CA: O'Reilly Media, 2016.\n"
+    )
+    rows = parse_list_bibliography(text)
+    assert len(rows) == 1
+    assert "Site Reliability Engineering" in rows[0]["workTitle"]
