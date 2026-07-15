@@ -282,16 +282,12 @@ structure.
 *Successful restraint becomes dangerous when people remember the
 virtue and forget the temptation.*
 
-Interpretation shapes the moral ledger before judgment begins, but
-it does not settle the judgment. Washington is misread when the
-empty chair is taken as proof that no one wanted to sit—or that
-sitting forever would have been unnatural for anyone properly
-formed. He is also misread when later abuses of executive power are
-answered only by nostalgia for his character rather than by redesign
-of incentives, terms, oversight, and lawful coercion. Character
-matters. It does not substitute for architecture. Looking carefully
-does not cancel the importance of transfers of power. It keeps
-celebration from becoming alibi.
+Washington is misread when the empty chair is taken as proof that
+no one wanted to sit—or that sitting forever would have been
+unnatural for anyone properly formed. Character matters. It does
+not substitute for redesign of incentives, terms, oversight, and
+lawful coercion. Looking carefully keeps celebration of peaceful
+transfer from becoming alibi.
 
 ---
 

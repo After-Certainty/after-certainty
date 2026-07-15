@@ -54,9 +54,10 @@ learned not to center.[^c5-public-health]
 Nooyi’s wager was that the company could widen what counted as
 performance without abandoning performance. She named the framework
 “Performance with Purpose”: financial results joined to aspirations
-around nutrition (reducing sugar, salt, and fat; expanding “better-for-
-you” and “good-for-you” offerings alongside the core), environmental
-sustainability (water, packaging, agriculture), and human capital—
+around nutrition (reducing sugar, salt, and fat; expanding
+“better-for-you” and “good-for-you” offerings alongside the core),
+environmental sustainability (water, packaging, agriculture), and human
+capital—
 including how employees were treated, developed, and asked to carry the
 company’s load.[^c5-pwp] The point was not only a press-release
 sentiment. It was an attempt to move consequences out of the margin and
@@ -220,44 +221,31 @@ legitimating extraction as competence.
 Scrutiny then relocates. Instead of remaining on the ledger’s design—
 why those columns, whose harms live outside them, what the product does
 when it succeeds by its own measures—attention settles on the leader’s
-toughness, priorities, empathy, and temperament. The person who names
-the missing consequence becomes the problem to be managed. The product
-harm and the accounting habit become background. Softness is diagnosed
+toughness, priorities, empathy, and temperament. Softness is diagnosed
 in the speaker. Hardness is awarded to whoever restores the original
 frame. “Unfocused” becomes the managerial synonym for “you are asking
 the wrong grid to change.”
 
-This relocation is efficient for systems that prefer not to reopen
-first principles. It is costly for leaders who treat stewardship as
-more than branding. Nooyi’s case makes the mechanism legible without
-requiring sainthood. She operated inside capitalism’s permissions:
-brand moats, consumer demand, fiduciary custom, activist pressure, and
-the quarterly rituals of comparison. She tried to stretch those
-permissions. The stretch was real enough to draw activist fire, media
-ambivalence, and a durable split in afterlives. It was also bounded
-enough that PepsiCo remained PepsiCo—an enterprise still deeply
-involved in categories whose social costs do not vanish because a CEO
-can discuss them fluently, hire sustainability officers, or report
-grams of sugar removed from a formula.
-
-Effectiveness under that stretch becomes a contested narrative rather
-than a settled fact. Sufficient results do not drown skepticism.
-Dominant results might briefly overpower it. Moral expansion without
-unambiguous numerical dominance therefore keeps legitimacy conditional.
-That conditionality is often misread as proof that purpose was a
-mistake, when it may also be proof that the evaluation system cannot
-credit what it refused to measure—and that relocating blame onto the
-measurer’s critic is cheaper than redrawing the grid.
+Nooyi’s case makes the mechanism legible without requiring sainthood.
+She operated inside capitalism’s permissions: brand moats, consumer
+demand, fiduciary custom, activist pressure, and the quarterly rituals
+of comparison. She tried to stretch those permissions. The stretch was
+real enough to draw activist fire, media ambivalence, and a durable
+split in afterlives. It was also bounded enough that PepsiCo remained
+PepsiCo—an enterprise still deeply involved in categories whose social
+costs do not vanish because a CEO can discuss them fluently, hire
+sustainability officers, or report grams of sugar removed from a
+formula. Moral expansion without unambiguous numerical dominance keeps
+legitimacy conditional. That conditionality is often misread as proof
+that purpose was a mistake, when it may also be proof that the
+evaluation system cannot credit what it refused to measure.
 
 The ordinary meeting returns here with clearer stakes. The colleague
 who asks about downstream harm is thanked for raising a good point and
-then managed as a process risk. The extractive alternative is praised
-as decisiveness because it keeps the conversation inside columns the
-room already knows how to settle. Nooyi’s tenure scales that dynamic
-to markets, activism, and global brands. Gendered bias amplifies the
-mechanism; it does not invent it. The pattern still functions as a
-defense of a measurement regime that would otherwise have to admit what
-it warehouses.
+then managed as a process risk. Gendered bias amplifies the mechanism;
+it does not invent it. The pattern still functions as a defense of a
+measurement regime that would otherwise have to admit what it
+warehouses.
 
 ---
 
@@ -288,20 +276,20 @@ stored beside them is treated as idealism imported by an insufficiently
 tough executive—or as part of what the enterprise already was whenever
 those clean columns post their wins.
 
-[^c5-profiles]: Profiles in *Fortune*, *The New York Times*, and *Harvard Business Review* during and after Nooyi’s tenure frequently paired praise for vision and values with skepticism about shareholder returns and toughness.
+[^c5-profiles]: See Betsy Morris, “The Pepsi Challenge,” *Fortune*, 19 February 2008, and Geoff Colvin, “Indra Nooyi’s Pepsi Challenge,” *Fortune*, 29 May 2012; also Nooyi, *My Life in Full*, and DealBook coverage during the Trian campaign.
 
 [^c5-memoir]: Indra Nooyi, *My Life in Full: Work, Family, and Our Future* (New York: Portfolio/Penguin, 2021).
 
 [^c5-portfolio]: PepsiCo’s mix of beverages and snacks, including Frito-Lay and major brand acquisitions such as Quaker, Tropicana, and Gatorade, is summarized in company history and in *My Life in Full*.
 
-[^c5-public-health]: On soft-drink consumption, obesity, and related public-health debate during the 2000s–2010s, see reporting and research summarized in the *New York Times* business and health coverage of beverage-industry reformulation, and Kelly D. Brownell and Kenneth E. Warner, “The Perils of Ignoring History: Big Tobacco Played Dirty and Millions Died. How Similar Is Big Food?” *Milbank Quarterly* 87, no. 1 (2009): 259–294.
+[^c5-public-health]: On soft-drink consumption, obesity, and related public-health debate during the 2000s–2010s, see Kelly D. Brownell and Kenneth E. Warner, “The Perils of Ignoring History: Big Tobacco Played Dirty and Millions Died. How Similar Is Big Food?” *Milbank Quarterly* 87, no. 1 (2009): 259–294.
 
 [^c5-pwp]: “Performance with Purpose” is documented throughout Nooyi’s speeches, PepsiCo annual reports from her tenure, and *My Life in Full*.
 
-[^c5-peltz]: Trian Fund Management, letter and white paper to the PepsiCo board, 19 February 2014 (“The Case for Separating Global Snacks & Beverages”); PepsiCo board response via Ian Cook, Presiding Director, to Nelson Peltz / Trian, 27 February 2014, furnished in PepsiCo Form 8-K (27 February 2014). Secondary reporting: *Wall Street Journal*, *Financial Times*, and DealBook / *New York Times*, 2013–2015; January 2015 truce adding a Trian-affiliated independent director reported in DealBook.
+[^c5-peltz]: Trian Fund Management, letter and white paper to the PepsiCo board, 19 February 2014 (“The Case for Separating Global Snacks & Beverages”); PepsiCo board response via Ian Cook, Presiding Director, to Nelson Peltz / Trian, 27 February 2014, furnished in PepsiCo Form 8-K (27 February 2014). Secondary reporting: Michael J. de la Merced, “PepsiCo Tells Activist Investor Its Answer Is Still No,” DealBook / *New York Times*, 27 February 2014; Siddharth Cavale, “Nelson Peltz Revives Campaign to Split Up PepsiCo,” Reuters, 20 February 2014. January 2015 truce adding a Trian-affiliated independent director reported in DealBook.
 
-[^c5-returns]: Assessments of PepsiCo’s financial performance under Nooyi vary by window and comparator; see company filings and contemporaneous analyses in the business press that alternately emphasize revenue growth and diversification or periods of relative total-shareholder-return lag versus peers such as Coca-Cola.
+[^c5-returns]: PepsiCo Form 10-K annual reports covering the 2006–2018 tenure; interpretive framing in de la Merced, “PepsiCo Tells Activist Investor Its Answer Is Still No,” and in Nooyi, *My Life in Full*. Assessments vary by window and comparator; this chapter does not invent total-shareholder-return figures.
 
 [^c5-eagly]: Alice H. Eagly and Linda L. Carli, *Through the Labyrinth: The Truth About How Women Become Leaders* (Boston: Harvard Business School Press, 2007).
 
-[^c5-after]: Post-tenure reassessments remain divided between stakeholder-capitalism prototype narratives and critiques of purpose as distraction; see later profiles and business-school case discussions citing Performance with Purpose as contested precedent.
+[^c5-after]: Post-tenure framing of Performance with Purpose as contested stakeholder precedent is developed in Nooyi, *My Life in Full*.

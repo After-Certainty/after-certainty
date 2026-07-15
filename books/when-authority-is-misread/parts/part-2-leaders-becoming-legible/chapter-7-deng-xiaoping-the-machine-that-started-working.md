@@ -29,15 +29,16 @@ capacity, not reckoning as public theater. The Party would remain; the
 economy would be re-rigged to produce again.
 
 Agricultural reform came first in substance if not always in announced
-doctrine. Experiments with household responsibility and decollectivization
-—often beginning locally in places such as Anhui, then spreading as
-results became undeniable—rewired incentives in the countryside. Farmers
-gained room to produce for gain rather than only for plan. Sideline
-production and markets that had been treated as political crimes
-reappeared as practical necessity. Grain output rose. Rural incomes
-improved unevenly but dramatically compared with the late collectivist
-floor. The Party retained ultimate political control while loosening the
-economic cage that had made control synonymous with scarcity.[^c7-rural]
+doctrine. Experiments with household responsibility and
+decollectivization—often beginning locally in places such as Anhui,
+then spreading as results became undeniable—rewired incentives in the
+countryside. Farmers gained room to produce for gain rather than only
+for plan. Sideline production and markets that had been treated as
+political crimes reappeared as practical necessity. Grain output rose.
+Rural incomes improved unevenly but dramatically compared with the late
+collectivist floor. The Party retained ultimate political control while
+loosening the economic cage that had made control synonymous with
+scarcity.[^c7-rural]
 Reform here was not a single decree from a lonely genius. It was
 permission spreading toward practices that already worked where cadres
 risked allowing them—then nationalized as policy once success made
@@ -231,46 +232,31 @@ says, softly, that dwelling on it helps no one now that life is better.
 moral memory.*
 
 The machine works. People who remember hunger experience critique of the
-repair as a kind of betrayal. Officials who defended lethal order
-experience moral accounting as a threat to the narrative that keeps the
-repair legitimate. Families that rose with the boom may feel loyalty to
-the sequence that fed them even when they also keep quiet knowledge of
-what June 1989 cost. The constraint is real even when the gratitude is
-earned. Earned gratitude can still ration what a society is allowed to
-keep saying out loud.
+repair as betrayal. Officials who defended lethal order experience moral
+accounting as a threat to the narrative that keeps the repair
+legitimate. Families that rose with the boom may feel loyalty to the
+sequence that fed them even when they also keep quiet knowledge of what
+June 1989 cost. Earned gratitude can still ration what a society is
+allowed to keep saying out loud.
 
 Deng did not invent this structure. He governed inside it with unusual
 consequence. Rural incentives, coastal zones, market pricing, Party
 discipline, and the crushing of the 1989 protests belong to one
 political life. Selecting only the growth curve produces a technocratic
-saint. Selecting only the crackdown produces a villain without a country
-attached. The misreading, when it occurs, is often this forced
-selection—as if those were two different men in two different centuries.
-The more precise reading refuses the selection without pretending the
-tensions cancel. GDP does not cash out deaths; rural revival and export
-industrialization are not morally weightless scenery behind a single night
-of tanks.
+saint; selecting only the crackdown produces a villain without a country
+attached. The misreading is often this forced selection—as if those were
+two different men in two different centuries. GDP does not cash out
+deaths; rural revival is not weightless scenery behind a night of tanks.
+International readers face the same fork from the other side: prosperity
+as absolution, or every material gain as weightless because the political
+form remains authoritarian. Neither reading keeps the whole file open.
 
 Under high constraint, public reinterpretation remains limited even when
-private knowledge is widespread. Repair in the moral sense—open
-archives, contested memorials, institutional limits on future lethal
-orders, naming of responsibility without euphemism—was not the reform
-Deng prioritized. Economic experimentation was encouraged; political
-reinterpretation of authority was not. After 1989, that asymmetry
-hardened. Outcome-based legitimacy faced little domestic competition in
-official channels once order was restored and growth resumed.
-
-International readers face the same forced selection from the other
-direction: GDP as absolution, or every material gain as morally
-weightless because the political form remains authoritarian. The first
-flattens victims of repression into acceptable cost. The second flattens
-lives changed by food, schools, medicine, and exit from extreme poverty
-into a footnote for theory. A serious account keeps both weights on the
-table and accepts the discomfort of an uncancelled remainder.
-
-The chapter’s refusal is deliberate. It will not award Deng a clean
-victory by prosperity, and it will not erase prosperity in order to keep
-a clean indictment.
+private knowledge is widespread. Moral repair—open archives, contested
+memorials, limits on future lethal orders, naming without euphemism—was
+not the reform Deng prioritized. Economic experimentation was encouraged;
+political reinterpretation of authority was not. After 1989, that
+asymmetry hardened once order was restored and growth resumed.
 
 ---
 
@@ -283,15 +269,14 @@ were broken in the name of keeping reform from disorder—and the room
 tightens, as rooms do when recovery feels fragile and critique feels
 like sabotage.
 
-Neither fact cancels the other. Functioning output does not prove the
-safeguard was worthless. The missing safeguard does not prove the output
-was illusory. Deng’s leadership becomes legible at exactly this
-unresolved hinge: authority anchored by results decisive enough to
-redefine the baseline of judgment, while political memory of force
-remains active, denied, or deferred depending on who is allowed to speak.
-Looking twice does not choose a side by arithmetic. It refuses to let
-gratitude, however large, finish the work of moral description before
-the description is done.
+Functioning output does not prove the safeguard was worthless; the
+missing safeguard does not prove the output was illusory. Deng’s
+leadership becomes legible at exactly this unresolved hinge: authority
+anchored by results decisive enough to redefine the baseline of
+judgment, while political memory of force remains active, denied, or
+deferred depending on who is allowed to speak. Looking twice refuses to
+let gratitude, however large, finish moral description before the
+description is done.
 
 [^c7-vogel]: Ezra F. Vogel, *Deng Xiaoping and the Transformation of China* (Cambridge, MA: Belknap Press of Harvard University Press, 2011), the major English-language biography for Deng’s career, reforms, and governing style.
 

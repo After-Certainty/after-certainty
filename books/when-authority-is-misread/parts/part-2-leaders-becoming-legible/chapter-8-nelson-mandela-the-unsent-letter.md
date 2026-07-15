@@ -283,13 +283,10 @@ itself redistributes land.
 later be done inside that space.*
 
 Interpretation shapes the moral ledger before judgment begins, but
-it does not settle the judgment. Mandela is misread when restraint
-is treated as closure—or when later inequality is taken as proof the
-restraint was fraudulent. Fraud and incompleteness are different
-charges. One cancels the opening; the other demands that the opening
-be used. Looking carefully does not cancel the remaining questions
-of amnesty, land, capital, and daily distribution. It keeps them
-from being answered by either hagiography or retrospective contempt.
+it does not settle the judgment. Looking carefully does not cancel
+amnesty, land, capital, and daily distribution. It keeps those
+questions from being closed by either glowing verdict or reverse
+myth.
 
 ---
 
@@ -329,8 +326,7 @@ to large-scale civil conflict.
 
 [^c8-springbok]: On Mandela’s appearance at the 1995 Rugby World
 Cup final and the politics of national symbolism, see Sampson,
-*Mandela*, and contemporaneous reporting collected in Sparks’s
-later essays on the transition.
+*Mandela*.
 
 [^c8-trc]: Truth and Reconciliation Commission of South Africa,
 *Report* (Cape Town: TRC, 1998–2003), esp. volumes on amnesty,
@@ -344,8 +340,7 @@ Commission of South Africa (TRC),” *Diacritics* 32, no. 3/4
 of criminalizing political violence without addressing structural
 injustice.
 
-[^c8-surplus]: Biographical and leadership studies consistently
-note Mandela’s refusal to convert personal suffering into
-political entitlement; see Sampson, *Mandela*, and evaluations
-summarized in assessments of the presidency that emphasize
-stabilization over structural transformation.
+[^c8-surplus]: On Mandela’s refusal to convert personal suffering
+into political entitlement, and on a presidency often evaluated
+for stabilization more than structural transformation, see
+Sampson, *Mandela*.
