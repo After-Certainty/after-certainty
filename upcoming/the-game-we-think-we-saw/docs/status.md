@@ -2,13 +2,13 @@
 
 ## Current phase
 
-**Phase 0 — Structure (architecture and research)**
+**Phase 1 — Outline to prose (starting)**
 
-No chapter, introduction, or conclusion prose has been drafted. Manuscript files are heading-only stubs pointing at planning briefs.
+Architecture scaffold is complete. Draft branch is open for author-supplied unit drafts. Incoming drafts will receive a citation pass and a reflow pass before landing in manuscript files.
 
 ## Active branch
 
-`cursor/the-game-we-think-we-saw-skeleton-ff5b`
+`cursor/the-game-we-think-we-saw-draft-ff5b`
 
 ## Manuscript hub
 

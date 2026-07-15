@@ -25,7 +25,7 @@ Create each branch from latest `main` unless continuing work on an open branch. 
 
 ## Phases
 
-### Phase 0 — Structure (current)
+### Phase 0 — Structure
 
 - Confirm `index.md` links match filenames and on-page titles.
 - Keep manuscript stubs heading-only until research dossiers unlock drafting.
