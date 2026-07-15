@@ -8,6 +8,7 @@ import { GraphNeighborhoodCards } from "@/components/explore/graph-neighborhood-
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
+import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
 import {
   conceptsSortedForExploreIndex,
@@ -123,7 +124,9 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
           {concept.title}
         </h1>
         <div className="mt-8 max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:text-[17px]">
-          <p className="whitespace-pre-wrap">{getConceptFullDefinition(concept)}</p>
+          <p className="whitespace-pre-wrap">
+            <LinkifiedText text={getConceptFullDefinition(concept)} />
+          </p>
         </div>
         <ExploreEntityDetailActions observatory={{ kind: "concept", slug: concept.slug }} />
         <ExploreAdjacentNav

@@ -10,6 +10,7 @@ import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
+import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import {
@@ -136,7 +137,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
             ) : null}
             {book.summary ? (
               <p className="max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
-                {book.summary}
+                <LinkifiedText text={book.summary} />
               </p>
             ) : null}
           </div>

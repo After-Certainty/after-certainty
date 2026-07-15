@@ -3,6 +3,7 @@
 import Link from "next/link";
 
 import { RelationshipCard } from "@/components/explore/relationship-card";
+import { LinkifiedText } from "@/components/ui/linkified-text";
 import { graphNodeTitle, type GraphIndex, type GraphNode } from "@/lib/graph/graph";
 import { exploreHrefForNode, exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
 import {
@@ -93,22 +94,28 @@ export function ObservatoryEntityPanel({
         </h2>
         {node.kind === "concept" ? (
           <p className="mt-4 text-sm leading-relaxed text-muted">
-            {getConceptDisplayDefinition(node.entity)}
+            <LinkifiedText text={getConceptDisplayDefinition(node.entity)} />
           </p>
         ) : null}
         {node.kind === "pattern" ? (
-          <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>
-        ) : null}
-        {node.kind === "book" ? (
           <p className="mt-4 text-sm leading-relaxed text-muted">
-            {node.entity.summary ?? node.entity.subtitle}
+            <LinkifiedText text={node.entity.summary} />
+          </p>
+        ) : null}
+        {node.kind === "book" && (node.entity.summary || node.entity.subtitle) ? (
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            <LinkifiedText text={node.entity.summary ?? node.entity.subtitle ?? ""} />
           </p>
         ) : null}
         {node.kind === "source" && node.entity.summary ? (
-          <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            <LinkifiedText text={node.entity.summary} />
+          </p>
         ) : null}
         {node.kind === "thinker" && node.entity.summary ? (
-          <p className="mt-4 text-sm leading-relaxed text-muted">{node.entity.summary}</p>
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            <LinkifiedText text={node.entity.summary} />
+          </p>
         ) : null}
         {node.kind === "concept" && node.entity.layer ? (
           <p className="mt-3 text-[11px] uppercase tracking-[0.2em] text-muted">

@@ -8,6 +8,7 @@ import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
+import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
 import {
   exploreSourceAdjacentInIndexOrder,
@@ -100,13 +101,15 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
         ) : null}
         {displayBody ? (
           <p className="mt-10 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
-            {displayBody}
+            <LinkifiedText text={displayBody} />
           </p>
         ) : null}
         {source.whyThisMatters ? (
           <div className="mt-8 max-w-2xl space-y-3">
             <h2 className="text-[11px] uppercase tracking-[0.24em] text-muted">Why this matters</h2>
-            <p className="text-lg leading-relaxed text-muted md:text-xl">{source.whyThisMatters}</p>
+            <p className="text-lg leading-relaxed text-muted md:text-xl">
+              <LinkifiedText text={source.whyThisMatters} />
+            </p>
           </div>
         ) : null}
         <ExploreEntityDetailActions observatory={{ kind: "source", slug: source.slug }} />

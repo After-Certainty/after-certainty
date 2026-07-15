@@ -5,6 +5,7 @@ import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
+import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
 import {
   exploreThinkerAdjacentInIndexOrder,
@@ -84,14 +85,14 @@ export default async function ExploreThinkerDetailPage({ params }: PageProps) {
         </h1>
         {thinker.summary ? (
           <p className="mt-10 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
-            {thinker.summary}
+            <LinkifiedText text={thinker.summary} />
           </p>
         ) : null}
         {thinker.whyThisMatters ? (
           <div className="mt-8 max-w-2xl space-y-3">
             <h2 className="text-[11px] uppercase tracking-[0.24em] text-muted">Why this matters</h2>
             <p className="text-lg leading-relaxed text-muted md:text-xl">
-              {thinker.whyThisMatters}
+              <LinkifiedText text={thinker.whyThisMatters} />
             </p>
           </div>
         ) : null}
