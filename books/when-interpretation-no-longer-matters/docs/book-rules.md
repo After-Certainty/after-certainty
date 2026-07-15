@@ -2,63 +2,90 @@
 
 ## Purpose
 
-Architectural constraints for **When Interpretation No Longer Matters** (*Authority After Understanding Collapses*).
+Architectural constraints for **When Interpretation No Longer Matters** (*Authority When Understanding No Longer Governs*).
 
 ## Book scope and structure
 
 ### Target length
 
-- **Current edition:** concentrated essay (~14.5k words) — export band locked July 2026
-- **Long-term full band:** case-study book (~80–110k words) — deferred; see `docs/status.md`
-- 4 parts, 13 chapters, glossary, structural appendix
+- **Rewrite target:** essayistic full book (~37–40k after editorial subtraction)
+- 3 parts with quiet title pages (no bridge essays), Threshold + 8 numbered chapters, appendix working terms, bibliography
+- No standalone How-to-Read unit; no taxonomic case map appendix
+- Subtitle: *Authority When Understanding No Longer Governs* (not “after understanding collapses”)
 
-### Case-study chapter template
+### Chapter form (non-negotiable)
 
-For Parts II–III case chapters, preserve a consistent scaffold (adjust headings only when the case requires):
+Each chapter follows Kevin Steffensen’s widen-and-return grammar:
 
-1. What replaced interpretation
-2. Leader or regime focus (named where appropriate)
-3. Structural mechanisms (alignment, saturation, performance, enclosure)
-4. What cannot be repaired from inside interpretation
-5. Return to book invariant
+1. Ordinary observation, object, interaction, or small human scene
+2. Tension inside that scene
+3. Widen into historical, institutional, or philosophical question
+4. Explore through a real case (or paired cases)
+5. Compress into a memorable structural pattern
+6. Return to the opening so it reads differently
 
-Do not let the template read as fill-in-the-blank; each case must add distinct structural nuance.
+Do **not** use the retired report scaffold as visible headings:
+
+- What Replaced Interpretation
+- How Authority Reproduced Itself
+- What Still Functioned
+- What Was Lost
+- Why This Case Matters Structurally
+- Event in Brief / Leader Focus (as section titles)
+
+Those may remain invisible drafting questions only.
+
+Vary rhythm across chapters. Prefer sustained paragraphs over staccato one-sentence stacks.
+
+### Forbidden scaffolding stems (ban except rare necessity)
+
+- “This case demonstrates…”
+- “The case is instructive because…”
+- “What remained operative was…”
+- “Interpretation did not disappear; it…”
 
 ## Core invariant (non-negotiable)
 
-> When interpretation no longer coordinates legitimacy, authority rests on alignment, identity saturation, and performative enactment—and judgment feels impossible because understanding is no longer the medium of consent.
+> Interpretation can lose its public or institutional function while understanding persists. The book asks what kind of authority exists when understanding no longer has the power to matter.
 
-## Thematic arc by part
+This is **not** a book about irrational followers, evil leaders, misinformation, cult psychology, propaganda, or moral corruption as the governing concept.
 
-- **Part I — Where Interpretation Ends:** Boundary cases; what it means for interpretation to stop working.
-- **Part II — Authority Without Interpretation:** Alignment, identity saturation, coercion/consent, narrative enclosure.
-- **Part III — Cases Beyond Interpretation:** Historical and contemporary regimes (alignment-based, identity-saturated, total, transitional).
-- **Part IV — After Interpretation:** Impossible judgment, irreparable harm, early recognition.
+## Mechanism ownership (one primary per case)
 
-## Tone and positioning
+| Mechanism | Owner |
+|-----------|--------|
+| Frame-jurisdiction / prior assent | Joseph Smith (Ch 1) |
+| Understanding without leverage | Jim Jones (Ch 2) |
+| Open-system sorting / alignment | Donald Trump (Ch 3) |
+| Identity saturation | Juan Perón; Chávez echo (Ch 4) |
+| Performative legitimacy under coercion | Joseph Stalin; Hitler contrast (Ch 5) |
+| Narrative enclosure | David Koresh (Ch 6) |
+| Transitional organizational drift | Holmes + Neumann paired (Ch 7) |
+| Anti-repair | Mao Zedong (Ch 8) |
+| Judgment as witness after consequence | Khmer Rouge; Pol Pot decentered (Ch 9) |
 
-### This book must not be
+Removed as standalone chapters: Sun Myung Moon, Hugo Chávez, Adolf Hitler.
 
-- Partisan regime scorekeeping
-- Moral panic about “post-truth” without structure
-- Academic taxonomy without readable cases
+## Part arc
 
-### This book must be
+- **Part I — Where Interpretation Ends:** Threshold (Smith); core distinction (Jones)
+- **Part II — What Replaces It:** sorting, identity saturation / belonging, performance, enclosure
+- **Part III — Before and After the Boundary:** transitional drift, anti-repair, witness
 
-- Comparative and structural
-- Careful with living politics; prefer historical and bounded contemporary examples
-- Clear in glossary terms (`back-matter/glossary.md`)
+## Tone
 
-## Known structural issues
+- Essayistic, morally serious without prosecutorial voice
+- Careful with living politics (especially Trump): date-bound, sourced, no general indictment
+- Smith is a boundary case; religious belief ≠ interpretive collapse
+- No casual moral equivalence across unlike harms
+- Conclusion sharpens perception; no rescue program
 
-Phase 0 (May 2026) resolved chapter drift and embedded split markers. Re-run `tools/fix_interpretation_structure.py` only if `import.md` is restored and a deliberate re-split is intended.
+## Citation
 
-## Citation and glossary
-
-- Glossary exists; run glossary pass after structural fixes.
-- Footnotes at case pivots; verify sensitive historical claims.
+Prefer case historians and primary documents at factual pivots. Theorists only when naming a borrowed conceptual lens, sparingly.
 
 ## Key docs
 
 - `docs/drafting-process.md`
 - `docs/status.md`
+- Rewrite plan (architecture lock, July 2026)

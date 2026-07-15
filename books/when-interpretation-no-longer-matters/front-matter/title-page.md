@@ -4,6 +4,6 @@
 
 # **When Interpretation No Longer Matters**
 
-## **Authority After Understanding Collapses**
+## **Authority When Understanding No Longer Governs**
 
 **Kevin Steffensen**

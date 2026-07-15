@@ -4,7 +4,7 @@ Copyright © 2026 Kevin Steffensen.
 
 **When Interpretation No Longer Matters**
 
-*Authority After Understanding Collapses*
+*Authority When Understanding No Longer Governs*
 
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (CC BY-SA 4.0).
 
