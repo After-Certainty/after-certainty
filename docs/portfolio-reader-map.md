@@ -55,6 +55,7 @@ Not yet in the public export pipeline. Word counts are essay-scale unless noted.
 
 | Question | Book | Status (May 2026) |
 |----------|------|-------------------|
+| What remains unsettled after a decisive sports result? | [The Game We Think We Saw](../upcoming/the-game-we-think-we-saw/index.md) | Phase 0 (architecture and research) |
 | When do incentives replace judgment? | [When Incentives Become the Moral Language](../books/when-incentives-become-the-moral-language/index.md) | Phase 5 (agent pipeline) |
 | Why is collaboration structurally hard? | [Why Collaboration Is So Hard](../books/why-collaboration-is-so-hard/index.md) | Phase 5 (essay edition) |
 | How is uncertainty a discipline, not paralysis? | [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) | Published (essay-scale) |

@@ -272,7 +272,7 @@ Read before-arrives for **historical formation of moral order**; read living-in-
 
 | Book | Index | Status |
 |------|-------|--------|
-| _None at present_ | — | — |
+| The Game We Think We Saw | [upcoming/the-game-we-think-we-saw/index.md](../upcoming/the-game-we-think-we-saw/index.md) | Architecture and research (`in_progress`) |
 
 ---
 

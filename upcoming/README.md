@@ -30,4 +30,8 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 ## Current upcoming titles
 
-_No active upcoming nonfiction manuscripts._ Additional work: scaffold from [`docs/_templates/`](docs/_templates/).
+| Book | Path | Status |
+|------|------|--------|
+| [The Game We Think We Saw](the-game-we-think-we-saw/) | [`upcoming/the-game-we-think-we-saw/`](the-game-we-think-we-saw/) | Architecture and research (`in_progress`) |
+
+Additional work: scaffold from [`docs/_templates/`](docs/_templates/).
