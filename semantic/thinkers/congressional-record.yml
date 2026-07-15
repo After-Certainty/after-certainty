@@ -1,10 +1,13 @@
 slug: congressional-record
 name: Congressional Record
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Official transcript of U.S. congressional debate, including Affordable Care
+  Act floor fights.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
-- congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2
+- congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions
+whyThisMatters: The Record preserves how incentives and fairness arguments are spoken
+  into law.

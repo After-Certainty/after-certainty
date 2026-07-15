@@ -1,10 +1,12 @@
 slug: federal-election-commission
 name: Federal Election Commission
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: U.S. agency publishing campaign-finance disclosure data and enforcement records.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov
+whyThisMatters: FEC data make incentive pathways between donors, candidates, and public
+  speech legible.

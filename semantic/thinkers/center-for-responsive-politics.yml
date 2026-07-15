@@ -1,10 +1,13 @@
 slug: center-for-responsive-politics
 name: Center for Responsive Politics
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Nonpartisan tracker (OpenSecrets) of U.S. campaign finance, lobbying, and
+  donor influence.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open
+whyThisMatters: OpenSecrets makes incentive structure countable—when money becomes
+  the audible moral claim.

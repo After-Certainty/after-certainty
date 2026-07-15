@@ -1,10 +1,13 @@
 slug: federal-reserve-bank-of-philadelphia
 name: Federal Reserve Bank of Philadelphia
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Regional Fed bank publishing the Survey of Professional Forecasters and related
+  expectation data.
 concepts: []
 patterns: []
 relatedBooks:
 - the-economy-we-dont-experience
 works:
 - federal-reserve-bank-of-philadelphia-survey-of-professional-forecasters
+whyThisMatters: Forecast aggregates reveal how experts' certainty becomes a public
+  input to policy.

@@ -852,6 +852,15 @@
           "sourceName": "Frederick P. Brooks Jr. — The Mythical Man-Month: Essays on Software Engineering"
         },
         {
+          "biblioSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
+          "sourceSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Assessing the Impact of Planned Social Change",
+          "biblioAuthor": "Donald T Campbell",
+          "sourceName": "Donald T Campbell — Assessing the Impact of Planned Social Change — Assessing the Impact of Planned Social Change"
+        },
+        {
           "biblioSlug": "cockburn-alistair-agile-software-development",
           "sourceSlug": "cockburn-alistair-agile-software-development",
           "score": 100,
@@ -1291,15 +1300,6 @@
           "biblioTitle": "The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power",
           "biblioAuthor": "Shoshana Zuboff",
           "sourceName": "Shoshana Zuboff — The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power"
-        },
-        {
-          "biblioSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
-          "sourceSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change-2",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Assessing the Impact of Planned Social Change",
-          "biblioAuthor": "Donald T Campbell",
-          "sourceName": "Donald T Campbell — Assessing the Impact of Planned Social Change — Assessing the Impact of Planned Social Change"
         }
       ],
       "missing_in_semantic": [],
@@ -4614,6 +4614,10 @@
           "creatorName": "Eagly, Alice H., and Linda L. Carli"
         },
         {
+          "creatorSlug": "george-farewell-address-19-september-1796-washington",
+          "creatorName": "George. Farewell Address. 19 September 1796 Washington"
+        },
+        {
           "creatorSlug": "michael-j-de-la-merc",
           "creatorName": "Michael J de la Merc"
         },
@@ -4715,6 +4719,15 @@
           "biblioTitle": "Dare to Lead: Brave Work. Tough Conversations. Whole",
           "biblioAuthor": "Brené Brown",
           "sourceName": "Brené Brown — Dare to Lead: Brave Work. Tough Conversations. Whole"
+        },
+        {
+          "biblioSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
+          "sourceSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Assessing the Impact of Planned Social Change",
+          "biblioAuthor": "Donald T Campbell",
+          "sourceName": "Donald T Campbell — Assessing the Impact of Planned Social Change — Assessing the Impact of Planned Social Change"
         },
         {
           "biblioSlug": "goodhart-charles-a-e-problems-of-monetary-management-the-u-k",
@@ -4852,15 +4865,6 @@
           "sourceName": "Philip Zimbardo — The Lucifer Effect: Understanding How Good People"
         },
         {
-          "biblioSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
-          "sourceSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change-2",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Assessing the Impact of Planned Social Change",
-          "biblioAuthor": "Donald T Campbell",
-          "sourceName": "Donald T Campbell — Assessing the Impact of Planned Social Change — Assessing the Impact of Planned Social Change"
-        },
-        {
           "biblioSlug": "edmondson-amy-c-the-fearless-organization-creating-psychological",
           "sourceSlug": "edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea",
           "score": 85,
@@ -4949,6 +4953,15 @@
           "sourceName": "American College of Emergency Physicians — Boarding — Boarding"
         },
         {
+          "biblioSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
+          "sourceSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Assessing the Impact of Planned Social Change",
+          "biblioAuthor": "Donald T Campbell",
+          "sourceName": "Donald T Campbell — Assessing the Impact of Planned Social Change — Assessing the Impact of Planned Social Change"
+        },
+        {
           "biblioSlug": "cappelli-peter-and-anna-tavis-the-performance-management-revolution",
           "sourceSlug": "cappelli-peter-and-anna-tavis-the-performance-management-revolution",
           "score": 100,
@@ -4985,15 +4998,6 @@
           "sourceName": "Jonathan Cohn — The Ten Year War: Obamacare and the Unmaking of American Establishment — The Ten Year War: Obamacare and the Unmaking of American Establishment"
         },
         {
-          "biblioSlug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2",
-          "sourceSlug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "",
-          "biblioAuthor": "Congressional Record. 111th Congress. Debate on Affordable Care Act and public-option provisions, 2009-2010",
-          "sourceName": "Congressional Record — 111th Congress debate on Affordable Care Act and public-option provisions"
-        },
-        {
           "biblioSlug": "european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-es",
           "sourceSlug": "european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-es",
           "score": 100,
@@ -5028,6 +5032,15 @@
           "biblioTitle": "The History and Meaning of the Impact Factor",
           "biblioAuthor": "Eugene Garfield",
           "sourceName": "Eugene Garfield — The History and Meaning of the Impact Factor — The History and Meaning of the Impact Factor"
+        },
+        {
+          "biblioSlug": "greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow",
+          "sourceSlug": "greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Organizational Justice: Yesterday, Today, and Tomorrow",
+          "biblioAuthor": "Jerald Greenberg",
+          "sourceName": "Jerald Greenberg — Organizational Justice: Yesterday, Today, and Tomorrow"
         },
         {
           "biblioSlug": "grissom-jason-a-et-al-teacher-stress-and-health-effects-on-teachers-students-and-schools",
@@ -5136,6 +5149,24 @@
           "biblioTitle": "Teacher Shortages and Turnover in the United States",
           "biblioAuthor": "Learning Policy Institute",
           "sourceName": "Learning Policy Institute — Teacher Shortages and Turnover in the United States — Teacher Shortages and Turnover in the United States"
+        },
+        {
+          "biblioSlug": "monmonier-mark-how-to-lie-with-maps",
+          "sourceSlug": "monmonier-mark-how-to-lie-with-maps",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "How to Lie with Maps",
+          "biblioAuthor": "Mark Monmonier",
+          "sourceName": "Mark Monmonier — How to Lie with Maps"
+        },
+        {
+          "biblioSlug": "national-academy-of-medicine-taking-action-against-clinician-burnout-a-systems-approach-to-profe",
+          "sourceSlug": "national-academy-of-medicine-taking-action-against-clinician-burnout-a-systems-approach-to-profe",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being",
+          "biblioAuthor": "National Academy of Medicine",
+          "sourceName": "National Academy of Medicine — Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being — Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being"
         },
         {
           "biblioSlug": "national-center-for-education-statistics-adjusted-cohort-graduation-rate-acgr",
@@ -5291,15 +5322,6 @@
           "sourceName": "Mark Zuckerberg — Testimony before the U.S. Senate Judiciary and Commerce Committees, April 10–11, 2018"
         },
         {
-          "biblioSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change",
-          "sourceSlug": "campbell-donald-t-assessing-the-impact-of-planned-social-change-2",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Assessing the Impact of Planned Social Change",
-          "biblioAuthor": "Donald T Campbell",
-          "sourceName": "Donald T Campbell — Assessing the Impact of Planned Social Change — Assessing the Impact of Planned Social Change"
-        },
-        {
           "biblioSlug": "centers-for-medicare-medicaid-services-hospital-readmissions-reduction-program-hrrp",
           "sourceSlug": "centers-for-medicare-medicaid-services-hospital-readmissions",
           "score": 85,
@@ -5307,33 +5329,6 @@
           "biblioTitle": "Hospital Readmissions Reduction Program (HRRP)",
           "biblioAuthor": "Centers for Medicare & Medicaid Services",
           "sourceName": "Centers for Medicare & Medicaid Services — Hospital Readmissions Reduction Program (HRRP). Program overview and statutory authority. Updated 2023"
-        },
-        {
-          "biblioSlug": "greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow",
-          "sourceSlug": "greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow-2",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Organizational Justice: Yesterday, Today, and Tomorrow",
-          "biblioAuthor": "Jerald Greenberg",
-          "sourceName": "Jerald Greenberg — Organizational Justice: Yesterday, Today, and Tomorrow"
-        },
-        {
-          "biblioSlug": "monmonier-mark-how-to-lie-with-maps",
-          "sourceSlug": "monmonier-mark-how-to-lie-with-maps-2",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "How to Lie with Maps",
-          "biblioAuthor": "Mark Monmonier",
-          "sourceName": "Mark Monmonier — How to Lie with Maps"
-        },
-        {
-          "biblioSlug": "national-academy-of-medicine-taking-action-against-clinician-burnout-a-systems-approach-to-profe",
-          "sourceSlug": "national-academy-of-medicine-taking-action-against-clinician-burnout-a-systems-approach-to-profe-2",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being",
-          "biblioAuthor": "National Academy of Medicine",
-          "sourceName": "National Academy of Medicine — Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being — Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being"
         },
         {
           "biblioSlug": "talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re-suffering-from-moral-injury",
@@ -5361,6 +5356,15 @@
           "biblioTitle": "State and Trends of Carbon Pricing 2024",
           "biblioAuthor": "World Bank",
           "sourceName": "World Bank — State and Trends of Carbon Pricing"
+        },
+        {
+          "biblioSlug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2",
+          "sourceSlug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "Congressional Record. 111th Congress. Debate on Affordable Care Act and public-option provisions, 2009-2010",
+          "sourceName": "Congressional Record — 111th Congress debate on Affordable Care Act and public-option provisions"
         }
       ],
       "missing_in_semantic": [],
@@ -5369,12 +5373,32 @@
       "thinker_stale": [],
       "creator_missing_thinker": [
         {
+          "creatorSlug": "center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-opensecrets-org",
+          "creatorName": "Center for Responsive Politics (OpenSecrets). Fundraising totals and donor reporting. https://www.opensecrets.org/"
+        },
+        {
+          "creatorSlug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2009-2010",
+          "creatorName": "Congressional Record. 111th Congress. Debate on Affordable Care Act and public-option provisions, 2009-2010"
+        },
+        {
+          "creatorSlug": "european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-esrs-2023-https-www-efrag-org",
+          "creatorName": "European Financial Reporting Advisory Group (EFRAG). European Sustainability Reporting Standards (ESRS). 2023. https://www.efrag.org/"
+        },
+        {
           "creatorSlug": "every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112",
           "creatorName": "Every Student Succeeds Act of 2015, Pub. L. No. 114-95, §§ 1111-1112"
         },
         {
           "creatorSlug": "federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov",
           "creatorName": "Federal Election Commission. Campaign finance disclosure data. https://www.fec.gov/"
+        },
+        {
+          "creatorSlug": "haugen-frances-testimony-and-disclosures-regarding-facebook-internal-research-on-engagement-based-ranking-u-s-senate-commerce-subcommittee-on-consumer-protection-october-5-2021",
+          "creatorName": "Haugen, Frances. Testimony and disclosures regarding Facebook internal research on engagement-based ranking. U.S. Senate Commerce Subcommittee on Consumer Protection, October 5, 2021"
+        },
+        {
+          "creatorSlug": "international-sustainability-standards-board-issb-ifrs-s1-general-requirements-for-disclosure-of-sustainability-related-financial-information-and-s2-climate-related-disclosures-2023-https-www-ifrs-org",
+          "creatorName": "International Sustainability Standards Board (ISSB). IFRS S1 *General Requirements for Disclosure of Sustainability-related Financial Information* and S2 *Climate-related Disclosures*. 2023. https://www.ifrs.org/"
         },
         {
           "creatorSlug": "pichai-sundar-testimony-before-the-u-s-house-judiciary-committee-december-11-2018",
@@ -6684,6 +6708,18 @@
           "creatorName": "Desai, Ashwin, and Goolam Vah"
         },
         {
+          "creatorSlug": "fred-rogers-productions-episode-archives-television-hall-of-fame-materials-jeff-erlanger-appearances",
+          "creatorName": "Fred Rogers Productions. Episode archives; Television Hall of Fame materials (Jeff Erlanger appearances)"
+        },
+        {
+          "creatorSlug": "gospel-of-luke-gospel-of-mark-acts-of-the-apostles-pauline-epistles-1-corinthians-galatians-and-related-letters",
+          "creatorName": "Gospel of Luke; Gospel of Mark; Acts of the Apostles; Pauline epistles (1 Corinthians, Galatians, and related letters)"
+        },
+        {
+          "creatorSlug": "government-of-south-africa-truth-and-reconciliation-commission",
+          "creatorName": "Government of South Africa. Truth and Reconciliation Commission"
+        },
+        {
           "creatorSlug": "library-of-congress-bayard-rustin-papers-march-on-washington-planning-materials",
           "creatorName": "Library of Congress. Bayard Rustin Papers. March on Washington planning materials"
         },
@@ -6694,6 +6730,10 @@
         {
           "creatorSlug": "martin-luther-jr-king",
           "creatorName": "Martin Luther Jr King"
+        },
+        {
+          "creatorSlug": "mohandas-k-letter-to-lord-irwin-2-march-1930-in-the-collected-works-of-mahatma-gandhi-gandhi",
+          "creatorName": "Mohandas K. Letter to Lord Irwin. 2 March 1930. In *The Collected Works of Mahatma Gandhi* Gandhi"
         },
         {
           "creatorSlug": "national-archives-u-s-official-demands-march-on-washington-for-jobs-and-freedom-1963",

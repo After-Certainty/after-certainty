@@ -1,10 +1,13 @@
 slug: organisation-for-economic-co-operation-and-development
 name: Organisation for Economic Co-operation and Development
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Intergovernmental body publishing PISA and other comparative education and
+  policy metrics.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - organisation-for-economic-co-operation-and-development-pisa-2022-results
+whyThisMatters: OECD rankings export a moral language of 'performance' across national
+  school systems.

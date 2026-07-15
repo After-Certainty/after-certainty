@@ -1,10 +1,13 @@
 slug: pollstar
 name: Pollstar
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Music industry data publisher tracking tour rankings and commercial scale
+  of live performance.
 concepts: []
 patterns: []
 relatedBooks:
 - when-others-become-leaders
 works:
 - pollstar-year-end-special-features-top-tours
+whyThisMatters: Pollstar quantifies when entertainment logistics become the scoreboard
+  for care and responsibility.

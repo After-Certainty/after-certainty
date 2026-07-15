@@ -1,10 +1,13 @@
 slug: kff
 name: KFF
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Health-policy organization surveying employer benefits and coverage costs
+  in the U.S.
 concepts: []
 patterns: []
 relatedBooks:
 - the-economy-we-dont-experience
 works:
 - kff-employer-health-benefits-survey
+whyThisMatters: KFF data make private insurance incentives visible as lived household
+  pressure.

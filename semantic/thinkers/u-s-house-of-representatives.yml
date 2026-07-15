@@ -1,10 +1,13 @@
 slug: u-s-house-of-representatives
 name: U.S. House of Representatives
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: U.S. House whose Katrina investigation report catalogued federal initiative
+  failure.
 concepts: []
 patterns: []
 relatedBooks:
 - before-certainty-arrives
 works:
 - u-s-house-of-representatives-a-failure-of-initiative-final-report-of
+whyThisMatters: The report is institutional self-critique—authority accounting for
+  unread signals.

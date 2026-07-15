@@ -215,6 +215,7 @@ _None._
 - `boehm-barry-w-software-engineering-economics` ← biblio `boehm-barry-w-software-engineering-economics` (exact_slug, score=100)
 - `bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation` ← biblio `bogle-john-c-the-clash-of-the-cultures-investment-vs-speculation` (exact_slug, score=100)
 - `brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering` ← biblio `brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering` (exact_slug, score=100)
+- `campbell-donald-t-assessing-the-impact-of-planned-social-change` ← biblio `campbell-donald-t-assessing-the-impact-of-planned-social-change` (exact_slug, score=100)
 - `cockburn-alistair-agile-software-development` ← biblio `cockburn-alistair-agile-software-development` (exact_slug, score=100)
 - `cockburn-alistair-hexagonal-architecture-ports-and-adapters` ← biblio `cockburn-alistair-hexagonal-architecture-ports-and-adapters` (exact_slug, score=100)
 - `cockburn-alistair-the-heart-of-agile` ← biblio `cockburn-alistair-the-heart-of-agile` (exact_slug, score=100)
@@ -264,7 +265,6 @@ _None._
 - `vernon-vaughn-implementing-domain-driven-design` ← biblio `vernon-vaughn-implementing-domain-driven-design` (exact_slug, score=100)
 - `wiener-norbert-cybernetics-or-control-and-communication-in-the-animal-and-the-machine` ← biblio `wiener-norbert-cybernetics-or-control-and-communication-in-the-animal-and-the-machine` (exact_slug, score=100)
 - `zuboff-shoshana-the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-front` ← biblio `zuboff-shoshana-the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-front` (exact_slug, score=100)
-- `campbell-donald-t-assessing-the-impact-of-planned-social-change-2` ← biblio `campbell-donald-t-assessing-the-impact-of-planned-social-change` (title_author, score=85)
 
 ### Missing in semantic (0)
 
@@ -999,9 +999,10 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (3)
+### Biblio creators without thinker node (4)
 
 - `eagly-alice-h-and-linda-l-carli` (Eagly, Alice H., and Linda L. Carli)
+- `george-farewell-address-19-september-1796-washington` (George. Farewell Address. 19 September 1796 Washington)
 - `michael-j-de-la-merc` (Michael J de la Merc)
 - `truth-and-reconciliation-commission-of-south-africa` (Truth and Reconciliation Commission of South Africa)
 
@@ -1027,6 +1028,7 @@ _None._
 - `bauman-zygmunt-modernity-and-the-holocaust` ← biblio `bauman-zygmunt-modernity-and-the-holocaust` (exact_slug, score=100)
 - `bowen-murray-family-therapy-in-clinical-practice` ← biblio `bowen-murray-family-therapy-in-clinical-practice` (exact_slug, score=100)
 - `brown-bren-dare-to-lead-brave-work-tough-conversations-whole` ← biblio `brown-bren-dare-to-lead-brave-work-tough-conversations-whole` (exact_slug, score=100)
+- `campbell-donald-t-assessing-the-impact-of-planned-social-change` ← biblio `campbell-donald-t-assessing-the-impact-of-planned-social-change` (exact_slug, score=100)
 - `goodhart-charles-a-e-problems-of-monetary-management-the-u-k` ← biblio `goodhart-charles-a-e-problems-of-monetary-management-the-u-k` (exact_slug, score=100)
 - `heifetz-ronald-a-leadership-without-easy-answers` ← biblio `heifetz-ronald-a-leadership-without-easy-answers` (exact_slug, score=100)
 - `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` ← biblio `hirschman-albert-o-the-rhetoric-of-reaction-perversity-futility` (exact_slug, score=100)
@@ -1042,7 +1044,6 @@ _None._
 - `weber-max-economy-and-society-an-outline-of-interpretive-sociology` ← biblio `weber-max-economy-and-society-an-outline-of-interpretive-sociology` (exact_slug, score=100)
 - `weber-max-politics-as-a-vocation` ← biblio `weber-max-politics-as-a-vocation` (exact_slug, score=100)
 - `zimbardo-philip-the-lucifer-effect-understanding-how-good-people` ← biblio `zimbardo-philip-the-lucifer-effect-understanding-how-good-people` (exact_slug, score=100)
-- `campbell-donald-t-assessing-the-impact-of-planned-social-change-2` ← biblio `campbell-donald-t-assessing-the-impact-of-planned-social-change` (title_author, score=85)
 - `edmondson-amy-c-the-fearless-organization-creating-psychological-safety-in-the-workplace-for-lea` ← biblio `edmondson-amy-c-the-fearless-organization-creating-psychological` (title_author, score=85)
 - `fukuyama-francis-trust-the-social-virtues-and-the-creation-of-prosperity` ← biblio `fukuyama-francis-trust-the-social-virtues-and-the-creation-of` (title_author, score=85)
 - `hirschman-albert-o-exit-voice-and-loyalty-responses-to-decline-in-firms-organizations-and-states` ← biblio `hirschman-albert-o-exit-voice-and-loyalty-responses-to-decline` (title_author, score=85)
@@ -1085,15 +1086,16 @@ _None._
 ### Matched (47)
 
 - `american-college-of-emergency-physicians-boarding` ← biblio `american-college-of-emergency-physicians-boarding` (exact_slug, score=100)
+- `campbell-donald-t-assessing-the-impact-of-planned-social-change` ← biblio `campbell-donald-t-assessing-the-impact-of-planned-social-change` (exact_slug, score=100)
 - `cappelli-peter-and-anna-tavis-the-performance-management-revolution` ← biblio `cappelli-peter-and-anna-tavis-the-performance-management-revolution` (exact_slug, score=100)
 - `center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open` ← biblio `center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open` (exact_slug, score=100)
 - `centers-for-medicare-medicaid-services-ms-drg-classifications-and-software` ← biblio `centers-for-medicare-medicaid-services-ms-drg-classifications-and-software` (exact_slug, score=100)
 - `cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment` ← biblio `cohn-jonathan-the-ten-year-war-obamacare-and-the-unmaking-of-american-establishment` (exact_slug, score=100)
-- `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2` ← biblio `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2` (exact_slug, score=100)
 - `european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-es` ← biblio `european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-es` (exact_slug, score=100)
 - `every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112` ← biblio `every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112` (exact_slug, score=100)
 - `federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov` ← biblio `federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov` (exact_slug, score=100)
 - `garfield-eugene-the-history-and-meaning-of-the-impact-factor` ← biblio `garfield-eugene-the-history-and-meaning-of-the-impact-factor` (exact_slug, score=100)
+- `greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow` ← biblio `greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow` (exact_slug, score=100)
 - `grissom-jason-a-et-al-teacher-stress-and-health-effects-on-teachers-students-and-schools` ← biblio `grissom-jason-a-et-al-teacher-stress-and-health-effects-on-teachers-students-and-schools` (exact_slug, score=100)
 - `haugen-frances-testimony-and-disclosures-regarding-facebook-internal-research-on-engagement-base` ← biblio `haugen-frances-testimony-and-disclosures-regarding-facebook-internal-research-on-engagement-base` (exact_slug, score=100)
 - `hersh-eitan-politics-is-for-power` ← biblio `hersh-eitan-politics-is-for-power` (exact_slug, score=100)
@@ -1106,6 +1108,8 @@ _None._
 - `jameton-andrew-nursing-practice-the-ethical-issues` ← biblio `jameton-andrew-nursing-practice-the-ethical-issues` (exact_slug, score=100)
 - `knight-foundation-and-gallup-american-views-trust-media-and-democracy` ← biblio `knight-foundation-and-gallup-american-views-trust-media-and-democracy` (exact_slug, score=100)
 - `learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states` ← biblio `learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states` (exact_slug, score=100)
+- `monmonier-mark-how-to-lie-with-maps` ← biblio `monmonier-mark-how-to-lie-with-maps` (exact_slug, score=100)
+- `national-academy-of-medicine-taking-action-against-clinician-burnout-a-systems-approach-to-profe` ← biblio `national-academy-of-medicine-taking-action-against-clinician-burnout-a-systems-approach-to-profe` (exact_slug, score=100)
 - `national-center-for-education-statistics-adjusted-cohort-graduation-rate-acgr` ← biblio `national-center-for-education-statistics-adjusted-cohort-graduation-rate-acgr` (exact_slug, score=100)
 - `national-science-foundation-proposal-award-policies-procedures-guide` ← biblio `national-science-foundation-proposal-award-policies-procedures-guide` (exact_slug, score=100)
 - `open-science-collaboration-estimating-the-reproducibility-of-psychological-science` ← biblio `open-science-collaboration-estimating-the-reproducibility-of-psychological-science` (exact_slug, score=100)
@@ -1123,14 +1127,11 @@ _None._
 - `voluntary-carbon-markets-integrity-initiative-claims-code-of-practice` ← biblio `voluntary-carbon-markets-integrity-initiative-claims-code-of-practice` (exact_slug, score=100)
 - `worker-adjustment-and-retraining-notification-act-29-u-s-c-2101-2109` ← biblio `worker-adjustment-and-retraining-notification-act-29-u-s-c-2101-2109` (exact_slug, score=100)
 - `zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-11-20` ← biblio `zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-11-20` (exact_slug, score=100)
-- `campbell-donald-t-assessing-the-impact-of-planned-social-change-2` ← biblio `campbell-donald-t-assessing-the-impact-of-planned-social-change` (title_author, score=85)
 - `centers-for-medicare-medicaid-services-hospital-readmissions` ← biblio `centers-for-medicare-medicaid-services-hospital-readmissions-reduction-program-hrrp` (title_author, score=85)
-- `greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow-2` ← biblio `greenberg-jerald-organizational-justice-yesterday-today-and-tomorrow` (title_author, score=85)
-- `monmonier-mark-how-to-lie-with-maps-2` ← biblio `monmonier-mark-how-to-lie-with-maps` (title_author, score=85)
-- `national-academy-of-medicine-taking-action-against-clinician-burnout-a-systems-approach-to-profe-2` ← biblio `national-academy-of-medicine-taking-action-against-clinician-burnout-a-systems-approach-to-profe` (title_author, score=85)
 - `talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re` ← biblio `talbot-s-g-and-w-dean-physicians-aren-t-burning-out-they-re-suffering-from-moral-injury` (title_author, score=85)
 - `united-nations-framework-convention-on-climate-change-paris` ← biblio `united-nations-framework-convention-on-climate-change-paris-agreement` (title_author, score=85)
 - `world-bank-state-and-trends-of-carbon-pricing` ← biblio `world-bank-state-and-trends-of-carbon-pricing-2024` (title_jaccard, score=65)
+- `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions` ← biblio `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2` (summary_overlap, score=58)
 
 ### Missing in semantic (0)
 
@@ -1148,10 +1149,15 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (7)
+### Biblio creators without thinker node (12)
 
+- `center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-opensecrets-org` (Center for Responsive Politics (OpenSecrets). Fundraising totals and donor reporting. https://www.opensecrets.org/)
+- `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2009-2010` (Congressional Record. 111th Congress. Debate on Affordable Care Act and public-option provisions, 2009-2010)
+- `european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-esrs-2023-https-www-efrag-org` (European Financial Reporting Advisory Group (EFRAG). European Sustainability Reporting Standards (ESRS). 2023. https://www.efrag.org/)
 - `every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112` (Every Student Succeeds Act of 2015, Pub. L. No. 114-95, §§ 1111-1112)
 - `federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov` (Federal Election Commission. Campaign finance disclosure data. https://www.fec.gov/)
+- `haugen-frances-testimony-and-disclosures-regarding-facebook-internal-research-on-engagement-based-ranking-u-s-senate-commerce-subcommittee-on-consumer-protection-october-5-2021` (Haugen, Frances. Testimony and disclosures regarding Facebook internal research on engagement-based ranking. U.S. Senate Commerce Subcommittee on Consumer Protection, October 5, 2021)
+- `international-sustainability-standards-board-issb-ifrs-s1-general-requirements-for-disclosure-of-sustainability-related-financial-information-and-s2-climate-related-disclosures-2023-https-www-ifrs-org` (International Sustainability Standards Board (ISSB). IFRS S1 *General Requirements for Disclosure of Sustainability-related Financial Information* and S2 *Climate-related Disclosures*. 2023. https://www.ifrs.org/)
 - `pichai-sundar-testimony-before-the-u-s-house-judiciary-committee-december-11-2018` (Pichai, Sundar. Testimony before the U.S. House Judiciary Committee, December 11, 2018)
 - `san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org` (San Francisco Declaration on Research Assessment (DORA). 2012. https://sfdora.org/)
 - `talbot-s-g-and-w-dean` (Talbot, S. G., and W. Dean)
@@ -1397,13 +1403,17 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (9)
+### Biblio creators without thinker node (13)
 
 - `charter-77-founding-declaration-1977-v-clav-havel-library` (Charter 77. Founding declaration. 1977. Václav Havel Library)
 - `desai-ashwin-and-goolam-vah` (Desai, Ashwin, and Goolam Vah)
+- `fred-rogers-productions-episode-archives-television-hall-of-fame-materials-jeff-erlanger-appearances` (Fred Rogers Productions. Episode archives; Television Hall of Fame materials (Jeff Erlanger appearances))
+- `gospel-of-luke-gospel-of-mark-acts-of-the-apostles-pauline-epistles-1-corinthians-galatians-and-related-letters` (Gospel of Luke; Gospel of Mark; Acts of the Apostles; Pauline epistles (1 Corinthians, Galatians, and related letters))
+- `government-of-south-africa-truth-and-reconciliation-commission` (Government of South Africa. Truth and Reconciliation Commission)
 - `library-of-congress-bayard-rustin-papers-march-on-washington-planning-materials` (Library of Congress. Bayard Rustin Papers. March on Washington planning materials)
 - `mandela-nelson-statement-from-the-dock-rivonia-trial-20-april-1964` (Mandela, Nelson. Statement from the dock, Rivonia Trial. 20 April 1964)
 - `martin-luther-jr-king` (Martin Luther Jr King)
+- `mohandas-k-letter-to-lord-irwin-2-march-1930-in-the-collected-works-of-mahatma-gandhi-gandhi` (Mohandas K. Letter to Lord Irwin. 2 March 1930. In *The Collected Works of Mahatma Gandhi* Gandhi)
 - `national-archives-u-s-official-demands-march-on-washington-for-jobs-and-freedom-1963` (National Archives (U.S.). Official demands, March on Washington for Jobs and Freedom. 1963)
 - `u-s-senate-subcommittee-on-communications-hearings-on-the-public-broadcasting-act-may-1969` (U.S. Senate Subcommittee on Communications. Hearings on the Public Broadcasting Act. May 1969)
 - `v-clav-havel` (Václav Havel)

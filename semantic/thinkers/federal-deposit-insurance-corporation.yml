@@ -1,10 +1,13 @@
 slug: federal-deposit-insurance-corporation
 name: Federal Deposit Insurance Corporation
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: U.S. deposit insurer analyzing reform options for protecting bank deposits
+  after crisis risk.
 concepts: []
 patterns: []
 relatedBooks:
 - the-economy-we-dont-experience
 works:
 - federal-deposit-insurance-corporation-options-for-deposit-insurance-reform
+whyThisMatters: FDIC work shows how trust in money is engineered—and periodically
+  redesigned.

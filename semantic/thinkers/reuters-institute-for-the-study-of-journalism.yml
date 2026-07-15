@@ -1,10 +1,13 @@
 slug: reuters-institute-for-the-study-of-journalism
 name: Reuters Institute for the Study of Journalism
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Oxford institute publishing the Digital News Report on news trust, platforms,
+  and media use.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - reuters-institute-for-the-study-of-journalism-digital-news-report-2024
+whyThisMatters: Their annual survey tracks when news incentives and audience trust
+  diverge.

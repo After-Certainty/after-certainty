@@ -1,10 +1,11 @@
 slug: national-center-for-education-statistics
 name: National Center for Education Statistics
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Federal statistical agency publishing graduation rates and schooling indicators.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - national-center-for-education-statistics-adjusted-cohort-graduation-rate-acgr
+whyThisMatters: NCES metrics become moral scoreboards—what gets counted gets managed.

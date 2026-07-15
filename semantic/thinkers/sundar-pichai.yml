@@ -1,10 +1,13 @@
 slug: sundar-pichai
 name: Sundar Pichai
 type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+summary: Google CEO whose congressional testimony defended platform policies under
+  competition and speech pressure.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - pichai-sundar-testimony-before-the-u-s-house-judiciary-committee-december-11-2018
+whyThisMatters: Pichai scenes show tech leadership answering incentive questions it
+  would rather treat as engineering detail.

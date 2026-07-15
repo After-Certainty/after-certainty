@@ -1,10 +1,13 @@
 slug: learning-policy-institute
 name: Learning Policy Institute
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Education research organization studying teacher shortages, turnover, and
+  system capacity.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states
+whyThisMatters: LPI evidence shows incentive and burnout effects when schools treat
+  teachers as interchangeable stock.

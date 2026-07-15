@@ -1,10 +1,13 @@
 slug: eugene-garfield
 name: Eugene Garfield
 type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+summary: Information scientist who developed citation indexing and the journal impact
+  factor.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - garfield-eugene-the-history-and-meaning-of-the-impact-factor
+whyThisMatters: Garfield's metric became an incentive regime—measurement that rewrote
+  what counts as knowledge.

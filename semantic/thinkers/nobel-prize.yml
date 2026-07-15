@@ -1,10 +1,13 @@
 slug: nobel-prize
 name: Nobel Prize
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Nobel institutions publicizing Peace Prize citations and laureate narratives,
+  including Wangari Maathai.
 concepts: []
 patterns: []
 relatedBooks:
 - when-others-become-leaders
 works:
 - nobel-prize-the-nobel-peace-prize-2004-wangari-maathai
+whyThisMatters: Prize machinery shows how moral leadership gets internationally certified—and
+  selectively celebrated.

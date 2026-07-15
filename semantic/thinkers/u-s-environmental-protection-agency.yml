@@ -1,10 +1,13 @@
 slug: u-s-environmental-protection-agency
 name: U.S. Environmental Protection Agency
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: U.S. environmental regulator whose Clean Diesel notices exposed emissions
+  cheating as compliance theater.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - u-s-environmental-protection-agency-notice-of-violation-volkswagen-clean-diesel-vehicles
+whyThisMatters: EPA enforcement is the hard case when metrics are gamed and the public
+  pays.

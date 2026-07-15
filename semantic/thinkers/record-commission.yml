@@ -1,10 +1,12 @@
 slug: record-commission
 name: Record Commission
-type: person
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+type: organization
+summary: Nineteenth-century British commission that published Statutes of the Realm
+  as authoritative law texts.
 concepts: []
 patterns: []
 relatedBooks:
 - before-certainty-arrives
 works:
 - statutes-of-the-realm-vol-1-london-record-commission-1810
+whyThisMatters: The commission made legal past legible—certainty rebound into volumes.

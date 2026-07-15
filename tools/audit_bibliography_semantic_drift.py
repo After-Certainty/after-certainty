@@ -236,6 +236,21 @@ def score_expected_vs_source(expected: dict[str, Any], src: dict[str, Any]) -> t
         if any(t in citation_blob for t in _author_tokens(exp_author)):
             return 60, "citation_containment"
 
+    # Title-less institutional / archival lines: match on summary overlap
+    if not exp_title_norm and exp_summary:
+        summary_norm = normalize_match_text(exp_summary)
+        src_name_norm = normalize_match_text(str(src.get("name", "")))
+        src_title_norm = normalize_match_text(str(src.get("title", "")))
+        if len(summary_norm) >= 24 and (
+            (src_title_norm and src_title_norm in summary_norm)
+            or (
+                src_name_norm
+                and any(tok in summary_norm for tok in src_name_norm.split() if len(tok) > 4)
+            )
+        ):
+            if any(t in citation_blob or t in summary_norm for t in _author_tokens(exp_author)):
+                return 58, "summary_overlap"
+
     # Fuzzy token Jaccard on title (+ light author boost)
     title_a = _title_tokens(exp_title or exp_summary)
     title_b = _title_tokens(str(src.get("title") or "") or source_title_blob(src))

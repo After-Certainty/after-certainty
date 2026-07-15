@@ -1,10 +1,13 @@
 slug: international-sustainability-standards-board
 name: International Sustainability Standards Board
 type: organization
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+summary: IFRS foundation board setting global sustainability and climate disclosure
+  standards (S1/S2).
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - international-sustainability-standards-board-issb-ifrs-s1-general-requirements-for-disclosure-of
+whyThisMatters: ISSB turns moral language about climate into investor-facing measurement
+  requirements.

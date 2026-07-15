@@ -1,7 +1,8 @@
 slug: galileo-galilei
 name: Galileo Galilei
 type: person
-summary: Thinker draft aggregated from 2 source(s); edit before promotion.
+summary: Astronomer and physicist whose observations challenged geocentric doctrine
+  and institutional certainty.
 concepts: []
 patterns: []
 relatedBooks:
@@ -9,3 +10,5 @@ relatedBooks:
 works:
 - galilei-galileo-dialogue-concerning-the-two-chief-world-systems
 - galilei-galileo-sidereus-nuncius-or-the-sidereal-messenger
+whyThisMatters: Galileo is the classic misreading of authority—truth measured against
+  office.

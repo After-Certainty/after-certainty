@@ -1,10 +1,13 @@
 slug: declaration-on-research-assessment
 name: DORA (San Francisco Declaration on Research Assessment)
 type: organization
-summary: Thinker draft aggregated from 1 source(s); edit before promotion.
+summary: Coalition statement (DORA) against over-reliance on journal impact factors
+  in research evaluation.
 concepts: []
 patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 works:
 - san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org
+whyThisMatters: DORA is the reform case when a score becomes mistaken for scholarly
+  worth.
