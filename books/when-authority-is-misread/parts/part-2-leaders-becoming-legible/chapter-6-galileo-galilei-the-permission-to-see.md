@@ -94,10 +94,10 @@ fiction.[^c6-fantoli-jesuits]
 Galileo’s personality complicated the field. He was brilliant,
 theatrical, and frequently unwilling to leave opponents a dignified
 exit. He cultivated Medici patronage and performed discoveries as court
-spectacle as well as science. He wrote with wit designed to wound as
-well as to clarify. He could treat caution as cowardice and dissent as
-dullness. Admirers heard courage. Targets heard vanity. Both hearings
-were available from the same prose.
+spectacle as well as science. He wrote with abrasive rhetoric and
+sarcasm that cut as well as clarified. He could treat caution as cowardice
+and dissent as dullness. Admirers heard courage. Targets heard vanity.
+Both hearings were available from the same prose.
 
 The *Dialogue Concerning the Two Chief World Systems* (1632) staged
 Copernican argument in vernacular Italian for a wider learned public,
@@ -212,18 +212,9 @@ him lost monopoly over the relevant field of knowledge claims.
 
 Under coercive constraint, clarity does not always persuade. Sometimes
 it clarifies the threat. Uncompressed evidence asks for reorganization
-rather than polite coexistence. Institutions that survive by controlling
-the terms of reorganization will often treat that request as aggression
-even when the evidence is careful. A careful discovery delivered as
-humiliation travels differently than the same discovery delivered as
-shared problem. Galileo often chose the first register. That does not
-justify injunction. It does explain why some contemporaries who granted
-the force of the observations still refused to grant him the role of
-public teacher.
-
-None of this makes repression wise. It makes the mechanism legible. The
-people who understood Galileo and still moved to contain him were not
-always confused about moons and phases. They were clear about custody.
+rather than polite coexistence. Galileo’s abrasiveness does not justify
+injunction; it does explain why some contemporaries who granted the
+observations still refused him the role of public teacher.
 
 ---
 
@@ -232,8 +223,7 @@ judge an answer, but to decide which forms of seeing are admissible.*
 
 The window and the telescope are the same structure at different scales.
 One person looks out and reports content. Another notices that the frame
-itself is the quiet exercise of power—what counts as a view, who may
-describe it, and which descriptions may travel without apology.
+itself is the quiet exercise of power.
 
 Galileo’s life makes the pattern costly and specific. Telescopic
 observation, published insistence, vernacular dialectic, and a temper
@@ -241,29 +231,20 @@ unwilling to flinch produced a claim that literate readers could follow.
 The Roman response treated the claim as unauthorized seeing rather than
 as unresolved debate. House arrest did not erase the moons of Jupiter.
 It declared that certain conclusions, however supported by instrumental
-sight, were not yet permitted to reorganize public meaning.
-
-Understanding is not enough. It must also be allowed to matter.
+sight, were not yet permitted to reorganize public meaning. Understanding
+without that permission can continue privately while public life is
+ordered as if the frame had never been noticed.
 
 ---
 
 The two people are still at the window.
 
-The street outside is unchanged. The roofs are still there. What has
-changed is whether the room will admit that the window is part of the
-event of seeing. The telescope intensifies that admission. It does not
-ask permission of the sky. It asks institutions whether instrumented
-vision may revise what they have already named as order.
-
-Sometimes the answer is negotiation. Sometimes it is abjuration spoken
-under threat. In every version the decisive move is the same: authority
-asserting custody not only over conclusions, but over the openings
-through which conclusions are allowed to arrive. Galileo was not
-misunderstood because his evidence was fog. He was constrained because
-recognition of that evidence threatened the right to decide what counts
-as knowledge. The permission to see is itself a form of power. Withdraw
-it, and understanding can continue privately while public life is ordered
-as if the frame had never been noticed.
+The street outside is unchanged. What has changed is whether the room
+will admit that the window is part of the event of seeing. Sometimes the
+answer is negotiation. Sometimes it is abjuration spoken under threat.
+Galileo was not misunderstood because his evidence was fog. He was
+constrained because recognition of that evidence threatened the right to
+decide what counts as knowledge.
 
 [^c6-heilbron]: John L. Heilbron, *Galileo* (Oxford: Oxford University Press, 2010), on Galileo’s career, patronage, and the institutional setting of early telescopic astronomy.
 

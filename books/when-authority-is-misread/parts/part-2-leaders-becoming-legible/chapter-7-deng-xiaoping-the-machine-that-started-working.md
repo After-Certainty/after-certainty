@@ -184,10 +184,10 @@ ungrateful. Leadership posture need not argue that killing protesters was
 righteous in a theological sense. It can treat the episode as historical
 necessity absorbed into the larger defense of order and reform—then
 refuse the commemorative practices that would keep necessity available
-for re-judgment. Absence of moral engagement is itself a strategy. It
-limits the surface on which scrutiny can grip. When scrutiny appears
-anyway, it can be answered with growth statistics as if numbers were
-absolution rather than part of a ledger that still includes bodies.
+for re-judgment. Official non-reckoning constrained the surface on which
+scrutiny could grip. When scrutiny appears anyway, it can be answered
+with growth statistics as if numbers were absolution rather than part of
+a ledger that still includes bodies.
 
 Effectiveness at this scale does not merely support legitimacy. It
 reshapes the default test of legitimacy. Once the machine works loudly
@@ -206,10 +206,8 @@ the whole document.
 The book’s harder claim is that both pages are required, and that neither
 is a solvent for the other.
 
-Sometimes authority survives because people believe.
-Sometimes it survives because people are fed.
-
-The distinction matters. Belief-based legitimacy can be argued with,
+Authority can survive on belief; it can also survive on food. The
+distinction matters. Belief-based legitimacy can be argued with,
 converted, shamed, or reformed through moral language. Outcome-based
 legitimacy can absorb moral language as luxury noise until another
 breakdown returns scarcity to the center. Deng’s era demonstrated how
@@ -249,11 +247,9 @@ saint. Selecting only the crackdown produces a villain without a country
 attached. The misreading, when it occurs, is often this forced
 selection—as if those were two different men in two different centuries.
 The more precise reading refuses the selection without pretending the
-tensions resolve into a neat ratio. There is no exchange rate that
-converts deaths into GDP points without committing a category error.
-There is also no honest history that treats rural revival and export
-industrialization as morally weightless scenery behind a single night of
-tanks.
+tensions cancel. GDP does not cash out deaths; rural revival and export
+industrialization are not morally weightless scenery behind a single night
+of tanks.
 
 Under high constraint, public reinterpretation remains limited even when
 private knowledge is widespread. Repair in the moral sense—open
@@ -264,13 +260,13 @@ reinterpretation of authority was not. After 1989, that asymmetry
 hardened. Outcome-based legitimacy faced little domestic competition in
 official channels once order was restored and growth resumed.
 
-International readers face a parallel temptation. One is to treat GDP as
-absolution. Another is to treat every material gain as morally weightless
-because the political form remains authoritarian. The first flattens
-victims of repression into acceptable cost. The second flattens lives
-changed by food, schools, medicine, and exit from extreme poverty into a
-footnote for theory. A serious account keeps both weights on the table
-and accepts the discomfort of an uncancelled remainder.
+International readers face the same forced selection from the other
+direction: GDP as absolution, or every material gain as morally
+weightless because the political form remains authoritarian. The first
+flattens victims of repression into acceptable cost. The second flattens
+lives changed by food, schools, medicine, and exit from extreme poverty
+into a footnote for theory. A serious account keeps both weights on the
+table and accepts the discomfort of an uncancelled remainder.
 
 The chapter’s refusal is deliberate. It will not award Deng a clean
 victory by prosperity, and it will not erase prosperity in order to keep
@@ -305,7 +301,7 @@ the description is done.
 
 [^c7-sez]: Vogel, *Deng Xiaoping*, on Special Economic Zones and coastal opening as controlled experimentation.
 
-[^c7-growth]: On growth and poverty-reduction magnitudes in the reform era, see Vogel, *Deng Xiaoping*, and World Bank analyses of China’s poverty decline from the 1980s onward. Headcount figures vary by measure; the directional scale is widely attested.
+[^c7-growth]: On growth and poverty-reduction magnitudes in the reform era, see Vogel, *Deng Xiaoping*. Headcount figures vary by measure; the directional scale is widely attested.
 
 [^c7-aphorism]: Deng’s pragmatic maxims—including the cat metaphor and “seek truth from facts”—are discussed throughout Vogel, *Deng Xiaoping*; they signaled performance over rhetorical orthodoxy without dissolving Party supremacy.
 

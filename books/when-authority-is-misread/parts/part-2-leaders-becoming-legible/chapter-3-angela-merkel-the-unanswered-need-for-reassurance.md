@@ -53,8 +53,8 @@ signal decisiveness through certainty, Merkel signaled responsibility
 through precision. The signal reduced the risk of error. It also refused
 to make uncertainty feel finished.
 
-This was not absence of leadership. It was a choice the interpretive
-system did not reliably reward.
+This was not absence of leadership. It was leadership conducted in a
+register the interpretive system did not reliably reward.
 
 Contemporaries who wanted spectacle found little of it. Merkel did not
 dramatize decisions. She did not perform conviction as theater. What she
@@ -66,7 +66,7 @@ sustained decision-making under pressure.
 
 ---
 
-The choice became most legible under crisis—and most contested afterward.
+That register became most legible under crisis—and most contested afterward.
 
 During the global financial crisis and the Eurozone sovereign debt
 crisis, Merkel declined to promise painless solutions. She insisted on
@@ -136,23 +136,18 @@ work restraint was doing, and at what cost.
 
 Compression was the demand she consistently refused. Leadership systems
 often treat compression as a skill: simplify the world so others can act.
-Merkel treated compression as a moral risk. By declining to absorb
-complexity on the public’s behalf, she redistributed interpretive labor
-outward. Citizens and partners were asked to sit with uncertainty rather
-than be spared it. That violated an unspoken expectation—that leaders
-make complexity feel simple enough to trust.
+Her practice treated early compression as costly when certainty would
+outrun what could be defended. By declining to absorb complexity on the
+public’s behalf, she redistributed interpretive labor outward. Citizens
+and partners were asked to sit with uncertainty rather than be spared
+it. That violated an unspoken expectation—that leaders make complexity
+feel simple enough to trust.
 
-The Eurozone years made the redistribution vivid. Merkel could have
-compressed the crisis into a cleaner story: reckless southern spending,
-virtuous northern thrift, a single responsible path. Elements of that
-story circulated whether she authorized them or not. Her own public
-speech tended toward institutional process, memoranda of understanding,
-and staged conditionality. Those who wanted a moral melodrama heard
-coldness. Those who wanted solidarity heard punishment dressed as
-prudence. Those who wanted immediate rupture heard delay dressed as
-responsibility. The same compressed events produced incompatible
-readings because the signals she privileged—procedure, sequence,
-uncertainty—did not carry the emotional settlement audiences sought.
+The Eurozone years made the redistribution vivid without needing a
+second rehearsal. The same procedural signals that looked like
+responsibility in Berlin were already producing incompatible emotional
+settlements elsewhere; further compression would have sold clarity the
+record could not honestly underwrite.
 
 Gender intensified the constraint. Where male leaders could offer
 certainty without explanation and be read as seriousness, Merkel was more
@@ -253,26 +248,26 @@ error. Prevention leaves little dramatic evidence. When the group later
 argues about who led, they will often remember who moved first, not who
 kept the room from assembling the wrong thing.
 
-If the careful assembly holds, the room may forget that caution was a
-choice. If it fails for reasons precision could not prevent, the room may
-remember only delay. Either memory can misread the same table. What
+If the careful assembly holds, the room may forget that caution was
+deliberate. If it fails for reasons precision could not prevent, the room
+may remember only delay. Either memory can misread the same table. What
 changes is not the instructions; it is what the room was trained to count
 as a decision.
 
-[^c3-media-english]: Merkel’s understated public persona was frequently contrasted with more performative contemporaries in English-language coverage that emphasized leadership style over institutional outcomes. See, for example, profiles collected in Kati Marton, *The Chancellor: The Remarkable Odyssey of Angela Merkel* (New York: Simon & Schuster, 2021).
+[^c3-media-english]: English-language profiles repeatedly contrasted Merkel’s understatement with more performative contemporaries—e.g. “The Merkel Method,” *The Economist*, 26 September 2015, and contemporaneous *New York Times* / *Financial Times* coverage emphasizing style over institutional outcomes; see also Kati Marton, *The Chancellor: The Remarkable Odyssey of Angela Merkel* (New York: Simon & Schuster, 2021).
 
-[^c3-marton]: Marton, *The Chancellor*.
+[^c3-marton]: Marton, *The Chancellor*, on East German formation, committee advance, and later public persona.
 
-[^c3-eurozone]: On conditionality, austerity politics, and contested narratives of necessity during the Eurozone crisis, see Mark Blyth, *Austerity: The History of a Dangerous Idea* (Oxford: Oxford University Press, 2013), and contemporaneous reporting in *Der Spiegel* and the *Financial Times*.
+[^c3-eurozone]: On conditionality, austerity politics, and contested narratives of necessity during the Eurozone crisis, see Mark Blyth, *Austerity: The History of a Dangerous Idea* (Oxford: Oxford University Press, 2013); *Der Spiegel* crisis reporting 2010–2012; and *Financial Times* coverage of the memoranda of understanding and “no alternative” framing.
 
-[^c3-refugees]: On the 2015 decision and the phrase *Wir schaffen das*, see Robin Alexander, *Die Getriebenen* (Munich: Siedler, 2017), and Marton, *The Chancellor*, chap. on the refugee crisis.
+[^c3-refugees]: On the 2015 decision and the phrase *Wir schaffen das*, see Robin Alexander, *Die Getriebenen* (Munich: Siedler, 2017), and Marton, *The Chancellor*.
 
 [^c3-covid]: Angela Merkel, televised address to the nation, 18 March 2020, and subsequent public explanations of exponential growth in April 2020; contemporaneous reporting in *Der Spiegel*, BBC News, and *The Washington Post*.
 
-[^c3-shorthand]: Characterizations of Merkel as cautious, technocratic, or uninspiring appear throughout late-tenure retrospectives; see, for example, “The Merkel Method,” *The Economist*, and late profiles in *Foreign Affairs*.
+[^c3-shorthand]: Late-tenure shorthand—“cautious,” “technocratic,” “uninspiring”—appears in “The Merkel Method,” *The Economist*, 26 September 2015, and in *Foreign Affairs* retrospectives after her departure.
 
 [^c3-eagly]: Alice H. Eagly and Linda L. Carli, *Through the Labyrinth: The Truth About How Women Become Leaders* (Boston: Harvard Business School Press, 2007).
 
-[^c3-polling]: Longitudinal images of Merkel’s trust versus enthusiasm are discussed in Marton, *The Chancellor*, and in Pew Research Center surveys of European leadership confidence during her later terms, including *Europe’s Leadership Assessment* reports for 2015–2017 and the Center’s global attitudes surveys on German leadership.
+[^c3-polling]: Marton, *The Chancellor*; Pew Research Center, *Europeans Face the World Divided* (June 2016) and related Global Attitudes surveys of confidence in German leadership and Merkel, 2015–2017.
 
-[^c3-legacy]: For contested assessments of energy policy, Russia exposure, and strategic dependence, see analyses in *Foreign Affairs* and German debate summarized in retrospectives after 2022.
+[^c3-legacy]: For contested assessments of energy policy, Russia exposure, and strategic dependence, see *Foreign Affairs* debates after February 2022 and German public retrospectives on Nord Stream and industrial gas dependence.

@@ -93,30 +93,30 @@ In the early 2010s, activist investor Nelson Peltz and Trian Fund
 Management pressed PepsiCo toward sharper focus and, at points, toward
 separating the beverage and snacks businesses—arguments framed as
 unlocking value that a purpose-broadened, multi-category strategy had
-allegedly muddied.[^c5-peltz] By February 2014 the pressure had a
-document on the table: Trian’s thirty-seven-page letter urging the board
-to create “two leaner and more entrepreneurial companies” by spinning
-snacks free of drinks. PepsiCo’s board answered within days in the
-register activism expects—presiding director Ian Cook writing that the
-board and management were “comfortable and in complete alignment” in
-rejecting the proposal, dismissing the split as financial engineering
-that would erode rather than create value. Nooyi’s public line stayed
-operational rather than inspirational: decoupling beverage and snack
-businesses in North America would weaken relevance to retail customers.
-The activist script asked for a cleaner peer set and a simpler story.
-The company answered with negotiating power, integration, and the longer
-horizon. For roughly two years the argument lived as meetings, white
-papers, analyst calls, and the standing threat of a proxy fight—until a
-2015 truce brought a Trian-affiliated independent director onto the
-board and left the firm intact.
+allegedly muddied. By February 2014 the pressure had a
+document on the table: Trian’s thirty-seven-page letter of 19 February
+2014 urging the board to create “two leaner and more entrepreneurial
+companies” by spinning snacks free of drinks.[^c5-peltz] PepsiCo’s board
+answered on 27 February 2014 in the register activism expects—
+presiding director Ian Cook writing that the board and management were
+“comfortable and in complete alignment” in rejecting the proposal, and
+dismissing the split as financial engineering that would erode rather
+than create value. Nooyi’s public line stayed operational rather than
+inspirational: decoupling beverage and snack businesses in North America
+would weaken relevance to retail customers. The activist script asked for
+a cleaner peer set and a simpler story. The company answered with
+negotiating power, integration, and the longer horizon. For roughly two
+years the argument lived as meetings, white papers, analyst calls, and
+the standing threat of a proxy fight—until a 2015 truce brought a
+Trian-affiliated independent director onto the board and left the firm
+intact.
 
 The contest was not only about a stock price in a given month. It was
 about whether the firm’s definition of success would remain narrow
 enough for activism’s usual tools, or expand enough to treat nutrition
 and sustainability as operational constraints rather than ornamental
-language. And the fight relocated scrutiny in ways that suited the
-ledger’s defense. Debate concentrated on Nooyi’s strategic stubbornness,
-her communication style, and whether “purpose” was cover for
+language. Debate concentrated on Nooyi’s strategic stubbornness, her
+communication style, and whether “purpose” was cover for
 underperformance. Less oxygen remained for the harder question the
 activism partly deferred: what a “focused” soft-drink and snack machine
 optimizes for when it wins, and who pays for that optimization outside
@@ -254,10 +254,10 @@ who asks about downstream harm is thanked for raising a good point and
 then managed as a process risk. The extractive alternative is praised
 as decisiveness because it keeps the conversation inside columns the
 room already knows how to settle. Nooyi’s tenure scales that dynamic
-to markets, activism, and global brands. Relocation of scrutiny is not
-a side effect of gendered bias alone, though bias amplifies it. It is
-a defense of a measurement regime that would otherwise have to admit
-what it warehouses.
+to markets, activism, and global brands. Gendered bias amplifies the
+mechanism; it does not invent it. The pattern still functions as a
+defense of a measurement regime that would otherwise have to admit what
+it warehouses.
 
 ---
 
@@ -298,7 +298,7 @@ those clean columns post their wins.
 
 [^c5-pwp]: “Performance with Purpose” is documented throughout Nooyi’s speeches, PepsiCo annual reports from her tenure, and *My Life in Full*.
 
-[^c5-peltz]: On Nelson Peltz / Trian Fund Management’s campaign regarding PepsiCo strategy and a potential snacks/beverages separation, including Trian’s February 2014 letter and PepsiCo’s board response rejecting a split, see contemporary coverage in the *Wall Street Journal*, *Financial Times*, and *New York Times* (2013–2015); the January 2015 truce adding a Trian-affiliated independent director is reported in DealBook.
+[^c5-peltz]: Trian Fund Management, letter and white paper to the PepsiCo board, 19 February 2014 (“The Case for Separating Global Snacks & Beverages”); PepsiCo board response via Ian Cook, Presiding Director, to Nelson Peltz / Trian, 27 February 2014, furnished in PepsiCo Form 8-K (27 February 2014). Secondary reporting: *Wall Street Journal*, *Financial Times*, and DealBook / *New York Times*, 2013–2015; January 2015 truce adding a Trian-affiliated independent director reported in DealBook.
 
 [^c5-returns]: Assessments of PepsiCo’s financial performance under Nooyi vary by window and comparator; see company filings and contemporaneous analyses in the business press that alternately emphasize revenue growth and diversification or periods of relative total-shareholder-return lag versus peers such as Coca-Cola.
 

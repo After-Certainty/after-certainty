@@ -214,7 +214,15 @@ shifts from *design constraints that survive ambitious people* to
 *find leaders like Washington*. That is precisely the opposite of
 what his most serious decisions implied. A politics that hunts for
 saints to excuse weak structures will eventually discover that
-saints are scarce and that ambition is not.
+saints are scarce and that ambition is not. One further
+compression completes the lullaby: because he left, American
+authority is somehow uniquely inoculated against authoritarian
+consolidation. Comparative history does not support that hygiene.
+Norms are real and fragile. Myths that treat them as destiny make
+them more fragile by discouraging the boring work of
+maintenance—statutory limits, legislative oversight, independent
+courts, and publics that refuse to confuse loyalty to a person
+with loyalty to an office.
 
 His signals were often negative ones. He did not narrate refusal
 as continuous moral performance designed to instruct future
@@ -271,15 +279,6 @@ feel insulting was still there. Inheritance failure is what happens
 when virtue is stored as story instead of renewed as practice and
 structure.
 
-One more compression completes the civic lullaby: the idea that
-because Washington left, American authority is somehow uniquely
-inoculated against authoritarian consolidation. Comparative history
-does not support hygienic exceptionalism. Norms are real and
-fragile. Myths that treat them as destiny make them more fragile by
-discouraging the boring work of maintenance—statutory limits,
-legislative oversight, independent courts, and publics that refuse
-to confuse loyalty to a person with loyalty to an office.
-
 *Successful restraint becomes dangerous when people remember the
 virtue and forget the temptation.*
 
@@ -290,24 +289,19 @@ sitting forever would have been unnatural for anyone properly
 formed. He is also misread when later abuses of executive power are
 answered only by nostalgia for his character rather than by redesign
 of incentives, terms, oversight, and lawful coercion. Character
-matters. It does not substitute for architecture. The moral
-questions remain afterward: who remained outside the constitutional
-bargain, whose labor funded the virtue celebrated at the summit,
-what habits of force the young state practiced while praising its
-own limits, which non-events later generations stopped recognizing
-as achievements that must be remade. Looking carefully does not
-cancel the importance of transfers of power. It keeps celebration
-from becoming alibi.
+matters. It does not substitute for architecture. Looking carefully
+does not cancel the importance of transfers of power. It keeps
+celebration from becoming alibi.
 
 ---
 
 The chair is still empty.
 
 It does not prove that the room was free of desire for permanence.
-It proves that someone chose to rise. Everyone notices in the
-moment; later they forget how easy remaining would have been.
-Civic mythology prefers the forgetting because forgetting feels
-like safety. Safety of that kind trains a people to hunt for
+It proves that someone chose to rise. The room notices in the
+moment; later the empty chair can harden into scenery.
+Civic mythology prefers that hardening because it feels like
+safety. Safety of that kind trains a people to hunt for
 Washingtons instead of building constraints that do not depend on
 finding them—and to praise the empty chair while ignoring who was
 never invited to sit, stand, or speak at the table. The chair stays
@@ -329,8 +323,7 @@ contemporaneous monarchy anxieties.
 
 [^c9-newburgh]: On the Newburgh Conspiracy and Washington’s
 address to officers, March 1783, see Chernow, *Washington*; Ellis,
-*His Excellency*; and the documentary tradition collected in *The
-Writings of George Washington*, ed. John C. Fitzpatrick.
+*His Excellency*.
 
 [^c9-whiskey]: On the Whiskey Rebellion and federal enforcement,
 see Thomas P. Slaughter, *The Whiskey Rebellion: Frontier Epilogue
