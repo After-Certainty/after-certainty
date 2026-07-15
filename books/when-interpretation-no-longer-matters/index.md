@@ -1,6 +1,6 @@
 # **When Interpretation No Longer Matters**
 
-## **Authority After Understanding Collapses**
+## **Authority When Understanding No Longer Governs**
 
 ### **Contents**
 
@@ -14,18 +14,21 @@
 
 ## Part I — Where Interpretation Ends
 
+- [Part I](parts/part-1-where-interpretation-ends/bridge.md)
 - [Threshold — The Door That Opens Only Inward](parts/part-1-where-interpretation-ends/chapter-1-the-door-that-opens-only-inward.md)
 - [Chapter 2 — Everyone Already Knows](parts/part-1-where-interpretation-ends/chapter-2-everyone-already-knows.md)
 
-## Part II — What Replaces Interpretation
+## Part II — What Replaces It
 
+- [Part II](parts/part-2-what-replaces-interpretation/bridge.md)
 - [Chapter 3 — The Argument That Sorts the Room](parts/part-2-what-replaces-interpretation/chapter-3-the-argument-that-sorts-the-room.md)
 - [Chapter 4 — The Name That Survives Every Platform](parts/part-2-what-replaces-interpretation/chapter-4-the-name-that-survives-every-platform.md)
 - [Chapter 5 — The Applause No One Wants to End](parts/part-2-what-replaces-interpretation/chapter-5-the-applause-no-one-wants-to-end.md)
 - [Chapter 6 — The Story That Explains Every Objection](parts/part-2-what-replaces-interpretation/chapter-6-the-story-that-explains-every-objection.md)
 
-## Part III — When Correction Cannot Reach
+## Part III — Before and After the Boundary
 
+- [Part III](parts/part-3-when-correction-cannot-reach/bridge.md)
 - [Chapter 7 — The Question That Becomes Disloyalty](parts/part-3-when-correction-cannot-reach/chapter-7-the-question-that-becomes-disloyalty.md)
 - [Chapter 8 — The Criticism That Cannot Correct](parts/part-3-when-correction-cannot-reach/chapter-8-the-criticism-that-cannot-correct.md)
 - [Chapter 9 — What Judgment Can Still Do](parts/part-3-when-correction-cannot-reach/chapter-9-what-judgment-can-still-do.md)

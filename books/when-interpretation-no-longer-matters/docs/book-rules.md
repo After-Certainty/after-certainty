@@ -2,15 +2,16 @@
 
 ## Purpose
 
-Architectural constraints for **When Interpretation No Longer Matters** (*Authority After Understanding Collapses*).
+Architectural constraints for **When Interpretation No Longer Matters** (*Authority When Understanding No Longer Governs*).
 
 ## Book scope and structure
 
 ### Target length
 
-- **Rewrite target:** essayistic full book (~45–65k words; draft ~47k manuscript units)
-- 3 parts, 9 chapters, slim glossary, rebuilt bibliography
-- No dedicated Part bridges; no standalone How-to-Read unit; no 13-row structural appendix
+- **Rewrite target:** essayistic full book (~37–40k after editorial subtraction)
+- 3 parts with quiet title pages (no bridge essays), Threshold + 8 numbered chapters, appendix working terms, bibliography
+- No standalone How-to-Read unit; no taxonomic case map appendix
+- Subtitle: *Authority When Understanding No Longer Governs* (not “after understanding collapses”)
 
 ### Chapter form (non-negotiable)
 
@@ -67,9 +68,9 @@ Removed as standalone chapters: Sun Myung Moon, Hugo Chávez, Adolf Hitler.
 
 ## Part arc
 
-- **Part I — Where Interpretation Ends:** boundary (Smith); core distinction (Jones)
-- **Part II — What Replaces Interpretation:** sorting, identity saturation, performance, enclosure
-- **Part III — When Correction Cannot Reach:** transitional drift, anti-repair, witness
+- **Part I — Where Interpretation Ends:** Threshold (Smith); core distinction (Jones)
+- **Part II — What Replaces It:** sorting, identity saturation / belonging, performance, enclosure
+- **Part III — Before and After the Boundary:** transitional drift, anti-repair, witness
 
 ## Tone
 
