@@ -18,13 +18,13 @@ from book_export_assets import (  # noqa: E402
 from export_docx import stage_docx_units  # noqa: E402
 from export_pdf import stage_pdf_units  # noqa: E402
 
-TITLE_PAGE = '![Cover](BookCover.png){ width=100% }\n\n\\newpage\n\n# **Title**\n'
+TITLE_PAGE = '![Book cover](BookCover.png){ width=100% }\n\n\\newpage\n\n# **Title**\n'
 
 
 def test_prepare_title_page_for_pdf_replaces_cover_with_latex() -> None:
     out = prepare_title_page_for_pdf(TITLE_PAGE, "BookCover.png")
     assert "Figure" not in out
-    assert "![Cover]" not in out
+    assert "![Book cover]" not in out
     assert "\\thispagestyle{empty}" in out
     assert "\\includegraphics[width=\\textwidth]{BookCover.png}" in out
     assert "# **Title**" in out
@@ -33,7 +33,7 @@ def test_prepare_title_page_for_pdf_replaces_cover_with_latex() -> None:
 def test_prepare_title_page_for_docx_uses_empty_alt() -> None:
     out = prepare_title_page_for_docx(TITLE_PAGE, "BookCover.png")
     assert "![](BookCover.png){ width=100% }" in out
-    assert "![Cover]" not in out
+    assert "![Book cover]" not in out
 
 
 def test_stage_pdf_units_rewrites_title_page_when_flag_set(tmp_path: Path) -> None:
