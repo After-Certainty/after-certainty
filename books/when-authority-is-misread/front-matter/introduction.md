@@ -22,97 +22,66 @@ Legitimacy lags harm—or replaces it entirely. When we argue about
 leaders, we often believe we are disagreeing about values. In practice,
 we are usually disagreeing about what we think we are looking at.
 
-This book begins from a simple observation: many leadership failures are
-not failures of intent, intelligence, or even ethics. They are failures
-of interpretation that stabilize under constraint. Meaning moves faster
-than understanding. Authority persists longer than accountability. By
-the time judgment arrives, it often lands either too early to be fair or
-too late to matter.
+Many judgments about leadership are distorted before moral accounting
+begins, because interpretation determines which actions, costs, and forms
+of authority become visible. Meaning moves faster than understanding.
+Authority persists longer than accountability. By the time judgment
+arrives, it often lands either too early to be fair or too late to
+matter.
 
-At human scale, these dynamics are familiar. In families, workplaces,
-and communities, misunderstanding is tolerated when repair feels risky.
-Small harms are excused when outcomes seem acceptable. Authority
-persists because challenging it threatens relationships that matter.
-These are not moral defects; they are coordination strategies. They
-allow people to function under pressure. But they also create blind
-spots. When these same patterns scale up, the blind spots widen.
+At human scale, these dynamics are familiar. Misunderstanding is
+tolerated when repair feels risky. Small harms are excused when outcomes
+seem acceptable. Authority persists because challenging it threatens
+relationships that matter. These are coordination strategies under
+pressure. They also create blind spots. At historical scale, the blind
+spots widen.
 
 ---
 
-People rarely encounter leaders as whole persons under quiet conditions
-favorable to careful reading. They encounter them through signals—
-phrases, gestures, absences, delays—compressed into portable form.
-They encounter them through consequences that arrive after the fact, and
-through stories that rearrange those consequences into character. They
-encounter them through retrospective judgments that settle once the
-political weather has changed and the living friction of the moment has
-cooled into legend or complaint.
+People rarely encounter leaders as whole persons under quiet conditions.
+They encounter them through signals—phrases, gestures, absences,
+delays—compressed into portable form; through consequences that arrive
+after the fact; through stories that rearrange those consequences into
+character; through retrospective judgments that settle once living
+friction has cooled into legend or complaint.
 
 Compressed memory does much of the work. A long sequence of choices
-becomes a single trait. A refusal becomes a temperament. A delayed
-repair becomes proof of indifference—or of wisdom, depending on who is
-remembering and what they needed the memory to stabilize. The hallway
-outside ordinary rooms rehearses this compression every day. Historical
-scale is the same mechanism with longer corridors and more expensive
-mistakes.
+becomes a single trait. A refusal becomes a temperament. The hallway
+outside ordinary rooms rehearses this every day. Historical scale is the
+same mechanism with longer corridors and more expensive mistakes.
 
-Judgment, under these conditions, arrives on the wrong clock. It arrives
-too early when a signal must be converted immediately into loyalty or
-opposition. It arrives too late when harm has already diffused into
+Judgment arrives on the wrong clock—too early when a signal must become
+loyalty or opposition immediately, too late when harm has diffused into
 structures that no longer admit a named author. Looking twice is the
-discipline this book practices against that clock: not endless
-suspension, and not premature verdict, but a second pass that asks what
-made the first reading possible before treating the first reading as
-destiny.
-
-That second pass is ordinary before it is historical. It is the pause
-in which a colleague asks whether “we agreed” meant the same thing to
-everyone who nodded. It is the refusal to treat a leader’s calm, anger,
-silence, or eloquence as a finished moral verdict. It is the habit of
-noticing that effectiveness, moral posture, and legitimacy persistence
-can be argued separately—and that collapsing them early is how rooms
-become certain while remaining incomplete.
+discipline practiced against that clock: not endless suspension, and not
+premature verdict, but a second pass that asks what made the first
+reading possible before treating it as destiny.
 
 ---
 
-The chapters that follow do not invent a method for purifying
-leadership. They slow interpretation long enough to see how meaning,
-authority, and accountability behave under constraint. Part I stays
-close to ordinary rooms—how meaning outruns understanding, how
-authority outlives accountability, how drift begins at human scale.
-Part II turns to leaders who became legible through the readings
-history kept of them: Merkel, King, Nooyi, Galileo, Deng, Mandela,
-Washington. Each case begins somewhere small enough to recognize, then
-widens without pretending the historical figure was only an enlarged
-version of a workplace argument. Part III names a boundary: places
-where interpretation no longer seeks shared reality, and what looking
-twice can still do—and cannot do—after seven leaders have been read
-carefully.
+The chapters that follow slow interpretation long enough to see how
+meaning, authority, and accountability behave under constraint. Part I
+stays close to ordinary rooms. Part II turns to leaders who became
+legible through the readings history kept of them. Part III names a
+boundary: places where speech no longer seeks shared reality, and what
+looking twice can still do—and cannot do—after careful reading.
 
-Nothing in that sequence promises a scorecard, a worksheet, or a final
-ranking of virtue. The cases are instruments for perception. They show
-how appearance travels under pressure, how compression becomes character,
-and how accountability can lag while legitimacy still feels intact. The
-reader is not asked to admire or condemn on schedule. The reader is asked
-to notice what the first look swallowed.
-
-The point is not to decide who was right or wrong in advance of
-evidence. The point is to understand why leaders were read the way they
-were, and why those readings endured. Leadership is where these failures
-become visible. Human coordination under constraint is where they begin.
+The cases are instruments for perception, not a scorecard. The point is
+not to decide who was right or wrong in advance of evidence. It is to
+understand why leaders were read the way they were, and why those
+readings endured. Leadership is where these failures become visible.
+Human coordination under constraint is where they begin.
 
 ---
 
-Return to the corridor.
-
-People are still speaking in nearly compatible sentences. No one has
-lied. No one needs to. Each person carries a version of the meeting that
-fits the pressures they brought into the room and the pressures they
-must manage after leaving it. That is where interpretation begins
-hardening into memory—before minutes are written, before the leader’s
-name is attached to a verdict, before the next argument about values
-covers over an earlier failure to notice that the accounts already
-diverged.
+People are still speaking in the corridor in nearly compatible
+sentences. No one has lied. No one needs to. Each person carries a
+version of the meeting that fits the pressures they brought into the
+room and the pressures they must manage after leaving it. That is where
+interpretation begins hardening into memory—before minutes are written,
+before the leader’s name is attached to a verdict, before the next
+argument about values covers over an earlier failure to notice that the
+accounts already diverged.
 
 This book is an invitation to interrupt that hardening long enough to
 look twice: once at what appeared, and once at the conditions that made

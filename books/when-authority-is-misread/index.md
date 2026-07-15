@@ -45,6 +45,6 @@ Author: Kevin Steffensen
 
 [Series guide](../../docs/series-guide.md) · Authority cluster
 
-- [When Authority Outlives Accountability](../when-authority-outlives-accountability/index.md) — practical evaluation lens
-- [When Accountability No Longer Expires](../when-accountability-no-longer-expires/index.md) — institutional persistence after harm
 - [How Meaning Moves](../how-meaning-moves/index.md) — signal, compression, restraint
+- [When Others Look to You](../when-others-look-to-you/v2/index.md) — how authority forms, renews, and erodes
+- [When Accountability No Longer Expires](../when-accountability-no-longer-expires/index.md) — institutional persistence after harm

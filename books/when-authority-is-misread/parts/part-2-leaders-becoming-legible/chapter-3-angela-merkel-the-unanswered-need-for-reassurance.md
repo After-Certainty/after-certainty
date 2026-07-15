@@ -223,14 +223,14 @@ the moral ledger does not require accepting the misreading.
 
 A leader owes people honesty about uncertainty. People also need
 uncertainty reduced enough to act. Completeness and usability pull
-against each other. Merkel’s wager preferred managed uncertainty—
-incremental movement, deliberate ambiguity where premature clarity
-would have forced a worse bargain, process held open while partners
-could still bear it. She was often strategic rather than epistemically
-complete. Audiences trained to equate leadership with the feeling of
-settled ground often interpreted the remaining uncertainty as
-failure—regardless of whether the careful explanation had prevented
-error.
+against each other. Merkel’s practice was more often managed
+uncertainty than finished clarity: incremental movement, deliberate
+ambiguity where premature certainty would have forced a worse bargain,
+process held open while partners could still bear it. She was frequently
+strategic rather than epistemically complete. Audiences trained to
+equate leadership with the feeling of settled ground often interpreted
+the remaining uncertainty as failure—regardless of whether the careful
+explanation had prevented error.
 
 Interpretation shapes how the complaint arrives, but it does not settle
 the costs. The moral questions remain afterward: who bore austerity,

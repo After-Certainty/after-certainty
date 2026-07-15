@@ -16,25 +16,23 @@ human coordination fails under pressure. Each book stands on its own.
 None is required reading for another. Together, they explore the same
 underlying dynamics at different scales.
 
-*How Meaning Moves* examines communication at human scale, focusing on
-the forces that shape interpretation before understanding is formed. It
-explores how meaning is inferred rather than transmitted, how
-compression makes coordination efficient and fragile, and how constraint
-determines whether misunderstanding can be repaired—or must be endured.
+*How Meaning Moves* examines communication at human scale: how meaning
+is inferred rather than transmitted, how compression makes coordination
+efficient and fragile, and how constraint determines whether
+misunderstanding can be repaired—or must be endured.
 
-*When Authority Outlives Accountability* examines leadership and moral
-judgment. It separates dimensions that are often collapsed—moral posture
-toward harm, effectiveness in producing outcomes, and the persistence of
-legitimacy over time—and explores how authority can survive the
-conditions that justified it.
+*When Others Look to You* examines how authority forms, renews, and
+erodes when attention and expectation accumulate around a person. It
+asks how legitimacy develops in practice, and how leadership stays
+connected—or disconnected—from correction.
 
-*When Authority Is Misread* brings these two lenses together. It treats
-leadership not as a special category of behavior, but as an
-amplification of ordinary human dynamics. The communication patterns
-that distort understanding in everyday life are the same ones that shape
-how leaders are interpreted at scale. The moral shortcuts that stabilize
-authority in small groups are the same ones that allow legitimacy to
-persist in institutions.
+*When Authority Is Misread* brings communication and moral judgment
+together at historical scale. It treats leadership not as a special
+category of behavior, but as an amplification of ordinary human
+dynamics. The patterns that distort understanding in everyday rooms are
+the same ones that shape how leaders are interpreted under constraint.
+The shortcuts that stabilize authority in small groups are the same ones
+that allow legitimacy to persist in institutions.
 
-Readers who wish to explore the lenses in greater depth may find the
-earlier books useful, but no prior familiarity is assumed.
+Readers who wish to explore adjacent books in the series may find them
+useful, but no prior familiarity is assumed.
