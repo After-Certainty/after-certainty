@@ -4,4 +4,4 @@ In this book, interpretation does not mean personal opinion, private belief, or 
 
 It is what allows explanations to matter and what connects what leaders say and do to legitimacy, accountability, and repair. When interpretation is functioning, reasons can weaken authority, contradictions can demand response, and outcomes can alter standing. Authority is not guaranteed, but it is interpretable.
 
-What follows examines what happens when that process weakens—or disappears.
+What follows is structural diagnosis, not moral verdict or rescue plan. The cases examined are not offered to explain evil, justify harm, or diagnose belief. They make visible where interpretation still governs authority, where it is displaced, and what remains when its public function ends.

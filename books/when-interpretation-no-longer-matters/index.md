@@ -10,12 +10,11 @@
 - [Copyright](front-matter/copyright.md)
 - [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
-- [Preface](front-matter/preface.md)
 - [Introduction — The Question That Changes Nothing](front-matter/introduction-the-question-this-book-asks.md)
 
 ## Part I — Where Interpretation Ends
 
-- [Chapter 1 — The Door That Opens Only Inward](parts/part-1-where-interpretation-ends/chapter-1-the-door-that-opens-only-inward.md)
+- [Threshold — The Door That Opens Only Inward](parts/part-1-where-interpretation-ends/chapter-1-the-door-that-opens-only-inward.md)
 - [Chapter 2 — Everyone Already Knows](parts/part-1-where-interpretation-ends/chapter-2-everyone-already-knows.md)
 
 ## Part II — What Replaces Interpretation
@@ -34,7 +33,7 @@
 ## Back Matter
 
 - [Conclusion — The Meeting After the Meeting](back-matter/conclusion-after-interpretation.md)
-- [Glossary](back-matter/glossary.md)
+- [Appendix — Working Terms](back-matter/glossary.md)
 - [Bibliography](back-matter/bibliography.md)
 
 ## Related books
