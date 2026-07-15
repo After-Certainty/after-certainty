@@ -1,8 +1,8 @@
 slug: betsy-beyer
 name: Betsy Beyer
 type: person
-summary: Editors of Google's Site Reliability Engineering corpus—operational practice
-  for reliability at scale.
+summary: Google SRE editor documenting production reliability practices—on-call craft,
+  error budgets, and incident learning.
 concepts: []
 patterns: []
 relatedBooks:
@@ -10,5 +10,5 @@ relatedBooks:
 - how-serious-systems-learn
 works:
 - beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin
-whyThisMatters: SRE writing anchors how serious systems formalize error budgets, blameless
-  postmortems, and accountable operations.
+whyThisMatters: Beyer helps make operational seriousness teachable—how large systems
+  stay accountable under continuous change.

@@ -674,6 +674,10 @@
         {
           "creatorSlug": "eisenstadt-shmuel-n",
           "creatorName": "Eisenstadt, Shmuel N."
+        },
+        {
+          "creatorSlug": "nissen-hans-j-peter-damerow-and-robert-k-englund",
+          "creatorName": "Nissen, Hans J., Peter Damerow, and Robert K. Englund"
         }
       ],
       "orphan_creator_slugs": [],
@@ -3323,8 +3327,16 @@
       "thinker_stale": [],
       "creator_missing_thinker": [
         {
+          "creatorSlug": "hovland-carl-i-and-walter-weiss",
+          "creatorName": "Hovland, Carl I., and Walter Weiss"
+        },
+        {
           "creatorSlug": "kahneman-daniel-and-amos-tversky",
           "creatorName": "Kahneman, Daniel, and Amos Tversky"
+        },
+        {
+          "creatorSlug": "lupia-arthur-and-mathew-d-mccubbins",
+          "creatorName": "Lupia, Arthur, and Mathew D. McCubbins"
         },
         {
           "creatorSlug": "reinhart-carmen-m-and-kenneth-s-rogoff",
@@ -4610,12 +4622,24 @@
       "thinker_stale": [],
       "creator_missing_thinker": [
         {
+          "creatorSlug": "brownell-kelly-d-and-kenneth-e-warner",
+          "creatorName": "Brownell, Kelly D., and Kenneth E. Warner"
+        },
+        {
+          "creatorSlug": "ceplair-larry-and-steven-englund",
+          "creatorName": "Ceplair, Larry, and Steven Englund"
+        },
+        {
           "creatorSlug": "eagly-alice-h-and-linda-l-carli",
           "creatorName": "Eagly, Alice H., and Linda L. Carli"
         },
         {
           "creatorSlug": "george-farewell-address-19-september-1796-washington",
           "creatorName": "George. Farewell Address. 19 September 1796 Washington"
+        },
+        {
+          "creatorSlug": "merritt-anna-c-daniel-a-effron-and-beno-t-monin",
+          "creatorName": "Merritt, Anna C., Daniel A. Effron, and Benoît Monin"
         },
         {
           "creatorSlug": "michael-j-de-la-merc",
@@ -5373,6 +5397,10 @@
       "thinker_stale": [],
       "creator_missing_thinker": [
         {
+          "creatorSlug": "cappelli-peter-and-anna-tavis",
+          "creatorName": "Cappelli, Peter, and Anna Tavis"
+        },
+        {
           "creatorSlug": "center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-opensecrets-org",
           "creatorName": "Center for Responsive Politics (OpenSecrets). Fundraising totals and donor reporting. https://www.opensecrets.org/"
         },
@@ -5395,6 +5423,10 @@
         {
           "creatorSlug": "haugen-frances-testimony-and-disclosures-regarding-facebook-internal-research-on-engagement-based-ranking-u-s-senate-commerce-subcommittee-on-consumer-protection-october-5-2021",
           "creatorName": "Haugen, Frances. Testimony and disclosures regarding Facebook internal research on engagement-based ranking. U.S. Senate Commerce Subcommittee on Consumer Protection, October 5, 2021"
+        },
+        {
+          "creatorSlug": "horwitz-jeff-and-deepa-seetharaman",
+          "creatorName": "Horwitz, Jeff, and Deepa Seetharaman"
         },
         {
           "creatorSlug": "international-sustainability-standards-board-issb-ifrs-s1-general-requirements-for-disclosure-of-sustainability-related-financial-information-and-s2-climate-related-disclosures-2023-https-www-ifrs-org",

@@ -12,9 +12,15 @@ relatedBooks:
 - how-serious-systems-learn
 title: 'Site Reliability Engineering: How Google Runs Production Systems'
 creatorNames:
-- Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Richard Murphy
+- Betsy Beyer
+- Chris Jones
+- Jennifer Petoff
+- Niall Richard Murphy
 creatorSlugs:
-- betsy-beyer-chris-jones-jennifer-petoff-and-niall-richard-murphy
+- betsy-beyer
+- chris-jones
+- jennifer-petoff
+- niall-richard-murphy
 citation: 'Beyer, Betsy, Chris Jones, Jennifer Petoff, and Niall Richard Murphy, eds.
   *Site Reliability Engineering: How Google Runs Production Systems*. Sebastopol,
   CA: O''Reilly Media, 2016.'

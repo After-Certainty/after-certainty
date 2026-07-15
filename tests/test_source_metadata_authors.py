@@ -18,3 +18,32 @@ def test_parse_author_list_with_jr_suffix() -> None:
 def test_single_author_with_jr_not_multi_person() -> None:
     assert not is_multi_person_thinker_name("King, Martin Luther, Jr")
     assert parse_bibliographic_author_list("King, Martin Luther, Jr") == ["Martin Luther King Jr."]
+
+
+def test_display_order_pair_is_multi_person() -> None:
+    name = "Kelly D. Brownell and Kenneth E. Warner"
+    assert is_multi_person_thinker_name(name)
+    assert parse_bibliographic_author_list(name) == [
+        "Kelly D. Brownell",
+        "Kenneth E. Warner",
+    ]
+
+
+def test_display_order_comma_list() -> None:
+    name = "Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Richard Murphy"
+    assert is_multi_person_thinker_name(name)
+    assert parse_bibliographic_author_list(name) == [
+        "Betsy Beyer",
+        "Chris Jones",
+        "Jennifer Petoff",
+        "Niall Richard Murphy",
+    ]
+
+
+def test_display_order_three_with_accents() -> None:
+    name = "Anna C. Merritt, Daniel A. Effron, and Benoît Monin"
+    assert parse_bibliographic_author_list(name) == [
+        "Anna C. Merritt",
+        "Daniel A. Effron",
+        "Benoît Monin",
+    ]

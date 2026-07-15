@@ -179,10 +179,11 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (2)
+### Biblio creators without thinker node (3)
 
 - `1810-statutes-of-the-realm-vol-1-london-record-commission` (1810 *Statutes of the Realm*. Vol. 1. London: Record Commission)
 - `eisenstadt-shmuel-n` (Eisenstadt, Shmuel N.)
+- `nissen-hans-j-peter-damerow-and-robert-k-englund` (Nissen, Hans J., Peter Damerow, and Robert K. Englund)
 
 ### Orphan creatorSlugs on linked sources (0)
 
@@ -722,9 +723,11 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (3)
+### Biblio creators without thinker node (5)
 
+- `hovland-carl-i-and-walter-weiss` (Hovland, Carl I., and Walter Weiss)
 - `kahneman-daniel-and-amos-tversky` (Kahneman, Daniel, and Amos Tversky)
+- `lupia-arthur-and-mathew-d-mccubbins` (Lupia, Arthur, and Mathew D. McCubbins)
 - `reinhart-carmen-m-and-kenneth-s-rogoff` (Reinhart, Carmen M., and Kenneth S. Rogoff)
 - `tetlock-philip-e-and-dan-gardner` (Tetlock, Philip E., and Dan Gardner)
 
@@ -999,10 +1002,13 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (4)
+### Biblio creators without thinker node (7)
 
+- `brownell-kelly-d-and-kenneth-e-warner` (Brownell, Kelly D., and Kenneth E. Warner)
+- `ceplair-larry-and-steven-englund` (Ceplair, Larry, and Steven Englund)
 - `eagly-alice-h-and-linda-l-carli` (Eagly, Alice H., and Linda L. Carli)
 - `george-farewell-address-19-september-1796-washington` (George. Farewell Address. 19 September 1796 Washington)
+- `merritt-anna-c-daniel-a-effron-and-beno-t-monin` (Merritt, Anna C., Daniel A. Effron, and Benoît Monin)
 - `michael-j-de-la-merc` (Michael J de la Merc)
 - `truth-and-reconciliation-commission-of-south-africa` (Truth and Reconciliation Commission of South Africa)
 
@@ -1149,14 +1155,16 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (12)
+### Biblio creators without thinker node (14)
 
+- `cappelli-peter-and-anna-tavis` (Cappelli, Peter, and Anna Tavis)
 - `center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-opensecrets-org` (Center for Responsive Politics (OpenSecrets). Fundraising totals and donor reporting. https://www.opensecrets.org/)
 - `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions-2009-2010` (Congressional Record. 111th Congress. Debate on Affordable Care Act and public-option provisions, 2009-2010)
 - `european-financial-reporting-advisory-group-efrag-european-sustainability-reporting-standards-esrs-2023-https-www-efrag-org` (European Financial Reporting Advisory Group (EFRAG). European Sustainability Reporting Standards (ESRS). 2023. https://www.efrag.org/)
 - `every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112` (Every Student Succeeds Act of 2015, Pub. L. No. 114-95, §§ 1111-1112)
 - `federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov` (Federal Election Commission. Campaign finance disclosure data. https://www.fec.gov/)
 - `haugen-frances-testimony-and-disclosures-regarding-facebook-internal-research-on-engagement-based-ranking-u-s-senate-commerce-subcommittee-on-consumer-protection-october-5-2021` (Haugen, Frances. Testimony and disclosures regarding Facebook internal research on engagement-based ranking. U.S. Senate Commerce Subcommittee on Consumer Protection, October 5, 2021)
+- `horwitz-jeff-and-deepa-seetharaman` (Horwitz, Jeff, and Deepa Seetharaman)
 - `international-sustainability-standards-board-issb-ifrs-s1-general-requirements-for-disclosure-of-sustainability-related-financial-information-and-s2-climate-related-disclosures-2023-https-www-ifrs-org` (International Sustainability Standards Board (ISSB). IFRS S1 *General Requirements for Disclosure of Sustainability-related Financial Information* and S2 *Climate-related Disclosures*. 2023. https://www.ifrs.org/)
 - `pichai-sundar-testimony-before-the-u-s-house-judiciary-committee-december-11-2018` (Pichai, Sundar. Testimony before the U.S. House Judiciary Committee, December 11, 2018)
 - `san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org` (San Francisco Declaration on Research Assessment (DORA). 2012. https://sfdora.org/)
