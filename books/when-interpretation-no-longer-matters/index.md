@@ -17,7 +17,7 @@
 ## Part I — Where Interpretation Ends
 
 - [Part I bridge](parts/part-1-where-interpretation-ends/bridge.md)
-- [Chapter 1 — The Boundary We Could Not Cross](parts/part-1-where-interpretation-ends/chapter-1-the-boundary-we-could-not-cross.md)
+- [Chapter 1 — The Door That Opens Only Inward](parts/part-1-where-interpretation-ends/chapter-1-the-door-that-opens-only-inward.md)
 - [Chapter 2 — What It Means for Interpretation to Stop Working](parts/part-1-where-interpretation-ends/chapter-2-what-it-means-for-interpretation-to-stop-working.md)
 
 ## Part II — Authority Without Interpretation
