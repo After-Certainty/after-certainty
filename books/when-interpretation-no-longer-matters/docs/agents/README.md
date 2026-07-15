@@ -44,7 +44,7 @@ Work **one file per 01–06 run** unless expanding a part in batch with explicit
 | — | How to read | `front-matter/how-to-read-this-book.md` *(optional pipeline)* |
 | — | Part I bridge | `parts/part-1-where-interpretation-ends/bridge.md` |
 | 1 | Ch 1 — Door / Smith | `parts/part-1-where-interpretation-ends/chapter-1-the-door-that-opens-only-inward.md` |
-| 2 | Ch 2 — What it means | `parts/part-1-where-interpretation-ends/chapter-2-what-it-means-for-interpretation-to-stop-working.md` |
+| 2 | Ch 2 — Everyone Already Knows | `parts/part-1-where-interpretation-ends/chapter-2-everyone-already-knows.md` |
 | — | Part II bridge | `parts/part-2-authority-without-interpretation/bridge.md` |
 | 3 | Ch 3 — Alignment vs interpretation | `parts/part-2-authority-without-interpretation/chapter-3-alignment-versus-interpretation.md` |
 | 4 | Ch 4 — Identity saturation | `parts/part-2-authority-without-interpretation/chapter-4-identity-saturation.md` |

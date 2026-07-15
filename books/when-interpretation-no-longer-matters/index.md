@@ -18,7 +18,7 @@
 
 - [Part I bridge](parts/part-1-where-interpretation-ends/bridge.md)
 - [Chapter 1 — The Door That Opens Only Inward](parts/part-1-where-interpretation-ends/chapter-1-the-door-that-opens-only-inward.md)
-- [Chapter 2 — What It Means for Interpretation to Stop Working](parts/part-1-where-interpretation-ends/chapter-2-what-it-means-for-interpretation-to-stop-working.md)
+- [Chapter 2 — Everyone Already Knows](parts/part-1-where-interpretation-ends/chapter-2-everyone-already-knows.md)
 
 ## Part II — Authority Without Interpretation
 
