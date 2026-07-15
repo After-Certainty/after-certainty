@@ -31,9 +31,9 @@ nonviolent routes, he helped found Umkhonto we Sizwe. In the
 Rivonia dock he explained sabotage as a response to conditions in
 which continued calls for pure nonviolence had become, in his
 argument, a demand that the oppressed preserve the peace of their
-oppressors.[^c8-rivonia] He drew a line he hoped would hold:
-attack infrastructure and the symbols of state power while seeking
-to avoid terrorism and open racial war. Whether such lines can
+oppressors.[^c8-rivonia] That dock statement also described a limited
+sabotage policy: attack infrastructure and the symbols of state power
+while seeking to avoid terrorism and open racial war. Whether such lines can
 remain stable once violence begins is another question. Armed
 movements generate their own escalations, factions, errors, and
 compromises. The point for reading Mandela later is simpler. He
@@ -95,10 +95,10 @@ or denounce it as fraud.
 
 ---
 
-After victory, Mandela’s public signals remained deliberately
-restrained. He spoke of inclusion and continuity without denying
-harm. He refused triumphal framing that would have made democracy
-sound like conquest of one population by another. He invited
+After victory, his speeches and ceremonies emphasized inclusion over
+conquest. He spoke of continuity without denying harm, and avoided
+triumphal framing that would have made democracy sound like one
+population’s defeat of another. He invited
 former jailers into ceremonial presence. He visited communities
 that feared the new order and communities that expected the new
 order to arrive as settling of accounts. At the 1995 Rugby World
@@ -150,7 +150,7 @@ land, labor, education, wealth, and institutional design rather
 than only a catalogue of brutal acts. A mother could support
 democracy without forgiving the person who murdered her child.
 Forgiveness cannot be nationalized without becoming another form
-of dispossession. Mandela could model refusal to weaponize
+of dispossession. Mandela could model public restraint around
 suffering; he could not surrender other people’s claims on their
 behalf.
 
@@ -216,9 +216,9 @@ Domestic criticism of reconciliation was never only foreign theory
 imported late. Some comrades heard compromise as elite bargain.
 Some survivors heard amnesty as another door closing on
 prosecution. Some white conservatives heard inclusion as threat
-dressed as courtesy. Mandela’s task was not to eliminate this
-dissonance. It was to keep dissonance from resolving through force
-before democratic institutions had time to take root. That is a
+dressed as courtesy. In practice, his transition stance was not to eliminate this
+dissonance but to keep it from resolving through force before
+democratic institutions had time to take root. That is a
 narrower achievement than the international poster suggests—and a
 larger one than cynics admit when they speak as if any settlement
 short of total transformation was collaboration.
@@ -241,19 +241,17 @@ impossible comparison and leaves unfinished justice looking like
 ingratitude toward a saint.
 
 His posture generated what can be called moral surplus: authority
-that comes less from enforcement or outcome than from refusing to
-convert suffering into domination.[^c8-surplus] He accepted
-personal cost without demanding that others submit as the price of
-recognizing his legitimacy. He refused to weaponize the justified
-rage available to him. That surplus stabilized a transition. It
-did not abolish inequality. It did not complete accountability. It
-began something without finishing it—and beginning without
+that comes less from enforcement or outcome than from observable
+refusal to convert suffering into domination.[^c8-surplus] Public
+restraint left the ledger open for others rather than claiming
+suffering as a warrant for submission. That surplus stabilized a
+transition. It did not abolish inequality or complete accountability.
+It began something without finishing it—and beginning without
 finishing is easy to misremember as either total success or total
-failure. Moral surplus is not an infinite reservoir. It is spent
-whenever restraint is asked of people who are still waiting for
-repair. Spend it only on unity theater, and it runs out. Spend it
-as if it replaces land and wages and schooling, and it becomes an
-alibi.
+failure. Moral surplus is not an infinite reservoir. It depletes
+whenever restraint is asked of people still waiting for repair. Used
+only for unity theater, it runs out; treated as a substitute for land,
+wages, and schooling, it becomes an alibi.
 
 Effectiveness here consisted largely of non-events. Civil war did
 not consume the founding. The election held. Power transferred
@@ -271,39 +269,27 @@ equality. Both matter. Confusing them produces bad history and
 worse politics.
 
 A leader facing moral fracture can reopen interpretation by
-declining to close it with revenge. People living inside
-unrepaired structures still need repair that interpretation alone
-cannot deliver. The hunger for a closed moral story remains after
-the transition: some want the story of forgiveness completed; some
-want the story of betrayal completed; few want the slower account
-in which several unfinished obligations sit beside one another
-without a single verdict that dissolves the rest. Political
-transition, reconciliation, material justice, and long-term
-transformation are related and not identical. Collapsing them into
-sainthood flatters the leader and abandons the living. Collapsing
-them into betrayal forgets how close the alternative was to
-corpses counted in larger numbers. Looking carefully keeps the
-distinctions visible without pretending that visibility itself
-redistributes land.
+declining to close it with revenge; unrepaired structures still need
+repair that interpretation alone cannot deliver. The hunger for a
+closed story remains—forgiveness completed, or betrayal completed—
+more often than the slower account of unfinished obligations sitting
+beside one another. Sainthood collapses transition,
+reconciliation, justice, and transformation into one glowing
+verdict; so does the reverse myth of pure betrayal. Looking
+carefully keeps them visible without pretending that visibility
+itself redistributes land.
 
 *Restraint creates moral space, but it does not decide what must
 later be done inside that space.*
 
 Interpretation shapes the moral ledger before judgment begins, but
 it does not settle the judgment. Mandela is misread when restraint
-is treated as closure—when the unsent letter is mistaken for a
-letter that never needed to be written, or for a letter whose truth
-expired because it was not mailed. He is also misread when later
-inequality is taken as proof that the restraint was fraudulent all
-along. Fraud and incompleteness are different charges. One cancels
-the opening. The other demands that the opening be used. The moral
-questions remain afterward: who received amnesty without adequate
-reparation, what land and capital arrangements the settlement
-protected, whose daily life still resembles apartheid’s
-distribution even after apartheid’s law fell, which institutions
-learned to govern without the founder’s face. Looking carefully
-does not cancel those questions. It keeps them from being answered
-by either hagiography or retrospective contempt.
+is treated as closure—or when later inequality is taken as proof the
+restraint was fraudulent. Fraud and incompleteness are different
+charges. One cancels the opening; the other demands that the opening
+be used. Looking carefully does not cancel the remaining questions
+of amnesty, land, capital, and daily distribution. It keeps them
+from being answered by either hagiography or retrospective contempt.
 
 ---
 
@@ -312,10 +298,10 @@ The letter is still on the table in the morning.
 It is still true. The anger has not become false by waiting. What
 waiting preserved was not innocence—it was the possibility of a
 reply that sending would have made harder to hear. Mandela’s
-public restraint did not erase what apartheid had done. It refused
-to spend the entire moral claim of suffering on a single act of
-closure. The letter remains accurate as indictment, unfinished as
-correspondence. Waiting was only the condition. The duty that
+public restraint did not erase what apartheid had done. It kept the
+moral ledger open rather than closing it in one act of conquest or
+forgiveness theater. The letter remains accurate as indictment,
+unfinished as correspondence. Waiting was only the condition. The duty that
 follows belongs to whoever inherits the space that waiting made:
 courts that still can prosecute, legislatures that still can
 redistribute, communities that still can refuse both amnesia and

@@ -36,7 +36,7 @@ hostility is not a curiosity of polling. It is the chapter’s subject.
 He did not arrive at that conflict as a solitary speaker whose later
 recognition proved him right. He arrived as a strategist inside
 coalitions, under surveillance, facing rival methods, internal
-disagreement, and a state apparatus willing to treat nonviolent
+disagreement, and a state apparatus that treated nonviolent
 protest as disorder. From the Montgomery bus boycott onward, local
 organizers, church networks, student activists, labor allies, and the
 Southern Christian Leadership Conference built campaigns that could
@@ -55,7 +55,7 @@ management problem. King’s presence, arrests, and the decision to
 involve young marchers drew national attention toward police dogs, fire
 hoses, and mass detention. The strategy compressed structural injustice
 into scenes the country could not ignore without also discovering what
-it was willing to tolerate.[^c4-branch-garrow]
+it would tolerate.[^c4-branch-garrow]
 
 From that confrontation came the text that still names the door marked
 “not yet.” Confined in Birmingham Jail after violating an injunction
@@ -95,10 +95,9 @@ televised.
 Repair under these conditions was almost impossible in the usual
 leadership sense. Clarification that softened the signal would have
 defeated its purpose. Delay offered as conciliatory timing would have
-confirmed the clergymen’s calendar. King and the coalitions around him
-accepted that the message would be read as extreme by people who needed
-it to be premature. The work was to make prematurity more expensive
-than continued injustice.
+confirmed the clergymen’s calendar. Coalition strategy treated the labeling of
+demands as extreme or premature as an expected cost. The work was to
+make prematurity more expensive than continued injustice.
 
 The March on Washington in August 1963 scaled that pressure nationally.
 A. Philip Randolph and Bayard Rustin organized a coalition that joined
@@ -121,12 +120,13 @@ Bridge made the state’s method televised again—clubs, gas, horses,
 bodies on a bridge named for a Confederate. The Voting Rights Act of
 1965 followed: not a gift of enlightened timing, but a partial
 institutional answer extracted under crisis that made continued delay
-politically expensive. Even then, King understood legislative victory
-as incomplete. Legal prohibition of overt barriers did not dissolve
-economic subordination, residential segregation, or the northern
-patterns that liberals preferred to keep outside the southern story.
-Statutes can open a legal door while leaving the practical rooms of
-power—credit, housing, employment, policing—organized by older keys.
+politically expensive. After 1965 he publicly argued that statutes left
+poverty, housing, and northern segregation unaddressed. Legal
+prohibition of overt barriers did not dissolve economic subordination
+or the northern patterns liberals preferred to keep outside the
+southern story. Statutes can open a legal door while leaving the
+practical rooms of power—credit, housing, employment, policing—
+organized by older keys.
 
 When the campaigns moved north—Chicago’s open-housing struggle among
 them—the door’s manners changed and its function did not. Northern
@@ -179,10 +179,9 @@ fully test what national politics would do with economic demand
 presented as moral claim. The unfinished campaign matters for the
 misreading. It shows a leader whose end was not a closed triumph of
 speech but an unfinished confrontation with systems that had already
-learned how to concede language while defending distribution. Had he
-lived longer, the door of southern martyrdom might have stayed ajar only
-so long as the demand stopped at voting rights. Economic claim was the
-hinge that closed it again.
+learned how to concede language while defending distribution. Even before
+assassination, the turn to poverty and war had already narrowed the
+usable-prophet frame that southern legal equality had briefly opened.
 
 After his death, legitimacy arrived with remarkable speed and alarming
 selectivity. King was elevated into a national moral symbol. Schools
@@ -234,50 +233,44 @@ Longer measures recorded altered law, altered public moral vocabulary,
 and a civil rights settlement that was incomplete and still
 foundational. The temporal gap is the point. When benefits are delayed
 and costs are immediate, moral leadership cannot justify itself by the
-ledger the resistant system already uses. It has to accept that
-justification will be denied until the danger of action has passed—
-and that denial will later be narrated as tragic misunderstanding
-rather than as refusal.
+ledger the resistant system already uses. Justification is routinely
+denied until the danger of action has passed—and that denial is later
+narrated as tragic misunderstanding rather than as refusal.
 
-That acceptance is not romantic. It is strategic and tragic at once.
-King designed signals to survive distortion under repression, knowing
-they would fail to purchase full legitimacy in the moment. He built
-and entered coalitions that could make delay costly to those who
-preferred it. Opposition remained real: not a cartoon of evil alone,
-but churches, newspapers, unions, presidents, police, neighbors, and
-fellow travelers who wanted progress without risk to their standing.
-Evolving commitments—from southern legal rights to economic justice and
-antiwar critique—kept moving the demand past what each temporary
-settlement had been willing to absorb. The man kept walking through
-doors that language left open and practice kept shutting.
+Campaigns were constructed so demands remained legible under distortion;
+contemporaneous disapproval shows how fully legitimacy was postponed.
+Coalitions made delay costly to those who preferred it. Opposition
+remained real: churches, newspapers, unions, presidents, police,
+neighbors, and fellow travelers who wanted progress without risk to
+their standing. Evolving commitments—from southern legal rights to
+economic justice and antiwar critique—kept moving the demand past what
+each temporary settlement would absorb. The man kept walking through
+doors language left open and practice kept shutting.
 
-There is a further temptation in later readings: to treat hostility as
-proof that the message failed, or retrospective love as proof that it
-succeeded in the way myths prefer. Neither is precise. The living
-struggle shows a different metric. Success often looked like a statute
-extracted under crisis, a local settlement under pressure, a coalition
-held together one more week, a refusal to trade belonging for silence.
-Failure often looked like the same door, still ajar, still saying not
-yet—now with kinder words. Legitimacy delayed is not automatically
-legitimacy denied forever. It is still a debt the delaying system tries
-not to pay while interest compounds in bodies and blocked futures.
+Later readings tempt a false binary: hostility as proof the message
+failed, or retrospective love as proof it succeeded on myth’s terms.
+Neither is precise. Success often looked like a statute extracted under
+crisis, a coalition held one more week, a refusal to trade belonging for
+silence. Failure often looked like the same door, still ajar, still
+saying not yet—now with kinder words. Legitimacy delayed is not
+automatically legitimacy denied forever. It remains a debt the delaying
+system tries not to pay while interest compounds in bodies and blocked
+futures.
 
 ---
 
 A system can acknowledge a truth while postponing every consequence
 that would make the acknowledgment matter.
 
-The open door and the closed practice are the same structure viewed from
-two sides. Language widens enough to absorb the claim. Timetables
-contract enough to neutralize it. Later, when the fighter is safely dead
-or the fight safely distant, legitimacy attaches to the name and is
-mistaken for early understanding. Delay is rebranded as tragic
-misunderstanding rather than as a design feature of comfortable power.
+Language widens enough to absorb the claim; timetables contract enough
+to neutralize it. When the fighter is safely dead or the fight safely
+distant, legitimacy attaches to the name and is mistaken for early
+understanding.
 
 King was not misread because his message was unclear. He was misread
-because clarity imposed responsibility others were unwilling to bear—
-and because waiting, dressed as wisdom, is one of the most durable ways
-to refuse that responsibility without appearing to refuse it.
+because clarity imposed responsibility others would not bear—and because
+waiting, dressed as wisdom, refuses that responsibility without appearing
+to refuse it.
 
 ---
 
@@ -287,21 +280,18 @@ The person in the frame still says “Not now.” They may even say the
 words now taught in schools: justice, dignity, equality. Light fills
 the hallway and still does not reach the rooms where schedules,
 budgets, ballots, and enforcement live. Acknowledgment walks freely.
-Consequence waits for permission that is never quite due.
+Consequence waits for permission that is never quite due. The error is
+mistaking that delay for misunderstanding, and mistaking later sainthood
+for early recognition of what the living man demanded.
 
-Often the door stays ajar—proof that nothing is being denied—while
-every practical passage remains blocked. The error is mistaking that
-delay for misunderstanding, and mistaking later sainthood for early
-recognition of what the living man demanded.
+[^c4-gallup]: Gallup mid-1960s surveys: majority unfavorable; by 1966 roughly two-thirds disapproved. Discussed in David J. Garrow, *Bearing the Cross: Martin Luther King, Jr., and the Southern Christian Leadership Conference* (New York: William Morrow, 1986).
 
-[^c4-gallup]: Gallup polling in the mid-1960s showed majority unfavorable views of King prior to his assassination; by 1966 roughly two-thirds of Americans disapproved. See Gallup historical summaries and discussion in David J. Garrow, *Bearing the Cross: Martin Luther King, Jr., and the Southern Christian Leadership Conference* (New York: William Morrow, 1986).
-
-[^c4-branch-garrow]: On Birmingham strategy, Project C, the March on Washington coalition, Chicago open-housing struggle, and Selma, see Taylor Branch, *Parting the Waters: America in the King Years 1954–63* (New York: Simon & Schuster, 1988); Taylor Branch, *Pillar of Fire* and *At Canaan’s Edge* (New York: Simon & Schuster, 1998, 2006); and Garrow, *Bearing the Cross*.
+[^c4-branch-garrow]: On Birmingham, Project C, the March on Washington, Chicago open housing, and Selma, see Taylor Branch, *Parting the Waters: America in the King Years 1954–63* (New York: Simon & Schuster, 1988); Branch, *Pillar of Fire* and *At Canaan’s Edge* (New York: Simon & Schuster, 1998, 2006); and Garrow, *Bearing the Cross*.
 
 [^c4-letter]: Martin Luther King Jr., “Letter from Birmingham Jail” (16 April 1963), in *Why We Can’t Wait* (New York: Harper & Row, 1964; Signet Classics reprint, 2000).
 
 [^c4-garrow-fbi]: On FBI surveillance and campaigns to discredit King, see David J. Garrow, *The FBI and Martin Luther King, Jr.: From “Solo” to Memphis* (New York: W. W. Norton, 1981).
 
-[^c4-riverside]: Martin Luther King Jr., “Beyond Vietnam: A Time to Break Silence,” address at Riverside Church, New York, 4 April 1967; text widely reprinted in collections of King’s speeches.
+[^c4-riverside]: Martin Luther King Jr., “Beyond Vietnam: A Time to Break Silence,” Riverside Church, New York, 4 April 1967.
 
-[^c4-sanitization]: On posthumous elevation and selective softening of King’s economic and antiwar critique, see Michael Eric Dyson, *I May Not Get There with You: The True Martin Luther King, Jr.* (New York: Free Press, 2000), and discussions in Garrow, *Bearing the Cross*, epilogue material and later assessments.
+[^c4-sanitization]: On selective posthumous softening of King’s economic and antiwar critique, see Michael Eric Dyson, *I May Not Get There with You* (New York: Free Press, 2000); Garrow, *Bearing the Cross*, epilogue.
