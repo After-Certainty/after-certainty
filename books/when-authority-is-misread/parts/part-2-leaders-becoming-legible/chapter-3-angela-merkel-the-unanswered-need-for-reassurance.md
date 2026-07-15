@@ -255,7 +255,7 @@ as a decision.
 
 [^c3-marton]: Marton, *The Chancellor*, on East German formation, committee advance, and later public persona.
 
-[^c3-eurozone]: On conditionality, austerity politics, and contested narratives of necessity during the Eurozone crisis, see Mark Blyth, *Austerity: The History of a Dangerous Idea* (Oxford: Oxford University Press, 2013); and Tony Barber, “Greece and the Politics of Austerity,” *Financial Times*, 2 May 2011.
+[^c3-eurozone]: On conditionality, austerity politics, and contested narratives of necessity during the Eurozone crisis, see Mark Blyth, *Austerity: The History of a Dangerous Idea* (Oxford: Oxford University Press, 2013).
 
 [^c3-refugees]: On the 2015 decision and the phrase *Wir schaffen das*, see Robin Alexander, *Die Getriebenen* (Munich: Siedler, 2017), and Marton, *The Chancellor*.
 
