@@ -259,8 +259,8 @@ futures.
 
 ---
 
-A system can acknowledge a truth while postponing every consequence
-that would make the acknowledgment matter.
+*A system can acknowledge a truth while postponing every consequence
+that would make the acknowledgment matter.*
 
 Language widens enough to absorb the claim; timetables contract enough
 to neutralize it. When the fighter is safely dead or the fight safely

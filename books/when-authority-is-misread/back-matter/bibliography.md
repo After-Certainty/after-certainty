@@ -38,8 +38,6 @@ Works cited by name in the notes, with selected primary sources.
 
 - Finocchiaro, Maurice A. *The Galileo Affair: A Documentary History*. Berkeley: University of California Press, 1989.
 
-- Fitzpatrick, John C., ed. *The Writings of George Washington from the Original Manuscript Sources, 1745–1799*. 39 vols. Washington, DC: U.S. Government Printing Office, 1931–1944.
-
 - Galilei, Galileo. *Dialogue Concerning the Two Chief World Systems*. Translated by Stillman Drake. Berkeley: University of California Press, 1967.
 
 - Galilei, Galileo. *Sidereus Nuncius, or The Sidereal Messenger*. Translated by Albert Van Helden. Chicago: University of Chicago Press, 1989.

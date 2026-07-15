@@ -261,8 +261,8 @@ it warehouses.
 
 ---
 
-The leader who adds a missing consequence to the ledger is often judged
-by the numbers the ledger was designed to protect.
+*The leader who adds a missing consequence to the ledger is often judged
+by the numbers the ledger was designed to protect.*
 
 Care is easy to praise in the abstract. It is harder to legitimize when
 legitimacy is still issued in the old units. The misreading is not that

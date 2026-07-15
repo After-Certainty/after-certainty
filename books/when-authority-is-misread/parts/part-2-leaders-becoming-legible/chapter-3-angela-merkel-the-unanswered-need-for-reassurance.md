@@ -207,14 +207,13 @@ would have produced better outcomes. They do prove that precision about
 uncertainty is not the same as foresight about structure, and that a
 leader can refuse spectacle while still imposing long horizons of risk.
 
-Here the communication lens and the moral lens pull hardest on each
-other. Communication analysis shows why her refusal to compress
-uncertainty was read as absence—why restraint became character rather
-than signal choice. Moral analysis refuses to let a corrected reading of
-style cancel questions of cost: austerity’s distribution, refugee
-policy’s contested welcome, energy dependence’s delayed reckoning.
-Correcting the misreading does not complete the moral ledger. Completing
-the moral ledger does not require accepting the misreading.
+Correcting the reading of style does not complete the moral ledger.
+Completing the moral ledger does not require accepting the complaint that
+she failed because she refused to perform certainty. Communication
+conditions and moral costs pull hardest here against each other: why
+restraint became character rather than signal choice, and why a clearer
+view of style still leaves austerity’s distribution, refugee policy’s
+contested welcome, and energy dependence’s delayed reckoning unsettled.
 
 A leader owes people honesty about uncertainty. People also need
 uncertainty reduced enough to act. Completeness and usability pull
@@ -226,6 +225,9 @@ strategic rather than epistemically complete. Audiences trained to
 equate leadership with the feeling of settled ground often interpreted
 the remaining uncertainty as failure—regardless of whether the careful
 explanation had prevented error.
+
+*When leadership refuses to simplify uncertainty, audiences often
+interpret the remaining uncertainty as a failure of leadership.*
 
 Interpretation shapes how the complaint arrives, but it does not settle
 the costs. The moral questions remain afterward: who bore austerity,
