@@ -58,15 +58,20 @@ trusted.
 What this culture displaced was not disagreement. Disagreement was
 everywhere, loudly. What it displaced was interpretation as a shared
 task. Speech stopped aiming primarily at making a world jointly
-examinable. It aimed at making allegiance visible. Once that purpose
-takes hold, misunderstanding is the wrong diagnosis. To be misunderstood
-is still to inhabit a world in which another reading is thinkable—in
-which correction, evidence, and repair still count as moves inside the
-same game. Refusal is different. Refusal says the game has changed:
-your clarification will be heard as faction, your hesitation as
-infection, your insistence on shared facts as a refusal of belonging.
-The listener is no longer trying to locate what you meant. The listener
-is taking attendance.
+examinable. It aimed at making allegiance visible. Harsh rooms can
+still be interpretive rooms. Dogma, hostility, evasion, partisanship,
+and deep error do not by themselves end conversation; they stain it. The
+boundary is crossed when answers stop being weighed as claims about a
+shared world and begin to function only as evidence of loyalty,
+belonging, contamination, or guilt. Once that purpose takes hold,
+misunderstanding is the wrong diagnosis. To be misunderstood is still to
+inhabit a world in which another reading is thinkable—in which
+correction, evidence, and repair still count as moves inside the same
+game. Refusal is different. Refusal says the game has changed: your
+clarification will be heard as faction, your hesitation as infection,
+your insistence on shared facts as a refusal of belonging. The listener
+is no longer trying to locate what you meant. The listener is taking
+attendance.
 
 ---
 

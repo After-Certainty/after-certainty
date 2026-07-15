@@ -4,15 +4,10 @@ One person reads the instructions twice before assembling something.
 Another begins immediately. The second appears more decisive. The
 uncertainty of the first has not disappeared; it has simply remained
 visible. The room rewards the appearance of certainty before it can know
-whether anything was built correctly.
-
-In another room, someone explains a complicated problem carefully. They
-name tradeoffs. They admit uncertainty. They outline what is known, what
-is not, and what might go wrong. When the meeting ends, another person
-says, “I just wish they were more decisive.” No one can point to a
-mistake. No one disputes the facts. The discomfort comes from the
-refusal to simplify. Accuracy feels unsatisfying when reassurance is
-expected, and restraint is mistaken for hesitation.
+whether anything was built correctly. Accuracy that still looks
+unfinished—tradeoffs named, unknowns left open—often meets the same
+complaint in quieter form: a wish that someone would simply be more
+decisive.
 
 This ordinary hunger for certainty is the pressure that shaped how
 **Angela Merkel** was read for much of her political life.[^c3-media-english]
@@ -174,8 +169,8 @@ Effectiveness, meanwhile, consisted largely of *non-events*. Democratic
 institutions held. Catastrophic ruptures were avoided across repeated
 shocks. The eurozone did not dissolve into competitive currency wars on
 her watch. Germany’s federal structures did not buckle under the
-refugee logistics of 2015–2016, though municipalities strained. Public-
-health communication in early COVID did not collapse into pure
+refugee logistics of 2015–2016, though municipalities strained.
+Public-health communication in early COVID did not collapse into pure
 performance, though later phases of the pandemic tested fatigue and
 trust. Non-events do not compress well. Stability feels like inertia
 while it is happening. Absence of collapse does not announce itself as
@@ -256,20 +251,20 @@ may remember only delay. Either memory can misread the same table. What
 changes is not the instructions; it is what the room was trained to count
 as a decision.
 
-[^c3-media-english]: English-language profiles repeatedly contrasted Merkel’s understatement with more performative contemporaries—e.g. “The Merkel Method,” *The Economist*, 26 September 2015, and contemporaneous *New York Times* / *Financial Times* coverage emphasizing style over institutional outcomes; see also Kati Marton, *The Chancellor: The Remarkable Odyssey of Angela Merkel* (New York: Simon & Schuster, 2021).
+[^c3-media-english]: English-language profiles repeatedly contrasted Merkel’s understatement with more performative contemporaries. See, e.g., “The Merkel Method,” *The Economist*, 26 September 2015; and George Packer, “The Quiet German,” *The New Yorker*, 1 December 2014. Biographical framing: Kati Marton, *The Chancellor: The Remarkable Odyssey of Angela Merkel* (New York: Simon & Schuster, 2021).
 
 [^c3-marton]: Marton, *The Chancellor*, on East German formation, committee advance, and later public persona.
 
-[^c3-eurozone]: On conditionality, austerity politics, and contested narratives of necessity during the Eurozone crisis, see Mark Blyth, *Austerity: The History of a Dangerous Idea* (Oxford: Oxford University Press, 2013); *Der Spiegel* crisis reporting 2010–2012; and *Financial Times* coverage of the memoranda of understanding and “no alternative” framing.
+[^c3-eurozone]: On conditionality, austerity politics, and contested narratives of necessity during the Eurozone crisis, see Mark Blyth, *Austerity: The History of a Dangerous Idea* (Oxford: Oxford University Press, 2013); and Tony Barber, “Greece and the Politics of Austerity,” *Financial Times*, 2 May 2011.
 
 [^c3-refugees]: On the 2015 decision and the phrase *Wir schaffen das*, see Robin Alexander, *Die Getriebenen* (Munich: Siedler, 2017), and Marton, *The Chancellor*.
 
-[^c3-covid]: Angela Merkel, televised address to the nation, 18 March 2020, and subsequent public explanations of exponential growth in April 2020; contemporaneous reporting in *Der Spiegel*, BBC News, and *The Washington Post*.
+[^c3-covid]: Angela Merkel, televised address to the nation, 18 March 2020; and her subsequent public explanations of exponential growth, including remarks reported in Kate Connolly, “Angela Merkel Gives Germans a Hard Lesson in COVID Numbers,” *The Guardian*, 16 April 2020.
 
-[^c3-shorthand]: Late-tenure shorthand—“cautious,” “technocratic,” “uninspiring”—appears in “The Merkel Method,” *The Economist*, 26 September 2015, and in *Foreign Affairs* retrospectives after her departure.
+[^c3-shorthand]: Late-tenure shorthand—“cautious,” “technocratic,” “uninspiring”—appears in “The Merkel Method,” *The Economist*, 26 September 2015, and in Packer, “The Quiet German.”
 
 [^c3-eagly]: Alice H. Eagly and Linda L. Carli, *Through the Labyrinth: The Truth About How Women Become Leaders* (Boston: Harvard Business School Press, 2007).
 
-[^c3-polling]: Marton, *The Chancellor*; Pew Research Center, *Europeans Face the World Divided* (June 2016) and related Global Attitudes surveys of confidence in German leadership and Merkel, 2015–2017.
+[^c3-polling]: Marton, *The Chancellor*; Pew Research Center, *Europeans Face the World Divided* (13 June 2016), including items on confidence in German leadership and Merkel.
 
-[^c3-legacy]: For contested assessments of energy policy, Russia exposure, and strategic dependence, see *Foreign Affairs* debates after February 2022 and German public retrospectives on Nord Stream and industrial gas dependence.
+[^c3-legacy]: For contested reassessment of energy policy, Russia exposure, and Nord Stream after February 2022, see Kate Connolly, “Germany Agonises over Merkel’s Legacy: Did She Hand Too Much Power to Putin?,” *The Guardian*, 5 March 2022.

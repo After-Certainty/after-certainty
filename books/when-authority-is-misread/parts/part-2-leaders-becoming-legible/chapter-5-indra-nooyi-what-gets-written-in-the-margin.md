@@ -57,13 +57,12 @@ performance without abandoning performance. She named the framework
 around nutrition (reducing sugar, salt, and fat; expanding
 “better-for-you” and “good-for-you” offerings alongside the core),
 environmental sustainability (water, packaging, agriculture), and human
-capital—
-including how employees were treated, developed, and asked to carry the
-company’s load.[^c5-pwp] The point was not only a press-release
-sentiment. It was an attempt to move consequences out of the margin and
-into strategy—portfolio shifts, reformulation, packaging and water
-goals, acquisitions and divestitures narrated through health and
-sustainability, and a vocabulary of responsibility that made those
+capital—including how employees were treated, developed, and asked to
+carry the company’s load.[^c5-pwp] The point was not only a
+press-release sentiment. It was an attempt to move consequences out of
+the margin and into strategy—portfolio shifts, reformulation, packaging
+and water goals, acquisitions and divestitures narrated through health
+and sustainability, and a vocabulary of responsibility that made those
 moves speakable inside investor calls rather than only in corporate
 social-responsibility appendices.
 

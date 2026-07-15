@@ -24,6 +24,12 @@ Works cited by name in the notes, with selected primary sources.
 
 - Chernow, Ron. *Washington: A Life*. New York: Penguin Press, 2010.
 
+- Connolly, Kate. “Angela Merkel Gives Germans a Hard Lesson in COVID Numbers.” *The Guardian*, 16 April 2020.
+
+- Connolly, Kate. “Germany Agonises over Merkel’s Legacy: Did She Hand Too Much Power to Putin?” *The Guardian*, 5 March 2022.
+
+- de la Merced, Michael J. “PepsiCo Tells Activist Investor Its Answer Is Still No.” DealBook / *New York Times*, 27 February 2014.
+
 - Drake, Stillman. *Discoveries and Opinions of Galileo*. New York: Anchor Books, 1957.
 
 - Dunbar, Erica Armstrong. *Never Caught: The Washingtons’ Relentless Pursuit of Their Runaway Slave, Ona Judge*. New York: 37 Ink/Atria, 2017.
@@ -69,6 +75,8 @@ Works cited by name in the notes, with selected primary sources.
 - Navasky, Victor S. *Naming Names*. New York: Viking Press, 1980.
 
 - Nooyi, Indra. *My Life in Full: Work, Family, and Our Future*. New York: Portfolio/Penguin, 2021.
+
+- Packer, George. “The Quiet German.” *The New Yorker*, 1 December 2014.
 
 - Sampson, Anthony. *Mandela: The Authorized Biography*. New York: Alfred A. Knopf, 1999.
 
