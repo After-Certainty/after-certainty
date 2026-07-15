@@ -248,87 +248,74 @@ piece rather than a practice.
 Even the vocabulary of “precedent” can mislead. A precedent is a
 remembered choice elevated into expectation. Expectations erode
 when later actors discover that reverence costs less than
-obedience. Nineteenth- and twentieth-century politics repeatedly
-rediscovered how much of Washington’s example was transferable as
-quote and how little was transferable as discipline. The wrong
-lesson is not that restraint never happened. The wrong lesson is
-that restraint, once performed by one person, has been installed
-in the furniture forever.
-
-This is the genuine tension inside the case.
+obedience. The wrong lesson is not that restraint never happened.
+The wrong lesson is that restraint, once performed by one person,
+has been installed in the furniture forever.
 
 A founder can stabilize authority by refusing to consolidate it. A
 later public can destabilize judgment by remembering the refusal
-as destiny. Looking carefully keeps the temptation visible—not to
-romance danger, but to refuse the comfort that danger never
-existed. Looking carefully also refuses to detach presidential
-self-limitation from slavery, federal coercion, and the narrow
-republic that called itself the people. Celebration of peaceful
-transfer is not canceled by that refusal. Celebration becomes
-honest only when it stops pretending that one man’s exits redeemed
-an order built on other people’s captivity and exclusion.
+as destiny. Looking carefully keeps the temptation visible—and
+refuses to detach presidential self-limitation from slavery,
+federal coercion, and the narrow republic that called itself the
+people. Celebration of peaceful transfer is not canceled by that
+refusal. Celebration becomes honest only when it stops pretending
+that one man’s exits redeemed an order built on other people’s
+captivity and exclusion.
 
 At ordinary scale the pattern is recognizable without allegory. A
 board trusts a founder who repeatedly refuses a sweetheart deal;
 oversight thins; later successors inherit trust without inheriting
-refusal. A family treats one relative’s reliability as proof that
-no rules are needed; then another relative arrives. Non-events
-taught the group that checking was unnecessary. Checking was
-unnecessary only while the person who made checking feel insulting
-was still there to be trusted. Inheritance failure is not
-mysterious. It is what happens when virtue is stored as story
-instead of renewed as practice and structure.
+refusal. Non-events taught the group that checking was unnecessary.
+Checking was unnecessary only while the person who made checking
+feel insulting was still there. Inheritance failure is what happens
+when virtue is stored as story instead of renewed as practice and
+structure.
 
 One more compression completes the civic lullaby: the idea that
 because Washington left, American authority is somehow uniquely
-inoculated against authoritarian consolidation. Comparative
-history does not support hygienic exceptionalism. Other republics
-have produced founders who stepped down; other presidents have
-tested norms after him, including the two-term expectation broken
-and then later re-entrenched by amendment. Norms are real and
-fragile. Myths that treat them as destiny make them more fragile
-by discouraging the boring work of maintenance—statutory limits,
-legislative oversight, independent courts, professional civil
-service, and publics that refuse to confuse loyalty to a person
-with loyalty to an office.
+inoculated against authoritarian consolidation. Comparative history
+does not support hygienic exceptionalism. Norms are real and
+fragile. Myths that treat them as destiny make them more fragile by
+discouraging the boring work of maintenance—statutory limits,
+legislative oversight, independent courts, and publics that refuse
+to confuse loyalty to a person with loyalty to an office.
 
 *Successful restraint becomes dangerous when people remember the
 virtue and forget the temptation.*
 
-The misreading is interpretive before it is moral. Washington is
-misread when the empty chair is taken as proof that no one wanted
-to sit—or that sitting forever would have been unnatural for
-anyone properly formed. He is also misread when later abuses of
-executive power are answered only by nostalgia for his character
-rather than by redesign of incentives, terms, oversight, and
-lawful coercion. Character matters. It does not substitute for
-architecture. The moral questions remain afterward: who remained
-outside the constitutional bargain, whose labor funded the virtue
-celebrated at the summit, what habits of force the young state
-practiced while praising its own limits, which non-events later
-generations stopped recognizing as achievements that must be
-remade. Looking carefully does not cancel the importance of
-transfers of power. It keeps celebration from becoming alibi.
+Interpretation shapes the moral ledger before judgment begins, but
+it does not settle the judgment. Washington is misread when the
+empty chair is taken as proof that no one wanted to sit—or that
+sitting forever would have been unnatural for anyone properly
+formed. He is also misread when later abuses of executive power are
+answered only by nostalgia for his character rather than by redesign
+of incentives, terms, oversight, and lawful coercion. Character
+matters. It does not substitute for architecture. The moral
+questions remain afterward: who remained outside the constitutional
+bargain, whose labor funded the virtue celebrated at the summit,
+what habits of force the young state practiced while praising its
+own limits, which non-events later generations stopped recognizing
+as achievements that must be remade. Looking carefully does not
+cancel the importance of transfers of power. It keeps celebration
+from becoming alibi.
 
 ---
 
-Return to the empty chair.
+The chair is still empty.
 
 It does not prove that the room was free of desire for permanence.
 It proves that someone chose to rise. Everyone notices in the
 moment; later they forget how easy remaining would have been.
 Civic mythology prefers the forgetting because forgetting feels
-like safety. Safety of that kind is expensive. It trains a people
-to hunt for Washingtons instead of building constraints that do
-not depend on finding them, and to treat non-events as nature
-rather than as decisions that must be remade under new
-temptations. It also trains them to praise the empty chair while
-ignoring who was never invited to sit, stand, or speak at the
-table. The chair stays empty only while someone keeps standing
-up—or while the table itself is redesigned so that no single seat
-can again hold what one person once chose to leave. Redesign is
-less flattering than reverence. It is the only way the empty chair
-remains a warning rather than a lullaby.
+like safety. Safety of that kind trains a people to hunt for
+Washingtons instead of building constraints that do not depend on
+finding them—and to praise the empty chair while ignoring who was
+never invited to sit, stand, or speak at the table. The chair stays
+empty only while someone keeps standing up—or while the table itself
+is redesigned so that no single seat can again hold what one person
+once chose to leave. Redesign is less flattering than reverence. It
+is the only way the empty chair remains a warning rather than a
+lullaby.
 
 [^c9-chernow]: Ron Chernow, *Washington: A Life* (New York:
 Penguin Press, 2010); Joseph J. Ellis, *His Excellency: George

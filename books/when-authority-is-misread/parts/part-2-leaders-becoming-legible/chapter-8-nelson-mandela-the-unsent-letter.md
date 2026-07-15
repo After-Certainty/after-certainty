@@ -270,8 +270,6 @@ itself fill. Preventing corpses is not the same as producing
 equality. Both matter. Confusing them produces bad history and
 worse politics.
 
-This is the genuine tension inside the case.
-
 A leader facing moral fracture can reopen interpretation by
 declining to close it with revenge. People living inside
 unrepaired structures still need repair that interpretation alone
@@ -291,40 +289,37 @@ redistributes land.
 *Restraint creates moral space, but it does not decide what must
 later be done inside that space.*
 
-The misreading is interpretive before it is moral. Mandela is
-misread when restraint is treated as closure—when the unsent
-letter is mistaken for a letter that never needed to be written,
-or for a letter whose truth expired because it was not mailed. He
-is also misread when later inequality is taken as proof that the
-restraint was fraudulent all along. Fraud and incompleteness are
-different charges. One cancels the opening. The other demands that
-the opening be used. The moral questions remain afterward: who
-received amnesty without adequate reparation, what land and
-capital arrangements the settlement protected, whose daily life
-still resembles apartheid’s distribution even after apartheid’s
-law fell, which institutions learned to govern without the
-founder’s face. Looking carefully does not cancel those questions.
-It keeps them from being answered by either hagiography or
-retrospective contempt.
+Interpretation shapes the moral ledger before judgment begins, but
+it does not settle the judgment. Mandela is misread when restraint
+is treated as closure—when the unsent letter is mistaken for a
+letter that never needed to be written, or for a letter whose truth
+expired because it was not mailed. He is also misread when later
+inequality is taken as proof that the restraint was fraudulent all
+along. Fraud and incompleteness are different charges. One cancels
+the opening. The other demands that the opening be used. The moral
+questions remain afterward: who received amnesty without adequate
+reparation, what land and capital arrangements the settlement
+protected, whose daily life still resembles apartheid’s
+distribution even after apartheid’s law fell, which institutions
+learned to govern without the founder’s face. Looking carefully
+does not cancel those questions. It keeps them from being answered
+by either hagiography or retrospective contempt.
 
 ---
 
-Return to the letter left overnight.
+The letter is still on the table in the morning.
 
-In the morning it is still true. The anger has not become false by
-waiting. What waiting preserved was not innocence—it was the
-possibility of a reply that sending would have made harder to
-hear. Mandela’s public restraint did not erase what apartheid had
-done. It refused to spend the entire moral claim of suffering on a
-single act of closure. The letter remains on the table of South
-African history: still accurate as indictment, still unfinished as
-correspondence. Admirers sometimes talk as if the virtue were the
-waiting itself. Waiting was only the condition. The duty that
+It is still true. The anger has not become false by waiting. What
+waiting preserved was not innocence—it was the possibility of a
+reply that sending would have made harder to hear. Mandela’s
+public restraint did not erase what apartheid had done. It refused
+to spend the entire moral claim of suffering on a single act of
+closure. The letter remains accurate as indictment, unfinished as
+correspondence. Waiting was only the condition. The duty that
 follows belongs to whoever inherits the space that waiting made:
 courts that still can prosecute, legislatures that still can
 redistribute, communities that still can refuse both amnesia and
-endless private war, publics that can tell the difference between
-beginning and completion. The question is no longer whether he was
+endless private war. The question is no longer whether he was
 justified in writing the letter. The question is whether a country
 that learned to admire the unsent page will finally answer what
 remains owed because the page was not burned for spectacle.

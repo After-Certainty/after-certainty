@@ -267,14 +267,12 @@ not to pay while interest compounds in bodies and blocked futures.
 A system can acknowledge a truth while postponing every consequence
 that would make the acknowledgment matter.
 
-That is the pattern. The open door and the closed practice are the same
-structure viewed from two sides. Language widens enough to absorb the
-claim. Timetables contract enough to neutralize it. Later, when the
-fighter is safely dead or the fight safely distant, legitimacy attaches
-to the name and is mistaken for early understanding. Delay is rebranded
-as a tragic misunderstanding rather than as a design feature of
-comfortable power. Confrontation-compression that forced the issue in
-life becomes, in death, a selective scrapbook of hope.
+The open door and the closed practice are the same structure viewed from
+two sides. Language widens enough to absorb the claim. Timetables
+contract enough to neutralize it. Later, when the fighter is safely dead
+or the fight safely distant, legitimacy attaches to the name and is
+mistaken for early understanding. Delay is rebranded as tragic
+misunderstanding rather than as a design feature of comfortable power.
 
 King was not misread because his message was unclear. He was misread
 because clarity imposed responsibility others were unwilling to bear—
@@ -283,22 +281,18 @@ to refuse that responsibility without appearing to refuse it.
 
 ---
 
-Return to the door.
+The door is still open in language.
 
-It is still open. The person in the frame still says “Not now.” They
-may even say the words now taught in schools: justice, dignity,
-equality. The hallway still fills with light that does not reach the
-rooms where schedules, budgets, ballots, and enforcement live.
-Acknowledgment walks freely. Consequence waits for permission that is
-never quite due—and rarely notices that the wait was the refusal.
+The person in the frame still says “Not now.” They may even say the
+words now taught in schools: justice, dignity, equality. Light fills
+the hallway and still does not reach the rooms where schedules,
+budgets, ballots, and enforcement live. Acknowledgment walks freely.
+Consequence waits for permission that is never quite due.
 
-The door marked “not yet” does not always slam. Often it stays ajar—
-proof that nothing is being denied—while every practical passage remains
-blocked. Truth does not wait for permission. Legitimacy often does. The
-error is mistaking that delay for misunderstanding, and mistaking later
-sainthood for early recognition of what the living man demanded while
-the door was still only language—open enough to quote, closed enough
-to refuse.
+Often the door stays ajar—proof that nothing is being denied—while
+every practical passage remains blocked. The error is mistaking that
+delay for misunderstanding, and mistaking later sainthood for early
+recognition of what the living man demanded.
 
 [^c4-gallup]: Gallup polling in the mid-1960s showed majority unfavorable views of King prior to his assassination; by 1966 roughly two-thirds of Americans disapproved. See Gallup historical summaries and discussion in David J. Garrow, *Bearing the Cross: Martin Luther King, Jr., and the Southern Christian Leadership Conference* (New York: William Morrow, 1986).
 

@@ -182,96 +182,72 @@ Someone presents careful observation. The reasoning holds. Listeners
 understand privately that the claim is strong. Then the conversation
 turns—not to refutation, but to consequence. Even if this is right,
 what will it do to our arrangements? Who loses interpretive custody if
-we concede? The issue is no longer accuracy. It is admissibility. The
-room shifts from judging an answer to deciding whether this way of
-arriving at answers may remain in public use.
+we concede? The issue is no longer accuracy. It is admissibility.
 
 Galileo’s telescopic program made that shift historical and hard to
-miss. Mathematical astronomy had long been a specialist craft.
-Scriptural interpretation had long been a guarded office. The telescope
-joined them in a single collision by making celestial structure newly
-available to eyes that were not clergy and newly insistent in forms that
-diagram and measurement could carry across courts and print shops. A
-mediocre drawing of Jupiter’s moons could still be checked. A phase
-sequence for Venus could be argued with geometry rather than pedigree.
-Once seeing became portable, authority over meaning could no longer rely
-only on controlling which books were read. It had to decide which
-openings onto the world would be recognized as openings at all.
+miss. The telescope made celestial structure available to eyes that were
+not clergy and insistent in forms that diagram and measurement could
+carry across courts and print. Once seeing became portable, authority
+over meaning could no longer rely only on controlling which books were
+read. It had to decide which openings onto the world would be recognized
+as openings at all.
 
 This is why the case resists sentimental compression. If the Church had
 simply failed to understand, the remedy would have been explanation. If
 Galileo had simply been a peaceful pedagogue crushed by fanatics, the
 remedy would have been courage alone. Neither description fits. The
 instruments changed the distribution of epistemic power. Galileo pressed
-that change with skill and with provocation—sometimes with patronage
-theater, sometimes with satirical force that made opponents look
-foolish in front of an audience. Officials answered with procedure
-designed to keep interpretive hierarchy intact: censorship, injunction,
-trial, abjuration, confinement. Recantation was the price of bodily
-survival under that procedure. It was not a confession that the
-observations had become invisible to the people who required the words.
+that change with skill and with provocation. Officials answered with
+procedure designed to keep interpretive hierarchy intact: censorship,
+injunction, trial, abjuration, confinement. Recantation was the price of
+bodily survival under that procedure—not a confession that the
+observations had become invisible.
 
-The delay that followed—years of confinement, longer decades of cautious
-reception, centuries before institutional rehabilitation rhetoric caught
-up—does not prove that truth is powerless. It proves that legitimacy and
-permission are not the same currency. Effectiveness arrived later, as
-methods of observation and prediction reorganized natural philosophy
-beyond any single tribunal’s reach. Instruments multiplied. Predictive
-success accumulated. Cosmology migrated into domains where ecclesiastical
-courts no longer held the only keys. But effectiveness deferred is still
-a kind of institutional verdict about when understanding is allowed to
-reorganize shared life. Galileo “won” in the long run only after the
-system that could punish him lost monopoly over the relevant field of
-knowledge claims.
+The delay that followed does not prove that truth is powerless. It
+proves that legitimacy and permission are not the same currency.
+Effectiveness arrived later, as methods of observation and prediction
+reorganized natural philosophy beyond any single tribunal’s reach.
+Galileo “won” in the long run only after the system that could punish
+him lost monopoly over the relevant field of knowledge claims.
 
 Under coercive constraint, clarity does not always persuade. Sometimes
-it clarifies the threat. Galileo’s refusal to compress his findings into
-a soft metaphor that left old hierarchies untouched increased the cost
-of accommodation. Uncompressed evidence asks for reorganization rather
-than polite coexistence. Institutions that survive by controlling the
-terms of reorganization will often treat that request as aggression even
-when the evidence is careful. Personality intensifies the same dynamic.
-A careful discovery delivered as humiliation travels differently than
-the same discovery delivered as shared problem. Galileo often chose the
-first register. That does not justify injunction. It does explain why
-some contemporaries who granted the force of the observations still
-refused to grant him the role of public teacher.
+it clarifies the threat. Uncompressed evidence asks for reorganization
+rather than polite coexistence. Institutions that survive by controlling
+the terms of reorganization will often treat that request as aggression
+even when the evidence is careful. A careful discovery delivered as
+humiliation travels differently than the same discovery delivered as
+shared problem. Galileo often chose the first register. That does not
+justify injunction. It does explain why some contemporaries who granted
+the force of the observations still refused to grant him the role of
+public teacher.
 
-None of this makes repression wise. It makes the mechanism legible.
-Mistaking epistemic correctness for institutional welcome is an
-interpretive error with costs measured in silenced careers, delayed
-method, and—under harder regimes than Galileo’s—worse. The people who
-understood Galileo and still moved to contain him were not always
-confused about moons and phases. They were clear about custody. They
-could see the threat precisely because they could see the evidence.
+None of this makes repression wise. It makes the mechanism legible. The
+people who understood Galileo and still moved to contain him were not
+always confused about moons and phases. They were clear about custody.
 
 ---
 
 *Authority becomes most visible when it claims the power not merely to
 judge an answer, but to decide which forms of seeing are admissible.*
 
-That is the pattern compressed. The window and the telescope are the
-same structure at different scales. One person looks out and reports
-content. Another notices that the frame itself is the quiet exercise of
-power—what counts as a view, who may describe it, and which descriptions
-may travel without apology.
+The window and the telescope are the same structure at different scales.
+One person looks out and reports content. Another notices that the frame
+itself is the quiet exercise of power—what counts as a view, who may
+describe it, and which descriptions may travel without apology.
 
 Galileo’s life makes the pattern costly and specific. Telescopic
 observation, published insistence, vernacular dialectic, and a temper
-unwilling to flinch produced a claim that could be followed by literate
-readers. The Roman response treated the claim as unauthorized seeing
-rather than as unresolved debate. House arrest did not erase the moons
-of Jupiter. It declared that certain conclusions, however supported by
-instrumental sight, were not yet permitted to reorganize public meaning.
+unwilling to flinch produced a claim that literate readers could follow.
+The Roman response treated the claim as unauthorized seeing rather than
+as unresolved debate. House arrest did not erase the moons of Jupiter.
+It declared that certain conclusions, however supported by instrumental
+sight, were not yet permitted to reorganize public meaning.
 
-Understanding is not enough. It must also be allowed to matter. When it
-is not, the honest description is not that people failed to see. It is
-that seeing was withdrawn from the set of acts institutions would
-recognize.
+Understanding is not enough. It must also be allowed to matter.
 
 ---
 
-Return to the two people at the window.
+The two people are still at the window.
 
 The street outside is unchanged. The roofs are still there. What has
 changed is whether the room will admit that the window is part of the
@@ -279,23 +255,15 @@ event of seeing. The telescope intensifies that admission. It does not
 ask permission of the sky. It asks institutions whether instrumented
 vision may revise what they have already named as order.
 
-Sometimes the answer is negotiation. Sometimes it is citation of prior
-warning. Sometimes it is abjuration spoken under threat. In every
-version, the decisive move is the same: authority asserting custody not
-only over conclusions, but over the openings through which conclusions
-are allowed to arrive.
-
-Galileo’s case leaves that custody exposed. He was not misunderstood
-because his evidence was fog. He was constrained because recognition of
-that evidence threatened the right to decide what counts as knowledge.
-The later myth of pure light against pure darkness obscures the harder
-lesson. The permission to see is itself a form of power. Withdraw it, and
-understanding can continue privately while public life is ordered as if
-the window had never been noticed as a frame.
-
-The instrument remains. The question remains with it: not only what is
-outside, but who may say, without being told to recant, that the frame
-was never neutral.
+Sometimes the answer is negotiation. Sometimes it is abjuration spoken
+under threat. In every version the decisive move is the same: authority
+asserting custody not only over conclusions, but over the openings
+through which conclusions are allowed to arrive. Galileo was not
+misunderstood because his evidence was fog. He was constrained because
+recognition of that evidence threatened the right to decide what counts
+as knowledge. The permission to see is itself a form of power. Withdraw
+it, and understanding can continue privately while public life is ordered
+as if the frame had never been noticed.
 
 [^c6-heilbron]: John L. Heilbron, *Galileo* (Oxford: Oxford University Press, 2010), on Galileo’s career, patronage, and the institutional setting of early telescopic astronomy.
 

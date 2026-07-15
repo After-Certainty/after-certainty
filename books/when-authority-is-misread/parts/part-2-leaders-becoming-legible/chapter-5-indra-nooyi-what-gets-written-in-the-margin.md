@@ -86,21 +86,35 @@ under those conditions, was less a halo than a set of contested
 tradeoffs conducted under the standing threat that any softness in the
 story would be read as softness in the stock.
 
-Shareholder pressure made the conflict concrete. In the early 2010s,
-activist investor Nelson Peltz and Trian Fund Management pressed PepsiCo
-toward sharper focus and, at points, toward separating the beverage and
-snacks businesses—arguments framed as unlocking value that a
-purpose-broadened, multi-category strategy had allegedly muddied.[^c5-peltz]
-The activist script was familiar: simplify the story, concentrate the
-portfolio, let each piece be valued against a cleaner peer set. Nooyi’s
-leadership team resisted a breakup and defended the integrated company
-and the longer horizon. The contest was not only about a stock price in
-a given month. It was about whether the firm’s definition of success
-would remain narrow enough for activism’s usual tools, or expand enough
-to treat nutrition and sustainability as operational constraints rather
-than ornamental language.
+Shareholder pressure made the conflict concrete—and briefly inhabitable
+as a single room rather than a metaphor.
 
-The fight also relocated public scrutiny in ways that suited the
+In the early 2010s, activist investor Nelson Peltz and Trian Fund
+Management pressed PepsiCo toward sharper focus and, at points, toward
+separating the beverage and snacks businesses—arguments framed as
+unlocking value that a purpose-broadened, multi-category strategy had
+allegedly muddied.[^c5-peltz] By February 2014 the pressure had a
+document on the table: Trian’s thirty-seven-page letter urging the board
+to create “two leaner and more entrepreneurial companies” by spinning
+snacks free of drinks. PepsiCo’s board answered within days in the
+register activism expects—presiding director Ian Cook writing that the
+board and management were “comfortable and in complete alignment” in
+rejecting the proposal, dismissing the split as financial engineering
+that would erode rather than create value. Nooyi’s public line stayed
+operational rather than inspirational: decoupling beverage and snack
+businesses in North America would weaken relevance to retail customers.
+The activist script asked for a cleaner peer set and a simpler story.
+The company answered with negotiating power, integration, and the longer
+horizon. For roughly two years the argument lived as meetings, white
+papers, analyst calls, and the standing threat of a proxy fight—until a
+2015 truce brought a Trian-affiliated independent director onto the
+board and left the firm intact.
+
+The contest was not only about a stock price in a given month. It was
+about whether the firm’s definition of success would remain narrow
+enough for activism’s usual tools, or expand enough to treat nutrition
+and sustainability as operational constraints rather than ornamental
+language. And the fight relocated scrutiny in ways that suited the
 ledger’s defense. Debate concentrated on Nooyi’s strategic stubbornness,
 her communication style, and whether “purpose” was cover for
 underperformance. Less oxygen remained for the harder question the
@@ -250,31 +264,29 @@ what it warehouses.
 The leader who adds a missing consequence to the ledger is often judged
 by the numbers the ledger was designed to protect.
 
-That is the pattern. Care is easy to praise in the abstract. It is
-harder to legitimize when legitimacy is still issued in the old units.
-The misreading is not that Nooyi’s goals were unclear. It is that
-clarity about care challenged what leadership was expected to optimize—
-and that challenge was recoded as a defect in the challenger, while the
-margin continued to warehouse what the company preferred not to call
-by the name of performance.
+Care is easy to praise in the abstract. It is harder to legitimize when
+legitimacy is still issued in the old units. The misreading is not that
+Nooyi’s goals were unclear. It is that clarity about care challenged
+what leadership was expected to optimize—and that challenge was recoded
+as a defect in the challenger, while the margin continued to warehouse
+what the company preferred not to call performance.
 
 ---
 
-Return to the spreadsheet.
+The spreadsheet is still open.
 
 Revenue, cost, and growth still occupy the main columns. Exhaustion,
 public health, and environmental damage still live in the margin unless
 someone forces a fight to move them. The margin is not empty. It is a
 warehouse for consequences the system declined to recognize as
-performance—harm deferred, cost externalized, human load treated as
-someone else’s column. When a leader tries to rewrite a margin note
-into the primary grid, the room often scrutinizes her character harder
-than it scrutinizes the grid.
+performance. When a leader tries to rewrite a margin note into the
+primary grid, the room often scrutinizes her character harder than it
+scrutinizes the grid.
 
 The cells will update either way. What changes is whether the damage
 stored beside them is treated as idealism imported by an insufficiently
-tough executive—or as part of what the enterprise already was, and
-still is, whenever those clean columns post their wins.
+tough executive—or as part of what the enterprise already was whenever
+those clean columns post their wins.
 
 [^c5-profiles]: Profiles in *Fortune*, *The New York Times*, and *Harvard Business Review* during and after Nooyi’s tenure frequently paired praise for vision and values with skepticism about shareholder returns and toughness.
 
@@ -286,10 +298,10 @@ still is, whenever those clean columns post their wins.
 
 [^c5-pwp]: “Performance with Purpose” is documented throughout Nooyi’s speeches, PepsiCo annual reports from her tenure, and *My Life in Full*.
 
-[^c5-peltz]: On Nelson Peltz / Trian Fund Management’s campaign regarding PepsiCo strategy and a potential snacks/beverages separation, see contemporary coverage in the *Wall Street Journal*, *Financial Times*, and *New York Times* (2013–2014).
+[^c5-peltz]: On Nelson Peltz / Trian Fund Management’s campaign regarding PepsiCo strategy and a potential snacks/beverages separation, including Trian’s February 2014 letter and PepsiCo’s board response rejecting a split, see contemporary coverage in the *Wall Street Journal*, *Financial Times*, and *New York Times* (2013–2015); the January 2015 truce adding a Trian-affiliated independent director is reported in DealBook.
 
 [^c5-returns]: Assessments of PepsiCo’s financial performance under Nooyi vary by window and comparator; see company filings and contemporaneous analyses in the business press that alternately emphasize revenue growth and diversification or periods of relative total-shareholder-return lag versus peers such as Coca-Cola.
 
-[^c5-eagly]: Alice H. Eagly and Linda L. Carli, *Through the Labyrinth: The Truth About How Women Become Leaders* (Boston: Harvard Business School Press, 2007). Use for the general finding of narrower behavioral bands and double binds for women leaders; do not treat PepsiCo-specific outcomes as proven by that literature alone.
+[^c5-eagly]: Alice H. Eagly and Linda L. Carli, *Through the Labyrinth: The Truth About How Women Become Leaders* (Boston: Harvard Business School Press, 2007).
 
 [^c5-after]: Post-tenure reassessments remain divided between stakeholder-capitalism prototype narratives and critiques of purpose as distraction; see later profiles and business-school case discussions citing Performance with Purpose as contested precedent.

@@ -221,50 +221,43 @@ policy’s contested welcome, energy dependence’s delayed reckoning.
 Correcting the misreading does not complete the moral ledger. Completing
 the moral ledger does not require accepting the misreading.
 
-This is the genuine tension inside the case.
-
 A leader owes people honesty about uncertainty. People also need
 uncertainty reduced enough to act. Completeness and usability pull
-against each other. Merkel’s wager preferred completeness. Audiences
-trained to equate leadership with the feeling of settled ground often
-interpreted the remaining uncertainty as failure—regardless of whether
-the careful explanation had prevented error.
+against each other. Merkel’s wager preferred managed uncertainty—
+incremental movement, deliberate ambiguity where premature clarity
+would have forced a worse bargain, process held open while partners
+could still bear it. She was often strategic rather than epistemically
+complete. Audiences trained to equate leadership with the feeling of
+settled ground often interpreted the remaining uncertainty as
+failure—regardless of whether the careful explanation had prevented
+error.
 
-When leadership refuses to simplify uncertainty, audiences often
-interpret the remaining uncertainty as a failure of leadership.
+Interpretation shapes how the complaint arrives, but it does not settle
+the costs. The moral questions remain afterward: who bore austerity,
+whose welcome became a political weapon, what forms of strategic
+dependence were left unresolved. Looking carefully keeps those questions
+from collapsing into the charge that she was not decisive enough.
 
-The misreading is interpretive before it is moral. The moral questions
-remain afterward: who bore austerity, whose welcome became a political
-weapon, what forms of strategic dependence were left unresolved. Looking
-carefully does not cancel those questions. It keeps them from being
-collapsed into the complaint that she was not decisive enough.
-
-The temptation, in retrospect, is to choose a settled verdict: caution
-vindicated, or caution damned. Either verdict returns to the meeting
-room that opened this chapter—the wish that someone would simply be more
-decisive—as if decisiveness were the category that could settle both
-signal and consequence. It cannot. Decisiveness answers the hunger for
-reassurance. It does not by itself answer who paid, what was deferred, or
-what kinds of error prevention remain invisible because they never
-became events.
+The temptation, in retrospect, is a settled verdict: caution vindicated,
+or caution damned. Either verdict answers the hunger for reassurance. It
+does not by itself answer who paid, what was deferred, or what kinds of
+error prevention remain invisible because they never became events.
 
 ---
 
-Return to the person reading the instructions twice.
+Someone is still reading the instructions twice.
 
-While they read, someone else has already begun. That person looks like
-leadership—motion before verification. The careful person may prevent an
-error. Prevention leaves little dramatic evidence behind. When the group
-later argues about who led, they will often remember who moved first, not
-who kept the room from assembling the wrong thing.
+While they read, someone else has already begun—motion before
+verification, the look of leadership. The careful person may prevent an
+error. Prevention leaves little dramatic evidence. When the group later
+argues about who led, they will often remember who moved first, not who
+kept the room from assembling the wrong thing.
 
-If the careful assembly holds, the room may even forget that caution was
-a choice. If it fails for reasons precision could not prevent, the room
-may remember only that someone delayed. Either memory can misread the
-same table.
-
-The instructions on the table do not change. What changes is what the
-room was trained to count as a decision.
+If the careful assembly holds, the room may forget that caution was a
+choice. If it fails for reasons precision could not prevent, the room may
+remember only delay. Either memory can misread the same table. What
+changes is not the instructions; it is what the room was trained to count
+as a decision.
 
 [^c3-media-english]: Merkel’s understated public persona was frequently contrasted with more performative contemporaries in English-language coverage that emphasized leadership style over institutional outcomes. See, for example, profiles collected in Kati Marton, *The Chancellor: The Remarkable Odyssey of Angela Merkel* (New York: Simon & Schuster, 2021).
 
@@ -280,6 +273,6 @@ room was trained to count as a decision.
 
 [^c3-eagly]: Alice H. Eagly and Linda L. Carli, *Through the Labyrinth: The Truth About How Women Become Leaders* (Boston: Harvard Business School Press, 2007).
 
-[^c3-polling]: Longitudinal images of Merkel’s trust versus enthusiasm are discussed in Marton, *The Chancellor*, and in Pew Research Center surveys of European leadership confidence during her later terms; cite specific survey waves rather than an undifferentiated “throughout.”
+[^c3-polling]: Longitudinal images of Merkel’s trust versus enthusiasm are discussed in Marton, *The Chancellor*, and in Pew Research Center surveys of European leadership confidence during her later terms, including *Europe’s Leadership Assessment* reports for 2015–2017 and the Center’s global attitudes surveys on German leadership.
 
-[^c3-legacy]: For contested assessments of energy policy, Russia exposure, and strategic dependence, see analyses in *Foreign Affairs* and German debate summarized in retrospectives after 2022; the point here is the existence of serious disagreement, not a settled verdict.
+[^c3-legacy]: For contested assessments of energy policy, Russia exposure, and strategic dependence, see analyses in *Foreign Affairs* and German debate summarized in retrospectives after 2022.

@@ -232,31 +232,28 @@ says, softly, that dwelling on it helps no one now that life is better.
 *When improvement is large enough, gratitude can become a constraint on
 moral memory.*
 
-That is the pattern late, after the history has earned it. The machine
-works. People who remember hunger experience critique of the repair as a
-kind of betrayal. Officials who defended lethal order experience moral
-accounting as a threat to the narrative that keeps the repair legitimate.
-Observers abroad who want clean villains and clean heroes find neither
-diagram comfortable. Families that rose with the boom may feel loyalty
-to the sequence that fed them even when they also keep quiet knowledge
-of what June 1989 cost strangers—or acquaintances—in the capital. The
-constraint is real even when the gratitude is earned. Earned gratitude
-can still ration what a society is allowed to keep saying out loud.
+The machine works. People who remember hunger experience critique of the
+repair as a kind of betrayal. Officials who defended lethal order
+experience moral accounting as a threat to the narrative that keeps the
+repair legitimate. Families that rose with the boom may feel loyalty to
+the sequence that fed them even when they also keep quiet knowledge of
+what June 1989 cost. The constraint is real even when the gratitude is
+earned. Earned gratitude can still ration what a society is allowed to
+keep saying out loud.
 
 Deng did not invent this structure. He governed inside it with unusual
 consequence. Rural incentives, coastal zones, market pricing, Party
 discipline, and the crushing of the 1989 protests belong to one
 political life. Selecting only the growth curve produces a technocratic
 saint. Selecting only the crackdown produces a villain without a country
-attached. The misreading, when it occurs, is often this forced selection:
-either Deng as the reason China got rich, or Deng as the reason the
-Square was cleared, as if those were two different men in two different
-centuries. The more precise reading refuses the selection without
-pretending the tensions resolve into a neat ratio of good to bad. There
-is no exchange rate that converts deaths into GDP points without
-committing a category error. There is also no honest history that treats
-rural revival and export industrialization as morally weightless scenery
-behind a single night of tanks.
+attached. The misreading, when it occurs, is often this forced
+selection—as if those were two different men in two different centuries.
+The more precise reading refuses the selection without pretending the
+tensions resolve into a neat ratio. There is no exchange rate that
+converts deaths into GDP points without committing a category error.
+There is also no honest history that treats rural revival and export
+industrialization as morally weightless scenery behind a single night of
+tanks.
 
 Under high constraint, public reinterpretation remains limited even when
 private knowledge is widespread. Repair in the moral sense—open
@@ -265,32 +262,25 @@ orders, naming of responsibility without euphemism—was not the reform
 Deng prioritized. Economic experimentation was encouraged; political
 reinterpretation of authority was not. After 1989, that asymmetry
 hardened. Outcome-based legitimacy faced little domestic competition in
-official channels once order was restored and growth resumed. The
-machine’s hum became the permitted soundtrack. Questions about the
-bypassed safeguard could be heard as nostalgia for chaos even by people
-who privately doubted that chaos was the only alternative.
+official channels once order was restored and growth resumed.
 
-International readers face a parallel temptation. One temptation is to
-treat GDP as absolution. Another is to treat every material gain as
-morally weightless because the political form remains authoritarian. The
-first flattens victims of repression into acceptable cost. The second
-flattens lives changed by food, schools, medicine, and exit from extreme
-poverty into a footnote for theory. A serious account keeps both weights
-on the table and accepts the discomfort of an uncancelled remainder. It
-notices that prioritization compression works internationally too:
-development narratives that need China as success story, or rights
-narratives that need China as warning, each prune the inconvenient page.
+International readers face a parallel temptation. One is to treat GDP as
+absolution. Another is to treat every material gain as morally weightless
+because the political form remains authoritarian. The first flattens
+victims of repression into acceptable cost. The second flattens lives
+changed by food, schools, medicine, and exit from extreme poverty into a
+footnote for theory. A serious account keeps both weights on the table
+and accepts the discomfort of an uncancelled remainder.
 
 The chapter’s refusal is deliberate. It will not award Deng a clean
 victory by prosperity, and it will not erase prosperity in order to keep
-a clean indictment. The machine started working under rules that left a
-safeguard missing. Both statements remain true at once.
+a clean indictment.
 
 ---
 
-Return to the machine.
+The machine is still running.
 
-It works. The safeguard is still absent. Years of brokenness are no longer the
+The safeguard is still absent. Years of brokenness are no longer the
 immediate weather of daily life. Someone asks what was bypassed to gain
 motion—what rights were suspended, what speech was closed, what bodies
 were broken in the name of keeping reform from disorder—and the room
@@ -301,23 +291,11 @@ Neither fact cancels the other. Functioning output does not prove the
 safeguard was worthless. The missing safeguard does not prove the output
 was illusory. Deng’s leadership becomes legible at exactly this
 unresolved hinge: authority anchored by results decisive enough to
-redefine the baseline of judgment, while political memory of force remains
-active, denied, or deferred depending on who is allowed to speak. The
-reader who wants a verdict that ends the tension will leave
-disappointed. The chapter’s work is to keep the tension visible without
-letting either pole devour the frame.
-
-The opening image asked how a question about safety starts to sound like
-a wish for failure. The historical case answers by showing the conditions
-under which that confusion becomes rational for people who were hungry,
-and dangerous for people who needed the missing safeguard most. Looking
-twice does not choose a side by arithmetic. It refuses to let gratitude,
-however large, finish the work of moral description before the
-description is done.
-
-The machine works.
-The safeguard is absent.
-Neither cancels the other.
+redefine the baseline of judgment, while political memory of force
+remains active, denied, or deferred depending on who is allowed to speak.
+Looking twice does not choose a side by arithmetic. It refuses to let
+gratitude, however large, finish the work of moral description before
+the description is done.
 
 [^c7-vogel]: Ezra F. Vogel, *Deng Xiaoping and the Transformation of China* (Cambridge, MA: Harvard University Press, 2011), the major English-language biography for Deng’s career, reforms, and governing style.
 
@@ -327,7 +305,7 @@ Neither cancels the other.
 
 [^c7-sez]: Vogel, *Deng Xiaoping*, on Special Economic Zones and coastal opening as controlled experimentation.
 
-[^c7-growth]: On growth and poverty-reduction magnitudes in the reform era, see Vogel, *Deng Xiaoping*, and World Bank analyses of China’s poverty decline from the 1980s onward; treat precise headcount figures as measure-dependent while the directional scale is widely attested.
+[^c7-growth]: On growth and poverty-reduction magnitudes in the reform era, see Vogel, *Deng Xiaoping*, and World Bank analyses of China’s poverty decline from the 1980s onward. Headcount figures vary by measure; the directional scale is widely attested.
 
 [^c7-aphorism]: Deng’s pragmatic maxims—including the cat metaphor and “seek truth from facts”—are discussed throughout Vogel, *Deng Xiaoping*; they signaled performance over rhetorical orthodoxy without dissolving Party supremacy.
 
