@@ -1,0 +1,14 @@
+slug: united-states-congress
+name: United States Congress
+type: organization
+summary: U.S. legislature behind statutes such as ESSA and WARN that encode accountability
+  and disclosure rules.
+concepts: []
+patterns: []
+relatedBooks:
+- when-incentives-become-the-moral-language
+works:
+- every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112
+- worker-adjustment-and-retraining-notification-act-29-u-s-c-2101-2109
+whyThisMatters: Congressional statutes are incentive architecture with the force of
+  law.

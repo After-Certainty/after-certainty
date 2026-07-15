@@ -5,8 +5,10 @@ summary: U.S. federal agency publishing hospital quality, readmissions, and heal
   policy data.
 concepts: []
 patterns: []
-relatedBooks: []
+relatedBooks:
+- when-incentives-become-the-moral-language
 works:
 - centers-for-medicare-medicaid-services-hospital-readmissions
+- centers-for-medicare-medicaid-services-ms-drg-classifications-and-software
 whyThisMatters: CMS data anchors how healthcare institutions measure harm, readmission,
   and accountability at scale.

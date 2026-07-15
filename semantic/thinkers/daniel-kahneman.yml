@@ -3,15 +3,22 @@ name: Daniel Kahneman
 type: person
 summary: Psychologist of judgment and decision-making—biases, heuristics, and noise
   in expert choice.
-concepts: []
+concepts:
+- thinking
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+- learning-to-see
 - the-discipline-of-uncertainty
+- the-economy-we-dont-experience
 - trust-beyond-similarity
+- what-we-cannot-see
 - when-authority-outlives-accountability
 - when-moral-seriousness-scales
 works:
+- kahneman-daniel-and-amos-tversky-prospect-theory-an-analysis-of-decision-under-risk
+- kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree
 - kahneman-daniel-thinking-fast-and-slow
+- tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability
 whyThisMatters: Kahneman is a core reference for how meaning and confidence diverge
   from statistical reality.

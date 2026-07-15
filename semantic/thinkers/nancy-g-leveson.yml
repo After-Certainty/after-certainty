@@ -13,7 +13,9 @@ concepts:
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
+- what-we-cannot-see
 works:
+- leveson-nancy-g-and-clark-s-turner-an-investigation-of-the-therac-25-accidents
 - leveson-nancy-g-engineering-a-safer-world-systems-thinking-applied
 whyThisMatters: Leveson is core for serious systems—why component reliability does
   not guarantee institutional safety.

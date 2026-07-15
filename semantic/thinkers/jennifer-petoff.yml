@@ -1,8 +1,8 @@
 slug: jennifer-petoff
 name: Jennifer Petoff
 type: person
-summary: Editors of Google's Site Reliability Engineering corpus—operational practice
-  for reliability at scale.
+summary: Google SRE editor of the Site Reliability Engineering corpus on production
+  ownership and sustainable operations.
 concepts: []
 patterns: []
 relatedBooks:
@@ -10,5 +10,5 @@ relatedBooks:
 - how-serious-systems-learn
 works:
 - beyer-betsy-chris-jones-jennifer-petoff-and-niall-richard-murphy-eds-site-reliability-engineerin
-whyThisMatters: SRE writing anchors how serious systems formalize error budgets, blameless
-  postmortems, and accountable operations.
+whyThisMatters: Petoff helps formalize how teams bind reliability work to clear ownership
+  rather than heroics.

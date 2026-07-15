@@ -6,6 +6,7 @@ summary: Surgeon-writer on checklists, systems improvement, and reducing harm th
 concepts: []
 patterns: []
 relatedBooks:
+- coupling
 - how-serious-systems-learn
 works:
 - gawande-atul-the-checklist-manifesto-how-to-get-things-right

@@ -24,7 +24,8 @@ questions:
 counterbalances:
 - hold one question open through the full utterance before responding
 - name the working story as provisional aloud
-- delay action until at least one detail has been allowed to complicate the first read
+- delay action until at least one detail has been allowed to complicate the first
+  read
 trajectory:
   earlySignals:
   - partial language arrives in a live social setting
@@ -49,8 +50,6 @@ manifestations:
   - meetings move to action before shared understanding stabilizes
   - assumptions about intent travel faster than the agenda item
 relatedSources:
-- easterbrook-j-a-the-effect-of-emotion-on-cue-utilization
-- gigerenzer-gerd-gut-feelings-the-intelligence-of-the-unconscious
 - kruglanski-arie-w-the-need-for-cognitive-closure
 - march-james-g-and-herbert-a-simon-organizations
 - ross-lee-and-andrew-ward-naive-realism-in-everyday-life

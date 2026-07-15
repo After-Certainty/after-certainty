@@ -71,19 +71,40 @@ def format_first_last_author(last: str, first_parts: list[str]) -> str:
 
 
 def parse_bibliographic_author_list(name: str) -> list[str]:
-    """Parse a bibliographic author list into First Last display names."""
+    """Parse a bibliographic author list into First Last display names.
+
+    Supports:
+    - bibliographic ``Last, First, and First Last``
+    - display-order ``First Last, First Last, and First Last``
+    - display-order pair ``First Last and First Last``
+    """
     clean = strip_thinker_role_suffix(name)
     if _ET_AL_RE.search(clean):
         clean = _ET_AL_RE.sub("", clean).strip().rstrip(",").strip()
+    if not clean:
+        return []
+
+    # Display-order pair: "First Last and First Last" (no comma-and).
+    if ", and " not in clean and clean.count(" and ") == 1:
+        left, right = [p.strip() for p in clean.split(" and ", 1)]
+        if len(left.split()) >= 2 and len(right.split()) >= 2:
+            return [left, right]
+
     if ", and " in clean:
         head, tail = clean.rsplit(", and ", 1)
-        tail_authors = [tail.strip()]
+        tail_authors = [tail.strip()] if tail.strip() else []
     else:
         head = clean
         tail_authors = []
     parts = [p.strip() for p in head.split(",") if p.strip()]
     if len(parts) < 2:
         return [clean] if clean else []
+
+    # Already display-order segments ("Betsy Beyer", "Chris Jones", ...).
+    candidate = parts + tail_authors
+    if all(len(p.split()) >= 2 for p in candidate):
+        return candidate
+
     first_parts = [parts[1]]
     idx = 2
     while idx < len(parts) and is_generational_suffix(parts[idx]):
@@ -108,6 +129,11 @@ def is_multi_person_thinker_name(name: str) -> bool:
         return True
     if clean.count(" and ") >= 2:
         return True
+    # Display-order pair: "First Last and First Last"
+    if clean.count(" and ") == 1 and ", and " not in clean:
+        left, right = [p.strip() for p in clean.split(" and ", 1)]
+        if len(left.split()) >= 2 and len(right.split()) >= 2:
+            return True
     head = clean.split(", and ", 1)[0]
     parts = [p.strip() for p in head.split(",") if p.strip()]
     while len(parts) > 2 and is_generational_suffix(parts[-1]):
