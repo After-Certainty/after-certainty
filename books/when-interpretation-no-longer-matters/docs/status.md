@@ -41,12 +41,12 @@ Sun Myung Moon; Hugo Chávez (echo only); Adolf Hitler (contrast only); Appendix
 ## Drafting sequence
 
 1. Ch 2 Jones (core distinction) — **rewritten** (`chapter-2-everyone-already-knows.md`)
-2. Ch 3 Trump → Ch 5 Stalin → Ch 6 Koresh → Ch 8 Mao
-3. Ch 1 Smith → Ch 4 Perón → Ch 7 Holmes/Neumann
+2. Ch 3 Trump → Ch 5 Stalin → Ch 6 Koresh → Ch 8 Mao — **rewritten**
+3. Ch 1 Smith → Ch 4 Perón → Ch 7 Holmes/Neumann — Ch 1 and Ch 7 **rewritten**
 4. Ch 9 Khmer Rouge
 5. Introduction + Conclusion
 6. Glossary / bibliography / index / echo pass
 
 ## Next actions
 
-Ch 1 (Smith / door) and Ch 2 (Jones / everyone already knows) rewritten essayistically. Remaining: complete other chapter rewrites; slim glossary; rebuild bibliography; author gate on Trump tone, Smith boundary, Ch 9 ethics, mechanism uniqueness.
+Ch 1–3, Ch 5–8 rewritten essayistically. Remaining: Ch 4 Perón; Ch 9 Khmer Rouge; introduction + conclusion; slim glossary; rebuild bibliography; author gate on Trump tone, Smith boundary, Ch 9 ethics, mechanism uniqueness.
