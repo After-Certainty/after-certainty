@@ -8,6 +8,10 @@
 
 - Branch, Taylor. *Parting the Waters: America in the King Years 1954–63*. New York: Simon & Schuster, 1988.
 
+- Ceplair, Larry, and Steven Englund. *The Inquisition in Hollywood:
+  Politics in the Film Community, 1930–1960*. Garden City, NY: Anchor
+  Press/Doubleday, 1980.
+
 - Chernow, Ron. *Washington: A Life*. New York: Penguin Press, 2010.
 
 - Dunbar, Erica Armstrong. *Never Caught: The Washingtons’ Relentless
@@ -48,10 +52,15 @@
 - Marton, Kati. *The Chancellor: The Remarkable Odyssey of Angela Merkel*.
   New York: Simon & Schuster, 2021.
 
+- Navasky, Victor S. *Naming Names*. New York: Viking Press, 1980.
+
 - Nooyi, Indra. *My Life in Full: Work, Family, and Our Future*. New York: Portfolio/Penguin, 2021.
 
 - Sampson, Anthony. *Mandela: The Authorized Biography*. New York:
   Alfred A. Knopf, 1999.
+
+- Schrecker, Ellen. *Many Are the Crimes: McCarthyism in America*. Boston:
+  Little, Brown, 1998.
 
 - Slaughter, Thomas P. *The Whiskey Rebellion: Frontier Epilogue to the
   American Revolution*. New York: Oxford University Press, 1986.

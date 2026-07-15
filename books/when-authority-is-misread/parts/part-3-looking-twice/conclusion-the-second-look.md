@@ -29,47 +29,44 @@ treat outcomes as verdicts and endurance as proof. The second look does
 not cancel the first. It refuses to let the first harden into the only
 available past.
 
-Across the cases, the aftertaste of that refusal is not a method and not
-a ranking. It is a set of recognitions that arrive late, once the
-portable story has already done its work.
+What looking twice makes visible, across the cases, returns less as a
+list of leaders than as a set of movements in how appearance travels.
+One movement concerns what signals make visible and what they conceal.
+Merkel’s accuracy was labor under unfinished uncertainty; audiences
+hungry for reassurance often read the absence of a finished emotional
+package as emptiness rather than as work. Nooyi’s battles over the
+margin were battles over the ledger itself—over which harms stay
+off-column long enough to look like distractions from toughness.
+Galileo’s telescopes relocated custody of seeing: once instruments
+changed what could be demonstrated in public, the contest was never only
+about stars, but about who may decide which openings count as legitimate.
+In each case the portable story preferred a simpler character reading—
+cold, soft, heretical—over the slower account of what the signal system
+was designed to show and hide.
 
-Gratitude can silence accounting. When improvement is large enough, as
-in the shadow of Deng’s repair of ordinary life after catastrophe, earned
-relief becomes a muzzle on moral memory. People are not foolish for
-feeling fed. Looking twice does not demand that they feel less grateful.
-It refuses the conversion of gratitude into a ban on questions about
-cost, violence, and what improvement is allowed to cover.
+A second movement concerns outcomes that settle a room without morally
+resolving it. Deng’s machine restored ordinary life enough that gratitude
+became a muzzle on accounting: people were not foolish for feeling fed,
+yet improvement could still cover violence, silence, and costs the boom
+trained people not to ask about. Mandela’s surplus opened moral space
+others could enter; it did not convert that opening into justice finished.
+Treating surplus as settlement is how admiration becomes a substitute
+for continuation—and how unfinished repair is rebranded as ingratitude
+toward a saint. Effectiveness and moral authority can each quiet a room.
+Neither, alone, answers what remains unpaid once quiet arrives.
 
-Restraint can be mistaken for nature. Washington’s exits and refusals
-were choices under pressure, not a fixed essence portable into any age.
-Myth prefers temperament to sequence. Once restraint is remembered as
-what a certain kind of person simply *is*, institutions stop doing the
-work that made restraint survivable in the first place.
-
-Surplus can be mistaken for closure. Mandela’s moral authority opened
-room others could enter. It did not finish the unpaid work the opening
-made visible. Treating surplus as settlement is how admiration becomes a
-substitute for continuation—and how unfinished justice is rebranded as
-ingratitude toward a saint.
-
-Accuracy can be unread as absence. Merkel’s precision refused the comfort
-of finished uncertainty. Audiences hungry for reassurance often experienced
-that refusal as emptiness rather than as labor. The complaint that
-something was missing can be real as feeling and still wrong as diagnosis
-of what leadership owed.
-
-An open door can be closed in practice. King’s confrontations met language
-that widened enough to absorb the claim while timetables contracted enough
-to neutralize it. Acknowledgment without consequence is not
-misunderstanding. It is delay dressed as wisdom.
-
-These aftertastes are not a checklist of lessons to apply. They are what
-remains when looking twice has done its slower work: not a corrected
-pantheon, but a clearer sense of how appearance travels, and at whose
-expense the travel feels smooth. Gratitude, restraint, surplus, accuracy,
-and acknowledgment can each be genuine and still incomplete as readings.
-The second look keeps that incompleteness from being mistaken for
-betrayal of the first look’s insight.
+A third movement concerns later memory, which converts sequence into
+character and character into myth. Washington’s empty chair looks, in
+retrospect, like temperament—disinterested virtue portable into any age—
+rather than as repeated choice under institutional danger, incomplete in
+its reckonings and dependent on others treating refusal as precedent.
+King’s open door closed in practice when acknowledgment widened enough
+to absorb the claim while timetables contracted enough to neutralize it;
+sanitization prefers the speech that soothes over the confrontation that
+forced speech to happen. Myth prefers essence to conditions. Once
+restraint or prophetic courage is remembered as what a certain kind of
+person simply *is*, institutions stop doing the work that made the
+appearance survivable—or stop noticing the delay dressed as wisdom.
 
 ---
 
@@ -77,7 +74,8 @@ Seen this way, disagreement about leaders becomes easier to locate.
 People are often arguing across dimensions without realizing it—one
 responding to effectiveness, another to moral posture, another to
 legitimacy persistence. Each believes they are making a complete
-judgment. None are wrong. They are incomplete.
+judgment. Each may be responding to something real. Each becomes
+unreliable when it treats one dimension as the whole judgment.
 
 Looking twice also reframes responsibility. It shifts attention away
 from individual virtue alone and toward interpretive habit. The problem
@@ -92,8 +90,6 @@ coordination into certainty—especially in the corridor, where memory
 hardens fastest and costs the least to interrupt.
 
 ---
-
-Return to the room.
 
 The chairs are unchanged. The table holds the same papers. No new facts
 have entered from outside. What has changed is only that the group
