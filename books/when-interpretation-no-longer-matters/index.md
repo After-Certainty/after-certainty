@@ -11,7 +11,7 @@
 - [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Preface](front-matter/preface.md)
-- [Introduction — The Question This Book Asks](front-matter/introduction-the-question-this-book-asks.md)
+- [Introduction — The Question That Changes Nothing](front-matter/introduction-the-question-this-book-asks.md)
 - [How to Read This Book](front-matter/how-to-read-this-book.md)
 
 ## Part I — Where Interpretation Ends
@@ -47,7 +47,7 @@
 
 - [Appendix A — A Structural Map of the Cases](back-matter/appendix-a-structural-map-of-cases.md)
 - [Glossary](back-matter/glossary.md)
-- [Conclusion — After Interpretation](back-matter/conclusion-after-interpretation.md)
+- [Conclusion — The Meeting After the Meeting](back-matter/conclusion-after-interpretation.md)
 - [Bibliography](back-matter/bibliography.md)
 
 ## Related books

@@ -44,9 +44,9 @@ Sun Myung Moon; Hugo Chávez (echo only); Adolf Hitler (contrast only); Appendix
 2. Ch 3 Trump → Ch 5 Stalin → Ch 6 Koresh → Ch 8 Mao — **rewritten**
 3. Ch 1 Smith → Ch 4 Perón → Ch 7 Holmes/Neumann — **rewritten** (Ch 4: `chapter-4-the-name-that-survives-every-platform.md`)
 4. Ch 9 Khmer Rouge
-5. Introduction + Conclusion
+5. Introduction + Conclusion — **rewritten** (`introduction-the-question-this-book-asks.md`, `conclusion-after-interpretation.md`)
 6. Glossary / bibliography / index / echo pass
 
 ## Next actions
 
-Ch 1–8 rewritten essayistically. Remaining: Ch 9 Khmer Rouge; introduction + conclusion; slim glossary; rebuild bibliography; author gate on Trump tone, Smith boundary, Ch 9 ethics, mechanism uniqueness.
+Ch 1–8 rewritten essayistically; introduction and conclusion rewritten. Remaining: Ch 9 Khmer Rouge; slim glossary; rebuild bibliography; author gate on Trump tone, Smith boundary, Ch 9 ethics, mechanism uniqueness.
