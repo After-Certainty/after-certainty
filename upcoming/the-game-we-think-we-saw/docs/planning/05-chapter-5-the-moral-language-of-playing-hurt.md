@@ -1,8 +1,9 @@
 # Brief: Chapter 5 — The Moral Language of Playing Hurt
 
-**Drafting status:** not started  
+**Drafting status:** draft (citation + reflow complete)  
 **Research risk:** Moderate  
-**Manuscript stub:** [`../../parts/part-3-cost-refusal-memory/chapter-5-the-moral-language-of-playing-hurt.md`](../../parts/part-3-cost-refusal-memory/chapter-5-the-moral-language-of-playing-hurt.md)
+**Manuscript:** [`../../parts/part-3-cost-refusal-memory/chapter-5-the-moral-language-of-playing-hurt.md`](../../parts/part-3-cost-refusal-memory/chapter-5-the-moral-language-of-playing-hurt.md)  
+**Source packet:** [`../research/source-packets/05-chapter-5.md`](../research/source-packets/05-chapter-5.md)
 
 ## Chapter title
 

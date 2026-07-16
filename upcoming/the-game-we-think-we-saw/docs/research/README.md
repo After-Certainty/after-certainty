@@ -26,3 +26,4 @@ When research deepens, add per-unit packets here (for example `source-packets/04
 - [`source-packets/02-chapter-2.md`](source-packets/02-chapter-2.md) — Chapter 2 (Brady–Belichick / 2008 / Super Bowl LV)
 - [`source-packets/03-chapter-3.md`](source-packets/03-chapter-3.md) — Chapter 3 (Dez Bryant, catch rule, VAR, MLB ABS)
 - [`source-packets/04-chapter-4.md`](source-packets/04-chapter-4.md) — Chapter 4 high-risk dossier (Knight chronology; Armstrong contrast)
+- [`source-packets/05-chapter-5.md`](source-packets/05-chapter-5.md) — Chapter 5 (concussion protocols, Pitch Smart, NBA PPP / load-management study)
