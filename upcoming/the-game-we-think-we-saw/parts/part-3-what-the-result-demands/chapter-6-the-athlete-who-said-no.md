@@ -54,7 +54,7 @@ The burden should not always fall on the person at risk to prove that an invisib
 
 The team’s claim cannot simply be dismissed.
 
-Biles had not arrived in Tokyo as an individual visitor. She was part of a four-person team whose scores would be combined. Her routines affected Sunisa Lee, Jordan Chiles, and Grace McCallum. When she withdrew, the remaining gymnasts had to alter their assignments under Olympic pressure and perform routines they had not necessarily expected to contribute in that configuration. They did so and won silver.[^c6-teammates]
+Biles had not arrived in Tokyo as an individual visitor. She was part of a four-person team whose scores would be combined. Her routines affected Sunisa Lee, Jordan Chiles, and Grace McCallum. When she withdrew, the remaining gymnasts had to alter their assignments under Olympic pressure and perform routines they had not necessarily expected to contribute in that configuration. They did so and won silver.
 
 The team knew things Biles did not know alone: how her absence would change the order, who would perform next, the commitments everyone had made, and that withdrawal would transfer pressure rather than eliminate it. These were not imaginary costs invented to override her.
 
@@ -68,13 +68,13 @@ Collective dependence gives a team a legitimate interest in the athlete’s deci
 
 Expectation becomes most powerful when it has already been earned.
 
-Biles entered Tokyo as the reigning Olympic all-around champion and the central figure in a heavily favored American team. She had spent years performing skills other gymnasts did not attempt and had arrived carrying the public expectation that she would again dominate.[^c6-expectations]
+Biles entered Tokyo as the reigning Olympic all-around champion and the central figure in a heavily favored American team. She had spent years performing skills other gymnasts did not attempt and had arrived carrying the public expectation that she would again dominate.
 
 This history made her withdrawal harder to interpret. A less accomplished gymnast might have been described as overwhelmed; Biles had already proven she could perform under Olympic pressure. A less technically capable gymnast might have been told the routine exceeded her ability; Biles had built a career by exceeding the sport’s established boundaries.
 
 The normal explanations did not fit, so the withdrawal entered a moral argument: protection or abandonment, self-knowledge or failure to meet the moment, mental well-being versus toughness. These questions gathered around the wrong assumption—that the withdrawal expressed how much Biles wanted the result.
 
-The twisties were not simply reluctance intensified by pressure. They involved a disruption in the athlete’s ability to locate the body during complex airborne movement. Continuing would not have demonstrated that she cared more. It would have demonstrated that she was willing to place greater trust in a system she no longer trusted.[^c6-twisties]
+The twisties were not simply reluctance intensified by pressure. They involved a disruption in the athlete’s ability to locate the body during complex airborne movement. Continuing would not have demonstrated that she cared more. It would have demonstrated that she was willing to place greater trust in a system she no longer trusted.
 
 Wanting the moment cannot make the movement available. The stadium can make the stakes larger. It cannot make the body more certain.
 
@@ -144,7 +144,7 @@ When an athlete says no, the surrounding institution must do more than decide wh
 
 This continuation can feel like a judgment—the replacement succeeds and refusal looks like dispensability; the team struggles and absence becomes the easiest explanation. But continuation is not betrayal. A team can respect a boundary and still protect itself from dependency: prepare replacements, reconsider concentrated capacity, acknowledge cost without converting it into accusation.
 
-In Tokyo, Lee, Chiles, and McCallum competed after Biles withdrew and won silver. Their achievement should not be reduced to evidence that Biles was unnecessary, nor used merely as proof that her decision was correct. It belonged to the gymnasts who performed under altered conditions.[^c6-teammates]
+In Tokyo, Lee, Chiles, and McCallum competed after Biles withdrew and won silver. Their achievement should not be reduced to evidence that Biles was unnecessary, nor used merely as proof that her decision was correct. It belonged to the gymnasts who performed under altered conditions.
 
 A refusal creates space others may have to fill. What they do in that space is also theirs.
 
@@ -206,11 +206,7 @@ Only the athlete can feel the condition of the body entering it.
 
 [^c6-twisties]: International Olympic Committee, “Simone Biles Opens Up about the Twisties: ‘My Mind and Body Are Simply Not in Sync,’” Olympics.com, July 30, 2021, https://www.olympics.com/en/news/simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-simply-not-in-sync; International Olympic Committee, “Gymnastics: What Are the Twisties?,” Olympics.com, July 27, 2021, https://www.olympics.com/en/news/what-are-the-twisties.
 
-[^c6-teammates]: Graves, “Biles Withdraws from Gymnastics Final to Protect Team, Self”; International Olympic Committee, “Simone Biles Speaks about Pulling Out of Team Event.”
-
-[^c6-expectations]: Graves, “Biles Withdraws from Gymnastics Final to Protect Team, Self”; International Olympic Committee, “Simone Biles Speaks about Pulling Out of Team Event.”
-
-[^c6-usag-frame]: Graves, “Biles Withdraws from Gymnastics Final to Protect Team, Self”; International Olympic Committee, “Simone Biles Speaks about Pulling Out of Team Event”; International Olympic Committee, “Simone Biles Opens Up about the Twisties.”
+[^c6-usag-frame]: Graves, “Biles Withdraws from Gymnastics Final to Protect Team, Self”; International Olympic Committee, “Simone Biles Speaks about Pulling Out of Team Event.” Biles framed the withdrawal as protecting her safety and the team’s medal chances; USA Gymnastics cited a medical issue and supported prioritizing her well-being, with daily assessment for later clearance.
 
 [^c6-osaka-fo]: Grand Slam tournaments, “Statement from Grand Slam Tournaments Regarding Naomi Osaka,” Roland-Garros, May 31, 2021, https://www.rolandgarros.com/en-us/article/statement-from-grand-slam-tournaments-regarding-naomi-osaka.
 

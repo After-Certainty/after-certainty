@@ -240,10 +240,10 @@ The game remains larger.
 
 Often the larger game still gathers around one face.
 
-[^c1-russell-career]: Career record: thirteen seasons with Boston; eleven NBA championships; five MVP awards; 21,620 rebounds (22.5 per game). See Basketball-Reference, “Bill Russell,” https://www.basketball-reference.com/players/r/russebi01.html; NBA.com, “Legends profile: Bill Russell,” https://www.nba.com/history/legends/profiles/bill-russell.
+[^c1-russell-career]: Basketball-Reference, “Bill Russell,” https://www.basketball-reference.com/players/r/russebi01.html; NBA.com, “Legends Profile: Bill Russell,” https://www.nba.com/history/legends/profiles/bill-russell. Career: thirteen seasons with Boston; eleven NBA championships; five MVP awards; 21,620 rebounds (22.5 per game).
 
-[^c1-blocks-official]: The NBA began recording blocked shots as an official statistic in 1973–74; Russell’s final season as a player was 1968–69. NBA.com, “Legends profile: Bill Russell,” https://www.nba.com/history/legends/profiles/bill-russell.
+[^c1-blocks-official]: NBA.com, “Legends Profile: Bill Russell.” The NBA began recording blocked shots as an official statistic in 1973–74; Russell’s final season as a player was 1968–69.
 
-[^c1-lewis-moneyball]: Michael Lewis, *Moneyball: The Art of Winning an Unfair Game* (New York: W. W. Norton, 2003). Lewis recounts Oakland’s use of undervalued contributions—especially on-base skills relative to traditional batting-average attention—under payroll constraint. For an early econometric test of the pricing claim, see Jahn K. Hakes and Raymond D. Sauer, “An Economic Evaluation of the *Moneyball* Hypothesis,” *Journal of Economic Perspectives* 20, no. 3 (2006): 173–185.
+[^c1-lewis-moneyball]: Michael Lewis, *Moneyball: The Art of Winning an Unfair Game* (New York: W. W. Norton, 2003); Jahn K. Hakes and Raymond D. Sauer, “An Economic Evaluation of the *Moneyball* Hypothesis,” *Journal of Economic Perspectives* 20, no. 3 (2006): 173–185.
 
-[^c1-sabermetrics-spread]: On the diffusion of sabermetric hiring and the changing market price of previously undervalued skills after *Moneyball*’s publicity, see Dave Studeman, “The triumph of Moneyball,” *The Hardball Times* / FanGraphs, January 23, 2014, https://tht.fangraphs.com/the-triumph-of-moneyball/.
+[^c1-sabermetrics-spread]: Dave Studeman, “The Triumph of Moneyball,” *The Hardball Times* / FanGraphs, January 23, 2014, https://tht.fangraphs.com/the-triumph-of-moneyball/.
