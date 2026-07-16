@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 4 in progress — Manuscript-wide copy/echo pass**
+**Phase 4 agent finish complete — author gates open**
 
-Phase 3 part-coherence gate complete. Manuscript-wide copy/echo pass applied (local echo, grammar, instructional meta, Phase 3 seams). Protected compression lines preserved. Next: author DOCX read-through + length-band decision, then Phase 5 promote.
+Manuscript-wide copy/echo pass, citation integrity, linkage check, and copyright finalization are done. Length-band **recommendation** is practice/mid (~26.5k). Remaining before Phase 5: author DOCX read-through and length-band confirmation.
 
 ## Active branch
 
@@ -25,37 +25,35 @@ Phase 3 part-coherence gate complete. Manuscript-wide copy/echo pass applied (lo
 - [`citation-style.md`](citation-style.md)
 - [`planning/final-revision-plan.md`](planning/final-revision-plan.md)
 - [`planning/phase-3-part-coherence.md`](planning/phase-3-part-coherence.md)
+- [`planning/phase-4-finish.md`](planning/phase-4-finish.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
 
 ## Open decisions
 
 | Decision | Options | Status |
 |----------|---------|--------|
-| Target length | Essay / practice / full-book band | Open (~26.4k body excl. footnotes) |
-| Part titles | Four-part labels (Shows / Counts / Demands / Becomes) | Closed |
-| Cover / OG assets | book-cover.png + open-graph.png landed | Closed (whistle thumbnail may read as officiating-only) |
-| Chapter 3 external draft | Landed | Closed |
+| Target length | Essay / practice / full-book | **Recommended: practice/mid** (~26.5k); author confirm |
+| Part titles | Four-part labels | Closed |
+| Cover / OG assets | Landed | Closed (whistle thumbnail risk noted) |
 | Part coherence (Phase 3) | Gate passed | Closed |
+| Phase 4 agent gates | Copy/echo, citations, linkage, copyright | Closed |
+| Author DOCX read-through | Sign-off | Open |
+| Phase 5 promote | Move to `books/` | Blocked on author gates |
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Title page / copyright | draft | Copyright still partly placeholder |
-| About the Series | draft | House series copy; back matter |
-| Author’s Note | draft | Dropped near-duplicate “sports gives us outcomes” close |
-| Introduction | revised | Controlled cut; no chapter previews |
-| Part bridges I–IV | coherence | Part IV absence→gesture hinge added |
-| Ch 1–7 | Phase 4 copy | Echo/grammar/meta trims; protected lines intact |
-| Conclusion | draft | Preserved; do not expand |
+| Title page / copyright | ready | CC BY-SA 4.0 house form |
+| About the Series | ready | Back matter; house series copy |
+| Author’s Note | ready | Phase 4 echo trim |
+| Introduction | ready | Controlled revision |
+| Part bridges I–IV | ready | Coherence hinges in place |
+| Ch 1–7 | ready | Revision + Phase 3/4 polish |
+| Conclusion | ready | Preserved; do not expand |
 
-## Next actions (Phase 4 finish → Phase 5)
+## Next actions (author → Phase 5)
 
-1. Author read-through of DOCX
-2. Resolve target-length band (essay / practice / full-book)
-3. Finalize copyright / front-matter placeholders
-4. Phase 5: promote to `books/the-game-we-think-we-saw/` with `book.yml` exports
-
-## Phase 4 copy/echo (2026-07-16)
-
-Surgical manuscript pass complete: local echo cuts, grammar fix, instructional-meta softening, Phase 3 seam smooth, stacked ordinary staccato merges. No architecture, title, governing-claim, conclusion expansion, or protected-line changes.
+1. Author read-through of DOCX (`make export-docx DIR=upcoming/the-game-we-think-we-saw`)
+2. Confirm length band (recommend practice/mid)
+3. Phase 5: promote to `books/the-game-we-think-we-saw/` with `book.yml` exports; update series guide / reader map

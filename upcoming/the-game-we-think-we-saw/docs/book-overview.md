@@ -8,9 +8,9 @@
 | Subtitle | What Sports Reveals About Winning, Judgment, and the Stories Results Cannot Settle |
 | Author | Kevin Steffensen |
 | Series | After Certainty |
-| Status | Upcoming / in development |
+| Status | Upcoming / Phase 4 finish (author gates open) |
 | Spec status | `upcoming.status: in_progress` |
-| Current phase | Phase 1 — outline to prose (spine drafted) |
+| Current phase | Phase 4 agent finish complete; author DOCX + length confirm before Phase 5 |
 | Spec | [`upcoming.yml`](../upcoming.yml) |
 
 ## Short premise
@@ -42,4 +42,4 @@ Introduction and conclusion frame the arc; they are not nested in parts.
 
 ## Setup note
 
-Manuscript spine (intro, Ch 1–7, conclusion, author’s note, part bridges) is drafted on the draft branch. See [`status.md`](status.md).
+Manuscript spine complete through Phase 3 coherence and Phase 4 agent finish. See [`status.md`](status.md) and [`planning/phase-4-finish.md`](planning/phase-4-finish.md).

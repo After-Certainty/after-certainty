@@ -101,4 +101,4 @@ When the manuscript is ready for the publishing pipeline:
 
 ## Current starting phase
 
-See `docs/status.md` — **Phase 4 in progress** (copy/echo pass done; author read-through and length-band decision before Phase 5 promote).
+See `docs/status.md` — **Phase 4 agent finish complete; author gates open** (DOCX read-through and length-band confirmation before Phase 5 promote).
