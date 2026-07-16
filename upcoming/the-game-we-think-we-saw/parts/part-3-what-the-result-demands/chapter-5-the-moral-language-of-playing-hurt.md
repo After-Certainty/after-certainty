@@ -82,13 +82,7 @@ They may also benefit from hearing yes.
 
 This does not automatically invalidate the decision. We routinely make meaningful choices in the presence of incentives. Athletes can understand the risks and decide that the moment is worth them.
 
-The problem appears when the surrounding culture treats willingness as evidence of fitness.
-
-Wanting to play is not the same as being safe to play.
-
-Accepting a risk is not the same as understanding it.
-
-And an answer given under the pressure of identity is not always as voluntary as it sounds.
+The problem appears when the surrounding culture treats willingness as evidence of fitness. Wanting to play is not the same as being safe to play, and accepting a risk is not the same as understanding it. An answer given under the pressure of identity is not always as voluntary as it sounds.
 
 ### The Injury That Depends on Being Reported
 
@@ -272,7 +266,7 @@ The tool does not decide whose future matters.
 
 ### The Athlete Who Wants the Risk
 
-It would be easy to tell this chapter as though institutions always pressure athletes toward participation while athletes naturally prefer safety.
+It would be easy to tell the story as though institutions always pressure athletes toward participation while athletes naturally prefer safety.
 
 That is not how sport works.
 
@@ -369,11 +363,7 @@ Outcome gives pain its public meaning.
 
 This resembles the moral halo of winning, but it moves in the opposite direction. Winning once excused the method after success. Here, the possibility of winning recruits sacrifice before the result is known.
 
-The athlete is asked to behave according to the story everyone hopes to tell later.
-
-That story may come true.
-
-But a choice cannot be judged only by the ending available to memory.
+The athlete is asked to behave according to the story everyone hopes to tell later. That story may come true. But a choice cannot be judged only by the ending available to memory.
 
 Courage does not become wisdom because the shot went in.
 

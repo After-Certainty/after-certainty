@@ -32,7 +32,7 @@ Every sport distributes knowledge unevenly. A coach may understand the strategy 
 
 But some knowledge remains inside the performance. The gymnast knows whether the air still feels organized. The pitcher knows whether the ball has begun leaving the hand differently. The quarterback knows whether the injured shoulder can make the throw the play requires. The tennis player knows what happens internally before walking into a room that others experience as routine.
 
-This knowledge is not automatically accurate. Athletes misread their bodies—minimizing injury, mistaking fear for danger, or mistaking danger for ordinary fear. They can want to compete badly enough that warning signs become easy to explain away. The training table remains close: the athlete saying, “I’m good,” while everyone nearby has an interest in believing it.
+This knowledge is not automatically accurate. Athletes misread their bodies—minimizing injury, mistaking fear for danger, or mistaking danger for ordinary fear. They can want to compete badly enough that warning signs become easy to explain away, as when an athlete says, “I’m good,” while everyone nearby has an interest in believing it.
 
 Situated knowledge is not infallibility. But neither is it merely another opinion. The person performing the movement occupies a position no observer can fully reproduce. A camera may show where the body went. It cannot feel the absence of orientation before the body arrived there. A coach may know what the routine requires. The coach does not enter the air on the athlete’s behalf.
 
@@ -150,9 +150,7 @@ A refusal creates space others may have to fill. What they do in that space is a
 
 ### Presumptive Authority
 
-The athlete’s judgment should not be treated as final merely because it concerns the athlete. But it should begin with a presumption resting on two asymmetries: knowledge others cannot fully access, and consequences others cannot fully share.
-
-This is not enough to settle every dispute. Athletes can be wrong—a concussed player may be the wrong person to determine readiness; a gymnast may underestimate a danger others can see; a tennis player may frame an ordinary obligation as uniquely harmful. Presumptive authority does not eliminate counterevidence. It determines how uncertainty is handled: when evidence remains incomplete, who receives the benefit of the doubt?
+Presumptive authority does not settle every dispute. Athletes can still be wrong—a concussed player may be the wrong person to determine readiness; a gymnast may underestimate a danger others can see. Counterevidence remains available. The question is how uncertainty is handled: when evidence remains incomplete, who receives the benefit of the doubt?
 
 The institution usually possesses procedural advantage—selection, access, contracts, medical systems, public statements, and the language through which participation is judged. Without an intentional presumption toward the person carrying the risk, uncertainty resolves toward what the institution needs, and the athlete must prove not only that the condition exists but that it is serious enough to defeat the surrounding demand. The more important the event becomes, the harder that proof becomes to supply. A small injury may justify rest in October but not in the championship game. The body has not necessarily changed. The institution’s willingness to hear it has.
 
@@ -176,9 +174,7 @@ The comeback changed how some people remembered Tokyo. Withdrawal could become p
 
 But this creates another danger. A boundary should not need a triumphant sequel to become legitimate. Had Biles never returned, she would still have been the person best positioned to report that she had lost reliable orientation in the air. Had Luck regretted retirement, the years of injury and rehabilitation would not become imaginary. Had Osaka never won another major title, the cost she described would not become less real.
 
-We are drawn to vindication because it restores the familiar authority of winning. The athlete said no, but look what the decision later produced. The result arrives again to justify the method.
-
-Later success can make an earlier refusal easier to admire. That is another way of letting the result perform moral work it was never designed to do. Refusal is not correct only when it preserves future excellence. Sometimes stopping protects a return. Sometimes it protects an ordinary life. Sometimes it changes nothing visible except that the person no longer crosses a boundary they could not safely cross.
+We are drawn to vindication because it restores the familiar authority of winning. The athlete said no, but look what the decision later produced. The result arrives again to justify the method—another way of letting the outcome perform moral work it was never designed to do. Refusal is not correct only when it preserves future excellence. Sometimes stopping protects a return. Sometimes it protects an ordinary life. Sometimes it changes nothing visible except that the person no longer crosses a boundary they could not safely cross.
 
 The legitimacy of the decision must be evaluated from the knowledge and consequences available then. Paris cannot go back to Tokyo and enter the air on Biles’s behalf.
 

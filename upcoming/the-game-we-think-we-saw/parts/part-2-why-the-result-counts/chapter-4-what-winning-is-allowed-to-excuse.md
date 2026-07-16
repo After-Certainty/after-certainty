@@ -108,7 +108,7 @@ It was easy to understand without context. A coach had lost control badly enough
 
 Yet over time, the incident also became folklore.
 
-It was replayed in retrospectives, turned into a reference point for later coaching outbursts, and folded into the public character of a man already known as “The General.” Knight himself sometimes joked about the chair afterward. What might have ended another coach’s authority became part of the legend surrounding his.
+It was replayed in retrospectives, turned into a reference point for later coaching outbursts, and folded into the public character of a man already known as “The General.” Knight himself sometimes joked about the chair afterward. What might have ended another coach’s authority became part of the legend surrounding him.
 
 The championships did not make the chair fly differently.
 

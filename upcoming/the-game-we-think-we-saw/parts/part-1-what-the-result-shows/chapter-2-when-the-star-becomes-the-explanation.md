@@ -112,9 +112,7 @@ We often treat these statements as contradictions because credit is imagined as 
 
 But contribution does not behave like possession of the trophy. Several conditions can be necessary at once.
 
-Asking which one truly caused the completion may produce a useful discussion.
-
-Demanding one final answer destroys the structure of the play.
+Asking which one truly caused the completion may produce a useful discussion. Demanding one final answer destroys the structure of the play.
 
 ### A Star Within a System
 
@@ -164,9 +162,7 @@ The best player taking the final shot may be the intended system.
 
 The best player repeatedly receiving a broken possession may reveal that the intended system has already failed.
 
-The box score records both as attempts.
-
-The organization must know the difference.
+The box score records both as attempts; the organization must know the difference.
 
 ### A Star Substituted for a System
 

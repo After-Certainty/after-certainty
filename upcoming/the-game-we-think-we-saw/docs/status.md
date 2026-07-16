@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 3 complete — Part coherence gate**
+**Phase 4 in progress — Manuscript-wide copy/echo pass**
 
-Bridge-to-chapter and chapter-to-chapter handoffs reviewed across all four parts. Light continuity edits only. Sports-first integrity intact. Ready for Phase 4 finish (author read-through + length-band decision) before Phase 5 promote.
+Phase 3 part-coherence gate complete. Manuscript-wide copy/echo pass applied (local echo, grammar, instructional meta, Phase 3 seams). Protected compression lines preserved. Next: author DOCX read-through + length-band decision, then Phase 5 promote.
 
 ## Active branch
 
@@ -43,10 +43,10 @@ Bridge-to-chapter and chapter-to-chapter handoffs reviewed across all four parts
 |------|-------|-------|
 | Title page / copyright | draft | Copyright still partly placeholder |
 | About the Series | draft | House series copy; back matter |
-| Author’s Note | draft | Unchanged |
+| Author’s Note | draft | Dropped near-duplicate “sports gives us outcomes” close |
 | Introduction | revised | Controlled cut; no chapter previews |
 | Part bridges I–IV | coherence | Part IV absence→gesture hinge added |
-| Ch 1–7 | coherence | Light Ch 2/3 endings; Ch 6 meta cues softened |
+| Ch 1–7 | Phase 4 copy | Echo/grammar/meta trims; protected lines intact |
 | Conclusion | draft | Preserved; do not expand |
 
 ## Next actions (Phase 4 finish → Phase 5)
@@ -55,3 +55,7 @@ Bridge-to-chapter and chapter-to-chapter handoffs reviewed across all four parts
 2. Resolve target-length band (essay / practice / full-book)
 3. Finalize copyright / front-matter placeholders
 4. Phase 5: promote to `books/the-game-we-think-we-saw/` with `book.yml` exports
+
+## Phase 4 copy/echo (2026-07-16)
+
+Surgical manuscript pass complete: local echo cuts, grammar fix, instructional-meta softening, Phase 3 seam smooth, stacked ordinary staccato merges. No architecture, title, governing-claim, conclusion expansion, or protected-line changes.

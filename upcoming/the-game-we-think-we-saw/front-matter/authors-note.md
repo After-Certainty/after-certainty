@@ -12,6 +12,4 @@ The book stays inside sports deliberately. It does not pause to translate every 
 
 The subject is the game itself: the scoreboard, the star, the whistle, the injured body, the refusal, the gesture, and the stories that gather around them.
 
-Sports gives us outcomes clear enough to share and complicated enough to keep interpreting.
-
 The chapters that follow begin where the result stops.

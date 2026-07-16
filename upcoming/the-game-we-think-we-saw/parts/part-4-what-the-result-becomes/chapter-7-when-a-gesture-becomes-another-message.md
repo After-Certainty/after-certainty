@@ -273,7 +273,7 @@ Canonization is not the same as being heard. It may be the final transformation 
 
 ### The Speaker Does Not Get the Last Word
 
-It would be tempting to resolve this chapter by returning authority to the speaker.
+It would be tempting to restore authority to the speaker and stop there.
 
 Ask what Kaepernick meant. Recover the complete press conference. Read Ali’s explanation. Listen to Smith and Carlos rather than relying on the captions later attached to their photograph.
 
