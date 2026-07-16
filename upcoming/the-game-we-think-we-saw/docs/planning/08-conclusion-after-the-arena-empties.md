@@ -1,7 +1,8 @@
 # Brief: Conclusion — After the Arena Empties
 
-**Drafting status:** not started  
-**Manuscript stub:** [`../../back-matter/conclusion-after-the-arena-empties.md`](../../back-matter/conclusion-after-the-arena-empties.md)
+**Drafting status:** draft (citation + reflow complete)  
+**Manuscript:** [`../../back-matter/conclusion-after-the-arena-empties.md`](../../back-matter/conclusion-after-the-arena-empties.md)  
+**Source packet:** [`../research/source-packets/08-conclusion.md`](../research/source-packets/08-conclusion.md)
 
 ## Chapter title
 

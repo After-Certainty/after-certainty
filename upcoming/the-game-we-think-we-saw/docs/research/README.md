@@ -29,3 +29,4 @@ When research deepens, add per-unit packets here (for example `source-packets/04
 - [`source-packets/05-chapter-5.md`](source-packets/05-chapter-5.md) — Chapter 5 (concussion protocols, Pitch Smart, NBA PPP / load-management study)
 - [`source-packets/06-chapter-6.md`](source-packets/06-chapter-6.md) — Chapter 6 (Biles Tokyo/Paris, Osaka FO 2021, Luck retirement)
 - [`source-packets/07-chapter-7.md`](source-packets/07-chapter-7.md) — Chapter 7 high-risk dossier (Kaepernick chronology; Ali / Smith–Carlos / Iverson)
+- [`source-packets/08-conclusion.md`](source-packets/08-conclusion.md) — Conclusion (synthetic; no new footnotes)

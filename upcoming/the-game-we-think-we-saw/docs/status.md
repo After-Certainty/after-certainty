@@ -50,15 +50,15 @@ Introduction and Chapters 1–7 landed (author draft + citation pass + reflow pa
 | Ch 5 — The Moral Language of Playing Hurt | draft | Citation + reflow complete; packet [`research/source-packets/05-chapter-5.md`](research/source-packets/05-chapter-5.md) |
 | Ch 6 — The Athlete Who Said No | draft | Citation + reflow complete; packet [`research/source-packets/06-chapter-6.md`](research/source-packets/06-chapter-6.md) |
 | Ch 7 — When a Gesture Becomes Another Message | draft | High-risk dossier + citation + reflow; packet [`research/source-packets/07-chapter-7.md`](research/source-packets/07-chapter-7.md) |
-| Conclusion — After the Arena Empties | not started | Brief only |
+| Conclusion — After the Arena Empties | draft | Citation + reflow complete; packet [`research/source-packets/08-conclusion.md`](research/source-packets/08-conclusion.md) |
 
 ## Next actions
 
-1. Receive conclusion (and any part bridges) for citation + reflow intake
-2. Resolve target-length band as prose accumulates
+1. Optional: part bridges if author supplies them
+2. Resolve target-length band now that full spine is drafted (~30,500 words)
 3. Deferred: covers / OG until promotion
 
 ## Rough scale
 
-- Manuscript words: intro ~1,380 + Ch 1–6 ~24,000 + Ch 7 ~4,600 ≈ ~30,000
-- Last assessed: Chapter 7 draft intake (July 2026)
+- Manuscript words: intro ~1,380 + Ch 1–7 ~28,600 + conclusion ~530 ≈ ~30,500
+- Last assessed: Conclusion draft intake (July 2026)
