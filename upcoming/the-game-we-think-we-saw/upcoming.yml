@@ -13,6 +13,15 @@ book:
     website: "https://after-certainty.com"
   language: en
   copyright_year: 2026
+  title_page_cover: book-cover.png
+  open_graph_image: open-graph.png
+
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
 
 paths:
   manuscript: "./index.md"

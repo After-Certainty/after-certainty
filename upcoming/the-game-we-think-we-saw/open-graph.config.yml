@@ -1,0 +1,21 @@
+# Tuning for tools/generate_open_graph.py — The Game We Think We Saw
+bg_crop: [40, 40, 984, 720]
+tint: [12, 12, 14, 150]
+accent_color: [196, 164, 96]
+title_lines:
+  - text: The Game
+    color: white
+  - text: We Think
+    color: white
+  - text: We Saw
+    color: accent
+subtitle_lines:
+  - WHAT SPORTS REVEALS ABOUT WINNING,
+  - JUDGMENT, AND THE STORIES
+  - RESULTS CANNOT SETTLE
+subtitle_color: accent
+font_title: 46
+font_sub: 16
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360

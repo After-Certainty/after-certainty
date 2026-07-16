@@ -31,7 +31,7 @@ Introduction, Chapters 1–7, conclusion, author’s note, and part bridges land
 |----------|---------|--------|
 | Target length | Essay / practice / full-book band | Open |
 | Part titles | Four-part labels (Shows / Counts / Demands / Becomes) | Closed |
-| Cover / OG assets | Defer until promotion | Deferred |
+| Cover / OG assets | book-cover.png + open-graph.png landed | Closed |
 | Chapter 3 external draft | Landed | Closed |
 
 ## Unit progress
@@ -56,11 +56,11 @@ Introduction, Chapters 1–7, conclusion, author’s note, and part bridges land
 
 ## Next actions
 
-1. Resolve target-length band (~30,900 words with bridges)
-2. Deferred: covers / OG until promotion
-3. Title/copyright/series placeholders when ready
+1. Resolve target-length band (~31,000 words)
+2. Title/copyright/series placeholders when ready
+3. Covers and OG landed (`book-cover.png`, `open-graph.png`)
 
 ## Rough scale
 
 - Manuscript words: author’s note ~180 + intro ~1,380 + Ch 1–7 ~28,600 + conclusion ~530 + part bridges ~310 ≈ ~31,000
-- Last assessed: Part bridges + four-part regroup (July 2026)
+- Last assessed: Cover + open-graph assets (July 2026)
