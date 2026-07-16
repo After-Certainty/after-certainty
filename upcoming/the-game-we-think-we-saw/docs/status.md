@@ -45,7 +45,7 @@ Introduction landed (author draft + citation pass + reflow pass). Remaining unit
 | Ch 2 — When the Star Becomes the Explanation | draft | Citation + reflow complete; packet [`research/source-packets/02-chapter-2.md`](research/source-packets/02-chapter-2.md) |
 | Part II bridge | not started | Heading only |
 | Ch 3 — The Authority of the Whistle | draft | Author draft landed; citation + reflow; packet [`research/source-packets/03-chapter-3.md`](research/source-packets/03-chapter-3.md) |
-| Ch 4 — What Winning Is Allowed to Excuse | not started | **High research risk** — Knight dossier required before draft |
+| Ch 4 — What Winning Is Allowed to Excuse | draft | High-risk dossier + citation + reflow; packet [`research/source-packets/04-chapter-4.md`](research/source-packets/04-chapter-4.md) |
 | Part III bridge | not started | Heading only |
 | Ch 5 — The Moral Language of Playing Hurt | not started | Moderate research risk |
 | Ch 6 — The Athlete Who Said No | not started | Moderate research risk |
@@ -54,11 +54,11 @@ Introduction landed (author draft + citation pass + reflow pass). Remaining unit
 
 ## Next actions
 
-1. Receive next author draft unit (likely Ch 4) only after Knight evidence dossier, or paste Ch 5/6 if preferred order
-2. Begin evidence dossiers for Chapters 4 and 7 before drafting those units
+1. Receive next author draft unit (likely Ch 5); citation + reflow intake
+2. Begin Chapter 7 Kaepernick chronology dossier before that unit
 3. Resolve target-length band as prose accumulates
 
 ## Rough scale
 
-- Manuscript words: intro ~1,380 + Ch 1 ~2,800 + Ch 2 ~3,900 + Ch 3 ~3,900 ≈ ~12,000
-- Last assessed: Chapter 3 draft intake (July 2026)
+- Manuscript words: intro ~1,380 + Ch 1–3 ~10,600 + Ch 4 ~4,550 ≈ ~16,500
+- Last assessed: Chapter 4 draft intake (July 2026)

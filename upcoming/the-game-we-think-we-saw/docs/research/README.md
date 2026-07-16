@@ -25,3 +25,4 @@ When research deepens, add per-unit packets here (for example `source-packets/04
 - [`source-packets/01-chapter-1.md`](source-packets/01-chapter-1.md) — Chapter 1 (Russell, Moneyball footnotes)
 - [`source-packets/02-chapter-2.md`](source-packets/02-chapter-2.md) — Chapter 2 (Brady–Belichick / 2008 / Super Bowl LV)
 - [`source-packets/03-chapter-3.md`](source-packets/03-chapter-3.md) — Chapter 3 (Dez Bryant, catch rule, VAR, MLB ABS)
+- [`source-packets/04-chapter-4.md`](source-packets/04-chapter-4.md) — Chapter 4 high-risk dossier (Knight chronology; Armstrong contrast)

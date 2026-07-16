@@ -1,8 +1,9 @@
 # Brief: Chapter 4 — What Winning Is Allowed to Excuse
 
-**Drafting status:** not started  
-**Research risk:** **High** — evidence dossier required before drafting  
-**Manuscript stub:** [`../../parts/part-2-why-the-result-counts/chapter-4-what-winning-is-allowed-to-excuse.md`](../../parts/part-2-why-the-result-counts/chapter-4-what-winning-is-allowed-to-excuse.md)
+**Drafting status:** draft (citation + reflow + evidence dossier complete, July 2026)  
+**Research risk:** High  
+**Manuscript:** [`../../parts/part-2-why-the-result-counts/chapter-4-what-winning-is-allowed-to-excuse.md`](../../parts/part-2-why-the-result-counts/chapter-4-what-winning-is-allowed-to-excuse.md)  
+**Citation / dossier packet:** [`../research/source-packets/04-chapter-4.md`](../research/source-packets/04-chapter-4.md)
 
 ## Chapter title
 
