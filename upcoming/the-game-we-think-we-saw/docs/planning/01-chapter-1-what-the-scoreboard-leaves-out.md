@@ -1,8 +1,9 @@
 # Brief: Chapter 1 — What the Scoreboard Leaves Out
 
-**Drafting status:** not started  
+**Drafting status:** draft (citation + reflow complete, July 2026)  
 **Research risk:** Lower (still citation-required)  
-**Manuscript stub:** [`../../parts/part-1-reading-the-result/chapter-1-what-the-scoreboard-leaves-out.md`](../../parts/part-1-reading-the-result/chapter-1-what-the-scoreboard-leaves-out.md)
+**Manuscript:** [`../../parts/part-1-reading-the-result/chapter-1-what-the-scoreboard-leaves-out.md`](../../parts/part-1-reading-the-result/chapter-1-what-the-scoreboard-leaves-out.md)  
+**Citation packet:** [`../research/source-packets/01-chapter-1.md`](../research/source-packets/01-chapter-1.md)
 
 ## Chapter title
 

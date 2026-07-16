@@ -54,11 +54,11 @@ Introduction landed (author draft + citation pass + reflow pass). Remaining unit
 
 ## Next actions
 
-1. Receive next author draft unit (likely Ch 1); citation + reflow intake
+1. Receive next author draft unit (likely Ch 2); citation + reflow intake
 2. Begin evidence dossiers for Chapters 4 and 7 before drafting those units
 3. Resolve target-length band as prose accumulates
 
 ## Rough scale
 
-- Manuscript words (intro only): ~1,350
-- Last assessed: introduction draft intake (July 2026)
+- Manuscript words: intro ~1,380 + Ch 1 ~2,800 ≈ ~4,200
+- Last assessed: Chapter 1 draft intake (July 2026)
