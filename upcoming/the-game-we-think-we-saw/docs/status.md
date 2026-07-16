@@ -42,7 +42,7 @@ Introduction landed (author draft + citation pass + reflow pass). Remaining unit
 | Introduction — The Walk to the Parking Lot | draft | Citation + reflow complete; packet [`research/source-packets/00-introduction.md`](research/source-packets/00-introduction.md) |
 | Part I bridge | not started | Heading only |
 | Ch 1 — What the Scoreboard Leaves Out | draft | Citation + reflow complete; packet [`research/source-packets/01-chapter-1.md`](research/source-packets/01-chapter-1.md) |
-| Ch 2 — When the Star Becomes the Explanation | not started | Moderate research risk |
+| Ch 2 — When the Star Becomes the Explanation | draft | Citation + reflow complete; packet [`research/source-packets/02-chapter-2.md`](research/source-packets/02-chapter-2.md) |
 | Part II bridge | not started | Heading only |
 | Ch 3 — The Authority of the Whistle | not started | Lower research risk; external draft must not be recreated here |
 | Ch 4 — What Winning Is Allowed to Excuse | not started | **High research risk** — Knight dossier required before draft |
