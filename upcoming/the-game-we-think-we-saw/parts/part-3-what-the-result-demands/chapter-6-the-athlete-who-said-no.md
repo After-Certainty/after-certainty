@@ -32,7 +32,7 @@ Every sport distributes knowledge unevenly. A coach may understand the strategy 
 
 But some knowledge remains inside the performance. The gymnast knows whether the air still feels organized. The pitcher knows whether the ball has begun leaving the hand differently. The quarterback knows whether the injured shoulder can make the throw the play requires. The tennis player knows what happens internally before walking into a room that others experience as routine.
 
-This knowledge is not automatically accurate. Athletes misread their bodies—minimizing injury, mistaking fear for danger, or mistaking danger for ordinary fear. They can want to compete badly enough that warning signs become easy to explain away. Chapter 5 began with precisely that problem: the athlete on the training table saying, “I’m good,” while everyone nearby has an interest in believing it.
+This knowledge is not automatically accurate. Athletes misread their bodies—minimizing injury, mistaking fear for danger, or mistaking danger for ordinary fear. They can want to compete badly enough that warning signs become easy to explain away. The training table remains close: the athlete saying, “I’m good,” while everyone nearby has an interest in believing it.
 
 Situated knowledge is not infallibility. But neither is it merely another opinion. The person performing the movement occupies a position no observer can fully reproduce. A camera may show where the body went. It cannot feel the absence of orientation before the body arrived there. A coach may know what the routine requires. The coach does not enter the air on the athlete’s behalf.
 
@@ -178,7 +178,7 @@ But this creates another danger. A boundary should not need a triumphant sequel 
 
 We are drawn to vindication because it restores the familiar authority of winning. The athlete said no, but look what the decision later produced. The result arrives again to justify the method.
 
-This book has already asked why winning should be allowed to perform that work. The same caution applies here. Refusal is not correct only when it preserves future excellence. Sometimes stopping protects a return. Sometimes it protects an ordinary life. Sometimes it changes nothing visible except that the person no longer crosses a boundary they could not safely cross.
+Later success can make an earlier refusal easier to admire. That is another way of letting the result perform moral work it was never designed to do. Refusal is not correct only when it preserves future excellence. Sometimes stopping protects a return. Sometimes it protects an ordinary life. Sometimes it changes nothing visible except that the person no longer crosses a boundary they could not safely cross.
 
 The legitimacy of the decision must be evaluated from the knowledge and consequences available then. Paris cannot go back to Tokyo and enter the air on Biles’s behalf.
 

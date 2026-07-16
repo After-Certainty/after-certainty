@@ -322,6 +322,8 @@ The star points toward the corner.
 
 The shooter points back.
 
+The result has a face. It still needed a ruling before it could count.
+
 [^c2-brady-belichick-era]: Pro-Football-Reference, “New England Patriots Franchise Encyclopedia,” https://www.pro-football-reference.com/teams/nwe/; NBC Sports Boston, “Who Gets Most of the Credit — Brady or Belichick?,” https://www.nbcboston.com/news/sports/nbc-sports-boston/who-gets-most-of-the-credit-brady-or-belichick/2092515/. Brady and Belichick were together with New England across twenty seasons (2000–2019), reaching nine Super Bowls and winning six.
 
 [^c2-2008-cassel]: NFL.com, “Brady to Have Season-Ending Knee Surgery…,” September 8, 2008, https://www.nfl.com/news/brady-to-have-season-ending-knee-surgery-will-be-placed-on-ir-09000d5d80a95089; Pro-Football-Reference, “2008 New England Patriots,” https://www.pro-football-reference.com/teams/nwe/2008.htm.

@@ -101,4 +101,4 @@ When the manuscript is ready for the publishing pipeline:
 
 ## Current starting phase
 
-See `docs/status.md` — **Phase 0 — Structure (architecture and research)**.
+See `docs/status.md` — **Phase 3 complete; Phase 4 finish next** (author read-through and length-band decision before Phase 5 promote).

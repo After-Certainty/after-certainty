@@ -312,6 +312,8 @@ The ball is handed to the player beneath the basket. The official raises one arm
 
 Then the ball enters the court, and everyone looks toward the next possession.
 
+The ruling has done enough for the game to continue. A season of such rulings will later ask the victory to do more.
+
 [^c3-dez-bryant]: NFL.com, “Referee: Dez Bryant Catch Incomplete Once Ball Hit Ground,” January 11, 2015, https://www.nfl.com/news/referee-dez-bryant-catch-incomplete-once-ball-hit-ground-0ap3000000456973. NFC Divisional playoff, Green Bay Packers vs. Dallas Cowboys, January 11, 2015; on-field catch overturned after review under the then-applicable going-to-the-ground standard.
 
 [^c3-catch-rule-2018]: NFL.com, “NFL Teams Unanimously Approve Simplified Catch Rule,” March 27, 2018, https://www.nfl.com/news/nfl-teams-unanimously-approve-simplified-catch-rule-0ap3000000923342.
