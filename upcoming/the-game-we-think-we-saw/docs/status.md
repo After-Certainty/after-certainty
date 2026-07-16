@@ -4,7 +4,7 @@
 
 **Phase 1 — Outline to prose**
 
-Introduction and Chapters 1–7 landed (author draft + citation pass + reflow pass). Conclusion and part bridges await author paste.
+Introduction, Chapters 1–7, and conclusion landed (author draft + citation pass + reflow pass). Part bridges remain stubs.
 
 ## Active branch
 
