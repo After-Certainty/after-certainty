@@ -1,8 +1,9 @@
 # Brief: Chapter 7 — When a Gesture Becomes Another Message
 
-**Drafting status:** not started  
-**Research risk:** **High** — chronology dossier required before drafting  
-**Manuscript stub:** [`../../parts/part-3-cost-refusal-memory/chapter-7-when-a-gesture-becomes-another-message.md`](../../parts/part-3-cost-refusal-memory/chapter-7-when-a-gesture-becomes-another-message.md)
+**Drafting status:** draft (high-risk dossier + citation + reflow complete)  
+**Research risk:** **High** — chronology dossier completed  
+**Manuscript:** [`../../parts/part-3-cost-refusal-memory/chapter-7-when-a-gesture-becomes-another-message.md`](../../parts/part-3-cost-refusal-memory/chapter-7-when-a-gesture-becomes-another-message.md)  
+**Source packet:** [`../research/source-packets/07-chapter-7.md`](../research/source-packets/07-chapter-7.md)
 
 ## Chapter title
 
