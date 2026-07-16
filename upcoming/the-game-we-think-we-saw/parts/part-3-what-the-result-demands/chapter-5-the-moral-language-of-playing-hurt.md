@@ -1,3 +1,5 @@
+\newpage
+
 # Chapter 5
 
 ## The Moral Language of Playing Hurt
@@ -46,11 +48,7 @@ The language of loyalty closes the distance between those two desires.
 
 A practical institutional need becomes a moral quality the athlete is expected to display.
 
-Pain becomes commitment.
-Silence becomes toughness.
-Availability becomes loyalty.
-Caution becomes doubt.
-Rest becomes selfishness.
+Pain becomes commitment. Silence becomes toughness. Availability becomes loyalty. Caution becomes doubt. Rest becomes selfishness.
 
 The translation is powerful because it does not feel like coercion. The athlete may repeat the language willingly. Teammates may enforce it on one another without instruction. A coach need not say, “We need your body regardless of the cost.” The culture can say something more compelling:
 
@@ -172,11 +170,9 @@ Then someone checks the count.
 
 Pitch limits are an unusually plain form of protection. A number stands between the athlete and the story the moment is trying to create.
 
-Major League Baseball and USA Baseball’s Pitch Smart guidance recommends age-based maximums and required rest periods, describing pitch counts as an effective means of reducing the likelihood that young athletes will continue pitching through fatigue. The recommendations also call for extended time away from competitive throwing and warn against overlapping teams and year-round workloads.[^c5-pitch-smart]
+Major League Baseball and USA Baseball’s Pitch Smart guidance recommends age-based daily maximums and required rest—limits on how many pitches a young athlete may throw before sitting out subsequent days—describing them as an effective means of reducing the likelihood of pitching through fatigue. The recommendations also call for extended time away from competitive throwing and warn against overlapping teams and year-round workloads.[^c5-pitch-smart]
 
-The count cannot know everything.
-
-Two athletes may respond differently to the same workload. A pitcher may be fatigued before reaching the limit or capable of throwing beyond it without immediate injury. Mechanics, intensity, previous work, recovery, age, and physical development all matter.
+The count cannot know everything. Two athletes may respond differently to the same workload. Mechanics, intensity, previous work, recovery, age, and physical development all matter.
 
 The number is a compression.
 
@@ -226,11 +222,9 @@ To the fan who bought one ticket that year, it may feel like a broken promise.
 
 Each perspective contains something legitimate.
 
-The NBA’s Player Participation Policy, adopted for the 2023–24 season, placed particular restrictions on resting players classified as stars. It sought to prevent teams from sitting several stars in the same game, emphasized availability for nationally televised and tournament games, and included exceptions based on injury history, age, and career workload.[^c5-nba-ppp]
+The NBA’s Player Participation Policy, adopted for the 2023–24 season, placed particular restrictions on resting players classified as stars—what teams and fans often call load management when healthy athletes sit to reduce cumulative strain across a long season. It sought to prevent teams from sitting several stars in the same game, emphasized availability for nationally televised and tournament games, and included exceptions based on injury history, age, and career workload.[^c5-nba-ppp]
 
-The policy makes the competing incentives unusually visible.
-
-The league sells competition across an eighty-two-game season. Fans expect healthy stars to participate. Teams are judged most severely by postseason outcomes and therefore have reasons to manage players toward another clock. Athletes want to compete, preserve careers, satisfy contracts, and avoid preventable deterioration.
+The policy makes the competing incentives unusually visible. The league sells competition across an eighty-two-game season. Fans expect healthy stars to participate. Teams are judged most severely by postseason outcomes and therefore have reasons to manage players toward another clock. Athletes want to compete, preserve careers, satisfy contracts, and avoid preventable deterioration.
 
 Even the evidence does not remove the argument. A league study circulated around the policy’s introduction reported that it had not found a lower injury rate when players rested in the particular data examined, while its medical contributors still emphasized the need to balance rest and recovery and cautioned that the findings did not establish that load management never works.[^c5-nba-load-study]
 
@@ -318,35 +312,13 @@ A choice becomes less meaningful when only one answer preserves membership in th
 
 The language of autonomy can also become too simple.
 
-A team is made of obligations.
+A team is made of obligations. Players prepare around one another. A sudden absence changes assignments and redistributes risk. An athlete who repeatedly withholds information about health can make the team’s planning less safe rather than more.
 
-Players prepare around one another. A sudden absence changes assignments and redistributes risk. Someone else may have to perform a role for which there was little preparation. An athlete who repeatedly withholds information about health can make the team’s planning less safe rather than more.
+Teammates are permitted to care whether someone is available. A coach is permitted to distinguish between an athlete who cannot perform and one who simply does not wish to accept ordinary competitive discomfort.
 
-Teammates are permitted to care whether someone is available.
+The body belongs to the athlete. A roster spot belongs to a collective undertaking. These truths can coexist without one becoming absolute.
 
-A coach is permitted to distinguish between an athlete who cannot perform and one who simply does not wish to accept ordinary competitive discomfort. Selection itself depends upon judgments about reliability, readiness, and shared commitment.
-
-The body belongs to the athlete.
-
-A roster spot belongs to a collective undertaking.
-
-These truths can coexist without one becoming absolute.
-
-The athlete should not be compelled to accept any bodily risk the team desires. The team is not required to treat every personal preference as compatible with every competitive role.
-
-The difficult work lies in distinguishing obligation from ownership.
-
-A teammate may reasonably say, “We need honest information from you.”
-
-That is different from saying, “We are entitled to the answer that helps us win.”
-
-A coach may say, “Your absence affects everyone.”
-
-That is different from saying, “Because it affects everyone, you must play.”
-
-The team’s legitimate claim concerns honesty, preparation, and the consequences of shared work.
-
-It does not erase the athlete’s unique relationship to the body that must bear the consequence.
+The team’s legitimate claim concerns honesty, preparation, and the consequences of shared work. It does not erase the athlete’s unique relationship to the body that must bear the consequence—or settle who should receive authority when the athlete gives a different answer.
 
 ### How Incentives Become Character
 

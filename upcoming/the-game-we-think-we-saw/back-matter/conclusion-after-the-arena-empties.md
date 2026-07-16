@@ -1,3 +1,5 @@
+\newpage
+
 # Conclusion
 
 ## After the Arena Empties

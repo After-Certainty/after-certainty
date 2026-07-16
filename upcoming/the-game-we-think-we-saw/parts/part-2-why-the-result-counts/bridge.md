@@ -1,8 +1,10 @@
+\newpage
+
 # Part II
 
 ## Why the Result Counts
 
-A game cannot wait for complete agreement.
+A scoreboard can record a result only after someone has decided which actions count. Before the number becomes final, the whistle must convert movement into rulings the game can use.
 
 The whistle sounds. The ruling stands. The trophy is lifted. What happened becomes official before everyone has decided whether the process was accurate, legitimate, or worthy of trust.
 

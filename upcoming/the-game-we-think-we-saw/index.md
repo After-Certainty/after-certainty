@@ -8,7 +8,6 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
-- [About the Series](front-matter/about-the-series.md)
 - [Author's Note](front-matter/authors-note.md)
 - [Introduction — The Walk to the Parking Lot](front-matter/introduction-the-walk-to-the-parking-lot.md)
 
@@ -46,6 +45,7 @@ What the event becomes once it leaves the field.
 ## Back Matter
 
 - [Conclusion — After the Arena Empties](back-matter/conclusion-after-the-arena-empties.md)
+- [About the Series](back-matter/about-the-series.md)
 
 ## Related books
 

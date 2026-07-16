@@ -1,3 +1,5 @@
+\newpage
+
 # Chapter 4
 
 ## What Winning Is Allowed to Excuse
@@ -82,21 +84,23 @@ The trophy validates the package.
 
 Memory then turns the package into a method.
 
-This is where moral judgment begins to blur with causal judgment. If the coach yelled and the team won, the yelling becomes part of how the team won. If the coach humiliated a player and the player later improved, the humiliation becomes instruction. If the athlete endured pain and succeeded, the pain becomes the price the achievement required.
-
-But sequence is not proof of cause.
+This is where moral judgment begins to blur with causal judgment. If the coach yelled and the team won, the yelling becomes part of how the team won. If the coach humiliated a player and the player later improved, the humiliation becomes instruction. Sequence is not proof of cause.
 
 A person can be brilliant and cruel. Success may reveal the brilliance while telling us very little about the cruelty. The two qualities can inhabit the same authority without contributing equally to the outcome.
 
-The difficulty is imagining one without the other.
-
-When a coach’s knowledge and temper arrive in the same voice, players and institutions may come to believe they must preserve both. To question the conduct feels like questioning the standard. To remove the fear feels like lowering expectations. To ask whether another method was possible sounds like ingratitude toward the one that produced the trophies.
+When a coach’s knowledge and temper arrive in the same voice, players and institutions may come to believe they must preserve both. To question the conduct feels like questioning the standard. To remove the fear feels like lowering expectations.
 
 The victory makes the arrangement appear indivisible.
 
+Winning then turns correlation into inheritance. Everything the authority did before the victory receives some portion of the credit. The coach’s best qualities may deserve most of it. The worst qualities still benefit from the distribution.
+
+We cannot replay the season with the same coach, players, opponents, and circumstances but without the humiliating practice or physical confrontation. The result tells us what happened under one collection of conditions. It cannot identify which conditions were necessary.
+
+Effectiveness does not confer moral legitimacy on everything that accompanied it.
+
 ### The Chair
 
-On February 23, 1985, during an Indiana game against Purdue, Knight became furious over the officiating. He picked up a red plastic chair and threw it across the court. He was ejected, later apologized, received a one-game suspension, and was placed on two years’ probation by the Big Ten.[^c4-chair]
+On February 23, 1985, during an Indiana game against Purdue, Knight became furious over the officiating. He picked up a red plastic chair and threw it across the court. He was ejected, later apologized, and received a one-game suspension from the Big Ten, with a warning that further unsportsmanlike conduct would bring an additional suspension.[^c4-chair]
 
 The chair became one of the most recognizable objects in American sports.
 
@@ -112,9 +116,7 @@ They changed how easily the incident could be contained.
 
 The act could be described as embarrassing without becoming disqualifying. It could be treated as a famous excess of competitive intensity rather than evidence that the institution needed to reconsider what it had permitted. The story remained amusing partly because the coach remained successful.
 
-Had the same chair been thrown by an unsuccessful coach, the object might have carried another meaning.
-
-It might have become proof that the coach lacked discipline.
+Had the same chair been thrown by an unsuccessful coach, the object might have carried another meaning. It might have become proof that the coach lacked discipline.
 
 Winning allowed Knight’s loss of control to coexist with a reputation for demanding control from everyone else.
 
@@ -124,9 +126,7 @@ The record made it survivable.
 
 ### The Difference Between Demanding and Abusive
 
-The easiest way to respond to stories like Knight’s is to move too far in the opposite direction.
-
-A coach should never raise a voice. Athletes should never feel uncomfortable. Every criticism should be delivered gently. Any practice that produces fear, exhaustion, anger, or conflict must be evidence of a broken culture.
+The easiest way to respond to stories like Knight’s is to move too far in the opposite direction: that a coach should never raise a voice, that athletes should never feel uncomfortable, that every practice producing fear or conflict must be evidence of a broken culture.
 
 Sports cannot be understood that way.
 
@@ -144,13 +144,9 @@ The question is not whether the player experienced discomfort. It is what the di
 
 A demanding coach can explain the relationship between the correction and the work.
 
-An abusive authority eventually treats the reaction itself as proof that the correction was needed.
+An abusive authority eventually treats the reaction itself as proof that the correction was needed. The athlete objects, so the athlete must lack toughness. The player withdraws, so the player was never committed. The assistant challenges the method, so the assistant does not understand winning.
 
-The athlete objects, so the athlete must lack toughness. The player withdraws, so the player was never committed. The assistant challenges the method, so the assistant does not understand winning.
-
-The authority becomes self-confirming.
-
-Whatever response it produces is absorbed into the explanation of why greater pressure was necessary.
+The authority becomes self-confirming. Whatever response it produces is absorbed into the explanation of why greater pressure was necessary.
 
 Winning makes this loop especially difficult to interrupt. The result continually appears to validate the person setting the standard. The more the team succeeds, the less likely anyone is to ask whether the same standard could have been sustained through different means.
 
@@ -160,9 +156,7 @@ In March 2000, former Indiana player Neil Reed publicly accused Knight of having
 
 The video changed the dispute.
 
-Before it appeared, Reed’s account entered a world already shaped by Knight’s authority. Reed was one former athlete speaking against a coach with decades of victories, devoted defenders, and institutional significance. His credibility was assessed inside a story the championships had already made coherent.
-
-Knight was demanding. Some players could handle him. Others could not. The ones who stayed understood what he was trying to teach.
+Before it appeared, Reed’s account entered a world already shaped by Knight’s authority. Reed was one former athlete speaking against a coach with decades of victories, devoted defenders, and institutional significance. His credibility was assessed inside a story the championships had already made coherent: Knight was demanding; some players could handle him; others could not; the ones who stayed understood what he was trying to teach.
 
 That story could place Reed’s accusation without allowing it to disturb the whole. He could be interpreted as disgruntled, oversensitive, or unable to accept the demands of elite competition.
 
@@ -186,31 +180,17 @@ To critics, they helped explain why action had taken so long.
 
 A successful coach does not win alone.
 
-The victories attach themselves to a university, a city, former players, donors, employees, and generations of spectators. The team becomes one of the ways people recognize themselves. A championship is not only stored in the athletic department. It enters family stories, local identity, and memory.
+The victories attach themselves to a university, a city, former players, donors, and generations of spectators. A championship enters family stories and local identity. Removing a successful coach can feel like accusing everyone who celebrated the success. The institution is not merely deciding whether one person crossed a line. It is deciding whether the story it has told about itself can survive a different account of the authority at its center.
 
-This makes institutional judgment difficult.
-
-Removing a successful coach can feel like accusing everyone who celebrated the success. Questions about conduct become questions about the meaning of the years people invested in the team. The institution is not merely deciding whether one person crossed a line. It is deciding whether the story it has told about itself can survive a different account of the authority at its center.
-
-Winning provides an elegant solution.
-
-It allows the institution to describe what happened as the price of what everyone valued.
-
-The coach was difficult because the standard was high. The environment was severe because the competition was severe. Some people were hurt because excellence is not comfortable.
+Winning provides an elegant solution. It allows the institution to describe what happened as the price of what everyone valued: the coach was difficult because the standard was high; some people were hurt because excellence is not comfortable.
 
 The explanation protects more than the coach.
 
 It protects the meaning of the trophies.
 
-This does not require deliberate conspiracy. People can sincerely believe that the harshness and the achievement were inseparable. They may have experienced the environment as transformative. They may have watched athletes grow inside it. They may fear that critics are flattening decades of work into a handful of notorious moments.
+This does not require deliberate conspiracy. People can sincerely believe that the harshness and the achievement were inseparable. Their loyalty may contain real knowledge. It may also contain a structural incentive not to look again.
 
-Their loyalty may contain real knowledge.
-
-It may also contain a structural incentive not to look again.
-
-The more an institution has gained from an authority, the more difficult it becomes to evaluate that authority without asking what the institution itself permitted.
-
-Success distributes responsibility so widely that responsibility can become hard to locate.
+The more an institution has gained from an authority, the more difficult it becomes to evaluate that authority without asking what the institution itself permitted. Success distributes responsibility so widely that responsibility can become hard to locate.
 
 ### The Defense That May Be True
 
@@ -226,11 +206,7 @@ The accounts do not need to cancel one another.
 
 The mistake occurs when evidence of good is used to make evidence of harm inadmissible.
 
-A high graduation rate may reveal that a coach took education seriously. It does not answer whether a particular physical confrontation was justified.
-
-A championship may reveal tactical brilliance. It does not settle whether humiliation was necessary.
-
-The loyalty of former players matters. It does not create a vote in which enough positive experiences can overrule a specific person’s account.
+A high graduation rate may reveal that a coach took education seriously. It does not answer whether a particular physical confrontation was justified. A championship may reveal tactical brilliance. It does not settle whether humiliation was necessary. The loyalty of former players matters. It does not create a vote in which enough positive experiences can overrule a specific person’s account.
 
 Moral complexity does not mean placing every fact into a common ledger and subtracting the smaller total from the larger one.
 
@@ -242,53 +218,9 @@ Both remain.
 
 That is why winning is such a powerful defense. It offers relief from the discomfort of holding them together.
 
-### When Success Becomes Causal Evidence
+The scoreboard records what occurred within the contest. It does not record what the contest required from the people who produced it. A frightened player may still execute correctly. A humiliated athlete may still make the winning shot. The result can remain strong while people inside the process absorb costs invisible to it.
 
-The moral halo of winning depends partly on another assumption: the conduct must have contributed to the result.
-
-The coach was harsh, and the team became disciplined. The team was disciplined, and the team won. Therefore, the harshness produced the victory.
-
-The sequence is plausible. It is not complete.
-
-Perhaps the coach’s severity created focus. Perhaps some athletes performed better because expectations were unmistakable. Perhaps the fear of correction reduced careless mistakes.
-
-It is also possible that players succeeded because the tactical instruction was excellent, because they were exceptionally talented, because teammates supported one another, or because they learned to work around the authority’s volatility. The same conduct may have sharpened one athlete while causing another to become tentative, hide injuries, avoid questions, or leave.
-
-Victory cannot recover the missing comparison.
-
-We cannot replay the season with the same coach, players, opponents, and circumstances but without the humiliating practice or physical confrontation. The result tells us what happened under one collection of conditions. It cannot identify which conditions were necessary.
-
-Winning turns correlation into inheritance.
-
-Everything the authority did before the victory receives some portion of the credit.
-
-The coach’s best qualities may deserve most of it.
-
-The worst qualities still benefit from the distribution.
-
-### The Cost That Does Not Appear in the Record
-
-A scoreboard records what occurred within the contest.
-
-It does not record what the contest required from the people who produced it.
-
-A frightened player may still execute correctly. A humiliated athlete may still make the winning shot. A team may remain coherent because players care for one another in ways the authority neither recognizes nor creates.
-
-The result can therefore remain strong while the people inside the process absorb costs invisible to it.
-
-This is not unique to harm.
-
-The scoreboard also cannot record patience, forgiveness, private encouragement, or the quiet work through which teammates repair an environment after conflict. But invisible good rarely requires protection from scrutiny.
-
-Invisible cost does.
-
-When the team wins, people who name the cost can appear to be attacking the result. They are asked why they would disturb something that worked. The fact that the method succeeded within the game becomes evidence that the people inside it should reinterpret what they experienced.
-
-The player did not merely endure the conduct.
-
-The player benefited from it.
-
-The trophy arrives afterward and tells the athlete what the pain meant.
+When the team wins, people who name the cost can appear to be attacking the result. The trophy arrives afterward and tells the athlete what the pain meant.
 
 This is one of the most powerful forms of retrospective authority. The outcome reaches backward and renames the experience that produced it.
 
@@ -302,15 +234,9 @@ Here the method did not merely raise a moral concern around a valid result.
 
 It violated the competitive rules through which the result had been authorized. The sport possessed a mechanism for responding: the victories themselves could be removed from the official record.
 
-The yellow jerseys had once amplified Armstrong’s credibility. Repeated winning made accusations easier to frame as jealousy, hostility, or resentment toward an exceptional athlete. After the evidence became institutionally unavoidable, the same victories were reinterpreted as products of the system the accusations had described.
-
-The result had not merely excused the conduct.
-
-It had helped the conduct defend itself.
+The yellow jerseys had once amplified Armstrong’s credibility. Repeated winning made accusations easier to frame as jealousy or resentment toward an exceptional athlete. After the evidence became institutionally unavoidable, the same victories were reinterpreted as products of the system the accusations had described.
 
 Knight’s case is different in an important way. His teams’ baskets still counted. His championships were not invalidated by later judgments about his behavior. The NCAA record did not require an empty space where Indiana’s titles had been.
-
-This leaves moral memory with a harder task.
 
 When cheating invalidates the result, the sport can alter the record.
 
@@ -348,21 +274,13 @@ It showed that authority can remain emotionally legitimate to people long after 
 
 The record continues speaking even after the employment ends.
 
-### The Difference Between Explanation and Permission
+### What the Trophy Cannot Separate
 
 A coach’s pressure may help explain why a team became difficult to beat.
 
 It does not automatically grant permission for every form the pressure took.
 
-This distinction is easy to lose because sports often treats effectiveness and legitimacy as versions of the same question.
-
-Did it work?
-
-If the answer is yes, scrutiny feels like an attempt to weaken the method. A person who asks whether the method deserved to work appears not to understand the point of competition.
-
-But sport already recognizes limits that victory cannot cross.
-
-A player cannot score after stepping outside the boundary. A team cannot field an ineligible athlete and defend the decision by pointing to the quality of the performance. The desire to win does not eliminate the rules that make winning meaningful.
+Sport already recognizes limits that victory cannot cross. A player cannot score after stepping outside the boundary. A team cannot field an ineligible athlete and defend the decision by pointing to the quality of the performance. The desire to win does not eliminate the rules that make winning meaningful.
 
 The harder boundaries are the ones that do not appear in the rulebook.
 
@@ -372,15 +290,9 @@ These questions cannot be settled by consulting the final score because the scor
 
 A victory can prove that a method produced a result. It cannot prove that the method deserved to.
 
-### What the Trophy Cannot Separate
+The trophy does not know why it was won. It cannot separate tactical preparation from intimidation, discipline from fear, or necessary sacrifice from harm made ordinary by repetition. It receives the entire process without distinction and gives the same shine back to everything.
 
-The trophy does not know why it was won.
-
-It cannot separate tactical preparation from intimidation, discipline from fear, or necessary sacrifice from harm made ordinary by repetition. It receives the entire process without distinction and gives the same shine back to everything.
-
-That shine is one reason winning matters.
-
-A championship gathers years of labor into an object people can hold. It honors athletes whose work would otherwise disappear into seasons remembered only by those who lived them. It tells them that the early mornings, missed holidays, injuries, corrections, and repetitions became something.
+That shine is one reason winning matters. A championship gathers years of labor into an object people can hold. It honors athletes whose work would otherwise disappear into seasons remembered only by those who lived them.
 
 But the trophy cannot decide what every cost meant.
 
@@ -416,16 +328,16 @@ The trophy remains in the frame.
 
 What it is allowed to excuse does not.
 
-[^c4-knight-record]: Bob Knight: three NCAA titles at Indiana (1976, 1981, 1987); 1975–76 team 32–0; 902–371 career record across Army, Indiana, and Texas Tech (42 seasons); Division I men’s wins record at retirement (2008); 1984 Olympic gold as U.S. coach. Indiana University Athletics, “Coach Bob Knight Passes Away at 83,” Nov. 1, 2023, https://iuhoosiers.com/news/2023/11/1/mens-basketball-coach-bob-knight-passes-away-at-83; AP News obituary, Nov. 1, 2023.
+[^c4-knight-record]: Bob Knight: three NCAA titles at Indiana (1976, 1981, 1987); 1975–76 team 32–0; 902–371 career record across Army, Indiana, and Texas Tech (42 seasons); Division I men’s wins record at retirement (2008); 1984 Olympic gold as U.S. coach. Indiana University Athletics, “Coach Bob Knight Passes Away at 83,” November 1, 2023, https://iuhoosiers.com/news/2023/11/1/mens-basketball-coach-bob-knight-passes-away-at-83; Associated Press, “Bob Knight, Indiana’s combustible coaching giant, dies at age 83,” November 1, 2023, https://apnews.com/article/bob-knight-death-indiana-army-college-basketball-c29a7cb601f64e9181564037e8c78758.
 
-[^c4-knight-method]: On motion offense, coaching tree, academic emphasis, and accounts that he was not known for major NCAA recruiting violations, see IU Athletics career summary (above); John Feinstein, *A Season on the Brink* (1986), based on extensive program access; retrospective summaries in AP/ESPN obituaries. Graduation-rate and “clean program” claims are scoped as contemporaneous reputation and secondary summaries, not as a completed NCAA compliance audit reproduced here.
+[^c4-knight-method]: On motion offense, coaching tree, academic emphasis, and accounts that he was not known for major NCAA recruiting violations, see Indiana University Athletics career summary cited above; John Feinstein, *A Season on the Brink* (New York: Macmillan, 1986); retrospective summaries in Associated Press and ESPN obituaries, November 1, 2023. Graduation-rate and “clean program” claims are scoped as contemporaneous reputation and secondary summaries, not as a completed NCAA compliance audit reproduced here.
 
-[^c4-chair]: February 23, 1985, Indiana vs. Purdue at Bloomington: Knight threw a red plastic chair, received multiple technical fouls, and was ejected; he apologized the next day; Big Ten Commissioner Wayne Duke imposed a one-game suspension and two years’ probation. *Los Angeles Times*, “Knight Suspended for a Game by Big Ten for Throwing Chair,” Mar. 3, 1985; contemporaneous game accounts.
+[^c4-chair]: February 23, 1985, Indiana vs. Purdue at Bloomington: Knight threw a red plastic chair, received multiple technical fouls, and was ejected; he apologized; Big Ten Commissioner Wayne Duke imposed a one-game suspension and warned that further unsportsmanlike conduct would bring an additional suspension. *Los Angeles Times*, “Knight Suspended for a Game by Big Ten for Throwing Chair,” March 3, 1985, https://www.latimes.com/archives/la-xpm-1985-03-03-sp-32864-story.html; Associated Press, “Bob Knight’s chair: college basketball’s classic furniture,” https://apnews.com/article/bob-knight-chair-toss-indiana-76621ab4996a4e92a43a3c166ccde446.
 
-[^c4-reed]: March 14, 2000: CNN/Sports Illustrated aired Neil Reed’s accusation that Knight choked him in a 1997 practice; Knight denied; practice video later broadcast showing Knight’s hand on Reed’s neck. *Los Angeles Times*, “CNN/SI Is Validated by Knight Tape,” Apr. 14, 2000.
+[^c4-reed]: March 14, 2000: CNN/Sports Illustrated aired Neil Reed’s accusation that Knight choked him in a 1997 practice; Knight denied; practice video later broadcast showing Knight grabbing Reed by the neck. *Los Angeles Times*, “Former Hoosier Reed Says He Was Choked by Knight,” March 15, 2000, https://www.latimes.com/archives/la-xpm-2000-mar-15-sp-9181-story.html; *Los Angeles Times*, “Tape Has Knight Grabbing Player,” April 12, 2000, https://www.latimes.com/archives/la-xpm-2000-apr-12-sp-18804-story.html; ESPN, “Video supports Reed’s allegation against Knight,” April 13, 2000, http://www.espn.com/ncb/news/2000/0411/476311.html.
 
-[^c4-firing]: May 15, 2000: IU president Myles Brand announced investigation findings, sanctions (including fine and suspension), and a zero-tolerance policy. September 10, 2000: Brand fired Knight after the Kent Harvey encounter and what Brand described as a continued pattern violating the policy’s letter and spirit; students protested. ESPN transcript of Brand’s statement, Sept. 10, 2000, https://www.espn.com/ncb/news/2000/0910/735482.html; ABC News / CNN contemporaneous coverage.
+[^c4-firing]: May 15, 2000: Indiana University president Myles Brand announced investigation findings, sanctions (including fine and suspension), and a zero-tolerance policy. September 10, 2000: Brand fired Knight after the Kent Harvey encounter and what Brand described as a continued pattern violating the policy’s letter and spirit; students protested. ESPN, transcript of Brand’s statement, September 10, 2000, https://www.espn.com/ncb/news/2000/0910/735482.html; CNN, “Indiana University Keeps Coach Knight With Sanctions,” May 15, 2000, http://www.cnn.com/TRANSCRIPTS/0005/15/bn.02.html.
 
-[^c4-armstrong]: Lance Armstrong: seven consecutive Tour de France titles (1999–2005). USADA lifetime ban and disqualification of results from August 1, 1998 forward (announced Aug. 24, 2012); reasoned decision detailing the U.S. Postal Service team doping conspiracy; UCI accepted the stripping of the Tour titles. USADA, “Lance Armstrong Receives Lifetime Ban…,” https://www.usada.org/sanction/lance-armstrong-receives-lifetime-ban-and-disqualification-of-competitive-results-for-doping-violations-stemming-from-his-involvement-in-the-united-states-postal-service-pro-cycling-team-doping-conspi/; USADA Reasoned Decision PDF.
+[^c4-armstrong]: Lance Armstrong: seven consecutive Tour de France titles (1999–2005). USADA lifetime ban and disqualification of results from August 1, 1998 forward (announced August 24, 2012); reasoned decision detailing the U.S. Postal Service team doping conspiracy; UCI accepted the stripping of the Tour titles. United States Anti-Doping Agency, “Lance Armstrong Receives Lifetime Ban And Disqualification Of Competitive Results For Doping Violations Stemming From His Involvement In The United States Postal Service Pro-Cycling Team Doping Conspiracy,” August 24, 2012, https://www.usada.org/sanction/lance-armstrong-receives-lifetime-ban-and-disqualification-of-competitive-results-for-doping-violations-stemming-from-his-involvement-in-the-united-states-postal-service-pro-cycling-team-doping-conspi/; USADA, “Reasoned Decision of the United States Anti-Doping Agency on Disqualification and Ineligibility,” October 10, 2012, https://www.usada.org/wp-content/uploads/ReasonedDecision.pdf.
 
-[^c4-return]: February 8, 2020: Knight returned to Assembly Hall at halftime of Indiana–Purdue, reunited with dozens of former players, and received a sustained ovation—his first Indiana game attendance since the 2000 firing. ESPN, “Emotional Bob Knight ends 20-year split with Indiana,” Feb. 8, 2020; AP News, “Return of the Hoosier…,” Feb. 8, 2020.
+[^c4-return]: February 8, 2020: Knight returned to Assembly Hall at halftime of Indiana–Purdue, reunited with dozens of former players, and received a sustained ovation—his first Indiana game attendance since the 2000 firing. ESPN, “Emotional Bob Knight ends 20-year split with Indiana,” February 8, 2020, https://www.espn.com/mens-college-basketball/story/_/id/28660306/emotional-bob-knight-ends-20-year-split-indiana; Associated Press, “Return of the Hoosier: Knight back at Indiana after 20 years,” February 8, 2020, https://apnews.com/article/885d428d8be3e43f50a2dae95dd5ac34.

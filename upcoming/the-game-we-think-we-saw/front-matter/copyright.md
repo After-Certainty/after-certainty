@@ -1,3 +1,5 @@
+\newpage
+
 # Copyright
 
 Copyright © 2026 Kevin Steffensen.

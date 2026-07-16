@@ -1,3 +1,5 @@
+\newpage
+
 # Chapter 3
 
 ## The Authority of the Whistle

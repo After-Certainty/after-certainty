@@ -1,3 +1,5 @@
+\newpage
+
 # Author’s Note
 
 This is not a book about settling famous sports debates.

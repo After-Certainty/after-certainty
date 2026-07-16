@@ -1,3 +1,5 @@
+\newpage
+
 # Chapter 1
 
 ## What the Scoreboard Leaves Out
@@ -235,6 +237,8 @@ In the game, it belonged to more.
 The box score remains correct.
 
 The game remains larger.
+
+Often the larger game still gathers around one face.
 
 [^c1-russell-career]: Career record: thirteen seasons with Boston; eleven NBA championships; five MVP awards; 21,620 rebounds (22.5 per game). See Basketball-Reference, “Bill Russell,” https://www.basketball-reference.com/players/r/russebi01.html; NBA.com, “Legends profile: Bill Russell,” https://www.nba.com/history/legends/profiles/bill-russell.
 

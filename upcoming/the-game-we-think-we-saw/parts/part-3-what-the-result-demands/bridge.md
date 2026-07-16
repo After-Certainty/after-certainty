@@ -1,10 +1,12 @@
+\newpage
+
 # Part III
 
 ## What the Result Demands
 
-Winning is produced through bodies.
+Winning can rearrange the meaning of what came before it. The pursuit of winning rearranges the body before anyone knows what the result will be.
 
-They train, collide, recover, conceal pain, and sometimes refuse what the moment appears to require. Around them, practical needs become moral language: toughness, loyalty, courage, sacrifice.
+Athletes train, collide, recover, conceal pain, and sometimes refuse what the moment appears to require. Around them, practical needs become moral language: toughness, loyalty, courage, sacrifice.
 
 Those virtues can be real.
 

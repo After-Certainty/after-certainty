@@ -1,4 +1,4 @@
-![The Game We Think We Saw cover](book-cover.png){ width=100% }
+![](book-cover.png){ width=100% }
 
 \newpage
 
