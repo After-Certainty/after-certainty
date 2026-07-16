@@ -11,7 +11,7 @@ This is not a marketing brief. It preserves conceptual cohesion, stylistic consi
 ### Target length
 
 - Open: essay vs practice vs full-book band to be decided after architecture review.
-- Structure per `index.md`: Introduction; Part I (Ch 1–2); Part II (Ch 3–4); Part III (Ch 5–7); Conclusion.
+- Structure per `index.md`: Introduction; Part I (Ch 1–2); Part II (Ch 3–4); Part III (Ch 5–6); Part IV (Ch 7); Conclusion.
 
 ### Markdown file structure
 
@@ -37,9 +37,10 @@ Every chapter must map back to this claim. If a section cannot be tied to it, it
 
 ## Thematic arc by part
 
-- **Part I — Reading the Result:** measurement and causation; what comparison compresses and how systems are narrated as faces.
+- **Part I — What the Result Shows:** measurement and causation; what comparison compresses and how systems are narrated as faces.
 - **Part II — Why the Result Counts:** procedural legitimacy of judgment and the moral halo of winning.
-- **Part III — Cost, Refusal, Memory:** embodied cost, situated refusal, and public meaning after the event leaves the field.
+- **Part III — What the Result Demands:** embodied cost and situated refusal; moral language of sacrifice and who may say no.
+- **Part IV — What the Result Becomes:** public meaning after the event leaves the field.
 
 ## Tone and positioning
 

@@ -5,7 +5,7 @@ Central navigation for planning documents for *The Game We Think We Saw: What Sp
 ## Start here
 
 - [Book overview](book-overview.md) — title, premise, governing claim, phase
-- [Outline](outline.md) — introduction, three-part arc, seven chapters, conclusion
+- [Outline](outline.md) — introduction, four-part arc, seven chapters, conclusion
 - [Voice guide](voice-guide.md) — prose method, sports-first rule, guardrails
 - [Research plan](research-plan.md) — evidence layers, risk levels, research questions
 - [Planning briefs](planning/) — one brief per introduction, chapter, and conclusion

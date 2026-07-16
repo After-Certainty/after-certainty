@@ -2,7 +2,7 @@
 
 **Drafting status:** draft (citation + reflow complete, July 2026)  
 **Research risk:** Moderate  
-**Manuscript:** [`../../parts/part-1-reading-the-result/chapter-2-when-the-star-becomes-the-explanation.md`](../../parts/part-1-reading-the-result/chapter-2-when-the-star-becomes-the-explanation.md)  
+**Manuscript:** [`../../parts/part-1-what-the-result-shows/chapter-2-when-the-star-becomes-the-explanation.md`](../../parts/part-1-what-the-result-shows/chapter-2-when-the-star-becomes-the-explanation.md)  
 **Citation packet:** [`../research/source-packets/02-chapter-2.md`](../research/source-packets/02-chapter-2.md)
 
 ## Chapter title

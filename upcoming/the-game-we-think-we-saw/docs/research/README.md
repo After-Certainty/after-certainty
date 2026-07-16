@@ -22,6 +22,7 @@ When research deepens, add per-unit packets here (for example `source-packets/04
 
 **Started:**
 - [`source-packets/00a-authors-note.md`](source-packets/00a-authors-note.md) — Author’s Note (framing; no footnotes)
+- [`source-packets/00b-part-bridges.md`](source-packets/00b-part-bridges.md) — Part I–IV bridges + four-part regroup
 - [`source-packets/00-introduction.md`](source-packets/00-introduction.md) — introduction citation + reflow notes
 - [`source-packets/01-chapter-1.md`](source-packets/01-chapter-1.md) — Chapter 1 (Russell, Moneyball footnotes)
 - [`source-packets/02-chapter-2.md`](source-packets/02-chapter-2.md) — Chapter 2 (Brady–Belichick / 2008 / Super Bowl LV)

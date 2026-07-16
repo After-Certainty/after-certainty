@@ -25,9 +25,9 @@ The introduction should eventually establish:
 
 ---
 
-## Part I — Reading the Result
+## Part I — What the Result Shows
 
-Measurement and causation.
+Measurement and causation. What the result measured, and what produced it.
 
 ### Chapter 1 — What the Scoreboard Leaves Out
 
@@ -154,9 +154,9 @@ Procedural and moral legitimacy.
 
 ---
 
-## Part III — Cost, Refusal, Memory
+## Part III — What the Result Demands
 
-Embodied cost, agency, and retrospective meaning.
+Embodied cost and situated refusal. What athletes are persuaded to bear, and who may decide when the cost is too high.
 
 ### Chapter 5 — The Moral Language of Playing Hurt
 
@@ -202,7 +202,13 @@ Embodied cost, agency, and retrospective meaning.
 
 **Return image:** The competition continues without the athlete everyone expected to see. The absence becomes one of the event’s most visible acts.
 
-**Drafting status:** not started
+**Drafting status:** draft
+
+---
+
+## Part IV — What the Result Becomes
+
+Public meaning after the event leaves the field. The result remains fixed while the story around it continues to change.
 
 ### Chapter 7 — When a Gesture Becomes Another Message
 
@@ -237,7 +243,7 @@ Embodied cost, agency, and retrospective meaning.
 
 **Return image:** The athlete remains kneeling in the photograph while the argument moves far beyond the field.
 
-**Drafting status:** not started
+**Drafting status:** draft
 
 ---
 

@@ -10,7 +10,7 @@
 | Series | After Certainty |
 | Status | Upcoming / in development |
 | Spec status | `upcoming.status: in_progress` |
-| Current phase | Architecture and research (Phase 0) |
+| Current phase | Phase 1 — outline to prose (spine drafted) |
 | Spec | [`upcoming.yml`](../upcoming.yml) |
 
 ## Short premise
@@ -33,12 +33,13 @@ The scoreboard is not wrong. It is complete only about the question it was built
 
 | Part | Chapters | Conceptual roles |
 |------|----------|------------------|
-| I — Reading the Result | 1–2 | Measurement, causation |
+| I — What the Result Shows | 1–2 | Measurement, causation |
 | II — Why the Result Counts | 3–4 | Procedural legitimacy, moral legitimacy |
-| III — Cost, Refusal, Memory | 5–7 | Embodied cost, agency, meaning |
+| III — What the Result Demands | 5–6 | Embodied cost, agency |
+| IV — What the Result Becomes | 7 | Public meaning after the event |
 
 Introduction and conclusion frame the arc; they are not nested in parts.
 
 ## Setup note
 
-**No chapters have been drafted in this setup pass.** Manuscript files contain headings and planning pointers only. See [`status.md`](status.md).
+Manuscript spine (intro, Ch 1–7, conclusion, author’s note, part bridges) is drafted on the draft branch. See [`status.md`](status.md).

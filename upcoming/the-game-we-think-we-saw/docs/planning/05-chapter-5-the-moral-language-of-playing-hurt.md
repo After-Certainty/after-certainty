@@ -2,7 +2,7 @@
 
 **Drafting status:** draft (citation + reflow complete)  
 **Research risk:** Moderate  
-**Manuscript:** [`../../parts/part-3-cost-refusal-memory/chapter-5-the-moral-language-of-playing-hurt.md`](../../parts/part-3-cost-refusal-memory/chapter-5-the-moral-language-of-playing-hurt.md)  
+**Manuscript:** [`../../parts/part-3-what-the-result-demands/chapter-5-the-moral-language-of-playing-hurt.md`](../../parts/part-3-what-the-result-demands/chapter-5-the-moral-language-of-playing-hurt.md)  
 **Source packet:** [`../research/source-packets/05-chapter-5.md`](../research/source-packets/05-chapter-5.md)
 
 ## Chapter title
