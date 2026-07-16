@@ -1,8 +1,9 @@
 # Brief: Chapter 2 — When the Star Becomes the Explanation
 
-**Drafting status:** not started  
+**Drafting status:** draft (citation + reflow complete, July 2026)  
 **Research risk:** Moderate  
-**Manuscript stub:** [`../../parts/part-1-reading-the-result/chapter-2-when-the-star-becomes-the-explanation.md`](../../parts/part-1-reading-the-result/chapter-2-when-the-star-becomes-the-explanation.md)
+**Manuscript:** [`../../parts/part-1-reading-the-result/chapter-2-when-the-star-becomes-the-explanation.md`](../../parts/part-1-reading-the-result/chapter-2-when-the-star-becomes-the-explanation.md)  
+**Citation packet:** [`../research/source-packets/02-chapter-2.md`](../research/source-packets/02-chapter-2.md)
 
 ## Chapter title
 

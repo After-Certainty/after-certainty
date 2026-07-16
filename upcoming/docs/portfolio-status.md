@@ -12,7 +12,7 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [The Game We Think We Saw](../the-game-we-think-we-saw/) | Phase 1 | Intro + Ch 1 drafted (citation + reflow); remaining chapters stubs | Paste next unit (likely Ch 2); Ch 4 / Ch 7 dossiers before those units | [status](../the-game-we-think-we-saw/docs/status.md) |
+| [The Game We Think We Saw](../the-game-we-think-we-saw/) | Phase 1 | Intro + Ch 1–2 drafted (citation + reflow); Ch 3–7 stubs | Paste next unit (likely Ch 3); Ch 4 / Ch 7 dossiers before those units | [status](../the-game-we-think-we-saw/docs/status.md) |
 | [Why Diversity Matters](../../books/why-diversity-matters/) | Phase 0–1 | Essay edition in `books/`; outline scaffolds + interview questions | Author intro + chapter drafts | [status](../../books/why-diversity-matters/docs/status.md) |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 (essay edition) | Agent pipeline + echo gates complete; expansion decision locked (~14.5k) | Author sign-off on Parts III–IV gate; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 
