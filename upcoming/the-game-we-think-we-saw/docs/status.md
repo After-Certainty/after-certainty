@@ -44,7 +44,7 @@ Introduction landed (author draft + citation pass + reflow pass). Remaining unit
 | Ch 1 — What the Scoreboard Leaves Out | draft | Citation + reflow complete; packet [`research/source-packets/01-chapter-1.md`](research/source-packets/01-chapter-1.md) |
 | Ch 2 — When the Star Becomes the Explanation | draft | Citation + reflow complete; packet [`research/source-packets/02-chapter-2.md`](research/source-packets/02-chapter-2.md) |
 | Part II bridge | not started | Heading only |
-| Ch 3 — The Authority of the Whistle | not started | Lower research risk; external draft must not be recreated here |
+| Ch 3 — The Authority of the Whistle | draft | Author draft landed; citation + reflow; packet [`research/source-packets/03-chapter-3.md`](research/source-packets/03-chapter-3.md) |
 | Ch 4 — What Winning Is Allowed to Excuse | not started | **High research risk** — Knight dossier required before draft |
 | Part III bridge | not started | Heading only |
 | Ch 5 — The Moral Language of Playing Hurt | not started | Moderate research risk |
