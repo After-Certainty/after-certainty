@@ -59,4 +59,5 @@
 - [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md) — authority without shared meaning
 - [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/index.md) — coordination under diffuse ownership
 - [The Economy We Don't Experience](../the-economy-we-dont-experience/index.md) — lived economy vs aggregate narrative
+- [The Game We Think We Saw](../the-game-we-think-we-saw/index.md) — what a decisive sports result leaves unsettled
 - [After Certainty](../after-certainty/index.md) — practice capstone after diagnostic volumes

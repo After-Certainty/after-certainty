@@ -55,6 +55,7 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **After Certainty** — *How to Live and Judge When Understanding is not Enough* | [`books/after-certainty/index.md`](books/after-certainty/index.md) | Essay edition—capstone practice after diagnostic volumes. |
 | **The Discipline of Uncertainty** — *Judgment, Restraint, and Decision Quality Under Incomplete Information* | [`books/the-discipline-of-uncertainty/index.md`](books/the-discipline-of-uncertainty/index.md) | Judgment and restraint when information will stay incomplete. |
 | **The Economy We Don't Experience** — *Leadership, Communication, and the Credibility Crisis in Economics and Politics* | [`books/the-economy-we-dont-experience/index.md`](books/the-economy-we-dont-experience/index.md) | Expanded edition (~28–32k words)—lived economy vs aggregate narrative under compression and interpretive stress. |
+| **The Game We Think We Saw** — *What Sports Reveals About Winning, Judgment, and the Stories Results Cannot Settle* | [`books/the-game-we-think-we-saw/index.md`](books/the-game-we-think-we-saw/index.md) | Practice/mid edition (~26.5k)—what a decisive sports result leaves unsettled about cause, legitimacy, cost, and meaning. |
 | **How Trust Forms** — *Why Participation Becomes Possible* | [`books/how-trust-forms/index.md`](books/how-trust-forms/index.md) | How trust begins before certainty—beliefs, evidence, participation, and the trust cycle. |
 | **When Trust Stops Tracking Reality** — *Why Good Intentions Sometimes Become Harmful* | [`books/when-trust-stops-tracking-reality/index.md`](books/when-trust-stops-tracking-reality/index.md) | How trust drifts when it stops learning from feedback. |
 | **Trust Beyond Similarity** — *How Trust Remains Possible Across Difference* | [`books/trust-beyond-similarity/index.md`](books/trust-beyond-similarity/index.md) | How people learn to trust perspectives they do not share—and why difference makes trust more valuable. |
@@ -72,12 +73,6 @@ Together these manuscripts are part of the broader **After Certainty** thread: t
 
 ## Upcoming nonfiction
 
-Essay-length titles in progress remain under [`upcoming/`](upcoming/) (see portfolio dashboard). *Why Collaboration Is So Hard* and cluster siblings are published under `books/`—see tables above and below.
-
-| Book | Index | What it's about |
-| --- | --- | --- |
-| **When Incentives Become the Moral Language** — *How Systems Decide For Us When Judgment No Longer Scales* | [`books/when-incentives-become-the-moral-language/index.md`](books/when-incentives-become-the-moral-language/index.md) | Eight domains where metrics replaced judgment. |
-| **When Interpretation No Longer Matters** — *Authority After Understanding Collapses* | [`books/when-interpretation-no-longer-matters/index.md`](books/when-interpretation-no-longer-matters/index.md) | Authority when explanation and repair no longer work. |
-| **Why Collaboration Is So Hard** — *And why the effort still matters* | [`books/why-collaboration-is-so-hard/index.md`](books/why-collaboration-is-so-hard/index.md) | Coordination without full ownership—contribution and trust under diffuse responsibility. |
+No active nonfiction titles under [`upcoming/`](upcoming/) right now (see portfolio dashboard). Judgment / compression cluster siblings are published under `books/`—see the Books table above.
 
 **Fiction:** **Velorum** — [`books/velorum/index.md`](books/velorum/index.md). **Boundary Conditions** (organizational fiction) — [`books/boundary-conditions/index.md`](books/boundary-conditions/index.md).

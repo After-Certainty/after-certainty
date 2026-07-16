@@ -78,6 +78,12 @@ As systems grow, judgment becomes increasingly difficult to coordinate publicly.
 
 **Question:** What happens when incentives become more portable than judgment?
 
+### [The Game We Think We Saw](../books/the-game-we-think-we-saw/index.md)
+
+Sports produces unusually decisive outcomes—a score becomes final, a ruling takes effect, one side advances. Yet the result cannot fully settle what produced it, why it should count, what it is allowed to justify, who carried its cost, or what the event will eventually mean. This book follows those unsettled questions from the scoreboard into the systems, bodies, judgments, and stories surrounding the game.
+
+**Question:** What remains unsettled after a decisive sports result?
+
 ---
 
 ## Practice
@@ -218,6 +224,7 @@ These published titles extend adjacent questions. They are not required for the 
 | Partial perspective and integration | [What We Cannot See](../books/what-we-cannot-see/index.md) |
 | Coordination without full ownership | [Why Collaboration Is So Hard](../books/why-collaboration-is-so-hard/index.md) |
 | Compression in public economic speech | [The Economy We Don't Experience](../books/the-economy-we-dont-experience/index.md) |
+| What a decisive sports result leaves unsettled | [The Game We Think We Saw](../books/the-game-we-think-we-saw/index.md) |
 
 ---
 
@@ -270,9 +277,7 @@ Read before-arrives for **historical formation of moral order**; read living-in-
 
 ## Upcoming manuscripts
 
-| Book | Index | Status |
-|------|-------|--------|
-| The Game We Think We Saw | [upcoming/the-game-we-think-we-saw/index.md](../upcoming/the-game-we-think-we-saw/index.md) | Architecture and research (`in_progress`) |
+None currently under `upcoming/` for nonfiction. New scaffolds start from [`upcoming/docs/_templates/`](../upcoming/docs/_templates/).
 
 ---
 
@@ -289,6 +294,7 @@ Read before-arrives for **historical formation of moral order**; read living-in-
 | Living in Sediment | [books/living-in-sediment/index.md](../books/living-in-sediment/index.md) |
 | The Discipline of Uncertainty | [books/the-discipline-of-uncertainty/index.md](../books/the-discipline-of-uncertainty/index.md) |
 | The Economy We Don't Experience | [books/the-economy-we-dont-experience/index.md](../books/the-economy-we-dont-experience/index.md) |
+| The Game We Think We Saw | [books/the-game-we-think-we-saw/index.md](../books/the-game-we-think-we-saw/index.md) |
 | When Accountability No Longer Expires | [books/when-accountability-no-longer-expires/index.md](../books/when-accountability-no-longer-expires/index.md) |
 | When Authority Is Misread | [books/when-authority-is-misread/index.md](../books/when-authority-is-misread/index.md) |
 | When Authority Outlives Accountability | [books/when-authority-outlives-accountability/index.md](../books/when-authority-outlives-accountability/index.md) |
