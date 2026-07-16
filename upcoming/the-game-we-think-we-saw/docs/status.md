@@ -56,9 +56,9 @@ Introduction, Chapters 1–7, conclusion, author’s note, and part bridges land
 
 ## Next actions
 
-1. Resolve target-length band (~31,000 words)
-2. Title/copyright/series placeholders when ready
-3. Covers and OG landed (`book-cover.png`, `open-graph.png`)
+1. Review DOCX feedback (`make export-docx DIR=upcoming/the-game-we-think-we-saw`; CI builds when docx enabled)
+2. Resolve target-length band (~31,000 words)
+3. Title/copyright/series placeholders when ready
 
 ## Rough scale
 
