@@ -1,8 +1,9 @@
 # Brief: Chapter 6 — The Athlete Who Said No
 
-**Drafting status:** not started  
+**Drafting status:** draft (citation + reflow complete)  
 **Research risk:** Moderate  
-**Manuscript stub:** [`../../parts/part-3-cost-refusal-memory/chapter-6-the-athlete-who-said-no.md`](../../parts/part-3-cost-refusal-memory/chapter-6-the-athlete-who-said-no.md)
+**Manuscript:** [`../../parts/part-3-cost-refusal-memory/chapter-6-the-athlete-who-said-no.md`](../../parts/part-3-cost-refusal-memory/chapter-6-the-athlete-who-said-no.md)  
+**Source packet:** [`../research/source-packets/06-chapter-6.md`](../research/source-packets/06-chapter-6.md)
 
 ## Chapter title
 

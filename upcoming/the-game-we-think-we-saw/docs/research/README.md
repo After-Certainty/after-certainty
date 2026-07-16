@@ -27,3 +27,4 @@ When research deepens, add per-unit packets here (for example `source-packets/04
 - [`source-packets/03-chapter-3.md`](source-packets/03-chapter-3.md) — Chapter 3 (Dez Bryant, catch rule, VAR, MLB ABS)
 - [`source-packets/04-chapter-4.md`](source-packets/04-chapter-4.md) — Chapter 4 high-risk dossier (Knight chronology; Armstrong contrast)
 - [`source-packets/05-chapter-5.md`](source-packets/05-chapter-5.md) — Chapter 5 (concussion protocols, Pitch Smart, NBA PPP / load-management study)
+- [`source-packets/06-chapter-6.md`](source-packets/06-chapter-6.md) — Chapter 6 (Biles Tokyo/Paris, Osaka FO 2021, Luck retirement)

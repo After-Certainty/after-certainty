@@ -4,7 +4,7 @@
 
 **Phase 1 — Outline to prose**
 
-Introduction and Chapters 1–5 landed (author draft + citation pass + reflow pass). Remaining units await author paste.
+Introduction and Chapters 1–6 landed (author draft + citation pass + reflow pass). Remaining units await author paste.
 
 ## Active branch
 
@@ -48,17 +48,17 @@ Introduction and Chapters 1–5 landed (author draft + citation pass + reflow pa
 | Ch 4 — What Winning Is Allowed to Excuse | draft | High-risk dossier + citation + reflow; packet [`research/source-packets/04-chapter-4.md`](research/source-packets/04-chapter-4.md) |
 | Part III bridge | not started | Heading only |
 | Ch 5 — The Moral Language of Playing Hurt | draft | Citation + reflow complete; packet [`research/source-packets/05-chapter-5.md`](research/source-packets/05-chapter-5.md) |
-| Ch 6 — The Athlete Who Said No | not started | Moderate research risk |
+| Ch 6 — The Athlete Who Said No | draft | Citation + reflow complete; packet [`research/source-packets/06-chapter-6.md`](research/source-packets/06-chapter-6.md) |
 | Ch 7 — When a Gesture Becomes Another Message | not started | **High research risk** — Kaepernick chronology required before draft |
 | Conclusion — After the Arena Empties | not started | Brief only |
 
 ## Next actions
 
-1. Receive next author draft unit (likely Ch 6); citation + reflow intake
-2. Begin Chapter 7 Kaepernick chronology dossier before that unit
+1. Begin Chapter 7 Kaepernick chronology dossier before draft intake
+2. Receive next author draft unit (Ch 7 or conclusion); citation + reflow intake
 3. Resolve target-length band as prose accumulates
 
 ## Rough scale
 
-- Manuscript words: intro ~1,380 + Ch 1–4 ~15,150 + Ch 5 ~4,160 ≈ ~20,700
-- Last assessed: Chapter 5 draft intake (July 2026)
+- Manuscript words: intro ~1,380 + Ch 1–5 ~19,300 + Ch 6 ~4,700 ≈ ~25,400
+- Last assessed: Chapter 6 draft intake (July 2026)
