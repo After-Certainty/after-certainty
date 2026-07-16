@@ -54,11 +54,11 @@ Introduction landed (author draft + citation pass + reflow pass). Remaining unit
 
 ## Next actions
 
-1. Receive next author draft unit (likely Ch 3); citation + reflow intake — do not recreate external whistle draft unless provided
+1. Receive next author draft unit (likely Ch 4) only after Knight evidence dossier, or paste Ch 5/6 if preferred order
 2. Begin evidence dossiers for Chapters 4 and 7 before drafting those units
 3. Resolve target-length band as prose accumulates
 
 ## Rough scale
 
-- Manuscript words: intro ~1,380 + Ch 1 ~2,800 + Ch 2 ~3,900 ≈ ~8,100
-- Last assessed: Chapter 2 draft intake (July 2026)
+- Manuscript words: intro ~1,380 + Ch 1 ~2,800 + Ch 2 ~3,900 + Ch 3 ~3,900 ≈ ~12,000
+- Last assessed: Chapter 3 draft intake (July 2026)

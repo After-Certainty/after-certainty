@@ -1,8 +1,10 @@
 # Brief: Chapter 3 — The Authority of the Whistle
 
-**Drafting status:** not started  
+**Drafting status:** draft (citation + reflow complete, July 2026)  
 **Research risk:** Lower (still citation-required)  
-**Manuscript stub:** [`../../parts/part-2-why-the-result-counts/chapter-3-the-authority-of-the-whistle.md`](../../parts/part-2-why-the-result-counts/chapter-3-the-authority-of-the-whistle.md)
+**Manuscript:** [`../../parts/part-2-why-the-result-counts/chapter-3-the-authority-of-the-whistle.md`](../../parts/part-2-why-the-result-counts/chapter-3-the-authority-of-the-whistle.md)  
+**Citation packet:** [`../research/source-packets/03-chapter-3.md`](../research/source-packets/03-chapter-3.md)  
+**Note:** Author-supplied draft landed; external-draft recreation ban no longer applies to this unit.
 
 ## Chapter title
 
