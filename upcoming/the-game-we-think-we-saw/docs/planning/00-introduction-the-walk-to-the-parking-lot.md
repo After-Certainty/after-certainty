@@ -1,7 +1,8 @@
 # Brief: Introduction — The Walk to the Parking Lot
 
-**Drafting status:** not started  
-**Manuscript stub:** [`../../front-matter/introduction-the-walk-to-the-parking-lot.md`](../../front-matter/introduction-the-walk-to-the-parking-lot.md)
+**Drafting status:** draft (citation + reflow complete, July 2026)  
+**Manuscript stub:** [`../../front-matter/introduction-the-walk-to-the-parking-lot.md`](../../front-matter/introduction-the-walk-to-the-parking-lot.md)  
+**Citation packet:** [`../research/source-packets/00-introduction.md`](../research/source-packets/00-introduction.md)
 
 ## Chapter title
 

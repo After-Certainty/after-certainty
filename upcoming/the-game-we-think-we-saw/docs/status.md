@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 1 — Outline to prose (starting)**
+**Phase 1 — Outline to prose**
 
-Architecture scaffold is complete. Draft branch is open for author-supplied unit drafts. Incoming drafts will receive a citation pass and a reflow pass before landing in manuscript files.
+Introduction landed (author draft + citation pass + reflow pass). Remaining units await author paste.
 
 ## Active branch
 
@@ -39,7 +39,7 @@ Architecture scaffold is complete. Draft branch is open for author-supplied unit
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Title page / copyright / series / author's note | scaffold | Placeholders only |
-| Introduction — The Walk to the Parking Lot | not started | Brief: [`planning/00-…`](planning/00-introduction-the-walk-to-the-parking-lot.md) |
+| Introduction — The Walk to the Parking Lot | draft | Citation + reflow complete; packet [`research/source-packets/00-introduction.md`](research/source-packets/00-introduction.md) |
 | Part I bridge | not started | Heading only |
 | Ch 1 — What the Scoreboard Leaves Out | not started | Lower research risk |
 | Ch 2 — When the Star Becomes the Explanation | not started | Moderate research risk |
@@ -54,11 +54,11 @@ Architecture scaffold is complete. Draft branch is open for author-supplied unit
 
 ## Next actions
 
-1. Author architectural review of outline, briefs, and part grouping
-2. Begin evidence dossiers for Chapters 4 and 7
-3. Resolve target-length band before Phase 1 prose
+1. Receive next author draft unit (likely Ch 1); citation + reflow intake
+2. Begin evidence dossiers for Chapters 4 and 7 before drafting those units
+3. Resolve target-length band as prose accumulates
 
 ## Rough scale
 
-- Manuscript words: ~0 (scaffold only; headings and comments)
-- Last assessed: architecture and research scaffold (July 2026)
+- Manuscript words (intro only): ~1,350
+- Last assessed: introduction draft intake (July 2026)

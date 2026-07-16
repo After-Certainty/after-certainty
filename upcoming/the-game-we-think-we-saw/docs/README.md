@@ -10,6 +10,7 @@ Central navigation for planning documents for *The Game We Think We Saw: What Sp
 - [Research plan](research-plan.md) — evidence layers, risk levels, research questions
 - [Planning briefs](planning/) — one brief per introduction, chapter, and conclusion
 - [Research hub](research/README.md) — source-log template and fact-check checklist
+- [Citation packets](research/source-packets/) — per-unit claim ledgers after draft intake
 
 ## Process docs
 

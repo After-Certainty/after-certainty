@@ -18,4 +18,6 @@ Research scaffolding for architecture and later drafting. This hub does **not** 
 
 ## Future packets
 
-When research deepens, add per-unit packets here (for example `source-packets/04-chapter-4-knight.md`) following the pattern used in other After Certainty books. Do not invent packet contents in this scaffold pass.
+When research deepens, add per-unit packets here (for example `source-packets/04-chapter-4-knight.md`) following the pattern used in other After Certainty books.
+
+**Started:** [`source-packets/00-introduction.md`](source-packets/00-introduction.md) — introduction citation + reflow notes (author-analysis unit; no footnotes yet).
