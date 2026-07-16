@@ -41,7 +41,7 @@ Introduction landed (author draft + citation pass + reflow pass). Remaining unit
 | Title page / copyright / series / author's note | scaffold | Placeholders only |
 | Introduction — The Walk to the Parking Lot | draft | Citation + reflow complete; packet [`research/source-packets/00-introduction.md`](research/source-packets/00-introduction.md) |
 | Part I bridge | not started | Heading only |
-| Ch 1 — What the Scoreboard Leaves Out | not started | Lower research risk |
+| Ch 1 — What the Scoreboard Leaves Out | draft | Citation + reflow complete; packet [`research/source-packets/01-chapter-1.md`](research/source-packets/01-chapter-1.md) |
 | Ch 2 — When the Star Becomes the Explanation | not started | Moderate research risk |
 | Part II bridge | not started | Heading only |
 | Ch 3 — The Authority of the Whistle | not started | Lower research risk; external draft must not be recreated here |

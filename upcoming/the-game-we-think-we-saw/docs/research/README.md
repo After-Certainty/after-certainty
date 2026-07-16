@@ -20,4 +20,6 @@ Research scaffolding for architecture and later drafting. This hub does **not** 
 
 When research deepens, add per-unit packets here (for example `source-packets/04-chapter-4-knight.md`) following the pattern used in other After Certainty books.
 
-**Started:** [`source-packets/00-introduction.md`](source-packets/00-introduction.md) — introduction citation + reflow notes (author-analysis unit; no footnotes yet).
+**Started:**
+- [`source-packets/00-introduction.md`](source-packets/00-introduction.md) — introduction citation + reflow notes
+- [`source-packets/01-chapter-1.md`](source-packets/01-chapter-1.md) — Chapter 1 (Russell, Moneyball footnotes)
