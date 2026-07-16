@@ -4,7 +4,7 @@
 
 **Phase 1 — Outline to prose**
 
-Introduction, Chapters 1–7, and conclusion landed (author draft + citation pass + reflow pass). Part bridges remain stubs.
+Introduction, Chapters 1–7, conclusion, and author’s note landed (author draft + citation pass + reflow pass). Part bridges remain stubs.
 
 ## Active branch
 
@@ -56,10 +56,10 @@ Introduction, Chapters 1–7, and conclusion landed (author draft + citation pas
 ## Next actions
 
 1. Optional: part bridges if author supplies them
-2. Resolve target-length band now that full spine is drafted (~30,500 words)
+2. Resolve target-length band now that full spine + author’s note are drafted (~30,700 words)
 3. Deferred: covers / OG until promotion
 
 ## Rough scale
 
-- Manuscript words: intro ~1,380 + Ch 1–7 ~28,600 + conclusion ~530 ≈ ~30,500
-- Last assessed: Conclusion draft intake (July 2026)
+- Manuscript words: author’s note ~200 + intro ~1,380 + Ch 1–7 ~28,600 + conclusion ~530 ≈ ~30,700
+- Last assessed: Author’s Note draft intake (July 2026)
