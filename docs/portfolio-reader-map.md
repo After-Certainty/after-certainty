@@ -42,6 +42,7 @@ There is no single mandatory order. The table below groups books by **question**
 | When does legitimacy survive harm without renewal? | [When Accountability No Longer Expires](../books/when-accountability-no-longer-expires/index.md) |
 | When do economic narratives lose credibility? | [The Economy We Don't Experience](../books/the-economy-we-dont-experience/index.md) |
 | When does interpretation stop coordinating authority? | [When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md) |
+| What remains unsettled after a decisive sports result? | [The Game We Think We Saw](../books/the-game-we-think-we-saw/index.md) |
 
 **WOLTY editions:** Read **v1** first for the integrated field guide (harm, effectiveness, legitimacy). Use **v2** as a pattern-level companion, not a replacement.
 
@@ -51,14 +52,7 @@ There is no single mandatory order. The table below groups books by **question**
 
 ## Upcoming nonfiction (in progress)
 
-Not yet in the public export pipeline. Word counts are essay-scale unless noted.
-
-| Question | Book | Status (May 2026) |
-|----------|------|-------------------|
-| What remains unsettled after a decisive sports result? | [The Game We Think We Saw](../upcoming/the-game-we-think-we-saw/index.md) | Phase 0 (architecture and research) |
-| When do incentives replace judgment? | [When Incentives Become the Moral Language](../books/when-incentives-become-the-moral-language/index.md) | Phase 5 (agent pipeline) |
-| Why is collaboration structurally hard? | [Why Collaboration Is So Hard](../books/why-collaboration-is-so-hard/index.md) | Phase 5 (essay edition) |
-| How is uncertainty a discipline, not paralysis? | [The Discipline of Uncertainty](../books/the-discipline-of-uncertainty/index.md) | Published (essay-scale) |
+Not yet in the public export pipeline. See [`upcoming/docs/portfolio-status.md`](../upcoming/docs/portfolio-status.md) for active scaffolds.
 
 ### Disambiguation (high-overlap pairs)
 

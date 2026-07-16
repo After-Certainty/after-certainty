@@ -8,10 +8,10 @@
 | Subtitle | What Sports Reveals About Winning, Judgment, and the Stories Results Cannot Settle |
 | Author | Kevin Steffensen |
 | Series | After Certainty |
-| Status | Upcoming / Phase 4 finish (author gates open) |
-| Spec status | `upcoming.status: in_progress` |
-| Current phase | Phase 4 agent finish complete; author DOCX + length confirm before Phase 5 |
-| Spec | [`upcoming.yml`](../upcoming.yml) |
+| Status | Published under `books/` (practice/mid) |
+| Spec status | `publishing.enabled: true` |
+| Current phase | Phase 5 promote complete |
+| Spec | [`book.yml`](../book.yml) |
 
 ## Short premise
 
@@ -42,4 +42,4 @@ Introduction and conclusion frame the arc; they are not nested in parts.
 
 ## Setup note
 
-Manuscript spine complete through Phase 3 coherence and Phase 4 agent finish. See [`status.md`](status.md) and [`planning/phase-4-finish.md`](planning/phase-4-finish.md).
+Promoted to `books/` (Phase 5). See [`status.md`](status.md) and [`planning/phase-5-promote.md`](planning/phase-5-promote.md).

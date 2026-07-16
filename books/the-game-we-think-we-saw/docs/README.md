@@ -17,6 +17,7 @@ Central navigation for planning documents for *The Game We Think We Saw: What Sp
 - [Book rules](book-rules.md) — invariant constraints and non-negotiables
 - [Drafting process](drafting-process.md) — phase workflow and quality gates
 - [Status](status.md) — current phase, unit progress, next actions
+- [Phase 5 promote](planning/phase-5-promote.md) — move to `books/` and catalog updates
 - [Manuscript hub](../index.md) — manuscript reading order and chapter links
 
 ## Canonical-source map (to avoid duplication)

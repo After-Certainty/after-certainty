@@ -47,4 +47,5 @@
 
 - [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md) — authority when explanation fails
 - [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/index.md) — metrics as moral language
+- [The Game We Think We Saw](../the-game-we-think-we-saw/index.md) — what a decisive sports result leaves unsettled
 - [After Certainty](../after-certainty/index.md) — practice capstone after diagnostic volumes

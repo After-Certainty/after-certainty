@@ -10,9 +10,8 @@ This is not a marketing brief. It preserves conceptual cohesion, stylistic consi
 
 ### Target length
 
-- **Recommended (Phase 4):** practice / mid-length band (~20–35k). Current body ≈ 26.5k excluding footnotes.
+- **Locked (Phase 5):** practice / mid-length band (~20–35k). Body ≈ 26.5k excluding footnotes.
 - Not a short portfolio “essay edition” (~9–15k) without cutting the seven-chapter spine; not a full-book expansion (~40–60k+) unless the author adds cases.
-- Author confirmation still required before Phase 5 promote.
 - Structure per `index.md`: Introduction; Part I (Ch 1–2); Part II (Ch 3–4); Part III (Ch 5–6); Part IV (Ch 7); Conclusion.
 
 ### Markdown file structure

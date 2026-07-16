@@ -84,14 +84,14 @@ After all units are at least `draft`:
 - Glossary and back matter completeness
 - Final linkage check
 
-### Phase 5 — Promote to `books/`
+### Phase 5 — Promote to `books/` ✓
 
-When the manuscript is ready for the publishing pipeline:
+Completed 2026-07-16. See [`planning/phase-5-promote.md`](planning/phase-5-promote.md).
 
-- Move or copy into `books/the-game-we-think-we-saw/`
-- Migrate `upcoming.yml` → `book.yml` with publishing and exports enabled
-- Add cover and open-graph assets
-- Update [upcoming/docs/portfolio-status.md](../../docs/portfolio-status.md)
+- Moved into `books/the-game-we-think-we-saw/`
+- Migrated `upcoming.yml` → `book.yml` with publishing and exports enabled
+- Cover and open-graph assets retained
+- Updated series guide, reader map, and [upcoming/docs/portfolio-status.md](../../../upcoming/docs/portfolio-status.md)
 
 ## Commit discipline
 
@@ -99,6 +99,6 @@ When the manuscript is ready for the publishing pipeline:
 - Prefer one commit per approved part or editorial phase.
 - Never commit manuscript changes without updating `docs/status.md` when the phase changes.
 
-## Current starting phase
+## Current phase
 
-See `docs/status.md` — **Phase 4 agent finish complete; author gates open** (DOCX read-through and length-band confirmation before Phase 5 promote).
+See `docs/status.md` — **Phase 5 complete — promoted to `books/`**.

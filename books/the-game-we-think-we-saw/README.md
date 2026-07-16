@@ -3,8 +3,8 @@
 **Subtitle:** What Sports Reveals About Winning, Judgment, and the Stories Results Cannot Settle  
 **Author:** Kevin Steffensen  
 **Series:** After Certainty  
-**Status:** Upcoming / in development (`upcoming.status: in_progress`)  
-**Current phase:** Architecture and research (Phase 0)
+**Status:** Published under `books/` (practice/mid edition)  
+**Exports:** DOCX (`interior_finish`), EPUB, PDF
 
 ## Premise
 
@@ -20,12 +20,9 @@ The scoreboard is not wrong. It is complete only about the question it was built
 
 What was measured → what caused it → why it counts → what it excuses → what it demands → who may refuse → what it becomes.
 
-## Setup note
-
-This scaffold pass creates repository structure, metadata, outline, chapter briefs, research scaffolding, and voice guidance only. **No chapters have been drafted** (introduction, conclusion, and chapter prose are not started).
-
 ## Key paths
 
 - Manuscript hub: [`index.md`](index.md)
+- Spec: [`book.yml`](book.yml)
 - Planning hub: [`docs/README.md`](docs/README.md)
-- Spec: [`upcoming.yml`](upcoming.yml)
+- Status: [`docs/status.md`](docs/status.md)

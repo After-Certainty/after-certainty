@@ -49,9 +49,9 @@ What the event becomes once it leaves the field.
 
 ## Related books
 
-[Series guide](../../docs/series-guide.md) · Results, judgment, and compression cluster (upcoming)
+[Series guide](../../docs/series-guide.md) · Results, judgment, and compression cluster
 
-- [When Incentives Become the Moral Language](../../books/when-incentives-become-the-moral-language/index.md) — when metrics replace judgment
-- [How Meaning Moves](../../books/how-meaning-moves/index.md) — signal, compression, and public meaning
-- [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/index.md) — authority when public understanding collapses
-- [After Certainty](../../books/after-certainty/index.md) — practice capstone for judgment under limits
+- [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/index.md) — when metrics replace judgment
+- [How Meaning Moves](../how-meaning-moves/index.md) — signal, compression, and public meaning
+- [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md) — authority when public understanding collapses
+- [After Certainty](../after-certainty/index.md) — practice capstone for judgment under limits

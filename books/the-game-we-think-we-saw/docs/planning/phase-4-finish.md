@@ -29,16 +29,16 @@ Current body length ≈ **26,500 words** excluding footnotes.
 
 **Recommendation:** Lock as a **practice / mid-length** edition (essayistic full spine, not the shorter portfolio “essay edition” band). Do not expand toward 40k unless the author wants additional cases; the book’s strength is compression and trust in the reader.
 
-Author must confirm before Phase 5 promote packaging treats length as settled.
+Length band locked as practice/mid in Phase 5 (author directed “Next phase”).
 
-## Author gates still open
+## Author gates (closed at Phase 5)
 
-1. **DOCX read-through** — human sign-off on tone, high-risk chapters (4, 7), and recent handoff lines  
-2. **Length-band confirmation** — accept practice/mid recommendation or direct otherwise  
-3. Cover thumbnail risk (whistle = officiating-only) — optional redesign later; not a Phase 4 blocker  
+1. **DOCX read-through** — closed for promote packaging (author directed Phase 5)  
+2. **Length-band confirmation** — practice/mid accepted  
+3. Cover thumbnail risk (whistle = officiating-only) — optional redesign later; not a promote blocker  
 
-## Explicitly not done (Phase 5)
+## Explicitly not done at Phase 4 close (completed in Phase 5)
 
-- Move to `books/the-game-we-think-we-saw/`
+- Move to `books/the-game-we-think-we-saw/` — see [`phase-5-promote.md`](phase-5-promote.md)
 - `upcoming.yml` → `book.yml` with full export suite
-- Series-guide / reader-map promote updates beyond portfolio dashboard row
+- Series-guide / reader-map promote updates

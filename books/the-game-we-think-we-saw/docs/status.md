@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 4 agent finish complete — author gates open**
+**Phase 5 complete — promoted to `books/`**
 
-Manuscript-wide copy/echo pass, citation integrity, linkage check, and copyright finalization are done. Length-band **recommendation** is practice/mid (~26.5k). Remaining before Phase 5: author DOCX read-through and length-band confirmation.
+Manuscript lives at [`books/the-game-we-think-we-saw/`](../../). Spec is `book.yml` with publishing and exports enabled (DOCX with `interior_finish`, EPUB, PDF). Length band: **practice/mid** (~26.5k body, excl. footnotes).
 
 ## Active branch
 
@@ -26,19 +26,20 @@ Manuscript-wide copy/echo pass, citation integrity, linkage check, and copyright
 - [`planning/final-revision-plan.md`](planning/final-revision-plan.md)
 - [`planning/phase-3-part-coherence.md`](planning/phase-3-part-coherence.md)
 - [`planning/phase-4-finish.md`](planning/phase-4-finish.md)
-- Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
+- [`planning/phase-5-promote.md`](planning/phase-5-promote.md)
+- Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../../upcoming/docs/portfolio-status.md)
 
 ## Open decisions
 
 | Decision | Options | Status |
 |----------|---------|--------|
-| Target length | Essay / practice / full-book | **Recommended: practice/mid** (~26.5k); author confirm |
+| Target length | Essay / practice / full-book | **practice/mid** (~26.5k) |
 | Part titles | Four-part labels | Closed |
 | Cover / OG assets | Landed | Closed (whistle thumbnail risk noted) |
 | Part coherence (Phase 3) | Gate passed | Closed |
 | Phase 4 agent gates | Copy/echo, citations, linkage, copyright | Closed |
-| Author DOCX read-through | Sign-off | Open |
-| Phase 5 promote | Move to `books/` | Blocked on author gates |
+| Author DOCX read-through | Sign-off | Closed for promote (author directed Phase 5) |
+| Phase 5 promote | Move to `books/` | Closed |
 
 ## Unit progress
 
@@ -52,8 +53,8 @@ Manuscript-wide copy/echo pass, citation integrity, linkage check, and copyright
 | Ch 1–7 | ready | Revision + Phase 3/4 polish |
 | Conclusion | ready | Preserved; do not expand |
 
-## Next actions (author → Phase 5)
+## Next actions
 
-1. Author read-through of DOCX (`make export-docx DIR=upcoming/the-game-we-think-we-saw`)
-2. Confirm length band (recommend practice/mid)
-3. Phase 5: promote to `books/the-game-we-think-we-saw/` with `book.yml` exports; update series guide / reader map
+1. Export smoke: `make export-docx DIR=books/the-game-we-think-we-saw` (and epub/pdf as needed)
+2. Optional: endnotes vs footnotes production preference
+3. Optional: cover thumbnail revisit if whistle reads as officiating-only
