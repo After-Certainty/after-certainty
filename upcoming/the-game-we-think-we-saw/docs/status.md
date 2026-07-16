@@ -38,7 +38,8 @@ Introduction, Chapters 1–7, and conclusion landed (author draft + citation pas
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Title page / copyright / series / author's note | scaffold | Placeholders only |
+| Title page / copyright / series | scaffold | Placeholders only |
+| Author’s Note | draft | Citation + reflow complete; packet [`research/source-packets/00a-authors-note.md`](research/source-packets/00a-authors-note.md) |
 | Introduction — The Walk to the Parking Lot | draft | Citation + reflow complete; packet [`research/source-packets/00-introduction.md`](research/source-packets/00-introduction.md) |
 | Part I bridge | not started | Heading only |
 | Ch 1 — What the Scoreboard Leaves Out | draft | Citation + reflow complete; packet [`research/source-packets/01-chapter-1.md`](research/source-packets/01-chapter-1.md) |
