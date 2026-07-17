@@ -1,0 +1,17 @@
+# CODEOWNERS — security-sensitive paths
+# These paths affect publishing, credentials, and agent automation.
+
+.github/workflows/ @ksteffe
+.github/dependabot.yml @ksteffe
+.github/CODEOWNERS @ksteffe
+.cursor/ @ksteffe
+scripts/ @ksteffe
+tools/ @ksteffe
+schema/ @ksteffe
+pyproject.toml @ksteffe
+uv.lock @ksteffe
+requirements.txt @ksteffe
+.pre-commit-config.yaml @ksteffe
+.gitleaks.toml @ksteffe
+SECURITY.md @ksteffe
+docs/security/ @ksteffe

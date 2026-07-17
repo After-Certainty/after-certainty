@@ -1,5 +1,5 @@
-# Ruff (lint + format) and pytest for tools/, scripts/, and tests/ (manifest + pipeline helpers).
-# Split into two jobs so PR checks list "lint" and "test" separately.
+# Ruff (lint + format), pytest, secret scan, dependency audit, and clean-tree check
+# for tools/, scripts/, and tests/.
 
 name: Python lint & tests
 
@@ -16,41 +16,117 @@ concurrency:
 permissions:
   contents: read
 
+env:
+  PYTHON_VERSION: "3.12.3"
+  GITLEAKS_VERSION: "8.30.0"
+  GITLEAKS_SHA256: "79a3ab579b53f71efd634f3aaf7e04a0fa0cf206b7ed434638d1547a2470a66e"
+
 jobs:
   lint:
     name: Ruff (lint + format)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
 
-      - name: Install dependencies
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies (frozen lock)
         run: |
           set -euo pipefail
-          python3 -m pip install --user -r requirements.txt
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          uv sync --frozen
 
       - name: Ruff lint and format check
         run: |
           set -euo pipefail
-          python3 -m ruff check tools scripts tests
-          python3 -m ruff format --check tools scripts tests
+          uv run ruff check tools scripts tests
+          uv run ruff format --check tools scripts tests
 
   test:
     name: pytest
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
 
-      - name: Install dependencies
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies (frozen lock)
         run: |
           set -euo pipefail
-          python3 -m pip install --user -r requirements.txt
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          uv sync --frozen
 
       - name: Verify semantic ontology (issue #116 Phase 1)
         run: |
           set -euo pipefail
-          make verify-semantic-ontology
+          uv run make verify-semantic-ontology
 
       - name: Run pytest
         run: |
           set -euo pipefail
-          python3 -m pytest tests/ -q --tb=short
+          uv run pytest tests/ -q --tb=short
+
+      - name: Clean-tree check after tests
+        run: |
+          set -euo pipefail
+          bash scripts/check_clean_tree.sh
+
+  secret-scan:
+    name: Gitleaks (read-only)
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Install gitleaks (checksum-verified)
+        run: |
+          set -euo pipefail
+          archive="gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          url="https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/${archive}"
+          curl -fsSL "$url" -o "/tmp/${archive}"
+          echo "${GITLEAKS_SHA256}  /tmp/${archive}" | sha256sum -c -
+          tar -xzf "/tmp/${archive}" -C /tmp gitleaks
+          sudo install -m 755 /tmp/gitleaks /usr/local/bin/gitleaks
+          gitleaks version
+
+      - name: Scan worktree and history
+        run: |
+          set -euo pipefail
+          gitleaks detect --source . --config .gitleaks.toml --verbose --redact --no-git
+          gitleaks detect --source . --config .gitleaks.toml --verbose --redact
+
+  dependency-audit:
+    name: pip-audit (locked)
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install uv and sync frozen
+        run: |
+          set -euo pipefail
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          uv sync --frozen
+
+      - name: Audit locked dependencies
+        run: |
+          set -euo pipefail
+          uv run pip-audit

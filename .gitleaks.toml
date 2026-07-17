@@ -1,0 +1,28 @@
+# Gitleaks config for after-certainty.
+# Tuned for manuscript prose and citations; do not exclude large source trees.
+title = "after-certainty"
+
+[extend]
+# Use default gitleaks rules as the base.
+useDefault = true
+
+[allowlist]
+description = "Documented false positives only"
+
+# Placeholder patterns in tests and security docs (never real credentials).
+paths = [
+  '''tests/test_no_secrets_in_repo\.py''',
+  '''tests/test_manifest_books\.py''',
+  '''tests/test_scan_generated_secrets\.py''',
+  '''tests/test_fake_credential_remote\.py''',
+  '''tests/test_revalidate_site_cache\.py''',
+  '''docs/security/.*''',
+  '''\.gitleaks\.toml''',
+]
+
+# Synthetic tokens used only in regression fixtures / docs.
+regexes = [
+  '''TESTONLY_NOT_A_SECRET''',
+  '''x-access-token:TESTONLY''',
+  '''ghp_TESTONLY''',
+]

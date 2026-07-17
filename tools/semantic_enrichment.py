@@ -23,6 +23,7 @@ from book_specs import (  # noqa: E402
     load_any_book_spec,
     spec_book_dir,
 )
+from path_safety import PathSafetyError, ensure_repo_relative, safe_book_id  # noqa: E402
 
 try:
     import yaml
@@ -69,6 +70,10 @@ TRAJECTORY_PHASES = (
 
 def find_book_dir(repo: Path, book_id: str) -> Path:
     """Return repo-relative book directory for ``book_id`` (books/ or upcoming/)."""
+    try:
+        book_id = safe_book_id(book_id)
+    except PathSafetyError as exc:
+        raise ValueError(str(exc)) from exc
     repo = repo.resolve()
     for spec_path in discover_book_spec_paths(repo) + discover_upcoming_spec_paths(repo):
         spec = load_any_book_spec(spec_path)
@@ -140,7 +145,13 @@ def draft_path(
     entity_type: str,
     slug: str,
 ) -> Path:
-    return (repo / ENRICHMENT_ROOT / book_id / agent_type / entity_type / f"{slug}.yml").resolve()
+    book_id = safe_book_id(book_id)
+    # Contain the entire draft path under the enrichment root.
+    rel = f"{ENRICHMENT_ROOT.as_posix()}/{book_id}/{agent_type}/{entity_type}/{slug}.yml"
+    try:
+        return ensure_repo_relative(repo, rel, description="enrichment draft path")
+    except PathSafetyError as exc:
+        raise ValueError(str(exc)) from exc
 
 
 def _merge_string_lists(existing: object, proposed: object) -> list[str]:

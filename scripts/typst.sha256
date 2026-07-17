@@ -1,0 +1,3 @@
+# SHA-256 digests for Typst release archives used by scripts/install_typst.sh
+# Format: <sha256>  <archive-filename>
+a6044cbad2a954deb921167e257e120ac0a16b20339ec01121194ff9d394996d  typst-x86_64-unknown-linux-musl.tar.xz

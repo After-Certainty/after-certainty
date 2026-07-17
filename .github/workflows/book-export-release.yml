@@ -3,10 +3,12 @@
 # multiple editions (e.g. books/when-others-look-to-you/v1 and v2) fan out when a change
 # is under the parent but not inside one edition path.
 #
-# Runs on pushes to main, pull requests targeting main (verify exports before merge),
-# and workflow_dispatch (full rebuild). Only pushes to main update the rolling release.
-# Upcoming books export on PRs/branches when formats are enabled; their artifacts are
-# workflow artifacts only and are excluded from the rolling ``latest`` release on main.
+# Security model:
+# - Preparation jobs (read-only) run all repository Python and produce a scanned
+#   release-staging artifact with SHA256SUMS.
+# - Publication jobs (contents: write) only download that artifact and run short
+#   audited shell scripts — no general-purpose tools/*.py execution.
+# - Cache revalidation uses a hardcoded allowlisted HTTPS URL only.
 
 name: Book export (DOCX + EPUB + PDF)
 
@@ -24,14 +26,21 @@ concurrency:
 permissions:
   contents: read
 
+env:
+  PYTHON_VERSION: "3.12.3"
+
 jobs:
-  # Dedicated job so PR checks show "Semantic YAML & book specs" instead of bundling
-  # verify_semantic_yaml into the detect/matrix step.
   semantic-yaml:
     name: Semantic YAML & book specs
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install Python dependencies
         run: |
@@ -50,15 +59,20 @@ jobs:
 
   detect:
     needs: semantic-yaml
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       matrix: ${{ steps.set.outputs.matrix }}
       empty: ${{ steps.set.outputs.empty }}
       count: ${{ steps.set.outputs.count }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
         with:
           fetch-depth: 0
+          persist-credentials: false
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Resolve affected books
         id: set
@@ -89,13 +103,19 @@ jobs:
     name: ${{ matrix.dir }}
     needs: detect
     if: needs.detect.outputs.empty != 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
         include: ${{ fromJSON(needs.detect.outputs.matrix) }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install Pandoc, Python helpers, diagram rasterization
         run: |
@@ -136,221 +156,203 @@ jobs:
             fi
           fi
 
-      - uses: actions/upload-artifact@v7
+      - name: Scan book upload for secrets
+        run: |
+          set -euo pipefail
+          python3 tools/scan_generated_secrets.py upload
+
+      - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
         with:
           name: book-${{ matrix.slug }}
           path: upload/*
           if-no-files-found: error
 
-  release:
+  prepare-release:
+    name: Prepare release staging
     needs: [detect, export]
     if: >
       always() &&
       needs.detect.outputs.empty != 'true' &&
       needs.export.result == 'success' &&
       github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
-      contents: write
-    env:
-      GH_REPO: ${{ github.repository }}
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      contents: read
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
 
-      - uses: actions/download-artifact@v8
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - uses: actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0
         with:
           pattern: book-*
           path: built
           merge-multiple: true
 
-      - name: Fetch existing rolling release assets
-        continue-on-error: true
+      - name: Fetch existing rolling release assets (read-only)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
+          set -euo pipefail
           mkdir -p prior
-          gh release download latest --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' --pattern '*.manifest.json' --pattern 'books-manifest.json' --pattern 'semantic-manifest.json' --dir prior || true
+          # contents:read token — cannot create/alter/delete releases.
+          gh release download latest \
+            --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' \
+            --pattern '*.manifest.json' --pattern 'books-manifest.json' \
+            --pattern 'semantic-manifest.json' --pattern 'SHA256SUMS' \
+            --dir prior || true
 
-      - name: Merge prior assets with new builds
+      - name: Install Python deps and prepare staging
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PREPARE_MODE: books
+          PRIOR_DIR: prior
+          BUILT_DIR: built
+          OUT_DIR: upload
+          # Explicitly unset write-capable tokens for Python preparation.
+          GH_TOKEN: ""
+          GITHUB_TOKEN: ""
         run: |
           set -euo pipefail
           python3 -m pip install --user pyyaml jsonschema
-          python3 tools/merge_release_assets.py \
-            --repo . \
-            --prior-dir prior \
-            --built-dir built \
-            --out-dir upload
-          ls -la upload
+          bash scripts/prepare_release_staging.sh
 
-      - name: Build aggregate books manifest
+      - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: release-staging
+          path: upload/
+          if-no-files-found: error
+
+  publish-release:
+    name: Publish latest release
+    needs: [detect, prepare-release]
+    if: >
+      always() &&
+      needs.detect.outputs.empty != 'true' &&
+      needs.prepare-release.result == 'success' &&
+      github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+
+      - uses: actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0
+        with:
+          name: release-staging
+          path: staging
+
+      - name: Publish rolling latest release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
-          python3 -m pip install --user pyyaml jsonschema
-          python3 tools/verify_semantic_yaml.py --repo . --strict-prose
-          python3 tools/generate_books_manifest.py \
-            --repo . \
-            --out upload/books-manifest.json \
-            --github-repository "${{ github.repository }}" \
-            --github-ref "main" \
-            --release-tag "latest"
-          python3 tools/validate_books_manifest.py --repo . --manifest upload/books-manifest.json
-          python3 tools/generate_semantic_manifest.py \
-            --repo . \
-            --out upload/semantic-manifest.json \
-            --github-repository "${{ github.repository }}" \
-            --github-ref "main" \
-            --release-tag "latest"
-          python3 tools/validate_semantic_manifest.py --repo . --manifest upload/semantic-manifest.json
+          set +x
+          bash scripts/publish_latest_release.sh staging \
+            "Automated exports. This push built ${{ needs.detect.outputs.count }} book(s) at commit ${{ github.sha }}."
 
-      - name: Update latest release
-        run: |
-          set -euo pipefail
-          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
-          gh release create latest \
-            --title "Latest book exports" \
-            --notes "Automated exports. This push built ${{ needs.detect.outputs.count }} book(s) at commit ${{ github.sha }}." \
-            upload/*
-
-      # Refresh www.after-certainty.com caches (podcast RSS, semantic graph, books catalog).
       - name: Revalidate www.after-certainty.com caches
         env:
           CACHE_REVALIDATE_SECRET: ${{ secrets.CACHE_REVALIDATE_SECRET }}
-          SITE_REVALIDATE_URL: ${{ vars.SITE_REVALIDATE_URL }}
         run: |
           set -euo pipefail
-          if [ -z "${CACHE_REVALIDATE_SECRET:-}" ]; then
-            echo "CACHE_REVALIDATE_SECRET not set; skipping site revalidate."
-            exit 0
-          fi
-          url="${SITE_REVALIDATE_URL:-https://www.after-certainty.com/api/cache/revalidate}"
-          code=$(curl -sS -o /tmp/site-revalidate.json -w "%{http_code}" \
-            -X POST "$url" \
-            -H "Authorization: Bearer ${CACHE_REVALIDATE_SECRET}" \
-            -H "Content-Type: application/json" \
-            -d '{"targets":["podcast","semantic","books"]}')
-          cat /tmp/site-revalidate.json
-          echo ""
-          if [ "$code" != "200" ]; then
-            echo "Site revalidate failed (HTTP ${code}). Deploy after-certainty-site with /api/cache/revalidate and matching CACHE_REVALIDATE_SECRET on Vercel."
-            exit 1
-          fi
-          echo "Revalidated www.after-certainty.com: podcast RSS, semantic-manifest.json, books-manifest.json"
+          set +x
+          bash scripts/revalidate_site_cache.sh
 
-  # Always rebuild semantic manifest and revalidate cache on main pushes, independent of
-  # whether books were affected. Prevents semantic YAML changes from being ignored when
-  # no books are rebuilt. Runs only when the release job doesn't run (to avoid race
-  # conditions on the latest release).
-  semantic-manifest-release:
+  prepare-semantic-release:
+    name: Prepare semantic-only staging
     needs: [detect, export]
     if: >
       always() &&
       needs.detect.outputs.empty == 'true' &&
       github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
-      contents: write
-    env:
-      GH_REPO: ${{ github.repository }}
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      contents: read
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
 
-      - name: Fetch existing rolling release assets
-        continue-on-error: true
-        run: |
-          mkdir -p prior
-          gh release download latest --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' --pattern '*.manifest.json' --pattern 'books-manifest.json' --pattern 'semantic-manifest.json' --dir prior || true
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Copy prior assets to upload directory
+      - name: Fetch existing rolling release assets (read-only)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
-          mkdir -p upload
-          if [ -d prior ] && [ "$(ls -A prior)" ]; then
-            cp prior/* upload/ 2>/dev/null || true
-          fi
-          ls -la upload
+          mkdir -p prior
+          gh release download latest \
+            --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' \
+            --pattern '*.manifest.json' --pattern 'books-manifest.json' \
+            --pattern 'semantic-manifest.json' --pattern 'SHA256SUMS' \
+            --dir prior || true
 
-      - name: Build semantic manifest
+      - name: Install Python deps and prepare staging
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PREPARE_MODE: semantic-only
+          PRIOR_DIR: prior
+          OUT_DIR: upload
+          GH_TOKEN: ""
+          GITHUB_TOKEN: ""
         run: |
           set -euo pipefail
           python3 -m pip install --user pyyaml jsonschema
-          python3 tools/verify_semantic_yaml.py --repo . --strict-prose
-          python3 tools/generate_semantic_manifest.py \
-            --repo . \
-            --out upload/semantic-manifest.json \
-            --github-repository "${{ github.repository }}" \
-            --github-ref "main" \
-            --release-tag "latest"
-          python3 tools/validate_semantic_manifest.py --repo . --manifest upload/semantic-manifest.json
+          bash scripts/prepare_release_staging.sh
 
-      - name: Verify manifest content matches source YAML
+      - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
+        with:
+          name: release-staging-semantic
+          path: upload/
+          if-no-files-found: error
+
+  publish-semantic-release:
+    name: Publish semantic-only release
+    needs: [detect, prepare-semantic-release]
+    if: >
+      always() &&
+      needs.detect.outputs.empty == 'true' &&
+      needs.prepare-semantic-release.result == 'success' &&
+      github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
+
+      - uses: actions/download-artifact@70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3 # v8.0.0
+        with:
+          name: release-staging-semantic
+          path: staging
+
+      - name: Publish rolling latest release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
         run: |
           set -euo pipefail
-          python3 -c '
-          import json
-          import yaml
-          from pathlib import Path
+          set +x
+          bash scripts/publish_latest_release.sh staging \
+            "Automated exports. Semantic manifest rebuilt at commit ${{ github.sha }}."
 
-          manifest = json.loads(Path("upload/semantic-manifest.json").read_text())
-          glossary_by_slug = {entry["slug"]: entry for entry in manifest["glossary"]}
-
-          # Spot-check a few known glossary entries to ensure they match source YAML
-          test_slugs = ["acceleration", "friction", "contestability"]
-          for slug in test_slugs:
-              if slug in glossary_by_slug:
-                  yaml_path = Path("semantic/glossary/{}.yml".format(slug))
-                  if yaml_path.exists():
-                      yaml_data = yaml.safe_load(yaml_path.read_text())
-                      manifest_entry = glossary_by_slug[slug]
-                      
-                      yaml_short = yaml_data.get("shortDefinition", "")
-                      man_short = manifest_entry.get("shortDefinition", "")
-                      if yaml_short != man_short:
-                          print("ERROR: {}.yml shortDefinition does not match manifest".format(slug))
-                          print("  YAML: {}...".format(yaml_short[:100]))
-                          print("  Manifest: {}...".format(man_short[:100]))
-                          exit(1)
-                      
-                      yaml_long = yaml_data.get("longDefinition")
-                      man_long = manifest_entry.get("longDefinition", "")
-                      if yaml_long and yaml_long != man_long:
-                          print("ERROR: {}.yml longDefinition does not match manifest".format(slug))
-                          print("  YAML: {}...".format(yaml_long[:100]))
-                          print("  Manifest: {}...".format(man_long[:100]))
-                          exit(1)
-
-          print("✓ Verified {} glossary entries match source YAML".format(len(test_slugs)))
-          '
-
-      - name: Update latest release with semantic manifest
-        run: |
-          set -euo pipefail
-          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
-          gh release create latest \
-            --title "Latest book exports" \
-            --notes "Automated exports. Semantic manifest rebuilt at commit ${{ github.sha }}." \
-            upload/*
-
-      # Refresh www.after-certainty.com caches (podcast RSS, semantic graph, books catalog).
       - name: Revalidate www.after-certainty.com caches
         env:
           CACHE_REVALIDATE_SECRET: ${{ secrets.CACHE_REVALIDATE_SECRET }}
-          SITE_REVALIDATE_URL: ${{ vars.SITE_REVALIDATE_URL }}
         run: |
           set -euo pipefail
-          if [ -z "${CACHE_REVALIDATE_SECRET:-}" ]; then
-            echo "CACHE_REVALIDATE_SECRET not set; skipping site revalidate."
-            exit 0
-          fi
-          url="${SITE_REVALIDATE_URL:-https://www.after-certainty.com/api/cache/revalidate}"
-          code=$(curl -sS -o /tmp/site-revalidate.json -w "%{http_code}" \
-            -X POST "$url" \
-            -H "Authorization: Bearer ${CACHE_REVALIDATE_SECRET}" \
-            -H "Content-Type: application/json" \
-            -d '{"targets":["podcast","semantic","books"]}')
-          cat /tmp/site-revalidate.json
-          echo ""
-          if [ "$code" != "200" ]; then
-            echo "Site revalidate failed (HTTP ${code}). Deploy after-certainty-site with /api/cache/revalidate and matching CACHE_REVALIDATE_SECRET on Vercel."
-            exit 1
-          fi
-          echo "Revalidated www.after-certainty.com: podcast RSS, semantic-manifest.json, books-manifest.json"
+          set +x
+          bash scripts/revalidate_site_cache.sh

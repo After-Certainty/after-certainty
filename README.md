@@ -31,6 +31,10 @@ The shape of these blocks is validated by [`schema/book.schema.json`](schema/boo
 
 Publishable manuscripts live under [`books/`](books/) (for example [`books/coupling/`](books/coupling/), [`books/how-meaning-moves/`](books/how-meaning-moves/), [`books/velorum/`](books/velorum/)). Export basenames omit the leading `books/` prefix (e.g. `how-meaning-moves.docx`, `velorum.docx`). Future manuscripts are scaffolded under [`upcoming/`](upcoming/) until they are ready to promote into `books/`.
 
+## Security
+
+See [`SECURITY.md`](SECURITY.md) and [`docs/security/`](docs/security/) for the threat model, credential-free Cursor setup, and the manual GitHub settings checklist. Prefer `uv sync --frozen` so CI and local installs match `uv.lock`.
+
 ## License
 
 Unless otherwise noted, original content in this repository is licensed under [**Creative Commons Attribution-ShareAlike 4.0 International** (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) — you may share and adapt the material provided you give appropriate credit and distribute derivatives under the same license. See [`LICENSE`](LICENSE) for the full legal terms.

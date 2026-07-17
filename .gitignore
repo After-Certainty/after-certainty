@@ -14,6 +14,11 @@
 # Python
 **/__pycache__/
 tools/__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+uv.lock.tmp
+*.egg-info/
 
 # Local build outputs (e.g. make generate-books-manifest → build/books-manifest.json)
 build/

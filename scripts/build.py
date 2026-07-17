@@ -26,6 +26,7 @@ from book_specs import (  # noqa: E402
     spec_publication_boundary_validation,
 )
 from frontmatter_gen import generate_frontmatter_for_book  # noqa: E402
+from path_safety import PathSafetyError, ensure_repo_relative, ensure_under  # noqa: E402
 from validate_publication_manuscript import validate_book_for_publication  # noqa: E402
 
 
@@ -44,8 +45,20 @@ def main() -> None:
 
     repo = Path(args.repo).resolve()
     book_rel = args.book_dir
-    book_dir = (repo / book_rel).resolve()
-    out_dir = Path(args.out_dir).resolve()
+    try:
+        book_dir = ensure_repo_relative(repo, book_rel, description="book-dir")
+        out_arg = Path(args.out_dir)
+        if out_arg.is_absolute():
+            # Absolute out dirs are operator/CI controlled (e.g. pytest tmp_path).
+            out_dir = out_arg.resolve()
+        else:
+            # Relative outs must stay under the repo or the process cwd (CI ``upload/``).
+            try:
+                out_dir = ensure_under(Path.cwd().resolve(), args.out_dir, description="out-dir")
+            except PathSafetyError:
+                out_dir = ensure_repo_relative(repo, args.out_dir, description="out-dir")
+    except PathSafetyError as exc:
+        raise SystemExit(str(exc)) from exc
     out_dir.mkdir(parents=True, exist_ok=True)
     stem = args.out_stem.strip() or stem_for_book_dir(book_dir.as_posix(), root=repo)
     spec = load_spec_for_book_rel(repo, book_rel)
