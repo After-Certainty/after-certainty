@@ -1,5 +1,11 @@
 # Gitleaks config for after-certainty.
 # Tuned for manuscript prose and citations; do not exclude large source trees.
+#
+# Worktree scans (--no-git) must stay strict. Historical commits below document a
+# prior failure mode (tokenized git remotes embedded in portfolio-audit manifests)
+# that was remediated by sanitize_github_repo_slug(), gitignoring those snapshots,
+# and tests/test_no_secrets_in_repo.py. Do not add broad path exclusions for
+# books/, semantic/, or tools/.
 title = "after-certainty"
 
 [extend]
@@ -7,7 +13,7 @@ title = "after-certainty"
 useDefault = true
 
 [allowlist]
-description = "Documented false positives only"
+description = "Documented false positives and remediated historical commits only"
 
 # Placeholder patterns in tests and security docs (never real credentials).
 paths = [
@@ -25,4 +31,14 @@ regexes = [
   '''TESTONLY_NOT_A_SECRET''',
   '''x-access-token:TESTONLY''',
   '''ghp_TESTONLY''',
+]
+
+# Known prior leak (Jul 2026): x-access-token embedded in generated
+# docs/portfolio-audit/data/*-manifest.json. Those files are no longer tracked
+# (.gitignore). New commits that reintroduce secrets must still fail the scan.
+commits = [
+  "b8f181bbe1c02f736f06a4c6b590c5ba85a9f7b0",
+  "84b9971d427219e72832f575a9bf7f25b9b12d22",
+  "9810c2132a79d2437b28ccf0c6abb9e284100b43",
+  "cbff3d475d8fb55ea88965a55cbb993dfd5896e6",
 ]

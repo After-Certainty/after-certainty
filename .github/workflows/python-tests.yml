@@ -104,7 +104,10 @@ jobs:
       - name: Scan worktree and history
         run: |
           set -euo pipefail
+          # Current tree must be clean (catches reintroduction of secrets).
           gitleaks detect --source . --config .gitleaks.toml --verbose --redact --no-git
+          # Full history: only the documented prior-leak commits are allowlisted
+          # in .gitleaks.toml (portfolio-audit manifests; since removed/gitignored).
           gitleaks detect --source . --config .gitleaks.toml --verbose --redact
 
   dependency-audit:
