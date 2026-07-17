@@ -4,7 +4,7 @@ import type { GraphEntityKind } from "@/types/semanticGraph";
  * GA4 setup (Admin):
  * - Data streams → Enhanced measurement: page views on; "Page changes based on browser history events" on.
  * - Enable Consent Mode on the web stream.
- * - Mark key events (file_download, generate_lead) after validating names in DebugView.
+ * - Mark key events (file_download) after validating names in DebugView.
  *
  * Custom dimensions (optional): register `content_type`, `location`, `platform` for standard reports.
  */
@@ -35,16 +35,10 @@ export type OutboundClickParams = {
   platform?: string;
 };
 
-/** Future newsletter signup — mark as Key event when Beehiiv form ships. */
-export type GenerateLeadParams = {
-  method?: string;
-};
-
 export const AnalyticsEvents = {
   selectContent: "select_content",
   fileDownload: "file_download",
   outboundClick: "click",
-  generateLead: "generate_lead",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];

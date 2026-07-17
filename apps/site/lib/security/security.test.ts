@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import { SECURITY_HEADERS } from "@/lib/security/headers";
 import { httpUrlSchema, youtubeVideoIdSchema } from "@/lib/security/zod-urls";
-import { isHttpOrHttpsUrl, onlyHttpOrHttpsUrl } from "@/lib/security/urls";
+import { isHttpOrHttpsUrl, isSafeHref, onlyHttpOrHttpsUrl } from "@/lib/security/urls";
 
 describe("security URL helpers", () => {
   it("accepts only http and https URLs", () => {
@@ -11,6 +11,15 @@ describe("security URL helpers", () => {
     expect(isHttpOrHttpsUrl("javascript:alert(1)")).toBe(false);
     expect(isHttpOrHttpsUrl("data:text/html,hi")).toBe(false);
     expect(onlyHttpOrHttpsUrl("javascript:alert(1)")).toBeUndefined();
+  });
+
+  it("allows relative, hash, mailto, and http(s) for MDX hrefs", () => {
+    expect(isSafeHref("/about")).toBe(true);
+    expect(isSafeHref("#section")).toBe(true);
+    expect(isSafeHref("mailto:hello@example.com")).toBe(true);
+    expect(isSafeHref("https://example.com")).toBe(true);
+    expect(isSafeHref("javascript:alert(1)")).toBe(false);
+    expect(isSafeHref("data:text/html,hi")).toBe(false);
   });
 
   it("rejects hostile schemes in Zod httpUrlSchema", () => {

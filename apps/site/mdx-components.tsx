@@ -1,6 +1,8 @@
 import type { MDXComponents } from "mdx/types";
 import type { ImgHTMLAttributes } from "react";
 
+import { isSafeHref } from "@/lib/security/urls";
+
 const components = {
   h1: ({ children }) => (
     <h1 className="font-display text-4xl font-medium tracking-tight text-fg md:text-5xl">
@@ -15,17 +17,20 @@ const components = {
   h3: ({ children }) => (
     <h3 className="mt-10 font-display text-2xl font-medium text-fg">{children}</h3>
   ),
-  p: ({ children }) => (
-    <p className="mt-6 text-lg leading-relaxed text-muted">{children}</p>
-  ),
-  a: ({ children, href }) => (
-    <a
-      className="text-accent underline decoration-accent/40 underline-offset-4 transition-colors hover:decoration-accent"
-      href={href}
-    >
-      {children}
-    </a>
-  ),
+  p: ({ children }) => <p className="mt-6 text-lg leading-relaxed text-muted">{children}</p>,
+  a: ({ children, href }) => {
+    if (!isSafeHref(href)) {
+      return <span className="text-accent">{children}</span>;
+    }
+    return (
+      <a
+        className="text-accent underline decoration-accent/40 underline-offset-4 transition-colors hover:decoration-accent"
+        href={href}
+      >
+        {children}
+      </a>
+    );
+  },
   ul: ({ children }) => (
     <ul className="mt-6 list-disc space-y-2 pl-6 text-lg text-muted">{children}</ul>
   ),
@@ -43,7 +48,11 @@ const components = {
       <table className="w-full border-collapse text-left text-sm text-muted">{children}</table>
     </div>
   ),
-  thead: ({ children }) => <thead className="bg-bg-elevated/80 text-xs uppercase tracking-[0.15em] text-fg">{children}</thead>,
+  thead: ({ children }) => (
+    <thead className="bg-bg-elevated/80 text-xs uppercase tracking-[0.15em] text-fg">
+      {children}
+    </thead>
+  ),
   tbody: ({ children }) => <tbody>{children}</tbody>,
   tr: ({ children }) => <tr className="border-t border-border/50">{children}</tr>,
   th: ({ children }) => <th className="px-4 py-3 font-medium">{children}</th>,

@@ -60,10 +60,6 @@ export function trackFileDownload(params: {
   trackEvent("file_download", params);
 }
 
-export function trackNewsletterSignup(): void {
-  trackEvent("generate_lead", { method: "beehiiv" });
-}
-
 /** Declarative analytics payload for `TrackedLink` / `CTAButton`. */
 export function outboundLinkAnalytics(
   link_url: string,
