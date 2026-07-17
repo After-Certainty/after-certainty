@@ -20,6 +20,8 @@ env:
   PYTHON_VERSION: "3.12.3"
   GITLEAKS_VERSION: "8.30.0"
   GITLEAKS_SHA256: "79a3ab579b53f71efd634f3aaf7e04a0fa0cf206b7ed434638d1547a2470a66e"
+  UV_VERSION: "0.11.29"
+  UV_SHA256: "04f8b82f5d47f0512dcd32c67a4a6f16a0ea27c81537c338fd0ad6b23cebe829"
 
 jobs:
   lint:
@@ -37,15 +39,13 @@ jobs:
       - name: Install dependencies (frozen lock)
         run: |
           set -euo pipefail
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
-          uv sync --frozen
+          bash scripts/ci_uv_sync.sh
 
       - name: Ruff lint and format check
         run: |
           set -euo pipefail
-          uv run ruff check tools scripts tests
-          uv run ruff format --check tools scripts tests
+          ruff check tools scripts tests
+          ruff format --check tools scripts tests
 
   test:
     name: pytest
@@ -62,19 +62,17 @@ jobs:
       - name: Install dependencies (frozen lock)
         run: |
           set -euo pipefail
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
-          uv sync --frozen
+          bash scripts/ci_uv_sync.sh
 
       - name: Verify semantic ontology (issue #116 Phase 1)
         run: |
           set -euo pipefail
-          uv run make verify-semantic-ontology
+          make verify-semantic-ontology
 
       - name: Run pytest
         run: |
           set -euo pipefail
-          uv run pytest tests/ -q --tb=short
+          pytest tests/ -q --tb=short
 
       - name: Clean-tree check after tests
         run: |
@@ -125,11 +123,9 @@ jobs:
       - name: Install uv and sync frozen
         run: |
           set -euo pipefail
-          curl -LsSf https://astral.sh/uv/install.sh | sh
-          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
-          uv sync --frozen
+          bash scripts/ci_uv_sync.sh
 
       - name: Audit locked dependencies
         run: |
           set -euo pipefail
-          uv run pip-audit
+          pip-audit

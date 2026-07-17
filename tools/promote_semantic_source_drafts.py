@@ -35,6 +35,7 @@ if str(_TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(_TOOLS_DIR))
 
 from dedupe_semantic_sources import collapse_prefix_duplicates, dedupe  # noqa: E402
+from path_safety import PathSafetyError, ensure_repo_relative, safe_book_id  # noqa: E402
 from source_metadata import enrich_source_record  # noqa: E402
 
 DEFAULT_DRAFT_ROOT = Path("semantic/_drafts/generated/sources")
@@ -184,20 +185,25 @@ def main() -> None:
     args = parser.parse_args()
 
     repo = Path(args.repo).resolve()
-    draft_root = (repo / args.draft_root).resolve()
-    dest = (repo / args.dest).resolve()
+    try:
+        draft_root = ensure_repo_relative(repo, args.draft_root, description="draft-root")
+        dest = ensure_repo_relative(repo, args.dest, description="dest")
+        book_ids = [safe_book_id(b) for b in (args.book_id or [])]
+    except PathSafetyError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(2)
 
-    merged = collect_merged(draft_root, args.book_id)
+    merged = collect_merged(draft_root, book_ids)
     merged = collapse_prefix_duplicates(merged)
     if not merged:
         print(
             f"No draft sources found under {draft_root}"
-            + (f" for book-id(s): {', '.join(args.book_id)}" if args.book_id else ""),
+            + (f" for book-id(s): {', '.join(book_ids)}" if book_ids else ""),
             file=sys.stderr,
         )
         sys.exit(1)
 
-    if args.prune and args.book_id:
+    if args.prune and book_ids:
         print(
             "Error: --prune cannot be used with --book-id (would delete sources from other draft folders).",
             file=sys.stderr,

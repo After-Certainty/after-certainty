@@ -28,6 +28,8 @@ permissions:
 
 env:
   PYTHON_VERSION: "3.12.3"
+  UV_VERSION: "0.11.29"
+  UV_SHA256: "04f8b82f5d47f0512dcd32c67a4a6f16a0ea27c81537c338fd0ad6b23cebe829"
 
 jobs:
   semantic-yaml:
@@ -42,10 +44,10 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Install Python dependencies
+      - name: Install Python dependencies (frozen lock)
         run: |
           set -euo pipefail
-          python3 -m pip install --user pyyaml jsonschema
+          bash scripts/ci_uv_sync.sh
 
       - name: Validate book.yml specs
         run: |
@@ -74,11 +76,15 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
+      - name: Install Python dependencies (frozen lock)
+        run: |
+          set -euo pipefail
+          bash scripts/ci_uv_sync.sh
+
       - name: Resolve affected books
         id: set
         run: |
           set -euo pipefail
-          python3 -m pip install --user pyyaml jsonschema
           if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
             python3 tools/ci_affected_books.py --repo . --all > /tmp/books.json
           elif [ "${GITHUB_EVENT_NAME}" = "pull_request" ]; then
@@ -117,11 +123,15 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Install Pandoc, Python helpers, diagram rasterization
+      - name: Install Pandoc and diagram rasterization
         run: |
           sudo apt-get update
           sudo apt-get install -y pandoc librsvg2-bin imagemagick texlive-xetex
-          python3 -m pip install --user jinja2 pyyaml jsonschema python-docx
+
+      - name: Install Python dependencies (frozen lock)
+        run: |
+          set -euo pipefail
+          bash scripts/ci_uv_sync.sh
 
       - name: Install Typst
         if: matrix.needs_typst == 'true'
@@ -219,7 +229,7 @@ jobs:
           GITHUB_TOKEN: ""
         run: |
           set -euo pipefail
-          python3 -m pip install --user pyyaml jsonschema
+          bash scripts/ci_uv_sync.sh
           bash scripts/prepare_release_staging.sh
 
       - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
@@ -309,7 +319,7 @@ jobs:
           GITHUB_TOKEN: ""
         run: |
           set -euo pipefail
-          python3 -m pip install --user pyyaml jsonschema
+          bash scripts/ci_uv_sync.sh
           bash scripts/prepare_release_staging.sh
 
       - uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0

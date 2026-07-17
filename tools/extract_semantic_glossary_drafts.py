@@ -21,6 +21,7 @@ try:
 except ModuleNotFoundError as exc:  # pragma: no cover
     raise SystemExit("PyYAML is required. Install with: python3 -m pip install pyyaml") from exc
 
+from path_safety import PathSafetyError, safe_book_id, safe_draft_out_dir
 from semantic_extract import repo_relative, slugify_heading
 
 BOLD_START = re.compile(r"^\s*\*\*(?P<title>[^*]+)\*\*\s*(?:[—:\-]|\u2013)\s*(?P<first>.*)\s*$")
@@ -167,9 +168,21 @@ def main() -> None:
     else:
         raw_entries = parse_h2_sections(text)
 
-    out_dir = (repo / args.out_dir / args.book_id).resolve() if not args.print else None
-    if out_dir is not None:
+    out_dir = None
+    if not args.print:
+        try:
+            book_id = safe_book_id(args.book_id)
+            out_dir = safe_draft_out_dir(repo, args.out_dir, book_id)
+        except PathSafetyError as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            sys.exit(2)
         out_dir.mkdir(parents=True, exist_ok=True)
+    else:
+        try:
+            book_id = safe_book_id(args.book_id)
+        except PathSafetyError as exc:
+            print(f"Error: {exc}", file=sys.stderr)
+            sys.exit(2)
 
     written = 0
     for title, body in raw_entries:
@@ -180,7 +193,7 @@ def main() -> None:
             slug=slug,
             title=title,
             body=body,
-            book_id=args.book_id,
+            book_id=book_id,
             source_path=src.resolve(),
             repo=repo,
         )

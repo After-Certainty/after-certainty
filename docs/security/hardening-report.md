@@ -84,3 +84,8 @@ See [github-settings-checklist.md](github-settings-checklist.md).
 - Immutable dated release tags alongside `latest`
 - Pinning apt package versions for Pandoc/TeX
 - Expanding secret patterns beyond GitHub-shaped tokens (keep custom tests)
+- History rewrite to purge remediable tokenized remotes (prefer token rotation;
+  rewriting public history is disruptive and usually unnecessary after rotation)
+
+Follow-up PR work (post-merge): frozen `uv` installs across book-export CI, broader
+path containment on extract/promote writers, and the historical-token checklist item.
