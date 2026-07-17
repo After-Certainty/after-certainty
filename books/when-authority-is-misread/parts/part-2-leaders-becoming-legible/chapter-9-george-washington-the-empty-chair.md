@@ -13,8 +13,8 @@ would have been to call permanence wisdom. Habit turns the empty
 chair into scenery. Scenery does not warn.
 
 This ordinary conversion of refusal into invisibility is the
-pressure that shaped how **George Washington** has been
-remembered.[^c9-chernow]
+pressure that shaped how American civic memory has remembered
+**George Washington**.[^c9-chernow]
 
 ---
 
@@ -47,8 +47,8 @@ the officers, repudiated the conspiracy’s logic, and redirected
 loyalty toward civilian authority rather than toward himself as
 remedy.[^c9-newburgh] The scene is often told as pure virtue. It
 was also institutional triage under visible danger: if the army
-taught itself that the legislature could be coerced by refusal to
-stand down, the republic would have been born as a garrison with a
+taught itself that Continental officers could coerce the legislature by
+refusing to stand down, the republic would have been born as a garrison with a
 civilian costume. Shortly afterward he resigned his commission
 before Congress. The resignation was not a casual exit. It was a
 public theater of subordination—the most powerful military figure
@@ -78,15 +78,16 @@ The Constitutional Convention of 1787 drew legitimacy in part from
 Washington’s presence as presiding officer. His silence in debate
 did not erase his weight; it concentrated it. Delegates argued
 under a gaze that represented both wartime survival and the fear
-of what wartime survival could become if unchecked. When the
-presidency was invented, he became its first occupant not as an
+of what wartime survival could become if unchecked. When delegates at
+the Constitutional Convention created the presidency, he became its first
+occupant not as an
 abstract republican experiment but as a living answer to the fear
 that no one else could hold the office without tearing the country
-apart. He accepted a role designed under the shadow of his own
+apart. He accepted a role they designed under the shadow of his own
 example. That is a peculiar inheritance: institutions built to
 survive a founder often begin by needing the founder they claim to
-transcend. The chair was built with him already imagined in it—and
-then with the hope that after him it would still be leaveable.
+transcend. Delegates built the chair with him already imagined in
+it—and then with the hope that after him it would still be leaveable.
 
 ---
 
@@ -157,7 +158,8 @@ from the presidential household and the Washingtons’ pursuit of
 her return make the contradiction concrete rather than abstract.
 The empty chair at the head of the national table does not empty
 the cabins. A myth of civic virtue that needs Washington’s
-refusals while forgetting the people denied every chair is not
+refusals while forgetting the people the slaveholding order denied every
+chair is not
 inheritance; it is selective memory dressed as gratitude.
 
 Slavery’s presence in the founding was not a private quirk of one
@@ -181,14 +183,15 @@ and a civilizing rhetoric that presumed dispossession as destiny
 moderated by procedure. Again the empty chair misleads if it is
 the only image retained. A republic can rotate executives and
 still prosecute a durable project of seizure. The myth of
-self-limitation must be tested against who was limited and who was
-taken from.
+self-limitation must be tested against whom federal authorities limited
+and whom they took from.
 
 The early republic was also narrow in membership and thick with
 coercive instruments beyond slavery. Citizenship, suffrage,
 Indigenous dispossession, and gendered exclusion structured who
-could even imagine rising from a head chair. Treaties broken, land
-seized, and federal power projected westward were not peripheral
+could even imagine rising from a head chair. Federal authorities and
+settler expansion broke treaties, seized land, and projected power
+westward; those were not peripheral
 accidents; they were part of how the constitutional order
 stabilized for some by destabilizing others. Washington’s
 restraint of personal executive permanence coexisted with a state
@@ -204,11 +207,11 @@ Around these decisions a civic mythology hardened. Washington as
 Cincinnatus. Washington as proof that character can replace
 institutional suspicion. Washington as the man who would
 never—rather than the man who repeatedly could have and did not.
-Schoolbook memory prefers essence to sequence. What had been a
-series of deliberate, high-risk choices became a single trait:
-virtue. The compression erased contingency. It collapsed the
+Schoolbook memory prefers essence to sequence. Schools and civic
+rituals converted a series of deliberate, high-risk choices into a
+single trait: virtue. The compression erased contingency. It collapsed the
 difference between *could have taken power* and *would never take
-power*. Once restraint is treated as nature rather than choice
+power*. Once publics treat restraint as nature rather than choice
 under pressure, it becomes portable and misleading. The lesson
 shifts from *design constraints that survive ambitious people* to
 *find leaders like Washington*. That is precisely the opposite of
