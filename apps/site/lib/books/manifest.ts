@@ -6,6 +6,7 @@ import {
   normalizeGeneratedBooksManifest,
 } from "@/lib/books/generated-manifest";
 import type { BooksCatalogManifest } from "@/types/content";
+import { outboundFetchSignal } from "@/lib/security/fetch";
 import { isBooksManifestOffline, resolveBooksManifestUrl } from "@/lib/site-config";
 
 /** Next.js fetch / `revalidateTag` cache tag for on-demand books catalog refresh. */
@@ -62,6 +63,7 @@ export async function fetchBooksCatalogUncached(): Promise<BooksCatalogManifest>
         tags: [BOOKS_CATALOG_CACHE_TAG],
       },
       headers: { Accept: "application/json, */*" },
+      signal: outboundFetchSignal(),
     });
 
     if (!res.ok) {

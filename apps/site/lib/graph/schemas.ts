@@ -1,5 +1,6 @@
 import { z } from "zod";
 import type { SemanticGraph } from "@/types/semanticGraph";
+import { httpUrlSchema, youtubeVideoIdSchema } from "@/lib/security/zod-urls";
 
 const stringList = z
   .array(z.string())
@@ -7,7 +8,7 @@ const stringList = z
   .transform((v) => v ?? []);
 
 const mediaInfographicSchema = z.object({
-  url: z.string().url(),
+  url: httpUrlSchema,
   path: z.string().min(1),
   width: z.number().int().positive(),
   height: z.number().int().positive(),
@@ -17,12 +18,12 @@ const mediaInfographicSchema = z.object({
 const bookMediaSchema = z.object({
   intro: z
     .object({
-      youtubeVideoId: z.string().min(1).optional(),
+      youtubeVideoId: youtubeVideoIdSchema.optional(),
     })
     .optional(),
   patterns: z
     .object({
-      youtubePlaylistUrl: z.string().url().optional(),
+      youtubePlaylistUrl: httpUrlSchema.optional(),
     })
     .optional(),
 });
@@ -30,7 +31,7 @@ const bookMediaSchema = z.object({
 const bookFormatAssetSchema = z.object({
   enabled: z.boolean(),
   file: z.string().min(1),
-  url: z.string().url().nullable(),
+  url: httpUrlSchema.nullable(),
 });
 
 const bookPurchaseRetailerSchema = z.enum([
@@ -44,7 +45,7 @@ const bookPurchaseRetailerSchema = z.enum([
 
 const bookPurchaseLinkSchema = z.object({
   retailer: bookPurchaseRetailerSchema,
-  url: z.string().url(),
+  url: httpUrlSchema,
   label: z.string().min(1).optional(),
 });
 
@@ -55,11 +56,7 @@ const optionalManifestString = z
   .nullish()
   .transform((value) => value ?? undefined);
 
-const optionalManifestUrl = z
-  .string()
-  .url()
-  .nullish()
-  .transform((value) => value ?? undefined);
+const optionalManifestUrl = httpUrlSchema.nullish().transform((value) => value ?? undefined);
 
 const bookSchema = z.object({
   id: z.string().min(1),
@@ -132,8 +129,8 @@ const patternSchema = z.object({
   example: z.string().optional(),
   relatedConcepts: stringList,
   relatedBooks: stringList,
-  youtubeVideoId: z.string().min(1).optional(),
-  mediumArticleUrl: z.string().url().optional(),
+  youtubeVideoId: youtubeVideoIdSchema.optional(),
+  mediumArticleUrl: httpUrlSchema.optional(),
   infographic: mediaInfographicSchema.optional(),
   ...enrichmentFields,
 });
@@ -167,7 +164,7 @@ const sourceSchema = z.object({
   year: z.number().int().optional(),
   publisher: z.string().min(1).optional(),
   institution: z.string().min(1).optional(),
-  url: z.string().url().optional(),
+  url: httpUrlSchema.optional(),
   whyThisMatters: z.string().min(1).optional(),
 });
 

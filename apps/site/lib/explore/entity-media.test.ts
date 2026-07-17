@@ -40,8 +40,11 @@ describe("entity-media", () => {
   });
 
   it("builds youtube embed URLs", () => {
-    expect(youtubeEmbedUrl("ma1UbSajuVI")).toBe(
-      "https://www.youtube.com/embed/ma1UbSajuVI",
-    );
+    expect(youtubeEmbedUrl("ma1UbSajuVI")).toBe("https://www.youtube.com/embed/ma1UbSajuVI");
+  });
+
+  it("rejects invalid youtube video ids for embeds", () => {
+    expect(youtubeEmbedUrl("abc123")).toBeNull();
+    expect(youtubeEmbedUrl("../../../x")).toBeNull();
   });
 });

@@ -1,6 +1,7 @@
 import type Parser from "rss-parser";
 import type { PodcastEpisode } from "@/types/content";
 import { stripHtml } from "@/lib/podcast/sanitize";
+import { onlyHttpOrHttpsUrl } from "@/lib/security/urls";
 
 /** rss-parser `Item` typings omit several `itunes:*` fields present at runtime */
 export type RssItem = Parser.Item & {
@@ -53,8 +54,8 @@ function slugifyTitle(title: string): string {
 
 function extractEpisodeImage(item: RssItem): string | undefined {
   const img = item.itunes?.image;
-  if (typeof img === "string") return img;
-  if (img && typeof img === "object" && img.href) return img.href;
+  if (typeof img === "string") return onlyHttpOrHttpsUrl(img);
+  if (img && typeof img === "object" && img.href) return onlyHttpOrHttpsUrl(img.href);
   return undefined;
 }
 
@@ -99,9 +100,10 @@ export function mapFeedItemsToEpisodes(items: RssItem[]): PodcastEpisode[] {
       typeof durationRaw === "string" ? parseItunesDurationToMinutes(durationRaw) : undefined;
     const duration = formatEpisodeDuration(durationMinutes);
 
-    const audioUrl = typeof item.enclosure?.url === "string" ? item.enclosure.url.trim() : "";
-    const link = typeof item.link === "string" ? item.link.trim() : "";
-    const episodeUrl = link || audioUrl;
+    const rawAudio = typeof item.enclosure?.url === "string" ? item.enclosure.url.trim() : "";
+    const rawLink = typeof item.link === "string" ? item.link.trim() : "";
+    const audioUrl = onlyHttpOrHttpsUrl(rawAudio) ?? "";
+    const episodeUrl = onlyHttpOrHttpsUrl(rawLink) || audioUrl;
 
     const image = extractEpisodeImage(item);
 

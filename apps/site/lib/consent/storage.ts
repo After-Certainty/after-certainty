@@ -22,7 +22,9 @@ export function getConsent(): ConsentState {
 export function setConsent(value: ConsentValue): void {
   if (typeof document === "undefined") return;
   const encoded = encodeURIComponent(value);
-  document.cookie = `${CONSENT_COOKIE_NAME}=${encoded}; Path=/; Max-Age=${CONSENT_COOKIE_MAX_AGE_SECONDS}; SameSite=Lax`;
+  const secure =
+    typeof location !== "undefined" && location.protocol === "https:" ? "; Secure" : "";
+  document.cookie = `${CONSENT_COOKIE_NAME}=${encoded}; Path=/; Max-Age=${CONSENT_COOKIE_MAX_AGE_SECONDS}; SameSite=Lax${secure}`;
 }
 
 export function hasAnalyticsConsent(): boolean {

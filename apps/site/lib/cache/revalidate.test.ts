@@ -60,6 +60,18 @@ describe("cache revalidate helpers", () => {
     expect(isCacheRevalidateAuthorized(req)).toBe(false);
   });
 
+  it("rejects bearer tokens with mismatched length without throwing", () => {
+    process.env.CACHE_REVALIDATE_SECRET = "test-secret";
+    const short = new Request("http://localhost/api/cache/revalidate", {
+      headers: { Authorization: "Bearer x" },
+    });
+    const long = new Request("http://localhost/api/cache/revalidate", {
+      headers: { Authorization: "Bearer test-secret-extra" },
+    });
+    expect(isCacheRevalidateAuthorized(short)).toBe(false);
+    expect(isCacheRevalidateAuthorized(long)).toBe(false);
+  });
+
   it("calls refresh helpers per target", () => {
     revalidateCacheTargets(["podcast"]);
     expect(refreshPodcastRss).toHaveBeenCalledOnce();

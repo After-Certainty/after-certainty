@@ -2,6 +2,7 @@ import { cache } from "react";
 import { revalidateTag } from "next/cache";
 import type { ZodError } from "zod";
 import fallbackSemantic from "@/data/semantic-manifest.json";
+import { outboundFetchSignal } from "@/lib/security/fetch";
 import { isSemanticManifestOffline, resolveSemanticManifestUrl } from "@/lib/site-config";
 import type { Book, SemanticGraph } from "@/types/semanticGraph";
 import { semanticGraphSchema, toSemanticGraph } from "@/lib/graph/schemas";
@@ -162,6 +163,7 @@ export async function fetchSemanticGraphUncached(): Promise<SemanticGraph> {
         tags: [SEMANTIC_GRAPH_CACHE_TAG],
       },
       headers: { Accept: "application/json, */*" },
+      signal: outboundFetchSignal(),
     });
 
     if (!res.ok) {

@@ -1,11 +1,11 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
-import { POST } from "./route";
+import { POST, resetSubscribeRateLimitsForTests } from "./route";
 
-function requestJson(body: unknown): Request {
+function requestJson(body: unknown, init?: { headers?: Record<string, string> }): Request {
   return new Request("http://localhost/api/subscribe", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", ...init?.headers },
     body: JSON.stringify(body),
   });
 }
@@ -20,6 +20,7 @@ describe("POST /api/subscribe", () => {
     prevPub = process.env.NEWSLETTER_PUBLICATION_ID;
     process.env.NEWSLETTER_API_KEY = "test-api-key";
     process.env.NEWSLETTER_PUBLICATION_ID = "pub_test_id";
+    resetSubscribeRateLimitsForTests();
 
     fetchMock = vi.fn();
     vi.stubGlobal("fetch", fetchMock);
@@ -29,6 +30,7 @@ describe("POST /api/subscribe", () => {
     vi.unstubAllGlobals();
     process.env.NEWSLETTER_API_KEY = prevKey;
     process.env.NEWSLETTER_PUBLICATION_ID = prevPub;
+    resetSubscribeRateLimitsForTests();
   });
 
   it("returns 400 when body is not valid JSON", async () => {
@@ -68,6 +70,19 @@ describe("POST /api/subscribe", () => {
     expect(fetchMock).not.toHaveBeenCalled();
   });
 
+  it("returns 400 for emails longer than 254 characters", async () => {
+    const email = `${"a".repeat(250)}@example.com`;
+    const res = await POST(requestJson({ email }));
+    expect(res.status).toBe(400);
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
+
+  it("returns 413 for oversized bodies", async () => {
+    const res = await POST(requestJson({ email: "ok@example.com", pad: "x".repeat(5000) }));
+    expect(res.status).toBe(413);
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
+
   it("returns 500 when newsletter env vars are missing", async () => {
     delete process.env.NEWSLETTER_API_KEY;
     delete process.env.NEWSLETTER_PUBLICATION_ID;
@@ -101,6 +116,7 @@ describe("POST /api/subscribe", () => {
         Authorization: "Bearer test-api-key",
       }),
     });
+    expect((call[1] as RequestInit).signal).toBeInstanceOf(AbortSignal);
     const reqBody = JSON.parse((call[1] as RequestInit).body as string);
     expect(reqBody).toMatchObject({
       email: "reader@example.com",
@@ -117,6 +133,20 @@ describe("POST /api/subscribe", () => {
     expect(await res.json()).toEqual({
       error: "Too many requests. Please try again shortly.",
     });
+  });
+
+  it("returns 429 after repeated local submissions (app rate limit)", async () => {
+    fetchMock.mockResolvedValue(new Response(JSON.stringify({ data: {} }), { status: 200 }));
+
+    for (let i = 0; i < 5; i++) {
+      const res = await POST(requestJson({ email: "same@example.com" }));
+      expect(res.status).toBe(200);
+    }
+
+    const limited = await POST(requestJson({ email: "same@example.com" }));
+    expect(limited.status).toBe(429);
+    expect(limited.headers.get("Retry-After")).toBeTruthy();
+    expect(fetchMock).toHaveBeenCalledTimes(5);
   });
 
   it("returns 400 with Beehiiv message when upstream returns 4xx with JSON", async () => {
@@ -140,5 +170,15 @@ describe("POST /api/subscribe", () => {
     expect(await res.json()).toEqual({
       error: "Could not complete signup. Please try again later.",
     });
+  });
+
+  it("returns 502 when Beehiiv fetch rejects or times out", async () => {
+    fetchMock.mockRejectedValueOnce(new DOMException("Aborted", "AbortError"));
+
+    const res = await POST(requestJson({ email: "reader@example.com" }));
+    expect(res.status).toBe(502);
+    const json = (await res.json()) as { error: string };
+    expect(json.error).toBe("Could not complete signup. Please try again later.");
+    expect(json.error).not.toMatch(/Abort|test-api-key/i);
   });
 });

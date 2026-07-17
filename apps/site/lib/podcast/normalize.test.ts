@@ -62,4 +62,18 @@ describe("mapFeedItemsToEpisodes", () => {
     expect(episodes[0]!.audioUrl).toContain("1.mp3");
     expect(episodes[1]!.audioUrl).toContain("2.mp3");
   });
+
+  it("drops non-http enclosure and link URLs", () => {
+    const items: RssItem[] = [
+      {
+        title: "Hostile",
+        contentSnippet: "x",
+        enclosure: { url: "javascript:alert(1)" },
+        link: "javascript:alert(2)",
+      } as RssItem,
+    ];
+    const episodes = mapFeedItemsToEpisodes(items);
+    expect(episodes[0]!.audioUrl).toBe("");
+    expect(episodes[0]!.episodeUrl).toBe("");
+  });
 });

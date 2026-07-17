@@ -414,6 +414,38 @@ describe("validateSemanticGraph", () => {
       ]);
     }
   });
+
+  it("rejects javascript: URLs in purchase and media fields", () => {
+    const result = validateSemanticGraph({
+      books: [
+        {
+          id: "book-x",
+          slug: "x",
+          title: "X",
+          concepts: [],
+          patterns: [],
+          sources: [],
+          purchaseLinks: [{ retailer: "other", url: "javascript:alert(1)" }],
+        },
+      ],
+      glossary: [],
+      patterns: [
+        {
+          id: "pattern-x",
+          slug: "x",
+          title: "X",
+          summary: "s",
+          relatedConcepts: [],
+          relatedBooks: [],
+          mediumArticleUrl: "javascript:alert(1)",
+          youtubeVideoId: "not-valid",
+        },
+      ],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(false);
+  });
 });
 
 describe("dedupeSemanticGraphBooks", () => {

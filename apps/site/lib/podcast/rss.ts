@@ -9,12 +9,9 @@ import { revalidateTag } from "next/cache";
 import { cache } from "react";
 import fallbackData from "@/data/podcast-episodes.json";
 import type { PodcastEpisode } from "@/types/content";
-import {
-  episodeSortKey,
-  mapFeedItemsToEpisodes,
-  type RssItem,
-} from "@/lib/podcast/normalize";
+import { episodeSortKey, mapFeedItemsToEpisodes, type RssItem } from "@/lib/podcast/normalize";
 import type { PodcastFeedResultWithFallback } from "@/lib/podcast/types";
+import { outboundFetchSignal } from "@/lib/security/fetch";
 import { resolvePodcastRssUrl } from "@/lib/site-config";
 
 const parser = new Parser();
@@ -59,6 +56,7 @@ export async function fetchPodcastFeedUncached(): Promise<PodcastFeedResultWithF
       headers: {
         Accept: "application/rss+xml, application/xml, application/atom+xml, text/xml, */*",
       },
+      signal: outboundFetchSignal(),
     });
 
     if (!res.ok) {
@@ -121,4 +119,3 @@ export async function getPodcastEpisodesFromRss(): Promise<PodcastEpisode[]> {
 export function refreshPodcastRss(): void {
   revalidateTag(PODCAST_RSS_CACHE_TAG, "max");
 }
-

@@ -1,9 +1,19 @@
 import createMDX from "@next/mdx";
 import type { NextConfig } from "next";
 
+import { SECURITY_HEADERS } from "./lib/security/headers";
+
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   reactStrictMode: true,
+  async headers() {
+    return [
+      {
+        source: "/:path*",
+        headers: SECURITY_HEADERS,
+      },
+    ];
+  },
   async redirects() {
     return [
       { source: "/patterns", destination: "/explore/patterns", permanent: true },

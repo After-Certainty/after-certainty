@@ -1,3 +1,5 @@
+import { timingSafeEqual } from "node:crypto";
+
 import { refreshBooksCatalog } from "@/lib/books/manifest";
 import { refreshPodcastRss } from "@/lib/podcast/rss";
 import { refreshSemanticGraph } from "@/lib/graph/manifest";
@@ -12,12 +14,20 @@ export function isCacheRevalidateConfigured(): boolean {
   return Boolean(process.env.CACHE_REVALIDATE_SECRET?.trim());
 }
 
+function bearerTokenEquals(authHeader: string | null, secret: string): boolean {
+  if (!authHeader?.startsWith("Bearer ")) return false;
+  const token = authHeader.slice("Bearer ".length);
+  const tokenBuf = Buffer.from(token, "utf8");
+  const secretBuf = Buffer.from(secret, "utf8");
+  if (tokenBuf.length !== secretBuf.length) return false;
+  return timingSafeEqual(tokenBuf, secretBuf);
+}
+
 /** Bearer token must match `CACHE_REVALIDATE_SECRET`. */
 export function isCacheRevalidateAuthorized(request: Request): boolean {
   const secret = process.env.CACHE_REVALIDATE_SECRET?.trim();
   if (!secret) return false;
-  const auth = request.headers.get("authorization");
-  return auth === `Bearer ${secret}`;
+  return bearerTokenEquals(request.headers.get("authorization"), secret);
 }
 
 export function parseCacheRevalidateTargets(raw: unknown): CacheRevalidateTarget[] | null {
@@ -26,6 +36,11 @@ export function parseCacheRevalidateTargets(raw: unknown): CacheRevalidateTarget
   }
 
   if (!Array.isArray(raw) || raw.length === 0) {
+    return null;
+  }
+
+  // Bound array work for oversized payloads
+  if (raw.length > CACHE_REVALIDATE_TARGETS.length) {
     return null;
   }
 
