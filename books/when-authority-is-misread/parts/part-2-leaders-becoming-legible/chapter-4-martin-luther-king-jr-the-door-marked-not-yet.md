@@ -18,17 +18,19 @@ the protection of comfort that already knows what it will not
 rearrange.
 
 That ordinary transaction—acknowledgment without consequence—is the
-one that shaped how **Martin Luther King Jr.** was read while he
+one that shaped how newspapers, clergy, federal officials, and Gallup
+publics read **Martin Luther King Jr.** while he
 lived.[^c4-gallup]
 
 ---
 
-King is remembered as a national moral inevitability. During his
-lifetime he was widely viewed as disruptive, impractical, and
+Schools, monuments, public ceremonies, and civic memory have turned King
+into a national moral inevitability. During his
+lifetime majorities widely viewed him as disruptive, impractical, and
 dangerously destabilizing. Gallup polling in the mid-1960s found that a
 majority of Americans held unfavorable views of him; by 1966 nearly
-two-thirds disapproved.[^c4-gallup] He was opposed not only by
-segregationists but by moderates who claimed to share his ends and
+two-thirds disapproved.[^c4-gallup] Segregationists opposed him, and so
+did moderates who claimed to share his ends and
 rejected the timing, the method, and the insistence that waiting was
 itself a form of harm. The gap between later ceremonial love and living
 hostility is not a curiosity of polling. It is the chapter’s subject.
@@ -83,14 +85,14 @@ Confrontation-compression was the method across the campaigns. Boycotts,
 marches, jailings, and carefully staged crises linked everyday
 practices—riding a bus, registering to vote, sitting at a lunch
 counter—to constitutional and theological claims. The goal was not
-soothing clarity. It was clarity that forced a decision. Audiences were
-pressed to choose whether they would accept the implications of what
-they already understood. Leadership communication often compresses
-toward comfort so that listeners can act without rearranging their
-moral furniture. King compressed toward confrontation. Visibility rose.
-Tolerance fell. The risk was always that the image would be consumed as
-spectacle while the demand was postponed again—another open door, now
-televised.
+soothing clarity. It was clarity that forced a decision. Campaigns
+pressed audiences to choose whether they would accept the implications
+of what they already understood. Leadership communication often
+compresses toward comfort so that listeners can act without rearranging
+their moral furniture. King compressed toward confrontation. Visibility
+rose. Tolerance fell. The risk was always that audiences would consume
+the image as spectacle while institutions postponed the demand
+again—another open door, now televised.
 
 Repair under these conditions was almost impossible in the usual
 leadership sense. Clarification that softened the signal would have
@@ -184,8 +186,8 @@ assassination, the turn to poverty and war had already narrowed the
 usable-prophet frame that southern legal equality had briefly opened.
 
 After his death, legitimacy arrived with remarkable speed and alarming
-selectivity. King was elevated into a national moral symbol. Schools
-taught the dream. Holidays, streets, and monuments arrived. The same
+selectivity. Schools, holidays, streets, monuments, and civic ritual
+elevated King into a national moral symbol. The same
 culture that had majority-disapproved him learned to quote him safely.
 The posthumous version often stopped where comfort preferred—at
 interracial aspiration and nonviolence as manners—while soft-pedaling
@@ -196,8 +198,9 @@ people celebrating him. Sainthood became a way to close the living
 man’s ledger.
 
 The sanitization is not only about forgotten speeches. It is a
-rearrangement of time. A leader whose living demand was treated as
-untimely becomes, once dead, timeless—useful precisely because
+rearrangement of time. Moderates, newspapers, and clergy who treated his
+living demand as untimely later helped make him, once dead,
+timeless—useful precisely because
 timelessness does not schedule a march, a strike, a budget fight, or a
 withdrawal of consent. The nation learns to love the compression that
 remains: a dream, a holiday, a statue. It forgets or downplays the
@@ -233,12 +236,15 @@ Longer measures recorded altered law, altered public moral vocabulary,
 and a civil rights settlement that was incomplete and still
 foundational. The temporal gap is the point. When benefits are delayed
 and costs are immediate, moral leadership cannot justify itself by the
-ledger the resistant system already uses. Justification is routinely
-denied until the danger of action has passed—and that denial is later
-narrated as tragic misunderstanding rather than as refusal.
+ledger the resistant system already uses. Resistant institutions
+routinely deny justification until the danger of action has passed—and
+later commemorators narrate that denial as tragic misunderstanding
+rather than as refusal.
 
-Campaigns were constructed so demands remained legible under distortion;
-contemporaneous disapproval shows how fully legitimacy was postponed.
+King and the organizers around him constructed campaigns so demands
+remained legible under distortion; contemporaneous disapproval shows how
+fully churches, newspapers, presidents, and neighboring publics postponed
+legitimacy.
 Coalitions made delay costly to those who preferred it. Opposition
 remained real: churches, newspapers, unions, presidents, police,
 neighbors, and fellow travelers who wanted progress without risk to

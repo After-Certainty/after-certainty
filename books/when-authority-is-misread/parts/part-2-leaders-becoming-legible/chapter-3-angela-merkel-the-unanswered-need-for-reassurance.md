@@ -10,7 +10,8 @@ complaint in quieter form: a wish that someone would simply be more
 decisive.
 
 This ordinary hunger for certainty is the pressure that shaped how
-**Angela Merkel** was read for much of her political life.[^c3-media-english]
+English-language media, coalition partners, and domestic critics read
+**Angela Merkel** for much of her political life.[^c3-media-english]
 
 ---
 
@@ -68,9 +69,10 @@ crisis, Merkel declined to promise painless solutions. She insisted on
 conditionality, austerity negotiations, and institutional process at a
 moment when southern European publics experienced German caution as
 punishment and northern European publics experienced southern distress as
-threat. Stability was preserved in one sense: the euro did not break
-apart on her watch. But stability distributed costs unevenly. Austerity
-hollowed public capacity in the countries asked to absorb it.
+threat. Merkel’s governments and northern European partners preserved
+stability in one sense: the euro did not break apart on her watch. But
+that settlement distributed costs unevenly. Austerity hollowed public
+capacity in the countries asked to absorb it.
 Unemployment, pension cuts, and eroded services were not side effects
 outside the frame of “effectiveness.” They were part of what the
 settlement produced. The moral question was never only whether
@@ -89,9 +91,9 @@ constrains the other.
 
 In 2015, as hundreds of thousands of asylum seekers entered Europe,
 Merkel’s government opened a temporary suspension of Dublin Regulation
-returns from Hungary and allowed large numbers to enter Germany. Her
-phrase *Wir schaffen das*—“we can manage this”—was heard as moral
-resolve by some and as reckless invitation by others.[^c3-refugees] The
+returns from Hungary and allowed large numbers to enter Germany. Supporters
+heard her phrase *Wir schaffen das*—“we can manage this”—as moral
+resolve; critics heard it as reckless invitation.[^c3-refugees] The
 decision had genuine moral urgency: people were dying along routes into
 Europe, and the European asylum system was already failing by its own
 rules. It also imposed political and social costs that Germany and its
@@ -145,13 +147,14 @@ settlements elsewhere; further compression would have sold clarity the
 record could not honestly underwrite.
 
 Gender intensified the constraint. Where male leaders could offer
-certainty without explanation and be read as seriousness, Merkel was more
-often required to justify caution without appearing indecisive.
+certainty without explanation and have journalists and allies treat that
+certainty as seriousness, Merkel more often had to justify caution
+without appearing indecisive.
 Emotional neutrality that can read as gravity in a man more readily reads
 as absence in a woman.[^c3-eagly] Once the frame of “uninspiring” stuck,
 repair became costly. Further clarification only reinforced the technical
-restraint already being misread. A press conference that named
-tradeoffs could be reported as hesitation; a delayed decision as
+restraint already being misread. Journalists could report a press
+conference that named tradeoffs as hesitation; a delayed decision as
 weakness; a correctly provisional answer as lack of vision. The
 asymmetric tolerance for performative certainty was part of the
 interpretive weather, not a side note.
@@ -166,9 +169,10 @@ politics built on reliability cannot. When the bond is thin, the ledger
 of non-events must carry more weight than publics usually grant it.
 
 Effectiveness, meanwhile, consisted largely of *non-events*. Democratic
-institutions held. Catastrophic ruptures were avoided across repeated
-shocks. The eurozone did not dissolve into competitive currency wars on
-her watch. Germany’s federal structures did not buckle under the
+institutions held. Merkel’s governments and European partners avoided
+catastrophic ruptures across repeated shocks. The eurozone did not
+dissolve into competitive currency wars on her watch. Germany’s federal
+structures did not buckle under the
 refugee logistics of 2015–2016, though municipalities strained.
 Public-health communication in early COVID did not collapse into pure
 performance, though later phases of the pandemic tested fatigue and
@@ -226,9 +230,10 @@ interpret the remaining uncertainty as a failure of leadership.*
 
 Interpretation shapes how the complaint arrives, but it does not settle
 the costs. The moral questions remain afterward: who bore austerity,
-whose welcome became a political weapon, what forms of strategic
-dependence were left unresolved. Looking carefully keeps those questions
-from collapsing into the charge that she was not decisive enough.
+whose welcome became a political weapon, which strategic dependencies
+successors and partners left unresolved. Looking carefully keeps those
+questions from collapsing into the charge that she was not decisive
+enough.
 
 The temptation, in retrospect, is a settled verdict: caution vindicated,
 or caution damned. Either verdict answers the hunger for reassurance. It

@@ -31,34 +31,35 @@ risk if past associations could be reconstructed later. Refusing to
 answer, as the Hollywood Ten did on First Amendment grounds, invited
 contempt citations, blacklisting, and imprisonment—without settling the
 empirical question the public thought it was watching get answered.
-Dalton Trumbo, Ring Lardner Jr., John Howard Lawson, and the others were
-not processed as people who might or might not share a contested reading
-of politics. They were processed as people who would or would not
-perform loyalty under threat.[^c10-navasky] Studios that had once
-bargained over scripts discovered a simpler ledger: hire the certifiable,
-exile the suspect. The blacklist was less a debate than a hiring filter
-with congressional costume.
+HUAC, studios, and employers did not process Dalton Trumbo, Ring Lardner
+Jr., John Howard Lawson, and the others as people who might or might not
+share a contested reading of politics. They processed them as people who
+would or would not perform loyalty under threat.[^c10-navasky] Studios
+that had once bargained over scripts discovered a simpler ledger: hire
+the certifiable, exile the suspect. The blacklist was less a debate than
+a hiring filter with congressional costume.
 
 Outside Hollywood the same grammar spread through ordinary
 institutions. Truman’s loyalty program for federal employees, and the
 oath campaigns that followed in universities, unions, and state offices,
 asked people to prove belonging by signature and spectacle. The
 University of California’s loyalty-oath fight made the substitution
-especially clear: faculty were pressed to affirm not only what they
-would do, but who they were not, as a condition of remaining inside the
-community of legitimate speech.[^c10-ceplair] Neighbors, colleagues, and
-committees learned to listen for contamination. Precision in denial
-could itself look like evasion. Silence looked like confession.
-Cooperation looked like virtue even when it destroyed shared work. From
-the contemporaneous vantage of many Americans, the atmosphere did not
-feel like metaphor. It felt like civic hygiene—anxious, punitive, and
-convinced that shared reality had to be purified before it could be
-trusted.
+especially clear: regents and administrators pressed faculty to affirm
+not only what they would do, but who they were not, as a condition of
+remaining inside the community of legitimate speech.[^c10-ceplair]
+Neighbors, colleagues, and committees learned to listen for
+contamination. Precision in denial could itself look like evasion.
+Silence looked like confession. Cooperation looked like virtue even when
+it destroyed shared work. From the contemporaneous vantage of many
+Americans, the atmosphere did not feel like metaphor. It felt like civic
+hygiene—anxious, punitive, and convinced that shared reality had to be
+purified before it could be trusted.
 
 What this culture displaced was not disagreement. Disagreement was
-everywhere, loudly. What it displaced was interpretation as a shared
-task. Speech stopped aiming primarily at making a world jointly
-examinable. It aimed at making allegiance visible. Harsh rooms can
+everywhere, loudly. HUAC, congressional investigators, studios, federal
+loyalty programs, universities, and employers displaced interpretation
+as a shared task. Speech stopped aiming primarily at making a world
+jointly examinable. It aimed at making allegiance visible. Harsh rooms can
 still be interpretive rooms. Dogma, hostility, evasion, partisanship,
 and deep error do not by themselves end conversation; they stain it. The
 boundary is crossed when answers stop being weighed as claims about a
@@ -76,22 +77,22 @@ attendance.
 ---
 
 The analysis in this book assumes a shared interpretive space. Even when
-disagreement is deep, even when authority is contested, the cases
+disagreement is deep, even when people contest authority, the cases
 examined earlier share a common feature: participants still believe that
 understanding matters. Meaning is inferred imperfectly. Legitimacy
 drifts. Accountability weakens. But interpretation itself remains the
-medium through which authority is granted, resisted, delayed, or
-repaired.
+medium through which people and institutions grant authority, resist it,
+postpone accountability, or reopen judgment.
 
 There are situations where this assumption no longer holds. The
 HUAC–blacklist–oath sequence is one sustained setting in which it
-failed in public. Signals were evaluated for alignment rather than
-accuracy. Compression ceased to be a shortcut that risked
-misunderstanding and became a sorting mechanism that distinguished
+failed in public. Committees and employers evaluated signals for
+alignment rather than accuracy. Compression ceased to be a shortcut that
+risked misunderstanding and became a sorting mechanism that distinguished
 loyalty from dissent. Constraint did not merely discourage repair; it
 rendered repair unintelligible, because repair would have required
 treating speech as information about a shareable world. Understanding
-was not misunderstood. It was displaced.
+was not misunderstood. The loyalty-security culture displaced it.
 
 When this happens, the failures described in this book no longer
 operate in the same way. Disagreement does not persist because meaning
@@ -112,7 +113,8 @@ compression, separate moral posture from effectiveness, and name how
 legitimacy persists after accountability thins. It can still distinguish
 misunderstanding from disagreement about values.
 
-It cannot do the same work once understanding has been displaced. Tools
+It cannot do the same work once loyalty-security institutions have
+displaced understanding. Tools
 designed to slow interpretation assume interpretation remains the
 medium. They cannot restore it once refusal has replaced
 misunderstanding—once the apparent argument is no longer an attempt to

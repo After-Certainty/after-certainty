@@ -15,13 +15,15 @@ wager that the truth can survive a delay long enough for another
 kind of response to become possible.
 
 This ordinary delay between justified speech and irreversible
-speech is the pressure that shaped how **Nelson Mandela** was read
+speech is the pressure that shaped how South African publics,
+negotiating parties, and international audiences read **Nelson Mandela**
 at the moment South Africa most needed interpretation to
 resume.[^c8-sampson]
 
 ---
 
-Mandela is often remembered as if reconciliation were his
+International memory and later civic ritual often remember Mandela as if
+reconciliation were his
 nature—an inevitable saintliness that simply waited for history to
 catch up. The record does not support that compression. He entered
 politics inside organizations already long at work against a state
@@ -45,9 +47,10 @@ symbol before it made him a negotiator. Prison condensed a life
 into an emblem: Robben Island, the quarry, the refusal to be
 broken into somebody useful to the regime. Emblems travel easily.
 Governing does not. Symbols do not automatically know how to
-administer the world that forms around them. When he was released
-in February 1990, the African National Congress had been unbanned
-and talks toward a new political order were beginning, but the
+administer the world that forms around them. When the National Party
+government released him in February 1990, it had also unbanned the
+African National Congress, and talks toward a new political order were
+beginning, but the
 country remained close to wider civil war. Violence between
 supporters of the ANC and the Inkatha Freedom Party tore through
 Natal and the Reef. Third-force activity, township massacres,
@@ -77,7 +80,7 @@ foreign—needed a face that could make uncertainty feel navigable.
 The 1994 election converted fragile non-collapse into a democratic
 founding. Nearly twenty million people voted under universal adult
 suffrage, many standing for hours to perform an ordinary act that
-generations had been denied. Mandela became president of a
+apartheid had denied generations. Mandela became president of a
 Government of National Unity that included the National Party,
 which had administered apartheid, and the Inkatha Freedom Party.
 The constitutional settlement locked in rights, institutions, and
@@ -137,8 +140,8 @@ something other than a miracle with no ledger.
 This was not mercy without cost. Families learned what had
 happened to people who had disappeared. Operatives described
 systems of detention, torture, killing, and concealment that could
-no longer be dismissed as isolated allegations. The Commission’s
-final report was presented to Mandela in 1998. Yet spoken truth
+no longer be dismissed as isolated allegations. The Commission
+presented its final report to Mandela in 1998. Yet spoken truth
 does not become justice simply because it is spoken. Some victims
 experienced amnesty as another transfer of burden: perpetrators
 could receive legal protection through disclosure while survivors
@@ -249,12 +252,14 @@ transition. It did not abolish inequality or complete accountability.
 It began something without finishing it—and beginning without
 finishing is easy to misremember as either total success or total
 failure. Moral surplus is not an infinite reservoir. It depletes
-whenever restraint is asked of people still waiting for repair. Used
+whenever leaders and institutions ask restraint of people still waiting
+for repair. Used
 only for unity theater, it runs out; treated as a substitute for land,
 wages, and schooling, it becomes an alibi.
 
 Effectiveness here consisted largely of non-events. Civil war did
-not consume the founding. The election held. Power transferred
+not consume the founding. The election held. Negotiators and the
+Government of National Unity transferred power
 inside constitutional form rather than through ethnic secession or
 military restoration. White flight from democratic politics into
 sabotage did not become the dominant story. Non-events do not
@@ -305,7 +310,8 @@ redistribute, communities that still can refuse both amnesia and
 endless private war. The question is no longer whether he was
 justified in writing the letter. The question is whether a country
 that learned to admire the unsent page will finally answer what
-remains owed because the page was not burned for spectacle.
+remains owed because Mandela and the negotiators around him did not burn
+the page for spectacle.
 
 [^c8-sampson]: Anthony Sampson, *Mandela: The Authorized
 Biography* (New York: Alfred A. Knopf, 1999), on Mandela’s public

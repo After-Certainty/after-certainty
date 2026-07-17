@@ -42,7 +42,7 @@ changed what could be demonstrated in public, the contest was never only
 about stars, but about who may decide which openings count as legitimate.
 In each case the portable story preferred a simpler character reading—
 cold, soft, heretical—over the slower account of what the signal system
-was designed to show and hide.
+showed and hid.
 
 A second movement concerns outcomes that settle a room without morally
 resolving it. Deng’s machine restored ordinary life enough that gratitude
@@ -51,8 +51,9 @@ yet improvement could still cover violence, silence, and costs the boom
 trained people not to ask about. Mandela’s surplus opened moral space
 others could enter; it did not convert that opening into justice finished.
 Treating surplus as settlement is how admiration becomes a substitute
-for continuation—and how unfinished repair is rebranded as ingratitude
-toward a saint. Effectiveness and moral authority can each quiet a room.
+for continuation—and how later memory rebrands unfinished repair as
+ingratitude toward a saint. Effectiveness and moral authority can each
+quiet a room.
 Neither, alone, answers what remains unpaid once quiet arrives.
 
 A third movement concerns later memory, which converts sequence into
@@ -64,9 +65,10 @@ King’s open door closed in practice when acknowledgment widened enough
 to absorb the claim while timetables contracted enough to neutralize it;
 sanitization prefers the speech that soothes over the confrontation that
 forced speech to happen. Myth prefers essence to conditions. Once
-restraint or prophetic courage is remembered as what a certain kind of
-person simply *is*, institutions stop doing the work that made the
-appearance survivable—or stop noticing the delay dressed as wisdom.
+schools, monuments, and civic rituals remember restraint or prophetic
+courage as what a certain kind of person simply *is*, institutions stop
+doing the work that made the appearance survivable—or stop noticing the
+delay dressed as wisdom.
 
 ---
 
@@ -79,7 +81,8 @@ unreliable when it treats one dimension as the whole judgment.
 
 Looking twice also reframes responsibility. It shifts attention away
 from individual virtue alone and toward interpretive habit. The problem
-is not only who holds authority, but how authority is read. We routinely
+is not only who holds authority, but how audiences and institutions read
+it. We routinely
 mistake clarity for understanding, stability for justification, and
 endurance for legitimacy. These shortcuts feel efficient. They are often
 necessary. But they carry cost.

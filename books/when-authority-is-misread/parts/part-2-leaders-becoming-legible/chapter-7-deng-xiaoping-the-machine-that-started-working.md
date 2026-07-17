@@ -10,7 +10,8 @@ guard is to seem, in the room’s new grammar, to want the machine broken
 again.
 
 That grammar is unstable, and it is powerful. It is also the pressure that
-shaped how **Deng Xiaoping** was read—inside China and far beyond
+shaped how Party cadres, official histories, and international
+commentators read **Deng Xiaoping**—inside China and far beyond
 it.[^c7-vogel]
 
 ---
@@ -33,8 +34,8 @@ doctrine. Experiments with household responsibility and
 decollectivization—often beginning locally in places such as Anhui,
 then spreading as results became undeniable—rewired incentives in the
 countryside. Farmers gained room to produce for gain rather than only
-for plan. Sideline production and markets that had been treated as
-political crimes reappeared as practical necessity. Grain output rose.
+for plan. Sideline production and markets that earlier campaigns had
+treated as political crimes reappeared as practical necessity. Grain output rose.
 Rural incomes improved unevenly but dramatically compared with the late
 collectivist floor. The Party retained ultimate political control while
 loosening the economic cage that had made control synonymous with
@@ -69,8 +70,9 @@ administrative more than constitutional. Speech remained bounded.
 Organized opposition remained forbidden. Campaigns could still punish
 deviation even as markets expanded. The reforms were real; the safeguard
 against concentrated political coercion was not rebuilt as a public
-institution. Performance became the loudest legitimating claim. Ideology
-was repositioned rather than abandoned: socialism with Chinese
+institution. Performance became the loudest legitimating claim. Party
+leaders repositioned ideology rather than abandoning it: socialism with
+Chinese
 characteristics, practical truth over verbal purity, cats judged by mice
 caught rather than by fur color.[^c7-aphorism] The aphorisms did work as
 permission slips for cadres who needed cover to prioritize yield.
@@ -100,7 +102,8 @@ visible to global media. The leadership split over response. Reformers
 who favored negotiation lost. Deng supported the decision to clear the
 Square by force. The military crackdown on and around June 3–4, 1989
 killed and injured large numbers of civilians; the full accounting
-remains contested because openness was refused, but the fact of lethal
+remains contested because Chinese authorities restricted archives,
+public commemoration, and open inquiry, but the fact of lethal
 state violence is not a serious historical dispute.[^c7-tiananmen]
 Arrests, purges, and tightened control followed. International sanctions
 and condemnation arrived. Domestically, official narrative treated the
@@ -254,9 +257,10 @@ form remains authoritarian. Neither reading keeps the whole file open.
 Under high constraint, public reinterpretation remains limited even when
 private knowledge is widespread. Moral repair—open archives, contested
 memorials, limits on future lethal orders, naming without euphemism—was
-not the reform Deng prioritized. Economic experimentation was encouraged;
-political reinterpretation of authority was not. After 1989, that
-asymmetry hardened once order was restored and growth resumed.
+not the reform Deng prioritized. Party leaders encouraged economic
+experimentation; they did not encourage political reinterpretation of
+authority. After 1989, that asymmetry hardened once the Party restored
+order and growth resumed.
 
 ---
 
@@ -264,10 +268,10 @@ The machine is still running.
 
 The safeguard is still absent. Years of brokenness are no longer the
 immediate weather of daily life. Someone asks what was bypassed to gain
-motion—what rights were suspended, what speech was closed, what bodies
-were broken in the name of keeping reform from disorder—and the room
-tightens, as rooms do when recovery feels fragile and critique feels
-like sabotage.
+motion—which rights authorities suspended, which speech they closed,
+which bodies they broke in the name of keeping reform from disorder—and
+the room tightens, as rooms do when recovery feels fragile and critique
+feels like sabotage.
 
 Functioning output does not prove the safeguard was worthless; the
 missing safeguard does not prove the output was illusory. Deng’s

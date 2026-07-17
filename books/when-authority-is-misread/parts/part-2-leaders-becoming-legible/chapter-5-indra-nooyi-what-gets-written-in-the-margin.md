@@ -15,12 +15,13 @@ supply chain costs in places far from headquarters, what “winning”
 leaves unpaid in water, plastic, labor, and metabolic load. The room
 does not always call them wrong. It calls them unfocused. Toughness is
 reassigned to whoever protects the original columns. Care is praised in
-principle and treated as dilution in practice. Scrutiny moves off the
+principle; boards and markets treat it as dilution in practice. Scrutiny moves off the
 design of the spreadsheet and onto the character of the person who
 questioned it.
 
 That ordinary relocation of attention—from ledger design onto the
-questioner—is the one that shaped how **Indra Nooyi** was read as chief
+questioner—is the one that shaped how investors, analysts, journalists,
+and PepsiCo’s board read **Indra Nooyi** as chief
 executive of PepsiCo.[^c5-profiles]
 
 ---
@@ -134,8 +135,9 @@ Defenders replied with another clean sentence: category shift, reformulation,
 and brand reinvestment take time; PepsiCo remained a highly profitable
 enterprise with durable cash generation. Neither sentence settles the
 moral structure of soft drinks. Both show how evaluation snaps back to
-the columns the ledger already trusted, and how a leader who asked for
-additional columns is then graded exclusively on the old ones.
+the columns the ledger already trusted, and how analysts and markets then
+grade a leader who asked for additional columns exclusively on the old
+ones.
 
 Gendered and racialized expectations thickened the constraint. Research
 on women in leadership repeatedly finds a narrower band of acceptable
@@ -210,7 +212,7 @@ It is who gets to decide which consequences count as performance.
 Expanding the moral frame of leadership increases interpretive labor.
 Investors, analysts, boards, and journalists must judge more dimensions
 than price alone. Compression toward a few metrics feels like clarity
-and functions as protection: fewer numbers, cleaner verdicts, faster
+and protects the evaluators: fewer numbers, cleaner verdicts, faster
 attribution of blame and credit. When a leader pulls exhaustion,
 metabolic risk, packaging waste, or watershed strain toward the center,
 they do not only add information. They threaten the ease with which
@@ -235,9 +237,9 @@ PepsiCo—an enterprise still deeply involved in categories whose social
 costs do not vanish because a CEO can discuss them fluently, hire
 sustainability officers, or report grams of sugar removed from a
 formula. Moral expansion without unambiguous numerical dominance keeps
-legitimacy conditional. That conditionality is often misread as proof
-that purpose was a mistake, when it may also be proof that the
-evaluation system cannot credit what it refused to measure.
+legitimacy conditional. Markets and later narratives often misread that
+conditionality as proof that purpose was a mistake, when it may also be
+proof that the evaluation system cannot credit what it refused to measure.
 
 The ordinary meeting returns here with clearer stakes. The colleague
 who asks about downstream harm is thanked for raising a good point and
@@ -254,9 +256,9 @@ by the numbers the ledger was designed to protect.*
 Care is easy to praise in the abstract. It is harder to legitimize when
 legitimacy is still issued in the old units. The misreading is not that
 Nooyi’s goals were unclear. It is that clarity about care challenged
-what leadership was expected to optimize—and that challenge was recoded
-as a defect in the challenger, while the margin continued to warehouse
-what the company preferred not to call performance.
+what leadership was expected to optimize—and that investors and critics
+recoded that challenge as a defect in the challenger, while the margin
+continued to warehouse what the company preferred not to call performance.
 
 ---
 
@@ -270,8 +272,8 @@ performance. When a leader tries to rewrite a margin note into the
 primary grid, the room often scrutinizes her character harder than it
 scrutinizes the grid.
 
-The cells will update either way. What changes is whether the damage
-stored beside them is treated as idealism imported by an insufficiently
+The cells will update either way. What changes is whether the room treats
+the damage stored beside them as idealism imported by an insufficiently
 tough executive—or as part of what the enterprise already was whenever
 those clean columns post their wins.
 

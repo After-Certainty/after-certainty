@@ -113,25 +113,26 @@ not invent the institutional threat; it accelerated the moment when
 negotiation gave way to enforcement.[^c6-dialogue]
 
 The Roman Inquisition had already marked the terrain. In 1616,
-heliocentric teaching as physical truth was censured; Copernicus’s *De
-revolutionibus* was suspended pending correction; Galileo was warned
-not to hold or defend the doctrine. How absolute that warning was—and
-what document recorded it—became contested at trial. The later
+Church authorities censured heliocentric teaching as physical truth,
+suspended Copernicus’s *De revolutionibus* pending correction, and warned
+Galileo not to hold or defend the doctrine. How absolute that warning
+was—and what document recorded it—became contested at trial. The later
 proceeding of 1633 treated the *Dialogue* as a violation of that
 boundary in any case. The formal question was not whether every
 observation could be explained away line by line. It was whether
 Galileo had claimed a form of public teaching the Church had reserved
 the right to withhold.[^c6-trial]
 
-He was found vehemently suspect of heresy, required to abjure, and
-sentenced to house arrest. His book was banned. The recantation was
+The Roman Inquisition found him vehemently suspect of heresy, required
+him to abjure, and sentenced him to house arrest. It banned his book.
+The recantation was
 public—spoken under the pressure of a system that could escalate from
 humiliation to physical coercion. The restriction of movement and print
 was durable. Under house arrest he continued work where he could,
 including on motion and materials, but the political meaning of the
-sentence outran any private continuation: public Copernican teaching had
-been declared inadmissible by the institution that claimed to govern
-what the faithful could be taught about the world’s order.
+sentence outran any private continuation: the institution that claimed to
+govern what the faithful could be taught about the world’s order had
+declared public Copernican teaching inadmissible.
 
 None of this requires a cartoon of stupid cardinals crushing pure
 truth. Church officials were managing scripture, social order,
@@ -145,8 +146,8 @@ that already exists.
 
 That last point is the one the later mythology most often erases.
 Galileo’s claims were not, for many contemporaries, unintelligible.
-They were actionable. His signals were understood well enough to be
-suppressed. Suppression is a recognition ritual of a dark kind: it
+They were actionable. Church authorities understood his signals well
+enough to suppress them. Suppression is a recognition ritual of a dark kind: it
 concedes that a claim has force, then denies it room to operate in
 public life. Understanding without permission is not the same as
 ignorance. It is knowledge placed under injunction.[^c6-heilbron-suppress]
@@ -167,8 +168,8 @@ Looking carefully restores the harder fact: authority can fail without
 being merely stupid, and truth can be clear without being allowed to
 count.[^c6-myth]
 
-The myth also flattens Galileo into pure symbol. He was a person who
-wanted recognition, feared loss of status, and sometimes preferred a
+The myth also flattens Galileo into pure symbol. He pursued recognition,
+defended his status within patronage networks, and sometimes preferred a
 crushing riposte to a durable settlement. Including that fact is not an
 attempt to exonerate coercion. It is an attempt to keep the chapter from
 becoming the cartoon it refuses.
@@ -230,8 +231,9 @@ observation, published insistence, vernacular dialectic, and a temper
 unwilling to flinch produced a claim that literate readers could follow.
 The Roman response treated the claim as unauthorized seeing rather than
 as unresolved debate. House arrest did not erase the moons of Jupiter.
-It declared that certain conclusions, however supported by instrumental
-sight, were not yet permitted to reorganize public meaning. Understanding
+It declared that Church authorities would not yet permit certain
+conclusions, however supported by instrumental
+sight, to reorganize public meaning. Understanding
 without that permission can continue privately while public life is
 ordered as if the frame had never been noticed.
 
