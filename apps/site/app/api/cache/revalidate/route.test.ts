@@ -1,6 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import { POST } from "./route";
+import { resetRateLimitBuckets } from "@/lib/security/rate-limit";
 
 vi.mock("@/lib/cache/revalidate", async (importOriginal) => {
   const actual = await importOriginal<typeof import("@/lib/cache/revalidate")>();
@@ -31,10 +32,12 @@ describe("POST /api/cache/revalidate", () => {
     prevSecret = process.env.CACHE_REVALIDATE_SECRET;
     process.env.CACHE_REVALIDATE_SECRET = "route-test-secret";
     vi.mocked(revalidateCacheTargets).mockClear();
+    resetRateLimitBuckets();
   });
 
   afterEach(() => {
     process.env.CACHE_REVALIDATE_SECRET = prevSecret;
+    resetRateLimitBuckets();
   });
 
   it("returns 503 when secret is not configured", async () => {
@@ -49,9 +52,7 @@ describe("POST /api/cache/revalidate", () => {
   });
 
   it("revalidates all default targets with a valid bearer token", async () => {
-    const res = await POST(
-      postRequest({ authorization: "Bearer route-test-secret" }),
-    );
+    const res = await POST(postRequest({ authorization: "Bearer route-test-secret" }));
     expect(res.status).toBe(200);
     expect(revalidateCacheTargets).toHaveBeenCalledWith(["podcast", "semantic", "books"]);
     await expect(res.json()).resolves.toEqual({

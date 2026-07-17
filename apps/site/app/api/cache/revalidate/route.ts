@@ -6,6 +6,21 @@ import {
   parseCacheRevalidateTargets,
   revalidateCacheTargets,
 } from "@/lib/cache/revalidate";
+import { checkRateLimit } from "@/lib/security/rate-limit";
+
+const UNAUTH_RATE_LIMIT = 20;
+const UNAUTH_WINDOW_MS = 15 * 60 * 1000;
+
+function clientIp(request: Request): string {
+  const forwarded = request.headers.get("x-forwarded-for");
+  if (forwarded) {
+    const first = forwarded.split(",")[0]?.trim();
+    if (first) return first;
+  }
+  const realIp = request.headers.get("x-real-ip")?.trim();
+  if (realIp) return realIp;
+  return "unknown";
+}
 
 export async function POST(request: Request) {
   if (!isCacheRevalidateConfigured()) {
@@ -16,6 +31,19 @@ export async function POST(request: Request) {
   }
 
   if (!isCacheRevalidateAuthorized(request)) {
+    const ipLimit = checkRateLimit(`revalidate:unauth:${clientIp(request)}`, {
+      limit: UNAUTH_RATE_LIMIT,
+      windowMs: UNAUTH_WINDOW_MS,
+    });
+    if (!ipLimit.ok) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again shortly." },
+        {
+          status: 429,
+          headers: { "Retry-After": String(ipLimit.retryAfterSeconds) },
+        },
+      );
+    }
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
