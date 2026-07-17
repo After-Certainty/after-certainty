@@ -20,6 +20,12 @@ import sys
 from pathlib import Path
 from typing import Any
 
+_TOOLS = Path(__file__).resolve().parent
+if str(_TOOLS) not in sys.path:
+    sys.path.insert(0, str(_TOOLS))
+
+from path_safety import PathSafetyError, ensure_book_relative  # noqa: E402
+
 # Legacy catalog when book.yml has no assets.diagrams overrides (exact paths + widths).
 # (source svg relative to book dir, output png relative to book dir, width px)
 DEFAULT_DIAGRAMS: list[tuple[str, str, int]] = [
@@ -117,8 +123,13 @@ def rasterize_book_diagrams(
     done = 0
 
     for svg_rel, png_rel, width in jobs:
-        svg_path = root / svg_rel
-        png_path = root / png_rel
+        try:
+            svg_path = ensure_book_relative(root, svg_rel, description="diagram svg")
+            png_path = ensure_book_relative(root, png_rel, description="diagram png")
+        except PathSafetyError as exc:
+            if not quiet:
+                print(f"diagram_rasterize: rejected path: {exc}", flush=True)
+            continue
         if not svg_path.is_file():
             continue
         png_path.parent.mkdir(parents=True, exist_ok=True)

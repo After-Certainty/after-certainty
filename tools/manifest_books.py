@@ -10,6 +10,7 @@ from urllib.parse import urlparse
 
 from book_output_stem import stem_for_book_dir
 from book_specs import spec_formats
+from path_safety import PathSafetyError, ensure_book_relative, ensure_repo_relative
 
 
 def sanitize_github_repo_slug(raw: str) -> str:
@@ -103,7 +104,10 @@ def _title_page_markdown_parent(spec: dict, book_dir: Path) -> Path | None:
     out_rel = str(block.get("output", "")).strip()
     if not out_rel:
         return None
-    title_md = (book_dir / out_rel).resolve()
+    try:
+        title_md = ensure_book_relative(book_dir, out_rel, description="title_page output")
+    except PathSafetyError:
+        return None
     return title_md.parent
 
 
@@ -127,17 +131,27 @@ def resolve_cover_path(repo: Path, spec_path: Path, spec: dict, cover_value: str
     if cover_value.strip():
         seen: set[Path] = set()
         for base in anchors:
-            candidate = (base / cover_value).resolve()
+            try:
+                candidate = ensure_book_relative(base, cover_value, description="cover image")
+            except PathSafetyError:
+                continue
             if candidate in seen:
                 continue
             seen.add(candidate)
             if candidate.is_file():
                 rel = to_repo_relative(repo, candidate)
                 if rel:
+                    try:
+                        ensure_repo_relative(repo, rel, must_exist=True, description="cover image")
+                    except PathSafetyError:
+                        continue
                     return rel
 
     for name in ("BookCover.png", "book_cover.png", "book-cover.png"):
-        candidate = (book_dir / name).resolve()
+        try:
+            candidate = ensure_book_relative(book_dir, name, description="cover image")
+        except PathSafetyError:
+            continue
         if candidate.is_file():
             rel = to_repo_relative(repo, candidate)
             if rel:
@@ -160,7 +174,10 @@ def resolve_open_graph_path(repo: Path, spec_path: Path, spec: dict, og_value: s
     if og_value.strip():
         seen: set[Path] = set()
         for base in anchors:
-            candidate = (base / og_value).resolve()
+            try:
+                candidate = ensure_book_relative(base, og_value, description="open graph image")
+            except PathSafetyError:
+                continue
             if candidate in seen:
                 continue
             seen.add(candidate)
@@ -170,7 +187,10 @@ def resolve_open_graph_path(repo: Path, spec_path: Path, spec: dict, og_value: s
                     return rel
 
     for name in ("open-graph.png", "open_graph.png"):
-        candidate = (book_dir / name).resolve()
+        try:
+            candidate = ensure_book_relative(book_dir, name, description="open graph image")
+        except PathSafetyError:
+            continue
         if candidate.is_file():
             rel = to_repo_relative(repo, candidate)
             if rel:

@@ -22,6 +22,7 @@ if str(_TOOLS) not in sys.path:
 from jinja2 import Environment, FileSystemLoader, StrictUndefined  # noqa: E402
 
 from book_specs import load_any_book_spec, resolve_spec_path  # noqa: E402
+from path_safety import PathSafetyError, ensure_book_relative, ensure_repo_relative  # noqa: E402
 
 
 def _author_display(book: dict[str, Any]) -> str:
@@ -119,7 +120,10 @@ def generate_frontmatter_for_book(repo: Path, book_rel: str) -> list[Path]:
     Returns list of paths written.
     """
     repo = repo.resolve()
-    book_dir = (repo / book_rel).resolve()
+    try:
+        book_dir = ensure_repo_relative(repo, book_rel, description="book directory")
+    except PathSafetyError as exc:
+        raise ValueError(str(exc)) from exc
     spec_path = resolve_spec_path(book_dir)
     if spec_path is None:
         return []
@@ -142,13 +146,18 @@ def generate_frontmatter_for_book(repo: Path, book_rel: str) -> list[Path]:
         out_rel = str(block.get("output", "")).strip()
         if not tmpl_rel or not out_rel:
             continue
-        tmpl_path = (repo / tmpl_rel).resolve()
+        try:
+            tmpl_path = ensure_repo_relative(
+                repo, tmpl_rel, must_exist=True, description="repo_template"
+            )
+            out_path = ensure_book_relative(book_dir, out_rel, description="frontmatter output")
+        except PathSafetyError as exc:
+            raise ValueError(str(exc)) from exc
         if not tmpl_path.is_file():
             raise FileNotFoundError(f"Template not found: {tmpl_path}")
         rendered = render_repo_template(repo, tmpl_rel, ctx)
         if not rendered.endswith("\n"):
             rendered += "\n"
-        out_path = (book_dir / out_rel).resolve()
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(rendered, encoding="utf-8")
         written.append(out_path)

@@ -8,3 +8,9 @@ repos:
         files: ^(tools|scripts|tests)/
       - id: ruff-format
         files: ^(tools|scripts|tests)/
+
+  # Overlapping defense with tests/test_no_secrets_in_repo.py (keep both).
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.0
+    hooks:
+      - id: gitleaks

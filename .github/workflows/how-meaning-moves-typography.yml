@@ -23,9 +23,11 @@ permissions:
 
 jobs:
   typography:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+        with:
+          persist-credentials: false
 
       - name: Typography check (styled blocks + Pattern Block fences)
         run: python3 tools/how_meaning_moves_typography_check.py

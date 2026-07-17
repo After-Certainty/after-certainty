@@ -151,6 +151,8 @@ def run(
     overwrite: bool,
     base_branch: str,
     dry_run: bool,
+    publish: bool = True,
+    publish_only: bool = False,
 ) -> int:
     if agent_type not in AGENT_TYPES:
         print(f"Error: invalid agent_type {agent_type!r}", file=sys.stderr)
@@ -159,21 +161,22 @@ def run(
     book_dir = find_book_dir(repo, book_id)
     book_dir_abs = (repo / book_dir).resolve()
 
-    if agent_type in ENRICHMENT_AGENT_TYPES:
-        code = propose(
-            repo,
-            book_dir=book_dir_abs,
-            agent_type=agent_type,
-            only_missing=not all_entities,
-            overwrite=overwrite,
-            dry_run=dry_run,
-        )
-        if code != 0 and not dry_run:
-            print("Warning: propose returned no new scaffolds", file=sys.stderr)
-    elif agent_type == "ontology-lint":
-        _ontology_lint_report(repo, book_id)
-    elif agent_type == "discovery":
-        _discovery_report(repo, book_id)
+    if not publish_only:
+        if agent_type in ENRICHMENT_AGENT_TYPES:
+            code = propose(
+                repo,
+                book_dir=book_dir_abs,
+                agent_type=agent_type,
+                only_missing=not all_entities,
+                overwrite=overwrite,
+                dry_run=dry_run,
+            )
+            if code != 0 and not dry_run:
+                print("Warning: propose returned no new scaffolds", file=sys.stderr)
+        elif agent_type == "ontology-lint":
+            _ontology_lint_report(repo, book_id)
+        elif agent_type == "discovery":
+            _discovery_report(repo, book_id)
 
     files = collect_enrichment_files(repo, book_id, agent_type)
     if agent_type in REPORT_AGENT_TYPES:
@@ -185,7 +188,7 @@ def run(
         return 1
 
     lint_stdout = ""
-    if not dry_run:
+    if not dry_run and not publish_only:
         lint_proc = _run(["make", "lint-semantic-graph"], cwd=repo)
         lint_stdout = lint_proc.stdout + lint_proc.stderr
         verify_proc = _run(["make", "verify-semantic-ontology"], cwd=repo)
@@ -195,7 +198,7 @@ def run(
             print("Error: verify-semantic-ontology failed", file=sys.stderr)
             return 2
     else:
-        lint_stdout = "(skipped in dry-run)"
+        lint_stdout = "(skipped)"
 
     run_id = os.environ.get("GITHUB_RUN_ID", "local")
     branch = f"semantic-agent/{agent_type}-{book_id}-{run_id}"
@@ -209,9 +212,10 @@ def run(
         lint_stdout=lint_stdout,
     )
 
-    if dry_run:
-        print(f"dry-run: branch={branch} files={len(files)}")
-        print(body)
+    if dry_run or not publish:
+        print(f"{'dry-run' if dry_run else 'scaffold-only'}: branch={branch} files={len(files)}")
+        if dry_run:
+            print(body)
         return 0
 
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
@@ -284,8 +288,11 @@ def run(
         manual = _manual_pr_url(base_branch=base_branch, branch=branch)
         if blocked:
             print(
-                "Note: enable repo setting Actions → General → Workflow permissions → "
-                '"Allow GitHub Actions to create and approve pull requests".',
+                "Note: automatic PR creation may be disabled. Prefer opening a PR "
+                "manually from the compare URL below. Do not enable "
+                '"Allow GitHub Actions to create and approve pull requests" unless '
+                "you intentionally need Actions to create PRs (approval is separate "
+                "and should remain human-only).",
                 file=sys.stderr,
             )
         if push_proc.returncode == 0 and manual:
@@ -307,6 +314,16 @@ def main() -> None:
     parser.add_argument("--all-entities", action="store_true", help="Scaffold all book entities")
     parser.add_argument("--overwrite", action="store_true", help="Replace existing draft files")
     parser.add_argument("--dry-run", action="store_true", help="Generate files only; no git/gh")
+    parser.add_argument(
+        "--scaffold-only",
+        action="store_true",
+        help="Write enrichment files and stop (no GH_TOKEN required)",
+    )
+    parser.add_argument(
+        "--publish-only",
+        action="store_true",
+        help="Commit/push/open PR for existing drafts only (requires GH_TOKEN)",
+    )
     args = parser.parse_args()
 
     repo = Path(args.repo).resolve()
@@ -319,6 +336,8 @@ def main() -> None:
             overwrite=args.overwrite,
             base_branch=args.base_branch.strip(),
             dry_run=args.dry_run,
+            publish=not args.scaffold_only,
+            publish_only=args.publish_only,
         )
     )
 
