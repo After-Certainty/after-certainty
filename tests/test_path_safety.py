@@ -98,3 +98,14 @@ def test_safe_book_id() -> None:
         safe_book_id("a/b")
     with pytest.raises(PathSafetyError):
         safe_book_id("")
+
+
+def test_safe_draft_out_dir(tmp_path: Path) -> None:
+    from path_safety import safe_draft_out_dir
+
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    out = safe_draft_out_dir(repo, "semantic/_drafts/generated/glossary", "coupling")
+    assert out == (repo / "semantic/_drafts/generated/glossary/coupling").resolve()
+    with pytest.raises(PathSafetyError):
+        safe_draft_out_dir(repo, "semantic/_drafts", "../outside")

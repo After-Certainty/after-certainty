@@ -46,6 +46,8 @@ concurrency:
 
 env:
   PYTHON_VERSION: "3.12.3"
+  UV_VERSION: "0.11.29"
+  UV_SHA256: "04f8b82f5d47f0512dcd32c67a4a6f16a0ea27c81537c338fd0ad6b23cebe829"
 
 jobs:
   open-enrichment-pr:
@@ -62,10 +64,10 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Install dependencies
+      - name: Install dependencies (frozen lock)
         run: |
           set -euo pipefail
-          python3 -m pip install --user -r requirements.txt
+          bash scripts/ci_uv_sync.sh
 
       - name: Verify ontology before agent run
         run: |

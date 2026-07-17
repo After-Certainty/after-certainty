@@ -28,6 +28,7 @@ if str(_TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(_TOOLS_DIR))
 
 from book_specs import load_any_book_spec  # noqa: E402
+from path_safety import PathSafetyError, ensure_repo_relative  # noqa: E402
 from semantic_enrichment import (  # noqa: E402
     AGENT_TO_FIELD,
     ENRICHMENT_AGENT_TYPES,
@@ -188,7 +189,10 @@ def main() -> None:
     args = parser.parse_args()
 
     repo = Path(args.repo).resolve()
-    book_dir = (repo / args.book_dir).resolve()
+    try:
+        book_dir = ensure_repo_relative(repo, args.book_dir, description="book-dir")
+    except PathSafetyError as exc:
+        raise SystemExit(str(exc)) from exc
     only_missing = not args.all_entities
     sys.exit(
         propose(

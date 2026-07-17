@@ -43,3 +43,14 @@ Confirm these exist only as Actions secrets/variables as intended:
 
 Note: `SITE_REVALIDATE_URL` is **no longer trusted**. Revalidation always targets the
 hardcoded allowlisted production URL in `scripts/revalidate_site_cache.sh`.
+
+## Historical credential incident
+
+Git history still contains four old commits that embedded `x-access-token` URLs in
+portfolio-audit manifests (allowlisted in `.gitleaks.toml` for history scans only).
+Those files are no longer tracked.
+
+- [ ] Confirm any GitHub App / Actions token that may have appeared in that history
+      was rotated or revoked after the original incident
+- [ ] Confirm GitHub secret scanning / push protection is enabled so a reintroduction
+      is blocked at push time

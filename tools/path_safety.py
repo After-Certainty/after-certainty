@@ -156,3 +156,13 @@ def safe_book_id(book_id: str) -> str:
     if _looks_absolute(value):
         raise PathSafetyError(f"book_id must not be absolute: {value!r}")
     return value
+
+
+def safe_draft_out_dir(repo: Path, out_dir: str, book_id: str) -> Path:
+    """Resolve ``<out_dir>/<book_id>`` under the repository root."""
+    bid = safe_book_id(book_id)
+    base = str(out_dir).strip().replace("\\", "/").rstrip("/")
+    if not base:
+        raise PathSafetyError("out-dir must not be empty")
+    rel = f"{base}/{bid}"
+    return ensure_under(repo, rel, description="draft output directory")
