@@ -13,6 +13,13 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
+# Prefer the frozen CI/local venv when present (GITHUB_PATH only affects later steps).
+if [[ -x "$ROOT/.venv/bin/python3" ]]; then
+  PYTHON="$ROOT/.venv/bin/python3"
+else
+  PYTHON="python3"
+fi
+
 MODE="${PREPARE_MODE:-books}"
 PRIOR_DIR="${PRIOR_DIR:-prior}"
 BUILT_DIR="${BUILT_DIR:-built}"
@@ -22,7 +29,7 @@ REPO_SLUG="${GITHUB_REPOSITORY:?GITHUB_REPOSITORY is required}"
 mkdir -p "$OUT_DIR"
 
 if [[ "$MODE" == "books" ]]; then
-  python3 tools/merge_release_assets.py \
+  "$PYTHON" tools/merge_release_assets.py \
     --repo . \
     --prior-dir "$PRIOR_DIR" \
     --built-dir "$BUILT_DIR" \
@@ -36,27 +43,27 @@ else
   exit 2
 fi
 
-python3 tools/verify_semantic_yaml.py --repo . --strict-prose
+"$PYTHON" tools/verify_semantic_yaml.py --repo . --strict-prose
 
 if [[ "$MODE" == "books" ]]; then
-  python3 tools/generate_books_manifest.py \
+  "$PYTHON" tools/generate_books_manifest.py \
     --repo . \
     --out "$OUT_DIR/books-manifest.json" \
     --github-repository "$REPO_SLUG" \
     --github-ref "main" \
     --release-tag "latest"
-  python3 tools/validate_books_manifest.py --repo . --manifest "$OUT_DIR/books-manifest.json"
+  "$PYTHON" tools/validate_books_manifest.py --repo . --manifest "$OUT_DIR/books-manifest.json"
 fi
 
-python3 tools/generate_semantic_manifest.py \
+"$PYTHON" tools/generate_semantic_manifest.py \
   --repo . \
   --out "$OUT_DIR/semantic-manifest.json" \
   --github-repository "$REPO_SLUG" \
   --github-ref "main" \
   --release-tag "latest"
-python3 tools/validate_semantic_manifest.py --repo . --manifest "$OUT_DIR/semantic-manifest.json"
+"$PYTHON" tools/validate_semantic_manifest.py --repo . --manifest "$OUT_DIR/semantic-manifest.json"
 
-python3 tools/scan_generated_secrets.py "$OUT_DIR"
+"$PYTHON" tools/scan_generated_secrets.py "$OUT_DIR"
 
 bash scripts/write_sha256sums.sh "$OUT_DIR"
 ls -la "$OUT_DIR"

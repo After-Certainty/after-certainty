@@ -34,6 +34,9 @@ fi
 
 uv sync --frozen
 export PATH="${ROOT}/.venv/bin:$PATH"
+# GITHUB_PATH is consumed by *subsequent* workflow steps only — not later
+# commands in the same step. Prefer a separate install step, or call scripts
+# that resolve .venv/bin/python3 themselves.
 if [[ -n "${GITHUB_PATH:-}" ]]; then
   echo "${ROOT}/.venv/bin" >> "$GITHUB_PATH"
 fi

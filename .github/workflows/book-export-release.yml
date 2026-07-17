@@ -217,7 +217,12 @@ jobs:
             --pattern 'semantic-manifest.json' --pattern 'SHA256SUMS' \
             --dir prior || true
 
-      - name: Install Python deps and prepare staging
+      - name: Install Python dependencies (frozen lock)
+        run: |
+          set -euo pipefail
+          bash scripts/ci_uv_sync.sh
+
+      - name: Prepare release staging
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           PREPARE_MODE: books
@@ -229,7 +234,6 @@ jobs:
           GITHUB_TOKEN: ""
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
           bash scripts/prepare_release_staging.sh
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
@@ -309,7 +313,12 @@ jobs:
             --pattern 'semantic-manifest.json' --pattern 'SHA256SUMS' \
             --dir prior || true
 
-      - name: Install Python deps and prepare staging
+      - name: Install Python dependencies (frozen lock)
+        run: |
+          set -euo pipefail
+          bash scripts/ci_uv_sync.sh
+
+      - name: Prepare semantic-only staging
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
           PREPARE_MODE: semantic-only
@@ -319,7 +328,6 @@ jobs:
           GITHUB_TOKEN: ""
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
           bash scripts/prepare_release_staging.sh
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
