@@ -70,8 +70,9 @@ administrative more than constitutional. Speech remained bounded.
 Organized opposition remained forbidden. Campaigns could still punish
 deviation even as markets expanded. The reforms were real; the safeguard
 against concentrated political coercion was not rebuilt as a public
-institution. Performance became the loudest legitimating claim. Ideology
-was repositioned rather than abandoned: socialism with Chinese
+institution. Performance became the loudest legitimating claim. Party
+leaders repositioned ideology rather than abandoning it: socialism with
+Chinese
 characteristics, practical truth over verbal purity, cats judged by mice
 caught rather than by fur color.[^c7-aphorism] The aphorisms did work as
 permission slips for cadres who needed cover to prioritize yield.

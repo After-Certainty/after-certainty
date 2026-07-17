@@ -212,7 +212,7 @@ It is who gets to decide which consequences count as performance.
 Expanding the moral frame of leadership increases interpretive labor.
 Investors, analysts, boards, and journalists must judge more dimensions
 than price alone. Compression toward a few metrics feels like clarity
-and functions as protection: fewer numbers, cleaner verdicts, faster
+and protects the evaluators: fewer numbers, cleaner verdicts, faster
 attribution of blame and credit. When a leader pulls exhaustion,
 metabolic risk, packaging waste, or watershed strain toward the center,
 they do not only add information. They threaten the ease with which

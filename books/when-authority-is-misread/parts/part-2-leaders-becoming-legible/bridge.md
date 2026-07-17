@@ -1,8 +1,9 @@
 # Part II — Leaders Becoming Legible
 
 Part II turns from ordinary rooms to leaders already compressed into
-reputation. Each chapter asks a quieter question than verdict: why was
-this leader read this way, and why did that reading persist?
+reputation. Each chapter asks a quieter question than verdict: why did
+audiences and institutions read this leader this way, and why did that
+reading persist?
 
 ---
 

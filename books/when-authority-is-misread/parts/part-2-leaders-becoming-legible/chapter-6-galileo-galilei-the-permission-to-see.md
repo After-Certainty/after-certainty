@@ -124,7 +124,7 @@ Galileo had claimed a form of public teaching the Church had reserved
 the right to withhold.[^c6-trial]
 
 The Roman Inquisition found him vehemently suspect of heresy, required
-him to abjure, and sentenced him to house arrest. His book was banned.
+him to abjure, and sentenced him to house arrest. It banned his book.
 The recantation was
 public—spoken under the pressure of a system that could escalate from
 humiliation to physical coercion. The restriction of movement and print

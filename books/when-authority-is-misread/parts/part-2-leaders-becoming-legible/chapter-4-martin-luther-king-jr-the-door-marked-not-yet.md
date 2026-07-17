@@ -236,9 +236,10 @@ Longer measures recorded altered law, altered public moral vocabulary,
 and a civil rights settlement that was incomplete and still
 foundational. The temporal gap is the point. When benefits are delayed
 and costs are immediate, moral leadership cannot justify itself by the
-ledger the resistant system already uses. Justification is routinely
-denied until the danger of action has passed—and that denial is later
-narrated as tragic misunderstanding rather than as refusal.
+ledger the resistant system already uses. Resistant institutions
+routinely deny justification until the danger of action has passed—and
+later commemorators narrate that denial as tragic misunderstanding
+rather than as refusal.
 
 King and the organizers around him constructed campaigns so demands
 remained legible under distortion; contemporaneous disapproval shows how
