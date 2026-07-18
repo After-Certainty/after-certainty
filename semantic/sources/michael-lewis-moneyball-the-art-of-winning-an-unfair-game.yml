@@ -2,7 +2,10 @@ slug: michael-lewis-moneyball-the-art-of-winning-an-unfair-game
 name: 'Michael Lewis — Moneyball: The Art of Winning an Unfair Game'
 type: book
 summary: 'Michael Lewis. *Moneyball: The Art of Winning an Unfair Game*. (New York: W. W. Norton, 2003).'
-concepts: []
+concepts:
+- scoreboard-remainder
+- attention
+- compression
 patterns: []
 relatedBooks:
 - the-game-we-think-we-saw

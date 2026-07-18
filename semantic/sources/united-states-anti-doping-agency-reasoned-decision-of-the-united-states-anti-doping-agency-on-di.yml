@@ -4,7 +4,10 @@ name: United States Anti-Doping Agency — Reasoned Decision of the United State
 type: article
 summary: United States Anti-Doping Agency. "Reasoned Decision of the United States Anti-Doping Agency
   on Disqualification and Ineligibility." October 10, 2012, https://www.usada.org/wp-content/uploads/ReasonedDecision.pdf.
-concepts: []
+concepts:
+- winning-as-excuse
+- legitimacy
+- accountability
 patterns: []
 relatedBooks:
 - the-game-we-think-we-saw

@@ -2,7 +2,9 @@ slug: nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick
 name: NBC Sports Boston — Who Gets Most of the Credit - Brady or Belichick?
 type: article
 summary: NBC Sports Boston. "Who Gets Most of the Credit - Brady or Belichick?" https://www.nbcboston.com/news/sports/nbc-sports-boston/who-gets-most-of-the-credit-brady-or-belichick/2092515/.
-concepts: []
+concepts:
+- star-as-explanation
+- accountability
 patterns: []
 relatedBooks:
 - the-game-we-think-we-saw
