@@ -1,0 +1,12 @@
+slug: mlb-com
+name: MLB.com
+type: organization
+summary: Major League Baseball's official news channel explaining ABS challenge design and league policy
+  rollout.
+concepts: []
+patterns: []
+relatedBooks:
+- the-game-we-think-we-saw
+works:
+- mlb-com-mlb-to-use-abs-challenge-system-starting-in-2026
+whyThisMatters: Public-facing explanation of when automated judgment supplements the umpire.

@@ -1,0 +1,20 @@
+slug: operational-finality
+title: Operational Finality
+shortDefinition: Operational finality is the binding force of a ruling or whistle that must be treated
+  as decided for play to continue, even when interpretation remains contested or later evidence complicates
+  the call.
+longDefinition: 'Operational finality names legitimacy that works as stoppage rather than as shared
+  conviction. Sports makes this vivid: a catch ruling, VAR check, or challenge can restart play while
+  fans still disagree about what they saw. The concept matters wherever institutions need operable
+  closure under disagreement. It differs from truth because a call can be binding without being satisfying;
+  it differs from legitimacy-as-belief because people may comply with a whistle they do not interpret
+  as just.'
+termKind: extended
+relatedConcepts:
+- legitimacy
+- authority
+- judgment
+- interpretation
+relatedPatterns: []
+relatedBooks:
+- the-game-we-think-we-saw

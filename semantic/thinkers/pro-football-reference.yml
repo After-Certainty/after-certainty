@@ -1,0 +1,13 @@
+slug: pro-football-reference
+name: Pro-Football-Reference
+type: organization
+summary: Statistical encyclopedia for NFL teams, seasons, and Super Bowl box scores.
+concepts: []
+patterns: []
+relatedBooks:
+- the-game-we-think-we-saw
+works:
+- pro-football-reference-2008-new-england-patriots
+- pro-football-reference-new-england-patriots-franchise-encyclopedia
+- pro-football-reference-super-bowl-lv-box-score
+whyThisMatters: Ledger of what the official record keeps when credit arguments continue.

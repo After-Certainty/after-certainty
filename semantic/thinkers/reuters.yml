@@ -1,0 +1,11 @@
+slug: reuters
+name: Reuters
+type: organization
+summary: International news agency reporting the Kaepernick collusion settlement and related legal outcomes.
+concepts: []
+patterns: []
+relatedBooks:
+- the-game-we-think-we-saw
+works:
+- reuters-u-s-quarterback-kaepernick-settles-grievance-case-with-nfl
+whyThisMatters: Wire confirmation when a sports dispute becomes a settled institutional fact.
