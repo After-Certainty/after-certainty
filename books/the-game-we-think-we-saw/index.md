@@ -45,6 +45,7 @@ What the event becomes once it leaves the field.
 ## Back Matter
 
 - [Conclusion — After the Arena Empties](back-matter/conclusion-after-the-arena-empties.md)
+- [Bibliography](back-matter/bibliography.md)
 - [About the Series](back-matter/about-the-series.md)
 
 ## Related books
