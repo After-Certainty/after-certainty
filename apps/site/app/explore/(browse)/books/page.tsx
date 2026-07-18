@@ -32,7 +32,7 @@ export default async function ExploreBooksIndexPage() {
         {books.length === 0 ? (
           <p className="text-muted">No books are linked in the semantic manifest yet.</p>
         ) : (
-          <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+          <div className="grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
             {books.map((b) => (
               <BookCard
                 key={b.id}

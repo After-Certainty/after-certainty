@@ -93,7 +93,7 @@ export default async function ExploreThinkersIndexPage({
             {pageThinkers.length === 0 ? (
               <p className="mt-8 text-muted">No thinkers match that search.</p>
             ) : (
-              <div className="mt-8 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              <div className="mt-8 grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
                 {pageThinkers.map((thinker) => (
                   <ThinkerCard key={thinker.id} thinker={thinker} />
                 ))}

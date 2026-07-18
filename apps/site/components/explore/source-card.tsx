@@ -21,10 +21,12 @@ export function SourceCard({ source }: SourceCardProps) {
     <ExploreCard>
       <Link href={`${explorePaths.sources}/${source.slug}`} className="block space-y-2">
         <p className="text-[10px] uppercase tracking-[0.28em] text-accent">{label}</p>
-        <h3 className="font-display text-xl font-medium tracking-tight text-fg transition-colors group-hover:text-accent">
+        <h3 className="break-words font-display text-xl font-medium tracking-tight text-fg transition-colors group-hover:text-accent">
           {title}
         </h3>
-        {body ? <p className="line-clamp-3 text-sm leading-relaxed text-muted">{body}</p> : null}
+        {body ? (
+          <p className="line-clamp-3 break-all text-sm leading-relaxed text-muted">{body}</p>
+        ) : null}
       </Link>
     </ExploreCard>
   );

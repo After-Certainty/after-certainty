@@ -114,7 +114,7 @@ export default async function ExploreSourcesIndexPage({
             {pageSources.length === 0 ? (
               <p className="mt-8 text-muted">No sources match that search.</p>
             ) : (
-              <div className="mt-8 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              <div className="mt-8 grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
                 {pageSources.map((s) => (
                   <SourceCard key={s.id} source={s} />
                 ))}

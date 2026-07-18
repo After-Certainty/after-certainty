@@ -45,7 +45,7 @@ export function RelatedContentGrid({
       {heading ? (
         <h2 className="text-[11px] uppercase tracking-[0.24em] text-muted">{heading}</h2>
       ) : null}
-      <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+      <div className="grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
         {concepts.map((c) => (
           <ConceptCard key={c.id} concept={c} />
         ))}

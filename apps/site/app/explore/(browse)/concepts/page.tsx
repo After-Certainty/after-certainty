@@ -99,7 +99,7 @@ export default async function ExploreConceptsIndexPage({
             {pageConcepts.length === 0 ? (
               <p className="mt-8 text-muted">No concepts match that search.</p>
             ) : (
-              <div className="mt-8 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              <div className="mt-8 grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
                 {pageConcepts.map((c) => (
                   <ConceptCard key={c.id} concept={c} />
                 ))}

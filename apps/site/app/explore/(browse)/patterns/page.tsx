@@ -29,7 +29,7 @@ export default async function ExplorePatternsIndexPage() {
         {patterns.length === 0 ? (
           <p className="text-muted">No patterns are published in the manifest yet.</p>
         ) : (
-          <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
+          <div className="grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
             {patterns.map((p) => (
               <PatternCard key={p.id} pattern={p} />
             ))}
