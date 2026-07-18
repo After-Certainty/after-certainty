@@ -1,0 +1,13 @@
+slug: nba-com
+name: NBA.com
+type: organization
+summary: NBA official news site documenting Bill Russell's statistical legacy and load-management study
+  communication.
+concepts: []
+patterns: []
+relatedBooks:
+- the-game-we-think-we-saw
+works:
+- nba-com-legends-profile-bill-russell
+- nba-com-nba-sends-teams-the-results-found-in-load-management-study
+whyThisMatters: Institutional channel for what the league chooses to measure and circulate.

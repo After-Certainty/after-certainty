@@ -1,0 +1,12 @@
+slug: basketball-reference
+name: Basketball-Reference
+type: organization
+summary: Statistical encyclopedia for basketball careers and team records used as a public ledger of what
+  the box score preserves.
+concepts: []
+patterns: []
+relatedBooks:
+- the-game-we-think-we-saw
+works:
+- basketball-reference-bill-russell
+whyThisMatters: Shows how measurement archives make some contributions durable and others hard to recover.

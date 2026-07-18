@@ -1,0 +1,11 @@
+slug: nfl-football-operations
+name: NFL Football Operations
+type: organization
+summary: NFL officiating operations explaining instant-replay standards such as clear-and-obvious review.
+concepts: []
+patterns: []
+relatedBooks:
+- the-game-we-think-we-saw
+works:
+- nfl-football-operations-art-mcnally-gameday-central
+whyThisMatters: Defines the procedural threshold that makes a whistle operable after video.

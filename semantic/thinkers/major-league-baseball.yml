@@ -1,0 +1,13 @@
+slug: major-league-baseball
+name: Major League Baseball
+type: organization
+summary: League institution setting pitching workload guidance and automated ball-strike challenge design.
+concepts: []
+patterns: []
+relatedBooks:
+- the-game-we-think-we-saw
+works:
+- major-league-baseball-mlb-announces-abs-challenge-system-coming-to-the-major-leagues-beginning-i
+- major-league-baseball-pitch-smart-pitching-guidelines
+whyThisMatters: Shows how sports authorities redistribute judgment between human eyes and measurement
+  systems.

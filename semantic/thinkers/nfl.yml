@@ -1,0 +1,11 @@
+slug: nfl
+name: NFL
+type: organization
+summary: National Football League as policy author for concussion return-to-participation protocols.
+concepts: []
+patterns: []
+relatedBooks:
+- the-game-we-think-we-saw
+works:
+- nfl-concussion-protocol-return-to-participation-protocol-overview
+whyThisMatters: Institutional framing of embodied risk under competitive and commercial pressure.
