@@ -4,7 +4,7 @@
 
 **Phase 3 — Experience deepening (July 2026)**
 
-Recognition pass complete. Experience deepening running one unit at a time with author review between units. Introduction and Chapters 1–6 deepened; Chapters 7–8 pending.
+Recognition pass complete. Experience deepening running one unit at a time with author review between units. Introduction and Chapters 1–7 deepened; Chapter 8 pending.
 
 ## Edition decision
 
@@ -28,7 +28,7 @@ Recognition pass complete. Experience deepening running one unit at a time with 
 | Ch 4 — The Ritual Before the Lift | Experience deepening | Ritual-as-distrust, more-structure-as-proof, open-culture/sequence reversals; ending intact |
 | Ch 5 — What the Dashboard Cannot See | Experience deepening | Green-as-closure, metrics-as-trust-repair, silence-as-alignment reversals; ending intact |
 | Ch 6 — The Nodding Room | Experience deepening | Green-as-proof, “everyone supported this,” belonging-as-alignment reversals; ending intact |
-| Ch 7 — Faster Than Care Can Move | Recognition pass | Light compress: parallel pairs, form/checklist scaffolds |
+| Ch 7 — Faster Than Care Can Move | Experience deepening | Throughput-as-success, resilience-as-extraction, slow-as-character reversals; ending intact |
 | Ch 8 — What the Next Team Inherits | Recognition pass | Light compress: diagnostic Qs, joke/blame lists, repair-if echo |
 | Conclusion — The Show Opens Anyway | Recognition pass | Kept as-is; chapter-echo litany treated as earned compression |
 | Glossary | Held | From essay edition; redesign deferred |
