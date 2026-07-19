@@ -43,7 +43,7 @@ Moved out of the live book tree into [`research/source-edition/`](research/sourc
 
 ## Next actions
 
-1. Author review of citation pass and residue cleanup.
+1. Author review of citation pass, residue cleanup, and cadence/flow pass.
 2. Glossary vocabulary strategy when (if) terms earn names in prose.
 3. Build smoke test when ready: `make build-book DIR=books/why-collaboration-is-so-hard`.
 
