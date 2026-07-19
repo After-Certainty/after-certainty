@@ -1,5 +1,5 @@
 /**
- * Representative search-quality fixtures for Phase B ranking tests.
+ * Representative search-quality fixtures for Phase B+ ranking tests.
  * See docs/roadmaps/global-search-plan.md §16.2.
  *
  * `acceptableTopIds`: any of these as the #1 hit is a pass.
@@ -69,13 +69,15 @@ export const SEARCH_RANKING_FIXTURES: SearchRankingFixture[] = [
     id: "concept-moral-licensing",
     query: "moral licensing",
     required: false,
-    note: "No dedicated concept in bundled manifest yet",
+    expectEmpty: true,
+    note: "No dedicated concept in bundled manifest yet — keep soft until authored",
   },
   {
     id: "concept-scoreboard",
     query: "scoreboard",
     required: false,
-    note: "No dedicated concept in bundled manifest yet",
+    expectEmpty: true,
+    note: "No dedicated concept in bundled manifest yet — keep soft until authored",
   },
   {
     id: "thematic-accountability",
@@ -90,12 +92,16 @@ export const SEARCH_RANKING_FIXTURES: SearchRankingFixture[] = [
   {
     id: "nl-collaboration-fail",
     query: "Why does collaboration fail?",
-    required: false,
+    acceptableTopIds: ["book-why-collaboration-is-so-hard"],
     mustIncludeInTop: {
-      ids: ["pattern-learning-collapses", "pattern-disagreement-is-suppressed"],
+      ids: [
+        "book-why-collaboration-is-so-hard",
+        "pattern-learning-collapses",
+        "pattern-disagreement-is-suppressed",
+      ],
       n: 10,
     },
-    note: "Needs richer aliases / enrichment before making required",
+    note: "Related bridges surface the collaboration book and adjacent patterns without synonym collapse",
   },
   {
     id: "nl-trust-disagreement",
@@ -104,7 +110,7 @@ export const SEARCH_RANKING_FIXTURES: SearchRankingFixture[] = [
       ids: ["book-trust-beyond-similarity", "concept-trust", "pattern-disagreement-is-suppressed"],
       n: 10,
     },
-    required: false,
+    note: "Multi-token thematic query bridged by authored related phrases",
   },
   {
     id: "nl-books-authority",

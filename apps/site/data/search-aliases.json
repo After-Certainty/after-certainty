@@ -18,16 +18,65 @@
       "note": "Everyday phrasing for the Exceptions are Forever pattern — related, not a synonym claim"
     },
     {
-      "terms": ["trusting people who disagree", "trust beyond similarity"],
+      "terms": [
+        "trust and disagreement",
+        "trust disagreement",
+        "trusting people who disagree",
+        "trust beyond similarity"
+      ],
       "kind": "related",
-      "targetIds": ["book-trust-beyond-similarity", "concept-trust"],
-      "note": "Natural-language bridge into trust vocabulary and the Trust Beyond Similarity book"
+      "targetIds": [
+        "book-trust-beyond-similarity",
+        "concept-trust",
+        "pattern-disagreement-is-suppressed"
+      ],
+      "note": "Natural-language bridge into trust vocabulary, Trust Beyond Similarity, and suppressed disagreement — related, not synonym collapse"
+    },
+    {
+      "terms": [
+        "why collaboration fails",
+        "why does collaboration fail",
+        "collaboration fail",
+        "collaboration fails",
+        "collaboration is so hard"
+      ],
+      "kind": "related",
+      "targetIds": [
+        "book-why-collaboration-is-so-hard",
+        "pattern-learning-collapses",
+        "pattern-disagreement-is-suppressed"
+      ],
+      "note": "Thematic bridge from everyday collaboration failure questions into the collaboration book and adjacent leadership patterns"
     },
     {
       "terms": ["accountability"],
       "kind": "alias",
       "targetIds": ["concept-accountability"],
       "note": "Canonical concept name reinforcement for lookup"
+    },
+    {
+      "terms": ["authority misread", "when authority is misread"],
+      "kind": "related",
+      "targetIds": ["book-when-authority-is-misread", "concept-authority"],
+      "note": "Phrase bridge between the authority concept and the Authority is Misread book"
+    },
+    {
+      "terms": ["how meaning moves"],
+      "kind": "related",
+      "targetIds": ["book-how-meaning-moves", "podcast:how-meaning-moves"],
+      "note": "Shared title bridge across book and podcast episode documents"
+    },
+    {
+      "terms": ["learning collapses", "ground story never reaches"],
+      "kind": "related",
+      "targetIds": ["pattern-learning-collapses"],
+      "note": "Everyday recognition phrasing for Learning Collapses"
+    },
+    {
+      "terms": ["disagreement is suppressed", "dissent fades", "challenge disappears"],
+      "kind": "related",
+      "targetIds": ["pattern-disagreement-is-suppressed"],
+      "note": "Everyday recognition phrasing for Disagreement is Suppressed"
     }
   ]
 }

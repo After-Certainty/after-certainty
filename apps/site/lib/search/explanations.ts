@@ -1,8 +1,36 @@
 import { relatedTermsByTargetId } from "@/lib/search/aliases";
+import { prepareSearchQuery } from "@/lib/search/prepareQuery";
 import type { SearchAliasConfig, SearchDocument } from "@/lib/search/types";
 
 function normalize(value: string): string {
   return value.trim().toLowerCase();
+}
+
+function significantTokens(query: string): string[] {
+  return prepareSearchQuery(query).tokens;
+}
+
+function textMentionsQuery(text: string | undefined, query: string): boolean {
+  if (!text) return false;
+  const hay = normalize(text);
+  const q = normalize(query);
+  if (!q) return false;
+  if (hay.includes(q)) return true;
+  const tokens = significantTokens(query);
+  if (tokens.length === 0) return false;
+  return tokens.every((token) => hay.includes(token));
+}
+
+function relatedTermMatchesQuery(term: string, query: string): boolean {
+  const t = normalize(term);
+  const q = normalize(query);
+  if (!t || !q) return false;
+  if (t === q || q.includes(t) || t.includes(q)) return true;
+
+  const queryTokens = significantTokens(query);
+  if (queryTokens.length < 2) return false;
+  // All significant query tokens appear in the authored related phrase.
+  return queryTokens.every((token) => t.includes(token));
 }
 
 /**
@@ -40,13 +68,22 @@ export function explainSearchMatch(
 
   if (options?.aliasConfig) {
     const related = relatedTermsByTargetId(options.aliasConfig).get(document.id) ?? [];
-    const relatedHit = related.find((term) => {
-      const t = normalize(term);
-      return t === q || q.includes(t) || t.includes(q);
-    });
+    const relatedHit = related.find((term) => relatedTermMatchesQuery(term, query));
     if (relatedHit) {
       labels.push(`Related to “${relatedHit}”`);
     }
+  }
+
+  if (
+    !labels.includes("Title match") &&
+    !labels.includes("Exact title match") &&
+    textMentionsQuery(document.description, query)
+  ) {
+    labels.push(
+      document.entityType === "concept"
+        ? "Definition mentions your terms"
+        : "Summary mentions your terms",
+    );
   }
 
   const creatorNames = Array.isArray(document.creatorNames) ? document.creatorNames : [];

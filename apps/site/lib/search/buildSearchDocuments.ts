@@ -10,6 +10,7 @@ import { sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
 import { resolveThinkers } from "@/lib/graph/thinkers";
 import { aliasTermsByTargetId, relatedTermsByTargetId } from "@/lib/search/aliases";
 import { computeSearchBoostWeight } from "@/lib/search/boost";
+import { cappedEnrichmentText } from "@/lib/search/enrichment";
 import { joinSearchText, uniqueStrings } from "@/lib/search/text";
 import {
   SEARCH_RESULT_LABELS,
@@ -256,6 +257,7 @@ function buildConceptDocument(
     ...resolveRelatedTitles(index, concept.relatedPatterns),
     ...resolveRelatedTitles(index, concept.relatedBooks),
   ]);
+  const enrichment = cappedEnrichmentText(concept.recognitionSignals);
 
   const searchText = joinSearchText([
     concept.title,
@@ -263,6 +265,7 @@ function buildConceptDocument(
     concept.shortDefinition,
     definition,
     concept.layer,
+    enrichment,
     ...aliasTerms,
     ...relatedTitles,
     ...relatedBridgeTerms,
@@ -306,6 +309,7 @@ function buildPatternDocument(
     ...resolveRelatedTitles(index, pattern.relatedConcepts),
     ...resolveRelatedTitles(index, pattern.relatedBooks),
   ]);
+  const enrichment = cappedEnrichmentText(pattern.recognitionSignals);
 
   const searchText = joinSearchText([
     pattern.title,
@@ -313,7 +317,9 @@ function buildPatternDocument(
     pattern.summary,
     pattern.setup,
     pattern.problem,
+    pattern.observation,
     ...(pattern.forces ?? []),
+    enrichment,
     ...aliasTerms,
     ...relatedTitles,
     ...relatedBridgeTerms,

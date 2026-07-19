@@ -310,6 +310,43 @@ describe("buildSearchDocuments", () => {
     expect(pattern?.searchText.toLowerCase()).toContain("temporary rules");
   });
 
+  it("includes capped recognition signals in concept and pattern searchText", () => {
+    const graph: SemanticGraph = {
+      ...emptyGraph(),
+      glossary: [
+        {
+          id: "concept-trust",
+          slug: "trust",
+          title: "Trust",
+          shortDefinition: "Extension of action beyond personal verification.",
+          recognitionSignals: [
+            "people act on signals they cannot fully check",
+            "history and institutions stand in for direct proof",
+          ],
+        },
+      ],
+      patterns: [
+        {
+          id: "pattern-learning-collapses",
+          slug: "learning-collapses",
+          title: "Learning Collapses",
+          summary: "News from the ground does not reach decision-makers in time.",
+          recognitionSignals: [
+            "decision-makers steer off summaries while the ground story never reaches the room",
+            "the same avoidable errors repeat behind coherent public updates",
+          ],
+        },
+      ],
+    };
+
+    const docs = buildSearchDocuments({ graph, catalogBooks: [] });
+    const concept = docs.find((d) => d.id === "concept-trust");
+    const pattern = docs.find((d) => d.id === "pattern-learning-collapses");
+
+    expect(concept?.searchText.toLowerCase()).toContain("signals they cannot fully check");
+    expect(pattern?.searchText.toLowerCase()).toContain("ground story never reaches the room");
+  });
+
   it("produces a consistent corpus from the bundled explore merge path shape", async () => {
     const fallbackSemantic = (await import("@/data/semantic-manifest.json")).default;
     const booksManifest = (await import("@/data/books-manifest.json")).default;

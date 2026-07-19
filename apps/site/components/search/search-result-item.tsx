@@ -3,6 +3,7 @@
 import Link from "next/link";
 
 import type { SearchHit } from "@/lib/search/query";
+import { snippetSegments } from "@/lib/search/snippets";
 
 type SearchResultItemProps = {
   hit: SearchHit;
@@ -10,16 +11,27 @@ type SearchResultItemProps = {
   onSelect?: (hit: SearchHit, rank: number) => void;
 };
 
-function truncate(text: string | undefined, max: number): string | undefined {
-  if (!text) return undefined;
-  const trimmed = text.trim();
-  if (trimmed.length <= max) return trimmed;
-  return `${trimmed.slice(0, max - 1).trimEnd()}…`;
+function SearchSnippetText({ hit }: { hit: SearchHit }) {
+  if (!hit.snippet?.text) return null;
+  const segments = snippetSegments(hit.snippet);
+
+  return (
+    <p className="mt-3 text-sm leading-relaxed text-muted">
+      {segments.map((segment, index) =>
+        segment.highlight ? (
+          <mark key={`h-${index}-${segment.text}`} className="bg-accent-soft/80 text-fg">
+            {segment.text}
+          </mark>
+        ) : (
+          <span key={`t-${index}-${segment.text.slice(0, 12)}`}>{segment.text}</span>
+        ),
+      )}
+    </p>
+  );
 }
 
 export function SearchResultItem({ hit, rank, onSelect }: SearchResultItemProps) {
   const { document, explanations } = hit;
-  const description = truncate(document.description ?? document.subtitle, 180);
   const isExternal = Boolean(document.external);
 
   const metaBits = [
@@ -42,9 +54,7 @@ export function SearchResultItem({ hit, rank, onSelect }: SearchResultItemProps)
         {document.title}
       </h2>
       {document.subtitle ? <p className="mt-1 text-sm text-muted">{document.subtitle}</p> : null}
-      {description ? (
-        <p className="mt-3 text-sm leading-relaxed text-muted">{description}</p>
-      ) : null}
+      <SearchSnippetText hit={hit} />
       {explanations.length > 0 ? (
         <ul className="mt-3 flex flex-wrap gap-2" aria-label="Why this result">
           {explanations.slice(0, 3).map((label) => (
