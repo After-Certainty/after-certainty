@@ -62,6 +62,14 @@ The institution conducts a retrospective, extracts several lessons, and closes t
 
 The failure appears contained.
 
+The closed document can feel like the end of the story. The team disbanded. Lessons were named. The institution can move on with a clearer conscience.
+
+That comfort is real.
+
+It can also be too quick.
+
+A retrospective can travel farther than the cost that produced it. The next room inherits the caution without inheriting the joke, the burned person, or the unofficial spreadsheet that kept the earlier work alive. What looks finished on paper may still be entering before the agenda.
+
 But collaboration leaves residue.
 
 It remains in language, habit, policy, and the nervous system.
@@ -148,15 +156,13 @@ The newcomer experiences resistance.
 
 The experienced person experiences pattern recognition.
 
+From outside, the sorting can look obvious. One person wants to move. The other wants to stall. One believes. The other has given up. That reading restores moral clarity quickly.
+
+It may also be incomplete.
+
+The new leader may genuinely be different. The current project may have stronger sponsorship and clearer constraints. The experienced person may be protecting the group from repeating a failure no one else understands—or treating resemblance as destiny. What looks like a difference in character may still be a difference in how much of the past each person is being asked to carry into the room.
+
 Neither view is complete.
-
-The new leader may genuinely be different.
-
-The current project may have stronger sponsorship, better resources, and clearer constraints.
-
-The experienced person may be protecting the group from repeating a failure no one else understands.
-
-They may also be treating resemblance as destiny.
 
 Residue makes interpretation difficult because the present often contains enough of the past to justify caution and enough difference to make certainty unfair.
 
@@ -579,6 +585,14 @@ People cannot be instructed out of residue.
 Trust does not return because leadership announces a fresh start.
 
 A new name does not create new conditions.
+
+The announcement can feel clarifying. The past is acknowledged. Everyone is invited to begin again. Leaders can leave knowing the room chose hope.
+
+That reading restores confidence quickly.
+
+It may also be incomplete.
+
+A fresh start without changed authority, changed consequences, or changed exit costs asks people to forget what the body still remembers. Reassurance travels. Evidence accumulates more slowly.
 
 Repair requires evidence that the system has changed where the earlier cost was produced—authority made visible, concerns that can alter decisions, maintenance redistributed, dissent recorded while the work is underway. People believe change when they encounter it in structure.
 

@@ -4,7 +4,7 @@
 
 **Phase 3 — Experience deepening (July 2026)**
 
-Recognition pass complete. Experience deepening running one unit at a time with author review between units. Introduction and Chapters 1–7 deepened; Chapter 8 pending.
+Recognition pass complete. Experience deepening running one unit at a time with author review between units. Introduction and Chapters 1–8 deepened; light Conclusion touch pending.
 
 ## Edition decision
 
@@ -29,7 +29,7 @@ Recognition pass complete. Experience deepening running one unit at a time with 
 | Ch 5 — What the Dashboard Cannot See | Experience deepening | Green-as-closure, metrics-as-trust-repair, silence-as-alignment reversals; ending intact |
 | Ch 6 — The Nodding Room | Experience deepening | Green-as-proof, “everyone supported this,” belonging-as-alignment reversals; ending intact |
 | Ch 7 — Faster Than Care Can Move | Experience deepening | Throughput-as-success, resilience-as-extraction, slow-as-character reversals; ending intact |
-| Ch 8 — What the Next Team Inherits | Recognition pass | Light compress: diagnostic Qs, joke/blame lists, repair-if echo |
+| Ch 8 — What the Next Team Inherits | Experience deepening | Contained-failure, cynicism-as-character, fresh-start reversals; ending intact |
 | Conclusion — The Show Opens Anyway | Recognition pass | Kept as-is; chapter-echo litany treated as earned compression |
 | Glossary | Held | From essay edition; redesign deferred |
 | Bibliography | Held | From essay edition; update with drafts |
@@ -40,7 +40,7 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Author review of Chapter 7 experience deepening; then deepen Chapter 8.
+1. Author review of Chapter 8 experience deepening; then light Conclusion touch if needed.
 2. Revisit glossary vocabulary strategy after deepening pass.
 3. Build smoke test when ready: `make build-book DIR=books/why-collaboration-is-so-hard`.
 
