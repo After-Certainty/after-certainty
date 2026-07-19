@@ -10,11 +10,11 @@
 
 ## Current starting phase
 
-**Phase 0 — Recognition rewrite skeleton** → author drafts one unit at a time.
+**Phase 1 — Author drafts landed** → optional recognition / echo passes across the full spine.
 
-Recommended order: Introduction → Chapters 1–8 → Conclusion.
+Recommended order for revision: Introduction through Conclusion in reading order.
 
-Mine scenes and arguments from the source edition; do not restore the monograph structure.
+Mine scenes and arguments from the source edition only when a recognition pass needs recovery; do not restore the monograph structure.
 
 ## After prose lands
 
