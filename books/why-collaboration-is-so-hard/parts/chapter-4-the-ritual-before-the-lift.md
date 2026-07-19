@@ -96,7 +96,7 @@ Good structures do not create knowledge from nothing. They make it easier for kn
 
 A surgical team pauses before an operation to confirm the patient, the procedure, and the site. The people in the room may have reviewed the same information several times. The pause is not evidence that they distrust one another. It is recognition that expertise does not make human attention continuous.
 
-A theater company calls actors before a performance and repeats the same sequence each night. Props are checked. entrances are confirmed. Changes are announced. The show is familiar, but familiarity is one of the reasons the ritual matters. Repetition can make people stop seeing what has changed.
+A theater company calls actors before a performance and repeats the same sequence each night. Props are checked. Entrances are confirmed. Changes are announced. The show is familiar, but familiarity is one of the reasons the ritual matters. Repetition can make people stop seeing what has changed.
 
 A family caring for an aging parent creates a shared message thread. One sibling reports appointments. Another records medication changes. Someone writes down questions for the next doctor visit. None of this guarantees that the family understands the situation in the same way. It prevents every conversation from beginning with a reconstruction of what happened last.
 
