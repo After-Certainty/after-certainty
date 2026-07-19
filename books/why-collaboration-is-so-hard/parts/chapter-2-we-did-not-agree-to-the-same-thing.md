@@ -60,7 +60,7 @@ This is one reason disagreement often feels moral before it becomes explicit. Sp
 
 A structural difference in responsibility becomes a story about character.[^c2-march-simon]
 
-From outside the exchange, the story can look obvious. One person wants to move; the other wants to stall. One cares about the work; the other cares about being right. Yet the person pushing Friday may be carrying a customer already waiting, while the person asking for failure modes may be carrying the outage that followed the last narrow launch. Neither has revealed their whole reason in the argument now available. What looks like character may still be a difference in what each person cannot afford to leave unseen.
+The exchange can look like a simple conflict of temperament: one person wants to move; the other wants to stall; one cares about the work; the other cares about being right. Yet the person pushing Friday may be carrying a customer already waiting, while the person asking for failure modes may be carrying the outage that followed the last narrow launch. Neither has revealed their whole reason in the argument now available. What looks like character may still be a difference in what each person cannot afford to leave unseen.
 
 Once that story forms, the original disagreement becomes harder to solve. People are no longer debating the room, the software, the schedule, or the policy. They are defending themselves against the kind of person others now suspect them of being.
 
@@ -106,7 +106,7 @@ A two-week experiment becomes an unstated strategy. A provisional exception beco
 
 Temporary agreements harden because revisiting them requires energy. The group remembers that it once agreed and forgets what kind of agreement it was.
 
-Later, someone objects and hears, “But we already decided this.” The sentence feels like history. It may be a compression of history.[^c2-weick-decision] What was lived as “we can try this for now” has been filed as “everyone supported the direction.” The person who hesitates looks like they are reopening a settled matter. They may only be remembering the boundary the room no longer records.
+Later, someone objects and hears, “But we already decided this.” What the room experienced as “we can try this for now” has been preserved as “everyone supported the direction.”[^c2-weick-decision] The provisional choice has become settled history. The person who hesitates looks like they are reopening a settled matter. They may only be remembering the boundary the room no longer records.
 
 This is how “we agreed to try” becomes “we agreed this was right.” It is how “we can live with this for now” becomes “everyone supported the decision.” It is how a meeting produces consensus in the minutes that never existed in the room. Documentation can help, but only when it records the boundaries of agreement rather than merely its appearance. A useful decision note might say:
 
@@ -182,8 +182,8 @@ Not the same interpretation.
 
 A temporary place where different understandings can move together without pretending they have become one.
 
-[^c2-march-simon]: See James G. March and Herbert A. Simon, *Organizations* (New York: Wiley, 1958).
+[^c2-march-simon]: See March and Simon, *Organizations*.
 
-[^c2-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+[^c2-weick]: See Weick, *Sensemaking in Organizations*.
 
 [^c2-weick-decision]: See Weick, *Sensemaking in Organizations*.

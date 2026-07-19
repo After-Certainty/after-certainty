@@ -8,9 +8,9 @@ On Friday night, the audience entered without knowing what had happened during t
 
 They did not know which actor had changed a crossing, which crew member had caught a safety problem, or which stage manager had quietly adjusted three other moments so one scene could still work.
 
-They saw the play. That is how collaboration often appears from the outside. The finished thing hides the uncertainty that produced it. A project launches. A patient goes home. A bridge opens. A family makes a decision. A community keeps a promise imperfectly. The outcome looks more coherent than the work ever felt.
+They saw the play. That is how collaboration often appears from the outside. The finished thing hides the uncertainty that produced it. A patient goes home. A bridge opens. A family makes a decision. A community keeps a promise imperfectly. The outcome looks more coherent than the work ever felt.
 
-The show opened. The project launched. People can leave knowing the work held. The audience sees a whole because someone absorbed the unfinished part of everyone else’s contribution. What looks easy from the seats may still be the week that almost did not become Friday.
+The show opened. People can leave knowing the work held. The audience sees a whole because many people carried, revised, and joined the unfinished parts of one another’s contributions before they reached the seats. What looks easy from the seats may still be the week that almost did not become Friday.
 
 We remember the result and forget the incomplete understandings, uneven burdens, awkward pauses, inherited fears, and small acts of translation that allowed people to continue. No one held the whole. Someone kept the spreadsheet. Someone asked one more question. Someone refused to let the green number settle the matter. Someone said, after everyone else had nodded, that the words did not mean the same thing to everyone. Someone slowed the work because care could not move any faster without becoming thinner. These acts rarely become the story of success. They disappear into the thing that finally works. But they are the work.
 
@@ -30,4 +30,4 @@ Because sometimes, after everyone has given up a small part of it, something app
 
 [^conc-ostrom]: See Elinor Ostrom, *Governing the Commons: The Evolution of Institutions for Collective Action* (Cambridge: Cambridge University Press, 1990).
 
-[^conc-sennett]: See Richard Sennett, *Together: The Rituals, Pleasures and Politics of Cooperation* (New Haven, CT: Yale University Press, 2012).
+[^conc-sennett]: See Sennett, *Together*.

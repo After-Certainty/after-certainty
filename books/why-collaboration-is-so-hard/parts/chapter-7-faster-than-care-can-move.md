@@ -42,7 +42,7 @@ Patients were evaluated sooner. Some unnecessary waits disappeared. Tests were o
 
 The initiative worked.
 
-The improved numbers can feel like the end of the story. Crowding eased. Patients moved sooner. Leaders can report that the department took waiting seriously. But a shorter stay can mean waste removed, and it can also mean a conversation shortened, a consultation deferred, or a family’s unease filed as something the pathway does not need to hold. The dashboard records the minutes that disappeared. It does not record what the minutes were doing.
+The improved numbers can settle the board before anyone asks what disappeared inside them. Crowding eased. Patients moved sooner. Leaders can report that the department took waiting seriously. But a shorter stay can mean waste removed, and it can also mean a conversation shortened, a consultation deferred, or a family’s unease filed as something the pathway does not need to hold. The dashboard records the minutes that disappeared. It does not record what the minutes were doing.
 
 It also changed what staff noticed about themselves. A nurse lingered in a room to help a family understand the difference between two medications and felt the red row on the board growing redder. A clinician asked social work to assess whether a patient could safely return home and knew the consultation would add time to the case.
 
@@ -60,7 +60,7 @@ Optimization begins to ask a seductive question: Could we preserve the value whi
 
 A hospital can standardize discharge instructions. The printed page may be clear. The patient may still nod without understanding.
 
-The form remains. The relationship thins. This is the point where collaboration begins becoming mechanical. Not when tools enter the work. Tools are necessary. The change occurs when the tool stops supporting judgment and begins replacing the conditions under which judgment can be offered. The emergency department’s discharge template asked whether the patient had transportation, access to medication, and follow-up care. Each item had a checkbox. For many patients, the checkboxes worked.
+The form remains, and the relationship thins. This is the point where collaboration begins becoming mechanical. Not when tools enter the work. Tools are necessary. The change occurs when the tool stops supporting judgment and begins replacing the conditions under which judgment can be offered. The emergency department’s discharge template asked whether the patient had transportation, access to medication, and follow-up care. Each item had a checkbox. For many patients, the checkboxes worked.
 
 A nurse asked the questions. The patient answered. The information traveled.
 
@@ -76,7 +76,7 @@ Efficiency does not remove judgment. It pushes judgment downward, often onto the
 
 This is one reason speed pressure feels different from an ordinary deadline. A deadline describes time. Speed pressure turns time into virtue. Fast becomes committed. Slow becomes resistant. The person who asks for more time must explain not only the need but the character implied by the need. Why are you not moving with urgency? Why is your team the bottleneck? Why does this case require special treatment? Why can everyone else meet the standard? The language shifts attention away from what the work requires and toward whether the person is sufficiently willing.
 
-From outside, the sorting can look obvious. Fast people care. Slow people protect themselves. One is committed. The other is a bottleneck. But the person asking for more time may be carrying the return visit the last quick discharge produced or the family detail that does not fit the checkbox. What looks like a difference in willingness may still be a difference in what each person cannot afford to leave unseen.
+Speed pressure makes the sorting feel obvious: fast people care; slow people protect themselves; one is committed, the other is a bottleneck. But the person asking for more time may be carrying the return visit the last quick discharge produced or the family detail that does not fit the checkbox. What looks like a difference in willingness may still be a difference in what each person cannot afford to leave unseen.
 
 This can happen even in organizations filled with caring people. The emergency department’s leaders cared about patients. They also cared about staff burnout, ambulance availability, and the people waiting unseen behind the current case. Speed was not imposed by villains. It emerged from overlapping forms of care. The patient in the room needed attention. The patient in the hallway needed a room.
 
@@ -108,7 +108,7 @@ The daughter lowered her voice.
 
 The patient said she was tired and wanted to go home. The clock continued. The nurse could see several versions of care competing in the room. Respect the patient’s account. Take the daughter’s concern seriously. Avoid unnecessary admission. Do not send someone home into an unsafe situation. Open the room for the next person. The discharge pathway had answers for most of these questions. It did not have an answer for how much doubt was enough to stop. That threshold lived in judgment. The nurse asked the clinician to return.
 
-The clinician reviewed the case and requested a pharmacy consultation. The pharmacist compared the medication bottles and found that two prescriptions had overlapping instructions from different visits. A social worker spoke with the daughter. The patient became increasingly frustrated.
+The clinician reviewed the case and requested a pharmacy consultation. The pharmacist compared the medication bottles and found that two prescriptions had overlapping instructions from different visits.[^c7-kwan] A social worker spoke with the daughter. The patient became increasingly frustrated.
 
 The case remained open. The row turned red.
 
@@ -154,8 +154,10 @@ Only people can decide when moving faster would make it something less than care
 
 [^c7-morley]: See Claire Morley, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman, “Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions,” *PLoS ONE* 13, no. 8 (2018): e0203316, on crowding’s association with poorer patient outcomes and delayed care.
 
-[^c7-hochschild]: See Arlie Russell Hochschild, *The Managed Heart: Commercialization of Human Feeling* (Berkeley: University of California Press, 1983).
+[^c7-kwan]: See Janice L. Kwan, Lisha Lo, Margaret Sampson, and Kaveh G. Shojania, “Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review,” *Annals of Internal Medicine* 158, no. 5 pt. 2 (2013): 397–403, on identifying and resolving unintentional medication discrepancies across transitions in care.
 
-[^c7-scott]: See James C. Scott, *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed* (New Haven, CT: Yale University Press, 1998).
+[^c7-hochschild]: See Hochschild, *The Managed Heart*.
 
-[^c7-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+[^c7-scott]: See Scott, *Seeing Like a State*.
+
+[^c7-weick]: See Weick, *Sensemaking in Organizations*.

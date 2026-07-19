@@ -70,9 +70,7 @@ That movement—from speech to consequence—is what keeps a ritual alive. Peopl
 
 If a family asks everyone to share caregiving concerns but one sibling’s schedule is always treated as fixed while another’s remains flexible, the check-in becomes a distribution mechanism, not a conversation.
 
-The form remains. The contribution thins. Leaders often respond by adding structure because structure is visible: another meeting, a more detailed template, a second approval, a mandatory field requiring people to explain the uncertainty they no longer feel safe naming aloud. A process can be announced and audited more easily than trust can be rebuilt. People often stopped bringing concerns because the previous structure could not change what happened next. Another field that asks them to name risks they have already learned not to name does not restore the invitation. It records that the invitation was offered. The group may leave with better documentation of a conversation that still cannot alter the date.
-
-But the purpose of a collaborative structure is not to prove that coordination occurred. It is to make coordination more possible. This distinction becomes clearer when we look at turn-taking.
+The form remains, and the contribution thins. Leaders often respond by adding structure because structure is visible: another meeting, a more detailed template, a second approval, a mandatory field requiring people to explain the uncertainty they no longer feel safe naming aloud. A process can be announced and audited more easily than trust can be rebuilt. People often stopped bringing concerns because the previous structure could not change what happened next. Another field that asks them to name risks they have already learned not to name does not restore the invitation. It records that the invitation was offered. The group may leave with better documentation of a conversation that still cannot alter the date. The purpose of a collaborative structure is not to prove that coordination occurred. It is to make coordination more possible. Turn-taking makes the distinction clearer.
 
 In many rooms, speaking appears open. No rule prevents anyone from contributing. The leader asks whether there are questions. The agenda includes discussion. The culture describes itself as candid.
 
@@ -104,9 +102,7 @@ The balance matters. If everything is reopened every morning, the group cannot a
 
 The building must preserve an accessible exit. The financial report must satisfy legal obligations. Other elements are provisional. The route can change. The schedule can move. The design can be revised. The method can be reconsidered when new information arrives. Groups often struggle because they do not clearly separate the two. A leader presents a preference as a constraint.
 
-A team treats a genuine safety boundary as though it were one negotiable concern among many. A deadline becomes sacred while the quality standard quietly bends. A process remains fixed because changing it would require admitting that the original plan was incomplete. Visible constraints make collaboration less personal: people can stop interpreting every refusal as resistance and every current arrangement as inevitable.
-
-This is why one of the most useful things a group can do is place its constraints in the open—what is legally required, physically impossible, promised, renegotiable, or only fixed because changing it would be inconvenient or embarrassing. The answers will not eliminate conflict. They will reveal what the conflict is actually about, and sometimes whose constraint gets to become everyone’s reality.
+A team treats a genuine safety boundary as though it were one negotiable concern among many. A deadline becomes sacred while the quality standard quietly bends. A process remains fixed because changing it would require admitting that the original plan was incomplete. Visible constraints make collaboration less personal: people can stop interpreting every refusal as resistance and every current arrangement as inevitable. One of the most useful things a group can do is place its constraints in the open before the argument hardens around personalities. On the construction site, some limits arrive with the equipment and the law: the load cannot exceed capacity; the accessible exit must remain clear. Others arrive with yesterday’s promises, or with a preference that has begun to dress itself as necessity. Naming which is which does not eliminate conflict. It reveals what the conflict is actually about, and sometimes whose constraint gets to become everyone’s reality.
 
 The executive’s public promise becomes fixed. The frontline worker’s capacity remains flexible. The launch date cannot move. The support team’s evenings can. The meeting must end at noon because a senior leader has another commitment. The decision can remain unclear because everyone else can schedule another meeting.
 
@@ -152,10 +148,10 @@ The lift did not become safe because uncertainty disappeared.
 
 It became safer because uncertainty had somewhere to go.
 
-[^c4-sennett]: See Richard Sennett, *Together: The Rituals, Pleasures and Politics of Cooperation* (New Haven, CT: Yale University Press, 2012).
+[^c4-sennett]: See Sennett, *Together*.
 
-[^c4-luhmann]: See Niklas Luhmann, *Trust and Power: Two Works*, trans. Howard Davis, John Raffan, and Kathryn Rooney (Chichester, UK: John Wiley & Sons, 1979).
+[^c4-luhmann]: See Luhmann, *Trust and Power*.
 
-[^c4-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+[^c4-weick]: See Weick, *Sensemaking in Organizations*.
 
 [^c4-osha]: Occupational Safety and Health Administration, *Cranes and Derricks in Construction: Final Rule*, 29 CFR Part 1926 Subpart CC (Washington, DC: U.S. Department of Labor, 2010); see also OSHA, *Cranes and Derricks*, OSHA 3433-05 (2011), on pre-lift planning and the operator’s authority to stop and refuse to handle loads when safety is in doubt.

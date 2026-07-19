@@ -42,7 +42,7 @@ Then the new work is asked to prove it will not become the old work before it ha
 
 A consultant recommends a working group. Staff remember the group that produced recommendations leadership never read. A leader announces that the initiative will be different because this time everyone will have a voice. People who have heard that sentence before notice that authority still sits in the same place. The newcomer experiences resistance. The experienced person experiences pattern recognition.
 
-From outside, the sorting can look obvious. One person wants to move. The other wants to stall. One believes. The other has given up. The moral clarity fades when the present is allowed to contain more than temperament. The new leader may genuinely be different. The current project may have stronger sponsorship and clearer constraints. The experienced person may be protecting the group from repeating a failure no one else understands—or treating resemblance as destiny. What looks like a difference in character may still be a difference in how much of the past each person is being asked to carry into the room.
+The sorting can look like temperament: one person wants to move; the other wants to stall; one believes; the other has given up. The moral clarity fades when the present is allowed to contain more than character. The new leader may genuinely be different. The current project may have stronger sponsorship and clearer constraints. The experienced person may be protecting the group from repeating a failure no one else understands—or treating resemblance as destiny. What looks like a difference in disposition may still be a difference in how much of the past each person is being asked to carry into the room.
 
 Neither view is complete. Residue makes interpretation difficult because the present often contains enough of the past to justify caution and enough difference to make certainty unfair. Cynicism solves this difficulty by turning caution into a worldview. It says the project will not work. Leadership will not listen. The process is theater. The people with power will rewrite the story later.
 
@@ -52,7 +52,7 @@ Cynicism protects them from paying that price again. It asks less of hope. The c
 
 The person still attends. They no longer bring the unfinished observation. They wait for someone else to name the contradiction. They know where the plan is likely to fail and decide that discovering this is now leadership’s responsibility. From the outside, this can look like disengagement. From inside the person, it may feel like accuracy. Learned silence often begins this way. Not with a prohibition. With evidence.
 
-Someone raises a concern. The concern is dismissed, reframed, or acknowledged without consequence. Later, the predicted problem occurs and is described as unforeseeable. The next time, the person remains quiet. Others notice. The room becomes easier. Leaders may interpret the absence of objection as improved alignment. In reality, the system has taught one of its sensors to stop sending a signal.[^c8-sensor] This is how residue can make a future collaboration look healthier at precisely the moment it becomes less informed.[^c8-hirschman-silence]
+Someone raises a concern. The concern is dismissed, reframed, or acknowledged without consequence. Later, the predicted problem occurs and is described as unforeseeable. The next time, the person remains quiet. Others notice. The room becomes easier. Leaders may interpret the absence of objection as improved alignment. In reality, the system has taught one of its sensors to stop sending a signal. This is how residue can make a future collaboration look healthier at precisely the moment it becomes less informed.[^c8-hirschman]
 
 What has disappeared may not be conflict. It may be contribution. Silence can spread even among people who did not experience the original failure. Organizations teach through stories, jokes, and observation. A project becomes known as a career dead end. A committee becomes a place where recommendations go to disappear. Nobody needs to issue formal guidance. People learn the landscape from those who survived it. The acronym becomes a warning. The joke preserves it without reopening the wound.
 
@@ -140,12 +140,8 @@ Not because the past had been erased.
 
 Because it had finally been allowed into the room without being given the final word.
 
-[^c8-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+[^c8-weick]: See Weick, *Sensemaking in Organizations*.
 
-[^c8-hirschman]: See Albert O. Hirschman, *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States* (Cambridge, MA: Harvard University Press, 1970).
+[^c8-hirschman]: See Hirschman, *Exit, Voice, and Loyalty*.
 
-[^c8-march-simon]: See James G. March and Herbert A. Simon, *Organizations* (New York: Wiley, 1958).
-
-[^c8-hirschman-silence]: See Hirschman, *Exit, Voice, and Loyalty*.
-
-[^c8-sensor]: See Hirschman, *Exit, Voice, and Loyalty*.
+[^c8-march-simon]: See March and Simon, *Organizations*.

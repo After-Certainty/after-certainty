@@ -46,7 +46,7 @@ The group records agreement. The person records a cost.
 
 Most of these moments are survivable. Human relationships could not function if every preference had to be surfaced, debated, and reconciled. We constantly allow small differences to disappear so shared life can continue.
 
-The difficulty begins when organizations mistake the disappearance of difference for the absence of difference. Silence becomes support.[^c6-hirschman-silence] Compliance becomes commitment. A decision that no one blocked becomes a decision everyone endorsed. The room leaves behind a record cleaner than the experience. This is how the nodding room forms. It is not necessarily a room where people are afraid.
+The difficulty begins when organizations mistake the disappearance of difference for the absence of difference. Silence becomes support. Compliance becomes commitment. A decision that no one blocked becomes a decision everyone endorsed. The room leaves behind a record cleaner than the experience. This is how the nodding room forms. It is not necessarily a room where people are afraid.
 
 Sometimes it is a room where people are tired. Sometimes the objection has already been raised twice. Sometimes the person with the concern lacks the data others have requested but cannot shake the feeling that the plan depends on something untrue. Sometimes they know the decision has effectively been made and understand that speaking now will produce explanation rather than reconsideration.
 
@@ -174,8 +174,6 @@ It is the room where a person can remain part of the work after they stop.
 
 [^c6-hirschman]: See Albert O. Hirschman, *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States* (Cambridge, MA: Harvard University Press, 1970).
 
-[^c6-hirschman-silence]: See Hirschman, *Exit, Voice, and Loyalty*.
-
 [^c6-edmondson]: See Amy Edmondson, “Psychological Safety and Learning Behavior in Work Teams,” *Administrative Science Quarterly* 44, no. 2 (1999): 350–83.
 
-[^c6-sennett]: See Richard Sennett, *Together: The Rituals, Pleasures and Politics of Cooperation* (New Haven, CT: Yale University Press, 2012).
+[^c6-sennett]: See Sennett, *Together*.

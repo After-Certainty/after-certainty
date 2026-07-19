@@ -17,6 +17,10 @@ Hochschild, Arlie Russell. *The Managed Heart: Commercialization of Human Feelin
 :::
 
 ::: {custom-style="Bibliography"}
+Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania. “Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review.” *Annals of Internal Medicine* 158, no. 5 pt. 2 (2013): 397–403.
+:::
+
+::: {custom-style="Bibliography"}
 Luhmann, Niklas. *Trust and Power: Two Works*. Translated by Howard Davis, John Raffan, and Kathryn Rooney. Chichester, UK: John Wiley & Sons, 1979.
 :::
 

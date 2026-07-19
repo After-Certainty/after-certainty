@@ -36,7 +36,7 @@ The board was not hiding these realities. The executive director had mentioned s
 
 But the green numbers gathered attention. That is what numbers do when a room is uncertain. They offer something solid.
 
-The green number can feel like the end of the story. The organization reached the people. The arrow points up. The board can return to the rest of the agenda with a clearer conscience, and a solid number can end the asking before anyone asks what the number had to leave out in order to travel. We often say that organizations measure what matters. More often, they measure what can be made consistent enough to compare. People served can be counted. Dollars spent can be counted. Hours worked, applications processed, cases closed, and projects completed can be placed in rows.
+The green number gives the board permission to move on. The organization reached the people. The arrow points up. The board can return to the rest of the agenda with a clearer conscience, and a solid number can end the asking before anyone asks what the number had to leave out in order to travel. We often say that organizations measure what matters. More often, they measure what can be made consistent enough to compare. People served can be counted. Dollars spent can be counted. Hours worked, applications processed, cases closed, and projects completed can be placed in rows.
 
 The numbers are not trivial. They can reveal patterns that stories conceal. A program may feel successful because one family’s story is moving while quietly failing most of the people who enter it. A team may believe it is improving because meetings feel better while delivery continues to slow.
 
@@ -146,7 +146,7 @@ A staff member raises a concern once and receives an explanation of why the metr
 
 The dashboard remains green. The organization calls this alignment.
 
-From outside, the quiet can look like agreement. The concern was raised. An explanation was given. Nobody continues to object. The metric still matters, and the room has moved on. The staff member may have stopped because they learned that their evidence would never count as evidence—not because the concern disappeared. What looks like alignment may be the moment when experience stops traveling upward.
+Seen from the boardroom, the quiet can look like agreement. The concern was raised. An explanation was given. Nobody continues to object. The metric still matters, and the room has moved on. The staff member may have stopped because they learned that their evidence would never count as evidence—not because the concern disappeared. What looks like alignment may be the moment when experience stops traveling upward.
 
 Silence is especially easy to misread when the measurement system appears objective.
 
@@ -194,6 +194,6 @@ It becomes dangerous when it persuades us that the whole is what we can see.
 
 [^c5-muller]: See Jerry Z. Muller, *The Tyranny of Metrics* (Princeton, NJ: Princeton University Press, 2018), on performance measurement redirecting effort toward what can be counted.
 
-[^c5-luhmann]: See Niklas Luhmann, *Trust and Power: Two Works*, trans. Howard Davis, John Raffan, and Kathryn Rooney (Chichester, UK: John Wiley & Sons, 1979).
+[^c5-luhmann]: See Luhmann, *Trust and Power*.
 
-[^c5-march-simon]: See James G. March and Herbert A. Simon, *Organizations* (New York: Wiley, 1958).
+[^c5-march-simon]: See March and Simon, *Organizations*.

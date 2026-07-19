@@ -46,11 +46,7 @@ Each answer saves time. The savings accumulate for the group and as work for the
 
 From the outside, the arrangement can look natural. Some people are organized. Some people have good memories. Some are generous with context. Some are simply better at seeing how pieces connect.
 
-The department may even say so out loud. She is just like that. She has always kept track. The explanation feels kind, and it ends the inquiry.
-
-Perhaps.
-
-But natural ability does not explain why the same person keeps receiving the questions. A gift for noticing does not, by itself, create a queue of “quick questions.” Once someone becomes known as the person who remembers, the group begins organizing itself around that fact. People take fewer notes because she took notes. They enter meetings less prepared because she can reconstruct what happened. New members are directed toward her instead of toward documentation that does not yet exist. Decisions remain informal because everyone knows who can explain them later.
+The department may even say so out loud. She is just like that. She has always kept track. The explanation feels kind, and it ends the inquiry. Natural ability does not explain why the same person keeps receiving the questions. A gift for noticing does not, by itself, create a queue of “quick questions.” Once someone becomes known as the person who remembers, the group begins organizing itself around that fact. People take fewer notes because she took notes. They enter meetings less prepared because she can reconstruct what happened. New members are directed toward her instead of toward documentation that does not yet exist. Decisions remain informal because everyone knows who can explain them later.
 
 The person becomes helpful in ways that make the group more dependent on her helpfulness. This dependence rarely appears on a roadmap.
 
@@ -150,7 +146,7 @@ Gratitude is good. Credit matters. Maintenance work should appear in performance
 
 But recognition alone can become another way of preserving the arrangement. The department praises the associate professor’s “exceptional collegial service” and assigns her another committee. The manager thanks the team’s most reliable engineer and adds them to the next troubled project.
 
-The praise can feel like the end of the story. Someone was seen. The debt was named. Everyone can return to work with a clearer conscience. Appreciation without redistribution is often how dependency apologizes for itself. The sentence that sounds like gratitude—“we could not do this without you”—functions as a warning when no one asks what the person should no longer have to carry.
+The praise can settle the matter before anyone asks what it costs. Someone was seen. The debt was named. Everyone can return to work with a clearer conscience. Appreciation without redistribution is often how dependency apologizes for itself. The sentence that sounds like gratitude—“we could not do this without you”—functions as a warning when no one asks what the person should no longer have to carry.
 
 The deeper form of recognition asks what the person should no longer have to carry.
 

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Architectural constraints for **Why Collaboration Is So Hard** (*And why the effort still matters*).
+Architectural constraints for **Why Collaboration Is So Hard** (*And Why the Effort Still Matters*).
 
 ## Rewrite contract (recognition-first)
 

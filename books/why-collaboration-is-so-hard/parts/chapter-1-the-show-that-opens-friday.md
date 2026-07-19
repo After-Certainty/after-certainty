@@ -136,6 +136,6 @@ The show opens.
 
 And because the outcome looks whole, we forget how many people had to surrender the right to make it alone.
 
-[^c1-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+[^c1-weick]: See Weick, *Sensemaking in Organizations*.
 
 [^c1-sennett]: See Richard Sennett, *Together: The Rituals, Pleasures and Politics of Cooperation* (New Haven, CT: Yale University Press, 2012).

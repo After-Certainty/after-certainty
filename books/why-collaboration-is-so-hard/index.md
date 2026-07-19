@@ -9,8 +9,8 @@
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
 - [About the Series](front-matter/about-the-series.md)
-- [Introduction — The Meeting Everyone Remembered Differently](front-matter/introduction-the-meeting-everyone-remembered-differently.md)
 - [Note on Examples](front-matter/note-on-examples.md)
+- [Introduction — The Meeting Everyone Remembered Differently](front-matter/introduction-the-meeting-everyone-remembered-differently.md)
 
 ## Chapters
 
