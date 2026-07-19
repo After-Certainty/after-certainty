@@ -55,6 +55,10 @@ Do **not** open chapters by naming contribution asymmetry, partial coherence, st
 
 Every chapter begins and ends with the same ordinary image. By the end the image means something different. Do not merely summarize—transform perception.
 
+### Introduction pacing
+
+The Introduction must wander into the subject through an ordinary moment before revealing what the book is about. Do not make the opening paragraphs “about collaboration.” Let the meeting (or equivalent scene) carry recognition first; name the difficulty only after the reader has lived the mismatch. Prefer a governing curiosity close over a framework promise.
+
 ## Voice
 
 - Closer to Rebecca Solnit than to an academic text

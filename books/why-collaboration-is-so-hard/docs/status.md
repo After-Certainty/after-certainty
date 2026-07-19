@@ -40,8 +40,8 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Author draft: Chapter 1 — The Show That Opens Friday.
-2. Optional recognition pass on Introduction after Ch 1 voice locks.
+1. Author draft: Chapter 2 — We Did Not Agree to the Same Thing.
+2. Optional recognition pass on Introduction + Ch 1 after Ch 2 voice locks.
 3. Proceed chapter-by-chapter through Conclusion.
 4. Revisit glossary vocabulary strategy once patterns have been lived in prose.
 
