@@ -7,6 +7,15 @@ const eslintConfig = defineConfig([
   ...nextVitals,
   ...nextTs,
   eslintConfigPrettier,
+  {
+    settings: {
+      react: {
+        // Pin React version so eslint-plugin-react skips ESLint-10-incompatible
+        // context.getFilename() auto-detection (see vercel/next.js#89764).
+        version: "19.2.7",
+      },
+    },
+  },
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:
