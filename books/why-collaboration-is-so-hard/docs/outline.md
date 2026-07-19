@@ -87,14 +87,16 @@ Readers should experience collaboration before they receive language for it.
 
 ## Chapter 3 — The Person Who Keeps the Spreadsheet
 
-- **Opening object/image:** Associate professor; “temporary” spreadsheet; invisible labor of organizational memory.
+**Status:** Author draft landed (`parts/chapter-3-the-person-who-keeps-the-spreadsheet.md`).
+
+- **Opening object/image:** Temporary curriculum spreadsheet; associate professor becomes the department’s memory through “quick questions.”
 - **Guiding question:** Who quietly remembers what everyone else forgot—and what does that cost?
-- **Initial mystery:** Intellectual debate happens in the room; the next real step depends on work no agenda names.
-- **Associative widenings:** Handoff debt; “quick question” emails; risk asymmetry; emotional labor; accreditation, contracts, registrar deadlines.
-- **Ideas to preserve:** Contribution asymmetry; uneven visibility; maintenance load; memory inside organizations; exit options and reputation risk.
-- **Late pattern:** Every successful collaboration quietly asks someone to remember what everyone else forgot.
-- **Ending image:** The spreadsheet still called temporary, still open after the meeting adjourns.
-- **Cautions:** Stay with the person, not a taxonomy of load types. Do not moralize; diagnose the structure.
+- **Initial mystery:** Visible curriculum work vs surrounding work that keeps projects from forgetting themselves; evidence as failures that do not occur.
+- **Associative widenings:** Theater / festival / software / family care; leave-week collapse; memory as caution and as gate; steadiness as load; extractive “just this once”; documentation vs interpretation; identity concealing assignment.
+- **Ideas to preserve:** Efficiency as complexity absorbed by one person; appreciation without redistribution; quick questions as system feedback; refusal as capacity; handoff that makes the group more capable.
+- **Late pattern / compression:** Every successful collaboration asks someone to remember what others forget. The danger begins when everyone forgets to ask who is doing the remembering.
+- **Ending image:** File renamed from Temporary Curriculum Planning Tracker; work named too; questions have more than one place to go.
+- **Cautions:** Do not romanticize the keeper or place them beyond question. Do not turn documentation into another demand on the same person. Diagnose structure, not personality.
 - **Primary source units:**
   - `research/source-edition/parts/part-1-contribution/chapter-4-contribution-moves-unevenly.md`
 
