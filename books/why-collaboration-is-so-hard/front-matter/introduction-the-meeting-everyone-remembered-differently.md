@@ -1,34 +1,123 @@
-# Introduction — The Meeting Everyone Remembered Differently
+# **Introduction**
 
-> **Stub — awaiting author draft.** Beat sheet only. Full planning card: [`../docs/outline.md`](../docs/outline.md).
+## **The Meeting Everyone Remembered Differently**
 
-## Opening image
+By the time the meeting ended, everyone believed they understood what had happened.
 
-Five people leave the same meeting believing different things were decided.
+People gathered their laptops. Someone made a joke about finally getting to lunch. Someone else reminded the group that Friday was probably too ambitious. There were a few nods, a few “Sounds good,” and the familiar scraping of chairs as everyone drifted toward the hallway.
 
-## Stay in the tension
+It looked like a successful meeting.
 
-Competence and goodwill are present; a common record of the room is not. Hallway debriefs diverge. “I thought we decided…” begins before anyone has left the building.
+Later that afternoon, two engineers began working on different solutions to what they believed was the same problem.
 
-## Widen
+A designer updated the prototype because she thought a decision had finally been made.
 
-Committees that vote without noticing they voted on different motions. Slack summaries that quietly rewrite the room. The gap between theatrical agreement and a usable next step.
+A product manager sent an email asking when everyone would be ready to review the proposal that another person had assumed was already approved.
 
-## Late pattern
+The project manager quietly rewrote the meeting notes because they no longer resembled what people seemed to remember.
 
-The whole problem of collaboration arrives as lived mismatch—before frameworks, before blame.
+No one was trying to be dishonest.
 
-## Return
+No one had ignored the conversation.
 
-The emptied conference room; five incompatible next actions already in motion.
+No one had left intending to create confusion.
 
-## Do not
+And yet, somehow, five people had walked out of the same room carrying five different meetings with them.
 
-Define terminology. Preview a chapter syllabus. Lecture the emotional thesis.
+Most of us have experienced something like this.
 
-## Source pointers
+Sometimes it happens at work. Sometimes it happens in a family deciding where to spend Thanksgiving. Sometimes it happens while planning a neighborhood event or serving on a volunteer committee. Sometimes it happens in a marriage after what both people sincerely describe as “the conversation we already had.”
 
-- `docs/research/source-edition/front-matter/core-reframe.md`
-- `docs/research/source-edition/front-matter/organizing-question.md`
-- `docs/research/source-edition/parts/part-1-contribution/chapter-3-alignment-without-full-understanding.md`
-- `docs/research/source-edition/parts/part-3-when-collaboration-collapses/chapter-10-when-disagreement-becomes-threat.md`
+After enough experiences like this, we start looking for someone to blame.
+
+Maybe the manager wasn’t clear enough.
+
+Maybe someone wasn’t paying attention.
+
+Maybe one person dominates every conversation.
+
+Maybe nobody takes notes.
+
+Occasionally those explanations are right.
+
+There are careless people. There are manipulative people. There are leaders who confuse speaking with listening, and organizations that mistake agreement for understanding.
+
+But there is another possibility that interests me more.
+
+What if some of these misunderstandings happen not because people are failing to collaborate…
+
+…but because collaboration itself asks human beings to do something extraordinarily difficult?
+
+We often imagine collaboration as a moral achievement.
+
+Good people collaborate.
+
+Good teams communicate.
+
+Good leaders build consensus.
+
+The assumption quietly hiding underneath all of those ideas is that if everyone is skilled enough—or kind enough, or patient enough—the work will eventually become clear.
+
+Experience suggests otherwise.
+
+The larger the work becomes, the less any one person can fully see.
+
+The more people contribute, the less any individual controls the final result.
+
+The more knowledge is required, the more everyone must depend on judgments they cannot personally verify.
+
+Strangely, collaboration often succeeds not by removing uncertainty but by asking people to continue working in the middle of it.
+
+That is a difficult thing to do.
+
+We prefer stories with authors.
+
+We like knowing who made the decision.
+
+We like knowing who deserves the credit.
+
+We like knowing who is responsible when something goes wrong.
+
+Collaboration slowly dissolves those comforts.
+
+A great theatrical production belongs to hundreds of people.
+
+A successful bridge reflects thousands of decisions that no single engineer remembers making.
+
+A scientific discovery carries the fingerprints of technicians, graduate students, reviewers, administrators, mentors, and researchers whose names never appear in newspaper headlines.
+
+Even something as ordinary as a neighborhood park is the accumulated work of planners, contractors, maintenance crews, volunteers, elected officials, taxpayers, and children who eventually decide whether anyone wants to spend time there.
+
+The finished work often appears singular.
+
+The process almost never is.
+
+Perhaps that is why collaboration feels so strange.
+
+It asks us to keep contributing to work that none of us can fully see, fully control, or fully claim as our own.
+
+That experience produces familiar frustrations.
+
+Someone quietly becomes responsible for remembering everything.
+
+A checklist created to help people slowly becomes something everyone obeys without thinking.
+
+A meeting where everyone agrees somehow leaves people with different understandings.
+
+An organization becomes efficient but somehow less capable of noticing when something important is changing.
+
+We usually treat these as separate management problems.
+
+This book argues they are different expressions of the same human condition.
+
+Not because people are irrational.
+
+Not because organizations are broken.
+
+But because whenever many people attempt to create something together, they enter a world where understanding is always incomplete, ownership is always shared, and certainty always arrives later than we would like.
+
+The remarkable thing is not that collaboration sometimes fails.
+
+The remarkable thing is that it works as often as it does.
+
+The rest of this book is an attempt to understand why.

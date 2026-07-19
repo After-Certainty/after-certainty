@@ -28,14 +28,17 @@ Readers should experience collaboration before they receive language for it.
 
 ## Introduction — The Meeting Everyone Remembered Differently
 
-- **Opening object/image:** Five people leave the same meeting believing different things were decided.
-- **Guiding question:** How can shared work begin when people do not even share the same memory of what was agreed?
+**Status:** Author draft landed (`front-matter/introduction-the-meeting-everyone-remembered-differently.md`).
+
+- **Opening object/image:** Five people leave the same meeting believing different things were decided—before the word *collaboration* arrives.
+- **Guiding question:** What if misunderstanding is not only failure, but a condition of trying to create something together?
 - **Initial mystery:** Competence and goodwill are present; a common record of the room is not.
-- **Associative widenings:** Hallway debriefs; Slack summaries that diverge; “I thought we decided…” emails; committees that vote without noticing they voted on different motions.
-- **Ideas to preserve (experience before name):** Incomplete control; uneven visibility of what was said; the gap between theatrical agreement and usable next steps; disagreement that looks like mishearing rather than conflict.
-- **Late pattern (optional naming):** The whole problem of collaboration arrives as lived mismatch—before frameworks, before blame.
-- **Ending image:** The same conference room, emptied, with five incompatible next actions already in motion.
-- **Cautions:** Do not define terminology. Do not preview the chapter map as a lecture syllabus. Trust the scene to carry the book’s problem.
+- **Associative widenings:** Work, family, neighborhood, volunteer committees, marriage; theater, bridges, science, parks as finished singularities hiding plural process.
+- **Ideas to preserve (experience before name):** Incomplete seeing/control/claim; blame stories that sometimes fit; collaboration dissolving authorship comforts; familiar frustrations previewed without chapter syllabus.
+- **Late pattern:** Emotional thesis arrives mid-essay (“fully see, fully control, or fully claim”); book governed by curiosity close, not framework promise.
+- **Governing close:** The remarkable thing is not that collaboration sometimes fails. The remarkable thing is that it works as often as it does.
+- **Ending image:** Not the emptied room alone—the open question that carries the reader into the chapters.
+- **Cautions:** Do not make the introduction “about collaboration” in the first paragraphs. Do not define terminology. Do not preview the chapter map as a lecture syllabus. Trust the ordinary meeting.
 - **Primary source units:**
   - `research/source-edition/front-matter/core-reframe.md`
   - `research/source-edition/front-matter/organizing-question.md`

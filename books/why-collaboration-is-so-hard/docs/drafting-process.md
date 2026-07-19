@@ -25,4 +25,4 @@ Run recognition revision skills on each unit (not on beat-sheet stubs):
 3. Recognition preservation — protect pattern language; compress over-expansion
 4. Experience deepening — lived recognition before pattern
 
-See house template: [upcoming/docs/_templates/drafting-process.md.template](../../../upcoming/docs/_templates/drafting-process.md.template).
+See house template: [`upcoming/docs/_templates/drafting-process.md.template`](../../../upcoming/docs/_templates/drafting-process.md.template).
