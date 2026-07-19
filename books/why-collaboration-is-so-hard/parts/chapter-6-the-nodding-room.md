@@ -60,6 +60,14 @@ People nodded.
 
 A photograph was taken.
 
+The green wall can feel like proof that the afternoon worked. Honest disagreement was named as welcome. Psychological safety was named as a value. Support arrived. Leaders can leave knowing the organization chose together.
+
+That reading restores confidence quickly.
+
+It may also be incomplete.
+
+A person can place green because the senior person placed green, because yellow would require an explanation they do not yet have words for, or because they have already learned that the concern will be carried on a sheet labeled Tensions to Manage. The wall records support. It does not record why support became the easiest color in the room.
+
 Two weeks later, several people who had placed green dots began privately explaining why the plan could not work.
 
 This is one of the stranger features of collective agreement.
@@ -240,6 +248,8 @@ They may have agreed to proceed because the decision belonged to someone else. T
 
 Later, when the plan struggles, the organization says, “But everyone supported this.”
 
+The sentence feels like history. It may be a compression of history. What was lived as “I will not block this” has been filed as “everyone endorsed the direction.” The person who hesitates now looks like they are rewriting the past. They may only be remembering a distinction the room no longer records.
+
 The dissenter hears their professionalism used as evidence that their disagreement never mattered.
 
 This teaches a dangerous lesson.
@@ -265,6 +275,14 @@ In many organizations, they cannot.
 The demand for alignment compresses them into one question:
 
 Are you with us?
+
+The question can feel clarifying. Shared work needs people who will not sabotage the plan after they lose the argument. Loyalty matters. Belonging matters.
+
+That need is real.
+
+It can also be incomplete.
+
+Once disagreement is heard as a verdict on belonging, a technical concern arrives already contaminated. The person asking whether the deadline is realistic is no longer only asking about the deadline. They are asking whether they are still the kind of person the room wants.
 
 Once disagreement is interpreted through belonging, the work changes.
 

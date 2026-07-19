@@ -4,7 +4,7 @@
 
 **Phase 3 — Experience deepening (July 2026)**
 
-Recognition pass complete. Experience deepening running one unit at a time with author review between units. Introduction and Chapters 1–5 deepened; Chapters 6–8 pending.
+Recognition pass complete. Experience deepening running one unit at a time with author review between units. Introduction and Chapters 1–6 deepened; Chapters 7–8 pending.
 
 ## Edition decision
 
@@ -27,7 +27,7 @@ Recognition pass complete. Experience deepening running one unit at a time with 
 | Ch 3 — The Person Who Keeps the Spreadsheet | Experience deepening | Personality/queue, resistance/map, praise-without-redistribution reversals; ending couplet intact |
 | Ch 4 — The Ritual Before the Lift | Experience deepening | Ritual-as-distrust, more-structure-as-proof, open-culture/sequence reversals; ending intact |
 | Ch 5 — What the Dashboard Cannot See | Experience deepening | Green-as-closure, metrics-as-trust-repair, silence-as-alignment reversals; ending intact |
-| Ch 6 — The Nodding Room | Recognition pass | Light compress: practice scaffold, values restatement, analogies |
+| Ch 6 — The Nodding Room | Experience deepening | Green-as-proof, “everyone supported this,” belonging-as-alignment reversals; ending intact |
 | Ch 7 — Faster Than Care Can Move | Recognition pass | Light compress: parallel pairs, form/checklist scaffolds |
 | Ch 8 — What the Next Team Inherits | Recognition pass | Light compress: diagnostic Qs, joke/blame lists, repair-if echo |
 | Conclusion — The Show Opens Anyway | Recognition pass | Kept as-is; chapter-echo litany treated as earned compression |
@@ -40,7 +40,7 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Author review of Chapter 5 experience deepening; then deepen Chapter 6.
+1. Author review of Chapter 6 experience deepening; then deepen Chapter 7.
 2. Revisit glossary vocabulary strategy after deepening pass.
 3. Build smoke test when ready: `make build-book DIR=books/why-collaboration-is-so-hard`.
 
