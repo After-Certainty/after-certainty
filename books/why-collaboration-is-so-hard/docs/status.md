@@ -29,7 +29,7 @@ The May 2026 essay edition is archived as source material. Live manuscript is a 
 | Ch 5 — What the Dashboard Cannot See | Author draft | Landed July 2026; green number; whole is not what we can see |
 | Ch 6 — The Nodding Room | Author draft | Landed July 2026; green wall; remain part of the work after they stop |
 | Ch 7 — Faster Than Care Can Move | Author draft | Landed July 2026; ED clock; when faster would make it less than care |
-| Ch 8 — What the Next Team Inherits | Stub | Awaiting author draft |
+| Ch 8 — What the Next Team Inherits | Author draft | Landed July 2026; acronym residue; past in room without final word |
 | Conclusion — The Show Opens Anyway | Stub | Awaiting author draft |
 | Glossary | Held | From essay edition; redesign deferred |
 | Bibliography | Held | From essay edition; update with drafts |
@@ -40,10 +40,9 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Author draft: Chapter 8 — What the Next Team Inherits.
-2. Optional recognition pass on Intro–Ch 7 after Ch 8 voice locks.
-3. Proceed chapter-by-chapter through Conclusion.
-4. Revisit glossary vocabulary strategy once patterns have been lived in prose.
+1. Author draft: Conclusion — The Show Opens Anyway.
+2. Optional recognition pass on full spine after conclusion voice locks.
+3. Revisit glossary vocabulary strategy once patterns have been lived in prose.
 
 ## Open decisions / resolved
 
