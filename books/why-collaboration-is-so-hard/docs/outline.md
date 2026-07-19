@@ -123,14 +123,16 @@ Readers should experience collaboration before they receive language for it.
 
 ## Chapter 5 — What the Dashboard Cannot See
 
-- **Opening object/image:** Nonprofit metrics; board reporting; visibility through numbers.
+**Status:** Author draft landed (`parts/chapter-5-what-the-dashboard-cannot-see.md`).
+
+- **Opening object/image:** Board meeting begins with a green number—people served; arrow up.
 - **Guiding question:** What disappears when the measurable stands in for the whole?
-- **Initial mystery:** Clearer metrics calm the room and narrow the work at the same time.
-- **Associative widenings:** Site visits vs dashboards; outputs vs care; auditability cheaper than trust; optimization for what is counted.
-- **Ideas to preserve:** Legibility’s double edge; mistaking measurement for understanding; trust displaced by reports; invisible field labor.
-- **Late pattern:** What can be shown on a screen is never the whole collaboration—and treating it as such remakes the work.
-- **Ending image:** The dashboard green; a field worker’s uncounted hour.
-- **Cautions:** Avoid anti-metrics rant. Show the board’s anxiety and the director’s bind.
+- **Initial mystery:** Dashboard solves real governance needs and still cannot color thinner work, frayed trust, or cost of reach.
+- **Associative widenings:** Hospitals / schools / call centers / engineering; measure as window vs room; transfer vs improvement; narration labor; different clocks for numbers and trust; required fields as soft control.
+- **Ideas to preserve:** Compression necessary and incomplete; trust without visibility vs visibility without trust; premature clarity; early signals before dashboards; widening green rather than discarding it.
+- **Late pattern / compression:** A dashboard is valuable because no one can see the whole. It becomes dangerous when it persuades us that the whole is what we can see.
+- **Ending image:** Fewer green numbers; yellow volunteer hours that may mean healthier boundaries; room less certain, more understanding.
+- **Cautions:** Avoid anti-metrics rant. Honor the board’s need for summaries. Do not romanticize unmeasured work.
 - **Primary source units:**
   - `research/source-edition/parts/part-2-stabilizing-collaboration/chapter-6-legibility-and-trust.md`
   - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-9-when-efficiency-becomes-coercion.md` *(measurement echo)*

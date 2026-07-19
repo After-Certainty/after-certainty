@@ -26,7 +26,7 @@ The May 2026 essay edition is archived as source material. Live manuscript is a 
 | Ch 2 — We Did Not Agree to the Same Thing | Author draft | Landed July 2026; engineers at 10:47→1:30; temporary place without becoming one |
 | Ch 3 — The Person Who Keeps the Spreadsheet | Author draft | Landed July 2026; temporary spreadsheet → named work; who remembers |
 | Ch 4 — The Ritual Before the Lift | Author draft | Landed July 2026; crane ritual; uncertainty has somewhere to go |
-| Ch 5 — What the Dashboard Cannot See | Stub | Awaiting author draft |
+| Ch 5 — What the Dashboard Cannot See | Author draft | Landed July 2026; green number; whole is not what we can see |
 | Ch 6 — The Nodding Room | Stub | Awaiting author draft |
 | Ch 7 — Faster Than Care Can Move | Stub | Awaiting author draft |
 | Ch 8 — What the Next Team Inherits | Stub | Awaiting author draft |
@@ -40,8 +40,8 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Author draft: Chapter 5 — What the Dashboard Cannot See.
-2. Optional recognition pass on Intro–Ch 4 after Ch 5 voice locks.
+1. Author draft: Chapter 6 — The Nodding Room.
+2. Optional recognition pass on Intro–Ch 5 after Ch 6 voice locks.
 3. Proceed chapter-by-chapter through Conclusion.
 4. Revisit glossary vocabulary strategy once patterns have been lived in prose.
 
