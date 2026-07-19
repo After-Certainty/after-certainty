@@ -49,14 +49,16 @@ Readers should experience collaboration before they receive language for it.
 
 ## Chapter 1 — The Show That Opens Friday
 
-- **Opening object/image:** Community theater; tech week; a show that must open Friday.
+**Status:** Author draft landed (`parts/chapter-1-the-show-that-opens-friday.md`).
+
+- **Opening object/image:** By Thursday evening, the play no longer belonged to the director; tech-week doorway/brace cascade.
 - **Guiding question:** What kind of work becomes possible only when no one can keep it entirely theirs?
-- **Initial mystery:** A script everyone “agreed to” in spring is not what arrives on opening night—and the change is not failure.
-- **Associative widenings:** Shared authorship; surrender of control; emergence under constraint; ensembles, labs, mutual-aid kitchens, watershed councils.
-- **Ideas to preserve:** Diffuse ownership; interaction under constraint; outcomes no individual authored in advance; fragility as structure, not defect.
-- **Late pattern:** Some work becomes possible only after everyone gives up the right for it to remain entirely theirs.
-- **Ending image:** Curtain; audience applause for a show none of the makers singly owns.
-- **Cautions:** Expand and stay inside the theater; do not rush to organizational theory. Avoid “shared authorship” as an early heading.
+- **Initial mystery:** Competent, generous people; work still wobbles because choices reasonable in isolation disrupt in combination.
+- **Associative widenings:** Research discovery; family caregiving / distributed sight; block party; oral-history archive; bridges, hospitals, websites as smooth outcomes hiding negotiation.
+- **Ideas to preserve:** Interaction under constraint; emergence demystified; partial surrender of authorship (not indifference); coherence vs permeability; credit compression / erasure; resistance as accumulated memory of cost.
+- **Late pattern / compression:** No one holds the whole, but the whole still has to be made. Closing: because the outcome looks whole, we forget how many people had to surrender the right to make it alone.
+- **Ending image:** Friday audience sees the inevitable doorway entrance; brace, failed cues, and concessions invisible.
+- **Cautions:** Stay inside theater long enough before widenings. Do not romanticize “belongs to everyone and no one.” Hold authorship’s real value alongside surrender.
 - **Primary source units:**
   - `research/source-edition/parts/part-1-contribution/chapter-1-what-no-one-owns-alone.md`
   - `research/source-edition/parts/part-4-seeing-collaboration-more-clearly/chapter-13-fragility-is-not-failure.md`

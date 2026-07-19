@@ -22,7 +22,7 @@ The May 2026 essay edition is archived as source material. Live manuscript is a 
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Introduction — The Meeting Everyone Remembered Differently | Author draft | Landed July 2026; scene before subject; governing close: works as often as it does |
-| Ch 1 — The Show That Opens Friday | Stub | Awaiting author draft |
+| Ch 1 — The Show That Opens Friday | Author draft | Landed July 2026; theater through Thursday→Friday; late pattern: surrender sole authorship |
 | Ch 2 — We Did Not Agree to the Same Thing | Stub | Awaiting author draft |
 | Ch 3 — The Person Who Keeps the Spreadsheet | Stub | Awaiting author draft |
 | Ch 4 — The Ritual Before the Lift | Stub | Awaiting author draft |
