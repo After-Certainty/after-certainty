@@ -2,16 +2,16 @@
 
 ## Current phase
 
-**Phase 0 — Recognition rewrite skeleton (July 2026)**
+**Phase 1 — Author drafts landed (July 2026)**
 
-The May 2026 essay edition is archived as source material. Live manuscript is a beat-sheet skeleton awaiting author drafts.
+Introduction + eight chapters + Conclusion are in recognition-first prose. Essay edition remains archived as source material. Next: optional recognition/echo passes and glossary strategy.
 
 ## Edition decision
 
 | Edition | Status |
 |---------|--------|
 | Essay (~12–15k), 4 parts / 14 chapters | **Archived** — [`research/source-edition/`](research/source-edition/) |
-| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — skeleton / stubs |
+| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — author drafts landed |
 
 ## Manuscript hub
 
@@ -30,7 +30,7 @@ The May 2026 essay edition is archived as source material. Live manuscript is a 
 | Ch 6 — The Nodding Room | Author draft | Landed July 2026; green wall; remain part of the work after they stop |
 | Ch 7 — Faster Than Care Can Move | Author draft | Landed July 2026; ED clock; when faster would make it less than care |
 | Ch 8 — What the Next Team Inherits | Author draft | Landed July 2026; acronym residue; past in room without final word |
-| Conclusion — The Show Opens Anyway | Stub | Awaiting author draft |
+| Conclusion — The Show Opens Anyway | Author draft | Landed July 2026; curtain rises; something none could make alone |
 | Glossary | Held | From essay edition; redesign deferred |
 | Bibliography | Held | From essay edition; update with drafts |
 
@@ -40,9 +40,9 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Author draft: Conclusion — The Show Opens Anyway.
-2. Optional recognition pass on full spine after conclusion voice locks.
-3. Revisit glossary vocabulary strategy once patterns have been lived in prose.
+1. Optional recognition / echo pass across Introduction–Conclusion.
+2. Revisit glossary vocabulary strategy now that patterns have been lived in prose.
+3. Build smoke test when ready: `make build-book DIR=books/why-collaboration-is-so-hard`.
 
 ## Open decisions / resolved
 

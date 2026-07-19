@@ -193,13 +193,15 @@ Readers should experience collaboration before they receive language for it.
 
 ## Conclusion — The Show Opens Anyway
 
-- **Opening/return image:** Community theater; the audience never sees all the compromises.
+**Status:** Author draft landed (`back-matter/conclusion-the-show-opens-anyway.md`).
+
+- **Opening/return image:** Friday night audience; doorway, cue, crossing, safety catch invisible; they saw the play.
 - **Guiding question:** Given everything this book has shown, why does the effort still matter?
-- **Movement:** Return to the show; compress the book’s recognitions without inventory lecture; affirm that something beautiful (or necessary) can still emerge.
-- **Ideas to preserve:** Affirmative case from former Ch 14; invariant substance without framework parade; organizations, like audiences, rarely see the full cost of making.
-- **Late pattern:** Neither audiences nor most organizations see all the compromises—yet shared work still opens.
-- **Ending image:** Lights up; the show that no one singly authored, running anyway.
-- **Cautions:** Do not summarize chapter-by-chapter. Do not reinstall the four-part monograph voice. Transform the theater image; do not merely reprise it.
+- **Movement:** Compress recognitions without inventory lecture—spreadsheet, question, green number, nod, care’s speed; enough structure/trust/memory/humility/hope; curtain rises.
+- **Ideas to preserve:** Finished thing hides uncertainty; acts of collaboration are the work; fragility without framework parade; audience sees a whole; makers know better.
+- **Late pattern / compression:** Not because collaboration finally gives us control. Because sometimes, after everyone has given up a small part of it, something appears that none of them could have made alone.
+- **Ending image:** Light finds the doorway; actor enters; hundreds of judgments become one experience.
+- **Cautions:** Do not summarize chapter-by-chapter. Do not reinstall the monograph voice. Transform the theater image.
 - **Primary source units:**
   - `research/source-edition/parts/part-4-seeing-collaboration-more-clearly/chapter-14-why-the-effort-still-matters.md`
   - `research/source-edition/back-matter/conclusion-why-the-effort-still-matters.md`
