@@ -40,9 +40,9 @@ This is why clarification can continue long after vocabulary appears settled. Th
 
 A public library encounters the same problem while redesigning its children’s room.
 
-The youth librarian wants quiet corners where children can read without being overwhelmed. The volunteer coordinator wants open floor space for weekend programs. A parent advisory group wants shelves low enough for children to browse independently. The facilities manager knows that some arrangements will interfere with emergency routes. The branch manager is trying to protect a budget already reduced twice.
+The youth librarian wants quiet corners where children can read without being overwhelmed. The volunteer coordinator wants open floor space for weekend programs. A parent advisory group wants shelves low enough for children to browse independently. The facilities manager knows that some arrangements will interfere with emergency routes. The branch manager is protecting a budget already reduced twice.
 
-Everyone agrees the room should serve children better. That agreement is real. It is also insufficient.
+Everyone agrees the room should serve children better, but the sentence does not yet tell them what to build.
 
 After the first meeting, the youth librarian believes the group has chosen reading nooks as the priority. The volunteer coordinator believes they have agreed to preserve flexibility. The facilities manager believes no design choice has been made because no one has reviewed the floor plan against code. The branch manager believes they have approved a survey.
 
@@ -58,25 +58,17 @@ This is one reason disagreement often feels moral before it becomes explicit. Sp
 
 A structural difference in responsibility becomes a story about character.[^c2-march-simon]
 
-From outside the exchange, the story can look obvious. One person wants to move. The other wants to stall. One cares about the work. The other cares about being right. That sorting restores moral clarity quickly. It may also be incomplete. The person pushing Friday may be carrying a customer already waiting. The person asking for failure modes may be carrying the outage that followed the last narrow launch. Neither is revealing their whole reason in the argument that is now available. What looks like a difference in character may still be a difference in what each person cannot afford to leave unseen.
+From outside the exchange, the story can look obvious. One person wants to move; the other wants to stall. One cares about the work; the other cares about being right. Yet the person pushing Friday may be carrying a customer already waiting, while the person asking for failure modes may be carrying the outage that followed the last narrow launch. Neither has revealed their whole reason in the argument now available. What looks like character may still be a difference in what each person cannot afford to leave unseen.
 
 Once that story forms, the original disagreement becomes harder to solve. People are no longer debating the room, the software, the schedule, or the policy. They are defending themselves against the kind of person others now suspect them of being.
 
-It is tempting to solve this by insisting on more complete agreement. Get everyone aligned before moving. Clarify every term. Resolve every concern. Make sure the whole team shares one mental model.
+It is tempting to solve this by insisting on more complete agreement: get everyone aligned before moving, clarify every term, resolve every concern, make sure the whole team shares one mental model.
 
 The cure sounds like maturity. If people were clearer, more patient, more thorough, the afternoon quarrel would not have happened. Hold the meeting longer. Define the words. Do not leave until everyone sees the same thing.
 
-That response is understandable.
+But the cure asks collaboration for a condition it rarely provides.
 
-It can also ask for a condition collaboration rarely provides.
-
-Many shared efforts depend on people who will never hold identical pictures of the work—not because they refuse to listen, but because they are responsible for different failures.[^c2-weick] A surgeon and an anesthesiologist do not need identical understandings of pain. They need compatible understandings of what must happen for this patient, during this procedure, under these conditions.
-
-A journalist and a photographer do not need to imagine the same story. They need to share enough constraints around accuracy, consent, scope, and deadline to publish work that does not betray either form.
-
-A teacher and a parent do not need to hold the same theory of learning. They may need to agree that a child requires quieter testing conditions and that the arrangement will be reconsidered after six weeks.
-
-A city planner, a shop owner, and a cyclist may never agree on what makes a street successful. They may still agree to test one protected lane through the summer, measure several kinds of use, and revisit the design before winter.
+Many shared efforts depend on people who will never hold identical pictures of the work—not because they refuse to listen, but because they are responsible for different failures.[^c2-weick] A surgeon and an anesthesiologist need compatible understandings of what must happen for this patient, during this procedure, under these conditions, not identical understandings of pain. A journalist and a photographer need enough agreement about accuracy, consent, scope, and deadline to publish work that does not betray either form. A city planner, a shop owner, and a cyclist may never agree on what makes a street successful; they may still test one protected lane through the summer, measure several kinds of use, and revisit the design before winter.
 
 The group does not need one mind. It needs enough shared movement for the next contribution to become possible. This is a less satisfying form of alignment than the one many organizations promise.
 
@@ -98,7 +90,7 @@ Some must be corrected immediately. A surgical team cannot proceed if people dis
 
 But many collaborations become exhausted trying to eliminate every difference in interpretation, including differences that do not yet prevent useful action.
 
-A housing cooperative deciding how to repair an aging building may disagree about its larger philosophy of ownership. Some members think the cooperative should minimize monthly costs. Others think it should invest aggressively so future residents inherit something stronger. A carpenter thinks in terms of material life. The treasurer thinks in terms of cash flow. A longtime resident thinks in terms of whether another assessment will force neighbors to leave.
+A housing cooperative deciding how to repair an aging building may disagree about its larger philosophy of ownership. Some members want to minimize monthly costs; others want to invest so future residents inherit something stronger. A carpenter thinks in terms of material life, the treasurer in terms of cash flow, a longtime resident in terms of whether another assessment will force neighbors to leave.
 
 The phrase “we need bids” enters the conversation. The treasurer hears a requirement before money can be committed. The carpenter hears delay that may push the project into a season when materials cost more. The board hears protection against liability. The residents hear the beginning of another increase.
 
@@ -106,7 +98,7 @@ A skilled facilitator does not make these meanings identical. They make the diff
 
 “We disagree about how much renovation the building can afford. We agree to obtain two bids for the roof before March 15.”
 
-That sentence is not unity. It is a bridge. It creates a place where people with different reasons can stand together temporarily. Many successful collaborations are built from these temporary places. The mistake is not that people use them. The mistake is imagining they are permanent.
+The roof-bid agreement is not unity but a bridge, a place where people with different reasons can stand together temporarily. Many successful collaborations are built from these temporary places; the mistake is imagining they are permanent.
 
 A two-week experiment becomes an unstated strategy. A provisional exception becomes the normal process. A temporary spreadsheet becomes the system everyone depends on. A decision made under emergency conditions quietly becomes evidence of what the group believes.
 
@@ -118,7 +110,7 @@ This is how “we agreed to try” becomes “we agreed this was right.” It is
 
 We are proceeding with the narrow implementation to learn whether it solves the immediate problem. We have not decided that it is the long-term architecture. We will revisit the decision after observing performance and support costs for thirty days.
 
-That note contains uncertainty rather than erasing it. It tells the future what the present actually knew.
+By preserving uncertainty, the note tells the future what the present actually knew.
 
 Most decision records are less generous. They state what was chosen and omit what remained unsettled. Later, the choice appears inevitable. The reasons become cleaner. The people who objected are remembered as having accepted the outcome. A group inherits the decision without inheriting the conditions that made the decision reasonable.
 
@@ -144,15 +136,11 @@ Preserved dissent is simpler. It is a record that the group saw the situation mo
 
 It leaves the future something to return to. The need for this becomes clearer when people are working on different clocks.
 
-A municipal transit agency prepares a summer bus schedule. Funding decisions must be finalized months in advance. Drivers’ representatives are concerned about split shifts and insufficient recovery time. Disability advocates are focused on evening gaps that make some routes unusable. Operations staff are thinking about how long a delayed bus needs at the end of the line before it can reenter the schedule. City officials want the new service announced before an election.
+A municipal transit agency preparing a summer bus schedule faces several clocks at once. Funding must be finalized months ahead; drivers’ representatives are tracking split shifts and recovery time; disability advocates are watching evening gaps; operations staff are calculating how long a delayed bus needs before reentering service; city officials want the new service announced before an election.
 
-Everyone is discussing July 1. But July 1 means different things. For finance, it is the beginning of a budget period. For operations, it is a system that must work at 5:30 in the morning. For drivers, it is a new pattern of sleep and fatigue. For riders, it is whether they can get home after a late shift. For elected officials, it is a promise that must become visible. Different clocks create moral misunderstandings because each person experiences another’s urgency as selective. Why are the advocates raising another concern when the schedule must be published? Why is finance rushing when people will live with the consequences for months? Why are drivers resisting a change meant to improve public access? Why are officials making announcements before operational details are settled? Each question is reasonable from inside its own clock.
+Everyone is discussing July 1, but for finance it begins a budget period; for operations, a 5:30 morning system; for drivers, a new pattern of sleep and fatigue; for riders, a way home after a late shift; for elected officials, a promise made visible. Each urgency can make another look careless. Why are advocates raising another concern when the schedule must be published? Why is finance rushing a decision people will live with for months? Why are officials announcing before operational details are settled?
 
-The collaboration does not become easier when everyone explains their clock. But explanation changes the kind of conflict they are having. The problem is no longer that one group cares and another does not. The problem is that several legitimate forms of time must be coupled into one decision.
-
-Sometimes the most useful sentence in a difficult collaboration is not “Here is what we agree on.” It is “Here are the different clocks we are trying to synchronize.”
-
-That sentence does not solve the schedule. It prevents the schedule from becoming a referendum on who has the best motives.
+Explaining the clocks does not solve the schedule. It changes the conflict: several legitimate forms of time must be coupled into one decision. Sometimes the most useful sentence in a difficult collaboration is not “Here is what we agree on.” It is “Here are the different clocks we are trying to synchronize.” The sentence prevents the schedule from becoming a referendum on motives.
 
 The same is true of constraints.
 
