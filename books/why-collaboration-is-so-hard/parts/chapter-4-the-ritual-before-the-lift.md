@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 4**
 
 ## **The Ritual Before the Lift**
@@ -144,7 +146,7 @@ The signal person raised an arm. The crane began its slow turn. Everyone watched
 
 No one could see the whole lift alone. The operator could not see every clearance. The signal person could not feel the machine. The riggers could not control the wind. The foreman could not stand in every place where the load might pass. The structure connected their partial views.
 
-A gesture traveled from the ground to the operator. A pause traveled back through the machine. A concern could stop the sequence before momentum made stopping more expensive.^[Occupational Safety and Health Administration, *Cranes and Derricks in Construction: Final Rule*, 29 CFR Part 1926 Subpart CC (Washington, DC: U.S. Department of Labor, 2010); see also OSHA, *Cranes and Derricks*, OSHA 3433-05 (2011), on pre-lift planning and the operator's authority to stop and refuse to handle loads when safety is in doubt.]
+A gesture traveled from the ground to the operator. A pause traveled back through the machine. A concern could stop the sequence before momentum made stopping more expensive.[^c4-osha]
 
 The lift did not become safe because uncertainty disappeared.
 
@@ -155,3 +157,5 @@ It became safer because uncertainty had somewhere to go.
 [^c4-luhmann]: See Niklas Luhmann, *Trust and Power: Two Works*, trans. Howard Davis, John Raffan, and Kathryn Rooney (Chichester, UK: John Wiley & Sons, 1979).
 
 [^c4-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+
+[^c4-osha]: Occupational Safety and Health Administration, *Cranes and Derricks in Construction: Final Rule*, 29 CFR Part 1926 Subpart CC (Washington, DC: U.S. Department of Labor, 2010); see also OSHA, *Cranes and Derricks*, OSHA 3433-05 (2011), on pre-lift planning and the operator’s authority to stop and refuse to handle loads when safety is in doubt.

@@ -1,3 +1,5 @@
+\newpage
+
 # **Introduction**
 
 ## **The Meeting Everyone Remembered Differently**
@@ -28,23 +30,15 @@ Perhaps.
 
 But it may be answering a different question from the one the work actually posed. The named person may have protected the project, started it, or made the decision that allowed it to continue. What the clean story cannot carry is the sequence of revisions, warnings, temporary fixes, and late-night judgments that never fit on a slide. Credit still matters. So does the quieter fact that the finished thing no longer belongs cleanly to anyone who can stand beside it.
 
-Collaboration slowly dissolves those comforts. A great theatrical production belongs to hundreds of people. A successful bridge reflects thousands of decisions that no single engineer remembers making. A scientific discovery carries the fingerprints of technicians, graduate students, reviewers, administrators, mentors, and researchers whose names never appear in newspaper headlines.
+Collaboration slowly dissolves those comforts. A great theatrical production belongs to hundreds of people. A successful bridge reflects thousands of decisions that no single engineer remembers making. A scientific discovery carries the fingerprints of technicians, graduate students, reviewers, administrators, mentors, and researchers whose names never appear in newspaper headlines. Even something as ordinary as a neighborhood park is the accumulated work of planners, contractors, maintenance crews, volunteers, elected officials, taxpayers, and children who eventually decide whether anyone wants to spend time there.
 
-Even something as ordinary as a neighborhood park is the accumulated work of planners, contractors, maintenance crews, volunteers, elected officials, taxpayers, and children who eventually decide whether anyone wants to spend time there.
+The finished work often appears singular. The process almost never is. Perhaps that is why collaboration feels so strange. It asks us to keep contributing to work that none of us can fully see, fully control, or fully claim as our own.
 
-The finished work often appears singular. The process almost never is. Perhaps that is why collaboration feels so strange. It asks us to keep contributing to work that none of us can fully see, fully control, or fully claim as our own. That experience produces familiar frustrations. Someone quietly becomes responsible for remembering everything. A checklist created to help people slowly becomes something everyone obeys without thinking. A meeting where everyone agrees somehow leaves people with different understandings. An organization becomes efficient but somehow less capable of noticing when something important is changing.
+We usually treat the frustrations that follow as separate management problems—uneven workload, bureaucracy, communication failure, optimization gone too far—each with its own diagnosis and temporary fix. Useful as those labels can be, they can also turn one recurring pressure into a set of local defects to train away, process away, or staff away: the pressure of making something together while no one can fully see, control, or claim what is being made.
 
-We usually treat these as separate management problems. One looks like uneven workload. Another looks like bureaucracy. Another looks like a communication failure. Another looks like optimization gone too far. Each arrives with its own diagnosis, its own owner, and its own temporary fix.
+This book argues they are different expressions of the same human condition. Not because people are irrational. Not because organizations are broken. But because whenever many people attempt to create something together, they enter a world where understanding is always incomplete, ownership is always shared, and certainty always arrives later than we would like.
 
-That sorting can be useful.
-
-It can also be too quick.
-
-It lets us treat each frustration as a local defect in an otherwise sound arrangement—something to train away, process away, or staff away—when the same pressure may be returning in different clothes: the pressure of making something together while no one can fully see, control, or claim what is being made.
-
-This book argues they are different expressions of the same human condition. Not because people are irrational. Not because organizations are broken.
-
-But because whenever many people attempt to create something together, they enter a world where understanding is always incomplete, ownership is always shared, and certainty always arrives later than we would like.
+Successful collaboration is not the absence of tension. It is the ability to keep uncertainty, disagreement, and partial knowledge inside the work long enough for them to change what the group does—without requiring one person to absorb their cost for everyone else.
 
 The remarkable thing is not that collaboration sometimes fails.
 

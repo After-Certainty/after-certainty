@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 7**
 
 ## **Faster Than Care Can Move**
@@ -12,7 +14,7 @@ The exact meaning of too long depended on the stage of care. Time to triage. Tim
 
 The board did not create the pressure. The pressure already existed. People were waiting.
 
-Some were in pain. Some were frightened. Some had been sent by clinics that could not see them quickly enough. Some had come because they had nowhere else to go. Ambulances were arriving faster than rooms were opening. Staff moved among interruptions, alarms, questions, medication checks, test results, family members, and the accumulating awareness that everyone in the waiting room was measuring time differently.
+Some were in pain. Some were frightened. Some had been sent by clinics that could not see them quickly enough. Some had come because they had nowhere else to go. Ambulances were arriving faster than rooms were opening.[^c7-morley] Staff moved among interruptions, alarms, questions, medication checks, test results, family members, and the accumulating awareness that everyone in the waiting room was measuring time differently.
 
 The clock helped the department see what no individual could hold alone. It showed where patients were stuck. It revealed when a test had been ordered but not completed. It allowed a charge nurse to notice that one clinician had inherited several unusually complex cases. It made delay visible before delay became neglect.
 
@@ -149,6 +151,8 @@ The answer is to remember what the clock cannot know.
 A system can measure how long care takes.
 
 Only people can decide when moving faster would make it something less than care.
+
+[^c7-morley]: See Claire Morley, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman, “Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions,” *PLoS ONE* 13, no. 8 (2018): e0203316, on crowding’s association with poorer patient outcomes and delayed care.
 
 [^c7-hochschild]: See Arlie Russell Hochschild, *The Managed Heart: Commercialization of Human Feeling* (Berkeley: University of California Press, 1983).
 

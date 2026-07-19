@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 2**
 
 ## **We Did Not Agree to the Same Thing**

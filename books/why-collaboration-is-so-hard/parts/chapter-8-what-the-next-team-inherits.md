@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 8**
 
 ## **What the Next Team Inherits**

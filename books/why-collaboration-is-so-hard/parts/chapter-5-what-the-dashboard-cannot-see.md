@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 5**
 
 ## **What the Dashboard Cannot See**
@@ -62,7 +64,7 @@ A program director noticed that short workshops reached more people than longer 
 
 A coordinator learned that following one family through a complicated process might consume several days and still produce no completed outcome. Hosting a group session could add twenty-five people to the quarterly total.
 
-No one instructed her to choose the group session. The dashboard did not need to issue commands. It only needed to decide which contribution would be visible later. Measurement changes behavior even when nobody is trying to game it. The coordinator can still choose the slower case. She cannot choose it without feeling that the visible story of the quarter will make less room for her judgment. The measure enters judgment.
+No one instructed her to choose the group session. The dashboard did not need to issue commands. It only needed to decide which contribution would be visible later. Measurement changes behavior even when nobody is trying to game it.[^c5-muller] The coordinator can still choose the slower case. She cannot choose it without feeling that the visible story of the quarter will make less room for her judgment. The measure enters judgment.
 
 Sometimes that is the point. Organizations use measures to coordinate behavior because direct supervision cannot scale. A target tells thousands of people what the institution is trying to increase or reduce.
 
@@ -189,6 +191,8 @@ It becomes dangerous when it persuades us that the whole is what we can see.
 [^c5-scott]: See James C. Scott, *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed* (New Haven, CT: Yale University Press, 1998).
 
 [^c5-scott-compression]: See Scott, *Seeing Like a State*.
+
+[^c5-muller]: See Jerry Z. Muller, *The Tyranny of Metrics* (Princeton, NJ: Princeton University Press, 2018), on performance measurement redirecting effort toward what can be counted.
 
 [^c5-luhmann]: See Niklas Luhmann, *Trust and Power: Two Works*, trans. Howard Davis, John Raffan, and Kathryn Rooney (Chichester, UK: John Wiley & Sons, 1979).
 

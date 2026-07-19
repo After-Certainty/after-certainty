@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 6**
 
 ## **The Nodding Room**
@@ -92,7 +94,7 @@ The question can feel clarifying. Shared work needs people who will not sabotage
 
 Organizations often develop these judgments without naming them. They appear in performance conversations, succession discussions, invitations, and the tone with which someone’s future comments are received.
 
-Once a person has been categorized as resistant, even agreement can be interpreted suspiciously. Once someone has been categorized as aligned, their objections are treated as thoughtful nuance. The same sentence carries different weight depending on the story already attached to the speaker. This is why psychological safety cannot be reduced to whether people speak. A room may contain vigorous discussion and still control what criticism is allowed to mean: methods may be debated while the goal remains protected; uncertainty may be expressed after everyone is reassured that commitment is intact.
+Once a person has been categorized as resistant, even agreement can be interpreted suspiciously. Once someone has been categorized as aligned, their objections are treated as thoughtful nuance. The same sentence carries different weight depending on the story already attached to the speaker. This is why psychological safety cannot be reduced to whether people speak.[^c6-edmondson] A room may contain vigorous discussion and still control what criticism is allowed to mean: methods may be debated while the goal remains protected; uncertainty may be expressed after everyone is reassured that commitment is intact.
 
 Safety is not comfort, immunity from disagreement, or freedom from consequence. Harmful behavior should be challenged. Expertise should matter. Endless cynicism can drain a group’s ability to act. But safety does mean the ability to contribute honest judgment without the judgment automatically becoming a verdict on belonging. Some of the most useful contributions arrive in forms that are difficult to welcome.
 
@@ -173,5 +175,7 @@ It is the room where a person can remain part of the work after they stop.
 [^c6-hirschman]: See Albert O. Hirschman, *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States* (Cambridge, MA: Harvard University Press, 1970).
 
 [^c6-hirschman-silence]: See Hirschman, *Exit, Voice, and Loyalty*.
+
+[^c6-edmondson]: See Amy Edmondson, “Psychological Safety and Learning Behavior in Work Teams,” *Administrative Science Quarterly* 44, no. 2 (1999): 350–83.
 
 [^c6-sennett]: See Richard Sennett, *Together: The Rituals, Pleasures and Politics of Cooperation* (New Haven, CT: Yale University Press, 2012).

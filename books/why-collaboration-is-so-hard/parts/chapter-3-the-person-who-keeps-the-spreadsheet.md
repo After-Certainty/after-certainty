@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 3**
 
 ## **The Person Who Keeps the Spreadsheet**
