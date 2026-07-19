@@ -11,7 +11,7 @@ Recognition pass complete. Experience deepening complete for Introduction, Chapt
 | Edition | Status |
 |---------|--------|
 | Essay (~12–15k), 4 parts / 14 chapters | **Archived** — [`research/source-edition/`](research/source-edition/) |
-| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — experience deepening in progress |
+| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — experience deepening complete (pending author review of Conclusion) |
 
 ## Manuscript hub
 
