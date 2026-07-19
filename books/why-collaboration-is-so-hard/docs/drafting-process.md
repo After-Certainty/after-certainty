@@ -2,18 +2,32 @@
 
 ## Key references
 
-- `docs/book-rules.md` (thesis and front-matter sequence)
+- `docs/book-rules.md` (recognition rewrite contract)
+- `docs/outline.md` (unit cards and source map)
 - `docs/status.md`
+- `docs/agents/README.md` (recognition skills vs archived essay agents)
+- `docs/research/source-edition/` (archived essay edition)
 - `index.md`
 
-## Branch naming
+## Current phase
 
-- `books/why-collaboration-is-so-hard` (promoted May 2026)
+**Experience deepening and citation pass complete** → author review; glossary vocabulary strategy still deferred.
 
-## Current starting phase
+Recommended order for further revision: Introduction through Conclusion in reading order.
 
-**Phase 1 — Outline to prose** — front matter first, then Part I.
+## After prose lands
 
-Recommended order: Core Reframe → What This Book Is → Organizing Question → Ch 1–2.
+Run recognition revision skills on each unit:
 
-See [upcoming/docs/_templates/drafting-process.md.template](../../docs/_templates/drafting-process.md.template).
+1. Essay discovery — delay thesis; discovered not announced
+2. Curiosity expansion — wander between question and answer
+3. Recognition preservation — protect pattern language; compress over-expansion
+4. Experience deepening — lived recognition before pattern
+5. Citation pass — Pandoc footnotes + Chicago bibliography (house style)
+
+See house template: [`upcoming/docs/_templates/drafting-process.md.template`](../../../upcoming/docs/_templates/drafting-process.md.template).
+
+## Do not
+
+- Run archived essay agents (`docs/research/source-edition/docs/agents/`) against the live spine
+- Restore Core Reframe / What This Book Is / Organizing Question / part bridges as live front matter

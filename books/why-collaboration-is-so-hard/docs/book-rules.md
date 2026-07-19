@@ -2,39 +2,70 @@
 
 ## Purpose
 
-Architectural constraints for **Why Collaboration Is So Hard** (*And why the effort still matters*).
+Architectural constraints for **Why Collaboration Is So Hard** (*And Why the Effort Still Matters*).
 
-## Thesis and tone (author notes)
+## Rewrite contract (recognition-first)
 
-The structure should:
+The essay edition completed its analytical work. Ideas are strong and must be preserved. Structure is not sacred.
 
-- Acknowledge practical collaboration traditions and stabilizing practices.
-- Avoid managerial optimism while preserving diagnostic style and emotional center.
+This book must **not** read as a structural monograph (define → distinguish → explain → exemplify → summarize → transition).
 
-**Core reframe:** Collaboration is not hard because people fail. It is intrinsically difficult because humans attempt shared orientation under uncertainty, uneven visibility, asymmetric risk, and incomplete control.
+It must follow the recognition movement used in books such as *Everyone Knows Love*, *Learning to See*, *When Others Become Leaders*, and *The Economy We Don’t Experience*:
+
+1. Begin with an ordinary observation.
+2. Stay inside that observation long enough for tension to appear.
+3. Gradually widen into larger organizational and social patterns.
+4. Compress those observations into one memorable pattern.
+5. Return to the original observation so the reader now sees it differently.
+
+The reader should feel they are discovering the pattern alongside the author rather than attending a lecture about it.
+
+Canonical unit cards: [`outline.md`](outline.md).  
+Archived analytical edition: [`research/source-edition/`](research/source-edition/).
+
+## Emotional thesis
+
+Lead with human experience, not abstract taxonomy:
+
+> Collaboration asks us to keep contributing to work that none of us can fully see, fully control, or fully claim as our own.
+
+Everything else—uneven load, partial agreement, stabilizing rituals, measurement distortion, false consensus, mechanical speed, residue—should emerge from that observation.
+
+## Structural invariant (substance retained; naming delayed)
+
+The essay edition’s invariant remains true in substance:
+
+> Collaboration is structurally unstable under uneven contribution and visibility and incomplete control—stabilizing practices help but do not remove the difficulty; the effort still matters.
+
+Do **not** open chapters by naming contribution asymmetry, partial coherence, structural fragility, diffuse ownership, legibility, or interpretive flexibility. Let readers experience those conditions first. Some terms may never need explicit names in the prose.
 
 ## Book scope and structure
 
+### Spine
+
+- Introduction + **8 narrative chapters** + Conclusion
+- No part bridges
+- No Core Reframe / What This Book Is / Organizing Question trio (substance folded into Introduction and early chapters)
+
 ### Target length
 
-- Full book (~70–90k words at completion; current scaffold ~1.0k)
-- 4 parts, 14 chapters, extended front matter (Core Reframe, What This Book Is, Organizing Question)
+- Recognition rewrite will find its natural length in drafting; do not force the former 14-chapter essay shape or the 70–90k full-book target until the new spine is written.
 
-### Front matter role
+### Returning images
 
-- **Core Reframe** and **Organizing Question** must land the thesis before Part I.
-- Expand front matter to full prose before Part I chapter expansion.
+Every chapter begins and ends with the same ordinary image. By the end the image means something different. Do not merely summarize—transform perception.
 
-## Core invariant (non-negotiable)
+### Introduction pacing
 
-> Collaboration is structurally unstable under contribution asymmetry, uneven visibility, and incomplete control—stabilizing practices help but do not remove the difficulty; the effort still matters.
+The Introduction must wander into the subject through an ordinary moment before revealing what the book is about. Do not make the opening paragraphs “about collaboration.” Let the meeting (or equivalent scene) carry recognition first; name the difficulty only after the reader has lived the mismatch. Prefer a governing curiosity close over a framework promise.
 
-## Thematic arc by part
+## Voice
 
-- **Part I — Contribution:** Ownership, instability, alignment without full understanding, uneven contribution.
-- **Part II — Stabilizing Collaboration:** Structures, legibility, trust, stable collaboration.
-- **Part III — When Collaboration Collapses:** Clarity as control, efficiency as coercion, disagreement as threat, residue.
-- **Part IV — Seeing Collaboration More Clearly:** Diagnostic lenses, fragility is not failure, why effort matters.
+- Closer to Rebecca Solnit than to an academic text
+- Long flowing paragraphs; sparse headings
+- Scenes over definitions; curiosity over declaration
+- Assume an intelligent reader; never talk down
+- Dramatically reduce “This chapter demonstrated…”, “The next chapter examines…”, “This section established…”
 
 ## Tone and positioning
 
@@ -43,18 +74,35 @@ The structure should:
 - “Collaboration fails because people fail”
 - Team-building optimism or agile cheerleading
 - Blame-the-individual HR framing
+- A framework product with named mechanisms as chapter titles
 
 ### This book must be
 
 - Respectful of stabilizing practices without pretending they erase difficulty
-- Emotionally grounded and structurally diagnostic
+- Emotionally grounded; structurally insightful without lecturing
 - Clear that fragility is not moral failure
+- Aimed at recognition: *I’ve lived this; now I have language for why*
 
-## Outline-stage rules
+## Citation and bibliography
 
-Chapters are bullet scaffolds with “Core idea” lines. Expand one part at a time; use Part I to lock voice.
+- Use Pandoc footnotes (`[^id]`) with chapter-scoped IDs (e.g. `[^c3-hochschild]`, `[^intro-weick]`).
+- Place markers after punctuation at structural pivots and lineage claims—not every paragraph, and not inside the opening beat of a scene.
+- Prefer “See Author, *Title*…” note style (Chicago notes-and-bibliography).
+- Maintain `back-matter/bibliography.md` with Chicago bibliography entries; every work cited in footnotes must appear there.
+- Do not fabricate sources; prefer the established collaboration-studies set and verified additions only.
+- Target light density for recognition prose (roughly 2–4 notes per chapter-scale unit).
+
+## Drafting rules
+
+- Existing manuscript = **source material**, not the structure
+- Expand anchor stories (theater, meetings, spreadsheet, safety ritual, dashboards, ED, residue); stay inside them longer
+- Author drafts land one unit at a time; revision agents (essay discovery, curiosity, recognition preservation) run **after** prose exists—not on beat-sheet stubs
+- Glossary/semantic renaming deferred until drafted chapters show which terms still earn names (essay glossary archived under `docs/research/source-edition/back-matter/glossary.md`; not in the live TOC)
 
 ## Key docs
 
+- `docs/outline.md`
 - `docs/drafting-process.md`
 - `docs/status.md`
+- `docs/agents/README.md`
+- `docs/research/source-edition/`

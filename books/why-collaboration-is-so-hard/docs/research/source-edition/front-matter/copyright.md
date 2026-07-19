@@ -1,12 +1,10 @@
-\newpage
-
 # Copyright
 
 Copyright © 2026 Kevin Steffensen.
 
 **Why Collaboration Is So Hard**
 
-*And Why the Effort Still Matters*
+*And why the effort still matters*
 
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license (CC BY-SA 4.0).
 

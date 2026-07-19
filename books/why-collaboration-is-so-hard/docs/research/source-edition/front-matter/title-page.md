@@ -4,6 +4,6 @@
 
 # **Why Collaboration Is So Hard**
 
-## **And Why the Effort Still Matters**
+## **And why the effort still matters**
 
 **Kevin Steffensen**
