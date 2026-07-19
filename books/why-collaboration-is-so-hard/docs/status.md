@@ -2,46 +2,49 @@
 
 ## Current phase
 
-**Phase 3 — Experience deepening (July 2026)**
-
-Recognition pass complete. Experience deepening complete for Introduction, Chapters 1–8, and light Conclusion touch. Citation/bibliography pass complete (Pandoc footnotes + Chicago bibliography).
+**Recognition rewrite active** — experience deepening and citation pass complete; essay-edition residue cleaned from the live tree (July 2026).
 
 ## Edition decision
 
 | Edition | Status |
 |---------|--------|
 | Essay (~12–15k), 4 parts / 14 chapters | **Archived** — [`research/source-edition/`](research/source-edition/) |
-| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — experience deepening + citation pass complete (pending author review) |
+| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** |
 
 ## Manuscript hub
 
-[`index.md`](../index.md) · Outline [`outline.md`](outline.md) · Rules [`book-rules.md`](book-rules.md)
+[`index.md`](../index.md) · Outline [`outline.md`](outline.md) · Rules [`book-rules.md`](book-rules.md) · Agents [`agents/README.md`](agents/README.md)
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — The Meeting Everyone Remembered Differently | Experience deepening | Authorship-story + separate-problems reversals; +~220 words; governing close intact |
-| Ch 1 — The Show That Opens Friday | Experience deepening | Blame/communication, ego/orientation, selfishness/control reversals; ending intact |
-| Ch 2 — We Did Not Agree to the Same Thing | Experience deepening | Character-story, alignment-cure, “we already decided” reversals; ending intact |
-| Ch 3 — The Person Who Keeps the Spreadsheet | Experience deepening | Personality/queue, resistance/map, praise-without-redistribution reversals; ending couplet intact |
-| Ch 4 — The Ritual Before the Lift | Experience deepening | Ritual-as-distrust, more-structure-as-proof, open-culture/sequence reversals; ending intact |
-| Ch 5 — What the Dashboard Cannot See | Experience deepening | Green-as-closure, metrics-as-trust-repair, silence-as-alignment reversals; ending intact |
-| Ch 6 — The Nodding Room | Experience deepening | Green-as-proof, “everyone supported this,” belonging-as-alignment reversals; ending intact |
-| Ch 7 — Faster Than Care Can Move | Experience deepening | Throughput-as-success, resilience-as-extraction, slow-as-character reversals; ending intact |
-| Ch 8 — What the Next Team Inherits | Experience deepening | Contained-failure, cynicism-as-character, fresh-start reversals; ending intact |
-| Conclusion — The Show Opens Anyway | Experience deepening | Light touch: finished-thing-as-ease, cure-list incomplete; ending intact |
-| Glossary | Held | From essay edition; redesign deferred |
-| Bibliography | Citation pass | Pandoc footnotes + Chicago list synced to recognition spine; essay-edition sources retained |
+| Introduction — The Meeting Everyone Remembered Differently | Experience deepening + citations | Governing close intact |
+| Ch 1 — The Show That Opens Friday | Experience deepening + citations | Ending intact |
+| Ch 2 — We Did Not Agree to the Same Thing | Experience deepening + citations | Ending intact |
+| Ch 3 — The Person Who Keeps the Spreadsheet | Experience deepening + citations | Ending couplet intact |
+| Ch 4 — The Ritual Before the Lift | Experience deepening + citations | Ending intact |
+| Ch 5 — What the Dashboard Cannot See | Experience deepening + citations | Ending intact |
+| Ch 6 — The Nodding Room | Experience deepening + citations | Ending intact |
+| Ch 7 — Faster Than Care Can Move | Experience deepening + citations | Ending intact |
+| Ch 8 — What the Next Team Inherits | Experience deepening + citations | Ending intact |
+| Conclusion — The Show Opens Anyway | Experience deepening (light) + citations | Ending intact |
+| Glossary | Deferred | Essay glossary archived under source-edition; redesign later if terms earn names |
+| Bibliography | Active | Chicago list synced to Pandoc footnotes |
 
-## Agent pipeline
+## Residue cleanup (July 2026)
 
-Essay-edition agents under [`docs/agents/`](agents/) applied to the archived monograph. For the recognition rewrite, use After Certainty recognition skills (essay discovery → curiosity → recognition preservation → experience deepening) **after** author prose lands—not on stubs.
+Moved out of the live book tree into [`research/source-edition/`](research/source-edition/):
+
+- Essay agent pipeline (`docs/agents/` → `source-edition/docs/agents/`)
+- Part I author gate
+- Stale `semantic-reports/` (paths pointed at deleted essay chapters)
+- Empty part coherence stubs; live essay glossary; `.gitkeep`
 
 ## Next actions
 
-1. Author review of citation/bibliography pass.
-2. Revisit glossary vocabulary strategy.
+1. Author review of citation pass and residue cleanup.
+2. Glossary vocabulary strategy when (if) terms earn names in prose.
 3. Build smoke test when ready: `make build-book DIR=books/why-collaboration-is-so-hard`.
 
 ## Open decisions / resolved
@@ -49,3 +52,4 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 - **Structure:** Recognition spine replaces 14-chapter / 4-part essay (resolved in outline).
 - **Source preservation:** Full essay edition under `docs/research/source-edition/` (resolved).
 - **Framework naming:** Experience before vocabulary; some terms may never be named in prose (resolved as rule).
+- **Live glossary:** Removed from TOC until redesigned (resolved in residue cleanup).

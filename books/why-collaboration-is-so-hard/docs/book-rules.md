@@ -97,11 +97,12 @@ The Introduction must wander into the subject through an ordinary moment before 
 - Existing manuscript = **source material**, not the structure
 - Expand anchor stories (theater, meetings, spreadsheet, safety ritual, dashboards, ED, residue); stay inside them longer
 - Author drafts land one unit at a time; revision agents (essay discovery, curiosity, recognition preservation) run **after** prose exists—not on beat-sheet stubs
-- Glossary/semantic renaming deferred until drafted chapters show which terms still earn names
+- Glossary/semantic renaming deferred until drafted chapters show which terms still earn names (essay glossary archived under `docs/research/source-edition/back-matter/glossary.md`; not in the live TOC)
 
 ## Key docs
 
 - `docs/outline.md`
 - `docs/drafting-process.md`
 - `docs/status.md`
+- `docs/agents/README.md`
 - `docs/research/source-edition/`

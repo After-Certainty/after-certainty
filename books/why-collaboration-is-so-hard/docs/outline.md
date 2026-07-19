@@ -6,6 +6,8 @@ Governing docs: [`book-rules.md`](book-rules.md) · [`status.md`](status.md) · 
 
 Source edition (essay archive): [`research/source-edition/`](research/source-edition/)
 
+This file remains a **planning** document (including the essay → rewrite source map). It is not part of the published reading order.
+
 ---
 
 ## Book movement
