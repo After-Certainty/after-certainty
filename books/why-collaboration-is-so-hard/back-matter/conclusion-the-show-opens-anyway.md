@@ -26,6 +26,14 @@ A community keeps a promise imperfectly.
 
 The outcome looks more coherent than the work ever felt.
 
+From outside, the finished thing can feel like proof that the hard part is over. The show opened. The project launched. People can leave knowing the work held.
+
+That comfort is real.
+
+It can also be too quick.
+
+The audience sees a whole because someone absorbed the unfinished part of everyone else’s contribution. What looks easy from the seats may still be the week that almost did not become Friday.
+
 This can make collaboration seem easier than it is. We remember the result and forget the incomplete understandings, uneven burdens, awkward pauses, inherited fears, and small acts of translation that allowed people to continue.
 
 No one held the whole.
@@ -51,6 +59,14 @@ The answer is not perfect agreement.
 It is not total visibility.
 
 It is not another process that promises to remove uncertainty.
+
+Those answers can feel clarifying. Align completely. Measure everything. Install a better process. The difficulty disappears into competence.
+
+That reading is available.
+
+It may also ask for a condition collaboration rarely provides.
+
+Uncertainty does not leave. The work is to give it somewhere to go without pretending it has already gone.
 
 It is enough structure for uncertainty to speak.
 
