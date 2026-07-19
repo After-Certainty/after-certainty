@@ -112,6 +112,14 @@ Patients were evaluated sooner. Some unnecessary waits disappeared. Tests were o
 
 The initiative worked.
 
+The improved numbers can feel like the end of the story. Crowding eased. Patients moved sooner. Leaders can report that the department took waiting seriously.
+
+That comfort is real.
+
+It can also be too quick.
+
+A shorter stay can mean waste removed. It can also mean a conversation shortened, a consultation deferred, or a family’s unease filed as something the pathway does not need to hold. The dashboard records the minutes that disappeared. It does not record what the minutes were doing.
+
 It also changed what staff noticed about themselves.
 
 A nurse lingered in a room to help a family understand the difference between two medications and felt the red row on the board growing redder.
@@ -340,21 +348,13 @@ These statements may be true.
 
 They can also hide extraction.
 
-A system can improve its visible performance by consuming invisible capacity.
+From outside, the adaptation can look like strength. People stayed late. They covered the gaps. The metric still improved. Leadership can point to the team and say the system held.
 
-The nurse skips a break.
+That reading restores confidence quickly.
 
-The engineer answers messages at night.
+It may also be incomplete.
 
-The teacher buys supplies.
-
-The program coordinator repairs the relationship after the official meeting damaged it.
-
-The family member becomes the unpaid navigator of a fragmented care system.
-
-The metric records the outcome.
-
-The human body records the cost.
+A system can improve its visible performance by consuming invisible capacity. The nurse skips a break. The engineer answers messages at night. The teacher buys supplies. The program coordinator repairs the relationship after the official meeting damaged it. The family member becomes the unpaid navigator of a fragmented care system. The metric records the outcome. The human body records the cost. What looks like resilience may be the moment when excess has moved into people.
 
 This is one reason speed pressure feels different from an ordinary deadline.
 
@@ -377,6 +377,12 @@ Why does this case require special treatment?
 Why can everyone else meet the standard?
 
 The language shifts attention away from what the work requires and toward whether the person is sufficiently willing.
+
+From outside, the sorting can look obvious. Fast people care. Slow people protect themselves. One is committed. The other is a bottleneck. The explanation restores moral clarity quickly.
+
+It may also be incomplete.
+
+The person asking for more time may be carrying the return visit the last quick discharge produced, the failure mode that only appears after launch, or the family detail that does not fit the checkbox. What looks like a difference in willingness may still be a difference in what each person cannot afford to leave unseen.
 
 This can happen even in organizations filled with caring people.
 

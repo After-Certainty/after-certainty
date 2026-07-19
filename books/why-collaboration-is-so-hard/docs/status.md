@@ -40,7 +40,7 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Author review of Chapter 6 experience deepening; then deepen Chapter 7.
+1. Author review of Chapter 7 experience deepening; then deepen Chapter 8.
 2. Revisit glossary vocabulary strategy after deepening pass.
 3. Build smoke test when ready: `make build-book DIR=books/why-collaboration-is-so-hard`.
 
