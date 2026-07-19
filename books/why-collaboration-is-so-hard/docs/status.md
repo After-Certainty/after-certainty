@@ -11,7 +11,7 @@ Recognition pass complete. Experience deepening running one unit at a time with 
 | Edition | Status |
 |---------|--------|
 | Essay (~12–15k), 4 parts / 14 chapters | **Archived** — [`research/source-edition/`](research/source-edition/) |
-| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — author drafts + recognition pass |
+| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — experience deepening in progress |
 
 ## Manuscript hub
 
@@ -21,7 +21,7 @@ Recognition pass complete. Experience deepening running one unit at a time with 
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — The Meeting Everyone Remembered Differently | Recognition pass | Kept as-is; scene before subject; governing close intact |
+| Introduction — The Meeting Everyone Remembered Differently | Experience deepening | Authorship-story + separate-problems reversals; +~220 words; governing close intact |
 | Ch 1 — The Show That Opens Friday | Recognition pass | Kept as-is; ending surrender compression intact |
 | Ch 2 — We Did Not Agree to the Same Thing | Recognition pass | Light compress: Q-stacks, agreement taxonomy, constraints list |
 | Ch 3 — The Person Who Keeps the Spreadsheet | Recognition pass | Light compress: domain parade, exception litany, identity/how-to |
@@ -40,8 +40,8 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Optional experience-deepening or second echo pass if author requests.
-2. Revisit glossary vocabulary strategy now that patterns have been lived in prose.
+1. Author review of Introduction experience deepening; then deepen Chapter 1.
+2. Revisit glossary vocabulary strategy after deepening pass.
 3. Build smoke test when ready: `make build-book DIR=books/why-collaboration-is-so-hard`.
 
 ## Open decisions / resolved
