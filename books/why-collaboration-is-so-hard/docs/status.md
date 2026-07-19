@@ -23,7 +23,7 @@ Recognition pass complete. Experience deepening running one unit at a time with 
 |------|-------|-------|
 | Introduction — The Meeting Everyone Remembered Differently | Experience deepening | Authorship-story + separate-problems reversals; +~220 words; governing close intact |
 | Ch 1 — The Show That Opens Friday | Experience deepening | Blame/communication, ego/orientation, selfishness/control reversals; ending intact |
-| Ch 2 — We Did Not Agree to the Same Thing | Recognition pass | Light compress: Q-stacks, agreement taxonomy, constraints list |
+| Ch 2 — We Did Not Agree to the Same Thing | Experience deepening | Character-story, alignment-cure, “we already decided” reversals; ending intact |
 | Ch 3 — The Person Who Keeps the Spreadsheet | Recognition pass | Light compress: domain parade, exception litany, identity/how-to |
 | Ch 4 — The Ritual Before the Lift | Recognition pass | Light compress: facilitator scripts, docs pedagogy, constraint Qs |
 | Ch 5 — What the Dashboard Cannot See | Recognition pass | Light compress: Ch3 invisible-labor re-lecture trimmed |
