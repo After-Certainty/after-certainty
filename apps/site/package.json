@@ -48,7 +48,7 @@
     "react-dom": "19.2.7",
     "remark-gfm": "^4.0.1",
     "rss-parser": "^3.13.0",
-    "zod": "^3.25.76",
+    "zod": "^4.4.3",
     "zustand": "^5.0.14"
   },
   "devDependencies": {
