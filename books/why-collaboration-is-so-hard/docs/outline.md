@@ -104,14 +104,16 @@ Readers should experience collaboration before they receive language for it.
 
 ## Chapter 4 — The Ritual Before the Lift
 
-- **Opening object/image:** Construction safety briefing; checklists; turn-taking; documentation.
+**Status:** Author draft landed (`parts/chapter-4-the-ritual-before-the-lift.md`).
+
+- **Opening object/image:** Crane crew at 6:40; briefing; delivery truck; six-minute delay that matters.
 - **Guiding question:** What do small rituals actually do when they cannot remove danger?
-- **Initial mystery:** Briefings feel bureaucratic until the alternative—unheld uncertainty—becomes visible.
-- **Associative widenings:** Facilitation; retrospectives; call sheets; protocols that stabilize without pretending certainty; trust that accumulates through repeated practice.
-- **Ideas to preserve:** Stabilizing practices; legibility as aid (not yet its failure modes); stable collaboration as continued contribution under uncertainty.
-- **Late pattern:** Good collaboration does not eliminate uncertainty. It gives uncertainty somewhere to go.
-- **Ending image:** The pause before the lift—voices checked, load known enough to proceed.
-- **Cautions:** Do not sell rituals as cure. Respect practices without managerial optimism.
+- **Initial mystery:** Experts already know the lift—why repeat the questions? Reality changes; rituals make interruption available.
+- **Associative widenings:** Surgical pause; theater call; family thread; software standup; turn-taking vs open rooms; facilitation as real work; documentation that preserves judgment; firm vs provisional constraints; scaffolding and trust.
+- **Ideas to preserve:** Structure makes present knowledge speakable; same form can host or conceal collaboration; speech→consequence keeps ritual alive; structure cannot substitute for moral judgment; revision made normal.
+- **Late pattern / compression:** The lift did not become safe because uncertainty disappeared. It became safer because uncertainty had somewhere to go.
+- **Ending image:** Load hangs, imbalance visible while consequences are cheap; partial views connected by structure; lift proceeds.
+- **Cautions:** Do not sell rituals as cure. Do not treat all process as bureaucracy. Distinguish alive ritual from performance.
 - **Primary source units:**
   - `research/source-edition/parts/part-2-stabilizing-collaboration/chapter-5-the-structures-that-hold-collaboration-together.md`
   - `research/source-edition/parts/part-2-stabilizing-collaboration/chapter-6-legibility-and-trust.md` *(stabilizing face only; dashboard failure → Ch 5)*
