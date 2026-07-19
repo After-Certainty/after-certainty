@@ -69,14 +69,16 @@ Readers should experience collaboration before they receive language for it.
 
 ## Chapter 2 — We Did Not Agree to the Same Thing
 
-- **Opening object/image:** Engineering meetings; transit planning; library examples—people believing different work is happening.
-- **Guiding question:** How do groups move when full consensus never arrives?
-- **Initial mystery:** Progress continues even while private maps of the project diverge.
-- **Associative widenings:** Translators between vocabularies; “ready” meaning three different things; surgical/anesthesia compatibility without identical theories; stalled rooms that demand theatrical agreement.
-- **Ideas to preserve:** Partial coherence lived first; enough agreement for the next step; collaboration without perfect consensus; honest confusion as cheap correction.
-- **Late pattern:** Groups need overlapping enough understanding to take the next step—not identical minds.
-- **Ending image:** Return to the meeting where two people leave with different plans and still manage a usable Monday.
-- **Cautions:** Do not open with the phrase *partial coherence*. Let recognition precede vocabulary (or skip the label).
+**Status:** Author draft landed (`parts/chapter-2-we-did-not-agree-to-the-same-thing.md`).
+
+- **Opening object/image:** Meeting ends 10:47; by 10:56 two engineers are following different meetings.
+- **Guiding question:** How do groups move when full consensus never arrives—and words already hide different worlds?
+- **Initial mystery:** Neither person invented the manager’s sentences; disagreement begins as selective memory of the same conversation.
+- **Associative widenings:** Library children’s room; housing cooperative “we need bids”; transit July 1 clocks; surgeon/anesthesiologist compatibility; performed understanding; preserved dissent; visible vs protected constraints; translation work.
+- **Ideas to preserve:** Movement reveals missing agreement; responsibility mistaken for commitment/character; enough shared movement for the next contribution; temporary bridges that harden; documenting uncertainty; distinguishing understand/agree/proceed/legitimate/support.
+- **Late pattern / compression:** Not one mind—a temporary place where different understandings can move together without pretending they have become one. (*Partial coherence* lived; never named as framework term.)
+- **Ending image:** 1:30 call; two note sentences on screen; a provisional next-step sentence that reopens at 3:00 tomorrow.
+- **Cautions:** Do not open with *partial coherence*. Do not demand complete mental models as the cure. Keep dangerous vs tolerable misunderstanding distinct.
 - **Primary source units:**
   - `research/source-edition/parts/part-1-contribution/chapter-3-alignment-without-full-understanding.md`
   - `research/source-edition/parts/part-1-contribution/chapter-2-why-shared-work-feels-unstable.md`
