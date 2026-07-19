@@ -78,6 +78,14 @@ We like knowing who deserves the credit.
 
 We like knowing who is responsible when something goes wrong.
 
+You can see the preference at the end of almost any shared effort. Someone asks whose vision it was. A name is offered. The room relaxes. The story now has a center.
+
+That explanation often feels complete enough to end the conversation.
+
+Perhaps.
+
+But it may be answering a different question from the one the work actually posed. The named person may have protected the project, started it, or made the decision that allowed it to continue. What the clean story cannot carry is the sequence of revisions, warnings, temporary fixes, and late-night judgments that never fit on a slide. Credit still matters. So does the quieter fact that the finished thing no longer belongs cleanly to anyone who can stand beside it.
+
 Collaboration slowly dissolves those comforts.
 
 A great theatrical production belongs to hundreds of people.
@@ -106,7 +114,13 @@ A meeting where everyone agrees somehow leaves people with different understandi
 
 An organization becomes efficient but somehow less capable of noticing when something important is changing.
 
-We usually treat these as separate management problems.
+We usually treat these as separate management problems. One looks like uneven workload. Another looks like bureaucracy. Another looks like a communication failure. Another looks like optimization gone too far. Each arrives with its own diagnosis, its own owner, and its own temporary fix.
+
+That sorting can be useful.
+
+It can also be too quick.
+
+It lets us treat each frustration as a local defect in an otherwise sound arrangement—something to train away, process away, or staff away—when the same pressure may be returning in different clothes: the pressure of making something together while no one can fully see, control, or claim what is being made.
 
 This book argues they are different expressions of the same human condition.
 

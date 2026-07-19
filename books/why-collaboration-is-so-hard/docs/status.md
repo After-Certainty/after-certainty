@@ -2,9 +2,9 @@
 
 ## Current phase
 
-**Phase 2 — Recognition / echo pass (July 2026)**
+**Phase 3 — Experience deepening (July 2026)**
 
-Author drafts complete. Manuscript-wide recognition pass applied: protect ending compressions; surgical mid-chapter compress of decorative restatement, how-to scaffolds, and cross-chapter lecture echo. Intro, Ch 1, and Conclusion kept as-is.
+Recognition pass complete. Experience deepening running one unit at a time with author review between units. Introduction deepened; Chapters 1–8 pending.
 
 ## Edition decision
 
