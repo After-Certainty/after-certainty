@@ -36,7 +36,7 @@ The ritual had done its work.
 
 It had created a moment in which a small change could become visible before the change became dangerous.
 
-That may be the simplest purpose of a good collaborative structure. It gives people somewhere to place what they know before the work moves beyond their ability to stop it.
+That may be the simplest purpose of a good collaborative structure. It gives people somewhere to place what they know before the work moves beyond their ability to stop it.[^c4-sennett]
 
 We often imagine that capable people should not need rituals.
 
@@ -378,11 +378,11 @@ It is what kind of coordination the structure is helping the group sustain.
 
 For now, though, it is worth resisting the opposite mistake: treating all process as bureaucracy and all structure as evidence that people no longer trust one another.
 
-Trust does not remove the need for scaffolding.
+Trust does not remove the need for scaffolding.[^c4-luhmann]
 
 Sometimes trust is what scaffolding allows people to build.
 
-A musician in an ensemble trusts the count-in because it gives everyone a shared beginning. A family trusts the medication chart because memory is tired and the consequences of duplication are real. A flight crew trusts the checklist because experience has taught the industry that confidence cannot reliably detect its own omissions.
+A musician in an ensemble trusts the count-in because it gives everyone a shared beginning. A family trusts the medication chart because memory is tired and the consequences of duplication are real. A flight crew trusts the checklist because experience has taught the industry that confidence cannot reliably detect its own omissions.[^c4-weick]
 
 The structure does not insult expertise.
 
@@ -473,3 +473,9 @@ A gesture traveled from the ground to the operator. A pause traveled back throug
 The lift did not become safe because uncertainty disappeared.
 
 It became safer because uncertainty had somewhere to go.
+
+[^c4-sennett]: See Richard Sennett, *Together: The Rituals, Pleasures and Politics of Cooperation* (New Haven, CT: Yale University Press, 2012).
+
+[^c4-luhmann]: See Niklas Luhmann, *Trust and Power: Two Works*, trans. Howard Davis, John Raffan, and Kathryn Rooney (Chichester, UK: John Wiley & Sons, 1979).
+
+[^c4-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).

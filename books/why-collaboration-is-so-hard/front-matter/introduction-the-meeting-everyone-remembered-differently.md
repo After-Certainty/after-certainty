@@ -22,7 +22,7 @@ No one had ignored the conversation.
 
 No one had left intending to create confusion.
 
-And yet, somehow, five people had walked out of the same room carrying five different meetings with them.
+And yet, somehow, five people had walked out of the same room carrying five different meetings with them.[^intro-weick]
 
 Most of us have experienced something like this.
 
@@ -40,7 +40,7 @@ Maybe nobody takes notes.
 
 Occasionally those explanations are right.
 
-There are careless people. There are manipulative people. There are leaders who confuse speaking with listening, and organizations that mistake agreement for understanding.
+There are careless people. There are manipulative people. There are leaders who confuse speaking with listening, and organizations that mistake agreement for understanding.[^intro-march-simon]
 
 But there is another possibility that interests me more.
 
@@ -66,7 +66,7 @@ The more people contribute, the less any individual controls the final result.
 
 The more knowledge is required, the more everyone must depend on judgments they cannot personally verify.
 
-Strangely, collaboration often succeeds not by removing uncertainty but by asking people to continue working in the middle of it.
+Strangely, collaboration often succeeds not by removing uncertainty but by asking people to continue working in the middle of it.[^intro-luhmann]
 
 That is a difficult thing to do.
 
@@ -135,3 +135,9 @@ The remarkable thing is not that collaboration sometimes fails.
 The remarkable thing is that it works as often as it does.
 
 The rest of this book is an attempt to understand why.
+
+[^intro-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+
+[^intro-march-simon]: See James G. March and Herbert A. Simon, *Organizations* (New York: Wiley, 1958).
+
+[^intro-luhmann]: See Niklas Luhmann, *Trust and Power: Two Works*, trans. Howard Davis, John Raffan, and Kathryn Rooney (Chichester, UK: John Wiley & Sons, 1979).

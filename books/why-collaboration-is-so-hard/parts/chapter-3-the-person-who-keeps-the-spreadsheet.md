@@ -102,7 +102,7 @@ None of these actions looks like the project.
 
 They are what keep the project from repeatedly forgetting itself.
 
-Every collaboration produces this surrounding work: the work that keeps the visible work possible. A community theater needs actors and lights—and someone who knows that a volunteer’s child must be picked up by nine, that one costume cannot go through the washing machine, and that the landlord complained the last time equipment blocked the rear exit. The same surrounding work appears wherever visible tasks depend on unassigned memory: a software team remembering why an odd safeguard exists, a family tracking which sibling has already been called and what the doctor actually said.
+Every collaboration produces this surrounding work: the work that keeps the visible work possible.[^c3-star-strauss] A community theater needs actors and lights—and someone who knows that a volunteer’s child must be picked up by nine, that one costume cannot go through the washing machine, and that the landlord complained the last time equipment blocked the rear exit. The same surrounding work appears wherever visible tasks depend on unassigned memory: a software team remembering why an odd safeguard exists, a family tracking which sibling has already been called and what the doctor actually said.
 
 The surrounding work is not separate from collaboration.
 
@@ -170,7 +170,7 @@ The group experiences the withdrawal as a change in attitude.
 
 The person experiences it as the first boundary anyone has respected.
 
-This is especially difficult because the work of remembering is often mixed with care.
+This is especially difficult because the work of remembering is often mixed with care.[^c3-hochschild]
 
 The person who maintains the spreadsheet does not only preserve information. She considers how decisions will land on people who are not in the room. She notices that a change described as minor will eliminate an adjunct instructor’s expected income. She knows which colleague is caring for a sick parent and will struggle with an additional evening course. She understands that transfer students do not experience the curriculum as an elegant sequence but as a maze they are trying to cross before financial aid runs out.
 
@@ -212,7 +212,7 @@ The spreadsheet itself can become a form of control.
 
 Because the associate professor knows the dependencies, every proposal must pass through her interpretation. Because others rely on her, they stop developing their own understanding. What began as service can harden into a gate.
 
-This is another reason invisible work is difficult to discuss. Naming it should not place the person who performs it beyond question. The translator can distort. The maintainer can resist. The keeper of institutional memory can use complexity to protect status. People sometimes become indispensable because they have quietly prevented knowledge from becoming shared.
+This is another reason invisible work is difficult to discuss. Naming it should not place the person who performs it beyond question.[^c3-invisible] The translator can distort. The maintainer can resist. The keeper of institutional memory can use complexity to protect status. People sometimes become indispensable because they have quietly prevented knowledge from becoming shared.
 
 But dependency does not become healthy merely because the person carrying it is benevolent.
 
@@ -455,3 +455,9 @@ But a question that had always traveled toward one person now had more than one 
 Every successful collaboration asks someone to remember what others forget.
 
 The danger begins when everyone forgets to ask who is doing the remembering.
+
+[^c3-star-strauss]: See Susan Leigh Star and Anselm Strauss, "Layers of Silence, Arenas of Voice: The Ecology of Visible and Invisible Work," *Social Problems* 46, no. 3 (1999): 301–24.
+
+[^c3-hochschild]: See Arlie Russell Hochschild, *The Managed Heart: Commercialization of Human Feeling* (Berkeley: University of California Press, 1983).
+
+[^c3-invisible]: See Hochschild, *The Managed Heart*; Star and Strauss, "Layers of Silence, Arenas of Voice."

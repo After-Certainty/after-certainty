@@ -83,6 +83,15 @@ The Introduction must wander into the subject through an ordinary moment before 
 - Clear that fragility is not moral failure
 - Aimed at recognition: *I’ve lived this; now I have language for why*
 
+## Citation and bibliography
+
+- Use Pandoc footnotes (`[^id]`) with chapter-scoped IDs (e.g. `[^c3-hochschild]`, `[^intro-weick]`).
+- Place markers after punctuation at structural pivots and lineage claims—not every paragraph, and not inside the opening beat of a scene.
+- Prefer “See Author, *Title*…” note style (Chicago notes-and-bibliography).
+- Maintain `back-matter/bibliography.md` with Chicago bibliography entries; every work cited in footnotes must appear there.
+- Do not fabricate sources; prefer the established collaboration-studies set and verified additions only.
+- Target light density for recognition prose (roughly 2–4 notes per chapter-scale unit).
+
 ## Drafting rules
 
 - Existing manuscript = **source material**, not the structure

@@ -132,7 +132,7 @@ No one told them not to do these things.
 
 The system did not need to prohibit care.
 
-It only needed to make some forms of care appear as delay.
+It only needed to make some forms of care appear as delay.[^c7-hochschild]
 
 Once time becomes visible, slowness acquires moral meaning.
 
@@ -264,7 +264,7 @@ The form does not show that the patient has missed the last two because the clin
 
 The form is not wrong.
 
-It is too certain for the life it describes.
+It is too certain for the life it describes.[^c7-scott]
 
 Someone must absorb the uncertainty that does not fit.
 
@@ -438,7 +438,7 @@ People no longer offer everything they see.
 
 They offer what the system can receive.
 
-This is collaboration’s mechanical form: people remain coordinated while mutual updating declines.
+This is collaboration’s mechanical form: people remain coordinated while mutual updating declines.[^c7-weick]
 
 The parts move.
 
@@ -747,3 +747,9 @@ The answer is to remember what the clock cannot know.
 A system can measure how long care takes.
 
 Only people can decide when moving faster would make it something less than care.
+
+[^c7-hochschild]: See Arlie Russell Hochschild, *The Managed Heart: Commercialization of Human Feeling* (Berkeley: University of California Press, 1983).
+
+[^c7-scott]: See James C. Scott, *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed* (New Haven, CT: Yale University Press, 1998).
+
+[^c7-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).

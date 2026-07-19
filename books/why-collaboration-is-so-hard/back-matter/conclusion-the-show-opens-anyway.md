@@ -68,7 +68,7 @@ It may also ask for a condition collaboration rarely provides.
 
 Uncertainty does not leave. The work is to give it somewhere to go without pretending it has already gone.
 
-It is enough structure for uncertainty to speak.
+It is enough structure for uncertainty to speak.[^conc-ostrom]
 
 Enough trust for disagreement to remain inside the work.
 
@@ -94,4 +94,8 @@ Perhaps that is why the effort still matters.
 
 Not because collaboration finally gives us control.
 
-Because sometimes, after everyone has given up a small part of it, something appears that none of them could have made alone.
+Because sometimes, after everyone has given up a small part of it, something appears that none of them could have made alone.[^conc-sennett]
+
+[^conc-ostrom]: See Elinor Ostrom, *Governing the Commons: The Evolution of Institutions for Collective Action* (Cambridge: Cambridge University Press, 1990).
+
+[^conc-sennett]: See Richard Sennett, *Together: The Rituals, Pleasures and Politics of Cooperation* (New Haven, CT: Yale University Press, 2012).

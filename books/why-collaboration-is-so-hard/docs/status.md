@@ -4,14 +4,14 @@
 
 **Phase 3 — Experience deepening (July 2026)**
 
-Recognition pass complete. Experience deepening complete for Introduction, Chapters 1–8, and light Conclusion touch.
+Recognition pass complete. Experience deepening complete for Introduction, Chapters 1–8, and light Conclusion touch. Citation/bibliography pass complete (Pandoc footnotes + Chicago bibliography).
 
 ## Edition decision
 
 | Edition | Status |
 |---------|--------|
 | Essay (~12–15k), 4 parts / 14 chapters | **Archived** — [`research/source-edition/`](research/source-edition/) |
-| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — experience deepening complete (pending author review of Conclusion) |
+| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — experience deepening + citation pass complete (pending author review) |
 
 ## Manuscript hub
 
@@ -32,7 +32,7 @@ Recognition pass complete. Experience deepening complete for Introduction, Chapt
 | Ch 8 — What the Next Team Inherits | Experience deepening | Contained-failure, cynicism-as-character, fresh-start reversals; ending intact |
 | Conclusion — The Show Opens Anyway | Experience deepening | Light touch: finished-thing-as-ease, cure-list incomplete; ending intact |
 | Glossary | Held | From essay edition; redesign deferred |
-| Bibliography | Held | From essay edition; update with drafts |
+| Bibliography | Citation pass | Pandoc footnotes + Chicago list synced to recognition spine; essay-edition sources retained |
 
 ## Agent pipeline
 
@@ -40,8 +40,8 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Author review of Conclusion light deepening; Phase 3 complete pending feedback.
-2. Revisit glossary vocabulary strategy after deepening pass.
+1. Author review of citation/bibliography pass.
+2. Revisit glossary vocabulary strategy.
 3. Build smoke test when ready: `make build-book DIR=books/why-collaboration-is-so-hard`.
 
 ## Open decisions / resolved

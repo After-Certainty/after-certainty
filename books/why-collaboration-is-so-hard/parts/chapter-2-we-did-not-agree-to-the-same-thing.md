@@ -88,7 +88,7 @@ The person who slows the decision may care just as much as the person who pushes
 
 This is one reason disagreement often feels moral before it becomes explicit. Speed begins to sound like recklessness. Caution begins to sound like obstruction. Flexibility sounds like a lack of standards. Precision sounds like an unwillingness to compromise.
 
-A structural difference in responsibility becomes a story about character.
+A structural difference in responsibility becomes a story about character.[^c2-march-simon]
 
 From outside the exchange, the story can look obvious. One person wants to move. The other wants to stall. One cares about the work. The other cares about being right. That sorting restores moral clarity quickly. It may also be incomplete. The person pushing Friday may be carrying a customer already waiting. The person asking for failure modes may be carrying the outage that followed the last narrow launch. Neither is revealing their whole reason in the argument that is now available. What looks like a difference in character may still be a difference in what each person cannot afford to leave unseen.
 
@@ -110,7 +110,7 @@ That response is understandable.
 
 It can also ask for a condition collaboration rarely provides.
 
-Many shared efforts depend on people who will never hold identical pictures of the work—not because they refuse to listen, but because they are responsible for different failures. A surgeon and an anesthesiologist do not need identical understandings of pain. They need compatible understandings of what must happen for this patient, during this procedure, under these conditions.
+Many shared efforts depend on people who will never hold identical pictures of the work—not because they refuse to listen, but because they are responsible for different failures.[^c2-weick] A surgeon and an anesthesiologist do not need identical understandings of pain. They need compatible understandings of what must happen for this patient, during this procedure, under these conditions.
 
 A journalist and a photographer do not need to imagine the same story. They need to share enough constraints around accuracy, consent, scope, and deadline to publish work that does not betray either form.
 
@@ -176,7 +176,7 @@ A two-week experiment becomes an unstated strategy. A provisional exception beco
 
 Temporary agreements harden because revisiting them requires energy. The group remembers that it once agreed and forgets what kind of agreement it was.
 
-Later, someone objects and hears, “But we already decided this.” The sentence feels like history. It may be a compression of history. What was lived as “we can try this for now” has been filed as “everyone supported the direction.” The person who hesitates looks like they are reopening a settled matter. They may only be remembering the boundary the room no longer records.
+Later, someone objects and hears, “But we already decided this.” The sentence feels like history. It may be a compression of history.[^c2-weick-decision] What was lived as “we can try this for now” has been filed as “everyone supported the direction.” The person who hesitates looks like they are reopening a settled matter. They may only be remembering the boundary the room no longer records.
 
 This is how “we agreed to try” becomes “we agreed this was right.”
 
@@ -367,3 +367,9 @@ Not the same meeting.
 Not the same interpretation.
 
 A temporary place where different understandings can move together without pretending they have become one.
+
+[^c2-march-simon]: See James G. March and Herbert A. Simon, *Organizations* (New York: Wiley, 1958).
+
+[^c2-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+
+[^c2-weick-decision]: See Weick, *Sensemaking in Organizations*.

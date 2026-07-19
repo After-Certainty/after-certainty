@@ -86,7 +86,7 @@ It can show that memory is selective.
 
 It can reveal that an organization’s favorite story is not the most common one.
 
-The problem begins when the measure stops being a window and becomes the room.
+The problem begins when the measure stops being a window and becomes the room.[^c5-scott]
 
 A dashboard does not merely report what happened. It teaches people what kind of happening deserves attention.
 
@@ -196,7 +196,7 @@ The system eventually reorganizes care around the measure.
 
 This is not proof that measurement is corrupt.
 
-It is evidence that every measure is a compression.
+It is evidence that every measure is a compression.[^c5-scott-compression]
 
 It takes a wide field of activity and chooses one dimension that can travel.
 
@@ -234,7 +234,7 @@ The dashboard may not distinguish these cases.
 
 Someone must.
 
-This is why measurement depends on trust even when measurement is introduced because trust is weak.
+This is why measurement depends on trust even when measurement is introduced because trust is weak.[^c5-luhmann]
 
 The number requires a person who can say what the number means here.
 
@@ -308,7 +308,7 @@ The alternative to bad measurement is not romantic trust.
 
 Trust without visibility can become permission.
 
-Visibility without trust can become surveillance.
+Visibility without trust can become surveillance.[^c5-march-simon]
 
 Collaboration must live between them.
 
@@ -657,3 +657,11 @@ It may also have understood more.
 A dashboard is valuable because no one can see the whole.
 
 It becomes dangerous when it persuades us that the whole is what we can see.
+
+[^c5-scott]: See James C. Scott, *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed* (New Haven, CT: Yale University Press, 1998).
+
+[^c5-scott-compression]: See Scott, *Seeing Like a State*.
+
+[^c5-luhmann]: See Niklas Luhmann, *Trust and Power: Two Works*, trans. Howard Davis, John Raffan, and Kathryn Rooney (Chichester, UK: John Wiley & Sons, 1979).
+
+[^c5-march-simon]: See James G. March and Herbert A. Simon, *Organizations* (New York: Wiley, 1958).

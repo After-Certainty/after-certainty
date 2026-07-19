@@ -54,7 +54,7 @@ No chart can reveal all of these relationships in advance because some of them d
 
 They appear through the work.
 
-This is often described as emergence, a word that can make ordinary collaboration sound mystical. But there is nothing mysterious about it. Something emerges when several partial understandings meet a reality none of them controls. The outcome contains information that was not available to any person at the beginning because the information was produced by the interaction itself.
+This is often described as emergence, a word that can make ordinary collaboration sound mystical. But there is nothing mysterious about it. Something emerges when several partial understandings meet a reality none of them controls. The outcome contains information that was not available to any person at the beginning because the information was produced by the interaction itself.[^c1-weick]
 
 A research team begins with a hypothesis. One laboratory produces an unexpected result. Another discovers that the measuring equipment behaves differently under particular conditions. A statistician notices a pattern the original experiment was not designed to test. By the time the paper is written, the discovery no longer resembles the question that started the project. No single person can truthfully say, “I knew this was where we were going.” The knowledge did not sit inside one mind waiting to be extracted. It formed between people, instruments, failed expectations, and the stubbornness of what actually happened.
 
@@ -122,7 +122,7 @@ The audience on Friday will see an actor enter through a doorway at precisely th
 
 If the moment works, it will look inevitable.
 
-Successful collaboration often produces this illusion. The final result hides the negotiations that made it possible. A bridge appears to have been designed as a single object rather than negotiated among geology, weather, budget, traffic, materials, regulations, and hundreds of people. A hospital appears to deliver care through a coherent institution rather than through constant handoffs among people who each hold only part of the patient’s story. A website appears as a unified experience rather than a temporary settlement among design, accessibility, security, performance, deadlines, and old technical choices that cannot yet be removed.
+Successful collaboration often produces this illusion. The final result hides the negotiations that made it possible.[^c1-sennett] A bridge appears to have been designed as a single object rather than negotiated among geology, weather, budget, traffic, materials, regulations, and hundreds of people. A hospital appears to deliver care through a coherent institution rather than through constant handoffs among people who each hold only part of the patient’s story. A website appears as a unified experience rather than a temporary settlement among design, accessibility, security, performance, deadlines, and old technical choices that cannot yet be removed.
 
 The smoother the outcome, the easier it is to imagine that someone owned the whole.
 
@@ -199,3 +199,7 @@ The archive becomes searchable.
 The family makes it through another week.
 
 And because the outcome looks whole, we forget how many people had to surrender the right to make it alone.
+
+[^c1-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+
+[^c1-sennett]: See Richard Sennett, *Together: The Rituals, Pleasures and Politics of Cooperation* (New Haven, CT: Yale University Press, 2012).

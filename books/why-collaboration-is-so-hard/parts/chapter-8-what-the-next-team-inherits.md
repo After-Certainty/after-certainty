@@ -70,7 +70,7 @@ It can also be too quick.
 
 A retrospective can travel farther than the cost that produced it. The next room inherits the caution without inheriting the joke, the burned person, or the unofficial spreadsheet that kept the earlier work alive. What looks finished on paper may still be entering before the agenda.
 
-But collaboration leaves residue.
+But collaboration leaves residue.[^c8-weick]
 
 It remains in language, habit, policy, and the nervous system.
 
@@ -86,7 +86,7 @@ An organization adds approval steps after discovering that trust did not prevent
 
 The next collaboration inherits these responses without always inheriting the stories that produced them.
 
-This is how the past becomes structure.
+This is how the past becomes structure.[^c8-march-simon]
 
 At first, residue is personal.
 
@@ -180,7 +180,7 @@ Cynicism can sound like superiority, as though the cynical person has escaped th
 
 Often it is something sadder.
 
-Cynicism is disappointed prediction hardened into identity.
+Cynicism is disappointed prediction hardened into identity.[^c8-hirschman]
 
 The person believed before.
 
@@ -250,9 +250,9 @@ The room becomes easier.
 
 Leaders may interpret the absence of objection as improved alignment.
 
-In reality, the system has taught one of its sensors to stop sending a signal.
+In reality, the system has taught one of its sensors to stop sending a signal.[^c8-sensor]
 
-This is how residue can make a future collaboration look healthier at precisely the moment it becomes less informed.
+This is how residue can make a future collaboration look healthier at precisely the moment it becomes less informed.[^c8-hirschman-silence]
 
 The meetings are calmer.
 
@@ -817,3 +817,13 @@ They stayed anyway.
 Not because the past had been erased.
 
 Because it had finally been allowed into the room without being given the final word.
+
+[^c8-weick]: See Karl E. Weick, *Sensemaking in Organizations* (Thousand Oaks, CA: Sage, 1995).
+
+[^c8-hirschman]: See Albert O. Hirschman, *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States* (Cambridge, MA: Harvard University Press, 1970).
+
+[^c8-march-simon]: See James G. March and Herbert A. Simon, *Organizations* (New York: Wiley, 1958).
+
+[^c8-hirschman-silence]: See Hirschman, *Exit, Voice, and Loyalty*.
+
+[^c8-sensor]: See Hirschman, *Exit, Voice, and Loyalty*.

@@ -94,7 +94,7 @@ People know that disagreement will not merely express a different view. It may p
 
 The room remains open in theory.
 
-In practice, the cost of remaining unconvinced rises with every nod.
+In practice, the cost of remaining unconvinced rises with every nod.[^c6-hirschman]
 
 We often treat agreement as though it were a fact people carry privately and reveal publicly.
 
@@ -140,7 +140,7 @@ Most of these moments are survivable. Human relationships could not function if 
 
 The difficulty begins when organizations mistake the disappearance of difference for the absence of difference.
 
-Silence becomes support.
+Silence becomes support.[^c6-hirschman-silence]
 
 Compliance becomes commitment.
 
@@ -518,7 +518,7 @@ This does not make the hallway automatically more truthful. Private rooms have t
 
 But the persistence of the second conversation is diagnostic.
 
-When people routinely save their clearest judgment for after the decision, the formal room is not carrying the collaboration it claims to contain.
+When people routinely save their clearest judgment for after the decision, the formal room is not carrying the collaboration it claims to contain.[^c6-sennett]
 
 Leaders sometimes respond by insisting that concerns be brought directly into the meeting.
 
@@ -697,3 +697,9 @@ Collaboration does not become stronger by treating all of those meanings as one.
 Sometimes the most trustworthy room is not the room where everyone nods.
 
 It is the room where a person can remain part of the work after they stop.
+
+[^c6-hirschman]: See Albert O. Hirschman, *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States* (Cambridge, MA: Harvard University Press, 1970).
+
+[^c6-hirschman-silence]: See Hirschman, *Exit, Voice, and Loyalty*.
+
+[^c6-sennett]: See Richard Sennett, *Together: The Rituals, Pleasures and Politics of Cooperation* (New Haven, CT: Yale University Press, 2012).
