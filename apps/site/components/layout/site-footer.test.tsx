@@ -52,12 +52,13 @@ describe("SiteFooter", () => {
     }
   });
 
-  it("lists Together footer links including GitHub and RSS", async () => {
+  it("lists Together footer links including GitHub, Search, and RSS", async () => {
     render(await SiteFooter());
     expect(screen.getByRole("link", { name: /^GitHub$/i })).toHaveAttribute(
       "href",
       expect.stringContaining("github.com"),
     );
+    expect(screen.getByRole("link", { name: /^Search$/i })).toHaveAttribute("href", "/search");
     expect(screen.getByRole("link", { name: /RSS \/ Podcast feed/i })).toBeInTheDocument();
   });
 });

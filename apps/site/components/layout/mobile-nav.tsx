@@ -4,11 +4,14 @@ import Link from "next/link";
 import { useCallback, useEffect, useId, useState } from "react";
 import { createPortal } from "react-dom";
 
+import { useSearchPalette } from "@/components/search/search-palette-provider";
+
 type NavItem = { readonly href: string; readonly label: string };
 
 export function MobileNav({ items }: { items: readonly NavItem[] }) {
   const [open, setOpen] = useState(false);
   const panelId = useId();
+  const { openSearch } = useSearchPalette();
 
   useEffect(() => {
     if (!open) return;
@@ -42,9 +45,19 @@ export function MobileNav({ items }: { items: readonly NavItem[] }) {
       >
         <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden>
           {open ? (
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M6 18L18 6M6 6l12 12"
+            />
           ) : (
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 6h16M4 12h16M4 18h16"
+            />
           )}
         </svg>
       </button>
@@ -77,7 +90,23 @@ export function MobileNav({ items }: { items: readonly NavItem[] }) {
                   Close
                 </button>
               </div>
-              <nav aria-label="Primary" className="flex flex-1 flex-col gap-1 overflow-y-auto px-3 py-4">
+              <nav
+                aria-label="Primary"
+                className="flex flex-1 flex-col gap-1 overflow-y-auto px-3 py-4"
+              >
+                <button
+                  type="button"
+                  data-testid="mobile-nav-search"
+                  className="rounded-sm px-3 py-3 text-left text-sm uppercase tracking-[0.18em] text-fg transition-colors hover:bg-accent-soft/40 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                  onClick={() => {
+                    // Open the palette first, then close the drawer on the next
+                    // frame so the menu unmount cannot race the search open.
+                    openSearch("mobile");
+                    window.requestAnimationFrame(() => close());
+                  }}
+                >
+                  Search
+                </button>
                 {items.map((item) => (
                   <Link
                     key={item.href}

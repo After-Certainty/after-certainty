@@ -36,6 +36,7 @@ There is no end-user authentication and no newsletter/Beehiiv integration. Sensi
 | Path                               | Methods            | Auth                                   | File                                       |
 | ---------------------------------- | ------------------ | -------------------------------------- | ------------------------------------------ |
 | `POST /api/cache/revalidate`       | POST               | Bearer `CACHE_REVALIDATE_SECRET`       | `app/api/cache/revalidate/route.ts`        |
+| `GET /api/search/index`            | GET                | None (public search corpus JSON)       | `app/api/search/index/route.ts`            |
 | `GET /api/json-ld/patterns/[slug]` | GET                | None                                   | `app/api/json-ld/patterns/[slug]/route.ts` |
 | `GET /api/json-ld/concepts/[slug]` | GET                | None                                   | `app/api/json-ld/concepts/[slug]/route.ts` |
 | `GET /api/json-ld/books/[slug]`    | GET                | None                                   | `app/api/json-ld/books/[slug]/route.ts`    |

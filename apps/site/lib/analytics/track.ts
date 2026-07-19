@@ -1,6 +1,13 @@
 import { sendGAEvent } from "@next/third-parties/google";
 
-import type { AnalyticsEventName } from "@/lib/analytics/events";
+import type {
+  AnalyticsEventName,
+  SearchNoResultsParams,
+  SearchOpenParams,
+  SearchQueryParams,
+  SearchRefineParams,
+  SearchSelectParams,
+} from "@/lib/analytics/events";
 import { hasAnalyticsConsent } from "@/lib/consent/storage";
 import { resolveGaMeasurementId } from "@/lib/site-config";
 
@@ -71,4 +78,28 @@ export function outboundLinkAnalytics(
     event: "click",
     params: { link_url, link_text, outbound: true, location, ...(platform ? { platform } : {}) },
   };
+}
+
+export function trackSearchOpen(params: SearchOpenParams): void {
+  trackEvent("search_open", params);
+}
+
+export function trackSearchQuery(params: SearchQueryParams): void {
+  trackEvent("search_query", params);
+}
+
+export function trackSearchSelect(params: SearchSelectParams): void {
+  trackEvent("search_select", params);
+}
+
+export function trackSearchRefine(params: SearchRefineParams): void {
+  trackEvent("search_refine", params);
+}
+
+export function trackSearchNoResults(params: SearchNoResultsParams): void {
+  trackEvent("search_no_results", params);
+}
+
+export function trackSearchExpand(): void {
+  trackEvent("search_expand");
 }

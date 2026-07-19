@@ -35,10 +35,44 @@ export type OutboundClickParams = {
   platform?: string;
 };
 
+/** Global Search — never include raw query strings (privacy). */
+export type SearchOpenParams = {
+  method: "header" | "shortcut" | "mobile" | "link" | "direct";
+};
+
+export type SearchQueryParams = {
+  surface: "quick" | "full";
+  has_results: boolean;
+  result_count_bucket: string;
+  query_length_bucket: string;
+};
+
+export type SearchSelectParams = {
+  content_type: string;
+  item_id: string;
+  surface: "quick" | "full";
+  rank_bucket: string;
+};
+
+export type SearchRefineParams = {
+  surface: "quick" | "full";
+};
+
+export type SearchNoResultsParams = {
+  surface: "quick" | "full";
+  query_length_bucket: string;
+};
+
 export const AnalyticsEvents = {
   selectContent: "select_content",
   fileDownload: "file_download",
   outboundClick: "click",
+  searchOpen: "search_open",
+  searchQuery: "search_query",
+  searchSelect: "search_select",
+  searchRefine: "search_refine",
+  searchNoResults: "search_no_results",
+  searchExpand: "search_expand",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];

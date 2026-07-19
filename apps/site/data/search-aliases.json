@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "terms": ["wolty", "when others look to you"],
+      "kind": "alias",
+      "targetIds": ["book-when-others-look-to-you-v1"],
+      "note": "Public short name and title phrase for the v1 edition"
+    },
+    {
+      "terms": [
+        "temporary rules",
+        "temporary exceptions becoming permanent",
+        "temporary fixes become permanent"
+      ],
+      "kind": "related",
+      "targetIds": ["pattern-exceptions-are-forever"],
+      "note": "Everyday phrasing for the Exceptions are Forever pattern — related, not a synonym claim"
+    },
+    {
+      "terms": ["trusting people who disagree", "trust beyond similarity"],
+      "kind": "related",
+      "targetIds": ["book-trust-beyond-similarity", "concept-trust"],
+      "note": "Natural-language bridge into trust vocabulary and the Trust Beyond Similarity book"
+    },
+    {
+      "terms": ["accountability"],
+      "kind": "alias",
+      "targetIds": ["concept-accountability"],
+      "note": "Canonical concept name reinforcement for lookup"
+    }
+  ]
+}

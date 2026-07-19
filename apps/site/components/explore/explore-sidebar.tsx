@@ -8,6 +8,7 @@ const links = [
   { href: explorePaths.books, label: "Books" },
   { href: explorePaths.thinkers, label: "Thinkers" },
   { href: explorePaths.sources, label: "Sources" },
+  { href: "/search", label: "Search" },
 ] as const;
 
 /** Light wayfinding — not a heavy wiki sidebar. */

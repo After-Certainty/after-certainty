@@ -15,6 +15,7 @@ const TOP_LEVEL_PATHS = [
   "/explore/books",
   "/explore/thinkers",
   "/explore/sources",
+  "/search",
   "/podcast",
   "/collaborators",
   "/about",

@@ -13,6 +13,7 @@ export const topLevelSmokeUrls: SmokeUrl[] = [
   { path: "/explore/books", label: "Books index" },
   { path: "/explore/thinkers", label: "Thinkers index" },
   { path: "/explore/sources", label: "Sources index" },
+  { path: "/search", label: "Search" },
   { path: "/podcast", label: "Podcast" },
   { path: "/collaborators", label: "Collaborators" },
   { path: "/about", label: "About" },
