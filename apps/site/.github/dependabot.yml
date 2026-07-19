@@ -1,0 +1,54 @@
+# Dependabot version updates for npm packages and GitHub Actions.
+# Security alerts / security-update PRs are enabled in the repo's
+# GitHub Settings → Code security → Dependabot (not via this file).
+#
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates
+
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 10
+    labels:
+      - dependencies
+    commit-message:
+      prefix: deps
+      include: scope
+    # Bundle routine bumps; leave major version updates as individual PRs.
+    groups:
+      production-minor-patch:
+        dependency-type: production
+        update-types:
+          - minor
+          - patch
+      development-minor-patch:
+        dependency-type: development
+        update-types:
+          - minor
+          - patch
+    # Delay non-security version bumps so compromised releases can be yanked.
+    cooldown:
+      default-days: 3
+      semver-major-days: 7
+
+  # Keep SHA-pinned Actions current (pairs with pinning in workflows).
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - github-actions
+    commit-message:
+      prefix: ci
+      include: scope
+    groups:
+      github-actions:
+        patterns:
+          - "*"
