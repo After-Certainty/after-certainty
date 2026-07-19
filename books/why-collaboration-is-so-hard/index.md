@@ -27,11 +27,6 @@
 - [Conclusion — The Show Opens Anyway](back-matter/conclusion-the-show-opens-anyway.md)
 - [Bibliography](back-matter/bibliography.md)
 
-## Rewrite planning
-
-- [Outline](docs/outline.md) · [Book rules](docs/book-rules.md) · [Status](docs/status.md) · [Agents](docs/agents/README.md)
-- [Source edition (essay archive)](docs/research/source-edition/README.md)
-
 ## Related books
 
 [Series guide](../../docs/series-guide.md) · Coordination / judgment cluster
