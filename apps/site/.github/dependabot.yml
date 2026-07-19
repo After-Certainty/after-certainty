@@ -34,6 +34,14 @@ updates:
     cooldown:
       default-days: 3
       semver-major-days: 7
+    ignore:
+      # TypeScript 7 has no programmatic API yet; typescript-eslint peer is
+      # `typescript <6.1.0`, and Next.js `next build` crashes under TS 7
+      # (`getCurrentDirectory`). Stay on TypeScript 5 until the toolchain
+      # supports a newer major (typescript-eslint#12518, TS 7.1+ API).
+      - dependency-name: typescript
+        update-types:
+          - version-update:semver-major
 
   # Keep SHA-pinned Actions current (pairs with pinning in workflows).
   - package-ecosystem: github-actions

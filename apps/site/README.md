@@ -22,13 +22,13 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ### Scripts
 
-| Command          | Purpose                          |
-| ---------------- | -------------------------------- |
-| `npm run dev`    | Local development                |
-| `npm run build`  | Production build                 |
-| `npm run start`  | Serve production build           |
-| `npm run lint`   | ESLint                           |
-| `npm run format` | Prettier write                   |
+| Command          | Purpose                |
+| ---------------- | ---------------------- |
+| `npm run dev`    | Local development      |
+| `npm run build`  | Production build       |
+| `npm run start`  | Serve production build |
+| `npm run lint`   | ESLint                 |
+| `npm run format` | Prettier write         |
 
 ## Environment
 
@@ -36,12 +36,12 @@ Set **`NEXT_PUBLIC_SITE_URL`** to your canonical domain so metadata, Open Graph,
 
 ## Content architecture
 
-| Kind             | Location / notes                                             |
-| ---------------- | ------------------------------------------------------------ |
-| Typed models     | `types/content.ts`                                           |
-| Sample manifests | `data/*.json` — replace or sync from CI / books repo output    |
-| MDX pages        | `content/mdx/*.mdx`, imported from routes under `app/`          |
-| Site copy config | `lib/site-config.ts`                                          |
+| Kind             | Location / notes                                            |
+| ---------------- | ----------------------------------------------------------- |
+| Typed models     | `types/content.ts`                                          |
+| Sample manifests | `data/*.json` — replace or sync from CI / books repo output |
+| MDX pages        | `content/mdx/*.mdx`, imported from routes under `app/`      |
+| Site copy config | `lib/site-config.ts`                                        |
 
 Wire real manifests by swapping JSON under `data/` or pointing loaders in `lib/content-data.ts` at generated artifacts.
 
@@ -49,11 +49,11 @@ Wire real manifests by swapping JSON under `data/` or pointing loaders in `lib/c
 
 Keeping libraries and CI Actions current:
 
-| Mechanism | What it does |
-| --- | --- |
-| **Dependabot version updates** | Weekly PRs for npm and GitHub Actions (see `.github/dependabot.yml`). Minor/patch bumps are grouped; majors stay separate. |
-| **Dependabot alerts & security updates** | Enable under GitHub → **Settings → Code security** (Dependabot alerts + Dependabot security updates). Security PRs are not controlled by `dependabot.yml`. |
-| **CI `npm audit`** | Fails the build on high+ severity advisories (`.github/workflows/ci.yml`). |
+| Mechanism                                | What it does                                                                                                                                                                                                    |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Dependabot version updates**           | Weekly PRs for npm and GitHub Actions (see `.github/dependabot.yml`). Minor/patch bumps are grouped; majors stay separate. TypeScript major upgrades are ignored until the ESLint/Next toolchain supports them. |
+| **Dependabot alerts & security updates** | Enable under GitHub → **Settings → Code security** (Dependabot alerts + Dependabot security updates). Security PRs are not controlled by `dependabot.yml`.                                                      |
+| **CI `npm audit`**                       | Fails the build on high+ severity advisories (`.github/workflows/ci.yml`).                                                                                                                                      |
 
 After merging the Dependabot config, confirm those Code security toggles are on so alerts and automatic security-fix PRs work.
 
