@@ -60,6 +60,14 @@ That is what numbers do when a room is uncertain.
 
 They offer something solid.
 
+The green number can feel like the end of the story. The organization reached the people. The arrow points up. The board can return to the rest of the agenda with a clearer conscience.
+
+That comfort is real.
+
+It can also be too quick.
+
+A solid number can end the asking before anyone asks what the number had to leave out in order to travel.
+
 We often say that organizations measure what matters.
 
 More often, they measure what can be made consistent enough to compare.
@@ -121,6 +129,14 @@ A leader who has been surprised by failure asks for earlier indicators.
 Each request is reasonable.
 
 Together, they can create an organization that spends increasing amounts of time proving that work is happening.
+
+The request for clearer metrics can feel like maturity. If trust is thin, make the work more visible. If surprise keeps arriving, ask for earlier indicators. The organization can point to the new dashboard and say it took the uncertainty seriously.
+
+The proof looks responsible.
+
+It can also be incomplete.
+
+More frequent updates do not, by themselves, restore the conditions under which people will say what the updates cannot carry. The organization may become better at proving that work is happening while becoming less able to hear when the work is becoming thinner.
 
 The proof may become more visible as the work becomes harder to see.
 
@@ -501,6 +517,14 @@ A staff member raises a concern once and receives an explanation of why the metr
 The dashboard remains green.
 
 The organization calls this alignment.
+
+From outside, the quiet can look like agreement. The concern was raised. An explanation was given. Nobody continues to object. The metric still matters, and the room has moved on.
+
+That sorting restores order quickly.
+
+It may also be incomplete.
+
+The staff member may have stopped because they learned that their evidence would never count as evidence—not because the concern disappeared. What looks like alignment may be the moment when experience stops traveling upward.
 
 Silence is especially easy to misread when the measurement system appears objective.
 
