@@ -141,14 +141,16 @@ Readers should experience collaboration before they receive language for it.
 
 ## Chapter 6 — The Nodding Room
 
-- **Opening object/image:** Forced alignment; false consensus; meetings where everyone appears to agree.
+**Status:** Author draft landed (`parts/chapter-6-the-nodding-room.md`).
+
+- **Opening object/image:** Hotel alignment session; colored dots; every square green; photograph for the newsletter.
 - **Guiding question:** When does clarity stop helping and start coercing?
-- **Initial mystery:** Psychological safety language in a room that no longer permits real disagreement.
-- **Associative widenings:** Alignment theater; dissent as threat; clarity-as-control; silence after a decisive summary; committee disagreement punished as disloyalty.
-- **Ideas to preserve:** Clarity becoming control; disagreement becoming threat; how “we’re aligned” becomes a weapon; safety that requires nodding.
-- **Late pattern:** Clarity slowly becomes coercion when the cost of not nodding exceeds the cost of being wrong together.
-- **Ending image:** The same room; nods; no one asking the question that would reopen the work.
-- **Cautions:** Do not lecture on psychological safety frameworks. Stay in the room’s air.
+- **Initial mystery:** Real people, real concerns, open invitation—and an agreement almost nobody experiences as fully real.
+- **Associative widenings:** Family/friends/volunteer nods; speaking permitted but revision not; belonging as “are you with us?”; psychological safety vs controlled social meaning; hallway after-meeting; values language as control; midyear return without dots.
+- **Ideas to preserve:** Disappearance of difference ≠ absence; place between sabotage and surrender; early warnings immature; false participation; preserve dissent in the decision’s memory.
+- **Late pattern / compression:** Sometimes the most trustworthy room is not the room where everyone nods. It is the room where a person can remain part of the work after they stop.
+- **Ending image:** Longer priorities with tensions attached; no photograph of unanimous support; less aligned, more honest.
+- **Cautions:** Do not lecture safety frameworks. Do not treat all hallway talk as truth. Hold that leaders must sometimes decide despite disagreement.
 - **Primary source units:**
   - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-8-when-clarity-becomes-control.md`
   - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-10-when-disagreement-becomes-threat.md`
