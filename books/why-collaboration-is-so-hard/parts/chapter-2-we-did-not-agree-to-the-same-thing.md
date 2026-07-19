@@ -56,21 +56,7 @@ Everyone can sincerely agree to prioritize the customer while disagreeing about 
 
 The problem is not that the word lacks a definition. The problem is that definitions are often thinner than use. People carry histories, responsibilities, risks, and professional habits into the words they share. The same sentence lands differently depending on what failure a person has been trained to prevent.
 
-This is why clarification can continue long after vocabulary appears settled.
-
-What do we mean by done?
-
-Does it mean the code is written? Tested? Reviewed? Deployed? Adopted? Supported? Documented? Safe enough to operate at scale?
-
-What do we mean by urgent?
-
-Does it mean someone important is asking? A customer is being harmed? A deadline is near? A risk is growing? A promise was made too early?
-
-What do we mean by simple?
-
-Simple to build? Simple to explain? Simple to maintain? Simple for the person using it? Simple for the person approving it?
-
-The words survive because they are useful. They allow people to move without renegotiating the entire world each time they speak. But they also create the appearance of shared understanding before shared understanding has been earned.
+This is why clarification can continue long after vocabulary appears settled. The words survive because they are useful—they allow people to move without renegotiating the entire world each time they speak—but they also create the appearance of shared understanding before shared understanding has been earned.
 
 A public library encounters the same problem while redesigning its children’s room.
 
@@ -230,29 +216,7 @@ It appears later in implementation choices, private messages, delayed work, unex
 
 The group may describe these outcomes as communication failures. But communication did occur. What failed was the ability to state the limits of understanding without becoming a problem oneself.
 
-A healthy collaborative environment does not require everyone to agree. It requires people to distinguish among several things we often compress into agreement.
-
-I understand the proposal.
-
-I believe the proposal is correct.
-
-I am willing to proceed with the proposal.
-
-I believe the decision was made legitimately.
-
-I will support the work even though I would have chosen differently.
-
-These statements are not interchangeable.
-
-A person can understand and disagree.
-
-They can disagree and still contribute.
-
-They can accept a decision while believing the process was poor.
-
-They can believe the process was fair and still predict that the outcome will fail.
-
-When groups treat all of these positions as either alignment or resistance, they lose information.
+A healthy collaborative environment does not require everyone to agree. It requires people to distinguish among things we often compress into one word: understanding a proposal, believing it is correct, being willing to proceed, accepting the process as legitimate, and supporting work one would not have chosen. These are not interchangeable—someone can understand and disagree, disagree and still contribute, accept a decision while doubting the process, or trust the process while predicting the outcome will fail. When groups treat all of these as either alignment or resistance, they lose information.
 
 The person saying “I understand, but I still disagree” may be giving the group something valuable: a surviving alternative interpretation. If the decision encounters trouble later, that person’s model may help explain why. But if disagreement had to disappear before action could begin, the alternative model may have been silenced, softened, or forgotten.
 
@@ -304,57 +268,11 @@ That sentence does not solve the schedule. It prevents the schedule from becomin
 
 The same is true of constraints.
 
-Groups often spend enormous energy discussing preferences before naming what is fixed.
+Groups often spend enormous energy discussing preferences before naming what is fixed—a committed budget, a legal limit, a date that cannot move, a capacity that does not yet exist. Unstated constraints make collaboration feel dishonest because people continue discussing options that some participants already know are impossible. The conversation can look open while being quietly bounded: one person believes they are exploring while the other knows the solution space is mostly closed.
 
-A budget is already committed.
+Visible constraints do more than vague consensus because they tell people where disagreement can still matter, and because they reveal when a constraint is not really fixed but protected. “The budget cannot change” may mean it has not changed historically. “Legal will never approve this” may mean nobody has asked. Collaboration improves when people can distinguish physical constraints from institutional habits and habits from decisions nobody wants to reopen.
 
-A law prohibits one option.
-
-A safety limit cannot be negotiated.
-
-A contract expires on a certain date.
-
-A system cannot support the proposed volume without changes that will take months.
-
-A person whose participation is essential will not be available.
-
-Unstated constraints make collaboration feel dishonest because people continue discussing options that some participants already know are impossible.
-
-The resulting conversation can look open while being quietly bounded.
-
-Someone proposes an idea.
-
-Another person says it may be difficult.
-
-The first person revises it.
-
-The second person raises another concern.
-
-Eventually frustration rises because one person believes they are exploring and the other knows the solution space is already mostly closed.
-
-Visible constraints do more for collaboration than vague consensus because they tell people where disagreement can still matter.
-
-They reduce the humiliation of contributing to an option that was never available.
-
-They also reveal when a constraint is not really fixed but protected.
-
-“The budget cannot change” may mean the budget has not changed historically.
-
-“We cannot move the date” may mean someone made a public promise.
-
-“Legal will never approve this” may mean nobody has asked.
-
-“The architecture requires it” may mean changing it would be expensive and politically difficult.
-
-Collaboration improves when people can distinguish physical constraints from institutional habits and institutional habits from decisions nobody wants to reopen.
-
-But naming constraints requires trust because constraints reveal power.
-
-Who is allowed to say what is impossible?
-
-Whose difficulty becomes a boundary for everyone else?
-
-Whose burden remains negotiable?
+But naming constraints requires trust because constraints reveal power—who may declare impossibility, whose difficulty becomes everyone’s boundary, whose burden remains negotiable.
 
 The library redesign may have a fixed budget, but the youth librarian’s extra planning time is treated as flexible. The transit agency may have a publication deadline, but drivers’ recovery time is treated as something to optimize. The engineering team may have a promised launch date, but the cost of carrying the operational risk after launch remains unnamed.
 

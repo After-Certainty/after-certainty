@@ -78,18 +78,6 @@ A nurse can ask the medication questions faster.
 
 That does not mean the answers will become more reliable.
 
-A clinician can explain the discharge plan in fewer words.
-
-That does not mean the family will know what to do at home.
-
-A team can shorten the meeting.
-
-That does not mean the disagreement has become smaller.
-
-A school can process more students.
-
-That does not mean the students have been more fully seen.
-
 Efficiency is real. So is the cost of asking care to travel at the speed of coordination.
 
 For several months, the hospital had been focused on improving throughput.
@@ -224,23 +212,7 @@ But the question can also conceal a wish:
 
 Could we preserve the appearance of care while removing the part that resists scheduling?
 
-A hospital can standardize discharge instructions.
-
-The printed page may be clear.
-
-The patient may still nod without understanding.
-
-A company can create a feedback channel.
-
-Employees may still know which kinds of feedback produce consequences.
-
-A school can send automated attendance notices.
-
-The message may still fail to reveal why the child is absent.
-
-A team can create a checklist for consultation.
-
-The checklist may record that another perspective was requested without allowing that perspective to change the decision.
+A hospital can standardize discharge instructions. The printed page may be clear. The patient may still nod without understanding.
 
 The form remains.
 
@@ -582,31 +554,7 @@ People must do that.
 
 And people need conditions in which making the distinction does not automatically place them against the system’s goals.
 
-A healthy efficiency practice begins by asking not simply where time is spent, but what the time is doing.
-
-Is it waiting because no one owns the next step?
-
-Is it repair after a poor handoff?
-
-Is it repeated explanation caused by a confusing process?
-
-Is it necessary observation?
-
-Is it trust forming?
-
-Is it conflict being avoided?
-
-Is it a person compensating for a system that refuses to see the whole case?
-
-Two identical delays can contain different work.
-
-One is friction.
-
-One is protection.
-
-The dashboard may show only duration.
-
-This is why people closest to the work must help interpret the metric.
+A healthy efficiency practice begins by asking not simply where time is spent, but what the time is doing. Two identical delays can contain different work—one friction, one protection. The dashboard may show only duration. People must distinguish waste from care, and people closest to the work must help interpret the metric.
 
 Not as a courtesy after leadership decides what the number means.
 
@@ -728,27 +676,7 @@ They also create social cost for the person who says them.
 
 A system serious about collaboration must not depend entirely on individual courage at the moment courage is most expensive.
 
-It needs rituals, measures, and review practices that make slowing down a legitimate form of contribution under defined conditions.
-
-Not unlimited delay.
-
-Not veto by discomfort.
-
-A recognized path for saying:
-
-The work is moving faster than understanding.
-
-The plan is moving faster than responsibility.
-
-The workflow is moving faster than care.
-
-What would justify the pause?
-
-What must be learned?
-
-Who decides when the work can resume?
-
-A pause becomes less threatening when it has shape.
+It needs rituals, measures, and review practices that make slowing down a legitimate form of contribution under defined conditions—not unlimited delay, not veto by discomfort. A pause becomes less threatening when it has shape.
 
 The construction crew in the previous chapter could stop the lift because the right to stop had been designed into the work.
 

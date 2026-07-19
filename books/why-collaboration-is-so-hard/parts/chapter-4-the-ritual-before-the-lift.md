@@ -272,67 +272,13 @@ In difficult collaboration, facilitation is part of the real work.
 
 Someone must help partial understandings occupy the same room without forcing them to become identical too early.
 
-The facilitator does not create agreement by smoothing every conflict. Sometimes the most important contribution is to make conflict more precise.
-
-“We agree that the current system is failing. We do not agree about whether the replacement is ready.”
-
-“Everyone accepts the deadline. Not everyone accepts the risk being transferred to operations.”
-
-“The concern is not about the goal. It is about whether the proposed method makes revision possible.”
-
-“The room is quiet, but the decision is not yet clear.”
-
-These sentences slow the group down.
-
-They may feel less productive than moving to the next agenda item.
-
-But collaboration often depends on someone refusing to let motion impersonate understanding.
+The facilitator does not create agreement by smoothing every conflict. Sometimes the most important contribution is to make conflict more precise—to refuse to let motion impersonate understanding.
 
 Documentation serves a similar purpose across time.
 
 A meeting can contain a shared understanding that disappears when the participants leave. People remember different emphasis. New members inherit only the outcome. Months later, a decision appears arbitrary because the circumstances that made it reasonable are gone.
 
-Good documentation does not merely state what was decided.
-
-It preserves judgment.
-
-Why did this option look safer?
-
-What constraints were fixed?
-
-Which alternatives were considered?
-
-What evidence would cause the group to reconsider?
-
-What remained unresolved?
-
-Who will bear the cost if the assumption proves wrong?
-
-A sentence such as “We chose the smaller migration to reduce customer disruption during the annual enrollment period” gives the future more than a sentence saying “Decision: use the smaller migration.”
-
-The first allows later people to ask whether the enrollment period has passed, whether customer disruption remains the dominant risk, and whether the decision should still govern the work.
-
-The second turns a situated judgment into a rule.
-
-Organizations accumulate many rules in this way.
-
-Someone made a reasonable decision under particular conditions. The conditions disappeared. The record kept only the decision. Later, people obey the answer without inheriting the question.
-
-Documentation can prevent this, but only if it records uncertainty with the same care it records resolution.
-
-That requires a kind of humility.
-
-People prefer records that make them look decisive. Uncertainty can feel embarrassing once the outcome is known. A project that succeeded appears to have been well planned. A project that failed appears to have ignored obvious warnings.
-
-The document written afterward is tempted to produce a cleaner past.
-
-This is one of the ways collaboration loses its ability to learn. It preserves decisions and discards the hesitations that might help the next group recognize a different situation.
-
-A useful record says, in effect:
-
-This is what we saw from where we stood.
-
-It does not pretend that the group stood everywhere.
+Good documentation does not merely state what was decided. It preserves judgment: the constraints, the alternatives considered, what remained unresolved, and who will bear the cost if an assumption proves wrong. Without that, a situated choice becomes a rule people obey without inheriting the question. Documentation can prevent this only if it records uncertainty with the same care it records resolution. A useful record says what we saw from where we stood. It does not pretend that the group stood everywhere.
 
 The construction crew’s briefing is a form of documentation spoken aloud. It carries yesterday’s plan into today’s conditions. It reminds everyone what has already been decided and creates room for what the plan could not know.
 
@@ -380,23 +326,7 @@ When people know what cannot move, they can stop interpreting every refusal as r
 
 When they know what can move, they can stop treating every current arrangement as inevitable.
 
-This is why one of the most useful things a group can do is place its constraints in the open.
-
-What is legally required?
-
-What is physically impossible?
-
-What have we promised?
-
-What can be renegotiated?
-
-What are we treating as fixed because changing it would be inconvenient, politically costly, or embarrassing?
-
-The answers will not eliminate conflict.
-
-They will reveal what the conflict is actually about.
-
-Sometimes the conflict is not over the work but over whose constraint gets to become everyone’s reality.
+This is why one of the most useful things a group can do is place its constraints in the open—what is legally required, physically impossible, promised, renegotiable, or only fixed because changing it would be inconvenient or embarrassing. The answers will not eliminate conflict. They will reveal what the conflict is actually about, and sometimes whose constraint gets to become everyone’s reality.
 
 The executive’s public promise becomes fixed.
 
@@ -455,12 +385,6 @@ A society becomes possible through rituals most participants never see.
 A water sample is taken on schedule.
 
 A medication is checked against a chart.
-
-A bridge joint is inspected.
-
-A teacher records an accommodation.
-
-A dispatcher repeats an address.
 
 A pilot reads a list already known by memory.
 

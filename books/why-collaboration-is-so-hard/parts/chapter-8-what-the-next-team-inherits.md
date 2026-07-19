@@ -284,11 +284,7 @@ Humor often carries residue because humor allows people to acknowledge what cann
 
 “We tried collaboration once.”
 
-“Put it in the parking lot.”
-
 “Nothing is more permanent than a pilot.”
-
-“Here comes another transformation.”
 
 The joke creates belonging among people who remember.
 
@@ -316,33 +312,7 @@ Neither can see the present clearly.
 
 Residue also survives through blame.
 
-After collaboration collapses, people need an explanation.
-
-The project failed because the leader was controlling.
-
-Because the team resisted change.
-
-Because funding was inadequate.
-
-Because the partner organization acted in bad faith.
-
-Because communication broke down.
-
-Each explanation may contain truth.
-
-A leader may have controlled the process. A team may have resisted. Resources may have been insufficient. A partner may have broken promises.
-
-Blame gives the failure a shape.
-
-It restores moral orientation after months of ambiguity.
-
-Someone caused this.
-
-Someone should have known.
-
-Someone should have acted differently.
-
-The clarity can be relieving.
+After collaboration collapses, people need an explanation that gives the failure a shape—the leader was controlling, the team resisted, someone should have known. Each explanation may contain truth. The clarity can be relieving.
 
 It can also be too small.
 
@@ -610,17 +580,7 @@ Trust does not return because leadership announces a fresh start.
 
 A new name does not create new conditions.
 
-Repair requires evidence that the system has changed where the earlier cost was produced.
-
-If a prior collaboration failed because people had responsibility without authority, the new effort must make authority visible.
-
-If concerns were heard but could not change decisions, the new process must show what concerns can alter.
-
-If invisible labor was concentrated in a few people, the next plan must redistribute maintenance before praising commitment.
-
-If leadership rewrote the outcome, the new initiative must record uncertainty and dissent while the work is still underway.
-
-People believe change when they encounter it in structure.
+Repair requires evidence that the system has changed where the earlier cost was produced—authority made visible, concerns that can alter decisions, maintenance redistributed, dissent recorded while the work is underway. People believe change when they encounter it in structure.
 
 Tone helps.
 
@@ -654,29 +614,7 @@ Collaboration does not require forgetting.
 
 It requires enough evidence that memory can become information rather than prophecy.
 
-This is why diagnostic questions matter.
-
-Not as a checklist that guarantees healthy collaboration.
-
-As a way of separating the present problem from the inherited one.
-
-What is actually constrained here?
-
-Who can change the decision?
-
-Who carries the risk if we are wrong?
-
-Who is doing work the plan does not name?
-
-What are people afraid will happen because it happened before?
-
-Which structure exists because of a real danger, and which survives because nobody wants responsibility for removing it?
-
-What kind of disagreement can update the plan?
-
-What evidence would cause us to stop?
-
-These questions slow the group down before personality stories harden.
+Diagnostic questions matter less as a checklist than as a way of separating the present problem from the inherited one. They slow the group down before personality stories harden.
 
 The skeptical person may not be resistant to collaboration.
 

@@ -410,21 +410,7 @@ They convert an unfinished relationship into a percentage complete.
 
 They make reality look manageable enough to travel upward.
 
-This is another form of invisible labor: narrating the work for people who cannot see it directly.
-
-The narration may require nearly as much skill as the work itself.
-
-A program director writes a quarterly report that must be accurate enough to preserve integrity, optimistic enough to reassure funders, concise enough to be read, and specific enough to justify continued support.
-
-An engineer prepares a project update. The system is not failing, but an assumption has weakened. The risk is real, though not yet measurable. Too much alarm will trigger intervention that may make the work harder. Too little will create surprise later.
-
-A nurse documents a patient encounter. The record must satisfy billing, support future care, preserve legal meaning, and fit the time available before the next patient needs attention.
-
-Narration is not overhead in the sense that it can simply be removed.
-
-Shared work requires stories that travel.
-
-The problem is that the people creating those stories are often judged by whether the stories make the system feel under control.
+Narrating the work for people who cannot see it is labor. Shared work requires stories that travel. The problem is that the people creating those stories are often judged by whether the stories make the system feel under control.
 
 The update must be clear.
 

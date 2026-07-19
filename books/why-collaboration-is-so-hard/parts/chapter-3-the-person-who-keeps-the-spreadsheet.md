@@ -100,15 +100,7 @@ None of these actions looks like the project.
 
 They are what keep the project from repeatedly forgetting itself.
 
-Every collaboration produces this surrounding work: the work that keeps the visible work possible.
-
-A community theater needs actors, sets, costumes, and lights. It also needs someone who knows that a volunteer’s child must be picked up by nine, that one costume cannot go through the washing machine, and that the landlord complained the last time equipment blocked the rear exit.
-
-A neighborhood festival needs permits, food, music, and tables. It also needs someone who remembers which resident cannot tolerate amplified sound, who has the key to the storage shed, and which promise persuaded a hesitant shop owner to participate.
-
-A software team needs designs, code, tests, and infrastructure. It also needs someone who remembers why an odd-looking safeguard exists, which external team was harmed by the last migration, and which supposedly temporary integration now supports a process no one has mapped.
-
-A family caring for an aging parent needs appointments, medication, transportation, and money. It also needs someone who knows which sibling has already been called, what the doctor actually said, whether the prescription was changed or merely discussed, and which questions the parent avoids answering when certain people are present.
+Every collaboration produces this surrounding work: the work that keeps the visible work possible. A community theater needs actors and lights—and someone who knows that a volunteer’s child must be picked up by nine, that one costume cannot go through the washing machine, and that the landlord complained the last time equipment blocked the rear exit. The same surrounding work appears wherever visible tasks depend on unassigned memory: a software team remembering why an odd safeguard exists, a family tracking which sibling has already been called and what the doctor actually said.
 
 The surrounding work is not separate from collaboration.
 
@@ -276,19 +268,7 @@ No single request justifies refusal. The person can answer the quick question. T
 
 The cost becomes visible only in accumulation.
 
-Invisible labor often arrives disguised as an exception.
-
-Just this once.
-
-Until the new process is established.
-
-While the team is short-staffed.
-
-Because the deadline is close.
-
-Because the person already knows.
-
-The temporary condition keeps renewing itself.
+Invisible labor often arrives disguised as an exception—just this once, until the new process is established—and the temporary condition keeps renewing itself.
 
 The spreadsheet remains temporary for three years.
 
@@ -356,37 +336,9 @@ It is to prevent one person from carrying memory alone.
 
 That requires more than asking the person to write everything down. Writing is additional labor. When the busiest keeper of context is told to document what everyone else relies on, the solution often becomes another demand on the same person.
 
-A healthier group treats memory as a shared practice.
+A healthier group treats memory as a shared practice. Notes, decision records, and onboarding stop routing through one permanent guide. The person with context is asked what can be redistributed before their exhaustion becomes the redistribution plan.
 
-People take their own notes rather than assuming someone else will. Decisions record not only what was chosen but why, what remained uncertain, and when the choice should be revisited. Newcomers learn from several people rather than one permanent guide. Facilitation, onboarding, and relational maintenance rotate when possible. The person with context is asked what can be redistributed before their exhaustion becomes the redistribution plan.
-
-Most importantly, the group stops treating invisible work as evidence of personality.
-
-The colleague is not merely “naturally organized.”
-
-The nurse is not simply “good with difficult families.”
-
-The engineer is not merely “the person who knows the old system.”
-
-The volunteer is not just “someone who always helps.”
-
-These descriptions turn work into identity. Once the work becomes who someone is, asking others to share it feels almost unnatural.
-
-The organized person handles the spreadsheet because she is organized.
-
-The empathetic person handles conflict because she is empathetic.
-
-The reliable person accepts the handoff because he is reliable.
-
-The identity conceals the assignment.
-
-It also makes refusal feel like character failure.
-
-When the reliable person says no, they are no longer being themselves.
-
-When the caring person stops repairing everyone’s relationships, they appear uncaring.
-
-When the person who remembers allows someone else to forget, they appear unhelpful.
+Most importantly, the group stops treating invisible work as evidence of personality. Calling someone “naturally organized,” or “the person who knows the old system,” turns work into identity. Once the work becomes who someone is, asking others to share it feels almost unnatural, and refusal starts to sound like character failure. The identity conceals the assignment.
 
 Collaboration becomes fairer when people can remain who they are without being required to provide their strongest capacity without limit.
 

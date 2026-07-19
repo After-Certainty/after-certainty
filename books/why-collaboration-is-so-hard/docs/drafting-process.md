@@ -10,11 +10,9 @@
 
 ## Current starting phase
 
-**Phase 1 — Author drafts landed** → optional recognition / echo passes across the full spine.
+**Phase 2 — Recognition / echo pass complete** → optional deepening or glossary strategy.
 
-Recommended order for revision: Introduction through Conclusion in reading order.
-
-Mine scenes and arguments from the source edition only when a recognition pass needs recovery; do not restore the monograph structure.
+Recommended order for further revision: Introduction through Conclusion in reading order.
 
 ## After prose lands
 

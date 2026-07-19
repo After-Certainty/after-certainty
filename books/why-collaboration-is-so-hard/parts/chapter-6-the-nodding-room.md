@@ -124,10 +124,6 @@ In ordinary life, we understand this intuitively.
 
 A family asks where everyone wants to eat. One person says they do not care. They may genuinely be flexible. They may also know that their preference will create a twenty-minute discussion nobody has energy for.
 
-A group of friends plans a trip. Someone agrees to the expensive option because everyone else sounds excited and they do not want to become the person who makes money awkward.
-
-A volunteer committee asks whether anyone objects to the date. One member cannot attend but stays silent because the event has already been rescheduled twice.
-
 The group records agreement.
 
 The person records a cost.
@@ -436,33 +432,7 @@ Its use changes.
 
 Language that once opened possibility begins closing interpretation.
 
-This is one reason organizations love values language. Values travel. They allow thousands of people to coordinate around ideas more durable than procedures.
-
-But broad values contain tension.
-
-Urgency and care.
-
-Ownership and interdependence.
-
-Transparency and privacy.
-
-Consistency and judgment.
-
-A value remains alive when the tension can be discussed.
-
-It becomes controlling when one approved interpretation governs every situation.
-
-A team that questions whether urgency fits this decision is not necessarily rejecting urgency.
-
-It may be protecting the value from becoming a reflex.
-
-A person who resists a version of ownership that leaves them alone with an impossible problem may be asking the organization to honor ownership more fully.
-
-But once the phrase belongs to authority, questioning its application can sound like questioning the value itself.
-
-The language becomes morally loaded.
-
-The conversation narrows.
+This is one reason organizations love values language—and one reason values become controlling when a single approved interpretation governs every situation. Questioning the application starts to sound like rejecting the value. The conversation narrows.
 
 This is how reasonable people begin editing themselves before they speak.
 
@@ -560,55 +530,9 @@ Human beings will always process experience with people they trust.
 
 But the formal room can become capable of receiving more of what otherwise escapes.
 
-One simple practice is to separate different forms of support.
+One practice is to separate forms of support—understanding, execution, remaining concern, provisional acceptance—instead of asking whether the room is aligned. The wall becomes less flattering. The organization gains a more accurate map of what it has actually decided.
 
-Instead of asking, “Are we aligned?” a leader can ask:
-
-Do you understand the decision?
-
-Can you execute it?
-
-What concerns remain?
-
-What would cause us to revisit it?
-
-Where do you believe the plan is most likely to fail?
-
-Which part of the decision do you support, and which part are you accepting because the group must move?
-
-These questions produce a less flattering wall.
-
-There may be no single color.
-
-The answer may require sentences.
-
-The leader loses the satisfying photograph of unanimous dots.
-
-The organization gains a more accurate map of what it has actually decided.
-
-Another practice is to let authority be visible.
-
-Many alignment processes become coercive because they hide who will decide.
-
-A group is invited to co-create a plan, but leadership retains the right to choose among the outputs. Participants later feel manipulated because consultation was presented as control.
-
-It is more honest to say:
-
-“We are here to advise.”
-
-“This part is open for decision.”
-
-“This constraint is not negotiable.”
-
-“I will make the final call after hearing the group.”
-
-“You may not agree with the decision, and I will explain why I made it.”
-
-Visible authority can feel less collaborative than a workshop.
-
-It may produce more genuine contribution because people know what their contribution can change.
-
-False participation damages trust more than an honest boundary.
+Another practice is to let authority be visible: advise versus decide. False participation damages trust more than an honest boundary.
 
 The same is true after a decision.
 

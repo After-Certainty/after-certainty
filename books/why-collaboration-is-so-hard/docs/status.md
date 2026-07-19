@@ -2,16 +2,16 @@
 
 ## Current phase
 
-**Phase 1 — Author drafts landed (July 2026)**
+**Phase 2 — Recognition / echo pass (July 2026)**
 
-Introduction + eight chapters + Conclusion are in recognition-first prose. Essay edition remains archived as source material. Next: optional recognition/echo passes and glossary strategy.
+Author drafts complete. Manuscript-wide recognition pass applied: protect ending compressions; surgical mid-chapter compress of decorative restatement, how-to scaffolds, and cross-chapter lecture echo. Intro, Ch 1, and Conclusion kept as-is.
 
 ## Edition decision
 
 | Edition | Status |
 |---------|--------|
 | Essay (~12–15k), 4 parts / 14 chapters | **Archived** — [`research/source-edition/`](research/source-edition/) |
-| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — author drafts landed |
+| Recognition rewrite (Intro + 8 chapters + Conclusion) | **Active** — author drafts + recognition pass |
 
 ## Manuscript hub
 
@@ -21,16 +21,16 @@ Introduction + eight chapters + Conclusion are in recognition-first prose. Essay
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — The Meeting Everyone Remembered Differently | Author draft | Landed July 2026; scene before subject; governing close: works as often as it does |
-| Ch 1 — The Show That Opens Friday | Author draft | Landed July 2026; theater through Thursday→Friday; late pattern: surrender sole authorship |
-| Ch 2 — We Did Not Agree to the Same Thing | Author draft | Landed July 2026; engineers at 10:47→1:30; temporary place without becoming one |
-| Ch 3 — The Person Who Keeps the Spreadsheet | Author draft | Landed July 2026; temporary spreadsheet → named work; who remembers |
-| Ch 4 — The Ritual Before the Lift | Author draft | Landed July 2026; crane ritual; uncertainty has somewhere to go |
-| Ch 5 — What the Dashboard Cannot See | Author draft | Landed July 2026; green number; whole is not what we can see |
-| Ch 6 — The Nodding Room | Author draft | Landed July 2026; green wall; remain part of the work after they stop |
-| Ch 7 — Faster Than Care Can Move | Author draft | Landed July 2026; ED clock; when faster would make it less than care |
-| Ch 8 — What the Next Team Inherits | Author draft | Landed July 2026; acronym residue; past in room without final word |
-| Conclusion — The Show Opens Anyway | Author draft | Landed July 2026; curtain rises; something none could make alone |
+| Introduction — The Meeting Everyone Remembered Differently | Recognition pass | Kept as-is; scene before subject; governing close intact |
+| Ch 1 — The Show That Opens Friday | Recognition pass | Kept as-is; ending surrender compression intact |
+| Ch 2 — We Did Not Agree to the Same Thing | Recognition pass | Light compress: Q-stacks, agreement taxonomy, constraints list |
+| Ch 3 — The Person Who Keeps the Spreadsheet | Recognition pass | Light compress: domain parade, exception litany, identity/how-to |
+| Ch 4 — The Ritual Before the Lift | Recognition pass | Light compress: facilitator scripts, docs pedagogy, constraint Qs |
+| Ch 5 — What the Dashboard Cannot See | Recognition pass | Light compress: Ch3 invisible-labor re-lecture trimmed |
+| Ch 6 — The Nodding Room | Recognition pass | Light compress: practice scaffold, values restatement, analogies |
+| Ch 7 — Faster Than Care Can Move | Recognition pass | Light compress: parallel pairs, form/checklist scaffolds |
+| Ch 8 — What the Next Team Inherits | Recognition pass | Light compress: diagnostic Qs, joke/blame lists, repair-if echo |
+| Conclusion — The Show Opens Anyway | Recognition pass | Kept as-is; chapter-echo litany treated as earned compression |
 | Glossary | Held | From essay edition; redesign deferred |
 | Bibliography | Held | From essay edition; update with drafts |
 
@@ -40,7 +40,7 @@ Essay-edition agents under [`docs/agents/`](agents/) applied to the archived mon
 
 ## Next actions
 
-1. Optional recognition / echo pass across Introduction–Conclusion.
+1. Optional experience-deepening or second echo pass if author requests.
 2. Revisit glossary vocabulary strategy now that patterns have been lived in prose.
 3. Build smoke test when ready: `make build-book DIR=books/why-collaboration-is-so-hard`.
 
