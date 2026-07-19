@@ -176,14 +176,16 @@ Readers should experience collaboration before they receive language for it.
 
 ## Chapter 8 — What the Next Team Inherits
 
-- **Opening object/image:** Old initiatives; binders; residue; the cynicism new teams walk into.
+**Status:** Author draft landed (`parts/chapter-8-what-the-next-team-inherits.md`).
+
+- **Opening object/image:** Consultant’s acronym; careful laughter; “We don’t talk about that.”
 - **Guiding question:** Why does failed collaboration survive inside future collaboration?
-- **Initial mystery:** The new kickoff is haunted by people who are no longer in the room.
-- **Associative widenings:** Organizational memory; trust debt; “we tried that”; residue as structure; initiatives that left scars without leaving learning.
-- **Ideas to preserve:** Residue; inherited distrust; memory that outlasts the project; why effort compounds or collapses across generations of teams.
-- **Late pattern:** Collaboration is never starting from zero; it inherits the emotional and procedural leftover of what came before.
-- **Ending image:** A new team opening a folder labeled with last year’s initiative name.
-- **Cautions:** Avoid tidy “change management” tips. End in recognition, not a playbook.
+- **Initial mystery:** New initiative inherits responses without inheriting the stories; past becomes structure.
+- **Associative widenings:** Cynicism as risk management; learned silence; jokes as warnings; blame too small; bureaucracy as memory without story; repair via complete past and changed conditions; bounded pilot for evening transport handoff.
+- **Ideas to preserve:** Residue; memory as information not prophecy; usable inheritance; promises outrunning structure; stay without erasing the past.
+- **Late pattern / compression:** They stayed anyway—not because the past had been erased, but because it had finally been allowed into the room without being given the final word.
+- **Ending image:** Plain name for the handoff; old acronym no longer governs; smaller plan, unfinished map, imperfect trust.
+- **Cautions:** Avoid tidy change-management tips. Do not instruct people to “let go.” Do not treat cynicism as mere attitude.
 - **Primary source units:**
   - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-11-residue.md`
 
