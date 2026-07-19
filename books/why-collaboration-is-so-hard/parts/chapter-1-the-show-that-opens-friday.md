@@ -42,6 +42,8 @@ Someone should have communicated the change.
 
 Someone should have owned the dependency between the doorway, the entrance, and the lighting cue.
 
+From the edge of the rehearsal, the conclusion can look obvious: this is a communication failure. If the set crew had told the actors, the entrance would have held. That explanation is reasonable. It may also be incomplete. The brace became necessary when the load revealed itself. The shift was small enough that it did not look like news. Communication still matters. But treating the wobble only as a missing announcement can hide what the work has entered—a condition where no announcement could have mapped every sideways consequence before the consequence appeared.
+
 Sometimes this search is useful. Complex work still needs responsibility. People should communicate changes. Decisions should be recorded. The fact that no one sees the whole does not mean no one is accountable for anything.
 
 But the search can also hide what the work has become.
@@ -70,15 +72,13 @@ During the work itself, ownership is less satisfying.
 
 People ask questions they may not say aloud. What am I responsible for? How much influence do I have over what will eventually carry my name? If the project fails, which part of the failure will be attributed to me? If it succeeds, will anyone notice what I contributed? How much of my judgment am I expected to surrender before my participation becomes cooperation?
 
-These are sometimes dismissed as ego.
+These are sometimes dismissed as ego. The person should care about the work, not the credit. If they were truly collaborative, the questions would not arise.
 
-They are also questions of orientation.
+That reading is available.
 
-Individual work offers a relatively stable relationship between effort and result. You write the page. You repair the machine. You prepare the meal. Reality may still interfere, but you can usually trace a line between what you decided and what happened.
+It may also be too quick.
 
-Collaboration interrupts that line.
-
-You may make an excellent contribution that becomes invisible inside a larger failure. You may receive praise for an outcome that depended on labor you barely saw. Someone else may revise your work and improve it in a way that also makes it feel less like yours. A decision you opposed may succeed. A decision you supported may create harm through circumstances nobody predicted. The relationship between judgment, action, credit, and consequence becomes harder to follow.
+In individual work, effort and result still share a line you can follow home. You write the page. You repair the machine. You prepare the meal. Reality may interfere, but judgment and consequence usually remain near enough to keep a person oriented. Collaboration breaks that nearness. An excellent contribution can vanish inside a larger failure. Praise can arrive for labor you barely saw. A revision can improve the work and make it feel less like yours. Asking whether you will still be able to recognize yourself in the outcome is not only vanity. It can be the sound of someone trying not to disappear inside a field where judgment no longer guarantees consequence.
 
 That confusion is not incidental to collaboration. It is part of what collaboration is.
 
@@ -94,7 +94,13 @@ Not the disappearance of judgment. Not passive acceptance of whatever the group 
 
 That is harder than most celebrations of teamwork admit.
 
-We like to imagine collaborative people as naturally open, flexible, and untroubled by revision. But resistance to shared work often comes from something more understandable than selfishness. People may tighten control because control helps them remain oriented. They may over-specify tasks because ambiguity makes responsibility feel dangerous. They may demand agreement before the group has enough information because agreement restores the feeling that someone knows where the work is going.
+We like to imagine collaborative people as naturally open, flexible, and untroubled by revision. When someone resists another change, the available story is selfishness: they cannot let go; they are protecting their vision; they are not team players.
+
+Sometimes that story is true.
+
+Sometimes it is incomplete.
+
+A director who refuses one more revision on Thursday night may look like the obstacle in the room. She is blocking contribution. She is clinging. What the story can miss is that she is also trying to keep a shape the audience will still recognize after three days of necessary concessions. A writer who protects a sentence after several rounds of notes may be vain. They may also be trying to remain oriented inside feedback that has become a crowd. People tighten control because control helps them know where they stand when no one can hold the whole. They over-specify tasks because ambiguity makes responsibility feel like exposure. They demand agreement early because agreement restores the feeling that someone still knows where the work is going.
 
 The desire to control the whole is often strongest when no one can.
 
