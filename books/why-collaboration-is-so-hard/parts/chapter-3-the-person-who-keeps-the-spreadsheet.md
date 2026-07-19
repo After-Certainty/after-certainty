@@ -82,9 +82,11 @@ This is one of collaboration’s quiet bargains: efficiency often appears becaus
 
 From the outside, the arrangement can look natural. Some people are organized. Some people have good memories. Some are generous with context. Some are simply better at seeing how pieces connect.
 
-But natural ability does not explain why the same person keeps receiving the questions.
+The department may even say so out loud. She is just like that. She has always kept track. The explanation feels kind, and it ends the inquiry.
 
-Once someone becomes known as the person who remembers, the group begins organizing itself around that fact. People take fewer notes because she took notes. They enter meetings less prepared because she can reconstruct what happened. New members are directed toward her instead of toward documentation that does not yet exist. Decisions remain informal because everyone knows who can explain them later.
+Perhaps.
+
+But natural ability does not explain why the same person keeps receiving the questions. A gift for noticing does not, by itself, create a queue of “quick questions.” Once someone becomes known as the person who remembers, the group begins organizing itself around that fact. People take fewer notes because she took notes. They enter meetings less prepared because she can reconstruct what happened. New members are directed toward her instead of toward documentation that does not yet exist. Decisions remain informal because everyone knows who can explain them later.
 
 The person becomes helpful in ways that make the group more dependent on her helpfulness.
 
@@ -178,9 +180,13 @@ This is why the person holding context can appear overly cautious. Others see a 
 
 She says, “It is more complicated than that.”
 
-The room hears resistance.
+The room hears resistance. She is slowing the decision. She is attached to the old way. She cannot let a simple change remain simple.
 
-She may simply remember more of the complication.
+That reading is available.
+
+It may also be incomplete.
+
+She may simply remember more of the complication—the adjunct contract tied to the cell, the transfer student who will lose a year if the sequence shifts, the accreditation phrase that already failed once. The row looks administrative from a distance. Up close it is a map of people who are not in the room. What sounds like obstruction may be the sound of those people becoming briefly visible.
 
 Knowledge of history changes the emotional weight of proposals.
 
@@ -382,7 +388,13 @@ The manager thanks the team’s most reliable engineer and adds them to the next
 
 The family tells one sibling, “We don’t know what we would do without you,” and continues not learning the medication schedule.
 
-Appreciation without redistribution is often how dependency apologizes for itself.
+The praise can feel like the end of the story. Someone was seen. The debt was named. Everyone can return to work with a clearer conscience.
+
+That comfort is real.
+
+It can also be too quick.
+
+Appreciation without redistribution is often how dependency apologizes for itself. The sentence that sounds like gratitude—“we could not do this without you”—functions as a warning when no one asks what the person should no longer have to carry.
 
 The deeper form of recognition asks what the person should no longer have to carry.
 
