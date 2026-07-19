@@ -104,7 +104,7 @@ A director who refuses one more revision on Thursday night may look like the obs
 
 The desire to control the whole is often strongest when no one can.
 
-A leader sees the project becoming less coherent and inserts more approvals. A writer receives feedback from several editors and tries to protect every original sentence. A manager asks for increasingly detailed plans because the work no longer resembles the promise made months earlier. Each action may be an attempt to preserve quality. Each may also prevent the contributions that would allow the work to become something better than the original plan.
+A leader sees the project becoming less coherent and inserts more approvals. A manager asks for increasingly detailed plans because the work no longer resembles the promise made months earlier. Each action may be an attempt to preserve quality. Each may also prevent the contributions that would allow the work to become something better than the original plan.
 
 The problem is not that authorship has no value.
 
