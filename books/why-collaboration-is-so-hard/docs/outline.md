@@ -1,0 +1,215 @@
+# Why Collaboration Is So Hard — Recognition Outline
+
+Canonical source for introduction, chapter ordering, and chapter-level planning fields.
+
+Governing docs: [`book-rules.md`](book-rules.md) · [`status.md`](status.md) · manuscript hub [`../index.md`](../index.md)
+
+Source edition (essay archive): [`research/source-edition/`](research/source-edition/)
+
+---
+
+## Book movement
+
+Readers should experience collaboration before they receive language for it.
+
+1. Begin with an ordinary observation.
+2. Stay inside that observation long enough for tension to appear.
+3. Gradually widen into larger organizational and social patterns.
+4. Compress those observations into one memorable pattern.
+5. Return to the original observation so the reader now sees it differently.
+
+**Emotional thesis (arrive late; do not announce as framework):**
+
+> Collaboration asks us to keep contributing to work that none of us can fully see, fully control, or fully claim as our own.
+
+**Reader outcome:** “I’ve lived every one of these situations. I just never had language for why they felt that way.”
+
+---
+
+## Introduction — The Meeting Everyone Remembered Differently
+
+- **Opening object/image:** Five people leave the same meeting believing different things were decided.
+- **Guiding question:** How can shared work begin when people do not even share the same memory of what was agreed?
+- **Initial mystery:** Competence and goodwill are present; a common record of the room is not.
+- **Associative widenings:** Hallway debriefs; Slack summaries that diverge; “I thought we decided…” emails; committees that vote without noticing they voted on different motions.
+- **Ideas to preserve (experience before name):** Incomplete control; uneven visibility of what was said; the gap between theatrical agreement and usable next steps; disagreement that looks like mishearing rather than conflict.
+- **Late pattern (optional naming):** The whole problem of collaboration arrives as lived mismatch—before frameworks, before blame.
+- **Ending image:** The same conference room, emptied, with five incompatible next actions already in motion.
+- **Cautions:** Do not define terminology. Do not preview the chapter map as a lecture syllabus. Trust the scene to carry the book’s problem.
+- **Primary source units:**
+  - `research/source-edition/front-matter/core-reframe.md`
+  - `research/source-edition/front-matter/organizing-question.md`
+  - `research/source-edition/parts/part-1-contribution/chapter-3-alignment-without-full-understanding.md`
+  - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-10-when-disagreement-becomes-threat.md`
+
+---
+
+## Chapter 1 — The Show That Opens Friday
+
+- **Opening object/image:** Community theater; tech week; a show that must open Friday.
+- **Guiding question:** What kind of work becomes possible only when no one can keep it entirely theirs?
+- **Initial mystery:** A script everyone “agreed to” in spring is not what arrives on opening night—and the change is not failure.
+- **Associative widenings:** Shared authorship; surrender of control; emergence under constraint; ensembles, labs, mutual-aid kitchens, watershed councils.
+- **Ideas to preserve:** Diffuse ownership; interaction under constraint; outcomes no individual authored in advance; fragility as structure, not defect.
+- **Late pattern:** Some work becomes possible only after everyone gives up the right for it to remain entirely theirs.
+- **Ending image:** Curtain; audience applause for a show none of the makers singly owns.
+- **Cautions:** Expand and stay inside the theater; do not rush to organizational theory. Avoid “shared authorship” as an early heading.
+- **Primary source units:**
+  - `research/source-edition/parts/part-1-contribution/chapter-1-what-no-one-owns-alone.md`
+  - `research/source-edition/parts/part-4-seeing-collaboration-more-clearly/chapter-13-fragility-is-not-failure.md`
+  - `research/source-edition/parts/part-4-seeing-collaboration-more-clearly/chapter-14-why-the-effort-still-matters.md`
+  - `research/source-edition/back-matter/conclusion-why-the-effort-still-matters.md`
+
+---
+
+## Chapter 2 — We Did Not Agree to the Same Thing
+
+- **Opening object/image:** Engineering meetings; transit planning; library examples—people believing different work is happening.
+- **Guiding question:** How do groups move when full consensus never arrives?
+- **Initial mystery:** Progress continues even while private maps of the project diverge.
+- **Associative widenings:** Translators between vocabularies; “ready” meaning three different things; surgical/anesthesia compatibility without identical theories; stalled rooms that demand theatrical agreement.
+- **Ideas to preserve:** Partial coherence lived first; enough agreement for the next step; collaboration without perfect consensus; honest confusion as cheap correction.
+- **Late pattern:** Groups need overlapping enough understanding to take the next step—not identical minds.
+- **Ending image:** Return to the meeting where two people leave with different plans and still manage a usable Monday.
+- **Cautions:** Do not open with the phrase *partial coherence*. Let recognition precede vocabulary (or skip the label).
+- **Primary source units:**
+  - `research/source-edition/parts/part-1-contribution/chapter-3-alignment-without-full-understanding.md`
+  - `research/source-edition/parts/part-1-contribution/chapter-2-why-shared-work-feels-unstable.md`
+
+---
+
+## Chapter 3 — The Person Who Keeps the Spreadsheet
+
+- **Opening object/image:** Associate professor; “temporary” spreadsheet; invisible labor of organizational memory.
+- **Guiding question:** Who quietly remembers what everyone else forgot—and what does that cost?
+- **Initial mystery:** Intellectual debate happens in the room; the next real step depends on work no agenda names.
+- **Associative widenings:** Handoff debt; “quick question” emails; risk asymmetry; emotional labor; accreditation, contracts, registrar deadlines.
+- **Ideas to preserve:** Contribution asymmetry; uneven visibility; maintenance load; memory inside organizations; exit options and reputation risk.
+- **Late pattern:** Every successful collaboration quietly asks someone to remember what everyone else forgot.
+- **Ending image:** The spreadsheet still called temporary, still open after the meeting adjourns.
+- **Cautions:** Stay with the person, not a taxonomy of load types. Do not moralize; diagnose the structure.
+- **Primary source units:**
+  - `research/source-edition/parts/part-1-contribution/chapter-4-contribution-moves-unevenly.md`
+
+---
+
+## Chapter 4 — The Ritual Before the Lift
+
+- **Opening object/image:** Construction safety briefing; checklists; turn-taking; documentation.
+- **Guiding question:** What do small rituals actually do when they cannot remove danger?
+- **Initial mystery:** Briefings feel bureaucratic until the alternative—unheld uncertainty—becomes visible.
+- **Associative widenings:** Facilitation; retrospectives; call sheets; protocols that stabilize without pretending certainty; trust that accumulates through repeated practice.
+- **Ideas to preserve:** Stabilizing practices; legibility as aid (not yet its failure modes); stable collaboration as continued contribution under uncertainty.
+- **Late pattern:** Good collaboration does not eliminate uncertainty. It gives uncertainty somewhere to go.
+- **Ending image:** The pause before the lift—voices checked, load known enough to proceed.
+- **Cautions:** Do not sell rituals as cure. Respect practices without managerial optimism.
+- **Primary source units:**
+  - `research/source-edition/parts/part-2-stabilizing-collaboration/chapter-5-the-structures-that-hold-collaboration-together.md`
+  - `research/source-edition/parts/part-2-stabilizing-collaboration/chapter-6-legibility-and-trust.md` *(stabilizing face only; dashboard failure → Ch 5)*
+  - `research/source-edition/parts/part-2-stabilizing-collaboration/chapter-7-stable-collaboration.md`
+
+---
+
+## Chapter 5 — What the Dashboard Cannot See
+
+- **Opening object/image:** Nonprofit metrics; board reporting; visibility through numbers.
+- **Guiding question:** What disappears when the measurable stands in for the whole?
+- **Initial mystery:** Clearer metrics calm the room and narrow the work at the same time.
+- **Associative widenings:** Site visits vs dashboards; outputs vs care; auditability cheaper than trust; optimization for what is counted.
+- **Ideas to preserve:** Legibility’s double edge; mistaking measurement for understanding; trust displaced by reports; invisible field labor.
+- **Late pattern:** What can be shown on a screen is never the whole collaboration—and treating it as such remakes the work.
+- **Ending image:** The dashboard green; a field worker’s uncounted hour.
+- **Cautions:** Avoid anti-metrics rant. Show the board’s anxiety and the director’s bind.
+- **Primary source units:**
+  - `research/source-edition/parts/part-2-stabilizing-collaboration/chapter-6-legibility-and-trust.md`
+  - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-9-when-efficiency-becomes-coercion.md` *(measurement echo)*
+
+---
+
+## Chapter 6 — The Nodding Room
+
+- **Opening object/image:** Forced alignment; false consensus; meetings where everyone appears to agree.
+- **Guiding question:** When does clarity stop helping and start coercing?
+- **Initial mystery:** Psychological safety language in a room that no longer permits real disagreement.
+- **Associative widenings:** Alignment theater; dissent as threat; clarity-as-control; silence after a decisive summary; committee disagreement punished as disloyalty.
+- **Ideas to preserve:** Clarity becoming control; disagreement becoming threat; how “we’re aligned” becomes a weapon; safety that requires nodding.
+- **Late pattern:** Clarity slowly becomes coercion when the cost of not nodding exceeds the cost of being wrong together.
+- **Ending image:** The same room; nods; no one asking the question that would reopen the work.
+- **Cautions:** Do not lecture on psychological safety frameworks. Stay in the room’s air.
+- **Primary source units:**
+  - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-8-when-clarity-becomes-control.md`
+  - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-10-when-disagreement-becomes-threat.md`
+
+---
+
+## Chapter 7 — Faster Than Care Can Move
+
+- **Opening object/image:** Emergency department; throughput initiative; efficiency.
+- **Guiding question:** Where does collaboration become mechanical—and what drops out when it does?
+- **Initial mystery:** Length of stay falls; something nurses can no longer do for families also falls.
+- **Associative widenings:** Invisible work; optimization; informal checks (“Can you look at this with me?”); bottlenecks that were once judgment.
+- **Ideas to preserve:** Efficiency as coercion; care that cannot be scheduled; collaboration stripped to mechanics; what no dashboard captures (bridge from Ch 5).
+- **Late pattern:** Past a certain speed, collaboration stops being shared judgment and becomes only coordinated motion.
+- **Ending image:** A discharge that meets the metric and misses the person.
+- **Cautions:** Not an anti-efficiency pamphlet. Hold the real pressure of emergency care.
+- **Primary source units:**
+  - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-9-when-efficiency-becomes-coercion.md`
+
+---
+
+## Chapter 8 — What the Next Team Inherits
+
+- **Opening object/image:** Old initiatives; binders; residue; the cynicism new teams walk into.
+- **Guiding question:** Why does failed collaboration survive inside future collaboration?
+- **Initial mystery:** The new kickoff is haunted by people who are no longer in the room.
+- **Associative widenings:** Organizational memory; trust debt; “we tried that”; residue as structure; initiatives that left scars without leaving learning.
+- **Ideas to preserve:** Residue; inherited distrust; memory that outlasts the project; why effort compounds or collapses across generations of teams.
+- **Late pattern:** Collaboration is never starting from zero; it inherits the emotional and procedural leftover of what came before.
+- **Ending image:** A new team opening a folder labeled with last year’s initiative name.
+- **Cautions:** Avoid tidy “change management” tips. End in recognition, not a playbook.
+- **Primary source units:**
+  - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-11-residue.md`
+
+---
+
+## Conclusion — The Show Opens Anyway
+
+- **Opening/return image:** Community theater; the audience never sees all the compromises.
+- **Guiding question:** Given everything this book has shown, why does the effort still matter?
+- **Movement:** Return to the show; compress the book’s recognitions without inventory lecture; affirm that something beautiful (or necessary) can still emerge.
+- **Ideas to preserve:** Affirmative case from former Ch 14; invariant substance without framework parade; organizations, like audiences, rarely see the full cost of making.
+- **Late pattern:** Neither audiences nor most organizations see all the compromises—yet shared work still opens.
+- **Ending image:** Lights up; the show that no one singly authored, running anyway.
+- **Cautions:** Do not summarize chapter-by-chapter. Do not reinstall the four-part monograph voice. Transform the theater image; do not merely reprise it.
+- **Primary source units:**
+  - `research/source-edition/parts/part-4-seeing-collaboration-more-clearly/chapter-14-why-the-effort-still-matters.md`
+  - `research/source-edition/back-matter/conclusion-why-the-effort-still-matters.md`
+  - `research/source-edition/parts/part-1-contribution/chapter-1-what-no-one-owns-alone.md`
+
+---
+
+## Source map (essay edition → rewrite units)
+
+| Rewrite unit | Primary archived sources |
+|--------------|--------------------------|
+| Introduction | Core Reframe; Organizing Question; Ch 3; Ch 10 |
+| Chapter 1 | Ch 1; Ch 13–14; Conclusion |
+| Chapter 2 | Ch 3; Ch 2 |
+| Chapter 3 | Ch 4 |
+| Chapter 4 | Ch 5–7 |
+| Chapter 5 | Ch 6; Ch 9 (echo) |
+| Chapter 6 | Ch 8; Ch 10 |
+| Chapter 7 | Ch 9 |
+| Chapter 8 | Ch 11 |
+| Conclusion | Ch 14; Conclusion; Ch 1 (return) |
+
+Secondary / optional mine: What This Book Is; Part bridges; Ch 12 Diagnostic Lenses (fold lenses into scenes rather than restoring a toolkit chapter).
+
+---
+
+## Structural notes
+
+- No part bridges in the rewrite spine.
+- No front-matter trio (Core Reframe / What This Book Is / Organizing Question)—their substance feeds Introduction and Chapter 1.
+- Glossary remains in back matter for now; vocabulary strategy deferred until drafted chapters show which terms still earn names.
+- Chapter architecture reference (optional): [`../../when-others-become-leaders/docs/chapter-architecture.md`](../../when-others-become-leaders/docs/chapter-architecture.md)
