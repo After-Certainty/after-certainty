@@ -159,14 +159,16 @@ Readers should experience collaboration before they receive language for it.
 
 ## Chapter 7 — Faster Than Care Can Move
 
-- **Opening object/image:** Emergency department; throughput initiative; efficiency.
+**Status:** Author draft landed (`parts/chapter-7-faster-than-care-can-move.md`).
+
+- **Opening object/image:** ED tracking board; red row; woman short of breath; daughter in the doorway.
 - **Guiding question:** Where does collaboration become mechanical—and what drops out when it does?
-- **Initial mystery:** Length of stay falls; something nurses can no longer do for families also falls.
-- **Associative widenings:** Invisible work; optimization; informal checks (“Can you look at this with me?”); bottlenecks that were once judgment.
-- **Ideas to preserve:** Efficiency as coercion; care that cannot be scheduled; collaboration stripped to mechanics; what no dashboard captures (bridge from Ch 5).
-- **Late pattern:** Past a certain speed, collaboration stops being shared judgment and becomes only coordinated motion.
-- **Ending image:** A discharge that meets the metric and misses the person.
-- **Cautions:** Not an anti-efficiency pamphlet. Hold the real pressure of emergency care.
+- **Initial mystery:** Throughput is care and still cannot measure how long understanding takes; speed from overlapping forms of care, not villains.
+- **Associative widenings:** Support / engineering / school / casework; checkboxes too certain for life; extraction as resilience; mechanical coordination without mutual updating; brittleness; humane optimization moves care earlier.
+- **Ideas to preserve:** Waste vs judgment; clock cannot distinguish; pause with shape; distance and proximity; portal message as slower evidence.
+- **Late pattern / compression:** A system can measure how long care takes. Only people can decide when moving faster would make it something less than care.
+- **Ending image:** Admission for observation; red row clears; thank-you message never in the throughput report.
+- **Cautions:** Not an anti-efficiency pamphlet. Do not declare every delay sacred. Hold crowding, ambulances, and waiting rooms.
 - **Primary source units:**
   - `research/source-edition/parts/part-3-when-collaboration-collapses/chapter-9-when-efficiency-becomes-coercion.md`
 
