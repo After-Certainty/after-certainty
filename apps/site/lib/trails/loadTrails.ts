@@ -59,6 +59,10 @@ export function getTrailSitemapSlugs(): string[] {
   return getPublishedTrails().map((t) => t.slug);
 }
 
+export function getTrailSearchBridges() {
+  return getTrailsManifest().searchBridges ?? [];
+}
+
 export function slugifyTheme(theme: string): string {
   return theme
     .toLowerCase()

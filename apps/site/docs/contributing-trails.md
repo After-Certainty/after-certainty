@@ -124,6 +124,22 @@ Lower `featuredRank` appears first. Featured trails surface on `/trails`, Start 
 
 IDs must exist in the same manifest. Self-reference fails validation.
 
+## Search bridges
+
+Add `searchBridges` at the manifest root to surface curated trails above Global Search results when a query matches authored terms (same pattern as questions):
+
+```json
+"searchBridges": [
+  {
+    "terms": ["reading trail judgment", "judgment before certainty"],
+    "trailIds": ["judgment-before-certainty"],
+    "note": "Optional editorial note"
+  }
+]
+```
+
+Terms use substring matching (case-insensitive). Up to two matched trails appear in the "Curated reading trails" callout on `/search?q=…`. Unknown `trailIds` fail validation.
+
 ## Estimated time
 
 Per-stop minutes default by entity type and sum to the trail total shown on cards and detail pages. Override with `estimatedMinutes` on individual stops when you have a reliable estimate.
@@ -138,6 +154,7 @@ Validation runs in CI via Vitest ([`lib/trails/validate.test.ts`](../lib/trails/
 - Unknown entity references, unpublished books on published trails
 - Missing `whyThisFollows` after stop 1, missing stop descriptions
 - Invalid `relatedTrailIds`, self-reference
+- Unknown `trailIds` in `searchBridges`
 
 **Warnings (editorial quality):**
 

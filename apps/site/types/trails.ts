@@ -26,10 +26,17 @@ export type TrailDefinition = {
   reviewNotes?: string;
 };
 
+export type TrailSearchBridge = {
+  terms: string[];
+  trailIds: string[];
+  note?: string;
+};
+
 export type TrailsManifest = {
   manifestVersion: number;
   updatedAt?: string;
   trails: TrailDefinition[];
+  searchBridges?: TrailSearchBridge[];
 };
 
 export type EnrichedTrail = TrailDefinition & {

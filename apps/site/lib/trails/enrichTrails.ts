@@ -68,3 +68,30 @@ export function buildTrailSearchHandoffUrl(trail: TrailDefinition): string {
   const q = encodeURIComponent(trail.themes.slice(0, 2).join(" "));
   return `/search?q=${q}`;
 }
+
+/** Match curated trails for a search query using manifest search bridges. */
+export function matchTrailsForSearchQuery(
+  query: string,
+  manifest: {
+    trails: TrailDefinition[];
+    searchBridges?: { terms: string[]; trailIds: string[] }[];
+  },
+  limit = 2,
+): TrailDefinition[] {
+  const normalized = query.trim().toLowerCase();
+  if (!normalized) return [];
+
+  const matchedIds = new Set<string>();
+  for (const bridge of manifest.searchBridges ?? []) {
+    const hit = bridge.terms.some(
+      (term) => normalized.includes(term.toLowerCase()) || term.toLowerCase().includes(normalized),
+    );
+    if (hit) {
+      for (const id of bridge.trailIds) matchedIds.add(id);
+    }
+  }
+
+  return manifest.trails
+    .filter((t) => t.status === "published" && matchedIds.has(t.id))
+    .slice(0, limit);
+}

@@ -45,10 +45,17 @@ const trailSchema = z
     }
   });
 
+const searchBridgeSchema = z.object({
+  terms: z.array(z.string().min(1)).min(1),
+  trailIds: z.array(z.string().min(1)).min(1),
+  note: z.string().optional(),
+});
+
 export const trailsManifestSchema = z.object({
   manifestVersion: z.number().int().positive(),
   updatedAt: z.string().optional(),
   trails: z.array(trailSchema),
+  searchBridges: z.array(searchBridgeSchema).optional(),
 });
 
 export type ParsedTrailsManifest = z.infer<typeof trailsManifestSchema>;

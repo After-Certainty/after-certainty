@@ -77,4 +77,10 @@ test.describe("Curated Reading Trails", () => {
       page.getByRole("heading", { name: "Leadership After the Person", level: 1 }),
     ).toBeVisible();
   });
+
+  test("search shows curated trails for matching query", async ({ page }) => {
+    await page.goto("/search?q=reading+trail+judgment");
+    await expect(page.getByRole("heading", { name: "Curated reading trails" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Judgment Before Certainty/i })).toBeVisible();
+  });
 });

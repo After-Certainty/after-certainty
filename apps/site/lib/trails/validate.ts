@@ -34,7 +34,7 @@ function stopEntityIds(trail: TrailDefinition): string[] {
 }
 
 export function collectTrailHealthIssues(input: {
-  manifest: Pick<TrailsManifest, "trails">;
+  manifest: Pick<TrailsManifest, "trails" | "searchBridges">;
   graph: SemanticGraph;
   catalogBooks: readonly CatalogBook[];
   podcastEpisodes: readonly PodcastEpisode[];
@@ -226,11 +226,24 @@ export function collectTrailHealthIssues(input: {
     }
   }
 
+  for (const bridge of manifest.searchBridges ?? []) {
+    for (const trailId of bridge.trailIds) {
+      if (!manifest.trails.some((t) => t.id === trailId)) {
+        issues.push({
+          severity: "error",
+          code: "unknown_bridge_trail",
+          trailId,
+          detail: `Search bridge references unknown trail "${trailId}"`,
+        });
+      }
+    }
+  }
+
   return issues;
 }
 
 export function assertTrailsManifestHealthy(input: {
-  manifest: Pick<TrailsManifest, "trails">;
+  manifest: Pick<TrailsManifest, "trails" | "searchBridges">;
   graph: SemanticGraph;
   catalogBooks: readonly CatalogBook[];
   podcastEpisodes: readonly PodcastEpisode[];
@@ -244,7 +257,7 @@ export function assertTrailsManifestHealthy(input: {
 }
 
 export function collectTrailHealthReport(input: {
-  manifest: Pick<TrailsManifest, "trails">;
+  manifest: Pick<TrailsManifest, "trails" | "searchBridges">;
   graph: SemanticGraph;
   catalogBooks: readonly CatalogBook[];
   podcastEpisodes: readonly PodcastEpisode[];

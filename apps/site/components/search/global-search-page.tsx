@@ -26,7 +26,9 @@ import {
   trackSearchSelect,
 } from "@/lib/analytics/track";
 import { SearchCuratedQuestions } from "@/components/search/search-curated-questions";
+import { SearchCuratedTrails } from "@/components/search/search-curated-trails";
 import type { EnrichedQuestion, QuestionSearchBridge } from "@/types/questions";
+import type { EnrichedTrail, TrailSearchBridge } from "@/types/trails";
 import { paginateExploreIndexItems } from "@/lib/explore/explore-index-browse";
 import { searchWithIndex, type SearchHit } from "@/lib/search/query";
 import type { SearchEntityType } from "@/lib/search/types";
@@ -47,6 +49,8 @@ type GlobalSearchPageProps = {
   initialPage?: string;
   curatedQuestions?: EnrichedQuestion[];
   questionSearchBridges?: QuestionSearchBridge[];
+  curatedTrails?: EnrichedTrail[];
+  trailSearchBridges?: TrailSearchBridge[];
 };
 
 function GlobalSearchPageInner({
@@ -55,6 +59,8 @@ function GlobalSearchPageInner({
   initialPage = "",
   curatedQuestions = [],
   questionSearchBridges = [],
+  curatedTrails = [],
+  trailSearchBridges = [],
 }: GlobalSearchPageProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -326,6 +332,14 @@ function GlobalSearchPageInner({
             query={urlState.q}
             enrichedQuestions={curatedQuestions}
             searchBridges={questionSearchBridges}
+          />
+        ) : null}
+
+        {indexState.status === "ready" && urlState.q ? (
+          <SearchCuratedTrails
+            query={urlState.q}
+            enrichedTrails={curatedTrails}
+            searchBridges={trailSearchBridges}
           />
         ) : null}
 

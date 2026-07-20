@@ -1,6 +1,37 @@
 {
   "manifestVersion": 1,
   "updatedAt": "2026-07-20",
+  "searchBridges": [
+    {
+      "terms": [
+        "reading trail judgment",
+        "judgment before certainty",
+        "judgment under uncertainty"
+      ],
+      "trailIds": ["judgment-before-certainty"],
+      "note": "Trail for judgment and uncertainty themes"
+    },
+    {
+      "terms": ["reading trail leadership", "leadership after the person", "influence inheritance"],
+      "trailIds": ["leadership-after-the-person"]
+    },
+    {
+      "terms": ["reading trail meaning", "meaning under pressure", "meaning compression"],
+      "trailIds": ["meaning-under-pressure"]
+    },
+    {
+      "terms": ["systems cannot correct", "reading trail systems", "feedback loops institutions"],
+      "trailIds": ["systems-without-correction"]
+    },
+    {
+      "terms": ["software engineers", "technical judgment", "reading trail software"],
+      "trailIds": ["software-judgment-trail"]
+    },
+    {
+      "terms": ["curated trail", "reading trail", "reading trails"],
+      "trailIds": ["judgment-before-certainty", "meaning-under-pressure"]
+    }
+  ],
   "trails": [
     {
       "id": "judgment-before-certainty",
