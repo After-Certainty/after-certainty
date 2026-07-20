@@ -1,0 +1,48 @@
+slug: intent-gets-assigned-after-the-fact
+title: Intent gets assigned after the fact
+summary: Motive is inferred and recorded before certainty is possible; consequence
+  rewrites the story of what someone meant.
+activePatterns:
+- intent-gets-assigned
+- meaning-gets-distorted
+relatedConcepts:
+- certainty
+- meaning
+- interpretation
+- exposure
+relatedBooks:
+- how-meaning-moves
+recognitionSignals:
+- people defend incompatible accounts of the same moment using nearly identical words
+- records describe what someone must have meant after outcomes are known
+- intent and consequence get sorted into hero or villain narratives
+- newcomers inherit a cleaned story that omits the original uncertainty
+- asking about motive sounds like accusation once the archive has settled
+questions:
+- When was motive assigned—before or after the outcome was known?
+- What would the record say if uncertainty were still visible?
+counterbalances:
+- separate accounts of wording from accounts of motive until contact returns
+- mark retrospective intent claims as provisional in shared records
+trajectory:
+  earlySignals:
+  - gaps in the story get filled with plausible motive
+  - people infer why before they confirm what was said
+  intensificationSignals:
+  - consequence becomes the more useful account of what happened
+  - archives train future readers to treat inference as fact
+  failureModes:
+  - intent does not absolve consequence, but consequence erases nuance
+  - relationships reorganize around assigned motive rather than contact
+  restorationPaths:
+  - return to exact sequence before defending the moral read
+  - allow motive to remain unsettled while effects are addressed
+manifestations:
+  software:
+  - a postmortem assigns blame to a deploy comment stripped of its original context
+  leadership:
+  - a passing remark gets recorded as a decision the speaker did not recognize making
+  organizations:
+  - HR files describe intent while the people involved remember ambiguity
+  family:
+  - siblings inherit different stories about what a parent meant years ago

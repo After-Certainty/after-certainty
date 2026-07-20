@@ -1,0 +1,48 @@
+slug: responsibility-outruns-control
+title: Responsibility outruns control
+summary: Care and answerability persist after the ability to steer outcomes has thinned;
+  responsibility is not the same as mastery.
+activePatterns:
+- responsibility-persists-beyond-control
+- revisability-preserves-judgment
+relatedConcepts:
+- responsibility
+- agency
+- accountability
+- constraints
+relatedBooks:
+- after-certainty
+recognitionSignals:
+- people remain answerable for effects they cannot fully direct
+- control thins while obligation does not
+- revising a judgment feels costly even when new information arrives
+- finality compensates for uncertainty rather than contact with effects
+- care survives after mastery disappears
+questions:
+- What are you still answerable for that you can no longer steer?
+- Where would revisability restore judgment without demanding false certainty?
+counterbalances:
+- practice responsibility as responsiveness to effects, not only control
+- preserve revisability when finality would only protect comfort
+trajectory:
+  earlySignals:
+  - scope of responsibility exceeds scope of influence
+  - people keep explaining because action under uncertainty feels unsafe
+  intensificationSignals:
+  - judgment hardens to compensate for what cannot be controlled
+  - care continues while agency thins
+  failureModes:
+  - responsibility collapses into guilt or performance without contact
+  - revisability is lost while obligation remains
+  restorationPaths:
+  - name what can still be responded to even when it cannot be mastered
+  - stop when additional knowing no longer changes what responsibility requires
+manifestations:
+  software:
+  - an on-call engineer remains answerable for an outage shaped by architectural decisions they did not make
+  leadership:
+  - a public official faces judgment for outcomes distributed across institutions
+  organizations:
+  - a manager carries harm pathways that reports obscure until too late
+  family:
+  - a caregiver remains responsible for a parent's decline they cannot reverse

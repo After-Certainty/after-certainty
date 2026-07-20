@@ -1,0 +1,50 @@
+slug: feedback-stops-changing-decisions
+title: Feedback stops changing decisions
+summary: Signal still arrives but no longer moves plans, roles, or resource allocation;
+  learning thins while reporting continues.
+activePatterns:
+- feedback-drives-change
+- learning-collapses
+relatedConcepts:
+- feedback
+- vitality
+- adaptability
+- distance
+relatedBooks:
+- when-others-look-to-you-v1
+- coupling
+recognitionSignals:
+- dashboards update while the same delays continue outside the room
+- local adaptation slows even as public updates highlight growth
+- postmortems are praised while the same failure mode repeats
+- feedback moves through paperwork cycles that miss the window to matter
+- teams describe problems accurately without expecting plans to shift
+questions:
+- What signal arrived recently that did not change anything—and why?
+- If the facts pushed back today, would anyone have authority to move?
+counterbalances:
+- pair each report cycle with one decision that must move or be explicitly deferred
+- shorten the path from ground observation to someone who can reallocate
+trajectory:
+  earlySignals:
+  - feedback arrives late but still occasionally alters direction
+  - local fixes work while central narrative stays unchanged
+  intensificationSignals:
+  - teams stop expecting response when they escalate
+  - metrics are tuned to show stability rather than surface drift
+  failureModes:
+  - operating risk grows in the gap between reports and ground truth
+  - learning collapses while confidence in the narrative rises
+  restorationPaths:
+  - restore one feedback loop with named ownership and deadline
+  - measure whether the last three signals changed a decision
+manifestations:
+  software:
+  - on-call pages fire repeatedly without changing the deploy process
+  - customer pain shows up in support tickets before it reaches the roadmap
+  leadership:
+  - regional leaders file concerns that never alter the expansion script
+  organizations:
+  - audits document weak feedback paths while procedures multiply
+  family:
+  - a household keeps discussing the same problem without changing the rule that causes it

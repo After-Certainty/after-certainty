@@ -1,0 +1,50 @@
+slug: dissent-narrows-to-workaround
+title: Dissent narrows to workaround
+summary: Open disagreement thins until concerns move to side channels and private
+  workarounds that keep the public story intact.
+activePatterns:
+- disagreement-is-suppressed
+- learning-collapses
+relatedConcepts:
+- correction
+- legitimacy
+- decay
+- circulation
+relatedBooks:
+- when-others-look-to-you-v1
+- coupling
+recognitionSignals:
+- hallway conversations replay what the meeting refused to hold
+- challenge arrives as reporting without route changes
+- people remember what happened to the last person who spoke up
+- success and smooth updates make risk feel impolite to name in the room
+- the official channel stays open while the useful channel moves elsewhere
+questions:
+- Where does disagreement go after it leaves the agenda?
+- What would reopening correction cost the person who tries first?
+counterbalances:
+- ask for one concrete objection before locking a decision
+- protect the first person who names capacity or timeline mismatch
+trajectory:
+  earlySignals:
+  - concerns get voiced after the meeting, not in it
+  - people glance at the same blank line instead of speaking
+  intensificationSignals:
+  - dissent softens into performances that protect whoever holds the center
+  - workaround routes become the trained path for new hires
+  failureModes:
+  - correction paths narrow while confidence inside the group rises
+  - late failure grows because errors stayed hidden
+  restorationPaths:
+  - make one objection welcome before schedule commitment
+  - track what speaking cost the last person who raised a similar flag
+manifestations:
+  software:
+  - teams route around the change board while keeping the board green on paper
+  - incident reviews produce action items nobody expects to execute
+  leadership:
+  - a program manager stays silent despite a vendor mismatch she saw last quarter
+  organizations:
+  - a foreman's tailgate talk ends with no hands raised while mismatch stays in the lot
+  family:
+  - relatives agree in the group chat but voice the real worry privately afterward
