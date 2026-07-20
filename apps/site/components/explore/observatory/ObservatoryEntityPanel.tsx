@@ -10,6 +10,7 @@ import {
   relatedContentForBook,
   relatedContentForConcept,
   relatedContentForPattern,
+  relatedContentForSituation,
   relatedContentForSource,
   relatedContentForThinker,
 } from "@/lib/graph/relatedContent";
@@ -69,11 +70,13 @@ export function ObservatoryEntityPanel({
       ? relatedContentForConcept(index, node.entity)
       : node.kind === "pattern"
         ? relatedContentForPattern(index, node.entity)
-        : node.kind === "book"
-          ? relatedContentForBook(index, node.entity)
-          : node.kind === "thinker"
-            ? relatedContentForThinker(index, node.entity)
-            : relatedContentForSource(index, node.entity);
+        : node.kind === "situation"
+          ? relatedContentForSituation(index, node.entity)
+          : node.kind === "book"
+            ? relatedContentForBook(index, node.entity)
+            : node.kind === "thinker"
+              ? relatedContentForThinker(index, node.entity)
+              : relatedContentForSource(index, node.entity);
 
   const hasRelatedTerrain =
     bundle.concepts.length > 0 ||
@@ -98,6 +101,11 @@ export function ObservatoryEntityPanel({
           </p>
         ) : null}
         {node.kind === "pattern" ? (
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            <LinkifiedText text={node.entity.summary} />
+          </p>
+        ) : null}
+        {node.kind === "situation" ? (
           <p className="mt-4 text-sm leading-relaxed text-muted">
             <LinkifiedText text={node.entity.summary} />
           </p>

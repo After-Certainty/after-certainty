@@ -3,6 +3,7 @@ import type {
   GlossaryConcept,
   Pattern,
   SemanticGraph,
+  Situation,
   Source,
   Thinker,
 } from "@/types/semanticGraph";
@@ -20,6 +21,10 @@ export function getConceptBySlug(index: GraphIndex, slug: string): GlossaryConce
 
 export function getPatternBySlug(index: GraphIndex, slug: string): Pattern | undefined {
   return index.patternBySlug.get(slug);
+}
+
+export function getSituationBySlug(index: GraphIndex, slug: string): Situation | undefined {
+  return index.situationBySlug.get(slug);
 }
 
 export function getBookBySlug(index: GraphIndex, slug: string): Book | undefined {

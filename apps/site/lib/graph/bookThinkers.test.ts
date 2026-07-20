@@ -57,6 +57,7 @@ const legacyGraph: SemanticGraph = {
   books: [legacyBook],
   glossary: [],
   patterns: [],
+  situations: [],
   sources: [legacySource],
   relationships: [],
 };
@@ -66,6 +67,7 @@ const enrichedGraph: SemanticGraph = {
   books: [enrichedBook],
   glossary: [],
   patterns: [],
+  situations: [],
   sources: [arendtWork, foucaultWork],
   relationships: [],
 };

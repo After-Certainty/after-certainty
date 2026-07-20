@@ -28,6 +28,8 @@ export async function SiteFooter() {
     { label: "Search", href: "/search" },
     { label: "Collaborators", href: "/collaborators" },
     { label: "Explore patterns", href: "/explore/patterns" },
+    { label: "Explore situations", href: "/explore/situations" },
+    { label: "Explore books", href: "/explore/books" },
     { label: "Privacy & cookies", href: "/privacy" },
   ];
 

@@ -18,6 +18,7 @@ const graph: SemanticGraph = {
   ],
   glossary: [],
   patterns: [],
+  situations: [],
   sources: [],
   relationships: [],
 };
@@ -83,25 +84,26 @@ describe("mergeCatalogBooksIntoSemanticGraph", () => {
     ];
     const merged = mergeCatalogBooksIntoSemanticGraph(multi, catalog);
     expect(merged.books).toHaveLength(2);
-    expect(merged.books.find((b) => b.slug === "when-others-look-to-you-v1")?.summary).toBe("Shared catalog copy");
-    expect(merged.books.find((b) => b.slug === "when-others-look-to-you-v2")?.summary).toBe("Shared catalog copy");
+    expect(merged.books.find((b) => b.slug === "when-others-look-to-you-v1")?.summary).toBe(
+      "Shared catalog copy",
+    );
+    expect(merged.books.find((b) => b.slug === "when-others-look-to-you-v2")?.summary).toBe(
+      "Shared catalog copy",
+    );
   });
 
   it("maps catalog export URLs onto catalog-only books for download links", () => {
     const pdfUrl = "https://github.com/example/observer-patterns.pdf";
-    const merged = mergeCatalogBooksIntoSemanticGraph(
-      { ...graph, books: [] },
-      [
-        {
-          slug: "observer-patterns",
-          title: "Observer Patterns",
-          description: "Poetry volume",
-          status: "published",
-          authors: [],
-          pdfUrl,
-        },
-      ],
-    );
+    const merged = mergeCatalogBooksIntoSemanticGraph({ ...graph, books: [] }, [
+      {
+        slug: "observer-patterns",
+        title: "Observer Patterns",
+        description: "Poetry volume",
+        status: "published",
+        authors: [],
+        pdfUrl,
+      },
+    ]);
     const book = merged.books.find((b) => b.slug === "observer-patterns");
     expect(book?.pdf).toEqual({
       enabled: true,

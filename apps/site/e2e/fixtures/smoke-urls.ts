@@ -10,6 +10,7 @@ export const topLevelSmokeUrls: SmokeUrl[] = [
   { path: "/explore", label: "Explore" },
   { path: "/explore/concepts", label: "Concepts index" },
   { path: "/explore/patterns", label: "Patterns index" },
+  { path: "/explore/situations", label: "Situations index" },
   { path: "/explore/books", label: "Books index" },
   { path: "/explore/thinkers", label: "Thinkers index" },
   { path: "/explore/sources", label: "Sources index" },
@@ -27,6 +28,10 @@ export const contentSmokeUrls: SmokeUrl[] = [
   { path: "/explore/concepts/certainty", label: "Concept: Certainty" },
   { path: "/explore/concepts/abstraction", label: "Concept: Abstraction" },
   { path: "/explore/patterns/attention-finds-a-focus", label: "Pattern: Attention Finds a Focus" },
+  {
+    path: "/explore/situations/temporary-fixes-become-permanent",
+    label: "Situation: Temporary fixes becoming permanent",
+  },
   {
     path: "/explore/sources/agamben-giorgio-state-of-exception",
     label: "Source: Agamben — State of Exception",

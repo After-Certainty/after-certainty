@@ -28,12 +28,7 @@ export interface BookMedia {
 }
 
 export type BookPurchaseRetailer =
-  | "amazon"
-  | "apple_books"
-  | "google_play"
-  | "barnes_noble"
-  | "bookshop"
-  | "other";
+  "amazon" | "apple_books" | "google_play" | "barnes_noble" | "bookshop" | "other";
 
 export interface BookPurchaseLink {
   retailer: BookPurchaseRetailer;
@@ -123,6 +118,21 @@ export interface Pattern extends SemanticEnrichment {
   infographic?: MediaInfographic;
 }
 
+/**
+ * Lived / applied scenario linking active patterns to concepts and books.
+ * Authored in the content pipeline as `situations[]` (Phase F).
+ */
+export interface Situation extends SemanticEnrichment {
+  id: string;
+  slug: string;
+  title: string;
+  summary: string;
+  /** Patterns currently “in play” for this situation (pipeline field name). */
+  activePatterns?: string[];
+  relatedConcepts?: string[];
+  relatedBooks?: string[];
+}
+
 export type SourceKind =
   | "book"
   | "article"
@@ -206,6 +216,8 @@ export interface SemanticGraph {
   books: Book[];
   glossary: GlossaryConcept[];
   patterns: Pattern[];
+  /** Lived scenarios from the content pipeline (`situations[]`). Empty when absent. */
+  situations?: Situation[];
   sources: Source[];
   relationships: Relationship[];
   ontology?: SemanticOntology;
@@ -220,12 +232,13 @@ export interface SemanticGraph {
 }
 
 /** Entity collections exposed in the explore UI */
-export type GraphEntityKind = "book" | "concept" | "pattern" | "source" | "thinker";
+export type GraphEntityKind = "book" | "concept" | "pattern" | "situation" | "source" | "thinker";
 
 /** Focal node for neighborhood / future graph visualization adapters */
 export type GraphFocalNode =
   | { kind: "book"; id: string; slug: string }
   | { kind: "concept"; id: string; slug: string }
   | { kind: "pattern"; id: string; slug: string }
+  | { kind: "situation"; id: string; slug: string }
   | { kind: "source"; id: string; slug: string }
   | { kind: "thinker"; id: string; slug: string };

@@ -3,6 +3,7 @@ import {
   relatedContentForBook,
   relatedContentForConcept,
   relatedContentForPattern,
+  relatedContentForSituation,
   relatedContentForSource,
   relatedContentForThinker,
   type RelatedContentBundle,
@@ -14,6 +15,8 @@ function bundleForNode(index: GraphIndex, node: GraphNode): RelatedContentBundle
       return relatedContentForConcept(index, node.entity);
     case "pattern":
       return relatedContentForPattern(index, node.entity);
+    case "situation":
+      return relatedContentForSituation(index, node.entity);
     case "book":
       return relatedContentForBook(index, node.entity);
     case "source":

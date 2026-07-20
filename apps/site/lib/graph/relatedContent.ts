@@ -1,6 +1,13 @@
 import { resolveThinkersForConcept } from "@/lib/graph/conceptThinkers";
 import type { GraphIndex } from "@/lib/graph/graph";
-import type { Book, GlossaryConcept, Pattern, Source, Thinker } from "@/types/semanticGraph";
+import type {
+  Book,
+  GlossaryConcept,
+  Pattern,
+  Situation,
+  Source,
+  Thinker,
+} from "@/types/semanticGraph";
 import {
   getRelatedBooks,
   getRelatedConcepts,
@@ -35,6 +42,19 @@ export function relatedContentForPattern(index: GraphIndex, p: Pattern): Related
     concepts: getRelatedConcepts(index, p.relatedConcepts),
     patterns: [],
     books: getRelatedBooks(index, p.relatedBooks),
+    sources: [],
+    thinkers: [],
+  };
+}
+
+export function relatedContentForSituation(
+  index: GraphIndex,
+  situation: Situation,
+): RelatedContentBundle {
+  return {
+    concepts: getRelatedConcepts(index, situation.relatedConcepts),
+    patterns: getRelatedPatterns(index, situation.activePatterns),
+    books: getRelatedBooks(index, situation.relatedBooks),
     sources: [],
     thinkers: [],
   };

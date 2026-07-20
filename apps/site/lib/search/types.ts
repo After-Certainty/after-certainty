@@ -6,7 +6,7 @@ import type { BookStatus } from "@/types/content";
  */
 
 export type SearchEntityType =
-  "book" | "concept" | "pattern" | "thinker" | "source" | "podcast_episode";
+  "book" | "concept" | "pattern" | "situation" | "thinker" | "source" | "podcast_episode";
 
 export type SearchVisibility = "listed" | "unlisted";
 
@@ -74,6 +74,7 @@ export const SEARCH_RESULT_LABELS: Record<SearchEntityType, string> = {
   book: "Book",
   concept: "Concept",
   pattern: "Pattern",
+  situation: "Situation",
   thinker: "Thinker",
   source: "Source",
   podcast_episode: "Podcast",

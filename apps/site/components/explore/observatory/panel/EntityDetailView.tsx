@@ -14,6 +14,7 @@ import {
   relatedContentForBook,
   relatedContentForConcept,
   relatedContentForPattern,
+  relatedContentForSituation,
   relatedContentForSource,
   relatedContentForThinker,
 } from "@/lib/graph/relatedContent";
@@ -62,11 +63,13 @@ export function EntityDetailView({
       ? relatedContentForConcept(index, node.entity)
       : node.kind === "pattern"
         ? relatedContentForPattern(index, node.entity)
-        : node.kind === "book"
-          ? relatedContentForBook(index, node.entity)
-          : node.kind === "thinker"
-            ? relatedContentForThinker(index, node.entity)
-            : relatedContentForSource(index, node.entity);
+        : node.kind === "situation"
+          ? relatedContentForSituation(index, node.entity)
+          : node.kind === "book"
+            ? relatedContentForBook(index, node.entity)
+            : node.kind === "thinker"
+              ? relatedContentForThinker(index, node.entity)
+              : relatedContentForSource(index, node.entity);
 
   const hasRelatedTerrain =
     bundle.concepts.length > 0 ||
@@ -79,7 +82,9 @@ export function EntityDetailView({
     node.kind === "book" ? (coverBySlug[node.entity.slug] ?? node.entity.coverImage) : undefined;
 
   const enrichment =
-    node.kind === "concept" || node.kind === "pattern" ? node.entity.recognitionSignals : undefined;
+    node.kind === "concept" || node.kind === "pattern" || node.kind === "situation"
+      ? node.entity.recognitionSignals
+      : undefined;
 
   const renderRelationship = (r: Relationship, otherId: string, keyPrefix: string, i: number) => {
     const ends = relationshipEndpointsResolved(index, r);
@@ -113,6 +118,11 @@ export function EntityDetailView({
           </p>
         ) : null}
         {node.kind === "pattern" ? (
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            <LinkifiedText text={node.entity.summary} />
+          </p>
+        ) : null}
+        {node.kind === "situation" ? (
           <p className="mt-4 text-sm leading-relaxed text-muted">
             <LinkifiedText text={node.entity.summary} />
           </p>

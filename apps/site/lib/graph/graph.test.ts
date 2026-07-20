@@ -1,7 +1,10 @@
 import { describe, expect, it } from "vitest";
 
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getConnectedGraphNeighborhood, relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import {
+  getConnectedGraphNeighborhood,
+  relationshipEndpointsResolved,
+} from "@/lib/graph/graphTraversal";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 const sampleGraph: SemanticGraph = {
@@ -60,6 +63,7 @@ describe("getConnectedGraphNeighborhood", () => {
       books: [],
       glossary,
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     };

@@ -40,6 +40,7 @@ const enrichedGraph: SemanticGraph = {
   books: [],
   glossary: [],
   patterns: [],
+  situations: [],
   sources: [enrichedSource],
   relationships: [],
 };

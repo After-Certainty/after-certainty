@@ -26,6 +26,7 @@ describe("validateSemanticGraph", () => {
       books: [],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     });
@@ -133,6 +134,7 @@ describe("validateSemanticGraph", () => {
         },
       ],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
       ontology: {
@@ -156,6 +158,38 @@ describe("validateSemanticGraph", () => {
     }
   });
 
+  it("retains typed situations with activePatterns and enrichment", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [],
+      situations: [
+        {
+          id: "situation-temporary-fixes-become-permanent",
+          slug: "temporary-fixes-become-permanent",
+          title: "Temporary fixes becoming permanent",
+          summary: "Emergency workarounds become the normal way work gets done.",
+          activePatterns: ["pattern-exceptions-are-forever"],
+          relatedConcepts: ["concept-correction"],
+          relatedBooks: ["book-coupling"],
+          recognitionSignals: ["workarounds outlive the crisis"],
+        },
+      ],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.situations).toHaveLength(1);
+      expect(result.data.situations?.[0]?.activePatterns).toEqual([
+        "pattern-exceptions-are-forever",
+      ]);
+      expect(result.data.situations?.[0]?.recognitionSignals?.[0]).toBe(
+        "workarounds outlive the crisis",
+      );
+    }
+  });
+
   it("accepts glossary longDefinition for concept detail pages", () => {
     const result = validateSemanticGraph({
       books: [],
@@ -170,6 +204,7 @@ describe("validateSemanticGraph", () => {
         },
       ],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     });
@@ -198,6 +233,7 @@ describe("validateSemanticGraph", () => {
         },
       ],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [{ source: "c1", target: "c1", relationship: "rel", weight: 2.5 }],
     });
@@ -214,6 +250,7 @@ describe("validateSemanticGraph", () => {
       books: [],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [
         {
           id: "source-legacy",
@@ -242,6 +279,7 @@ describe("validateSemanticGraph", () => {
       books: [],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [
         {
           id: "source-arendt-hannah-between-past-and-future",
@@ -283,6 +321,7 @@ describe("validateSemanticGraph", () => {
       books: [],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     });
@@ -299,6 +338,7 @@ describe("validateSemanticGraph", () => {
       books: [],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
       thinkers: [
@@ -331,6 +371,7 @@ describe("validateSemanticGraph", () => {
       books: [],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
       thinkers: [],
@@ -346,6 +387,7 @@ describe("validateSemanticGraph", () => {
       books: [{ id: "b1", slug: "b", title: 123 }],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     });
@@ -368,6 +410,7 @@ describe("validateSemanticGraph", () => {
       ],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     });
@@ -399,6 +442,7 @@ describe("validateSemanticGraph", () => {
       ],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     });
@@ -550,6 +594,7 @@ describe("fetchSemanticGraphUncached", () => {
         },
       ],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     };
@@ -613,6 +658,7 @@ describe("fetchSemanticGraphUncached", () => {
         books: [],
         glossary: [],
         patterns: [],
+        situations: [],
         sources: [
           {
             id: "source-legacy",

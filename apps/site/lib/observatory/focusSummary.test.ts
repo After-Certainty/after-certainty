@@ -15,6 +15,7 @@ const graph: SemanticGraph = {
     { id: "c2", slug: "b", title: "Grounded hope", shortDefinition: "b" },
   ],
   patterns: [],
+  situations: [],
   sources: [{ id: "s1", slug: "t", name: "Thinker One", summary: "s" }],
   relationships: [{ source: "c1", target: "c2", relationship: "outruns" }],
 };

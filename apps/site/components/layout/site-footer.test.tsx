@@ -13,6 +13,7 @@ vi.mock("@/lib/graph/manifest", () => ({
     books: [],
     glossary: [],
     patterns: [],
+    situations: [],
     sources: [],
     relationships: [],
     generatedAt: "2026-07-06T01:36:29.934513+00:00",

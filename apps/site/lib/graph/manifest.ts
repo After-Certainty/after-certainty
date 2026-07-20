@@ -45,6 +45,7 @@ const EMPTY_GRAPH: SemanticGraph = {
   books: [],
   glossary: [],
   patterns: [],
+  situations: [],
   sources: [],
   relationships: [],
 };

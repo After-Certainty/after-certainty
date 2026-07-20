@@ -5,6 +5,7 @@ import type {
   GraphEntityKind,
   Pattern,
   SemanticGraph,
+  Situation,
   Source,
   Thinker,
 } from "@/types/semanticGraph";
@@ -14,6 +15,7 @@ export type GraphNode =
   | { kind: "book"; id: string; slug: string; entity: Book }
   | { kind: "concept"; id: string; slug: string; entity: GlossaryConcept }
   | { kind: "pattern"; id: string; slug: string; entity: Pattern }
+  | { kind: "situation"; id: string; slug: string; entity: Situation }
   | { kind: "source"; id: string; slug: string; entity: Source }
   | { kind: "thinker"; id: string; slug: string; entity: Thinker };
 
@@ -25,11 +27,12 @@ export type GraphIndex = {
   bookBySlug: ReadonlyMap<string, Book>;
   conceptBySlug: ReadonlyMap<string, GlossaryConcept>;
   patternBySlug: ReadonlyMap<string, Pattern>;
+  situationBySlug: ReadonlyMap<string, Situation>;
   sourceBySlug: ReadonlyMap<string, Source>;
   thinkerBySlug: ReadonlyMap<string, Thinker>;
   /**
    * Resolve a manifest ref (usually `id`, sometimes `slug`) to a canonical `id`.
-   * Order: id match, then slug match (glossary → pattern → book → source → thinker).
+   * Order: id match, then slug match (glossary → pattern → situation → book → source → thinker).
    */
   resolveCanonicalId(ref: string): string | null;
   resolveNode(ref: string): GraphNode | null;
@@ -42,7 +45,7 @@ export function graphNodeTitle(node: GraphNode): string {
 
 function asNode(
   kind: GraphEntityKind,
-  entity: Book | GlossaryConcept | Pattern | Source | Thinker,
+  entity: Book | GlossaryConcept | Pattern | Situation | Source | Thinker,
 ): GraphNode {
   switch (kind) {
     case "book":
@@ -56,6 +59,8 @@ function asNode(
       };
     case "pattern":
       return { kind: "pattern", id: entity.id, slug: entity.slug, entity: entity as Pattern };
+    case "situation":
+      return { kind: "situation", id: entity.id, slug: entity.slug, entity: entity as Situation };
     case "source":
       return { kind: "source", id: entity.id, slug: entity.slug, entity: entity as Source };
     case "thinker":
@@ -71,6 +76,7 @@ export function buildGraphIndex(graph: SemanticGraph): GraphIndex {
   const bookBySlug = new Map<string, Book>();
   const conceptBySlug = new Map<string, GlossaryConcept>();
   const patternBySlug = new Map<string, Pattern>();
+  const situationBySlug = new Map<string, Situation>();
   const sourceBySlug = new Map<string, Source>();
   const thinkerBySlug = new Map<string, Thinker>();
   const ids = new Set<string>();
@@ -105,6 +111,14 @@ export function buildGraphIndex(graph: SemanticGraph): GraphIndex {
     patternBySlug.set(p.slug, p);
   }
 
+  for (const situation of graph.situations ?? []) {
+    if (nodeByCanonicalId.has(situation.id)) warnDup("canonical id", situation.id);
+    nodeByCanonicalId.set(situation.id, asNode("situation", situation));
+    ids.add(situation.id);
+    if (situationBySlug.has(situation.slug)) warnDup("situation slug", situation.slug);
+    situationBySlug.set(situation.slug, situation);
+  }
+
   for (const s of graph.sources) {
     if (nodeByCanonicalId.has(s.id)) warnDup("canonical id", s.id);
     nodeByCanonicalId.set(s.id, asNode("source", s));
@@ -129,6 +143,8 @@ export function buildGraphIndex(graph: SemanticGraph): GraphIndex {
     if (c) return c.id;
     const p = patternBySlug.get(ref);
     if (p) return p.id;
+    const situation = situationBySlug.get(ref);
+    if (situation) return situation.id;
     const b = bookBySlug.get(ref);
     if (b) return b.id;
     const src = sourceBySlug.get(ref);
@@ -153,6 +169,7 @@ export function buildGraphIndex(graph: SemanticGraph): GraphIndex {
     bookBySlug,
     conceptBySlug,
     patternBySlug,
+    situationBySlug,
     sourceBySlug,
     thinkerBySlug,
     resolveCanonicalId,

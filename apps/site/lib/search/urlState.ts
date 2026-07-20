@@ -6,6 +6,7 @@ export const SEARCH_ENTITY_TYPES: readonly SearchEntityType[] = [
   "book",
   "concept",
   "pattern",
+  "situation",
   "thinker",
   "source",
   "podcast_episode",

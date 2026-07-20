@@ -17,6 +17,7 @@ const emptyGraph = (): SemanticGraph => ({
   books: [],
   glossary: [],
   patterns: [],
+  situations: [],
   sources: [],
   relationships: [],
   thinkers: [],

@@ -9,6 +9,7 @@ const exploreSidebarLinks = [
   { href: "/explore", label: "Overview" },
   { href: "/explore/concepts", label: "Concepts" },
   { href: "/explore/patterns", label: "Patterns" },
+  { href: "/explore/situations", label: "Situations" },
   { href: "/explore/books", label: "Books" },
   { href: "/explore/thinkers", label: "Thinkers" },
   { href: "/explore/sources", label: "Sources" },

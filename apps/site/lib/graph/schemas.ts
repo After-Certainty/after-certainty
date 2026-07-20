@@ -135,6 +135,17 @@ const patternSchema = z.object({
   ...enrichmentFields,
 });
 
+const situationSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  summary: z.string().min(1),
+  activePatterns: stringList,
+  relatedConcepts: stringList,
+  relatedBooks: stringList,
+  ...enrichmentFields,
+});
+
 const sourceKindSchema = z.enum([
   "book",
   "article",
@@ -219,6 +230,7 @@ export const semanticGraphSchema = z.object({
   books: z.array(bookSchema).default([]),
   glossary: z.array(glossaryConceptSchema).default([]),
   patterns: z.array(patternSchema).default([]),
+  situations: z.array(situationSchema).default([]),
   sources: z.array(sourceSchema).default([]),
   relationships: z.array(relationshipSchema).default([]),
   ontology: ontologySchema,
@@ -239,6 +251,7 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     books: data.books,
     glossary: data.glossary,
     patterns: data.patterns,
+    situations: data.situations ?? [],
     sources: data.sources,
     relationships: data.relationships,
     ontology: data.ontology,

@@ -37,6 +37,9 @@ describe("getSearchAliasConfig", () => {
     expect(relatedTermsByTargetId(config).get("pattern-exceptions-are-forever")).toEqual(
       expect.arrayContaining(["temporary rules"]),
     );
+    expect(
+      relatedTermsByTargetId(config).get("situation-temporary-fixes-become-permanent"),
+    ).toEqual(expect.arrayContaining(["temporary rules"]));
   });
 });
 

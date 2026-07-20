@@ -91,7 +91,7 @@ Bundled snapshot facts (offline manifests in `data/`, `manifestVersion: 2`, `gen
 | Thinkers             |                             339 | `thinkers[]` (v2) or derived from sources | Generated / derived   | `thinker-{slug}`             | `/explore/thinkers/{slug}`            | Bio/summary only               | Yes                                     |
 | Sources              |                             408 | `sources[]`                               | Generated             | `source-{…}`                 | `/explore/sources/{slug}`             | Citation/summary only          | Yes                                     |
 | Relationships        |                             110 | `relationships[]`                         | Generated             | None (edge endpoints)        | Observatory deep links                | N/A                            | Yes                                     |
-| Situations           |                         1 (raw) | `situations[]` in release JSON            | Generated             | `situation-*`                | None today                            | Summary/enrichment             | **Stripped by Zod — unavailable**       |
+| Situations           |                               1 | `situations[]` in release JSON            | Generated             | `situation-*`                | `/explore/situations/{slug}`          | Summary/enrichment             | Yes (Phase F)                           |
 | Podcast episodes     | 1 in fallback (live RSS varies) | RSS / fallback JSON                       | Authored on host      | Title-slug `id` (fragile)    | `/podcast` hub; episode URLs external | Description snippet            | Yes (`PodcastEpisode`)                  |
 | Chapters             |                               0 | —                                         | —                     | —                            | —                                     | —                              | **Not present**                         |
 | Essays (as type)     |                        0 routes | Appear as book titles / `OngoingWork`     | Mixed                 | —                            | —                                     | —                              | Not first-class                         |
@@ -688,11 +688,13 @@ Expected tops use **acceptable sets** where ambiguity is real. IDs below are ill
 |                  |                                                                                                                      |
 | ---------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Goal**         | Situations (schema + UI), chapter summaries if upstream adds them, essays/transcripts carefully, evaluate embeddings |
-| **Code areas**   | `lib/graph/schemas.ts`, content pipeline coordination, possibly new routes                                           |
+| **Code areas**   | `lib/graph/schemas.ts`, explore situations routes, search `situation` type, embeddings eval doc                      |
 | **Risks**        | Payload size, copyright for external source text, duplicate editions                                                 |
 | **Effort**       | Large                                                                                                                |
 | **Prior**        | E recommended                                                                                                        |
 | **Ships alone?** | Yes (incremental)                                                                                                    |
+| **This slice**   | Typed situations + explore/search; chapters/transcripts deferred (absent upstream); embeddings eval documented       |
+| **Eval**         | See `docs/roadmaps/search-embeddings-evaluation.md`                                                                  |
 
 ---
 
@@ -774,7 +776,7 @@ Expected tops use **acceptable sets** where ambiguity is real. IDs below are ill
 - [x] Recommendations grounded in repository facts
 - [x] No feature implementation, dependency installs, or production code changes beyond this document
 
-### Done for V1 implementation (Phases A–E)
+### Done for V1 implementation (Phases A–F slice)
 
 - [x] Search documents built from explore loaders + catalog + podcast + aliases
 - [x] Client MiniSearch over cached index; no privileged keys
@@ -784,6 +786,8 @@ Expected tops use **acceptable sets** where ambiguity is real. IDs below are ill
 - [x] Analytics events consent-gated without raw query logging by default
 - [x] Manuscript full text still excluded
 - [x] Phase E quality: aliases, snippets, capped enrichment, unresolved-query workflow doc
+- [x] Phase F slice: typed situations in schema, explore UI, and search; embeddings evaluation documented
+- [ ] Chapter summaries / transcripts (deferred — absent upstream)
 
 ---
 

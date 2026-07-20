@@ -77,6 +77,7 @@ const enrichedGraphBase: SemanticGraph = {
   books: [],
   glossary: [],
   patterns: [],
+  situations: [],
   sources: [arendtWorkA, arendtWorkB],
   relationships: [],
 };
@@ -168,6 +169,7 @@ describe("resolveThinkers", () => {
       books: [],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [legacySource],
       relationships: [],
       manifestVersion: 1,

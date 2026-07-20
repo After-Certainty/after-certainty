@@ -5,6 +5,7 @@ const links = [
   { href: explorePaths.home, label: "Overview" },
   { href: explorePaths.concepts, label: "Concepts" },
   { href: explorePaths.patterns, label: "Patterns" },
+  { href: explorePaths.situations, label: "Situations" },
   { href: explorePaths.books, label: "Books" },
   { href: explorePaths.thinkers, label: "Thinkers" },
   { href: explorePaths.sources, label: "Sources" },

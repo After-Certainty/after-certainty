@@ -25,6 +25,7 @@ import type {
   GlossaryConcept,
   Pattern,
   SemanticGraph,
+  Situation,
   Source,
   Thinker,
 } from "@/types/semanticGraph";
@@ -350,6 +351,63 @@ function buildPatternDocument(
   };
 }
 
+function buildSituationDocument(
+  situation: Situation,
+  index: GraphIndex,
+  graph: SemanticGraph,
+  aliasTerms: string[],
+  relatedBridgeTerms: string[],
+): SearchDocument {
+  const relatedTitles = uniqueStrings([
+    ...resolveRelatedTitles(index, situation.activePatterns),
+    ...resolveRelatedTitles(index, situation.relatedConcepts),
+    ...resolveRelatedTitles(index, situation.relatedBooks),
+  ]);
+  const enrichment = cappedEnrichmentText(situation.recognitionSignals);
+  const manifestationText = situation.manifestations
+    ? Object.values(situation.manifestations).flat()
+    : [];
+
+  const searchText = joinSearchText([
+    situation.title,
+    situation.slug,
+    situation.summary,
+    enrichment,
+    ...(situation.questions ?? []),
+    ...(situation.counterbalances ?? []),
+    ...manifestationText,
+    ...aliasTerms,
+    ...relatedTitles,
+    ...relatedBridgeTerms,
+  ]);
+
+  return {
+    id: situation.id,
+    entityType: "situation",
+    slug: situation.slug,
+    title: situation.title,
+    description: situation.summary,
+    resultLabel: SEARCH_RESULT_LABELS.situation,
+    canonicalUrl: `${explorePaths.situations}/${situation.slug}`,
+    visibility: "listed",
+    searchText,
+    aliases: aliasTerms,
+    relatedTitles: relatedTitles.length ? relatedTitles : undefined,
+    conceptIds: situation.relatedConcepts?.length ? [...situation.relatedConcepts] : undefined,
+    patternIds: situation.activePatterns?.length ? [...situation.activePatterns] : undefined,
+    bookIds: situation.relatedBooks?.length ? [...situation.relatedBooks] : undefined,
+    boostWeight: computeSearchBoostWeight({ entityType: "situation" }),
+    relationshipDensity: relationshipDensityForId(
+      graph,
+      situation.id,
+      (situation.activePatterns?.length ?? 0) +
+        (situation.relatedConcepts?.length ?? 0) +
+        (situation.relatedBooks?.length ?? 0),
+    ),
+    sourceArtifact: "semantic",
+  };
+}
+
 function buildThinkerDocument(
   thinker: Thinker,
   index: GraphIndex,
@@ -559,6 +617,18 @@ export function buildSearchDocuments(input: BuildSearchDocumentsInput): SearchDo
         graph,
         aliasMap.get(pattern.id) ?? [],
         relatedMap.get(pattern.id) ?? [],
+      ),
+    );
+  }
+
+  for (const situation of graph.situations ?? []) {
+    push(
+      buildSituationDocument(
+        situation,
+        index,
+        graph,
+        aliasMap.get(situation.id) ?? [],
+        relatedMap.get(situation.id) ?? [],
       ),
     );
   }

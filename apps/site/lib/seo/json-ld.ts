@@ -13,6 +13,7 @@ import type {
   Book as SemanticBook,
   GlossaryConcept,
   Pattern,
+  Situation,
   Source,
   Thinker,
 } from "@/types/semanticGraph";
@@ -587,6 +588,56 @@ export function buildPatternPageJsonLd(params: {
       mainEntityId,
     }),
     buildPatternJsonLd({ ...params, pageUrl, datePublished }),
+    buildBreadcrumbListJsonLd(params.breadcrumbs, crumbsId),
+  ];
+}
+
+export function buildSituationJsonLd(params: {
+  situation: Situation;
+  pageUrl: string;
+  relatedConceptUrls?: string[];
+}): JsonLdNode {
+  const { situation, pageUrl, relatedConceptUrls = [] } = params;
+  return compact({
+    "@type": "Article",
+    "@id": `${pageUrl}#article`,
+    headline: situation.title,
+    name: situation.title,
+    description: situation.summary,
+    url: pageUrl,
+    isPartOf: {
+      "@type": "CollectionPage",
+      name: "Situations",
+      url: absoluteUrl(explorePaths.situations),
+    },
+    about: relatedConceptUrls.length
+      ? relatedConceptUrls.map((url) => ({ "@type": "DefinedTerm", url }))
+      : undefined,
+  });
+}
+
+export function buildSituationPageJsonLd(params: {
+  situation: Situation;
+  breadcrumbs: JsonLdBreadcrumbItem[];
+  relatedConceptUrls?: string[];
+}): JsonLdNode[] {
+  const pageUrl = absoluteUrl(`${explorePaths.situations}/${params.situation.slug}`);
+  const crumbsId = breadcrumbId(pageUrl);
+  const mainEntityId = `${pageUrl}#article`;
+
+  return [
+    buildWebPageJsonLd({
+      pageUrl,
+      name: params.situation.title,
+      description: params.situation.summary,
+      breadcrumbId: crumbsId,
+      mainEntityId,
+    }),
+    buildSituationJsonLd({
+      situation: params.situation,
+      pageUrl,
+      relatedConceptUrls: params.relatedConceptUrls,
+    }),
     buildBreadcrumbListJsonLd(params.breadcrumbs, crumbsId),
   ];
 }

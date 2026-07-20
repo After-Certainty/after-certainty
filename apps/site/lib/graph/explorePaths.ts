@@ -5,6 +5,7 @@ export const explorePaths = {
   home: "/explore",
   concepts: "/explore/concepts",
   patterns: "/explore/patterns",
+  situations: "/explore/situations",
   books: "/explore/books",
   sources: "/explore/sources",
   thinkers: "/explore/thinkers",
@@ -29,6 +30,8 @@ export function exploreHrefForNode(node: GraphNode): string {
       return `${explorePaths.concepts}/${node.slug}`;
     case "pattern":
       return `${explorePaths.patterns}/${node.slug}`;
+    case "situation":
+      return `${explorePaths.situations}/${node.slug}`;
     case "book":
       return `${explorePaths.books}/${node.slug}`;
     case "source":

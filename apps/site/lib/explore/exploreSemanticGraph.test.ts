@@ -13,6 +13,7 @@ const emptyGraph: SemanticGraph = {
   books: [],
   glossary: [],
   patterns: [],
+  situations: [],
   sources: [],
   relationships: [],
 };
@@ -26,7 +27,9 @@ describe("getExploreSemanticGraph", () => {
   it("returns merged graph and raw catalog rows", async () => {
     vi.mocked(manifest.getSemanticGraph).mockResolvedValue({
       ...emptyGraph,
-      books: [{ id: "bid", slug: "in-manifest", title: "M", concepts: [], patterns: [], sources: [] }],
+      books: [
+        { id: "bid", slug: "in-manifest", title: "M", concepts: [], patterns: [], sources: [] },
+      ],
     });
     const catalogBook: CatalogBook = {
       slug: "catalog-only",

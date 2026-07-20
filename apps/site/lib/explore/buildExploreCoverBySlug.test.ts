@@ -21,6 +21,7 @@ describe("buildExploreCoverBySlug", () => {
       books: [{ id: "b", slug: "my-book", title: "Book", concepts: [], patterns: [], sources: [] }],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     };
@@ -43,6 +44,7 @@ describe("buildExploreCoverBySlug", () => {
       ],
       glossary: [],
       patterns: [],
+      situations: [],
       sources: [],
       relationships: [],
     };

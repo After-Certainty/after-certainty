@@ -11,11 +11,12 @@
       "terms": [
         "temporary rules",
         "temporary exceptions becoming permanent",
-        "temporary fixes become permanent"
+        "temporary fixes become permanent",
+        "temporary fixes becoming permanent"
       ],
       "kind": "related",
-      "targetIds": ["pattern-exceptions-are-forever"],
-      "note": "Everyday phrasing for the Exceptions are Forever pattern — related, not a synonym claim"
+      "targetIds": ["pattern-exceptions-are-forever", "situation-temporary-fixes-become-permanent"],
+      "note": "Everyday phrasing for Exceptions are Forever and the matching situation — related, not a synonym claim"
     },
     {
       "terms": [

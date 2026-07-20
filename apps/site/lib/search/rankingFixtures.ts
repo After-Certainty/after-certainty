@@ -87,7 +87,20 @@ export const SEARCH_RANKING_FIXTURES: SearchRankingFixture[] = [
   {
     id: "nl-temporary-exceptions",
     query: "temporary exceptions becoming permanent",
-    acceptableTopIds: ["pattern-exceptions-are-forever"],
+    acceptableTopIds: [
+      "pattern-exceptions-are-forever",
+      "situation-temporary-fixes-become-permanent",
+    ],
+    mustIncludeInTop: {
+      ids: ["pattern-exceptions-are-forever", "situation-temporary-fixes-become-permanent"],
+      n: 5,
+    },
+    note: "Related bridges surface both the pattern and the typed situation",
+  },
+  {
+    id: "situation-temporary-fixes",
+    query: "Temporary fixes becoming permanent",
+    acceptableTopIds: ["situation-temporary-fixes-become-permanent"],
   },
   {
     id: "nl-collaboration-fail",
@@ -156,9 +169,12 @@ export const SEARCH_RANKING_FIXTURES: SearchRankingFixture[] = [
   {
     id: "related-bridge-temporary-rules",
     query: "temporary rules",
-    acceptableTopIds: ["pattern-exceptions-are-forever"],
+    acceptableTopIds: [
+      "pattern-exceptions-are-forever",
+      "situation-temporary-fixes-become-permanent",
+    ],
     mustIncludeInTop: {
-      ids: ["pattern-exceptions-are-forever"],
+      ids: ["pattern-exceptions-are-forever", "situation-temporary-fixes-become-permanent"],
       n: 5,
     },
   },

@@ -13,6 +13,7 @@ const miniGraph: SemanticGraph = {
     { id: "c3", slug: "c", title: "C", shortDefinition: "c" },
   ],
   patterns: [],
+  situations: [],
   sources: [],
   relationships: [
     { source: "c1", target: "c2", relationship: "outruns" },

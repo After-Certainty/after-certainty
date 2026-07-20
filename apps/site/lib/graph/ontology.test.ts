@@ -16,6 +16,7 @@ const graph: SemanticGraph = {
     { id: "c3", slug: "scale", title: "Scale", shortDefinition: "z" },
   ],
   patterns: [],
+  situations: [],
   sources: [],
   relationships: [
     { source: "c1", target: "c2", relationship: "structural_tension" },
