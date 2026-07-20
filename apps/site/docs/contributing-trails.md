@@ -93,7 +93,7 @@ Each stop in `pathStops` uses the shared [`PathStopInput`](../types/paths.ts) sh
 - Use **stable graph IDs** (`book-when-others-look-to-you-v1`, not URL aliases alone).
 - [`resolveBookCanonicalSlug`](../lib/books/generated-manifest.ts) maps slug aliases to canonical catalog slugs.
 - **Published trails:** all book stops must resolve to published or semantic-graph-present books (build fails otherwise).
-- **Upcoming trails:** set `status: "upcoming"` to allow forthcoming book stops; UI shows forthcoming badges.
+- **Upcoming trails:** set `status: "upcoming"` to allow forthcoming book stops; the index shows a **Coming soon** section, cards carry an Upcoming badge, and preview detail pages are `noindex` (not in the sitemap). Book stops show forthcoming badges when the catalog status is not published.
 - Non-canonical edition slugs produce a **validation warning** (prefer the canonical edition).
 
 Titles, URLs, and covers are **generated at build time** from the semantic graph and books catalog—do not duplicate them in trail JSON unless using `titleOverride`.
@@ -104,7 +104,7 @@ Titles, URLs, and covers are **generated at build time** from the semantic graph
 | ----------- | -------------------------------------- | ----------------------------------------- |
 | `draft`     | No                                     | Relaxed; for authoring                    |
 | `published` | Yes (`/trails/[slug]`, index, sitemap) | Strict; unpublished books fail validation |
-| `upcoming`  | Index only (when implemented)          | Forthcoming books allowed                 |
+| `upcoming`  | Index + preview detail (`noindex`)     | Forthcoming books allowed                 |
 | `archived`  | No                                     | Hidden from browse                        |
 
 ## Featuring a trail

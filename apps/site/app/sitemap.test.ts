@@ -62,9 +62,10 @@ describe("sitemap", () => {
     expect(urls.some((u) => u.includes("/explore/thinkers/"))).toBe(true);
   });
 
-  it("includes published trail detail URLs", async () => {
+  it("includes published trail detail URLs but not upcoming trails", async () => {
     const urls = (await sitemap()).map((e) => e.url);
     expect(urls).toContain("https://example.com/trails/judgment-before-certainty");
+    expect(urls).not.toContain("https://example.com/trails/where-institutions-look");
   });
 
   it("returns many more entries than top-level routes only", async () => {

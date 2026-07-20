@@ -282,6 +282,57 @@
       ],
       "closingReflection": "Technical judgment is never only technical. Coupling, feedback, and abstraction are ways of seeing how your work connects to everyone else's—and what breaks when those connections are misread.",
       "suggestedContinuation": "Follow Judgment Before Certainty for the broader practice of acting before certainty, or Systems That Cannot Correct Themselves for institutional drift."
+    },
+    {
+      "id": "where-institutions-look",
+      "slug": "where-institutions-look",
+      "title": "Where Institutions Look",
+      "summary": "Attention is finite—and what gets noticed becomes what an institution can learn from. A forthcoming trail on focus, signal, and the patterns of looking.",
+      "orientation": "Institutions do not see everything at once. They allocate attention, find signals, and lose contact with what falls outside the frame. This trail is still being composed; the stops below sketch the arc we intend to publish.",
+      "status": "upcoming",
+      "featured": false,
+      "themes": ["Attention"],
+      "depth": "introductory",
+      "primaryBookId": "book-observer-patterns",
+      "relatedTrailIds": ["meaning-under-pressure", "systems-without-correction"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-attention",
+          "description": "Start with attention as a scarce resource—what an institution looks at shapes what it can know."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-attention-finds-a-focus",
+          "description": "See how attention narrows onto a focus—and what that narrowing makes possible or invisible.",
+          "whyThisFollows": "After naming attention, this pattern shows how focus forms in practice."
+        },
+        {
+          "position": 3,
+          "entityType": "pattern",
+          "entityId": "pattern-attention-finds-a-signal",
+          "description": "Notice when attention latches onto a signal—and when noise or framing steers what counts as one.",
+          "whyThisFollows": "Focus without signal detection is empty; this pattern names how looking becomes reading."
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "entityId": "book-observer-patterns",
+          "description": "The primary book on patterns of looking, deciding, and following what people see.",
+          "whyThisFollows": "After the attention patterns, this book offers the sustained treatment of observer dynamics."
+        },
+        {
+          "position": 5,
+          "entityType": "pattern",
+          "entityId": "pattern-attention-restores-contact",
+          "description": "End with how attention can restore contact—when looking again reconnects what had drifted out of view.",
+          "whyThisFollows": "The trail closes on recovery: attention is not only scarcity, but a practice of returning."
+        }
+      ],
+      "closingReflection": "What an institution looks at is never neutral. This trail will stay open until the sequence is ready to publish—attention itself remains the unfinished work.",
+      "suggestedContinuation": "Meanwhile, Meaning Under Pressure and Systems That Cannot Correct Themselves cover adjacent tensions around what gets transmitted and what gets corrected."
     }
   ]
 }

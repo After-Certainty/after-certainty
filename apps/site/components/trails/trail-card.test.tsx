@@ -43,4 +43,15 @@ describe("TrailCard", () => {
     expect(screen.getByText(/Follow this trail/i)).toBeInTheDocument();
     expect(screen.getByText(/1 stops · ~5 min/i)).toBeInTheDocument();
   });
+
+  it("shows Upcoming badge and preview CTA for upcoming trails", () => {
+    render(<TrailCard trail={{ ...fixtureTrail, status: "upcoming" }} />);
+
+    expect(screen.getByText("Upcoming")).toBeInTheDocument();
+    expect(screen.getByText(/Preview this trail/i)).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /Judgment Before Certainty/i })).toHaveAttribute(
+      "href",
+      "/trails/judgment-before-certainty",
+    );
+  });
 });

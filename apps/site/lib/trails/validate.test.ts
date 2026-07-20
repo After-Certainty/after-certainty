@@ -25,11 +25,13 @@ describe("trails manifest health", () => {
     ).not.toThrow();
   });
 
-  it("has five published trails with featured entries", () => {
+  it("has five published trails with featured entries and at least one upcoming", () => {
     const manifest = parseTrailsManifest(trailsManifest);
     const published = manifest.trails.filter((t) => t.status === "published");
+    const upcoming = manifest.trails.filter((t) => t.status === "upcoming");
     const featured = published.filter((t) => t.featured);
     expect(published).toHaveLength(5);
+    expect(upcoming.length).toBeGreaterThanOrEqual(1);
     expect(featured.length).toBeGreaterThanOrEqual(3);
   });
 

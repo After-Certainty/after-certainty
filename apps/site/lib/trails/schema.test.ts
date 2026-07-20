@@ -7,7 +7,8 @@ describe("trails schema", () => {
   it("parses bundled manifest", () => {
     const parsed = parseTrailsManifest(trailsManifest);
     expect(parsed.manifestVersion).toBe(1);
-    expect(parsed.trails.length).toBe(5);
+    expect(parsed.trails.length).toBeGreaterThanOrEqual(6);
+    expect(parsed.trails.some((t) => t.status === "upcoming")).toBe(true);
   });
 
   it("requires id and slug to match", () => {

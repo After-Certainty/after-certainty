@@ -18,10 +18,18 @@ export function TrailCard({ trail, location = "index", analytics }: TrailCardPro
   const minutes = trail.totalEstimatedMinutes;
   const href = `/trails/${trail.slug}`;
   const eyebrow = trail.audience ?? theme;
+  const isUpcoming = trail.status === "upcoming";
 
   const inner = (
     <>
-      <p className="text-xs uppercase tracking-[0.22em] text-accent">{eyebrow}</p>
+      <div className="flex flex-wrap items-center gap-2">
+        <p className="text-xs uppercase tracking-[0.22em] text-accent">{eyebrow}</p>
+        {isUpcoming ? (
+          <span className="rounded-sm border border-border/60 px-2 py-0.5 text-[10px] uppercase tracking-[0.18em] text-muted">
+            Upcoming
+          </span>
+        ) : null}
+      </div>
       <h3 className="mt-3 font-display text-xl font-medium leading-snug tracking-tight text-fg md:text-2xl">
         {trail.title}
       </h3>
@@ -30,7 +38,7 @@ export function TrailCard({ trail, location = "index", analytics }: TrailCardPro
         {stopCount} stops · ~{minutes} min
       </p>
       <span className="mt-6 text-xs uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg">
-        Follow this trail →
+        {isUpcoming ? "Preview this trail →" : "Follow this trail →"}
       </span>
     </>
   );
@@ -45,6 +53,7 @@ export function TrailCard({ trail, location = "index", analytics }: TrailCardPro
         className={className}
         data-trail-id={trail.id}
         data-trail-location={location}
+        data-trail-status={trail.status}
         analytics={analytics}
       >
         {inner}
@@ -53,7 +62,13 @@ export function TrailCard({ trail, location = "index", analytics }: TrailCardPro
   }
 
   return (
-    <Link href={href} className={className} data-trail-id={trail.id} data-trail-location={location}>
+    <Link
+      href={href}
+      className={className}
+      data-trail-id={trail.id}
+      data-trail-location={location}
+      data-trail-status={trail.status}
+    >
       {inner}
     </Link>
   );

@@ -24,6 +24,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return createPageMetadata({
     title: `${trail.title} · Reading Trail`,
     description: trail.summary,
+    robots: trail.status === "upcoming" ? { index: false, follow: true } : undefined,
     openGraph: trail.primaryBookCover
       ? {
           images: [{ url: trail.primaryBookCover, alt: trail.primaryBookTitle ?? trail.title }],
@@ -50,14 +51,16 @@ export default async function TrailDetailPage({ params }: PageProps) {
   return (
     <article>
       <TrailPathAnalytics trailId={trail.id} />
-      <JsonLd
-        data={buildTrailDetailJsonLd({
-          slug: trail.slug,
-          title: trail.title,
-          summary: trail.summary,
-          stopTitles: trail.pathStopsEnriched.map((s) => s.title),
-        })}
-      />
+      {trail.status === "published" ? (
+        <JsonLd
+          data={buildTrailDetailJsonLd({
+            slug: trail.slug,
+            title: trail.title,
+            summary: trail.summary,
+            stopTitles: trail.pathStopsEnriched.map((s) => s.title),
+          })}
+        />
+      ) : null}
 
       <Section atmosphere="transition" className="border-b border-border/40 py-14 md:py-20">
         <Container>
@@ -72,10 +75,21 @@ export default async function TrailDetailPage({ params }: PageProps) {
             {trail.themes.join(" · ")}
             {trail.audience ? ` · ${trail.audience}` : ""}
           </p>
+          {trail.status === "upcoming" ? (
+            <p className="mt-4 inline-flex rounded-sm border border-border/60 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-muted">
+              Upcoming trail — preview
+            </p>
+          ) : null}
           <h1 className="mt-6 max-w-3xl font-display text-4xl font-medium leading-tight tracking-tight text-fg md:text-5xl">
             {trail.title}
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">{trail.summary}</p>
+          {trail.status === "upcoming" ? (
+            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
+              This trail is still being composed. The path below is a preview of the planned
+              sequence and may change before publication.
+            </p>
+          ) : null}
           <p className="mt-6 max-w-2xl leading-relaxed text-muted">{trail.orientation}</p>
         </Container>
       </Section>

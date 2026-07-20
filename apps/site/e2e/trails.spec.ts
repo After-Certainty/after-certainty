@@ -99,4 +99,15 @@ test.describe("Curated Reading Trails", () => {
       page.getByRole("link", { name: /Systems That Cannot Correct Themselves/i }),
     ).toBeVisible();
   });
+
+  test("index surfaces upcoming trails and preview detail", async ({ page }) => {
+    await page.goto("/trails");
+    await expect(page.getByRole("heading", { name: "Coming soon" })).toBeVisible();
+    await page.getByRole("link", { name: /Where Institutions Look/i }).click();
+    await expect(page).toHaveURL("/trails/where-institutions-look");
+    await expect(page.getByText(/Upcoming trail — preview/i)).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: "Where Institutions Look", level: 1 }),
+    ).toBeVisible();
+  });
 });

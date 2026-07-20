@@ -3,7 +3,10 @@ import { TrailCard } from "@/components/trails/trail-card";
 import { TrailSectionAnalytics } from "@/components/trails/trail-section-analytics";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
-import { getEnrichedPublishedTrails } from "@/lib/trails/getEnrichedTrails";
+import {
+  getEnrichedPublishedTrails,
+  getEnrichedUpcomingTrails,
+} from "@/lib/trails/getEnrichedTrails";
 import { slugifyTheme } from "@/lib/trails/loadTrails";
 import type { EnrichedTrail } from "@/types/trails";
 
@@ -34,12 +37,16 @@ function filterByTheme(trails: EnrichedTrail[], themeFilter?: string): EnrichedT
 }
 
 export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProps) {
-  const allTrails = await getEnrichedPublishedTrails();
+  const [allTrails, upcomingTrails] = await Promise.all([
+    getEnrichedPublishedTrails(),
+    getEnrichedUpcomingTrails(),
+  ]);
   const trails = filterByTheme(allTrails, themeFilter);
+  const upcoming = themeFilter ? filterByTheme(upcomingTrails, themeFilter) : upcomingTrails;
   const featured = allTrails.filter((t) => t.featured).slice(0, 4);
   const grouped = groupEnrichedByTheme(trails);
-  const themes = [...new Set(allTrails.flatMap((t) => t.themes))].sort((a, b) =>
-    a.localeCompare(b),
+  const themes = [...new Set([...allTrails, ...upcomingTrails].flatMap((t) => t.themes))].sort(
+    (a, b) => a.localeCompare(b),
   );
 
   return (
@@ -123,12 +130,12 @@ export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProp
         </Section>
       ) : null}
 
-      {trails.length === 0 ? (
+      {trails.length === 0 && upcoming.length === 0 ? (
         <Section atmosphere="none" className="border-b border-border/35 py-14 md:py-20">
           <Container>
             <p className="text-muted">
               {themeFilter
-                ? "No published trails match that theme yet."
+                ? "No trails match that theme yet."
                 : "No reading trails are published yet."}
             </p>
             {themeFilter ? (
@@ -169,6 +176,37 @@ export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProp
           </Section>
         ))
       )}
+
+      {upcoming.length > 0 ? (
+        <Section
+          id="upcoming"
+          atmosphere="transition"
+          className="scroll-mt-24 border-b border-border/35 py-14 md:py-20"
+        >
+          <Container>
+            <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl">
+              Coming soon
+            </h2>
+            <p className="mt-4 max-w-2xl text-muted">
+              Trails still being composed. You can preview the planned path; they are not yet in
+              search or the sitemap.
+            </p>
+            <div className="mt-10 grid gap-4 sm:grid-cols-2">
+              {upcoming.map((trail) => (
+                <TrailCard
+                  key={trail.id}
+                  trail={trail}
+                  location="index"
+                  analytics={{
+                    event: "trail_select",
+                    params: { trail_id: trail.id, location: "index_upcoming" },
+                  }}
+                />
+              ))}
+            </div>
+          </Container>
+        </Section>
+      ) : null}
 
       <Section atmosphere="none" className="py-14 md:py-20">
         <Container>
