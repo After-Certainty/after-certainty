@@ -7,6 +7,11 @@ export type SmokeUrl = {
 export const topLevelSmokeUrls: SmokeUrl[] = [
   { path: "/", label: "Home" },
   { path: "/start", label: "Start" },
+  { path: "/questions", label: "Questions index" },
+  {
+    path: "/questions/trust-survives-disagreement",
+    label: "Question: trust survives disagreement",
+  },
   { path: "/explore", label: "Explore" },
   { path: "/explore/concepts", label: "Concepts index" },
   { path: "/explore/patterns", label: "Patterns index" },

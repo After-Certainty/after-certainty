@@ -103,3 +103,35 @@ export function trackSearchNoResults(params: SearchNoResultsParams): void {
 export function trackSearchExpand(): void {
   trackEvent("search_expand");
 }
+
+export function trackQuestionSectionView(params: { location: "home" | "start" | "index" }): void {
+  trackEvent("question_section_view", params);
+}
+
+export function trackQuestionSelect(params: { question_id: string; location: string }): void {
+  trackEvent("question_select", params);
+}
+
+export function trackQuestionPathStart(params: { question_id: string }): void {
+  trackEvent("question_path_start", params);
+}
+
+export function trackQuestionStopOpen(params: {
+  question_id: string;
+  stop_position: number;
+  entity_type: string;
+}): void {
+  trackEvent("question_stop_open", params);
+}
+
+export function trackQuestionRelatedSelect(params: { from_id: string; to_id: string }): void {
+  trackEvent("question_related_select", params);
+}
+
+export function trackQuestionContinueBook(params: { question_id: string; book_id: string }): void {
+  trackEvent("question_continue_book", params);
+}
+
+export function trackQuestionSearchHandoff(params: { question_id: string }): void {
+  trackEvent("question_search_handoff", params);
+}

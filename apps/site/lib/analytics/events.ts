@@ -63,6 +63,43 @@ export type SearchNoResultsParams = {
   query_length_bucket: string;
 };
 
+export type QuestionSectionViewParams = {
+  location: "home" | "start" | "index";
+};
+
+export type QuestionSelectParams = {
+  question_id: string;
+  location: string;
+};
+
+export type QuestionPathStartParams = {
+  question_id: string;
+};
+
+export type QuestionStopOpenParams = {
+  question_id: string;
+  stop_position: number;
+  entity_type: string;
+};
+
+export type QuestionPathCompleteParams = {
+  question_id: string;
+};
+
+export type QuestionRelatedSelectParams = {
+  from_id: string;
+  to_id: string;
+};
+
+export type QuestionContinueBookParams = {
+  question_id: string;
+  book_id: string;
+};
+
+export type QuestionSearchHandoffParams = {
+  question_id: string;
+};
+
 export const AnalyticsEvents = {
   selectContent: "select_content",
   fileDownload: "file_download",
@@ -73,6 +110,14 @@ export const AnalyticsEvents = {
   searchRefine: "search_refine",
   searchNoResults: "search_no_results",
   searchExpand: "search_expand",
+  questionSectionView: "question_section_view",
+  questionSelect: "question_select",
+  questionPathStart: "question_path_start",
+  questionStopOpen: "question_stop_open",
+  questionPathComplete: "question_path_complete",
+  questionRelatedSelect: "question_related_select",
+  questionContinueBook: "question_continue_book",
+  questionSearchHandoff: "question_search_handoff",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];

@@ -25,6 +25,7 @@ export async function SiteFooter() {
   const footerLinks = [
     { label: "GitHub", href: siteConfig.githubUrl },
     { label: "RSS / Podcast feed", href: resolvePodcastRssUrl() },
+    { label: "Start with a Question", href: "/questions" },
     { label: "Search", href: "/search" },
     { label: "Collaborators", href: "/collaborators" },
     { label: "Explore patterns", href: "/explore/patterns" },

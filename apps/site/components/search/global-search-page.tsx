@@ -25,6 +25,8 @@ import {
   trackSearchRefine,
   trackSearchSelect,
 } from "@/lib/analytics/track";
+import { SearchCuratedQuestions } from "@/components/search/search-curated-questions";
+import type { EnrichedQuestion, QuestionSearchBridge } from "@/types/questions";
 import { paginateExploreIndexItems } from "@/lib/explore/explore-index-browse";
 import { searchWithIndex, type SearchHit } from "@/lib/search/query";
 import type { SearchEntityType } from "@/lib/search/types";
@@ -43,12 +45,16 @@ type GlobalSearchPageProps = {
   initialQuery?: string;
   initialType?: string;
   initialPage?: string;
+  curatedQuestions?: EnrichedQuestion[];
+  questionSearchBridges?: QuestionSearchBridge[];
 };
 
 function GlobalSearchPageInner({
   initialQuery = "",
   initialType = "",
   initialPage = "",
+  curatedQuestions = [],
+  questionSearchBridges = [],
 }: GlobalSearchPageProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -277,6 +283,10 @@ function GlobalSearchPageInner({
             </ul>
             <p className="pt-4">
               Prefer a guided path?{" "}
+              <Link href="/questions" className="text-accent underline-offset-4 hover:underline">
+                Start with a Question
+              </Link>{" "}
+              or{" "}
               <Link href="/start" className="text-accent underline-offset-4 hover:underline">
                 Start Here
               </Link>
@@ -309,6 +319,14 @@ function GlobalSearchPageInner({
               </li>
             </ul>
           </div>
+        ) : null}
+
+        {indexState.status === "ready" && urlState.q ? (
+          <SearchCuratedQuestions
+            query={urlState.q}
+            enrichedQuestions={curatedQuestions}
+            searchBridges={questionSearchBridges}
+          />
         ) : null}
 
         {pageSlice.items.length > 0 ? (

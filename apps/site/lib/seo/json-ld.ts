@@ -813,3 +813,66 @@ export function conceptRelationshipUrls(index: GraphIndex, canonicalFocalId: str
     .filter((slug): slug is string => Boolean(slug))
     .map((slug) => absoluteUrl(`${explorePaths.concepts}/${slug}`));
 }
+
+export function buildQuestionsIndexJsonLd(): JsonLdDocument {
+  const pageUrl = absoluteUrl("/questions");
+  const crumbsId = breadcrumbId(pageUrl);
+
+  return jsonLdGraph([
+    buildWebPageJsonLd({
+      pageUrl,
+      name: "Start with a Question",
+      description:
+        "Curated questions that open finite paths through After Certainty for visitors who begin with a human tension.",
+      breadcrumbId: crumbsId,
+    }),
+    buildBreadcrumbListJsonLd(
+      [{ label: "Home", href: "/" }, { label: "Start with a Question" }],
+      crumbsId,
+    ),
+  ]);
+}
+
+export function buildQuestionDetailJsonLd(input: {
+  slug: string;
+  question: string;
+  summary: string;
+  stopTitles: string[];
+}): JsonLdDocument {
+  const pageUrl = absoluteUrl(`/questions/${input.slug}`);
+  const crumbsId = breadcrumbId(pageUrl);
+  const itemListId = `${pageUrl}#path`;
+
+  const itemList: JsonLdNode = compact({
+    "@type": "ItemList",
+    "@id": itemListId,
+    name: `Path for: ${input.question}`,
+    numberOfItems: input.stopTitles.length,
+    itemListElement: input.stopTitles.map((title, index) =>
+      compact({
+        "@type": "ListItem",
+        position: index + 1,
+        name: title,
+      }),
+    ),
+  });
+
+  return jsonLdGraph([
+    buildWebPageJsonLd({
+      pageUrl,
+      name: input.question,
+      description: input.summary,
+      breadcrumbId: crumbsId,
+      mainEntityId: itemListId,
+    }),
+    itemList,
+    buildBreadcrumbListJsonLd(
+      [
+        { label: "Home", href: "/" },
+        { label: "Start with a Question", href: "/questions" },
+        { label: input.question },
+      ],
+      crumbsId,
+    ),
+  ]);
+}

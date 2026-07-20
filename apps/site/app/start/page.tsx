@@ -6,6 +6,7 @@ import { StartHero } from "@/components/start/start-hero";
 import { StartHow } from "@/components/start/start-how";
 import { StartQuote } from "@/components/start/start-quote";
 import { StartWhat } from "@/components/start/start-what";
+import { StartQuestionsSection } from "@/components/questions/start-questions-section";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { explorePaths } from "@/lib/graph/explorePaths";
@@ -37,6 +38,7 @@ export default async function StartPage() {
       <JsonLd data={buildStartPageJsonLd({ shelfItems })} />
       <StartHero />
       <StartWhat />
+      <StartQuestionsSection />
       <StartExplore />
       <StartQuote />
       <StartHow />
