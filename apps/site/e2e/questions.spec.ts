@@ -38,4 +38,12 @@ test.describe("Start with a Question", () => {
       page.getByRole("link", { name: /How can trust survive disagreement/i }),
     ).toBeVisible();
   });
+
+  test("question page surfaces related reading trails", async ({ page }) => {
+    await page.goto("/questions/act-before-certainty-arrives");
+    await expect(
+      page.getByRole("heading", { name: "Continue with a reading trail" }),
+    ).toBeVisible();
+    await expect(page.getByRole("link", { name: /Judgment Before Certainty/i })).toBeVisible();
+  });
 });

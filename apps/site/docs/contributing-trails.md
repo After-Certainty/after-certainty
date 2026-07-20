@@ -142,6 +142,8 @@ Terms use substring matching (case-insensitive). Up to two matched trails appear
 
 Published trails that reference an entity automatically appear on that entity's explore detail page (books, concepts, patterns) under **Reading trails featuring this …**.
 
+Published trails that share path stops with a question (without duplicating more than 60% of the path) automatically appear on that question's detail page under **Continue with a reading trail**.
+
 ## Estimated time
 
 Per-stop minutes default by entity type and sum to the trail total shown on cards and detail pages. Override with `estimatedMinutes` on individual stops when you have a reliable estimate.

@@ -7,6 +7,7 @@ import { TrackedLink } from "@/components/analytics/tracked-link";
 import { QuestionPath } from "@/components/questions/question-path";
 import { QuestionPathAnalytics } from "@/components/questions/question-path-analytics";
 import { QuestionCard } from "@/components/questions/question-card";
+import { QuestionRelatedTrailsSection } from "@/components/trails/question-related-trails-section";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
@@ -145,6 +146,8 @@ export default async function QuestionDetailPage({ params }: PageProps) {
           </Container>
         </Section>
       ) : null}
+
+      <QuestionRelatedTrailsSection question={question} />
 
       <Section atmosphere="none" className="py-14 md:py-20">
         <Container>
