@@ -1,29 +1,6 @@
+export type { PathEntityType, PathStopInput, EnrichedPathStop } from "@/types/paths";
+
 export type QuestionStatus = "draft" | "published" | "archived";
-
-export type PathEntityType =
-  | "book"
-  | "concept"
-  | "pattern"
-  | "situation"
-  | "thinker"
-  | "source"
-  | "podcast_episode"
-  | "external";
-
-export type PathStopInput = {
-  position: number;
-  entityType: PathEntityType;
-  entityId?: string;
-  bookSlug?: string;
-  externalUrl?: string;
-  titleOverride?: string;
-  description: string;
-  whyThisFollows?: string;
-  estimatedMinutes?: number;
-  optional?: boolean;
-  excerpt?: string;
-  fictionDoorway?: boolean;
-};
 
 export type QuestionDefinition = {
   id: string;
@@ -39,7 +16,7 @@ export type QuestionDefinition = {
   families: string[];
   primaryBookId: string;
   relatedQuestionIds?: string[];
-  pathStops: PathStopInput[];
+  pathStops: import("@/types/paths").PathStopInput[];
   closingReflection: string;
   carryForwardQuestion?: string;
   searchHints?: string[];
@@ -62,17 +39,8 @@ export type QuestionsManifest = {
   searchBridges?: QuestionSearchBridge[];
 };
 
-export type EnrichedPathStop = PathStopInput & {
-  resolvedEntityId: string;
-  title: string;
-  href: string;
-  external: boolean;
-  entityTypeLabel: string;
-  estimatedMinutes: number;
-};
-
 export type EnrichedQuestion = QuestionDefinition & {
-  pathStopsEnriched: EnrichedPathStop[];
+  pathStopsEnriched: import("@/types/paths").EnrichedPathStop[];
   totalEstimatedMinutes: number;
   primaryBookTitle: string;
   primaryBookHref: string;

@@ -135,3 +135,36 @@ export function trackQuestionContinueBook(params: { question_id: string; book_id
 export function trackQuestionSearchHandoff(params: { question_id: string }): void {
   trackEvent("question_search_handoff", params);
 }
+
+export function trackTrailIndexView(params: { location: "start" | "index" }): void {
+  trackEvent("trail_index_view", params);
+}
+
+export function trackTrailSelect(params: { trail_id: string; location: string }): void {
+  trackEvent("trail_select", params);
+}
+
+export function trackTrailPathStart(params: { trail_id: string }): void {
+  trackEvent("trail_path_start", params);
+}
+
+export function trackTrailStopOpen(params: {
+  trail_id: string;
+  stop_position: number;
+  entity_type: string;
+  optional: boolean;
+}): void {
+  trackEvent("trail_stop_open", params);
+}
+
+export function trackTrailRelatedSelect(params: { from_id: string; to_id: string }): void {
+  trackEvent("trail_related_select", params);
+}
+
+export function trackTrailContinueBook(params: { trail_id: string; book_id: string }): void {
+  trackEvent("trail_continue_book", params);
+}
+
+export function trackTrailSearchHandoff(params: { trail_id: string }): void {
+  trackEvent("trail_search_handoff", params);
+}

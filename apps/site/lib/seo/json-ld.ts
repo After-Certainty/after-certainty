@@ -876,3 +876,66 @@ export function buildQuestionDetailJsonLd(input: {
     ),
   ]);
 }
+
+export function buildTrailsIndexJsonLd(): JsonLdDocument {
+  const pageUrl = absoluteUrl("/trails");
+  const crumbsId = breadcrumbId(pageUrl);
+
+  return jsonLdGraph([
+    buildWebPageJsonLd({
+      pageUrl,
+      name: "Curated Reading Trails",
+      description:
+        "Editorially composed paths through After Certainty—finite sequences with context for why each stop belongs.",
+      breadcrumbId: crumbsId,
+    }),
+    buildBreadcrumbListJsonLd(
+      [{ label: "Home", href: "/" }, { label: "Reading Trails" }],
+      crumbsId,
+    ),
+  ]);
+}
+
+export function buildTrailDetailJsonLd(input: {
+  slug: string;
+  title: string;
+  summary: string;
+  stopTitles: string[];
+}): JsonLdDocument {
+  const pageUrl = absoluteUrl(`/trails/${input.slug}`);
+  const crumbsId = breadcrumbId(pageUrl);
+  const itemListId = `${pageUrl}#path`;
+
+  const itemList: JsonLdNode = compact({
+    "@type": "ItemList",
+    "@id": itemListId,
+    name: `Reading trail: ${input.title}`,
+    numberOfItems: input.stopTitles.length,
+    itemListElement: input.stopTitles.map((title, index) =>
+      compact({
+        "@type": "ListItem",
+        position: index + 1,
+        name: title,
+      }),
+    ),
+  });
+
+  return jsonLdGraph([
+    buildWebPageJsonLd({
+      pageUrl,
+      name: input.title,
+      description: input.summary,
+      breadcrumbId: crumbsId,
+      mainEntityId: itemListId,
+    }),
+    itemList,
+    buildBreadcrumbListJsonLd(
+      [
+        { label: "Home", href: "/" },
+        { label: "Reading Trails", href: "/trails" },
+        { label: input.title },
+      ],
+      crumbsId,
+    ),
+  ]);
+}

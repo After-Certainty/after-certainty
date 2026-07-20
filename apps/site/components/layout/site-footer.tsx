@@ -26,6 +26,7 @@ export async function SiteFooter() {
     { label: "GitHub", href: siteConfig.githubUrl },
     { label: "RSS / Podcast feed", href: resolvePodcastRssUrl() },
     { label: "Start with a Question", href: "/questions" },
+    { label: "Reading Trails", href: "/trails" },
     { label: "Search", href: "/search" },
     { label: "Collaborators", href: "/collaborators" },
     { label: "Explore patterns", href: "/explore/patterns" },

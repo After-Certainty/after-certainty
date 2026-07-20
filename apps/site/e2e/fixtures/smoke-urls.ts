@@ -8,6 +8,11 @@ export const topLevelSmokeUrls: SmokeUrl[] = [
   { path: "/", label: "Home" },
   { path: "/start", label: "Start" },
   { path: "/questions", label: "Questions index" },
+  { path: "/trails", label: "Trails index" },
+  {
+    path: "/trails/judgment-before-certainty",
+    label: "Trail: Judgment Before Certainty",
+  },
   {
     path: "/questions/trust-survives-disagreement",
     label: "Question: trust survives disagreement",

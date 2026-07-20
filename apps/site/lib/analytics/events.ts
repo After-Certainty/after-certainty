@@ -100,6 +100,40 @@ export type QuestionSearchHandoffParams = {
   question_id: string;
 };
 
+export type TrailIndexViewParams = {
+  location: "start" | "index";
+};
+
+export type TrailSelectParams = {
+  trail_id: string;
+  location: string;
+};
+
+export type TrailPathStartParams = {
+  trail_id: string;
+};
+
+export type TrailStopOpenParams = {
+  trail_id: string;
+  stop_position: number;
+  entity_type: string;
+  optional: boolean;
+};
+
+export type TrailRelatedSelectParams = {
+  from_id: string;
+  to_id: string;
+};
+
+export type TrailContinueBookParams = {
+  trail_id: string;
+  book_id: string;
+};
+
+export type TrailSearchHandoffParams = {
+  trail_id: string;
+};
+
 export const AnalyticsEvents = {
   selectContent: "select_content",
   fileDownload: "file_download",
@@ -118,6 +152,13 @@ export const AnalyticsEvents = {
   questionRelatedSelect: "question_related_select",
   questionContinueBook: "question_continue_book",
   questionSearchHandoff: "question_search_handoff",
+  trailIndexView: "trail_index_view",
+  trailSelect: "trail_select",
+  trailPathStart: "trail_path_start",
+  trailStopOpen: "trail_stop_open",
+  trailRelatedSelect: "trail_related_select",
+  trailContinueBook: "trail_continue_book",
+  trailSearchHandoff: "trail_search_handoff",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];

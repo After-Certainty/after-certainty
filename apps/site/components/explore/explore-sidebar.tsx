@@ -9,6 +9,7 @@ const links = [
   { href: explorePaths.books, label: "Books" },
   { href: explorePaths.thinkers, label: "Thinkers" },
   { href: explorePaths.sources, label: "Sources" },
+  { href: "/trails", label: "Reading Trails" },
   { href: "/search", label: "Search" },
 ] as const;
 

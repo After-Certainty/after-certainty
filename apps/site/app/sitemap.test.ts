@@ -27,6 +27,8 @@ describe("sitemap", () => {
     for (const path of [
       "/",
       "/start",
+      "/questions",
+      "/trails",
       "/explore",
       "/explore/concepts",
       "/explore/patterns",
@@ -58,6 +60,11 @@ describe("sitemap", () => {
     expect(urls).toContain("https://example.com/explore/concepts/certainty");
     expect(urls.some((u) => u.includes("/explore/sources/"))).toBe(true);
     expect(urls.some((u) => u.includes("/explore/thinkers/"))).toBe(true);
+  });
+
+  it("includes published trail detail URLs", async () => {
+    const urls = (await sitemap()).map((e) => e.url);
+    expect(urls).toContain("https://example.com/trails/judgment-before-certainty");
   });
 
   it("returns many more entries than top-level routes only", async () => {

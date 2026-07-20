@@ -1,0 +1,256 @@
+{
+  "manifestVersion": 1,
+  "updatedAt": "2026-07-20",
+  "trails": [
+    {
+      "id": "judgment-before-certainty",
+      "slug": "judgment-before-certainty",
+      "title": "Judgment Before Certainty",
+      "summary": "How to keep thinking, revising, and acting when the full picture has not arrived—and why false certainty is often the greater risk.",
+      "orientation": "Many consequential decisions arrive before explanation finishes. This trail moves from the practice of judgment through books that treat uncertainty as terrain rather than failure, ending with what keeps judgment corrigible when pressure mounts.",
+      "status": "published",
+      "featured": true,
+      "featuredRank": 1,
+      "themes": ["Judgment"],
+      "depth": "intermediate",
+      "primaryBookId": "book-before-certainty-arrives",
+      "relatedTrailIds": ["systems-without-correction", "software-judgment-trail"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-judgment",
+          "description": "Start with judgment as ongoing work—not a one-time verdict, but a practice that must remain open to correction."
+        },
+        {
+          "position": 2,
+          "entityType": "book",
+          "entityId": "book-before-certainty-arrives",
+          "description": "See how responsible action begins before the picture is complete—when waiting for certainty would itself be a choice.",
+          "whyThisFollows": "After naming judgment, this book shows what it looks like to act while still learning."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-curiosity-before-certainty",
+          "description": "A lighter entry on curiosity as discipline—the habit that keeps inquiry alive when easy answers would close it.",
+          "whyThisFollows": "Curiosity often precedes the harder judgments; it keeps the path from collapsing into premature closure."
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "entityId": "concept-certainty",
+          "description": "Examine what certainty promises—and what it costs when it arrives too early or stays too rigid.",
+          "whyThisFollows": "Judgment under uncertainty requires knowing what certainty would substitute for, and why that substitution is dangerous."
+        },
+        {
+          "position": 5,
+          "entityType": "pattern",
+          "entityId": "pattern-revisability-preserves-judgment",
+          "description": "Notice how institutions and relationships stay corrigible when claims can still be revised without collapsing trust.",
+          "whyThisFollows": "Judgment that cannot be revised becomes performance; this pattern names what keeps revision possible."
+        },
+        {
+          "position": 6,
+          "entityType": "book",
+          "entityId": "book-the-relay",
+          "description": "A fiction doorway: a courier notices silence where explanations should be—and participation replaces false certainty.",
+          "whyThisFollows": "Story can hold the tension between acting and not knowing in ways argument alone sometimes cannot.",
+          "optional": true,
+          "fictionDoorway": true,
+          "estimatedMinutes": 45
+        }
+      ],
+      "closingReflection": "You may notice judgment resting less on having the answer and more on staying in contact with what would change your mind. The trail does not settle the underlying question—it offers a sequence for moving through it with more discipline.",
+      "suggestedContinuation": "If systems and institutions are where your judgment must land, follow the Systems That Cannot Correct Themselves trail next. If you work in software, the practitioner trail offers a parallel path through coupling and feedback."
+    },
+    {
+      "id": "leadership-after-the-person",
+      "slug": "leadership-after-the-person",
+      "title": "Leadership After the Person",
+      "summary": "When influence outlasts the person who held it—how leadership coalesces, reproduces, and becomes a system others inherit.",
+      "orientation": "Leadership is not only a role someone occupies. It is a pattern others learn, repeat, and eventually treat as environment. This trail names how influence forms and spreads—and what happens when the person is no longer the center of the story.",
+      "status": "published",
+      "featured": true,
+      "featuredRank": 2,
+      "themes": ["Leadership"],
+      "depth": "intermediate",
+      "primaryBookId": "book-when-others-look-to-you-v1",
+      "relatedTrailIds": ["systems-without-correction", "meaning-under-pressure"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "pattern",
+          "entityId": "pattern-leadership-coalesces",
+          "description": "Begin by noticing how leadership gathers around a person before anyone names it—through repetition, reward, and what others learn to expect."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-leadership-reproduces-itself",
+          "description": "See how what one leader did becomes what the next leader is expected to do—often without anyone deciding to copy it.",
+          "whyThisFollows": "Coalescence is the beginning; reproduction is how influence becomes structure."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-when-others-look-to-you-v1",
+          "description": "The primary book on renewal and erosion—how steadiness, choices, and what you reward quietly become the environment everyone navigates.",
+          "whyThisFollows": "After naming the patterns, this is the deepest on-site treatment of inherited influence."
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "entityId": "concept-authority",
+          "description": "Distinguish authority from understanding—and notice when legitimacy rests on position rather than comprehension.",
+          "whyThisFollows": "When leadership becomes system, authority often persists after the reasons for it have thinned."
+        }
+      ],
+      "closingReflection": "You may feel less focused on individual charisma and more on what gets repeated, rewarded, and remembered. Leadership after the person is not an absence of leaders—it is a shift in what leadership means.",
+      "suggestedContinuation": "Follow Meaning Under Pressure if communication and interpretation are where influence now lives, or Systems That Cannot Correct Themselves if institutional drift is the concern."
+    },
+    {
+      "id": "meaning-under-pressure",
+      "slug": "meaning-under-pressure",
+      "title": "Meaning Under Pressure",
+      "summary": "How signal compresses, shifts, and sometimes distorts when stakes rise—across books, concepts, and conversation.",
+      "orientation": "Meaning does not travel unchanged. Under pressure it compresses, drifts, and sometimes becomes the argument itself. This trail moves from vocabulary through observable dynamics to a primary book—and optionally to a podcast conversation that walks the same terrain aloud.",
+      "status": "published",
+      "featured": true,
+      "featuredRank": 3,
+      "themes": ["Meaning"],
+      "depth": "introductory",
+      "primaryBookId": "book-how-meaning-moves",
+      "relatedTrailIds": ["leadership-after-the-person", "judgment-before-certainty"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-meaning",
+          "description": "Begin with meaning as something carried between people and systems—not fixed in words alone."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-meaning-shifts-under-pressure",
+          "description": "Notice how meaning changes when urgency, fear, or institutional stakes enter the conversation.",
+          "whyThisFollows": "The trail's tension is pressure; this pattern names what happens when meaning meets it."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-how-meaning-moves",
+          "description": "The primary book on signal, compression, restraint, and connection—the forces that carry meaning between people.",
+          "whyThisFollows": "After recognition and pattern, this is the fullest on-site exploration."
+        },
+        {
+          "position": 4,
+          "entityType": "podcast_episode",
+          "entityId": "podcast:how-meaning-moves",
+          "description": "Listen to a conversation that walks through the book's forces in spoken form—a different pace for the same ideas.",
+          "whyThisFollows": "Hearing meaning move aloud can surface what silent reading sometimes skips.",
+          "optional": true,
+          "estimatedMinutes": 12
+        },
+        {
+          "position": 5,
+          "entityType": "concept",
+          "entityId": "concept-interpretation",
+          "description": "Carry forward into interpretation—how people reconstruct meaning from partial signal and shared context.",
+          "whyThisFollows": "Meaning under pressure always passes through interpretation; this concept names that work."
+        }
+      ],
+      "closingReflection": "You may notice yourself watching not only what is said but what travels, what compresses, and what gets lost between speaker and listener. The trail ends; the observation does not.",
+      "suggestedContinuation": "Browse Start with a Question for tension-framed paths, or search the commons for concepts like compression and signal."
+    },
+    {
+      "id": "systems-without-correction",
+      "slug": "systems-without-correction",
+      "title": "Systems That Cannot Correct Themselves",
+      "summary": "When feedback weakens, exceptions harden, and learning collapses—how institutions drift without anyone choosing decay.",
+      "orientation": "Systems fail correction long before they fail outright. Feedback thins, temporary fixes become permanent, and coupling choices shape who bears consequences. This trail follows that arc from concept through pattern to a book on how systems join and drift apart.",
+      "status": "published",
+      "featured": false,
+      "themes": ["Systems"],
+      "depth": "deep",
+      "primaryBookId": "book-coupling",
+      "relatedTrailIds": ["leadership-after-the-person", "software-judgment-trail"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-feedback",
+          "description": "Start with feedback as the mechanism systems use to learn—when it weakens, correction becomes expensive or invisible."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-learning-collapses",
+          "description": "See what happens when organizations stop receiving the information they would need to revise course.",
+          "whyThisFollows": "Feedback is the ideal; collapsed learning is the observable failure mode."
+        },
+        {
+          "position": 3,
+          "entityType": "pattern",
+          "entityId": "pattern-exceptions-are-forever",
+          "description": "Notice when temporary exceptions become permanent rules—often without a formal decision to make them so.",
+          "whyThisFollows": "Exception-hardening is one way systems lose the ability to return to prior standards."
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "entityId": "book-coupling",
+          "description": "The primary book on how systems join, drift apart, and how coupling choices shape accountability over time.",
+          "whyThisFollows": "After naming failure modes, this book offers the framework for seeing structural causes."
+        }
+      ],
+      "closingReflection": "Correction is not automatic. Systems that cannot correct themselves often look stable right until the bill arrives somewhere else. The trail names the drift; changing it remains work.",
+      "suggestedContinuation": "If you build or maintain software systems, the practitioner trail applies the same ideas to technical judgment and coupling."
+    },
+    {
+      "id": "software-judgment-trail",
+      "slug": "software-judgment-trail",
+      "title": "After Certainty for Software Engineers",
+      "summary": "Coupling, feedback, and abstraction for people who ship systems—when technical judgment is collective and consequences are distributed.",
+      "orientation": "Software engineers inherit the same tensions as any institution: weak feedback, tight coupling, and the temptation to substitute metrics for understanding. This trail is for practitioners who want corpus ideas translated into technical judgment without pretending code is separate from human coordination.",
+      "status": "published",
+      "featured": false,
+      "themes": ["Practice"],
+      "audience": "Software engineers",
+      "depth": "intermediate",
+      "primaryBookId": "book-coupling",
+      "relatedTrailIds": ["systems-without-correction", "judgment-before-certainty"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-coupling",
+          "description": "Begin with coupling—how tightly joined parts of a system are, and what that means when something changes or fails."
+        },
+        {
+          "position": 2,
+          "entityType": "book",
+          "entityId": "book-coupling",
+          "description": "The primary book on seeing where systems are joined, where they drift, and how those choices shape accountability.",
+          "whyThisFollows": "Coupling is the concept; this book is the sustained treatment engineers can apply to architecture and org design."
+        },
+        {
+          "position": 3,
+          "entityType": "pattern",
+          "entityId": "pattern-feedback-drives-change",
+          "description": "Notice when feedback loops actually change behavior—and when they are too slow, too noisy, or routed to the wrong people.",
+          "whyThisFollows": "Shipping is a feedback problem; this pattern names what makes change possible or impossible."
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "entityId": "concept-abstraction",
+          "description": "End with abstraction—what gets hidden, what gets simplified, and what judgment must still carry across layers.",
+          "whyThisFollows": "Every system design is an abstraction choice; the trail closes by naming what those choices cost."
+        }
+      ],
+      "closingReflection": "Technical judgment is never only technical. Coupling, feedback, and abstraction are ways of seeing how your work connects to everyone else's—and what breaks when those connections are misread.",
+      "suggestedContinuation": "Follow Judgment Before Certainty for the broader practice of acting before certainty, or Systems That Cannot Correct Themselves for institutional drift."
+    }
+  ]
+}

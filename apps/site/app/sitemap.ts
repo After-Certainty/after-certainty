@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getBooks } from "@/lib/content-data";
 import { getQuestionSitemapSlugs } from "@/lib/questions/loadQuestions";
+import { getTrailSitemapSlugs } from "@/lib/trails/loadTrails";
 import { getSemanticGraph } from "@/lib/graph/manifest";
 import { resolveThinkers } from "@/lib/graph/thinkers";
 import { explorePaths } from "@/lib/graph/explorePaths";
@@ -11,6 +12,7 @@ const TOP_LEVEL_PATHS = [
   "/",
   "/start",
   "/questions",
+  "/trails",
   "/explore",
   "/explore/concepts",
   "/explore/patterns",
@@ -57,6 +59,10 @@ export async function getSitemapPaths(): Promise<string[]> {
 
   for (const slug of getQuestionSitemapSlugs()) {
     paths.push(`/questions/${slug}`);
+  }
+
+  for (const slug of getTrailSitemapSlugs()) {
+    paths.push(`/trails/${slug}`);
   }
 
   const seen = new Set<string>();
