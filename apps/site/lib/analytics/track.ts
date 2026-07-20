@@ -136,7 +136,7 @@ export function trackQuestionSearchHandoff(params: { question_id: string }): voi
   trackEvent("question_search_handoff", params);
 }
 
-export function trackTrailIndexView(params: { location: "start" | "index" }): void {
+export function trackTrailIndexView(params: { location: "home" | "start" | "index" }): void {
   trackEvent("trail_index_view", params);
 }
 

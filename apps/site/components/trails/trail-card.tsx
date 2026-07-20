@@ -5,7 +5,7 @@ import type { EnrichedTrail } from "@/types/trails";
 
 type TrailCardProps = {
   trail: EnrichedTrail;
-  location?: "start" | "index" | "related";
+  location?: "home" | "start" | "index" | "related";
   analytics?: {
     event: AnalyticsEventName;
     params?: Record<string, string | number | boolean | undefined>;

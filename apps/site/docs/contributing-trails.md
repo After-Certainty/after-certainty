@@ -140,6 +140,8 @@ Add `searchBridges` at the manifest root to surface curated trails above Global 
 
 Terms use substring matching (case-insensitive). Up to two matched trails appear in the "Curated reading trails" callout on `/search?q=…`. Unknown `trailIds` fail validation.
 
+Published trails that reference an entity automatically appear on that entity's explore detail page (books, concepts, patterns) under **Reading trails featuring this …**.
+
 ## Estimated time
 
 Per-stop minutes default by entity type and sum to the trail total shown on cards and detail pages. Override with `estimatedMinutes` on individual stops when you have a reliable estimate.

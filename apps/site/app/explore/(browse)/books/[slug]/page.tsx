@@ -8,6 +8,7 @@ import { ExploreBookMedia } from "@/components/explore/explore-book-media";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
+import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { LinkifiedText } from "@/components/ui/linkified-text";
@@ -154,6 +155,8 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
           next={nextBook ? { slug: nextBook.slug, title: nextBook.title } : undefined}
         />
       </Section>
+
+      <RelatedTrailsSection canonicalId={book.id} entityLabel="book" />
 
       {hasRelated ? (
         <Section

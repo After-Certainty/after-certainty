@@ -83,4 +83,20 @@ test.describe("Curated Reading Trails", () => {
     await expect(page.getByRole("heading", { name: "Curated reading trails" })).toBeVisible();
     await expect(page.getByRole("link", { name: /Judgment Before Certainty/i })).toBeVisible();
   });
+
+  test("homepage surfaces featured trails section", async ({ page }) => {
+    await page.goto("/");
+    await expect(page.getByRole("heading", { name: "Follow a reading trail" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Browse all reading trails/i })).toBeVisible();
+  });
+
+  test("book page shows related reading trails", async ({ page }) => {
+    await page.goto("/explore/books/coupling");
+    await expect(
+      page.getByRole("heading", { name: "Reading trails featuring this book" }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("link", { name: /Systems That Cannot Correct Themselves/i }),
+    ).toBeVisible();
+  });
 });

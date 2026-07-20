@@ -101,7 +101,7 @@ export type QuestionSearchHandoffParams = {
 };
 
 export type TrailIndexViewParams = {
-  location: "start" | "index";
+  location: "home" | "start" | "index";
 };
 
 export type TrailSelectParams = {

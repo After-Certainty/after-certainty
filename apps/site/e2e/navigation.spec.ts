@@ -13,6 +13,7 @@ const exploreSidebarLinks = [
   { href: "/explore/books", label: "Books" },
   { href: "/explore/thinkers", label: "Thinkers" },
   { href: "/explore/sources", label: "Sources" },
+  { href: "/trails", label: "Reading Trails" },
 ] as const;
 
 test.describe("navigation smoke", () => {

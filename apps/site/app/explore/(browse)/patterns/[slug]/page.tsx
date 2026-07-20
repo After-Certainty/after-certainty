@@ -6,6 +6,7 @@ import { ExplorePatternMedia } from "@/components/explore/explore-pattern-media"
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
+import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { LinkifiedText } from "@/components/ui/linkified-text";
@@ -86,6 +87,8 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           next={nextPattern ? { slug: nextPattern.slug, title: nextPattern.title } : undefined}
         />
       </Section>
+
+      <RelatedTrailsSection canonicalId={pattern.id} entityLabel="pattern" />
 
       {hasRelated ? (
         <Section

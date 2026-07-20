@@ -74,9 +74,12 @@ export function resolveSiteSocialLinks(): SiteSocialLinks {
   const gh = "https://github.com/ksteffe/after-certainty";
   return {
     github: process.env.NEXT_PUBLIC_SOCIAL_GITHUB_URL?.trim() || gh,
-    medium: process.env.NEXT_PUBLIC_SOCIAL_MEDIUM_URL?.trim() || "https://medium.com/@steffensen.kevin",
-    linkedIn: process.env.NEXT_PUBLIC_SOCIAL_LINKEDIN_URL?.trim() || "https://www.linkedin.com/in/ksteffe/",
-    youtube: process.env.NEXT_PUBLIC_SOCIAL_YOUTUBE_URL?.trim() || "https://www.youtube.com/@kstefftube",
+    medium:
+      process.env.NEXT_PUBLIC_SOCIAL_MEDIUM_URL?.trim() || "https://medium.com/@steffensen.kevin",
+    linkedIn:
+      process.env.NEXT_PUBLIC_SOCIAL_LINKEDIN_URL?.trim() || "https://www.linkedin.com/in/ksteffe/",
+    youtube:
+      process.env.NEXT_PUBLIC_SOCIAL_YOUTUBE_URL?.trim() || "https://www.youtube.com/@kstefftube",
   };
 }
 
@@ -89,7 +92,8 @@ export function resolvePodcastPlatformLinks(): PodcastPlatformLinks {
     apple: process.env.NEXT_PUBLIC_PODCAST_APPLE_URL?.trim() || "",
     youtube: process.env.NEXT_PUBLIC_PODCAST_YOUTUBE_URL?.trim() || "",
     rss: resolvePodcastRssUrl(),
-    githubDiscussions: process.env.NEXT_PUBLIC_GITHUB_DISCUSSIONS_URL?.trim() || `${gh}/discussions`,
+    githubDiscussions:
+      process.env.NEXT_PUBLIC_GITHUB_DISCUSSIONS_URL?.trim() || `${gh}/discussions`,
   };
 }
 
@@ -104,8 +108,7 @@ export function resolveGaMeasurementId(): string | null {
 }
 
 /** Open Graph / Twitter card title (~50–60 chars for link preview tools). */
-export const OG_SHARE_TITLE =
-  "After Certainty — An Intellectual Commons for Human Systems";
+export const OG_SHARE_TITLE = "After Certainty — An Intellectual Commons for Human Systems";
 
 export const siteConfig = {
   name: "After Certainty",
@@ -122,6 +125,7 @@ export const siteConfig = {
   },
   navigation: [
     { href: "/explore/books", label: "Books" },
+    { href: "/trails", label: "Trails" },
     { href: "/explore", label: "Explore" },
     { href: "/podcast", label: "Podcast" },
     { href: "/collaborators", label: "Collaborators" },

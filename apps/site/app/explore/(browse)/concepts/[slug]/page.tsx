@@ -6,6 +6,7 @@ import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { GraphNeighborhoodCards } from "@/components/explore/graph-neighborhood-cards";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
+import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { LinkifiedText } from "@/components/ui/linkified-text";
@@ -136,6 +137,8 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
           next={nextConcept ? { slug: nextConcept.slug, title: nextConcept.title } : undefined}
         />
       </Section>
+
+      <RelatedTrailsSection canonicalId={concept.id} entityLabel="concept" />
 
       {hasRelated ? (
         <Section

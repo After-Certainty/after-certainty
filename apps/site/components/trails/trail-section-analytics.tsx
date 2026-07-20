@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import { trackTrailIndexView } from "@/lib/analytics/track";
 
 type TrailSectionAnalyticsProps = {
-  location: "start" | "index";
+  location: "home" | "start" | "index";
 };
 
 export function TrailSectionAnalytics({ location }: TrailSectionAnalyticsProps) {
