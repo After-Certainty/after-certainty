@@ -34,18 +34,14 @@ trajectory:
   - retire exceptions in batches with named owners
   - pair each exception with a review date and success criterion
 manifestations:
-  leadership:
-  - crisis committees and emergency approvers stay on the org chart after calm returns
-  organizations:
-  - onboarding teaches the workaround route instead of the standard that still exists on paper
-  family:
-  - a temporary house rule for a hard month becomes how everyone expects decisions to run
-manifestations:
   software:
   - emergency deploy channels remain the default after incidents close
   - temporary feature flags and bypass paths never revert
   leadership:
-  - crisis committees and exception authorities persist after calm returns
+  - crisis committees and emergency approvers stay on the org chart after calm returns
   organizations:
+  - onboarding teaches the workaround route instead of the standard that still exists on paper
   - bureaucracy adds scar tissue after each failure without retiring old workarounds
   - coordination machinery grows around exceptions instead of restoring standards
+  family:
+  - a temporary house rule for a hard month becomes how everyone expects decisions to run

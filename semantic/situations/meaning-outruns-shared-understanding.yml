@@ -1,0 +1,48 @@
+slug: meaning-outruns-shared-understanding
+title: Meaning outruns shared understanding
+summary: Words, plans, and summaries move faster than the shared read they presuppose;
+  coordination proceeds on incompatible assumptions.
+activePatterns:
+- meaning-outruns-the-words
+- contact-keeps-the-read-open
+relatedConcepts:
+- meaning
+- consequence
+- interpretation
+- circulation
+relatedBooks:
+- how-meaning-moves
+recognitionSignals:
+- teams act for days on an assumption nobody explicitly agreed to
+- archived summaries train newcomers on a read the originator did not intend
+- the distinction between direction and intent becomes difficult to maintain
+- meaning races ahead of contact while vocabulary stays the same
+- later evidence arrives too late to unwind what already moved
+questions:
+- What did we start doing before we agreed on what was said?
+- Which record is now teaching future attention the wrong lesson?
+counterbalances:
+- pause coordination until exact wording is confirmed
+- label provisional assumptions in shared documents before they propagate
+trajectory:
+  earlySignals:
+  - a passing comment gets treated as direction
+  - hallway coordination outpaces the official read
+  intensificationSignals:
+  - plans change without a vote while everyone describes it as decided
+  - archives accumulate layers that obscure the original uncertainty
+  failureModes:
+  - consequence competes with intent as the account of what happened
+  - repair requires rewriting history, not just fixing the plan
+  restorationPaths:
+  - return to exact language before defending the coordinated outcome
+  - add a contact checkpoint before the next handoff
+manifestations:
+  software:
+  - a ticket comment becomes scope while the author still thought they were brainstorming
+  leadership:
+  - a leader's informal remark becomes policy in the project plan summary
+  organizations:
+  - edited meeting notes remove an assumption the room had been acting on for a week
+  family:
+  - a casual remark about weekend plans becomes the family's assumed commitment

@@ -1,0 +1,48 @@
+slug: admiration-insulates-from-scrutiny
+title: Admiration insulates from scrutiny
+summary: Trust in an admired figure makes proportionate inquiry feel like betrayal
+  of the cause; criticism begins sounding like ingratitude.
+activePatterns:
+- admiration-becomes-insulation
+- scrutiny-preserves-trust
+relatedConcepts:
+- legitimacy
+- authority
+- accountability
+- judgment
+relatedBooks:
+- after-certainty
+recognitionSignals:
+- criticism of the person sounds like criticism of the cause
+- scrutiny is reframed as disloyalty or ingratitude
+- harm nearby gets narrated as error, tradeoff, or necessity
+- information threatening the heroic story feels destabilizing
+- gratitude already did the work of protection without anyone conspiring
+questions:
+- What question would feel disloyal to ask here—and why?
+- What would proportionate inquiry look like without recasting the admired person as a villain?
+counterbalances:
+- separate admiration for the cause from immunity for the person
+- protect one inconvenient fact from being read as betrayal
+trajectory:
+  earlySignals:
+  - admiration offers coherence and simplifies difficult tradeoffs
+  - loyalty attaches to a face
+  intensificationSignals:
+  - dissent starts feeling like sabotage of the hero's mission
+  - context expands generously around admired figures while tightening around critics
+  failureModes:
+  - the story becomes what must be defended rather than examined
+  - harm persists inside a narrative of necessary work
+  restorationPaths:
+  - allow scrutiny that preserves trust without demanding a villain
+  - revisit one tradeoff the heroic story has been protecting
+manifestations:
+  software:
+  - a respected architect's design choices go unchallenged while incidents accumulate
+  leadership:
+  - a beloved executive's blind spots become expensive to name in leadership meetings
+  organizations:
+  - a teacher's community protects him because gratitude already did the work
+  family:
+  - questioning a parent's sacrifice feels like attacking the family's moral story

@@ -1,0 +1,50 @@
+slug: leadership-reproduces-under-pressure
+title: Leadership reproduces under pressure
+summary: Who gets copied, promoted, and imitated under stress shapes the next round
+  of leaders before anyone names the succession.
+activePatterns:
+- leadership-reproduces-itself
+- leadership-coalesces
+- examples-accumulate
+relatedConcepts:
+- correction
+- circulation
+- coordination
+- erosion
+relatedBooks:
+- when-others-look-to-you-v1
+- coupling
+recognitionSignals:
+- crisis behavior becomes the template for "how we lead here"
+- the person who held the center during pressure gets fast-tracked without debate
+- newcomers imitate emergency norms that were never retired
+- tradeoffs made under urgency become the story of what good leadership looks like
+- succession conversations assume the last crisis style is the standard
+questions:
+- Which leadership habits from the last pressure cycle are we now selecting for?
+- Who learned to lead by copying behavior that was meant to be temporary?
+counterbalances:
+- name which emergency behaviors sunset before the next promotion cycle
+- pair succession decisions with examples from calm weeks, not only crises
+trajectory:
+  earlySignals:
+  - one person's crisis moves get repeated as best practice
+  - attention coalesces on a single escalation point
+  intensificationSignals:
+  - emergency precedent hardens into governance language
+  - dissent thins around whoever held the center during the rush
+  failureModes:
+  - the next generation of leaders inherits narrowed correction channels
+  - scale amplifies habits that worked once under abnormal conditions
+  restorationPaths:
+  - document what was temporary before it becomes training material
+  - rotate who holds the center when pressure drops
+manifestations:
+  software:
+  - the engineer who shipped the hotfix becomes the default approver for all risky changes
+  leadership:
+  - crisis committees stay on the org chart and shape who gets promoted next
+  organizations:
+  - onboarding teaches the workaround route instead of the standard on paper
+  family:
+  - the parent who managed the hard month becomes the permanent decider for that domain

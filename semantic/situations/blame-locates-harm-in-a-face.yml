@@ -1,0 +1,48 @@
+slug: blame-locates-harm-in-a-face
+title: Blame locates harm in a face
+summary: Complex outcomes compress into a villain narrative faster than contact with
+  how the field actually produced them.
+activePatterns:
+- blame-compresses-complexity
+- correctness-hardens-into-identity
+relatedConcepts:
+- accountability
+- harm
+- scale
+- abstraction
+relatedBooks:
+- after-certainty
+recognitionSignals:
+- relief arrives when someone is named before the system is understood
+- harm gets a face before it gets a field map
+- complexity collapses into character judgment in public conversation
+- scale compresses structurally while blame compresses morally
+- revisiting the verdict feels like reopening a settled story
+questions:
+- What part of this outcome lived in structure rather than character?
+- Who benefits from the relief of a single responsible party?
+counterbalances:
+- map the field before naming a villain
+- pair accountability with contact, not only verdict
+trajectory:
+  earlySignals:
+  - people search for who to hold responsible before mapping how harm traveled
+  - moral clarity feels like progress
+  intensificationSignals:
+  - villain narratives simplify systems into individuals
+  - scrutiny of the story feels disloyal to those who need relief
+  failureModes:
+  - the same harm pathway persists under new faces
+  - correction becomes reputation management
+  restorationPaths:
+  - restore contact with how the outcome was produced
+  - allow judgment without premature finality
+manifestations:
+  software:
+  - an outage postmortem fires one engineer while dependency structure stays unchanged
+  leadership:
+  - a scandal centers on one official while incentive design goes unexamined
+  organizations:
+  - a frontline worker is blamed for a failure shaped by upstream constraints
+  family:
+  - one member becomes the permanent cause of a recurring household problem

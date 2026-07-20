@@ -1,0 +1,48 @@
+slug: meaning-forms-before-anyone-checks-it
+title: Meaning forms before anyone checks it
+summary: A working interpretation settles while language is still incomplete; later
+  detail gets read through the early frame.
+activePatterns:
+- meaning-forms-early
+- gaps-invite-completion
+relatedConcepts:
+- meaning
+- interpretation
+- compression
+- uncertainty
+relatedBooks:
+- how-meaning-moves
+recognitionSignals:
+- listeners respond before the speaker finishes the thought
+- a working story feels settled while people still believe they are listening
+- new detail gets sorted as confirmation or threat rather than fresh information
+- action pressure makes waiting for completeness feel unsafe
+- prior beliefs fill gaps before the speaker supplies them
+questions:
+- When did you decide what was happening—before or after the language was complete?
+- What frame was already forming when the next detail arrived?
+counterbalances:
+- hold one question open through the full utterance before responding
+- name the working story as provisional aloud
+trajectory:
+  earlySignals:
+  - partial language arrives in a live social setting
+  - emotion and prior narrative load the channel before processing finishes
+  intensificationSignals:
+  - additional words get filtered through an already-forming frame
+  - compression masquerades as understanding
+  failureModes:
+  - correction meets a settled story and feels like attack
+  - conversations proceed with different versions of what was decided early
+  restorationPaths:
+  - return contact to exact wording before defending the early read
+  - reopen the frame explicitly when new detail contradicts the first conclusion
+manifestations:
+  software:
+  - a Slack thread locks onto an interpretation before the author finishes clarifying
+  leadership:
+  - maybe we should hardens into we will before thinking is ready
+  organizations:
+  - meetings move to action before shared understanding stabilizes
+  family:
+  - a short phrase wakes years of story before explanation can land

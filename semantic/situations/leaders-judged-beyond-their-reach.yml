@@ -1,0 +1,50 @@
+slug: leaders-judged-beyond-their-reach
+title: Leaders judged beyond their reach
+summary: Decision-makers are evaluated on outcomes they cannot fully see or control
+  while sitting far from the consequences of what they decide.
+activePatterns:
+- leaders-feel-the-consequences
+- examples-accumulate
+- attention-finds-a-focus
+relatedConcepts:
+- harm
+- distance
+- scale
+- accountability
+relatedBooks:
+- when-others-look-to-you-v1
+- coupling
+recognitionSignals:
+- reports look better than what people on the ground are living
+- leaders are praised or blamed for aggregates they cannot steer directly
+- examples under pressure set expectations disconnected from daily constraints
+- feedback thins as reach widens
+- judgment arrives before ground signal can return
+questions:
+- What can this leader actually see and change from where they sit?
+- Which part of the verdict belongs to structure rather than character?
+counterbalances:
+- bring one ground observer into the judgment conversation
+- separate outcome evaluation from visibility of constraints
+trajectory:
+  earlySignals:
+  - distance grows between decision-makers and affected parties
+  - narratives about leaders form from visible moments, not full context
+  intensificationSignals:
+  - selective dissent stays visible enough to use while real warnings go quiet
+  - scale makes consequences harder to trace back to a single desk
+  failureModes:
+  - misjudgment of leaders becomes structural—wrong heroes, wrong villains
+  - accountability collapses into reputation management
+  restorationPaths:
+  - restore consequence visibility before evaluating performance
+  - judge leaders on whether correction channels stayed open, not only outcomes
+manifestations:
+  software:
+  - an executive is judged on uptime numbers while teams hide dependency risk locally
+  leadership:
+  - a regional director inherits blame for harm pathways they cannot see in time
+  organizations:
+  - frontline staff adapt locally while paperwork keeps the public story coordinated
+  family:
+  - a parent is blamed for a child's outcome shaped by systems they do not control
