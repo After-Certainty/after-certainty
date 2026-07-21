@@ -60,6 +60,6 @@
 ## Rough scale
 
 - Introduction words: ~2,800 (body; author revision)
-- Chapter 1 words: see assessment after add
+- Chapter 1 words: ~3,400 (body; author draft; footnotes paraphrased)
 - Full manuscript target: ~46,000–50,000
 - Last assessed: Chapter 1 author draft (July 2026)

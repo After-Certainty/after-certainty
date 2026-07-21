@@ -33,7 +33,7 @@ Log research before drafting the unit. Prefer primary sources and authoritative 
 
 | ID | Unit | Need |
 |----|------|------|
-| P1-01 | Photograph | Cases where iconic visibility compresses multi-actor causation; contrasting low-visibility causal contributors |
+| P1-01 | Photograph | **Drafted.** Citation pass: replace paraphrased footnotes with full Chicago entries + bibliography rows for Carlyle (1841); Smithsonian NMAH on King speech; Stanford King Institute / Smithsonian on Mahalia Jackson prompt; NPS + King Institute on Randolph/Rustin; NPS attendance ~250,000; Hedgeman/Height/Bates speaking-program sources; NASA Apollo workforce figures; NASA Apollo 11 / Steve Bales program alarms |
 | P1-02 | Door | Structure/agency literature that preserves differentiated responsibility (not structure-without-people) |
 | P1-03 | Clock | Decision under uncertainty; hindsight bias / outcome bias scholarship for judgment-after-the-fact |
 
