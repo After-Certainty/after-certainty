@@ -104,7 +104,7 @@ Power imagined as fixed weight; Pullman paternalism vs Flint counterpower; Folle
 
 #### Chapter 10 — The Window
 
-Mary Parker Follett, integration, power-with, co-created capacity, and the limits of reframing.
+Power-with as openings between rooms: Ella Baker / SNCC group-centered leadership; Citizenship Schools; Ostrom commons governance; empowerment vs organized capacity.
 
 ### Conclusion — The Table
 

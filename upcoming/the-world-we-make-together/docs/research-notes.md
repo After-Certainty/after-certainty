@@ -57,8 +57,8 @@ Log research before drafting the unit. Prefer primary sources and authoritative 
 | ID | Unit | Need |
 |----|------|------|
 | P4-01 | Scale | **Drafted.** Citation pass: Pullman company town acreage/rents; Panic of 1893 wage–rent squeeze; May 11, 1894 strike + ARU boycott; federal injunction/troops/Debs; NPS racial exclusion of Black railroad workers; U.S. Strike Commission paternalism critique; Follett power-over/power-with + “The Giving of Orders” / law of the situation; Flint sit-down Dec 1936–Feb 11, 1937 (44 days); Women’s Emergency Brigade; GM–UAW recognition settlement. |
-| P4-02 | Window | Mary Parker Follett: *Creative Experience*, *The New State*, and/or *Dynamic Administration*; integration vs domination vs compromise; **at least one failed/unavailable/inappropriate integration attempt** (Ch 9 already introduces Follett — deepen, do not re-explain Scale) |
-| P4-03 | Window | Cross-check series Follett mention in *Learning to See* Ch. 6 — enrich, do not copy |
+| P4-02 | Window | **Drafted.** Citation pass: Greensboro sit-ins Feb 1, 1960; Shaw SNCC founding conference Apr 15–17, 1960; Baker group-centered autonomy vs absorption into SCLC; Baker–Moses–Amzie Moore Mississippi voter-registration path; Johns Island Citizenship School Jan 1957 (Clark, Jenkins, Robinson, Highlander); SCLC Citizenship School expansion 1961; Ostrom 2009 economics prize / commons; design principles (boundaries, participation, monitoring, sanctions, conflict resolution, nested recognition). |
+| P4-03 | Window | Cross-check series Follett mention in *Learning to See* Ch. 6 — Ch 9 carries Follett naming; Window does not restate. Optional later enrichment only. |
 
 ### Conclusion
 
