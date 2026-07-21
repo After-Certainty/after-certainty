@@ -36,7 +36,7 @@
 | Ch 5 — The Clipboard | draft | Author-supplied; McGregor X/Y, NUMMI, Porto Alegre; ends toward ballot |
 | Ch 6 — The Ballot | draft | Author-supplied; SA 1994, Mill, Reynolds; answerability/standing; ends toward Fence |
 | Part III bridge | draft | Author-supplied; Ballot→Fence/Bowl; trust vs love distinction |
-| Ch 7 — The Fence | outline | Distinct from Bowl |
+| Ch 7 — The Fence | draft | Author-supplied; Good Friday / Belfast trust across difference; ends toward Bowl |
 | Ch 8 — The Bowl | outline | Distinct from Fence |
 | Part IV bridge | outline | Not started |
 | Ch 9 — The Scale | outline | Positive compromise argument + two cases |
