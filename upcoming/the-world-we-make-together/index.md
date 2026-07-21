@@ -35,7 +35,9 @@
 
 ## Part IV — From Power-Over to Power-With
 
-*Planned (not yet drafted): Part IV bridge · Chapter 9 — The Scale · Chapter 10 — The Window*
+- [Part IV bridge](parts/part-4-from-power-over-to-power-with/bridge.md)
+
+*Planned (not yet drafted): Chapter 9 — The Scale · Chapter 10 — The Window*
 
 ## Back Matter
 

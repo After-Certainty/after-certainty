@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Part III complete through The Bowl; Part IV+ still outline**
+**Phase 1 — Through Part IV bridge; Scale and Window still outline**
 
 ## Active branch
 
@@ -38,7 +38,7 @@
 | Part III bridge | draft | Author-supplied; Ballot→Fence/Bowl; trust vs love distinction |
 | Ch 7 — The Fence | draft | Author-supplied; Good Friday / Belfast trust across difference; ends toward Bowl |
 | Ch 8 — The Bowl | draft | Author-supplied; langar + Panther breakfast + Tronto; distinct from Fence; ends toward Scale |
-| Part IV bridge | outline | Not started |
+| Part IV bridge | draft | Author-supplied; power-over vs power-with; Scale/Window preview |
 | Ch 9 — The Scale | outline | Positive compromise argument + two cases |
 | Ch 10 — The Window | outline | Follett; four movements; failed integration |
 | Conclusion — The Table | outline | Closure without historical closure |
@@ -46,17 +46,17 @@
 
 ## Next actions
 
-1. Editorial review of Introduction through The Bowl (Parts I–III).
+1. Editorial review of Introduction through Part IV bridge.
 2. Citation pass: promote paraphrased Ch 1–8 footnotes to full Chicago bibliography entries.
-3. Draft Part IV bridge, then Chapter 9 — The Scale.
+3. Draft Chapter 9 — The Scale (positive compromise argument + two contrasting cases).
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1–8 footnotes remain paraphrased — verify langar sources, BPP breakfast / COINTELPRO / USDA / Tronto, and prior chapter sources before citation-pass complete.
-- Bowl kept distinct from Fence: love/moral claim vs trust/relational risk; ending complicates the Scale.
+- Ch 1–8 footnotes remain paraphrased — verify before citation-pass complete.
+- Part IV opens power-over → power-with without naming Follett yet (Window).
 
 ## Rough scale
 
@@ -71,5 +71,6 @@
 - Part III bridge: ~470
 - Chapter 7 words: ~4,200
 - Chapter 8 words: ~5,600
+- Part IV bridge: ~490
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Chapter 8 author draft (July 2026)
+- Last assessed: Part IV bridge author draft (July 2026)
