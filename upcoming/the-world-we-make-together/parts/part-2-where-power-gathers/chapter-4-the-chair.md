@@ -404,22 +404,22 @@ The chair becomes a system.
 
 And someone begins taking notes.
 
-[^c4-newburgh-context]: In March 1783, officers at the New Windsor Cantonment considered anonymous appeals urging collective action over unpaid compensation and pensions. Washington viewed the situation as a danger to military discipline and civilian authority.
+[^c4-newburgh-context]: See George Washington’s Newburgh Address materials (Mount Vernon / Library of Congress editions) on the March 1783 crisis at New Windsor Cantonment over unpaid compensation and pensions.
 
-[^c4-temple-meeting]: Washington replaced the unofficial meeting with a formal gathering on March 15 and appeared unexpectedly at the Temple of Virtue to address the officers.
+[^c4-temple-meeting]: See primary and documentary editions of Washington’s March 15, 1783, appearance at the Temple of Virtue.
 
-[^c4-washington-address]: Washington’s address acknowledged the army’s suffering while rejecting the proposed use of military pressure against Congress and promising continued advocacy on the officers’ behalf.
+[^c4-washington-address]: See Washington’s Newburgh Address acknowledging the army’s suffering while rejecting military pressure against Congress.
 
-[^c4-spectacles]: After his speech, Washington put on spectacles while attempting to read a letter and remarked that he had grown gray in the officers’ service and was becoming blind. Contemporary retellings describe the gesture as deeply moving to the assembled officers.
+[^c4-spectacles]: See contemporary and documentary retellings of Washington putting on spectacles and remarking that he had grown gray in the officers’ service and was becoming blind.
 
-[^c4-resolutions]: The officers subsequently adopted resolutions affirming confidence in Washington and rejecting the anonymous proposals; Washington continued pressing Congress over compensation.
+[^c4-resolutions]: See accounts of the officers’ resolutions affirming confidence in Washington and rejecting the anonymous proposals, and of Washington’s continued advocacy before Congress.
 
-[^c4-ua173-gear]: United Airlines Flight 173 developed an apparent landing-gear problem while approaching Portland on December 28, 1978, and remained in a holding pattern while the crew assessed the problem and prepared for a possible emergency landing.
+[^c4-ua173-gear]: See National Transportation Safety Board, *Aircraft Accident Report* NTSB-AAR-79-7, on United Airlines Flight 173’s landing-gear indication problem near Portland on December 28, 1978.
 
-[^c4-ua173-hold]: The aircraft remained near Portland for about an hour while the crew focused on the landing-gear indication and emergency preparations.
+[^c4-ua173-hold]: See NTSB-AAR-79-7 on the approximately one-hour hold while the crew assessed the landing-gear indication and prepared for a possible emergency landing.
 
-[^c4-ua173-fuel]: The investigation found that fuel information was available but was not adequately integrated into the captain’s decisions as attention remained concentrated on the landing-gear problem.
+[^c4-ua173-fuel]: See NTSB-AAR-79-7 finding that fuel information was available but not adequately integrated into the captain’s decisions while attention remained concentrated on the landing-gear problem.
 
-[^c4-ntsb-ua173]: The NTSB concluded that the captain failed to monitor and respond properly to the fuel state and that the other crew members failed either to understand fully or communicate successfully the urgency of the situation. Ten people died in the crash.
+[^c4-ntsb-ua173]: See NTSB-AAR-79-7 concluding that the captain failed to monitor and respond properly to the fuel state and that other crew members failed either to understand fully or communicate successfully the urgency of the situation; ten people died.
 
-[^c4-crm]: The FAA identifies Flight 173 as an important catalyst in the development and adoption of crew resource management, which emphasized more effective teamwork, assertive communication, and better use of information distributed across the cockpit.
+[^c4-crm]: See Federal Aviation Administration accounts identifying Flight 173 as an important catalyst in the development and adoption of crew resource management.

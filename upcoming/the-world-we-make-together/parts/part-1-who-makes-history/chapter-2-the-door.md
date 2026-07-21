@@ -384,16 +384,16 @@ A threshold can make action possible.
 
 It cannot reveal what the action will become.
 
-[^c2-nps-plan]: The National Park Service describes Little Rock’s gradual desegregation plan, the recruitment of Black students, and the restrictions they were told to expect at Central High School.
+[^c2-nps-plan]: See National Park Service, Little Rock Central High School National Historic Site, on the gradual desegregation plan, student recruitment, and restrictions Black students were told to expect.
 
-[^c2-brown-faubus]: The National Archives summarizes the *Brown v. Board of Education* ruling, Little Rock’s desegregation plan, Governor Orval Faubus’s deployment of the Arkansas National Guard, and the federal response.
+[^c2-brown-faubus]: See *Brown v. Board of Education*, 347 U.S. 483 (1954); National Archives summaries of Little Rock’s plan, Governor Faubus’s use of the Arkansas National Guard, and the federal response; Eisenhower, Executive Order 10730 (September 24, 1957).
 
-[^c2-eckford-sept4]: National Park Service accounts document Elizabeth Eckford’s arrival alone on September 4, 1957, the crowd’s harassment, and the National Guard’s refusal to permit the Black students to enter Central High.
+[^c2-eckford-sept4]: See National Park Service accounts of Elizabeth Eckford’s arrival alone on September 4, 1957, the crowd’s harassment, and the National Guard’s refusal to permit entry.
 
-[^c2-jane-hill]: The National Park Service records that Jane Hill’s family received death threats and that her father was warned he could lose his job if she attended Central High.
+[^c2-jane-hill]: See National Park Service records that Jane Hill’s family received death threats and that her father was warned he could lose his job if she attended Central High.
 
-[^c2-sept23-eisenhower]: The students entered on September 23 but were removed as the crowd outside became violent. President Eisenhower then federalized the Arkansas National Guard and sent the 101st Airborne Division; the Little Rock Nine completed their first full day of classes under federal protection on September 25.
+[^c2-sept23-eisenhower]: See Eisenhower, Executive Order 10730; National Park Service chronology of the September 23 removal and the September 25 entry under federal protection.
 
-[^c2-inside-harassment]: National Park Service sources describe the harassment the Little Rock Nine experienced inside Central High, the limits of their military escorts, and threats and economic consequences directed at their families and the broader Black community.
+[^c2-inside-harassment]: See National Park Service sources on harassment inside Central High, limits of military escorts, and threats and economic consequences directed at families and the broader Black community.
 
-[^c2-school-closing]: In 1958, Arkansas officials closed Little Rock’s public high schools rather than continue desegregation, displacing approximately 3,700 students for the 1958–59 school year. The schools reopened after a federal court invalidated the school-closing law.
+[^c2-school-closing]: See Encyclopedia of Arkansas, “Lost Year,” on the 1958–59 closing of Little Rock’s public high schools and displacement of approximately 3,700 students.

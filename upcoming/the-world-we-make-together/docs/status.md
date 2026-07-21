@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Full draft through Conclusion (The Table); bibliography still pending**
+**Phase 1 — Full draft + citation pass complete; editorial review next**
 
 ## Active branch
 
@@ -25,37 +25,37 @@
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Title page / copyright | draft | Standard front-matter placeholders |
-| Introduction — The Switch | draft | Author-supplied revision; ~2,800 words |
+| Introduction — The Switch | draft | Author-supplied revision; ~2,800 words; no footnotes |
 | book-cover.png / open-graph.png | draft | Cover from Drive; OG via generate_open_graph.py |
 | Part I bridge | outline | Optional; Part I chapters stand without it for now |
-| Ch 1 — The Photograph | draft | Author-supplied; March on Washington + Apollo cases; 8 footnotes |
-| Ch 2 — The Door | draft | Author-supplied; Little Rock / structure-agency; ends on temporal threshold |
-| Ch 3 — The Clock | draft | Author-supplied; Challenger + Y2K; ends toward attention/leadership (Chair) |
-| Part II bridge | draft | Author-supplied; Clock→Chair orientation demand; previews Chair→Clipboard→Ballot |
-| Ch 4 — The Chair | draft | Author-supplied; Newburgh + UA173; ends chair→system / clipboard handoff |
-| Ch 5 — The Clipboard | draft | Author-supplied; McGregor X/Y, NUMMI, Porto Alegre; ends toward ballot |
-| Ch 6 — The Ballot | draft | Author-supplied; SA 1994, Mill, Reynolds; answerability/standing; ends toward Fence |
-| Part III bridge | draft | Author-supplied; Ballot→Fence/Bowl; trust vs love distinction |
-| Ch 7 — The Fence | draft | Author-supplied; Good Friday / Belfast trust across difference; ends toward Bowl |
-| Ch 8 — The Bowl | draft | Author-supplied; langar + Panther breakfast + Tronto; distinct from Fence; ends toward Scale |
-| Part IV bridge | draft | Author-supplied; power-over vs power-with; Scale/Window preview |
-| Ch 9 — The Scale | draft | Author-supplied; Pullman + Flint; Follett power-over/with; ends toward Window |
-| Ch 10 — The Window | draft | Author-supplied; Baker/SNCC, Citizenship Schools, Ostrom commons; ends toward Table |
-| Conclusion — The Table | draft | Author-supplied; assembly scene; objects return; shared power as steadier next act |
-| Bibliography | not started | Citation pass for Ch 1–10 paraphrased footnotes |
+| Ch 1 — The Photograph | draft | Citation pass complete |
+| Ch 2 — The Door | draft | Citation pass complete |
+| Ch 3 — The Clock | draft | Citation pass complete |
+| Part II bridge | draft | Author-supplied; Clock→Chair orientation demand |
+| Ch 4 — The Chair | draft | Citation pass complete |
+| Ch 5 — The Clipboard | draft | Citation pass complete |
+| Ch 6 — The Ballot | draft | Citation pass complete |
+| Part III bridge | draft | Author-supplied; Ballot→Fence/Bowl |
+| Ch 7 — The Fence | draft | Citation pass complete |
+| Ch 8 — The Bowl | draft | Citation pass complete |
+| Part IV bridge | draft | Author-supplied; power-over vs power-with |
+| Ch 9 — The Scale | draft | Citation pass complete |
+| Ch 10 — The Window | draft | Citation pass complete |
+| Conclusion — The Table | draft | Author-supplied; no footnotes |
+| Bibliography | draft | Chicago works-cited; 45 entries; footnotes upgraded to See… form |
 
 ## Next actions
 
 1. Editorial review of Introduction through Conclusion.
-2. Citation pass: promote paraphrased Ch 1–10 footnotes to full Chicago bibliography entries; create `back-matter/bibliography.md`.
-3. Optional: Part I bridge if still wanted after editorial review.
+2. Optional: Part I bridge if still wanted after editorial review.
+3. On promote to `books/`: series-guide entry; optional semantic-sources extract from bibliography.
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1–10 footnotes remain paraphrased — verify before citation-pass complete.
+- Citation pass complete for Ch 1–10; some institutional web pages are summary citations (NPS, Smithsonian, World Bank) rather than single stable URLs for every claim.
 - Follett named in Ch 9 (Scale); Window deepens power-with through Baker, Citizenship Schools, and Ostrom rather than restating Follett.
 - Conclusion briefly returns each object (author choice); not a chapter-by-chapter summary of cases.
 
@@ -77,4 +77,4 @@
 - Chapter 10 words: ~4,500
 - Conclusion words: ~3,900
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Conclusion author draft (July 2026)
+- Last assessed: Citation pass / bibliography (July 2026)

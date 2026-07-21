@@ -25,46 +25,33 @@ Source-tracking and unresolved factual needs. **Never invent** quotations, dates
 
 ---
 
-## Forward markers (later chapters)
+## Citation pass status (July 2026)
 
-Log research before drafting the unit. Prefer primary sources and authoritative scholarship.
+All Chapter 1–10 footnotes upgraded to Chicago “See…” form. Works listed in [`back-matter/bibliography.md`](../back-matter/bibliography.md).
 
-### Part I
+| ID | Unit | Status |
+|----|------|--------|
+| P1-01 | Photograph | **Citation pass complete.** Carlyle 1841; NMAH / King Institute / NPS March sources; NASA Apollo workforce and Apollo 11 alarms. |
+| P1-02 | Door | **Citation pass complete.** *Brown*; EO 10730; NPS Central High; Encyclopedia of Arkansas “Lost Year.” |
+| P1-03 | Clock | **Citation pass complete.** Rogers Commission + Feynman Appendix F; GAO/AIMD-00-290. |
+| P2-01 | Chair | **Citation pass complete.** Newburgh Address documentary editions; NTSB-AAR-79-7; FAA CRM account. |
+| P2-02 | Clipboard | **Citation pass complete.** McGregor 1960; Adler NUMMI; World Bank Porto Alegre materials. |
+| P2-03 | Ballot | **Citation pass complete.** SA Interim Constitution / Archives / Parliament; Mill 1861; *Reynolds v. Sims*. |
+| P3-01 | Fence | **Citation pass complete.** Belfast Agreement; NI referendum; Pettigrew & Tropp 2006; NI DOJ interface programme. |
+| P3-02 | Bowl | **Citation pass complete.** Pluralism Project langar; CAAM / NMAAHC BPP breakfast; Church Committee COINTELPRO; USDA SBP; Tronto 1993. Softened BPP→USDA link as interpretive influence. |
+| P4-01 | Scale | **Citation pass complete.** NPS Pullman; U.S. Strike Commission 1895; Follett *Creative Experience* + *Dynamic Administration*; Fine *Sit-Down*. |
+| P4-02 | Window | **Citation pass complete.** Ransby; Payne; SNCC Digital Gateway; LDHI Citizenship Schools; Ostrom 1990 + Nobel 2009. |
+| P4-03 | Window | Optional series cross-check with *Learning to See* Ch. 6 Follett note — not blocking. |
+| CONC-01 | Table | No footnotes required. |
 
-| ID | Unit | Need |
-|----|------|------|
-| P1-01 | Photograph | **Drafted.** Citation pass: replace paraphrased footnotes with full Chicago entries + bibliography rows for Carlyle (1841); Smithsonian NMAH on King speech; Stanford King Institute / Smithsonian on Mahalia Jackson prompt; NPS + King Institute on Randolph/Rustin; NPS attendance ~250,000; Hedgeman/Height/Bates speaking-program sources; NASA Apollo workforce figures; NASA Apollo 11 / Steve Bales program alarms |
-| P1-02 | Door | **Drafted.** Citation pass: NPS / National Archives Little Rock sources (desegregation plan; Eckford Sept 4; Jane Hill; Sept 23–25 Eisenhower / 101st; inside harassment; 1958–59 school closing / ~3,700 students). Confirm Brown citation and exact school-closing case name for bibliography. |
-| P1-03 | Clock | **Drafted.** Citation pass: Rogers Commission / Feynman appendix (Thiokol telecon, O-ring erosion, reversal/comms, burden of proof); NASA Challenger chronology; GAO Y2K high-risk designation, remediation guidance, compliance 21%→99.9%, minor federal errors / no major national failures. |
+### Remaining soft spots (non-blocking)
 
-### Part II
-
-| ID | Unit | Need |
-|----|------|------|
-| P2-01 | Chair | **Drafted.** Citation pass: Newburgh Conspiracy / Temple of Virtue / spectacles (Mount Vernon, NPS, or Library of Congress primarys preferred); NTSB report on United 173; FAA CRM account of Flight 173. |
-| P2-02 | Clipboard | **Drafted.** Citation pass: McGregor *Human Side of Enterprise* (1960); NUMMI Fremont case scholarship (Adler / Toyota–GM literature); World Bank Porto Alegre participatory budgeting publications (1989 origins; ~40,000 participants 1999; inclusion/representation evaluations). Confirm 2010 closure chronology. |
-| P2-03 | Ballot | **Drafted.** Citation pass: SA National Archives / Parliament 1994 election figures and Interim Constitution; Mill *Considerations on Representative Government* (plural voting + public-interest obligation); *Reynolds v. Sims* (1964) and Alabama reapportionment background; Soweto queue photograph provenance. |
-
-### Part III
-
-| ID | Unit | Need |
-|----|------|------|
-| P3-01 | Fence | **Drafted.** Citation pass: Belfast/Good Friday Agreement primary text (strands, consent, identity/citizenship); NI referendum results May 22, 1998; Pettigrew & Tropp intergroup contact meta-analysis and majority/minority status findings; NI Department of Justice interface barrier / gate schedule materials. |
-| P3-02 | Bowl | **Drafted.** Citation pass: Harvard Pluralism Project / Sikh sources on langar and Guru Nanak; California African American Museum Oakland breakfast opening; NMAAHC survival programs / ~20,000 children; COINTELPRO primarys or authoritative histories on breakfast disruption; USDA School Breakfast Program chronology and BPP influence acknowledgment; Joan Tronto care ethics / interdependence. |
-
-### Part IV
-
-| ID | Unit | Need |
-|----|------|------|
-| P4-01 | Scale | **Drafted.** Citation pass: Pullman company town acreage/rents; Panic of 1893 wage–rent squeeze; May 11, 1894 strike + ARU boycott; federal injunction/troops/Debs; NPS racial exclusion of Black railroad workers; U.S. Strike Commission paternalism critique; Follett power-over/power-with + “The Giving of Orders” / law of the situation; Flint sit-down Dec 1936–Feb 11, 1937 (44 days); Women’s Emergency Brigade; GM–UAW recognition settlement. |
-| P4-02 | Window | **Drafted.** Citation pass: Greensboro sit-ins Feb 1, 1960; Shaw SNCC founding conference Apr 15–17, 1960; Baker group-centered autonomy vs absorption into SCLC; Baker–Moses–Amzie Moore Mississippi voter-registration path; Johns Island Citizenship School Jan 1957 (Clark, Jenkins, Robinson, Highlander); SCLC Citizenship School expansion 1961; Ostrom 2009 economics prize / commons; design principles (boundaries, participation, monitoring, sanctions, conflict resolution, nested recognition). |
-| P4-03 | Window | Cross-check series Follett mention in *Learning to See* Ch. 6 — Ch 9 carries Follett naming; Window does not restate. Optional later enrichment only. |
-
-### Conclusion
-
-| ID | Unit | Need |
-|----|------|------|
-| CONC-01 | Table | **Drafted.** Lived assembly/repair scene; objects return naturally; no new fabricated institutional history. Citation pass: none required for conclusion itself (references prior cases by name only where already drafted). |
+| ID | Note |
+|----|------|
+| CITE-01 | Some institutional citations (NPS site pages, Smithsonian program pages, World Bank case pages) are collection-level rather than a single stable archival URL per claim. Tighten URLs on promote if desired. |
+| CITE-02 | Mahalia Jackson dream prompt is well-attested recollection, not a stenographic transcript fact. |
+| CITE-03 | NUMMI 2010 closing chronology rests on contemporary accounts; Adler covers opening/operation. |
+| CITE-04 | Pullman rent “return on investment” is the company’s design intent; realized returns may have been lower. |
 
 ---
 

@@ -476,20 +476,20 @@ The manager’s theory of workers becomes the institution’s theory of citizens
 
 And the next mark is made on a ballot.
 
-[^c5-mcgregor-book]: Douglas McGregor introduced Theory X and Theory Y in *The Human Side of Enterprise* in 1960. Theory X described assumptions that workers tend to avoid work and require direction and control; Theory Y emphasized the possibility of self-direction, responsibility, and meaningful effort under appropriate conditions.
+[^c5-mcgregor-book]: See Douglas McGregor, *The Human Side of Enterprise* (New York: McGraw-Hill, 1960), introducing Theory X and Theory Y.
 
-[^c5-mcgregor-assumptions]: McGregor presented Theory X and Theory Y as contrasting assumptions underlying managerial practice, not as fixed personality classifications separating two permanent kinds of employee.
+[^c5-mcgregor-assumptions]: See McGregor, *The Human Side of Enterprise*, presenting Theory X and Theory Y as contrasting managerial assumptions rather than fixed personality types.
 
-[^c5-fremont-close]: Before NUMMI, General Motors’ Fremont plant had poor labor relations, high absenteeism, and serious quality problems. GM closed the plant in 1982.
+[^c5-fremont-close]: See Paul S. Adler, “The ‘Learning Bureaucracy’: New United Motor Manufacturing, Inc.,” on GM’s Fremont plant’s labor and quality problems and its 1982 closing.
 
-[^c5-nummi-open]: NUMMI opened in 1984 as a General Motors–Toyota joint venture and rehired many former Fremont workers. Under the Toyota production system, it developed high productivity and quality comparable to Toyota’s Japanese plants.
+[^c5-nummi-open]: See Adler, “The ‘Learning Bureaucracy,’” on NUMMI’s 1984 opening as a GM–Toyota joint venture, rehiring of former Fremont workers, and high productivity and quality under the Toyota production system.
 
-[^c5-nummi-research]: Research on NUMMI has emphasized the importance of formal routines, training, trust, leadership, teamwork, and worker participation. The system joined clearly defined processes with mechanisms for workers to identify problems and contribute to improvement.
+[^c5-nummi-research]: See Adler, “The ‘Learning Bureaucracy,’” emphasizing routines, training, trust, leadership, teamwork, and worker participation in identifying problems and improving processes.
 
-[^c5-nummi-close]: NUMMI closed in 2010 after General Motors ended its participation in the joint venture and Toyota decided to discontinue production at the plant.
+[^c5-nummi-close]: See contemporary accounts of NUMMI’s 2010 closing after GM ended participation and Toyota discontinued production at the plant.
 
-[^c5-porto-alegre-begin]: Participatory budgeting began in Porto Alegre in 1989 during Brazil’s democratic transition. Residents participated through assemblies and representative structures that allowed them to identify priorities and influence municipal budget allocations.
+[^c5-porto-alegre-begin]: See World Bank participatory-budgeting case materials on Porto Alegre’s program beginning in 1989 during Brazil’s democratic transition.
 
-[^c5-porto-alegre-1999]: A World Bank publication reported an official estimate of approximately 40,000 citizens participating in Porto Alegre’s public budget meetings in 1999 and influencing the allocation of a substantial portion of the city budget.
+[^c5-porto-alegre-1999]: See World Bank publications reporting an official estimate of approximately 40,000 citizens participating in Porto Alegre’s public budget meetings in 1999.
 
-[^c5-porto-alegre-eval]: World Bank evaluations of participatory budgeting in Porto Alegre discuss both its achievements and its dependence on institutional design, active civil society, inclusion, representation, and continuing attention to unequal participation.
+[^c5-porto-alegre-eval]: See World Bank evaluations discussing Porto Alegre’s achievements and dependence on institutional design, civil society, inclusion, representation, and attention to unequal participation.

@@ -1022,16 +1022,16 @@ We take what we need.
 
 Then we decide whether to pass it on.
 
-[^c8-langar]: The Pluralism Project at Harvard University describes langar as the communal meal shared by Sikhs and visitors to a gurdwara, expressing equality, hospitality, community, and the oneness of humankind.
+[^c8-langar]: See Harvard University Pluralism Project, “Langar: The Communal Meal,” on the communal meal shared by Sikhs and visitors as expressing equality, hospitality, community, and the oneness of humankind.
 
-[^c8-nanak]: Accounts of Sikh tradition trace langar to Guru Nanak and describe it as a practice of equality, sharing, inclusion, and selfless service across caste, religion, gender, and social rank.
+[^c8-nanak]: See Pluralism Project and related Sikh tradition accounts tracing langar to Guru Nanak as a practice of equality and selfless service across caste, religion, gender, and social rank.
 
-[^c8-bpp-oakland]: The California African American Museum records that the Black Panther Party’s first Free Breakfast for School Children Program opened at St. Augustine’s Episcopal Church in Oakland on January 20, 1969, initially serving eleven children.
+[^c8-bpp-oakland]: See California African American Museum materials recording that the Black Panther Party’s first Free Breakfast for School Children Program opened at St. Augustine’s Episcopal Church in Oakland on January 20, 1969, initially serving eleven children.
 
-[^c8-bpp-smithsonian]: The Smithsonian’s National Museum of African American History and Culture describes the Panthers’ community survival programs, often locally led by women, and reports that their breakfast programs fed approximately 20,000 children each day while chapters also operated food programs, schools, legal-aid services, transportation, clinics, and sickle-cell testing.
+[^c8-bpp-smithsonian]: See National Museum of African American History and Culture materials on Panther survival programs—often locally led by women—and reports that breakfast programs fed approximately 20,000 children each day.
 
-[^c8-cointelpro]: The FBI’s COINTELPRO targeted the Black Panther Party as part of its campaign against organizations it classified as Black nationalist threats. Historical research and declassified records document efforts to disrupt breakfast programs by discouraging parents and donors, spreading rumors, and raiding or intimidating program sites.
+[^c8-cointelpro]: See Church Committee *Final Report* and related FBI/historiography on COINTELPRO targeting of the Black Panther Party, including efforts to disrupt breakfast programs.
 
-[^c8-usda]: USDA states that the federal School Breakfast Program began as a pilot in 1966 and became permanent in 1975. Its institutional history also identifies the Black Panther Party’s Free Breakfast for School Children Program as an influence upon permanent national authorization.
+[^c8-usda]: See USDA Food and Nutrition Service institutional history: School Breakfast Program pilot under the Child Nutrition Act of 1966; permanent authorization in 1975. Interpretive accounts also identify Black Panther breakfast programs as an influence on later national expansion.
 
-[^c8-tronto]: Joan Tronto describes care ethics as beginning with the reality that human beings both give and receive care and remain fundamentally interdependent throughout social and political life.
+[^c8-tronto]: See Joan C. Tronto, *Moral Boundaries: A Political Argument for an Ethic of Care* (New York: Routledge, 1993), on care as beginning from interdependence—that human beings both give and receive care throughout social and political life.

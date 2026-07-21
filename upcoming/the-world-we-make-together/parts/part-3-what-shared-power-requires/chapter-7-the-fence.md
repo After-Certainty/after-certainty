@@ -688,16 +688,16 @@ A shared world does not begin when every fence comes down.
 
 It begins when we stop treating the fence as proof that nothing valuable can pass through it.
 
-[^c7-gfa]: The Belfast Agreement was signed on April 10, 1998, after three decades of conflict. It included a multi-party agreement and an agreement between the British and Irish governments, and it addressed power-sharing, North-South and East-West relations, rights, security, policing, prisoners, and weapons.
+[^c7-gfa]: See *Belfast Agreement* (Good Friday Agreement), 10 April 1998, including the multi-party agreement and British-Irish agreement on power-sharing, North-South and East-West relations, rights, security, policing, prisoners, and weapons.
 
-[^c7-consent-identity]: The agreement rested upon the principle of consent regarding Northern Ireland’s constitutional status and recognized the right of people in Northern Ireland to identify and be accepted as British, Irish, or both, with corresponding citizenship rights.
+[^c7-consent-identity]: See the Belfast Agreement’s consent principle regarding Northern Ireland’s constitutional status and recognition of the right to identify and be accepted as British, Irish, or both.
 
-[^c7-strands]: Strand One established the Northern Ireland Assembly and Executive; Strand Two created North-South institutions; Strand Three created East-West institutions linking the United Kingdom and Ireland.
+[^c7-strands]: See the Belfast Agreement: Strand One (Northern Ireland Assembly and Executive); Strand Two (North-South institutions); Strand Three (East-West institutions).
 
-[^c7-referendum]: In the May 22, 1998 referendum, more than 71 percent of Northern Ireland voters supported the agreement. The referendums also enabled constitutional changes in Ireland consistent with the consent principle.
+[^c7-referendum]: See Northern Ireland referendum results of May 22, 1998, in which more than 71 percent of Northern Ireland voters supported the agreement.
 
-[^c7-contact]: Pettigrew and Tropp’s large meta-analysis found that intergroup contact generally reduces prejudice. Related research found that the relationship can differ between majority- and minority-status groups and that conditions such as equal status, common goals, cooperation, and institutional support can shape outcomes.
+[^c7-contact]: See Thomas F. Pettigrew and Linda R. Tropp, “A Meta-Analytic Test of Intergroup Contact Theory,” *Journal of Personality and Social Psychology* 90, no. 5 (2006): 751–83.
 
-[^c7-continuing]: The agreement recognized that Northern Ireland’s constitutional status would be determined by democratic consent and created continuing institutions for internal governance, North-South cooperation, and British-Irish relations.
+[^c7-continuing]: See the Belfast Agreement’s continuing institutions for internal governance, North-South cooperation, and British-Irish relations under the consent principle.
 
-[^c7-interfaces]: Northern Ireland’s Department of Justice describes its interface program as working with communities to address physical barriers and links barrier reduction to confidence and relationship building. Its published operational information lists interface gates that continue to open and close on daily schedules.
+[^c7-interfaces]: See Northern Ireland Department of Justice, “Department of Justice Interface Programme,” on physical barriers, confidence-building, and operational gate schedules.

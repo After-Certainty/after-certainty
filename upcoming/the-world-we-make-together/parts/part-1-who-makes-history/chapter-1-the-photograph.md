@@ -308,18 +308,18 @@ The photograph shows us who crossed into history’s attention.
 
 It does not yet show us how the path was built.
 
-[^c1-carlyle]: Thomas Carlyle’s six lectures on heroic figures were delivered in 1840 and published as *On Heroes, Hero-Worship, and the Heroic in History* in 1841. Carlyle framed history through the actions and influence of exceptional individuals.
+[^c1-carlyle]: See Thomas Carlyle, *On Heroes, Hero-Worship, and the Heroic in History* (London: James Fraser, 1841). The six lectures were delivered in 1840.
 
-[^c1-smithsonian-speech]: The Smithsonian’s National Museum of American History describes King’s speech as drawing on biblical language, the Constitution, Lincoln, and other national sources while expressing the march’s aspirations and demands.
+[^c1-smithsonian-speech]: See National Museum of American History interpretive materials on King’s speech at the March on Washington, noting its biblical, constitutional, and Lincolnian sources.
 
-[^c1-jackson-dream]: Smithsonian and Stanford sources describe Mahalia Jackson calling for King to speak about the dream, King’s departure from his prepared text, and his prior use of the dream theme in earlier sermons and speeches.
+[^c1-jackson-dream]: See Stanford’s King Institute and Smithsonian accounts of Mahalia Jackson’s prompt, King’s departure from prepared text, and earlier uses of the dream theme.
 
-[^c1-randolph-rustin]: The National Park Service and the King Institute identify A. Philip Randolph as the march’s director and longtime advocate of a march on Washington, and Bayard Rustin as its central logistical planner and organizer.
+[^c1-randolph-rustin]: See National Park Service and King Institute materials identifying A. Philip Randolph as march director and Bayard Rustin as principal organizer.
 
-[^c1-nps-attendance]: The National Park Service estimates that approximately 250,000 people attended the March on Washington for Jobs and Freedom on August 28, 1963.
+[^c1-nps-attendance]: See National Park Service estimates that approximately 250,000 people attended the March on Washington for Jobs and Freedom on August 28, 1963.
 
-[^c1-women-speakers]: Anna Arnold Hedgeman and Dorothy Height pressed for women’s representation in the speaking program. Sources from the Smithsonian, National Park Service, and King Institute document the limited formal speaking roles given to women and Daisy Bates’s brief appearance.
+[^c1-women-speakers]: See Smithsonian, National Park Service, and King Institute sources on Hedgeman and Height’s pressure for women’s representation and the limited formal speaking roles, including Daisy Bates’s brief appearance.
 
-[^c1-nasa-apollo]: NASA reports that the Apollo program employed approximately 400,000 Americans at its peak and relied on more than 20,000 companies and universities.
+[^c1-nasa-apollo]: See NASA historical summaries reporting that the Apollo program employed approximately 400,000 Americans at its peak and relied on more than 20,000 companies and universities.
 
-[^c1-bales-alarms]: NASA records that guidance controller Steve Bales, representing a larger flight-operations team, judged that Apollo 11 could continue its lunar descent despite computer program alarms.
+[^c1-bales-alarms]: See NASA Apollo 11 flight-operations accounts of guidance controller Steve Bales and the decision to continue descent despite computer program alarms.

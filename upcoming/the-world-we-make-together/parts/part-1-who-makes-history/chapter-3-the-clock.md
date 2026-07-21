@@ -384,20 +384,20 @@ Someone begins to explain it for everyone else.
 
 That is one way power enters the room.
 
-[^c3-thiokol-telecon]: The Rogers Commission documented the January 27 teleconference, Thiokol’s concern about low-temperature O-ring performance, and the company’s initial recommendation against launching below 53 degrees Fahrenheit.
+[^c3-thiokol-telecon]: See *Report of the Presidential Commission on the Space Shuttle Challenger Accident* (Rogers Commission) on the January 27, 1986, teleconference, Thiokol’s low-temperature O-ring concerns, and the initial recommendation against launching below 53°F.
 
-[^c3-prior-erosion]: The Commission’s report and Richard Feynman’s appendix describe earlier O-ring erosion and blow-by, along with the tendency to treat prior successful flights as evidence that the anomalies were acceptable.
+[^c3-prior-erosion]: See the Rogers Commission report and Richard P. Feynman, Appendix F, on prior O-ring erosion and blow-by and the treatment of earlier successful flights as evidence of acceptability.
 
-[^c3-reversal-comms]: The Commission found that key decision-makers were not informed of Thiokol’s original no-launch recommendation or the engineers’ continued opposition after management reversed the recommendation. It also identified failures in communication and conflict between engineering data and management judgment.
+[^c3-reversal-comms]: See the Rogers Commission findings on communication failures, Thiokol’s reversal, and conflict between engineering data and management judgment.
 
-[^c3-challenger-loss]: NASA records that *Challenger* launched on January 28, 1986, after unusually cold overnight temperatures and was lost shortly after liftoff.
+[^c3-challenger-loss]: See NASA records that *Challenger* launched on January 28, 1986, after unusually cold overnight temperatures and was lost shortly after liftoff.
 
-[^c3-rogers-process]: The Rogers Commission concluded that the launch decision process was flawed and criticized the handling of incomplete information and safety concerns, including the apparent expectation that a contractor prove launch was unsafe rather than establishing that it was safe.
+[^c3-rogers-process]: See the Rogers Commission’s conclusions on the flawed launch-decision process and the handling of incomplete information and safety concerns.
 
-[^c3-feynman-appendix]: In his appendix to the Rogers Commission report, Richard Feynman argued that prior mission success had been improperly treated as evidence of safety despite unexpected O-ring erosion and blow-by.
+[^c3-feynman-appendix]: See Richard P. Feynman, Appendix F to the Rogers Commission report, arguing that prior mission success had been improperly treated as evidence of safety despite unexpected O-ring erosion and blow-by.
 
-[^c3-y2k-risk]: GAO explains that many systems used two-digit year fields, creating a risk that “00” would be processed as 1900 and that date-related errors could cascade through loans, pensions, tax records, benefits, and other operations.
+[^c3-y2k-risk]: See U.S. Government Accountability Office materials explaining two-digit year fields and the risk that “00” would be processed as 1900, with cascading effects across loans, pensions, tax records, and benefits.
 
-[^c3-gao-highrisk]: GAO designated Y2K a federal high-risk area in 1997, issued extensive reports and guidance, and supported readiness, testing, and contingency planning across government.
+[^c3-gao-highrisk]: See GAO’s 1997 designation of Y2K as a federal high-risk area and subsequent readiness, testing, and contingency-planning guidance.
 
-[^c3-gao-outcome]: GAO reported that major federal agencies increased Y2K compliance from 21 percent in May 1997 to 99.9 percent by December 1999, that most reported federal errors were minor, and that coordinated remediation helped avoid major national failures during the rollover.
+[^c3-gao-outcome]: See U.S. Government Accountability Office, *Year 2000 Computing Challenge* (GAO/AIMD-00-290), reporting compliance rising from 21 percent in May 1997 to 99.9 percent by December 1999 and that most reported federal errors were minor.

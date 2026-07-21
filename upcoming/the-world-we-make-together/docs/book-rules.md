@@ -105,6 +105,7 @@ Vary object timing, opening mode, insight placement, and emotional temperature. 
 
 - Use Pandoc footnote syntax (`[^id]` with `[^id]:` definitions).
 - Stable, chapter-scoped IDs (for example `[^c3-compression-claim]`).
+- Prefer Chicago notes-and-bibliography “See Author, *Title*…” form; every cited work must appear in `back-matter/bibliography.md`.
 - Never fabricate references; mark unverified sources in `docs/research-notes.md`.
 - Target for drafted chapters: meaningful citations at structural pivots.
 

@@ -930,22 +930,22 @@ It cannot reveal what lies beyond the table.
 
 For that, the room needs a window.
 
-[^c9-pullman-town]: The Pullman Palace Car Company purchased approximately four thousand acres south of Chicago for its factory and company town. The company owned the buildings and set rents intended to produce a return on its investment.
+[^c9-pullman-town]: See National Park Service Pullman materials and related company-town histories on the approximately four-thousand-acre purchase south of Chicago, company ownership of buildings, and rents designed to return investment.
 
-[^c9-panic-rents]: During the economic depression beginning in 1893, factory wages fell without corresponding reductions in company-town rents. Rent could be deducted directly from workers’ paychecks.
+[^c9-panic-rents]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, and related histories on wage cuts after 1893 without corresponding rent reductions, including paycheck rent deductions.
 
-[^c9-strike]: Pullman workers struck on May 11, 1894, after attempts to negotiate grievances failed. The American Railway Union later supported them through a boycott of trains carrying Pullman cars. The federal government obtained an injunction, sent troops, and jailed union leader Eugene V. Debs after the conflict escalated.
+[^c9-strike]: See United States Strike Commission report on the May 11, 1894, Pullman strike, the American Railway Union boycott, the federal injunction and troops, and the jailing of Eugene V. Debs.
 
-[^c9-racial-exclusion]: National Park Service research describes the racial divisions surrounding the Pullman labor struggles, including the exclusion of Black railroad workers from white unions and the resulting separation between many African American workers and the 1894 strike.
+[^c9-racial-exclusion]: See National Park Service research on racial divisions surrounding the Pullman labor struggles, including exclusion of Black railroad workers from white unions.
 
-[^c9-commission]: The United States Strike Commission investigated the 1894 conflict and criticized the company town’s paternalistic structure and Pullman’s response to worker grievances.
+[^c9-commission]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, criticizing the company town’s paternalistic structure and Pullman’s response to worker grievances.
 
-[^c9-follett-power]: Mary Parker Follett distinguished coercive “power-over” from “power-with,” which she understood as power created jointly through relationship rather than taken from one party by another.
+[^c9-follett-power]: See Mary Parker Follett, *Creative Experience* (New York: Longmans, Green, 1924), and *Dynamic Administration*, ed. Henry C. Metcalf and L. Urwick (New York: Harper & Brothers, 1942), distinguishing coercive “power-over” from jointly developed “power-with.”
 
-[^c9-law-situation]: In “The Giving of Orders,” Follett argued for studying the situation jointly and allowing orders to arise from the requirements of the situation rather than merely from one person’s formal rank.
+[^c9-law-situation]: See Follett, “The Giving of Orders,” in *Dynamic Administration*, arguing for joint study of the situation and orders arising from the requirements of the situation rather than from rank alone.
 
-[^c9-flint]: General Motors workers began occupying plants in Flint at the end of December 1936. The sit-down strike sought union recognition and improvements involving wages, job security, working conditions, and grievance procedures.
+[^c9-flint]: See Sidney Fine, *Sit-Down: The General Motors Strike of 1936–1937* (Ann Arbor: University of Michigan Press, 1969), on the Flint occupation beginning at the end of December 1936.
 
-[^c9-brigade]: Women and families provided food, first aid, communication, and protection during the Flint strike. Michigan sources describe the Women’s Emergency Brigade and the broader community support that sustained the occupation.
+[^c9-brigade]: See Fine, *Sit-Down*, and Michigan labor histories on the Women’s Emergency Brigade and community support sustaining the occupation.
 
-[^c9-settlement]: The strike ended on February 11, 1937, after forty-four days, when General Motors agreed to recognize the United Automobile Workers as a bargaining representative.
+[^c9-settlement]: See Fine, *Sit-Down*, on the February 11, 1937, settlement after forty-four days recognizing the United Automobile Workers as a bargaining representative for its members.

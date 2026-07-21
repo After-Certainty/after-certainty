@@ -648,18 +648,18 @@ The citizens leave together.
 
 Between them, the boundaries remain.
 
-[^c6-soweto-queue]: Photographs from the 1994 South African election show long queues, including a line moving toward a polling station in Soweto during the country’s first all-race election.
+[^c6-soweto-queue]: See contemporary photographs from the 1994 South African election showing queues, including lines toward polling stations in Soweto during the country’s first all-race election.
 
-[^c6-sa-election]: South Africa’s National Archives describes the 1994 election as the first in which all South Africans on a common voters’ roll could vote, following a negotiated transition that began in 1990. The election was administered by the Independent Electoral Commission.
+[^c6-sa-election]: See National Archives of South Africa materials describing the 1994 election as the first on a common voters’ roll after the negotiated transition begun in 1990, administered by the Independent Electoral Commission.
 
-[^c6-sa-votes]: South Africa’s Parliament reports that 19,726,655 votes were cast in the April 1994 nonracial election and that seven parties gained representation in Parliament.
+[^c6-sa-votes]: See Parliament of South Africa historical materials reporting that approximately 19.7 million votes were cast in the April 1994 nonracial election and that seven parties gained representation in Parliament.
 
-[^c6-mill-plural]: John Stuart Mill’s *Considerations on Representative Government* defended broad participation while also proposing forms of plural voting that would give greater electoral weight to citizens judged to possess greater education or competence.
+[^c6-mill-plural]: See John Stuart Mill, *Considerations on Representative Government* (London: Parker, Son, and Bourn, 1861), defending broad participation while proposing forms of plural voting weighted toward greater education or competence.
 
-[^c6-alabama-districts]: At the time of *Reynolds v. Sims*, many American states had failed to redraw legislative districts despite major population shifts. Alabama had not reapportioned its state legislative districts since 1900, producing substantial rural overrepresentation.
+[^c6-alabama-districts]: See *Reynolds v. Sims*, 377 U.S. 533 (1964), noting that Alabama had not reapportioned its state legislative districts since 1900.
 
-[^c6-reynolds]: In *Reynolds v. Sims* in 1964, the Supreme Court held that the Equal Protection Clause required substantially equal state legislative representation and recognized that vote dilution could impair suffrage even when a person remained formally permitted to vote.
+[^c6-reynolds]: See *Reynolds v. Sims*, 377 U.S. 533 (1964), holding that the Equal Protection Clause requires substantially equal state legislative representation and recognizing vote dilution as impairing suffrage.
 
-[^c6-sa-constitution]: South Africa’s 1993 Interim Constitution committed the country to universal adult suffrage, a common voters’ roll, multiparty democracy, and proportional representation. The 1994 election produced the first democratic Parliament of the new order.
+[^c6-sa-constitution]: See Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution), committing the country to universal adult suffrage, a common voters’ roll, multiparty democracy, and proportional representation.
 
-[^c6-mill-obligation]: In *Considerations on Representative Government*, Mill argued that voting carried a moral obligation to consider the public interest rather than merely the voter’s private advantage.
+[^c6-mill-obligation]: See Mill, *Considerations on Representative Government*, arguing that voting carries a moral obligation to consider the public interest rather than merely private advantage.

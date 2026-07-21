@@ -752,16 +752,16 @@ No one owns the view.
 
 Together, they may create an opening wide enough to act.
 
-[^c10-shaw]: Ella Baker convened student activists at Shaw University from April 15–17, 1960, after the rapid spread of the sit-in movement. The gathering led to the formation of the Student Nonviolent Coordinating Committee.
+[^c10-shaw]: See Barbara Ransby, *Ella Baker and the Black Freedom Movement* (Chapel Hill: University of North Carolina Press, 2003), and SNCC Digital Gateway materials on the Shaw University conference of April 15–17, 1960, and SNCC’s formation.
 
-[^c10-autonomy]: Baker urged the students to retain organizational autonomy and promoted group-centered leadership rather than dependence upon a leader-centered model.
+[^c10-autonomy]: See Ransby, *Ella Baker and the Black Freedom Movement*, on Baker’s insistence that students retain autonomy and practice group-centered leadership rather than become a youth division of an established organization.
 
-[^c10-moses]: Baker connected Bob Moses with organizers throughout the Deep South, including Amzie Moore in Mississippi; these relationships helped lead toward SNCC’s early voter-registration organizing.
+[^c10-moses]: See Ransby and Charles M. Payne, *I’ve Got the Light of Freedom* (Berkeley: University of California Press, 1995), on Baker’s connecting Bob Moses with Deep South organizers including Amzie Moore and the turn toward Mississippi voter registration.
 
-[^c10-citizenship]: The first Citizenship School at the Progressive Club on Johns Island opened in 1957. The curriculum was developed through the work of Septima Clark, Esau Jenkins, and Bernice Robinson, with support from Highlander Folk School.
+[^c10-citizenship]: See Lowcountry Digital History Initiative, “The Citizenship Schools,” on the Progressive Club class beginning in 1957 and the roles of Septima Clark, Esau Jenkins, Bernice Robinson, and Highlander Folk School.
 
-[^c10-expansion]: The Citizenship School model expanded beyond Johns Island, and the Southern Christian Leadership Conference assumed responsibility for the broader program in 1961.
+[^c10-expansion]: See Citizenship School histories on expansion beyond Johns Island and SCLC’s assumption of the broader program in 1961.
 
-[^c10-ostrom-prize]: Elinor Ostrom received the 2009 economics prize for her analysis of economic governance, especially the commons. Her research challenged the assumption that shared resources must always be governed solely through privatization or centralized control.
+[^c10-ostrom-prize]: See the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009 citation for Elinor Ostrom “for her analysis of economic governance, especially the commons.”
 
-[^c10-ostrom-design]: Ostrom identified recurring features of durable commons governance, including clear boundaries, user participation in rule-making, monitoring, graduated sanctions, conflict-resolution mechanisms, and recognition of the community’s right to organize.
+[^c10-ostrom-design]: See Elinor Ostrom, *Governing the Commons: The Evolution of Institutions for Collective Action* (Cambridge: Cambridge University Press, 1990), on design principles including boundaries, participation in rule-making, monitoring, graduated sanctions, conflict resolution, and recognition of the right to organize.
