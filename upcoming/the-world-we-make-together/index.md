@@ -20,7 +20,9 @@
 
 ## Part II — Where Power Gathers
 
-*Planned (not yet drafted): Part II bridge · Chapter 4 — The Chair · Chapter 5 — The Clipboard · Chapter 6 — The Ballot*
+- [Part II bridge](parts/part-2-where-power-gathers/bridge.md)
+
+*Planned (not yet drafted): Chapter 4 — The Chair · Chapter 5 — The Clipboard · Chapter 6 — The Ballot*
 
 ## Part III — What Shared Power Requires
 

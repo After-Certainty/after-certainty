@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Intro + Part I chapters drafted (Photograph, Door, Clock); bridges and Part II+ still outline**
+**Phase 1 — Intro + Part I complete; Part II bridge drafted; Chair and later units still outline**
 
 ## Active branch
 
@@ -27,11 +27,11 @@
 | Title page / copyright | draft | Standard front-matter placeholders |
 | Introduction — The Switch | draft | Author-supplied revision; ~2,800 words |
 | book-cover.png / open-graph.png | draft | Cover from Drive; OG via generate_open_graph.py |
-| Part I bridge | outline | Not started (optional before Ch 2) |
+| Part I bridge | outline | Optional; Part I chapters stand without it for now |
 | Ch 1 — The Photograph | draft | Author-supplied; March on Washington + Apollo cases; 8 footnotes |
 | Ch 2 — The Door | draft | Author-supplied; Little Rock / structure-agency; ends on temporal threshold |
 | Ch 3 — The Clock | draft | Author-supplied; Challenger + Y2K; ends toward attention/leadership (Chair) |
-| Part II bridge | outline | Explicit Clock→Chair: demand for orientation |
+| Part II bridge | draft | Author-supplied; Clock→Chair orientation demand; previews Chair→Clipboard→Ballot |
 | Ch 4 — The Chair | outline | Not started |
 | Ch 5 — The Clipboard | outline | Mechanism + public institutional case required |
 | Ch 6 — The Ballot | outline | Answerability unsecured; ends toward trust/love |
@@ -46,9 +46,9 @@
 
 ## Next actions
 
-1. Editorial review of Introduction and Part I (Photograph, Door, Clock).
+1. Editorial review of Introduction, Part I, and Part II bridge.
 2. Citation pass: promote paraphrased Ch 1–3 footnotes to full Chicago bibliography entries.
-3. Draft Part II bridge (explicit Clock→Chair: demand for orientation) then Chapter 4 — The Chair.
+3. Draft Chapter 4 — The Chair.
 
 ## Open decisions / known issues
 
@@ -56,7 +56,7 @@
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
 - Ch 1–3 footnotes cite Smithsonian, NPS, King Institute, National Archives, NASA, Rogers Commission, Feynman appendix, and GAO via paraphrases — verify against primary pages before citation-pass complete.
-- Part I bridge still optional; Clock ending already hands off toward leadership/attention.
+- Part I bridge still optional; Part II bridge carries the Clock→Chair orientation handoff.
 
 ## Rough scale
 
@@ -64,5 +64,6 @@
 - Chapter 1 words: ~3,400 (body; author draft; footnotes paraphrased)
 - Chapter 2 words: ~3,700 (body; author draft; footnotes paraphrased)
 - Chapter 3 words: ~3,150 (body; author draft; footnotes paraphrased)
+- Part II bridge: ~590 words (within 600–800 target band; argumentative completeness preferred)
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Chapter 3 author draft (July 2026)
+- Last assessed: Part II bridge author draft (July 2026)
