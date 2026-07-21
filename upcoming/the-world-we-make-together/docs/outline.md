@@ -255,24 +255,19 @@ Two contrasting cases:
 
 Remain focused. Do **not** re-explain the previous nine chapters.
 
-Four primary movements:
+**Drafted cases:** Ella Baker / SNCC (group-centered leadership vs leader dependence); Citizenship Schools (literacy as agency across a barrier); Ostrom commons (structure through relationship, not goodwill alone).
 
-1. the stated positions;
-2. the situation beneath the positions;
-3. the conditions required for integration;
-4. power, limits, and inheritance.
+Measure of power-with carried in draft:
 
-Brief synthesis only:
+> After the relationship, can more people act wisely than before?
 
-> People can search for a new possibility only when those affected possess meaningful standing, enough trust exists for real interests to be disclosed, the lives involved matter beyond strategic usefulness, and leadership organizes inquiry rather than substituting its judgment for the whole.
-
-Integration is **not**: universal satisfaction; a guaranteed win-win; avoidance of judgment; proof that scarcity is unreal; or a substitute for material power and safety.
-
-Include at least one failed, unavailable, or inappropriate attempt at integration.
+Power-with is **not**: empowerment as gift from above; maximum participation in every decision; innocence about local power; or the absence of walls, roles, and authority.
 
 ### The Table
 
-Conceptual closure without claiming historical closure. Settle the book’s argument while leaving shared arrangements open to revision. Do **not** summarize all ten chapters in order. Allow objects to return naturally in one lived scene.
+**Drafted.** Conceptual closure without claiming historical closure. Objects return in one lived room; governing claim restated without finishing the world. Shared power as making the next act more possible.
+
+Do **not** treat the brief object list as a substitute for the chapters’ cases.
 
 ---
 

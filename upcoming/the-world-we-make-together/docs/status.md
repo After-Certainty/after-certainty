@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Through Chapter 10 (The Window); Conclusion still outline**
+**Phase 1 — Full draft through Conclusion (The Table); bibliography still pending**
 
 ## Active branch
 
@@ -41,14 +41,14 @@
 | Part IV bridge | draft | Author-supplied; power-over vs power-with; Scale/Window preview |
 | Ch 9 — The Scale | draft | Author-supplied; Pullman + Flint; Follett power-over/with; ends toward Window |
 | Ch 10 — The Window | draft | Author-supplied; Baker/SNCC, Citizenship Schools, Ostrom commons; ends toward Table |
-| Conclusion — The Table | outline | Closure without historical closure |
-| Bibliography | not started | After cited chapters exist |
+| Conclusion — The Table | draft | Author-supplied; assembly scene; objects return; shared power as steadier next act |
+| Bibliography | not started | Citation pass for Ch 1–10 paraphrased footnotes |
 
 ## Next actions
 
-1. Editorial review of Introduction through Chapter 10.
-2. Citation pass: promote paraphrased Ch 1–10 footnotes to full Chicago bibliography entries.
-3. Draft Conclusion — The Table (closure without historical closure).
+1. Editorial review of Introduction through Conclusion.
+2. Citation pass: promote paraphrased Ch 1–10 footnotes to full Chicago bibliography entries; create `back-matter/bibliography.md`.
+3. Optional: Part I bridge if still wanted after editorial review.
 
 ## Open decisions / known issues
 
@@ -57,6 +57,7 @@
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
 - Ch 1–10 footnotes remain paraphrased — verify before citation-pass complete.
 - Follett named in Ch 9 (Scale); Window deepens power-with through Baker, Citizenship Schools, and Ostrom rather than restating Follett.
+- Conclusion briefly returns each object (author choice); not a chapter-by-chapter summary of cases.
 
 ## Rough scale
 
@@ -74,5 +75,6 @@
 - Part IV bridge: ~490
 - Chapter 9 words: ~5,000
 - Chapter 10 words: ~4,500
+- Conclusion words: ~3,900
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Chapter 10 author draft (July 2026)
+- Last assessed: Conclusion author draft (July 2026)

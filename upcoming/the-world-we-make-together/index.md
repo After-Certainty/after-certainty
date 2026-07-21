@@ -41,7 +41,9 @@
 
 ## Back Matter
 
-*Planned (not yet drafted): Conclusion — The Table · Bibliography*
+- [Conclusion — The Table](back-matter/conclusion-the-table.md)
+
+*Planned (not yet drafted): Bibliography*
 
 ## Planning
 

@@ -64,7 +64,7 @@ Log research before drafting the unit. Prefer primary sources and authoritative 
 
 | ID | Unit | Need |
 |----|------|------|
-| CONC-01 | Table | Lived closing scene; objects return naturally; no fabricated institutional history |
+| CONC-01 | Table | **Drafted.** Lived assembly/repair scene; objects return naturally; no new fabricated institutional history. Citation pass: none required for conclusion itself (references prior cases by name only where already drafted). |
 
 ---
 

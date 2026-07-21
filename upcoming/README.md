@@ -30,6 +30,6 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 ## Current upcoming titles
 
-- **The World We Make Together** — [`upcoming/the-world-we-make-together/`](the-world-we-make-together/) — keystone volume; through Chapter 10 (The Window); next: Conclusion — The Table.
+- **The World We Make Together** — [`upcoming/the-world-we-make-together/`](the-world-we-make-together/) — keystone volume; full draft through Conclusion — The Table; next: citation pass / bibliography.
 
 Scaffold additional titles from [`docs/_templates/`](docs/_templates/).
