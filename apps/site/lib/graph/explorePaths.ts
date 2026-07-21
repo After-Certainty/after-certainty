@@ -102,6 +102,46 @@ export function relationshipPresetFromSearchParams(
   return null;
 }
 
+export const EXPLORE_PATHWAY_KIND_PARAM = "pathwayKind";
+export const EXPLORE_PATHWAY_SLUG_PARAM = "pathwaySlug";
+export const EXPLORE_PATHWAY_STEP_PARAM = "pathwayStep";
+
+export type ExplorePathwayKind = "question" | "trail";
+
+export function isExplorePathwayKind(value: string): value is ExplorePathwayKind {
+  return value === "question" || value === "trail";
+}
+
+export function pathwayFromSearchParams(sp: URLSearchParams): {
+  kind: ExplorePathwayKind;
+  slug: string;
+  step: string | null;
+} | null {
+  const kind = sp.get(EXPLORE_PATHWAY_KIND_PARAM)?.trim();
+  const slug = sp.get(EXPLORE_PATHWAY_SLUG_PARAM)?.trim();
+  if (!kind || !slug || !isExplorePathwayKind(kind)) return null;
+  return {
+    kind,
+    slug,
+    step: sp.get(EXPLORE_PATHWAY_STEP_PARAM)?.trim() ?? null,
+  };
+}
+
+/** Deep-link into the observatory with a question or trail reading pathway. */
+export function exploreObservatoryPathwayHref(input: {
+  kind: ExplorePathwayKind;
+  slug: string;
+  step?: number;
+}): string {
+  const q = new URLSearchParams();
+  q.set(EXPLORE_PATHWAY_KIND_PARAM, input.kind);
+  q.set(EXPLORE_PATHWAY_SLUG_PARAM, input.slug);
+  if (input.step != null && input.step > 0) {
+    q.set(EXPLORE_PATHWAY_STEP_PARAM, String(input.step));
+  }
+  return withExploreObservatoryView(`${explorePaths.home}?${q.toString()}`);
+}
+
 /** Observatory entry with relationship-family predicate filters applied. */
 export function exploreObservatoryPresetHref(
   preset: ExploreRelationshipPreset,

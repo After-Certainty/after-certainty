@@ -110,4 +110,11 @@ test.describe("Curated Reading Trails", () => {
       page.getByRole("heading", { name: "Where Institutions Look", level: 1 }),
     ).toBeVisible();
   });
+
+  test("trail page links to observatory pathway", async ({ page }) => {
+    await page.goto("/trails/judgment-before-certainty");
+    await expect(
+      page.getByRole("link", { name: /Walk this path in the Observatory/i }),
+    ).toHaveAttribute("href", /pathwayKind=trail/);
+  });
 });

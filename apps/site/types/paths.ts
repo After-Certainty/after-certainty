@@ -8,6 +8,7 @@ export type PathEntityType =
   | "podcast_episode"
   | "external";
 
+/** Inline path stop on a question or trail (shared segment shape). */
 export type PathStopInput = {
   position: number;
   entityType: PathEntityType;

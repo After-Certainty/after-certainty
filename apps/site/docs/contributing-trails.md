@@ -144,6 +144,14 @@ Published trails that reference an entity automatically appear on that entity's 
 
 Published trails that share path stops with a question (without duplicating more than 60% of the path) automatically appear on that question's detail page under **Continue with a reading trail**.
 
+## Shared path components and local progress
+
+Questions and trails share path UI through `components/paths/` (`PathStopList`, `PathStopCard`). Stop visits are persisted in the browser via `localStorage` (`ac_path_progress`) so readers can resume where they left off. Progress is local-only and can be cleared from the path banner.
+
+## Observatory pathways
+
+Published questions and trails can be walked in the semantic Observatory. Detail pages link to `/explore?pathwayKind=…&pathwaySlug=…&view=observatory`, which highlights the curated stop sequence on the graph and exposes step playback in the bottom dock.
+
 ## Estimated time
 
 Per-stop minutes default by entity type and sum to the trail total shown on cards and detail pages. Override with `estimatedMinutes` on individual stops when you have a reliable estimate.

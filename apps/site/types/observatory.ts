@@ -18,13 +18,25 @@ export type TraversalState = {
   pathToId: string | null;
 };
 
-/** Future: curated conceptual journeys (not wired in v1). */
+/** Curated conceptual journey through the semantic graph. */
+export type PathwaySourceType = "question" | "trail";
+
+export type PathwayStep = {
+  position: number;
+  stopIndex: number;
+  canonicalId: string | null;
+  title: string;
+  caption?: string;
+};
+
 export interface Pathway {
   id: string;
   slug: string;
   title: string;
   description: string;
-  steps: { canonicalId: string; caption?: string }[];
+  sourceType: PathwaySourceType;
+  sourceHref: string;
+  steps: PathwayStep[];
 }
 
 /** Future: topology projection presets (not wired in v1). */

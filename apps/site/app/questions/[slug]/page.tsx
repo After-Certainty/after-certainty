@@ -11,6 +11,8 @@ import { QuestionRelatedTrailsSection } from "@/components/trails/question-relat
 import { JsonLd } from "@/components/seo/json-ld";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
+import { ExplorePathwayLink } from "@/components/paths/explore-pathway-link";
+import { AnalyticsEvents } from "@/lib/analytics/events";
 import { exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
 import { buildQuestionSearchHandoffUrl } from "@/lib/questions/enrichQuestions";
 import {
@@ -169,6 +171,14 @@ export default async function QuestionDetailPage({ params }: PageProps) {
               >
                 Read {question.primaryBookTitle} in full
               </TrackedLink>
+            </li>
+            <li>
+              <ExplorePathwayLink
+                kind="question"
+                slug={question.slug}
+                analyticsEvent={AnalyticsEvents.questionObservatoryPathway}
+                analyticsId={question.id}
+              />
             </li>
             <li>
               <Link

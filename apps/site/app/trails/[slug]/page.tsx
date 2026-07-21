@@ -10,6 +10,8 @@ import { TrailPathAnalytics } from "@/components/trails/trail-path-analytics";
 import { JsonLd } from "@/components/seo/json-ld";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
+import { ExplorePathwayLink } from "@/components/paths/explore-pathway-link";
+import { AnalyticsEvents } from "@/lib/analytics/events";
 import { buildTrailSearchHandoffUrl } from "@/lib/trails/enrichTrails";
 import { getEnrichedPublishedTrails, getEnrichedTrailBySlug } from "@/lib/trails/getEnrichedTrails";
 import { createPageMetadata } from "@/lib/metadata";
@@ -176,6 +178,14 @@ export default async function TrailDetailPage({ params }: PageProps) {
                 </TrackedLink>
               </li>
             ) : null}
+            <li>
+              <ExplorePathwayLink
+                kind="trail"
+                slug={trail.slug}
+                analyticsEvent={AnalyticsEvents.trailObservatoryPathway}
+                analyticsId={trail.id}
+              />
+            </li>
             <li>
               <TrackedLink
                 href={searchHref}

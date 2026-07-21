@@ -152,6 +152,7 @@ export const AnalyticsEvents = {
   questionRelatedSelect: "question_related_select",
   questionContinueBook: "question_continue_book",
   questionSearchHandoff: "question_search_handoff",
+  questionObservatoryPathway: "question_observatory_pathway",
   trailIndexView: "trail_index_view",
   trailSelect: "trail_select",
   trailPathStart: "trail_path_start",
@@ -159,6 +160,7 @@ export const AnalyticsEvents = {
   trailRelatedSelect: "trail_related_select",
   trailContinueBook: "trail_continue_book",
   trailSearchHandoff: "trail_search_handoff",
+  trailObservatoryPathway: "trail_observatory_pathway",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];

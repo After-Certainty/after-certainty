@@ -46,6 +46,8 @@ import {
   exploreObservatoryFocusHref,
   explorePaths,
   exploreViewFromSearchParams,
+  pathwayFromSearchParams,
+  EXPLORE_PATHWAY_STEP_PARAM,
   relationshipPresetFromSearchParams,
   type ExploreCompactView,
   type ExploreRelationshipPreset,
@@ -59,6 +61,12 @@ import {
 } from "@/lib/graph/relationshipTaxonomy";
 import type { OntologyLens } from "@/lib/graph/ontology";
 import { isAtFreshFocusEntry } from "@/lib/observatory/focusEntry";
+import {
+  pathwayGraphNodeIds,
+  pathwayGraphPairKeys,
+  pathwayStepHrefParam,
+  resolvePathwayStepIndex,
+} from "@/lib/observatory/pathwayFromContent";
 import { entityFocusSummary, relationshipFocusSummary } from "@/lib/observatory/focusSummary";
 import { computeNeighborhoodSignals } from "@/lib/observatory/neighborhoodSignals";
 import {
@@ -70,6 +78,7 @@ import {
   formatRelationshipLabelForDisplay,
 } from "@/lib/graph/relationshipVisuals";
 import type { GraphEntityKind, Relationship, SemanticGraph } from "@/types/semanticGraph";
+import type { Pathway } from "@/types/observatory";
 import type { SemanticFlowEdgeData } from "@/components/explore/observatory/SemanticFlowEdge";
 import type { SemanticFlowNodeData } from "@/components/explore/observatory/SemanticFlowNode";
 import type { FocusCameraTarget } from "@/components/explore/observatory/hooks/useFocusCamera";
@@ -108,6 +117,7 @@ export type ExploreObservatoryProps = {
   initialGraph: SemanticGraph;
   coverBySlug?: Record<string, string | undefined>;
   initialFocusCanonicalId?: string | null;
+  initialPathway?: Pathway | null;
 };
 
 function hasGraphContent(graph: SemanticGraph): boolean {
@@ -168,22 +178,48 @@ function ExploreObservatoryInner({
   initialGraph,
   coverBySlug = {},
   initialFocusCanonicalId = null,
+  initialPathway = null,
 }: ExploreObservatoryProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { tier, isCompact } = useObservatoryTier();
   const index = useMemo(() => buildGraphIndex(initialGraph), [initialGraph]);
   const defaultFocal = useMemo(() => defaultFocusCanonicalId(index), [index]);
+  const pathwayGraphIds = useMemo(
+    () => (initialPathway ? pathwayGraphNodeIds(initialPathway) : []),
+    [initialPathway],
+  );
+  const pathwayQuery = useMemo(
+    () => pathwayFromSearchParams(new URLSearchParams(searchParams.toString())),
+    [searchParams],
+  );
+  const pathwayStepIndex = useMemo(() => {
+    if (!initialPathway) return 0;
+    return resolvePathwayStepIndex(initialPathway, pathwayQuery?.step ?? null);
+  }, [initialPathway, pathwayQuery]);
+
+  const pathwayFocusId = useMemo(() => {
+    if (!initialPathway) return null;
+    const step = initialPathway.steps[pathwayStepIndex];
+    if (step?.canonicalId && index.getNodeByCanonicalId(step.canonicalId)) {
+      return step.canonicalId;
+    }
+    return pathwayGraphIds.find((id) => index.getNodeByCanonicalId(id)) ?? null;
+  }, [index, initialPathway, pathwayGraphIds, pathwayStepIndex]);
 
   const seedFocus =
-    initialFocusCanonicalId && index.getNodeByCanonicalId(initialFocusCanonicalId)
+    pathwayFocusId ??
+    (initialFocusCanonicalId && index.getNodeByCanonicalId(initialFocusCanonicalId)
       ? initialFocusCanonicalId
-      : (exploreDefaultHomeFocalCanonicalId(index) ?? defaultFocal);
+      : (exploreDefaultHomeFocalCanonicalId(index) ?? defaultFocal));
+
+  const seedExpanded =
+    initialPathway && pathwayGraphIds.length > 0 ? pathwayGraphIds : seedFocus ? [seedFocus] : [];
 
   const store = useObservatoryStoreApi({
     focusId: seedFocus,
     selectedId: seedFocus,
-    expandedRootIds: seedFocus ? [seedFocus] : [],
+    expandedRootIds: seedExpanded,
   });
 
   const expandedRootIds = store((s) => s.expandedRootIds);
@@ -272,22 +308,28 @@ function ExploreObservatoryInner({
   });
 
   const pathChain = useMemo(() => {
+    if (initialPathway) {
+      return pathwayGraphIds.length > 0 ? pathwayGraphIds : null;
+    }
     if (!pathFromId || !pathToId) return null;
     const nodeSet = new Set(viz.nodeIds);
     const pairs = viz.edges.map((e) => ({ a: e.sourceId, b: e.targetId }));
     const adj = buildUndirectedAdjacency(pairs, nodeSet);
     return shortestPathUndirected(adj, pathFromId, pathToId);
-  }, [pathFromId, pathToId, viz]);
+  }, [initialPathway, pathwayGraphIds, pathFromId, pathToId, viz]);
 
   const pathNodeIds = useMemo(() => new Set(pathChain ?? []), [pathChain]);
   const pathPairKeys = useMemo(() => {
+    if (initialPathway && pathwayGraphIds.length > 0) {
+      return pathwayGraphPairKeys(pathwayGraphIds);
+    }
     const s = new Set<string>();
     if (!pathChain) return s;
     for (let i = 0; i < pathChain.length - 1; i += 1) {
       s.add(undirectedPairKey(pathChain[i]!, pathChain[i + 1]!));
     }
     return s;
-  }, [pathChain]);
+  }, [initialPathway, pathwayGraphIds, pathChain]);
 
   const signals = useMemo(() => {
     const vis = new Set(viz.nodeIds);
@@ -381,6 +423,38 @@ function ExploreObservatoryInner({
     store.getState().setFocusId(match.sourceId);
     trackCanvasFocus(match.sourceId);
   }, [index, searchParams, viz.edges, store, trackCanvasFocus]);
+
+  const handlePathwayStepChange = useCallback(
+    (nextIndex: number) => {
+      if (!initialPathway) return;
+      const step = initialPathway.steps[nextIndex];
+      const params = new URLSearchParams(searchParams.toString());
+      params.set("view", EXPLORE_VIEW_OBSERVATORY);
+      if (step) {
+        params.set(EXPLORE_PATHWAY_STEP_PARAM, String(pathwayStepHrefParam(step)));
+      }
+      router.replace(`${explorePaths.home}?${params.toString()}`, { scroll: false });
+      if (step?.canonicalId) {
+        store.getState().focusNode(step.canonicalId, { openPanel: !isCompact });
+        if (!isCompact) store.getState().setRightOpen(true);
+        trackCanvasFocus(step.canonicalId);
+      }
+    },
+    [initialPathway, isCompact, router, searchParams, store, trackCanvasFocus],
+  );
+
+  useEffect(() => {
+    if (!initialPathway) return;
+    if (pathwayGraphIds.length > 0) {
+      store.getState().setExpandedRootIds(pathwayGraphIds);
+    }
+    store.getState().setBottomOpen(true);
+    const step = initialPathway.steps[pathwayStepIndex];
+    if (step?.canonicalId) {
+      store.getState().focusNode(step.canonicalId, { openPanel: false });
+      trackCanvasFocus(step.canonicalId);
+    }
+  }, [initialPathway, pathwayGraphIds, pathwayStepIndex, store, trackCanvasFocus]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -1137,6 +1211,9 @@ function ExploreObservatoryInner({
             <ObservatoryBottomDock
               index={index}
               nodeIds={viz.nodeIds}
+              pathway={initialPathway}
+              pathwayStepIndex={pathwayStepIndex}
+              onPathwayStepChange={initialPathway ? handlePathwayStepChange : undefined}
               pathFromId={pathFromId}
               pathToId={pathToId}
               pathChain={pathChain}

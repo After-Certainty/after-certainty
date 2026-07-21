@@ -3,13 +3,18 @@
 import type { GraphIndex } from "@/lib/graph/graph";
 import type { InsightEdge } from "@/lib/graph/graphInsights";
 import type { NeighborhoodSignals } from "@/lib/observatory/neighborhoodSignals";
+import type { Pathway } from "@/types/observatory";
 
 import { NeighborhoodSignalsDock } from "@/components/explore/observatory/dock/NeighborhoodSignalsDock";
 import { PathTraceDock } from "@/components/explore/observatory/dock/PathTraceDock";
+import { PathwayPlaybackDock } from "@/components/explore/observatory/dock/PathwayPlaybackDock";
 
 type ObservatoryBottomDockProps = {
   index: GraphIndex;
   nodeIds: string[];
+  pathway?: Pathway | null;
+  pathwayStepIndex?: number;
+  onPathwayStepChange?: (stepIndex: number) => void;
   pathFromId: string | null;
   pathToId: string | null;
   pathChain: string[] | null;
@@ -25,6 +30,9 @@ type ObservatoryBottomDockProps = {
 export function ObservatoryBottomDock({
   index,
   nodeIds,
+  pathway = null,
+  pathwayStepIndex = 0,
+  onPathwayStepChange,
   pathFromId,
   pathToId,
   pathChain,
@@ -50,7 +58,9 @@ export function ObservatoryBottomDock({
           Paths &amp; insights
         </button>
         {!isOpen ? (
-          <p className="min-w-0 flex-1 truncate font-display text-sm text-fg/90">{signals.summaryLine}</p>
+          <p className="min-w-0 flex-1 truncate font-display text-sm text-fg/90">
+            {signals.summaryLine}
+          </p>
         ) : null}
       </div>
 
@@ -62,16 +72,26 @@ export function ObservatoryBottomDock({
           className="max-h-[min(22vh,11.5rem)] overflow-y-auto border-t border-border/20 px-4 py-3 lg:px-5"
         >
           <div className="grid gap-5 lg:grid-cols-2 lg:gap-6">
-            <PathTraceDock
-              index={index}
-              nodeIds={nodeIds}
-              pathFromId={pathFromId}
-              pathToId={pathToId}
-              pathChain={pathChain}
-              onPathFromChange={onPathFromChange}
-              onPathToChange={onPathToChange}
-              compact
-            />
+            {pathway && onPathwayStepChange ? (
+              <PathwayPlaybackDock
+                index={index}
+                pathway={pathway}
+                stepIndex={pathwayStepIndex}
+                onStepChange={onPathwayStepChange}
+                compact
+              />
+            ) : (
+              <PathTraceDock
+                index={index}
+                nodeIds={nodeIds}
+                pathFromId={pathFromId}
+                pathToId={pathToId}
+                pathChain={pathChain}
+                onPathFromChange={onPathFromChange}
+                onPathToChange={onPathToChange}
+                compact
+              />
+            )}
             <NeighborhoodSignalsDock
               index={index}
               signals={signals}

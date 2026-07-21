@@ -46,4 +46,11 @@ test.describe("Start with a Question", () => {
     ).toBeVisible();
     await expect(page.getByRole("link", { name: /Judgment Before Certainty/i })).toBeVisible();
   });
+
+  test("question page links to observatory pathway", async ({ page }) => {
+    await page.goto("/questions/act-before-certainty-arrives");
+    await expect(
+      page.getByRole("link", { name: /Walk this path in the Observatory/i }),
+    ).toHaveAttribute("href", /pathwayKind=question/);
+  });
 });
