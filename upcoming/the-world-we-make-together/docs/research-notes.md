@@ -49,7 +49,7 @@ Log research before drafting the unit. Prefer primary sources and authoritative 
 
 | ID | Unit | Need |
 |----|------|------|
-| P3-01 | Fence | Trust across difference under material/political pressure; rational distrust cases |
+| P3-01 | Fence | **Drafted.** Citation pass: Belfast/Good Friday Agreement primary text (strands, consent, identity/citizenship); NI referendum results May 22, 1998; Pettigrew & Tropp intergroup contact meta-analysis and majority/minority status findings; NI Department of Justice interface barrier / gate schedule materials. |
 | P3-02 | Bowl | Care / moral recognition beyond utility; keep distinct from Fence |
 
 ### Part IV
