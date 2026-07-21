@@ -28,7 +28,9 @@
 
 ## Part III — What Shared Power Requires
 
-*Planned (not yet drafted): Part III bridge · Chapter 7 — The Fence · Chapter 8 — The Bowl*
+- [Part III bridge](parts/part-3-what-shared-power-requires/bridge.md)
+
+*Planned (not yet drafted): Chapter 7 — The Fence · Chapter 8 — The Bowl*
 
 ## Part IV — From Power-Over to Power-With
 

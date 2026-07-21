@@ -46,17 +46,17 @@
 
 ## Next actions
 
-1. Editorial review of Introduction through The Ballot (Parts I–II).
+1. Editorial review of Introduction through Part III bridge.
 2. Citation pass: promote paraphrased Ch 1–6 footnotes to full Chicago bibliography entries.
-3. Draft Part III bridge, then Chapter 7 — The Fence.
+3. Draft Chapter 7 — The Fence.
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1–6 footnotes remain paraphrased — verify SA 1994 sources, Mill, Reynolds, and prior chapter sources before citation-pass complete.
-- Ballot ending hands off to Fence: equal standing without trust/relationship across difference.
+- Ch 1–6 footnotes remain paraphrased — verify before citation-pass complete.
+- Part III bridge distinguishes Fence (trust/risk) from Bowl (love/moral claim).
 
 ## Rough scale
 
@@ -68,5 +68,6 @@
 - Chapter 4 words: ~3,300
 - Chapter 5 words: ~3,570
 - Chapter 6 words: ~4,250
+- Part III bridge: ~470
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Chapter 6 author draft (July 2026)
+- Last assessed: Part III bridge author draft (July 2026)
