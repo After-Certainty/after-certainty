@@ -30,4 +30,6 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 ## Current upcoming titles
 
-No active nonfiction titles under `upcoming/` right now. Scaffold from [`docs/_templates/`](docs/_templates/).
+- **The World We Make Together** — [`upcoming/the-world-we-make-together/`](the-world-we-make-together/) — keystone volume; Introduction — The Switch drafted; pause for editorial review before Chapter 1.
+
+Scaffold additional titles from [`docs/_templates/`](docs/_templates/).
