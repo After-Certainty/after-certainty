@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Through Chapter 5 (The Clipboard); Ballot and later units still outline**
+**Phase 1 — Part II complete through The Ballot; Part III+ still outline**
 
 ## Active branch
 
@@ -34,7 +34,7 @@
 | Part II bridge | draft | Author-supplied; Clock→Chair orientation demand; previews Chair→Clipboard→Ballot |
 | Ch 4 — The Chair | draft | Author-supplied; Newburgh + UA173; ends chair→system / clipboard handoff |
 | Ch 5 — The Clipboard | draft | Author-supplied; McGregor X/Y, NUMMI, Porto Alegre; ends toward ballot |
-| Ch 6 — The Ballot | outline | Answerability unsecured; ends toward trust/love |
+| Ch 6 — The Ballot | draft | Author-supplied; SA 1994, Mill, Reynolds; answerability/standing; ends toward Fence |
 | Part III bridge | outline | Not started |
 | Ch 7 — The Fence | outline | Distinct from Bowl |
 | Ch 8 — The Bowl | outline | Distinct from Fence |
@@ -46,17 +46,17 @@
 
 ## Next actions
 
-1. Editorial review of Introduction through The Clipboard.
-2. Citation pass: promote paraphrased Ch 1–5 footnotes to full Chicago bibliography entries.
-3. Draft Chapter 6 — The Ballot (answerability unsecured; ends toward trust/love).
+1. Editorial review of Introduction through The Ballot (Parts I–II).
+2. Citation pass: promote paraphrased Ch 1–6 footnotes to full Chicago bibliography entries.
+3. Draft Part III bridge, then Chapter 7 — The Fence.
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1–5 footnotes remain paraphrased — verify McGregor, NUMMI scholarship, World Bank Porto Alegre sources before citation-pass complete.
-- Clipboard ending hands off to Ballot: manager’s theory of workers → institution’s theory of citizens.
+- Ch 1–6 footnotes remain paraphrased — verify SA 1994 sources, Mill, Reynolds, and prior chapter sources before citation-pass complete.
+- Ballot ending hands off to Fence: equal standing without trust/relationship across difference.
 
 ## Rough scale
 
@@ -66,6 +66,7 @@
 - Chapter 3 words: ~3,150
 - Part II bridge: ~590
 - Chapter 4 words: ~3,300
-- Chapter 5 words: ~3,570 (body; author draft; footnotes paraphrased)
+- Chapter 5 words: ~3,570
+- Chapter 6 words: ~4,250
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Chapter 5 author draft (July 2026)
+- Last assessed: Chapter 6 author draft (July 2026)
