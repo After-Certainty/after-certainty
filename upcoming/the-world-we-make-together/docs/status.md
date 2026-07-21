@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Through Chapter 4 (The Chair); Clipboard and later units still outline**
+**Phase 1 — Through Chapter 5 (The Clipboard); Ballot and later units still outline**
 
 ## Active branch
 
@@ -33,7 +33,7 @@
 | Ch 3 — The Clock | draft | Author-supplied; Challenger + Y2K; ends toward attention/leadership (Chair) |
 | Part II bridge | draft | Author-supplied; Clock→Chair orientation demand; previews Chair→Clipboard→Ballot |
 | Ch 4 — The Chair | draft | Author-supplied; Newburgh + UA173; ends chair→system / clipboard handoff |
-| Ch 5 — The Clipboard | outline | Mechanism + public institutional case required |
+| Ch 5 — The Clipboard | draft | Author-supplied; McGregor X/Y, NUMMI, Porto Alegre; ends toward ballot |
 | Ch 6 — The Ballot | outline | Answerability unsecured; ends toward trust/love |
 | Part III bridge | outline | Not started |
 | Ch 7 — The Fence | outline | Distinct from Bowl |
@@ -46,25 +46,26 @@
 
 ## Next actions
 
-1. Editorial review of Introduction through The Chair.
-2. Citation pass: promote paraphrased Ch 1–4 footnotes to full Chicago bibliography entries.
-3. Draft Chapter 5 — The Clipboard (judgment→rule; public institutional case + Theory X/Y).
+1. Editorial review of Introduction through The Clipboard.
+2. Citation pass: promote paraphrased Ch 1–5 footnotes to full Chicago bibliography entries.
+3. Draft Chapter 6 — The Ballot (answerability unsecured; ends toward trust/love).
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1–4 footnotes remain paraphrased (NPS, Archives, NASA, Rogers/Feynman, GAO, Newburgh sources, NTSB/FAA Flight 173) — verify before citation-pass complete.
-- Part I bridge still optional; Part II bridge carries the Clock→Chair orientation handoff; Chair ending hands off to Clipboard.
+- Ch 1–5 footnotes remain paraphrased — verify McGregor, NUMMI scholarship, World Bank Porto Alegre sources before citation-pass complete.
+- Clipboard ending hands off to Ballot: manager’s theory of workers → institution’s theory of citizens.
 
 ## Rough scale
 
-- Introduction words: ~2,800 (body; author revision)
-- Chapter 1 words: ~3,400 (body; author draft; footnotes paraphrased)
-- Chapter 2 words: ~3,700 (body; author draft; footnotes paraphrased)
-- Chapter 3 words: ~3,150 (body; author draft; footnotes paraphrased)
-- Part II bridge: ~590 words
-- Chapter 4 words: ~3,300 (body; author draft; footnotes paraphrased)
+- Introduction words: ~2,800
+- Chapter 1 words: ~3,400
+- Chapter 2 words: ~3,700
+- Chapter 3 words: ~3,150
+- Part II bridge: ~590
+- Chapter 4 words: ~3,300
+- Chapter 5 words: ~3,570 (body; author draft; footnotes paraphrased)
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Chapter 4 author draft (July 2026)
+- Last assessed: Chapter 5 author draft (July 2026)
