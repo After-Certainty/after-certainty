@@ -41,7 +41,7 @@ Log research before drafting the unit. Prefer primary sources and authoritative 
 
 | ID | Unit | Need |
 |----|------|------|
-| P2-01 | Chair | Leadership as concentrated attention without heroic exceptionalism |
+| P2-01 | Chair | **Drafted.** Citation pass: Newburgh Conspiracy / Temple of Virtue / spectacles (Mount Vernon, NPS, or Library of Congress primarys preferred); NTSB report on United 173; FAA CRM account of Flight 173. |
 | P2-02 | Clipboard | McGregor Theory X / Theory Y primary texts; one **public-scale** institutional self-confirming case alongside workplace material |
 | P2-03 | Ballot | Democratic theory on equal standing vs unequal leverage; answerability (visibility, contestability, limits, revision) — do not claim answerability is already secured |
 
