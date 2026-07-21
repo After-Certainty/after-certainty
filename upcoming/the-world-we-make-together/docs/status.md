@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Introduction + Chapter 1 drafted; Part I bridge and remaining chapters still outline**
+**Phase 1 — Intro + Chapters 1–2 drafted; Clock and remaining units still outline**
 
 ## Active branch
 
@@ -29,7 +29,7 @@
 | book-cover.png / open-graph.png | draft | Cover from Drive; OG via generate_open_graph.py |
 | Part I bridge | outline | Not started (optional before Ch 2) |
 | Ch 1 — The Photograph | draft | Author-supplied; March on Washington + Apollo cases; 8 footnotes |
-| Ch 2 — The Door | outline | End must open temporal problem for The Clock |
+| Ch 2 — The Door | draft | Author-supplied; Little Rock / structure-agency; ends on temporal threshold |
 | Ch 3 — The Clock | outline | Feeds Part II bridge → Chair |
 | Part II bridge | outline | Explicit Clock→Chair: demand for orientation |
 | Ch 4 — The Chair | outline | Not started |
@@ -46,20 +46,21 @@
 
 ## Next actions
 
-1. Editorial review of Introduction — The Switch and Chapter 1 — The Photograph.
-2. Citation pass: promote paraphrased Ch 1 footnotes to full Chicago bibliography entries.
-3. Draft Part I bridge (optional) then Chapter 2 — The Door.
+1. Editorial review of Introduction, Photograph, and Door.
+2. Citation pass: promote paraphrased Ch 1–2 footnotes to full Chicago bibliography entries.
+3. Draft Chapter 3 — The Clock (Door ending already opens the temporal problem).
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1 footnotes cite Smithsonian, NPS, King Institute, and NASA via paraphrases — verify against primary pages before citation-pass complete.
+- Ch 1–2 footnotes cite Smithsonian, NPS, King Institute, National Archives, and NASA via paraphrases — verify against primary pages before citation-pass complete.
 
 ## Rough scale
 
 - Introduction words: ~2,800 (body; author revision)
 - Chapter 1 words: ~3,400 (body; author draft; footnotes paraphrased)
+- Chapter 2 words: ~3,700 (body; author draft; footnotes paraphrased)
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Chapter 1 author draft (July 2026)
+- Last assessed: Chapter 2 author draft (July 2026)
