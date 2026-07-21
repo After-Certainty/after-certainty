@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Part II complete through The Ballot; Part III+ still outline**
+**Phase 1 — Through Part III bridge; Fence and later units still outline**
 
 ## Active branch
 
@@ -35,7 +35,7 @@
 | Ch 4 — The Chair | draft | Author-supplied; Newburgh + UA173; ends chair→system / clipboard handoff |
 | Ch 5 — The Clipboard | draft | Author-supplied; McGregor X/Y, NUMMI, Porto Alegre; ends toward ballot |
 | Ch 6 — The Ballot | draft | Author-supplied; SA 1994, Mill, Reynolds; answerability/standing; ends toward Fence |
-| Part III bridge | outline | Not started |
+| Part III bridge | draft | Author-supplied; Ballot→Fence/Bowl; trust vs love distinction |
 | Ch 7 — The Fence | outline | Distinct from Bowl |
 | Ch 8 — The Bowl | outline | Distinct from Fence |
 | Part IV bridge | outline | Not started |
