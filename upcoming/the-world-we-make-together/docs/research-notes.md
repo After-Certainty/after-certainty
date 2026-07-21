@@ -50,7 +50,7 @@ Log research before drafting the unit. Prefer primary sources and authoritative 
 | ID | Unit | Need |
 |----|------|------|
 | P3-01 | Fence | **Drafted.** Citation pass: Belfast/Good Friday Agreement primary text (strands, consent, identity/citizenship); NI referendum results May 22, 1998; Pettigrew & Tropp intergroup contact meta-analysis and majority/minority status findings; NI Department of Justice interface barrier / gate schedule materials. |
-| P3-02 | Bowl | Care / moral recognition beyond utility; keep distinct from Fence |
+| P3-02 | Bowl | **Drafted.** Citation pass: Harvard Pluralism Project / Sikh sources on langar and Guru Nanak; California African American Museum Oakland breakfast opening; NMAAHC survival programs / ~20,000 children; COINTELPRO primarys or authoritative histories on breakfast disruption; USDA School Breakfast Program chronology and BPP influence acknowledgment; Joan Tronto care ethics / interdependence. |
 
 ### Part IV
 

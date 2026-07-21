@@ -30,8 +30,8 @@
 
 - [Part III bridge](parts/part-3-what-shared-power-requires/bridge.md)
 - [Chapter 7 — The Fence](parts/part-3-what-shared-power-requires/chapter-7-the-fence.md)
+- [Chapter 8 — The Bowl](parts/part-3-what-shared-power-requires/chapter-8-the-bowl.md)
 
-*Planned (not yet drafted): Chapter 8 — The Bowl*
 
 ## Part IV — From Power-Over to Power-With
 

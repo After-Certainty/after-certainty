@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Through Part III bridge; Fence and later units still outline**
+**Phase 1 — Through Chapter 7 (The Fence); Bowl and later units still outline**
 
 ## Active branch
 
@@ -46,17 +46,17 @@
 
 ## Next actions
 
-1. Editorial review of Introduction through Part III bridge.
-2. Citation pass: promote paraphrased Ch 1–6 footnotes to full Chicago bibliography entries.
-3. Draft Chapter 7 — The Fence.
+1. Editorial review of Introduction through The Fence.
+2. Citation pass: promote paraphrased Ch 1–7 footnotes to full Chicago bibliography entries.
+3. Draft Chapter 8 — The Bowl (keep distinct from Fence: moral claim / care beyond utility).
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1–6 footnotes remain paraphrased — verify before citation-pass complete.
-- Part III bridge distinguishes Fence (trust/risk) from Bowl (love/moral claim).
+- Ch 1–7 footnotes remain paraphrased — verify GFA primary text, NI DoJ interface program, Pettigrew & Tropp, and prior chapter sources before citation-pass complete.
+- Fence remains distinct from Bowl: trust/risk vs love/moral claim.
 
 ## Rough scale
 
@@ -69,5 +69,6 @@
 - Chapter 5 words: ~3,570
 - Chapter 6 words: ~4,250
 - Part III bridge: ~470
+- Chapter 7 words: ~4,200
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Part III bridge author draft (July 2026)
+- Last assessed: Chapter 7 author draft (July 2026)
