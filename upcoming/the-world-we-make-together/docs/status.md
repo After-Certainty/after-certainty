@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Through Part IV bridge; Scale and Window still outline**
+**Phase 1 — Through Chapter 9 (The Scale); Window still outline**
 
 ## Active branch
 
@@ -39,24 +39,24 @@
 | Ch 7 — The Fence | draft | Author-supplied; Good Friday / Belfast trust across difference; ends toward Bowl |
 | Ch 8 — The Bowl | draft | Author-supplied; langar + Panther breakfast + Tronto; distinct from Fence; ends toward Scale |
 | Part IV bridge | draft | Author-supplied; power-over vs power-with; Scale/Window preview |
-| Ch 9 — The Scale | outline | Positive compromise argument + two cases |
-| Ch 10 — The Window | outline | Follett; four movements; failed integration |
+| Ch 9 — The Scale | draft | Author-supplied; Pullman + Flint; Follett power-over/with; ends toward Window |
+| Ch 10 — The Window | outline | Follett focus; four movements; failed integration |
 | Conclusion — The Table | outline | Closure without historical closure |
 | Bibliography | not started | After cited chapters exist |
 
 ## Next actions
 
-1. Editorial review of Introduction through Part IV bridge.
-2. Citation pass: promote paraphrased Ch 1–8 footnotes to full Chicago bibliography entries.
-3. Draft Chapter 9 — The Scale (positive compromise argument + two contrasting cases).
+1. Editorial review of Introduction through Chapter 9.
+2. Citation pass: promote paraphrased Ch 1–9 footnotes to full Chicago bibliography entries.
+3. Draft Chapter 10 — The Window (Follett; four movements; failed integration case).
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1–8 footnotes remain paraphrased — verify before citation-pass complete.
-- Part IV opens power-over → power-with without naming Follett yet (Window).
+- Ch 1–9 footnotes remain paraphrased — verify before citation-pass complete.
+- Follett named in Ch 9 (Scale); Window should deepen rather than re-introduce.
 
 ## Rough scale
 
@@ -72,5 +72,6 @@
 - Chapter 7 words: ~4,200
 - Chapter 8 words: ~5,600
 - Part IV bridge: ~490
+- Chapter 9 words: ~6,200
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Part IV bridge author draft (July 2026)
+- Last assessed: Chapter 9 author draft (July 2026)

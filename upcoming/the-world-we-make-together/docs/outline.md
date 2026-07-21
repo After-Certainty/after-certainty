@@ -32,7 +32,7 @@ Each inherited concept appears only as deeply as necessary to make a connection 
 - **trust** → a condition of democratic capacity across difference;
 - **love** → the moral basis for treating another person’s stake as real;
 - **revision** → the right and responsibility of later people to reopen inherited arrangements;
-- **Mary Parker Follett’s power-with** → the constructive culmination (name Follett in Chapter 10 / The Window, not in the introduction).
+- **Mary Parker Follett’s power-with** → the constructive culmination (introduced by name in Chapter 9 / The Scale; deepened in Chapter 10 / The Window; not in the introduction).
 
 ---
 
@@ -100,7 +100,7 @@ Love as the ordinary recognition that another life matters beyond its usefulness
 
 #### Chapter 9 — The Scale
 
-Domination, honorable compromise, the recognition of limits, and the boundaries of possibilities already visible.
+Power imagined as fixed weight; Pullman paternalism vs Flint counterpower; Follett’s power-over / power-with; balance necessary and insufficient; opens to The Window.
 
 #### Chapter 10 — The Window
 
