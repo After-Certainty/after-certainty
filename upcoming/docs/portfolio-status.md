@@ -12,7 +12,7 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [The World We Make Together](../the-world-we-make-together/) | Phase 1 | Intro + Ch 1–2 drafted (Photograph, Door); cover/OG; architecture in outline | Editorial review; citation pass; then The Clock | [status](../the-world-we-make-together/docs/status.md) |
+| [The World We Make Together](../the-world-we-make-together/) | Phase 1 | Intro + Part I (Photograph, Door, Clock) drafted; cover/OG | Editorial review; citation pass; Part II bridge + Chair | [status](../the-world-we-make-together/docs/status.md) |
 | [Why Diversity Matters](../../books/why-diversity-matters/) | Phase 0–1 | Essay edition in `books/`; outline scaffolds + interview questions | Author intro + chapter drafts | [status](../../books/why-diversity-matters/docs/status.md) |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 (essay edition) | Agent pipeline + echo gates complete; expansion decision locked (~14.5k) | Author sign-off on Parts III–IV gate; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 

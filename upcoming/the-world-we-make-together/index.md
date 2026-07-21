@@ -14,8 +14,9 @@
 
 - [Chapter 1 — The Photograph](parts/part-1-who-makes-history/chapter-1-the-photograph.md)
 - [Chapter 2 — The Door](parts/part-1-who-makes-history/chapter-2-the-door.md)
+- [Chapter 3 — The Clock](parts/part-1-who-makes-history/chapter-3-the-clock.md)
 
-*Planned (not yet drafted): Part I bridge · Chapter 3 — The Clock*
+*Planned (not yet drafted): Part I bridge*
 
 ## Part II — Where Power Gathers
 

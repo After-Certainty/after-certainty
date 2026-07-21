@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Intro + Chapters 1–2 drafted; Clock and remaining units still outline**
+**Phase 1 — Intro + Part I chapters drafted (Photograph, Door, Clock); bridges and Part II+ still outline**
 
 ## Active branch
 
@@ -30,7 +30,7 @@
 | Part I bridge | outline | Not started (optional before Ch 2) |
 | Ch 1 — The Photograph | draft | Author-supplied; March on Washington + Apollo cases; 8 footnotes |
 | Ch 2 — The Door | draft | Author-supplied; Little Rock / structure-agency; ends on temporal threshold |
-| Ch 3 — The Clock | outline | Feeds Part II bridge → Chair |
+| Ch 3 — The Clock | draft | Author-supplied; Challenger + Y2K; ends toward attention/leadership (Chair) |
 | Part II bridge | outline | Explicit Clock→Chair: demand for orientation |
 | Ch 4 — The Chair | outline | Not started |
 | Ch 5 — The Clipboard | outline | Mechanism + public institutional case required |
@@ -46,21 +46,23 @@
 
 ## Next actions
 
-1. Editorial review of Introduction, Photograph, and Door.
-2. Citation pass: promote paraphrased Ch 1–2 footnotes to full Chicago bibliography entries.
-3. Draft Chapter 3 — The Clock (Door ending already opens the temporal problem).
+1. Editorial review of Introduction and Part I (Photograph, Door, Clock).
+2. Citation pass: promote paraphrased Ch 1–3 footnotes to full Chicago bibliography entries.
+3. Draft Part II bridge (explicit Clock→Chair: demand for orientation) then Chapter 4 — The Chair.
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1–2 footnotes cite Smithsonian, NPS, King Institute, National Archives, and NASA via paraphrases — verify against primary pages before citation-pass complete.
+- Ch 1–3 footnotes cite Smithsonian, NPS, King Institute, National Archives, NASA, Rogers Commission, Feynman appendix, and GAO via paraphrases — verify against primary pages before citation-pass complete.
+- Part I bridge still optional; Clock ending already hands off toward leadership/attention.
 
 ## Rough scale
 
 - Introduction words: ~2,800 (body; author revision)
 - Chapter 1 words: ~3,400 (body; author draft; footnotes paraphrased)
 - Chapter 2 words: ~3,700 (body; author draft; footnotes paraphrased)
+- Chapter 3 words: ~3,150 (body; author draft; footnotes paraphrased)
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Chapter 2 author draft (July 2026)
+- Last assessed: Chapter 3 author draft (July 2026)
