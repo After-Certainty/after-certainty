@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Introduction drafted; pause for editorial review before Chapter 1**
+**Phase 1 — Introduction + Chapter 1 drafted; Part I bridge and remaining chapters still outline**
 
 ## Active branch
 
@@ -27,8 +27,8 @@
 | Title page / copyright | draft | Standard front-matter placeholders |
 | Introduction — The Switch | draft | Author-supplied revision; ~2,800 words |
 | book-cover.png / open-graph.png | draft | Cover from Drive; OG via generate_open_graph.py |
-| Part I bridge | outline | Not started |
-| Ch 1 — The Photograph | outline | Do not draft until intro reviewed |
+| Part I bridge | outline | Not started (optional before Ch 2) |
+| Ch 1 — The Photograph | draft | Author-supplied; March on Washington + Apollo cases; 8 footnotes |
 | Ch 2 — The Door | outline | End must open temporal problem for The Clock |
 | Ch 3 — The Clock | outline | Feeds Part II bridge → Chair |
 | Part II bridge | outline | Explicit Clock→Chair: demand for orientation |
@@ -46,18 +46,20 @@
 
 ## Next actions
 
-1. Author / editorial review of Introduction — The Switch.
-2. Resolve any intro research markers in `research-notes.md` if a named vote case is desired later.
-3. After approval: draft Part I bridge + Chapter 1 — The Photograph only.
+1. Editorial review of Introduction — The Switch and Chapter 1 — The Photograph.
+2. Citation pass: promote paraphrased Ch 1 footnotes to full Chicago bibliography entries.
+3. Draft Part I bridge (optional) then Chapter 2 — The Door.
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
-- No `book.yml` yet (upcoming manuscript; not in export pipeline).
+- Minimal `book.yml` present for cover/OG fields; publishing still disabled.
+- Ch 1 footnotes cite Smithsonian, NPS, King Institute, and NASA via paraphrases — verify against primary pages before citation-pass complete.
 
 ## Rough scale
 
-- Introduction words: ~2,580 (body; first editorial QC)
+- Introduction words: ~2,800 (body; author revision)
+- Chapter 1 words: see assessment after add
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Introduction first draft (July 2026)
+- Last assessed: Chapter 1 author draft (July 2026)

@@ -12,7 +12,9 @@
 
 ## Part I — Who Makes History?
 
-*Planned (not yet drafted): Part I bridge · Chapter 1 — The Photograph · Chapter 2 — The Door · Chapter 3 — The Clock*
+- [Chapter 1 — The Photograph](parts/part-1-who-makes-history/chapter-1-the-photograph.md)
+
+*Planned (not yet drafted): Part I bridge · Chapter 2 — The Door · Chapter 3 — The Clock*
 
 ## Part II — Where Power Gathers
 
