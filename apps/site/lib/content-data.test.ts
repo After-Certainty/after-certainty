@@ -1,10 +1,10 @@
-import { afterEach, beforeEach, describe, expect, it } from "vitest";
+import { describe, expect, it } from "vitest";
 
 import { getBookDetailHref, getBookBySlug } from "@/lib/content-data";
-import { WOLTY_V1_SLUG } from "@/lib/books/generated-manifest";
+import { WOLTY_V1_SLUG } from "@/lib/books/book-slugs";
 
 describe("getBookDetailHref", () => {
-  it("routes catalog books to explore book detail paths", () => {
+  it("routes books to explore book detail paths", () => {
     expect(getBookDetailHref("when-others-look-to-you")).toBe(
       "/explore/books/when-others-look-to-you",
     );
@@ -14,20 +14,9 @@ describe("getBookDetailHref", () => {
 });
 
 describe("getBookBySlug", () => {
-  let prevOffline: string | undefined;
-
-  beforeEach(() => {
-    prevOffline = process.env.BOOKS_MANIFEST_OFFLINE;
-    process.env.BOOKS_MANIFEST_OFFLINE = "1";
-  });
-
-  afterEach(() => {
-    process.env.BOOKS_MANIFEST_OFFLINE = prevOffline;
-  });
-
-  it("returns a catalog entry for WoLTY legacy slug", async () => {
-    const book = await getBookBySlug("when-others-look-to-you");
-    expect(book?.slug).toBe("when-others-look-to-you");
+  it("returns a book for WoLTY legacy alias slug when present in semantic manifest", async () => {
+    const book = await getBookBySlug(WOLTY_V1_SLUG);
+    expect(book?.slug).toBe(WOLTY_V1_SLUG);
     expect(book?.title.length).toBeGreaterThan(0);
   });
 

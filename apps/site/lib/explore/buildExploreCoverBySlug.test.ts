@@ -1,46 +1,42 @@
 import { describe, expect, it } from "vitest";
 
 import { buildExploreCoverBySlug } from "@/lib/explore/buildExploreCoverBySlug";
-import type { Book as CatalogBook } from "@/types/content";
-import type { SemanticGraph } from "@/types/semanticGraph";
+import type { Book, SemanticGraph } from "@/types/semanticGraph";
 
-function catalogBook(over: Partial<CatalogBook> & Pick<CatalogBook, "slug">): CatalogBook {
+function graphBook(over: Partial<Book> & Pick<Book, "slug">): Book {
   return {
-    slug: over.slug,
+    id: over.id ?? over.slug,
     title: over.title ?? "T",
-    description: over.description ?? "D",
-    status: "published",
-    authors: [],
+    concepts: [],
+    patterns: [],
+    sources: [],
     ...over,
   };
 }
 
 describe("buildExploreCoverBySlug", () => {
-  it("fills from catalog when manifest book has no cover", () => {
+  it("fills from books list when manifest book has no cover", () => {
     const graph: SemanticGraph = {
-      books: [{ id: "b", slug: "my-book", title: "Book", concepts: [], patterns: [], sources: [] }],
+      books: [graphBook({ id: "b", slug: "my-book", title: "Book" })],
       glossary: [],
       patterns: [],
       situations: [],
       sources: [],
       relationships: [],
     };
-    const books = [catalogBook({ slug: "my-book", coverImage: "/from-catalog.jpg" })];
-    expect(buildExploreCoverBySlug(graph, books)).toEqual({ "my-book": "/from-catalog.jpg" });
+    const books = [graphBook({ slug: "my-book", coverImage: "/cover.jpg" })];
+    expect(buildExploreCoverBySlug(graph, books)).toEqual({ "my-book": "/cover.jpg" });
   });
 
-  it("prefers manifest coverImage when catalog does not define one", () => {
+  it("prefers manifest coverImage when lookup does not define one", () => {
     const graph: SemanticGraph = {
       books: [
-        {
+        graphBook({
           id: "b",
           slug: "only-manifest",
           title: "Book",
           coverImage: "/manifest.jpg",
-          concepts: [],
-          patterns: [],
-          sources: [],
-        },
+        }),
       ],
       glossary: [],
       patterns: [],
@@ -48,7 +44,7 @@ describe("buildExploreCoverBySlug", () => {
       sources: [],
       relationships: [],
     };
-    expect(buildExploreCoverBySlug(graph, [catalogBook({ slug: "only-manifest" })])).toEqual({
+    expect(buildExploreCoverBySlug(graph, [graphBook({ slug: "only-manifest" })])).toEqual({
       "only-manifest": "/manifest.jpg",
     });
   });

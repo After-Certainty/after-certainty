@@ -1,3 +1,5 @@
+import type { BookStatus } from "@/types/content";
+
 /**
  * Semantic graph contracts for manifests produced by the After Certainty content pipeline.
  *
@@ -48,10 +50,19 @@ export interface Book {
   title: string;
   subtitle?: string;
   summary?: string;
+  /** Longer catalog copy when supplied separately from `summary` */
+  description?: string;
   /** Path under /public or absolute URL when supplied by the semantic manifest */
   coverImage?: string;
   /** Absolute URL for book-specific Open Graph / Twitter share art when supplied by the manifest */
   openGraphImage?: string;
+  status?: BookStatus;
+  authors?: string[];
+  year?: number;
+  publicationDate?: string;
+  slugAliases?: string[];
+  companionBooks?: string[];
+  companionOf?: string;
   concepts?: string[];
   patterns?: string[];
   sources?: string[];

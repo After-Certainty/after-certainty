@@ -1,9 +1,9 @@
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
-import { findCatalogBookForSlug } from "@/lib/search/buildSearchDocuments";
+import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
+import { bookPublicationStatus, findBookBySlug } from "@/lib/books/book-metadata";
 import { buildGraphIndex, type GraphIndex } from "@/lib/graph/graph";
-import type { Book as CatalogBook, PodcastEpisode } from "@/types/content";
+import type { PodcastEpisode } from "@/types/content";
 import type { PathStopInput } from "@/types/paths";
-import type { SemanticGraph } from "@/types/semanticGraph";
+import type { Book, SemanticGraph } from "@/types/semanticGraph";
 
 export type PathHealthSeverity = "error" | "warning";
 
@@ -52,26 +52,21 @@ export function resolveStopEntityId(stop: {
   return stop.entityId ?? null;
 }
 
-function isBookInSemanticGraph(
-  slug: string,
-  graph: SemanticGraph,
-  catalogBooks: readonly CatalogBook[],
-): boolean {
-  const canonical = resolveBookCanonicalSlug(slug, [...catalogBooks]) ?? slug;
-  return graph.books.some((b) => b.slug === slug || b.slug === canonical);
+function isBookInGraph(slug: string, graph: SemanticGraph): boolean {
+  const books = graph.books;
+  const canonical = resolveBookCanonicalSlug(slug, books) ?? slug;
+  return books.some((b) => b.slug === slug || b.slug === canonical);
 }
 
-function isPublishedCatalogBook(
-  slug: string,
-  catalogBooks: readonly CatalogBook[],
-  graph: SemanticGraph,
-): boolean {
-  if (isBookInSemanticGraph(slug, graph, catalogBooks)) {
-    return true;
+function isPublishedBook(slug: string, graph: SemanticGraph): boolean {
+  if (isBookInGraph(slug, graph)) {
+    const book = findBookBySlug(slug, graph.books);
+    if (!book) return true;
+    return bookPublicationStatus(book) === "published";
   }
-  const book = findCatalogBookForSlug(slug, catalogBooks);
+  const book = findBookBySlug(slug, graph.books);
   if (!book) return false;
-  return book.status === "published";
+  return bookPublicationStatus(book) === "published";
 }
 
 export function resolveBookSlugFromEntityId(entityId: string): string {
@@ -92,18 +87,18 @@ export function stopEntityIdsFromStops(stops: readonly PathStopInput[]): string[
 }
 
 export type ValidateStopOptions = {
-  /** When true, forthcoming/draft catalog books are allowed (upcoming trails). */
+  /** When true, forthcoming/draft books are allowed (upcoming trails). */
   allowUnpublishedBooks?: boolean;
   issueOwnerId?: string;
 };
 
 function warnNonCanonicalEdition(
   slug: string,
-  catalogBooks: readonly CatalogBook[],
+  books: readonly Book[],
   issues: PathHealthIssue[],
   ownerId: string,
 ): void {
-  const canonical = resolveBookCanonicalSlug(slug, [...catalogBooks]);
+  const canonical = resolveBookCanonicalSlug(slug, books);
   if (canonical && canonical !== slug) {
     issues.push({
       severity: "warning",
@@ -118,13 +113,13 @@ export function validateStopReference(
   stop: PathStopInput,
   index: GraphIndex,
   graph: SemanticGraph,
-  catalogBooks: readonly CatalogBook[],
   podcastEpisodes: readonly PodcastEpisode[],
   ownerId: string,
   issues: PathHealthIssue[],
   options: ValidateStopOptions = {},
 ): string | null {
   const { allowUnpublishedBooks = false } = options;
+  const books = graph.books;
 
   if (stop.entityType === "external") {
     if (!stop.externalUrl) {
@@ -175,7 +170,7 @@ export function validateStopReference(
       return null;
     }
     const slug = resolveBookSlugFromEntityId(entityId);
-    const canonicalSlug = resolveBookCanonicalSlug(slug, [...catalogBooks]) ?? slug;
+    const canonicalSlug = resolveBookCanonicalSlug(slug, books) ?? slug;
     const resolvedId =
       index.resolveCanonicalId(canonicalSlug) ??
       index.resolveCanonicalId(slug) ??
@@ -191,7 +186,7 @@ export function validateStopReference(
       return null;
     }
 
-    if (!allowUnpublishedBooks && !isPublishedCatalogBook(canonicalSlug, catalogBooks, graph)) {
+    if (!allowUnpublishedBooks && !isPublishedBook(canonicalSlug, graph)) {
       issues.push({
         severity: "error",
         code: "unpublished_book",
@@ -200,7 +195,7 @@ export function validateStopReference(
       });
     }
 
-    warnNonCanonicalEdition(slug, catalogBooks, issues, ownerId);
+    warnNonCanonicalEdition(slug, books, issues, ownerId);
     return resolvedId;
   }
 

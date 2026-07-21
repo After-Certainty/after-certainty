@@ -1,5 +1,4 @@
 import semanticManifest from "@/data/semantic-manifest.json";
-import booksManifest from "@/data/books-manifest.json";
 import podcastEpisodes from "@/data/podcast-episodes.json";
 import trailsManifest from "@/data/trails-manifest.json";
 import { buildGraphIndex } from "@/lib/graph/graph";
@@ -27,7 +26,7 @@ describe("enrichStop", () => {
         description: "Test",
       },
       index,
-      booksManifest.books,
+      graph.books,
       podcastEpisodes.episodes,
     );
 
@@ -44,7 +43,7 @@ describe("enrichTrail", () => {
     const trail = manifest.trails.find((t) => t.slug === "meaning-under-pressure");
     expect(trail).toBeDefined();
 
-    const enriched = enrichTrail(trail!, graph, booksManifest.books, podcastEpisodes.episodes);
+    const enriched = enrichTrail(trail!, graph, podcastEpisodes.episodes);
 
     expect(enriched.pathStopsEnriched.length).toBe(trail!.pathStops.length);
     expect(enriched.totalEstimatedMinutes).toBeGreaterThan(0);

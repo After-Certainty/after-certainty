@@ -10,7 +10,7 @@ export async function getEnrichedTrailsForQuestion(input: {
   question: QuestionDefinition;
   limit?: number;
 }): Promise<EnrichedTrail[]> {
-  const [{ graph, catalogBooks }, podcastEpisodes] = await Promise.all([
+  const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
@@ -18,9 +18,9 @@ export async function getEnrichedTrailsForQuestion(input: {
   const trails = findPublishedTrailsForQuestion({
     question: input.question,
     index,
-    catalogBooks,
+    books: graph.books,
     limit: input.limit ?? 3,
   });
 
-  return enrichTrails(trails, graph, catalogBooks, podcastEpisodes);
+  return enrichTrails(trails, graph, podcastEpisodes);
 }

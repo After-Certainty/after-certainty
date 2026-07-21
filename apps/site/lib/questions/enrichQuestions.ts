@@ -1,50 +1,45 @@
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
+import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
+import { findBookBySlug } from "@/lib/books/book-metadata";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex, graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { enrichPathStops, totalEstimatedMinutes } from "@/lib/paths/enrichStop";
 import { resolveBookSlugFromEntityId } from "@/lib/paths/validateStop";
-import { findCatalogBookForSlug } from "@/lib/search/buildSearchDocuments";
-import type { Book as CatalogBook, PodcastEpisode } from "@/types/content";
+import type { PodcastEpisode } from "@/types/content";
 import type { EnrichedQuestion, QuestionDefinition } from "@/types/questions";
 import type { SemanticGraph } from "@/types/semanticGraph";
-
-function titleForGraphNode(index: GraphIndex, canonicalId: string): string {
-  const node = index.getNodeByCanonicalId(canonicalId);
-  if (!node) return canonicalId;
-  return graphNodeTitle(node);
-}
 
 function enrichPrimaryBook(
   question: QuestionDefinition,
   index: GraphIndex,
-  catalogBooks: readonly CatalogBook[],
+  graph: SemanticGraph,
 ): Pick<EnrichedQuestion, "primaryBookTitle" | "primaryBookHref" | "primaryBookCover"> {
+  const books = graph.books;
   const slug = resolveBookSlugFromEntityId(question.primaryBookId);
-  const canonicalSlug = resolveBookCanonicalSlug(slug, [...catalogBooks]) ?? slug;
-  const catalogBook = findCatalogBookForSlug(canonicalSlug, catalogBooks);
+  const canonicalSlug = resolveBookCanonicalSlug(slug, books) ?? slug;
+  const graphBook = findBookBySlug(canonicalSlug, books);
   const resolvedId =
     index.resolveCanonicalId(canonicalSlug) ??
     index.resolveCanonicalId(question.primaryBookId) ??
     question.primaryBookId;
+  const node = index.getNodeByCanonicalId(resolvedId);
 
   return {
-    primaryBookTitle: catalogBook?.title ?? titleForGraphNode(index, resolvedId),
+    primaryBookTitle: graphBook?.title ?? (node ? graphNodeTitle(node) : resolvedId),
     primaryBookHref: `${explorePaths.books}/${canonicalSlug}`,
-    primaryBookCover: catalogBook?.coverImage ?? undefined,
+    primaryBookCover: graphBook?.coverImage ?? undefined,
   };
 }
 
 export function enrichQuestion(
   question: QuestionDefinition,
   graph: SemanticGraph,
-  catalogBooks: readonly CatalogBook[],
   podcastEpisodes: readonly PodcastEpisode[],
 ): EnrichedQuestion {
   const index = buildGraphIndex(graph);
   const pathStopsEnriched = enrichPathStops(
     question.pathStops,
     index,
-    catalogBooks,
+    graph.books,
     podcastEpisodes,
   );
 
@@ -52,17 +47,16 @@ export function enrichQuestion(
     ...question,
     pathStopsEnriched,
     totalEstimatedMinutes: totalEstimatedMinutes(pathStopsEnriched),
-    ...enrichPrimaryBook(question, index, catalogBooks),
+    ...enrichPrimaryBook(question, index, graph),
   };
 }
 
 export function enrichQuestions(
   questions: QuestionDefinition[],
   graph: SemanticGraph,
-  catalogBooks: readonly CatalogBook[],
   podcastEpisodes: readonly PodcastEpisode[],
 ): EnrichedQuestion[] {
-  return questions.map((q) => enrichQuestion(q, graph, catalogBooks, podcastEpisodes));
+  return questions.map((q) => enrichQuestion(q, graph, podcastEpisodes));
 }
 
 export function buildQuestionSearchHandoffUrl(question: QuestionDefinition): string {
@@ -71,7 +65,6 @@ export function buildQuestionSearchHandoffUrl(question: QuestionDefinition): str
   return `/search?q=${q}`;
 }
 
-/** Match curated questions for a search query using manifest search bridges. */
 export function matchQuestionsForSearchQuery(
   query: string,
   manifest: {

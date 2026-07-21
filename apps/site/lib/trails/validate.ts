@@ -7,7 +7,7 @@ import {
   type PathHealthIssue,
 } from "@/lib/paths/validateStop";
 import { getAllQuestions } from "@/lib/questions/loadQuestions";
-import type { Book as CatalogBook, PodcastEpisode } from "@/types/content";
+import type { PodcastEpisode } from "@/types/content";
 import type { SemanticGraph } from "@/types/semanticGraph";
 import type { TrailDefinition, TrailsManifest } from "@/types/trails";
 
@@ -36,10 +36,10 @@ function stopEntityIds(trail: TrailDefinition): string[] {
 export function collectTrailHealthIssues(input: {
   manifest: Pick<TrailsManifest, "trails" | "searchBridges">;
   graph: SemanticGraph;
-  catalogBooks: readonly CatalogBook[];
+
   podcastEpisodes: readonly PodcastEpisode[];
 }): TrailHealthIssue[] {
-  const { manifest, graph, catalogBooks, podcastEpisodes } = input;
+  const { manifest, graph, podcastEpisodes } = input;
   const issues: TrailHealthIssue[] = [];
   const index = buildGraphIndex(graph);
 
@@ -110,7 +110,6 @@ export function collectTrailHealthIssues(input: {
         },
         index,
         graph,
-        catalogBooks,
         podcastEpisodes,
         trail.id,
         primaryIssues,
@@ -135,16 +134,9 @@ export function collectTrailHealthIssues(input: {
 
     for (const stop of trail.pathStops) {
       const stopIssues: PathHealthIssue[] = [];
-      validateStopReference(
-        stop,
-        index,
-        graph,
-        catalogBooks,
-        podcastEpisodes,
-        trail.id,
-        stopIssues,
-        { allowUnpublishedBooks },
-      );
+      validateStopReference(stop, index, graph, podcastEpisodes, trail.id, stopIssues, {
+        allowUnpublishedBooks,
+      });
       issues.push(...stopIssues.map(mapIssue));
 
       if (trail.status === "published" && stop.position > 1 && !stop.whyThisFollows) {
@@ -245,7 +237,7 @@ export function collectTrailHealthIssues(input: {
 export function assertTrailsManifestHealthy(input: {
   manifest: Pick<TrailsManifest, "trails" | "searchBridges">;
   graph: SemanticGraph;
-  catalogBooks: readonly CatalogBook[];
+
   podcastEpisodes: readonly PodcastEpisode[];
 }): void {
   const issues = collectTrailHealthIssues(input);
@@ -259,7 +251,7 @@ export function assertTrailsManifestHealthy(input: {
 export function collectTrailHealthReport(input: {
   manifest: Pick<TrailsManifest, "trails" | "searchBridges">;
   graph: SemanticGraph;
-  catalogBooks: readonly CatalogBook[];
+
   podcastEpisodes: readonly PodcastEpisode[];
 }) {
   const issues = collectTrailHealthIssues(input);

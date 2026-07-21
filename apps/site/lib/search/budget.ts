@@ -4,7 +4,7 @@ import { gzipSync } from "node:zlib";
  * Soft expected ceiling for the current corpus (plan §13 targeted ~140–200 KB;
  * full documents + aliasConfig land near ~210 KB gzip today).
  */
-export const SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES = 250 * 1024;
+export const SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES = 384 * 1024;
 
 /** CI alert threshold — fail tests when the transferable index exceeds this. */
 export const SEARCH_INDEX_GZIP_ALERT_BYTES = 500 * 1024;

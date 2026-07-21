@@ -6,7 +6,7 @@ import {
   validateStopReference,
   type PathHealthIssue,
 } from "@/lib/paths/validateStop";
-import type { Book as CatalogBook, PodcastEpisode } from "@/types/content";
+import type { PodcastEpisode } from "@/types/content";
 import type { SemanticGraph } from "@/types/semanticGraph";
 import type { QuestionDefinition, QuestionsManifest } from "@/types/questions";
 
@@ -41,10 +41,10 @@ function stopEntityIds(question: QuestionDefinition): string[] {
 export function collectQuestionHealthIssues(input: {
   manifest: Pick<QuestionsManifest, "questions" | "searchBridges">;
   graph: SemanticGraph;
-  catalogBooks: readonly CatalogBook[];
+
   podcastEpisodes: readonly PodcastEpisode[];
 }): QuestionHealthIssue[] {
-  const { manifest, graph, catalogBooks, podcastEpisodes } = input;
+  const { manifest, graph, podcastEpisodes } = input;
   const issues: QuestionHealthIssue[] = [];
   const index = buildGraphIndex(graph);
 
@@ -95,7 +95,6 @@ export function collectQuestionHealthIssues(input: {
       },
       index,
       graph,
-      catalogBooks,
       podcastEpisodes,
       question.id,
       pathIssues,
@@ -119,15 +118,7 @@ export function collectQuestionHealthIssues(input: {
 
     for (const stop of question.pathStops) {
       const stopIssues: PathHealthIssue[] = [];
-      validateStopReference(
-        stop,
-        index,
-        graph,
-        catalogBooks,
-        podcastEpisodes,
-        question.id,
-        stopIssues,
-      );
+      validateStopReference(stop, index, graph, podcastEpisodes, question.id, stopIssues);
       issues.push(...stopIssues.map(mapIssue));
     }
 
@@ -192,7 +183,7 @@ export function collectQuestionHealthIssues(input: {
 export function assertQuestionsManifestHealthy(input: {
   manifest: Pick<QuestionsManifest, "questions" | "searchBridges">;
   graph: SemanticGraph;
-  catalogBooks: readonly CatalogBook[];
+
   podcastEpisodes: readonly PodcastEpisode[];
 }): void {
   const issues = collectQuestionHealthIssues(input);
@@ -206,7 +197,7 @@ export function assertQuestionsManifestHealthy(input: {
 export function collectQuestionHealthReport(input: {
   manifest: Pick<QuestionsManifest, "questions" | "searchBridges">;
   graph: SemanticGraph;
-  catalogBooks: readonly CatalogBook[];
+
   podcastEpisodes: readonly PodcastEpisode[];
 }) {
   const issues = collectQuestionHealthIssues(input);

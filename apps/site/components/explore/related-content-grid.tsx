@@ -1,4 +1,3 @@
-import type { Book as CatalogBook } from "@/types/content";
 import type { Book, GlossaryConcept, Pattern, Source, Thinker } from "@/types/semanticGraph";
 import { BookCard } from "@/components/explore/book-card";
 import { ConceptCard } from "@/components/explore/concept-card";
@@ -18,8 +17,8 @@ type RelatedContentGridProps = {
   sources?: Source[];
   thinkers?: Thinker[];
   className?: string;
-  /** When provided with graph `books`, resolves covers from the site catalog (slug + aliases). */
-  catalogBooksForBookCovers?: CatalogBook[];
+  /** When provided with graph `books`, resolves covers from slug + aliases. */
+  booksForCovers?: Book[];
 };
 
 export function RelatedContentGrid({
@@ -30,15 +29,13 @@ export function RelatedContentGrid({
   sources = [],
   thinkers = [],
   className = "",
-  catalogBooksForBookCovers,
+  booksForCovers,
 }: RelatedContentGridProps) {
   const total = concepts.length + patterns.length + books.length + sources.length + thinkers.length;
   if (total === 0) return null;
 
   const coverLookup =
-    catalogBooksForBookCovers && books.length > 0
-      ? buildCoverImageBySlugLookup(catalogBooksForBookCovers)
-      : null;
+    booksForCovers && books.length > 0 ? buildCoverImageBySlugLookup(booksForCovers) : null;
 
   return (
     <section className={`space-y-6 ${className}`}>
@@ -57,8 +54,8 @@ export function RelatedContentGrid({
             key={b.id}
             book={b}
             coverImage={
-              coverLookup && catalogBooksForBookCovers
-                ? (resolveCoverForGraphBookSlug(coverLookup, catalogBooksForBookCovers, b.slug) ??
+              coverLookup && booksForCovers
+                ? (resolveCoverForGraphBookSlug(coverLookup, booksForCovers, b.slug) ??
                   b.coverImage)
                 : undefined
             }

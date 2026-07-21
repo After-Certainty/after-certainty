@@ -1,28 +1,27 @@
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
-import type { Book as CatalogBook } from "@/types/content";
+import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
+import type { Book } from "@/types/semanticGraph";
 
-/** Map catalog slug and slug aliases to cover image URL/path. */
-export function buildCoverImageBySlugLookup(catalogBooks: CatalogBook[]): Map<string, string> {
+export function buildCoverImageBySlugLookup(books: readonly Book[]): Map<string, string> {
   const map = new Map<string, string>();
-  for (const b of catalogBooks) {
-    if (!b.coverImage) continue;
-    map.set(b.slug, b.coverImage);
-    for (const a of b.slugAliases ?? []) {
-      map.set(a, b.coverImage);
+  for (const b of books) {
+    if (b.coverImage) {
+      map.set(b.slug, b.coverImage);
+      for (const alias of b.slugAliases ?? []) {
+        map.set(alias, b.coverImage);
+      }
     }
   }
   return map;
 }
 
-/** Resolve a cover for a graph book using catalog entries (slug + aliases + canonical slug). */
 export function resolveCoverForGraphBookSlug(
-  coverBySlug: ReadonlyMap<string, string>,
-  catalogBooks: CatalogBook[],
+  lookup: Map<string, string>,
+  books: readonly Book[],
   graphSlug: string,
 ): string | undefined {
-  const direct = coverBySlug.get(graphSlug);
+  const direct = lookup.get(graphSlug);
   if (direct) return direct;
-  const canonical = resolveBookCanonicalSlug(graphSlug, catalogBooks);
-  if (canonical) return coverBySlug.get(canonical);
+  const canonical = resolveBookCanonicalSlug(graphSlug, books);
+  if (canonical) return lookup.get(canonical);
   return undefined;
 }

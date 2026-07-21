@@ -1,5 +1,4 @@
 import semanticManifest from "@/data/semantic-manifest.json";
-import booksManifest from "@/data/books-manifest.json";
 import { getQuestionBySlug } from "@/lib/questions/loadQuestions";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import {
@@ -20,7 +19,7 @@ describe("findPublishedTrailsForEntity", () => {
     const trails = findPublishedTrailsForEntity({
       canonicalId: book!.id,
       index,
-      catalogBooks: booksManifest.books,
+      books: graph.books,
       limit: 5,
     });
 
@@ -38,7 +37,7 @@ describe("findPublishedTrailsForEntity", () => {
     const trails = findPublishedTrailsForEntity({
       canonicalId: concept!.id,
       index,
-      catalogBooks: booksManifest.books,
+      books: graph.books,
     });
 
     expect(trails.some((t) => t.id === "judgment-before-certainty")).toBe(true);
@@ -51,7 +50,7 @@ describe("findPublishedTrailsForEntity", () => {
     const trails = findPublishedTrailsForEntity({
       canonicalId: "concept-nonexistent-trail-entity",
       index,
-      catalogBooks: booksManifest.books,
+      books: graph.books,
     });
 
     expect(trails).toEqual([]);
@@ -68,7 +67,7 @@ describe("findPublishedTrailsForQuestion", () => {
     const trails = findPublishedTrailsForQuestion({
       question: question!,
       index,
-      catalogBooks: booksManifest.books,
+      books: graph.books,
       limit: 5,
     });
 
@@ -85,7 +84,7 @@ describe("findPublishedTrailsForQuestion", () => {
     const trails = findPublishedTrailsForQuestion({
       question: question!,
       index,
-      catalogBooks: booksManifest.books,
+      books: graph.books,
       overlapMax: QUESTION_TRAIL_OVERLAP_MAX,
     });
 
@@ -107,7 +106,7 @@ describe("findPublishedTrailsForQuestion", () => {
     const trails = findPublishedTrailsForQuestion({
       question: question!,
       index,
-      catalogBooks: booksManifest.books,
+      books: graph.books,
     });
 
     expect(trails).toEqual([]);

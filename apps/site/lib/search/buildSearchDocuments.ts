@@ -1,8 +1,10 @@
+import { WOLTY_PUBLIC_ALIAS, WOLTY_V1_SLUG } from "@/lib/books/book-slugs";
 import {
-  WOLTY_PUBLIC_ALIAS,
-  WOLTY_V1_SLUG,
-  resolveBookCanonicalSlug,
-} from "@/lib/books/generated-manifest";
+  buildEditionGroups,
+  parseBookEdition,
+  type EditionGroupMeta,
+} from "@/lib/books/canonical-editions";
+import { bookDescription, bookPublicationStatus, findBookBySlug } from "@/lib/books/book-metadata";
 import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex, graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
@@ -16,10 +18,9 @@ import {
   SEARCH_RESULT_LABELS,
   type SearchAliasConfig,
   type SearchDocument,
-  type SearchSourceArtifact,
 } from "@/lib/search/types";
 import { stripHtml } from "@/lib/podcast/sanitize";
-import type { Book as CatalogBook, BookStatus, PodcastEpisode } from "@/types/content";
+import type { PodcastEpisode } from "@/types/content";
 import type {
   Book as SemanticBook,
   GlossaryConcept,
@@ -32,7 +33,6 @@ import type {
 
 export type BuildSearchDocumentsInput = {
   graph: SemanticGraph;
-  catalogBooks: readonly CatalogBook[];
   podcastEpisodes?: readonly PodcastEpisode[];
   aliasConfig?: SearchAliasConfig;
 };
@@ -43,30 +43,16 @@ export type SearchDocumentConsistencyIssue = {
   detail: string;
 };
 
-const EDITION_SLUG_RE = /^(.*)-v(\d+)$/i;
-
-export function parseBookEdition(slug: string): { baseSlug: string; edition?: string } {
-  const match = slug.match(EDITION_SLUG_RE);
-  if (!match) return { baseSlug: slug };
-  return { baseSlug: match[1]!, edition: `v${match[2]}` };
-}
-
-/** Find catalog metadata for a graph book slug (exact, alias, or canonical resolve). */
+/** @deprecated Use findBookBySlug from lib/books/book-metadata */
 export function findCatalogBookForSlug(
   slug: string,
-  catalogBooks: readonly CatalogBook[],
-): CatalogBook | undefined {
-  const exact = catalogBooks.find((b) => b.slug === slug);
-  if (exact) return exact;
-
-  const viaAlias = catalogBooks.find((b) => b.slugAliases?.includes(slug));
-  if (viaAlias) return viaAlias;
-
-  const canonical = resolveBookCanonicalSlug(slug, [...catalogBooks]);
-  if (canonical) return catalogBooks.find((b) => b.slug === canonical);
-
-  return undefined;
+  books: readonly SemanticBook[],
+): SemanticBook | undefined {
+  return findBookBySlug(slug, books);
 }
+
+export { parseBookEdition } from "@/lib/books/canonical-editions";
+export { pickCanonicalEditionSlug } from "@/lib/books/canonical-editions";
 
 function resolveRelatedTitles(index: GraphIndex, refs: readonly string[] | undefined): string[] {
   if (!refs?.length) return [];
@@ -86,81 +72,8 @@ function relationshipDensityForId(graph: SemanticGraph, id: string, relatedCount
   return edges + relatedCounts;
 }
 
-type EditionGroupMeta = {
-  siblingCount: number;
-  canonicalSlug: string;
-};
-
-function buildEditionGroups(books: readonly SemanticBook[]): Map<string, EditionGroupMeta> {
-  const byBase = new Map<string, SemanticBook[]>();
-  for (const book of books) {
-    const { baseSlug } = parseBookEdition(book.slug);
-    const bucket = byBase.get(baseSlug) ?? [];
-    bucket.push(book);
-    byBase.set(baseSlug, bucket);
-  }
-
-  const metaBySlug = new Map<string, EditionGroupMeta>();
-  for (const [baseSlug, siblings] of byBase) {
-    if (siblings.length <= 1) {
-      const only = siblings[0]!;
-      metaBySlug.set(only.slug, { siblingCount: 1, canonicalSlug: only.slug });
-      continue;
-    }
-
-    const canonicalSlug = pickCanonicalEditionSlug(baseSlug, siblings);
-    for (const sibling of siblings) {
-      metaBySlug.set(sibling.slug, { siblingCount: siblings.length, canonicalSlug });
-    }
-  }
-  return metaBySlug;
-}
-
-/**
- * Prefer the public-alias target (WoLTY v1), else a single export-bearing row,
- * else the highest explicit -vN edition.
- */
-export function pickCanonicalEditionSlug(
-  baseSlug: string,
-  siblings: readonly SemanticBook[],
-): string {
-  if (baseSlug === WOLTY_PUBLIC_ALIAS || siblings.some((b) => b.slug === WOLTY_V1_SLUG)) {
-    const v1 = siblings.find((b) => b.slug === WOLTY_V1_SLUG);
-    if (v1) return v1.slug;
-  }
-
-  const withExport = siblings.filter(
-    (b) => Boolean(b.epub?.url) || Boolean(b.pdf?.url) || Boolean(b.docx?.url),
-  );
-  if (withExport.length === 1) return withExport[0]!.slug;
-
-  let best: SemanticBook | undefined;
-  let bestVersion = -1;
-  for (const book of siblings) {
-    const { edition } = parseBookEdition(book.slug);
-    const version = edition ? Number(edition.slice(1)) : 0;
-    if (!best || version > bestVersion) {
-      best = book;
-      bestVersion = version;
-    }
-  }
-  return best?.slug ?? siblings[0]!.slug;
-}
-
-function bookStatus(book: SemanticBook, catalog: CatalogBook | undefined): BookStatus {
-  if (catalog?.status) return catalog.status;
-  // Semantic-manifest books are explore-listed content; Zod strips status, so default published.
-  if (book.id.startsWith("catalog:")) return "draft";
-  return "published";
-}
-
-function bookSourceArtifact(book: SemanticBook): SearchSourceArtifact {
-  return book.id.startsWith("catalog:") ? "catalog" : "semantic";
-}
-
 function buildBookDocument(
   book: SemanticBook,
-  catalog: CatalogBook | undefined,
   index: GraphIndex,
   graph: SemanticGraph,
   aliasTerms: string[],
@@ -168,7 +81,7 @@ function buildBookDocument(
   editionMeta: EditionGroupMeta,
 ): SearchDocument {
   const { edition } = parseBookEdition(book.slug);
-  const status = bookStatus(book, catalog);
+  const status = bookPublicationStatus(book);
   const isCanonicalEdition = editionMeta.canonicalSlug === book.slug;
   const hasEditionSiblings = editionMeta.siblingCount > 1;
 
@@ -181,19 +94,13 @@ function buildBookDocument(
     ...resolveRelatedTitles(index, book.sources),
   ]);
 
-  const slugAliases = uniqueStrings([...(catalog?.slugAliases ?? []), ...(aliasTerms ?? [])]);
-  // Public WoLTY alias should match the v1 edition document.
+  const slugAliases = uniqueStrings([...(book.slugAliases ?? []), ...(aliasTerms ?? [])]);
   if (book.slug === WOLTY_V1_SLUG) {
     slugAliases.push(WOLTY_PUBLIC_ALIAS);
   }
 
-  const themes = catalog?.themes?.length
-    ? [...catalog.themes]
-    : catalog?.tags?.length
-      ? [...catalog.tags]
-      : undefined;
-  const creatorNames = catalog?.authors?.length ? uniqueStrings(catalog.authors) : undefined;
-  const description = book.summary ?? catalog?.description;
+  const creatorNames = book.authors?.length ? uniqueStrings(book.authors) : undefined;
+  const description = bookDescription(book);
 
   const searchText = joinSearchText([
     book.title,
@@ -203,7 +110,6 @@ function buildBookDocument(
     edition,
     status,
     ...(slugAliases ?? []),
-    ...(themes ?? []),
     ...(creatorNames ?? []),
     ...relatedTitles,
     ...relatedBridgeTerms,
@@ -214,18 +120,17 @@ function buildBookDocument(
     entityType: "book",
     slug: book.slug,
     title: book.title,
-    subtitle: book.subtitle ?? catalog?.subtitle ?? undefined,
+    subtitle: book.subtitle ?? undefined,
     description,
     resultLabel: SEARCH_RESULT_LABELS.book,
     canonicalUrl: `${explorePaths.books}/${book.slug}`,
-    image: book.coverImage ?? catalog?.coverImage ?? undefined,
+    image: book.coverImage ?? undefined,
     status,
     edition,
     isCanonicalEdition: hasEditionSiblings ? isCanonicalEdition : true,
     visibility: "listed",
     searchText,
     aliases: slugAliases,
-    themes,
     creatorNames,
     relatedTitles: relatedTitles.length ? relatedTitles : undefined,
     conceptIds,
@@ -241,7 +146,7 @@ function buildBookDocument(
       book.id,
       (book.concepts?.length ?? 0) + (book.patterns?.length ?? 0) + (book.sources?.length ?? 0),
     ),
-    sourceArtifact: bookSourceArtifact(book),
+    sourceArtifact: "semantic",
   };
 }
 
@@ -554,14 +459,11 @@ function buildPodcastDocument(
 }
 
 /**
- * Build the normalized Global Search corpus from the explore graph, catalog metadata,
+ * Build the normalized Global Search corpus from the explore graph,
  * podcast episodes, and authored aliases. Pure function — no I/O.
- *
- * Precedence: semantic ids/titles/links win; catalog supplies status, slugAliases, themes,
- * authors, and fills missing summary/cover; podcast episodes are appended as external docs.
  */
 export function buildSearchDocuments(input: BuildSearchDocumentsInput): SearchDocument[] {
-  const { graph, catalogBooks, podcastEpisodes = [], aliasConfig } = input;
+  const { graph, podcastEpisodes = [], aliasConfig } = input;
   const index = buildGraphIndex(graph);
   const aliasMap = aliasConfig ? aliasTermsByTargetId(aliasConfig) : new Map<string, string[]>();
   const relatedMap = aliasConfig
@@ -579,7 +481,6 @@ export function buildSearchDocuments(input: BuildSearchDocumentsInput): SearchDo
   };
 
   for (const book of graph.books) {
-    const catalog = findCatalogBookForSlug(book.slug, catalogBooks);
     const editionMeta = editionGroups.get(book.slug) ?? {
       siblingCount: 1,
       canonicalSlug: book.slug,
@@ -587,7 +488,6 @@ export function buildSearchDocuments(input: BuildSearchDocumentsInput): SearchDo
     push(
       buildBookDocument(
         book,
-        catalog,
         index,
         graph,
         aliasMap.get(book.id) ?? [],

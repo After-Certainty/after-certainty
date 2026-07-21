@@ -29,8 +29,8 @@ type ExplorePageProps = {
 };
 
 export default async function ExploreObservatoryPage({ searchParams }: ExplorePageProps) {
-  const { graph, catalogBooks } = await getExploreSemanticGraph();
-  const coverBySlug = buildExploreCoverBySlug(graph, catalogBooks);
+  const { graph } = await getExploreSemanticGraph();
+  const coverBySlug = buildExploreCoverBySlug(graph, graph.books);
 
   const sp = searchParams ? await searchParams : {};
   let initialFocusCanonicalId: string | null = null;
@@ -38,7 +38,7 @@ export default async function ExploreObservatoryPage({ searchParams }: ExplorePa
   const fs = sp.focusSlug;
   if (typeof fk === "string" && typeof fs === "string" && isValidExploreFocusKind(fk)) {
     const index = buildGraphIndex(graph);
-    initialFocusCanonicalId = resolveExploreFocusCanonicalId(index, fk, fs, catalogBooks);
+    initialFocusCanonicalId = resolveExploreFocusCanonicalId(index, fk, fs, graph.books);
   }
 
   const pathwayParams = pathwayFromSearchParams(

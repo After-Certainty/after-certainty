@@ -140,7 +140,7 @@ describe("security assessment — POST /api/cache/revalidate", () => {
       revalidateRequest({ authorization: "Bearer route-test-secret" }),
     );
     expect(res.status).toBe(200);
-    expect(revalidateCacheTargets).toHaveBeenCalledWith(["podcast", "semantic", "books"]);
+    expect(revalidateCacheTargets).toHaveBeenCalledWith(["podcast", "semantic"]);
   });
 });
 

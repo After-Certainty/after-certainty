@@ -1,4 +1,4 @@
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
+import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import type { GraphIndex } from "@/lib/graph/graph";
 import {
   normalizeBookEntityId,
@@ -7,7 +7,7 @@ import {
   resolveStopEntityId,
 } from "@/lib/paths/validateStop";
 import { getPublishedTrails } from "@/lib/trails/loadTrails";
-import type { Book as CatalogBook } from "@/types/content";
+import type { Book } from "@/types/semanticGraph";
 import type { PathStopInput } from "@/types/paths";
 import type { QuestionDefinition } from "@/types/questions";
 import type { TrailDefinition } from "@/types/trails";
@@ -19,7 +19,7 @@ export const QUESTION_TRAIL_OVERLAP_MAX = 0.6;
 export function resolveStopCanonicalId(
   stop: PathStopInput,
   index: GraphIndex,
-  catalogBooks: readonly CatalogBook[],
+  books: readonly Book[],
 ): string | null {
   if (stop.entityType === "external") {
     return resolveStopEntityId(stop);
@@ -33,7 +33,7 @@ export function resolveStopCanonicalId(
     const entityId = normalizeBookEntityId(stop);
     if (!entityId) return null;
     const slug = resolveBookSlugFromEntityId(entityId);
-    const canonicalSlug = resolveBookCanonicalSlug(slug, [...catalogBooks]) ?? slug;
+    const canonicalSlug = resolveBookCanonicalSlug(slug, books) ?? slug;
     return (
       index.resolveCanonicalId(entityId) ??
       index.resolveCanonicalId(canonicalSlug) ??
@@ -51,10 +51,10 @@ export function trailReferencesCanonicalId(
   trail: TrailDefinition,
   canonicalId: string,
   index: GraphIndex,
-  catalogBooks: readonly CatalogBook[],
+  books: readonly Book[],
 ): boolean {
   return trail.pathStops.some((stop) => {
-    const resolved = resolveStopCanonicalId(stop, index, catalogBooks);
+    const resolved = resolveStopCanonicalId(stop, index, books);
     return resolved === canonicalId;
   });
 }
@@ -62,47 +62,41 @@ export function trailReferencesCanonicalId(
 export function findPublishedTrailsForEntity(input: {
   canonicalId: string;
   index: GraphIndex;
-  catalogBooks: readonly CatalogBook[];
+  books: readonly Book[];
   limit?: number;
 }): TrailDefinition[] {
-  const { canonicalId, index, catalogBooks, limit = 3 } = input;
+  const { canonicalId, index, books, limit = 3 } = input;
 
   return getPublishedTrails()
-    .filter((trail) => trailReferencesCanonicalId(trail, canonicalId, index, catalogBooks))
+    .filter((trail) => trailReferencesCanonicalId(trail, canonicalId, index, books))
     .slice(0, limit);
 }
 
 function resolvePathStopCanonicalIds(
   stops: readonly PathStopInput[],
   index: GraphIndex,
-  catalogBooks: readonly CatalogBook[],
+  books: readonly Book[],
 ): string[] {
   return stops
-    .map((stop) => resolveStopCanonicalId(stop, index, catalogBooks))
+    .map((stop) => resolveStopCanonicalId(stop, index, books))
     .filter((id): id is string => Boolean(id));
 }
 
 export function findPublishedTrailsForQuestion(input: {
   question: QuestionDefinition;
   index: GraphIndex;
-  catalogBooks: readonly CatalogBook[];
+  books: readonly Book[];
   limit?: number;
   overlapMax?: number;
 }): TrailDefinition[] {
-  const {
-    question,
-    index,
-    catalogBooks,
-    limit = 3,
-    overlapMax = QUESTION_TRAIL_OVERLAP_MAX,
-  } = input;
+  const { question, index, books, limit = 3, overlapMax = QUESTION_TRAIL_OVERLAP_MAX } = input;
 
-  const questionStopIds = resolvePathStopCanonicalIds(question.pathStops, index, catalogBooks);
+  const questionStopIds = resolvePathStopCanonicalIds(question.pathStops, index, books);
   if (questionStopIds.length === 0) return [];
 
   const ranked = getPublishedTrails()
     .map((trail) => {
-      const trailStopIds = resolvePathStopCanonicalIds(trail.pathStops, index, catalogBooks);
+      const trailStopIds = resolvePathStopCanonicalIds(trail.pathStops, index, books);
       const overlap = pathOverlapRatio(questionStopIds, trailStopIds);
       return { trail, overlap };
     })

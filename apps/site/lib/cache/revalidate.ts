@@ -1,10 +1,9 @@
 import { timingSafeEqual } from "node:crypto";
 
-import { refreshBooksCatalog } from "@/lib/books/manifest";
 import { refreshPodcastRss } from "@/lib/podcast/rss";
 import { refreshSemanticGraph } from "@/lib/graph/manifest";
 
-export const CACHE_REVALIDATE_TARGETS = ["podcast", "semantic", "books"] as const;
+export const CACHE_REVALIDATE_TARGETS = ["podcast", "semantic"] as const;
 
 export type CacheRevalidateTarget = (typeof CACHE_REVALIDATE_TARGETS)[number];
 
@@ -39,7 +38,6 @@ export function parseCacheRevalidateTargets(raw: unknown): CacheRevalidateTarget
     return null;
   }
 
-  // Bound array work for oversized payloads
   if (raw.length > CACHE_REVALIDATE_TARGETS.length) {
     return null;
   }
@@ -61,8 +59,6 @@ export function revalidateCacheTargets(targets: CacheRevalidateTarget[]): void {
       refreshPodcastRss();
     } else if (target === "semantic") {
       refreshSemanticGraph();
-    } else if (target === "books") {
-      refreshBooksCatalog();
     }
   }
 }

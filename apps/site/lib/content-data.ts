@@ -1,52 +1,36 @@
-import contributorsData from "@/data/contributors.json";
-import { getBooksCatalogCached } from "@/lib/books/manifest";
+import { deriveFeaturedBookSlug, resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
+import { findBookBySlug } from "@/lib/books/book-metadata";
+import { getSemanticGraph } from "@/lib/graph/manifest";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { getPodcastEpisodesFromRss } from "@/lib/podcast/rss";
-import type {
-  Book,
-  BooksCatalogManifest,
-  Contributor,
-  OngoingWork,
-  PodcastEpisode,
-} from "@/types/content";
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
-
-async function loadMergedCatalog(): Promise<BooksCatalogManifest> {
-  return getBooksCatalogCached();
-}
-
-export async function getBooksCatalog(): Promise<BooksCatalogManifest> {
-  return loadMergedCatalog();
-}
+import type { BookStatus, Contributor, OngoingWork, PodcastEpisode } from "@/types/content";
+import type { Book } from "@/types/semanticGraph";
+import contributorsData from "@/data/contributors.json";
 
 export async function getBooks(): Promise<Book[]> {
-  return (await loadMergedCatalog()).books;
+  const graph = await getSemanticGraph();
+  return graph.books;
 }
 
-export async function getFeaturedCatalogBook(): Promise<Book | undefined> {
-  const { featuredSlug, books } = await loadMergedCatalog();
+export async function getFeaturedBook(): Promise<Book | undefined> {
+  const books = await getBooks();
+  const featuredSlug = deriveFeaturedBookSlug(books);
   return books.find((b) => b.slug === featuredSlug);
 }
 
-/** Library grid: all catalog entries except the featured spotlight title */
-export async function getCatalogLibraryBooks(): Promise<Book[]> {
-  const { featuredSlug, books } = await loadMergedCatalog();
-  return books.filter((b) => b.slug !== featuredSlug);
-}
-
+/** @deprecated No separate books manifest — ongoing works may ship on semantic manifest later. */
 export async function getOngoingWorks(): Promise<OngoingWork[]> {
-  const catalog = await getBooksCatalogCached();
-  return catalog.ongoingWorks ?? [];
+  return [];
 }
 
 export async function getBookBySlug(slug: string): Promise<Book | undefined> {
-  const books = (await loadMergedCatalog()).books;
+  const books = await getBooks();
   const canonical = resolveBookCanonicalSlug(slug, books);
-  if (canonical === undefined) return undefined;
+  if (canonical === undefined) return findBookBySlug(slug, books);
   return books.find((b) => b.slug === canonical);
 }
 
-/** Canonical on-site URL for a catalog book in explore. */
+/** Canonical on-site URL for a book in explore. */
 export function getBookDetailHref(slug: string): string {
   return `${explorePaths.books}/${slug}`;
 }
@@ -69,3 +53,6 @@ export async function getEpisodeBySlug(slug: string): Promise<PodcastEpisode | u
 export function getContributors(): Contributor[] {
   return contributorsData.contributors as Contributor[];
 }
+
+/** Re-export for path validation that checks published status. */
+export type { BookStatus };

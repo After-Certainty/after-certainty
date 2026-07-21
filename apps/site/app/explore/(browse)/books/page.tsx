@@ -1,48 +1,114 @@
 import type { Metadata } from "next";
+
+import { BooksCatalogAnalytics } from "@/components/books/books-catalog-analytics";
+import { BooksCatalogControls } from "@/components/books/books-catalog-controls";
+import { BooksShelfSection } from "@/components/books/books-shelf-section";
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
-import { BookCard } from "@/components/explore/book-card";
 import { Section } from "@/components/ui/section";
-import { booksSortedForExploreIndex } from "@/lib/explore/explore-books-order";
-import {
-  buildCoverImageBySlugLookup,
-  resolveCoverForGraphBookSlug,
-} from "@/lib/explore/graph-book-covers";
+import { applyCatalogQuery, buildFilterOptions } from "@/lib/books/catalog-query";
+import { buildCatalogViewModel } from "@/lib/books/catalog-view-model";
+import { hasActiveCatalogFilters, parseCatalogUrlState } from "@/lib/books/catalog-url-state";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = createPageMetadata({
-  title: "Books",
-  description: "Books in the After Certainty semantic graph — traverse concepts, patterns, and thinkers anchored to each volume.",
-});
+type BooksPageProps = {
+  searchParams?: Promise<{
+    shelf?: string;
+    type?: string;
+    status?: string;
+    availability?: string;
+    sort?: string;
+    q?: string;
+    editions?: string;
+  }>;
+};
 
-export default async function ExploreBooksIndexPage() {
-  const { graph, catalogBooks } = await getExploreSemanticGraph();
-  const coverLookup = buildCoverImageBySlugLookup(catalogBooks);
-  const books = booksSortedForExploreIndex(graph.books);
+export default async function ExploreBooksIndexPage({ searchParams }: BooksPageProps) {
+  const { graph } = await getExploreSemanticGraph();
+  const viewModel = buildCatalogViewModel(graph);
+  const urlState = parseCatalogUrlState(searchParams ? await searchParams : {});
+  const { shelves, results, showShelfSections } = applyCatalogQuery(viewModel, urlState);
+  const filterOptions = buildFilterOptions(viewModel);
+  const filteredView = hasActiveCatalogFilters(urlState);
+
+  const featuredShelfSections = shelves.filter(
+    ({ shelf }) => shelf.featured && shelf.slug !== "start-here",
+  );
+  const startHereSection = shelves.find(({ shelf }) => shelf.slug === "start-here");
 
   return (
     <article>
+      <BooksCatalogAnalytics />
       <ExploreIndexHero
-        eyebrow="Volumes"
+        eyebrow="Library"
         title="Books"
         headingId="explore-books-heading"
-        lede="Each book is a traversal through shared terrain — concepts, patterns, and voices woven into one manuscript."
+        lede="A reading library, not a database — curated shelves and a complete catalog for moving through the project at your own pace."
       />
-      <Section atmosphere="transition" className="border-t border-border/25 py-14 md:py-20">
-        {books.length === 0 ? (
-          <p className="text-muted">No books are linked in the semantic manifest yet.</p>
-        ) : (
-          <div className="grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
-            {books.map((b) => (
-              <BookCard
-                key={b.id}
-                book={b}
-                coverImage={resolveCoverForGraphBookSlug(coverLookup, catalogBooks, b.slug) ?? b.coverImage}
-              />
-            ))}
-          </div>
-        )}
+
+      {showShelfSections && startHereSection ? (
+        <BooksShelfSection
+          shelf={startHereSection.shelf}
+          books={startHereSection.books}
+          totalCount={startHereSection.totalCount}
+          showViewAll={false}
+        />
+      ) : null}
+
+      {showShelfSections
+        ? featuredShelfSections.map(({ shelf, books, totalCount }) => (
+            <BooksShelfSection key={shelf.id} shelf={shelf} books={books} totalCount={totalCount} />
+          ))
+        : null}
+
+      <Section
+        atmosphere="transition"
+        className="border-t border-border/25 py-14 md:py-20"
+        aria-labelledby="books-catalog-heading"
+      >
+        <div className="space-y-3">
+          <h2
+            id="books-catalog-heading"
+            className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl"
+          >
+            {filteredView ? "Filtered catalog" : "Complete catalog"}
+          </h2>
+          <p className="max-w-2xl text-muted">
+            {filteredView
+              ? "Refine by shelf, type, availability, or title search. Share the URL to preserve your view."
+              : "Every published volume — filter, sort, or search when you know what you are looking for."}
+          </p>
+        </div>
+        <div className="mt-10">
+          <BooksCatalogControls
+            initialState={urlState}
+            results={results}
+            filterOptions={filterOptions}
+          />
+        </div>
       </Section>
     </article>
   );
+}
+
+export async function generateMetadata({ searchParams }: BooksPageProps): Promise<Metadata> {
+  const base = createPageMetadata({
+    title: "Books",
+    description:
+      "Browse the After Certainty library by shelf — start here, core volumes, trust, systems, fiction, and the complete catalog.",
+  });
+
+  const sp = searchParams ? await searchParams : {};
+  const hasFilters = Boolean(
+    sp.shelf || sp.type || sp.status || sp.availability || sp.q || sp.sort || sp.editions,
+  );
+
+  if (!hasFilters) return base;
+
+  return {
+    ...base,
+    alternates: {
+      canonical: "/explore/books",
+    },
+  };
 }

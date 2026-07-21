@@ -9,7 +9,7 @@ export async function getEnrichedTrailsForEntity(input: {
   canonicalId: string;
   limit?: number;
 }): Promise<EnrichedTrail[]> {
-  const [{ graph, catalogBooks }, podcastEpisodes] = await Promise.all([
+  const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
@@ -17,9 +17,9 @@ export async function getEnrichedTrailsForEntity(input: {
   const trails = findPublishedTrailsForEntity({
     canonicalId: input.canonicalId,
     index,
-    catalogBooks,
+    books: graph.books,
     limit: input.limit ?? 3,
   });
 
-  return enrichTrails(trails, graph, catalogBooks, podcastEpisodes);
+  return enrichTrails(trails, graph, podcastEpisodes);
 }

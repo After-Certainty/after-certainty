@@ -1,10 +1,10 @@
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
+import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
+import { findBookBySlug } from "@/lib/books/book-metadata";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex, graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { enrichPathStops, totalEstimatedMinutes } from "@/lib/paths/enrichStop";
 import { resolveBookSlugFromEntityId } from "@/lib/paths/validateStop";
-import { findCatalogBookForSlug } from "@/lib/search/buildSearchDocuments";
-import type { Book as CatalogBook, PodcastEpisode } from "@/types/content";
+import type { PodcastEpisode } from "@/types/content";
 import type { EnrichedTrail, TrailDefinition } from "@/types/trails";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
@@ -17,51 +17,50 @@ function titleForGraphNode(index: GraphIndex, canonicalId: string): string {
 function enrichPrimaryBook(
   trail: TrailDefinition,
   index: GraphIndex,
-  catalogBooks: readonly CatalogBook[],
+  graph: SemanticGraph,
 ): Pick<EnrichedTrail, "primaryBookTitle" | "primaryBookHref" | "primaryBookCover"> {
   if (!trail.primaryBookId) {
     return {};
   }
 
+  const books = graph.books;
   const slug = resolveBookSlugFromEntityId(trail.primaryBookId);
-  const canonicalSlug = resolveBookCanonicalSlug(slug, [...catalogBooks]) ?? slug;
-  const catalogBook = findCatalogBookForSlug(canonicalSlug, catalogBooks);
+  const canonicalSlug = resolveBookCanonicalSlug(slug, books) ?? slug;
+  const graphBook = findBookBySlug(canonicalSlug, books);
   const resolvedId =
     index.resolveCanonicalId(canonicalSlug) ??
     index.resolveCanonicalId(trail.primaryBookId) ??
     trail.primaryBookId;
 
   return {
-    primaryBookTitle: catalogBook?.title ?? titleForGraphNode(index, resolvedId),
+    primaryBookTitle: graphBook?.title ?? titleForGraphNode(index, resolvedId),
     primaryBookHref: `${explorePaths.books}/${canonicalSlug}`,
-    primaryBookCover: catalogBook?.coverImage ?? undefined,
+    primaryBookCover: graphBook?.coverImage ?? undefined,
   };
 }
 
 export function enrichTrail(
   trail: TrailDefinition,
   graph: SemanticGraph,
-  catalogBooks: readonly CatalogBook[],
   podcastEpisodes: readonly PodcastEpisode[],
 ): EnrichedTrail {
   const index = buildGraphIndex(graph);
-  const pathStopsEnriched = enrichPathStops(trail.pathStops, index, catalogBooks, podcastEpisodes);
+  const pathStopsEnriched = enrichPathStops(trail.pathStops, index, graph.books, podcastEpisodes);
 
   return {
     ...trail,
     pathStopsEnriched,
     totalEstimatedMinutes: totalEstimatedMinutes(pathStopsEnriched),
-    ...enrichPrimaryBook(trail, index, catalogBooks),
+    ...enrichPrimaryBook(trail, index, graph),
   };
 }
 
 export function enrichTrails(
   trails: TrailDefinition[],
   graph: SemanticGraph,
-  catalogBooks: readonly CatalogBook[],
   podcastEpisodes: readonly PodcastEpisode[],
 ): EnrichedTrail[] {
-  return trails.map((t) => enrichTrail(t, graph, catalogBooks, podcastEpisodes));
+  return trails.map((t) => enrichTrail(t, graph, podcastEpisodes));
 }
 
 export function buildTrailSearchHandoffUrl(trail: TrailDefinition): string {

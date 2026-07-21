@@ -1,4 +1,5 @@
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
+import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
+import { bookPublicationStatus, findBookBySlug } from "@/lib/books/book-metadata";
 import { exploreHrefForCanonicalId, explorePaths } from "@/lib/graph/explorePaths";
 import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
@@ -7,9 +8,9 @@ import {
   normalizeBookEntityId,
   resolveBookSlugFromEntityId,
 } from "@/lib/paths/validateStop";
-import { findCatalogBookForSlug } from "@/lib/search/buildSearchDocuments";
-import type { Book as CatalogBook, PodcastEpisode } from "@/types/content";
+import type { PodcastEpisode } from "@/types/content";
 import type { EnrichedPathStop, PathStopInput } from "@/types/paths";
+import type { Book } from "@/types/semanticGraph";
 
 const DEFAULT_MINUTES: Record<string, number> = {
   book: 25,
@@ -36,7 +37,7 @@ function titleForGraphNode(index: GraphIndex, canonicalId: string): string {
 export function enrichStop(
   stop: PathStopInput,
   index: GraphIndex,
-  catalogBooks: readonly CatalogBook[],
+  books: readonly Book[],
   podcastEpisodes: readonly PodcastEpisode[],
 ): EnrichedPathStop {
   const minutes = stop.estimatedMinutes ?? defaultMinutesForType(stop.entityType);
@@ -72,25 +73,25 @@ export function enrichStop(
   if (stop.entityType === "book") {
     const entityId = normalizeBookEntityId(stop) ?? stop.entityId ?? "";
     const slug = resolveBookSlugFromEntityId(entityId);
-    const canonicalSlug = resolveBookCanonicalSlug(slug, [...catalogBooks]) ?? slug;
+    const canonicalSlug = resolveBookCanonicalSlug(slug, books) ?? slug;
     const resolvedId =
       index.resolveCanonicalId(canonicalSlug) ??
       index.resolveCanonicalId(slug) ??
       index.resolveCanonicalId(entityId) ??
       entityId;
     const href = `${explorePaths.books}/${canonicalSlug}`;
-    const catalogBook = findCatalogBookForSlug(canonicalSlug, catalogBooks);
+    const graphBook = findBookBySlug(canonicalSlug, books);
     const graphTitle = titleForGraphNode(index, resolvedId);
     return {
       ...stop,
       resolvedEntityId: resolvedId,
-      title: stop.titleOverride ?? catalogBook?.title ?? graphTitle,
+      title: stop.titleOverride ?? graphBook?.title ?? graphTitle,
       href,
       external: false,
       entityTypeLabel: entityTypeLabel(stop.entityType),
       estimatedMinutes: minutes,
-      bookStatus: catalogBook?.status,
-      coverImage: catalogBook?.coverImage,
+      bookStatus: graphBook ? bookPublicationStatus(graphBook) : undefined,
+      coverImage: graphBook?.coverImage,
     };
   }
 
@@ -112,12 +113,12 @@ export function enrichStop(
 export function enrichPathStops(
   stops: PathStopInput[],
   index: GraphIndex,
-  catalogBooks: readonly CatalogBook[],
+  books: readonly Book[],
   podcastEpisodes: readonly PodcastEpisode[],
 ): EnrichedPathStop[] {
   return [...stops]
     .sort((a, b) => a.position - b.position)
-    .map((stop) => enrichStop(stop, index, catalogBooks, podcastEpisodes));
+    .map((stop) => enrichStop(stop, index, books, podcastEpisodes));
 }
 
 export function totalEstimatedMinutes(stops: EnrichedPathStop[]): number {

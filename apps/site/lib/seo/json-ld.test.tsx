@@ -1,7 +1,6 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { render } from "@testing-library/react";
 
-import type { Book as CatalogBook } from "@/types/content";
 import type { Book, GlossaryConcept, Pattern, Source, Thinker } from "@/types/semanticGraph";
 
 describe("json-ld builders", () => {
@@ -30,17 +29,10 @@ describe("json-ld builders", () => {
     summary: "A practice volume on judgment without false certainty.",
     coverImage: "https://cdn.example/cover.png",
     isbns: ["9781234567890"],
+    authors: ["Kevin Steffensen"],
+    year: 2026,
     purchaseLinks: [{ retailer: "amazon", url: "https://amazon.com/dp/example" }],
     epub: { enabled: true, file: "after-certainty.epub", url: "https://cdn.example/book.epub" },
-  };
-
-  const sampleCatalogBook: CatalogBook = {
-    slug: "after-certainty",
-    title: "After Certainty",
-    description: "Catalog description",
-    status: "published",
-    year: 2026,
-    authors: ["Kevin Steffensen"],
   };
 
   const sampleConcept: GlossaryConcept = {
@@ -128,11 +120,10 @@ describe("json-ld builders", () => {
     expect(absoluteUrl("https://cdn.example/cover.png")).toBe("https://cdn.example/cover.png");
   });
 
-  it("builds Book JSON-LD with catalog authors and offers", async () => {
+  it("builds Book JSON-LD with authors and offers", async () => {
     const { buildBookJsonLd } = await loadJsonLd();
     const node = buildBookJsonLd({
       book: sampleBook,
-      catalogBook: sampleCatalogBook,
       pageUrl: "https://example.com/explore/books/after-certainty",
     });
 
@@ -515,7 +506,6 @@ describe("json-ld builders", () => {
     const { buildBookPageJsonLd } = await loadJsonLd();
     const nodes = buildBookPageJsonLd({
       book: sampleBook,
-      catalogBook: sampleCatalogBook,
       breadcrumbs,
     });
 

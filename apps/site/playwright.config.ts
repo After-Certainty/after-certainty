@@ -3,7 +3,6 @@ import { defineConfig, devices } from "@playwright/test";
 const baseURL = "http://127.0.0.1:3000";
 
 const offlineServerEnv = {
-  BOOKS_MANIFEST_OFFLINE: "1",
   SEMANTIC_MANIFEST_OFFLINE: "1",
   NEXT_PUBLIC_SITE_URL: baseURL,
 };

@@ -11,27 +11,27 @@ import {
 import type { EnrichedTrail } from "@/types/trails";
 
 export async function getEnrichedPublishedTrails(): Promise<EnrichedTrail[]> {
-  const [{ graph, catalogBooks }, podcastEpisodes] = await Promise.all([
+  const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichTrails(getPublishedTrails(), graph, catalogBooks, podcastEpisodes);
+  return enrichTrails(getPublishedTrails(), graph, podcastEpisodes);
 }
 
 export async function getEnrichedUpcomingTrails(): Promise<EnrichedTrail[]> {
-  const [{ graph, catalogBooks }, podcastEpisodes] = await Promise.all([
+  const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichTrails(getUpcomingTrails(), graph, catalogBooks, podcastEpisodes);
+  return enrichTrails(getUpcomingTrails(), graph, podcastEpisodes);
 }
 
 export async function getEnrichedFeaturedTrails(limit = 3): Promise<EnrichedTrail[]> {
-  const [{ graph, catalogBooks }, podcastEpisodes] = await Promise.all([
+  const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichTrails(getFeaturedTrails(limit), graph, catalogBooks, podcastEpisodes);
+  return enrichTrails(getFeaturedTrails(limit), graph, podcastEpisodes);
 }
 
 export async function getEnrichedTrailBySlug(slug: string): Promise<EnrichedTrail | undefined> {
@@ -40,17 +40,17 @@ export async function getEnrichedTrailBySlug(slug: string): Promise<EnrichedTrai
     return undefined;
   }
 
-  const [{ graph, catalogBooks }, podcastEpisodes] = await Promise.all([
+  const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichTrail(trail, graph, catalogBooks, podcastEpisodes);
+  return enrichTrail(trail, graph, podcastEpisodes);
 }
 
 export async function getEnrichedBrowsableTrails(): Promise<EnrichedTrail[]> {
-  const [{ graph, catalogBooks }, podcastEpisodes] = await Promise.all([
+  const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichTrails(getBrowsableTrails(), graph, catalogBooks, podcastEpisodes);
+  return enrichTrails(getBrowsableTrails(), graph, podcastEpisodes);
 }

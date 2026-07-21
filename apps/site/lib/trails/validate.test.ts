@@ -1,8 +1,6 @@
 import semanticManifest from "@/data/semantic-manifest.json";
-import booksManifest from "@/data/books-manifest.json";
 import podcastEpisodes from "@/data/podcast-episodes.json";
 import trailsManifest from "@/data/trails-manifest.json";
-import { getBooksCatalogCached } from "@/lib/books/manifest";
 import { getSemanticGraph } from "@/lib/graph/manifest";
 import { parseTrailsManifest } from "@/lib/trails/schema";
 import { assertTrailsManifestHealthy, collectTrailHealthReport } from "@/lib/trails/validate";
@@ -10,16 +8,14 @@ import type { SemanticGraph } from "@/types/semanticGraph";
 import { describe, expect, it } from "vitest";
 
 describe("trails manifest health", () => {
-  it("passes validation against bundled semantic graph and catalog", async () => {
+  it("passes validation against bundled semantic graph", async () => {
     const manifest = parseTrailsManifest(trailsManifest);
     const graph = (await getSemanticGraph()) as SemanticGraph;
-    const catalog = await getBooksCatalogCached();
 
     expect(() =>
       assertTrailsManifestHealthy({
         manifest,
         graph,
-        catalogBooks: catalog.books,
         podcastEpisodes: podcastEpisodes.episodes,
       }),
     ).not.toThrow();
@@ -40,7 +36,6 @@ describe("trails manifest health", () => {
     const report = collectTrailHealthReport({
       manifest,
       graph: semanticManifest as SemanticGraph,
-      catalogBooks: booksManifest.books,
       podcastEpisodes: podcastEpisodes.episodes,
     });
     expect(report.errors).toEqual([]);

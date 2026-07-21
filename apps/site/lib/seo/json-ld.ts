@@ -1,4 +1,3 @@
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
 import fallbackSemantic from "@/data/semantic-manifest.json";
 import type { GraphIndex } from "@/lib/graph/graph";
 import { explorePaths } from "@/lib/graph/explorePaths";
@@ -8,7 +7,7 @@ import {
   resolveSiteSocialLinks,
   siteConfig,
 } from "@/lib/site-config";
-import type { Book as CatalogBook, PodcastEpisode } from "@/types/content";
+import type { PodcastEpisode } from "@/types/content";
 import type {
   Book as SemanticBook,
   GlossaryConcept,
@@ -182,22 +181,10 @@ function formatEncodings(book: SemanticBook): JsonLdNode[] {
   return encodings;
 }
 
-export function resolveCatalogBookForSemanticBook(
-  book: SemanticBook,
-  catalogBooks: CatalogBook[],
-): CatalogBook | undefined {
-  const canonical = resolveBookCanonicalSlug(book.slug, catalogBooks) ?? book.slug;
-  return catalogBooks.find((b) => b.slug === canonical);
-}
-
-export function buildBookJsonLd(params: {
-  book: SemanticBook;
-  catalogBook?: CatalogBook;
-  pageUrl: string;
-}): JsonLdNode {
-  const { book, catalogBook, pageUrl } = params;
+export function buildBookJsonLd(params: { book: SemanticBook; pageUrl: string }): JsonLdNode {
+  const { book, pageUrl } = params;
   const image = book.openGraphImage ?? book.coverImage;
-  const authors = catalogBook?.authors ?? [];
+  const authors = book.authors ?? [];
   const encodings = formatEncodings(book);
 
   const offers =
@@ -220,7 +207,7 @@ export function buildBookJsonLd(params: {
     image: image ? absoluteUrl(image) : undefined,
     isbn: book.isbns?.length === 1 ? book.isbns[0] : book.isbns,
     author: authors.length > 0 ? personNodes(authors) : undefined,
-    datePublished: catalogBook?.year ? String(catalogBook.year) : undefined,
+    datePublished: book.publicationDate ?? (book.year ? String(book.year) : undefined),
     publisher: organizationPublisher(),
     license: siteConfig.license.url,
     offers: offers.length > 0 ? offers : undefined,
@@ -520,7 +507,6 @@ export function buildPodcastSeriesJsonLd(params: {
 
 export function buildBookPageJsonLd(params: {
   book: SemanticBook;
-  catalogBook?: CatalogBook;
   breadcrumbs: JsonLdBreadcrumbItem[];
 }): JsonLdNode[] {
   const pageUrl = absoluteUrl(`${explorePaths.books}/${params.book.slug}`);

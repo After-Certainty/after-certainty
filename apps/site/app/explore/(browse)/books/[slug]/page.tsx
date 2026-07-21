@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { notFound, permanentRedirect } from "next/navigation";
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
+import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { JsonLd } from "@/components/seo/json-ld";
 import { ExploreBookMedia } from "@/components/explore/explore-book-media";
@@ -29,7 +29,7 @@ import { relatedContentForBook } from "@/lib/graph/relatedContent";
 import { resolveThinkersForBook } from "@/lib/graph/bookThinkers";
 import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
 import { createPageMetadata } from "@/lib/metadata";
-import { buildBookPageJsonLd, resolveCatalogBookForSemanticBook } from "@/lib/seo/json-ld";
+import { buildBookPageJsonLd } from "@/lib/seo/json-ld";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -57,8 +57,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ExploreBookDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const { graph, catalogBooks } = await getExploreSemanticGraph();
-  const canonicalSlug = resolveBookCanonicalSlug(slug, catalogBooks);
+  const { graph } = await getExploreSemanticGraph();
+  const canonicalSlug = resolveBookCanonicalSlug(slug, graph.books);
   if (canonicalSlug && canonicalSlug !== slug) {
     permanentRedirect(`${explorePaths.books}/${canonicalSlug}`);
   }
@@ -66,9 +66,9 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
   const book = getGraphBookBySlug(index, slug);
   if (!book) notFound();
 
-  const coverLookup = buildCoverImageBySlugLookup(catalogBooks);
+  const coverLookup = buildCoverImageBySlugLookup(graph.books);
   const coverSrc =
-    resolveCoverForGraphBookSlug(coverLookup, catalogBooks, book.slug) ?? book.coverImage;
+    resolveCoverForGraphBookSlug(coverLookup, graph.books, book.slug) ?? book.coverImage;
 
   const related = relatedContentForBook(index, book);
   const bookThinkerContent = resolveThinkersForBook(index, book, graph);
@@ -94,14 +94,12 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
     { label: "Books", href: explorePaths.books },
     { label: book.title },
   ];
-  const catalogBook = resolveCatalogBookForSemanticBook(book, catalogBooks);
 
   return (
     <article>
       <JsonLd
         data={buildBookPageJsonLd({
           book,
-          catalogBook,
           breadcrumbs: bookBreadcrumbs,
         })}
       />

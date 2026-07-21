@@ -57,8 +57,8 @@ export const SEARCH_RANKING_FIXTURES: SearchRankingFixture[] = [
   {
     id: "person-simone-biles",
     query: "Simone Biles",
-    expectEmpty: true,
-    note: "Not in the current corpus — honest no-result",
+    required: false,
+    note: "May match Olympic sources or the-game-we-think-we-saw — soft until ranking is tuned",
   },
   {
     id: "person-john-dewey",

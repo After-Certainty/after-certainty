@@ -58,6 +58,14 @@ const optionalManifestString = z
 
 const optionalManifestUrl = httpUrlSchema.nullish().transform((value) => value ?? undefined);
 
+const bookStatusSchema = z.enum([
+  "published",
+  "forthcoming",
+  "draft",
+  "in_progress",
+  "collaborative",
+]);
+
 const bookSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
@@ -67,8 +75,22 @@ const bookSchema = z.object({
     .string()
     .nullish()
     .transform((value) => value ?? undefined),
+  description: z
+    .string()
+    .nullish()
+    .transform((value) => value ?? undefined),
   coverImage: optionalManifestString,
   openGraphImage: optionalManifestUrl,
+  status: bookStatusSchema.optional(),
+  authors: z.array(z.string().min(1)).optional(),
+  year: z.number().int().optional(),
+  publicationDate: z
+    .string()
+    .nullish()
+    .transform((value) => value ?? undefined),
+  slugAliases: z.array(z.string().min(1)).optional(),
+  companionBooks: z.array(z.string().min(1)).optional(),
+  companionOf: z.string().min(1).optional(),
   concepts: stringList,
   patterns: stringList,
   sources: stringList,

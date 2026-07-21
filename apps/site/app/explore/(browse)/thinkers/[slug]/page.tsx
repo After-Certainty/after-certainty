@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ExploreThinkerDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const { graph, catalogBooks } = await getExploreSemanticGraph();
+  const { graph } = await getExploreSemanticGraph();
   const thinker = getThinkerBySlug(graph, slug);
   if (!thinker) notFound();
 
@@ -117,7 +117,7 @@ export default async function ExploreThinkerDetailPage({ params }: PageProps) {
             <RelatedContentGrid
               heading="Related books"
               books={related.books}
-              catalogBooksForBookCovers={catalogBooks}
+              booksForCovers={graph.books}
             />
           </div>
         </Section>

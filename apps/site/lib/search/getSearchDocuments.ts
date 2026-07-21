@@ -12,14 +12,13 @@ import type { SearchDocument } from "@/lib/search/types";
  * Cached per request via React `cache()`.
  */
 export const getSearchDocuments = cache(async (): Promise<SearchDocument[]> => {
-  const [{ graph, catalogBooks }, podcastEpisodes] = await Promise.all([
+  const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
 
   return buildSearchDocuments({
     graph,
-    catalogBooks,
     podcastEpisodes,
     aliasConfig: getSearchAliasConfig(),
   });

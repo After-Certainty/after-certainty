@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function ExploreSituationDetailPage({ params }: PageProps) {
   const { slug } = await params;
-  const { graph, catalogBooks } = await getExploreSemanticGraph();
+  const { graph } = await getExploreSemanticGraph();
   const index = buildGraphIndex(graph);
   const situation = getSituationBySlug(index, slug);
   if (!situation) notFound();
@@ -113,7 +113,7 @@ export default async function ExploreSituationDetailPage({ params }: PageProps) 
             <RelatedContentGrid
               heading="Related books"
               books={related.books}
-              catalogBooksForBookCovers={catalogBooks}
+              booksForCovers={graph.books}
             />
           </div>
         </Section>

@@ -11,12 +11,15 @@ import { explorePaths } from "@/lib/graph/explorePaths";
 import { FRONT_SHELF_ENTRIES, FRONT_SHELF_INTRO } from "@/lib/start/front-shelf";
 
 export async function StartFrontShelf() {
-  const { graph, catalogBooks } = await getExploreSemanticGraph();
+  const { graph } = await getExploreSemanticGraph();
   const booksBySlug = new Map(graph.books.map((book) => [book.slug, book]));
-  const coverLookup = buildCoverImageBySlugLookup(catalogBooks);
+  const coverLookup = buildCoverImageBySlugLookup(graph.books);
 
   return (
-    <Section atmosphere="none" className="border-b border-border/35 bg-bg-elevated/[0.06] py-24 md:py-32">
+    <Section
+      atmosphere="none"
+      className="border-b border-border/35 bg-bg-elevated/[0.06] py-24 md:py-32"
+    >
       <Container>
         <h2 className="max-w-xl font-display text-3xl font-medium tracking-tight text-fg md:text-4xl">
           Front Shelf
@@ -27,7 +30,7 @@ export async function StartFrontShelf() {
             const book = booksBySlug.get(entry.slug);
             const title = book?.title ?? entry.slug;
             const coverSrc =
-              resolveCoverForGraphBookSlug(coverLookup, catalogBooks, entry.slug) ??
+              resolveCoverForGraphBookSlug(coverLookup, graph.books, entry.slug) ??
               book?.coverImage ??
               null;
             const href = `${explorePaths.books}/${entry.slug}`;

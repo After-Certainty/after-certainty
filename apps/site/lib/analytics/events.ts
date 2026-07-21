@@ -134,6 +134,33 @@ export type TrailSearchHandoffParams = {
   trail_id: string;
 };
 
+export type BooksCatalogViewParams = Record<string, never>;
+
+export type BooksShelfSelectParams = {
+  shelf_id: string;
+};
+
+export type BooksFilterParams = {
+  dimension: string;
+};
+
+export type BooksSortChangeParams = {
+  sort: string;
+};
+
+export type BooksSearchParams = {
+  query_length_bucket: string;
+};
+
+export type BooksCardSelectParams = {
+  book_id: string;
+  location: string;
+};
+
+export type BooksStartHereSelectParams = {
+  book_id: string;
+};
+
 export const AnalyticsEvents = {
   selectContent: "select_content",
   fileDownload: "file_download",
@@ -161,6 +188,16 @@ export const AnalyticsEvents = {
   trailContinueBook: "trail_continue_book",
   trailSearchHandoff: "trail_search_handoff",
   trailObservatoryPathway: "trail_observatory_pathway",
+  booksCatalogView: "books_catalog_view",
+  booksShelfSelect: "books_shelf_select",
+  booksFilterApply: "books_filter_apply",
+  booksFilterRemove: "books_filter_remove",
+  booksFiltersReset: "books_filters_reset",
+  booksSortChange: "books_sort_change",
+  booksSearch: "books_search",
+  booksCardSelect: "books_card_select",
+  booksNoMatch: "books_no_match",
+  booksStartHereSelect: "books_start_here_select",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];

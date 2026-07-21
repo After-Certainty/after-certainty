@@ -1,6 +1,6 @@
-import { resolveBookCanonicalSlug } from "@/lib/books/generated-manifest";
+import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import type { GraphIndex } from "@/lib/graph/graph";
-import type { Book } from "@/types/content";
+import type { Book } from "@/types/semanticGraph";
 import type { GraphEntityKind } from "@/types/semanticGraph";
 
 const FOCUS_KINDS = new Set<GraphEntityKind>([
@@ -23,7 +23,7 @@ export function resolveExploreFocusCanonicalId(
   index: GraphIndex,
   kind: GraphEntityKind,
   slug: string,
-  catalogBooks?: Book[],
+  books?: Book[],
 ): string | null {
   const s = slug.trim();
   if (!s) return null;
@@ -39,8 +39,8 @@ export function resolveExploreFocusCanonicalId(
     case "book": {
       const direct = index.bookBySlug.get(s)?.id;
       if (direct) return direct;
-      if (catalogBooks?.length) {
-        const canonical = resolveBookCanonicalSlug(s, catalogBooks) ?? s;
+      if (books?.length) {
+        const canonical = resolveBookCanonicalSlug(s, books) ?? s;
         return index.bookBySlug.get(canonical)?.id ?? null;
       }
       return null;

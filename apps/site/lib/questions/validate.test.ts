@@ -1,7 +1,5 @@
 import semanticManifest from "@/data/semantic-manifest.json";
-import booksManifest from "@/data/books-manifest.json";
 import podcastEpisodes from "@/data/podcast-episodes.json";
-import { getBooksCatalogCached } from "@/lib/books/manifest";
 import { parseQuestionsManifest } from "@/lib/questions/schema";
 import {
   assertQuestionsManifestHealthy,
@@ -13,16 +11,14 @@ import questionsManifest from "@/data/questions-manifest.json";
 import { describe, expect, it } from "vitest";
 
 describe("questions manifest health", () => {
-  it("passes validation against bundled semantic graph and catalog", async () => {
+  it("passes validation against bundled semantic graph", async () => {
     const manifest = parseQuestionsManifest(questionsManifest);
     const graph = (await getSemanticGraph()) as SemanticGraph;
-    const catalog = await getBooksCatalogCached();
 
     expect(() =>
       assertQuestionsManifestHealthy({
         manifest,
         graph,
-        catalogBooks: catalog.books,
         podcastEpisodes: podcastEpisodes.episodes,
       }),
     ).not.toThrow();
@@ -41,7 +37,6 @@ describe("questions manifest health", () => {
     const report = collectQuestionHealthReport({
       manifest,
       graph: semanticManifest as SemanticGraph,
-      catalogBooks: booksManifest.books,
       podcastEpisodes: podcastEpisodes.episodes,
     });
     expect(report.errors).toEqual([]);

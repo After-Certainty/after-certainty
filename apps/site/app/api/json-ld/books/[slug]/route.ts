@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getBookBySlug } from "@/lib/graph/graphQueries";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
-import { buildBookPageJsonLd, resolveCatalogBookForSemanticBook } from "@/lib/seo/json-ld";
+import { buildBookPageJsonLd } from "@/lib/seo/json-ld";
 import { explorePaths } from "@/lib/graph/explorePaths";
 
 type RouteContext = {
@@ -15,15 +15,13 @@ type RouteContext = {
  */
 export async function GET(_request: Request, context: RouteContext) {
   const { slug } = await context.params;
-  const { graph, catalogBooks } = await getExploreSemanticGraph();
+  const { graph } = await getExploreSemanticGraph();
   const index = buildGraphIndex(graph);
   const book = getBookBySlug(index, slug);
 
   if (!book) {
     return NextResponse.json({ error: "Book not found" }, { status: 404 });
   }
-
-  const catalogBook = resolveCatalogBookForSemanticBook(book, catalogBooks);
 
   const bookBreadcrumbs = [
     { label: "Explore", href: explorePaths.home },
@@ -33,7 +31,6 @@ export async function GET(_request: Request, context: RouteContext) {
 
   const jsonLd = buildBookPageJsonLd({
     book,
-    catalogBook,
     breadcrumbs: bookBreadcrumbs,
   });
 

@@ -8,16 +8,15 @@ describe("sitemap", () => {
 
   beforeEach(() => {
     prevSiteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-    prevOffline = process.env.BOOKS_MANIFEST_OFFLINE;
+    prevOffline = process.env.SEMANTIC_MANIFEST_OFFLINE;
     process.env.NEXT_PUBLIC_SITE_URL = "https://example.com";
-    process.env.BOOKS_MANIFEST_OFFLINE = "1";
     process.env.SEMANTIC_MANIFEST_OFFLINE = "1";
   });
 
   afterEach(() => {
     process.env.NEXT_PUBLIC_SITE_URL = prevSiteUrl;
-    process.env.BOOKS_MANIFEST_OFFLINE = prevOffline;
-    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
+    if (prevOffline === undefined) delete process.env.SEMANTIC_MANIFEST_OFFLINE;
+    else process.env.SEMANTIC_MANIFEST_OFFLINE = prevOffline;
   });
 
   it("includes core static routes with the configured origin", async () => {

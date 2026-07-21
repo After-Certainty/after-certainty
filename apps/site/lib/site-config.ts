@@ -18,10 +18,6 @@ export function resolveDeploymentUrl(): string {
 /** Default Anchor RSS — override with `PODCAST_RSS_URL` on the server */
 export const DEFAULT_PODCAST_RSS_URL = "https://anchor.fm/s/1126d00c0/podcast/rss";
 
-/** Generated catalog from the books repo release asset — override with `BOOKS_MANIFEST_URL` */
-export const DEFAULT_BOOKS_MANIFEST_URL =
-  "https://github.com/ksteffe/after-certainty/releases/download/latest/books-manifest.json";
-
 /** Semantic graph manifest from the content repo release — override with `SEMANTIC_MANIFEST_URL` */
 export const DEFAULT_SEMANTIC_MANIFEST_URL =
   "https://github.com/ksteffe/after-certainty/releases/download/latest/semantic-manifest.json";
@@ -35,17 +31,6 @@ export function isSemanticManifestOffline(): boolean {
 export function resolveSemanticManifestUrl(): string {
   const envUrl = process.env.SEMANTIC_MANIFEST_URL?.trim();
   return envUrl && envUrl.length > 0 ? envUrl : DEFAULT_SEMANTIC_MANIFEST_URL;
-}
-
-/** When set to `1`, skip network fetch and use bundled `data/books-manifest.json` only. */
-export function isBooksManifestOffline(): boolean {
-  return process.env.BOOKS_MANIFEST_OFFLINE?.trim() === "1";
-}
-
-/** Resolved manifest URL for server-side fetch (ISR). Empty env uses GitHub `latest` asset. */
-export function resolveBooksManifestUrl(): string {
-  const envUrl = process.env.BOOKS_MANIFEST_URL?.trim();
-  return envUrl && envUrl.length > 0 ? envUrl : DEFAULT_BOOKS_MANIFEST_URL;
 }
 
 /** Resolved podcast RSS for server-side fetch, `<link rel="alternate">`, redirects */
