@@ -1,0 +1,21 @@
+# Tuning for tools/generate_open_graph.py — The World We Make Together
+# Cover: 1055×1491 — deep teal room, golden window light, city beyond
+bg_crop: [280, 420, 1055, 1100]
+tint: [12, 32, 52, 145]
+accent_color: [212, 168, 72]
+title_lines:
+  - text: The World
+    color: white
+  - text: We Make
+    color: white
+  - text: Together
+    color: accent
+subtitle_lines:
+  - HOW ORDINARY PEOPLE, UNEQUAL POWER,
+  - AND SHARED ACTION SHAPE HISTORY
+subtitle_color: accent
+font_title: 44
+font_sub: 15
+title_start_y: 88
+title_line_gap: 52
+rule_width: 380

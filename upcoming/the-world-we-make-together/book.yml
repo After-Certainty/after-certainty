@@ -1,0 +1,21 @@
+# Minimal metadata for tools/generate_open_graph.py (upcoming scaffold; not in export pipeline)
+version: 1
+
+publishing:
+  enabled: false
+
+book:
+  id: the-world-we-make-together
+  title: "The World We Make Together"
+  subtitle: "How Ordinary People, Unequal Power, and Shared Action Shape History"
+  author:
+    name: "Kevin Steffensen"
+    website: "https://after-certainty.com"
+  language: en
+  copyright_year: 2026
+  title_page_cover: book-cover.png
+  open_graph_image: open-graph.png
+
+paths:
+  manuscript: "./index.md"
+  output: "."
