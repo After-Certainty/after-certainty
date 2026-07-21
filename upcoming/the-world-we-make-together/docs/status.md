@@ -25,7 +25,7 @@
 | Unit | Phase | Notes |
 |------|-------|-------|
 | Title page / copyright | draft | Standard front-matter placeholders |
-| Introduction — The Switch | draft | First editorial version; ~2,580 words |
+| Introduction — The Switch | draft | Author-supplied revision; ~2,800 words |
 | book-cover.png / open-graph.png | draft | Cover from Drive; OG via generate_open_graph.py |
 | Part I bridge | outline | Not started |
 | Ch 1 — The Photograph | outline | Do not draft until intro reviewed |
