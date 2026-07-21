@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Through Chapter 7 (The Fence); Bowl and later units still outline**
+**Phase 1 — Part III complete through The Bowl; Part IV+ still outline**
 
 ## Active branch
 
@@ -37,7 +37,7 @@
 | Ch 6 — The Ballot | draft | Author-supplied; SA 1994, Mill, Reynolds; answerability/standing; ends toward Fence |
 | Part III bridge | draft | Author-supplied; Ballot→Fence/Bowl; trust vs love distinction |
 | Ch 7 — The Fence | draft | Author-supplied; Good Friday / Belfast trust across difference; ends toward Bowl |
-| Ch 8 — The Bowl | outline | Distinct from Fence |
+| Ch 8 — The Bowl | draft | Author-supplied; langar + Panther breakfast + Tronto; distinct from Fence; ends toward Scale |
 | Part IV bridge | outline | Not started |
 | Ch 9 — The Scale | outline | Positive compromise argument + two cases |
 | Ch 10 — The Window | outline | Follett; four movements; failed integration |
@@ -46,17 +46,17 @@
 
 ## Next actions
 
-1. Editorial review of Introduction through The Fence.
-2. Citation pass: promote paraphrased Ch 1–7 footnotes to full Chicago bibliography entries.
-3. Draft Chapter 8 — The Bowl (keep distinct from Fence: moral claim / care beyond utility).
+1. Editorial review of Introduction through The Bowl (Parts I–III).
+2. Citation pass: promote paraphrased Ch 1–8 footnotes to full Chicago bibliography entries.
+3. Draft Part IV bridge, then Chapter 9 — The Scale.
 
 ## Open decisions / known issues
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
 - Minimal `book.yml` present for cover/OG fields; publishing still disabled.
-- Ch 1–7 footnotes remain paraphrased — verify GFA primary text, NI DoJ interface program, Pettigrew & Tropp, and prior chapter sources before citation-pass complete.
-- Fence remains distinct from Bowl: trust/risk vs love/moral claim.
+- Ch 1–8 footnotes remain paraphrased — verify langar sources, BPP breakfast / COINTELPRO / USDA / Tronto, and prior chapter sources before citation-pass complete.
+- Bowl kept distinct from Fence: love/moral claim vs trust/relational risk; ending complicates the Scale.
 
 ## Rough scale
 
@@ -70,5 +70,6 @@
 - Chapter 6 words: ~4,250
 - Part III bridge: ~470
 - Chapter 7 words: ~4,200
+- Chapter 8 words: ~5,600
 - Full manuscript target: ~46,000–50,000
-- Last assessed: Chapter 7 author draft (July 2026)
+- Last assessed: Chapter 8 author draft (July 2026)
