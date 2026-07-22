@@ -1,4 +1,4 @@
-![](book-cover.png){ width=100% }
+![The World We Make Together cover](book-cover.png){ width=100% }
 
 \newpage
 
@@ -7,5 +7,3 @@
 ## **How Ordinary People, Unequal Power, and Shared Action Shape History**
 
 **Kevin Steffensen**
-
-\newpage

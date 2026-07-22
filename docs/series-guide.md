@@ -106,6 +106,14 @@ How scientific, philosophical, psychological, and spiritual traditions develop *
 
 **Pair with:** *What We Cannot See* (why perspective is partial) → this book (how practices form knowers) → *After Certainty* (how to live when frameworks fail).
 
+### [The World We Make Together](../books/the-world-we-make-together/index.md)
+
+History is collective, but responsibility remains uneven. Through ordinary objects—a switch, a ballot, a fence, a bowl, a scale—this book examines how people act within structures without becoming either solitary heroes or passive products, and how shared power is built when leverage is unequal.
+
+**Question:** How do ordinary people, unequal power, and shared action shape history?
+
+**Pair with:** *When Others Become Leaders* (what enduring influence leaves behind) → this book (collective causation and power-with) → *After Certainty* (practice under limits).
+
 ---
 
 ## The Thread Running Through All of Them
@@ -135,6 +143,8 @@ For readers building the full argument (conceptual, not prescriptive):
 7. **[When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md)** — Tension  
 8. **[When Incentives Become the Moral Language](../books/when-incentives-become-the-moral-language/index.md)** — Tension  
 9. **[After Certainty](../books/after-certainty/index.md)** — Practice (capstone)
+10. **[Learning to See](../books/learning-to-see/index.md)** — Practice (comparative practices)
+11. **[The World We Make Together](../books/the-world-we-make-together/index.md)** — Practice (collective action)
 
 Several of these are **essay-length** concentrated arguments (~8–13k words), not full-length volumes.
 
@@ -225,6 +235,7 @@ These published titles extend adjacent questions. They are not required for the 
 | Coordination without full ownership | [Why Collaboration Is So Hard](../books/why-collaboration-is-so-hard/index.md) |
 | Compression in public economic speech | [The Economy We Don't Experience](../books/the-economy-we-dont-experience/index.md) |
 | What a decisive sports result leaves unsettled | [The Game We Think We Saw](../books/the-game-we-think-we-saw/index.md) |
+| Collective causation and shared power under unequal leverage | [The World We Make Together](../books/the-world-we-make-together/index.md) |
 
 ---
 
@@ -295,6 +306,7 @@ None currently under `upcoming/` for nonfiction. New scaffolds start from [`upco
 | The Discipline of Uncertainty | [books/the-discipline-of-uncertainty/index.md](../books/the-discipline-of-uncertainty/index.md) |
 | The Economy We Don't Experience | [books/the-economy-we-dont-experience/index.md](../books/the-economy-we-dont-experience/index.md) |
 | The Game We Think We Saw | [books/the-game-we-think-we-saw/index.md](../books/the-game-we-think-we-saw/index.md) |
+| The World We Make Together | [books/the-world-we-make-together/index.md](../books/the-world-we-make-together/index.md) |
 | When Accountability No Longer Expires | [books/when-accountability-no-longer-expires/index.md](../books/when-accountability-no-longer-expires/index.md) |
 | When Authority Is Misread | [books/when-authority-is-misread/index.md](../books/when-authority-is-misread/index.md) |
 | When Authority Outlives Accountability | [books/when-authority-outlives-accountability/index.md](../books/when-authority-outlives-accountability/index.md) |

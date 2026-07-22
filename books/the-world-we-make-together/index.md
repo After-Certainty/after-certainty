@@ -40,3 +40,13 @@
 
 - [Conclusion — The Table](back-matter/conclusion-the-table.md)
 - [Bibliography](back-matter/bibliography.md)
+- [About the Series](back-matter/about-the-series.md)
+
+## Related books
+
+[Series guide](../../docs/series-guide.md) · Collective action, leadership, and shared power
+
+- [When Others Become Leaders](../when-others-become-leaders/index.md) — what enduring influence leaves behind
+- [When Others Look to You](../when-others-look-to-you/v1/index.md) — how authority and attention accumulate
+- [Trust Beyond Similarity](../trust-beyond-similarity/index.md) — trust across difference without erasing boundaries
+- [After Certainty](../after-certainty/index.md) — practice when understanding no longer settles the world

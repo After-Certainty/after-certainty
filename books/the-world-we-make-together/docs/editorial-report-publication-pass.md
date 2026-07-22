@@ -21,8 +21,8 @@ Branch: `cursor/the-world-we-make-together-publication-3055`
 10. **Three sentence corrections:** Completed (Ballot “wisest”; Ballot “but only one place”; Window power-with sentence)
 11. **Copyedit / encoding:** Soft-hyphen / replacement-glyph scan clean in source and DOCX XML; Chapter 7 `\newpage` already present; no `utm_` tracking parameters found
 12. **Artifact paths:**
-    - `/workspace/upcoming/the-world-we-make-together/the-world-we-make-together.docx`
-    - `/workspace/upcoming/the-world-we-make-together/the-world-we-make-together.pdf`
+    - `/workspace/books/the-world-we-make-together/the-world-we-make-together.docx`
+    - `/workspace/books/the-world-we-make-together/the-world-we-make-together.pdf`
     - Also mirrored under `/tmp/twmt-pub/` from this build
 13. **Integrity:** No historical cases, governing claims, chapter structures, object scenes, or substantive arguments changed beyond the specified sentence fixes, Part I title page, citation scoping, and USDA influence attribution narrowed away from an unsupported USDA acknowledgment claim
 14. **Release status:** `READY AFTER HUMAN VERIFICATION`
