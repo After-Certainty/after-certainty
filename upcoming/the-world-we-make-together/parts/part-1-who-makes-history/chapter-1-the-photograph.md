@@ -312,14 +312,14 @@ It does not yet show us how the path was built.
 
 [^c1-smithsonian-speech]: See National Museum of American History, “I Have a Dream,” March on Washington collection, https://americanhistory.si.edu/, on King’s speech drawing on biblical language, the Constitution, Lincoln, and other national sources.
 
-[^c1-jackson-dream]: See Martin Luther King, Jr. Research and Education Institute, Stanford University, “I Have a Dream” documentary materials, https://kinginstitute.stanford.edu/, and Smithsonian accounts of Mahalia Jackson’s prompt and King’s departure from prepared text.
+[^c1-jackson-dream]: See Martin Luther King, Jr. Research and Education Institute, Stanford University, “I Have a Dream,” https://kinginstitute.stanford.edu/, and National Museum of American History March on Washington materials on Mahalia Jackson’s prompt and King’s departure from prepared text.
 
-[^c1-randolph-rustin]: See National Park Service, March on Washington for Jobs and Freedom interpretive pages, and the King Institute, identifying A. Philip Randolph as march director and Bayard Rustin as principal organizer.
+[^c1-randolph-rustin]: See National Park Service, “March on Washington for Jobs and Freedom,” https://www.nps.gov/articles/march-on-washington.htm, and the King Institute, identifying A. Philip Randolph as march director and Bayard Rustin as principal organizer.
 
-[^c1-nps-attendance]: See National Park Service, March on Washington for Jobs and Freedom, estimating approximately 250,000 participants on August 28, 1963.
+[^c1-nps-attendance]: See National Park Service, “March History,” National Mall and Memorial Parks, https://www.nps.gov/nama/mow-history.htm, estimating approximately 250,000 participants on August 28, 1963.
 
-[^c1-women-speakers]: See Smithsonian National Museum of American History, National Park Service March materials, and the King Institute on Hedgeman and Height’s advocacy and limited formal speaking roles, including Daisy Bates’s brief appearance.
+[^c1-women-speakers]: See National Museum of American History March on Washington materials; National Park Service, “March on Washington for Jobs and Freedom”; and the King Institute on Hedgeman and Height’s advocacy and limited formal speaking roles, including Daisy Bates’s brief appearance.
 
-[^c1-nasa-apollo]: See NASA History Division, *Managing NASA in the Apollo Era*, NASA SP-4102 (Washington, DC: NASA, 1982), and related NASA historical summaries stating that the Apollo program employed approximately 400,000 Americans at its peak and relied on more than 20,000 companies and universities.
+[^c1-nasa-apollo]: See NASA History Division, *Managing NASA in the Apollo Era*, NASA SP-4102 (Washington, DC: NASA, 1982), stating that the Apollo program employed approximately 400,000 Americans at its peak and relied on more than 20,000 companies and universities.
 
-[^c1-bales-alarms]: See NASA, *Apollo 11 Mission Report* and Apollo 11 flight-director / guidance-controller accounts of Steve Bales’s judgment that descent could continue despite computer program alarms 1201/1202.
+[^c1-bales-alarms]: See NASA, *Apollo 11 Mission Report*, NASA SP-238 (Washington, DC: NASA, 1971), and Apollo 11 flight-operations accounts of Steve Bales’s judgment that descent could continue despite computer program alarms 1201/1202.

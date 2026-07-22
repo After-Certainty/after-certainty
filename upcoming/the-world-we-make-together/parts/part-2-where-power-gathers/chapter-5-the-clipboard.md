@@ -486,10 +486,10 @@ And the next mark is made on a ballot.
 
 [^c5-nummi-research]: See Adler, “The ‘Learning Bureaucracy,’” emphasizing routines, training, trust, leadership, teamwork, and worker participation in identifying problems and improving processes.
 
-[^c5-nummi-close]: See contemporary reporting on NUMMI’s April 2010 plant closing after General Motors ended participation and Toyota discontinued production (e.g., *New York Times* and *San Francisco Chronicle* coverage of the Fremont closure).
+[^c5-nummi-close]: See Nick Bunkley, “G.M. and Toyota’s Joint Venture Ends in California,” *New York Times* Wheels blog, April 2, 2010, https://archive.nytimes.com/wheels.blogs.nytimes.com/2010/04/02/g-m-and-toyotas-joint-venture-ends-in-california/; and Tom Abate, “Nummi workers say their final good-byes,” *San Francisco Chronicle*, April 2, 2010, https://www.sfgate.com/bayarea/article/Nummi-workers-say-their-final-good-byes-3194045.php.
 
-[^c5-porto-alegre-begin]: See World Bank, “Participatory Budgeting in Brazil” / Porto Alegre case studies documenting the program’s beginning in 1989 during Brazil’s democratic transition.
+[^c5-porto-alegre-begin]: See World Bank, *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre*, Report No. 40144-BR, vol. 1 (Washington, DC: World Bank, January 29, 2008), https://documents.worldbank.org/en/publication/documents-reports/documentdetail/778301468019774995, on the program’s beginning in 1989 during Brazil’s democratic transition.
 
-[^c5-porto-alegre-1999]: See World Bank Porto Alegre participatory-budgeting publications reporting an official estimate of approximately 40,000 citizens participating in public budget meetings in 1999.
+[^c5-porto-alegre-1999]: See World Bank, *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre*, Report No. 40144-BR, vol. 1, reporting approximately 40,000 citizens participating in public budget meetings in 1999.
 
-[^c5-porto-alegre-eval]: See World Bank evaluations of Porto Alegre participatory budgeting discussing achievements and dependence on institutional design, civil society, inclusion, representation, and unequal participation.
+[^c5-porto-alegre-eval]: See World Bank, *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre*, Report No. 40144-BR, vol. 1, on achievements and dependence on institutional design, civil society, inclusion, representation, and unequal participation.

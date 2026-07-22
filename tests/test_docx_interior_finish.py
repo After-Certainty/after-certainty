@@ -95,6 +95,10 @@ def test_finish_interior_clears_front_matter_and_splits_openers(tmp_path: Path) 
     # Static Front Matter label removed from contents body
     texts = [(p.text or "").strip() for p in doc.paragraphs]
     assert "Front Matter" not in texts
+    joined = "\n".join(texts)
+    assert "right-click" not in joined.lower()
+    assert "Update Field" not in joined
+    assert any("Introduction" in t for t in texts)
 
 
 def test_finish_interior_noop_without_introduction(tmp_path: Path) -> None:

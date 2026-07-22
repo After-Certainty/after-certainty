@@ -102,13 +102,11 @@ This matters because values that remain only in language are easy to admire with
 
 The meal interrupts some of these arrangements. The person who serves kneels or bends. The person who receives depends upon another. Everyone eats because someone performed work that dignity has often taught powerful people not to notice.
 
-The bowl does not explain equality.
-
-It gives equality something to do.
+The bowl gives equality something to do.
 
 A shared meal does not erase every difference carried into the room. People rise from the floor and return to unequal homes, jobs, and legal systems. Ritual equality can coexist with material inequality. But the ritual is not therefore meaningless. It preserves a contradiction the world outside may prefer to resolve in favor of hierarchy: the social order people have inherited cannot fully describe what they owe one another.
 
-The meal does not finish justice. It refuses to let injustice become the only reality available. Love does not always begin by transforming the entire system. Sometimes it creates a practice through which the system’s deepest assumptions are denied.
+The meal leaves justice unfinished while refusing to let injustice become the only reality available. Love does not always begin by transforming the entire system; sometimes it creates a practice through which the system’s deepest assumptions are denied.
 
 You say this person is beneath you.
 
@@ -362,14 +360,14 @@ Then we decide whether to pass it on.
 
 [^c8-langar]: See Harvard University Pluralism Project, “Langar: The Communal Meal,” on the communal meal shared by Sikhs and visitors as expressing equality, hospitality, community, and the oneness of humankind.
 
-[^c8-nanak]: See Pluralism Project and related Sikh tradition accounts tracing langar to Guru Nanak as a practice of equality and selfless service across caste, religion, gender, and social rank.
+[^c8-nanak]: See Harvard University Pluralism Project, “Langar: The Communal Meal,” https://pluralism.org/langar-the-communal-meal, tracing langar to Guru Nanak as a practice of equality and selfless service across caste, religion, gender, and social rank.
 
-[^c8-bpp-oakland]: See California African American Museum, “Free Breakfast for School Children Program,” recording the Panthers’ first Oakland site at St. Augustine’s Episcopal Church on January 20, 1969, initially serving eleven children.
+[^c8-bpp-oakland]: See California African American Museum, “Free Breakfast for School Children Program,” https://caamuseum.org/, recording the Panthers’ first Oakland site at St. Augustine’s Episcopal Church on January 20, 1969, initially serving eleven children.
 
 [^c8-bpp-smithsonian]: See National Museum of African American History and Culture, Black Panther Party community survival programs, https://nmaahc.si.edu/, on programs often locally led by women and breakfast programs feeding approximately 20,000 children each day.
 
-[^c8-cointelpro]: See Church Committee *Final Report* and related FBI/historiography on COINTELPRO targeting of the Black Panther Party, including efforts to disrupt breakfast programs.
+[^c8-cointelpro]: See Church Committee, *Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities* (Washington, DC: Government Printing Office, 1976), on COINTELPRO targeting of the Black Panther Party, including efforts to disrupt breakfast programs.
 
-[^c8-usda]: See USDA Food and Nutrition Service institutional history: School Breakfast Program pilot under the Child Nutrition Act of 1966; permanent authorization in 1975. Interpretive accounts also identify Black Panther breakfast programs as an influence on later national expansion.
+[^c8-usda]: See U.S. Department of Agriculture, Food and Nutrition Service, School Breakfast Program history: pilot authorization under the Child Nutrition Act of 1966; permanent authorization in 1975. Interpretive accounts also identify Black Panther breakfast programs as an influence on later national expansion.
 
 [^c8-tronto]: See Joan C. Tronto, *Moral Boundaries: A Political Argument for an Ethic of Care* (New York: Routledge, 1993), on care as beginning from interdependence—that human beings both give and receive care throughout social and political life.

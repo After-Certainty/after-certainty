@@ -1,3 +1,5 @@
+\newpage
+
 # **Chapter 7**
 
 ## **The Fence**
@@ -190,7 +192,7 @@ The Good Friday Agreement built institutions for precisely this kind of repeated
 
 This did not prevent breakdown. Institutions were suspended. Disputes over weapons, policing, identity, rights, language, flags, and governance continued. Political relationships repeatedly strained and sometimes failed to function.
 
-The existence of conflict after an agreement does not by itself prove that trust failed. Trust is not the absence of rupture. It is partly the existence of a route back—what institution should reconvene, what rule should govern the dispute, which outside parties can assist, what earlier commitments remain available when confidence collapses.
+The existence of conflict after an agreement does not by itself prove that trust failed. Trust includes a route back after rupture: an institution to reconvene, a rule to govern the dispute, outside parties who can assist, and earlier commitments that remain available when confidence collapses.
 
 The shared framework becomes a memory larger than the immediate crisis. Institutions matter even when they appear slow, procedural, or disappointing: they preserve a place where disagreement can return without beginning from nothing.
 
@@ -310,9 +312,7 @@ Trust has not removed the fence. It has changed what the fence means.
 
 The boards still mark a difference. The gate still belongs to someone. The possibility of disappointment remains. But the boundary no longer tells the whole story of the people standing on either side.
 
-A shared world does not begin when every fence comes down.
-
-It begins when we stop treating the fence as proof that nothing valuable can pass through it.
+A shared world begins when we stop treating the fence as proof that nothing valuable can pass through it—not when every fence comes down.
 
 [^c7-gfa]: See *Belfast Agreement* (Good Friday Agreement), 10 April 1998, including the multi-party agreement and British-Irish agreement on power-sharing, North-South and East-West relations, rights, security, policing, prisoners, and weapons.
 

@@ -25,7 +25,7 @@ from docx.shared import Pt
 from docx.text.paragraph import Paragraph
 
 _BODY_OPENER_RE = re.compile(
-    r"^(Introduction|Part\s+[IVXLCDM]+|Chapter\s+\d+|Conclusion|Appendix|"
+    r"^(Introduction|Part\s+[IVXLCDM]+(?:\s+[—–-]\s+.+)?|Chapter\s+\d+|Conclusion|Appendix|"
     r"About the Series|Bibliography)$"
 )
 
@@ -228,6 +228,108 @@ def _configure_body_section(section, running_title: str, *, restart_at: int | No
         del pg.attrib[qn("w:start")]
 
 
+def _toc_display_label(opener: str, subtitle: str | None) -> str:
+    """Build a publication TOC line from Heading 1 opener + optional Heading 2."""
+    opener = (opener or "").strip()
+    subtitle = (subtitle or "").strip()
+    if "—" in opener or "–" in opener:
+        return opener
+    if not subtitle:
+        return opener
+    if opener.startswith(("Introduction", "Conclusion", "Part ", "Chapter ")):
+        return f"{opener} — {subtitle}"
+    return f"{opener} — {subtitle}"
+
+
+def _collect_toc_entries(doc: Document) -> list[tuple[int, str]]:
+    """Return (outline_level, label) pairs for body Heading 1/2 after Introduction."""
+    intro = _find_intro_paragraph(doc)
+    if intro is None:
+        return []
+
+    entries: list[tuple[int, str]] = []
+    started = False
+    pending_opener: str | None = None
+    for p in doc.paragraphs:
+        if p._element is intro._element:
+            started = True
+        if not started:
+            continue
+        style = _paragraph_style_name(p)
+        text = (p.text or "").strip()
+        if not text:
+            continue
+        if style == "Heading 1":
+            if pending_opener is not None:
+                entries.append((1, pending_opener))
+                pending_opener = None
+            if _BODY_OPENER_RE.match(text):
+                pending_opener = text
+            else:
+                entries.append((1, text))
+        elif style == "Heading 2" and pending_opener is not None:
+            entries.append((1, _toc_display_label(pending_opener, text)))
+            pending_opener = None
+        elif style == "Heading 2":
+            # Skip chapter subheads already paired; keep Before/During/After out via H3.
+            continue
+    if pending_opener is not None:
+        entries.append((1, pending_opener))
+
+    # Part I has no bridge file in this manuscript; insert its contents label
+    # before Chapter 1 when absent so the published TOC lists all four parts.
+    has_part_i = any(
+        label == "Part I" or label.startswith("Part I —") or label.startswith("Part I –")
+        for _, label in entries
+    )
+    if not has_part_i:
+        for i, (_, label) in enumerate(entries):
+            if label.startswith("Chapter 1"):
+                entries.insert(i, (1, "Part I — Who Makes History?"))
+                break
+    return entries
+
+
+def _make_toc_entry_paragraph(label: str, level: int = 1) -> OxmlElement:
+    """Create a TOC cache paragraph with label, tab leaders, and a page placeholder."""
+    p = OxmlElement("w:p")
+    pPr = OxmlElement("w:pPr")
+    pStyle = OxmlElement("w:pStyle")
+    pStyle.set(qn("w:val"), f"TOC{level}")
+    pPr.append(pStyle)
+    tabs = OxmlElement("w:tabs")
+    tab = OxmlElement("w:tab")
+    tab.set(qn("w:val"), "right")
+    tab.set(qn("w:leader"), "dot")
+    tab.set(qn("w:pos"), "9360")
+    tabs.append(tab)
+    pPr.append(tabs)
+    ind = OxmlElement("w:ind")
+    if level > 1:
+        ind.set(qn("w:left"), str(360 * (level - 1)))
+    pPr.append(ind)
+    p.append(pPr)
+
+    r_label = OxmlElement("w:r")
+    t_label = OxmlElement("w:t")
+    t_label.set(qn("xml:space"), "preserve")
+    t_label.text = label
+    r_label.append(t_label)
+    p.append(r_label)
+
+    r_tab = OxmlElement("w:r")
+    r_tab.append(OxmlElement("w:tab"))
+    p.append(r_tab)
+
+    # Cached page placeholder; Word/LibreOffice Update Field replaces via TOC field.
+    r_page = OxmlElement("w:r")
+    t_page = OxmlElement("w:t")
+    t_page.text = "—"
+    r_page.append(t_page)
+    p.append(r_page)
+    return p
+
+
 def _replace_contents_with_toc_field(doc: Document) -> bool:
     contents = _find_contents_heading(doc)
     if contents is None:
@@ -257,42 +359,82 @@ def _replace_contents_with_toc_field(doc: Document) -> bool:
         if parent is not None:
             parent.remove(p._element)
 
-    toc_p = OxmlElement("w:p")
+    entries = _collect_toc_entries(doc)
+    if not entries:
+        # Fallback labels matching the manuscript Contents page when headings
+        # are not yet discoverable in the DOCX (should be rare).
+        entries = [
+            (1, "Introduction — The Switch"),
+            (1, "Part I — Who Makes History?"),
+            (1, "Chapter 1 — The Photograph"),
+            (1, "Chapter 2 — The Door"),
+            (1, "Chapter 3 — The Clock"),
+            (1, "Part II — Where Power Gathers"),
+            (1, "Chapter 4 — The Chair"),
+            (1, "Chapter 5 — The Clipboard"),
+            (1, "Chapter 6 — The Ballot"),
+            (1, "Part III — What Shared Power Requires"),
+            (1, "Chapter 7 — The Fence"),
+            (1, "Chapter 8 — The Bowl"),
+            (1, "Part IV — From Power-Over to Power-With"),
+            (1, "Chapter 9 — The Scale"),
+            (1, "Chapter 10 — The Window"),
+            (1, "Conclusion — The Table"),
+            (1, "Bibliography"),
+        ]
+
+    # Field begin + instruction + separate on the first paragraph.
+    begin_p = OxmlElement("w:p")
     r1 = OxmlElement("w:r")
     fc1 = OxmlElement("w:fldChar")
     fc1.set(qn("w:fldCharType"), "begin")
     r1.append(fc1)
-    toc_p.append(r1)
+    begin_p.append(r1)
 
     r2 = OxmlElement("w:r")
     instr = OxmlElement("w:instrText")
     instr.set(qn("xml:space"), "preserve")
     instr.text = r' TOC \o "1-2" \h \z \u '
     r2.append(instr)
-    toc_p.append(r2)
+    begin_p.append(r2)
 
     r3 = OxmlElement("w:r")
     fc2 = OxmlElement("w:fldChar")
     fc2.set(qn("w:fldCharType"), "separate")
     r3.append(fc2)
-    toc_p.append(r3)
+    begin_p.append(r3)
 
+    # First cached TOC line lives in the field paragraph; remaining lines follow.
+    first_label = entries[0][1]
     r4 = OxmlElement("w:r")
     t = OxmlElement("w:t")
-    t.text = (
-        "Table of contents — in Word or LibreOffice, right-click and choose "
-        "Update Field to refresh page numbers."
-    )
+    t.set(qn("xml:space"), "preserve")
+    t.text = first_label
     r4.append(t)
-    toc_p.append(r4)
+    begin_p.append(r4)
+    r_tab = OxmlElement("w:r")
+    r_tab.append(OxmlElement("w:tab"))
+    begin_p.append(r_tab)
+    r_page = OxmlElement("w:r")
+    t_page = OxmlElement("w:t")
+    t_page.text = "—"
+    r_page.append(t_page)
+    begin_p.append(r_page)
 
-    r5 = OxmlElement("w:r")
-    fc3 = OxmlElement("w:fldChar")
-    fc3.set(qn("w:fldCharType"), "end")
-    r5.append(fc3)
-    toc_p.append(r5)
+    contents._element.addnext(begin_p)
+    anchor = begin_p
+    for level, label in entries[1:]:
+        entry_p = _make_toc_entry_paragraph(label, level=level)
+        anchor.addnext(entry_p)
+        anchor = entry_p
 
-    contents._element.addnext(toc_p)
+    end_p = OxmlElement("w:p")
+    r_end = OxmlElement("w:r")
+    fc_end = OxmlElement("w:fldChar")
+    fc_end.set(qn("w:fldCharType"), "end")
+    r_end.append(fc_end)
+    end_p.append(r_end)
+    anchor.addnext(end_p)
     return True
 
 
@@ -336,6 +478,18 @@ def _split_sections_at_openers(doc: Document) -> int:
     return len(openers)
 
 
+def _enable_update_fields_on_open(doc: Document) -> None:
+    """Ask Word to refresh fields (including TOC page numbers) when the file opens."""
+    settings = doc.settings.element
+    existing = settings.find(qn("w:updateFields"))
+    if existing is None:
+        el = OxmlElement("w:updateFields")
+        el.set(qn("w:val"), "true")
+        settings.append(el)
+    else:
+        existing.set(qn("w:val"), "true")
+
+
 def finish_interior_docx(path: Path, *, running_title: str) -> dict:
     """Apply interior finish conventions to *path* in place."""
     status = {
@@ -353,6 +507,8 @@ def finish_interior_docx(path: Path, *, running_title: str) -> dict:
         return status
 
     status["toc_field"] = _replace_contents_with_toc_field(doc)
+    if status["toc_field"]:
+        _enable_update_fields_on_open(doc)
     doc.save(str(path))
 
     doc = Document(str(path))

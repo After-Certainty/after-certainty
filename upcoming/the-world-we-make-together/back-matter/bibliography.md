@@ -5,6 +5,10 @@
 Works cited in the notes appear below in alphabetical order by author or issuing body.
 
 ::: {custom-style="Bibliography"}
+Abate, Tom. “Nummi workers say their final good-byes.” *San Francisco Chronicle*, April 2, 2010. https://www.sfgate.com/bayarea/article/Nummi-workers-say-their-final-good-byes-3194045.php.
+:::
+
+::: {custom-style="Bibliography"}
 Adler, Paul S. “The ‘Learning Bureaucracy’: New United Motor Manufacturing, Inc.” In *Research in Organizational Behavior*, vol. 15, edited by Barry M. Staw and L. L. Cummings, 111–94. Greenwich, CT: JAI Press, 1993.
 :::
 
@@ -14,6 +18,10 @@ Adler, Paul S. “The ‘Learning Bureaucracy’: New United Motor Manufacturing
 
 ::: {custom-style="Bibliography"}
 *Brown v. Board of Education*, 347 U.S. 483 (1954).
+:::
+
+::: {custom-style="Bibliography"}
+Bunkley, Nick. “G.M. and Toyota’s Joint Venture Ends in California.” *New York Times* Wheels blog, April 2, 2010. https://archive.nytimes.com/wheels.blogs.nytimes.com/2010/04/02/g-m-and-toyotas-joint-venture-ends-in-california/.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -34,6 +42,10 @@ Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constituti
 
 ::: {custom-style="Bibliography"}
 Eisenhower, Dwight D. Executive Order 10730, “Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas.” 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730.
+:::
+
+::: {custom-style="Bibliography"}
+Electoral Commission of South Africa. “27 Apr 1994 National Election” results archive. https://www.elections.org.za/content/pages/reports/npe/selection.aspx.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -65,11 +77,15 @@ Harvard University Pluralism Project. “Langar: The Communal Meal.” https://p
 :::
 
 ::: {custom-style="Bibliography"}
-Lowcountry Digital History Initiative. “The Citizenship Schools.” https://ldhi.library.cofc.edu/.
+Lowcountry Digital History Initiative. “Local and National Leader: Septima P. Clark.” https://ldhi.library.cofc.edu/exhibits/show/septima_clark/local-and-national-leader.
 :::
 
 ::: {custom-style="Bibliography"}
-Martin Luther King, Jr. Research and Education Institute, Stanford University. “I Have a Dream” and March on Washington documentary materials. https://kinginstitute.stanford.edu/.
+Lowcountry Digital History Initiative. “The Progressive Club, Johns Island.” https://ldhi.library.cofc.edu/exhibits/show/septima_clark/virtual-tour/the-progressive-club.
+:::
+
+::: {custom-style="Bibliography"}
+Martin Luther King, Jr. Research and Education Institute, Stanford University. “I Have a Dream.” https://kinginstitute.stanford.edu/.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -81,11 +97,11 @@ Mill, John Stuart. *Considerations on Representative Government*. London: Parker
 :::
 
 ::: {custom-style="Bibliography"}
-National Aeronautics and Space Administration. *Managing NASA in the Apollo Era*. NASA SP-4102. Washington, DC: NASA, 1982. Related NASA Apollo 11 mission and flight-operations materials on workforce scale and program alarms.
+National Aeronautics and Space Administration. *Apollo 11 Mission Report*. NASA SP-238. Washington, DC: NASA, 1971.
 :::
 
 ::: {custom-style="Bibliography"}
-National Archives of South Africa. Records and interpretive materials on the 1994 national election and democratic transition.
+National Aeronautics and Space Administration. *Managing NASA in the Apollo Era*. NASA SP-4102. Washington, DC: NASA, 1982.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -97,15 +113,19 @@ National Museum of American History. “I Have a Dream” / March on Washington 
 :::
 
 ::: {custom-style="Bibliography"}
-National Park Service. Little Rock Central High School National Historic Site interpretive materials (desegregation plan; Elizabeth Eckford; Jane Hill; federal intervention; inside-school harassment). https://www.nps.gov/chsc/.
+National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/.
 :::
 
 ::: {custom-style="Bibliography"}
-National Park Service. March on Washington for Jobs and Freedom interpretive materials (attendance; organizers; speaking program). https://www.nps.gov/.
+National Park Service. “March History.” National Mall and Memorial Parks. https://www.nps.gov/nama/mow-history.htm.
 :::
 
 ::: {custom-style="Bibliography"}
-National Park Service. Pullman National Historical Park / Historic Resource Study materials (company town; labor conflict; racial exclusion). https://www.nps.gov/pull/.
+National Park Service. “March on Washington for Jobs and Freedom.” https://www.nps.gov/articles/march-on-washington.htm.
+:::
+
+::: {custom-style="Bibliography"}
+National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -153,7 +173,7 @@ SNCC Digital Gateway. “Birth of SNCC” / founding conference materials. https
 :::
 
 ::: {custom-style="Bibliography"}
-South African History Online / Independent Electoral Commission. 1994 national election results and administration. https://www.sahistory.org.za/.
+South African History Online. “Election Results 1994.” https://www.sahistory.org.za/archive/election-results-1994.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -165,7 +185,7 @@ Tronto, Joan C. *Moral Boundaries: A Political Argument for an Ethic of Care*. N
 :::
 
 ::: {custom-style="Bibliography"}
-U.S. Department of Agriculture, Food and Nutrition Service. School Breakfast Program institutional history (pilot authorization under the Child Nutrition Act of 1966; permanent authorization 1975). Washington, DC: USDA.
+U.S. Department of Agriculture, Food and Nutrition Service. School Breakfast Program history (pilot authorization under the Child Nutrition Act of 1966; permanent authorization 1975). Washington, DC: USDA.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -181,6 +201,5 @@ Washington, George. Newburgh Address, 15 March 1783. Mount Vernon / Library of C
 :::
 
 ::: {custom-style="Bibliography"}
-World Bank. Porto Alegre participatory-budgeting case studies and evaluations (origins 1989; ~40,000 participants reported for 1999; institutional design assessments). Washington, DC: World Bank.
+World Bank. *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre*. Report No. 40144-BR. Vol. 1, Main Report. Washington, DC: World Bank, January 29, 2008. https://documents.worldbank.org/en/publication/documents-reports/documentdetail/778301468019774995.
 :::
-

@@ -180,7 +180,7 @@ But the switch still does not explain the light. It does not tell us who wired t
 
 Those questions belong to us. We cannot answer them completely before acting. We inherit partial views, unequal leverage, old injuries, and limited time. We decide anyway.
 
-The table is not valuable because everyone around it will agree. It is valuable because disagreement can remain inside a relationship no one person completely owns.
+The table’s value lies less in guaranteeing agreement than in holding disagreement inside a relationship no one person completely owns.
 
 Someone may lead. Someone may refuse. Someone may know more. Someone may be more affected. The decision may still produce loss.
 

@@ -78,15 +78,9 @@ Democracy offers a less flattering answer.
 
 No group has established a permanent right to rule the rest.
 
-This does not mean every citizen should personally decide every technical question. A society does not ask the entire electorate to calculate the load capacity of a bridge, determine the dosage of a drug, or manage the electrical grid during an emergency.
+Equal standing does not require every citizen to decide every technical question. A society does not ask the entire electorate to calculate the load capacity of a bridge, determine the dosage of a drug, or manage the electrical grid during an emergency.
 
-Knowledge matters.
-
-Training matters.
-
-Experience matters.
-
-The democratic claim is not that expertise disappears when citizens enter the room. It is that expertise alone does not create a complete title to govern other people whose lives will be shaped by its use.
+Knowledge, training, and experience matter. The democratic claim preserves expertise inside the room while denying that expertise alone creates a complete title to govern other people whose lives will be shaped by its use.
 
 An engineer may understand the bridge better than the public, yet does not therefore acquire sole authority to decide which neighborhood will be divided to build it, whose homes will be purchased, which risks are acceptable, how much public money should be spent, or whether another public need should take priority. A physician may understand disease better than the patient, yet does not thereby own the patient’s body. An economist may understand inflation, employment, debt, and incentives more fully than most voters, yet that knowledge does not make the economist the only person entitled to judge which forms of hardship a policy may impose and upon whom.
 
@@ -128,9 +122,7 @@ No examination can identify the person who sees the whole public world.
 
 There is no such person.
 
-The equal ballot does not solve ignorance by finding the wisest citizen.
-
-It limits what anyone may claim from being wiser in one respect.
+The equal ballot limits what anyone may claim from being wiser in one respect. It does not solve ignorance by crowning a wisest citizen.
 
 ---
 
@@ -160,9 +152,7 @@ Who received the authorized power to govern under these rules at this time?
 
 It does not settle whether every proposed action is wise, lawful, humane, or legitimate.
 
-An election is a transfer of authority.
-
-It is not a transfer of moral infallibility.
+An election transfers authority without transferring moral infallibility.
 
 ---
 
@@ -196,9 +186,7 @@ The path still matters.
 
 The vote can also be counted equally while the available choices have been shaped unequally. Some candidates enter the race with money, institutional support, name recognition, media access, professional advisers, and networks capable of reaching millions of people. Others begin with a belief and a filing deadline.
 
-The ballot does not erase those differences.
-
-It receives the field they helped produce.
+The ballot receives the field those differences helped produce.
 
 ---
 
@@ -214,13 +202,11 @@ The ballot counts their marks equally.
 
 It does not equalize their time, access, attention, knowledge, or leverage.
 
-This does not make voting meaningless. It makes voting incomplete—and dangerous when asked to carry the entire burden of shared power.
+Voting remains meaningful, but it becomes incomplete—and dangerous—when asked to carry the entire burden of shared power.
 
 Citizens choose representatives who then act through institutions shaped by parties, law, bureaucracy, money, expertise, and unequal capacities for sustained attention. Those with greater resources can continue participating after Election Day: attending meetings, hiring counsel, cultivating relationships, monitoring regulations, organizing campaigns, waiting through a long process. Others contribute one mark and are told that the mark made them sovereign.
 
-The ballot is a genuine form of power.
-
-It is not the only place where power gathers.
+The ballot is a genuine form of power, and still only one place where power gathers.
 
 ---
 
@@ -352,9 +338,7 @@ The question is what would authorize them to decide whose judgment counts.
 
 Democratic equality does not require us to pretend that all opinions deserve equal confidence. A claim supported by strong evidence should not be treated as interchangeable with a rumor. A person with deep knowledge of a system may deserve greater influence over how a technical question is understood.
 
-The ballot’s equality is not a rule for evaluating every proposition.
-
-It is a rule for limiting political ownership.
+The ballot’s equality limits political ownership; it is not a rule for evaluating every proposition.
 
 We can give different weight to evidence without giving different human worth to the people presenting it. We can ask experts to guide action without granting them exemption from public accountability. We can recognize that one person understands more while also recognizing that the less informed person may bear more of the consequence.
 
@@ -374,17 +358,7 @@ The privacy that protects conscience also conceals irresponsibility.
 
 There is no institutional design that guarantees virtue without creating new possibilities for control.
 
-The ballot therefore depends upon habits it cannot compel.
-
-Curiosity.
-
-Restraint.
-
-A willingness to accept that other citizens have claims upon the public world.
-
-A readiness to distinguish losing from being erased.
-
-A recognition that winning does not make other people’s fears unreal.
+The ballot therefore depends upon habits it cannot compel: curiosity; restraint; a willingness to accept that other citizens have claims upon the public world; a readiness to distinguish losing from being erased; and a recognition that winning does not make other people’s fears unreal.
 
 Without these habits, elections can continue while democratic life thins around them. People vote but no longer accept shared membership. The other side becomes not mistaken but illegitimate. Every defeat becomes proof of betrayal. Every victory becomes permission to punish.
 
@@ -448,11 +422,11 @@ The citizens leave together.
 
 Between them, the boundaries remain.
 
-[^c6-soweto-queue]: See contemporary photographs from the 1994 South African election showing queues, including lines toward polling stations in Soweto during the country’s first all-race election.
+[^c6-soweto-queue]: See South African History Online photographic and documentary materials on the April 1994 election queues, including lines toward polling stations in Soweto during the country’s first all-race election, https://www.sahistory.org.za/.
 
-[^c6-sa-election]: See National Archives of South Africa materials describing the 1994 election as the first on a common voters’ roll after the negotiated transition begun in 1990, administered by the Independent Electoral Commission.
+[^c6-sa-election]: See Electoral Commission of South Africa, “27 Apr 1994 National Election” results archive, https://www.elections.org.za/content/pages/reports/npe/selection.aspx; and South African History Online, “Election Results 1994,” https://www.sahistory.org.za/archive/election-results-1994, on the first election on a common voters’ roll after the negotiated transition begun in 1990.
 
-[^c6-sa-votes]: See Parliament of South Africa historical materials reporting that approximately 19.7 million votes were cast in the April 1994 nonracial election and that seven parties gained representation in Parliament.
+[^c6-sa-votes]: See South African History Online, “Election Results 1994,” and Parliament of the Republic of South Africa historical materials, reporting that approximately 19.7 million votes were cast in the April 1994 nonracial election and that seven parties gained representation in Parliament.
 
 [^c6-mill-plural]: See John Stuart Mill, *Considerations on Representative Government* (London: Parker, Son, and Bourn, 1861), defending broad participation while proposing forms of plural voting weighted toward greater education or competence.
 

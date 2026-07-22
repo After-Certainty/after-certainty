@@ -384,16 +384,16 @@ A threshold can make action possible.
 
 It cannot reveal what the action will become.
 
-[^c2-nps-plan]: See National Park Service, Little Rock Central High School National Historic Site, on Little Rock’s gradual desegregation plan, student recruitment, and restrictions Black students were told to expect.
+[^c2-nps-plan]: See National Park Service, Little Rock Central High School National Historic Site, on Little Rock’s gradual desegregation plan, student recruitment, and restrictions Black students were told to expect, https://www.nps.gov/chsc/.
 
-[^c2-brown-faubus]: See *Brown v. Board of Education*, 347 U.S. 483 (1954); National Archives summaries of Little Rock’s plan, Governor Faubus’s use of the Arkansas National Guard, and the federal response; Eisenhower, Executive Order 10730 (September 24, 1957).
+[^c2-brown-faubus]: See *Brown v. Board of Education*, 347 U.S. 483 (1954); Eisenhower, Executive Order 10730 (September 24, 1957); National Park Service, Little Rock Central High School National Historic Site, on Governor Faubus’s use of the Arkansas National Guard and the federal response.
 
 [^c2-eckford-sept4]: See National Park Service, Little Rock Central High School National Historic Site, “The Crisis Begins,” on Elizabeth Eckford’s arrival alone on September 4, 1957, crowd harassment, and National Guard refusal of entry.
 
-[^c2-jane-hill]: See National Park Service records that Jane Hill’s family received death threats and that her father was warned he could lose his job if she attended Central High.
+[^c2-jane-hill]: See National Park Service, Little Rock Central High School National Historic Site, on Jane Hill’s family receiving death threats and her father’s warning that he could lose his job if she attended Central High.
 
-[^c2-sept23-eisenhower]: See Eisenhower, Executive Order 10730; National Park Service chronology of the September 23 removal and the September 25 entry under federal protection.
+[^c2-sept23-eisenhower]: See Eisenhower, Executive Order 10730; National Park Service, Little Rock Central High School National Historic Site, chronology of the September 23 removal and the September 25 entry under federal protection.
 
 [^c2-inside-harassment]: See National Park Service, Little Rock Central High School National Historic Site, on harassment inside Central High, limits of military escorts, and threats and economic consequences for families.
 
-[^c2-school-closing]: See Encyclopedia of Arkansas, “Lost Year,” on the 1958–59 closing of Little Rock’s public high schools and displacement of approximately 3,700 students.
+[^c2-school-closing]: See Encyclopedia of Arkansas, “Lost Year,” on the 1958–59 closing of Little Rock’s public high schools and displacement of approximately 3,700 students, https://encyclopediaofarkansas.net/entries/lost-year-737/.

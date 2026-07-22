@@ -90,7 +90,7 @@ Moore understood Mississippi in ways a visitor could not. He knew which counties
 
 Moses brought other capacities: he could travel, listen, teach, organize, and connect local work to a developing student movement.
 
-Baker understood enough about both people to bring their paths together. No one person created what followed. This does not mean no one led.
+Baker understood enough about both people to bring their paths together. No one person created what followed, and leadership still occurred.
 
 Baker opened one window. Moore opened another. Moses entered, looked, listened, and helped build relationships through which more people could see and act. The power emerged between them.
 
@@ -266,7 +266,7 @@ Real power-with requires material conditions—time to meet, usable information,
 
 A person invited to participate after working two jobs does not enter with the same freedom as the official paid to attend. A worker asked for candid feedback while employment remains insecure does not speak from equal safety. A community asked to manage a failing service without adequate funding has received responsibility more than power.
 
-Participation is not shared power when the burdens move downward and control remains above.
+When burdens move downward while control remains above, participation has not become shared power.
 
 ---
 
@@ -360,19 +360,9 @@ Institutions experience this continually.
 
 They believe they are looking outward while encountering their own categories reflected back. They mistake consultation for listening, delegation for shared authority, and participation for consent.
 
-The correction is not to break every window.
+The correction begins by noticing the glass: lower the light inside, move closer, open the latch, and allow what is outside to change the air of the room.
 
-It is to notice the glass.
-
-Lower the light inside.
-
-Move closer.
-
-Open the latch.
-
-Allow what is outside to change the air of the room.
-
-Power-with does not ask us to surrender every wall, role, boundary, or form of authority. It asks us to stop treating our position inside them as the measure of the whole world.
+Power-with keeps walls, roles, boundaries, and forms of authority while refusing to treat our position inside them as the measure of the whole world.
 
 The leader sees something.
 
@@ -394,9 +384,9 @@ Together, they may create an opening wide enough to act.
 
 [^c10-moses]: See Ransby and Charles M. Payne, *I’ve Got the Light of Freedom* (Berkeley: University of California Press, 1995), on Baker’s connecting Bob Moses with Deep South organizers including Amzie Moore and the turn toward Mississippi voter registration.
 
-[^c10-citizenship]: See Lowcountry Digital History Initiative, “The Citizenship Schools,” https://ldhi.library.cofc.edu/, on the Progressive Club class beginning in 1957 and the roles of Septima Clark, Esau Jenkins, Bernice Robinson, and Highlander Folk School.
+[^c10-citizenship]: See Lowcountry Digital History Initiative, “The Progressive Club, Johns Island,” https://ldhi.library.cofc.edu/exhibits/show/septima_clark/virtual-tour/the-progressive-club, on the Progressive Club class beginning in 1957 and the roles of Septima Clark, Esau Jenkins, Bernice Robinson, and Highlander Folk School.
 
-[^c10-expansion]: See Citizenship School histories on expansion beyond Johns Island and SCLC’s assumption of the broader program in 1961.
+[^c10-expansion]: See Lowcountry Digital History Initiative, “The Progressive Club, Johns Island,” and “Local and National Leader: Septima P. Clark,” https://ldhi.library.cofc.edu/exhibits/show/septima_clark/local-and-national-leader, on expansion beyond Johns Island and SCLC’s assumption of the broader Citizenship School program in 1961.
 
 [^c10-ostrom-prize]: See the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009 citation for Elinor Ostrom “for her analysis of economic governance, especially the commons.”
 

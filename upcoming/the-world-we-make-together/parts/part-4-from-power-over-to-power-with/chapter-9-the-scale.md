@@ -26,21 +26,13 @@ The relationship appears to contain a fixed amount. Someone must possess it. Som
 
 Many conflicts really do contain this structure. A person cannot occupy the same office as the person they replaced. A court cannot enforce both incompatible claims. A factory owner who raises wages may accept lower profits or raise prices. A government that protects one person from another must limit what the second is permitted to do.
 
-Power has edges.
+Power has edges: someone decides, and someone bears the consequence.
 
-Someone decides.
-
-Someone bears the consequence.
-
-The problem is not that the scale is false.
-
-The problem begins when the scale becomes the only instrument through which power can be imagined.
+The scale can be accurate and still become dangerous when it is treated as the only instrument through which power can be imagined.
 
 Then every relationship must be organized through control, resistance, surrender, or victory. Even benevolence travels downward. The stronger side may act generously, but generosity remains something it controls.
 
-The balance can improve.
-
-The relationship remains vertical.
+The balance can improve while the relationship remains vertical.
 
 ---
 
@@ -56,9 +48,7 @@ The arrangement could be described as generous: housing with sanitation and amen
 
 It could also be described as control. The employer was landlord as well as employer—determining community design, public space, services, and the conditions under which residents inhabited homes they could not purchase.
 
-The factory whistle organized the workday.
-
-The company organized much of the world beyond it.
+The factory whistle organized the workday; the company organized much of the world beyond it.
 
 Pullman did not need to regard his workers with hatred for this arrangement to become dominating. Paternalism rarely begins by saying that the people below deserve nothing.
 
@@ -66,11 +56,7 @@ It begins by saying that the people above know what is best.
 
 The paternalist may genuinely want others to live better. Care is expressed through design—the house, the street, the park, the rule.
 
-But design without participation contains a judgment:
-
-You may receive the good life.
-
-You may not help define it.
+But design without participation contains a judgment: you may receive the good life, and you may not help define it.
 
 The difference between benevolence and shared power lies partly in who retains the right to interpret what is good.
 
@@ -84,11 +70,7 @@ The Panic of 1893 weakened the railroad industry and reduced demand for Pullman 
 
 The same arrangement that had appeared protective became difficult to escape. The company controlled the wage. The company controlled the rent. A worker could receive a smaller paycheck while owing the same landlord—and the employer and landlord were the same institution.
 
-The scale moved on both sides.
-
-Income fell.
-
-Obligation remained.
+The scale moved on both sides: income fell while obligation remained.
 
 The town’s beauty did not vanish. But an attractive environment has limited value to a person who cannot afford food.
 
@@ -98,19 +80,11 @@ When conditions changed, workers formed a grievance committee and attempted to n
 
 Workers struck on May 11, 1894.[^c9-strike]
 
-The model town had been designed to reduce conflict.
-
-Its design had not eliminated conflicting interests.
-
-It had concentrated them inside one relationship.
+The model town had been designed to reduce conflict. Its design had not eliminated conflicting interests; it had concentrated them inside one relationship.
 
 ---
 
-Power-over often appears efficient because it shortens the path between judgment and action.
-
-One person decides.
-
-A system executes.
+Power-over often appears efficient because it shortens the path between judgment and action: one person decides, and a system executes.
 
 The employer can coordinate factory, housing, infrastructure, and services according to one plan—without prolonged negotiation, a separate municipal government, or scattered ownership interfering with coherence.
 
@@ -120,15 +94,9 @@ A relationship presented as harmonious becomes a contest. The grievance is not p
 
 The strike attempts to place that weight on the other side of the scale.
 
-Labor is withheld.
+Labor is withheld, production stops, and the cost of ignoring workers rises.
 
-Production stops.
-
-The cost of ignoring workers rises.
-
-The strike does not escape the logic of power-over.
-
-It uses that logic from below.
+The strike uses the logic of power-over from below.
 
 You can compel us because you control employment and property.
 
@@ -148,13 +116,7 @@ The factory could endure a temporary stoppage. Workers without wages could not w
 
 The conflict expanded when the American Railway Union, led by Eugene V. Debs, supported the Pullman workers. Union members refused to handle trains carrying Pullman cars, turning a local labor dispute into a national interruption of rail traffic.[^c9-strike]
 
-The scale changed.
-
-Pullman workers alone could not impose sufficient cost.
-
-Railway workers acting across many companies could.
-
-Shared action created power no individual worker had possessed.
+The scale changed. Pullman workers alone could not impose sufficient cost; railway workers acting across many companies could. Shared action created power no individual worker had possessed.
 
 But collective power did not escape moral complication merely because it arose from people with less institutional authority. A rail boycott affected passengers, mail, businesses, and communities far beyond the original dispute—people who had not determined Pullman’s policies.
 
@@ -186,29 +148,19 @@ Does it return the parties to a relationship in which meaningful negotiation is 
 
 Or does it return the less powerful party to obedience?
 
-Order can prevent harm.
-
-It can also freeze an imbalance.
-
-The scale may stop moving because one hand has pressed it down.
+Order can prevent harm, and it can also freeze an imbalance. The scale may stop moving because one hand has pressed it down.
 
 ---
 
 The commission appointed to investigate the strike later criticized the paternalism of Pullman’s company town and the company’s refusal to address workers’ grievances more constructively. Attractive features had not compensated for an arrangement that denied residents meaningful independence and left them vulnerable when wages fell.[^c9-commission]
 
-The criticism exposed the contradiction inside Pullman’s experiment.
-
-The company wanted the loyalty associated with community.
-
-It preserved the authority associated with property.
+The criticism exposed the contradiction inside Pullman’s experiment. The company wanted the loyalty associated with community while preserving the authority associated with property.
 
 Workers were expected to experience the town as home while the company governed it as investment—participants in social life, subordinates in the structure that controlled it.
 
 This confusion persists wherever institutions want the emotional benefits of partnership without its constraints: the company as family that can end the relationship when business requires it; the leader who asks for candor while controlling every consequence of candor; the government that calls citizens partners while treating participation as consultation after the decision has been made.
 
-The language is mutual.
-
-The structure is vertical.
+The language is mutual; the structure is vertical.
 
 The trouble begins when the institution wants trust without vulnerability, loyalty without voice, responsibility without authority.
 
@@ -226,15 +178,7 @@ This required each person to enter prepared to be affected—not a manager invit
 
 Follett’s related idea of the “law of the situation” attempted to depersonalize orders. Instead of obedience by rank alone, the people involved would examine what the situation required and allow authority to emerge from function, knowledge, and responsibility.[^c9-law-situation]
 
-The phrase can be misunderstood.
-
-Situations do not issue orders by themselves.
-
-Someone still interprets the evidence.
-
-Someone decides what counts as relevant.
-
-Someone possesses the authority to act.
+The phrase can be misunderstood. Situations do not issue orders by themselves: someone still interprets the evidence, decides what counts as relevant, and possesses the authority to act.
 
 The appeal to the situation can become another disguise for power when the powerful person claims that necessity, the market, policy, efficiency, or reality itself has made the decision.
 
@@ -248,9 +192,7 @@ The law gives us no choice.
 
 The decision-maker disappears behind the situation they have interpreted.
 
-Power-with does not mean pretending interpretation has vanished.
-
-It means that the people living within the situation participate meaningfully in discovering what it asks of them.
+Power-with still depends on interpretation. What changes is that the people living within the situation participate meaningfully in discovering what it asks of them.
 
 ---
 
@@ -260,9 +202,7 @@ A supervisor sees a problem and tells a worker what to do.
 
 The order may be correct. The supervisor may possess wider information, understand downstream consequences, or need consistency in a moment that does not allow extended debate.
 
-Power-over can coordinate.
-
-It can also waste knowledge.
+Power-over can coordinate, and it can also waste knowledge.
 
 The worker may understand the machine, customer, route, patient, or exception more closely than the supervisor. An order given without that knowledge may solve the visible problem while creating another.
 
@@ -292,11 +232,7 @@ Some conflicts reach the scale. A resource must be divided. A cost must be assig
 
 The phrase power-with becomes dishonest when it makes real losses sound consensual—collaboration on a plan only one side could reject; employees helping choose how layoffs will occur, then called a shared decision; communities consulted about a project whose construction is already guaranteed.
 
-Participation can soften power-over without changing who ultimately controls the outcome.
-
-The meeting is mutual.
-
-The decision is not.
+Participation can soften power-over without changing who ultimately controls the outcome: the meeting is mutual, the decision is not.
 
 Shared power must be honest about where integration ends and authority begins: who can say no, who bears the loss, who controls the alternatives, what happens when agreement fails.
 
@@ -312,15 +248,7 @@ Instead of leaving the factory and allowing production to resume with replacemen
 
 The sit-down strike began at the end of December and continued for approximately six weeks. Workers sought recognition of the United Automobile Workers and changes in wages, working conditions, job security, and the handling of grievances.[^c9-flint]
 
-The action reversed the ordinary meaning of the factory.
-
-The buildings belonged to General Motors.
-
-The machinery belonged to General Motors.
-
-Management possessed formal authority over production.
-
-Yet production depended upon workers organized as though each person were replaceable within the system.
+The action reversed the ordinary meaning of the factory. The buildings and machinery belonged to General Motors, and management possessed formal authority over production. Yet production depended upon workers organized as though each person were replaceable within the system.
 
 By occupying the plant, the workers used the physical structure of production as leverage against its legal owner. They did not seize the company permanently. They made the company unable to exercise ownership as usual.
 
@@ -338,7 +266,7 @@ An employer has continuing leverage built into the ordinary arrangement—assign
 
 Workers entering that negotiation as isolated individuals do not meet the company on equal terms.
 
-Collective action changes the cost of refusal. It does not make the relationship equal in every respect. It makes the workers difficult to ignore.
+Collective action changes the cost of refusal. Workers become difficult to ignore without becoming equal to the company in every respect.
 
 Power-over can therefore be protective. A strike can compel negotiation where requests failed. A court order can stop a violent person who refuses persuasion. A government can prohibit discrimination even when beneficiaries of the old arrangement have not agreed. A boundary can preserve another person’s freedom from someone who would otherwise dominate them.
 
@@ -378,15 +306,7 @@ The workers had acquired standing the company had resisted granting. They did no
 
 The individual worker no longer confronted the corporation only as an individual. The company’s authority became subject to an organized counterparty capable of negotiating wages, conditions, discipline, and grievances.
 
-This is sometimes called a balance of power.
-
-The phrase fits the scale.
-
-Management sits on one side.
-
-Labor sits on the other.
-
-Each possesses enough weight to prevent the other from acting without consequence.
+This is sometimes called a balance of power, and the phrase fits the scale: management on one side, labor on the other, each with enough weight to prevent the other from acting without consequence.
 
 Balance can protect freedom. When neither side can dominate completely, negotiation becomes necessary. Rights become durable because someone can defend them. Agreements carry more credibility because neither participant depends solely upon the other’s goodwill.
 
@@ -470,9 +390,7 @@ A teacher and a student are not equals in classroom responsibility. A judge and 
 
 Authority becomes less dominating when it is attached to function rather than human rank.
 
-The person directs this action.
-
-They do not become a higher kind of person.
+The person directs this action without becoming a higher kind of person.
 
 ---
 
@@ -484,21 +402,7 @@ Both sides move in relation to a support that belongs completely to neither.
 
 Without the center, the comparison cannot occur.
 
-Public conflict also depends upon things neither side should own completely.
-
-Courts.
-
-Election rules.
-
-Evidence.
-
-Contracts.
-
-Professional standards.
-
-Constitutional rights.
-
-Shared facts.
+Public conflict also depends upon things neither side should own completely: courts, election rules, evidence, contracts, professional standards, constitutional rights, and shared facts.
 
 The legitimacy of these institutions is always imperfect. Courts can favor the powerful. Rules can encode past injustice. Evidence can be selected, hidden, or interpreted through unequal access.
 
@@ -524,27 +428,9 @@ The scale will not disappear.
 
 There will still be unequal wealth, authority, expertise, risk, and responsibility. Some people will possess greater ability to act, interrupt, fund, punish, persuade, and leave. A shared world cannot be built by denying this. It must ask how leverage is constrained, how those affected gain standing, how refusal remains possible, and how power is prevented from becoming a permanent ranking of human worth.
 
-Balance matters.
+Balance matters. The Pullman workers needed leverage; the Flint workers needed organization; rights need enforcement; boundaries need defenders. But a perfectly balanced conflict can remain a conflict forever.
 
-The Pullman workers needed leverage.
-
-The Flint workers needed organization.
-
-Rights need enforcement.
-
-Boundaries need defenders.
-
-But a perfectly balanced conflict can remain a conflict forever.
-
-Each side watches the other.
-
-Each accumulates enough weight to prevent loss.
-
-Neither can move without threatening the balance.
-
-The instrument has protected them from domination.
-
-It has not shown them what they might make together.
+Each side watches the other, accumulates enough weight to prevent loss, and finds that neither can move without threatening the balance. The instrument has protected them from domination without showing them what they might make together.
 
 For that, the parties must look somewhere else.
 
@@ -560,13 +446,13 @@ It cannot reveal what lies beyond the table.
 
 For that, the room needs a window.
 
-[^c9-pullman-town]: See National Park Service, Pullman National Historical Park / Historic Resource Study, and Pullman company-town histories on the approximately four-thousand-acre purchase south of Chicago, company ownership of buildings, and rents designed to return investment.
+[^c9-pullman-town]: See National Park Service, Pullman National Historical Park, on the approximately four-thousand-acre company purchase south of Chicago, company ownership of buildings, and rents designed to return investment, https://www.nps.gov/pull/.
 
-[^c9-panic-rents]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, and related histories on wage cuts after 1893 without corresponding rent reductions, including paycheck rent deductions.
+[^c9-panic-rents]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894* (Washington, DC: Government Printing Office, 1895), on wage cuts after 1893 without corresponding rent reductions, including paycheck rent deductions.
 
-[^c9-strike]: See United States Strike Commission report on the May 11, 1894, Pullman strike, the American Railway Union boycott, the federal injunction and troops, and the jailing of Eugene V. Debs.
+[^c9-strike]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, on the May 11, 1894, Pullman strike, the American Railway Union boycott, the federal injunction and troops, and the jailing of Eugene V. Debs.
 
-[^c9-racial-exclusion]: See National Park Service, Pullman National Historical Park research on racial divisions surrounding the Pullman labor struggles, including exclusion of Black railroad workers from white unions.
+[^c9-racial-exclusion]: See National Park Service, Pullman National Historical Park, on racial divisions surrounding the Pullman labor struggles, including exclusion of Black railroad workers from white unions, https://www.nps.gov/pull/.
 
 [^c9-commission]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, criticizing the company town’s paternalistic structure and Pullman’s response to worker grievances.
 
@@ -576,6 +462,6 @@ For that, the room needs a window.
 
 [^c9-flint]: See Sidney Fine, *Sit-Down: The General Motors Strike of 1936–1937* (Ann Arbor: University of Michigan Press, 1969), on the Flint occupation beginning at the end of December 1936.
 
-[^c9-brigade]: See Fine, *Sit-Down*, and Michigan labor histories on the Women’s Emergency Brigade and community support sustaining the occupation.
+[^c9-brigade]: See Fine, *Sit-Down*, on the Women’s Emergency Brigade and community support sustaining the occupation.
 
 [^c9-settlement]: See Fine, *Sit-Down*, on the February 11, 1937, settlement after forty-four days recognizing the United Automobile Workers as a bargaining representative for its members.
