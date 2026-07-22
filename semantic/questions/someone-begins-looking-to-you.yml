@@ -1,0 +1,47 @@
+id: someone-begins-looking-to-you
+slug: someone-begins-looking-to-you
+question: What happens when someone else begins looking to you?
+summary: Influence arrives before you feel ready—and it changes what your actions mean to others.
+orientation: People inherit influence they did not seek. Once others look to you, your choices carry weight
+  beyond your intent. Renewal, erosion, and responsibility all begin in that shift.
+whatThisIsNot:
+- Not a leadership hype narrative.
+- Not the same as formal authority alone.
+- Not a promise that influence can be returned unchanged.
+status: published
+featured: false
+families:
+- Influence and inheritance
+primaryBookId: book-when-others-look-to-you-v1
+relatedQuestionIds:
+- leaders-become-systems
+- temporary-exceptions-become-permanent
+searchHints:
+- when others look to you
+- influence leadership
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-responsibility
+  description: Start with responsibility as something that can arrive with others' expectations—not only
+    with formal role.
+  whyThisFollows: Being looked to changes what you are answerable for.
+- position: 2
+  entityType: pattern
+  entityId: pattern-leadership-coalesces
+  description: See how leadership forms before anyone announces it.
+  whyThisFollows: Others may look to you before you accept the role.
+- position: 3
+  entityType: book
+  bookSlug: when-others-look-to-you-v1
+  description: 'The primary field guide: how influence forms, trust renews, and erosion begins when responsibility
+    drifts.'
+  whyThisFollows: This book is written for the moment the question describes.
+- position: 4
+  entityType: pattern
+  entityId: pattern-feedback-drives-change
+  description: Notice what keeps renewal possible when others are watching.
+  whyThisFollows: Influence without feedback tends toward erosion.
+closingReflection: 'Being looked to changes the meaning of your actions—even when you did not campaign
+  for the role. The question remains: what would renewal look like from where you stand?'
+carryForwardQuestion: Who is already reading your choices as precedent?

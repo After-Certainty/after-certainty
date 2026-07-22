@@ -1,0 +1,12 @@
+id: event-book-curiosity-before-certainty-published
+type: book_published
+title: Curiosity Before Certainty is published
+summary: A doorway volume on staying open before premature closure — useful when certainty arrives too
+  quickly.
+date: '2026-02-10'
+entityType: book
+entityId: book-curiosity-before-certainty
+featured: false
+significance: standard
+visibility: public
+source: authored

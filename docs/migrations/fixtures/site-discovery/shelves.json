@@ -1,0 +1,173 @@
+{
+  "manifestVersion": 1,
+  "shelves": [
+    {
+      "id": "start-here",
+      "slug": "start-here",
+      "title": "Start Here",
+      "description": "Different doors into the same terrain \u2014 curiosity, systems, trust, perspective, story, and judgment after certainty fails.",
+      "displayOrder": 1,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "curiosity-before-certainty",
+          "how-serious-systems-learn",
+          "trust-beyond-similarity",
+          "what-we-cannot-see",
+          "the-relay",
+          "everyone-knows-love",
+          "after-certainty",
+          "coupling"
+        ]
+      }
+    },
+    {
+      "id": "core-after-certainty",
+      "slug": "core-after-certainty",
+      "title": "Core After Certainty",
+      "description": "Central volumes that anchor the project\u2019s thesis and recurring tensions.",
+      "displayOrder": 2,
+      "featured": true,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "after-certainty",
+          "curiosity-before-certainty",
+          "trust-beyond-similarity",
+          "what-we-cannot-see",
+          "coupling",
+          "how-serious-systems-learn"
+        ]
+      }
+    },
+    {
+      "id": "trust-and-difference",
+      "slug": "trust-and-difference",
+      "title": "Trust and Difference",
+      "description": "How trust forms, drifts, and remains possible across disagreement and partial perspective.",
+      "displayOrder": 3,
+      "featured": true,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "trust-beyond-similarity",
+          "how-trust-forms",
+          "when-trust-stops-tracking-reality",
+          "why-diversity-matters"
+        ]
+      }
+    },
+    {
+      "id": "leadership-and-authority",
+      "slug": "leadership-and-authority",
+      "title": "Leadership and Authority",
+      "description": "When others look to you \u2014 and when authority, accountability, and moral seriousness scale.",
+      "displayOrder": 4,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "when-others-look-to-you-v1",
+          "when-authority-is-misread",
+          "when-authority-outlives-accountability",
+          "when-moral-seriousness-scales",
+          "when-others-become-leaders"
+        ]
+      }
+    },
+    {
+      "id": "systems-and-organizations",
+      "slug": "systems-and-organizations",
+      "title": "Systems and Organizations",
+      "description": "Coupling, learning under pressure, collaboration, and incentive design in serious systems.",
+      "displayOrder": 5,
+      "featured": true,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "coupling",
+          "how-serious-systems-learn",
+          "why-collaboration-is-so-hard",
+          "when-incentives-become-the-moral-language",
+          "when-accountability-no-longer-expires"
+        ]
+      }
+    },
+    {
+      "id": "fiction",
+      "slug": "fiction",
+      "title": "Fiction",
+      "description": "Story doorways into uncertainty, coordination, and what people build when no one has the complete map.",
+      "displayOrder": 6,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "rule",
+        "rule": {
+          "type": "contentType",
+          "values": [
+            "fiction"
+          ]
+        }
+      }
+    },
+    {
+      "id": "practical-handbooks",
+      "slug": "practical-handbooks",
+      "title": "Practical Handbooks",
+      "description": "Applied guides for teams and institutions improving under pressure without perfect information.",
+      "displayOrder": 7,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "rule",
+        "rule": {
+          "type": "contentType",
+          "values": [
+            "handbook"
+          ]
+        }
+      }
+    },
+    {
+      "id": "upcoming",
+      "slug": "upcoming",
+      "title": "Upcoming",
+      "description": "Forthcoming and in-progress volumes not yet fully available.",
+      "displayOrder": 8,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "rule",
+        "rule": {
+          "type": "status",
+          "values": [
+            "forthcoming",
+            "in_progress"
+          ]
+        }
+      }
+    },
+    {
+      "id": "complete-catalog",
+      "slug": "complete-catalog",
+      "title": "Complete catalog",
+      "description": "Every published volume in the library.",
+      "displayOrder": 99,
+      "featured": false,
+      "status": "hidden",
+      "selection": {
+        "mode": "rule",
+        "rule": {
+          "type": "allPublic"
+        }
+      }
+    }
+  ]
+}

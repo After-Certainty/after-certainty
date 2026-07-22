@@ -1,0 +1,19 @@
+id: start-here
+slug: start-here
+title: Start Here
+description: Different doors into the same terrain — curiosity, systems, trust, perspective, story, and
+  judgment after certainty fails.
+displayOrder: 1
+featured: false
+status: active
+selection:
+  mode: curated
+  bookSlugs:
+  - curiosity-before-certainty
+  - how-serious-systems-learn
+  - trust-beyond-similarity
+  - what-we-cannot-see
+  - the-relay
+  - everyone-knows-love
+  - after-certainty
+  - coupling

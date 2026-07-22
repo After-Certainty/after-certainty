@@ -1,48 +1,73 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: when-others-look-to-you-v1
   slug_aliases:
-    - when-others-look-to-you
+  - when-others-look-to-you
   companion_books:
-    - when-others-look-to-you-v2
-  title: "When Others Look to You"
-  subtitle: "Renewal and Erosion in Leadership"
-  description: "A leadership field guide to how influence forms, how trust is renewed, and how erosion begins when responsibility drifts from practice."
+  - when-others-look-to-you-v2
+  title: When Others Look to You
+  subtitle: Renewal and Erosion in Leadership
+  description: A leadership field guide to how influence forms, how trust is renewed, and how erosion
+    begins when responsibility drifts from practice.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   isbns:
-    - "9798257484926"
+  - '9798257484926'
   purchase_links:
-    - retailer: amazon
-      url: https://www.amazon.com/gp/product/B0GX34SRDJ
-      label: Buy on Amazon
+  - retailer: amazon
+    url: https://www.amazon.com/gp/product/B0GX34SRDJ
+    label: Buy on Amazon
   title_page_cover: BookCover.png
   open_graph_image: open-graph.png
   title_page_newpage_after: true
-
+  work_id: when-others-look-to-you
+  edition_relationship: primary
+  is_canonical: true
+  edition_label: Primary volume
+  overview:
+    centralQuestion: How does leadership influence form, renew, and erode when others look to you?
+    whyItExists: When Others Look to You is a field guide to renewal and erosion in leadership — how trust
+      is practiced, how responsibility drifts, and how influence stays answerable.
+    audience: Leaders and people who hold informal influence — including readers arriving from systems,
+      trust, or handbook doorways.
+    nonGoals:
+    - It is not a personality-cult or charisma manual.
+    - The companion edition is parallel enrichment, not a replacement for this primary volume.
+    selectedConcepts:
+    - authority
+    - accountability
+    - contestability
+    - adaptation
+    - coherence-maintenance
+    selectedPatterns:
+    - disagreement-is-suppressed
+    - dissent-is-welcomed
+    - exceptions-are-forever
+    readBefore:
+    - how-serious-systems-learn
+    - trust-beyond-similarity
+    readNext:
+    - when-others-look-to-you-v2
+    - after-certainty
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     default_width: 1600
     auto_discover: false
     entries:
-      - svg: docs/diagrams/pattern-groups.svg
-        png: export-assets/diagrams/pattern-groups.png
-        width: 1600
-      - svg: docs/diagrams/renewal-erosion-map.svg
-        png: export-assets/diagrams/renewal-erosion-map.png
-        width: 1000
-
+    - svg: docs/diagrams/pattern-groups.svg
+      png: export-assets/diagrams/pattern-groups.png
+      width: 1600
+    - svg: docs/diagrams/renewal-erosion-map.svg
+      png: export-assets/diagrams/renewal-erosion-map.png
+      width: 1000
 frontmatter:
   generate:
     enabled: true
@@ -52,11 +77,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -65,15 +88,13 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
-
+  - docx
+  - epub
+  - pdf
 media:
   intro:
     youtubeVideoId: ma1UbSajuVI

@@ -1,0 +1,14 @@
+id: fiction
+slug: fiction
+title: Fiction
+description: Story doorways into uncertainty, coordination, and what people build when no one has the
+  complete map.
+displayOrder: 6
+featured: false
+status: active
+selection:
+  mode: rule
+  rule:
+    type: contentType
+    values:
+    - fiction

@@ -42,7 +42,9 @@ from thinker_concept_audit import (  # noqa: E402
 
 SEMANTIC = Path("semantic")
 SCHEMA_DIR = Path("schema") / "semantic"
-SLUG_PARENTS = frozenset({"glossary", "patterns", "sources", "situations", "thinkers"})
+SLUG_PARENTS = frozenset(
+    {"glossary", "patterns", "sources", "situations", "thinkers", "questions", "trails", "shelves"}
+)
 
 ONTOLOGY_SCHEMA_BY_NAME = {
     "core-terms.yml": "ontology-core-terms.schema.json",
@@ -58,6 +60,10 @@ DIR_SCHEMA = {
     "sources": "source-entry.schema.json",
     "situations": "situation-entry.schema.json",
     "thinkers": "thinker-entry.schema.json",
+    "questions": "question-entry.schema.json",
+    "trails": "trail-entry.schema.json",
+    "shelves": "shelf-entry.schema.json",
+    "change-events": "change-event-entry.schema.json",
 }
 
 
@@ -104,6 +110,9 @@ def _schema_for_path(repo: Path, path: Path) -> tuple[dict, str] | None:
         return None
     if path.name == "relationships.yml" and parts == ("relationships.yml",):
         name = "relationships-file.schema.json"
+        return json.loads((repo / SCHEMA_DIR / name).read_text(encoding="utf-8")), name
+    if path.name == "search-aliases.yml" and parts == ("search-aliases.yml",):
+        name = "search-aliases-file.schema.json"
         return json.loads((repo / SCHEMA_DIR / name).read_text(encoding="utf-8")), name
     if parts[0] in DIR_SCHEMA and len(parts) == 2:
         name = DIR_SCHEMA[parts[0]]
@@ -409,6 +418,23 @@ def validate(
             rc = 1
             for line in manifest_errors:
                 print(f"  {line}", file=sys.stderr)
+
+    from validate_discovery_content import (  # noqa: PLC0415
+        validate_discovery_resources,
+        validate_work_edition_invariants,
+    )
+
+    discovery_errors: list[str] = []
+    discovery_warnings: list[str] = []
+    validate_work_edition_invariants(repo, discovery_errors, discovery_warnings)
+    validate_discovery_resources(repo, discovery_errors, discovery_warnings)
+    for line in discovery_warnings:
+        print(f"WARNING: {line}", file=sys.stderr)
+    if discovery_errors:
+        rc = 1
+        print(f"Discovery error(s): {len(discovery_errors)}", file=sys.stderr)
+        for line in discovery_errors:
+            print(f"  {line}", file=sys.stderr)
 
     if rc == 0:
         n = len(list(_iter_semantic_yml(repo, include_drafts=include_drafts)))

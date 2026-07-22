@@ -1,0 +1,56 @@
+id: meaning-changes-as-it-travels
+slug: meaning-changes-as-it-travels
+question: Why does meaning change as it travels?
+summary: Language, signals, and stories compress, drift, and reshape as they move through people and systems.
+orientation: Meaning is not fixed at the moment of sending. It shifts under pressure, accumulates interpretation,
+  and sometimes outruns the words that carried it. Restraint, contact, and correction all matter in how
+  meaning moves.
+whatThisIsNot:
+- Not a claim that all communication fails.
+- Not the same as bad faith or deliberate distortion alone.
+- Not limited to media—meaning moves in teams, families, and institutions too.
+status: published
+featured: true
+featuredRank: 3
+families:
+- Meaning and interpretation
+primaryBookId: book-how-meaning-moves
+relatedQuestionIds:
+- authority-without-understanding
+- sincere-people-still-wrong
+searchHints:
+- how meaning moves
+- meaning drift
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-meaning
+  description: Begin with meaning as something that forms, travels, and changes—not a static packet of
+    information.
+  whyThisFollows: The question presupposes movement; this concept names what is moving.
+- position: 2
+  entityType: pattern
+  entityId: pattern-meaning-drifts-over-time
+  description: 'Observe the drift: how meaning shifts as it passes through hands, headlines, and habits.'
+  whyThisFollows: Drift is the observable face of meaning in motion.
+- position: 3
+  entityType: book
+  entityId: book-how-meaning-moves
+  description: The primary book on signal, compression, restraint, and the pace of understanding.
+  whyThisFollows: This is the most direct exploration of the question.
+- position: 4
+  entityType: podcast_episode
+  entityId: podcast:how-meaning-moves
+  description: A shorter listen through the same terrain—signal, compression, restraint, and connection.
+  whyThisFollows: Hearing the argument in another form can clarify what reading alone may skip.
+  estimatedMinutes: 12
+- position: 5
+  entityType: concept
+  entityId: concept-interpretation
+  description: 'Carry forward: interpretation is where meaning becomes actionable—and where drift becomes
+    consequential.'
+  whyThisFollows: Travel ends in interpretation; that is where change becomes real.
+closingReflection: Meaning will keep moving. The question is not how to stop drift but how to build enough
+  contact and restraint for correction to remain possible.
+carryForwardQuestion: Where has a message changed between the person who sent it and the person who acted
+  on it?

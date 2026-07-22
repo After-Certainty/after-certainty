@@ -20,13 +20,19 @@
   "properties": {
     "manifestVersion": {
       "type": "integer",
-      "enum": [1, 2]
+      "enum": [
+        1,
+        2
+      ]
     },
     "generatedAt": {
       "type": "string"
     },
     "repository": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "ref": {
       "type": "string",
@@ -80,13 +86,71 @@
     },
     "ontology": {
       "$ref": "#/$defs/ontologyBlock"
+    },
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^2\\.\\d+$",
+      "description": "Additive contract version. 2.1 introduces works/editions and discovery collections."
+    },
+    "sourceCommit": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Git commit SHA of the content tree used to generate this manifest, when available."
+    },
+    "works": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/workEntry"
+      }
+    },
+    "editions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/editionEntry"
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/questionEntry"
+      }
+    },
+    "trails": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/trailEntry"
+      }
+    },
+    "shelves": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/shelfEntry"
+      }
+    },
+    "changeEvents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/changeEventEntry"
+      }
+    },
+    "searchAliases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/searchAliasEntry"
+      }
     }
   },
   "$defs": {
     "formatEntry": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["enabled", "file", "url"],
+      "required": [
+        "enabled",
+        "file",
+        "url"
+      ],
       "properties": {
         "enabled": {
           "type": "boolean"
@@ -96,7 +160,10 @@
           "minLength": 1
         },
         "url": {
-          "type": ["string", "null"]
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },
@@ -140,7 +207,10 @@
           }
         },
         "companionOf": {
-          "type": ["string", "null"]
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "companionBooks": {
           "type": "array",
@@ -151,7 +221,10 @@
         },
         "source": {
           "type": "string",
-          "enum": ["books", "upcoming"]
+          "enum": [
+            "books",
+            "upcoming"
+          ]
         },
         "status": {
           "type": "string",
@@ -162,13 +235,22 @@
           "minLength": 1
         },
         "subtitle": {
-          "type": ["string", "null"]
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "description": {
-          "type": ["string", "null"]
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "summary": {
-          "type": ["string", "null"]
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "authors": {
           "type": "array",
@@ -178,10 +260,16 @@
           }
         },
         "year": {
-          "type": ["integer", "null"]
+          "type": [
+            "integer",
+            "null"
+          ]
         },
         "publicationDate": {
-          "type": ["string", "null"],
+          "type": [
+            "string",
+            "null"
+          ],
           "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
           "description": "ISO 8601 date (YYYY-MM-DD) when the book was published"
         },
@@ -207,16 +295,28 @@
           }
         },
         "coverImage": {
-          "type": ["string", "null"]
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "coverImagePath": {
-          "type": ["string", "null"]
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "openGraphImage": {
-          "type": ["string", "null"]
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "openGraphImagePath": {
-          "type": ["string", "null"]
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "bookDir": {
           "type": "string",
@@ -248,13 +348,86 @@
             "$ref": "#/$defs/purchaseLink"
           },
           "minItems": 1
+        },
+        "workId": {
+          "type": "string",
+          "pattern": "^work-[a-zA-Z0-9._-]+$"
+        },
+        "editionId": {
+          "type": "string",
+          "pattern": "^book-[a-zA-Z0-9._-]+$"
+        },
+        "isCanonical": {
+          "type": "boolean"
+        },
+        "editionRelationship": {
+          "type": "string",
+          "enum": [
+            "sole",
+            "primary",
+            "companion",
+            "superseded"
+          ]
+        },
+        "editionLabel": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "contentType": {
+          "type": "string",
+          "enum": [
+            "nonfiction",
+            "fiction",
+            "handbook",
+            "essay_collection"
+          ]
+        },
+        "publicStatus": {
+          "type": "string",
+          "enum": [
+            "published",
+            "upcoming",
+            "revised",
+            "superseded",
+            "archived",
+            "forthcoming",
+            "in_progress",
+            "draft"
+          ]
+        },
+        "availability": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "download_docx",
+              "download_epub",
+              "download_pdf",
+              "available_in_print"
+            ]
+          }
+        },
+        "searchAliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "overview": {
+          "$ref": "#/$defs/bookOverview"
         }
       }
     },
     "purchaseLink": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["retailer", "url"],
+      "required": [
+        "retailer",
+        "url"
+      ],
       "properties": {
         "retailer": {
           "type": "string",
@@ -306,7 +479,12 @@
     "mediaInfographic": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["url", "path", "width", "height"],
+      "required": [
+        "url",
+        "path",
+        "width",
+        "height"
+      ],
       "properties": {
         "url": {
           "type": "string",
@@ -331,24 +509,38 @@
     },
     "stringList": {
       "type": "array",
-      "items": { "type": "string", "minLength": 1 },
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
       "minItems": 1
     },
     "trajectoryBlock": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "earlySignals": { "$ref": "#/$defs/stringList" },
-        "intensificationSignals": { "$ref": "#/$defs/stringList" },
-        "failureModes": { "$ref": "#/$defs/stringList" },
-        "restorationPaths": { "$ref": "#/$defs/stringList" }
+        "earlySignals": {
+          "$ref": "#/$defs/stringList"
+        },
+        "intensificationSignals": {
+          "$ref": "#/$defs/stringList"
+        },
+        "failureModes": {
+          "$ref": "#/$defs/stringList"
+        },
+        "restorationPaths": {
+          "$ref": "#/$defs/stringList"
+        }
       }
     },
     "manifestationsBlock": {
       "type": "object",
       "additionalProperties": {
         "type": "array",
-        "items": { "type": "string", "minLength": 1 },
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
         "minItems": 1
       }
     },
@@ -356,11 +548,21 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "recognitionSignals": { "$ref": "#/$defs/stringList" },
-        "questions": { "$ref": "#/$defs/stringList" },
-        "counterbalances": { "$ref": "#/$defs/stringList" },
-        "manifestations": { "$ref": "#/$defs/manifestationsBlock" },
-        "trajectory": { "$ref": "#/$defs/trajectoryBlock" }
+        "recognitionSignals": {
+          "$ref": "#/$defs/stringList"
+        },
+        "questions": {
+          "$ref": "#/$defs/stringList"
+        },
+        "counterbalances": {
+          "$ref": "#/$defs/stringList"
+        },
+        "manifestations": {
+          "$ref": "#/$defs/manifestationsBlock"
+        },
+        "trajectory": {
+          "$ref": "#/$defs/trajectoryBlock"
+        }
       }
     },
     "glossaryEntry": {
@@ -401,7 +603,11 @@
         },
         "termKind": {
           "type": "string",
-          "enum": ["core", "supporting", "extended"]
+          "enum": [
+            "core",
+            "supporting",
+            "extended"
+          ]
         },
         "isCoreTerm": {
           "type": "boolean"
@@ -434,11 +640,21 @@
             "minimum": 0
           }
         },
-        "recognitionSignals": { "$ref": "#/$defs/stringList" },
-        "questions": { "$ref": "#/$defs/stringList" },
-        "counterbalances": { "$ref": "#/$defs/stringList" },
-        "manifestations": { "$ref": "#/$defs/manifestationsBlock" },
-        "trajectory": { "$ref": "#/$defs/trajectoryBlock" }
+        "recognitionSignals": {
+          "$ref": "#/$defs/stringList"
+        },
+        "questions": {
+          "$ref": "#/$defs/stringList"
+        },
+        "counterbalances": {
+          "$ref": "#/$defs/stringList"
+        },
+        "manifestations": {
+          "$ref": "#/$defs/manifestationsBlock"
+        },
+        "trajectory": {
+          "$ref": "#/$defs/trajectoryBlock"
+        }
       }
     },
     "patternEntry": {
@@ -529,11 +745,21 @@
         "infographic": {
           "$ref": "#/$defs/mediaInfographic"
         },
-        "recognitionSignals": { "$ref": "#/$defs/stringList" },
-        "questions": { "$ref": "#/$defs/stringList" },
-        "counterbalances": { "$ref": "#/$defs/stringList" },
-        "manifestations": { "$ref": "#/$defs/manifestationsBlock" },
-        "trajectory": { "$ref": "#/$defs/trajectoryBlock" }
+        "recognitionSignals": {
+          "$ref": "#/$defs/stringList"
+        },
+        "questions": {
+          "$ref": "#/$defs/stringList"
+        },
+        "counterbalances": {
+          "$ref": "#/$defs/stringList"
+        },
+        "manifestations": {
+          "$ref": "#/$defs/manifestationsBlock"
+        },
+        "trajectory": {
+          "$ref": "#/$defs/trajectoryBlock"
+        }
       }
     },
     "situationEntry": {
@@ -553,32 +779,68 @@
           "type": "string",
           "pattern": "^situation-[a-zA-Z0-9._-]+$"
         },
-        "slug": { "type": "string", "minLength": 1 },
-        "title": { "type": "string", "minLength": 1 },
-        "summary": { "type": "string" },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "summary": {
+          "type": "string"
+        },
         "activePatterns": {
           "type": "array",
-          "items": { "type": "string", "pattern": "^pattern-[a-zA-Z0-9._-]+$" }
+          "items": {
+            "type": "string",
+            "pattern": "^pattern-[a-zA-Z0-9._-]+$"
+          }
         },
         "relatedConcepts": {
           "type": "array",
-          "items": { "type": "string", "pattern": "^concept-[a-zA-Z0-9._-]+$" }
+          "items": {
+            "type": "string",
+            "pattern": "^concept-[a-zA-Z0-9._-]+$"
+          }
         },
         "relatedBooks": {
           "type": "array",
-          "items": { "type": "string", "pattern": "^book-[a-zA-Z0-9._-]+$" }
+          "items": {
+            "type": "string",
+            "pattern": "^book-[a-zA-Z0-9._-]+$"
+          }
         },
-        "recognitionSignals": { "$ref": "#/$defs/stringList" },
-        "questions": { "$ref": "#/$defs/stringList" },
-        "counterbalances": { "$ref": "#/$defs/stringList" },
-        "manifestations": { "$ref": "#/$defs/manifestationsBlock" },
-        "trajectory": { "$ref": "#/$defs/trajectoryBlock" }
+        "recognitionSignals": {
+          "$ref": "#/$defs/stringList"
+        },
+        "questions": {
+          "$ref": "#/$defs/stringList"
+        },
+        "counterbalances": {
+          "$ref": "#/$defs/stringList"
+        },
+        "manifestations": {
+          "$ref": "#/$defs/manifestationsBlock"
+        },
+        "trajectory": {
+          "$ref": "#/$defs/trajectoryBlock"
+        }
       }
     },
     "sourceEntry": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "slug", "name", "type", "summary", "concepts", "patterns", "relatedBooks"],
+      "required": [
+        "id",
+        "slug",
+        "name",
+        "type",
+        "summary",
+        "concepts",
+        "patterns",
+        "relatedBooks"
+      ],
       "properties": {
         "id": {
           "type": "string",
@@ -636,21 +898,47 @@
         },
         "creatorNames": {
           "type": "array",
-          "items": { "type": "string", "minLength": 1 },
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
           "minItems": 1
         },
         "creatorSlugs": {
           "type": "array",
-          "items": { "type": "string", "minLength": 1 },
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
           "minItems": 1
         },
-        "title": { "type": "string", "minLength": 1 },
-        "citation": { "type": "string" },
-        "year": { "type": "integer", "minimum": 1000, "maximum": 2100 },
-        "publisher": { "type": "string", "minLength": 1 },
-        "institution": { "type": "string", "minLength": 1 },
-        "url": { "type": "string", "format": "uri" },
-        "whyThisMatters": { "type": "string" }
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "citation": {
+          "type": "string"
+        },
+        "year": {
+          "type": "integer",
+          "minimum": 1000,
+          "maximum": 2100
+        },
+        "publisher": {
+          "type": "string",
+          "minLength": 1
+        },
+        "institution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "whyThisMatters": {
+          "type": "string"
+        }
       }
     },
     "thinkerEntry": {
@@ -672,13 +960,24 @@
           "type": "string",
           "pattern": "^thinker-[a-zA-Z0-9._-]+$"
         },
-        "slug": { "type": "string", "minLength": 1 },
-        "name": { "type": "string", "minLength": 1 },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
         "type": {
           "type": "string",
-          "enum": ["person", "organization"]
+          "enum": [
+            "person",
+            "organization"
+          ]
         },
-        "summary": { "type": "string" },
+        "summary": {
+          "type": "string"
+        },
         "concepts": {
           "type": "array",
           "items": {
@@ -707,13 +1006,20 @@
             "pattern": "^source-[a-zA-Z0-9._-]+$"
           }
         },
-        "whyThisMatters": { "type": "string" }
+        "whyThisMatters": {
+          "type": "string"
+        }
       }
     },
     "relationshipEntry": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["source", "target", "relationship", "description"],
+      "required": [
+        "source",
+        "target",
+        "relationship",
+        "description"
+      ],
       "properties": {
         "source": {
           "type": "string",
@@ -735,14 +1041,22 @@
     "ontologyBlock": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["masterTerms", "structuralPressures"],
+      "required": [
+        "masterTerms",
+        "structuralPressures"
+      ],
       "properties": {
         "masterTerms": {
           "type": "array",
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["id", "slug", "title", "preserves"],
+            "required": [
+              "id",
+              "slug",
+              "title",
+              "preserves"
+            ],
             "properties": {
               "id": {
                 "type": "string",
@@ -767,7 +1081,12 @@
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["id", "slug", "title", "effect"],
+            "required": [
+              "id",
+              "slug",
+              "title",
+              "effect"
+            ],
             "properties": {
               "id": {
                 "type": "string",
@@ -786,6 +1105,604 @@
               }
             }
           }
+        }
+      }
+    },
+    "bookOverview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "centralQuestion",
+        "whyItExists",
+        "audience",
+        "nonGoals"
+      ],
+      "properties": {
+        "centralQuestion": {
+          "type": "string",
+          "minLength": 1
+        },
+        "whyItExists": {
+          "type": "string",
+          "minLength": 1
+        },
+        "audience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "nonGoals": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "selectedConceptIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^concept-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "selectedPatternIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^pattern-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "readBefore": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "readNext": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "revisedAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "changeSummary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "workEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "currentEditionId",
+        "contentType"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^work-[a-zA-Z0-9._-]+$"
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "currentEditionId": {
+          "type": "string",
+          "pattern": "^book-[a-zA-Z0-9._-]+$"
+        },
+        "contentType": {
+          "type": "string",
+          "enum": [
+            "nonfiction",
+            "fiction",
+            "handbook",
+            "essay_collection"
+          ]
+        },
+        "canonicalRoute": {
+          "type": "string",
+          "minLength": 1
+        },
+        "editionIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^book-[a-zA-Z0-9._-]+$"
+          }
+        }
+      }
+    },
+    "editionEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "workId",
+        "slug",
+        "isCanonical",
+        "relationship",
+        "bookId"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^book-[a-zA-Z0-9._-]+$"
+        },
+        "bookId": {
+          "type": "string",
+          "pattern": "^book-[a-zA-Z0-9._-]+$"
+        },
+        "workId": {
+          "type": "string",
+          "pattern": "^work-[a-zA-Z0-9._-]+$"
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "isCanonical": {
+          "type": "boolean"
+        },
+        "relationship": {
+          "type": "string",
+          "enum": [
+            "sole",
+            "primary",
+            "companion",
+            "superseded"
+          ]
+        },
+        "editionLabel": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "companionEditionIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^book-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "companionOfEditionId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^book-[a-zA-Z0-9._-]+$"
+        },
+        "title": {
+          "type": "string"
+        }
+      }
+    },
+    "pathStop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "position",
+        "entityType",
+        "description"
+      ],
+      "properties": {
+        "position": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "entityType": {
+          "type": "string"
+        },
+        "entityId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "bookSlug": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "externalUrl": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "whyThisFollows": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estimatedMinutes": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "resolvedSlug": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "questionEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "question",
+        "summary",
+        "orientation",
+        "status",
+        "families",
+        "primaryBookId",
+        "pathStops",
+        "closingReflection"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "question": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "orientation": {
+          "type": "string"
+        },
+        "whatThisIsNot": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        },
+        "featured": {
+          "type": "boolean"
+        },
+        "featuredRank": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "families": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "primaryBookId": {
+          "type": "string"
+        },
+        "relatedQuestionIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "searchHints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "pathStops": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pathStop"
+          }
+        },
+        "closingReflection": {
+          "type": "string"
+        },
+        "carryForwardQuestion": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "trailEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "summary",
+        "orientation",
+        "status",
+        "themes",
+        "pathStops",
+        "closingReflection"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "orientation": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "featured": {
+          "type": "boolean"
+        },
+        "featuredRank": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "themes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "audience": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "depth": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "primaryBookId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "relatedTrailIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "pathStops": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pathStop"
+          }
+        },
+        "closingReflection": {
+          "type": "string"
+        },
+        "suggestedContinuation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "estimatedCommitment": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "shelfEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "description",
+        "displayOrder",
+        "featured",
+        "status",
+        "selection"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "displayOrder": {
+          "type": "integer"
+        },
+        "featured": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string"
+        },
+        "selection": {
+          "type": "object"
+        },
+        "resolvedBookIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^book-[a-zA-Z0-9._-]+$"
+          }
+        }
+      }
+    },
+    "changeEventEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "title",
+        "summary",
+        "date",
+        "entityType",
+        "visibility",
+        "source"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "whyItMatters": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date": {
+          "type": "string"
+        },
+        "entityType": {
+          "type": "string"
+        },
+        "entityId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "featured": {
+          "type": "boolean"
+        },
+        "significance": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "visibility": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "relatedEditionId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "canonicalRoute": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "coverImage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "searchAliasEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "terms",
+        "kind",
+        "targetIds"
+      ],
+      "properties": {
+        "terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "alias",
+            "related"
+          ]
+        },
+        "targetIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     }

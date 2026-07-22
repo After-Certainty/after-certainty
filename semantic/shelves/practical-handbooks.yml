@@ -1,0 +1,13 @@
+id: practical-handbooks
+slug: practical-handbooks
+title: Practical Handbooks
+description: Applied guides for teams and institutions improving under pressure without perfect information.
+displayOrder: 7
+featured: false
+status: active
+selection:
+  mode: rule
+  rule:
+    type: contentType
+    values:
+    - handbook

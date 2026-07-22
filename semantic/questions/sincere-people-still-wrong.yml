@@ -1,0 +1,45 @@
+id: sincere-people-still-wrong
+slug: sincere-people-still-wrong
+question: Why can sincere people still be wrong?
+summary: Sincerity and accuracy are not the same—and partial sight can feel complete from the inside.
+orientation: Sincere people can be wrong without being dishonest. Finite perspective, compression, and
+  premature certainty all produce confident error. The question is how to stay corrigible without cynicism.
+whatThisIsNot:
+- Not an argument that sincerity does not matter.
+- Not a culture-war framing about who is 'really' sincere.
+- Not a claim that everyone is equally right.
+status: published
+featured: false
+families:
+- Judgment and uncertainty
+primaryBookId: book-curiosity-before-certainty
+relatedQuestionIds:
+- act-before-certainty-arrives
+- meaning-changes-as-it-travels
+searchHints:
+- sincere wrong certainty
+- curiosity judgment
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-certainty
+  description: Begin with certainty—not as truth, but as a stance that can close learning too soon.
+  whyThisFollows: Sincere wrongness often arrives dressed as certainty.
+- position: 2
+  entityType: concept
+  entityId: concept-bias
+  description: See partial sight as structural—not only malice, but the limits of any vantage point.
+  whyThisFollows: Sincerity does not erase partial sight.
+- position: 3
+  entityType: book
+  entityId: book-curiosity-before-certainty
+  description: 'The primary entry: staying curious when easy certainty would end the inquiry.'
+  whyThisFollows: Curiosity is the practical antidote the corpus offers first.
+- position: 4
+  entityType: concept
+  entityId: concept-correction
+  description: 'Carry forward: correction requires pathways, not just good intentions.'
+  whyThisFollows: Being wrong is less dangerous when correction remains possible.
+closingReflection: Sincerity may remain real—and still miss. The question is not how to doubt everything,
+  but how to stay reachable by evidence and disagreement.
+carryForwardQuestion: What would you need to hear to reconsider a view you hold sincerely?

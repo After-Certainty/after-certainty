@@ -1,0 +1,47 @@
+id: institutions-preserve-obsolete-rules
+slug: institutions-preserve-obsolete-rules
+question: Why do institutions preserve rules that no longer fit?
+summary: Rules persist because they once solved real problems—even when the problems have changed.
+orientation: Institutions do not only fail by breaking down. They can also fail by keeping structures
+  that made sense under old conditions but now produce drift, friction, or harm. Understanding why rules
+  persist is different from simply calling for change.
+whatThisIsNot:
+- Not a blanket critique of all bureaucracy.
+- Not the same as temporary exceptions becoming permanent—though the patterns can overlap.
+- Not a promise that better rules are easy to write.
+status: published
+featured: false
+families:
+- Systems and institutions
+primaryBookId: book-coupling
+relatedQuestionIds:
+- temporary-exceptions-become-permanent
+- scoreboard-settles-and-cannot
+searchHints:
+- institutions rules
+- coupling drift
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-bureaucracy
+  description: Begin with bureaucracy not as insult but as structure—rules, roles, and routines that outlive
+    their designers.
+  whyThisFollows: Obsolete rules usually live inside structures that once worked.
+- position: 2
+  entityType: concept
+  entityId: concept-drift
+  description: See how systems slowly move away from the conditions they were built for.
+  whyThisFollows: Rules often fit the past while the present has drifted.
+- position: 3
+  entityType: book
+  entityId: book-coupling
+  description: The primary book on connection, cohesion, drift, and consequence over time.
+  whyThisFollows: Coupling explains how institutions preserve patterns even as context changes.
+- position: 4
+  entityType: pattern
+  entityId: pattern-exceptions-are-forever
+  description: Connect to how exceptions and rules interact when rollback never arrives.
+  whyThisFollows: Obsolete rules often survive alongside permanent exceptions.
+closingReflection: Institutions preserve rules for reasons that once made sense. The question is not only
+  which rules to change, but what would need to renew for new rules to take hold.
+carryForwardQuestion: Which rule in your institution still solves yesterday's problem?

@@ -1,0 +1,46 @@
+id: good-intentions-still-miss
+slug: good-intentions-still-miss
+question: Why do good intentions still miss so much?
+summary: Intent is real—but partial sight, bias, and institutional blind spots still leave harm unnoticed.
+orientation: Good intentions do not guarantee good outcomes. What gets noticed, trusted, and acted on
+  depends on vantage point, legibility, and who is positioned to speak. Missing something is not always
+  malice—it is often structure.
+whatThisIsNot:
+- Not an excuse for harm or indifference.
+- Not the same as diversity as representation alone.
+- Not a claim that intentions do not matter.
+status: published
+featured: false
+families:
+- Identity and perspective
+primaryBookId: book-why-diversity-matters
+relatedQuestionIds:
+- trust-survives-disagreement
+- collaboration-remains-difficult
+searchHints:
+- good intentions miss
+- diversity perspective
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-bias
+  description: Begin with bias as partial sight—the selective work of perception, not only prejudice.
+  whyThisFollows: Missing often begins with what a vantage point cannot see.
+- position: 2
+  entityType: concept
+  entityId: concept-legibility
+  description: Ask what institutions can see—and what remains illegible to their instruments and routines.
+  whyThisFollows: Good intent cannot reach what the system cannot register.
+- position: 3
+  entityType: book
+  entityId: book-why-diversity-matters
+  description: The primary book on what gets noticed, trusted, and ignored—not just who is in the room.
+  whyThisFollows: This is the deepest treatment of the question in the corpus.
+- position: 4
+  entityType: pattern
+  entityId: pattern-learning-collapses
+  description: See when feedback loops fail and ground truth never reaches decision-makers.
+  whyThisFollows: Missing persists when learning collapses.
+closingReflection: Good intentions may remain—and still miss. The work is to widen what can be seen without
+  pretending any single view becomes complete.
+carryForwardQuestion: What harm might be visible from a vantage point you do not occupy?

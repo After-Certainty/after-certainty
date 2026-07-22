@@ -1,0 +1,12 @@
+id: event-book-after-certainty-published
+type: book_published
+title: After Certainty is published
+summary: The project’s namesake volume is available to read and download — an orientation to living and
+  judging when understanding is not enough.
+date: '2026-01-15'
+entityType: book
+entityId: book-after-certainty
+featured: true
+significance: major
+visibility: public
+source: authored

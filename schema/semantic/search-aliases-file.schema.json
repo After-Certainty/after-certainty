@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/search-aliases-file.schema.json",
+  "title": "Search aliases file YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "entries"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "terms",
+          "kind",
+          "targetIds"
+        ],
+        "properties": {
+          "terms": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "common.json#/$defs/nonEmptyString"
+            }
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "alias",
+              "related"
+            ]
+          },
+          "targetIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "note": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

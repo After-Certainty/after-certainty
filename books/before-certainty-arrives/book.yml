@@ -1,25 +1,23 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: before-certainty-arrives
-  title: "Before Certainty Arrives"
-  subtitle: "How Moral Order Forms, Hardens, and Outlives Its Reasons"
-  description: "How moral order forms, hardens, and outlives its reasons—before certainty feels like the only available posture."
+  title: Before Certainty Arrives
+  subtitle: How Moral Order Forms, Hardens, and Outlives Its Reasons
+  description: How moral order forms, hardens, and outlives its reasons—before certainty feels like the
+    only available posture.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: fiction
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -29,11 +27,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -42,11 +38,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

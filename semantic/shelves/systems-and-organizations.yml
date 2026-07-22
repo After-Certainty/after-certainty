@@ -1,0 +1,15 @@
+id: systems-and-organizations
+slug: systems-and-organizations
+title: Systems and Organizations
+description: Coupling, learning under pressure, collaboration, and incentive design in serious systems.
+displayOrder: 5
+featured: true
+status: active
+selection:
+  mode: curated
+  bookSlugs:
+  - coupling
+  - how-serious-systems-learn
+  - why-collaboration-is-so-hard
+  - when-incentives-become-the-moral-language
+  - when-accountability-no-longer-expires

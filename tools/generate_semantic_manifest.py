@@ -25,6 +25,7 @@ from book_specs import (
     load_book_spec,
     load_upcoming_spec,
 )
+from discovery_manifest import attach_discovery_collections, enrich_book_discovery_fields
 from manifest_books import build_book_entry, raw_content_url, resolve_repo_slug
 from manifest_markdown import resolve_markdown_units
 from pattern_yaml import (
@@ -886,6 +887,7 @@ def main() -> None:
     published_slugs: set[str] = set()
     book_media_by_slug: dict[str, dict] = {}
     book_commerce_by_slug: dict[str, dict] = {}
+    specs_by_slug: dict[str, dict] = {}
     for spec_path in discover_book_spec_paths(repo):
         spec = load_book_spec(spec_path)
         entry = build_book_entry(
@@ -900,6 +902,7 @@ def main() -> None:
         )
         base_books.append(entry)
         published_slugs.add(str(entry["slug"]))
+        specs_by_slug[str(entry["slug"])] = spec
         media = build_book_media_from_spec(spec)
         if media:
             book_media_by_slug[str(entry["slug"])] = media
@@ -924,6 +927,7 @@ def main() -> None:
             status=str(upcoming.get("status", "in_progress")).strip() or "in_progress",
         )
         base_books.append(entry)
+        specs_by_slug[str(entry["slug"])] = spec
         media = build_book_media_from_spec(spec)
         if media:
             book_media_by_slug[str(entry["slug"])] = media
@@ -943,6 +947,10 @@ def main() -> None:
     relationships = build_relationships(repo)
     rev = _reverse_index_entities(glossary, patterns, sources)
     books = _enriched_books(base_books, rev, book_media_by_slug, book_commerce_by_slug)
+    for book in books:
+        spec = specs_by_slug.get(str(book["slug"]))
+        if spec:
+            enrich_book_discovery_fields(spec, book)
 
     scan_slugs = set(core_slugs) | set(supporting_slugs)
     _apply_mentions(base_books, glossary, repo, scan_slugs=scan_slugs)
@@ -964,6 +972,16 @@ def main() -> None:
     }
     if thinkers:
         payload["thinkers"] = thinkers
+    attach_discovery_collections(
+        payload,
+        repo=repo,
+        books=books,
+        glossary=glossary,
+        patterns=patterns,
+        situations=situations,
+        sources=sources,
+        thinkers=thinkers,
+    )
 
     out_path = Path(args.out).resolve()
     out_path.parent.mkdir(parents=True, exist_ok=True)

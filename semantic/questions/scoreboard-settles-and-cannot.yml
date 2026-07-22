@@ -1,0 +1,48 @@
+id: scoreboard-settles-and-cannot
+slug: scoreboard-settles-and-cannot
+question: What can a scoreboard settle—and what can it not?
+summary: Metrics coordinate action, but they cannot carry the full moral weight of what happened.
+orientation: Scoreboards make some things visible and other things disappear. When metrics become the
+  moral language of an institution, judgment thins—even while dashboards look precise.
+whatThisIsNot:
+- Not an argument against all measurement.
+- Not the same as The Economy We Don't Experience (aggregate vs lived narrative).
+- Not a claim that numbers never help.
+status: published
+featured: false
+families:
+- Measurement and lived experience
+primaryBookId: book-when-incentives-become-the-moral-language
+relatedQuestionIds:
+- institutions-preserve-obsolete-rules
+- authority-without-understanding
+searchHints:
+- metrics incentives
+- scoreboard judgment
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-attention
+  description: Begin with attention as the gate between signal and response—and how metrics compete for
+    it.
+  whyThisFollows: Scoreboards work by directing attention; that is also their limit.
+- position: 2
+  entityType: concept
+  entityId: concept-judgment
+  description: Hold judgment alongside measurement—what counts as a good decision cannot be fully captured
+    by a metric.
+  whyThisFollows: The question is about what scoreboards cannot settle; judgment names the remainder.
+- position: 3
+  entityType: book
+  entityId: book-when-incentives-become-the-moral-language
+  description: 'The primary essay edition: eight domains where metrics and incentives replaced judgment.'
+  whyThisFollows: This book directly addresses what scoreboards can and cannot carry.
+- position: 4
+  entityType: concept
+  entityId: concept-care
+  description: See what care names that metrics struggle to hold—distress, moral remainder, what happened
+    to people.
+  whyThisFollows: What scoreboards miss often shows up first as unmetered harm or care.
+closingReflection: Scoreboards settle some disputes and hide others. The question is not whether to measure,
+  but what moral language remains when measurement ends.
+carryForwardQuestion: What important thing moved off the ledger when the metric improved?

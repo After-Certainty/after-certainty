@@ -1,0 +1,54 @@
+id: trust-survives-disagreement
+slug: trust-survives-disagreement
+question: How can trust survive disagreement?
+summary: When good people see the world differently, trust has to rest on something other than shared
+  conclusions.
+orientation: Disagreement is not always a failure of character. Often it reflects different vantage points,
+  different evidence, and different stakes. The harder question is how people keep working together when
+  they no longer share the same story.
+whatThisIsNot:
+- Not a guide to winning arguments or converting opponents.
+- Not a claim that all perspectives are equally accurate.
+- Not the same question as whether similarity produces trust.
+status: published
+featured: true
+featuredRank: 1
+families:
+- Trust and disagreement
+primaryBookId: book-trust-beyond-similarity
+relatedQuestionIds:
+- collaboration-remains-difficult
+- sincere-people-still-wrong
+searchHints:
+- trust disagreement
+- trust beyond similarity
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-trust
+  description: Begin with what trust actually requires—not comfort, but enough reliability to keep relating
+    across difference.
+  whyThisFollows: The question assumes trust is still possible; this concept names what must hold when
+    agreement does not.
+- position: 2
+  entityType: pattern
+  entityId: pattern-disagreement-is-suppressed
+  description: Notice when disagreement disappears not because it was resolved, but because it became
+    unsafe to voice.
+  whyThisFollows: Trust cannot survive disagreement if disagreement never appears in the first place.
+- position: 3
+  entityType: book
+  entityId: book-trust-beyond-similarity
+  description: The primary book explores how trust remains possible across difference—and why it becomes
+    more valuable when perspectives diverge.
+  whyThisFollows: After naming the tension, this is the deepest on-site treatment of the question.
+- position: 4
+  entityType: concept
+  entityId: concept-contestability
+  description: See how institutions and relationships stay corrigible when claims can still be challenged
+    without collapsing trust.
+  whyThisFollows: Trust across disagreement needs pathways for revision, not just tolerance.
+closingReflection: 'You may notice trust resting less on sameness and more on how people handle correction,
+  disappointment, and partial sight. The question stays open: what would need to change for disagreement
+  to become information rather than threat?'
+carryForwardQuestion: What makes a disagreement safe enough to learn from?

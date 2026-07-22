@@ -1,0 +1,54 @@
+id: meaning-under-pressure
+slug: meaning-under-pressure
+title: Meaning Under Pressure
+summary: How signal compresses, shifts, and sometimes distorts when stakes rise—across books, concepts,
+  and conversation.
+orientation: Meaning does not travel unchanged. Under pressure it compresses, drifts, and sometimes becomes
+  the argument itself. This trail moves from vocabulary through observable dynamics to a primary book—and
+  optionally to a podcast conversation that walks the same terrain aloud.
+status: published
+featured: true
+featuredRank: 3
+themes:
+- Meaning
+depth: introductory
+primaryBookId: book-how-meaning-moves
+relatedTrailIds:
+- leadership-after-the-person
+- judgment-before-certainty
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-meaning
+  description: Begin with meaning as something carried between people and systems—not fixed in words alone.
+- position: 2
+  entityType: pattern
+  entityId: pattern-meaning-shifts-under-pressure
+  description: Notice how meaning changes when urgency, fear, or institutional stakes enter the conversation.
+  whyThisFollows: The trail's tension is pressure; this pattern names what happens when meaning meets
+    it.
+- position: 3
+  entityType: book
+  entityId: book-how-meaning-moves
+  description: The primary book on signal, compression, restraint, and connection—the forces that carry
+    meaning between people.
+  whyThisFollows: After recognition and pattern, this is the fullest on-site exploration.
+- position: 4
+  entityType: podcast_episode
+  entityId: podcast:how-meaning-moves
+  description: Listen to a conversation that walks through the book's forces in spoken form—a different
+    pace for the same ideas.
+  whyThisFollows: Hearing meaning move aloud can surface what silent reading sometimes skips.
+  optional: true
+  estimatedMinutes: 12
+- position: 5
+  entityType: concept
+  entityId: concept-interpretation
+  description: Carry forward into interpretation—how people reconstruct meaning from partial signal and
+    shared context.
+  whyThisFollows: Meaning under pressure always passes through interpretation; this concept names that
+    work.
+closingReflection: You may notice yourself watching not only what is said but what travels, what compresses,
+  and what gets lost between speaker and listener. The trail ends; the observation does not.
+suggestedContinuation: Browse Start with a Question for tension-framed paths, or search the commons for
+  concepts like compression and signal.

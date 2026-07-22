@@ -1,0 +1,48 @@
+id: collaboration-remains-difficult
+slug: collaboration-remains-difficult
+question: Why does collaboration remain difficult among good people?
+summary: Coordination fails for structural reasons—not only because someone did not try hard enough.
+orientation: Many collaborations begin with shared intent and still fracture. Invisible labor, misaligned
+  incentives, and fragile feedback loops can erode coordination even when everyone means well.
+whatThisIsNot:
+- Not a teamwork tips list or personality assessment.
+- Not a claim that collaboration always fails.
+- Not reducible to trust alone—coordination has its own failure modes.
+status: published
+featured: false
+families:
+- Collaboration and coordination
+primaryBookId: book-why-collaboration-is-so-hard
+relatedQuestionIds:
+- trust-survives-disagreement
+- good-intentions-still-miss
+searchHints:
+- collaboration fail
+- coordination
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-coordination
+  description: Start with coordination itself—the work of aligning action when no one holds the whole
+    picture.
+  whyThisFollows: Collaboration difficulty is often coordination difficulty in disguise.
+- position: 2
+  entityType: pattern
+  entityId: pattern-learning-collapses
+  description: Watch what happens when ground-level learning never reaches the people who could act on
+    it.
+  whyThisFollows: Good intent cannot compensate for broken feedback loops.
+- position: 3
+  entityType: book
+  entityId: book-why-collaboration-is-so-hard
+  description: The primary book examines coordination failure, misaligned incentives, and fragile trust
+    among people who still want the same outcome.
+  whyThisFollows: This is the most direct treatment of the question in the corpus.
+- position: 4
+  entityType: concept
+  entityId: concept-diffuse-ownership
+  description: Consider how responsibility thins when everyone is involved but no one can move the whole.
+  whyThisFollows: Collaboration breaks when ownership becomes too diffuse to act.
+closingReflection: 'Collaboration may feel less like a moral failing and more like a design problem—feedback,
+  ownership, and legibility matter. The work continues: what would make correction easier in your context?'
+carryForwardQuestion: Where does good intent stop reaching the people who need to act on it?

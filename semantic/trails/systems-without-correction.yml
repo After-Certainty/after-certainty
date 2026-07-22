@@ -1,0 +1,45 @@
+id: systems-without-correction
+slug: systems-without-correction
+title: Systems That Cannot Correct Themselves
+summary: When feedback weakens, exceptions harden, and learning collapses—how institutions drift without
+  anyone choosing decay.
+orientation: Systems fail correction long before they fail outright. Feedback thins, temporary fixes become
+  permanent, and coupling choices shape who bears consequences. This trail follows that arc from concept
+  through pattern to a book on how systems join and drift apart.
+status: published
+featured: false
+themes:
+- Systems
+depth: deep
+primaryBookId: book-coupling
+relatedTrailIds:
+- leadership-after-the-person
+- software-judgment-trail
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-feedback
+  description: Start with feedback as the mechanism systems use to learn—when it weakens, correction becomes
+    expensive or invisible.
+- position: 2
+  entityType: pattern
+  entityId: pattern-learning-collapses
+  description: See what happens when organizations stop receiving the information they would need to revise
+    course.
+  whyThisFollows: Feedback is the ideal; collapsed learning is the observable failure mode.
+- position: 3
+  entityType: pattern
+  entityId: pattern-exceptions-are-forever
+  description: Notice when temporary exceptions become permanent rules—often without a formal decision
+    to make them so.
+  whyThisFollows: Exception-hardening is one way systems lose the ability to return to prior standards.
+- position: 4
+  entityType: book
+  entityId: book-coupling
+  description: The primary book on how systems join, drift apart, and how coupling choices shape accountability
+    over time.
+  whyThisFollows: After naming failure modes, this book offers the framework for seeing structural causes.
+closingReflection: Correction is not automatic. Systems that cannot correct themselves often look stable
+  right until the bill arrives somewhere else. The trail names the drift; changing it remains work.
+suggestedContinuation: If you build or maintain software systems, the practitioner trail applies the same
+  ideas to technical judgment and coupling.

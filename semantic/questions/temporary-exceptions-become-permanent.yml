@@ -1,0 +1,55 @@
+id: temporary-exceptions-become-permanent
+slug: temporary-exceptions-become-permanent
+question: What happens when temporary exceptions become permanent?
+summary: Emergency workarounds often outlive the crisis they were meant to serve.
+orientation: Exceptions are sometimes necessary. The danger is when they stop reading as exceptions—when
+  new people are trained on workarounds, rollback plans gather dust, and the temporary becomes normal
+  without anyone deciding it should.
+whatThisIsNot:
+- Not an argument against ever making exceptions.
+- Not the same as institutional decay in general.
+- Not limited to software or leadership—this pattern appears across domains.
+status: published
+featured: true
+featuredRank: 2
+families:
+- Systems and institutions
+primaryBookId: book-when-others-look-to-you-v1
+relatedQuestionIds:
+- institutions-preserve-obsolete-rules
+- leaders-become-systems
+searchHints:
+- temporary exceptions
+- exceptions forever
+pathStops:
+- position: 1
+  entityType: situation
+  entityId: situation-temporary-fixes-become-permanent
+  description: 'Recognize the situation: workarounds that outlive the emergency that created them.'
+  whyThisFollows: Naming the situation helps you see the pattern before diagnosing causes.
+- position: 2
+  entityType: pattern
+  entityId: pattern-exceptions-are-forever
+  description: See the named dynamic—exceptions that stop reading as temporary.
+  whyThisFollows: The pattern gives language for what the situation describes.
+- position: 3
+  entityType: concept
+  entityId: concept-erosion
+  description: Understand how standards thin when exceptions accumulate without renewal.
+  whyThisFollows: Permanence often arrives through gradual erosion, not a single decision.
+- position: 4
+  entityType: book
+  bookSlug: when-others-look-to-you-v1
+  description: 'Leadership context: how exceptions and normalization interact when others are watching
+    how you act.'
+  whyThisFollows: Exceptions often begin with leaders; this book shows how they propagate.
+- position: 5
+  entityType: book
+  entityId: book-coupling
+  description: 'Systems context: how connection, drift, and consequence shape what institutions preserve
+    over time.'
+  whyThisFollows: Permanent exceptions are also a systems story about coupling and scar tissue.
+closingReflection: You may start noticing which 'temporary' measures have quietly become the standard—and
+  who would notice if the original rule returned. That noticing is the beginning of correction, not the
+  end of the question.
+carryForwardQuestion: Which exception in your context has outlived its reason for existing?

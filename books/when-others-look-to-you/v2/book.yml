@@ -1,39 +1,39 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: when-others-look-to-you-v2
   companion_of: when-others-look-to-you-v1
-  title: "When Others Look to You: Companion Edition"
-  subtitle: "Forming, Renewing, Eroding, Repeating"
-  description: "How leadership influence forms, renews, erodes, and repeats across the full cycle of responsibility in practice."
+  title: 'When Others Look to You: Companion Edition'
+  subtitle: Forming, Renewing, Eroding, Repeating
+  description: How leadership influence forms, renews, erodes, and repeats across the full cycle of responsibility
+    in practice.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: BookCover.png
   open_graph_image: open-graph.png
   title_page_newpage_after: true
-
+  work_id: when-others-look-to-you
+  edition_relationship: companion
+  is_canonical: false
+  edition_label: Companion edition
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     default_width: 1600
     auto_discover: false
     entries:
-      - svg: docs/diagrams/pattern-groups.svg
-        png: export-assets/diagrams/pattern-groups.png
-        width: 1600
-      - svg: docs/diagrams/renewal-erosion-map.svg
-        png: export-assets/diagrams/renewal-erosion-map.png
-        width: 1000
-
+    - svg: docs/diagrams/pattern-groups.svg
+      png: export-assets/diagrams/pattern-groups.png
+      width: 1600
+    - svg: docs/diagrams/renewal-erosion-map.svg
+      png: export-assets/diagrams/renewal-erosion-map.png
+      width: 1000
 frontmatter:
   generate:
     enabled: true
@@ -43,11 +43,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -56,11 +54,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

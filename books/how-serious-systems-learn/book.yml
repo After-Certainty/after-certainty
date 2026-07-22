@@ -1,29 +1,46 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: how-serious-systems-learn
-  title: "How Serious Systems Learn"
-  subtitle: "Disciplines for Acting Without Certainty"
-  description: "A handbook for teams and institutions that need to learn in motion, improve under pressure, and make better decisions without waiting for perfect information."
+  title: How Serious Systems Learn
+  subtitle: Disciplines for Acting Without Certainty
+  description: A handbook for teams and institutions that need to learn in motion, improve under pressure,
+    and make better decisions without waiting for perfect information.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: handbook
+  overview:
+    centralQuestion: How can serious systems improve under pressure without waiting for perfect information?
+    whyItExists: This handbook gathers disciplines for learning in motion — for teams and institutions
+      that must act, revise, and remain answerable when certainty is unavailable.
+    audience: Leaders, engineers, operators, and institutional practitioners who need practical learning
+      postures rather than abstract theory alone.
+    nonGoals:
+    - It is not a project-management methodology cookbook.
+    - It does not promise that better process eliminates moral conflict.
+    selectedConcepts:
+    - adaptation
+    - contestability
+    - consequence-architecture
+    - feedback
+    - coordination
+    readBefore:
+    - curiosity-before-certainty
+    readNext:
+    - coupling
+    - when-others-look-to-you-v1
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     auto_discover: false
-
 frontmatter:
   generate:
     enabled: true
@@ -33,11 +50,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -46,11 +61,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

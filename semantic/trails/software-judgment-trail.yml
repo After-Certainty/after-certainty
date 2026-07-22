@@ -1,0 +1,49 @@
+id: software-judgment-trail
+slug: software-judgment-trail
+title: After Certainty for Software Engineers
+summary: Coupling, feedback, and abstraction for people who ship systems—when technical judgment is collective
+  and consequences are distributed.
+orientation: 'Software engineers inherit the same tensions as any institution: weak feedback, tight coupling,
+  and the temptation to substitute metrics for understanding. This trail is for practitioners who want
+  corpus ideas translated into technical judgment without pretending code is separate from human coordination.'
+status: published
+featured: false
+themes:
+- Practice
+audience: Software engineers
+depth: intermediate
+primaryBookId: book-coupling
+relatedTrailIds:
+- systems-without-correction
+- judgment-before-certainty
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-coupling
+  description: Begin with coupling—how tightly joined parts of a system are, and what that means when
+    something changes or fails.
+- position: 2
+  entityType: book
+  entityId: book-coupling
+  description: The primary book on seeing where systems are joined, where they drift, and how those choices
+    shape accountability.
+  whyThisFollows: Coupling is the concept; this book is the sustained treatment engineers can apply to
+    architecture and org design.
+- position: 3
+  entityType: pattern
+  entityId: pattern-feedback-drives-change
+  description: Notice when feedback loops actually change behavior—and when they are too slow, too noisy,
+    or routed to the wrong people.
+  whyThisFollows: Shipping is a feedback problem; this pattern names what makes change possible or impossible.
+- position: 4
+  entityType: concept
+  entityId: concept-abstraction
+  description: End with abstraction—what gets hidden, what gets simplified, and what judgment must still
+    carry across layers.
+  whyThisFollows: Every system design is an abstraction choice; the trail closes by naming what those
+    choices cost.
+closingReflection: Technical judgment is never only technical. Coupling, feedback, and abstraction are
+  ways of seeing how your work connects to everyone else's—and what breaks when those connections are
+  misread.
+suggestedContinuation: Follow Judgment Before Certainty for the broader practice of acting before certainty,
+  or Systems That Cannot Correct Themselves for institutional drift.
