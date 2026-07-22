@@ -64,7 +64,9 @@ def test_cli_writes_report_without_touching_tracked_outputs(tmp_path: Path) -> N
     data = json.loads(js.read_text(encoding="utf-8"))
     assert data["bookCount"] >= 30
     # Tracked reports under reports/ must remain unchanged by this test.
-    assert _run(["git", "diff", "--quiet", "--", "reports/semantic-completeness.md"]).returncode == 0
+    assert (
+        _run(["git", "diff", "--quiet", "--", "reports/semantic-completeness.md"]).returncode == 0
+    )
     assert (
         _run(["git", "diff", "--quiet", "--", "reports/semantic-completeness.json"]).returncode == 0
     )
