@@ -2,8 +2,9 @@
 
 ## Summary
 
-Found 1 difference(s):
+Found 2 difference(s):
 - contentType mismatch `before-certainty-arrives`: site=fiction content=nonfiction
+- contentType mismatch `living-in-sediment`: site=fiction content=nonfiction
 
 ## Intentionally remaining on site
 

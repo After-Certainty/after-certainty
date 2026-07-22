@@ -49,7 +49,7 @@ Ownership boundary: after-certainty owns what the corpus is and means; after-cer
 | Item | Site | Content | Resolution |
 |------|------|---------|------------|
 | WoLTY companions | registry primary/companion + labels | `companion_books` / `companion_of` | Keep companions; add work/edition fields from registry |
-| Content type | TS map | absent | Port overrides into `book.yml`; **correct** `before-certainty-arrives` to nonfiction (site wrongly labeled fiction) |
+| Content type | TS map | absent | Port overrides into `book.yml`; **correct** `before-certainty-arrives` and `living-in-sediment` to nonfiction (site wrongly labeled both fiction; only `the-relay` and `velorum` are fiction) |
 | Overview text | site JSON | absent | Prefer site editorial text into `book.overview` |
 | Podcast alias target | `podcast:how-meaning-moves` | N/A | Kept as opaque external target id |
 
