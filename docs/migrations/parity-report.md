@@ -2,7 +2,8 @@
 
 ## Summary
 
-No corpus-field mismatches detected against frozen site fixtures.
+Found 1 difference(s):
+- contentType mismatch `before-certainty-arrives`: site=fiction content=nonfiction
 
 ## Intentionally remaining on site
 

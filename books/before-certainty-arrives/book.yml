@@ -14,7 +14,7 @@ book:
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-  content_type: fiction
+  content_type: nonfiction
 paths:
   manuscript: ./index.md
   output: .
