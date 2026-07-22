@@ -43,10 +43,3 @@
 
 - [Conclusion — The Table](back-matter/conclusion-the-table.md)
 - [Bibliography](back-matter/bibliography.md)
-
-## Planning
-
-- [Outline (writing plan)](docs/outline.md)
-- [Research notes](docs/research-notes.md)
-- [Book rules](docs/book-rules.md)
-- [Drafting status](docs/status.md)
