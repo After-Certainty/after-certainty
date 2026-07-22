@@ -404,15 +404,15 @@ The chair becomes a system.
 
 And someone begins taking notes.
 
-[^c4-newburgh-context]: See George Washington, Newburgh Address, 15 March 1783, Mount Vernon / Library of Congress documentary editions, on the crisis at New Windsor Cantonment over unpaid compensation and pensions.
+[^c4-newburgh-context]: See “From George Washington to Officers of the Army, 15 March 1783,” Founders Online, National Archives, https://founders.archives.gov/documents/Washington/99-01-02-10840; and Mount Vernon, “Newburgh Address,” https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/newburgh-address, on the crisis at New Windsor Cantonment over unpaid compensation and pensions.
 
-[^c4-temple-meeting]: See Washington, Newburgh Address materials (Mount Vernon / Library of Congress), on Washington’s March 15, 1783, appearance at the Temple of Virtue.
+[^c4-temple-meeting]: See Mount Vernon, “Newburgh Address,” on Washington’s March 15, 1783, appearance at the Temple of Virtue; and Founders Online, “From George Washington to Officers of the Army, 15 March 1783.”
 
-[^c4-washington-address]: See Washington, Newburgh Address, acknowledging the army’s suffering while rejecting military pressure against Congress.
+[^c4-washington-address]: See Founders Online, “From George Washington to Officers of the Army, 15 March 1783,” acknowledging the army’s suffering while rejecting military pressure against Congress.
 
-[^c4-spectacles]: See Mount Vernon and Library of Congress editions of the Newburgh crisis materials on Washington putting on spectacles and remarking that he had grown gray in the officers’ service and was becoming blind.
+[^c4-spectacles]: See Mount Vernon, “Newburgh Address,” on Washington putting on spectacles and remarking that he had grown gray in the officers’ service and was becoming blind.
 
-[^c4-resolutions]: See Mount Vernon and Library of Congress editions of the Newburgh crisis materials on the officers’ resolutions affirming confidence in Washington and rejecting the anonymous proposals, and on Washington’s continued advocacy before Congress.
+[^c4-resolutions]: See Mount Vernon, “Newburgh Conspiracy,” https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/newburgh-conspiracy, on the officers’ resolutions affirming confidence in Washington and rejecting the anonymous proposals, and on Washington’s continued advocacy before Congress.
 
 [^c4-ua173-gear]: See National Transportation Safety Board, *Aircraft Accident Report* NTSB-AAR-79-7, on United Airlines Flight 173’s landing-gear indication problem near Portland on December 28, 1978.
 

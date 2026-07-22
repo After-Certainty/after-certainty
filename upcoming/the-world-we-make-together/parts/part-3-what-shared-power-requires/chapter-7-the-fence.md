@@ -320,7 +320,7 @@ A shared world begins when we stop treating the fence as proof that nothing valu
 
 [^c7-strands]: See the Belfast Agreement: Strand One (Northern Ireland Assembly and Executive); Strand Two (North-South institutions); Strand Three (East-West institutions).
 
-[^c7-referendum]: See Northern Ireland referendum results of May 22, 1998, in which more than 71 percent of Northern Ireland voters supported the agreement.
+[^c7-referendum]: See Northern Ireland Office / Electoral Office for Northern Ireland results for the 22 May 1998 referendum on the Belfast Agreement, in which more than 71 percent of Northern Ireland voters supported the agreement.
 
 [^c7-contact]: See Thomas F. Pettigrew and Linda R. Tropp, “A Meta-Analytic Test of Intergroup Contact Theory,” *Journal of Personality and Social Psychology* 90, no. 5 (2006): 751–83.
 

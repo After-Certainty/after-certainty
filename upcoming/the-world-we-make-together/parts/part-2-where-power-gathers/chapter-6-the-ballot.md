@@ -122,7 +122,7 @@ No examination can identify the person who sees the whole public world.
 
 There is no such person.
 
-The equal ballot limits what anyone may claim from being wiser in one respect. It does not solve ignorance by crowning a wisest citizen.
+The equal ballot limits what anyone may claim from being wiser in one respect. It does not solve ignorance by crowning one citizen the wisest.
 
 ---
 
@@ -206,7 +206,7 @@ Voting remains meaningful, but it becomes incomplete—and dangerous—when aske
 
 Citizens choose representatives who then act through institutions shaped by parties, law, bureaucracy, money, expertise, and unequal capacities for sustained attention. Those with greater resources can continue participating after Election Day: attending meetings, hiring counsel, cultivating relationships, monitoring regulations, organizing campaigns, waiting through a long process. Others contribute one mark and are told that the mark made them sovereign.
 
-The ballot is a genuine form of power, and still only one place where power gathers.
+The ballot is a genuine form of power, but only one place where power gathers.
 
 ---
 
@@ -422,11 +422,11 @@ The citizens leave together.
 
 Between them, the boundaries remain.
 
-[^c6-soweto-queue]: See South African History Online photographic and documentary materials on the April 1994 election queues, including lines toward polling stations in Soweto during the country’s first all-race election, https://www.sahistory.org.za/.
+[^c6-soweto-queue]: See South African History Online on Denis Farrell’s 1994 aerial photograph of a Soweto election queue, https://www.sahistory.org.za/people/denis-farrell; and “The South African general elections: 1994,” https://www.sahistory.org.za/article/south-african-general-elections-1994.
 
 [^c6-sa-election]: See Electoral Commission of South Africa, “27 Apr 1994 National Election” results archive, https://www.elections.org.za/content/pages/reports/npe/selection.aspx; and South African History Online, “Election Results 1994,” https://www.sahistory.org.za/archive/election-results-1994, on the first election on a common voters’ roll after the negotiated transition begun in 1990.
 
-[^c6-sa-votes]: See South African History Online, “Election Results 1994,” and Parliament of the Republic of South Africa historical materials, reporting that approximately 19.7 million votes were cast in the April 1994 nonracial election and that seven parties gained representation in Parliament.
+[^c6-sa-votes]: See South African History Online, “Election Results 1994,” https://www.sahistory.org.za/archive/election-results-1994, reporting that approximately 19.7 million votes were cast in the April 1994 nonracial election and that seven parties gained representation in Parliament.
 
 [^c6-mill-plural]: See John Stuart Mill, *Considerations on Representative Government* (London: Parker, Son, and Bourn, 1861), defending broad participation while proposing forms of plural voting weighted toward greater education or competence.
 

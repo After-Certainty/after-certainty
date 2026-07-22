@@ -29,5 +29,5 @@ build:
       enabled: false
     docx:
       enabled: true
-      # Cover/front-matter silent; Arabic from Introduction; no heads on openers; TOC field.
+      # Cover/front-matter silent; Arabic from Introduction; no heads on openers; no TOC.
       interior_finish: true

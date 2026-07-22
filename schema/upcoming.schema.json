@@ -225,7 +225,7 @@
         },
         "interior_finish": {
           "type": "boolean",
-          "description": "Post-process DOCX: silent front matter, Arabic from Introduction, no running heads on openers, TOC field."
+          "description": "Post-process DOCX: silent front matter, Arabic from Introduction, no running heads on openers, remove Contents/TOC page."
         }
       }
     },

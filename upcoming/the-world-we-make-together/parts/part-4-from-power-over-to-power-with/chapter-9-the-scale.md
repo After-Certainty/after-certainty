@@ -114,7 +114,7 @@ The Pullman workers initially possessed less leverage than the company.
 
 The factory could endure a temporary stoppage. Workers without wages could not wait indefinitely. The town itself gave the company continuing power over the people challenging it.
 
-The conflict expanded when the American Railway Union, led by Eugene V. Debs, supported the Pullman workers. Union members refused to handle trains carrying Pullman cars, turning a local labor dispute into a national interruption of rail traffic.[^c9-strike]
+The conflict expanded when the American Railway Union, led by Eugene V. Debs, supported the Pullman workers. Union members refused to handle trains carrying Pullman cars, turning a local labor dispute into a national interruption of rail traffic.[^c9-aru]
 
 The scale changed. Pullman workers alone could not impose sufficient cost; railway workers acting across many companies could. Shared action created power no individual worker had possessed.
 
@@ -130,7 +130,7 @@ Collective power is not automatically power-with. The word collective tells us h
 
 The federal government intervened in the Pullman conflict.
 
-A federal injunction ordered union leaders to stop interfering with rail traffic and the movement of the mail. President Grover Cleveland sent federal troops into Chicago. Violence intensified, the boycott collapsed, and Debs was jailed for violating the injunction.[^c9-strike]
+A federal injunction ordered union leaders to stop interfering with rail traffic and the movement of the mail. President Grover Cleveland sent federal troops into Chicago. Violence intensified, the boycott collapsed, and Debs was jailed for violating the injunction.[^c9-injunction]
 
 Power gathered above both company and union.
 
@@ -258,7 +258,7 @@ The scale tilted.
 
 A sit-down strike is difficult to describe as power-with. The workers did not invite management into collaborative inquiry and wait for a jointly discovered solution. They created pressure, occupied property, and prevented the company from producing.
 
-General Motors sought injunctions and considered ways to regain control. Police confronted strikers, and violence occurred around the plants. Michigan governor Frank Murphy deployed the National Guard but resisted using it simply to remove the occupiers by force.[^c9-brigade]
+General Motors sought injunctions and considered ways to regain control. Police confronted strikers, and violence occurred around the plants. Michigan governor Frank Murphy deployed the National Guard but resisted using it simply to remove the occupiers by force.[^c9-murphy]
 
 The conflict demonstrates why people with less power sometimes need power-over.
 
@@ -450,9 +450,13 @@ For that, the room needs a window.
 
 [^c9-panic-rents]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894* (Washington, DC: Government Printing Office, 1895), on wage cuts after 1893 without corresponding rent reductions, including paycheck rent deductions.
 
-[^c9-strike]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, on the May 11, 1894, Pullman strike, the American Railway Union boycott, the federal injunction and troops, and the jailing of Eugene V. Debs.
+[^c9-strike]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, on the May 11, 1894, beginning of the Pullman strike.
+
+[^c9-aru]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, on the American Railway Union boycott of trains carrying Pullman cars.
 
 [^c9-racial-exclusion]: See National Park Service, Pullman National Historical Park, on racial divisions surrounding the Pullman labor struggles, including exclusion of Black railroad workers from white unions, https://www.nps.gov/pull/.
+
+[^c9-injunction]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, on the federal injunction, troops in Chicago, and the jailing of Eugene V. Debs.
 
 [^c9-commission]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, criticizing the company town’s paternalistic structure and Pullman’s response to worker grievances.
 
@@ -462,6 +466,8 @@ For that, the room needs a window.
 
 [^c9-flint]: See Sidney Fine, *Sit-Down: The General Motors Strike of 1936–1937* (Ann Arbor: University of Michigan Press, 1969), on the Flint occupation beginning at the end of December 1936.
 
-[^c9-brigade]: See Fine, *Sit-Down*, on the Women’s Emergency Brigade and community support sustaining the occupation.
+[^c9-murphy]: See Fine, *Sit-Down*, on police confrontations, Governor Frank Murphy’s National Guard deployment, and his resistance to using the Guard simply to evict the occupiers by force.
+
+[^c9-brigade]: See Fine, *Sit-Down*, on the Women’s Emergency Brigade and community support—food, first aid, communication, and picket-line defense—sustaining the occupation.
 
 [^c9-settlement]: See Fine, *Sit-Down*, on the February 11, 1937, settlement after forty-four days recognizing the United Automobile Workers as a bargaining representative for its members.

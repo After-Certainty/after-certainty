@@ -8,11 +8,11 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
-- [Contents](front-matter/contents.md)
 - [Introduction — The Switch](front-matter/introduction-the-switch.md)
 
 ## Part I — Who Makes History?
 
+- [Part I](parts/part-1-who-makes-history/bridge.md)
 - [Chapter 1 — The Photograph](parts/part-1-who-makes-history/chapter-1-the-photograph.md)
 - [Chapter 2 — The Door](parts/part-1-who-makes-history/chapter-2-the-door.md)
 - [Chapter 3 — The Clock](parts/part-1-who-makes-history/chapter-3-the-clock.md)

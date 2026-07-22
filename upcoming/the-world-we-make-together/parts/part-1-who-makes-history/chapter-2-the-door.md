@@ -46,7 +46,7 @@ Its broad façade, symmetrical wings, and tall central entrance gave the buildin
 
 By 1957, the legal meaning of its entrance had changed.
 
-Three years earlier, the Supreme Court had ruled in *Brown v. Board of Education* that racial segregation in public education was unconstitutional.[^c2-brown-faubus] Little Rock’s school district adopted a gradual desegregation plan that would begin at Central High School in the fall of 1957. Black students from the city’s segregated schools were invited to volunteer, though the opportunity came with restrictions on many extracurricular activities and with no assurance that the institution around the classes would welcome them.[^c2-nps-plan]
+Three years earlier, the Supreme Court had ruled in *Brown v. Board of Education* that racial segregation in public education was unconstitutional.[^c2-brown] Little Rock’s school district adopted a gradual desegregation plan that would begin at Central High School in the fall of 1957. Black students from the city’s segregated schools were invited to volunteer, though the opportunity came with restrictions on many extracurricular activities and with no assurance that the institution around the classes would welcome them.[^c2-nps-plan]
 
 On paper, the door had opened.
 
@@ -128,9 +128,9 @@ The question is how the structure shaped the act, how the act reproduced or alte
 
 The door at Central High changed several times without moving.
 
-On September 23, the Black students entered the school after the National Guard had been withdrawn. A large crowd outside became violent, and police removed the students from the building for their safety. The opening that had been denied by soldiers could not yet be sustained against the surrounding resistance.[^c2-sept23-eisenhower]
+On September 23, the Black students entered the school after the National Guard had been withdrawn. A large crowd outside became violent, and police removed the students from the building for their safety. The opening that had been denied by soldiers could not yet be sustained against the surrounding resistance.[^c2-sept23]
 
-President Dwight Eisenhower then federalized the Arkansas National Guard and sent troops from the 101st Airborne Division to Little Rock. On September 25, the nine students entered Central High under federal military escort for their first full day of classes.[^c2-sept23-eisenhower]
+President Dwight Eisenhower then federalized the Arkansas National Guard and sent troops from the 101st Airborne Division to Little Rock. On September 25, the nine students entered Central High under federal military escort for their first full day of classes.[^c2-eisenhower-sept25]
 
 The same entrance now carried a different arrangement of power.
 
@@ -386,13 +386,15 @@ It cannot reveal what the action will become.
 
 [^c2-nps-plan]: See National Park Service, Little Rock Central High School National Historic Site, on Little Rock’s gradual desegregation plan, student recruitment, and restrictions Black students were told to expect, https://www.nps.gov/chsc/.
 
-[^c2-brown-faubus]: See *Brown v. Board of Education*, 347 U.S. 483 (1954); Eisenhower, Executive Order 10730 (September 24, 1957); National Park Service, Little Rock Central High School National Historic Site, on Governor Faubus’s use of the Arkansas National Guard and the federal response.
+[^c2-brown]: See *Brown v. Board of Education*, 347 U.S. 483 (1954).
 
 [^c2-eckford-sept4]: See National Park Service, Little Rock Central High School National Historic Site, “The Crisis Begins,” on Elizabeth Eckford’s arrival alone on September 4, 1957, crowd harassment, and National Guard refusal of entry.
 
 [^c2-jane-hill]: See National Park Service, Little Rock Central High School National Historic Site, on Jane Hill’s family receiving death threats and her father’s warning that he could lose his job if she attended Central High.
 
-[^c2-sept23-eisenhower]: See Eisenhower, Executive Order 10730; National Park Service, Little Rock Central High School National Historic Site, chronology of the September 23 removal and the September 25 entry under federal protection.
+[^c2-sept23]: See National Park Service, Little Rock Central High School National Historic Site, chronology of the September 23, 1957, entry and police removal amid crowd violence.
+
+[^c2-eisenhower-sept25]: See Eisenhower, Executive Order 10730 (September 24, 1957); National Park Service, Little Rock Central High School National Historic Site, on the September 25 entry under federal protection.
 
 [^c2-inside-harassment]: See National Park Service, Little Rock Central High School National Historic Site, on harassment inside Central High, limits of military escorts, and threats and economic consequences for families.
 

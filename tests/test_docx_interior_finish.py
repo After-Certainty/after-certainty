@@ -1,4 +1,4 @@
-"""Tests for DOCX interior finish (headers, sections, TOC field)."""
+"""Tests for DOCX interior finish (headers, sections, Contents removal)."""
 
 from __future__ import annotations
 
@@ -65,7 +65,8 @@ def test_finish_interior_clears_front_matter_and_splits_openers(tmp_path: Path) 
     assert status["sections"] == 5
     assert status["front_matter_cleared"] is True
     assert status["body_headers"] is True
-    assert status["toc_field"] is True
+    assert status["toc_removed"] is True
+    assert status["toc_field"] is False
 
     doc = Document(str(out))
     front = doc.sections[0]
@@ -82,6 +83,14 @@ def test_finish_interior_clears_front_matter_and_splits_openers(tmp_path: Path) 
     assert pg is not None
     assert pg.get(qn("w:start")) == "1"
 
+    texts = [(p.text or "").strip() for p in doc.paragraphs]
+    assert "Contents" not in texts
+    assert "Front Matter" not in texts
+    joined = "\n".join(texts)
+    assert "right-click" not in joined.lower()
+    assert "Update Field" not in joined
+    assert any(t == "Introduction" for t in texts)
+
     found_toc = False
     for p in doc.paragraphs:
         for instr in p._element.findall(".//" + qn("w:instrText")):
@@ -90,15 +99,7 @@ def test_finish_interior_clears_front_matter_and_splits_openers(tmp_path: Path) 
                 break
         if found_toc:
             break
-    assert found_toc
-
-    # Static Front Matter label removed from contents body
-    texts = [(p.text or "").strip() for p in doc.paragraphs]
-    assert "Front Matter" not in texts
-    joined = "\n".join(texts)
-    assert "right-click" not in joined.lower()
-    assert "Update Field" not in joined
-    assert any("Introduction" in t for t in texts)
+    assert not found_toc
 
 
 def test_finish_interior_noop_without_introduction(tmp_path: Path) -> None:

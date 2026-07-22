@@ -362,7 +362,7 @@ They believe they are looking outward while encountering their own categories re
 
 The correction begins by noticing the glass: lower the light inside, move closer, open the latch, and allow what is outside to change the air of the room.
 
-Power-with keeps walls, roles, boundaries, and forms of authority while refusing to treat our position inside them as the measure of the whole world.
+Power-with can operate within walls, roles, boundaries, and forms of authority without treating any position inside them as the measure of the whole world.
 
 The leader sees something.
 

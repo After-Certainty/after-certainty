@@ -42,6 +42,19 @@ def _running_title(spec: dict) -> str:
     return title or "Manuscript"
 
 
+def _book_subtitle(spec: dict) -> str:
+    book = spec.get("book") if isinstance(spec.get("book"), dict) else {}
+    return str(book.get("subtitle") or "").strip()
+
+
+def _book_author(spec: dict) -> str:
+    book = spec.get("book") if isinstance(spec.get("book"), dict) else {}
+    author = book.get("author")
+    if isinstance(author, dict):
+        return str(author.get("name") or "").strip()
+    return str(author or "").strip()
+
+
 def _maybe_finish_interior(out: Path, *, spec: dict) -> None:
     cfg = spec_format_config(spec, "docx")
     if cfg.get("interior_finish") is not True:
@@ -50,7 +63,12 @@ def _maybe_finish_interior(out: Path, *, spec: dict) -> None:
     # must not import docx_interior_finish at module load.
     from docx_interior_finish import finish_interior_docx
 
-    status = finish_interior_docx(out, running_title=_running_title(spec))
+    status = finish_interior_docx(
+        out,
+        running_title=_running_title(spec),
+        subtitle=_book_subtitle(spec),
+        author=_book_author(spec),
+    )
     print(f"interior_finish: {status}")
 
 

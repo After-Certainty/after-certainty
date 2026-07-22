@@ -312,7 +312,7 @@ It does not yet show us how the path was built.
 
 [^c1-smithsonian-speech]: See National Museum of American History, “I Have a Dream,” March on Washington collection, https://americanhistory.si.edu/, on King’s speech drawing on biblical language, the Constitution, Lincoln, and other national sources.
 
-[^c1-jackson-dream]: See Martin Luther King, Jr. Research and Education Institute, Stanford University, “I Have a Dream,” https://kinginstitute.stanford.edu/, and National Museum of American History March on Washington materials on Mahalia Jackson’s prompt and King’s departure from prepared text.
+[^c1-jackson-dream]: See Martin Luther King, Jr. Research and Education Institute, Stanford University, “I Have a Dream,” https://kinginstitute.stanford.edu/i-have-dream; and National Museum of American History, “I Have a Dream,” March on Washington collection, https://americanhistory.si.edu/, on Mahalia Jackson’s prompt and King’s departure from prepared text.
 
 [^c1-randolph-rustin]: See National Park Service, “March on Washington for Jobs and Freedom,” https://www.nps.gov/articles/march-on-washington.htm, and the King Institute, identifying A. Philip Randolph as march director and Bayard Rustin as principal organizer.
 

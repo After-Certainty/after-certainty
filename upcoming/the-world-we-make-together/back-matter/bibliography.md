@@ -17,6 +17,10 @@ Adler, Paul S. “The ‘Learning Bureaucracy’: New United Motor Manufacturing
 :::
 
 ::: {custom-style="Bibliography"}
+BlackPast. “Black Panther Party’s Free Breakfast Program (1969–1980).” https://blackpast.org/african-american-history/black-panther-partys-free-breakfast-program-1969-1980/.
+:::
+
+::: {custom-style="Bibliography"}
 *Brown v. Board of Education*, 347 U.S. 483 (1954).
 :::
 
@@ -25,7 +29,7 @@ Bunkley, Nick. “G.M. and Toyota’s Joint Venture Ends in California.” *New 
 :::
 
 ::: {custom-style="Bibliography"}
-California African American Museum. “Free Breakfast for School Children Program.” Los Angeles: CAAM. https://caamuseum.org/.
+California African American Museum. “Free Breakfast for School Children Program.” https://caamuseum.org/.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -69,7 +73,11 @@ Follett, Mary Parker. *Creative Experience*. New York: Longmans, Green, 1924.
 :::
 
 ::: {custom-style="Bibliography"}
-Follett, Mary Parker. *Dynamic Administration: The Collected Papers of Mary Parker Follett*. Edited by Henry C. Metcalf and L. Urwick. New York: Harper & Brothers, 1942. Includes “The Giving of Orders” and related essays on power and the law of the situation.
+Follett, Mary Parker. *Dynamic Administration: The Collected Papers of Mary Parker Follett*. Edited by Henry C. Metcalf and L. Urwick. New York: Harper & Brothers, 1942.
+:::
+
+::: {custom-style="Bibliography"}
+Founders Online, National Archives. “From George Washington to Officers of the Army, 15 March 1783.” https://founders.archives.gov/documents/Washington/99-01-02-10840.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -85,7 +93,7 @@ Lowcountry Digital History Initiative. “The Progressive Club, Johns Island.”
 :::
 
 ::: {custom-style="Bibliography"}
-Martin Luther King, Jr. Research and Education Institute, Stanford University. “I Have a Dream.” https://kinginstitute.stanford.edu/.
+Martin Luther King, Jr. Research and Education Institute, Stanford University. “I Have a Dream.” https://kinginstitute.stanford.edu/i-have-dream.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -94,6 +102,14 @@ McGregor, Douglas. *The Human Side of Enterprise*. New York: McGraw-Hill, 1960.
 
 ::: {custom-style="Bibliography"}
 Mill, John Stuart. *Considerations on Representative Government*. London: Parker, Son, and Bourn, 1861.
+:::
+
+::: {custom-style="Bibliography"}
+Mount Vernon. “Newburgh Address.” https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/newburgh-address.
+:::
+
+::: {custom-style="Bibliography"}
+Mount Vernon. “Newburgh Conspiracy.” https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/newburgh-conspiracy.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -145,10 +161,6 @@ Ostrom, Elinor. *Governing the Commons: The Evolution of Institutions for Collec
 :::
 
 ::: {custom-style="Bibliography"}
-Parliament of the Republic of South Africa. Historical materials on the 1994 national election and first democratic Parliament. https://www.parliament.gov.za/.
-:::
-
-::: {custom-style="Bibliography"}
 Payne, Charles M. *I’ve Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle*. Berkeley: University of California Press, 1995.
 :::
 
@@ -173,7 +185,15 @@ SNCC Digital Gateway. “Birth of SNCC” / founding conference materials. https
 :::
 
 ::: {custom-style="Bibliography"}
+South African History Online. “Denis Farrell.” https://www.sahistory.org.za/people/denis-farrell.
+:::
+
+::: {custom-style="Bibliography"}
 South African History Online. “Election Results 1994.” https://www.sahistory.org.za/archive/election-results-1994.
+:::
+
+::: {custom-style="Bibliography"}
+South African History Online. “The South African general elections: 1994.” https://www.sahistory.org.za/article/south-african-general-elections-1994.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -185,7 +205,7 @@ Tronto, Joan C. *Moral Boundaries: A Political Argument for an Ethic of Care*. N
 :::
 
 ::: {custom-style="Bibliography"}
-U.S. Department of Agriculture, Food and Nutrition Service. School Breakfast Program history (pilot authorization under the Child Nutrition Act of 1966; permanent authorization 1975). Washington, DC: USDA.
+U.S. Department of Agriculture, Food and Nutrition Service. “School Breakfast Program FAQs.” https://www.fns.usda.gov/sbp/faqs.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -194,10 +214,6 @@ U.S. Government Accountability Office. *Year 2000 Computing Challenge: Lessons L
 
 ::: {custom-style="Bibliography"}
 United States Strike Commission. *Report on the Chicago Strike of June–July, 1894*. Washington, DC: Government Printing Office, 1895.
-:::
-
-::: {custom-style="Bibliography"}
-Washington, George. Newburgh Address, 15 March 1783. Mount Vernon / Library of Congress documentary editions.
 :::
 
 ::: {custom-style="Bibliography"}
