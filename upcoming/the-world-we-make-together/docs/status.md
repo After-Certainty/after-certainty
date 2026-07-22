@@ -54,7 +54,7 @@
 
 - Vote scene in the introduction is intentionally generic (no fabricated legislative particulars). Optional later: attach a verified named case.
 - Series-guide entry deferred until promotion to `books/`.
-- Minimal `book.yml` present for cover/OG fields; publishing still disabled.
+- Minimal `book.yml` present for cover/OG fields (upcoming schema; exports disabled).
 - Citation pass complete for Ch 1–10; some institutional web pages are summary citations (NPS, Smithsonian, World Bank) rather than single stable URLs for every claim.
 - Follett named in Ch 9 (Scale); Window deepens power-with through Baker, Citizenship Schools, and Ostrom rather than restating Follett.
 - Conclusion briefly returns each object (author choice); not a chapter-by-chapter summary of cases.

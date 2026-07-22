@@ -1,8 +1,9 @@
-# Minimal metadata for tools/generate_open_graph.py (upcoming scaffold; not in export pipeline)
+# Upcoming manuscript metadata (validated by schema/upcoming.schema.json).
+# Not in the published books/ export pipeline until promoted.
 version: 1
 
-publishing:
-  enabled: false
+upcoming:
+  status: draft
 
 book:
   id: the-world-we-make-together
@@ -19,3 +20,13 @@ book:
 paths:
   manuscript: "./index.md"
   output: "."
+
+build:
+  ci: false
+  formats:
+    epub:
+      enabled: false
+    pdf:
+      enabled: false
+    docx:
+      enabled: false
