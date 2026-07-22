@@ -13,7 +13,7 @@ export async function getEnrichedPublishedQuestions(): Promise<EnrichedQuestion[
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichQuestions(getPublishedQuestions(), graph, podcastEpisodes);
+  return enrichQuestions(getPublishedQuestions(graph), graph, podcastEpisodes);
 }
 
 export async function getEnrichedFeaturedQuestions(limit = 4): Promise<EnrichedQuestion[]> {
@@ -21,20 +21,20 @@ export async function getEnrichedFeaturedQuestions(limit = 4): Promise<EnrichedQ
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichQuestions(getFeaturedQuestions(limit), graph, podcastEpisodes);
+  return enrichQuestions(getFeaturedQuestions(limit, graph), graph, podcastEpisodes);
 }
 
 export async function getEnrichedQuestionBySlug(
   slug: string,
 ): Promise<EnrichedQuestion | undefined> {
-  const question = getQuestionBySlug(slug);
-  if (!question || question.status !== "published") {
-    return undefined;
-  }
-
   const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
+  const question = getQuestionBySlug(slug, graph);
+  if (!question || question.status !== "published") {
+    return undefined;
+  }
+
   return enrichQuestion(question, graph, podcastEpisodes);
 }

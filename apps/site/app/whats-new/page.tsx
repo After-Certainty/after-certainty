@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 
 import { WhatsNewPageContent } from "@/components/whats-new/whats-new-page-content";
 import { getPodcastEpisodes } from "@/lib/content-data";
+import { getSemanticGraph } from "@/lib/graph/manifest";
 import { createPageMetadata } from "@/lib/metadata";
+import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
 import { parseWhatsNewFilter } from "@/lib/whats-new/url-state";
 
 type PageProps = {
@@ -36,7 +38,11 @@ export async function generateMetadata({ searchParams }: PageProps): Promise<Met
 export default async function WhatsNewPage({ searchParams }: PageProps) {
   const params = await searchParams;
   const filter = parseWhatsNewFilter(params.type);
-  const podcastEpisodes = await getPodcastEpisodes();
+  const [podcastEpisodes, graph] = await Promise.all([getPodcastEpisodes(), getSemanticGraph()]);
+  const events = buildPublicWhatsNewEvents({
+    podcastEpisodes,
+    changeEvents: graph.changeEvents,
+  });
 
-  return <WhatsNewPageContent filter={filter} podcastEpisodes={podcastEpisodes} />;
+  return <WhatsNewPageContent filter={filter} events={events} />;
 }

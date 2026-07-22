@@ -1,6 +1,5 @@
 import { describe, expect, it } from "vitest";
 
-import publicationRegistryJson from "@/data/publication-registry.json";
 import semanticManifest from "@/data/semantic-manifest.json";
 import {
   getPublicationEditionBySlug,
@@ -17,15 +16,15 @@ import type { SemanticGraph } from "@/types/semanticGraph";
 const graph = semanticManifest as SemanticGraph;
 
 describe("publication registry health", () => {
-  it("accepts the bundled registry against the semantic graph", () => {
-    const registry = parsePublicationRegistry(publicationRegistryJson);
+  it("accepts editions from the semantic manifest against the graph", () => {
+    const registry = getPublicationRegistry();
     assertPublicationRegistryHealthy({ registry, books: graph.books });
 
     const warnings = collectPublicationRegistryHealthIssues({
       registry,
       books: graph.books,
     }).filter((i) => i.severity === "warning");
-    // Dates are intentionally unset in Phase A.
+    // Dates are intentionally unset unless authored upstream.
     expect(warnings.every((w) => w.code === "missing_first_published_at")).toBe(true);
     expect(warnings).toHaveLength(graph.books.length);
   });

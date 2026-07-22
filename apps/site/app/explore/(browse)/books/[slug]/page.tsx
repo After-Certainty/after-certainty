@@ -7,7 +7,7 @@ import { RelatedTrailsSection } from "@/components/trails/related-trails-section
 import { bookPublicationStatus } from "@/lib/books/book-metadata";
 import { buildBookOverviewViewModel } from "@/lib/books/book-overview-view-model";
 import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
-import { getPublicationEditionByBookId } from "@/lib/books/load-publication-registry";
+import { getPublicationRegistryFromGraph } from "@/lib/books/load-publication-registry";
 import { publicStatusLabel } from "@/lib/books/public-status";
 import { findPublishedQuestionsForBook } from "@/lib/books/related-questions-for-book";
 import { resolveWorkEdition } from "@/lib/books/resolve-work-edition";
@@ -16,6 +16,8 @@ import {
   getSemanticBookActionLinkItems,
 } from "@/lib/books/semantic-book-action-links";
 import { findWhatsNewEventsForBook } from "@/lib/whats-new/findEventsForBook";
+import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
+import { getPublishedQuestions } from "@/lib/questions/loadQuestions";
 import {
   buildCoverImageBySlugLookup,
   resolveCoverForGraphBookSlug,
@@ -85,8 +87,9 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
   };
   const hasRelationships = entityHasSemanticRelationships(index, book.id);
 
-  const resolved = resolveWorkEdition(book, graph.books);
-  const registryEdition = getPublicationEditionByBookId(book.id);
+  const registry = getPublicationRegistryFromGraph(graph);
+  const resolved = resolveWorkEdition(book, graph.books, registry);
+  const registryEdition = registry.editions.find((e) => e.bookId === book.id);
   const status = bookPublicationStatus(book);
   const upcomingLabel = publicStatusLabel(status);
 
@@ -103,7 +106,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
       ? graph.books.find(
           (b) =>
             (book.companionBooks?.includes(b.slug) ?? false) ||
-            resolveWorkEdition(b, graph.books).companionOfSlug === book.slug,
+            resolveWorkEdition(b, graph.books, registry).companionOfSlug === book.slug,
         )
       : undefined;
 
@@ -114,7 +117,11 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
   ];
 
   const overviewVm = buildBookOverviewViewModel(book, graph);
-  const relatedWhatsNew = findWhatsNewEventsForBook(book.id, { limit: 3 });
+  const relatedWhatsNew = findWhatsNewEventsForBook(book.id, {
+    limit: 3,
+    events: buildPublicWhatsNewEvents({ changeEvents: graph.changeEvents }),
+  });
+  const relatedQuestions = findPublishedQuestionsForBook(book.id, 2, getPublishedQuestions(graph));
 
   if (overviewVm) {
     const actions = getOrderedBookActions({
@@ -135,7 +142,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
         relatedEdition={relatedEdition}
         companionEdition={companionEdition}
         actions={actions}
-        relatedQuestions={findPublishedQuestionsForBook(book.id, 2)}
+        relatedQuestions={relatedQuestions}
         relatedWhatsNew={relatedWhatsNew}
         inventory={inventory}
         hasRelationships={hasRelationships}

@@ -1,8 +1,9 @@
-import { FRONT_SHELF_ENTRIES } from "@/lib/start/front-shelf";
-import type { BookStatus } from "@/types/content";
-import type { ContentType } from "@/lib/books/catalog-taxonomy";
+import { shelfMaxPreview } from "@/lib/books/presentation-overlays";
 import type { BookAvailabilityFlag } from "@/lib/books/book-metadata";
+import type { ContentType } from "@/lib/books/catalog-taxonomy";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
+import type { BookStatus } from "@/types/content";
+import type { ManifestShelf, SemanticGraph } from "@/types/semanticGraph";
 
 export type ShelfRule =
   | { type: "status"; values: BookStatus[] }
@@ -25,166 +26,67 @@ export type ShelfDefinition = {
   status: "active" | "hidden";
 };
 
-export const BOOK_SHELVES: readonly ShelfDefinition[] = [
-  {
-    id: "start-here",
-    slug: "start-here",
-    title: "Start Here",
-    description:
-      "Different doors into the same terrain — curiosity, systems, trust, perspective, story, and judgment after certainty fails.",
-    displayOrder: 1,
-    featured: false,
-    maxPreview: FRONT_SHELF_ENTRIES.length,
-    status: "active",
-    selection: {
-      mode: "curated",
-      bookSlugs: FRONT_SHELF_ENTRIES.map((e) => e.slug),
-    },
-  },
-  {
-    id: "core-after-certainty",
-    slug: "core-after-certainty",
-    title: "Core After Certainty",
-    description: "Central volumes that anchor the project’s thesis and recurring tensions.",
-    displayOrder: 2,
-    featured: true,
-    maxPreview: 4,
-    status: "active",
-    selection: {
-      mode: "curated",
-      bookSlugs: [
-        "after-certainty",
-        "curiosity-before-certainty",
-        "trust-beyond-similarity",
-        "what-we-cannot-see",
-        "coupling",
-        "how-serious-systems-learn",
-      ],
-    },
-  },
-  {
-    id: "trust-and-difference",
-    slug: "trust-and-difference",
-    title: "Trust and Difference",
-    description:
-      "How trust forms, drifts, and remains possible across disagreement and partial perspective.",
-    displayOrder: 3,
-    featured: true,
-    maxPreview: 4,
-    status: "active",
-    selection: {
-      mode: "curated",
-      bookSlugs: [
-        "trust-beyond-similarity",
-        "how-trust-forms",
-        "when-trust-stops-tracking-reality",
-        "why-diversity-matters",
-      ],
-    },
-  },
-  {
-    id: "leadership-and-authority",
-    slug: "leadership-and-authority",
-    title: "Leadership and Authority",
-    description:
-      "When others look to you — and when authority, accountability, and moral seriousness scale.",
-    displayOrder: 4,
-    featured: false,
-    maxPreview: 4,
-    status: "active",
-    selection: {
-      mode: "curated",
-      bookSlugs: [
-        "when-others-look-to-you-v1",
-        "when-authority-is-misread",
-        "when-authority-outlives-accountability",
-        "when-moral-seriousness-scales",
-        "when-others-become-leaders",
-      ],
-    },
-  },
-  {
-    id: "systems-and-organizations",
-    slug: "systems-and-organizations",
-    title: "Systems and Organizations",
-    description:
-      "Coupling, learning under pressure, collaboration, and incentive design in serious systems.",
-    displayOrder: 5,
-    featured: true,
-    maxPreview: 4,
-    status: "active",
-    selection: {
-      mode: "curated",
-      bookSlugs: [
-        "coupling",
-        "how-serious-systems-learn",
-        "why-collaboration-is-so-hard",
-        "when-incentives-become-the-moral-language",
-        "when-accountability-no-longer-expires",
-      ],
-    },
-  },
-  {
-    id: "fiction",
-    slug: "fiction",
-    title: "Fiction",
-    description:
-      "Story doorways into uncertainty, coordination, and what people build when no one has the complete map.",
-    displayOrder: 6,
-    featured: false,
-    maxPreview: 4,
-    status: "active",
-    selection: { mode: "rule", rule: { type: "contentType", values: ["fiction"] } },
-  },
-  {
-    id: "practical-handbooks",
-    slug: "practical-handbooks",
-    title: "Practical Handbooks",
-    description:
-      "Applied guides for teams and institutions improving under pressure without perfect information.",
-    displayOrder: 7,
-    featured: false,
-    maxPreview: 4,
-    status: "active",
-    selection: { mode: "rule", rule: { type: "contentType", values: ["handbook"] } },
-  },
-  {
-    id: "upcoming",
-    slug: "upcoming",
-    title: "Upcoming",
-    description: "Forthcoming and in-progress volumes not yet fully available.",
-    displayOrder: 8,
-    featured: false,
-    maxPreview: 6,
-    status: "active",
-    selection: {
-      mode: "rule",
-      rule: { type: "status", values: ["forthcoming", "in_progress", "collaborative"] },
-    },
-  },
-  {
-    id: "complete-catalog",
-    slug: "complete-catalog",
-    title: "Complete catalog",
-    description: "Every published volume in the library.",
-    displayOrder: 99,
-    featured: false,
-    maxPreview: 999,
-    status: "hidden",
-    selection: { mode: "rule", rule: { type: "allPublic" } },
-  },
-] as const;
+function mapShelfSelection(selection: ManifestShelf["selection"]): ShelfSelection {
+  if (selection.mode === "curated") {
+    return { mode: "curated", bookSlugs: selection.bookSlugs };
+  }
+
+  const rule = selection.rule;
+  switch (rule.type) {
+    case "allPublic":
+      return { mode: "rule", rule: { type: "allPublic" } };
+    case "status":
+      return {
+        mode: "rule",
+        rule: { type: "status", values: rule.values as BookStatus[] },
+      };
+    case "contentType":
+      return {
+        mode: "rule",
+        rule: { type: "contentType", values: rule.values as ContentType[] },
+      };
+    case "availability":
+      return {
+        mode: "rule",
+        rule: { type: "availability", values: rule.values as BookAvailabilityFlag[] },
+      };
+  }
+}
+
+export function shelfFromManifest(shelf: ManifestShelf): ShelfDefinition {
+  return {
+    id: shelf.id,
+    slug: shelf.slug,
+    title: shelf.title,
+    description: shelf.description,
+    displayOrder: shelf.displayOrder,
+    featured: shelf.featured,
+    status: shelf.status,
+    selection: mapShelfSelection(shelf.selection),
+    maxPreview: shelfMaxPreview(shelf.slug),
+  };
+}
+
+export function shelvesFromGraph(graph: SemanticGraph): ShelfDefinition[] {
+  return (graph.shelves ?? []).map(shelfFromManifest);
+}
+
+/** @deprecated Prefer shelvesFromGraph(graph) — kept for validate-catalog sync tests. */
+export function getBookShelves(graph?: SemanticGraph): readonly ShelfDefinition[] {
+  if (graph) return shelvesFromGraph(graph);
+  return [];
+}
 
 const UPCOMING_STATUSES = new Set<BookStatus>(["forthcoming", "in_progress", "collaborative"]);
 
-export function getActiveShelves(): ShelfDefinition[] {
-  return BOOK_SHELVES.filter((s) => s.status === "active").sort(
-    (a, b) => a.displayOrder - b.displayOrder,
-  );
+export function getActiveShelves(graph: SemanticGraph): ShelfDefinition[] {
+  return shelvesFromGraph(graph)
+    .filter((s) => s.status === "active")
+    .sort((a, b) => a.displayOrder - b.displayOrder);
 }
 
-export function getShelfBySlug(slug: string): ShelfDefinition | undefined {
-  return BOOK_SHELVES.find((s) => s.slug === slug && s.status === "active");
+export function getShelfBySlug(graph: SemanticGraph, slug: string): ShelfDefinition | undefined {
+  return shelvesFromGraph(graph).find((s) => s.slug === slug && s.status === "active");
 }
 
 function bookMatchesRule(book: CatalogBookView, rule: ShelfRule): boolean {
@@ -230,8 +132,11 @@ export function bookOnShelf(shelf: ShelfDefinition, book: CatalogBookView): bool
   return bookMatchesRule(book, shelf.selection.rule);
 }
 
-export function assignShelfIds(viewModel: CatalogBookView[]): CatalogBookView[] {
-  const activeShelves = getActiveShelves();
+export function assignShelfIds(
+  viewModel: CatalogBookView[],
+  graph: SemanticGraph,
+): CatalogBookView[] {
+  const activeShelves = getActiveShelves(graph);
   return viewModel.map((book) => {
     const shelfIds = activeShelves.filter((s) => bookOnShelf(s, book)).map((s) => s.id);
     return { ...book, shelfIds };

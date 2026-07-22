@@ -6,17 +6,15 @@ import { WhatsNewPageAnalytics } from "@/components/whats-new/whats-new-page-ana
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { groupWhatsNewEventsByMonth } from "@/lib/whats-new/groupByMonth";
-import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
 import { filterWhatsNewEvents, type WhatsNewFilter } from "@/lib/whats-new/url-state";
-import type { PodcastEpisode } from "@/types/content";
+import type { WhatsNewEvent } from "@/lib/whats-new/schema";
 
 type WhatsNewPageContentProps = {
   filter: WhatsNewFilter;
-  podcastEpisodes: readonly PodcastEpisode[];
+  events: readonly WhatsNewEvent[];
 };
 
-export function WhatsNewPageContent({ filter, podcastEpisodes }: WhatsNewPageContentProps) {
-  const allEvents = buildPublicWhatsNewEvents({ podcastEpisodes });
+export function WhatsNewPageContent({ filter, events: allEvents }: WhatsNewPageContentProps) {
   const events = filterWhatsNewEvents(allEvents, filter);
   const featured =
     filter === "all" ? (allEvents.find((e) => e.featured) ?? allEvents[0]) : undefined;

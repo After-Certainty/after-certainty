@@ -1,13 +1,14 @@
 import { describe, expect, it } from "vitest";
 
-import questionsManifest from "@/data/questions-manifest.json";
+import { getQuestionsManifest } from "@/lib/questions/loadQuestions";
 import { parseQuestionsManifest } from "@/lib/questions/schema";
 
 describe("questions manifest schema", () => {
-  it("parses bundled manifest", () => {
-    const parsed = parseQuestionsManifest(questionsManifest);
+  it("loads questions from the bundled semantic manifest", () => {
+    const parsed = getQuestionsManifest();
     expect(parsed.manifestVersion).toBe(1);
     expect(parsed.questions.length).toBeGreaterThan(0);
+    expect(parsed.searchBridges?.length).toBeGreaterThan(0);
   });
 
   it("requires id and slug to match", () => {

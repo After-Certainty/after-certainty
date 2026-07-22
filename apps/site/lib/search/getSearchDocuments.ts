@@ -2,7 +2,7 @@ import { cache } from "react";
 
 import { getPodcastEpisodes } from "@/lib/content-data";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
-import { getSearchAliasConfig } from "@/lib/search/aliases";
+import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
 import { buildSearchDocuments } from "@/lib/search/buildSearchDocuments";
 import type { SearchDocument } from "@/lib/search/types";
 
@@ -20,6 +20,6 @@ export const getSearchDocuments = cache(async (): Promise<SearchDocument[]> => {
   return buildSearchDocuments({
     graph,
     podcastEpisodes,
-    aliasConfig: getSearchAliasConfig(),
+    aliasConfig: getSearchAliasConfigFromGraph(graph),
   });
 });

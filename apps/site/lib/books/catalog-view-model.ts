@@ -5,13 +5,10 @@ import {
   bookPublicationStatus,
   type BookAvailabilityFlag,
 } from "@/lib/books/book-metadata";
-import {
-  contentTypeForSlug,
-  recommendedRankForSlug,
-  type ContentType,
-} from "@/lib/books/catalog-taxonomy";
+import { recommendedRankForSlug, type ContentType } from "@/lib/books/catalog-taxonomy";
 import { assignShelfIds } from "@/lib/books/shelves";
 import { buildResolvedEditionIndex } from "@/lib/books/resolve-work-edition";
+import { contentTypeFromBook, publicationRegistryFromGraph } from "@/lib/graph/discovery";
 import type { EditionRelationship } from "@/lib/books/publication-registry-schema";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import {
@@ -45,7 +42,7 @@ export type CatalogBookView = {
 export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
   const books = graph.books;
   const coverLookup = buildCoverImageBySlugLookup(books);
-  const editions = buildResolvedEditionIndex(books);
+  const editions = buildResolvedEditionIndex(books, publicationRegistryFromGraph(graph));
 
   const rows: CatalogBookView[] = books.map((book) => {
     const status = bookPublicationStatus(book);
@@ -65,7 +62,7 @@ export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
       isCanonicalEdition: resolved?.isCanonical ?? true,
       editionRelationship: resolved?.relationship ?? "sole",
       editionLabel: resolved?.editionLabel,
-      contentType: contentTypeForSlug(book.slug),
+      contentType: contentTypeFromBook(book),
       themes: [],
       shelfIds: [],
       availability: bookAvailabilityFlags(book),
@@ -75,7 +72,7 @@ export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
     };
   });
 
-  return assignShelfIds(rows);
+  return assignShelfIds(rows, graph);
 }
 
 /** Default catalog rows: public canonical editions only. */

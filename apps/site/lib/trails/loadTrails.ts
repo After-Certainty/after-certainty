@@ -1,38 +1,62 @@
-import trailsManifestJson from "@/data/trails-manifest.json";
-import { parseTrailsManifest, type ParsedTrailsManifest } from "@/lib/trails/schema";
-import type { TrailDefinition } from "@/types/trails";
+import pathSearchBridgesJson from "@/data/path-search-bridges.json";
+import fallbackSemantic from "@/data/semantic-manifest.json";
+import { trailsFromGraph } from "@/lib/graph/discovery";
+import { validateSemanticGraph } from "@/lib/graph/validate";
+import type { ParsedTrailsManifest } from "@/lib/trails/schema";
+import type { TrailDefinition, TrailSearchBridge } from "@/types/trails";
+import type { SemanticGraph } from "@/types/semanticGraph";
 
-let cachedManifest: ParsedTrailsManifest | null = null;
+type PathSearchBridgesFile = {
+  trailBridges?: TrailSearchBridge[];
+};
+
+function bundledTrails(): TrailDefinition[] {
+  const result = validateSemanticGraph(fallbackSemantic as unknown);
+  if (!result.success) {
+    throw new Error("Bundled semantic-manifest.json failed validation for trails");
+  }
+  return trailsFromGraph(result.data);
+}
+
+function siteTrailBridges(): TrailSearchBridge[] {
+  const data = pathSearchBridgesJson as PathSearchBridgesFile;
+  return data.trailBridges ?? [];
+}
+
+export function getTrailsFromGraph(graph: SemanticGraph): TrailDefinition[] {
+  return trailsFromGraph(graph);
+}
 
 export function getTrailsManifest(): ParsedTrailsManifest {
-  if (!cachedManifest) {
-    cachedManifest = parseTrailsManifest(trailsManifestJson);
-  }
-  return cachedManifest;
+  return {
+    manifestVersion: 1,
+    trails: bundledTrails(),
+    searchBridges: siteTrailBridges(),
+  };
 }
 
-export function getAllTrails(): TrailDefinition[] {
-  return getTrailsManifest().trails;
+export function getAllTrails(graph?: SemanticGraph): TrailDefinition[] {
+  return graph ? trailsFromGraph(graph) : bundledTrails();
 }
 
-export function getPublishedTrails(): TrailDefinition[] {
-  return getAllTrails().filter((t) => t.status === "published");
+export function getPublishedTrails(graph?: SemanticGraph): TrailDefinition[] {
+  return getAllTrails(graph).filter((t) => t.status === "published");
 }
 
-export function getUpcomingTrails(): TrailDefinition[] {
-  return getAllTrails().filter((t) => t.status === "upcoming");
+export function getUpcomingTrails(graph?: SemanticGraph): TrailDefinition[] {
+  return getAllTrails(graph).filter((t) => t.status === "upcoming");
 }
 
-export function getBrowsableTrails(): TrailDefinition[] {
-  return getAllTrails().filter((t) => t.status === "published" || t.status === "upcoming");
+export function getBrowsableTrails(graph?: SemanticGraph): TrailDefinition[] {
+  return getAllTrails(graph).filter((t) => t.status === "published" || t.status === "upcoming");
 }
 
-export function getTrailBySlug(slug: string): TrailDefinition | undefined {
-  return getAllTrails().find((t) => t.slug === slug);
+export function getTrailBySlug(slug: string, graph?: SemanticGraph): TrailDefinition | undefined {
+  return getAllTrails(graph).find((t) => t.slug === slug);
 }
 
-export function getFeaturedTrails(limit = 4): TrailDefinition[] {
-  return getPublishedTrails()
+export function getFeaturedTrails(limit = 4, graph?: SemanticGraph): TrailDefinition[] {
+  return getPublishedTrails(graph)
     .filter((t) => t.featured)
     .sort((a, b) => (a.featuredRank ?? 999) - (b.featuredRank ?? 999))
     .slice(0, limit);
@@ -55,12 +79,12 @@ export function groupTrailsByTheme(
     .map(([theme, grouped]) => ({ theme, trails: grouped }));
 }
 
-export function getTrailSitemapSlugs(): string[] {
-  return getPublishedTrails().map((t) => t.slug);
+export function getTrailSitemapSlugs(graph?: SemanticGraph): string[] {
+  return getPublishedTrails(graph).map((t) => t.slug);
 }
 
 export function getTrailSearchBridges() {
-  return getTrailsManifest().searchBridges ?? [];
+  return siteTrailBridges();
 }
 
 export function slugifyTheme(theme: string): string {

@@ -48,16 +48,19 @@ function BooksCatalogControlsInner({
 
   const urlState = useMemo(
     () =>
-      parseCatalogUrlState({
-        shelf: searchParams.get("shelf"),
-        type: searchParams.get("type"),
-        status: searchParams.get("status"),
-        availability: searchParams.get("availability"),
-        sort: searchParams.get("sort"),
-        q: searchParams.get("q"),
-        editions: searchParams.get("editions"),
-      }),
-    [searchParams],
+      parseCatalogUrlState(
+        {
+          shelf: searchParams.get("shelf"),
+          type: searchParams.get("type"),
+          status: searchParams.get("status"),
+          availability: searchParams.get("availability"),
+          sort: searchParams.get("sort"),
+          q: searchParams.get("q"),
+          editions: searchParams.get("editions"),
+        },
+        filterOptions.shelves.map((s) => s.slug),
+      ),
+    [searchParams, filterOptions.shelves],
   );
 
   const [query, setQuery] = useState(initialState.q);

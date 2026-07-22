@@ -57,7 +57,7 @@ function resolveLabel(input: {
 
 /**
  * Authoritative work/edition resolution.
- * Prefers `data/publication-registry.json`; falls back to -vN heuristics for unregistered books.
+ * Prefers `graph.editions` (via publicationRegistryFromGraph); falls back to -vN heuristics.
  */
 export function buildResolvedEditionIndex(
   books: readonly Book[],

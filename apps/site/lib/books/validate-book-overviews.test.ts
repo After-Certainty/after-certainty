@@ -1,13 +1,11 @@
 import { describe, expect, it } from "vitest";
 
-import bookOverviewsJson from "@/data/book-overviews.json";
 import semanticManifest from "@/data/semantic-manifest.json";
 import {
   DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS,
-  parseBookOverviewsManifest,
   type BookOverview,
 } from "@/lib/books/book-overview-schema";
-import { getAllBookOverviews } from "@/lib/books/load-book-overviews";
+import { getAllBookOverviews, getBookOverviewsManifest } from "@/lib/books/load-book-overviews";
 import {
   assertBookOverviewsHealthy,
   collectBookOverviewHealthIssues,
@@ -22,7 +20,7 @@ function withOverview(overrides: Partial<BookOverview>): BookOverview {
 }
 
 describe("book overview health", () => {
-  it("accepts the bundled Phase F overviews against the semantic graph", () => {
+  it("accepts overviews from the semantic manifest against the graph", () => {
     assertBookOverviewsHealthy({ graph });
     const issues = collectBookOverviewHealthIssues({ graph });
     expect(issues.filter((i) => i.severity === "error")).toHaveLength(0);
@@ -34,7 +32,7 @@ describe("book overview health", () => {
     for (const slug of DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS) {
       expect(slugs.has(slug), `missing overview for ${slug}`).toBe(true);
     }
-    const parsed = parseBookOverviewsManifest(bookOverviewsJson);
+    const parsed = getBookOverviewsManifest();
     expect(parsed.prioritySlugs).toEqual([...DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS]);
   });
 

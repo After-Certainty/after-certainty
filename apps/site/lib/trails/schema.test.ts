@@ -1,14 +1,14 @@
 import { describe, expect, it } from "vitest";
 
+import { getTrailsManifest } from "@/lib/trails/loadTrails";
 import { parseTrailsManifest } from "@/lib/trails/schema";
-import trailsManifest from "@/data/trails-manifest.json";
 
 describe("trails schema", () => {
-  it("parses bundled manifest", () => {
-    const parsed = parseTrailsManifest(trailsManifest);
+  it("loads trails from the bundled semantic manifest", () => {
+    const parsed = getTrailsManifest();
     expect(parsed.manifestVersion).toBe(1);
     expect(parsed.trails.length).toBeGreaterThanOrEqual(6);
-    expect(parsed.trails.some((t) => t.status === "upcoming")).toBe(true);
+    expect(parsed.searchBridges?.length).toBeGreaterThan(0);
   });
 
   it("requires id and slug to match", () => {

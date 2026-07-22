@@ -15,7 +15,7 @@ export async function getEnrichedPublishedTrails(): Promise<EnrichedTrail[]> {
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichTrails(getPublishedTrails(), graph, podcastEpisodes);
+  return enrichTrails(getPublishedTrails(graph), graph, podcastEpisodes);
 }
 
 export async function getEnrichedUpcomingTrails(): Promise<EnrichedTrail[]> {
@@ -23,7 +23,7 @@ export async function getEnrichedUpcomingTrails(): Promise<EnrichedTrail[]> {
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichTrails(getUpcomingTrails(), graph, podcastEpisodes);
+  return enrichTrails(getUpcomingTrails(graph), graph, podcastEpisodes);
 }
 
 export async function getEnrichedFeaturedTrails(limit = 3): Promise<EnrichedTrail[]> {
@@ -31,19 +31,19 @@ export async function getEnrichedFeaturedTrails(limit = 3): Promise<EnrichedTrai
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichTrails(getFeaturedTrails(limit), graph, podcastEpisodes);
+  return enrichTrails(getFeaturedTrails(limit, graph), graph, podcastEpisodes);
 }
 
 export async function getEnrichedTrailBySlug(slug: string): Promise<EnrichedTrail | undefined> {
-  const trail = getTrailBySlug(slug);
-  if (!trail || (trail.status !== "published" && trail.status !== "upcoming")) {
-    return undefined;
-  }
-
   const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
+  const trail = getTrailBySlug(slug, graph);
+  if (!trail || (trail.status !== "published" && trail.status !== "upcoming")) {
+    return undefined;
+  }
+
   return enrichTrail(trail, graph, podcastEpisodes);
 }
 
@@ -52,5 +52,5 @@ export async function getEnrichedBrowsableTrails(): Promise<EnrichedTrail[]> {
     getExploreSemanticGraph(),
     getPodcastEpisodes(),
   ]);
-  return enrichTrails(getBrowsableTrails(), graph, podcastEpisodes);
+  return enrichTrails(getBrowsableTrails(graph), graph, podcastEpisodes);
 }

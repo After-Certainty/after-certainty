@@ -1,0 +1,74 @@
+{
+  "manifestVersion": 1,
+  "notes": "Site-owned search bridges for questions and trails until after-certainty ports them into semantic-manifest.",
+  "questionBridges": [
+    {
+      "terms": ["trust disagreement", "trust and disagreement", "trusting people who disagree"],
+      "questionIds": ["trust-survives-disagreement"],
+      "note": "Natural-language bridge to trust question"
+    },
+    {
+      "terms": ["collaboration fail", "collaboration is so hard", "why collaboration"],
+      "questionIds": ["collaboration-remains-difficult"]
+    },
+    {
+      "terms": ["temporary exceptions", "temporary fixes", "exceptions forever"],
+      "questionIds": ["temporary-exceptions-become-permanent"]
+    },
+    {
+      "terms": ["authority without understanding", "interpretation no longer matters"],
+      "questionIds": ["authority-without-understanding"]
+    },
+    {
+      "terms": ["how meaning moves", "meaning drift", "meaning changes"],
+      "questionIds": ["meaning-changes-as-it-travels"]
+    },
+    {
+      "terms": ["good intentions miss", "why diversity matters"],
+      "questionIds": ["good-intentions-still-miss"]
+    },
+    {
+      "terms": ["before certainty", "act responsibly uncertainty"],
+      "questionIds": ["act-before-certainty-arrives"]
+    },
+    {
+      "terms": ["when others look to you", "wolty"],
+      "questionIds": ["someone-begins-looking-to-you", "leaders-become-systems"]
+    },
+    {
+      "terms": ["scoreboard", "metrics incentives", "tyranny of metrics"],
+      "questionIds": ["scoreboard-settles-and-cannot"]
+    }
+  ],
+  "trailBridges": [
+    {
+      "terms": [
+        "reading trail judgment",
+        "judgment before certainty",
+        "judgment under uncertainty"
+      ],
+      "trailIds": ["judgment-before-certainty"],
+      "note": "Trail for judgment and uncertainty themes"
+    },
+    {
+      "terms": ["reading trail leadership", "leadership after the person", "influence inheritance"],
+      "trailIds": ["leadership-after-the-person"]
+    },
+    {
+      "terms": ["reading trail meaning", "meaning under pressure", "meaning compression"],
+      "trailIds": ["meaning-under-pressure"]
+    },
+    {
+      "terms": ["systems cannot correct", "reading trail systems", "feedback loops institutions"],
+      "trailIds": ["systems-without-correction"]
+    },
+    {
+      "terms": ["software engineers", "technical judgment", "reading trail software"],
+      "trailIds": ["software-judgment-trail"]
+    },
+    {
+      "terms": ["curated trail", "reading trail", "reading trails"],
+      "trailIds": ["judgment-before-certainty", "meaning-under-pressure"]
+    }
+  ]
+}

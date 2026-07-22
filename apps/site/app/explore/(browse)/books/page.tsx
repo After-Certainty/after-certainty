@@ -26,9 +26,10 @@ type BooksPageProps = {
 export default async function ExploreBooksIndexPage({ searchParams }: BooksPageProps) {
   const { graph } = await getExploreSemanticGraph();
   const viewModel = buildCatalogViewModel(graph);
-  const urlState = parseCatalogUrlState(searchParams ? await searchParams : {});
-  const { shelves, results, showShelfSections } = applyCatalogQuery(viewModel, urlState);
-  const filterOptions = buildFilterOptions(viewModel);
+  const filterOptions = buildFilterOptions(viewModel, graph);
+  const knownShelfSlugs = filterOptions.shelves.map((s) => s.slug);
+  const urlState = parseCatalogUrlState(searchParams ? await searchParams : {}, knownShelfSlugs);
+  const { shelves, results, showShelfSections } = applyCatalogQuery(viewModel, urlState, graph);
   const filteredView = hasActiveCatalogFilters(urlState);
 
   const featuredShelfSections = shelves.filter(

@@ -16,6 +16,7 @@ import {
   resolveShelfBooks,
   type ShelfDefinition,
 } from "@/lib/books/shelves";
+import type { SemanticGraph } from "@/types/semanticGraph";
 
 export type CatalogFilterOptions = {
   shelves: { slug: string; title: string }[];
@@ -64,11 +65,12 @@ function sortBooks(books: CatalogBookView[], sort: CatalogUrlState["sort"]): Cat
 function filterCatalogBooks(
   pool: readonly CatalogBookView[],
   state: CatalogUrlState,
+  graph: SemanticGraph,
 ): CatalogBookView[] {
   let rows = [...pool];
 
   if (state.shelf) {
-    const shelf = getShelfBySlug(state.shelf);
+    const shelf = getShelfBySlug(graph, state.shelf);
     if (shelf) {
       rows = resolveShelfBooks(shelf, rows);
     }
@@ -95,7 +97,10 @@ function filterCatalogBooks(
   return sortBooks(rows, state.sort);
 }
 
-export function buildFilterOptions(viewModel: readonly CatalogBookView[]): CatalogFilterOptions {
+export function buildFilterOptions(
+  viewModel: readonly CatalogBookView[],
+  graph: SemanticGraph,
+): CatalogFilterOptions {
   const base = defaultCatalogBooks(viewModel);
   const contentTypes = new Set<ContentType>();
   const availability = new Set<BookAvailabilityFlag>();
@@ -108,7 +113,7 @@ export function buildFilterOptions(viewModel: readonly CatalogBookView[]): Catal
   }
 
   return {
-    shelves: getActiveShelves()
+    shelves: getActiveShelves(graph)
       .filter((s) => s.slug !== "upcoming" || hasUpcoming)
       .map((s) => ({ slug: s.slug, title: s.title })),
     contentTypes: [...contentTypes].sort(),
@@ -125,14 +130,15 @@ export function buildFilterOptions(viewModel: readonly CatalogBookView[]): Catal
 export function applyCatalogQuery(
   viewModel: readonly CatalogBookView[],
   state: CatalogUrlState,
+  graph: SemanticGraph,
 ): CatalogQueryResult {
   const showAllEditions = state.editions === "all";
   const pool = defaultCatalogBooks(viewModel, showAllEditions);
-  const results = filterCatalogBooks(pool, state);
+  const results = filterCatalogBooks(pool, state, graph);
   const showShelfSections = !hasActiveCatalogFilters(state);
 
   const shelves = showShelfSections
-    ? getActiveShelves()
+    ? getActiveShelves(graph)
         .filter((s) => s.slug !== "upcoming" || pool.some((b) => b.status !== "published"))
         .map((shelf) => {
           const books = resolveShelfBooks(shelf, pool);

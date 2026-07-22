@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import bookOverviewsJson from "@/data/book-overviews.json";
 import {
   DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS,
   parseBookOverviewsManifest,
 } from "@/lib/books/book-overview-schema";
+import { getBookOverviewsManifest } from "@/lib/books/load-book-overviews";
 
 function baseOverview(overrides: Record<string, unknown> = {}) {
   return {
@@ -20,8 +20,8 @@ function baseOverview(overrides: Record<string, unknown> = {}) {
 }
 
 describe("book overview schema", () => {
-  it("parses the bundled Phase F seed", () => {
-    const parsed = parseBookOverviewsManifest(bookOverviewsJson);
+  it("loads overviews from the bundled semantic manifest", () => {
+    const parsed = getBookOverviewsManifest();
     expect(parsed.manifestVersion).toBe(1);
     expect(parsed.overviews.length).toBeGreaterThanOrEqual(10);
     expect(parsed.prioritySlugs).toEqual([...DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS]);

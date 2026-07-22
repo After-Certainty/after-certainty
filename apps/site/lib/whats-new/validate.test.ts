@@ -2,9 +2,11 @@ import { describe, expect, it } from "vitest";
 
 import podcastFallback from "@/data/podcast-episodes.json";
 import semanticManifest from "@/data/semantic-manifest.json";
-import whatsNewManifestJson from "@/data/whats-new.json";
+import siteWhatsNewJson from "@/data/site-whats-new.json";
+import { changeEventsToWhatsNewEvents } from "@/lib/graph/discovery";
+import { validateSemanticGraph } from "@/lib/graph/manifest";
 import { buildPodcastWhatsNewCandidates } from "@/lib/whats-new/candidates";
-import { getAuthoredWhatsNewEvents, getWhatsNewManifest } from "@/lib/whats-new/loadWhatsNew";
+import { getAuthoredWhatsNewEvents, getSiteWhatsNewManifest } from "@/lib/whats-new/loadWhatsNew";
 import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
 import { parseWhatsNewManifest } from "@/lib/whats-new/schema";
 import {
@@ -15,17 +17,35 @@ import {
 import type { PodcastEpisode } from "@/types/content";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
-const graph = semanticManifest as SemanticGraph;
+const validated = validateSemanticGraph(semanticManifest as unknown);
+if (!validated.success) {
+  throw new Error("Bundled semantic-manifest.json failed validation in whats-new tests");
+}
+const graph = validated.data;
 const podcastEpisodes = (podcastFallback as { episodes: PodcastEpisode[] }).episodes;
 
+function mergedAuthoredManifest() {
+  const site = parseWhatsNewManifest(siteWhatsNewJson);
+  return {
+    ...site,
+    events: [...changeEventsToWhatsNewEvents(graph.changeEvents), ...site.events],
+  };
+}
+
 describe("whats-new health", () => {
-  it("accepts the bundled seed against graph and podcast data", () => {
-    const manifest = parseWhatsNewManifest(whatsNewManifestJson);
-    assertWhatsNewHealthy({ manifest, graph, podcastEpisodes });
+  it("accepts the merged corpus + site seed against graph and podcast data", () => {
+    assertWhatsNewHealthy({
+      manifest: mergedAuthoredManifest(),
+      graph,
+      podcastEpisodes,
+    });
   });
 
   it("exposes only published public authored events by default", () => {
-    const events = buildPublicWhatsNewEvents({ podcastEpisodes });
+    const events = buildPublicWhatsNewEvents({
+      podcastEpisodes,
+      changeEvents: graph.changeEvents,
+    });
     expect(events.length).toBeGreaterThan(0);
     expect(events.every((e) => e.published && e.visibility === "public")).toBe(true);
     expect(events.every((e) => e.source === "authored")).toBe(true);
@@ -36,7 +56,7 @@ describe("whats-new health", () => {
   });
 
   it("does not auto-publish podcast candidates when an authored episode exists", () => {
-    const authored = getAuthoredWhatsNewEvents();
+    const authored = mergedAuthoredManifest().events;
     const candidates = buildPodcastWhatsNewCandidates(podcastEpisodes, authored);
     expect(candidates).toHaveLength(0);
   });
@@ -101,7 +121,8 @@ describe("whats-new health", () => {
     expect(isTechnicalOnlyChange("Substantial revision of chapter three")).toBe(false);
   });
 
-  it("loads the same seed via the loader", () => {
-    expect(getWhatsNewManifest().events.length).toBe(getAuthoredWhatsNewEvents().length);
+  it("loads site-owned events via the loader", () => {
+    expect(getSiteWhatsNewManifest().events.length).toBe(getAuthoredWhatsNewEvents().length);
+    expect(getAuthoredWhatsNewEvents().every((e) => e.type !== "book_published")).toBe(true);
   });
 });

@@ -2,7 +2,6 @@ import type { BookStatus } from "@/types/content";
 import type { BookAvailabilityFlag } from "@/lib/books/book-metadata";
 import type { ContentType } from "@/lib/books/catalog-taxonomy";
 import { queryLengthBucket } from "@/lib/search/urlState";
-import { getShelfBySlug } from "@/lib/books/shelves";
 
 export type CatalogSort = "recommended" | "title-asc" | "title-desc";
 
@@ -36,17 +35,20 @@ function parseCsv<T extends string>(raw: string | undefined | null, allowed: Set
   return out;
 }
 
-export function parseCatalogUrlState(input: {
-  shelf?: string | null;
-  type?: string | null;
-  status?: string | null;
-  availability?: string | null;
-  sort?: string | null;
-  q?: string | null;
-  editions?: string | null;
-}): CatalogUrlState {
+export function parseCatalogUrlState(
+  input: {
+    shelf?: string | null;
+    type?: string | null;
+    status?: string | null;
+    availability?: string | null;
+    sort?: string | null;
+    q?: string | null;
+    editions?: string | null;
+  },
+  knownShelfSlugs: readonly string[] = [],
+): CatalogUrlState {
   const shelfRaw = typeof input.shelf === "string" ? input.shelf.trim() : "";
-  const shelf = shelfRaw && getShelfBySlug(shelfRaw) ? shelfRaw : undefined;
+  const shelf = shelfRaw && knownShelfSlugs.includes(shelfRaw) ? shelfRaw : undefined;
 
   const sortRaw = typeof input.sort === "string" ? input.sort.trim() : "";
   const sort: CatalogSort = SORT_VALUES.has(sortRaw as CatalogSort)

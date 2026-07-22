@@ -1,4 +1,5 @@
 import { getPodcastEpisodes } from "@/lib/content-data";
+import { getSemanticGraph } from "@/lib/graph/manifest";
 import { absoluteUrl } from "@/lib/seo/json-ld";
 import { formatWhatsNewEventDate } from "@/lib/whats-new/groupByMonth";
 import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
@@ -20,8 +21,11 @@ function toRfc822(isoDate: string): string {
 }
 
 export async function GET() {
-  const podcastEpisodes = await getPodcastEpisodes();
-  const events = buildPublicWhatsNewEvents({ podcastEpisodes });
+  const [podcastEpisodes, graph] = await Promise.all([getPodcastEpisodes(), getSemanticGraph()]);
+  const events = buildPublicWhatsNewEvents({
+    podcastEpisodes,
+    changeEvents: graph.changeEvents,
+  });
   const feedUrl = absoluteUrl("/whats-new/feed.xml");
   const pageUrl = absoluteUrl("/whats-new");
 

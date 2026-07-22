@@ -1,6 +1,7 @@
 import { getPodcastEpisodes } from "@/lib/content-data";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { buildGraphIndex } from "@/lib/graph/graph";
+import { getPublishedTrails } from "@/lib/trails/loadTrails";
 import { enrichTrails } from "@/lib/trails/enrichTrails";
 import { findPublishedTrailsForQuestion } from "@/lib/trails/relatedTrails";
 import type { QuestionDefinition } from "@/types/questions";
@@ -19,6 +20,7 @@ export async function getEnrichedTrailsForQuestion(input: {
     question: input.question,
     index,
     books: graph.books,
+    trails: getPublishedTrails(graph),
     limit: input.limit ?? 3,
   });
 

@@ -21,6 +21,24 @@ function validatedFallbackGraph() {
 }
 
 describe("validateSemanticGraph", () => {
+  it("accepts schemaVersion 2.1 discovery collections from the bundled manifest", () => {
+    const result = validateSemanticGraph(fallback as unknown);
+    expect(result.success).toBe(true);
+    if (!result.success) return;
+    expect(result.data.schemaVersion).toBe("2.1");
+    expect(result.data.sourceCommit).toBeTruthy();
+    expect(result.data.works?.length).toBeGreaterThan(0);
+    expect(result.data.editions?.length).toBeGreaterThan(0);
+    expect(result.data.questions?.length).toBe(12);
+    expect(result.data.trails?.length).toBe(6);
+    expect(result.data.shelves?.length).toBe(9);
+    expect(result.data.changeEvents?.length).toBe(6);
+    expect(result.data.searchAliases?.length).toBe(9);
+    const withOverview = result.data.books.filter((b) => b.overview);
+    expect(withOverview.length).toBe(10);
+    expect(result.data.books.some((b) => b.contentType === "fiction")).toBe(true);
+  });
+
   it("accepts minimal valid graph", () => {
     const result = validateSemanticGraph({
       books: [],

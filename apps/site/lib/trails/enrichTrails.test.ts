@@ -1,9 +1,8 @@
 import semanticManifest from "@/data/semantic-manifest.json";
 import podcastEpisodes from "@/data/podcast-episodes.json";
-import trailsManifest from "@/data/trails-manifest.json";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { enrichStop, defaultMinutesForType } from "@/lib/paths/enrichStop";
-import { parseTrailsManifest } from "@/lib/trails/schema";
+import { getTrailsManifest } from "@/lib/trails/loadTrails";
 import { enrichTrail } from "@/lib/trails/enrichTrails";
 import type { SemanticGraph } from "@/types/semanticGraph";
 import { describe, expect, it } from "vitest";
@@ -39,7 +38,7 @@ describe("enrichStop", () => {
 describe("enrichTrail", () => {
   it("aggregates estimated minutes and enriches all stops", () => {
     const graph = semanticManifest as SemanticGraph;
-    const manifest = parseTrailsManifest(trailsManifest);
+    const manifest = getTrailsManifest();
     const trail = manifest.trails.find((t) => t.slug === "meaning-under-pressure");
     expect(trail).toBeDefined();
 

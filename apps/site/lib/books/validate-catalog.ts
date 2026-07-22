@@ -1,7 +1,7 @@
-import { BOOK_SHELVES, getActiveShelves, resolveShelfBooks } from "@/lib/books/shelves";
+import { getActiveShelves, resolveShelfBooks, shelvesFromGraph } from "@/lib/books/shelves";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import { defaultCatalogBooks } from "@/lib/books/catalog-view-model";
-import { getPublicationRegistry } from "@/lib/books/load-publication-registry";
+import { getPublicationRegistryFromGraph } from "@/lib/books/load-publication-registry";
 import { buildResolvedEditionIndex } from "@/lib/books/resolve-work-edition";
 import { collectPublicationRegistryHealthIssues } from "@/lib/books/validate-publication-registry";
 import type { SemanticGraph } from "@/types/semanticGraph";
@@ -23,10 +23,12 @@ export function collectCatalogHealthIssues(input: {
   const { viewModel, graph } = input;
   const issues: CatalogHealthIssue[] = [];
   const publicCanonical = defaultCatalogBooks(viewModel);
-  const resolved = buildResolvedEditionIndex(graph.books);
+  const registry = getPublicationRegistryFromGraph(graph);
+  const resolved = buildResolvedEditionIndex(graph.books, registry);
+  const allShelves = shelvesFromGraph(graph);
 
   for (const issue of collectPublicationRegistryHealthIssues({
-    registry: getPublicationRegistry(),
+    registry,
     books: graph.books,
   })) {
     issues.push({
@@ -81,7 +83,7 @@ export function collectCatalogHealthIssues(input: {
     }
   }
 
-  for (const shelf of BOOK_SHELVES) {
+  for (const shelf of allShelves) {
     if (!shelf.id.trim() || !shelf.slug.trim()) {
       issues.push({
         severity: "error",
@@ -136,7 +138,7 @@ export function collectCatalogHealthIssues(input: {
     }
   }
 
-  for (const shelf of getActiveShelves()) {
+  for (const shelf of getActiveShelves(graph)) {
     if (shelf.featured) continue;
     const books = resolveShelfBooks(shelf, publicCanonical);
     if (books.length === 0 && shelf.slug !== "upcoming") {

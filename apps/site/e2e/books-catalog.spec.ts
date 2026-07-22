@@ -21,7 +21,8 @@ test.describe("Books catalog", () => {
     await page.goto("/explore/books?shelf=fiction");
     await expect(page).toHaveURL(/shelf=fiction/);
     await expect(page.getByRole("heading", { name: "Filtered catalog" })).toBeVisible();
-    await expect(page.locator("#main").getByText("4 books")).toBeVisible();
+    // Upstream contentType: only The Relay and Velorum are fiction.
+    await expect(page.locator("#main").getByText("2 books")).toBeVisible();
     await expect(
       page.locator("#main").getByRole("heading", { name: "The Relay", level: 3 }),
     ).toBeVisible();

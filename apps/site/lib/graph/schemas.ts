@@ -66,6 +66,31 @@ const bookStatusSchema = z.enum([
   "collaborative",
 ]);
 
+const bookContentTypeSchema = z.enum(["nonfiction", "fiction", "handbook", "essay_collection"]);
+
+const editionRelationshipSchema = z.enum(["sole", "primary", "companion", "superseded"]);
+
+const bookAvailabilityFlagSchema = z.enum([
+  "download_docx",
+  "download_epub",
+  "download_pdf",
+  "purchase",
+  "available_in_print",
+]);
+
+const bookOverviewSchema = z.object({
+  centralQuestion: z.string().min(1),
+  whyItExists: z.string().min(1),
+  audience: z.string().min(1),
+  nonGoals: z.array(z.string().min(1)).default([]),
+  selectedConceptIds: z.array(z.string().min(1)).default([]),
+  selectedPatternIds: z.array(z.string().min(1)).optional(),
+  readBefore: z.array(z.string().min(1)).optional(),
+  readNext: z.array(z.string().min(1)).optional(),
+  revisedAt: z.string().min(1).optional(),
+  changeSummary: z.string().min(1).optional(),
+});
+
 const bookSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
@@ -100,6 +125,15 @@ const bookSchema = z.object({
   epub: bookFormatAssetSchema.optional(),
   docx: bookFormatAssetSchema.optional(),
   pdf: bookFormatAssetSchema.optional(),
+  workId: optionalManifestString,
+  editionId: optionalManifestString,
+  isCanonical: z.boolean().optional(),
+  editionRelationship: editionRelationshipSchema.optional(),
+  editionLabel: optionalManifestString,
+  contentType: bookContentTypeSchema.optional(),
+  publicStatus: z.string().min(1).optional(),
+  availability: z.array(bookAvailabilityFlagSchema).optional(),
+  overview: bookOverviewSchema.optional(),
 });
 
 const conceptSemanticToneSchema = z.enum(["pressure", "capability", "neutral"]);
@@ -243,11 +277,166 @@ const ontologySchema = z
   })
   .optional();
 
+const discoveryPathEntityTypeSchema = z.enum([
+  "book",
+  "concept",
+  "pattern",
+  "situation",
+  "thinker",
+  "source",
+  "podcast_episode",
+  "external",
+]);
+
+const discoveryPathStopSchema = z.object({
+  position: z.number().int().positive(),
+  entityType: discoveryPathEntityTypeSchema,
+  entityId: z.string().min(1).optional(),
+  bookSlug: z.string().min(1).optional(),
+  externalUrl: z.string().optional(),
+  titleOverride: z.string().min(1).optional(),
+  description: z.string().min(1),
+  whyThisFollows: z.string().min(1).optional(),
+  estimatedMinutes: z.number().int().positive().optional(),
+  optional: z.boolean().optional(),
+  excerpt: z.string().min(1).optional(),
+  fictionDoorway: z.boolean().optional(),
+  title: z.string().min(1).optional(),
+  resolvedSlug: z.string().min(1).optional(),
+});
+
+const manifestQuestionSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  question: z.string().min(1),
+  shortLabel: z.string().min(1).optional(),
+  summary: z.string().min(1),
+  orientation: z.string().min(1),
+  whatThisIsNot: z.array(z.string().min(1)).default([]),
+  status: z.enum(["draft", "published", "archived"]),
+  featured: z.boolean().optional(),
+  featuredRank: z.number().int().positive().optional(),
+  families: z.array(z.string().min(1)).default([]),
+  primaryBookId: z.string().min(1),
+  relatedQuestionIds: z.array(z.string().min(1)).optional(),
+  pathStops: z.array(discoveryPathStopSchema).default([]),
+  closingReflection: z.string().min(1),
+  carryForwardQuestion: z.string().min(1).optional(),
+  searchHints: z.array(z.string().min(1)).optional(),
+  createdDate: z.string().optional(),
+  updatedDate: z.string().optional(),
+  editorialOwner: z.string().optional(),
+  reviewNotes: z.string().optional(),
+});
+
+const manifestTrailSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  summary: z.string().min(1),
+  orientation: z.string().min(1),
+  status: z.enum(["draft", "published", "upcoming", "archived"]),
+  featured: z.boolean().optional(),
+  featuredRank: z.number().int().positive().optional(),
+  themes: z.array(z.string().min(1)).default([]),
+  audience: z.string().min(1).optional(),
+  depth: z.enum(["introductory", "intermediate", "deep"]).optional(),
+  primaryBookId: z.string().min(1).optional(),
+  pathStops: z.array(discoveryPathStopSchema).default([]),
+  closingReflection: z.string().min(1),
+  suggestedContinuation: z.string().min(1).optional(),
+  relatedTrailIds: z.array(z.string().min(1)).optional(),
+  createdDate: z.string().optional(),
+  updatedDate: z.string().optional(),
+  reviewNotes: z.string().optional(),
+});
+
+const shelfRuleSchema = z.union([
+  z.object({ type: z.literal("status"), values: z.array(z.string().min(1)) }),
+  z.object({ type: z.literal("contentType"), values: z.array(z.string().min(1)) }),
+  z.object({ type: z.literal("availability"), values: z.array(z.string().min(1)) }),
+  z.object({ type: z.literal("allPublic") }),
+]);
+
+const shelfSelectionSchema = z.union([
+  z.object({ mode: z.literal("curated"), bookSlugs: z.array(z.string().min(1)) }),
+  z.object({ mode: z.literal("rule"), rule: shelfRuleSchema }),
+]);
+
+const manifestShelfSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  description: z.string().min(1),
+  displayOrder: z.number().int(),
+  featured: z.boolean(),
+  status: z.enum(["active", "hidden"]),
+  selection: shelfSelectionSchema,
+  resolvedBookIds: z.array(z.string().min(1)).optional(),
+});
+
+const workSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  currentEditionId: z.string().min(1),
+  editionIds: z.array(z.string().min(1)).default([]),
+  contentType: bookContentTypeSchema.optional(),
+  canonicalRoute: z.string().min(1).optional(),
+});
+
+const editionSchema = z.object({
+  id: z.string().min(1),
+  bookId: z.string().min(1),
+  workId: z.string().min(1),
+  slug: z.string().min(1),
+  isCanonical: z.boolean(),
+  relationship: editionRelationshipSchema,
+  editionLabel: optionalManifestString,
+  title: optionalManifestString,
+  companionEditionIds: z.array(z.string().min(1)).optional(),
+  companionOfEditionId: z.string().min(1).optional(),
+  supersededByEditionId: z.string().min(1).optional(),
+  replacesEditionId: z.string().min(1).optional(),
+  firstPublishedAt: z.string().min(1).optional(),
+  revisedAt: z.string().min(1).optional(),
+  changeSummary: z.string().min(1).optional(),
+});
+
+const changeEventSchema = z.object({
+  id: z.string().min(1),
+  type: z.enum([
+    "book_published",
+    "book_revised",
+    "book_announced",
+    "podcast_episode",
+    "site_feature",
+  ]),
+  title: z.string().min(1),
+  summary: z.string().min(1),
+  date: z.string().min(1),
+  entityType: z.enum(["book", "podcast", "site"]),
+  entityId: z.string().min(1).optional(),
+  visibility: z.enum(["public", "hidden"]).default("public"),
+  source: z.enum(["authored", "generated_candidate"]),
+  featured: z.boolean().optional(),
+  significance: z.enum(["major", "standard"]).optional(),
+  relatedEditionId: z.string().min(1).optional(),
+  canonicalRoute: z.string().min(1).optional(),
+  coverImage: z.string().min(1).optional(),
+});
+
+const searchAliasSchema = z.object({
+  terms: z.array(z.string().min(1)).min(1),
+  kind: z.enum(["alias", "related"]),
+  targetIds: z.array(z.string().min(1)).min(1),
+  note: z.string().optional(),
+});
+
 /**
- * Root manifest schema. Unknown top-level keys are retained for forward compatibility
- * but stripped from the typed result.
+ * Root manifest schema. Unknown top-level keys are stripped from the typed result;
+ * schemaVersion 2.1 discovery collections are retained when present.
  */
-/** Strips unknown top-level keys; keeps the graph tolerant of pipeline metadata. */
 export const semanticGraphSchema = z.object({
   books: z.array(bookSchema).default([]),
   glossary: z.array(glossaryConceptSchema).default([]),
@@ -257,12 +446,21 @@ export const semanticGraphSchema = z.object({
   relationships: z.array(relationshipSchema).default([]),
   ontology: ontologySchema,
   thinkers: z.array(thinkerSchema).optional(),
+  works: z.array(workSchema).optional(),
+  editions: z.array(editionSchema).optional(),
+  questions: z.array(manifestQuestionSchema).optional(),
+  trails: z.array(manifestTrailSchema).optional(),
+  shelves: z.array(manifestShelfSchema).optional(),
+  changeEvents: z.array(changeEventSchema).optional(),
+  searchAliases: z.array(searchAliasSchema).optional(),
   /** Manifest metadata (optional) */
   manifestVersion: z.union([z.literal(1), z.literal(2)]).optional(),
+  schemaVersion: z.string().optional(),
   generatedAt: z.string().optional(),
   repository: z.string().optional(),
   ref: z.string().optional(),
   releaseTag: z.string().optional(),
+  sourceCommit: z.string().optional(),
 });
 
 export type SemanticGraphZod = z.infer<typeof semanticGraphSchema>;
@@ -278,10 +476,19 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     relationships: data.relationships,
     ontology: data.ontology,
     thinkers: data.thinkers,
+    works: data.works,
+    editions: data.editions,
+    questions: data.questions,
+    trails: data.trails,
+    shelves: data.shelves,
+    changeEvents: data.changeEvents,
+    searchAliases: data.searchAliases,
     manifestVersion: data.manifestVersion,
+    schemaVersion: data.schemaVersion,
     generatedAt: data.generatedAt,
     repository: data.repository,
     ref: data.ref,
     releaseTag: data.releaseTag,
+    sourceCommit: data.sourceCommit,
   };
 }

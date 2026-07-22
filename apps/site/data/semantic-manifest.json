@@ -1,6 +1,6 @@
 {
   "manifestVersion": 2,
-  "generatedAt": "2026-07-20T13:48:25.301649+00:00",
+  "generatedAt": "2026-07-22T20:19:37.121276+00:00",
   "repository": "ksteffe/after-certainty",
   "ref": "main",
   "releaseTag": "latest",
@@ -107,7 +107,38 @@
         "source-tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of",
         "source-walzer-michael-just-and-unjust-wars-a-moral-argument-with-historical",
         "source-weber-max-economy-and-society-an-outline-of-interpretive-sociology"
-      ]
+      ],
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"],
+      "overview": {
+        "centralQuestion": "How do we live and judge when understanding is not enough?",
+        "whyItExists": "After Certainty is the project\u2019s namesake orientation: judgment, responsibility, and participation once explanation reaches its limits and replacement frameworks will not save us.",
+        "audience": "Readers ready for the capstone thesis \u2014 including those arriving from curiosity, perspective, trust, or systems doorways.",
+        "nonGoals": [
+          "It does not install a new totalizing certainty in place of the old one.",
+          "It does not claim that abandoning certainty means abandoning standards."
+        ],
+        "selectedConceptIds": [
+          "concept-agency",
+          "concept-accountability",
+          "concept-authority",
+          "concept-abstraction",
+          "concept-coherence-maintenance"
+        ],
+        "selectedPatternIds": [
+          "pattern-explanation-replaces-response",
+          "pattern-blame-compresses-complexity",
+          "pattern-attention-restores-contact"
+        ],
+        "readBefore": ["curiosity-before-certainty", "what-we-cannot-see"],
+        "readNext": ["coupling", "when-others-look-to-you-v1"]
+      }
     },
     {
       "slug": "before-certainty-arrives",
@@ -230,7 +261,15 @@
         "source-ussishkin-david-the-renewed-archaeological-excavations-at-lachish",
         "source-vanderkam-james-c-the-dead-sea-scrolls-today",
         "source-weber-max-economy-and-society-an-outline-of-interpretive-sociology"
-      ]
+      ],
+      "workId": "work-before-certainty-arrives",
+      "editionId": "book-before-certainty-arrives",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "boundary-conditions",
@@ -266,7 +305,15 @@
       "summary": "Organizational fiction about invisible coordination work, authorization boundaries, and the cost of becoming indispensable inside complex systems.",
       "concepts": [],
       "patterns": [],
-      "sources": []
+      "sources": [],
+      "workId": "work-boundary-conditions",
+      "editionId": "book-boundary-conditions",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "coupling",
@@ -425,7 +472,38 @@
         "source-vernon-vaughn-implementing-domain-driven-design",
         "source-wiener-norbert-cybernetics-or-control-and-communication-in-the-animal-and-the-machine",
         "source-zuboff-shoshana-the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-front"
-      ]
+      ],
+      "workId": "work-coupling",
+      "editionId": "book-coupling",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"],
+      "overview": {
+        "centralQuestion": "How do connection and separation in systems shape responsibility over time?",
+        "whyItExists": "Coupling offers a practical architecture for seeing where systems are tightly joined, where they drift, and how those choices distribute consequence and accountability.",
+        "audience": "Systems thinkers, architects, and practitioners who need a concrete lens on cohesion, drift, and designed friction.",
+        "nonGoals": [
+          "It is not a software-only coupling guide, though software examples appear.",
+          "It does not treat decoupling as always virtuous."
+        ],
+        "selectedConceptIds": [
+          "concept-boundary",
+          "concept-accountability",
+          "concept-agency",
+          "concept-attention",
+          "concept-authority"
+        ],
+        "selectedPatternIds": [
+          "pattern-exceptions-are-forever",
+          "pattern-feedback-drives-change",
+          "pattern-learning-collapses"
+        ],
+        "readBefore": ["how-serious-systems-learn"],
+        "readNext": ["after-certainty", "when-others-look-to-you-v1"]
+      }
     },
     {
       "slug": "curiosity-before-certainty",
@@ -461,7 +539,25 @@
       "summary": "An argument for disciplined curiosity as a leadership and learning posture when easy certainty hides complexity and weakens judgment.",
       "concepts": [],
       "patterns": [],
-      "sources": []
+      "sources": [],
+      "workId": "work-curiosity-before-certainty",
+      "editionId": "book-curiosity-before-certainty",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"],
+      "overview": {
+        "centralQuestion": "How do we stay curious when easy certainty would feel safer?",
+        "whyItExists": "Curiosity Before Certainty is a friendly doorway into the project. It argues for disciplined curiosity as a learning and leadership posture when premature certainty hides complexity and weakens judgment.",
+        "audience": "Readers who want an approachable entry before denser systems or leadership volumes \u2014 including newcomers to After Certainty.",
+        "nonGoals": [
+          "It does not offer a complete epistemology or a replacement ideology.",
+          "It does not treat curiosity as endless delay of decision."
+        ],
+        "readNext": ["what-we-cannot-see", "after-certainty"]
+      }
     },
     {
       "slug": "everyone-knows-love",
@@ -497,7 +593,25 @@
       "summary": "An exploration of love as something everyone recognizes yet struggles to explain\u2014treating care as a living mystery rather than a formula.",
       "concepts": [],
       "patterns": [],
-      "sources": []
+      "sources": [],
+      "workId": "work-everyone-knows-love",
+      "editionId": "book-everyone-knows-love",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"],
+      "overview": {
+        "centralQuestion": "Why is love something everyone recognizes yet struggles to explain?",
+        "whyItExists": "Everyone Knows Love treats care as a living mystery rather than a formula \u2014 a human-scale entry into recognition, obligation, and language that arrives too late.",
+        "audience": "Readers seeking the most intimate doorway into After Certainty\u2019s concerns with meaning, care, and incomplete explanation.",
+        "nonGoals": [
+          "It does not offer a clinical or theological definition of love.",
+          "It does not replace the project\u2019s civic and systems volumes."
+        ],
+        "readNext": ["how-meaning-moves", "after-certainty"]
+      }
     },
     {
       "slug": "how-meaning-moves",
@@ -583,7 +697,38 @@
         "source-steele-claude-m-whistling-vivaldi",
         "source-tajfel-henri-and-john-c-turner-the-social-identity-theory-of-intergroup-behavior",
         "source-weick-karl-e-sensemaking-in-organizations"
-      ]
+      ],
+      "workId": "work-how-meaning-moves",
+      "editionId": "book-how-meaning-moves",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"],
+      "overview": {
+        "centralQuestion": "How does meaning form, harden, and stay revisable before anyone is obviously wrong?",
+        "whyItExists": "How Meaning Moves traces Signal, Compression, and Restraint \u2014 and Connection as the through-line \u2014 so readers can see interpretation at work while sentences still feel open.",
+        "audience": "Readers interested in communication, interpretation, and the pace of understanding across people and institutions.",
+        "nonGoals": [
+          "It does not reduce disagreement to messaging technique.",
+          "It does not claim perfect shared meaning is achievable."
+        ],
+        "selectedConceptIds": [
+          "concept-connection",
+          "concept-contact",
+          "concept-interpretation",
+          "concept-contestability",
+          "concept-correction"
+        ],
+        "selectedPatternIds": [
+          "pattern-meaning-drifts-over-time",
+          "pattern-contact-keeps-the-read-open",
+          "pattern-intent-gets-assigned"
+        ],
+        "readBefore": ["curiosity-before-certainty"],
+        "readNext": ["what-we-cannot-see", "trust-beyond-similarity"]
+      }
     },
     {
       "slug": "how-serious-systems-learn",
@@ -687,7 +832,33 @@
         "source-vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa",
         "source-weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of",
         "source-weick-karl-e-sensemaking-in-organizations"
-      ]
+      ],
+      "workId": "work-how-serious-systems-learn",
+      "editionId": "book-how-serious-systems-learn",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "handbook",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"],
+      "overview": {
+        "centralQuestion": "How can serious systems improve under pressure without waiting for perfect information?",
+        "whyItExists": "This handbook gathers disciplines for learning in motion \u2014 for teams and institutions that must act, revise, and remain answerable when certainty is unavailable.",
+        "audience": "Leaders, engineers, operators, and institutional practitioners who need practical learning postures rather than abstract theory alone.",
+        "nonGoals": [
+          "It is not a project-management methodology cookbook.",
+          "It does not promise that better process eliminates moral conflict."
+        ],
+        "selectedConceptIds": [
+          "concept-adaptation",
+          "concept-contestability",
+          "concept-consequence-architecture",
+          "concept-feedback",
+          "concept-coordination"
+        ],
+        "readBefore": ["curiosity-before-certainty"],
+        "readNext": ["coupling", "when-others-look-to-you-v1"]
+      }
     },
     {
       "slug": "how-trust-forms",
@@ -755,7 +926,15 @@
         "source-putnam-robert-d-bowling-alone-the-collapse-and-revival-of-american-community",
         "source-scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed",
         "source-weber-max-economy-and-society-an-outline-of-interpretive-sociology"
-      ]
+      ],
+      "workId": "work-how-trust-forms",
+      "editionId": "book-how-trust-forms",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "learning-to-see",
@@ -804,7 +983,15 @@
         "source-popper-karl-r-the-logic-of-scientific-discovery",
         "source-shipps-jan-mormonism-the-story-of-a-new-religious-tradition",
         "source-tetlock-philip-e-expert-political-judgment-how-good-is-it-how-can-we-know"
-      ]
+      ],
+      "workId": "work-learning-to-see",
+      "editionId": "book-learning-to-see",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "living-in-sediment",
@@ -934,7 +1121,15 @@
         "source-wu-tim-the-attention-merchants-the-epic-scramble-to-get-inside-our-heads",
         "source-zerubavel-eviatar-hidden-rhythms-schedules-and-calendars-in-social-life",
         "source-zuboff-shoshana-the-age-of-surveillance-capitalism-the-fight-for-a-human-future-at-the-new-front"
-      ]
+      ],
+      "workId": "work-living-in-sediment",
+      "editionId": "book-living-in-sediment",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "observer-patterns",
@@ -970,7 +1165,15 @@
       "summary": "Poems about what happens when attention becomes decisive\u2014when looking, deciding, and following reshape what is possible.",
       "concepts": [],
       "patterns": [],
-      "sources": []
+      "sources": [],
+      "workId": "work-observer-patterns",
+      "editionId": "book-observer-patterns",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_pdf"]
     },
     {
       "slug": "the-discipline-of-uncertainty",
@@ -1023,7 +1226,15 @@
         "source-tuchman-barbara-w-the-march-of-folly-from-troy-to-vietnam",
         "source-u-s-securities-and-exchange-commission-office-of-the-whistleblower-annual-reports-to-congress-ht",
         "source-weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of"
-      ]
+      ],
+      "workId": "work-the-discipline-of-uncertainty",
+      "editionId": "book-the-discipline-of-uncertainty",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "handbook",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "the-economy-we-dont-experience",
@@ -1093,7 +1304,15 @@
         "source-u-s-bureau-of-labor-statistics-the-employment-situation",
         "source-u-s-census-bureau-housing-statistics-and-american-community-survey-materials-on-regional-cost-pr",
         "source-u-s-department-of-the-treasury-board-of-governors-of-the-federal-reserve-system-and-federal-depo"
-      ]
+      ],
+      "workId": "work-the-economy-we-dont-experience",
+      "editionId": "book-the-economy-we-dont-experience",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "the-game-we-think-we-saw",
@@ -1220,7 +1439,15 @@
         "source-will-graves-biles-returns-to-olympic-competition-wins-bronze-on-beam",
         "source-will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self",
         "source-world-athletics-iconic-mexico-city-olympic-podium-protest-turns-50"
-      ]
+      ],
+      "workId": "work-the-game-we-think-we-saw",
+      "editionId": "book-the-game-we-think-we-saw",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "the-relay",
@@ -1256,7 +1483,69 @@
       "summary": "A courier notices silence where explanations should be \u2014 and a civilization-sized blind spot emerges one perspective at a time. The answer to uncertainty is participation, not certainty.",
       "concepts": [],
       "patterns": [],
-      "sources": []
+      "sources": [],
+      "workId": "work-the-relay",
+      "editionId": "book-the-relay",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "fiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"],
+      "overview": {
+        "centralQuestion": "What happens when a civilization-sized blind spot can only be seen one perspective at a time?",
+        "whyItExists": "The Relay is a fiction doorway into the same terrain: uncertainty, participation, and coordination when no courier holds the complete map.",
+        "audience": "Readers who prefer story as an entry into the project\u2019s questions about meaning, responsibility, and shared work.",
+        "nonGoals": [
+          "It is not a treatise or handbook disguised as a novel.",
+          "It does not settle the project\u2019s nonfiction arguments by plot alone."
+        ],
+        "readNext": ["how-meaning-moves", "curiosity-before-certainty"]
+      }
+    },
+    {
+      "slug": "the-world-we-make-together",
+      "source": "books",
+      "status": "published",
+      "title": "The World We Make Together",
+      "subtitle": "How Ordinary People, Unequal Power, and Shared Action Shape History",
+      "description": "History is collective, but responsibility remains uneven. The World We Make Together follows ordinary objects\u2014a switch, a ballot, a fence, a bowl, a scale\u2014into the institutions and relationships through which people shape public life without becoming either solitary heroes or passive products of structure.",
+      "authors": ["Kevin Steffensen"],
+      "year": 2026,
+      "publicationDate": null,
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-world-we-make-together/book-cover.png",
+      "coverImagePath": "books/the-world-we-make-together/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/the-world-we-make-together/open-graph.png",
+      "openGraphImagePath": "books/the-world-we-make-together/open-graph.png",
+      "bookDir": "books/the-world-we-make-together",
+      "docx": {
+        "enabled": true,
+        "file": "the-world-we-make-together.docx",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-world-we-make-together.docx"
+      },
+      "epub": {
+        "enabled": true,
+        "file": "the-world-we-make-together.epub",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-world-we-make-together.epub"
+      },
+      "pdf": {
+        "enabled": true,
+        "file": "the-world-we-make-together.pdf",
+        "url": "https://github.com/ksteffe/after-certainty/releases/download/latest/the-world-we-make-together.pdf"
+      },
+      "id": "book-the-world-we-make-together",
+      "summary": "History is collective, but responsibility remains uneven. The World We Make Together follows ordinary objects\u2014a switch, a ballot, a fence, a bowl, a scale\u2014into the institutions and relationships through which people shape public life without becoming either solitary heroes or passive products of structure.",
+      "concepts": [],
+      "patterns": [],
+      "sources": [],
+      "workId": "work-the-world-we-make-together",
+      "editionId": "book-the-world-we-make-together",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "trust-beyond-similarity",
@@ -1352,7 +1641,33 @@
         "source-wachsmuth-david-and-alexander-weisler-airbnb-and-the-rent-gap-gentrification-through-the-sharing",
         "source-weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of",
         "source-weick-karl-e-sensemaking-in-organizations"
-      ]
+      ],
+      "workId": "work-trust-beyond-similarity",
+      "editionId": "book-trust-beyond-similarity",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"],
+      "overview": {
+        "centralQuestion": "How can trust remain possible across difference and disagreement?",
+        "whyItExists": "Trust Beyond Similarity explores why trust becomes more valuable \u2014 not less \u2014 when perspectives diverge, and what makes cooperation across partial views durable.",
+        "audience": "Readers concerned with civic life, teams across disagreement, and relationships where sameness cannot be the price of trust.",
+        "nonGoals": [
+          "It does not claim all disagreement is healthy or all difference should be preserved.",
+          "It does not reduce trust to a single metric or reputation score."
+        ],
+        "selectedConceptIds": [
+          "concept-contestability",
+          "concept-accountability",
+          "concept-coordination",
+          "concept-correction",
+          "concept-feedback"
+        ],
+        "readBefore": ["curiosity-before-certainty"],
+        "readNext": ["what-we-cannot-see", "how-trust-forms"]
+      }
     },
     {
       "slug": "velorum",
@@ -1388,7 +1703,15 @@
       "summary": "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale.",
       "concepts": [],
       "patterns": [],
-      "sources": []
+      "sources": [],
+      "workId": "work-velorum",
+      "editionId": "book-velorum",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "fiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "what-we-cannot-see",
@@ -1463,7 +1786,33 @@
         "source-snow-john-on-the-mode-of-communication-of-cholera",
         "source-tversky-amos-and-daniel-kahneman-availability-a-heuristic-for-judging-frequency-and-probability",
         "source-vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa"
-      ]
+      ],
+      "workId": "work-what-we-cannot-see",
+      "editionId": "book-what-we-cannot-see",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"],
+      "overview": {
+        "centralQuestion": "How do we judge responsibly when every perspective is partial?",
+        "whyItExists": "What We Cannot See introduces finite perspective, bias, and integration \u2014 why no one sees the whole, and why groups still need accountable judgment.",
+        "audience": "Readers who want a clear map of perspective limits before entering denser systems or leadership books.",
+        "nonGoals": [
+          "It does not treat all viewpoints as equally warranted.",
+          "It does not dissolve individual responsibility into collective process."
+        ],
+        "selectedConceptIds": [
+          "concept-finite-perspective",
+          "concept-bias",
+          "concept-integration",
+          "concept-interpretation",
+          "concept-answerability"
+        ],
+        "readBefore": ["curiosity-before-certainty"],
+        "readNext": ["trust-beyond-similarity", "after-certainty"]
+      }
     },
     {
       "slug": "when-accountability-no-longer-expires",
@@ -1529,7 +1878,15 @@
         "source-vaughan-diane-the-challenger-launch-decision-risky-technology-culture-and-deviance-at-nasa",
         "source-weber-max-economy-and-society-an-outline-of-interpretive-sociology",
         "source-weick-karl-e-sensemaking-in-organizations"
-      ]
+      ],
+      "workId": "work-when-accountability-no-longer-expires",
+      "editionId": "book-when-accountability-no-longer-expires",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "when-authority-is-misread",
@@ -1638,7 +1995,15 @@
           "url": "https://www.amazon.com/gp/product/B0DWZ2ZFXG",
           "label": "Buy on Amazon"
         }
-      ]
+      ],
+      "workId": "work-when-authority-is-misread",
+      "editionId": "book-when-authority-is-misread",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf", "available_in_print"]
     },
     {
       "slug": "when-authority-outlives-accountability",
@@ -1735,7 +2100,15 @@
           "url": "https://www.amazon.com/gp/product/B0GJ3QZQ1V",
           "label": "Buy on Amazon"
         }
-      ]
+      ],
+      "workId": "work-when-authority-outlives-accountability",
+      "editionId": "book-when-authority-outlives-accountability",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf", "available_in_print"]
     },
     {
       "slug": "when-incentives-become-the-moral-language",
@@ -1832,7 +2205,15 @@
         "source-worker-adjustment-and-retraining-notification-act-29-u-s-c-2101-2109",
         "source-world-bank-state-and-trends-of-carbon-pricing",
         "source-zuckerberg-mark-testimony-before-the-u-s-senate-judiciary-and-commerce-committees-april-10-11-20"
-      ]
+      ],
+      "workId": "work-when-incentives-become-the-moral-language",
+      "editionId": "book-when-incentives-become-the-moral-language",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "when-interpretation-no-longer-matters",
@@ -1951,7 +2332,15 @@
         "source-weber-max-economy-and-society-an-outline-of-interpretive-sociology",
         "source-woodward-bob-fear-trump-in-the-white-house",
         "source-wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict"
-      ]
+      ],
+      "workId": "work-when-interpretation-no-longer-matters",
+      "editionId": "book-when-interpretation-no-longer-matters",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "when-moral-seriousness-scales",
@@ -2031,7 +2420,15 @@
         "source-schelling-thomas-c-the-strategy-of-conflict",
         "source-selznick-philip-leadership-in-administration-a-sociological-interpretation",
         "source-weber-max-economy-and-society-an-outline-of-interpretive-sociology"
-      ]
+      ],
+      "workId": "work-when-moral-seriousness-scales",
+      "editionId": "book-when-moral-seriousness-scales",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "when-others-become-leaders",
@@ -2121,7 +2518,15 @@
         "source-u-s-senate-subcommittee-on-communications-hearings-on-the-public-broadcasting-act-may-1969",
         "source-webb-miller-dispatches-from-dharasana-salt-works-raid-may-1930",
         "source-wright-n-t-jesus-and-the-victory-of-god"
-      ]
+      ],
+      "workId": "work-when-others-become-leaders",
+      "editionId": "book-when-others-become-leaders",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "when-others-look-to-you-v1",
@@ -2245,7 +2650,38 @@
           "url": "https://www.amazon.com/gp/product/B0GX34SRDJ",
           "label": "Buy on Amazon"
         }
-      ]
+      ],
+      "workId": "work-when-others-look-to-you",
+      "editionId": "book-when-others-look-to-you-v1",
+      "isCanonical": true,
+      "editionRelationship": "primary",
+      "editionLabel": "Primary volume",
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf", "available_in_print"],
+      "overview": {
+        "centralQuestion": "How does leadership influence form, renew, and erode when others look to you?",
+        "whyItExists": "When Others Look to You is a field guide to renewal and erosion in leadership \u2014 how trust is practiced, how responsibility drifts, and how influence stays answerable.",
+        "audience": "Leaders and people who hold informal influence \u2014 including readers arriving from systems, trust, or handbook doorways.",
+        "nonGoals": [
+          "It is not a personality-cult or charisma manual.",
+          "The companion edition is parallel enrichment, not a replacement for this primary volume."
+        ],
+        "selectedConceptIds": [
+          "concept-authority",
+          "concept-accountability",
+          "concept-contestability",
+          "concept-adaptation",
+          "concept-coherence-maintenance"
+        ],
+        "selectedPatternIds": [
+          "pattern-disagreement-is-suppressed",
+          "pattern-dissent-is-welcomed",
+          "pattern-exceptions-are-forever"
+        ],
+        "readBefore": ["how-serious-systems-learn", "trust-beyond-similarity"],
+        "readNext": ["when-others-look-to-you-v2", "after-certainty"]
+      }
     },
     {
       "slug": "when-others-look-to-you-v2",
@@ -2321,7 +2757,15 @@
         "source-weick-karl-e-and-kathleen-m-sutcliffe-managing-the-unexpected-resilient-performance-in-an-age-of",
         "source-weick-karl-e-kathleen-m-sutcliffe-and-david-obstfeld-organizing",
         "source-weick-karl-e-the-social-psychology-of-organizing"
-      ]
+      ],
+      "workId": "work-when-others-look-to-you",
+      "editionId": "book-when-others-look-to-you-v2",
+      "isCanonical": false,
+      "editionRelationship": "companion",
+      "editionLabel": "Companion edition",
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "when-trust-stops-tracking-reality",
@@ -2403,7 +2847,15 @@
         "source-weber-max-economy-and-society-an-outline-of-interpretive-sociology",
         "source-weick-karl-e-sensemaking-in-organizations",
         "source-wiedeman-reeves-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusion"
-      ]
+      ],
+      "workId": "work-when-trust-stops-tracking-reality",
+      "editionId": "book-when-trust-stops-tracking-reality",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "why-collaboration-is-so-hard",
@@ -2474,7 +2926,15 @@
         "source-sennett-richard-together-the-rituals-pleasures-and-politics-of-cooperation",
         "source-star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and",
         "source-weick-karl-e-sensemaking-in-organizations"
-      ]
+      ],
+      "workId": "work-why-collaboration-is-so-hard",
+      "editionId": "book-why-collaboration-is-so-hard",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     },
     {
       "slug": "why-diversity-matters",
@@ -2510,7 +2970,15 @@
       "summary": "Why diversity is about what gets noticed, trusted, and ignored\u2014not just who is in the room.",
       "concepts": [],
       "patterns": [],
-      "sources": []
+      "sources": [],
+      "workId": "work-why-diversity-matters",
+      "editionId": "book-why-diversity-matters",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "editionLabel": null,
+      "contentType": "nonfiction",
+      "publicStatus": "published",
+      "availability": ["download_docx", "download_epub", "download_pdf"]
     }
   ],
   "glossary": [
@@ -2564,6 +3032,7 @@
         "book-living-in-sediment": 1,
         "book-the-discipline-of-uncertainty": 51,
         "book-the-economy-we-dont-experience": 1,
+        "book-the-world-we-make-together": 1,
         "book-trust-beyond-similarity": 3,
         "book-what-we-cannot-see": 3,
         "book-when-authority-is-misread": 1,
@@ -2714,6 +3183,7 @@
         "book-the-discipline-of-uncertainty": 35,
         "book-the-economy-we-dont-experience": 6,
         "book-the-game-we-think-we-saw": 24,
+        "book-the-world-we-make-together": 35,
         "book-trust-beyond-similarity": 11,
         "book-what-we-cannot-see": 25,
         "book-when-accountability-no-longer-expires": 68,
@@ -2852,6 +3322,7 @@
         "book-the-economy-we-dont-experience": 2,
         "book-the-game-we-think-we-saw": 2,
         "book-the-relay": 5,
+        "book-the-world-we-make-together": 3,
         "book-what-we-cannot-see": 9,
         "book-when-accountability-no-longer-expires": 20,
         "book-when-authority-is-misread": 3,
@@ -3035,6 +3506,7 @@
         "book-the-discipline-of-uncertainty": 3,
         "book-the-economy-we-dont-experience": 2,
         "book-the-relay": 1,
+        "book-the-world-we-make-together": 1,
         "book-trust-beyond-similarity": 2,
         "book-velorum": 3,
         "book-what-we-cannot-see": 1,
@@ -3231,6 +3703,7 @@
         "book-the-discipline-of-uncertainty": 5,
         "book-the-economy-we-dont-experience": 6,
         "book-the-game-we-think-we-saw": 3,
+        "book-the-world-we-make-together": 3,
         "book-what-we-cannot-see": 1,
         "book-when-authority-is-misread": 4,
         "book-when-authority-outlives-accountability": 2,
@@ -3443,6 +3916,7 @@
         "book-the-economy-we-dont-experience": 14,
         "book-the-game-we-think-we-saw": 89,
         "book-the-relay": 15,
+        "book-the-world-we-make-together": 146,
         "book-trust-beyond-similarity": 9,
         "book-velorum": 11,
         "book-what-we-cannot-see": 40,
@@ -3700,6 +4174,7 @@
         "book-the-discipline-of-uncertainty": 4,
         "book-the-economy-we-dont-experience": 2,
         "book-the-game-we-think-we-saw": 1,
+        "book-the-world-we-make-together": 5,
         "book-trust-beyond-similarity": 2,
         "book-velorum": 1,
         "book-what-we-cannot-see": 2,
@@ -3842,36 +4317,37 @@
       "definition": "Certainty names the compression of choice and ambiguity into stable expectation\u2014roles, law, and  moral systems that make behavior predictable enough to coordinate under pressure. It is not truth  discovered once and for all, but adaptation hardened under instability. It becomes important when  coordination breaks down faster than explanation can travel, when seasons will not wait for debate,  when strangers must act together without shared context. Certainty enables collective action by  reducing the decision space, making tomorrow recognizable from yesterday, allowing people to act  together even when they do not agree on reasons. It becomes dangerous when it outlives the conditions  that first made it workable\u2014when compression persists after instability has passed, when revision  begins to feel like betrayal, when systems still run while the fit between structure and reality  thins. It differs from conviction in that certainty is social and structural, while conviction is  personal belief.",
       "mentionsByBook": {
         "book-after-certainty": 113,
-        "book-before-certainty-arrives": 132,
+        "book-before-certainty-arrives": 133,
         "book-boundary-conditions": 5,
         "book-coupling": 4,
         "book-curiosity-before-certainty": 19,
-        "book-everyone-knows-love": 62,
-        "book-how-meaning-moves": 65,
+        "book-everyone-knows-love": 63,
+        "book-how-meaning-moves": 66,
         "book-how-serious-systems-learn": 55,
         "book-how-trust-forms": 41,
-        "book-learning-to-see": 95,
+        "book-learning-to-see": 96,
         "book-living-in-sediment": 27,
         "book-observer-patterns": 4,
         "book-the-discipline-of-uncertainty": 166,
         "book-the-economy-we-dont-experience": 13,
-        "book-the-game-we-think-we-saw": 62,
+        "book-the-game-we-think-we-saw": 63,
         "book-the-relay": 25,
+        "book-the-world-we-make-together": 61,
         "book-trust-beyond-similarity": 21,
         "book-velorum": 7,
-        "book-what-we-cannot-see": 91,
-        "book-when-accountability-no-longer-expires": 70,
-        "book-when-authority-is-misread": 68,
-        "book-when-authority-outlives-accountability": 55,
-        "book-when-incentives-become-the-moral-language": 64,
-        "book-when-interpretation-no-longer-matters": 64,
-        "book-when-moral-seriousness-scales": 61,
+        "book-what-we-cannot-see": 92,
+        "book-when-accountability-no-longer-expires": 71,
+        "book-when-authority-is-misread": 69,
+        "book-when-authority-outlives-accountability": 56,
+        "book-when-incentives-become-the-moral-language": 65,
+        "book-when-interpretation-no-longer-matters": 65,
+        "book-when-moral-seriousness-scales": 62,
         "book-when-others-become-leaders": 13,
         "book-when-others-look-to-you-v1": 5,
         "book-when-others-look-to-you-v2": 6,
         "book-when-trust-stops-tracking-reality": 16,
-        "book-why-collaboration-is-so-hard": 68,
-        "book-why-diversity-matters": 67
+        "book-why-collaboration-is-so-hard": 69,
+        "book-why-diversity-matters": 68
       }
     },
     {
@@ -3921,6 +4397,7 @@
         "book-learning-to-see": 5,
         "book-the-game-we-think-we-saw": 5,
         "book-the-relay": 7,
+        "book-the-world-we-make-together": 13,
         "book-trust-beyond-similarity": 8,
         "book-what-we-cannot-see": 5,
         "book-when-accountability-no-longer-expires": 5,
@@ -4188,6 +4665,7 @@
         "book-the-discipline-of-uncertainty": 15,
         "book-the-economy-we-dont-experience": 15,
         "book-the-game-we-think-we-saw": 18,
+        "book-the-world-we-make-together": 9,
         "book-trust-beyond-similarity": 6,
         "book-what-we-cannot-see": 8,
         "book-when-accountability-no-longer-expires": 10,
@@ -4324,6 +4802,7 @@
         "book-the-discipline-of-uncertainty": 2,
         "book-the-economy-we-dont-experience": 2,
         "book-the-game-we-think-we-saw": 10,
+        "book-the-world-we-make-together": 19,
         "book-velorum": 2,
         "book-what-we-cannot-see": 4,
         "book-when-accountability-no-longer-expires": 12,
@@ -4469,6 +4948,7 @@
         "book-the-discipline-of-uncertainty": 13,
         "book-the-economy-we-dont-experience": 10,
         "book-the-game-we-think-we-saw": 2,
+        "book-the-world-we-make-together": 2,
         "book-trust-beyond-similarity": 2,
         "book-what-we-cannot-see": 2,
         "book-when-accountability-no-longer-expires": 15,
@@ -4892,6 +5372,7 @@
         "book-the-economy-we-dont-experience": 6,
         "book-the-game-we-think-we-saw": 10,
         "book-the-relay": 2,
+        "book-the-world-we-make-together": 17,
         "book-trust-beyond-similarity": 19,
         "book-velorum": 1,
         "book-what-we-cannot-see": 14,
@@ -5030,6 +5511,7 @@
         "book-the-economy-we-dont-experience": 22,
         "book-the-game-we-think-we-saw": 21,
         "book-the-relay": 2,
+        "book-the-world-we-make-together": 18,
         "book-trust-beyond-similarity": 10,
         "book-velorum": 29,
         "book-what-we-cannot-see": 10,
@@ -5247,6 +5729,7 @@
         "book-how-serious-systems-learn": 7,
         "book-learning-to-see": 8,
         "book-the-game-we-think-we-saw": 8,
+        "book-the-world-we-make-together": 8,
         "book-trust-beyond-similarity": 2,
         "book-what-we-cannot-see": 10,
         "book-when-accountability-no-longer-expires": 8,
@@ -5688,6 +6171,7 @@
         "book-the-economy-we-dont-experience": 14,
         "book-the-game-we-think-we-saw": 5,
         "book-the-relay": 15,
+        "book-the-world-we-make-together": 13,
         "book-trust-beyond-similarity": 6,
         "book-velorum": 14,
         "book-what-we-cannot-see": 6,
@@ -5832,6 +6316,7 @@
         "book-living-in-sediment": 4,
         "book-the-discipline-of-uncertainty": 60,
         "book-the-relay": 7,
+        "book-the-world-we-make-together": 2,
         "book-trust-beyond-similarity": 1,
         "book-velorum": 2,
         "book-what-we-cannot-see": 6,
@@ -6196,6 +6681,7 @@
         "book-the-discipline-of-uncertainty": 9,
         "book-the-economy-we-dont-experience": 3,
         "book-the-game-we-think-we-saw": 1,
+        "book-the-world-we-make-together": 1,
         "book-trust-beyond-similarity": 6,
         "book-when-accountability-no-longer-expires": 1,
         "book-when-authority-is-misread": 3,
@@ -7055,6 +7541,7 @@
         "book-the-discipline-of-uncertainty": 2,
         "book-the-economy-we-dont-experience": 1,
         "book-the-game-we-think-we-saw": 1,
+        "book-the-world-we-make-together": 3,
         "book-what-we-cannot-see": 3,
         "book-when-accountability-no-longer-expires": 5,
         "book-when-authority-is-misread": 8,
@@ -7322,6 +7809,7 @@
         "book-the-discipline-of-uncertainty": 5,
         "book-the-economy-we-dont-experience": 11,
         "book-the-game-we-think-we-saw": 49,
+        "book-the-world-we-make-together": 35,
         "book-trust-beyond-similarity": 15,
         "book-what-we-cannot-see": 52,
         "book-when-accountability-no-longer-expires": 26,
@@ -7599,6 +8087,7 @@
         "book-the-economy-we-dont-experience": 16,
         "book-the-game-we-think-we-saw": 63,
         "book-the-relay": 2,
+        "book-the-world-we-make-together": 85,
         "book-trust-beyond-similarity": 33,
         "book-velorum": 5,
         "book-what-we-cannot-see": 95,
@@ -7801,6 +8290,7 @@
         "book-the-discipline-of-uncertainty": 6,
         "book-the-economy-we-dont-experience": 5,
         "book-the-game-we-think-we-saw": 25,
+        "book-the-world-we-make-together": 28,
         "book-trust-beyond-similarity": 4,
         "book-velorum": 2,
         "book-what-we-cannot-see": 12,
@@ -8024,6 +8514,7 @@
         "book-the-economy-we-dont-experience": 12,
         "book-the-game-we-think-we-saw": 57,
         "book-the-relay": 16,
+        "book-the-world-we-make-together": 34,
         "book-trust-beyond-similarity": 40,
         "book-velorum": 16,
         "book-what-we-cannot-see": 24,
@@ -8226,6 +8717,7 @@
         "book-learning-to-see": 1,
         "book-the-economy-we-dont-experience": 1,
         "book-the-relay": 1,
+        "book-the-world-we-make-together": 2,
         "book-trust-beyond-similarity": 7,
         "book-when-authority-outlives-accountability": 1,
         "book-when-incentives-become-the-moral-language": 1,
@@ -9265,6 +9757,7 @@
         "book-learning-to-see": 1,
         "book-the-economy-we-dont-experience": 4,
         "book-the-game-we-think-we-saw": 1,
+        "book-the-world-we-make-together": 2,
         "book-what-we-cannot-see": 1,
         "book-when-accountability-no-longer-expires": 2,
         "book-when-authority-is-misread": 1,
@@ -9463,6 +9956,7 @@
       "mentionsByBook": {
         "book-everyone-knows-love": 1,
         "book-how-trust-forms": 1,
+        "book-the-world-we-make-together": 1,
         "book-when-moral-seriousness-scales": 25,
         "book-when-others-become-leaders": 3
       }
@@ -9604,6 +10098,7 @@
         "book-the-discipline-of-uncertainty": 8,
         "book-the-economy-we-dont-experience": 14,
         "book-the-game-we-think-we-saw": 1,
+        "book-the-world-we-make-together": 10,
         "book-velorum": 1,
         "book-what-we-cannot-see": 1,
         "book-when-accountability-no-longer-expires": 23,
@@ -9993,36 +10488,37 @@
       "isCoreTerm": true,
       "definition": "Scale names what happens when coordination extends beyond the range of direct relationship\u2014when  groups, institutions, systems, or problems grow large enough that no one person can see the whole  picture, when distance opens between decisions and consequences, when strangers must act together  without kinship or shared memory. Scale becomes important because it enables reach, continuity,  repeatability, and collective capacity that small groups cannot achieve; it makes large projects,  long-term infrastructure, and complex coordination possible. But scale can also thin what holds  moral life together at human range: context becomes harder to preserve, consequence becomes harder  to trace, feedback slows and weakens, answerability diffuses across roles and distance. At scale,  systems often operate on aggregates rather than particulars, on categories rather than persons,  on procedures rather than judgment. Responsibility can shift from relational accountability to  role compliance, where doing the job correctly feels sufficient even when outcomes are troubling.  The question scale raises is: what changes when no one sees the whole picture? Where is scale  eroding the capacity to see people rather than just patterns? Scale differs from size in that  scale is about the structural changes coordination requires, not just numerical growth.",
       "mentionsByBook": {
-        "book-after-certainty": 52,
-        "book-before-certainty-arrives": 37,
+        "book-after-certainty": 54,
+        "book-before-certainty-arrives": 38,
         "book-boundary-conditions": 2,
         "book-coupling": 126,
         "book-curiosity-before-certainty": 1,
-        "book-everyone-knows-love": 15,
-        "book-how-meaning-moves": 11,
+        "book-everyone-knows-love": 16,
+        "book-how-meaning-moves": 12,
         "book-how-serious-systems-learn": 11,
         "book-how-trust-forms": 9,
-        "book-learning-to-see": 13,
+        "book-learning-to-see": 14,
         "book-living-in-sediment": 14,
         "book-the-discipline-of-uncertainty": 24,
         "book-the-economy-we-dont-experience": 15,
-        "book-the-game-we-think-we-saw": 11,
+        "book-the-game-we-think-we-saw": 12,
         "book-the-relay": 11,
+        "book-the-world-we-make-together": 48,
         "book-trust-beyond-similarity": 8,
         "book-velorum": 2,
-        "book-what-we-cannot-see": 33,
-        "book-when-accountability-no-longer-expires": 18,
-        "book-when-authority-is-misread": 34,
-        "book-when-authority-outlives-accountability": 52,
-        "book-when-incentives-become-the-moral-language": 36,
-        "book-when-interpretation-no-longer-matters": 25,
-        "book-when-moral-seriousness-scales": 59,
+        "book-what-we-cannot-see": 34,
+        "book-when-accountability-no-longer-expires": 19,
+        "book-when-authority-is-misread": 35,
+        "book-when-authority-outlives-accountability": 53,
+        "book-when-incentives-become-the-moral-language": 37,
+        "book-when-interpretation-no-longer-matters": 26,
+        "book-when-moral-seriousness-scales": 60,
         "book-when-others-become-leaders": 16,
         "book-when-others-look-to-you-v1": 50,
         "book-when-others-look-to-you-v2": 4,
         "book-when-trust-stops-tracking-reality": 10,
-        "book-why-collaboration-is-so-hard": 18,
-        "book-why-diversity-matters": 10
+        "book-why-collaboration-is-so-hard": 19,
+        "book-why-diversity-matters": 11
       }
     },
     {
@@ -11167,6 +11663,7 @@
         "book-the-economy-we-dont-experience": 19,
         "book-the-game-we-think-we-saw": 25,
         "book-the-relay": 2,
+        "book-the-world-we-make-together": 56,
         "book-trust-beyond-similarity": 14,
         "book-velorum": 2,
         "book-what-we-cannot-see": 43,
@@ -34895,6 +35392,2116 @@
       ],
       "works": ["source-bauman-zygmunt-modernity-and-the-holocaust"],
       "whyThisMatters": "Bauman names the loosening of durable bonds\u2014why trust and accountability feel harder when nothing stays put."
+    }
+  ],
+  "schemaVersion": "2.1",
+  "sourceCommit": "020822934c856e0a22091d482d1c3f6e03124d79",
+  "works": [
+    {
+      "id": "work-after-certainty",
+      "slug": "after-certainty",
+      "title": "After Certainty",
+      "currentEditionId": "book-after-certainty",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/after-certainty",
+      "editionIds": ["book-after-certainty"]
+    },
+    {
+      "id": "work-before-certainty-arrives",
+      "slug": "before-certainty-arrives",
+      "title": "Before Certainty Arrives",
+      "currentEditionId": "book-before-certainty-arrives",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/before-certainty-arrives",
+      "editionIds": ["book-before-certainty-arrives"]
+    },
+    {
+      "id": "work-boundary-conditions",
+      "slug": "boundary-conditions",
+      "title": "Boundary Conditions",
+      "currentEditionId": "book-boundary-conditions",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/boundary-conditions",
+      "editionIds": ["book-boundary-conditions"]
+    },
+    {
+      "id": "work-coupling",
+      "slug": "coupling",
+      "title": "Coupling",
+      "currentEditionId": "book-coupling",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/coupling",
+      "editionIds": ["book-coupling"]
+    },
+    {
+      "id": "work-curiosity-before-certainty",
+      "slug": "curiosity-before-certainty",
+      "title": "Curiosity Before Certainty",
+      "currentEditionId": "book-curiosity-before-certainty",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/curiosity-before-certainty",
+      "editionIds": ["book-curiosity-before-certainty"]
+    },
+    {
+      "id": "work-everyone-knows-love",
+      "slug": "everyone-knows-love",
+      "title": "Everyone Knows Love",
+      "currentEditionId": "book-everyone-knows-love",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/everyone-knows-love",
+      "editionIds": ["book-everyone-knows-love"]
+    },
+    {
+      "id": "work-how-meaning-moves",
+      "slug": "how-meaning-moves",
+      "title": "How Meaning Moves",
+      "currentEditionId": "book-how-meaning-moves",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/how-meaning-moves",
+      "editionIds": ["book-how-meaning-moves"]
+    },
+    {
+      "id": "work-how-serious-systems-learn",
+      "slug": "how-serious-systems-learn",
+      "title": "How Serious Systems Learn",
+      "currentEditionId": "book-how-serious-systems-learn",
+      "contentType": "handbook",
+      "canonicalRoute": "/explore/books/how-serious-systems-learn",
+      "editionIds": ["book-how-serious-systems-learn"]
+    },
+    {
+      "id": "work-how-trust-forms",
+      "slug": "how-trust-forms",
+      "title": "How Trust Forms",
+      "currentEditionId": "book-how-trust-forms",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/how-trust-forms",
+      "editionIds": ["book-how-trust-forms"]
+    },
+    {
+      "id": "work-learning-to-see",
+      "slug": "learning-to-see",
+      "title": "Learning to See",
+      "currentEditionId": "book-learning-to-see",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/learning-to-see",
+      "editionIds": ["book-learning-to-see"]
+    },
+    {
+      "id": "work-living-in-sediment",
+      "slug": "living-in-sediment",
+      "title": "Living in Sediment",
+      "currentEditionId": "book-living-in-sediment",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/living-in-sediment",
+      "editionIds": ["book-living-in-sediment"]
+    },
+    {
+      "id": "work-observer-patterns",
+      "slug": "observer-patterns",
+      "title": "Observer Patterns",
+      "currentEditionId": "book-observer-patterns",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/observer-patterns",
+      "editionIds": ["book-observer-patterns"]
+    },
+    {
+      "id": "work-the-discipline-of-uncertainty",
+      "slug": "the-discipline-of-uncertainty",
+      "title": "The Discipline of Uncertainty",
+      "currentEditionId": "book-the-discipline-of-uncertainty",
+      "contentType": "handbook",
+      "canonicalRoute": "/explore/books/the-discipline-of-uncertainty",
+      "editionIds": ["book-the-discipline-of-uncertainty"]
+    },
+    {
+      "id": "work-the-economy-we-dont-experience",
+      "slug": "the-economy-we-dont-experience",
+      "title": "The Economy We Don't Experience",
+      "currentEditionId": "book-the-economy-we-dont-experience",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/the-economy-we-dont-experience",
+      "editionIds": ["book-the-economy-we-dont-experience"]
+    },
+    {
+      "id": "work-the-game-we-think-we-saw",
+      "slug": "the-game-we-think-we-saw",
+      "title": "The Game We Think We Saw",
+      "currentEditionId": "book-the-game-we-think-we-saw",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/the-game-we-think-we-saw",
+      "editionIds": ["book-the-game-we-think-we-saw"]
+    },
+    {
+      "id": "work-the-relay",
+      "slug": "the-relay",
+      "title": "The Relay",
+      "currentEditionId": "book-the-relay",
+      "contentType": "fiction",
+      "canonicalRoute": "/explore/books/the-relay",
+      "editionIds": ["book-the-relay"]
+    },
+    {
+      "id": "work-the-world-we-make-together",
+      "slug": "the-world-we-make-together",
+      "title": "The World We Make Together",
+      "currentEditionId": "book-the-world-we-make-together",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/the-world-we-make-together",
+      "editionIds": ["book-the-world-we-make-together"]
+    },
+    {
+      "id": "work-trust-beyond-similarity",
+      "slug": "trust-beyond-similarity",
+      "title": "Trust Beyond Similarity",
+      "currentEditionId": "book-trust-beyond-similarity",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/trust-beyond-similarity",
+      "editionIds": ["book-trust-beyond-similarity"]
+    },
+    {
+      "id": "work-velorum",
+      "slug": "velorum",
+      "title": "Velorum",
+      "currentEditionId": "book-velorum",
+      "contentType": "fiction",
+      "canonicalRoute": "/explore/books/velorum",
+      "editionIds": ["book-velorum"]
+    },
+    {
+      "id": "work-what-we-cannot-see",
+      "slug": "what-we-cannot-see",
+      "title": "What We Cannot See",
+      "currentEditionId": "book-what-we-cannot-see",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/what-we-cannot-see",
+      "editionIds": ["book-what-we-cannot-see"]
+    },
+    {
+      "id": "work-when-accountability-no-longer-expires",
+      "slug": "when-accountability-no-longer-expires",
+      "title": "When Accountability No Longer Expires",
+      "currentEditionId": "book-when-accountability-no-longer-expires",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-accountability-no-longer-expires",
+      "editionIds": ["book-when-accountability-no-longer-expires"]
+    },
+    {
+      "id": "work-when-authority-is-misread",
+      "slug": "when-authority-is-misread",
+      "title": "When Authority Is Misread",
+      "currentEditionId": "book-when-authority-is-misread",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-authority-is-misread",
+      "editionIds": ["book-when-authority-is-misread"]
+    },
+    {
+      "id": "work-when-authority-outlives-accountability",
+      "slug": "when-authority-outlives-accountability",
+      "title": "When Authority Outlives Accountability",
+      "currentEditionId": "book-when-authority-outlives-accountability",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-authority-outlives-accountability",
+      "editionIds": ["book-when-authority-outlives-accountability"]
+    },
+    {
+      "id": "work-when-incentives-become-the-moral-language",
+      "slug": "when-incentives-become-the-moral-language",
+      "title": "When Incentives Become the Moral Language",
+      "currentEditionId": "book-when-incentives-become-the-moral-language",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-incentives-become-the-moral-language",
+      "editionIds": ["book-when-incentives-become-the-moral-language"]
+    },
+    {
+      "id": "work-when-interpretation-no-longer-matters",
+      "slug": "when-interpretation-no-longer-matters",
+      "title": "When Interpretation No Longer Matters",
+      "currentEditionId": "book-when-interpretation-no-longer-matters",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-interpretation-no-longer-matters",
+      "editionIds": ["book-when-interpretation-no-longer-matters"]
+    },
+    {
+      "id": "work-when-moral-seriousness-scales",
+      "slug": "when-moral-seriousness-scales",
+      "title": "When Moral Seriousness Scales",
+      "currentEditionId": "book-when-moral-seriousness-scales",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-moral-seriousness-scales",
+      "editionIds": ["book-when-moral-seriousness-scales"]
+    },
+    {
+      "id": "work-when-others-become-leaders",
+      "slug": "when-others-become-leaders",
+      "title": "When Others Become Leaders",
+      "currentEditionId": "book-when-others-become-leaders",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-others-become-leaders",
+      "editionIds": ["book-when-others-become-leaders"]
+    },
+    {
+      "id": "work-when-others-look-to-you",
+      "slug": "when-others-look-to-you",
+      "title": "When Others Look to You",
+      "currentEditionId": "book-when-others-look-to-you-v1",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-others-look-to-you-v1",
+      "editionIds": ["book-when-others-look-to-you-v1", "book-when-others-look-to-you-v2"]
+    },
+    {
+      "id": "work-when-trust-stops-tracking-reality",
+      "slug": "when-trust-stops-tracking-reality",
+      "title": "When Trust Stops Tracking Reality",
+      "currentEditionId": "book-when-trust-stops-tracking-reality",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-trust-stops-tracking-reality",
+      "editionIds": ["book-when-trust-stops-tracking-reality"]
+    },
+    {
+      "id": "work-why-collaboration-is-so-hard",
+      "slug": "why-collaboration-is-so-hard",
+      "title": "Why Collaboration Is So Hard",
+      "currentEditionId": "book-why-collaboration-is-so-hard",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/why-collaboration-is-so-hard",
+      "editionIds": ["book-why-collaboration-is-so-hard"]
+    },
+    {
+      "id": "work-why-diversity-matters",
+      "slug": "why-diversity-matters",
+      "title": "Why Diversity Matters",
+      "currentEditionId": "book-why-diversity-matters",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/why-diversity-matters",
+      "editionIds": ["book-why-diversity-matters"]
+    }
+  ],
+  "editions": [
+    {
+      "id": "book-after-certainty",
+      "bookId": "book-after-certainty",
+      "workId": "work-after-certainty",
+      "slug": "after-certainty",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "After Certainty"
+    },
+    {
+      "id": "book-before-certainty-arrives",
+      "bookId": "book-before-certainty-arrives",
+      "workId": "work-before-certainty-arrives",
+      "slug": "before-certainty-arrives",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Before Certainty Arrives"
+    },
+    {
+      "id": "book-boundary-conditions",
+      "bookId": "book-boundary-conditions",
+      "workId": "work-boundary-conditions",
+      "slug": "boundary-conditions",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Boundary Conditions"
+    },
+    {
+      "id": "book-coupling",
+      "bookId": "book-coupling",
+      "workId": "work-coupling",
+      "slug": "coupling",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Coupling"
+    },
+    {
+      "id": "book-curiosity-before-certainty",
+      "bookId": "book-curiosity-before-certainty",
+      "workId": "work-curiosity-before-certainty",
+      "slug": "curiosity-before-certainty",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Curiosity Before Certainty"
+    },
+    {
+      "id": "book-everyone-knows-love",
+      "bookId": "book-everyone-knows-love",
+      "workId": "work-everyone-knows-love",
+      "slug": "everyone-knows-love",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Everyone Knows Love"
+    },
+    {
+      "id": "book-how-meaning-moves",
+      "bookId": "book-how-meaning-moves",
+      "workId": "work-how-meaning-moves",
+      "slug": "how-meaning-moves",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "How Meaning Moves"
+    },
+    {
+      "id": "book-how-serious-systems-learn",
+      "bookId": "book-how-serious-systems-learn",
+      "workId": "work-how-serious-systems-learn",
+      "slug": "how-serious-systems-learn",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "How Serious Systems Learn"
+    },
+    {
+      "id": "book-how-trust-forms",
+      "bookId": "book-how-trust-forms",
+      "workId": "work-how-trust-forms",
+      "slug": "how-trust-forms",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "How Trust Forms"
+    },
+    {
+      "id": "book-learning-to-see",
+      "bookId": "book-learning-to-see",
+      "workId": "work-learning-to-see",
+      "slug": "learning-to-see",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Learning to See"
+    },
+    {
+      "id": "book-living-in-sediment",
+      "bookId": "book-living-in-sediment",
+      "workId": "work-living-in-sediment",
+      "slug": "living-in-sediment",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Living in Sediment"
+    },
+    {
+      "id": "book-observer-patterns",
+      "bookId": "book-observer-patterns",
+      "workId": "work-observer-patterns",
+      "slug": "observer-patterns",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Observer Patterns"
+    },
+    {
+      "id": "book-the-discipline-of-uncertainty",
+      "bookId": "book-the-discipline-of-uncertainty",
+      "workId": "work-the-discipline-of-uncertainty",
+      "slug": "the-discipline-of-uncertainty",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "The Discipline of Uncertainty"
+    },
+    {
+      "id": "book-the-economy-we-dont-experience",
+      "bookId": "book-the-economy-we-dont-experience",
+      "workId": "work-the-economy-we-dont-experience",
+      "slug": "the-economy-we-dont-experience",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "The Economy We Don't Experience"
+    },
+    {
+      "id": "book-the-game-we-think-we-saw",
+      "bookId": "book-the-game-we-think-we-saw",
+      "workId": "work-the-game-we-think-we-saw",
+      "slug": "the-game-we-think-we-saw",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "The Game We Think We Saw"
+    },
+    {
+      "id": "book-the-relay",
+      "bookId": "book-the-relay",
+      "workId": "work-the-relay",
+      "slug": "the-relay",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "The Relay"
+    },
+    {
+      "id": "book-the-world-we-make-together",
+      "bookId": "book-the-world-we-make-together",
+      "workId": "work-the-world-we-make-together",
+      "slug": "the-world-we-make-together",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "The World We Make Together"
+    },
+    {
+      "id": "book-trust-beyond-similarity",
+      "bookId": "book-trust-beyond-similarity",
+      "workId": "work-trust-beyond-similarity",
+      "slug": "trust-beyond-similarity",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Trust Beyond Similarity"
+    },
+    {
+      "id": "book-velorum",
+      "bookId": "book-velorum",
+      "workId": "work-velorum",
+      "slug": "velorum",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Velorum"
+    },
+    {
+      "id": "book-what-we-cannot-see",
+      "bookId": "book-what-we-cannot-see",
+      "workId": "work-what-we-cannot-see",
+      "slug": "what-we-cannot-see",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "What We Cannot See"
+    },
+    {
+      "id": "book-when-accountability-no-longer-expires",
+      "bookId": "book-when-accountability-no-longer-expires",
+      "workId": "work-when-accountability-no-longer-expires",
+      "slug": "when-accountability-no-longer-expires",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Accountability No Longer Expires"
+    },
+    {
+      "id": "book-when-authority-is-misread",
+      "bookId": "book-when-authority-is-misread",
+      "workId": "work-when-authority-is-misread",
+      "slug": "when-authority-is-misread",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Authority Is Misread"
+    },
+    {
+      "id": "book-when-authority-outlives-accountability",
+      "bookId": "book-when-authority-outlives-accountability",
+      "workId": "work-when-authority-outlives-accountability",
+      "slug": "when-authority-outlives-accountability",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Authority Outlives Accountability"
+    },
+    {
+      "id": "book-when-incentives-become-the-moral-language",
+      "bookId": "book-when-incentives-become-the-moral-language",
+      "workId": "work-when-incentives-become-the-moral-language",
+      "slug": "when-incentives-become-the-moral-language",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Incentives Become the Moral Language"
+    },
+    {
+      "id": "book-when-interpretation-no-longer-matters",
+      "bookId": "book-when-interpretation-no-longer-matters",
+      "workId": "work-when-interpretation-no-longer-matters",
+      "slug": "when-interpretation-no-longer-matters",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Interpretation No Longer Matters"
+    },
+    {
+      "id": "book-when-moral-seriousness-scales",
+      "bookId": "book-when-moral-seriousness-scales",
+      "workId": "work-when-moral-seriousness-scales",
+      "slug": "when-moral-seriousness-scales",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Moral Seriousness Scales"
+    },
+    {
+      "id": "book-when-others-become-leaders",
+      "bookId": "book-when-others-become-leaders",
+      "workId": "work-when-others-become-leaders",
+      "slug": "when-others-become-leaders",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Others Become Leaders"
+    },
+    {
+      "id": "book-when-others-look-to-you-v1",
+      "bookId": "book-when-others-look-to-you-v1",
+      "workId": "work-when-others-look-to-you",
+      "slug": "when-others-look-to-you-v1",
+      "isCanonical": true,
+      "relationship": "primary",
+      "editionLabel": "Primary volume",
+      "title": "When Others Look to You",
+      "companionEditionIds": ["book-when-others-look-to-you-v2"]
+    },
+    {
+      "id": "book-when-others-look-to-you-v2",
+      "bookId": "book-when-others-look-to-you-v2",
+      "workId": "work-when-others-look-to-you",
+      "slug": "when-others-look-to-you-v2",
+      "isCanonical": false,
+      "relationship": "companion",
+      "editionLabel": "Companion edition",
+      "title": "When Others Look to You: Companion Edition",
+      "companionOfEditionId": "book-when-others-look-to-you-v1"
+    },
+    {
+      "id": "book-when-trust-stops-tracking-reality",
+      "bookId": "book-when-trust-stops-tracking-reality",
+      "workId": "work-when-trust-stops-tracking-reality",
+      "slug": "when-trust-stops-tracking-reality",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Trust Stops Tracking Reality"
+    },
+    {
+      "id": "book-why-collaboration-is-so-hard",
+      "bookId": "book-why-collaboration-is-so-hard",
+      "workId": "work-why-collaboration-is-so-hard",
+      "slug": "why-collaboration-is-so-hard",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Why Collaboration Is So Hard"
+    },
+    {
+      "id": "book-why-diversity-matters",
+      "bookId": "book-why-diversity-matters",
+      "workId": "work-why-diversity-matters",
+      "slug": "why-diversity-matters",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Why Diversity Matters"
+    }
+  ],
+  "questions": [
+    {
+      "id": "act-before-certainty-arrives",
+      "slug": "act-before-certainty-arrives",
+      "question": "How can we act responsibly before certainty arrives?",
+      "summary": "Judgment under uncertainty requires discipline\u2014not waiting until explanation finishes.",
+      "orientation": "Many of the hardest decisions arrive before the picture is complete. Acting responsibly does not mean pretending to know; it means learning in motion, staying corrigible, and refusing false certainty.",
+      "whatThisIsNot": [
+        "Not a license for reckless action.",
+        "Not the same as abandoning evidence.",
+        "Not a single technique\u2014responsibility under uncertainty is a practice."
+      ],
+      "status": "published",
+      "families": ["Judgment and uncertainty"],
+      "primaryBookId": "book-after-certainty",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with uncertainty as condition\u2014not failure, but the state in which many consequential judgments actually happen.",
+          "entityId": "concept-uncertainty",
+          "whyThisFollows": "The question assumes certainty has not arrived; this names the terrain.",
+          "title": "Uncertainty",
+          "resolvedSlug": "uncertainty"
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "description": "See judgment as ongoing work\u2014not a one-time verdict but a practice that must remain corrigible.",
+          "entityId": "concept-judgment",
+          "whyThisFollows": "Responsible action under uncertainty is still judgment.",
+          "title": "Judgment",
+          "resolvedSlug": "judgment"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "A friendly entry: how curiosity keeps learning open when easy certainty would close it.",
+          "entityId": "book-curiosity-before-certainty",
+          "whyThisFollows": "Curiosity is often the first discipline before harder choices.",
+          "title": "Curiosity Before Certainty",
+          "resolvedSlug": "curiosity-before-certainty"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "The capstone: living, judging, and remaining responsible once certainty is no longer enough.",
+          "entityId": "book-after-certainty",
+          "whyThisFollows": "This is the primary depth for the question.",
+          "title": "After Certainty",
+          "resolvedSlug": "after-certainty"
+        },
+        {
+          "position": 5,
+          "entityType": "book",
+          "description": "Practice for teams and institutions: learning in motion without waiting for perfect information.",
+          "entityId": "book-how-serious-systems-learn",
+          "whyThisFollows": "Collective action needs disciplines, not only individual virtue.",
+          "title": "How Serious Systems Learn",
+          "resolvedSlug": "how-serious-systems-learn"
+        }
+      ],
+      "closingReflection": "Responsible action before certainty may feel less like guessing and more like staying in contact with correction. The question stays open: what would you need to notice to know you were wrong?",
+      "featured": true,
+      "featuredRank": 4,
+      "relatedQuestionIds": ["sincere-people-still-wrong", "collaboration-remains-difficult"],
+      "searchHints": ["uncertainty judgment", "before certainty"],
+      "carryForwardQuestion": "What would change your mind if you saw it?"
+    },
+    {
+      "id": "authority-without-understanding",
+      "slug": "authority-without-understanding",
+      "question": "What happens when authority no longer needs understanding?",
+      "summary": "When compliance replaces comprehension, authority can persist after shared meaning erodes.",
+      "orientation": "Authority can coordinate action\u2014but it can also outrun the understanding that once justified it. When people follow without grasping, institutions may look stable while judgment quietly thins.",
+      "whatThisIsNot": [
+        "Not the same as When Incentives Become the Moral Language (metrics replacing judgment).",
+        "Not an argument that authority is always illegitimate.",
+        "Not reducible to bad communication alone."
+      ],
+      "status": "published",
+      "families": ["Leadership and authority"],
+      "primaryBookId": "book-when-interpretation-no-longer-matters",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Start with authority as a relationship\u2014not just power, but the capacity to coordinate action.",
+          "entityId": "concept-authority",
+          "whyThisFollows": "The question assumes authority exists; this names what is at stake when understanding drops away.",
+          "title": "Authority",
+          "resolvedSlug": "authority"
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "description": "See how shared meaning is built, contested, and lost.",
+          "entityId": "concept-interpretation",
+          "whyThisFollows": "Authority without understanding is often authority without shared interpretation.",
+          "title": "Interpretation",
+          "resolvedSlug": "interpretation"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary book on what happens when authority persists after shared meaning erodes.",
+          "entityId": "book-when-interpretation-no-longer-matters",
+          "whyThisFollows": "This is the deepest treatment of the question\u2014not the metrics book, not the economy book.",
+          "title": "When Interpretation No Longer Matters",
+          "resolvedSlug": "when-interpretation-no-longer-matters"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "A complementary lens: when confidence is mistaken for legitimacy and communication distorts judgment.",
+          "entityId": "book-when-authority-is-misread",
+          "whyThisFollows": "Misread authority is one pathway toward authority without understanding.",
+          "title": "When Authority Is Misread",
+          "resolvedSlug": "when-authority-is-misread"
+        }
+      ],
+      "closingReflection": "Authority may still function while understanding thins\u2014but at a cost to correction, trust, and moral seriousness. The question remains: what would restore interpretive contact without pretending disagreement will disappear?",
+      "featured": false,
+      "relatedQuestionIds": ["leaders-become-systems", "scoreboard-settles-and-cannot"],
+      "searchHints": ["authority interpretation", "shared meaning"],
+      "carryForwardQuestion": "Where do people comply without understanding what they are complying with?"
+    },
+    {
+      "id": "collaboration-remains-difficult",
+      "slug": "collaboration-remains-difficult",
+      "question": "Why does collaboration remain difficult among good people?",
+      "summary": "Coordination fails for structural reasons\u2014not only because someone did not try hard enough.",
+      "orientation": "Many collaborations begin with shared intent and still fracture. Invisible labor, misaligned incentives, and fragile feedback loops can erode coordination even when everyone means well.",
+      "whatThisIsNot": [
+        "Not a teamwork tips list or personality assessment.",
+        "Not a claim that collaboration always fails.",
+        "Not reducible to trust alone\u2014coordination has its own failure modes."
+      ],
+      "status": "published",
+      "families": ["Collaboration and coordination"],
+      "primaryBookId": "book-why-collaboration-is-so-hard",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Start with coordination itself\u2014the work of aligning action when no one holds the whole picture.",
+          "entityId": "concept-coordination",
+          "whyThisFollows": "Collaboration difficulty is often coordination difficulty in disguise.",
+          "title": "Coordination",
+          "resolvedSlug": "coordination"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "Watch what happens when ground-level learning never reaches the people who could act on it.",
+          "entityId": "pattern-learning-collapses",
+          "whyThisFollows": "Good intent cannot compensate for broken feedback loops.",
+          "title": "Learning Collapses",
+          "resolvedSlug": "learning-collapses"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary book examines coordination failure, misaligned incentives, and fragile trust among people who still want the same outcome.",
+          "entityId": "book-why-collaboration-is-so-hard",
+          "whyThisFollows": "This is the most direct treatment of the question in the corpus.",
+          "title": "Why Collaboration Is So Hard",
+          "resolvedSlug": "why-collaboration-is-so-hard"
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "description": "Consider how responsibility thins when everyone is involved but no one can move the whole.",
+          "entityId": "concept-diffuse-ownership",
+          "whyThisFollows": "Collaboration breaks when ownership becomes too diffuse to act.",
+          "title": "Diffuse ownership",
+          "resolvedSlug": "diffuse-ownership"
+        }
+      ],
+      "closingReflection": "Collaboration may feel less like a moral failing and more like a design problem\u2014feedback, ownership, and legibility matter. The work continues: what would make correction easier in your context?",
+      "featured": false,
+      "relatedQuestionIds": ["trust-survives-disagreement", "good-intentions-still-miss"],
+      "searchHints": ["collaboration fail", "coordination"],
+      "carryForwardQuestion": "Where does good intent stop reaching the people who need to act on it?"
+    },
+    {
+      "id": "good-intentions-still-miss",
+      "slug": "good-intentions-still-miss",
+      "question": "Why do good intentions still miss so much?",
+      "summary": "Intent is real\u2014but partial sight, bias, and institutional blind spots still leave harm unnoticed.",
+      "orientation": "Good intentions do not guarantee good outcomes. What gets noticed, trusted, and acted on depends on vantage point, legibility, and who is positioned to speak. Missing something is not always malice\u2014it is often structure.",
+      "whatThisIsNot": [
+        "Not an excuse for harm or indifference.",
+        "Not the same as diversity as representation alone.",
+        "Not a claim that intentions do not matter."
+      ],
+      "status": "published",
+      "families": ["Identity and perspective"],
+      "primaryBookId": "book-why-diversity-matters",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with bias as partial sight\u2014the selective work of perception, not only prejudice.",
+          "entityId": "concept-bias",
+          "whyThisFollows": "Missing often begins with what a vantage point cannot see.",
+          "title": "Bias",
+          "resolvedSlug": "bias"
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "description": "Ask what institutions can see\u2014and what remains illegible to their instruments and routines.",
+          "entityId": "concept-legibility",
+          "whyThisFollows": "Good intent cannot reach what the system cannot register.",
+          "title": "Legibility",
+          "resolvedSlug": "legibility"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary book on what gets noticed, trusted, and ignored\u2014not just who is in the room.",
+          "entityId": "book-why-diversity-matters",
+          "whyThisFollows": "This is the deepest treatment of the question in the corpus.",
+          "title": "Why Diversity Matters",
+          "resolvedSlug": "why-diversity-matters"
+        },
+        {
+          "position": 4,
+          "entityType": "pattern",
+          "description": "See when feedback loops fail and ground truth never reaches decision-makers.",
+          "entityId": "pattern-learning-collapses",
+          "whyThisFollows": "Missing persists when learning collapses.",
+          "title": "Learning Collapses",
+          "resolvedSlug": "learning-collapses"
+        }
+      ],
+      "closingReflection": "Good intentions may remain\u2014and still miss. The work is to widen what can be seen without pretending any single view becomes complete.",
+      "featured": false,
+      "relatedQuestionIds": ["trust-survives-disagreement", "collaboration-remains-difficult"],
+      "searchHints": ["good intentions miss", "diversity perspective"],
+      "carryForwardQuestion": "What harm might be visible from a vantage point you do not occupy?"
+    },
+    {
+      "id": "institutions-preserve-obsolete-rules",
+      "slug": "institutions-preserve-obsolete-rules",
+      "question": "Why do institutions preserve rules that no longer fit?",
+      "summary": "Rules persist because they once solved real problems\u2014even when the problems have changed.",
+      "orientation": "Institutions do not only fail by breaking down. They can also fail by keeping structures that made sense under old conditions but now produce drift, friction, or harm. Understanding why rules persist is different from simply calling for change.",
+      "whatThisIsNot": [
+        "Not a blanket critique of all bureaucracy.",
+        "Not the same as temporary exceptions becoming permanent\u2014though the patterns can overlap.",
+        "Not a promise that better rules are easy to write."
+      ],
+      "status": "published",
+      "families": ["Systems and institutions"],
+      "primaryBookId": "book-coupling",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with bureaucracy not as insult but as structure\u2014rules, roles, and routines that outlive their designers.",
+          "entityId": "concept-bureaucracy",
+          "whyThisFollows": "Obsolete rules usually live inside structures that once worked.",
+          "title": "Bureaucracy",
+          "resolvedSlug": "bureaucracy"
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "description": "See how systems slowly move away from the conditions they were built for.",
+          "entityId": "concept-drift",
+          "whyThisFollows": "Rules often fit the past while the present has drifted.",
+          "title": "Drift",
+          "resolvedSlug": "drift"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary book on connection, cohesion, drift, and consequence over time.",
+          "entityId": "book-coupling",
+          "whyThisFollows": "Coupling explains how institutions preserve patterns even as context changes.",
+          "title": "Coupling",
+          "resolvedSlug": "coupling"
+        },
+        {
+          "position": 4,
+          "entityType": "pattern",
+          "description": "Connect to how exceptions and rules interact when rollback never arrives.",
+          "entityId": "pattern-exceptions-are-forever",
+          "whyThisFollows": "Obsolete rules often survive alongside permanent exceptions.",
+          "title": "Exceptions are Forever",
+          "resolvedSlug": "exceptions-are-forever"
+        }
+      ],
+      "closingReflection": "Institutions preserve rules for reasons that once made sense. The question is not only which rules to change, but what would need to renew for new rules to take hold.",
+      "featured": false,
+      "relatedQuestionIds": [
+        "temporary-exceptions-become-permanent",
+        "scoreboard-settles-and-cannot"
+      ],
+      "searchHints": ["institutions rules", "coupling drift"],
+      "carryForwardQuestion": "Which rule in your institution still solves yesterday's problem?"
+    },
+    {
+      "id": "leaders-become-systems",
+      "slug": "leaders-become-systems",
+      "question": "How do leaders become systems without noticing?",
+      "summary": "Leadership patterns reproduce themselves\u2014and eventually outlive the people who started them.",
+      "orientation": "Leaders shape routines, incentives, and examples that persist. Over time, the system may reflect a leader's habits more than their intentions\u2014and the leader may no longer see what they built.",
+      "whatThisIsNot": [
+        "Not a claim that all systems are bad.",
+        "Not the same as bureaucracy in general.",
+        "Not reducible to one bad decision."
+      ],
+      "status": "published",
+      "families": ["Leadership and authority"],
+      "primaryBookId": "book-when-others-look-to-you-v1",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "pattern",
+          "description": "Watch how small examples compound into expectations.",
+          "entityId": "pattern-examples-accumulate",
+          "whyThisFollows": "Systems often begin as repeated examples, not written rules.",
+          "title": "Examples Accumulate",
+          "resolvedSlug": "examples-accumulate"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "See the named dynamic: leadership patterns that copy forward without explicit design.",
+          "entityId": "pattern-leadership-reproduces-itself",
+          "whyThisFollows": "This pattern names what the question asks you to notice.",
+          "title": "Leadership Reproduces Itself",
+          "resolvedSlug": "leadership-reproduces-itself"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "Leadership context: renewal, erosion, and how influence becomes structure.",
+          "bookSlug": "when-others-look-to-you-v1",
+          "whyThisFollows": "The book shows how personal leadership becomes organizational habit.",
+          "title": "When Others Look to You",
+          "resolvedSlug": "when-others-look-to-you-v1"
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "description": "Understand how deviance becomes normal when exceptions go unchallenged.",
+          "entityId": "concept-normalization",
+          "whyThisFollows": "Leaders become systems when their exceptions normalize.",
+          "title": "Normalization",
+          "resolvedSlug": "normalization"
+        }
+      ],
+      "closingReflection": "You may start seeing which routines still carry a leader's fingerprint long after the context changed. That noticing is not blame\u2014it is the beginning of redesign.",
+      "featured": false,
+      "relatedQuestionIds": [
+        "someone-begins-looking-to-you",
+        "temporary-exceptions-become-permanent"
+      ],
+      "searchHints": ["leadership reproduces", "systems leadership"],
+      "carryForwardQuestion": "Which habit in your organization began as one person's workaround?"
+    },
+    {
+      "id": "meaning-changes-as-it-travels",
+      "slug": "meaning-changes-as-it-travels",
+      "question": "Why does meaning change as it travels?",
+      "summary": "Language, signals, and stories compress, drift, and reshape as they move through people and systems.",
+      "orientation": "Meaning is not fixed at the moment of sending. It shifts under pressure, accumulates interpretation, and sometimes outruns the words that carried it. Restraint, contact, and correction all matter in how meaning moves.",
+      "whatThisIsNot": [
+        "Not a claim that all communication fails.",
+        "Not the same as bad faith or deliberate distortion alone.",
+        "Not limited to media\u2014meaning moves in teams, families, and institutions too."
+      ],
+      "status": "published",
+      "families": ["Meaning and interpretation"],
+      "primaryBookId": "book-how-meaning-moves",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with meaning as something that forms, travels, and changes\u2014not a static packet of information.",
+          "entityId": "concept-meaning",
+          "whyThisFollows": "The question presupposes movement; this concept names what is moving.",
+          "title": "Meaning",
+          "resolvedSlug": "meaning"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "Observe the drift: how meaning shifts as it passes through hands, headlines, and habits.",
+          "entityId": "pattern-meaning-drifts-over-time",
+          "whyThisFollows": "Drift is the observable face of meaning in motion.",
+          "title": "Meaning Drifts Over Time",
+          "resolvedSlug": "meaning-drifts-over-time"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary book on signal, compression, restraint, and the pace of understanding.",
+          "entityId": "book-how-meaning-moves",
+          "whyThisFollows": "This is the most direct exploration of the question.",
+          "title": "How Meaning Moves",
+          "resolvedSlug": "how-meaning-moves"
+        },
+        {
+          "position": 4,
+          "entityType": "podcast_episode",
+          "description": "A shorter listen through the same terrain\u2014signal, compression, restraint, and connection.",
+          "entityId": "podcast:how-meaning-moves",
+          "whyThisFollows": "Hearing the argument in another form can clarify what reading alone may skip.",
+          "estimatedMinutes": 12
+        },
+        {
+          "position": 5,
+          "entityType": "concept",
+          "description": "Carry forward: interpretation is where meaning becomes actionable\u2014and where drift becomes consequential.",
+          "entityId": "concept-interpretation",
+          "whyThisFollows": "Travel ends in interpretation; that is where change becomes real.",
+          "title": "Interpretation",
+          "resolvedSlug": "interpretation"
+        }
+      ],
+      "closingReflection": "Meaning will keep moving. The question is not how to stop drift but how to build enough contact and restraint for correction to remain possible.",
+      "featured": true,
+      "featuredRank": 3,
+      "relatedQuestionIds": ["authority-without-understanding", "sincere-people-still-wrong"],
+      "searchHints": ["how meaning moves", "meaning drift"],
+      "carryForwardQuestion": "Where has a message changed between the person who sent it and the person who acted on it?"
+    },
+    {
+      "id": "scoreboard-settles-and-cannot",
+      "slug": "scoreboard-settles-and-cannot",
+      "question": "What can a scoreboard settle\u2014and what can it not?",
+      "summary": "Metrics coordinate action, but they cannot carry the full moral weight of what happened.",
+      "orientation": "Scoreboards make some things visible and other things disappear. When metrics become the moral language of an institution, judgment thins\u2014even while dashboards look precise.",
+      "whatThisIsNot": [
+        "Not an argument against all measurement.",
+        "Not the same as The Economy We Don't Experience (aggregate vs lived narrative).",
+        "Not a claim that numbers never help."
+      ],
+      "status": "published",
+      "families": ["Measurement and lived experience"],
+      "primaryBookId": "book-when-incentives-become-the-moral-language",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with attention as the gate between signal and response\u2014and how metrics compete for it.",
+          "entityId": "concept-attention",
+          "whyThisFollows": "Scoreboards work by directing attention; that is also their limit.",
+          "title": "Attention",
+          "resolvedSlug": "attention"
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "description": "Hold judgment alongside measurement\u2014what counts as a good decision cannot be fully captured by a metric.",
+          "entityId": "concept-judgment",
+          "whyThisFollows": "The question is about what scoreboards cannot settle; judgment names the remainder.",
+          "title": "Judgment",
+          "resolvedSlug": "judgment"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary essay edition: eight domains where metrics and incentives replaced judgment.",
+          "entityId": "book-when-incentives-become-the-moral-language",
+          "whyThisFollows": "This book directly addresses what scoreboards can and cannot carry.",
+          "title": "When Incentives Become the Moral Language",
+          "resolvedSlug": "when-incentives-become-the-moral-language"
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "description": "See what care names that metrics struggle to hold\u2014distress, moral remainder, what happened to people.",
+          "entityId": "concept-care",
+          "whyThisFollows": "What scoreboards miss often shows up first as unmetered harm or care.",
+          "title": "Care",
+          "resolvedSlug": "care"
+        }
+      ],
+      "closingReflection": "Scoreboards settle some disputes and hide others. The question is not whether to measure, but what moral language remains when measurement ends.",
+      "featured": false,
+      "relatedQuestionIds": [
+        "institutions-preserve-obsolete-rules",
+        "authority-without-understanding"
+      ],
+      "searchHints": ["metrics incentives", "scoreboard judgment"],
+      "carryForwardQuestion": "What important thing moved off the ledger when the metric improved?"
+    },
+    {
+      "id": "sincere-people-still-wrong",
+      "slug": "sincere-people-still-wrong",
+      "question": "Why can sincere people still be wrong?",
+      "summary": "Sincerity and accuracy are not the same\u2014and partial sight can feel complete from the inside.",
+      "orientation": "Sincere people can be wrong without being dishonest. Finite perspective, compression, and premature certainty all produce confident error. The question is how to stay corrigible without cynicism.",
+      "whatThisIsNot": [
+        "Not an argument that sincerity does not matter.",
+        "Not a culture-war framing about who is 'really' sincere.",
+        "Not a claim that everyone is equally right."
+      ],
+      "status": "published",
+      "families": ["Judgment and uncertainty"],
+      "primaryBookId": "book-curiosity-before-certainty",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with certainty\u2014not as truth, but as a stance that can close learning too soon.",
+          "entityId": "concept-certainty",
+          "whyThisFollows": "Sincere wrongness often arrives dressed as certainty.",
+          "title": "Certainty",
+          "resolvedSlug": "certainty"
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "description": "See partial sight as structural\u2014not only malice, but the limits of any vantage point.",
+          "entityId": "concept-bias",
+          "whyThisFollows": "Sincerity does not erase partial sight.",
+          "title": "Bias",
+          "resolvedSlug": "bias"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary entry: staying curious when easy certainty would end the inquiry.",
+          "entityId": "book-curiosity-before-certainty",
+          "whyThisFollows": "Curiosity is the practical antidote the corpus offers first.",
+          "title": "Curiosity Before Certainty",
+          "resolvedSlug": "curiosity-before-certainty"
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "description": "Carry forward: correction requires pathways, not just good intentions.",
+          "entityId": "concept-correction",
+          "whyThisFollows": "Being wrong is less dangerous when correction remains possible.",
+          "title": "Correction",
+          "resolvedSlug": "correction"
+        }
+      ],
+      "closingReflection": "Sincerity may remain real\u2014and still miss. The question is not how to doubt everything, but how to stay reachable by evidence and disagreement.",
+      "featured": false,
+      "relatedQuestionIds": ["act-before-certainty-arrives", "meaning-changes-as-it-travels"],
+      "searchHints": ["sincere wrong certainty", "curiosity judgment"],
+      "carryForwardQuestion": "What would you need to hear to reconsider a view you hold sincerely?"
+    },
+    {
+      "id": "someone-begins-looking-to-you",
+      "slug": "someone-begins-looking-to-you",
+      "question": "What happens when someone else begins looking to you?",
+      "summary": "Influence arrives before you feel ready\u2014and it changes what your actions mean to others.",
+      "orientation": "People inherit influence they did not seek. Once others look to you, your choices carry weight beyond your intent. Renewal, erosion, and responsibility all begin in that shift.",
+      "whatThisIsNot": [
+        "Not a leadership hype narrative.",
+        "Not the same as formal authority alone.",
+        "Not a promise that influence can be returned unchanged."
+      ],
+      "status": "published",
+      "families": ["Influence and inheritance"],
+      "primaryBookId": "book-when-others-look-to-you-v1",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Start with responsibility as something that can arrive with others' expectations\u2014not only with formal role.",
+          "entityId": "concept-responsibility",
+          "whyThisFollows": "Being looked to changes what you are answerable for.",
+          "title": "Responsibility",
+          "resolvedSlug": "responsibility"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "See how leadership forms before anyone announces it.",
+          "entityId": "pattern-leadership-coalesces",
+          "whyThisFollows": "Others may look to you before you accept the role.",
+          "title": "Leadership Coalesces",
+          "resolvedSlug": "leadership-coalesces"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary field guide: how influence forms, trust renews, and erosion begins when responsibility drifts.",
+          "bookSlug": "when-others-look-to-you-v1",
+          "whyThisFollows": "This book is written for the moment the question describes.",
+          "title": "When Others Look to You",
+          "resolvedSlug": "when-others-look-to-you-v1"
+        },
+        {
+          "position": 4,
+          "entityType": "pattern",
+          "description": "Notice what keeps renewal possible when others are watching.",
+          "entityId": "pattern-feedback-drives-change",
+          "whyThisFollows": "Influence without feedback tends toward erosion.",
+          "title": "Feedback Drives Change",
+          "resolvedSlug": "feedback-drives-change"
+        }
+      ],
+      "closingReflection": "Being looked to changes the meaning of your actions\u2014even when you did not campaign for the role. The question remains: what would renewal look like from where you stand?",
+      "featured": false,
+      "relatedQuestionIds": ["leaders-become-systems", "temporary-exceptions-become-permanent"],
+      "searchHints": ["when others look to you", "influence leadership"],
+      "carryForwardQuestion": "Who is already reading your choices as precedent?"
+    },
+    {
+      "id": "temporary-exceptions-become-permanent",
+      "slug": "temporary-exceptions-become-permanent",
+      "question": "What happens when temporary exceptions become permanent?",
+      "summary": "Emergency workarounds often outlive the crisis they were meant to serve.",
+      "orientation": "Exceptions are sometimes necessary. The danger is when they stop reading as exceptions\u2014when new people are trained on workarounds, rollback plans gather dust, and the temporary becomes normal without anyone deciding it should.",
+      "whatThisIsNot": [
+        "Not an argument against ever making exceptions.",
+        "Not the same as institutional decay in general.",
+        "Not limited to software or leadership\u2014this pattern appears across domains."
+      ],
+      "status": "published",
+      "families": ["Systems and institutions"],
+      "primaryBookId": "book-when-others-look-to-you-v1",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "situation",
+          "description": "Recognize the situation: workarounds that outlive the emergency that created them.",
+          "entityId": "situation-temporary-fixes-become-permanent",
+          "whyThisFollows": "Naming the situation helps you see the pattern before diagnosing causes.",
+          "title": "Temporary fixes becoming permanent",
+          "resolvedSlug": "temporary-fixes-become-permanent"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "See the named dynamic\u2014exceptions that stop reading as temporary.",
+          "entityId": "pattern-exceptions-are-forever",
+          "whyThisFollows": "The pattern gives language for what the situation describes.",
+          "title": "Exceptions are Forever",
+          "resolvedSlug": "exceptions-are-forever"
+        },
+        {
+          "position": 3,
+          "entityType": "concept",
+          "description": "Understand how standards thin when exceptions accumulate without renewal.",
+          "entityId": "concept-erosion",
+          "whyThisFollows": "Permanence often arrives through gradual erosion, not a single decision.",
+          "title": "Erosion",
+          "resolvedSlug": "erosion"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "Leadership context: how exceptions and normalization interact when others are watching how you act.",
+          "bookSlug": "when-others-look-to-you-v1",
+          "whyThisFollows": "Exceptions often begin with leaders; this book shows how they propagate.",
+          "title": "When Others Look to You",
+          "resolvedSlug": "when-others-look-to-you-v1"
+        },
+        {
+          "position": 5,
+          "entityType": "book",
+          "description": "Systems context: how connection, drift, and consequence shape what institutions preserve over time.",
+          "entityId": "book-coupling",
+          "whyThisFollows": "Permanent exceptions are also a systems story about coupling and scar tissue.",
+          "title": "Coupling",
+          "resolvedSlug": "coupling"
+        }
+      ],
+      "closingReflection": "You may start noticing which 'temporary' measures have quietly become the standard\u2014and who would notice if the original rule returned. That noticing is the beginning of correction, not the end of the question.",
+      "featured": true,
+      "featuredRank": 2,
+      "relatedQuestionIds": ["institutions-preserve-obsolete-rules", "leaders-become-systems"],
+      "searchHints": ["temporary exceptions", "exceptions forever"],
+      "carryForwardQuestion": "Which exception in your context has outlived its reason for existing?"
+    },
+    {
+      "id": "trust-survives-disagreement",
+      "slug": "trust-survives-disagreement",
+      "question": "How can trust survive disagreement?",
+      "summary": "When good people see the world differently, trust has to rest on something other than shared conclusions.",
+      "orientation": "Disagreement is not always a failure of character. Often it reflects different vantage points, different evidence, and different stakes. The harder question is how people keep working together when they no longer share the same story.",
+      "whatThisIsNot": [
+        "Not a guide to winning arguments or converting opponents.",
+        "Not a claim that all perspectives are equally accurate.",
+        "Not the same question as whether similarity produces trust."
+      ],
+      "status": "published",
+      "families": ["Trust and disagreement"],
+      "primaryBookId": "book-trust-beyond-similarity",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with what trust actually requires\u2014not comfort, but enough reliability to keep relating across difference.",
+          "entityId": "concept-trust",
+          "whyThisFollows": "The question assumes trust is still possible; this concept names what must hold when agreement does not.",
+          "title": "Trust",
+          "resolvedSlug": "trust"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "Notice when disagreement disappears not because it was resolved, but because it became unsafe to voice.",
+          "entityId": "pattern-disagreement-is-suppressed",
+          "whyThisFollows": "Trust cannot survive disagreement if disagreement never appears in the first place.",
+          "title": "Disagreement is Suppressed",
+          "resolvedSlug": "disagreement-is-suppressed"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary book explores how trust remains possible across difference\u2014and why it becomes more valuable when perspectives diverge.",
+          "entityId": "book-trust-beyond-similarity",
+          "whyThisFollows": "After naming the tension, this is the deepest on-site treatment of the question.",
+          "title": "Trust Beyond Similarity",
+          "resolvedSlug": "trust-beyond-similarity"
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "description": "See how institutions and relationships stay corrigible when claims can still be challenged without collapsing trust.",
+          "entityId": "concept-contestability",
+          "whyThisFollows": "Trust across disagreement needs pathways for revision, not just tolerance.",
+          "title": "Contestability",
+          "resolvedSlug": "contestability"
+        }
+      ],
+      "closingReflection": "You may notice trust resting less on sameness and more on how people handle correction, disappointment, and partial sight. The question stays open: what would need to change for disagreement to become information rather than threat?",
+      "featured": true,
+      "featuredRank": 1,
+      "relatedQuestionIds": ["collaboration-remains-difficult", "sincere-people-still-wrong"],
+      "searchHints": ["trust disagreement", "trust beyond similarity"],
+      "carryForwardQuestion": "What makes a disagreement safe enough to learn from?"
+    }
+  ],
+  "trails": [
+    {
+      "id": "judgment-before-certainty",
+      "slug": "judgment-before-certainty",
+      "title": "Judgment Before Certainty",
+      "summary": "How to keep thinking, revising, and acting when the full picture has not arrived\u2014and why false certainty is often the greater risk.",
+      "orientation": "Many consequential decisions arrive before explanation finishes. This trail moves from the practice of judgment through books that treat uncertainty as terrain rather than failure, ending with what keeps judgment corrigible when pressure mounts.",
+      "status": "published",
+      "themes": ["Judgment"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Start with judgment as ongoing work\u2014not a one-time verdict, but a practice that must remain open to correction.",
+          "entityId": "concept-judgment",
+          "title": "Judgment",
+          "resolvedSlug": "judgment"
+        },
+        {
+          "position": 2,
+          "entityType": "book",
+          "description": "See how responsible action begins before the picture is complete\u2014when waiting for certainty would itself be a choice.",
+          "entityId": "book-before-certainty-arrives",
+          "whyThisFollows": "After naming judgment, this book shows what it looks like to act while still learning.",
+          "title": "Before Certainty Arrives",
+          "resolvedSlug": "before-certainty-arrives"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "A lighter entry on curiosity as discipline\u2014the habit that keeps inquiry alive when easy answers would close it.",
+          "entityId": "book-curiosity-before-certainty",
+          "whyThisFollows": "Curiosity often precedes the harder judgments; it keeps the path from collapsing into premature closure.",
+          "title": "Curiosity Before Certainty",
+          "resolvedSlug": "curiosity-before-certainty"
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "description": "Examine what certainty promises\u2014and what it costs when it arrives too early or stays too rigid.",
+          "entityId": "concept-certainty",
+          "whyThisFollows": "Judgment under uncertainty requires knowing what certainty would substitute for, and why that substitution is dangerous.",
+          "title": "Certainty",
+          "resolvedSlug": "certainty"
+        },
+        {
+          "position": 5,
+          "entityType": "pattern",
+          "description": "Notice how institutions and relationships stay corrigible when claims can still be revised without collapsing trust.",
+          "entityId": "pattern-revisability-preserves-judgment",
+          "whyThisFollows": "Judgment that cannot be revised becomes performance; this pattern names what keeps revision possible.",
+          "title": "Revisability Preserves Judgment",
+          "resolvedSlug": "revisability-preserves-judgment"
+        },
+        {
+          "position": 6,
+          "entityType": "book",
+          "description": "A fiction doorway: a courier notices silence where explanations should be\u2014and participation replaces false certainty.",
+          "entityId": "book-the-relay",
+          "whyThisFollows": "Story can hold the tension between acting and not knowing in ways argument alone sometimes cannot.",
+          "estimatedMinutes": 45,
+          "optional": true,
+          "title": "The Relay",
+          "resolvedSlug": "the-relay"
+        }
+      ],
+      "closingReflection": "You may notice judgment resting less on having the answer and more on staying in contact with what would change your mind. The trail does not settle the underlying question\u2014it offers a sequence for moving through it with more discipline.",
+      "featured": true,
+      "featuredRank": 1,
+      "depth": "intermediate",
+      "suggestedContinuation": "If systems and institutions are where your judgment must land, follow the Systems That Cannot Correct Themselves trail next. If you work in software, the practitioner trail offers a parallel path through coupling and feedback.",
+      "primaryBookId": "book-before-certainty-arrives",
+      "relatedTrailIds": ["systems-without-correction", "software-judgment-trail"]
+    },
+    {
+      "id": "leadership-after-the-person",
+      "slug": "leadership-after-the-person",
+      "title": "Leadership After the Person",
+      "summary": "When influence outlasts the person who held it\u2014how leadership coalesces, reproduces, and becomes a system others inherit.",
+      "orientation": "Leadership is not only a role someone occupies. It is a pattern others learn, repeat, and eventually treat as environment. This trail names how influence forms and spreads\u2014and what happens when the person is no longer the center of the story.",
+      "status": "published",
+      "themes": ["Leadership"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "pattern",
+          "description": "Begin by noticing how leadership gathers around a person before anyone names it\u2014through repetition, reward, and what others learn to expect.",
+          "entityId": "pattern-leadership-coalesces",
+          "title": "Leadership Coalesces",
+          "resolvedSlug": "leadership-coalesces"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "See how what one leader did becomes what the next leader is expected to do\u2014often without anyone deciding to copy it.",
+          "entityId": "pattern-leadership-reproduces-itself",
+          "whyThisFollows": "Coalescence is the beginning; reproduction is how influence becomes structure.",
+          "title": "Leadership Reproduces Itself",
+          "resolvedSlug": "leadership-reproduces-itself"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary book on renewal and erosion\u2014how steadiness, choices, and what you reward quietly become the environment everyone navigates.",
+          "entityId": "book-when-others-look-to-you-v1",
+          "whyThisFollows": "After naming the patterns, this is the deepest on-site treatment of inherited influence.",
+          "title": "When Others Look to You",
+          "resolvedSlug": "when-others-look-to-you-v1"
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "description": "Distinguish authority from understanding\u2014and notice when legitimacy rests on position rather than comprehension.",
+          "entityId": "concept-authority",
+          "whyThisFollows": "When leadership becomes system, authority often persists after the reasons for it have thinned.",
+          "title": "Authority",
+          "resolvedSlug": "authority"
+        }
+      ],
+      "closingReflection": "You may feel less focused on individual charisma and more on what gets repeated, rewarded, and remembered. Leadership after the person is not an absence of leaders\u2014it is a shift in what leadership means.",
+      "featured": true,
+      "featuredRank": 2,
+      "depth": "intermediate",
+      "suggestedContinuation": "Follow Meaning Under Pressure if communication and interpretation are where influence now lives, or Systems That Cannot Correct Themselves if institutional drift is the concern.",
+      "primaryBookId": "book-when-others-look-to-you-v1",
+      "relatedTrailIds": ["systems-without-correction", "meaning-under-pressure"]
+    },
+    {
+      "id": "meaning-under-pressure",
+      "slug": "meaning-under-pressure",
+      "title": "Meaning Under Pressure",
+      "summary": "How signal compresses, shifts, and sometimes distorts when stakes rise\u2014across books, concepts, and conversation.",
+      "orientation": "Meaning does not travel unchanged. Under pressure it compresses, drifts, and sometimes becomes the argument itself. This trail moves from vocabulary through observable dynamics to a primary book\u2014and optionally to a podcast conversation that walks the same terrain aloud.",
+      "status": "published",
+      "themes": ["Meaning"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with meaning as something carried between people and systems\u2014not fixed in words alone.",
+          "entityId": "concept-meaning",
+          "title": "Meaning",
+          "resolvedSlug": "meaning"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "Notice how meaning changes when urgency, fear, or institutional stakes enter the conversation.",
+          "entityId": "pattern-meaning-shifts-under-pressure",
+          "whyThisFollows": "The trail's tension is pressure; this pattern names what happens when meaning meets it.",
+          "title": "Meaning Shifts Under Pressure",
+          "resolvedSlug": "meaning-shifts-under-pressure"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary book on signal, compression, restraint, and connection\u2014the forces that carry meaning between people.",
+          "entityId": "book-how-meaning-moves",
+          "whyThisFollows": "After recognition and pattern, this is the fullest on-site exploration.",
+          "title": "How Meaning Moves",
+          "resolvedSlug": "how-meaning-moves"
+        },
+        {
+          "position": 4,
+          "entityType": "podcast_episode",
+          "description": "Listen to a conversation that walks through the book's forces in spoken form\u2014a different pace for the same ideas.",
+          "entityId": "podcast:how-meaning-moves",
+          "whyThisFollows": "Hearing meaning move aloud can surface what silent reading sometimes skips.",
+          "estimatedMinutes": 12,
+          "optional": true
+        },
+        {
+          "position": 5,
+          "entityType": "concept",
+          "description": "Carry forward into interpretation\u2014how people reconstruct meaning from partial signal and shared context.",
+          "entityId": "concept-interpretation",
+          "whyThisFollows": "Meaning under pressure always passes through interpretation; this concept names that work.",
+          "title": "Interpretation",
+          "resolvedSlug": "interpretation"
+        }
+      ],
+      "closingReflection": "You may notice yourself watching not only what is said but what travels, what compresses, and what gets lost between speaker and listener. The trail ends; the observation does not.",
+      "featured": true,
+      "featuredRank": 3,
+      "depth": "introductory",
+      "suggestedContinuation": "Browse Start with a Question for tension-framed paths, or search the commons for concepts like compression and signal.",
+      "primaryBookId": "book-how-meaning-moves",
+      "relatedTrailIds": ["leadership-after-the-person", "judgment-before-certainty"]
+    },
+    {
+      "id": "software-judgment-trail",
+      "slug": "software-judgment-trail",
+      "title": "After Certainty for Software Engineers",
+      "summary": "Coupling, feedback, and abstraction for people who ship systems\u2014when technical judgment is collective and consequences are distributed.",
+      "orientation": "Software engineers inherit the same tensions as any institution: weak feedback, tight coupling, and the temptation to substitute metrics for understanding. This trail is for practitioners who want corpus ideas translated into technical judgment without pretending code is separate from human coordination.",
+      "status": "published",
+      "themes": ["Practice"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with coupling\u2014how tightly joined parts of a system are, and what that means when something changes or fails.",
+          "entityId": "concept-coupling",
+          "title": "Coupling",
+          "resolvedSlug": "coupling"
+        },
+        {
+          "position": 2,
+          "entityType": "book",
+          "description": "The primary book on seeing where systems are joined, where they drift, and how those choices shape accountability.",
+          "entityId": "book-coupling",
+          "whyThisFollows": "Coupling is the concept; this book is the sustained treatment engineers can apply to architecture and org design.",
+          "title": "Coupling",
+          "resolvedSlug": "coupling"
+        },
+        {
+          "position": 3,
+          "entityType": "pattern",
+          "description": "Notice when feedback loops actually change behavior\u2014and when they are too slow, too noisy, or routed to the wrong people.",
+          "entityId": "pattern-feedback-drives-change",
+          "whyThisFollows": "Shipping is a feedback problem; this pattern names what makes change possible or impossible.",
+          "title": "Feedback Drives Change",
+          "resolvedSlug": "feedback-drives-change"
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "description": "End with abstraction\u2014what gets hidden, what gets simplified, and what judgment must still carry across layers.",
+          "entityId": "concept-abstraction",
+          "whyThisFollows": "Every system design is an abstraction choice; the trail closes by naming what those choices cost.",
+          "title": "Abstraction",
+          "resolvedSlug": "abstraction"
+        }
+      ],
+      "closingReflection": "Technical judgment is never only technical. Coupling, feedback, and abstraction are ways of seeing how your work connects to everyone else's\u2014and what breaks when those connections are misread.",
+      "featured": false,
+      "audience": "Software engineers",
+      "depth": "intermediate",
+      "suggestedContinuation": "Follow Judgment Before Certainty for the broader practice of acting before certainty, or Systems That Cannot Correct Themselves for institutional drift.",
+      "primaryBookId": "book-coupling",
+      "relatedTrailIds": ["systems-without-correction", "judgment-before-certainty"]
+    },
+    {
+      "id": "systems-without-correction",
+      "slug": "systems-without-correction",
+      "title": "Systems That Cannot Correct Themselves",
+      "summary": "When feedback weakens, exceptions harden, and learning collapses\u2014how institutions drift without anyone choosing decay.",
+      "orientation": "Systems fail correction long before they fail outright. Feedback thins, temporary fixes become permanent, and coupling choices shape who bears consequences. This trail follows that arc from concept through pattern to a book on how systems join and drift apart.",
+      "status": "published",
+      "themes": ["Systems"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Start with feedback as the mechanism systems use to learn\u2014when it weakens, correction becomes expensive or invisible.",
+          "entityId": "concept-feedback",
+          "title": "Feedback",
+          "resolvedSlug": "feedback"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "See what happens when organizations stop receiving the information they would need to revise course.",
+          "entityId": "pattern-learning-collapses",
+          "whyThisFollows": "Feedback is the ideal; collapsed learning is the observable failure mode.",
+          "title": "Learning Collapses",
+          "resolvedSlug": "learning-collapses"
+        },
+        {
+          "position": 3,
+          "entityType": "pattern",
+          "description": "Notice when temporary exceptions become permanent rules\u2014often without a formal decision to make them so.",
+          "entityId": "pattern-exceptions-are-forever",
+          "whyThisFollows": "Exception-hardening is one way systems lose the ability to return to prior standards.",
+          "title": "Exceptions are Forever",
+          "resolvedSlug": "exceptions-are-forever"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "The primary book on how systems join, drift apart, and how coupling choices shape accountability over time.",
+          "entityId": "book-coupling",
+          "whyThisFollows": "After naming failure modes, this book offers the framework for seeing structural causes.",
+          "title": "Coupling",
+          "resolvedSlug": "coupling"
+        }
+      ],
+      "closingReflection": "Correction is not automatic. Systems that cannot correct themselves often look stable right until the bill arrives somewhere else. The trail names the drift; changing it remains work.",
+      "featured": false,
+      "depth": "deep",
+      "suggestedContinuation": "If you build or maintain software systems, the practitioner trail applies the same ideas to technical judgment and coupling.",
+      "primaryBookId": "book-coupling",
+      "relatedTrailIds": ["leadership-after-the-person", "software-judgment-trail"]
+    },
+    {
+      "id": "where-institutions-look",
+      "slug": "where-institutions-look",
+      "title": "Where Institutions Look",
+      "summary": "Attention is finite\u2014and what gets noticed becomes what an institution can learn from. A forthcoming trail on focus, signal, and the patterns of looking.",
+      "orientation": "Institutions do not see everything at once. They allocate attention, find signals, and lose contact with what falls outside the frame. This trail is still being composed; the stops below sketch the arc we intend to publish.",
+      "status": "upcoming",
+      "themes": ["Attention"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Start with attention as a scarce resource\u2014what an institution looks at shapes what it can know.",
+          "entityId": "concept-attention",
+          "title": "Attention",
+          "resolvedSlug": "attention"
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "description": "See how attention narrows onto a focus\u2014and what that narrowing makes possible or invisible.",
+          "entityId": "pattern-attention-finds-a-focus",
+          "whyThisFollows": "After naming attention, this pattern shows how focus forms in practice.",
+          "title": "Attention Finds a Focus",
+          "resolvedSlug": "attention-finds-a-focus"
+        },
+        {
+          "position": 3,
+          "entityType": "pattern",
+          "description": "Notice when attention latches onto a signal\u2014and when noise or framing steers what counts as one.",
+          "entityId": "pattern-attention-finds-a-signal",
+          "whyThisFollows": "Focus without signal detection is empty; this pattern names how looking becomes reading.",
+          "title": "Attention Finds a Signal",
+          "resolvedSlug": "attention-finds-a-signal"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "The primary book on patterns of looking, deciding, and following what people see.",
+          "entityId": "book-observer-patterns",
+          "whyThisFollows": "After the attention patterns, this book offers the sustained treatment of observer dynamics.",
+          "title": "Observer Patterns",
+          "resolvedSlug": "observer-patterns"
+        },
+        {
+          "position": 5,
+          "entityType": "pattern",
+          "description": "End with how attention can restore contact\u2014when looking again reconnects what had drifted out of view.",
+          "entityId": "pattern-attention-restores-contact",
+          "whyThisFollows": "The trail closes on recovery: attention is not only scarcity, but a practice of returning.",
+          "title": "Attention Restores Contact",
+          "resolvedSlug": "attention-restores-contact"
+        }
+      ],
+      "closingReflection": "What an institution looks at is never neutral. This trail will stay open until the sequence is ready to publish\u2014attention itself remains the unfinished work.",
+      "featured": false,
+      "depth": "introductory",
+      "suggestedContinuation": "Meanwhile, Meaning Under Pressure and Systems That Cannot Correct Themselves cover adjacent tensions around what gets transmitted and what gets corrected.",
+      "primaryBookId": "book-observer-patterns",
+      "relatedTrailIds": ["meaning-under-pressure", "systems-without-correction"]
+    }
+  ],
+  "shelves": [
+    {
+      "id": "start-here",
+      "slug": "start-here",
+      "title": "Start Here",
+      "description": "Different doors into the same terrain \u2014 curiosity, systems, trust, perspective, story, and judgment after certainty fails.",
+      "displayOrder": 1,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "curiosity-before-certainty",
+          "how-serious-systems-learn",
+          "trust-beyond-similarity",
+          "what-we-cannot-see",
+          "the-relay",
+          "everyone-knows-love",
+          "after-certainty",
+          "coupling"
+        ]
+      },
+      "resolvedBookIds": [
+        "book-curiosity-before-certainty",
+        "book-how-serious-systems-learn",
+        "book-trust-beyond-similarity",
+        "book-what-we-cannot-see",
+        "book-the-relay",
+        "book-everyone-knows-love",
+        "book-after-certainty",
+        "book-coupling"
+      ]
+    },
+    {
+      "id": "core-after-certainty",
+      "slug": "core-after-certainty",
+      "title": "Core After Certainty",
+      "description": "Central volumes that anchor the project\u2019s thesis and recurring tensions.",
+      "displayOrder": 2,
+      "featured": true,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "after-certainty",
+          "curiosity-before-certainty",
+          "trust-beyond-similarity",
+          "what-we-cannot-see",
+          "coupling",
+          "how-serious-systems-learn"
+        ]
+      },
+      "resolvedBookIds": [
+        "book-after-certainty",
+        "book-curiosity-before-certainty",
+        "book-trust-beyond-similarity",
+        "book-what-we-cannot-see",
+        "book-coupling",
+        "book-how-serious-systems-learn"
+      ]
+    },
+    {
+      "id": "trust-and-difference",
+      "slug": "trust-and-difference",
+      "title": "Trust and Difference",
+      "description": "How trust forms, drifts, and remains possible across disagreement and partial perspective.",
+      "displayOrder": 3,
+      "featured": true,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "trust-beyond-similarity",
+          "how-trust-forms",
+          "when-trust-stops-tracking-reality",
+          "why-diversity-matters"
+        ]
+      },
+      "resolvedBookIds": [
+        "book-trust-beyond-similarity",
+        "book-how-trust-forms",
+        "book-when-trust-stops-tracking-reality",
+        "book-why-diversity-matters"
+      ]
+    },
+    {
+      "id": "leadership-and-authority",
+      "slug": "leadership-and-authority",
+      "title": "Leadership and Authority",
+      "description": "When others look to you \u2014 and when authority, accountability, and moral seriousness scale.",
+      "displayOrder": 4,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "when-others-look-to-you-v1",
+          "when-authority-is-misread",
+          "when-authority-outlives-accountability",
+          "when-moral-seriousness-scales",
+          "when-others-become-leaders"
+        ]
+      },
+      "resolvedBookIds": [
+        "book-when-others-look-to-you-v1",
+        "book-when-authority-is-misread",
+        "book-when-authority-outlives-accountability",
+        "book-when-moral-seriousness-scales",
+        "book-when-others-become-leaders"
+      ]
+    },
+    {
+      "id": "systems-and-organizations",
+      "slug": "systems-and-organizations",
+      "title": "Systems and Organizations",
+      "description": "Coupling, learning under pressure, collaboration, and incentive design in serious systems.",
+      "displayOrder": 5,
+      "featured": true,
+      "status": "active",
+      "selection": {
+        "mode": "curated",
+        "bookSlugs": [
+          "coupling",
+          "how-serious-systems-learn",
+          "why-collaboration-is-so-hard",
+          "when-incentives-become-the-moral-language",
+          "when-accountability-no-longer-expires"
+        ]
+      },
+      "resolvedBookIds": [
+        "book-coupling",
+        "book-how-serious-systems-learn",
+        "book-why-collaboration-is-so-hard",
+        "book-when-incentives-become-the-moral-language",
+        "book-when-accountability-no-longer-expires"
+      ]
+    },
+    {
+      "id": "fiction",
+      "slug": "fiction",
+      "title": "Fiction",
+      "description": "Story doorways into uncertainty, coordination, and what people build when no one has the complete map.",
+      "displayOrder": 6,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "rule",
+        "rule": {
+          "type": "contentType",
+          "values": ["fiction"]
+        }
+      },
+      "resolvedBookIds": ["book-the-relay", "book-velorum"]
+    },
+    {
+      "id": "practical-handbooks",
+      "slug": "practical-handbooks",
+      "title": "Practical Handbooks",
+      "description": "Applied guides for teams and institutions improving under pressure without perfect information.",
+      "displayOrder": 7,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "rule",
+        "rule": {
+          "type": "contentType",
+          "values": ["handbook"]
+        }
+      },
+      "resolvedBookIds": ["book-how-serious-systems-learn", "book-the-discipline-of-uncertainty"]
+    },
+    {
+      "id": "upcoming",
+      "slug": "upcoming",
+      "title": "Upcoming",
+      "description": "Forthcoming and in-progress volumes not yet fully available.",
+      "displayOrder": 8,
+      "featured": false,
+      "status": "active",
+      "selection": {
+        "mode": "rule",
+        "rule": {
+          "type": "status",
+          "values": ["forthcoming", "in_progress"]
+        }
+      },
+      "resolvedBookIds": []
+    },
+    {
+      "id": "complete-catalog",
+      "slug": "complete-catalog",
+      "title": "Complete catalog",
+      "description": "Every published volume in the library.",
+      "displayOrder": 99,
+      "featured": false,
+      "status": "hidden",
+      "selection": {
+        "mode": "rule",
+        "rule": {
+          "type": "allPublic"
+        }
+      },
+      "resolvedBookIds": [
+        "book-after-certainty",
+        "book-before-certainty-arrives",
+        "book-boundary-conditions",
+        "book-coupling",
+        "book-curiosity-before-certainty",
+        "book-everyone-knows-love",
+        "book-how-meaning-moves",
+        "book-how-serious-systems-learn",
+        "book-how-trust-forms",
+        "book-learning-to-see",
+        "book-living-in-sediment",
+        "book-observer-patterns",
+        "book-the-discipline-of-uncertainty",
+        "book-the-economy-we-dont-experience",
+        "book-the-game-we-think-we-saw",
+        "book-the-relay",
+        "book-the-world-we-make-together",
+        "book-trust-beyond-similarity",
+        "book-velorum",
+        "book-what-we-cannot-see",
+        "book-when-accountability-no-longer-expires",
+        "book-when-authority-is-misread",
+        "book-when-authority-outlives-accountability",
+        "book-when-incentives-become-the-moral-language",
+        "book-when-interpretation-no-longer-matters",
+        "book-when-moral-seriousness-scales",
+        "book-when-others-become-leaders",
+        "book-when-others-look-to-you-v1",
+        "book-when-trust-stops-tracking-reality",
+        "book-why-collaboration-is-so-hard",
+        "book-why-diversity-matters"
+      ]
+    }
+  ],
+  "changeEvents": [
+    {
+      "id": "event-book-after-certainty-published",
+      "type": "book_published",
+      "title": "After Certainty is published",
+      "summary": "The project\u2019s namesake volume is available to read and download \u2014 an orientation to living and judging when understanding is not enough.",
+      "date": "2026-01-15",
+      "entityType": "book",
+      "visibility": "public",
+      "source": "authored",
+      "entityId": "book-after-certainty",
+      "featured": true,
+      "significance": "major",
+      "canonicalRoute": "/explore/books/after-certainty",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png"
+    },
+    {
+      "id": "event-book-curiosity-before-certainty-published",
+      "type": "book_published",
+      "title": "Curiosity Before Certainty is published",
+      "summary": "A doorway volume on staying open before premature closure \u2014 useful when certainty arrives too quickly.",
+      "date": "2026-02-10",
+      "entityType": "book",
+      "visibility": "public",
+      "source": "authored",
+      "entityId": "book-curiosity-before-certainty",
+      "featured": false,
+      "significance": "standard",
+      "canonicalRoute": "/explore/books/curiosity-before-certainty",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/book-cover.png"
+    },
+    {
+      "id": "event-book-wolty-v1-published",
+      "type": "book_published",
+      "title": "When Others Look to You is published",
+      "summary": "The primary volume on renewal and erosion in leadership \u2014 available as an open download and in print.",
+      "date": "2026-03-01",
+      "entityType": "book",
+      "visibility": "public",
+      "source": "authored",
+      "entityId": "book-when-others-look-to-you-v1",
+      "featured": true,
+      "significance": "major",
+      "canonicalRoute": "/explore/books/when-others-look-to-you-v1",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/BookCover.png"
+    },
+    {
+      "id": "event-book-how-meaning-moves-published",
+      "type": "book_published",
+      "title": "How Meaning Moves is published",
+      "summary": "A book on Signal, Compression, and Restraint \u2014 how meaning travels, hardens, and stays revisable.",
+      "date": "2026-04-01",
+      "entityType": "book",
+      "visibility": "public",
+      "source": "authored",
+      "entityId": "book-how-meaning-moves",
+      "featured": false,
+      "significance": "major",
+      "canonicalRoute": "/explore/books/how-meaning-moves",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/how-meaning-moves/book-cover.png"
+    },
+    {
+      "id": "event-book-trust-beyond-similarity-published",
+      "type": "book_published",
+      "title": "Trust Beyond Similarity is published",
+      "summary": "An inquiry into how trust can survive disagreement and difference without collapsing into sameness.",
+      "date": "2026-05-20",
+      "entityType": "book",
+      "visibility": "public",
+      "source": "authored",
+      "entityId": "book-trust-beyond-similarity",
+      "featured": false,
+      "significance": "major",
+      "canonicalRoute": "/explore/books/trust-beyond-similarity",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/trust-beyond-similarity/book-cover.png"
+    },
+    {
+      "id": "event-book-wolty-companion-published",
+      "type": "book_published",
+      "title": "When Others Look to You companion edition is available",
+      "summary": "A companion volume alongside the primary edition \u2014 parallel, not a replacement \u2014 focused on forming, renewing, eroding, and repeating.",
+      "date": "2026-06-01",
+      "entityType": "book",
+      "visibility": "public",
+      "source": "authored",
+      "entityId": "book-when-others-look-to-you-v2",
+      "featured": false,
+      "significance": "standard",
+      "relatedEditionId": "book-when-others-look-to-you-v1",
+      "canonicalRoute": "/explore/books/when-others-look-to-you-v2",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/BookCover.png"
+    }
+  ],
+  "searchAliases": [
+    {
+      "terms": ["accountability"],
+      "kind": "alias",
+      "targetIds": ["concept-accountability"],
+      "note": "Canonical concept name reinforcement for lookup"
+    },
+    {
+      "terms": ["wolty", "when others look to you"],
+      "kind": "alias",
+      "targetIds": ["book-when-others-look-to-you-v1"],
+      "note": "Public short name and title phrase for the v1 edition"
+    },
+    {
+      "terms": ["authority misread", "when authority is misread"],
+      "kind": "related",
+      "targetIds": ["book-when-authority-is-misread", "concept-authority"],
+      "note": "Phrase bridge between the authority concept and the Authority is Misread book"
+    },
+    {
+      "terms": ["disagreement is suppressed", "dissent fades", "challenge disappears"],
+      "kind": "related",
+      "targetIds": ["pattern-disagreement-is-suppressed"],
+      "note": "Everyday recognition phrasing for Disagreement is Suppressed"
+    },
+    {
+      "terms": ["how meaning moves"],
+      "kind": "related",
+      "targetIds": ["book-how-meaning-moves", "podcast:how-meaning-moves"],
+      "note": "Shared title bridge across book and podcast episode documents"
+    },
+    {
+      "terms": ["learning collapses", "ground story never reaches"],
+      "kind": "related",
+      "targetIds": ["pattern-learning-collapses"],
+      "note": "Everyday recognition phrasing for Learning Collapses"
+    },
+    {
+      "terms": [
+        "temporary rules",
+        "temporary exceptions becoming permanent",
+        "temporary fixes become permanent",
+        "temporary fixes becoming permanent"
+      ],
+      "kind": "related",
+      "targetIds": ["pattern-exceptions-are-forever", "situation-temporary-fixes-become-permanent"],
+      "note": "Everyday phrasing for Exceptions are Forever and the matching situation \u2014 related, not a synonym claim"
+    },
+    {
+      "terms": [
+        "trust and disagreement",
+        "trust disagreement",
+        "trusting people who disagree",
+        "trust beyond similarity"
+      ],
+      "kind": "related",
+      "targetIds": [
+        "book-trust-beyond-similarity",
+        "concept-trust",
+        "pattern-disagreement-is-suppressed"
+      ],
+      "note": "Natural-language bridge into trust vocabulary, Trust Beyond Similarity, and suppressed disagreement \u2014 related, not synonym collapse"
+    },
+    {
+      "terms": [
+        "why collaboration fails",
+        "why does collaboration fail",
+        "collaboration fail",
+        "collaboration fails",
+        "collaboration is so hard"
+      ],
+      "kind": "related",
+      "targetIds": [
+        "book-why-collaboration-is-so-hard",
+        "pattern-learning-collapses",
+        "pattern-disagreement-is-suppressed"
+      ],
+      "note": "Thematic bridge from everyday collaboration failure questions into the collaboration book and adjacent leadership patterns"
     }
   ]
 }

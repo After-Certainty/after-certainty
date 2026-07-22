@@ -1,14 +1,5 @@
-/** Editorial content-type labels — slug references only. */
+/** Editorial content-type labels and recommended catalog sort — presentation only. */
 export type ContentType = "nonfiction" | "fiction" | "handbook" | "essay_collection";
-
-const CONTENT_TYPE_BY_SLUG: Readonly<Record<string, ContentType>> = {
-  "the-relay": "fiction",
-  velorum: "fiction",
-  "before-certainty-arrives": "fiction",
-  "living-in-sediment": "fiction",
-  "how-serious-systems-learn": "handbook",
-  "the-discipline-of-uncertainty": "handbook",
-};
 
 /** Editorial sort order for the default “Recommended” catalog sort. */
 export const RECOMMENDED_RANK_SLUGS: readonly string[] = [
@@ -28,10 +19,6 @@ export const RECOMMENDED_RANK_SLUGS: readonly string[] = [
   "learning-to-see",
   "when-others-become-leaders",
 ];
-
-export function contentTypeForSlug(slug: string): ContentType {
-  return CONTENT_TYPE_BY_SLUG[slug] ?? "nonfiction";
-}
 
 export function recommendedRankForSlug(slug: string): number {
   const idx = RECOMMENDED_RANK_SLUGS.indexOf(slug);

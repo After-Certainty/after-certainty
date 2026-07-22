@@ -1,5 +1,6 @@
-import { getBookOverviewBySlug } from "@/lib/books/load-book-overviews";
+import { getBookOverviewFromBook } from "@/lib/books/load-book-overviews";
 import type { BookOverview, PrimaryActionPreference } from "@/lib/books/book-overview-schema";
+import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
 import { resolveWorkEdition, type ResolvedEdition } from "@/lib/books/resolve-work-edition";
 import type { Book, GlossaryConcept, Pattern, SemanticGraph } from "@/types/semanticGraph";
 
@@ -11,7 +12,7 @@ export type RelatedOverviewBook = {
 
 /**
  * Assembles graph book + authored overview overlay + resolved edition for Phase G.
- * Returns null when no overlay exists (legacy layout remains).
+ * Returns null when no overview exists on the book (legacy layout remains).
  */
 export type BookOverviewViewModel = {
   book: Book;
@@ -42,7 +43,7 @@ export function buildBookOverviewViewModel(
   book: Book,
   graph: SemanticGraph,
 ): BookOverviewViewModel | null {
-  const overview = getBookOverviewBySlug(book.slug);
+  const overview = getBookOverviewFromBook(book);
   if (!overview) return null;
 
   const conceptsById = new Map(graph.glossary.map((c) => [c.id, c]));
@@ -52,7 +53,7 @@ export function buildBookOverviewViewModel(
   return {
     book,
     overview,
-    edition: resolveWorkEdition(book, graph.books),
+    edition: resolveWorkEdition(book, graph.books, publicationRegistryFromGraph(graph)),
     selectedConcepts: overview.selectedConceptIds
       .map((id) => conceptsById.get(id))
       .filter((c): c is GlossaryConcept => Boolean(c)),

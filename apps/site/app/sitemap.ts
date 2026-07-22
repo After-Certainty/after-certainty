@@ -60,11 +60,11 @@ export async function getSitemapPaths(): Promise<string[]> {
     paths.push(`${explorePaths.thinkers}/${thinker.slug}`);
   }
 
-  for (const slug of getQuestionSitemapSlugs()) {
+  for (const slug of getQuestionSitemapSlugs(graph)) {
     paths.push(`/questions/${slug}`);
   }
 
-  for (const slug of getTrailSitemapSlugs()) {
+  for (const slug of getTrailSitemapSlugs(graph)) {
     paths.push(`/trails/${slug}`);
   }
 

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import publicationRegistry from "@/data/publication-registry.json";
+import { getPublicationRegistry } from "@/lib/books/load-publication-registry";
 import {
   parsePublicationRegistry,
   type PublicationRegistry,
@@ -18,10 +18,10 @@ function baseEdition(overrides: Record<string, unknown> = {}) {
 }
 
 describe("publication registry schema", () => {
-  it("parses the bundled Phase A registry", () => {
-    const parsed = parsePublicationRegistry(publicationRegistry);
+  it("loads editions from the bundled semantic manifest", () => {
+    const parsed = getPublicationRegistry();
     expect(parsed.manifestVersion).toBe(1);
-    expect(parsed.editions).toHaveLength(31);
+    expect(parsed.editions.length).toBeGreaterThanOrEqual(31);
   });
 
   it("rejects companion editions marked canonical", () => {

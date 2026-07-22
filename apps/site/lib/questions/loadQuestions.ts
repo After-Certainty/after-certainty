@@ -1,37 +1,64 @@
-import questionsManifestJson from "@/data/questions-manifest.json";
-import { parseQuestionsManifest, type ParsedQuestionsManifest } from "@/lib/questions/schema";
-import type { QuestionDefinition } from "@/types/questions";
+import pathSearchBridgesJson from "@/data/path-search-bridges.json";
+import fallbackSemantic from "@/data/semantic-manifest.json";
+import { questionsFromGraph } from "@/lib/graph/discovery";
+import { validateSemanticGraph } from "@/lib/graph/validate";
+import type { ParsedQuestionsManifest } from "@/lib/questions/schema";
+import type { QuestionDefinition, QuestionSearchBridge } from "@/types/questions";
+import type { SemanticGraph } from "@/types/semanticGraph";
 
-let cachedManifest: ParsedQuestionsManifest | null = null;
+type PathSearchBridgesFile = {
+  questionBridges?: QuestionSearchBridge[];
+};
+
+function bundledQuestions(): QuestionDefinition[] {
+  const result = validateSemanticGraph(fallbackSemantic as unknown);
+  if (!result.success) {
+    throw new Error("Bundled semantic-manifest.json failed validation for questions");
+  }
+  return questionsFromGraph(result.data);
+}
+
+function siteQuestionBridges(): QuestionSearchBridge[] {
+  const data = pathSearchBridgesJson as PathSearchBridgesFile;
+  return data.questionBridges ?? [];
+}
+
+export function getQuestionsFromGraph(graph: SemanticGraph): QuestionDefinition[] {
+  return questionsFromGraph(graph);
+}
 
 export function getQuestionsManifest(): ParsedQuestionsManifest {
-  if (!cachedManifest) {
-    cachedManifest = parseQuestionsManifest(questionsManifestJson);
-  }
-  return cachedManifest;
+  return {
+    manifestVersion: 1,
+    questions: bundledQuestions(),
+    searchBridges: siteQuestionBridges(),
+  };
 }
 
-export function getAllQuestions(): QuestionDefinition[] {
-  return getQuestionsManifest().questions;
+export function getAllQuestions(graph?: SemanticGraph): QuestionDefinition[] {
+  return graph ? questionsFromGraph(graph) : bundledQuestions();
 }
 
-export function getPublishedQuestions(): QuestionDefinition[] {
-  return getAllQuestions().filter((q) => q.status === "published");
+export function getPublishedQuestions(graph?: SemanticGraph): QuestionDefinition[] {
+  return getAllQuestions(graph).filter((q) => q.status === "published");
 }
 
-export function getQuestionBySlug(slug: string): QuestionDefinition | undefined {
-  return getAllQuestions().find((q) => q.slug === slug);
+export function getQuestionBySlug(
+  slug: string,
+  graph?: SemanticGraph,
+): QuestionDefinition | undefined {
+  return getAllQuestions(graph).find((q) => q.slug === slug);
 }
 
-export function getFeaturedQuestions(limit = 4): QuestionDefinition[] {
-  return getPublishedQuestions()
+export function getFeaturedQuestions(limit = 4, graph?: SemanticGraph): QuestionDefinition[] {
+  return getPublishedQuestions(graph)
     .filter((q) => q.featured)
     .sort((a, b) => (a.featuredRank ?? 999) - (b.featuredRank ?? 999))
     .slice(0, limit);
 }
 
 export function getQuestionSearchBridges() {
-  return getQuestionsManifest().searchBridges ?? [];
+  return siteQuestionBridges();
 }
 
 /** Group published questions by family label (questions may appear in multiple groups). */
@@ -51,6 +78,6 @@ export function groupQuestionsByFamily(
     .map(([family, grouped]) => ({ family, questions: grouped }));
 }
 
-export function getQuestionSitemapSlugs(): string[] {
-  return getPublishedQuestions().map((q) => q.slug);
+export function getQuestionSitemapSlugs(graph?: SemanticGraph): string[] {
+  return getPublishedQuestions(graph).map((q) => q.slug);
 }

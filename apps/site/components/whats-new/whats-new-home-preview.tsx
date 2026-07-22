@@ -2,6 +2,7 @@ import { TrackedLink } from "@/components/analytics/tracked-link";
 import { WhatsNewEventCard } from "@/components/whats-new/whats-new-event-card";
 import { AnalyticsEvents } from "@/lib/analytics/events";
 import { getPodcastEpisodes } from "@/lib/content-data";
+import { getSemanticGraph } from "@/lib/graph/manifest";
 import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
 
 const PREVIEW_LIMIT = 4;
@@ -10,8 +11,11 @@ const PREVIEW_LIMIT = 4;
  * Homepage “Latest from After Certainty” — replaces the single featured book + episode block.
  */
 export async function WhatsNewHomePreview() {
-  const podcastEpisodes = await getPodcastEpisodes();
-  const events = buildPublicWhatsNewEvents({ podcastEpisodes }).slice(0, PREVIEW_LIMIT);
+  const [podcastEpisodes, graph] = await Promise.all([getPodcastEpisodes(), getSemanticGraph()]);
+  const events = buildPublicWhatsNewEvents({
+    podcastEpisodes,
+    changeEvents: graph.changeEvents,
+  }).slice(0, PREVIEW_LIMIT);
 
   if (events.length === 0) return null;
 

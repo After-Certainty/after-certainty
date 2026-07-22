@@ -1,11 +1,12 @@
 import { cache } from "react";
 import { revalidateTag } from "next/cache";
-import type { ZodError } from "zod";
 import fallbackSemantic from "@/data/semantic-manifest.json";
 import { outboundFetchSignal } from "@/lib/security/fetch";
 import { isSemanticManifestOffline, resolveSemanticManifestUrl } from "@/lib/site-config";
 import type { Book, SemanticGraph } from "@/types/semanticGraph";
-import { semanticGraphSchema, toSemanticGraph } from "@/lib/graph/schemas";
+import { validateSemanticGraph } from "@/lib/graph/validate";
+
+export { validateSemanticGraph, type ValidateSemanticGraphResult } from "@/lib/graph/validate";
 
 function semanticBookExportScore(book: Book): number {
   let score = 0;
@@ -72,6 +73,24 @@ function parseGeneratedAt(graph: SemanticGraph): number {
   return Number.isFinite(parsed) ? parsed : 0;
 }
 
+function discoveryCollectionCount(graph: SemanticGraph): number {
+  return (
+    (graph.questions?.length ?? 0) +
+    (graph.trails?.length ?? 0) +
+    (graph.shelves?.length ?? 0) +
+    (graph.editions?.length ?? 0) +
+    (graph.changeEvents?.length ?? 0) +
+    (graph.searchAliases?.length ?? 0)
+  );
+}
+
+function schemaVersionScore(graph: SemanticGraph): number {
+  const raw = graph.schemaVersion?.trim();
+  if (!raw) return 0;
+  const parsed = Number.parseFloat(raw);
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
 /** Prefer the graph with richer thinker/source metadata when ISR returns a stale release. */
 export function pickSemanticGraph(remote: SemanticGraph, bundled: SemanticGraph): SemanticGraph {
   const remoteEnriched = enrichedSourceCount(remote);
@@ -104,10 +123,33 @@ export function pickSemanticGraph(remote: SemanticGraph, bundled: SemanticGraph)
     return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
   }
 
+  const remoteDiscovery = discoveryCollectionCount(remote);
+  const bundledDiscovery = discoveryCollectionCount(bundled);
+  if (remoteDiscovery === 0 && bundledDiscovery > 0) {
+    logSemanticGraphError("Remote manifest lacks discovery collections; using bundled fallback.");
+    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
+  }
+  if (bundledDiscovery > remoteDiscovery) {
+    logSemanticGraphError(
+      "Bundled manifest has richer discovery collections than remote; using bundled fallback.",
+    );
+    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
+  }
+
+  const remoteSchema = schemaVersionScore(remote);
+  const bundledSchema = schemaVersionScore(bundled);
+  if (bundledSchema > remoteSchema) {
+    logSemanticGraphError(
+      "Bundled manifest has newer schemaVersion than remote; using bundled fallback.",
+    );
+    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
+  }
+
   if (
     bundledEnriched > 0 &&
     bundledEnriched === remoteEnriched &&
     bundledThinkers === remoteThinkers &&
+    bundledDiscovery === remoteDiscovery &&
     parseGeneratedAt(bundled) > parseGeneratedAt(remote)
   ) {
     logSemanticGraphError("Bundled manifest is newer than remote; using bundled fallback.");
@@ -128,22 +170,6 @@ function loadBundledFallbackGraph(): SemanticGraph {
     validated.error,
   );
   return EMPTY_GRAPH;
-}
-
-export type ValidateSemanticGraphResult =
-  | { success: true; data: SemanticGraph; error?: undefined }
-  | { success: false; data: undefined; error: ZodError | Error };
-
-/**
- * Runtime validation for arbitrary JSON (e.g. after fetch).
- * Malformed manifests never throw; callers inspect `success`.
- */
-export function validateSemanticGraph(raw: unknown): ValidateSemanticGraphResult {
-  const parsed = semanticGraphSchema.safeParse(raw);
-  if (!parsed.success) {
-    return { success: false, data: undefined, error: parsed.error };
-  }
-  return { success: true, data: toSemanticGraph(parsed.data) };
 }
 
 /**

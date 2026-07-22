@@ -1,15 +1,16 @@
 import { describe, expect, it } from "vitest";
 
-import whatsNewManifest from "@/data/whats-new.json";
+import siteWhatsNew from "@/data/site-whats-new.json";
 import { parseWhatsNewManifest, whatsNewFilterBucket } from "@/lib/whats-new/schema";
 
 describe("whats-new schema", () => {
-  it("parses the bundled Phase D seed", () => {
-    const parsed = parseWhatsNewManifest(whatsNewManifest);
+  it("parses the site-owned What’s New seed", () => {
+    const parsed = parseWhatsNewManifest(siteWhatsNew);
     expect(parsed.manifestVersion).toBe(1);
     expect(parsed.launchFrom).toBe("2026-01-01");
-    expect(parsed.events.length).toBeGreaterThanOrEqual(5);
+    expect(parsed.events.length).toBeGreaterThanOrEqual(3);
     expect(parsed.events.every((e) => e.source === "authored")).toBe(true);
+    expect(parsed.events.every((e) => e.type !== "book_published")).toBe(true);
   });
 
   it("rejects generated book_revised candidates", () => {

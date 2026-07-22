@@ -63,11 +63,13 @@ export function findPublishedTrailsForEntity(input: {
   canonicalId: string;
   index: GraphIndex;
   books: readonly Book[];
+  trails?: readonly TrailDefinition[];
   limit?: number;
 }): TrailDefinition[] {
   const { canonicalId, index, books, limit = 3 } = input;
+  const trails = input.trails ?? getPublishedTrails();
 
-  return getPublishedTrails()
+  return trails
     .filter((trail) => trailReferencesCanonicalId(trail, canonicalId, index, books))
     .slice(0, limit);
 }
@@ -86,15 +88,17 @@ export function findPublishedTrailsForQuestion(input: {
   question: QuestionDefinition;
   index: GraphIndex;
   books: readonly Book[];
+  trails?: readonly TrailDefinition[];
   limit?: number;
   overlapMax?: number;
 }): TrailDefinition[] {
   const { question, index, books, limit = 3, overlapMax = QUESTION_TRAIL_OVERLAP_MAX } = input;
+  const published = input.trails ?? getPublishedTrails();
 
   const questionStopIds = resolvePathStopCanonicalIds(question.pathStops, index, books);
   if (questionStopIds.length === 0) return [];
 
-  const ranked = getPublishedTrails()
+  const ranked = published
     .map((trail) => {
       const trailStopIds = resolvePathStopCanonicalIds(trail.pathStops, index, books);
       const overlap = pathOverlapRatio(questionStopIds, trailStopIds);

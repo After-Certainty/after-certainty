@@ -44,6 +44,30 @@ export interface BookFormatAsset {
   url: string | null;
 }
 
+export type BookContentType = "nonfiction" | "fiction" | "handbook" | "essay_collection";
+
+export type BookPublicStatus =
+  "published" | "upcoming" | "forthcoming" | "in_progress" | "revised" | "superseded" | "archived";
+
+export type BookAvailabilityFlag =
+  "download_docx" | "download_epub" | "download_pdf" | "purchase" | "available_in_print";
+
+export type EditionRelationship = "sole" | "primary" | "companion" | "superseded";
+
+/** Authored orientation overlay nested on books in schemaVersion 2.1+ manifests. */
+export interface BookOverview {
+  centralQuestion: string;
+  whyItExists: string;
+  audience: string;
+  nonGoals: string[];
+  selectedConceptIds: string[];
+  selectedPatternIds?: string[];
+  readBefore?: string[];
+  readNext?: string[];
+  revisedAt?: string;
+  changeSummary?: string;
+}
+
 export interface Book {
   id: string;
   slug: string;
@@ -72,6 +96,16 @@ export interface Book {
   epub?: BookFormatAsset;
   docx?: BookFormatAsset;
   pdf?: BookFormatAsset;
+  /** schemaVersion 2.1 — work/edition identity */
+  workId?: string;
+  editionId?: string;
+  isCanonical?: boolean;
+  editionRelationship?: EditionRelationship;
+  editionLabel?: string;
+  contentType?: BookContentType;
+  publicStatus?: BookPublicStatus | string;
+  availability?: BookAvailabilityFlag[];
+  overview?: BookOverview;
 }
 
 /** Optional styling bucket from the content pipeline (e.g. pressure vs capability concepts). */
@@ -223,6 +257,161 @@ export interface SemanticOntology {
   structuralPressures: OntologyStructuralPressure[];
 }
 
+/** Stable work identity (schemaVersion 2.1). */
+export interface Work {
+  id: string;
+  slug: string;
+  title: string;
+  currentEditionId: string;
+  editionIds: string[];
+  contentType?: BookContentType;
+  canonicalRoute?: string;
+}
+
+/** Edition row keyed by existing book-* ids (schemaVersion 2.1). */
+export interface Edition {
+  id: string;
+  bookId: string;
+  workId: string;
+  slug: string;
+  isCanonical: boolean;
+  relationship: EditionRelationship;
+  editionLabel?: string;
+  title?: string;
+  companionEditionIds?: string[];
+  companionOfEditionId?: string;
+  supersededByEditionId?: string;
+  replacesEditionId?: string;
+  firstPublishedAt?: string;
+  revisedAt?: string;
+  changeSummary?: string;
+}
+
+export type DiscoveryPathEntityType =
+  | "book"
+  | "concept"
+  | "pattern"
+  | "situation"
+  | "thinker"
+  | "source"
+  | "podcast_episode"
+  | "external";
+
+/** Path stop as emitted by the content pipeline (may include enrichment fields). */
+export interface DiscoveryPathStop {
+  position: number;
+  entityType: DiscoveryPathEntityType;
+  entityId?: string;
+  bookSlug?: string;
+  externalUrl?: string;
+  titleOverride?: string;
+  description: string;
+  whyThisFollows?: string;
+  estimatedMinutes?: number;
+  optional?: boolean;
+  excerpt?: string;
+  fictionDoorway?: boolean;
+  /** Upstream enrichment — ignored by site PathStopInput mapping. */
+  title?: string;
+  resolvedSlug?: string;
+}
+
+export interface ManifestQuestion {
+  id: string;
+  slug: string;
+  question: string;
+  shortLabel?: string;
+  summary: string;
+  orientation: string;
+  whatThisIsNot: string[];
+  status: "draft" | "published" | "archived";
+  featured?: boolean;
+  featuredRank?: number;
+  families: string[];
+  primaryBookId: string;
+  relatedQuestionIds?: string[];
+  pathStops: DiscoveryPathStop[];
+  closingReflection: string;
+  carryForwardQuestion?: string;
+  searchHints?: string[];
+  createdDate?: string;
+  updatedDate?: string;
+  editorialOwner?: string;
+  reviewNotes?: string;
+}
+
+export interface ManifestTrail {
+  id: string;
+  slug: string;
+  title: string;
+  summary: string;
+  orientation: string;
+  status: "draft" | "published" | "upcoming" | "archived";
+  featured?: boolean;
+  featuredRank?: number;
+  themes: string[];
+  audience?: string;
+  depth?: "introductory" | "intermediate" | "deep";
+  primaryBookId?: string;
+  pathStops: DiscoveryPathStop[];
+  closingReflection: string;
+  suggestedContinuation?: string;
+  relatedTrailIds?: string[];
+  createdDate?: string;
+  updatedDate?: string;
+  reviewNotes?: string;
+}
+
+export type ShelfRule =
+  | { type: "status"; values: string[] }
+  | { type: "contentType"; values: string[] }
+  | { type: "availability"; values: string[] }
+  | { type: "allPublic" };
+
+export type ShelfSelection =
+  { mode: "curated"; bookSlugs: string[] } | { mode: "rule"; rule: ShelfRule };
+
+export interface ManifestShelf {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  displayOrder: number;
+  featured: boolean;
+  status: "active" | "hidden";
+  selection: ShelfSelection;
+  resolvedBookIds?: string[];
+}
+
+export type ChangeEventType =
+  "book_published" | "book_revised" | "book_announced" | "podcast_episode" | "site_feature";
+
+export interface ChangeEvent {
+  id: string;
+  type: ChangeEventType;
+  title: string;
+  summary: string;
+  date: string;
+  entityType: "book" | "podcast" | "site";
+  entityId?: string;
+  visibility: "public" | "hidden";
+  source: "authored" | "generated_candidate";
+  featured?: boolean;
+  significance?: "major" | "standard";
+  relatedEditionId?: string;
+  /** Corpus field — map to What’s New `href` on the site. */
+  canonicalRoute?: string;
+  /** Corpus field — map to What’s New `image` on the site. */
+  coverImage?: string;
+}
+
+export interface SearchAlias {
+  terms: string[];
+  kind: "alias" | "related";
+  targetIds: string[];
+  note?: string;
+}
+
 export interface SemanticGraph {
   books: Book[];
   glossary: GlossaryConcept[];
@@ -234,12 +423,23 @@ export interface SemanticGraph {
   ontology?: SemanticOntology;
   /** Canonical thinker nodes when manifestVersion is 2. */
   thinkers?: Thinker[];
+  /** schemaVersion 2.1 discovery collections (absent on older manifests). */
+  works?: Work[];
+  editions?: Edition[];
+  questions?: ManifestQuestion[];
+  trails?: ManifestTrail[];
+  shelves?: ManifestShelf[];
+  changeEvents?: ChangeEvent[];
+  searchAliases?: SearchAlias[];
   /** Manifest metadata (optional, from semantic-manifest.json) */
   manifestVersion?: 1 | 2;
+  /** Additive discovery contract version (e.g. "2.1"). */
+  schemaVersion?: string;
   generatedAt?: string;
   repository?: string;
   ref?: string;
   releaseTag?: string;
+  sourceCommit?: string;
 }
 
 /** Entity collections exposed in the explore UI */

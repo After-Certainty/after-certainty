@@ -1,17 +1,37 @@
-import bookOverviewsJson from "@/data/book-overviews.json";
+import fallbackSemantic from "@/data/semantic-manifest.json";
 import {
-  parseBookOverviewsManifest,
-  type BookOverview,
-  type BookOverviewsManifest,
-} from "@/lib/books/book-overview-schema";
+  bookOverviewsFromGraph,
+  bookOverviewFromBook,
+  bookOverviewPrioritySlugs,
+} from "@/lib/graph/discovery";
+import { validateSemanticGraph } from "@/lib/graph/validate";
+import type { BookOverview, BookOverviewsManifest } from "@/lib/books/book-overview-schema";
+import type { Book, SemanticGraph } from "@/types/semanticGraph";
 
-let cached: BookOverviewsManifest | null = null;
-
-export function getBookOverviewsManifest(): BookOverviewsManifest {
-  if (!cached) {
-    cached = parseBookOverviewsManifest(bookOverviewsJson);
+function bundledGraph(): SemanticGraph {
+  const result = validateSemanticGraph(fallbackSemantic as unknown);
+  if (!result.success) {
+    throw new Error("Bundled semantic-manifest.json failed validation for book overviews");
   }
-  return cached;
+  return result.data;
+}
+
+/** Overviews derived from the live semantic graph (preferred). */
+export function getBookOverviewsFromGraph(graph: SemanticGraph): BookOverview[] {
+  return bookOverviewsFromGraph(graph);
+}
+
+export function getBookOverviewFromBook(book: Book): BookOverview | undefined {
+  return bookOverviewFromBook(book);
+}
+
+/** Sync accessor for tests/validation — uses the bundled manifest. */
+export function getBookOverviewsManifest(): BookOverviewsManifest {
+  return {
+    manifestVersion: 1,
+    prioritySlugs: bookOverviewPrioritySlugs(),
+    overviews: bookOverviewsFromGraph(bundledGraph()),
+  };
 }
 
 export function getAllBookOverviews(): BookOverview[] {
@@ -30,7 +50,7 @@ export function hasBookOverview(slug: string): boolean {
   return Boolean(getBookOverviewBySlug(slug));
 }
 
-/** Test helper — clears the parse cache. */
+/** Test helper — no-op cache clear (overviews are derived). */
 export function resetBookOverviewsCacheForTests(): void {
-  cached = null;
+  // Derived from bundled graph; nothing to clear.
 }

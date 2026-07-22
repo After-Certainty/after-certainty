@@ -27,7 +27,7 @@ describe("parseSearchAliasConfig", () => {
 });
 
 describe("getSearchAliasConfig", () => {
-  it("loads the bundled authored alias file", () => {
+  it("loads search aliases from the bundled semantic manifest", () => {
     const config = getSearchAliasConfig();
     expect(config.version).toBe(1);
     expect(config.entries.length).toBeGreaterThan(0);
