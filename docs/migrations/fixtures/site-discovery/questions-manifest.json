@@ -1,0 +1,680 @@
+{
+  "manifestVersion": 1,
+  "updatedAt": "2026-07-20",
+  "searchBridges": [
+    {
+      "terms": ["trust disagreement", "trust and disagreement", "trusting people who disagree"],
+      "questionIds": ["trust-survives-disagreement"],
+      "note": "Natural-language bridge to trust question"
+    },
+    {
+      "terms": ["collaboration fail", "collaboration is so hard", "why collaboration"],
+      "questionIds": ["collaboration-remains-difficult"]
+    },
+    {
+      "terms": ["temporary exceptions", "temporary fixes", "exceptions forever"],
+      "questionIds": ["temporary-exceptions-become-permanent"]
+    },
+    {
+      "terms": ["authority without understanding", "interpretation no longer matters"],
+      "questionIds": ["authority-without-understanding"]
+    },
+    {
+      "terms": ["how meaning moves", "meaning drift", "meaning changes"],
+      "questionIds": ["meaning-changes-as-it-travels"]
+    },
+    {
+      "terms": ["good intentions miss", "why diversity matters"],
+      "questionIds": ["good-intentions-still-miss"]
+    },
+    {
+      "terms": ["before certainty", "act responsibly uncertainty"],
+      "questionIds": ["act-before-certainty-arrives"]
+    },
+    {
+      "terms": ["when others look to you", "wolty"],
+      "questionIds": ["someone-begins-looking-to-you", "leaders-become-systems"]
+    },
+    {
+      "terms": ["scoreboard", "metrics incentives", "tyranny of metrics"],
+      "questionIds": ["scoreboard-settles-and-cannot"]
+    }
+  ],
+  "questions": [
+    {
+      "id": "trust-survives-disagreement",
+      "slug": "trust-survives-disagreement",
+      "question": "How can trust survive disagreement?",
+      "summary": "When good people see the world differently, trust has to rest on something other than shared conclusions.",
+      "orientation": "Disagreement is not always a failure of character. Often it reflects different vantage points, different evidence, and different stakes. The harder question is how people keep working together when they no longer share the same story.",
+      "whatThisIsNot": [
+        "Not a guide to winning arguments or converting opponents.",
+        "Not a claim that all perspectives are equally accurate.",
+        "Not the same question as whether similarity produces trust."
+      ],
+      "status": "published",
+      "featured": true,
+      "featuredRank": 1,
+      "families": ["Trust and disagreement"],
+      "primaryBookId": "book-trust-beyond-similarity",
+      "relatedQuestionIds": ["collaboration-remains-difficult", "sincere-people-still-wrong"],
+      "searchHints": ["trust disagreement", "trust beyond similarity"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-trust",
+          "description": "Begin with what trust actually requires\u2014not comfort, but enough reliability to keep relating across difference.",
+          "whyThisFollows": "The question assumes trust is still possible; this concept names what must hold when agreement does not."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-disagreement-is-suppressed",
+          "description": "Notice when disagreement disappears not because it was resolved, but because it became unsafe to voice.",
+          "whyThisFollows": "Trust cannot survive disagreement if disagreement never appears in the first place."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-trust-beyond-similarity",
+          "description": "The primary book explores how trust remains possible across difference\u2014and why it becomes more valuable when perspectives diverge.",
+          "whyThisFollows": "After naming the tension, this is the deepest on-site treatment of the question."
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "entityId": "concept-contestability",
+          "description": "See how institutions and relationships stay corrigible when claims can still be challenged without collapsing trust.",
+          "whyThisFollows": "Trust across disagreement needs pathways for revision, not just tolerance."
+        }
+      ],
+      "closingReflection": "You may notice trust resting less on sameness and more on how people handle correction, disappointment, and partial sight. The question stays open: what would need to change for disagreement to become information rather than threat?",
+      "carryForwardQuestion": "What makes a disagreement safe enough to learn from?"
+    },
+    {
+      "id": "collaboration-remains-difficult",
+      "slug": "collaboration-remains-difficult",
+      "question": "Why does collaboration remain difficult among good people?",
+      "summary": "Coordination fails for structural reasons\u2014not only because someone did not try hard enough.",
+      "orientation": "Many collaborations begin with shared intent and still fracture. Invisible labor, misaligned incentives, and fragile feedback loops can erode coordination even when everyone means well.",
+      "whatThisIsNot": [
+        "Not a teamwork tips list or personality assessment.",
+        "Not a claim that collaboration always fails.",
+        "Not reducible to trust alone\u2014coordination has its own failure modes."
+      ],
+      "status": "published",
+      "featured": false,
+      "families": ["Collaboration and coordination"],
+      "primaryBookId": "book-why-collaboration-is-so-hard",
+      "relatedQuestionIds": ["trust-survives-disagreement", "good-intentions-still-miss"],
+      "searchHints": ["collaboration fail", "coordination"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-coordination",
+          "description": "Start with coordination itself\u2014the work of aligning action when no one holds the whole picture.",
+          "whyThisFollows": "Collaboration difficulty is often coordination difficulty in disguise."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-learning-collapses",
+          "description": "Watch what happens when ground-level learning never reaches the people who could act on it.",
+          "whyThisFollows": "Good intent cannot compensate for broken feedback loops."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-why-collaboration-is-so-hard",
+          "description": "The primary book examines coordination failure, misaligned incentives, and fragile trust among people who still want the same outcome.",
+          "whyThisFollows": "This is the most direct treatment of the question in the corpus."
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "entityId": "concept-diffuse-ownership",
+          "description": "Consider how responsibility thins when everyone is involved but no one can move the whole.",
+          "whyThisFollows": "Collaboration breaks when ownership becomes too diffuse to act."
+        }
+      ],
+      "closingReflection": "Collaboration may feel less like a moral failing and more like a design problem\u2014feedback, ownership, and legibility matter. The work continues: what would make correction easier in your context?",
+      "carryForwardQuestion": "Where does good intent stop reaching the people who need to act on it?"
+    },
+    {
+      "id": "temporary-exceptions-become-permanent",
+      "slug": "temporary-exceptions-become-permanent",
+      "question": "What happens when temporary exceptions become permanent?",
+      "summary": "Emergency workarounds often outlive the crisis they were meant to serve.",
+      "orientation": "Exceptions are sometimes necessary. The danger is when they stop reading as exceptions\u2014when new people are trained on workarounds, rollback plans gather dust, and the temporary becomes normal without anyone deciding it should.",
+      "whatThisIsNot": [
+        "Not an argument against ever making exceptions.",
+        "Not the same as institutional decay in general.",
+        "Not limited to software or leadership\u2014this pattern appears across domains."
+      ],
+      "status": "published",
+      "featured": true,
+      "featuredRank": 2,
+      "families": ["Systems and institutions"],
+      "primaryBookId": "book-when-others-look-to-you-v1",
+      "relatedQuestionIds": ["institutions-preserve-obsolete-rules", "leaders-become-systems"],
+      "searchHints": ["temporary exceptions", "exceptions forever"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "situation",
+          "entityId": "situation-temporary-fixes-become-permanent",
+          "description": "Recognize the situation: workarounds that outlive the emergency that created them.",
+          "whyThisFollows": "Naming the situation helps you see the pattern before diagnosing causes."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-exceptions-are-forever",
+          "description": "See the named dynamic\u2014exceptions that stop reading as temporary.",
+          "whyThisFollows": "The pattern gives language for what the situation describes."
+        },
+        {
+          "position": 3,
+          "entityType": "concept",
+          "entityId": "concept-erosion",
+          "description": "Understand how standards thin when exceptions accumulate without renewal.",
+          "whyThisFollows": "Permanence often arrives through gradual erosion, not a single decision."
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "bookSlug": "when-others-look-to-you-v1",
+          "description": "Leadership context: how exceptions and normalization interact when others are watching how you act.",
+          "whyThisFollows": "Exceptions often begin with leaders; this book shows how they propagate."
+        },
+        {
+          "position": 5,
+          "entityType": "book",
+          "entityId": "book-coupling",
+          "description": "Systems context: how connection, drift, and consequence shape what institutions preserve over time.",
+          "whyThisFollows": "Permanent exceptions are also a systems story about coupling and scar tissue."
+        }
+      ],
+      "closingReflection": "You may start noticing which 'temporary' measures have quietly become the standard\u2014and who would notice if the original rule returned. That noticing is the beginning of correction, not the end of the question.",
+      "carryForwardQuestion": "Which exception in your context has outlived its reason for existing?"
+    },
+    {
+      "id": "institutions-preserve-obsolete-rules",
+      "slug": "institutions-preserve-obsolete-rules",
+      "question": "Why do institutions preserve rules that no longer fit?",
+      "summary": "Rules persist because they once solved real problems\u2014even when the problems have changed.",
+      "orientation": "Institutions do not only fail by breaking down. They can also fail by keeping structures that made sense under old conditions but now produce drift, friction, or harm. Understanding why rules persist is different from simply calling for change.",
+      "whatThisIsNot": [
+        "Not a blanket critique of all bureaucracy.",
+        "Not the same as temporary exceptions becoming permanent\u2014though the patterns can overlap.",
+        "Not a promise that better rules are easy to write."
+      ],
+      "status": "published",
+      "featured": false,
+      "families": ["Systems and institutions"],
+      "primaryBookId": "book-coupling",
+      "relatedQuestionIds": [
+        "temporary-exceptions-become-permanent",
+        "scoreboard-settles-and-cannot"
+      ],
+      "searchHints": ["institutions rules", "coupling drift"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-bureaucracy",
+          "description": "Begin with bureaucracy not as insult but as structure\u2014rules, roles, and routines that outlive their designers.",
+          "whyThisFollows": "Obsolete rules usually live inside structures that once worked."
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "entityId": "concept-drift",
+          "description": "See how systems slowly move away from the conditions they were built for.",
+          "whyThisFollows": "Rules often fit the past while the present has drifted."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-coupling",
+          "description": "The primary book on connection, cohesion, drift, and consequence over time.",
+          "whyThisFollows": "Coupling explains how institutions preserve patterns even as context changes."
+        },
+        {
+          "position": 4,
+          "entityType": "pattern",
+          "entityId": "pattern-exceptions-are-forever",
+          "description": "Connect to how exceptions and rules interact when rollback never arrives.",
+          "whyThisFollows": "Obsolete rules often survive alongside permanent exceptions."
+        }
+      ],
+      "closingReflection": "Institutions preserve rules for reasons that once made sense. The question is not only which rules to change, but what would need to renew for new rules to take hold.",
+      "carryForwardQuestion": "Which rule in your institution still solves yesterday's problem?"
+    },
+    {
+      "id": "authority-without-understanding",
+      "slug": "authority-without-understanding",
+      "question": "What happens when authority no longer needs understanding?",
+      "summary": "When compliance replaces comprehension, authority can persist after shared meaning erodes.",
+      "orientation": "Authority can coordinate action\u2014but it can also outrun the understanding that once justified it. When people follow without grasping, institutions may look stable while judgment quietly thins.",
+      "whatThisIsNot": [
+        "Not the same as When Incentives Become the Moral Language (metrics replacing judgment).",
+        "Not an argument that authority is always illegitimate.",
+        "Not reducible to bad communication alone."
+      ],
+      "status": "published",
+      "featured": false,
+      "families": ["Leadership and authority"],
+      "primaryBookId": "book-when-interpretation-no-longer-matters",
+      "relatedQuestionIds": ["leaders-become-systems", "scoreboard-settles-and-cannot"],
+      "searchHints": ["authority interpretation", "shared meaning"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-authority",
+          "description": "Start with authority as a relationship\u2014not just power, but the capacity to coordinate action.",
+          "whyThisFollows": "The question assumes authority exists; this names what is at stake when understanding drops away."
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "entityId": "concept-interpretation",
+          "description": "See how shared meaning is built, contested, and lost.",
+          "whyThisFollows": "Authority without understanding is often authority without shared interpretation."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-when-interpretation-no-longer-matters",
+          "description": "The primary book on what happens when authority persists after shared meaning erodes.",
+          "whyThisFollows": "This is the deepest treatment of the question\u2014not the metrics book, not the economy book."
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "entityId": "book-when-authority-is-misread",
+          "description": "A complementary lens: when confidence is mistaken for legitimacy and communication distorts judgment.",
+          "whyThisFollows": "Misread authority is one pathway toward authority without understanding."
+        }
+      ],
+      "closingReflection": "Authority may still function while understanding thins\u2014but at a cost to correction, trust, and moral seriousness. The question remains: what would restore interpretive contact without pretending disagreement will disappear?",
+      "carryForwardQuestion": "Where do people comply without understanding what they are complying with?"
+    },
+    {
+      "id": "meaning-changes-as-it-travels",
+      "slug": "meaning-changes-as-it-travels",
+      "question": "Why does meaning change as it travels?",
+      "summary": "Language, signals, and stories compress, drift, and reshape as they move through people and systems.",
+      "orientation": "Meaning is not fixed at the moment of sending. It shifts under pressure, accumulates interpretation, and sometimes outruns the words that carried it. Restraint, contact, and correction all matter in how meaning moves.",
+      "whatThisIsNot": [
+        "Not a claim that all communication fails.",
+        "Not the same as bad faith or deliberate distortion alone.",
+        "Not limited to media\u2014meaning moves in teams, families, and institutions too."
+      ],
+      "status": "published",
+      "featured": true,
+      "featuredRank": 3,
+      "families": ["Meaning and interpretation"],
+      "primaryBookId": "book-how-meaning-moves",
+      "relatedQuestionIds": ["authority-without-understanding", "sincere-people-still-wrong"],
+      "searchHints": ["how meaning moves", "meaning drift"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-meaning",
+          "description": "Begin with meaning as something that forms, travels, and changes\u2014not a static packet of information.",
+          "whyThisFollows": "The question presupposes movement; this concept names what is moving."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-meaning-drifts-over-time",
+          "description": "Observe the drift: how meaning shifts as it passes through hands, headlines, and habits.",
+          "whyThisFollows": "Drift is the observable face of meaning in motion."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-how-meaning-moves",
+          "description": "The primary book on signal, compression, restraint, and the pace of understanding.",
+          "whyThisFollows": "This is the most direct exploration of the question."
+        },
+        {
+          "position": 4,
+          "entityType": "podcast_episode",
+          "entityId": "podcast:how-meaning-moves",
+          "description": "A shorter listen through the same terrain\u2014signal, compression, restraint, and connection.",
+          "whyThisFollows": "Hearing the argument in another form can clarify what reading alone may skip.",
+          "estimatedMinutes": 12
+        },
+        {
+          "position": 5,
+          "entityType": "concept",
+          "entityId": "concept-interpretation",
+          "description": "Carry forward: interpretation is where meaning becomes actionable\u2014and where drift becomes consequential.",
+          "whyThisFollows": "Travel ends in interpretation; that is where change becomes real."
+        }
+      ],
+      "closingReflection": "Meaning will keep moving. The question is not how to stop drift but how to build enough contact and restraint for correction to remain possible.",
+      "carryForwardQuestion": "Where has a message changed between the person who sent it and the person who acted on it?"
+    },
+    {
+      "id": "good-intentions-still-miss",
+      "slug": "good-intentions-still-miss",
+      "question": "Why do good intentions still miss so much?",
+      "summary": "Intent is real\u2014but partial sight, bias, and institutional blind spots still leave harm unnoticed.",
+      "orientation": "Good intentions do not guarantee good outcomes. What gets noticed, trusted, and acted on depends on vantage point, legibility, and who is positioned to speak. Missing something is not always malice\u2014it is often structure.",
+      "whatThisIsNot": [
+        "Not an excuse for harm or indifference.",
+        "Not the same as diversity as representation alone.",
+        "Not a claim that intentions do not matter."
+      ],
+      "status": "published",
+      "featured": false,
+      "families": ["Identity and perspective"],
+      "primaryBookId": "book-why-diversity-matters",
+      "relatedQuestionIds": ["trust-survives-disagreement", "collaboration-remains-difficult"],
+      "searchHints": ["good intentions miss", "diversity perspective"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-bias",
+          "description": "Begin with bias as partial sight\u2014the selective work of perception, not only prejudice.",
+          "whyThisFollows": "Missing often begins with what a vantage point cannot see."
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "entityId": "concept-legibility",
+          "description": "Ask what institutions can see\u2014and what remains illegible to their instruments and routines.",
+          "whyThisFollows": "Good intent cannot reach what the system cannot register."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-why-diversity-matters",
+          "description": "The primary book on what gets noticed, trusted, and ignored\u2014not just who is in the room.",
+          "whyThisFollows": "This is the deepest treatment of the question in the corpus."
+        },
+        {
+          "position": 4,
+          "entityType": "pattern",
+          "entityId": "pattern-learning-collapses",
+          "description": "See when feedback loops fail and ground truth never reaches decision-makers.",
+          "whyThisFollows": "Missing persists when learning collapses."
+        }
+      ],
+      "closingReflection": "Good intentions may remain\u2014and still miss. The work is to widen what can be seen without pretending any single view becomes complete.",
+      "carryForwardQuestion": "What harm might be visible from a vantage point you do not occupy?"
+    },
+    {
+      "id": "act-before-certainty-arrives",
+      "slug": "act-before-certainty-arrives",
+      "question": "How can we act responsibly before certainty arrives?",
+      "summary": "Judgment under uncertainty requires discipline\u2014not waiting until explanation finishes.",
+      "orientation": "Many of the hardest decisions arrive before the picture is complete. Acting responsibly does not mean pretending to know; it means learning in motion, staying corrigible, and refusing false certainty.",
+      "whatThisIsNot": [
+        "Not a license for reckless action.",
+        "Not the same as abandoning evidence.",
+        "Not a single technique\u2014responsibility under uncertainty is a practice."
+      ],
+      "status": "published",
+      "featured": true,
+      "featuredRank": 4,
+      "families": ["Judgment and uncertainty"],
+      "primaryBookId": "book-after-certainty",
+      "relatedQuestionIds": ["sincere-people-still-wrong", "collaboration-remains-difficult"],
+      "searchHints": ["uncertainty judgment", "before certainty"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-uncertainty",
+          "description": "Begin with uncertainty as condition\u2014not failure, but the state in which many consequential judgments actually happen.",
+          "whyThisFollows": "The question assumes certainty has not arrived; this names the terrain."
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "entityId": "concept-judgment",
+          "description": "See judgment as ongoing work\u2014not a one-time verdict but a practice that must remain corrigible.",
+          "whyThisFollows": "Responsible action under uncertainty is still judgment."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-curiosity-before-certainty",
+          "description": "A friendly entry: how curiosity keeps learning open when easy certainty would close it.",
+          "whyThisFollows": "Curiosity is often the first discipline before harder choices."
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "entityId": "book-after-certainty",
+          "description": "The capstone: living, judging, and remaining responsible once certainty is no longer enough.",
+          "whyThisFollows": "This is the primary depth for the question."
+        },
+        {
+          "position": 5,
+          "entityType": "book",
+          "entityId": "book-how-serious-systems-learn",
+          "description": "Practice for teams and institutions: learning in motion without waiting for perfect information.",
+          "whyThisFollows": "Collective action needs disciplines, not only individual virtue."
+        }
+      ],
+      "closingReflection": "Responsible action before certainty may feel less like guessing and more like staying in contact with correction. The question stays open: what would you need to notice to know you were wrong?",
+      "carryForwardQuestion": "What would change your mind if you saw it?"
+    },
+    {
+      "id": "someone-begins-looking-to-you",
+      "slug": "someone-begins-looking-to-you",
+      "question": "What happens when someone else begins looking to you?",
+      "summary": "Influence arrives before you feel ready\u2014and it changes what your actions mean to others.",
+      "orientation": "People inherit influence they did not seek. Once others look to you, your choices carry weight beyond your intent. Renewal, erosion, and responsibility all begin in that shift.",
+      "whatThisIsNot": [
+        "Not a leadership hype narrative.",
+        "Not the same as formal authority alone.",
+        "Not a promise that influence can be returned unchanged."
+      ],
+      "status": "published",
+      "featured": false,
+      "families": ["Influence and inheritance"],
+      "primaryBookId": "book-when-others-look-to-you-v1",
+      "relatedQuestionIds": ["leaders-become-systems", "temporary-exceptions-become-permanent"],
+      "searchHints": ["when others look to you", "influence leadership"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-responsibility",
+          "description": "Start with responsibility as something that can arrive with others' expectations\u2014not only with formal role.",
+          "whyThisFollows": "Being looked to changes what you are answerable for."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-leadership-coalesces",
+          "description": "See how leadership forms before anyone announces it.",
+          "whyThisFollows": "Others may look to you before you accept the role."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "bookSlug": "when-others-look-to-you-v1",
+          "description": "The primary field guide: how influence forms, trust renews, and erosion begins when responsibility drifts.",
+          "whyThisFollows": "This book is written for the moment the question describes."
+        },
+        {
+          "position": 4,
+          "entityType": "pattern",
+          "entityId": "pattern-feedback-drives-change",
+          "description": "Notice what keeps renewal possible when others are watching.",
+          "whyThisFollows": "Influence without feedback tends toward erosion."
+        }
+      ],
+      "closingReflection": "Being looked to changes the meaning of your actions\u2014even when you did not campaign for the role. The question remains: what would renewal look like from where you stand?",
+      "carryForwardQuestion": "Who is already reading your choices as precedent?"
+    },
+    {
+      "id": "leaders-become-systems",
+      "slug": "leaders-become-systems",
+      "question": "How do leaders become systems without noticing?",
+      "summary": "Leadership patterns reproduce themselves\u2014and eventually outlive the people who started them.",
+      "orientation": "Leaders shape routines, incentives, and examples that persist. Over time, the system may reflect a leader's habits more than their intentions\u2014and the leader may no longer see what they built.",
+      "whatThisIsNot": [
+        "Not a claim that all systems are bad.",
+        "Not the same as bureaucracy in general.",
+        "Not reducible to one bad decision."
+      ],
+      "status": "published",
+      "featured": false,
+      "families": ["Leadership and authority"],
+      "primaryBookId": "book-when-others-look-to-you-v1",
+      "relatedQuestionIds": [
+        "someone-begins-looking-to-you",
+        "temporary-exceptions-become-permanent"
+      ],
+      "searchHints": ["leadership reproduces", "systems leadership"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "pattern",
+          "entityId": "pattern-examples-accumulate",
+          "description": "Watch how small examples compound into expectations.",
+          "whyThisFollows": "Systems often begin as repeated examples, not written rules."
+        },
+        {
+          "position": 2,
+          "entityType": "pattern",
+          "entityId": "pattern-leadership-reproduces-itself",
+          "description": "See the named dynamic: leadership patterns that copy forward without explicit design.",
+          "whyThisFollows": "This pattern names what the question asks you to notice."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "bookSlug": "when-others-look-to-you-v1",
+          "description": "Leadership context: renewal, erosion, and how influence becomes structure.",
+          "whyThisFollows": "The book shows how personal leadership becomes organizational habit."
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "entityId": "concept-normalization",
+          "description": "Understand how deviance becomes normal when exceptions go unchallenged.",
+          "whyThisFollows": "Leaders become systems when their exceptions normalize."
+        }
+      ],
+      "closingReflection": "You may start seeing which routines still carry a leader's fingerprint long after the context changed. That noticing is not blame\u2014it is the beginning of redesign.",
+      "carryForwardQuestion": "Which habit in your organization began as one person's workaround?"
+    },
+    {
+      "id": "scoreboard-settles-and-cannot",
+      "slug": "scoreboard-settles-and-cannot",
+      "question": "What can a scoreboard settle\u2014and what can it not?",
+      "summary": "Metrics coordinate action, but they cannot carry the full moral weight of what happened.",
+      "orientation": "Scoreboards make some things visible and other things disappear. When metrics become the moral language of an institution, judgment thins\u2014even while dashboards look precise.",
+      "whatThisIsNot": [
+        "Not an argument against all measurement.",
+        "Not the same as The Economy We Don't Experience (aggregate vs lived narrative).",
+        "Not a claim that numbers never help."
+      ],
+      "status": "published",
+      "featured": false,
+      "families": ["Measurement and lived experience"],
+      "primaryBookId": "book-when-incentives-become-the-moral-language",
+      "relatedQuestionIds": [
+        "institutions-preserve-obsolete-rules",
+        "authority-without-understanding"
+      ],
+      "searchHints": ["metrics incentives", "scoreboard judgment"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-attention",
+          "description": "Begin with attention as the gate between signal and response\u2014and how metrics compete for it.",
+          "whyThisFollows": "Scoreboards work by directing attention; that is also their limit."
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "entityId": "concept-judgment",
+          "description": "Hold judgment alongside measurement\u2014what counts as a good decision cannot be fully captured by a metric.",
+          "whyThisFollows": "The question is about what scoreboards cannot settle; judgment names the remainder."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-when-incentives-become-the-moral-language",
+          "description": "The primary essay edition: eight domains where metrics and incentives replaced judgment.",
+          "whyThisFollows": "This book directly addresses what scoreboards can and cannot carry."
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "entityId": "concept-care",
+          "description": "See what care names that metrics struggle to hold\u2014distress, moral remainder, what happened to people.",
+          "whyThisFollows": "What scoreboards miss often shows up first as unmetered harm or care."
+        }
+      ],
+      "closingReflection": "Scoreboards settle some disputes and hide others. The question is not whether to measure, but what moral language remains when measurement ends.",
+      "carryForwardQuestion": "What important thing moved off the ledger when the metric improved?"
+    },
+    {
+      "id": "sincere-people-still-wrong",
+      "slug": "sincere-people-still-wrong",
+      "question": "Why can sincere people still be wrong?",
+      "summary": "Sincerity and accuracy are not the same\u2014and partial sight can feel complete from the inside.",
+      "orientation": "Sincere people can be wrong without being dishonest. Finite perspective, compression, and premature certainty all produce confident error. The question is how to stay corrigible without cynicism.",
+      "whatThisIsNot": [
+        "Not an argument that sincerity does not matter.",
+        "Not a culture-war framing about who is 'really' sincere.",
+        "Not a claim that everyone is equally right."
+      ],
+      "status": "published",
+      "featured": false,
+      "families": ["Judgment and uncertainty"],
+      "primaryBookId": "book-curiosity-before-certainty",
+      "relatedQuestionIds": ["act-before-certainty-arrives", "meaning-changes-as-it-travels"],
+      "searchHints": ["sincere wrong certainty", "curiosity judgment"],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "entityId": "concept-certainty",
+          "description": "Begin with certainty\u2014not as truth, but as a stance that can close learning too soon.",
+          "whyThisFollows": "Sincere wrongness often arrives dressed as certainty."
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "entityId": "concept-bias",
+          "description": "See partial sight as structural\u2014not only malice, but the limits of any vantage point.",
+          "whyThisFollows": "Sincerity does not erase partial sight."
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "entityId": "book-curiosity-before-certainty",
+          "description": "The primary entry: staying curious when easy certainty would end the inquiry.",
+          "whyThisFollows": "Curiosity is the practical antidote the corpus offers first."
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "entityId": "concept-correction",
+          "description": "Carry forward: correction requires pathways, not just good intentions.",
+          "whyThisFollows": "Being wrong is less dangerous when correction remains possible."
+        }
+      ],
+      "closingReflection": "Sincerity may remain real\u2014and still miss. The question is not how to doubt everything, but how to stay reachable by evidence and disagreement.",
+      "carryForwardQuestion": "What would you need to hear to reconsider a view you hold sincerely?"
+    }
+  ]
+}

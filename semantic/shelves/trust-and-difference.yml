@@ -1,0 +1,14 @@
+id: trust-and-difference
+slug: trust-and-difference
+title: Trust and Difference
+description: How trust forms, drifts, and remains possible across disagreement and partial perspective.
+displayOrder: 3
+featured: true
+status: active
+selection:
+  mode: curated
+  bookSlugs:
+  - trust-beyond-similarity
+  - how-trust-forms
+  - when-trust-stops-tracking-reality
+  - why-diversity-matters

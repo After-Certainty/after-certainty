@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/trail-entry.schema.json",
+  "title": "Semantic trail entry YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "summary",
+    "orientation",
+    "status",
+    "themes",
+    "pathStops",
+    "closingReflection"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "common.json#/$defs/slug"
+    },
+    "slug": {
+      "$ref": "common.json#/$defs/slug"
+    },
+    "title": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "summary": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "orientation": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "published",
+        "upcoming",
+        "archived"
+      ]
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "featuredRank": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "themes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "common.json#/$defs/nonEmptyString"
+      }
+    },
+    "audience": {
+      "type": "string"
+    },
+    "depth": {
+      "type": "string",
+      "enum": [
+        "introductory",
+        "intermediate",
+        "deep"
+      ]
+    },
+    "primaryBookId": {
+      "type": "string",
+      "pattern": "^book-[a-zA-Z0-9._-]+$"
+    },
+    "relatedTrailIds": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/slug"
+      }
+    },
+    "pathStops": {
+      "$ref": "#/$defs/pathStops"
+    },
+    "closingReflection": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "suggestedContinuation": {
+      "type": "string"
+    },
+    "estimatedCommitment": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "pathStops": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/pathStop"
+      }
+    },
+    "pathStop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "position",
+        "entityType",
+        "description"
+      ],
+      "properties": {
+        "position": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "entityType": {
+          "type": "string",
+          "enum": [
+            "book",
+            "concept",
+            "pattern",
+            "situation",
+            "thinker",
+            "source",
+            "podcast_episode",
+            "external"
+          ]
+        },
+        "entityId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "bookSlug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "externalUrl": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "$ref": "common.json#/$defs/nonEmptyString"
+        },
+        "whyThisFollows": {
+          "type": "string"
+        },
+        "estimatedMinutes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "optional": {
+          "type": "boolean"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "fictionDoorway": {
+          "type": "boolean"
+        },
+        "titleOverride": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

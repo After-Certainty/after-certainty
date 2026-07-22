@@ -1,35 +1,55 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: how-meaning-moves
-  title: "How Meaning Moves"
-  subtitle: "Signal, Compression, Restraint, and the Pace of Understanding"
-  description: "Before people disagree, they interpret. How meaning forms through signal, compression, and restraint—long before anyone is obviously wrong, and often while the sentence is still forming."
+  title: How Meaning Moves
+  subtitle: Signal, Compression, Restraint, and the Pace of Understanding
+  description: Before people disagree, they interpret. How meaning forms through signal, compression,
+    and restraint—long before anyone is obviously wrong, and often while the sentence is still forming.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   title_page_cover_unnumbered: true
   open_graph_image: open-graph.png
-
+  overview:
+    centralQuestion: How does meaning form, harden, and stay revisable before anyone is obviously wrong?
+    whyItExists: How Meaning Moves traces Signal, Compression, and Restraint — and Connection as the through-line
+      — so readers can see interpretation at work while sentences still feel open.
+    audience: Readers interested in communication, interpretation, and the pace of understanding across
+      people and institutions.
+    nonGoals:
+    - It does not reduce disagreement to messaging technique.
+    - It does not claim perfect shared meaning is achievable.
+    selectedConcepts:
+    - connection
+    - contact
+    - interpretation
+    - contestability
+    - correction
+    selectedPatterns:
+    - meaning-drifts-over-time
+    - contact-keeps-the-read-open
+    - intent-gets-assigned
+    readBefore:
+    - curiosity-before-certainty
+    readNext:
+    - what-we-cannot-see
+    - trust-beyond-similarity
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     default_width: 1600
     auto_discover: false
     entries:
-      - svg: docs/diagrams/pattern-groups.svg
-        png: export-assets/diagrams/pattern-groups.png
-        width: 1600
-
+    - svg: docs/diagrams/pattern-groups.svg
+      png: export-assets/diagrams/pattern-groups.png
+      width: 1600
 frontmatter:
   generate:
     enabled: true
@@ -39,11 +59,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: back-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -52,11 +70,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

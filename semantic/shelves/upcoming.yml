@@ -1,0 +1,14 @@
+id: upcoming
+slug: upcoming
+title: Upcoming
+description: Forthcoming and in-progress volumes not yet fully available.
+displayOrder: 8
+featured: false
+status: active
+selection:
+  mode: rule
+  rule:
+    type: status
+    values:
+    - forthcoming
+    - in_progress

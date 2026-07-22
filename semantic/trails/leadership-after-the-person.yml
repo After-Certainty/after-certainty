@@ -1,0 +1,48 @@
+id: leadership-after-the-person
+slug: leadership-after-the-person
+title: Leadership After the Person
+summary: When influence outlasts the person who held it—how leadership coalesces, reproduces, and becomes
+  a system others inherit.
+orientation: Leadership is not only a role someone occupies. It is a pattern others learn, repeat, and
+  eventually treat as environment. This trail names how influence forms and spreads—and what happens when
+  the person is no longer the center of the story.
+status: published
+featured: true
+featuredRank: 2
+themes:
+- Leadership
+depth: intermediate
+primaryBookId: book-when-others-look-to-you-v1
+relatedTrailIds:
+- systems-without-correction
+- meaning-under-pressure
+pathStops:
+- position: 1
+  entityType: pattern
+  entityId: pattern-leadership-coalesces
+  description: Begin by noticing how leadership gathers around a person before anyone names it—through
+    repetition, reward, and what others learn to expect.
+- position: 2
+  entityType: pattern
+  entityId: pattern-leadership-reproduces-itself
+  description: See how what one leader did becomes what the next leader is expected to do—often without
+    anyone deciding to copy it.
+  whyThisFollows: Coalescence is the beginning; reproduction is how influence becomes structure.
+- position: 3
+  entityType: book
+  entityId: book-when-others-look-to-you-v1
+  description: The primary book on renewal and erosion—how steadiness, choices, and what you reward quietly
+    become the environment everyone navigates.
+  whyThisFollows: After naming the patterns, this is the deepest on-site treatment of inherited influence.
+- position: 4
+  entityType: concept
+  entityId: concept-authority
+  description: Distinguish authority from understanding—and notice when legitimacy rests on position rather
+    than comprehension.
+  whyThisFollows: When leadership becomes system, authority often persists after the reasons for it have
+    thinned.
+closingReflection: You may feel less focused on individual charisma and more on what gets repeated, rewarded,
+  and remembered. Leadership after the person is not an absence of leaders—it is a shift in what leadership
+  means.
+suggestedContinuation: Follow Meaning Under Pressure if communication and interpretation are where influence
+  now lives, or Systems That Cannot Correct Themselves if institutional drift is the concern.

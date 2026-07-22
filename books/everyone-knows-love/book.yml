@@ -1,29 +1,37 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: everyone-knows-love
-  title: "Everyone Knows Love"
-  subtitle: "Why Is It So Hard to Explain?"
-  description: "An exploration of love as something everyone recognizes yet struggles to explain—treating care as a living mystery rather than a formula."
+  title: Everyone Knows Love
+  subtitle: Why Is It So Hard to Explain?
+  description: An exploration of love as something everyone recognizes yet struggles to explain—treating
+    care as a living mystery rather than a formula.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  overview:
+    centralQuestion: Why is love something everyone recognizes yet struggles to explain?
+    whyItExists: Everyone Knows Love treats care as a living mystery rather than a formula — a human-scale
+      entry into recognition, obligation, and language that arrives too late.
+    audience: Readers seeking the most intimate doorway into After Certainty’s concerns with meaning,
+      care, and incomplete explanation.
+    nonGoals:
+    - It does not offer a clinical or theological definition of love.
+    - It does not replace the project’s civic and systems volumes.
+    readNext:
+    - how-meaning-moves
+    - after-certainty
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     auto_discover: false
-
 frontmatter:
   generate:
     enabled: true
@@ -36,7 +44,6 @@ frontmatter:
     about_the_series:
       repo_template: templates/about_the_series_everyone_knows_love.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -45,11 +52,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

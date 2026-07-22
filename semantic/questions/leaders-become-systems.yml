@@ -1,0 +1,45 @@
+id: leaders-become-systems
+slug: leaders-become-systems
+question: How do leaders become systems without noticing?
+summary: Leadership patterns reproduce themselves—and eventually outlive the people who started them.
+orientation: Leaders shape routines, incentives, and examples that persist. Over time, the system may
+  reflect a leader's habits more than their intentions—and the leader may no longer see what they built.
+whatThisIsNot:
+- Not a claim that all systems are bad.
+- Not the same as bureaucracy in general.
+- Not reducible to one bad decision.
+status: published
+featured: false
+families:
+- Leadership and authority
+primaryBookId: book-when-others-look-to-you-v1
+relatedQuestionIds:
+- someone-begins-looking-to-you
+- temporary-exceptions-become-permanent
+searchHints:
+- leadership reproduces
+- systems leadership
+pathStops:
+- position: 1
+  entityType: pattern
+  entityId: pattern-examples-accumulate
+  description: Watch how small examples compound into expectations.
+  whyThisFollows: Systems often begin as repeated examples, not written rules.
+- position: 2
+  entityType: pattern
+  entityId: pattern-leadership-reproduces-itself
+  description: 'See the named dynamic: leadership patterns that copy forward without explicit design.'
+  whyThisFollows: This pattern names what the question asks you to notice.
+- position: 3
+  entityType: book
+  bookSlug: when-others-look-to-you-v1
+  description: 'Leadership context: renewal, erosion, and how influence becomes structure.'
+  whyThisFollows: The book shows how personal leadership becomes organizational habit.
+- position: 4
+  entityType: concept
+  entityId: concept-normalization
+  description: Understand how deviance becomes normal when exceptions go unchallenged.
+  whyThisFollows: Leaders become systems when their exceptions normalize.
+closingReflection: You may start seeing which routines still carry a leader's fingerprint long after the
+  context changed. That noticing is not blame—it is the beginning of redesign.
+carryForwardQuestion: Which habit in your organization began as one person's workaround?

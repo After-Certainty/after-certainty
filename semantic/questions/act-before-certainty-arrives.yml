@@ -1,0 +1,53 @@
+id: act-before-certainty-arrives
+slug: act-before-certainty-arrives
+question: How can we act responsibly before certainty arrives?
+summary: Judgment under uncertainty requires discipline—not waiting until explanation finishes.
+orientation: Many of the hardest decisions arrive before the picture is complete. Acting responsibly does
+  not mean pretending to know; it means learning in motion, staying corrigible, and refusing false certainty.
+whatThisIsNot:
+- Not a license for reckless action.
+- Not the same as abandoning evidence.
+- Not a single technique—responsibility under uncertainty is a practice.
+status: published
+featured: true
+featuredRank: 4
+families:
+- Judgment and uncertainty
+primaryBookId: book-after-certainty
+relatedQuestionIds:
+- sincere-people-still-wrong
+- collaboration-remains-difficult
+searchHints:
+- uncertainty judgment
+- before certainty
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-uncertainty
+  description: Begin with uncertainty as condition—not failure, but the state in which many consequential
+    judgments actually happen.
+  whyThisFollows: The question assumes certainty has not arrived; this names the terrain.
+- position: 2
+  entityType: concept
+  entityId: concept-judgment
+  description: See judgment as ongoing work—not a one-time verdict but a practice that must remain corrigible.
+  whyThisFollows: Responsible action under uncertainty is still judgment.
+- position: 3
+  entityType: book
+  entityId: book-curiosity-before-certainty
+  description: 'A friendly entry: how curiosity keeps learning open when easy certainty would close it.'
+  whyThisFollows: Curiosity is often the first discipline before harder choices.
+- position: 4
+  entityType: book
+  entityId: book-after-certainty
+  description: 'The capstone: living, judging, and remaining responsible once certainty is no longer enough.'
+  whyThisFollows: This is the primary depth for the question.
+- position: 5
+  entityType: book
+  entityId: book-how-serious-systems-learn
+  description: 'Practice for teams and institutions: learning in motion without waiting for perfect information.'
+  whyThisFollows: Collective action needs disciplines, not only individual virtue.
+closingReflection: 'Responsible action before certainty may feel less like guessing and more like staying
+  in contact with correction. The question stays open: what would you need to notice to know you were
+  wrong?'
+carryForwardQuestion: What would change your mind if you saw it?

@@ -1,0 +1,11 @@
+id: event-book-how-meaning-moves-published
+type: book_published
+title: How Meaning Moves is published
+summary: A book on Signal, Compression, and Restraint — how meaning travels, hardens, and stays revisable.
+date: '2026-04-01'
+entityType: book
+entityId: book-how-meaning-moves
+featured: false
+significance: major
+visibility: public
+source: authored

@@ -1,31 +1,28 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: velorum
-  title: "Velorum"
-  subtitle: "A Tragic Mythic Fantasy Novel"
-  description: "A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political fate collide at tragic scale."
+  title: Velorum
+  subtitle: A Tragic Mythic Fantasy Novel
+  description: A mythic fantasy about loyalty, sacrifice, and power, where personal vows and political
+    fate collide at tragic scale.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
   title_page_footer: |
     Author-facing planning and voice rules live under [`docs/`](./docs/); this page is for **exports** only.
-
+  content_type: fiction
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     auto_discover: false
-
 frontmatter:
   generate:
     enabled: true
@@ -35,11 +32,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -48,11 +43,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

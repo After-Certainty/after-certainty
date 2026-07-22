@@ -133,6 +133,52 @@
           },
           "description": "Other book ids that are companions to this work (e.g. related edition)."
         },
+        "work_id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[a-z0-9][a-z0-9._-]*$",
+          "description": "Stable work slug shared across editions (without work- prefix)."
+        },
+        "edition_relationship": {
+          "type": "string",
+          "enum": [
+            "sole",
+            "primary",
+            "companion",
+            "superseded"
+          ],
+          "description": "Edition relationship within a work. Defaults to sole when omitted."
+        },
+        "is_canonical": {
+          "type": "boolean",
+          "description": "Whether this edition is the canonical public edition for its work."
+        },
+        "edition_label": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Public label such as Primary volume or Companion edition."
+        },
+        "content_type": {
+          "type": "string",
+          "enum": [
+            "nonfiction",
+            "fiction",
+            "handbook",
+            "essay_collection"
+          ],
+          "description": "Public catalog content type (orthogonal to kind prose|poetry)."
+        },
+        "search_aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "description": "Book-local discovery aliases (earlier titles, short names)."
+        },
+        "overview": {
+          "$ref": "#/$defs/bookOverview"
+        },
         "isbns": {
           "type": "array",
           "items": {
@@ -257,6 +303,81 @@
     }
   },
   "$defs": {
+    "bookOverview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "centralQuestion",
+        "whyItExists",
+        "audience",
+        "nonGoals"
+      ],
+      "properties": {
+        "centralQuestion": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 280
+        },
+        "whyItExists": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 900
+        },
+        "audience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "nonGoals": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 6,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "selectedConcepts": {
+          "type": "array",
+          "maxItems": 7,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]*$"
+          }
+        },
+        "selectedPatterns": {
+          "type": "array",
+          "maxItems": 7,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9._-]*$"
+          }
+        },
+        "readBefore": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "readNext": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "revisedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "changeSummary": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
     "purchaseLink": {
       "type": "object",
       "additionalProperties": false,

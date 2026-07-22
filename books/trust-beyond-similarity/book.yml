@@ -1,25 +1,42 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: trust-beyond-similarity
-  title: "Trust Beyond Similarity"
-  subtitle: "How Trust Remains Possible Across Difference"
-  description: "How people learn to trust perspectives they do not share—and why trust becomes more valuable when perspectives differ."
+  title: Trust Beyond Similarity
+  subtitle: How Trust Remains Possible Across Difference
+  description: How people learn to trust perspectives they do not share—and why trust becomes more valuable
+    when perspectives differ.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  overview:
+    centralQuestion: How can trust remain possible across difference and disagreement?
+    whyItExists: Trust Beyond Similarity explores why trust becomes more valuable — not less — when perspectives
+      diverge, and what makes cooperation across partial views durable.
+    audience: Readers concerned with civic life, teams across disagreement, and relationships where sameness
+      cannot be the price of trust.
+    nonGoals:
+    - It does not claim all disagreement is healthy or all difference should be preserved.
+    - It does not reduce trust to a single metric or reputation score.
+    selectedConcepts:
+    - contestability
+    - accountability
+    - coordination
+    - correction
+    - feedback
+    readBefore:
+    - curiosity-before-certainty
+    readNext:
+    - what-we-cannot-see
+    - how-trust-forms
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -29,11 +46,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -42,11 +57,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

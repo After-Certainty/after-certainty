@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/change-event-entry.schema.json",
+  "title": "Public content change event YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "title",
+    "summary",
+    "date",
+    "entityType",
+    "visibility",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^event-[a-z0-9][a-z0-9._-]*$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "book_published",
+        "book_revised",
+        "book_announced",
+        "question_published",
+        "trail_published",
+        "pattern_published"
+      ]
+    },
+    "title": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "summary": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "whyItMatters": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "entityType": {
+      "type": "string",
+      "enum": [
+        "book",
+        "question",
+        "trail",
+        "pattern",
+        "concept",
+        "work",
+        "edition"
+      ]
+    },
+    "entityId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "significance": {
+      "type": "string",
+      "enum": [
+        "major",
+        "standard"
+      ]
+    },
+    "visibility": {
+      "type": "string",
+      "enum": [
+        "public",
+        "hidden"
+      ]
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "authored"
+      ]
+    },
+    "relatedEditionId": {
+      "type": "string",
+      "pattern": "^book-[a-zA-Z0-9._-]+$"
+    },
+    "canonicalRoute": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

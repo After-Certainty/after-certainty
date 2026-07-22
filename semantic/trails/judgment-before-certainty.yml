@@ -1,0 +1,67 @@
+id: judgment-before-certainty
+slug: judgment-before-certainty
+title: Judgment Before Certainty
+summary: How to keep thinking, revising, and acting when the full picture has not arrived—and why false
+  certainty is often the greater risk.
+orientation: Many consequential decisions arrive before explanation finishes. This trail moves from the
+  practice of judgment through books that treat uncertainty as terrain rather than failure, ending with
+  what keeps judgment corrigible when pressure mounts.
+status: published
+featured: true
+featuredRank: 1
+themes:
+- Judgment
+depth: intermediate
+primaryBookId: book-before-certainty-arrives
+relatedTrailIds:
+- systems-without-correction
+- software-judgment-trail
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-judgment
+  description: Start with judgment as ongoing work—not a one-time verdict, but a practice that must remain
+    open to correction.
+- position: 2
+  entityType: book
+  entityId: book-before-certainty-arrives
+  description: See how responsible action begins before the picture is complete—when waiting for certainty
+    would itself be a choice.
+  whyThisFollows: After naming judgment, this book shows what it looks like to act while still learning.
+- position: 3
+  entityType: book
+  entityId: book-curiosity-before-certainty
+  description: A lighter entry on curiosity as discipline—the habit that keeps inquiry alive when easy
+    answers would close it.
+  whyThisFollows: Curiosity often precedes the harder judgments; it keeps the path from collapsing into
+    premature closure.
+- position: 4
+  entityType: concept
+  entityId: concept-certainty
+  description: Examine what certainty promises—and what it costs when it arrives too early or stays too
+    rigid.
+  whyThisFollows: Judgment under uncertainty requires knowing what certainty would substitute for, and
+    why that substitution is dangerous.
+- position: 5
+  entityType: pattern
+  entityId: pattern-revisability-preserves-judgment
+  description: Notice how institutions and relationships stay corrigible when claims can still be revised
+    without collapsing trust.
+  whyThisFollows: Judgment that cannot be revised becomes performance; this pattern names what keeps revision
+    possible.
+- position: 6
+  entityType: book
+  entityId: book-the-relay
+  description: 'A fiction doorway: a courier notices silence where explanations should be—and participation
+    replaces false certainty.'
+  whyThisFollows: Story can hold the tension between acting and not knowing in ways argument alone sometimes
+    cannot.
+  optional: true
+  fictionDoorway: true
+  estimatedMinutes: 45
+closingReflection: You may notice judgment resting less on having the answer and more on staying in contact
+  with what would change your mind. The trail does not settle the underlying question—it offers a sequence
+  for moving through it with more discipline.
+suggestedContinuation: If systems and institutions are where your judgment must land, follow the Systems
+  That Cannot Correct Themselves trail next. If you work in software, the practitioner trail offers a
+  parallel path through coupling and feedback.

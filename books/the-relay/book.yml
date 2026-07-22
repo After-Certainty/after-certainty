@@ -1,31 +1,41 @@
 version: 1
-
 publishing:
   enabled: false
-
 book:
   id: the-relay
-  title: "The Relay"
-  subtitle: "A Social Science Fiction Novel"
-  description: "A courier notices silence where explanations should be — and a civilization-sized blind spot emerges one perspective at a time. The answer to uncertainty is participation, not certainty."
+  title: The Relay
+  subtitle: A Social Science Fiction Novel
+  description: A courier notices silence where explanations should be — and a civilization-sized blind
+    spot emerges one perspective at a time. The answer to uncertainty is participation, not certainty.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
   title_page_footer: |
     Author-facing planning and voice rules live under [`docs/`](./docs/); this page is for **exports** only.
-
+  content_type: fiction
+  overview:
+    centralQuestion: What happens when a civilization-sized blind spot can only be seen one perspective
+      at a time?
+    whyItExists: 'The Relay is a fiction doorway into the same terrain: uncertainty, participation, and
+      coordination when no courier holds the complete map.'
+    audience: Readers who prefer story as an entry into the project’s questions about meaning, responsibility,
+      and shared work.
+    nonGoals:
+    - It is not a treatise or handbook disguised as a novel.
+    - It does not settle the project’s nonfiction arguments by plot alone.
+    readNext:
+    - how-meaning-moves
+    - curiosity-before-certainty
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     auto_discover: false
-
 frontmatter:
   generate:
     enabled: true
@@ -35,7 +45,6 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
 build:
   formats:
     docx:
@@ -44,11 +53,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

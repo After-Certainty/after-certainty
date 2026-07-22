@@ -1,0 +1,16 @@
+id: core-after-certainty
+slug: core-after-certainty
+title: Core After Certainty
+description: Central volumes that anchor the project’s thesis and recurring tensions.
+displayOrder: 2
+featured: true
+status: active
+selection:
+  mode: curated
+  bookSlugs:
+  - after-certainty
+  - curiosity-before-certainty
+  - trust-beyond-similarity
+  - what-we-cannot-see
+  - coupling
+  - how-serious-systems-learn

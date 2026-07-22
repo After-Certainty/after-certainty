@@ -1,34 +1,55 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: after-certainty
-  title: "After Certainty"
-  subtitle: "How to Live and Judge When Understanding is not Enough"
-  description: "How to live and judge once explanation reaches its limits—judgment, responsibility, and participation without replacement frameworks."
+  title: After Certainty
+  subtitle: How to Live and Judge When Understanding is not Enough
+  description: How to live and judge once explanation reaches its limits—judgment, responsibility, and
+    participation without replacement frameworks.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  overview:
+    centralQuestion: How do we live and judge when understanding is not enough?
+    whyItExists: 'After Certainty is the project’s namesake orientation: judgment, responsibility, and
+      participation once explanation reaches its limits and replacement frameworks will not save us.'
+    audience: Readers ready for the capstone thesis — including those arriving from curiosity, perspective,
+      trust, or systems doorways.
+    nonGoals:
+    - It does not install a new totalizing certainty in place of the old one.
+    - It does not claim that abandoning certainty means abandoning standards.
+    selectedConcepts:
+    - agency
+    - accountability
+    - authority
+    - abstraction
+    - coherence-maintenance
+    selectedPatterns:
+    - explanation-replaces-response
+    - blame-compresses-complexity
+    - attention-restores-contact
+    readBefore:
+    - curiosity-before-certainty
+    - what-we-cannot-see
+    readNext:
+    - coupling
+    - when-others-look-to-you-v1
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     default_width: 1600
     auto_discover: false
     entries:
-      - svg: docs/diagrams/pattern-map.svg
-        png: export-assets/diagrams/pattern-map.png
-        width: 1600
-
+    - svg: docs/diagrams/pattern-map.svg
+      png: export-assets/diagrams/pattern-map.png
+      width: 1600
 frontmatter:
   generate:
     enabled: true
@@ -38,11 +59,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -51,11 +70,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

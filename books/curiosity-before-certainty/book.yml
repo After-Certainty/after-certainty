@@ -1,28 +1,37 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: curiosity-before-certainty
-  title: "Curiosity Before Certainty"
-  subtitle: "How Curiosity Helps Us Understand a Complex World"
-  description: "An argument for disciplined curiosity as a leadership and learning posture when easy certainty hides complexity and weakens judgment."
+  title: Curiosity Before Certainty
+  subtitle: How Curiosity Helps Us Understand a Complex World
+  description: An argument for disciplined curiosity as a leadership and learning posture when easy certainty
+    hides complexity and weakens judgment.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   open_graph_image: open-graph.png
   copyright_year: 2026
-
+  overview:
+    centralQuestion: How do we stay curious when easy certainty would feel safer?
+    whyItExists: Curiosity Before Certainty is a friendly doorway into the project. It argues for disciplined
+      curiosity as a learning and leadership posture when premature certainty hides complexity and weakens
+      judgment.
+    audience: Readers who want an approachable entry before denser systems or leadership volumes — including
+      newcomers to After Certainty.
+    nonGoals:
+    - It does not offer a complete epistemology or a replacement ideology.
+    - It does not treat curiosity as endless delay of decision.
+    readNext:
+    - what-we-cannot-see
+    - after-certainty
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     auto_discover: false
-
 frontmatter:
   generate:
     enabled: true
@@ -32,11 +41,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -45,11 +52,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

@@ -1,0 +1,11 @@
+id: complete-catalog
+slug: complete-catalog
+title: Complete catalog
+description: Every published volume in the library.
+displayOrder: 99
+featured: false
+status: hidden
+selection:
+  mode: rule
+  rule:
+    type: allPublic

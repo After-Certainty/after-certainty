@@ -1,0 +1,15 @@
+id: leadership-and-authority
+slug: leadership-and-authority
+title: Leadership and Authority
+description: When others look to you — and when authority, accountability, and moral seriousness scale.
+displayOrder: 4
+featured: false
+status: active
+selection:
+  mode: curated
+  bookSlugs:
+  - when-others-look-to-you-v1
+  - when-authority-is-misread
+  - when-authority-outlives-accountability
+  - when-moral-seriousness-scales
+  - when-others-become-leaders

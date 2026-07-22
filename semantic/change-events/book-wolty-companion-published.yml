@@ -1,0 +1,13 @@
+id: event-book-wolty-companion-published
+type: book_published
+title: When Others Look to You companion edition is available
+summary: A companion volume alongside the primary edition — parallel, not a replacement — focused on forming,
+  renewing, eroding, and repeating.
+date: '2026-06-01'
+entityType: book
+entityId: book-when-others-look-to-you-v2
+featured: false
+significance: standard
+visibility: public
+source: authored
+relatedEditionId: book-when-others-look-to-you-v1

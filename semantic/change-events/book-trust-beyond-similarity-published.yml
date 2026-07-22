@@ -1,0 +1,11 @@
+id: event-book-trust-beyond-similarity-published
+type: book_published
+title: Trust Beyond Similarity is published
+summary: An inquiry into how trust can survive disagreement and difference without collapsing into sameness.
+date: '2026-05-20'
+entityType: book
+entityId: book-trust-beyond-similarity
+featured: false
+significance: major
+visibility: public
+source: authored

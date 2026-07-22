@@ -1,0 +1,12 @@
+id: event-book-wolty-v1-published
+type: book_published
+title: When Others Look to You is published
+summary: The primary volume on renewal and erosion in leadership — available as an open download and in
+  print.
+date: '2026-03-01'
+entityType: book
+entityId: book-when-others-look-to-you-v1
+featured: true
+significance: major
+visibility: public
+source: authored
