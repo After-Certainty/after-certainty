@@ -42,12 +42,29 @@ def test_fiction_and_poetry_profiles() -> None:
     assert by_slug["before-certainty-arrives"]["profile"] == "nonfiction"
 
 
-def test_make_report_semantic_completeness() -> None:
-    r = _run(["make", "report-semantic-completeness"])
+def test_cli_writes_report_without_touching_tracked_outputs(tmp_path: Path) -> None:
+    """Write to a temp dir so CI clean-tree checks are not dirtied by generatedAt."""
+    md = tmp_path / "semantic-completeness.md"
+    js = tmp_path / "semantic-completeness.json"
+    r = _run(
+        [
+            sys.executable,
+            "tools/report_semantic_completeness.py",
+            "--repo",
+            str(REPO),
+            "--md-out",
+            str(md),
+            "--json-out",
+            str(js),
+        ]
+    )
     assert r.returncode == 0, r.stderr or r.stdout
-    md = REPO / "reports" / "semantic-completeness.md"
-    js = REPO / "reports" / "semantic-completeness.json"
     assert md.is_file()
     assert js.is_file()
     data = json.loads(js.read_text(encoding="utf-8"))
     assert data["bookCount"] >= 30
+    # Tracked reports under reports/ must remain unchanged by this test.
+    assert _run(["git", "diff", "--quiet", "--", "reports/semantic-completeness.md"]).returncode == 0
+    assert (
+        _run(["git", "diff", "--quiet", "--", "reports/semantic-completeness.json"]).returncode == 0
+    )

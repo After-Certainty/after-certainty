@@ -633,8 +633,15 @@ def main() -> int:
     json_out.parent.mkdir(parents=True, exist_ok=True)
     md_out.write_text(md, encoding="utf-8")
     json_out.write_text(json.dumps(report, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    print(md_out.relative_to(repo).as_posix())
-    print(json_out.relative_to(repo).as_posix())
+
+    def _display(path: Path) -> str:
+        try:
+            return path.relative_to(repo).as_posix()
+        except ValueError:
+            return str(path)
+
+    print(_display(md_out))
+    print(_display(json_out))
 
     if args.print_warnings:
         for w in completeness_warnings(report):
