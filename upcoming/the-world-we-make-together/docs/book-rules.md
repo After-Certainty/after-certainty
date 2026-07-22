@@ -18,6 +18,7 @@ This is not a marketing brief. It preserves conceptual cohesion, stylistic consi
 - One markdown file per chapter (and per bridge where present).
 - Filenames must match the chapter slug in `index.md` once units are created.
 - `index.md` is the hub; drafted units must be linked from it.
+- Planning docs (`docs/outline.md`, `docs/research-notes.md`, `docs/book-rules.md`, `docs/status.md`) stay under `docs/` and must **not** be linked from `index.md` (export rejects `docs/` paths in the publication manifest).
 - Back matter files (bibliography, conclusion) live under `back-matter/` when created.
 - Full architecture and chapter constraints live in `docs/outline.md` (canonical writing plan).
 
