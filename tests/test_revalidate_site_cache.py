@@ -109,3 +109,39 @@ def test_redirect_attempt_fails_closed(revalidate_script: Path, tmp_path: Path) 
     )
     assert proc.returncode == 0, proc.stderr + proc.stdout
     assert "TESTONLY_NOT_A_SECRET" not in proc.stdout + proc.stderr
+
+
+def test_posts_site_allowlisted_targets_only(revalidate_script: Path, tmp_path: Path) -> None:
+    """Site rejects unknown targets (e.g. books); body must be podcast+semantic."""
+    body_file = tmp_path / "body.json"
+    mock = tmp_path / "curl"
+    mock.write_text(
+        "#!/usr/bin/env bash\n"
+        "body=''\n"
+        "while [[ $# -gt 0 ]]; do\n"
+        '  case "$1" in\n'
+        "    -d) body=$2; shift 2 ;;\n"
+        "    --max-redirs) shift 2 ;;\n"
+        '    *) shift ;;\n'
+        "  esac\n"
+        "done\n"
+        f"printf '%s' \"$body\" > '{body_file}'\n"
+        'echo -n \'{"ok":true,"revalidated":["podcast","semantic"]}\' '
+        "> /tmp/site-revalidate.json\n"
+        "printf 200\n",
+        encoding="utf-8",
+    )
+    mock.chmod(0o755)
+    env = os.environ.copy()
+    env["CACHE_REVALIDATE_SECRET"] = "TESTONLY_NOT_A_SECRET_00000000"
+    env["REVALIDATE_CURL_BIN"] = str(mock)
+    proc = subprocess.run(
+        ["bash", str(revalidate_script)],
+        capture_output=True,
+        text=True,
+        env=env,
+    )
+    assert proc.returncode == 0, proc.stderr + proc.stdout
+    payload = body_file.read_text(encoding="utf-8")
+    assert payload == '{"targets":["podcast","semantic"]}'
+    assert "books" not in payload
