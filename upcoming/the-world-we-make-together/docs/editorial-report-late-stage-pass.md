@@ -6,7 +6,7 @@ Manuscript: *The World We Make Together*
 
 | Unit | Before | After | Δ |
 |------|-------:|------:|--:|
-| Introduction — The Switch | 2,796 | ~2,290 | −~500 |
+| Introduction — The Switch | 2,796 | ~2,286 | −~510 |
 | Ch 1 — The Photograph | 3,361 | 3,361 | 0 |
 | Ch 2 — The Door | 3,627 | 3,627 | 0 |
 | Ch 3 — The Clock | 3,109 | 3,112 | +3 |
