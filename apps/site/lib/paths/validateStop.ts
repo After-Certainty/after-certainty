@@ -1,5 +1,6 @@
 import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import { bookPublicationStatus, findBookBySlug } from "@/lib/books/book-metadata";
+import { resolveWorkEdition } from "@/lib/books/resolve-work-edition";
 import { buildGraphIndex, type GraphIndex } from "@/lib/graph/graph";
 import type { PodcastEpisode } from "@/types/content";
 import type { PathStopInput } from "@/types/paths";
@@ -98,13 +99,28 @@ function warnNonCanonicalEdition(
   issues: PathHealthIssue[],
   ownerId: string,
 ): void {
-  const canonical = resolveBookCanonicalSlug(slug, books);
-  if (canonical && canonical !== slug) {
+  const book = findBookBySlug(slug, books);
+  if (book) {
+    const resolved = resolveWorkEdition(book, books);
+    // Companions are intentional destinations; only superseded editions should prefer current.
+    if (resolved.relationship === "superseded" && resolved.canonicalSlug !== slug) {
+      issues.push({
+        severity: "warning",
+        code: "non_canonical_edition",
+        ownerId,
+        detail: `Book slug "${slug}" is superseded; prefer current edition "${resolved.canonicalSlug}"`,
+      });
+      return;
+    }
+  }
+
+  const aliasCanonical = resolveBookCanonicalSlug(slug, books);
+  if (aliasCanonical && aliasCanonical !== slug) {
     issues.push({
       severity: "warning",
       code: "non_canonical_edition",
       ownerId,
-      detail: `Book slug "${slug}" is not canonical; prefer "${canonical}"`,
+      detail: `Book slug "${slug}" is not canonical; prefer "${aliasCanonical}"`,
     });
   }
 }

@@ -99,10 +99,10 @@ export function explainSearchMatch(
     }
   }
 
-  if (document.status === "forthcoming") {
-    labels.push("Forthcoming");
+  if (document.status === "forthcoming" || document.status === "collaborative") {
+    labels.push("Upcoming");
   } else if (document.status === "draft" || document.status === "in_progress") {
-    labels.push("In progress");
+    labels.push("Upcoming");
   }
 
   if (document.external) {

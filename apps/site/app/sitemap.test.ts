@@ -36,6 +36,7 @@ describe("sitemap", () => {
       "/explore/sources",
       "/search",
       "/podcast",
+      "/whats-new",
       "/collaborators",
       "/about",
     ] as const) {
@@ -59,6 +60,14 @@ describe("sitemap", () => {
     expect(urls).toContain("https://example.com/explore/concepts/certainty");
     expect(urls.some((u) => u.includes("/explore/sources/"))).toBe(true);
     expect(urls.some((u) => u.includes("/explore/thinkers/"))).toBe(true);
+  });
+
+  it("includes companion editions and omits draft books from book paths", async () => {
+    const paths = await getSitemapPaths();
+    expect(paths).toContain("/explore/books/when-others-look-to-you-v2");
+    expect(paths).toContain("/explore/books/when-others-look-to-you-v1");
+    // Bundled corpus has no drafts today; the filter is bookIsPublic (status !== draft).
+    expect(paths.every((p) => !p.includes("draft"))).toBe(true);
   });
 
   it("includes published trail detail URLs but not upcoming trails", async () => {

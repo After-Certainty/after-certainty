@@ -12,6 +12,12 @@ test.describe("thinkers and book influences", () => {
   test("after-certainty book page splits thinkers from research sources", async ({ page }) => {
     await page.goto("/explore/books/after-certainty", { waitUntil: "domcontentloaded" });
 
+    // Phase G hides the full inventory behind progressive disclosure on overlay books.
+    await expect(
+      page.getByRole("heading", { name: "The question this book explores" }),
+    ).toBeVisible();
+    await page.locator("#full-inventory summary").click();
+
     await expect(page.getByRole("heading", { name: "Major thinkers" })).toBeVisible();
     await expect(page.getByRole("heading", { name: "Research sources" })).toBeVisible();
 

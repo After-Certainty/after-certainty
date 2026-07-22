@@ -12,10 +12,15 @@ const graph = semanticManifest as SemanticGraph;
 const viewModel = buildCatalogViewModel(graph);
 
 describe("buildCatalogViewModel", () => {
-  it("hides superseded WoLTY v2 from default catalog", () => {
+  it("hides non-canonical WoLTY companion v2 from default catalog", () => {
     const slugs = viewModel.filter((b) => b.isPublic && b.isCanonicalEdition).map((b) => b.slug);
     expect(slugs).toContain(WOLTY_V1_SLUG);
     expect(slugs).not.toContain("when-others-look-to-you-v2");
+
+    const v2 = viewModel.find((b) => b.slug === "when-others-look-to-you-v2");
+    expect(v2?.editionRelationship).toBe("companion");
+    expect(v2?.editionLabel).toBe("Companion edition");
+    expect(v2?.isCanonicalEdition).toBe(false);
   });
 
   it("assigns fiction content type editorially", () => {

@@ -1,9 +1,11 @@
+import type { PrimaryActionPreference } from "@/lib/books/book-overview-schema";
+import type { EditionRelationship } from "@/lib/books/publication-registry-schema";
 import type { Book, BookPurchaseLink, BookPurchaseRetailer } from "@/types/semanticGraph";
 
 export type SemanticBookActionLinkItem = {
   label: string;
   href: string;
-  kind: "purchase" | "download";
+  kind: "purchase" | "download" | "navigate";
 };
 
 const PURCHASE_LABEL_BY_RETAILER: Record<BookPurchaseRetailer, string> = {
@@ -38,4 +40,69 @@ export function getSemanticBookActionLinkItems(book: Book): SemanticBookActionLi
   }
 
   return items;
+}
+
+function preferenceMatchesItem(
+  preference: PrimaryActionPreference,
+  item: SemanticBookActionLinkItem,
+): boolean {
+  if (preference === "purchase") return item.kind === "purchase";
+  if (preference === "download_pdf") {
+    return item.kind === "download" && /pdf/i.test(item.label);
+  }
+  if (preference === "download_epub") {
+    return item.kind === "download" && /epub/i.test(item.label);
+  }
+  if (preference === "download_docx") {
+    return item.kind === "download" && /docx|word/i.test(item.label);
+  }
+  return false;
+}
+
+export type OrderedBookActions = {
+  primary?: SemanticBookActionLinkItem;
+  secondary: SemanticBookActionLinkItem[];
+};
+
+/**
+ * Pick a clear primary CTA for redesigned overviews.
+ * Superseded editions prefer navigating to the current volume over downloading the older file.
+ */
+export function getOrderedBookActions(input: {
+  book: Book;
+  relationship: EditionRelationship;
+  preference?: PrimaryActionPreference;
+  currentEditionHref?: string;
+  currentEditionTitle?: string;
+}): OrderedBookActions {
+  const { book, relationship, preference, currentEditionHref, currentEditionTitle } = input;
+
+  if (relationship === "superseded" && currentEditionHref) {
+    const navigate: SemanticBookActionLinkItem = {
+      label: currentEditionTitle
+        ? `Continue to ${currentEditionTitle}`
+        : "Continue to current edition",
+      href: currentEditionHref,
+      kind: "navigate",
+    };
+    return {
+      primary: navigate,
+      secondary: getSemanticBookActionLinkItems(book),
+    };
+  }
+
+  const items = getSemanticBookActionLinkItems(book);
+  if (items.length === 0) {
+    return { secondary: [] };
+  }
+
+  let primaryIndex = 0;
+  if (preference) {
+    const preferred = items.findIndex((item) => preferenceMatchesItem(preference, item));
+    if (preferred >= 0) primaryIndex = preferred;
+  }
+
+  const primary = items[primaryIndex]!;
+  const secondary = items.filter((_, index) => index !== primaryIndex);
+  return { primary, secondary };
 }

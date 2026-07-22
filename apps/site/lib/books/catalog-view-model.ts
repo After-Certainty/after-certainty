@@ -3,16 +3,16 @@ import {
   bookDescription,
   bookIsPublic,
   bookPublicationStatus,
-  editionDisplayLabel,
   type BookAvailabilityFlag,
 } from "@/lib/books/book-metadata";
-import { isCanonicalEdition } from "@/lib/books/canonical-editions";
 import {
   contentTypeForSlug,
   recommendedRankForSlug,
   type ContentType,
 } from "@/lib/books/catalog-taxonomy";
 import { assignShelfIds } from "@/lib/books/shelves";
+import { buildResolvedEditionIndex } from "@/lib/books/resolve-work-edition";
+import type { EditionRelationship } from "@/lib/books/publication-registry-schema";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import {
   buildCoverImageBySlugLookup,
@@ -31,6 +31,7 @@ export type CatalogBookView = {
   status: BookStatus;
   isPublic: boolean;
   isCanonicalEdition: boolean;
+  editionRelationship: EditionRelationship;
   editionLabel?: string;
   contentType: ContentType;
   themes: string[];
@@ -44,10 +45,11 @@ export type CatalogBookView = {
 export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
   const books = graph.books;
   const coverLookup = buildCoverImageBySlugLookup(books);
+  const editions = buildResolvedEditionIndex(books);
 
   const rows: CatalogBookView[] = books.map((book) => {
     const status = bookPublicationStatus(book);
-    const canonical = isCanonicalEdition(book, books);
+    const resolved = editions.get(book.slug);
     const coverImage =
       resolveCoverForGraphBookSlug(coverLookup, books, book.slug) ?? book.coverImage;
 
@@ -60,8 +62,9 @@ export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
       coverImage,
       status,
       isPublic: bookIsPublic(book),
-      isCanonicalEdition: canonical,
-      editionLabel: editionDisplayLabel(book, books),
+      isCanonicalEdition: resolved?.isCanonical ?? true,
+      editionRelationship: resolved?.relationship ?? "sole",
+      editionLabel: resolved?.editionLabel,
       contentType: contentTypeForSlug(book.slug),
       themes: [],
       shelfIds: [],

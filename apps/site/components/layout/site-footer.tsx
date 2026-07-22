@@ -27,6 +27,7 @@ export async function SiteFooter() {
     { label: "RSS / Podcast feed", href: resolvePodcastRssUrl() },
     { label: "Start with a Question", href: "/questions" },
     { label: "Reading Trails", href: "/trails" },
+    { label: "What’s New", href: "/whats-new" },
     { label: "Search", href: "/search" },
     { label: "Collaborators", href: "/collaborators" },
     { label: "Explore patterns", href: "/explore/patterns" },

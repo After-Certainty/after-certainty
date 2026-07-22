@@ -3,27 +3,19 @@
 import Image from "next/image";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";
+import { StatusLabel } from "@/components/books/status-label";
 import { CONTENT_TYPE_LABELS } from "@/lib/books/catalog-taxonomy";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
-import { isUpcomingStatus } from "@/lib/books/shelves";
+import { catalogExceptionalChip } from "@/lib/books/public-status";
 
 type CatalogBookCardProps = {
   book: CatalogBookView;
   location: "shelf" | "catalog";
 };
 
-function statusLabel(status: CatalogBookView["status"]): string | undefined {
-  if (status === "published") return undefined;
-  if (isUpcomingStatus(status)) return "Upcoming";
-  if (status === "collaborative") return "Collaborative";
-  if (status === "in_progress") return "In progress";
-  if (status === "forthcoming") return "Forthcoming";
-  return status;
-}
-
 export function CatalogBookCard({ book, location }: CatalogBookCardProps) {
-  const upcoming = statusLabel(book.status);
   const typeLabel = CONTENT_TYPE_LABELS[book.contentType];
+  const exceptional = catalogExceptionalChip(book);
 
   return (
     <article className="group min-w-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/30 shadow-sm backdrop-blur-sm transition-colors hover:border-accent/35">
@@ -54,16 +46,7 @@ export function CatalogBookCard({ book, location }: CatalogBookCardProps) {
         <div className="space-y-2 p-5">
           <div className="flex flex-wrap items-center gap-2">
             <span className="text-[10px] uppercase tracking-[0.28em] text-accent">{typeLabel}</span>
-            {upcoming ? (
-              <span className="rounded-sm border border-border/60 px-2 py-0.5 text-[10px] uppercase tracking-[0.16em] text-muted">
-                {upcoming}
-              </span>
-            ) : null}
-            {book.editionLabel ? (
-              <span className="rounded-sm border border-border/60 px-2 py-0.5 text-[10px] uppercase tracking-[0.16em] text-muted">
-                {book.editionLabel}
-              </span>
-            ) : null}
+            {exceptional ? <StatusLabel label={exceptional.label} kind={exceptional.kind} /> : null}
           </div>
           <h3 className="font-display text-xl font-medium tracking-tight text-fg transition-colors group-hover:text-accent">
             {book.title}
@@ -74,9 +57,6 @@ export function CatalogBookCard({ book, location }: CatalogBookCardProps) {
           ) : null}
           {book.availability.length > 0 ? (
             <ul className="flex flex-wrap gap-2 pt-1" aria-label="Availability">
-              {book.availability.includes("online") ? (
-                <li className="text-[10px] uppercase tracking-[0.14em] text-muted">Read online</li>
-              ) : null}
               {book.availability.includes("download") ? (
                 <li className="text-[10px] uppercase tracking-[0.14em] text-muted">Download</li>
               ) : null}

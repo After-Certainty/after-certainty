@@ -6,6 +6,7 @@ import { StartHero } from "@/components/start/start-hero";
 import { StartHow } from "@/components/start/start-how";
 import { StartQuote } from "@/components/start/start-quote";
 import { StartWhat } from "@/components/start/start-what";
+import { StartWhatsNewSection } from "@/components/start/start-whats-new-section";
 import { StartQuestionsSection } from "@/components/questions/start-questions-section";
 import { StartTrailsSection } from "@/components/trails/start-trails-section";
 import { JsonLd } from "@/components/seo/json-ld";
@@ -41,6 +42,7 @@ export default async function StartPage() {
       <StartWhat />
       <StartQuestionsSection />
       <StartTrailsSection />
+      <StartWhatsNewSection />
       <StartExplore />
       <StartQuote />
       <StartHow />

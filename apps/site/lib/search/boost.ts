@@ -27,6 +27,8 @@ export type SearchBoostInput = {
   isCanonicalEdition?: boolean;
   /** Has at least one sibling edition sharing a base slug. */
   hasEditionSiblings?: boolean;
+  /** Explicitly superseded editions rank below ordinary non-canonical companions. */
+  isSuperseded?: boolean;
 };
 
 /**
@@ -42,6 +44,10 @@ export function computeSearchBoostWeight(input: SearchBoostInput): number {
 
   if (input.hasEditionSiblings) {
     weight *= input.isCanonicalEdition ? 1.08 : 0.9;
+  }
+
+  if (input.isSuperseded) {
+    weight *= 0.85;
   }
 
   // Keep a stable, readable precision for fixtures and debugging.

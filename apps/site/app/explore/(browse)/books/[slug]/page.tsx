@@ -1,19 +1,21 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { notFound, permanentRedirect } from "next/navigation";
-import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
-import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
-import { JsonLd } from "@/components/seo/json-ld";
-import { ExploreBookMedia } from "@/components/explore/explore-book-media";
-import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
-import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
-import { RelatedContentGrid } from "@/components/explore/related-content-grid";
+
+import { BookDetailLegacyLayout } from "@/components/books/book-detail-legacy-layout";
+import { BookOverviewLayout } from "@/components/books/book-overview-layout";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
-import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
-import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
-import { LinkifiedText } from "@/components/ui/linkified-text";
-import { Section } from "@/components/ui/section";
-import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
+import { bookPublicationStatus } from "@/lib/books/book-metadata";
+import { buildBookOverviewViewModel } from "@/lib/books/book-overview-view-model";
+import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
+import { getPublicationEditionByBookId } from "@/lib/books/load-publication-registry";
+import { publicStatusLabel } from "@/lib/books/public-status";
+import { findPublishedQuestionsForBook } from "@/lib/books/related-questions-for-book";
+import { resolveWorkEdition } from "@/lib/books/resolve-work-edition";
+import {
+  getOrderedBookActions,
+  getSemanticBookActionLinkItems,
+} from "@/lib/books/semantic-book-action-links";
+import { findWhatsNewEventsForBook } from "@/lib/whats-new/findEventsForBook";
 import {
   buildCoverImageBySlugLookup,
   resolveCoverForGraphBookSlug,
@@ -22,14 +24,14 @@ import {
   booksSortedForExploreIndex,
   exploreBookAdjacentInIndexOrder,
 } from "@/lib/explore/explore-books-order";
+import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
 import { relatedContentForBook } from "@/lib/graph/relatedContent";
 import { resolveThinkersForBook } from "@/lib/graph/bookThinkers";
-import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
+import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { createPageMetadata } from "@/lib/metadata";
-import { buildBookPageJsonLd } from "@/lib/seo/json-ld";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -39,7 +41,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const index = buildGraphIndex(graph);
   const book = getGraphBookBySlug(index, slug);
   if (!book) return {};
-  const description = book.summary ?? book.subtitle ?? book.title;
+  const overview = buildBookOverviewViewModel(book, graph);
+  const description =
+    overview?.overview.centralQuestion ?? book.summary ?? book.subtitle ?? book.title;
   if (!book.openGraphImage) {
     return createPageMetadata({ title: book.title, description });
   }
@@ -72,22 +76,36 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
 
   const related = relatedContentForBook(index, book);
   const bookThinkerContent = resolveThinkersForBook(index, book, graph);
-  const booksInListOrder = booksSortedForExploreIndex(graph.books);
-  const { prev: prevBook, next: nextBook } = exploreBookAdjacentInIndexOrder(
-    booksInListOrder,
-    book.slug,
-  );
-
-  const publicationLinks = getSemanticBookActionLinkItems(book);
-
-  const hasRelated =
-    related.concepts.length +
-      related.patterns.length +
-      (bookThinkerContent.useLegacyThinkersSection
-        ? bookThinkerContent.researchSources.length
-        : bookThinkerContent.thinkers.length + bookThinkerContent.researchSources.length) >
-    0;
+  const inventory = {
+    concepts: related.concepts,
+    patterns: related.patterns,
+    thinkers: bookThinkerContent.thinkers,
+    researchSources: bookThinkerContent.researchSources,
+    useLegacyThinkersSection: bookThinkerContent.useLegacyThinkersSection,
+  };
   const hasRelationships = entityHasSemanticRelationships(index, book.id);
+
+  const resolved = resolveWorkEdition(book, graph.books);
+  const registryEdition = getPublicationEditionByBookId(book.id);
+  const status = bookPublicationStatus(book);
+  const upcomingLabel = publicStatusLabel(status);
+
+  const relatedSlug =
+    resolved.relationship === "superseded"
+      ? resolved.supersededBySlug
+      : resolved.relationship === "companion"
+        ? resolved.companionOfSlug
+        : undefined;
+  const relatedEdition = relatedSlug ? graph.books.find((b) => b.slug === relatedSlug) : undefined;
+
+  const companionEdition =
+    resolved.relationship === "primary"
+      ? graph.books.find(
+          (b) =>
+            (book.companionBooks?.includes(b.slug) ?? false) ||
+            resolveWorkEdition(b, graph.books).companionOfSlug === book.slug,
+        )
+      : undefined;
 
   const bookBreadcrumbs = [
     { label: "Explore", href: explorePaths.home },
@@ -95,109 +113,66 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
     { label: book.title },
   ];
 
-  return (
-    <article>
-      <JsonLd
-        data={buildBookPageJsonLd({
-          book,
-          breadcrumbs: bookBreadcrumbs,
-        })}
+  const overviewVm = buildBookOverviewViewModel(book, graph);
+  const relatedWhatsNew = findWhatsNewEventsForBook(book.id, { limit: 3 });
+
+  if (overviewVm) {
+    const actions = getOrderedBookActions({
+      book,
+      relationship: resolved.relationship,
+      preference: overviewVm.primaryActionPreference,
+      currentEditionHref: relatedEdition
+        ? `${explorePaths.books}/${relatedEdition.slug}`
+        : undefined,
+      currentEditionTitle: relatedEdition?.title,
+    });
+
+    return (
+      <BookOverviewLayout
+        vm={overviewVm}
+        coverSrc={coverSrc}
+        registryEdition={registryEdition}
+        relatedEdition={relatedEdition}
+        companionEdition={companionEdition}
+        actions={actions}
+        relatedQuestions={findPublishedQuestionsForBook(book.id, 2)}
+        relatedWhatsNew={relatedWhatsNew}
+        inventory={inventory}
+        hasRelationships={hasRelationships}
+        index={index}
+        breadcrumbs={bookBreadcrumbs}
+        relatedTrails={<RelatedTrailsSection canonicalId={book.id} entityLabel="book" />}
       />
-      <Section atmosphere="none" className="pt-10 md:pt-14 !pb-10 md:!pb-12">
-        <BreadcrumbTrail items={bookBreadcrumbs} />
-        <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Book</p>
-        <div
-          className={
-            coverSrc
-              ? "mt-6 grid gap-10 md:grid-cols-[minmax(0,220px)_1fr] md:items-start"
-              : "mt-6 space-y-4"
-          }
-        >
-          {coverSrc ? (
-            <div className="relative mx-auto aspect-[2/3] w-full max-w-[220px] shrink-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/40 md:mx-0">
-              <Image
-                src={coverSrc}
-                alt=""
-                fill
-                className="object-cover"
-                sizes="(max-width:768px) 280px, 220px"
-                priority
-              />
-            </div>
-          ) : null}
-          <div className="min-w-0 space-y-4">
-            <h1 className="font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
-              {book.title}
-            </h1>
-            {book.subtitle ? (
-              <p className="max-w-2xl font-display text-xl text-muted md:text-2xl">
-                {book.subtitle}
-              </p>
-            ) : null}
-            {book.summary ? (
-              <p className="max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
-                <LinkifiedText text={book.summary} />
-              </p>
-            ) : null}
-          </div>
-        </div>
-        <ExploreEntityDetailActions
-          observatory={{ kind: "book", slug: book.slug }}
-          publicationLinks={publicationLinks}
-        />
-        <ExploreBookMedia book={book} />
-        <ExploreAdjacentNav
-          basePath={explorePaths.books}
-          entityLabel="book"
-          prev={prevBook ? { slug: prevBook.slug, title: prevBook.title } : undefined}
-          next={nextBook ? { slug: nextBook.slug, title: nextBook.title } : undefined}
-        />
-      </Section>
+    );
+  }
 
-      <RelatedTrailsSection canonicalId={book.id} entityLabel="book" />
+  const booksInListOrder = booksSortedForExploreIndex(graph.books);
+  const { prev: prevBook, next: nextBook } = exploreBookAdjacentInIndexOrder(
+    booksInListOrder,
+    book.slug,
+  );
 
-      {hasRelated ? (
-        <Section
-          atmosphere="transition"
-          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
-        >
-          <div className="flex flex-col gap-14">
-            <RelatedContentGrid heading="Major concepts" concepts={related.concepts} />
-            <RelatedContentGrid heading="Major patterns" patterns={related.patterns} />
-            {bookThinkerContent.useLegacyThinkersSection ? (
-              <RelatedContentGrid
-                heading="Major thinkers"
-                sources={bookThinkerContent.researchSources}
-              />
-            ) : (
-              <>
-                <RelatedContentGrid
-                  heading="Major thinkers"
-                  thinkers={bookThinkerContent.thinkers}
-                />
-                <RelatedContentGrid
-                  heading="Research sources"
-                  sources={bookThinkerContent.researchSources}
-                />
-              </>
-            )}
-          </div>
-        </Section>
-      ) : null}
-
-      {hasRelationships ? (
-        <Section
-          atmosphere="none"
-          className="border-t border-border/25 !pt-10 md:!pt-14 !pb-20 md:!pb-28"
-        >
-          <SemanticRelationshipsSection
-            index={index}
-            focalCanonicalId={book.id}
-            focalKind="book"
-            focalSlug={book.slug}
-          />
-        </Section>
-      ) : null}
-    </article>
+  return (
+    <BookDetailLegacyLayout
+      book={book}
+      coverSrc={coverSrc}
+      status={status}
+      upcomingLabel={upcomingLabel}
+      relationship={resolved.relationship}
+      editionLabel={resolved.editionLabel}
+      relatedEdition={relatedEdition}
+      companionEdition={companionEdition}
+      firstPublishedAt={registryEdition?.firstPublishedAt}
+      revisedAt={registryEdition?.revisedAt}
+      changeSummary={registryEdition?.changeSummary}
+      publicationLinks={getSemanticBookActionLinkItems(book)}
+      prevBook={prevBook ? { slug: prevBook.slug, title: prevBook.title } : undefined}
+      nextBook={nextBook ? { slug: nextBook.slug, title: nextBook.title } : undefined}
+      inventory={inventory}
+      hasRelationships={hasRelationships}
+      index={index}
+      breadcrumbs={bookBreadcrumbs}
+      relatedWhatsNew={relatedWhatsNew}
+    />
   );
 }

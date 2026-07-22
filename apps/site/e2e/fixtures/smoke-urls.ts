@@ -26,6 +26,7 @@ export const topLevelSmokeUrls: SmokeUrl[] = [
   { path: "/explore/sources", label: "Sources index" },
   { path: "/search", label: "Search" },
   { path: "/podcast", label: "Podcast" },
+  { path: "/whats-new", label: "What’s New" },
   { path: "/collaborators", label: "Collaborators" },
   { path: "/about", label: "About" },
 ];

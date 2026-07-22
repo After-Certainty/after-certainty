@@ -9,14 +9,12 @@ export function parseBookEdition(slug: string): { baseSlug: string; edition?: st
   return { baseSlug: match[1]!, edition: `v${match[2]}` };
 }
 
-export type EditionGroupMeta = {
-  siblingCount: number;
-  canonicalSlug: string;
-};
-
 /**
+ * Heuristic canonical pick for unregistered multi-edition groups.
  * Prefer the public-alias target (WoLTY v1), else a single export-bearing row,
  * else the highest explicit -vN edition.
+ *
+ * Authoritative resolution uses `resolve-work-edition` + publication-registry.
  */
 export function pickCanonicalEditionSlug(baseSlug: string, siblings: readonly Book[]): string {
   if (baseSlug === WOLTY_PUBLIC_ALIAS || siblings.some((b) => b.slug === WOLTY_V1_SLUG)) {
@@ -40,35 +38,4 @@ export function pickCanonicalEditionSlug(baseSlug: string, siblings: readonly Bo
     }
   }
   return best?.slug ?? siblings[0]!.slug;
-}
-
-export function buildEditionGroups(books: readonly Book[]): Map<string, EditionGroupMeta> {
-  const byBase = new Map<string, Book[]>();
-  for (const book of books) {
-    const { baseSlug } = parseBookEdition(book.slug);
-    const bucket = byBase.get(baseSlug) ?? [];
-    bucket.push(book);
-    byBase.set(baseSlug, bucket);
-  }
-
-  const metaBySlug = new Map<string, EditionGroupMeta>();
-  for (const [baseSlug, siblings] of byBase) {
-    if (siblings.length <= 1) {
-      const only = siblings[0]!;
-      metaBySlug.set(only.slug, { siblingCount: 1, canonicalSlug: only.slug });
-      continue;
-    }
-
-    const canonicalSlug = pickCanonicalEditionSlug(baseSlug, siblings);
-    for (const sibling of siblings) {
-      metaBySlug.set(sibling.slug, { siblingCount: siblings.length, canonicalSlug });
-    }
-  }
-  return metaBySlug;
-}
-
-export function isCanonicalEdition(book: Book, books: readonly Book[]): boolean {
-  const meta = buildEditionGroups(books).get(book.slug);
-  if (!meta) return true;
-  return meta.canonicalSlug === book.slug;
 }

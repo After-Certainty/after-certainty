@@ -1,0 +1,228 @@
+{
+  "manifestVersion": 1,
+  "updatedAt": "2026-07-22",
+  "notes": "Phase A audit registry: IDs and resolution flags only. Do not duplicate titles, covers, or download URLs. Dates intentionally omitted until authored.",
+  "editions": [
+    {
+      "bookId": "book-after-certainty",
+      "slug": "after-certainty",
+      "workId": "work-after-certainty",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-before-certainty-arrives",
+      "slug": "before-certainty-arrives",
+      "workId": "work-before-certainty-arrives",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-boundary-conditions",
+      "slug": "boundary-conditions",
+      "workId": "work-boundary-conditions",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-coupling",
+      "slug": "coupling",
+      "workId": "work-coupling",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-curiosity-before-certainty",
+      "slug": "curiosity-before-certainty",
+      "workId": "work-curiosity-before-certainty",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-everyone-knows-love",
+      "slug": "everyone-knows-love",
+      "workId": "work-everyone-knows-love",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-how-meaning-moves",
+      "slug": "how-meaning-moves",
+      "workId": "work-how-meaning-moves",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-how-serious-systems-learn",
+      "slug": "how-serious-systems-learn",
+      "workId": "work-how-serious-systems-learn",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-how-trust-forms",
+      "slug": "how-trust-forms",
+      "workId": "work-how-trust-forms",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-learning-to-see",
+      "slug": "learning-to-see",
+      "workId": "work-learning-to-see",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-living-in-sediment",
+      "slug": "living-in-sediment",
+      "workId": "work-living-in-sediment",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-observer-patterns",
+      "slug": "observer-patterns",
+      "workId": "work-observer-patterns",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-the-discipline-of-uncertainty",
+      "slug": "the-discipline-of-uncertainty",
+      "workId": "work-the-discipline-of-uncertainty",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-the-economy-we-dont-experience",
+      "slug": "the-economy-we-dont-experience",
+      "workId": "work-the-economy-we-dont-experience",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-the-game-we-think-we-saw",
+      "slug": "the-game-we-think-we-saw",
+      "workId": "work-the-game-we-think-we-saw",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-the-relay",
+      "slug": "the-relay",
+      "workId": "work-the-relay",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-trust-beyond-similarity",
+      "slug": "trust-beyond-similarity",
+      "workId": "work-trust-beyond-similarity",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-velorum",
+      "slug": "velorum",
+      "workId": "work-velorum",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-what-we-cannot-see",
+      "slug": "what-we-cannot-see",
+      "workId": "work-what-we-cannot-see",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-when-accountability-no-longer-expires",
+      "slug": "when-accountability-no-longer-expires",
+      "workId": "work-when-accountability-no-longer-expires",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-when-authority-is-misread",
+      "slug": "when-authority-is-misread",
+      "workId": "work-when-authority-is-misread",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-when-authority-outlives-accountability",
+      "slug": "when-authority-outlives-accountability",
+      "workId": "work-when-authority-outlives-accountability",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-when-incentives-become-the-moral-language",
+      "slug": "when-incentives-become-the-moral-language",
+      "workId": "work-when-incentives-become-the-moral-language",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-when-interpretation-no-longer-matters",
+      "slug": "when-interpretation-no-longer-matters",
+      "workId": "work-when-interpretation-no-longer-matters",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-when-moral-seriousness-scales",
+      "slug": "when-moral-seriousness-scales",
+      "workId": "work-when-moral-seriousness-scales",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-when-others-become-leaders",
+      "slug": "when-others-become-leaders",
+      "workId": "work-when-others-become-leaders",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-when-others-look-to-you-v1",
+      "slug": "when-others-look-to-you-v1",
+      "workId": "work-when-others-look-to-you",
+      "isCanonical": true,
+      "relationship": "primary",
+      "editionLabel": "Primary volume",
+      "companionEditionIds": ["book-when-others-look-to-you-v2"]
+    },
+    {
+      "bookId": "book-when-others-look-to-you-v2",
+      "slug": "when-others-look-to-you-v2",
+      "workId": "work-when-others-look-to-you",
+      "isCanonical": false,
+      "relationship": "companion",
+      "editionLabel": "Companion edition",
+      "companionOfEditionId": "book-when-others-look-to-you-v1"
+    },
+    {
+      "bookId": "book-when-trust-stops-tracking-reality",
+      "slug": "when-trust-stops-tracking-reality",
+      "workId": "work-when-trust-stops-tracking-reality",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-why-collaboration-is-so-hard",
+      "slug": "why-collaboration-is-so-hard",
+      "workId": "work-why-collaboration-is-so-hard",
+      "isCanonical": true,
+      "relationship": "sole"
+    },
+    {
+      "bookId": "book-why-diversity-matters",
+      "slug": "why-diversity-matters",
+      "workId": "work-why-diversity-matters",
+      "isCanonical": true,
+      "relationship": "sole"
+    }
+  ]
+}

@@ -54,7 +54,7 @@ describe("TrailPathStop", () => {
     expect(screen.getByText(/Why this follows:/i)).toBeInTheDocument();
   });
 
-  it("shows forthcoming status for non-published books", () => {
+  it("shows upcoming status for non-published books", () => {
     render(
       <TrailPathStop
         stop={{ ...optionalStop, bookStatus: "forthcoming" }}
@@ -64,6 +64,6 @@ describe("TrailPathStop", () => {
       />,
     );
 
-    expect(screen.getByText("Forthcoming")).toBeInTheDocument();
+    expect(screen.getByText("Upcoming")).toBeInTheDocument();
   });
 });

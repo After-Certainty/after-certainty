@@ -161,6 +161,62 @@ export type BooksStartHereSelectParams = {
   book_id: string;
 };
 
+export type EditionCurrentSelectParams = {
+  book_id: string;
+  destination: string;
+  notice: string;
+};
+
+export type EditionCompanionSelectParams = {
+  book_id: string;
+  destination: string;
+  notice: string;
+};
+
+export type WhatsNewViewParams = {
+  filter: string;
+  result_count: number;
+};
+
+export type WhatsNewSelectParams = {
+  event_id: string;
+  event_type: string;
+  location: string;
+};
+
+export type WhatsNewFilterParams = {
+  filter: string;
+};
+
+export type WhatsNewHomeSelectParams = {
+  location: string;
+};
+
+export type EditionNoticeViewParams = {
+  book_id: string;
+  notice: string;
+};
+
+export type BookOverviewPrimaryActionParams = {
+  book_id: string;
+  action_kind: string;
+};
+
+export type BookOverviewConceptSelectParams = {
+  book_id: string;
+  concept_id: string;
+};
+
+export type BookOverviewRelatedSelectParams = {
+  book_id: string;
+  destination_id: string;
+  destination_kind: "book" | "trail" | "question" | "pattern" | "concept";
+};
+
+export type BookOverviewEditionHistoryOpenParams = {
+  book_id: string;
+};
+
 export const AnalyticsEvents = {
   selectContent: "select_content",
   fileDownload: "file_download",
@@ -198,6 +254,17 @@ export const AnalyticsEvents = {
   booksCardSelect: "books_card_select",
   booksNoMatch: "books_no_match",
   booksStartHereSelect: "books_start_here_select",
+  editionCurrentSelect: "edition_current_select",
+  editionCompanionSelect: "edition_companion_select",
+  editionNoticeView: "edition_notice_view",
+  whatsNewView: "whats_new_view",
+  whatsNewSelect: "whats_new_select",
+  whatsNewFilter: "whats_new_filter",
+  whatsNewHomeSelect: "whats_new_home_select",
+  bookOverviewPrimaryAction: "book_overview_primary_action",
+  bookOverviewConceptSelect: "book_overview_concept_select",
+  bookOverviewRelatedSelect: "book_overview_related_select",
+  bookOverviewEditionHistoryOpen: "book_overview_edition_history_open",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];

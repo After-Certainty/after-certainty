@@ -1,15 +1,12 @@
-import Image from "next/image";
 import Link from "next/link";
-import { BookCoverThumbnail } from "@/components/books/book-cover-thumbnail";
-import { Container } from "@/components/ui/container";
-import { getBookDetailHref, getFeaturedBook, getPodcastEpisodes } from "@/lib/content-data";
 
-const episodeFallbackArt = "/images/hero/hero-backdrop.png";
+import { BookCoverThumbnail } from "@/components/books/book-cover-thumbnail";
+import { WhatsNewHomePreview } from "@/components/whats-new/whats-new-home-preview";
+import { Container } from "@/components/ui/container";
+import { getBookDetailHref, getFeaturedBook } from "@/lib/content-data";
 
 export async function MissionRecentSection() {
   const book = await getFeaturedBook();
-  const episodes = await getPodcastEpisodes();
-  const episode = episodes[0];
 
   return (
     <section className="border-b border-border/40 bg-bg py-20 md:py-28">
@@ -42,62 +39,32 @@ export async function MissionRecentSection() {
           </div>
 
           <div className="lg:pl-12 xl:pl-16">
-            <p className="text-xs uppercase tracking-[0.28em] text-accent">Recent work</p>
+            <WhatsNewHomePreview />
 
             {book ? (
-              <div className="mt-8 flex gap-5">
-                <BookCoverThumbnail src={book.coverImage} />
-                <div className="min-w-0 flex-1">
-                  <p className="text-[10px] uppercase tracking-[0.28em] text-accent">
-                    Featured book
-                  </p>
-                  <h3 className="mt-2 font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
-                    {book.title}
-                  </h3>
-                  {book.subtitle ? (
-                    <p className="mt-1 text-sm text-muted">{book.subtitle}</p>
-                  ) : null}
-                  <Link
-                    href={getBookDetailHref(book.slug)}
-                    className="mt-5 inline-block text-xs uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg"
-                  >
-                    Learn more →
-                  </Link>
+              <>
+                <hr className="my-10 border-border/40" />
+                <div className="flex gap-5">
+                  <BookCoverThumbnail src={book.coverImage} />
+                  <div className="min-w-0 flex-1">
+                    <p className="text-[10px] uppercase tracking-[0.28em] text-accent">
+                      Featured book
+                    </p>
+                    <h3 className="mt-2 font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
+                      {book.title}
+                    </h3>
+                    {book.subtitle ? (
+                      <p className="mt-1 text-sm text-muted">{book.subtitle}</p>
+                    ) : null}
+                    <Link
+                      href={getBookDetailHref(book.slug)}
+                      className="mt-5 inline-block text-xs uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg"
+                    >
+                      Learn more →
+                    </Link>
+                  </div>
                 </div>
-              </div>
-            ) : null}
-
-            {book && episode ? <hr className="my-10 border-border/40" /> : null}
-
-            {episode ? (
-              <div className="flex gap-5">
-                <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-sm border border-border/50 bg-bg-elevated">
-                  <Image
-                    src={episode.image ?? episodeFallbackArt}
-                    alt=""
-                    fill
-                    className="object-cover object-center"
-                    sizes="112px"
-                  />
-                </div>
-                <div className="min-w-0 flex-1">
-                  <p className="text-[10px] uppercase tracking-[0.28em] text-accent">
-                    Latest episode
-                  </p>
-                  <h3 className="mt-2 font-display text-lg font-medium leading-snug text-fg md:text-xl">
-                    {episode.title}
-                  </h3>
-                  <p className="mt-2 line-clamp-3 text-sm text-muted">{episode.description}</p>
-                  <Link
-                    href={episode.episodeUrl ?? "/podcast"}
-                    target={episode.episodeUrl ? "_blank" : undefined}
-                    rel={episode.episodeUrl ? "noopener noreferrer" : undefined}
-                    className="mt-4 inline-block text-xs uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg"
-                  >
-                    Listen now →
-                  </Link>
-                </div>
-              </div>
+              </>
             ) : null}
           </div>
         </div>

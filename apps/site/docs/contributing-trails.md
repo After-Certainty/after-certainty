@@ -234,10 +234,10 @@ npm run test:e2e -- e2e/trails.spec.ts
 
 ## Common validation failures
 
-| Error                             | Fix                                                            |
-| --------------------------------- | -------------------------------------------------------------- |
-| `unknown_entity`                  | Check `entityId` against bundled `data/semantic-manifest.json` |
-| `unknown_book`                    | Verify book slug; use `book-{slug}` form                       |
-| `unpublished_book`                | Use a published book, or set trail `status` to `upcoming`      |
-| `missing_why_this_follows`        | Add `whyThisFollows` to every stop after position 1            |
-| `non_canonical_edition` (warning) | Switch to canonical slug from catalog                          |
+| Error                             | Fix                                                                                                       |
+| --------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| `unknown_entity`                  | Check `entityId` against bundled `data/semantic-manifest.json`                                            |
+| `unknown_book`                    | Verify book slug; use `book-{slug}` form                                                                  |
+| `unpublished_book`                | Use a published book, or set trail `status` to `upcoming`                                                 |
+| `missing_why_this_follows`        | Add `whyThisFollows` to every stop after position 1                                                       |
+| `non_canonical_edition` (warning) | Prefer the current edition for **superseded** stops; companions are allowed. Alias mismatches still warn. |

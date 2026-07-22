@@ -1,7 +1,9 @@
 import { BOOK_SHELVES, getActiveShelves, resolveShelfBooks } from "@/lib/books/shelves";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import { defaultCatalogBooks } from "@/lib/books/catalog-view-model";
-import { isCanonicalEdition } from "@/lib/books/canonical-editions";
+import { getPublicationRegistry } from "@/lib/books/load-publication-registry";
+import { buildResolvedEditionIndex } from "@/lib/books/resolve-work-edition";
+import { collectPublicationRegistryHealthIssues } from "@/lib/books/validate-publication-registry";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 export type CatalogHealthSeverity = "error" | "warning";
@@ -21,6 +23,19 @@ export function collectCatalogHealthIssues(input: {
   const { viewModel, graph } = input;
   const issues: CatalogHealthIssue[] = [];
   const publicCanonical = defaultCatalogBooks(viewModel);
+  const resolved = buildResolvedEditionIndex(graph.books);
+
+  for (const issue of collectPublicationRegistryHealthIssues({
+    registry: getPublicationRegistry(),
+    books: graph.books,
+  })) {
+    issues.push({
+      severity: issue.severity,
+      code: `registry_${issue.code}`,
+      bookSlug: issue.bookId,
+      detail: issue.detail,
+    });
+  }
 
   const ids = new Set<string>();
   const slugs = new Set<string>();
@@ -48,25 +63,20 @@ export function collectCatalogHealthIssues(input: {
     }
   }
 
-  const byBase = new Map<string, string[]>();
+  const canonicalByWork = new Map<string, string[]>();
   for (const book of graph.books) {
-    const canonical = isCanonicalEdition(book, graph.books);
-    if (canonical) {
-      const base = book.slug.replace(/-v\d+$/i, "");
-      const bucket = byBase.get(base) ?? [];
-      bucket.push(book.slug);
-      byBase.set(base, bucket);
-    }
+    const meta = resolved.get(book.slug);
+    if (!meta?.isCanonical) continue;
+    const bucket = canonicalByWork.get(meta.workId) ?? [];
+    bucket.push(book.slug);
+    canonicalByWork.set(meta.workId, bucket);
   }
-  for (const [base, siblings] of byBase) {
-    const canonicals = siblings.filter((slug) =>
-      viewModel.find((b) => b.slug === slug && b.isCanonicalEdition),
-    );
+  for (const [workId, canonicals] of canonicalByWork) {
     if (canonicals.length > 1) {
       issues.push({
         severity: "error",
         code: "multiple_canonical_editions",
-        detail: `Multiple canonical editions for base "${base}": ${canonicals.join(", ")}`,
+        detail: `Multiple canonical editions for work "${workId}": ${canonicals.join(", ")}`,
       });
     }
   }
@@ -116,10 +126,10 @@ export function collectCatalogHealthIssues(input: {
         if (!book.isCanonicalEdition && shelf.slug !== "complete-catalog") {
           issues.push({
             severity: "error",
-            code: "superseded_on_shelf",
+            code: "non_canonical_on_shelf",
             shelfId: shelf.id,
             bookSlug: slug,
-            detail: `Superseded edition "${slug}" on curated shelf "${shelf.id}"`,
+            detail: `Non-canonical edition "${slug}" (${book.editionRelationship}) on curated shelf "${shelf.id}"`,
           });
         }
       }

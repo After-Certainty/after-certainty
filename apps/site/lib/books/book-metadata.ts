@@ -1,5 +1,5 @@
-import { parseBookEdition } from "@/lib/books/canonical-editions";
 import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
+import { resolveWorkEdition } from "@/lib/books/resolve-work-edition";
 import type { BookStatus } from "@/types/content";
 import type { Book } from "@/types/semanticGraph";
 
@@ -52,10 +52,5 @@ export function bookAvailabilityFlags(book: Book): BookAvailabilityFlag[] {
 }
 
 export function editionDisplayLabel(book: Book, books: readonly Book[]): string | undefined {
-  const { edition, baseSlug } = parseBookEdition(book.slug);
-  if (edition) return edition;
-  if (book.companionOf) return "Companion edition";
-  const siblings = books.filter((b) => parseBookEdition(b.slug).baseSlug === baseSlug);
-  if (siblings.length > 1 && book.companionBooks?.length) return "Current edition";
-  return undefined;
+  return resolveWorkEdition(book, books).editionLabel;
 }
