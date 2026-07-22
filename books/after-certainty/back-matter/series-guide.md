@@ -80,6 +80,12 @@ The earlier books are primarily diagnostic. They explain how meaning forms, how 
 
 **Question:** How do we live responsibly after certainty loses its ability to settle the world?
 
+### **The World We Make Together**
+
+History is collective, but responsibility remains uneven. Through ordinary objects—a switch, a ballot, a fence, a bowl, a scale—this book examines how people act within structures without becoming either solitary heroes or passive products, and how shared power is built when leverage is unequal.
+
+**Question:** How do ordinary people, unequal power, and shared action shape history?
+
 ---
 
 ## **The Thread Running Through All of Them**

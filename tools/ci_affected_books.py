@@ -28,8 +28,7 @@ if str(_TOOLS_DIR) not in sys.path:
 from book_output_stem import stem_for_book_dir  # noqa: E402
 from book_specs import (  # noqa: E402
     ci_export_books,
-    load_book_spec,
-    load_upcoming_spec,
+    load_spec_for_book_dir,
     resolve_spec_path,
     spec_formats,
     spec_pdf_engine,
@@ -41,12 +40,11 @@ def find_book_dirs(repo: Path) -> list[Path]:
 
 
 def load_spec_for_rel(repo: Path, book_rel: str) -> dict:
-    spec_path = resolve_spec_path((repo / book_rel).resolve())
-    if spec_path is None:
+    """Load published or upcoming specs from either book.yml or upcoming.yml."""
+    book_dir = (repo / book_rel).resolve()
+    if resolve_spec_path(book_dir) is None:
         return {}
-    if spec_path.name == "upcoming.yml":
-        return load_upcoming_spec(spec_path)
-    return load_book_spec(spec_path)
+    return load_spec_for_book_dir(book_dir)
 
 
 def triggers_full_rebuild(path: str) -> bool:

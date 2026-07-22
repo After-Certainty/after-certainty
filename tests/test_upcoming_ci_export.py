@@ -34,6 +34,40 @@ def test_upcoming_without_exports_excluded_from_ci_matrix(repo_root: Path) -> No
     assert "upcoming/what-we-cannot-see" not in rels
 
 
+def test_published_the_world_we_make_together_in_ci_matrix(repo_root: Path) -> None:
+    spec_path = resolve_spec_path(repo_root / "books" / "the-world-we-make-together")
+    assert spec_path is not None
+    spec = load_book_spec(spec_path)
+    assert spec_formats(spec) == ["docx", "epub", "pdf"]
+    assert spec_in_latest_release(spec) is True
+
+    rels = {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
+    assert "books/the-world-we-make-together" in rels
+    assert "upcoming/the-world-we-make-together" not in rels
+    assert "the-world-we-make-together" not in upcoming_export_stems(repo_root)
+
+    matrix = subprocess.run(
+        [
+            sys.executable,
+            str(repo_root / "tools/ci_affected_books.py"),
+            "--repo",
+            str(repo_root),
+            "--all",
+            "--format",
+            "docx",
+        ],
+        capture_output=True,
+        text=True,
+        timeout=120,
+    )
+    assert matrix.returncode == 0, matrix.stderr
+    payload = json.loads(matrix.stdout)
+    row = next(e for e in payload["include"] if e["dir"] == "books/the-world-we-make-together")
+    assert row["has_docx"] == "true"
+    assert row["has_epub"] == "true"
+    assert row["has_pdf"] == "true"
+
+
 def test_what_we_cannot_see_docx_enabled_in_ci_matrix(repo_root: Path) -> None:
     spec_path = resolve_spec_path(repo_root / "books" / "what-we-cannot-see")
     assert spec_path is not None

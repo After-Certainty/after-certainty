@@ -43,6 +43,7 @@ There is no single mandatory order. The table below groups books by **question**
 | When do economic narratives lose credibility? | [The Economy We Don't Experience](../books/the-economy-we-dont-experience/index.md) |
 | When does interpretation stop coordinating authority? | [When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md) |
 | What remains unsettled after a decisive sports result? | [The Game We Think We Saw](../books/the-game-we-think-we-saw/index.md) |
+| How do ordinary people, unequal power, and shared action shape history? | [The World We Make Together](../books/the-world-we-make-together/index.md) |
 
 **WOLTY editions:** Read **v1** first for the integrated field guide (harm, effectiveness, legitimacy). Use **v2** as a pattern-level companion, not a replacement.
 

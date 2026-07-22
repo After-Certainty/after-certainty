@@ -6,7 +6,7 @@ Applies book-design conventions Pandoc does not express well:
 - Arabic page numbering restarting at the Introduction
 - Suppress running heads on part/chapter/conclusion/appendix/bibliography
   openers (page numbers remain in the footer)
-- Replace a static Contents list with a Word TOC field (page numbers + links)
+- Remove a Contents / TOC page when present (publication builds ship without a TOC)
 
 Safe to run on any DOCX: missing landmarks make the corresponding step a no-op.
 """
@@ -25,7 +25,7 @@ from docx.shared import Pt
 from docx.text.paragraph import Paragraph
 
 _BODY_OPENER_RE = re.compile(
-    r"^(Introduction|Part\s+[IVXLCDM]+|Chapter\s+\d+|Conclusion|Appendix|"
+    r"^(Introduction|Part\s+[IVXLCDM]+(?:\s+[—–-]\s+.+)?|Chapter\s+\d+|Conclusion|Appendix|"
     r"About the Series|Bibliography)$"
 )
 
@@ -228,13 +228,19 @@ def _configure_body_section(section, running_title: str, *, restart_at: int | No
         del pg.attrib[qn("w:start")]
 
 
-def _replace_contents_with_toc_field(doc: Document) -> bool:
+def _remove_contents_page(doc: Document) -> bool:
+    """Remove the Contents heading and any following front-matter TOC body.
+
+    Publication DOCX builds ship without a table of contents. Returns True when
+    a Contents landmark was found and removed (including orphaned TOC fields).
+    """
     contents = _find_contents_heading(doc)
     if contents is None:
-        return False
+        # Still strip any leftover TOC fields if Contents heading already gone.
+        return _strip_toc_fields(doc)
 
     intro = _find_intro_paragraph(doc)
-    remove: list[Paragraph] = []
+    remove: list[Paragraph] = [contents]
     seen_contents = False
     for p in doc.paragraphs:
         if p._element is contents._element:
@@ -246,7 +252,6 @@ def _replace_contents_with_toc_field(doc: Document) -> bool:
             break
         if _is_body_opener(p) and (p.text or "").strip() == "Introduction":
             break
-        # Keep section-break sentinels (front-matter boundary).
         pPr = p._element.find(qn("w:pPr"))
         if pPr is not None and pPr.find(qn("w:sectPr")) is not None:
             break
@@ -257,43 +262,24 @@ def _replace_contents_with_toc_field(doc: Document) -> bool:
         if parent is not None:
             parent.remove(p._element)
 
-    toc_p = OxmlElement("w:p")
-    r1 = OxmlElement("w:r")
-    fc1 = OxmlElement("w:fldChar")
-    fc1.set(qn("w:fldCharType"), "begin")
-    r1.append(fc1)
-    toc_p.append(r1)
-
-    r2 = OxmlElement("w:r")
-    instr = OxmlElement("w:instrText")
-    instr.set(qn("xml:space"), "preserve")
-    instr.text = r' TOC \o "1-2" \h \z \u '
-    r2.append(instr)
-    toc_p.append(r2)
-
-    r3 = OxmlElement("w:r")
-    fc2 = OxmlElement("w:fldChar")
-    fc2.set(qn("w:fldCharType"), "separate")
-    r3.append(fc2)
-    toc_p.append(r3)
-
-    r4 = OxmlElement("w:r")
-    t = OxmlElement("w:t")
-    t.text = (
-        "Table of contents — in Word or LibreOffice, right-click and choose "
-        "Update Field to refresh page numbers."
-    )
-    r4.append(t)
-    toc_p.append(r4)
-
-    r5 = OxmlElement("w:r")
-    fc3 = OxmlElement("w:fldChar")
-    fc3.set(qn("w:fldCharType"), "end")
-    r5.append(fc3)
-    toc_p.append(r5)
-
-    contents._element.addnext(toc_p)
+    _strip_toc_fields(doc)
     return True
+
+
+def _strip_toc_fields(doc: Document) -> bool:
+    """Remove paragraphs that contain a Word TOC field instruction."""
+    removed = False
+    for p in list(doc.paragraphs):
+        instrs = p._element.findall(".//" + qn("w:instrText"))
+        if not any(i.text and "TOC" in i.text for i in instrs):
+            continue
+        parent = p._element.getparent()
+        if parent is not None:
+            parent.remove(p._element)
+            removed = True
+    # Also drop orphaned TOC-style paragraphs left between Contents and Introduction
+    # after a previous interior-finish pass (cached TOC lines with tab + dash).
+    return removed
 
 
 def _split_sections_at_openers(doc: Document) -> int:
@@ -336,7 +322,27 @@ def _split_sections_at_openers(doc: Document) -> int:
     return len(openers)
 
 
-def finish_interior_docx(path: Path, *, running_title: str) -> dict:
+def _apply_document_metadata(doc: Document, *, title: str, subtitle: str, author: str) -> None:
+    """Set core properties used by Word, PDF converters, and accessibility tooling."""
+    props = doc.core_properties
+    props.title = title
+    props.subject = subtitle
+    props.author = author
+    props.language = "en-US"
+    props.keywords = (
+        "history; power; democracy; leadership; institutions; "
+        "collective action; shared power; public philosophy"
+    )
+    props.category = "Nonfiction"
+
+
+def finish_interior_docx(
+    path: Path,
+    *,
+    running_title: str,
+    subtitle: str = "",
+    author: str = "",
+) -> dict:
     """Apply interior finish conventions to *path* in place."""
     status = {
         "body_openers": 0,
@@ -344,6 +350,8 @@ def finish_interior_docx(path: Path, *, running_title: str) -> dict:
         "front_matter_cleared": False,
         "body_headers": False,
         "toc_field": False,
+        "toc_removed": False,
+        "metadata": False,
     }
 
     doc = Document(str(path))
@@ -352,7 +360,16 @@ def finish_interior_docx(path: Path, *, running_title: str) -> dict:
     if n_openers == 0:
         return status
 
-    status["toc_field"] = _replace_contents_with_toc_field(doc)
+    status["toc_removed"] = _remove_contents_page(doc)
+    status["toc_field"] = False
+    if running_title or subtitle or author:
+        _apply_document_metadata(
+            doc,
+            title=running_title or "Manuscript",
+            subtitle=subtitle or "",
+            author=author or "",
+        )
+        status["metadata"] = True
     doc.save(str(path))
 
     doc = Document(str(path))
