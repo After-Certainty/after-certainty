@@ -39,6 +39,7 @@ book:
     readNext:
     - what-we-cannot-see
     - trust-beyond-similarity
+  publication_date: '2026-04-01'
 paths:
   manuscript: ./index.md
   output: .

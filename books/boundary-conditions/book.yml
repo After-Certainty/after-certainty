@@ -1,29 +1,63 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: boundary-conditions
-  title: "Boundary Conditions"
-  subtitle: "A Literary Organizational Fiction Novel"
-  description: "Organizational fiction about invisible coordination work, authorization boundaries, and the cost of becoming indispensable inside complex systems."
+  title: Boundary Conditions
+  subtitle: A Literary Organizational Fiction Novel
+  description: Organizational fiction about invisible coordination work, authorization boundaries, and
+    the cost of becoming indispensable inside complex systems.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: fiction
+  literary_form: novel
+  overview:
+    centralQuestion: What happens when the reliable person becomes part of the system’s architecture?
+    whyItExists: Organizational fiction about invisible coordination work, authorization boundaries, and
+      the cost of becoming indispensable—when helping slowly becomes absorbing, and informal routing of
+      work turns one person into infrastructure.
+    audience: Readers who recognize over-routing of responsibility at work and home and want recognition
+      through story rather than a how-to manual.
+    nonGoals:
+    - The story dramatizes tensions rather than proving a general theory.
+    - It is not a management playbook or boundary checklist.
+    - It is not a direct retelling of real events (fictionalized composite).
+    selectedConcepts:
+    - boundary
+    - authorization
+    - invisible-labor
+    - coordination
+    - drift
+    selectedPatterns:
+    - responsibility-persists-beyond-control
+    - leaders-feel-the-consequences
+    readBefore:
+    - why-collaboration-is-so-hard
+    readNext:
+    - coupling
+    - when-others-look-to-you-v1
+    relatedWorks:
+    - workId: why-collaboration-is-so-hard
+      relationship: fictionalizes
+      reason: Dramatizes diffuse ownership and invisible coordination labor as the cost of always absorbing
+        the gap.
+    - workId: coupling
+      relationship: applies
+      reason: Shows how informal routing couples the system to one reliable person.
+    - workId: when-others-look-to-you
+      relationship: companion_to
+      reason: Being looked to as the reliable person is leadership influence under pressure.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     auto_discover: false
-
 frontmatter:
   generate:
     enabled: true
@@ -33,11 +67,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -46,11 +78,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

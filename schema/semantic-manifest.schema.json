@@ -90,7 +90,7 @@
     "schemaVersion": {
       "type": "string",
       "pattern": "^2\\.\\d+$",
-      "description": "Additive contract version. 2.1 introduces works/editions and discovery collections."
+      "description": "Additive contract version. 2.1 introduces works/editions and discovery collections. 2.2 adds parts/chapters, literaryForm, overview.relatedWorks."
     },
     "sourceCommit": {
       "type": [
@@ -139,6 +139,18 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/searchAliasEntry"
+      }
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/partEntry"
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/chapterEntry"
       }
     }
   },
@@ -381,7 +393,8 @@
             "nonfiction",
             "fiction",
             "handbook",
-            "essay_collection"
+            "essay_collection",
+            "poetry"
           ]
         },
         "publicStatus": {
@@ -418,6 +431,22 @@
         },
         "overview": {
           "$ref": "#/$defs/bookOverview"
+        },
+        "literaryForm": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "novel",
+            "poetry_collection",
+            "monograph",
+            "handbook",
+            "essay_collection",
+            "field_notes",
+            "other",
+            null
+          ]
         }
       }
     },
@@ -811,6 +840,13 @@
             "pattern": "^book-[a-zA-Z0-9._-]+$"
           }
         },
+        "relatedChapterIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^chapter-[a-zA-Z0-9._-]+$"
+          }
+        },
         "recognitionSignals": {
           "$ref": "#/$defs/stringList"
         },
@@ -1177,6 +1213,42 @@
             "string",
             "null"
           ]
+        },
+        "relatedWorks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "workId",
+              "relationship",
+              "reason"
+            ],
+            "properties": {
+              "workId": {
+                "type": "string",
+                "pattern": "^work-[a-zA-Z0-9._-]+$"
+              },
+              "relationship": {
+                "type": "string",
+                "enum": [
+                  "prepares_for",
+                  "deepens",
+                  "applies",
+                  "historicizes",
+                  "fictionalizes",
+                  "contrasts_with",
+                  "companion_to",
+                  "continues",
+                  "reframes"
+                ]
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         }
       }
     },
@@ -1213,7 +1285,8 @@
             "nonfiction",
             "fiction",
             "handbook",
-            "essay_collection"
+            "essay_collection",
+            "poetry"
           ]
         },
         "canonicalRoute": {
@@ -1344,6 +1417,9 @@
           ]
         },
         "optional": {
+          "type": "boolean"
+        },
+        "fictionDoorway": {
           "type": "boolean"
         },
         "title": {
@@ -1699,6 +1775,187 @@
           }
         },
         "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "aliasClass": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "previous_title",
+            "spelling_variant",
+            "shortened_name",
+            "vocabulary_bridge",
+            null
+          ]
+        }
+      }
+    },
+    "partEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "workId",
+        "editionId",
+        "title",
+        "position"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^part-[a-zA-Z0-9._-]+$"
+        },
+        "workId": {
+          "type": "string",
+          "pattern": "^work-[a-zA-Z0-9._-]+$"
+        },
+        "editionId": {
+          "type": "string",
+          "pattern": "^book-[a-zA-Z0-9._-]+$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "slug": {
+          "type": "string"
+        }
+      }
+    },
+    "chapterEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "workId",
+        "editionId",
+        "title",
+        "position",
+        "kind",
+        "sourcePath",
+        "wordCount",
+        "estimatedReadingMinutes",
+        "public"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^chapter-[a-zA-Z0-9._-]+$"
+        },
+        "workId": {
+          "type": "string",
+          "pattern": "^work-[a-zA-Z0-9._-]+$"
+        },
+        "editionId": {
+          "type": "string",
+          "pattern": "^book-[a-zA-Z0-9._-]+$"
+        },
+        "partId": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^part-[a-zA-Z0-9._-]+$"
+        },
+        "partTitle": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "introduction",
+            "chapter",
+            "bridge",
+            "interlude",
+            "conclusion",
+            "appendix",
+            "afterword",
+            "notes",
+            "other"
+          ]
+        },
+        "sourcePath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "wordCount": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "estimatedReadingMinutes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "public": {
+          "type": "boolean"
+        },
+        "routeKey": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "summary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "centralQuestion": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "selectedConceptIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^concept-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "selectedPatternIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^pattern-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "searchAliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "situationIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^situation-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "readingTransition": {
           "type": [
             "string",
             "null"

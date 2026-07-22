@@ -1,0 +1,53 @@
+id: reliable-person-becomes-architecture
+slug: reliable-person-becomes-architecture
+question: What happens when the reliable person becomes part of the system’s architecture?
+summary: Informal routing turns one reliable person into infrastructure; absorbing the gap is praised
+  while the system learns not to carry the work.
+orientation: Fiction can dramatize how helping becomes absorbing. The question is about responsibility
+  routing—not a management tip list.
+whatThisIsNot:
+- Not empirical proof from a single novel.
+- Not a boundary checklist or productivity hack.
+- Not a claim that reliability is a vice.
+status: published
+featured: false
+families:
+- Collaboration and coordination
+- Leadership
+primaryBookId: book-boundary-conditions
+relatedQuestionIds:
+- collaboration-remains-difficult
+- someone-begins-looking-to-you
+- leaders-become-systems
+searchHints:
+- becoming indispensable
+- the reliable person
+pathStops:
+- position: 1
+  entityType: situation
+  entityId: situation-reliable-person-becomes-the-route
+  description: Recognize routing toward the reliable person as a structural pattern.
+  whyThisFollows: The question starts in a recognizable organizational scene.
+- position: 2
+  entityType: book
+  entityId: book-boundary-conditions
+  description: 'Fiction doorway: what begins as helping can become absorbing.'
+  whyThisFollows: The novel dramatizes the cost of indispensability without proving a theory.
+- position: 3
+  entityType: book
+  entityId: book-why-collaboration-is-so-hard
+  description: Nonfiction on invisible coordination labor and diffuse ownership.
+  whyThisFollows: After the story, diagnose the structural conditions of shared work.
+- position: 4
+  entityType: book
+  entityId: book-coupling
+  description: How systems join and who bears consequences when routing hardens.
+  whyThisFollows: Coupling shows architecture beneath the reliable person.
+- position: 5
+  entityType: book
+  entityId: book-when-others-look-to-you-v1
+  description: Leadership when others look to you—and when looking becomes over-routing.
+  whyThisFollows: Being looked to is both influence and risk of absorption.
+closingReflection: Reliability can become architecture. The work is to notice when praise for absorption
+  hides missing capacity.
+carryForwardQuestion: What work is your system learning not to carry because someone reliable always will?

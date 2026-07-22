@@ -1,0 +1,22 @@
+version: 1
+chapters:
+  - sourcePath: parts/chapter-2-we-did-not-agree-to-the-same-thing.md
+    summary: >
+      Two engineers leave the same meeting carrying incompatible “agreements”—one heard a decision,
+      the other heard permission to keep thinking—revealing how collaboration often proceeds from
+      partial understanding rather than prior alignment.
+    centralQuestion: Why can sincere people leave the same meeting with different decisions?
+    selectedConcepts:
+      - partial-coherence
+      - legibility
+      - diffuse-ownership
+    selectedPatterns:
+      - disagreement-is-suppressed
+    searchAliases:
+      - same meeting different memories
+      - thought we already agreed
+    situations:
+      - same-meeting-different-decisions
+    readingTransition: >
+      From the opening failure of shared memory into the invisible labor that tries to hold
+      collaboration together afterward.

@@ -1,0 +1,39 @@
+id: inheritance-and-institutional-sediment
+slug: inheritance-and-institutional-sediment
+title: Inheritance and Institutional Sediment
+summary: From how certainty forms historically, through living among fossils, into metrics that harden
+  and judgment after certainty.
+orientation: Structures outlive their reasons. This trail moves from historical formation of certainty
+  into present sediment, incentive language, and the capstone practice of judgment.
+status: published
+featured: false
+themes:
+- Institutions
+- Inheritance
+depth: intermediate
+primaryBookId: book-living-in-sediment
+relatedTrailIds:
+- judgment-before-certainty
+- systems-without-correction
+pathStops:
+- position: 1
+  entityType: book
+  entityId: book-before-certainty-arrives
+  description: See how certainty forms, hardens, and outlives earlier constraints.
+- position: 2
+  entityType: book
+  entityId: book-living-in-sediment
+  description: Learn to notice institutional fossils in present infrastructure.
+  whyThisFollows: Historical certainty becomes the sediment under everyday rules.
+- position: 3
+  entityType: book
+  entityId: book-when-incentives-become-the-moral-language
+  description: Watch metrics harden into moral language that outlives their reasons.
+  whyThisFollows: Incentives are a living form of sediment.
+- position: 4
+  entityType: book
+  entityId: book-after-certainty
+  description: Judge and revise when inherited frames no longer suffice.
+  whyThisFollows: Seeing sediment leads into judgment without total explanation.
+closingReflection: Inheritance is not the opposite of freedom. Remembering sediment is the beginning of
+  responsible revision—not a finished policy.

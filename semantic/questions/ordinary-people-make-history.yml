@@ -1,0 +1,51 @@
+id: ordinary-people-make-history
+slug: ordinary-people-make-history
+question: How do ordinary people make history when power is unequal?
+summary: History is collective without being evenly shared; agency and unequal leverage must stay in the
+  same frame.
+orientation: Great-person stories and pure structural determinism both fail. Ordinary people make history
+  through shared action while responsibility and leverage remain uneven.
+whatThisIsNot:
+- Not a claim that everyone has equal power or equal accountability.
+- Not a hero biography of lone world-makers.
+- Not a denial that structure and institutions shape what people can do.
+status: published
+featured: false
+families:
+- Collective action and power
+primaryBookId: book-the-world-we-make-together
+relatedQuestionIds:
+- someone-begins-looking-to-you
+- trust-survives-disagreement
+searchHints:
+- ordinary people making history
+- collective action unequal power
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-agency
+  description: Begin with agency that is real without being evenly distributed.
+  whyThisFollows: Ordinary historical action starts with people who can move something—not everyone equally.
+- position: 2
+  entityType: concept
+  entityId: concept-asymmetry
+  description: Hold asymmetry of leverage and responsibility alongside shared action.
+  whyThisFollows: Collective history without asymmetry becomes a false equality claim.
+- position: 3
+  entityType: book
+  entityId: book-the-world-we-make-together
+  description: 'Primary book: ordinary people, unequal power, and shared action as historical agency.'
+  whyThisFollows: This volume is the most direct treatment of the question.
+- position: 4
+  entityType: book
+  entityId: book-when-others-become-leaders
+  description: See how leadership forms among others without requiring a single hero.
+  whyThisFollows: Leadership among others continues the collective-agency thread.
+- position: 5
+  entityType: book
+  entityId: book-after-certainty
+  description: 'Capstone: judgment and responsibility when total explanation is unavailable.'
+  whyThisFollows: Uneven responsibility leads into judgment after certainty.
+closingReflection: History can be collective while accountability remains uneven. The work is to see shared
+  action without erasing leverage—and leverage without erasing agency.
+carryForwardQuestion: Where is power-with already opening between walls in your world?

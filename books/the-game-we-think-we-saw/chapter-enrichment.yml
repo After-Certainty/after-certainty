@@ -1,0 +1,23 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-4-what-the-result-becomes/chapter-7-when-a-gesture-becomes-another-message.md
+    summary: >
+      A fixed sporting gesture keeps the same posture in every copy while public meaning around it
+      keeps changing—showing how a result or image can be final while cause, legitimacy, and message
+      remain unsettled.
+    centralQuestion: How can a final image keep generating new meanings after the moment is fixed?
+    selectedConcepts:
+      - gesture-afterlife
+      - scoreboard-remainder
+      - compression
+      - legitimacy
+    selectedPatterns:
+      - meaning-drifts-over-time
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - the result is final but the argument is not
+      - what the scoreboard leaves out
+    situations:
+      - result-final-meaning-unsettled
+    readingTransition: >
+      From the fixed result into the afterlife of gestures and public story.

@@ -1,25 +1,69 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: learning-to-see
-  title: "Learning to See"
-  subtitle: "Why Humanity Keeps Rediscovering Practices of Wisdom"
-  description: "A comparative inquiry into how scientific, philosophical, psychological, and spiritual traditions develop practices that help people notice more honestly and live with uncertainty—without claiming those traditions are secretly the same."
+  title: Learning to See
+  subtitle: Why Humanity Keeps Rediscovering Practices of Wisdom
+  description: A comparative inquiry into how scientific, philosophical, psychological, and spiritual
+    traditions develop practices that help people notice more honestly and live with uncertainty—without
+    claiming those traditions are secretly the same.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: What becomes scarce when answers become cheap—and how do we become better knowers?
+    whyItExists: Comparative inquiry into how scientific, philosophical, psychological, and spiritual
+      traditions form knowers through practices of attention—without claiming they are secretly the same—especially
+      when intelligence and answers proliferate.
+    audience: Readers interested in wisdom practices, epistemology across traditions, and formation under
+      uncertainty who want a learner posture rather than a replacement ideology.
+    nonGoals:
+    - It is not spiritual autobiography or apologetics.
+    - It does not claim every tradition secretly says the same thing or offer one final synthesis.
+    - It does not speak for entire communities as uniform wholes.
+    selectedConcepts:
+    - attention
+    - humility
+    - judgment
+    - uncertainty
+    - inheritance
+    - formation
+    selectedPatterns:
+    - attention-finds-a-focus
+    - revisability-preserves-judgment
+    - contact-keeps-the-read-open
+    readBefore:
+    - what-we-cannot-see
+    readNext:
+    - living-in-sediment
+    - after-certainty
+    relatedWorks:
+    - workId: what-we-cannot-see
+      relationship: deepens
+      reason: Moves from finite perspective into practices that form better knowers across traditions.
+    - workId: living-in-sediment
+      relationship: companion_to
+      reason: Inherited structures shape what we can notice; attention practices meet institutional fossils.
+    - workId: the-discipline-of-uncertainty
+      relationship: applies
+      reason: Handbook disciplines for living with uncertainty pair with the comparative practices of
+        seeing.
+    - workId: observer-patterns
+      relationship: companion_to
+      reason: Poetry of attention becoming decisive accompanies the prose inquiry into learning to see.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Becoming a better knower prepares judgment when understanding is not enough.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -32,7 +76,6 @@ frontmatter:
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -41,11 +84,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

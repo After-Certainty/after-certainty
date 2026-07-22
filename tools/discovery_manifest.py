@@ -24,8 +24,32 @@ from book_specs import (
 )
 
 SEMANTIC = Path("semantic")
-SCHEMA_VERSION = "2.1"
-CONTENT_TYPES = frozenset({"nonfiction", "fiction", "handbook", "essay_collection"})
+SCHEMA_VERSION = "2.2"
+CONTENT_TYPES = frozenset({"nonfiction", "fiction", "handbook", "essay_collection", "poetry"})
+LITERARY_FORMS = frozenset(
+    {
+        "novel",
+        "poetry_collection",
+        "monograph",
+        "handbook",
+        "essay_collection",
+        "field_notes",
+        "other",
+    }
+)
+WORK_RELATIONSHIP_TYPES = frozenset(
+    {
+        "prepares_for",
+        "deepens",
+        "applies",
+        "historicizes",
+        "fictionalizes",
+        "contrasts_with",
+        "companion_to",
+        "continues",
+        "reframes",
+    }
+)
 EDITION_RELATIONSHIPS = frozenset({"sole", "primary", "companion", "superseded"})
 
 _VERSION_SUFFIX = re.compile(r"-v\d+$")
@@ -86,6 +110,35 @@ def derive_availability(spec: dict, book_entry: dict) -> list[str]:
     return out
 
 
+def _normalize_work_id(raw: str) -> str:
+    s = str(raw).strip()
+    if not s:
+        return ""
+    if s.startswith("work-"):
+        return s
+    return work_id_for_slug(s)
+
+
+def build_related_works(overview: dict) -> list[dict]:
+    rows: list[dict] = []
+    for item in overview.get("relatedWorks") or []:
+        if not isinstance(item, dict):
+            continue
+        work_id = _normalize_work_id(str(item.get("workId") or ""))
+        relationship = str(item.get("relationship") or "").strip()
+        reason = str(item.get("reason") or "").strip()
+        if not work_id or relationship not in WORK_RELATIONSHIP_TYPES or not reason:
+            continue
+        rows.append(
+            {
+                "workId": work_id,
+                "relationship": relationship,
+                "reason": reason,
+            }
+        )
+    return rows
+
+
 def build_overview_manifest(overview: dict) -> dict:
     out: dict = {
         "centralQuestion": str(overview["centralQuestion"]).strip(),
@@ -105,6 +158,9 @@ def build_overview_manifest(overview: dict) -> dict:
     nxt = _optional_str_list(overview.get("readNext"))
     if nxt:
         out["readNext"] = nxt
+    related = build_related_works(overview)
+    if related:
+        out["relatedWorks"] = related
     revised = str(overview.get("revisedAt") or "").strip()
     if revised:
         out["revisedAt"] = revised
@@ -128,6 +184,10 @@ def enrich_book_discovery_fields(spec: dict, book_entry: dict) -> None:
     content_type = str(book.get("content_type") or "nonfiction").strip()
     if content_type not in CONTENT_TYPES:
         content_type = "nonfiction"
+    # Poetry kind implies poetry content type when omitted
+    kind = str(book.get("kind") or "prose").strip()
+    if kind == "poetry" and not book.get("content_type"):
+        content_type = "poetry"
 
     source = str(book_entry.get("source") or "books")
     legacy_status = str(book_entry.get("status") or "published")
@@ -145,6 +205,9 @@ def enrich_book_discovery_fields(spec: dict, book_entry: dict) -> None:
     label = str(book.get("edition_label") or "").strip()
     book_entry["editionLabel"] = label or None
     book_entry["contentType"] = content_type
+    literary_form = str(book.get("literary_form") or "").strip()
+    if literary_form in LITERARY_FORMS:
+        book_entry["literaryForm"] = literary_form
     book_entry["publicStatus"] = public_status
     book_entry["availability"] = derive_availability(spec, book_entry)
 
@@ -264,6 +327,8 @@ def _enrich_path_stops(
             stop["estimatedMinutes"] = int(raw["estimatedMinutes"])
         if "optional" in raw:
             stop["optional"] = bool(raw["optional"])
+        if "fictionDoorway" in raw:
+            stop["fictionDoorway"] = bool(raw["fictionDoorway"])
         lookup = entity_id
         if not lookup and book_slug:
             lookup = book_id_for_slug(book_slug)
@@ -479,6 +544,9 @@ def build_search_aliases(repo: Path) -> list[dict]:
         note = str(raw.get("note") or "").strip()
         if note:
             entry["note"] = note
+        alias_class = str(raw.get("aliasClass") or "").strip()
+        if alias_class:
+            entry["aliasClass"] = alias_class
         if entry["terms"] and entry["targetIds"]:
             rows.append(entry)
     rows.sort(key=lambda r: (r["kind"], ",".join(r["terms"])))
@@ -495,8 +563,11 @@ def attach_discovery_collections(
     situations: list[dict],
     sources: list[dict],
     thinkers: list[dict],
+    specs_by_slug: dict[str, dict] | None = None,
 ) -> None:
     """Add schemaVersion, sourceCommit, works/editions, and discovery arrays."""
+    from manuscript_structure import build_all_structures
+
     payload["schemaVersion"] = SCHEMA_VERSION
     payload["sourceCommit"] = resolve_source_commit(repo)
     works, editions = build_works_and_editions(books)
@@ -508,6 +579,9 @@ def attach_discovery_collections(
     payload["shelves"] = build_shelves(repo, books)
     payload["changeEvents"] = build_change_events(repo, books)
     payload["searchAliases"] = build_search_aliases(repo)
+    parts, chapters = build_all_structures(repo, books, specs_by_slug or {})
+    payload["parts"] = parts
+    payload["chapters"] = chapters
 
 
 def collect_book_specs(repo: Path) -> list[tuple[Path, dict, str, str]]:

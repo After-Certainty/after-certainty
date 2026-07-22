@@ -48,6 +48,15 @@
           },
           "note": {
             "type": "string"
+          },
+          "aliasClass": {
+            "type": "string",
+            "enum": [
+              "previous_title",
+              "spelling_variant",
+              "shortened_name",
+              "vocabulary_bridge"
+            ]
           }
         }
       }

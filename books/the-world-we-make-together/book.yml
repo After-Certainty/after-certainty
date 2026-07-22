@@ -1,25 +1,66 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: the-world-we-make-together
-  title: "The World We Make Together"
-  subtitle: "How Ordinary People, Unequal Power, and Shared Action Shape History"
-  description: "History is collective, but responsibility remains uneven. The World We Make Together follows ordinary objects—a switch, a ballot, a fence, a bowl, a scale—into the institutions and relationships through which people shape public life without becoming either solitary heroes or passive products of structure."
+  title: The World We Make Together
+  subtitle: How Ordinary People, Unequal Power, and Shared Action Shape History
+  description: History is collective, but responsibility remains uneven. The World We Make Together follows
+    ordinary objects—a switch, a ballot, a fence, a bowl, a scale—into the institutions and relationships
+    through which people shape public life without becoming either solitary heroes or passive products
+    of structure.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: How do ordinary people make history when power is unequal?
+    whyItExists: History is collective without being evenly shared. The book follows ordinary objects
+      and shared action into institutions so readers can hold agency and unequal leverage in the same
+      frame—without reducing people to heroes or helpless products of structure.
+    audience: Readers of civic life, leadership, and collective action who need language for shared power
+      that does not erase unequal historical leverage.
+    nonGoals:
+    - It does not treat shared power as flattening all roles into equal voice or equal accountability.
+    - It does not dissolve responsibility into so many causes that no one remains answerable.
+    - It does not deny that some conflicts require binary decisions or resistance.
+    selectedConcepts:
+    - agency
+    - asymmetry
+    - authority
+    - coordination
+    - legitimacy
+    selectedPatterns:
+    - responsibility-persists-beyond-control
+    - leadership-coalesces
+    readBefore:
+    - when-others-become-leaders
+    readNext:
+    - trust-beyond-similarity
+    - after-certainty
+    relatedWorks:
+    - workId: when-others-become-leaders
+      relationship: deepens
+      reason: Extends how leadership forms among others into how ordinary people make history under unequal
+        power.
+    - workId: when-others-look-to-you
+      relationship: companion_to
+      reason: Pairs collective historical agency with the practice of being looked to as a leader.
+    - workId: trust-beyond-similarity
+      relationship: deepens
+      reason: Shared action across difference requires trust that does not demand sameness.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Collective causation and uneven responsibility prepare the capstone question of judgment
+        without total explanation.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -32,22 +73,19 @@ frontmatter:
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: back-matter/about-the-series.md
-
 build:
   formats:
     docx:
       enabled: true
-      # Cover/front-matter silent; Arabic from Introduction; no heads on openers; no TOC.
       interior_finish: true
     epub:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

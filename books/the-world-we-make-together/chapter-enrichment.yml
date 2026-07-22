@@ -1,0 +1,23 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-4-from-power-over-to-power-with/chapter-10-the-window.md
+    summary: >
+      A window enlarges perspective without making it complete. Shared power is framed as
+      power-with—an opening between walls—where unequal vantage points must alter what others
+      can understand and do.
+    centralQuestion: How can shared power hold unequal windows of perspective without erasing them?
+    selectedConcepts:
+      - agency
+      - asymmetry
+      - authority
+      - legitimacy
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - leadership-coalesces
+    searchAliases:
+      - power-with
+      - ordinary people making history
+    situations:
+      - photograph-hides-surrounding-action
+    readingTransition: >
+      From power-as-scale into power-with as an opening that selects without claiming completeness.

@@ -39,6 +39,7 @@ book:
     readNext:
     - coupling
     - when-others-look-to-you-v1
+  publication_date: '2026-01-15'
 paths:
   manuscript: ./index.md
   output: .

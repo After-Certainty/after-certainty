@@ -1,0 +1,51 @@
+id: structures-outlive-reasons
+slug: structures-outlive-reasons
+question: Why do structures outlive the reasons that created them?
+summary: Inherited infrastructures persist as sediment after original constraints thin—mistaken for nature
+  until remembered as fossils.
+orientation: Institutions fail not only by breaking. They also fail by keeping structures that once solved
+  real problems. Living in sediment is a habit of seeing, not automatic suspicion.
+whatThisIsNot:
+- Not the same question as temporary exceptions becoming permanent (though related).
+- Not a blanket attack on all inheritance or bureaucracy.
+- Not a policy checklist for remaking every fossil.
+status: published
+featured: false
+families:
+- Systems and institutions
+primaryBookId: book-living-in-sediment
+relatedQuestionIds:
+- institutions-preserve-obsolete-rules
+- temporary-exceptions-become-permanent
+searchHints:
+- institutional fossils
+- systems outlive their reasons
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-inheritance
+  description: Start with inheritance as the condition of present structure.
+  whyThisFollows: Sediment is inherited form, not only error.
+- position: 2
+  entityType: situation
+  entityId: situation-inherited-rule-outlives-constraint
+  description: Recognize the ordinary situation where a rule outlives its constraint.
+  whyThisFollows: The question becomes concrete in lived fossils.
+- position: 3
+  entityType: book
+  entityId: book-living-in-sediment
+  description: Primary book across fossils unnoticed, power-shaping, forming now, and living among them.
+  whyThisFollows: This is the direct treatment of sediment as present infrastructure.
+- position: 4
+  entityType: book
+  entityId: book-before-certainty-arrives
+  description: See how certainty formed under older constraints that may no longer hold.
+  whyThisFollows: Historical formation explains why sediment feels obvious.
+- position: 5
+  entityType: book
+  entityId: book-after-certainty
+  description: Judge and revise when inherited frames no longer suffice.
+  whyThisFollows: Seeing sediment leads into judgment after certainty.
+closingReflection: Remembering that a structure is sediment is not yet knowing what to remake. It is the
+  difference between mistaking inheritance for nature and living among it deliberately.
+carryForwardQuestion: Which rule in your life still answers a problem that has already changed?

@@ -1,0 +1,13 @@
+id: poetry
+slug: poetry
+title: Poetry
+description: Poems that trace attention, observation, and pattern without treating verse as proof.
+displayOrder: 7
+featured: false
+status: active
+selection:
+  mode: rule
+  rule:
+    type: contentType
+    values:
+    - poetry

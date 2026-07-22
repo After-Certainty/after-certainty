@@ -1,0 +1,50 @@
+id: final-result-leaves-unsettled
+slug: final-result-leaves-unsettled
+question: Why does a final result leave so much unsettled?
+summary: Operational finality can settle a score while cause, legitimacy, cost, and meaning remain open.
+orientation: Sports yields unusually clear outcomes. The remainder after the scoreboard is where judgment,
+  story, and public meaning continue.
+whatThisIsNot:
+- Not an argument that the scoreboard is wrong about its question.
+- Not a book for settling famous sports debates.
+- Not identical to institutional metrics replacing judgment (adjacent, distinct primary book).
+status: published
+featured: false
+families:
+- Measurement and lived experience
+primaryBookId: book-the-game-we-think-we-saw
+relatedQuestionIds:
+- scoreboard-settles-and-cannot
+- economy-improves-without-feeling-better
+searchHints:
+- result is final but argument is not
+- what the scoreboard leaves out
+pathStops:
+- position: 1
+  entityType: situation
+  entityId: situation-result-final-meaning-unsettled
+  description: Start where a final result still leaves meaning disputed.
+  whyThisFollows: The tension is recognizable before theory.
+- position: 2
+  entityType: concept
+  entityId: concept-scoreboard-remainder
+  description: Name what the scoreboard cannot settle.
+  whyThisFollows: Remainder is the analytic object.
+- position: 3
+  entityType: book
+  entityId: book-the-game-we-think-we-saw
+  description: 'Primary book: final result, unsettled cause, legitimacy, cost, and meaning.'
+  whyThisFollows: This volume centers sporting finality and its remainders.
+- position: 4
+  entityType: book
+  entityId: book-when-incentives-become-the-moral-language
+  description: 'Institutional cousin: metrics that settle too much.'
+  whyThisFollows: Adjacent path when scoreboards become moral language.
+- position: 5
+  entityType: book
+  entityId: book-after-certainty
+  description: Judgment when finality cannot finish the argument.
+  whyThisFollows: Unsettled remainders lead into the capstone.
+closingReflection: The score can be final while almost nothing else is. Keeping those clocks separate
+  is a discipline of judgment.
+carryForwardQuestion: What remainder are you still arguing after a result everyone accepts?
