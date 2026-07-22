@@ -22,11 +22,12 @@ paths:
   output: "."
 
 build:
-  ci: false
   formats:
     epub:
       enabled: false
     pdf:
       enabled: false
     docx:
-      enabled: false
+      enabled: true
+      # Cover/front-matter silent; Arabic from Introduction; no heads on openers; TOC field.
+      interior_finish: true

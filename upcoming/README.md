@@ -30,6 +30,6 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 ## Current upcoming titles
 
-- **The World We Make Together** — [`upcoming/the-world-we-make-together/`](the-world-we-make-together/) — keystone volume; full draft + Chicago bibliography; next: editorial review.
+- **The World We Make Together** — [`upcoming/the-world-we-make-together/`](the-world-we-make-together/) — keystone volume; full draft + Chicago bibliography; DOCX export enabled (CI artifact; not in `latest` until promoted).
 
 Scaffold additional titles from [`docs/_templates/`](docs/_templates/).
