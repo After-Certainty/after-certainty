@@ -412,7 +412,7 @@ And someone begins taking notes.
 
 [^c4-spectacles]: See contemporary and documentary retellings of Washington putting on spectacles and remarking that he had grown gray in the officers’ service and was becoming blind.
 
-[^c4-resolutions]: See accounts of the officers’ resolutions affirming confidence in Washington and rejecting the anonymous proposals, and of Washington’s continued advocacy before Congress.
+[^c4-resolutions]: See Mount Vernon and Library of Congress editions of the Newburgh crisis materials on the officers’ resolutions affirming confidence in Washington and rejecting the anonymous proposals, and on Washington’s continued advocacy before Congress.
 
 [^c4-ua173-gear]: See National Transportation Safety Board, *Aircraft Accident Report* NTSB-AAR-79-7, on United Airlines Flight 173’s landing-gear indication problem near Portland on December 28, 1978.
 
@@ -422,4 +422,4 @@ And someone begins taking notes.
 
 [^c4-ntsb-ua173]: See NTSB-AAR-79-7 concluding that the captain failed to monitor and respond properly to the fuel state and that other crew members failed either to understand fully or communicate successfully the urgency of the situation; ten people died.
 
-[^c4-crm]: See Federal Aviation Administration accounts identifying Flight 173 as an important catalyst in the development and adoption of crew resource management.
+[^c4-crm]: See Federal Aviation Administration, “McDonnell Douglas DC-8-61” (N8082U / United Airlines Flight 173), Lessons Learned from Civil Aviation Accidents, https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U, identifying the accident as a catalyst for CRM adoption; and FAA Advisory Circular 120-51E, *Crew Resource Management Training* (January 22, 2004).

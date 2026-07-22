@@ -388,13 +388,13 @@ No one owns the view.
 
 Together, they may create an opening wide enough to act.
 
-[^c10-shaw]: See Barbara Ransby, *Ella Baker and the Black Freedom Movement* (Chapel Hill: University of North Carolina Press, 2003), and SNCC Digital Gateway materials on the Shaw University conference of April 15–17, 1960, and SNCC’s formation.
+[^c10-shaw]: See Barbara Ransby, *Ella Baker and the Black Freedom Movement: A Radical Democratic Vision* (Chapel Hill: University of North Carolina Press, 2003), and SNCC Digital Gateway, “Birth of SNCC,” https://snccdigital.org/, on the Shaw University conference of April 15–17, 1960.
 
 [^c10-autonomy]: See Ransby, *Ella Baker and the Black Freedom Movement*, on Baker’s insistence that students retain autonomy and practice group-centered leadership rather than become a youth division of an established organization.
 
 [^c10-moses]: See Ransby and Charles M. Payne, *I’ve Got the Light of Freedom* (Berkeley: University of California Press, 1995), on Baker’s connecting Bob Moses with Deep South organizers including Amzie Moore and the turn toward Mississippi voter registration.
 
-[^c10-citizenship]: See Lowcountry Digital History Initiative, “The Citizenship Schools,” on the Progressive Club class beginning in 1957 and the roles of Septima Clark, Esau Jenkins, Bernice Robinson, and Highlander Folk School.
+[^c10-citizenship]: See Lowcountry Digital History Initiative, “The Citizenship Schools,” https://ldhi.library.cofc.edu/, on the Progressive Club class beginning in 1957 and the roles of Septima Clark, Esau Jenkins, Bernice Robinson, and Highlander Folk School.
 
 [^c10-expansion]: See Citizenship School histories on expansion beyond Johns Island and SCLC’s assumption of the broader program in 1961.
 

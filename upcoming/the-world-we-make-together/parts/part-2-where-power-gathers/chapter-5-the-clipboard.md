@@ -486,10 +486,10 @@ And the next mark is made on a ballot.
 
 [^c5-nummi-research]: See Adler, “The ‘Learning Bureaucracy,’” emphasizing routines, training, trust, leadership, teamwork, and worker participation in identifying problems and improving processes.
 
-[^c5-nummi-close]: See contemporary accounts of NUMMI’s 2010 closing after GM ended participation and Toyota discontinued production at the plant.
+[^c5-nummi-close]: See contemporary reporting on NUMMI’s April 2010 plant closing after General Motors ended participation and Toyota discontinued production (e.g., *New York Times* and *San Francisco Chronicle* coverage of the Fremont closure).
 
-[^c5-porto-alegre-begin]: See World Bank participatory-budgeting case materials on Porto Alegre’s program beginning in 1989 during Brazil’s democratic transition.
+[^c5-porto-alegre-begin]: See World Bank, “Participatory Budgeting in Brazil” / Porto Alegre case studies documenting the program’s beginning in 1989 during Brazil’s democratic transition.
 
-[^c5-porto-alegre-1999]: See World Bank publications reporting an official estimate of approximately 40,000 citizens participating in Porto Alegre’s public budget meetings in 1999.
+[^c5-porto-alegre-1999]: See World Bank Porto Alegre participatory-budgeting publications reporting an official estimate of approximately 40,000 citizens participating in public budget meetings in 1999.
 
-[^c5-porto-alegre-eval]: See World Bank evaluations discussing Porto Alegre’s achievements and dependence on institutional design, civil society, inclusion, representation, and attention to unequal participation.
+[^c5-porto-alegre-eval]: See World Bank evaluations of Porto Alegre participatory budgeting discussing achievements and dependence on institutional design, civil society, inclusion, representation, and unequal participation.

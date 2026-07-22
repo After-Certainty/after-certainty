@@ -560,13 +560,13 @@ It cannot reveal what lies beyond the table.
 
 For that, the room needs a window.
 
-[^c9-pullman-town]: See National Park Service Pullman materials and related company-town histories on the approximately four-thousand-acre purchase south of Chicago, company ownership of buildings, and rents designed to return investment.
+[^c9-pullman-town]: See National Park Service, Pullman National Historical Park / Historic Resource Study, and Pullman company-town histories on the approximately four-thousand-acre purchase south of Chicago, company ownership of buildings, and rents designed to return investment.
 
 [^c9-panic-rents]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, and related histories on wage cuts after 1893 without corresponding rent reductions, including paycheck rent deductions.
 
 [^c9-strike]: See United States Strike Commission report on the May 11, 1894, Pullman strike, the American Railway Union boycott, the federal injunction and troops, and the jailing of Eugene V. Debs.
 
-[^c9-racial-exclusion]: See National Park Service research on racial divisions surrounding the Pullman labor struggles, including exclusion of Black railroad workers from white unions.
+[^c9-racial-exclusion]: See National Park Service, Pullman National Historical Park research on racial divisions surrounding the Pullman labor struggles, including exclusion of Black railroad workers from white unions.
 
 [^c9-commission]: See United States Strike Commission, *Report on the Chicago Strike of June–July, 1894*, criticizing the company town’s paternalistic structure and Pullman’s response to worker grievances.
 

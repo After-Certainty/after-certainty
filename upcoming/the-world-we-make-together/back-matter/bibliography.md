@@ -41,7 +41,7 @@ Encyclopedia of Arkansas. “Lost Year.” https://encyclopediaofarkansas.net/en
 :::
 
 ::: {custom-style="Bibliography"}
-Federal Aviation Administration. Materials on crew resource management and United Airlines Flight 173 as a catalyst for CRM training. Washington, DC: FAA.
+Federal Aviation Administration. “McDonnell Douglas DC-8-61” (N8082U / United Airlines Flight 173). Lessons Learned from Civil Aviation Accidents. https://www.faa.gov/lessons_learned/transport_airplane/accidents/N8082U. See also Advisory Circular 120-51E, *Crew Resource Management Training*. January 22, 2004.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -69,7 +69,7 @@ Lowcountry Digital History Initiative. “The Citizenship Schools.” https://ld
 :::
 
 ::: {custom-style="Bibliography"}
-Martin Luther King, Jr. Research and Education Institute, Stanford University. March on Washington / “I Have a Dream” documentary materials. https://kinginstitute.stanford.edu/.
+Martin Luther King, Jr. Research and Education Institute, Stanford University. “I Have a Dream” and March on Washington documentary materials. https://kinginstitute.stanford.edu/.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -81,11 +81,11 @@ Mill, John Stuart. *Considerations on Representative Government*. London: Parker
 :::
 
 ::: {custom-style="Bibliography"}
-National Aeronautics and Space Administration. Apollo program historical summaries (workforce and contractor base); Apollo 11 flight operations / program-alarm accounts. Washington, DC: NASA.
+National Aeronautics and Space Administration. *Managing NASA in the Apollo Era*. NASA SP-4102. Washington, DC: NASA, 1982. Related NASA Apollo 11 mission and flight-operations materials on workforce scale and program alarms.
 :::
 
 ::: {custom-style="Bibliography"}
-National Archives of South Africa. Materials on the 1994 election and democratic transition.
+National Archives of South Africa. Records and interpretive materials on the 1994 national election and democratic transition.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -93,7 +93,7 @@ National Museum of African American History and Culture. Black Panther Party com
 :::
 
 ::: {custom-style="Bibliography"}
-National Museum of American History. March on Washington / “I Have a Dream” interpretive materials. Washington, DC: Smithsonian Institution. https://americanhistory.si.edu/.
+National Museum of American History. “I Have a Dream” / March on Washington collection. Washington, DC: Smithsonian Institution. https://americanhistory.si.edu/.
 :::
 
 ::: {custom-style="Bibliography"}
@@ -181,6 +181,6 @@ Washington, George. Newburgh Address, 15 March 1783. Mount Vernon / Library of C
 :::
 
 ::: {custom-style="Bibliography"}
-World Bank. Participatory budgeting case materials on Porto Alegre, Brazil (origins 1989; participation estimates; institutional evaluations). Washington, DC: World Bank.
+World Bank. Porto Alegre participatory-budgeting case studies and evaluations (origins 1989; ~40,000 participants reported for 1999; institutional design assessments). Washington, DC: World Bank.
 :::
 

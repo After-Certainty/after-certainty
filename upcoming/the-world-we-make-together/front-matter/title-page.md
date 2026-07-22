@@ -1,4 +1,4 @@
-![Cover](book-cover.png){ width=100% }
+![](book-cover.png){ width=100% }
 
 \newpage
 
@@ -7,3 +7,5 @@
 ## **How Ordinary People, Unequal Power, and Shared Action Shape History**
 
 **Kevin Steffensen**
+
+\newpage

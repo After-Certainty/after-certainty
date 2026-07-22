@@ -8,6 +8,7 @@
 
 - [Title Page](front-matter/title-page.md)
 - [Copyright](front-matter/copyright.md)
+- [Contents](front-matter/contents.md)
 - [Introduction — The Switch](front-matter/introduction-the-switch.md)
 
 ## Part I — Who Makes History?
@@ -16,8 +17,6 @@
 - [Chapter 2 — The Door](parts/part-1-who-makes-history/chapter-2-the-door.md)
 - [Chapter 3 — The Clock](parts/part-1-who-makes-history/chapter-3-the-clock.md)
 
-*Planned (not yet drafted): Part I bridge*
-
 ## Part II — Where Power Gathers
 
 - [Part II bridge](parts/part-2-where-power-gathers/bridge.md)
@@ -25,13 +24,11 @@
 - [Chapter 5 — The Clipboard](parts/part-2-where-power-gathers/chapter-5-the-clipboard.md)
 - [Chapter 6 — The Ballot](parts/part-2-where-power-gathers/chapter-6-the-ballot.md)
 
-
 ## Part III — What Shared Power Requires
 
 - [Part III bridge](parts/part-3-what-shared-power-requires/bridge.md)
 - [Chapter 7 — The Fence](parts/part-3-what-shared-power-requires/chapter-7-the-fence.md)
 - [Chapter 8 — The Bowl](parts/part-3-what-shared-power-requires/chapter-8-the-bowl.md)
-
 
 ## Part IV — From Power-Over to Power-With
 

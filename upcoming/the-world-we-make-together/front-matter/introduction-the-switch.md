@@ -118,51 +118,21 @@ That inequality creates one of democracy’s permanent difficulties. Democracy r
 
 Someone still has to coordinate. Someone may know more about the bridge, the disease, the budget, or the threat. Someone may hold the office whose decisions carry immediate consequences. Someone may become the person others watch when the moment does not explain itself.
 
-The democratic question is not whether leadership can be eliminated. It is what leadership does to the agency of others.
+What happens to other people’s agency when attention gathers around one judgment?
 
-Does it enlarge their ability to interpret and act? Does it make more knowledge available? Does it accept correction? Does it create conditions in which responsibility can spread? Or does it make everyone increasingly dependent on the judgment of the person at the center?
+What do institutions assume about the people they organize, and what behavior do those assumptions produce?
 
-The same question can be asked of institutions.
+What does a mark of equal standing leave unfinished?
 
-What do they assume about ordinary people?
+What must people risk in order to remain in relationship across difference they cannot erase?
 
-Do they treat people primarily as problems to be controlled, incentives to be adjusted, risks to be contained, votes to be acquired, or labor to be directed? Do they build systems around distrust and then point to the resulting passivity as proof that wider participation was never possible? Do they invite people to contribute while withholding the information, authority, time, and safety that contribution requires?
+When does another life become morally present inside a decision, not merely strategically useful to it?
 
-Institutions do not merely organize human action. They help shape the forms of action they later describe as natural.
+And when can power become something created through relationship rather than only something held over others?
 
-A system built on the assumption that people cannot be trusted may teach people that initiative is dangerous. A system that promises autonomy while punishing failure may teach them to perform confidence and conceal uncertainty. A public process designed around the assumption that citizens are uninformed may make meaningful participation nearly impossible, then treat low participation as evidence that citizens do not care.
+These questions open the chapters that follow. They are not answered here. They ask for history told through relationships rather than only through heroes or forces, and for responsibility measured carefully rather than denied.
 
-The frame does not simply describe the room. It changes how people move within it.
-
-This makes shared power harder than a declaration of equality.
-
-A ballot can recognize equal civic standing without equalizing money, time, knowledge, attention, or access. A meeting can give everyone three minutes to speak while one participant arrives with a legal team and another has taken unpaid leave to attend. A leader can invite feedback while retaining the power to ignore it without consequence.
-
-Formal equality matters. It does not complete the work.
-
-People must also become capable of remaining in relationship across differences they cannot erase. They must risk being corrected by those whose experiences they do not share. They must reveal interests beneath defended positions. They must build forms of trust that do not depend upon sameness.
-
-And trust alone is not enough.
-
-People can cooperate strategically while remaining indifferent to one another’s lives. They can build alliances because everyone gains. They can negotiate because conflict is expensive. They can tolerate difference because order serves them better than chaos.
-
-Shared power asks more.
-
-It asks whether another person’s loss remains morally real when we can avoid bearing it ourselves. It asks whether a life matters beyond its usefulness to the arrangement. It asks whether those with greater leverage will treat restraint as an obligation rather than a favor.
-
-These questions lead toward conflict, not away from it.
-
-People who trust one another can still disagree. People who recognize one another’s humanity may still need the same scarce resource. They may hold values that cannot be reconciled. They may inherit injuries that no conversation can erase. Care does not remove the need for judgment, law, boundaries, or authority.
-
-But it can change what conflict is for.
-
-Conflict can become more than a contest over which position will prevail. It can become an inquiry into the situation that produced the positions. Sometimes that inquiry reveals no better answer, and people must accept compromise or legitimate authority. Sometimes it reveals that the visible choices were never the whole field.
-
-That possibility is neither automatic nor innocent. It depends upon who has standing, who can speak safely, whose knowledge counts, who controls the resources, and whether the people involved can revise the frame without losing the ability to act.
-
-Power created together does not mean power equally possessed. It means a capacity emerges through relationship that no participant held alone.
-
-The world has always been made this way, though our stories often hide it.
+The world has always been made through shared action, though our stories often hide it.
 
 We build institutions from earlier decisions, then inherit them as though they appeared by themselves. We create roles, rules, expectations, categories, and boundaries, then describe the behavior they produce as human nature. We remember the person who signed the document and forget the people who made the signature possible. We judge decisions after their uncertainty has disappeared. We call arrangements permanent because we no longer see the hands that assembled them.
 

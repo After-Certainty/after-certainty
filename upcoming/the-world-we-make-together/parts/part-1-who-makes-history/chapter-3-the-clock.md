@@ -146,7 +146,7 @@ There is the time of choosing.
 
 And there is the time after the outcome has changed what the earlier evidence appears to mean.
 
-**Before**
+### **Before**
 
 Before a decision, the situation contains more possibilities than history will preserve.
 
@@ -158,7 +158,7 @@ One participant sees technical data. Another understands the political pressure.
 
 The future remains plural.
 
-**During**
+### **During**
 
 During the decision, time narrows the possibilities.
 
@@ -170,7 +170,7 @@ Some speak clearly. Some soften what they know. Some wait for someone else to ta
 
 A decision emerges before the situation is fully understood.
 
-**After**
+### **After**
 
 Afterward, the result becomes part of the evidence.
 

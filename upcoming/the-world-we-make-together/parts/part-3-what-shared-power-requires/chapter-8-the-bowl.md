@@ -364,9 +364,9 @@ Then we decide whether to pass it on.
 
 [^c8-nanak]: See Pluralism Project and related Sikh tradition accounts tracing langar to Guru Nanak as a practice of equality and selfless service across caste, religion, gender, and social rank.
 
-[^c8-bpp-oakland]: See California African American Museum materials recording that the Black Panther Party’s first Free Breakfast for School Children Program opened at St. Augustine’s Episcopal Church in Oakland on January 20, 1969, initially serving eleven children.
+[^c8-bpp-oakland]: See California African American Museum, “Free Breakfast for School Children Program,” recording the Panthers’ first Oakland site at St. Augustine’s Episcopal Church on January 20, 1969, initially serving eleven children.
 
-[^c8-bpp-smithsonian]: See National Museum of African American History and Culture materials on Panther survival programs—often locally led by women—and reports that breakfast programs fed approximately 20,000 children each day.
+[^c8-bpp-smithsonian]: See National Museum of African American History and Culture, Black Panther Party community survival programs, https://nmaahc.si.edu/, on programs often locally led by women and breakfast programs feeding approximately 20,000 children each day.
 
 [^c8-cointelpro]: See Church Committee *Final Report* and related FBI/historiography on COINTELPRO targeting of the Black Panther Party, including efforts to disrupt breakfast programs.
 

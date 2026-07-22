@@ -310,16 +310,16 @@ It does not yet show us how the path was built.
 
 [^c1-carlyle]: See Thomas Carlyle, *On Heroes, Hero-Worship, and the Heroic in History* (London: James Fraser, 1841). The six lectures were delivered in 1840.
 
-[^c1-smithsonian-speech]: See National Museum of American History interpretive materials on King’s speech at the March on Washington, noting its biblical, constitutional, and Lincolnian sources.
+[^c1-smithsonian-speech]: See National Museum of American History, “I Have a Dream,” March on Washington collection, https://americanhistory.si.edu/, on King’s speech drawing on biblical language, the Constitution, Lincoln, and other national sources.
 
-[^c1-jackson-dream]: See Stanford’s King Institute and Smithsonian accounts of Mahalia Jackson’s prompt, King’s departure from prepared text, and earlier uses of the dream theme.
+[^c1-jackson-dream]: See Martin Luther King, Jr. Research and Education Institute, Stanford University, “I Have a Dream” documentary materials, https://kinginstitute.stanford.edu/, and Smithsonian accounts of Mahalia Jackson’s prompt and King’s departure from prepared text.
 
-[^c1-randolph-rustin]: See National Park Service and King Institute materials identifying A. Philip Randolph as march director and Bayard Rustin as principal organizer.
+[^c1-randolph-rustin]: See National Park Service, March on Washington for Jobs and Freedom interpretive pages, and the King Institute, identifying A. Philip Randolph as march director and Bayard Rustin as principal organizer.
 
-[^c1-nps-attendance]: See National Park Service estimates that approximately 250,000 people attended the March on Washington for Jobs and Freedom on August 28, 1963.
+[^c1-nps-attendance]: See National Park Service, March on Washington for Jobs and Freedom, estimating approximately 250,000 participants on August 28, 1963.
 
-[^c1-women-speakers]: See Smithsonian, National Park Service, and King Institute sources on Hedgeman and Height’s pressure for women’s representation and the limited formal speaking roles, including Daisy Bates’s brief appearance.
+[^c1-women-speakers]: See Smithsonian National Museum of American History, National Park Service March materials, and the King Institute on Hedgeman and Height’s advocacy and limited formal speaking roles, including Daisy Bates’s brief appearance.
 
-[^c1-nasa-apollo]: See NASA historical summaries reporting that the Apollo program employed approximately 400,000 Americans at its peak and relied on more than 20,000 companies and universities.
+[^c1-nasa-apollo]: See NASA History Division, *Managing NASA in the Apollo Era*, NASA SP-4102 (Washington, DC: NASA, 1982), and related NASA historical summaries stating that the Apollo program employed approximately 400,000 Americans at its peak and relied on more than 20,000 companies and universities.
 
-[^c1-bales-alarms]: See NASA Apollo 11 flight-operations accounts of guidance controller Steve Bales and the decision to continue descent despite computer program alarms.
+[^c1-bales-alarms]: See NASA, *Apollo 11 Mission Report* and Apollo 11 flight-director / guidance-controller accounts of Steve Bales’s judgment that descent could continue despite computer program alarms 1201/1202.
