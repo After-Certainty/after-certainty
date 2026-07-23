@@ -1,22 +1,275 @@
 version: 1
 chapters:
+  - sourcePath: front-matter/introduction-the-meeting-everyone-remembered-differently.md
+    summary: >
+      Five people leave a meeting that looked successful carrying five different meetings—engineers
+      solving different problems, a designer updating a prototype, notes rewritten afterward. Blame
+      often finds a careless person; the introduction considers another possibility: collaboration
+      asks people to keep working where no one fully sees, controls, or owns the result.
+    centralQuestion: Why can sincere people leave the same room with different meetings in hand?
+    selectedConcepts:
+      - partial-coherence
+      - coordination
+      - diffuse-ownership
+      - legibility
+      - structural-fragility
+    selectedPatterns:
+      - meaning-outruns-the-words
+      - disagreement-is-suppressed
+    searchAliases:
+      - meeting everyone remembered differently
+      - five different meetings
+      - collaboration is structurally hard
+    situations:
+      - same-meeting-different-decisions
+    readingTransition: >
+      From the remembered-differently meeting into a production that no longer belongs to one director.
+
+  - sourcePath: parts/chapter-1-the-show-that-opens-friday.md
+    summary: >
+      By tech week a play has become a field of consequences—beams, cues, codes, sickness—beyond any
+      director’s private picture. Shared contribution holds the show together while credit compresses
+      into a name, and accumulated memory of that erasure can look like resistance to collaboration.
+      Some work cannot be done another way even when recognition fails.
+    centralQuestion: What happens when shared work exceeds any one person’s sight—and credit still needs a name?
+    selectedConcepts:
+      - shared-contribution
+      - contribution-asymmetry
+      - coordination
+      - invisible-labor
+      - structural-fragility
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - gaps-invite-completion
+      - intent-gets-assigned
+    searchAliases:
+      - the show that opens friday
+      - tech week consequences
+      - collaboration as erasure
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: The introduction showed partial understandings leaving the same room.
+      toNext: From contribution that no one owns alone into agreements that were never the same thing.
+
   - sourcePath: parts/chapter-2-we-did-not-agree-to-the-same-thing.md
     summary: >
       Two engineers leave the same meeting carrying incompatible “agreements”—one heard a decision,
       the other heard permission to keep thinking—revealing how collaboration often proceeds from
-      partial understanding rather than prior alignment.
+      partial understanding rather than prior alignment. Visible constraints and translation work
+      matter because silence can look like agreement while someone absorbs the gap between plan and
+      reality.
     centralQuestion: Why can sincere people leave the same meeting with different decisions?
     selectedConcepts:
       - partial-coherence
       - legibility
       - diffuse-ownership
+      - invisible-labor
+      - constraints
     selectedPatterns:
       - disagreement-is-suppressed
+      - meaning-outruns-the-words
     searchAliases:
       - same meeting different memories
       - thought we already agreed
+      - we did not agree to the same thing
     situations:
       - same-meeting-different-decisions
+    transition:
+      fromPrevious: The show opened as shared contribution beyond one person’s sight.
+      toNext: From the opening failure of shared memory into the invisible labor that tries to hold
+        collaboration together afterward.
+
+  - sourcePath: parts/chapter-3-the-person-who-keeps-the-spreadsheet.md
+    summary: >
+      A temporary curriculum spreadsheet becomes the department’s memory, route, and risk surface—
+      then gratitude asks the same person to keep carrying it through implementation. Appreciation
+      without redistribution apologizes for dependency; deeper recognition asks what she should no
+      longer have to carry. When she proposes handing maintenance off, an invisible arrangement
+      becomes visible.
+    centralQuestion: What does a collaboration owe the person who became everyone’s route?
+    selectedConcepts:
+      - invisible-labor
+      - contribution-asymmetry
+      - diffuse-ownership
+      - institutional-memory
+      - coordination
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - exceptions-are-forever
+    searchAliases:
+      - the person who keeps the spreadsheet
+      - temporary spreadsheet forever
+      - appreciation without redistribution
+    situations:
+      - reliable-person-becomes-the-route
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: Partial agreements had left translation work unnamed.
+      toNext: From concentrated invisible labor into rituals that make small changes visible before danger.
+
+  - sourcePath: parts/chapter-4-the-ritual-before-the-lift.md
+    summary: >
+      A construction crew’s morning circle names the route, wind limit, and signal person; a parked
+      truck is moved after six minutes because the ritual made a small change speakable before the
+      lift. Collaborative practices do not require perfect people—they create moments where limits
+      are less likely to become everyone else’s surprise. Rituals die when they can no longer change
+      anything.
+    centralQuestion: How do ordinary rituals keep human limits from becoming collective surprise?
+    selectedConcepts:
+      - designed-friction
+      - stabilizing-practices
+      - coordination
+      - feedback
+      - corrigibility
+    selectedPatterns:
+      - feedback-drives-change
+      - contact-keeps-the-read-open
+      - exceptions-are-forever
+    searchAliases:
+      - the ritual before the lift
+      - pre-lift briefing
+      - checklist that can still change the plan
+    situations:
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: The spreadsheet person had made dependency visible.
+      toNext: From living rituals into dashboards that cannot see what they summarize.
+
+  - sourcePath: parts/chapter-5-what-the-dashboard-cannot-see.md
+    summary: >
+      A board meeting opens on a green “people served” number that is accurate and incomplete—shorter
+      engagements, a coordinator on leave, sites meeting volume while losing experienced volunteers.
+      Summaries let distant governors act; they also invite the fantasy that the dashboard is the work.
+      Asking what the number cost restores texture without discarding the metric.
+    centralQuestion: What does a true summary hide about the cost of hitting the target?
+    selectedConcepts:
+      - legibility
+      - stale-representation
+      - abstraction
+      - proximity
+      - attention
+    selectedPatterns:
+      - attention-restores-contact
+      - meaning-gets-distorted
+      - learning-collapses
+    searchAliases:
+      - what the dashboard cannot see
+      - green number people served
+      - what this number cost
+    situations:
+      - chart-says-receipt-says-otherwise
+    transition:
+      fromPrevious: Rituals had kept contact with changing conditions.
+      toNext: From summaries that miss cost into alignment rooms that mistake nodding for agreement.
+
+  - sourcePath: parts/chapter-6-the-nodding-room.md
+    summary: >
+      An alignment session covers the wall in green dots beneath priorities broad enough that no one
+      objects; tensions are parked on a separate sheet to be managed later. Months afterward,
+      ownership meant authority to some and personal accountability to others, and someone who had
+      dotted every square green says they never agreed to the same plan. Nodding can suppress
+      disagreement until execution makes the split undeniable.
+    centralQuestion: When does visible alignment hide that people never agreed to the same plan?
+    selectedConcepts:
+      - partial-coherence
+      - alignment
+      - coherence-maintenance
+      - diffuse-ownership
+      - legibility
+    selectedPatterns:
+      - disagreement-is-suppressed
+      - meaning-outruns-the-words
+      - learning-collapses
+    searchAliases:
+      - the nodding room
+      - green dots alignment session
+      - tensions to manage later
+    situations:
+      - same-meeting-different-decisions
+      - dissent-narrows-to-workaround
+    transition:
+      fromPrevious: The dashboard had hidden what hitting the target cost.
+      toNext: From suppressed disagreement into speed that outruns care.
+
+  - sourcePath: parts/chapter-7-faster-than-care-can-move.md
+    summary: >
+      An ED tracking board makes delay visible—and useful—while pressure still thins the work care
+      requires: medication bottles half-read, histories rebuilt at each handoff, social work arriving
+      only at discharge. Humane optimization does not romanticize slowness; it moves necessary care
+      earlier so the clock no longer forces thinning. Some delays are indefensible; others reveal
+      design that placed care at the end of time.
+    centralQuestion: What happens when systems optimize speed past the pace care can move?
+    selectedConcepts:
+      - care
+      - acceleration
+      - throughput
+      - friction
+      - coordination-pressure
+    selectedPatterns:
+      - explanation-replaces-response
+      - attention-restores-contact
+      - feedback-drives-change
+    searchAliases:
+      - faster than care can move
+      - emergency department clock
+      - delay as design problem
+    situations:
+      - pressure-accelerates-interpretation
+      - explanation-displaces-action
+    transition:
+      fromPrevious: Nodding had deferred disagreement until mid-year progress walls.
+      toNext: From care under the clock into what the next team inherits from rooms that already failed.
+
+  - sourcePath: parts/chapter-8-what-the-next-team-inherits.md
+    summary: >
+      A consultant’s acronym triggers laughter about an initiative no one discusses; caution about
+      governance, pilots, and facilitation arrives as residue from earlier rooms. Collaboration begins
+      with people remembering other collaborations. Asking what would make this attempt different—
+      changed authority, scope, or repair—beats reassurance; a smaller handoff with a review date is
+      more believable than another grand integration promise.
+    centralQuestion: How should a new collaboration account for the residue of rooms that already failed?
+    selectedConcepts:
+      - inheritance
+      - residue
+      - institutional-memory
+      - structural-fragility
+      - trust
+    selectedPatterns:
+      - meaning-drifts-over-time
+      - exceptions-are-forever
+      - learning-collapses
+    searchAliases:
+      - what the next team inherits
+      - we don’t talk about that acronym
+      - pilots become permanent
+    situations:
+      - temporary-fixes-become-permanent
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: Care had been forced to race the clock.
+      toNext: The conclusion returns to Friday night—the show that opens while hiding the week that made it.
+
+  - sourcePath: back-matter/conclusion-the-show-opens-anyway.md
+    summary: >
+      The audience sees a whole; they do not see the doorway moved, the cue adjusted, or the
+      spreadsheet kept. Collaboration remains fragile among sincere people because it asks dependence
+      amid incomplete understanding—and still matters because some work only holds when people carry,
+      revise, and join one another’s unfinished parts before the seats fill.
+    centralQuestion: Why does the effort still matter when collaboration never becomes easy?
+    selectedConcepts:
+      - partial-coherence
+      - shared-contribution
+      - invisible-labor
+      - structural-fragility
+      - coordination
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - disagreement-is-suppressed
+      - attention-restores-contact
+    searchAliases:
+      - the show opens anyway
+      - audience sees a whole
+      - unfinished parts joined
     readingTransition: >
-      From the opening failure of shared memory into the invisible labor that tries to hold
-      collaboration together afterward.
+      Closes the book where Friday night hides the week—without promising collaboration will stop being hard.

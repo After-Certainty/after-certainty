@@ -1,9 +1,164 @@
 version: 1
 chapters:
+  - sourcePath: front-matter/introduction.md
+    summary: >
+      Understanding keeps arriving—better diagnoses, clearer patterns—while the tension remains.
+      The introduction separates successful explanation from what explanation cannot finish, and
+      asks what participation looks like once misunderstanding is treated as a lasting condition
+      rather than a temporary deficit of information.
+    centralQuestion: How do we keep participating once understanding alone cannot settle the tension?
+    selectedConcepts:
+      - certainty
+      - uncertainty
+      - interpretation
+      - meaning
+      - judgment
+    selectedPatterns:
+      - explanation-replaces-response
+      - meaning-outruns-the-words
+    searchAliases:
+      - what remains after understanding
+      - clarity without closure
+      - misunderstanding as permanent condition
+    readingTransition: >
+      From the series' diagnostic work into Part I—letting go of the grips that try to finish what
+      understanding cannot.
+
+  - sourcePath: parts/part-1-letting-go/bridge.md
+    summary: >
+      Clarity has arrived without relief. People tighten their hold on correctness, explanation,
+      admiration, and moral sorting—responses that began as care—because uncertainty is expensive
+      and they still need somewhere to stand. The part asks what must be released when those grips
+      are asked to carry more than they can.
+    centralQuestion: What must we release when familiar forms of certainty start carrying more than they can?
+    selectedConcepts:
+      - certainty
+      - uncertainty
+      - coherence-maintenance
+      - care
+    selectedPatterns:
+      - correctness-hardens-into-identity
+      - explanation-replaces-response
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - letting go
+      - clarity without relief
+    transition:
+      fromPrevious: The introduction named clarity without closure.
+      toNext: Chapter 1 begins with correctness hardening into identity over a remembered tree.
+
+  - sourcePath: parts/part-1-letting-go/chapter-1-the-end-of-correctness.md
+    summary: >
+      Two siblings argue about a tree that no longer exists until remembering becomes defending who
+      still counts as worth listening to. Correctness begins as coordination with reality, then
+      hardens into identity—so revision starts threatening coherence rather than improving the
+      account. Letting go of correctness is not abandoning truth; it is refusing to treat being right
+      as the end of moral tension.
+    centralQuestion: What happens when being right becomes an identity that can no longer revise?
+    selectedConcepts:
+      - certainty
+      - coherence-maintenance
+      - judgment
+      - identity-saturation
+      - revisability
+    selectedPatterns:
+      - correctness-hardens-into-identity
+      - revisability-preserves-judgment
+    searchAliases:
+      - the end of correctness
+      - argument about the tree
+      - being right feels moral
+    situations:
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: Part I frames the grips people tighten under uncertainty.
+      toNext: From identity-hardened correctness into explanation that displaces response.
+
+  - sourcePath: parts/part-1-letting-go/chapter-2-the-cost-of-explanation.md
+    summary: >
+      An excellent map leaves travelers still lost—every road marked except the question of where to
+      go now. Explanation orients after confusion, then quietly inherits responsibilities that belong
+      to action, care, and judgment. Under pressure it becomes endless motion without arrival, a
+      respectable way of postponing what remaining uncertainty still requires.
+    centralQuestion: When does more explanation stop clarifying and start displacing what must be done?
+    selectedConcepts:
+      - interpretation
+      - displacement-of-interpretation
+      - responsibility
+      - uncertainty
+      - judgment
+    selectedPatterns:
+      - explanation-replaces-response
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - the cost of explanation
+      - the map that explained everything
+      - analysis paralysis as care
+    situations:
+      - explanation-displaces-action
+    transition:
+      fromPrevious: Correctness hardened into identity over the remembered tree.
+      toNext: From explanation that absorbs responsibility into hero–villain sorting that simplifies harm.
+
+  - sourcePath: parts/part-1-letting-go/chapter-3-releasing-heroes-and-villains.md
+    summary: >
+      A beloved teacher’s story adjusts itself around a first complaint until trust becomes
+      insulation from scrutiny. Heroes concentrate hope and villains gather harm into a face—both
+      make the moral world legible, and both can protect communities from examining participation,
+      incentives, and proximity. Releasing archetypes is not relativism; it is keeping trust open to
+      proportioned inquiry after admiration has settled.
+    centralQuestion: Can trust survive scrutiny once admiration has made someone untouchable—or unforgivable?
+    selectedConcepts:
+      - trust
+      - harm
+      - legitimacy
+      - responsibility
+      - sorting
+    selectedPatterns:
+      - admiration-becomes-insulation
+      - blame-compresses-complexity
+      - scrutiny-preserves-trust
+    searchAliases:
+      - releasing heroes and villains
+      - the teacher everyone trusted
+      - admiration as insulation
+    situations:
+      - admiration-insulates-from-scrutiny
+      - blame-locates-harm-in-a-face
+    transition:
+      fromPrevious: Explanation had begun absorbing what response still owed.
+      toNext: Part II turns from what fails under pressure to practices that remain possible afterward.
+
+  - sourcePath: parts/part-2-what-can-still-be-practiced/bridge.md
+    summary: >
+      After correctness, explanation, and moral sorting each fail to finish uncertainty, the desire
+      for certainty returns in smaller forms—one more conversation, one more decision, one more
+      carefully worded message. The bridge refuses replacement frameworks and points toward judgment
+      that can revise, responsibility that persists without control, and speech answerable to effects.
+    centralQuestion: What can still be practiced once familiar certainties weaken without a replacement certainty?
+    selectedConcepts:
+      - judgment
+      - revisability
+      - responsibility
+      - uncertainty
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - responsibility-persists-beyond-control
+      - speech-escalates-faster-than-meaning
+    searchAliases:
+      - what can still be practiced
+      - certainty returns in smaller forms
+    transition:
+      fromPrevious: Part I released grips that could not finish the tension.
+      toNext: Chapter 4 begins with an appointment that decides without closing the situation.
+
   - sourcePath: parts/part-2-what-can-still-be-practiced/chapter-4-judgment-without-finality.md
     summary: >
       Someone finally makes the appointment — a decision enters the calendar while worry, waiting, and
-      consequence continue — showing judgment that acts without claiming finality.
+      consequence continue — showing judgment that acts without claiming finality. Restraint schedules
+      the visit without treating the result as the end of the story; indecision postpones because being
+      wrong feels unbearable. Revisability keeps judgment in contact with consequences rather than
+      converting exhaustion into premature close.
     centralQuestion: How do we decide when the situation will continue after the decision?
     selectedConcepts:
       - judgment
@@ -19,5 +174,216 @@ chapters:
       - the appointment
     situations:
       - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: Part II opens practices that remain after certainty weakens.
+      toNext: From judgment that cannot finish the situation into responsibility without control.
+
+  - sourcePath: parts/part-2-what-can-still-be-practiced/chapter-5-responsibility-without-control.md
+    summary: >
+      A daughter keeps driving over on Tuesdays—disagreements intact, aging unfinished, presence
+      chosen without the fantasy that agreement restores mastery. Responsibility is reframed as
+      responsiveness and participation after control thins: remaining answerable without becoming
+      consumed, and without treating ineffectiveness as permission to withdraw.
+    centralQuestion: Why remain responsible for what you can no longer control?
+    selectedConcepts:
+      - responsibility
+      - answerability
+      - agency
+      - care
+      - contact
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - attention-restores-contact
+    searchAliases:
+      - responsibility without control
+      - the visit
+      - participation after control thins
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: The appointment decided without finishing the waiting.
+      toNext: From responsibility that outlasts control into speech that tries to do less harm.
+
+  - sourcePath: parts/part-2-what-can-still-be-practiced/chapter-6-speech-that-does-less-harm.md
+    summary: >
+      A carefully drafted message returns instantly as “That is not what I said,” and more words
+      widen the distance. Language travels faster than meaning; clarifications multiply surfaces for
+      conflict. The chapter shifts the question from persuasion to proportion—what effects words will
+      have once they leave control—without treating silence as the only alternative.
+    centralQuestion: What should speech do when more words make misunderstanding larger?
+    selectedConcepts:
+      - meaning
+      - interpretation
+      - harm
+      - compression
+      - contact
+    selectedPatterns:
+      - speech-escalates-faster-than-meaning
+      - meaning-outruns-the-words
+      - explanation-replaces-response
+    searchAliases:
+      - speech that does less harm
+      - the text message
+      - more words clarify less
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: Responsibility persisted after control thinned.
+      toNext: Part III turns toward limits that do not yield to further insight.
+
+  - sourcePath: parts/part-3-living-with-limits/bridge.md
+    summary: >
+      Even after practice begins, readers may still wait for the framework that lets responsibility
+      start only after uncertainty disappears. Some conditions—scale, abstraction, incomplete
+      understanding, human particularity—remain irreducible. Hoping they will vanish becomes its own
+      postponement of living inside them.
+    centralQuestion: What remains possible when some limits belong to the conditions of living together?
+    selectedConcepts:
+      - uncertainty
+      - scale
+      - abstraction
+      - judgment
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - attention-restores-contact
+    searchAliases:
+      - living with limits
+      - irreducible conditions
+    transition:
+      fromPrevious: Speech had to answer to effects it could not control.
+      toNext: Chapter 7 begins with a test result that answers one question and creates three more.
+
+  - sourcePath: parts/part-3-living-with-limits/chapter-7-the-discipline-of-not-knowing.md
+    summary: >
+      A test result sits on the kitchen table—numbers fixed, questions multiplied—while rain remains
+      forecast without arriving on schedule. Uncertainty is not always a bridge to later clarity; it
+      can be a place people must inhabit. The discipline is refusing invented certainty, acting while
+      unfinished, and treating revision as contact with reality rather than inconsistency.
+    centralQuestion: How do we act when more information will not remove what we still have to live inside?
+    selectedConcepts:
+      - uncertainty
+      - revisability
+      - judgment
+      - humility
+      - certainty
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - the discipline of not knowing
+      - the test result
+      - holding uncertainty without filling it
+    situations:
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: Part III named limits that do not fully yield.
+      toNext: From carrying uncertainty into staying human when scale abstracts persons away.
+
+  - sourcePath: parts/part-3-living-with-limits/chapter-8-staying-human-at-scale.md
+    summary: >
+      A class photo becomes a person again when someone points to the boy who drowned—attention
+      restoring contact without new information. Large systems must abstract to coordinate; the danger
+      is treating the green dashboard as sufficient when one harm is too small to move the metric.
+      Attention does not scale easily or stop the rollout; it refuses replacement logic that averages
+      people out of moral view.
+    centralQuestion: How do we keep particular people visible inside systems that must abstract to function?
+    selectedConcepts:
+      - abstraction
+      - scale
+      - attention
+      - proximity
+      - care
+    selectedPatterns:
+      - attention-restores-contact
+      - blame-compresses-complexity
+    searchAliases:
+      - staying human at scale
+      - the class photo
+      - green dashboard and one harm
+    situations:
+      - chart-says-receipt-says-otherwise
+    transition:
+      fromPrevious: Not knowing had to be carried without invented certainty.
+      toNext: From attention under scale into knowing when further interpretation no longer changes care.
+
+  - sourcePath: parts/part-3-living-with-limits/chapter-9-when-to-stop-interpreting.md
+    summary: >
+      Explanations of a relationship keep improving while the relationship does not; the question
+      shifts from why this is happening to whether another explanation would change what care requires.
+      Stopping interpretation is discernment, not ignorance—seeing enough of a visible pattern to act,
+      while keeping judgment revisable afterward.
+    centralQuestion: When does further understanding stop changing what care now requires?
+    selectedConcepts:
+      - interpretation
+      - judgment
+      - revisability
+      - displacement-of-interpretation
+      - care
+    selectedPatterns:
+      - explanation-replaces-response
+      - revisability-preserves-judgment
+    searchAliases:
+      - when to stop interpreting
+      - explanations improve relationship does not
+      - seeing enough
+    situations:
+      - explanation-displaces-action
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: Attention had restored particular contact inside abstraction.
+      toNext: The conclusion asks what “enough” means once closure is no longer available.
+
+  - sourcePath: back-matter/conclusion-enough.md
+    summary: >
+      Understanding improves and the weight remains. “Enough” names participation without the shelter
+      of final settlement—enough judgment to act, enough uncertainty to stay honest, enough humility
+      to revise—without treating guarantees as the price of caring. Belonging appears in ordinary
+      presence; what we leave behind outruns control.
+    centralQuestion: What counts as enough to continue when understanding will not finish the work?
+    selectedConcepts:
+      - judgment
+      - uncertainty
+      - responsibility
+      - humility
+      - care
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - responsibility-persists-beyond-control
+      - attention-restores-contact
+    searchAliases:
+      - enough
+      - living without closure
+      - enough to continue
     readingTransition: >
-      From judgment that cannot finish the situation into responsibility without control.
+      From “enough” as practice into the appendix’s field guide of drifts and counter-disciplines.
+
+  - sourcePath: back-matter/appendix-stabilizers-and-distortions.md
+    summary: >
+      Stabilizers—correctness, explanation, admiration, speech, judgment, responsibility,
+      attention—begin as ways to navigate uncertainty, then drift when overburdened under scale and
+      pressure. The appendix pairs recurring drifts with counter-disciplines and names irreducible
+      conditions so readers can recognize patterns already met in the chapters.
+    centralQuestion: How do moral stabilizers drift—and what counter-disciplines remain viable afterward?
+    selectedConcepts:
+      - judgment
+      - responsibility
+      - trust
+      - attention
+      - uncertainty
+    selectedPatterns:
+      - correctness-hardens-into-identity
+      - explanation-replaces-response
+      - admiration-becomes-insulation
+      - blame-compresses-complexity
+      - revisability-preserves-judgment
+      - responsibility-persists-beyond-control
+      - scrutiny-preserves-trust
+      - attention-restores-contact
+      - speech-escalates-faster-than-meaning
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - stabilizers and distortions
+      - drift patterns
+      - counter-disciplines
+    readingTransition: >
+      Closes the book as a recognition guide rather than a new framework to install.
