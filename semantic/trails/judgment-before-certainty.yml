@@ -16,6 +16,7 @@ primaryBookId: book-before-certainty-arrives
 relatedTrailIds:
 - systems-without-correction
 - software-judgment-trail
+- practices-of-seeing
 pathStops:
 - position: 1
   entityType: concept

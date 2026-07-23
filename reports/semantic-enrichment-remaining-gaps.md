@@ -1,37 +1,45 @@
 # Remaining semantic enrichment gaps
 
-After the 2026-07-22 enrichment pass (priority books + chapters infrastructure).
+Updated after slice 2 (2026-07-23): recommended trails + next thin-book overview cluster.
 
-## Completed in this pass
+## Completed
 
-- Completeness report (`make report-semantic-completeness`)
-- `poetry` content type + `literary_form`; Boundary Conditions → fiction; Observer Patterns → poetry
-- Rich overviews + typed `relatedWorks` for nine priority volumes
-- Additive `parts[]` / `chapters[]` with stable path-based IDs; three authored chapter enrichments
-- Expanded search aliases (vocabulary bridges)
-- New situations (meeting/decisions, chart/receipt, reliable person, result/meaning, inherited rule, photograph frame)
-- Seven new questions; two new trails (Inheritance and Institutional Sediment; The Reliable Person)
-- Publication dates backfilled only where change-event evidence existed
+### Pass 1 (#328)
+- Completeness report; poetry/`literaryForm`; priority nine overviews; parts/chapters; situations/questions; two trails; evidenced publication dates
 
-## Still thin (next enrichment batch)
+### Slice 2 (this PR)
+- Trails: **The Result and the Experience**; **Practices of Seeing**
+- Extended **Leadership After the Person** with `when-others-become-leaders`
+- Overviews + typed `relatedWorks` + search aliases for:
+  - `when-incentives-become-the-moral-language`
+  - `when-interpretation-no-longer-matters`
+  - `when-others-become-leaders`
+  - `why-diversity-matters`
+  - `the-discipline-of-uncertainty`
+  - `how-trust-forms`
+  - `when-trust-stops-tracking-reality`
+  - `when-authority-is-misread`
 
-Books still missing rich overviews (non-exhaustive): `how-trust-forms`, `the-discipline-of-uncertainty`, `velorum`, `when-accountability-no-longer-expires`, `when-authority-is-misread`, `when-authority-outlives-accountability`, `when-incentives-become-the-moral-language`, `when-interpretation-no-longer-matters`, `when-moral-seriousness-scales`, `when-others-become-leaders`, `when-others-look-to-you-v2`, `when-trust-stops-tracking-reality`, `why-diversity-matters`.
+## Still thin (next batch)
+
+Books still missing rich overviews:
+- `velorum` (fiction)
+- `when-accountability-no-longer-expires`
+- `when-authority-outlives-accountability`
+- `when-moral-seriousness-scales`
+- `when-others-look-to-you-v2` (companion edition — may need companion-appropriate overview, not a duplicate of v1)
 
 Most public books still lack authored `publication_date` and public change events — **do not invent dates**.
 
-## Recommended follow-up trails (documented, not authored here)
+## Recommended next enrichment
 
-1. **The Result and the Experience** — `the-game-we-think-we-saw` → `the-economy-we-dont-experience` → `what-we-cannot-see`
-2. **Practices of Seeing** — `learning-to-see` → `observer-patterns` → `what-we-cannot-see` → `curiosity-before-certainty`
+1. **Stabilization / accountability cluster** — `when-accountability-no-longer-expires`, `when-authority-outlives-accountability`, `when-moral-seriousness-scales`
+2. **Companion + fiction leftovers** — WoLTY v2 companion overview; Velorum fiction overview
+3. **Questions (only if distinct)** — trust formation; trust detachment; circulation-after-the-person (avoid duplicating existing question primaries)
+4. **Chapter enrichment** — expand beyond the three representative chapters from pass 1
 
 ## Editorial review still needed
 
-- Confirm publication dates for priority books when reliable release records exist
-- Whether `the-discipline-of-uncertainty` and essay editions should get handbook/essay_collection refinements beyond defaults
-- Chapter enrichment coverage beyond the three representative chapters
-- Whether fiction shelf / poetry shelf copy should mention Boundary Conditions and Observer Patterns explicitly in Start Here or thematic curated shelves
-
-## Manifest size note
-
-Baseline (pre-pass): ~2.14 MB, schemaVersion 2.1, no parts/chapters.  
-Post-pass: ~2.70 MB, schemaVersion 2.2, ~124 parts, ~625 chapters (metadata only; no full text).
+- Publication dates for priority and newly enriched books when reliable release records exist
+- Whether WoLTY v2 should get a full overview or a shorter companion orientation
+- Curated shelf placement beyond rule shelves for newly oriented volumes

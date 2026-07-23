@@ -15,6 +15,7 @@ primaryBookId: book-living-in-sediment
 relatedTrailIds:
 - judgment-before-certainty
 - systems-without-correction
+- the-result-and-the-experience
 pathStops:
 - position: 1
   entityType: book

@@ -1,33 +1,73 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: when-authority-is-misread
-  title: "When Authority Is Misread"
-  subtitle: "How Communication and Moral Judgment Shape Leadership at Scale"
-  description: "An examination of what happens when signals of confidence are mistaken for legitimacy, and how that confusion distorts trust and decision-making."
+  title: When Authority Is Misread
+  subtitle: How Communication and Moral Judgment Shape Leadership at Scale
+  description: An examination of what happens when signals of confidence are mistaken for legitimacy,
+    and how that confusion distorts trust and decision-making.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   purchase_links:
-    - retailer: amazon
-      url: https://www.amazon.com/gp/product/B0DWZ2ZFXG
-      label: Buy on Amazon
+  - retailer: amazon
+    url: https://www.amazon.com/gp/product/B0DWZ2ZFXG
+    label: Buy on Amazon
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: How are leaders understood, misunderstood, idealized, and condemned — and what does
+      looking twice still make possible?
+    whyItExists: Communication and moral judgment shape leadership at scale. The book slows interpretation
+      long enough to see how signals, outcomes, and later memory misread authority before fair accounting.
+    audience: Readers of meaning and leadership who argue about leaders and need to see what they are
+      looking at — hallway scale and historical scale.
+    nonGoals:
+    - It is not a scorecard deciding who was right before evidence, or a biography set.
+    - It does not require prior books, though How Meaning Moves and When Others Look to You are adjacent.
+    - Looking twice is not endless suspension or premature verdict.
+    selectedConcepts:
+    - authority
+    - legitimacy
+    - interpretation
+    - compression
+    - accountability
+    - moral-surplus
+    selectedPatterns:
+    - intent-gets-assigned
+    - gaps-invite-completion
+    - meaning-outruns-the-words
+    - admiration-becomes-insulation
+    readBefore:
+    - how-meaning-moves
+    - when-others-look-to-you-v1
+    readNext:
+    - when-accountability-no-longer-expires
+    - when-interpretation-no-longer-matters
+    relatedWorks:
+    - workId: how-meaning-moves
+      relationship: deepens
+      reason: Compression and signal at human scale become misreading of leaders at historical scale.
+    - workId: when-others-look-to-you
+      relationship: companion_to
+      reason: How authority forms and renews pairs with how audiences and memory misread it.
+    - workId: when-accountability-no-longer-expires
+      relationship: continues
+      reason: Misread legitimacy opens into institutional persistence after harm.
+    - workId: when-interpretation-no-longer-matters
+      relationship: prepares_for
+      reason: Distorted readings of leaders can harden into authority that no longer needs understanding.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 assets:
   diagrams:
     auto_discover: false
-
 frontmatter:
   generate:
     enabled: true
@@ -37,11 +77,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -50,11 +88,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

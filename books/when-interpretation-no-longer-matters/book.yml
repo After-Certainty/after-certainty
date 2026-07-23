@@ -1,25 +1,71 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: when-interpretation-no-longer-matters
-  title: "When Interpretation No Longer Matters"
-  subtitle: "Authority When Understanding No Longer Governs"
-  description: "When interpretation loses public consequence while understanding persists—and what kinds of authority remain when hearing no longer becomes legitimacy, accountability, or repair."
+  title: When Interpretation No Longer Matters
+  subtitle: Authority When Understanding No Longer Governs
+  description: When interpretation loses public consequence while understanding persists—and what kinds
+    of authority remain when hearing no longer becomes legitimacy, accountability, or repair.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: What kind of authority exists when understanding no longer has the power to matter?
+    whyItExists: Earlier books stay where interpretation is strained but still operative. This one begins
+      at the boundary — hearing, restatement, even private assent without revised legitimacy — and diagnoses
+      authority after shared evaluation loses consequence.
+    audience: Readers of meaning, leadership, and institutions who need to tell misunderstanding apart
+      from interpretation without leverage — before prescribing clearer speech.
+    nonGoals:
+    - It is not a moral verdict on people, nor a rescue plan to restore interpretation everywhere.
+    - It does not collapse misunderstanding, disagreement, refusal, and missing leverage into one failure.
+    - It is not the same inquiry as metrics replacing judgment (see When Incentives Become the Moral Language).
+    selectedConcepts:
+    - interpretation
+    - authority
+    - narrative-enclosure
+    - displacement-of-interpretation
+    - witness
+    - post-interpretive-authority
+    selectedPatterns:
+    - explanation-replaces-response
+    - disagreement-is-suppressed
+    - correctness-hardens-into-identity
+    - meaning-reinforces-itself
+    readBefore:
+    - how-meaning-moves
+    readNext:
+    - when-incentives-become-the-moral-language
+    - after-certainty
+    relatedWorks:
+    - workId: how-meaning-moves
+      relationship: continues
+      reason: From meaning still coordinating consequence into rooms where understanding persists without
+        leverage.
+    - workId: when-incentives-become-the-moral-language
+      relationship: companion_to
+      reason: Twin Tension books — portable proxies vs authority that no longer answers to shared evaluation.
+    - workId: when-authority-is-misread
+      relationship: reframes
+      reason: Misread authority is one pathway toward authority that no longer needs understanding.
+    - workId: why-collaboration-is-so-hard
+      relationship: contrasts_with
+      reason: Coordination under diffuse ownership still assumes interpretation can reach work; this book
+        names when it cannot.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: After diagnostic clarity about missing consequence, practice asks how to live and judge
+        anyway.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -29,11 +75,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -42,11 +86,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

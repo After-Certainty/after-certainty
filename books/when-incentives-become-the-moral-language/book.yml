@@ -1,25 +1,73 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: when-incentives-become-the-moral-language
-  title: "When Incentives Become the Moral Language"
-  subtitle: "How Systems Decide For Us When Judgment No Longer Scales"
-  description: "How metrics and incentives become the moral language of institutions when coordination outruns shared meaning."
+  title: When Incentives Become the Moral Language
+  subtitle: How Systems Decide For Us When Judgment No Longer Scales
+  description: How metrics and incentives become the moral language of institutions when coordination
+    outruns shared meaning.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: What happens when incentives become more portable than judgment?
+    whyItExists: Institutions translate care into metrics so decisions can travel across distance and
+      scrutiny. This book follows that translation until proxies stop describing the good and begin substituting
+      for it — while still solving real coordination problems.
+    audience: Leaders, clinicians, operators, journalists, and readers who live inside dashboards and
+      still feel the questions those dashboards cannot ask.
+    nonGoals:
+    - It is not an argument against measurement or an indictment of everyone who uses metrics.
+    - It does not treat gaming and fraud as the main story; sincere optimization can still thin judgment.
+    - It is not a rescue playbook for restoring shared moral language at scale.
+    selectedConcepts:
+    - incentives
+    - judgment
+    - targets
+    - attention
+    - engagement
+    - residue
+    selectedPatterns:
+    - learning-collapses
+    - finality-compensates-for-uncertainty
+    - blame-compresses-complexity
+    readBefore:
+    - how-meaning-moves
+    readNext:
+    - when-interpretation-no-longer-matters
+    - the-game-we-think-we-saw
+    - after-certainty
+    relatedWorks:
+    - workId: when-interpretation-no-longer-matters
+      relationship: companion_to
+      reason: Metrics replace judgment; interpretation without leverage names another way understanding
+        stops governing.
+    - workId: why-collaboration-is-so-hard
+      relationship: contrasts_with
+      reason: Coordination labor and diffuse ownership sit beside incentive language that hides what cannot
+        be scored.
+    - workId: the-economy-we-dont-experience
+      relationship: companion_to
+      reason: Aggregate indicators and lived experience are parallel forms of portable evidence with missing
+        columns.
+    - workId: the-game-we-think-we-saw
+      relationship: deepens
+      reason: Scoreboard finality that cannot settle meaning continues the unsettled remainder after metrics
+        decide.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Diagnostic volumes hand off to practice when explanation and dashboards no longer settle
+        responsibility.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -29,11 +77,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -42,11 +88,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

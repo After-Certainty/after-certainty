@@ -155,8 +155,41 @@ def test_new_questions_and_trails(tmp_path: Path) -> None:
     tids = {t["id"] for t in data["trails"]}
     assert "inheritance-and-institutional-sediment" in tids
     assert "the-reliable-person" in tids
+    assert "the-result-and-the-experience" in tids
+    assert "practices-of-seeing" in tids
     trail = next(t for t in data["trails"] if t["id"] == "the-reliable-person")
     assert trail["pathStops"][0].get("fictionDoorway") is True
+    result_trail = next(t for t in data["trails"] if t["id"] == "the-result-and-the-experience")
+    assert [s["entityId"] for s in result_trail["pathStops"]] == [
+        "book-the-game-we-think-we-saw",
+        "book-the-economy-we-dont-experience",
+        "book-what-we-cannot-see",
+    ]
+    seeing = next(t for t in data["trails"] if t["id"] == "practices-of-seeing")
+    assert seeing["pathStops"][1]["entityId"] == "book-observer-patterns"
+
+
+def test_slice2_overview_cluster(tmp_path: Path) -> None:
+    data = _generate(tmp_path)
+    by = {b["slug"]: b for b in data["books"]}
+    for slug in (
+        "when-incentives-become-the-moral-language",
+        "when-interpretation-no-longer-matters",
+        "when-others-become-leaders",
+        "why-diversity-matters",
+        "the-discipline-of-uncertainty",
+        "how-trust-forms",
+        "when-trust-stops-tracking-reality",
+        "when-authority-is-misread",
+    ):
+        ov = by[slug]["overview"]
+        assert ov["centralQuestion"]
+        assert ov.get("relatedWorks")
+    assert by["the-discipline-of-uncertainty"]["contentType"] == "handbook"
+    leadership = next(t for t in data["trails"] if t["id"] == "leadership-after-the-person")
+    assert any(
+        s.get("entityId") == "book-when-others-become-leaders" for s in leadership["pathStops"]
+    )
 
 
 def test_compatibility_existing_keys_remain(tmp_path: Path) -> None:

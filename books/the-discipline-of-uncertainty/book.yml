@@ -15,6 +15,47 @@ book:
   open_graph_image: open-graph.png
   content_type: handbook
   literary_form: handbook
+  overview:
+    centralQuestion: How do we keep moral seriousness and decision quality when absolutes fracture and
+      certainty stops working as social glue?
+    whyItExists: A handbook for discipline under incomplete information — patterns as warnings not verdicts,
+      probabilistic seriousness without relativism, and leadership that refuses false prophecy.
+    audience: People who must decide, explain, or govern under constraint — clinical leaders, executives,
+      regulators, elected officials, journalists — and citizens who refuse prophecy without cynicism.
+    nonGoals:
+    - It is not permission to abandon truth, nor a personality manual for “embracing ambiguity.”
+    - It is not statistical pedantry detached from harm, or an indictment of ordinary intelligence.
+    - It does not promise happiness, victory, consensus, or a checklist that replaces judgment.
+    selectedConcepts:
+    - uncertainty
+    - judgment
+    - certainty
+    - responsibility
+    - revisability
+    - humility
+    selectedPatterns:
+    - revisability-preserves-judgment
+    - finality-compensates-for-uncertainty
+    - correctness-hardens-into-identity
+    readBefore:
+    - curiosity-before-certainty
+    - how-serious-systems-learn
+    readNext:
+    - learning-to-see
+    - after-certainty
+    relatedWorks:
+    - workId: how-serious-systems-learn
+      relationship: companion_to
+      reason: Twin handbooks — learning in motion and discipline when certainty stops coordinating.
+    - workId: before-certainty-arrives
+      relationship: historicizes
+      reason: How certainty formed historically pairs with practicing judgment when it fails as glue.
+    - workId: learning-to-see
+      relationship: applies
+      reason: Comparative practices that form knowers meet handbook disciplines for incomplete information.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Discipline under uncertainty opens into living and judging when understanding is not enough.
 paths:
   manuscript: ./index.md
   output: .
