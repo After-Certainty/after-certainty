@@ -1,5 +1,29 @@
 # After Certainty
 
+This repository is the **corpus and publishing** home for After Certainty. It also hosts the public website under [`apps/site/`](apps/site/) (imported from [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site); see the [monorepo migration plan](docs/roadmaps/monorepo-migration-plan.md)).
+
+**Corpus layout is unchanged:** books and semantic YAML stay at the repository root. The site is a workspace app; production still deploys from the standalone site repository until a later migration phase.
+
+## Toolchains
+
+| Area | Tooling | Common commands |
+|------|---------|-----------------|
+| Corpus / semantic / publishing | Python 3.12+, [uv](https://github.com/astral-sh/uv), Make | `uv sync --frozen` · `make check` · `make generate-semantic-manifest` |
+| Website (`apps/site`) | Node 20+, npm workspaces, thin [Turborepo](https://turbo.build) | `npm ci` · `npm run site:dev` · `npm run site:test` · `npm run site:lint` |
+
+From the repo root after both installs:
+
+```bash
+uv sync --frozen          # corpus
+npm ci                    # site workspace
+npm run site:dev          # Next.js (still uses remote/fallback semantic manifest in Phase 1)
+make generate-semantic-manifest   # local corpus artifact under build/
+```
+
+Phase notes: [`docs/migrations/monorepo-phase-0/`](docs/migrations/monorepo-phase-0/) · [`docs/migrations/monorepo-phase-1/`](docs/migrations/monorepo-phase-1/).
+
+## Books and publishing
+
 This repository holds **several independent books** as parallel projects under [`books/`](books/): each publishable manuscript folder includes an `index.md` plus a `book.yml` spec. They share **one publishing pipeline**—local Make targets and a GitHub Actions workflow—that assembles each enabled book into **DOCX**, **EPUB**, and **PDF** for distribution.
 
 ## Publishing pipeline

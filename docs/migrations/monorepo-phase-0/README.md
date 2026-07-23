@@ -1,6 +1,6 @@
 # Monorepo Phase 0 — Preparation
 
-**Status:** In progress (this PR)  
+**Status:** Complete (merged). Phase 1: [`../monorepo-phase-1/`](../monorepo-phase-1/).  
 **Plan:** [`docs/roadmaps/monorepo-migration-plan.md`](../../roadmaps/monorepo-migration-plan.md) §24 Phase 0  
 **Goal:** Freeze baseline production behavior, inventory settings, write rollback notes, and expand contract tests — **without** changing production, Vercel, or repository layout.
 

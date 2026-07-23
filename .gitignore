@@ -23,6 +23,16 @@ uv.lock.tmp
 # Local build outputs (e.g. make generate-books-manifest → build/books-manifest.json)
 build/
 
+# Node / Turborepo (site lives under apps/site)
+node_modules/
+.turbo/
+**/.next/
+**/out/
+apps/site/data/build-manifest-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # Portfolio-audit snapshots (regenerate per docs/portfolio-audit/data/README.md)
 docs/portfolio-audit/data/books-manifest.json
 docs/portfolio-audit/data/semantic-manifest.json

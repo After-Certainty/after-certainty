@@ -1,0 +1,36 @@
+{
+  "name": "after-certainty",
+  "private": true,
+  "packageManager": "npm@10.9.7",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w after-certainty-site",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "npm run format -w after-certainty-site",
+    "format:check": "npm run format:check -w after-certainty-site",
+    "site:dev": "npm run dev -w after-certainty-site",
+    "site:lint": "npm run lint -w after-certainty-site",
+    "site:test": "npm run test -w after-certainty-site",
+    "site:build": "npm run build -w after-certainty-site",
+    "site:validate:fallback": "npm run validate:fallback -w after-certainty-site",
+    "site:validate:public-corpus": "npm run validate:public-corpus -w after-certainty-site",
+    "corpus:lint": "make lint",
+    "corpus:test": "make test",
+    "corpus:check": "make check",
+    "corpus:manifest": "make generate-semantic-manifest"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.4"
+  },
+  "overrides": {
+    "postcss": ">=8.5.10",
+    "sharp": "^0.35.3"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}
