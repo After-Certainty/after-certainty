@@ -1,0 +1,58 @@
+id: accountability-and-enduring-authority
+slug: accountability-and-enduring-authority
+title: Accountability and Enduring Authority
+summary: >
+  From authority misread as virtue, through a leadership lens that separates moral posture
+  from effectiveness and legitimacy, into institutions that survive harm without renewing
+  accountability—and judgment when moral seriousness scales.
+orientation: >
+  Legitimacy can look intact while answerability thins. This trail moves from misreading leaders,
+  through diagnostic separation of leadership dimensions, to institutional endurance after harm,
+  then to moral seriousness under distance and pressure.
+status: published
+featured: false
+themes:
+  - Leadership and authority
+  - Accountability
+depth: intermediate
+primaryBookId: book-when-accountability-no-longer-expires
+relatedTrailIds:
+  - leadership-after-the-person
+  - systems-without-correction
+pathStops:
+  - position: 1
+    entityType: book
+    entityId: book-when-authority-is-misread
+    description: >
+      Begin where confidence and later memory are mistaken for legitimacy—looking twice at leaders
+      before treating endurance as proof.
+  - position: 2
+    entityType: book
+    entityId: book-when-authority-outlives-accountability
+    description: >
+      Separate moral posture toward harm, effectiveness, and legitimacy over time so judgment does
+      not collapse into ideology or outcome bias.
+    whyThisFollows: >
+      Misread authority needs a lens; this book isolates the dimensions usually treated as one.
+  - position: 3
+    entityType: book
+    entityId: book-when-accountability-no-longer-expires
+    description: >
+      See how institutions adapt around scandal while preserving core authority—legitimacy that no
+      longer expires.
+    whyThisFollows: >
+      After the leadership lens, this is the institutional story of survival without renewal.
+  - position: 4
+    entityType: book
+    entityId: book-when-moral-seriousness-scales
+    description: >
+      Ask what moral seriousness requires when distance, asymmetry, and acceleration thin moral density.
+    whyThisFollows: >
+      Endurance without renewal intensifies when the conditions that once made care dense have thinned.
+closingReflection: >
+  Endurance is not automatically wisdom. Separating dimensions of leadership judgment, naming
+  institutional adaptation that is not renewal, and holding seriousness under scale are related
+  disciplines—not a single verdict on every long-lived authority.
+suggestedContinuation: >
+  Follow Leadership After the Person if inherited influence is the next concern, or Systems That
+  Cannot Correct Themselves if feedback collapse is where endurance becomes drift.

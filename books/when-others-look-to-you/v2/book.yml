@@ -21,6 +21,46 @@ book:
   is_canonical: false
   edition_label: Companion edition
   publication_date: '2026-06-01'
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: How do forming, renewing, eroding, and repeating dynamics stack when leadership is read as a cycle of patterns rather than a single arc?
+    whyItExists: The companion edition reorganizes the leadership field around named patterns—one chapter each—so readers can move through Forming, Renewing, Eroding, and Repeating without treating the primary volume as obsolete.
+    audience: Readers who want the pattern catalog as the spine — parallel enrichment beside the primary volume on renewal and erosion.
+    nonGoals:
+    - It is not a replacement for the primary volume; editions are parallel, not successive truth claims.
+    - It is not a personality or charisma manual.
+    - It does not invent new leadership patterns beyond the shared catalog.
+    selectedConcepts:
+    - authority
+    - accountability
+    - renewal
+    - erosion
+    - circulation
+    - formation
+    selectedPatterns:
+    - attention-finds-a-focus
+    - leadership-coalesces
+    - dissent-is-welcomed
+    - leaders-feel-the-consequences
+    - disagreement-is-suppressed
+    - learning-collapses
+    - leadership-reproduces-itself
+    readBefore:
+    - when-others-look-to-you-v1
+    readNext:
+    - when-others-become-leaders
+    - when-authority-outlives-accountability
+    relatedWorks:
+    - workId: when-others-become-leaders
+      relationship: prepares_for
+      reason: Repeating and reproduction open into whether capacity circulates after the person.
+    - workId: when-authority-outlives-accountability
+      relationship: prepares_for
+      reason: Pattern dynamics under pressure prepare the three-dimension evaluation lens.
+    - workId: how-serious-systems-learn
+      relationship: companion_to
+      reason: Systems learning and leadership pattern cycles share feedback, dissent, and correction concerns.
 paths:
   manuscript: ./index.md
   output: .

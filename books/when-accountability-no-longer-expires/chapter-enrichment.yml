@@ -1,0 +1,24 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-3-learning-without-resolution/chapter-6-adaptation-is-not-renewal.md
+    summary: >
+      After scandal, institutions announce policies, training, and oversight while core authority and
+      decision rights remain intact—learning that adapts around harm without renewing legitimacy.
+    centralQuestion: What happens when an organization adapts around harm instead of renewing the legitimacy that harm put in question?
+    selectedConcepts:
+      - renewal
+      - accountability
+      - legitimacy
+      - correction
+      - adaptability
+    selectedPatterns:
+      - learning-collapses
+      - exceptions-are-forever
+    searchAliases:
+      - adaptation is not renewal
+      - policies without renewed authority
+    situations:
+      - temporary-fixes-become-permanent
+    readingTransition: >
+      From adaptation that preserves core authority into correction without consequence—the next
+      form of learning that leaves legitimacy unexpired.

@@ -20,6 +20,43 @@ book:
     '
   content_type: fiction
   literary_form: novel
+  overview:
+    centralQuestion: What happens when loyalty, vow, and shared burden bind people into power they cannot easily leave?
+    whyItExists: Mythic fantasy that dramatizes how bonds become obligations, how names carry gravity, and how authority exacts cost when personal vows meet political fate—recognition through story, not a leadership manual.
+    audience: Readers who want tragic fantasy that stages responsibility, harm, and legitimacy under bond and curse rather than organizational case study.
+    nonGoals:
+    - The story dramatizes tensions rather than proving a general theory of loyalty or sacrifice.
+    - It is not a leadership handbook or allegory key for the nonfiction portfolio.
+    - It does not invent glossary stems for loyalty or sacrifice outside existing concepts.
+    selectedConcepts:
+    - authority
+    - legitimacy
+    - harm
+    - responsibility
+    - renewal
+    - erosion
+    selectedPatterns:
+    - responsibility-persists-beyond-control
+    - leaders-feel-the-consequences
+    - admiration-becomes-insulation
+    readBefore:
+    - when-others-look-to-you-v1
+    readNext:
+    - when-authority-outlives-accountability
+    - boundary-conditions
+    relatedWorks:
+    - workId: when-others-look-to-you
+      relationship: fictionalizes
+      reason: Dramatizes being looked to under bond and burden—influence that gathers cost as it gathers loyalty.
+    - workId: when-authority-outlives-accountability
+      relationship: fictionalizes
+      reason: Stages moral posture, effectiveness, and inherited authority as tragic consequence rather than diagnostic lens.
+    - workId: when-accountability-no-longer-expires
+      relationship: fictionalizes
+      reason: Shows legitimacy and obligation surviving harm in mythic form without institutional case study.
+    - workId: boundary-conditions
+      relationship: companion_to
+      reason: Another fiction doorway into authorization, boundary, and the cost of becoming bound to a system.
 paths:
   manuscript: ./index.md
   output: .

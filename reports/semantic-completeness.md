@@ -1,6 +1,6 @@
 # Semantic completeness report
 
-Generated: `2026-07-23T00:09:12.686397+00:00`
+Generated: `2026-07-23T00:30:25.532139+00:00`
 
 Public canonical works evaluated: **32**
 
@@ -10,11 +10,7 @@ Field statuses: `complete`, `missing`, `generated-only`, `incomplete`, `potentia
 
 ### Books missing rich overviews
 
-- `velorum`
-- `when-accountability-no-longer-expires`
-- `when-authority-outlives-accountability`
-- `when-moral-seriousness-scales`
-- `when-others-look-to-you-v2`
+_None._
 
 ### Books missing search aliases
 
@@ -24,12 +20,7 @@ Field statuses: `complete`, `missing`, `generated-only`, `incomplete`, `potentia
 - `everyone-knows-love`
 - `how-serious-systems-learn`
 - `the-relay`
-- `velorum`
 - `what-we-cannot-see`
-- `when-accountability-no-longer-expires`
-- `when-authority-outlives-accountability`
-- `when-moral-seriousness-scales`
-- `when-others-look-to-you-v2`
 
 ### Books absent from questions
 
@@ -38,9 +29,6 @@ Field statuses: `complete`, `missing`, `generated-only`, `incomplete`, `potentia
 - `the-discipline-of-uncertainty`
 - `the-relay`
 - `velorum`
-- `when-accountability-no-longer-expires`
-- `when-authority-outlives-accountability`
-- `when-moral-seriousness-scales`
 - `when-others-look-to-you-v2`
 - `when-trust-stops-tracking-reality`
 
@@ -53,11 +41,7 @@ Field statuses: `complete`, `missing`, `generated-only`, `incomplete`, `potentia
 - `the-world-we-make-together`
 - `trust-beyond-similarity`
 - `velorum`
-- `when-accountability-no-longer-expires`
-- `when-authority-is-misread`
-- `when-authority-outlives-accountability`
 - `when-interpretation-no-longer-matters`
-- `when-moral-seriousness-scales`
 - `when-others-look-to-you-v2`
 - `when-trust-stops-tracking-reality`
 - `why-diversity-matters`
@@ -150,11 +134,7 @@ _None._
 
 ### Books orphaned from discovery features
 
-- `velorum`
-- `when-accountability-no-longer-expires`
-- `when-authority-outlives-accountability`
-- `when-moral-seriousness-scales`
-- `when-others-look-to-you-v2`
+_None._
 
 ## Per-book field matrix
 
@@ -784,16 +764,16 @@ _None._
 | `literaryForm` | `complete` |
 | `publicationDate` | `missing` |
 | `substantialRevisionDate` | `not-applicable` |
-| `richOverview` | `missing` |
-| `centralQuestion` | `missing` |
-| `whyItExists` | `missing` |
-| `audience` | `missing` |
-| `nonGoals` | `missing` |
-| `selectedConcepts` | `missing` |
-| `selectedPatterns` | `missing` |
-| `readingRelationships` | `missing` |
-| `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
+| `richOverview` | `complete` |
+| `centralQuestion` | `complete` |
+| `whyItExists` | `complete` |
+| `audience` | `complete` |
+| `nonGoals` | `complete` |
+| `selectedConcepts` | `complete` |
+| `selectedPatterns` | `complete` |
+| `readingRelationships` | `complete` |
+| `typedWorkRelationships` | `complete` |
+| `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
 | `trailCoverage` | `missing` |
 | `shelfCoverageBeyondCatalog` | `missing` |
@@ -849,21 +829,21 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `missing` |
 | `substantialRevisionDate` | `not-applicable` |
-| `richOverview` | `missing` |
-| `centralQuestion` | `missing` |
-| `whyItExists` | `missing` |
-| `audience` | `missing` |
-| `nonGoals` | `missing` |
-| `selectedConcepts` | `missing` |
-| `selectedPatterns` | `missing` |
-| `readingRelationships` | `missing` |
-| `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
-| `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
+| `richOverview` | `complete` |
+| `centralQuestion` | `complete` |
+| `whyItExists` | `complete` |
+| `audience` | `complete` |
+| `nonGoals` | `complete` |
+| `selectedConcepts` | `complete` |
+| `selectedPatterns` | `complete` |
+| `readingRelationships` | `complete` |
+| `typedWorkRelationships` | `complete` |
+| `searchAliases` | `complete` |
+| `questionCoverage` | `complete` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -897,7 +877,7 @@ _None._
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
-| `trailCoverage` | `missing` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -917,21 +897,21 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `missing` |
 | `substantialRevisionDate` | `not-applicable` |
-| `richOverview` | `missing` |
-| `centralQuestion` | `missing` |
-| `whyItExists` | `missing` |
-| `audience` | `missing` |
-| `nonGoals` | `missing` |
-| `selectedConcepts` | `missing` |
-| `selectedPatterns` | `missing` |
-| `readingRelationships` | `missing` |
-| `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
-| `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
+| `richOverview` | `complete` |
+| `centralQuestion` | `complete` |
+| `whyItExists` | `complete` |
+| `audience` | `complete` |
+| `nonGoals` | `complete` |
+| `selectedConcepts` | `complete` |
+| `selectedPatterns` | `complete` |
+| `readingRelationships` | `complete` |
+| `typedWorkRelationships` | `complete` |
+| `searchAliases` | `complete` |
+| `questionCoverage` | `complete` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -1019,21 +999,21 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `missing` |
 | `substantialRevisionDate` | `not-applicable` |
-| `richOverview` | `missing` |
-| `centralQuestion` | `missing` |
-| `whyItExists` | `missing` |
-| `audience` | `missing` |
-| `nonGoals` | `missing` |
-| `selectedConcepts` | `missing` |
+| `richOverview` | `complete` |
+| `centralQuestion` | `complete` |
+| `whyItExists` | `complete` |
+| `audience` | `complete` |
+| `nonGoals` | `complete` |
+| `selectedConcepts` | `complete` |
 | `selectedPatterns` | `missing` |
-| `readingRelationships` | `missing` |
-| `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
-| `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
+| `readingRelationships` | `complete` |
+| `typedWorkRelationships` | `complete` |
+| `searchAliases` | `complete` |
+| `questionCoverage` | `complete` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -1121,19 +1101,19 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `complete` |
 | `substantialRevisionDate` | `not-applicable` |
-| `richOverview` | `missing` |
-| `centralQuestion` | `missing` |
-| `whyItExists` | `missing` |
-| `audience` | `missing` |
-| `nonGoals` | `missing` |
-| `selectedConcepts` | `missing` |
-| `selectedPatterns` | `missing` |
-| `readingRelationships` | `missing` |
-| `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
+| `richOverview` | `complete` |
+| `centralQuestion` | `complete` |
+| `whyItExists` | `complete` |
+| `audience` | `complete` |
+| `nonGoals` | `complete` |
+| `selectedConcepts` | `complete` |
+| `selectedPatterns` | `complete` |
+| `readingRelationships` | `complete` |
+| `typedWorkRelationships` | `complete` |
+| `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
 | `trailCoverage` | `missing` |
 | `shelfCoverageBeyondCatalog` | `missing` |
