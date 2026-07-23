@@ -1,5 +1,6 @@
 import { type CatalogBookView } from "@/lib/books/catalog-view-model";
 import { collectCatalogHealthIssues } from "@/lib/books/validate-catalog";
+import { collectBookOverviewHealthIssues } from "@/lib/books/validate-book-overviews";
 import { buildPublicCorpusRegistry, type PublicCorpusRegistry } from "@/lib/corpus/public-registry";
 import { questionsFromGraph, trailsFromGraph } from "@/lib/graph/discovery";
 import { getFeaturedQuestions, getQuestionSearchBridges } from "@/lib/questions/loadQuestions";
@@ -56,6 +57,16 @@ export function collectPublicCorpusIntegrityIssues(
       code: `CATALOG_${issue.code}`.toUpperCase(),
       entityId: issue.bookSlug ?? issue.shelfId,
       sourceFeature: "catalog",
+      detail: issue.detail,
+    });
+  }
+
+  for (const issue of collectBookOverviewHealthIssues({ graph })) {
+    issues.push({
+      severity: issue.severity,
+      code: `OVERVIEW_${issue.code}`.toUpperCase(),
+      entityId: issue.bookSlug ?? issue.bookId,
+      sourceFeature: "book-overviews",
       detail: issue.detail,
     });
   }

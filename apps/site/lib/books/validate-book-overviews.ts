@@ -1,6 +1,15 @@
 import { bookIsPublic } from "@/lib/books/book-metadata";
 import { getAllBookOverviews, getBookOverviewsManifest } from "@/lib/books/load-book-overviews";
 import type { BookOverview } from "@/lib/books/book-overview-schema";
+import {
+  exceptionAllowsAnyConcepts,
+  exceptionAllowsAnyPatterns,
+  exceptionAllowsConcept,
+  exceptionAllowsPattern,
+  getOverviewLinkExceptions,
+  indexOverviewLinkExceptions,
+  type OverviewLinkException,
+} from "@/lib/books/overview-link-exceptions";
 import { resolveWorkEdition } from "@/lib/books/resolve-work-edition";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
@@ -17,18 +26,26 @@ export type BookOverviewHealthIssue = {
 const MIN_SELECTED_CONCEPTS_WHEN_PRESENT = 3;
 const MAX_SELECTED_CONCEPTS = 7;
 
+function exceptedDetail(code: string, base: string, exception: OverviewLinkException): string {
+  return `${base} [excepted: ${code}; ${exception.reason}]`;
+}
+
 /**
  * Structural + cross-reference health for authored book overview overlays.
- * Does not change book page rendering — Phase G consumes the overlay.
+ * Concept/pattern links to the book row are hard errors unless listed in
+ * `data/overview-concept-link-exceptions.json`.
  */
 export function collectBookOverviewHealthIssues(input: {
   graph: SemanticGraph;
   overviews?: readonly BookOverview[];
   prioritySlugs?: readonly string[];
+  linkExceptions?: readonly OverviewLinkException[];
 }): BookOverviewHealthIssue[] {
   const { graph } = input;
   const overviews = input.overviews ?? getAllBookOverviews();
   const prioritySlugs = input.prioritySlugs ?? getBookOverviewsManifest().prioritySlugs ?? [];
+  const linkExceptions = input.linkExceptions ?? getOverviewLinkExceptions();
+  const exceptionsBySlug = indexOverviewLinkExceptions(linkExceptions);
 
   const issues: BookOverviewHealthIssue[] = [];
   const booksById = new Map(graph.books.map((book) => [book.id, book]));
@@ -38,6 +55,7 @@ export function collectBookOverviewHealthIssues(input: {
 
   const seenBookIds = new Set<string>();
   const seenSlugs = new Set<string>();
+  const usedExceptionSlugs = new Set<string>();
 
   for (const overview of overviews) {
     if (seenBookIds.has(overview.bookId)) {
@@ -94,6 +112,7 @@ export function collectBookOverviewHealthIssues(input: {
       });
     }
 
+    const exception = exceptionsBySlug.get(book.slug);
     const bookConceptIds = new Set(book.concepts ?? []);
     const selectedConcepts = overview.selectedConceptIds;
 
@@ -108,13 +127,28 @@ export function collectBookOverviewHealthIssues(input: {
         });
       }
     } else if (selectedConcepts.length > 0) {
-      issues.push({
-        severity: "warning",
-        code: "concepts_selected_on_empty_book",
-        bookId: overview.bookId,
-        bookSlug: overview.slug,
-        detail: `Book "${book.slug}" has no graph concepts but overview selects some (allowed as orientation overlay).`,
-      });
+      if (exceptionAllowsAnyConcepts(exception)) {
+        usedExceptionSlugs.add(book.slug);
+        issues.push({
+          severity: "warning",
+          code: "concepts_selected_on_empty_book_excepted",
+          bookId: overview.bookId,
+          bookSlug: overview.slug,
+          detail: exceptedDetail(
+            "concepts_selected_on_empty_book",
+            `Book "${book.slug}" has no graph concepts but overview selects some.`,
+            exception!,
+          ),
+        });
+      } else {
+        issues.push({
+          severity: "error",
+          code: "concepts_selected_on_empty_book",
+          bookId: overview.bookId,
+          bookSlug: overview.slug,
+          detail: `Book "${book.slug}" has no graph concepts but overview selects some. Add an intentional exception in data/overview-concept-link-exceptions.json or link concepts on the book upstream.`,
+        });
+      }
     }
 
     for (const conceptId of selectedConcepts) {
@@ -129,18 +163,60 @@ export function collectBookOverviewHealthIssues(input: {
         continue;
       }
       if (bookConceptIds.size > 0 && !bookConceptIds.has(conceptId)) {
-        issues.push({
-          severity: "warning",
-          code: "concept_not_on_book",
-          bookId: overview.bookId,
-          bookSlug: overview.slug,
-          detail: `Concept "${conceptId}" is not linked to book "${book.slug}" (overview may surface orientation concepts).`,
-        });
+        if (exceptionAllowsConcept(exception, conceptId)) {
+          usedExceptionSlugs.add(book.slug);
+          issues.push({
+            severity: "warning",
+            code: "concept_not_on_book_excepted",
+            bookId: overview.bookId,
+            bookSlug: overview.slug,
+            detail: exceptedDetail(
+              "concept_not_on_book",
+              `Concept "${conceptId}" is not linked to book "${book.slug}".`,
+              exception!,
+            ),
+          });
+        } else {
+          issues.push({
+            severity: "error",
+            code: "concept_not_on_book",
+            bookId: overview.bookId,
+            bookSlug: overview.slug,
+            detail: `Concept "${conceptId}" is not linked to book "${book.slug}". Add an intentional exception or link the concept on the book upstream.`,
+          });
+        }
       }
     }
 
     const bookPatternIds = new Set(book.patterns ?? []);
-    for (const patternId of overview.selectedPatternIds ?? []) {
+    const selectedPatterns = overview.selectedPatternIds ?? [];
+
+    if (bookPatternIds.size === 0 && selectedPatterns.length > 0) {
+      if (exceptionAllowsAnyPatterns(exception)) {
+        usedExceptionSlugs.add(book.slug);
+        issues.push({
+          severity: "warning",
+          code: "patterns_selected_on_empty_book_excepted",
+          bookId: overview.bookId,
+          bookSlug: overview.slug,
+          detail: exceptedDetail(
+            "patterns_selected_on_empty_book",
+            `Book "${book.slug}" has no graph patterns but overview selects some.`,
+            exception!,
+          ),
+        });
+      } else {
+        issues.push({
+          severity: "error",
+          code: "patterns_selected_on_empty_book",
+          bookId: overview.bookId,
+          bookSlug: overview.slug,
+          detail: `Book "${book.slug}" has no graph patterns but overview selects some. Add an intentional exception in data/overview-concept-link-exceptions.json or link patterns on the book upstream.`,
+        });
+      }
+    }
+
+    for (const patternId of selectedPatterns) {
       if (!patternsById.has(patternId)) {
         issues.push({
           severity: "error",
@@ -152,13 +228,28 @@ export function collectBookOverviewHealthIssues(input: {
         continue;
       }
       if (bookPatternIds.size > 0 && !bookPatternIds.has(patternId)) {
-        issues.push({
-          severity: "error",
-          code: "pattern_not_on_book",
-          bookId: overview.bookId,
-          bookSlug: overview.slug,
-          detail: `Pattern "${patternId}" is not linked to book "${book.slug}".`,
-        });
+        if (exceptionAllowsPattern(exception, patternId)) {
+          usedExceptionSlugs.add(book.slug);
+          issues.push({
+            severity: "warning",
+            code: "pattern_not_on_book_excepted",
+            bookId: overview.bookId,
+            bookSlug: overview.slug,
+            detail: exceptedDetail(
+              "pattern_not_on_book",
+              `Pattern "${patternId}" is not linked to book "${book.slug}".`,
+              exception!,
+            ),
+          });
+        } else {
+          issues.push({
+            severity: "error",
+            code: "pattern_not_on_book",
+            bookId: overview.bookId,
+            bookSlug: overview.slug,
+            detail: `Pattern "${patternId}" is not linked to book "${book.slug}". Add an intentional exception or link the pattern on the book upstream.`,
+          });
+        }
       }
     }
 
@@ -225,6 +316,53 @@ export function collectBookOverviewHealthIssues(input: {
     }
   }
 
+  for (const exception of linkExceptions) {
+    if (!booksBySlug.has(exception.bookSlug)) {
+      issues.push({
+        severity: "error",
+        code: "unknown_exception_book",
+        bookSlug: exception.bookSlug,
+        detail: `Overview link exception references unknown book slug "${exception.bookSlug}".`,
+      });
+      continue;
+    }
+
+    if (exception.conceptIds && exception.conceptIds !== "*") {
+      for (const conceptId of exception.conceptIds) {
+        if (!conceptsById.has(conceptId)) {
+          issues.push({
+            severity: "error",
+            code: "unknown_exception_concept",
+            bookSlug: exception.bookSlug,
+            detail: `Overview link exception for "${exception.bookSlug}" references unknown concept "${conceptId}".`,
+          });
+        }
+      }
+    }
+
+    if (exception.patternIds && exception.patternIds !== "*") {
+      for (const patternId of exception.patternIds) {
+        if (!patternsById.has(patternId)) {
+          issues.push({
+            severity: "error",
+            code: "unknown_exception_pattern",
+            bookSlug: exception.bookSlug,
+            detail: `Overview link exception for "${exception.bookSlug}" references unknown pattern "${patternId}".`,
+          });
+        }
+      }
+    }
+
+    if (!usedExceptionSlugs.has(exception.bookSlug)) {
+      issues.push({
+        severity: "warning",
+        code: "unused_link_exception",
+        bookSlug: exception.bookSlug,
+        detail: `Overview link exception for "${exception.bookSlug}" was not needed; remove it after upstream backfill.`,
+      });
+    }
+  }
+
   return issues;
 }
 
@@ -232,6 +370,7 @@ export function assertBookOverviewsHealthy(input: {
   graph: SemanticGraph;
   overviews?: readonly BookOverview[];
   prioritySlugs?: readonly string[];
+  linkExceptions?: readonly OverviewLinkException[];
 }): void {
   const errors = collectBookOverviewHealthIssues(input).filter((i) => i.severity === "error");
   if (errors.length === 0) return;

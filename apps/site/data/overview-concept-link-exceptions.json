@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "exceptions": [
+    {
+      "bookSlug": "before-certainty-arrives",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "boundary-conditions",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": "*",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "how-trust-forms",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": ["concept-feedback", "concept-formation", "concept-provisional-commitment"],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "learning-to-see",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": [
+        "concept-attention",
+        "concept-humility",
+        "concept-judgment",
+        "concept-uncertainty",
+        "concept-inheritance",
+        "concept-formation"
+      ],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "living-in-sediment",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": [
+        "concept-inheritance",
+        "concept-drift",
+        "concept-structure",
+        "concept-compression"
+      ],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "observer-patterns",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": "*",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "the-discipline-of-uncertainty",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": [
+        "concept-uncertainty",
+        "concept-certainty",
+        "concept-revisability",
+        "concept-humility"
+      ],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "the-economy-we-dont-experience",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": ["concept-compression"],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "the-game-we-think-we-saw",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "the-world-we-make-together",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": "*",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "velorum",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": "*",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "when-accountability-no-longer-expires",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": [
+        "concept-accountability",
+        "concept-renewal",
+        "concept-harm",
+        "concept-adaptability"
+      ],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "when-authority-is-misread",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "when-authority-outlives-accountability",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": ["concept-effectiveness", "concept-accountability", "concept-harm"],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "when-incentives-become-the-moral-language",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": ["concept-incentives", "concept-judgment", "concept-residue"],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "when-interpretation-no-longer-matters",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "when-moral-seriousness-scales",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": [
+        "concept-moral-density",
+        "concept-scale",
+        "concept-asymmetry",
+        "concept-acceleration",
+        "concept-reciprocity"
+      ]
+    },
+    {
+      "bookSlug": "when-others-become-leaders",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": "*",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "when-others-look-to-you-v2",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": ["concept-renewal", "concept-circulation", "concept-formation"],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "when-trust-stops-tracking-reality",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": ["concept-drift", "concept-momentum"],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "why-collaboration-is-so-hard",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "why-diversity-matters",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": "*",
+      "patternIds": "*"
+    }
+  ]
+}

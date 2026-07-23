@@ -9,18 +9,52 @@ Site presentation overlays that stay here:
 
 ## What belongs upstream
 
-| Field                         | Notes                                           |
-| ----------------------------- | ----------------------------------------------- |
-| `centralQuestion`             | One sentence visitors should understand first   |
-| `whyItExists`                 | Why this book is in the project                 |
-| `audience`                    | Who it is for                                   |
-| `nonGoals`                    | 1–6 short “this is not…” lines                  |
-| `selectedConcepts` / ids      | Prefer concepts already linked on that book     |
-| `selectedPatterns` / ids      | Optional                                        |
-| `readBefore` / `readNext`     | Optional book **slugs**; companions OK; no self |
-| `revisedAt` + `changeSummary` | Pair both or neither                            |
+| Field             | Notes                                         |
+| ----------------- | --------------------------------------------- |
+| `centralQuestion` | One sentence visitors should understand first |
+| `whyItExists`     | Why this book is in the project               |
+| `audience`        | Who it is for                                 |
+| `nonGoals`        | 1–6 short “this is not…” lines                |
 
-**Do not** put CTA preference, badge colors, or layout limits in content YAML.
+## Selected concepts and patterns
+
+Prefer concepts and patterns already linked on `books[].concepts` /
+`books[].patterns` in the semantic manifest.
+
+By default the site treats overview selections that are **not** linked on the
+book row as integrity **errors**:
+
+- `concept_not_on_book` / `concepts_selected_on_empty_book`
+- `pattern_not_on_book` / `patterns_selected_on_empty_book`
+
+Unknown concept or pattern ids remain hard errors (no exception path).
+
+### Intentional exceptions
+
+When an orientation overlay must temporarily surface glossary entities before
+upstream backfill, add a documented exception in
+[`data/overview-concept-link-exceptions.json`](../data/overview-concept-link-exceptions.json):
+
+```json
+{
+  "version": 1,
+  "exceptions": [
+    {
+      "bookSlug": "observer-patterns",
+      "conceptIds": "*",
+      "patternIds": "*",
+      "reason": "Orientation overview pending books[].concepts / patterns backfill upstream."
+    }
+  ]
+}
+```
+
+- `conceptIds` / `patternIds`: explicit ids, or `"*"` for any selection on that book
+- Excepted mismatches become **warnings** (`*_excepted`) with the reason attached
+- Unused exceptions (no longer needed after backfill) emit `unused_link_exception` warnings — remove them
+- Exception book/concept/pattern references that do not exist are **errors**
+
+Do not use exceptions to hide broken public routes or unknown ids.
 
 Upstream authoring: [after-certainty `docs/authoring-discovery-metadata.md`](https://github.com/ksteffe/after-certainty/blob/main/docs/authoring-discovery-metadata.md).
 

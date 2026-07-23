@@ -103,6 +103,11 @@ questions, and front-shelf doorways for cross-feature consistency.
 Document deliberate exclusions as **warnings** in domain validators (search /
 sitemap SEO choices, upcoming items). Do not silence broken public routes.
 
+Overview↔book concept/pattern link mismatches are **errors** by default. Temporary
+orientation exceptions live in
+[`data/overview-concept-link-exceptions.json`](../data/overview-concept-link-exceptions.json)
+— see [`docs/contributing-book-overviews.md`](contributing-book-overviews.md).
+
 ## Legacy manifest consumers
 
 | Item                                            | Status                          |
