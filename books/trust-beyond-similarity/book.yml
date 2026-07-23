@@ -14,6 +14,8 @@ book:
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
+  content_type: nonfiction
+  literary_form: monograph
   overview:
     centralQuestion: How can trust remain possible across difference and disagreement?
     whyItExists: Trust Beyond Similarity explores why trust becomes more valuable — not less — when perspectives

@@ -13,6 +13,8 @@ book:
   language: en
   open_graph_image: open-graph.png
   copyright_year: 2026
+  content_type: nonfiction
+  literary_form: monograph
   overview:
     centralQuestion: How do we stay curious when easy certainty would feel safer?
     whyItExists: Curiosity Before Certainty is a friendly doorway into the project. It argues for disciplined

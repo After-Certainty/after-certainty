@@ -1,6 +1,6 @@
 # Semantic completeness report
 
-Generated: `2026-07-23T01:21:43.343401+00:00`
+Generated: `2026-07-23T01:41:31.272445+00:00`
 
 Public canonical works evaluated: **32**
 
@@ -117,7 +117,7 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `complete` |
 | `substantialRevisionDate` | `not-applicable` |
 | `richOverview` | `complete` |
@@ -219,7 +219,7 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `missing` |
 | `substantialRevisionDate` | `not-applicable` |
 | `richOverview` | `complete` |
@@ -253,7 +253,7 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `complete` |
 | `substantialRevisionDate` | `not-applicable` |
 | `richOverview` | `complete` |
@@ -695,7 +695,7 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `complete` |
 | `substantialRevisionDate` | `not-applicable` |
 | `richOverview` | `complete` |
@@ -763,7 +763,7 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `missing` |
 | `substantialRevisionDate` | `not-applicable` |
 | `richOverview` | `complete` |
@@ -1035,7 +1035,7 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `complete` |
 | `substantialRevisionDate` | `not-applicable` |
 | `richOverview` | `complete` |

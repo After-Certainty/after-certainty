@@ -1,0 +1,23 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-2-what-can-still-be-practiced/chapter-4-judgment-without-finality.md
+    summary: >
+      Someone finally makes the appointment — a decision enters the calendar while worry, waiting, and
+      consequence continue — showing judgment that acts without claiming finality.
+    centralQuestion: How do we decide when the situation will continue after the decision?
+    selectedConcepts:
+      - judgment
+      - revisability
+      - responsibility
+      - certainty
+      - uncertainty
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - judgment without finality
+      - the appointment
+    situations:
+      - feedback-stops-changing-decisions
+    readingTransition: >
+      From judgment that cannot finish the situation into responsibility without control.

@@ -1,0 +1,23 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-1-fossils-we-dont-notice/chapter-1-the-gods-in-the-week.md
+    summary: >
+      Thursday still carries Thor’s day — ancient cosmologies keeping appointments after the story that
+      named them has disappeared — showing how institutional sediment hides in ordinary language.
+    centralQuestion: What inherited structures still organize us after their original reasons have faded?
+    selectedConcepts:
+      - inheritance
+      - legitimacy
+      - certainty
+      - scale
+    selectedPatterns:
+      - exceptions-are-forever
+      - meaning-drifts-over-time
+    searchAliases:
+      - the gods in the week
+      - thursday is thor's day
+    situations:
+      - inherited-rule-outlives-constraint
+    readingTransition: >
+      From weekday fossils into other unnoticed inheritances — sixty seconds, the thirty-year house, gold
+      in the mind.

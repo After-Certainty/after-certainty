@@ -10,7 +10,7 @@
         "chapterStructure": "complete",
         "chapterSummaries": "missing",
         "contentType": "complete",
-        "literaryForm": "not-applicable",
+        "literaryForm": "complete",
         "nonGoals": "complete",
         "partStructure": "complete",
         "publicChangeEvent": "complete",
@@ -32,7 +32,7 @@
         "typedWorkRelationships": "missing",
         "whyItExists": "complete"
       },
-      "literaryForm": null,
+      "literaryForm": "monograph",
       "profile": "nonfiction",
       "slug": "after-certainty",
       "specPath": "books/after-certainty/book.yml",
@@ -121,7 +121,7 @@
         "chapterStructure": "complete",
         "chapterSummaries": "missing",
         "contentType": "complete",
-        "literaryForm": "not-applicable",
+        "literaryForm": "complete",
         "nonGoals": "complete",
         "partStructure": "complete",
         "publicChangeEvent": "missing",
@@ -143,7 +143,7 @@
         "typedWorkRelationships": "missing",
         "whyItExists": "complete"
       },
-      "literaryForm": null,
+      "literaryForm": "monograph",
       "profile": "nonfiction",
       "slug": "coupling",
       "specPath": "books/coupling/book.yml",
@@ -158,7 +158,7 @@
         "chapterStructure": "complete",
         "chapterSummaries": "missing",
         "contentType": "complete",
-        "literaryForm": "not-applicable",
+        "literaryForm": "complete",
         "nonGoals": "complete",
         "partStructure": "complete",
         "publicChangeEvent": "complete",
@@ -180,7 +180,7 @@
         "typedWorkRelationships": "missing",
         "whyItExists": "complete"
       },
-      "literaryForm": null,
+      "literaryForm": "monograph",
       "profile": "nonfiction",
       "slug": "curiosity-before-certainty",
       "specPath": "books/curiosity-before-certainty/book.yml",
@@ -639,7 +639,7 @@
         "chapterStructure": "complete",
         "chapterSummaries": "missing",
         "contentType": "complete",
-        "literaryForm": "not-applicable",
+        "literaryForm": "complete",
         "nonGoals": "complete",
         "partStructure": "complete",
         "publicChangeEvent": "complete",
@@ -661,7 +661,7 @@
         "typedWorkRelationships": "missing",
         "whyItExists": "complete"
       },
-      "literaryForm": null,
+      "literaryForm": "monograph",
       "profile": "nonfiction",
       "slug": "trust-beyond-similarity",
       "specPath": "books/trust-beyond-similarity/book.yml",
@@ -713,7 +713,7 @@
         "chapterStructure": "complete",
         "chapterSummaries": "missing",
         "contentType": "complete",
-        "literaryForm": "not-applicable",
+        "literaryForm": "complete",
         "nonGoals": "complete",
         "partStructure": "complete",
         "publicChangeEvent": "missing",
@@ -735,7 +735,7 @@
         "typedWorkRelationships": "missing",
         "whyItExists": "complete"
       },
-      "literaryForm": null,
+      "literaryForm": "monograph",
       "profile": "nonfiction",
       "slug": "what-we-cannot-see",
       "specPath": "books/what-we-cannot-see/book.yml",
@@ -1009,7 +1009,7 @@
         "chapterStructure": "complete",
         "chapterSummaries": "missing",
         "contentType": "complete",
-        "literaryForm": "not-applicable",
+        "literaryForm": "complete",
         "nonGoals": "complete",
         "partStructure": "complete",
         "publicChangeEvent": "complete",
@@ -1031,7 +1031,7 @@
         "typedWorkRelationships": "missing",
         "whyItExists": "complete"
       },
-      "literaryForm": null,
+      "literaryForm": "monograph",
       "profile": "nonfiction",
       "slug": "when-others-look-to-you-v1",
       "specPath": "books/when-others-look-to-you/v1/book.yml",
@@ -1186,7 +1186,7 @@
       "workId": "work-why-diversity-matters"
     }
   ],
-  "generatedAt": "2026-07-23T01:21:43.343401+00:00",
+  "generatedAt": "2026-07-23T01:41:31.272445+00:00",
   "summaries": {
     "booksAbsentFromEditorialShelves": [],
     "booksAbsentFromQuestions": [

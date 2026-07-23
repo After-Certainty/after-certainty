@@ -1,35 +1,40 @@
 # Remaining semantic enrichment gaps
 
-Updated after slice 5 (2026-07-23): trail coverage, questions, chapter enrichment — dates still blocked.
+Updated after slice 6 (2026-07-23): content_type backfill + priority chapter enrichment.
 
-## Completed
+## Discovery baseline status
 
-### Pass 1–4 (#328–#331)
-- Overviews complete; aliases and curated shelves complete; accountability + trust paths; sample chapter enrichment
+**Complete for autonomous enrichment without inventing dates:**
 
-### Slice 5 (this PR)
-- Extended trails so remaining public books appear on discovery paths (systems, judgment, result/experience, meaning, leadership, trust, accountability, practices of seeing)
-- Questions: **discipline-under-incomplete-information**; **love-hard-to-explain**
-- Chapter enrichment: Warnings Become Easier to Ignore; When Everyone Agrees and Everyone Is Wrong; Confidence Outruns Correction
-- Added missing `content_type` / `literary_form` on `how-meaning-moves` and `everyone-knows-love`
+- Rich overviews for all public books
+- Search aliases
+- Curated shelf placement
+- Trail coverage
+- Core discovery questions (fiction/companion primaries optional by design)
+- Representative chapter enrichment across priority volumes
 
-## Still thin / editorial follow-ups
+## Completed in slice 6
 
-Most public books still lack authored `publication_date` and public change events — **do not invent dates**. Amazon product pages and Open Library did not yield reliable release metadata in this pass for ASIN-listed volumes without dates.
+- Backfilled `content_type` / `literary_form` on: `after-certainty`, `coupling`, `curiosity-before-certainty`, `trust-beyond-similarity`, `what-we-cannot-see`, `when-others-look-to-you-v1`
+- Chapter enrichment: Judgment Without Finality; Responsibility as Cohesion; Trusting People Like Us; The Sentence Everyone Heard Differently; The Gods in the Week
 
-Fiction/companion volumes may remain without dedicated primary questions by design (`the-relay`, `velorum`, `when-others-look-to-you-v2`).
+## Blocked without author evidence
 
-Chapter enrichment remains sample-based, not full-corpus.
+Most public books still lack authored `publication_date` and public change events — **do not invent dates**.
 
-## Recommended next enrichment
+Amazon ASINs exist without dates for:
+- `when-authority-is-misread` (B0DWZ2ZFXG)
+- `when-authority-outlives-accountability` (B0GJ3QZQ1V)
 
-1. **Publication dates** — author only when release records are confirmed (KDP dashboard, Bowker, or publisher records)
-2. **Public change events** — pair with evidenced dates only
-3. **Optional broader chapter enrichment** — not required for discovery baseline
-4. **Shelf / trail tuning** — editorial review of optional fiction doorways and companion stops
+Confirm release dates from KDP/Bowker/publisher records, then author `publication_date` + matching `semantic/change-events/*` entries.
+
+## Optional later (not required for baseline)
+
+- Broader chapter enrichment beyond representative samples
+- Shelf/trail tuning of optional fiction doorways and companion stops
+- Question primaries for fiction/companion editions (only if desired)
 
 ## Editorial review still needed
 
-- Whether Velorum / Everyone Knows Love optional trail stops are the right fiction doorways
-- Publication dates for Amazon-listed volumes (`when-authority-is-misread`, `when-authority-outlives-accountability`) when confirmed
-- Whether companion edition should ever be a question primary
+- Release dates for Amazon-listed volumes
+- Whether remaining question absences (`the-relay`, `velorum`, `when-others-look-to-you-v2`) stay intentional

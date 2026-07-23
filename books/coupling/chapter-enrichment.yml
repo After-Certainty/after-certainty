@@ -1,0 +1,24 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-1-the-structural-grammar/02-responsibility-as-cohesion.md
+    summary: >
+      Cohesion moves from software components to people and institutions — where responsibility lives,
+      whether boundaries are clear enough to learn when something goes wrong, and how fragmentation
+      begins before anyone formally notices.
+    centralQuestion: Where does responsibility actually live — and is that boundary clear enough to learn?
+    selectedConcepts:
+      - coupling
+      - cohesion
+      - responsibility
+      - accountability
+      - consequence
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - learning-collapses
+    searchAliases:
+      - responsibility as cohesion
+      - where responsibility lives
+    situations:
+      - responsibility-outruns-control
+    readingTransition: >
+      From responsibility as cohesion into consequence as coupling — how effects bind systems together.
