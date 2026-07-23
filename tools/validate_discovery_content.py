@@ -23,6 +23,8 @@ from book_specs import discover_book_spec_paths, load_book_spec
 from discovery_manifest import (
     CONTENT_TYPES,
     EDITION_RELATIONSHIPS,
+    LITERARY_FORMS,
+    WORK_RELATIONSHIP_TYPES,
     default_work_slug,
     work_id_for_slug,
 )
@@ -157,6 +159,19 @@ def validate_work_edition_invariants(repo: Path, errors: list[str], warnings: li
         content_type = str(book.get("content_type") or "nonfiction").strip()
         if content_type not in CONTENT_TYPES:
             errors.append(f"{spec_path}: invalid content_type {content_type!r}")
+        literary_form = str(book.get("literary_form") or "").strip()
+        if literary_form and literary_form not in LITERARY_FORMS:
+            errors.append(f"{spec_path}: invalid literary_form {literary_form!r}")
+        kind = str(book.get("kind") or "prose").strip()
+        if kind == "poetry" and content_type not in {"poetry"} and book.get("content_type"):
+            warnings.append(
+                f"{spec_path}: kind=poetry but content_type={content_type!r} (expected poetry)"
+            )
+        subtitle = str(book.get("subtitle") or "").lower()
+        if "fiction" in subtitle and content_type != "fiction":
+            warnings.append(
+                f"{spec_path}: subtitle suggests fiction but content_type={content_type!r}"
+            )
         if relationship == "superseded" and is_canonical:
             errors.append(f"{spec_path}: superseded edition cannot be canonical")
         overview = book.get("overview")
@@ -178,6 +193,36 @@ def validate_work_edition_invariants(repo: Path, errors: list[str], warnings: li
                 s = str(raw).strip()
                 if s and s not in pattern_slugs:
                     errors.append(f"{spec_path}: overview selectedPatterns unknown {s!r}")
+            seen_related: set[tuple[str, str]] = set()
+            for item in overview.get("relatedWorks") or []:
+                if not isinstance(item, dict):
+                    errors.append(f"{spec_path}: relatedWorks entry must be a mapping")
+                    continue
+                work_raw = str(item.get("workId") or "").strip()
+                target_work_slug = work_raw.removeprefix("work-")
+                rel = str(item.get("relationship") or "").strip()
+                reason = str(item.get("reason") or "").strip()
+                if not work_raw:
+                    errors.append(f"{spec_path}: relatedWorks missing workId")
+                    continue
+                if rel not in WORK_RELATIONSHIP_TYPES:
+                    errors.append(f"{spec_path}: invalid relatedWorks relationship {rel!r}")
+                if not reason:
+                    errors.append(f"{spec_path}: relatedWorks requires reason")
+                if target_work_slug == default_work_slug(slug) or target_work_slug == slug:
+                    errors.append(f"{spec_path}: relatedWorks self-reference {work_raw!r}")
+                # Target work must have at least one book slug matching work slug or editions
+                target_ok = target_work_slug in known_slugs or any(
+                    default_work_slug(s) == target_work_slug for s in known_slugs
+                )
+                if not target_ok:
+                    errors.append(f"{spec_path}: relatedWorks unknown workId {work_raw!r}")
+                key = (target_work_slug, rel)
+                if key in seen_related:
+                    warnings.append(
+                        f"{spec_path}: duplicate relatedWorks ({target_work_slug}, {rel})"
+                    )
+                seen_related.add(key)
             if not overview.get("centralQuestion"):
                 warnings.append(f"{spec_path}: overview incomplete")
         by_work[work_slug].append((slug, {"canonical": bool(is_canonical), "rel": relationship}))
@@ -369,13 +414,51 @@ def validate_discovery_resources(repo: Path, errors: list[str], warnings: list[s
         else:
             for err in sorted(validator.iter_errors(doc), key=lambda e: list(e.path)):
                 errors.append(f"{aliases_path}: {err.message}")
+            global_phrases: dict[str, tuple[int, str]] = {}
             for i, entry in enumerate(doc.get("entries") or []):
                 if not isinstance(entry, dict):
                     continue
+                terms = entry.get("terms") or []
+                if not terms:
+                    errors.append(f"{aliases_path}: entries[{i}] empty terms")
+                kind = str(entry.get("kind") or "")
+                if kind not in {"alias", "related"}:
+                    errors.append(f"{aliases_path}: entries[{i}] invalid kind {kind!r}")
+                for t in terms:
+                    n = " ".join(str(t).lower().split())
+                    if not n:
+                        errors.append(f"{aliases_path}: entries[{i}] empty phrase")
+                        continue
+                    if n in global_phrases:
+                        prev_i, prev_kind = global_phrases[n]
+                        if kind == "alias" and prev_kind == "alias":
+                            errors.append(
+                                f"{aliases_path}: conflicting exact alias {n!r} "
+                                f"(entries[{prev_i}] and entries[{i}])"
+                            )
+                        else:
+                            errors.append(
+                                f"{aliases_path}: duplicate normalized phrase {n!r} "
+                                f"(entries[{prev_i}] and entries[{i}])"
+                            )
+                    global_phrases[n] = (i, kind)
+                    if len(n.split()) == 1 and n in {"the", "a", "and", "or", "to", "of"}:
+                        warnings.append(
+                            f"{aliases_path}: entries[{i}] excessively broad phrase {t!r}"
+                        )
                 for tid in entry.get("targetIds") or []:
                     t = str(tid).strip()
                     if t and not _is_known_target(t, ids):
                         errors.append(f"{aliases_path}: entries[{i}] unknown targetId {t!r}")
+
+    # Completeness warnings (non-fatal)
+    try:
+        from report_semantic_completeness import build_report, completeness_warnings
+
+        for w in completeness_warnings(build_report(repo)):
+            warnings.append(w)
+    except Exception as exc:  # pragma: no cover
+        warnings.append(f"completeness report unavailable: {exc}")
 
 
 def main() -> int:

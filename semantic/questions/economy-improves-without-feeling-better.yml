@@ -1,0 +1,50 @@
+id: economy-improves-without-feeling-better
+slug: economy-improves-without-feeling-better
+question: Why can the economy improve without feeling better?
+summary: Aggregate charts and lived receipts are evidence from different distances; one can improve while
+  the other does not.
+orientation: Public economic speech often collapses two clocks into one verdict. Credibility requires
+  holding chart and receipt together without denying either.
+whatThisIsNot:
+- Not an argument against economic statistics.
+- Not a claim that distrust is always justified.
+- Not the same as what a sports scoreboard can settle (related but distinct).
+status: published
+featured: false
+families:
+- Measurement and lived experience
+primaryBookId: book-the-economy-we-dont-experience
+relatedQuestionIds:
+- scoreboard-settles-and-cannot
+searchHints:
+- chart versus receipt
+- economy looks good feels bad
+pathStops:
+- position: 1
+  entityType: situation
+  entityId: situation-chart-says-receipt-says-otherwise
+  description: Start from the recognizable clash of chart and receipt.
+  whyThisFollows: The question is lived before it is theoretical.
+- position: 2
+  entityType: concept
+  entityId: concept-compression
+  description: See how compression makes aggregate and lived scales diverge.
+  whyThisFollows: Distance and compression create the two clocks.
+- position: 3
+  entityType: book
+  entityId: book-the-economy-we-dont-experience
+  description: Primary book on speaking about a shared economy without denying experience.
+  whyThisFollows: This is the direct treatment of chart versus receipt.
+- position: 4
+  entityType: book
+  entityId: book-what-we-cannot-see
+  description: Partial perspective names why no one sees the whole economy.
+  whyThisFollows: Finite perspective explains divergent economic experience.
+- position: 5
+  entityType: book
+  entityId: book-after-certainty
+  description: Judgment when shared understanding of “the economy” thins.
+  whyThisFollows: Holding two truths leads into judgment after certainty.
+closingReflection: A credible leader does not choose between the chart and the receipt. The work is to
+  keep both speakable.
+carryForwardQuestion: Which distance of economic evidence is being asked to stand for the whole?

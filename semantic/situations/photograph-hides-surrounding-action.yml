@@ -1,0 +1,28 @@
+slug: photograph-hides-surrounding-action
+title: Photograph makes one actor visible
+summary: >
+  A fixed image or story makes one person or moment visible while obscuring the surrounding action,
+  constraints, and many causes that made the moment possible.
+activePatterns:
+  - blame-compresses-complexity
+  - attention-finds-a-focus
+relatedConcepts:
+  - attention
+  - agency
+  - asymmetry
+  - compression
+relatedBooks:
+  - the-world-we-make-together
+  - the-game-we-think-we-saw
+relatedChapterIds:
+  - chapter-the-world-we-make-together-parts-part-4-from-power-over-to-power-with-chapter-10-the-window
+recognitionSignals:
+  - one face carries the whole explanation
+  - a cropped image is treated as the complete scene
+  - surrounding labor and constraints disappear from the public story
+questions:
+  - What did the frame leave outside the view?
+  - Who becomes invisible when one actor is made visible?
+counterbalances:
+  - widen the frame before assigning sole cause
+  - treat visibility as selection, not completeness

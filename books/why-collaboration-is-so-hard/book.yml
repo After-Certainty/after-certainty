@@ -1,25 +1,70 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: why-collaboration-is-so-hard
-  title: "Why Collaboration Is So Hard"
-  subtitle: "And Why the Effort Still Matters"
-  description: "Why joint work fails when incentives, trust, and shared understanding do not line up—and why the effort to collaborate still matters."
+  title: Why Collaboration Is So Hard
+  subtitle: And Why the Effort Still Matters
+  description: Why joint work fails when incentives, trust, and shared understanding do not line up—and
+    why the effort to collaborate still matters.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: Why does collaboration remain fragile even when people are competent, motivated,
+      and trying in good faith?
+    whyItExists: Collaboration can fail among sincere and capable people because shared work exceeds any
+      one person's sight, control, and ownership. The book treats that fragility as a structural condition—not
+      only a virtue or skill deficit to train away.
+    audience: 'Anyone responsible for shared outcomes: team leads, facilitators, founders, clinicians,
+      educators, volunteers, and contributors in matrixed organizations.'
+    nonGoals:
+    - It is not a teamwork playbook, leadership manual, or productivity framework.
+    - It does not promise that facilitation eliminates fragility or treat stability as the default.
+    - It does not romanticize collaboration or treat silence and conflict as mere lack of commitment.
+    selectedConcepts:
+    - diffuse-ownership
+    - contribution-asymmetry
+    - invisible-labor
+    - legibility
+    - partial-coherence
+    - structural-fragility
+    selectedPatterns:
+    - disagreement-is-suppressed
+    - responsibility-persists-beyond-control
+    readBefore:
+    - coupling
+    readNext:
+    - how-meaning-moves
+    - after-certainty
+    relatedWorks:
+    - workId: coupling
+      relationship: deepens
+      reason: Extends system architecture of connection and separation into shared contribution, ownership,
+        and invisible coordination work.
+    - workId: how-meaning-moves
+      relationship: companion_to
+      reason: Misaligned understanding in collaboration is often meaning in motion under compression.
+    - workId: when-incentives-become-the-moral-language
+      relationship: contrasts_with
+      reason: Metrics can replace judgment just as dashboards can hide the coordination labor collaboration
+        requires.
+    - workId: boundary-conditions
+      relationship: companion_to
+      reason: Fiction companion that dramatizes reliable-person routing and invisible coordination labor.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Structural fragility in shared work leads into judgment and responsibility after explanation
+        thins.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -29,11 +74,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -42,11 +85,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

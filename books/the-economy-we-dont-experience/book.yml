@@ -1,27 +1,61 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: the-economy-we-dont-experience
-  title: "The Economy We Don't Experience"
-  subtitle: "Leadership, Communication, and the Credibility Crisis in Economics and Politics"
-  description: "How the chart and the receipt diverge—and what that gap means for compression, signaling, credibility, and leadership under interpretive stress."
+  title: The Economy We Don't Experience
+  subtitle: Leadership, Communication, and the Credibility Crisis in Economics and Politics
+  description: How the chart and the receipt diverge—and what that gap means for compression, signaling,
+    credibility, and leadership under interpretive stress.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   title_page_cover_unnumbered: true
   title_page_newpage_after: true
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: Why can the economy improve without feeling better?
+    whyItExists: The chart and the receipt are both evidence from different distances. Aggregate indicators
+      can improve while transmission into lived experience diverges—two clocks of economic interpretation
+      that leaders and citizens must hold together.
+    audience: Leaders, institutions, journalists, and citizens facing public economic speech under interpretive
+      stress and uneven experience.
+    nonGoals:
+    - It is not an argument against economic statistics.
+    - It does not claim that distrust is always justified or that lived experience is always correct.
+    - It does not treat “just tell the truth” as a strategy when selection and sequence still matter.
+    selectedConcepts:
+    - relational-credibility
+    - experiential-cross-checking
+    - compression
+    - democratic-procedures-can-persist-while-shared-meaning-erodes
+    - humility
+    selectedPatterns:
+    - speech-escalates-faster-than-meaning
+    - meaning-outruns-the-words
+    readBefore:
+    - what-we-cannot-see
+    readNext:
+    - after-certainty
+    relatedWorks:
+    - workId: what-we-cannot-see
+      relationship: deepens
+      reason: Partial perspective becomes the gap between aggregate charts and lived receipts.
+    - workId: the-game-we-think-we-saw
+      relationship: companion_to
+      reason: Both books examine what a decisive result or indicator leaves unsettled in experience and
+        meaning.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Speaking across chart and receipt prepares judgment when shared understanding thins.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -31,26 +65,22 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: back-matter/about-the-series.md
-
 build:
   formats:
     docx:
       enabled: true
-      # Cover/front-matter silent; Arabic from Introduction; no heads on openers; TOC field.
       interior_finish: true
     epub:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

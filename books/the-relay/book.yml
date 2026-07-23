@@ -14,8 +14,10 @@ book:
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-  title_page_footer: |
-    Author-facing planning and voice rules live under [`docs/`](./docs/); this page is for **exports** only.
+  title_page_footer: 'Author-facing planning and voice rules live under [`docs/`](./docs/); this page
+    is for **exports** only.
+
+    '
   content_type: fiction
   overview:
     centralQuestion: What happens when a civilization-sized blind spot can only be seen one perspective
@@ -30,6 +32,7 @@ book:
     readNext:
     - how-meaning-moves
     - curiosity-before-certainty
+  literary_form: novel
 paths:
   manuscript: ./index.md
   output: .

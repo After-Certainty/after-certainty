@@ -15,6 +15,48 @@ book:
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
   content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: How does certainty form, harden, and outlive the conditions that made it necessary?
+    whyItExists: Certainty can be an adaptive response to instability. The book reads history so readers
+      can recognize why inherited moral order feels obvious—before it feels excessive—without reducing
+      traditions to machinery.
+    audience: 'Readers seeking a historical prequel to the series: how moral, religious, legal, and epistemic
+      tools stabilize life under constraint, scale, and uncertainty.'
+    nonGoals:
+    - It is not a comprehensive chronology or a moral ranking of eras.
+    - It does not reduce traditions to machinery or claim historical inevitability.
+    - Its task is recognition rather than final verdict or prescription for what to believe now.
+    selectedConcepts:
+    - certainty
+    - compression
+    - inheritance
+    - drift
+    - constraint
+    - legitimacy
+    selectedPatterns:
+    - finality-compensates-for-uncertainty
+    - meaning-forms-early
+    - exceptions-are-forever
+    readBefore:
+    - curiosity-before-certainty
+    readNext:
+    - living-in-sediment
+    - after-certainty
+    relatedWorks:
+    - workId: living-in-sediment
+      relationship: continues
+      reason: From how certainty forms historically into how inherited structures persist as sediment
+        in the present.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: 'Explicit handoff: once certainty thins, how do we live and judge?'
+    - workId: learning-to-see
+      relationship: companion_to
+      reason: Historical formation of certainty pairs with practices that form knowers across traditions.
+    - workId: when-incentives-become-the-moral-language
+      relationship: deepens
+      reason: Inherited moral language includes metrics that harden into coordination tools.
 paths:
   manuscript: ./index.md
   output: .

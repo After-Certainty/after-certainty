@@ -26,6 +26,7 @@ book:
     readNext:
     - what-we-cannot-see
     - after-certainty
+  publication_date: '2026-02-10'
 paths:
   manuscript: ./index.md
   output: .

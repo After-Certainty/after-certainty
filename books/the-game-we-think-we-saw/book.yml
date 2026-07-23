@@ -1,25 +1,68 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: the-game-we-think-we-saw
-  title: "The Game We Think We Saw"
-  subtitle: "What Sports Reveals About Winning, Judgment, and the Stories Results Cannot Settle"
-  description: "Sports gives us some of the clearest outcomes in public life. A score becomes final, a ruling takes effect, and one side advances. But the result cannot fully explain what produced it, why it should count, what it is allowed to justify, who carried its cost, or what the event will eventually mean. The Game We Think We Saw follows those unsettled questions from the scoreboard into the systems, bodies, judgments, and stories surrounding the game."
+  title: The Game We Think We Saw
+  subtitle: What Sports Reveals About Winning, Judgment, and the Stories Results Cannot Settle
+  description: Sports gives us some of the clearest outcomes in public life. A score becomes final, a
+    ruling takes effect, and one side advances. But the result cannot fully explain what produced it,
+    why it should count, what it is allowed to justify, who carried its cost, or what the event will eventually
+    mean. The Game We Think We Saw follows those unsettled questions from the scoreboard into the systems,
+    bodies, judgments, and stories surrounding the game.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: Why does a final result leave so much unsettled?
+    whyItExists: A result may be final while its cause, legitimacy, cost, and meaning remain unsettled.
+      Sports yields unusually clear outcomes; the book follows what the scoreboard cannot settle without
+      translating every pattern into business lessons.
+    audience: Readers who care about sports as a site of judgment, authority, bodies, and public story—and
+      anyone watching how final results compress unsettled remainders.
+    nonGoals:
+    - It is not a book that settles famous sports debates or assigns simple credit and blame.
+    - It does not treat the scoreboard as wrong; the scoreboard is complete only about its question.
+    - It does not primarily translate sports patterns into leadership or business manuals.
+    selectedConcepts:
+    - scoreboard-remainder
+    - operational-finality
+    - winning-as-excuse
+    - gesture-afterlife
+    - compression
+    - legitimacy
+    selectedPatterns:
+    - finality-compensates-for-uncertainty
+    - meaning-drifts-over-time
+    - blame-compresses-complexity
+    readBefore:
+    - when-incentives-become-the-moral-language
+    readNext:
+    - how-meaning-moves
+    - after-certainty
+    relatedWorks:
+    - workId: when-incentives-become-the-moral-language
+      relationship: deepens
+      reason: Extends what scoreboards can and cannot settle from institutional metrics into sporting
+        finality and public meaning.
+    - workId: how-meaning-moves
+      relationship: companion_to
+      reason: After the result is fixed, meaning continues to travel and harden.
+    - workId: when-interpretation-no-longer-matters
+      relationship: contrasts_with
+      reason: Contrasts unsettled meaning after a result with moments when interpretation itself collapses.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Unsettled remainders after final results prepare judgment without total explanation.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -29,26 +72,22 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: back-matter/about-the-series.md
-
 build:
   formats:
     docx:
       enabled: true
-      # Cover/front-matter silent; Arabic from Introduction; no heads on openers; TOC field.
       interior_finish: true
     epub:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

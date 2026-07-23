@@ -20,7 +20,8 @@ book:
   edition_relationship: primary   # sole | primary | companion | superseded
   is_canonical: true
   edition_label: Primary volume
-  content_type: nonfiction        # nonfiction | fiction | handbook | essay_collection
+  content_type: nonfiction        # nonfiction | fiction | handbook | essay_collection | poetry
+  literary_form: monograph        # optional: novel | poetry_collection | monograph | handbook | ...
   overview:
     centralQuestion: "..."
     whyItExists: "..."
@@ -31,11 +32,25 @@ book:
     selectedPatterns: [exceptions-are-forever]
     readBefore: [how-serious-systems-learn]
     readNext: [when-others-look-to-you-v2]
+    relatedWorks:
+      - workId: coupling
+        relationship: deepens   # prepares_for | deepens | applies | historicizes | fictionalizes | contrasts_with | companion_to | continues | reframes
+        reason: >
+          Short editorial reason grounded in the manuscript or index.
 ```
 
-Defaults when omitted: `work_id` derived from slug (strip `-vN`), `edition_relationship: sole`, `is_canonical: true`, `content_type: nonfiction`.
+Defaults when omitted: `work_id` derived from slug (strip `-vN`), `edition_relationship: sole`, `is_canonical: true`, `content_type: nonfiction` (or `poetry` when `kind: poetry` and content_type omitted).
 
-`kind: prose|poetry` remains a build/format concern, orthogonal to `content_type`.
+`kind: prose|poetry` remains a build/format concern, orthogonal to `content_type`. Optional `literary_form` refines public catalog form.
+
+Publication dates (authored only; never from file mtimes):
+
+```yaml
+book:
+  publication_date: 2026-01-15
+  edition_published_at: 2026-01-15   # optional
+  substantially_revised_at: null       # optional ISO date when applicable
+```
 
 ## Search aliases
 
@@ -46,9 +61,11 @@ version: 1
 entries:
   - terms: [wolty]
     kind: alias          # true alias
+    aliasClass: shortened_name   # optional: previous_title | spelling_variant | shortened_name | vocabulary_bridge
     targetIds: [book-when-others-look-to-you-v1]
   - terms: [temporary rules]
     kind: related        # vocabulary bridge, not a synonym claim
+    aliasClass: vocabulary_bridge
     targetIds: [pattern-exceptions-are-forever]
 ```
 
@@ -105,11 +122,18 @@ Podcast and site-feature announcements may remain site-authored until podcast me
 ```bash
 make validate-book-specs
 make validate-discovery-content
+make report-semantic-completeness
 make verify-semantic-ontology
 make compare-site-discovery
 ```
 
-Broken references, duplicate IDs, invalid canonical state, and hidden public leakage fail the build. Incomplete optional overview coverage may warn.
+Broken references, duplicate IDs, invalid canonical state, and hidden public leakage fail the build. Incomplete optional overview coverage and completeness gaps may warn.
+
+See also:
+
+- [semantic-completeness-report.md](semantic-completeness-report.md)
+- [semantic-chapter-identity.md](semantic-chapter-identity.md)
+- [migrations/enrichment-content-type-corrections.md](migrations/enrichment-content-type-corrections.md)
 
 ## Site migration path
 

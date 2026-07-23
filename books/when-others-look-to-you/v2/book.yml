@@ -20,6 +20,7 @@ book:
   edition_relationship: companion
   is_canonical: false
   edition_label: Companion edition
+  publication_date: '2026-06-01'
 paths:
   manuscript: ./index.md
   output: .

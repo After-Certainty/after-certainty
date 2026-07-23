@@ -1,0 +1,45 @@
+id: attention-changes-what-it-observes
+slug: attention-changes-what-it-observes
+question: Can attention change what it observes?
+summary: Looking, deciding, and following reshape what becomes possible; observation is not only passive
+  recording.
+orientation: Observer Patterns approaches the question as poetry of attention becoming decisive—pattern
+  recognition without instructions or argument.
+whatThisIsNot:
+- Not a scientific claim that poems prove measurement theory.
+- Not a handbook of observation techniques.
+- Not an argument that noticing alone remakes institutions.
+status: published
+featured: false
+families:
+- Attention and knowing
+primaryBookId: book-observer-patterns
+relatedQuestionIds:
+- what-becomes-scarce-when-answers-cheap
+searchHints:
+- attention changes what it observes
+- patterns of seeing
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-attention
+  description: Begin with attention as decisive, not only receptive.
+  whyThisFollows: The question is about what looking does.
+- position: 2
+  entityType: book
+  entityId: book-observer-patterns
+  description: Poetry collection of observer patterns—looking, deciding, following.
+  whyThisFollows: Verse is the primary form for this path.
+- position: 3
+  entityType: book
+  entityId: book-learning-to-see
+  description: Prose companion on practices that form better knowers.
+  whyThisFollows: After poems, comparative practices deepen the same terrain.
+- position: 4
+  entityType: book
+  entityId: book-what-we-cannot-see
+  description: Finite perspective and what attention cannot complete.
+  whyThisFollows: Observation still meets the limits of any single view.
+closingReflection: Attention can change what is available to see and to follow. That is not the same as
+  owning the whole scene.
+carryForwardQuestion: Where does your looking already reshape what becomes possible?

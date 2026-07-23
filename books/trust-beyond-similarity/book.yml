@@ -34,6 +34,7 @@ book:
     readNext:
     - what-we-cannot-see
     - how-trust-forms
+  publication_date: '2026-05-20'
 paths:
   manuscript: ./index.md
   output: .

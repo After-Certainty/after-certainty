@@ -1,0 +1,25 @@
+slug: same-meeting-different-decisions
+title: Same meeting, different decisions
+summary: >
+  Everyone leaves the same conversation carrying a different decision—not because someone lied,
+  but because partial hearing and incomplete agreement travel forward as incompatible commitments.
+activePatterns:
+  - disagreement-is-suppressed
+relatedConcepts:
+  - partial-coherence
+  - legibility
+  - coordination
+relatedBooks:
+  - why-collaboration-is-so-hard
+relatedChapterIds:
+  - chapter-why-collaboration-is-so-hard-parts-chapter-2-we-did-not-agree-to-the-same-thing
+recognitionSignals:
+  - people cite the same meeting to justify incompatible next steps
+  - a follow-up “sync” reproduces the original uncertainty
+  - shared words (“customer,” “Friday”) carry different professional worlds
+questions:
+  - What did each person actually carry forward from the last agreement?
+  - Where is movement revealing that agreement never existed?
+counterbalances:
+  - treat disagreement about what was decided as structural, not only interpersonal
+  - make partial understanding visible before treating misalignment as bad faith

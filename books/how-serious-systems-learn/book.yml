@@ -35,6 +35,7 @@ book:
     readNext:
     - coupling
     - when-others-look-to-you-v1
+  literary_form: handbook
 paths:
   manuscript: ./index.md
   output: .

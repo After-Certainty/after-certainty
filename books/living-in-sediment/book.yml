@@ -16,6 +16,43 @@ book:
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
   content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: Why do structures outlive the reasons that created them?
+    whyItExists: 'To teach historical perception of present infrastructure fossils—language, time, policy,
+      metrics, algorithms—across four movements: fossils we do not notice, fossils shaping power, fossils
+      forming now, and living among sediment.'
+    audience: Readers of institutions, technology, and everyday coordination who want a habit of seeing
+      between permanent skepticism and unquestioning acceptance.
+    nonGoals:
+    - It is not a catalog of errors waiting to be corrected.
+    - It does not treat inherited structures as automatically suspect simply because they are inherited.
+    - It is not a policy checklist; seeing does not by itself prescribe what to remake.
+    selectedConcepts:
+    - inheritance
+    - drift
+    - structure
+    - legitimacy
+    - compression
+    selectedPatterns:
+    - meaning-drifts-over-time
+    - exceptions-are-forever
+    - examples-accumulate
+    readBefore:
+    - before-certainty-arrives
+    readNext:
+    - when-incentives-become-the-moral-language
+    - after-certainty
+    relatedWorks:
+    - workId: before-certainty-arrives
+      relationship: historicizes
+      reason: Sediment in the present is often certainty that formed under earlier constraints.
+    - workId: when-incentives-become-the-moral-language
+      relationship: applies
+      reason: Metrics that outlive their reasons are a living form of institutional sediment.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Living among sediment leads into judgment when inherited frames no longer suffice.
 paths:
   manuscript: ./index.md
   output: .

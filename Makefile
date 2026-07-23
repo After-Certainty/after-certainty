@@ -1,4 +1,4 @@
-.PHONY: help check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -46,6 +46,7 @@ help:
 	@echo "  make validate-semantic-manifest [SEMANTIC_MANIFEST=build/semantic-manifest.json]"
 	@echo "  make verify-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json]"
 	@echo "  make verify-semantic-ontology  (entities + yaml + manifest pipeline)"
+	@echo "  make report-semantic-completeness  (public work enrichment coverage → reports/semantic-completeness.{md,json})"
 	@echo "  make audit-semantic-graph  (unified graph data-quality audit → reports/semantic-graph-audit.{json,md})"
 	@echo "  make audit-semantic-metadata-quality  (source/thinker display metadata → reports/)"
 	@echo "  make audit-thinker-concepts  (thinker↔concept coverage → reports/)"
@@ -172,6 +173,14 @@ validate-semantic-entities:
 validate-discovery-content:
 	python3 tools/validate_discovery_content.py --repo .
 
+report-semantic-completeness:
+	python3 tools/report_semantic_completeness.py --repo . \
+		--md-out reports/semantic-completeness.md \
+		--json-out reports/semantic-completeness.json \
+		$(if $(MANIFEST),--manifest $(MANIFEST),) \
+		--print-warnings
+
+
 compare-site-discovery:
 	python3 tools/compare_site_discovery_data.py --repo . \
 		--fixtures docs/migrations/fixtures/site-discovery \
@@ -222,7 +231,7 @@ validate-semantic-manifest:
 
 verify-semantic-manifest: generate-semantic-manifest validate-semantic-manifest
 
-verify-semantic-ontology: validate-semantic-entities verify-semantic-yaml verify-semantic-manifest lint-semantic-graph
+verify-semantic-ontology: validate-semantic-entities verify-semantic-yaml verify-semantic-manifest validate-discovery-content lint-semantic-graph
 
 render-semantic-glossary:
 	@test -n "$(MANIFEST)" || { echo "Usage: make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=books/.../glossary.md"; exit 1; }

@@ -1,0 +1,50 @@
+id: what-becomes-scarce-when-answers-cheap
+slug: what-becomes-scarce-when-answers-cheap
+question: What becomes scarce when intelligence becomes cheap?
+summary: When answers proliferate, attention, humility, and formation of knowers become the scarce goods.
+orientation: Learning to See asks how traditions form better knowers through practices of attention—especially
+  when answers and intelligence are abundant.
+whatThisIsNot:
+- Not an argument against knowledge or tools.
+- Not a claim that every tradition secretly says the same thing.
+- Not spiritual autobiography or apologetics.
+status: published
+featured: false
+families:
+- Attention and knowing
+primaryBookId: book-learning-to-see
+relatedQuestionIds:
+- sincere-people-still-wrong
+- act-before-certainty-arrives
+searchHints:
+- wisdom when answers are cheap
+- practices of attention
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-attention
+  description: Begin with attention as what becomes scarce when answers are cheap.
+  whyThisFollows: Abundance of answers does not create better knowers by itself.
+- position: 2
+  entityType: pattern
+  entityId: pattern-attention-finds-a-focus
+  description: Notice how attention selects and forms what can be known.
+  whyThisFollows: Practices of seeing are patterned, not only personal moods.
+- position: 3
+  entityType: book
+  entityId: book-learning-to-see
+  description: Primary comparative book on becoming a better knower across traditions.
+  whyThisFollows: This volume centers formation when intelligence is cheap.
+- position: 4
+  entityType: book
+  entityId: book-what-we-cannot-see
+  description: Map finite perspective before practicing how to notice beyond it.
+  whyThisFollows: Perspective limits prepare the practices of seeing.
+- position: 5
+  entityType: book
+  entityId: book-observer-patterns
+  description: Poetry of attention becoming decisive.
+  whyThisFollows: Verse reframes observation without treating poems as proof.
+closingReflection: Cheap answers do not abolish the need for better knowers. Scarcity moves to attention,
+  humility, and practices that keep judgment revisable.
+carryForwardQuestion: Which practice of attention still changes what you can notice?

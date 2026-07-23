@@ -1,4 +1,4 @@
-# Semantic manifest contract (v2.1)
+# Semantic manifest contract (v2.2)
 
 `semantic-manifest.json` is a **public, generated API**. YAML under `books/` and `semantic/` is canonical; the manifest is never hand-edited.
 
@@ -8,7 +8,7 @@
 2. **No flag-day site break** — consumers that ignore unknown fields continue to work.
 3. **Do not repurpose fields** — new meanings get new optional fields or collections.
 4. **Integer `manifestVersion`** — remains `1` or `2` (thinkers present → `2`). This is not bumped for additive discovery fields.
-5. **String `schemaVersion`** — currently `"2.1"` documents the additive discovery contract (`works`, `editions`, `questions`, `trails`, `shelves`, `changeEvents`, `searchAliases`, and optional book discovery fields).
+5. **String `schemaVersion`** — currently `"2.2"` documents additive discovery plus `parts`/`chapters`, `literaryForm`, and overview `relatedWorks`. `"2.1"` introduced works/editions and discovery collections.
 6. **Provenance** — `generatedAt`, `repository`, `ref`, `releaseTag`, and `sourceCommit` (git SHA when available).
 
 ## Existing collections (stable)
@@ -27,9 +27,18 @@
 | `changeEvents` | Authored public content-change events |
 | `searchAliases` | Alias vs related vocabulary bridges |
 
+## Additive collections (schemaVersion 2.2)
+
+| Collection | Role |
+|------------|------|
+| `parts` | Stable part identity for parseable manuscripts |
+| `chapters` | Stable chapter identity, metrics, optional authored enrichment |
+
+See [semantic-chapter-identity.md](semantic-chapter-identity.md).
+
 ## Additive book fields
 
-Optional on each `books[]` entry: `workId`, `editionId`, `isCanonical`, `editionRelationship`, `editionLabel`, `contentType`, `publicStatus`, `availability`, `overview`, `searchAliases`.
+Optional on each `books[]` entry: `workId`, `editionId`, `isCanonical`, `editionRelationship`, `editionLabel`, `contentType` (includes `poetry`), `literaryForm`, `publicStatus`, `availability`, `overview` (including `relatedWorks`), `searchAliases`.
 
 Legacy `status`, `companionOf`, `companionBooks`, and `slugAliases` are unchanged.
 
@@ -44,6 +53,7 @@ make generate-semantic-manifest
 make validate-semantic-manifest
 make verify-semantic-manifest
 make validate-discovery-content
+make report-semantic-completeness
 ```
 
 Release staging regenerates the manifest via `scripts/prepare_release_staging.sh` as before.

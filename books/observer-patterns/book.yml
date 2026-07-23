@@ -1,33 +1,60 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: observer-patterns
   kind: poetry
-  title: "Observer Patterns"
-  description: "Poems about what happens when attention becomes decisive—when looking, deciding, and following reshape what is possible."
+  title: Observer Patterns
+  description: Poems about what happens when attention becomes decisive—when looking, deciding, and following
+    reshape what is possible.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: poetry
+  literary_form: poetry_collection
+  overview:
+    centralQuestion: What takes shape when looking, deciding, and following become decisive?
+    whyItExists: A poetry book of observer patterns—attention becoming decisive—readable alone or together
+      within the wider corpus, without instructions or argument.
+    audience: Readers who want pattern recognition through poems rather than analytical prose, and anyone
+      tracing attention, observation, and recurrence across the series.
+    nonGoals:
+    - It is not instructions.
+    - It is not arguments or a prose diagnostic volume.
+    selectedConcepts:
+    - attention
+    - meaning
+    - judgment
+    - trust
+    selectedPatterns:
+    - attention-finds-a-focus
+    - attention-finds-a-signal
+    - attention-restores-contact
+    readBefore:
+    - learning-to-see
+    readNext:
+    - what-we-cannot-see
+    relatedWorks:
+    - workId: learning-to-see
+      relationship: companion_to
+      reason: Poems of decisive attention companion practices of becoming a better knower.
+    - workId: what-we-cannot-see
+      relationship: reframes
+      reason: Observation and participation reframe finite perspective through pattern rather than treatise.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: false
-
 build:
   typst:
     entry: typst/main.typ
-    min_version: "0.14.0"
+    min_version: 0.14.0
   formats:
     docx:
       enabled: false
@@ -36,9 +63,8 @@ build:
     pdf:
       enabled: true
       pdf_engine: typst
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - pdf
+  - pdf

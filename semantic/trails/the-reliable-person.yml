@@ -1,0 +1,40 @@
+id: the-reliable-person
+slug: the-reliable-person
+title: The Reliable Person
+summary: From fiction about indispensability through collaboration failure, coupling, and leadership when
+  others look to you.
+orientation: When systems route toward one reliable person, helping becomes architecture. This trail marks
+  fiction as dramatization, then moves into nonfiction on collaboration, coupling, and leadership.
+status: published
+featured: false
+themes:
+- Collaboration
+- Leadership
+depth: intermediate
+primaryBookId: book-boundary-conditions
+relatedTrailIds:
+- leadership-after-the-person
+- systems-without-correction
+pathStops:
+- position: 1
+  entityType: book
+  entityId: book-boundary-conditions
+  description: 'Fiction: the reliable person becomes the route (dramatizes; does not prove).'
+  fictionDoorway: true
+- position: 2
+  entityType: book
+  entityId: book-why-collaboration-is-so-hard
+  description: Nonfiction on invisible coordination labor and diffuse ownership.
+  whyThisFollows: After the story, diagnose why shared work routes gaps to people.
+- position: 3
+  entityType: book
+  entityId: book-coupling
+  description: See how coupling choices make one person carry system consequences.
+  whyThisFollows: Architecture explains why reliability hardens into infrastructure.
+- position: 4
+  entityType: book
+  entityId: book-when-others-look-to-you-v1
+  description: Leadership when others look to you—and when looking becomes over-routing.
+  whyThisFollows: Being looked to is the human face of the reliable-person pattern.
+closingReflection: Fiction can make the cost of indispensability feel recognizable. Nonfiction names the
+  structures that keep routing toward the same person.

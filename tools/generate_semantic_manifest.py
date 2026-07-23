@@ -579,6 +579,13 @@ def build_situations(repo: Path) -> list[dict]:
             ],
             "relatedBooks": [book_id(s) for s in _normalize_book_slugs(data.get("relatedBooks"))],
         }
+        chapter_ids = data.get("relatedChapterIds") or []
+        if isinstance(chapter_ids, list) and chapter_ids:
+            entry["relatedChapterIds"] = [
+                str(c).strip() if str(c).startswith("chapter-") else f"chapter-{str(c).strip()}"
+                for c in chapter_ids
+                if str(c).strip()
+            ]
         entry.update(_dynamic_enrichment_fields(data))
         out.append(entry)
     return out
@@ -981,6 +988,7 @@ def main() -> None:
         situations=situations,
         sources=sources,
         thinkers=thinkers,
+        specs_by_slug=specs_by_slug,
     )
 
     out_path = Path(args.out).resolve()

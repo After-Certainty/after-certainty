@@ -57,7 +57,7 @@ def test_manifest_compatibility_keys_and_schema_version(tmp_path: Path) -> None:
         "ontology",
     ):
         assert key in data
-    assert data["schemaVersion"] == "2.1"
+    assert data["schemaVersion"] == "2.2"
     assert "sourceCommit" in data
     assert isinstance(data["books"], list) and data["books"]
     book = data["books"][0]

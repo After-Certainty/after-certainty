@@ -1,0 +1,26 @@
+slug: inherited-rule-outlives-constraint
+title: Inherited rule outlives its constraint
+summary: >
+  A structure that once answered a real constraint remains after the original pressure thins—
+  sediment mistaken for nature until someone remembers it is sediment.
+activePatterns:
+  - exceptions-are-forever
+  - meaning-drifts-over-time
+relatedConcepts:
+  - inheritance
+  - drift
+  - structure
+  - legitimacy
+relatedBooks:
+  - living-in-sediment
+  - before-certainty-arrives
+recognitionSignals:
+  - rules persist after their problem has changed
+  - “how we do things” has no living owner of the original reason
+  - reform talks past fossils nobody has named as fossils
+questions:
+  - Is the original problem still the one we are living with?
+  - What would it mean to remember that this is sediment?
+counterbalances:
+  - name inheritance without automatic suspicion
+  - separate seeing sediment from prescribing a single remake

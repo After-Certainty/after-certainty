@@ -164,7 +164,8 @@
             "nonfiction",
             "fiction",
             "handbook",
-            "essay_collection"
+            "essay_collection",
+            "poetry"
           ],
           "description": "Public catalog content type (orthogonal to kind prose|poetry)."
         },
@@ -193,6 +194,34 @@
             "$ref": "#/$defs/purchaseLink"
           },
           "minItems": 1
+        },
+        "literary_form": {
+          "type": "string",
+          "enum": [
+            "novel",
+            "poetry_collection",
+            "monograph",
+            "handbook",
+            "essay_collection",
+            "field_notes",
+            "other"
+          ],
+          "description": "Optional literary or publishing form (orthogonal refinement of content_type)."
+        },
+        "publication_date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "ISO date of first public publication for this edition."
+        },
+        "edition_published_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "ISO date this edition was published (when distinct from firstPublished)."
+        },
+        "substantially_revised_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "ISO date of a substantial public revision, if any."
         }
       }
     },
@@ -375,13 +404,54 @@
         "changeSummary": {
           "type": "string",
           "minLength": 1
+        },
+        "relatedWorks": {
+          "type": "array",
+          "maxItems": 12,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "workId",
+              "relationship",
+              "reason"
+            ],
+            "properties": {
+              "workId": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Bare work slug (without work- prefix) or work-* id."
+              },
+              "relationship": {
+                "type": "string",
+                "enum": [
+                  "prepares_for",
+                  "deepens",
+                  "applies",
+                  "historicizes",
+                  "fictionalizes",
+                  "contrasts_with",
+                  "companion_to",
+                  "continues",
+                  "reframes"
+                ]
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
         }
       }
     },
     "purchaseLink": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["retailer", "url"],
+      "required": [
+        "retailer",
+        "url"
+      ],
       "properties": {
         "retailer": {
           "type": "string",

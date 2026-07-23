@@ -1,0 +1,29 @@
+slug: reliable-person-becomes-the-route
+title: The reliable person becomes the route
+summary: >
+  Work, exceptions, and rescue requests route toward one reliable person until that person becomes
+  informal infrastructure—and absorbing the gap is praised as character.
+activePatterns:
+  - responsibility-persists-beyond-control
+  - leaders-feel-the-consequences
+relatedConcepts:
+  - invisible-labor
+  - boundary
+  - authorization
+  - coordination
+relatedBooks:
+  - boundary-conditions
+  - why-collaboration-is-so-hard
+  - coupling
+relatedChapterIds:
+  - chapter-boundary-conditions-manuscript-act-3-realization-chapter-16-reliable-person
+recognitionSignals:
+  - everyone routes exceptions to the same name
+  - helping slowly becomes absorbing
+  - praise for reliability hides missing system capacity
+questions:
+  - What work is the system learning not to carry?
+  - Where has reliability become architecture?
+counterbalances:
+  - name routing as a design choice, not only a personality trait
+  - transfer capacity instead of celebrating endless absorption
