@@ -1,0 +1,23 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-1-the-three-dimensions/chapter-2-moral-posture-toward-harm.md
+    summary: >
+      Leadership morality is read less as character label than as how a leader handles harm when they
+      have power to choose otherwise — where cost is placed, how it is justified, and whether it is
+      treated as unavoidable, regrettable, or useful.
+    centralQuestion: How should we evaluate a leader’s moral posture toward harm without collapsing into character praise or blame?
+    selectedConcepts:
+      - moral-posture-toward-harm
+      - harm
+      - authority
+      - accountability
+    selectedPatterns:
+      - blame-compresses-complexity
+      - admiration-becomes-insulation
+    searchAliases:
+      - moral posture toward harm
+      - where harm is placed
+    situations:
+      - blame-locates-harm-in-a-face
+    readingTransition: >
+      From moral posture into effectiveness — the second dimension usually mistaken for virtue.

@@ -1,6 +1,6 @@
 # Semantic completeness report
 
-Generated: `2026-07-23T00:30:25.532139+00:00`
+Generated: `2026-07-23T01:00:40.911707+00:00`
 
 Public canonical works evaluated: **32**
 
@@ -14,53 +14,30 @@ _None._
 
 ### Books missing search aliases
 
-- `after-certainty`
-- `coupling`
-- `curiosity-before-certainty`
-- `everyone-knows-love`
-- `how-serious-systems-learn`
-- `the-relay`
-- `what-we-cannot-see`
+_None._
 
 ### Books absent from questions
 
 - `everyone-knows-love`
-- `how-trust-forms`
 - `the-discipline-of-uncertainty`
 - `the-relay`
 - `velorum`
 - `when-others-look-to-you-v2`
-- `when-trust-stops-tracking-reality`
 
 ### Books absent from trails
 
 - `everyone-knows-love`
 - `how-serious-systems-learn`
-- `how-trust-forms`
 - `the-discipline-of-uncertainty`
 - `the-world-we-make-together`
-- `trust-beyond-similarity`
 - `velorum`
 - `when-interpretation-no-longer-matters`
 - `when-others-look-to-you-v2`
-- `when-trust-stops-tracking-reality`
 - `why-diversity-matters`
 
 ### Books absent from editorial shelves
 
-- `before-certainty-arrives`
-- `boundary-conditions`
-- `how-meaning-moves`
-- `learning-to-see`
-- `living-in-sediment`
-- `observer-patterns`
-- `the-discipline-of-uncertainty`
-- `the-economy-we-dont-experience`
-- `the-game-we-think-we-saw`
-- `the-world-we-make-together`
-- `velorum`
-- `when-interpretation-no-longer-matters`
-- `when-others-look-to-you-v2`
+_None._
 
 ### Books without publication dates
 
@@ -161,7 +138,7 @@ _None._
 | `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
+| `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
@@ -198,7 +175,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -232,7 +209,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -263,7 +240,7 @@ _None._
 | `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
+| `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
@@ -297,7 +274,7 @@ _None._
 | `selectedPatterns` | `missing` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
+| `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
@@ -331,7 +308,7 @@ _None._
 | `selectedPatterns` | `missing` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
+| `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
 | `trailCoverage` | `missing` |
 | `shelfCoverageBeyondCatalog` | `complete` |
@@ -368,7 +345,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `complete` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -399,7 +376,7 @@ _None._
 | `selectedPatterns` | `missing` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
+| `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `missing` |
 | `shelfCoverageBeyondCatalog` | `complete` |
@@ -434,8 +411,8 @@ _None._
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
-| `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
+| `questionCoverage` | `complete` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -470,7 +447,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -504,7 +481,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -538,7 +515,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -572,7 +549,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
 | `trailCoverage` | `missing` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -606,7 +583,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -640,7 +617,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -671,7 +648,7 @@ _None._
 | `selectedPatterns` | `missing` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
+| `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
 | `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
@@ -708,7 +685,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `missing` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -741,7 +718,7 @@ _None._
 | `typedWorkRelationships` | `missing` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
-| `trailCoverage` | `missing` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `complete` |
 | `partStructure` | `complete` |
@@ -776,7 +753,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
 | `trailCoverage` | `missing` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -807,7 +784,7 @@ _None._
 | `selectedPatterns` | `missing` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
-| `searchAliases` | `missing` |
+| `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
@@ -980,7 +957,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `missing` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -1116,7 +1093,7 @@ _None._
 | `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
 | `trailCoverage` | `missing` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `complete` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -1148,8 +1125,8 @@ _None._
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
-| `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
+| `questionCoverage` | `complete` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |

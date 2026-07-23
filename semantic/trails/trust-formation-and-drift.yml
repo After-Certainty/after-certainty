@@ -1,0 +1,55 @@
+id: trust-formation-and-drift
+slug: trust-formation-and-drift
+title: Trust Formation and Drift
+summary: >
+  From how people become willing to participate under uncertainty, through trust that stops
+  tracking evidence, into practice across disagreement.
+orientation: >
+  Trust does not eliminate uncertainty; it makes participation possible while uncertainty remains.
+  This trail holds formation and drift on the same cycle — then asks how trust survives when
+  perspectives diverge.
+status: published
+featured: false
+themes:
+  - Trust
+  - Feedback and correction
+depth: intermediate
+primaryBookId: book-how-trust-forms
+relatedTrailIds:
+  - leadership-after-the-person
+  - meaning-under-pressure
+  - accountability-and-enduring-authority
+pathStops:
+  - position: 1
+    entityType: book
+    entityId: book-how-trust-forms
+    description: >
+      See how beliefs become visible, outcomes teach, and the trust cycle scales cooperation under
+      uncertainty.
+  - position: 2
+    entityType: book
+    entityId: book-when-trust-stops-tracking-reality
+    description: >
+      Watch trust detach from evidence when success stories and loyalty make weak signals easy to ignore.
+    whyThisFollows: >
+      Formation assumes the cycle still learns; this book names when preservation outruns correction.
+  - position: 3
+    entityType: book
+    entityId: book-trust-beyond-similarity
+    description: >
+      Practice trust across disagreement — when shared conclusions are no longer the ground of relating.
+    whyThisFollows: >
+      After formation and drift, difference is where trust must remain possible without sameness.
+  - position: 4
+    entityType: pattern
+    entityId: pattern-scrutiny-preserves-trust
+    description: >
+      Carry forward proportionate inquiry as what keeps trust corrigible — not suspicion for its own sake.
+    whyThisFollows: >
+      Healthy trust remains revisable; scrutiny is how the cycle stays in contact with reality.
+closingReflection: >
+  Trust that cannot revise becomes identity. Trust that cannot form never becomes participation.
+  Holding both ends of the cycle is the work.
+suggestedContinuation: >
+  Follow Meaning Under Pressure if interpretation is where trust is made or broken, or Leadership
+  After the Person if influence and inheritance are the next concern.

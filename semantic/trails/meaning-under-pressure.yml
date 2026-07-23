@@ -16,6 +16,8 @@ primaryBookId: book-how-meaning-moves
 relatedTrailIds:
 - leadership-after-the-person
 - judgment-before-certainty
+- trust-formation-and-drift
+- practices-of-seeing
 pathStops:
 - position: 1
   entityType: concept

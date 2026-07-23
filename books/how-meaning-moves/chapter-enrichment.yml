@@ -1,0 +1,25 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-i-what-arrives-first/chapter-2-the-story-that-arrives-first.md
+    summary: >
+      A careful midnight message gathers prior hesitations until meaning arrives before anyone has
+      checked it — showing how the story that forms first shapes what later words can still revise.
+    centralQuestion: What happens when a story arrives and hardens before anyone has checked it together?
+    selectedConcepts:
+      - meaning
+      - interpretation
+      - connection
+      - contact
+      - compression
+    selectedPatterns:
+      - meaning-forms-early
+      - intent-gets-assigned
+      - contact-keeps-the-read-open
+    searchAliases:
+      - the story that arrives first
+      - meaning before checking
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    readingTransition: >
+      From first stories into the cost of leaving meaning open — why restraint matters while sentences
+      still feel unfinished.
