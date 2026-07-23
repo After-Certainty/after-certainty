@@ -1,6 +1,6 @@
 # Monorepo Phase 1 — Site import + workspace skeleton
 
-**Status:** This PR  
+**Status:** Complete (merged). Phase 2: [`../monorepo-phase-2/`](../monorepo-phase-2/).  
 **Plan:** [`docs/roadmaps/monorepo-migration-plan.md`](../../roadmaps/monorepo-migration-plan.md) §24 Phase 1  
 **Predecessor:** [`../monorepo-phase-0/`](../monorepo-phase-0/)
 

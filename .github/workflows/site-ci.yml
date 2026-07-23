@@ -1,0 +1,89 @@
+# Site lint/test/build/e2e for apps/site (npm workspaces).
+# Production still consumes the remote semantic manifest; CI uses the bundled
+# fallback via SEMANTIC_MANIFEST_OFFLINE=1 (unchanged from after-certainty-site).
+#
+# Path-filtered so corpus-only PRs skip this job. Nested apps/site/.github
+# workflows are not executed by GitHub — this root workflow is authoritative.
+
+name: Site CI
+
+on:
+  pull_request:
+    paths:
+      - "apps/site/**"
+      - "package.json"
+      - "package-lock.json"
+      - "turbo.json"
+      - ".npmrc"
+      - ".github/workflows/site-ci.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "apps/site/**"
+      - "package.json"
+      - "package-lock.json"
+      - "turbo.json"
+      - ".npmrc"
+      - ".github/workflows/site-ci.yml"
+
+concurrency:
+  group: site-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-test:
+    name: Lint, test, build, e2e
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=high
+
+      - name: Lint
+        run: npm run site:lint
+
+      - name: Test
+        run: npm run site:test
+        env:
+          SEMANTIC_MANIFEST_OFFLINE: "1"
+
+      - name: Validate fallback manifest
+        run: npm run site:validate:fallback
+
+      - name: Validate public corpus integrity
+        run: npm run site:validate:public-corpus
+
+      - name: Build
+        run: npm run site:build
+        env:
+          SEMANTIC_MANIFEST_OFFLINE: "1"
+
+      - name: Install Playwright browsers
+        run: npm exec -w after-certainty-site -- playwright install --with-deps chromium
+
+      - name: E2E tests
+        run: npm run site:test:e2e
+        env:
+          CI: true
+          SEMANTIC_MANIFEST_OFFLINE: "1"
+          NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3000
