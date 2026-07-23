@@ -195,13 +195,13 @@
         "chapterStructure": "complete",
         "chapterSummaries": "missing",
         "contentType": "complete",
-        "literaryForm": "not-applicable",
+        "literaryForm": "complete",
         "nonGoals": "complete",
         "partStructure": "complete",
         "publicChangeEvent": "missing",
         "publicStatus": "complete",
         "publicationDate": "missing",
-        "questionCoverage": "missing",
+        "questionCoverage": "complete",
         "readingRelationships": "complete",
         "richOverview": "complete",
         "searchAliases": "complete",
@@ -213,11 +213,11 @@
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "missing",
         "whyItExists": "complete"
       },
-      "literaryForm": null,
+      "literaryForm": "monograph",
       "profile": "nonfiction",
       "slug": "everyone-knows-love",
       "specPath": "books/everyone-knows-love/book.yml",
@@ -232,7 +232,7 @@
         "chapterStructure": "complete",
         "chapterSummaries": "missing",
         "contentType": "complete",
-        "literaryForm": "not-applicable",
+        "literaryForm": "complete",
         "nonGoals": "complete",
         "partStructure": "complete",
         "publicChangeEvent": "complete",
@@ -254,7 +254,7 @@
         "typedWorkRelationships": "missing",
         "whyItExists": "complete"
       },
-      "literaryForm": null,
+      "literaryForm": "monograph",
       "profile": "nonfiction",
       "slug": "how-meaning-moves",
       "specPath": "books/how-meaning-moves/book.yml",
@@ -287,7 +287,7 @@
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "missing",
         "whyItExists": "complete"
       },
@@ -460,7 +460,7 @@
         "publicChangeEvent": "missing",
         "publicStatus": "complete",
         "publicationDate": "missing",
-        "questionCoverage": "missing",
+        "questionCoverage": "complete",
         "readingRelationships": "complete",
         "richOverview": "complete",
         "searchAliases": "complete",
@@ -472,7 +472,7 @@
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
@@ -620,7 +620,7 @@
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
@@ -694,7 +694,7 @@
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
@@ -916,7 +916,7 @@
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
@@ -1064,7 +1064,7 @@
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
@@ -1175,7 +1175,7 @@
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
@@ -1186,26 +1186,15 @@
       "workId": "work-why-diversity-matters"
     }
   ],
-  "generatedAt": "2026-07-23T01:00:40.911707+00:00",
+  "generatedAt": "2026-07-23T01:21:43.343401+00:00",
   "summaries": {
     "booksAbsentFromEditorialShelves": [],
     "booksAbsentFromQuestions": [
-      "everyone-knows-love",
-      "the-discipline-of-uncertainty",
       "the-relay",
       "velorum",
       "when-others-look-to-you-v2"
     ],
-    "booksAbsentFromTrails": [
-      "everyone-knows-love",
-      "how-serious-systems-learn",
-      "the-discipline-of-uncertainty",
-      "the-world-we-make-together",
-      "velorum",
-      "when-interpretation-no-longer-matters",
-      "when-others-look-to-you-v2",
-      "why-diversity-matters"
-    ],
+    "booksAbsentFromTrails": [],
     "booksMissingRichOverviews": [],
     "booksMissingSearchAliases": [],
     "booksWithNoChapterStructure": [],

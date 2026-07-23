@@ -1,6 +1,6 @@
 # Semantic completeness report
 
-Generated: `2026-07-23T01:00:40.911707+00:00`
+Generated: `2026-07-23T01:21:43.343401+00:00`
 
 Public canonical works evaluated: **32**
 
@@ -18,22 +18,13 @@ _None._
 
 ### Books absent from questions
 
-- `everyone-knows-love`
-- `the-discipline-of-uncertainty`
 - `the-relay`
 - `velorum`
 - `when-others-look-to-you-v2`
 
 ### Books absent from trails
 
-- `everyone-knows-love`
-- `how-serious-systems-learn`
-- `the-discipline-of-uncertainty`
-- `the-world-we-make-together`
-- `velorum`
-- `when-interpretation-no-longer-matters`
-- `when-others-look-to-you-v2`
-- `why-diversity-matters`
+_None._
 
 ### Books absent from editorial shelves
 
@@ -296,7 +287,7 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `missing` |
 | `substantialRevisionDate` | `not-applicable` |
 | `richOverview` | `complete` |
@@ -309,8 +300,8 @@ _None._
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
 | `searchAliases` | `complete` |
-| `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
+| `questionCoverage` | `complete` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -330,7 +321,7 @@ _None._
 | `stableCanonicalEditionId` | `complete` |
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
-| `literaryForm` | `not-applicable` |
+| `literaryForm` | `complete` |
 | `publicationDate` | `complete` |
 | `substantialRevisionDate` | `not-applicable` |
 | `richOverview` | `complete` |
@@ -378,7 +369,7 @@ _None._
 | `typedWorkRelationships` | `missing` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
-| `trailCoverage` | `missing` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -547,8 +538,8 @@ _None._
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
-| `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
+| `questionCoverage` | `complete` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -684,7 +675,7 @@ _None._
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
-| `trailCoverage` | `missing` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -752,7 +743,7 @@ _None._
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -956,7 +947,7 @@ _None._
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
-| `trailCoverage` | `missing` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
@@ -1092,7 +1083,7 @@ _None._
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `complete` |
 | `partStructure` | `complete` |
@@ -1194,7 +1185,7 @@ _None._
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
-| `trailCoverage` | `missing` |
+| `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |

@@ -152,6 +152,8 @@ def test_new_questions_and_trails(tmp_path: Path) -> None:
     assert "ordinary-people-make-history" in qids
     assert "structures-outlive-reasons" in qids
     assert "reliable-person-becomes-architecture" in qids
+    assert "discipline-under-incomplete-information" in qids
+    assert "love-hard-to-explain" in qids
     tids = {t["id"] for t in data["trails"]}
     assert "inheritance-and-institutional-sediment" in tids
     assert "the-reliable-person" in tids
@@ -163,10 +165,12 @@ def test_new_questions_and_trails(tmp_path: Path) -> None:
     assert [s["entityId"] for s in result_trail["pathStops"]] == [
         "book-the-game-we-think-we-saw",
         "book-the-economy-we-dont-experience",
+        "book-the-world-we-make-together",
         "book-what-we-cannot-see",
     ]
     seeing = next(t for t in data["trails"] if t["id"] == "practices-of-seeing")
     assert seeing["pathStops"][1]["entityId"] == "book-observer-patterns"
+    assert seeing["pathStops"][-1]["entityId"] == "book-everyone-knows-love"
 
 
 def test_slice2_overview_cluster(tmp_path: Path) -> None:

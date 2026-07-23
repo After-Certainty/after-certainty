@@ -1,0 +1,24 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-1-when-good-intentions-miss/chapter-2-when-everyone-agrees-and-everyone-is-wrong.md
+    summary: >
+      A small-town weather story shows how agreement becomes evidence — repetition mistaken for
+      verification — until everyone knows and everyone can still be wrong.
+    centralQuestion: Why does agreement feel like confirmation even when no one has checked?
+    selectedConcepts:
+      - bias
+      - finite-perspective
+      - legibility
+      - feedback
+      - correction
+    selectedPatterns:
+      - gaps-invite-completion
+      - learning-collapses
+      - meaning-forms-early
+    searchAliases:
+      - everyone agrees everyone is wrong
+      - agreement as evidence
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    readingTransition: >
+      From comfort of agreement into what bias actually is — and is not — when good intentions still miss.

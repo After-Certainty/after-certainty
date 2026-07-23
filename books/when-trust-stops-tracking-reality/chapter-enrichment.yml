@@ -1,0 +1,24 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-2-the-first-cracks/chapter-4-warnings-become-easier-to-ignore.md
+    summary: >
+      Warning signs arrive as fragments against a success story — complaints, misfires, small shifts —
+      that trust files as exceptions while patience and dismissal still look alike.
+    centralQuestion: Why do warning signs become harder to see when trust has been earned?
+    selectedConcepts:
+      - trust
+      - drift
+      - feedback
+      - momentum
+      - correction
+    selectedPatterns:
+      - scrutiny-preserves-trust
+      - learning-collapses
+      - admiration-becomes-insulation
+    searchAliases:
+      - warnings become easier to ignore
+      - weak signals against success
+    situations:
+      - feedback-stops-changing-decisions
+    readingTransition: >
+      From ignored fragments into participation that stops updating beliefs — the next crack in the cycle.

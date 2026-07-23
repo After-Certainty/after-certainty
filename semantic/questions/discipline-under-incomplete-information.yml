@@ -1,0 +1,49 @@
+id: discipline-under-incomplete-information
+slug: discipline-under-incomplete-information
+question: How do we keep judgment serious when certainty stops working as social glue?
+summary: >
+  Absolutes fracture; information stays incomplete. Discipline under uncertainty means patterns as
+  warnings, probabilistic seriousness without relativism, and refusal of false prophecy.
+orientation: >
+  Acting before certainty is one question. Keeping moral seriousness and decision quality when
+  certainty no longer coordinates people is another — a handbook practice, not a personality trait.
+whatThisIsNot:
+  - Not permission to abandon truth or embrace ambiguity as style.
+  - Not the same as How can we act responsibly before certainty arrives? (capstone practice).
+  - Not a checklist that replaces judgment.
+status: published
+featured: false
+families:
+  - Judgment and uncertainty
+primaryBookId: book-the-discipline-of-uncertainty
+relatedQuestionIds:
+  - act-before-certainty-arrives
+  - sincere-people-still-wrong
+searchHints:
+  - discipline of uncertainty
+  - judgment under incomplete information
+  - certainty as social glue
+pathStops:
+  - position: 1
+    entityType: concept
+    entityId: concept-uncertainty
+    description: Start with uncertainty as terrain — not a temporary deficit before the real answer.
+  - position: 2
+    entityType: concept
+    entityId: concept-judgment
+    description: See judgment as ongoing work that must stay corrigible under pressure.
+    whyThisFollows: Uncertainty without judgment becomes drift; judgment without uncertainty becomes performance.
+  - position: 3
+    entityType: book
+    entityId: book-the-discipline-of-uncertainty
+    description: The handbook on restraint, decision quality, and moral seriousness under incomplete information.
+    whyThisFollows: This is the deepest field treatment of discipline when absolutes fracture.
+  - position: 4
+    entityType: pattern
+    entityId: pattern-revisability-preserves-judgment
+    description: Notice what keeps claims revisable without collapsing trust or authority.
+    whyThisFollows: Discipline without revisability hardens into identity.
+closingReflection: >
+  Seriousness under incomplete information is a practice of restraint and revision — not a demand for
+  more certainty before anyone may act.
+carryForwardQuestion: Where is certainty still being used to coordinate people after it has stopped tracking reality?

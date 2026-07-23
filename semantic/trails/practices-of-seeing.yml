@@ -45,6 +45,15 @@ pathStops:
       Disciplined curiosity as a doorway when easy certainty would close the path.
     whyThisFollows: >
       After naming limits of seeing, curiosity keeps inquiry revisable without endless delay.
+  - position: 5
+    entityType: book
+    entityId: book-everyone-knows-love
+    description: >
+      An intimate doorway — recognition everyone shares yet struggles to explain, without treating
+      care as a formula.
+    whyThisFollows: >
+      After practices of seeing and curiosity, love is recognition that outruns explanation.
+    optional: true
 closingReflection: >
   Better knowing is not more answers. It is attention, humility, and curiosity that remain corrigible
   when any single perspective finishes early.

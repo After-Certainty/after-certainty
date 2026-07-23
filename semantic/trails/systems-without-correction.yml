@@ -36,10 +36,15 @@ pathStops:
   whyThisFollows: Exception-hardening is one way systems lose the ability to return to prior standards.
 - position: 4
   entityType: book
+  entityId: book-how-serious-systems-learn
+  description: Apply disciplines for acting without certainty when knowing no longer governs outcomes.
+  whyThisFollows: After naming failure modes, this handbook offers practices that keep learning alive under pressure.
+- position: 5
+  entityType: book
   entityId: book-coupling
   description: The primary book on how systems join, drift apart, and how coupling choices shape accountability
     over time.
-  whyThisFollows: After naming failure modes, this book offers the framework for seeing structural causes.
+  whyThisFollows: After learning disciplines, this book frames how joining and drift shape who bears consequences.
 closingReflection: Correction is not automatic. Systems that cannot correct themselves often look stable
   right until the bill arrives somewhere else. The trail names the drift; changing it remains work.
 suggestedContinuation: If you build or maintain software systems, the practitioner trail applies the same
