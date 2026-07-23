@@ -21,7 +21,13 @@ export type CatalogUrlState = {
 export type CatalogStatusFilter = "published" | "upcoming";
 
 const SORT_VALUES = new Set<CatalogSort>(["recommended", "title-asc", "title-desc"]);
-const TYPE_VALUES = new Set<ContentType>(["nonfiction", "fiction", "handbook", "essay_collection"]);
+const TYPE_VALUES = new Set<ContentType>([
+  "nonfiction",
+  "fiction",
+  "handbook",
+  "essay_collection",
+  "poetry",
+]);
 const STATUS_VALUES = new Set<CatalogStatusFilter>(["published", "upcoming"]);
 const AVAILABILITY_VALUES = new Set<BookAvailabilityFlag>(["online", "download", "print", "open"]);
 

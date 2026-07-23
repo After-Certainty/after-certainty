@@ -1,5 +1,10 @@
 /** Editorial content-type labels and recommended catalog sort — presentation only. */
-export type ContentType = "nonfiction" | "fiction" | "handbook" | "essay_collection";
+export type ContentType =
+  | "nonfiction"
+  | "fiction"
+  | "handbook"
+  | "essay_collection"
+  | "poetry";
 
 /** Editorial sort order for the default “Recommended” catalog sort. */
 export const RECOMMENDED_RANK_SLUGS: readonly string[] = [
@@ -30,4 +35,5 @@ export const CONTENT_TYPE_LABELS: Record<ContentType, string> = {
   fiction: "Fiction",
   handbook: "Handbook",
   essay_collection: "Essays",
+  poetry: "Poetry",
 };

@@ -44,7 +44,12 @@ export interface BookFormatAsset {
   url: string | null;
 }
 
-export type BookContentType = "nonfiction" | "fiction" | "handbook" | "essay_collection";
+export type BookContentType =
+  | "nonfiction"
+  | "fiction"
+  | "handbook"
+  | "essay_collection"
+  | "poetry";
 
 export type BookPublicStatus =
   "published" | "upcoming" | "forthcoming" | "in_progress" | "revised" | "superseded" | "archived";

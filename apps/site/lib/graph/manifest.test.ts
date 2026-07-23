@@ -450,12 +450,23 @@ describe("validateSemanticGraph", () => {
           title: "Observer Patterns",
           subtitle: null,
           summary: "A book of patterns.",
+          contentType: "poetry",
           concepts: [],
           patterns: [],
           sources: [],
           docx: { enabled: false, file: "observer-patterns.docx", url: null },
           epub: { enabled: false, file: "observer-patterns.epub", url: null },
           pdf: { enabled: true, file: "observer-patterns.pdf", url: pdfUrl },
+        },
+      ],
+      works: [
+        {
+          id: "work-observer-patterns",
+          slug: "observer-patterns",
+          title: "Observer Patterns",
+          currentEditionId: "book-observer-patterns",
+          contentType: "poetry",
+          editionIds: ["book-observer-patterns"],
         },
       ],
       glossary: [],
@@ -467,6 +478,8 @@ describe("validateSemanticGraph", () => {
     expect(result.success).toBe(true);
     if (result.success) {
       const book = result.data.books[0];
+      expect(book?.contentType).toBe("poetry");
+      expect(result.data.works?.[0]?.contentType).toBe("poetry");
       expect(book?.subtitle).toBeUndefined();
       expect(book?.pdf?.url).toBe(pdfUrl);
       expect(book?.epub?.enabled).toBe(false);

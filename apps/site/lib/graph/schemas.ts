@@ -66,7 +66,13 @@ const bookStatusSchema = z.enum([
   "collaborative",
 ]);
 
-const bookContentTypeSchema = z.enum(["nonfiction", "fiction", "handbook", "essay_collection"]);
+const bookContentTypeSchema = z.enum([
+  "nonfiction",
+  "fiction",
+  "handbook",
+  "essay_collection",
+  "poetry",
+]);
 
 const editionRelationshipSchema = z.enum(["sole", "primary", "companion", "superseded"]);
 
