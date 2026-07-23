@@ -1,6 +1,8 @@
 # After Certainty · Site
 
-Intellectual commons surface for **After Certainty** — books metadata, podcast hub, patterns library, and collaboration entry points. Books live in separate repositories; this project consumes exported manifests and stays visually restrained (literary, cinematic, dark-first).
+Intellectual commons surface for **After Certainty** — books metadata, podcast hub, patterns library, and collaboration entry points. Corpus YAML lives in the monorepo root (`books/`, `semantic/`); this app consumes `semantic-manifest.json` (remote release today, same-checkout generation in a later phase).
+
+> **Monorepo note:** This tree lives at `apps/site/` inside [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty). Prefer installing from the repository root (`npm ci`). The standalone [`after-certainty-site`](https://github.com/ksteffe/after-certainty-site) repository remains the production deploy source until cutover.
 
 ## Stack
 
@@ -12,9 +14,17 @@ Intellectual commons surface for **After Certainty** — books metadata, podcast
 
 ## Getting started
 
+From the **monorepo root**:
+
 ```bash
-npm install
-cp .env.example .env.local   # optional — see NEXT_PUBLIC_SITE_URL
+npm ci
+cp apps/site/.env.example apps/site/.env.local   # optional — see NEXT_PUBLIC_SITE_URL
+npm run site:dev
+```
+
+Or from this directory after a root `npm ci` (workspace hoisting):
+
+```bash
 npm run dev
 ```
 

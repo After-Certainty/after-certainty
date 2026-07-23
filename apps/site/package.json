@@ -19,7 +19,7 @@
     "validate:fallback": "node scripts/validate-fallback.mjs",
     "validate:public-corpus": "node scripts/validate-public-corpus.mjs",
     "validate:release-identity": "node scripts/validate-release-identity.mjs",
-    "prepare": "husky"
+    "prepare": "node -e \"process.exit(0)\""
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
@@ -32,10 +32,6 @@
     "*.test.{ts,tsx}": [
       "vitest related --run"
     ]
-  },
-  "overrides": {
-    "postcss": ">=8.5.10",
-    "sharp": "$sharp"
   },
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",
