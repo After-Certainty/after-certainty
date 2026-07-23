@@ -230,5 +230,8 @@ describe("buildSearchDocuments", () => {
 
     expect(collectSearchDocumentIssues(docs)).toEqual([]);
     expect(new Set(docs.map((d) => d.id)).size).toBe(docs.length);
+    const afterCertainty = docs.find((d) => d.slug === "after-certainty");
+    expect(afterCertainty?.searchText).toMatch(/Introduction/i);
+    expect(docs.every((d) => d.entityType !== "chapter")).toBe(true);
   });
 });

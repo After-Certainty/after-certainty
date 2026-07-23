@@ -5,18 +5,17 @@ import {
   DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS,
   type BookOverview,
 } from "@/lib/books/book-overview-schema";
-import { getAllBookOverviews, getBookOverviewsManifest } from "@/lib/books/load-book-overviews";
+import { getBookOverviewsManifest } from "@/lib/books/load-book-overviews";
 import { getOverviewLinkExceptions } from "@/lib/books/overview-link-exceptions";
-import {
-  assertBookOverviewsHealthy,
-  collectBookOverviewHealthIssues,
-} from "@/lib/books/validate-book-overviews";
+import { collectBookOverviewHealthIssues } from "@/lib/books/validate-book-overviews";
+import { bookOverviewsFromGraph } from "@/lib/graph/discovery";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 const graph = semanticManifest as unknown as SemanticGraph;
+const overviewsFromGraph = bookOverviewsFromGraph(graph);
 
 function withOverview(overrides: Partial<BookOverview>): BookOverview {
-  const base = getAllBookOverviews()[0]!;
+  const base = overviewsFromGraph[0]!;
   return { ...base, ...overrides };
 }
 
@@ -30,8 +29,7 @@ describe("overview link exceptions config", () => {
 
 describe("book overview health", () => {
   it("accepts overviews from the semantic manifest against the graph", () => {
-    assertBookOverviewsHealthy({ graph });
-    const issues = collectBookOverviewHealthIssues({ graph });
+    const issues = collectBookOverviewHealthIssues({ graph, overviews: overviewsFromGraph });
     expect(issues.filter((i) => i.severity === "error")).toHaveLength(0);
     expect(
       issues.some(
@@ -44,8 +42,7 @@ describe("book overview health", () => {
   });
 
   it("covers every priority slug exactly once", () => {
-    const overviews = getAllBookOverviews();
-    const slugs = new Set(overviews.map((o) => o.slug));
+    const slugs = new Set(overviewsFromGraph.map((o) => o.slug));
     for (const slug of DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS) {
       expect(slugs.has(slug), `missing overview for ${slug}`).toBe(true);
     }
@@ -54,9 +51,9 @@ describe("book overview health", () => {
   });
 
   it("allows companions in readNext (WoLTY v2)", () => {
-    const wolty = getAllBookOverviews().find((o) => o.slug === "when-others-look-to-you-v1");
+    const wolty = overviewsFromGraph.find((o) => o.slug === "when-others-look-to-you-v1");
     expect(wolty?.readNext).toContain("when-others-look-to-you-v2");
-    const issues = collectBookOverviewHealthIssues({ graph });
+    const issues = collectBookOverviewHealthIssues({ graph, overviews: overviewsFromGraph });
     expect(issues.some((i) => i.code === "related_book_superseded")).toBe(false);
   });
 
@@ -131,7 +128,7 @@ describe("book overview health", () => {
   it("fails when a priority slug is missing", () => {
     const errors = collectBookOverviewHealthIssues({
       graph,
-      overviews: getAllBookOverviews().filter((o) => o.slug !== "after-certainty"),
+      overviews: overviewsFromGraph.filter((o) => o.slug !== "after-certainty"),
       prioritySlugs: ["after-certainty"],
       linkExceptions: [],
     }).filter((i) => i.severity === "error");

@@ -15,8 +15,10 @@
     "format:check": "prettier --check .",
     "generate:og": "node scripts/generate-og.mjs",
     "sync:semantic-manifest": "node scripts/sync-semantic-manifest.mjs",
+    "sync:semantic-manifest-fallback": "node scripts/sync-semantic-manifest.mjs",
     "validate:fallback": "node scripts/validate-fallback.mjs",
     "validate:public-corpus": "node scripts/validate-public-corpus.mjs",
+    "validate:release-identity": "node scripts/validate-release-identity.mjs",
     "prepare": "husky"
   },
   "lint-staged": {

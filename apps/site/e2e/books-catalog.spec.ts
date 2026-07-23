@@ -67,4 +67,30 @@ test.describe("Books catalog", () => {
     await page.getByText("Filter books").click();
     await expect(page.getByRole("group", { name: "Sort" })).toBeVisible();
   });
+
+  test("enriched book overview shows Inside this book and work-specific roles", async ({
+    page,
+  }) => {
+    await page.goto("/explore/books/after-certainty");
+    await expect(page.getByRole("heading", { name: "After Certainty", level: 1 })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Inside this book", level: 2 })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Central ideas", level: 2 })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Explore the concept" }).first()).toBeVisible();
+    await expect(page.locator("#inside")).toContainText(/min/i);
+  });
+
+  test("fiction and poetry books expose chapter structure", async ({ page }) => {
+    await page.goto("/explore/books/the-relay");
+    await expect(page.getByRole("heading", { name: "Inside this book", level: 2 })).toBeVisible();
+
+    await page.goto("/explore/books/observer-patterns");
+    await expect(page.getByRole("heading", { name: "Inside this book", level: 2 })).toBeVisible();
+    await expect(page.locator("#inside")).toContainText(/Poem/i);
+  });
+
+  test("pattern detail shows restrained grounding when present", async ({ page }) => {
+    await page.goto("/explore/patterns/attention-finds-a-focus");
+    await expect(page.getByText("Grounding", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText("Original synthesis")).toBeVisible();
+  });
 });

@@ -25,11 +25,11 @@ function validatedFallbackGraph() {
 }
 
 describe("validateSemanticGraph", () => {
-  it("accepts schemaVersion 2.2 discovery collections from the bundled manifest", () => {
+  it("accepts schemaVersion 2.3 enrichment from the bundled manifest", () => {
     const result = validateSemanticGraph(fallback as unknown);
     expect(result.success).toBe(true);
     if (!result.success) return;
-    expect(result.data.schemaVersion).toBe("2.2");
+    expect(result.data.schemaVersion).toBe("2.3");
     expect(result.data.sourceCommit).toBeTruthy();
     expect(result.data.works?.length).toBeGreaterThan(0);
     expect(result.data.editions?.length).toBeGreaterThan(0);
@@ -53,6 +53,12 @@ describe("validateSemanticGraph", () => {
     const observer = result.data.books.find((b) => b.slug === "observer-patterns");
     expect(observer?.contentType).toBe("poetry");
     expect(observer?.literaryForm).toBe("poetry_collection");
+    const afterCertainty = result.data.books.find((b) => b.slug === "after-certainty");
+    expect(afterCertainty?.overview?.selectedConceptRoles?.length).toBeGreaterThan(0);
+    expect(afterCertainty?.overview?.selectedPatternRoles?.length).toBeGreaterThan(0);
+    expect(result.data.patterns.some((p) => p.grounding?.type === "original_synthesis")).toBe(true);
+    expect(result.data.chapters?.some((c) => c.kind === "poem")).toBe(true);
+    expect(result.data.chapters?.some((c) => Boolean(c.summary))).toBe(true);
   });
 
   it("accepts minimal valid graph", () => {
@@ -705,11 +711,14 @@ describe("fetchSemanticGraphUncached", () => {
         headers: { Accept: "application/json, */*" },
         next: expect.objectContaining({
           revalidate: expect.any(Number),
-          tags: [SEMANTIC_GRAPH_CACHE_TAG],
+          tags: expect.arrayContaining([SEMANTIC_GRAPH_CACHE_TAG]),
         }),
       }),
     );
     expect(result.source.kind).toBe("remote");
+    expect(result.source.stale).toBe(false);
+    expect(result.source.cacheIdentity).toContain("remote");
+    expect(result.source.cacheIdentity).toContain("2.2");
     expect(result.graph.books.map((b) => b.slug)).toEqual(["book-one"]);
   });
 

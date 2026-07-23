@@ -29,6 +29,8 @@ import {
   relatedPatternUrls,
 } from "@/lib/seo/json-ld";
 import { getConceptFullDefinition } from "@/lib/graph/conceptFormatting";
+import { buildPublicGroundingViewModel } from "@/lib/graph/grounding";
+import { SemanticGroundingDisclosure } from "@/components/explore/semantic-grounding-disclosure";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -108,6 +110,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
     ...relatedPatternUrls(index, concept.relatedPatterns),
     ...conceptRelationshipUrls(index, concept.id),
   ];
+  const grounding = buildPublicGroundingViewModel(concept.grounding, graph);
 
   return (
     <article>
@@ -129,6 +132,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
             <LinkifiedText text={getConceptFullDefinition(concept)} />
           </p>
         </div>
+        {grounding ? <SemanticGroundingDisclosure grounding={grounding} /> : null}
         <ExploreEntityDetailActions observatory={{ kind: "concept", slug: concept.slug }} />
         <ExploreAdjacentNav
           basePath={explorePaths.concepts}

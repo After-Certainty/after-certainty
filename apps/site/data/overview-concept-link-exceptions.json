@@ -124,7 +124,41 @@
         "concept-asymmetry",
         "concept-acceleration",
         "concept-reciprocity"
-      ]
+      ],
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "curiosity-before-certainty",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill (schema 2.3 roles).",
+      "conceptIds": "*",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "everyone-knows-love",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill (schema 2.3 roles).",
+      "conceptIds": "*",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "how-serious-systems-learn",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill (schema 2.3 roles).",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "the-relay",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill (schema 2.3 roles).",
+      "conceptIds": "*",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "trust-beyond-similarity",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill (schema 2.3 roles).",
+      "patternIds": "*"
+    },
+    {
+      "bookSlug": "what-we-cannot-see",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill (schema 2.3 roles).",
+      "patternIds": "*"
     },
     {
       "bookSlug": "when-others-become-leaders",

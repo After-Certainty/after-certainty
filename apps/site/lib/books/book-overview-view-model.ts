@@ -1,8 +1,19 @@
+import type { BookOverview } from "@/lib/books/book-overview-schema";
+import {
+  buildBookStructureForBook,
+  type BookStructureViewModel,
+} from "@/lib/books/book-chapter-view-model";
 import { getBookOverviewFromBook } from "@/lib/books/load-book-overviews";
-import type { BookOverview, PrimaryActionPreference } from "@/lib/books/book-overview-schema";
+import {
+  resolveSelectedConceptsWithRoles,
+  resolveSelectedPatternsWithRoles,
+  type SelectedConceptWithRole,
+  type SelectedPatternWithRole,
+} from "@/lib/books/selected-entity-roles";
+import type { PrimaryActionPreference } from "@/lib/books/book-overview-schema";
 import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
 import { resolveWorkEdition, type ResolvedEdition } from "@/lib/books/resolve-work-edition";
-import type { Book, GlossaryConcept, Pattern, SemanticGraph } from "@/types/semanticGraph";
+import type { Book, SemanticGraph } from "@/types/semanticGraph";
 
 export type RelatedOverviewBook = {
   slug: string;
@@ -18,11 +29,14 @@ export type BookOverviewViewModel = {
   book: Book;
   overview: BookOverview;
   edition: ResolvedEdition;
-  selectedConcepts: GlossaryConcept[];
-  selectedPatterns: Pattern[];
+  selectedConcepts: SelectedConceptWithRole[];
+  selectedPatterns: SelectedPatternWithRole[];
+  /** @deprecated Prefer selectedConcepts — retained for older tests. */
+  selectedConceptEntities?: never;
   readBefore: RelatedOverviewBook[];
   readNext: RelatedOverviewBook[];
   primaryActionPreference?: PrimaryActionPreference;
+  structure: BookStructureViewModel | null;
 };
 
 function resolveRelatedBooks(
@@ -54,14 +68,19 @@ export function buildBookOverviewViewModel(
     book,
     overview,
     edition: resolveWorkEdition(book, graph.books, publicationRegistryFromGraph(graph)),
-    selectedConcepts: overview.selectedConceptIds
-      .map((id) => conceptsById.get(id))
-      .filter((c): c is GlossaryConcept => Boolean(c)),
-    selectedPatterns: (overview.selectedPatternIds ?? [])
-      .map((id) => patternsById.get(id))
-      .filter((p): p is Pattern => Boolean(p)),
+    selectedConcepts: resolveSelectedConceptsWithRoles({
+      selectedConceptIds: overview.selectedConceptIds,
+      roles: overview.selectedConceptRoles,
+      conceptsById,
+    }),
+    selectedPatterns: resolveSelectedPatternsWithRoles({
+      selectedPatternIds: overview.selectedPatternIds,
+      roles: overview.selectedPatternRoles,
+      patternsById,
+    }),
     readBefore: resolveRelatedBooks(overview.readBefore, booksBySlug),
     readNext: resolveRelatedBooks(overview.readNext, booksBySlug),
     primaryActionPreference: overview.primaryActionPreference,
+    structure: buildBookStructureForBook(graph, book),
   };
 }

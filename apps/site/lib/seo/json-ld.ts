@@ -549,9 +549,10 @@ export function buildConceptPageJsonLd(params: {
   ];
 }
 
-function semanticManifestGeneratedAt(): string | undefined {
+function semanticManifestGeneratedAt(override?: string): string | undefined {
+  if (override?.trim()) return override.trim();
   const value = (fallbackSemantic as { generatedAt?: string }).generatedAt;
-  return typeof value === "string" && value.length > 0 ? value : undefined;
+  return typeof value === "string" && value.trim() ? value : undefined;
 }
 
 export function buildPatternPageJsonLd(params: {

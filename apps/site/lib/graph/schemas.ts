@@ -86,6 +86,22 @@ const bookAvailabilityFlagSchema = z.enum([
   "available_in_print",
 ]);
 
+const bookOverviewRelatedWorkSchema = z.object({
+  workId: z.string().min(1),
+  relationship: z.string().min(1),
+  reason: optionalManifestString,
+});
+
+const selectedConceptRoleSchema = z.object({
+  conceptId: z.string().min(1),
+  roleInWork: z.string().min(1),
+});
+
+const selectedPatternRoleSchema = z.object({
+  patternId: z.string().min(1),
+  roleInWork: z.string().min(1),
+});
+
 const bookOverviewSchema = z.object({
   centralQuestion: z.string().min(1),
   whyItExists: z.string().min(1),
@@ -93,6 +109,9 @@ const bookOverviewSchema = z.object({
   nonGoals: z.array(z.string().min(1)).default([]),
   selectedConceptIds: z.array(z.string().min(1)).default([]),
   selectedPatternIds: z.array(z.string().min(1)).optional(),
+  selectedConceptRoles: z.array(selectedConceptRoleSchema).optional(),
+  selectedPatternRoles: z.array(selectedPatternRoleSchema).optional(),
+  relatedWorks: z.array(bookOverviewRelatedWorkSchema).optional(),
   readBefore: z.array(z.string().min(1)).optional(),
   readNext: z.array(z.string().min(1)).optional(),
   revisedAt: z.string().min(1).optional(),
@@ -166,6 +185,17 @@ const enrichmentFields = {
   manifestations: manifestationsSchema,
 };
 
+const semanticGroundingRefSchema = z.object({
+  work: optionalManifestString,
+  source: optionalManifestString,
+});
+
+const semanticGroundingSchema = z.object({
+  type: z.string().min(1),
+  note: optionalManifestString,
+  developedFrom: z.array(semanticGroundingRefSchema).optional(),
+});
+
 const glossaryConceptSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
@@ -179,6 +209,7 @@ const glossaryConceptSchema = z.object({
   relatedConcepts: stringList,
   relatedPatterns: stringList,
   relatedBooks: stringList,
+  grounding: semanticGroundingSchema.optional(),
   ...enrichmentFields,
 });
 
@@ -197,6 +228,7 @@ const patternSchema = z.object({
   youtubeVideoId: youtubeVideoIdSchema.optional(),
   mediumArticleUrl: httpUrlSchema.optional(),
   infographic: mediaInfographicSchema.optional(),
+  grounding: semanticGroundingSchema.optional(),
   ...enrichmentFields,
 });
 
@@ -257,12 +289,18 @@ const thinkerSchema = z.object({
   whyThisMatters: z.string().min(1).optional(),
 });
 
+const relationshipProvenanceSchema = z.object({
+  origin: z.string().min(1),
+  evidence: z.array(z.string().min(1)).optional(),
+});
+
 const relationshipSchema = z.object({
   source: z.string().min(1),
   target: z.string().min(1),
   relationship: z.string().min(1),
   description: z.string().optional(),
   weight: z.number().finite().optional(),
+  provenance: relationshipProvenanceSchema.optional(),
 });
 
 const ontologyMasterTermSchema = z.object({
@@ -451,6 +489,9 @@ const chapterKindSchema = z.enum([
   "appendix",
   "interlude",
   "afterword",
+  "poem",
+  "section",
+  "sequence",
   "other",
 ]);
 
@@ -461,6 +502,11 @@ const manifestPartSchema = z.object({
   title: z.string().min(1),
   position: z.number().int().nonnegative(),
   slug: z.string().min(1),
+});
+
+const chapterTransitionSchema = z.object({
+  fromPrevious: optionalManifestString,
+  toNext: optionalManifestString,
 });
 
 const manifestChapterSchema = z.object({
@@ -484,12 +530,13 @@ const manifestChapterSchema = z.object({
   searchAliases: z.array(z.string().min(1)).optional(),
   situationIds: z.array(z.string().min(1)).optional(),
   readingTransition: optionalManifestString,
+  transition: chapterTransitionSchema.optional(),
 });
 
 /**
  * Root manifest schema. Unknown top-level keys are stripped from the typed result;
- * schemaVersion 2.1+ discovery collections and 2.2 literaryForm / chapters / parts
- * are retained when present.
+ * schemaVersion 2.1+ discovery collections, 2.2 literaryForm / chapters / parts,
+ * and 2.3 roles / grounding / poetry kinds are retained when present.
  */
 export const semanticGraphSchema = z.object({
   books: z.array(bookSchema).default([]),
@@ -517,6 +564,7 @@ export const semanticGraphSchema = z.object({
   ref: z.string().optional(),
   releaseTag: z.string().optional(),
   sourceCommit: z.string().optional(),
+  contentVersion: z.string().optional(),
 });
 
 export type SemanticGraphZod = z.infer<typeof semanticGraphSchema>;
@@ -548,5 +596,6 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     ref: data.ref,
     releaseTag: data.releaseTag,
     sourceCommit: data.sourceCommit,
+    contentVersion: data.contentVersion,
   };
 }

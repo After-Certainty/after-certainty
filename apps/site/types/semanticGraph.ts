@@ -57,6 +57,25 @@ export type BookAvailabilityFlag =
 
 export type EditionRelationship = "sole" | "primary" | "companion" | "superseded";
 
+/** Work-specific role for a curated concept on a book overview (schemaVersion 2.3). */
+export interface SelectedConceptRole {
+  conceptId: string;
+  roleInWork: string;
+}
+
+/** Work-specific role for a curated pattern on a book overview (schemaVersion 2.3). */
+export interface SelectedPatternRole {
+  patternId: string;
+  roleInWork: string;
+}
+
+/** Authored related-work link on a book overview (schemaVersion 2.2+). */
+export interface OverviewRelatedWork {
+  workId: string;
+  relationship: string;
+  reason?: string;
+}
+
 /** Authored orientation overlay nested on books in schemaVersion 2.1+ manifests. */
 export interface BookOverview {
   centralQuestion: string;
@@ -65,6 +84,11 @@ export interface BookOverview {
   nonGoals: string[];
   selectedConceptIds: string[];
   selectedPatternIds?: string[];
+  /** schemaVersion 2.3 — work-specific concept roles aligned to selectedConceptIds. */
+  selectedConceptRoles?: SelectedConceptRole[];
+  /** schemaVersion 2.3 — work-specific pattern roles aligned to selectedPatternIds. */
+  selectedPatternRoles?: SelectedPatternRole[];
+  relatedWorks?: OverviewRelatedWork[];
   readBefore?: string[];
   readNext?: string[];
   revisedAt?: string;
@@ -134,6 +158,26 @@ export interface SemanticEnrichment {
   manifestations?: SemanticManifestations;
 }
 
+/** Public provenance / grounding for concepts and patterns (schemaVersion 2.3). */
+export type SemanticGroundingType =
+  | "original_synthesis"
+  | "adapted_from_source"
+  | "established_term"
+  | "composite_pattern"
+  | "manuscript_specific"
+  | string;
+
+export interface SemanticGroundingRef {
+  work?: string;
+  source?: string;
+}
+
+export interface SemanticGrounding {
+  type: SemanticGroundingType;
+  note?: string;
+  developedFrom?: SemanticGroundingRef[];
+}
+
 export interface GlossaryConcept extends SemanticEnrichment {
   id: string;
   slug: string;
@@ -149,6 +193,8 @@ export interface GlossaryConcept extends SemanticEnrichment {
   relatedConcepts?: string[];
   relatedPatterns?: string[];
   relatedBooks?: string[];
+  /** schemaVersion 2.3 — optional public grounding / provenance. */
+  grounding?: SemanticGrounding;
 }
 
 export interface Pattern extends SemanticEnrichment {
@@ -166,6 +212,8 @@ export interface Pattern extends SemanticEnrichment {
   youtubeVideoId?: string;
   mediumArticleUrl?: string;
   infographic?: MediaInfographic;
+  /** schemaVersion 2.3 — optional public grounding / provenance. */
+  grounding?: SemanticGrounding;
 }
 
 /**
@@ -231,6 +279,12 @@ export interface Thinker {
   whyThisMatters?: string;
 }
 
+/** Relationship authorship provenance (schemaVersion 2.3) — retained for future UI. */
+export interface RelationshipProvenance {
+  origin: "authored" | "extracted" | string;
+  evidence?: string[];
+}
+
 export interface Relationship {
   id?: string;
   source: string;
@@ -241,6 +295,8 @@ export interface Relationship {
   weight?: number;
   summary?: string;
   relatedPathwayIds?: string[];
+  /** schemaVersion 2.3 — authored vs extracted origin (not rendered on every edge). */
+  provenance?: RelationshipProvenance;
 }
 
 export interface OntologyMasterTerm {
@@ -418,7 +474,7 @@ export interface SearchAlias {
   note?: string;
 }
 
-/** schemaVersion 2.2 book-structure part (TOC grouping). */
+/** schemaVersion 2.2+ book-structure part (TOC grouping). */
 export type ManifestChapterKind =
   | "introduction"
   | "bridge"
@@ -427,6 +483,9 @@ export type ManifestChapterKind =
   | "appendix"
   | "interlude"
   | "afterword"
+  | "poem"
+  | "section"
+  | "sequence"
   | "other";
 
 export interface ManifestPart {
@@ -437,6 +496,12 @@ export interface ManifestPart {
   title: string;
   position: number;
   slug: string;
+}
+
+/** Optional structured reading transition (schemaVersion 2.3). */
+export interface ManifestChapterTransition {
+  fromPrevious?: string;
+  toNext?: string;
 }
 
 export interface ManifestChapter {
@@ -462,6 +527,8 @@ export interface ManifestChapter {
   searchAliases?: string[];
   situationIds?: string[];
   readingTransition?: string;
+  /** schemaVersion 2.3 — structured transition copy. */
+  transition?: ManifestChapterTransition;
 }
 
 export interface SemanticGraph {
@@ -483,18 +550,20 @@ export interface SemanticGraph {
   shelves?: ManifestShelf[];
   changeEvents?: ChangeEvent[];
   searchAliases?: SearchAlias[];
-  /** schemaVersion 2.2 book structure (absent on older manifests). */
+  /** schemaVersion 2.2+ book structure (absent on older manifests). */
   parts?: ManifestPart[];
   chapters?: ManifestChapter[];
   /** Manifest metadata (optional, from semantic-manifest.json) */
   manifestVersion?: 1 | 2;
-  /** Additive discovery contract version (e.g. "2.1"). */
+  /** Additive discovery contract version (e.g. "2.3"). */
   schemaVersion?: string;
   generatedAt?: string;
   repository?: string;
   ref?: string;
   releaseTag?: string;
   sourceCommit?: string;
+  /** Optional corpus content version when published upstream. */
+  contentVersion?: string;
 }
 
 /** Entity collections exposed in the explore UI */

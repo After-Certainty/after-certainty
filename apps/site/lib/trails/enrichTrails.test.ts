@@ -15,7 +15,7 @@ describe("enrichStop", () => {
   });
 
   it("resolves book stops to canonical explore href", () => {
-    const graph = semanticManifest as SemanticGraph;
+    const graph = semanticManifest as unknown as SemanticGraph;
     const index = buildGraphIndex(graph);
     const stop = enrichStop(
       {
@@ -37,7 +37,7 @@ describe("enrichStop", () => {
 
 describe("enrichTrail", () => {
   it("aggregates estimated minutes and enriches all stops", () => {
-    const graph = semanticManifest as SemanticGraph;
+    const graph = semanticManifest as unknown as SemanticGraph;
     const manifest = getTrailsManifest();
     const trail = manifest.trails.find((t) => t.slug === "meaning-under-pressure");
     expect(trail).toBeDefined();

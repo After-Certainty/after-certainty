@@ -7,15 +7,28 @@ import {
 
 describe("fallback freshness", () => {
   it("accepts the bundled fallback with required fixture content types", () => {
-    const report = collectFallbackFreshnessIssues();
+    const report = collectFallbackFreshnessIssues(undefined, { intended: null });
     const errors = report.issues.filter((i) => i.severity === "error");
     expect(errors).toEqual([]);
-    expect(report.schemaVersion).toBe("2.2");
+    expect(report.schemaVersion).toBe("2.3");
     expect(report.generatedAt).toBeTruthy();
+    expect(report.sourceCommit).toBeTruthy();
   });
 
   it("assertFallbackFresh passes for the bundled file", () => {
-    expect(() => assertFallbackFresh()).not.toThrow();
+    expect(() => assertFallbackFresh({ intended: null })).not.toThrow();
+  });
+
+  it("fails release validation when fallback identity diverges from intended", () => {
+    const report = collectFallbackFreshnessIssues(undefined, {
+      intended: {
+        schemaVersion: "2.3",
+        sourceCommit: "not-the-real-commit",
+        generatedAt: "2099-01-01T00:00:00.000Z",
+      },
+    });
+    expect(report.matchesIntendedRelease).toBe(false);
+    expect(report.issues.some((i) => i.code === "fallback_release_mismatch")).toBe(true);
   });
 
   it("reports stale as warning by default and error when strict", () => {
@@ -56,13 +69,14 @@ describe("fallback freshness", () => {
       situations: [],
       sources: [],
       relationships: [],
-      schemaVersion: "2.2",
+      schemaVersion: "2.3",
       generatedAt: "2020-01-01T00:00:00.000Z",
       sourceCommit: "abc",
     };
 
     const warn = collectFallbackFreshnessIssues(stalePayload, {
       nowMs: Date.parse("2026-07-23T00:00:00.000Z"),
+      intended: null,
     });
     expect(warn.stale).toBe(true);
     expect(warn.issues.some((i) => i.code === "stale_fallback" && i.severity === "warning")).toBe(
@@ -72,6 +86,11 @@ describe("fallback freshness", () => {
     const strict = collectFallbackFreshnessIssues(stalePayload, {
       nowMs: Date.parse("2026-07-23T00:00:00.000Z"),
       strictStale: true,
+      intended: {
+        schemaVersion: "2.3",
+        sourceCommit: "abc",
+        generatedAt: "2020-01-01T00:00:00.000Z",
+      },
     });
     expect(strict.issues.some((i) => i.code === "stale_fallback" && i.severity === "error")).toBe(
       true,

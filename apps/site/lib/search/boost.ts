@@ -10,6 +10,7 @@ export const SEARCH_TYPE_BASE_BOOST: Record<SearchEntityType, number> = {
   thinker: 1.0,
   podcast_episode: 0.9,
   source: 0.85,
+  chapter: 0.95,
 };
 
 const STATUS_MULTIPLIER: Record<BookStatus, number> = {

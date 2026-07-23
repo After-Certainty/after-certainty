@@ -34,11 +34,16 @@ Use when:
 
 ## Manifest versions (what to expect)
 
-| Version | `manifestVersion` | `thinkers[]` | Typical upstream state                                                                                                       |
-| ------- | ----------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| Legacy  | `1` or absent     | absent       | Pre-enrichment sources                                                                                                       |
-| v1.5    | `1`               | absent       | Enriched `sources[]` with optional `creatorSlugs`, `sourceKind`, `citation`, etc. Site derives thinkers from `creatorSlugs`. |
-| v2      | `2`               | present      | Canonical thinker YAML under `semantic/thinkers/`; site prefers `graph.thinkers` over derived groupings.                     |
+| Version  | `manifestVersion` | `schemaVersion` | Typical upstream state                                         |
+| -------- | ----------------- | --------------- | -------------------------------------------------------------- |
+| Legacy   | `1` or absent     | absent          | Pre-enrichment sources                                         |
+| v1.5     | `1`               | absent / early  | Enriched `sources[]`                                           |
+| v2       | `2`               | `2.1`–`2.2`     | Thinkers + discovery collections                               |
+| **v2.3** | `2`               | **`2.3`**       | Roles, grounding, chapter enrichment — **intended production** |
+
+Prefer `npm run sync:semantic-manifest` (alias `sync:semantic-manifest-fallback`).
+Production ISR fetches the release URL; the bundled file is the offline/CI fallback.
+After sync, `data/intended-manifest-release.json` pins release identity for parity checks.
 
 Optional v1.5 source fields the site consumes: `sourceKind`, `creatorNames`, `creatorSlugs`, `title`, `citation`, `year`, `publisher`, `institution`, `url`, `whyThisMatters`. Legacy `name`, `type`, and `summary` remain required fallbacks.
 

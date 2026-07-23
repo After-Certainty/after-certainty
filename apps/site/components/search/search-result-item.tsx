@@ -35,7 +35,7 @@ export function SearchResultItem({ hit, rank, onSelect }: SearchResultItemProps)
   const isExternal = Boolean(document.external);
 
   const metaBits = [
-    document.resultLabel,
+    document.contextLabel ?? document.resultLabel,
     document.status && document.status !== "published" ? document.status.replace("_", " ") : null,
     document.edition ? `edition ${document.edition}` : null,
   ].filter(Boolean);

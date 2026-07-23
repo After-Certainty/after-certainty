@@ -7,7 +7,14 @@ import type { BookStatus } from "@/types/content";
  */
 
 export type SearchEntityType =
-  "book" | "concept" | "pattern" | "situation" | "thinker" | "source" | "podcast_episode";
+  | "book"
+  | "concept"
+  | "pattern"
+  | "situation"
+  | "thinker"
+  | "source"
+  | "podcast_episode"
+  | "chapter";
 
 export type SearchVisibility = "listed" | "unlisted";
 
@@ -58,6 +65,8 @@ export type SearchDocument = {
   searchText: string;
   aliases: string[];
   themes?: string[];
+  /** Optional context line (e.g. “Chapter in After Certainty”). */
+  contextLabel?: string;
   creatorNames?: string[];
   /** Resolved titles of related entities for matching + explanations. */
   relatedTitles?: string[];
@@ -83,4 +92,5 @@ export const SEARCH_RESULT_LABELS: Record<SearchEntityType, string> = {
   thinker: "Thinker",
   source: "Source",
   podcast_episode: "Podcast",
+  chapter: "Chapter",
 };

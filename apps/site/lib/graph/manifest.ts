@@ -5,14 +5,38 @@ import { outboundFetchSignal } from "@/lib/security/fetch";
 import { isSemanticManifestOffline, resolveSemanticManifestUrl } from "@/lib/site-config";
 import type { Book, SemanticGraph } from "@/types/semanticGraph";
 import { validateSemanticGraph } from "@/lib/graph/validate";
+import {
+  INTENDED_SCHEMA_VERSION,
+  SUPPORTED_SCHEMA_MAJOR,
+  isCompatibleSchemaVersion,
+  isIntendedSchemaVersion,
+} from "@/lib/graph/schema-version";
+import {
+  buildManifestLockFromLoadResult,
+  writeManifestBuildLock,
+} from "@/lib/graph/build-manifest-lock";
 
 export { validateSemanticGraph, type ValidateSemanticGraphResult } from "@/lib/graph/validate";
+export {
+  INTENDED_SCHEMA_VERSION,
+  SUPPORTED_SCHEMA_MAJOR,
+  compareSchemaVersions,
+  isCompatibleSchemaVersion,
+  isCompatibilitySchemaVersion,
+  isIntendedSchemaVersion,
+  isSchemaAtLeast,
+  parseSchemaVersion,
+} from "@/lib/graph/schema-version";
+export {
+  buildManifestLockFromLoadResult,
+  writeManifestBuildLock,
+  releaseIdentityKey,
+  type ManifestBuildLock,
+  MANIFEST_BUILD_LOCK_RELATIVE_PATH,
+} from "@/lib/graph/build-manifest-lock";
 
 /** Next.js fetch / `revalidateTag` cache tag for on-demand graph refresh. */
 export const SEMANTIC_GRAPH_CACHE_TAG = "semantic-graph";
-
-/** Schema majors the site can consume. Major 3+ is refused. */
-export const SUPPORTED_SCHEMA_MAJOR = 2;
 
 /** Default fallback staleness threshold (days). Override with SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS. */
 export const DEFAULT_FALLBACK_STALE_DAYS = 30;
@@ -28,22 +52,25 @@ export type ManifestFailureCategory =
   | "invalid_fallback"
   | "incompatible_fallback";
 
-export type ManifestSource =
-  | {
-      kind: "remote";
-      schemaVersion?: string;
-      sourceCommit?: string;
-      generatedAt?: string;
-    }
-  | {
-      kind: "fallback";
-      schemaVersion?: string;
-      sourceCommit?: string;
-      generatedAt?: string;
-      stale: boolean;
-      ageDays?: number;
-      reason: ManifestFailureCategory;
-    };
+export type ManifestReleaseIdentity = {
+  schemaVersion?: string;
+  sourceCommit?: string;
+  generatedAt?: string;
+  contentVersion?: string;
+};
+
+export type ManifestSource = {
+  kind: "remote" | "fallback";
+  schemaVersion?: string;
+  sourceCommit?: string;
+  generatedAt?: string;
+  contentVersion?: string;
+  stale: boolean;
+  /** Stable cache / diagnostics identity for this load. */
+  cacheIdentity: string;
+  ageDays?: number;
+  reason?: ManifestFailureCategory;
+};
 
 export type ManifestLoadDiagnostic = {
   category: ManifestFailureCategory | "ok";
@@ -88,9 +115,11 @@ function logManifestLoadOnce(result: SemanticGraphLoadResult): void {
     schemaVersion: source.schemaVersion,
     sourceCommit: source.sourceCommit,
     generatedAt: source.generatedAt,
-    stale: source.kind === "fallback" ? source.stale : false,
-    ageDays: source.kind === "fallback" ? source.ageDays : undefined,
-    reason: source.kind === "fallback" ? source.reason : undefined,
+    contentVersion: source.contentVersion,
+    cacheIdentity: source.cacheIdentity,
+    stale: source.stale,
+    ageDays: source.ageDays,
+    reason: source.reason,
     diagnosticCount: diagnostics.length,
     categories: diagnostics.map((d) => d.category),
   };
@@ -98,6 +127,32 @@ function logManifestLoadOnce(result: SemanticGraphLoadResult): void {
     return;
   }
   console.error("[semantic-graph] Manifest load", payload);
+}
+
+/** Persist a small build lock once per Node process (build / long-lived server). */
+let buildLockWritten = false;
+
+function maybeWriteBuildLock(result: SemanticGraphLoadResult): void {
+  if (buildLockWritten) return;
+  if (
+    process.env.NEXT_PHASE !== "phase-production-build" &&
+    process.env.WRITE_MANIFEST_BUILD_LOCK !== "1"
+  ) {
+    return;
+  }
+  try {
+    const lock = buildManifestLockFromLoadResult(result);
+    writeManifestBuildLock(lock);
+    buildLockWritten = true;
+    console.info("[semantic-graph] Wrote build manifest lock", {
+      schemaVersion: lock.schemaVersion,
+      sourceCommit: lock.sourceCommit,
+      manifestSource: lock.manifestSource,
+      cacheIdentity: lock.cacheIdentity,
+    });
+  } catch (err) {
+    logSemanticGraphError("Failed to write build manifest lock.", err);
+  }
 }
 
 export function fallbackStaleDaysThreshold(): number {
@@ -136,14 +191,63 @@ export function isFallbackStale(
 }
 
 /**
- * Supported schema versions are major 2 (including missing for legacy).
- * Major >= 3 or non-numeric majors that are not absent are incompatible.
+ * Build a stable cache identity from release provenance so routes share one corpus version.
  */
-export function isCompatibleSchemaVersion(schemaVersion: string | undefined): boolean {
-  if (!schemaVersion?.trim()) return true;
-  const major = Number.parseInt(schemaVersion.trim().split(".")[0] ?? "", 10);
-  if (!Number.isFinite(major)) return false;
-  return major <= SUPPORTED_SCHEMA_MAJOR;
+export function buildManifestCacheIdentity(
+  identity: ManifestReleaseIdentity,
+  options?: { url?: string; kind?: "remote" | "fallback" },
+): string {
+  const parts = [
+    options?.kind ?? "unknown",
+    options?.url ?? resolveSemanticManifestUrl(),
+    identity.schemaVersion ?? "unknown-schema",
+    identity.sourceCommit ?? "unknown-commit",
+    identity.contentVersion ?? "no-content-version",
+    identity.generatedAt ?? "unknown-generated-at",
+  ];
+  return parts.join("|");
+}
+
+export function releaseIdentityFromGraph(graph: SemanticGraph): ManifestReleaseIdentity {
+  return {
+    schemaVersion: graph.schemaVersion,
+    sourceCommit: graph.sourceCommit,
+    generatedAt: graph.generatedAt,
+    contentVersion: graph.contentVersion,
+  };
+}
+
+function provenanceFromGraph(graph: SemanticGraph): ManifestReleaseIdentity {
+  return releaseIdentityFromGraph(graph);
+}
+
+function buildFallbackSource(
+  graph: SemanticGraph,
+  reason: ManifestFailureCategory,
+): ManifestSource {
+  const provenance = provenanceFromGraph(graph);
+  const { stale, ageDays } = isFallbackStale(provenance.generatedAt);
+  return {
+    kind: "fallback",
+    ...provenance,
+    stale,
+    ageDays,
+    reason,
+    cacheIdentity: buildManifestCacheIdentity(provenance, { kind: "fallback" }),
+  };
+}
+
+function buildRemoteSource(graph: SemanticGraph): ManifestSource {
+  const provenance = provenanceFromGraph(graph);
+  return {
+    kind: "remote",
+    ...provenance,
+    stale: false,
+    cacheIdentity: buildManifestCacheIdentity(provenance, {
+      kind: "remote",
+      url: resolveSemanticManifestUrl(),
+    }),
+  };
 }
 
 function semanticBookExportScore(book: Book): number {
@@ -172,33 +276,6 @@ export function dedupeSemanticGraphBooks(books: Book[]): Book[] {
 
 function withDedupedBooks(graph: SemanticGraph): SemanticGraph {
   return { ...graph, books: dedupeSemanticGraphBooks(graph.books) };
-}
-
-function provenanceFromGraph(graph: SemanticGraph): {
-  schemaVersion?: string;
-  sourceCommit?: string;
-  generatedAt?: string;
-} {
-  return {
-    schemaVersion: graph.schemaVersion,
-    sourceCommit: graph.sourceCommit,
-    generatedAt: graph.generatedAt,
-  };
-}
-
-function buildFallbackSource(
-  graph: SemanticGraph,
-  reason: ManifestFailureCategory,
-): Extract<ManifestSource, { kind: "fallback" }> {
-  const provenance = provenanceFromGraph(graph);
-  const { stale, ageDays } = isFallbackStale(provenance.generatedAt);
-  return {
-    kind: "fallback",
-    ...provenance,
-    stale,
-    ageDays,
-    reason,
-  };
 }
 
 type BundledLoad =
@@ -303,7 +380,7 @@ export async function fetchSemanticGraphLoadResultUncached(): Promise<SemanticGr
     const res = await fetch(url, {
       next: {
         revalidate: SEMANTIC_MANIFEST_REVALIDATE_SECONDS,
-        tags: [SEMANTIC_GRAPH_CACHE_TAG],
+        tags: [SEMANTIC_GRAPH_CACHE_TAG, `semantic-schema:${INTENDED_SCHEMA_VERSION}`],
       },
       headers: { Accept: "application/json, */*" },
       signal: outboundFetchSignal(),
@@ -371,8 +448,15 @@ export async function fetchSemanticGraphLoadResultUncached(): Promise<SemanticGr
     const provenance = provenanceFromGraph(selection.graph);
     const result: SemanticGraphLoadResult = {
       graph: selection.graph,
-      source: { kind: "remote", ...provenance },
-      diagnostics: [{ category: "ok", message: "Serving validated remote semantic manifest." }],
+      source: buildRemoteSource(selection.graph),
+      diagnostics: [
+        {
+          category: "ok",
+          message: isIntendedSchemaVersion(provenance.schemaVersion)
+            ? "Serving validated remote semantic manifest."
+            : `Serving remote semantic manifest in compatibility mode (schemaVersion ${provenance.schemaVersion ?? "legacy"}; intended ${INTENDED_SCHEMA_VERSION}).`,
+        },
+      ],
     };
     logManifestLoadOnce(result);
     return result;
@@ -395,7 +479,11 @@ export async function fetchSemanticGraphUncached(): Promise<SemanticGraph> {
   return result.graph;
 }
 
-const cachedSemanticGraphLoad = cache(fetchSemanticGraphLoadResultUncached);
+const cachedSemanticGraphLoad = cache(async () => {
+  const result = await fetchSemanticGraphLoadResultUncached();
+  maybeWriteBuildLock(result);
+  return result;
+});
 
 /** Per-request deduplicated load result (graph + provenance). */
 export async function getSemanticGraphLoadResult(): Promise<SemanticGraphLoadResult> {

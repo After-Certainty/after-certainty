@@ -15,6 +15,17 @@ remote release (or bundled fallback)
   → public components and routes
 ```
 
+## Production source
+
+Default remote URL (override with `SEMANTIC_MANIFEST_URL`):
+
+`https://github.com/ksteffe/after-certainty/releases/download/latest/semantic-manifest.json`
+
+Production expects a **released** schema-**2.3** asset (not an arbitrary branch head).
+The sync command refuses releases below schema 2.3.
+
+Pinned identity after sync: [`data/intended-manifest-release.json`](../data/intended-manifest-release.json).
+
 ## Remote versus fallback
 
 | Mode    | Behavior                                                                                              |
@@ -23,65 +34,99 @@ remote release (or bundled fallback)
 | Offline | `SEMANTIC_MANIFEST_OFFLINE=1` uses only `data/semantic-manifest.json`                                 |
 | Failure | Invalid JSON, HTTP errors, Zod failure, incompatible schema, or empty remote books → bundled fallback |
 
-Selection is **remote-first**. A valid remote with books wins. The site no longer
-prefers a “richer” bundled copy over a valid remote.
+Selection is **remote-first**. A valid remote with books wins.
 
 `getSemanticGraphLoadResult()` returns `{ graph, source, diagnostics }` where
-`source` is:
+`source` includes:
 
-- `{ kind: "remote", schemaVersion?, sourceCommit?, generatedAt? }`
-- `{ kind: "fallback", …, stale, ageDays?, reason }`
+- `kind`: `"remote"` | `"fallback"`
+- `schemaVersion`, `sourceCommit`, `generatedAt`, `contentVersion?`
+- `stale`, `cacheIdentity`
+- fallback-only: `ageDays`, `reason`
 
 `getSemanticGraph()` remains graph-only for compatibility.
 
-## Provenance and supported schema versions
+## Supported schema versions
 
-Manifest metadata fields: `schemaVersion`, `generatedAt`, `sourceCommit`,
-`repository`, `ref`, `releaseTag`, `manifestVersion`.
+| Version                 | Policy                                                    |
+| ----------------------- | --------------------------------------------------------- |
+| **2.3+** (major 2)      | Fully supported — intended production contract            |
+| **2.2**                 | Temporary compatibility mode (enrichment optional/absent) |
+| Missing `schemaVersion` | Legacy accepted                                           |
+| Major ≥ 3 / unparseable | Rejected                                                  |
 
-Supported schema major: **2** (including `2.1`, `2.2`). Major ≥ 3 is refused.
-Missing `schemaVersion` is accepted for legacy manifests.
+Version comparison uses [`lib/graph/schema-version.ts`](../lib/graph/schema-version.ts) (not string compare).
 
-### Schema 2.2 book structure
+### Schema 2.3 enrichment (site presentation)
 
-`parts[]` and `chapters[]` are retained on the typed graph (Zod no longer strips
-them). Selectors live in [`lib/graph/chapters.ts`](../lib/graph/chapters.ts).
-The public registry indexes chapters as **unlisted** metadata (`searchEligible`
-and `sitemapEligible` stay false) until on-site chapter routes ship. Structural
-integrity runs through `validate:public-corpus`.
+| Manifest fields                                                                                | Site behavior                                                                                                                                                                                      |
+| ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `parts[]` / `chapters[]` (+ summaries, central questions, kinds including `poem` / `sequence`) | Book overview **Inside this book** via [`lib/books/book-chapter-view-model.ts`](../lib/books/book-chapter-view-model.ts)                                                                           |
+| `overview.selectedConceptRoles` / `selectedPatternRoles`                                       | Preferred over global definitions on book central ideas                                                                                                                                            |
+| `patterns[].grounding` / `glossary[].grounding`                                                | Restrained grounding on pattern/concept detail pages                                                                                                                                               |
+| `relationships[].provenance`                                                                   | Retained in typed model; not rendered on every edge                                                                                                                                                |
+| Chapter search metadata                                                                        | Folded into **book** `searchText` (titles, summaries, central questions, aliases). Separate chapter search hits stay deferred until chapter routes ship (public registry `searchEligible: false`). |
 
-This slice does **not** add chapter reading pages, sitemap entries, or search
-documents for chapter bodies.
+No native chapter reader or chapter sitemap URLs in this slice.
 
-## Staleness policy
+## Cache and revalidation
+
+- Shared Next.js fetch tag: `semantic-graph` (+ `semantic-schema:2.3`)
+- ISR interval: `SEMANTIC_MANIFEST_REVALIDATE_SECONDS` (default 3600)
+- On-demand: `POST /api/cache/revalidate` with target `"semantic"` (see existing secret conventions)
+- `source.cacheIdentity` includes URL + schema + commit + content version + generatedAt so release changes are observable
+
+All manifest-driven routes should call `getSemanticGraph` / `getSemanticGraphLoadResult` / `getExploreSemanticGraph` — not parse the JSON independently.
+
+## Build manifest lock
+
+During production builds (`NEXT_PHASE=phase-production-build` or `WRITE_MANIFEST_BUILD_LOCK=1`), the loader writes
+[`data/build-manifest-lock.json`](../data/build-manifest-lock.json) with schema version, source commit,
+generatedAt, manifest source, cache identity, and build time.
+
+## Staleness and release policy
 
 Fallback age is measured from `generatedAt`.
 
-- Threshold: **30 days** (override with `SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS`)
-- Missing / unparseable `generatedAt` → treated as stale
-- Normal CI / `npm run validate:fallback`: stale is a **warning**
-- Release-style: `npm run validate:fallback -- --strict` (or `VALIDATE_FALLBACK_STRICT=1`) → stale is an **error**
-- Invalid or incompatible fallback → always **error**
+- Threshold: **30 days** (`SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS`)
+- Invalid / incompatible fallback → **error**
+- Fallback ≠ intended release identity → **error**
+- Strict release: `npm run validate:fallback -- --strict` or `VALIDATE_FALLBACK_STRICT=1`
+- Release identity: `npm run validate:release-identity`
+- Remote unavailable at runtime → valid fallback + structured diagnostics (logged once)
 
-Visitors are not shown commit hashes or operational banners. Diagnostics log once
-at the loader boundary when fallback is used.
+Visitors are not shown commit hashes or operational banners.
 
 ## Synchronize the bundled fallback
 
 ```bash
 npm run sync:semantic-manifest
+# alias:
+npm run sync:semantic-manifest-fallback
 ```
 
-Fetches the trusted public release asset (or `SEMANTIC_MANIFEST_URL`), validates
-via the site Zod suite, and atomically replaces `data/semantic-manifest.json`.
-Does not run during ordinary local development.
+Fetches the trusted public release asset, requires schema 2.3+, validates provenance,
+runs the Zod suite, atomically replaces `data/semantic-manifest.json`, and writes
+`data/intended-manifest-release.json`. Does **not** run during ordinary `npm run dev`.
 
-## Validate fallback freshness
+## Validate
 
 ```bash
 npm run validate:fallback
 npm run validate:fallback -- --strict
+npm run validate:release-identity
+npm run validate:public-corpus
 ```
+
+## Release checklist
+
+1. Confirm upstream `latest` release publishes schema 2.3 `semantic-manifest.json`
+2. `npm run sync:semantic-manifest`
+3. `npm run validate:fallback -- --strict`
+4. `npm run validate:release-identity`
+5. `npm run validate:public-corpus`
+6. `SEMANTIC_MANIFEST_OFFLINE=1 npm run build` and online build
+7. Spot-check: enriched nonfiction book, fiction, poetry, pattern grounding, search chapter hit → book overview
 
 ## Public content-type normalization
 
@@ -141,3 +186,6 @@ See [`.env.example`](../.env.example):
 - `SEMANTIC_MANIFEST_OFFLINE`
 - `SEMANTIC_MANIFEST_REVALIDATE_SECONDS`
 - `SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS`
+- `VALIDATE_FALLBACK_STRICT`
+- `WRITE_MANIFEST_BUILD_LOCK`
+- `CACHE_REVALIDATE_SECRET`

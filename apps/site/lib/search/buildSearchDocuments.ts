@@ -9,8 +9,10 @@ import {
 import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex, graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
+import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
 import { sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
 import { resolveThinkers } from "@/lib/graph/thinkers";
+import { chaptersFromGraph } from "@/lib/graph/chapters";
 import { aliasTermsByTargetId, relatedTermsByTargetId } from "@/lib/search/aliases";
 import { computeSearchBoostWeight } from "@/lib/search/boost";
 import { cappedEnrichmentText } from "@/lib/search/enrichment";
@@ -86,7 +88,7 @@ function buildBookDocument(
   const status = bookPublicationStatus(book);
   const isCanonicalEdition = editionMeta.canonicalSlug === book.slug;
   const hasEditionSiblings = editionMeta.siblingCount > 1;
-  const workEdition = resolveWorkEdition(book, graph.books);
+  const workEdition = resolveWorkEdition(book, graph.books, publicationRegistryFromGraph(graph));
   const isSuperseded = workEdition.relationship === "superseded";
 
   const conceptIds = book.concepts?.length ? [...book.concepts] : undefined;
@@ -119,6 +121,7 @@ function buildBookDocument(
     ...(creatorNames ?? []),
     ...relatedTitles,
     ...relatedBridgeTerms,
+    ...chapterSearchTextForBook(graph, book),
   ]);
 
   return {
@@ -468,6 +471,26 @@ function buildPodcastDocument(
 }
 
 /**
+ * Chapter metadata is searchable via the parent book document until on-site
+ * chapter routes exist (public registry keeps chapters searchEligible=false).
+ */
+function chapterSearchTextForBook(graph: SemanticGraph, book: SemanticBook): string[] {
+  const editionId = book.editionId ?? book.id;
+  const chunks: string[] = [];
+  for (const chapter of chaptersFromGraph(graph)) {
+    if (chapter.editionId !== editionId || !chapter.public) continue;
+    chunks.push(
+      chapter.title,
+      chapter.partTitle ?? "",
+      chapter.summary ?? "",
+      chapter.centralQuestion ?? "",
+      ...(chapter.searchAliases ?? []),
+    );
+  }
+  return chunks;
+}
+
+/**
  * Build the normalized Global Search corpus from the explore graph,
  * podcast episodes, and authored aliases. Pure function — no I/O.
  */
@@ -478,7 +501,8 @@ export function buildSearchDocuments(input: BuildSearchDocumentsInput): SearchDo
   const relatedMap = aliasConfig
     ? relatedTermsByTargetId(aliasConfig)
     : new Map<string, string[]>();
-  const editionGroups = buildEditionGroups(graph.books);
+  const registry = publicationRegistryFromGraph(graph);
+  const editionGroups = buildEditionGroups(graph.books, registry);
 
   const docs: SearchDocument[] = [];
   const seenIds = new Set<string>();

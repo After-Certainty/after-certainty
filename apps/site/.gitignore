@@ -45,3 +45,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Build-time semantic corpus lock (regenerated on production build)
+/data/build-manifest-lock.json
+/data/semantic-manifest.json.bak
+/data/.semantic-manifest.json.tmp

@@ -7,7 +7,7 @@ import type { SemanticGraph } from "@/types/semanticGraph";
 import { describe, expect, it } from "vitest";
 
 describe("enrichQuestions", () => {
-  const graph = semanticManifest as SemanticGraph;
+  const graph = semanticManifest as unknown as SemanticGraph;
 
   it("resolves WoLTY alias book slug to canonical v1 href", () => {
     const manifest = getQuestionsManifest();

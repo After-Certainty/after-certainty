@@ -22,6 +22,8 @@ import { relatedContentForPattern } from "@/lib/graph/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 import { buildPatternPageJsonLd, relatedConceptUrls } from "@/lib/seo/json-ld";
+import { buildPublicGroundingViewModel } from "@/lib/graph/grounding";
+import { SemanticGroundingDisclosure } from "@/components/explore/semantic-grounding-disclosure";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -53,6 +55,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
 
   const hasRelated = related.concepts.length + related.books.length > 0;
   const hasRelationships = entityHasSemanticRelationships(index, pattern.id);
+  const grounding = buildPublicGroundingViewModel(pattern.grounding, graph);
 
   const patternBreadcrumbs = [
     { label: "Explore", href: explorePaths.home },
@@ -78,6 +81,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
           <LinkifiedText text={pattern.summary} />
         </p>
+        {grounding ? <SemanticGroundingDisclosure grounding={grounding} /> : null}
         <ExploreEntityDetailActions observatory={{ kind: "pattern", slug: pattern.slug }} />
         <ExplorePatternMedia pattern={pattern} />
         <ExploreAdjacentNav

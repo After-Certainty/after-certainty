@@ -32,7 +32,8 @@ describe("getExploreSemanticGraph", () => {
         kind: "fallback",
         stale: false,
         reason: "offline",
-        schemaVersion: "2.2",
+        schemaVersion: "2.3",
+        cacheIdentity: "fallback|test|2.3|commit|no-content-version|generated",
       },
       diagnostics: [],
     });

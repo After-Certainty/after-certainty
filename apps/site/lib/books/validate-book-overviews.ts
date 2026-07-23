@@ -1,6 +1,6 @@
 import { bookIsPublic } from "@/lib/books/book-metadata";
-import { getAllBookOverviews, getBookOverviewsManifest } from "@/lib/books/load-book-overviews";
 import type { BookOverview } from "@/lib/books/book-overview-schema";
+import { DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS } from "@/lib/books/book-overview-schema";
 import {
   exceptionAllowsAnyConcepts,
   exceptionAllowsAnyPatterns,
@@ -11,6 +11,7 @@ import {
   type OverviewLinkException,
 } from "@/lib/books/overview-link-exceptions";
 import { resolveWorkEdition } from "@/lib/books/resolve-work-edition";
+import { bookOverviewsFromGraph, publicationRegistryFromGraph } from "@/lib/graph/discovery";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 export type BookOverviewHealthSeverity = "error" | "warning";
@@ -42,10 +43,13 @@ export function collectBookOverviewHealthIssues(input: {
   linkExceptions?: readonly OverviewLinkException[];
 }): BookOverviewHealthIssue[] {
   const { graph } = input;
-  const overviews = input.overviews ?? getAllBookOverviews();
-  const prioritySlugs = input.prioritySlugs ?? getBookOverviewsManifest().prioritySlugs ?? [];
+  // Prefer overviews from the same graph under validation — never re-parse the
+  // bundled JSON when a live graph is already in hand (expensive on schema 2.3+).
+  const overviews = input.overviews ?? bookOverviewsFromGraph(graph);
+  const prioritySlugs = input.prioritySlugs ?? [...DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS];
   const linkExceptions = input.linkExceptions ?? getOverviewLinkExceptions();
   const exceptionsBySlug = indexOverviewLinkExceptions(linkExceptions);
+  const publicationRegistry = publicationRegistryFromGraph(graph);
 
   const issues: BookOverviewHealthIssue[] = [];
   const booksById = new Map(graph.books.map((book) => [book.id, book]));
@@ -292,7 +296,7 @@ export function collectBookOverviewHealthIssues(input: {
         });
       }
 
-      const relatedEdition = resolveWorkEdition(related, graph.books);
+      const relatedEdition = resolveWorkEdition(related, graph.books, publicationRegistry);
       if (relatedEdition.relationship === "superseded") {
         issues.push({
           severity: "error",

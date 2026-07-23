@@ -54,15 +54,20 @@ const vm: BookOverviewViewModel = {
   },
   selectedConcepts: [
     {
-      id: "concept-agency",
-      slug: "agency",
-      title: "Agency",
-      shortDefinition: "Capacity to act.",
+      concept: {
+        id: "concept-agency",
+        slug: "agency",
+        title: "Agency",
+        shortDefinition: "Capacity to act.",
+      },
+      roleInWork:
+        "Names the practical stake of the capstone: capacity to act once explanation no longer guarantees control.",
     },
   ],
   selectedPatterns: [],
   readBefore: [],
   readNext: [{ id: "book-coupling", slug: "coupling", title: "Coupling" }],
+  structure: null,
 };
 
 describe("BookOverviewLayout", () => {
@@ -120,10 +125,11 @@ describe("BookOverviewLayout", () => {
     ).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Why this book exists" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Central ideas" })).toBeInTheDocument();
-    expect(screen.getByRole("link", { name: "Agency" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: "Explore the concept" })).toHaveAttribute(
       "href",
       "/explore/concepts/agency",
     );
+    expect(screen.getByText(/Names the practical stake of the capstone/)).toBeInTheDocument();
     expect(screen.getByRole("link", { name: "Download PDF" })).toBeInTheDocument();
     expect(screen.getByText(/open publishing terms/i)).toBeInTheDocument();
     expect(screen.getAllByRole("link", { name: "Coupling" })[0]).toHaveAttribute(

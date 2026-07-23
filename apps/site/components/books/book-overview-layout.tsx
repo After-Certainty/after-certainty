@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";
+import { BookInsideThisBook } from "@/components/books/book-inside-this-book";
 import { BookOverviewActions } from "@/components/books/book-overview-actions";
 import { BookOverviewEditionHistory } from "@/components/books/book-overview-edition-history";
 import { BookWhatsNewLinks } from "@/components/books/book-whats-new-links";
@@ -221,42 +222,96 @@ export function BookOverviewLayout({
           lead="A curated handful of concepts and patterns this book develops — not the full inventory."
         >
           <ul className="grid gap-6 sm:grid-cols-2">
-            {selectedConcepts.map((concept) => (
+            {selectedConcepts.map(({ concept, roleInWork }) => (
               <li key={concept.id} className="space-y-2 border-t border-border/30 pt-4">
                 <p className="text-[10px] uppercase tracking-[0.28em] text-accent">Concept</p>
-                <TrackedLink
-                  href={`${explorePaths.concepts}/${concept.slug}`}
-                  className="font-display text-xl font-medium tracking-tight text-fg transition-colors hover:text-accent"
-                  analytics={{
-                    event: AnalyticsEvents.bookOverviewConceptSelect,
-                    params: { book_id: book.id, concept_id: concept.id },
-                  }}
-                >
+                <p className="font-display text-xl font-medium tracking-tight text-fg">
                   {concept.title}
-                </TrackedLink>
-                <p className="text-sm leading-relaxed text-muted">
-                  {getConceptDisplayDefinition(concept)}
                 </p>
+                {roleInWork ? (
+                  <>
+                    <p className="text-sm leading-relaxed text-muted">
+                      <span className="sr-only">In this book: </span>
+                      {roleInWork}
+                    </p>
+                    <TrackedLink
+                      href={`${explorePaths.concepts}/${concept.slug}`}
+                      className="inline-block text-sm text-accent underline-offset-4 transition-colors hover:text-fg hover:underline"
+                      analytics={{
+                        event: AnalyticsEvents.bookOverviewConceptSelect,
+                        params: { book_id: book.id, concept_id: concept.id },
+                      }}
+                    >
+                      Explore the concept
+                    </TrackedLink>
+                  </>
+                ) : (
+                  <>
+                    <p className="text-sm leading-relaxed text-muted">
+                      {getConceptDisplayDefinition(concept)}
+                    </p>
+                    <TrackedLink
+                      href={`${explorePaths.concepts}/${concept.slug}`}
+                      className="inline-block text-sm text-accent underline-offset-4 transition-colors hover:text-fg hover:underline"
+                      analytics={{
+                        event: AnalyticsEvents.bookOverviewConceptSelect,
+                        params: { book_id: book.id, concept_id: concept.id },
+                      }}
+                    >
+                      {concept.title}
+                      <span className="sr-only"> — open concept page</span>
+                    </TrackedLink>
+                  </>
+                )}
               </li>
             ))}
-            {selectedPatterns.map((pattern) => (
+            {selectedPatterns.map(({ pattern, roleInWork }) => (
               <li key={pattern.id} className="space-y-2 border-t border-border/30 pt-4">
                 <p className="text-[10px] uppercase tracking-[0.28em] text-accent">Pattern</p>
-                <TrackedLink
-                  href={`${explorePaths.patterns}/${pattern.slug}`}
-                  className="font-display text-xl font-medium tracking-tight text-fg transition-colors hover:text-accent"
-                  analytics={{
-                    event: AnalyticsEvents.bookOverviewRelatedSelect,
-                    params: {
-                      book_id: book.id,
-                      destination_id: pattern.id,
-                      destination_kind: "pattern",
-                    },
-                  }}
-                >
+                <p className="font-display text-xl font-medium tracking-tight text-fg">
                   {pattern.title}
-                </TrackedLink>
-                <p className="text-sm leading-relaxed text-muted">{pattern.summary}</p>
+                </p>
+                {roleInWork ? (
+                  <>
+                    <p className="text-sm leading-relaxed text-muted">
+                      <span className="sr-only">In this book: </span>
+                      {roleInWork}
+                    </p>
+                    <TrackedLink
+                      href={`${explorePaths.patterns}/${pattern.slug}`}
+                      className="inline-block text-sm text-accent underline-offset-4 transition-colors hover:text-fg hover:underline"
+                      analytics={{
+                        event: AnalyticsEvents.bookOverviewRelatedSelect,
+                        params: {
+                          book_id: book.id,
+                          destination_id: pattern.id,
+                          destination_kind: "pattern",
+                        },
+                      }}
+                    >
+                      Explore the pattern
+                    </TrackedLink>
+                  </>
+                ) : (
+                  <>
+                    <p className="text-sm leading-relaxed text-muted">{pattern.summary}</p>
+                    <TrackedLink
+                      href={`${explorePaths.patterns}/${pattern.slug}`}
+                      className="inline-block text-sm text-accent underline-offset-4 transition-colors hover:text-fg hover:underline"
+                      analytics={{
+                        event: AnalyticsEvents.bookOverviewRelatedSelect,
+                        params: {
+                          book_id: book.id,
+                          destination_id: pattern.id,
+                          destination_kind: "pattern",
+                        },
+                      }}
+                    >
+                      {pattern.title}
+                      <span className="sr-only"> — open pattern page</span>
+                    </TrackedLink>
+                  </>
+                )}
               </li>
             ))}
           </ul>
@@ -271,6 +326,16 @@ export function BookOverviewLayout({
               </a>
             </p>
           ) : null}
+        </OverviewSection>
+      ) : null}
+
+      {vm.structure ? (
+        <OverviewSection
+          id="inside"
+          title="Inside this book"
+          lead="How the book is organized — parts, chapters, and what each section investigates."
+        >
+          <BookInsideThisBook structure={vm.structure} />
         </OverviewSection>
       ) : null}
 

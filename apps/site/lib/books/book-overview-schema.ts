@@ -42,6 +42,33 @@ export const bookOverviewSchema = z
     nonGoals: z.array(z.string().min(1).max(240)).min(1).max(6),
     selectedConceptIds: z.array(z.string().min(1)).max(7),
     selectedPatternIds: z.array(z.string().min(1)).max(5).optional(),
+    selectedConceptRoles: z
+      .array(
+        z.object({
+          conceptId: z.string().min(1),
+          roleInWork: z.string().min(1).max(600),
+        }),
+      )
+      .max(7)
+      .optional(),
+    selectedPatternRoles: z
+      .array(
+        z.object({
+          patternId: z.string().min(1),
+          roleInWork: z.string().min(1).max(600),
+        }),
+      )
+      .max(5)
+      .optional(),
+    relatedWorks: z
+      .array(
+        z.object({
+          workId: z.string().min(1),
+          relationship: z.string().min(1),
+          reason: z.string().min(1).max(600).optional(),
+        }),
+      )
+      .optional(),
     /** Book slugs for “read before” guidance. */
     readBefore: z.array(z.string().min(1)).max(3).optional(),
     /** Book slugs for “read next” guidance. */
