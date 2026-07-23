@@ -38,6 +38,41 @@ book:
     - finality-compensates-for-uncertainty
     - meaning-forms-early
     - exceptions-are-forever
+    selectedConceptRoles:
+    - conceptId: certainty
+      roleInWork: >
+        Central: adaptive reduction of instability that makes action possible—read historically so it
+        can be recognized before it feels excessive.
+    - conceptId: compression
+      roleInWork: >
+        Shows how moral and institutional order travels by shrinking complexity—necessary for survival,
+        costly when it hardens.
+    - conceptId: inheritance
+      roleInWork: >
+        Names how stabilized order outlives originating conditions; the book teaches readers to feel
+        inherited obviousness as historical.
+    - conceptId: drift
+      roleInWork: >
+        Tracks gradual decoupling of rules and meanings from the pressures that made them adaptive.
+    - conceptId: constraint
+      roleInWork: >
+        Grounds moral orders in scarcity, violence, density—limits that made certainty feel necessary
+        rather than arbitrary.
+    - conceptId: legitimacy
+      roleInWork: >
+        Asks when inherited order still reads as justified once conditions change—before critique
+        becomes easy hindsight.
+    selectedPatternRoles:
+    - patternId: finality-compensates-for-uncertainty
+      roleInWork: >
+        Introduces how hard endings and settled rules relieve instability—adaptive move that later looks
+        like excess.
+    - patternId: meaning-forms-early
+      roleInWork: >
+        Applies how early interpretive settlements lock in what later generations inherit as obvious.
+    - patternId: exceptions-are-forever
+      roleInWork: >
+        Shows workarounds becoming the day-to-day order—how provisional certainty turns durable.
     readBefore:
     - curiosity-before-certainty
     readNext:

@@ -381,6 +381,48 @@
             "pattern": "^[a-z0-9][a-z0-9._-]*$"
           }
         },
+        "selectedConceptRoles": {
+          "type": "array",
+          "maxItems": 7,
+          "description": "Book-specific roles for curated selectedConcepts. Keep selectedConcepts array for compatibility.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["conceptId", "roleInWork"],
+            "properties": {
+              "conceptId": {
+                "type": "string",
+                "pattern": "^[a-z0-9][a-z0-9._-]*$"
+              },
+              "roleInWork": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 600
+              }
+            }
+          }
+        },
+        "selectedPatternRoles": {
+          "type": "array",
+          "maxItems": 7,
+          "description": "Book-specific roles for curated selectedPatterns. Keep selectedPatterns array for compatibility.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["patternId", "roleInWork"],
+            "properties": {
+              "patternId": {
+                "type": "string",
+                "pattern": "^[a-z0-9][a-z0-9._-]*$"
+              },
+              "roleInWork": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 600
+              }
+            }
+          }
+        },
         "readBefore": {
           "type": "array",
           "maxItems": 3,

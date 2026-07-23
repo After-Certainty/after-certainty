@@ -1,6 +1,6 @@
 # Chapter identity in the semantic manifest
 
-Additive collections `parts[]` and `chapters[]` (schemaVersion **2.2**) export manuscript structure without embedding full chapter text.
+Additive collections `parts[]` and `chapters[]` (schemaVersion **2.2+**) export manuscript structure without embedding full chapter text.
 
 ## Generation
 
@@ -31,7 +31,9 @@ Examples:
 
 ## Chapter kinds
 
-`introduction` | `chapter` | `bridge` | `interlude` | `conclusion` | `appendix` | `afterword` | `notes` | `other`
+`introduction` | `chapter` | `bridge` | `interlude` | `conclusion` | `appendix` | `afterword` | `notes` | `poem` | `section` | `sequence` | `other`
+
+Poetry collections (`book.kind: poetry`) map titled part units to `poem` unless overridden.
 
 ## Authored enrichment (optional)
 
@@ -40,20 +42,23 @@ Create `books/<slug>/chapter-enrichment.yml`:
 ```yaml
 version: 1
 chapters:
-  - sourcePath: parts/chapter-2-we-did-not-agree-to-the-same-thing.md
+  - sourcePath: parts/part-1/chapter-1.md
     summary: >
-      Short manuscript-grounded summary.
-    centralQuestion: "..."
-    selectedConcepts: [partial-coherence]
-    selectedPatterns: [disagreement-is-suppressed]
-    searchAliases: [same meeting different memories]
-    situations: [same-meeting-different-decisions]
-    readingTransition: >
-      Optional bridge to the next unit.
+      Conceptual movement of the chapter (not a title paraphrase).
+    centralQuestion: Narrower than the book question.
+    selectedConcepts: [judgment]
+    selectedPatterns: [revisability-preserves-judgment]
+    situations: [feedback-stops-changing-decisions]
+    searchAliases: [judgment without finality]
+    transition:
+      fromPrevious: Why this follows the previous unit.
+      toNext: What remains open into the next unit.
 ```
 
-Fields project into the chapter entry when present. Full-corpus chapter enrichment is not required.
+Summaries must be manuscript-grounded. Fiction summaries should avoid spoiling more than needed for navigation and must not treat fictional events as empirical proof.
 
-## Validation
+Schema: [`schema/semantic/chapter-enrichment.schema.json`](../schema/semantic/chapter-enrichment.schema.json).
 
-Missing in-book source files linked from `index.md`, duplicate chapter IDs, and invalid enrichment concept/pattern slugs fail validation. Public manifests omit non-public editions.
+## Report coverage
+
+Completeness reports should be generated with `--manifest build/semantic-manifest.json` (Makefile default). Per-book `chapterSummaryCoverage` reports `present/total`.

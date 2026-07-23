@@ -1,36 +1,827 @@
 {
-  "generatedAt": "2026-07-07T05:37:33.797455+00:00",
+  "generatedAt": "2026-07-23T05:09:19.822420+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
-      "build/semantic-manifest.json",
-      "build/books-manifest.json"
+      "build/semantic-manifest.json"
     ]
   },
   "summary": {
     "errors": 0,
-    "warnings": 2,
-    "info": 292,
+    "warnings": 74,
+    "info": 261,
     "entitiesScanned": {
-      "books": 28,
-      "concepts": 137,
+      "books": 32,
+      "concepts": 144,
       "patterns": 30,
-      "thinkers": 439,
-      "sources": 408,
+      "thinkers": 635,
+      "sources": 648,
       "relationships": 109
     }
   },
   "issues": [
     {
       "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "arrington-leonard-j-great-basin-kingdom",
+      "entityTitle": "arrington-leonard-j-great-basin-kingdom",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Leonard J Arrington' != author portion of name 'Leonard J. Arrington'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an",
+      "entityTitle": "brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Kelly D. Brownell' != author portion of name 'Brownell, Kelly D., and Kenneth E. Warner'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193",
+      "entityTitle": "ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Larry Ceplair' != author portion of name 'Ceplair, Larry, and Steven Englund'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
+      "entityTitle": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Ashwin Desai' != author portion of name 'Desai, Ashwin, and Goolam Vahed'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "government-of-south-africa-truth-and-reconciliation-commission-final-report",
+      "entityTitle": "government-of-south-africa-truth-and-reconciliation-commission-final-report",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Truth and Reconciliation Commission (South Africa)' != author portion of name 'Government of South Africa. Truth and Reconciliation Commission'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene",
+      "entityTitle": "hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Carl I. Hovland' != author portion of name 'Hovland, Carl I., and Walter Weiss'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to",
+      "entityTitle": "lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Arthur Lupia' != author portion of name 'Lupia, Arthur, and Mathew D. McCubbins'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "mason-patrick-q-and-j-david-pulsipher-proclaim-peace",
+      "entityTitle": "mason-patrick-q-and-j-david-pulsipher-proclaim-peace",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Patrick Q Mason' != author portion of name 'Patrick Q. Mason and J. David Pulsipher'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to",
+      "entityTitle": "merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Anna C. Merritt' != author portion of name 'Merritt, Anna C., Daniel A. Effron, and Beno\u00eet Monin'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "nissen-hans-j-peter-damerow-and-robert-k-englund-archaic",
+      "entityTitle": "nissen-hans-j-peter-damerow-and-robert-k-englund-archaic",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'Hans J. Nissen' != author portion of name 'Nissen, Hans J., Peter Damerow, and Robert K. Englund'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org",
+      "entityTitle": "san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org",
+      "field": "creator_name_mismatch",
+      "currentValue": null,
+      "reason": "creatorNames[0] 'DORA (San Francisco Declaration on Research Assessment)' != author portion of name 'DORA'",
+      "suggestedFix": null
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open",
+      "entityTitle": "OpenSecrets fundraising totals and donor reporting",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "every-student-succeeds-act-of-2015-pub-l-no-114-95-1111-1112",
+      "entityTitle": "Every Student Succeeds Act of 2015",
+      "field": "year",
+      "currentValue": 1112,
+      "reason": "Publication year is earlier than 1500.",
+      "suggestedFix": "Verify year or document as ancient/classical source."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "federal-election-commission-campaign-finance-disclosure-data-https-www-fec-gov",
+      "entityTitle": "Campaign finance disclosure data",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "federal-reserve-bank-of-philadelphia-survey-of-professional-forecasters",
+      "entityTitle": "Survey of Professional Forecasters",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "financial-stability-board-implementation-and-effects-of-the-g20-financial-regulatory-reforms",
+      "entityTitle": "Implementation and Effects of the G20 Financial Regulatory Reforms",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "government-of-south-africa-truth-and-reconciliation-commission-final-report",
+      "entityTitle": "Final Report",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "knight-foundation-and-gallup-american-views-trust-media-and-democracy",
+      "entityTitle": "American Views: Trust, Media and Democracy",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "learning-policy-institute-teacher-shortages-and-turnover-in-the-united-states",
+      "entityTitle": "Teacher Shortages and Turnover in the United States",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "madison-james-alexander-hamilton-and-john-jay-the-federalist-papers",
+      "entityTitle": "The Federalist Papers",
+      "field": "institution",
+      "currentValue": "Madison, James, Alexander Hamilton, and John Jay",
+      "reason": "Institution field duplicates a creator name (person misfiled as org).",
+      "suggestedFix": "Clear institution or use the actual publishing organization."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "organisation-for-economic-co-operation-and-development-pisa-2022-results",
+      "entityTitle": "PISA 2022 Results",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "pew-research-center-a-guide-to-pew-research-center-s-methodology",
+      "entityTitle": "A Guide to Pew Research Center's Methodology",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "reuters-institute-for-the-study-of-journalism-digital-news-report-2024",
+      "entityTitle": "Digital News Report 2024",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
+      "category": "source-metadata",
+      "entityType": "source",
+      "entityId": "statutes-of-the-realm-vol-1-london-record-commission-1810",
+      "entityTitle": "Statutes of the Realm, Vol. 1",
+      "field": "sourceKind",
+      "currentValue": "book",
+      "reason": "Institutional statistics or report classified like a book.",
+      "suggestedFix": "Set sourceKind to report or institutional_document."
+    },
+    {
+      "severity": "warning",
       "category": "slug-quality",
       "entityType": "thinker",
-      "entityId": "hal-daum-iii",
-      "entityTitle": "Hal Daum\u00e9 III",
+      "entityId": "beno-t-monin",
+      "entityTitle": "Beno\u00eet Monin",
       "field": "slug",
-      "currentValue": "hal-daum-iii",
+      "currentValue": "beno-t-monin",
       "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'hal-daume-iii' with a redirect strategy."
+      "suggestedFix": "Consider renaming slug to 'benoit-monin' with a redirect strategy."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "cnn-politics",
+      "entityTitle": "CNN Politics",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "congressional-budget-office",
+      "entityTitle": "Congressional Budget Office",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "congressional-record",
+      "entityTitle": "Congressional Record",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "european-financial-reporting-advisory-group",
+      "entityTitle": "European Financial Reporting Advisory Group",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "federal-deposit-insurance-corporation",
+      "entityTitle": "Federal Deposit Insurance Corporation",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "fred-rogers-productions",
+      "entityTitle": "Fred Rogers Productions",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "ian-r-bartky",
+      "entityTitle": "Ian R. Bartky",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "jahn-k-hakes-and-raymond-d-sauer",
+      "entityTitle": "Jahn K. Hakes and Raymond D. Sauer",
+      "field": "name",
+      "currentValue": "Jahn K. Hakes and Raymond D. Sauer",
+      "reason": "Thinker name lists ~2 people who could be separate thinker entries.",
+      "suggestedFix": "Create 2 separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "los-angeles-times",
+      "entityTitle": "Los Angeles Times",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "major-league-baseball",
+      "entityTitle": "Major League Baseball",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "national-collegiate-athletic-association",
+      "entityTitle": "National Collegiate Athletic Association",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "nba-communications",
+      "entityTitle": "NBA Communications",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "nbc-sports-boston",
+      "entityTitle": "NBC Sports Boston",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "nfl-football-operations",
+      "entityTitle": "NFL Football Operations",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "nobel-prize",
+      "entityTitle": "Nobel Prize",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "south-african-history-online",
+      "entityTitle": "South African History Online",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "u-s-white-house",
+      "entityTitle": "U.S. White House",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "united-states-congress",
+      "entityTitle": "United States Congress",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "united-states-supreme-court",
+      "entityTitle": "United States Supreme Court",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "voluntary-carbon-markets-integrity-initiative",
+      "entityTitle": "Voluntary Carbon Markets Integrity Initiative",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "thinker-metadata",
+      "entityType": "thinker",
+      "entityId": "world-athletics",
+      "entityTitle": "World Athletics",
+      "field": "type",
+      "currentValue": "organization",
+      "reason": "Person-like name classified as organization.",
+      "suggestedFix": "Set type to person."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "international-football-association-board",
+      "entityTitle": "International Football Association Board",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'interpretation'.",
+      "suggestedFix": "Add 'interpretation' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "international-football-association-board",
+      "entityTitle": "International Football Association Board",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'judgment'.",
+      "suggestedFix": "Add 'judgment' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "international-football-association-board",
+      "entityTitle": "International Football Association Board",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'operational-finality'.",
+      "suggestedFix": "Add 'operational-finality' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "john-feinstein",
+      "entityTitle": "John Feinstein",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work john-feinstein-a-season-on-the-brink) Suggested concept: 'authority'.",
+      "suggestedFix": "Add 'authority' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "john-feinstein",
+      "entityTitle": "John Feinstein",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work john-feinstein-a-season-on-the-brink) Suggested concept: 'legitimacy'.",
+      "suggestedFix": "Add 'legitimacy' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "john-feinstein",
+      "entityTitle": "John Feinstein",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work john-feinstein-a-season-on-the-brink) Suggested concept: 'winning-as-excuse'.",
+      "suggestedFix": "Add 'winning-as-excuse' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "michael-lewis",
+      "entityTitle": "Michael Lewis",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work michael-lewis-moneyball-the-art-of-winning-an-unfair-game) Suggested concept: 'attention'.",
+      "suggestedFix": "Add 'attention' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "michael-lewis",
+      "entityTitle": "Michael Lewis",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work michael-lewis-moneyball-the-art-of-winning-an-unfair-game) Suggested concept: 'compression'.",
+      "suggestedFix": "Add 'compression' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "michael-lewis",
+      "entityTitle": "Michael Lewis",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work michael-lewis-moneyball-the-art-of-winning-an-unfair-game) Suggested concept: 'scoreboard-remainder'.",
+      "suggestedFix": "Add 'scoreboard-remainder' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "naomi-osaka",
+      "entityTitle": "Naomi Osaka",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work naomi-osaka-it-s-o-k-not-to-be-o-k) Suggested concept: 'agency'.",
+      "suggestedFix": "Add 'agency' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "naomi-osaka",
+      "entityTitle": "Naomi Osaka",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work naomi-osaka-it-s-o-k-not-to-be-o-k) Suggested concept: 'athletic-refusal'.",
+      "suggestedFix": "Add 'athletic-refusal' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "nbc-sports-boston",
+      "entityTitle": "NBC Sports Boston",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick) Suggested concept: 'accountability'.",
+      "suggestedFix": "Add 'accountability' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "nbc-sports-boston",
+      "entityTitle": "NBC Sports Boston",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick) Suggested concept: 'star-as-explanation'.",
+      "suggestedFix": "Add 'star-as-explanation' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "nfl",
+      "entityTitle": "NFL",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work nfl-concussion-protocol-return-to-participation-protocol-overview) Suggested concept: 'incentives'.",
+      "suggestedFix": "Add 'incentives' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "nfl",
+      "entityTitle": "NFL",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work nfl-concussion-protocol-return-to-participation-protocol-overview) Suggested concept: 'playing-hurt-moral-language'.",
+      "suggestedFix": "Add 'playing-hurt-moral-language' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "nfl-com",
+      "entityTitle": "NFL.com",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'authority'.",
+      "suggestedFix": "Add 'authority' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "nfl-com",
+      "entityTitle": "NFL.com",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'interpretation'.",
+      "suggestedFix": "Add 'interpretation' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "nfl-com",
+      "entityTitle": "NFL.com",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'operational-finality'.",
+      "suggestedFix": "Add 'operational-finality' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "steve-wyche",
+      "entityTitle": "Steve Wyche",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'athletic-refusal'.",
+      "suggestedFix": "Add 'athletic-refusal' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "steve-wyche",
+      "entityTitle": "Steve Wyche",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'gesture-afterlife'.",
+      "suggestedFix": "Add 'gesture-afterlife' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "steve-wyche",
+      "entityTitle": "Steve Wyche",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'meaning'.",
+      "suggestedFix": "Add 'meaning' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "united-states-anti-doping-agency",
+      "entityTitle": "United States Anti-Doping Agency",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work united-states-anti-doping-agency-reasoned-decision-of-the-united-states-anti-doping-agency-on-di) Suggested concept: 'accountability'.",
+      "suggestedFix": "Add 'accountability' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "united-states-anti-doping-agency",
+      "entityTitle": "United States Anti-Doping Agency",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work united-states-anti-doping-agency-reasoned-decision-of-the-united-states-anti-doping-agency-on-di) Suggested concept: 'legitimacy'.",
+      "suggestedFix": "Add 'legitimacy' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "united-states-anti-doping-agency",
+      "entityTitle": "United States Anti-Doping Agency",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work united-states-anti-doping-agency-reasoned-decision-of-the-united-states-anti-doping-agency-on-di) Suggested concept: 'winning-as-excuse'.",
+      "suggestedFix": "Add 'winning-as-excuse' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "will-graves",
+      "entityTitle": "Will Graves",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self) Suggested concept: 'agency'.",
+      "suggestedFix": "Add 'agency' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "will-graves",
+      "entityTitle": "Will Graves",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self) Suggested concept: 'athletic-refusal'.",
+      "suggestedFix": "Add 'athletic-refusal' to thinker concepts."
+    },
+    {
+      "severity": "warning",
+      "category": "concept-grounding",
+      "entityType": "thinker",
+      "entityId": "will-graves",
+      "entityTitle": "Will Graves",
+      "field": "concepts",
+      "currentValue": [],
+      "reason": "Linked work supports this concept but thinker.concepts omits it. (via work will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self) Suggested concept: 'playing-hurt-moral-language'.",
+      "suggestedFix": "Add 'playing-hurt-moral-language' to thinker concepts."
     },
     {
       "severity": "info",
@@ -960,17 +1751,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "admiration-becomes-insulation",
-      "entityTitle": "Admiration Becomes Insulation",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedSources",
@@ -988,17 +1768,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "attention-finds-a-focus",
-      "entityTitle": "Attention Finds a Focus",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1026,17 +1795,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-finds-a-signal",
-      "entityTitle": "Attention Finds a Signal",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "attention-restores-contact",
       "entityTitle": "Attention Restores Contact",
       "field": "relatedSources",
@@ -1054,17 +1812,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "attention-restores-contact",
-      "entityTitle": "Attention Restores Contact",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1092,17 +1839,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "blame-compresses-complexity",
-      "entityTitle": "Blame Compresses Complexity",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "correctness-hardens-into-identity",
       "entityTitle": "Correctness Hardens Into Identity",
       "field": "relatedSources",
@@ -1120,17 +1856,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "correctness-hardens-into-identity",
-      "entityTitle": "Correctness Hardens Into Identity",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1158,17 +1883,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "dissent-is-welcomed",
-      "entityTitle": "Dissent is Welcomed",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedSources",
@@ -1186,17 +1900,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "exceptions-are-forever",
-      "entityTitle": "Exceptions are Forever",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1224,17 +1927,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "explanation-replaces-response",
-      "entityTitle": "Explanation Replaces Response",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "feedback-drives-change",
       "entityTitle": "Feedback Drives Change",
       "field": "relatedSources",
@@ -1252,17 +1944,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "feedback-drives-change",
-      "entityTitle": "Feedback Drives Change",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1290,17 +1971,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "finality-compensates-for-uncertainty",
-      "entityTitle": "Finality Compensates for Uncertainty",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "intent-gets-assigned",
       "entityTitle": "Intent Gets Assigned",
       "field": "relatedSources",
@@ -1318,17 +1988,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "intent-gets-assigned",
-      "entityTitle": "Intent Gets Assigned",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1356,17 +2015,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "leadership-coalesces",
-      "entityTitle": "Leadership Coalesces",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "leadership-reproduces-itself",
       "entityTitle": "Leadership Reproduces Itself",
       "field": "relatedSources",
@@ -1384,17 +2032,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "leadership-reproduces-itself",
-      "entityTitle": "Leadership Reproduces Itself",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1422,17 +2059,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "learning-collapses",
-      "entityTitle": "Learning Collapses",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "meaning-outruns-the-words",
       "entityTitle": "Meaning Outruns the Words",
       "field": "relatedSources",
@@ -1450,17 +2076,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-outruns-the-words",
-      "entityTitle": "Meaning Outruns the Words",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1488,17 +2103,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "responsibility-persists-beyond-control",
-      "entityTitle": "Responsibility Persists Beyond Control",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "revisability-preserves-judgment",
       "entityTitle": "Revisability Preserves Judgment",
       "field": "relatedSources",
@@ -1516,17 +2120,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "revisability-preserves-judgment",
-      "entityTitle": "Revisability Preserves Judgment",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1554,17 +2147,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "scrutiny-preserves-trust",
-      "entityTitle": "Scrutiny Preserves Trust",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedSources",
@@ -1582,17 +2164,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "speech-escalates-faster-than-meaning",
-      "entityTitle": "Speech Escalates Faster Than Meaning",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1623,9 +2194,9 @@
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "leadership-coalesces",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'leadership-coalesces'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -1634,9 +2205,9 @@
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'leadership-coalesces'."
     },
     {
       "severity": "info",
@@ -1777,9 +2348,9 @@
       "entityId": "dissent-is-welcomed",
       "entityTitle": "Dissent is Welcomed",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -1788,9 +2359,9 @@
       "entityId": "dissent-is-welcomed",
       "entityTitle": "Dissent is Welcomed",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'dissent-is-welcomed' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -1865,17 +2436,6 @@
       "entityId": "feedback-drives-change",
       "entityTitle": "Feedback Drives Change",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'dissent-is-welcomed'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "feedback-drives-change",
-      "entityTitle": "Feedback Drives Change",
-      "field": "relatedPatterns",
       "currentValue": "leaders-feel-the-consequences",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'leaders-feel-the-consequences'."
@@ -1884,12 +2444,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "finality-compensates-for-uncertainty",
-      "entityTitle": "Finality Compensates for Uncertainty",
+      "entityId": "feedback-drives-change",
+      "entityTitle": "Feedback Drives Change",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'correctness-hardens-into-identity'."
+      "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -1901,6 +2461,17 @@
       "currentValue": "speech-escalates-faster-than-meaning",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'speech-escalates-faster-than-meaning'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "finality-compensates-for-uncertainty",
+      "entityTitle": "Finality Compensates for Uncertainty",
+      "field": "relatedPatterns",
+      "currentValue": "correctness-hardens-into-identity",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -1931,9 +2502,9 @@
       "entityId": "intent-gets-assigned",
       "entityTitle": "Intent Gets Assigned",
       "field": "relatedPatterns",
-      "currentValue": "gaps-invite-completion",
+      "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'gaps-invite-completion'."
+      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'meaning-gets-distorted'."
     },
     {
       "severity": "info",
@@ -1942,9 +2513,9 @@
       "entityId": "intent-gets-assigned",
       "entityTitle": "Intent Gets Assigned",
       "field": "relatedPatterns",
-      "currentValue": "meaning-gets-distorted",
+      "currentValue": "gaps-invite-completion",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'meaning-gets-distorted'."
+      "suggestedFix": "Consider adding 'intent-gets-assigned' to relatedPatterns on 'gaps-invite-completion'."
     },
     {
       "severity": "info",
@@ -1997,9 +2568,9 @@
       "entityId": "leadership-reproduces-itself",
       "entityTitle": "Leadership Reproduces Itself",
       "field": "relatedPatterns",
-      "currentValue": "leadership-coalesces",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'leadership-coalesces'."
+      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -2008,9 +2579,9 @@
       "entityId": "leadership-reproduces-itself",
       "entityTitle": "Leadership Reproduces Itself",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'leadership-coalesces'."
     },
     {
       "severity": "info",
@@ -2041,9 +2612,9 @@
       "entityId": "meaning-drifts-over-time",
       "entityTitle": "Meaning Drifts Over Time",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
+      "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-reinforces-itself'."
+      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
     },
     {
       "severity": "info",
@@ -2052,9 +2623,9 @@
       "entityId": "meaning-drifts-over-time",
       "entityTitle": "Meaning Drifts Over Time",
       "field": "relatedPatterns",
-      "currentValue": "meaning-outruns-the-words",
+      "currentValue": "meaning-reinforces-itself",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
+      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -2085,9 +2656,9 @@
       "entityId": "meaning-gets-distorted",
       "entityTitle": "Meaning Gets Distorted",
       "field": "relatedPatterns",
-      "currentValue": "intent-gets-assigned",
+      "currentValue": "meaning-reinforces-itself",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -2096,9 +2667,9 @@
       "entityId": "meaning-gets-distorted",
       "entityTitle": "Meaning Gets Distorted",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
+      "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
     },
     {
       "severity": "info",
@@ -2195,9 +2766,9 @@
       "entityId": "revisability-preserves-judgment",
       "entityTitle": "Revisability Preserves Judgment",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
+      "currentValue": "finality-compensates-for-uncertainty",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
+      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "info",
@@ -2206,9 +2777,9 @@
       "entityId": "revisability-preserves-judgment",
       "entityTitle": "Revisability Preserves Judgment",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
+      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -2253,133 +2824,6 @@
       "currentValue": "explanation-replaces-response",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'speech-escalates-faster-than-meaning' to relatedPatterns on 'explanation-replaces-response'."
-    },
-    {
-      "severity": "info",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "before-certainty-arrives",
-      "entityTitle": "Before Certainty Arrives",
-      "field": "concepts",
-      "currentValue": 43,
-      "reason": "Book has unusually many concepts compared to peers.",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "coupling",
-      "entityTitle": "Coupling",
-      "field": "concepts",
-      "currentValue": 40,
-      "reason": "Book has unusually many concepts compared to peers.",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "boundary-conditions",
-      "entityTitle": "Boundary Conditions",
-      "field": "sources",
-      "currentValue": [],
-      "reason": "Published book has no sources while peers typically do.",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "curiosity-before-certainty",
-      "entityTitle": "Curiosity Before Certainty",
-      "field": "sources",
-      "currentValue": [],
-      "reason": "Published book has no sources while peers typically do.",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "everyone-knows-love",
-      "entityTitle": "Everyone Knows Love",
-      "field": "sources",
-      "currentValue": [],
-      "reason": "Published book has no sources while peers typically do.",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "observer-patterns",
-      "entityTitle": "Observer Patterns",
-      "field": "sources",
-      "currentValue": [],
-      "reason": "Published book has no sources while peers typically do.",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "the-relay",
-      "entityTitle": "The Relay",
-      "field": "sources",
-      "currentValue": [],
-      "reason": "Published book has no sources while peers typically do.",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "velorum",
-      "entityTitle": "Velorum",
-      "field": "sources",
-      "currentValue": [],
-      "reason": "Published book has no sources while peers typically do.",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "book-metadata",
-      "entityType": "book",
-      "entityId": "why-diversity-matters",
-      "entityTitle": "Why Diversity Matters",
-      "field": "sources",
-      "currentValue": [],
-      "reason": "Published book has no sources while peers typically do.",
-      "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "manifest-consistency",
-      "entityType": "manifest",
-      "entityId": "semantic",
-      "entityTitle": "semantic",
-      "field": "generatedAt",
-      "currentValue": {
-        "build": "2026-07-07T05:33:46.054047+00:00",
-        "snapshot": "2026-07-05T21:49:00.134567+00:00"
-      },
-      "reason": "Portfolio audit snapshot appears older than build manifest.",
-      "suggestedFix": "Regenerate docs/portfolio-audit/data/* per docs/portfolio-audit/data/README.md."
-    },
-    {
-      "severity": "info",
-      "category": "manifest-consistency",
-      "entityType": "manifest",
-      "entityId": "books",
-      "entityTitle": "books",
-      "field": "generatedAt",
-      "currentValue": {
-        "build": "2026-07-07T04:55:10.221836+00:00",
-        "snapshot": "2026-07-05T21:54:21.267730+00:00"
-      },
-      "reason": "Portfolio audit snapshot appears older than build manifest.",
-      "suggestedFix": "Regenerate docs/portfolio-audit/data/* per docs/portfolio-audit/data/README.md."
     },
     {
       "severity": "info",
@@ -3254,12 +3698,12 @@
       "severity": "warning",
       "category": "slug-quality",
       "entityType": "thinker",
-      "entityId": "hal-daum-iii",
-      "entityTitle": "Hal Daum\u00e9 III",
+      "entityId": "beno-t-monin",
+      "entityTitle": "Beno\u00eet Monin",
       "field": "slug",
-      "currentValue": "hal-daum-iii",
+      "currentValue": "beno-t-monin",
       "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'hal-daume-iii'."
+      "suggestedFix": "Use transliterated slug 'benoit-monin'."
     }
   ],
   "relationshipVocabulary": [

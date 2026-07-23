@@ -1,23 +1,413 @@
 version: 1
 chapters:
+  - sourcePath: front-matter/introduction-the-switch.md
+    summary: >
+      A light switch offers binary clarity—on or off—without explaining the light, the window, or
+      who can reach the wall. Public life offers similar switches: votes, rulings, walkouts, signatures
+      that are genuinely binary while the situation that produced them is not. The introduction opens
+      history as shared action under unequal leverage, not only heroes or impersonal forces.
+    centralQuestion: What does a binary public decision leave unfinished about how the world was made?
+    selectedConcepts:
+      - agency
+      - asymmetry
+      - authority
+      - coordination
+      - legitimacy
+    selectedPatterns:
+      - leadership-coalesces
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - the switch
+      - binary decision incomplete meaning
+      - shared action under unequal power
+    readingTransition: >
+      From the switch’s incomplete clarity into Part I—who appears in history’s frame, and who built
+      the path.
+
+  - sourcePath: parts/part-1-who-makes-history/bridge.md
+    summary: >
+      Part I opens under the heading “Who Makes History?”—a short threshold into the photograph, the
+      door, and the clock as ways of seeing collective events without collapsing them into solitary
+      authorship or impersonal force alone.
+    centralQuestion: Who becomes visible as history’s maker—and what does that visibility hide?
+    selectedConcepts:
+      - agency
+      - formation
+      - asymmetry
+    selectedPatterns:
+      - leadership-coalesces
+      - gaps-invite-completion
+    searchAliases:
+      - who makes history
+      - part one bridge
+    transition:
+      fromPrevious: The introduction used the switch to separate binary outcomes from incomplete meaning.
+      toNext: Chapter 1 crops a photograph until a person becomes the event.
+
+  - sourcePath: parts/part-1-who-makes-history/chapter-1-the-photograph.md
+    summary: >
+      Cropping a phone photo improves the picture by removing room, table, and surrounding hands—until
+      the centered face looks solitary and self-authored. History performs a similar crop: collective
+      events compress around visible individuals. Undoing the crop restores context without completing
+      the image; the frame still cannot show the institutions and permissions that made the moment
+      possible.
+    centralQuestion: What does history’s crop hide when a person becomes the whole event?
+    selectedConcepts:
+      - agency
+      - attention
+      - witness
+      - formation
+      - asymmetry
+    selectedPatterns:
+      - gaps-invite-completion
+      - intent-gets-assigned
+      - leadership-coalesces
+    searchAliases:
+      - the photograph
+      - cropping history
+      - hero crop
+    situations:
+      - photograph-hides-surrounding-action
+    transition:
+      fromPrevious: Part I asked who makes history.
+      toNext: From the cropped face into the door—structures that organize which crossings are possible.
+
+  - sourcePath: parts/part-1-who-makes-history/chapter-2-the-door.md
+    summary: >
+      Holding a door open creates an unplanned arrangement of pressure, gratitude, and timing; doors
+      look passive while carrying earlier decisions about width, lock, facing, and who must ask.
+      Historical thresholds—desegregation entrances among them—make action possible without revealing
+      what crossing will become. Structure shapes available choices long before anyone stands at the
+      threshold.
+    centralQuestion: How do inherited structures shape which actions are possible, costly, or nearly unthinkable?
+    selectedConcepts:
+      - structure
+      - boundary
+      - permission
+      - agency
+      - constraints
+    selectedPatterns:
+      - exceptions-are-forever
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - the door
+      - holding the door
+      - threshold and structure
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: The photograph showed how collective events crop around faces.
+      toNext: From architectural thresholds into the clock—uncertainty before outcomes are known.
+
+  - sourcePath: parts/part-1-who-makes-history/chapter-3-the-clock.md
+    summary: >
+      A clock tells when a decision must be made without saying what it should be; afterward, time
+      looks as if it had been counting toward the outcome. Inside the Challenger teleconference hour,
+      incomplete information becomes social, and attention gathers toward whoever will explain the
+      moment for everyone else. Power often enters as orientation under time pressure.
+    centralQuestion: How does time pressure turn incomplete information into concentrated interpretation?
+    selectedConcepts:
+      - uncertainty
+      - authority
+      - attention
+      - judgment
+      - coordination
+    selectedPatterns:
+      - leadership-coalesces
+      - intent-gets-assigned
+      - meaning-shifts-under-pressure
+    searchAliases:
+      - the clock
+      - challenger teleconference
+      - waiting room power
+    situations:
+      - pressure-accelerates-interpretation
+    transition:
+      fromPrevious: The door showed inherited structures organizing action.
+      toNext: Part II asks where power gathers when rooms look for orientation.
+
+  - sourcePath: parts/part-2-where-power-gathers/bridge.md
+    summary: >
+      When something unexpected happens, people look toward a particular chair—title, experience,
+      confidence, or first movement—and ordinary behavior acquires unusual consequence. Leadership
+      enters through asymmetry of attention; the democratic tension is needing coordination without
+      mistaking concentrated leverage for superior humanity.
+    centralQuestion: How does the need for orientation quietly become a theory of superior people?
+    selectedConcepts:
+      - authority
+      - attention
+      - asymmetry
+      - agency
+      - legitimacy
+    selectedPatterns:
+      - leadership-coalesces
+      - leadership-reproduces-itself
+    searchAliases:
+      - where power gathers
+      - looking toward the chair
+    transition:
+      fromPrevious: The clock showed attention gathering under incomplete time.
+      toNext: Chapter 4 begins with an empty chair that organizes the room before anyone sits.
+
+  - sourcePath: parts/part-2-where-power-gathers/chapter-4-the-chair.md
+    summary: >
+      An empty chair organizes seats, postpones hard questions, and turns sighs and glances into
+      judgments once occupied—not because the wood is special, but because relationships concentrate
+      attention there. Through Newburgh and related scenes, leadership appears as magnified ordinary
+      capacities; judgments harden into rules, fears into permission boundaries, preferences into
+      metrics. The chair becomes a system.
+    centralQuestion: What happens when one person’s interpretation becomes the condition under which many must act?
+    selectedConcepts:
+      - authority
+      - attention
+      - legitimacy
+      - responsibility
+      - agency
+    selectedPatterns:
+      - leadership-coalesces
+      - leadership-reproduces-itself
+      - leaders-feel-the-consequences
+    searchAliases:
+      - the chair
+      - empty chair organizes the room
+      - newburgh address
+    situations:
+      - leadership-reproduces-under-pressure
+      - leaders-judged-beyond-their-reach
+    transition:
+      fromPrevious: Part II named power gathering through attention.
+      toNext: From the chair’s concentrated judgment into the clipboard that teaches what people are like.
+
+  - sourcePath: parts/part-2-where-power-gathers/chapter-5-the-clipboard.md
+    summary: >
+      A clipboard records pauses and output while changing how people stand; observation reshapes
+      behavior that then returns as evidence about human nature. Managerial assumptions—Theory X and
+      Y, NUMMI among the cases—build categories and controls that produce the conduct they claim to
+      discover. When the pattern expands into public life, theories of workers become theories of
+      citizens.
+    centralQuestion: How do institutions teach the behavior they later treat as proof of what people are like?
+    selectedConcepts:
+      - bureaucracy
+      - incentives
+      - legibility
+      - authority
+      - feedback
+    selectedPatterns:
+      - feedback-drives-change
+      - meaning-reinforces-itself
+      - learning-collapses
+    searchAliases:
+      - the clipboard
+      - observation changes behavior
+      - theory x theory y
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: The chair had turned one person’s judgment into a system.
+      toNext: From managerial theories of people into the ballot’s claim of equal standing.
+
+  - sourcePath: parts/part-2-where-power-gathers/chapter-6-the-ballot.md
+    summary: >
+      A ballot compresses months of argument into an equal mark—wealthy and precarious, expert and
+      first-time voter counted the same—not because every judgment is equally wise, but because no
+      one’s status entitles them to count as more human when choosing who may govern. South Africa’s
+      1994 lines make the claim vivid; outside the booth, inequalities return. The equal mark does not
+      finish shared power; it establishes why the work must be shared.
+    centralQuestion: What does equal standing at the ballot leave unfinished about shared power afterward?
+    selectedConcepts:
+      - legitimacy
+      - fairness
+      - agency
+      - asymmetry
+      - democratic-procedures-can-persist-while-shared-meaning-erodes
+    selectedPatterns:
+      - dissent-is-welcomed
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - the ballot
+      - equal mark unequal world
+      - south africa 1994 queues
+    situations:
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: The clipboard had turned institutional assumptions into evidence about citizens.
+      toNext: Part III asks what shared power requires across boundaries the ballot does not erase.
+
+  - sourcePath: parts/part-3-what-shared-power-requires/bridge.md
+    summary: >
+      Formal equality at the ballot cannot make differences of geography, history, wealth, and risk
+      harmless. Shared power requires meeting across boundaries without pretending they are imaginary—
+      trust that risks action before certainty, and care that keeps another life morally present beyond
+      immediate exchange—without dissolving every conflict into dialogue.
+    centralQuestion: What does shared power require beyond equal procedure?
+    selectedConcepts:
+      - boundary
+      - trust
+      - care
+      - reciprocity
+      - fairness
+    selectedPatterns:
+      - scrutiny-preserves-trust
+      - contact-keeps-the-read-open
+    searchAliases:
+      - what shared power requires
+      - across boundaries
+    transition:
+      fromPrevious: The ballot established equal standing without finishing shared power.
+      toNext: Chapter 7 begins where a fence fails to be complete and a ball rolls through.
+
+  - sourcePath: parts/part-3-what-shared-power-requires/chapter-7-the-fence.md
+    summary: >
+      A fence organizes separation without revealing what the separation means; a ball through a gap
+      forces a relationship at the boundary. Borders, roles, and traditions become moral through what
+      they protect, exclude, and who controls the crossing. The Good Friday Agreement models
+      cooperation that redesigns relationship so identities need not vanish—shared power that does not
+      promise an end to disagreement.
+    centralQuestion: How can people remain in relationship across differences they cannot erase?
+    selectedConcepts:
+      - boundary
+      - trust
+      - reciprocity
+      - repair
+      - legitimacy
+    selectedPatterns:
+      - scrutiny-preserves-trust
+      - contact-keeps-the-read-open
+      - dissent-is-welcomed
+    searchAliases:
+      - the fence
+      - ball through the gap
+      - good friday agreement
+    situations:
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: Part III framed meeting across real boundaries.
+      toNext: From trust across the fence into the bowl—care that moves through hands no one fully controls.
+
+  - sourcePath: parts/part-3-what-shared-power-requires/chapter-8-the-bowl.md
+    summary: >
+      A serving bowl makes shared life visible through take, leave, offer, wait, and notice—dependence
+      without abolishing uneven labor or scarcity. Trust and love do different work; the bowl shows
+      that none of us lives entirely from what we made alone. Love begins when interdependence stops
+      being treated as someone else’s burden to manage.
+    centralQuestion: What does it mean to pass what others need without keeping complete control of it?
+    selectedConcepts:
+      - care
+      - reciprocity
+      - shared-contribution
+      - moral-density
+      - asymmetry
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - attention-restores-contact
+    searchAliases:
+      - the bowl
+      - passing the serving bowl
+      - langar and shared meal
+    transition:
+      fromPrevious: The fence showed trust changing what a boundary means.
+      toNext: Part IV turns from shared requirements toward power-over versus power-with.
+
+  - sourcePath: parts/part-4-from-power-over-to-power-with/bridge.md
+    summary: >
+      A scale teaches comparison through opposition—more for one, less for another—and fits many real
+      conflicts, yet becomes dangerous when power is imagined only as control over someone else.
+      Power-with is capacity created through relationship: knowledge across roles, affected people
+      defining problems, authority answerable to consequences—without pretending collaboration erases
+      unequal leverage or bad faith.
+    centralQuestion: Can power become something created through relationship rather than only held over others?
+    selectedConcepts:
+      - agency
+      - authority
+      - coordination
+      - asymmetry
+      - legitimacy
+    selectedPatterns:
+      - leadership-coalesces
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - from power-over to power-with
+      - scale versus shared creation
+    transition:
+      fromPrevious: The bowl showed care moving through shared hands.
+      toNext: Chapter 9 treats the scale as a model of power that compares without interpreting.
+
+  - sourcePath: parts/part-4-from-power-over-to-power-with/chapter-9-the-scale.md
+    summary: >
+      A scale reveals imbalance without explaining how weight arrived, and as a model of power it
+      makes every gain look like someone’s loss. Pullman and related labor conflicts show domination
+      that can appear efficient or even benevolent while replacing others’ agency. The instrument
+      compares what is already on the table; seeing beyond it requires looking outward—toward a window.
+    centralQuestion: What does power-as-weight cost the people whose agency it replaces?
+    selectedConcepts:
+      - asymmetry
+      - authority
+      - coercion
+      - agency
+      - total-authority
+    selectedPatterns:
+      - leaders-feel-the-consequences
+      - blame-compresses-complexity
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - the scale
+      - power as zero-sum weight
+      - pullman strike
+    situations:
+      - leaders-judged-beyond-their-reach
+    transition:
+      fromPrevious: Part IV distinguished power-over from power created with others.
+      toNext: From the scale’s closed comparison into the window as power-with.
+
   - sourcePath: parts/part-4-from-power-over-to-power-with/chapter-10-the-window.md
     summary: >
       A window enlarges perspective without making it complete. Shared power is framed as
       power-with—an opening between walls—where unequal vantage points must alter what others
-      can understand and do.
+      can understand and do. Institutions often mistake their own reflection for the outside world;
+      correction begins by noticing the glass.
     centralQuestion: How can shared power hold unequal windows of perspective without erasing them?
     selectedConcepts:
       - agency
       - asymmetry
       - authority
       - legitimacy
+      - finite-perspective
     selectedPatterns:
       - responsibility-persists-beyond-control
       - leadership-coalesces
+      - contact-keeps-the-read-open
     searchAliases:
       - power-with
+      - the window
       - ordinary people making history
+      - ella baker group-centered leadership
     situations:
       - photograph-hides-surrounding-action
+    transition:
+      fromPrevious: The scale compared weight without revealing what lay beyond the table.
+      toNext: The conclusion gathers the objects around a table no one person completely owns.
+
+  - sourcePath: back-matter/conclusion-the-table.md
+    summary: >
+      A table is assembled through disagreement, adjustment, and a folded paper under a short leg—
+      then begins to look like furniture that was always there. Institutions follow the same path from
+      arrangement to apparent reality. Shared power does not promise innocence or agreement; it asks
+      that no person’s power make everyone else disappear, while the switch above the table still
+      fails to explain the light.
+    centralQuestion: How do we hold disagreement inside a shared arrangement no one person completely owns?
+    selectedConcepts:
+      - agency
+      - coordination
+      - legitimacy
+      - responsibility
+      - shared-contribution
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - leadership-coalesces
+      - contact-keeps-the-read-open
+    searchAliases:
+      - the table
+      - assembling the table
+      - shared world as arrangement
     readingTransition: >
-      From power-as-scale into power-with as an opening that selects without claiming completeness.
+      Closes the object sequence—from switch to table—without claiming the work of shared power is finished.

@@ -32,6 +32,44 @@ book:
     - integration
     - interpretation
     - answerability
+    selectedPatterns:
+    - attention-finds-a-signal
+    - gaps-invite-completion
+    - revisability-preserves-judgment
+    selectedConceptRoles:
+    - conceptId: finite-perspective
+      roleInWork: >
+        Opening claim: every view is built from somewhere and never exhaustive—ground for bias,
+        judgment, and integration without relativism.
+    - conceptId: bias
+      roleInWork: >
+        Recasts selective attention as the condition that makes finite seeing possible—universal, not
+        only bad faith.
+    - conceptId: integration
+      roleInWork: >
+        Names group work of combining partial views into a response none alone could hold—without
+        dissolving individual answerability.
+    - conceptId: interpretation
+      roleInWork: >
+        Shows how stories and structures fill what attention cannot hold—partial information
+        reconstructed as meaning.
+    - conceptId: answerability
+      roleInWork: >
+        Keeps responsible judgment after limits are admitted: obligation to those affected by decisions
+        made from incomplete sight.
+    selectedPatternRoles:
+    - patternId: attention-finds-a-signal
+      roleInWork: >
+        Introduces the attention budget: what stands out first shapes what can be noticed next—bias as
+        selective availability.
+    - patternId: gaps-invite-completion
+      roleInWork: >
+        Applies how missing perspective rarely stays open—inherited stories and structures rush to fill
+        what we cannot see.
+    - patternId: revisability-preserves-judgment
+      roleInWork: >
+        Deepens deciding without certainty: judgment stays responsible only while it can still be
+        updated by other eyes.
     readBefore:
     - curiosity-before-certainty
     readNext:

@@ -25,9 +25,59 @@ book:
     nonGoals:
     - It does not offer a clinical or theological definition of love.
     - It does not replace the project’s civic and systems volumes.
+    selectedConcepts:
+    - care
+    - connection
+    - interpretation
+    - reciprocity
+    - trust
+    - contact
+    selectedPatterns:
+    - meaning-forms-early
+    - contact-keeps-the-read-open
+    - gaps-invite-completion
+    - attention-restores-contact
+    selectedConceptRoles:
+    - conceptId: care
+      roleInWork: Lived obligation and sustained attentiveness—what people recognize as love before formula arrives; not a moral slogan.
+    - conceptId: connection
+      roleInWork: Reachability with consequence across romance, family, friendship, and community—relationship that outlasts a single exchange.
+    - conceptId: interpretation
+      roleInWork: Why recognition precedes explanation; love as something lived and read before it can be defined.
+    - conceptId: reciprocity
+      roleInWork: Mutual exposure and answerability that deepen when care is practiced over time.
+    - conceptId: trust
+      roleInWork: Participation that becomes possible under incomplete understanding of another person.
+    - conceptId: contact
+      roleInWork: Staying close to what was said and done—seeing, staying, repairing—without rushing to closure.
+    selectedPatternRoles:
+    - patternId: meaning-forms-early
+      roleInWork: Recognition settles before language finishes; love is known in the body of the relation before it is explained.
+    - patternId: contact-keeps-the-read-open
+      roleInWork: Return and repair keep interpretation revisable inside ongoing relationship.
+    - patternId: gaps-invite-completion
+      roleInWork: The urge to finish the mystery with a definition; the book holds the gap as lived experience.
+    - patternId: attention-restores-contact
+      roleInWork: Seeing and staying restore particular persons where abstraction would flatten love into claim.
     readNext:
     - how-meaning-moves
     - after-certainty
+    relatedWorks:
+    - workId: how-meaning-moves
+      relationship: companion_to
+      reason: Intimate recognition of care pairs with how meaning forms, hardens, and stays revisable in ordinary talk.
+    - workId: how-trust-forms
+      relationship: companion_to
+      reason: Trust that makes participation possible under uncertainty deepens what love practices across difference and time.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Care without guarantees opens into judgment and responsibility when understanding is not enough.
+    - workId: curiosity-before-certainty
+      relationship: companion_to
+      reason: Inquiry posture toward incomplete explanation meets love as recognition that resists formula.
+    - workId: observer-patterns
+      relationship: companion_to
+      reason: Pattern-poetry of attention and voluntary inconvenience accompanies the prose inquiry into care.
 paths:
   manuscript: ./index.md
   output: .

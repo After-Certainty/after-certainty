@@ -1,6 +1,12 @@
 # Semantic completeness report
 
-Generated: `2026-07-23T01:41:31.272445+00:00`
+Generated: `2026-07-23T05:09:14.482755+00:00`
+
+## Manifest provenance
+
+- schemaVersion: `2.3`
+- sourceCommit: `a6ed779e093db60e957a1dc1fec1b15ba56fb336`
+- manifest generatedAt: `2026-07-23T05:09:00.671609+00:00`
 
 Public canonical works evaluated: **32**
 
@@ -100,6 +106,36 @@ _None._
 - `why-collaboration-is-so-hard`
 - `why-diversity-matters`
 
+### Books with partial chapter summary coverage
+
+- `before-certainty-arrives`
+- `boundary-conditions`
+- `coupling`
+- `curiosity-before-certainty`
+- `everyone-knows-love`
+- `how-meaning-moves`
+- `how-serious-systems-learn`
+- `how-trust-forms`
+- `living-in-sediment`
+- `observer-patterns`
+- `the-discipline-of-uncertainty`
+- `the-economy-we-dont-experience`
+- `the-relay`
+- `trust-beyond-similarity`
+- `velorum`
+- `what-we-cannot-see`
+- `when-accountability-no-longer-expires`
+- `when-authority-is-misread`
+- `when-authority-outlives-accountability`
+- `when-incentives-become-the-moral-language`
+- `when-interpretation-no-longer-matters`
+- `when-moral-seriousness-scales`
+- `when-others-become-leaders`
+- `when-others-look-to-you-v1`
+- `when-others-look-to-you-v2`
+- `when-trust-stops-tracking-reality`
+- `why-diversity-matters`
+
 ### Books orphaned from discovery features
 
 _None._
@@ -136,9 +172,9 @@ _None._
 | `publicChangeEvent` | `complete` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `before-certainty-arrives` (nonfiction, contentType=`nonfiction`)
 
@@ -172,7 +208,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `boundary-conditions` (fiction, contentType=`fiction`)
 
@@ -238,9 +274,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `curiosity-before-certainty` (nonfiction, contentType=`nonfiction`)
 
@@ -261,10 +297,10 @@ _None._
 | `whyItExists` | `complete` |
 | `audience` | `complete` |
 | `nonGoals` | `complete` |
-| `selectedConcepts` | `missing` |
-| `selectedPatterns` | `missing` |
+| `selectedConcepts` | `complete` |
+| `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
-| `typedWorkRelationships` | `missing` |
+| `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
@@ -273,7 +309,7 @@ _None._
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
-| `situationCoverage` | `missing` |
+| `situationCoverage` | `complete` |
 | `selectedThinkersOrSources` | `not-applicable` |
 
 ### `everyone-knows-love` (nonfiction, contentType=`nonfiction`)
@@ -295,10 +331,10 @@ _None._
 | `whyItExists` | `complete` |
 | `audience` | `complete` |
 | `nonGoals` | `complete` |
-| `selectedConcepts` | `missing` |
-| `selectedPatterns` | `missing` |
+| `selectedConcepts` | `complete` |
+| `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
-| `typedWorkRelationships` | `missing` |
+| `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
@@ -307,7 +343,7 @@ _None._
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
-| `situationCoverage` | `missing` |
+| `situationCoverage` | `complete` |
 | `selectedThinkersOrSources` | `not-applicable` |
 
 ### `how-meaning-moves` (nonfiction, contentType=`nonfiction`)
@@ -340,9 +376,9 @@ _None._
 | `publicChangeEvent` | `complete` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `how-serious-systems-learn` (handbook, contentType=`handbook`)
 
@@ -364,9 +400,9 @@ _None._
 | `audience` | `complete` |
 | `nonGoals` | `complete` |
 | `selectedConcepts` | `complete` |
-| `selectedPatterns` | `missing` |
+| `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
-| `typedWorkRelationships` | `missing` |
+| `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
@@ -374,9 +410,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
-| `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `chapterSummaries` | `complete` |
+| `situationCoverage` | `complete` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `how-trust-forms` (nonfiction, contentType=`nonfiction`)
 
@@ -408,9 +444,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `learning-to-see` (nonfiction, contentType=`nonfiction`)
 
@@ -442,9 +478,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `living-in-sediment` (nonfiction, contentType=`nonfiction`)
 
@@ -476,9 +512,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `observer-patterns` (poetry, contentType=`poetry`)
 
@@ -546,7 +582,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `the-economy-we-dont-experience` (nonfiction, contentType=`nonfiction`)
 
@@ -580,7 +616,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `the-game-we-think-we-saw` (nonfiction, contentType=`nonfiction`)
 
@@ -612,9 +648,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `the-relay` (fiction, contentType=`fiction`)
 
@@ -635,10 +671,10 @@ _None._
 | `whyItExists` | `complete` |
 | `audience` | `complete` |
 | `nonGoals` | `complete` |
-| `selectedConcepts` | `missing` |
-| `selectedPatterns` | `missing` |
+| `selectedConcepts` | `complete` |
+| `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
-| `typedWorkRelationships` | `missing` |
+| `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
 | `questionCoverage` | `missing` |
 | `trailCoverage` | `complete` |
@@ -647,7 +683,7 @@ _None._
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
-| `situationCoverage` | `missing` |
+| `situationCoverage` | `complete` |
 | `selectedThinkersOrSources` | `not-applicable` |
 
 ### `the-world-we-make-together` (nonfiction, contentType=`nonfiction`)
@@ -680,7 +716,7 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
 | `selectedThinkersOrSources` | `not-applicable` |
 
@@ -704,7 +740,7 @@ _None._
 | `audience` | `complete` |
 | `nonGoals` | `complete` |
 | `selectedConcepts` | `complete` |
-| `selectedPatterns` | `missing` |
+| `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
 | `searchAliases` | `complete` |
@@ -714,9 +750,9 @@ _None._
 | `publicChangeEvent` | `complete` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `velorum` (fiction, contentType=`fiction`)
 
@@ -772,7 +808,7 @@ _None._
 | `audience` | `complete` |
 | `nonGoals` | `complete` |
 | `selectedConcepts` | `complete` |
-| `selectedPatterns` | `missing` |
+| `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `missing` |
 | `searchAliases` | `complete` |
@@ -784,7 +820,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-accountability-no-longer-expires` (nonfiction, contentType=`nonfiction`)
 
@@ -816,9 +852,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-authority-is-misread` (nonfiction, contentType=`nonfiction`)
 
@@ -850,9 +886,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-authority-outlives-accountability` (nonfiction, contentType=`nonfiction`)
 
@@ -884,9 +920,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-incentives-become-the-moral-language` (nonfiction, contentType=`nonfiction`)
 
@@ -920,7 +956,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-interpretation-no-longer-matters` (nonfiction, contentType=`nonfiction`)
 
@@ -954,7 +990,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-moral-seriousness-scales` (nonfiction, contentType=`nonfiction`)
 
@@ -976,7 +1012,7 @@ _None._
 | `audience` | `complete` |
 | `nonGoals` | `complete` |
 | `selectedConcepts` | `complete` |
-| `selectedPatterns` | `missing` |
+| `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
@@ -987,8 +1023,8 @@ _None._
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
-| `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `situationCoverage` | `complete` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-others-become-leaders` (nonfiction, contentType=`nonfiction`)
 
@@ -1022,7 +1058,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-others-look-to-you-v1` (nonfiction, contentType=`nonfiction`)
 
@@ -1056,7 +1092,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-others-look-to-you-v2` (nonfiction, contentType=`nonfiction`)
 
@@ -1090,7 +1126,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `missing` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `when-trust-stops-tracking-reality` (nonfiction, contentType=`nonfiction`)
 
@@ -1122,9 +1158,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `why-collaboration-is-so-hard` (nonfiction, contentType=`nonfiction`)
 
@@ -1156,9 +1192,9 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `missing` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `why-diversity-matters` (nonfiction, contentType=`nonfiction`)
 
@@ -1190,7 +1226,7 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
 | `selectedThinkersOrSources` | `not-applicable` |
 

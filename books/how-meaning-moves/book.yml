@@ -36,12 +36,42 @@ book:
     - meaning-drifts-over-time
     - contact-keeps-the-read-open
     - intent-gets-assigned
+    selectedConceptRoles:
+    - conceptId: connection
+      roleInWork: >
+        Through-line across Signal, Compression, and Restraint: relationship that persists after
+        conversation—reachability with consequence.
+    - conceptId: contact
+      roleInWork: >
+        Keeps interpretation close to what was said, including uncertainty—so meaning can move without
+        premature closure.
+    - conceptId: interpretation
+      roleInWork: >
+        Central craft: reconstructing meaning under partial information while sentences still feel open.
+    - conceptId: contestability
+      roleInWork: >
+        Preserves room to challenge a reading before it hardens—restraint as discipline, not indecision.
+    - conceptId: correction
+      roleInWork: >
+        Names revisability when mismatch appears; how meaning stays accountable to reality-contact.
+    selectedPatternRoles:
+    - patternId: meaning-drifts-over-time
+      roleInWork: >
+        Introduces slow change in interpretation as memory and repetition accumulate—core motion of the
+        book.
+    - patternId: contact-keeps-the-read-open
+      roleInWork: >
+        Applies restraint: more context can sharpen without forcing final resolution too soon.
+    - patternId: intent-gets-assigned
+      roleInWork: >
+        Shows compression under social pressure: motive is inferred before certainty is possible.
     readBefore:
     - curiosity-before-certainty
     readNext:
     - what-we-cannot-see
     - trust-beyond-similarity
   publication_date: '2026-04-01'
+  edition_published_at: '2026-04-01'
 paths:
   manuscript: ./index.md
   output: .

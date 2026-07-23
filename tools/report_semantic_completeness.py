@@ -406,6 +406,8 @@ def build_report(repo: Path, *, manifest: dict | None = None) -> dict:
                 for line in text.splitlines()
             )
         has_chapter_summaries = any(str(c.get("summary") or "").strip() for c in chs)
+        summaries_present = sum(1 for c in chs if str(c.get("summary") or "").strip())
+        chapter_count = len(chs)
         curated_concepts = bool(overview and (overview.get("selectedConcepts") or []))
         curated_patterns = bool(overview and (overview.get("selectedPatterns") or []))
         generated_concepts = False
@@ -452,6 +454,10 @@ def build_report(repo: Path, *, manifest: dict | None = None) -> dict:
             has_sources_or_thinkers=has_sources,
             suspicious_content_type=_suspicious_content_type(book, content_type, kind),
         )
+        row["chapterSummaryCoverage"] = {
+            "present": summaries_present,
+            "total": chapter_count,
+        }
         books_out.append(row)
 
     books_out.sort(key=lambda b: b["slug"])
@@ -477,6 +483,15 @@ def build_report(repo: Path, *, manifest: dict | None = None) -> dict:
             }
         ),
         "booksWithNoPublicChangeEvent": _slugs_where("publicChangeEvent", "missing"),
+        "booksWithPartialChapterSummaries": sorted(
+            {
+                b["slug"]
+                for b in books_out
+                if (b.get("chapterSummaryCoverage") or {}).get("total", 0) > 0
+                and (b.get("chapterSummaryCoverage") or {}).get("present", 0)
+                < (b.get("chapterSummaryCoverage") or {}).get("total", 0)
+            }
+        ),
         "orphanedFromDiscovery": sorted(
             {
                 b["slug"]
@@ -489,8 +504,17 @@ def build_report(repo: Path, *, manifest: dict | None = None) -> dict:
         ),
     }
 
+    manifest_meta: dict = {}
+    if isinstance(manifest, dict):
+        manifest_meta = {
+            "schemaVersion": manifest.get("schemaVersion"),
+            "sourceCommit": manifest.get("sourceCommit"),
+            "generatedAt": manifest.get("generatedAt"),
+        }
+
     return {
         "generatedAt": datetime.now(UTC).isoformat(),
+        "manifest": manifest_meta,
         "bookCount": len(books_out),
         "books": books_out,
         "summaries": summaries,
@@ -503,14 +527,30 @@ def format_markdown(report: dict) -> str:
         "",
         f"Generated: `{report['generatedAt']}`",
         "",
-        f"Public canonical works evaluated: **{report['bookCount']}**",
-        "",
-        "Field statuses: `complete`, `missing`, `generated-only`, `incomplete`, "
-        "`potentially-incorrect`, `not-applicable`.",
-        "",
-        "## Summary",
-        "",
     ]
+    manifest_meta = report.get("manifest") or {}
+    if manifest_meta:
+        lines.extend(
+            [
+                "## Manifest provenance",
+                "",
+                f"- schemaVersion: `{manifest_meta.get('schemaVersion')}`",
+                f"- sourceCommit: `{manifest_meta.get('sourceCommit')}`",
+                f"- manifest generatedAt: `{manifest_meta.get('generatedAt')}`",
+                "",
+            ]
+        )
+    lines.extend(
+        [
+            f"Public canonical works evaluated: **{report['bookCount']}**",
+            "",
+            "Field statuses: `complete`, `missing`, `generated-only`, `incomplete`, "
+            "`potentially-incorrect`, `not-applicable`.",
+            "",
+            "## Summary",
+            "",
+        ]
+    )
     summaries = report.get("summaries") or {}
     for key, label in (
         ("booksMissingRichOverviews", "Books missing rich overviews"),
@@ -526,6 +566,7 @@ def format_markdown(report: dict) -> str:
             "Books with only generated semantic associations",
         ),
         ("booksWithNoPublicChangeEvent", "Books with no public change event"),
+        ("booksWithPartialChapterSummaries", "Books with partial chapter summary coverage"),
         ("orphanedFromDiscovery", "Books orphaned from discovery features"),
     ):
         items = summaries.get(key) or []
@@ -570,6 +611,16 @@ def completeness_warnings(report: dict) -> list[str]:
             )
         if fields.get("publicationDate") == "missing":
             warnings.append(f"{spec}: no publication_date")
+        if fields.get("publicChangeEvent") == "missing":
+            warnings.append(
+                f"{spec}: no public change event (add semantic/change-events/*.yml when date is reliable)"
+            )
+        cov = book.get("chapterSummaryCoverage") or {}
+        if cov.get("total") and cov.get("present", 0) < cov.get("total", 0):
+            warnings.append(
+                f"{spec}: chapter summaries partial "
+                f"({cov.get('present', 0)}/{cov.get('total', 0)}; edit chapter-enrichment.yml)"
+            )
         if fields.get("contentType") == "potentially-incorrect":
             warnings.append(f"{spec}: suspicious content_type={book['contentType']!r}")
         if fields.get("selectedConcepts") == "generated-only":

@@ -21,6 +21,7 @@ book:
   is_canonical: false
   edition_label: Companion edition
   publication_date: '2026-06-01'
+  edition_published_at: '2026-06-01'
   content_type: nonfiction
   literary_form: monograph
   overview:
@@ -46,6 +47,52 @@ book:
     - disagreement-is-suppressed
     - learning-collapses
     - leadership-reproduces-itself
+    selectedConceptRoles:
+    - conceptId: authority
+      roleInWork: >
+        Read across Forming–Repeating: operational power as pattern cycle rather than a single arc of
+        character.
+    - conceptId: accountability
+      roleInWork: >
+        Spans renewal and erosion chapters—exposure to consequence as the measure that patterns either
+        restore or thin.
+    - conceptId: renewal
+      roleInWork: >
+        Names deliberate restoration of legitimacy and feedback; organizing concept for the companion's
+        middle movement.
+    - conceptId: erosion
+      roleInWork: >
+        Names gradual thinning of trust, dissent, and consequence-contact—paired opposite of renewal in
+        the cycle.
+    - conceptId: circulation
+      roleInWork: >
+        Tracks how habits and norms transmit into the next round of leaders—bridge into Repeating.
+    - conceptId: formation
+      roleInWork: >
+        Opens the catalog: how attention and coalescence first concentrate influence before renewal or
+        erosion can be named.
+    selectedPatternRoles:
+    - patternId: attention-finds-a-focus
+      roleInWork: >
+        Opens Forming: looking settles on one person and reorganizes others' timing.
+    - patternId: leadership-coalesces
+      roleInWork: >
+        Deepens Forming: defaulting to the same person even without formal title.
+    - patternId: dissent-is-welcomed
+      roleInWork: >
+        Anchors Renewing: early problems reach decision-makers in time.
+    - patternId: leaders-feel-the-consequences
+      roleInWork: >
+        Applies Renewing: those who decide stay tied to effects on others.
+    - patternId: disagreement-is-suppressed
+      roleInWork: >
+        Marks Eroding: dissent fades until challenge no longer lands.
+    - patternId: learning-collapses
+      roleInWork: >
+        Deepens Eroding: the group loses a timely read on what choices are doing.
+    - patternId: leadership-reproduces-itself
+      roleInWork: >
+        Closes Repeating: copied habits shape the next generation of leaders.
     readBefore:
     - when-others-look-to-you-v1
     readNext:

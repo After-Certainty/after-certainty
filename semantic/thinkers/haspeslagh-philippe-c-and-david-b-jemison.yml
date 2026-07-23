@@ -1,6 +1,6 @@
 slug: haspeslagh-philippe-c-and-david-b-jemison
 name: Haspeslagh, Philippe C., and David B. Jemison
-type: organization
+type: author_group
 summary: Strategy scholars of acquisitions, cultural integration, and post-merger
   organizational learning.
 concepts: []
@@ -11,3 +11,4 @@ works:
 - haspeslagh-philippe-c-and-david-b-jemison-managing-acquisitions-creating-value-from-corporate-an
 whyThisMatters: Their work warns that coupling without cultural correction produces
   silent failure.
+citationOnly: true

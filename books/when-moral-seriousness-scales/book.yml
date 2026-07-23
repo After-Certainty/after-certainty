@@ -33,7 +33,35 @@ book:
     - acceleration
     - contestability
     - reciprocity
-    selectedPatterns: []
+    selectedPatterns:
+    - attention-restores-contact
+    - responsibility-persists-beyond-control
+    - blame-compresses-complexity
+    - learning-collapses
+    selectedConceptRoles:
+    - conceptId: moral-density
+      roleInWork: The thickness of mutual sight, reciprocity, and visible consequence that scale thins without erasing seriousness.
+    - conceptId: scale
+      roleInWork: Conditions under which moral seriousness must operate when small-world density no longer holds.
+    - conceptId: distance
+      roleInWork: Institutional and spatial separation that weakens felt consequence while obligation remains.
+    - conceptId: asymmetry
+      roleInWork: Uneven exposure to harm and decision power when mutual constraint thins.
+    - conceptId: acceleration
+      roleInWork: Pressure and speed that force judgment before density can reassemble.
+    - conceptId: contestability
+      roleInWork: What remains possible for challenge and revision when scale already thins moral density.
+    - conceptId: reciprocity
+      roleInWork: Mutual exposure that once sustained seriousness; what judgment requires when reciprocity thins.
+    selectedPatternRoles:
+    - patternId: attention-restores-contact
+      roleInWork: Reintroduces particular harms and persons where scale and abstraction would conceal them.
+    - patternId: responsibility-persists-beyond-control
+      roleInWork: Answerability that survives when no one fully steers outcomes at distance.
+    - patternId: blame-compresses-complexity
+      roleInWork: Failure mode under scale—villain narratives replace contact with how the field produced harm.
+    - patternId: learning-collapses
+      roleInWork: Distance from impact filters the ground story until seriousness cannot track reality.
     readBefore:
     - when-authority-outlives-accountability
     - how-trust-forms

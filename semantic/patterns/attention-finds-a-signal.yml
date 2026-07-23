@@ -55,3 +55,8 @@ manifestations:
   organizations:
   - feedback tone settles the verdict before examples are heard
   - silence in a meeting reads as agreement or resistance before content is tested
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: how-meaning-moves
+  note: Synthesized from attention and partial-visibility scenes across the corpus.

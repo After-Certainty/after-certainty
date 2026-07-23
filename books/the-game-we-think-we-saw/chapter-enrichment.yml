@@ -1,23 +1,340 @@
 version: 1
 chapters:
+  - sourcePath: front-matter/introduction-the-walk-to-the-parking-lot.md
+    summary: >
+      Two spectators leave agreeing on the score and disagreeing about what the basket
+      proved—star, defense, coach, or call. Sports yields unusually clear outcomes while
+      cause, legitimacy, cost, and meaning remain open on the walk to the parking lot.
+    centralQuestion: Why can a final score leave almost everything else about the game unsettled?
+    selectedConcepts:
+      - scoreboard-remainder
+      - judgment
+      - compression
+      - meaning
+      - interpretation
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - blame-compresses-complexity
+      - meaning-drifts-over-time
+    searchAliases:
+      - walk to the parking lot
+      - they are not describing the same game
+      - result final meaning unsettled
+    situations:
+      - result-final-meaning-unsettled
+    transition:
+      toNext: >
+        From the parking-lot argument into what the scoreboard measures and what it cannot
+        carry.
+  - sourcePath: parts/part-1-what-the-result-shows/bridge.md
+    summary: >
+      A scoreboard turns movement into a result; a box score divides contributions; a story
+      then gathers around the people easiest to remember. Each step helps seeing and leaves
+      something behind—what the result measured, and what produced it.
+    centralQuestion: What does converting a game into a result make visible—and what does it leave behind?
+    selectedConcepts:
+      - scoreboard-remainder
+      - compression
+      - star-as-explanation
+    selectedPatterns:
+      - blame-compresses-complexity
+      - gaps-invite-completion
+    searchAliases:
+      - what the result shows
+      - box score divides the result
+    transition:
+      fromPrevious: >
+        From unsettled parking-lot meaning into how results are composed from numbers and
+        stories.
+      toNext: >
+        Into the box score that is correct while the larger game remains larger.
+  - sourcePath: parts/part-1-what-the-result-shows/chapter-1-what-the-scoreboard-leaves-out.md
+    summary: >
+      A gym door sheet makes the eighteen-point player easy and the two-point defender hard to
+      recall—though screens, recovery, and defense made the final basket possible. The box
+      score is not wrong; it records a narrow question while the game remains larger than its
+      columns.
+    centralQuestion: What does a correct box score still fail to record about how a result was made?
+    selectedConcepts:
+      - scoreboard-remainder
+      - compression
+      - attention
+      - judgment
+    selectedPatterns:
+      - blame-compresses-complexity
+      - gaps-invite-completion
+      - attention-finds-a-focus
+    searchAliases:
+      - what the scoreboard leaves out
+      - player with two points
+      - box score remains correct
+    situations:
+      - photograph-hides-surrounding-action
+    transition:
+      fromPrevious: >
+        From Part I's framing into the durable sheet near the door.
+      toNext: >
+        From missing contributions into how success gathers around a single face.
+  - sourcePath: parts/part-1-what-the-result-shows/chapter-2-when-the-star-becomes-the-explanation.md
+    summary: >
+      A last-second shot becomes 'the star won the game' before the replay finishes—true of
+      the release, silent about screen, spacing, and prior stop. Dynasties, rescue loops, and
+      broadcast close-ups show how explanation prefers a face even when the system made the
+      shot possible.
+    centralQuestion: How does a decisive play become an explanation that substitutes a star for a system?
+    selectedConcepts:
+      - star-as-explanation
+      - compression
+      - scoreboard-remainder
+      - judgment
+    selectedPatterns:
+      - blame-compresses-complexity
+      - admiration-becomes-insulation
+      - intent-gets-assigned
+    searchAliases:
+      - when the star becomes the explanation
+      - star won the game
+      - brady belichick
+    situations:
+      - blame-locates-harm-in-a-face
+      - admiration-insulates-from-scrutiny
+    transition:
+      fromPrevious: >
+        From the scoreboard's remainder into the face the story prefers.
+      toNext: >
+        From causal compression into the whistle that makes a result officially count.
+  - sourcePath: parts/part-2-why-the-result-counts/bridge.md
+    summary: >
+      Before a number becomes final, the whistle converts movement into rulings the game can
+      use. Finality is necessary and powerful: what happened becomes operational before
+      everyone agrees the process earned trust—and victory may later be asked to settle more
+      than it should.
+    centralQuestion: What authority must intervene before a recorded result can count as the game?
+    selectedConcepts:
+      - operational-finality
+      - authority
+      - legitimacy
+      - judgment
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - why the result counts
+      - whistle converts movement into rulings
+    transition:
+      fromPrevious: >
+        From star-as-explanation into the authority that makes outcomes binding.
+      toNext: >
+        Into replay, design, and the place where uncertainty must stop so play can resume.
+  - sourcePath: parts/part-2-why-the-result-counts/chapter-3-the-authority-of-the-whistle.md
+    summary: >
+      Slow-motion replay relocates disagreement from perception into design while the official
+      still must place the ball and restart play. Operational finality is not perfect
+      knowledge or shared belief—it is a stopping point that lets the next possession begin
+      amid continuing dissent.
+    centralQuestion: What does the whistle provide when more information cannot produce agreement?
+    selectedConcepts:
+      - operational-finality
+      - authority
+      - legitimacy
+      - judgment
+      - uncertainty
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - gaps-invite-completion
+      - meaning-shifts-under-pressure
+    searchAliases:
+      - authority of the whistle
+      - three kinds of finality
+      - game continues without belief
+    situations:
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: >
+        From Part II's need for binding rulings into how finality works under dissent.
+      toNext: >
+        From rulings that restart play into what winning is later allowed to excuse.
+  - sourcePath: parts/part-2-why-the-result-counts/chapter-4-what-winning-is-allowed-to-excuse.md
+    summary: >
+      A championship photograph interrupts criticism by gathering a contested season around
+      the trophy—changing the burden of proof for methods, coaches, and institutions. Bob
+      Knight and similar records show how victory becomes a defense until winning stops
+      protecting what the package deal required people to tolerate.
+    centralQuestion: When does a result become permission to defer judgment about how the result was produced?
+    selectedConcepts:
+      - winning-as-excuse
+      - legitimacy
+      - authority
+      - moral-posture-toward-harm
+      - accountability
+    selectedPatterns:
+      - admiration-becomes-insulation
+      - finality-compensates-for-uncertainty
+      - blame-compresses-complexity
+    searchAliases:
+      - what winning is allowed to excuse
+      - championship photograph
+      - bob knight package deal
+    situations:
+      - admiration-insulates-from-scrutiny
+    transition:
+      fromPrevious: >
+        From operational finality into victory's power to rearrange moral accounting.
+      toNext: >
+        From what winning excuses into what pursuit demands of bodies before any result
+        arrives.
+  - sourcePath: parts/part-3-what-the-result-demands/bridge.md
+    summary: >
+      Pursuit rearranges the body before anyone knows the outcome. Practical needs become
+      moral language—toughness, loyalty, courage, sacrifice—that can name real virtues and
+      hide pressure about who may refuse the cost.
+    centralQuestion: What are athletes persuaded to bear in the name of virtues the pursuit requires?
+    selectedConcepts:
+      - playing-hurt-moral-language
+      - incentives
+      - agency
+      - legitimacy
+    selectedPatterns:
+      - meaning-shifts-under-pressure
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - what the result demands
+      - practical needs become moral language
+    transition:
+      fromPrevious: >
+        From winning as excuse into the bodily demands that precede any trophy.
+      toNext: >
+        Into the training table where everyone prefers the same answer about pain.
+  - sourcePath: parts/part-3-what-the-result-demands/chapter-5-the-moral-language-of-playing-hurt.md
+    summary: >
+      Tape, lineup pressure, and 'I'm good' show athlete, trainer, coach, and organization
+      converging on availability as virtue. Concussion underreporting and load-management
+      rules make incentives visible: the deeper question is whether the person carrying pain
+      remains free to decide what it is for.
+    centralQuestion: How do incentives turn playing hurt into character—and who still gets to refuse?
+    selectedConcepts:
+      - playing-hurt-moral-language
+      - incentives
+      - agency
+      - responsibility
+      - harm
+    selectedPatterns:
+      - meaning-shifts-under-pressure
+      - responsibility-persists-beyond-control
+      - correctness-hardens-into-identity
+    searchAliases:
+      - moral language of playing hurt
+      - i'm good
+      - incentives become character
+    situations:
+      - pressure-accelerates-interpretation
+    transition:
+      fromPrevious: >
+        From Part III's demand into the room where pain is translated into readiness.
+      toNext: >
+        From pressure to play into the athlete who says no.
+  - sourcePath: parts/part-3-what-the-result-demands/chapter-6-the-athlete-who-said-no.md
+    summary: >
+      Simone Biles loses orientation mid-vault and withdraws while teammates continue—making
+      visible that only the athlete feels the body's condition entering the air. Refusal is
+      not the opposite of commitment; spectators and institutions cannot borrow the knowledge
+      inside the movement they demand.
+    centralQuestion: Who has authority to refuse when the audience can see the moment but not the body's risk?
+    selectedConcepts:
+      - athletic-refusal
+      - agency
+      - responsibility
+      - playing-hurt-moral-language
+      - judgment
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - dissent-is-welcomed
+      - scrutiny-preserves-trust
+    searchAliases:
+      - the athlete who said no
+      - simone biles twisties
+      - refusal is not the opposite of commitment
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From moral pressure to play into refusal as situated knowledge.
+      toNext: >
+        From bodily refusal into what public gestures become once they leave the field.
+  - sourcePath: parts/part-4-what-the-result-becomes/bridge.md
+    summary: >
+      After the game, absence, gesture, and explanation keep moving through headlines and
+      memory. The athlete's intended meaning enters institutions it cannot control; public
+      interpretation is neither limitless nor obedient while the result stays fixed.
+    centralQuestion: What happens to a sporting moment once it leaves the field and enters public story?
+    selectedConcepts:
+      - gesture-afterlife
+      - public-interpretation
+      - meaning
+      - compression
+    selectedPatterns:
+      - meaning-drifts-over-time
+      - meaning-outruns-the-words
+    searchAliases:
+      - what the result becomes
+      - gesture becomes an image
+    transition:
+      fromPrevious: >
+        From refusal on the apparatus into the afterlife of signals beyond the arena.
+      toNext: >
+        Into a fixed kneel whose meaning keeps changing in every copy.
   - sourcePath: parts/part-4-what-the-result-becomes/chapter-7-when-a-gesture-becomes-another-message.md
     summary: >
-      A fixed sporting gesture keeps the same posture in every copy while public meaning around it
-      keeps changing—showing how a result or image can be final while cause, legitimacy, and message
-      remain unsettled.
+      Kaepernick's kneel keeps the same posture in every photograph while patriotism, protest,
+      league policy, and career consequence rewrite the message around it. A final image can
+      keep generating meanings the speaker neither owns nor can retract—showing result-fixed,
+      argument-open public life.
     centralQuestion: How can a final image keep generating new meanings after the moment is fixed?
     selectedConcepts:
       - gesture-afterlife
       - scoreboard-remainder
       - compression
       - legitimacy
+      - public-interpretation
     selectedPatterns:
       - meaning-drifts-over-time
       - finality-compensates-for-uncertainty
+      - intent-gets-assigned
     searchAliases:
-      - the result is final but the argument is not
-      - what the scoreboard leaves out
+      - when a gesture becomes another message
+      - kaepernick kneel
+      - result final argument not
     situations:
       - result-final-meaning-unsettled
-    readingTransition: >
-      From the fixed result into the afterlife of gestures and public story.
+      - intent-gets-assigned-after-the-fact
+    transition:
+      fromPrevious: >
+        From Part IV's moving event into the photograph that will not stay one message.
+      toNext: >
+        From gesture afterlife into the emptied arena and what judgment still owes the
+        remainder.
+  - sourcePath: back-matter/conclusion-after-the-arena-empties.md
+    summary: >
+      The lit scoreboard deserves confidence about who won while remaining silent about cause,
+      disputed authority, sacrificed bodies, and public afterlives. Seeing more of the game
+      means holding measure and remainder apart—and leaving room for refusal when consequence
+      cannot be evenly shared.
+    centralQuestion: What discipline of judgment remains after the official result has earned its confidence?
+    selectedConcepts:
+      - scoreboard-remainder
+      - judgment
+      - legitimacy
+      - athletic-refusal
+      - gesture-afterlife
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - blame-compresses-complexity
+      - meaning-drifts-over-time
+    searchAliases:
+      - after the arena empties
+      - scoreboard still lit
+      - leave room for refusal
+    situations:
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: >
+        From unsettled public meaning into the emptied arena's lasting remainder.

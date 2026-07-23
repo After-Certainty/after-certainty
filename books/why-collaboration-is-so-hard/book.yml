@@ -38,6 +38,39 @@ book:
     selectedPatterns:
     - disagreement-is-suppressed
     - responsibility-persists-beyond-control
+    selectedConceptRoles:
+    - conceptId: diffuse-ownership
+      roleInWork: >
+        Core diagnosis: no one can fully predict or control the joint outcome, yet many are
+        answerable—fragility without blaming bad faith.
+    - conceptId: contribution-asymmetry
+      roleInWork: >
+        Makes visible uneven labor, recognition, and risk inside sincere collaboration—why 'trying hard'
+        still feels unfair.
+    - conceptId: invisible-labor
+      roleInWork: >
+        Names the coordination work collaboration depends on but artifacts rarely show; central to why
+        gaps keep getting absorbed by the same people.
+    - conceptId: legibility
+      roleInWork: >
+        Clarifies what can be read by others as contribution or harm; collaboration fails partly when
+        necessary work stays unreadable.
+    - conceptId: partial-coherence
+      roleInWork: >
+        Holds that overlapping understanding for the next step is enough—without demanding identical
+        mental models that collaboration never delivers.
+    - conceptId: structural-fragility
+      roleInWork: >
+        Frames wobble under shared contribution as normal condition, not only a skill deficit to train
+        away.
+    selectedPatternRoles:
+    - patternId: disagreement-is-suppressed
+      roleInWork: >
+        Applies how dissent softens until decisions go unchallenged—one path by which good-faith teams
+        lose early correction.
+    - patternId: responsibility-persists-beyond-control
+      roleInWork: >
+        Deepens the structural bind: people remain answerable for outcomes they cannot fully own or see.
     readBefore:
     - coupling
     readNext:

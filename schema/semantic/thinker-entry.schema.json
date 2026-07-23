@@ -10,13 +10,32 @@
     "name": { "$ref": "common.json#/$defs/nonEmptyString" },
     "type": {
       "type": "string",
-      "enum": ["person", "organization"]
+      "enum": ["person", "organization", "author_group", "collective"]
     },
     "summary": { "type": "string" },
     "concepts": { "$ref": "common.json#/$defs/conceptSlugList" },
     "patterns": { "$ref": "common.json#/$defs/patternSlugList" },
     "relatedBooks": { "$ref": "common.json#/$defs/bookSlugList" },
     "works": { "$ref": "common.json#/$defs/sourceSlugList" },
-    "whyThisMatters": { "type": "string" }
+    "whyThisMatters": { "type": "string" },
+    "citationOnly": {
+      "type": "boolean",
+      "description": "When true, keep as a source-creator identity without a public thinker page."
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "$ref": "common.json#/$defs/slug" },
+      "description": "Alternate public slugs that resolve to this thinker."
+    },
+    "formerSlugs": {
+      "type": "array",
+      "items": { "$ref": "common.json#/$defs/slug" },
+      "description": "Previous slugs retained for redirect compatibility."
+    },
+    "canonicalSlug": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]*$",
+      "description": "Preferred public slug when this record is an alias stub."
+    }
   }
 }

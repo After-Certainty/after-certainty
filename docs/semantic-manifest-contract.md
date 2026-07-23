@@ -1,4 +1,4 @@
-# Semantic manifest contract (v2.2)
+# Semantic manifest contract (v2.3)
 
 `semantic-manifest.json` is a **public, generated API**. YAML under `books/` and `semantic/` is canonical; the manifest is never hand-edited.
 
@@ -8,7 +8,7 @@
 2. **No flag-day site break** — consumers that ignore unknown fields continue to work.
 3. **Do not repurpose fields** — new meanings get new optional fields or collections.
 4. **Integer `manifestVersion`** — remains `1` or `2` (thinkers present → `2`). This is not bumped for additive discovery fields.
-5. **String `schemaVersion`** — currently `"2.2"` documents additive discovery plus `parts`/`chapters`, `literaryForm`, and overview `relatedWorks`. `"2.1"` introduced works/editions and discovery collections.
+5. **String `schemaVersion`** — currently `"2.3"` adds selected concept/pattern roles, grounding provenance, richer chapter transitions, poetry kinds, and thinker identity classes. `"2.2"` documented parts/chapters, literaryForm, and overview `relatedWorks`. `"2.1"` introduced works/editions and discovery collections.
 6. **Provenance** — `generatedAt`, `repository`, `ref`, `releaseTag`, and `sourceCommit` (git SHA when available).
 
 ## Existing collections (stable)
@@ -35,6 +35,16 @@
 | `chapters` | Stable chapter identity, metrics, optional authored enrichment |
 
 See [semantic-chapter-identity.md](semantic-chapter-identity.md).
+
+## Additive fields (schemaVersion 2.3)
+
+| Location | Fields |
+|----------|--------|
+| `books[].overview` | `selectedConceptRoles`, `selectedPatternRoles` (legacy `selectedConceptIds` / `selectedPatternIds` retained) |
+| `patterns[]` / `glossary[]` | optional `grounding` |
+| `relationships[]` | optional `provenance` |
+| `thinkers[]` | `author_group` / `collective` types; `aliases`, `formerSlugs`, `canonicalSlug`; `citationOnly` thinkers omitted from public array |
+| `chapters[]` | optional structured `transition`; kinds include `poem` / `section` / `sequence` |
 
 ## Additive book fields
 

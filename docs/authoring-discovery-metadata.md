@@ -48,9 +48,105 @@ Publication dates (authored only; never from file mtimes):
 ```yaml
 book:
   publication_date: 2026-01-15
-  edition_published_at: 2026-01-15   # optional
+  edition_published_at: 2026-01-15   # optional; defaults conceptually to publication_date
   substantially_revised_at: null       # optional ISO date when applicable
 ```
+
+### Evidence hierarchy
+
+1. Explicit authored publication metadata already in the repository  
+2. Existing public change events  
+3. Release records clearly associated with publication (not packaging tags)  
+4. ISBN, edition, or retailer metadata already stored in the repository  
+5. Existing publication announcements stored in the corpus  
+6. A documented editorial record  
+7. Unknown — leave the field unset and report it  
+
+Do **not** use Git commit dates, file modification times, manifest generation dates,
+or neighboring-book guesswork. See [`reports/publication-date-audit.md`](../reports/publication-date-audit.md).
+
+### Substantial revision criteria
+
+Set `substantially_revised_at` only for a major rewrite, new/reorganized chapters,
+changed governing argument, new edition replacing an earlier edition, or significant
+structural/scholarly revision. Do **not** set it for typo fixes, formatting, cover
+optimization, link repair, metadata normalization, manifest regeneration, or CI.
+
+## Selected concept and pattern roles
+
+Keep the legacy slug arrays. Add parallel role lists so each curated selection
+explains its work-specific job:
+
+```yaml
+overview:
+  selectedConcepts: [partial-coherence]
+  selectedConceptRoles:
+    - conceptId: partial-coherence
+      roleInWork: >
+        Names the provisional alignment that allows people to move together
+        without sharing one complete interpretation.
+  selectedPatterns: [invisible-coordination-work]
+  selectedPatternRoles:
+    - patternId: invisible-coordination-work
+      roleInWork: >
+        Explains why collaboration often appears smooth only because one
+        participant is absorbing its unresolved costs.
+```
+
+Roles must not copy the global glossary definition. Fiction may use dramatizes /
+stages / makes visible; do not treat fiction as empirical proof.
+
+## Chapter enrichment
+
+Optional `books/<slug>/chapter-enrichment.yml` (schema:
+`schema/semantic/chapter-enrichment.schema.json`):
+
+```yaml
+version: 1
+chapters:
+  - sourcePath: parts/.../chapter-1.md
+    summary: >
+      What the chapter investigates and the conceptual movement it makes.
+    centralQuestion: Narrower than the book question.
+    selectedConcepts: [judgment]
+    selectedPatterns: [revisability-preserves-judgment]
+    situations: [feedback-stops-changing-decisions]
+    searchAliases: [judgment without finality]
+    transition:
+      fromPrevious: Why this chapter follows.
+      toNext: What remains open into the next chapter.
+```
+
+Poetry collections (`kind: poetry`) export titled units as `poem` rather than
+forcing argumentative `chapter` kinds.
+
+## Graph provenance
+
+Patterns and concepts may declare optional grounding:
+
+```yaml
+grounding:
+  type: original_synthesis  # established_term | adapted_from_source | original_synthesis | composite_pattern | manuscript_specific | historical_term
+  developedFrom:
+    - work: why-collaboration-is-so-hard
+  note: >
+    Synthesized across observation and cited literature rather than adopted
+    as a named term from one source.
+```
+
+Relationships may add:
+
+```yaml
+provenance:
+  origin: authored  # authored | extracted | inferred | source_grounded
+  evidence: [semantic/relationships.yml]
+```
+
+## Thinker identity
+
+Thinker `type` may be `person`, `organization`, `author_group`, or `collective`.
+Set `citationOnly: true` for citation creators that should not receive a public
+thinker page. Use `formerSlugs` / `aliases` when correcting a slug (e.g. Hal Daumé III).
 
 ## Search aliases
 

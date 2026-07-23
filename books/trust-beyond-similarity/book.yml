@@ -31,12 +31,51 @@ book:
     - coordination
     - correction
     - feedback
+    selectedPatterns:
+    - contact-keeps-the-read-open
+    - dissent-is-welcomed
+    - scrutiny-preserves-trust
+    selectedConceptRoles:
+    - conceptId: contestability
+      roleInWork: >
+        Makes trust across difference durable: claims and summaries can be challenged without requiring
+        sameness as the price of belonging.
+    - conceptId: accountability
+      roleInWork: >
+        Keeps cooperation answerable when perspectives diverge—trust as exposure to consequence, not
+        comfort of agreement.
+    - conceptId: coordination
+      roleInWork: >
+        Names the practical problem similarity seemed to solve: arranging joint action when stories and
+        summaries no longer match.
+    - conceptId: correction
+      roleInWork: >
+        Central after the shock of the partial: updating from what another perspective sees that yours
+        did not.
+    - conceptId: feedback
+      roleInWork: >
+        Paths by which partial views return as usable signal—epistemic interdependence without surrender
+        of judgment.
+    selectedPatternRoles:
+    - patternId: contact-keeps-the-read-open
+      roleInWork: >
+        Applies listening without surrender: more perspective sharpens understanding without forcing
+        premature agreement.
+    - patternId: dissent-is-welcomed
+      roleInWork: >
+        Deepens collaboration across difference—problems and partial views must arrive early or
+        diversity stays ornamental.
+    - patternId: scrutiny-preserves-trust
+      roleInWork: >
+        Shows how trust across disagreement stays legitimate when challenge remains possible without
+        casting partners as villains.
     readBefore:
     - curiosity-before-certainty
     readNext:
     - what-we-cannot-see
     - how-trust-forms
   publication_date: '2026-05-20'
+  edition_published_at: '2026-05-20'
 paths:
   manuscript: ./index.md
   output: .

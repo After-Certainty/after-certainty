@@ -1,9 +1,9 @@
 slug: admiration-becomes-insulation
 title: Admiration Becomes Insulation
-setup: Admiration enables trust, imitation, and moral aspiration toward people who seem to
-  carry more than their share of complexity.
-problem: Heroic narratives stabilize; contradiction becomes hard to absorb without collapsing
-  the story.
+setup: Admiration enables trust, imitation, and moral aspiration toward people who
+  seem to carry more than their share of complexity.
+problem: Heroic narratives stabilize; contradiction becomes hard to absorb without
+  collapsing the story.
 forces:
 - Harm is reframed as tradeoff
 - Context expands selectively around the admired figure
@@ -56,3 +56,9 @@ manifestations:
   - whistle paths are framed as betraying the harm itself
   politics:
   - public moral sorting outruns verification
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: after-certainty
+  note: Named across leadership observation rather than adopted as a single-source
+    term.

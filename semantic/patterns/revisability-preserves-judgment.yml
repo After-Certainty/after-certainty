@@ -1,16 +1,17 @@
 slug: revisability-preserves-judgment
 title: Revisability Preserves Judgment
-setup: Judgment remains necessary when certainty weakens; people still must weigh tradeoffs
-  and consequences without a final frame to hide inside.
-problem: Finality no longer stabilizes judgment, yet paralysis and dogma are both available
-  failures.
+setup: Judgment remains necessary when certainty weakens; people still must weigh
+  tradeoffs and consequences without a final frame to hide inside.
+problem: Finality no longer stabilizes judgment, yet paralysis and dogma are both
+  available failures.
 forces:
 - New information threatens prior commitments
 - Groups confuse openness with weakness
 - Revision must be practiced without infinite deferral
 - Coherence pressures compete with contact with reality
 observation: Revisability is what prevents judgment from hardening into dogma.
-example: A leader publishes what would change their mind—and acts on the answer when it arrives.
+example: A leader publishes what would change their mind—and acts on the answer when
+  it arrives.
 relatedConcepts:
 - judgment
 - correction
@@ -53,3 +54,8 @@ manifestations:
   organizations:
   - reviews are scheduled without punishing updates
   - policies include revisability clauses
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: after-certainty
+  note: Judgment synthesis tying revisability to non-final decisions.

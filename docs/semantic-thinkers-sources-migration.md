@@ -10,6 +10,14 @@ Related consumer work: [after-certainty-site issues](https://github.com/ksteffe/
 - **`sources` is the compatibility layer** — do not rename to `works`; add optional fields first.
 - **Additive changes only** — existing manifests and site pages must keep working when new fields are absent.
 - **Manifest is derived** — [`tools/generate_semantic_manifest.py`](../tools/generate_semantic_manifest.py) produces `semantic-manifest.json` for releases and the website.
+- **Prefer correcting existing identities** over creating duplicates.
+- **Citation-only creators** may remain source-linked without a public thinker page (`citationOnly: true`).
+
+## Identity classes (schemaVersion 2.3)
+
+Thinker `type`: `person` | `organization` | `author_group` | `collective`.
+
+Optional fields: `citationOnly`, `aliases`, `formerSlugs`, `canonicalSlug` (example: `hal-daume-iii` with `formerSlugs: [hal-daum-iii]`).
 
 ---
 

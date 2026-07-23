@@ -36,6 +36,36 @@ book:
     selectedPatterns:
     - responsibility-persists-beyond-control
     - leaders-feel-the-consequences
+    selectedConceptRoles:
+    - conceptId: boundary
+      roleInWork: >
+        Stages where permission and responsibility change shape around one reliable person—helping
+        becoming architecture.
+    - conceptId: authorization
+      roleInWork: >
+        Dramatizes permission that has become informal, transferable, and sticky—work routes through the
+        person who always says yes.
+    - conceptId: invisible-labor
+      roleInWork: >
+        Makes visible the coordination load the plot absorbs: work without which the system fails but
+        that never appears as role.
+    - conceptId: coordination
+      roleInWork: >
+        Shows shared movement depending on one body's availability—informal routing as the
+        organization's real map.
+    - conceptId: drift
+      roleInWork: >
+        Stages gradual decoupling from stated roles as exceptions accumulate—indispensable becoming
+        infrastructure.
+    selectedPatternRoles:
+    - patternId: responsibility-persists-beyond-control
+      roleInWork: >
+        Dramatizes answerability that outlasts any real control—the reliable person still owns gaps they
+        cannot refuse.
+    - patternId: leaders-feel-the-consequences
+      roleInWork: >
+        Makes visible how being looked to ties body and schedule to others' outcomes—leadership without
+        title.
     readBefore:
     - why-collaboration-is-so-hard
     readNext:

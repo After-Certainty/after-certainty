@@ -38,6 +38,36 @@ book:
     selectedPatterns:
     - responsibility-persists-beyond-control
     - leadership-coalesces
+    selectedConceptRoles:
+    - conceptId: agency
+      roleInWork: >
+        Keeps ordinary people as history-makers without heroizing them; the book holds initiative beside
+        unequal leverage so structure never swallows action.
+    - conceptId: asymmetry
+      roleInWork: >
+        Central: uneven power, visibility, and consequence across shared making; prevents reading
+        collective history as evenly shared credit or risk.
+    - conceptId: authority
+      roleInWork: >
+        Tracks how coordination power hardens from shared objects and institutions—who may steer once
+        informal making becomes durable order.
+    - conceptId: coordination
+      roleInWork: >
+        Names the practical weave of many actors into shared movement; the book's through-line from
+        ordinary objects to institutions.
+    - conceptId: legitimacy
+      roleInWork: >
+        Asks when collective arrangements read as justified rather than merely effective—especially when
+        leverage is unequal.
+    selectedPatternRoles:
+    - patternId: responsibility-persists-beyond-control
+      roleInWork: >
+        Deepens the claim that care and answerability outlast mastery—ordinary makers remain implicated
+        after control slips into institutions.
+    - patternId: leadership-coalesces
+      roleInWork: >
+        Shows how groups default to the same person even without formal title—how shared history
+        concentrates steering.
     readBefore:
     - when-others-become-leaders
     readNext:

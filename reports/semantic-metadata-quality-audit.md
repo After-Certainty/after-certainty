@@ -2,41 +2,22 @@
 
 ## Summary
 
-- Sources: 411
-- Thinkers: 339
+- Sources: 648
+- Thinkers: 635
 - Critical issues: 0
-- Warnings: 2
-- Info: 25
+- Warnings: 11
+- Info: 0
 
-## Warning (2)
+## Warning (11)
 
-- **source** `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` — missing_name_separator: name lacks Author — Title separator and title is missing or equals name: 'Yellen, Janet L. Speeches on inflation, labor markets, and financial stability, Board of Governors of the Federal Reserve System and U.S. Department of the Treasury, 2021–2024'
-- **source** `yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of` — orphan_creator_slug: creatorSlug 'yellen-janet-l-speeches-on-inflation-labor-markets-and-financial-stability-board-of-governors-of-the-federal-reserve-system-and-u-s-department-of-the-treasury-2021-2024' has no matching thinker
-
-## Info (25)
-
-- **thinker** `amershi-saleema-et-al` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-grenning-jim-highsmith-andrew-hunt-ron-jeffries-jon-kern-brian-marick-robert-c-martin-steve-mellor-ken-schwaber-jeff-sutherland-and-dave-thomas` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `douglas-karen-m-et-al` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `druckman-james-n-et-al` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `ford-neal-rebecca-parsons-and-patrick-kua` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `freeh-sporkin-sullivan-llc` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `hendrycks-dan-collin-burns-anya-chen-and-spencer-ball` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `john-carreyrou` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `kati-marton` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `knutti-reto-et-al` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `lewis-catherine-c-rebecca-r-perry-and-akihiko-murata` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `maggie-haberman` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `mellers-barbara-et-al` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `mitchell-margaret-simone-wu-andrew-zaldivar-parker-barnes-lucy-vasserman-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-and-timnit-gebru` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `parker-ashley-and-michael-scherer` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `peng-sida-et-al` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `perry-neil-megha-srivastava-deepak-kumar-and-dan-boneh` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `peter-grady` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `reeves-wiedeman` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `richard-gott` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `schulz-kenneth-f-et-al` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `susan-raine` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `talbot-s-g-and-w-dean` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `wachsmuth-david-and-alexander-weisler` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
-- **thinker** `wright-stuart-a-ed` — placeholder_summary: summary or whyThisMatters still has auto-generated placeholder text
+- **source** `arrington-leonard-j-great-basin-kingdom` — creator_name_mismatch: creatorNames[0] 'Leonard J Arrington' != author portion of name 'Leonard J. Arrington'
+- **source** `brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an` — creator_name_mismatch: creatorNames[0] 'Kelly D. Brownell' != author portion of name 'Brownell, Kelly D., and Kenneth E. Warner'
+- **source** `ceplair-larry-and-steven-englund-the-inquisition-in-hollywood-politics-in-the-film-community-193` — creator_name_mismatch: creatorNames[0] 'Larry Ceplair' != author portion of name 'Ceplair, Larry, and Steven Englund'
+- **source** `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire` — creator_name_mismatch: creatorNames[0] 'Ashwin Desai' != author portion of name 'Desai, Ashwin, and Goolam Vahed'
+- **source** `government-of-south-africa-truth-and-reconciliation-commission-final-report` — creator_name_mismatch: creatorNames[0] 'Truth and Reconciliation Commission (South Africa)' != author portion of name 'Government of South Africa. Truth and Reconciliation Commission'
+- **source** `hovland-carl-i-and-walter-weiss-the-influence-of-source-credibility-on-communication-effectivene` — creator_name_mismatch: creatorNames[0] 'Carl I. Hovland' != author portion of name 'Hovland, Carl I., and Walter Weiss'
+- **source** `lupia-arthur-and-mathew-d-mccubbins-the-democratic-dilemma-can-citizens-learn-what-they-need-to` — creator_name_mismatch: creatorNames[0] 'Arthur Lupia' != author portion of name 'Lupia, Arthur, and Mathew D. McCubbins'
+- **source** `mason-patrick-q-and-j-david-pulsipher-proclaim-peace` — creator_name_mismatch: creatorNames[0] 'Patrick Q Mason' != author portion of name 'Patrick Q. Mason and J. David Pulsipher'
+- **source** `merritt-anna-c-daniel-a-effron-and-beno-t-monin-moral-self-licensing-when-being-good-frees-us-to` — creator_name_mismatch: creatorNames[0] 'Anna C. Merritt' != author portion of name 'Merritt, Anna C., Daniel A. Effron, and Benoît Monin'
+- **source** `nissen-hans-j-peter-damerow-and-robert-k-englund-archaic` — creator_name_mismatch: creatorNames[0] 'Hans J. Nissen' != author portion of name 'Nissen, Hans J., Peter Damerow, and Robert K. Englund'
+- **source** `san-francisco-declaration-on-research-assessment-dora-2012-https-sfdora-org` — creator_name_mismatch: creatorNames[0] 'DORA (San Francisco Declaration on Research Assessment)' != author portion of name 'DORA'

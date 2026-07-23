@@ -41,6 +41,42 @@ book:
     - finality-compensates-for-uncertainty
     - meaning-drifts-over-time
     - blame-compresses-complexity
+    selectedConceptRoles:
+    - conceptId: scoreboard-remainder
+      roleInWork: >
+        The book's hinge: what a decisive result leaves unsettled—credit, cost, meaning—so sports
+        clarity does not fake moral closure.
+    - conceptId: operational-finality
+      roleInWork: >
+        Names the binding force of a call that must be treated as decided for play to continue, distinct
+        from settled meaning.
+    - conceptId: winning-as-excuse
+      roleInWork: >
+        Critiques treating competitive success as moral clearance; clarifies the gap between outcome and
+        legitimacy.
+    - conceptId: gesture-afterlife
+      roleInWork: >
+        Follows what a public act becomes once it leaves the field—how meaning keeps circulating after
+        the whistle.
+    - conceptId: compression
+      roleInWork: >
+        Shows how narratives and metrics shrink complexity so a game can be told and judged at
+        distance—often too early.
+    - conceptId: legitimacy
+      roleInWork: >
+        Asks when a result reads as earned and contestable enough, not merely recorded on the board.
+    selectedPatternRoles:
+    - patternId: finality-compensates-for-uncertainty
+      roleInWork: >
+        Applies how decisive endings relieve unsettled cause and meaning—sports makes the temptation
+        unusually visible.
+    - patternId: meaning-drifts-over-time
+      roleInWork: >
+        Tracks how interpretation of the same contest shifts as memory and retelling accumulate.
+    - patternId: blame-compresses-complexity
+      roleInWork: >
+        Dramatizes post-game fault-finding that collapses production into a villain or hero when the
+        field was messier.
     readBefore:
     - when-incentives-become-the-moral-language
     readNext:

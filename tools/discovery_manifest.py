@@ -24,7 +24,7 @@ from book_specs import (
 )
 
 SEMANTIC = Path("semantic")
-SCHEMA_VERSION = "2.2"
+SCHEMA_VERSION = "2.3"
 CONTENT_TYPES = frozenset({"nonfiction", "fiction", "handbook", "essay_collection", "poetry"})
 LITERARY_FORMS = frozenset(
     {
@@ -139,6 +139,21 @@ def build_related_works(overview: dict) -> list[dict]:
     return rows
 
 
+def build_selected_roles(overview: dict, *, key: str, id_field: str, prefix: str) -> list[dict]:
+    rows: list[dict] = []
+    seen: set[str] = set()
+    for item in overview.get(key) or []:
+        if not isinstance(item, dict):
+            continue
+        raw_id = str(item.get(id_field) or "").strip().removeprefix(prefix)
+        role = str(item.get("roleInWork") or "").strip()
+        if not raw_id or not role or raw_id in seen:
+            continue
+        seen.add(raw_id)
+        rows.append({id_field: f"{prefix}{raw_id}", "roleInWork": role})
+    return rows
+
+
 def build_overview_manifest(overview: dict) -> dict:
     out: dict = {
         "centralQuestion": str(overview["centralQuestion"]).strip(),
@@ -152,6 +167,16 @@ def build_overview_manifest(overview: dict) -> dict:
     patterns = _optional_str_list(overview.get("selectedPatterns"))
     if patterns:
         out["selectedPatternIds"] = [f"pattern-{s}" for s in patterns]
+    concept_roles = build_selected_roles(
+        overview, key="selectedConceptRoles", id_field="conceptId", prefix="concept-"
+    )
+    if concept_roles:
+        out["selectedConceptRoles"] = concept_roles
+    pattern_roles = build_selected_roles(
+        overview, key="selectedPatternRoles", id_field="patternId", prefix="pattern-"
+    )
+    if pattern_roles:
+        out["selectedPatternRoles"] = pattern_roles
     before = _optional_str_list(overview.get("readBefore"))
     if before:
         out["readBefore"] = before

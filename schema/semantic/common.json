@@ -70,6 +70,56 @@
         "trajectory": { "$ref": "#/$defs/trajectory" }
       }
     },
+    "groundingType": {
+      "type": "string",
+      "enum": [
+        "established_term",
+        "adapted_from_source",
+        "original_synthesis",
+        "composite_pattern",
+        "manuscript_specific",
+        "historical_term"
+      ]
+    },
+    "groundingDevelopedFromItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "work": { "$ref": "#/$defs/slug" },
+        "source": { "$ref": "#/$defs/slug" },
+        "concept": { "$ref": "#/$defs/slug" },
+        "pattern": { "$ref": "#/$defs/slug" }
+      },
+      "minProperties": 1
+    },
+    "grounding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": { "$ref": "#/$defs/groundingType" },
+        "developedFrom": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/groundingDevelopedFromItem" }
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "relationshipProvenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["origin"],
+      "properties": {
+        "origin": {
+          "type": "string",
+          "enum": ["authored", "extracted", "inferred", "source_grounded"]
+        },
+        "evidence": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
     "patternMedia": {
       "type": "object",
       "additionalProperties": false,

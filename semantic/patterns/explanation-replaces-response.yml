@@ -1,17 +1,17 @@
 slug: explanation-replaces-response
 title: Explanation Replaces Response
-setup: Explanation helps people understand events, reduce confusion, and name causes when
-  situations outrun intuition.
-problem: Analysis expands while action stalls; understanding becomes satisfying enough to
-  substitute for responsibility.
+setup: Explanation helps people understand events, reduce confusion, and name causes
+  when situations outrun intuition.
+problem: Analysis expands while action stalls; understanding becomes satisfying enough
+  to substitute for responsibility.
 forces:
 - More context feels like moral progress
 - Meetings reward comprehension over commitment
 - Harm is reorganized faster than it is reduced
 - Urgency is discharged into interpretation
 observation: At its limit, explanation reorganizes harm rather than reducing it.
-example: A fifth working session adds history and incentives while the decision everyone already
-  senses stays unmade.
+example: A fifth working session adds history and incentives while the decision everyone
+  already senses stays unmade.
 relatedConcepts:
 - responsibility
 - abstraction
@@ -55,3 +55,8 @@ manifestations:
   organizations:
   - root-cause language substitutes for remedy
   - professional care replaces contact with waiting parties
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: after-certainty
+  note: Capstone synthesis of explanation substituting for responsibility.

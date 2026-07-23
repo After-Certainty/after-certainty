@@ -38,6 +38,35 @@ book:
     selectedPatterns:
     - speech-escalates-faster-than-meaning
     - meaning-outruns-the-words
+    selectedConceptRoles:
+    - conceptId: relational-credibility
+      roleInWork: >
+        Central: trust earned when someone shows they see lived situation—not only charts—bridging
+        aggregate claim and receipt.
+    - conceptId: experiential-cross-checking
+      roleInWork: >
+        Names testing official indicators against rent, hours, and grocery bills—method for holding two
+        clocks of economic evidence.
+    - conceptId: compression
+      roleInWork: >
+        Shows how aggregate indicators shrink lived complexity so improvement can be declared at a
+        distance from feeling.
+    - conceptId: democratic-procedures-can-persist-while-shared-meaning-erodes
+      roleInWork: >
+        Clarifies the civic risk: ballots and courts can function while shared sense of what the economy
+        means thins.
+    - conceptId: humility
+      roleInWork: >
+        Marks naming distributional conflict and uncertainty as virtuous for leaders—against false
+        reconciliation of chart and life.
+    selectedPatternRoles:
+    - patternId: speech-escalates-faster-than-meaning
+      roleInWork: >
+        Applies the pressure where economic talk becomes louder and less precise while lived reference
+        drifts.
+    - patternId: meaning-outruns-the-words
+      roleInWork: >
+        Deepens why official language never carries the full context of experience the receipt records.
     readBefore:
     - what-we-cannot-see
     readNext:

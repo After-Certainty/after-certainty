@@ -35,7 +35,8 @@ counterbalances:
 - require ground read in the same meeting as summary metrics
 trajectory:
   earlySignals:
-  - local workarounds keep employers or clients from walking away while central metrics stay green
+  - local workarounds keep employers or clients from walking away while central metrics
+    stay green
   - coordinators assume someone closer to the vendor opened a ticket
   intensificationSignals:
   - formal reporting filters timing problems into training follow-ups
@@ -50,8 +51,16 @@ manifestations:
   leadership:
   - a president's briefing shows strong adoption while portal queues stall placements
   organizations:
-  - IT marks routing flaws as training issues though every center logged them week one
+  - IT marks routing flaws as training issues though every center logged them week
+    one
   family:
-  - parents repeat the same conflict because children's warnings never alter the household plan
+  - parents repeat the same conflict because children's warnings never alter the household
+    plan
 media:
   mediumArticleUrl: https://medium.com/@steffensen.kevin/learning-collapses-41c7ebef3c93
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: when-others-look-to-you-v1
+  - work: coupling
+  note: Incident-learning synthesis of when corrective capacity fails.

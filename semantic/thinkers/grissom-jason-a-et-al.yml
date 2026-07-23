@@ -1,6 +1,6 @@
 slug: grissom-jason-a-et-al
 name: Jason A. Grissom
-type: person
+type: author_group
 summary: Education researchers on teacher stress, health, and the spillover costs
   of schooling under pressure.
 concepts: []
@@ -11,3 +11,4 @@ works:
 - grissom-jason-a-et-al-teacher-stress-and-health-effects-on-teachers-students-and-schools
 whyThisMatters: Their evidence links performance regimes to body and burnout—not just
   outputs.
+citationOnly: true

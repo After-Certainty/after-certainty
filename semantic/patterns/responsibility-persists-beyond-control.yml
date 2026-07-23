@@ -1,14 +1,16 @@
 slug: responsibility-persists-beyond-control
 title: Responsibility Persists Beyond Control
-setup: Outcomes often exceed personal influence, yet participation, attention, and response
-  still matter where contact exists.
-problem: Innocence becomes an escape from participation when systems feel too large to steer.
+setup: Outcomes often exceed personal influence, yet participation, attention, and
+  response still matter where contact exists.
+problem: Innocence becomes an escape from participation when systems feel too large
+  to steer.
 forces:
 - Scale makes withdrawal feel rational
 - Formal authority ends while influence continues
 - Care is mistaken for omnipotence
 - Answerability is confused with blame
-observation: Care survives after control disappears; responsibility is not the same as mastery.
+observation: Care survives after control disappears; responsibility is not the same
+  as mastery.
 example: An executive who has left a role still shapes what others do through permissions
   and precedents they normalized.
 relatedConcepts:
@@ -53,3 +55,8 @@ manifestations:
   organizations:
   - committees keep authority after the crisis ends
   - symbolic statements replace remedy
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: after-certainty
+  note: Collaboration and coupling synthesis of responsibility without control.

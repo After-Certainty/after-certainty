@@ -177,7 +177,7 @@ report-semantic-completeness:
 	python3 tools/report_semantic_completeness.py --repo . \
 		--md-out reports/semantic-completeness.md \
 		--json-out reports/semantic-completeness.json \
-		$(if $(MANIFEST),--manifest $(MANIFEST),) \
+		--manifest $(if $(MANIFEST),$(MANIFEST),$(SEMANTIC_MANIFEST_OUT)) \
 		--print-warnings
 
 
