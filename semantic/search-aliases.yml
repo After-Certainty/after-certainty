@@ -296,3 +296,62 @@ entries:
   - concept-authority
   - concept-legitimacy
   note: Misreading phrasing for When Authority Is Misread
+- terms:
+  - accountability no longer expires
+  - legitimacy without renewal
+  - legitimacy survives harm
+  - institutional endurance after scandal
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-when-accountability-no-longer-expires
+  - concept-legitimacy
+  - concept-accountability
+  note: Endurance phrasing for When Accountability No Longer Expires
+- terms:
+  - authority outlives accountability
+  - moral posture toward harm
+  - legitimacy over time
+  - three dimensions of leadership
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-when-authority-outlives-accountability
+  - concept-moral-posture-toward-harm
+  - concept-legitimacy-over-time
+  note: Evaluation-lens phrasing for When Authority Outlives Accountability
+- terms:
+  - moral seriousness scales
+  - moral density
+  - judgment under distance
+  - seriousness under pressure
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-when-moral-seriousness-scales
+  - concept-moral-density
+  - concept-scale
+  note: Scale phrasing for When Moral Seriousness Scales
+- terms:
+  - wolty companion
+  - when others look to you companion
+  - forming renewing eroding repeating
+  - pattern as chapter
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-when-others-look-to-you-v2
+  - book-when-others-look-to-you-v1
+  note: Companion-edition phrasing for When Others Look to You v2
+- terms:
+  - velorum
+  - the velorum incident
+  - greyhaven
+  - tragic mythic fantasy
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-velorum
+  - concept-authority
+  - concept-responsibility
+  note: Title and setting bridge for Velorum fiction

@@ -15,6 +15,7 @@ primaryBookId: book-coupling
 relatedTrailIds:
 - leadership-after-the-person
 - software-judgment-trail
+- accountability-and-enduring-authority
 pathStops:
 - position: 1
   entityType: concept

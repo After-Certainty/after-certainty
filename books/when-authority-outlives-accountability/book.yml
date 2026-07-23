@@ -19,6 +19,49 @@ book:
       label: Buy on Amazon
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: How do we evaluate leadership when moral posture, effectiveness, and legitimacy over time diverge?
+    whyItExists: Praise and blame collapse into ideology when leadership dimensions are treated as one. This book separates moral posture toward harm, effectiveness, and legitimacy transfer so judgment can slow without demanding purity.
+    audience: Leaders, operators, and readers of institutional ethics who need a diagnostic lens when authority persists after accountability thins.
+    nonGoals:
+    - It is not a ranking of leaders or a formula for success.
+    - It does not collapse moral restraint into weakness or effectiveness into virtue.
+    - It is not the institutional endurance book (see When Accountability No Longer Expires).
+    selectedConcepts:
+    - moral-posture-toward-harm
+    - effectiveness
+    - legitimacy-over-time
+    - authority
+    - accountability
+    - harm
+    selectedPatterns:
+    - admiration-becomes-insulation
+    - blame-compresses-complexity
+    - leaders-feel-the-consequences
+    readBefore:
+    - when-others-look-to-you-v1
+    - when-authority-is-misread
+    readNext:
+    - when-accountability-no-longer-expires
+    - when-moral-seriousness-scales
+    relatedWorks:
+    - workId: when-accountability-no-longer-expires
+      relationship: prepares_for
+      reason: Separating moral posture, effectiveness, and legitimacy prepares the institutional story of survival after harm.
+    - workId: when-authority-is-misread
+      relationship: companion_to
+      reason: Misreading leaders and evaluating them through three dimensions are paired corrections to collapsed judgment.
+    - workId: when-others-look-to-you
+      relationship: deepens
+      reason: Renewal and erosion in practice deepen into an explicit lens for harm, effectiveness, and legitimacy transfer.
+    - workId: when-moral-seriousness-scales
+      relationship: companion_to
+      reason: Human-scale renewal of authority pairs with how moral seriousness thins under distance and pressure.
+    - workId: when-others-become-leaders
+      relationship: companion_to
+      reason: What authority leaves behind—and whether capacity circulates—is the legitimacy-over-time question this lens isolates.
 
 paths:
   manuscript: "./index.md"

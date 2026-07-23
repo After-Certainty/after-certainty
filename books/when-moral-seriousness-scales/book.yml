@@ -15,6 +15,47 @@ book:
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: How does moral seriousness function when distance, asymmetry, and acceleration thin the conditions that once sustained it?
+    whyItExists: Scale does not erase moral seriousness, but it changes proximity, reciprocity, and visible consequence. This book names moral density and what remains possible for judgment when those conditions thin.
+    audience: Readers of organizational ethics, institutional design, and moral philosophy who need language for seriousness under distance and pressure—not nostalgia for smallness.
+    nonGoals:
+    - It does not assume scale corrupts or that escalation is inevitable.
+    - It is not a formula for restoring moral density at any size.
+    - It does not treat smallness as a guarantee of moral seriousness.
+    selectedConcepts:
+    - moral-density
+    - scale
+    - distance
+    - asymmetry
+    - acceleration
+    - contestability
+    - reciprocity
+    selectedPatterns: []
+    readBefore:
+    - when-authority-outlives-accountability
+    - how-trust-forms
+    readNext:
+    - when-accountability-no-longer-expires
+    - the-discipline-of-uncertainty
+    relatedWorks:
+    - workId: when-accountability-no-longer-expires
+      relationship: companion_to
+      reason: Thinned moral density under scale pairs with institutions that survive harm without renewing legitimacy.
+    - workId: when-authority-outlives-accountability
+      relationship: companion_to
+      reason: Separating harm, effectiveness, and legitimacy at human scale prepares judgment when those conditions thin.
+    - workId: how-trust-forms
+      relationship: companion_to
+      reason: Trust that makes participation possible under uncertainty meets moral seriousness when consequence becomes distant.
+    - workId: the-discipline-of-uncertainty
+      relationship: companion_to
+      reason: Probabilistic moral seriousness under uncertainty complements judgment under distance and pressure.
+    - workId: when-incentives-become-the-moral-language
+      relationship: contrasts_with
+      reason: Incentive gradients can displace moral language; this book asks what seriousness requires when scale already thins density.
 
 paths:
   manuscript: "./index.md"

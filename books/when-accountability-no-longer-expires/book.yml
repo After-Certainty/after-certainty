@@ -15,6 +15,49 @@ book:
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: What happens when legitimate authority learns to survive harm—and accountability no longer expires?
+    whyItExists: Institutions often respond to scandal with adaptation that preserves core authority. This book names endurance after harm as a pattern of legitimacy without renewal, not merely failure or corruption.
+    audience: Readers of institutional ethics, organizational culture, and leadership who need language for when continuity looks like care while renewal stays deferred.
+    nonGoals:
+    - It is not a playbook for restoring accountability on a schedule.
+    - It does not treat every long-lived institution as illegitimate.
+    - It is not a leadership personality critique (see When Authority Outlives Accountability for the evaluation lens).
+    selectedConcepts:
+    - legitimacy
+    - accountability
+    - renewal
+    - harm
+    - correction
+    - adaptability
+    selectedPatterns:
+    - learning-collapses
+    - exceptions-are-forever
+    - blame-compresses-complexity
+    readBefore:
+    - when-authority-is-misread
+    - when-authority-outlives-accountability
+    readNext:
+    - when-moral-seriousness-scales
+    - when-others-become-leaders
+    relatedWorks:
+    - workId: when-authority-outlives-accountability
+      relationship: continues
+      reason: The three-dimension leadership lens opens into how institutions learn to survive harm without renewing legitimacy.
+    - workId: when-authority-is-misread
+      relationship: deepens
+      reason: Misread legitimacy at leadership scale becomes institutional persistence after scandal.
+    - workId: when-moral-seriousness-scales
+      relationship: prepares_for
+      reason: Endurance without renewal intensifies when moral density thins under distance and scale.
+    - workId: when-others-look-to-you
+      relationship: companion_to
+      reason: Renewal and erosion in leadership practice pair with institutional survival after accountability expires.
+    - workId: coupling
+      relationship: companion_to
+      reason: Structural coupling shapes where consequence lands when institutions adapt around harm.
 
 paths:
   manuscript: "./index.md"

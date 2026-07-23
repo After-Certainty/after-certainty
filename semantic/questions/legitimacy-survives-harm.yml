@@ -1,0 +1,51 @@
+id: legitimacy-survives-harm
+slug: legitimacy-survives-harm
+question: What happens when legitimacy survives harm without being renewed?
+summary: >
+  Institutions can adapt after scandal while core authority remains intact—accountability that
+  no longer expires looks like seriousness from the inside.
+orientation: >
+  Endurance after harm is often told as resilience. This question asks when continuity has become
+  unaccountable rather than wise—and what renewal would still require.
+whatThisIsNot:
+  - Not a claim that every long-lived institution is illegitimate.
+  - Not the same as authority without understanding (interpretation book).
+  - Not a checklist for restoring accountability on a schedule.
+status: published
+featured: false
+families:
+  - Leadership and authority
+  - Accountability
+primaryBookId: book-when-accountability-no-longer-expires
+relatedQuestionIds:
+  - authority-without-understanding
+  - leaders-become-systems
+  - structures-outlive-reasons
+searchHints:
+  - legitimacy without renewal
+  - accountability no longer expires
+  - institutional endurance after harm
+pathStops:
+  - position: 1
+    entityType: concept
+    entityId: concept-legitimacy
+    description: Start with legitimacy as permission that must remain contestable—not mere survival.
+  - position: 2
+    entityType: concept
+    entityId: concept-accountability
+    description: See accountability as answerability that can expire even when the institution does not.
+    whyThisFollows: Legitimacy without accountability is the tension this question isolates.
+  - position: 3
+    entityType: book
+    entityId: book-when-accountability-no-longer-expires
+    description: The primary book on how legitimate authority learns to survive harm without renewal.
+    whyThisFollows: This is the deepest on-site treatment of endurance after scandal.
+  - position: 4
+    entityType: book
+    entityId: book-when-authority-outlives-accountability
+    description: A complementary lens—moral posture, effectiveness, and legitimacy transfer at leadership scale.
+    whyThisFollows: Institutional survival pairs with how leadership evaluation collapses those dimensions.
+closingReflection: >
+  Adaptation can reduce harm without renewing the grounds of authority. The question remains what
+  would make legitimacy expire again—without mistaking collapse for the only form of accountability.
+carryForwardQuestion: Where has continuity been treated as care after harm made renewal the real demand?

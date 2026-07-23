@@ -1,0 +1,50 @@
+id: moral-seriousness-at-scale
+slug: moral-seriousness-at-scale
+question: How does moral seriousness function when distance and pressure thin its conditions?
+summary: >
+  Scale does not erase moral seriousness, but proximity, reciprocity, and visible consequence change.
+  Judgment becomes more costly when moral density thins.
+orientation: >
+  Small-scale restraint is often visible and reciprocated. This question asks what seriousness
+  requires when consequence travels as data, asymmetry grows, and acceleration outruns attention.
+whatThisIsNot:
+  - Not a claim that scale corrupts or that smallness guarantees virtue.
+  - Not a formula for restoring moral density at any size.
+  - Not the same as incentives becoming the moral language (metrics displacing judgment).
+status: published
+featured: false
+families:
+  - Accountability
+  - Judgment under uncertainty
+primaryBookId: book-when-moral-seriousness-scales
+relatedQuestionIds:
+  - legitimacy-survives-harm
+  - act-before-certainty-arrives
+searchHints:
+  - moral density
+  - moral seriousness at scale
+  - judgment under distance
+pathStops:
+  - position: 1
+    entityType: concept
+    entityId: concept-moral-density
+    description: Begin with moral density—visible consequence, mutual exposure, and relational accountability.
+  - position: 2
+    entityType: concept
+    entityId: concept-scale
+    description: See how scale alters proximity and feedback without automatically ending responsibility.
+    whyThisFollows: Density names what thins; scale names the structural change.
+  - position: 3
+    entityType: book
+    entityId: book-when-moral-seriousness-scales
+    description: The primary book on judgment under distance, asymmetry, and acceleration.
+    whyThisFollows: This is the deepest treatment of seriousness when human-scale conditions no longer hold.
+  - position: 4
+    entityType: book
+    entityId: book-when-accountability-no-longer-expires
+    description: A paired institutional lens—how legitimacy endures after harm when renewal stays deferred.
+    whyThisFollows: Thinned density and unexpired accountability are related institutional outcomes.
+closingReflection: >
+  Moral seriousness may still guide individuals while structural equilibrium changes. The work is
+  keeping judgment costly and contestable—not pretending distance can be wished away.
+carryForwardQuestion: Where does consequence still land as experience rather than as abstract data?
