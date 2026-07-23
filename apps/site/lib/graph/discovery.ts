@@ -193,6 +193,8 @@ export function changeEventsToWhatsNewEvents(
     .filter((event): event is WhatsNewEvent => Boolean(event));
 }
 
-export function contentTypeFromBook(book: Book): ContentType {
-  return book.contentType ?? "nonfiction";
-}
+/** @deprecated Prefer importing from `@/lib/graph/content-type`. */
+export { contentTypeFromBook } from "@/lib/graph/content-type";
+
+/** Re-export for callers that previously typed against discovery. */
+export type { ContentType };

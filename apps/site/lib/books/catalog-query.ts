@@ -107,7 +107,9 @@ export function buildFilterOptions(
   let hasUpcoming = false;
 
   for (const book of base) {
-    contentTypes.add(book.contentType);
+    if (book.contentType !== "unknown") {
+      contentTypes.add(book.contentType);
+    }
     for (const flag of book.availability) availability.add(flag);
     if (book.status !== "published") hasUpcoming = true;
   }
@@ -116,7 +118,7 @@ export function buildFilterOptions(
     shelves: getActiveShelves(graph)
       .filter((s) => s.slug !== "upcoming" || hasUpcoming)
       .map((s) => ({ slug: s.slug, title: s.title })),
-    contentTypes: [...contentTypes].sort(),
+    contentTypes: [...contentTypes].sort() as ContentType[],
     statuses: hasUpcoming ? (["published", "upcoming"] as const) : (["published"] as const),
     availability: [...availability].sort() as BookAvailabilityFlag[],
     sorts: [

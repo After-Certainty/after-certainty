@@ -28,7 +28,12 @@ Site-only: adjust `SHELF_MAX_PREVIEW_BY_SLUG` if a preview limit should change.
 
 ## Content types
 
-Set `content_type` on `book.yml` upstream. The site reads `books[].contentType`.
+Set `content_type` on `book.yml` upstream. The site reads `books[].contentType`
+(and optional `literaryForm`) through the centralized adapter in
+[`lib/graph/content-type.ts`](../lib/graph/content-type.ts). See
+[`docs/semantic-manifest.md`](semantic-manifest.md).
+
+Do not add title-based type mappings in this repository.
 
 ## Canonical editions and companions
 

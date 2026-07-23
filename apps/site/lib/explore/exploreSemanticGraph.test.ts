@@ -17,19 +17,29 @@ const emptyGraph: SemanticGraph = {
 
 describe("getExploreSemanticGraph", () => {
   beforeEach(() => {
-    vi.mocked(manifest.getSemanticGraph).mockReset();
+    vi.mocked(manifest.getSemanticGraphLoadResult).mockReset();
   });
 
-  it("returns the semantic graph", async () => {
-    vi.mocked(manifest.getSemanticGraph).mockResolvedValue({
-      ...emptyGraph,
-      books: [
-        { id: "bid", slug: "in-manifest", title: "M", concepts: [], patterns: [], sources: [] },
-      ],
+  it("returns the semantic graph with provenance", async () => {
+    vi.mocked(manifest.getSemanticGraphLoadResult).mockResolvedValue({
+      graph: {
+        ...emptyGraph,
+        books: [
+          { id: "bid", slug: "in-manifest", title: "M", concepts: [], patterns: [], sources: [] },
+        ],
+      },
+      source: {
+        kind: "fallback",
+        stale: false,
+        reason: "offline",
+        schemaVersion: "2.2",
+      },
+      diagnostics: [],
     });
 
-    const { graph } = await getExploreSemanticGraph();
+    const { graph, source } = await getExploreSemanticGraph();
 
     expect(graph.books.map((b) => b.slug)).toEqual(["in-manifest"]);
+    expect(source.kind).toBe("fallback");
   });
 });

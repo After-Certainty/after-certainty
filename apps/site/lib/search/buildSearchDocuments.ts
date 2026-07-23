@@ -20,6 +20,7 @@ import {
   type SearchAliasConfig,
   type SearchDocument,
 } from "@/lib/search/types";
+import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
 import { stripHtml } from "@/lib/podcast/sanitize";
 import type { PodcastEpisode } from "@/types/content";
 import type {
@@ -104,6 +105,7 @@ function buildBookDocument(
 
   const creatorNames = book.authors?.length ? uniqueStrings(book.authors) : undefined;
   const description = bookDescription(book);
+  const typeInfo = contentTypeInfoFromBook(book);
 
   const searchText = joinSearchText([
     book.title,
@@ -112,6 +114,7 @@ function buildBookDocument(
     book.slug,
     edition,
     status,
+    typeInfo.label,
     ...(slugAliases ?? []),
     ...(creatorNames ?? []),
     ...relatedTitles,
@@ -126,6 +129,8 @@ function buildBookDocument(
     subtitle: book.subtitle ?? undefined,
     description,
     resultLabel: SEARCH_RESULT_LABELS.book,
+    contentType: typeInfo.contentType,
+    contentTypeLabel: typeInfo.label,
     canonicalUrl: `${explorePaths.books}/${book.slug}`,
     image: book.coverImage ?? undefined,
     status,

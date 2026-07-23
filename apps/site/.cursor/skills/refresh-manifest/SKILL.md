@@ -202,8 +202,10 @@ SEMANTIC_MANIFEST_OFFLINE=1 npx playwright test e2e/thinkers.spec.ts e2e/navigat
 ## Notes
 
 - This skill only updates the **bundled fallback** at `data/semantic-manifest.json`.
+- Prefer the npm script when available: `npm run sync:semantic-manifest`.
 - Production deployments fetch from the GitHub release URL via ISR (see [`lib/graph/manifest.ts`](../../lib/graph/manifest.ts)).
 - The bundled manifest ensures dev/offline mode and CI have latest data when `SEMANTIC_MANIFEST_OFFLINE=1`.
+- Selection is remote-first; see [`docs/semantic-manifest.md`](../../docs/semantic-manifest.md).
 - v1 manifests without `thinkers[]` are valid — the site calls `deriveThinkersFromSources()` when sources have `creatorSlugs`.
 - If new **relationship** types are added, you may also need to:
   - Add visual styling in `lib/graph/relationshipVisuals.ts`

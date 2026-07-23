@@ -8,7 +8,8 @@ import {
 import { recommendedRankForSlug, type ContentType } from "@/lib/books/catalog-taxonomy";
 import { assignShelfIds } from "@/lib/books/shelves";
 import { buildResolvedEditionIndex } from "@/lib/books/resolve-work-edition";
-import { contentTypeFromBook, publicationRegistryFromGraph } from "@/lib/graph/discovery";
+import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
+import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
 import type { EditionRelationship } from "@/lib/books/publication-registry-schema";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import {
@@ -16,7 +17,7 @@ import {
   resolveCoverForGraphBookSlug,
 } from "@/lib/explore/graph-book-covers";
 import type { BookStatus } from "@/types/content";
-import type { SemanticGraph } from "@/types/semanticGraph";
+import type { BookLiteraryForm, SemanticGraph } from "@/types/semanticGraph";
 
 export type CatalogBookView = {
   id: string;
@@ -31,6 +32,9 @@ export type CatalogBookView = {
   editionRelationship: EditionRelationship;
   editionLabel?: string;
   contentType: ContentType;
+  /** Accessible content-type label from the centralized adapter. */
+  contentTypeLabel: string;
+  literaryForm?: BookLiteraryForm;
   themes: string[];
   shelfIds: string[];
   availability: BookAvailabilityFlag[];
@@ -49,6 +53,7 @@ export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
     const resolved = editions.get(book.slug);
     const coverImage =
       resolveCoverForGraphBookSlug(coverLookup, books, book.slug) ?? book.coverImage;
+    const typeInfo = contentTypeInfoFromBook(book);
 
     return {
       id: book.id,
@@ -62,7 +67,9 @@ export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
       isCanonicalEdition: resolved?.isCanonical ?? true,
       editionRelationship: resolved?.relationship ?? "sole",
       editionLabel: resolved?.editionLabel,
-      contentType: contentTypeFromBook(book),
+      contentType: typeInfo.contentType,
+      contentTypeLabel: typeInfo.label,
+      literaryForm: typeInfo.literaryForm,
       themes: [],
       shelfIds: [],
       availability: bookAvailabilityFlags(book),

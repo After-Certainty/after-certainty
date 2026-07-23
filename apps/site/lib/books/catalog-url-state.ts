@@ -21,7 +21,8 @@ export type CatalogUrlState = {
 export type CatalogStatusFilter = "published" | "upcoming";
 
 const SORT_VALUES = new Set<CatalogSort>(["recommended", "title-asc", "title-desc"]);
-const TYPE_VALUES = new Set<ContentType>([
+/** Filterable types only — `unknown` is never a URL filter value. */
+const TYPE_VALUES = new Set<Exclude<ContentType, "unknown">>([
   "nonfiction",
   "fiction",
   "handbook",

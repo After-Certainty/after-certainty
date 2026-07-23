@@ -8,32 +8,54 @@ import { validateSemanticGraph } from "@/lib/graph/validate";
 
 export { validateSemanticGraph, type ValidateSemanticGraphResult } from "@/lib/graph/validate";
 
-function semanticBookExportScore(book: Book): number {
-  let score = 0;
-  for (const block of [book.docx, book.epub, book.pdf]) {
-    if (block?.enabled && block.url) score += 1;
-  }
-  return score;
-}
-
-/** When release JSON lists duplicate slugs, keep the row with live export URLs (published under books/). */
-export function dedupeSemanticGraphBooks(books: Book[]): Book[] {
-  const bySlug = new Map<string, Book>();
-  for (const book of books) {
-    const existing = bySlug.get(book.slug);
-    if (!existing) {
-      bySlug.set(book.slug, book);
-      continue;
-    }
-    if (semanticBookExportScore(book) > semanticBookExportScore(existing)) {
-      bySlug.set(book.slug, book);
-    }
-  }
-  return [...bySlug.values()];
-}
-
 /** Next.js fetch / `revalidateTag` cache tag for on-demand graph refresh. */
 export const SEMANTIC_GRAPH_CACHE_TAG = "semantic-graph";
+
+/** Schema majors the site can consume. Major 3+ is refused. */
+export const SUPPORTED_SCHEMA_MAJOR = 2;
+
+/** Default fallback staleness threshold (days). Override with SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS. */
+export const DEFAULT_FALLBACK_STALE_DAYS = 30;
+
+export type ManifestFailureCategory =
+  | "offline"
+  | "network"
+  | "http"
+  | "invalid_json"
+  | "validation"
+  | "incompatible_schema"
+  | "empty_remote"
+  | "invalid_fallback"
+  | "incompatible_fallback";
+
+export type ManifestSource =
+  | {
+      kind: "remote";
+      schemaVersion?: string;
+      sourceCommit?: string;
+      generatedAt?: string;
+    }
+  | {
+      kind: "fallback";
+      schemaVersion?: string;
+      sourceCommit?: string;
+      generatedAt?: string;
+      stale: boolean;
+      ageDays?: number;
+      reason: ManifestFailureCategory;
+    };
+
+export type ManifestLoadDiagnostic = {
+  category: ManifestFailureCategory | "ok";
+  message: string;
+  details?: Record<string, string | number | boolean | undefined>;
+};
+
+export type SemanticGraphLoadResult = {
+  graph: SemanticGraph;
+  source: ManifestSource;
+  diagnostics: ManifestLoadDiagnostic[];
+};
 
 export const SEMANTIC_MANIFEST_REVALIDATE_SECONDS = (() => {
   const raw = process.env.SEMANTIC_MANIFEST_REVALIDATE_SECONDS?.trim();
@@ -59,126 +81,220 @@ function logSemanticGraphError(message: string, err?: unknown): void {
   }
 }
 
-function enrichedSourceCount(graph: SemanticGraph): number {
-  return graph.sources.filter((source) => (source.creatorSlugs?.length ?? 0) > 0).length;
+function logManifestLoadOnce(result: SemanticGraphLoadResult): void {
+  const { source, diagnostics } = result;
+  const payload = {
+    kind: source.kind,
+    schemaVersion: source.schemaVersion,
+    sourceCommit: source.sourceCommit,
+    generatedAt: source.generatedAt,
+    stale: source.kind === "fallback" ? source.stale : false,
+    ageDays: source.kind === "fallback" ? source.ageDays : undefined,
+    reason: source.kind === "fallback" ? source.reason : undefined,
+    diagnosticCount: diagnostics.length,
+    categories: diagnostics.map((d) => d.category),
+  };
+  if (source.kind === "remote" && diagnostics.every((d) => d.category === "ok")) {
+    return;
+  }
+  console.error("[semantic-graph] Manifest load", payload);
 }
 
-function thinkerCount(graph: SemanticGraph): number {
-  return graph.thinkers?.length ?? 0;
+export function fallbackStaleDaysThreshold(): number {
+  const raw = process.env.SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS?.trim();
+  if (!raw) return DEFAULT_FALLBACK_STALE_DAYS;
+  const n = Number.parseInt(raw, 10);
+  return Number.isFinite(n) && n > 0 ? n : DEFAULT_FALLBACK_STALE_DAYS;
 }
 
-function parseGeneratedAt(graph: SemanticGraph): number {
-  if (!graph.generatedAt) return 0;
-  const parsed = Date.parse(graph.generatedAt);
-  return Number.isFinite(parsed) ? parsed : 0;
+export function parseGeneratedAtMs(generatedAt: string | undefined): number | undefined {
+  if (!generatedAt?.trim()) return undefined;
+  const parsed = Date.parse(generatedAt);
+  return Number.isFinite(parsed) ? parsed : undefined;
 }
 
-function discoveryCollectionCount(graph: SemanticGraph): number {
-  return (
-    (graph.questions?.length ?? 0) +
-    (graph.trails?.length ?? 0) +
-    (graph.shelves?.length ?? 0) +
-    (graph.editions?.length ?? 0) +
-    (graph.changeEvents?.length ?? 0) +
-    (graph.searchAliases?.length ?? 0)
-  );
+export function fallbackAgeDays(
+  generatedAt: string | undefined,
+  nowMs: number = Date.now(),
+): number | undefined {
+  const parsed = parseGeneratedAtMs(generatedAt);
+  if (parsed === undefined) return undefined;
+  const ageMs = Math.max(0, nowMs - parsed);
+  return Math.floor(ageMs / (24 * 60 * 60 * 1000));
 }
 
-function schemaVersionScore(graph: SemanticGraph): number {
-  const raw = graph.schemaVersion?.trim();
-  if (!raw) return 0;
-  const parsed = Number.parseFloat(raw);
-  return Number.isFinite(parsed) ? parsed : 0;
+export function isFallbackStale(
+  generatedAt: string | undefined,
+  options?: { nowMs?: number; thresholdDays?: number },
+): { stale: boolean; ageDays?: number } {
+  const ageDays = fallbackAgeDays(generatedAt, options?.nowMs);
+  const threshold = options?.thresholdDays ?? fallbackStaleDaysThreshold();
+  if (ageDays === undefined) {
+    return { stale: true, ageDays: undefined };
+  }
+  return { stale: ageDays > threshold, ageDays };
 }
 
-/** Prefer the graph with richer thinker/source metadata when ISR returns a stale release. */
-export function pickSemanticGraph(remote: SemanticGraph, bundled: SemanticGraph): SemanticGraph {
-  const remoteEnriched = enrichedSourceCount(remote);
-  const bundledEnriched = enrichedSourceCount(bundled);
-
-  if (remoteEnriched === 0 && bundledEnriched > 0) {
-    logSemanticGraphError("Remote manifest lacks source enrichment; using bundled fallback.");
-    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
-  }
-
-  if (bundledEnriched > remoteEnriched) {
-    logSemanticGraphError(
-      "Bundled manifest has richer source enrichment than remote; using bundled fallback.",
-    );
-    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
-  }
-
-  const remoteThinkers = thinkerCount(remote);
-  const bundledThinkers = thinkerCount(bundled);
-
-  if (remoteThinkers === 0 && bundledThinkers > 0) {
-    logSemanticGraphError("Remote manifest lacks thinkers; using bundled fallback.");
-    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
-  }
-
-  if (bundledThinkers > remoteThinkers) {
-    logSemanticGraphError(
-      "Bundled manifest has more thinkers than remote; using bundled fallback.",
-    );
-    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
-  }
-
-  const remoteDiscovery = discoveryCollectionCount(remote);
-  const bundledDiscovery = discoveryCollectionCount(bundled);
-  if (remoteDiscovery === 0 && bundledDiscovery > 0) {
-    logSemanticGraphError("Remote manifest lacks discovery collections; using bundled fallback.");
-    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
-  }
-  if (bundledDiscovery > remoteDiscovery) {
-    logSemanticGraphError(
-      "Bundled manifest has richer discovery collections than remote; using bundled fallback.",
-    );
-    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
-  }
-
-  const remoteSchema = schemaVersionScore(remote);
-  const bundledSchema = schemaVersionScore(bundled);
-  if (bundledSchema > remoteSchema) {
-    logSemanticGraphError(
-      "Bundled manifest has newer schemaVersion than remote; using bundled fallback.",
-    );
-    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
-  }
-
-  if (
-    bundledEnriched > 0 &&
-    bundledEnriched === remoteEnriched &&
-    bundledThinkers === remoteThinkers &&
-    bundledDiscovery === remoteDiscovery &&
-    parseGeneratedAt(bundled) > parseGeneratedAt(remote)
-  ) {
-    logSemanticGraphError("Bundled manifest is newer than remote; using bundled fallback.");
-    return { ...bundled, books: dedupeSemanticGraphBooks(bundled.books) };
-  }
-
-  return { ...remote, books: dedupeSemanticGraphBooks(remote.books) };
+/**
+ * Supported schema versions are major 2 (including missing for legacy).
+ * Major >= 3 or non-numeric majors that are not absent are incompatible.
+ */
+export function isCompatibleSchemaVersion(schemaVersion: string | undefined): boolean {
+  if (!schemaVersion?.trim()) return true;
+  const major = Number.parseInt(schemaVersion.trim().split(".")[0] ?? "", 10);
+  if (!Number.isFinite(major)) return false;
+  return major <= SUPPORTED_SCHEMA_MAJOR;
 }
 
-/** Bundled fallback is not authoritative; production content comes from the release asset. */
-function loadBundledFallbackGraph(): SemanticGraph {
+function semanticBookExportScore(book: Book): number {
+  let score = 0;
+  for (const block of [book.docx, book.epub, book.pdf]) {
+    if (block?.enabled && block.url) score += 1;
+  }
+  return score;
+}
+
+/** When release JSON lists duplicate slugs, keep the row with live export URLs (published under books/). */
+export function dedupeSemanticGraphBooks(books: Book[]): Book[] {
+  const bySlug = new Map<string, Book>();
+  for (const book of books) {
+    const existing = bySlug.get(book.slug);
+    if (!existing) {
+      bySlug.set(book.slug, book);
+      continue;
+    }
+    if (semanticBookExportScore(book) > semanticBookExportScore(existing)) {
+      bySlug.set(book.slug, book);
+    }
+  }
+  return [...bySlug.values()];
+}
+
+function withDedupedBooks(graph: SemanticGraph): SemanticGraph {
+  return { ...graph, books: dedupeSemanticGraphBooks(graph.books) };
+}
+
+function provenanceFromGraph(graph: SemanticGraph): {
+  schemaVersion?: string;
+  sourceCommit?: string;
+  generatedAt?: string;
+} {
+  return {
+    schemaVersion: graph.schemaVersion,
+    sourceCommit: graph.sourceCommit,
+    generatedAt: graph.generatedAt,
+  };
+}
+
+function buildFallbackSource(
+  graph: SemanticGraph,
+  reason: ManifestFailureCategory,
+): Extract<ManifestSource, { kind: "fallback" }> {
+  const provenance = provenanceFromGraph(graph);
+  const { stale, ageDays } = isFallbackStale(provenance.generatedAt);
+  return {
+    kind: "fallback",
+    ...provenance,
+    stale,
+    ageDays,
+    reason,
+  };
+}
+
+type BundledLoad =
+  | { ok: true; graph: SemanticGraph }
+  | { ok: false; graph: SemanticGraph; category: ManifestFailureCategory; message: string };
+
+function loadBundledFallbackGraph(): BundledLoad {
   const validated = validateSemanticGraph(fallbackSemantic as unknown);
-  if (validated.success) {
-    return validated.data;
+  if (!validated.success) {
+    logSemanticGraphError(
+      "Bundled semantic-manifest.json failed validation; using hard empty graph.",
+      validated.error,
+    );
+    return {
+      ok: false,
+      graph: EMPTY_GRAPH,
+      category: "invalid_fallback",
+      message: "Bundled semantic-manifest.json failed validation.",
+    };
   }
-  logSemanticGraphError(
-    "Bundled semantic-manifest.json failed validation; using hard empty graph.",
-    validated.error,
-  );
-  return EMPTY_GRAPH;
+
+  if (!isCompatibleSchemaVersion(validated.data.schemaVersion)) {
+    logSemanticGraphError(
+      `Bundled semantic-manifest.json has incompatible schemaVersion ${validated.data.schemaVersion}.`,
+    );
+    return {
+      ok: false,
+      graph: EMPTY_GRAPH,
+      category: "incompatible_fallback",
+      message: `Bundled schemaVersion ${validated.data.schemaVersion} is incompatible.`,
+    };
+  }
+
+  return { ok: true, graph: withDedupedBooks(validated.data) };
+}
+
+function fallbackResult(
+  reason: ManifestFailureCategory,
+  message: string,
+  extra?: ManifestLoadDiagnostic[],
+): SemanticGraphLoadResult {
+  const bundled = loadBundledFallbackGraph();
+  const diagnostics: ManifestLoadDiagnostic[] = [...(extra ?? []), { category: reason, message }];
+
+  if (!bundled.ok) {
+    diagnostics.push({ category: bundled.category, message: bundled.message });
+    const source = buildFallbackSource(bundled.graph, bundled.category);
+    return { graph: bundled.graph, source, diagnostics };
+  }
+
+  const source = buildFallbackSource(bundled.graph, reason);
+  if (source.stale) {
+    diagnostics.push({
+      category: reason,
+      message: `Fallback manifest is stale (ageDays=${source.ageDays ?? "unknown"}, threshold=${fallbackStaleDaysThreshold()}).`,
+      details: { ageDays: source.ageDays, stale: true },
+    });
+  }
+
+  return { graph: bundled.graph, source, diagnostics };
+}
+
+/**
+ * Remote-first selection: prefer a valid remote graph; fall back only when remote is
+ * unusable (empty books). Prefer this over richness-based picking.
+ */
+export function selectRemoteOrFallback(
+  remote: SemanticGraph,
+  bundled: SemanticGraph,
+): { graph: SemanticGraph; usedFallback: boolean; reason?: ManifestFailureCategory } {
+  if (remote.books.length === 0 && bundled.books.length > 0) {
+    return { graph: withDedupedBooks(bundled), usedFallback: true, reason: "empty_remote" };
+  }
+  return { graph: withDedupedBooks(remote), usedFallback: false };
+}
+
+/**
+ * @deprecated Use {@link selectRemoteOrFallback}. Kept for older tests; remote-first
+ * with empty-books safety only (no richness preference).
+ */
+export function pickSemanticGraph(remote: SemanticGraph, bundled: SemanticGraph): SemanticGraph {
+  return selectRemoteOrFallback(remote, bundled).graph;
 }
 
 /**
  * Fetch semantic graph (ISR) or return bundled JSON when offline / on failure.
- * Exported for unit tests; production pages should call `getSemanticGraph()`.
+ * Returns graph + provenance. Prefer {@link getSemanticGraphLoadResult} in new code.
  */
-export async function fetchSemanticGraphUncached(): Promise<SemanticGraph> {
+export async function fetchSemanticGraphLoadResultUncached(): Promise<SemanticGraphLoadResult> {
   if (isSemanticManifestOffline()) {
-    return loadBundledFallbackGraph();
+    const result = fallbackResult(
+      "offline",
+      "SEMANTIC_MANIFEST_OFFLINE=1; using bundled fallback.",
+    );
+    logManifestLoadOnce(result);
+    return result;
   }
 
   const url = resolveSemanticManifestUrl();
@@ -194,30 +310,102 @@ export async function fetchSemanticGraphUncached(): Promise<SemanticGraph> {
     });
 
     if (!res.ok) {
-      throw new Error(`semantic manifest HTTP ${res.status}`);
+      const result = fallbackResult("http", `Remote semantic manifest HTTP ${res.status}.`);
+      logManifestLoadOnce(result);
+      return result;
     }
 
-    const data: unknown = await res.json();
+    let data: unknown;
+    try {
+      data = await res.json();
+    } catch (err) {
+      const result = fallbackResult(
+        "invalid_json",
+        "Remote semantic manifest was not valid JSON.",
+        [
+          {
+            category: "invalid_json",
+            message: err instanceof Error ? err.message : "JSON parse failed",
+          },
+        ],
+      );
+      logManifestLoadOnce(result);
+      return result;
+    }
+
     const validated = validateSemanticGraph(data);
     if (!validated.success) {
-      logSemanticGraphError(
-        "Remote semantic manifest validation failed; using bundled fallback.",
-        validated.error,
+      const result = fallbackResult(
+        "validation",
+        "Remote semantic manifest failed Zod validation.",
       );
-      return loadBundledFallbackGraph();
+      logSemanticGraphError("Remote semantic manifest validation failed.", validated.error);
+      logManifestLoadOnce(result);
+      return result;
     }
-    return pickSemanticGraph(validated.data, loadBundledFallbackGraph());
+
+    if (!isCompatibleSchemaVersion(validated.data.schemaVersion)) {
+      const result = fallbackResult(
+        "incompatible_schema",
+        `Remote schemaVersion ${validated.data.schemaVersion} is incompatible (supported major <= ${SUPPORTED_SCHEMA_MAJOR}).`,
+      );
+      logManifestLoadOnce(result);
+      return result;
+    }
+
+    const bundled = loadBundledFallbackGraph();
+    const selection = selectRemoteOrFallback(
+      validated.data,
+      bundled.ok ? bundled.graph : EMPTY_GRAPH,
+    );
+
+    if (selection.usedFallback) {
+      const result = fallbackResult(
+        selection.reason ?? "empty_remote",
+        "Remote manifest had no books; using bundled fallback.",
+      );
+      logManifestLoadOnce(result);
+      return result;
+    }
+
+    const provenance = provenanceFromGraph(selection.graph);
+    const result: SemanticGraphLoadResult = {
+      graph: selection.graph,
+      source: { kind: "remote", ...provenance },
+      diagnostics: [{ category: "ok", message: "Serving validated remote semantic manifest." }],
+    };
+    logManifestLoadOnce(result);
+    return result;
   } catch (err) {
     logSemanticGraphError("Semantic manifest fetch failed; using bundled fallback.", err);
-    return loadBundledFallbackGraph();
+    const result = fallbackResult(
+      "network",
+      err instanceof Error ? err.message : "Semantic manifest fetch failed.",
+    );
+    logManifestLoadOnce(result);
+    return result;
   }
 }
 
-const cachedSemanticGraph = cache(fetchSemanticGraphUncached);
+/**
+ * @deprecated Prefer {@link fetchSemanticGraphLoadResultUncached}. Returns graph only.
+ */
+export async function fetchSemanticGraphUncached(): Promise<SemanticGraph> {
+  const result = await fetchSemanticGraphLoadResultUncached();
+  return result.graph;
+}
+
+const cachedSemanticGraphLoad = cache(fetchSemanticGraphLoadResultUncached);
+
+/** Per-request deduplicated load result (graph + provenance). */
+export async function getSemanticGraphLoadResult(): Promise<SemanticGraphLoadResult> {
+  return cachedSemanticGraphLoad();
+}
 
 /** Per-request deduplicated access to the semantic graph (server components, RSC). */
 export async function getSemanticGraph(): Promise<SemanticGraph> {
-  return cachedSemanticGraph();
+  const result = await cachedSemanticGraphLoad();
+  return result.graph;
 }
 
 /**

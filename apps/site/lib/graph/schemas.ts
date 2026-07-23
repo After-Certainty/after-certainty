@@ -74,6 +74,8 @@ const bookContentTypeSchema = z.enum([
   "poetry",
 ]);
 
+const bookLiteraryFormSchema = z.enum(["monograph", "novel", "handbook", "poetry_collection"]);
+
 const editionRelationshipSchema = z.enum(["sole", "primary", "companion", "superseded"]);
 
 const bookAvailabilityFlagSchema = z.enum([
@@ -137,6 +139,7 @@ const bookSchema = z.object({
   editionRelationship: editionRelationshipSchema.optional(),
   editionLabel: optionalManifestString,
   contentType: bookContentTypeSchema.optional(),
+  literaryForm: bookLiteraryFormSchema.optional(),
   publicStatus: z.string().min(1).optional(),
   availability: z.array(bookAvailabilityFlagSchema).optional(),
   overview: bookOverviewSchema.optional(),
@@ -388,6 +391,7 @@ const workSchema = z.object({
   currentEditionId: z.string().min(1),
   editionIds: z.array(z.string().min(1)).default([]),
   contentType: bookContentTypeSchema.optional(),
+  literaryForm: bookLiteraryFormSchema.optional(),
   canonicalRoute: z.string().min(1).optional(),
 });
 
@@ -441,7 +445,7 @@ const searchAliasSchema = z.object({
 
 /**
  * Root manifest schema. Unknown top-level keys are stripped from the typed result;
- * schemaVersion 2.1 discovery collections are retained when present.
+ * schemaVersion 2.1+ discovery collections and 2.2 literaryForm are retained when present.
  */
 export const semanticGraphSchema = z.object({
   books: z.array(bookSchema).default([]),

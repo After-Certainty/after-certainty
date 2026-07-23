@@ -40,6 +40,12 @@ jobs:
       - name: Test
         run: npm run test
 
+      - name: Validate fallback manifest
+        run: npm run validate:fallback
+
+      - name: Validate public corpus integrity
+        run: npm run validate:public-corpus
+
       - name: Build
         run: npm run build
         env:

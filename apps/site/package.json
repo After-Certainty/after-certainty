@@ -14,6 +14,9 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "generate:og": "node scripts/generate-og.mjs",
+    "sync:semantic-manifest": "node scripts/sync-semantic-manifest.mjs",
+    "validate:fallback": "node scripts/validate-fallback.mjs",
+    "validate:public-corpus": "node scripts/validate-public-corpus.mjs",
     "prepare": "husky"
   },
   "lint-staged": {

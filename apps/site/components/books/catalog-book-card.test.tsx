@@ -15,6 +15,7 @@ const sampleBook: CatalogBookView = {
   isCanonicalEdition: true,
   editionRelationship: "sole",
   contentType: "nonfiction",
+  contentTypeLabel: "Nonfiction",
   themes: [],
   shelfIds: ["core-after-certainty"],
   availability: ["online", "download"],

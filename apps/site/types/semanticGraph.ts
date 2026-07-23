@@ -44,12 +44,10 @@ export interface BookFormatAsset {
   url: string | null;
 }
 
-export type BookContentType =
-  | "nonfiction"
-  | "fiction"
-  | "handbook"
-  | "essay_collection"
-  | "poetry";
+export type BookContentType = "nonfiction" | "fiction" | "handbook" | "essay_collection" | "poetry";
+
+/** Literary form from schemaVersion 2.2+ manifests — distinct from content type. */
+export type BookLiteraryForm = "monograph" | "novel" | "handbook" | "poetry_collection";
 
 export type BookPublicStatus =
   "published" | "upcoming" | "forthcoming" | "in_progress" | "revised" | "superseded" | "archived";
@@ -108,6 +106,8 @@ export interface Book {
   editionRelationship?: EditionRelationship;
   editionLabel?: string;
   contentType?: BookContentType;
+  /** schemaVersion 2.2 — literary form (novel, poetry_collection, …) */
+  literaryForm?: BookLiteraryForm;
   publicStatus?: BookPublicStatus | string;
   availability?: BookAvailabilityFlag[];
   overview?: BookOverview;
@@ -270,6 +270,7 @@ export interface Work {
   currentEditionId: string;
   editionIds: string[];
   contentType?: BookContentType;
+  literaryForm?: BookLiteraryForm;
   canonicalRoute?: string;
 }
 

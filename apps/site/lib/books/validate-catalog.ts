@@ -126,12 +126,13 @@ export function collectCatalogHealthIssues(input: {
           });
         }
         if (!book.isCanonicalEdition && shelf.slug !== "complete-catalog") {
+          const severity = book.editionRelationship === "companion" ? "warning" : "error";
           issues.push({
-            severity: "error",
+            severity,
             code: "non_canonical_on_shelf",
             shelfId: shelf.id,
             bookSlug: slug,
-            detail: `Non-canonical edition "${slug}" (${book.editionRelationship}) on curated shelf "${shelf.id}"`,
+            detail: `Non-canonical edition "${slug}" (${book.editionRelationship}) on curated shelf "${shelf.id}" (runtime resolveShelfBooks excludes non-canonical members)`,
           });
         }
       }

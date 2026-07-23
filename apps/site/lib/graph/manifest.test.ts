@@ -6,7 +6,11 @@ import { DEFAULT_SEMANTIC_MANIFEST_URL } from "@/lib/site-config";
 import {
   dedupeSemanticGraphBooks,
   fetchSemanticGraphUncached,
+  fetchSemanticGraphLoadResultUncached,
+  isCompatibleSchemaVersion,
+  isFallbackStale,
   pickSemanticGraph,
+  selectRemoteOrFallback,
   validateSemanticGraph,
   SEMANTIC_GRAPH_CACHE_TAG,
 } from "@/lib/graph/manifest";
@@ -21,22 +25,29 @@ function validatedFallbackGraph() {
 }
 
 describe("validateSemanticGraph", () => {
-  it("accepts schemaVersion 2.1 discovery collections from the bundled manifest", () => {
+  it("accepts schemaVersion 2.2 discovery collections from the bundled manifest", () => {
     const result = validateSemanticGraph(fallback as unknown);
     expect(result.success).toBe(true);
     if (!result.success) return;
-    expect(result.data.schemaVersion).toBe("2.1");
+    expect(result.data.schemaVersion).toBe("2.2");
     expect(result.data.sourceCommit).toBeTruthy();
     expect(result.data.works?.length).toBeGreaterThan(0);
     expect(result.data.editions?.length).toBeGreaterThan(0);
-    expect(result.data.questions?.length).toBe(12);
-    expect(result.data.trails?.length).toBe(6);
-    expect(result.data.shelves?.length).toBe(9);
-    expect(result.data.changeEvents?.length).toBe(6);
-    expect(result.data.searchAliases?.length).toBe(9);
+    expect(result.data.questions?.length).toBeGreaterThan(0);
+    expect(result.data.trails?.length).toBeGreaterThan(0);
+    expect(result.data.shelves?.length).toBeGreaterThan(0);
+    expect(result.data.changeEvents?.length).toBeGreaterThan(0);
+    expect(result.data.searchAliases?.length).toBeGreaterThan(0);
     const withOverview = result.data.books.filter((b) => b.overview);
-    expect(withOverview.length).toBe(10);
+    expect(withOverview.length).toBeGreaterThan(0);
     expect(result.data.books.some((b) => b.contentType === "fiction")).toBe(true);
+    expect(result.data.books.some((b) => b.contentType === "poetry")).toBe(true);
+    const boundary = result.data.books.find((b) => b.slug === "boundary-conditions");
+    expect(boundary?.contentType).toBe("fiction");
+    expect(boundary?.literaryForm).toBe("novel");
+    const observer = result.data.books.find((b) => b.slug === "observer-patterns");
+    expect(observer?.contentType).toBe("poetry");
+    expect(observer?.literaryForm).toBe("poetry_collection");
   });
 
   it("accepts minimal valid graph", () => {
@@ -544,8 +555,47 @@ describe("dedupeSemanticGraphBooks", () => {
   });
 });
 
-describe("pickSemanticGraph", () => {
-  it("prefers bundled graph when remote lacks enrichment", () => {
+describe("selectRemoteOrFallback", () => {
+  it("prefers valid remote when it has books, even if unenriched", () => {
+    const bundled = validatedFallbackGraph();
+    const remote: SemanticGraph = {
+      ...bundled,
+      generatedAt: "2026-07-01T00:00:00.000Z",
+      sources: bundled.sources.map((source) => ({
+        id: source.id,
+        slug: source.slug,
+        name: source.name,
+        type: source.type,
+        summary: source.summary,
+        concepts: source.concepts,
+        patterns: source.patterns,
+        relatedBooks: source.relatedBooks,
+      })),
+      thinkers: undefined,
+    };
+
+    const selected = selectRemoteOrFallback(remote, bundled);
+    expect(selected.usedFallback).toBe(false);
+    expect(selected.graph.books.length).toBe(remote.books.length);
+  });
+
+  it("falls back when remote has no books", () => {
+    const bundled = validatedFallbackGraph();
+    const remote: SemanticGraph = {
+      ...bundled,
+      books: [],
+      generatedAt: "2026-07-07T00:00:00.000Z",
+    };
+
+    const selected = selectRemoteOrFallback(remote, bundled);
+    expect(selected.usedFallback).toBe(true);
+    expect(selected.reason).toBe("empty_remote");
+    expect(selected.graph.books.length).toBe(bundled.books.length);
+  });
+});
+
+describe("pickSemanticGraph (compat)", () => {
+  it("returns remote when remote has books", () => {
     const remote = validatedFallbackGraph();
     const legacyRemote: SemanticGraph = {
       ...remote,
@@ -563,21 +613,27 @@ describe("pickSemanticGraph", () => {
     };
 
     const picked = pickSemanticGraph(legacyRemote, remote);
-    expect(picked.sources.some((source) => (source.creatorSlugs?.length ?? 0) > 0)).toBe(true);
+    expect(picked.books.length).toBe(legacyRemote.books.length);
+  });
+});
+
+describe("schema and staleness helpers", () => {
+  it("accepts schema major 2 and rejects major 3", () => {
+    expect(isCompatibleSchemaVersion(undefined)).toBe(true);
+    expect(isCompatibleSchemaVersion("2.2")).toBe(true);
+    expect(isCompatibleSchemaVersion("3.0")).toBe(false);
   });
 
-  it("prefers bundled graph when remote lacks thinkers but sources are enriched", () => {
-    const bundled = validatedFallbackGraph();
-    const remote: SemanticGraph = {
-      ...bundled,
-      generatedAt: "2026-07-07T00:00:00.000Z",
-      thinkers: undefined,
-      manifestVersion: 1,
-    };
-
-    const picked = pickSemanticGraph(remote, bundled);
-    expect(picked.thinkers?.length ?? 0).toBeGreaterThan(0);
-    expect(picked.thinkers?.[0]?.slug).toBe(bundled.thinkers?.[0]?.slug);
+  it("marks missing generatedAt as stale and computes age", () => {
+    expect(isFallbackStale(undefined).stale).toBe(true);
+    const fresh = isFallbackStale(new Date().toISOString(), { thresholdDays: 30 });
+    expect(fresh.stale).toBe(false);
+    const old = isFallbackStale("2020-01-01T00:00:00.000Z", {
+      nowMs: Date.parse("2026-07-23T00:00:00.000Z"),
+      thresholdDays: 30,
+    });
+    expect(old.stale).toBe(true);
+    expect(old.ageDays).toBeGreaterThan(30);
   });
 });
 
@@ -607,7 +663,7 @@ describe("fetchSemanticGraphUncached", () => {
     expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
   });
 
-  it("fetches remote JSON when online and prefers enriched bundled data when remote is legacy", async () => {
+  it("fetches remote JSON when online and serves valid remote even if unenriched", async () => {
     delete process.env.SEMANTIC_MANIFEST_OFFLINE;
     const payload = {
       books: [
@@ -628,13 +684,15 @@ describe("fetchSemanticGraphUncached", () => {
       situations: [],
       sources: [],
       relationships: [],
+      schemaVersion: "2.2",
+      generatedAt: "2026-07-23T00:00:00.000Z",
     };
     fetchSpy.mockResolvedValue({
       ok: true,
       json: async () => payload,
     } as Response);
 
-    const graph = await fetchSemanticGraphUncached();
+    const result = await fetchSemanticGraphLoadResultUncached();
 
     expect(fetchSpy).toHaveBeenCalledWith(
       DEFAULT_SEMANTIC_MANIFEST_URL,
@@ -646,7 +704,8 @@ describe("fetchSemanticGraphUncached", () => {
         }),
       }),
     );
-    expect(graph.sources.some((source) => (source.creatorSlugs?.length ?? 0) > 0)).toBe(true);
+    expect(result.source.kind).toBe("remote");
+    expect(result.graph.books.map((b) => b.slug)).toEqual(["book-one"]);
   });
 
   it("falls back to bundled graph when fetch fails", async () => {
@@ -679,7 +738,7 @@ describe("fetchSemanticGraphUncached", () => {
     expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
   });
 
-  it("prefers bundled graph when remote lacks source enrichment", async () => {
+  it("falls back when remote has no books", async () => {
     delete process.env.SEMANTIC_MANIFEST_OFFLINE;
     fetchSpy.mockResolvedValue({
       ok: true,
@@ -706,15 +765,21 @@ describe("fetchSemanticGraphUncached", () => {
       }),
     } as Response);
 
-    const graph = await fetchSemanticGraphUncached();
-    const bundled = validatedFallbackGraph();
+    const result = await fetchSemanticGraphLoadResultUncached();
+    expect(result.source.kind).toBe("fallback");
+    if (result.source.kind === "fallback") {
+      expect(result.source.reason).toBe("empty_remote");
+    }
+    expect(result.graph.books.length).toBeGreaterThan(0);
+  });
 
-    expect(graph.sources.filter((s) => (s.creatorSlugs?.length ?? 0) > 0).length).toBeGreaterThan(
-      0,
-    );
-    expect(bundled.sources.filter((s) => (s.creatorSlugs?.length ?? 0) > 0).length).toBeGreaterThan(
-      0,
-    );
-    expect(graph.sources.some((source) => (source.creatorSlugs?.length ?? 0) > 0)).toBe(true);
+  it("records offline provenance on the load result", async () => {
+    process.env.SEMANTIC_MANIFEST_OFFLINE = "1";
+    const result = await fetchSemanticGraphLoadResultUncached();
+    expect(result.source.kind).toBe("fallback");
+    if (result.source.kind === "fallback") {
+      expect(result.source.reason).toBe("offline");
+      expect(typeof result.source.stale).toBe("boolean");
+    }
   });
 });

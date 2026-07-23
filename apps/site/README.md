@@ -67,7 +67,14 @@ Optional: once **Dependency graph** is enabled in the same settings page, you ca
 
 The podcast RSS URL is `siteConfig.podcastRssUrl` (Anchor). The site **fetches that feed on the server** (`lib/podcast/rss.ts`, cached + **revalidated every hour** via `fetch`); episode lists and the home “latest episode” block use that data. If the feed is unreachable (offline dev, CI, etc.), lists fall back to `data/podcast-episodes.json`. `/feed.xml` still redirects to Anchor for podcast apps.
 
-Explore surfaces (books, patterns, glossary, observatory) load **`semantic-manifest.json`** from the [after-certainty](https://github.com/ksteffe/after-certainty) GitHub release (`latest`), with hourly ISR. A separate **`books-manifest.json`** still feeds legacy catalog helpers; promotion and export URLs for `/explore/books` live in the semantic manifest. After each `main` release, CI POSTs to **`/api/cache/revalidate`** with target **`semantic`** to refresh the graph immediately.
+Explore surfaces (books, patterns, glossary, observatory, questions, trails) load
+**`semantic-manifest.json`** from the [after-certainty](https://github.com/ksteffe/after-certainty)
+GitHub release (`latest`), with hourly ISR and a bundled fallback at
+`data/semantic-manifest.json`. See [`docs/semantic-manifest.md`](docs/semantic-manifest.md)
+for remote/fallback provenance, content-type normalization, and
+`npm run sync:semantic-manifest` / `validate:fallback` / `validate:public-corpus`.
+After each `main` release, CI POSTs to **`/api/cache/revalidate`** with target
+**`semantic`** to refresh the graph immediately.
 
 1. Set **`CACHE_REVALIDATE_SECRET`** in Vercel (production) — a long random string.
 2. Add the same value as repository secret **`CACHE_REVALIDATE_SECRET`** on `ksteffe/after-certainty` (used by the book export workflow).

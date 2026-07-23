@@ -4,7 +4,6 @@ import Image from "next/image";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import { StatusLabel } from "@/components/books/status-label";
-import { CONTENT_TYPE_LABELS } from "@/lib/books/catalog-taxonomy";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import { catalogExceptionalChip } from "@/lib/books/public-status";
 
@@ -14,7 +13,7 @@ type CatalogBookCardProps = {
 };
 
 export function CatalogBookCard({ book, location }: CatalogBookCardProps) {
-  const typeLabel = CONTENT_TYPE_LABELS[book.contentType];
+  const typeLabel = book.contentTypeLabel;
   const exceptional = catalogExceptionalChip(book);
 
   return (

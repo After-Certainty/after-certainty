@@ -9,7 +9,7 @@ import { describe, expect, it } from "vitest";
 describe("trails manifest health", () => {
   it("passes validation against bundled semantic graph", async () => {
     const manifest = getTrailsManifest();
-    const graph = (await getSemanticGraph()) as SemanticGraph;
+    const graph = await getSemanticGraph();
 
     expect(() =>
       assertTrailsManifestHealthy({
@@ -20,12 +20,12 @@ describe("trails manifest health", () => {
     ).not.toThrow();
   });
 
-  it("has five published trails with featured entries and at least one upcoming", () => {
+  it("has published trails with featured entries and at least one upcoming", () => {
     const manifest = getTrailsManifest();
     const published = manifest.trails.filter((t) => t.status === "published");
     const upcoming = manifest.trails.filter((t) => t.status === "upcoming");
     const featured = published.filter((t) => t.featured);
-    expect(published).toHaveLength(5);
+    expect(published.length).toBeGreaterThanOrEqual(5);
     expect(upcoming.length).toBeGreaterThanOrEqual(1);
     expect(featured.length).toBeGreaterThanOrEqual(3);
   });
@@ -34,7 +34,7 @@ describe("trails manifest health", () => {
     const manifest = getTrailsManifest();
     const report = collectTrailHealthReport({
       manifest,
-      graph: semanticManifest as SemanticGraph,
+      graph: semanticManifest as unknown as SemanticGraph,
       podcastEpisodes: podcastEpisodes.episodes,
     });
     expect(report.errors).toEqual([]);

@@ -1,3 +1,4 @@
+import type { ContentType } from "@/lib/books/catalog-taxonomy";
 import type { BookStatus } from "@/types/content";
 
 /**
@@ -38,6 +39,10 @@ export type SearchDocument = {
   description?: string;
   /** Human type label for UI: "Concept", "Book", … */
   resultLabel: string;
+  /** Book content type from the centralized adapter (books only). */
+  contentType?: ContentType;
+  /** Accessible book content-type label (books only). */
+  contentTypeLabel?: string;
   canonicalUrl: string;
   /** True when canonicalUrl is off-site (podcast episodes). */
   external?: boolean;

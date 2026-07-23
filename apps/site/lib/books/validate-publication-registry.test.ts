@@ -13,7 +13,7 @@ import {
 } from "@/lib/books/validate-publication-registry";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
-const graph = semanticManifest as SemanticGraph;
+const graph = semanticManifest as unknown as SemanticGraph;
 
 describe("publication registry health", () => {
   it("accepts editions from the semantic manifest against the graph", () => {

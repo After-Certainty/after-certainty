@@ -12,7 +12,7 @@ import {
 } from "@/lib/books/validate-book-overviews";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
-const graph = semanticManifest as SemanticGraph;
+const graph = semanticManifest as unknown as SemanticGraph;
 
 function withOverview(overrides: Partial<BookOverview>): BookOverview {
   const base = getAllBookOverviews()[0]!;
@@ -43,11 +43,11 @@ describe("book overview health", () => {
     expect(issues.some((i) => i.code === "related_book_superseded")).toBe(false);
   });
 
-  it("fails when a selected concept is missing from the book", () => {
+  it("warns when a selected concept is missing from the book", () => {
     const book = graph.books.find((b) => b.slug === "after-certainty")!;
     const foreign = graph.glossary.find((c) => !(book.concepts ?? []).includes(c.id));
     expect(foreign).toBeDefined();
-    const errors = collectBookOverviewHealthIssues({
+    const warnings = collectBookOverviewHealthIssues({
       graph,
       overviews: [
         withOverview({
@@ -57,8 +57,8 @@ describe("book overview health", () => {
         }),
       ],
       prioritySlugs: [],
-    }).filter((i) => i.severity === "error");
-    expect(errors.some((e) => e.code === "concept_not_on_book")).toBe(true);
+    }).filter((i) => i.severity === "warning");
+    expect(warnings.some((e) => e.code === "concept_not_on_book")).toBe(true);
   });
 
   it("fails when a priority slug is missing", () => {

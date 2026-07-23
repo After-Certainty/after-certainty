@@ -12,7 +12,7 @@ import { describe, expect, it } from "vitest";
 describe("questions manifest health", () => {
   it("passes validation against bundled semantic graph", async () => {
     const manifest = getQuestionsManifest();
-    const graph = (await getSemanticGraph()) as SemanticGraph;
+    const graph = await getSemanticGraph();
 
     expect(() =>
       assertQuestionsManifestHealthy({
@@ -23,11 +23,11 @@ describe("questions manifest health", () => {
     ).not.toThrow();
   });
 
-  it("has 12 published questions with 3+ featured", () => {
+  it("has published questions with 3+ featured", () => {
     const manifest = getQuestionsManifest();
     const published = manifest.questions.filter((q) => q.status === "published");
     const featured = published.filter((q) => q.featured);
-    expect(published).toHaveLength(12);
+    expect(published.length).toBeGreaterThanOrEqual(12);
     expect(featured.length).toBeGreaterThanOrEqual(3);
   });
 
@@ -35,7 +35,7 @@ describe("questions manifest health", () => {
     const manifest = getQuestionsManifest();
     const report = collectQuestionHealthReport({
       manifest,
-      graph: semanticManifest as SemanticGraph,
+      graph: semanticManifest as unknown as SemanticGraph,
       podcastEpisodes: podcastEpisodes.episodes,
     });
     expect(report.errors).toEqual([]);

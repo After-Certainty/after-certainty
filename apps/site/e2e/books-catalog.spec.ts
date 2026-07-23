@@ -21,11 +21,28 @@ test.describe("Books catalog", () => {
     await page.goto("/explore/books?shelf=fiction");
     await expect(page).toHaveURL(/shelf=fiction/);
     await expect(page.getByRole("heading", { name: "Filtered catalog" })).toBeVisible();
-    // Upstream contentType: only The Relay and Velorum are fiction.
-    await expect(page.locator("#main").getByText("2 books")).toBeVisible();
+    // Upstream contentType: Boundary Conditions, The Relay, and Velorum.
+    await expect(page.locator("#main").getByText("3 books")).toBeVisible();
     await expect(
       page.locator("#main").getByRole("heading", { name: "The Relay", level: 3 }),
     ).toBeVisible();
+    await expect(
+      page.locator("#main").getByRole("heading", { name: "Boundary Conditions", level: 3 }),
+    ).toBeVisible();
+  });
+
+  test("poetry type filter shows Observer Patterns and survives reload", async ({ page }) => {
+    await page.goto("/explore/books?type=poetry");
+    await expect(page).toHaveURL(/type=poetry/);
+    await expect(page.getByRole("link", { name: /Poetry\s+Observer Patterns/i })).toBeVisible();
+
+    await page.reload();
+    await expect(page).toHaveURL(/type=poetry/);
+    await expect(page.getByRole("link", { name: /Poetry\s+Observer Patterns/i })).toBeVisible();
+
+    await page.goBack();
+    await page.goForward();
+    await expect(page).toHaveURL(/type=poetry/);
   });
 
   test("clearing filters returns bare books URL", async ({ page }) => {

@@ -11,7 +11,7 @@ import { parsePublicationRegistry } from "@/lib/books/publication-registry-schem
 import type { Book } from "@/types/semanticGraph";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
-const graph = semanticManifest as SemanticGraph;
+const graph = semanticManifest as unknown as SemanticGraph;
 
 function book(over: Partial<Book> & Pick<Book, "id" | "slug">): Book {
   return {

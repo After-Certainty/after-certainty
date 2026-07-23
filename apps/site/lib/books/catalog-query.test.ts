@@ -33,6 +33,12 @@ describe("buildCatalogViewModel", () => {
     expect(relay?.contentType).toBe("fiction");
     const before = viewModel.find((b) => b.slug === "before-certainty-arrives");
     expect(before?.contentType).toBe("nonfiction");
+    const boundary = viewModel.find((b) => b.slug === "boundary-conditions");
+    expect(boundary?.contentType).toBe("fiction");
+    expect(boundary?.contentTypeLabel).toBe("Fiction");
+    const observer = viewModel.find((b) => b.slug === "observer-patterns");
+    expect(observer?.contentType).toBe("poetry");
+    expect(observer?.contentTypeLabel).toBe("Poetry");
   });
 });
 
@@ -115,9 +121,11 @@ describe("validate-catalog", () => {
 });
 
 describe("buildFilterOptions", () => {
-  it("exposes shelves and sort options", () => {
+  it("exposes shelves and sort options including poetry", () => {
     const options = buildFilterOptions(viewModel, graph);
     expect(options.shelves.some((s) => s.slug === "start-here")).toBe(true);
     expect(options.sorts.map((s) => s.value)).toContain("recommended");
+    expect(options.contentTypes).toContain("poetry");
+    expect(options.contentTypes).toContain("fiction");
   });
 });

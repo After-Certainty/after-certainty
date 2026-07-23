@@ -109,11 +109,11 @@ export function collectBookOverviewHealthIssues(input: {
       }
     } else if (selectedConcepts.length > 0) {
       issues.push({
-        severity: "error",
+        severity: "warning",
         code: "concepts_selected_on_empty_book",
         bookId: overview.bookId,
         bookSlug: overview.slug,
-        detail: `Book "${book.slug}" has no graph concepts but overview selects some.`,
+        detail: `Book "${book.slug}" has no graph concepts but overview selects some (allowed as orientation overlay).`,
       });
     }
 
@@ -130,11 +130,11 @@ export function collectBookOverviewHealthIssues(input: {
       }
       if (bookConceptIds.size > 0 && !bookConceptIds.has(conceptId)) {
         issues.push({
-          severity: "error",
+          severity: "warning",
           code: "concept_not_on_book",
           bookId: overview.bookId,
           bookSlug: overview.slug,
-          detail: `Concept "${conceptId}" is not linked to book "${book.slug}".`,
+          detail: `Concept "${conceptId}" is not linked to book "${book.slug}" (overview may surface orientation concepts).`,
         });
       }
     }
