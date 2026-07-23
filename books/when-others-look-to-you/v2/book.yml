@@ -21,6 +21,7 @@ book:
   is_canonical: false
   edition_label: Companion edition
   publication_date: '2026-06-01'
+  edition_published_at: '2026-06-01'
   content_type: nonfiction
   literary_form: monograph
   overview:

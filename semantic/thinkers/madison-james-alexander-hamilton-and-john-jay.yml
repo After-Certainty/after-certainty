@@ -1,6 +1,6 @@
 slug: madison-james-alexander-hamilton-and-john-jay
 name: Madison, James, Alexander Hamilton, and John Jay
-type: organization
+type: author_group
 summary: Authors of The Federalist—constitutional argument for union, checks, and
   faction management.
 concepts: []
@@ -12,3 +12,4 @@ works:
 - madison-james-alexander-hamilton-and-john-jay-the-federalist-papers
 whyThisMatters: Federalist papers sediment American legitimacy talk—scale, trust,
   and institutional design.
+citationOnly: true

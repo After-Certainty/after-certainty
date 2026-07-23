@@ -1,9 +1,9 @@
 slug: blame-compresses-complexity
 title: Blame Compresses Complexity
-setup: Blame can clarify responsibility and acknowledge harm when systems have produced injury
-  someone must answer for.
-problem: Villain narratives simplify systems into individuals; structural incentives and shared
-  participation disappear.
+setup: Blame can clarify responsibility and acknowledge harm when systems have produced
+  injury someone must answer for.
+problem: Villain narratives simplify systems into individuals; structural incentives
+  and shared participation disappear.
 forces:
 - Emotional resolution arrives faster than understanding
 - Learning narrows once a face is assigned
@@ -11,8 +11,8 @@ forces:
 - Scale is experienced as someone else's failure
 observation: Blame offers relief faster than contact with how the field actually produced
   the outcome.
-example: After a failure, the organization fires one manager while the incentives that shaped
-  everyone's choices stay unnamed.
+example: After a failure, the organization fires one manager while the incentives
+  that shaped everyone's choices stay unnamed.
 relatedConcepts:
 - accountability
 - harm
@@ -55,3 +55,8 @@ manifestations:
   organizations:
   - compliance closes when one role is sanctioned
   - training blames attitude instead of structure
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: after-certainty
+  note: Synthesized from organizational and public blame dynamics across several volumes.

@@ -63,4 +63,8 @@ manifestations:
   - children reproduce how a parent handled apology, blame, or silence under stress
 media:
   youtubeVideoId: rFD_xfottcQ
-
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: when-others-look-to-you-v1
+  note: Circulation synthesis of how leadership forms reproduce successors.

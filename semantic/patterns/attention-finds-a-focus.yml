@@ -26,7 +26,7 @@ relatedPatterns:
 relatedBooks:
 - when-others-look-to-you-v1
 relatedSources:
--   cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus
+- cialdini-robert-b-raymond-r-reno-and-carl-a-kallgren-a-focus
 recognitionSignals:
 - people glance toward the same person when uncertainty rises in a meeting
 - silence pushes someone to act before any formal handoff
@@ -67,4 +67,10 @@ media:
     path: semantic/media/patterns/attention-finds-a-focus.png
     width: 1200
     height: 669
-    alt: Infographic summarizing how attention converges on one person and influence follows.
+    alt: Infographic summarizing how attention converges on one person and influence
+      follows.
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: when-others-look-to-you-v1
+  note: Synthesized from portfolio attention practices, especially Learning to See.

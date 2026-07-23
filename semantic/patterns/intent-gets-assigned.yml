@@ -28,7 +28,8 @@ questions:
 - What would change if intent stayed genuinely unknown a little longer?
 counterbalances:
 - separate impact from attributed motive before responding
-- ask what the speaker was trying to do before defending against what they seem to have done
+- ask what the speaker was trying to do before defending against what they seem to
+  have done
 - describe behavior without converting it into identity verdict
 trajectory:
   earlySignals:
@@ -53,3 +54,8 @@ manifestations:
   organizations:
   - feedback turns into a story about belonging long before behavior is revised
   - silence gets read as dissent or agreement before motive is asked
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: how-meaning-moves
+  note: Meaning-movement synthesis of how intent is imputed under ambiguity.

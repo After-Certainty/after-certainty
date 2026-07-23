@@ -76,6 +76,7 @@ book:
       relationship: companion_to
       reason: Curiosity that stays with incomplete reads meets meaning forming under signal, compression, and restraint.
   publication_date: '2026-02-10'
+  edition_published_at: '2026-02-10'
 paths:
   manuscript: ./index.md
   output: .

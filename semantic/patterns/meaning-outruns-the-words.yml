@@ -55,3 +55,8 @@ manifestations:
   organizations:
   - brief feedback lands as verdict about belonging, not only about work
   - alignment on the surface narrows what people feel safe saying
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: how-meaning-moves
+  note: Communication synthesis of meaning escaping shared vocabulary.

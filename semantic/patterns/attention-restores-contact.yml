@@ -1,17 +1,17 @@
 slug: attention-restores-contact
 title: Attention Restores Contact
-setup: Scale and abstraction pull moral life away from particular harms, people, and tradeoffs
-  that still exist somewhere.
+setup: Scale and abstraction pull moral life away from particular harms, people, and
+  tradeoffs that still exist somewhere.
 problem: Blame and metrics average consequence until distance feels like innocence.
 forces:
 - Abstraction rewards summaries over cases
 - Distance is institutionally produced
 - Contact is slower than closure
 - Visibility substitutes for responsiveness
-observation: Attention reintroduces consequence where abstraction would conceal it—much of
-  staying human at scale is this discipline repeated.
-example: A review names affected people and lived outcomes, not only the accountable role
-  on the org chart.
+observation: Attention reintroduces consequence where abstraction would conceal it—much
+  of staying human at scale is this discipline repeated.
+example: A review names affected people and lived outcomes, not only the accountable
+  role on the org chart.
 relatedConcepts:
 - harm
 - scale
@@ -54,3 +54,8 @@ manifestations:
   organizations:
   - complaints are withdrawn without changing the workflow
   - green dashboards end investigation
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: after-certainty
+  note: Original synthesis linking attention practice to restored relational contact.

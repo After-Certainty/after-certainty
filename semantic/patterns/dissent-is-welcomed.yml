@@ -20,7 +20,8 @@ relatedBooks:
 - when-others-look-to-you-v1
 - coupling
 recognitionSignals:
-- someone interrupts the agenda to hold at an inconvenient slide without being treated as disloyal
+- someone interrupts the agenda to hold at an inconvenient slide without being treated
+  as disloyal
 - bad news moves in a thread or room everyone already saw
 - raising risk early does not cost a place at the table
 - problems show up before they compound into identity fights
@@ -60,4 +61,11 @@ media:
     path: semantic/media/patterns/dissent-is-welcomed.png
     width: 1200
     height: 669
-    alt: Infographic summarizing how dissent surfaces problems early so leaders can correct course in time.
+    alt: Infographic summarizing how dissent surfaces problems early so leaders can
+      correct course in time.
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: when-others-look-to-you-v1
+  - work: coupling
+  note: Leadership-field synthesis of conditions under which dissent remains usable.

@@ -57,4 +57,9 @@ manifestations:
   - compliance stores exceptions instead of resolving them
 media:
   mediumArticleUrl: https://medium.com/@steffensen.kevin/exceptions-are-forever-1299b99da371
-
+grounding:
+  type: original_synthesis
+  developedFrom:
+  - work: when-others-look-to-you-v1
+  - work: coupling
+  note: Portfolio synthesis of temporary exceptions that become standing structure.
