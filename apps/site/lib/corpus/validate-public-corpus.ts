@@ -2,6 +2,7 @@ import { type CatalogBookView } from "@/lib/books/catalog-view-model";
 import { collectCatalogHealthIssues } from "@/lib/books/validate-catalog";
 import { collectBookOverviewHealthIssues } from "@/lib/books/validate-book-overviews";
 import { buildPublicCorpusRegistry, type PublicCorpusRegistry } from "@/lib/corpus/public-registry";
+import { collectChapterStructureHealthIssues } from "@/lib/graph/validate-chapters";
 import { questionsFromGraph, trailsFromGraph } from "@/lib/graph/discovery";
 import { getFeaturedQuestions, getQuestionSearchBridges } from "@/lib/questions/loadQuestions";
 import { collectQuestionHealthIssues } from "@/lib/questions/validate";
@@ -71,6 +72,43 @@ export function collectPublicCorpusIntegrityIssues(
     });
   }
 
+  for (const issue of collectChapterStructureHealthIssues({ graph })) {
+    issues.push({
+      severity: issue.severity,
+      code: `CHAPTER_${issue.code}`.toUpperCase(),
+      entityId: issue.entityId ?? issue.editionId,
+      sourceFeature: "chapters",
+      detail: issue.detail,
+    });
+  }
+
+  for (const [editionId, chapterIds] of registry.chapterIdsByEditionId) {
+    const book = registry.byId.get(editionId);
+    if (!book || book.entityType !== "book") {
+      issues.push({
+        severity: "error",
+        code: "CHAPTER_EDITION_NOT_IN_REGISTRY",
+        entityId: editionId,
+        sourceFeature: "chapters",
+        targetFeature: "catalog",
+        detail: `Chapter index references edition "${editionId}" missing from the public registry books map.`,
+      });
+      continue;
+    }
+    for (const chapterId of chapterIds) {
+      const chapter = registry.byId.get(chapterId);
+      if (!chapter || chapter.entityType !== "chapter") {
+        issues.push({
+          severity: "error",
+          code: "CHAPTER_INDEX_MISSING_RECORD",
+          entityId: chapterId,
+          sourceFeature: "chapters",
+          detail: `Chapter id "${chapterId}" is indexed under "${editionId}" but missing from registry.chapters.`,
+        });
+      }
+    }
+  }
+
   for (const issue of collectQuestionHealthIssues({
     manifest: {
       questions: questionsFromGraph(graph),
@@ -131,6 +169,39 @@ export function collectPublicCorpusIntegrityIssues(
   }
 
   const searchIds = registry.searchDocumentIds;
+
+  for (const chapter of registry.chapters) {
+    if (chapter.searchEligible || searchIds.has(chapter.id)) {
+      issues.push({
+        severity: "error",
+        code: "CHAPTER_SEARCH_ELIGIBLE",
+        entityId: chapter.id,
+        sourceFeature: "chapters",
+        targetFeature: "search",
+        detail: `Chapter "${chapter.slug}" must not be search-eligible until chapter routes ship.`,
+      });
+    }
+    if (chapter.sitemapEligible) {
+      issues.push({
+        severity: "error",
+        code: "CHAPTER_SITEMAP_ELIGIBLE",
+        entityId: chapter.id,
+        sourceFeature: "chapters",
+        targetFeature: "sitemap",
+        detail: `Chapter "${chapter.slug}" must not be sitemap-eligible until chapter routes ship.`,
+      });
+    }
+    if (chapter.visibility === "listed") {
+      issues.push({
+        severity: "error",
+        code: "CHAPTER_LISTED_PREMATURELY",
+        entityId: chapter.id,
+        sourceFeature: "chapters",
+        detail: `Chapter "${chapter.slug}" is listed before chapter routes ship.`,
+      });
+    }
+  }
+
   for (const doc of registry.searchDocuments) {
     if (!doc.canonicalUrl?.trim()) {
       issues.push({

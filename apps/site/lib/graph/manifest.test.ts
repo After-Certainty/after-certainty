@@ -38,6 +38,11 @@ describe("validateSemanticGraph", () => {
     expect(result.data.shelves?.length).toBeGreaterThan(0);
     expect(result.data.changeEvents?.length).toBeGreaterThan(0);
     expect(result.data.searchAliases?.length).toBeGreaterThan(0);
+    expect(result.data.parts?.length).toBeGreaterThan(0);
+    expect(result.data.chapters?.length).toBeGreaterThan(0);
+    const sampleChapter = result.data.chapters?.[0];
+    expect(sampleChapter?.routeKey).toMatch(/^\/explore\/books\//);
+    expect(sampleChapter?.editionId).toBeTruthy();
     const withOverview = result.data.books.filter((b) => b.overview);
     expect(withOverview.length).toBeGreaterThan(0);
     expect(result.data.books.some((b) => b.contentType === "fiction")).toBe(true);

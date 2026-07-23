@@ -42,6 +42,17 @@ Manifest metadata fields: `schemaVersion`, `generatedAt`, `sourceCommit`,
 Supported schema major: **2** (including `2.1`, `2.2`). Major ≥ 3 is refused.
 Missing `schemaVersion` is accepted for legacy manifests.
 
+### Schema 2.2 book structure
+
+`parts[]` and `chapters[]` are retained on the typed graph (Zod no longer strips
+them). Selectors live in [`lib/graph/chapters.ts`](../lib/graph/chapters.ts).
+The public registry indexes chapters as **unlisted** metadata (`searchEligible`
+and `sitemapEligible` stay false) until on-site chapter routes ship. Structural
+integrity runs through `validate:public-corpus`.
+
+This slice does **not** add chapter reading pages, sitemap entries, or search
+documents for chapter bodies.
+
 ## Staleness policy
 
 Fallback age is measured from `generatedAt`.

@@ -443,9 +443,53 @@ const searchAliasSchema = z.object({
   note: z.string().optional(),
 });
 
+const chapterKindSchema = z.enum([
+  "introduction",
+  "bridge",
+  "chapter",
+  "conclusion",
+  "appendix",
+  "interlude",
+  "afterword",
+  "other",
+]);
+
+const manifestPartSchema = z.object({
+  id: z.string().min(1),
+  workId: z.string().min(1),
+  editionId: z.string().min(1),
+  title: z.string().min(1),
+  position: z.number().int().nonnegative(),
+  slug: z.string().min(1),
+});
+
+const manifestChapterSchema = z.object({
+  id: z.string().min(1),
+  workId: z.string().min(1),
+  editionId: z.string().min(1),
+  title: z.string().min(1),
+  position: z.number().int().nonnegative(),
+  kind: chapterKindSchema,
+  sourcePath: z.string().min(1),
+  wordCount: z.number().int().nonnegative(),
+  estimatedReadingMinutes: z.number().int().nonnegative(),
+  public: z.boolean(),
+  routeKey: z.string().min(1),
+  partId: z.string().min(1).optional(),
+  partTitle: optionalManifestString,
+  summary: optionalManifestString,
+  centralQuestion: optionalManifestString,
+  selectedConceptIds: z.array(z.string().min(1)).optional(),
+  selectedPatternIds: z.array(z.string().min(1)).optional(),
+  searchAliases: z.array(z.string().min(1)).optional(),
+  situationIds: z.array(z.string().min(1)).optional(),
+  readingTransition: optionalManifestString,
+});
+
 /**
  * Root manifest schema. Unknown top-level keys are stripped from the typed result;
- * schemaVersion 2.1+ discovery collections and 2.2 literaryForm are retained when present.
+ * schemaVersion 2.1+ discovery collections and 2.2 literaryForm / chapters / parts
+ * are retained when present.
  */
 export const semanticGraphSchema = z.object({
   books: z.array(bookSchema).default([]),
@@ -463,6 +507,8 @@ export const semanticGraphSchema = z.object({
   shelves: z.array(manifestShelfSchema).optional(),
   changeEvents: z.array(changeEventSchema).optional(),
   searchAliases: z.array(searchAliasSchema).optional(),
+  parts: z.array(manifestPartSchema).optional(),
+  chapters: z.array(manifestChapterSchema).optional(),
   /** Manifest metadata (optional) */
   manifestVersion: z.union([z.literal(1), z.literal(2)]).optional(),
   schemaVersion: z.string().optional(),
@@ -493,6 +539,8 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     shelves: data.shelves,
     changeEvents: data.changeEvents,
     searchAliases: data.searchAliases,
+    parts: data.parts,
+    chapters: data.chapters,
     manifestVersion: data.manifestVersion,
     schemaVersion: data.schemaVersion,
     generatedAt: data.generatedAt,

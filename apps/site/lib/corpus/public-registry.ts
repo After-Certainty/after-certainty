@@ -5,6 +5,12 @@ import {
   type CatalogBookView,
 } from "@/lib/books/catalog-view-model";
 import { getActiveShelves, resolveShelfBooks } from "@/lib/books/shelves";
+import {
+  chapterSlugFromRouteKey,
+  chaptersFromGraph,
+  indexChaptersByEditionId,
+  indexPartsByEditionId,
+} from "@/lib/graph/chapters";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
 import { resolveThinkers } from "@/lib/graph/thinkers";
@@ -26,7 +32,8 @@ export type PublicEntityKind =
   | "situation"
   | "thinker"
   | "source"
-  | "podcast_episode";
+  | "podcast_episode"
+  | "chapter";
 
 export type PublicEntityRecord = {
   id: string;
@@ -54,6 +61,11 @@ export type PublicCorpusRegistry = {
   situations: PublicEntityRecord[];
   thinkers: PublicEntityRecord[];
   sources: PublicEntityRecord[];
+  /**
+   * Chapter metadata from schema 2.2. Unlisted until chapter routes ship —
+   * retained for integrity, TOC helpers, and future discovery.
+   */
+  chapters: PublicEntityRecord[];
   /** Catalog view-model used to build this registry (reuse in integrity checks). */
   catalogViewModel: CatalogBookView[];
   /** Search documents built once for this registry. */
@@ -68,6 +80,10 @@ export type PublicCorpusRegistry = {
   sitemapPaths: string[];
   /** Shelf membership: shelfId → book ids resolved for public canonical catalog. */
   shelfMemberBookIds: Map<string, string[]>;
+  /** Part ids keyed by edition (book) id. */
+  partIdsByEditionId: Map<string, string[]>;
+  /** Chapter ids keyed by edition (book) id, reading order. */
+  chapterIdsByEditionId: Map<string, string[]>;
 };
 
 /**
@@ -252,6 +268,39 @@ export function buildPublicCorpusRegistry(graph: SemanticGraph): PublicCorpusReg
     return record;
   });
 
+  const partIdsByEditionId = new Map<string, string[]>();
+  for (const [editionId, parts] of indexPartsByEditionId(graph)) {
+    partIdsByEditionId.set(
+      editionId,
+      parts.map((part) => part.id),
+    );
+  }
+
+  const chapterIdsByEditionId = new Map<string, string[]>();
+  for (const [editionId, chaptersForEdition] of indexChaptersByEditionId(graph)) {
+    chapterIdsByEditionId.set(
+      editionId,
+      chaptersForEdition.map((chapter) => chapter.id),
+    );
+  }
+
+  const chapters: PublicEntityRecord[] = chaptersFromGraph(graph).map((chapter) => {
+    const record: PublicEntityRecord = {
+      id: chapter.id,
+      entityType: "chapter",
+      slug: chapterSlugFromRouteKey(chapter.routeKey),
+      title: chapter.title,
+      publicStatus: chapter.public ? "public" : "hidden",
+      // Unlisted until dedicated chapter routes are shipped; routeKey is reserved.
+      visibility: "unlisted",
+      canonicalUrl: chapter.routeKey,
+      searchEligible: false,
+      sitemapEligible: false,
+    };
+    byId.set(record.id, record);
+    return record;
+  });
+
   const sitemapPaths: string[] = [
     explorePaths.books,
     "/questions",
@@ -278,6 +327,7 @@ export function buildPublicCorpusRegistry(graph: SemanticGraph): PublicCorpusReg
     situations,
     thinkers,
     sources,
+    chapters,
     catalogViewModel: catalogVm,
     searchDocuments: searchDocs,
     searchDocumentIds,
@@ -285,5 +335,7 @@ export function buildPublicCorpusRegistry(graph: SemanticGraph): PublicCorpusReg
     searchContentTypeByBookId,
     sitemapPaths,
     shelfMemberBookIds,
+    partIdsByEditionId,
+    chapterIdsByEditionId,
   };
 }

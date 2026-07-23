@@ -418,6 +418,52 @@ export interface SearchAlias {
   note?: string;
 }
 
+/** schemaVersion 2.2 book-structure part (TOC grouping). */
+export type ManifestChapterKind =
+  | "introduction"
+  | "bridge"
+  | "chapter"
+  | "conclusion"
+  | "appendix"
+  | "interlude"
+  | "afterword"
+  | "other";
+
+export interface ManifestPart {
+  id: string;
+  workId: string;
+  /** Book/edition id this part belongs to. */
+  editionId: string;
+  title: string;
+  position: number;
+  slug: string;
+}
+
+export interface ManifestChapter {
+  id: string;
+  workId: string;
+  /** Book/edition id this chapter belongs to. */
+  editionId: string;
+  title: string;
+  position: number;
+  kind: ManifestChapterKind;
+  sourcePath: string;
+  wordCount: number;
+  estimatedReadingMinutes: number;
+  public: boolean;
+  /** Future on-site chapter path; not a live route until chapter pages ship. */
+  routeKey: string;
+  partId?: string;
+  partTitle?: string;
+  summary?: string;
+  centralQuestion?: string;
+  selectedConceptIds?: string[];
+  selectedPatternIds?: string[];
+  searchAliases?: string[];
+  situationIds?: string[];
+  readingTransition?: string;
+}
+
 export interface SemanticGraph {
   books: Book[];
   glossary: GlossaryConcept[];
@@ -437,6 +483,9 @@ export interface SemanticGraph {
   shelves?: ManifestShelf[];
   changeEvents?: ChangeEvent[];
   searchAliases?: SearchAlias[];
+  /** schemaVersion 2.2 book structure (absent on older manifests). */
+  parts?: ManifestPart[];
+  chapters?: ManifestChapter[];
   /** Manifest metadata (optional, from semantic-manifest.json) */
   manifestVersion?: 1 | 2;
   /** Additive discovery contract version (e.g. "2.1"). */

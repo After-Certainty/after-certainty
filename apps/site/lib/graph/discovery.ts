@@ -198,3 +198,14 @@ export { contentTypeFromBook } from "@/lib/graph/content-type";
 
 /** Re-export for callers that previously typed against discovery. */
 export type { ContentType };
+
+export {
+  chapterSlugFromRouteKey,
+  chaptersForEdition,
+  chaptersFromGraph,
+  indexChaptersByEditionId,
+  indexPartsByEditionId,
+  partsForEdition,
+  partsFromGraph,
+  publicChaptersForEdition,
+} from "@/lib/graph/chapters";

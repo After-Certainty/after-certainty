@@ -27,6 +27,16 @@ describe("public corpus registry", () => {
     expect(registry.catalogContentTypeByBookId.get(boundary!.id)).toBe("fiction");
     expect(registry.searchContentTypeByBookId.get(observer!.id)).toBe("poetry");
   });
+
+  it("retains schema 2.2 chapters as unlisted discovery metadata", () => {
+    const registry = buildPublicCorpusRegistry(graph);
+    expect(registry.chapters.length).toBeGreaterThan(0);
+    expect(registry.chapterIdsByEditionId.get("book-after-certainty")?.length).toBeGreaterThan(0);
+    expect(registry.partIdsByEditionId.get("book-after-certainty")?.length).toBeGreaterThan(0);
+    expect(registry.chapters.every((c) => c.visibility === "unlisted")).toBe(true);
+    expect(registry.chapters.every((c) => !c.searchEligible && !c.sitemapEligible)).toBe(true);
+    expect(registry.sitemapPaths.some((path) => path.includes("/chapters/"))).toBe(false);
+  });
 });
 
 describe("public corpus integrity", () => {
