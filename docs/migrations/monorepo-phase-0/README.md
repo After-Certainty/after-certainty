@@ -44,3 +44,5 @@ See the **Manual** section of [`checklist.md`](checklist.md). Vercel MCP and Git
 ## Exit criteria
 
 Phase 0 is complete when [`checklist.md`](checklist.md) is checked off (automated items via this PR; manual items by a maintainer). Phase 1 (site import under `apps/site`) must not start until the checklist’s “required before Phase 1” items are done.
+
+**Update 2026-07-23:** Maintainer confirmed there are no open site MRs/PRs blocking import. Remaining Phase 1 gate: optional inventory skim for private workflows/apps; then merge this Phase 0 PR.

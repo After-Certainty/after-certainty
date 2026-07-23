@@ -12,7 +12,7 @@ Legend: **[auto]** done by this PR’s code/docs · **[manual]** requires a huma
 - [x] **[auto]** Baseline site fallback / intended-release identity captured
 - [x] **[auto]** Baseline production smoke URL list captured ([`baselines/production-smoke-urls.json`](baselines/production-smoke-urls.json))
 - [x] **[auto]** Public-contract pytest covering representative entities
-- [ ] **[manual]** Confirm no open PRs on `after-certainty-site` that must merge before import (0 open issues at Phase 0 start; re-check PRs)
+- [x] **[manual]** Confirm no open PRs on `after-certainty-site` that must merge before import — confirmed 2026-07-23 (maintainer: no open site MRs)
 - [ ] **[manual]** Skim [`inventory.md`](inventory.md) and note any private workflows/apps not listed
 
 ## Required before Phase 5 (start collecting now)
