@@ -394,11 +394,16 @@ entries:
   - everyone knows love
   - hard to explain love
   - love everyone knows
+  - recognizing before explaining
+  - care as living mystery
   kind: related
   aliasClass: vocabulary_bridge
   targetIds:
   - book-everyone-knows-love
-  note: Title phrasing for Everyone Knows Love
+  - concept-care
+  - concept-connection
+  - pattern-meaning-forms-early
+  note: Title and recognition phrasing for Everyone Knows Love — care and connection, not moral slogan
 - terms:
   - how serious systems learn
   - acting without certainty
@@ -414,11 +419,16 @@ entries:
   - the relay
   - social science fiction
   - courier relay
+  - civilization blind spot
+  - participation not certainty
   kind: related
   aliasClass: vocabulary_bridge
   targetIds:
   - book-the-relay
-  note: Title and genre bridge for The Relay
+  - concept-finite-perspective
+  - concept-coordination
+  - pattern-learning-collapses
+  note: Title and genre bridge for The Relay — finite perspective and learning failure dramatized in fiction
 - terms:
   - what we cannot see
   - limits of perspective

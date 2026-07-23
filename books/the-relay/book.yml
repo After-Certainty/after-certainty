@@ -29,9 +29,65 @@ book:
     nonGoals:
     - It is not a treatise or handbook disguised as a novel.
     - It does not settle the project’s nonfiction arguments by plot alone.
+    selectedConcepts:
+    - finite-perspective
+    - coordination
+    - uncertainty
+    - feedback
+    - trust
+    - institutional-memory
+    selectedPatterns:
+    - learning-collapses
+    - meaning-outruns-the-words
+    - gaps-invite-completion
+    - feedback-drives-change
+    - responsibility-persists-beyond-control
+    selectedConceptRoles:
+    - conceptId: finite-perspective
+      roleInWork: Dramatizes sight from somewhere—each courier and world holds only a fragment of the network's truth.
+    - conceptId: coordination
+      roleInWork: Stages shared movement across gates when no center holds the complete map.
+    - conceptId: uncertainty
+      roleInWork: The condition the civilization lives inside when explanations go silent and participation must continue.
+    - conceptId: feedback
+      roleInWork: What fails when silence replaces report—and what must return for the relay to learn again.
+    - conceptId: trust
+      roleInWork: Participation across partial sight; willingness to move without verifying the whole corridor.
+    - conceptId: institutional-memory
+      roleInWork: Stages what organizations forget and what unofficial fixes preserve when truth stops circulating.
+    selectedPatternRoles:
+    - patternId: learning-collapses
+      roleInWork: Dramatizes ground story that never reaches the room—gates darken while summaries stay calm.
+    - patternId: meaning-outruns-the-words
+      roleInWork: Stages explanations that cannot travel as fast as the cascade of effects.
+    - patternId: gaps-invite-completion
+      roleInWork: Shows how silence is filled with convenient stories until fragments force a harder read.
+    - patternId: feedback-drives-change
+      roleInWork: Dramatizes the rare moments when new facts still revise direction instead of protecting the public story.
+    - patternId: responsibility-persists-beyond-control
+      roleInWork: Stages answerability that remains when no courier can steer the whole network.
     readNext:
     - how-meaning-moves
     - curiosity-before-certainty
+    relatedWorks:
+    - workId: what-we-cannot-see
+      relationship: fictionalizes
+      reason: Dramatizes finite perspective—a civilization-sized blind spot visible only one courier at a time.
+    - workId: how-meaning-moves
+      relationship: fictionalizes
+      reason: Stages meaning that outruns shared words when silence replaces explanation across the network.
+    - workId: how-serious-systems-learn
+      relationship: fictionalizes
+      reason: Dramatizes institutional learning failure and the return of feedback when corrections stop circulating.
+    - workId: curiosity-before-certainty
+      relationship: fictionalizes
+      reason: Stages curiosity as participation under uncertainty—moving without a complete map rather than waiting for certainty.
+    - workId: why-collaboration-is-so-hard
+      relationship: fictionalizes
+      reason: Dramatizes shared work that exceeds any one person's sight, ownership, and control across the relay.
+    - workId: after-certainty
+      relationship: fictionalizes
+      reason: Stages judgment and responsibility when understanding is not enough and no center can settle the truth alone.
   literary_form: novel
 paths:
   manuscript: ./index.md

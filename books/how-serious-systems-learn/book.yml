@@ -30,11 +30,55 @@ book:
     - consequence-architecture
     - feedback
     - coordination
+    - institutional-memory
+    selectedPatterns:
+    - feedback-drives-change
+    - learning-collapses
+    - revisability-preserves-judgment
+    - dissent-is-welcomed
+    selectedConceptRoles:
+    - conceptId: adaptation
+      roleInWork: Learning in motion—systems that revise under pressure rather than waiting for perfect prediction.
+    - conceptId: contestability
+      roleInWork: Correction paths that stay open so authority preserves learning instead of sealing myth.
+    - conceptId: consequence-architecture
+      roleInWork: How roles, interfaces, and incentives route what failure teaches back into the system.
+    - conceptId: feedback
+      roleInWork: Signal that must still change decisions; the handbook's core loop for serious learning.
+    - conceptId: coordination
+      roleInWork: Collective action under incomplete information—disciplines that keep shared movement revisable.
+    - conceptId: institutional-memory
+      roleInWork: What organizations preserve across incidents and turnover so pain becomes structure without becoming dogma.
+    selectedPatternRoles:
+    - patternId: feedback-drives-change
+      roleInWork: Healthy incident learning—new facts and risk still revise plans after direction is set.
+    - patternId: learning-collapses
+      roleInWork: Failure mode when ground story never reaches decision; distance and filtered reporting thin correction.
+    - patternId: revisability-preserves-judgment
+      roleInWork: Discipline of being wrong on purpose—judgment stays attached to reality after action begins.
+    - patternId: dissent-is-welcomed
+      roleInWork: Authority that preserves correction by making early bad news safe enough to raise.
     readBefore:
     - curiosity-before-certainty
     readNext:
     - coupling
     - when-others-look-to-you-v1
+    relatedWorks:
+    - workId: curiosity-before-certainty
+      relationship: deepens
+      reason: Extends personal curiosity posture into institutional disciplines for learning without certainty.
+    - workId: the-discipline-of-uncertainty
+      relationship: companion_to
+      reason: Twin handbooks—learning in motion and judgment discipline when certainty stops coordinating.
+    - workId: coupling
+      relationship: prepares_for
+      reason: Learning disciplines meet architecture of cohesion, consequence, and how systems join.
+    - workId: when-others-look-to-you
+      relationship: companion_to
+      reason: Feedback, dissent, and leadership under pressure share the same correction problems at human scale.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Operating commitments for serious systems open into living and judging after frameworks thin.
   literary_form: handbook
 paths:
   manuscript: ./index.md

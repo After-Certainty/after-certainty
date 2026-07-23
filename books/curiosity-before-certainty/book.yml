@@ -25,9 +25,56 @@ book:
     nonGoals:
     - It does not offer a complete epistemology or a replacement ideology.
     - It does not treat curiosity as endless delay of decision.
+    selectedConcepts:
+    - uncertainty
+    - certainty
+    - humility
+    - revisability
+    - provisional-commitment
+    selectedPatterns:
+    - meaning-forms-early
+    - gaps-invite-completion
+    - feedback-drives-change
+    selectedConceptRoles:
+    - conceptId: uncertainty
+      roleInWork: The condition curiosity practices inside—incomplete information that still requires noticing and next moves.
+    - conceptId: certainty
+      roleInWork: The premature closure curiosity resists; easy certainty that hides complexity rather than earning judgment.
+    - conceptId: humility
+      roleInWork: Epistemic posture of "I might be wrong"—courage to stay open without abandoning action.
+    - conceptId: revisability
+      roleInWork: Designed openness to update after small experiments; curiosity as practice, not endless deferral.
+    - conceptId: provisional-commitment
+      roleInWork: Acting on the best partial case while remaining structurally willing to revise.
+    selectedPatternRoles:
+    - patternId: meaning-forms-early
+      roleInWork: Shows how a working story settles before checking—curiosity interrupts premature closure.
+    - patternId: gaps-invite-completion
+      roleInWork: Names the urge to fill ambiguity fast; curiosity keeps the gap open long enough to notice.
+    - patternId: feedback-drives-change
+      roleInWork: Small experiments and debugging as curiosity in motion—new facts still allowed to change direction.
     readNext:
     - what-we-cannot-see
     - after-certainty
+    relatedWorks:
+    - workId: what-we-cannot-see
+      relationship: prepares_for
+      reason: Curiosity as epistemic posture prepares the finite-perspective volume on limits of sight.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: An approachable doorway into living and judging when understanding is not enough.
+    - workId: how-serious-systems-learn
+      relationship: companion_to
+      reason: Personal curiosity posture pairs with institutional disciplines for learning under pressure.
+    - workId: the-discipline-of-uncertainty
+      relationship: contrasts_with
+      reason: Curiosity is epistemic posture and practice; discipline is decision quality and restraint under incomplete information—not a second handbook of the same kind.
+    - workId: learning-to-see
+      relationship: contrasts_with
+      reason: Learning to See compares formation practices across traditions; this book stays with curiosity as an entry posture, not wisdom-tradition synthesis.
+    - workId: how-meaning-moves
+      relationship: companion_to
+      reason: Curiosity that stays with incomplete reads meets meaning forming under signal, compression, and restraint.
   publication_date: '2026-02-10'
 paths:
   manuscript: ./index.md
