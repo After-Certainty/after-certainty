@@ -676,14 +676,10 @@ def build_thinkers(repo: Path) -> list[dict]:
         why = str(data.get("whyThisMatters", "")).strip()
         if why:
             entry["whyThisMatters"] = why
-        aliases = [
-            str(a).strip() for a in (data.get("aliases") or []) if str(a).strip()
-        ]
+        aliases = [str(a).strip() for a in (data.get("aliases") or []) if str(a).strip()]
         if aliases:
             entry["aliases"] = aliases
-        former = [
-            str(a).strip() for a in (data.get("formerSlugs") or []) if str(a).strip()
-        ]
+        former = [str(a).strip() for a in (data.get("formerSlugs") or []) if str(a).strip()]
         if former:
             entry["formerSlugs"] = former
         canonical = str(data.get("canonicalSlug") or "").strip()
@@ -749,9 +745,7 @@ def build_relationships(repo: Path) -> list[dict]:
             origin = str(prov.get("origin") or "").strip()
             if origin:
                 projected: dict = {"origin": origin}
-                evidence = [
-                    str(e).strip() for e in (prov.get("evidence") or []) if str(e).strip()
-                ]
+                evidence = [str(e).strip() for e in (prov.get("evidence") or []) if str(e).strip()]
                 if evidence:
                     projected["evidence"] = evidence
                 row_out["provenance"] = projected

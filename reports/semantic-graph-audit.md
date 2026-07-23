@@ -4,14 +4,13 @@
 
 - Repository type: **source**
 - Input files: build/semantic-manifest.json
-- Errors: **1**
-- Warnings: **78**
-- Info: **281**
+- Errors: **0**
+- Warnings: **74**
+- Info: **261**
 - Entities scanned: {'books': 32, 'concepts': 144, 'patterns': 30, 'thinkers': 635, 'sources': 648, 'relationships': 109}
 
 ## Top priority issues
 
-- **[error]** source-metadata / source `jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis` — name contains markdown italics: 'Jahn K. Hakes and Raymond D. Sauer — An Economic Evaluation of the *Moneyball* Hypothesis'
 - **[warning]** concept-grounding / thinker `international-football-association-board` — Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'interpretation'. — *Add 'interpretation' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `international-football-association-board` — Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'judgment'. — *Add 'judgment' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `international-football-association-board` — Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'operational-finality'. — *Add 'operational-finality' to thinker concepts.*
@@ -31,16 +30,17 @@
 - **[warning]** concept-grounding / thinker `nfl-com` — Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'interpretation'. — *Add 'interpretation' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `nfl-com` — Linked work supports this concept but thinker.concepts omits it. (via work nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground) Suggested concept: 'operational-finality'. — *Add 'operational-finality' to thinker concepts.*
 - **[warning]** concept-grounding / thinker `steve-wyche` — Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'athletic-refusal'. — *Add 'athletic-refusal' to thinker concepts.*
+- **[warning]** concept-grounding / thinker `steve-wyche` — Linked work supports this concept but thinker.concepts omits it. (via work steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem) Suggested concept: 'gesture-afterlife'. — *Add 'gesture-afterlife' to thinker concepts.*
 
 ## Issue counts by category
 
-- pattern-metadata: 120
+- pattern-metadata: 100
 - concept-metadata: 82
 - relationship-quality: 79
 - concept-grounding: 27
-- source-metadata: 25
-- thinker-metadata: 23
-- slug-quality: 4
+- source-metadata: 24
+- thinker-metadata: 21
+- slug-quality: 2
 
 ## Relationship vocabulary (top labels)
 
@@ -74,9 +74,6 @@
 
 ## Full issue list
 
-### Error
-
-- **source-metadata** — source `jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis` (jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis): name contains markdown italics: 'Jahn K. Hakes and Raymond D. Sauer — An Economic Evaluation of the *Moneyball* Hypothesis'
 ### Warning
 
 - **concept-grounding** — thinker `international-football-association-board` (International Football Association Board): Linked work supports this concept but thinker.concepts omits it. (via work international-football-association-board-video-assistant-referee-var-protocol) Suggested concept: 'interpretation'.
@@ -108,8 +105,6 @@
 - **concept-grounding** — thinker `will-graves` (Will Graves): Linked work supports this concept but thinker.concepts omits it. (via work will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self) Suggested concept: 'playing-hurt-moral-language'.
 - **slug-quality** — thinker `beno-t-monin` (Benoît Monin): Slug appears damaged by diacritic stripping.
 - **slug-quality** — thinker `beno-t-monin` (Benoît Monin): Slug may be stale after title change (diacritic damage).
-- **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug appears damaged by diacritic stripping.
-- **slug-quality** — thinker `hal-daum-iii` (Hal Daumé III): Slug may be stale after title change (diacritic damage).
 - **source-metadata** — source `arrington-leonard-j-great-basin-kingdom` (arrington-leonard-j-great-basin-kingdom): creatorNames[0] 'Leonard J Arrington' != author portion of name 'Leonard J. Arrington'
 - **source-metadata** — source `brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an` (brownell-kelly-d-and-kenneth-e-warner-the-perils-of-ignoring-history-big-tobacco-played-dirty-an): creatorNames[0] 'Kelly D. Brownell' != author portion of name 'Brownell, Kelly D., and Kenneth E. Warner'
 - **source-metadata** — source `center-for-responsive-politics-opensecrets-fundraising-totals-and-donor-reporting-https-www-open` (OpenSecrets fundraising totals and donor reporting): Institutional statistics or report classified like a book.
@@ -144,7 +139,6 @@
 - **thinker-metadata** — thinker `jahn-k-hakes-and-raymond-d-sauer` (Jahn K. Hakes and Raymond D. Sauer): Thinker name lists ~2 people who could be separate thinker entries.
 - **thinker-metadata** — thinker `los-angeles-times` (Los Angeles Times): Person-like name classified as organization.
 - **thinker-metadata** — thinker `major-league-baseball` (Major League Baseball): Person-like name classified as organization.
-- **thinker-metadata** — thinker `moore-et-al` (Moore et al): Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.
 - **thinker-metadata** — thinker `national-collegiate-athletic-association` (National Collegiate Athletic Association): Person-like name classified as organization.
 - **thinker-metadata** — thinker `nba-communications` (NBA Communications): Person-like name classified as organization.
 - **thinker-metadata** — thinker `nbc-sports-boston` (NBC Sports Boston): Person-like name classified as organization.
@@ -155,7 +149,6 @@
 - **thinker-metadata** — thinker `united-states-congress` (United States Congress): Person-like name classified as organization.
 - **thinker-metadata** — thinker `united-states-supreme-court` (United States Supreme Court): Person-like name classified as organization.
 - **thinker-metadata** — thinker `voluntary-carbon-markets-integrity-initiative` (Voluntary Carbon Markets Integrity Initiative): Person-like name classified as organization.
-- **thinker-metadata** — thinker `weber-rawlins-et-al` (Weber Rawlins et al): Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.
 - **thinker-metadata** — thinker `world-athletics` (World Athletics): Person-like name classified as organization.
 ### Info
 
@@ -243,87 +236,72 @@
 - **concept-metadata** — concept `who-can-leave-safely` (Who can leave safely): Concept has no related concepts.
 - **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern has no related sources.
 - **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `admiration-becomes-insulation` (Admiration Becomes Insulation): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern has no related sources.
 - **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-finds-a-focus` (Attention Finds a Focus): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern has no related sources.
 - **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-finds-a-signal` (Attention Finds a Signal): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern has no related sources.
 - **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `attention-restores-contact` (Attention Restores Contact): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern has no related sources.
 - **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `blame-compresses-complexity` (Blame Compresses Complexity): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `contact-keeps-the-read-open` (Contact Keeps the Read Open): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern has no related sources.
 - **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `correctness-hardens-into-identity` (Correctness Hardens Into Identity): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `disagreement-is-suppressed` (Disagreement is Suppressed): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `disagreement-is-suppressed` (Disagreement is Suppressed): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern has no related sources.
 - **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `dissent-is-welcomed` (Dissent is Welcomed): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `examples-accumulate` (Examples Accumulate): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `examples-accumulate` (Examples Accumulate): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern has no related sources.
 - **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `exceptions-are-forever` (Exceptions are Forever): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern has no related sources.
 - **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `explanation-replaces-response` (Explanation Replaces Response): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern has no related sources.
 - **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `feedback-drives-change` (Feedback Drives Change): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern has no related sources.
 - **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `finality-compensates-for-uncertainty` (Finality Compensates for Uncertainty): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `gaps-invite-completion` (Gaps Invite Completion): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `gaps-invite-completion` (Gaps Invite Completion): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern has no related sources.
 - **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `intent-gets-assigned` (Intent Gets Assigned): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leaders-feel-the-consequences` (Leaders Feel the Consequences): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leaders-feel-the-consequences` (Leaders Feel the Consequences): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern has no related sources.
 - **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leadership-coalesces` (Leadership Coalesces): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern has no related sources.
 - **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `leadership-reproduces-itself` (Leadership Reproduces Itself): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern has no related sources.
 - **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `learning-collapses` (Learning Collapses): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `meaning-drifts-over-time` (Meaning Drifts Over Time): Pattern relationship appears one-way; inverse may be expected.
@@ -334,7 +312,6 @@
 - **pattern-metadata** — pattern `meaning-gets-distorted` (Meaning Gets Distorted): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern has no related sources.
 - **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `meaning-outruns-the-words` (Meaning Outruns the Words): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `meaning-reinforces-itself` (Meaning Reinforces Itself): Pattern relationship appears one-way; inverse may be expected.
@@ -343,22 +320,18 @@
 - **pattern-metadata** — pattern `meaning-shifts-under-pressure` (Meaning Shifts Under Pressure): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern has no related sources.
 - **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `responsibility-persists-beyond-control` (Responsibility Persists Beyond Control): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern has no related sources.
 - **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `revisability-preserves-judgment` (Revisability Preserves Judgment): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern has no related sources.
 - **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `scrutiny-preserves-trust` (Scrutiny Preserves Trust): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern has no related sources.
 - **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern has no related thinkers.
-- **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern appears to be original synthesis but does not say so.
 - **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern relationship appears one-way; inverse may be expected.
 - **pattern-metadata** — pattern `speech-escalates-faster-than-meaning` (Speech Escalates Faster Than Meaning): Pattern relationship appears one-way; inverse may be expected.
 - **relationship-quality** — concept `correction` (correction): Entity has extremely high relationship density compared to peers.

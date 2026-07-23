@@ -2,13 +2,17 @@
   "bookCount": 32,
   "books": [
     {
+      "chapterSummaryCoverage": {
+        "present": 15,
+        "total": 15
+      },
       "contentType": "nonfiction",
       "editionId": "book-after-certainty",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -22,7 +26,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -39,6 +43,10 @@
       "workId": "work-after-certainty"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 15
+      },
       "contentType": "nonfiction",
       "editionId": "book-before-certainty-arrives",
       "fields": {
@@ -59,7 +67,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -76,6 +84,10 @@
       "workId": "work-before-certainty-arrives"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 25
+      },
       "contentType": "fiction",
       "editionId": "book-boundary-conditions",
       "fields": {
@@ -113,13 +125,17 @@
       "workId": "work-boundary-conditions"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 37
+      },
       "contentType": "nonfiction",
       "editionId": "book-coupling",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -133,7 +149,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -150,6 +166,10 @@
       "workId": "work-coupling"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 14
+      },
       "contentType": "nonfiction",
       "editionId": "book-curiosity-before-certainty",
       "fields": {
@@ -168,16 +188,16 @@
         "readingRelationships": "complete",
         "richOverview": "complete",
         "searchAliases": "complete",
-        "selectedConcepts": "missing",
-        "selectedPatterns": "missing",
+        "selectedConcepts": "complete",
+        "selectedPatterns": "complete",
         "selectedThinkersOrSources": "not-applicable",
         "shelfCoverageBeyondCatalog": "complete",
-        "situationCoverage": "missing",
+        "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
         "trailCoverage": "complete",
-        "typedWorkRelationships": "missing",
+        "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
       "literaryForm": "monograph",
@@ -187,6 +207,10 @@
       "workId": "work-curiosity-before-certainty"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 30
+      },
       "contentType": "nonfiction",
       "editionId": "book-everyone-knows-love",
       "fields": {
@@ -205,16 +229,16 @@
         "readingRelationships": "complete",
         "richOverview": "complete",
         "searchAliases": "complete",
-        "selectedConcepts": "missing",
-        "selectedPatterns": "missing",
+        "selectedConcepts": "complete",
+        "selectedPatterns": "complete",
         "selectedThinkersOrSources": "not-applicable",
         "shelfCoverageBeyondCatalog": "complete",
-        "situationCoverage": "missing",
+        "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
         "trailCoverage": "complete",
-        "typedWorkRelationships": "missing",
+        "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
       "literaryForm": "monograph",
@@ -224,13 +248,17 @@
       "workId": "work-everyone-knows-love"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 17
+      },
       "contentType": "nonfiction",
       "editionId": "book-how-meaning-moves",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -244,7 +272,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -261,50 +289,17 @@
       "workId": "work-how-meaning-moves"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 25
+      },
       "contentType": "handbook",
       "editionId": "book-how-serious-systems-learn",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
-        "contentType": "complete",
-        "literaryForm": "complete",
-        "nonGoals": "complete",
-        "partStructure": "complete",
-        "publicChangeEvent": "missing",
-        "publicStatus": "complete",
-        "publicationDate": "missing",
-        "questionCoverage": "complete",
-        "readingRelationships": "complete",
-        "richOverview": "complete",
-        "searchAliases": "complete",
-        "selectedConcepts": "complete",
-        "selectedPatterns": "missing",
-        "selectedThinkersOrSources": "not-applicable",
-        "shelfCoverageBeyondCatalog": "complete",
-        "situationCoverage": "missing",
-        "stableCanonicalEditionId": "complete",
-        "stableWorkId": "complete",
-        "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "complete",
-        "typedWorkRelationships": "missing",
-        "whyItExists": "complete"
-      },
-      "literaryForm": "handbook",
-      "profile": "handbook",
-      "slug": "how-serious-systems-learn",
-      "specPath": "books/how-serious-systems-learn/book.yml",
-      "workId": "work-how-serious-systems-learn"
-    },
-    {
-      "contentType": "nonfiction",
-      "editionId": "book-how-trust-forms",
-      "fields": {
-        "audience": "complete",
-        "centralQuestion": "complete",
-        "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -318,7 +313,48 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
+        "shelfCoverageBeyondCatalog": "complete",
+        "situationCoverage": "complete",
+        "stableCanonicalEditionId": "complete",
+        "stableWorkId": "complete",
+        "substantialRevisionDate": "not-applicable",
+        "trailCoverage": "complete",
+        "typedWorkRelationships": "complete",
+        "whyItExists": "complete"
+      },
+      "literaryForm": "handbook",
+      "profile": "handbook",
+      "slug": "how-serious-systems-learn",
+      "specPath": "books/how-serious-systems-learn/book.yml",
+      "workId": "work-how-serious-systems-learn"
+    },
+    {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 15
+      },
+      "contentType": "nonfiction",
+      "editionId": "book-how-trust-forms",
+      "fields": {
+        "audience": "complete",
+        "centralQuestion": "complete",
+        "chapterStructure": "complete",
+        "chapterSummaries": "complete",
+        "contentType": "complete",
+        "literaryForm": "complete",
+        "nonGoals": "complete",
+        "partStructure": "complete",
+        "publicChangeEvent": "missing",
+        "publicStatus": "complete",
+        "publicationDate": "missing",
+        "questionCoverage": "complete",
+        "readingRelationships": "complete",
+        "richOverview": "complete",
+        "searchAliases": "complete",
+        "selectedConcepts": "complete",
+        "selectedPatterns": "complete",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -335,13 +371,17 @@
       "workId": "work-how-trust-forms"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 19,
+        "total": 19
+      },
       "contentType": "nonfiction",
       "editionId": "book-learning-to-see",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -355,7 +395,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -372,13 +412,17 @@
       "workId": "work-learning-to-see"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 21
+      },
       "contentType": "nonfiction",
       "editionId": "book-living-in-sediment",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -392,7 +436,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -409,6 +453,10 @@
       "workId": "work-living-in-sediment"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 29
+      },
       "contentType": "poetry",
       "editionId": "book-observer-patterns",
       "fields": {
@@ -446,6 +494,10 @@
       "workId": "work-observer-patterns"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 23
+      },
       "contentType": "handbook",
       "editionId": "book-the-discipline-of-uncertainty",
       "fields": {
@@ -466,7 +518,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -483,6 +535,10 @@
       "workId": "work-the-discipline-of-uncertainty"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 16
+      },
       "contentType": "nonfiction",
       "editionId": "book-the-economy-we-dont-experience",
       "fields": {
@@ -503,7 +559,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -520,13 +576,17 @@
       "workId": "work-the-economy-we-dont-experience"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 13,
+        "total": 13
+      },
       "contentType": "nonfiction",
       "editionId": "book-the-game-we-think-we-saw",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -540,7 +600,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -557,6 +617,10 @@
       "workId": "work-the-game-we-think-we-saw"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 31
+      },
       "contentType": "fiction",
       "editionId": "book-the-relay",
       "fields": {
@@ -575,16 +639,16 @@
         "readingRelationships": "complete",
         "richOverview": "complete",
         "searchAliases": "complete",
-        "selectedConcepts": "missing",
-        "selectedPatterns": "missing",
+        "selectedConcepts": "complete",
+        "selectedPatterns": "complete",
         "selectedThinkersOrSources": "not-applicable",
         "shelfCoverageBeyondCatalog": "complete",
-        "situationCoverage": "missing",
+        "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
         "trailCoverage": "complete",
-        "typedWorkRelationships": "missing",
+        "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
       "literaryForm": "novel",
@@ -594,13 +658,17 @@
       "workId": "work-the-relay"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 16,
+        "total": 16
+      },
       "contentType": "nonfiction",
       "editionId": "book-the-world-we-make-together",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -631,13 +699,17 @@
       "workId": "work-the-world-we-make-together"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 15
+      },
       "contentType": "nonfiction",
       "editionId": "book-trust-beyond-similarity",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -650,8 +722,8 @@
         "richOverview": "complete",
         "searchAliases": "complete",
         "selectedConcepts": "complete",
-        "selectedPatterns": "missing",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedPatterns": "complete",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -668,6 +740,10 @@
       "workId": "work-trust-beyond-similarity"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 30
+      },
       "contentType": "fiction",
       "editionId": "book-velorum",
       "fields": {
@@ -705,6 +781,10 @@
       "workId": "work-velorum"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 19
+      },
       "contentType": "nonfiction",
       "editionId": "book-what-we-cannot-see",
       "fields": {
@@ -724,8 +804,8 @@
         "richOverview": "complete",
         "searchAliases": "complete",
         "selectedConcepts": "complete",
-        "selectedPatterns": "missing",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedPatterns": "complete",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -742,13 +822,17 @@
       "workId": "work-what-we-cannot-see"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 19
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-accountability-no-longer-expires",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -762,7 +846,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -779,13 +863,17 @@
       "workId": "work-when-accountability-no-longer-expires"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 15
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-authority-is-misread",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -799,7 +887,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -816,13 +904,17 @@
       "workId": "work-when-authority-is-misread"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 15
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-authority-outlives-accountability",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -836,7 +928,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -853,6 +945,10 @@
       "workId": "work-when-authority-outlives-accountability"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 20
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-incentives-become-the-moral-language",
       "fields": {
@@ -873,7 +969,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -890,6 +986,10 @@
       "workId": "work-when-incentives-become-the-moral-language"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 15
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-interpretation-no-longer-matters",
       "fields": {
@@ -910,7 +1010,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -927,6 +1027,10 @@
       "workId": "work-when-interpretation-no-longer-matters"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 17
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-moral-seriousness-scales",
       "fields": {
@@ -946,10 +1050,10 @@
         "richOverview": "complete",
         "searchAliases": "complete",
         "selectedConcepts": "complete",
-        "selectedPatterns": "missing",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedPatterns": "complete",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
-        "situationCoverage": "missing",
+        "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
@@ -964,6 +1068,10 @@
       "workId": "work-when-moral-seriousness-scales"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 15
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-others-become-leaders",
       "fields": {
@@ -984,7 +1092,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -1001,6 +1109,10 @@
       "workId": "work-when-others-become-leaders"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 25
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-others-look-to-you-v1",
       "fields": {
@@ -1021,7 +1133,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -1038,6 +1150,10 @@
       "workId": "work-when-others-look-to-you"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 18
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-others-look-to-you-v2",
       "fields": {
@@ -1058,7 +1174,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -1075,13 +1191,17 @@
       "workId": "work-when-others-look-to-you"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 15
+      },
       "contentType": "nonfiction",
       "editionId": "book-when-trust-stops-tracking-reality",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -1095,7 +1215,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
@@ -1112,13 +1232,17 @@
       "workId": "work-when-trust-stops-tracking-reality"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 10,
+        "total": 10
+      },
       "contentType": "nonfiction",
       "editionId": "book-why-collaboration-is-so-hard",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -1132,7 +1256,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -1149,13 +1273,17 @@
       "workId": "work-why-collaboration-is-so-hard"
     },
     {
+      "chapterSummaryCoverage": {
+        "present": 1,
+        "total": 16
+      },
       "contentType": "nonfiction",
       "editionId": "book-why-diversity-matters",
       "fields": {
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -1186,7 +1314,12 @@
       "workId": "work-why-diversity-matters"
     }
   ],
-  "generatedAt": "2026-07-23T04:43:16.139713+00:00",
+  "generatedAt": "2026-07-23T05:09:14.482755+00:00",
+  "manifest": {
+    "generatedAt": "2026-07-23T05:09:00.671609+00:00",
+    "schemaVersion": "2.3",
+    "sourceCommit": "a6ed779e093db60e957a1dc1fec1b15ba56fb336"
+  },
   "summaries": {
     "booksAbsentFromEditorialShelves": [],
     "booksAbsentFromQuestions": [
@@ -1227,6 +1360,35 @@
       "why-diversity-matters"
     ],
     "booksWithOnlyGeneratedSemanticAssociations": [],
+    "booksWithPartialChapterSummaries": [
+      "before-certainty-arrives",
+      "boundary-conditions",
+      "coupling",
+      "curiosity-before-certainty",
+      "everyone-knows-love",
+      "how-meaning-moves",
+      "how-serious-systems-learn",
+      "how-trust-forms",
+      "living-in-sediment",
+      "observer-patterns",
+      "the-discipline-of-uncertainty",
+      "the-economy-we-dont-experience",
+      "the-relay",
+      "trust-beyond-similarity",
+      "velorum",
+      "what-we-cannot-see",
+      "when-accountability-no-longer-expires",
+      "when-authority-is-misread",
+      "when-authority-outlives-accountability",
+      "when-incentives-become-the-moral-language",
+      "when-interpretation-no-longer-matters",
+      "when-moral-seriousness-scales",
+      "when-others-become-leaders",
+      "when-others-look-to-you-v1",
+      "when-others-look-to-you-v2",
+      "when-trust-stops-tracking-reality",
+      "why-diversity-matters"
+    ],
     "booksWithSuspiciousContentTypes": [],
     "booksWithoutPublicationDates": [
       "before-certainty-arrives",

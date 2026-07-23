@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T04:43:21.550334+00:00",
+  "generatedAt": "2026-07-23T05:09:19.822420+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
@@ -7,9 +7,9 @@
     ]
   },
   "summary": {
-    "errors": 1,
-    "warnings": 78,
-    "info": 281,
+    "errors": 0,
+    "warnings": 74,
+    "info": 261,
     "entitiesScanned": {
       "books": 32,
       "concepts": 144,
@@ -84,17 +84,6 @@
       "field": "creator_name_mismatch",
       "currentValue": null,
       "reason": "creatorNames[0] 'Carl I. Hovland' != author portion of name 'Hovland, Carl I., and Walter Weiss'",
-      "suggestedFix": null
-    },
-    {
-      "severity": "error",
-      "category": "source-metadata",
-      "entityType": "source",
-      "entityId": "jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis",
-      "entityTitle": "jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis",
-      "field": "markdown_in_display",
-      "currentValue": null,
-      "reason": "name contains markdown italics: 'Jahn K. Hakes and Raymond D. Sauer \u2014 An Economic Evaluation of the *Moneyball* Hypothesis'",
       "suggestedFix": null
     },
     {
@@ -374,17 +363,6 @@
     },
     {
       "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "hal-daum-iii",
-      "entityTitle": "Hal Daum\u00e9 III",
-      "field": "slug",
-      "currentValue": "hal-daum-iii",
-      "reason": "Slug appears damaged by diacritic stripping.",
-      "suggestedFix": "Consider renaming slug to 'hal-daume-iii' with a redirect strategy."
-    },
-    {
-      "severity": "warning",
       "category": "thinker-metadata",
       "entityType": "thinker",
       "entityId": "ian-r-bartky",
@@ -426,17 +404,6 @@
       "currentValue": "organization",
       "reason": "Person-like name classified as organization.",
       "suggestedFix": "Set type to person."
-    },
-    {
-      "severity": "warning",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "moore-et-al",
-      "entityTitle": "Moore et al",
-      "field": "name",
-      "currentValue": "Moore et al",
-      "reason": "Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.",
-      "suggestedFix": "Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: moore-et-al-factors-and-expectations-influencing-concussion-disclosure-within-ncaa-division-i-at."
     },
     {
       "severity": "warning",
@@ -547,17 +514,6 @@
       "currentValue": "organization",
       "reason": "Person-like name classified as organization.",
       "suggestedFix": "Set type to person."
-    },
-    {
-      "severity": "warning",
-      "category": "thinker-metadata",
-      "entityType": "thinker",
-      "entityId": "weber-rawlins-et-al",
-      "entityTitle": "Weber Rawlins et al",
-      "field": "name",
-      "currentValue": "Weber Rawlins et al",
-      "reason": "Thinker name uses 'et al' and aggregates multiple authors who could be separate thinker entries.",
-      "suggestedFix": "Create separate thinker entries (one per author). Link each thinker to the shared source(s) via creatorSlugs on: weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath."
     },
     {
       "severity": "warning",
@@ -1795,17 +1751,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "admiration-becomes-insulation",
-      "entityTitle": "Admiration Becomes Insulation",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedSources",
@@ -1823,17 +1768,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "attention-finds-a-focus",
-      "entityTitle": "Attention Finds a Focus",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1861,17 +1795,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-finds-a-signal",
-      "entityTitle": "Attention Finds a Signal",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "attention-restores-contact",
       "entityTitle": "Attention Restores Contact",
       "field": "relatedSources",
@@ -1889,17 +1812,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "attention-restores-contact",
-      "entityTitle": "Attention Restores Contact",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1927,17 +1839,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "blame-compresses-complexity",
-      "entityTitle": "Blame Compresses Complexity",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "correctness-hardens-into-identity",
       "entityTitle": "Correctness Hardens Into Identity",
       "field": "relatedSources",
@@ -1955,17 +1856,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "correctness-hardens-into-identity",
-      "entityTitle": "Correctness Hardens Into Identity",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -1993,17 +1883,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "dissent-is-welcomed",
-      "entityTitle": "Dissent is Welcomed",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "exceptions-are-forever",
       "entityTitle": "Exceptions are Forever",
       "field": "relatedSources",
@@ -2021,17 +1900,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "exceptions-are-forever",
-      "entityTitle": "Exceptions are Forever",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -2059,17 +1927,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "explanation-replaces-response",
-      "entityTitle": "Explanation Replaces Response",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "feedback-drives-change",
       "entityTitle": "Feedback Drives Change",
       "field": "relatedSources",
@@ -2087,17 +1944,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "feedback-drives-change",
-      "entityTitle": "Feedback Drives Change",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -2125,17 +1971,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "finality-compensates-for-uncertainty",
-      "entityTitle": "Finality Compensates for Uncertainty",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "intent-gets-assigned",
       "entityTitle": "Intent Gets Assigned",
       "field": "relatedSources",
@@ -2153,17 +1988,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "intent-gets-assigned",
-      "entityTitle": "Intent Gets Assigned",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -2191,17 +2015,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "leadership-coalesces",
-      "entityTitle": "Leadership Coalesces",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "leadership-reproduces-itself",
       "entityTitle": "Leadership Reproduces Itself",
       "field": "relatedSources",
@@ -2219,17 +2032,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "leadership-reproduces-itself",
-      "entityTitle": "Leadership Reproduces Itself",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -2257,17 +2059,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "learning-collapses",
-      "entityTitle": "Learning Collapses",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "meaning-outruns-the-words",
       "entityTitle": "Meaning Outruns the Words",
       "field": "relatedSources",
@@ -2285,17 +2076,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-outruns-the-words",
-      "entityTitle": "Meaning Outruns the Words",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -2323,17 +2103,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "responsibility-persists-beyond-control",
-      "entityTitle": "Responsibility Persists Beyond Control",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "revisability-preserves-judgment",
       "entityTitle": "Revisability Preserves Judgment",
       "field": "relatedSources",
@@ -2351,17 +2120,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "revisability-preserves-judgment",
-      "entityTitle": "Revisability Preserves Judgment",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
     },
     {
       "severity": "info",
@@ -2389,17 +2147,6 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "scrutiny-preserves-trust",
-      "entityTitle": "Scrutiny Preserves Trust",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
       "entityId": "speech-escalates-faster-than-meaning",
       "entityTitle": "Speech Escalates Faster Than Meaning",
       "field": "relatedSources",
@@ -2417,28 +2164,6 @@
       "currentValue": [],
       "reason": "Pattern has no related thinkers.",
       "suggestedFix": null
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "speech-escalates-faster-than-meaning",
-      "entityTitle": "Speech Escalates Faster Than Meaning",
-      "field": "evidenceType",
-      "currentValue": null,
-      "reason": "Pattern appears to be original synthesis but does not say so.",
-      "suggestedFix": "Add optional evidenceType or grounding field marking original synthesis."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "admiration-becomes-insulation",
-      "entityTitle": "Admiration Becomes Insulation",
-      "field": "relatedPatterns",
-      "currentValue": "scrutiny-preserves-trust",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'scrutiny-preserves-trust'."
     },
     {
       "severity": "info",
@@ -2450,6 +2175,17 @@
       "currentValue": "blame-compresses-complexity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'blame-compresses-complexity'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "admiration-becomes-insulation",
+      "entityTitle": "Admiration Becomes Insulation",
+      "field": "relatedPatterns",
+      "currentValue": "scrutiny-preserves-trust",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'admiration-becomes-insulation' to relatedPatterns on 'scrutiny-preserves-trust'."
     },
     {
       "severity": "info",
@@ -2480,17 +2216,6 @@
       "entityId": "attention-finds-a-signal",
       "entityTitle": "Attention Finds a Signal",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "attention-finds-a-signal",
-      "entityTitle": "Attention Finds a Signal",
-      "field": "relatedPatterns",
       "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-outruns-the-words'."
@@ -2499,12 +2224,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "attention-restores-contact",
-      "entityTitle": "Attention Restores Contact",
+      "entityId": "attention-finds-a-signal",
+      "entityTitle": "Attention Finds a Signal",
       "field": "relatedPatterns",
-      "currentValue": "responsibility-persists-beyond-control",
+      "currentValue": "meaning-forms-early",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'responsibility-persists-beyond-control'."
+      "suggestedFix": "Consider adding 'attention-finds-a-signal' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -2516,6 +2241,17 @@
       "currentValue": "blame-compresses-complexity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'blame-compresses-complexity'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "attention-restores-contact",
+      "entityTitle": "Attention Restores Contact",
+      "field": "relatedPatterns",
+      "currentValue": "responsibility-persists-beyond-control",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'attention-restores-contact' to relatedPatterns on 'responsibility-persists-beyond-control'."
     },
     {
       "severity": "info",
@@ -2546,9 +2282,9 @@
       "entityId": "contact-keeps-the-read-open",
       "entityTitle": "Contact Keeps the Read Open",
       "field": "relatedPatterns",
-      "currentValue": "meaning-gets-distorted",
+      "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-gets-distorted'."
+      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-outruns-the-words'."
     },
     {
       "severity": "info",
@@ -2557,9 +2293,9 @@
       "entityId": "contact-keeps-the-read-open",
       "entityTitle": "Contact Keeps the Read Open",
       "field": "relatedPatterns",
-      "currentValue": "meaning-outruns-the-words",
+      "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-outruns-the-words'."
+      "suggestedFix": "Consider adding 'contact-keeps-the-read-open' to relatedPatterns on 'meaning-gets-distorted'."
     },
     {
       "severity": "info",
@@ -2634,17 +2370,6 @@
       "entityId": "examples-accumulate",
       "entityTitle": "Examples Accumulate",
       "field": "relatedPatterns",
-      "currentValue": "attention-finds-a-focus",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'attention-finds-a-focus'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "examples-accumulate",
-      "entityTitle": "Examples Accumulate",
-      "field": "relatedPatterns",
       "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'dissent-is-welcomed'."
@@ -2653,12 +2378,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "exceptions-are-forever",
-      "entityTitle": "Exceptions are Forever",
+      "entityId": "examples-accumulate",
+      "entityTitle": "Examples Accumulate",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "attention-finds-a-focus",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'attention-finds-a-focus'."
     },
     {
       "severity": "info",
@@ -2675,12 +2400,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "explanation-replaces-response",
-      "entityTitle": "Explanation Replaces Response",
+      "entityId": "exceptions-are-forever",
+      "entityTitle": "Exceptions are Forever",
       "field": "relatedPatterns",
-      "currentValue": "responsibility-persists-beyond-control",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'responsibility-persists-beyond-control'."
+      "suggestedFix": "Consider adding 'exceptions-are-forever' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -2697,12 +2422,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "feedback-drives-change",
-      "entityTitle": "Feedback Drives Change",
+      "entityId": "explanation-replaces-response",
+      "entityTitle": "Explanation Replaces Response",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "responsibility-persists-beyond-control",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'responsibility-persists-beyond-control'."
     },
     {
       "severity": "info",
@@ -2719,12 +2444,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "finality-compensates-for-uncertainty",
-      "entityTitle": "Finality Compensates for Uncertainty",
+      "entityId": "feedback-drives-change",
+      "entityTitle": "Feedback Drives Change",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'correctness-hardens-into-identity'."
+      "suggestedFix": "Consider adding 'feedback-drives-change' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -2741,12 +2466,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "gaps-invite-completion",
-      "entityTitle": "Gaps Invite Completion",
+      "entityId": "finality-compensates-for-uncertainty",
+      "entityTitle": "Finality Compensates for Uncertainty",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -2758,6 +2483,17 @@
       "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'intent-gets-assigned'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "gaps-invite-completion",
+      "entityTitle": "Gaps Invite Completion",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-forms-early",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'gaps-invite-completion' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -2810,9 +2546,9 @@
       "entityId": "leadership-coalesces",
       "entityTitle": "Leadership Coalesces",
       "field": "relatedPatterns",
-      "currentValue": "attention-finds-a-focus",
+      "currentValue": "disagreement-is-suppressed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'attention-finds-a-focus'."
+      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'disagreement-is-suppressed'."
     },
     {
       "severity": "info",
@@ -2821,9 +2557,9 @@
       "entityId": "leadership-coalesces",
       "entityTitle": "Leadership Coalesces",
       "field": "relatedPatterns",
-      "currentValue": "disagreement-is-suppressed",
+      "currentValue": "attention-finds-a-focus",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'disagreement-is-suppressed'."
+      "suggestedFix": "Consider adding 'leadership-coalesces' to relatedPatterns on 'attention-finds-a-focus'."
     },
     {
       "severity": "info",
@@ -2854,17 +2590,6 @@
       "entityId": "learning-collapses",
       "entityTitle": "Learning Collapses",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'learning-collapses' to relatedPatterns on 'dissent-is-welcomed'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "learning-collapses",
-      "entityTitle": "Learning Collapses",
-      "field": "relatedPatterns",
       "currentValue": "leaders-feel-the-consequences",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'learning-collapses' to relatedPatterns on 'leaders-feel-the-consequences'."
@@ -2873,12 +2598,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-drifts-over-time",
-      "entityTitle": "Meaning Drifts Over Time",
+      "entityId": "learning-collapses",
+      "entityTitle": "Learning Collapses",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-reinforces-itself'."
+      "suggestedFix": "Consider adding 'learning-collapses' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -2890,6 +2615,17 @@
       "currentValue": "meaning-outruns-the-words",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-outruns-the-words'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "meaning-drifts-over-time",
+      "entityTitle": "Meaning Drifts Over Time",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-reinforces-itself",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'meaning-drifts-over-time' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -2920,9 +2656,9 @@
       "entityId": "meaning-gets-distorted",
       "entityTitle": "Meaning Gets Distorted",
       "field": "relatedPatterns",
-      "currentValue": "intent-gets-assigned",
+      "currentValue": "meaning-reinforces-itself",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
     },
     {
       "severity": "info",
@@ -2931,9 +2667,9 @@
       "entityId": "meaning-gets-distorted",
       "entityTitle": "Meaning Gets Distorted",
       "field": "relatedPatterns",
-      "currentValue": "meaning-reinforces-itself",
+      "currentValue": "intent-gets-assigned",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'meaning-reinforces-itself'."
+      "suggestedFix": "Consider adding 'meaning-gets-distorted' to relatedPatterns on 'intent-gets-assigned'."
     },
     {
       "severity": "info",
@@ -2964,17 +2700,6 @@
       "entityId": "meaning-reinforces-itself",
       "entityTitle": "Meaning Reinforces Itself",
       "field": "relatedPatterns",
-      "currentValue": "meaning-shifts-under-pressure",
-      "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
-    },
-    {
-      "severity": "info",
-      "category": "pattern-metadata",
-      "entityType": "pattern",
-      "entityId": "meaning-reinforces-itself",
-      "entityTitle": "Meaning Reinforces Itself",
-      "field": "relatedPatterns",
       "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-gets-distorted'."
@@ -2983,12 +2708,12 @@
       "severity": "info",
       "category": "pattern-metadata",
       "entityType": "pattern",
-      "entityId": "meaning-shifts-under-pressure",
-      "entityTitle": "Meaning Shifts Under Pressure",
+      "entityId": "meaning-reinforces-itself",
+      "entityTitle": "Meaning Reinforces Itself",
       "field": "relatedPatterns",
-      "currentValue": "meaning-forms-early",
+      "currentValue": "meaning-shifts-under-pressure",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
+      "suggestedFix": "Consider adding 'meaning-reinforces-itself' to relatedPatterns on 'meaning-shifts-under-pressure'."
     },
     {
       "severity": "info",
@@ -3000,6 +2725,17 @@
       "currentValue": "meaning-gets-distorted",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
       "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-gets-distorted'."
+    },
+    {
+      "severity": "info",
+      "category": "pattern-metadata",
+      "entityType": "pattern",
+      "entityId": "meaning-shifts-under-pressure",
+      "entityTitle": "Meaning Shifts Under Pressure",
+      "field": "relatedPatterns",
+      "currentValue": "meaning-forms-early",
+      "reason": "Pattern relationship appears one-way; inverse may be expected.",
+      "suggestedFix": "Consider adding 'meaning-shifts-under-pressure' to relatedPatterns on 'meaning-forms-early'."
     },
     {
       "severity": "info",
@@ -3030,9 +2766,9 @@
       "entityId": "revisability-preserves-judgment",
       "entityTitle": "Revisability Preserves Judgment",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
+      "currentValue": "finality-compensates-for-uncertainty",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
+      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
     },
     {
       "severity": "info",
@@ -3041,9 +2777,9 @@
       "entityId": "revisability-preserves-judgment",
       "entityTitle": "Revisability Preserves Judgment",
       "field": "relatedPatterns",
-      "currentValue": "finality-compensates-for-uncertainty",
+      "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'finality-compensates-for-uncertainty'."
+      "suggestedFix": "Consider adding 'revisability-preserves-judgment' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -3968,17 +3704,6 @@
       "currentValue": "beno-t-monin",
       "reason": "Slug may be stale after title change (diacritic damage).",
       "suggestedFix": "Use transliterated slug 'benoit-monin'."
-    },
-    {
-      "severity": "warning",
-      "category": "slug-quality",
-      "entityType": "thinker",
-      "entityId": "hal-daum-iii",
-      "entityTitle": "Hal Daum\u00e9 III",
-      "field": "slug",
-      "currentValue": "hal-daum-iii",
-      "reason": "Slug may be stale after title change (diacritic damage).",
-      "suggestedFix": "Use transliterated slug 'hal-daume-iii'."
     }
   ],
   "relationshipVocabulary": [

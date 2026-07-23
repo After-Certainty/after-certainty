@@ -1,80 +1,66 @@
 # Remaining semantic enrichment gaps
 
-Baseline snapshot after regenerating reports (2026-07-23) on branch
-`cursor/semantic-enrichment-data-quality-b164`, before the data-quality pass edits.
+Updated after data-quality pass on `cursor/semantic-enrichment-data-quality-b164`
+(2026-07-23). Reports regenerated from schemaVersion **2.3** manifest.
 
-## Report freshness
+## Completed in this pass
 
-| Report | Generated |
-|--------|-----------|
-| Completeness | 2026-07-23T04:43:16Z |
-| Metadata quality | regenerated same session |
-| Graph audit | regenerated same session (replaces stale 2026-07-07 snapshot) |
+- Additive schema 2.3: concept/pattern roles, grounding, relationship provenance,
+  thinker identity classes, poetry kinds, chapter transition object
+- Full chapter enrichment for priority books 1–5 (73 reading units with summaries)
+- Book-specific roles on priority + flagship overviews
+- Thin-work curation: curiosity-before-certainty, everyone-knows-love,
+  how-serious-systems-learn, the-relay, when-moral-seriousness-scales (+ patterns
+  for trust-beyond-similarity / what-we-cannot-see)
+- Pattern `grounding` on 20 original-synthesis patterns; 15 relationship provenance rows
+- Hal Daumé slug correction (`hal-daume-iii` + formerSlugs); et-al → author_group/citationOnly
+- Moneyball source markdown italics removed (graph critical → 0)
+- Publication audit documented; `edition_published_at` backfilled where dates existed
+- Completeness report defaults to current manifest; records manifest provenance
 
-Regeneration order used: `verify-semantic-ontology` → completeness → metadata-quality → graph.
+## Publication dates still unknown
 
-## Publication dates (26 unknown)
-
-Leave unknown unless authored evidence exists. Do not invent from git/file mtimes.
-
-Amazon ASINs without confirmed dates:
+See [`reports/publication-date-audit.md`](publication-date-audit.md). No new reliable
+dates beyond the six already authored. Amazon ASINs still need human confirmation:
 
 - `when-authority-is-misread` (B0DWZ2ZFXG)
 - `when-authority-outlives-accountability` (B0GJ3QZQ1V)
 
-Books with authored dates: `after-certainty`, `curiosity-before-certainty`,
-`how-meaning-moves`, `trust-beyond-similarity`, `when-others-look-to-you-v1`,
-`when-others-look-to-you-v2`.
+## Chapter summaries — next batch
 
-## Public change events (26 missing)
+Deferred priority books (6–9):
 
-Same set as unknown publication dates. Existing events cover the six dated books only.
+| Book | Notes |
+|------|-------|
+| before-certainty-arrives | Full chapter enrichment |
+| living-in-sediment | Expand beyond single sample |
+| the-economy-we-dont-experience | Full chapter enrichment |
+| boundary-conditions | Fiction summaries (anti-proof language) |
 
-## Chapter summaries
+Also: observer-patterns structure now exports `poem` kinds (20 poems); poem-level
+summaries not authored in this pass.
 
-Manifest currently has 15 chapter summaries (one sample each on 15 books).
-Completeness report may under-count if run without `--manifest`; fix default to
-`build/semantic-manifest.json`.
+Flagship chapter coverage still thin: WOLTY v1/v2, coupling, how-meaning-moves samples only.
 
-Priority batch for this pass (full enrichment):
+## Thin / partial remaining
 
-1. after-certainty
-2. the-world-we-make-together
-3. why-collaboration-is-so-hard
-4. learning-to-see
-5. the-game-we-think-we-saw
+- `trust-beyond-similarity`, `what-we-cannot-see`: still missing typed relatedWorks /
+  situationCoverage in completeness (patterns now curated)
+- Creator name-mismatch warnings on multi-author sources (punctuation / multi-name
+  display) — 11 metadata-quality warnings
+- Placeholder / citation-only thinkers: reduced via citationOnly; further corpus-important
+  placeholder summaries can be hand-written later
 
-Deferred: before-certainty-arrives, living-in-sediment, the-economy-we-dont-experience,
-boundary-conditions, observer-patterns (poetry structure).
+## Provenance remaining
 
-## Thin works
+- Other patterns without grounding (non-flagged)
+- Concept-level grounding batch
+- Broader relationship provenance beyond the representative 15
 
-| Book | Gaps |
-|------|------|
-| curiosity-before-certainty | concepts, patterns, relatedWorks, situations |
-| everyone-knows-love | concepts, patterns, relatedWorks, situations |
-| how-serious-systems-learn | patterns, relatedWorks, situations |
-| the-relay | concepts, patterns, relatedWorks, situations (fiction) |
-| trust-beyond-similarity | patterns, relatedWorks, situations |
-| what-we-cannot-see | patterns, relatedWorks, situations |
-| when-moral-seriousness-scales | patterns, situations |
+## Recommended next enrichment batch
 
-## Thinker / source identity
-
-- Critical: Moneyball source name contains markdown italics
-- Hal Daumé slug damage (`hal-daum-iii`) still in graph slug-quality
-- Placeholder / multi-author / et-al thinker cleanup still needed
-- Creator name mismatches on multi-author sources (metadata-quality warnings)
-
-## Provenance
-
-~20 patterns flagged as original synthesis without declared `grounding`
-(schema does not yet allow the field).
-
-## Schema gaps for this pass
-
-- `selectedConceptRoles` / `selectedPatternRoles` on book overview
-- `grounding` on patterns/concepts
-- Relationship `provenance`
-- Thinker `author_group` / `citationOnly` / aliases
-- Chapter transition object + poetry kinds
+1. Confirm Amazon release dates → publication_date + change events
+2. Chapter enrichment for priority books 6–9 + observer-patterns poems
+3. typed relatedWorks / situations for trust-beyond-similarity and what-we-cannot-see
+4. Normalize multi-author `creatorNames` punctuation mismatches
+5. Concept grounding + remaining pattern provenance

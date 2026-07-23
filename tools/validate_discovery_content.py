@@ -225,7 +225,9 @@ def validate_work_edition_invariants(repo: Path, errors: list[str], warnings: li
                 cid = str(item.get("conceptId") or "").strip().removeprefix("concept-")
                 role = str(item.get("roleInWork") or "").strip()
                 if not cid or not role:
-                    errors.append(f"{spec_path}: selectedConceptRoles requires conceptId and roleInWork")
+                    errors.append(
+                        f"{spec_path}: selectedConceptRoles requires conceptId and roleInWork"
+                    )
                     continue
                 if cid not in selected_concept_set:
                     errors.append(
@@ -246,7 +248,9 @@ def validate_work_edition_invariants(repo: Path, errors: list[str], warnings: li
                 pid = str(item.get("patternId") or "").strip().removeprefix("pattern-")
                 role = str(item.get("roleInWork") or "").strip()
                 if not pid or not role:
-                    errors.append(f"{spec_path}: selectedPatternRoles requires patternId and roleInWork")
+                    errors.append(
+                        f"{spec_path}: selectedPatternRoles requires patternId and roleInWork"
+                    )
                     continue
                 if pid not in selected_pattern_set:
                     errors.append(

@@ -61,6 +61,7 @@ def test_poetry_kinds_supported() -> None:
     assert "poem" in CHAPTER_KINDS
     assert "sequence" in CHAPTER_KINDS
     assert infer_unit_kind("parts/part-i/what-love-teaches.md", "What Love Teaches") == "chapter"
+    assert infer_unit_kind("front-matter/introduction.md", "Introduction") == "introduction"
 
 
 def test_chapter_transition_object_exports(tmp_path: Path) -> None:

@@ -4,13 +4,9 @@
 
 - Sources: 648
 - Thinkers: 635
-- Critical issues: 1
+- Critical issues: 0
 - Warnings: 11
 - Info: 0
-
-## Critical (1)
-
-- **source** `jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis` — markdown_in_display: name contains markdown italics: 'Jahn K. Hakes and Raymond D. Sauer — An Economic Evaluation of the *Moneyball* Hypothesis'
 
 ## Warning (11)
 

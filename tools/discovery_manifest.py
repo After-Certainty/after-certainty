@@ -139,9 +139,7 @@ def build_related_works(overview: dict) -> list[dict]:
     return rows
 
 
-def build_selected_roles(
-    overview: dict, *, key: str, id_field: str, prefix: str
-) -> list[dict]:
+def build_selected_roles(overview: dict, *, key: str, id_field: str, prefix: str) -> list[dict]:
     rows: list[dict] = []
     seen: set[str] = set()
     for item in overview.get(key) or []:

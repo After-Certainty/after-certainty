@@ -98,7 +98,12 @@ def infer_unit_kind(rel_path: str, title: str) -> str:
     # Poetry / act units without "chapter" in the name
     # (book_kind=poetry is applied by the caller after this heuristic.)
     norm = rel_path.replace("\\", "/")
-    if "/parts/" in norm or "/manuscript/" in norm:
+    if (
+        "/parts/" in norm
+        or norm.startswith("parts/")
+        or "/manuscript/" in norm
+        or norm.startswith("manuscript/")
+    ):
         if stem in {"bridge"}:
             return "bridge"
         return "chapter"
@@ -398,7 +403,9 @@ def build_all_structures(
         try:
             raw_spec = yaml.safe_load((book_dir / "book.yml").read_text(encoding="utf-8"))
             if isinstance(raw_spec, dict):
-                book_kind = str((raw_spec.get("book") or {}).get("kind") or "prose").strip() or "prose"
+                book_kind = (
+                    str((raw_spec.get("book") or {}).get("kind") or "prose").strip() or "prose"
+                )
         except (OSError, yaml.YAMLError):
             book_kind = "prose"
         parts, chapters = build_structure_for_book(
