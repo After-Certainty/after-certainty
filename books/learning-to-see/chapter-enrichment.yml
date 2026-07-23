@@ -1,0 +1,515 @@
+version: 1
+chapters:
+  - sourcePath: front-matter/introduction-learning-to-see.md
+    summary: >
+      Seeing is learned: families, professions, sciences, and spiritual traditions train
+      attention differently, leaving other things at the edge. Traditions that disagree about
+      reality still develop practices around distraction, self-deception, and inherited
+      assumption—without being secretly the same.
+    centralQuestion: Why do traditions that disagree about reality develop practices around similar human difficulties?
+    selectedConcepts:
+      - attention
+      - formation
+      - humility
+      - uncertainty
+      - finite-perspective
+    selectedPatterns:
+      - attention-finds-a-focus
+      - contact-keeps-the-read-open
+    searchAliases:
+      - learning to see
+      - practices of wisdom
+      - how seeing is formed
+    transition:
+      toNext: >
+        From why habits of noticing matter into an experiment that returned to a childhood
+        claim.
+  - sourcePath: parts/part-1-the-formation-of-a-knower/chapter-1-the-experiment-i-had-never-tried.md
+    summary: >
+      Returning to a Book of Mormon reading-and-prayer promise he had never honestly tested,
+      the author finds neither restored belief nor decisive proof—but a clearer view of how
+      inherited ways of seeing form the person who judges. Untrained eyes are a fiction;
+      practices of noticing can carry unrecognized wisdom.
+    centralQuestion: What can returning to an inherited practice reveal about how a knower was formed?
+    selectedConcepts:
+      - formation
+      - inheritance
+      - attention
+      - humility
+      - judgment
+    selectedPatterns:
+      - attention-finds-a-focus
+      - revisability-preserves-judgment
+    searchAliases:
+      - the experiment i had never tried
+      - book of mormon experiment
+      - inherited ways of seeing
+    transition:
+      fromPrevious: >
+        From the introduction's comparative question into a personal test of an inherited
+        claim.
+      toNext: >
+        From formation glimpsed in practice into why answers alone cannot remake the knower.
+  - sourcePath: parts/part-1-the-formation-of-a-knower/chapter-2-answers-are-not-enough.md
+    summary: >
+      The scripture experiment changed the person asking more than it settled the question
+      asked. Knowing about humility, bias, or self-deception is not the same as having
+      practices that keep those capacities available when certainty rises and identity is
+      threatened.
+    centralQuestion: Why is having answers—even good ones—still insufficient for becoming a better knower?
+    selectedConcepts:
+      - judgment
+      - humility
+      - certainty
+      - uncertainty
+      - bias
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - correctness-hardens-into-identity
+    searchAliases:
+      - answers are not enough
+      - knowing about bias
+      - practices when certainty rises
+    transition:
+      fromPrevious: >
+        From an experiment that formed the asker into the limits of transferable answers.
+      toNext: >
+        From individual limits of knowing into why no one sees enough alone.
+  - sourcePath: parts/part-1-the-formation-of-a-knower/chapter-3-the-limits-of-seeing-alone.md
+    summary: >
+      A carefully prepared design review still depends on questions the author did not think
+      to ask—showing that sustained contact with a problem cannot complete a partial view.
+      Communities extend sight and also share blind spots; the task is formation without
+      becoming unreachable to correction.
+    centralQuestion: How do we remain formed by others without surrendering the corrections only we might notice?
+    selectedConcepts:
+      - finite-perspective
+      - partial-coherence
+      - formation
+      - judgment
+      - contact
+    selectedPatterns:
+      - contact-keeps-the-read-open
+      - dissent-is-welcomed
+      - gaps-invite-completion
+    searchAliases:
+      - limits of seeing alone
+      - design review question
+      - partial together
+    situations:
+      - same-meeting-different-decisions
+    transition:
+      fromPrevious: >
+        From answers that cannot remake the knower into the insufficiency of solitary
+        seeing.
+      toNext: >
+        From communal limits into the practices communities build around recurring human
+        difficulties.
+  - sourcePath: parts/part-1-the-formation-of-a-knower/bridge.md
+    summary: >
+      Part I established that knowers are formed and that no individual perspective is enough.
+      The bridge turns toward non-interchangeable practices—prayer, meditation, confession,
+      criticism, ritual, lament—built around attention that drifts, confidence that hardens,
+      and suffering that resists tidy meaning.
+    centralQuestion: What kinds of practices do communities build around limits they cannot escape?
+    selectedConcepts:
+      - formation
+      - attention
+      - humility
+      - stabilizing-practices
+    selectedPatterns:
+      - attention-finds-a-focus
+      - revisability-preserves-judgment
+    searchAliases:
+      - practices we build around our limits
+      - better relationships with limits
+    transition:
+      fromPrevious: >
+        From the need for community without submission into practices around shared limits.
+      toNext: >
+        Into six recurring difficulties—beginning with what attention makes visible.
+  - sourcePath: parts/part-2-practices-for-recurring-human-problems/chapter-4-what-attention-makes-visible.md
+    summary: >
+      Breath-focused meditation makes wandering mind visible as returnable habit rather than
+      failure—showing how attention opens a field without guaranteeing welcome for what
+      appears. The world we see is partly prepared by practices that decide which
+      interruptions can reach us.
+    centralQuestion: What becomes visible only when a practice changes what attention is willing to notice?
+    selectedConcepts:
+      - attention
+      - contact
+      - revisability
+      - humility
+      - formation
+    selectedPatterns:
+      - attention-finds-a-focus
+      - attention-restores-contact
+      - attention-finds-a-signal
+    searchAliases:
+      - what attention makes visible
+      - notice and return
+      - wandering was the material
+    transition:
+      fromPrevious: >
+        From the turn toward practices into attention as the first recurring difficulty.
+      toNext: >
+        From opening the field into remaining present when being wrong becomes personally
+        expensive.
+  - sourcePath: parts/part-2-practices-for-recurring-human-problems/chapter-5-when-being-wrong-becomes-expensive.md
+    summary: >
+      In a design review, a precise answer meets a question that refuses the frame already
+      explained—tightening identity around being the one who understands. Humility must become
+      discernment: whom to trust for correction when the self and the group both cannot see
+      themselves completely.
+    centralQuestion: How do we stay correctable when being wrong threatens identity and competence?
+    selectedConcepts:
+      - humility
+      - judgment
+      - certainty
+      - revisability
+      - bias
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - correctness-hardens-into-identity
+      - dissent-is-welcomed
+    searchAliases:
+      - when being wrong becomes expensive
+      - what knows that the first system succeeded
+      - shared certainty
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From attention that can threaten the self into the cost of remaining wrong.
+      toNext: >
+        From individual corrigibility into the promise and danger of seeing together.
+  - sourcePath: parts/part-2-practices-for-recurring-human-problems/chapter-6-seeing-together.md
+    summary: >
+      A design review ends in apparent agreement until a later message names the hardest
+      coordination cost the room never faced—showing how collective seeing can manufacture
+      alignment while suppressing minority risk. Communities learn whether questions are safe
+      by remembering what happened to those who asked them.
+    centralQuestion: When does seeing together deepen judgment, and when does it harden shared certainty?
+    selectedConcepts:
+      - partial-coherence
+      - judgment
+      - integration
+      - contact
+      - formation
+    selectedPatterns:
+      - dissent-is-welcomed
+      - meaning-forms-early
+      - contact-keeps-the-read-open
+    searchAliases:
+      - seeing together
+      - we did not talk about the hardest part
+      - groupthink and integration
+    situations:
+      - same-meeting-different-decisions
+    transition:
+      fromPrevious: >
+        From costly wrongness into communal practices of shared seeing.
+      toNext: >
+        From how groups learn safety into memory, ritual, and what tradition repeats.
+  - sourcePath: parts/part-2-practices-for-recurring-human-problems/chapter-7-memory-ritual-and-tradition.md
+    summary: >
+      Watching a Eucharistic sequence as a visitor, repetition shapes bodies and weeks before
+      full understanding arrives—showing tradition as memory given form. Inherited ritual
+      trains attention across generations and can also keep an earlier answer sacred after the
+      question has changed.
+    centralQuestion: What does ritual carry that explanation alone cannot—and when does inherited memory outlive its question?
+    selectedConcepts:
+      - inheritance
+      - stabilizing-practices
+      - attention
+      - formation
+      - meaning
+    selectedPatterns:
+      - meaning-drifts-over-time
+      - exceptions-are-forever
+      - examples-accumulate
+    searchAliases:
+      - memory ritual and tradition
+      - eucharistic repetition
+      - tradition trains attention
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From communal memory of who may ask into tradition as repeated form.
+      toNext: >
+        From inherited seeing into confession and repair when being right has not restored
+        harm.
+  - sourcePath: parts/part-2-practices-for-recurring-human-problems/chapter-8-conflict-confession-and-repair.md
+    summary: >
+      An earlier concern returns as 'you were right' after the assumption fails—satisfaction
+      that cannot undo delay, rework, or absorbed dissent. Confession and repair require more
+      than correctness; some realities cannot be reconciled and must be mourned rather than
+      processed into a complete moral lesson.
+    centralQuestion: What must confession and repair do that being right cannot?
+    selectedConcepts:
+      - repair
+      - responsibility
+      - harm
+      - humility
+      - witness
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - explanation-replaces-response
+      - revisability-preserves-judgment
+    searchAliases:
+      - conflict confession and repair
+      - you were right
+      - cheap grace
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From tradition that can outlive its question into harm that truth alone does not
+        heal.
+      toNext: >
+        From repair's limits into suffering that resists tidy meaning.
+  - sourcePath: parts/part-2-practices-for-recurring-human-problems/chapter-9-suffering-meaning-and-moral-imagination.md
+    summary: >
+      A blank condolence card makes helpful words feel too complete beside irreversible
+      loss—distinguishing meaning discovered by the one who suffers from meaning assigned
+      beside them. Traditions carry lament and care that once made pain survivable, and may
+      keep teaching fear long after the original wound has changed.
+    centralQuestion: How do we accompany suffering without imposing a meaning that betrays it?
+    selectedConcepts:
+      - meaning
+      - witness
+      - humility
+      - harm
+      - moral-posture-toward-harm
+    selectedPatterns:
+      - explanation-replaces-response
+      - meaning-outruns-the-words
+      - contact-keeps-the-read-open
+    searchAliases:
+      - suffering meaning and moral imagination
+      - condolence card
+      - meaning discovered not assigned
+    situations:
+      - explanation-displaces-action
+    transition:
+      fromPrevious: >
+        From mourning what repair cannot settle into practices of presence before unsolved
+        suffering.
+      toNext: >
+        From what pain teaches traditions to carry into cultural sediment as living
+        inheritance.
+  - sourcePath: parts/part-2-practices-for-recurring-human-problems/bridge.md
+    summary: >
+      Part II's practices do not float above history: communities inherit, repeat, and
+      reinterpret them until a response to danger becomes virtue and virtue becomes identity.
+      Part III turns to sediment, evaluation without contempt, and integration without
+      reduction.
+    centralQuestion: How do practices that once answered danger become identities difficult to distinguish from morality?
+    selectedConcepts:
+      - inheritance
+      - formation
+      - certainty
+      - stabilizing-practices
+    selectedPatterns:
+      - exceptions-are-forever
+      - meaning-drifts-over-time
+    searchAliases:
+      - what traditions carry
+      - virtue becomes identity
+    transition:
+      fromPrevious: >
+        From suffering's inheritance into the historical weight practices accumulate.
+      toNext: >
+        Into cultural sediment—old solutions still acting after their problems fade from
+        view.
+  - sourcePath: parts/part-3-what-traditions-carry/chapter-10-cultural-sediment.md
+    summary: >
+      Old code called technical debt often preserves a vanished failure mode—charging twice, a
+      migration path—misread as carelessness. Cultural sediment is the past continuing to act
+      through habits that feel like personality; contempt makes poor historians of systems
+      still living inside us.
+    centralQuestion: How do we judge inherited structures when the problems that produced them have disappeared from view?
+    selectedConcepts:
+      - inheritance
+      - certainty
+      - legitimacy
+      - formation
+      - harm
+    selectedPatterns:
+      - exceptions-are-forever
+      - meaning-drifts-over-time
+      - examples-accumulate
+    searchAliases:
+      - cultural sediment
+      - technical debt as moral judgment
+      - past continuing to act
+    situations:
+      - inherited-rule-outlives-constraint
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: >
+        From how traditions carry pain into sediment that still acts in the present.
+      toNext: >
+        From naming sediment into archaeology that understands without excusing.
+  - sourcePath: parts/part-3-what-traditions-carry/chapter-11-archaeology-without-contempt.md
+    summary: >
+      Explaining why a harmful practice developed can arrive as cushion before consequence is
+      established—and distrust of that move can also block needed history. Archaeology without
+      contempt keeps understanding and judgment connected: respect adaptive wisdom without
+      making survival proof of goodness.
+    centralQuestion: How can we excavate inherited practices without romanticizing them or turning history into excuse?
+    selectedConcepts:
+      - inheritance
+      - judgment
+      - harm
+      - humility
+      - responsibility
+    selectedPatterns:
+      - explanation-replaces-response
+      - scrutiny-preserves-trust
+      - revisability-preserves-judgment
+    searchAliases:
+      - archaeology without contempt
+      - explanation as surrender
+      - survival not proof of goodness
+    situations:
+      - explanation-displaces-action
+    transition:
+      fromPrevious: >
+        From sediment that still acts into disciplined excavation of inherited practice.
+      toNext: >
+        From understanding layers into integrating traditions without flattening their
+        differences.
+  - sourcePath: parts/part-3-what-traditions-carry/chapter-12-integration-without-reduction.md
+    summary: >
+      Useful parallels—calibration and humility, peer review and discernment—open a door and
+      then flatten: confession is not peer review; repentance is not updating a belief.
+      Integration without reduction holds what another tradition sees while refusing to
+      dissolve its ends into one's own vocabulary.
+    centralQuestion: How do we learn across traditions without reducing them to interchangeable mechanisms?
+    selectedConcepts:
+      - integration
+      - partial-coherence
+      - humility
+      - judgment
+      - attention
+    selectedPatterns:
+      - contact-keeps-the-read-open
+      - gaps-invite-completion
+      - meaning-gets-distorted
+    searchAliases:
+      - integration without reduction
+      - confession is not peer review
+      - comparison that flattens
+    transition:
+      fromPrevious: >
+        From excavation that preserves difference into contact that does not collapse it.
+      toNext: >
+        From careful integration into what becomes scarce when fluent answers proliferate.
+  - sourcePath: parts/part-3-what-traditions-carry/bridge.md
+    summary: >
+      Responsible inheritance distinguishes the value a practice protects from the form that
+      carried it. Practices forged under scarce information now meet artificial intelligence
+      that can summarize a tradition fluently while hiding the differences integration
+      requires—raising a new scarcity around attention and formation.
+    centralQuestion: What becomes scarce when information and fluent answers are no longer the limiting constraint?
+    selectedConcepts:
+      - attention
+      - formation
+      - humility
+      - inheritance
+      - uncertainty
+    selectedPatterns:
+      - attention-finds-a-focus
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - the next scarcity
+      - when information was scarce
+      - fluent synthesis
+    transition:
+      fromPrevious: >
+        From integration's discipline into the changing scarcity around knowing.
+      toNext: >
+        Into cheap intelligence and what polished answers leave outside the artifacts.
+  - sourcePath: parts/part-4-the-future-of-wisdom/chapter-13-when-intelligence-becomes-cheap.md
+    summary: >
+      An AI workshop presentation assembles the day's visible artifacts into a coherent story
+      while missing the conversations, confusion, and emptied exercises that never entered the
+      notes. When intelligence is everywhere, wisdom is knowing what an answer is for, what it
+      leaves out, and who we must become to use it well.
+    centralQuestion: What does intelligence leave out when it can fluently summarize what was recorded?
+    selectedConcepts:
+      - attention
+      - judgment
+      - certainty
+      - meaning
+      - responsibility
+    selectedPatterns:
+      - gaps-invite-completion
+      - meaning-forms-early
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - when intelligence becomes cheap
+      - ai workshop presentation
+      - wisdom not possession of the answer
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From the next scarcity into cheap intelligence's polished remainder.
+      toNext: >
+        From what fluent answers miss into ancient practices facing future environments of
+        avoidance.
+  - sourcePath: parts/part-4-the-future-of-wisdom/chapter-14-ancient-practices-future-problems.md
+    summary: >
+      An empty minute disappears into a device before silence becomes experience—showing an
+      old human avoidance newly equipped. Ancient practices will not save by antiquity alone;
+      the recurring question is what kind of human beings our practices are helping us become
+      when pauses and unresolved questions can be filled immediately.
+    centralQuestion: What human capacities must still be cultivated when every pause can be filled with answers?
+    selectedConcepts:
+      - attention
+      - formation
+      - humility
+      - revisability
+      - stabilizing-practices
+    selectedPatterns:
+      - attention-restores-contact
+      - attention-finds-a-focus
+      - revisability-preserves-judgment
+    searchAliases:
+      - ancient practices future problems
+      - silence disappeared
+      - what kind of human beings
+    transition:
+      fromPrevious: >
+        From cheap intelligence into environments that help us avoid noticing ourselves.
+      toNext: >
+        From future practices into the epilogue's compact charge: become better knowers
+        anyway.
+  - sourcePath: back-matter/epilogue-becoming-better-knowers.md
+    summary: >
+      Seeing never finishes: we inherit mixed habits of attention, need practices because
+      insight fades, and still decide what deserves notice when answers are easier to produce.
+      The work is teachability before certainty, responsibility when it arrives, and
+      willingness to notice what confidence left outside the frame.
+    centralQuestion: How do we keep practicing better knowing when no final way of seeing arrives?
+    selectedConcepts:
+      - formation
+      - attention
+      - humility
+      - revisability
+      - judgment
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - attention-restores-contact
+      - contact-keeps-the-read-open
+    searchAliases:
+      - becoming better knowers
+      - more teachable before certainty
+      - see partially anyway
+    transition:
+      fromPrevious: >
+        From ancient practices under new conditions into the ongoing work of becoming better
+        knowers.
