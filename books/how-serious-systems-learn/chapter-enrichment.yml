@@ -1,0 +1,24 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-1-why-knowing-no-longer-governs-outcomes/chapter-2-confidence-outruns-correction.md
+    summary: >
+      Confidence is needed for action, but modern systems often reward decisiveness faster than
+      interruptibility — dashboards and narrative outrunning review, feedback, and dissent.
+    centralQuestion: What happens when confidence scales faster than correction?
+    selectedConcepts:
+      - feedback
+      - correction
+      - judgment
+      - uncertainty
+      - responsibility
+    selectedPatterns:
+      - learning-collapses
+      - feedback-drives-change
+      - revisability-preserves-judgment
+    searchAliases:
+      - confidence outruns correction
+      - decisiveness without interruptibility
+    situations:
+      - feedback-stops-changing-decisions
+    readingTransition: >
+      From confidence that substitutes for correction into the collapse of corrective loops.

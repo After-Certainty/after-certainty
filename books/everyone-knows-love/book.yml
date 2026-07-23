@@ -14,6 +14,8 @@ book:
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
+  content_type: nonfiction
+  literary_form: monograph
   overview:
     centralQuestion: Why is love something everyone recognizes yet struggles to explain?
     whyItExists: Everyone Knows Love treats care as a living mystery rather than a formula — a human-scale

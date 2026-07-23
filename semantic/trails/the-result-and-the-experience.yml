@@ -33,11 +33,19 @@ pathStops:
       cannot settle experience.
   - position: 3
     entityType: book
+    entityId: book-the-world-we-make-together
+    description: >
+      Ordinary people make history together — shared power, unequal windows, and what collective action
+      can still settle without claiming a complete map.
+    whyThisFollows: >
+      After indicators that cannot settle experience, this book asks who makes the shared world and how.
+  - position: 4
+    entityType: book
     entityId: book-what-we-cannot-see
     description: >
       Map finite perspective — why no one sees the whole that charts and scoreboards pretend to summarize.
     whyThisFollows: >
-      Divergent results and experiences are also perspective limits; this book names the partial view.
+      Shared making still meets perspective limits; this book names the partial view.
 closingReflection: >
   Finality and experience run on different clocks. Keeping them separate is a discipline of judgment —
   not a refusal of measurement.

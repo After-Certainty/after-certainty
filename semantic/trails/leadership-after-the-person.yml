@@ -38,10 +38,17 @@ pathStops:
   whyThisFollows: After naming the patterns, this is the deepest on-site treatment of inherited influence.
 - position: 4
   entityType: book
+  entityId: book-when-others-look-to-you-v2
+  description: Companion edition — the same leadership cycle as forming, renewing, eroding, and repeating
+    patterns, one chapter each.
+  whyThisFollows: Parallel enrichment beside the primary volume; not a replacement.
+  optional: true
+- position: 5
+  entityType: book
   entityId: book-when-others-become-leaders
   description: Ask what enduring influence leaves behind — whether capacity circulates after the person.
   whyThisFollows: After accumulation around a person, this book asks whether leadership multiplies beyond them.
-- position: 5
+- position: 6
   entityType: concept
   entityId: concept-authority
   description: Distinguish authority from understanding—and notice when legitimacy rests on position rather

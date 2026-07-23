@@ -1,42 +1,35 @@
 # Remaining semantic enrichment gaps
 
-Updated after slice 4 (2026-07-23): discovery placement — aliases, shelves, trust trail/questions, chapter enrichment.
+Updated after slice 5 (2026-07-23): trail coverage, questions, chapter enrichment — dates still blocked.
 
 ## Completed
 
-### Pass 1 (#328)
-- Completeness report; poetry/`literaryForm`; priority nine overviews; parts/chapters; situations/questions; two trails; evidenced publication dates
+### Pass 1–4 (#328–#331)
+- Overviews complete; aliases and curated shelves complete; accountability + trust paths; sample chapter enrichment
 
-### Slice 2 (#329)
-- Trails: **The Result and the Experience**; **Practices of Seeing**
-- Extended **Leadership After the Person**; eight thin-volume overviews
-
-### Slice 3 (#330)
-- Trail: **Accountability and Enduring Authority**
-- Overviews for accountability cluster, WoLTY v2, Velorum; two questions; one chapter enrichment
-
-### Slice 4 (this PR)
-- Search aliases for remaining public books that lacked them
-- Curated shelves: **Meaning and Perspective**, **Measurement and Experience**, **Story Doorways**; extended Leadership and Systems shelves
-- Trail: **Trust Formation and Drift**
-- Questions: **how-trust-becomes-possible**; **when-trust-detaches-from-reality**
-- Chapter enrichment: Moral Posture Toward Harm; Beliefs Become Visible; The Story That Arrives First
+### Slice 5 (this PR)
+- Extended trails so remaining public books appear on discovery paths (systems, judgment, result/experience, meaning, leadership, trust, accountability, practices of seeing)
+- Questions: **discipline-under-incomplete-information**; **love-hard-to-explain**
+- Chapter enrichment: Warnings Become Easier to Ignore; When Everyone Agrees and Everyone Is Wrong; Confidence Outruns Correction
+- Added missing `content_type` / `literary_form` on `how-meaning-moves` and `everyone-knows-love`
 
 ## Still thin / editorial follow-ups
 
-Most public books still lack authored `publication_date` and public change events — **do not invent dates**.
+Most public books still lack authored `publication_date` and public change events — **do not invent dates**. Amazon product pages and Open Library did not yield reliable release metadata in this pass for ASIN-listed volumes without dates.
 
-Chapter enrichment remains sample-based (seven chapters across the corpus), not full-corpus.
+Fiction/companion volumes may remain without dedicated primary questions by design (`the-relay`, `velorum`, `when-others-look-to-you-v2`).
+
+Chapter enrichment remains sample-based, not full-corpus.
 
 ## Recommended next enrichment
 
-1. **Publication dates** — author only when reliable release records exist
-2. **Public change events** — only for evidenced publication/revision moments
-3. **Broader chapter enrichment** — optional; not required for discovery baseline
-4. **Shelf tuning** — editorial review of new curated shelves and duplicates across shelves
+1. **Publication dates** — author only when release records are confirmed (KDP dashboard, Bowker, or publisher records)
+2. **Public change events** — pair with evidenced dates only
+3. **Optional broader chapter enrichment** — not required for discovery baseline
+4. **Shelf / trail tuning** — editorial review of optional fiction doorways and companion stops
 
 ## Editorial review still needed
 
-- Whether Story Doorways should stay separate from rule Fiction/Poetry shelves
-- Publication dates for Amazon-listed volumes when release dates are confirmed
-- Whether any remaining “absent from trails/questions” rows are intentional (companion editions, verse, etc.)
+- Whether Velorum / Everyone Knows Love optional trail stops are the right fiction doorways
+- Publication dates for Amazon-listed volumes (`when-authority-is-misread`, `when-authority-outlives-accountability`) when confirmed
+- Whether companion edition should ever be a question primary

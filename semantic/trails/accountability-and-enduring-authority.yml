@@ -49,6 +49,16 @@ pathStops:
       Ask what moral seriousness requires when distance, asymmetry, and acceleration thin moral density.
     whyThisFollows: >
       Endurance without renewal intensifies when the conditions that once made care dense have thinned.
+  - position: 5
+    entityType: book
+    entityId: book-velorum
+    description: >
+      Fiction doorway — mythic bonds, vows, and authority that exact cost when personal loyalty meets
+      political fate (dramatizes; does not prove).
+    whyThisFollows: >
+      Story can stage enduring obligation and harm when nonfiction lenses need a different pace.
+    optional: true
+    fictionDoorway: true
 closingReflection: >
   Endurance is not automatically wisdom. Separating dimensions of leadership judgment, naming
   institutional adaptation that is not renewal, and holding seriousness under scale are related

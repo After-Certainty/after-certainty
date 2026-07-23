@@ -41,6 +41,14 @@ pathStops:
     whyThisFollows: >
       After formation and drift, difference is where trust must remain possible without sameness.
   - position: 4
+    entityType: book
+    entityId: book-why-diversity-matters
+    description: >
+      See diversity as a visibility and learning problem — why good intentions still miss, and how
+      difference surfaces mistakes earlier.
+    whyThisFollows: >
+      Trust across difference needs more than goodwill; this book names what agreement can hide.
+  - position: 5
     entityType: pattern
     entityId: pattern-scrutiny-preserves-trust
     description: >

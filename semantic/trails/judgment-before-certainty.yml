@@ -52,6 +52,12 @@ pathStops:
     possible.
 - position: 6
   entityType: book
+  entityId: book-the-discipline-of-uncertainty
+  description: A handbook for moral seriousness and decision quality when absolutes fracture and certainty
+    stops working as social glue.
+  whyThisFollows: After naming revisability, this volume offers field discipline under incomplete information.
+- position: 7
+  entityType: book
   entityId: book-the-relay
   description: 'A fiction doorway: a courier notices silence where explanations should be—and participation
     replaces false certainty.'

@@ -36,6 +36,12 @@ pathStops:
     meaning between people.
   whyThisFollows: After recognition and pattern, this is the fullest on-site exploration.
 - position: 4
+  entityType: book
+  entityId: book-when-interpretation-no-longer-matters
+  description: See what happens when authority persists after shared understanding loses leverage—clarity
+    without a path to consequence.
+  whyThisFollows: After meaning under pressure, this book names when interpretation no longer governs legitimacy.
+- position: 5
   entityType: podcast_episode
   entityId: podcast:how-meaning-moves
   description: Listen to a conversation that walks through the book's forces in spoken form—a different
@@ -43,7 +49,7 @@ pathStops:
   whyThisFollows: Hearing meaning move aloud can surface what silent reading sometimes skips.
   optional: true
   estimatedMinutes: 12
-- position: 5
+- position: 6
   entityType: concept
   entityId: concept-interpretation
   description: Carry forward into interpretation—how people reconstruct meaning from partial signal and

@@ -1,0 +1,49 @@
+id: love-hard-to-explain
+slug: love-hard-to-explain
+question: Why is love something everyone recognizes yet struggles to explain?
+summary: >
+  Recognition arrives before language. Love is treated as a living mystery of care and obligation —
+  not a formula that finishes the question.
+orientation: >
+  Everyone knows love until asked to define it. This question holds the gap between recognition and
+  explanation without forcing a clinical or theological answer.
+whatThisIsNot:
+  - Not a clinical or theological definition of love.
+  - Not a substitute for civic and systems volumes in the project.
+  - Not a claim that unexplained recognition is enough for institutions.
+status: published
+featured: false
+families:
+  - Care and meaning
+primaryBookId: book-everyone-knows-love
+relatedQuestionIds:
+  - meaning-changes-as-it-travels
+  - sincere-people-still-wrong
+searchHints:
+  - everyone knows love
+  - hard to explain love
+  - recognition before definition
+pathStops:
+  - position: 1
+    entityType: concept
+    entityId: concept-care
+    description: Begin with care as lived obligation — what people recognize before they can define it.
+  - position: 2
+    entityType: concept
+    entityId: concept-meaning
+    description: See how meaning forms and travels — and how explanation can arrive late or distort.
+    whyThisFollows: Love sits in the gap between recognition and the language that tries to catch it.
+  - position: 3
+    entityType: book
+    entityId: book-everyone-knows-love
+    description: The primary book on love as recognition that resists formula.
+    whyThisFollows: This is the intimate doorway into the project's concerns with incomplete explanation.
+  - position: 4
+    entityType: book
+    entityId: book-how-meaning-moves
+    description: A complementary lens — how meaning hardens and stays revisable before anyone is obviously wrong.
+    whyThisFollows: After intimate recognition, meaning-in-motion shows how language travels under pressure.
+closingReflection: >
+  Some recognitions remain prior to definition. The work is staying with what care requires without
+  pretending explanation finishes the mystery.
+carryForwardQuestion: Where does language arrive too late for what everyone already recognizes?
