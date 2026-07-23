@@ -38,6 +38,37 @@ book:
     - meaning-drifts-over-time
     - exceptions-are-forever
     - examples-accumulate
+    selectedConceptRoles:
+    - conceptId: inheritance
+      roleInWork: >
+        Central perception skill: noticing present infrastructure as fossilized prior
+        settlements—language, policy, metrics still steering.
+    - conceptId: drift
+      roleInWork: >
+        Names how meaning and fit thin while forms persist; sediment is what remains after reasons fade.
+    - conceptId: structure
+      roleInWork: >
+        Focuses on what must be counted and how workflows assign reality—fossils that still coordinate
+        power.
+    - conceptId: legitimacy
+      roleInWork: >
+        Asks why sedimented arrangements still feel justified—or refuse challenge—long after their
+        originating story.
+    - conceptId: compression
+      roleInWork: >
+        Shows metrics and algorithms as compressed inheritances that travel farther than the judgments
+        that produced them.
+    selectedPatternRoles:
+    - patternId: meaning-drifts-over-time
+      roleInWork: >
+        Deepens historical perception: interpretation of the same infrastructure shifts while the form
+        stays.
+    - patternId: exceptions-are-forever
+      roleInWork: >
+        Applies how temporary workarounds become sedimented operating procedure.
+    - patternId: examples-accumulate
+      roleInWork: >
+        Shows how repeated instances under pressure set what later counts as normal—fossils forming now.
     readBefore:
     - before-certainty-arrives
     readNext:

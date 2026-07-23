@@ -35,6 +35,37 @@ book:
     - exceptions-are-forever
     - feedback-drives-change
     - learning-collapses
+    selectedConceptRoles:
+    - conceptId: boundary
+      roleInWork: >
+        Architectural hinge: where joining and separation redistribute responsibility and consequence
+        across systems.
+    - conceptId: accountability
+      roleInWork: >
+        Follows how tight or loose coupling changes who can see and answer for effects over time.
+    - conceptId: agency
+      roleInWork: >
+        Clarifies practical capacity inside coupled systems—where action can still matter when links
+        constrain options.
+    - conceptId: attention
+      roleInWork: >
+        Names what must be watched at seams and interfaces so drift and exception-paths stay visible.
+    - conceptId: authority
+      roleInWork: >
+        Tracks steering rights across coupled units—who may change the join when consequences cross
+        boundaries.
+    selectedPatternRoles:
+    - patternId: exceptions-are-forever
+      roleInWork: >
+        Applies how coupling workarounds become permanent architecture—provisional joins that never
+        uncouple.
+    - patternId: feedback-drives-change
+      roleInWork: >
+        Shows when outcome-signal still reaches the join in time to shift direction—healthy coupling.
+    - patternId: learning-collapses
+      roleInWork: >
+        Marks failure when coupling hides consequences until the group can no longer read what its
+        choices are doing.
     readBefore:
     - how-serious-systems-learn
     readNext:

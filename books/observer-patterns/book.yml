@@ -34,6 +34,33 @@ book:
     - attention-finds-a-focus
     - attention-finds-a-signal
     - attention-restores-contact
+    selectedConceptRoles:
+    - conceptId: attention
+      roleInWork: >
+        Lyric hinge of the collection: looking that becomes decisive—when noticing alone reshapes what
+        can happen next.
+    - conceptId: meaning
+      roleInWork: >
+        What poems stabilize enough to recognize without arguing—pattern held in image rather than
+        thesis.
+    - conceptId: judgment
+      roleInWork: >
+        Figures deciding under incomplete sight; the poems stage assessment as stance, not instruction.
+    - conceptId: trust
+      roleInWork: >
+        Appears as extending action beyond what one poem's speaker can verify—following and being
+        followed.
+    selectedPatternRoles:
+    - patternId: attention-finds-a-focus
+      roleInWork: >
+        Recurs as poems where looking settles on one figure and reorganizes the field around that gaze.
+    - patternId: attention-finds-a-signal
+      roleInWork: >
+        Stages first salience—what flashes into notice and then trains the next noticing.
+    - patternId: attention-restores-contact
+      roleInWork: >
+        Returns consequence into the lyric frame where abstraction would thin encounter—attention as
+        contact, not explanation.
     readBefore:
     - learning-to-see
     readNext:

@@ -50,6 +50,39 @@ book:
     - disagreement-is-suppressed
     - dissent-is-welcomed
     - exceptions-are-forever
+    selectedConceptRoles:
+    - conceptId: authority
+      roleInWork: >
+        Central field: operational power that forms when others orient to you—steering that must stay
+        renewably legitimate.
+    - conceptId: accountability
+      roleInWork: >
+        Keeps influence answerable to consequence; distinguishes being looked to from being beyond
+        challenge.
+    - conceptId: contestability
+      roleInWork: >
+        Names the capacity for decisions and standing to be challenged without collapse—renewal's
+        oxygen.
+    - conceptId: adaptation
+      roleInWork: >
+        Tracks how leadership practice adjusts under pressure—workable response rather than fixed
+        persona.
+    - conceptId: coherence-maintenance
+      roleInWork: >
+        Names the labor of keeping enough shared sense of who decides and what counts while trust is
+        practiced day to day.
+    selectedPatternRoles:
+    - patternId: disagreement-is-suppressed
+      roleInWork: >
+        Marks the erosion path: dissent softens until reality no longer reaches the person others look
+        to.
+    - patternId: dissent-is-welcomed
+      roleInWork: >
+        Applies the renewal move: problems arrive early enough for correction while influence is still
+        plastic.
+    - patternId: exceptions-are-forever
+      roleInWork: >
+        Shows how one-off shortcuts under pressure become the group's ordinary operating system.
     readBefore:
     - how-serious-systems-learn
     - trust-beyond-similarity

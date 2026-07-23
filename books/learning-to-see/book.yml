@@ -39,6 +39,43 @@ book:
     - attention-finds-a-focus
     - revisability-preserves-judgment
     - contact-keeps-the-read-open
+    selectedConceptRoles:
+    - conceptId: attention
+      roleInWork: >
+        Central practice across traditions: finite capacity that makes some signals available for
+        response—how knowers are formed when answers become cheap.
+    - conceptId: humility
+      roleInWork: >
+        Names epistemic virtue as naming uncertainty and tradeoffs, not self-erasure; distinguishes
+        better knowing from accumulating answers.
+    - conceptId: judgment
+      roleInWork: >
+        The aim of formation: deciding responsibly under uncertainty rather than outsourcing to
+        proliferating intelligence.
+    - conceptId: uncertainty
+      roleInWork: >
+        Condition the book trains readers to inhabit—action remains necessary without full information
+        or a single tradition's monopoly.
+    - conceptId: inheritance
+      roleInWork: >
+        Tracks how practices and frames arrive already formed; learning to see includes noticing what
+        one did not choose.
+    - conceptId: formation
+      roleInWork: >
+        Names becoming a knower through attention practices across scientific, philosophical,
+        psychological, and spiritual lineages—without collapsing them.
+    selectedPatternRoles:
+    - patternId: attention-finds-a-focus
+      roleInWork: >
+        Introduces how looking settles and organizes subsequent noticing—first move in becoming a better
+        knower.
+    - patternId: revisability-preserves-judgment
+      roleInWork: >
+        Applies the guardrail against dogma: judgment stays live only while it can still be updated.
+    - patternId: contact-keeps-the-read-open
+      roleInWork: >
+        Deepens comparative inquiry: more context sharpens without forcing premature resolution across
+        traditions.
     readBefore:
     - what-we-cannot-see
     readNext:

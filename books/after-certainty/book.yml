@@ -35,6 +35,40 @@ book:
     - explanation-replaces-response
     - blame-compresses-complexity
     - attention-restores-contact
+    selectedConceptRoles:
+    - conceptId: agency
+      roleInWork: >
+        Names the practical stake of the capstone: capacity to act and affect outcomes once explanation
+        no longer guarantees control—so participation stays possible without a replacement framework.
+    - conceptId: accountability
+      roleInWork: >
+        Anchors judgment after certainty as exposure to consequence rather than correctness theater;
+        distinguishes answerability from mastery of the field.
+    - conceptId: authority
+      roleInWork: >
+        Clarifies operational power that still steers action when understanding is incomplete—so
+        leadership and legitimacy remain live questions, not solved by better theory alone.
+    - conceptId: abstraction
+      roleInWork: >
+        Marks the drift the book resists: mediation that scales systems while concealing encounter; the
+        work keeps returning judgment to contact with effects.
+    - conceptId: coherence-maintenance
+      roleInWork: >
+        Names the ongoing labor of keeping enough governable agreement—who decides, what counts—without
+        installing a new totalizing certainty.
+    selectedPatternRoles:
+    - patternId: explanation-replaces-response
+      roleInWork: >
+        Introduces the failure mode where more framing reorganizes harm instead of reducing it—central
+        to why understanding alone is not enough.
+    - patternId: blame-compresses-complexity
+      roleInWork: >
+        Dramatizes the cheap relief of locating fault when the field is too complex for a single cause;
+        the book treats this as a temptation after certainty fails.
+    - patternId: attention-restores-contact
+      roleInWork: >
+        Applies the restorative move: attention reintroduces consequence where abstraction would hide
+        it—practice rather than a new doctrine.
     readBefore:
     - curiosity-before-certainty
     - what-we-cannot-see
