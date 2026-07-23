@@ -1,0 +1,26 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-1-before-the-leader-becomes-a-story/chapter-1-the-sentence-everyone-heard-differently.md
+    summary: >
+      Three people leave the same meeting carrying nearly identical words with different stress — caution,
+      decisiveness, permission — reconstructing unfinished speech under compression and constraint.
+    centralQuestion: Why can the same sentence become three usable meanings without anyone inventing or lying?
+    selectedConcepts:
+      - interpretation
+      - compression
+      - authority
+      - legitimacy
+      - meaning
+    selectedPatterns:
+      - meaning-outruns-the-words
+      - intent-gets-assigned
+      - gaps-invite-completion
+    searchAliases:
+      - the sentence everyone heard differently
+      - leadership misreading begins
+    situations:
+      - same-meeting-different-decisions
+      - meaning-outruns-shared-understanding
+    readingTransition: >
+      From ordinary reconstruction of speech into the chair no one reconsiders — when position hardens
+      what the sentence was allowed to mean.

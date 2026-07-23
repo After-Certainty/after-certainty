@@ -29,6 +29,8 @@ book:
   edition_relationship: primary
   is_canonical: true
   edition_label: Primary volume
+  content_type: nonfiction
+  literary_form: monograph
   overview:
     centralQuestion: How does leadership influence form, renew, and erode when others look to you?
     whyItExists: When Others Look to You is a field guide to renewal and erosion in leadership — how trust

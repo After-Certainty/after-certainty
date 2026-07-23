@@ -1,0 +1,25 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-1-the-illusion-of-sufficiency/chapter-1-trusting-people-like-us.md
+    summary: >
+      A community center design begins among familiar circles — architects, PTA parents, budget colleagues —
+      while teenagers who know the lot remain deferred, showing how trust reaches first for people who
+      already understand us.
+    centralQuestion: Why do we reach for people who already understand us when building trust?
+    selectedConcepts:
+      - trust
+      - finite-perspective
+      - bias
+      - contestability
+      - feedback
+    selectedPatterns:
+      - contact-keeps-the-read-open
+      - disagreement-is-suppressed
+      - gaps-invite-completion
+    searchAliases:
+      - trusting people like us
+      - familiar circles
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    readingTransition: >
+      From familiar trust into shared stories that create trust — and what those stories leave out.
