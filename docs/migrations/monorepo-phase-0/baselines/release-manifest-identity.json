@@ -1,0 +1,66 @@
+{
+  "capturedAt": "2026-07-23T23:20:32.958836+00:00",
+  "source": "https://github.com/ksteffe/after-certainty/releases/download/latest/semantic-manifest.json",
+  "manifestVersion": 2,
+  "schemaVersion": "2.3",
+  "generatedAt": "2026-07-23T12:54:00.182172+00:00",
+  "sourceCommit": "e9dc01725aab8411d9f6a8e75175f2953b504d69",
+  "repository": "ksteffe/after-certainty",
+  "ref": "main",
+  "releaseTag": "latest",
+  "counts": {
+    "books": 32,
+    "glossary": 144,
+    "patterns": 30,
+    "situations": 19,
+    "sources": 648,
+    "relationships": 109,
+    "thinkers": 630,
+    "works": 31,
+    "editions": 32,
+    "questions": 25,
+    "trails": 12,
+    "shelves": 13,
+    "changeEvents": 6,
+    "searchAliases": 39,
+    "parts": 124,
+    "chapters": 625
+  },
+  "sampleSlugs": {
+    "books": [
+      "after-certainty",
+      "before-certainty-arrives",
+      "boundary-conditions",
+      "coupling",
+      "curiosity-before-certainty",
+      "everyone-knows-love",
+      "how-meaning-moves",
+      "how-serious-systems-learn"
+    ],
+    "questions": [
+      "act-before-certainty-arrives",
+      "attention-changes-what-it-observes",
+      "authority-without-understanding",
+      "collaboration-remains-difficult",
+      "discipline-under-incomplete-information",
+      "economy-improves-without-feeling-better",
+      "final-result-leaves-unsettled",
+      "good-intentions-still-miss"
+    ],
+    "trails": [
+      "accountability-and-enduring-authority",
+      "inheritance-and-institutional-sediment",
+      "judgment-before-certainty",
+      "leadership-after-the-person",
+      "meaning-under-pressure",
+      "practices-of-seeing",
+      "software-judgment-trail",
+      "systems-without-correction"
+    ]
+  },
+  "representative": {
+    "fictionBook": "boundary-conditions",
+    "poetryBook": "observer-patterns",
+    "nonfictionBook": "after-certainty"
+  }
+}

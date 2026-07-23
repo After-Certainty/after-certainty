@@ -1,6 +1,6 @@
 # Monorepo migration plan: after-certainty + after-certainty-site
 
-**Status:** Planning only — no production, CI, Vercel, or history changes in this document’s PR.  
+**Status:** Plan merged. Phase 0 preparation lives in [`docs/migrations/monorepo-phase-0/`](../migrations/monorepo-phase-0/).  
 **Date:** 2026-07-23  
 **Surviving repository (recommended):** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Site repository (to import, then archive):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)

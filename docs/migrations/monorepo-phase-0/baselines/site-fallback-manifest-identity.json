@@ -1,0 +1,24 @@
+{
+  "capturedFrom": "after-certainty-site/data/semantic-manifest.json",
+  "schemaVersion": "2.3",
+  "sourceCommit": "e9dc01725aab8411d9f6a8e75175f2953b504d69",
+  "generatedAt": "2026-07-23T12:54:00.182172+00:00",
+  "counts": {
+    "books": 32,
+    "glossary": 144,
+    "patterns": 30,
+    "situations": 19,
+    "sources": 648,
+    "relationships": 109,
+    "thinkers": 630,
+    "works": 31,
+    "editions": 32,
+    "questions": 25,
+    "trails": 12,
+    "shelves": 13,
+    "changeEvents": 6,
+    "searchAliases": 39,
+    "parts": 124,
+    "chapters": 625
+  }
+}
