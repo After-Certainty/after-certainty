@@ -44,6 +44,11 @@ def test_fiction_and_poetry_profiles() -> None:
 
 def test_cli_writes_report_without_touching_tracked_outputs(tmp_path: Path) -> None:
     """Write to a temp dir so CI clean-tree checks are not dirtied by generatedAt."""
+    tracked_md = REPO / "reports" / "semantic-completeness.md"
+    tracked_js = REPO / "reports" / "semantic-completeness.json"
+    before_md = tracked_md.read_bytes() if tracked_md.is_file() else None
+    before_js = tracked_js.read_bytes() if tracked_js.is_file() else None
+
     md = tmp_path / "semantic-completeness.md"
     js = tmp_path / "semantic-completeness.json"
     r = _run(
@@ -63,10 +68,8 @@ def test_cli_writes_report_without_touching_tracked_outputs(tmp_path: Path) -> N
     assert js.is_file()
     data = json.loads(js.read_text(encoding="utf-8"))
     assert data["bookCount"] >= 30
-    # Tracked reports under reports/ must remain unchanged by this test.
-    assert (
-        _run(["git", "diff", "--quiet", "--", "reports/semantic-completeness.md"]).returncode == 0
-    )
-    assert (
-        _run(["git", "diff", "--quiet", "--", "reports/semantic-completeness.json"]).returncode == 0
-    )
+    # This CLI invocation must not rewrite the tracked report paths.
+    if before_md is not None:
+        assert tracked_md.read_bytes() == before_md
+    if before_js is not None:
+        assert tracked_js.read_bytes() == before_js

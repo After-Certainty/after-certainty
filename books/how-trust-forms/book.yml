@@ -1,25 +1,67 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: how-trust-forms
-  title: "How Trust Forms"
-  subtitle: "Why Participation Becomes Possible"
-  description: "How people become willing to participate with one another under uncertainty—beliefs, actions, outcomes, and the trust cycle."
+  title: How Trust Forms
+  subtitle: Why Participation Becomes Possible
+  description: How people become willing to participate with one another under uncertainty—beliefs, actions,
+    outcomes, and the trust cycle.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: How do people become willing to participate with one another under uncertainty?
+    whyItExists: Trust does not eliminate uncertainty; it makes participation possible while uncertainty
+      remains. The book traces beliefs made visible, outcomes that teach, and the trust cycle that scales
+      cooperation.
+    audience: Readers who want the formation half of the trust cluster — neighbors, teams, institutions
+      — before drift and practice-across-difference volumes.
+    nonGoals:
+    - It is not a claim that trust should be given indiscriminately or that certainty must precede cooperation.
+    - It does not reduce trust to a single reputation score or demand uniform depth of participation.
+    - It is not the book on how trust drifts from evidence (see When Trust Stops Tracking Reality).
+    selectedConcepts:
+    - trust
+    - feedback
+    - legitimacy
+    - formation
+    - reciprocity
+    - provisional-commitment
+    selectedPatterns:
+    - contact-keeps-the-read-open
+    - meaning-forms-early
+    - scrutiny-preserves-trust
+    readBefore:
+    - curiosity-before-certainty
+    readNext:
+    - when-trust-stops-tracking-reality
+    - trust-beyond-similarity
+    relatedWorks:
+    - workId: when-trust-stops-tracking-reality
+      relationship: prepares_for
+      reason: Formation of the trust cycle prepares the tension book on when the cycle stops learning.
+    - workId: trust-beyond-similarity
+      relationship: prepares_for
+      reason: How trust forms under uncertainty prepares practice of trust across difference.
+    - workId: how-meaning-moves
+      relationship: companion_to
+      reason: Signal and restraint shape the meanings people rely on before verification is complete.
+    - workId: when-others-look-to-you
+      relationship: companion_to
+      reason: Trust converts attention into legitimacy as leadership influence gathers.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Participation under uncertainty is a doorway into practice after certainty thins.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -29,11 +71,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -42,11 +82,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

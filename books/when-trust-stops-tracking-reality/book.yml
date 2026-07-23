@@ -1,25 +1,67 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: when-trust-stops-tracking-reality
-  title: "When Trust Stops Tracking Reality"
-  subtitle: "Why Good Intentions Sometimes Become Harmful"
-  description: "How trust drifts from evidence when good intentions stop learning from feedback—through the fictional arc of Calder Family Health and real institutional patterns."
+  title: When Trust Stops Tracking Reality
+  subtitle: Why Good Intentions Sometimes Become Harmful
+  description: How trust drifts from evidence when good intentions stop learning from feedback—through
+    the fictional arc of Calder Family Health and real institutional patterns.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: How does trust become detached from reality?
+    whyItExists: Through Calder Family Health and real institutional patterns, the book shows how trust
+      that once tracked outcomes can stop learning from feedback — until preservation outruns mission.
+    audience: People inside organizations and communities where good intentions, loyalty, and success
+      stories make weak signals easy to ignore.
+    nonGoals:
+    - It is not a villain story about fraud, deception, or cults as the main case.
+    - Calder is a lens, not a case study of a real organization.
+    - It is not an argument for abandoning trust; healthy trust remains correctable.
+    selectedConcepts:
+    - trust
+    - drift
+    - feedback
+    - legitimacy
+    - momentum
+    - correction
+    selectedPatterns:
+    - scrutiny-preserves-trust
+    - learning-collapses
+    - correctness-hardens-into-identity
+    - admiration-becomes-insulation
+    readBefore:
+    - how-trust-forms
+    readNext:
+    - trust-beyond-similarity
+    - after-certainty
+    relatedWorks:
+    - workId: how-trust-forms
+      relationship: continues
+      reason: Formation of the trust cycle becomes the tension of participation that stops testing.
+    - workId: trust-beyond-similarity
+      relationship: contrasts_with
+      reason: Drift from evidence vs practice of trust across difference — related, not the same lens.
+    - workId: when-interpretation-no-longer-matters
+      relationship: companion_to
+      reason: Trust that shapes interpretation pairs with authority when understanding loses consequence.
+    - workId: when-accountability-no-longer-expires
+      relationship: companion_to
+      reason: Legitimacy that outlives performance rhymes with institutional persistence after harm.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Scrutiny that preserves trust hands off to practice when explanation is not enough.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -29,11 +71,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -42,11 +82,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

@@ -1,0 +1,43 @@
+id: the-result-and-the-experience
+slug: the-result-and-the-experience
+title: The Result and the Experience
+summary: >
+  From final sporting results that leave meaning unsettled, through economic charts that diverge
+  from lived receipts, into the limits of any single perspective.
+orientation: >
+  A decisive indicator can settle one question while leaving cause, legitimacy, and experience open.
+  This trail holds result and experience on separate clocks — and marks what no one perspective can finish.
+status: published
+featured: false
+themes:
+  - Measurement and lived experience
+  - Perspective
+depth: intermediate
+primaryBookId: book-the-game-we-think-we-saw
+relatedTrailIds:
+  - inheritance-and-institutional-sediment
+  - meaning-under-pressure
+pathStops:
+  - position: 1
+    entityType: book
+    entityId: book-the-game-we-think-we-saw
+    description: >
+      A result may be final while cause, legitimacy, cost, and meaning remain unsettled.
+  - position: 2
+    entityType: book
+    entityId: book-the-economy-we-dont-experience
+    description: >
+      Hold the chart and the receipt together — aggregate improvement without lived improvement.
+    whyThisFollows: >
+      After sporting finality, economic indicators show another form of portable result that
+      cannot settle experience.
+  - position: 3
+    entityType: book
+    entityId: book-what-we-cannot-see
+    description: >
+      Map finite perspective — why no one sees the whole that charts and scoreboards pretend to summarize.
+    whyThisFollows: >
+      Divergent results and experiences are also perspective limits; this book names the partial view.
+closingReflection: >
+  Finality and experience run on different clocks. Keeping them separate is a discipline of judgment —
+  not a refusal of measurement.

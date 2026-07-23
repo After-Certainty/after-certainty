@@ -1,0 +1,50 @@
+id: practices-of-seeing
+slug: practices-of-seeing
+title: Practices of Seeing
+summary: >
+  From comparative practices that form better knowers, through poetry of decisive attention,
+  into finite perspective and disciplined curiosity.
+orientation: >
+  When answers become cheap, attention and formation become scarce. This trail moves from prose
+  practices of seeing through poetry of observation into the limits of any single view — and the
+  curiosity that keeps inquiry open. Poetry dramatizes pattern; it is not treated as proof.
+status: published
+featured: false
+themes:
+  - Attention and knowing
+  - Curiosity
+depth: introductory
+primaryBookId: book-learning-to-see
+relatedTrailIds:
+  - judgment-before-certainty
+  - the-result-and-the-experience
+pathStops:
+  - position: 1
+    entityType: book
+    entityId: book-learning-to-see
+    description: >
+      Comparative practices that form knowers when intelligence and answers proliferate.
+  - position: 2
+    entityType: book
+    entityId: book-observer-patterns
+    description: >
+      Poetry of attention becoming decisive — looking, deciding, and following (not instructions).
+    whyThisFollows: >
+      After prose practices of seeing, verse reframes observation and participation without argument.
+  - position: 3
+    entityType: book
+    entityId: book-what-we-cannot-see
+    description: >
+      Finite perspective — what attention cannot complete from any one window.
+    whyThisFollows: >
+      Decisive attention still meets the limits of a single view.
+  - position: 4
+    entityType: book
+    entityId: book-curiosity-before-certainty
+    description: >
+      Disciplined curiosity as a doorway when easy certainty would close the path.
+    whyThisFollows: >
+      After naming limits of seeing, curiosity keeps inquiry revisable without endless delay.
+closingReflection: >
+  Better knowing is not more answers. It is attention, humility, and curiosity that remain corrigible
+  when any single perspective finishes early.

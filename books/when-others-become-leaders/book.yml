@@ -1,26 +1,69 @@
 version: 1
-
 publishing:
   enabled: true
   validate_boundary: true
-
 book:
   id: when-others-become-leaders
-  title: "When Others Become Leaders"
-  subtitle: "What Enduring Influence Leaves Behind"
-  description: "What kind of leadership increases the capacity of others to act, care, organize, and lead beyond the originating person."
+  title: When Others Become Leaders
+  subtitle: What Enduring Influence Leaves Behind
+  description: What kind of leadership increases the capacity of others to act, care, organize, and lead
+    beyond the originating person.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: What kind of leadership increases the capacity of others to act, care, organize,
+      and lead beyond the originating person?
+    whyItExists: Most leadership books ask how to become the person others look toward. This book asks
+      what enduring influence leaves behind — circulation through practice, agency, and moral posture
+      after the original figure is gone.
+    audience: Readers of leadership and history who care what remains after attention, office, or charisma
+      leave the room — including those pairing with When Others Look to You.
+    nonGoals:
+    - It is not a biography collection, ranking of great lives, or technique checklist.
+    - It does not treat multiplication of influence as automatically healthy; cruelty circulates too.
+    - It does not require prior reading of When Others Look to You, though the books are companions.
+    selectedConcepts:
+    - circulation
+    - agency
+    - moral-posture-toward-harm
+    - relational-credibility
+    - guest-leadership
+    - authority
+    selectedPatterns:
+    - leadership-coalesces
+    - leadership-reproduces-itself
+    - admiration-becomes-insulation
+    - leaders-feel-the-consequences
+    readBefore:
+    - when-others-look-to-you-v1
+    readNext:
+    - the-world-we-make-together
+    - after-certainty
+    relatedWorks:
+    - workId: when-others-look-to-you
+      relationship: companion_to
+      reason: Accumulation and renewal around a person; this book asks whether influence circulates beyond
+        them.
+    - workId: the-world-we-make-together
+      relationship: prepares_for
+      reason: Enduring influence among others opens into collective causation under unequal power.
+    - workId: when-authority-is-misread
+      relationship: contrasts_with
+      reason: Circulating capacity vs audiences mistaking confidence and story for legitimacy.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: After formation and circulation diagnostics, practice asks how to remain answerable without
+        a center.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -30,7 +73,6 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
 build:
   formats:
     docx:
@@ -39,11 +81,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

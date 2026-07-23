@@ -1,25 +1,69 @@
 version: 1
-
 publishing:
   enabled: true
-
 book:
   id: why-diversity-matters
-  title: "Why Diversity Matters"
-  subtitle: "Why Good Intentions Still Miss So Much"
-  description: "Why diversity is about what gets noticed, trusted, and ignored—not just who is in the room."
+  title: Why Diversity Matters
+  subtitle: Why Good Intentions Still Miss So Much
+  description: Why diversity is about what gets noticed, trusted, and ignored—not just who is in the room.
   author:
-    name: "Kevin Steffensen"
-    website: "https://after-certainty.com"
+    name: Kevin Steffensen
+    website: https://after-certainty.com
   language: en
   copyright_year: 2026
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
-
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: Why do good intentions still miss so much — and what does diversity have to do with
+      discovering blind spots?
+    whyItExists: Diversity is treated here as a visibility and learning problem, not only representation.
+      The book follows why groups miss what everyone agrees about, why inclusion is not influence, and
+      how difference can surface mistakes earlier.
+    audience: People who work, govern, or live across difference and keep discovering that sincerity does
+      not guarantee seeing — including readers arriving from perspective and trust books.
+    nonGoals:
+    - It is not a hiring guide, policy proposal, or claim that every perspective is equally correct.
+    - It does not attempt to speak on behalf of anyone.
+    - It does not reduce diversity to representation alone while denying fairness and opportunity matter.
+    selectedConcepts:
+    - bias
+    - finite-perspective
+    - legibility
+    - contestability
+    - feedback
+    - correction
+    selectedPatterns:
+    - learning-collapses
+    - gaps-invite-completion
+    - contact-keeps-the-read-open
+    - attention-restores-contact
+    readBefore:
+    - what-we-cannot-see
+    readNext:
+    - trust-beyond-similarity
+    - the-discipline-of-uncertainty
+    - after-certainty
+    relatedWorks:
+    - workId: what-we-cannot-see
+      relationship: deepens
+      reason: Partial perspective becomes why good intentions still miss what others can see.
+    - workId: why-collaboration-is-so-hard
+      relationship: companion_to
+      reason: Coordination without full ownership pairs with what gets noticed, trusted, and ignored.
+    - workId: how-meaning-moves
+      relationship: companion_to
+      reason: Words land differently because meaning moves under compression and constraint.
+    - workId: when-interpretation-no-longer-matters
+      relationship: contrasts_with
+      reason: When hearing still could matter vs when public understanding no longer revises standing.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Learning across blind spots prepares practice when frameworks fail.
 paths:
-  manuscript: "./index.md"
-  output: "."
-
+  manuscript: ./index.md
+  output: .
 frontmatter:
   generate:
     enabled: true
@@ -29,11 +73,9 @@ frontmatter:
     copyright:
       repo_template: templates/copyright.md.j2
       output: front-matter/copyright.md
-
     about_the_series:
       repo_template: templates/about_the_series.md.j2
       output: front-matter/about-the-series.md
-
 build:
   formats:
     docx:
@@ -42,11 +84,10 @@ build:
       enabled: true
     pdf:
       enabled: true
-
 github:
   release: true
-  release_tag: "latest"
+  release_tag: latest
   artifacts:
-    - docx
-    - epub
-    - pdf
+  - docx
+  - epub
+  - pdf

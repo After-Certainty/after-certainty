@@ -16,6 +16,7 @@ primaryBookId: book-when-others-look-to-you-v1
 relatedTrailIds:
 - systems-without-correction
 - meaning-under-pressure
+- the-reliable-person
 pathStops:
 - position: 1
   entityType: pattern
@@ -35,6 +36,11 @@ pathStops:
     become the environment everyone navigates.
   whyThisFollows: After naming the patterns, this is the deepest on-site treatment of inherited influence.
 - position: 4
+  entityType: book
+  entityId: book-when-others-become-leaders
+  description: Ask what enduring influence leaves behind — whether capacity circulates after the person.
+  whyThisFollows: After accumulation around a person, this book asks whether leadership multiplies beyond them.
+- position: 5
   entityType: concept
   entityId: concept-authority
   description: Distinguish authority from understanding—and notice when legitimacy rests on position rather

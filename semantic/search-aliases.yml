@@ -200,3 +200,99 @@ entries:
   targetIds:
   - book-boundary-conditions
   note: Short title and form label for Boundary Conditions
+- terms:
+  - metrics replace judgment
+  - incentives as moral language
+  - dashboards decide
+  - portable metrics
+  - scoreboard morality
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-when-incentives-become-the-moral-language
+  - concept-incentives
+  - concept-judgment
+  note: Everyday phrasing for When Incentives Become the Moral Language
+- terms:
+  - understanding no longer matters
+  - heard but not mattering
+  - authority without understanding
+  - interpretation without leverage
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-when-interpretation-no-longer-matters
+  - concept-interpretation
+  - concept-authority
+  note: Bridges into When Interpretation No Longer Matters
+- terms:
+  - what leaders leave behind
+  - more leaders not followers
+  - leadership circulation
+  - enduring influence
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-when-others-become-leaders
+  - concept-circulation
+  note: Circulation language for When Others Become Leaders
+- terms:
+  - good intentions still miss
+  - diversity as visibility
+  - blind spots across difference
+  - inclusion is not influence
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-why-diversity-matters
+  - concept-finite-perspective
+  - concept-bias
+  note: Visibility and blind-spot phrasing for Why Diversity Matters
+- terms:
+  - discipline of uncertainty
+  - patterns as warnings
+  - certainty as social glue
+  - probabilistic moral seriousness
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-the-discipline-of-uncertainty
+  - concept-uncertainty
+  - pattern-revisability-preserves-judgment
+  note: Handbook phrasing for The Discipline of Uncertainty
+- terms:
+  - how trust forms
+  - trust under uncertainty
+  - willing to participate
+  - trust cycle
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-how-trust-forms
+  - concept-trust
+  - concept-formation
+  note: Formation phrasing for How Trust Forms
+- terms:
+  - trust detached from reality
+  - trust stops learning
+  - trust drift
+  - success stories hide weak signals
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-when-trust-stops-tracking-reality
+  - concept-drift
+  - pattern-scrutiny-preserves-trust
+  note: Drift phrasing for When Trust Stops Tracking Reality
+- terms:
+  - authority is misread
+  - looking twice at leaders
+  - idealized and condemned
+  - misread legitimacy
+  kind: related
+  aliasClass: vocabulary_bridge
+  targetIds:
+  - book-when-authority-is-misread
+  - concept-authority
+  - concept-legitimacy
+  note: Misreading phrasing for When Authority Is Misread
