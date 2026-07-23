@@ -90,7 +90,7 @@
     "schemaVersion": {
       "type": "string",
       "pattern": "^2\\.\\d+$",
-      "description": "Additive contract version. 2.1 introduces works/editions and discovery collections. 2.2 adds parts/chapters, literaryForm, overview.relatedWorks."
+      "description": "Additive contract version. 2.1 introduces works/editions and discovery collections. 2.2 adds parts/chapters, literaryForm, overview.relatedWorks. 2.3 adds selected concept/pattern roles, grounding provenance, richer chapter transitions, and thinker identity classes."
     },
     "sourceCommit": {
       "type": [
@@ -683,6 +683,9 @@
         },
         "trajectory": {
           "$ref": "#/$defs/trajectoryBlock"
+        },
+        "grounding": {
+          "$ref": "#/$defs/groundingBlock"
         }
       }
     },
@@ -788,6 +791,9 @@
         },
         "trajectory": {
           "$ref": "#/$defs/trajectoryBlock"
+        },
+        "grounding": {
+          "$ref": "#/$defs/groundingBlock"
         }
       }
     },
@@ -1008,7 +1014,9 @@
           "type": "string",
           "enum": [
             "person",
-            "organization"
+            "organization",
+            "author_group",
+            "collective"
           ]
         },
         "summary": {
@@ -1044,6 +1052,27 @@
         },
         "whyThisMatters": {
           "type": "string"
+        },
+        "citationOnly": {
+          "type": "boolean"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "formerSlugs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "canonicalSlug": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },
@@ -1071,6 +1100,57 @@
         },
         "description": {
           "type": "string"
+        },
+        "provenance": {
+          "$ref": "#/$defs/relationshipProvenanceBlock"
+        }
+      }
+    },
+    "groundingBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "established_term",
+            "adapted_from_source",
+            "original_synthesis",
+            "composite_pattern",
+            "manuscript_specific",
+            "historical_term"
+          ]
+        },
+        "developedFrom": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "work": { "type": "string", "minLength": 1 },
+              "source": { "type": "string", "minLength": 1 },
+              "concept": { "type": "string", "minLength": 1 },
+              "pattern": { "type": "string", "minLength": 1 }
+            },
+            "minProperties": 1
+          }
+        },
+        "note": { "type": "string" }
+      }
+    },
+    "relationshipProvenanceBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["origin"],
+      "properties": {
+        "origin": {
+          "type": "string",
+          "enum": ["authored", "extracted", "inferred", "source_grounded"]
+        },
+        "evidence": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
         }
       }
     },
@@ -1185,6 +1265,42 @@
           "items": {
             "type": "string",
             "pattern": "^pattern-[a-zA-Z0-9._-]+$"
+          }
+        },
+        "selectedConceptRoles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["conceptId", "roleInWork"],
+            "properties": {
+              "conceptId": {
+                "type": "string",
+                "pattern": "^concept-[a-zA-Z0-9._-]+$"
+              },
+              "roleInWork": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "selectedPatternRoles": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["patternId", "roleInWork"],
+            "properties": {
+              "patternId": {
+                "type": "string",
+                "pattern": "^pattern-[a-zA-Z0-9._-]+$"
+              },
+              "roleInWork": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
           }
         },
         "readBefore": {
@@ -1891,6 +2007,9 @@
             "appendix",
             "afterword",
             "notes",
+            "poem",
+            "section",
+            "sequence",
             "other"
           ]
         },
@@ -1960,6 +2079,14 @@
             "string",
             "null"
           ]
+        },
+        "transition": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "fromPrevious": { "type": "string" },
+            "toNext": { "type": "string" }
+          }
         }
       }
     }

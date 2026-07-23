@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
@@ -174,6 +175,23 @@ def validate_work_edition_invariants(repo: Path, errors: list[str], warnings: li
             )
         if relationship == "superseded" and is_canonical:
             errors.append(f"{spec_path}: superseded edition cannot be canonical")
+        pub = str(book.get("publication_date") or "").strip()
+        edition_pub = str(book.get("edition_published_at") or "").strip()
+        revised = str(book.get("substantially_revised_at") or "").strip()
+        if not pub:
+            warnings.append(f"{spec_path}: publication_date unknown")
+        for label, value in (
+            ("publication_date", pub),
+            ("edition_published_at", edition_pub),
+            ("substantially_revised_at", revised),
+        ):
+            if value and not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+                errors.append(f"{spec_path}: invalid {label} {value!r}")
+        anchor = pub or edition_pub
+        if revised and anchor and revised < anchor:
+            errors.append(
+                f"{spec_path}: substantially_revised_at {revised} precedes publication {anchor}"
+            )
         overview = book.get("overview")
         if isinstance(overview, dict):
             self_refs = set(overview.get("readBefore") or []) | set(overview.get("readNext") or [])
@@ -193,6 +211,54 @@ def validate_work_edition_invariants(repo: Path, errors: list[str], warnings: li
                 s = str(raw).strip()
                 if s and s not in pattern_slugs:
                     errors.append(f"{spec_path}: overview selectedPatterns unknown {s!r}")
+            selected_concept_set = {
+                str(s).strip() for s in (overview.get("selectedConcepts") or []) if str(s).strip()
+            }
+            selected_pattern_set = {
+                str(s).strip() for s in (overview.get("selectedPatterns") or []) if str(s).strip()
+            }
+            seen_concept_roles: set[str] = set()
+            for item in overview.get("selectedConceptRoles") or []:
+                if not isinstance(item, dict):
+                    errors.append(f"{spec_path}: selectedConceptRoles entry must be a mapping")
+                    continue
+                cid = str(item.get("conceptId") or "").strip().removeprefix("concept-")
+                role = str(item.get("roleInWork") or "").strip()
+                if not cid or not role:
+                    errors.append(f"{spec_path}: selectedConceptRoles requires conceptId and roleInWork")
+                    continue
+                if cid not in selected_concept_set:
+                    errors.append(
+                        f"{spec_path}: selectedConceptRoles target {cid!r} not in selectedConcepts"
+                    )
+                if cid in seen_concept_roles:
+                    errors.append(f"{spec_path}: duplicate selectedConceptRoles for {cid!r}")
+                seen_concept_roles.add(cid)
+            for cid in sorted(selected_concept_set - seen_concept_roles):
+                warnings.append(
+                    f"{spec_path}: selectedConcepts {cid!r} lacks selectedConceptRoles entry"
+                )
+            seen_pattern_roles: set[str] = set()
+            for item in overview.get("selectedPatternRoles") or []:
+                if not isinstance(item, dict):
+                    errors.append(f"{spec_path}: selectedPatternRoles entry must be a mapping")
+                    continue
+                pid = str(item.get("patternId") or "").strip().removeprefix("pattern-")
+                role = str(item.get("roleInWork") or "").strip()
+                if not pid or not role:
+                    errors.append(f"{spec_path}: selectedPatternRoles requires patternId and roleInWork")
+                    continue
+                if pid not in selected_pattern_set:
+                    errors.append(
+                        f"{spec_path}: selectedPatternRoles target {pid!r} not in selectedPatterns"
+                    )
+                if pid in seen_pattern_roles:
+                    errors.append(f"{spec_path}: duplicate selectedPatternRoles for {pid!r}")
+                seen_pattern_roles.add(pid)
+            for pid in sorted(selected_pattern_set - seen_pattern_roles):
+                warnings.append(
+                    f"{spec_path}: selectedPatterns {pid!r} lacks selectedPatternRoles entry"
+                )
             seen_related: set[tuple[str, str]] = set()
             for item in overview.get("relatedWorks") or []:
                 if not isinstance(item, dict):

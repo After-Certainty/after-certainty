@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/chapter-enrichment.schema.json",
+  "title": "Book chapter enrichment YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "chapters"],
+  "properties": {
+    "version": { "type": "integer", "const": 1 },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "sourcePath": { "type": "string", "minLength": 1 },
+          "source": { "type": "string", "minLength": 1 },
+          "summary": { "type": "string", "minLength": 1 },
+          "centralQuestion": { "type": "string", "minLength": 1 },
+          "selectedConcepts": {
+            "type": "array",
+            "items": { "$ref": "common.json#/$defs/slug" }
+          },
+          "selectedPatterns": {
+            "type": "array",
+            "items": { "$ref": "common.json#/$defs/slug" }
+          },
+          "searchAliases": {
+            "type": "array",
+            "items": { "$ref": "common.json#/$defs/nonEmptyString" }
+          },
+          "situations": {
+            "type": "array",
+            "items": { "$ref": "common.json#/$defs/slug" }
+          },
+          "situationIds": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "readingTransition": { "type": "string" },
+          "transition": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "fromPrevious": { "type": "string" },
+              "toNext": { "type": "string" }
+            }
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "introduction",
+              "chapter",
+              "bridge",
+              "interlude",
+              "conclusion",
+              "appendix",
+              "afterword",
+              "notes",
+              "poem",
+              "section",
+              "sequence",
+              "other"
+            ]
+          }
+        },
+        "anyOf": [
+          { "required": ["sourcePath"] },
+          { "required": ["source"] },
+          { "required": ["id"] }
+        ]
+      }
+    }
+  }
+}

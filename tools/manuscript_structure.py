@@ -42,6 +42,9 @@ CHAPTER_KINDS = frozenset(
         "appendix",
         "afterword",
         "notes",
+        "poem",
+        "section",
+        "sequence",
         "other",
     }
 )
@@ -74,7 +77,7 @@ def infer_unit_kind(rel_path: str, title: str) -> str:
     combined = f"{stem} {lower_title}"
     if "introduction" in combined or stem.startswith("introduction"):
         return "introduction"
-    if "conclusion" in combined or stem.startswith("conclusion"):
+    if "conclusion" in combined or stem.startswith("conclusion") or stem == "closing":
         return "conclusion"
     if "epilogue" in combined or "afterword" in combined:
         return "afterword"
@@ -86,10 +89,16 @@ def infer_unit_kind(rel_path: str, title: str) -> str:
         return "interlude"
     if "note" in stem and "authors" not in stem:
         return "notes"
+    if "sequence" in combined:
+        return "sequence"
+    if "poem" in combined:
+        return "poem"
     if "chapter" in stem or re.search(r"\bchapter\b", lower_title):
         return "chapter"
     # Poetry / act units without "chapter" in the name
-    if "/parts/" in rel_path.replace("\\", "/") or "/manuscript/" in rel_path.replace("\\", "/"):
+    # (book_kind=poetry is applied by the caller after this heuristic.)
+    norm = rel_path.replace("\\", "/")
+    if "/parts/" in norm or "/manuscript/" in norm:
         if stem in {"bridge"}:
             return "bridge"
         return "chapter"
@@ -156,6 +165,7 @@ def build_structure_for_book(
     edition_id: str,
     public: bool = True,
     enrichment: dict[str, dict] | None = None,
+    book_kind: str = "prose",
 ) -> tuple[list[dict], list[dict]]:
     """
     Return (parts, chapters) for one book directory.
@@ -251,6 +261,9 @@ def build_structure_for_book(
 
             title = title_by_rel.get(rel) or path.stem.replace("-", " ").title()
             kind = infer_unit_kind(rel, title)
+            if book_kind == "poetry" and kind == "chapter":
+                # Titled poem units under poetry collections are not argument chapters.
+                kind = "poem"
             # Prefer full relative path (sans extension) so duplicate stems like bridge.md stay unique.
             source_key = rel.rsplit(".", 1)[0].replace("/", "-").replace("\\", "-")
             chapter_id = f"chapter-{edition_slug}-{source_key}"
@@ -260,6 +273,9 @@ def build_structure_for_book(
             override_id = str(authored.get("id") or "").strip()
             if override_id:
                 chapter_id = override_id
+            override_kind = str(authored.get("kind") or "").strip()
+            if override_kind in CHAPTER_KINDS:
+                kind = override_kind
 
             if chapter_id in seen_chapter_ids:
                 raise ValueError(f"{edition_slug}: duplicate chapter id {chapter_id!r}")
@@ -314,7 +330,23 @@ def build_structure_for_book(
                     for s in situations
                     if str(s).strip()
                 ]
+            transition_obj = authored.get("transition")
+            from_prev = ""
+            to_next = ""
+            if isinstance(transition_obj, dict):
+                from_prev = str(transition_obj.get("fromPrevious") or "").strip()
+                to_next = str(transition_obj.get("toNext") or "").strip()
+                structured: dict[str, str] = {}
+                if from_prev:
+                    structured["fromPrevious"] = from_prev
+                if to_next:
+                    structured["toNext"] = to_next
+                if structured:
+                    entry["transition"] = structured
             transition = str(authored.get("readingTransition") or "").strip()
+            if not transition and (from_prev or to_next):
+                parts_t = [p for p in (from_prev, to_next) if p]
+                transition = " ".join(parts_t)
             if transition:
                 entry["readingTransition"] = transition
 
@@ -362,12 +394,20 @@ def build_all_structures(
             continue
         work_id = str(book.get("workId") or f"work-{slug}")
         edition_id = str(book.get("editionId") or book.get("id") or f"book-{slug}")
+        book_kind = "prose"
+        try:
+            raw_spec = yaml.safe_load((book_dir / "book.yml").read_text(encoding="utf-8"))
+            if isinstance(raw_spec, dict):
+                book_kind = str((raw_spec.get("book") or {}).get("kind") or "prose").strip() or "prose"
+        except (OSError, yaml.YAMLError):
+            book_kind = "prose"
         parts, chapters = build_structure_for_book(
             book_dir,
             edition_slug=slug,
             work_id=work_id,
             edition_id=edition_id,
             public=True,
+            book_kind=book_kind,
         )
         all_parts.extend(parts)
         all_chapters.extend(chapters)

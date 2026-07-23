@@ -31,6 +31,7 @@
     "questions": { "$ref": "common.json#/$defs/stringList" },
     "counterbalances": { "$ref": "common.json#/$defs/stringList" },
     "manifestations": { "$ref": "common.json#/$defs/manifestations" },
-    "trajectory": { "$ref": "common.json#/$defs/trajectory" }
+    "trajectory": { "$ref": "common.json#/$defs/trajectory" },
+    "grounding": { "$ref": "common.json#/$defs/grounding" }
   }
 }

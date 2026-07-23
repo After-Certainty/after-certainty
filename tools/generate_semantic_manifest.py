@@ -399,6 +399,8 @@ def _merge_glossary_entry(base: dict, overlay: dict) -> dict:
             merged.get("relatedBooks", []),
             _normalize_book_slugs(overlay["relatedBooks"]),
         )
+    if isinstance(overlay.get("grounding"), dict):
+        merged["grounding"] = overlay["grounding"]
     return merged
 
 
@@ -516,7 +518,40 @@ def _finalize_glossary_list(by_slug: dict[str, dict]) -> list[dict]:
         if long_def:
             row["definition"] = long_def
         row.update(_dynamic_enrichment_fields(row))
+        grounding = _project_grounding(row)
+        if grounding:
+            row["grounding"] = grounding
+        # Avoid duplicating grounding raw from overlay merge into unexpected places
         out.append(row)
+    return out
+
+
+def _project_grounding(data: dict) -> dict | None:
+    raw = data.get("grounding")
+    if not isinstance(raw, dict):
+        return None
+    gtype = str(raw.get("type") or "").strip()
+    if not gtype:
+        return None
+    out: dict = {"type": gtype}
+    developed = raw.get("developedFrom")
+    if isinstance(developed, list) and developed:
+        items: list[dict] = []
+        for row in developed:
+            if not isinstance(row, dict):
+                continue
+            item = {
+                k: str(row[k]).strip()
+                for k in ("work", "source", "concept", "pattern")
+                if str(row.get(k) or "").strip()
+            }
+            if item:
+                items.append(item)
+        if items:
+            out["developedFrom"] = items
+    note = str(raw.get("note") or "").strip()
+    if note:
+        out["note"] = note
     return out
 
 
@@ -557,6 +592,9 @@ def build_patterns(repo: Path, *, repo_slug: str, ref: str) -> list[dict]:
             entry["example"] = example
         entry.update(_resolve_pattern_media(data, repo_slug=repo_slug, ref=ref))
         entry.update(_dynamic_enrichment_fields(data))
+        grounding = _project_grounding(data)
+        if grounding:
+            entry["grounding"] = grounding
         out.append(entry)
     return out
 
@@ -614,11 +652,16 @@ def build_sources(repo: Path) -> list[dict]:
 def build_thinkers(repo: Path) -> list[dict]:
     raw = _load_dir_yml(repo / SEMANTIC_ROOT / "thinkers")
     out: list[dict] = []
+    allowed_types = frozenset({"person", "organization", "author_group", "collective"})
     for slug in sorted(raw.keys()):
         data = raw[slug]
         thinker_type = str(data.get("type", "person")).strip().lower()
-        if thinker_type not in ("person", "organization"):
+        if thinker_type not in allowed_types:
             thinker_type = "person"
+        # Alias stubs that only redirect should still emit for resolution, but
+        # citation-only thinkers are omitted from the public thinkers array.
+        if data.get("citationOnly") is True:
+            continue
         entry: dict = {
             "id": thinker_id(slug),
             "slug": slug,
@@ -633,6 +676,19 @@ def build_thinkers(repo: Path) -> list[dict]:
         why = str(data.get("whyThisMatters", "")).strip()
         if why:
             entry["whyThisMatters"] = why
+        aliases = [
+            str(a).strip() for a in (data.get("aliases") or []) if str(a).strip()
+        ]
+        if aliases:
+            entry["aliases"] = aliases
+        former = [
+            str(a).strip() for a in (data.get("formerSlugs") or []) if str(a).strip()
+        ]
+        if former:
+            entry["formerSlugs"] = former
+        canonical = str(data.get("canonicalSlug") or "").strip()
+        if canonical:
+            entry["canonicalSlug"] = canonical
         out.append(entry)
     return out
 
@@ -682,14 +738,24 @@ def build_relationships(repo: Path) -> list[dict]:
 
         if not a or not b:
             continue
-        rels.append(
-            {
-                "source": to_id(sk, a),
-                "target": to_id(tk, b),
-                "relationship": verb,
-                "description": desc,
-            }
-        )
+        row_out: dict = {
+            "source": to_id(sk, a),
+            "target": to_id(tk, b),
+            "relationship": verb,
+            "description": desc,
+        }
+        prov = row.get("provenance")
+        if isinstance(prov, dict):
+            origin = str(prov.get("origin") or "").strip()
+            if origin:
+                projected: dict = {"origin": origin}
+                evidence = [
+                    str(e).strip() for e in (prov.get("evidence") or []) if str(e).strip()
+                ]
+                if evidence:
+                    projected["evidence"] = evidence
+                row_out["provenance"] = projected
+        rels.append(row_out)
     return rels
 
 

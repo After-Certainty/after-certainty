@@ -25,7 +25,8 @@
           "targetKind": {
             "type": "string",
             "enum": ["concept", "pattern", "source"]
-          }
+          },
+          "provenance": { "$ref": "common.json#/$defs/relationshipProvenance" }
         }
       }
     }
