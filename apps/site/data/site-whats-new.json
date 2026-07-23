@@ -1,0 +1,52 @@
+{
+  "manifestVersion": 1,
+  "updatedAt": "2026-07-22",
+  "launchFrom": "2026-01-01",
+  "notes": "Site-owned What\u2019s New rows (site features and podcast). Book published/revised events come from after-certainty changeEvents.",
+  "events": [
+    {
+      "id": "event-podcast-how-meaning-moves",
+      "type": "podcast_episode",
+      "title": "Podcast: How Meaning Moves",
+      "summary": "A companion episode walking through Signal, Compression, Restraint, and Connection as the through-line.",
+      "date": "2026-05-09",
+      "entityType": "podcast",
+      "entityId": "how-meaning-moves",
+      "href": "/podcast",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/45941008/45941008-1778360930627-60cefbbb18439.jpg",
+      "featured": false,
+      "significance": "standard",
+      "visibility": "public",
+      "source": "authored",
+      "published": true
+    },
+    {
+      "id": "event-site-start-with-a-question",
+      "type": "site_feature",
+      "title": "Start with a Question",
+      "summary": "Curated question paths help visitors enter the commons through a lived tension rather than a catalog shelf alone.",
+      "date": "2026-06-15",
+      "entityType": "site",
+      "href": "/questions",
+      "featured": true,
+      "significance": "major",
+      "visibility": "public",
+      "source": "authored",
+      "published": true
+    },
+    {
+      "id": "event-site-reading-trails",
+      "type": "site_feature",
+      "title": "Reading Trails",
+      "summary": "Editorial trails sequence books, concepts, and patterns into short guided paths across the project.",
+      "date": "2026-07-01",
+      "entityType": "site",
+      "href": "/trails",
+      "featured": false,
+      "significance": "major",
+      "visibility": "public",
+      "source": "authored",
+      "published": true
+    }
+  ]
+}

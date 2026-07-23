@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "exceptions": [
+    {
+      "shelfSlug": "leadership-and-authority",
+      "bookSlug": "when-others-look-to-you-v2",
+      "reason": "Upstream curated shelf still lists the WoLTY companion volume; shelves show canonical editions only, so runtime drops this member. Remove from the shelf in after-certainty when convenient."
+    }
+  ]
+}

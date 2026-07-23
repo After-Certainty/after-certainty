@@ -1,0 +1,13 @@
+{
+  "contributors": [
+    {
+      "slug": "commons",
+      "name": "After Certainty Commons",
+      "role": "Collective",
+      "bio": "A growing circle of editors, researchers, and practitioners contributing patterns and publications.",
+      "links": [
+        { "label": "Collaborate", "href": "/collaborators" }
+      ]
+    }
+  ]
+}
