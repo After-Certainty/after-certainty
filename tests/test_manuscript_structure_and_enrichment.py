@@ -38,7 +38,7 @@ def _generate(tmp_path: Path) -> dict:
 def test_parts_and_chapters_present_and_ordered(tmp_path: Path) -> None:
     data = _generate(tmp_path)
     assert "parts" in data and "chapters" in data
-    assert data["schemaVersion"] == "2.2"
+    assert data["schemaVersion"] == "2.3"
     chapters = [
         c for c in data["chapters"] if c["editionId"] == "book-why-collaboration-is-so-hard"
     ]
