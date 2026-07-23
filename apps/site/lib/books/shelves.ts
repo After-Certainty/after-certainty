@@ -102,7 +102,14 @@ function bookMatchesRule(book: CatalogBookView, rule: ShelfRule): boolean {
   }
 }
 
-/** Resolve shelf membership preserving curated order. */
+/**
+ * Resolve shelf membership preserving curated order.
+ *
+ * Policy: shelves show **public canonical editions only**. Companion and
+ * superseded volumes stay off shelves even when curated upstream or when the
+ * catalog URL uses `?editions=all` (that flag expands the unfiltered pool /
+ * search, not shelf membership). See docs/contributing-books-catalog.md.
+ */
 export function resolveShelfBooks(
   shelf: ShelfDefinition,
   viewModel: readonly CatalogBookView[],

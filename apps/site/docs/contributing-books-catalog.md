@@ -46,7 +46,17 @@ Do not add title-based type mappings in this repository.
 - **Superseded** requires an explicit `supersededByEditionId`.
 - WoLTY: `work-when-others-look-to-you`; v1 = primary/canonical; v2 = companion.
 
-Default catalog hides non-canonical siblings. Append `?editions=all` to reveal them.
+Default catalog hides non-canonical siblings. Append `?editions=all` to reveal them in the flat results pool (and search/sitemap still include public companions).
+
+### Companions on shelves
+
+**Shelves show public canonical editions only.** `resolveShelfBooks` drops companions and superseded editions even when a curated shelf lists them, and even when `?editions=all` is set.
+
+Curated shelf membership for a non-canonical edition is a **catalog integrity error** unless listed in
+[`data/shelf-edition-exceptions.json`](../data/shelf-edition-exceptions.json)
+(temporary operational allowlist — excepted rows become warnings with a reason). Prefer fixing the shelf in after-certainty; shrink the exception file when upstream catches up.
+
+Companions remain reachable via book detail (edition notice), direct URL, search (demoted), and sitemap.
 
 ## Book overviews
 

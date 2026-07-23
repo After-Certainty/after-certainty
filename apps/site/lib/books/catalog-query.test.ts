@@ -5,7 +5,8 @@ import { applyCatalogQuery, buildFilterOptions } from "@/lib/books/catalog-query
 import { catalogBrowseQueryString, parseCatalogUrlState } from "@/lib/books/catalog-url-state";
 import { buildCatalogViewModel } from "@/lib/books/catalog-view-model";
 import { WOLTY_V1_SLUG } from "@/lib/books/book-slugs";
-import { assertCatalogHealthy } from "@/lib/books/validate-catalog";
+import { getShelfBySlug, resolveShelfBooks } from "@/lib/books/shelves";
+import { assertCatalogHealthy, collectCatalogHealthIssues } from "@/lib/books/validate-catalog";
 import { validateSemanticGraph } from "@/lib/graph/manifest";
 
 const validated = validateSemanticGraph(semanticManifest as unknown);
@@ -112,11 +113,60 @@ describe("applyCatalogQuery", () => {
     );
     expect(filtered.showShelfSections).toBe(false);
   });
+
+  it("keeps companions off shelves even with editions=all", () => {
+    const shelf = getShelfBySlug(graph, "leadership-and-authority");
+    expect(shelf).toBeDefined();
+    if (shelf?.selection.mode === "curated") {
+      expect(shelf.selection.bookSlugs).toContain("when-others-look-to-you-v2");
+    }
+
+    const withAll = applyCatalogQuery(
+      viewModel,
+      parseCatalogUrlState({ shelf: "leadership-and-authority", editions: "all" }, shelfSlugs),
+      graph,
+    );
+    expect(withAll.results.map((b) => b.slug)).toContain(WOLTY_V1_SLUG);
+    expect(withAll.results.map((b) => b.slug)).not.toContain("when-others-look-to-you-v2");
+
+    const members = resolveShelfBooks(shelf!, viewModel);
+    expect(members.map((b) => b.slug)).toContain(WOLTY_V1_SLUG);
+    expect(members.map((b) => b.slug)).not.toContain("when-others-look-to-you-v2");
+  });
 });
 
 describe("validate-catalog", () => {
   it("passes health check on bundled data", () => {
     expect(() => assertCatalogHealthy({ viewModel, graph })).not.toThrow();
+  });
+
+  it("treats companion shelf membership as an error unless excepted", () => {
+    const without = collectCatalogHealthIssues({
+      viewModel,
+      graph,
+      shelfEditionExceptions: [],
+    });
+    expect(
+      without.some(
+        (i) =>
+          i.severity === "error" &&
+          i.code === "non_canonical_on_shelf" &&
+          i.bookSlug === "when-others-look-to-you-v2",
+      ),
+    ).toBe(true);
+
+    const withBundled = collectCatalogHealthIssues({ viewModel, graph });
+    expect(
+      withBundled.some(
+        (i) =>
+          i.severity === "warning" &&
+          i.code === "non_canonical_on_shelf_excepted" &&
+          i.bookSlug === "when-others-look-to-you-v2",
+      ),
+    ).toBe(true);
+    expect(
+      withBundled.some((i) => i.severity === "error" && i.code === "non_canonical_on_shelf"),
+    ).toBe(false);
   });
 });
 

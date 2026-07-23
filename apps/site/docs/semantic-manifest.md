@@ -108,6 +108,11 @@ orientation exceptions live in
 [`data/overview-concept-link-exceptions.json`](../data/overview-concept-link-exceptions.json)
 — see [`docs/contributing-book-overviews.md`](contributing-book-overviews.md).
 
+Non-canonical editions on curated shelves are **errors** by default (shelves are
+canonical-only). Temporary exceptions live in
+[`data/shelf-edition-exceptions.json`](../data/shelf-edition-exceptions.json)
+— see [`docs/contributing-books-catalog.md`](contributing-books-catalog.md).
+
 ## Legacy manifest consumers
 
 | Item                                            | Status                          |

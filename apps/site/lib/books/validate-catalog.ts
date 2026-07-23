@@ -3,6 +3,12 @@ import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import { defaultCatalogBooks } from "@/lib/books/catalog-view-model";
 import { getPublicationRegistryFromGraph } from "@/lib/books/load-publication-registry";
 import { buildResolvedEditionIndex } from "@/lib/books/resolve-work-edition";
+import {
+  getShelfEditionExceptions,
+  indexShelfEditionExceptions,
+  shelfEditionExceptionKey,
+  type ShelfEditionException,
+} from "@/lib/books/shelf-edition-exceptions";
 import { collectPublicationRegistryHealthIssues } from "@/lib/books/validate-publication-registry";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
@@ -16,9 +22,19 @@ export type CatalogHealthIssue = {
   detail: string;
 };
 
+function exceptedDetail(code: string, base: string, exception: ShelfEditionException): string {
+  return `${base} [excepted: ${code}; ${exception.reason}]`;
+}
+
+/**
+ * Catalog + shelf integrity. Curated shelves may list only public canonical editions;
+ * companions and superseded editions are excluded at resolve time unless excepted in
+ * `data/shelf-edition-exceptions.json` (warnings, not silent).
+ */
 export function collectCatalogHealthIssues(input: {
   viewModel: readonly CatalogBookView[];
   graph: SemanticGraph;
+  shelfEditionExceptions?: readonly ShelfEditionException[];
 }): CatalogHealthIssue[] {
   const { viewModel, graph } = input;
   const issues: CatalogHealthIssue[] = [];
@@ -26,6 +42,11 @@ export function collectCatalogHealthIssues(input: {
   const registry = getPublicationRegistryFromGraph(graph);
   const resolved = buildResolvedEditionIndex(graph.books, registry);
   const allShelves = shelvesFromGraph(graph);
+  const shelfExceptions = input.shelfEditionExceptions ?? getShelfEditionExceptions();
+  const exceptionsByKey = indexShelfEditionExceptions(shelfExceptions);
+  const usedExceptionKeys = new Set<string>();
+  const shelvesBySlug = new Map(allShelves.map((shelf) => [shelf.slug, shelf]));
+  const booksBySlug = new Map(viewModel.map((book) => [book.slug, book]));
 
   for (const issue of collectPublicationRegistryHealthIssues({
     registry,
@@ -125,17 +146,64 @@ export function collectCatalogHealthIssues(input: {
             detail: `Non-public book "${slug}" on shelf "${shelf.id}"`,
           });
         }
-        if (!book.isCanonicalEdition && shelf.slug !== "complete-catalog") {
-          const severity = book.editionRelationship === "companion" ? "warning" : "error";
-          issues.push({
-            severity,
-            code: "non_canonical_on_shelf",
-            shelfId: shelf.id,
-            bookSlug: slug,
-            detail: `Non-canonical edition "${slug}" (${book.editionRelationship}) on curated shelf "${shelf.id}" (runtime resolveShelfBooks excludes non-canonical members)`,
-          });
+        if (!book.isCanonicalEdition) {
+          const key = shelfEditionExceptionKey(shelf.slug, slug);
+          const exception = exceptionsByKey.get(key);
+          const relationship = book.editionRelationship ?? "non-canonical";
+          const base = `Non-canonical edition "${slug}" (${relationship}) on curated shelf "${shelf.slug}" — shelves show canonical editions only (resolveShelfBooks drops this member)`;
+          if (exception) {
+            usedExceptionKeys.add(key);
+            issues.push({
+              severity: "warning",
+              code: "non_canonical_on_shelf_excepted",
+              shelfId: shelf.id,
+              bookSlug: slug,
+              detail: exceptedDetail("non_canonical_on_shelf", base, exception),
+            });
+          } else {
+            issues.push({
+              severity: "error",
+              code: "non_canonical_on_shelf",
+              shelfId: shelf.id,
+              bookSlug: slug,
+              detail: `${base}. Remove it from the shelf upstream, or add an intentional exception in data/shelf-edition-exceptions.json.`,
+            });
+          }
         }
       }
+    }
+  }
+
+  for (const exception of shelfExceptions) {
+    const key = shelfEditionExceptionKey(exception.shelfSlug, exception.bookSlug);
+    if (!shelvesBySlug.has(exception.shelfSlug)) {
+      issues.push({
+        severity: "error",
+        code: "unknown_shelf_edition_exception_shelf",
+        shelfId: exception.shelfSlug,
+        bookSlug: exception.bookSlug,
+        detail: `Shelf edition exception references unknown shelf slug "${exception.shelfSlug}".`,
+      });
+      continue;
+    }
+    if (!booksBySlug.has(exception.bookSlug)) {
+      issues.push({
+        severity: "error",
+        code: "unknown_shelf_edition_exception_book",
+        shelfId: exception.shelfSlug,
+        bookSlug: exception.bookSlug,
+        detail: `Shelf edition exception references unknown book slug "${exception.bookSlug}".`,
+      });
+      continue;
+    }
+    if (!usedExceptionKeys.has(key)) {
+      issues.push({
+        severity: "warning",
+        code: "unused_shelf_edition_exception",
+        shelfId: exception.shelfSlug,
+        bookSlug: exception.bookSlug,
+        detail: `Shelf edition exception for "${exception.bookSlug}" on "${exception.shelfSlug}" was not needed; remove it after upstream cleanup.`,
+      });
     }
   }
 
