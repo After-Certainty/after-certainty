@@ -1,0 +1,17 @@
+id: story-doorways
+slug: story-doorways
+title: Story Doorways
+description: >
+  Fiction and verse that stage coordination, bond, love, and attention — recognition through
+  story and poem, not proof.
+displayOrder: 11
+featured: false
+status: active
+selection:
+  mode: curated
+  bookSlugs:
+  - the-relay
+  - boundary-conditions
+  - velorum
+  - everyone-knows-love
+  - observer-patterns

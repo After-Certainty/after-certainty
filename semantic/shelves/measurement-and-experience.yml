@@ -1,0 +1,17 @@
+id: measurement-and-experience
+slug: measurement-and-experience
+title: Measurement and Experience
+description: >
+  When scoreboards, charts, and shared projects settle one question while lived experience,
+  legitimacy, and meaning remain open.
+displayOrder: 10
+featured: false
+status: active
+selection:
+  mode: curated
+  bookSlugs:
+  - the-game-we-think-we-saw
+  - the-economy-we-dont-experience
+  - the-world-we-make-together
+  - what-we-cannot-see
+  - living-in-sediment

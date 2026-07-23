@@ -1,6 +1,6 @@
 # Remaining semantic enrichment gaps
 
-Updated after slice 3 (2026-07-23): accountability cluster + companion/fiction leftovers.
+Updated after slice 4 (2026-07-23): discovery placement — aliases, shelves, trust trail/questions, chapter enrichment.
 
 ## Completed
 
@@ -9,35 +9,34 @@ Updated after slice 3 (2026-07-23): accountability cluster + companion/fiction l
 
 ### Slice 2 (#329)
 - Trails: **The Result and the Experience**; **Practices of Seeing**
-- Extended **Leadership After the Person** with `when-others-become-leaders`
-- Overviews + typed `relatedWorks` + search aliases for eight thin volumes
+- Extended **Leadership After the Person**; eight thin-volume overviews
 
-### Slice 3 (this PR)
+### Slice 3 (#330)
 - Trail: **Accountability and Enduring Authority**
-- Overviews + typed `relatedWorks` + search aliases for:
-  - `when-accountability-no-longer-expires`
-  - `when-authority-outlives-accountability`
-  - `when-moral-seriousness-scales`
-  - `when-others-look-to-you-v2` (companion orientation)
-  - `velorum` (fiction; dramatizes ≠ proves)
-- Questions: **legitimacy-survives-harm**; **moral-seriousness-at-scale**
-- Chapter enrichment: `when-accountability-no-longer-expires` — Adaptation Is Not Renewal
+- Overviews for accountability cluster, WoLTY v2, Velorum; two questions; one chapter enrichment
+
+### Slice 4 (this PR)
+- Search aliases for remaining public books that lacked them
+- Curated shelves: **Meaning and Perspective**, **Measurement and Experience**, **Story Doorways**; extended Leadership and Systems shelves
+- Trail: **Trust Formation and Drift**
+- Questions: **how-trust-becomes-possible**; **when-trust-detaches-from-reality**
+- Chapter enrichment: Moral Posture Toward Harm; Beliefs Become Visible; The Story That Arrives First
 
 ## Still thin / editorial follow-ups
 
 Most public books still lack authored `publication_date` and public change events — **do not invent dates**.
 
-Chapter enrichment remains sparse beyond the four representative chapters (pass 1 + slice 3).
+Chapter enrichment remains sample-based (seven chapters across the corpus), not full-corpus.
 
 ## Recommended next enrichment
 
-1. **Publication dates** — author when reliable release records exist for priority and newly oriented volumes
-2. **Chapter enrichment breadth** — more manuscript-grounded chapter metadata beyond representative samples
-3. **Curated shelves** — placement beyond rule shelves for newly oriented volumes
-4. **Optional questions** — only where distinct from existing primaries (trust formation / detachment remain candidates if needed)
+1. **Publication dates** — author only when reliable release records exist
+2. **Public change events** — only for evidenced publication/revision moments
+3. **Broader chapter enrichment** — optional; not required for discovery baseline
+4. **Shelf tuning** — editorial review of new curated shelves and duplicates across shelves
 
 ## Editorial review still needed
 
-- Whether Velorum `relatedWorks` fictionalizes links should stay tightly scoped
-- Shelf placement for the accountability cluster and companion edition
-- Public change events for evidenced publication moments only
+- Whether Story Doorways should stay separate from rule Fiction/Poetry shelves
+- Publication dates for Amazon-listed volumes when release dates are confirmed
+- Whether any remaining “absent from trails/questions” rows are intentional (companion editions, verse, etc.)

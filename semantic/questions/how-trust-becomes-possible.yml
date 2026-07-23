@@ -1,0 +1,49 @@
+id: how-trust-becomes-possible
+slug: how-trust-becomes-possible
+question: How does trust become possible under uncertainty?
+summary: >
+  Trust does not wait for certainty. It forms when beliefs become visible, outcomes teach, and
+  people become willing to participate while uncertainty remains.
+orientation: >
+  Before trust can survive disagreement or drift from evidence, it has to form at all. This question
+  asks what makes participation possible when verification is incomplete.
+whatThisIsNot:
+  - Not a claim that trust should be given indiscriminately.
+  - Not the same as how trust survives disagreement (Trust Beyond Similarity).
+  - Not the book on when trust stops learning from feedback.
+status: published
+featured: false
+families:
+  - Trust and disagreement
+primaryBookId: book-how-trust-forms
+relatedQuestionIds:
+  - trust-survives-disagreement
+  - when-trust-detaches-from-reality
+searchHints:
+  - how trust forms
+  - trust under uncertainty
+  - willing to participate
+pathStops:
+  - position: 1
+    entityType: concept
+    entityId: concept-trust
+    description: Start with trust as what makes participation possible — not as the elimination of risk.
+  - position: 2
+    entityType: concept
+    entityId: concept-formation
+    description: See formation as the phase before drift — how reliability accumulates into willingness.
+    whyThisFollows: Trust has a beginning; formation names that beginning without requiring certainty.
+  - position: 3
+    entityType: book
+    entityId: book-how-trust-forms
+    description: The primary book on beliefs made visible, outcomes that teach, and the trust cycle.
+    whyThisFollows: This is the deepest on-site treatment of how participation becomes possible.
+  - position: 4
+    entityType: pattern
+    entityId: pattern-meaning-forms-early
+    description: Notice how early impressions shape what later evidence is allowed to mean.
+    whyThisFollows: Formation often begins before anyone intends to trust — in meaning that arrives first.
+closingReflection: >
+  Trust under uncertainty is a discipline of participation and revision, not a leap past evidence.
+  The question remains what would keep the cycle learning after the first willingness appears.
+carryForwardQuestion: Where are beliefs becoming visible before anyone has named trust?

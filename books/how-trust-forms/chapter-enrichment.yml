@@ -1,0 +1,22 @@
+version: 1
+chapters:
+  - sourcePath: parts/part-1-the-architecture-of-trust/chapter-2-beliefs-become-visible.md
+    summary: >
+      Before trust can be warranted, beliefs become visible through ordinary consistency — returned
+      tools, kept patterns, small repairs — so others can infer without needing full explanation.
+    centralQuestion: How do we learn what others believe before trust is fully formed?
+    selectedConcepts:
+      - trust
+      - formation
+      - provisional-commitment
+      - feedback
+    selectedPatterns:
+      - meaning-forms-early
+      - contact-keeps-the-read-open
+    searchAliases:
+      - beliefs become visible
+      - trust begins with seeing
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    readingTransition: >
+      From visible beliefs into outcomes that create evidence — the next step of the trust cycle.

@@ -1,0 +1,18 @@
+id: meaning-and-perspective
+slug: meaning-and-perspective
+title: Meaning and Perspective
+description: >
+  How meaning forms and travels, how practices of seeing train attention, and what finite
+  perspective cannot finish — including when interpretation loses leverage.
+displayOrder: 9
+featured: false
+status: active
+selection:
+  mode: curated
+  bookSlugs:
+  - how-meaning-moves
+  - learning-to-see
+  - what-we-cannot-see
+  - when-interpretation-no-longer-matters
+  - observer-patterns
+  - before-certainty-arrives

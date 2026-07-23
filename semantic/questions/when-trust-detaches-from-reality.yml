@@ -1,0 +1,50 @@
+id: when-trust-detaches-from-reality
+slug: when-trust-detaches-from-reality
+question: How does trust become detached from reality?
+summary: >
+  Trust that once tracked outcomes can stop learning from feedback — until preservation, loyalty,
+  and success stories outrun mission.
+orientation: >
+  Good intentions are not enough when weak signals become easy to ignore. This question asks when
+  the trust cycle stops updating — and what revision would still require.
+whatThisIsNot:
+  - Not a villain story about fraud as the main case.
+  - Not an argument for abandoning trust.
+  - Not the same as how trust forms under uncertainty.
+status: published
+featured: false
+families:
+  - Trust and disagreement
+primaryBookId: book-when-trust-stops-tracking-reality
+relatedQuestionIds:
+  - how-trust-becomes-possible
+  - trust-survives-disagreement
+  - legitimacy-survives-harm
+searchHints:
+  - trust drift
+  - trust stops tracking reality
+  - trust detached from evidence
+pathStops:
+  - position: 1
+    entityType: concept
+    entityId: concept-trust
+    description: Begin with trust that once tracked reality — participation grounded in learning.
+  - position: 2
+    entityType: concept
+    entityId: concept-drift
+    description: See drift as gradual detachment — not a single betrayal.
+    whyThisFollows: Detachment is usually a trajectory; drift names the motion.
+  - position: 3
+    entityType: book
+    entityId: book-when-trust-stops-tracking-reality
+    description: The primary book on how trust stops learning — through Calder and institutional patterns.
+    whyThisFollows: This is the deepest treatment of preservation outrunning correction.
+  - position: 4
+    entityType: pattern
+    entityId: pattern-scrutiny-preserves-trust
+    description: Notice what proportionate inquiry would still make possible.
+    whyThisFollows: Detachment is not inevitable; scrutiny is one name for keeping contact.
+closingReflection: >
+  Trust that cannot revise becomes identity. The question remains where feedback still reaches the
+  people whose willingness the system depends on.
+carryForwardQuestion: Where do success stories make weak signals feel disloyal to notice?
