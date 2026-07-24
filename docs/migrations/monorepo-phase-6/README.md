@@ -34,9 +34,10 @@ artifact remains available for external consumers.
 
 ## Deferred
 
-Do not delete `apps/site/data/semantic-manifest.json` in Phase 6. Too many static
-imports still rely on that large JSON fixture. A later cleanup should move those
-consumers to installed local data or test fixtures before removing it.
+~~Do not delete `apps/site/data/semantic-manifest.json` in Phase 6.~~ **Done in a
+follow-up cleanup:** the committed full fixture was removed; production uses only
+the installed local manifest, and unit tests use
+`apps/site/test/fixtures/semantic-manifest/`.
 
 ## Next
 

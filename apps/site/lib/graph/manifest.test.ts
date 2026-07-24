@@ -1,6 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
-import fallback from "@/data/semantic-manifest.json";
 import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
 import {
   dedupeSemanticGraphBooks,
@@ -10,52 +9,52 @@ import {
   isFallbackStale,
   validateSemanticGraph,
 } from "@/lib/graph/manifest";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 import type { Book } from "@/types/semanticGraph";
 
-function validatedFallbackGraph() {
-  const result = validateSemanticGraph(fallback as unknown);
-  if (!result.success) {
-    throw new Error("Bundled semantic-manifest.json failed validation in test setup");
-  }
-  return result.data;
-}
+const localGraph = tryLoadLocalSemanticManifest();
 
 describe("validateSemanticGraph", () => {
-  it("accepts schemaVersion 2.3 enrichment from the bundled manifest", () => {
-    const result = validateSemanticGraph(fallback as unknown);
-    expect(result.success).toBe(true);
-    if (!result.success) return;
-    expect(result.data.schemaVersion).toBe("2.3");
-    expect(result.data.sourceCommit).toBeTruthy();
-    expect(result.data.works?.length).toBeGreaterThan(0);
-    expect(result.data.editions?.length).toBeGreaterThan(0);
-    expect(result.data.questions?.length).toBeGreaterThan(0);
-    expect(result.data.trails?.length).toBeGreaterThan(0);
-    expect(result.data.shelves?.length).toBeGreaterThan(0);
-    expect(result.data.changeEvents?.length).toBeGreaterThan(0);
-    expect(result.data.searchAliases?.length).toBeGreaterThan(0);
-    expect(result.data.parts?.length).toBeGreaterThan(0);
-    expect(result.data.chapters?.length).toBeGreaterThan(0);
-    const sampleChapter = result.data.chapters?.[0];
-    expect(sampleChapter?.routeKey).toMatch(/^\/explore\/books\//);
-    expect(sampleChapter?.editionId).toBeTruthy();
-    const withOverview = result.data.books.filter((b) => b.overview);
-    expect(withOverview.length).toBeGreaterThan(0);
-    expect(result.data.books.some((b) => b.contentType === "fiction")).toBe(true);
-    expect(result.data.books.some((b) => b.contentType === "poetry")).toBe(true);
-    const boundary = result.data.books.find((b) => b.slug === "boundary-conditions");
-    expect(boundary?.contentType).toBe("fiction");
-    expect(boundary?.literaryForm).toBe("novel");
-    const observer = result.data.books.find((b) => b.slug === "observer-patterns");
-    expect(observer?.contentType).toBe("poetry");
-    expect(observer?.literaryForm).toBe("poetry_collection");
-    const afterCertainty = result.data.books.find((b) => b.slug === "after-certainty");
-    expect(afterCertainty?.overview?.selectedConceptRoles?.length).toBeGreaterThan(0);
-    expect(afterCertainty?.overview?.selectedPatternRoles?.length).toBeGreaterThan(0);
-    expect(result.data.patterns.some((p) => p.grounding?.type === "original_synthesis")).toBe(true);
-    expect(result.data.chapters?.some((c) => c.kind === "poem")).toBe(true);
-    expect(result.data.chapters?.some((c) => Boolean(c.summary))).toBe(true);
-  });
+  it.skipIf(!localGraph)(
+    "accepts schemaVersion 2.3 enrichment from the installed local manifest",
+    () => {
+      const result = validateSemanticGraph(localGraph!);
+      expect(result.success).toBe(true);
+      if (!result.success) return;
+      expect(result.data.schemaVersion).toBe("2.3");
+      expect(result.data.sourceCommit).toBeTruthy();
+      expect(result.data.works?.length).toBeGreaterThan(0);
+      expect(result.data.editions?.length).toBeGreaterThan(0);
+      expect(result.data.questions?.length).toBeGreaterThan(0);
+      expect(result.data.trails?.length).toBeGreaterThan(0);
+      expect(result.data.shelves?.length).toBeGreaterThan(0);
+      expect(result.data.changeEvents?.length).toBeGreaterThan(0);
+      expect(result.data.searchAliases?.length).toBeGreaterThan(0);
+      expect(result.data.parts?.length).toBeGreaterThan(0);
+      expect(result.data.chapters?.length).toBeGreaterThan(0);
+      const sampleChapter = result.data.chapters?.[0];
+      expect(sampleChapter?.routeKey).toMatch(/^\/explore\/books\//);
+      expect(sampleChapter?.editionId).toBeTruthy();
+      const withOverview = result.data.books.filter((b) => b.overview);
+      expect(withOverview.length).toBeGreaterThan(0);
+      expect(result.data.books.some((b) => b.contentType === "fiction")).toBe(true);
+      expect(result.data.books.some((b) => b.contentType === "poetry")).toBe(true);
+      const boundary = result.data.books.find((b) => b.slug === "boundary-conditions");
+      expect(boundary?.contentType).toBe("fiction");
+      expect(boundary?.literaryForm).toBe("novel");
+      const observer = result.data.books.find((b) => b.slug === "observer-patterns");
+      expect(observer?.contentType).toBe("poetry");
+      expect(observer?.literaryForm).toBe("poetry_collection");
+      const afterCertainty = result.data.books.find((b) => b.slug === "after-certainty");
+      expect(afterCertainty?.overview?.selectedConceptRoles?.length).toBeGreaterThan(0);
+      expect(afterCertainty?.overview?.selectedPatternRoles?.length).toBeGreaterThan(0);
+      expect(result.data.patterns.some((p) => p.grounding?.type === "original_synthesis")).toBe(
+        true,
+      );
+      expect(result.data.chapters?.some((c) => c.kind === "poem")).toBe(true);
+      expect(result.data.chapters?.some((c) => Boolean(c.summary))).toBe(true);
+    },
+  );
 
   it("accepts minimal valid graph", () => {
     const result = validateSemanticGraph({
@@ -72,20 +71,23 @@ describe("validateSemanticGraph", () => {
     }
   });
 
-  it("accepts pattern and book media fields from the semantic manifest", () => {
-    const result = validateSemanticGraph(fallback as unknown);
-    expect(result.success).toBe(true);
-    if (!result.success) return;
-    const afterCertainty = result.data.books.find((b) => b.slug === "after-certainty");
-    expect(afterCertainty?.openGraphImage).toContain("after-certainty/open-graph.png");
-    const wolty = result.data.books.find((b) => b.slug === "when-others-look-to-you-v1");
-    expect(wolty?.media?.intro?.youtubeVideoId).toBeTruthy();
-    expect(wolty?.purchaseLinks?.[0]?.retailer).toBe("amazon");
-    expect(wolty?.epub?.url).toContain("when-others-look-to-you-v1.epub");
-    const attention = result.data.patterns.find((p) => p.slug === "attention-finds-a-focus");
-    expect(attention?.youtubeVideoId).toBeTruthy();
-    expect(attention?.infographic?.url).toContain("raw.githubusercontent.com");
-  });
+  it.skipIf(!localGraph)(
+    "accepts pattern and book media fields from the installed local manifest",
+    () => {
+      const result = validateSemanticGraph(localGraph!);
+      expect(result.success).toBe(true);
+      if (!result.success) return;
+      const afterCertainty = result.data.books.find((b) => b.slug === "after-certainty");
+      expect(afterCertainty?.openGraphImage).toContain("after-certainty/open-graph.png");
+      const wolty = result.data.books.find((b) => b.slug === "when-others-look-to-you-v1");
+      expect(wolty?.media?.intro?.youtubeVideoId).toBeTruthy();
+      expect(wolty?.purchaseLinks?.[0]?.retailer).toBe("amazon");
+      expect(wolty?.epub?.url).toContain("when-others-look-to-you-v1.epub");
+      const attention = result.data.patterns.find((p) => p.slug === "attention-finds-a-focus");
+      expect(attention?.youtubeVideoId).toBeTruthy();
+      expect(attention?.infographic?.url).toContain("raw.githubusercontent.com");
+    },
+  );
 
   it("accepts pattern narrative fields for structured JSON-LD", () => {
     const result = validateSemanticGraph({
@@ -582,7 +584,7 @@ describe("schema and staleness helpers", () => {
   });
 });
 
-describe("fetchSemanticGraphUncached", () => {
+describe.skipIf(!localGraph)("fetchSemanticGraphUncached (installed local)", () => {
   let prevOffline: string | undefined;
   let prevUseLocal: string | undefined;
   let fetchSpy: ReturnType<typeof vi.spyOn>;
@@ -602,11 +604,11 @@ describe("fetchSemanticGraphUncached", () => {
     fetchSpy.mockRestore();
   });
 
-  it("returns bundled graph when offline", async () => {
+  it("returns installed local graph when offline", async () => {
     process.env.SEMANTIC_MANIFEST_OFFLINE = "1";
     const graph = await fetchSemanticGraphUncached();
     expect(fetchSpy).not.toHaveBeenCalled();
-    expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
+    expect(graph.glossary).toEqual(localGraph!.glossary);
   });
 
   it("disables remote fetch when USE_LOCAL=1 even if OFFLINE unset", async () => {

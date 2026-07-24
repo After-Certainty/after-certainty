@@ -1,0 +1,1513 @@
+{
+  "schemaVersion": "2.3",
+  "manifestVersion": 2,
+  "generatedAt": "2026-07-01T00:00:00.000000+00:00",
+  "sourceCommit": "fixture-test-commit",
+  "repository": "ksteffe/after-certainty",
+  "ref": "refs/heads/main",
+  "ontology": {
+    "masterTerms": [
+      {
+        "id": "concept-circulation",
+        "slug": "circulation",
+        "title": "Circulation",
+        "preserves": "continuity"
+      },
+      {
+        "id": "concept-correction",
+        "slug": "correction",
+        "title": "Correction",
+        "preserves": "reality-contact"
+      },
+      {
+        "id": "concept-certainty",
+        "slug": "certainty",
+        "title": "Certainty",
+        "preserves": "coordination stability"
+      },
+      {
+        "id": "concept-judgment",
+        "slug": "judgment",
+        "title": "Judgment",
+        "preserves": "non-automatic evaluation"
+      },
+      {
+        "id": "concept-coupling",
+        "slug": "coupling",
+        "title": "Coupling",
+        "preserves": "exposure to consequence"
+      },
+      {
+        "id": "concept-corrigibility",
+        "slug": "corrigibility",
+        "title": "Corrigibility",
+        "preserves": "adaptive recoverability"
+      }
+    ],
+    "structuralPressures": [
+      {
+        "id": "concept-scale",
+        "slug": "scale",
+        "title": "Scale",
+        "effect": "weakens proximity"
+      },
+      {
+        "id": "concept-acceleration",
+        "slug": "acceleration",
+        "title": "Acceleration",
+        "effect": "outruns reflection"
+      },
+      {
+        "id": "concept-abstraction",
+        "slug": "abstraction",
+        "title": "Abstraction",
+        "effect": "obscures consequence"
+      },
+      {
+        "id": "concept-asymmetry",
+        "slug": "asymmetry",
+        "title": "Asymmetry",
+        "effect": "weakens reciprocity"
+      },
+      {
+        "id": "concept-mediation",
+        "slug": "mediation",
+        "title": "Mediation",
+        "effect": "distorts interpretation"
+      },
+      {
+        "id": "concept-compression",
+        "slug": "compression",
+        "title": "Compression",
+        "effect": "reduces nuance"
+      },
+      {
+        "id": "concept-inheritance",
+        "slug": "inheritance",
+        "title": "Inheritance",
+        "effect": "preserves drift"
+      },
+      {
+        "id": "concept-normalization",
+        "slug": "normalization",
+        "title": "Normalization",
+        "effect": "hardens adaptation"
+      }
+    ]
+  },
+  "books": [
+    {
+      "id": "book-after-certainty",
+      "slug": "after-certainty",
+      "title": "After Certainty",
+      "subtitle": "How to Live and Judge When Understanding is not Enough",
+      "summary": "How to live and judge once explanation reaches its limits\u2014judgment, responsibility, and participation without replacement frameworks.",
+      "description": "How to live and judge once explanation reaches its limits\u2014judgment, responsibility, and participation without replacement frameworks.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "nonfiction",
+      "literaryForm": "monograph",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_docx",
+        "download_epub",
+        "download_pdf"
+      ],
+      "concepts": [
+        "concept-abstraction",
+        "concept-accountability",
+        "concept-agency",
+        "concept-authority",
+        "concept-authorization",
+        "concept-bureaucracy",
+        "concept-circulation",
+        "concept-coherence-maintenance",
+        "concept-constraints",
+        "concept-correction",
+        "concept-distance",
+        "concept-effectiveness",
+        "concept-feedback",
+        "concept-finite-perspective",
+        "concept-harm",
+        "concept-incentives",
+        "concept-interpretation",
+        "concept-judgment",
+        "concept-legibility",
+        "concept-legitimacy",
+        "concept-meaning",
+        "concept-responsibility",
+        "concept-scale",
+        "concept-stability",
+        "concept-system",
+        "concept-thinking",
+        "concept-trust",
+        "concept-uncertainty"
+      ],
+      "patterns": [
+        "pattern-admiration-becomes-insulation",
+        "pattern-attention-restores-contact",
+        "pattern-blame-compresses-complexity",
+        "pattern-correctness-hardens-into-identity",
+        "pattern-explanation-replaces-response",
+        "pattern-finality-compensates-for-uncertainty",
+        "pattern-responsibility-persists-beyond-control",
+        "pattern-revisability-preserves-judgment",
+        "pattern-scrutiny-preserves-trust",
+        "pattern-speech-escalates-faster-than-meaning"
+      ],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/open-graph.png",
+      "overview": {
+        "centralQuestion": "How do we live and judge when understanding is not enough?",
+        "whyItExists": "After Certainty is the project\u2019s namesake orientation: judgment, responsibility, and participation once explanation reaches its limits and replacement frameworks will not save us.",
+        "audience": "Readers ready for the capstone thesis \u2014 including those arriving from curiosity, perspective, trust, or systems doorways.",
+        "nonGoals": [
+          "It does not install a new totalizing certainty in place of the old one.",
+          "It does not claim that abandoning certainty means abandoning standards."
+        ],
+        "selectedConceptIds": [
+          "concept-agency",
+          "concept-accountability",
+          "concept-authority",
+          "concept-abstraction",
+          "concept-coherence-maintenance"
+        ],
+        "selectedPatternIds": [
+          "pattern-explanation-replaces-response",
+          "pattern-blame-compresses-complexity",
+          "pattern-attention-restores-contact"
+        ],
+        "selectedConceptRoles": [
+          {
+            "conceptId": "concept-agency",
+            "roleInWork": "Names the practical stake of the capstone: capacity to act and affect outcomes once explanation no longer guarantees control\u2014so participation stays possible without a replacement framework."
+          },
+          {
+            "conceptId": "concept-accountability",
+            "roleInWork": "Anchors judgment after certainty as exposure to consequence rather than correctness theater; distinguishes answerability from mastery of the field."
+          },
+          {
+            "conceptId": "concept-authority",
+            "roleInWork": "Clarifies operational power that still steers action when understanding is incomplete\u2014so leadership and legitimacy remain live questions, not solved by better theory alone."
+          },
+          {
+            "conceptId": "concept-abstraction",
+            "roleInWork": "Marks the drift the book resists: mediation that scales systems while concealing encounter; the work keeps returning judgment to contact with effects."
+          },
+          {
+            "conceptId": "concept-coherence-maintenance",
+            "roleInWork": "Names the ongoing labor of keeping enough governable agreement\u2014who decides, what counts\u2014without installing a new totalizing certainty."
+          }
+        ],
+        "selectedPatternRoles": [
+          {
+            "patternId": "pattern-explanation-replaces-response",
+            "roleInWork": "Introduces the failure mode where more framing reorganizes harm instead of reducing it\u2014central to why understanding alone is not enough."
+          },
+          {
+            "patternId": "pattern-blame-compresses-complexity",
+            "roleInWork": "Dramatizes the cheap relief of locating fault when the field is too complex for a single cause; the book treats this as a temptation after certainty fails."
+          },
+          {
+            "patternId": "pattern-attention-restores-contact",
+            "roleInWork": "Applies the restorative move: attention reintroduces consequence where abstraction would hide it\u2014practice rather than a new doctrine."
+          }
+        ],
+        "readBefore": [
+          "curiosity-before-certainty",
+          "what-we-cannot-see"
+        ],
+        "readNext": [
+          "coupling",
+          "when-others-look-to-you-v1"
+        ]
+      }
+    },
+    {
+      "id": "book-before-certainty-arrives",
+      "slug": "before-certainty-arrives",
+      "title": "Before Certainty Arrives",
+      "subtitle": "How Moral Order Forms, Hardens, and Outlives Its Reasons",
+      "summary": "How moral order forms, hardens, and outlives its reasons\u2014before certainty feels like the only available posture.",
+      "description": "How moral order forms, hardens, and outlives its reasons\u2014before certainty feels like the only available posture.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "nonfiction",
+      "literaryForm": "monograph",
+      "workId": "work-before-certainty-arrives",
+      "editionId": "book-before-certainty-arrives",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_docx",
+        "download_epub",
+        "download_pdf"
+      ],
+      "concepts": [
+        "concept-abstraction",
+        "concept-acceleration",
+        "concept-accountability",
+        "concept-adaptation",
+        "concept-asymmetry",
+        "concept-authority",
+        "concept-bureaucracy",
+        "concept-certainty",
+        "concept-cohesion",
+        "concept-compression",
+        "concept-consequence",
+        "concept-constraint",
+        "concept-constraints",
+        "concept-contestability",
+        "concept-coordination",
+        "concept-correction",
+        "concept-corrigibility",
+        "concept-distance",
+        "concept-drift",
+        "concept-exposure",
+        "concept-feedback",
+        "concept-friction",
+        "concept-harm",
+        "concept-incentives",
+        "concept-inheritance",
+        "concept-interpretation",
+        "concept-judgment",
+        "concept-legitimacy",
+        "concept-meaning",
+        "concept-mediation",
+        "concept-momentum",
+        "concept-moral-density",
+        "concept-normalization",
+        "concept-proximity",
+        "concept-reciprocity",
+        "concept-responsibility",
+        "concept-reversibility",
+        "concept-scale",
+        "concept-stability",
+        "concept-system",
+        "concept-thinking",
+        "concept-throughput",
+        "concept-uncertainty"
+      ],
+      "patterns": [],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/open-graph.png",
+      "overview": {
+        "centralQuestion": "How does certainty form, harden, and outlive the conditions that made it necessary?",
+        "whyItExists": "Certainty can be an adaptive response to instability. The book reads history so readers can recognize why inherited moral order feels obvious\u2014before it feels excessive\u2014without reducing traditions to machinery.",
+        "audience": "Readers seeking a historical prequel to the series: how moral, religious, legal, and epistemic tools stabilize life under constraint, scale, and uncertainty.",
+        "nonGoals": [
+          "It is not a comprehensive chronology or a moral ranking of eras.",
+          "It does not reduce traditions to machinery or claim historical inevitability.",
+          "Its task is recognition rather than final verdict or prescription for what to believe now."
+        ],
+        "selectedConceptIds": [
+          "concept-certainty",
+          "concept-compression",
+          "concept-inheritance",
+          "concept-drift",
+          "concept-constraint",
+          "concept-legitimacy"
+        ],
+        "selectedPatternIds": [
+          "pattern-finality-compensates-for-uncertainty",
+          "pattern-meaning-forms-early",
+          "pattern-exceptions-are-forever"
+        ],
+        "selectedConceptRoles": [
+          {
+            "conceptId": "concept-certainty",
+            "roleInWork": "Central: adaptive reduction of instability that makes action possible\u2014read historically so it can be recognized before it feels excessive."
+          },
+          {
+            "conceptId": "concept-compression",
+            "roleInWork": "Shows how moral and institutional order travels by shrinking complexity\u2014necessary for survival, costly when it hardens."
+          },
+          {
+            "conceptId": "concept-inheritance",
+            "roleInWork": "Names how stabilized order outlives originating conditions; the book teaches readers to feel inherited obviousness as historical."
+          },
+          {
+            "conceptId": "concept-drift",
+            "roleInWork": "Tracks gradual decoupling of rules and meanings from the pressures that made them adaptive."
+          },
+          {
+            "conceptId": "concept-constraint",
+            "roleInWork": "Grounds moral orders in scarcity, violence, density\u2014limits that made certainty feel necessary rather than arbitrary."
+          },
+          {
+            "conceptId": "concept-legitimacy",
+            "roleInWork": "Asks when inherited order still reads as justified once conditions change\u2014before critique becomes easy hindsight."
+          }
+        ],
+        "selectedPatternRoles": [
+          {
+            "patternId": "pattern-finality-compensates-for-uncertainty",
+            "roleInWork": "Introduces how hard endings and settled rules relieve instability\u2014adaptive move that later looks like excess."
+          },
+          {
+            "patternId": "pattern-meaning-forms-early",
+            "roleInWork": "Applies how early interpretive settlements lock in what later generations inherit as obvious."
+          },
+          {
+            "patternId": "pattern-exceptions-are-forever",
+            "roleInWork": "Shows workarounds becoming the day-to-day order\u2014how provisional certainty turns durable."
+          }
+        ],
+        "readBefore": [
+          "curiosity-before-certainty"
+        ],
+        "readNext": [
+          "living-in-sediment",
+          "after-certainty"
+        ],
+        "relatedWorks": [
+          {
+            "workId": "work-living-in-sediment",
+            "relationship": "continues",
+            "reason": "From how certainty forms historically into how inherited structures persist as sediment in the present."
+          },
+          {
+            "workId": "work-after-certainty",
+            "relationship": "prepares_for",
+            "reason": "Explicit handoff: once certainty thins, how do we live and judge?"
+          },
+          {
+            "workId": "work-learning-to-see",
+            "relationship": "companion_to",
+            "reason": "Historical formation of certainty pairs with practices that form knowers across traditions."
+          },
+          {
+            "workId": "work-when-incentives-become-the-moral-language",
+            "relationship": "deepens",
+            "reason": "Inherited moral language includes metrics that harden into coordination tools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-living-in-sediment",
+      "slug": "living-in-sediment",
+      "title": "Living in Sediment",
+      "subtitle": "How Structures Outlive Their Reasons",
+      "summary": "We live inside inherited systems built for constraints that no longer exist. When structures survive after their reasons disappear, meaning drifts\u2014and the danger is forgetting the sediment is sediment.",
+      "description": "We live inside inherited systems built for constraints that no longer exist. When structures survive after their reasons disappear, meaning drifts\u2014and the danger is forgetting the sediment is sediment.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "nonfiction",
+      "literaryForm": "monograph",
+      "workId": "work-living-in-sediment",
+      "editionId": "book-living-in-sediment",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_docx",
+        "download_epub",
+        "download_pdf"
+      ],
+      "concepts": [
+        "concept-abstraction",
+        "concept-authority",
+        "concept-bureaucracy",
+        "concept-coordination",
+        "concept-coupling",
+        "concept-distance",
+        "concept-feedback",
+        "concept-governance-coupling",
+        "concept-harm",
+        "concept-humility",
+        "concept-institutional-memory",
+        "concept-judgment",
+        "concept-legibility",
+        "concept-legitimacy",
+        "concept-public-interpretation",
+        "concept-reciprocity",
+        "concept-responsibility",
+        "concept-system",
+        "concept-trust",
+        "concept-vitality"
+      ],
+      "patterns": [],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/living-in-sediment/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/living-in-sediment/open-graph.png",
+      "overview": {
+        "centralQuestion": "Why do structures outlive the reasons that created them?",
+        "whyItExists": "To teach historical perception of present infrastructure fossils\u2014language, time, policy, metrics, algorithms\u2014across four movements: fossils we do not notice, fossils shaping power, fossils forming now, and living among sediment.",
+        "audience": "Readers of institutions, technology, and everyday coordination who want a habit of seeing between permanent skepticism and unquestioning acceptance.",
+        "nonGoals": [
+          "It is not a catalog of errors waiting to be corrected.",
+          "It does not treat inherited structures as automatically suspect simply because they are inherited.",
+          "It is not a policy checklist; seeing does not by itself prescribe what to remake."
+        ],
+        "selectedConceptIds": [
+          "concept-inheritance",
+          "concept-drift",
+          "concept-structure",
+          "concept-legitimacy",
+          "concept-compression"
+        ],
+        "selectedPatternIds": [
+          "pattern-meaning-drifts-over-time",
+          "pattern-exceptions-are-forever",
+          "pattern-examples-accumulate"
+        ],
+        "selectedConceptRoles": [
+          {
+            "conceptId": "concept-inheritance",
+            "roleInWork": "Central perception skill: noticing present infrastructure as fossilized prior settlements\u2014language, policy, metrics still steering."
+          },
+          {
+            "conceptId": "concept-drift",
+            "roleInWork": "Names how meaning and fit thin while forms persist; sediment is what remains after reasons fade."
+          },
+          {
+            "conceptId": "concept-structure",
+            "roleInWork": "Focuses on what must be counted and how workflows assign reality\u2014fossils that still coordinate power."
+          },
+          {
+            "conceptId": "concept-legitimacy",
+            "roleInWork": "Asks why sedimented arrangements still feel justified\u2014or refuse challenge\u2014long after their originating story."
+          },
+          {
+            "conceptId": "concept-compression",
+            "roleInWork": "Shows metrics and algorithms as compressed inheritances that travel farther than the judgments that produced them."
+          }
+        ],
+        "selectedPatternRoles": [
+          {
+            "patternId": "pattern-meaning-drifts-over-time",
+            "roleInWork": "Deepens historical perception: interpretation of the same infrastructure shifts while the form stays."
+          },
+          {
+            "patternId": "pattern-exceptions-are-forever",
+            "roleInWork": "Applies how temporary workarounds become sedimented operating procedure."
+          },
+          {
+            "patternId": "pattern-examples-accumulate",
+            "roleInWork": "Shows how repeated instances under pressure set what later counts as normal\u2014fossils forming now."
+          }
+        ],
+        "readBefore": [
+          "before-certainty-arrives"
+        ],
+        "readNext": [
+          "when-incentives-become-the-moral-language",
+          "after-certainty"
+        ],
+        "relatedWorks": [
+          {
+            "workId": "work-before-certainty-arrives",
+            "relationship": "historicizes",
+            "reason": "Sediment in the present is often certainty that formed under earlier constraints."
+          },
+          {
+            "workId": "work-when-incentives-become-the-moral-language",
+            "relationship": "applies",
+            "reason": "Metrics that outlive their reasons are a living form of institutional sediment."
+          },
+          {
+            "workId": "work-after-certainty",
+            "relationship": "prepares_for",
+            "reason": "Living among sediment leads into judgment when inherited frames no longer suffice."
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-observer-patterns",
+      "slug": "observer-patterns",
+      "title": "Observer Patterns",
+      "summary": "Poems about what happens when attention becomes decisive\u2014when looking, deciding, and following reshape what is possible.",
+      "description": "Poems about what happens when attention becomes decisive\u2014when looking, deciding, and following reshape what is possible.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "poetry",
+      "literaryForm": "poetry_collection",
+      "workId": "work-observer-patterns",
+      "editionId": "book-observer-patterns",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_pdf"
+      ],
+      "concepts": [],
+      "patterns": [],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/open-graph.png",
+      "overview": {
+        "centralQuestion": "What takes shape when looking, deciding, and following become decisive?",
+        "whyItExists": "A poetry book of observer patterns\u2014attention becoming decisive\u2014readable alone or together within the wider corpus, without instructions or argument.",
+        "audience": "Readers who want pattern recognition through poems rather than analytical prose, and anyone tracing attention, observation, and recurrence across the series.",
+        "nonGoals": [
+          "It is not instructions.",
+          "It is not arguments or a prose diagnostic volume."
+        ],
+        "selectedConceptIds": [
+          "concept-attention",
+          "concept-meaning",
+          "concept-judgment",
+          "concept-trust"
+        ],
+        "selectedPatternIds": [
+          "pattern-attention-finds-a-focus",
+          "pattern-attention-finds-a-signal",
+          "pattern-attention-restores-contact"
+        ],
+        "selectedConceptRoles": [
+          {
+            "conceptId": "concept-attention",
+            "roleInWork": "Lyric hinge of the collection: looking that becomes decisive\u2014when noticing alone reshapes what can happen next."
+          },
+          {
+            "conceptId": "concept-meaning",
+            "roleInWork": "What poems stabilize enough to recognize without arguing\u2014pattern held in image rather than thesis."
+          },
+          {
+            "conceptId": "concept-judgment",
+            "roleInWork": "Figures deciding under incomplete sight; the poems stage assessment as stance, not instruction."
+          },
+          {
+            "conceptId": "concept-trust",
+            "roleInWork": "Appears as extending action beyond what one poem's speaker can verify\u2014following and being followed."
+          }
+        ],
+        "selectedPatternRoles": [
+          {
+            "patternId": "pattern-attention-finds-a-focus",
+            "roleInWork": "Recurs as poems where looking settles on one figure and reorganizes the field around that gaze."
+          },
+          {
+            "patternId": "pattern-attention-finds-a-signal",
+            "roleInWork": "Stages first salience\u2014what flashes into notice and then trains the next noticing."
+          },
+          {
+            "patternId": "pattern-attention-restores-contact",
+            "roleInWork": "Returns consequence into the lyric frame where abstraction would thin encounter\u2014attention as contact, not explanation."
+          }
+        ],
+        "readBefore": [
+          "learning-to-see"
+        ],
+        "readNext": [
+          "what-we-cannot-see"
+        ],
+        "relatedWorks": [
+          {
+            "workId": "work-learning-to-see",
+            "relationship": "companion_to",
+            "reason": "Poems of decisive attention companion practices of becoming a better knower."
+          },
+          {
+            "workId": "work-what-we-cannot-see",
+            "relationship": "reframes",
+            "reason": "Observation and participation reframe finite perspective through pattern rather than treatise."
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-when-accountability-no-longer-expires",
+      "slug": "when-accountability-no-longer-expires",
+      "title": "When Accountability No Longer Expires",
+      "subtitle": "How Legitimate Authority Learns to Survive Harm",
+      "summary": "An institutional lens on why legitimate authority can persist after harm. Organizations learn to survive scandal without resolving it.",
+      "description": "An institutional lens on why legitimate authority can persist after harm. Organizations learn to survive scandal without resolving it.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "nonfiction",
+      "literaryForm": "monograph",
+      "workId": "work-when-accountability-no-longer-expires",
+      "editionId": "book-when-accountability-no-longer-expires",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_docx",
+        "download_epub",
+        "download_pdf"
+      ],
+      "concepts": [
+        "concept-authority",
+        "concept-bureaucracy",
+        "concept-coherence-maintenance",
+        "concept-contestability",
+        "concept-coordination",
+        "concept-correction",
+        "concept-distance",
+        "concept-erosion",
+        "concept-feedback",
+        "concept-interpretation",
+        "concept-judgment",
+        "concept-legitimacy",
+        "concept-meaning",
+        "concept-public-interpretation",
+        "concept-responsibility",
+        "concept-uncertainty"
+      ],
+      "patterns": [],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/open-graph.png",
+      "overview": {
+        "centralQuestion": "What happens when legitimate authority learns to survive harm\u2014and accountability no longer expires?",
+        "whyItExists": "Institutions often respond to scandal with adaptation that preserves core authority. This book names endurance after harm as a pattern of legitimacy without renewal, not merely failure or corruption.",
+        "audience": "Readers of institutional ethics, organizational culture, and leadership who need language for when continuity looks like care while renewal stays deferred.",
+        "nonGoals": [
+          "It is not a playbook for restoring accountability on a schedule.",
+          "It does not treat every long-lived institution as illegitimate.",
+          "It is not a leadership personality critique (see When Authority Outlives Accountability for the evaluation lens)."
+        ],
+        "selectedConceptIds": [
+          "concept-legitimacy",
+          "concept-accountability",
+          "concept-renewal",
+          "concept-harm",
+          "concept-correction",
+          "concept-adaptability"
+        ],
+        "selectedPatternIds": [
+          "pattern-learning-collapses",
+          "pattern-exceptions-are-forever",
+          "pattern-blame-compresses-complexity"
+        ],
+        "readBefore": [
+          "when-authority-is-misread",
+          "when-authority-outlives-accountability"
+        ],
+        "readNext": [
+          "when-moral-seriousness-scales",
+          "when-others-become-leaders"
+        ],
+        "relatedWorks": [
+          {
+            "workId": "work-when-authority-outlives-accountability",
+            "relationship": "continues",
+            "reason": "The three-dimension leadership lens opens into how institutions learn to survive harm without renewing legitimacy."
+          },
+          {
+            "workId": "work-when-authority-is-misread",
+            "relationship": "deepens",
+            "reason": "Misread legitimacy at leadership scale becomes institutional persistence after scandal."
+          },
+          {
+            "workId": "work-when-moral-seriousness-scales",
+            "relationship": "prepares_for",
+            "reason": "Endurance without renewal intensifies when moral density thins under distance and scale."
+          },
+          {
+            "workId": "work-when-others-look-to-you",
+            "relationship": "companion_to",
+            "reason": "Renewal and erosion in leadership practice pair with institutional survival after accountability expires."
+          },
+          {
+            "workId": "work-coupling",
+            "relationship": "companion_to",
+            "reason": "Structural coupling shapes where consequence lands when institutions adapt around harm."
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-when-interpretation-no-longer-matters",
+      "slug": "when-interpretation-no-longer-matters",
+      "title": "When Interpretation No Longer Matters",
+      "subtitle": "Authority When Understanding No Longer Governs",
+      "summary": "When interpretation loses public consequence while understanding persists\u2014and what kinds of authority remain when hearing no longer becomes legitimacy, accountability, or repair.",
+      "description": "When interpretation loses public consequence while understanding persists\u2014and what kinds of authority remain when hearing no longer becomes legitimacy, accountability, or repair.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "nonfiction",
+      "literaryForm": "monograph",
+      "workId": "work-when-interpretation-no-longer-matters",
+      "editionId": "book-when-interpretation-no-longer-matters",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_docx",
+        "download_epub",
+        "download_pdf"
+      ],
+      "concepts": [
+        "concept-alignment",
+        "concept-alignment-at-scale",
+        "concept-authority",
+        "concept-boundary",
+        "concept-bureaucracy",
+        "concept-coercion",
+        "concept-displacement-of-interpretation",
+        "concept-distance",
+        "concept-exit",
+        "concept-identity-saturated-political-authority",
+        "concept-identity-saturation",
+        "concept-interpretation",
+        "concept-interpretive-collapse",
+        "concept-judgment",
+        "concept-judgment-failure",
+        "concept-legitimacy",
+        "concept-narrative-enclosure",
+        "concept-performative-legitimacy",
+        "concept-post-interpretive-authority",
+        "concept-private-understanding",
+        "concept-public-interpretation",
+        "concept-repair",
+        "concept-sorting",
+        "concept-stability",
+        "concept-total-authority",
+        "concept-transitional-authority",
+        "concept-witness"
+      ],
+      "patterns": [],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/open-graph.png",
+      "overview": {
+        "centralQuestion": "What kind of authority exists when understanding no longer has the power to matter?",
+        "whyItExists": "Earlier books stay where interpretation is strained but still operative. This one begins at the boundary \u2014 hearing, restatement, even private assent without revised legitimacy \u2014 and diagnoses authority after shared evaluation loses consequence.",
+        "audience": "Readers of meaning, leadership, and institutions who need to tell misunderstanding apart from interpretation without leverage \u2014 before prescribing clearer speech.",
+        "nonGoals": [
+          "It is not a moral verdict on people, nor a rescue plan to restore interpretation everywhere.",
+          "It does not collapse misunderstanding, disagreement, refusal, and missing leverage into one failure.",
+          "It is not the same inquiry as metrics replacing judgment (see When Incentives Become the Moral Language)."
+        ],
+        "selectedConceptIds": [
+          "concept-interpretation",
+          "concept-authority",
+          "concept-narrative-enclosure",
+          "concept-displacement-of-interpretation",
+          "concept-witness",
+          "concept-post-interpretive-authority"
+        ],
+        "selectedPatternIds": [
+          "pattern-explanation-replaces-response",
+          "pattern-disagreement-is-suppressed",
+          "pattern-correctness-hardens-into-identity",
+          "pattern-meaning-reinforces-itself"
+        ],
+        "readBefore": [
+          "how-meaning-moves"
+        ],
+        "readNext": [
+          "when-incentives-become-the-moral-language",
+          "after-certainty"
+        ],
+        "relatedWorks": [
+          {
+            "workId": "work-how-meaning-moves",
+            "relationship": "continues",
+            "reason": "From meaning still coordinating consequence into rooms where understanding persists without leverage."
+          },
+          {
+            "workId": "work-when-incentives-become-the-moral-language",
+            "relationship": "companion_to",
+            "reason": "Twin Tension books \u2014 portable proxies vs authority that no longer answers to shared evaluation."
+          },
+          {
+            "workId": "work-when-authority-is-misread",
+            "relationship": "reframes",
+            "reason": "Misread authority is one pathway toward authority that no longer needs understanding."
+          },
+          {
+            "workId": "work-why-collaboration-is-so-hard",
+            "relationship": "contrasts_with",
+            "reason": "Coordination under diffuse ownership still assumes interpretation can reach work; this book names when it cannot."
+          },
+          {
+            "workId": "work-after-certainty",
+            "relationship": "prepares_for",
+            "reason": "After diagnostic clarity about missing consequence, practice asks how to live and judge anyway."
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [],
+  "patterns": [],
+  "situations": [],
+  "sources": [],
+  "relationships": [],
+  "questions": [
+    {
+      "id": "act-before-certainty-arrives",
+      "slug": "act-before-certainty-arrives",
+      "question": "How can we act responsibly before certainty arrives?",
+      "summary": "Judgment under uncertainty requires discipline\u2014not waiting until explanation finishes.",
+      "orientation": "Many of the hardest decisions arrive before the picture is complete. Acting responsibly does not mean pretending to know; it means learning in motion, staying corrigible, and refusing false certainty.",
+      "whatThisIsNot": [
+        "Not a license for reckless action.",
+        "Not the same as abandoning evidence.",
+        "Not a single technique\u2014responsibility under uncertainty is a practice."
+      ],
+      "status": "published",
+      "families": [
+        "Judgment and uncertainty"
+      ],
+      "primaryBookId": "book-after-certainty",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with uncertainty as condition\u2014not failure, but the state in which many consequential judgments actually happen.",
+          "entityId": "concept-uncertainty",
+          "whyThisFollows": "The question assumes certainty has not arrived; this names the terrain.",
+          "title": "Uncertainty",
+          "resolvedSlug": "uncertainty"
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "description": "See judgment as ongoing work\u2014not a one-time verdict but a practice that must remain corrigible.",
+          "entityId": "concept-judgment",
+          "whyThisFollows": "Responsible action under uncertainty is still judgment.",
+          "title": "Judgment",
+          "resolvedSlug": "judgment"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "A friendly entry: how curiosity keeps learning open when easy certainty would close it.",
+          "entityId": "book-curiosity-before-certainty",
+          "whyThisFollows": "Curiosity is often the first discipline before harder choices.",
+          "title": "Curiosity Before Certainty",
+          "resolvedSlug": "curiosity-before-certainty"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "The capstone: living, judging, and remaining responsible once certainty is no longer enough.",
+          "entityId": "book-after-certainty",
+          "whyThisFollows": "This is the primary depth for the question.",
+          "title": "After Certainty",
+          "resolvedSlug": "after-certainty"
+        },
+        {
+          "position": 5,
+          "entityType": "book",
+          "description": "Practice for teams and institutions: learning in motion without waiting for perfect information.",
+          "entityId": "book-how-serious-systems-learn",
+          "whyThisFollows": "Collective action needs disciplines, not only individual virtue.",
+          "title": "How Serious Systems Learn",
+          "resolvedSlug": "how-serious-systems-learn"
+        }
+      ],
+      "closingReflection": "Responsible action before certainty may feel less like guessing and more like staying in contact with correction. The question stays open: what would you need to notice to know you were wrong?",
+      "featured": true,
+      "featuredRank": 4,
+      "relatedQuestionIds": [
+        "sincere-people-still-wrong",
+        "collaboration-remains-difficult",
+        "discipline-under-incomplete-information"
+      ],
+      "searchHints": [
+        "uncertainty judgment",
+        "before certainty"
+      ],
+      "carryForwardQuestion": "What would change your mind if you saw it?"
+    },
+    {
+      "id": "attention-changes-what-it-observes",
+      "slug": "attention-changes-what-it-observes",
+      "question": "Can attention change what it observes?",
+      "summary": "Looking, deciding, and following reshape what becomes possible; observation is not only passive recording.",
+      "orientation": "Observer Patterns approaches the question as poetry of attention becoming decisive\u2014pattern recognition without instructions or argument.",
+      "whatThisIsNot": [
+        "Not a scientific claim that poems prove measurement theory.",
+        "Not a handbook of observation techniques.",
+        "Not an argument that noticing alone remakes institutions."
+      ],
+      "status": "published",
+      "families": [
+        "Attention and knowing"
+      ],
+      "primaryBookId": "book-observer-patterns",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Begin with attention as decisive, not only receptive.",
+          "entityId": "concept-attention",
+          "whyThisFollows": "The question is about what looking does.",
+          "title": "Attention",
+          "resolvedSlug": "attention"
+        },
+        {
+          "position": 2,
+          "entityType": "book",
+          "description": "Poetry collection of observer patterns\u2014looking, deciding, following.",
+          "entityId": "book-observer-patterns",
+          "whyThisFollows": "Verse is the primary form for this path.",
+          "title": "Observer Patterns",
+          "resolvedSlug": "observer-patterns"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "Prose companion on practices that form better knowers.",
+          "entityId": "book-learning-to-see",
+          "whyThisFollows": "After poems, comparative practices deepen the same terrain.",
+          "title": "Learning to See",
+          "resolvedSlug": "learning-to-see"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "Finite perspective and what attention cannot complete.",
+          "entityId": "book-what-we-cannot-see",
+          "whyThisFollows": "Observation still meets the limits of any single view.",
+          "title": "What We Cannot See",
+          "resolvedSlug": "what-we-cannot-see"
+        }
+      ],
+      "closingReflection": "Attention can change what is available to see and to follow. That is not the same as owning the whole scene.",
+      "featured": false,
+      "relatedQuestionIds": [
+        "what-becomes-scarce-when-answers-cheap"
+      ],
+      "searchHints": [
+        "attention changes what it observes",
+        "patterns of seeing"
+      ],
+      "carryForwardQuestion": "Where does your looking already reshape what becomes possible?"
+    },
+    {
+      "id": "authority-without-understanding",
+      "slug": "authority-without-understanding",
+      "question": "What happens when authority no longer needs understanding?",
+      "summary": "When compliance replaces comprehension, authority can persist after shared meaning erodes.",
+      "orientation": "Authority can coordinate action\u2014but it can also outrun the understanding that once justified it. When people follow without grasping, institutions may look stable while judgment quietly thins.",
+      "whatThisIsNot": [
+        "Not the same as When Incentives Become the Moral Language (metrics replacing judgment).",
+        "Not an argument that authority is always illegitimate.",
+        "Not reducible to bad communication alone."
+      ],
+      "status": "published",
+      "families": [
+        "Leadership and authority"
+      ],
+      "primaryBookId": "book-when-interpretation-no-longer-matters",
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Start with authority as a relationship\u2014not just power, but the capacity to coordinate action.",
+          "entityId": "concept-authority",
+          "whyThisFollows": "The question assumes authority exists; this names what is at stake when understanding drops away.",
+          "title": "Authority",
+          "resolvedSlug": "authority"
+        },
+        {
+          "position": 2,
+          "entityType": "concept",
+          "description": "See how shared meaning is built, contested, and lost.",
+          "entityId": "concept-interpretation",
+          "whyThisFollows": "Authority without understanding is often authority without shared interpretation.",
+          "title": "Interpretation",
+          "resolvedSlug": "interpretation"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "The primary book on what happens when authority persists after shared meaning erodes.",
+          "entityId": "book-when-interpretation-no-longer-matters",
+          "whyThisFollows": "This is the deepest treatment of the question\u2014not the metrics book, not the economy book.",
+          "title": "When Interpretation No Longer Matters",
+          "resolvedSlug": "when-interpretation-no-longer-matters"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "A complementary lens: when confidence is mistaken for legitimacy and communication distorts judgment.",
+          "entityId": "book-when-authority-is-misread",
+          "whyThisFollows": "Misread authority is one pathway toward authority without understanding.",
+          "title": "When Authority Is Misread",
+          "resolvedSlug": "when-authority-is-misread"
+        }
+      ],
+      "closingReflection": "Authority may still function while understanding thins\u2014but at a cost to correction, trust, and moral seriousness. The question remains: what would restore interpretive contact without pretending disagreement will disappear?",
+      "featured": false,
+      "relatedQuestionIds": [
+        "leaders-become-systems",
+        "scoreboard-settles-and-cannot"
+      ],
+      "searchHints": [
+        "authority interpretation",
+        "shared meaning"
+      ],
+      "carryForwardQuestion": "Where do people comply without understanding what they are complying with?"
+    }
+  ],
+  "trails": [
+    {
+      "id": "accountability-and-enduring-authority",
+      "slug": "accountability-and-enduring-authority",
+      "title": "Accountability and Enduring Authority",
+      "summary": "From authority misread as virtue, through a leadership lens that separates moral posture from effectiveness and legitimacy, into institutions that survive harm without renewing accountability\u2014and judgment when moral seriousness scales.",
+      "orientation": "Legitimacy can look intact while answerability thins. This trail moves from misreading leaders, through diagnostic separation of leadership dimensions, to institutional endurance after harm, then to moral seriousness under distance and pressure.",
+      "status": "published",
+      "themes": [
+        "Leadership and authority",
+        "Accountability"
+      ],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "book",
+          "description": "Begin where confidence and later memory are mistaken for legitimacy\u2014looking twice at leaders before treating endurance as proof.\n",
+          "entityId": "book-when-authority-is-misread",
+          "title": "When Authority Is Misread",
+          "resolvedSlug": "when-authority-is-misread"
+        },
+        {
+          "position": 2,
+          "entityType": "book",
+          "description": "Separate moral posture toward harm, effectiveness, and legitimacy over time so judgment does not collapse into ideology or outcome bias.\n",
+          "entityId": "book-when-authority-outlives-accountability",
+          "whyThisFollows": "Misread authority needs a lens; this book isolates the dimensions usually treated as one.",
+          "title": "When Authority Outlives Accountability",
+          "resolvedSlug": "when-authority-outlives-accountability"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "See how institutions adapt around scandal while preserving core authority\u2014legitimacy that no longer expires.\n",
+          "entityId": "book-when-accountability-no-longer-expires",
+          "whyThisFollows": "After the leadership lens, this is the institutional story of survival without renewal.",
+          "title": "When Accountability No Longer Expires",
+          "resolvedSlug": "when-accountability-no-longer-expires"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "Ask what moral seriousness requires when distance, asymmetry, and acceleration thin moral density.\n",
+          "entityId": "book-when-moral-seriousness-scales",
+          "whyThisFollows": "Endurance without renewal intensifies when the conditions that once made care dense have thinned.",
+          "title": "When Moral Seriousness Scales",
+          "resolvedSlug": "when-moral-seriousness-scales"
+        },
+        {
+          "position": 5,
+          "entityType": "book",
+          "description": "Fiction doorway \u2014 mythic bonds, vows, and authority that exact cost when personal loyalty meets political fate (dramatizes; does not prove).\n",
+          "entityId": "book-velorum",
+          "whyThisFollows": "Story can stage enduring obligation and harm when nonfiction lenses need a different pace.",
+          "optional": true,
+          "fictionDoorway": true,
+          "title": "Velorum",
+          "resolvedSlug": "velorum"
+        }
+      ],
+      "closingReflection": "Endurance is not automatically wisdom. Separating dimensions of leadership judgment, naming institutional adaptation that is not renewal, and holding seriousness under scale are related disciplines\u2014not a single verdict on every long-lived authority.",
+      "featured": false,
+      "depth": "intermediate",
+      "suggestedContinuation": "Follow Leadership After the Person if inherited influence is the next concern, or Systems That Cannot Correct Themselves if feedback collapse is where endurance becomes drift.",
+      "primaryBookId": "book-when-accountability-no-longer-expires",
+      "relatedTrailIds": [
+        "leadership-after-the-person",
+        "systems-without-correction"
+      ]
+    },
+    {
+      "id": "inheritance-and-institutional-sediment",
+      "slug": "inheritance-and-institutional-sediment",
+      "title": "Inheritance and Institutional Sediment",
+      "summary": "From how certainty forms historically, through living among fossils, into metrics that harden and judgment after certainty.",
+      "orientation": "Structures outlive their reasons. This trail moves from historical formation of certainty into present sediment, incentive language, and the capstone practice of judgment.",
+      "status": "published",
+      "themes": [
+        "Institutions",
+        "Inheritance"
+      ],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "book",
+          "description": "See how certainty forms, hardens, and outlives earlier constraints.",
+          "entityId": "book-before-certainty-arrives",
+          "title": "Before Certainty Arrives",
+          "resolvedSlug": "before-certainty-arrives"
+        },
+        {
+          "position": 2,
+          "entityType": "book",
+          "description": "Learn to notice institutional fossils in present infrastructure.",
+          "entityId": "book-living-in-sediment",
+          "whyThisFollows": "Historical certainty becomes the sediment under everyday rules.",
+          "title": "Living in Sediment",
+          "resolvedSlug": "living-in-sediment"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "Watch metrics harden into moral language that outlives their reasons.",
+          "entityId": "book-when-incentives-become-the-moral-language",
+          "whyThisFollows": "Incentives are a living form of sediment.",
+          "title": "When Incentives Become the Moral Language",
+          "resolvedSlug": "when-incentives-become-the-moral-language"
+        },
+        {
+          "position": 4,
+          "entityType": "book",
+          "description": "Judge and revise when inherited frames no longer suffice.",
+          "entityId": "book-after-certainty",
+          "whyThisFollows": "Seeing sediment leads into judgment without total explanation.",
+          "title": "After Certainty",
+          "resolvedSlug": "after-certainty"
+        }
+      ],
+      "closingReflection": "Inheritance is not the opposite of freedom. Remembering sediment is the beginning of responsible revision\u2014not a finished policy.",
+      "featured": false,
+      "depth": "intermediate",
+      "primaryBookId": "book-living-in-sediment",
+      "relatedTrailIds": [
+        "judgment-before-certainty",
+        "systems-without-correction",
+        "the-result-and-the-experience"
+      ]
+    },
+    {
+      "id": "judgment-before-certainty",
+      "slug": "judgment-before-certainty",
+      "title": "Judgment Before Certainty",
+      "summary": "How to keep thinking, revising, and acting when the full picture has not arrived\u2014and why false certainty is often the greater risk.",
+      "orientation": "Many consequential decisions arrive before explanation finishes. This trail moves from the practice of judgment through books that treat uncertainty as terrain rather than failure, ending with what keeps judgment corrigible when pressure mounts.",
+      "status": "published",
+      "themes": [
+        "Judgment"
+      ],
+      "pathStops": [
+        {
+          "position": 1,
+          "entityType": "concept",
+          "description": "Start with judgment as ongoing work\u2014not a one-time verdict, but a practice that must remain open to correction.",
+          "entityId": "concept-judgment",
+          "title": "Judgment",
+          "resolvedSlug": "judgment"
+        },
+        {
+          "position": 2,
+          "entityType": "book",
+          "description": "See how responsible action begins before the picture is complete\u2014when waiting for certainty would itself be a choice.",
+          "entityId": "book-before-certainty-arrives",
+          "whyThisFollows": "After naming judgment, this book shows what it looks like to act while still learning.",
+          "title": "Before Certainty Arrives",
+          "resolvedSlug": "before-certainty-arrives"
+        },
+        {
+          "position": 3,
+          "entityType": "book",
+          "description": "A lighter entry on curiosity as discipline\u2014the habit that keeps inquiry alive when easy answers would close it.",
+          "entityId": "book-curiosity-before-certainty",
+          "whyThisFollows": "Curiosity often precedes the harder judgments; it keeps the path from collapsing into premature closure.",
+          "title": "Curiosity Before Certainty",
+          "resolvedSlug": "curiosity-before-certainty"
+        },
+        {
+          "position": 4,
+          "entityType": "concept",
+          "description": "Examine what certainty promises\u2014and what it costs when it arrives too early or stays too rigid.",
+          "entityId": "concept-certainty",
+          "whyThisFollows": "Judgment under uncertainty requires knowing what certainty would substitute for, and why that substitution is dangerous.",
+          "title": "Certainty",
+          "resolvedSlug": "certainty"
+        },
+        {
+          "position": 5,
+          "entityType": "pattern",
+          "description": "Notice how institutions and relationships stay corrigible when claims can still be revised without collapsing trust.",
+          "entityId": "pattern-revisability-preserves-judgment",
+          "whyThisFollows": "Judgment that cannot be revised becomes performance; this pattern names what keeps revision possible.",
+          "title": "Revisability Preserves Judgment",
+          "resolvedSlug": "revisability-preserves-judgment"
+        },
+        {
+          "position": 6,
+          "entityType": "book",
+          "description": "A handbook for moral seriousness and decision quality when absolutes fracture and certainty stops working as social glue.",
+          "entityId": "book-the-discipline-of-uncertainty",
+          "whyThisFollows": "After naming revisability, this volume offers field discipline under incomplete information.",
+          "title": "The Discipline of Uncertainty",
+          "resolvedSlug": "the-discipline-of-uncertainty"
+        },
+        {
+          "position": 7,
+          "entityType": "book",
+          "description": "A fiction doorway: a courier notices silence where explanations should be\u2014and participation replaces false certainty.",
+          "entityId": "book-the-relay",
+          "whyThisFollows": "Story can hold the tension between acting and not knowing in ways argument alone sometimes cannot.",
+          "estimatedMinutes": 45,
+          "optional": true,
+          "fictionDoorway": true,
+          "title": "The Relay",
+          "resolvedSlug": "the-relay"
+        }
+      ],
+      "closingReflection": "You may notice judgment resting less on having the answer and more on staying in contact with what would change your mind. The trail does not settle the underlying question\u2014it offers a sequence for moving through it with more discipline.",
+      "featured": true,
+      "featuredRank": 1,
+      "depth": "intermediate",
+      "suggestedContinuation": "If systems and institutions are where your judgment must land, follow the Systems That Cannot Correct Themselves trail next. If you work in software, the practitioner trail offers a parallel path through coupling and feedback.",
+      "primaryBookId": "book-before-certainty-arrives",
+      "relatedTrailIds": [
+        "systems-without-correction",
+        "software-judgment-trail",
+        "practices-of-seeing"
+      ]
+    }
+  ],
+  "works": [
+    {
+      "id": "work-after-certainty",
+      "slug": "after-certainty",
+      "title": "After Certainty",
+      "currentEditionId": "book-after-certainty",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/after-certainty",
+      "editionIds": [
+        "book-after-certainty"
+      ]
+    },
+    {
+      "id": "work-before-certainty-arrives",
+      "slug": "before-certainty-arrives",
+      "title": "Before Certainty Arrives",
+      "currentEditionId": "book-before-certainty-arrives",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/before-certainty-arrives",
+      "editionIds": [
+        "book-before-certainty-arrives"
+      ]
+    },
+    {
+      "id": "work-living-in-sediment",
+      "slug": "living-in-sediment",
+      "title": "Living in Sediment",
+      "currentEditionId": "book-living-in-sediment",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/living-in-sediment",
+      "editionIds": [
+        "book-living-in-sediment"
+      ]
+    },
+    {
+      "id": "work-observer-patterns",
+      "slug": "observer-patterns",
+      "title": "Observer Patterns",
+      "currentEditionId": "book-observer-patterns",
+      "contentType": "poetry",
+      "canonicalRoute": "/explore/books/observer-patterns",
+      "editionIds": [
+        "book-observer-patterns"
+      ]
+    },
+    {
+      "id": "work-when-accountability-no-longer-expires",
+      "slug": "when-accountability-no-longer-expires",
+      "title": "When Accountability No Longer Expires",
+      "currentEditionId": "book-when-accountability-no-longer-expires",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-accountability-no-longer-expires",
+      "editionIds": [
+        "book-when-accountability-no-longer-expires"
+      ]
+    },
+    {
+      "id": "work-when-interpretation-no-longer-matters",
+      "slug": "when-interpretation-no-longer-matters",
+      "title": "When Interpretation No Longer Matters",
+      "currentEditionId": "book-when-interpretation-no-longer-matters",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/when-interpretation-no-longer-matters",
+      "editionIds": [
+        "book-when-interpretation-no-longer-matters"
+      ]
+    }
+  ],
+  "editions": [
+    {
+      "id": "book-after-certainty",
+      "bookId": "book-after-certainty",
+      "workId": "work-after-certainty",
+      "slug": "after-certainty",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "After Certainty"
+    },
+    {
+      "id": "book-before-certainty-arrives",
+      "bookId": "book-before-certainty-arrives",
+      "workId": "work-before-certainty-arrives",
+      "slug": "before-certainty-arrives",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Before Certainty Arrives"
+    },
+    {
+      "id": "book-living-in-sediment",
+      "bookId": "book-living-in-sediment",
+      "workId": "work-living-in-sediment",
+      "slug": "living-in-sediment",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Living in Sediment"
+    },
+    {
+      "id": "book-observer-patterns",
+      "bookId": "book-observer-patterns",
+      "workId": "work-observer-patterns",
+      "slug": "observer-patterns",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Observer Patterns"
+    },
+    {
+      "id": "book-when-accountability-no-longer-expires",
+      "bookId": "book-when-accountability-no-longer-expires",
+      "workId": "work-when-accountability-no-longer-expires",
+      "slug": "when-accountability-no-longer-expires",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Accountability No Longer Expires"
+    },
+    {
+      "id": "book-when-interpretation-no-longer-matters",
+      "bookId": "book-when-interpretation-no-longer-matters",
+      "workId": "work-when-interpretation-no-longer-matters",
+      "slug": "when-interpretation-no-longer-matters",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "When Interpretation No Longer Matters"
+    }
+  ],
+  "searchAliases": [
+    {
+      "terms": [
+        "accountability"
+      ],
+      "kind": "alias",
+      "targetIds": [
+        "concept-accountability"
+      ],
+      "note": "Canonical concept name reinforcement for lookup"
+    },
+    {
+      "terms": [
+        "boundary conditions",
+        "organizational fiction"
+      ],
+      "kind": "alias",
+      "targetIds": [
+        "book-boundary-conditions"
+      ],
+      "note": "Short title and form label for Boundary Conditions",
+      "aliasClass": "shortened_name"
+    },
+    {
+      "terms": [
+        "wolty",
+        "when others look to you"
+      ],
+      "kind": "alias",
+      "targetIds": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "note": "Public short name and title phrase for the v1 edition"
+    },
+    {
+      "terms": [
+        "accountability no longer expires",
+        "legitimacy without renewal",
+        "legitimacy survives harm",
+        "institutional endurance after scandal"
+      ],
+      "kind": "related",
+      "targetIds": [
+        "book-when-accountability-no-longer-expires",
+        "concept-legitimacy",
+        "concept-accountability"
+      ],
+      "note": "Endurance phrasing for When Accountability No Longer Expires",
+      "aliasClass": "vocabulary_bridge"
+    },
+    {
+      "terms": [
+        "after certainty",
+        "living after certainty",
+        "judgment after certainty",
+        "when understanding is not enough"
+      ],
+      "kind": "related",
+      "targetIds": [
+        "book-after-certainty",
+        "concept-judgment",
+        "concept-revisability"
+      ],
+      "note": "Capstone phrasing for After Certainty",
+      "aliasClass": "vocabulary_bridge"
+    },
+    {
+      "terms": [
+        "attention changes what it observes",
+        "patterns of seeing",
+        "observation and participation"
+      ],
+      "kind": "related",
+      "targetIds": [
+        "book-observer-patterns",
+        "concept-attention",
+        "pattern-attention-restores-contact"
+      ],
+      "note": "Poetry of observation bridges for Observer Patterns",
+      "aliasClass": "vocabulary_bridge"
+    },
+    {
+      "terms": [
+        "authority is misread",
+        "looking twice at leaders",
+        "idealized and condemned",
+        "misread legitimacy"
+      ],
+      "kind": "related",
+      "targetIds": [
+        "book-when-authority-is-misread",
+        "concept-authority",
+        "concept-legitimacy"
+      ],
+      "note": "Misreading phrasing for When Authority Is Misread",
+      "aliasClass": "vocabulary_bridge"
+    },
+    {
+      "terms": [
+        "authority misread",
+        "when authority is misread"
+      ],
+      "kind": "related",
+      "targetIds": [
+        "book-when-authority-is-misread",
+        "concept-authority"
+      ],
+      "note": "Phrase bridge between the authority concept and the Authority is Misread book"
+    }
+  ]
+}

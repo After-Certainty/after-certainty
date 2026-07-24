@@ -1,6 +1,5 @@
 import { describe, expect, it } from "vitest";
 
-import semanticManifest from "@/data/semantic-manifest.json";
 import {
   getPublicationEditionBySlug,
   getPublicationEditionsForWork,
@@ -11,28 +10,28 @@ import {
   assertPublicationRegistryHealthy,
   collectPublicationRegistryHealthIssues,
 } from "@/lib/books/validate-publication-registry";
-import type { SemanticGraph } from "@/types/semanticGraph";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
-const graph = semanticManifest as unknown as SemanticGraph;
+const graph = tryLoadLocalSemanticManifest();
 
-describe("publication registry health", () => {
+describe.skipIf(!graph)("publication registry health (local manifest)", () => {
   it("accepts editions from the semantic manifest against the graph", () => {
-    const registry = getPublicationRegistry();
-    assertPublicationRegistryHealthy({ registry, books: graph.books });
+    const registry = getPublicationRegistry(graph!);
+    assertPublicationRegistryHealthy({ registry, books: graph!.books });
 
     const warnings = collectPublicationRegistryHealthIssues({
       registry,
-      books: graph.books,
+      books: graph!.books,
     }).filter((i) => i.severity === "warning");
     // Dates are intentionally unset unless authored upstream.
     expect(warnings.every((w) => w.code === "missing_first_published_at")).toBe(true);
-    expect(warnings).toHaveLength(graph.books.length);
+    expect(warnings).toHaveLength(graph!.books.length);
   });
 
   it("covers every graph book exactly once", () => {
-    const registry = getPublicationRegistry();
-    expect(registry.editions).toHaveLength(graph.books.length);
-    for (const book of graph.books) {
+    const registry = getPublicationRegistry(graph!);
+    expect(registry.editions).toHaveLength(graph!.books.length);
+    for (const book of graph!.books) {
       const entry = registry.editions.find((e) => e.bookId === book.id);
       expect(entry, `missing registry entry for ${book.slug}`).toBeDefined();
       expect(entry?.slug).toBe(book.slug);
@@ -40,8 +39,8 @@ describe("publication registry health", () => {
   });
 
   it("models WoLTY as one work with companion (not superseded) v2", () => {
-    const v1 = getPublicationEditionBySlug("when-others-look-to-you-v1");
-    const v2 = getPublicationEditionBySlug("when-others-look-to-you-v2");
+    const v1 = getPublicationEditionBySlug("when-others-look-to-you-v1", graph!);
+    const v2 = getPublicationEditionBySlug("when-others-look-to-you-v2", graph!);
     expect(v1?.workId).toBe("work-when-others-look-to-you");
     expect(v2?.workId).toBe("work-when-others-look-to-you");
     expect(v1?.isCanonical).toBe(true);
@@ -51,43 +50,17 @@ describe("publication registry health", () => {
     expect(v2?.relationship).not.toBe("superseded");
     expect(v2?.companionOfEditionId).toBe("book-when-others-look-to-you-v1");
 
-    const siblings = getPublicationEditionsForWork("work-when-others-look-to-you");
+    const siblings = getPublicationEditionsForWork("work-when-others-look-to-you", graph!);
     expect(siblings).toHaveLength(2);
     expect(siblings.filter((e) => e.isCanonical)).toHaveLength(1);
   });
 
   it("assigns a unique workId per sole edition", () => {
-    const registry = getPublicationRegistry();
+    const registry = getPublicationRegistry(graph!);
     const sole = registry.editions.filter((e) => e.relationship === "sole");
     const workIds = new Set(sole.map((e) => e.workId));
     expect(workIds.size).toBe(sole.length);
     expect(sole.every((e) => e.isCanonical)).toBe(true);
-  });
-
-  it("fails when two canonicals share a work", () => {
-    const registry = parsePublicationRegistry({
-      manifestVersion: 1,
-      editions: [
-        {
-          bookId: "book-a",
-          slug: "a",
-          workId: "work-shared",
-          isCanonical: true,
-          relationship: "primary",
-        },
-        {
-          bookId: "book-b",
-          slug: "b",
-          workId: "work-shared",
-          isCanonical: true,
-          relationship: "primary",
-        },
-      ],
-    });
-    const errors = collectPublicationRegistryHealthIssues({ registry }).filter(
-      (i) => i.severity === "error",
-    );
-    expect(errors.some((e) => e.code === "multiple_canonical_editions")).toBe(true);
   });
 
   it("fails when WoLTY v2 is marked superseded", () => {
@@ -113,8 +86,36 @@ describe("publication registry health", () => {
     });
     const errors = collectPublicationRegistryHealthIssues({
       registry,
-      books: graph.books.filter((b) => b.slug.startsWith("when-others-look-to-you")),
+      books: graph!.books.filter((b) => b.slug.startsWith("when-others-look-to-you")),
     }).filter((i) => i.severity === "error");
     expect(errors.some((e) => e.code === "wolty_companion_marked_superseded")).toBe(true);
+  });
+});
+
+describe("publication registry health", () => {
+  it("fails when two canonicals share a work", () => {
+    const registry = parsePublicationRegistry({
+      manifestVersion: 1,
+      editions: [
+        {
+          bookId: "book-a",
+          slug: "a",
+          workId: "work-shared",
+          isCanonical: true,
+          relationship: "primary",
+        },
+        {
+          bookId: "book-b",
+          slug: "b",
+          workId: "work-shared",
+          isCanonical: true,
+          relationship: "primary",
+        },
+      ],
+    });
+    const errors = collectPublicationRegistryHealthIssues({ registry }).filter(
+      (i) => i.severity === "error",
+    );
+    expect(errors.some((e) => e.code === "multiple_canonical_editions")).toBe(true);
   });
 });

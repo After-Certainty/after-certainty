@@ -2,10 +2,11 @@ import { describe, expect, it } from "vitest";
 
 import {
   aliasTermsByTargetId,
-  getSearchAliasConfig,
+  getSearchAliasConfigFromGraph,
   parseSearchAliasConfig,
   relatedTermsByTargetId,
 } from "@/lib/search/aliases";
+import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
 
 describe("parseSearchAliasConfig", () => {
   it("drops invalid entries and keeps alias vs related kinds", () => {
@@ -26,14 +27,30 @@ describe("parseSearchAliasConfig", () => {
   });
 });
 
-describe("getSearchAliasConfig", () => {
-  it("loads search aliases from the bundled semantic manifest", () => {
-    const config = getSearchAliasConfig();
+describe("getSearchAliasConfigFromGraph", () => {
+  it("loads search aliases from the questions-and-trails fixture", () => {
+    const config = getSearchAliasConfigFromGraph(loadManifestFixture("questions-and-trails"));
     expect(config.version).toBe(1);
     expect(config.entries.length).toBeGreaterThan(0);
     expect(aliasTermsByTargetId(config).get("book-when-others-look-to-you-v1")).toEqual(
       expect.arrayContaining(["wolty"]),
     );
+  });
+
+  it("maps related temporary-rules phrasing via parseSearchAliasConfig", () => {
+    const config = parseSearchAliasConfig({
+      version: 1,
+      entries: [
+        {
+          terms: ["temporary rules"],
+          kind: "related",
+          targetIds: [
+            "pattern-exceptions-are-forever",
+            "situation-temporary-fixes-become-permanent",
+          ],
+        },
+      ],
+    });
     expect(relatedTermsByTargetId(config).get("pattern-exceptions-are-forever")).toEqual(
       expect.arrayContaining(["temporary rules"]),
     );

@@ -39,7 +39,7 @@ export function AboutPublishing() {
             </CTAButton>
           </div>
           <p className="mt-8 text-sm leading-relaxed text-muted/90">
-            Repositories remain public; revision history carries part of the argument. Nothing here needs to read as
+            The repository remains public; revision history carries part of the argument. Nothing here needs to read as
             performance—only as process made visible.
           </p>
         </div>

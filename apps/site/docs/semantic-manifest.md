@@ -2,13 +2,23 @@
 
 The site consumes the After Certainty corpus through `semantic-manifest.json`.
 Corpus meaning and authoritative metadata live in the monorepo root (`books/`,
-`semantic/`, `schema/`). The site owns normalization, rendering, fallback
-resilience, and diagnostics.
+`semantic/`, `schema/`). The site owns normalization, rendering, and diagnostics.
 
-Stage E is **local-only at runtime**: the site no longer fetches the GitHub
-release asset and no longer has a semantic cache revalidate target. The public
+The site is **local-only at runtime**: it does not fetch the GitHub release
+asset and has no semantic cache revalidate target. The public
 `semantic-manifest.json` release artifact is still published for external
 consumers, traceability, and parity checks; it is not a site runtime dependency.
+
+## Three distinct artifacts
+
+| Artifact                                       | Role                                                  |
+| ---------------------------------------------- | ----------------------------------------------------- |
+| `build/semantic-manifest.json`                 | Generated same-checkout production input (gitignored) |
+| `apps/site/data/local-semantic-manifest.json`  | Installed site build input (gitignored)               |
+| Public GitHub release `semantic-manifest.json` | External consumers / parity only                      |
+| `apps/site/test/fixtures/semantic-manifest/`   | Non-authoritative unit-test fixtures                  |
+
+There is **no** committed production fallback under `apps/site/data/`.
 
 ## Data flow
 
@@ -23,37 +33,41 @@ books/ + semantic/ + schema/
   → public components and routes
 ```
 
-If `SEMANTIC_MANIFEST_USE_LOCAL=1`, the loader requires
-`data/local-semantic-manifest.json`. Otherwise it uses committed
-`data/semantic-manifest.json` as an offline/test fixture. That committed JSON is
-retained temporarily because several static imports still depend on it; it is no
-longer synchronized from the release asset and is not the source of truth.
+The loader always requires `data/local-semantic-manifest.json`. If generation or
+installation fails, the site build fails and the previous successful deployment
+remains active. There is no silent fallback to a committed historical manifest
+and no remote runtime fetch.
 
 ## Local setup
 
 From the repository root:
 
 ```bash
+npm ci
+uv sync --frozen --only-group semantic   # or: npm run corpus:sync-semantic
+npm run site:dev:watch                   # generate + install + watch + Next.js
+# or step by step:
 npm run corpus:build-manifest
 npm run site:install-local-manifest
-SEMANTIC_MANIFEST_USE_LOCAL=1 SEMANTIC_MANIFEST_OFFLINE=1 npm run site:dev
+npm run site:dev:local
 ```
 
 Production-shaped builds use the same flow through `scripts/vercel_build.sh`.
 
 `getSemanticGraphLoadResult()` returns `{ graph, source, diagnostics }` where
-`source.kind` is always `"fallback"` and `source.cacheIdentity` starts with
+`source.kind` is always `"fallback"` (historical provenance label for the
+installed local checkout) and `source.cacheIdentity` starts with
 `fallback|local:checkout|...` so provenance changes remain observable without a
 remote URL.
 
 ## Supported schema versions
 
-| Version                 | Policy                                                    |
-| ----------------------- | --------------------------------------------------------- |
-| **2.3+** (major 2)      | Fully supported — intended production contract            |
-| **2.2**                 | Temporary compatibility mode (enrichment optional/absent) |
-| Missing `schemaVersion` | Legacy accepted                                           |
-| Major >= 3 / unparseable | Rejected                                                 |
+| Version                  | Policy                                                    |
+| ------------------------ | --------------------------------------------------------- |
+| **2.3+** (major 2)       | Fully supported — intended production contract            |
+| **2.2**                  | Temporary compatibility mode (enrichment optional/absent) |
+| Missing `schemaVersion`  | Legacy accepted                                           |
+| Major >= 3 / unparseable | Rejected                                                  |
 
 Version comparison uses [`lib/graph/schema-version.ts`](../lib/graph/schema-version.ts) (not string compare).
 
@@ -75,16 +89,23 @@ time.
 
 ## Staleness and validation
 
-Fallback age is measured from `generatedAt`.
+Installed-local age is measured from `generatedAt`.
 
 - Threshold: **30 days** (`SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS`)
-- Invalid / incompatible offline manifest -> **error**
+- Invalid / incompatible installed manifest -> **error** (hard fail under `USE_LOCAL` / production)
 - Local intended release identity comes from
-  `data/local-intended-manifest-release.json` when `SEMANTIC_MANIFEST_USE_LOCAL=1`
+  `data/local-intended-manifest-release.json`
 - Strict validation: `npm run validate:fallback -- --strict` or
   `VALIDATE_FALLBACK_STRICT=1`
 
 Visitors are not shown commit hashes or operational banners.
+
+## Test fixtures
+
+Unit tests use purpose-built JSON under
+[`test/fixtures/semantic-manifest/`](../test/fixtures/semantic-manifest/).
+Full-corpus contract tests load the CI-generated
+`data/local-semantic-manifest.json`. See the fixtures README.
 
 ## Validate
 

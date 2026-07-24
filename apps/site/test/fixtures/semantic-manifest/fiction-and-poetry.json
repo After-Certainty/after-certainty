@@ -1,0 +1,536 @@
+{
+  "schemaVersion": "2.3",
+  "manifestVersion": 2,
+  "generatedAt": "2026-07-01T00:00:00.000000+00:00",
+  "sourceCommit": "fixture-test-commit",
+  "repository": "ksteffe/after-certainty",
+  "ref": "refs/heads/main",
+  "ontology": {
+    "masterTerms": [
+      {
+        "id": "concept-circulation",
+        "slug": "circulation",
+        "title": "Circulation",
+        "preserves": "continuity"
+      },
+      {
+        "id": "concept-correction",
+        "slug": "correction",
+        "title": "Correction",
+        "preserves": "reality-contact"
+      },
+      {
+        "id": "concept-certainty",
+        "slug": "certainty",
+        "title": "Certainty",
+        "preserves": "coordination stability"
+      },
+      {
+        "id": "concept-judgment",
+        "slug": "judgment",
+        "title": "Judgment",
+        "preserves": "non-automatic evaluation"
+      },
+      {
+        "id": "concept-coupling",
+        "slug": "coupling",
+        "title": "Coupling",
+        "preserves": "exposure to consequence"
+      },
+      {
+        "id": "concept-corrigibility",
+        "slug": "corrigibility",
+        "title": "Corrigibility",
+        "preserves": "adaptive recoverability"
+      }
+    ],
+    "structuralPressures": [
+      {
+        "id": "concept-scale",
+        "slug": "scale",
+        "title": "Scale",
+        "effect": "weakens proximity"
+      },
+      {
+        "id": "concept-acceleration",
+        "slug": "acceleration",
+        "title": "Acceleration",
+        "effect": "outruns reflection"
+      },
+      {
+        "id": "concept-abstraction",
+        "slug": "abstraction",
+        "title": "Abstraction",
+        "effect": "obscures consequence"
+      },
+      {
+        "id": "concept-asymmetry",
+        "slug": "asymmetry",
+        "title": "Asymmetry",
+        "effect": "weakens reciprocity"
+      },
+      {
+        "id": "concept-mediation",
+        "slug": "mediation",
+        "title": "Mediation",
+        "effect": "distorts interpretation"
+      },
+      {
+        "id": "concept-compression",
+        "slug": "compression",
+        "title": "Compression",
+        "effect": "reduces nuance"
+      },
+      {
+        "id": "concept-inheritance",
+        "slug": "inheritance",
+        "title": "Inheritance",
+        "effect": "preserves drift"
+      },
+      {
+        "id": "concept-normalization",
+        "slug": "normalization",
+        "title": "Normalization",
+        "effect": "hardens adaptation"
+      }
+    ]
+  },
+  "books": [
+    {
+      "id": "book-before-certainty-arrives",
+      "slug": "before-certainty-arrives",
+      "title": "Before Certainty Arrives",
+      "subtitle": "How Moral Order Forms, Hardens, and Outlives Its Reasons",
+      "summary": "How moral order forms, hardens, and outlives its reasons\u2014before certainty feels like the only available posture.",
+      "description": "How moral order forms, hardens, and outlives its reasons\u2014before certainty feels like the only available posture.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "nonfiction",
+      "literaryForm": "monograph",
+      "workId": "work-before-certainty-arrives",
+      "editionId": "book-before-certainty-arrives",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_docx",
+        "download_epub",
+        "download_pdf"
+      ],
+      "concepts": [
+        "concept-abstraction",
+        "concept-acceleration",
+        "concept-accountability",
+        "concept-adaptation",
+        "concept-asymmetry",
+        "concept-authority",
+        "concept-bureaucracy",
+        "concept-certainty",
+        "concept-cohesion",
+        "concept-compression",
+        "concept-consequence",
+        "concept-constraint",
+        "concept-constraints",
+        "concept-contestability",
+        "concept-coordination",
+        "concept-correction",
+        "concept-corrigibility",
+        "concept-distance",
+        "concept-drift",
+        "concept-exposure",
+        "concept-feedback",
+        "concept-friction",
+        "concept-harm",
+        "concept-incentives",
+        "concept-inheritance",
+        "concept-interpretation",
+        "concept-judgment",
+        "concept-legitimacy",
+        "concept-meaning",
+        "concept-mediation",
+        "concept-momentum",
+        "concept-moral-density",
+        "concept-normalization",
+        "concept-proximity",
+        "concept-reciprocity",
+        "concept-responsibility",
+        "concept-reversibility",
+        "concept-scale",
+        "concept-stability",
+        "concept-system",
+        "concept-thinking",
+        "concept-throughput",
+        "concept-uncertainty"
+      ],
+      "patterns": [],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/open-graph.png",
+      "overview": {
+        "centralQuestion": "How does certainty form, harden, and outlive the conditions that made it necessary?",
+        "whyItExists": "Certainty can be an adaptive response to instability. The book reads history so readers can recognize why inherited moral order feels obvious\u2014before it feels excessive\u2014without reducing traditions to machinery.",
+        "audience": "Readers seeking a historical prequel to the series: how moral, religious, legal, and epistemic tools stabilize life under constraint, scale, and uncertainty.",
+        "nonGoals": [
+          "It is not a comprehensive chronology or a moral ranking of eras.",
+          "It does not reduce traditions to machinery or claim historical inevitability.",
+          "Its task is recognition rather than final verdict or prescription for what to believe now."
+        ],
+        "selectedConceptIds": [
+          "concept-certainty",
+          "concept-compression",
+          "concept-inheritance",
+          "concept-drift",
+          "concept-constraint",
+          "concept-legitimacy"
+        ],
+        "selectedPatternIds": [
+          "pattern-finality-compensates-for-uncertainty",
+          "pattern-meaning-forms-early",
+          "pattern-exceptions-are-forever"
+        ],
+        "selectedConceptRoles": [
+          {
+            "conceptId": "concept-certainty",
+            "roleInWork": "Central: adaptive reduction of instability that makes action possible\u2014read historically so it can be recognized before it feels excessive."
+          },
+          {
+            "conceptId": "concept-compression",
+            "roleInWork": "Shows how moral and institutional order travels by shrinking complexity\u2014necessary for survival, costly when it hardens."
+          },
+          {
+            "conceptId": "concept-inheritance",
+            "roleInWork": "Names how stabilized order outlives originating conditions; the book teaches readers to feel inherited obviousness as historical."
+          },
+          {
+            "conceptId": "concept-drift",
+            "roleInWork": "Tracks gradual decoupling of rules and meanings from the pressures that made them adaptive."
+          },
+          {
+            "conceptId": "concept-constraint",
+            "roleInWork": "Grounds moral orders in scarcity, violence, density\u2014limits that made certainty feel necessary rather than arbitrary."
+          },
+          {
+            "conceptId": "concept-legitimacy",
+            "roleInWork": "Asks when inherited order still reads as justified once conditions change\u2014before critique becomes easy hindsight."
+          }
+        ],
+        "selectedPatternRoles": [
+          {
+            "patternId": "pattern-finality-compensates-for-uncertainty",
+            "roleInWork": "Introduces how hard endings and settled rules relieve instability\u2014adaptive move that later looks like excess."
+          },
+          {
+            "patternId": "pattern-meaning-forms-early",
+            "roleInWork": "Applies how early interpretive settlements lock in what later generations inherit as obvious."
+          },
+          {
+            "patternId": "pattern-exceptions-are-forever",
+            "roleInWork": "Shows workarounds becoming the day-to-day order\u2014how provisional certainty turns durable."
+          }
+        ],
+        "readBefore": [
+          "curiosity-before-certainty"
+        ],
+        "readNext": [
+          "living-in-sediment",
+          "after-certainty"
+        ],
+        "relatedWorks": [
+          {
+            "workId": "work-living-in-sediment",
+            "relationship": "continues",
+            "reason": "From how certainty forms historically into how inherited structures persist as sediment in the present."
+          },
+          {
+            "workId": "work-after-certainty",
+            "relationship": "prepares_for",
+            "reason": "Explicit handoff: once certainty thins, how do we live and judge?"
+          },
+          {
+            "workId": "work-learning-to-see",
+            "relationship": "companion_to",
+            "reason": "Historical formation of certainty pairs with practices that form knowers across traditions."
+          },
+          {
+            "workId": "work-when-incentives-become-the-moral-language",
+            "relationship": "deepens",
+            "reason": "Inherited moral language includes metrics that harden into coordination tools."
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-boundary-conditions",
+      "slug": "boundary-conditions",
+      "title": "Boundary Conditions",
+      "subtitle": "A Literary Organizational Fiction Novel",
+      "summary": "Organizational fiction about invisible coordination work, authorization boundaries, and the cost of becoming indispensable inside complex systems.",
+      "description": "Organizational fiction about invisible coordination work, authorization boundaries, and the cost of becoming indispensable inside complex systems.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "fiction",
+      "literaryForm": "novel",
+      "workId": "work-boundary-conditions",
+      "editionId": "book-boundary-conditions",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_docx",
+        "download_epub",
+        "download_pdf"
+      ],
+      "concepts": [],
+      "patterns": [],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/boundary-conditions/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/boundary-conditions/open-graph.png",
+      "overview": {
+        "centralQuestion": "What happens when the reliable person becomes part of the system\u2019s architecture?",
+        "whyItExists": "Organizational fiction about invisible coordination work, authorization boundaries, and the cost of becoming indispensable\u2014when helping slowly becomes absorbing, and informal routing of work turns one person into infrastructure.",
+        "audience": "Readers who recognize over-routing of responsibility at work and home and want recognition through story rather than a how-to manual.",
+        "nonGoals": [
+          "The story dramatizes tensions rather than proving a general theory.",
+          "It is not a management playbook or boundary checklist.",
+          "It is not a direct retelling of real events (fictionalized composite)."
+        ],
+        "selectedConceptIds": [
+          "concept-boundary",
+          "concept-authorization",
+          "concept-invisible-labor",
+          "concept-coordination",
+          "concept-drift"
+        ],
+        "selectedPatternIds": [
+          "pattern-responsibility-persists-beyond-control",
+          "pattern-leaders-feel-the-consequences"
+        ],
+        "selectedConceptRoles": [
+          {
+            "conceptId": "concept-boundary",
+            "roleInWork": "Stages where permission and responsibility change shape around one reliable person\u2014helping becoming architecture."
+          },
+          {
+            "conceptId": "concept-authorization",
+            "roleInWork": "Dramatizes permission that has become informal, transferable, and sticky\u2014work routes through the person who always says yes."
+          },
+          {
+            "conceptId": "concept-invisible-labor",
+            "roleInWork": "Makes visible the coordination load the plot absorbs: work without which the system fails but that never appears as role."
+          },
+          {
+            "conceptId": "concept-coordination",
+            "roleInWork": "Shows shared movement depending on one body's availability\u2014informal routing as the organization's real map."
+          },
+          {
+            "conceptId": "concept-drift",
+            "roleInWork": "Stages gradual decoupling from stated roles as exceptions accumulate\u2014indispensable becoming infrastructure."
+          }
+        ],
+        "selectedPatternRoles": [
+          {
+            "patternId": "pattern-responsibility-persists-beyond-control",
+            "roleInWork": "Dramatizes answerability that outlasts any real control\u2014the reliable person still owns gaps they cannot refuse."
+          },
+          {
+            "patternId": "pattern-leaders-feel-the-consequences",
+            "roleInWork": "Makes visible how being looked to ties body and schedule to others' outcomes\u2014leadership without title."
+          }
+        ],
+        "readBefore": [
+          "why-collaboration-is-so-hard"
+        ],
+        "readNext": [
+          "coupling",
+          "when-others-look-to-you-v1"
+        ],
+        "relatedWorks": [
+          {
+            "workId": "work-why-collaboration-is-so-hard",
+            "relationship": "fictionalizes",
+            "reason": "Dramatizes diffuse ownership and invisible coordination labor as the cost of always absorbing the gap."
+          },
+          {
+            "workId": "work-coupling",
+            "relationship": "applies",
+            "reason": "Shows how informal routing couples the system to one reliable person."
+          },
+          {
+            "workId": "work-when-others-look-to-you",
+            "relationship": "companion_to",
+            "reason": "Being looked to as the reliable person is leadership influence under pressure."
+          }
+        ]
+      }
+    },
+    {
+      "id": "book-observer-patterns",
+      "slug": "observer-patterns",
+      "title": "Observer Patterns",
+      "summary": "Poems about what happens when attention becomes decisive\u2014when looking, deciding, and following reshape what is possible.",
+      "description": "Poems about what happens when attention becomes decisive\u2014when looking, deciding, and following reshape what is possible.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "poetry",
+      "literaryForm": "poetry_collection",
+      "workId": "work-observer-patterns",
+      "editionId": "book-observer-patterns",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_pdf"
+      ],
+      "concepts": [],
+      "patterns": [],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/open-graph.png",
+      "overview": {
+        "centralQuestion": "What takes shape when looking, deciding, and following become decisive?",
+        "whyItExists": "A poetry book of observer patterns\u2014attention becoming decisive\u2014readable alone or together within the wider corpus, without instructions or argument.",
+        "audience": "Readers who want pattern recognition through poems rather than analytical prose, and anyone tracing attention, observation, and recurrence across the series.",
+        "nonGoals": [
+          "It is not instructions.",
+          "It is not arguments or a prose diagnostic volume."
+        ],
+        "selectedConceptIds": [
+          "concept-attention",
+          "concept-meaning",
+          "concept-judgment",
+          "concept-trust"
+        ],
+        "selectedPatternIds": [
+          "pattern-attention-finds-a-focus",
+          "pattern-attention-finds-a-signal",
+          "pattern-attention-restores-contact"
+        ],
+        "selectedConceptRoles": [
+          {
+            "conceptId": "concept-attention",
+            "roleInWork": "Lyric hinge of the collection: looking that becomes decisive\u2014when noticing alone reshapes what can happen next."
+          },
+          {
+            "conceptId": "concept-meaning",
+            "roleInWork": "What poems stabilize enough to recognize without arguing\u2014pattern held in image rather than thesis."
+          },
+          {
+            "conceptId": "concept-judgment",
+            "roleInWork": "Figures deciding under incomplete sight; the poems stage assessment as stance, not instruction."
+          },
+          {
+            "conceptId": "concept-trust",
+            "roleInWork": "Appears as extending action beyond what one poem's speaker can verify\u2014following and being followed."
+          }
+        ],
+        "selectedPatternRoles": [
+          {
+            "patternId": "pattern-attention-finds-a-focus",
+            "roleInWork": "Recurs as poems where looking settles on one figure and reorganizes the field around that gaze."
+          },
+          {
+            "patternId": "pattern-attention-finds-a-signal",
+            "roleInWork": "Stages first salience\u2014what flashes into notice and then trains the next noticing."
+          },
+          {
+            "patternId": "pattern-attention-restores-contact",
+            "roleInWork": "Returns consequence into the lyric frame where abstraction would thin encounter\u2014attention as contact, not explanation."
+          }
+        ],
+        "readBefore": [
+          "learning-to-see"
+        ],
+        "readNext": [
+          "what-we-cannot-see"
+        ],
+        "relatedWorks": [
+          {
+            "workId": "work-learning-to-see",
+            "relationship": "companion_to",
+            "reason": "Poems of decisive attention companion practices of becoming a better knower."
+          },
+          {
+            "workId": "work-what-we-cannot-see",
+            "relationship": "reframes",
+            "reason": "Observation and participation reframe finite perspective through pattern rather than treatise."
+          }
+        ]
+      }
+    }
+  ],
+  "glossary": [],
+  "patterns": [],
+  "situations": [],
+  "sources": [],
+  "relationships": [],
+  "works": [
+    {
+      "id": "work-before-certainty-arrives",
+      "slug": "before-certainty-arrives",
+      "title": "Before Certainty Arrives",
+      "currentEditionId": "book-before-certainty-arrives",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/before-certainty-arrives",
+      "editionIds": [
+        "book-before-certainty-arrives"
+      ]
+    },
+    {
+      "id": "work-boundary-conditions",
+      "slug": "boundary-conditions",
+      "title": "Boundary Conditions",
+      "currentEditionId": "book-boundary-conditions",
+      "contentType": "fiction",
+      "canonicalRoute": "/explore/books/boundary-conditions",
+      "editionIds": [
+        "book-boundary-conditions"
+      ]
+    },
+    {
+      "id": "work-observer-patterns",
+      "slug": "observer-patterns",
+      "title": "Observer Patterns",
+      "currentEditionId": "book-observer-patterns",
+      "contentType": "poetry",
+      "canonicalRoute": "/explore/books/observer-patterns",
+      "editionIds": [
+        "book-observer-patterns"
+      ]
+    }
+  ],
+  "editions": [
+    {
+      "id": "book-before-certainty-arrives",
+      "bookId": "book-before-certainty-arrives",
+      "workId": "work-before-certainty-arrives",
+      "slug": "before-certainty-arrives",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Before Certainty Arrives"
+    },
+    {
+      "id": "book-boundary-conditions",
+      "bookId": "book-boundary-conditions",
+      "workId": "work-boundary-conditions",
+      "slug": "boundary-conditions",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Boundary Conditions"
+    },
+    {
+      "id": "book-observer-patterns",
+      "bookId": "book-observer-patterns",
+      "workId": "work-observer-patterns",
+      "slug": "observer-patterns",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "Observer Patterns"
+    }
+  ]
+}

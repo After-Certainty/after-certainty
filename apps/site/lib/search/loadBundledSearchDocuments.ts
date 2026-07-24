@@ -1,19 +1,27 @@
 import podcastFallback from "@/data/podcast-episodes.json";
-import fallbackSemantic from "@/data/semantic-manifest.json";
-import { semanticGraphSchema, toSemanticGraph } from "@/lib/graph/schemas";
-import { getSearchAliasConfig } from "@/lib/search/aliases";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
+import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
 import { buildSearchDocuments } from "@/lib/search/buildSearchDocuments";
 import type { SearchDocument } from "@/lib/search/types";
 import type { PodcastEpisode } from "@/types/content";
+import type { SemanticGraph } from "@/types/semanticGraph";
 
-/** Offline corpus for tests and budgets — uses bundled semantic manifest only. */
-export function loadBundledSearchDocuments(): SearchDocument[] {
-  const graph = toSemanticGraph(semanticGraphSchema.parse(fallbackSemantic));
+/**
+ * Search corpus from the installed local manifest (tests / budgets).
+ * Prefer injecting an explicit graph fixture in unit tests.
+ */
+export function loadInstalledSearchDocuments(graph?: SemanticGraph): SearchDocument[] {
+  const resolved = graph ?? loadInstalledSemanticGraphSync();
   const podcastEpisodes = podcastFallback.episodes as PodcastEpisode[];
 
   return buildSearchDocuments({
-    graph,
+    graph: resolved,
     podcastEpisodes,
-    aliasConfig: getSearchAliasConfig(),
+    aliasConfig: getSearchAliasConfigFromGraph(resolved),
   });
+}
+
+/** @deprecated Use {@link loadInstalledSearchDocuments}. */
+export function loadBundledSearchDocuments(): SearchDocument[] {
+  return loadInstalledSearchDocuments();
 }

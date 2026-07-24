@@ -1,7 +1,6 @@
 import pathSearchBridgesJson from "@/data/path-search-bridges.json";
-import fallbackSemantic from "@/data/semantic-manifest.json";
 import { trailsFromGraph } from "@/lib/graph/discovery";
-import { validateSemanticGraph } from "@/lib/graph/validate";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
 import type { ParsedTrailsManifest } from "@/lib/trails/schema";
 import type { TrailDefinition, TrailSearchBridge } from "@/types/trails";
 import type { SemanticGraph } from "@/types/semanticGraph";
@@ -9,14 +8,6 @@ import type { SemanticGraph } from "@/types/semanticGraph";
 type PathSearchBridgesFile = {
   trailBridges?: TrailSearchBridge[];
 };
-
-function bundledTrails(): TrailDefinition[] {
-  const result = validateSemanticGraph(fallbackSemantic as unknown);
-  if (!result.success) {
-    throw new Error("Bundled semantic-manifest.json failed validation for trails");
-  }
-  return trailsFromGraph(result.data);
-}
 
 function siteTrailBridges(): TrailSearchBridge[] {
   const data = pathSearchBridgesJson as PathSearchBridgesFile;
@@ -27,16 +18,16 @@ export function getTrailsFromGraph(graph: SemanticGraph): TrailDefinition[] {
   return trailsFromGraph(graph);
 }
 
-export function getTrailsManifest(): ParsedTrailsManifest {
+export function getTrailsManifest(graph?: SemanticGraph): ParsedTrailsManifest {
   return {
     manifestVersion: 1,
-    trails: bundledTrails(),
+    trails: getAllTrails(graph),
     searchBridges: siteTrailBridges(),
   };
 }
 
 export function getAllTrails(graph?: SemanticGraph): TrailDefinition[] {
-  return graph ? trailsFromGraph(graph) : bundledTrails();
+  return trailsFromGraph(graph ?? loadInstalledSemanticGraphSync());
 }
 
 export function getPublishedTrails(graph?: SemanticGraph): TrailDefinition[] {
@@ -79,12 +70,12 @@ export function groupTrailsByTheme(
     .map(([theme, grouped]) => ({ theme, trails: grouped }));
 }
 
-export function getTrailSitemapSlugs(graph?: SemanticGraph): string[] {
-  return getPublishedTrails(graph).map((t) => t.slug);
-}
-
 export function getTrailSearchBridges() {
   return siteTrailBridges();
+}
+
+export function getTrailSitemapSlugs(graph?: SemanticGraph): string[] {
+  return getPublishedTrails(graph).map((t) => t.slug);
 }
 
 export function slugifyTheme(theme: string): string {

@@ -1,6 +1,5 @@
 import { describe, expect, it } from "vitest";
 
-import semanticManifest from "@/data/semantic-manifest.json";
 import {
   buildEditionGroups,
   buildResolvedEditionIndex,
@@ -8,10 +7,12 @@ import {
   resolveWorkEdition,
 } from "@/lib/books/resolve-work-edition";
 import { parsePublicationRegistry } from "@/lib/books/publication-registry-schema";
+import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
+import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
 import type { Book } from "@/types/semanticGraph";
-import type { SemanticGraph } from "@/types/semanticGraph";
 
-const graph = semanticManifest as unknown as SemanticGraph;
+const graph = loadManifestFixture("editions");
+const registry = publicationRegistryFromGraph(graph);
 
 function book(over: Partial<Book> & Pick<Book, "id" | "slug">): Book {
   return {
@@ -21,8 +22,8 @@ function book(over: Partial<Book> & Pick<Book, "id" | "slug">): Book {
 }
 
 describe("resolve-work-edition", () => {
-  it("uses the publication registry for the bundled corpus", () => {
-    const index = buildResolvedEditionIndex(graph.books);
+  it("uses the publication registry for the editions fixture", () => {
+    const index = buildResolvedEditionIndex(graph.books, registry);
     expect(index.size).toBe(graph.books.length);
 
     const v1 = index.get("when-others-look-to-you-v1");
@@ -42,6 +43,7 @@ describe("resolve-work-edition", () => {
     const after = resolveWorkEdition(
       graph.books.find((b) => b.slug === "after-certainty")!,
       graph.books,
+      registry,
     );
     expect(after.isCanonical).toBe(true);
     expect(after.relationship).toBe("sole");
@@ -80,7 +82,7 @@ describe("resolve-work-edition", () => {
   });
 
   it("never marks registry companions as superseded via groups", () => {
-    const groups = buildEditionGroups(graph.books);
+    const groups = buildEditionGroups(graph.books, registry);
     expect(groups.get("when-others-look-to-you-v2")?.canonicalSlug).toBe(
       "when-others-look-to-you-v1",
     );

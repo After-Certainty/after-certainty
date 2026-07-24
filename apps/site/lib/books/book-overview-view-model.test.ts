@@ -1,38 +1,49 @@
 import { describe, expect, it } from "vitest";
 
-import semanticManifest from "@/data/semantic-manifest.json";
 import { buildBookOverviewViewModel } from "@/lib/books/book-overview-view-model";
-import type { SemanticGraph } from "@/types/semanticGraph";
+import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
-const graph = semanticManifest as unknown as SemanticGraph;
+const enriched = loadManifestFixture("enriched-book");
+const localGraph = tryLoadLocalSemanticManifest();
 
 describe("book overview view model", () => {
   it("returns null when no overlay exists", () => {
-    const book = graph.books.find((b) => b.slug === "after-certainty")!;
+    const book = enriched.books.find((b) => b.slug === "after-certainty")!;
     const withoutOverview = { ...book, overview: undefined };
-    expect(buildBookOverviewViewModel(withoutOverview, graph)).toBeNull();
+    expect(buildBookOverviewViewModel(withoutOverview, enriched)).toBeNull();
   });
 
   it("joins curated concepts with work-specific roles and chapter structure", () => {
-    const book = graph.books.find((b) => b.slug === "after-certainty")!;
-    const vm = buildBookOverviewViewModel(book, graph);
+    const book = enriched.books.find((b) => b.slug === "after-certainty")!;
+    const vm = buildBookOverviewViewModel(book, enriched);
     expect(vm).not.toBeNull();
     expect(vm!.overview.centralQuestion.length).toBeGreaterThan(10);
-    expect(vm!.selectedConcepts.length).toBeGreaterThanOrEqual(3);
-    expect(vm!.selectedConcepts.some((c) => Boolean(c.roleInWork))).toBe(true);
+    expect(vm!.selectedConcepts.length).toBeGreaterThanOrEqual(1);
     expect(vm!.selectedPatterns.length).toBeGreaterThanOrEqual(1);
-    expect(vm!.selectedPatterns.some((p) => Boolean(p.roleInWork))).toBe(true);
-    expect(vm!.readBefore.map((b) => b.slug)).toContain("curiosity-before-certainty");
     expect(vm!.edition.isCanonical).toBe(true);
     expect(vm!.structure).not.toBeNull();
-    expect(vm!.structure!.chapters.length).toBeGreaterThan(5);
+    expect(vm!.structure!.chapters.length).toBeGreaterThan(0);
     expect(vm!.structure!.hasAuthoredSummaries).toBe(true);
+  });
+});
+
+describe.skipIf(!localGraph)("book overview view model (local manifest)", () => {
+  it("joins curated concepts with work-specific roles for After Certainty", () => {
+    const book = localGraph!.books.find((b) => b.slug === "after-certainty")!;
+    const vm = buildBookOverviewViewModel(book, localGraph!);
+    expect(vm).not.toBeNull();
+    expect(vm!.selectedConcepts.length).toBeGreaterThanOrEqual(3);
+    expect(vm!.selectedConcepts.some((c) => Boolean(c.roleInWork))).toBe(true);
+    expect(vm!.selectedPatterns.some((p) => Boolean(p.roleInWork))).toBe(true);
+    expect(vm!.readBefore.map((b) => b.slug)).toContain("curiosity-before-certainty");
+    expect(vm!.structure!.chapters.length).toBeGreaterThan(5);
   });
 
   it("builds an overview for Observer Patterns poetry collection with poem kinds", () => {
-    const book = graph.books.find((b) => b.slug === "observer-patterns")!;
+    const book = localGraph!.books.find((b) => b.slug === "observer-patterns")!;
     expect(book.contentType).toBe("poetry");
-    const vm = buildBookOverviewViewModel(book, graph);
+    const vm = buildBookOverviewViewModel(book, localGraph!);
     expect(vm).not.toBeNull();
     expect(vm!.overview.centralQuestion.length).toBeGreaterThan(10);
     expect(vm!.structure).not.toBeNull();
@@ -40,9 +51,9 @@ describe("book overview view model", () => {
   });
 
   it("builds fiction chapter maps without requiring authored summaries", () => {
-    const book = graph.books.find((b) => b.slug === "the-relay")!;
+    const book = localGraph!.books.find((b) => b.slug === "the-relay")!;
     expect(book.contentType).toBe("fiction");
-    const vm = buildBookOverviewViewModel(book, graph);
+    const vm = buildBookOverviewViewModel(book, localGraph!);
     expect(vm).not.toBeNull();
     expect(vm!.structure).not.toBeNull();
     expect(vm!.structure!.chapters.length).toBeGreaterThan(5);

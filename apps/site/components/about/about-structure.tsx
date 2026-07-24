@@ -43,7 +43,7 @@ const items = [
   {
     title: "Publishing Infrastructure",
     description:
-      "Repositories, metadata, and pipelines that keep the commons legible, revisable, and publicly accessible.",
+      "The repository, metadata, and pipelines that keep the commons legible, revisable, and publicly accessible.",
     icon: <IconInfrastructure className="h-5 w-5" />,
   },
 ] as const;

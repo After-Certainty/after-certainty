@@ -1,6 +1,5 @@
-import fallbackSemantic from "@/data/semantic-manifest.json";
 import { changeEventsToWhatsNewEvents } from "@/lib/graph/discovery";
-import { validateSemanticGraph } from "@/lib/graph/validate";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
 import { buildPodcastWhatsNewCandidates } from "@/lib/whats-new/candidates";
 import { getSiteWhatsNewManifest } from "@/lib/whats-new/loadWhatsNew";
 import type { WhatsNewEvent } from "@/lib/whats-new/schema";
@@ -16,10 +15,12 @@ export type BuildPublicWhatsNewEventsInput = {
   includePublishedCandidates?: boolean;
 };
 
-function bundledChangeEvents(): ChangeEvent[] {
-  const result = validateSemanticGraph(fallbackSemantic as unknown);
-  if (!result.success) return [];
-  return result.data.changeEvents ?? [];
+function installedChangeEvents(): ChangeEvent[] {
+  try {
+    return loadInstalledSemanticGraphSync().changeEvents ?? [];
+  } catch {
+    return [];
+  }
 }
 
 /**
@@ -30,7 +31,9 @@ export function buildPublicWhatsNewEvents(
   input: BuildPublicWhatsNewEventsInput = {},
 ): WhatsNewEvent[] {
   const site = getSiteWhatsNewManifest();
-  const corpusEvents = changeEventsToWhatsNewEvents(input.changeEvents ?? bundledChangeEvents());
+  const corpusEvents = changeEventsToWhatsNewEvents(
+    input.changeEvents ?? installedChangeEvents(),
+  );
   const authored = input.authored ?? [...corpusEvents, ...site.events];
   const candidates = input.podcastEpisodes
     ? buildPodcastWhatsNewCandidates(input.podcastEpisodes, authored)

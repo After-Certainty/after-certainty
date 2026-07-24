@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "2.3",
+  "manifestVersion": 2,
+  "generatedAt": "2026-07-01T00:00:00.000000+00:00",
+  "sourceCommit": "fixture-test-commit",
+  "repository": "ksteffe/after-certainty",
+  "ref": "refs/heads/main",
+  "ontology": {
+    "masterTerms": [
+      {
+        "id": "concept-circulation",
+        "slug": "circulation",
+        "title": "Circulation",
+        "preserves": "continuity"
+      },
+      {
+        "id": "concept-correction",
+        "slug": "correction",
+        "title": "Correction",
+        "preserves": "reality-contact"
+      },
+      {
+        "id": "concept-certainty",
+        "slug": "certainty",
+        "title": "Certainty",
+        "preserves": "coordination stability"
+      },
+      {
+        "id": "concept-judgment",
+        "slug": "judgment",
+        "title": "Judgment",
+        "preserves": "non-automatic evaluation"
+      },
+      {
+        "id": "concept-coupling",
+        "slug": "coupling",
+        "title": "Coupling",
+        "preserves": "exposure to consequence"
+      },
+      {
+        "id": "concept-corrigibility",
+        "slug": "corrigibility",
+        "title": "Corrigibility",
+        "preserves": "adaptive recoverability"
+      }
+    ],
+    "structuralPressures": [
+      {
+        "id": "concept-scale",
+        "slug": "scale",
+        "title": "Scale",
+        "effect": "weakens proximity"
+      },
+      {
+        "id": "concept-acceleration",
+        "slug": "acceleration",
+        "title": "Acceleration",
+        "effect": "outruns reflection"
+      },
+      {
+        "id": "concept-abstraction",
+        "slug": "abstraction",
+        "title": "Abstraction",
+        "effect": "obscures consequence"
+      },
+      {
+        "id": "concept-asymmetry",
+        "slug": "asymmetry",
+        "title": "Asymmetry",
+        "effect": "weakens reciprocity"
+      },
+      {
+        "id": "concept-mediation",
+        "slug": "mediation",
+        "title": "Mediation",
+        "effect": "distorts interpretation"
+      },
+      {
+        "id": "concept-compression",
+        "slug": "compression",
+        "title": "Compression",
+        "effect": "reduces nuance"
+      },
+      {
+        "id": "concept-inheritance",
+        "slug": "inheritance",
+        "title": "Inheritance",
+        "effect": "preserves drift"
+      },
+      {
+        "id": "concept-normalization",
+        "slug": "normalization",
+        "title": "Normalization",
+        "effect": "hardens adaptation"
+      }
+    ]
+  },
+  "books": [
+    {
+      "id": "bad"
+    }
+  ],
+  "glossary": [],
+  "patterns": [],
+  "situations": [],
+  "sources": [],
+  "relationships": []
+}

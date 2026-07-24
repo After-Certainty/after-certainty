@@ -1,20 +1,23 @@
 import { describe, expect, it } from "vitest";
 
-import { getSearchAliasConfig } from "@/lib/search/aliases";
+import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
 import {
   measureSearchIndexPayload,
   SEARCH_INDEX_GZIP_ALERT_BYTES,
   SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES,
 } from "@/lib/search/budget";
 import { buildSearchIndexPayload } from "@/lib/search/indexPayload";
-import { loadBundledSearchDocuments } from "@/lib/search/loadBundledSearchDocuments";
+import { loadInstalledSearchDocuments } from "@/lib/search/loadBundledSearchDocuments";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
-describe("search index budget", () => {
-  it("keeps the bundled corpus under the gzip alert threshold", () => {
-    const documents = loadBundledSearchDocuments();
+const graph = tryLoadLocalSemanticManifest();
+
+describe.skipIf(!graph)("search index budget (local manifest)", () => {
+  it("keeps the installed local corpus under the gzip alert threshold", () => {
+    const documents = loadInstalledSearchDocuments(graph!);
     const payload = buildSearchIndexPayload(
       documents,
-      getSearchAliasConfig(),
+      getSearchAliasConfigFromGraph(graph!),
       "2026-07-19T00:00:00.000Z",
     );
     const size = measureSearchIndexPayload(payload);

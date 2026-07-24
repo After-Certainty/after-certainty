@@ -7,7 +7,7 @@ import {
   loadOfflineManifestJson,
   LOCAL_SEMANTIC_MANIFEST_RELATIVE,
 } from "@/lib/graph/offline-manifest";
-import fallback from "@/data/semantic-manifest.json";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
 describe("loadOfflineManifestJson", () => {
   const envKeys = ["SEMANTIC_MANIFEST_USE_LOCAL"] as const;
@@ -32,14 +32,14 @@ describe("loadOfflineManifestJson", () => {
     }
   }
 
-  it("returns the committed bundled fallback when USE_LOCAL is unset", () => {
+  it("throws when local file is missing", () => {
     captureEnv();
-    delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
-    const data = loadOfflineManifestJson();
-    expect(data).toBe(fallback);
+    process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
+    tempRoot = mkdtempSync(join(tmpdir(), "offline-manifest-missing-"));
+    expect(() => loadOfflineManifestJson(tempRoot)).toThrow(/local-semantic-manifest\.json/);
   });
 
-  it("loads local-semantic-manifest.json when USE_LOCAL=1", () => {
+  it("loads local-semantic-manifest.json when present", () => {
     captureEnv();
     process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
     tempRoot = mkdtempSync(join(tmpdir(), "offline-manifest-"));
@@ -57,10 +57,14 @@ describe("loadOfflineManifestJson", () => {
     expect(loadOfflineManifestJson(tempRoot)).toEqual(local);
   });
 
-  it("throws when USE_LOCAL=1 and local file is missing", () => {
-    captureEnv();
-    process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
-    tempRoot = mkdtempSync(join(tmpdir(), "offline-manifest-missing-"));
-    expect(() => loadOfflineManifestJson(tempRoot)).toThrow(/local-semantic-manifest\.json/);
-  });
+  it.skipIf(!tryLoadLocalSemanticManifest())(
+    "loads the installed checkout local manifest from process.cwd()",
+    () => {
+      captureEnv();
+      process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
+      const data = loadOfflineManifestJson();
+      expect(data).toBeTruthy();
+      expect(typeof data).toBe("object");
+    },
+  );
 });

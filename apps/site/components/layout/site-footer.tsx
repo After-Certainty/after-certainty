@@ -139,8 +139,8 @@ export async function SiteFooter() {
           </div>
         </div>
         <p className="mt-12 text-xs text-muted">
-          Built as an open commons — books ship from sibling repositories; this site aggregates
-          manifests and surfaces collaboration entry points.
+          After Certainty is an open corpus of books, concepts, patterns, questions, and reading
+          paths. This site is built directly from that shared corpus.
           {manifestDate && (
             <span className="mt-2 block text-[11px] text-muted/70">
               Semantic data: {manifestDate}

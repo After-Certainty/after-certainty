@@ -1,43 +1,43 @@
-import fallbackSemantic from "@/data/semantic-manifest.json";
 import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
-import { validateSemanticGraph } from "@/lib/graph/validate";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
 import type {
   PublicationEdition,
   PublicationRegistry,
 } from "@/lib/books/publication-registry-schema";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
-function bundledRegistry(): PublicationRegistry {
-  const result = validateSemanticGraph(fallbackSemantic as unknown);
-  if (!result.success) {
-    throw new Error("Bundled semantic-manifest.json failed validation for publication registry");
-  }
-  return publicationRegistryFromGraph(result.data);
-}
-
 /** Live graph → publication registry overlay shape. */
 export function getPublicationRegistryFromGraph(graph: SemanticGraph): PublicationRegistry {
   return publicationRegistryFromGraph(graph);
 }
 
-/** Sync accessor for tests — uses the bundled manifest editions. */
-export function getPublicationRegistry(): PublicationRegistry {
-  return bundledRegistry();
+/** Sync accessor — uses the installed local manifest when no graph is passed. */
+export function getPublicationRegistry(graph?: SemanticGraph): PublicationRegistry {
+  return publicationRegistryFromGraph(graph ?? loadInstalledSemanticGraphSync());
 }
 
-export function getPublicationEditionByBookId(bookId: string): PublicationEdition | undefined {
-  return getPublicationRegistry().editions.find((e) => e.bookId === bookId);
+export function getPublicationEditionByBookId(
+  bookId: string,
+  graph?: SemanticGraph,
+): PublicationEdition | undefined {
+  return getPublicationRegistry(graph).editions.find((e) => e.bookId === bookId);
 }
 
-export function getPublicationEditionBySlug(slug: string): PublicationEdition | undefined {
-  return getPublicationRegistry().editions.find((e) => e.slug === slug);
+export function getPublicationEditionBySlug(
+  slug: string,
+  graph?: SemanticGraph,
+): PublicationEdition | undefined {
+  return getPublicationRegistry(graph).editions.find((e) => e.slug === slug);
 }
 
-export function getPublicationEditionsForWork(workId: string): PublicationEdition[] {
-  return getPublicationRegistry().editions.filter((e) => e.workId === workId);
+export function getPublicationEditionsForWork(
+  workId: string,
+  graph?: SemanticGraph,
+): PublicationEdition[] {
+  return getPublicationRegistry(graph).editions.filter((e) => e.workId === workId);
 }
 
 /** Test helper — no-op (registry is derived). */
 export function resetPublicationRegistryCacheForTests(): void {
-  // Derived from bundled graph; nothing to clear.
+  // Derived from installed graph; nothing to clear.
 }
