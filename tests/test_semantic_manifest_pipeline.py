@@ -2,32 +2,13 @@
 
 from __future__ import annotations
 
-import json
 import subprocess
 import sys
 from pathlib import Path
 
 
-def test_generate_semantic_manifest_cli(repo_root: Path, tmp_path: Path) -> None:
-    out = tmp_path / "semantic-manifest.json"
-    cmd = [
-        sys.executable,
-        str(repo_root / "tools/generate_semantic_manifest.py"),
-        "--repo",
-        str(repo_root),
-        "--out",
-        str(out),
-        "--github-repository",
-        "test-owner/test-repo",
-        "--github-ref",
-        "main",
-        "--release-tag",
-        "latest",
-        "--no-warn-term-kind",
-    ]
-    r = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    assert r.returncode == 0, f"stderr:\n{r.stderr}\nstdout:\n{r.stdout}"
-    data = json.loads(out.read_text(encoding="utf-8"))
+def test_generate_semantic_manifest_cli(repo_root: Path, semantic_manifest: dict) -> None:
+    data = semantic_manifest
     version = data.get("manifestVersion")
     assert version in (1, 2)
     if (repo_root / "semantic" / "thinkers").is_dir() and any(
@@ -47,25 +28,7 @@ def test_generate_semantic_manifest_cli(repo_root: Path, tmp_path: Path) -> None
     assert isinstance(data.get("ontology"), dict)
 
 
-def test_validate_semantic_manifest_cli(repo_root: Path, tmp_path: Path) -> None:
-    out = tmp_path / "semantic-manifest.json"
-    gen = subprocess.run(
-        [
-            sys.executable,
-            str(repo_root / "tools/generate_semantic_manifest.py"),
-            "--repo",
-            str(repo_root),
-            "--out",
-            str(out),
-            "--github-repository",
-            "o/r",
-            "--no-warn-term-kind",
-        ],
-        capture_output=True,
-        text=True,
-        timeout=180,
-    )
-    assert gen.returncode == 0, gen.stderr
+def test_validate_semantic_manifest_cli(repo_root: Path, semantic_manifest_path: Path) -> None:
     val = subprocess.run(
         [
             sys.executable,
@@ -73,7 +36,7 @@ def test_validate_semantic_manifest_cli(repo_root: Path, tmp_path: Path) -> None
             "--repo",
             str(repo_root),
             "--manifest",
-            str(out),
+            str(semantic_manifest_path),
         ],
         capture_output=True,
         text=True,
@@ -104,29 +67,8 @@ def test_import_build_glossary_and_patterns(repo_root: Path) -> None:
     assert len(sources) >= 1
 
 
-def test_semantic_manifest_includes_wolty_media(repo_root: Path, tmp_path: Path) -> None:
-    out = tmp_path / "semantic-manifest.json"
-    gen = subprocess.run(
-        [
-            sys.executable,
-            str(repo_root / "tools/generate_semantic_manifest.py"),
-            "--repo",
-            str(repo_root),
-            "--out",
-            str(out),
-            "--github-repository",
-            "ksteffe/after-certainty",
-            "--github-ref",
-            "main",
-            "--no-warn-term-kind",
-        ],
-        capture_output=True,
-        text=True,
-        timeout=180,
-    )
-    assert gen.returncode == 0, gen.stderr
-    data = json.loads(out.read_text(encoding="utf-8"))
-
+def test_semantic_manifest_includes_wolty_media(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     wolty = next(b for b in data["books"] if b["slug"] == "when-others-look-to-you-v1")
     assert wolty["media"]["intro"]["youtubeVideoId"] == "ma1UbSajuVI"
     assert "youtube.com/playlist" in wolty["media"]["patterns"]["youtubePlaylistUrl"]
@@ -153,7 +95,9 @@ def test_semantic_manifest_includes_wolty_media(repo_root: Path, tmp_path: Path)
     assert disagreement["mediumArticleUrl"].startswith("https://medium.com/")
 
 
-def test_semantic_manifest_glossary_matches_yaml_sources(repo_root: Path, tmp_path: Path) -> None:
+def test_semantic_manifest_glossary_matches_yaml_sources(
+    repo_root: Path, semantic_manifest: dict
+) -> None:
     """Regression test: verify manifest glossary entries match source YAML files.
 
     This prevents the staleness bug where generated manifests get overwritten
@@ -161,30 +105,7 @@ def test_semantic_manifest_glossary_matches_yaml_sources(repo_root: Path, tmp_pa
     """
     import yaml
 
-    out = tmp_path / "semantic-manifest.json"
-    gen = subprocess.run(
-        [
-            sys.executable,
-            str(repo_root / "tools/generate_semantic_manifest.py"),
-            "--repo",
-            str(repo_root),
-            "--out",
-            str(out),
-            "--github-repository",
-            "ksteffe/after-certainty",
-            "--github-ref",
-            "main",
-            "--release-tag",
-            "latest",
-            "--no-warn-term-kind",
-        ],
-        capture_output=True,
-        text=True,
-        timeout=180,
-    )
-    assert gen.returncode == 0, gen.stderr
-
-    data = json.loads(out.read_text(encoding="utf-8"))
+    data = semantic_manifest
     glossary_by_slug = {entry["slug"]: entry for entry in data["glossary"]}
 
     # Check critical glossary entries that previously showed staleness

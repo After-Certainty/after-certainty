@@ -51,25 +51,8 @@ def test_upcoming_rows_omitted_when_books_slug_exists(repo_root: Path, tmp_path:
     _assert_single_published_row(data)
 
 
-def test_semantic_manifest_omits_upcoming_duplicates(repo_root: Path, tmp_path: Path) -> None:
-    out = tmp_path / "semantic-manifest.json"
-    gen = subprocess.run(
-        [
-            sys.executable,
-            str(repo_root / "tools/generate_semantic_manifest.py"),
-            "--repo",
-            str(repo_root),
-            "--out",
-            str(out),
-            "--github-repository",
-            "ksteffe/after-certainty",
-        ],
-        capture_output=True,
-        text=True,
-        timeout=180,
-    )
-    assert gen.returncode == 0, gen.stderr
-    data = json.loads(out.read_text(encoding="utf-8"))
+def test_semantic_manifest_omits_upcoming_duplicates(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     _assert_single_published_row(data)
     for slug in PROMOTED:
         row = next(b for b in data["books"] if b["slug"] == slug)

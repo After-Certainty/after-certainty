@@ -1,6 +1,6 @@
 # Monorepo Phase 8 — Optimize DX / Turbo / affected detection
 
-**Status:** This PR  
+**Status:** Complete (merged).  
 **Plan:** [`docs/roadmaps/monorepo-migration-plan.md`](../../roadmaps/monorepo-migration-plan.md) §24 Phase 8  
 **Predecessor:** [`../monorepo-phase-7/`](../monorepo-phase-7/)
 
@@ -78,4 +78,10 @@ GITHUB_REPOSITORY=ksteffe/after-certainty npm run site:build:local
 
 ## Next
 
-Migration complete for planned phases 0–8. Optional follow-ups: remote Turbo cache tokens in GitHub Actions, delete committed fallback fixture once tests use local install only.
+Migration phases **0–8 are complete**. Optional follow-ups (not blocking):
+
+- Enable Turbo remote cache tokens in GitHub Actions if desired
+- Delete committed `apps/site/data/semantic-manifest.json` once tests use local install only
+- Remote Turbo cache / watch polish beyond what Phase 8 shipped
+
+See also the phase notes under [`docs/migrations/`](../).

@@ -9,46 +9,10 @@ test_discovery_manifest.py and must stay green before Phase 1+.
 from __future__ import annotations
 
 import json
-import subprocess
-import sys
 from pathlib import Path
-
-import pytest
 
 REPO = Path(__file__).resolve().parents[1]
 BASELINES = REPO / "docs" / "migrations" / "monorepo-phase-0" / "baselines"
-
-
-def _generate(tmp_path: Path) -> dict:
-    out = tmp_path / "semantic-manifest.json"
-    r = subprocess.run(
-        [
-            sys.executable,
-            str(REPO / "tools" / "generate_semantic_manifest.py"),
-            "--repo",
-            str(REPO),
-            "--out",
-            str(out),
-            "--github-repository",
-            "ksteffe/after-certainty",
-            "--github-ref",
-            "main",
-            "--release-tag",
-            "latest",
-            "--no-warn-term-kind",
-        ],
-        capture_output=True,
-        text=True,
-        timeout=180,
-        cwd=REPO,
-    )
-    assert r.returncode == 0, r.stderr or r.stdout
-    return json.loads(out.read_text(encoding="utf-8"))
-
-
-@pytest.fixture(scope="module")
-def manifest(tmp_path_factory: pytest.TempPathFactory) -> dict:
-    return _generate(tmp_path_factory.mktemp("phase0-manifest"))
 
 
 def test_phase0_baseline_files_exist() -> None:
@@ -64,7 +28,8 @@ def test_phase0_baseline_files_exist() -> None:
         assert isinstance(data, dict) and data
 
 
-def test_phase0_schema_and_core_collections(manifest: dict) -> None:
+def test_phase0_schema_and_core_collections(semantic_manifest: dict) -> None:
+    manifest = semantic_manifest
     assert manifest["schemaVersion"] == "2.3"
     assert manifest["manifestVersion"] == 2
     assert manifest.get("sourceCommit")
@@ -90,7 +55,8 @@ def test_phase0_schema_and_core_collections(manifest: dict) -> None:
         assert len(manifest[key]) >= 1, key
 
 
-def test_phase0_representative_content_types(manifest: dict) -> None:
+def test_phase0_representative_content_types(semantic_manifest: dict) -> None:
+    manifest = semantic_manifest
     by_slug = {b["slug"]: b for b in manifest["books"]}
     assert by_slug["after-certainty"].get("contentType", "nonfiction") == "nonfiction"
     assert by_slug["boundary-conditions"]["contentType"] == "fiction"
@@ -98,7 +64,8 @@ def test_phase0_representative_content_types(manifest: dict) -> None:
     assert by_slug["before-certainty-arrives"].get("contentType", "nonfiction") == "nonfiction"
 
 
-def test_phase0_companion_and_superseded_edition_shape(manifest: dict) -> None:
+def test_phase0_companion_and_superseded_edition_shape(semantic_manifest: dict) -> None:
+    manifest = semantic_manifest
     editions = {e["id"]: e for e in manifest["editions"]}
     assert editions["book-when-others-look-to-you-v1"]["isCanonical"] is True
     assert editions["book-when-others-look-to-you-v2"]["relationship"] == "companion"
@@ -108,7 +75,8 @@ def test_phase0_companion_and_superseded_edition_shape(manifest: dict) -> None:
     )
 
 
-def test_phase0_discovery_representatives(manifest: dict) -> None:
+def test_phase0_discovery_representatives(semantic_manifest: dict) -> None:
+    manifest = semantic_manifest
     # Questions/trails use id fields matching YAML stems in this corpus.
     question_ids = {q.get("id") or q.get("slug") for q in manifest["questions"]}
     assert "trust-survives-disagreement" in question_ids
@@ -123,7 +91,8 @@ def test_phase0_discovery_representatives(manifest: dict) -> None:
     assert any(a.get("terms") or a.get("alias") for a in manifest["searchAliases"])
 
 
-def test_phase0_chapters_and_roles(manifest: dict) -> None:
+def test_phase0_chapters_and_roles(semantic_manifest: dict) -> None:
+    manifest = semantic_manifest
     assert len(manifest["chapters"]) >= 1
     assert len(manifest["parts"]) >= 1
     # At least one chapter carries authored enrichment useful to the site.
@@ -144,8 +113,9 @@ def test_phase0_chapters_and_roles(manifest: dict) -> None:
     assert books_with_roles, "expected overview concept/pattern selection on at least one book"
 
 
-def test_phase0_smoke_route_entities_exist_in_manifest(manifest: dict) -> None:
+def test_phase0_smoke_route_entities_exist_in_manifest(semantic_manifest: dict) -> None:
     """Entity slugs used by production smoke URLs must remain in the public manifest."""
+    manifest = semantic_manifest
     smoke = json.loads((BASELINES / "production-smoke-urls.json").read_text(encoding="utf-8"))
     paths = [u["path"] for u in smoke["urls"]]
 
@@ -197,7 +167,8 @@ def test_phase0_smoke_route_entities_exist_in_manifest(manifest: dict) -> None:
         assert slug in universe, f"smoke slug missing from manifest: {_kind} {slug}"
 
 
-def test_phase0_release_baseline_schema_matches_generator(manifest: dict) -> None:
+def test_phase0_release_baseline_schema_matches_generator(semantic_manifest: dict) -> None:
+    manifest = semantic_manifest
     release = json.loads((BASELINES / "release-manifest-identity.json").read_text(encoding="utf-8"))
     assert release["schemaVersion"] == manifest["schemaVersion"] == "2.3"
     # Counts may grow; generator must not shrink below the frozen release floor without
