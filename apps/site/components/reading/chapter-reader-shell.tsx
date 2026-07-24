@@ -20,7 +20,7 @@ export type ChapterReaderShellProps = {
 };
 
 /**
- * SSR chapter reading chrome (READ-002 + READ-004).
+ * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y).
  * Overview TOC links stay off until READ-006.
  */
 export function ChapterReaderShell({
@@ -46,7 +46,14 @@ export function ChapterReaderShell({
   ];
 
   return (
-    <article className="mx-auto max-w-3xl px-4 py-12 md:py-16">
+    <article
+      aria-labelledby="chapter-title"
+      className="relative mx-auto max-w-3xl px-4 py-12 md:py-16"
+    >
+      <a href="#chapter-content" className="reader-skip-link">
+        Skip to chapter text
+      </a>
+
       <BreadcrumbTrail items={breadcrumbs} />
 
       <header className="mb-8 space-y-4 border-b border-border/40 pb-8">
@@ -64,7 +71,12 @@ export function ChapterReaderShell({
           ) : null}
         </p>
 
-        <h1 className="font-display text-3xl leading-tight text-fg md:text-4xl">{chapter.title}</h1>
+        <h1
+          id="chapter-title"
+          className="font-display text-3xl leading-tight text-fg md:text-4xl"
+        >
+          {chapter.title}
+        </h1>
 
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
           {kindLabel ? <span>{kindLabel}</span> : null}
@@ -89,7 +101,11 @@ export function ChapterReaderShell({
 
       {navigation ? <ChapterToc navigation={navigation} /> : null}
 
-      <div className="chapter-body prose-reading min-h-[12rem]">
+      <div
+        id="chapter-content"
+        tabIndex={-1}
+        className="chapter-body prose-reading min-h-[12rem] scroll-mt-24 outline-none"
+      >
         {children ?? (
           <div
             role="status"

@@ -66,6 +66,15 @@ A claim with a note.[^n1]
     expect(html).toContain("Citation body");
     expect(html).not.toContain("<script>");
     expect(html).not.toContain("alert(1)");
+    // Sanitize must not double-prefix GFM footnote ids (breaks href/id pairs).
+    expect(html).not.toMatch(/user-content-user-content-/);
+
+    const hrefTargets = [...html.matchAll(/\shref="#([^"]+)"/g)].map((m) => m[1]);
+    const ids = new Set([...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]));
+    expect(hrefTargets.length).toBeGreaterThanOrEqual(2);
+    for (const target of hrefTargets) {
+      expect(ids.has(target), `missing id for href="#${target}"`).toBe(true);
+    }
   });
 });
 

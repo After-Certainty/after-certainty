@@ -11,9 +11,17 @@ import {
   rewriteManuscriptAssetUrls,
 } from "@/lib/reading/preprocess-manuscript";
 
-/** Allow heading ids from rehype-slug and common image attrs after sanitize. */
+/**
+ * Allow heading ids from rehype-slug and common image attrs after sanitize.
+ *
+ * GFM footnotes already mint `user-content-*` ids and matching hrefs. The
+ * sanitize default `clobberPrefix: "user-content-"` would re-prefix only the
+ * `id` attributes, breaking ref ↔ note pairing. Empty prefix keeps pairs intact
+ * for trusted corpus markdown (still XSS-filtered by the schema).
+ */
 const manuscriptSanitizeSchema = {
   ...defaultSchema,
+  clobberPrefix: "",
   attributes: {
     ...defaultSchema.attributes,
     img: [

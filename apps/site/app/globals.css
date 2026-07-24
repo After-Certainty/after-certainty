@@ -26,6 +26,12 @@
     scroll-behavior: smooth;
   }
 
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
   body {
     background-color: transparent;
     color: var(--fg);
@@ -77,8 +83,36 @@
   }
 }
 
-/* Native Reader manuscript body (READ-003) */
+/* Native Reader manuscript body (READ-003) + a11y baseline (READ-008) */
 @layer components {
+  .reader-skip-link {
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    z-index: 20;
+    transform: translateY(-200%);
+    border-radius: 0.125rem;
+    background: var(--accent);
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--bg);
+    text-decoration: none;
+  }
+
+  .reader-skip-link:focus,
+  .reader-skip-link:focus-visible {
+    transform: translateY(0);
+    outline: 2px solid var(--fg);
+    outline-offset: 2px;
+  }
+
+  /* Rem-based type so browser zoom scales cleanly. */
+  .prose-reading {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+
   .chapter-manuscript {
     line-height: 1.75;
   }
@@ -99,15 +133,19 @@
     margin: 0.75rem 0;
   }
 
+  /* Underline always on — footnotes must not rely on accent color alone. */
   .chapter-manuscript a[data-footnote-ref],
   .chapter-manuscript a[data-footnote-backref] {
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
     color: var(--accent);
   }
 
   .chapter-manuscript a[data-footnote-ref]:hover,
-  .chapter-manuscript a[data-footnote-backref]:hover {
-    text-decoration: underline;
+  .chapter-manuscript a[data-footnote-backref]:hover,
+  .chapter-manuscript a[data-footnote-ref]:focus-visible,
+  .chapter-manuscript a[data-footnote-backref]:focus-visible {
+    text-decoration-thickness: 2px;
   }
 
   .chapter-manuscript img {
