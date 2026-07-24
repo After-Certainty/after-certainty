@@ -3,26 +3,28 @@ import Link from "next/link";
 import type { Book } from "@/types/semanticGraph";
 import { ExploreCard } from "@/components/explore/explore-card";
 import { explorePaths } from "@/lib/graph/explorePaths";
+import { resolveBookCover } from "@/lib/books/resolve-book-cover";
 
 type BookCardProps = {
   book: Book;
-  /** When set (e.g. from site catalog), shows the cover; otherwise uses `book.coverImage` from the manifest if present. */
+  /** When set, overrides resolver (tests / rare callers). */
   coverImage?: string | null;
 };
 
 export function BookCard({ book, coverImage: coverImageProp }: BookCardProps) {
-  const coverSrc = coverImageProp ?? book.coverImage;
+  const resolved = resolveBookCover(book, "card");
+  const coverSrc = coverImageProp ?? resolved?.src;
 
   return (
     <ExploreCard className="overflow-hidden p-0">
       <Link href={`${explorePaths.books}/${book.slug}`} className="group block">
-        <div className="relative aspect-[2/3] w-full overflow-hidden border-b border-border/40 bg-bg-elevated/40">
+        <div className="relative aspect-[2/3] w-full overflow-hidden border-b border-border/40 bg-bg-elevated/50">
           {coverSrc ? (
             <Image
               src={coverSrc}
               alt=""
               fill
-              className="object-cover opacity-95 transition-opacity duration-500 group-hover:opacity-100"
+              className="object-contain opacity-95 transition-opacity duration-500 group-hover:opacity-100"
               sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 33vw"
             />
           ) : (

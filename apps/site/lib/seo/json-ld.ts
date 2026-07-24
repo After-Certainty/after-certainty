@@ -19,6 +19,7 @@ import { getConceptFullDefinition } from "@/lib/graph/conceptFormatting";
 import { sourceDisplayBody, sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
 import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
 import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 
 export const SCHEMA_ORG_CONTEXT = "https://schema.org";
 
@@ -182,7 +183,7 @@ function formatEncodings(book: SemanticBook): JsonLdNode[] {
 
 export function buildBookJsonLd(params: { book: SemanticBook; pageUrl: string }): JsonLdNode {
   const { book, pageUrl } = params;
-  const image = book.openGraphImage ?? book.coverImage;
+  const image = resolveBookCoverSrc(book, "openGraph");
   const authors = book.authors ?? [];
   const encodings = formatEncodings(book);
 

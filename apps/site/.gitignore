@@ -54,3 +54,6 @@ next-env.d.ts
 # Phase 4 preview: same-checkout manifest (do not commit)
 /data/local-semantic-manifest.json
 /data/local-intended-manifest-release.json
+
+# Generated book-cover WebP derivatives (installed from build/site-assets)
+/public/generated/book-covers/

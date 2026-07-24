@@ -1,5 +1,6 @@
 import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import { bookPublicationStatus, findBookBySlug } from "@/lib/books/book-metadata";
+import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 import { exploreHrefForCanonicalId, explorePaths } from "@/lib/graph/explorePaths";
 import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
@@ -91,7 +92,7 @@ export function enrichStop(
       entityTypeLabel: entityTypeLabel(stop.entityType),
       estimatedMinutes: minutes,
       bookStatus: graphBook ? bookPublicationStatus(graphBook) : undefined,
-      coverImage: graphBook?.coverImage,
+      coverImage: resolveBookCoverSrc(graphBook, "thumbnail"),
     };
   }
 

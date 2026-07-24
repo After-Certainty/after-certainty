@@ -18,14 +18,6 @@ import {
 import { findWhatsNewEventsForBook } from "@/lib/whats-new/findEventsForBook";
 import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
 import { getPublishedQuestions } from "@/lib/questions/loadQuestions";
-import {
-  buildCoverImageBySlugLookup,
-  resolveCoverForGraphBookSlug,
-} from "@/lib/explore/graph-book-covers";
-import {
-  booksSortedForExploreIndex,
-  exploreBookAdjacentInIndexOrder,
-} from "@/lib/explore/explore-books-order";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
@@ -34,6 +26,11 @@ import { relatedContentForBook } from "@/lib/graph/relatedContent";
 import { resolveThinkersForBook } from "@/lib/graph/bookThinkers";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
 import { createPageMetadata } from "@/lib/metadata";
+import { resolveBookCover } from "@/lib/books/resolve-book-cover";
+import {
+  booksSortedForExploreIndex,
+  exploreBookAdjacentInIndexOrder,
+} from "@/lib/explore/explore-books-order";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -72,9 +69,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
   const book = getGraphBookBySlug(index, slug);
   if (!book) notFound();
 
-  const coverLookup = buildCoverImageBySlugLookup(graph.books);
-  const coverSrc =
-    resolveCoverForGraphBookSlug(coverLookup, graph.books, book.slug) ?? book.coverImage;
+  const coverSrc = resolveBookCover(book, "detail")?.src;
 
   const related = relatedContentForBook(index, book);
   const bookThinkerContent = resolveThinkersForBook(index, book, graph);

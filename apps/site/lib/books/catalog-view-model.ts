@@ -8,14 +8,11 @@ import {
 import { recommendedRankForSlug, type ContentType } from "@/lib/books/catalog-taxonomy";
 import { assignShelfIds } from "@/lib/books/shelves";
 import { buildResolvedEditionIndex } from "@/lib/books/resolve-work-edition";
+import { resolveBookCover } from "@/lib/books/resolve-book-cover";
 import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
 import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
 import type { EditionRelationship } from "@/lib/books/publication-registry-schema";
 import { explorePaths } from "@/lib/graph/explorePaths";
-import {
-  buildCoverImageBySlugLookup,
-  resolveCoverForGraphBookSlug,
-} from "@/lib/explore/graph-book-covers";
 import type { BookStatus } from "@/types/content";
 import type { BookLiteraryForm, SemanticGraph } from "@/types/semanticGraph";
 
@@ -26,6 +23,10 @@ export type CatalogBookView = {
   subtitle?: string;
   description?: string;
   coverImage?: string;
+  coverWidth?: number;
+  coverHeight?: number;
+  /** True when semantic manifest supplied generated coverImages. */
+  hasGeneratedCovers?: boolean;
   status: BookStatus;
   isPublic: boolean;
   isCanonicalEdition: boolean;
@@ -45,14 +46,12 @@ export type CatalogBookView = {
 
 export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
   const books = graph.books;
-  const coverLookup = buildCoverImageBySlugLookup(books);
   const editions = buildResolvedEditionIndex(books, publicationRegistryFromGraph(graph));
 
   const rows: CatalogBookView[] = books.map((book) => {
     const status = bookPublicationStatus(book);
     const resolved = editions.get(book.slug);
-    const coverImage =
-      resolveCoverForGraphBookSlug(coverLookup, books, book.slug) ?? book.coverImage;
+    const cover = resolveBookCover(book, "card");
     const typeInfo = contentTypeInfoFromBook(book);
 
     return {
@@ -61,7 +60,10 @@ export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
       title: book.title,
       subtitle: book.subtitle,
       description: bookDescription(book),
-      coverImage,
+      coverImage: cover?.src,
+      coverWidth: cover?.width,
+      coverHeight: cover?.height,
+      hasGeneratedCovers: Boolean(book.coverImages),
       status,
       isPublic: bookIsPublic(book),
       isCanonicalEdition: resolved?.isCanonical ?? true,

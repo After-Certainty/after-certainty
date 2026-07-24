@@ -28,24 +28,52 @@ describe("buildExploreCoverBySlug", () => {
     expect(buildExploreCoverBySlug(graph, books)).toEqual({ "my-book": "/cover.jpg" });
   });
 
-  it("prefers manifest coverImage when lookup does not define one", () => {
+  it("uses thumbnail generated url when present", () => {
+    const books = [
+      graphBook({
+        slug: "only-manifest",
+        coverImage: "/manifest.jpg",
+        coverImages: {
+          detail: {
+            path: "book-covers/only-manifest/detail.webp",
+            url: "/generated/book-covers/only-manifest/detail.webp",
+            width: 720,
+            height: 1080,
+            format: "webp",
+            bytes: 1,
+            sha256: "a".repeat(64),
+          },
+          card: {
+            path: "book-covers/only-manifest/card.webp",
+            url: "/generated/book-covers/only-manifest/card.webp",
+            width: 640,
+            height: 960,
+            format: "webp",
+            bytes: 1,
+            sha256: "b".repeat(64),
+          },
+          thumbnail: {
+            path: "book-covers/only-manifest/thumbnail.webp",
+            url: "/generated/book-covers/only-manifest/thumbnail.webp",
+            width: 240,
+            height: 360,
+            format: "webp",
+            bytes: 1,
+            sha256: "c".repeat(64),
+          },
+        },
+      }),
+    ];
     const graph: SemanticGraph = {
-      books: [
-        graphBook({
-          id: "b",
-          slug: "only-manifest",
-          title: "Book",
-          coverImage: "/manifest.jpg",
-        }),
-      ],
+      books,
       glossary: [],
       patterns: [],
       situations: [],
       sources: [],
       relationships: [],
     };
-    expect(buildExploreCoverBySlug(graph, [graphBook({ slug: "only-manifest" })])).toEqual({
-      "only-manifest": "/manifest.jpg",
+    expect(buildExploreCoverBySlug(graph, books)).toEqual({
+      "only-manifest": "/generated/book-covers/only-manifest/thumbnail.webp",
     });
   });
 });

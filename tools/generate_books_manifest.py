@@ -16,6 +16,11 @@ from book_specs import (
     load_book_spec,
     load_upcoming_spec,
 )
+from cover_assets_manifest import (
+    attach_cover_images_to_books,
+    default_cover_assets_manifest_path,
+    load_cover_assets_manifest,
+)
 from manifest_books import build_book_entry, resolve_repo_slug
 
 
@@ -76,6 +81,10 @@ def main() -> None:
         )
 
     books.sort(key=lambda item: (item["slug"], item["source"]))
+    cover_manifest = load_cover_assets_manifest(default_cover_assets_manifest_path(repo))
+    if cover_manifest:
+        attach_cover_images_to_books(books, cover_manifest, require_for_covered=True)
+
     payload = {
         "manifestVersion": 1,
         "generatedAt": datetime.now(UTC).isoformat(),

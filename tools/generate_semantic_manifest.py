@@ -25,6 +25,11 @@ from book_specs import (
     load_book_spec,
     load_upcoming_spec,
 )
+from cover_assets_manifest import (
+    attach_cover_images_to_books,
+    default_cover_assets_manifest_path,
+    load_cover_assets_manifest,
+)
 from discovery_manifest import attach_discovery_collections, enrich_book_discovery_fields
 from manifest_books import build_book_entry, raw_content_url, resolve_repo_slug
 from manifest_markdown import resolve_markdown_units
@@ -1018,6 +1023,17 @@ def main() -> None:
         spec = specs_by_slug.get(str(book["slug"]))
         if spec:
             enrich_book_discovery_fields(spec, book)
+
+    cover_manifest_path = default_cover_assets_manifest_path(repo)
+    cover_manifest = load_cover_assets_manifest(cover_manifest_path)
+    if cover_manifest:
+        attach_cover_images_to_books(books, cover_manifest, require_for_covered=True)
+    else:
+        print(
+            f"warning: cover assets manifest missing at {cover_manifest_path}; "
+            "skipping coverImages (run generate-book-cover-assets first)",
+            file=sys.stderr,
+        )
 
     scan_slugs = set(core_slugs) | set(supporting_slugs)
     _apply_mentions(base_books, glossary, repo, scan_slugs=scan_slugs)

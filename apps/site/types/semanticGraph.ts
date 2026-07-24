@@ -95,6 +95,25 @@ export interface BookOverview {
   changeSummary?: string;
 }
 
+export type BookCoverVariantKey = "detail" | "card" | "thumbnail";
+
+export interface BookCoverImageVariant {
+  path: string;
+  url: string;
+  width: number;
+  height: number;
+  format: "webp";
+  bytes: number;
+  sha256: string;
+}
+
+export type BookCoverImages = Record<BookCoverVariantKey, BookCoverImageVariant>;
+
+export interface BookCoverImageGeneration {
+  sourceSha256: string;
+  generatorVersion: number;
+}
+
 export interface Book {
   id: string;
   slug: string;
@@ -107,6 +126,10 @@ export interface Book {
   coverImage?: string;
   /** Absolute URL for book-specific Open Graph / Twitter share art when supplied by the manifest */
   openGraphImage?: string;
+  /** Generated web-optimized cover derivatives (schema 2.3 additive). */
+  coverImages?: BookCoverImages;
+  /** Provenance for generated coverImages. */
+  coverImageGeneration?: BookCoverImageGeneration;
   status?: BookStatus;
   authors?: string[];
   year?: number;

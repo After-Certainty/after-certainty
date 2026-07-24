@@ -59,6 +59,7 @@ Legacy `status`, `companionOf`, `companionBooks`, and `slugAliases` are unchange
 ## Generation
 
 ```bash
+make generate-book-cover-assets
 make generate-semantic-manifest
 make validate-semantic-manifest
 make verify-semantic-manifest
@@ -66,7 +67,18 @@ make validate-discovery-content
 make report-semantic-completeness
 ```
 
-Release staging regenerates the manifest via `scripts/prepare_release_staging.sh` as before.
+Release staging regenerates the manifest via `scripts/prepare_release_staging.sh` as before, and packs `semantic-cover-assets.tar.gz` (portable `book-covers/` tree matching `coverImages[].path`). See [`docs/book-cover-assets.md`](book-cover-assets.md).
+
+## Additive book cover fields (schemaVersion 2.3)
+
+Optional on each `books[]` entry when web derivatives exist:
+
+| Field | Role |
+|---|---|
+| `coverImages` | `detail` / `card` / `thumbnail` records (`path`, `url`, `width`, `height`, `format`, `bytes`, `sha256`) |
+| `coverImageGeneration` | `sourceSha256`, `generatorVersion` |
+
+Legacy `coverImage` / `coverImagePath` remain required (nullable). External consumers may ignore the new fields.
 
 ## Site consumption (monorepo Stage D)
 

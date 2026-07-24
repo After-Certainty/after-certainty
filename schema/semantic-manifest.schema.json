@@ -155,6 +155,87 @@
     }
   },
   "$defs": {
+    "coverImageVariant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "url",
+        "width",
+        "height",
+        "format",
+        "bytes",
+        "sha256"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^book-covers/[a-zA-Z0-9._-]+/(detail|card|thumbnail)\\.webp$"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^/generated/book-covers/[a-zA-Z0-9._-]+/(detail|card|thumbnail)\\.webp$"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "format": {
+          "type": "string",
+          "const": "webp"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "coverImages": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "detail",
+        "card",
+        "thumbnail"
+      ],
+      "properties": {
+        "detail": {
+          "$ref": "#/$defs/coverImageVariant"
+        },
+        "card": {
+          "$ref": "#/$defs/coverImageVariant"
+        },
+        "thumbnail": {
+          "$ref": "#/$defs/coverImageVariant"
+        }
+      }
+    },
+    "coverImageGeneration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceSha256",
+        "generatorVersion"
+      ],
+      "properties": {
+        "sourceSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "generatorVersion": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
     "formatEntry": {
       "type": "object",
       "additionalProperties": false,
@@ -329,6 +410,12 @@
             "string",
             "null"
           ]
+        },
+        "coverImages": {
+          "$ref": "#/$defs/coverImages"
+        },
+        "coverImageGeneration": {
+          "$ref": "#/$defs/coverImageGeneration"
         },
         "bookDir": {
           "type": "string",

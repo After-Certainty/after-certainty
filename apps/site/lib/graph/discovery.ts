@@ -11,6 +11,7 @@ import type {
   PublicationRegistry,
 } from "@/lib/books/publication-registry-schema";
 import type { ContentType } from "@/lib/books/catalog-taxonomy";
+import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 import type { WhatsNewEvent } from "@/lib/whats-new/schema";
 import type { PathStopInput } from "@/types/paths";
 import type { QuestionDefinition } from "@/types/questions";
@@ -165,9 +166,19 @@ export function bookOverviewPrioritySlugs(): string[] {
   return [...DEFAULT_BOOK_OVERVIEW_PRIORITY_SLUGS];
 }
 
-export function changeEventToWhatsNewEvent(event: ChangeEvent): WhatsNewEvent | null {
+export function changeEventToWhatsNewEvent(
+  event: ChangeEvent,
+  books?: readonly Book[],
+): WhatsNewEvent | null {
   const href = event.canonicalRoute;
   if (!href) return null;
+
+  let image = event.coverImage;
+  if (books && event.entityType === "book" && event.entityId) {
+    const book = books.find((b) => b.id === event.entityId || b.slug === event.entityId);
+    const thumb = resolveBookCoverSrc(book, "thumbnail");
+    if (thumb) image = thumb;
+  }
 
   return {
     id: event.id,
@@ -178,7 +189,7 @@ export function changeEventToWhatsNewEvent(event: ChangeEvent): WhatsNewEvent | 
     entityType: event.entityType,
     entityId: event.entityId,
     href,
-    image: event.coverImage,
+    image,
     featured: event.featured,
     significance: event.significance,
     relatedEditionId: event.relatedEditionId,
@@ -190,9 +201,10 @@ export function changeEventToWhatsNewEvent(event: ChangeEvent): WhatsNewEvent | 
 
 export function changeEventsToWhatsNewEvents(
   events: readonly ChangeEvent[] | undefined,
+  books?: readonly Book[],
 ): WhatsNewEvent[] {
   return (events ?? [])
-    .map(changeEventToWhatsNewEvent)
+    .map((event) => changeEventToWhatsNewEvent(event, books))
     .filter((event): event is WhatsNewEvent => Boolean(event));
 }
 

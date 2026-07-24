@@ -118,6 +118,31 @@ const bookOverviewSchema = z.object({
   changeSummary: z.string().min(1).optional(),
 });
 
+const coverImageVariantSchema = z.object({
+  path: z
+    .string()
+    .regex(/^book-covers\/[a-zA-Z0-9._-]+\/(detail|card|thumbnail)\.webp$/),
+  url: z
+    .string()
+    .regex(/^\/generated\/book-covers\/[a-zA-Z0-9._-]+\/(detail|card|thumbnail)\.webp$/),
+  width: z.number().int().positive(),
+  height: z.number().int().positive(),
+  format: z.literal("webp"),
+  bytes: z.number().int().positive(),
+  sha256: z.string().regex(/^[a-f0-9]{64}$/),
+});
+
+const coverImagesSchema = z.object({
+  detail: coverImageVariantSchema,
+  card: coverImageVariantSchema,
+  thumbnail: coverImageVariantSchema,
+});
+
+const coverImageGenerationSchema = z.object({
+  sourceSha256: z.string().regex(/^[a-f0-9]{64}$/),
+  generatorVersion: z.number().int().positive(),
+});
+
 const bookSchema = z.object({
   id: z.string().min(1),
   slug: z.string().min(1),
@@ -133,6 +158,8 @@ const bookSchema = z.object({
     .transform((value) => value ?? undefined),
   coverImage: optionalManifestString,
   openGraphImage: optionalManifestUrl,
+  coverImages: coverImagesSchema.optional(),
+  coverImageGeneration: coverImageGenerationSchema.optional(),
   status: bookStatusSchema.optional(),
   authors: z.array(z.string().min(1)).optional(),
   year: z.number().int().optional(),

@@ -36,6 +36,7 @@ def test_install_writes_gitignored_local_artifacts(tmp_path: Path) -> None:
             str(source),
             "--site-data",
             str(site_data),
+            "--skip-covers",
         ]
     )
     assert code == 0
@@ -106,6 +107,7 @@ def test_require_deploy_sha_accepts_match(tmp_path: Path) -> None:
             str(tmp_path / "site-data"),
             "--require-deploy-sha",
             "deadbeef",
+            "--skip-covers",
         ]
     )
     assert code == 0
