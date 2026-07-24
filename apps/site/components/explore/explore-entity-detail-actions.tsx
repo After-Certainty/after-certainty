@@ -3,7 +3,10 @@
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import { exploreSecondaryButtonClass } from "@/components/explore/explore-action-buttons";
 import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
-import type { SemanticBookActionLinkItem } from "@/lib/books/semantic-book-action-links";
+import {
+  isInternalBookAction,
+  type SemanticBookActionLinkItem,
+} from "@/lib/books/semantic-book-action-links";
 import type { GraphEntityKind } from "@/types/semanticGraph";
 
 type ExploreEntityDetailActionsProps = {
@@ -38,8 +41,8 @@ export function ExploreEntityDetailActions({
           <TrackedLink
             key={`${item.href}-${item.label}`}
             href={item.href}
-            target="_blank"
-            rel="noopener noreferrer"
+            target={isInternalBookAction(item.kind) ? undefined : "_blank"}
+            rel={isInternalBookAction(item.kind) ? undefined : "noopener noreferrer"}
             className={exploreSecondaryButtonClass}
             analytics={
               item.kind === "download"
@@ -53,16 +56,25 @@ export function ExploreEntityDetailActions({
                       item_id: observatory.slug,
                     },
                   }
-                : {
-                    event: "click",
-                    params: {
-                      link_url: item.href,
-                      link_text: item.label,
-                      outbound: true,
-                      location: "explore_entity_detail",
-                      platform: "book_retailer",
-                    },
-                  }
+                : isInternalBookAction(item.kind)
+                  ? {
+                      event: "select_content",
+                      params: {
+                        content_type: "book",
+                        item_id: observatory.slug,
+                        method: "link",
+                      },
+                    }
+                  : {
+                      event: "click",
+                      params: {
+                        link_url: item.href,
+                        link_text: item.label,
+                        outbound: true,
+                        location: "explore_entity_detail",
+                        platform: "book_retailer",
+                      },
+                    }
             }
           >
             {item.label}
