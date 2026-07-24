@@ -291,6 +291,8 @@ def build_structure_for_book(
             text = path.read_text(encoding="utf-8")
             words = count_words(text)
             route_stem = source_key
+            # READ-001 frozen public path (docs/semantic-chapter-identity.md):
+            # /explore/books/{editionSlug}/chapters/{chapterSlug}
             entry: dict = {
                 "id": chapter_id,
                 "workId": work_id,

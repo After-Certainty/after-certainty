@@ -539,7 +539,12 @@ export interface ManifestChapter {
   wordCount: number;
   estimatedReadingMinutes: number;
   public: boolean;
-  /** Future on-site chapter path; not a live route until chapter pages ship. */
+  /**
+   * Reserved public pathname for this chapter (READ-001 contract).
+   * Shape: `/explore/books/{editionSlug}/chapters/{chapterSlug}`.
+   * Equals the future App Router path; not a live route until READ-002 ships.
+   * @see docs/semantic-chapter-identity.md
+   */
   routeKey: string;
   partId?: string;
   partTitle?: string;

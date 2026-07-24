@@ -1,4 +1,10 @@
-import { chapterSlugFromRouteKey, chaptersFromGraph, partsFromGraph } from "@/lib/graph/chapters";
+import {
+  chapterRouteKeyMatchesEditionSlug,
+  chapterSlugFromRouteKey,
+  chaptersFromGraph,
+  isValidChapterRouteKey,
+  partsFromGraph,
+} from "@/lib/graph/chapters";
 import type { ManifestChapter, ManifestPart, SemanticGraph } from "@/types/semanticGraph";
 
 export type ChapterStructureSeverity = "error" | "warning";
@@ -116,13 +122,13 @@ export function collectChapterStructureHealthIssues(input: {
     seenRouteKeys.add(chapter.routeKey);
 
     const slug = chapterSlugFromRouteKey(chapter.routeKey);
-    if (!slug.trim()) {
+    if (!slug.trim() || !isValidChapterRouteKey(chapter.routeKey)) {
       issues.push({
         severity: "error",
         code: "invalid_chapter_route",
         entityId: chapter.id,
         editionId: chapter.editionId,
-        detail: `Chapter "${chapter.id}" has an unusable routeKey "${chapter.routeKey}".`,
+        detail: `Chapter "${chapter.id}" has an unusable routeKey "${chapter.routeKey}" (expected /explore/books/{slug}/chapters/{chapterSlug}).`,
       });
     }
 
@@ -135,14 +141,28 @@ export function collectChapterStructureHealthIssues(input: {
         editionId: chapter.editionId,
         detail: `Chapter "${chapter.id}" references unknown editionId "${chapter.editionId}".`,
       });
-    } else if (book.workId && book.workId !== chapter.workId) {
-      issues.push({
-        severity: "error",
-        code: "chapter_work_mismatch",
-        entityId: chapter.id,
-        editionId: chapter.editionId,
-        detail: `Chapter "${chapter.id}" workId "${chapter.workId}" does not match book workId "${book.workId}".`,
-      });
+    } else {
+      if (book.workId && book.workId !== chapter.workId) {
+        issues.push({
+          severity: "error",
+          code: "chapter_work_mismatch",
+          entityId: chapter.id,
+          editionId: chapter.editionId,
+          detail: `Chapter "${chapter.id}" workId "${chapter.workId}" does not match book workId "${book.workId}".`,
+        });
+      }
+      if (
+        isValidChapterRouteKey(chapter.routeKey) &&
+        !chapterRouteKeyMatchesEditionSlug(chapter.routeKey, book.slug)
+      ) {
+        issues.push({
+          severity: "error",
+          code: "chapter_route_slug_mismatch",
+          entityId: chapter.id,
+          editionId: chapter.editionId,
+          detail: `Chapter "${chapter.id}" routeKey "${chapter.routeKey}" does not use book slug "${book.slug}".`,
+        });
+      }
     }
 
     if (worksById.size > 0 && !worksById.has(chapter.workId)) {

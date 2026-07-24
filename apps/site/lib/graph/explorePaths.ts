@@ -11,6 +11,14 @@ export const explorePaths = {
   thinkers: "/explore/thinkers",
 } as const;
 
+/**
+ * Canonical chapter pathname (READ-001). Matches manifest `routeKey`.
+ * Does not imply the App Router page is live yet.
+ */
+export function exploreChapterHref(editionSlug: string, chapterSlug: string): string {
+  return `${explorePaths.books}/${editionSlug}/chapters/${chapterSlug}`;
+}
+
 /** Glossary slug for the default focal node on `/explore` without query parameters. */
 export const exploreDefaultHomeConceptSlug = "certainty";
 

@@ -8,7 +8,7 @@ Additive collections `parts[]` and `chapters[]` (schemaVersion **2.2+**) export 
 make generate-semantic-manifest
 ```
 
-Structure is parsed from each published book’s `index.md` (same link resolution as export assembly).
+Structure is parsed from each published book’s `index.md` (same link resolution as export assembly). Generator: [`tools/manuscript_structure.py`](../tools/manuscript_structure.py).
 
 ## Stable IDs
 
@@ -28,6 +28,98 @@ Examples:
 2. Otherwise derive from the **source path**, not the display title — renaming a chapter title does not change the ID.
 3. Duplicate stems (e.g. multiple `bridge.md` files) stay unique because the full relative path is encoded.
 4. Position is ordinal within the edition only; do not use position alone as an external reference.
+
+## Public chapter URL contract (READ-001)
+
+**Status:** Frozen for Native Reader V1 and later. Site helpers live in [`apps/site/lib/graph/chapters.ts`](../apps/site/lib/graph/chapters.ts). Live App Router pages are **not** required by this contract (see roadmap READ-002).
+
+### Canonical path
+
+```text
+/explore/books/{editionSlug}/chapters/{chapterSlug}
+```
+
+| Segment | Source | Notes |
+|---------|--------|-------|
+| `editionSlug` | Book catalog `slug` (manuscript folder / `book.yml` slug) | Same segment used by `/explore/books/{slug}`. **Not** the graph `editionId` (usually `book-{slug}`). |
+| `chapterSlug` | Relative manuscript path without extension, `/` → `-` | Same stem encoded in default `chapter.id` after `chapter-{editionSlug}-`. |
+
+Examples:
+
+| `sourcePath` | `chapterSlug` | `routeKey` |
+|--------------|---------------|------------|
+| `front-matter/introduction.md` | `front-matter-introduction` | `/explore/books/after-certainty/chapters/front-matter-introduction` |
+| `parts/part-1-letting-go/chapter-1-the-end-of-correctness.md` | `parts-part-1-letting-go-chapter-1-the-end-of-correctness` | `/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-1-the-end-of-correctness` |
+
+### Identity keys (do not conflate)
+
+| Key | Role | Stable for |
+|-----|------|------------|
+| `workId` | Work identity across editions | Cross-edition relationships |
+| `editionId` | Edition / book graph id (`book.id`) | Progress, bookmarks, TOC within an edition |
+| `chapter.id` | Canonical chapter graph id | Enrichment, relationships, storage keys |
+| `routeKey` | Reserved public pathname (equals the canonical path above) | Links, sitemap, search `canonicalUrl` once routes ship |
+| `chapterSlug` | Last path segment of `routeKey` | App Router `[chapterSlug]` param |
+| `sourcePath` | Manuscript file relative to the book root | Rendering pipeline (READ-003); not a URL |
+
+**Rules**
+
+1. `routeKey` **is** the public pathname. Do not invent a second URL shape for the reader.
+2. Do **not** use `chapter.id` as a URL segment (ids are long and include the edition slug prefix).
+3. Do **not** use ordinal `position` alone in URLs or storage keys.
+4. Section deep links (once headings exist) append `#` fragment ids: `{routeKey}#{headingId}` — fragment format is owned by the HTML pipeline (READ-003), not this contract.
+5. Multi-edition works (e.g. When Others Look to You v1/v2) use **distinct** `editionSlug` values and therefore distinct `routeKey`s.
+
+### Mapping `ManifestChapter` → public path
+
+```text
+publicPath(chapter) = chapter.routeKey
+chapterSlug(chapter) = last segment of chapter.routeKey
+```
+
+Generator invariant (must hold for every exported chapter):
+
+```text
+routeKey === "/explore/books/" + editionSlug + "/chapters/" + chapterSlugFromSourcePath(sourcePath)
+```
+
+unless an authored override later changes only `chapter.id` / enrichment fields — **`routeKey` stays path-derived**, not title-derived.
+
+Site reconstruction helpers:
+
+- `buildChapterRouteKey(editionSlug, chapterSlug)`
+- `parseChapterRouteKey(routeKey)` → `{ editionSlug, chapterSlug } | null`
+- `chapterSlugFromRouteKey(routeKey)`
+- `assertChapterRouteKeyMatchesBook(routeKey, book.slug)` (validation)
+
+### Eligibility and HTTP semantics (when routes ship)
+
+| Condition | Expected behavior |
+|-----------|-------------------|
+| Unknown book slug or chapter slug | `404` / `notFound()` |
+| Chapter exists but `public: false` | `404` (do not leak private units) |
+| Chapter `routeKey` malformed or book-slug mismatch | Treat as data error in corpus validation; do not publish a link |
+| Routes not yet shipped (current site) | Overview must **not** emit `href`s from `routeKey`; registry keeps chapters `searchEligible` / `sitemapEligible` false |
+
+Downloads (EPUB/PDF/DOCX) remain valid reading paths regardless of reader rollout.
+
+### Client storage keys (future READ-011+)
+
+Prefer opaque graph ids, not URL strings:
+
+```text
+readingProgress:{editionId}:{chapterId}
+bookmark:{editionId}:{chapterId}[:{fragmentId}]
+```
+
+URLs may change presentation hosts; `editionId` + `chapter.id` must not.
+
+### Out of scope for this contract
+
+- Account-synced progress
+- Alternate pretty URLs based on chapter titles
+- Indexing or sitemap eligibility (READ-005 / READ-009)
+- Manuscript HTML rendering (READ-003)
 
 ## Chapter kinds
 
