@@ -2,9 +2,44 @@ import { afterEach, describe, expect, it } from "vitest";
 
 import {
   DEFAULT_GA_MEASUREMENT_ID,
+  isSemanticManifestOffline,
+  isSemanticManifestUseLocal,
   resolveGaMeasurementId,
   resolveSiteSocialLinks,
 } from "@/lib/site-config";
+
+describe("semantic manifest env flags", () => {
+  const keys = ["SEMANTIC_MANIFEST_OFFLINE", "SEMANTIC_MANIFEST_USE_LOCAL"] as const;
+  const saved: Record<string, string | undefined> = {};
+
+  afterEach(() => {
+    for (const k of keys) {
+      const v = saved[k];
+      if (v === undefined) delete process.env[k];
+      else process.env[k] = v;
+    }
+  });
+
+  it("USE_LOCAL implies offline (no remote fetch)", () => {
+    for (const k of keys) {
+      saved[k] = process.env[k];
+      delete process.env[k];
+    }
+    process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
+    expect(isSemanticManifestUseLocal()).toBe(true);
+    expect(isSemanticManifestOffline()).toBe(true);
+  });
+
+  it("OFFLINE alone does not imply USE_LOCAL", () => {
+    for (const k of keys) {
+      saved[k] = process.env[k];
+      delete process.env[k];
+    }
+    process.env.SEMANTIC_MANIFEST_OFFLINE = "1";
+    expect(isSemanticManifestOffline()).toBe(true);
+    expect(isSemanticManifestUseLocal()).toBe(false);
+  });
+});
 
 describe("resolveGaMeasurementId", () => {
   let prev: string | undefined;

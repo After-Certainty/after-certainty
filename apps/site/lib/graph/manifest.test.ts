@@ -650,18 +650,24 @@ describe("schema and staleness helpers", () => {
 
 describe("fetchSemanticGraphUncached", () => {
   let prevOffline: string | undefined;
+  let prevUseLocal: string | undefined;
   let prevManifestUrl: string | undefined;
   let fetchSpy: ReturnType<typeof vi.spyOn>;
 
   beforeEach(() => {
     prevOffline = process.env.SEMANTIC_MANIFEST_OFFLINE;
+    prevUseLocal = process.env.SEMANTIC_MANIFEST_USE_LOCAL;
     prevManifestUrl = process.env.SEMANTIC_MANIFEST_URL;
     delete process.env.SEMANTIC_MANIFEST_URL;
+    delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
     fetchSpy = vi.spyOn(globalThis, "fetch");
   });
 
   afterEach(() => {
-    process.env.SEMANTIC_MANIFEST_OFFLINE = prevOffline;
+    if (prevOffline === undefined) delete process.env.SEMANTIC_MANIFEST_OFFLINE;
+    else process.env.SEMANTIC_MANIFEST_OFFLINE = prevOffline;
+    if (prevUseLocal === undefined) delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
+    else process.env.SEMANTIC_MANIFEST_USE_LOCAL = prevUseLocal;
     if (prevManifestUrl === undefined) delete process.env.SEMANTIC_MANIFEST_URL;
     else process.env.SEMANTIC_MANIFEST_URL = prevManifestUrl;
     fetchSpy.mockRestore();
@@ -674,8 +680,18 @@ describe("fetchSemanticGraphUncached", () => {
     expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
   });
 
+  it("disables remote fetch when USE_LOCAL=1 even if OFFLINE unset", async () => {
+    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
+    process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
+    const result = await fetchSemanticGraphLoadResultUncached();
+    expect(fetchSpy).not.toHaveBeenCalled();
+    expect(result.source.kind).toBe("fallback");
+    expect(result.diagnostics.some((d) => /USE_LOCAL/.test(d.message))).toBe(true);
+  });
+
   it("fetches remote JSON when online and serves valid remote even if unenriched", async () => {
     delete process.env.SEMANTIC_MANIFEST_OFFLINE;
+    delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
     const payload = {
       books: [
         { id: "b1", slug: "book-one", title: "Book One", concepts: [], patterns: [], sources: [] },

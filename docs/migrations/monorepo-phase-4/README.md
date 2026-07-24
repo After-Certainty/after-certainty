@@ -1,6 +1,6 @@
 # Monorepo Phase 4 — Preview uses local manifest (Stage C)
 
-**Status:** This PR  
+**Status:** Complete (merged). Phase 5: [`../monorepo-phase-5/`](../monorepo-phase-5/).  
 **Plan:** [`docs/roadmaps/monorepo-migration-plan.md`](../../roadmaps/monorepo-migration-plan.md) §24 Phase 4  
 **Predecessor:** [`../monorepo-phase-3/`](../monorepo-phase-3/)
 

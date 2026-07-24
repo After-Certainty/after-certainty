@@ -380,10 +380,11 @@ export function pickSemanticGraph(remote: SemanticGraph, bundled: SemanticGraph)
  */
 export async function fetchSemanticGraphLoadResultUncached(): Promise<SemanticGraphLoadResult> {
   if (isSemanticManifestOffline()) {
+    const useLocal = process.env.SEMANTIC_MANIFEST_USE_LOCAL?.trim() === "1";
     const result = fallbackResult(
       "offline",
-      process.env.SEMANTIC_MANIFEST_USE_LOCAL?.trim() === "1"
-        ? "SEMANTIC_MANIFEST_OFFLINE=1 + SEMANTIC_MANIFEST_USE_LOCAL=1; using local checkout manifest."
+      useLocal
+        ? "SEMANTIC_MANIFEST_USE_LOCAL=1; using local checkout manifest (remote fetch disabled)."
         : "SEMANTIC_MANIFEST_OFFLINE=1; using bundled fallback.",
     );
     logManifestLoadOnce(result);
