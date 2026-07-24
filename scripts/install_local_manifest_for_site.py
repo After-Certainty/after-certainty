@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Install a same-checkout semantic-manifest.json into apps/site for preview builds.
+"""Install a same-checkout semantic-manifest.json into apps/site for preview/prod builds.
 
-Phase 4 (Stage C): write gitignored local preview artifacts under apps/site/data/
-so SEMANTIC_MANIFEST_USE_LOCAL=1 + SEMANTIC_MANIFEST_OFFLINE=1 builds consume the
-checkout’s generated manifest without overwriting the committed production fallback.
+Phase 4–5 (Stage C/D): write gitignored local artifacts under apps/site/data/
+so SEMANTIC_MANIFEST_USE_LOCAL=1 (+ OFFLINE=1) builds consume the checkout’s
+generated manifest without overwriting the committed production fallback.
 
-Production on after-certainty-site remains remote until Phase 5.
+Public release artifacts remain published; Stage D disables runtime remote fetch
+via env on the deployment.
 """
 
 from __future__ import annotations
@@ -15,6 +16,25 @@ import json
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
+
+
+def _check_deploy_sha(manifest: dict, expected: str | None) -> int:
+    if not expected:
+        return 0
+    actual = manifest.get("sourceCommit")
+    if not isinstance(actual, str) or not actual.strip():
+        print("error: manifest missing sourceCommit for deploy-SHA check", file=sys.stderr)
+        return 1
+    if actual.strip() != expected.strip():
+        print(
+            "error: manifest sourceCommit does not match deploy SHA\n"
+            f"  sourceCommit={actual.strip()}\n"
+            f"  deploySha={expected.strip()}",
+            file=sys.stderr,
+        )
+        return 1
+    print(f"Deploy SHA matches manifest sourceCommit={actual.strip()}")
+    return 0
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -36,6 +56,16 @@ def main(argv: list[str] | None = None) -> int:
         type=Path,
         default=None,
         help="Site data directory (default: <repo>/apps/site/data)",
+    )
+    parser.add_argument(
+        "--require-deploy-sha",
+        default=None,
+        help="Require manifest sourceCommit to equal this SHA (Vercel: VERCEL_GIT_COMMIT_SHA).",
+    )
+    parser.add_argument(
+        "--check-only",
+        action="store_true",
+        help="Validate only; do not write site data files.",
     )
     args = parser.parse_args(argv)
 
@@ -66,6 +96,15 @@ def main(argv: list[str] | None = None) -> int:
         print(f"error: expected schemaVersion '2.3', got {schema!r}", file=sys.stderr)
         return 1
 
+    if args.require_deploy_sha:
+        code = _check_deploy_sha(manifest, args.require_deploy_sha)
+        if code != 0:
+            return code
+
+    if args.check_only:
+        print(f"OK: checked {source}")
+        return 0
+
     site_data.mkdir(parents=True, exist_ok=True)
     dest = site_data / "local-semantic-manifest.json"
     intended_path = site_data / "local-intended-manifest-release.json"
@@ -84,7 +123,7 @@ def main(argv: list[str] | None = None) -> int:
     intended_path.write_text(json.dumps(intended, indent=2) + "\n", encoding="utf-8")
 
     books = len(manifest.get("books") or [])
-    print(f"Installed preview manifest → {dest}")
+    print(f"Installed preview/production manifest → {dest}")
     print(f"Pinned local intended release → {intended_path}")
     print(f"schemaVersion={schema} sourceCommit={intended.get('sourceCommit')} books={books}")
     print("Build with: SEMANTIC_MANIFEST_USE_LOCAL=1 SEMANTIC_MANIFEST_OFFLINE=1")

@@ -1,8 +1,8 @@
 # After Certainty · Site
 
-Intellectual commons surface for **After Certainty** — books metadata, podcast hub, patterns library, and collaboration entry points. Corpus YAML lives in the monorepo root (`books/`, `semantic/`); this app consumes `semantic-manifest.json` (remote release in production today; monorepo preview/CI can use a same-checkout local install — see [`docs/migrations/monorepo-phase-4/`](../../docs/migrations/monorepo-phase-4/)).
+Intellectual commons surface for **After Certainty** — books metadata, podcast hub, patterns library, and collaboration entry points. Corpus YAML lives in the monorepo root (`books/`, `semantic/`); this app builds from a same-checkout `semantic-manifest.json` (see [`docs/migrations/monorepo-phase-5/`](../../docs/migrations/monorepo-phase-5/)).
 
-> **Monorepo note:** This tree lives at `apps/site/` inside [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty). Prefer installing from the repository root (`npm ci`). The standalone [`after-certainty-site`](https://github.com/ksteffe/after-certainty-site) repository remains the production deploy source until cutover.
+> **Monorepo note:** This tree lives at `apps/site/` inside [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty). Prefer installing from the repository root (`npm ci`). Vercel Root Directory should be `apps/site` ([`vercel.json`](./vercel.json)). The former [`after-certainty-site`](https://github.com/ksteffe/after-certainty-site) repo remains until Phase 7 archive.
 
 ## Stack
 
@@ -71,9 +71,9 @@ Optional: once **Dependency graph** is enabled in the same settings page, you ca
 
 ## Deployment (Vercel)
 
-1. Connect the repository.
-2. Set **NEXT_PUBLIC_SITE_URL** to `https://www.after-certainty.com` in project Environment Variables.
-3. Defaults assume Node build (`next build`); output is static-first with prerendered routes.
+1. Connect [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty); Root Directory `apps/site` (see `vercel.json`).
+2. Set **NEXT_PUBLIC_SITE_URL** to `https://www.after-certainty.com`, plus `SEMANTIC_MANIFEST_USE_LOCAL=1` and `SEMANTIC_MANIFEST_OFFLINE=1` (Phase 5).
+3. Install/build generate a same-checkout semantic manifest before `next build` — see [`docs/migrations/monorepo-phase-5/`](../../docs/migrations/monorepo-phase-5/).
 
 The podcast RSS URL is `siteConfig.podcastRssUrl` (Anchor). The site **fetches that feed on the server** (`lib/podcast/rss.ts`, cached + **revalidated every hour** via `fetch`); episode lists and the home “latest episode” block use that data. If the feed is unreachable (offline dev, CI, etc.), lists fall back to `data/podcast-episodes.json`. `/feed.xml` still redirects to Anchor for podcast apps.
 

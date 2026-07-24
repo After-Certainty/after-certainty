@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "installCommand": "cd ../.. && bash scripts/vercel_install.sh",
+  "buildCommand": "cd ../.. && bash scripts/vercel_build.sh",
+  "ignoreCommand": "bash ../../scripts/vercel_ignore_build.sh"
+}

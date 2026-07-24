@@ -91,3 +91,42 @@ def test_install_rejects_wrong_schema(tmp_path: Path) -> None:
         ]
     )
     assert code == 1
+
+
+def test_require_deploy_sha_accepts_match(tmp_path: Path) -> None:
+    source = tmp_path / "semantic-manifest.json"
+    source.write_text(json.dumps(_minimal_manifest()), encoding="utf-8")
+    code = install.main(
+        [
+            "--repo",
+            str(tmp_path),
+            "--source",
+            str(source),
+            "--site-data",
+            str(tmp_path / "site-data"),
+            "--require-deploy-sha",
+            "deadbeef",
+        ]
+    )
+    assert code == 0
+    assert (tmp_path / "site-data" / "local-semantic-manifest.json").is_file()
+
+
+def test_require_deploy_sha_rejects_mismatch(tmp_path: Path) -> None:
+    source = tmp_path / "semantic-manifest.json"
+    source.write_text(json.dumps(_minimal_manifest()), encoding="utf-8")
+    code = install.main(
+        [
+            "--repo",
+            str(tmp_path),
+            "--source",
+            str(source),
+            "--site-data",
+            str(tmp_path / "site-data"),
+            "--require-deploy-sha",
+            "other",
+            "--check-only",
+        ]
+    )
+    assert code == 1
+    assert not (tmp_path / "site-data" / "local-semantic-manifest.json").exists()

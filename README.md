@@ -20,9 +20,9 @@ npm run site:dev          # Next.js (still uses remote/fallback semantic manifes
 make generate-semantic-manifest   # local corpus artifact under build/
 ```
 
-Phase notes: [`docs/migrations/monorepo-phase-0/`](docs/migrations/monorepo-phase-0/) · [`docs/migrations/monorepo-phase-1/`](docs/migrations/monorepo-phase-1/) · [`docs/migrations/monorepo-phase-2/`](docs/migrations/monorepo-phase-2/) · [`docs/migrations/monorepo-phase-3/`](docs/migrations/monorepo-phase-3/) · [`docs/migrations/monorepo-phase-4/`](docs/migrations/monorepo-phase-4/).
+Phase notes: [`docs/migrations/monorepo-phase-0/`](docs/migrations/monorepo-phase-0/) · [`docs/migrations/monorepo-phase-1/`](docs/migrations/monorepo-phase-1/) · [`docs/migrations/monorepo-phase-2/`](docs/migrations/monorepo-phase-2/) · [`docs/migrations/monorepo-phase-3/`](docs/migrations/monorepo-phase-3/) · [`docs/migrations/monorepo-phase-4/`](docs/migrations/monorepo-phase-4/) · [`docs/migrations/monorepo-phase-5/`](docs/migrations/monorepo-phase-5/).
 
-Site CI runs from [`.github/workflows/site-ci.yml`](.github/workflows/site-ci.yml) (path-filtered). Local manifest: `npm run corpus:build-manifest` → `npm run site:install-local-manifest` → preview/CI with `SEMANTIC_MANIFEST_USE_LOCAL=1` + `SEMANTIC_MANIFEST_OFFLINE=1` (or `npm run site:build:preview`). Stage B parity: `npm run corpus:parity`. Production still deploys from the standalone site repository and still fetches the remote release manifest until Phase 5.
+Site CI runs from [`.github/workflows/site-ci.yml`](.github/workflows/site-ci.yml) (path-filtered). Local manifest: `npm run corpus:build-manifest` → `npm run site:install-local-manifest` → `SEMANTIC_MANIFEST_USE_LOCAL=1` (+ offline). Production-shaped build: `npm run site:build:production` / [`apps/site/vercel.json`](apps/site/vercel.json). Stage B parity: `npm run corpus:parity`. Phase 5 cutover reconnects Vercel to this monorepo (see phase-5 notes); public `semantic-manifest.json` releases continue.
 
 ## Books and publishing
 
