@@ -15,7 +15,7 @@ dependencies = [
   "jsonschema>=4",
   "PyYAML>=6",
   "pytest>=8",
-  "ruff>=0.9",
+  "ruff>=0.16.0",
   "pre-commit>=4.6.1",
   "python-docx>=1.1",
   "pip-audit>=2.7",
@@ -29,7 +29,7 @@ semantic = [
 ]
 test = [
   "pytest>=8",
-  "ruff>=0.9",
+  "ruff>=0.16.0",
   "pip-audit>=2.7",
   "pre-commit>=4.6.1",
 ]
