@@ -70,6 +70,14 @@ describe("sitemap", () => {
     expect(paths.every((p) => !p.includes("draft"))).toBe(true);
   });
 
+  it("includes public chapter reading URLs (READ-009)", async () => {
+    const paths = await getSitemapPaths();
+    expect(paths).toContain(
+      "/explore/books/after-certainty/chapters/front-matter-introduction",
+    );
+    expect(paths.filter((p) => p.includes("/chapters/")).length).toBeGreaterThan(100);
+  });
+
   it("includes published trail detail URLs but not upcoming trails", async () => {
     const urls = (await sitemap()).map((e) => e.url);
     expect(urls).toContain("https://example.com/trails/judgment-before-certainty");

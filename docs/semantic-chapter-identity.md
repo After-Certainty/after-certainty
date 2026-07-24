@@ -102,7 +102,7 @@ Site reconstruction helpers:
 | Manuscript HTML | Rendered via sanitized remark/rehype pipeline (READ-003); missing file → alert state, not a blank page |
 | Routes not yet shipping manuscript HTML | Shell page may render; body placeholder until READ-003 |
 | Overview TOC links | Remain unset until READ-006 (`publicUrl` stays undefined) |
-| Search / sitemap eligibility | Remain false until READ-005 / READ-009 |
+| Search / sitemap eligibility | Sitemap unlocked for public chapters on public books (READ-009); search remains false until READ-005 |
 
 Downloads (EPUB/PDF/DOCX) remain valid reading paths regardless of reader rollout.
 
@@ -121,7 +121,8 @@ URLs may change presentation hosts; `editionId` + `chapter.id` must not.
 
 - Account-synced progress
 - Alternate pretty URLs based on chapter titles
-- Indexing or sitemap eligibility (READ-005 / READ-009)
+- Indexing for search (READ-005); sitemap eligibility shipped in READ-009
+- Overview / entity deep links (READ-006)
 - Manuscript HTML rendering (READ-003)
 
 ## Chapter kinds

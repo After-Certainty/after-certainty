@@ -103,7 +103,7 @@ Site roadmap headers that still say “planning only” for search are **stale**
 | Path/trail local progress | **Present** | `lib/paths/pathProgress.ts` — questions/trails only |
 | Bookmarks, text-size, reading themes, offline reading | **Absent** | Global site theme ≠ reader theme; no PWA reader |
 
-Public corpus validation **intentionally** keeps chapters `searchEligible` / `sitemapEligible` false until routes exist (`validate-public-corpus.ts`, `public-registry.ts`).
+Public corpus validation **intentionally** keeps chapters `searchEligible` false and `visibility: unlisted` until READ-005 / READ-006; sitemap eligibility for public chapters is unlocked (READ-009).
 
 ### 2.5 Semantic enrichment state
 
@@ -467,7 +467,8 @@ flowchart LR
 |-------|-------|
 | **Goal** | Include public chapter URLs in sitemap when eligible; Playwright smoke for pilot book chapters. |
 | **Type / owner / size** | implementation / site / M |
-| **Likely files** | `app/sitemap.ts`; `validate-public-corpus.ts`; `e2e/*` |
+| **Status** | Implemented — public chapter paths in sitemap + registry; validation enforces eligibility; after-certainty reader smoke E2E. |
+| **Likely files** | `app/sitemap.ts`; `public-registry.ts`; `validate-public-corpus.ts`; `e2e/reader-smoke.spec.ts` |
 | **Dependencies** | READ-002, READ-003 |
 | **Acceptance criteria** | Sitemap contains pilot chapter paths; validation enforces consistency; E2E covers open chapter → next → overview |
 | **Order** | 6 |
