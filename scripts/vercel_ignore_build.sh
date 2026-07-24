@@ -8,29 +8,6 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
-# Always build when we cannot compare (first deploy, missing SHAs).
-if [[ -z "${VERCEL_GIT_COMMIT_SHA:-}" ]]; then
-  echo "vercel_ignore_build: no VERCEL_GIT_COMMIT_SHA — build"
-  exit 1
-fi
-
-PREV="${VERCEL_GIT_PREVIOUS_SHA:-}"
-if [[ -z "$PREV" ]]; then
-  echo "vercel_ignore_build: no VERCEL_GIT_PREVIOUS_SHA — build"
-  exit 1
-fi
-
-if ! git cat-file -e "${PREV}^{commit}" 2>/dev/null; then
-  echo "vercel_ignore_build: previous SHA not in checkout — build"
-  exit 1
-fi
-
-mapfile -t CHANGED < <(git diff --name-only "$PREV" "$VERCEL_GIT_COMMIT_SHA" || true)
-if [[ ${#CHANGED[@]} -eq 0 ]]; then
-  echo "vercel_ignore_build: empty diff — skip"
-  exit 0
-fi
-
 # Prefixes/files that affect the public site or its local-manifest build.
 should_build() {
   local f="$1"
@@ -49,12 +26,45 @@ should_build() {
   esac
 }
 
-for f in "${CHANGED[@]}"; do
-  if should_build "$f"; then
-    echo "vercel_ignore_build: site-affecting change: $f — build"
-    exit 1
+decide_from_changed() {
+  local -a CHANGED=("$@")
+  if [[ ${#CHANGED[@]} -eq 0 ]]; then
+    echo "vercel_ignore_build: empty diff — skip"
+    exit 0
   fi
-done
+  for f in "${CHANGED[@]}"; do
+    [[ -z "$f" ]] && continue
+    if should_build "$f"; then
+      echo "vercel_ignore_build: site-affecting change: $f — build"
+      exit 1
+    fi
+  done
+  echo "vercel_ignore_build: no site-affecting paths — skip"
+  exit 0
+}
 
-echo "vercel_ignore_build: no site-affecting paths — skip"
-exit 0
+# Test hook: newline-separated paths (avoids git history / shallow clones).
+if [[ -n "${VERCEL_IGNORE_CHANGED_FILES:-}" ]]; then
+  mapfile -t CHANGED <<< "${VERCEL_IGNORE_CHANGED_FILES}"
+  decide_from_changed "${CHANGED[@]}"
+fi
+
+# Always build when we cannot compare (first deploy, missing SHAs).
+if [[ -z "${VERCEL_GIT_COMMIT_SHA:-}" ]]; then
+  echo "vercel_ignore_build: no VERCEL_GIT_COMMIT_SHA — build"
+  exit 1
+fi
+
+PREV="${VERCEL_GIT_PREVIOUS_SHA:-}"
+if [[ -z "$PREV" ]]; then
+  echo "vercel_ignore_build: no VERCEL_GIT_PREVIOUS_SHA — build"
+  exit 1
+fi
+
+if ! git cat-file -e "${PREV}^{commit}" 2>/dev/null; then
+  echo "vercel_ignore_build: previous SHA not in checkout — build"
+  exit 1
+fi
+
+mapfile -t CHANGED < <(git diff --name-only "$PREV" "$VERCEL_GIT_COMMIT_SHA" || true)
+decide_from_changed "${CHANGED[@]}"
