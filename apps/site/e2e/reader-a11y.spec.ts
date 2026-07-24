@@ -63,17 +63,17 @@ test.describe("reader accessibility baseline (READ-008)", () => {
     const href = await firstRef.getAttribute("href");
     expect(href?.startsWith("#")).toBe(true);
     const noteId = href!.slice(1);
-    await expect(page.locator(`#${CSS.escape(noteId)}`)).toHaveCount(1);
+    await expect(page.locator(`[id="${noteId}"]`)).toHaveCount(1);
 
     await firstRef.click();
-    await expect(page.locator(`#${CSS.escape(noteId)}`)).toBeVisible();
+    await expect(page.locator(`[id="${noteId}"]`)).toBeVisible();
 
-    const backref = page.locator(`#${CSS.escape(noteId)} a[data-footnote-backref]`).first();
+    const backref = page.locator(`[id="${noteId}"] a[data-footnote-backref]`).first();
     await expect(backref).toBeVisible();
     const backHref = await backref.getAttribute("href");
     expect(backHref?.startsWith("#")).toBe(true);
     const refId = backHref!.slice(1);
-    await expect(page.locator(`#${CSS.escape(refId)}`)).toHaveCount(1);
+    await expect(page.locator(`[id="${refId}"]`)).toHaveCount(1);
 
     // Non-color cue: underline present on footnote controls.
     const decoration = await firstRef.evaluate((el) => getComputedStyle(el).textDecorationLine);
