@@ -62,8 +62,8 @@ export type PublicCorpusRegistry = {
   thinkers: PublicEntityRecord[];
   sources: PublicEntityRecord[];
   /**
-   * Chapter metadata from schema 2.2. Unlisted until chapter routes ship —
-   * retained for integrity, TOC helpers, and future discovery.
+   * Chapter metadata from schema 2.2. Routes exist (READ-002) but chapters stay
+   * unlisted for search/sitemap until READ-005 / READ-009 unlock eligibility.
    */
   chapters: PublicEntityRecord[];
   /** Catalog view-model used to build this registry (reuse in integrity checks). */
@@ -291,7 +291,7 @@ export function buildPublicCorpusRegistry(graph: SemanticGraph): PublicCorpusReg
       slug: chapterSlugFromRouteKey(chapter.routeKey),
       title: chapter.title,
       publicStatus: chapter.public ? "public" : "hidden",
-      // Unlisted until dedicated chapter routes are shipped; routeKey is reserved.
+      // Routes exist (READ-002); keep unlisted until search/sitemap unlock (READ-005/009).
       visibility: "unlisted",
       canonicalUrl: chapter.routeKey,
       searchEligible: false,

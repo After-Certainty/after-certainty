@@ -80,7 +80,7 @@ export function chapterRouteKeyMatchesEditionSlug(routeKey: string, editionSlug:
 
 /**
  * Canonical public pathname for a chapter record (= `routeKey` when well-formed).
- * Does not imply the App Router page is live.
+ * Does not imply search/sitemap eligibility (READ-005 / READ-009).
  */
 export function chapterPublicPath(chapter: Pick<ManifestChapter, "routeKey">): string | null {
   if (!isValidChapterRouteKey(chapter.routeKey)) return null;

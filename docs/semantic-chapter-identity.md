@@ -99,7 +99,9 @@ Site reconstruction helpers:
 | Unknown book slug or chapter slug | `404` / `notFound()` |
 | Chapter exists but `public: false` | `404` (do not leak private units) |
 | Chapter `routeKey` malformed or book-slug mismatch | Treat as data error in corpus validation; do not publish a link |
-| Routes not yet shipped (current site) | Overview must **not** emit `href`s from `routeKey`; registry keeps chapters `searchEligible` / `sitemapEligible` false |
+| Routes not yet shipping manuscript HTML | Shell page may render; body placeholder until READ-003 |
+| Overview TOC links | Remain unset until READ-006 (`publicUrl` stays undefined) |
+| Search / sitemap eligibility | Remain false until READ-005 / READ-009 |
 
 Downloads (EPUB/PDF/DOCX) remain valid reading paths regardless of reader rollout.
 
