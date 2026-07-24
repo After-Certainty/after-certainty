@@ -22,6 +22,7 @@ import {
 import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
 import type { Relationship } from "@/types/semanticGraph";
 import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 
 type ObservatoryEntityPanelProps = {
   index: GraphIndex;
@@ -86,7 +87,9 @@ export function ObservatoryEntityPanel({
     bundle.thinkers.length > 0;
 
   const cover =
-    node.kind === "book" ? (coverBySlug[node.entity.slug] ?? node.entity.coverImage) : undefined;
+    node.kind === "book"
+      ? (coverBySlug[node.entity.slug] ?? resolveBookCoverSrc(node.entity, "thumbnail"))
+      : undefined;
 
   return (
     <div className="space-y-8 p-1">

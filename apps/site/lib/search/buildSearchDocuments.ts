@@ -23,6 +23,7 @@ import {
   type SearchDocument,
 } from "@/lib/search/types";
 import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
+import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 import { stripHtml } from "@/lib/podcast/sanitize";
 import type { PodcastEpisode } from "@/types/content";
 import type {
@@ -135,7 +136,7 @@ function buildBookDocument(
     contentType: typeInfo.contentType,
     contentTypeLabel: typeInfo.label,
     canonicalUrl: `${explorePaths.books}/${book.slug}`,
-    image: book.coverImage ?? undefined,
+    image: resolveBookCoverSrc(book, "thumbnail"),
     status,
     edition,
     isCanonicalEdition: hasEditionSiblings ? isCanonicalEdition : true,

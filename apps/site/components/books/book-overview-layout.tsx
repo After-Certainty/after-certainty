@@ -136,12 +136,12 @@ export function BookOverviewLayout({
           }
         >
           {coverSrc ? (
-            <div className="relative mx-auto aspect-[2/3] w-full max-w-[220px] shrink-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/40 md:mx-0">
+            <div className="relative mx-auto aspect-[2/3] w-full max-w-[220px] shrink-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/50 md:mx-0">
               <Image
                 src={coverSrc}
                 alt=""
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="(max-width:768px) 280px, 220px"
                 priority
               />

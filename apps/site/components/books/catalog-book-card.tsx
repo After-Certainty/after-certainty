@@ -26,13 +26,13 @@ export function CatalogBookCard({ book, location }: CatalogBookCardProps) {
           params: { book_id: book.id, location },
         }}
       >
-        <div className="relative aspect-[2/3] w-full overflow-hidden border-b border-border/40 bg-bg-elevated/40">
+        <div className="relative aspect-[2/3] w-full overflow-hidden border-b border-border/40 bg-bg-elevated/50">
           {book.coverImage ? (
             <Image
               src={book.coverImage}
               alt=""
               fill
-              className="object-cover opacity-95 transition-opacity duration-500 group-hover:opacity-100"
+              className="object-contain opacity-95 transition-opacity duration-500 group-hover:opacity-100"
               sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 33vw"
             />
           ) : (

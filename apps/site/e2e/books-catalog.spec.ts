@@ -7,6 +7,23 @@ test.describe("Books catalog", () => {
     await dismissCookieBanner(context, baseURL ?? "http://127.0.0.1:3000");
   });
 
+  test("catalog cards use generated card covers", async ({ page }) => {
+    await page.goto("/explore/books");
+    // next/image rewrites local public paths to /_next/image?url=%2Fgenerated%2F...
+    const cover = page
+      .locator("#main img[src*='_next/image'][src*='%2Fgenerated%2Fbook-covers%2F'][src*='card.webp']")
+      .first();
+    await expect(cover).toBeVisible();
+  });
+
+  test("book detail hero uses generated detail cover", async ({ page }) => {
+    await page.goto("/explore/books/after-certainty");
+    const cover = page.locator(
+      "#main img[src*='_next/image'][src*='%2Fgenerated%2Fbook-covers%2Fafter-certainty%2Fdetail.webp']",
+    );
+    await expect(cover).toBeVisible();
+  });
+
   test("default page shows Start Here and featured shelves", async ({ page }) => {
     await page.goto("/explore/books");
     await expect(page.getByRole("heading", { name: "Books", level: 1 })).toBeVisible();

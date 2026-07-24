@@ -83,7 +83,8 @@ jobs:
       - name: Verify semantic ontology (issue #116 Phase 1)
         run: |
           set -euo pipefail
-          make verify-semantic-ontology
+          # Python-only job: skip Sharp covers when node_modules are absent.
+          ALLOW_MISSING_WEB_COVERS=1 make verify-semantic-ontology
 
   test:
     name: pytest

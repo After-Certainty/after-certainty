@@ -4,6 +4,7 @@ import { BookCoverThumbnail } from "@/components/books/book-cover-thumbnail";
 import { WhatsNewHomePreview } from "@/components/whats-new/whats-new-home-preview";
 import { Container } from "@/components/ui/container";
 import { getBookDetailHref, getFeaturedBook } from "@/lib/content-data";
+import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 
 export async function MissionRecentSection() {
   const book = await getFeaturedBook();
@@ -45,7 +46,7 @@ export async function MissionRecentSection() {
               <>
                 <hr className="my-10 border-border/40" />
                 <div className="flex gap-5">
-                  <BookCoverThumbnail src={book.coverImage} />
+                  <BookCoverThumbnail src={resolveBookCoverSrc(book, "thumbnail")} />
                   <div className="min-w-0 flex-1">
                     <p className="text-[10px] uppercase tracking-[0.28em] text-accent">
                       Featured book

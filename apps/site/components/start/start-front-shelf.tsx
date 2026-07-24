@@ -3,17 +3,13 @@ import { BookCoverThumbnail } from "@/components/books/book-cover-thumbnail";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
-import {
-  buildCoverImageBySlugLookup,
-  resolveCoverForGraphBookSlug,
-} from "@/lib/explore/graph-book-covers";
+import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { FRONT_SHELF_ENTRIES, FRONT_SHELF_INTRO } from "@/lib/start/front-shelf";
 
 export async function StartFrontShelf() {
   const { graph } = await getExploreSemanticGraph();
   const booksBySlug = new Map(graph.books.map((book) => [book.slug, book]));
-  const coverLookup = buildCoverImageBySlugLookup(graph.books);
 
   return (
     <Section
@@ -29,10 +25,7 @@ export async function StartFrontShelf() {
           {FRONT_SHELF_ENTRIES.map((entry) => {
             const book = booksBySlug.get(entry.slug);
             const title = book?.title ?? entry.slug;
-            const coverSrc =
-              resolveCoverForGraphBookSlug(coverLookup, graph.books, entry.slug) ??
-              book?.coverImage ??
-              null;
+            const coverSrc = resolveBookCoverSrc(book, "thumbnail") ?? null;
             const href = `${explorePaths.books}/${entry.slug}`;
 
             return (

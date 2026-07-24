@@ -23,6 +23,7 @@ import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
 import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
 import type { Relationship } from "@/types/semanticGraph";
 import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 
 function labelForId(index: GraphIndex, id: string): string {
   const n = index.getNodeByCanonicalId(id);
@@ -79,7 +80,9 @@ export function EntityDetailView({
     bundle.thinkers.length > 0;
 
   const cover =
-    node.kind === "book" ? (coverBySlug[node.entity.slug] ?? node.entity.coverImage) : undefined;
+    node.kind === "book"
+      ? (coverBySlug[node.entity.slug] ?? resolveBookCoverSrc(node.entity, "thumbnail"))
+      : undefined;
 
   const enrichment =
     node.kind === "concept" || node.kind === "pattern" || node.kind === "situation"

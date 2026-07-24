@@ -83,7 +83,8 @@ jobs:
       - name: Generate local semantic manifest
         run: |
           set -euo pipefail
-          make generate-semantic-manifest
+          # Python-only job: skip Sharp covers when node_modules are absent.
+          ALLOW_MISSING_WEB_COVERS=1 make generate-semantic-manifest
 
       - name: Compare to public release
         run: |

@@ -45,6 +45,9 @@ fi
 
 "$PYTHON" tools/verify_semantic_yaml.py --repo . --strict-prose
 
+# Web-optimized cover derivatives (required before semantic manifest attach).
+node packages/corpus-tasks/scripts/generate-book-cover-assets.mjs --repo . --out build/site-assets/book-covers
+
 if [[ "$MODE" == "books" ]]; then
   "$PYTHON" tools/generate_books_manifest.py \
     --repo . \
@@ -62,6 +65,12 @@ fi
   --github-ref "main" \
   --release-tag "latest"
 "$PYTHON" tools/validate_semantic_manifest.py --repo . --manifest "$OUT_DIR/semantic-manifest.json"
+
+# Portable cover assets for external consumers (paths match coverImages[].path).
+if [[ -d build/site-assets/book-covers ]]; then
+  tar -C build/site-assets -czf "$OUT_DIR/semantic-cover-assets.tar.gz" book-covers
+  echo "Packed semantic-cover-assets.tar.gz"
+fi
 
 "$PYTHON" tools/scan_generated_secrets.py "$OUT_DIR"
 

@@ -1,4 +1,4 @@
-.PHONY: help sync-semantic check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help sync-semantic check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-book-cover-assets validate-book-cover-assets generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -9,6 +9,7 @@ FORMATS ?= docx epub
 SPELLCHECK_DIR ?= books/when-others-look-to-you/v1
 MANIFEST_OUT ?= build/books-manifest.json
 SEMANTIC_MANIFEST_OUT ?= build/semantic-manifest.json
+BOOK_COVER_ASSETS_OUT ?= build/site-assets/book-covers
 MANIFEST_REF ?= main
 MANIFEST_RELEASE_TAG ?= latest
 # Optional space-separated book ids for promote-semantic-source-drafts (default: all draft folders).
@@ -40,9 +41,11 @@ help:
 	@echo "  make generate-books-manifest [MANIFEST_OUT=build/books-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
 	@echo "  make validate-books-manifest [MANIFEST=build/books-manifest.json]"
 	@echo "  make verify-books-manifest [MANIFEST_OUT=build/books-manifest.json]"
+	@echo "  make generate-book-cover-assets  (WebP detail/card/thumbnail → build/site-assets/book-covers)"
+	@echo "  make validate-book-cover-assets  (parity of generated covers + optional site install)"
 	@echo "  make generate-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
 	@echo "  make compare-manifest-parity  (local build/ vs GitHub latest release; Stage B)"
-	@echo "  make install-local-manifest-for-site  (Stage C: copy build/ → apps/site/data/local-*.json)"
+	@echo "  make install-local-manifest-for-site  (Stage C: copy build/ → apps/site/data/local-*.json + public/generated/book-covers)"
 	@echo "  make verify-semantic-yaml  (parse + slug checks + prose audit; use before manifest)"
 	@echo "  make validate-semantic-entities  (JSON Schema + reference checks on semantic/**/*.yml)"
 	@echo "  make lint-semantic-graph  (graph quality warnings; LINT_STRICT=1 to fail)"
@@ -200,6 +203,14 @@ compare-manifest-parity:
 install-local-manifest-for-site:
 	python3 scripts/install_local_manifest_for_site.py --repo .
 
+generate-book-cover-assets:
+	node packages/corpus-tasks/scripts/generate-book-cover-assets.mjs --repo . --out "$(BOOK_COVER_ASSETS_OUT)" $(if $(ALLOW_MISSING_WEB_COVERS),--allow-missing-sharp,)
+
+validate-book-cover-assets:
+	node packages/corpus-tasks/scripts/validate-book-cover-assets.mjs --repo . --out "$(BOOK_COVER_ASSETS_OUT)" \
+		$(if $(REQUIRE_INSTALLED),--require-installed,) \
+		$(if $(REQUIRE_SEMANTIC),--require-semantic --semantic-manifest "$(SEMANTIC_MANIFEST_OUT)",)
+
 # Lightweight Python deps for manifest generate (Vercel / site-oriented builds).
 sync-semantic:
 	uv sync --frozen --only-group semantic
@@ -234,7 +245,7 @@ normalize-semantic-metadata:
 align-creator-slugs:
 	python3 tools/align_creator_slugs.py --repo . --apply
 
-generate-semantic-manifest: validate-book-specs verify-semantic-yaml
+generate-semantic-manifest: validate-book-specs verify-semantic-yaml generate-book-cover-assets
 	@repo="$${GITHUB_REPOSITORY:-$$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\.git$$##')}"; \
 	python3 tools/generate_semantic_manifest.py \
 		--repo . \

@@ -4,10 +4,6 @@ import { ConceptCard } from "@/components/explore/concept-card";
 import { PatternCard } from "@/components/explore/pattern-card";
 import { SourceCard } from "@/components/explore/source-card";
 import { ThinkerCard } from "@/components/explore/thinker-card";
-import {
-  buildCoverImageBySlugLookup,
-  resolveCoverForGraphBookSlug,
-} from "@/lib/explore/graph-book-covers";
 
 type RelatedContentGridProps = {
   heading?: string;
@@ -17,7 +13,7 @@ type RelatedContentGridProps = {
   sources?: Source[];
   thinkers?: Thinker[];
   className?: string;
-  /** When provided with graph `books`, resolves covers from slug + aliases. */
+  /** @deprecated BookCard resolves covers via resolveBookCover; retained for call-site compat. */
   booksForCovers?: Book[];
 };
 
@@ -29,13 +25,9 @@ export function RelatedContentGrid({
   sources = [],
   thinkers = [],
   className = "",
-  booksForCovers,
 }: RelatedContentGridProps) {
   const total = concepts.length + patterns.length + books.length + sources.length + thinkers.length;
   if (total === 0) return null;
-
-  const coverLookup =
-    booksForCovers && books.length > 0 ? buildCoverImageBySlugLookup(booksForCovers) : null;
 
   return (
     <section className={`space-y-6 ${className}`}>
@@ -50,16 +42,7 @@ export function RelatedContentGrid({
           <PatternCard key={p.id} pattern={p} />
         ))}
         {books.map((b) => (
-          <BookCard
-            key={b.id}
-            book={b}
-            coverImage={
-              coverLookup && booksForCovers
-                ? (resolveCoverForGraphBookSlug(coverLookup, booksForCovers, b.slug) ??
-                  b.coverImage)
-                : undefined
-            }
-          />
+          <BookCard key={b.id} book={b} />
         ))}
         {sources.map((s) => (
           <SourceCard key={s.id} source={s} />

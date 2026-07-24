@@ -1,5 +1,6 @@
 import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import { findBookBySlug } from "@/lib/books/book-metadata";
+import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex, graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { enrichPathStops, totalEstimatedMinutes } from "@/lib/paths/enrichStop";
@@ -35,7 +36,7 @@ function enrichPrimaryBook(
   return {
     primaryBookTitle: graphBook?.title ?? titleForGraphNode(index, resolvedId),
     primaryBookHref: `${explorePaths.books}/${canonicalSlug}`,
-    primaryBookCover: graphBook?.coverImage ?? undefined,
+    primaryBookCover: resolveBookCoverSrc(graphBook, "openGraph"),
   };
 }
 

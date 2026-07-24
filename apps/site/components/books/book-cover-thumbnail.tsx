@@ -14,12 +14,15 @@ type BookCoverThumbnailProps = {
   src?: string | null;
   size?: keyof typeof sizeClasses;
   className?: string;
+  /** Accessible name when the adjacent title is not sufficient. */
+  alt?: string;
 };
 
 export function BookCoverThumbnail({
   src,
   size = "default",
   className = "",
+  alt = "",
 }: BookCoverThumbnailProps) {
   return (
     <div
@@ -28,9 +31,9 @@ export function BookCoverThumbnail({
       {src ? (
         <Image
           src={src}
-          alt=""
+          alt={alt}
           fill
-          className="object-cover"
+          className="object-contain"
           sizes={imageSizes[size]}
         />
       ) : (

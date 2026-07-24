@@ -221,12 +221,21 @@ export function collectCatalogHealthIssues(input: {
   }
 
   for (const book of publicCanonical) {
-    if (!book.coverImage) {
+    const hasCover = Boolean(book.coverImage);
+    if (!hasCover) {
       issues.push({
         severity: "warning",
         code: "missing_cover",
         bookSlug: book.slug,
         detail: `Missing cover for "${book.slug}"`,
+      });
+    }
+    if (book.coverImage && !book.hasGeneratedCovers) {
+      issues.push({
+        severity: "warning",
+        code: "missing_generated_cover",
+        bookSlug: book.slug,
+        detail: `Eligible book "${book.slug}" still lacks generated coverImages`,
       });
     }
     if (!book.description) {

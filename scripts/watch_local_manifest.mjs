@@ -33,7 +33,7 @@ function runPipeline() {
   }
   running = true;
   pending = false;
-  log("regenerating + installing local manifest…");
+  log("regenerating covers + manifest + install…");
   const child = spawn(
     "bash",
     ["-lc", "npm run corpus:build-manifest && npm run site:install-local-manifest"],

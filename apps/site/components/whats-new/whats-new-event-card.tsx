@@ -24,8 +24,8 @@ export function WhatsNewEventCard({
     <article className="border-b border-border/30 py-8 last:border-b-0 first:pt-0">
       <div className="flex flex-col gap-5 sm:flex-row sm:gap-8">
         {event.image ? (
-          <div className="relative mx-auto aspect-[2/3] w-full max-w-[120px] shrink-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/40 sm:mx-0">
-            <Image src={event.image} alt="" fill className="object-cover" sizes="120px" />
+          <div className="relative mx-auto aspect-[2/3] w-full max-w-[120px] shrink-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/50 sm:mx-0">
+            <Image src={event.image} alt="" fill className="object-contain" sizes="120px" />
           </div>
         ) : null}
         <div className="min-w-0 flex-1 space-y-3">

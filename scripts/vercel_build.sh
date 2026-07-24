@@ -20,6 +20,9 @@ if [[ -n "${VERCEL_GIT_COMMIT_SHA:-}" ]]; then
 fi
 python3 scripts/install_local_manifest_for_site.py "${install_args[@]}"
 
+# Fail the deploy if generated covers and manifest diverge from installed public assets.
+REQUIRE_INSTALLED=1 REQUIRE_SEMANTIC=1 make validate-book-cover-assets
+
 npm run site:build
 
-echo "vercel_build: site built with local checkout manifest (USE_LOCAL=1 OFFLINE=1)"
+echo "vercel_build: site built with local checkout manifest + book covers (USE_LOCAL=1 OFFLINE=1)"

@@ -34,15 +34,41 @@
       "outputs": [],
       "env": ["SEMANTIC_MANIFEST_USE_LOCAL", "SEMANTIC_MANIFEST_OFFLINE"]
     },
+    "build-web-covers": {
+      "inputs": [
+        "$TURBO_ROOT$/books/**/book.yml",
+        "$TURBO_ROOT$/books/**/book-cover.png",
+        "$TURBO_ROOT$/books/**/BookCover.png",
+        "$TURBO_ROOT$/upcoming/**/upcoming.yml",
+        "$TURBO_ROOT$/upcoming/**/book.yml",
+        "$TURBO_ROOT$/upcoming/**/book-cover.png",
+        "$TURBO_ROOT$/schema/book.schema.json",
+        "$TURBO_ROOT$/schema/upcoming.schema.json",
+        "$TURBO_ROOT$/tools/list_book_covers.py",
+        "$TURBO_ROOT$/tools/manifest_books.py",
+        "$TURBO_ROOT$/tools/book_specs.py",
+        "$TURBO_ROOT$/tools/path_safety.py",
+        "$TURBO_ROOT$/tools/book_output_stem.py",
+        "$TURBO_ROOT$/packages/corpus-tasks/scripts/generate-book-cover-assets.mjs",
+        "$TURBO_ROOT$/packages/corpus-tasks/scripts/book-cover-variants.mjs",
+        "$TURBO_ROOT$/packages/corpus-tasks/package.json",
+        "$TURBO_ROOT$/package-lock.json",
+        "$TURBO_ROOT$/Makefile"
+      ],
+      "outputs": ["$TURBO_ROOT$/build/site-assets/book-covers/**"]
+    },
     "build-manifest": {
+      "dependsOn": ["build-web-covers"],
       "inputs": [
         "$TURBO_ROOT$/books/**",
         "$TURBO_ROOT$/semantic/**",
         "$TURBO_ROOT$/schema/**",
         "$TURBO_ROOT$/upcoming/**",
+        "$TURBO_ROOT$/build/site-assets/book-covers/**",
         "$TURBO_ROOT$/tools/generate_semantic_manifest.py",
         "$TURBO_ROOT$/tools/discovery_manifest.py",
         "$TURBO_ROOT$/tools/manifest_books.py",
+        "$TURBO_ROOT$/tools/cover_assets_manifest.py",
         "$TURBO_ROOT$/tools/manifest_markdown.py",
         "$TURBO_ROOT$/tools/book_specs.py",
         "$TURBO_ROOT$/tools/manuscript_structure.py",
@@ -60,11 +86,13 @@
       "dependsOn": ["build-manifest"],
       "inputs": [
         "$TURBO_ROOT$/build/semantic-manifest.json",
+        "$TURBO_ROOT$/build/site-assets/book-covers/**",
         "$TURBO_ROOT$/scripts/install_local_manifest_for_site.py"
       ],
       "outputs": [
         "$TURBO_ROOT$/apps/site/data/local-semantic-manifest.json",
-        "$TURBO_ROOT$/apps/site/data/local-intended-manifest-release.json"
+        "$TURBO_ROOT$/apps/site/data/local-intended-manifest-release.json",
+        "$TURBO_ROOT$/apps/site/public/generated/book-covers/**"
       ]
     },
     "parity": {
@@ -81,6 +109,14 @@
     "validate-manifest": {
       "dependsOn": ["build-manifest"],
       "inputs": ["$TURBO_ROOT$/build/semantic-manifest.json"],
+      "outputs": []
+    },
+    "validate-web-covers": {
+      "dependsOn": ["build-web-covers"],
+      "inputs": [
+        "$TURBO_ROOT$/build/site-assets/book-covers/**",
+        "$TURBO_ROOT$/packages/corpus-tasks/scripts/validate-book-cover-assets.mjs"
+      ],
       "outputs": []
     }
   }
