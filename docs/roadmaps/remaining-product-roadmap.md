@@ -454,6 +454,8 @@ flowchart LR
 | **Goal** | Landmarks, skip-to-content within reader, footnote accessibility, focus order, reduced-motion, zoom-friendly type. |
 | **Why it matters** | Reading is an a11y-critical surface. |
 | **Type / owner / size** | implementation / site / M |
+| **Status** | Implemented — reader landmarks/skip, footnote id pairing fix, always-on underline, reduced-motion scroll, checklist + E2E. |
+| **Likely files** | `chapter-reader-shell.tsx`; `render-manuscript-html.ts`; `globals.css`; `apps/site/docs/reader-a11y-checklist.md`; `e2e/reader-a11y.spec.ts` |
 | **Dependencies** | READ-003 |
 | **Acceptance criteria** | Checklist documented and covered by tests/E2E a11y assertions for reader chrome; no reliance on color alone for footnotes |
 | **Parallel?** | With READ-004 |
