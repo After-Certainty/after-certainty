@@ -45,7 +45,7 @@ help:
 	@echo "  make validate-book-cover-assets  (parity of generated covers + optional site install)"
 	@echo "  make generate-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
 	@echo "  make compare-manifest-parity  (local build/ vs GitHub latest release; Stage B)"
-	@echo "  make install-local-manifest-for-site  (Stage C: copy build/ → apps/site/data/local-*.json + public/generated/book-covers)"
+	@echo "  make install-local-manifest-for-site  (Stage C: copy build/ → apps/site/data/local-*.json + manuscripts + public/generated/book-covers)"
 	@echo "  make verify-semantic-yaml  (parse + slug checks + prose audit; use before manifest)"
 	@echo "  make validate-semantic-entities  (JSON Schema + reference checks on semantic/**/*.yml)"
 	@echo "  make lint-semantic-graph  (graph quality warnings; LINT_STRICT=1 to fail)"

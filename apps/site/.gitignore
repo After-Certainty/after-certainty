@@ -55,5 +55,8 @@ next-env.d.ts
 /data/local-semantic-manifest.json
 /data/local-intended-manifest-release.json
 
+# Native Reader manuscripts installed for SSR (READ-003; do not commit)
+/data/manuscripts/
+
 # Generated book-cover WebP derivatives (installed from build/site-assets)
 /public/generated/book-covers/

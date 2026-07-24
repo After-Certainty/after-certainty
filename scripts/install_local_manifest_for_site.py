@@ -8,6 +8,10 @@ generated manifest without overwriting the committed production fallback.
 Also installs generated book-cover WebP derivatives into
 apps/site/public/generated/book-covers/ (replacing stale slug directories).
 
+Also installs chapter manuscript Markdown into
+apps/site/data/manuscripts/ (mirroring bookDir) so Native Reader SSR can
+read files on Vercel without relying on monorepo file tracing alone.
+
 Public release artifacts remain published; Stage D disables runtime remote fetch
 via env on the deployment.
 """
@@ -116,6 +120,82 @@ def _install_book_covers(
     return 0
 
 
+def _safe_book_dir(book_dir: str, *, repo: Path) -> Path | None:
+    """Return resolved book dir under repo/books, or None if unsafe/missing."""
+    rel = book_dir.strip().replace("\\", "/").lstrip("/")
+    if not rel or ".." in rel.split("/") or rel.startswith("/"):
+        return None
+    if not rel.startswith("books/"):
+        return None
+    src = (repo / rel).resolve()
+    books_root = (repo / "books").resolve()
+    if src != books_root and books_root not in src.parents:
+        return None
+    if not src.is_dir():
+        return None
+    return src
+
+
+def _install_manuscripts(
+    *,
+    repo: Path,
+    manifest: dict,
+    site_data: Path,
+) -> int:
+    """Copy chapter markdown into apps/site/data/manuscripts/{bookDir}/…"""
+    dest_root = site_data / "manuscripts"
+    if dest_root.exists():
+        shutil.rmtree(dest_root)
+    dest_root.mkdir(parents=True, exist_ok=True)
+
+    books = manifest.get("books")
+    if not isinstance(books, list):
+        print("error: manifest missing books array", file=sys.stderr)
+        return 1
+
+    copied = 0
+    for book in books:
+        if not isinstance(book, dict):
+            continue
+        book_dir = book.get("bookDir")
+        slug = book.get("slug")
+        if not isinstance(book_dir, str) or not book_dir.strip():
+            # Fallback for older manifests without bookDir.
+            if isinstance(slug, str) and slug.strip():
+                book_dir = f"books/{slug.strip()}"
+            else:
+                continue
+        src = _safe_book_dir(book_dir, repo=repo)
+        if src is None:
+            print(
+                f"warning: skip manuscripts for unsafe/missing bookDir={book_dir!r}",
+                file=sys.stderr,
+            )
+            continue
+        rel_book = Path(book_dir.strip().replace("\\", "/").lstrip("/"))
+        for md in sorted(src.rglob("*.md")):
+            if not md.is_file():
+                continue
+            rel = md.relative_to(src)
+            # Skip nested huge caches if any appear under book dirs.
+            if any(part.startswith(".") for part in rel.parts):
+                continue
+            target = dest_root / rel_book / rel
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(md, target)
+            copied += 1
+
+    marker = dest_root / "README.md"
+    marker.write_text(
+        "# Installed chapter manuscripts\n\n"
+        "Produced by `make install-local-manifest-for-site` for Native Reader SSR "
+        "(READ-003). Do not edit or commit; regenerate from the corpus checkout.\n",
+        encoding="utf-8",
+    )
+    print(f"Installed manuscripts → {dest_root} ({copied} markdown files)")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -152,6 +232,11 @@ def main(argv: list[str] | None = None) -> int:
         "--skip-covers",
         action="store_true",
         help="Install JSON only (tests / emergency).",
+    )
+    parser.add_argument(
+        "--skip-manuscripts",
+        action="store_true",
+        help="Skip copying chapter markdown into apps/site/data/manuscripts.",
     )
     parser.add_argument(
         "--require-deploy-sha",
@@ -224,6 +309,11 @@ def main(argv: list[str] | None = None) -> int:
 
     if not args.skip_covers:
         code = _install_book_covers(repo=repo, cover_source=cover_source, site_covers=site_covers)
+        if code != 0:
+            return code
+
+    if not args.skip_manuscripts:
+        code = _install_manuscripts(repo=repo, manifest=manifest, site_data=site_data)
         if code != 0:
             return code
 

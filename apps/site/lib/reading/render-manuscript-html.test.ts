@@ -1,4 +1,6 @@
 import { describe, expect, it } from "vitest";
+import fs from "node:fs";
+import path from "node:path";
 
 import { preprocessManuscriptMarkdown, rewriteManuscriptAssetUrls } from "@/lib/reading/preprocess-manuscript";
 import { renderManuscriptHtml } from "@/lib/reading/render-manuscript-html";
@@ -80,6 +82,7 @@ describe("resolveManuscriptPath", () => {
       expect(result.absolutePath.endsWith("books/after-certainty/front-matter/introduction.md")).toBe(
         true,
       );
+      expect(result.source === "checkout" || result.source === "installed").toBe(true);
     }
   });
 
@@ -92,5 +95,32 @@ describe("resolveManuscriptPath", () => {
     });
     expect(result.ok).toBe(false);
     if (!result.ok) expect(result.reason).toBe("path_escape");
+  });
+
+  it("prefers installed manuscripts under apps/site/data/manuscripts when present", () => {
+    const repoRoot = resolveMonorepoRoot();
+    const installed = path.join(
+      repoRoot,
+      "apps/site/data/manuscripts/books/after-certainty/front-matter/introduction.md",
+    );
+    const checkout = path.join(
+      repoRoot,
+      "books/after-certainty/front-matter/introduction.md",
+    );
+    // Only assert preference when an install has been run in this workspace.
+    if (!fs.existsSync(installed)) {
+      expect(fs.existsSync(checkout)).toBe(true);
+      return;
+    }
+    const result = resolveManuscriptPath({
+      book: { slug: "after-certainty", bookDir: "books/after-certainty" },
+      sourcePath: "front-matter/introduction.md",
+      repoRoot,
+    });
+    expect(result.ok).toBe(true);
+    if (result.ok) {
+      expect(result.source).toBe("installed");
+      expect(result.absolutePath).toBe(path.resolve(installed));
+    }
   });
 });

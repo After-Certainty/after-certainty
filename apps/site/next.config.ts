@@ -15,8 +15,9 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   outputFileTracingRoot: monorepoRoot,
   outputFileTracingIncludes: {
-    // Globs are relative to the Next.js project root (apps/site).
-    "/explore/books/*/chapters/*": ["../../books/**/*.md"],
+    // Installed manuscripts live inside the Next project after install-local-manifest.
+    "/explore/books/[slug]/chapters/[chapterSlug]": ["./data/manuscripts/**/*"],
+    "/explore/books/*/chapters/*": ["./data/manuscripts/**/*", "../../books/**/*.md"],
   },
   async headers() {
     return [
