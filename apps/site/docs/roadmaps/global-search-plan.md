@@ -43,17 +43,14 @@ Primary routes live under `app/`. Explore browse indexes sit in `app/explore/(br
 
 ```mermaid
 flowchart LR
-  ContentRepo[after-certainty content release]
-  ContentRepo -->|semantic-manifest.json| Site[Next.js on Vercel]
-  ContentRepo -->|books-manifest.json| Site
+  ContentRepo[after-certainty monorepo corpus]
+  ContentRepo -->|installed local semantic-manifest.json| Site[Next.js on Vercel]
   Anchor[Podcast RSS] --> Site
   Site -->|bundled fallback| DataDir[data/*.json]
-  GHActions[Content CI] -->|Bearer secret| Revalidate[POST /api/cache/revalidate]
-  Revalidate -->|revalidateTag| Site
+  GHActions[Site CI] -->|Bearer secret| Revalidate[POST /api/cache/revalidate podcast]
 ```
 
-- Semantic graph: `lib/graph/manifest.ts` → GitHub release `latest/semantic-manifest.json`, cache tag `semantic-graph`, default revalidate 3600s; fallback `data/semantic-manifest.json`.
-- Books catalog: `lib/books/manifest.ts` → `books-manifest.json`, cache tag `books-catalog`; fallback `data/books-manifest.json`.
+- Semantic graph: `lib/graph/manifest.ts` loads the installed local manifest, with committed `data/semantic-manifest.json` retained as an offline/test fixture.
 - Podcast: `lib/podcast/rss.ts` → Anchor RSS; fallback `data/podcast-episodes.json`.
 - Explore merge: `lib/explore/exploreSemanticGraph.ts` + `mergeCatalogBooksIntoSemanticGraph.ts`.
 

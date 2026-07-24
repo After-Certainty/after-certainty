@@ -7,7 +7,7 @@ export type ManifestBuildLock = {
   sourceCommit: string;
   generatedAt: string;
   contentVersion?: string | null;
-  manifestSource: "remote" | "fallback";
+  manifestSource: "fallback";
   cacheIdentity: string;
   buildTime: string;
   stale: boolean;

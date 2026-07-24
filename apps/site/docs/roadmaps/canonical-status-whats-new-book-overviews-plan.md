@@ -25,8 +25,8 @@ These three features share one prerequisite: **normalized canonical and publicat
 
 **Facts from repository:**
 
-- Stack: Next.js **16.2.10**, React **19.2.7**, Tailwind 4, TypeScript; deployed on Vercel with ISR (`fetch` revalidate ≈ 3600s, cache tag `semantic-graph`).
-- Books originate in the **content repo**; this site consumes `semantic-manifest.json` (remote release + bundled [`data/semantic-manifest.json`](../../data/semantic-manifest.json)).
+- Stack: Next.js **16.2.10**, React **19.2.7**, Tailwind 4, TypeScript; deployed on Vercel with local semantic manifest loading and podcast ISR.
+- Books originate in the **monorepo corpus**; this site consumes an installed local `semantic-manifest.json` plus committed [`data/semantic-manifest.json`](../../data/semantic-manifest.json) as an offline/test fixture.
 - Bundled graph currently has **31 books**, all `status: "published"`, all `year: 2026`, all `publicationDate: null`.
 - There is **no `workId` / `editionId` model**. Edition grouping is inferred from `-vN` slug suffixes and companion fields in [`lib/books/canonical-editions.ts`](../../lib/books/canonical-editions.ts).
 - The only multi-edition slug group is **When Others Look to You** (`when-others-look-to-you-v1` / `v2`).
@@ -71,10 +71,10 @@ Canonical book path helper: `explorePaths.books` → `/explore/books` ([`lib/gra
 
 ### 2.3 Content repository boundaries (fact)
 
-| Lives in content repo (`ksteffe/after-certainty`)                                                  | Lives in site repo                                                     |
+| Lives in monorepo corpus                                                                           | Lives in site app                                                       |
 | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| Books, glossary, patterns, situations, sources, thinkers, relationships → `semantic-manifest.json` | Trails, questions, search aliases, contributors, shelves, taxonomy, UI |
-| GitHub release asset + optional CI revalidate POST                                                 | Next.js app, design, analytics                                         |
+| Books, glossary, patterns, situations, sources, thinkers, relationships -> `semantic-manifest.json` | Trails, questions, search aliases, contributors, shelves, taxonomy, UI |
+| Public release asset for external consumers                                                        | Next.js app, design, analytics, podcast revalidate                     |
 
 This site **does not** transform manuscripts into manifests. Local scripts only include OG image generation (`scripts/generate-og.mjs`).
 
@@ -104,26 +104,26 @@ This site **does not** transform manuscripts into manifests. Local scripts only 
 flowchart TB
   ContentRepo["Content repo books dirs"]
   ExportCI["Upstream export CI"]
-  Release["GitHub release asset semantic-manifest.json"]
-  Bundled["data/semantic-manifest.json fallback"]
-  Fetch["getSemanticGraph ISR"]
+  Local["data/local-semantic-manifest.json"]
+  Fixture["data/semantic-manifest.json fixture"]
+  Fetch["getSemanticGraph local/offline load"]
   Zod["semanticGraphSchema Zod"]
   Graph["SemanticGraph.books"]
   Catalog["buildCatalogViewModel"]
   Shelves["shelves.ts + taxonomy"]
   Detail["/explore/books/slug"]
   Search["buildSearchDocuments"]
-  Revalidate["POST /api/cache/revalidate semantic"]
+  Validate["validate:fallback / validate:public-corpus"]
 
-  ContentRepo --> ExportCI --> Release
-  Release --> Fetch
-  Bundled --> Fetch
+  ContentRepo --> ExportCI --> Local
+  Fixture --> Fetch
+  Local --> Fetch
   Fetch --> Zod --> Graph
   Graph --> Catalog
   Shelves --> Catalog
   Graph --> Detail
   Graph --> Search
-  ExportCI -.-> Revalidate --> Fetch
+  Local -.-> Validate
 ```
 
 ### Ownership answers (judgment, grounded in facts)
@@ -132,7 +132,7 @@ flowchart TB
 | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | Where book information originates              | Content repo → `semantic-manifest.json`                                                                           |
 | Which scripts transform it                     | Upstream export CI (not in this site repo)                                                                        |
-| Which artifacts the site consumes              | Remote + bundled semantic manifest; site shelves/taxonomy; questions/trails manifests                             |
+| Which artifacts the site consumes              | Installed local semantic manifest; committed offline fixture; site shelves/taxonomy; questions/trails manifests   |
 | Which layer should own canonical status        | **Upstream book fields preferred**; interim **site publication registry** for explicit flags until upstream ships |
 | Which layer should own public change events    | **Site-authored** `data/whats-new.json` (+ narrow auto-candidates)                                                |
 | Which layer should assemble book overview data | Site **view-model** joining graph book + overview overlay + resolved status/edition                               |

@@ -2,19 +2,15 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import fallback from "@/data/semantic-manifest.json";
 import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
-import { DEFAULT_SEMANTIC_MANIFEST_URL } from "@/lib/site-config";
 import {
   dedupeSemanticGraphBooks,
   fetchSemanticGraphUncached,
   fetchSemanticGraphLoadResultUncached,
   isCompatibleSchemaVersion,
   isFallbackStale,
-  pickSemanticGraph,
-  selectRemoteOrFallback,
   validateSemanticGraph,
-  SEMANTIC_GRAPH_CACHE_TAG,
 } from "@/lib/graph/manifest";
-import type { Book, SemanticGraph } from "@/types/semanticGraph";
+import type { Book } from "@/types/semanticGraph";
 
 function validatedFallbackGraph() {
   const result = validateSemanticGraph(fallback as unknown);
@@ -566,68 +562,6 @@ describe("dedupeSemanticGraphBooks", () => {
   });
 });
 
-describe("selectRemoteOrFallback", () => {
-  it("prefers valid remote when it has books, even if unenriched", () => {
-    const bundled = validatedFallbackGraph();
-    const remote: SemanticGraph = {
-      ...bundled,
-      generatedAt: "2026-07-01T00:00:00.000Z",
-      sources: bundled.sources.map((source) => ({
-        id: source.id,
-        slug: source.slug,
-        name: source.name,
-        type: source.type,
-        summary: source.summary,
-        concepts: source.concepts,
-        patterns: source.patterns,
-        relatedBooks: source.relatedBooks,
-      })),
-      thinkers: undefined,
-    };
-
-    const selected = selectRemoteOrFallback(remote, bundled);
-    expect(selected.usedFallback).toBe(false);
-    expect(selected.graph.books.length).toBe(remote.books.length);
-  });
-
-  it("falls back when remote has no books", () => {
-    const bundled = validatedFallbackGraph();
-    const remote: SemanticGraph = {
-      ...bundled,
-      books: [],
-      generatedAt: "2026-07-07T00:00:00.000Z",
-    };
-
-    const selected = selectRemoteOrFallback(remote, bundled);
-    expect(selected.usedFallback).toBe(true);
-    expect(selected.reason).toBe("empty_remote");
-    expect(selected.graph.books.length).toBe(bundled.books.length);
-  });
-});
-
-describe("pickSemanticGraph (compat)", () => {
-  it("returns remote when remote has books", () => {
-    const remote = validatedFallbackGraph();
-    const legacyRemote: SemanticGraph = {
-      ...remote,
-      generatedAt: "2026-07-01T00:00:00.000Z",
-      sources: remote.sources.map((source) => ({
-        id: source.id,
-        slug: source.slug,
-        name: source.name,
-        type: source.type,
-        summary: source.summary,
-        concepts: source.concepts,
-        patterns: source.patterns,
-        relatedBooks: source.relatedBooks,
-      })),
-    };
-
-    const picked = pickSemanticGraph(legacyRemote, remote);
-    expect(picked.books.length).toBe(legacyRemote.books.length);
-  });
-});
-
 describe("schema and staleness helpers", () => {
   it("accepts schema major 2 and rejects major 3", () => {
     expect(isCompatibleSchemaVersion(undefined)).toBe(true);
@@ -651,14 +585,11 @@ describe("schema and staleness helpers", () => {
 describe("fetchSemanticGraphUncached", () => {
   let prevOffline: string | undefined;
   let prevUseLocal: string | undefined;
-  let prevManifestUrl: string | undefined;
   let fetchSpy: ReturnType<typeof vi.spyOn>;
 
   beforeEach(() => {
     prevOffline = process.env.SEMANTIC_MANIFEST_OFFLINE;
     prevUseLocal = process.env.SEMANTIC_MANIFEST_USE_LOCAL;
-    prevManifestUrl = process.env.SEMANTIC_MANIFEST_URL;
-    delete process.env.SEMANTIC_MANIFEST_URL;
     delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
     fetchSpy = vi.spyOn(globalThis, "fetch");
   });
@@ -668,8 +599,6 @@ describe("fetchSemanticGraphUncached", () => {
     else process.env.SEMANTIC_MANIFEST_OFFLINE = prevOffline;
     if (prevUseLocal === undefined) delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
     else process.env.SEMANTIC_MANIFEST_USE_LOCAL = prevUseLocal;
-    if (prevManifestUrl === undefined) delete process.env.SEMANTIC_MANIFEST_URL;
-    else process.env.SEMANTIC_MANIFEST_URL = prevManifestUrl;
     fetchSpy.mockRestore();
   });
 
@@ -689,117 +618,15 @@ describe("fetchSemanticGraphUncached", () => {
     expect(result.diagnostics.some((d) => /USE_LOCAL/.test(d.message))).toBe(true);
   });
 
-  it("fetches remote JSON when online and serves valid remote even if unenriched", async () => {
+  it("does not fetch remotely when online flags are unset", async () => {
     delete process.env.SEMANTIC_MANIFEST_OFFLINE;
     delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
-    const payload = {
-      books: [
-        { id: "b1", slug: "book-one", title: "Book One", concepts: [], patterns: [], sources: [] },
-      ],
-      glossary: [
-        {
-          id: "c1",
-          slug: "concept-one",
-          title: "Concept One",
-          shortDefinition: "Short",
-          relatedConcepts: [],
-          relatedPatterns: [],
-          relatedBooks: [],
-        },
-      ],
-      patterns: [],
-      situations: [],
-      sources: [],
-      relationships: [],
-      schemaVersion: "2.2",
-      generatedAt: "2026-07-23T00:00:00.000Z",
-    };
-    fetchSpy.mockResolvedValue({
-      ok: true,
-      json: async () => payload,
-    } as Response);
 
     const result = await fetchSemanticGraphLoadResultUncached();
 
-    expect(fetchSpy).toHaveBeenCalledWith(
-      DEFAULT_SEMANTIC_MANIFEST_URL,
-      expect.objectContaining({
-        headers: { Accept: "application/json, */*" },
-        next: expect.objectContaining({
-          revalidate: expect.any(Number),
-          tags: expect.arrayContaining([SEMANTIC_GRAPH_CACHE_TAG]),
-        }),
-      }),
-    );
-    expect(result.source.kind).toBe("remote");
-    expect(result.source.stale).toBe(false);
-    expect(result.source.cacheIdentity).toContain("remote");
-    expect(result.source.cacheIdentity).toContain("2.2");
-    expect(result.graph.books.map((b) => b.slug)).toEqual(["book-one"]);
-  });
-
-  it("falls back to bundled graph when fetch fails", async () => {
-    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
-    fetchSpy.mockRejectedValue(new Error("network"));
-
-    const graph = await fetchSemanticGraphUncached();
-
-    expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
-  });
-
-  it("falls back when response is not ok", async () => {
-    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
-    fetchSpy.mockResolvedValue({ ok: false, status: 500 } as Response);
-
-    const graph = await fetchSemanticGraphUncached();
-
-    expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
-  });
-
-  it("falls back when remote JSON fails validation", async () => {
-    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
-    fetchSpy.mockResolvedValue({
-      ok: true,
-      json: async () => ({ books: "nope" }),
-    } as Response);
-
-    const graph = await fetchSemanticGraphUncached();
-
-    expect(graph.glossary).toEqual(validatedFallbackGraph().glossary);
-  });
-
-  it("falls back when remote has no books", async () => {
-    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
-    fetchSpy.mockResolvedValue({
-      ok: true,
-      json: async () => ({
-        manifestVersion: 1,
-        generatedAt: "2026-07-01T00:00:00.000Z",
-        books: [],
-        glossary: [],
-        patterns: [],
-        situations: [],
-        sources: [
-          {
-            id: "source-legacy",
-            slug: "legacy-source",
-            name: "Legacy Source",
-            type: "book",
-            summary: "Legacy",
-            concepts: [],
-            patterns: [],
-            relatedBooks: [],
-          },
-        ],
-        relationships: [],
-      }),
-    } as Response);
-
-    const result = await fetchSemanticGraphLoadResultUncached();
+    expect(fetchSpy).not.toHaveBeenCalled();
     expect(result.source.kind).toBe("fallback");
-    if (result.source.kind === "fallback") {
-      expect(result.source.reason).toBe("empty_remote");
-    }
+    expect(result.source.cacheIdentity).toContain("local:checkout");
     expect(result.graph.books.length).toBeGreaterThan(0);
   });
 

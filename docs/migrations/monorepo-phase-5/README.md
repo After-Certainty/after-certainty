@@ -1,6 +1,6 @@
 # Monorepo Phase 5 — Production uses local manifest (Stage D)
 
-**Status:** This PR  
+**Status:** Complete (merged). Phase 6: [`../monorepo-phase-6/`](../monorepo-phase-6/).  
 **Plan:** [`docs/roadmaps/monorepo-migration-plan.md`](../../roadmaps/monorepo-migration-plan.md) §24 Phase 5  
 **Predecessor:** [`../monorepo-phase-4/`](../monorepo-phase-4/)
 
@@ -25,7 +25,7 @@
 |----------|----------------------------------|
 | `SEMANTIC_MANIFEST_USE_LOCAL` | `1` (set by `vercel_build.sh`; also set in Vercel project env for runtime) |
 | `SEMANTIC_MANIFEST_OFFLINE` | `1` (same) |
-| `SEMANTIC_MANIFEST_URL` | unused (may remain set; ignored when local/offline) |
+| `SEMANTIC_MANIFEST_URL` | removed as a site runtime knob in Phase 6 |
 | Committed `data/semantic-manifest.json` | Emergency fallback only; not SoT |
 | Public GitHub `latest` manifest | Still published by book-export release |
 
@@ -44,7 +44,7 @@
 | Node | 20.x |
 | Python | 3.12 available at build (used via uv) |
 
-Also keep existing `NEXT_PUBLIC_SITE_URL`, podcast, GA, and `CACHE_REVALIDATE_SECRET` (podcast + semantic revalidate until Phase 6).
+Also keep existing `NEXT_PUBLIC_SITE_URL`, podcast, GA, and `CACHE_REVALIDATE_SECRET` (podcast-only revalidate in Phase 6).
 
 ## Manual cutover checklist
 
@@ -89,4 +89,4 @@ Site CI (Phase 4) already exercises local-manifest generate/install/build.
 
 ## Next
 
-**Phase 6:** After a stability window, remove obsolete sync machinery (remote fetch, semantic ISR revalidate target, fallback sync skill).
+**Phase 6:** Remove obsolete sync machinery (remote fetch, semantic ISR revalidate target, fallback sync skill).

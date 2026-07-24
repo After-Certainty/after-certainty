@@ -1,6 +1,6 @@
 # Monorepo migration plan: after-certainty + after-certainty-site
 
-**Status:** Phases 0–4 complete. Phase 5 in progress ([`docs/migrations/monorepo-phase-5/`](../migrations/monorepo-phase-5/)).  
+**Status:** Phases 0–5 complete. Phase 6 in progress ([`docs/migrations/monorepo-phase-6/`](../migrations/monorepo-phase-6/)).  
 **Date:** 2026-07-23  
 **Surviving repository (recommended):** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Site repository (to import, then archive):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
@@ -174,7 +174,7 @@ Gitignored (among others): `build/`, `.venv/`, `.pytest_cache/`, `.ruff_cache/`,
 
 **Fact — scripts**
 
-`dev`, `build`, `start`, `lint`, `test`, `test:e2e`, `format`, `generate:og`, `sync:semantic-manifest`, `validate:fallback`, `validate:public-corpus`, `validate:release-identity`, Husky `prepare`.
+`dev`, `build`, `start`, `lint`, `test`, `test:e2e`, `format`, `generate:og`, `validate:fallback`, `validate:public-corpus`, Husky `prepare`.
 
 No dedicated `typecheck` script; `next build` type-checks.
 
@@ -217,9 +217,8 @@ after-certainty YAML (books/, semantic/, schema/)
   → build/semantic-manifest.json
   → prepare_release_staging.sh + publish_latest_release.sh
   → GitHub release tag `latest` asset semantic-manifest.json
-       ├─→ site runtime fetch (ISR, tag semantic-graph)
-       ├─→ site sync:semantic-manifest → committed data/semantic-manifest.json fallback
-       └─→ POST /api/cache/revalidate {targets:["podcast","semantic"]} via CACHE_REVALIDATE_SECRET
+       ├─→ public artifact for external consumers / parity
+       └─→ site no longer fetches this asset at runtime after Phase 6
 ```
 
 **Fact — duplicated / mirrored contracts**
@@ -229,7 +228,7 @@ after-certainty YAML (books/, semantic/, schema/)
 | Manifest JSON Schema | `schema/semantic-manifest.schema.json` | Zod in `lib/graph/schemas.ts` + types in `types/semanticGraph.ts` |
 | Schema version policy | docs + generator (`2.3`) | `lib/graph/schema-version.ts` (`INTENDED_SCHEMA_VERSION = "2.3"`) |
 | Discovery fixtures / parity | `docs/migrations/fixtures/site-discovery/`, `compare-site-discovery` | Site-local fixtures / tests |
-| Bundled manifest | Generated at release | Committed `data/semantic-manifest.json` + `data/intended-manifest-release.json` |
+| Bundled manifest | Generated locally from corpus | Installed `data/local-semantic-manifest.json`; committed `data/semantic-manifest.json` remains a non-synced fixture |
 | Cache refresh | `scripts/revalidate_site_cache.sh` | `app/api/cache/revalidate/route.ts` |
 
 **Fact — ownership boundary (already documented)**
@@ -1038,10 +1037,10 @@ High-level map for implementation PRs (not applied in this planning PR):
 | `.github/workflows/ci-site.yml` (name TBD) | Port from site `ci.yml` with path filters |
 | `.github/workflows/python-tests.yml` | Path filters; unchanged core |
 | `.github/workflows/book-export-release.yml` | Eventually drop semantic revalidate; keep release |
-| `scripts/revalidate_site_cache.sh` | Narrow or remove semantic target post–Phase 6 |
-| `apps/site/lib/graph/manifest.ts` | Staged: local-first → remove remote |
-| `apps/site/scripts/sync-semantic-manifest.mjs` | Remove in Phase 6 |
-| `apps/site/data/semantic-manifest.json` | Stop syncing; delete after Stage E |
+| `scripts/revalidate_site_cache.sh` | Narrow to podcast-only in Phase 6 |
+| `apps/site/lib/graph/manifest.ts` | Local-only runtime after Phase 6 |
+| `apps/site/scripts/sync-semantic-manifest.mjs` | Removed in Phase 6 |
+| `apps/site/data/semantic-manifest.json` | Stop syncing in Phase 6; delete after static imports are removed |
 | `apps/site/.env.example` | Document local-manifest build flags |
 | `README.md` | Dual toolchain + architecture |
 | `docs/semantic-manifest-contract.md` | Note same-checkout builds |
@@ -1061,7 +1060,7 @@ High-level map for implementation PRs (not applied in this planning PR):
 | Node 20 | site CI/Vercel | unchanged |
 | Python 3.12 + uv | corpus CI only | corpus CI + Vercel build (semantic group) |
 | `SEMANTIC_MANIFEST_OFFLINE` | CI/dev | Preview/prod after cutover |
-| `SEMANTIC_MANIFEST_URL` | prod remote | unused after Stage D/E |
+| `SEMANTIC_MANIFEST_URL` | prod remote | removed as site runtime config in Phase 6 |
 | `CACHE_REVALIDATE_SECRET` | both repos + Vercel | podcast-only or removed |
 | Dependabot npm `/` | site | workspace paths |
 | Branch protection | both | survivor only after archive |

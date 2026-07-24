@@ -121,7 +121,7 @@ After thinkers ship in the manifest:
 1. Site **#39** — parse optional source v1.5 fields
 2. Site **#40–#41** — derived vs canonical thinkers
 3. Site **#42** — `/explore/thinkers` pages
-4. Refresh bundled manifest on site (**refresh-manifest** skill in after-certainty-site)
+4. Install the local manifest for the site (`npm run site:install-local-manifest`)
 
 ## Do not
 

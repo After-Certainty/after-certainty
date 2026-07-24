@@ -88,4 +88,5 @@ npm test -- lib/books/catalog-query.test.ts lib/books/validate-publication-regis
 npm run dev
 ```
 
-Use the refresh-manifest skill when upstream semantic data changes.
+When upstream semantic data changes, run `npm run corpus:build-manifest` and
+`npm run site:install-local-manifest` before previewing the site.

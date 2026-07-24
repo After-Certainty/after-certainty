@@ -112,7 +112,7 @@ def test_redirect_attempt_fails_closed(revalidate_script: Path, tmp_path: Path) 
 
 
 def test_posts_site_allowlisted_targets_only(revalidate_script: Path, tmp_path: Path) -> None:
-    """Site rejects unknown targets (e.g. books); body must be podcast+semantic."""
+    """Site rejects unknown targets (e.g. books/semantic); body must be podcast only."""
     body_file = tmp_path / "body.json"
     mock = tmp_path / "curl"
     mock.write_text(
@@ -126,7 +126,7 @@ def test_posts_site_allowlisted_targets_only(revalidate_script: Path, tmp_path: 
         "  esac\n"
         "done\n"
         f"printf '%s' \"$body\" > '{body_file}'\n"
-        'echo -n \'{"ok":true,"revalidated":["podcast","semantic"]}\' '
+        'echo -n \'{"ok":true,"revalidated":["podcast"]}\' '
         "> /tmp/site-revalidate.json\n"
         "printf 200\n",
         encoding="utf-8",
@@ -143,5 +143,6 @@ def test_posts_site_allowlisted_targets_only(revalidate_script: Path, tmp_path: 
     )
     assert proc.returncode == 0, proc.stderr + proc.stdout
     payload = body_file.read_text(encoding="utf-8")
-    assert payload == '{"targets":["podcast","semantic"]}'
+    assert payload == '{"targets":["podcast"]}'
     assert "books" not in payload
+    assert "semantic" not in payload

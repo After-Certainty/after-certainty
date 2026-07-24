@@ -60,12 +60,11 @@ Upstream authoring: [after-certainty `docs/authoring-discovery-metadata.md`](htt
 
 ## After upstream changes
 
-Refresh the bundled fallback:
+Install a fresh same-checkout manifest for local preview/tests:
 
 ```bash
-# see .cursor/skills/refresh-manifest/SKILL.md
-gh release download latest --repo ksteffe/after-certainty --pattern semantic-manifest.json --dir /tmp --clobber
-cp /tmp/semantic-manifest.json data/semantic-manifest.json
+npm run corpus:build-manifest
+npm run site:install-local-manifest
 npm test -- lib/graph/manifest.test.ts lib/books/validate-book-overviews.test.ts
 ```
 

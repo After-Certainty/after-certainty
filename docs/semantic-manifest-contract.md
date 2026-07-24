@@ -70,4 +70,4 @@ Release staging regenerates the manifest via `scripts/prepare_release_staging.sh
 
 ## Site consumption (monorepo Stage D)
 
-The public site installs the same-checkout artifact into gitignored `apps/site/data/local-semantic-manifest.json` and builds with `SEMANTIC_MANIFEST_USE_LOCAL=1` (remote fetch disabled). The GitHub `latest` release asset remains a public API for external consumers and parity checks; it is not required for the site’s own production build after Phase 5 cutover. See [`docs/migrations/monorepo-phase-5/`](migrations/monorepo-phase-5/).
+The public site installs the same-checkout artifact into gitignored `apps/site/data/local-semantic-manifest.json` and builds with `SEMANTIC_MANIFEST_USE_LOCAL=1` (remote fetch removed). The GitHub `latest` release asset remains a public API for external consumers and parity checks; it is not required for the site’s own production build after Phase 6 Stage E. See [`docs/migrations/monorepo-phase-6/`](migrations/monorepo-phase-6/).

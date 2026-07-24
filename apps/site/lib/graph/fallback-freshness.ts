@@ -13,7 +13,6 @@ import {
   loadOfflineManifestJson,
   readJsonFileIfPresent,
 } from "@/lib/graph/offline-manifest";
-import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
 export type FallbackFreshnessSeverity = "error" | "warning";
@@ -62,13 +61,7 @@ export function readIntendedManifestRelease(
     }
     return null;
   }
-  const path = join(rootDir, "data", "intended-manifest-release.json");
-  if (!existsSync(path)) return null;
-  try {
-    return JSON.parse(readFileSync(path, "utf8")) as IntendedManifestRelease;
-  } catch {
-    return null;
-  }
+  return null;
 }
 
 /**
@@ -92,6 +85,8 @@ export function collectFallbackFreshnessIssues(
   const requireIntendedSchema = options?.requireIntendedSchema ?? Boolean(options?.strictStale);
   const intended =
     options?.intended === undefined ? readIntendedManifestRelease() : options.intended;
+  const requireIntendedRelease =
+    options?.intended === undefined && options?.strictStale && isSemanticManifestUseLocal();
 
   const validated = validateSemanticGraph(data);
   if (!validated.success) {
@@ -211,16 +206,16 @@ export function collectFallbackFreshnessIssues(
       issues.push({
         severity: "error",
         code: "fallback_release_mismatch",
-        detail: `Bundled fallback does not match intended production release (${mismatches.join("; ")}). Run npm run sync:semantic-manifest.`,
+        detail: `Offline semantic manifest does not match intended local release (${mismatches.join("; ")}). Run npm run site:install-local-manifest after rebuilding the manifest.`,
       });
     }
-  } else if (options?.strictStale) {
+  } else if (requireIntendedRelease) {
     matchesIntendedRelease = false;
     issues.push({
       severity: "error",
       code: "missing_intended_release",
       detail:
-        "data/intended-manifest-release.json is missing. Run npm run sync:semantic-manifest to pin the production release identity.",
+        `${LOCAL_INTENDED_RELEASE_RELATIVE} is missing. Run npm run site:install-local-manifest after rebuilding the manifest.`,
     });
   }
 

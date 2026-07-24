@@ -1,6 +1,6 @@
 # After Certainty · Site
 
-Intellectual commons surface for **After Certainty** — books metadata, podcast hub, patterns library, and collaboration entry points. Corpus YAML lives in the monorepo root (`books/`, `semantic/`); this app builds from a same-checkout `semantic-manifest.json` (see [`docs/migrations/monorepo-phase-5/`](../../docs/migrations/monorepo-phase-5/)).
+Intellectual commons surface for **After Certainty** — books metadata, podcast hub, patterns library, and collaboration entry points. Corpus YAML lives in the monorepo root (`books/`, `semantic/`); this app builds from a same-checkout `semantic-manifest.json` (see [`docs/migrations/monorepo-phase-6/`](../../docs/migrations/monorepo-phase-6/)).
 
 > **Monorepo note:** This tree lives at `apps/site/` inside [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty). Prefer installing from the repository root (`npm ci`). Vercel Root Directory should be `apps/site` ([`vercel.json`](./vercel.json)). The former [`after-certainty-site`](https://github.com/ksteffe/after-certainty-site) repo remains until Phase 7 archive.
 
@@ -49,11 +49,11 @@ Set **`NEXT_PUBLIC_SITE_URL`** to your canonical domain so metadata, Open Graph,
 | Kind             | Location / notes                                            |
 | ---------------- | ----------------------------------------------------------- |
 | Typed models     | `types/content.ts`                                          |
-| Sample manifests | `data/*.json` — replace or sync from CI / books repo output |
+| Manifest fixtures | `data/*.json` — local install target plus committed offline/test fixtures |
 | MDX pages        | `content/mdx/*.mdx`, imported from routes under `app/`      |
 | Site copy config | `lib/site-config.ts`                                        |
 
-Wire real manifests by swapping JSON under `data/` or pointing loaders in `lib/content-data.ts` at generated artifacts.
+Install the real local manifest with `npm run corpus:build-manifest` followed by `npm run site:install-local-manifest`.
 
 ## Dependency updates & security
 
@@ -72,19 +72,19 @@ Optional: once **Dependency graph** is enabled in the same settings page, you ca
 ## Deployment (Vercel)
 
 1. Connect [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty); Root Directory `apps/site` (see `vercel.json`).
-2. Set **NEXT_PUBLIC_SITE_URL** to `https://www.after-certainty.com`, plus `SEMANTIC_MANIFEST_USE_LOCAL=1` and `SEMANTIC_MANIFEST_OFFLINE=1` (Phase 5).
-3. Install/build generate a same-checkout semantic manifest before `next build` — see [`docs/migrations/monorepo-phase-5/`](../../docs/migrations/monorepo-phase-5/).
+2. Set **NEXT_PUBLIC_SITE_URL** to `https://www.after-certainty.com`, plus `SEMANTIC_MANIFEST_USE_LOCAL=1` and `SEMANTIC_MANIFEST_OFFLINE=1`.
+3. Install/build generate a same-checkout semantic manifest before `next build` — see [`docs/migrations/monorepo-phase-6/`](../../docs/migrations/monorepo-phase-6/).
 
 The podcast RSS URL is `siteConfig.podcastRssUrl` (Anchor). The site **fetches that feed on the server** (`lib/podcast/rss.ts`, cached + **revalidated every hour** via `fetch`); episode lists and the home “latest episode” block use that data. If the feed is unreachable (offline dev, CI, etc.), lists fall back to `data/podcast-episodes.json`. `/feed.xml` still redirects to Anchor for podcast apps.
 
 Explore surfaces (books, patterns, glossary, observatory, questions, trails) load
-**`semantic-manifest.json`** from the [after-certainty](https://github.com/ksteffe/after-certainty)
-GitHub release (`latest`), with hourly ISR and a bundled fallback at
-`data/semantic-manifest.json`. See [`docs/semantic-manifest.md`](docs/semantic-manifest.md)
-for remote/fallback provenance, content-type normalization, and
-`npm run sync:semantic-manifest` / `validate:fallback` / `validate:public-corpus`.
-After each `main` release, CI POSTs to **`/api/cache/revalidate`** with target
-**`semantic`** to refresh the graph immediately.
+**`semantic-manifest.json`** from the same checkout via
+`data/local-semantic-manifest.json`. The committed
+`data/semantic-manifest.json` remains only as a non-synced offline/test fixture.
+See [`docs/semantic-manifest.md`](docs/semantic-manifest.md) for local manifest
+loading, content-type normalization, and `validate:fallback` /
+`validate:public-corpus`.
+The cache revalidate endpoint is podcast-only.
 
 1. Set **`CACHE_REVALIDATE_SECRET`** in Vercel (production) — a long random string.
 2. Add the same value as repository secret **`CACHE_REVALIDATE_SECRET`** on `ksteffe/after-certainty` (used by the book export workflow).
@@ -96,7 +96,7 @@ Example manual refresh:
 curl -sS -X POST "https://www.after-certainty.com/api/cache/revalidate" \
   -H "Authorization: Bearer $CACHE_REVALIDATE_SECRET" \
   -H "Content-Type: application/json" \
-  -d '{"targets":["semantic"]}'
+  -d '{"targets":["podcast"]}'
 ```
 
 ## Design notes

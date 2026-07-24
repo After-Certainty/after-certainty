@@ -18,34 +18,23 @@ export function resolveDeploymentUrl(): string {
 /** Default Anchor RSS — override with `PODCAST_RSS_URL` on the server */
 export const DEFAULT_PODCAST_RSS_URL = "https://anchor.fm/s/1126d00c0/podcast/rss";
 
-/** Semantic graph manifest from the content repo release — override with `SEMANTIC_MANIFEST_URL` */
-export const DEFAULT_SEMANTIC_MANIFEST_URL =
-  "https://github.com/ksteffe/after-certainty/releases/download/latest/semantic-manifest.json";
-
 /**
  * When set to `1`, prefer gitignored `data/local-semantic-manifest.json`
- * from the monorepo checkout (Phase 4 preview / Phase 5 production).
- * Implies no runtime remote fetch (Stage D).
+ * from the monorepo checkout. The site no longer fetches the public release
+ * artifact at runtime; release publishing remains for external consumers.
  */
 export function isSemanticManifestUseLocal(): boolean {
   return process.env.SEMANTIC_MANIFEST_USE_LOCAL?.trim() === "1";
 }
 
 /**
- * Skip network fetch of the remote release artifact.
- * True when `SEMANTIC_MANIFEST_OFFLINE=1` or `SEMANTIC_MANIFEST_USE_LOCAL=1`
- * (local mode always disables remote fetch).
+ * Compatibility flag for offline/local manifest loading. Stage E always loads
+ * semantic data from local/offline JSON; this flag remains for scripts/tests.
  */
 export function isSemanticManifestOffline(): boolean {
   return (
     process.env.SEMANTIC_MANIFEST_OFFLINE?.trim() === "1" || isSemanticManifestUseLocal()
   );
-}
-
-/** Resolved semantic manifest URL for server-side fetch (ISR). */
-export function resolveSemanticManifestUrl(): string {
-  const envUrl = process.env.SEMANTIC_MANIFEST_URL?.trim();
-  return envUrl && envUrl.length > 0 ? envUrl : DEFAULT_SEMANTIC_MANIFEST_URL;
 }
 
 /** Resolved podcast RSS for server-side fetch, `<link rel="alternate">`, redirects */
