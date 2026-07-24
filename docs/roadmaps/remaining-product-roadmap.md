@@ -976,7 +976,7 @@ Intentionally postponed so they do not re-enter near-term planning:
 Unresolved product/editorial decisions (not implementation tasks):
 
 1. **Native Reader pilot cohort** — which edition slugs launch first?  
-2. **Chapter URL final aesthetics** — confirm contracted `/explore/books/{book}/chapters/{chapter}` vs alternate (must align with existing `routeKey`s).  
+2. ~~**Chapter URL final aesthetics**~~ — **Resolved (READ-001):** `/explore/books/{editionSlug}/chapters/{chapterSlug}` (= manifest `routeKey`).  
 3. **Search visibility for fiction/poetry chapters** — index summaries or titles-only?  
 4. **Download vs Read online** primary CTA once reader exists.  
 5. **Think Together mechanism** — GitHub-only vs form vs curated submissions; public vs private responses.  
@@ -984,6 +984,8 @@ Unresolved product/editorial decisions (not implementation tasks):
 7. **Offline reading** — spike then defer (default) vs prioritize.  
 8. **Nav emphasis** — whether Questions deserves primary nav (questions plan leftover).  
 9. **Enrichment vs reader sequencing** — default here: reader may launch on enriched pilots without waiting for books 6–9.
+
+**Resolved by READ-001:** Public chapter URLs are frozen as `/explore/books/{editionSlug}/chapters/{chapterSlug}` (manifest `routeKey`). See [`docs/semantic-chapter-identity.md`](../semantic-chapter-identity.md).
 
 ---
 

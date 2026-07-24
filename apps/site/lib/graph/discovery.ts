@@ -215,11 +215,17 @@ export { contentTypeFromBook } from "@/lib/graph/content-type";
 export type { ContentType };
 
 export {
+  buildChapterRouteKey,
+  chapterPublicPath,
+  chapterReadingStorageKey,
+  chapterRouteKeyMatchesEditionSlug,
   chapterSlugFromRouteKey,
   chaptersForEdition,
   chaptersFromGraph,
   indexChaptersByEditionId,
   indexPartsByEditionId,
+  isValidChapterRouteKey,
+  parseChapterRouteKey,
   partsForEdition,
   partsFromGraph,
   publicChaptersForEdition,
