@@ -82,4 +82,52 @@ describe("getOrderedBookActions", () => {
     });
     expect(ordered.secondary).toHaveLength(1);
   });
+
+  it("makes Read primary when a public chapter href is available", () => {
+    const ordered = getOrderedBookActions({
+      book: {
+        ...baseBook,
+        pdf: { enabled: true, file: "example.pdf", url: "https://cdn.example/example.pdf" },
+      },
+      relationship: "sole",
+      readHref: "/explore/books/example/chapters/intro",
+    });
+    expect(ordered.primary).toEqual({
+      label: "Read",
+      href: "/explore/books/example/chapters/intro",
+      kind: "read",
+    });
+    expect(ordered.secondary.map((s) => s.label)).toEqual(["Download PDF"]);
+  });
+
+  it("keeps preferred download primary and lists Read first among secondary", () => {
+    const ordered = getOrderedBookActions({
+      book: {
+        ...baseBook,
+        pdf: { enabled: true, file: "example.pdf", url: "https://cdn.example/example.pdf" },
+        epub: { enabled: true, file: "example.epub", url: "https://cdn.example/example.epub" },
+      },
+      relationship: "sole",
+      preference: "download_pdf",
+      readHref: "/explore/books/example/chapters/intro",
+    });
+    expect(ordered.primary?.label).toBe("Download PDF");
+    expect(ordered.secondary[0]).toEqual({
+      label: "Read",
+      href: "/explore/books/example/chapters/intro",
+      kind: "read",
+    });
+  });
+
+  it("lists Read under Continue when the edition is superseded", () => {
+    const ordered = getOrderedBookActions({
+      book: baseBook,
+      relationship: "superseded",
+      currentEditionHref: "/explore/books/current",
+      currentEditionTitle: "Current Title",
+      readHref: "/explore/books/example/chapters/intro",
+    });
+    expect(ordered.primary?.kind).toBe("navigate");
+    expect(ordered.secondary[0]?.kind).toBe("read");
+  });
 });

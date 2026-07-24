@@ -19,6 +19,7 @@ import { findWhatsNewEventsForBook } from "@/lib/whats-new/findEventsForBook";
 import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
 import { getPublishedQuestions } from "@/lib/questions/loadQuestions";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
+import { firstPublicChapterHref } from "@/lib/graph/chapters";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
@@ -117,6 +118,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
     events: buildPublicWhatsNewEvents({ changeEvents: graph.changeEvents }),
   });
   const relatedQuestions = findPublishedQuestionsForBook(book.id, 2, getPublishedQuestions(graph));
+  const readHref = firstPublicChapterHref(graph, book.id) ?? undefined;
 
   if (overviewVm) {
     const actions = getOrderedBookActions({
@@ -127,6 +129,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
         ? `${explorePaths.books}/${relatedEdition.slug}`
         : undefined,
       currentEditionTitle: relatedEdition?.title,
+      readHref,
     });
 
     return (
@@ -154,6 +157,11 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
     book.slug,
   );
 
+  const publicationLinks = [
+    ...(readHref ? [{ label: "Read", href: readHref, kind: "read" as const }] : []),
+    ...getSemanticBookActionLinkItems(book),
+  ];
+
   return (
     <BookDetailLegacyLayout
       book={book}
@@ -167,7 +175,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
       firstPublishedAt={registryEdition?.firstPublishedAt}
       revisedAt={registryEdition?.revisedAt}
       changeSummary={registryEdition?.changeSummary}
-      publicationLinks={getSemanticBookActionLinkItems(book)}
+      publicationLinks={publicationLinks}
       prevBook={prevBook ? { slug: prevBook.slug, title: prevBook.title } : undefined}
       nextBook={nextBook ? { slug: nextBook.slug, title: nextBook.title } : undefined}
       inventory={inventory}

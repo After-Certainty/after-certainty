@@ -11,6 +11,7 @@ import {
   parseChapterRouteKey,
   partsForEdition,
   publicChaptersForEdition,
+  firstPublicChapterHref,
 } from "@/lib/graph/chapters";
 import { exploreChapterHref } from "@/lib/graph/explorePaths";
 import { collectChapterStructureHealthIssues } from "@/lib/graph/validate-chapters";
@@ -95,6 +96,8 @@ describe("chapters discovery", () => {
       [...chapters].map((c) => c.position).sort((a, b) => a - b),
     );
     expect(chaptersForEdition(enriched, editionId).length).toBe(chapters.length);
+    expect(firstPublicChapterHref(enriched, editionId)).toBe(chapters[0]!.routeKey);
+    expect(firstPublicChapterHref(enriched, "book-missing")).toBeNull();
   });
 });
 

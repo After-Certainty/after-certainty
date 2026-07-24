@@ -5,8 +5,13 @@ import type { Book, BookPurchaseLink, BookPurchaseRetailer } from "@/types/seman
 export type SemanticBookActionLinkItem = {
   label: string;
   href: string;
-  kind: "purchase" | "download" | "navigate";
+  kind: "purchase" | "download" | "navigate" | "read";
 };
+
+/** Same-tab internal actions (native reader, edition navigation). */
+export function isInternalBookAction(kind: SemanticBookActionLinkItem["kind"]): boolean {
+  return kind === "navigate" || kind === "read";
+}
 
 const PURCHASE_LABEL_BY_RETAILER: Record<BookPurchaseRetailer, string> = {
   amazon: "Buy on Amazon",
@@ -67,6 +72,8 @@ export type OrderedBookActions = {
 /**
  * Pick a clear primary CTA for redesigned overviews.
  * Superseded editions prefer navigating to the current volume over downloading the older file.
+ * When `readHref` is set (public chapters exist), "Read" is primary unless a download/purchase
+ * preference is set, or the edition is superseded.
  */
 export function getOrderedBookActions(input: {
   book: Book;
@@ -74,8 +81,21 @@ export function getOrderedBookActions(input: {
   preference?: PrimaryActionPreference;
   currentEditionHref?: string;
   currentEditionTitle?: string;
+  /** First public chapter path when the native reader is available for this edition. */
+  readHref?: string;
 }): OrderedBookActions {
-  const { book, relationship, preference, currentEditionHref, currentEditionTitle } = input;
+  const {
+    book,
+    relationship,
+    preference,
+    currentEditionHref,
+    currentEditionTitle,
+    readHref,
+  } = input;
+
+  const readAction: SemanticBookActionLinkItem | undefined = readHref
+    ? { label: "Read", href: readHref, kind: "read" }
+    : undefined;
 
   if (relationship === "superseded" && currentEditionHref) {
     const navigate: SemanticBookActionLinkItem = {
@@ -87,22 +107,33 @@ export function getOrderedBookActions(input: {
     };
     return {
       primary: navigate,
-      secondary: getSemanticBookActionLinkItems(book),
+      secondary: [...(readAction ? [readAction] : []), ...getSemanticBookActionLinkItems(book)],
     };
   }
 
   const items = getSemanticBookActionLinkItems(book);
+
+  if (preference) {
+    const preferred = items.findIndex((item) => preferenceMatchesItem(preference, item));
+    if (preferred >= 0) {
+      const primary = items[preferred]!;
+      const secondary = [
+        ...(readAction ? [readAction] : []),
+        ...items.filter((_, index) => index !== preferred),
+      ];
+      return { primary, secondary };
+    }
+  }
+
+  if (readAction) {
+    return { primary: readAction, secondary: items };
+  }
+
   if (items.length === 0) {
     return { secondary: [] };
   }
 
-  let primaryIndex = 0;
-  if (preference) {
-    const preferred = items.findIndex((item) => preferenceMatchesItem(preference, item));
-    if (preferred >= 0) primaryIndex = preferred;
-  }
-
-  const primary = items[primaryIndex]!;
-  const secondary = items.filter((_, index) => index !== primaryIndex);
+  const primary = items[0]!;
+  const secondary = items.slice(1);
   return { primary, secondary };
 }

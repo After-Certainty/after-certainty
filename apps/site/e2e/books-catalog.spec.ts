@@ -96,6 +96,22 @@ test.describe("Books catalog", () => {
     await expect(page.locator("#inside")).toContainText(/min/i);
   });
 
+  test("book overview Read CTA opens the first public chapter", async ({ page }) => {
+    await page.goto("/explore/books/after-certainty");
+    const read = page.getByRole("link", { name: "Read", exact: true });
+    await expect(read).toBeVisible();
+    await expect(read).toHaveAttribute(
+      "href",
+      "/explore/books/after-certainty/chapters/front-matter-introduction",
+    );
+    await read.click();
+    await expect(page).toHaveURL(
+      /\/explore\/books\/after-certainty\/chapters\/front-matter-introduction$/,
+    );
+    await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
+    await expect(page.locator(".chapter-manuscript")).toBeVisible();
+  });
+
   test("fiction and poetry books expose chapter structure", async ({ page }) => {
     await page.goto("/explore/books/the-relay");
     await expect(page.getByRole("heading", { name: "Inside this book", level: 2 })).toBeVisible();
