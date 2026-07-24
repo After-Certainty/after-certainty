@@ -120,27 +120,15 @@ def test_build_sources_emits_v15_fields_when_present(tmp_path: Path) -> None:
     assert entry["year"] == 2020
 
 
-def test_manifest_v2_with_thinkers_on_repo(repo_root: Path, tmp_path: Path) -> None:
+def test_manifest_v2_with_thinkers_on_repo(
+    repo_root: Path, semantic_manifest: dict, semantic_manifest_path: Path
+) -> None:
     """Canonical semantic/thinkers/*.yml emits manifestVersion 2."""
     thinkers_dir = repo_root / "semantic" / "thinkers"
     if not thinkers_dir.is_dir() or not any(thinkers_dir.glob("*.yml")):
         return
 
-    out = tmp_path / "semantic-manifest.json"
-    cmd = [
-        sys.executable,
-        str(repo_root / "tools/generate_semantic_manifest.py"),
-        "--repo",
-        str(repo_root),
-        "--out",
-        str(out),
-        "--github-repository",
-        "test-owner/test-repo",
-        "--no-warn-term-kind",
-    ]
-    r = subprocess.run(cmd, capture_output=True, text=True, timeout=180)
-    assert r.returncode == 0, r.stderr
-    data = json.loads(out.read_text(encoding="utf-8"))
+    data = semantic_manifest
     assert data["manifestVersion"] == 2
     assert len(data["thinkers"]) >= 1
     arendt = next((t for t in data["thinkers"] if t["slug"] == "hannah-arendt"), None)
@@ -155,7 +143,7 @@ def test_manifest_v2_with_thinkers_on_repo(repo_root: Path, tmp_path: Path) -> N
             "--repo",
             str(repo_root),
             "--manifest",
-            str(out),
+            str(semantic_manifest_path),
         ],
         capture_output=True,
         text=True,

@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import json
 import subprocess
 import sys
 from pathlib import Path
@@ -22,27 +21,8 @@ def _run(cmd: list[str], cwd: Path | None = None) -> subprocess.CompletedProcess
     )
 
 
-def _generate(tmp_path: Path) -> dict:
-    out = tmp_path / "semantic-manifest.json"
-    r = _run(
-        [
-            sys.executable,
-            "tools/generate_semantic_manifest.py",
-            "--repo",
-            str(REPO),
-            "--out",
-            str(out),
-            "--github-repository",
-            "ksteffe/after-certainty",
-            "--no-warn-term-kind",
-        ]
-    )
-    assert r.returncode == 0, r.stderr or r.stdout
-    return json.loads(out.read_text(encoding="utf-8"))
-
-
-def test_manifest_compatibility_keys_and_schema_version(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_manifest_compatibility_keys_and_schema_version(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     for key in (
         "manifestVersion",
         "generatedAt",
@@ -66,8 +46,8 @@ def test_manifest_compatibility_keys_and_schema_version(tmp_path: Path) -> None:
     assert data["books"][0]["id"].startswith("book-")
 
 
-def test_works_editions_wolty_mapping(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_works_editions_wolty_mapping(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     works = {w["id"]: w for w in data["works"]}
     editions = {e["id"]: e for e in data["editions"]}
     assert "work-when-others-look-to-you" in works
@@ -82,8 +62,8 @@ def test_works_editions_wolty_mapping(tmp_path: Path) -> None:
     assert book["contentType"] == "nonfiction"
 
 
-def test_discovery_collections_present(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_discovery_collections_present(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     assert len(data["questions"]) >= 1
     assert len(data["trails"]) >= 1
     assert len(data["shelves"]) >= 1
@@ -97,8 +77,8 @@ def test_discovery_collections_present(tmp_path: Path) -> None:
     assert any(b.startswith("book-") for b in fiction["resolvedBookIds"])
 
 
-def test_rich_overview_and_content_types(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_rich_overview_and_content_types(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     ac = next(b for b in data["books"] if b["slug"] == "after-certainty")
     assert ac.get("overview")
     assert ac["overview"]["centralQuestion"]
@@ -109,22 +89,19 @@ def test_rich_overview_and_content_types(tmp_path: Path) -> None:
     assert "how-serious-systems-learn" in handbook
 
 
-def test_deterministic_discovery_ordering(tmp_path: Path) -> None:
-    a = _generate(tmp_path / "a")
-    b = _generate(tmp_path / "b")
-    for key in (
-        "works",
-        "editions",
-        "questions",
-        "trails",
-        "shelves",
-        "changeEvents",
-        "searchAliases",
-    ):
-        # drop provenance-only fields when comparing nested covers that may include generatedAt-independent urls
-        assert [x.get("id") or x.get("terms") for x in a[key]] == [
-            x.get("id") or x.get("terms") for x in b[key]
-        ]
+def test_deterministic_discovery_ordering(semantic_manifest: dict) -> None:
+    expectations = {
+        "works": lambda r: str(r["id"]),
+        "editions": lambda r: str(r["id"]),
+        "questions": lambda r: str(r["id"]),
+        "trails": lambda r: str(r["id"]),
+        "shelves": lambda r: (int(r["displayOrder"]), str(r["id"])),
+        "changeEvents": lambda r: (str(r["date"]), str(r["id"])),
+        "searchAliases": lambda r: (str(r["kind"]), ",".join(r["terms"])),
+    }
+    for key, sort_key in expectations.items():
+        rows = semantic_manifest[key]
+        assert rows == sorted(rows, key=sort_key), key
 
 
 def test_validate_discovery_rejects_duplicate_question(tmp_path: Path) -> None:
@@ -227,10 +204,7 @@ def test_compare_site_discovery_runs() -> None:
     assert "parity report" in r.stdout.lower() or "Intentionally remaining" in r.stdout
 
 
-def test_validate_semantic_manifest_accepts_generated(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
-    out = tmp_path / "m.json"
-    out.write_text(json.dumps(data), encoding="utf-8")
+def test_validate_semantic_manifest_accepts_generated(semantic_manifest_path: Path) -> None:
     r = _run(
         [
             sys.executable,
@@ -238,7 +212,7 @@ def test_validate_semantic_manifest_accepts_generated(tmp_path: Path) -> None:
             "--repo",
             str(REPO),
             "--manifest",
-            str(out),
+            str(semantic_manifest_path),
         ]
     )
     assert r.returncode == 0, r.stderr or r.stdout

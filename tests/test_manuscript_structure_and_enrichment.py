@@ -2,8 +2,6 @@
 
 from __future__ import annotations
 
-import json
-import subprocess
 import sys
 from pathlib import Path
 
@@ -12,31 +10,8 @@ import pytest
 REPO = Path(__file__).resolve().parents[1]
 
 
-def _generate(tmp_path: Path) -> dict:
-    out = tmp_path / "semantic-manifest.json"
-    r = subprocess.run(
-        [
-            sys.executable,
-            "tools/generate_semantic_manifest.py",
-            "--repo",
-            str(REPO),
-            "--out",
-            str(out),
-            "--github-repository",
-            "ksteffe/after-certainty",
-            "--no-warn-term-kind",
-        ],
-        cwd=REPO,
-        capture_output=True,
-        text=True,
-        check=False,
-    )
-    assert r.returncode == 0, r.stderr or r.stdout
-    return json.loads(out.read_text(encoding="utf-8"))
-
-
-def test_parts_and_chapters_present_and_ordered(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_parts_and_chapters_present_and_ordered(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     assert "parts" in data and "chapters" in data
     assert data["schemaVersion"] == "2.3"
     chapters = [
@@ -50,8 +25,8 @@ def test_parts_and_chapters_present_and_ordered(tmp_path: Path) -> None:
     assert len(ids) == len(set(ids))
 
 
-def test_stable_ids_use_source_path_not_title(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_stable_ids_use_source_path_not_title(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     ch = next(
         c
         for c in data["chapters"]
@@ -66,8 +41,8 @@ def test_stable_ids_use_source_path_not_title(tmp_path: Path) -> None:
     assert ch["kind"] == "chapter"
 
 
-def test_part_membership_boundary_conditions(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_part_membership_boundary_conditions(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     parts = [p for p in data["parts"] if p["editionId"] == "book-boundary-conditions"]
     assert len(parts) == 5
     ch = next(c for c in data["chapters"] if "chapter-16-reliable-person" in c["id"])
@@ -106,8 +81,8 @@ def test_duplicate_id_fails(tmp_path: Path) -> None:
         )
 
 
-def test_content_types_fiction_poetry_nonfiction(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_content_types_fiction_poetry_nonfiction(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     by = {b["slug"]: b for b in data["books"]}
     assert by["boundary-conditions"]["contentType"] == "fiction"
     assert by["boundary-conditions"]["literaryForm"] == "novel"
@@ -120,8 +95,8 @@ def test_content_types_fiction_poetry_nonfiction(tmp_path: Path) -> None:
     assert works["boundary-conditions"]["contentType"] == "fiction"
 
 
-def test_priority_overviews_and_related_works(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_priority_overviews_and_related_works(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     by = {b["slug"]: b for b in data["books"]}
     for slug in (
         "the-world-we-make-together",
@@ -146,8 +121,8 @@ def test_priority_overviews_and_related_works(tmp_path: Path) -> None:
             assert rel["reason"]
 
 
-def test_new_questions_and_trails(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_new_questions_and_trails(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     qids = {q["id"] for q in data["questions"]}
     assert "ordinary-people-make-history" in qids
     assert "structures-outlive-reasons" in qids
@@ -173,8 +148,8 @@ def test_new_questions_and_trails(tmp_path: Path) -> None:
     assert seeing["pathStops"][-1]["entityId"] == "book-everyone-knows-love"
 
 
-def test_slice2_overview_cluster(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_slice2_overview_cluster(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     by = {b["slug"]: b for b in data["books"]}
     for slug in (
         "when-incentives-become-the-moral-language",
@@ -196,8 +171,8 @@ def test_slice2_overview_cluster(tmp_path: Path) -> None:
     )
 
 
-def test_compatibility_existing_keys_remain(tmp_path: Path) -> None:
-    data = _generate(tmp_path)
+def test_compatibility_existing_keys_remain(semantic_manifest: dict) -> None:
+    data = semantic_manifest
     for key in (
         "manifestVersion",
         "books",
