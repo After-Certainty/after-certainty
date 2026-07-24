@@ -103,7 +103,7 @@ Site roadmap headers that still say “planning only” for search are **stale**
 | Path/trail local progress | **Present** | `lib/paths/pathProgress.ts` — questions/trails only |
 | Bookmarks, text-size, reading themes, offline reading | **Absent** | Global site theme ≠ reader theme; no PWA reader |
 
-Public corpus validation **intentionally** keeps chapters `searchEligible` false and `visibility: unlisted` until READ-005 / READ-006; sitemap eligibility for public chapters is unlocked (READ-009).
+Public corpus validation requires public chapters to be search- and sitemap-eligible with matching index/sitemap membership (READ-005 / READ-009).
 
 ### 2.5 Semantic enrichment state
 
@@ -410,7 +410,8 @@ flowchart LR
 | **Goal** | Once routes exist, allow public chapters into search documents (title, summary, aliases) with `canonicalUrl` pointing at chapter pages. |
 | **Why it matters** | Discovery → precise reading destination. |
 | **Type / owner / size** | implementation / shared / M |
-| **Likely files** | `buildSearchDocuments.ts`; `public-registry.ts`; `validate-public-corpus.ts` (invert today’s “must not be search-eligible” rules carefully) |
+| **Status** | Implemented — lean chapter search docs; registry searchEligible/listed; book docs retain chapter text fallback; validation enforces consistency. |
+| **Likely files** | `buildSearchDocuments.ts`; `public-registry.ts`; `validate-public-corpus.ts`; `chapter-eligibility.ts` |
 | **Dependencies** | READ-002 (and preferably READ-003) |
 | **Acceptance criteria** | Validation requires eligibility **only when** routes ship; chapter hits open chapter URLs; books still index chapter text fallback policy documented; budget alerts still respected |
 | **Tests** | Search document builders; corpus validation tests updated; search E2E sample |
@@ -426,7 +427,8 @@ flowchart LR
 | **Goal** | Set `publicUrl` on chapter VM; link Inside this book; deep-link from concept/pattern chapter associations where data exists. |
 | **Why it matters** | Removes “orientation without destination.” |
 | **Type / owner / size** | implementation / site / S |
-| **Likely files** | `book-chapter-view-model.ts`; `book-inside-this-book.tsx`; concept/pattern detail components as applicable |
+| **Status** | Implemented — Inside this book links; concept/pattern “Appears in chapters” when associations exist. |
+| **Likely files** | `book-chapter-view-model.ts`; `book-inside-this-book.tsx`; `chapter-associations.ts`; concept/pattern detail pages |
 | **Dependencies** | READ-002 |
 | **Acceptance criteria** | Overview chapter rows link to live routes; tests that previously asserted `publicUrl === undefined` updated; no links for non-public chapters |
 | **Tests** | View-model tests; component tests |

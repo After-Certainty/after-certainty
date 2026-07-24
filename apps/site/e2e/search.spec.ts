@@ -22,6 +22,22 @@ test.describe("global search", () => {
     await expect(page.getByRole("heading", { level: 1, name: "Certainty" })).toBeVisible();
   });
 
+  test("chapter filter surfaces native reader destinations", async ({ page }) => {
+    await page.goto("/search?q=Introduction&type=chapter", {
+      waitUntil: "domcontentloaded",
+    });
+    await expect(page.getByRole("heading", { level: 1, name: "Search" })).toBeVisible();
+
+    const chapterLink = page
+      .locator('a[href="/explore/books/after-certainty/chapters/front-matter-introduction"]')
+      .first();
+    await expect(chapterLink).toBeVisible({ timeout: 15_000 });
+    await chapterLink.click();
+    await expect(page).toHaveURL(
+      /\/explore\/books\/after-certainty\/chapters\/front-matter-introduction$/,
+    );
+  });
+
   test("type filter is reflected in the URL", async ({ page }) => {
     await page.goto("/search?q=trust", { waitUntil: "domcontentloaded" });
     await expect(page.getByRole("heading", { level: 1, name: "Search" })).toBeVisible();

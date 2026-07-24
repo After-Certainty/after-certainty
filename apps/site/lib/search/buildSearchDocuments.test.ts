@@ -231,7 +231,15 @@ describe("buildSearchDocuments", () => {
       expect(new Set(docs.map((d) => d.id)).size).toBe(docs.length);
       const afterCertainty = docs.find((d) => d.slug === "after-certainty");
       expect(afterCertainty?.searchText).toMatch(/Introduction/i);
-      expect(docs.every((d) => d.entityType !== "chapter")).toBe(true);
+      const introChapter = docs.find(
+        (d) =>
+          d.entityType === "chapter" &&
+          d.canonicalUrl ===
+            "/explore/books/after-certainty/chapters/front-matter-introduction",
+      );
+      expect(introChapter?.title).toMatch(/Introduction/i);
+      expect(introChapter?.visibility).toBe("listed");
+      expect(docs.filter((d) => d.entityType === "chapter").length).toBeGreaterThan(100);
     },
   );
 });

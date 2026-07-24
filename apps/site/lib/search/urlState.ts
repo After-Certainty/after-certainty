@@ -4,6 +4,7 @@ export const SEARCH_PAGE_SIZE = 24;
 
 export const SEARCH_ENTITY_TYPES: readonly SearchEntityType[] = [
   "book",
+  "chapter",
   "concept",
   "pattern",
   "situation",

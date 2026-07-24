@@ -23,23 +23,28 @@ describe.skipIf(!graph)("public corpus registry (local manifest)", () => {
     expect(registry.searchContentTypeByBookId.get(observer!.id)).toBe("poetry");
   });
 
-  it("marks public chapters sitemap-eligible while keeping them unlisted for search", () => {
+  it("marks public chapters sitemap- and search-eligible while indexing lean chapter docs", () => {
     const registry = buildPublicCorpusRegistry(graph!);
     expect(registry.chapters.length).toBeGreaterThan(0);
     expect(registry.chapterIdsByEditionId.get("book-after-certainty")?.length).toBeGreaterThan(0);
     expect(registry.partIdsByEditionId.get("book-after-certainty")?.length).toBeGreaterThan(0);
-    expect(registry.chapters.every((c) => c.visibility === "unlisted")).toBe(true);
-    expect(registry.chapters.every((c) => !c.searchEligible)).toBe(true);
 
     const publicChapters = registry.chapters.filter((c) => c.publicStatus === "public");
     expect(publicChapters.length).toBeGreaterThan(0);
-    expect(publicChapters.every((c) => c.sitemapEligible)).toBe(true);
+    expect(publicChapters.every((c) => c.sitemapEligible && c.searchEligible)).toBe(true);
+    expect(publicChapters.every((c) => c.visibility === "listed")).toBe(true);
     expect(registry.sitemapPaths).toContain(
       "/explore/books/after-certainty/chapters/front-matter-introduction",
     );
-    expect(registry.sitemapPaths.filter((path) => path.includes("/chapters/")).length).toBe(
-      publicChapters.length,
-    );
+    expect(registry.searchDocumentIds.has(publicChapters[0]!.id)).toBe(true);
+    expect(
+      registry.searchDocuments.some(
+        (d) =>
+          d.entityType === "chapter" &&
+          d.canonicalUrl ===
+            "/explore/books/after-certainty/chapters/front-matter-introduction",
+      ),
+    ).toBe(true);
   });
 });
 

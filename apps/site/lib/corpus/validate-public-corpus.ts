@@ -178,41 +178,74 @@ export function collectPublicCorpusIntegrityIssues(
   }
 
   for (const chapter of registry.chapters) {
-    if (chapter.searchEligible || searchIds.has(chapter.id)) {
+    const parentId = editionIdByChapterId.get(chapter.id);
+    const parent = parentId ? registry.byId.get(parentId) : undefined;
+    const shouldDiscover =
+      chapter.publicStatus === "public" &&
+      parent?.publicStatus === "public" &&
+      isValidChapterRouteKey(chapter.canonicalUrl);
+
+    if (shouldDiscover !== chapter.searchEligible) {
+      issues.push({
+        severity: "error",
+        code: "CHAPTER_SEARCH_ELIGIBILITY",
+        entityId: chapter.id,
+        sourceFeature: "chapters",
+        targetFeature: "search",
+        detail: shouldDiscover
+          ? `Chapter "${chapter.slug}" is public on a public book but not search-eligible.`
+          : `Chapter "${chapter.slug}" is search-eligible but should not be (hidden chapter or non-public parent).`,
+      });
+    }
+
+    if (chapter.searchEligible && chapter.visibility !== "listed") {
+      issues.push({
+        severity: "error",
+        code: "CHAPTER_VISIBILITY",
+        entityId: chapter.id,
+        sourceFeature: "chapters",
+        detail: `Search-eligible chapter "${chapter.slug}" must be listed.`,
+      });
+    }
+    if (!chapter.searchEligible && chapter.visibility === "listed") {
+      issues.push({
+        severity: "error",
+        code: "CHAPTER_LISTED_PREMATURELY",
+        entityId: chapter.id,
+        sourceFeature: "chapters",
+        detail: `Chapter "${chapter.slug}" must stay unlisted when it is not search-eligible.`,
+      });
+    }
+
+    if (chapter.searchEligible && !searchIds.has(chapter.id)) {
+      issues.push({
+        severity: "error",
+        code: "CHAPTER_SEARCH_MISSING",
+        entityId: chapter.id,
+        sourceFeature: "chapters",
+        targetFeature: "search",
+        detail: `Search-eligible chapter "${chapter.slug}" is absent from the search index.`,
+      });
+    }
+    if (!chapter.searchEligible && searchIds.has(chapter.id)) {
       issues.push({
         severity: "error",
         code: "CHAPTER_SEARCH_ELIGIBLE",
         entityId: chapter.id,
         sourceFeature: "chapters",
         targetFeature: "search",
-        detail: `Chapter "${chapter.slug}" must not be search-eligible until chapter search unlock (READ-005).`,
-      });
-    }
-    if (chapter.visibility === "listed") {
-      issues.push({
-        severity: "error",
-        code: "CHAPTER_LISTED_PREMATURELY",
-        entityId: chapter.id,
-        sourceFeature: "chapters",
-        detail: `Chapter "${chapter.slug}" must stay unlisted until overview/search surfaces intentionally list chapters.`,
+        detail: `Chapter "${chapter.slug}" must not appear in the search index when search-ineligible.`,
       });
     }
 
-    const parentId = editionIdByChapterId.get(chapter.id);
-    const parent = parentId ? registry.byId.get(parentId) : undefined;
-    const shouldSitemap =
-      chapter.publicStatus === "public" &&
-      parent?.publicStatus === "public" &&
-      isValidChapterRouteKey(chapter.canonicalUrl);
-
-    if (shouldSitemap !== chapter.sitemapEligible) {
+    if (shouldDiscover !== chapter.sitemapEligible) {
       issues.push({
         severity: "error",
         code: "CHAPTER_SITEMAP_ELIGIBILITY",
         entityId: chapter.id,
         sourceFeature: "chapters",
         targetFeature: "sitemap",
-        detail: shouldSitemap
+        detail: shouldDiscover
           ? `Chapter "${chapter.slug}" is public on a public book but not sitemap-eligible.`
           : `Chapter "${chapter.slug}" is sitemap-eligible but should not be (hidden chapter or non-public parent).`,
       });

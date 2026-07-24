@@ -6,11 +6,14 @@ import {
 } from "@/lib/books/catalog-view-model";
 import { getActiveShelves, resolveShelfBooks } from "@/lib/books/shelves";
 import {
+  isChapterSearchEligible,
+  isChapterSitemapEligible,
+} from "@/lib/corpus/chapter-eligibility";
+import {
   chapterSlugFromRouteKey,
   chaptersFromGraph,
   indexChaptersByEditionId,
   indexPartsByEditionId,
-  isValidChapterRouteKey,
 } from "@/lib/graph/chapters";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
@@ -20,7 +23,7 @@ import { getPublishedTrails } from "@/lib/trails/loadTrails";
 import { buildSearchDocuments } from "@/lib/search/buildSearchDocuments";
 import type { ContentType } from "@/lib/books/catalog-taxonomy";
 import type { SearchDocument } from "@/lib/search/types";
-import type { Book, ManifestChapter, SemanticGraph } from "@/types/semanticGraph";
+import type { SemanticGraph } from "@/types/semanticGraph";
 
 export type PublicEntityKind =
   | "book"
@@ -63,8 +66,8 @@ export type PublicCorpusRegistry = {
   thinkers: PublicEntityRecord[];
   sources: PublicEntityRecord[];
   /**
-   * Chapter metadata from schema 2.2. Routes + sitemap eligibility live (READ-002/009);
-   * chapters stay unlisted / search-ineligible until READ-005 / READ-006.
+   * Chapter metadata from schema 2.2. Routes, sitemap, and search eligibility live
+   * (READ-002/005/009). Overview Inside-this-book links use chapter publicUrl (READ-006).
    */
   chapters: PublicEntityRecord[];
   /** Catalog view-model used to build this registry (reuse in integrity checks). */
@@ -87,17 +90,10 @@ export type PublicCorpusRegistry = {
   chapterIdsByEditionId: Map<string, string[]>;
 };
 
-/**
- * Sitemap eligibility for a chapter: public unit on a non-draft book with a valid routeKey.
- * Search eligibility and listed visibility remain separate (READ-005 / READ-006).
- */
-export function isChapterSitemapEligible(
-  chapter: Pick<ManifestChapter, "public" | "routeKey">,
-  book: Book | undefined,
-): boolean {
-  if (!chapter.public || !book || !bookIsPublic(book)) return false;
-  return isValidChapterRouteKey(chapter.routeKey);
-}
+export {
+  isChapterSearchEligible,
+  isChapterSitemapEligible,
+} from "@/lib/corpus/chapter-eligibility";
 
 /** Public chapter pathnames for sitemap.xml (stable reading order within editions). */
 export function listChapterSitemapPaths(graph: SemanticGraph): string[] {
@@ -312,16 +308,16 @@ export function buildPublicCorpusRegistry(graph: SemanticGraph): PublicCorpusReg
   const chapters: PublicEntityRecord[] = chaptersFromGraph(graph).map((chapter) => {
     const parent = booksById.get(chapter.editionId);
     const sitemapEligible = isChapterSitemapEligible(chapter, parent);
+    const searchEligible = isChapterSearchEligible(chapter, parent);
     const record: PublicEntityRecord = {
       id: chapter.id,
       entityType: "chapter",
       slug: chapterSlugFromRouteKey(chapter.routeKey),
       title: chapter.title,
       publicStatus: chapter.public ? "public" : "hidden",
-      // Keep unlisted until overview/search surfaces intentionally list chapters (READ-006).
-      visibility: "unlisted",
+      visibility: searchEligible ? "listed" : "unlisted",
       canonicalUrl: chapter.routeKey,
-      searchEligible: false,
+      searchEligible,
       sitemapEligible,
     };
     byId.set(record.id, record);
