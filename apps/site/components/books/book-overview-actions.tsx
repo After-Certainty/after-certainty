@@ -7,7 +7,10 @@ import {
 } from "@/components/explore/explore-action-buttons";
 import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
 import { AnalyticsEvents } from "@/lib/analytics/events";
-import type { OrderedBookActions } from "@/lib/books/semantic-book-action-links";
+import {
+  isInternalBookAction,
+  type OrderedBookActions,
+} from "@/lib/books/semantic-book-action-links";
 
 type BookOverviewActionsProps = {
   bookId: string;
@@ -50,6 +53,15 @@ function analyticsForSecondary(bookId: string, item: NonNullable<OrderedBookActi
       },
     };
   }
+  if (item.kind === "read") {
+    return {
+      event: AnalyticsEvents.bookOverviewPrimaryAction,
+      params: {
+        book_id: bookId,
+        action_kind: item.kind,
+      },
+    };
+  }
   return {
     event: AnalyticsEvents.bookOverviewRelatedSelect,
     params: {
@@ -66,13 +78,16 @@ export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewA
   const hasPublication = Boolean(primary) || secondary.length > 0;
 
   return (
-    <section className="mt-10 space-y-4" aria-label={hasPublication ? "Get the book" : "Actions"}>
+    <section
+      className="mt-10 space-y-4"
+      aria-label={hasPublication ? "Read or get the book" : "Actions"}
+    >
       <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
         {primary ? (
           <TrackedLink
             href={primary.href}
-            target={primary.kind === "navigate" ? undefined : "_blank"}
-            rel={primary.kind === "navigate" ? undefined : "noopener noreferrer"}
+            target={isInternalBookAction(primary.kind) ? undefined : "_blank"}
+            rel={isInternalBookAction(primary.kind) ? undefined : "noopener noreferrer"}
             className={explorePrimaryButtonClass}
             analytics={{
               event: AnalyticsEvents.bookOverviewPrimaryAction,
@@ -91,8 +106,8 @@ export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewA
           <TrackedLink
             key={`${item.href}-${item.label}`}
             href={item.href}
-            target={item.kind === "navigate" ? undefined : "_blank"}
-            rel={item.kind === "navigate" ? undefined : "noopener noreferrer"}
+            target={isInternalBookAction(item.kind) ? undefined : "_blank"}
+            rel={isInternalBookAction(item.kind) ? undefined : "noopener noreferrer"}
             className={exploreSecondaryButtonClass}
             analytics={analyticsForSecondary(bookId, item)}
           >

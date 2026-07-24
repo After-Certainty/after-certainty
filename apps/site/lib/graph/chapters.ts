@@ -117,12 +117,24 @@ export function chaptersForEdition(graph: SemanticGraph, editionId: string): Man
   return chaptersFromGraph(graph).filter((chapter) => chapter.editionId === editionId);
 }
 
-/** Public chapters for an edition in reading order (for future TOC surfaces). */
+/** Public chapters for an edition in reading order. */
 export function publicChaptersForEdition(
   graph: SemanticGraph,
   editionId: string,
 ): ManifestChapter[] {
   return chaptersForEdition(graph, editionId).filter((chapter) => chapter.public);
+}
+
+/**
+ * First public chapter pathname for an edition (reading-order start), or null
+ * when the book is not yet available in the native reader.
+ */
+export function firstPublicChapterHref(
+  graph: SemanticGraph,
+  editionId: string,
+): string | null {
+  const first = publicChaptersForEdition(graph, editionId)[0];
+  return first ? chapterPublicPath(first) : null;
 }
 
 export function indexPartsByEditionId(graph: SemanticGraph): Map<string, ManifestPart[]> {
