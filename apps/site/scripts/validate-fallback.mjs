@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * CLI wrapper: validate bundled fallback freshness.
+ * CLI wrapper: validate installed local manifest freshness.
  * Usage: npm run validate:fallback [-- --strict]
  */
 import { spawnSync } from "node:child_process";

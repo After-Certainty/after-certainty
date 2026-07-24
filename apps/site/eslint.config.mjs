@@ -16,6 +16,41 @@ const eslintConfig = defineConfig([
       },
     },
   },
+  {
+    files: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}", "lib/**/*.{ts,tsx}"],
+    ignores: ["**/*.{test,spec}.{ts,tsx}"],
+    rules: {
+      "no-restricted-imports": [
+        "error",
+        {
+          paths: [
+            {
+              name: "@/data/semantic-manifest.json",
+              message:
+                "Committed semantic-manifest.json was removed. Use getSemanticGraph / loadOfflineManifestJson (installed local) or inject a test fixture.",
+            },
+            {
+              name: "../data/semantic-manifest.json",
+              message:
+                "Committed semantic-manifest.json was removed. Use the installed local manifest path.",
+            },
+          ],
+          patterns: [
+            {
+              group: ["**/test/fixtures/semantic-manifest/**"],
+              message:
+                "Test fixtures must not be imported from production app/components/lib code.",
+            },
+            {
+              group: ["**/data/semantic-manifest.json"],
+              message:
+                "Committed semantic-manifest.json was removed. Use installed local-semantic-manifest.json.",
+            },
+          ],
+        },
+      ],
+    },
+  },
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:

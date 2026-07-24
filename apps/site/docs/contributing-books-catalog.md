@@ -14,7 +14,9 @@ flowchart LR
   QY --> Page["/explore/books"]
 ```
 
-- **Source of truth:** after-certainty release → `semantic-manifest.json` (ISR + bundled fallback).
+- **Source of truth:** monorepo root corpus (`books/`, `semantic/`) → same-checkout
+  `semantic-manifest.json` → installed `data/local-semantic-manifest.json`.
+  There is no remote ISR fetch and no committed production fallback.
 - **Editions / works:** `editions[]` / `works[]` (and additive fields on `books[]`).
 - **Shelves:** `shelves[]` from the manifest; site merges `maxPreview` from [`lib/books/presentation-overlays.ts`](../lib/books/presentation-overlays.ts).
 - **Content type:** `books[].contentType` from the manifest; display labels + recommended sort stay in [`lib/books/catalog-taxonomy.ts`](../lib/books/catalog-taxonomy.ts).

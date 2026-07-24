@@ -117,7 +117,9 @@
     {
       "id": "work-fixture-minimal",
       "slug": "fixture-minimal",
-      "title": "Fixture Minimal"
+      "title": "Fixture Minimal",
+      "currentEditionId": "book-fixture-minimal",
+      "editionIds": ["book-fixture-minimal"]
     }
   ],
   "editions": [

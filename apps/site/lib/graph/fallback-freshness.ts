@@ -65,8 +65,8 @@ export function readIntendedManifestRelease(
 }
 
 /**
- * Validate the bundled fallback for schema, provenance, fixture content types,
- * intended-release parity, and staleness.
+ * Validate the installed local semantic manifest for schema, provenance,
+ * required content-type fixtures, intended-release parity, and staleness.
  * Invalid/incompatible / release mismatch → errors.
  * Stale → warning (error when strict).
  */
@@ -98,7 +98,7 @@ export function collectFallbackFreshnessIssues(
         {
           severity: "error",
           code: "invalid_fallback",
-          detail: "Bundled semantic-manifest.json failed Zod validation.",
+          detail: "Installed local-semantic-manifest.json failed Zod validation.",
         },
       ],
     };
@@ -214,8 +214,7 @@ export function collectFallbackFreshnessIssues(
     issues.push({
       severity: "error",
       code: "missing_intended_release",
-      detail:
-        `${LOCAL_INTENDED_RELEASE_RELATIVE} is missing. Run npm run site:install-local-manifest after rebuilding the manifest.`,
+      detail: `${LOCAL_INTENDED_RELEASE_RELATIVE} is missing. Run npm run site:install-local-manifest after rebuilding the manifest.`,
     });
   }
 

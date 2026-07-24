@@ -1,15 +1,10 @@
 /**
- * Core content contracts for manifests produced by the books repo and local stubs.
+ * Core content contracts for manifests produced by the monorepo corpus and local stubs.
  * Extend these interfaces as the publishing pipeline matures.
  */
 
 /** Lifecycle / shelf status for catalog + detail views */
-export type BookStatus =
-  | "published"
-  | "forthcoming"
-  | "draft"
-  | "in_progress"
-  | "collaborative";
+export type BookStatus = "published" | "forthcoming" | "draft" | "in_progress" | "collaborative";
 
 /** Editorial themes — shared vocabulary across the catalog */
 export type ThemeTag = string;

@@ -1,8 +1,10 @@
 # Contributing Curated Reading Trails
 
-Curated Reading Trails are editorially composed paths through the After Certainty corpus. **Corpus definitions live in after-certainty** (`semantic/trails/*.yml`) and ship via `semantic-manifest.json` → `trails[]`.
+Curated Reading Trails are editorially composed paths through the After Certainty corpus.
+**Corpus definitions live in this monorepo** (`semantic/trails/*.yml`) and ship via
+same-checkout `semantic-manifest.json` → `trails[]`.
 
-Site-owned pieces that remain here:
+Site-owned pieces that remain under `apps/site/`:
 
 - Search bridges — [`data/path-search-bridges.json`](../data/path-search-bridges.json) (`trailBridges`)
 - Fiction-doorway presentation flag — [`lib/books/presentation-overlays.ts`](../lib/books/presentation-overlays.ts)
@@ -11,8 +13,9 @@ Site-owned pieces that remain here:
 
 | Layer              | Location                                                                 |
 | ------------------ | ------------------------------------------------------------------------ |
-| Canonical YAML     | after-certainty `semantic/trails/`                                       |
-| Release asset      | `semantic-manifest.json` → `trails[]`                                    |
+| Canonical YAML     | `semantic/trails/` (monorepo root)                                       |
+| Generated asset    | `build/semantic-manifest.json` → `trails[]`                              |
+| Site install       | `apps/site/data/local-semantic-manifest.json` (gitignored)               |
 | Site bridges       | [`data/path-search-bridges.json`](../data/path-search-bridges.json)      |
 | Types / enrichment | [`types/trails.ts`](../types/trails.ts), [`lib/trails/`](../lib/trails/) |
 

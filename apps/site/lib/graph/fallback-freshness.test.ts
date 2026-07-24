@@ -6,7 +6,7 @@ import {
 } from "@/lib/graph/fallback-freshness";
 
 describe("fallback freshness", () => {
-  it("accepts the bundled fallback with required fixture content types", () => {
+  it("accepts the installed local manifest with required fixture content types", () => {
     const report = collectFallbackFreshnessIssues(undefined, { intended: null });
     const errors = report.issues.filter((i) => i.severity === "error");
     expect(errors).toEqual([]);
@@ -15,7 +15,7 @@ describe("fallback freshness", () => {
     expect(report.sourceCommit).toBeTruthy();
   });
 
-  it("assertFallbackFresh passes for the bundled file", () => {
+  it("assertFallbackFresh passes for the installed local manifest", () => {
     expect(() => assertFallbackFresh({ intended: null })).not.toThrow();
   });
 

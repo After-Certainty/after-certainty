@@ -48,12 +48,14 @@ Set **`NEXT_PUBLIC_SITE_URL`** to your canonical domain so metadata, Open Graph,
 
 ## Content architecture
 
-| Kind             | Location / notes                                            |
-| ---------------- | ----------------------------------------------------------- |
-| Typed models     | `types/content.ts`                                          |
-| Manifest fixtures | `data/*.json` — local install target plus committed offline/test fixtures |
-| MDX pages        | `content/mdx/*.mdx`, imported from routes under `app/`      |
-| Site copy config | `lib/site-config.ts`                                        |
+| Kind             | Location / notes                                                            |
+| ---------------- | --------------------------------------------------------------------------- |
+| Typed models     | `types/content.ts`                                                          |
+| Manifest data    | `data/local-semantic-manifest.json` (gitignored; installed from root build) |
+| Test fixtures    | `test/fixtures/semantic-manifest/` (non-authoritative; unit tests only)     |
+| Other site JSON  | `data/*.json` — podcast, shelves, site-owned overlays                       |
+| MDX pages        | `content/mdx/*.mdx`, imported from routes under `app/`                      |
+| Site copy config | `lib/site-config.ts`                                                        |
 
 Install the real local manifest with `npm run corpus:build-manifest` followed by `npm run site:install-local-manifest`.
 
@@ -80,9 +82,9 @@ Optional: once **Dependency graph** is enabled in the same settings page, you ca
 The podcast RSS URL is `siteConfig.podcastRssUrl` (Anchor). The site **fetches that feed on the server** (`lib/podcast/rss.ts`, cached + **revalidated every hour** via `fetch`); episode lists and the home “latest episode” block use that data. If the feed is unreachable (offline dev, CI, etc.), lists fall back to `data/podcast-episodes.json`. `/feed.xml` still redirects to Anchor for podcast apps.
 
 Explore surfaces (books, patterns, glossary, observatory, questions, trails) load
-**`semantic-manifest.json`** from the same checkout via
-`data/local-semantic-manifest.json`. The committed
-`data/semantic-manifest.json` remains only as a non-synced offline/test fixture.
+the same-checkout generated manifest via `data/local-semantic-manifest.json`.
+Unit tests use purpose-built fixtures under `test/fixtures/semantic-manifest/`.
+There is no committed production fallback under `data/`.
 See [`docs/semantic-manifest.md`](docs/semantic-manifest.md) for local manifest
 loading, content-type normalization, and `validate:fallback` /
 `validate:public-corpus`.

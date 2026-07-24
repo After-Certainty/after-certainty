@@ -14,10 +14,10 @@ What’s New is a chronological feed of **meaningful** public changes.
 
 ## Source of truth
 
-| Event kind                                               | Owner               | Location                                                                 |
-| -------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------ |
-| `book_published` / `book_revised` / corpus announcements | **after-certainty** | `semantic/change-events/` → `changeEvents[]` in `semantic-manifest.json` |
-| `podcast_episode` / `site_feature`                       | **this site**       | [`data/site-whats-new.json`](../data/site-whats-new.json)                |
+| Event kind                                               | Owner               | Location                                                           |
+| -------------------------------------------------------- | ------------------- | ------------------------------------------------------------------ |
+| `book_published` / `book_revised` / corpus announcements | **monorepo corpus** | `semantic/change-events/` → `changeEvents[]` in generated manifest |
+| `podcast_episode` / `site_feature`                       | **apps/site**       | [`data/site-whats-new.json`](../data/site-whats-new.json)          |
 
 Loaders merge corpus `changeEvents` with site-owned rows in [`lib/whats-new/publicEvents.ts`](../lib/whats-new/publicEvents.ts).
 
@@ -25,7 +25,9 @@ Loaders merge corpus `changeEvents` with site-owned rows in [`lib/whats-new/publ
 
 ## Adding a book publication / revision event
 
-Author YAML under after-certainty `semantic/change-events/`, release, then refresh the bundled semantic manifest on this site.
+Author YAML under `semantic/change-events/`, then regenerate and install the local
+manifest (`npm run corpus:build-manifest && npm run site:install-local-manifest`).
+Do not commit a full manifest under `apps/site/data/`.
 
 ## Adding a podcast or site-feature event
 

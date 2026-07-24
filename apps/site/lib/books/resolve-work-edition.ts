@@ -1,10 +1,14 @@
 import { parseBookEdition, pickCanonicalEditionSlug } from "@/lib/books/canonical-editions";
-import { getPublicationRegistry } from "@/lib/books/load-publication-registry";
 import type {
   EditionRelationship,
   PublicationRegistry,
 } from "@/lib/books/publication-registry-schema";
 import type { Book } from "@/types/semanticGraph";
+
+const EMPTY_PUBLICATION_REGISTRY: PublicationRegistry = {
+  manifestVersion: 1,
+  editions: [],
+};
 
 export type ResolvedEdition = {
   bookId: string;
@@ -61,7 +65,7 @@ function resolveLabel(input: {
  */
 export function buildResolvedEditionIndex(
   books: readonly Book[],
-  registry: PublicationRegistry = getPublicationRegistry(),
+  registry: PublicationRegistry = EMPTY_PUBLICATION_REGISTRY,
 ): Map<string, ResolvedEdition> {
   const registryByBookId = new Map(registry.editions.map((e) => [e.bookId, e] as const));
   const bookById = new Map(books.map((b) => [b.id, b] as const));
@@ -143,7 +147,7 @@ export function resolveWorkEdition(
   books: readonly Book[],
   registry?: PublicationRegistry,
 ): ResolvedEdition {
-  const index = buildResolvedEditionIndex(books, registry ?? getPublicationRegistry());
+  const index = buildResolvedEditionIndex(books, registry ?? EMPTY_PUBLICATION_REGISTRY);
   return (
     index.get(book.slug) ?? {
       bookId: book.id,
@@ -161,7 +165,7 @@ export function buildEditionGroups(
   books: readonly Book[],
   registry?: PublicationRegistry,
 ): Map<string, EditionGroupMeta> {
-  const resolved = buildResolvedEditionIndex(books, registry ?? getPublicationRegistry());
+  const resolved = buildResolvedEditionIndex(books, registry ?? EMPTY_PUBLICATION_REGISTRY);
   const meta = new Map<string, EditionGroupMeta>();
   for (const [slug, edition] of resolved) {
     meta.set(slug, {
