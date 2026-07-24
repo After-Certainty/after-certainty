@@ -13,7 +13,7 @@
 
 ## 1. Executive summary
 
-After Certainty’s public site (`after-certainty-site`) is a **Next.js 16 App Router** application that consumes a semantic graph from the content repository `ksteffe/after-certainty`. As the catalog grows, visitors need reliable answers to: which edition am I viewing, is it current, is it published or upcoming, when did it meaningfully change, what question does this book investigate, and what changed recently across the project.
+After Certainty’s public site (`apps/site/` in `ksteffe/after-certainty`) is a **Next.js 16 App Router** application that consumes a semantic graph from the same monorepo. As the catalog grows, visitors need reliable answers to: which edition am I viewing, is it current, is it published or upcoming, when did it meaningfully change, what question does this book investigate, and what changed recently across the project.
 
 These three features share one prerequisite: **normalized canonical and publication metadata**.
 

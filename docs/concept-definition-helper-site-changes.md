@@ -1,17 +1,17 @@
-# Concept Definition Helper - Site Repository Changes
+# Concept Definition Helper - Site Changes
 
-This document contains the changes needed in the `after-certainty-site` repository to implement the centralized concept definition display helper.
+This document contains the changes needed in **`apps/site/`** (monorepo) to implement the centralized concept definition display helper. The former standalone `after-certainty-site` repository is archived.
 
 ## Status
 
 ✅ Content repo (`after-certainty`): Validation added, committed, and pushed to PR #241
-⏳ Site repo (`after-certainty-site`): Changes prepared but require manual application
+✅ Site lives under `apps/site/` in the same monorepo (apply remaining helper changes there if still pending)
 
-## Changes for after-certainty-site
+## Changes for `apps/site/`
 
 ### 1. Create Helper Function
 
-**File**: `lib/explore/getConceptDisplayDefinition.ts` (new file)
+**File**: `apps/site/lib/explore/getConceptDisplayDefinition.ts` (new file)
 
 ```typescript
 import type { GlossaryConcept } from "@/types/semanticGraph";
@@ -174,14 +174,15 @@ Replace line 28:
 If you have the committed changes from my local branch:
 
 ```bash
-cd /path/to/after-certainty-site
+cd /path/to/after-certainty   # monorepo root
+# site app is apps/site/
 git checkout -b cursor/concept-definition-helper-d009
 # Apply the patch file (if available)
 ```
 
 ### Option B: Manual Application
 
-1. Create the new helper file `lib/explore/getConceptDisplayDefinition.ts`
+1. Create the new helper file `apps/site/lib/explore/getConceptDisplayDefinition.ts`
 2. Update each of the 6 component files listed above
 3. Test the build: `npm run build`
 4. Run linting: `npm run lint`
