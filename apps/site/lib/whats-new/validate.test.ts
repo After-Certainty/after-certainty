@@ -1,10 +1,8 @@
 import { describe, expect, it } from "vitest";
 
 import podcastFallback from "@/data/podcast-episodes.json";
-import semanticManifest from "@/data/semantic-manifest.json";
 import siteWhatsNewJson from "@/data/site-whats-new.json";
 import { changeEventsToWhatsNewEvents } from "@/lib/graph/discovery";
-import { validateSemanticGraph } from "@/lib/graph/manifest";
 import { buildPodcastWhatsNewCandidates } from "@/lib/whats-new/candidates";
 import { getAuthoredWhatsNewEvents, getSiteWhatsNewManifest } from "@/lib/whats-new/loadWhatsNew";
 import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
@@ -14,21 +12,27 @@ import {
   collectWhatsNewHealthIssues,
   isTechnicalOnlyChange,
 } from "@/lib/whats-new/validate";
+import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
 import type { PodcastEpisode } from "@/types/content";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
-const validated = validateSemanticGraph(semanticManifest as unknown);
-if (!validated.success) {
-  throw new Error("Bundled semantic-manifest.json failed validation in whats-new tests");
-}
-const graph = validated.data;
+const graph = loadManifestFixture("enriched-book");
 const podcastEpisodes = (podcastFallback as { episodes: PodcastEpisode[] }).episodes;
+
+/** Keep only change events whose book targets exist in the fixture graph. */
+function fixtureSafeChangeEvents(g: SemanticGraph) {
+  const bookIds = new Set(g.books.map((b) => b.id));
+  return (g.changeEvents ?? []).filter(
+    (e) => e.entityType !== "book" || !e.entityId || bookIds.has(e.entityId),
+  );
+}
 
 function mergedAuthoredManifest() {
   const site = parseWhatsNewManifest(siteWhatsNewJson);
+  const safeGraph: SemanticGraph = { ...graph, changeEvents: fixtureSafeChangeEvents(graph) };
   return {
     ...site,
-    events: [...changeEventsToWhatsNewEvents(graph.changeEvents), ...site.events],
+    events: [...changeEventsToWhatsNewEvents(safeGraph.changeEvents), ...site.events],
   };
 }
 
@@ -44,7 +48,7 @@ describe("whats-new health", () => {
   it("exposes only published public authored events by default", () => {
     const events = buildPublicWhatsNewEvents({
       podcastEpisodes,
-      changeEvents: graph.changeEvents,
+      changeEvents: fixtureSafeChangeEvents(graph),
     });
     expect(events.length).toBeGreaterThan(0);
     expect(events.every((e) => e.published && e.visibility === "public")).toBe(true);

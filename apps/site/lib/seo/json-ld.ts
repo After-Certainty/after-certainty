@@ -1,4 +1,3 @@
-import fallbackSemantic from "@/data/semantic-manifest.json";
 import type { GraphIndex } from "@/lib/graph/graph";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import {
@@ -551,8 +550,7 @@ export function buildConceptPageJsonLd(params: {
 
 function semanticManifestGeneratedAt(override?: string): string | undefined {
   if (override?.trim()) return override.trim();
-  const value = (fallbackSemantic as { generatedAt?: string }).generatedAt;
-  return typeof value === "string" && value.trim() ? value : undefined;
+  return undefined;
 }
 
 export function buildPatternPageJsonLd(params: {

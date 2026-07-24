@@ -1,0 +1,462 @@
+{
+  "schemaVersion": "2.3",
+  "manifestVersion": 2,
+  "generatedAt": "2026-07-01T00:00:00.000000+00:00",
+  "sourceCommit": "fixture-test-commit",
+  "repository": "ksteffe/after-certainty",
+  "ref": "refs/heads/main",
+  "ontology": {
+    "masterTerms": [
+      {
+        "id": "concept-circulation",
+        "slug": "circulation",
+        "title": "Circulation",
+        "preserves": "continuity"
+      },
+      {
+        "id": "concept-correction",
+        "slug": "correction",
+        "title": "Correction",
+        "preserves": "reality-contact"
+      },
+      {
+        "id": "concept-certainty",
+        "slug": "certainty",
+        "title": "Certainty",
+        "preserves": "coordination stability"
+      },
+      {
+        "id": "concept-judgment",
+        "slug": "judgment",
+        "title": "Judgment",
+        "preserves": "non-automatic evaluation"
+      },
+      {
+        "id": "concept-coupling",
+        "slug": "coupling",
+        "title": "Coupling",
+        "preserves": "exposure to consequence"
+      },
+      {
+        "id": "concept-corrigibility",
+        "slug": "corrigibility",
+        "title": "Corrigibility",
+        "preserves": "adaptive recoverability"
+      }
+    ],
+    "structuralPressures": [
+      {
+        "id": "concept-scale",
+        "slug": "scale",
+        "title": "Scale",
+        "effect": "weakens proximity"
+      },
+      {
+        "id": "concept-acceleration",
+        "slug": "acceleration",
+        "title": "Acceleration",
+        "effect": "outruns reflection"
+      },
+      {
+        "id": "concept-abstraction",
+        "slug": "abstraction",
+        "title": "Abstraction",
+        "effect": "obscures consequence"
+      },
+      {
+        "id": "concept-asymmetry",
+        "slug": "asymmetry",
+        "title": "Asymmetry",
+        "effect": "weakens reciprocity"
+      },
+      {
+        "id": "concept-mediation",
+        "slug": "mediation",
+        "title": "Mediation",
+        "effect": "distorts interpretation"
+      },
+      {
+        "id": "concept-compression",
+        "slug": "compression",
+        "title": "Compression",
+        "effect": "reduces nuance"
+      },
+      {
+        "id": "concept-inheritance",
+        "slug": "inheritance",
+        "title": "Inheritance",
+        "effect": "preserves drift"
+      },
+      {
+        "id": "concept-normalization",
+        "slug": "normalization",
+        "title": "Normalization",
+        "effect": "hardens adaptation"
+      }
+    ]
+  },
+  "books": [
+    {
+      "id": "book-after-certainty",
+      "slug": "after-certainty",
+      "title": "After Certainty",
+      "subtitle": "How to Live and Judge When Understanding is not Enough",
+      "summary": "How to live and judge once explanation reaches its limits\u2014judgment, responsibility, and participation without replacement frameworks.",
+      "description": "How to live and judge once explanation reaches its limits\u2014judgment, responsibility, and participation without replacement frameworks.",
+      "status": "published",
+      "authors": [
+        "Kevin Steffensen"
+      ],
+      "year": 2026,
+      "contentType": "nonfiction",
+      "literaryForm": "monograph",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "isCanonical": true,
+      "editionRelationship": "sole",
+      "availability": [
+        "download_docx",
+        "download_epub",
+        "download_pdf"
+      ],
+      "concepts": [
+        "concept-abstraction",
+        "concept-accountability",
+        "concept-agency",
+        "concept-authority",
+        "concept-authorization",
+        "concept-bureaucracy",
+        "concept-circulation",
+        "concept-coherence-maintenance",
+        "concept-constraints",
+        "concept-correction",
+        "concept-distance",
+        "concept-effectiveness",
+        "concept-feedback",
+        "concept-finite-perspective",
+        "concept-harm",
+        "concept-incentives",
+        "concept-interpretation",
+        "concept-judgment",
+        "concept-legibility",
+        "concept-legitimacy",
+        "concept-meaning",
+        "concept-responsibility",
+        "concept-scale",
+        "concept-stability",
+        "concept-system",
+        "concept-thinking",
+        "concept-trust",
+        "concept-uncertainty"
+      ],
+      "patterns": [
+        "pattern-admiration-becomes-insulation",
+        "pattern-attention-restores-contact",
+        "pattern-blame-compresses-complexity",
+        "pattern-correctness-hardens-into-identity",
+        "pattern-explanation-replaces-response",
+        "pattern-finality-compensates-for-uncertainty",
+        "pattern-responsibility-persists-beyond-control",
+        "pattern-revisability-preserves-judgment",
+        "pattern-scrutiny-preserves-trust",
+        "pattern-speech-escalates-faster-than-meaning"
+      ],
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/open-graph.png",
+      "overview": {
+        "centralQuestion": "How do we live and judge when understanding is not enough?",
+        "whyItExists": "After Certainty is the project\u2019s namesake orientation: judgment, responsibility, and participation once explanation reaches its limits and replacement frameworks will not save us.",
+        "audience": "Readers ready for the capstone thesis \u2014 including those arriving from curiosity, perspective, trust, or systems doorways.",
+        "nonGoals": [
+          "It does not install a new totalizing certainty in place of the old one.",
+          "It does not claim that abandoning certainty means abandoning standards."
+        ],
+        "selectedConceptIds": [
+          "concept-agency",
+          "concept-accountability",
+          "concept-authority"
+        ],
+        "selectedPatternIds": [
+          "pattern-explanation-replaces-response",
+          "pattern-blame-compresses-complexity",
+          "pattern-attention-restores-contact"
+        ],
+        "selectedConceptRoles": [
+          {
+            "conceptId": "concept-agency",
+            "roleInWork": "Names the practical stake of the capstone: capacity to act and affect outcomes once explanation no longer guarantees control\u2014so participation stays possible without a replacement framework."
+          },
+          {
+            "conceptId": "concept-accountability",
+            "roleInWork": "Anchors judgment after certainty as exposure to consequence rather than correctness theater; distinguishes answerability from mastery of the field."
+          },
+          {
+            "conceptId": "concept-authority",
+            "roleInWork": "Clarifies operational power that still steers action when understanding is incomplete\u2014so leadership and legitimacy remain live questions, not solved by better theory alone."
+          }
+        ],
+        "selectedPatternRoles": [
+          {
+            "patternId": "pattern-explanation-replaces-response",
+            "roleInWork": "Introduces the failure mode where more framing reorganizes harm instead of reducing it\u2014central to why understanding alone is not enough."
+          },
+          {
+            "patternId": "pattern-blame-compresses-complexity",
+            "roleInWork": "Dramatizes the cheap relief of locating fault when the field is too complex for a single cause; the book treats this as a temptation after certainty fails."
+          },
+          {
+            "patternId": "pattern-attention-restores-contact",
+            "roleInWork": "Applies the restorative move: attention reintroduces consequence where abstraction would hide it\u2014practice rather than a new doctrine."
+          }
+        ],
+        "readBefore": [
+          "curiosity-before-certainty",
+          "what-we-cannot-see"
+        ],
+        "readNext": [
+          "coupling",
+          "when-others-look-to-you-v1"
+        ]
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "concept-abstraction",
+      "slug": "abstraction",
+      "title": "Abstraction",
+      "shortDefinition": "Abstraction is mediation away from direct encounter: compression of complexity as systems scale, valued when it preserves accountability signal at the boundaries where behavior can still be redesigned\u2014and costly when it hides consequence until feedback arrives too late."
+    },
+    {
+      "id": "concept-acceleration",
+      "slug": "acceleration",
+      "title": "Acceleration",
+      "shortDefinition": "Acceleration is pressure that favors speed, decisiveness, and reduced deliberation when coordination feels fragile. It can help groups respond under real urgency, but becomes dangerous when urgency outlives the threat and dissent is treated as delay.",
+      "longDefinition": "Acceleration names urgency becoming structural\u2014pressure that makes speed feel like a moral  requirement rather than a tactical choice. It arises when coordination feels fragile and  time scarce, when hesitation reads as weakness and dissent as delay the group cannot afford.  At its best, acceleration protects survival when deliberation is genuinely too costly; it  helps groups respond when the threat is real and immediate. At its worst, it persists after  the original pressure has passed, treating every quarrel as existential risk and every pause  as failure. Acceleration becomes dangerous when urgency outlives the conditions that first  made it necessary\u2014when speed replaces judgment, when dissent is treated as betrayal, and when  the machinery of rapid response cannot slow down enough to notice that the threat has changed.  It differs from momentum in that acceleration is actively pressured forward, while momentum is  continuation without renewed judgment."
+    },
+    {
+      "id": "concept-accountability",
+      "slug": "accountability",
+      "title": "Accountability",
+      "shortDefinition": "Accountability is exposure to consequence\u2014who can see effects, be challenged, or redirected. It differs from responsibility, which names the durable obligation to account; and from answerability, which names obligation to those affected by partial-perspective decisions.",
+      "longDefinition": "Accountability names whether consequence still reaches the people who can respond. It becomes important when scale, narrative, or abstraction thins contact between action and effect. It helps preserve correction and proportionate answerability, but can fail when moral sorting replaces sustained contact with outcomes. It differs from responsibility because accountability emphasizes exposure to consequence; responsibility includes the ongoing obligation to account even when control is partial."
+    }
+  ],
+  "patterns": [
+    {
+      "id": "pattern-admiration-becomes-insulation",
+      "slug": "admiration-becomes-insulation",
+      "title": "Admiration Becomes Insulation",
+      "summary": "Admiration enables trust, imitation, and moral aspiration toward people who seem to carry more than their share of complexity.\n\nHeroic narratives stabilize; contradiction becomes hard to absorb without collapsing the story.\n\n- Harm is reframed as tradeoff\n- Context expands selectively around the admired figure\n- Accountability weakens to preserve narrative coherence\n- Scrutiny feels like betrayal of belonging\n\nThe admired person is protected less by trust than by narrative attachment.\n\nA leader's harmful call is debated as \"what the role required\" while proportionate inquiry is treated as disloyalty."
+    },
+    {
+      "id": "pattern-attention-finds-a-focus",
+      "slug": "attention-finds-a-focus",
+      "title": "Attention Finds a Focus",
+      "summary": "The group faces unclear next steps. It needs direction.\n\nPeople need to work together. No clear process has named who will lead.\n\n- People want a steer when things are unclear\n- Silence pushes someone to act\n- Early signals weigh extra\n- Leadership can show up without anyone planning it\n\nAttention settles on one person. Others start lining up their behavior with that person's actions, tone, or timing.\n\nWhen nobody knows the next move, attention finds a focus fast\u2014then direction follows whether anyone planned it or not."
+    },
+    {
+      "id": "pattern-attention-restores-contact",
+      "slug": "attention-restores-contact",
+      "title": "Attention Restores Contact",
+      "summary": "Scale and abstraction pull moral life away from particular harms, people, and tradeoffs that still exist somewhere.\n\nBlame and metrics average consequence until distance feels like innocence.\n\n- Abstraction rewards summaries over cases\n- Distance is institutionally produced\n- Contact is slower than closure\n- Visibility substitutes for responsiveness\n\nAttention reintroduces consequence where abstraction would conceal it\u2014much of staying human at scale is this discipline repeated.\n\nA review names affected people and lived outcomes, not only the accountable role on the org chart."
+    }
+  ],
+  "situations": [],
+  "sources": [],
+  "relationships": [],
+  "works": [
+    {
+      "id": "work-after-certainty",
+      "slug": "after-certainty",
+      "title": "After Certainty",
+      "currentEditionId": "book-after-certainty",
+      "contentType": "nonfiction",
+      "canonicalRoute": "/explore/books/after-certainty",
+      "editionIds": [
+        "book-after-certainty"
+      ]
+    }
+  ],
+  "editions": [
+    {
+      "id": "book-after-certainty",
+      "bookId": "book-after-certainty",
+      "workId": "work-after-certainty",
+      "slug": "after-certainty",
+      "isCanonical": true,
+      "relationship": "sole",
+      "editionLabel": null,
+      "title": "After Certainty"
+    }
+  ],
+  "parts": [
+    {
+      "id": "part-after-certainty-part-1-letting-go",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "title": "Part I \u2014 Letting Go",
+      "position": 1,
+      "slug": "part-1-letting-go"
+    },
+    {
+      "id": "part-after-certainty-part-2-what-can-still-be-practiced",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "title": "Part II \u2014 What Can Still Be Practiced",
+      "position": 2,
+      "slug": "part-2-what-can-still-be-practiced"
+    },
+    {
+      "id": "part-after-certainty-part-3-living-with-limits",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "title": "Part III \u2014 Living With Limits",
+      "position": 3,
+      "slug": "part-3-living-with-limits"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "chapter-after-certainty-front-matter-introduction",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "title": "Introduction",
+      "position": 1,
+      "kind": "introduction",
+      "sourcePath": "front-matter/introduction.md",
+      "wordCount": 1298,
+      "estimatedReadingMinutes": 6,
+      "public": true,
+      "routeKey": "/explore/books/after-certainty/chapters/front-matter-introduction",
+      "summary": "Understanding keeps arriving\u2014better diagnoses, clearer patterns\u2014while the tension remains. The introduction separates successful explanation from what explanation cannot finish, and asks what participation looks like once misunderstanding is treated as a lasting condition rather than a temporary deficit of information."
+    },
+    {
+      "id": "chapter-after-certainty-parts-part-1-letting-go-bridge",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "title": "Part I \u2014 Letting Go",
+      "position": 2,
+      "kind": "bridge",
+      "sourcePath": "parts/part-1-letting-go/bridge.md",
+      "wordCount": 447,
+      "estimatedReadingMinutes": 3,
+      "public": true,
+      "routeKey": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-bridge",
+      "partId": "part-after-certainty-part-1-letting-go",
+      "summary": "Clarity has arrived without relief. People tighten their hold on correctness, explanation, admiration, and moral sorting\u2014responses that began as care\u2014because uncertainty is expensive and they still need somewhere to stand. The part asks what must be released when those grips are asked to carry more than they can."
+    },
+    {
+      "id": "chapter-after-certainty-parts-part-1-letting-go-chapter-1-the-end-of-correctness",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "title": "Chapter 1 \u2014 The End of Correctness",
+      "position": 3,
+      "kind": "chapter",
+      "sourcePath": "parts/part-1-letting-go/chapter-1-the-end-of-correctness.md",
+      "wordCount": 2546,
+      "estimatedReadingMinutes": 12,
+      "public": true,
+      "routeKey": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-1-the-end-of-correctness",
+      "partId": "part-after-certainty-part-1-letting-go",
+      "summary": "Two siblings argue about a tree that no longer exists until remembering becomes defending who still counts as worth listening to. Correctness begins as coordination with reality, then hardens into identity\u2014so revision starts threatening coherence rather than improving the account. Letting go of correctness is not abandoning truth; it is refusing to treat being right as the end of moral tension."
+    },
+    {
+      "id": "chapter-after-certainty-parts-part-1-letting-go-chapter-2-the-cost-of-explanation",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "title": "Chapter 2 \u2014 The Cost of Explanation",
+      "position": 4,
+      "kind": "chapter",
+      "sourcePath": "parts/part-1-letting-go/chapter-2-the-cost-of-explanation.md",
+      "wordCount": 2193,
+      "estimatedReadingMinutes": 10,
+      "public": true,
+      "routeKey": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-2-the-cost-of-explanation",
+      "partId": "part-after-certainty-part-1-letting-go",
+      "summary": "An excellent map leaves travelers still lost\u2014every road marked except the question of where to go now. Explanation orients after confusion, then quietly inherits responsibilities that belong to action, care, and judgment. Under pressure it becomes endless motion without arrival, a respectable way of postponing what remaining uncertainty still requires."
+    },
+    {
+      "id": "chapter-after-certainty-parts-part-1-letting-go-chapter-3-releasing-heroes-and-villains",
+      "workId": "work-after-certainty",
+      "editionId": "book-after-certainty",
+      "title": "Chapter 3 \u2014 Releasing the Need for Heroes and Villains",
+      "position": 5,
+      "kind": "chapter",
+      "sourcePath": "parts/part-1-letting-go/chapter-3-releasing-heroes-and-villains.md",
+      "wordCount": 2088,
+      "estimatedReadingMinutes": 10,
+      "public": true,
+      "routeKey": "/explore/books/after-certainty/chapters/parts-part-1-letting-go-chapter-3-releasing-heroes-and-villains",
+      "partId": "part-after-certainty-part-1-letting-go",
+      "summary": "A beloved teacher\u2019s story adjusts itself around a first complaint until trust becomes insulation from scrutiny. Heroes concentrate hope and villains gather harm into a face\u2014both make the moral world legible, and both can protect communities from examining participation, incentives, and proximity. Releasing archetypes is not relativism; it is keeping trust open to proportioned inquiry after admiration has settled."
+    }
+  ],
+  "searchAliases": [
+    {
+      "terms": [
+        "accountability"
+      ],
+      "kind": "alias",
+      "targetIds": [
+        "concept-accountability"
+      ],
+      "note": "Canonical concept name reinforcement for lookup"
+    },
+    {
+      "terms": [
+        "boundary conditions",
+        "organizational fiction"
+      ],
+      "kind": "alias",
+      "targetIds": [
+        "book-boundary-conditions"
+      ],
+      "note": "Short title and form label for Boundary Conditions",
+      "aliasClass": "shortened_name"
+    },
+    {
+      "terms": [
+        "wolty",
+        "when others look to you"
+      ],
+      "kind": "alias",
+      "targetIds": [
+        "book-when-others-look-to-you-v1"
+      ],
+      "note": "Public short name and title phrase for the v1 edition"
+    }
+  ],
+  "changeEvents": [
+    {
+      "id": "event-book-after-certainty-published",
+      "type": "book_published",
+      "title": "After Certainty is published",
+      "summary": "The project\u2019s namesake volume is available to read and download \u2014 an orientation to living and judging when understanding is not enough.",
+      "date": "2026-01-15",
+      "entityType": "book",
+      "visibility": "public",
+      "source": "authored",
+      "entityId": "book-after-certainty",
+      "featured": true,
+      "significance": "major",
+      "canonicalRoute": "/explore/books/after-certainty",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png"
+    },
+    {
+      "id": "event-book-curiosity-before-certainty-published",
+      "type": "book_published",
+      "title": "Curiosity Before Certainty is published",
+      "summary": "A doorway volume on staying open before premature closure \u2014 useful when certainty arrives too quickly.",
+      "date": "2026-02-10",
+      "entityType": "book",
+      "visibility": "public",
+      "source": "authored",
+      "entityId": "book-curiosity-before-certainty",
+      "featured": false,
+      "significance": "standard",
+      "canonicalRoute": "/explore/books/curiosity-before-certainty",
+      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/book-cover.png"
+    }
+  ]
+}

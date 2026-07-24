@@ -56,7 +56,7 @@ const pathways = [
   {
     href: "/explore/books",
     title: "Books",
-    description: "Long-form works and serialized texts sourced from companion repositories.",
+    description: "Long-form works and serialized texts from the open After Certainty corpus.",
     Icon: IconBooks,
   },
   {

@@ -62,4 +62,22 @@ describe("SiteFooter", () => {
     expect(screen.getByRole("link", { name: /^Search$/i })).toHaveAttribute("href", "/search");
     expect(screen.getByRole("link", { name: /RSS \/ Podcast feed/i })).toBeInTheDocument();
   });
+
+  it("describes the monorepo corpus without sibling-repository language", async () => {
+    const social = resolveSiteSocialLinks();
+    const { container } = render(await SiteFooter());
+    const text = container.textContent ?? "";
+
+    expect(text).toMatch(/open corpus/i);
+    expect(text).toMatch(/built directly from that shared corpus/i);
+    expect(text).not.toMatch(/sibling repositories/i);
+    expect(text).not.toMatch(/aggregates manifests/i);
+    expect(text).not.toContain("after-certainty-site");
+
+    expect(screen.getByRole("link", { name: /^GitHub$/i })).toHaveAttribute(
+      "href",
+      social.github,
+    );
+    expect(social.github).toBe("https://github.com/ksteffe/after-certainty");
+  });
 });

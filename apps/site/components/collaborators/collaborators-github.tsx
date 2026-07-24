@@ -21,7 +21,7 @@ export function CollaboratorsGithub() {
           </p>
           <ul className="mt-10 space-y-4 text-[15px] leading-relaxed text-muted md:text-[17px]">
             <li className="border-l border-accent/25 pl-5">
-              Long-form works and essays are published in the open; repositories stay public as material evolves.
+              Long-form works and essays are published in the open; the repository stays public as material evolves.
             </li>
             <li className="border-l border-accent/25 pl-5">
               Content carries{" "}
@@ -78,7 +78,7 @@ export function CollaboratorsGithub() {
                     GitHub Discussions
                   </TrackedLink>
                   <span className="mt-1 block text-[13px] text-muted/85">
-                    A place for slower threads aligned with the repos—not a replacement for in-depth editorial exchange.
+                    A place for slower threads aligned with the repository—not a replacement for in-depth editorial exchange.
                   </span>
                 </dd>
               </div>

@@ -238,16 +238,16 @@ function withDedupedBooks(graph: SemanticGraph): SemanticGraph {
   return { ...graph, books: dedupeSemanticGraphBooks(graph.books) };
 }
 
-type BundledLoad =
+type InstalledLoad =
   | { ok: true; graph: SemanticGraph }
   | { ok: false; graph: SemanticGraph; category: ManifestFailureCategory; message: string };
 
-function loadBundledFallbackGraph(): BundledLoad {
+function loadInstalledLocalGraph(): InstalledLoad {
   let raw: unknown;
   try {
     raw = loadOfflineManifestJson();
   } catch (err) {
-    const message = err instanceof Error ? err.message : "Failed to load offline manifest.";
+    const message = err instanceof Error ? err.message : "Failed to load installed local manifest.";
     logSemanticGraphError(message, err);
     return {
       ok: false,
@@ -260,72 +260,92 @@ function loadBundledFallbackGraph(): BundledLoad {
   const validated = validateSemanticGraph(raw);
   if (!validated.success) {
     logSemanticGraphError(
-      "Offline semantic manifest failed validation; using hard empty graph.",
+      "Installed local semantic manifest failed validation.",
       validated.error,
     );
     return {
       ok: false,
       graph: EMPTY_GRAPH,
       category: "invalid_fallback",
-      message: "Offline semantic manifest failed validation.",
+      message: "Installed local semantic manifest failed validation.",
     };
   }
 
   if (!isCompatibleSchemaVersion(validated.data.schemaVersion)) {
     logSemanticGraphError(
-      `Offline semantic manifest has incompatible schemaVersion ${validated.data.schemaVersion}.`,
+      `Installed local semantic manifest has incompatible schemaVersion ${validated.data.schemaVersion}.`,
     );
     return {
       ok: false,
       graph: EMPTY_GRAPH,
       category: "incompatible_fallback",
-      message: `Offline schemaVersion ${validated.data.schemaVersion} is incompatible.`,
+      message: `Installed local schemaVersion ${validated.data.schemaVersion} is incompatible.`,
     };
   }
 
   return { ok: true, graph: withDedupedBooks(validated.data) };
 }
 
-function fallbackResult(
+function installedManifestResult(
   reason: ManifestFailureCategory,
   message: string,
   extra?: ManifestLoadDiagnostic[],
 ): SemanticGraphLoadResult {
-  const bundled = loadBundledFallbackGraph();
+  const installed = loadInstalledLocalGraph();
   const diagnostics: ManifestLoadDiagnostic[] = [...(extra ?? []), { category: reason, message }];
 
-  if (!bundled.ok) {
-    diagnostics.push({ category: bundled.category, message: bundled.message });
-    const source = buildFallbackSource(bundled.graph, bundled.category);
-    return { graph: bundled.graph, source, diagnostics };
+  if (!installed.ok) {
+    diagnostics.push({ category: installed.category, message: installed.message });
+    const source = buildFallbackSource(installed.graph, installed.category);
+    return { graph: installed.graph, source, diagnostics };
   }
 
-  const source = buildFallbackSource(bundled.graph, reason);
+  const source = buildFallbackSource(installed.graph, reason);
   if (source.stale) {
     diagnostics.push({
       category: reason,
-      message: `Fallback manifest is stale (ageDays=${source.ageDays ?? "unknown"}, threshold=${fallbackStaleDaysThreshold()}).`,
+      message: `Installed local manifest is stale (ageDays=${source.ageDays ?? "unknown"}, threshold=${fallbackStaleDaysThreshold()}).`,
       details: { ageDays: source.ageDays, stale: true },
     });
   }
 
-  return { graph: bundled.graph, source, diagnostics };
+  return { graph: installed.graph, source, diagnostics };
+}
+
+function shouldFailHardOnMissingManifest(): boolean {
+  return (
+    process.env.SEMANTIC_MANIFEST_USE_LOCAL?.trim() === "1" ||
+    process.env.NEXT_PHASE === "phase-production-build" ||
+    process.env.VERCEL === "1"
+  );
 }
 
 /**
- * Load semantic graph from the installed local manifest or committed offline fixture.
+ * Load semantic graph from the installed same-checkout local manifest.
  * Returns graph + provenance. Prefer {@link getSemanticGraphLoadResult} in new code.
+ * Missing or invalid local manifest fails hard in production / USE_LOCAL builds.
  */
 export async function fetchSemanticGraphLoadResultUncached(): Promise<SemanticGraphLoadResult> {
   const useLocal = process.env.SEMANTIC_MANIFEST_USE_LOCAL?.trim() === "1";
-  const result = fallbackResult(
+  const result = installedManifestResult(
     "offline",
     useLocal
-      ? "SEMANTIC_MANIFEST_USE_LOCAL=1; using local checkout manifest."
+      ? "SEMANTIC_MANIFEST_USE_LOCAL=1; using installed local checkout manifest."
       : isSemanticManifestOffline()
-        ? "SEMANTIC_MANIFEST_OFFLINE=1; using committed offline manifest fixture."
-        : "Runtime remote semantic manifest fetch removed in Stage E; using committed offline manifest fixture.",
+        ? "SEMANTIC_MANIFEST_OFFLINE=1; using installed local checkout manifest."
+        : "Runtime remote semantic manifest fetch removed; using installed local checkout manifest.",
   );
+
+  const loadFailed =
+    result.source.reason === "invalid_fallback" ||
+    result.source.reason === "incompatible_fallback";
+  if (loadFailed && shouldFailHardOnMissingManifest()) {
+    const detail =
+      result.diagnostics.map((d) => d.message).join(" ") ||
+      "Installed local semantic manifest is missing or invalid.";
+    throw new Error(detail);
+  }
+
   logManifestLoadOnce(result);
   return result;
 }

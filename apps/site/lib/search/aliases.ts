@@ -1,4 +1,3 @@
-import fallbackSemantic from "@/data/semantic-manifest.json";
 import type { SearchAliasConfig, SearchAliasEntry, SearchAliasKind } from "@/lib/search/types";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
@@ -48,19 +47,6 @@ export function getSearchAliasConfigFromGraph(graph: SemanticGraph): SearchAlias
   return parseSearchAliasConfig({
     version: 1,
     entries: graph.searchAliases ?? [],
-  });
-}
-
-/**
- * Sync accessor for bundled `searchAliases`.
- * Intentionally avoids `@/lib/graph/manifest` so this module stays safe for client components
- * (e.g. search query ranking imports `relatedTermsByTargetId` from here).
- */
-export function getSearchAliasConfig(): SearchAliasConfig {
-  const record = fallbackSemantic as { searchAliases?: unknown };
-  return parseSearchAliasConfig({
-    version: 1,
-    entries: Array.isArray(record.searchAliases) ? record.searchAliases : [],
   });
 }
 

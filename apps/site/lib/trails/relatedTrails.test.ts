@@ -1,4 +1,3 @@
-import semanticManifest from "@/data/semantic-manifest.json";
 import { getQuestionBySlug } from "@/lib/questions/loadQuestions";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import {
@@ -6,14 +5,15 @@ import {
   findPublishedTrailsForQuestion,
   QUESTION_TRAIL_OVERLAP_MAX,
 } from "@/lib/trails/relatedTrails";
-import type { SemanticGraph } from "@/types/semanticGraph";
+import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
 import { describe, expect, it } from "vitest";
+
+const graph = loadManifestFixture("questions-and-trails");
 
 describe("findPublishedTrailsForEntity", () => {
   it("finds trails referencing a book by canonical id", () => {
-    const graph = semanticManifest as unknown as SemanticGraph;
     const index = buildGraphIndex(graph);
-    const book = graph.books.find((b) => b.slug === "coupling");
+    const book = graph.books.find((b) => b.slug === "living-in-sediment");
     expect(book).toBeDefined();
 
     const trails = findPublishedTrailsForEntity({
@@ -24,18 +24,15 @@ describe("findPublishedTrailsForEntity", () => {
     });
 
     expect(trails.map((t) => t.id)).toEqual(
-      expect.arrayContaining(["systems-without-correction", "software-judgment-trail"]),
+      expect.arrayContaining(["inheritance-and-institutional-sediment"]),
     );
   });
 
   it("finds trails referencing a concept by canonical id", () => {
-    const graph = semanticManifest as unknown as SemanticGraph;
     const index = buildGraphIndex(graph);
-    const concept = graph.glossary.find((c) => c.slug === "judgment");
-    expect(concept).toBeDefined();
 
     const trails = findPublishedTrailsForEntity({
-      canonicalId: concept!.id,
+      canonicalId: "concept-judgment",
       index,
       books: graph.books,
     });
@@ -44,7 +41,6 @@ describe("findPublishedTrailsForEntity", () => {
   });
 
   it("returns empty when no trail references the entity", () => {
-    const graph = semanticManifest as unknown as SemanticGraph;
     const index = buildGraphIndex(graph);
 
     const trails = findPublishedTrailsForEntity({
@@ -59,9 +55,8 @@ describe("findPublishedTrailsForEntity", () => {
 
 describe("findPublishedTrailsForQuestion", () => {
   it("finds trails that share path stops without exceeding overlap threshold", () => {
-    const graph = semanticManifest as unknown as SemanticGraph;
     const index = buildGraphIndex(graph);
-    const question = getQuestionBySlug("act-before-certainty-arrives");
+    const question = getQuestionBySlug("act-before-certainty-arrives", graph);
     expect(question).toBeDefined();
 
     const trails = findPublishedTrailsForQuestion({
@@ -77,9 +72,8 @@ describe("findPublishedTrailsForQuestion", () => {
   });
 
   it("excludes trails whose paths overlap more than the editorial threshold", () => {
-    const graph = semanticManifest as unknown as SemanticGraph;
     const index = buildGraphIndex(graph);
-    const question = getQuestionBySlug("act-before-certainty-arrives");
+    const question = getQuestionBySlug("act-before-certainty-arrives", graph);
     expect(question).toBeDefined();
 
     const trails = findPublishedTrailsForQuestion({
@@ -99,9 +93,8 @@ describe("findPublishedTrailsForQuestion", () => {
   });
 
   it("returns empty when no trail shares stops with the question", () => {
-    const graph = semanticManifest as unknown as SemanticGraph;
     const index = buildGraphIndex(graph);
-    const question = getQuestionBySlug("trust-survives-disagreement");
+    const question = getQuestionBySlug("authority-without-understanding", graph);
     expect(question).toBeDefined();
 
     const trails = findPublishedTrailsForQuestion({

@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { WOLTY_PUBLIC_ALIAS, WOLTY_V1_SLUG } from "@/lib/books/book-slugs";
-import { parseSearchAliasConfig } from "@/lib/search/aliases";
+import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
 import {
   buildSearchDocuments,
   collectSearchDocumentIssues,
@@ -9,6 +9,7 @@ import {
   parseBookEdition,
   pickCanonicalEditionSlug,
 } from "@/lib/search/buildSearchDocuments";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 import type { PodcastEpisode } from "@/types/content";
 import type { Book, SemanticGraph } from "@/types/semanticGraph";
 
@@ -213,25 +214,24 @@ describe("buildSearchDocuments", () => {
     expect(docs.find((d) => d.slug === "how-meaning-moves")?.sourceArtifact).toBe("semantic");
   });
 
-  it("produces a consistent corpus from the bundled semantic manifest", async () => {
-    const fallbackSemantic = (await import("@/data/semantic-manifest.json")).default;
-    const podcastFallback = (await import("@/data/podcast-episodes.json")).default;
-    const { semanticGraphSchema, toSemanticGraph } = await import("@/lib/graph/schemas");
-    const { getSearchAliasConfig } = await import("@/lib/search/aliases");
+  it.skipIf(!tryLoadLocalSemanticManifest())(
+    "produces a consistent corpus from the installed local manifest",
+    async () => {
+      const podcastFallback = (await import("@/data/podcast-episodes.json")).default;
+      const graph = tryLoadLocalSemanticManifest()!;
+      const podcastEpisodes = podcastFallback.episodes as PodcastEpisode[];
 
-    const graph = toSemanticGraph(semanticGraphSchema.parse(fallbackSemantic));
-    const podcastEpisodes = podcastFallback.episodes as PodcastEpisode[];
+      const docs = buildSearchDocuments({
+        graph,
+        podcastEpisodes,
+        aliasConfig: getSearchAliasConfigFromGraph(graph),
+      });
 
-    const docs = buildSearchDocuments({
-      graph,
-      podcastEpisodes,
-      aliasConfig: getSearchAliasConfig(),
-    });
-
-    expect(collectSearchDocumentIssues(docs)).toEqual([]);
-    expect(new Set(docs.map((d) => d.id)).size).toBe(docs.length);
-    const afterCertainty = docs.find((d) => d.slug === "after-certainty");
-    expect(afterCertainty?.searchText).toMatch(/Introduction/i);
-    expect(docs.every((d) => d.entityType !== "chapter")).toBe(true);
-  });
+      expect(collectSearchDocumentIssues(docs)).toEqual([]);
+      expect(new Set(docs.map((d) => d.id)).size).toBe(docs.length);
+      const afterCertainty = docs.find((d) => d.slug === "after-certainty");
+      expect(afterCertainty?.searchText).toMatch(/Introduction/i);
+      expect(docs.every((d) => d.entityType !== "chapter")).toBe(true);
+    },
+  );
 });

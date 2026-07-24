@@ -2,13 +2,23 @@ import { describe, expect, it } from "vitest";
 
 import { getQuestionsManifest } from "@/lib/questions/loadQuestions";
 import { parseQuestionsManifest } from "@/lib/questions/schema";
+import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
+
+const fixture = loadManifestFixture("questions-and-trails");
+const localGraph = tryLoadLocalSemanticManifest();
 
 describe("questions manifest schema", () => {
-  it("loads questions from the bundled semantic manifest", () => {
-    const parsed = getQuestionsManifest();
+  it("loads questions from the questions-and-trails fixture", () => {
+    const parsed = getQuestionsManifest(fixture);
     expect(parsed.manifestVersion).toBe(1);
     expect(parsed.questions.length).toBeGreaterThan(0);
     expect(parsed.searchBridges?.length).toBeGreaterThan(0);
+  });
+
+  it.skipIf(!localGraph)("loads questions from the installed local manifest", () => {
+    const parsed = getQuestionsManifest(localGraph!);
+    expect(parsed.questions.length).toBeGreaterThanOrEqual(12);
   });
 
   it("requires id and slug to match", () => {

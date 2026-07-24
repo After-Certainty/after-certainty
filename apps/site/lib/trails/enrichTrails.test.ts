@@ -1,11 +1,12 @@
-import semanticManifest from "@/data/semantic-manifest.json";
 import podcastEpisodes from "@/data/podcast-episodes.json";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { enrichStop, defaultMinutesForType } from "@/lib/paths/enrichStop";
 import { getTrailsManifest } from "@/lib/trails/loadTrails";
 import { enrichTrail } from "@/lib/trails/enrichTrails";
-import type { SemanticGraph } from "@/types/semanticGraph";
+import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
 import { describe, expect, it } from "vitest";
+
+const graph = loadManifestFixture("questions-and-trails");
 
 describe("enrichStop", () => {
   it("assigns default minutes by entity type", () => {
@@ -15,13 +16,12 @@ describe("enrichStop", () => {
   });
 
   it("resolves book stops to canonical explore href", () => {
-    const graph = semanticManifest as unknown as SemanticGraph;
     const index = buildGraphIndex(graph);
     const stop = enrichStop(
       {
         position: 1,
         entityType: "book",
-        entityId: "book-coupling",
+        entityId: "book-after-certainty",
         description: "Test",
       },
       index,
@@ -29,7 +29,7 @@ describe("enrichStop", () => {
       podcastEpisodes.episodes,
     );
 
-    expect(stop.href).toBe("/explore/books/coupling");
+    expect(stop.href).toBe("/explore/books/after-certainty");
     expect(stop.title).toBeTruthy();
     expect(stop.external).toBe(false);
   });
@@ -37,9 +37,8 @@ describe("enrichStop", () => {
 
 describe("enrichTrail", () => {
   it("aggregates estimated minutes and enriches all stops", () => {
-    const graph = semanticManifest as unknown as SemanticGraph;
-    const manifest = getTrailsManifest();
-    const trail = manifest.trails.find((t) => t.slug === "meaning-under-pressure");
+    const manifest = getTrailsManifest(graph);
+    const trail = manifest.trails.find((t) => t.slug === "judgment-before-certainty");
     expect(trail).toBeDefined();
 
     const enriched = enrichTrail(trail!, graph, podcastEpisodes.episodes);

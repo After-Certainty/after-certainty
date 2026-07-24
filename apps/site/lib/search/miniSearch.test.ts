@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { getSearchAliasConfig } from "@/lib/search/aliases";
+import { parseSearchAliasConfig } from "@/lib/search/aliases";
 import { createSearchEngine, queryMiniSearch } from "@/lib/search/miniSearch";
 import { searchDocuments } from "@/lib/search/query";
 import type { SearchDocument } from "@/lib/search/types";
@@ -59,7 +59,16 @@ describe("createMiniSearchIndex / queryMiniSearch", () => {
   });
 
   it("surfaces related bridge terms via searchText and explanations", () => {
-    const aliasConfig = getSearchAliasConfig();
+    const aliasConfig = parseSearchAliasConfig({
+      version: 1,
+      entries: [
+        {
+          terms: ["temporary rules"],
+          kind: "related",
+          targetIds: ["pattern-exceptions-are-forever"],
+        },
+      ],
+    });
     const documents = [
       doc({
         id: "pattern-exceptions-are-forever",

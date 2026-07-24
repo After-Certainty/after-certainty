@@ -1,4 +1,3 @@
-import semanticManifest from "@/data/semantic-manifest.json";
 import { describe, expect, it } from "vitest";
 
 import { applyCatalogQuery, buildFilterOptions } from "@/lib/books/catalog-query";
@@ -7,17 +6,13 @@ import { buildCatalogViewModel } from "@/lib/books/catalog-view-model";
 import { WOLTY_V1_SLUG } from "@/lib/books/book-slugs";
 import { getShelfBySlug, resolveShelfBooks } from "@/lib/books/shelves";
 import { assertCatalogHealthy, collectCatalogHealthIssues } from "@/lib/books/validate-catalog";
-import { validateSemanticGraph } from "@/lib/graph/manifest";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
-const validated = validateSemanticGraph(semanticManifest as unknown);
-if (!validated.success) {
-  throw new Error("Bundled semantic-manifest.json failed validation in catalog tests");
-}
-const graph = validated.data;
-const viewModel = buildCatalogViewModel(graph);
-const shelfSlugs = buildFilterOptions(viewModel, graph).shelves.map((s) => s.slug);
+const graph = tryLoadLocalSemanticManifest();
+const viewModel = graph ? buildCatalogViewModel(graph) : [];
+const shelfSlugs = graph ? buildFilterOptions(viewModel, graph).shelves.map((s) => s.slug) : [];
 
-describe("buildCatalogViewModel", () => {
+describe.skipIf(!graph)("buildCatalogViewModel (local manifest)", () => {
   it("hides non-canonical WoLTY companion v2 from default catalog", () => {
     const slugs = viewModel.filter((b) => b.isPublic && b.isCanonicalEdition).map((b) => b.slug);
     expect(slugs).toContain(WOLTY_V1_SLUG);
@@ -43,7 +38,7 @@ describe("buildCatalogViewModel", () => {
   });
 });
 
-describe("parseCatalogUrlState", () => {
+describe.skipIf(!graph)("parseCatalogUrlState (local manifest)", () => {
   it("ignores invalid params safely", () => {
     const state = parseCatalogUrlState(
       {
@@ -74,19 +69,19 @@ describe("parseCatalogUrlState", () => {
   });
 });
 
-describe("applyCatalogQuery", () => {
+describe.skipIf(!graph)("applyCatalogQuery (local manifest)", () => {
   it("filters by shelf and content type", () => {
     const fiction = applyCatalogQuery(
       viewModel,
       parseCatalogUrlState({ shelf: "fiction" }, shelfSlugs),
-      graph,
+      graph!,
     );
     expect(fiction.results.every((b) => b.contentType === "fiction")).toBe(true);
 
     const sorted = applyCatalogQuery(
       viewModel,
       parseCatalogUrlState({ sort: "title-desc", shelf: "fiction" }, shelfSlugs),
-      graph,
+      graph!,
     );
     const titles = sorted.results.map((b) => b.title);
     expect([...titles].sort((a, b) => b.localeCompare(a))).toEqual(titles);
@@ -96,26 +91,30 @@ describe("applyCatalogQuery", () => {
     const result = applyCatalogQuery(
       viewModel,
       parseCatalogUrlState({ q: "coupling" }, shelfSlugs),
-      graph,
+      graph!,
     );
     expect(result.results.some((b) => b.slug === "coupling")).toBe(true);
   });
 
   it("shows shelf sections only without active filters", () => {
-    const defaultView = applyCatalogQuery(viewModel, parseCatalogUrlState({}, shelfSlugs), graph);
+    const defaultView = applyCatalogQuery(
+      viewModel,
+      parseCatalogUrlState({}, shelfSlugs),
+      graph!,
+    );
     expect(defaultView.showShelfSections).toBe(true);
     expect(defaultView.shelves.some((s) => s.shelf.slug === "start-here")).toBe(true);
 
     const filtered = applyCatalogQuery(
       viewModel,
       parseCatalogUrlState({ type: "fiction" }, shelfSlugs),
-      graph,
+      graph!,
     );
     expect(filtered.showShelfSections).toBe(false);
   });
 
   it("keeps companions off shelves even with editions=all", () => {
-    const shelf = getShelfBySlug(graph, "leadership-and-authority");
+    const shelf = getShelfBySlug(graph!, "leadership-and-authority");
     expect(shelf).toBeDefined();
     if (shelf?.selection.mode === "curated") {
       expect(shelf.selection.bookSlugs).toContain("when-others-look-to-you-v2");
@@ -124,7 +123,7 @@ describe("applyCatalogQuery", () => {
     const withAll = applyCatalogQuery(
       viewModel,
       parseCatalogUrlState({ shelf: "leadership-and-authority", editions: "all" }, shelfSlugs),
-      graph,
+      graph!,
     );
     expect(withAll.results.map((b) => b.slug)).toContain(WOLTY_V1_SLUG);
     expect(withAll.results.map((b) => b.slug)).not.toContain("when-others-look-to-you-v2");
@@ -135,15 +134,15 @@ describe("applyCatalogQuery", () => {
   });
 });
 
-describe("validate-catalog", () => {
-  it("passes health check on bundled data", () => {
-    expect(() => assertCatalogHealthy({ viewModel, graph })).not.toThrow();
+describe.skipIf(!graph)("validate-catalog (local manifest)", () => {
+  it("passes health check on local data", () => {
+    expect(() => assertCatalogHealthy({ viewModel, graph: graph! })).not.toThrow();
   });
 
   it("treats companion shelf membership as an error unless excepted", () => {
     const without = collectCatalogHealthIssues({
       viewModel,
-      graph,
+      graph: graph!,
       shelfEditionExceptions: [],
     });
     expect(
@@ -155,9 +154,9 @@ describe("validate-catalog", () => {
       ),
     ).toBe(true);
 
-    const withBundled = collectCatalogHealthIssues({ viewModel, graph });
+    const withLocal = collectCatalogHealthIssues({ viewModel, graph: graph! });
     expect(
-      withBundled.some(
+      withLocal.some(
         (i) =>
           i.severity === "warning" &&
           i.code === "non_canonical_on_shelf_excepted" &&
@@ -165,14 +164,14 @@ describe("validate-catalog", () => {
       ),
     ).toBe(true);
     expect(
-      withBundled.some((i) => i.severity === "error" && i.code === "non_canonical_on_shelf"),
+      withLocal.some((i) => i.severity === "error" && i.code === "non_canonical_on_shelf"),
     ).toBe(false);
   });
 });
 
-describe("buildFilterOptions", () => {
+describe.skipIf(!graph)("buildFilterOptions (local manifest)", () => {
   it("exposes shelves and sort options including poetry", () => {
-    const options = buildFilterOptions(viewModel, graph);
+    const options = buildFilterOptions(viewModel, graph!);
     expect(options.shelves.some((s) => s.slug === "start-here")).toBe(true);
     expect(options.sorts.map((s) => s.value)).toContain("recommended");
     expect(options.contentTypes).toContain("poetry");

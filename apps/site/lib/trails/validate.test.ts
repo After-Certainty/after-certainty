@@ -1,27 +1,39 @@
-import semanticManifest from "@/data/semantic-manifest.json";
 import podcastEpisodes from "@/data/podcast-episodes.json";
-import { getSemanticGraph } from "@/lib/graph/manifest";
 import { getTrailsManifest } from "@/lib/trails/loadTrails";
 import { assertTrailsManifestHealthy, collectTrailHealthReport } from "@/lib/trails/validate";
-import type { SemanticGraph } from "@/types/semanticGraph";
+import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 import { describe, expect, it } from "vitest";
 
-describe("trails manifest health", () => {
-  it("passes validation against bundled semantic graph", async () => {
-    const manifest = getTrailsManifest();
-    const graph = await getSemanticGraph();
+const fixture = loadManifestFixture("questions-and-trails");
+const localGraph = tryLoadLocalSemanticManifest();
+
+describe("trails manifest (questions-and-trails fixture)", () => {
+  it("exposes published trails with featured entries", () => {
+    const manifest = getTrailsManifest(fixture);
+    const published = manifest.trails.filter((t) => t.status === "published");
+    const featured = published.filter((t) => t.featured);
+    expect(published.length).toBeGreaterThanOrEqual(3);
+    expect(featured.length).toBeGreaterThanOrEqual(1);
+    expect(manifest.trails.some((t) => t.slug === "judgment-before-certainty")).toBe(true);
+  });
+});
+
+describe.skipIf(!localGraph)("trails manifest health (local manifest)", () => {
+  it("passes validation against the local semantic graph", () => {
+    const manifest = getTrailsManifest(localGraph!);
 
     expect(() =>
       assertTrailsManifestHealthy({
         manifest,
-        graph,
+        graph: localGraph!,
         podcastEpisodes: podcastEpisodes.episodes,
       }),
     ).not.toThrow();
   });
 
   it("has published trails with featured entries and at least one upcoming", () => {
-    const manifest = getTrailsManifest();
+    const manifest = getTrailsManifest(localGraph!);
     const published = manifest.trails.filter((t) => t.status === "published");
     const upcoming = manifest.trails.filter((t) => t.status === "upcoming");
     const featured = published.filter((t) => t.featured);
@@ -30,11 +42,11 @@ describe("trails manifest health", () => {
     expect(featured.length).toBeGreaterThanOrEqual(3);
   });
 
-  it("reports no errors on bundled fallback data", () => {
-    const manifest = getTrailsManifest();
+  it("reports no errors on local manifest data", () => {
+    const manifest = getTrailsManifest(localGraph!);
     const report = collectTrailHealthReport({
       manifest,
-      graph: semanticManifest as unknown as SemanticGraph,
+      graph: localGraph!,
       podcastEpisodes: podcastEpisodes.episodes,
     });
     expect(report.errors).toEqual([]);

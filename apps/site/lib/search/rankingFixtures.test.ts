@@ -1,10 +1,11 @@
 import { describe, expect, it } from "vitest";
 
-import { getSearchAliasConfig } from "@/lib/search/aliases";
-import { loadBundledSearchDocuments } from "@/lib/search/loadBundledSearchDocuments";
+import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
+import { loadInstalledSearchDocuments } from "@/lib/search/loadBundledSearchDocuments";
 import { createSearchEngine } from "@/lib/search/miniSearch";
 import { searchWithIndex } from "@/lib/search/query";
 import { SEARCH_RANKING_FIXTURES, type SearchRankingFixture } from "@/lib/search/rankingFixtures";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
 function evaluateFixture(
   fixture: SearchRankingFixture,
@@ -47,9 +48,11 @@ function evaluateFixture(
   return { ok: true, detail: "pass" };
 }
 
-describe("SEARCH_RANKING_FIXTURES", () => {
-  const documents = loadBundledSearchDocuments();
-  const aliasConfig = getSearchAliasConfig();
+const graph = tryLoadLocalSemanticManifest();
+
+describe.skipIf(!graph)("SEARCH_RANKING_FIXTURES (local manifest)", () => {
+  const documents = loadInstalledSearchDocuments(graph!);
+  const aliasConfig = getSearchAliasConfigFromGraph(graph!);
   const engine = createSearchEngine(documents);
 
   it("has at least 20 representative queries", () => {

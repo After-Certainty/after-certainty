@@ -1,7 +1,6 @@
 import pathSearchBridgesJson from "@/data/path-search-bridges.json";
-import fallbackSemantic from "@/data/semantic-manifest.json";
 import { questionsFromGraph } from "@/lib/graph/discovery";
-import { validateSemanticGraph } from "@/lib/graph/validate";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
 import type { ParsedQuestionsManifest } from "@/lib/questions/schema";
 import type { QuestionDefinition, QuestionSearchBridge } from "@/types/questions";
 import type { SemanticGraph } from "@/types/semanticGraph";
@@ -9,14 +8,6 @@ import type { SemanticGraph } from "@/types/semanticGraph";
 type PathSearchBridgesFile = {
   questionBridges?: QuestionSearchBridge[];
 };
-
-function bundledQuestions(): QuestionDefinition[] {
-  const result = validateSemanticGraph(fallbackSemantic as unknown);
-  if (!result.success) {
-    throw new Error("Bundled semantic-manifest.json failed validation for questions");
-  }
-  return questionsFromGraph(result.data);
-}
 
 function siteQuestionBridges(): QuestionSearchBridge[] {
   const data = pathSearchBridgesJson as PathSearchBridgesFile;
@@ -27,16 +18,16 @@ export function getQuestionsFromGraph(graph: SemanticGraph): QuestionDefinition[
   return questionsFromGraph(graph);
 }
 
-export function getQuestionsManifest(): ParsedQuestionsManifest {
+export function getQuestionsManifest(graph?: SemanticGraph): ParsedQuestionsManifest {
   return {
     manifestVersion: 1,
-    questions: bundledQuestions(),
+    questions: getAllQuestions(graph),
     searchBridges: siteQuestionBridges(),
   };
 }
 
 export function getAllQuestions(graph?: SemanticGraph): QuestionDefinition[] {
-  return graph ? questionsFromGraph(graph) : bundledQuestions();
+  return questionsFromGraph(graph ?? loadInstalledSemanticGraphSync());
 }
 
 export function getPublishedQuestions(graph?: SemanticGraph): QuestionDefinition[] {

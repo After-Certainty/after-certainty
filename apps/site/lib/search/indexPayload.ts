@@ -1,4 +1,5 @@
-import { getSearchAliasConfig } from "@/lib/search/aliases";
+import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
+import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
 import { getSearchDocuments } from "@/lib/search/getSearchDocuments";
 import type { SearchAliasConfig, SearchDocument } from "@/lib/search/types";
 
@@ -14,7 +15,7 @@ export type SearchIndexPayload = {
 
 export function buildSearchIndexPayload(
   documents: readonly SearchDocument[],
-  aliasConfig: SearchAliasConfig = getSearchAliasConfig(),
+  aliasConfig: SearchAliasConfig,
   generatedAt: string = new Date().toISOString(),
 ): SearchIndexPayload {
   return {
@@ -26,8 +27,11 @@ export function buildSearchIndexPayload(
   };
 }
 
-/** Build the searchable index payload from live ISR loaders. */
+/** Build the searchable index payload from the same-checkout semantic graph. */
 export async function getSearchIndexPayload(): Promise<SearchIndexPayload> {
-  const documents = await getSearchDocuments();
-  return buildSearchIndexPayload(documents, getSearchAliasConfig());
+  const [{ graph }, documents] = await Promise.all([
+    getExploreSemanticGraph(),
+    getSearchDocuments(),
+  ]);
+  return buildSearchIndexPayload(documents, getSearchAliasConfigFromGraph(graph));
 }

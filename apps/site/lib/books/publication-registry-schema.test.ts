@@ -5,6 +5,8 @@ import {
   parsePublicationRegistry,
   type PublicationRegistry,
 } from "@/lib/books/publication-registry-schema";
+import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
 function baseEdition(overrides: Record<string, unknown> = {}) {
   return {
@@ -17,9 +19,18 @@ function baseEdition(overrides: Record<string, unknown> = {}) {
   };
 }
 
+const localGraph = tryLoadLocalSemanticManifest();
+const editionsFixture = loadManifestFixture("editions");
+
 describe("publication registry schema", () => {
-  it("loads editions from the bundled semantic manifest", () => {
-    const parsed = getPublicationRegistry();
+  it("loads editions from the editions fixture", () => {
+    const parsed = getPublicationRegistry(editionsFixture);
+    expect(parsed.manifestVersion).toBe(1);
+    expect(parsed.editions.length).toBe(editionsFixture.books.length);
+  });
+
+  it.skipIf(!localGraph)("loads editions from the installed local manifest", () => {
+    const parsed = getPublicationRegistry(localGraph!);
     expect(parsed.manifestVersion).toBe(1);
     expect(parsed.editions.length).toBeGreaterThanOrEqual(31);
   });
