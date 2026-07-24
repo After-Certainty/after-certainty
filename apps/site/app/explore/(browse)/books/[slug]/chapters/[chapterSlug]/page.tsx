@@ -7,6 +7,7 @@ import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { buildChapterRouteKey } from "@/lib/graph/chapters";
 import { createPageMetadata } from "@/lib/metadata";
+import { buildChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 import { loadChapterManuscript } from "@/lib/reading/load-chapter-manuscript";
 import { resolvePublicChapter } from "@/lib/reading/resolve-public-chapter";
 
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 /**
- * Public chapter reading destination (READ-002 + READ-003).
+ * Public chapter reading destination (READ-002–004).
  * Overview TOC links stay off until READ-006.
  */
 export default async function ExploreBookChapterPage({ params }: PageProps) {
@@ -68,9 +69,14 @@ export default async function ExploreBookChapterPage({ params }: PageProps) {
     book: resolved.book,
     chapter: resolved.chapter,
   });
+  const navigation = buildChapterReadingNavigation({
+    graph,
+    book: resolved.book,
+    chapterId: resolved.chapter.id,
+  });
 
   return (
-    <ChapterReaderShell book={resolved.book} chapter={resolved.chapter}>
+    <ChapterReaderShell book={resolved.book} chapter={resolved.chapter} navigation={navigation}>
       <ChapterManuscriptBody result={manuscript} />
     </ChapterReaderShell>
   );

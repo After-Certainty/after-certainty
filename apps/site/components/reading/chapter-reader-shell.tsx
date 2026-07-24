@@ -2,23 +2,33 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { ChapterAdjacentNav } from "@/components/reading/chapter-adjacent-nav";
+import { ChapterToc } from "@/components/reading/chapter-toc";
 import { ButtonLink } from "@/components/ui/button-link";
 import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
 import { explorePaths } from "@/lib/graph/explorePaths";
+import type { ChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 import type { Book, ManifestChapter } from "@/types/semanticGraph";
 
 export type ChapterReaderShellProps = {
   book: Book;
   chapter: ManifestChapter;
+  /** Prev/next + TOC from READ-004; omit for single-chapter edge cases. */
+  navigation?: ChapterReadingNavigation | null;
   /** Manuscript body — empty until READ-003. */
   children?: ReactNode;
 };
 
 /**
- * SSR chapter reading chrome (READ-002).
- * Does not wire overview TOC links (READ-006) or prev/next (READ-004).
+ * SSR chapter reading chrome (READ-002 + READ-004).
+ * Overview TOC links stay off until READ-006.
  */
-export function ChapterReaderShell({ book, chapter, children }: ChapterReaderShellProps) {
+export function ChapterReaderShell({
+  book,
+  chapter,
+  navigation,
+  children,
+}: ChapterReaderShellProps) {
   const kindLabel = chapterKindLabel(chapter.kind);
   const bookHref = `${explorePaths.books}/${book.slug}`;
   const minutes =
@@ -39,7 +49,7 @@ export function ChapterReaderShell({ book, chapter, children }: ChapterReaderShe
     <article className="mx-auto max-w-3xl px-4 py-12 md:py-16">
       <BreadcrumbTrail items={breadcrumbs} />
 
-      <header className="mb-10 space-y-4 border-b border-border/40 pb-8">
+      <header className="mb-8 space-y-4 border-b border-border/40 pb-8">
         <p className="text-[11px] uppercase tracking-[0.2em] text-muted">
           <Link href={bookHref} className="transition-colors hover:text-accent">
             {book.title}
@@ -77,6 +87,8 @@ export function ChapterReaderShell({ book, chapter, children }: ChapterReaderShe
         {summary ? <p className="text-sm leading-relaxed text-muted md:text-base">{summary}</p> : null}
       </header>
 
+      {navigation ? <ChapterToc navigation={navigation} /> : null}
+
       <div className="chapter-body prose-reading min-h-[12rem]">
         {children ?? (
           <div
@@ -96,10 +108,15 @@ export function ChapterReaderShell({ book, chapter, children }: ChapterReaderShe
         )}
       </div>
 
-      <footer className="mt-12 flex flex-wrap gap-3 border-t border-border/40 pt-8">
-        <ButtonLink href={bookHref} variant="ghost">
-          Back to book
-        </ButtonLink>
+      <footer className="mt-12 space-y-8 border-t border-border/40 pt-8">
+        {navigation ? (
+          <ChapterAdjacentNav prev={navigation.prev} next={navigation.next} />
+        ) : null}
+        <div className="flex flex-wrap gap-3">
+          <ButtonLink href={bookHref} variant="ghost">
+            Back to book
+          </ButtonLink>
+        </div>
       </footer>
     </article>
   );
