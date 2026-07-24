@@ -15,8 +15,24 @@ name: Book export (DOCX + EPUB + PDF)
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "apps/site/**"
+      - "package.json"
+      - "package-lock.json"
+      - "turbo.json"
+      - ".npmrc"
+      - ".github/workflows/site-ci.yml"
+      - ".github/dependabot.yml"
   pull_request:
     branches: [main]
+    paths-ignore:
+      - "apps/site/**"
+      - "package.json"
+      - "package-lock.json"
+      - "turbo.json"
+      - ".npmrc"
+      - ".github/workflows/site-ci.yml"
+      - ".github/dependabot.yml"
   workflow_dispatch:
 
 concurrency:

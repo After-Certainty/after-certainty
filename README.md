@@ -20,7 +20,9 @@ npm run site:dev          # Next.js (still uses remote/fallback semantic manifes
 make generate-semantic-manifest   # local corpus artifact under build/
 ```
 
-Phase notes: [`docs/migrations/monorepo-phase-0/`](docs/migrations/monorepo-phase-0/) · [`docs/migrations/monorepo-phase-1/`](docs/migrations/monorepo-phase-1/).
+Phase notes: [`docs/migrations/monorepo-phase-0/`](docs/migrations/monorepo-phase-0/) · [`docs/migrations/monorepo-phase-1/`](docs/migrations/monorepo-phase-1/) · [`docs/migrations/monorepo-phase-2/`](docs/migrations/monorepo-phase-2/).
+
+Site CI runs from [`.github/workflows/site-ci.yml`](.github/workflows/site-ci.yml) (path-filtered). Production still deploys from the standalone site repository until a later phase.
 
 ## Books and publishing
 

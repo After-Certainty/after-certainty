@@ -6,8 +6,24 @@ name: Python lint & tests
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "apps/site/**"
+      - "package.json"
+      - "package-lock.json"
+      - "turbo.json"
+      - ".npmrc"
+      - ".github/workflows/site-ci.yml"
+      - ".github/dependabot.yml"
   pull_request:
     branches: [main]
+    paths-ignore:
+      - "apps/site/**"
+      - "package.json"
+      - "package-lock.json"
+      - "turbo.json"
+      - ".npmrc"
+      - ".github/workflows/site-ci.yml"
+      - ".github/dependabot.yml"
 
 concurrency:
   group: python-tests-${{ github.ref }}
