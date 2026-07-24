@@ -20,6 +20,43 @@
     },
     "validate:public-corpus": {
       "outputs": []
+    },
+    "build-manifest": {
+      "inputs": [
+        "$TURBO_ROOT$/books/**",
+        "$TURBO_ROOT$/semantic/**",
+        "$TURBO_ROOT$/schema/**",
+        "$TURBO_ROOT$/upcoming/**",
+        "$TURBO_ROOT$/tools/generate_semantic_manifest.py",
+        "$TURBO_ROOT$/tools/discovery_manifest.py",
+        "$TURBO_ROOT$/tools/manifest_books.py",
+        "$TURBO_ROOT$/tools/manifest_markdown.py",
+        "$TURBO_ROOT$/tools/book_specs.py",
+        "$TURBO_ROOT$/tools/manuscript_structure.py",
+        "$TURBO_ROOT$/tools/pattern_yaml.py",
+        "$TURBO_ROOT$/tools/validate_book_specs.py",
+        "$TURBO_ROOT$/tools/verify_semantic_yaml.py",
+        "$TURBO_ROOT$/Makefile",
+        "$TURBO_ROOT$/pyproject.toml"
+      ],
+      "outputs": ["$TURBO_ROOT$/build/semantic-manifest.json"]
+    },
+    "parity": {
+      "dependsOn": ["build-manifest"],
+      "inputs": [
+        "$TURBO_ROOT$/build/semantic-manifest.json",
+        "$TURBO_ROOT$/tools/compare_manifest_parity.py"
+      ],
+      "outputs": [
+        "$TURBO_ROOT$/reports/manifest-parity.json",
+        "$TURBO_ROOT$/reports/manifest-parity.md"
+      ],
+      "env": ["SEMANTIC_MANIFEST_URL"]
+    },
+    "validate-manifest": {
+      "dependsOn": ["build-manifest"],
+      "inputs": ["$TURBO_ROOT$/build/semantic-manifest.json"],
+      "outputs": []
     }
   }
 }
