@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { bookIsPublic } from "@/lib/books/book-metadata";
 import { getBooks } from "@/lib/content-data";
+import { listChapterSitemapPaths } from "@/lib/corpus/public-registry";
 import { getQuestionSitemapSlugs } from "@/lib/questions/loadQuestions";
 import { getTrailSitemapSlugs } from "@/lib/trails/loadTrails";
 import { getSemanticGraph } from "@/lib/graph/manifest";
@@ -67,6 +68,8 @@ export async function getSitemapPaths(): Promise<string[]> {
   for (const slug of getTrailSitemapSlugs(graph)) {
     paths.push(`/trails/${slug}`);
   }
+
+  paths.push(...listChapterSitemapPaths(graph));
 
   const seen = new Set<string>();
   const unique: string[] = [];

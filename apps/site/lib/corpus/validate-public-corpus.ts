@@ -2,6 +2,7 @@ import { type CatalogBookView } from "@/lib/books/catalog-view-model";
 import { collectCatalogHealthIssues } from "@/lib/books/validate-catalog";
 import { collectBookOverviewHealthIssues } from "@/lib/books/validate-book-overviews";
 import { buildPublicCorpusRegistry, type PublicCorpusRegistry } from "@/lib/corpus/public-registry";
+import { isValidChapterRouteKey } from "@/lib/graph/chapters";
 import { collectChapterStructureHealthIssues } from "@/lib/graph/validate-chapters";
 import { questionsFromGraph, trailsFromGraph } from "@/lib/graph/discovery";
 import { getFeaturedQuestions, getQuestionSearchBridges } from "@/lib/questions/loadQuestions";
@@ -169,6 +170,12 @@ export function collectPublicCorpusIntegrityIssues(
   }
 
   const searchIds = registry.searchDocumentIds;
+  const editionIdByChapterId = new Map<string, string>();
+  for (const [editionId, chapterIds] of registry.chapterIdsByEditionId) {
+    for (const chapterId of chapterIds) {
+      editionIdByChapterId.set(chapterId, editionId);
+    }
+  }
 
   for (const chapter of registry.chapters) {
     if (chapter.searchEligible || searchIds.has(chapter.id)) {
@@ -181,16 +188,6 @@ export function collectPublicCorpusIntegrityIssues(
         detail: `Chapter "${chapter.slug}" must not be search-eligible until chapter search unlock (READ-005).`,
       });
     }
-    if (chapter.sitemapEligible) {
-      issues.push({
-        severity: "error",
-        code: "CHAPTER_SITEMAP_ELIGIBLE",
-        entityId: chapter.id,
-        sourceFeature: "chapters",
-        targetFeature: "sitemap",
-        detail: `Chapter "${chapter.slug}" must not be sitemap-eligible until chapter sitemap unlock (READ-009).`,
-      });
-    }
     if (chapter.visibility === "listed") {
       issues.push({
         severity: "error",
@@ -198,6 +195,26 @@ export function collectPublicCorpusIntegrityIssues(
         entityId: chapter.id,
         sourceFeature: "chapters",
         detail: `Chapter "${chapter.slug}" must stay unlisted until overview/search surfaces intentionally list chapters.`,
+      });
+    }
+
+    const parentId = editionIdByChapterId.get(chapter.id);
+    const parent = parentId ? registry.byId.get(parentId) : undefined;
+    const shouldSitemap =
+      chapter.publicStatus === "public" &&
+      parent?.publicStatus === "public" &&
+      isValidChapterRouteKey(chapter.canonicalUrl);
+
+    if (shouldSitemap !== chapter.sitemapEligible) {
+      issues.push({
+        severity: "error",
+        code: "CHAPTER_SITEMAP_ELIGIBILITY",
+        entityId: chapter.id,
+        sourceFeature: "chapters",
+        targetFeature: "sitemap",
+        detail: shouldSitemap
+          ? `Chapter "${chapter.slug}" is public on a public book but not sitemap-eligible.`
+          : `Chapter "${chapter.slug}" is sitemap-eligible but should not be (hidden chapter or non-public parent).`,
       });
     }
   }
@@ -250,6 +267,19 @@ export function collectPublicCorpusIntegrityIssues(
         sourceFeature: "trails",
         targetFeature: "sitemap",
         detail: `Published trail "${t.slug}" missing from sitemap path set.`,
+      });
+    }
+  }
+  for (const chapter of registry.chapters) {
+    if (!chapter.sitemapEligible) continue;
+    if (!sitemapSet.has(chapter.canonicalUrl)) {
+      issues.push({
+        severity: "error",
+        code: "SITEMAP_CHAPTER_MISSING",
+        entityId: chapter.id,
+        sourceFeature: "chapters",
+        targetFeature: "sitemap",
+        detail: `Sitemap-eligible chapter "${chapter.slug}" missing from sitemap path set.`,
       });
     }
   }
