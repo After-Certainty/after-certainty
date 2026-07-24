@@ -1,25 +1,38 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "ui": "tui",
   "tasks": {
     "build": {
-      "dependsOn": ["^build"],
-      "outputs": [".next/**", "!.next/cache/**"]
+      "dependsOn": ["^build", "@after-certainty/corpus-tasks#install-for-site"],
+      "outputs": [".next/**", "!.next/cache/**"],
+      "env": [
+        "SEMANTIC_MANIFEST_USE_LOCAL",
+        "SEMANTIC_MANIFEST_OFFLINE",
+        "VERCEL_GIT_COMMIT_SHA",
+        "NEXT_PUBLIC_SITE_URL"
+      ],
+      "passThroughEnv": ["CACHE_REVALIDATE_SECRET", "PODCAST_RSS_URL"]
     },
     "lint": {
       "outputs": []
     },
     "test": {
-      "outputs": []
+      "outputs": [],
+      "env": ["SEMANTIC_MANIFEST_USE_LOCAL", "SEMANTIC_MANIFEST_OFFLINE"]
     },
     "dev": {
       "cache": false,
       "persistent": true
     },
     "validate:fallback": {
-      "outputs": []
+      "dependsOn": ["@after-certainty/corpus-tasks#install-for-site"],
+      "outputs": [],
+      "env": ["SEMANTIC_MANIFEST_USE_LOCAL", "SEMANTIC_MANIFEST_OFFLINE"]
     },
     "validate:public-corpus": {
-      "outputs": []
+      "dependsOn": ["@after-certainty/corpus-tasks#install-for-site"],
+      "outputs": [],
+      "env": ["SEMANTIC_MANIFEST_USE_LOCAL", "SEMANTIC_MANIFEST_OFFLINE"]
     },
     "build-manifest": {
       "inputs": [
@@ -37,9 +50,22 @@
         "$TURBO_ROOT$/tools/validate_book_specs.py",
         "$TURBO_ROOT$/tools/verify_semantic_yaml.py",
         "$TURBO_ROOT$/Makefile",
-        "$TURBO_ROOT$/pyproject.toml"
+        "$TURBO_ROOT$/pyproject.toml",
+        "$TURBO_ROOT$/uv.lock"
       ],
-      "outputs": ["$TURBO_ROOT$/build/semantic-manifest.json"]
+      "outputs": ["$TURBO_ROOT$/build/semantic-manifest.json"],
+      "env": ["GITHUB_REPOSITORY", "MANIFEST_REF", "MANIFEST_RELEASE_TAG"]
+    },
+    "install-for-site": {
+      "dependsOn": ["build-manifest"],
+      "inputs": [
+        "$TURBO_ROOT$/build/semantic-manifest.json",
+        "$TURBO_ROOT$/scripts/install_local_manifest_for_site.py"
+      ],
+      "outputs": [
+        "$TURBO_ROOT$/apps/site/data/local-semantic-manifest.json",
+        "$TURBO_ROOT$/apps/site/data/local-intended-manifest-release.json"
+      ]
     },
     "parity": {
       "dependsOn": ["build-manifest"],

@@ -6,6 +6,10 @@ readme = "README.md"
 requires-python = ">=3.11"
 # Default `uv sync --frozen` installs the full corpus toolchain (CI + local).
 # Lightweight subsets live in [dependency-groups] for Vercel / site-oriented builds.
+# Prefer groups over editing default dependencies:
+#   uv sync --frozen --only-group semantic   # manifest generate (Vercel / site CI)
+#   uv sync --frozen --group semantic --group test
+#   uv sync --frozen --group dev             # semantic + test + publishing helpers
 dependencies = [
   "jinja2>=3.1",
   "jsonschema>=4",

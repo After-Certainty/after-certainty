@@ -1,10 +1,8 @@
 # Site lint/test/build/e2e for apps/site (npm workspaces).
 #
-# Phase 4 (Stage C): preview-oriented CI generates a same-checkout semantic
-# manifest, installs it into apps/site/data/local-*.json, and builds/tests with
+# Generates a same-checkout semantic manifest, installs it into
+# apps/site/data/local-*.json, and builds/tests with
 # SEMANTIC_MANIFEST_USE_LOCAL=1 + SEMANTIC_MANIFEST_OFFLINE=1.
-#
-# Production on after-certainty-site still consumes the remote release artifact.
 
 name: Site CI
 
