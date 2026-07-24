@@ -27,6 +27,14 @@ export function isSemanticManifestOffline(): boolean {
   return process.env.SEMANTIC_MANIFEST_OFFLINE?.trim() === "1";
 }
 
+/**
+ * When set to `1` (with offline mode), prefer gitignored
+ * `data/local-semantic-manifest.json` from the monorepo checkout (Phase 4 preview).
+ */
+export function isSemanticManifestUseLocal(): boolean {
+  return process.env.SEMANTIC_MANIFEST_USE_LOCAL?.trim() === "1";
+}
+
 /** Resolved semantic manifest URL for server-side fetch (ISR). */
 export function resolveSemanticManifestUrl(): string {
   const envUrl = process.env.SEMANTIC_MANIFEST_URL?.trim();

@@ -1,4 +1,3 @@
-import fallbackSemantic from "@/data/semantic-manifest.json";
 import {
   DEFAULT_FALLBACK_STALE_DAYS,
   fallbackStaleDaysThreshold,
@@ -8,6 +7,12 @@ import {
 import { INTENDED_SCHEMA_VERSION, isIntendedSchemaVersion } from "@/lib/graph/schema-version";
 import { validateSemanticGraph } from "@/lib/graph/validate";
 import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
+import {
+  LOCAL_INTENDED_RELEASE_RELATIVE,
+  isSemanticManifestUseLocal,
+  loadOfflineManifestJson,
+  readJsonFileIfPresent,
+} from "@/lib/graph/offline-manifest";
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
@@ -49,6 +54,14 @@ export type IntendedManifestRelease = {
 export function readIntendedManifestRelease(
   rootDir: string = process.cwd(),
 ): IntendedManifestRelease | null {
+  if (isSemanticManifestUseLocal()) {
+    const localPath = join(rootDir, LOCAL_INTENDED_RELEASE_RELATIVE);
+    const local = readJsonFileIfPresent(localPath);
+    if (local && typeof local === "object") {
+      return local as IntendedManifestRelease;
+    }
+    return null;
+  }
   const path = join(rootDir, "data", "intended-manifest-release.json");
   if (!existsSync(path)) return null;
   try {
@@ -65,7 +78,7 @@ export function readIntendedManifestRelease(
  * Stale → warning (error when strict).
  */
 export function collectFallbackFreshnessIssues(
-  data: unknown = fallbackSemantic,
+  data: unknown = loadOfflineManifestJson(),
   options?: {
     nowMs?: number;
     strictStale?: boolean;
@@ -244,7 +257,8 @@ export function assertFallbackFresh(options?: {
   intended?: IntendedManifestRelease | null;
   requireIntendedSchema?: boolean;
 }): FallbackFreshnessReport {
-  const report = collectFallbackFreshnessIssues(fallbackSemantic, options);
+  const data = loadOfflineManifestJson();
+  const report = collectFallbackFreshnessIssues(data, options);
   const errors = report.issues.filter((i) => i.severity === "error");
   if (errors.length > 0) {
     const message = errors.map((e) => `[${e.code}] ${e.detail}`).join("\n");

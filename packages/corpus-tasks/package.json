@@ -5,6 +5,7 @@
   "scripts": {
     "build-manifest": "make -C ../.. generate-semantic-manifest",
     "validate-manifest": "make -C ../.. validate-semantic-manifest",
-    "parity": "make -C ../.. compare-manifest-parity"
+    "parity": "make -C ../.. compare-manifest-parity",
+    "install-for-site": "make -C ../.. install-local-manifest-for-site"
   }
 }

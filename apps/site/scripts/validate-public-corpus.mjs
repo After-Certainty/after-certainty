@@ -15,7 +15,11 @@ const result = spawnSync(
   {
     cwd: root,
     stdio: "inherit",
-    env: { ...process.env, SEMANTIC_MANIFEST_OFFLINE: "1" },
+    env: {
+      ...process.env,
+      SEMANTIC_MANIFEST_OFFLINE: "1",
+      // Preserve SEMANTIC_MANIFEST_USE_LOCAL when set (Phase 4 preview).
+    },
   },
 );
 
