@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 
+import { ChapterManuscriptBody } from "@/components/reading/chapter-manuscript-body";
 import { ChapterReaderShell } from "@/components/reading/chapter-reader-shell";
 import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { buildChapterRouteKey } from "@/lib/graph/chapters";
 import { createPageMetadata } from "@/lib/metadata";
+import { loadChapterManuscript } from "@/lib/reading/load-chapter-manuscript";
 import { resolvePublicChapter } from "@/lib/reading/resolve-public-chapter";
 
 type PageProps = {
@@ -38,8 +40,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 /**
- * Public chapter reading destination (READ-002).
- * Manuscript HTML lands in READ-003; overview TOC links stay off until READ-006.
+ * Public chapter reading destination (READ-002 + READ-003).
+ * Overview TOC links stay off until READ-006.
  */
 export default async function ExploreBookChapterPage({ params }: PageProps) {
   const { slug, chapterSlug } = await params;
@@ -58,10 +60,18 @@ export default async function ExploreBookChapterPage({ params }: PageProps) {
   });
   if (!resolved) notFound();
 
-  // Defense in depth: never serve under a mismatched book segment.
   if (resolved.editionSlug !== editionSlug) {
     notFound();
   }
 
-  return <ChapterReaderShell book={resolved.book} chapter={resolved.chapter} />;
+  const manuscript = await loadChapterManuscript({
+    book: resolved.book,
+    chapter: resolved.chapter,
+  });
+
+  return (
+    <ChapterReaderShell book={resolved.book} chapter={resolved.chapter}>
+      <ChapterManuscriptBody result={manuscript} />
+    </ChapterReaderShell>
+  );
 }

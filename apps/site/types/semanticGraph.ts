@@ -158,6 +158,11 @@ export interface Book {
   publicStatus?: BookPublicStatus | string;
   availability?: BookAvailabilityFlag[];
   overview?: BookOverview;
+  /**
+   * Repo-relative book root (directory containing book.yml), e.g. `books/after-certainty`
+   * or `books/when-others-look-to-you/v1`. Used to resolve manuscript `sourcePath` (READ-003).
+   */
+  bookDir?: string;
 }
 
 /** Optional styling bucket from the content pipeline (e.g. pressure vs capability concepts). */

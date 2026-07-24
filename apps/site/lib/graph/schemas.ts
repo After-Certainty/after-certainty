@@ -189,6 +189,8 @@ const bookSchema = z.object({
   publicStatus: z.string().min(1).optional(),
   availability: z.array(bookAvailabilityFlagSchema).optional(),
   overview: bookOverviewSchema.optional(),
+  /** Repo-relative manuscript root for chapter rendering (READ-003). */
+  bookDir: optionalManifestString,
 });
 
 const conceptSemanticToneSchema = z.enum(["pressure", "capability", "neutral"]);

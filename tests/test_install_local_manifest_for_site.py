@@ -37,6 +37,7 @@ def test_install_writes_gitignored_local_artifacts(tmp_path: Path) -> None:
             "--site-data",
             str(site_data),
             "--skip-covers",
+            "--skip-manuscripts",
         ]
     )
     assert code == 0
@@ -62,6 +63,44 @@ def test_install_writes_gitignored_local_artifacts(tmp_path: Path) -> None:
 
     # Must not create or overwrite a committed-style fallback name.
     assert not (site_data / "semantic-manifest.json").exists()
+
+
+def test_install_copies_manuscripts_under_book_dir(tmp_path: Path) -> None:
+    source = tmp_path / "semantic-manifest.json"
+    site_data = tmp_path / "site-data"
+    book_dir = tmp_path / "books" / "demo-book"
+    chapter = book_dir / "front-matter" / "introduction.md"
+    chapter.parent.mkdir(parents=True)
+    chapter.write_text("# Hello\n\nBody.\n", encoding="utf-8")
+    source.write_text(
+        json.dumps(
+            {
+                "schemaVersion": "2.3",
+                "generatedAt": "2026-07-24T00:00:00+00:00",
+                "sourceCommit": "abc",
+                "books": [{"slug": "demo-book", "bookDir": "books/demo-book"}],
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    code = install.main(
+        [
+            "--repo",
+            str(tmp_path),
+            "--source",
+            str(source),
+            "--site-data",
+            str(site_data),
+            "--skip-covers",
+        ]
+    )
+    assert code == 0
+    installed = (
+        site_data / "manuscripts" / "books" / "demo-book" / "front-matter" / "introduction.md"
+    )
+    assert installed.is_file()
+    assert "Hello" in installed.read_text(encoding="utf-8")
 
 
 def test_install_rejects_missing_source(tmp_path: Path) -> None:
@@ -108,6 +147,7 @@ def test_require_deploy_sha_accepts_match(tmp_path: Path) -> None:
             "--require-deploy-sha",
             "deadbeef",
             "--skip-covers",
+            "--skip-manuscripts",
         ]
     )
     assert code == 0
