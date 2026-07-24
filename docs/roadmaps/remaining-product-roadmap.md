@@ -394,6 +394,7 @@ flowchart LR
 | **Goal** | Reading chrome: book TOC (parts/chapters) and prev/next chapter links in reading order. |
 | **Why it matters** | Makes multi-chapter books navigable without returning to overview only. |
 | **Type / owner / size** | implementation / site / M |
+| **Status** | Implemented — in-reader TOC + prev/next; overview Inside-this-book links still READ-006. |
 | **Likely files** | Chapter layout components; reuse `book-chapter-view-model` / registry maps `chapterIdsByEditionId` |
 | **Dependencies** | READ-002 |
 | **Acceptance criteria** | Prev/next respect edition reading order; first/last terminate cleanly; TOC lists parts/chapters with live hrefs for public units |
