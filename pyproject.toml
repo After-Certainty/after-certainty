@@ -12,7 +12,7 @@ dependencies = [
   "PyYAML>=6",
   "pytest>=8",
   "ruff>=0.9",
-  "pre-commit>=4",
+  "pre-commit>=4.6.1",
   "python-docx>=1.1",
   "pip-audit>=2.7",
 ]
@@ -27,7 +27,7 @@ test = [
   "pytest>=8",
   "ruff>=0.9",
   "pip-audit>=2.7",
-  "pre-commit>=4",
+  "pre-commit>=4.6.1",
 ]
 # Book export helpers that are Python-side (system pandoc/Typst stay outside uv).
 publishing = [
