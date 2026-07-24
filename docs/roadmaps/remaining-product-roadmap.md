@@ -373,7 +373,7 @@ flowchart LR
 | **Goal** | Transform chapter markdown from the corpus into safe SSR HTML with footnotes and stable section anchors. |
 | **Why it matters** | Without this, routes are empty shells. |
 | **Type / owner / size** | implementation / site / XL |
-| **Status** | Implemented — unified remark/rehype pipeline with sanitize, footnotes, heading anchors; missing-file alert state. |
+| **Status** | Implemented — unified remark/rehype pipeline with sanitize, footnotes, heading anchors; missing-file alert state; in-manuscript Contents/`.md` links rewrite to chapter routes when resolvable. |
 | **Likely files** | New `apps/site/lib/reading/*`; chapter page; possibly shared markdown utilities; security sanitization |
 | **Corpus scope** | Read manuscript files; do not rewrite manuscripts |
 | **Site scope** | Pipeline + rendering components |

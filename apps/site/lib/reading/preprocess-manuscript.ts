@@ -28,7 +28,7 @@ export function preprocessManuscriptMarkdown(markdown: string, options?: { strip
 
 /**
  * Rewrite relative manuscript links/images for public reading.
- * - `.md` links become plain text (cross-chapter routing is READ-006/007).
+ * - Unresolved `.md` links become plain text (chapter routes are rewritten earlier).
  * - Relative images become raw.githubusercontent.com URLs when bookDir is known.
  */
 export function rewriteManuscriptAssetUrls(
@@ -52,7 +52,7 @@ export function rewriteManuscriptAssetUrls(
     return `![${alt}](${rawBase}/${cleaned})`;
   });
 
-  // Markdown links to other .md files → keep link text only (no broken relative hrefs).
+  // Remaining markdown links to other .md files → keep link text only.
   text = text.replace(/\[([^\]]+)]\(([^)]+\.md)(#[^)]*)?\)/gi, "$1");
 
   return text;

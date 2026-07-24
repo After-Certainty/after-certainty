@@ -33,4 +33,24 @@ test.describe("reader smoke (READ-009)", () => {
     await expect(page).toHaveURL(/\/explore\/books\/after-certainty$/);
     await expect(page.getByRole("heading", { name: "After Certainty", level: 1 })).toBeVisible();
   });
+
+  test("manuscript Contents links open chapter routes", async ({ page }) => {
+    await page.goto(
+      "/explore/books/the-economy-we-dont-experience/chapters/front-matter-contents",
+      { waitUntil: "domcontentloaded", timeout: 30_000 },
+    );
+    const intro = page
+      .locator(".chapter-manuscript")
+      .getByRole("link", { name: "Introduction — The Chart and the Receipt" });
+    await expect(intro).toBeVisible();
+    await expect(intro).toHaveAttribute(
+      "href",
+      "/explore/books/the-economy-we-dont-experience/chapters/front-matter-introduction-the-chart-and-the-receipt",
+    );
+    await intro.click();
+    await expect(page).toHaveURL(
+      /\/explore\/books\/the-economy-we-dont-experience\/chapters\/front-matter-introduction-the-chart-and-the-receipt$/,
+    );
+    await expect(page.locator("#chapter-title")).toBeVisible();
+  });
 });
