@@ -178,7 +178,7 @@ export function collectPublicCorpusIntegrityIssues(
         entityId: chapter.id,
         sourceFeature: "chapters",
         targetFeature: "search",
-        detail: `Chapter "${chapter.slug}" must not be search-eligible until chapter routes ship.`,
+        detail: `Chapter "${chapter.slug}" must not be search-eligible until chapter search unlock (READ-005).`,
       });
     }
     if (chapter.sitemapEligible) {
@@ -188,7 +188,7 @@ export function collectPublicCorpusIntegrityIssues(
         entityId: chapter.id,
         sourceFeature: "chapters",
         targetFeature: "sitemap",
-        detail: `Chapter "${chapter.slug}" must not be sitemap-eligible until chapter routes ship.`,
+        detail: `Chapter "${chapter.slug}" must not be sitemap-eligible until chapter sitemap unlock (READ-009).`,
       });
     }
     if (chapter.visibility === "listed") {
@@ -197,7 +197,7 @@ export function collectPublicCorpusIntegrityIssues(
         code: "CHAPTER_LISTED_PREMATURELY",
         entityId: chapter.id,
         sourceFeature: "chapters",
-        detail: `Chapter "${chapter.slug}" is listed before chapter routes ship.`,
+        detail: `Chapter "${chapter.slug}" must stay unlisted until overview/search surfaces intentionally list chapters.`,
       });
     }
   }

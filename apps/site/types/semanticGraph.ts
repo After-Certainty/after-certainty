@@ -542,7 +542,7 @@ export interface ManifestChapter {
   /**
    * Reserved public pathname for this chapter (READ-001 contract).
    * Shape: `/explore/books/{editionSlug}/chapters/{chapterSlug}`.
-   * Equals the future App Router path; not a live route until READ-002 ships.
+   * App Router destination exists (READ-002); manuscript body arrives in READ-003.
    * @see docs/semantic-chapter-identity.md
    */
   routeKey: string;

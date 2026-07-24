@@ -13,7 +13,7 @@ export const explorePaths = {
 
 /**
  * Canonical chapter pathname (READ-001). Matches manifest `routeKey`.
- * Does not imply the App Router page is live yet.
+ * App Router page exists at this path (READ-002).
  */
 export function exploreChapterHref(editionSlug: string, chapterSlug: string): string {
   return `${explorePaths.books}/${editionSlug}/chapters/${chapterSlug}`;

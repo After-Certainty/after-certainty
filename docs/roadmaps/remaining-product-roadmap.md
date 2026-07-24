@@ -354,6 +354,7 @@ flowchart LR
 | **Goal** | Add App Router chapter pages that resolve public chapters by book slug + chapter slug and render SSR shells (content may land with READ-003). |
 | **Why it matters** | First visible reading destination. |
 | **Type / owner / size** | implementation / site / L |
+| **Status** | Implemented — SSR shell live; manuscript body deferred to READ-003; overview links still off (READ-006). |
 | **Likely files** | `apps/site/app/explore/(browse)/books/[slug]/chapters/[chapterSlug]/page.tsx` (or contracted path); metadata helpers; `public-registry.ts` |
 | **Dependencies** | READ-001 |
 | **Inputs** | Manifest chapters; `routeKey` |

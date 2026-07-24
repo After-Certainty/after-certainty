@@ -80,7 +80,7 @@ function toChapterViewModel(chapter: ManifestChapter): BookChapterViewModel {
       typeof chapter.estimatedReadingMinutes === "number" && chapter.estimatedReadingMinutes > 0
         ? chapter.estimatedReadingMinutes
         : undefined,
-    // Chapter reader routes are not live — do not fabricate links from routeKey.
+    // Overview links stay off until READ-006 — routes may exist without catalog hrefs.
     publicUrl: undefined,
     partId: chapter.partId,
   };
