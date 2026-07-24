@@ -76,3 +76,50 @@
     }
   }
 }
+
+/* Native Reader manuscript body (READ-003) */
+@layer components {
+  .chapter-manuscript {
+    line-height: 1.75;
+  }
+
+  .chapter-manuscript .footnotes {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid color-mix(in oklab, var(--border) 60%, transparent);
+    font-size: 0.875rem;
+    color: var(--muted);
+  }
+
+  .chapter-manuscript .footnotes ol {
+    padding-left: 1.25rem;
+  }
+
+  .chapter-manuscript .footnotes li {
+    margin: 0.75rem 0;
+  }
+
+  .chapter-manuscript a[data-footnote-ref],
+  .chapter-manuscript a[data-footnote-backref] {
+    text-decoration: none;
+    color: var(--accent);
+  }
+
+  .chapter-manuscript a[data-footnote-ref]:hover,
+  .chapter-manuscript a[data-footnote-backref]:hover {
+    text-decoration: underline;
+  }
+
+  .chapter-manuscript img {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: auto;
+    max-width: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .chapter-manuscript {
+      scroll-behavior: auto;
+    }
+  }
+}

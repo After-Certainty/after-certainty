@@ -1,11 +1,23 @@
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
 import createMDX from "@next/mdx";
 import type { NextConfig } from "next";
 
 import { SECURITY_HEADERS } from "./lib/security/headers";
 
+const configDir = path.dirname(fileURLToPath(import.meta.url));
+/** Include corpus manuscripts outside apps/site in server file tracing (READ-003). */
+const monorepoRoot = path.join(configDir, "../..");
+
 const nextConfig: NextConfig = {
   pageExtensions: ["js", "jsx", "md", "mdx", "ts", "tsx"],
   reactStrictMode: true,
+  outputFileTracingRoot: monorepoRoot,
+  outputFileTracingIncludes: {
+    // Globs are relative to the Next.js project root (apps/site).
+    "/explore/books/*/chapters/*": ["../../books/**/*.md"],
+  },
   async headers() {
     return [
       {

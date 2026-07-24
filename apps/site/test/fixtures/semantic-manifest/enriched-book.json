@@ -114,6 +114,7 @@
       "editionId": "book-after-certainty",
       "isCanonical": true,
       "editionRelationship": "sole",
+      "bookDir": "books/after-certainty",
       "availability": [
         "download_docx",
         "download_epub",
