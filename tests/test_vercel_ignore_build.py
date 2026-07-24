@@ -73,6 +73,16 @@ def test_skips_on_docs_only_path_list() -> None:
     assert "no site-affecting paths" in result.stdout
 
 
+def test_skips_semantic_drafts() -> None:
+    result = _run(
+        {
+            "VERCEL_IGNORE_CHANGED_FILES": "semantic/_drafts/generated/foo.yml\n",
+        }
+    )
+    assert result.returncode == 0
+    assert "no site-affecting paths" in result.stdout
+
+
 def test_builds_on_corpus_path_list() -> None:
     result = _run(
         {

@@ -1,6 +1,6 @@
 # Monorepo Phase 7 — Archive former site repository
 
-**Status:** This PR (survivor docs + link sweep). **Manual:** merge archive README on [`after-certainty-site`](https://github.com/ksteffe/after-certainty-site), then GitHub **Archive this repository**.  
+**Status:** Complete (merged). Archive applied on `after-certainty-site`. Phase 8: [`../monorepo-phase-8/`](../monorepo-phase-8/).  
 **Plan:** [`docs/roadmaps/monorepo-migration-plan.md`](../../roadmaps/monorepo-migration-plan.md) §24 Phase 7  
 **Predecessor:** [`../monorepo-phase-6/`](../monorepo-phase-6/)
 

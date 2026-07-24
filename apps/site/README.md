@@ -19,7 +19,9 @@ From the **monorepo root**:
 ```bash
 npm ci
 cp apps/site/.env.example apps/site/.env.local   # optional — see NEXT_PUBLIC_SITE_URL
-npm run site:dev
+npm run site:dev:local   # after: npm run corpus:build-manifest && npm run site:install-local-manifest
+# or watch corpus YAML while developing:
+# npm run site:dev:watch
 ```
 
 Or from this directory after a root `npm ci` (workspace hoisting):

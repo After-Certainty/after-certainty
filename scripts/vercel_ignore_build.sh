@@ -2,7 +2,8 @@
 # Vercel Ignored Build Step for the monorepo site project.
 # Exit 0 = skip deployment; exit 1 = proceed with build.
 #
-# Rebuild when public corpus or site paths change. Skip docs-only / publishing-only churn.
+# Phase 8: finer path rules — skip docs-only / draft / publishing-only churn;
+# rebuild for public corpus + site + install/build scripts.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -11,14 +12,20 @@ cd "$ROOT"
 # Prefixes/files that affect the public site or its local-manifest build.
 should_build() {
   local f="$1"
+  # Never treat draft / docs-only trees as site-affecting.
   case "$f" in
-    apps/site/*|books/*|semantic/*|schema/*|upcoming/*) return 0 ;;
+    semantic/_drafts/*|docs/*) return 1 ;;
+  esac
+  case "$f" in
+    apps/site/*|books/*|schema/*|upcoming/*) return 0 ;;
+    semantic/*) return 0 ;;
     packages/corpus-tasks/*) return 0 ;;
     tools/generate_semantic_manifest.py|tools/discovery_manifest.py) return 0 ;;
     tools/manifest_*.py|tools/book_specs.py|tools/manuscript_structure.py) return 0 ;;
     tools/pattern_yaml.py|tools/validate_book_specs.py|tools/verify_semantic_yaml.py) return 0 ;;
     scripts/install_local_manifest_for_site.py) return 0 ;;
     scripts/vercel_install.sh|scripts/vercel_build.sh|scripts/vercel_ignore_build.sh) return 0 ;;
+    scripts/watch_local_manifest.mjs|scripts/dev_site_with_manifest_watch.sh) return 0 ;;
     scripts/ci_uv_sync.sh) return 0 ;;
     package.json|package-lock.json|turbo.json|.npmrc|Makefile|pyproject.toml|uv.lock) return 0 ;;
     apps/site/vercel.json) return 0 ;;
