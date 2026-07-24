@@ -26,7 +26,6 @@ import {
 } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import sharp from "sharp";
 
 import {
   GENERATOR_VERSION,
@@ -36,6 +35,26 @@ import {
   VARIANTS,
   variantConfigFingerprint,
 } from "./book-cover-variants.mjs";
+
+/** @type {typeof import("sharp") | null} */
+let sharpModulePromise = null;
+
+async function loadSharp() {
+  if (sharpModulePromise) return sharpModulePromise;
+  sharpModulePromise = (async () => {
+    try {
+      const mod = await import("sharp");
+      return mod.default;
+    } catch (err) {
+      const code = err && typeof err === "object" && "code" in err ? err.code : undefined;
+      if (code === "ERR_MODULE_NOT_FOUND" || code === "MODULE_NOT_FOUND") {
+        return null;
+      }
+      throw err;
+    }
+  })();
+  return sharpModulePromise;
+}
 
 const SCRIPT_DIR = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(SCRIPT_DIR, "../../..");
@@ -55,6 +74,7 @@ function parseArgs(argv) {
     out: DEFAULT_OUT,
     force: false,
     dryRun: false,
+    allowMissingSharp: process.env.ALLOW_MISSING_WEB_COVERS === "1",
   };
   for (let i = 0; i < argv.length; i += 1) {
     const a = argv[i];
@@ -66,8 +86,12 @@ function parseArgs(argv) {
       args.force = true;
     } else if (a === "--dry-run") {
       args.dryRun = true;
+    } else if (a === "--allow-missing-sharp") {
+      args.allowMissingSharp = true;
     } else if (a === "--help" || a === "-h") {
-      console.log(`Usage: generate-book-cover-assets.mjs [--repo DIR] [--out DIR] [--force] [--dry-run]`);
+      console.log(
+        `Usage: generate-book-cover-assets.mjs [--repo DIR] [--out DIR] [--force] [--dry-run] [--allow-missing-sharp]`,
+      );
       process.exit(0);
     }
   }
@@ -148,8 +172,8 @@ function outputsExist(outDir, slug, record) {
   return true;
 }
 
-async function generateVariant(sourcePath, maxWidth, quality) {
-  const pipeline = sharp(sourcePath, { failOn: "error" })
+async function generateVariant(sharpLib, sourcePath, maxWidth, quality) {
+  const pipeline = sharpLib(sourcePath, { failOn: "error" })
     .rotate()
     .resize({
       width: maxWidth,
@@ -209,7 +233,7 @@ function ensureCoverInsideRepo(repo, coverPath) {
 }
 
 /**
- * @param {{ repo: string, out: string, force?: boolean, dryRun?: boolean, books?: object[] }} opts
+ * @param {{ repo: string, out: string, force?: boolean, dryRun?: boolean, allowMissingSharp?: boolean, books?: object[], sharpLib?: import("sharp").default }} opts
  */
 export async function generateBookCoverAssets(opts) {
   const repo = path.resolve(opts.repo);
@@ -217,6 +241,19 @@ export async function generateBookCoverAssets(opts) {
   const force = Boolean(opts.force);
   const dryRun = Boolean(opts.dryRun);
   const variantConfig = variantConfigFingerprint();
+
+  const sharpLib = opts.sharpLib ?? (await loadSharp());
+  if (!sharpLib) {
+    if (opts.allowMissingSharp || process.env.ALLOW_MISSING_WEB_COVERS === "1") {
+      console.warn(
+        "warning: sharp is not installed; skipping book cover generation (npm ci to enable)",
+      );
+      return { generated: 0, skipped: 0, failed: 0, softWarnings: [], books: {}, skippedMissingSharp: true };
+    }
+    throw new Error(
+      "Cannot find package 'sharp'. Run npm ci from the monorepo root, or pass --allow-missing-sharp / ALLOW_MISSING_WEB_COVERS=1 for Python-only CI.",
+    );
+  }
 
   const books = opts.books ?? listBookCovers(repo);
   const existing = loadExistingManifest(outDir);
@@ -262,7 +299,7 @@ export async function generateBookCoverAssets(opts) {
     }
 
     try {
-      const sourceMeta = await sharp(sourceAbs, { failOn: "error" }).metadata();
+      const sourceMeta = await sharpLib(sourceAbs, { failOn: "error" }).metadata();
       const sourceWidth = sourceMeta.width ?? 0;
       const sourceHeight = sourceMeta.height ?? 0;
       if (!sourceWidth || !sourceHeight) {
@@ -273,7 +310,7 @@ export async function generateBookCoverAssets(opts) {
       const coverImages = {};
       for (const key of VARIANT_KEYS) {
         const spec = VARIANTS[key];
-        const variant = await generateVariant(sourceAbs, spec.maxWidth, spec.quality);
+        const variant = await generateVariant(sharpLib, sourceAbs, spec.maxWidth, spec.quality);
         if (variant.width > sourceWidth || variant.height > sourceHeight) {
           throw new Error(
             `${key} enlarged source (${variant.width}x${variant.height} > ${sourceWidth}x${sourceHeight})`,

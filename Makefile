@@ -204,7 +204,7 @@ install-local-manifest-for-site:
 	python3 scripts/install_local_manifest_for_site.py --repo .
 
 generate-book-cover-assets:
-	node packages/corpus-tasks/scripts/generate-book-cover-assets.mjs --repo . --out "$(BOOK_COVER_ASSETS_OUT)"
+	node packages/corpus-tasks/scripts/generate-book-cover-assets.mjs --repo . --out "$(BOOK_COVER_ASSETS_OUT)" $(if $(ALLOW_MISSING_WEB_COVERS),--allow-missing-sharp,)
 
 validate-book-cover-assets:
 	node packages/corpus-tasks/scripts/validate-book-cover-assets.mjs --repo . --out "$(BOOK_COVER_ASSETS_OUT)" \

@@ -1029,8 +1029,12 @@ def main() -> None:
     if cover_manifest:
         attach_cover_images_to_books(books, cover_manifest, require_for_covered=True)
     else:
+        try:
+            cover_rel = cover_manifest_path.relative_to(repo).as_posix()
+        except ValueError:
+            cover_rel = "build/site-assets/book-covers/manifest.json"
         print(
-            f"warning: cover assets manifest missing at {cover_manifest_path}; "
+            f"warning: cover assets manifest missing at {cover_rel}; "
             "skipping coverImages (run generate-book-cover-assets first)",
             file=sys.stderr,
         )

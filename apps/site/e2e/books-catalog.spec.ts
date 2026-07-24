@@ -9,13 +9,18 @@ test.describe("Books catalog", () => {
 
   test("catalog cards use generated card covers", async ({ page }) => {
     await page.goto("/explore/books");
-    const cover = page.locator("#main img[src*='/generated/book-covers/'][src$='/card.webp']").first();
+    // next/image rewrites local public paths to /_next/image?url=%2Fgenerated%2F...
+    const cover = page
+      .locator("#main img[src*='_next/image'][src*='%2Fgenerated%2Fbook-covers%2F'][src*='card.webp']")
+      .first();
     await expect(cover).toBeVisible();
   });
 
   test("book detail hero uses generated detail cover", async ({ page }) => {
     await page.goto("/explore/books/after-certainty");
-    const cover = page.locator("#main img[src*='/generated/book-covers/after-certainty/detail.webp']");
+    const cover = page.locator(
+      "#main img[src*='_next/image'][src*='%2Fgenerated%2Fbook-covers%2Fafter-certainty%2Fdetail.webp']",
+    );
     await expect(cover).toBeVisible();
   });
 
