@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import type { BookStructureViewModel } from "@/lib/books/book-chapter-view-model";
 
 function formatMinutes(minutes: number): string {
@@ -11,7 +13,7 @@ type BookInsideThisBookProps = {
 };
 
 /**
- * Orientation map of parts and chapters. No fabricated chapter links.
+ * Orientation map of parts and chapters with live chapter links (READ-006).
  * Uses native details/summary for accessible progressive disclosure.
  */
 export function BookInsideThisBook({ structure }: BookInsideThisBookProps) {
@@ -60,56 +62,54 @@ export function BookInsideThisBook({ structure }: BookInsideThisBookProps) {
               <ol className="space-y-1 pb-4">
                 {part.chapters.map((chapter) => {
                   const hasDetail = Boolean(chapter.summary || chapter.centralQuestion);
-                  const row = (
-                    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                      <span className="font-medium text-fg">{chapter.title}</span>
-                      {chapter.kindLabel ? (
-                        <span className="text-[10px] uppercase tracking-[0.22em] text-muted">
-                          {chapter.kindLabel}
-                        </span>
-                      ) : null}
-                      {chapter.estimatedMinutes ? (
-                        <span className="text-sm text-muted">
-                          {formatMinutes(chapter.estimatedMinutes)}
-                        </span>
-                      ) : null}
-                    </div>
+                  const title = chapter.publicUrl ? (
+                    <Link
+                      href={chapter.publicUrl}
+                      className="font-medium text-fg transition-colors hover:text-accent"
+                    >
+                      {chapter.title}
+                    </Link>
+                  ) : (
+                    <span className="font-medium text-fg">{chapter.title}</span>
                   );
 
-                  if (!hasDetail) {
-                    return (
-                      <li key={chapter.id} className="border-t border-border/20 py-3">
-                        {row}
-                      </li>
-                    );
-                  }
-
                   return (
-                    <li key={chapter.id} className="border-t border-border/20">
-                      <details className="group/chapter py-3">
-                        <summary className="cursor-pointer list-none marker:content-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent [&::-webkit-details-marker]:hidden">
-                          {row}
-                          <span className="mt-1 block text-xs text-accent group-open/chapter:hidden">
-                            Show summary
+                    <li key={chapter.id} className="border-t border-border/20 py-3">
+                      <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                        {title}
+                        {chapter.kindLabel ? (
+                          <span className="text-[10px] uppercase tracking-[0.22em] text-muted">
+                            {chapter.kindLabel}
                           </span>
-                          <span className="mt-1 hidden text-xs text-accent group-open/chapter:block">
-                            Hide summary
+                        ) : null}
+                        {chapter.estimatedMinutes ? (
+                          <span className="text-sm text-muted">
+                            {formatMinutes(chapter.estimatedMinutes)}
                           </span>
-                        </summary>
-                        <div className="mt-3 max-w-2xl space-y-2 text-sm leading-relaxed text-muted">
-                          {chapter.summary ? <p>{chapter.summary}</p> : null}
-                          {chapter.centralQuestion ? (
-                            <p>
-                              <span className="text-[10px] uppercase tracking-[0.22em] text-accent">
-                                Central question
-                              </span>
-                              <span className="mt-1 block text-fg/90">
-                                {chapter.centralQuestion}
-                              </span>
-                            </p>
-                          ) : null}
-                        </div>
-                      </details>
+                        ) : null}
+                      </div>
+
+                      {hasDetail ? (
+                        <details className="group/chapter mt-2">
+                          <summary className="cursor-pointer list-none text-xs text-accent marker:content-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent [&::-webkit-details-marker]:hidden">
+                            <span className="group-open/chapter:hidden">Show summary</span>
+                            <span className="hidden group-open/chapter:inline">Hide summary</span>
+                          </summary>
+                          <div className="mt-3 max-w-2xl space-y-2 text-sm leading-relaxed text-muted">
+                            {chapter.summary ? <p>{chapter.summary}</p> : null}
+                            {chapter.centralQuestion ? (
+                              <p>
+                                <span className="text-[10px] uppercase tracking-[0.22em] text-accent">
+                                  Central question
+                                </span>
+                                <span className="mt-1 block text-fg/90">
+                                  {chapter.centralQuestion}
+                                </span>
+                              </p>
+                            ) : null}
+                          </div>
+                        </details>
+                      ) : null}
                     </li>
                   );
                 })}

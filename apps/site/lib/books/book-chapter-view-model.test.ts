@@ -16,7 +16,11 @@ describe("book chapter view model", () => {
     expect(structure!.parts[0]?.chapters.length).toBeGreaterThan(0);
     expect(structure!.hasAuthoredSummaries).toBe(true);
     expect(structure!.chapters.some((c) => Boolean(c.summary))).toBe(true);
-    expect(structure!.chapters.every((c) => c.publicUrl === undefined)).toBe(true);
+    expect(
+      structure!.chapters.every(
+        (c) => typeof c.publicUrl === "string" && c.publicUrl.includes("/chapters/"),
+      ),
+    ).toBe(true);
   });
 
   it("returns null when edition has no chapters", () => {

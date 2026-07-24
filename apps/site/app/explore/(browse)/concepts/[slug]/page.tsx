@@ -6,6 +6,7 @@ import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { GraphNeighborhoodCards } from "@/components/explore/graph-neighborhood-cards";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
+import { RelatedChaptersSection } from "@/components/explore/related-chapters-section";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
@@ -15,6 +16,7 @@ import {
   conceptsSortedForExploreIndex,
   exploreConceptAdjacentInIndexOrder,
 } from "@/lib/explore/explore-concepts-order";
+import { publicChaptersForConcept } from "@/lib/graph/chapter-associations";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getAdjacentSourcesFromRelationships, getConceptBySlug } from "@/lib/graph/graphQueries";
@@ -55,6 +57,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
 
   const related = relatedContentForConcept(index, concept);
   const adjacentSources = getAdjacentSourcesFromRelationships(index, concept.id);
+  const relatedChapters = publicChaptersForConcept(graph, concept.id);
 
   const mergedSources = [...related.sources];
   const sourceIds = new Set(mergedSources.map((s) => s.id));
@@ -143,6 +146,15 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
       </Section>
 
       <RelatedTrailsSection canonicalId={concept.id} entityLabel="concept" />
+
+      {relatedChapters.length > 0 ? (
+        <Section
+          atmosphere="transition"
+          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+        >
+          <RelatedChaptersSection chapters={relatedChapters} />
+        </Section>
+      ) : null}
 
       {hasRelated ? (
         <Section

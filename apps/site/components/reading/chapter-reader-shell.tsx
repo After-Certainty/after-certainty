@@ -21,7 +21,6 @@ export type ChapterReaderShellProps = {
 
 /**
  * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y).
- * Overview TOC links stay off until READ-006.
  */
 export function ChapterReaderShell({
   book,

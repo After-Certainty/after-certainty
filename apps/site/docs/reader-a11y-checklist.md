@@ -40,6 +40,4 @@ scope here.
 
 ## Not in this baseline
 
-- Overview “Inside this book” links (READ-006)
-- Sitemap / search eligibility (READ-009 / READ-005)
 - Reading progress, continue reading, bookmarks, text-size controls (Phase 2)

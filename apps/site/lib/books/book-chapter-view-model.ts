@@ -1,4 +1,4 @@
-import { chaptersForEdition, partsForEdition } from "@/lib/graph/chapters";
+import { chapterPublicPath, chaptersForEdition, partsForEdition } from "@/lib/graph/chapters";
 import type {
   ManifestChapter,
   ManifestChapterKind,
@@ -16,7 +16,7 @@ export type BookChapterViewModel = {
   summary?: string;
   centralQuestion?: string;
   estimatedMinutes?: number;
-  /** Reserved for future chapter routes — undefined until routes exist. */
+  /** Live chapter pathname when the unit is public with a valid routeKey. */
   publicUrl?: string;
   partId?: string;
 };
@@ -80,8 +80,7 @@ function toChapterViewModel(chapter: ManifestChapter): BookChapterViewModel {
       typeof chapter.estimatedReadingMinutes === "number" && chapter.estimatedReadingMinutes > 0
         ? chapter.estimatedReadingMinutes
         : undefined,
-    // Overview links stay off until READ-006 — routes may exist without catalog hrefs.
-    publicUrl: undefined,
+    publicUrl: chapterPublicPath(chapter) ?? undefined,
     partId: chapter.partId,
   };
 }

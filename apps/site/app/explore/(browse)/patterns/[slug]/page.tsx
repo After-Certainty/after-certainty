@@ -6,6 +6,7 @@ import { ExplorePatternMedia } from "@/components/explore/explore-pattern-media"
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
+import { RelatedChaptersSection } from "@/components/explore/related-chapters-section";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
@@ -15,6 +16,7 @@ import {
   explorePatternAdjacentInIndexOrder,
   patternsSortedForExploreIndex,
 } from "@/lib/explore/explore-patterns-order";
+import { publicChaptersForPattern } from "@/lib/graph/chapter-associations";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getPatternBySlug } from "@/lib/graph/graphQueries";
@@ -47,6 +49,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
   if (!pattern) notFound();
 
   const related = relatedContentForPattern(index, pattern);
+  const relatedChapters = publicChaptersForPattern(graph, pattern.id);
   const patternsInListOrder = patternsSortedForExploreIndex(graph.patterns);
   const { prev: prevPattern, next: nextPattern } = explorePatternAdjacentInIndexOrder(
     patternsInListOrder,
@@ -93,6 +96,15 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
       </Section>
 
       <RelatedTrailsSection canonicalId={pattern.id} entityLabel="pattern" />
+
+      {relatedChapters.length > 0 ? (
+        <Section
+          atmosphere="transition"
+          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+        >
+          <RelatedChaptersSection chapters={relatedChapters} />
+        </Section>
+      ) : null}
 
       {hasRelated ? (
         <Section

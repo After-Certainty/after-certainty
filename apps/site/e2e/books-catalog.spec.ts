@@ -112,6 +112,18 @@ test.describe("Books catalog", () => {
     await expect(page.locator(".chapter-manuscript")).toBeVisible();
   });
 
+  test("Inside this book links open a chapter route", async ({ page }) => {
+    await page.goto("/explore/books/after-certainty");
+    const intro = page
+      .locator("#inside")
+      .getByRole("link", { name: "Introduction", exact: true });
+    await expect(intro).toBeVisible();
+    await intro.click();
+    await expect(page).toHaveURL(
+      /\/explore\/books\/after-certainty\/chapters\/front-matter-introduction$/,
+    );
+  });
+
   test("fiction and poetry books expose chapter structure", async ({ page }) => {
     await page.goto("/explore/books/the-relay");
     await expect(page.getByRole("heading", { name: "Inside this book", level: 2 })).toBeVisible();

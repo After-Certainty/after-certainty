@@ -12,7 +12,8 @@ import { buildGraphIndex, graphNodeTitle, type GraphIndex } from "@/lib/graph/gr
 import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
 import { sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
 import { resolveThinkers } from "@/lib/graph/thinkers";
-import { chaptersFromGraph } from "@/lib/graph/chapters";
+import { chaptersFromGraph, chapterSlugFromRouteKey } from "@/lib/graph/chapters";
+import { isChapterSearchEligible } from "@/lib/corpus/chapter-eligibility";
 import { aliasTermsByTargetId, relatedTermsByTargetId } from "@/lib/search/aliases";
 import { computeSearchBoostWeight } from "@/lib/search/boost";
 import { cappedEnrichmentText } from "@/lib/search/enrichment";
@@ -29,6 +30,7 @@ import type { PodcastEpisode } from "@/types/content";
 import type {
   Book as SemanticBook,
   GlossaryConcept,
+  ManifestChapter,
   Pattern,
   SemanticGraph,
   Situation,
@@ -472,8 +474,9 @@ function buildPodcastDocument(
 }
 
 /**
- * Chapter metadata is searchable via the parent book document until on-site
- * chapter routes exist (public registry keeps chapters searchEligible=false).
+ * Fold public chapter title/summary/alias text into the parent book document.
+ * Chapter documents (READ-005) provide precise destinations; book docs keep this
+ * vocabulary so book hits still match chapter-oriented queries.
  */
 function chapterSearchTextForBook(graph: SemanticGraph, book: SemanticBook): string[] {
   const editionId = book.editionId ?? book.id;
@@ -491,6 +494,42 @@ function chapterSearchTextForBook(graph: SemanticGraph, book: SemanticBook): str
   return chunks;
 }
 
+function buildChapterDocument(chapter: ManifestChapter, book: SemanticBook): SearchDocument {
+  const aliases = uniqueStrings([...(chapter.searchAliases ?? [])]);
+  const conceptIds = chapter.selectedConceptIds?.length
+    ? [...chapter.selectedConceptIds]
+    : undefined;
+  const patternIds = chapter.selectedPatternIds?.length
+    ? [...chapter.selectedPatternIds]
+    : undefined;
+
+  return {
+    id: chapter.id,
+    entityType: "chapter",
+    slug: chapterSlugFromRouteKey(chapter.routeKey),
+    title: chapter.title,
+    description: chapter.summary?.trim() || undefined,
+    resultLabel: SEARCH_RESULT_LABELS.chapter,
+    canonicalUrl: chapter.routeKey,
+    visibility: "listed",
+    contextLabel: `Chapter in ${book.title}`,
+    searchText: joinSearchText([
+      chapter.title,
+      chapter.partTitle,
+      chapter.summary,
+      chapter.centralQuestion,
+      book.title,
+      ...aliases,
+    ]),
+    aliases,
+    bookIds: [chapter.editionId],
+    conceptIds,
+    patternIds,
+    boostWeight: computeSearchBoostWeight({ entityType: "chapter" }),
+    sourceArtifact: "semantic",
+  };
+}
+
 /**
  * Build the normalized Global Search corpus from the explore graph,
  * podcast episodes, and authored aliases. Pure function — no I/O.
@@ -504,6 +543,7 @@ export function buildSearchDocuments(input: BuildSearchDocumentsInput): SearchDo
     : new Map<string, string[]>();
   const registry = publicationRegistryFromGraph(graph);
   const editionGroups = buildEditionGroups(graph.books, registry);
+  const booksById = new Map(graph.books.map((book) => [book.id, book]));
 
   const docs: SearchDocument[] = [];
   const seenIds = new Set<string>();
@@ -594,6 +634,12 @@ export function buildSearchDocuments(input: BuildSearchDocumentsInput): SearchDo
   for (const episode of podcastEpisodes) {
     const id = `podcast:${episode.id}`;
     push(buildPodcastDocument(episode, aliasMap.get(id) ?? [], relatedMap.get(id) ?? []));
+  }
+
+  for (const chapter of chaptersFromGraph(graph)) {
+    const book = booksById.get(chapter.editionId);
+    if (!isChapterSearchEligible(chapter, book) || !book) continue;
+    push(buildChapterDocument(chapter, book));
   }
 
   return docs;

@@ -41,8 +41,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 }
 
 /**
- * Public chapter reading destination (READ-002–004).
- * Overview TOC links stay off until READ-006.
+ * Public chapter reading destination (READ-002–006).
  */
 export default async function ExploreBookChapterPage({ params }: PageProps) {
   const { slug, chapterSlug } = await params;
