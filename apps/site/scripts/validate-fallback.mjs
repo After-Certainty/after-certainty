@@ -13,6 +13,7 @@ const strict = process.argv.includes("--strict");
 const env = {
   ...process.env,
   SEMANTIC_MANIFEST_OFFLINE: "1",
+  // Preserve SEMANTIC_MANIFEST_USE_LOCAL when set (Phase 4 preview local manifest).
   VALIDATE_FALLBACK_STRICT: strict ? "1" : process.env.VALIDATE_FALLBACK_STRICT,
 };
 

@@ -1,9 +1,10 @@
 # Site lint/test/build/e2e for apps/site (npm workspaces).
-# Production still consumes the remote semantic manifest; CI uses the bundled
-# fallback via SEMANTIC_MANIFEST_OFFLINE=1 (unchanged from after-certainty-site).
 #
-# Path-filtered so corpus-only PRs skip this job. Nested apps/site/.github
-# workflows are not executed by GitHub — this root workflow is authoritative.
+# Phase 4 (Stage C): preview-oriented CI generates a same-checkout semantic
+# manifest, installs it into apps/site/data/local-*.json, and builds/tests with
+# SEMANTIC_MANIFEST_USE_LOCAL=1 + SEMANTIC_MANIFEST_OFFLINE=1.
+#
+# Production on after-certainty-site still consumes the remote release artifact.
 
 name: Site CI
 
@@ -11,20 +12,54 @@ on:
   pull_request:
     paths:
       - "apps/site/**"
+      - "books/**"
+      - "semantic/**"
+      - "schema/**"
+      - "upcoming/**"
+      - "tools/generate_semantic_manifest.py"
+      - "tools/discovery_manifest.py"
+      - "tools/manifest_*.py"
+      - "tools/book_specs.py"
+      - "tools/manuscript_structure.py"
+      - "tools/pattern_yaml.py"
+      - "tools/validate_book_specs.py"
+      - "tools/verify_semantic_yaml.py"
+      - "scripts/install_local_manifest_for_site.py"
+      - "packages/corpus-tasks/**"
       - "package.json"
       - "package-lock.json"
       - "turbo.json"
       - ".npmrc"
+      - "Makefile"
+      - "pyproject.toml"
+      - "uv.lock"
       - ".github/workflows/site-ci.yml"
   push:
     branches:
       - main
     paths:
       - "apps/site/**"
+      - "books/**"
+      - "semantic/**"
+      - "schema/**"
+      - "upcoming/**"
+      - "tools/generate_semantic_manifest.py"
+      - "tools/discovery_manifest.py"
+      - "tools/manifest_*.py"
+      - "tools/book_specs.py"
+      - "tools/manuscript_structure.py"
+      - "tools/pattern_yaml.py"
+      - "tools/validate_book_specs.py"
+      - "tools/verify_semantic_yaml.py"
+      - "scripts/install_local_manifest_for_site.py"
+      - "packages/corpus-tasks/**"
       - "package.json"
       - "package-lock.json"
       - "turbo.json"
       - ".npmrc"
+      - "Makefile"
+      - "pyproject.toml"
+      - "uv.lock"
       - ".github/workflows/site-ci.yml"
 
 concurrency:
@@ -34,17 +69,34 @@ concurrency:
 permissions:
   contents: read
 
+env:
+  PYTHON_VERSION: "3.12.3"
+  UV_VERSION: "0.11.29"
+  UV_SHA256: "04f8b82f5d47f0512dcd32c67a4a6f16a0ea27c81537c338fd0ad6b23cebe829"
+  GITHUB_REPOSITORY: ksteffe/after-certainty
+  SEMANTIC_MANIFEST_OFFLINE: "1"
+  SEMANTIC_MANIFEST_USE_LOCAL: "1"
+
 jobs:
   build-and-test:
-    name: Lint, test, build, e2e
+    name: Lint, test, build, e2e (local manifest)
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 35
 
     steps:
       - name: Checkout
         uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           persist-credentials: false
+
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python dependencies (frozen lock)
+        run: |
+          set -euo pipefail
+          bash scripts/ci_uv_sync.sh
 
       - name: Setup Node.js
         uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
@@ -53,8 +105,14 @@ jobs:
           cache: npm
           cache-dependency-path: package-lock.json
 
-      - name: Install dependencies
+      - name: Install npm dependencies
         run: npm ci
+
+      - name: Generate + install local semantic manifest
+        run: |
+          set -euo pipefail
+          make generate-semantic-manifest
+          make install-local-manifest-for-site
 
       - name: Audit dependencies
         run: npm audit --audit-level=high
@@ -64,10 +122,8 @@ jobs:
 
       - name: Test
         run: npm run site:test
-        env:
-          SEMANTIC_MANIFEST_OFFLINE: "1"
 
-      - name: Validate fallback manifest
+      - name: Validate offline/local manifest
         run: npm run site:validate:fallback
 
       - name: Validate public corpus integrity
@@ -75,8 +131,6 @@ jobs:
 
       - name: Build
         run: npm run site:build
-        env:
-          SEMANTIC_MANIFEST_OFFLINE: "1"
 
       - name: Install Playwright browsers
         run: npm exec -w after-certainty-site -- playwright install --with-deps chromium
@@ -85,5 +139,4 @@ jobs:
         run: npm run site:test:e2e
         env:
           CI: true
-          SEMANTIC_MANIFEST_OFFLINE: "1"
           NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3000

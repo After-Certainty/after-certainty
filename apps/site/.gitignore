@@ -50,3 +50,7 @@ next-env.d.ts
 /data/build-manifest-lock.json
 /data/semantic-manifest.json.bak
 /data/.semantic-manifest.json.tmp
+
+# Phase 4 preview: same-checkout manifest (do not commit)
+/data/local-semantic-manifest.json
+/data/local-intended-manifest-release.json

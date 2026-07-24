@@ -1,6 +1,5 @@
 import { cache } from "react";
 import { revalidateTag } from "next/cache";
-import fallbackSemantic from "@/data/semantic-manifest.json";
 import { outboundFetchSignal } from "@/lib/security/fetch";
 import { isSemanticManifestOffline, resolveSemanticManifestUrl } from "@/lib/site-config";
 import type { Book, SemanticGraph } from "@/types/semanticGraph";
@@ -15,6 +14,7 @@ import {
   buildManifestLockFromLoadResult,
   writeManifestBuildLock,
 } from "@/lib/graph/build-manifest-lock";
+import { loadOfflineManifestJson } from "@/lib/graph/offline-manifest";
 
 export { validateSemanticGraph, type ValidateSemanticGraphResult } from "@/lib/graph/validate";
 export {
@@ -283,29 +283,43 @@ type BundledLoad =
   | { ok: false; graph: SemanticGraph; category: ManifestFailureCategory; message: string };
 
 function loadBundledFallbackGraph(): BundledLoad {
-  const validated = validateSemanticGraph(fallbackSemantic as unknown);
+  let raw: unknown;
+  try {
+    raw = loadOfflineManifestJson();
+  } catch (err) {
+    const message = err instanceof Error ? err.message : "Failed to load offline manifest.";
+    logSemanticGraphError(message, err);
+    return {
+      ok: false,
+      graph: EMPTY_GRAPH,
+      category: "invalid_fallback",
+      message,
+    };
+  }
+
+  const validated = validateSemanticGraph(raw);
   if (!validated.success) {
     logSemanticGraphError(
-      "Bundled semantic-manifest.json failed validation; using hard empty graph.",
+      "Offline semantic manifest failed validation; using hard empty graph.",
       validated.error,
     );
     return {
       ok: false,
       graph: EMPTY_GRAPH,
       category: "invalid_fallback",
-      message: "Bundled semantic-manifest.json failed validation.",
+      message: "Offline semantic manifest failed validation.",
     };
   }
 
   if (!isCompatibleSchemaVersion(validated.data.schemaVersion)) {
     logSemanticGraphError(
-      `Bundled semantic-manifest.json has incompatible schemaVersion ${validated.data.schemaVersion}.`,
+      `Offline semantic manifest has incompatible schemaVersion ${validated.data.schemaVersion}.`,
     );
     return {
       ok: false,
       graph: EMPTY_GRAPH,
       category: "incompatible_fallback",
-      message: `Bundled schemaVersion ${validated.data.schemaVersion} is incompatible.`,
+      message: `Offline schemaVersion ${validated.data.schemaVersion} is incompatible.`,
     };
   }
 
@@ -368,7 +382,9 @@ export async function fetchSemanticGraphLoadResultUncached(): Promise<SemanticGr
   if (isSemanticManifestOffline()) {
     const result = fallbackResult(
       "offline",
-      "SEMANTIC_MANIFEST_OFFLINE=1; using bundled fallback.",
+      process.env.SEMANTIC_MANIFEST_USE_LOCAL?.trim() === "1"
+        ? "SEMANTIC_MANIFEST_OFFLINE=1 + SEMANTIC_MANIFEST_USE_LOCAL=1; using local checkout manifest."
+        : "SEMANTIC_MANIFEST_OFFLINE=1; using bundled fallback.",
     );
     logManifestLoadOnce(result);
     return result;

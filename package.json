@@ -21,6 +21,8 @@
     "site:validate:fallback": "npm run validate:fallback -w after-certainty-site",
     "site:validate:public-corpus": "npm run validate:public-corpus -w after-certainty-site",
     "site:validate:release-identity": "npm run validate:release-identity -w after-certainty-site",
+    "site:install-local-manifest": "npm run install-for-site -w @after-certainty/corpus-tasks",
+    "site:build:preview": "npm run corpus:build-manifest && npm run site:install-local-manifest && SEMANTIC_MANIFEST_USE_LOCAL=1 SEMANTIC_MANIFEST_OFFLINE=1 npm run site:build",
     "corpus:lint": "make lint",
     "corpus:test": "make test",
     "corpus:check": "make check",

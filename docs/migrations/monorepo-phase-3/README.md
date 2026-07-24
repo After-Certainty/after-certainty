@@ -1,6 +1,6 @@
 # Monorepo Phase 3 — Local manifest generation + Stage B parity
 
-**Status:** This PR  
+**Status:** Complete (merged). Phase 4: [`../monorepo-phase-4/`](../monorepo-phase-4/).  
 **Plan:** [`docs/roadmaps/monorepo-migration-plan.md`](../../roadmaps/monorepo-migration-plan.md) §24 Phase 3  
 **Predecessor:** [`../monorepo-phase-2/`](../monorepo-phase-2/)
 
@@ -57,7 +57,7 @@ npx turbo run corpus:parity     # build-manifest then parity (cacheable outputs)
 - Production Vercel / remote runtime fetch
 - Site offline fallback sync skill
 - Book export / publishing workflow deps
-- Preview local-manifest consumption (Phase 4)
+- Preview local-manifest consumption (now Phase 4)
 
 ## Verify
 
