@@ -1,0 +1,10 @@
+{
+  "name": "@after-certainty/corpus-tasks",
+  "private": true,
+  "description": "Thin npm/Turbo wrappers around Make corpus tasks (Python stays authoritative).",
+  "scripts": {
+    "build-manifest": "make -C ../.. generate-semantic-manifest",
+    "validate-manifest": "make -C ../.. validate-semantic-manifest",
+    "parity": "make -C ../.. compare-manifest-parity"
+  }
+}

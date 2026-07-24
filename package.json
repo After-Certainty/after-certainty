@@ -3,7 +3,8 @@
   "private": true,
   "packageManager": "npm@10.9.7",
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "packages/*"
   ],
   "scripts": {
     "dev": "npm run dev -w after-certainty-site",
@@ -23,7 +24,10 @@
     "corpus:lint": "make lint",
     "corpus:test": "make test",
     "corpus:check": "make check",
-    "corpus:manifest": "make generate-semantic-manifest"
+    "corpus:manifest": "npm run build-manifest -w @after-certainty/corpus-tasks",
+    "corpus:build-manifest": "npm run build-manifest -w @after-certainty/corpus-tasks",
+    "corpus:validate-manifest": "npm run validate-manifest -w @after-certainty/corpus-tasks",
+    "corpus:parity": "turbo run parity --filter=@after-certainty/corpus-tasks"
   },
   "devDependencies": {
     "turbo": "^2.5.4"

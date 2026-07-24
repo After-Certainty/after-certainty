@@ -1,6 +1,7 @@
 # Python tooling for book specs, validation, and front-matter generation.
 # Authoritative locked versions live in uv.lock (see pyproject.toml).
 # Install: `uv sync --frozen` (CI) or `uv sync` / `pip install -r requirements.txt` (dev).
+# Lightweight manifest-only: `uv sync --frozen --only-group semantic` (PyYAML + jsonschema).
 jinja2>=3.1
 jsonschema>=4
 PyYAML>=6

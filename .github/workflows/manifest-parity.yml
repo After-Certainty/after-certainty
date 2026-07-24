@@ -1,0 +1,102 @@
+# Stage B: generate semantic-manifest from this checkout and compare to the
+# public GitHub release asset. Production site still consumes the remote
+# artifact; this job fails on schema mismatch or public count regressions.
+
+name: Manifest parity
+
+on:
+  pull_request:
+    paths:
+      - "books/**"
+      - "semantic/**"
+      - "schema/**"
+      - "upcoming/**"
+      - "tools/generate_semantic_manifest.py"
+      - "tools/discovery_manifest.py"
+      - "tools/manifest_*.py"
+      - "tools/book_specs.py"
+      - "tools/manuscript_structure.py"
+      - "tools/pattern_yaml.py"
+      - "tools/validate_book_specs.py"
+      - "tools/validate_semantic_manifest.py"
+      - "tools/verify_semantic_yaml.py"
+      - "tools/compare_manifest_parity.py"
+      - "Makefile"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".github/workflows/manifest-parity.yml"
+  push:
+    branches: [main]
+    paths:
+      - "books/**"
+      - "semantic/**"
+      - "schema/**"
+      - "upcoming/**"
+      - "tools/generate_semantic_manifest.py"
+      - "tools/discovery_manifest.py"
+      - "tools/manifest_*.py"
+      - "tools/book_specs.py"
+      - "tools/manuscript_structure.py"
+      - "tools/pattern_yaml.py"
+      - "tools/validate_book_specs.py"
+      - "tools/validate_semantic_manifest.py"
+      - "tools/verify_semantic_yaml.py"
+      - "tools/compare_manifest_parity.py"
+      - "Makefile"
+      - "pyproject.toml"
+      - "uv.lock"
+      - ".github/workflows/manifest-parity.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: manifest-parity-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  PYTHON_VERSION: "3.12.3"
+  UV_VERSION: "0.11.29"
+  UV_SHA256: "04f8b82f5d47f0512dcd32c67a4a6f16a0ea27c81537c338fd0ad6b23cebe829"
+  GITHUB_REPOSITORY: ksteffe/after-certainty
+
+jobs:
+  parity:
+    name: Local vs release manifest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies (frozen lock)
+        run: |
+          set -euo pipefail
+          bash scripts/ci_uv_sync.sh
+
+      - name: Generate local semantic manifest
+        run: |
+          set -euo pipefail
+          make generate-semantic-manifest
+
+      - name: Compare to public release
+        run: |
+          set -euo pipefail
+          make compare-manifest-parity
+
+      - name: Upload parity report
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: manifest-parity
+          path: |
+            reports/manifest-parity.json
+            reports/manifest-parity.md
+            build/semantic-manifest.json
+          if-no-files-found: warn

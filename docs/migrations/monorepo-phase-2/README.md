@@ -1,6 +1,6 @@
 # Monorepo Phase 2 — Consolidate CI (no data-flow change)
 
-**Status:** This PR  
+**Status:** Complete (merged). Phase 3: [`../monorepo-phase-3/`](../monorepo-phase-3/).  
 **Plan:** [`docs/roadmaps/monorepo-migration-plan.md`](../../roadmaps/monorepo-migration-plan.md) §24 Phase 2  
 **Predecessor:** [`../monorepo-phase-1/`](../monorepo-phase-1/)
 
