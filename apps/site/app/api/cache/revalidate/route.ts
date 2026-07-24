@@ -65,7 +65,7 @@ export async function POST(request: Request) {
   const targets = parseCacheRevalidateTargets(rawTargets);
   if (!targets) {
     return NextResponse.json(
-      { error: 'Expected optional JSON body { "targets": ["podcast", "semantic"] }' },
+      { error: 'Expected optional JSON body { "targets": ["podcast"] }' },
       { status: 400 },
     );
   }

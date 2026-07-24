@@ -28,9 +28,9 @@ Both use the same **path stop** model under the hood.
 
 ## Creating a new trail
 
-1. Author `semantic/trails/<slug>.yml` in **ksteffe/after-certainty** (see upstream authoring guide).
-2. Ship a release so `semantic-manifest.json` includes the trail.
-3. Refresh this repo’s bundled manifest (refresh-manifest skill).
+1. Author `semantic/trails/<slug>.yml` in this monorepo (see upstream authoring guide).
+2. Run `npm run corpus:build-manifest` and `npm run site:install-local-manifest`.
+3. Start the site with `SEMANTIC_MANIFEST_USE_LOCAL=1`.
 4. Optionally add `trailBridges` terms in [`data/path-search-bridges.json`](../data/path-search-bridges.json).
 5. Run `npm test -- lib/trails/validate.test.ts` and preview `/trails/your-slug`.
 

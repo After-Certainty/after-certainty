@@ -2,7 +2,7 @@
 
 This repository is the **corpus and publishing** home for After Certainty. It also hosts the public website under [`apps/site/`](apps/site/) (imported from [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site); see the [monorepo migration plan](docs/roadmaps/monorepo-migration-plan.md)).
 
-**Corpus layout is unchanged:** books and semantic YAML stay at the repository root. The site is a workspace app; production still deploys from the standalone site repository until a later migration phase.
+**Corpus layout is unchanged:** books and semantic YAML stay at the repository root. The site is a workspace app that builds from a same-checkout semantic manifest; the public release manifest remains available for external consumers.
 
 ## Toolchains
 
@@ -16,13 +16,13 @@ From the repo root after both installs:
 ```bash
 uv sync --frozen          # corpus
 npm ci                    # site workspace
-npm run site:dev          # Next.js (still uses remote/fallback semantic manifest in Phase 1)
+npm run site:dev          # Next.js site workspace
 make generate-semantic-manifest   # local corpus artifact under build/
 ```
 
-Phase notes: [`docs/migrations/monorepo-phase-0/`](docs/migrations/monorepo-phase-0/) · [`docs/migrations/monorepo-phase-1/`](docs/migrations/monorepo-phase-1/) · [`docs/migrations/monorepo-phase-2/`](docs/migrations/monorepo-phase-2/) · [`docs/migrations/monorepo-phase-3/`](docs/migrations/monorepo-phase-3/) · [`docs/migrations/monorepo-phase-4/`](docs/migrations/monorepo-phase-4/) · [`docs/migrations/monorepo-phase-5/`](docs/migrations/monorepo-phase-5/).
+Phase notes: [`docs/migrations/monorepo-phase-0/`](docs/migrations/monorepo-phase-0/) · [`docs/migrations/monorepo-phase-1/`](docs/migrations/monorepo-phase-1/) · [`docs/migrations/monorepo-phase-2/`](docs/migrations/monorepo-phase-2/) · [`docs/migrations/monorepo-phase-3/`](docs/migrations/monorepo-phase-3/) · [`docs/migrations/monorepo-phase-4/`](docs/migrations/monorepo-phase-4/) · [`docs/migrations/monorepo-phase-5/`](docs/migrations/monorepo-phase-5/) · [`docs/migrations/monorepo-phase-6/`](docs/migrations/monorepo-phase-6/).
 
-Site CI runs from [`.github/workflows/site-ci.yml`](.github/workflows/site-ci.yml) (path-filtered). Local manifest: `npm run corpus:build-manifest` → `npm run site:install-local-manifest` → `SEMANTIC_MANIFEST_USE_LOCAL=1` (+ offline). Production-shaped build: `npm run site:build:production` / [`apps/site/vercel.json`](apps/site/vercel.json). Stage B parity: `npm run corpus:parity`. Phase 5 cutover reconnects Vercel to this monorepo (see phase-5 notes); public `semantic-manifest.json` releases continue.
+Site CI runs from [`.github/workflows/site-ci.yml`](.github/workflows/site-ci.yml) (path-filtered). Local manifest: `npm run corpus:build-manifest` -> `npm run site:install-local-manifest` -> `SEMANTIC_MANIFEST_USE_LOCAL=1` (+ offline). Production-shaped build: `npm run site:build:production` / [`apps/site/vercel.json`](apps/site/vercel.json). The site no longer fetches the GitHub release manifest at runtime; public `semantic-manifest.json` releases continue.
 
 ## Books and publishing
 

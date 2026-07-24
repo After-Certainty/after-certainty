@@ -60,13 +60,13 @@ if [[ "${REVALIDATE_DRY_RUN:-}" == "1" ]]; then
 fi
 
 curl_bin="${REVALIDATE_CURL_BIN:-curl}"
-# Site allowlist (after-certainty-site): podcast + semantic only — unknown targets (e.g. books) return HTTP 400.
+# Site allowlist: podcast only — unknown targets (e.g. books/semantic) return HTTP 400.
 # --max-redirs 0: do not follow redirects while carrying Authorization.
 code="$("$curl_bin" -sS --max-redirs 0 -o /tmp/site-revalidate.json -w "%{http_code}" \
   -X POST "$url" \
   -H "Authorization: Bearer ${CACHE_REVALIDATE_SECRET}" \
   -H "Content-Type: application/json" \
-  -d '{"targets":["podcast","semantic"]}')" || true
+  -d '{"targets":["podcast"]}')" || true
 
 # Response body may be logged; never echo the secret or the Authorization header.
 if [[ -f /tmp/site-revalidate.json ]]; then
@@ -75,7 +75,7 @@ if [[ -f /tmp/site-revalidate.json ]]; then
 fi
 
 if [[ "$code" != "200" ]]; then
-  echo "Site revalidate failed (HTTP ${code}). Deploy after-certainty-site with /api/cache/revalidate and matching CACHE_REVALIDATE_SECRET on Vercel." >&2
+  echo "Site revalidate failed (HTTP ${code}). Deploy apps/site with /api/cache/revalidate and matching CACHE_REVALIDATE_SECRET on Vercel." >&2
   exit 1
 fi
-echo "Revalidated www.after-certainty.com: podcast RSS, semantic graph"
+echo "Revalidated www.after-certainty.com: podcast RSS"

@@ -50,8 +50,7 @@
       "outputs": [
         "$TURBO_ROOT$/reports/manifest-parity.json",
         "$TURBO_ROOT$/reports/manifest-parity.md"
-      ],
-      "env": ["SEMANTIC_MANIFEST_URL"]
+      ]
     },
     "validate-manifest": {
       "dependsOn": ["build-manifest"],

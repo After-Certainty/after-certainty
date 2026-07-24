@@ -16,7 +16,7 @@ Severity rule: **High** only when an attacker can realistically cross a trust bo
 ```mermaid
 flowchart LR
   Browser -->|untrusted| VercelApp[Vercel Next app]
-  VercelApp -->|ISR fetch| GitHubReleases[GitHub releases manifests]
+  VercelApp -->|local file load| LocalManifest[Installed semantic manifest]
   VercelApp -->|ISR fetch| PodcastRSS[Podcast RSS]
   GHActions[GitHub Actions content repo] -->|Bearer CACHE_REVALIDATE_SECRET| Revalidate["POST /api/cache/revalidate"]
   Browser -->|public scripts| GA[GA4 and Vercel Analytics]
@@ -25,7 +25,7 @@ flowchart LR
 There is no end-user authentication and no newsletter/Beehiiv integration. Sensitive trust boundaries are:
 
 1. Shared `CACHE_REVALIDATE_SECRET` (GitHub Actions → site)
-2. Integrity of GitHub release manifests and podcast RSS rendered as links and media
+2. Integrity of installed semantic data and podcast RSS rendered as links and media
 
 ---
 
@@ -56,8 +56,7 @@ No Pages Router API routes. No `"use server"` Server Actions.
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID`                                                         | Yes                                 | GA4 (default `G-H7FSEF4WLW`)   |
 | `CACHE_REVALIDATE_SECRET`                                                               | No                                  | Revalidate Bearer              |
 | `PODCAST_RSS_URL`                                                                       | Value may appear in HTML / redirect | RSS fetch + `/feed.xml` target |
-| `SEMANTIC_MANIFEST_URL` / `BOOKS_MANIFEST_URL`                                          | No                                  | ISR fetch URLs                 |
-| `*_OFFLINE` / `*_REVALIDATE_SECONDS`                                                    | No                                  | Offline / ISR toggles          |
+| `SEMANTIC_MANIFEST_USE_LOCAL` / `SEMANTIC_MANIFEST_OFFLINE`                             | No                                  | Local/offline manifest loading |
 | `VERCEL_URL`                                                                            | Server fallback for origin          | Platform                       |
 
 `NEWSLETTER_API_KEY` / `NEWSLETTER_PUBLICATION_ID` have been **removed** from `.env.example`.
@@ -66,8 +65,6 @@ No Pages Router API routes. No `"use server"` Server Actions.
 
 | Destination       | File                    | Timeout | Failure behavior |
 | ----------------- | ----------------------- | ------- | ---------------- |
-| Semantic manifest | `lib/graph/manifest.ts` | 10s     | Bundled fallback |
-| Books manifest    | `lib/books/manifest.ts` | 10s     | Bundled fallback |
 | Podcast RSS       | `lib/podcast/rss.ts`    | 10s     | Bundled fallback |
 
 ### GitHub Actions

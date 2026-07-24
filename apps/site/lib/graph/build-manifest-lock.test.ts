@@ -14,7 +14,6 @@ describe("build manifest lock", () => {
         sourceCommit: "aaa",
         generatedAt: "2026-01-01T00:00:00.000Z",
       },
-      { kind: "remote", url: "https://example.com/a" },
     );
     const b = buildManifestCacheIdentity(
       {
@@ -22,9 +21,9 @@ describe("build manifest lock", () => {
         sourceCommit: "bbb",
         generatedAt: "2026-01-01T00:00:00.000Z",
       },
-      { kind: "remote", url: "https://example.com/a" },
     );
     expect(a).not.toBe(b);
+    expect(a).toContain("local:checkout");
   });
 
   it("records release identity from a load result", () => {

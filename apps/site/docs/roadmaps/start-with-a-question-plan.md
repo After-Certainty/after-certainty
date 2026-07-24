@@ -9,7 +9,7 @@
 
 ## 1. Executive summary
 
-After Certainty is a **Next.js 16 App Router** site (`package.json`: Next 16.2.10, React 19) deployed on **Vercel**, with **no database or auth**. Content flows from ISR-fetched **`semantic-manifest.json`** and **`books-manifest.json`** (GitHub release assets from `ksteffe/after-certainty`) plus podcast RSS, with bundled fallbacks in [`data/`](data/).
+After Certainty is a **Next.js 16 App Router** site (`package.json`: Next 16.2.10, React 19) deployed on **Vercel**, with **no database or auth**. Content flows from a same-checkout installed **`semantic-manifest.json`** plus podcast RSS, with offline/test fixtures in [`data/`](data/).
 
 **Facts from repository:**
 

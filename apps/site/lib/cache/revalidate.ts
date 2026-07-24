@@ -1,9 +1,8 @@
 import { timingSafeEqual } from "node:crypto";
 
 import { refreshPodcastRss } from "@/lib/podcast/rss";
-import { refreshSemanticGraph } from "@/lib/graph/manifest";
 
-export const CACHE_REVALIDATE_TARGETS = ["podcast", "semantic"] as const;
+export const CACHE_REVALIDATE_TARGETS = ["podcast"] as const;
 
 export type CacheRevalidateTarget = (typeof CACHE_REVALIDATE_TARGETS)[number];
 
@@ -57,8 +56,6 @@ export function revalidateCacheTargets(targets: CacheRevalidateTarget[]): void {
   for (const target of targets) {
     if (target === "podcast") {
       refreshPodcastRss();
-    } else if (target === "semantic") {
-      refreshSemanticGraph();
     }
   }
 }

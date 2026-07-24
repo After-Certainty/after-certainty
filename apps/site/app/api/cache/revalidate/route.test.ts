@@ -51,13 +51,13 @@ describe("POST /api/cache/revalidate", () => {
     expect(res.status).toBe(401);
   });
 
-  it("revalidates all default targets with a valid bearer token", async () => {
+  it("revalidates the default podcast target with a valid bearer token", async () => {
     const res = await POST(postRequest({ authorization: "Bearer route-test-secret" }));
     expect(res.status).toBe(200);
-    expect(revalidateCacheTargets).toHaveBeenCalledWith(["podcast", "semantic"]);
+    expect(revalidateCacheTargets).toHaveBeenCalledWith(["podcast"]);
     await expect(res.json()).resolves.toEqual({
       ok: true,
-      revalidated: ["podcast", "semantic"],
+      revalidated: ["podcast"],
     });
   });
 

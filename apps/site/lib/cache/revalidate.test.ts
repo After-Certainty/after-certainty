@@ -11,12 +11,7 @@ vi.mock("@/lib/podcast/rss", () => ({
   refreshPodcastRss: vi.fn(),
 }));
 
-vi.mock("@/lib/graph/manifest", () => ({
-  refreshSemanticGraph: vi.fn(),
-}));
-
 import { refreshPodcastRss } from "@/lib/podcast/rss";
-import { refreshSemanticGraph } from "@/lib/graph/manifest";
 
 describe("cache revalidate helpers", () => {
   let prevSecret: string | undefined;
@@ -24,19 +19,19 @@ describe("cache revalidate helpers", () => {
   beforeEach(() => {
     prevSecret = process.env.CACHE_REVALIDATE_SECRET;
     vi.mocked(refreshPodcastRss).mockClear();
-    vi.mocked(refreshSemanticGraph).mockClear();
   });
 
   afterEach(() => {
     process.env.CACHE_REVALIDATE_SECRET = prevSecret;
   });
 
-  it("defaults targets to podcast and semantic", () => {
-    expect(parseCacheRevalidateTargets(undefined)).toEqual(["podcast", "semantic"]);
+  it("defaults targets to podcast", () => {
+    expect(parseCacheRevalidateTargets(undefined)).toEqual(["podcast"]);
   });
 
   it("rejects invalid target names", () => {
     expect(parseCacheRevalidateTargets(["podcast", "unknown"])).toBeNull();
+    expect(parseCacheRevalidateTargets(["semantic"])).toBeNull();
     expect(parseCacheRevalidateTargets(["books"])).toBeNull();
   });
 
@@ -70,9 +65,5 @@ describe("cache revalidate helpers", () => {
   it("calls refresh helpers per target", () => {
     revalidateCacheTargets(["podcast"]);
     expect(refreshPodcastRss).toHaveBeenCalledOnce();
-    expect(refreshSemanticGraph).not.toHaveBeenCalled();
-
-    revalidateCacheTargets(["semantic"]);
-    expect(refreshSemanticGraph).toHaveBeenCalledOnce();
   });
 });
