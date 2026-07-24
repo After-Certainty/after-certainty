@@ -1,7 +1,7 @@
 # Monorepo migration plan: after-certainty + after-certainty-site
 
-**Status:** Phases 0–7 complete. Phase 8 in progress ([`docs/migrations/monorepo-phase-8/`](../migrations/monorepo-phase-8/)).  
-**Date:** 2026-07-23  
+**Status:** Phases 0–8 complete (monorepo migration done).  
+**Date:** 2026-07-24  
 **Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
