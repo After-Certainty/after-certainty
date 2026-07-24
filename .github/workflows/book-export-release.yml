@@ -4,8 +4,8 @@
 # is under the parent but not inside one edition path.
 #
 # Security model:
-# - Preparation jobs (read-only) run all repository Python and produce a scanned
-#   release-staging artifact with SHA256SUMS.
+# - Preparation jobs (read-only) run repository Python plus Node (sharp) for web
+#   cover derivatives, then produce a scanned release-staging artifact with SHA256SUMS.
 # - Publication jobs (contents: write) only download that artifact and run short
 #   audited shell scripts — no general-purpose tools/*.py execution.
 # - Cache revalidation uses a hardcoded allowlisted HTTPS URL only.
@@ -238,6 +238,18 @@ jobs:
           set -euo pipefail
           bash scripts/ci_uv_sync.sh
 
+      # Cover pipeline (PR #350): prepare_release_staging.sh runs
+      # generate-book-cover-assets.mjs, which requires sharp via npm workspaces.
+      - name: Setup Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install npm dependencies
+        run: npm ci
+
       - name: Prepare release staging
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
@@ -333,6 +345,18 @@ jobs:
         run: |
           set -euo pipefail
           bash scripts/ci_uv_sync.sh
+
+      # Same as prepare-release: semantic-only staging still regenerates covers +
+      # packs semantic-cover-assets.tar.gz beside semantic-manifest.json.
+      - name: Setup Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install npm dependencies
+        run: npm ci
 
       - name: Prepare semantic-only staging
         env:
