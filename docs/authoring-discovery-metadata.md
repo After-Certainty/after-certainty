@@ -2,8 +2,8 @@
 
 Ownership boundary:
 
-- **after-certainty** owns what the corpus is, means, and how intellectual objects relate.
-- **after-certainty-site** owns rendering, layout, URL state, keyboard shortcuts, display limits, analytics, and progressive disclosure.
+- **after-certainty** (corpus at repo root) owns what the corpus is, means, and how intellectual objects relate.
+- **`apps/site/`** (same monorepo) owns rendering, layout, URL state, keyboard shortcuts, display limits, analytics, and progressive disclosure.
 
 Do not put presentation settings (badge colors, `maxPreview`, CTA preference, filter defaults) into content YAML.
 

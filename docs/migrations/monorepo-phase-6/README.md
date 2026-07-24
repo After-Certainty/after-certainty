@@ -1,6 +1,6 @@
 # Monorepo Phase 6 — Remove semantic manifest sync machinery (Stage E)
 
-**Status:** This PR  
+**Status:** Complete (merged). Phase 7: [`../monorepo-phase-7/`](../monorepo-phase-7/).  
 **Plan:** [`docs/roadmaps/monorepo-migration-plan.md`](../../roadmaps/monorepo-migration-plan.md) Phase 6  
 **Predecessor:** [`../monorepo-phase-5/`](../monorepo-phase-5/)
 
@@ -34,12 +34,11 @@ artifact remains available for external consumers.
 
 ## Deferred
 
-Do not delete `apps/site/data/semantic-manifest.json` in this PR. Too many static
-imports still rely on that large JSON fixture. Phase 7 or a later cleanup should
-move those consumers to installed local data or test fixtures before removing it.
+Do not delete `apps/site/data/semantic-manifest.json` in Phase 6. Too many static
+imports still rely on that large JSON fixture. A later cleanup should move those
+consumers to installed local data or test fixtures before removing it.
 
 ## Next
 
-Phase 7 can archive the old `after-certainty-site` repository after the
-monorepo deployment has had a stability window and remaining references to the
-standalone site workflow are gone.
+**Phase 7:** Archive `after-certainty-site` with a README pointer (see
+[`../monorepo-phase-7/`](../monorepo-phase-7/)).

@@ -108,11 +108,11 @@ Use `get_list(entity, "relatedConcepts", "concepts")` for schema-tolerant field 
 
 No waiver mechanism is implemented yet. A future optional `auditWaivers` YAML (per-entity check suppressions) can be added without breaking the schema. Until then, document known false positives in PR notes.
 
-## Site repository (`after-certainty-site`)
+## Site (`apps/site/` in the monorepo)
 
-The site consumes release artifacts (`semantic-manifest.json`, `books-manifest.json`). Options:
+The site consumes same-checkout / release artifacts (`semantic-manifest.json`, `books-manifest.json`). Options:
 
 1. Publish `semantic-graph-audit.json` from this repo's CI and link to it from the site, or
-2. Vendor shared audit helpers and run against downloaded manifests in the site repo.
+2. Vendor shared audit helpers and run against installed local manifests under `apps/site/`.
 
-Canonical fixes belong in this content repo under `semantic/`.
+Canonical fixes belong in this content repo under `semantic/`. The former standalone `after-certainty-site` repository is archived.

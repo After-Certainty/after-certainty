@@ -1,7 +1,7 @@
 # Global Search — Technical and Product Plan
 
 **Status:** Planning only (not implemented)  
-**Repository:** `after-certainty-site`  
+**Repository:** `apps/site/` (`ksteffe/after-certainty`)  
 **Date:** 2026-07-19  
 **Location:** `docs/roadmaps/global-search-plan.md` (chosen because the repo’s only existing doc under `docs/` is `security-assessment.md`; there is no prior roadmaps folder. This path matches the request and keeps architectural plans discoverable alongside security assessment notes.)
 
