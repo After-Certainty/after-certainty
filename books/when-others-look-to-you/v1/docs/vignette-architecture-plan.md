@@ -1013,7 +1013,9 @@ The eventual vignette pass is complete when:
 | VIGNETTE-005 | **Complete** — Chapter 9 reporting-packet / public-update compression |
 | VIGNETTE-007 | **Complete** — Chapter 11 dashboard return; Smooth Board retained |
 | VIGNETTE-004 | **Skipped** — Chapter 7 decision gate: library dinner already inhabitable; no cute return needed; success-narrows-correction still scene-anchored |
-| Next task | **VIGNETTE-009** whole-book continuity |
+| VIGNETTE-009 | **Complete** — see [`vignette-009-continuity.md`](vignette-009-continuity.md) |
+| VIGNETTE-010 | **No-op** — no inaccurate semantic summaries found for changed scenes |
+| Next task | Human review of the completed architecture pass / PR |
 | Conditional | VIGNETTE-004 (Chapter 7) |
 | Deferred | VIGNETTE-008 (Intro / Chapter 1) |
 | Remaining risks | Voice drift; over-patterning; cute returns; Ch10 teaching clarity; Ch6 range loss if over-compressed |
