@@ -186,7 +186,24 @@ checks:
     applies_to: print-cover
     severity: blocking
     confidence: confirmed-current
-    note: template_page_count / template-meta.yml must match measured interior page count.
+    note: >
+      book.yml print.cover.template_page_count and assets/ingramspark/template-meta.yml
+      page_count must match the measured interior page count (PDF pages as submitted).
+
+  - id: print-cover-trim-match
+    applies_to: print-cover
+    severity: blocking
+    confidence: confirmed-current
+    note: >
+      Observed template-meta.yml trim must match authoritative print.trim; wrap media box
+      must match template-meta media_box. Never scale a stale wrap.
+
+  - id: print-cover-barcode-mode
+    applies_to: print-cover
+    severity: blocking
+    confidence: confirmed-current
+    note: >
+      barcode_mode ingram-generated vs supplied must agree with template-meta.barcode_supplied.
 
   - id: package-edition-isbn-unique
     applies_to: package

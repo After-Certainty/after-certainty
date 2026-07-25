@@ -55,6 +55,11 @@ def print_interior_pdf_path(repo: Path, spec: dict[str, Any]) -> Path:
     return print_output_dir(repo, spec) / f"{print_isbn(spec)}_txt.pdf"
 
 
+def print_cover_pdf_path(repo: Path, spec: dict[str, Any]) -> Path:
+    """IngramSpark cover naming: ``{isbn}_cvr.pdf``."""
+    return print_output_dir(repo, spec) / f"{print_isbn(spec)}_cvr.pdf"
+
+
 def print_page_count_path(repo: Path, spec: dict[str, Any]) -> Path:
     return print_output_dir(repo, spec) / "page-count.json"
 
