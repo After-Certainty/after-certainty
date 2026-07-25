@@ -441,8 +441,6 @@ It was there, faint at the corner: three water lines, one uneven slash.
 
 She knew the hand because she knew the wound.
 
-*The road will lie if only movers speak.*
-
 That was Arin. Not the boy at the table. Not the brother reduced to the one line she had kept as accusation for years. This was the man the Tarn had made: precise, stubborn, suspicious of speed, reverent toward what staying knew — and now sending that suspicion outward in a form other people could use.
 
 While she moved, Arin had stayed.
@@ -507,23 +505,15 @@ Outside, rain began to tap the ferry house roof, light at first, then harder. Th
 
 Rennet moved the eggs. Tev rescued two pages from a drip. Lena gathered the answered pile and weighted it again on the drier side of the table.
 
-She looked at the piles again and felt, without needing to lecture it, what the scraps were asking for. Movement that did not flatten. Staying that did not go unheard.
-
-She felt the thought and did not name it. Veya had warned her: naming could kill a thing as surely as silence.
+She looked at the piles again. Movement that did not flatten. Staying that did not go unheard. She felt the thought and did not name it.
 
 The ferry remained out until morning. By then the rain had washed the road into ruts and the river had risen by half a hand — "not ideal but lacking poetry," said the ferryman. He and three others wrestled the repaired runner back onto the hull while everyone else carried goods across in smaller loads.
 
 Lena used the delay to copy Arin's note — six times, not perfectly. *A copy is not a replacement. It is a promise to answer.* So she answered.
 
-Under Arin's line — *The road will lie if only movers speak* — she added:
+Under his closing lines she wrote only:
 
-*The room will go unheard if only stayers speak.*
-
-Then:
-
-*Send what changed. Send where you are. Send what you think it is, and what else it might be. Ask who sees the same. Ask who sees different. Answer back.*
-
-Too long. Less likely to travel. More likely to survive.
+*Received. Seeing similar cold, not same. Ask who sees different. Answer back.*
 
 She made six copies of that too.
 
@@ -593,7 +583,7 @@ Not many. Not the living map itself. Lio knew better than to send that whole fra
 
 *That is rare.*
 
-*Do not rush to him only as sister. I know that is a cruel sentence. Go as answer too.*
+*Do not rush to him only as sister. I know that is a cruel sentence. Answer the line too — carry what the place knows.*
 
 *If you find him, do not bring him out of what he sees. Bring what he sees into relation.*
 
@@ -620,12 +610,6 @@ It came out suddenly enough that the runner smiled.
 "The expensive kind, then."
 
 "Yes."
-
-She read Lio's lines again.
-
-*Do not rush to him only as sister. Go as answer too.*
-
-That one hurt.
 
 She folded the letter and put it with Arin's note.
 
@@ -655,7 +639,7 @@ That was the recognition.
 
 Not that her brother was alive. She still did not know that, not fully. A line was not a body. A seal was not a hand. She would not let hope perform certainty's old trick.
 
-The recognition was that the answer she had been walking toward had already begun where she had most needed to go — and that Arin was not waiting for her to invent it. He had been building the other half while she moved.
+The recognition was that Arin was not waiting for her to invent what came next. He had been building the other half while she moved.
 
 Lena looked back at the ferry house across the river, now blurred by rain. Behind her: Vellum, Veya, Cai, Lio, Sera, Merrow, Vesper. Ahead, through slow roads and broken crossings, the Tarn.
 
@@ -675,11 +659,7 @@ Yov called, "Road's not getting shorter while you brood."
 
 Lena tucked Lio's letter away and shouldered her pack.
 
-The pack was heavier than it had any right to be. Veya's copies. Jun's pages. Merrow's failure notes. Cai's Rallo query copy. Lio's extract. Arin's note. Rennet's replies. The moth child. The bridge tin copies. No freight. Contradictions, yes. But no longer only contradictions.
-
-Relations.
-
-That was closer.
+The pack was heavier than it had any right to be. Veya's copies. Jun's pages. Merrow's failure notes. Cai's Rallo query copy. Lio's extract. Arin's note. Rennet's replies. The moth child. The bridge tin copies.
 
 They started up the far road.
 
@@ -722,8 +702,6 @@ Lena went cold.
 
 There it was.
 
-Varik-as-transmitted.
-
 His words traveling better than he did. Opening a hold correctly at Khoury. Authorizing harm at Sarn.
 
 A useful phrase becoming a weapon in another room.
@@ -760,7 +738,7 @@ The note was brief.
 
 *The Tarn hand teaches exactness without central claim. That is the important thing. If it is your brother, do not make him a symbol. Symbols are where living work goes to be admired instead of answered.*
 
-*We are routing toward the old Osprey groundline. It may reach within two days of the Tarn if the lower locks still run. It will need a person who can be trusted on both sides of the road — the ones who stay and the ones who move.*
+*We are routing toward the old Osprey groundline. It may reach within two days of the Tarn if the lower locks still run. It will need people trusted on both sides of the road — who stay and who move.*
 
 *This is not a request that you become that person.*
 
@@ -870,7 +848,7 @@ New wire. Fresh resin. A replaced handle wrapped in cloth. A slate hung beside t
 
 At the bottom:
 
-*Road lies if only movers speak. Line lies if no one answers.*
+*Line lies if no one answers.*
 
 No signature.
 
@@ -1001,10 +979,9 @@ Dalla straightened.
 The code came slowly. Whoever sent it was either far, unpracticed, or forcing old equipment to behave beyond dignity. Dalla wrote as she listened.
 
 *Received.*
-*Stayers holding.*
-*Movers needed.*
+*Holding.*
+*Need people who can answer the line.*
 *Do not come alone.*
-*Bring people who can answer the line.*
 *A.*
 
 *A.*
@@ -1047,7 +1024,7 @@ All true.
 
 None first.
 
-*Do not rush to him only as sister,* Lio had written. *Go as answer too.*
+Lio: answer the line too.
 
 So she said, "Send: Received. Lena moving north. Not alone. Stay. Keep sending difference. We will bring the lines together."
 
@@ -1075,14 +1052,13 @@ Taut enough to follow.
 
 By morning, they had made twelve copies of the exchange. Not the personal line — Lena kept that back. The rest went out: to Lio, to Merrow, to Vellum, to Cai, to the bridge tins, to the west marsh.
 
-*Stayers holding. Movers needed. Do not come alone.*
+*Holding. Need people who can answer the line. Do not come alone.*
 
 On the back of each copy, in her own hand:
 
 *Do not make this one thing too soon.*
 *Answer with what your place knows.*
 *Carry what another place needs.*
-*Do not let any one voice own the line.*
 
 Dalla read that and nodded once.
 
@@ -1102,11 +1078,7 @@ At the ridge top she turned back once. The groundline house was almost invisible
 
 She adjusted her pack.
 
-It still held too much. It would hold more before this was done. But the weight had changed again. Not freight. Not only contradictions.
-
-A gathering.
-
-That was close enough for walking.
+It still held too much. It would hold more before this was done.
 
 At the next crossroads, Dalla asked, "Where?"
 
@@ -1138,7 +1110,7 @@ Arin was not waiting.
 
 He had been building the other half.
 
-Now the work was to bring the moving and staying worlds into contact — without letting either own the line.
+Now the work was to bring the moving and staying lines into contact.
 
 Whether they could cohere stayed beyond the next ridge.
 
