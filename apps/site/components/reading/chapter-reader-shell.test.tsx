@@ -47,10 +47,13 @@ describe("ChapterReaderShell", () => {
 
     expect(screen.getByRole("navigation", { name: "Table of contents" })).toBeInTheDocument();
     expect(
-      screen.getByRole("navigation", { name: "Previous and next chapter" }),
+      screen.getByRole("navigation", { name: "Previous and next chapter", exact: true }),
     ).toBeInTheDocument();
     expect(
-      screen.getByRole("navigation", { name: "Previous and next chapter at end of page" }),
+      screen.getByRole("navigation", {
+        name: "Previous and next chapter at end of page",
+        exact: true,
+      }),
     ).toBeInTheDocument();
     const nextLinks = screen.getAllByRole("link", {
       name: `Next chapter: ${navigation!.next!.title}`,

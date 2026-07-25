@@ -30,7 +30,13 @@ test.describe("reader accessibility baseline (READ-008)", () => {
 
     await expect(page.getByRole("navigation", { name: "Table of contents" })).toBeVisible();
     await expect(
-      page.getByRole("navigation", { name: "Previous and next chapter" }),
+      page.getByRole("navigation", { name: "Previous and next chapter", exact: true }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("navigation", {
+        name: "Previous and next chapter at end of page",
+        exact: true,
+      }),
     ).toBeVisible();
 
     const content = page.locator("#chapter-content");
