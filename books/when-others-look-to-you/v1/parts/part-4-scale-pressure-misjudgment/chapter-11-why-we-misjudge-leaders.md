@@ -40,15 +40,12 @@ In the weekly review, leadership praise follows the dashboard: speed, share, and
 :::
 
 Outcome bias means letting results answer for how decisions were made—and
-for how influence was organized.[^c11-outcome-bias] Look at the desk scene
-again. Desk A's numbers are not imaginary. They really posted faster and
-reached more people. The mistake is quieter: those outcomes get read as the
-whole judgment about whether the leadership was good.
-
-Results are noisy. They carry timing, luck, inherited capacity, and costs
-that never make the headline. A tidy-looking win can still come from risky
-choices. A slower-looking stretch can come from disciplined **correction**
-that prevented a larger failure.
+for how influence was organized.[^c11-outcome-bias] Desk A's numbers are not
+imaginary. They really posted faster and reached more people. The mistake is
+quieter: those outcomes get read as the whole judgment about whether the
+leadership was good. A slower-looking stretch can come from disciplined
+**correction** that prevented a larger failure—work the dashboard never had
+to score.
 
 ### **The Smooth Board**
 
@@ -227,6 +224,10 @@ That is why "better judgment" is not a self-correcting fix once the wrong
 signals have compounded. Repair takes deliberate effort because the structure has
 already been selecting for the wrong strengths long enough that seeing more
 clearly alone cannot unwind the pattern.
+
+The weekly dashboard still ranks speed, share, and volume. It still has no
+column for the stories that never shipped, or for the corrections that never
+had to run.
 
 ### **A Clearer Read**
 
