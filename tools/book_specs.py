@@ -112,6 +112,93 @@ def _validate_poetry_constraints(spec: dict[str, Any], spec_path: Path) -> None:
             )
 
 
+def spec_ingramspark_target(spec: dict[str, Any]) -> dict[str, Any]:
+    publishing = _as_dict(spec.get("publishing"))
+    targets = _as_dict(publishing.get("targets"))
+    target = targets.get("ingramspark")
+    return target if isinstance(target, dict) else {}
+
+
+def spec_ingramspark_enabled(spec: dict[str, Any]) -> bool:
+    """True only when publishing.targets.ingramspark.enabled is explicitly true."""
+    return spec_ingramspark_target(spec).get("enabled", False) is True
+
+
+def ingramspark_artifact_name(book_id: str) -> str:
+    """Derived package filename; not configurable in book.yml."""
+    stem = str(book_id).strip()
+    if not stem:
+        raise ValueError("book.id is required to derive IngramSpark artifact name")
+    return f"{stem}-ingramspark.zip"
+
+
+def _validate_ingramspark_constraints(spec: dict[str, Any], spec_path: Path) -> None:
+    """Semantic rules beyond JSON Schema (profile existence, ISBN uniqueness, assets)."""
+    target = spec_ingramspark_target(spec)
+    if not target:
+        return
+
+    enabled = target.get("enabled", False) is True
+    profile_id = str(target.get("specification_profile", "")).strip()
+    if profile_id:
+        from ingramspark.profile import load_profile
+
+        try:
+            load_profile(profile_id)
+        except (FileNotFoundError, ValueError) as exc:
+            raise ValueError(f"{spec_path}: {exc}") from exc
+
+    if not enabled:
+        return
+
+    if not profile_id:
+        raise ValueError(
+            f"{spec_path}: publishing.targets.ingramspark.specification_profile is required "
+            f"when enabled is true"
+        )
+
+    ebook = _as_dict(target.get("ebook"))
+    print_cfg = _as_dict(target.get("print"))
+    ebook_on = ebook.get("enabled", False) is True
+    print_on = print_cfg.get("enabled", False) is True
+    if not ebook_on and not print_on:
+        raise ValueError(
+            f"{spec_path}: publishing.targets.ingramspark.enabled is true but neither "
+            f"ebook.enabled nor print.enabled is true"
+        )
+
+    book_dir = spec_path.parent
+    if ebook_on:
+        cover_source = str(ebook.get("cover_source", "")).strip()
+        if cover_source:
+            cover_path = (book_dir / cover_source).resolve()
+            if not cover_path.is_file():
+                raise ValueError(
+                    f"{spec_path}: publishing.targets.ingramspark.ebook.cover_source "
+                    f"{cover_source!r} does not exist under {book_dir}"
+                )
+
+    if print_on:
+        cover = _as_dict(print_cfg.get("cover"))
+        if cover.get("strategy") == "supplied-wrap":
+            source = str(cover.get("source", "")).strip()
+            if source:
+                wrap_path = (book_dir / source).resolve()
+                if not wrap_path.is_file():
+                    raise ValueError(
+                        f"{spec_path}: publishing.targets.ingramspark.print.cover.source "
+                        f"{source!r} does not exist under {book_dir}"
+                    )
+
+    if ebook_on and print_on:
+        ebook_isbn = str(ebook.get("isbn", "")).strip()
+        print_isbn = str(print_cfg.get("isbn", "")).strip()
+        if ebook_isbn and print_isbn and ebook_isbn == print_isbn:
+            raise ValueError(
+                f"{spec_path}: ebook ISBN and print ISBN must be distinct (both are {ebook_isbn!r})"
+            )
+
+
 def validate_book_spec(spec: dict[str, Any], spec_path: Path) -> None:
     schema = load_schema()
     try:
@@ -122,6 +209,7 @@ def validate_book_spec(spec: dict[str, Any], spec_path: Path) -> None:
             f"{spec_path}: schema validation failed at {location}: {exc.message}"
         ) from exc
     _validate_poetry_constraints(spec, spec_path)
+    _validate_ingramspark_constraints(spec, spec_path)
 
 
 def validate_upcoming_spec(spec: dict[str, Any], spec_path: Path) -> None:

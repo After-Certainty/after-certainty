@@ -14,6 +14,7 @@ from book_specs import (
     load_book_spec,
     load_upcoming_spec,
 )
+from ingramspark.profile import validate_all_profiles
 
 
 def main() -> None:
@@ -33,7 +34,11 @@ def main() -> None:
     for spec_path in upcoming_specs:
         load_upcoming_spec(spec_path)
 
-    print(f"Validated {len(book_specs)} book specs and {len(upcoming_specs)} upcoming specs.")
+    profile_ids = validate_all_profiles()
+    print(
+        f"Validated {len(book_specs)} book specs, {len(upcoming_specs)} upcoming specs, "
+        f"and {len(profile_ids)} IngramSpark profile(s)."
+    )
 
 
 if __name__ == "__main__":

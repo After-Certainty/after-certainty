@@ -1,0 +1,262 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/profiles/ingramspark/profile.schema.json",
+  "title": "IngramSpark dated specification profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "epub_content_version",
+    "epubcheck_tool_version",
+    "ebook",
+    "print",
+    "checks"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Profile id; must match the YAML filename stem (e.g. ingramspark-2026-07)."
+    },
+    "title": {
+      "type": "string"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "ISO date of the official-source audit that produced this profile."
+    },
+    "epub_content_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Required EPUB content/specification conformance (e.g. 3.0). Not a validator tool version."
+    },
+    "epubcheck_tool_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Separately pinned current EPUBCheck (or documented equivalent) tool version."
+    },
+    "ebook": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "max_epub_bytes",
+        "max_interior_image_pixels",
+        "cover_min_longest_side_px",
+        "cover_min_shortest_side_px",
+        "cover_color_space"
+      ],
+      "properties": {
+        "max_epub_bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_interior_image_pixels": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Safe default uses the stricter official cap when sources conflict."
+        },
+        "cover_min_longest_side_px": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "cover_min_shortest_side_px": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "cover_color_space": {
+          "type": "string",
+          "enum": [
+            "rgb"
+          ]
+        }
+      }
+    },
+    "print": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pdfx_conformance",
+        "pdfx_icc_policy",
+        "max_total_ink_coverage_percent",
+        "recommended_margin_inches",
+        "bleed_inches"
+      ],
+      "properties": {
+        "pdfx_conformance": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": [
+              "PDF/X-1a:2001",
+              "PDF/X-3:2002"
+            ]
+          }
+        },
+        "pdfx_icc_policy": {
+          "type": "string",
+          "enum": [
+            "account-verification-needed",
+            "strip-raster-icc-allow-output-intent",
+            "strip-all-icc",
+            "documented-accepted-construction"
+          ],
+          "description": "Do not promote to a blocking construction until the INGRAM-004 proof records acceptance."
+        },
+        "max_total_ink_coverage_percent": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 400
+        },
+        "recommended_margin_inches": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "bleed_inches": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "checks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/profileCheck"
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/profileConflict"
+      }
+    }
+  },
+  "$defs": {
+    "confidence": {
+      "type": "string",
+      "enum": [
+        "confirmed-current",
+        "official-but-conflicting",
+        "official-recommendation",
+        "account-verification-needed",
+        "human-production-decision",
+        "not-automatically-verifiable"
+      ]
+    },
+    "severity": {
+      "type": "string",
+      "enum": [
+        "blocking",
+        "warning",
+        "human-review",
+        "informational"
+      ]
+    },
+    "appliesTo": {
+      "type": "string",
+      "enum": [
+        "ebook-interior",
+        "ebook-cover",
+        "print-interior",
+        "print-cover",
+        "package"
+      ]
+    },
+    "profileSource": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string"
+        },
+        "retrieved_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "published_at": {
+          "type": "string"
+        }
+      }
+    },
+    "profileCheck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "applies_to",
+        "severity",
+        "confidence"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "applies_to": {
+          "$ref": "#/$defs/appliesTo"
+        },
+        "severity": {
+          "$ref": "#/$defs/severity"
+        },
+        "confidence": {
+          "$ref": "#/$defs/confidence"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/profileSource"
+          }
+        },
+        "conflict_group": {
+          "type": "string",
+          "minLength": 1
+        },
+        "default_value": {},
+        "threshold": {},
+        "account_override_allowed": {
+          "type": "boolean"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "profileConflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "topic",
+        "safe_default",
+        "notes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "safe_default": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}
