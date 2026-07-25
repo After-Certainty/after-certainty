@@ -38,7 +38,7 @@ He walked past her down the aisle without checking whether she followed. Lena fo
 
 The records had brought her here, if anything could still be said to bring anyone anywhere.
 
-Jun's pages first. She had carried them since Vesper, folded behind the dead panel. *None of these go where the records say they go. Auxiliary, return, legacy, do not remove.* At the time the words had felt like a warning about pipes and lines. Later, after Borren, after the *Wren* and the twenty-six names on the board, they had begun to feel like something else: not an answer, but a category. The true thing gone quiet and unstamped.
+Jun's pages first. She had carried them since Vesper, folded behind the dead panel. *None of these go where the records say they go. Auxiliary, return, legacy, do not remove.* At the time the words had felt like a warning about pipes and lines. Later, after Borren, after the *Wren* and the twenty-six names on the board, they had begun to feel like something else: the true thing gone quiet and unstamped.
 
 Then the marsh-list. She did not have the original; the frost-coated pilot had kept his scrap. But she remembered the lines. *Marsh-light gone green, out of season. Cooling-river milky three days. Sixth-day tide a quarter late — tell the next.* Nothing official. No seal. Just eyes and a hand sending the warning onward.
 
@@ -106,7 +106,7 @@ He went back to Jun's pages. His eyes moved quickly now, no longer amused.
 
 "That's what it says."
 
-"No." He looked up. "I mean *Returns.* Capital R. Old office family. Before the consolidations. The kind of thing they taught everyone was duplication until the duplication was all that told you what the first copy forgot." He folded the pages carefully, exactly along Jun's creases. "What else?"
+"No." He looked up. "I mean *Returns.* Capital R. Old office family. Before the consolidations." He folded the pages carefully, exactly along Jun's creases. "What else?"
 
 She hesitated. It had become difficult to show people the thing she did not understand. With a false manifest, with a leaking hull, she knew what to do. The lists were different. They felt almost private, which made no sense. She had not written them. They had simply existed beyond her reach, and twenty-six people had died where they might have mattered.
 
@@ -132,7 +132,7 @@ He turned away before she finished and began walking down the row, too fast for 
 
 "That isn't an answer."
 
-"I know. I dislike it already." He stopped at a shelf where the labels had been crossed out so many times the cardboard looked bruised. "There were systems for this. Not good systems — underfunded, locally jealous, written in five incompatible scripts. But systems." He ran a finger along the tags. "Local Returns. Seasonal Deviations. Unverified Stayer Reports. Corridor Listening. Nobody liked them, which is usually how you know a thing was doing work."
+"I know. I dislike it already." He stopped at a shelf where the labels had been crossed out so many times the cardboard looked bruised. "There were systems for this. Local Returns. Seasonal Deviations. Unverified Stayer Reports. Corridor Listening." He ran a finger along the tags. "Nobody liked them, which is usually how you know a thing was doing work."
 
 He pulled a box down. It was heavier than he expected; the low gravity tricked him, and Lena reached without thinking to catch the far end before it dragged him off balance. They set it on a worktable.
 
@@ -190,7 +190,7 @@ This one had the same title, but printed. Place remained. Observation remained. 
 
 They found the same pattern again.
 
-Local Returns in one century. Variance Review in another. Corridor Adjustment Office. Stayer Notices. The names changed, but the shape underneath was the same: small observations moving sideways and back — correction from the edge, not command from the center. Not certainty. Friction.
+Local Returns in one century. Variance Review in another. Corridor Adjustment Office. Stayer Notices. The names changed; the shape underneath did not: small observations moving sideways and back.
 
 Then, across copies separated by worlds and years, the offices vanished.
 
@@ -226,11 +226,9 @@ He gave her a look. "You are asking the moon of thrown-away paper whether record
 
 "That man says accident leaves mess. This is not mess. This is a clean floor after the blood has been mopped."
 
-The sentence should have repelled her. It did not, not immediately. That was the thing she noticed and disliked: how quickly the room warmed around a culprit. After weeks of dark gates and boards that said pending, here was a shape that held still long enough to accuse. Someone had removed the returns. Someone had made the network blind to its own edges.
-
 *Three at once is a hand.*
 
-She had hated that sentence on the Sennen dock because it comforted too easily. She heard its cousin now in Toma's voice and felt, to her shame, the smallest answer in herself lean toward it.
+She had hated that sentence on the Sennen dock because it comforted too easily. She heard its cousin now in Toma's voice.
 
 "Who benefits?" Toma said.
 
@@ -238,23 +236,15 @@ She had hated that sentence on the Sennen dock because it comforted too easily. 
 
 "Not asking it does too."
 
-He was not wrong. That was the problem with almost everyone she met now. They were wrong in the direction of something true.
+"Who would have had authority?" she asked.
 
-"Who would have had authority?" she asked, because if he was going to build the room around a hand, she might as well see whether the hand had fingers.
-
-"Consolidation offices. Gate trusts. Core routing." He moved quickly now, drawing lines in air. "You centralize the records, you weaken the local offices, you retain only summaries, you declare edge reports unreliable unless confirmed by the center that cannot see the edge. Then one day nobody can prove the margins ever had authority at all. Elegant. Horrible. Common."
-
-"You sound pleased."
-
-"I am never pleased by good knife work. I only respect the grip."
+"Consolidation offices. Gate trusts. Core routing." He moved quickly now, drawing lines in air. "You centralize the records, you weaken the local offices, you retain only summaries, you declare edge reports unreliable unless confirmed by the center that cannot see the edge. Elegant. Horrible. Common."
 
 "Why erase it?"
 
-"To make the gate system look self-sufficient. To make the center necessary. To remove witnesses." He lifted Jun's pages. "To make sure when auxiliary return lines stopped going where the records said, nobody existed whose job was to notice before a courier found a dead cable in her hand." He looked at her. "Pick the motive. I have shelves for all of them."
+"Pick a motive. I have shelves for all of them." He lifted Jun's pages. "When auxiliary return lines stopped going where the records said, nobody existed whose job was to notice before a courier found a dead cable in her hand."
 
 Lena thought of Jun under the banner at Cardinal: the curve stripped of its caveats. She thought of Varik at Khoury, turning hunger into one clean enemy. She thought of herself at Tellan, *this one,* sending twenty-six people toward a route already not live enough.
-
-Everywhere she looked now, a thing could be true and still become the wrong tool in someone's hand.
 
 "What if the motive matters less than the missing work?" she said.
 
@@ -274,19 +264,15 @@ He almost smiled. "You are worse than an analyst."
 
 "I've been accused of less."
 
-He closed the ledger in front of him, but he did not put it away. "Listen to me. I keep discards. I know the difference between decay and disposal. Decay is generous with evidence. It leaves edges, rot, water marks, arguments in the margin. Disposal leaves procedure. Disposal leaves identical absences in copies that never met each other. Disposal leaves a clean category where a living office used to be." He tapped the printed ledger. "This is disposal."
+He closed the ledger in front of him, but he did not put it away. "I keep discards. I know the difference between decay and disposal. Decay leaves edges, rot, water marks, arguments in the margin. Disposal leaves identical absences in copies that never met each other." He tapped the printed ledger. "This is disposal."
 
 The word struck the table and stayed there.
 
 *Disposal.*
 
-Lena could see it. That was what troubled her. Toma's reading fit the room — the neatness of the missing columns, the reclassified offices, the budget ghosts. It fit every notice that had ever said pending where a name should have been.
+Lena could see it. Toma's reading fit the room — the neatness of the missing columns, the reclassified offices, the budget ghosts. It fit every notice that had ever said pending where a name should have been.
 
-And still some part of her resisted.
-
-Not because she knew he was wrong. She did not. She was tired enough to want him right. If Toma was right, then the thing had a trail. If it had a trail, maybe Arin was not simply a man behind distance and silence; maybe he was behind a wall someone had built, and walls built by hands could be named, broken, answered.
-
-That was the seduction in it. Not vengeance. Direction.
+And still some part of her resisted. Not because she knew he was wrong. She was tired enough to want him right. If Toma was right, the thing had a trail. Trails could be followed. Walls built by hands could be named.
 
 She hated that she recognized the taste.
 
@@ -372,7 +358,7 @@ He pointed to the signature.
 
 "She wrote this?" Lena asked.
 
-"She wrote several things, if the footnotes aren't lying." He flipped through the folio faster now. "Objections. Operational consequences. A predictive note. Here — 'failure to maintain local return acknowledgment will result in increased unobserved drift across slow corridors and edge gate families.' That is a woman standing in front of a very large cart and saying perhaps do not roll this downhill."
+"She wrote several things, if the footnotes aren't lying." He flipped through the folio faster now. "Objections. Operational consequences. A predictive note. Here — 'failure to maintain local return acknowledgment will result in increased unobserved drift across slow corridors and edge gate families.'"
 
 "What happened to her?"
 
@@ -412,8 +398,6 @@ He searched the page with the answer already forming in his face.
 
 Of course.
 
-Desks only mattered while bodies leaned over them, while hands passed slips, while someone wrote back *received* and meant it. Once the work was made unnecessary, the furniture became furniture. The chairs became disposal.
-
 Lena looked at the inventory longer than the memorandum. The memorandum made her angry. The chairs made something in her sink.
 
 "Where did the appeal go?" she asked.
@@ -438,8 +422,6 @@ He did.
 
 She looked again at the protest. *Local return work cannot be incorporated without ceasing to be return work.*
 
-It was all there, in the dryest possible language.
-
 "They knew," she said.
 
 "Somebody did."
@@ -452,15 +434,9 @@ It was all there, in the dryest possible language.
 
 Toma's face, which had been quick all afternoon, went still. "That," he said softly, "is the first sensible sentence you have said all day."
 
-It should have satisfied her. It was the thing Toma had been leading her toward: a hand, a choice, a purge in the mild clothes of efficiency. A woman had warned them. The warning had been noted. The office had been closed. The chairs had been denied storage. Two hundred years later, gates were going dark and people were trading scraps by hand.
-
-Someone had erased her.
-
 The sentence was useful. It gave the anger somewhere to stand.
 
-And still, beneath it, something did not quite lie flat.
-
-Maybe because the memorandum was not written like malice. Maybe because the words were so ordinary. Duplication burden. Confidence. Efficiency. Noise. Maybe because she had seen enough frightened decent people reach for small correct acts inside large wrong ones to know that a knife could pass through a hundred hands without any one hand feeling the cut.
+And still, beneath it, something did not quite lie flat. The memorandum was not written like malice. Duplication burden. Confidence. Efficiency. Noise. She had seen enough frightened decent people reach for small correct acts inside large wrong ones.
 
 But she was tired. The resistance in her was tired too. It did not become an answer. It only stayed there, a snag under the anger.
 
@@ -470,7 +446,7 @@ Toma closed the folio at last.
 
 "I wanted a way to keep people from dying."
 
-"Graves are where civilizations admit what they valued too late. They are useful, if read correctly."
+"Graves are useful, if read correctly."
 
 "Can I take it?"
 
@@ -496,15 +472,11 @@ She almost smiled. It hurt, so she stopped.
 
 Toma carried the folio toward the door, then paused and looked back at the room. The anger in him had settled into purpose, which was calmer and more dangerous.
 
-"You understand what this means," he said.
-
-"I understand less than I did when I got here."
-
-"Good. Understanding usually starts there." He tapped the folio. "But this much is plain: the network did not merely forget how to hear itself. It was taught to treat hearing as waste. You follow that line, courier, and it will lead to names."
+"You follow this line," he said, tapping the folio, "and it will lead to names."
 
 Names.
 
-After all the no ones — no one has one, no one minding the whole, no one at the end of the wire — the word struck her harder than she expected. Names could be found, argued with, blamed. Names could be carried to Arin like proof that she had not spent all this time going sideways for nothing.
+After all the no ones — no one has one, no one minding the whole, no one at the end of the wire — the word struck her harder than she expected.
 
 "What if names aren't enough?" she asked.
 
@@ -524,15 +496,11 @@ Toma opened the hidden door.
 
 "No," he said. "It was the answer."
 
-They left the deaccession room together. Lena carried the dead panel, Jun's pages, the copied marsh-lines in her head, and now the shape of a room the network had once possessed and then politely emptied. For the first time since Borren, the question in her chest had acquired a door.
+They left the deaccession room together. Lena carried the dead panel, Jun's pages, the copied marsh-lines in her head, and now a door that was not the Tarn.
 
-Not the Tarn. Not yet.
-
-A different door first. Lower Vellum. Veya Sol, or whoever remained of her.
+Lower Vellum. Veya Sol, or whoever remained of her.
 
 Toma started down the corridor, folio under one arm, boots whispering dust off the floor.
-
-"If you want to know how a world forgets," he said, "you do not begin with the missing page. You begin with the person who objected when the page was called unnecessary."
 
 Lena followed him toward the lift, toward the city under the archive.
 
