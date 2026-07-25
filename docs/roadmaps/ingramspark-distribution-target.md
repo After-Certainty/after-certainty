@@ -7,7 +7,7 @@
 
 **Scope of this document:** Design an opt-in build mode that produces a submission-kit ZIP for IngramSpark ebook and/or print upload. This document is the single authoritative plan unless a future dated requirements profile needs its own file under `schema/profiles/ingramspark/`.
 
-**Out of scope for this document’s creation:** Implementing exporters, changing `book.yml`, generating publishing files, altering GitHub Actions, or changing the website. No production code or book configuration was changed to produce this plan.
+**Out of scope for this document’s creation / updates:** Implementing exporters, changing `book.yml`, generating publishing files, altering GitHub Actions, or changing the website. No production code or book configuration was changed to produce or revise this plan.
 
 **Related roadmaps:** [`remaining-product-roadmap.md`](remaining-product-roadmap.md) remains authoritative for cross-layer product backlog; this document owns IngramSpark packaging specifically.
 
@@ -366,15 +366,22 @@ Rationale:
 
 ### 8.3 Profile contents (conceptual)
 
+Top-level profile constants must include at least:
+
+- `epub_content_version` — e.g. `3.0` / `3.0.0` **content** requirement (not a tool version)
+- `epubcheck_tool_version` — separately pinned current EPUBCheck (or documented equivalent)
+- Ebook cover pixel thresholds, interior image pixel cap, EPUB max bytes
+- Print PDF/X construction notes filled after the INGRAM-004 proof (initially `account-verification-needed`)
+
 Each check entry should declare:
 
-- `id`, `appliesTo` (`ebook-interior` | `ebook-cover` | `print-interior` | `print-cover` | `package`)
+- `id`, `applies_to` (`ebook-interior` | `ebook-cover` | `print-interior` | `print-cover` | `package`)
 - `severity`: `blocking` | `warning` | `human-review` | `informational`
 - `confidence` (states from §7)
 - `sources[]` (URLs + retrieval/publication dates)
-- `conflictGroup` (optional; for official disagreements)
-- `defaultValue` / `threshold`
-- `accountOverrideAllowed` (bool)
+- `conflict_group` (optional; for official disagreements)
+- `default_value` / `threshold`
+- `account_override_allowed` (bool)
 
 Hard-coded magic numbers must not scatter across exporters; exporters read the active profile.
 
@@ -384,13 +391,13 @@ Hard-coded magic numbers must not scatter across exporters; exporters read the a
 publishing:
   targets:
     ingramspark:
-      specificationProfile: ingramspark-2026-07
+      specification_profile: ingramspark-2026-07
 ```
 
 Package echoes:
 
-- `package-manifest.json` → `specificationProfile`
-- `metadata/tool-versions.json` → profile id + profile file sha256
+- `package-manifest.json` → `specification_profile`
+- `metadata/tool-versions.json` → profile id + profile file sha256 + `epubcheck_tool_version`
 - `ebook/preflight.json` / `print/preflight.json` → same
 
 ### 8.5 Account-verified overrides
@@ -402,13 +409,13 @@ publishing:
   targets:
     ingramspark:
       overrides:
-        - checkId: pdfx-output-intent-embedding
-          confirmedAt: 2026-08-01
-          confirmedBy: kevin
+        - check_id: pdfx-output-intent-embedding
+          confirmed_at: 2026-08-01
+          confirmed_by: kevin
           note: "IngramSpark account preflight accepted DeviceCMYK without OutputIntent"
 ```
 
-Overrides never silence missing ISBN, wrong trim, or stale template page count.
+Overrides never silence missing ISBN, wrong trim, or stale template page count. The INGRAM-004 isolated proof is the preferred path to promote PDF/X/ICC rules from advisory to blocking inside the profile itself.
 
 ---
 
