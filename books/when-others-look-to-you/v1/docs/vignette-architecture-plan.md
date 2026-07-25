@@ -1006,8 +1006,9 @@ The eventual vignette pass is complete when:
 |---|---|
 | Plan ready? | **Yes** |
 | VIGNETTE-001 | **Complete** — see [`vignette-001-baseline-confirmation.md`](vignette-001-baseline-confirmation.md) |
-| Next task | **VIGNETTE-006 (Chapter 10)** — first major prose / calibration draft |
-| Before Ch2 / Ch6 | Chapter 10 calibration gate (§24b) |
+| VIGNETTE-006 | **Draft complete** — Chapter 10 one-city rewrite at `1b3b5842` (plus follow-up polish if any); awaiting human calibration gate (§24b) |
+| Next task | Human calibration review of Chapter 10, then VIGNETTE-002 / VIGNETTE-003 |
+| Before Ch2 / Ch6 | Chapter 10 calibration gate (§24b) must pass |
 | Conditional | VIGNETTE-004 (Chapter 7) |
 | Deferred | VIGNETTE-008 (Intro / Chapter 1) |
 | Remaining risks | Voice drift; over-patterning; cute returns; Ch10 teaching clarity; Ch6 range loss if over-compressed |

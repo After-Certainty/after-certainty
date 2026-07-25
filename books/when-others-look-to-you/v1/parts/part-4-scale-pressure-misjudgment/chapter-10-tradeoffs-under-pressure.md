@@ -17,11 +17,11 @@ cut off by a detour that looked clean upstairs. The command group logs the
 concerns for the post-spike review window. A challenge call is taken. One
 corridor is adjusted from local signal.
 
-Correction is starting to move again: ground facts reach the people who can
-still change the plan. What does not return with those facts is bounded local
-authority. District teams can report changing conditions. They still cannot
-reopen a corridor, restore an override, or clear a procurement exception
-without a central signature under the temporary command protocol.
+Ground facts are reaching the people who can still change the plan. What does
+not return with those facts is bounded local authority. District teams can
+report changing conditions. They still cannot reopen a corridor, restore an
+override, or clear a procurement exception without a central signature under
+the temporary command protocol.
 
 Ten days later the water is down in most places. Officials talk about a sunset
 and a review date. Some challenge calls keep landing. A second corridor gets
