@@ -238,7 +238,7 @@ Plus ~19 non-block examples across intro, Ch1–2, bridges, Ch12, epilogue.
 | light-polish | 3 | Continuity-only unless drift found |
 | strengthen-anchor | 2 | Ch2, Ch9 |
 | consolidate / complicate | 2 | Ch6, Ch10 |
-| add-return | 1–2 | Ch11 strongly expected; Ch7 conditional/optional |
+| add-return | 1–2 | Ch11 strongly expected; Ch7 was optional and was skipped |
 | leave-as-brief / no vignette task | rest | Intro, Ch1, bridges, many pairs |
 | Active major prose chapters | 5 | Ch10 first, then Ch2, Ch6, Ch9, Ch11 |
 
@@ -356,16 +356,17 @@ Size: **M**. Expected length: stable to slightly shorter. File:
 
 ---
 
-### Chapter 7 — Effectiveness and Its Illusions — **CONDITIONAL**
+### Chapter 7 — Effectiveness and Its Illusions — **SKIPPED**
 
-**Decision:** Optional until larger vignette changes can be read together.
-Preserve library dinner, state citation, newspaper attention, and movement toward
-dessert. No assumed major rewrite. Restrained return only if it deepens naturally.
-Do not create a clever or conspicuously symbolic ending.
+**Decision (final):** Skip prose work. After Chapters 2, 6, 9, 10, and 11, the
+library dinner already carries inhabitability (citation, newspaper attention,
+dessert pivot, “the room follows”). A late citation or dessert return would call
+attention to the technique more than deepen the chapter, and would make
+Chapters 7–11 feel too mechanically patterned.
 
-**Task status:** VIGNETTE-004 is **conditional**.
+**Task status:** VIGNETTE-004 is **Skipped**.
 
-**Conditions that justify doing Ch7 after Ch2, Ch6, Ch9, Ch10, and Ch11:**
+**Decision gate (resolved — none of the conditions held):**
 
 1. Whole-book read shows the library scene no longer carries enough inhabitability
    relative to newly strengthened chapters, **or**
@@ -374,9 +375,7 @@ Do not create a clever or conspicuously symbolic ending.
 3. A restrained citation/dessert return would remove explanatory repetition
    without becoming cute.
 
-If none of those conditions hold after the decision gate, **skip Ch7 prose work**.
-
-Size if run: **S**. File:
+File (unchanged):
 `parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md`.
 
 ---
@@ -543,7 +542,7 @@ epilogue’s refusal of easy restoration.
 | Ch5 | model | protect | none | phone / rail | avoid adding | — |
 | Bridge III | lenses | protect | none | — | avoid | — |
 | Ch6 | harm | **active** | consolidate hierarchy | temperature log / door | optional | M |
-| Ch7 | effectiveness | **conditional** | only if gate fires | citation / dessert | optional | S |
+| Ch7 | effectiveness | **skipped** | gate did not fire | citation / dessert (unchanged) | none added | — |
 | Ch8 | model | protect | none | permissions list | avoid adding | — |
 | Bridge IV | handoff | protect | none | — | avoid | — |
 | Ch9 | scale | **active** | deepen compression carrier | public update / reporting cycle | strongly expected | M |
@@ -562,7 +561,7 @@ epilogue’s refusal of easy restoration.
 | Ch2 | Hospital triage protocol + dosage-order risk | School attendance protocol remains secondary mixed-state case |
 | Ch5 | Phone + ticket rail (existing) | Protect |
 | Ch6 | Temperature log + outbound door / product hold | Tournament full secondary |
-| Ch7 | Citation + dessert pivot (existing) | Conditional task only |
+| Ch7 | Citation + dessert pivot (existing) | Skipped — left unchanged |
 | Ch8 | Emergency-permissions list (existing) | Protect |
 | Ch9 | Public updates + paperwork / fixed reporting cycles | Mentoring program content |
 | Ch10 | Central signature / approval path / temporary command protocol | Underpass as condition marker |
@@ -681,15 +680,15 @@ Overall: approximately stable total length.
 | VIGNETTE-001 | **Active** — reduced kickoff | XS–S | Baseline confirmation only |
 | VIGNETTE-002 | **Active** | M | Chapter 2 institutional opener |
 | VIGNETTE-003 | **Active** | M | Chapter 6 consolidation hierarchy |
-| VIGNETTE-004 | **Conditional** | S | Chapter 7 only if decision gate fires |
+| VIGNETTE-004 | **Skipped** | S | Chapter 7 — decision gate did not fire |
 | VIGNETTE-005 | **Active** | M | Chapter 9 public-update carrier |
 | VIGNETTE-006 | **Active — first major prose** | L–XL | Chapter 10 one-city temporal architecture |
 | VIGNETTE-007 | **Active** | S–M | Chapter 11 dashboard return |
 | VIGNETTE-008 | **Deferred** | — | Intro/Ch1; later review item only |
 | VIGNETTE-009 | **Active** | M | Whole-book continuity + cumulative-patterning |
-| VIGNETTE-010 | **Active** | S–M | Semantic + export sync |
+| VIGNETTE-010 | **Complete (content no-op)** | S–M | Semantic content unchanged; ordinary CI/export still required |
 
-No tasks renumbered. No task is both active and deferred.
+No tasks renumbered. No task is both skipped and conditional.
 
 ### VIGNETTE-001 — Baseline confirmation (XS–S)
 
@@ -723,11 +722,11 @@ Most inventory/research work is already in this plan. Kickoff only:
 - Return: optional
 - After Ch10 calibration only (parallel with 002 permitted)
 
-### VIGNETTE-004 — Chapter 7 (conditional)
+### VIGNETTE-004 — Chapter 7 (skipped)
 
-- Run only if decision gate after 007 says yes (§11 conditions)
-- Preserve library dinner / citation / dessert movement
-- No clever symbolic ending
+- Decision gate after 007 did **not** fire (§11)
+- Library dinner / citation / dessert movement left unchanged
+- No late return added (would over-pattern Chapters 7–11)
 
 ### VIGNETTE-005 — Chapter 9
 
@@ -769,8 +768,12 @@ Most inventory/research work is already in this plan. Kickoff only:
 
 ### VIGNETTE-010 — Semantic and generated-output synchronization
 
+- **Content no-op:** changed scenes did not make existing semantic summaries
+  inaccurate; no semantic YAML edits manufactured merely to complete this task
+- **Not a validation waiver:** manuscript changes must still pass ordinary
+  book-export, site, lint, preservation, and manifest workflows
 - Update summaries/aliases only where inaccurate
-- Regenerate manifest/exports as required
+- Regenerate manifest/exports as required by those workflows
 - Verify native reader
 - Re-run preservation validation
 - After 009 only
@@ -795,11 +798,11 @@ VIGNETTE-007  Chapter 11
         ↓
 Decision gate: whether Chapter 7 still needs work
         ↓
-VIGNETTE-004  Chapter 7          ← only if gate fires
+VIGNETTE-004  Chapter 7          ← SKIPPED (gate did not fire)
         ↓
 VIGNETTE-009  Whole-book continuity (+ cumulative patterning)
         ↓
-VIGNETTE-010  Semantic and generated-output synchronization
+VIGNETTE-010  Semantic content no-op; ordinary CI/export still required
 ```
 
 VIGNETTE-008 remains deferred off-path.
@@ -909,7 +912,7 @@ rewrites**, not file conflict.
 |---|---|
 | Ch2 anchor | Hospital triage protocol + dosage-order risk (school secondary); no whiteboard |
 | Ch6 hierarchy | Cold-chain primary; Tournament full secondary; Rivet/Escalation/Quarterly brief; Peak compressed; none removed to appendix |
-| Ch7 | Conditional after larger changes; preserve library/citation/dessert |
+| Ch7 | **Skipped** after decision gate; library/citation/dessert left unchanged |
 | Ch9 carrier | Public updates + paperwork / fixed reporting cycles (mentoring content) |
 | Ch10 architecture | One-city temporal; central signature / approval path / command protocol; first major prose |
 | Ch11 | Newsroom dashboard principal; Smooth Board secondary; restrained return |
@@ -925,13 +928,13 @@ rewrites**, not file conflict.
 - Whether its return feels earned
 - Whether the new style should be applied more or less aggressively elsewhere
 
-### Deferred until whole-book continuity (VIGNETTE-009)
+### Resolved in whole-book continuity (VIGNETTE-009)
 
-- Whether Chapter 7 needs any changes
-- Whether a front-matter composite disclosure is needed
-- Whether optional returns in Chapters 6 and 7 should remain
-- Whether cumulative object architecture has become too regular
-- Whether any newly memorable line belongs in the preservation register
+- Chapter 7: **no changes** (VIGNETTE-004 skipped)
+- Front-matter composite disclosure: **not needed**
+- Optional returns: Ch6 none; Ch7 none; Ch9–11 late returns retained with variation
+- Cumulative object architecture: not too regular (mid-chapter / none / untouched / late-return mix)
+- Newly memorable lines: none added to preservation register in this pass
 
 ### Still unresolved
 
@@ -962,9 +965,9 @@ calibration draft.
 4. VIGNETTE-002 and VIGNETTE-003 (sequential preferred; limited parallel OK).
 5. VIGNETTE-005 Chapter 9.
 6. VIGNETTE-007 Chapter 11.
-7. Decision gate for Chapter 7 → VIGNETTE-004 only if needed.
+7. Decision gate for Chapter 7 → VIGNETTE-004 **skipped** (gate did not fire).
 8. VIGNETTE-009 continuity + cumulative-patterning + labeling reassessment.
-9. VIGNETTE-010 semantic/export/native-reader sync.
+9. VIGNETTE-010 semantic content no-op; ordinary CI/export/native-reader still required.
 10. Final preservation validation + export success.
 
 ---
@@ -1014,9 +1017,8 @@ The eventual vignette pass is complete when:
 | VIGNETTE-007 | **Complete** — Chapter 11 dashboard return; Smooth Board retained |
 | VIGNETTE-004 | **Skipped** — Chapter 7 decision gate: library dinner already inhabitable; no cute return needed; success-narrows-correction still scene-anchored |
 | VIGNETTE-009 | **Complete** — see [`vignette-009-continuity.md`](vignette-009-continuity.md) |
-| VIGNETTE-010 | **No-op** — no inaccurate semantic summaries found for changed scenes |
-| Next task | Human review of the completed architecture pass / PR |
-| Conditional | VIGNETTE-004 (Chapter 7) |
+| VIGNETTE-010 | **Complete (content no-op)** — no inaccurate semantic summaries; ordinary book-export / site / lint / preservation / manifest workflows still required |
+| Next task | Human review / merge after CI green |
 | Deferred | VIGNETTE-008 (Intro / Chapter 1) |
 | Remaining risks | Voice drift; over-patterning; cute returns; Ch10 teaching clarity; Ch6 range loss if over-compressed |
 | Planning blockers | **None** |
@@ -1102,11 +1104,11 @@ prose:
 | Ch6 hierarchy | Cold-chain → Tournament → brief Rivet/Escalation/Quarterly → compress Peak |
 | Ch9 anchor | Public updates + paperwork / reporting cycles |
 | Ch10 artifact | Central signature / approval path / command protocol |
-| Ch11 architecture | Newsroom dashboard + optional restrained return; Smooth Board secondary |
-| Ch7 status | Conditional |
+| Ch11 architecture | Newsroom dashboard + restrained late return; Smooth Board secondary |
+| Ch7 status | Skipped (decision gate did not fire) |
 | Intro/Ch1 status | Deferred |
-| Active tasks | 001, 002, 003, 005, 006, 007, 009, 010 |
-| Conditional | 004 |
+| Completed tasks | 001, 002, 003, 005, 006, 007, 009, 010 (010 content no-op) |
+| Skipped | 004 |
 | Deferred | 008 |
 | Parallel permitted | 002 ∥ 003 only after Ch10 calibration |
-| Ready to implement | Yes, after VIGNETTE-001 |
+| Ready to implement | Architecture pass complete; merge after CI green |

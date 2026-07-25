@@ -31,7 +31,7 @@ Result: **OK — 41 verbatim protection(s) present.**
 |---|---|
 | VIGNETTE-002 | `parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md` |
 | VIGNETTE-003 | `parts/part-3-harm-effectiveness-legitimacy/chapter-6-harm-under-influence.md` |
-| VIGNETTE-004 (conditional) | `parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md` |
+| VIGNETTE-004 (later skipped) | `parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md` |
 | VIGNETTE-005 | `parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md` |
 | VIGNETTE-006 (first prose) | `parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md` |
 | VIGNETTE-007 | `parts/part-4-scale-pressure-misjudgment/chapter-11-why-we-misjudge-leaders.md` |
