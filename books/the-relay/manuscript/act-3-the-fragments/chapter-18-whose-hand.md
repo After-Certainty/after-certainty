@@ -60,7 +60,7 @@ Lena traveled with six others because Sera had insisted.
 
 That had been unfair enough to be useful.
 
-So she left Merrow with Yov, two young runners carrying the official-not-official failure packets, a Halen wheelwright whose wagon had become storage for shared supplies, a woman from the fruit convoy who knew three ruined bridges by reputation, and a boy of fourteen who had attached himself by carrying water briskly enough that no one had the heart to detach him.
+So she left Merrow with Yov, one of Sera's road hands, two young runners carrying the official-not-official failure packets, a Halen wheelwright whose wagon had become storage for shared supplies, a woman from the fruit convoy who knew three ruined bridges by reputation, and a boy of fourteen who had attached himself by carrying water briskly enough that no one had the heart to detach him.
 
 His name was Tev. He had written *bedding-food* in the Merrow flour count and had not stopped arguing about it since.
 
