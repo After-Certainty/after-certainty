@@ -4,7 +4,7 @@ The first thing Lena noticed about Merrow was that no one was shouting.
 
 That made her mistrust it.
 
-By then she had learned to read quiet as carefully as noise. Quiet could mean order, or exhaustion, or fear disciplined into something more dangerous than panic. Quiet could mean the room had accepted a lie so completely that no one needed to argue anymore. Quiet could mean the last person with a question had been made to feel rude.
+By then she had learned to read quiet as carefully as noise. Quiet could mean order, or exhaustion, or fear disciplined into something more dangerous than panic. Quiet could mean the last person with a question had been made to feel rude.
 
 But Merrow's quiet was not that.
 
@@ -154,11 +154,7 @@ No one performed virtue. That was what unsettled Lena most. Nobody announced gen
 
 "And you did all this?"
 
-"No."
-
-"Sera."
-
-"No." Sera turned toward her fully. "That matters. I did not do all this. I helped them see what they were already doing badly, then better. The village had stores. The travelers had hands. The traders had wagons and animals. The school had slates. The temple had blankets. The children had legs. The old people had memory. Everyone had reasons to mistrust everyone else, but they also had reasons not to freeze. I mostly asked annoying questions near kettles."
+"No." Sera turned toward her fully. "That matters. I helped them see what they were already doing badly, then better. I mostly asked annoying questions near kettles."
 
 "That sounds like doing it."
 
@@ -192,7 +188,7 @@ Lio would have loved it, Lena thought.
 
 Then corrected herself.
 
-Lio would have respected it and immediately asked where the outgoing answer lines were.
+Lio would have respected it and immediately asked where the outgoing lines were.
 
 That was the trouble. Once you learned to see a missing motion, decency itself began to look incomplete.
 
@@ -297,12 +293,6 @@ Lena felt the ache of admiration and dread together.
 
 Sera did not ask what.
 
-Holding. Not as sentiment. As practice. As names and meals and sleep and rules that kept blame from organizing the yard too quickly. As children carrying soup to trapped traders. As complaint postponed without being denied. As local dignity refusing to become local cruelty.
-
-Everything Sera had believed on the Calder road, here given hands, boards, meals, and watch bells.
-
-The best argument for her possible.
-
 And the gate above them flickered again.
 
 This time the blue did not return immediately.
@@ -379,19 +369,9 @@ Nessa found it first.
 
 Lena closed her eyes.
 
-There it was. The best possible answer and the whole insufficiency inside it.
-
 *The gate is dark. We are still here.*
 
-The sentence moved down the path.
-
-*The gate is dark. We are still here.*
-
-It kept panic from becoming a stampede. It kept grief from selecting the nearest guilty body. It gave people a floor to stand on when the door vanished. It was true, and kind, and useful, and not nearly enough.
-
-Because the gate was dark.
-
-Because medicine had been waiting on the other side. Because messages had not gone through. Because the sick would not travel. Because the three stable pulses would never come. Because every carefully drawn list in the schoolhouse now described a situation with no exit route. Because shared soup did not create lamp oil, and mutual childcare did not repair a dead arch, and refusing to scapegoat the Halen traders did not tell the next world that Merrow had vanished from the line.
+The sentence moved down the path. It kept panic from becoming a stampede. It kept grief from selecting the nearest guilty body. It gave people a floor to stand on when the door vanished.
 
 Holding had saved the community from becoming cruel before the gate went dark.
 
@@ -477,7 +457,7 @@ Then the third.
 
 By dusk, Merrow had changed from a strained transit village into a stranded world.
 
-The phrase formed in Lena's head while she stood beside the south barn counting flour sacks with a boy named Tev who was too young to be doing arithmetic that mattered and too proud to be spared it. A stranded world. Not a village with delayed transit. Not a gate under review. The arch was dark, and all the roads that required it had become stories people would tell with increasing unreliability until no one trusted their own memory of where they had meant to go.
+The phrase formed in Lena's head while she stood beside the south barn counting flour sacks with a boy named Tev who was too young to be doing arithmetic that mattered and too proud to be spared it. The arch was dark, and all the roads that required it had become stories people would tell with increasing unreliability until no one trusted their own memory of where they had meant to go.
 
 Tev counted twenty-seven sacks.
 
@@ -549,15 +529,7 @@ The honesty between them hurt.
 
 "I know."
 
-"I mean—"
-
-"I know."
-
-Lena gripped the bowl too tightly. "They're doing everything people are supposed to do. They're feeding strangers. They're not turning fear into accusation. They're letting children belong to whoever has arms free. They're sharing without pretending sharing is easy. They're keeping names. They're not making the Halen into a story they can hate. It's—" She stopped. Words felt either too small or too sentimental. "It's real."
-
-"Yes."
-
-"And the gate went dark anyway."
+"I mean the gate went dark anyway."
 
 "Yes."
 
@@ -568,10 +540,6 @@ Sera looked down at her bowl. "Dinner."
 Lena almost snapped at her. Then she heard it properly.
 
 Dinner. Not salvation. Not system. Not proof. Dinner.
-
-The true thing that does not get anyone hurt when it falls short.
-
-On the Calder road, that sentence had seemed wise and limited. Here it seemed wise and devastating.
 
 "I used to think," Sera said, "that if people held well enough, most things could be endured."
 
@@ -585,11 +553,7 @@ The phrase landed in Lena like a page received.
 
 Sera nodded slowly.
 
-"A new problem," Lena said.
-
-"I suppose."
-
-"No. Not a fragment. Not a late tide or a gate fix or a ledger." Lena turned toward her. "This is yours."
+"This is yours," Lena said.
 
 Sera looked at her then, and Lena understood suddenly why Veya had been careful with grief. To name another person's discovery too quickly could become theft. To refuse to name it could leave them alone with it.
 
@@ -613,19 +577,19 @@ Sera's face changed, not much. Enough.
 
 Sera's hands were still around her bowl. "Until the room is a grave."
 
-Lena did not soften it. The softening would have been disrespect.
+Lena did not soften it.
 
 "Yes."
 
 A bell rang from the schoolhouse. Not alarm. A call for updated counts. The sound moved across the yard, and people turned toward their tasks. Merrow answered itself beautifully.
 
-Still no answer would leave the world.
+Still no word would leave the world.
 
 That was the next thought.
 
 It came so clearly Lena almost stood.
 
-Merrow's gate was dark. The lines out were gone except slow paths through secondary routes that might already be closed. Everything Merrow had just learned — that the arch had failed after medicine load, that pulse drop followed human-rate overload, that community holding kept Halen blame from becoming violence, that names-first worked better than origin-first, that children could carry soup across a fault line adults might die defending — all of it would remain here unless someone carried it.
+Merrow's gate was dark. Everything Merrow had just learned — that the arch had failed after medicine load, that pulse drop followed human-rate overload, that community holding kept Halen blame from becoming violence, that names-first worked better than origin-first — all of it would remain here unless someone carried it.
 
 A community could hold itself and still become invisible.
 
@@ -633,13 +597,7 @@ She thought of Veya's three motions.
 
 *Observe. Send. Answer.*
 
-Merrow had observed itself with uncommon grace.
-
-It had answered itself, again and again, inside the boundary of its own crisis.
-
-But *send* was broken.
-
-No. That was too simple. They could send some things. Messages by slow foot. Packets, maybe, if any route remained. But send without answer would become another bottle in dark water. Another warning arriving after the *Wren.*
+Merrow had observed itself with uncommon grace. It had answered itself inside the boundary of its own crisis. But *send* was broken — or nearly. They could send some things by slow foot. Packets, maybe. But send without reply would become another bottle in dark water. Another warning arriving after the *Wren.*
 
 "What are you thinking?" Sera asked.
 
@@ -655,7 +613,7 @@ Sera's expression was unreadable.
 
 Lena looked down at her bowl.
 
-"Anneth taught me the wrong story can save people. Drevin taught me the wrong story can choose victims. Varik taught me one answer can move a room. You taught me people can hold without one. Jun taught me a true thing can die in caveats. Veya taught me the old answers were abandoned, not stolen. Cai taught me local fixes can save one place and blind the rest. Lio taught me answering can become a center if it isn't careful. Arin—" Her voice caught, then steadied. "Arin is teaching me that staying sees what moving misses. And now Merrow is teaching me that holding is real and not enough."
+"Anneth taught me the wrong story can save people. Drevin taught me the wrong story can choose victims. You taught me people can hold without one answer. Cai taught me local fixes can save one place and blind the rest. And now Merrow is teaching me that holding is real and not enough."
 
 She laughed once, without humor.
 
@@ -683,17 +641,11 @@ That almost broke Lena, absurdly. The laugh that came this time was real and wet
 
 Lena wiped at one eye with the heel of her hand and pretended it was smoke.
 
-"I don't know what form would make this enough," she said. "Not Varik's form. Not one list, one answer, one man with a slate. Not the old center. Not Sera with blankets and tea. Not Cai's hidden notebooks. Not Lio's unsignposted office. Something that lets holding become adaptation. Something that lets this place learn with the next place before both of them are smaller."
+"I don't know what form would make this enough," she said. "Not Varik's form. Not one list, one answer, one man with a slate. Not Sera with blankets and tea. Not Cai's hidden notebooks. Something that lets this place learn with the next place before both of them are smaller."
 
 Sera breathed in.
 
-The words had gone too far. Lena could feel it. She had approached the edge of something she did not yet have the right to name. The book of the world in her chest opened to a page she could not read.
-
-*Something that lets holding become adaptation.*
-
-It was not the form. Not yet.
-
-Only the wound where the form needed to be.
+The words had gone too far. Lena could feel it. She had approached the edge of something she did not yet have the right to name.
 
 A boy ran up to them then — Tev, from the flour count, face pale with importance.
 
@@ -784,12 +736,6 @@ Lena wrote the line carefully.
 
 *Need outgoing acknowledgment if received.*
 
-It was not enough. It did not solve the gate. It did not create the form. It did not tell Merrow how to become more than a held room inside a shrinking world.
-
-But it was the next motion.
-
-*Observe. Send. Answer.*
-
 Outside, the arch remained dark.
 
 Inside, Merrow wrote itself down.
@@ -803,10 +749,6 @@ Lena copied conditions.
 Nessa corrected anything that smelled like blame pretending to be fact.
 
 By morning, they had six packets.
-
-Not a system. Not salvation. Not adaptation yet.
-
-A community, holding, had made a record of the moment holding met its limit.
 
 At first light, two runners left by the lower road. One toward the old mill path, one toward a ridge trail that might still connect to a farm road, which might still reach a boat, which might still reach somewhere with a gate not yet dark. Everyone understood the uncertainty. No one dressed it up.
 
@@ -827,8 +769,6 @@ Sera said, "I used to think answer meant comfort."
 Lena nodded.
 
 The runners disappeared around the bend.
-
-For a moment she imagined the packets moving outward like small animals through a burning field, unlikely and stubborn and easy to lose. One might reach nobody. One might reach the wrong person. One might be opened too late. One might become rumor before it became use. One might reach Lio, or Cai, or some other room with no sign where people kept the names of those who still answered. One might reach Arin. Probably not. But perhaps some other brother, some other person by wrong water, some other stayer watching a familiar place become strange.
 
 Sera touched Lena's sleeve.
 
@@ -863,20 +803,6 @@ Nessa shouted back that civilization had survived worse.
 The argument continued, ordinary and precious, beneath a dead gate.
 
 Lena adjusted her pack. Inside it rode Veya's copies, Jun's pages, Lio's lines, Cai's questions, Arin's winter-skin, and now Merrow's failure notes. Not freight. Not answers. Contradictions, each one refusing to cancel the others.
-
-The wrong story could save.
-The wrong story could kill.
-One answer could move.
-One answer could close.
-People could hold.
-Holding was not enough.
-Local fixes saved.
-Hidden fixes blinded.
-Staying saw.
-Moving connected.
-Records preserved.
-Records failed.
-A gate could die above a community doing nearly everything right.
 
 She had no form for carrying all of that.
 

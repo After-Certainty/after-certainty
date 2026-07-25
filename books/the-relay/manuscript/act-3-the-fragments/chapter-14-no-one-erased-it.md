@@ -4,15 +4,15 @@ Lower Vellum did not look like a place where records went to die.
 
 That was Lena's first surprise.
 
-She had expected dust, silence, sealed shelves, the same dry lunar hush as the retention annex above. She had expected more boxes and older boxes, more rooms that pretended their neglect was procedure. Instead the lift opened into noise.
+She had expected dust, silence, sealed shelves, the same dry lunar hush as the retention annex above. Instead the lift opened into noise.
 
 Not chaos. Work.
 
-A long under-city had been cut into the anchor-rock beneath the archive moon's main dock, a service settlement grown around copy-houses, binding rooms, ink kitchens, repair stalls, paper baths, and the small stubborn economies that gather under institutions which forget they depend on hands. The ceiling hung low in places and very high in others, depending on which century had done the cutting. Pipes crossed overhead like exposed veins. Heated air moved in damp breaths from the paper rooms, warmer than the archive above and smelling of starch, charcoal, vinegar, boiled fiber, old leather, glue, and tea.
+A long under-city had been cut into the anchor-rock beneath the archive moon's main dock, a service settlement grown around copy-houses, binding rooms, repair stalls, and the small stubborn economies that gather under institutions which forget they depend on hands. Near the lift an ink kitchen spilled heat into the passage; two apprentices argued over whether the black batch was too thin to survive damp storage, while a third stirred without looking up. Beyond them, sheets hung dripping in a paper bath until they would take ink without buckling. The ceiling hung low in places and very high in others, depending on which century had done the cutting. Heated air moved in damp breaths from the paper rooms, warmer than the archive above and smelling of starch, vinegar, boiled fiber, and glue.
 
 Everywhere, people were making memory physical.
 
-Sheets hung from lines in soft ranks. Children carried drying boards wider than their shoulders. A woman in a stained apron polished old glass negatives with circles of her thumb. Two men argued over whether a cracked atlas should be repaired according to the second binding or the first, because the first was original but the second was the one everyone had used, and apparently that mattered enough to raise voices. At a bench near the lift, a girl no older than thirteen scraped old glue from a spine with such severity that Lena straightened, almost ashamed, as she passed.
+Sheets hung from lines in soft ranks. Children carried drying boards wider than their shoulders. Two men argued over whether a cracked atlas should be repaired according to the second binding or the first, because the first was original but the second was the one everyone had used. At a bench near the lift, a girl no older than thirteen scraped old glue from a spine with such severity that Lena straightened as she passed.
 
 Toma moved through it with the offended ease of a man returning to a place that knew him too well.
 
@@ -26,23 +26,15 @@ Toma moved through it with the offended ease of a man returning to a place that 
 
 "In Vellum it is not."
 
-He kept the folio tucked beneath one arm, one hand pressed flat over it as if the documents might take fright and bolt. Since leaving the deaccession room, he had become less theatrical. That worried her more than his earlier cheer. Cheer was armor. This was attention.
+He kept the folio tucked beneath one arm, one hand pressed flat over it. Since leaving the deaccession room, he had become less theatrical. That worried her more than his earlier cheer. Cheer was armor. This was attention.
 
-They passed a shop where three old women sat under a bright lamp copying names from a warped memorial slate onto narrow strips of white fiber. The names had been carved too shallowly the first time and water had got in; the letters were lifting out of themselves, grief becoming blank by weather. One woman read the stone. One repeated each name. The third wrote. After every seventh name they traded roles, not speaking except to correct a letter.
-
-No seal. No office. No machine stamp.
-
-Just three people refusing to let the dead become smooth.
+They passed a shop where three old women sat under a bright lamp copying names from a warped memorial slate onto narrow strips of white fiber. One read the stone. One repeated each name. The third wrote. After every seventh name they traded roles, not speaking except to correct a letter.
 
 Lena slowed without meaning to.
 
 Toma did not look back. "If you stop for every act of resistance down here, we'll die before the first stair."
 
-"Is that what this is?"
-
-"It's what they would call it if it failed. While it works they call it maintenance."
-
-They turned into a narrower passage where the walls were papered with notices in a dozen hands: missing ledgers, apprentice hours, ink-ration disputes, funeral meal, lost child's shoe, found child's shoe, copied map available for inspection, copied map disputed, copied map corrected, do not boil hide glue in the east kitchen after second bell, *Veya says this means you.*
+They turned into a narrower passage where the walls were papered with notices: missing ledgers, apprentice hours, funeral meal, copied map disputed, do not boil hide glue in the east kitchen after second bell, *Veya says this means you.*
 
 Toma stopped before that last notice.
 
@@ -50,9 +42,9 @@ Toma stopped before that last notice.
 
 The door opened before the knock finished.
 
-The woman on the other side was not what Lena expected. That was beginning to feel like the world's only remaining form of honesty.
+The woman on the other side was not what Lena expected.
 
-Veya Sol was small and old and very straight, with silver hair braided close to her skull and hands so clean they looked ceremonial. Her sleeves were rolled to the elbow. Her forearms were scarred with old burns, pale against brown skin, the marks of someone who had spent decades close to hot presses, acid baths, or both. She wore no badge. She needed none. The room behind her had arranged itself around her the way a good crew arranges itself around a competent pilot: not by deference exactly, but by unconscious orientation.
+Veya Sol was small and old and very straight, with silver hair braided close to her skull and hands so clean they looked ceremonial. Her sleeves were rolled to the elbow. Her forearms were scarred with old burns, pale against brown skin. She wore no badge. She needed none. The room behind her had arranged itself around her the way a good crew arranges itself around a competent pilot: not by deference exactly, but by unconscious orientation.
 
 She looked at Toma first.
 
@@ -70,7 +62,7 @@ She looked at Toma first.
 
 Veya's eyes moved to Lena.
 
-In them Lena felt the strange discomfort of being read by someone who was not guessing. Veya took in the pack, the dead scanner panel under her arm, the worn cuff where the duty-receipt still rode, the road-filth worked into seams no washing had touched, the way she stood with her weight ready to move because sitting down had become dangerous. Then she looked at Toma's arm over the folio.
+In them Lena felt the strange discomfort of being read by someone who was not guessing. Veya took in the pack, the dead scanner panel under her arm, the worn cuff where the duty-receipt still rode, the way she stood with her weight ready to move. Then she looked at Toma's arm over the folio.
 
 Her face changed.
 
@@ -98,9 +90,9 @@ Toma looked past her shoulder. "Is the kettle hot?"
 
 Veya held the doorway another moment. Then she stepped aside.
 
-Her workshop was smaller than the noise outside had suggested and fuller than the archive above would have allowed. Nothing in it was stored as if storage were the point. Everything was either being used, drying after use, waiting its turn, or watching with the injured dignity of a thing that knew its turn had been postponed for years but not forgotten.
+Her workshop was smaller than the noise outside had suggested. Nothing in it was stored as if storage were the point. Everything was either being used, drying after use, or waiting its turn.
 
-A long table stood under three lamps. On it lay a map in pieces, each fragment weighted with smooth stones. Along one wall, shallow drawers held fibers sorted by color and age. Along another were shelves of repaired books, not handsome repairs but honest ones — stitches visible, patches matched for strength rather than beauty, old covers braced from inside so the original damage remained readable. Near the back, beside a stove with a kettle steaming on it, a row of children's copy-slates leaned against the wall. Each bore the same sentence in careful practice hands.
+A long table stood under three lamps. On it lay a map in pieces, each fragment weighted with smooth stones. Along one wall, shelves of repaired books — stitches visible, patches matched for strength rather than beauty. Near the back, beside a stove with a kettle steaming on it, a row of children's copy-slates leaned against the wall. Each bore the same sentence in careful practice hands.
 
 *A copy is not a replacement. It is a promise to answer.*
 
@@ -116,7 +108,7 @@ Toma set the folio on the long table, both hands now, careful despite himself.
 
 "We found the transfer papers," he said. "Local Return Functions to Central Assurance. The objections. Veya Marren. Veya Sol's chair inventory. The whole knife."
 
-Veya did not move toward the folio. That was the first thing Lena marked. Toma had carried it as proof, as weapon, as wound. Veya looked at it the way a person looks at a grave she already visits.
+Veya did not move toward the folio. Toma had carried it as proof, as weapon, as wound. Veya looked at it the way a person looks at a grave she already visits.
 
 "You didn't find it," she said. "It was where I put it."
 
@@ -152,7 +144,7 @@ Veya's eyes flickered then. Not away. Down, briefly, to the folio. "No."
 
 Toma made an irritated sound. "Veya."
 
-"No," she said again, and this time the word carried the whole room with it. Even the kettle seemed to lower its voice. "That is the story a person tells when she has finally found a document large enough for her anger."
+"No," she said again, and this time the word carried the whole room with it. "That is the story a person tells when she has finally found a document large enough for her anger."
 
 Lena felt heat rise in her face.
 
@@ -160,7 +152,7 @@ Lena felt heat rise in her face.
 
 "Everyone says that at the beginning of one."
 
-Toma leaned both hands on the table. "The memorandum is plain. Local Return work was transferred. The forms were changed. Answer received disappears. Stayer Notices reclassified as folklore. Peripheral Attunement dissolved into Mechanical Assurance and then into nothing. You kept the papers because you knew."
+Toma leaned both hands on the table. "The memorandum is plain. Local Return work was transferred. The forms were changed. Answer received disappears. Stayer Notices reclassified as folklore. You kept the papers because you knew."
 
 "I kept the papers because my grandmother kept the papers."
 
@@ -194,7 +186,7 @@ Veya turned to her fully.
 
 Toma went still.
 
-Veya finally reached for the folio. She untied it without looking down, as if her hands had done the work so many times they no longer required sight. She did not open to the memorandum. She passed that, and the objections, and the transfer lists, and the chair inventory, until she found a page near the back Lena had not seen.
+Veya finally reached for the folio. She untied it without looking down. She did not open to the memorandum. She passed that, and the objections, and the transfer lists, and the chair inventory, until she found a page near the back Lena had not seen.
 
 It was a schedule.
 
@@ -210,8 +202,6 @@ Lena leaned over.
 
 "Now here."
 
-Another line.
-
 *Manual forwarding burden exceeds local capacity. Recommend reduction of non-critical seasonal observations until consolidation completes.*
 
 "Here."
@@ -222,13 +212,9 @@ Another line.
 
 *No reply received. Resent. No reply received. Resent. No reply received.*
 
-The marks continued down the page, one after another, shrinking as the writer grew tired.
+The marks continued down the page, shrinking as the writer grew tired.
 
-Veya turned another sheet. Same office family, later year. Fewer entries.
-
-Another sheet. Fewer still.
-
-Another. A printed notice.
+Veya turned another sheet. Same office family, later year. Fewer entries. Another. A printed notice.
 
 *Local offices may discontinue duplicate acknowledgment where central receipt has been issued.*
 
@@ -258,11 +244,11 @@ Lena stared at the page. It did not look like murder. It looked like a rule inve
 
 "That someone else was still paying attention." Veya closed the folio with one hand. "Exactly."
 
-The room seemed to tilt. Not physically. There was no gate stuttering, no deck groaning under a crowd's weight, no tide-line at chest height across a stone road. Only a table, a folio, an old woman with clean hands, and a sentence so ordinary Lena almost could not bear it.
+The room seemed to tilt. Not physically. Only a table, a folio, an old woman with clean hands, and a sentence so ordinary Lena almost could not bear it.
 
 *Someone else was still paying attention.*
 
-It was the most familiar sentence in the world. It was what every passenger at Vesper had believed when the board said *suspended pending review.* It was what Oyo had believed at Khoury, waiting for an owner and a signature. It was what Pell had stopped believing without ever saying so, running his waystation because the station wanted running and no one else seemed to know. It was what Jun had hidden behind until the banner took his curve and made it lie. It was what Lena had believed her whole working life, stepping through doors she called routes and never once looking down at the chasm under them.
+It was the most familiar sentence in the world. It was what every passenger at Vesper had believed when the board said *suspended pending review.* It was what Oyo had believed at Khoury, waiting for an owner and a signature. It was what Jun had hidden behind until the banner took his curve and made it lie. It was what Lena had believed her whole working life, stepping through doors she called routes and never once looking down.
 
 "They stopped replying," Veya said. "Then they stopped expecting replies. Then they stopped noticing they had stopped expecting them. That is not erasure. That is abandonment made administrative."
 
@@ -282,9 +268,9 @@ Toma's face had gone hard, but not in disagreement. In the more painful conditio
 
 "Then there is guilt."
 
-"Of course there is guilt." Veya looked almost offended. "Do not mistake me for a forgiving woman. There is guilt in every room that made attention look inefficient. There is guilt in every signature that called return work duplicate because the signer had never waited for an answer in a place the center forgot. There is guilt in my grandmother's supervisor, who told her to stop sending packets after second notice. There is guilt in her, too, because eventually she did stop. There is guilt in me because I teach children how to copy dead forms instead of stealing a transmitter and making someone hear us." She laid her palm flat on the folio. "But guilt is not the same as a culprit. And if you go looking only for a culprit, you will misunderstand the body."
+"Of course there is guilt." Veya looked almost offended. "Do not mistake me for a forgiving woman. There is guilt in every signature that called return work duplicate because the signer had never waited for an answer in a place the center forgot. There is guilt in my grandmother's supervisor, who told her to stop sending packets after second notice. There is guilt in her, too, because eventually she did stop." She laid her palm flat on the folio. "But guilt is not the same as a culprit. And if you go looking only for a culprit, you will misunderstand the body."
 
-The kettle began to hiss. Veya crossed to it, lifted it from the stove, and poured three cups without asking whether anyone wanted tea. The tea was dark and bitter and smelled faintly of smoke. Toma accepted his like a man accepting a legal penalty. Lena took hers because refusing would have required knowing what she wanted instead.
+The kettle began to hiss. Veya crossed to it, poured three cups without asking whether anyone wanted tea. The tea was dark and bitter. Toma accepted his like a man accepting a legal penalty. Lena took hers because refusing would have required knowing what she wanted instead.
 
 Veya sat at the table. She did not invite them to sit. Toma did. Lena followed.
 
@@ -324,7 +310,7 @@ She rose and went to the shelf behind the stove. From it she took a small box of
 
 Inside were strips of paper, each one folded once.
 
-"Her family was a return family," Veya said. "Not noble. Not official in a way the center respected. Three generations on outer acknowledgments. They lived by reply marks. Her mother could tell a corridor was sick by which stations stopped answering in pairs. Her grandfather knew six slow routes by the smell of the ink used in their receipt books, which is a disgusting skill and therefore probably useful."
+"Her family was a return family," Veya said. "Three generations on outer acknowledgments. They lived by reply marks. Her mother could tell a corridor was sick by which stations stopped answering in pairs."
 
 She unfolded one strip.
 
@@ -336,7 +322,7 @@ She unfolded one strip.
 
 Lena looked up sharply.
 
-Veya continued as though she had not noticed. "The return room sounded like paper moving with purpose. People reading aloud. Clerks arguing over whether a silence counted as a response. Runners in and out. Stamps, yes, but also voices. After consolidation, the room became quieter every season. Not immediately. That would have been easier. Work remained. Then less work. Then work that did not come back. Then work waiting for central receipts. Then only copies of things nobody would answer." She looked at the strip in her hand. "My grandmother said the worst day was not the closure. The worst day was three years before, when she realized everyone was still coming to the room out of habit, but no one expected the room to change anything anymore."
+Veya continued as though she had not noticed. "The return room sounded like paper moving with purpose. People reading aloud. Clerks arguing over whether a silence counted as a response. After consolidation, the room became quieter every season. Not immediately. That would have been easier. Work remained. Then less work. Then work waiting for central receipts. Then only copies of things nobody would answer." She looked at the strip in her hand. "My grandmother said the worst day was not the closure. The worst day was three years before, when she realized everyone was still coming to the room out of habit, but no one expected the room to change anything anymore."
 
 She handed the strip to Lena.
 
@@ -364,7 +350,7 @@ Veya reached into the box and drew out, from beneath the paper strips, a tiny da
 
 There was the chair.
 
-Not in the inventory. Not in the denied storage request. Not in the official paper where it had become furniture without value. Here, in a little wooden box, kept by a child who understood that if you could not save the chair, you might save the part small enough to hide.
+Not in the inventory. Not in the denied storage request. Here, in a little wooden box, kept by a child who understood that if you could not save the chair, you might save the part small enough to hide.
 
 Lena felt something in her chest shift, painfully.
 
@@ -380,7 +366,7 @@ The line should have been funny. It was not.
 
 Veya closed the box and rested both hands on it.
 
-"My grandmother grew up believing someone had stolen the work. Her mother believed it until the day she died. My own mother believed it on bad days and taught against it on better ones. Whole institutions gone from the record. Of course they thought purge. Of course they thought cover-up. It is a sensible conclusion, if you are standing close to the wound."
+"My grandmother grew up believing someone had stolen the work. Her mother believed it until the day she died. Whole institutions gone from the record. Of course they thought purge. It is a sensible conclusion, if you are standing close to the wound."
 
 "Toma thought it."
 
@@ -390,7 +376,7 @@ Veya closed the box and rested both hands on it.
 
 "Noted."
 
-Veya ignored him. "For years, my grandmother looked for the order that did it. The true order. Not the public memorandum. The secret one. The one that said *stop listening to the edge.* She found budgets. Transfer notes. Reclassification schedules. Staffing reductions. Technical reviews. Arguments about standards. Complaints that local observers sent too much noise. Complaints that central offices never answered. Complaints that the old return families resisted modernization. Complaints that the new system produced cleaner summaries. She found arrogance. She found laziness. She found fear of embarrassment. She found exhaustion. She found offices protecting themselves from work they could not measure. She found no knife."
+Veya ignored him. "For years, my grandmother looked for the order that did it. The true order. Not the public memorandum. The secret one. The one that said *stop listening to the edge.* She found budgets. Transfer notes. Reclassification schedules. Complaints that local observers sent too much noise. Complaints that central offices never answered. She found arrogance. Laziness. Exhaustion. Offices protecting themselves from work they could not measure. She found no knife."
 
 "Maybe she didn't find it," Toma said.
 
@@ -402,7 +388,7 @@ Veya looked at him with real affection and real impatience. "I love archivists b
 
 Silence moved through the room.
 
-Outside, through the half-open door, someone laughed in the corridor. A young laugh. Then a scolding voice told them not to run with wet sheets. Life, badly organized, continuing.
+Outside, through the half-open door, someone laughed in the corridor. Then a scolding voice told them not to run with wet sheets.
 
 Veya turned back to Lena.
 
@@ -410,19 +396,13 @@ Veya turned back to Lena.
 
 Lena looked down at the table.
 
-The sentence was less satisfying than erasure. Less warm. It gave her nowhere to put her anger except everywhere, which meant nowhere useful. No villain at the footings. No hidden hand pulling returns out of ledgers. No one who could be caught and made to reopen the roads. Just people, over generations, choosing the smaller burden, the cleaner form, the summary over the reply, the center over the edge, the convenience of not being bothered by signals they did not know how to use.
+The sentence was less satisfying than erasure. Less warm. It gave her nowhere to put her anger except everywhere, which meant nowhere useful. No villain. No hidden hand. Just people, over generations, choosing the smaller burden, the cleaner form, the summary over the reply.
 
 That was worse.
 
-The sabotage story had been a lie because it made the world too simple. Toma's erasure story was not the same lie, not exactly. It had documents. It had closed offices. It had signatures. It had victims. It was true enough to grip.
-
-But Veya's grief made it larger and colder.
-
-A network could die not because someone hated it, but because too many people loved the part they could see and let the rest become someone else's work.
+Toma's erasure story had documents. It had closed offices. It had signatures. It was true enough to grip. But Veya's grief made it larger and colder.
 
 "What do you do with that?" Lena asked.
-
-Veya's expression did not change, but the room seemed to wait with her.
 
 "That is the question people ask when they realize blame will not repair the roof."
 
@@ -432,7 +412,7 @@ Veya's expression did not change, but the room seemed to wait with her.
 
 Toma snorted softly despite himself.
 
-Veya opened the folio again, but not to the closure documents. She withdrew a loose page tucked near the back, one Lena had missed. It was not from the old office. The paper was newer, though still aged. A teaching copy.
+Veya opened the folio again, but not to the closure documents. She withdrew a loose page tucked near the back. A teaching copy.
 
 At the top, in a strong hand, someone had written:
 
@@ -462,7 +442,7 @@ She thought of Jun's pages folded behind the scanner. He had sent. She had never
 
 Veya's eyes sharpened, and Lena realized she had asked something that mattered.
 
-"Not agreement," Veya said. "That was the center's mistake, among others. It wanted confirmation. Reliable, unreliable, priority, non-critical. Answer is simpler and harder. Received. Compared. Corrected. Carried onward. Sometimes answer is *no.* Sometimes it is *your marsh-light is not our marsh-light.* Sometimes it is *we saw it too.* Sometimes it is *do not send this again until the second sign.* But without answer, the first observer never learns what their seeing became, and the next observer never learns what came before. Knowledge becomes weather. It passes over people and leaves them damp."
+"Not agreement," Veya said. "That was the center's mistake, among others. It wanted confirmation. Reliable, unreliable, priority, non-critical. Answer is simpler and harder. Received. Compared. Corrected. Carried onward. Sometimes answer is *no.* Sometimes it is *your marsh-light is not our marsh-light.* Sometimes it is *we saw it too.* Sometimes it is *do not send this again until the second sign.* But without answer, the first observer never learns what their seeing became, and the next observer never learns what came before."
 
 Lena let out a breath that was almost a laugh and not at all one.
 
@@ -482,23 +462,9 @@ Lena let out a breath that was almost a laugh and not at all one.
 
 "No."
 
-The dead panel under Lena's arm seemed heavier suddenly, though it had not changed. She remembered the first Vesper notice: *family board not syncing.* A bad sentence, but one that told people where the fear was. Then the improved notice: *suspended pending review.* A sentence with all answer removed. No who. No what. No return path. Authority without reply.
+The dead panel under Lena's arm seemed heavier suddenly. She remembered the first Vesper notice: *family board not syncing.* Then the improved one: *suspended pending review.* A sentence with all answer removed. No who. No what. No return path.
 
-She remembered Pell's forms, sent somewhere, read by no one or by someone who made no sound back.
-
-She remembered Nadi's circuit, feeding four thousand with a logbook no one had asked to read.
-
-She remembered Anneth, where the Watch had observed the wrong tide and answered with a barricade because the only story that answered them was sabotage.
-
-She remembered the Halen girl at Drevin: *My uncle's in there. You only — there's six.* Lena had answered with *I couldn't,* which was true and useless and the only thing she had.
-
-She remembered Varik's slate, names checked because he understood that people wanted not only work but the proof that someone had them in hand.
-
-He answered. That was part of his power.
-
-Wrongly sometimes. Too cleanly. With one shape where the world needed many. But he answered.
-
-No wonder people followed him.
+She remembered Varik's slate, names checked because he understood that people wanted not only work but the proof that someone had them in hand. He answered. Wrongly sometimes. Too cleanly. But he answered. No wonder people followed him.
 
 "What do you want from me?" Lena asked.
 
@@ -548,7 +514,7 @@ Lena went still.
 
 Toma looked away. Not surprised. Respectful.
 
-"He was twenty-eight," Veya said. "A paper-runner. Too curious, too proud of his feet, always taking stairs two at a time in low gravity because he liked to pretend falling was a skill. There was a mold outbreak in the lower east stacks. Small thing. A local thing. One copy-house saw it first — green thread in the binding glue, not dangerous unless heated. They sent a notice upward. The intake marked it non-critical because the report came without central verification. The copy-house sent again. No answer. They sealed their own room and waited. Two days later, the heating vents carried spores through three workshops, including his. He was binding old fever records, which is the kind of joke only the dead make well. He breathed enough of it before anyone knew to put masks on."
+"He was twenty-eight," Veya said. "A paper-runner. Too curious, too proud of his feet. There was a mold outbreak in the lower east stacks. Small thing. A local thing. One copy-house saw it first — green thread in the binding glue, not dangerous unless heated. They sent a notice upward. The intake marked it non-critical because the report came without central verification. The copy-house sent again. No answer. They sealed their own room and waited. Two days later, the heating vents carried spores through three workshops, including his. He was binding old fever records. He breathed enough of it before anyone knew to put masks on."
 
 She folded her hands.
 
@@ -562,7 +528,7 @@ Veya's voice did not break. That somehow made it worse.
 
 The kettle clicked as it cooled.
 
-Outside the room, the under-city went on making memory physical. Someone called for more thread. Someone answered. The answering voice traveled down the hall and back.
+Outside the room, someone called for more thread. Someone answered. The answering voice traveled down the hall and back.
 
 Lena sat down again.
 
@@ -574,7 +540,7 @@ This time carefully.
 
 It was not absolution. It was receipt.
 
-Toma reached for his tea and drank half of it in one swallow, perhaps to have something to do with his mouth.
+Toma reached for his tea and drank half of it in one swallow.
 
 After a while, Lena said, "Then the closures are a symptom."
 
@@ -582,7 +548,7 @@ Veya nodded once.
 
 "Of what?"
 
-"Of the same thing that is killing the gates now, I think. Though I cannot prove that, and proof is a hungry animal." She looked toward the copy-slates. "The network did not fail because one office closed two hundred years ago. The office closed because the network had already begun believing that knowledge could be centralized without loss. That local variation was noise until confirmed. That reply was waste if receipt could be logged. That the center could know the edge by summary. That the future would remain enough like the past for old watchers to become quaint."
+"Of the same thing that is killing the gates now, I think." She looked toward the copy-slates. "The network did not fail because one office closed two hundred years ago. The office closed because the network had already begun believing that knowledge could be centralized without loss. That local variation was noise until confirmed. That reply was waste if receipt could be logged."
 
 "Folklore," Lena said.
 
@@ -590,19 +556,11 @@ Veya nodded once.
 
 Toma whispered, "That is excellent."
 
-Veya ignored him again. "The gates continued to work, so the loss looked harmless. That is how systems learn the wrong lesson. Nothing broke immediately. So the closures were judged efficient. The ledgers thinned, and the doors still opened. The rooms went quiet, and cargo still moved. The return families aged out, and the lights stayed on. Every year the absence did not kill anyone important became evidence that the absence did not matter."
+Veya ignored him again. "The gates continued to work, so the loss looked harmless. The ledgers thinned, and the doors still opened. The rooms went quiet, and cargo still moved. Every year the absence did not kill anyone important became evidence that the absence did not matter."
 
 "Until it did."
 
 "Until it had mattered for so long that no one living remembered what the mattering was supposed to look like."
-
-Lena thought of Osko's tuning-recorder, the needles parked at the margin, waiting for a far answer that had not come in years. Habit, he had said. So he'd know the day a needle moved. Nothing had moved. He kept the drum turning anyway.
-
-A useless habit. A porch light for a street that had stopped expecting.
-
-Or not useless.
-
-Not if someone finally asked what the light had been for.
 
 "Can it be restarted?" Lena asked.
 
@@ -668,11 +626,9 @@ The stone was warm from the child's hands.
 
 "And without answer?"
 
-"Without answer, every warning becomes weather. Every correction becomes rumor. Every person who sees becomes lonely. Then someone like Varik comes along and offers a single answer large enough to end the loneliness."
+"Without answer, every warning becomes weather. Every person who sees becomes lonely. Then someone like Varik comes along and offers a single answer large enough to end the loneliness."
 
 Lena looked up.
-
-Veya knew the name. Of course she did. Word traveled. Varik's word traveled better than most.
 
 "You know him?"
 
@@ -680,19 +636,9 @@ Veya knew the name. Of course she did. Word traveled. Varik's word traveled bett
 
 "He helps people."
 
-"I imagine he does."
+"I imagine he does. That makes him possible."
 
-"You say that like it makes him worse."
-
-"No. It makes him possible."
-
-Lena sat with that.
-
-Varik was possible because the return rooms had gone quiet. Because the edge had no answer from the center and the center had no answer from the edge. Because Oyo had a hold full of food and no one who could sign. Because Anneth had a wrong tide and only the sabotage story told the Watch what to do with it. Because Jun's caveats could not be picked up by frightened people, and Sera's calm could not tell a family whether a ridge path was passable, and Lena's eyes could not see a list she had never received.
-
-*One answer, today.*
-
-Not evil. A replacement organ, grown wrong but necessary in a body whose own pathways had failed.
+Lena sat with that. Varik was possible because the return rooms had gone quiet. Because the edge had no answer from the center. *One answer, today.* Not evil — a replacement grown wrong but necessary in a body whose pathways had failed.
 
 "What do I do with this?" Lena asked.
 
@@ -776,11 +722,7 @@ The packet weighed almost nothing. Lena took it with both hands.
 
 "You tell me."
 
-Lena almost protested, but the words would not form. She looked at the copy-slates, the children's uneven hands, the memorial names, the screw in its small wooden box, Toma pretending not to be moved by being used well, Veya with her clean hands and burn-scarred arms, the folio that did not prove what Toma wanted and proved something worse.
-
-*How does a true word reach the person who needs it before they're a name on a board?*
-
-The question had brought her here. It had not been answered. It had been made more demanding.
+Lena almost protested, but the words would not form. She looked at the copy-slates, the screw in its box, the folio that did not prove what Toma wanted and proved something worse.
 
 "I don't know yet," Lena said.
 
@@ -798,7 +740,7 @@ Veya touched his cheek, unexpectedly, with two fingers. "No. You were wrong in t
 
 He blinked and became very interested in the corridor.
 
-Lena stepped out after him. The under-city's noise met them: presses, voices, water, paper, the ordinary clatter of people keeping things from vanishing. The air felt thicker than the archive above, heavier with damp and breath and answer.
+Lena stepped out after him. The under-city's noise met them: presses, voices, paper, the ordinary clatter of people keeping things from vanishing.
 
 Behind her, Veya said, "Courier."
 
@@ -846,11 +788,7 @@ Toma considered that. "Right now, it matters that you do not let her grief make 
 
 They reached the lift. A boy came out carrying a tray of wet pages, walking carefully, eyes fierce with the importance of not dropping what he had been trusted to carry. Toma stepped aside without mockery. Lena did too.
 
-The boy passed between them, sheets trembling but held.
-
-When the lift doors closed, Vellum's under-city disappeared behind metal, but the sound of it seemed to remain in Lena's ears: scrape, press, boil, call, answer. Not enough to save the network. Not enough to bring back the *Wren.* Not enough to open the Tarn.
-
-Enough to make the archive above feel less like memory and more like accusation.
+When the lift doors closed, Vellum's under-city disappeared behind metal, but the sound of it seemed to remain: scrape, press, call, answer. Not enough to save the network. Enough to make the archive above feel less like memory and more like accusation.
 
 The lift rose.
 
@@ -870,8 +808,6 @@ Toma watched the floor numbers with exaggerated resentment. "Where now?"
 
 "Everyone refuses."
 
-"A fair summary of civilization."
-
 "She may know what people changed locally and never logged."
 
 Toma looked at her. "You heard Veya say no institutions will come back because you found a folio."
@@ -880,7 +816,7 @@ Toma looked at her. "You heard Veya say no institutions will come back because y
 
 "And yet?"
 
-"And yet if no one erased it, then no one can simply restore it by finding the eraser." Lena watched the lift lights climb. "But people still did pieces of the work. They must have. Gates kept running. Routes corrected. Local fixes. Hand knowledge. Bad maps. Lists. If the old answer died, maybe some of the motions survived without the name."
+"And yet if no one erased it, then no one can simply restore it by finding the eraser." Lena watched the lift lights climb. "But people still did pieces of the work. Gates kept running. Local fixes. Lists. If the old answer died, maybe some of the motions survived without the name."
 
 Toma's expression sharpened.
 
@@ -892,11 +828,9 @@ Toma's expression sharpened.
 
 The lift slowed.
 
-Lena held the dead panel tighter against her side. For once it did not feel only dead. It felt like the broken piece of a question that had become larger than Vesper, larger than Arin, though not separate from him. Never separate.
+Lena held the dead panel tighter against her side. For once it did not feel only dead.
 
 The doors opened onto the dry, low-lit corridor of the archive moon.
-
-Above them, records slept in clean rooms. Below them, people copied what they could before water and neglect and efficiency took it. Somewhere far beyond both, Arin might be standing by a lake that had come out of season, writing down the wrongness because staying had taught him to see it.
 
 *No one erased it.*
 

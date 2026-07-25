@@ -16,8 +16,6 @@ The gauge was lying.
 
 Not intentionally. Instruments had the innocence of things that could only be wrong in the way they were built to be wrong. The gauge measured level against the stone throat of the lock, and the level, strictly speaking, was fine. A clerk in a dry office could read that number and stamp the morning as stable. But the Tarn was not a number in a throat of stone. It was a thousand moods of water moving through beds and channels and undercurrents, fed by mountain melt and mirror-rain and the black springs that came up from below so cold they could turn a man's hand clumsy in summer. The level could hold while the lake changed its mind entirely.
 
-That was the sort of thing you knew only by staying.
-
 Arin stood on the wet boards with one boot braced against the lock rail and listened to the south chain speak through its rust.
 
 Not with romance. The chain did not whisper secrets. It creaked. It scraped. It complained like an old animal asked to stand after a long night. But every complaint had shape. Too high a scrape meant grit in the lower wheel. Too dry a snap meant the second pulley needed grease. A dull lag between the crank and the gate meant the water on the far side was pressing wrong, either by level or by mood, and mood was not a category any office form had ever been built to respect.
@@ -126,13 +124,7 @@ That was too accurate to reward.
 
 He stepped out from under the awning. The mist had begun to lift in shreds now, late and ugly, pulling apart instead of rising. Beyond the lock mouth, the Tarn spread under a dim sky, wide and dark and crowded with islands that were not really islands when the water was honest — reed mats, sand bars, old stone foundations, half-drowned woods, all of them appearing and vanishing across the year according to rules outsiders mistook for chance. In spring, the mirror fields opened. In summer, the southern channels warmed and the bluefish came shallow. In redleaf, the lake gave back the dead branches it had borrowed. In deep cold, the locks sang under ice, and everyone who knew anything walked differently.
 
-This year the lake was doing four seasons at once and none of them well.
-
-That was the wrongness.
-
-Not disaster. Disaster would have been easier. A flood. A drought. A gate failure visible from the ridge. This was subtler and therefore less forgivable: bluefish deep in warm weeks, reeds flattening under the wrong wind, fog thick when the moon was thin, insect hatches returning after they had already finished, black-spring cold showing up in channels where children swam in high summer. Every sign could be explained alone. Together, they made the old people quiet.
-
-Arin had learned to trust quiet in competent people.
+This year the lake was doing four seasons at once and none of them well: bluefish deep in warm weeks, reeds flattening under the wrong wind, fog thick when the moon was thin, insect hatches returning after they had already finished. Every sign could be explained alone. Together, they made the old people quiet.
 
 He took the narrow skiff because the lock launch used fuel they could not replace, and because rowing gave his hands something to do that was not reaching for a message that would not come.
 
@@ -218,7 +210,7 @@ He shook his head.
 
 "No."
 
-They stood a moment. Across the schoolyard, two boys were arguing over whether lantern-moths counted if found dead in a windowsill. A serious civilization, Arin thought, would survive only if it knew how to value such arguments before they became too late to matter.
+They stood a moment. Across the schoolyard, two boys were arguing over whether lantern-moths counted if found dead in a windowsill.
 
 Bel handed him another folded page.
 
@@ -259,8 +251,6 @@ Bel studied him. "You mean the notes."
 "No," she said. "It's manners."
 
 He laughed then, because of course. Of all the words for what they were doing — salvage, warning, local return, civic panic dressed as penmanship — *manners* was both the smallest and the least wrong.
-
-You tell someone when the bridge is out. You answer when a child asks whether the moths matter. You send word that a ridge path is unsafe because someone beyond the ridge may have children and a bad map. Not because civilization has named the practice. Because not doing it is indecent.
 
 The skiff shifted under him as he stepped in.
 
@@ -362,15 +352,7 @@ Jaro's face remained turned toward the water, but the set of his shoulders had c
 
 *Send it anyway.*
 
-That, Arin thought, was what staying had become. Not rootedness, not dignity, not the noble slow truth he had thrown at Lena years ago as if it were a virtue instead of merely the shape his life had taken. Staying was sending anyway, because if you stayed long enough, you lost the fantasy that anyone else could know your place for you.
-
-You learned the moods. The bolts. The weeds. The old woman's knee. The schoolchildren's moths. The fish running deep and the gulls sulking on wrong pilings. You learned what changed when nothing official had changed. You learned that a place was not a coordinate. It was a long conversation between bodies and weather and work, and most of it never became language unless someone loved it enough, or feared for it enough, to write badly.
-
-Lena had seen doors. He had seen rooms.
-
-But that was unfair, and he knew it as soon as he thought it.
-
-Lena saw rooms. She saw them too quickly perhaps, and from the angle of exit, but she saw. She had always seen more than people credited because she did not stand still long enough for them to enjoy being noticed. He had made a righteousness out of staying because it was the only way he knew how not to feel left behind.
+That, Arin thought, was what staying had become. Not rootedness, not dignity, not the noble slow truth he had thrown at Lena years ago as if it were a virtue instead of merely the shape his life had taken. Staying was sending anyway, because if you stayed long enough, you lost the fantasy that anyone else could know your place for you. You learned what changed when nothing official had changed. He had made a righteousness out of staying because it was the only way he knew how not to feel left behind.
 
 The lake gave a dull knock under the lock gate.
 
@@ -550,8 +532,6 @@ Arin watched the words appear in her hand.
 
 Not his. Not Bel's. Not Jaro's. Hers.
 
-Something passed through him then, too small to name without killing it. Hope was too large and too clean a word. Recognition, perhaps. Or the first answer returning along a path no office had blessed.
-
 He folded her note into the packet before she could change her mind.
 
 The trader left under first dark, slipping west through a channel the fast-gate people had always called unnavigable because the charts did, while everyone who lived near it used it twice a week when the reeds were low. Arin stood on the dock until her stern lamp became another wandering star among the reed shadows.
@@ -608,12 +588,6 @@ Behind them, in the lockhouse, Bel was teaching the children how to make three c
 
 He went back inside and wrote it down.
 
-Not because writing would fix the water. Not because anyone had told him to. Not because the packet would reach the person who needed it, or because the next person would answer, or because the world rewarded care proportionally to the cost of giving it.
-
-He wrote it because staying had taught him that the first betrayal of a place was to let its changes pass through you without witness.
-
-He wrote:
-
 *Second pulse after dark. Boards felt it.*
 
 Then, after a moment:
@@ -632,7 +606,7 @@ She did not smile. That was kind of her.
 
 "And if no one answers?"
 
-He looked toward the dark window, where the lake lay black beyond the reflection of their small lit room. For a moment the glass made the lockhouse look larger than it was: children at the table, Jaro's uneven seal, Mala's bent hands, wet notes drying near the stove, his own face tired and strange among them. A room full of people who had not left, not because they lacked imagination, not because motion was beyond them, but because somebody had to remain close enough to notice when the familiar went wrong.
+He looked toward the dark window, where the lake lay black beyond the reflection of their small lit room: children at the table, Jaro's uneven seal, Mala's bent hands, wet notes drying near the stove.
 
 "Then we send again," Arin said.
 
@@ -644,14 +618,6 @@ Arin sat at the table and sharpened three more pieces of charcoal for the mornin
 
 He did not know that Lena was coming.
 
-He did not know she had sat on a cold floor beside twenty-six names and been saved, barely, by a scrap of the same work he had been doing without a name for it. He did not know she had found Vellum, or Veya, or the old return ledgers, or that somewhere between grief and obligation she had begun walking toward a question that would eventually lead back to him.
-
-He knew only the lake.
-
-The lake, and the children's moths, and Jaro's hip, and Mala's backward eddy, and the west pilot's green light, and the empty gate above town that had once made distance look conquered.
-
-He knew that the world had become strange in small ways before it became impossible in large ones.
-
-He knew that someone should tell the next.
+He knew only the lake, and the children's moths, and Jaro's hip, and Mala's backward eddy, and the west pilot's green light, and the empty gate above town.
 
 So he stayed awake a little longer, listening to the wrong water move under the boards, and when it moved again, he wrote that down too.

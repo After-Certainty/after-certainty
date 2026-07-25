@@ -4,23 +4,23 @@ Cai's world was held together by repairs that had learned to look natural.
 
 Lena saw that before she saw the gate.
 
-At first, the place looked almost whole. That was what made it hard to trust. After Vesper and Anneth and Drevin and Borren, after the moon of thrown-away records and the under-city where people copied memory by hand, she had begun to distrust functioning things. A clean dock. A lit board. A gate arch with its throat alive and humming. They looked now less like reassurance than like rooms someone had tidied before guests arrived.
+At first, the place looked almost whole. That was what made it hard to trust. After Vesper and Anneth and Drevin and Borren, she had begun to distrust functioning things. A clean dock. A lit board. A gate arch with its throat alive and humming.
 
 The world was called Ivera on the boards, though the old pilots on the slow route called it Cai's world because everyone who needed to get through it eventually said the same sentence: *take it to Cai.*
 
-It was a hinge-world, not important enough to be famous and too useful to be ignored. Three minor corridors crossed there: one toward Vellum's archive moon, one down the old agricultural arc, one out toward the broken rim where the Tarn sat behind too many bad roads and not enough answer. Before the dark, Ivera had been the kind of place couriers forgot while using constantly — a transfer, a refuel, a bite eaten standing up, a gate crossed before the local hour could attach itself to memory.
+It was a hinge-world, not important enough to be famous and too useful to be ignored. Three minor corridors crossed there. Before the dark, Ivera had been the kind of place couriers forgot while using constantly — a transfer, a refuel, a bite eaten standing up, a gate crossed before the local hour could attach itself to memory.
 
 Now the transfer yard was full of people trying to turn almost into enough.
 
 The first thing Lena noticed was the scaffolding.
 
-Not official scaffolding. Official scaffolding made declarations about itself: warning tags, stamped joints, repeated angles, standardized bracing designed by people who had never had to carry the pieces. This scaffolding was improvised and exact. Wooden ribs met metal struts at joints packed with braided fiber and sealed with a clay Lena did not recognize. Copper lines ran along the undersides, patched by hand and marked with tiny bits of colored glass. At three points, someone had anchored a whole platform to what looked like old agricultural machinery turned upside down and convinced to become architecture.
+Not official scaffolding. Official scaffolding made declarations about itself: warning tags, stamped joints, standardized bracing. This scaffolding was improvised and exact. Wooden ribs met metal struts at joints packed with braided fiber and sealed with a clay Lena did not recognize. Copper lines ran along the undersides, patched by hand and marked with tiny bits of colored glass. At three points, someone had anchored a whole platform to what looked like old agricultural machinery turned upside down and convinced to become architecture.
 
 It should not have worked.
 
 It did.
 
-Travelers moved across it in careful streams: locals first because they knew which planks sang and which kept quiet, outsiders after because shame was a useful traffic system. Above them, the gate throat glowed with a dim blue pulse that did not match the rhythm Lena remembered from any working arch. The sound was wrong too — less hum than breathing through cloth. But people were passing through. Cargo was moving. A boy pushed a cart of water canisters over a bridge made from two cracked door panels and half a harvesting arm, and no one looked surprised.
+Travelers moved across it in careful streams: locals first because they knew which planks sang and which kept quiet, outsiders after. Above them, the gate throat glowed with a dim blue pulse that did not match the rhythm Lena remembered from any working arch. The sound was wrong too — less hum than breathing through cloth. But people were passing through. Cargo was moving. A boy pushed a cart of water canisters over a bridge made from two cracked door panels and half a harvesting arm, and no one looked surprised.
 
 That was the second thing Lena noticed.
 
@@ -52,11 +52,11 @@ He had not come with her. Vellum, he said, could spare one obnoxious archivist o
 
 "You have two. Interference and exhausted interference."
 
-He had been almost kind when he said goodbye, which made it worse. Veya had given no farewell. Only the copied packet and a look that said the answer was not allowed to become smaller simply because Lena was tired.
+He had been almost kind when he said goodbye, which made it worse. Veya had given no farewell. Only the copied packet and a look that said the work was not allowed to become smaller simply because Lena was tired.
 
 *Observe. Send. Answer.*
 
-The words had followed her through two gates and a half-dead ferry line. They followed her now into Cai's yard, where everyone seemed to be observing and no one seemed willing to admit it.
+The words had followed her through two gates and a half-dead ferry line. They followed her now into Cai's yard.
 
 The gate pulsed again overhead.
 
@@ -70,9 +70,9 @@ She joined the intake line.
 
 The clerk at the booth was not human.
 
-That was not unusual; the network had never been human, only human-centered in the way all dominant species mistake centrality for hospitality. Lena had worked with hinge-backed cargo crews, chorus diplomats, salt-lung pilots, glass-eyed counters from the Maween finance houses. But this clerk belonged to a people she had only seen twice and never close: the revisers.
+That was not unusual. Lena had worked with hinge-backed cargo crews, chorus diplomats, salt-lung pilots, glass-eyed counters from the Maween finance houses. But this clerk belonged to a people she had only seen twice and never close: the revisers.
 
-At first glance, he looked delicate and severe, tall even sitting, with a narrow head and four arms folded in pairs over the intake desk. His skin had the pale matte quality of old parchment stretched over warm machinery, and along his throat and wrists ran faint lines like written corrections, darker where emotion or effort gathered. His eyes were black at the center and copper around the edges. Every few seconds, the copper ring shifted shape, not blinking, exactly — revising.
+At first glance, he looked delicate and severe, tall even sitting, with a narrow head and four arms folded in pairs over the intake desk. His skin had the pale matte quality of old parchment stretched over warm machinery, and along his throat and wrists ran faint lines like written corrections. His eyes were black at the center and copper around the edges. Every few seconds, the copper ring shifted shape, not blinking, exactly — revising.
 
 He had two mouths, one above the other. The lower one spoke. The upper one moved silently a moment after, forming almost the same words in a different order.
 
@@ -85,8 +85,6 @@ His upper mouth shaped: *reason for entering, if purpose overstates certainty.*
 "Route north," Lena said.
 
 "Everyone's route is north lately."
-
-His upper mouth moved: *not everyone; too many to be useful.*
 
 "I need Cai."
 
@@ -105,8 +103,6 @@ Upper mouth: *likely Toma.*
 Lena almost smiled. "You know him?"
 
 "All records people know all other records people by injury."
-
-Upper mouth: *dislike is not injury, though often recorded as such.*
 
 "I have a note for Lio."
 
@@ -156,8 +152,6 @@ The clerk slid the slip across the desk. "Cai is under the east throat. Follow t
 
 "You will find Cai first whether you intend to or not."
 
-Upper mouth: *Cai arranges the world toward inconvenience.*
-
 "What's your name?"
 
 The clerk paused, as if the question required deciding which of him was being addressed.
@@ -178,7 +172,7 @@ Upper mouth: *badly.*
 
 Then he turned to the next traveler, and the line pushed her onward.
 
-The east throat lay beyond the main yard, down a ramp that had once been a cargo chute. The walls changed as she descended. Above, Ivera's repairs wore the disguise of function. Below, the disguise thinned. Panels had been removed and not replaced. Bundles of cable hung in hammocks of cloth. Old gate conduits ran exposed along the ceiling, some live, some dead, some marked with chalk symbols, some wrapped in handwritten warnings.
+The east throat lay beyond the main yard, down a ramp that had once been a cargo chute. The walls changed as she descended. Above, Ivera's repairs wore the disguise of function. Below, the disguise thinned. Panels had been removed and not replaced. Bundles of cable hung in hammocks of cloth. Old gate conduits ran exposed along the ceiling, some live, some dead, some wrapped in handwritten warnings.
 
 *Do not lean here unless you enjoy consequences.*
 
@@ -188,11 +182,7 @@ The east throat lay beyond the main yard, down a ramp that had once been a cargo
 
 *Do not improve without asking.*
 
-That last one made Lena stop.
-
-The words were painted above a valve assembly where six different pipe sizes met in one joint. Around the valve, dozens of tiny scratch marks had been cut into the wall, each paired with initials and dates. Not official inspection marks. Memory marks.
-
-*Do not improve without asking.*
+That last one made Lena stop. The words were painted above a valve assembly where six different pipe sizes met in one joint. Around the valve, dozens of tiny scratch marks had been cut into the wall, each paired with initials and dates. Memory marks.
 
 She touched the wall beneath them.
 
@@ -200,11 +190,11 @@ The pipe shivered faintly under her fingertips. Somewhere deeper in the throat, 
 
 The swearing began a level below.
 
-It came in three languages, only one of which Lena knew well, but the emotional content required no translation. She followed it through a narrow service passage and into a chamber where the underside of the gate filled the air like a held storm.
+She followed it through a narrow service passage and into a chamber where the underside of the gate filled the air like a held storm.
 
 Cai was inside a machine.
 
-That was Lena's first impression: legs visible below a half-open resonance housing, arms somewhere inside the machinery, voice echoing through the casing as if the gate itself had developed opinions. He was broad and grey-haired and bare to the elbows, with a burn across the back of one hand and a wrench gripped between two fingers while the rest of the hand worked blind among parts Lena would not have touched for money.
+Legs visible below a half-open resonance housing, arms somewhere inside the machinery, voice echoing through the casing. He was broad and grey-haired and bare to the elbows, with a burn across the back of one hand and a wrench gripped between two fingers while the rest of the hand worked blind among parts Lena would not have touched for money.
 
 Three younger mechanics stood around the housing with the expression of apprentices watching a priest commit crimes.
 
@@ -242,10 +232,6 @@ Cai slid out from under the housing on a board with wheels mismatched by at leas
 
 "You have the face of a person who will."
 
-"I have many faces."
-
-"No. You people always have the same face. Found a pattern. Need a witness. Want an old mechanic to say something regrettable in a way that can be carried elsewhere." He sat up, joints cracking. "No."
-
 "You're Cai."
 
 "Against advice."
@@ -270,23 +256,19 @@ He stood. He was shorter than she expected, built like a man designed by an engi
 
 "No."
 
-"In the local lines."
-
-"No."
-
 "What fixes aren't logged."
 
 The room went very quiet.
 
 There it was.
 
-Not guilt exactly. Not fear. A closing of ranks so immediate it almost had a sound. The apprentices looked down. The man who had announced her developed a sudden interest in a pressure gauge. Even the gate seemed to lower its hum.
+Not guilt exactly. Not fear. A closing of ranks so immediate it almost had a sound. The apprentices looked down. The man who had announced her developed a sudden interest in a pressure gauge.
 
 Cai wiped his hands on a cloth already beyond rescue. "There are no unlogged fixes."
 
 "Cai."
 
-"You came down here to ask a man responsible for keeping a damaged gate alive whether he has violated procedure in a dozen ways that could cost him his license, his yard's transit authority, and possibly several hundred lives if repeated by idiots without context. Allow me to help you with the form. There are no unlogged fixes."
+"You came down here to ask a man responsible for keeping a damaged gate alive whether he has violated procedure in ways that could cost him his license, his yard's transit authority, and possibly several hundred lives if repeated by idiots without context. Allow me to help you with the form. There are no unlogged fixes."
 
 "You just said the manual doesn't apply."
 
@@ -306,7 +288,7 @@ Lena took Veya's packet from inside her coat.
 
 Cai saw it and did not look away quickly enough.
 
-"I have records from Vellum," she said. "Old local returns. Gate attunement exceptions. Offices that used to collect small wrong things and compare them across places. They died because local knowledge stopped answering across the network. Veya says no one erased them. They simply stopped doing the work." She held his eyes. "I think you're still doing pieces of it. I think half the gates still running are held open by people making local corrections nobody logs because logging them would make the correction punishable or ridiculous or both. And I think that means every world is fixing itself blind."
+"I have records from Vellum," she said. "Old local returns. Gate attunement exceptions. Offices that used to collect small wrong things and compare them across places. They simply stopped doing the work." She held his eyes. "I think you're still doing pieces of it. I think half the gates still running are held open by people making local corrections nobody logs because logging them would make the correction punishable or ridiculous or both. And I think that means every world is fixing itself blind."
 
 Cai's face had changed one word at a time.
 
@@ -362,7 +344,7 @@ He handed the packet back.
 
 "That isn't what I asked."
 
-"It is the answer that keeps this gate open."
+"It is what keeps this gate open."
 
 "For whom?"
 
@@ -400,7 +382,7 @@ Cai leaned back, eyes on the gate housing. "Return tone."
 
 "The useful one."
 
-He barked a short laugh. "Fine. East throat, six years ago. Before Vesper, before half the rim started going moody, before everyone got religious about sabotage. We started losing return tone on the agricultural arc. Tiny delay. Not enough to stop transit. Not enough to fail inspection. But enough that cargo arrived with heat-stress in goods that shouldn't have had it. Seeds germinating inside sealed packets. Milk turning early. Once a crate of winter bulbs bloomed in transit and came out smelling like a funeral."
+He barked a short laugh. "Fine. East throat, six years ago. Before Vesper, before half the rim started going moody. We started losing return tone on the agricultural arc. Tiny delay. Not enough to stop transit. Not enough to fail inspection. But enough that cargo arrived with heat-stress in goods that shouldn't have had it. Seeds germinating inside sealed packets. Milk turning early. Once a crate of winter bulbs bloomed in transit and came out smelling like a funeral."
 
 "Did you report it?"
 
@@ -413,8 +395,6 @@ He barked a short laugh. "Fine. East throat, six years ago. Before Vesper, befor
 "Was it?"
 
 "On the gauges, yes. In the cargo, no."
-
-Lena thought of Corin's seed-stock, stranded and useless, all local future waiting behind a gate that could not be trusted.
 
 "What did you do?"
 
@@ -464,9 +444,7 @@ He smiled without humor.
 
 "No."
 
-She heard the lie before he finished it.
-
-Not in tone. Cai's tone was too practiced. She heard it in the shape of the refusal, the way it closed too fast around complexity.
+She heard the lie before he finished it — not in tone, in the shape of the refusal.
 
 "Some could."
 
@@ -486,7 +464,7 @@ His eyes sharpened.
 
 "You don't know that."
 
-"Yes, I do. Because I know what my fixes fix, and I know what they don't, which is more than can be said for people who discover three ledgers and decide history has handed them a lever." He stood abruptly. "You want to make local work visible? Good. Fine. Noble. It will also get people killed if they copy a fix without the conditions that made it safe. This dampener works because I know Ivera's throat like my own bad knee. Put it in Vesper and maybe nothing happens. Put it in Anneth and maybe the gate folds a passenger line inside out because Anneth's return tone fails differently. There is no general fix. That is why we don't log them as fixes."
+"Yes, I do. Because I know what my fixes fix, and I know what they don't." He stood abruptly. "You want to make local work visible? Good. Fine. It will also get people killed if they copy a fix without the conditions that made it safe. This dampener works because I know Ivera's throat like my own bad knee. Put it in Anneth and maybe the gate folds a passenger line inside out because Anneth's return tone fails differently. There is no general fix. That is why we don't log them as fixes."
 
 "That's why you don't log them publicly."
 
@@ -495,8 +473,6 @@ He stopped.
 "Someone has to know," she said. "Not everyone. Not as instruction. But someone has to be able to compare. Otherwise every Cai on every world is solving one wound as if the body around it doesn't exist."
 
 His face went still.
-
-There. The strike.
 
 He sat again, slower.
 
@@ -554,7 +530,7 @@ He stood and motioned her to follow.
 
 They went deeper into the service throat.
 
-The passage narrowed until the gate's sound became less a noise than a climate. Cai led her through a crawl-door, down six iron rungs, across a plank laid over a gap whose depth Lena did not inspect because doing so would have been information without benefit. At the end was a small room carved directly into the foundation stone.
+The passage narrowed until the gate's sound became less a noise than a climate. Cai led her through a crawl-door, down six iron rungs, across a plank laid over a gap whose depth Lena did not inspect. At the end was a small room carved directly into the foundation stone.
 
 It had no plaque.
 
@@ -562,7 +538,7 @@ It had shelves.
 
 On the shelves were notebooks.
 
-Not beautiful. Not archival. Oil-stained, heat-warped, swollen at the corners, tied with cord, labeled in Cai's blocky hand and other hands before his. Lena saw dates going back forty years, maybe more. Someone had kept notes before Cai. Someone before that.
+Not beautiful. Not archival. Oil-stained, heat-warped, swollen at the corners, tied with cord, labeled in Cai's blocky hand and other hands before his. Lena saw dates going back forty years, maybe more.
 
 He took down the newest notebook and put it in her hands.
 
@@ -630,13 +606,7 @@ Cai's face was expressionless.
 
 The room held the word.
 
-*No.*
-
-*Observe. Send. Answer.*
-
-The missing motion sat between them in the dim foundation room, as real as the gate overhead.
-
-Cai knew it. Lena could see that he knew it. His notebooks were full of observing and sending, but the answers were broken, partial, private, shamed. Rallo should have answered. Ivera should have asked. Someone should have compared summer humidity and livestock holds and frostbite and return tone before another world repeated the wrong salvation.
+Cai's notebooks were full of observing and sending, but the replies were broken, partial, private, shamed. Rallo should have written back. Someone should have compared summer humidity and livestock holds before another world repeated the wrong salvation.
 
 Instead the knowledge sat here, under a working gate, smelling of bad ventilation.
 
@@ -660,15 +630,7 @@ The room's single lamp flickered. Cai thumped the wall beside it with two finger
 
 "Fewer."
 
-"How many answer?"
-
-He did not reply.
-
-There it was. Not conspiracy. Not erasure. Not a hand closing every return room. Human fixes, local fixes, survival fixes. People keeping their own gates alive by violating forms that had stopped describing reality, then hiding the violations because the center would punish what it could not understand. Each fix made sense locally. Each silence made sense professionally. Each unlogged correction kept one place alive and made the whole more blind.
-
-The failure was not only that nobody minded the whole.
-
-It was that everyone who minded a piece had learned to hide the minding.
+He did not offer more.
 
 Cai took the notebook back and returned it to the shelf. "You understand why I say no."
 
@@ -686,11 +648,11 @@ He closed his eyes briefly. "There it is."
 
 "Yes."
 
-"So is a clean answer."
+"So is pretending nothing changed."
 
 "Yes."
 
-"So is no answer."
+"So is silence."
 
 "Yes."
 
@@ -732,17 +694,7 @@ Upper mouth: *close the line before it chooses for us.*
 
 "Not yet," Cai snapped.
 
-Upper mouth: *you always say not yet.*
-
-Lower mouth: *because you always say close.*
-
-"Both of you," Lena said, surprising herself.
-
-They looked at her.
-
-Not helpfully.
-
-"What changed?" she asked.
+"What changed?" Lena asked.
 
 Cai pointed at the board. "Pulse climb, lower ring heat, return tone thin."
 
@@ -762,9 +714,7 @@ Cai swore.
 
 "What?" Lena asked.
 
-"People moved faster than the answer," Sael said.
-
-Upper mouth: *as always.*
+"People moved faster than acknowledgment," Sael said.
 
 Cai was already turning. "Close the outer queue."
 
@@ -780,7 +730,7 @@ Lena grabbed the intake slip still tucked into her sleeve.
 
 Cai rounded on her. "Courier, if this is a philosophical—"
 
-"Answer it. Tell them what changed. Tell them who's through, who waits, who is watched. Don't say suspended. Don't say review."
+"Tell them what changed. Tell them who's through, who waits, who is watched. Don't say suspended. Don't say review."
 
 Sael's eyes flickered copper.
 
@@ -790,7 +740,7 @@ Cai stared at Lena for one breath. Then he pointed at Sael. "Yard notice. Human 
 
 Sael was already writing.
 
-Upper mouth murmured revisions as the lower shaped the final language. "Manual pause. Ring cooling. Transit order retained. Acknowledgment active."
+"Manual pause. Ring cooling. Transit order retained. Acknowledgment active."
 
 "That's ugly," Cai said.
 
@@ -800,7 +750,7 @@ Upper mouth: *and harder to riot against than ugly lies.*
 
 The first notice went up through the speaking tube.
 
-A voice in the yard repeated it badly. Sael corrected through the tube. The voice repeated it better. Above, the crowd sound rose, struck the edge of panic, then broke unevenly into complaint instead. Complaint was safer than fear. Complaint meant people still believed someone was answering.
+A voice in the yard repeated it badly. Sael corrected through the tube. The voice repeated it better. Above, the crowd sound rose, struck the edge of panic, then broke unevenly into complaint instead. Complaint was safer than fear. Complaint meant people still believed someone was watching the list.
 
 Cai worked the panel. Shaved-hair opened the lower bleed. Another apprentice, shaking visibly, counted pulses aloud. The gate fought them — not dramatically, no sparks, no screaming metal, only that horrible shallow breathing through cloth. A small thing almost failing.
 
@@ -832,11 +782,7 @@ Lena realized she had stopped breathing only when she had to start again.
 
 The next ten minutes were ugly and precise. People shouted. Sael revised notices as fast as the situation changed. Cai cursed in smaller and smaller units, which seemed to indicate improvement. Maro answered twice, both times before Cai could. Each time he corrected only the part that needed correction and let the rest stand.
 
-At the end, the gate remained open.
-
-Barely. But open.
-
-The yard above did not cheer. People rarely cheered when survival looked like inconvenience. They complained about delays, demanded refunds, asked why cargo continued before passengers, accused the intake office of favoring locals, and then, when their names appeared correctly on the retained-order board, settled into the furious patience of people who had been given something to hold besides rumor.
+At the end, the gate remained open. Barely. But open. Above, complaint settled into the furious patience of people who had been given something to hold besides rumor.
 
 Sael came down from the speaking tube with chalk on all four hands.
 
@@ -900,15 +846,9 @@ It also felt like a door.
 
 Sael wrote it down.
 
-Not a fix. Not a command. Not a form pretending to be sufficient. A question shaped so an answer could return.
+Not a fix. Not a command. Not a form pretending to be sufficient. A question shaped so a reply could return.
 
 *Whether their humidity was high when the sheep froze.*
-
-Lena thought of Veya's teaching page.
-
-*Observe. Send. Answer.*
-
-This was small. Too small. Ridiculously small against dark gates and broken routes and twenty-six names and Arin somewhere beyond a world of wrong water. But the old return rooms had not been built from grander material. They had been built from someone noticing a late tide and someone else saying *we saw it too.*
 
 Cai sat down heavily on his crate.
 
@@ -918,11 +858,11 @@ Cai sat down heavily on his crate.
 
 "Try harder."
 
-"You just sent an answer."
+"You just asked them."
 
 "I sent a technical query."
 
-"That is what an answer wears when a mechanic is embarrassed."
+"That is what asking wears when a mechanic is embarrassed."
 
 Maro made a sound and turned it into a cough.
 
@@ -934,7 +874,7 @@ Sael gathered the intake books. "Lio should see her."
 
 "I know," Cai said.
 
-"You have delayed because you dislike admitting Lio was correct about answer structures."
+"You have delayed because you dislike admitting Lio was correct about acknowledgment structures."
 
 "I have delayed because Lio enjoys being correct more than safety permits."
 
@@ -972,7 +912,7 @@ Lena's pulse shifted.
 
 "Names?"
 
-"Who knows which thing. Who answers. Who lies. Who answers slowly but well. Who sends panic disguised as certainty. Who has bad instruments but good eyes. Who should never be trusted with a generalization but can tell you exactly when a lower ring is about to crack." He pointed at himself. "Useful categories."
+"Who knows which thing. Who replies. Who lies. Who replies slowly but well. Who sends panic disguised as certainty. Who has bad instruments but good eyes." He pointed at himself. "Useful categories."
 
 "Why didn't you tell me?"
 
@@ -984,9 +924,7 @@ He looked tired now. Truly tired, the kind no sleep pays back.
 
 "Because once a thing like that gets seen, people try to make it official. They put names on forms. They rank reliability. They centralize. They improve. And in a generation someone is standing in a dry office saying local variation produces too much noise." His voice went rough. "We are not hiding because we are selfish. We are hiding because every structure that promises to protect this kind of work eventually tries to own it."
 
-Lena had no easy answer to that.
-
-Veya would not have either, maybe. Or she would have said the first mercy of truth is that it disappoints the part of us that wanted a weapon. The second mercy, Lena thought, might be that it disappointed the part that wanted a structure clean enough to trust.
+Lena had no easy reply to that.
 
 "What does Lio do differently?" she asked.
 
@@ -994,9 +932,7 @@ Cai smiled, and for the first time it carried real fondness.
 
 "They answer."
 
-The word landed softly.
-
-Outside, the yard settled into its delay. Somewhere above, a retained-order board was doing more work than half the official notices Lena had seen in a month because it had the decency to say not only *wait,* but *we still know you are waiting.*
+Outside, the yard settled into its delay. Somewhere above, a retained-order board said not only *wait,* but *we still know you are waiting.*
 
 Cai stood with a grunt.
 
@@ -1018,21 +954,11 @@ Then back at Maro.
 
 Maro nodded and bent to the notebook.
 
-Cai resumed walking.
-
-"Painful," Lena said.
-
-"What?"
-
-"Writing *don't know.*"
-
-"Excruciating. Builds character in people who did not ask for any."
-
 They emerged into the light of the transfer yard.
 
-Above them the gate breathed unevenly, alive by repair and confession and at least three lies still pretending to be local interpretation. The scaffolding held. The passengers waited with names retained. Cargo moved slowly under the cooling ring. A child kicked the same bolt across the platform three times and was retrieved by the same exhausted mother three times, which meant the world, for the moment, still had room for useless repetition.
+Above them the gate breathed unevenly, alive by repair and at least three lies still pretending to be local interpretation. The scaffolding held. The passengers waited with names retained. Cargo moved slowly under the cooling ring. A child kicked the same bolt across the platform three times and was retrieved by the same exhausted mother three times.
 
-Near the intake booth, Sael was rewriting the notice in larger script while his upper mouth silently revised each line before the lower approved it.
+Near the intake booth, Sael was rewriting the notice in larger script.
 
 *Manual pause. Ring cooling. Transit order retained.*
 *If your name is listed, you are still held in sequence.*
@@ -1090,31 +1016,19 @@ Lio was not what she expected either.
 
 They were human, for one thing, or close enough that the difference did not announce itself. Maybe sixty, maybe older, with dark hair cut short and silver at the temples, spectacles pushed up on their head, and ink on their sleeve in a pattern that suggested either accident or system. Their desk was not a desk but three crate lids laid across two file cabinets. On it sat stacks of slips, route scraps, tiny hand-drawn maps, broken seals, two bowls of onions, a child's slate, and an intake book open to a page of names connected by lines.
 
-Not hierarchy. Not organization exactly.
-
 Memory with reach.
 
 Lio looked up and smiled as if Lena were late to a meeting Lena had not known existed.
 
 "Finally," they said.
 
-That was the first word.
+Lena felt the question in her chest move, not settled, but recognized by something outside her for the first time since Borren.
 
-Not welcome. Not who are you. Not what do you want.
-
-*Finally.*
-
-Lena felt the question in her chest move, not answered, but recognized by something outside her for the first time since Borren.
-
-Lio picked up Toma's sealed note from the desk. Apparently Sael had sent it ahead already, because of course the people who kept hidden lines alive would be faster than anyone who called themselves official.
+Lio picked up Toma's sealed note from the desk. Apparently Sael had sent it ahead already.
 
 "Toma says you are carrying Veya's worse truth, Jun's cowardly pages, a dead Vesper panel, and a question that has begun walking north faster than you are." Lio tapped the paper. "He also says not to let you mistake finding us for finding the answer."
 
 "Toma is becoming repetitive."
-
-"He's aging."
-
-"He's not that old."
 
 "Archive years count double." Lio leaned back. "Show me what you have."
 
@@ -1124,13 +1038,11 @@ Then Jun's pages.
 
 Then the copied lines of the marsh-list she had written from memory after Borren because she could not bear for them to exist only in her head.
 
-Lio did not reach immediately. Like Toma. Like Veya. Like everyone who understood that receiving a thing was not passive.
+Lio did not reach immediately.
 
 Then they took the pages and began to read.
 
 Outside the gate pulse continued, uneven but holding.
-
-Inside the little unsignposted office, Lio read the old local returns, the teaching page, Jun's warning, the marsh-list, and the note from Toma. Their face changed very little. Only the hand holding Jun's page tightened when it reached *None of these go where the records say they go.*
 
 When they finished, they set all the pages side by side.
 
@@ -1138,7 +1050,7 @@ Not stacked.
 
 Compared.
 
-Lena noticed that and felt something in her answer before she had words for it.
+Only the hand holding Jun's page had tightened when it reached *None of these go where the records say they go.*
 
 "Cai showed you the notebooks?" Lio asked.
 
@@ -1170,8 +1082,6 @@ Lena noticed that and felt something in her answer before she had words for it.
 
 The room went still.
 
-There it was: twenty-six names entering even where no board displayed them.
-
 Lio did not defend. That mattered.
 
 "No," they said. "We did not."
@@ -1188,17 +1098,11 @@ Lio did not defend. That mattered.
 
 "No," Lio said. "It wasn't."
 
-The answer hurt because it did not dodge.
-
 Lena sat without being invited.
 
 The chair creaked. Nobody apologized for it.
 
 "The lists could have saved them," she said.
-
-"Yes."
-
-"You know that?"
 
 "Yes."
 
@@ -1208,23 +1112,17 @@ Lio's eyes met hers.
 
 "Where should I be sitting?"
 
-Lena had no answer and hated them briefly for asking.
+Lena had no reply and hated them briefly for asking.
 
-Lio's voice gentled, not to soften the fact but to keep it usable. "We have pieces. Cai has fixes. Veya has memory. Jun has analysis he has not yet learned to send well. The settled watchers have observations. Pilots have routes. Clerks have names. Sera's road people have care. Varik has movement. You have attention and a dead list of twenty-six reasons not to let any of us feel noble." They placed one finger on the marsh-lines. "What we do not have is reach enough. Or trust enough. Or a way to answer fast without becoming the kind of center that killed the old answers."
+Lio's voice gentled, not to soften the fact but to keep it usable. "We have pieces. Cai has fixes. Veya has memory. Jun has analysis. The settled watchers have observations. Pilots have routes. Clerks have names. You have attention and a dead list of twenty-six reasons not to let any of us feel noble." They placed one finger on the marsh-lines. "What we do not have is reach enough. Or trust enough. Or a way to reply fast without becoming the kind of center that killed the old lines."
 
 Lena looked at the pages side by side.
-
-Veya had said the lists were not salvation. Cai had said fixes could kill if copied wrong. Now Lio, sitting inside an office that insisted it was not one, named the third danger: the answer network could become the old center again if it grew by appetite instead of obligation.
 
 "What do you need from me?" she asked.
 
 Lio smiled faintly.
 
 "There. Better question."
-
-"I learned it from Toma."
-
-"I doubt that."
 
 "What do you need?"
 
@@ -1233,8 +1131,6 @@ Lio smiled faintly.
 "No."
 
 The word came out before she thought. Not refusal. Correction.
-
-Not one attention. Not one answer. Not one courier.
 
 Lio heard it.
 
@@ -1266,7 +1162,7 @@ Lena touched the page with one finger.
 
 *A. Sol? South Lock?*
 
-No. Not Sol. Not Veya's family. A different A. A familiar one. A boy at a family table telling her fast was not the same as easy. A man by water, probably, because of course he would be by water. Arin, who had always trusted what staying saw and had never known how to make her value it without turning it into accusation.
+No. Not Sol. A different A. A boy at a family table telling her fast was not the same as easy. A man by water, probably, because of course he would be by water.
 
 "What did it say?" she asked.
 
@@ -1276,13 +1172,11 @@ Lio's eyes softened.
 
 Lena closed her eyes.
 
-For a moment she was not in Cai's world. She was back in their mother's kitchen with peppermint on the table and Arin's hand on the back of a chair, saying *No, it's just fast,* and she was younger and angrier and already leaving.
+For a moment she was back in their mother's kitchen with peppermint on the table and Arin's hand on the back of a chair, saying *No, it's just fast,* and she was younger and angrier and already leaving.
 
 *Answer if you see the same.*
 
 He had been sending.
-
-Maybe not to her. Maybe to anyone. Maybe that was the point.
 
 She opened her eyes.
 
@@ -1306,26 +1200,10 @@ The words should have brought relief.
 
 They brought terror.
 
-Because an end could be held. An end could also be dropped. An end beyond a dark gate could pull a person toward it or break in her hands.
-
 Lena looked at the pages: Veya's old returns, Cai's hidden fixes, Jun's uncertain warning, the marsh-list, Lio's live lines, Arin's winter-skin report.
-
-For the first time, they did not feel like separate burdens.
-
-They felt like fragments of a thing that had not yet learned its own name.
-
-She was not ready to name it.
-
-That felt wise.
 
 "What do we do?" she asked.
 
 Lio picked up a blank slip.
 
 "We answer him," they said.
-
-And that was where the chapter ended, though Lena did not yet know it. Not with a solution. Not with a system. Not even with a plan large enough to survive contact with the next gate.
-
-With a blank slip.
-
-With Arin's wrong lake on one side of the dark and Lena, at last, on the other side of an answer.
