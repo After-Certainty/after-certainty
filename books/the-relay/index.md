@@ -39,7 +39,7 @@ When a gate in an ancient network of worlds goes dark and no one will say why, a
 
 ## Act IV — Integration
 
-- [Chapter 19 — Dark Vesper](manuscript/act-4-integration/chapter-19-dark-vesper.md)
+- [Chapter 19 — The Slow Convergence](manuscript/act-4-integration/chapter-19-the-slow-convergence.md)
 - [Chapter 20 — The Far Side Comes](manuscript/act-4-integration/chapter-20-the-far-side-comes.md)
 - [Chapter 21 — The Room](manuscript/act-4-integration/chapter-21-the-room.md)
 - [Chapter 22 — What They Refuse to Give Up](manuscript/act-4-integration/chapter-22-what-they-refuse-to-give-up.md)
