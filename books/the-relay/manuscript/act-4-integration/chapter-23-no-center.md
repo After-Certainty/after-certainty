@@ -100,7 +100,7 @@ Jun let the chart roll closed against his palm. "Your objection is noted."
 
 "Good," Nadi said from the doorway. "Then it has learned something."
 
-She came in with mud up both boots and one sleeve wet to the elbow. The rain behind her had thickened. The blade of gray morning that entered with the door looked colder than before.
+She came in with mud up both boots and one sleeve wet to the elbow. The rain behind her had thickened. The blade of grey morning that entered with the door looked colder than before.
 
 No one asked about the wagon.
 

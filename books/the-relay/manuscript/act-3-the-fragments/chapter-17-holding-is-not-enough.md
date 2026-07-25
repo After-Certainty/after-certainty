@@ -4,19 +4,19 @@ The first thing Lena noticed about Merrow was that no one was shouting.
 
 That made her mistrust it.
 
-By then she had learned to read quiet as carefully as noise. Quiet could mean order, or exhaustion, or fear disciplined into something more dangerous than panic. Quiet could mean the last person with a question had been made to feel rude.
+By then she had learned to read quiet as carefully as noise. Quiet could mean order, exhaustion, fear disciplined into something more dangerous than panic. Quiet could mean the last person with a question had been made to feel rude.
 
 But Merrow's quiet was not that.
 
 It was busy quiet. Kitchen quiet. Sickroom quiet. Dock-before-dawn quiet. The kind made by many people doing necessary things near one another and trying not to waste breath proving that the things were necessary.
 
-The gate at Merrow still stood alive when Lena arrived, though only barely. It hung above the valley floor in a ring of black stone veined with pale light, the old transit arch set into the side of a cliff where the road climbed up through terraces of moss and grain. Its throat glowed dull blue, then dimmed, then brightened again after a long, unpleasant pause. Every pulse made the watchers at the edge of the yard lift their heads without meaning to. Every recovery let them pretend they had not.
+The gate at Merrow still stood alive when Lena arrived, though only barely. It hung above the valley floor in a ring of black stone veined with pale light, set into the side of a cliff where the road climbed through terraces of moss and grain. Its throat glowed dull blue, dimmed, then brightened after a long, unpleasant pause. Every pulse made the watchers at the edge of the yard lift their heads. Every recovery let them pretend they had not.
 
 The transfer village below had been built for perhaps three hundred people.
 
 It held nearly two thousand.
 
-They were everywhere: in grain barns, under awnings, in the old sheep market, along the watercourse, in classrooms whose lessons had been rubbed from slates to make room for names. Families from three worlds had been trapped there by the thinning routes, some for two days, some for three weeks, some long enough to stop saying how long. A convoy of traders from Halen had been held outside the lower gatehouse when Lena came in, their wagons circled in the mud, their beasts steaming in the cold. In Drevin, that would have been enough. Halen names, hungry locals, a rumor already prepared to attach itself to a target.
+They were everywhere: in grain barns, under awnings, in the old sheep market, along the watercourse, in classrooms whose lessons had been rubbed from slates to make room for names. Families from three worlds had been trapped there by the thinning routes, some for two days, some for three weeks, some long enough to stop saying how long. A convoy of traders from Halen had been held outside the lower gatehouse, their wagons circled in the mud, their beasts steaming in the cold. In Drevin, Halen names and hungry locals would have been enough.
 
 Here, someone had put children from the village in charge of bringing the traders soup.
 
@@ -34,7 +34,7 @@ That, too, made her mistrust it.
 
 She turned.
 
-Sera stood beside a stack of folded blankets, a cup in one hand and a bundle of kindling under the other arm, looking exactly as she had on the Calder road and not at all as she had. The same calm. The same mild face that made panic feel embarrassed to continue. The same practical clothes, though now patched at both elbows, road-stained to the color of weather. But there was something sharper in her than before. Not fear. Not yet. A line of attention drawn tight behind the eyes.
+Sera stood beside a stack of folded blankets, a cup in one hand and a bundle of kindling under the other arm, looking exactly as she had on the Calder road and not at all as she had. The same calm. The same practical clothes, patched at both elbows and road-stained to the color of weather. But there was something sharper in her. Not fear. Not yet. A line of attention drawn tight behind the eyes.
 
 Lena felt, absurdly, like she had been caught.
 
@@ -146,7 +146,7 @@ Sera's mouth tilted faintly. "You've been practicing."
 
 Another bell, this one from the lower yard. One long strike. A murmured response moved through the people nearest the trader wagons, not fear, only adjustment. Two teenagers picked up a chalkboard and crossed off a line beside *Halen convoy — meal counted, shared.* Someone at the grain barn shouted, "Need three for pallet shift," and five people lifted hands. Two were told to stay and finish what they had.
 
-No one performed virtue. That was what unsettled Lena most. Nobody announced generosity in a way that could become authority. Nobody made a speech about unity. The people of Merrow seemed to have developed, under pressure, an almost offensive competence at decency.
+No one performed virtue. Nobody announced generosity in a way that could become authority. Nobody made a speech about unity.
 
 "How long have you been here?" Lena asked.
 
@@ -170,7 +170,7 @@ The blue returned.
 
 The village moved again.
 
-Too quickly, Lena thought. Or maybe that was unfair. What else could people do? Stand forever under a gate's throat waiting for it to make up its mind?
+Too quickly, Lena thought. Or maybe that was unfair. What else could people do?
 
 Sera took the empty kindling basket from under her arm and set it on the blanket stack. "Come see."
 
@@ -180,7 +180,7 @@ Sera took the empty kindling basket from under her arm and set it on the blanket
 
 They walked through the lower yard.
 
-Merrow's people had drawn maps on everything flat. Not route maps, not exactly. Need maps. Who had flour. Who had medicine. Which children were separated from which adults during the second evacuation. Which Halen wagons had axle damage. Which outsiders could speak which local language. Which wells could be drawn from twice daily without lowering too fast. Who had lost someone beyond the gate and should not be asked to sit too close to the arch during flicker periods.
+Merrow's people had drawn maps on everything flat. Not route maps, exactly. Need maps. Who had flour. Who had medicine. Which children were separated from which adults. Which Halen wagons had axle damage. Which outsiders could speak which local language. Which wells could be drawn from twice daily. Who should not be asked to sit too close to the arch during flicker periods.
 
 Names were written and rewritten. Chalk dust covered fingers everywhere.
 
@@ -206,7 +206,7 @@ The handwriting was large and uneven.
 
 "Traders like maps. It is one of their better qualities."
 
-A woman came in carrying a child on one hip and a stack of bowls against the other. The child was not hers; Lena knew that before anyone told her. He held the woman's collar with the loose exhausted trust of a child too tired to insist on blood. The woman nodded to Sera, then to Lena.
+A woman came in carrying a child on one hip and a stack of bowls against the other. He held the woman's collar with the loose exhausted trust of a child too tired to insist on blood. The woman nodded to Sera, then to Lena.
 
 "South barn count is short eleven," she said.
 
@@ -230,17 +230,13 @@ Lena watched her go. "That matters."
 
 "Sentences often do."
 
-"No. I mean the difference."
-
-"Yes."
-
 "You're good at this."
 
 Sera looked toward the sleeping children. "I've had practice in places where being bad at it costs too much."
 
 They moved on.
 
-At the edge of the trader circle, three local men were helping repair a Halen wagon under the direction of a Halen girl with a shaved head and a temper that could have powered a small turbine. One local man clearly disliked being instructed by her. He did what she said anyway. Beside them, an old village woman and an old Halen man sat on opposite sides of a low brazier, peeling root vegetables into the same pot and pretending not to enjoy correcting each other's knife work.
+At the edge of the trader circle, three local men repaired a Halen wagon under the direction of a Halen girl with a shaved head and a temper that could have powered a small turbine. One local man clearly disliked being instructed by her. He did what she said anyway. Beside them, an old village woman and an old Halen man peeled root vegetables into the same pot and pretended not to enjoy correcting each other's knife work.
 
 Beyond the wagons, a small group had gathered around a notice board where someone had chalked the latest gate status:
 
@@ -269,7 +265,7 @@ Lena touched the edge of the board.
 
 "Messages weigh less and may save more."
 
-That was not Sera's sentence. Or not only Sera's.
+That was not only Sera's sentence.
 
 Lena looked at her.
 
@@ -313,7 +309,7 @@ They climbed the path toward the gate yard with dozens of others, but nobody ran
 
 It was brilliant and absurd and almost unbearable.
 
-The arch stood at the top platform, its stone ring trembling faintly in the cliffside brackets. Merrow's gate team had arranged themselves around it: three locals, two stranded engineers from a fruit convoy, one Halen mechanic, Nessa with her red scarf, and an old priest whose job seemed to be keeping everyone not needed away from everyone who was. No uniforms. No central authority. No Varik. No single answer. Only roles people had made because roles were needed.
+The arch stood at the top platform, its stone ring trembling faintly in the cliffside brackets. Merrow's gate team had arranged themselves around it: three locals, two stranded engineers from a fruit convoy, one Halen mechanic, Nessa with her red scarf, and an old priest keeping everyone not needed away from everyone who was. No uniforms. No central authority. Only roles people had made because roles were needed.
 
 A child near Lena began to cry.
 
@@ -355,7 +351,7 @@ The gate throat collapsed into black stone with a sound like water leaving a bas
 
 The silence that followed was immense.
 
-Lena had been at Vesper when a gate died, or near enough to count. She knew the sound a crowd made when the world removed a door. But Merrow's silence was worse in its own way, because it was disciplined. No one wanted to be the first to break the thing they had all worked so hard to hold.
+Lena had been at Vesper when a gate died, or near enough to count. She knew the sound a crowd made when the world removed a door. But Merrow's silence was worse because it was disciplined. No one wanted to be the first to break what they had held.
 
 The child beside the man whispered, "Did it go asleep?"
 
@@ -405,7 +401,7 @@ Sera stepped into the yard as if into weather she had expected and hoped to be w
 
 People turned to her.
 
-That was dangerous. Lena saw it immediately in a way she might not have on the Calder road. A hundred faces reached for Sera's calm. Not because she wanted power. Because she had been useful. Because she had held them. Because in a room without an answer, the person who does not panic becomes an answer by accident.
+That was dangerous. Lena saw it immediately in a way she might not have on the Calder road. A hundred faces reached for Sera's calm. Not because she wanted power. Because she had been useful. Because she had held them.
 
 Sera saw it too.
 
@@ -415,9 +411,7 @@ She pointed to Nessa's chalkboard.
 
 "Names first," she said. "The board knows more than I do."
 
-It was perfect.
-
-It put the room's trust back into a shared practice before it could gather too tightly around one woman's body.
+It put the room's trust back into a shared practice.
 
 "Barn counts," Sera called. "Schoolhouse. Trader circle. Orchard shed. Nobody moves groups until names are matched. If you are missing someone, tell a counter, not the whole yard. If you have hands and no task, go to the soup line. Hot cups first for the people who came down from the platform."
 
@@ -425,7 +419,7 @@ A man shouted, "My daughter was on the other side!"
 
 The yard went still around him.
 
-There was always a first grief. The grief that asked the room whether it would become a mob or a community.
+There was always a first grief, asking what the room would become.
 
 Sera did not walk toward him alone. She looked to the nearest two people beside him, a young local woman and an older Halen trader.
 
@@ -447,7 +441,7 @@ Then the third.
 
 By dusk, Merrow had changed from a strained transit village into a stranded world.
 
-The phrase formed in Lena's head while she stood beside the south barn counting flour sacks with a boy named Tev who was too young to be doing arithmetic that mattered and too proud to be spared it. The arch was dark, and all the roads that required it had become stories people would tell with increasing unreliability until no one trusted their own memory of where they had meant to go.
+The phrase formed in Lena's head while she stood beside the south barn counting flour sacks with a boy named Tev who was too young to be doing arithmetic that mattered and too proud to be spared it. The arch was dark, and all the roads that required it had become stories people would tell until no one trusted where they had meant to go.
 
 Tev counted twenty-seven sacks.
 
@@ -461,11 +455,11 @@ They counted again and found the missing sack under a tarp being used as a pillo
 
 He considered this answer and wrote *bedding-food* in the margin.
 
-Good, she thought. Write the ugly category. Let the next person know reality had not fit the form.
+Good, she thought. Write the ugly category.
 
 Outside the barn, Merrow kept holding.
 
-The Halen traders opened two wagons voluntarily after Nessa posted a guarantee in front of everyone that contents would be logged as shared emergency goods and not seized by origin. The guarantee was meaningless beyond Merrow. It mattered deeply inside it. People needed the difference between sharing and being robbed. Sera had known that. Nessa had written it. The traders had answered with flour and lamp fat.
+The Halen traders opened two wagons voluntarily after Nessa posted a guarantee that contents would be logged as shared emergency goods and not seized by origin. The guarantee was meaningless beyond Merrow and mattered deeply inside it. The traders answered with flour and lamp fat.
 
 The village temple opened its inner rooms to families with sick children.
 
@@ -477,7 +471,7 @@ No one blamed the Halen.
 
 No one blamed the sick.
 
-No one blamed the people who had crossed in the last transit group, though grief tried very hard to turn that direction and was met, again and again, by a cup, a name, a task, a hand on an elbow.
+No one blamed the people who had crossed in the last transit group, though grief tried to turn that direction and met a cup, a name, a task, a hand on an elbow.
 
 At seventh bell, Sera found Lena at the barn table, still counting.
 
@@ -541,9 +535,9 @@ A bell rang from the schoolhouse. Not alarm. A call for updated counts. The soun
 
 Still no word would leave the world.
 
-Merrow's gate was dark. Everything the village had just learned — pulse drop after medicine load, Halen not cause, names-first, how the yard held after the dark — would remain here unless someone carried it.
+Merrow's gate was dark. Everything the village had learned — pulse drop after medicine load, Halen not cause, names-first, how the yard held after the dark — would remain here unless someone carried it.
 
-They could send by slow foot. Packets, maybe. But send without reply would become another bottle in dark water. Another warning arriving after the *Wren.*
+They could send by slow foot. Packets, maybe. But without reply, another warning could arrive after the *Wren.*
 
 "What are you thinking?" Sera asked.
 
@@ -585,7 +579,7 @@ Neither spoke.
 
 They followed the boy to the schoolhouse.
 
-Inside, the room had been transformed again. Sleeping mats pushed aside. Children moved to the temple. Tables drawn together. Lamps lit. The gate team had come down from the cliff dirty, cold, and hollow-eyed. Nessa stood at the head of the table, red scarf loosened, chalk dust on her cheek. The Halen mechanic sat beside a local engineer, both of them arguing over terminology with the exhausted intimacy of people who had failed beside each other and therefore earned the right.
+Inside, the room had changed again. Sleeping mats pushed aside. Children moved to the temple. Tables drawn together. Lamps lit. The gate team had come down from the cliff dirty, cold, and hollow-eyed. Nessa stood at the head of the table, red scarf loosened, chalk dust on her cheek. The Halen mechanic sat beside a local engineer, arguing over terminology with the exhausted intimacy of people who had failed beside each other and earned the right.
 
 On the board, someone had written:
 
@@ -620,7 +614,7 @@ Lena sat.
 
 Sera sat across from her.
 
-The gate team began dictating. Not smoothly. Not in order. They argued, corrected, contradicted, clarified. The first version was terrible. The second less so. The third began to hold.
+The gate team began dictating. Not smoothly. Not in order. They argued, corrected, contradicted, clarified. The first version was terrible. The second less so. The third held.
 
 *Pulse irregular at third bell.*
 *No origin conflict at time of failure.*

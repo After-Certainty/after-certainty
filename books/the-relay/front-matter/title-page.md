@@ -1,4 +1,4 @@
-![Cover](book-cover.png){ width=100% }
+![The Relay cover](book-cover.png){ width=100% }
 
 \newpage
 
@@ -7,5 +7,3 @@
 ## **A Social Science Fiction Novel**
 
 **Kevin Steffensen**
-
-Author-facing planning and voice rules live under [`docs/`](./docs/); this page is for **exports** only.

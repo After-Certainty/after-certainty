@@ -60,7 +60,7 @@ Then she added the sentence that made everyone argue and no one improve it enoug
 
 That was the whole of it.
 
-Not because Vesper was holy. Lena mistrusted holiness in practical matters. Not because Vesper was first, though it was first for her: the wall, the notice, the peppermint still in her pocket, the slate that had refused Arin's name. Firsts were dangerous. They tricked grief into thinking sequence meant meaning.
+Not because Vesper was holy — Lena mistrusted holiness in practical matters — and not only because it was first for her: the wall, the notice, the peppermint still in her pocket, the slate that had refused Arin's name. Firsts were dangerous. They tricked grief into thinking sequence meant meaning.
 
 Vesper mattered because it had become useless.
 

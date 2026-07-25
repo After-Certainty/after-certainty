@@ -2,8 +2,6 @@
 
 Lower Vellum did not look like a place where records went to die.
 
-That was Lena's first surprise.
-
 She had expected dust, silence, sealed shelves, the same dry lunar hush as the retention annex above. Instead the lift opened into noise.
 
 Not chaos. Work.
@@ -24,7 +22,7 @@ Toma moved through it with the offended ease of a man returning to a place that 
 
 "In Vellum it is not."
 
-He kept the folio tucked beneath one arm, one hand pressed flat over it. Since leaving the deaccession room, he had become less theatrical. That worried her more than his earlier cheer. Cheer was armor. This was attention.
+He kept the folio tucked beneath one arm, one hand pressed flat over it. Since leaving the deaccession room, he had become less theatrical. Cheer was armor. This was attention.
 
 They passed a shop where three old women sat under a bright lamp copying names from a warped memorial slate onto narrow strips of white fiber. One read the stone. One repeated each name. The third wrote. After every seventh name they traded roles, not speaking except to correct a letter.
 
@@ -39,8 +37,6 @@ Toma stopped before that last notice.
 "She still writes like a hammer," he said, and knocked.
 
 The door opened before the knock finished.
-
-The woman on the other side was not what Lena expected.
 
 Veya Sol was small and old and very straight, with silver hair braided close to her skull and hands so clean they looked ceremonial. Her sleeves were rolled to the elbow. Her forearms were scarred with old burns, pale against brown skin. She wore no badge. She needed none. The room behind her had arranged itself around her the way a good crew arranges itself around a competent pilot: not by deference exactly, but by unconscious orientation.
 
@@ -60,7 +56,7 @@ She looked at Toma first.
 
 Veya's eyes moved to Lena.
 
-In them Lena felt the strange discomfort of being read by someone who was not guessing. Veya took in the pack, the dead scanner panel under her arm, the worn cuff where the duty-receipt still rode, the way she stood with her weight ready to move. Then she looked at Toma's arm over the folio.
+Lena felt the strange discomfort of being read by someone who was not guessing. Veya took in the pack, the dead scanner panel under her arm, the worn cuff where the duty-receipt still rode, the way she stood with her weight ready to move. Then she looked at Toma's arm over the folio.
 
 Her face changed.
 
@@ -104,9 +100,9 @@ Veya noticed. "Children copy what adults stopped meaning."
 
 Toma set the folio on the long table, both hands now, careful despite himself.
 
-"We found the transfer papers," he said. "Local Return Functions to Central Assurance. The objections. Veya Marren. Veya Sol's chair inventory. The whole knife."
+"We found the transfer papers," he said. "Local Return Functions to Central Assurance. The objections. Veya Marren. Veya Sol's chair inventory. The knife."
 
-Veya did not move toward the folio. Toma had carried it as proof, as weapon, as wound. Veya looked at it the way a person looks at a grave she already visits.
+Veya did not move toward the folio. She looked at it the way a person looks at a grave she already visits.
 
 "You didn't find it," she said. "It was where I put it."
 
@@ -160,13 +156,11 @@ Toma leaned both hands on the table. "The memorandum is plain. Local Return work
 
 "At what?"
 
-"At the closure. At the stupidity. At the arrogance. At the way men in clean rooms use the word *efficiency* when what they mean is *I do not want to be inconvenienced by what you know.*" Veya's voice remained level, which made the anger in it more exact. "She was right to be angry. So was her mother. So am I. So are you, though you make uglier furniture of it."
+"At the closure. At the stupidity. At the arrogance. At the way men in clean rooms use the word *efficiency* when what they mean is *I do not want to be inconvenienced by what you know.*" Veya's voice remained level. "She was right to be angry. So was her mother. So am I. So are you, though you make uglier furniture of it."
 
 Toma accepted this as tribute.
 
 "But no one erased it," Veya said.
-
-The words entered the room very quietly.
 
 Lena heard them and did not understand them. Or understood them and refused.
 
@@ -244,11 +238,11 @@ Lena stared at the page. It did not look like murder. It looked like a rule inve
 
 *Someone else was still paying attention.*
 
-The most familiar sentence in the world. Every passenger at Vesper when the board said *suspended pending review.* Oyo at Khoury, waiting for an owner. Jun behind his curve. Lena herself, stepping through doors she called routes.
+The most familiar sentence in the world. Every passenger at Vesper had trusted some version of it. Oyo at Khoury. Jun behind his curve. Lena herself, stepping through doors she called routes.
 
 "They stopped replying," Veya said. "Then they stopped expecting replies. Then they stopped noticing they had stopped expecting them. That is not erasure. That is abandonment made administrative."
 
-Toma's face had gone hard, but not in disagreement. In the more painful condition of having less enemy than he wanted.
+Toma's face had gone hard, but not in disagreement.
 
 "The central offices still closed the rooms," he said.
 
@@ -284,8 +278,6 @@ Toma looked between them and wisely chose, for once, silence.
 
 "I know."
 
-The words landed too quickly.
-
 "How?"
 
 "You walk like someone whose destination has become an accusation."
@@ -298,7 +290,7 @@ Toma did not apologize. "Context seemed useful."
 
 "My brother is in the Tarn," Lena said. "The roads keep closing. Every straight path goes dark before I reach it. At Borren I put twenty-six people on a boat because I thought the route was live, and somewhere past the dark gate there were people with a list who already knew it wasn't." The cup in her hands trembled once. She made it stop. "So yes. If someone closed the rooms that would have carried that list, if someone made the network unable to know what the people at the edges knew, I would like that someone to have a name."
 
-Veya's face changed then, not softening exactly. Grief moved through it, quick and deep, and Lena understood that the old woman had not been correcting her from above. She had been speaking from a place further down.
+Veya's face changed then, not softening exactly. Grief moved through it, quick and deep.
 
 "So did my grandmother," Veya said.
 
@@ -318,7 +310,7 @@ She unfolded one strip.
 
 Lena looked up sharply.
 
-Veya continued as though she had not noticed. "The return room sounded like paper moving with purpose. People reading aloud. Clerks arguing over whether a silence counted as a response. After consolidation, the room became quieter every season. Not immediately. That would have been easier. Work remained. Then less work. Then work waiting for central receipts. Then only copies of things nobody would answer." She looked at the strip in her hand. "My grandmother said the worst day was not the closure. The worst day was three years before, when she realized everyone was still coming to the room out of habit, but no one expected the room to change anything anymore."
+Veya continued as though she had not noticed. "The return room sounded like paper moving with purpose. People reading aloud. Clerks arguing over whether a silence counted as a response. After consolidation, the room got quieter every season. Work remained, then less work, then work waiting for central receipts, then only copies of things nobody would answer." She looked at the strip in her hand. "My grandmother said the worst day was not the closure. The worst day was three years before, when she realized everyone was still coming to the room out of habit, but no one expected the room to change anything anymore."
 
 She handed the strip to Lena.
 
@@ -346,7 +338,7 @@ Veya reached into the box and drew out, from beneath the paper strips, a tiny da
 
 There was the chair.
 
-Not in the inventory. Not in the denied storage request. Here, in a little wooden box, kept by a child who understood that if you could not save the chair, you might save the part small enough to hide.
+Not in the inventory. Not in the denied storage request. Here, in a little wooden box, the part small enough to hide.
 
 Lena felt something in her chest shift, painfully.
 
@@ -358,11 +350,9 @@ Lena felt something in her chest shift, painfully.
 
 "Keeping is active. Not burning can be done for a hundred years by people too sad to decide."
 
-The line should have been funny. It was not.
-
 Veya closed the box and rested both hands on it.
 
-"My grandmother grew up believing someone had stolen the work. Her mother believed it until the day she died. Whole institutions gone from the record. Of course they thought purge. It is a sensible conclusion, if you are standing close to the wound."
+"My grandmother grew up believing someone had stolen the work. Her mother believed it until she died. Whole institutions gone from the record. Of course they thought purge, standing close to the wound."
 
 "Toma thought it."
 
@@ -372,7 +362,7 @@ Veya closed the box and rested both hands on it.
 
 "Noted."
 
-Veya ignored him. "For years, my grandmother looked for the order that did it. The true order. Not the public memorandum. The secret one. The one that said *stop listening to the edge.* She found budgets. Transfer notes. Reclassification schedules. Complaints that local observers sent too much noise. Complaints that central offices never answered. She found arrogance. Laziness. Exhaustion. Offices protecting themselves from work they could not measure. She found no knife."
+Veya ignored him. "For years, my grandmother looked for the true order. The one that said *stop listening to the edge.* She found budgets. Transfer notes. Reclassification schedules. Complaints that local observers sent too much noise. Complaints that central offices never answered. Arrogance. Laziness. Exhaustion. Offices protecting themselves from work they could not measure. She found no knife."
 
 "Maybe she didn't find it," Toma said.
 
@@ -392,9 +382,9 @@ Veya turned back to Lena.
 
 Lena looked down at the table.
 
-The sentence was less satisfying than erasure. Less warm. It gave her nowhere to put her anger except everywhere, which meant nowhere useful.
+The sentence was less satisfying than erasure. It gave her nowhere to put her anger except everywhere.
 
-Toma's erasure story had documents. It had closed offices. It had signatures. It was true enough to grip. But Veya's grief made it larger and colder.
+Toma's erasure story had documents. Closed offices. Signatures. It was true enough to grip. Veya's grief made it larger and colder.
 
 "What do you do with that?" Lena asked.
 
@@ -420,7 +410,7 @@ Below it:
 
 Veya turned the page around so Lena could read it.
 
-"People remember the first two," she said. "Even now. Your marsh-watchers observe. They send. Jun observed. He sent, barely. You observe until it breaks you, and you send when someone is standing close enough to hear." Her finger tapped the third line. "The old offices died here. Not because no one saw. Not because no one spoke. Because answer became optional."
+"People remember the first two," she said. "Even now. Your marsh-watchers observe. They send. Jun did too, barely. You observe until it breaks you, and you send when someone is close enough to hear." Her finger tapped the third line. "The old offices died here. Not because no one saw. Not because no one spoke. Because answer became optional."
 
 Lena stared at the three words.
 
@@ -428,7 +418,7 @@ Lena stared at the three words.
 
 They were too plain. Almost childish. Like the copy-slates near the wall. *A copy is not a replacement. It is a promise to answer.*
 
-She thought of the lists moving hand to hand among people who never traveled. *So the next one knows what to watch.* Observe and send. Not yet answer — or answering locally, settlement to settlement, too small to reach Tellan before she cleared the *Wren.*
+She thought of the lists moving hand to hand among people who never traveled. *So the next one knows what to watch.* Observe and send. Not yet the third motion, at least not far enough to reach Tellan before she cleared the *Wren.*
 
 She thought of Jun's pages folded behind the scanner. He had sent. She had never answered.
 
@@ -492,11 +482,11 @@ Toma half rose. Veya did not.
 
 "No."
 
-"My brother is in the Tarn. I don't know if he's alive. I don't know if he thinks I didn't try. I don't know if every road I take is making me later. I don't know how many people I've killed by being useful in the wrong way." The words came faster now, and she hated that they did. "So forgive me if I'd like one part of this to have a name. One person. One office. One hand that did the thing, so I can stop finding out that every answer is just another room full of frightened people and old forms and somebody saying *yes, but.*"
+"My brother is in the Tarn. I don't know if he's alive. I don't know if he thinks I didn't try. I don't know if every road I take is making me later. I don't know how many people I've killed by being useful in the wrong way." The words came faster now, and she hated that they did. "So forgive me if I'd like one part of this to have a name. One person. One office. One hand that did the thing, so I can stop finding another room full of frightened people and old forms and somebody saying *yes, but.*"
 
 Veya looked up at her.
 
-For a moment there was no instruction in her face at all. Only sadness. Not pity. Sadness with memory in it.
+For a moment there was no instruction in her face at all. Only sadness with memory in it.
 
 "My son died because a reply did not come," she said.
 
@@ -511,8 +501,6 @@ She folded her hands.
 "The paper trail is very clear. No villain. No cover-up. No one wanted my son dead. The first clerk followed priority schema. The second was covering two desks because staffing had been reduced. The copy-house did not know who else to tell after the second no answer. The maintenance office had stopped reading non-critical notices unless they came through central. Central had no live category for local mold until it became facility-wide. Everyone behaved understandably. My son is dead."
 
 Lena could not speak.
-
-Veya's voice did not break. That somehow made it worse.
 
 "So when I tell you no one erased it, I am not being gentle. I am telling you the crueler thing. A culprit would have been a mercy. I would have liked to hate one person properly. Instead I had to learn how much death fits inside ordinary failure."
 
@@ -538,7 +526,7 @@ Veya nodded once.
 
 "Of what?"
 
-"Of the same thing killing the gates now." She looked toward the copy-slates. "The network did not fail because one office closed two hundred years ago. The office closed because people had already begun treating local variation as noise until confirmed, and reply as waste if receipt could be logged."
+"Of the same thing killing the gates now." She looked toward the copy-slates. "The network did not fail because one office closed two hundred years ago. The office closed because people had already begun treating local variation as noise until confirmed, and reply as waste once receipt could be logged."
 
 "Folklore," Lena said.
 
@@ -546,7 +534,7 @@ Veya nodded once.
 
 Toma whispered, "That is excellent."
 
-Veya ignored him again. "The gates continued to work, so the loss looked harmless. Every year the absence did not kill anyone important became evidence that the absence did not matter."
+Veya ignored him again. "The gates continued to work, so the loss looked harmless. Every year the absence did not kill anyone important became evidence that it did not matter."
 
 "Until it did."
 
@@ -557,8 +545,6 @@ Veya ignored him again. "The gates continued to work, so the loss looked harmles
 Veya's eyes sharpened again, then cooled deliberately.
 
 "No."
-
-The word struck harder than Lena expected.
 
 "Not like that," Veya said. "The old return offices are gone. The people are gone. The trust is gone. The forms are dead, and even if we rebuilt them, no one would know why to answer them. Institutions do not come back because a courier has found a folio and a conscience."
 
@@ -622,7 +608,7 @@ Lena sat with that.
 
 "What do I do with this?" she asked.
 
-She meant the folio. The slate. The sentence. All of it.
+The folio. The slate. The sentence. All of it.
 
 Veya took the question more gently than before.
 
@@ -646,7 +632,7 @@ Veya took the question more gently than before.
 
 "That is your answer to everything?"
 
-"No. It is my answer to people who think a true diagnosis owes them immediate usefulness." Veya returned to her chair. "The first mercy of truth is that it disappoints the part of us that wanted a weapon."
+"No. It is my answer to people who think a true diagnosis owes them immediate usefulness." Veya returned to her chair.
 
 Toma groaned softly. "You see what she's like."
 
@@ -702,7 +688,7 @@ The packet weighed almost nothing. Lena took it with both hands.
 
 "You tell me."
 
-Lena almost protested, but the words would not form. She looked at the copy-slates, the screw in its box, the folio that did not prove what Toma wanted and proved something worse.
+Lena almost protested, but the words would not form. She looked at the copy-slates, the screw in its box, the folio that did not prove what Toma wanted.
 
 "I don't know yet," Lena said.
 
@@ -710,7 +696,7 @@ Veya nodded.
 
 "That is the first honest answer anyone gives the dead."
 
-She stood then, which meant they were leaving. Or being dismissed. In Vellum those seemed to be the same motion.
+She stood then. They were leaving. Or being dismissed.
 
 At the door, Toma lingered.
 
@@ -730,13 +716,13 @@ Lena turned.
 
 "What should I begin with?"
 
-Veya's face softened in a way that seemed to cost her.
+Veya's face softened.
 
 "Answer what he has been sending you all these years."
 
 Then she closed the door.
 
-Lena stood in the passage with the copied packet in her pack and the dead panel under her arm and felt, for a moment, the full cruelty of the instruction. Arin had been sending her things for years, though not in the way couriers counted. Mud on boots. Complaints about fast roads. Warnings about skiffs and fog and gates that made people forget the weight of distance. *Next time, Lena. Stay long enough to learn the place.* She had treated those as brotherly weather, familiar and inconvenient and easy to move through.
+Lena stood in the passage with the copied packet in her pack and the dead panel under her arm. Arin had been sending her things for years, though not in the way couriers counted: mud on boots, complaints about fast roads, warnings about skiffs and fog and gates that made people forget the weight of distance. *Next time, Lena. Stay long enough to learn the place.* She had treated those as brotherly weather, familiar and inconvenient and easy to move through.
 
 Maybe she had never answered.
 
@@ -766,7 +752,7 @@ Toma considered that. "Right now, it matters that you do not let her grief make 
 
 They reached the lift. A boy came out carrying a tray of wet pages, walking carefully, eyes fierce with the importance of not dropping what he had been trusted to carry. Toma stepped aside without mockery. Lena did too.
 
-When the lift doors closed, Vellum's under-city disappeared behind metal, but the sound of it seemed to remain: scrape, press, call, answer. Not enough to save the network. Enough to make the archive above feel less like memory and more like accusation.
+When the lift doors closed, Vellum's under-city disappeared behind metal, but the sound of it seemed to remain: scrape, press, call, answer.
 
 The lift rose.
 
@@ -814,6 +800,6 @@ The doors opened onto the dry, low-lit corridor of the archive moon.
 
 *They simply stopped doing it.*
 
-Lena stepped out of the lift carrying the worse truth, the copied packet, and the obligation Veya had placed in her hands without asking whether she wanted it.
+Lena stepped out of the lift carrying the worse truth, the copied packet, and the obligation Veya had placed in her hands.
 
 For a little while, that was enough to move by.
