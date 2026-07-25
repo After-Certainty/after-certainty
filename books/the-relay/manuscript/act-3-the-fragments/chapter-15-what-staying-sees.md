@@ -246,11 +246,9 @@ Bel studied him. "You mean the notes."
 
 "The offices don't answer. The gate doesn't answer. The message board doesn't answer. Someone should."
 
-"That isn't a system."
+"Yes," she said. "Manners."
 
-"No," she said. "It's manners."
-
-He laughed then, because of course. Of all the words for what they were doing — salvage, warning, local return, civic panic dressed as penmanship — *manners* was both the smallest and the least wrong.
+He laughed then, because of course.
 
 The skiff shifted under him as he stepped in.
 
@@ -352,8 +350,6 @@ Jaro's face remained turned toward the water, but the set of his shoulders had c
 
 *Send it anyway.*
 
-That, Arin thought, was what staying had become. Not rootedness, not dignity, not the noble slow truth he had thrown at Lena years ago as if it were a virtue instead of merely the shape his life had taken. Staying was sending anyway, because if you stayed long enough, you lost the fantasy that anyone else could know your place for you. You learned what changed when nothing official had changed. He had made a righteousness out of staying because it was the only way he knew how not to feel left behind.
-
 The lake gave a dull knock under the lock gate.
 
 Both men turned.
@@ -426,7 +422,7 @@ No one improved it.
 
 When they were done, Arin laid the pages on the lockhouse table and read them through. South lag. North pulse. Reed flattening. Moths low. Bees wrong. Bluefish deep. Pennies. Backward eddy. Winter-skin. *Tell the next.*
 
-*Tell the next* had become the closing line on most of their scraps without anyone voting on it. It was not law. It was not an office. It was what fit at the bottom when there was no official place for answer.
+*Tell the next* had become the closing line on most of their scraps without anyone voting on it.
 
 He hesitated, then added beneath it:
 

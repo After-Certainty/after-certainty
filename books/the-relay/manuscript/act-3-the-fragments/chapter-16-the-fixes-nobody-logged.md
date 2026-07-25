@@ -26,8 +26,6 @@ That was the second thing Lena noticed.
 
 Nobody looked surprised.
 
-A miracle, performed long enough, becomes maintenance.
-
 She stood at the edge of the yard with Veya's copied packet inside her coat, Jun's pages folded behind the dead scanner panel, and Toma's last words still irritating the inside of her skull.
 
 "Cai will lie to you," he had said at the Vellum departure wicket.
@@ -268,7 +266,7 @@ Cai wiped his hands on a cloth already beyond rescue. "There are no unlogged fix
 
 "Cai."
 
-"You came down here to ask a man responsible for keeping a damaged gate alive whether he has violated procedure in ways that could cost him his license, his yard's transit authority, and possibly several hundred lives if repeated by idiots without context. Allow me to help you with the form. There are no unlogged fixes."
+"There are no unlogged fixes."
 
 "You just said the manual doesn't apply."
 
@@ -288,7 +286,7 @@ Lena took Veya's packet from inside her coat.
 
 Cai saw it and did not look away quickly enough.
 
-"I have records from Vellum," she said. "Old local returns. Gate attunement exceptions. Offices that used to collect small wrong things and compare them across places. They simply stopped doing the work." She held his eyes. "I think you're still doing pieces of it. I think half the gates still running are held open by people making local corrections nobody logs because logging them would make the correction punishable or ridiculous or both. And I think that means every world is fixing itself blind."
+"I have records from Vellum," she said. "Old local returns. Gate attunement exceptions. Offices that used to collect small wrong things and compare them across places." She held his eyes. "I think you're still doing pieces of that. I think the corrections aren't in any log I can read."
 
 Cai's face had changed one word at a time.
 
@@ -464,13 +462,11 @@ His eyes sharpened.
 
 "You don't know that."
 
-"Yes, I do. Because I know what my fixes fix, and I know what they don't." He stood abruptly. "You want to make local work visible? Good. Fine. It will also get people killed if they copy a fix without the conditions that made it safe. This dampener works because I know Ivera's throat like my own bad knee. Put it in Anneth and maybe the gate folds a passenger line inside out because Anneth's return tone fails differently. There is no general fix. That is why we don't log them as fixes."
+"Yes, I do. Because I know what my fixes fix, and I know what they don't." He stood abruptly. "This dampener works because I know Ivera's throat like my own bad knee. Put it in Anneth and maybe the gate folds a passenger line inside out. Copy without the conditions and people die."
 
-"That's why you don't log them publicly."
+"So someone has to compare the conditions."
 
 He stopped.
-
-"Someone has to know," she said. "Not everyone. Not as instruction. But someone has to be able to compare. Otherwise every Cai on every world is solving one wound as if the body around it doesn't exist."
 
 His face went still.
 
@@ -606,10 +602,6 @@ Cai's face was expressionless.
 
 The room held the word.
 
-Cai's notebooks were full of observing and sending, but the replies were broken, partial, private, shamed. Rallo should have written back. Someone should have compared summer humidity and livestock holds before another world repeated the wrong salvation.
-
-Instead the knowledge sat here, under a working gate, smelling of bad ventilation.
-
 "You sent," Lena said.
 
 "I warned."
@@ -622,45 +614,19 @@ He said it sharply, but not to her.
 
 The room's single lamp flickered. Cai thumped the wall beside it with two fingers. It steadied.
 
-"How many worlds have books like this?" Lena asked.
-
-"Enough."
-
-"How many talk?"
-
-"Fewer."
-
-He did not offer more.
-
-Cai took the notebook back and returned it to the shelf. "You understand why I say no."
-
-"Yes."
-
-"Good."
-
-"You're still wrong."
-
-He closed his eyes briefly. "There it is."
-
-"You don't need to publish the fixes. You need the conditions. The symptoms. What failed, what held, where a fix killed sheep, where a return tone split, where a gate throat learned to limp. Not instruction. Comparison."
+Lena tapped the Rallo page. "Then ask them again. Not the fix. The humidity. The livestock hold. What failed under which conditions."
 
 "That is still dangerous."
 
-"Yes."
-
-"So is pretending nothing changed."
-
-"Yes."
-
-"So is silence."
-
-"Yes."
+"So is this page with no reply."
 
 He looked at her then, a tired and unwilling respect moving behind the irritation. "You have become very troublesome."
 
 "I started there."
 
 "No. You started sharp. Trouble requires context."
+
+He returned the notebook to the shelf.
 
 From above came a shout.
 
@@ -708,7 +674,7 @@ His eyes flashed. Then the mechanic in him answered despite the man.
 
 "Humidity low. Cargo load heavier. More human transit. East wind."
 
-Sael's upper mouth moved silently; the lower said, "And intake rate exceeded manual acknowledgment capacity by thirty-seven names."
+Sael's upper mouth moved silently; the lower said, "And intake rate outran acknowledgment by thirty-seven names."
 
 Cai swore.
 
@@ -874,7 +840,7 @@ Sael gathered the intake books. "Lio should see her."
 
 "I know," Cai said.
 
-"You have delayed because you dislike admitting Lio was correct about acknowledgment structures."
+"You have delayed because you dislike admitting Lio was correct about the acknowledgment marks."
 
 "I have delayed because Lio enjoys being correct more than safety permits."
 
@@ -892,41 +858,13 @@ Lena turned to Cai. "Who is Lio?"
 
 "That means less to me than it used to."
 
-"Good. It means less to us too." Cai rubbed both hands over his face. "Lio coordinates the things that are not coordinated."
+"Good." Cai rubbed both hands over his face. "Lio keeps the slips the offices stopped keeping. Names. Who replies. Who lied last time. Who owes an answer after nearly killing someone else's sheep."
 
 "An office?"
 
-"No."
-
-"You're all very committed to that."
-
 "Offices get closed. Lio is a habit with a desk."
 
-"What habit?"
-
-Cai looked toward the passage Sael had taken.
-
-"When the central lines stopped answering, some local lines survived. Not official ones. Personal ones. Mechanics. Clerks. Pilots. People who owed each other explanations after nearly killing each other's sheep. Lio keeps names."
-
-Lena's pulse shifted.
-
-"Names?"
-
-"Who knows which thing. Who replies. Who lies. Who replies slowly but well. Who sends panic disguised as certainty. Who has bad instruments but good eyes." He pointed at himself. "Useful categories."
-
-"Why didn't you tell me?"
-
-"I did. Repeatedly. With no."
-
-"Cai."
-
-He looked tired now. Truly tired, the kind no sleep pays back.
-
-"Because once a thing like that gets seen, people try to make it official. They put names on forms. They rank reliability. They centralize. They improve. And in a generation someone is standing in a dry office saying local variation produces too much noise." His voice went rough. "We are not hiding because we are selfish. We are hiding because every structure that promises to protect this kind of work eventually tries to own it."
-
-Lena had no easy reply to that.
-
-"What does Lio do differently?" she asked.
+"What does Lio do differently?"
 
 Cai smiled, and for the first time it carried real fondness.
 
@@ -964,13 +902,9 @@ Near the intake booth, Sael was rewriting the notice in larger script.
 *If your name is listed, you are still held in sequence.*
 *If your name is missing, tell Sael, not the crowd.*
 
-That last line was excellent.
-
 At the far end of the yard stood a little office built between two supports of the improvised scaffolding. It looked temporary in the way only permanent things look when no one has admitted what they are. Its walls were patched from five materials. Its door was half-open. Above it hung no sign.
 
-People came and went from it in ones and twos: a pilot with a folded chart, a woman carrying a box of cracked insulators, two children with a slate, an old man who appeared to be delivering onions and left without them. No one lingered unless asked. No one saluted. No one queued in the formal way. It was not an office.
-
-It was plainly an office.
+People came and went from it in ones and twos: a pilot with a folded chart, a woman carrying a box of cracked insulators, two children with a slate, an old man who appeared to be delivering onions and left without them. No one lingered unless asked. No one saluted. No one queued in the formal way.
 
 Cai stopped before the door.
 
@@ -1014,15 +948,11 @@ Lena stepped through the door.
 
 Lio was not what she expected either.
 
-They were human, for one thing, or close enough that the difference did not announce itself. Maybe sixty, maybe older, with dark hair cut short and silver at the temples, spectacles pushed up on their head, and ink on their sleeve in a pattern that suggested either accident or system. Their desk was not a desk but three crate lids laid across two file cabinets. On it sat stacks of slips, route scraps, tiny hand-drawn maps, broken seals, two bowls of onions, a child's slate, and an intake book open to a page of names connected by lines.
-
-Memory with reach.
+They were human, for one thing, or close enough that the difference did not announce itself. Maybe sixty, maybe older, with dark hair cut short and silver at the temples, spectacles pushed up on their head, and ink on their sleeve in a pattern that suggested either accident or habit. Their desk was not a desk but three crate lids laid across two file cabinets. On it sat stacks of slips, route scraps, tiny hand-drawn maps, broken seals, two bowls of onions, a child's slate, and an intake book open to a page of names connected by lines.
 
 Lio looked up and smiled as if Lena were late to a meeting Lena had not known existed.
 
 "Finally," they said.
-
-Lena felt the question in her chest move, not settled, but recognized by something outside her for the first time since Borren.
 
 Lio picked up Toma's sealed note from the desk. Apparently Sael had sent it ahead already.
 
@@ -1068,7 +998,7 @@ Only the hand holding Jun's page had tightened when it reached *None of these go
 
 "That's not an answer."
 
-"It is more honest than most." Lio touched the marsh-list. "The settled watchers have been sending these for weeks. Longer in some places. We've received eleven versions through pilots, peddlers, school packets, one marriage contract, and a crate of onions."
+"It is more honest than most." Lio touched the marsh-list. "We've been getting versions of these for weeks. Longer in some places. Eleven through pilots, peddlers, school packets, one marriage contract, and a crate of onions."
 
 "The onions?"
 
@@ -1114,7 +1044,7 @@ Lio's eyes met hers.
 
 Lena had no reply and hated them briefly for asking.
 
-Lio's voice gentled, not to soften the fact but to keep it usable. "We have pieces. Cai has fixes. Veya has memory. Jun has analysis. The settled watchers have observations. Pilots have routes. Clerks have names. You have attention and a dead list of twenty-six reasons not to let any of us feel noble." They placed one finger on the marsh-lines. "What we do not have is reach enough. Or trust enough. Or a way to reply fast without becoming the kind of center that killed the old lines."
+Lio placed one finger on the marsh-lines, then on a blank column ruled for reply marks that had never been filled. "We can compare what arrives. We cannot yet answer fast enough without becoming the kind of desk that killed the old lines."
 
 Lena looked at the pages side by side.
 
@@ -1138,7 +1068,7 @@ Lio heard it.
 
 They opened the intake book and turned it toward her.
 
-Names. Lines. Places. Some solid, some dotted, some crossed with marks Lena did not know yet. Cai to Rallo. Rallo unanswered. Sael to Vellum. Vellum to Lio. Marsh watchers to west pilot. West pilot to Tarn? A question mark. Tarn circled twice.
+Names. Lines. Places. Some solid, some dotted, some crossed with marks Lena did not know yet. Cai to Rallo. Rallo unanswered. Sael to Vellum. Vellum to Lio. Marsh packets to west pilot. West pilot to Tarn? A question mark. Tarn circled twice.
 
 Lena's breath caught.
 
@@ -1194,13 +1124,9 @@ Neither had she heard Sael, standing behind him with the Rallo query in all four
 
 Lio looked at the map of names and lines and then at Lena.
 
-"Then," they said, "your brother may already be holding one end of something we have not known how to reach."
+"Then," they said, "your brother may already be holding a line we have not known how to reach."
 
-The words should have brought relief.
-
-They brought terror.
-
-Lena looked at the pages: Veya's old returns, Cai's hidden fixes, Jun's uncertain warning, the marsh-list, Lio's live lines, Arin's winter-skin report.
+Lena looked at the pages: Veya's old returns, Cai's notebooks, Jun's warning, the marsh-list, Lio's live lines, Arin's winter-skin.
 
 "What do we do?" she asked.
 
