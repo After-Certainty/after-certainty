@@ -31,11 +31,10 @@ Months later the underpasses are dry. Weather has stabilized. Neighborhood
 groups that accepted the emergency grip now ask who can reopen a remaining
 restricted corridor without going through the command group. The answer is
 unchanged. The same approval path remains. Officials describe it as "proven
-under pressure." The storm justified the contraction. The aftermath turned the
-continuing signature into a legitimacy problem.
+under pressure."
 :::
 
-The opening move can be justified. The later problem is not that authority
+The storm justified the contraction. The later problem is not that authority
 narrowed during the flood. It is that the approval path remained narrow after
 the water receded.
 
