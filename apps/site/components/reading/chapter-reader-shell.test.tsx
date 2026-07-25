@@ -47,8 +47,18 @@ describe("ChapterReaderShell", () => {
 
     expect(screen.getByRole("navigation", { name: "Table of contents" })).toBeInTheDocument();
     expect(
-      screen.getByRole("link", { name: `Next chapter: ${navigation!.next!.title}` }),
-    ).toHaveAttribute("href", navigation!.next!.href);
+      screen.getByRole("navigation", { name: "Previous and next chapter" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("navigation", { name: "Previous and next chapter at end of page" }),
+    ).toBeInTheDocument();
+    const nextLinks = screen.getAllByRole("link", {
+      name: `Next chapter: ${navigation!.next!.title}`,
+    });
+    expect(nextLinks).toHaveLength(2);
+    for (const link of nextLinks) {
+      expect(link).toHaveAttribute("href", navigation!.next!.href);
+    }
     expect(screen.queryByRole("link", { name: /Previous chapter:/i })).not.toBeInTheDocument();
     expect(screen.getByText("Manuscript body")).toBeInTheDocument();
   });
