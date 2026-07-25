@@ -1,0 +1,442 @@
+version: 1
+verbatim:
+- id: leader-definition
+  file: front-matter/introduction-attention-finds-a-focus.md
+  text: A leader is someone others look to when deciding what to do next.
+  reason: Canonical definition of a leader and the book's opening governing claim.
+- id: intention-structure
+  file: front-matter/introduction-attention-finds-a-focus.md
+  text: Leadership cannot be reduced to intention. Intention matters, but structure matters more.
+  reason: Core claim that structure outweighs intention while intention still matters.
+- id: moral-posture
+  file: front-matter/introduction-attention-finds-a-focus.md
+  text: The aim is not to condemn people. It is to clarify dynamics.
+  reason: Humane, non-condemnatory posture of the book.
+- id: closing-reading-stance
+  file: front-matter/introduction-attention-finds-a-focus.md
+  text: Whether leadership exists is rarely the puzzle. The question is what it is becoming while others
+    watch—and what you can still see in the meantime.
+  reason: Closing reading stance for the introduction.
+- id: guest-leadership-trusted-punished
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: |-
+    When guest leadership is trusted, more people use it openly.
+
+    When guest leadership is punished, people retreat.
+  reason: Signature guest-leadership pull quote; two-part movement must stay intact.
+- id: correction-vs-circulation-failure
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: The failure mode is not "they didn't hear you." It is "only one name is permitted to steer."
+  reason: Canonical correction-versus-circulation failure mode.
+- id: circulation-copies-permission
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: Circulation copies permission before it ever copies a title.
+  reason: Signature circulation compression and chapter-end pull quote.
+- id: pq-ch1-behavior-teaches-normal
+  file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
+  text: Once people are watching, your behavior teaches what counts as normal.
+  reason: Chapter 1 ending pull quote.
+- id: pq-ch2-direction-vs-feeling
+  file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
+  text: Direction and day-to-day feeling are not the same thing.
+  reason: Chapter 2 pull quote locking direction vs state.
+- id: pq-ch3-renewal-bad-news
+  file: parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md
+  text: Renewal means bad news can still change the plan before damage sets.
+  reason: Chapter 3 ending pull quote.
+- id: pq-ch4-erosion-correction-price
+  file: parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md
+  text: Erosion starts when correction carries a price.
+  reason: Chapter 4 ending pull quote.
+- id: pq-ch6-damage-path
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-6-harm-under-influence.md
+  text: Follow the damage path; it traces the protected edge.
+  reason: Chapter 6 ending pull quote.
+- id: pq-ch7-performance-masks-decay
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md
+  text: Performance can certify capacity while masking decay.
+  reason: Chapter 7 ending pull quote.
+- id: pq-ch8-legitimacy-accountability
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md
+  text: Legitimacy survives through repeated accountability, not one-time assent.
+  reason: Chapter 8 ending pull quote.
+- id: pq-ch9-reach-scales
+  file: parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md
+  text: Reach scales faster than self-correction unless it is designed in.
+  reason: Chapter 9 ending pull quote.
+- id: pq-ch10-pressure-commitments
+  file: parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md
+  text: Pressure clarifies commitments; it does not absolve them.
+  reason: Chapter 10 ending pull quote.
+- id: pq-ch11-outcomes-loud
+  file: parts/part-4-scale-pressure-misjudgment/chapter-11-why-we-misjudge-leaders.md
+  text: Outcomes are loud; structure is decisive.
+  reason: Chapter 11 ending pull quote.
+- id: pq-ch12-capacity-can-move
+  file: parts/part-5-closing/chapter-12-what-happens-next.md
+  text: What outlasts any single leader is not certainty at the center, but whether leadership capacity
+    can move.
+  reason: Chapter 12 ending pull quote.
+- id: pattern-attention-finds-a-focus
+  file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
+  text: When people are uncertain, attention gathers fast. Influence forms before anyone names formal
+    authority.
+  reason: 'Pattern Block body: Attention Finds a Focus.'
+- id: pattern-examples-accumulate-lead
+  file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
+  text: What a leader rewards, punishes, or ignores teaches others what is acceptable faster than policy
+    does.
+  reason: 'Pattern Block lead claim: Examples Accumulate.'
+- id: pattern-leadership-coalesces
+  file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
+  text: When others keep looking to the same person, that repetition settles into habit. One person becomes
+    the default decision point, even without new formal authority.
+  reason: 'Pattern Block body: Leadership Coalesces.'
+- id: pattern-dissent-is-welcomed
+  file: parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md
+  text: Dissent and risk signals can reach decision-makers in time. Warnings can still change what gets
+    decided—without punishment.
+  reason: 'Pattern Block body: Dissent is Welcomed.'
+- id: pattern-feedback-drives-change
+  file: parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md
+  text: New information can still steer the work. Plans can still change while reality is pushing back.
+  reason: 'Pattern Block body: Feedback Drives Change.'
+- id: pattern-leaders-feel-the-consequences
+  file: parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md
+  text: Decision-makers stay visible when costs land. Accountability stays tied to authority.
+  reason: 'Pattern Block body: Leaders Feel the Consequences.'
+- id: pattern-disagreement-is-suppressed
+  file: parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md
+  text: Challenge starts to sound like disloyalty. Open disagreement shrinks to performances that protect
+    whoever holds the center.
+  reason: 'Pattern Block body: Disagreement is Suppressed.'
+- id: pattern-learning-collapses
+  file: parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md
+  text: What people on the ground know stops reaching decision-makers in time.
+  reason: 'Pattern Block lead claim: Learning Collapses.'
+- id: pattern-exceptions-are-forever
+  file: parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md
+  text: Exceptions introduced under urgency tend to stick. Temporary permissions harden into the new operating
+    baseline.
+  reason: 'Pattern Block body: Exceptions are Forever.'
+- id: pattern-leadership-reproduces-itself
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: What gets rewarded or punished locally becomes a template; people imitate it when they step into
+    leadership next.
+  reason: 'Pattern Block body: Leadership Reproduces Itself.'
+- id: leader-definition-ch1
+  file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
+  text: A leader is someone others look to when deciding what to do next.
+  reason: Chapter 1 restatement of canonical definition; keep if chapter still opens with it.
+- id: bridge2-renewal-def
+  file: parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md
+  text: Renewal is whether a group can still change course under pressure.
+  reason: Bridge II canonical renewal definition.
+- id: bridge2-erosion-def
+  file: parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md
+  text: Erosion is what happens when correction narrows and exceptions quietly harden.
+  reason: Bridge II canonical erosion definition.
+- id: bridge2-circulation-def
+  file: parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md
+  text: Circulation is whether leadership can pass through more people—or whether every decision keeps
+    returning to the same gate.
+  reason: Bridge II circulation preview definition.
+- id: ch5-correction-circulation-defs
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: 'Correction keeps the center honest: warnings and dissent can still change what the person with
+    formal power decides. Circulation lets decision authority move—whether anyone else may make the call
+    for a stretch, step back when the moment passes, and not pay later for having stepped in.'
+  reason: Core correction vs circulation definition pair in Chapter 5.
+- id: ch6-harm-routes
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-6-harm-under-influence.md
+  text: Leadership does not remove harm. It directs where harm goes.
+  reason: Chapter 6 opening harm claim.
+- id: ch7-effectiveness-future-capacity
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md
+  text: The pair of questions that matters is not only "did this work now?" but "what did this result
+    do to future capacity?"
+  reason: Chapter 7 effectiveness over-time hinge.
+- id: ch9-scale-not-villain
+  file: parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md
+  text: Scale does not cause erosion by itself. It widens what the structure was already inclined to produce.
+  reason: Scale amplifies rather than mechanically causes erosion.
+- id: ch10-temporary-vs-permanent
+  file: parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md
+  text: Temporary contraction can preserve function; permanent closure locks in decay.
+  reason: Temporary centralization vs permanent capture hinge.
+- id: ch11-selection-pressure
+  file: parts/part-4-scale-pressure-misjudgment/chapter-11-why-we-misjudge-leaders.md
+  text: What gets rewarded in judgment is what structures learn to produce.
+  reason: Observer selection-pressure hinge.
+- id: epilogue-reversal
+  file: back-matter/epilogue.md
+  text: Reversal is not always possible.
+  reason: Epilogue refusal of easy restoration.
+- id: epilogue-slowing-damage
+  file: back-matter/epilogue.md
+  text: Slowing damage is not the same as restoring vitality.
+  reason: Epilogue moral limit on repair language.
+- id: epilogue-still-leadership
+  file: back-matter/epilogue.md
+  text: That is still leadership.
+  reason: Epilogue closing moral affirmation.
+substantive:
+- id: intro-behavior-as-instruction
+  file: front-matter/introduction-attention-finds-a-focus.md
+  text: When others look to you, your behavior is no longer private. It may still feel private to you,
+    but others read it as instruction.
+  protectedMeaning: Visible behavior becomes instruction under attention.
+  reason: Central formation claim of the book.
+- id: intro-pace-tolerance
+  file: front-matter/introduction-attention-finds-a-focus.md
+  text: Your pace teaches pace, your tolerance teaches tolerance, your silence teaches limits, and your
+    corrections teach what can still be revised.
+  protectedMeaning: Concrete teaching chain from leader behavior to group norms.
+  reason: Memorable compression of how instruction travels.
+- id: intro-four-shapes-preview
+  file: front-matter/introduction-attention-finds-a-focus.md
+  text: 'Those dynamics also gather into four shapes: Forming, Adjusting, Eroding, and Circulating.'
+  protectedMeaning: >-
+    Light preview of Appendix B / pattern groups; readers need not memorize as a second framework.
+  reason: Keep as preview; reduce later insistence on memorizing the four-shape grid.
+- id: ch1-amplifies-showed
+  file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
+  text: Leadership does not amplify intention. It amplifies what you showed, not what you meant.
+  protectedMeaning: Structure/behavior over private intention at formation.
+  reason: Signature Ch.1 formulation.
+- id: ch1-looked-to-not-obeyed
+  file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
+  text: Being looked to does not mean being obeyed.
+  protectedMeaning: Selective followership seed; looking ≠ obedience.
+  reason: Protects Chapter 1's look vs follow distinction.
+- id: ch2-not-report-card
+  file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
+  text: Those are different questions. This is not a report card on character. Good intentions can still
+    yield erosion, and flawed people can still sustain renewal. What matters is structure under pressure,
+    not purity.
+  protectedMeaning: Renewal/erosion are structural directions, not moral identities.
+  reason: Chapter 2 anti-typing claim; strengthen further in revision.
+- id: ch2-not-personality-types
+  file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
+  text: These are not personality types. They describe how the work is set up when pressure hits.
+  protectedMeaning: Four-state / vibrant-decaying language is diagnostic structure, not sorting people.
+  reason: Must survive and be clarified for mixed states / domains.
+- id: ch2-direction-vs-vitality
+  file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
+  text: Renewal names which way influence is moving. Vitality names how things tend to feel when that
+    movement holds.
+  protectedMeaning: Direction vs felt state distinction.
+  reason: Core vocabulary staging for Part II.
+- id: ch2-scalability
+  file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
+  text: Scalability asks whether coordinated action can grow in reach—whether more people, sites, or layers
+    can stay coordinated without the center holding every thread by hand.
+  protectedMeaning: Definition of scalability as capacity.
+  reason: Needed for the grid; not the same as vitality.
+- id: ch2-adaptability
+  file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
+  text: Adaptability asks whether the work can still change direction when reality pushes back—whether
+    plans stay open to revision after they are in motion.
+  protectedMeaning: Definition of adaptability as capacity.
+  reason: Decisive split for vibrant vs decaying groups.
+- id: ch3-correction-circulation-seed
+  file: parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md
+  text: Correction names whether warnings can still change decisions. Circulation names whether the center
+    can move when the work demands it—not only outward from formal roles.
+  protectedMeaning: Early preparation for Chapter 5 without full definition load.
+  reason: Preserve seed; do not expand into full Ch.5 argument here.
+- id: ch3-not-heroics
+  file: parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md
+  text: This is not heroics. It is structure.
+  protectedMeaning: Renewal as structure, not moral heroism.
+  reason: Humane posture compression.
+- id: ch4-image-over-correction
+  file: parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md
+  text: 'Over time, the group learns a dangerous lesson: protecting the image matters more than correction.'
+  protectedMeaning: Erosion's interior rationality.
+  reason: Signature erosion claim.
+- id: ch4-looks-like-stability
+  file: parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md
+  text: That is why erosion can look like stability from the inside.
+  protectedMeaning: Observer/insider lag of erosion.
+  reason: Prepares later misjudgment chapters.
+- id: ch5-kitchen-opening
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: Nobody handed her a second title. The room had already taught her that holding the decision point
+    for a stretch was part of the job—not a coup.
+  protectedMeaning: 'Kitchen vignette teaching: circulation without new title.'
+  reason: Highest-preservation scene hinge.
+- id: ch5-permission-aftermath
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: 'People rarely wait for a memo to learn whether stepping in is safe. They watch what happened
+    after the last person held the center for a stretch: whether they were credited, whether they stayed
+    welcome in the same conversations, whether the afterward story sounded like useful work or like damage
+    control.'
+  protectedMeaning: 'Permission is tested in aftermath: credit, welcome, story.'
+  reason: Guest-leadership aftermath contribution.
+- id: ch5-paper-vs-practice
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: Permission can be open on paper and closed in practice.
+  protectedMeaning: Formal vs lived permission.
+  reason: Signature permission distinction.
+- id: ch5-three-shapes
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: One-way authority… Voice-only correction… Shared circulation (guest leadership)
+  protectedMeaning: Three shapes teaching device for correction/circulation.
+  reason: Preserve the three-way contrast even if bullets tighten.
+- id: ch5-bench-atrophy
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: A group that has never circulated leadership has no practiced bench.
+  protectedMeaning: Bench atrophy without circulation.
+  reason: Institutional resilience contribution.
+- id: ch5-erosion-no-villain
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: Erosion does not need a villain. It only needs the next people in line to learn—before anyone's
+    name is on the door—whether stepping into the gap when something breaks is safe.
+  protectedMeaning: Non-condemnatory reproduction of capture.
+  reason: Moral posture + circulation hinge.
+- id: ch5-captured-while-correction
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: circulation is likely captured even when correction still works on paper.
+  protectedMeaning: Correction open / circulation closed is a major original contribution.
+  reason: Must remain available as a readable case.
+- id: bridge3-lens-independence
+  file: parts/part-3-harm-effectiveness-legitimacy/bridge-from-movement-to-lenses.md
+  text: Harm, effectiveness, and legitimacy are three lenses on what influence is producing. Each lens
+    shows something the others miss.
+  protectedMeaning: Lenses are independent and complementary, not one moral score.
+  reason: Part III governing distinction.
+- id: ch6-intent-vs-who-pays
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-6-harm-under-influence.md
+  text: Most leaders believe they are acting for good. The decisive question is not only intent. It is
+    who pays when pressure rises.
+  protectedMeaning: Harm lens independence from intention.
+  reason: Protects non-condemnatory harm analysis.
+- id: ch7-effectiveness-legitimacy-split
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md
+  text: 'Effectiveness is what worked. Legitimacy is why people keep following: how authority forms, hardens,
+    and renews over time, and what makes that sustainable.'
+  protectedMeaning: Effectiveness and legitimacy remain distinct.
+  reason: Handoff into Chapter 8.
+- id: ch8-correction-circulation-reads
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md
+  text: Correction is the read on whether warnings and dissent can still reach the people who hold power
+    and change a decision without punishment. Circulation is the read on whether influence can still leave
+    formal leaders, pass through people who step up for a moment, and come back without a penalty round.
+  protectedMeaning: Part III rejoinder of correction/circulation.
+  reason: Substance must survive; exact wording may compress if Ch.5 already carried the load.
+- id: ch10-exceptions-persist
+  file: parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md
+  text: 'That is Exceptions are Forever: exceptions introduced under urgency tend to persist.'
+  protectedMeaning: Temporary emergency → permanent baseline.
+  reason: Protect distinction between justified centralization and capture.
+- id: ch11-misjudgment-selection
+  file: parts/part-4-scale-pressure-misjudgment/chapter-11-why-we-misjudge-leaders.md
+  text: Misjudgment is not only about how we read leaders. It feeds back into the system as selection
+    pressure.
+  protectedMeaning: Observers help reproduce leadership forms through judgment.
+  reason: Strengthen in revision without blaming ordinary people.
+- id: ch11-not-corruption-selection
+  file: parts/part-4-scale-pressure-misjudgment/chapter-11-why-we-misjudge-leaders.md
+  text: 'That is not necessarily corruption. It is selection: whatever a group''s judgment system rewards,
+    more of it accumulates over time.'
+  protectedMeaning: Selection without conspiracy/condemnation.
+  reason: Humane observer-responsibility claim.
+- id: ch12-correction-alone
+  file: parts/part-5-closing/chapter-12-what-happens-next.md
+  text: Correction can interrupt error. … But correction alone does not redistribute who gets to lead.
+  protectedMeaning: Final return of correction vs circulation.
+  reason: Must remain distinct in synthesis.
+- id: ch12-baseline-shift
+  file: parts/part-5-closing/chapter-12-what-happens-next.md
+  text: emergency permissions become ordinary permissions—temporary exception, then repeated exception,
+    then default.
+  protectedMeaning: Baseline shift sequence after emergency.
+  reason: Structural return to Exceptions are Forever.
+- id: epilogue-restoration-limit
+  file: back-matter/epilogue.md
+  text: When the baseline has already shifted, the task may not be full restoration. It may be limiting
+    further damage, putting limits back in place, and local repair.
+  protectedMeaning: Repair may not restore the old baseline.
+  reason: Epilogue moral/practical payoff.
+- id: epilogue-tolerate-reward-excuse
+  file: back-matter/epilogue.md
+  text: If what you read here changes what you tolerate, what you reward, and what you refuse to excuse,
+    you are already changing how Leadership Reproduces Itself.
+  protectedMeaning: Observer responsibility lands on the reader without condemnation.
+  reason: Epilogue selection-pressure payoff.
+- id: glossary-circulation-vs-correction
+  file: back-matter/glossary.md
+  text: 'Not the same as correction, which is a different structural problem: whether warnings and dissent
+    can change decisions without punishment.'
+  protectedMeaning: Glossary locks circulation ≠ correction.
+  reason: Semantic/reader glossary dependency.
+manualReview:
+- id: intro-four-shapes-load
+  file: front-matter/introduction-attention-finds-a-focus.md
+  text: 'Those dynamics also gather into four shapes: Forming, Adjusting, Eroding, and Circulating.'
+  concern: May overload as a second framework; keep as light preview or soften later insistence.
+- id: ch1-pace-twin
+  file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
+  text: Your pace becomes their pace. Your tolerance becomes their tolerance. Your silence becomes a signal.
+    Your reaction becomes instruction.
+  concern: >-
+    Near-twin of intro pace/tolerance line; may be necessary structural return or redundant restatement.
+- id: ch2-hospital-pair
+  file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
+  text: In one network, all three clinics… In another network, each clinic interprets…
+  concern: Laboratory-clean pair; candidate to complicate with mixed domains.
+- id: ch2-school-pair
+  file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
+  text: In one school district… In another district, the picture splits…
+  concern: Already partially mixed; revise further toward coexistence of renewal and erosion.
+- id: ch2-four-corners-memorization
+  file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
+  text: regenerative… adaptive… entrenched… and stalled…
+  concern: >-
+    Keep once with diagram; reduce demand that readers memorize corner names as core vocabulary.
+- id: ch5-permission-aftermath-echoes
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: Watch treatment and aftermath…
+  concern: >-
+    Aftermath restated in Permission Question, credit vignette, Where Circulation Lands, and Reading Circulation;
+    preserve one strong form, compress others carefully.
+- id: ch5-atrophy-paragraphs
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: What Atrophies Without Circulation section
+  concern: >-
+    Three consecutive paragraphs on judgment/warning/bench may compress without losing bench atrophy.
+- id: ch5-theater-pair
+  file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
+  text: Who Gets Credit theater vignette
+  concern: Over-clean credit pair; candidate to show correction open / circulation insider-only.
+- id: ch8-correction-circulation-restate
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md
+  text: How Correction and Circulation Shape Renewal and Erosion
+  concern: Restates Ch.5 watches; structural return or redundant for Part III close.
+- id: ch10-emergency-pair
+  file: parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md
+  text: Closed vs reopened emergency approval path vignettes
+  concern: >-
+    Teaching pair; one side may gain later legitimacy cost while still justified under pressure.
+- id: ch12-five-elements-list
+  file: parts/part-5-closing/chapter-12-what-happens-next.md
+  text: Work through the list in order. Harm… Effectiveness… Legitimacy… Correction… Circulation…
+  concern: >-
+    Useful integrated method; compress surrounding summary if earlier chapters already established lenses.
+- id: ch12-opening-four-beats
+  file: parts/part-5-closing/chapter-12-what-happens-next.md
+  text: Four ordinary beats…
+  concern: Echoes Ch.10/11; keep if they accumulate, cut if they only restate.
+- id: ch12-baseline-third-statement
+  file: parts/part-5-closing/chapter-12-what-happens-next.md
+  text: temporary exception, then repeated exception, then default
+  concern: Third full statement of Exceptions are Forever sequence; keep one hinge.
+- id: ch7-correction-def-echo
+  file: parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md
+  text: Correction means warnings, dissent, and what people on the ground see can reach decision-makers…
+  concern: Near-copy of glossary/Ch.5; necessary local definition or cuttable echo.
+- id: preface-intentions-structure
+  file: front-matter/preface.md
+  text: Good intentions do not guarantee good structure.
+  concern: Early echo of intention/structure; likely keep as preface framing.
