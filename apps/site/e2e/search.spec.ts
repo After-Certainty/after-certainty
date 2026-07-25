@@ -1,6 +1,10 @@
 import { expect, test } from "@playwright/test";
 
 import { dismissCookieBanner } from "./fixtures/consent";
+import {
+  openQuickSearchWithShortcut,
+  waitForSearchPaletteReady,
+} from "./fixtures/search-palette";
 
 const mainContent = "#main";
 
@@ -51,8 +55,9 @@ test.describe("global search", () => {
   test("header quick search opens with Control+K and navigates to a result", async ({ page }) => {
     await page.goto("/", { waitUntil: "domcontentloaded" });
     await expect(page.locator(mainContent)).toBeVisible();
+    await waitForSearchPaletteReady(page);
 
-    await page.keyboard.press("Control+KeyK");
+    await openQuickSearchWithShortcut(page);
     const dialog = page.getByRole("dialog", { name: /Quick search/i });
     await expect(dialog).toBeVisible();
 
@@ -69,8 +74,18 @@ test.describe("global search", () => {
   test("mobile menu includes a Search entry that opens quick search", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/", { waitUntil: "domcontentloaded" });
+    await expect(page.locator(mainContent)).toBeVisible();
+    // MobileNav + search palette are client islands; wait for hydration first.
+    await waitForSearchPaletteReady(page);
 
-    await page.getByRole("button", { name: /Open menu/i }).click();
+    const menuButton = page.getByRole("button", { name: /Open menu/i });
+    const navDialog = page.getByRole("dialog", { name: /Site navigation/i });
+    await expect(async () => {
+      if (await navDialog.isVisible()) return;
+      await menuButton.click();
+      await expect(navDialog).toBeVisible({ timeout: 2_000 });
+    }).toPass({ timeout: 15_000 });
+
     const searchItem = page.getByTestId("mobile-nav-search");
     await expect(searchItem).toBeVisible();
     await expect(searchItem).toHaveText(/Search/i);
