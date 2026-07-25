@@ -62,7 +62,7 @@ That had been unfair enough to be useful.
 
 So she left Merrow with a ridge farmer named Yov, two young runners carrying the official-not-official failure packets, a Halen wheelwright whose wagon had become storage for everyone's shared supplies, a woman from the fruit convoy who knew three ruined bridges by reputation, and a boy of fourteen who had attached himself to the group by carrying water briskly enough that no one had the heart to detach him.
 
-His name was Tev. He had written *bedding-food* in the Merrow flour count and now considered himself, with some justification, a category specialist.
+His name was Tev. He had written *bedding-food* in the Merrow flour count and had not stopped arguing about it since.
 
 They made poor speed and good records.
 
@@ -259,17 +259,15 @@ Yov sighed. "Always bad when they start there."
 
 The delay trapped them at Strake for a day.
 
-Lena would have resented it two acts ago. Now she used the day like a table.
+Lena would have resented the wait once. Now she used the day like a table.
 
-She spread the scraps in the corner of the ferry house, weighted them with pebbles, and began arranging them. Not by place, severity, or route — offices and Varik and courier habit all wanted those — but by motion.
+She spread the scraps in the corner of the ferry house, weighted them with pebbles, and began arranging them. Not by place, severity, or route — offices and Varik and courier habit all wanted those — but by what had come back changed.
 
-Observed only.
+Unanswered.
 
-Observed and sent.
+Answered once.
 
-Observed, sent, answered.
-
-Observed, sent, answered, corrected.
+Answered, then corrected.
 
 The last pile was smallest.
 
@@ -401,7 +399,7 @@ Rennet watched.
 
 "Which?"
 
-"The answering pages. The form. *Tell the next. Answer if same. Leave copies where roads narrow.*"
+"The answering pages. *Tell the next. Answer if same. Leave copies where roads narrow.*"
 
 Rennet's face shifted. "West water, I think."
 
@@ -441,11 +439,9 @@ It was there, faint at the corner: three water lines, one uneven slash.
 
 She knew the hand because she knew the wound.
 
-That was Arin. Not the boy at the table. Not the brother reduced to the one line she had kept as accusation for years. This was the man the Tarn had made: precise, stubborn, suspicious of speed, reverent toward what staying knew — and now sending that suspicion outward in a form other people could use.
+That was Arin. Not the boy at the table. Not the brother reduced to the one line she had kept as accusation for years. This was the man the Tarn had made: precise, stubborn, suspicious of speed — and now sending that suspicion outward so other people could use it.
 
 While she moved, Arin had stayed.
-
-While she carried freight through doors, he had been building a way for rooms to answer one another.
 
 Recognition did not feel like relief.
 
@@ -481,31 +477,11 @@ Tev said, "Does that mean he started the lists?"
 
 "No."
 
-Lena knew that as soon as she said it.
-
-Arin had not started them. That would be the wrong story. The marsh-watchers had watched. Anneth had marked tides. Children had counted moths. Cai had written failures under the gate. Veya's grandmother had kept a screw. Jun had measured the cascade. Sera had added *Need outgoing acknowledgment if received.* Lio had held lines without naming them too loudly.
-
-No one person started this.
-
-But Arin had done something.
-
-"He stitched," Lena said.
-
-Tev frowned. "Like cloth?"
-
-"Like a net. Maybe."
-
-Rennet said, "Nets catch things."
-
-"And let water through," Lena said.
-
-The sentence felt right enough to keep and not right enough to trust.
+Lena knew that as soon as she said it. Marsh-watchers, Anneth tides, moth counts, Cai's notebooks, Veya's screw, Sera's acknowledgment line — none of it began with one hand. But Arin had done something the scraps could travel through.
 
 Outside, rain began to tap the ferry house roof, light at first, then harder. The patched places revealed themselves one by one. Yov woke when water hit his forehead and swore at the ceiling as though betrayal required literacy.
 
 Rennet moved the eggs. Tev rescued two pages from a drip. Lena gathered the answered pile and weighted it again on the drier side of the table.
-
-She looked at the piles again. Movement that did not flatten. Staying that did not go unheard. She felt the thought and did not name it.
 
 The ferry remained out until morning. By then the rain had washed the road into ruts and the river had risen by half a hand — "not ideal but lacking poetry," said the ferryman. He and three others wrestled the repaired runner back onto the hull while everyone else carried goods across in smaller loads.
 
@@ -1092,15 +1068,15 @@ One web of roads might get what he needed into contact with what she had been ca
 
 For the first time, she understood that choosing between those two was the old mistake.
 
-"North," she said. "But not alone. Send to Lio: bring Cai's conditions, Veya's old return pages, Merrow's holding notes, Jun's warning if he can be reached, and every watcher line that has answered twice. Not to me. To the Osprey groundline and every road-narrowing between here and Ivera."
+"North," she said. "But not alone. Send to Lio: whoever has been answering twice — their notes, not their theories. Not to me. To the Osprey groundline and every road-narrowing between here and Ivera."
 
-Dalla stared. "That's ambitious."
+Dalla stared. "That's a lot of hands."
 
-"It's impossible."
+"Yes."
 
-"Worse?"
+"And if they won't come?"
 
-"More honest."
+"Then the line finds out who will."
 
 They started down the north road.
 

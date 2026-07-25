@@ -606,15 +606,7 @@ Veya rose and went to the copy-slates. She picked one up and brought it to Lena.
 
 *A copy is not a replacement. It is a promise to answer.*
 
-"My apprentices hate this sentence," Veya said. "They think copying is making another thing like the first thing. It is not. A copy answers the first thing. It says: you reached me, and I will carry you differently but not alone." She set the slate in front of Lena. "The old return work kept obligation alive between observers. You tell me what you see. I tell you what I see beside it. We are both changed by the comparison. That is answer."
-
-Lena touched the edge of the slate.
-
-The stone was warm from the child's hands.
-
-"And without answer?"
-
-"Without answer, every warning becomes weather. Every person who sees becomes lonely. Then someone like Varik comes along and offers a single answer large enough to end the loneliness."
+"My apprentices hate this sentence," Veya said. "They think copying makes another first thing. It does not. A copy answers the first thing: you reached me, and I will carry you differently but not alone." She set the slate in front of Lena. "You tell me what you see. I tell you what I see beside it. Without that, every warning becomes weather. Then someone like Varik offers one answer large enough to end the loneliness."
 
 Lena looked up.
 

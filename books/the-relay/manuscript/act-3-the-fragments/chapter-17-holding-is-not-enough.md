@@ -551,11 +551,11 @@ They could send by slow foot. Packets, maybe. But send without reply would becom
 
 Sera waited.
 
-"I keep saying I'm a courier. Everyone keeps calling me one. But I haven't carried freight since Vesper. Not really." She shook her head. "Fear, anger, Veya's grief, Cai's fixes, Lio's names, Arin's lake, the *Wren,* you— Not freight. Contradictions."
+"I keep saying I'm a courier. Everyone keeps calling me one. But I haven't carried freight since Vesper." She shook her head. "Not freight. Contradictions."
 
 Sera's expression was unreadable.
 
-That almost broke Lena, absurdly. The laugh that came was real and wet and short. Sera's shoulder touched hers, lightly. Contact.
+That almost broke Lena, absurdly. The laugh that came was real and wet and short. Sera's shoulder touched hers, lightly.
 
 "What do you do with those?" Sera asked.
 
