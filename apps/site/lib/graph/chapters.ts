@@ -127,7 +127,7 @@ export function publicChaptersForEdition(
 
 /**
  * First public chapter pathname for an edition (reading-order start), or null
- * when the book is not yet available in the native reader.
+ * when the edition has no public chapters (see docs/native-reader-v1-cohort.md).
  */
 export function firstPublicChapterHref(
   graph: SemanticGraph,
