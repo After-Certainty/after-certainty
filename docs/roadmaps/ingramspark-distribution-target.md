@@ -25,11 +25,11 @@ An IngramSpark target should be an **opt-in production distribution target** und
 
 containing the separate files IngramSpark expects for upload (EPUB + JPG; interior PDF + cover PDF), plus preflight reports, checksums, and reproducibility metadata. The ZIP is a **submission kit**, not a single title-upload input.
 
-Official IngramSpark sources conflict on several ebook limits and on ICC vs PDF/X handling. Those conflicts are recorded in dated profile **`ingramspark-2026-07`** with safe defaults; they are not silently resolved.
+Official IngramSpark sources conflict on several ebook limits and on ICC vs PDF/X handling. Those conflicts are recorded in dated profile **`ingramspark-2026-07`** with safe defaults; they are not silently resolved. EPUB **3.0/3.0.0 content compliance** is separate from the pinned **current EPUBCheck tool** version.
 
-**Recommended first pilot:** *Everyone Knows Love* (`everyone-knows-love`) — standard Pandoc EPUB/PDF path, existing export polish, low interior complexity. All three initial books are blocked today by missing edition ISBNs, manufacturing metadata, and print-cover assets; ebook covers are also below IngramSpark pixel minima.
+**Recommended first pilot:** *Everyone Knows Love* (`everyone-knows-love`) — standard Pandoc EPUB/PDF path, existing export polish, low interior complexity — via an early **ebook rehearsal (INGRAM-009A)** then a later **full production pilot (INGRAM-009B)**. All three initial books are blocked today by missing edition ISBNs, manufacturing metadata, and print-cover assets; ebook covers are also below IngramSpark pixel minima.
 
-**Ready for:** schema + profile skeleton implementation (INGRAM-002).  
+**Ready for:** schema + profile skeleton implementation (INGRAM-002), after this decision-resolution update.  
 **Not ready for:** enabling any book or shipping production packages until human ISBN/manufacturing/cover decisions land.
 
 ---
@@ -210,7 +210,7 @@ Retrieval date for all fetches in this planning pass: **2026-07-25** unless a so
 |--------|----------------|---------------------|-------|
 | Plan your ebook | https://www.ingramspark.com/plan-your-book/ebooks | Live marketing/FAQ page | Cover FAQ text appears to repeat interior bullets (page QA smell) |
 | Ebook file requirements blog | https://www.ingramspark.com/blog/file-requirements-for-ebooks | 2021-04-28 | Clear cover pixel rule (2560/1600) |
-| Ebook conversion blog | https://www.ingramspark.com/blog/ingramspark-ebook-conversion | Live | Aligns with 2560 cover; EPUBCheck 3.0.0 language |
+| Ebook conversion blog | https://www.ingramspark.com/blog/ingramspark-ebook-conversion | Live | Aligns with 2560 cover; wording about “EPUB Check 3.0.0” refers to **content compliance**, not a pinned validator release |
 | Print file requirements blog | https://www.ingramspark.com/blog/file-requirements-for-print-books | 2017-01-31 | Checklist; unique ISBN reminder |
 | Print Book File Guidelines PDF | https://www.ingramspark.com/hubfs/downloads/Print-Book-File-Guidelines.pdf | Undated short checklist | Common rejection causes |
 | File Creation Guide PDF | https://www.ingramspark.com/hubfs/downloads/file-creation-guide.pdf | Label **5.11.26** (treated as 2026-05-11 guide revision) | Deepest print + ebook technical source |
@@ -228,7 +228,8 @@ Third-party summaries were not used as requirements authorities. Where they flag
 | Unique ebook ISBN-13 | ebook metadata | Required | Blog 2021; print blog 2017 | Yes (presence/format) | Assign ISBN | Account |
 | EPUB ≤ 100MB | ebook interior | Required | All ebook sources | Yes | No | Account |
 | EPUB 2 or 3 | ebook interior | Required (older/marketing) | Blog 2021; plan-your-book | Partial | No | Account |
-| EPUB 3.0 required / EPUBCheck 3.0.0 | ebook interior | Required (newer) | FCG 5.11.26; User Guide 3.2; conversion blog | Yes (EPUBCheck) | No | Account |
+| EPUB 3.0 / 3.0.0 **content** compliance | ebook interior | Required (newer) | FCG 5.11.26 (“EPUB 3.0”); User Guide 3.2 (“EPUB 3.0.0 compliant”); conversion blog (same sense) | Yes (structure/metadata) | No | Account |
+| Validate with current EPUB checker | ebook interior | Required / strongly recommended | FCG (“most up-to-date validation”); User Guide (Pagina EPUB checker) | Yes | No | Account |
 | Image ≤ 5.6M pixels | ebook interior | Required | Blog; User Guide | Yes | No | Account |
 | Image ≤ 3.2M pixels | ebook interior | Required | FCG 5.11.26 | Yes | No | Account |
 | Internal cover in EPUB | ebook interior | Required | All ebook sources | Partial | Visual | Account |
@@ -240,8 +241,18 @@ Third-party summaries were not used as requirements authorities. Where they flag
 | Cover ≥1873 longest, ≥1600 shortest | ebook cover | Required | FCG; User Guide 3.2 | Yes | No | Account |
 | Reflowable preferred for novels/text | ebook | Recommendation / distribution note | plan-your-book | Config | Editorial | Account |
 | Fixed-layout limited retailers | ebook | Informational | plan-your-book; blog | Config | Decision | Account |
-| EPUBCheck / Pagina recommended | ebook | Recommendation | User Guide; plan-your-book | Yes | No | Account |
+| Pagina / up-to-date validation recommended | ebook | Recommendation | User Guide; FCG; plan-your-book | Yes | No | Account |
 | Calibre not recommended for creation | ebook | Recommendation | plan-your-book | N/A | Process | N/A |
+
+**EPUB terminology (do not conflate):**
+
+| Concept | Meaning in this plan |
+|---------|----------------------|
+| Content requirement | Interior must be **EPUB 3.0 / 3.0.0 compliant** (specification / content conformance per FCG + User Guide 3.2) |
+| Validation requirement | Package must **pass a separately pinned, current EPUBCheck release** (or equivalent current checker such as Pagina) recorded in `tool-versions.json` |
+| Non-inference rule | **Do not** treat “EPUB 3.0.0” in IngramSpark docs as requiring obsolete **EPUBCheck tool version 3.0.0** |
+
+Profile fields in INGRAM-002 must keep `epub_content_version` (or equivalent) separate from `epubcheck_tool_version`.
 
 ### 6.3 Print interior requirements (condensed)
 
@@ -306,7 +317,8 @@ Confidence states used below:
 | Separate EPUB + JPG; separate interior PDF + cover PDF | `confirmed-current` | Package as kit with four upload files when both modes enabled |
 | Unique ISBN per edition (ebook ≠ paperback ≠ hardcover) | `confirmed-current` | Edition ISBNs under target config |
 | EPUB ≤ 100MB | `confirmed-current` | Blocking |
-| EPUB version | `official-but-conflicting` | **Default EPUB 3.0** (FCG + User Guide 3.2); record blog “2 or 3” as conflict |
+| EPUB content version | `official-but-conflicting` | **Default EPUB 3.0 / 3.0.0 content compliance** (FCG + User Guide 3.2); record blog “2 or 3” as conflict |
+| EPUB validator tool version | `official-recommendation` + repo policy | **Pin a current EPUBCheck release** separately; User Guide recommends Pagina; FCG asks for up-to-date validation — never equate tool version to “3.0.0” from the content wording |
 | Interior image pixel cap | `official-but-conflicting` | **Default 3.2M** (stricter FCG); also satisfy 5.6M |
 | Ebook cover minimum pixels | `official-but-conflicting` | **Default ≥2560 longest and ≥1600 shortest** (meets blog and exceeds 1873 rule) |
 | No page-number refs in ebook TOC/nav | `confirmed-current` | Heuristic + human review |
@@ -314,7 +326,7 @@ Confidence states used below:
 | Internal cover in EPUB | `confirmed-current` | Blocking |
 | Reflowable for text monographs/poetry | `official-recommendation` + `human-production-decision` | Default `reflowable` |
 | PDF/X-1a:2001 or PDF/X-3:2002 | `confirmed-current` (stated) | Tooling + account confirmation |
-| “Do not include ICC profiles” vs PDF/X output intent | `official-but-conflicting` + `account-verification-needed` | Strip raster ICC; document PDF/X intent strategy; **require test upload** |
+| “Do not include ICC profiles” vs PDF/X output intent | `official-but-conflicting` + `account-verification-needed` | Strip per-object/raster ICC where practical; treat PDF/X **output intent** as a distinct question; **INGRAM-004 starts with an isolated PDF/X proof upload** before any blocking rule is locked in the profile |
 | B&W interior grayscale (not CMYK) | `confirmed-current` | Do not force CMYK interiors for B&W titles |
 | Color interior CMYK | `confirmed-current` | Only when `colorMode: color` |
 | Fonts embedded | `confirmed-current` | Blocking |
@@ -455,7 +467,9 @@ Architectural home: **`publishing.targets.ingramspark`**, orchestrated by new `s
 - Independent ebook/print enablement
 - camelCase vs snake_case: existing schema is **snake_case** (`validate_boundary`, `title_page_cover`, `page_size`). Prefer **snake_case** in YAML for consistency with `book.schema.json`, even if exploratory sketches used camelCase.
 
-### 11.2 Recommended shape
+### 11.2 Recommended shape (initial: paperback-only print)
+
+Keep INGRAM-002 small. One active print edition object; no hardcover ISBN field yet.
 
 ```yaml
 publishing:
@@ -468,7 +482,6 @@ publishing:
       package:
         github_release: true
         immutable_release: false
-        artifact_name: "{book.id}-ingramspark.zip"
       ebook:
         enabled: false
         isbn: "9780000000000"         # required when enabled
@@ -476,10 +489,10 @@ publishing:
         cover_source: book-cover.png
       print:
         enabled: false
-        isbn: "9780000000001"         # paperback ISBN for first implementation
-        binding: perfect-bound        # perfect-bound | case-laminate | ...
-        hardcover_isbn: null          # reserved; unused until hardcover support
-        trim:
+        edition: paperback            # initial implementation; hardcover later
+        isbn: "9780000000001"         # ISBN for this print edition only
+        binding: perfect-bound
+        trim:                         # authoritative manufacturing trim
           width_inches: 6.0
           height_inches: 9.0
         interior:
@@ -490,26 +503,28 @@ publishing:
           strategy: supplied-wrap     # supplied-wrap | template-generated | hybrid
           source: assets/ingramspark/cover-wrap.pdf
           template_source: assets/ingramspark/template.pdf
-          template_page_count: 250
-          template_trim:
-            width_inches: 6.0
-            height_inches: 9.0
+          template_page_count: 250    # must match interior; compared to template-meta.yml
           barcode_mode: ingram-generated  # ingram-generated | supplied
       overrides: []                   # optional account-confirmed check overrides
 ```
+
+**Hardcover later (not in initial schema):** evolve to keyed editions such as `print.editions.paperback` / `print.editions.hardcover`, or a list of independently configured print editions—each with its own ISBN, binding, spine, template, and cover. Do **not** add `hardcover_isbn` beside a single `binding` field.
+
+**Trim authority:** configured trim lives only under `print.trim`. Observed template trim/spine/media-box values live in `assets/ingramspark/template-meta.yml` and are **compared** to `print.trim` at preflight—not duplicated as a second hand-maintained `template_trim` in `book.yml`.
 
 ### 11.3 Validation rules (schema + semantic)
 
 - Default: target absent or `enabled: false` → no packaging, no CI IngramSpark jobs for that book
 - If `ebook.enabled`: require ebook ISBN, cover source exists, profile known
-- If `print.enabled`: require print ISBN, trim, binding, interior color/paper/bleed, cover strategy fields
-- Ebook ISBN ≠ print ISBN ≠ hardcover ISBN when multiple present
+- If `print.enabled`: require `edition`, print ISBN, trim, binding, interior color/paper/bleed, cover strategy fields
+- Ebook ISBN ≠ print ISBN when both enabled
 - `status: production-approved` required to attach immutable production release (rolling PR/main kit may allow `planning` for testing with loud warnings)
-- `template_page_count` must equal measured interior page count at package time (runtime check, not only schema)
+- `template_page_count` (and template-meta page count) must equal measured interior page count at package time (runtime check, not only schema)
+- Template-meta trim must match configured `print.trim`
 
 ### 11.4 Package naming
 
-Default artifact: `{book.id}-ingramspark.zip` (slug/id identity for the three pilots). Override via `package.artifact_name` only if needed.
+Artifact name is **derived**: `{book.id}-ingramspark.zip`. Do not expose a freely configurable `artifact_name` unless a concrete use case appears later.
 
 ---
 
@@ -521,21 +536,21 @@ Default artifact: `{book.id}-ingramspark.zip` (slug/id identity for the three pi
 
 ### 12.2 Required discrimination
 
-| Edition | Field | Interchangeable? |
-|---------|-------|------------------|
+| Edition | Field (initial model) | Interchangeable? |
+|---------|----------------------|------------------|
 | Ebook | `publishing.targets.ingramspark.ebook.isbn` | No |
-| Paperback | `publishing.targets.ingramspark.print.isbn` | No |
-| Hardcover | `publishing.targets.ingramspark.print.hardcover_isbn` (reserved) | No |
+| Paperback | `publishing.targets.ingramspark.print.isbn` with `print.edition: paperback` | No |
+| Hardcover | **Not in initial schema** — future keyed/list print editions | No |
 
 Filenames and embedded metadata must use the edition ISBN for that artifact. Public `book.isbns` may later list commerce ISBNs but must not be read as a fallback for missing production ISBNs.
 
 ### 12.3 Initial books
 
-| Book | Ebook ISBN | Paperback ISBN | Hardcover ISBN |
-|------|------------|----------------|----------------|
-| Observer Patterns | **Missing — human blocker** | **Missing — human blocker** | Missing |
-| Everyone Knows Love | **Missing — human blocker** | **Missing — human blocker** | Missing |
-| When Others Become Leaders | **Missing — human blocker** | **Missing — human blocker** | Missing |
+| Book | Ebook ISBN | Paperback ISBN | Hardcover |
+|------|------------|----------------|-----------|
+| Observer Patterns | **Missing — human blocker** | **Missing — human blocker** | Out of scope for initial schema |
+| Everyone Knows Love | **Missing — human blocker** | **Missing — human blocker** | Out of scope for initial schema |
+| When Others Become Leaders | **Missing — human blocker** | **Missing — human blocker** | Out of scope for initial schema |
 
 Do **not** invent placeholders in implemented configuration.
 
@@ -558,7 +573,8 @@ ebook/preflight.json
    - Set dc:identifier / ISBN metadata to ebook ISBN
    - Ensure language, title, subtitle, author match `book.yml`
    - Include internal cover from configured `cover_source`
-   - Prefer EPUB 3 output path; run EPUBCheck
+   - Target **EPUB 3.0 / 3.0.0 content compliance**
+   - Validate with a **separately pinned current EPUBCheck** (version recorded in `tool-versions.json`; not inferred from “3.0.0”)
 3. Build separate RGB JPG:
    - Front cover only
    - Resize/export from high-resolution source (≥2560×1600 policy)
@@ -569,7 +585,7 @@ ebook/preflight.json
 
 | Check | Class |
 |-------|-------|
-| EPUBCheck pass (pinned version) | Automatable blocking |
+| EPUB 3.0/3.0.0 content compliance + pinned current EPUBCheck pass | Automatable blocking |
 | EPUB ≤ 100MB | Automatable blocking |
 | No image > 3.2M pixels | Automatable blocking |
 | RGB images (not CMYK) | Automatable blocking |
@@ -607,17 +623,23 @@ print/preflight.json
 ### 14.2 Pipeline
 
 1. Shared prep.
-2. Target-specific PDF export:
-   - Exact trim media box (e.g. 6×9 in)
+2. **Isolated PDF/X and color proof (first gate of INGRAM-004 — before production exporter rules harden):**
+   1. Produce one minimal grayscale PDF/X candidate (fixture, not a full book).
+   2. Inspect fonts, media box, color spaces, output intent, and embedded profiles.
+   3. Run the proposed validators (`pdffonts`, `pdfinfo`, qpdf, Ghostscript ink/color probes, optional veraPDF).
+   4. Upload through the IngramSpark account preflight when possible.
+   5. Record the **accepted construction** in `ingramspark-2026-07.yml` (what is blocking vs advisory).
+3. Only after that proof: target-specific PDF export for real books:
+   - Exact trim media box (e.g. 6×9 in) from authoritative `print.trim`
    - One-up pages
    - Margins ≥ 0.5" target (warning if short)
    - Bleed off by default for text monographs; if on, three-edge bleed only
    - Embed all fonts
    - No crop/registration marks
    - B&W: grayscale image derivatives; Color: CMYK derivatives
-   - Aim PDF/X-1a:2001 or PDF/X-3:2002 per profile
-3. Record final page count for cover coupling.
-4. Do **not** convert B&W interiors to CMYK merely because the cover is CMYK.
+   - PDF/X construction as proven in step 2
+4. Record final page count for cover coupling.
+5. Do **not** convert B&W interiors to CMYK merely because the cover is CMYK.
 
 ### 14.3 Engine notes
 
@@ -675,17 +697,19 @@ For the three pilots, manuscripts are text-forward with title-page cover images 
 | B&W interior rasters | DeviceGray; strip embedded ICC |
 | Color interior rasters | Convert via pinned working profile → DeviceCMYK; strip per-image ICC |
 | Print cover rasters | Same CMYK policy |
-| PDF output intent | Implement per profile with `confidence: official-but-conflicting`; confirm via pilot upload |
+| PDF output intent | Distinct from per-object ICC; resolve via INGRAM-004 isolated proof before locking blocking rules |
 | Total ink coverage | Advisory check ≤240% where measurable |
 | Tools | Ghostscript + Pillow + ImageMagick for conversion; `pdfinfo`/`pdffonts`/qpdf inspect; veraPDF advisory until proven in CI |
 | Visual proofing | Soft-proof locally; order physical proof after account acceptance |
 
+Official print guidance both requires PDF/X-1a or PDF/X-3 and warns against including ICC profiles. That ambiguity is specifically about **per-object / embedded image profiles** versus a PDF/X **output intent**. The isolated INGRAM-004 proof must decide what IngramSpark’s account preflight actually accepts before the production exporter treats one interpretation as blocking.
+
 ### 15.3 Blocking vs advisory
 
 - Wrong color space for configured mode → **blocking**
-- Missing PDF/X while profile requires it → **blocking** once tooling lands; until then **warning** with pilot-gate account verification
+- PDF/X / output-intent / ICC embedding rules → **advisory or experimental** until the INGRAM-004 proof records an accepted construction in the profile; then promote to blocking as documented
 - Ink >240% → **warning** (FCG: may or may not reject)
-- ICC embedded in rasters → **warning/blocking** per profile resolution after pilot
+- ICC embedded in rasters → severity per profile after the proof (likely strip + warn/block)
 
 ---
 
@@ -709,12 +733,14 @@ Not first:
 
    ```text
    books/<slug>/assets/ingramspark/
-     template-meta.yml      # page_count, trim, binding, paper, color, media_box, spine_width_in
+     template-meta.yml      # observed: page_count, trim, binding, paper, color, media_box, spine_width_in
      template.pdf           # optional; licensing review before commit
      cover-wrap.pdf         # supplied final wrap
    ```
 
-5. Production cover validated against `template-meta.yml` + interior page count.
+   `template-meta.yml` is the comparison source for observed template geometry. Authoritative manufacturing trim remains `print.trim` in `book.yml` only.
+
+5. Production cover validated against `template-meta.yml` + configured `print.trim` + interior page count.
 6. Page-count change → fail package with actionable error:
 
    > Print cover template was generated for 238 pages, but the interior now has 242 pages. Request or generate a new IngramSpark cover template before packaging.
@@ -999,7 +1025,10 @@ Why:
 5. Print not explicitly deferred in book docs (unlike WOBL)
 6. Observer Patterns would force ebook exporter invention before pilot learning
 
-Pilot sequence suggestion: ebook-only kit first (still needs higher-res cover + ebook ISBN), then print interior, then supplied wrap.
+Pilot sequence (aligned with the task graph in §26–§27):
+
+1. **INGRAM-009A — ebook rehearsal** after schema, ebook exporter, ebook preflight, and minimal ebook-only packaging (local/CI artifact; no release publish or print-cover work required). Still needs ebook ISBN + hi-res cover that meets pixel policy.
+2. **INGRAM-009B — full production pilot** after print interior (including PDF/X proof), print-cover validation, full preflight, release integration, and human manufacturing/cover decisions → full ZIP + IngramSpark account upload/preflight.
 
 ---
 
@@ -1024,14 +1053,14 @@ Pilot sequence suggestion: ebook-only kit first (still needs higher-res cover + 
 | Bleed | `false` for these text books | Full-bleed art would need true bleed | Before interior export | Print geometry |
 | Ebook ISBN | Obtain unique ISBN-13 | Cost/process | Before ebook packaging | Ebook |
 | Paperback ISBN | Obtain unique ISBN-13 ≠ ebook | Cost/process | Before print packaging | Print, cover, barcode |
-| Hardcover ISBN | Defer | Schema reserved | Only if hardcover pursued | Hardcover |
+| Hardcover | Defer entirely from initial schema | Avoid misleading `hardcover_isbn` on a paperback object | Only when multi-edition print model lands | Future hardcover work |
 | Barcode | `ingram-generated` with reserved clear area | Less control; simpler first pass | Before final wrap | Cover |
 | Back/spine copy | Write and design | Editorial + design time | Before wrap supply | Cover |
 | Cover strategy | `supplied-wrap` first | Slower design; safer than auto-generate | Before INGRAM-005 use on real books | Cover |
 | Commit Ingram templates | Prefer metadata + final wrap; templates only if licensing OK | Binary weight; license | Before committing binaries | Repo policy |
-| Immutable releases | Required when submitting under ISBN | Extra tag hygiene | Before real submission | Release recovery |
+| Immutable releases | Required when submitting under ISBN | Extra tag hygiene | Before real submission (009B) | Release recovery |
 | `production-approved` flag | Yes — minimal lifecycle | Slight ceremony | Before immutable publish | Accidental submit |
-| Pilot book | Everyone Knows Love | Delays poetry-specific learning | Before INGRAM-009 | Pilot |
+| Pilot book | Everyone Knows Love | Delays poetry-specific learning | Before INGRAM-009A | Pilot |
 
 ---
 
@@ -1063,11 +1092,11 @@ Pilot sequence suggestion: ebook-only kit first (still needs higher-res cover + 
 
 ### INGRAM-003 — Ebook production target
 
-- **Purpose:** Specialized EPUB + RGB JPG; EPUBCheck; exclude from website/manifests
-- **Files likely:** `scripts/export_epub.py` or `scripts/export_ingramspark_epub.py`, `tools/epub-postprocess.py`, `scripts/package_ingramspark.py` (partial), `Makefile`, CI apt/java for EPUBCheck, tests
+- **Purpose:** Specialized EPUB 3.0/3.0.0-compliant EPUB + RGB JPG; validate with pinned **current** EPUBCheck; exclude from website/manifests
+- **Files likely:** `scripts/export_epub.py` or `scripts/export_ingramspark_epub.py`, `tools/epub-postprocess.py`, ebook preflight helpers, `Makefile`, CI install for pinned EPUBCheck, tests
 - **Dependencies:** INGRAM-002
-- **Exclusions:** Print PDF/cover; do not alter public EPUB bytes in place
-- **Acceptance:** Fixture book produces ISBN-named EPUB/JPG; preflight blocks on pixel/ISBN/EPUBCheck failures; manifests unchanged
+- **Exclusions:** Print PDF/cover; do not alter public EPUB bytes in place; do not pin EPUBCheck to obsolete 3.0.0 because of content wording
+- **Acceptance:** Fixture book produces ISBN-named EPUB/JPG; preflight blocks on pixel/ISBN/EPUBCheck failures; manifests unchanged; profile separates content version from tool version
 - **Tests:** Ebook-only opt-in; invalid EPUB; oversized image; missing covers; website-manifest exclusion
 - **Human review:** Visual cover/front-matter
 - **Rollback:** Feature-flag via target enabled false
@@ -1075,23 +1104,23 @@ Pilot sequence suggestion: ebook-only kit first (still needs higher-res cover + 
 
 ### INGRAM-004 — Print-interior production target
 
-- **Purpose:** Trim-aware interior PDF; grayscale/CMYK policy; page count; font/PDF checks
-- **Files likely:** new export script or flags on `export_pdf.py` / Typst path; color helpers; Makefile; tests
+- **Purpose:** (1) Isolated grayscale PDF/X color proof and account preflight; (2) then trim-aware interior PDF, grayscale/CMYK policy, page count, font/PDF checks
+- **Files likely:** proof fixture + notes in profile YAML; new export script or flags on `export_pdf.py` / Typst path; color helpers; Makefile; tests
 - **Dependencies:** INGRAM-002; profile color policy from INGRAM-001
-- **Exclusions:** Cover generation; website formats
-- **Acceptance:** `{isbn}_txt.pdf` with configured trim; page count emitted; B&W stays gray
-- **Tests:** Wrong trim; RGB in grayscale interior; missing fonts; page count snapshot
-- **Human review:** Printed/PDF proof of margins and gray conversion
+- **Exclusions:** Cover generation; website formats; locking blocking PDF/X/ICC rules before the proof records an accepted construction
+- **Acceptance:** Proof uploaded/inspected and profile updated; then `{isbn}_txt.pdf` with configured trim; page count emitted; B&W stays gray
+- **Tests:** Wrong trim; RGB in grayscale interior; missing fonts; page count snapshot; proof inspection helpers
+- **Human review:** Account preflight of the proof; printed/PDF proof of margins and gray conversion
 - **Rollback:** Disable print.enabled
-- **Size:** L
+- **Size:** L (proof first, then exporter)
 
 ### INGRAM-005 — Print-cover workflow
 
-- **Purpose:** Validate supplied wrap + template metadata; page-count coupling; barcode mode checks
+- **Purpose:** Validate supplied wrap + `template-meta.yml`; page-count coupling; compare observed template trim to authoritative `print.trim`; barcode mode checks
 - **Files likely:** `tools/ingramspark/cover_validate.py`, package script integration, fixture PDFs
-- **Dependencies:** INGRAM-004 (page count)
-- **Exclusions:** Auto-generating wrap from front cover; Cover Template Generator automation
-- **Acceptance:** Stale template page count fails with actionable message; dimension mismatch fails
+- **Dependencies:** INGRAM-004 (page count + PDF/X proof gate complete enough for real interiors)
+- **Exclusions:** Auto-generating wrap from front cover; Cover Template Generator automation; `template_trim` in `book.yml`
+- **Acceptance:** Stale template page count fails with actionable message; trim mismatch vs `print.trim` / template-meta fails
 - **Tests:** Wrong dimensions; stale page count; missing wrap; barcode mode
 - **Human review:** Visual wrap proof
 - **Rollback:** N/A beyond disabling print
@@ -1099,23 +1128,23 @@ Pilot sequence suggestion: ebook-only kit first (still needs higher-res cover + 
 
 ### INGRAM-006 — Unified preflight framework
 
-- **Purpose:** Profile-driven blocking/warning/manual report (JSON + text)
+- **Purpose:** Profile-driven blocking/warning/manual report (JSON + text); ebook checks usable before print checks exist
 - **Files likely:** `tools/ingramspark/preflight.py`, report schemas, tests
-- **Dependencies:** INGRAM-003/004/005 checks exist or stubs
+- **Dependencies:** INGRAM-003 for ebook path; INGRAM-004/005 checks integrated as they land (stubs OK early)
 - **Exclusions:** Packaging ZIP (can emit reports without zip)
-- **Acceptance:** Single preflight entrypoint; severities from profile
-- **Tests:** Mixed fail/warn fixtures
+- **Acceptance:** Single preflight entrypoint; severities from profile; `--ebook-only` works without print assets
+- **Tests:** Mixed fail/warn fixtures; ebook-only preflight
 - **Human review:** Checklist wording
 - **Rollback:** Revert tool; exporters still usable offline
 - **Size:** M
 
 ### INGRAM-007 — Package assembly
 
-- **Purpose:** ZIP layout, README-UPLOAD, package-manifest, checksums, determinism helpers
+- **Purpose:** ZIP layout, README-UPLOAD, package-manifest, checksums, determinism helpers; support ebook-only packages early
 - **Files likely:** `scripts/package_ingramspark.py`, templates for README, tests
-- **Dependencies:** INGRAM-006
-- **Exclusions:** CI publish
-- **Acceptance:** Structure matches §18; checksums verify; README maps upload fields
+- **Dependencies:** Ebook path needs INGRAM-003 + ebook portion of INGRAM-006; full print path needs 004–006
+- **Exclusions:** CI publish to GitHub Releases (that is INGRAM-008)
+- **Acceptance:** Structure matches §18; derived `{book.id}-ingramspark.zip` name; checksums verify; README maps upload fields; ebook-only ZIP omits `print/`
 - **Tests:** Deterministic manifest fields; checksum file; ebook-only/print-only contents
 - **Human review:** README clarity
 - **Rollback:** N/A
@@ -1125,7 +1154,7 @@ Pilot sequence suggestion: ebook-only kit first (still needs higher-res cover + 
 
 - **Purpose:** PR artifacts; main `latest` ZIP attach; optional immutable tag; preserve website exclusion
 - **Files likely:** `.github/workflows/book-export-release.yml`, `merge_release_assets.py`, `prepare_release_staging.sh`, `ci_affected_books.py`, tests
-- **Dependencies:** INGRAM-007
+- **Dependencies:** INGRAM-007 (at least ebook-only packaging; full ZIP when print enabled)
 - **Exclusions:** IngramSpark account automation; site changes beyond exclusion tests
 - **Acceptance:** Opted-in book ZIP on release; manifests lack format; PR artifact present
 - **Tests:** Merge allowlist; manifest exclusion; release inclusion
@@ -1133,22 +1162,34 @@ Pilot sequence suggestion: ebook-only kit first (still needs higher-res cover + 
 - **Rollback:** Revert workflow; ZIPs stop publishing
 - **Size:** M
 
-### INGRAM-009 — First-book pilot (Everyone Knows Love)
+### INGRAM-009A — Everyone Knows Love ebook rehearsal
 
-- **Purpose:** Resolve EKL blockers; configure target; produce package; upload rehearsal
-- **Files likely:** `books/everyone-knows-love/book.yml`, `assets/ingramspark/*`, docs notes
-- **Dependencies:** INGRAM-008; human ISBNs/cover/manufacturing
-- **Exclusions:** Enabling other books
-- **Acceptance:** Package passes automated preflight + human visual review; ideally account preflight/upload
-- **Tests:** EKL-specific fixture assertions as applicable
-- **Human review:** **Required** — design, ISBN, account
-- **Rollback:** Set enabled false / status planning
+- **Purpose:** Early real-book feedback on metadata, EPUB ingestion, cover sizing, and ebook-only packaging—before PDF/X and wrap work
+- **Files likely:** `books/everyone-knows-love/book.yml` (ebook target only), hi-res cover source, rehearsal notes
+- **Dependencies:** INGRAM-002, INGRAM-003, ebook portion of INGRAM-006, minimal ebook-only INGRAM-007; human ebook ISBN + cover meeting pixel policy
+- **Exclusions:** Print interior/cover; GitHub Release publication; immutable tags; enabling other books; `production-approved` for print
+- **Acceptance:** Local or CI-artifact ZIP with EPUB, RGB JPG, reports, and metadata; automated ebook preflight + human visual review; optional ebook account upload/preflight
+- **Tests:** EKL ebook fixture assertions as applicable
+- **Human review:** **Required** — ebook ISBN, hi-res cover, device/visual check
+- **Rollback:** Set ebook.enabled false / status planning
+- **Size:** M (engineering) + human-heavy for ebook assets
+
+### INGRAM-009B — Everyone Knows Love full production pilot
+
+- **Purpose:** Complete package (ebook + paperback print) and IngramSpark account upload/preflight
+- **Files likely:** EKL `book.yml` print block, `assets/ingramspark/*`, production notes
+- **Dependencies:** INGRAM-009A learning incorporated; INGRAM-004 (incl. PDF/X proof); INGRAM-005; full INGRAM-006/007; INGRAM-008; human manufacturing + wrap decisions
+- **Exclusions:** Enabling other books until this gate passes
+- **Acceptance:** Full ZIP passes automated preflight + human visual review; account upload/preflight for ebook and print as applicable; immutable release when submitting under ISBN
+- **Tests:** EKL full-package assertions as applicable
+- **Human review:** **Required** — print manufacturing, wrap, account
+- **Rollback:** Set print.enabled false / status planning
 - **Size:** M (engineering) + human-heavy
 
 ### INGRAM-010 — Remaining two initial books
 
 - **Purpose:** Opt in Observer Patterns and When Others Become Leaders after their distinct blockers
-- **Dependencies:** INGRAM-009 pilot gate
+- **Dependencies:** INGRAM-009B pilot gate
 - **Exclusions:** New exporter architecture beyond known poetry/Typst needs
 - **Acceptance:** Explicit readiness status per book; packages when unblocked
 - **Tests:** Per-book fixtures where automated
@@ -1157,9 +1198,9 @@ Pilot sequence suggestion: ebook-only kit first (still needs higher-res cover + 
 
 ### INGRAM-011 — Documentation and operating procedure
 
-- **Purpose:** Local workflow, proofing checklist, template refresh, release/submission process
+- **Purpose:** Local workflow, proofing checklist, template refresh, release/submission process (including 009A vs 009B)
 - **Files likely:** `docs/publishing/ingramspark-operating-procedure.md` (or section update here)
-- **Dependencies:** INGRAM-009
+- **Dependencies:** INGRAM-009B (full procedure); draft notes may start after 009A
 - **Exclusions:** Code changes
 - **Acceptance:** Another book can be opted in without production code changes
 - **Size:** S
@@ -1173,31 +1214,32 @@ INGRAM-001
     ↓
 INGRAM-002
     ↓
-INGRAM-003 ───────────────┐
-    ↓                     │
-INGRAM-004                │
-    ↓                     │
-INGRAM-005                │
-    └──────────┬──────────┘
-               ↓
-          INGRAM-006
-               ↓
-          INGRAM-007
-               ↓
-          INGRAM-008
-               ↓
-          INGRAM-009
-               ↓
-          INGRAM-010
-               ↓
-          INGRAM-011
+INGRAM-003
+    ↓
+ebook preflight + ebook-only package (006/007 partial)
+    ↓
+INGRAM-009A  (EKL ebook rehearsal — local/CI artifact)
+    ↓
+INGRAM-004  (PDF/X proof first, then print interior) ── may start after 002;
+    ↓         preferred after 009A so ebook lessons land first
+INGRAM-005
+    ↓
+full preflight + package (006/007 complete)
+    ↓
+INGRAM-008
+    ↓
+INGRAM-009B  (EKL full production pilot + account upload)
+    ↓
+INGRAM-010
+    ↓
+INGRAM-011
 ```
 
-**Safe parallel:** After INGRAM-002 and a shared frozen profile, **INGRAM-003 (ebook)** may proceed in parallel with **INGRAM-004 (print interior)** if owners do not invent competing schema, package layout, color policy, or release naming.
+**Safe parallel:** After INGRAM-002 and a shared frozen profile, early **INGRAM-004 proof scaffolding** may proceed beside **INGRAM-003**, but the production print exporter should not lock ICC/PDF/X blocking rules until the isolated proof completes. Prefer running **009A before deep print work** so metadata/EPUB/cover-sizing issues surface early.
 
 **Do not parallelize invention of:** configuration schema, requirements constants, package layout, color-management policy, release naming.
 
-INGRAM-005 depends on stable page count from INGRAM-004. INGRAM-006 may start with stubs but should finalize after 003–005 check IDs exist.
+INGRAM-005 depends on stable page count from INGRAM-004. Ebook-only packaging must not wait for INGRAM-005 or INGRAM-008.
 
 ---
 
@@ -1209,33 +1251,50 @@ INGRAM-005 depends on stable page count from INGRAM-004. INGRAM-006 may start wi
 - Conflicts documented
 - Dated profile approved (safe defaults)
 - Hard requirements separated from recommendations
+- EPUB **content** version distinguished from pinned EPUBCheck **tool** version
+- Initial print schema is paperback-only (`edition: paperback`); no `hardcover_isbn`
+- Package name derived from `book.id`; template trim observed in `template-meta.yml` only
 
-### Ebook gate
+### Ebook gate (feeds INGRAM-009A)
 
-- EPUB validation passes
+- EPUB 3.0/3.0.0 content compliance + current pinned EPUBCheck pass
 - RGB cover passes dimensions/metadata
 - No website exposure
-- Package metadata reproducible
+- Ebook-only package metadata reproducible
+
+### PDF/X proof gate (first gate inside INGRAM-004)
+
+- Minimal grayscale PDF/X candidate produced and inspected
+- Proposed validators run
+- Account preflight attempted when possible
+- Accepted construction recorded in `ingramspark-2026-07.yml` before blocking exporter rules
 
 ### Print-interior gate (before cover production)
 
 - Trim final; page count stable
 - Fonts embedded; color mode correct
-- PDF conformance understood
+- PDF conformance understood per proven construction
 - No crop/registration marks
 
-### Cover gate (before packaging)
+### Cover gate (before full packaging)
 
 - Template matches page count and manufacturing choices
+- Observed template trim matches configured `print.trim`
 - Full-wrap dimensions exact; CMYK verified
 - Barcode plan valid
 - Human visual proof approved
 
-### Pilot gate (before other books)
+### Pilot gate A (ebook rehearsal — before deep print dependence)
 
-- One complete package generated
+- EKL ebook-only ZIP generated (local or CI artifact)
+- Ebook automated preflight + human visual review passed
+- Optional ebook account preflight/upload lessons folded into profile/validators
+
+### Pilot gate B (before other books)
+
+- One complete ebook+print package generated
 - Automated preflight + human visual review passed
-- Ideally IngramSpark account test upload/preflight passed
+- IngramSpark account test upload/preflight passed (ideally)
 - Account rejections converted into profile/validator updates
 
 ---
@@ -1283,15 +1342,16 @@ Required cases from the prompt checklist are in scope: missing ISBN, duplicate I
 
 ## 31. Rollout strategy
 
-1. Merge this plan; approve specification gate.
+1. Merge this plan; approve specification gate (including EPUB terminology, paperback-only schema, pilot split, PDF/X proof gate).
 2. Implement INGRAM-002 (schema + profile skeleton) with no books enabled.
-3. Land ebook and print pipelines behind opt-in; CI artifacts on PRs.
-4. Wire release ZIP without manifest/site exposure.
-5. Human: ISBNs, manufacturing, hi-res cover, wrap for EKL.
-6. EKL pilot package → visual proof → IngramSpark account test.
-7. Mark `production-approved` + immutable release when submitting.
-8. Unblock Observer Patterns (EPUB/Typst) and WOBL (editorial print decisions) separately.
-9. Publish operating procedure; opt in further books without code changes.
+3. Land ebook pipeline (INGRAM-003) + ebook preflight/package; human ebook ISBN + hi-res cover for EKL.
+4. **INGRAM-009A** ebook rehearsal (local/CI artifact) → fold lessons into profile/validators.
+5. INGRAM-004 isolated PDF/X proof → record accepted construction → then print interior exporter.
+6. Print-cover validation, full preflight/package, release integration.
+7. Human manufacturing + wrap for EKL → **INGRAM-009B** full package → account upload/preflight.
+8. Mark `production-approved` + immutable release when submitting.
+9. Unblock Observer Patterns (EPUB/Typst) and WOBL (editorial print decisions) separately.
+10. Publish operating procedure; opt in further books without code changes.
 
 ---
 
@@ -1300,17 +1360,19 @@ Required cases from the prompt checklist are in scope: missing ISBN, duplicate I
 (High level; INGRAM-011 expands.)
 
 1. **Readiness audit** — `make preflight-ingramspark` (or audit mode) on book dir.
-2. **Freeze interior** — finalize copy; generate print interior; note page count.
-3. **Request Ingram template** — dashboard tool; save `template-meta.yml`.
-4. **Design/supply wrap** — place `cover-wrap.pdf`; validate.
-5. **Obtain ISBNs** — configure edition fields; never reuse across formats.
-6. **Produce ebook assets** — ensure cover meets pixel policy from true hi-res art.
-7. **Package** — `make package-ingramspark`; inspect README and preflight.
-8. **PR artifact review** — download ZIP from CI.
-9. **Human visual checklist** — ebook devices; print PDF; wrap safety/barcode area.
-10. **Account upload rehearsal** — non-distribution or test path as available; fix validators from failures.
-11. **Production approve** — set status; immutable release; upload for real distribution.
-12. **After revisions** — any interior page-count change invalidates template/wrap; re-run from step 2.
+2. **Obtain ebook ISBN** — configure `ebook.isbn`; never reuse across formats.
+3. **Produce ebook assets** — ensure cover meets pixel policy from true hi-res art.
+4. **Ebook rehearsal (009A)** — ebook-only package (local/CI artifact); visual check; optional ebook account preflight.
+5. **Freeze print interior** — finalize copy; generate print interior; note page count (after PDF/X proof gate exists).
+6. **Obtain paperback ISBN + manufacturing choices** — `print.edition: paperback`, trim, paper, color, bleed, binding.
+7. **Request Ingram template** — dashboard tool; save observed geometry in `template-meta.yml` (compare to `print.trim`).
+8. **Design/supply wrap** — place `cover-wrap.pdf`; validate.
+9. **Full package (009B)** — `make package-ingramspark`; inspect README and preflight.
+10. **PR artifact / release review** — download ZIP from CI; confirm no website exposure.
+11. **Human visual checklist** — ebook devices; print PDF; wrap safety/barcode area.
+12. **Account upload rehearsal** — fix validators from failures.
+13. **Production approve** — set status; immutable release; upload for real distribution.
+14. **After revisions** — any interior page-count change invalidates template/wrap; re-run from step 5.
 
 ---
 
@@ -1348,11 +1410,11 @@ Required cases from the prompt checklist are in scope: missing ISBN, duplicate I
 
 | Question | Answer |
 |----------|--------|
-| Is the plan ready for implementation? | **Yes — for INGRAM-002 (schema/profile skeleton)** |
+| Is the plan ready for implementation? | **Yes — for INGRAM-002**, after this decision-resolution update |
 | Can any book be enabled now? | **No** — ISBNs, manufacturing metadata, hi-res covers, and print wraps are human blockers |
-| Highest technical risk | PDF/X ↔ ICC conflict and CI tooling maturity for print color |
+| Highest technical risk | PDF/X ↔ ICC / output-intent conflict (resolved by INGRAM-004 proof before blocking rules) |
 | Highest production risk | Stale cover templates / page-count drift after ISBN submission |
-| Spec gate | Satisfied by this document pending Kevin’s approval of safe defaults |
+| Spec gate | Ready for approval with corrected EPUB terminology, paperback-only schema, pilot split, and PDF/X proof gate |
 | Separate profile file needed now? | No — profile proposal lives here; YAML skeleton lands with INGRAM-002 |
 
 ---
@@ -1361,7 +1423,7 @@ Required cases from the prompt checklist are in scope: missing ISBN, duplicate I
 
 **INGRAM-002 — Configuration and schema design**
 
-Add `publishing.targets.ingramspark` to [`schema/book.schema.json`](../../schema/book.schema.json), add `schema/profiles/ingramspark/ingramspark-2026-07.yml` skeleton with conflict-annotated thresholds from §7–§8, extend validators/tests, keep every book disabled by default.
+Add `publishing.targets.ingramspark` to [`schema/book.schema.json`](../../schema/book.schema.json) using the **paperback-only** print shape in §11.2, add `schema/profiles/ingramspark/ingramspark-2026-07.yml` skeleton with conflict-annotated thresholds from §7–§8 (including separate `epub_content_version` vs `epubcheck_tool_version` fields), extend validators/tests, keep every book disabled by default. Derive package artifact names from `book.id`; do not add configurable `artifact_name` or `hardcover_isbn` or `template_trim` in `book.yml`.
 
 Do **not** start exporters until the schema/profile land and the specification gate is explicitly accepted.
 
