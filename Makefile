@@ -1,4 +1,4 @@
-.PHONY: help sync-semantic check check-pandoc test lint lint-fix validate-book-specs validate-editorial-preservation build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-book-cover-assets validate-book-cover-assets generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx export-ingramspark-epub package-ingramspark preflight-ingramspark install-epubcheck clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help sync-semantic check check-pandoc test lint lint-fix validate-book-specs validate-editorial-preservation build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-book-cover-assets validate-book-cover-assets generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx export-ingramspark-epub export-ingramspark-print build-ingramspark-pdfx-proof package-ingramspark preflight-ingramspark install-epubcheck clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -31,6 +31,8 @@ help:
 	@echo "  make export-kindle-epub DIR=path/to/book-folder [OUT_STEM=basename]"
 	@echo "  make export-pdf DIR=path/to/book-folder [OUT_STEM=basename]"
 	@echo "  make export-ingramspark-epub DIR=path/to/book-folder"
+	@echo "  make export-ingramspark-print DIR=path/to/book-folder"
+	@echo "  make build-ingramspark-pdfx-proof"
 	@echo "  make preflight-ingramspark DIR=path/to/book-folder"
 	@echo "  make package-ingramspark DIR=path/to/book-folder"
 	@echo "  make install-epubcheck [EPUBCHECK_VERSION=5.3.0]"
@@ -88,7 +90,8 @@ help:
 	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/<stem>.docx."
 	@echo "  - export-docx-by-part writes one DOCX per ## Part … / ## Act … section (e.g. the-relay-act-1-the-absence.docx)."
 	@echo "  - export-kindle-epub creates DIR/<stem>.epub (flattened custom blocks, shallow nav TOC)."
-	@echo "  - export-ingramspark-epub / package-ingramspark write build/ingramspark/<book-id>/ (opt-in target; not a public format)."
+	@echo "  - export-ingramspark-epub / export-ingramspark-print / package-ingramspark write build/ingramspark/<book-id>/ (opt-in target; not a public format)."
+	@echo "  - build-ingramspark-pdfx-proof writes build/ingramspark/_pdfx-proof/ (isolated PDF/X construction gate)."
 	@echo "  - export-pdf creates DIR/<stem>.pdf using scripts/export_pdf.py and book.yml PDF settings."
 	@echo "  - <stem> defaults to DIR relative to repo root with path segments joined by '-' (override with OUT_STEM)."
 	@echo "  - SVG under DIR/docs/diagrams/ rasterize to DIR/export-assets/diagrams/ (rsvg-convert or magick)."
@@ -408,6 +411,15 @@ export-kindle-epub: check-pandoc
 export-ingramspark-epub: check-pandoc
 	@test -n "$(DIR)" || { echo "Usage: make export-ingramspark-epub DIR=path/to/book-folder"; exit 1; }
 	@python3 scripts/export_ingramspark_epub.py --repo . --book-dir "$(DIR)"
+
+# IngramSpark print interior PDF ({isbn}_txt.pdf) at print.trim; B&W → DeviceGray.
+export-ingramspark-print: check-pandoc
+	@test -n "$(DIR)" || { echo "Usage: make export-ingramspark-print DIR=path/to/book-folder"; exit 1; }
+	@python3 scripts/export_ingramspark_print.py --repo . --book-dir "$(DIR)" $(if $(APPLY_PDFX),--apply-pdfx-proof-construction,)
+
+# Isolated grayscale PDF/X-3 proof (INGRAM-004 first gate; not a book export).
+build-ingramspark-pdfx-proof:
+	@python3 scripts/build_ingramspark_pdfx_proof.py --repo .
 
 preflight-ingramspark: check-pandoc install-epubcheck
 	@test -n "$(DIR)" || { echo "Usage: make preflight-ingramspark DIR=path/to/book-folder"; exit 1; }

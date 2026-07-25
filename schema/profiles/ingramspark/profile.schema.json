@@ -116,6 +116,64 @@
         "bleed_inches": {
           "type": "number",
           "minimum": 0
+        },
+        "pdfx_construction": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Recorded INGRAM-004 proof construction; do not treat as blocking until account_upload_status is accepted.",
+          "properties": {
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "status": {
+              "type": "string",
+              "enum": [
+                "candidate-local-proof",
+                "account-accepted",
+                "account-rejected",
+                "superseded"
+              ]
+            },
+            "account_upload_status": {
+              "type": "string",
+              "enum": [
+                "pending-human",
+                "accepted",
+                "rejected"
+              ]
+            },
+            "conformance_target": {
+              "type": "string"
+            },
+            "color_conversion_strategy": {
+              "type": "string"
+            },
+            "process_color_model": {
+              "type": "string"
+            },
+            "output_intent": {
+              "type": "object",
+              "additionalProperties": true
+            },
+            "trim_inches": {
+              "type": "object",
+              "additionalProperties": true
+            },
+            "tools": {
+              "type": "object",
+              "additionalProperties": true
+            },
+            "validators": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "notes": {
+              "type": "string"
+            }
+          }
         }
       }
     },
