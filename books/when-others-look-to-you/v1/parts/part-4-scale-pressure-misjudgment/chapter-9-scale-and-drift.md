@@ -3,15 +3,23 @@
 ### **The Regional Network**
 
 ::: {custom-style="Vignette Block"}
-A neighborhood congregation grows into a regional network with shared branding, shared training, and shared donor strategy. Local leaders notice that a mentoring program is creating burnout and quiet exclusion for younger volunteers.
+A neighborhood congregation grows into a regional network with shared branding,
+shared training, and shared donor strategy. Local leaders notice that a
+mentoring program is creating burnout and quiet exclusion for younger
+volunteers. One site lead puts it in the monthly reporting packet the way the
+cycle requires: names held back, severity flattened into a status line so the
+form will accept it.
 
-In the local setting, concerns used to be discussed in person and changed quickly. In the regional setup, feedback now moves through paperwork and fixed reporting cycles. The program still expands, but local adaptation slows. Public updates highlight growth and consistency.
+By the time the packet reaches the regional desk, the line reads as a staffing
+note under an expanding program. The next public update highlights growth and
+consistency. Mentoring slots are still listed as full. Two younger volunteers
+have already stepped back. A third keeps the hours and stops raising the
+pattern. Local adaptation slows before the official status changes.
 :::
 
-Start from a gap people can feel before you reach for a formal definition of
-scale. Here, reach widened faster than the paths people could use to fix what
-was wrong. That is a circulation failure in plain terms: signal still travels up,
-but permission to adjust does not travel back down to where the facts stay fresh.
+Reach widened faster than the paths people could use to fix what was wrong.
+Signal still travels up. Permission to adjust does not travel back down to where
+the facts stay fresh. That is a circulation failure in plain terms.
 
 The network did not turn harmful simply because it grew. It became riskier
 because coordination and public story moved while **correction** lagged. Shared
@@ -116,6 +124,10 @@ people closest to the work can step in, act, and hand back cleanly.
 Scale sets the conditions; pressure tests them. Crisis and urgency force tradeoffs
 across **harm**, **effectiveness**, and **legitimacy** at once, while **correction**
 either narrows or holds depending on which pathways still run.
+
+The next public update can still highlight growth and consistency after the
+mentoring program has already thinned. The reporting cycle did its job. The
+local meaning did not survive the trip.
 
 ::: {custom-style="Pull Quote Block"}
 Reach scales faster than self-correction unless it is designed in.

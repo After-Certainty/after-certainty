@@ -1010,7 +1010,8 @@ The eventual vignette pass is complete when:
 | VIGNETTE-002 | **Complete** — Chapter 2 hospital triage / standing-order dosage risk opener |
 | VIGNETTE-003 | **Complete** — Chapter 6 hierarchy (3 full VGs; secondary examples compressed) |
 | Calibration lesson | Let an ordinary institutional artifact remain unchanged while conditions around it change; the mismatch reveals the argument before the chapter names it |
-| Next task | **VIGNETTE-005** (Chapter 9) |
+| VIGNETTE-005 | **Drafted** — Chapter 9 reporting-packet / public-update compression |
+| Next task | Human review of Chapter 9, then **VIGNETTE-007** (Chapter 11) |
 | Conditional | VIGNETTE-004 (Chapter 7) |
 | Deferred | VIGNETTE-008 (Intro / Chapter 1) |
 | Remaining risks | Voice drift; over-patterning; cute returns; Ch10 teaching clarity; Ch6 range loss if over-compressed |
