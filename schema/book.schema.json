@@ -31,6 +31,9 @@
         "validate_boundary": {
           "type": "boolean",
           "description": "When true, fail export if reader-facing units contain internal repo paths, planning sections, or similar publication leaks."
+        },
+        "targets": {
+          "$ref": "#/$defs/publishingTargets"
         }
       }
     },
@@ -555,6 +558,327 @@
         },
         "website": {
           "type": "string"
+        }
+      }
+    },
+    "isbn13": {
+      "type": "string",
+      "pattern": "^97[89]\\d{10}$",
+      "description": "ISBN-13 (978/979) for production distribution targets."
+    },
+    "publishingTargets": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ingramspark": {
+          "$ref": "#/$defs/ingramsparkTarget"
+        }
+      }
+    },
+    "ingramsparkTarget": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Master opt-in for IngramSpark packaging. Default absent/false leaves all books unchanged."
+        },
+        "specification_profile": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Dated profile id such as ingramspark-2026-07 (file under schema/profiles/ingramspark/)."
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "planning",
+            "production-approved"
+          ],
+          "description": "planning allows experimental packages; production-approved is required for immutable production releases."
+        },
+        "package": {
+          "$ref": "#/$defs/ingramsparkPackage"
+        },
+        "ebook": {
+          "$ref": "#/$defs/ingramsparkEbook"
+        },
+        "print": {
+          "$ref": "#/$defs/ingramsparkPrint"
+        },
+        "overrides": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ingramsparkOverride"
+          }
+        }
+      },
+      "if": {
+        "properties": {
+          "enabled": {
+            "const": true
+          }
+        },
+        "required": [
+          "enabled"
+        ]
+      },
+      "then": {
+        "required": [
+          "enabled",
+          "specification_profile",
+          "status"
+        ]
+      }
+    },
+    "ingramsparkPackage": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "github_release": {
+          "type": "boolean",
+          "description": "Attach derived {book.id}-ingramspark.zip to GitHub Releases when publishing."
+        },
+        "immutable_release": {
+          "type": "boolean",
+          "description": "Also publish a versioned/immutable production tag when status is production-approved."
+        }
+      }
+    },
+    "ingramsparkEbook": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "isbn": {
+          "$ref": "#/$defs/isbn13"
+        },
+        "format": {
+          "type": "string",
+          "enum": [
+            "reflowable",
+            "fixed-layout"
+          ]
+        },
+        "cover_source": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Front-cover source path relative to the book directory."
+        }
+      },
+      "if": {
+        "properties": {
+          "enabled": {
+            "const": true
+          }
+        },
+        "required": [
+          "enabled"
+        ]
+      },
+      "then": {
+        "required": [
+          "enabled",
+          "isbn",
+          "format",
+          "cover_source"
+        ]
+      }
+    },
+    "ingramsparkPrint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "enabled"
+      ],
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "edition": {
+          "type": "string",
+          "enum": [
+            "paperback"
+          ],
+          "description": "Initial schema supports paperback only; hardcover requires a future multi-edition model."
+        },
+        "isbn": {
+          "$ref": "#/$defs/isbn13"
+        },
+        "binding": {
+          "type": "string",
+          "enum": [
+            "perfect-bound"
+          ]
+        },
+        "trim": {
+          "$ref": "#/$defs/ingramsparkTrim"
+        },
+        "interior": {
+          "$ref": "#/$defs/ingramsparkPrintInterior"
+        },
+        "cover": {
+          "$ref": "#/$defs/ingramsparkPrintCover"
+        }
+      },
+      "if": {
+        "properties": {
+          "enabled": {
+            "const": true
+          }
+        },
+        "required": [
+          "enabled"
+        ]
+      },
+      "then": {
+        "required": [
+          "enabled",
+          "edition",
+          "isbn",
+          "binding",
+          "trim",
+          "interior",
+          "cover"
+        ]
+      }
+    },
+    "ingramsparkTrim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "width_inches",
+        "height_inches"
+      ],
+      "properties": {
+        "width_inches": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "height_inches": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        }
+      }
+    },
+    "ingramsparkPrintInterior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "color_mode",
+        "paper",
+        "bleed"
+      ],
+      "properties": {
+        "color_mode": {
+          "type": "string",
+          "enum": [
+            "black-and-white",
+            "color"
+          ]
+        },
+        "paper": {
+          "type": "string",
+          "enum": [
+            "cream",
+            "white"
+          ]
+        },
+        "bleed": {
+          "type": "boolean"
+        }
+      }
+    },
+    "ingramsparkPrintCover": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "strategy",
+        "barcode_mode"
+      ],
+      "properties": {
+        "strategy": {
+          "type": "string",
+          "enum": [
+            "supplied-wrap",
+            "template-generated",
+            "hybrid"
+          ]
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Full-wrap cover PDF path relative to the book directory."
+        },
+        "template_source": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optional Ingram template PDF path; observed geometry lives in template-meta.yml."
+        },
+        "template_page_count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Page count the cover template was generated for; must match interior at package time."
+        },
+        "barcode_mode": {
+          "type": "string",
+          "enum": [
+            "ingram-generated",
+            "supplied"
+          ]
+        }
+      },
+      "if": {
+        "properties": {
+          "strategy": {
+            "const": "supplied-wrap"
+          }
+        },
+        "required": [
+          "strategy"
+        ]
+      },
+      "then": {
+        "required": [
+          "strategy",
+          "source",
+          "template_page_count",
+          "barcode_mode"
+        ]
+      }
+    },
+    "ingramsparkOverride": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "check_id",
+        "confirmed_at",
+        "confirmed_by",
+        "note"
+      ],
+      "properties": {
+        "check_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "confirmed_at": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "confirmed_by": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
         }
       }
     },

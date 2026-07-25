@@ -1,0 +1,152 @@
+# Dated IngramSpark specification profile (skeleton for INGRAM-002).
+# Thresholds and conflict notes follow docs/roadmaps/ingramspark-distribution-target.md.
+# PDF/X + ICC blocking construction remains account-verification-needed until INGRAM-004 proof.
+
+id: ingramspark-2026-07
+title: IngramSpark production profile (2026-07 audit)
+retrieved_at: "2026-07-25"
+
+# Content conformance vs validator tool — never conflate these fields.
+epub_content_version: "3.0"
+epubcheck_tool_version: "5.3.0"
+
+ebook:
+  max_epub_bytes: 104857600 # 100 MiB
+  # Stricter official cap (File Creation Guide 3.2M) when sources conflict with 5.6M.
+  max_interior_image_pixels: 3200000
+  # Meets blog 2560 rule and exceeds User Guide/FCG 1873 longest-side minimum.
+  cover_min_longest_side_px: 2560
+  cover_min_shortest_side_px: 1600
+  cover_color_space: rgb
+
+print:
+  pdfx_conformance:
+    - PDF/X-1a:2001
+    - PDF/X-3:2002
+  # Do not lock a blocking ICC/output-intent construction until INGRAM-004 proof.
+  pdfx_icc_policy: account-verification-needed
+  max_total_ink_coverage_percent: 240
+  recommended_margin_inches: 0.5
+  bleed_inches: 0.125
+
+conflicts:
+  - id: epub-content-version
+    topic: EPUB content version (2 or 3 vs 3.0/3.0.0)
+    safe_default: "Require EPUB 3.0 / 3.0.0 content compliance"
+    notes: >
+      File Creation Guide and User Guide 3.2 require EPUB 3.0 / 3.0.0 compliant content;
+      older marketing/blog pages still say EPUB 2 or 3. Validator tool version is independent.
+  - id: epub-interior-image-pixels
+    topic: Interior image pixel cap
+    safe_default: "3200000"
+    notes: >
+      File Creation Guide states 3.2 million pixels; User Guide and ebook blog state 5.6 million.
+      Profile uses the stricter cap.
+  - id: ebook-cover-pixels
+    topic: Ebook cover minimum pixels
+    safe_default: "longest>=2560 and shortest>=1600"
+    notes: >
+      Blog/conversion docs use 2560 on the longest side; User Guide/FCG use 1873 longest / 1600 shortest.
+      Profile requires both 2560 longest and 1600 shortest.
+  - id: pdfx-vs-icc
+    topic: PDF/X requirement vs no ICC profiles
+    safe_default: "account-verification-needed until INGRAM-004 proof"
+    notes: >
+      Official print guidance requires PDF/X-1a or PDF/X-3 and also warns against including ICC
+      profiles. Distinguish per-object/raster ICC from PDF/X output intent; prove acceptance
+      before promoting blocking exporter rules.
+
+checks:
+  - id: epub-max-bytes
+    applies_to: ebook-interior
+    severity: blocking
+    confidence: confirmed-current
+    threshold: 104857600
+    sources:
+      - url: https://www.ingramspark.com/blog/file-requirements-for-ebooks
+        label: Ebook file requirements blog
+        published_at: "2021-04-28"
+        retrieved_at: "2026-07-25"
+
+  - id: epub-content-version
+    applies_to: ebook-interior
+    severity: blocking
+    confidence: official-but-conflicting
+    conflict_group: epub-content-version
+    default_value: "3.0"
+    note: Content conformance only; see epub_content_version at profile root.
+    sources:
+      - url: https://www.ingramspark.com/hubfs/downloads/file-creation-guide.pdf
+        label: File Creation Guide 5.11.26
+        retrieved_at: "2026-07-25"
+      - url: https://www.ingramspark.com/hubfs/downloads/user-guide.pdf
+        label: User Guide v3.2
+        published_at: "2026-05-15"
+        retrieved_at: "2026-07-25"
+
+  - id: epubcheck-current
+    applies_to: ebook-interior
+    severity: blocking
+    confidence: official-recommendation
+    default_value: "5.3.0"
+    note: >
+      Pin a current EPUBCheck release separately from epub_content_version.
+      Do not infer obsolete EPUBCheck 3.0.0 from “EPUB 3.0.0” content wording.
+    account_override_allowed: false
+    sources:
+      - url: https://www.ingramspark.com/hubfs/downloads/user-guide.pdf
+        label: User Guide recommends Pagina / up-to-date validation
+        published_at: "2026-05-15"
+        retrieved_at: "2026-07-25"
+
+  - id: epub-interior-image-pixels
+    applies_to: ebook-interior
+    severity: blocking
+    confidence: official-but-conflicting
+    conflict_group: epub-interior-image-pixels
+    threshold: 3200000
+
+  - id: ebook-cover-rgb-front-only
+    applies_to: ebook-cover
+    severity: blocking
+    confidence: confirmed-current
+    default_value: rgb
+
+  - id: ebook-cover-min-pixels
+    applies_to: ebook-cover
+    severity: blocking
+    confidence: official-but-conflicting
+    conflict_group: ebook-cover-pixels
+    threshold:
+      longest: 2560
+      shortest: 1600
+
+  - id: print-fonts-embedded
+    applies_to: print-interior
+    severity: blocking
+    confidence: confirmed-current
+
+  - id: print-no-crop-marks
+    applies_to: print-interior
+    severity: blocking
+    confidence: confirmed-current
+
+  - id: print-pdfx-conformance
+    applies_to: print-interior
+    severity: warning
+    confidence: account-verification-needed
+    conflict_group: pdfx-vs-icc
+    note: Severity becomes blocking only after INGRAM-004 records an accepted construction.
+    account_override_allowed: true
+
+  - id: print-cover-template-page-count
+    applies_to: print-cover
+    severity: blocking
+    confidence: confirmed-current
+    note: template_page_count / template-meta.yml must match measured interior page count.
+
+  - id: package-edition-isbn-unique
+    applies_to: package
+    severity: blocking
+    confidence: confirmed-current
+    note: Ebook ISBN must not equal paperback ISBN when both modes are enabled.
