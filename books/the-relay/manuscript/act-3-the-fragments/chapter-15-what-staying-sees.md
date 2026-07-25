@@ -2,7 +2,7 @@
 
 Arin knew the lake was wrong before the gauge did.
 
-That was the sort of sentence Lena would have hated, if she'd been there to hear it. Not because she distrusted him exactly, but because she had always trusted things that could be checked quickly: a manifest, a seal, the cant of a badly loaded hold, the nervous too-bright answer of a man smuggling contraband under seed. Lena liked evidence that put its hands where she could see them.
+Lena would have hated that sentence. She trusted things that could be checked quickly: a manifest, a seal, the cant of a badly loaded hold, the nervous too-bright answer of a man smuggling contraband under seed. Lena liked evidence with its hands where she could see them.
 
 The lake did not.
 
@@ -14,7 +14,7 @@ The gauge at South Lock read within tolerance.
 
 The gauge was lying.
 
-Not intentionally. Instruments had the innocence of things that could only be wrong in the way they were built to be wrong. The gauge measured level against the stone throat of the lock, and the level, strictly speaking, was fine. A clerk in a dry office could read that number and stamp the morning as stable. But the Tarn was not a number in a throat of stone. It was a thousand moods of water moving through beds and channels and undercurrents, fed by mountain melt and mirror-rain and the black springs that came up from below so cold they could turn a man's hand clumsy in summer. The level could hold while the lake changed its mind entirely.
+Not intentionally. Instruments had the innocence of things wrong only in the way they were built to be wrong. The gauge measured level against the stone throat, and strictly speaking the level was fine. A dry-office clerk could stamp the morning stable. But the Tarn was not a number in stone. It was water moving through beds, channels, undercurrents, mountain melt, mirror-rain, and black springs cold enough to turn a man's hand clumsy in summer. The level could hold while the lake changed its mind entirely.
 
 Arin stood on the wet boards with one boot braced against the lock rail and listened to the south chain speak through its rust.
 
@@ -66,7 +66,7 @@ Then added:
 
 *Feels early-winter under summer skin.*
 
-He almost rubbed that line out. It sounded like something his sister would laugh at, though not cruelly. Lena did not laugh cruelly. She laughed like someone kicking a stone off a road before it tripped her. The line was not technical. It would make a central clerk sigh, if any central clerk still received anything from the Tarn, which they did not. But old Jaro at North Lock would know what it meant. So would Mala. So would Innes at the reed beds, who had been saying for a week that the roots were hearing freeze.
+He almost rubbed that line out. It sounded like something his sister would laugh at, though not cruelly. Lena did not laugh cruelly. She laughed like someone kicking a stone off a road before it tripped her. The line was not technical. But old Jaro at North Lock would know what it meant. So would Mala. So would Innes at the reed beds, who had been saying for a week that the roots were hearing freeze.
 
 He left it.
 
@@ -92,7 +92,7 @@ He smiled despite himself every time he saw it.
 
 The fast gate had been dark for twenty-six days.
 
-At first people had counted by announcements. Suspended. Review. Delayed reopening. Regional assurance. Words from screens, words from clerks, words from travelers who had come through two gates before the last one went and therefore spoke with the borrowed authority of elsewhere. Then the screens stopped updating, the clerks stopped pretending to have newer words, and the travelers became residents because no road opened long enough to take them back out.
+At first people had counted by announcements. Suspended. Review. Delayed reopening. Regional assurance. Words from screens, clerks, travelers who had come through two gates before the last one went. Then the screens stopped updating, the clerks stopped pretending, and the travelers became residents because no road opened long enough to take them back out.
 
 After that the Tarn counted by shortages.
 
@@ -101,8 +101,6 @@ Twelve days since citrus. Sixteen since lamp oil in sealed tins. Nineteen since 
 Twenty-six since Lena's last message should have come.
 
 Not since it came. Since it should have.
-
-That was the kind of calendar the dark made.
 
 He did not tell people that number. People on the Tarn knew how to respect a silence when it had family inside it. Or most did. Mala had no such respect, but she was old enough to have earned the right to trespass.
 
@@ -126,15 +124,15 @@ He stepped out from under the awning. The mist had begun to lift in shreds now, 
 
 This year the lake was doing four seasons at once and none of them well: bluefish deep in warm weeks, reeds flattening under the wrong wind, fog thick when the moon was thin, insect hatches returning after they had already finished. Every sign could be explained alone. Together, they made the old people quiet.
 
-He took the narrow skiff because the lock launch used fuel they could not replace, and because rowing gave his hands something to do that was not reaching for a message that would not come.
+He took the narrow skiff because the lock launch used fuel they could not replace, and rowing gave his hands something to do.
 
 At the edge of the lower dock, he glanced toward the gate road.
 
-The arch stood above town on its stone platform, too beautiful and too useless, seven centuries of pale engineering catching the weak morning light. Before the dark, it had made the Tarn small. That was what Lena had never understood, or what he had never found the right way to say. The gate had made everywhere else near and the Tarn picturesque, a place you visited between more important distances. It let a person step through and return with sweets from a market under three suns, machine parts from a moon with no weather, rumors from cities whose names sounded like coins in the mouth. It made leaving easy enough that staying began to look like a defect of imagination.
+The arch stood above town on its stone platform, too beautiful and too useless, seven centuries of pale engineering catching the weak morning light. Before the dark, it had made the Tarn small: everywhere else near, the Tarn picturesque, a place between more important distances. It let a person step through and return with sweets from a market under three suns, machine parts from a moon with no weather, rumors from cities whose names sounded like coins. It made leaving easy enough that staying began to look like a defect of imagination.
 
 Lena had loved it for that.
 
-Not selfishly. That would have been simpler to resent. She loved motion because motion had saved her. As a girl she had gone still only when frightened, and then the gates came and gave her a life where attention could become skill and skill could become passage. She learned to read routes and manifests and rooms that tried to lie. She learned to leave before anything asked her to belong badly. The fast roads took what had always been restless in her and gave it a profession.
+Not selfishly. That would have been simpler to resent. She loved motion because motion had saved her. She learned to read routes and manifests and rooms that tried to lie. She learned to leave before anything asked her to belong badly. The fast roads took what had always been restless in her and gave it a profession.
 
 He had hated them for the same reason.
 
@@ -148,7 +146,7 @@ At the family table, years ago, Lena had spread her first courier posting across
 
 He had said, "No. It's just fast."
 
-He had not meant to wound her. Or he had, but not as much as it had landed. It was the trouble with siblings: you could spend twenty years learning where the soft places were and still call it honesty when you pressed one.
+He had not meant to wound her. Or he had, but not as much as it had landed.
 
 She had stared at him as though he had slapped the paper out of her hands.
 
@@ -196,7 +194,7 @@ The ink-nosed girl pointed at his pouch. "Then tell them Teacher says answer."
 
 "I will tell them the moths said it. That carries more force."
 
-This pleased them. Children understood, better than offices, that authority was often a matter of who made the sentence hardest to ignore.
+This pleased them.
 
 Bel walked him back to the skiff.
 
@@ -270,7 +268,7 @@ Bel's expression gentled, which he hated because it was kind. "Knowing doesn't a
 
 He looked down at the oarlocks.
 
-That was the thought he had been refusing in its ugliest and its merciful forms. If Lena did not come, it might not mean she had stayed away. If no message arrived, it might not mean no message had been sent. The gates had gone dark. The roads had bent. A courier could be three worlds away carrying a packet in her cuff and still be no closer than silence.
+If Lena did not come, it might not mean she had stayed away. If no message arrived, it might not mean no message had been sent. A courier could be three worlds away carrying a packet in her cuff and still be no closer than silence.
 
 Or she could be alive and not trying.
 
@@ -316,7 +314,7 @@ Then he added:
 
 "Also helpful."
 
-Jaro folded the sheet and sealed it with a thumb of wax warmed over the lockhouse lamp. No official seal. Just the mark of North Lock: three lines for water, one slash for gate. His granddaughter had carved it. The slash leaned left. Everyone knew it meant Jaro, because no one else in the north would tolerate an uneven seal and still use it proudly.
+Jaro folded the sheet and sealed it with a thumb of wax warmed over the lockhouse lamp. No official seal. Just North Lock: three lines for water, one slash for gate. His granddaughter had carved it; the slash leaned left.
 
 "Where does this go?" Jaro asked.
 
@@ -378,7 +376,7 @@ Jaro swore once, softly.
 
 Arin already had the slate.
 
-For the next half-hour the lockhouse became what the return rooms must once have been, though neither man would have called it that. Jaro measured depth and flow. Arin took temperature with a cracked mercury tube and then with his own hand because he trusted neither alone. Jaro's granddaughter came running from the upper path and was sent for Mala, then sent back because Mala had already started over, having heard something in the gulls or her knee or the moral fabric of the morning. A boy from Pike School arrived with two older students because Teacher had seen the mist shift and decided school could learn outside.
+For the next half-hour the lockhouse filled with measurements. Jaro measured depth and flow. Arin took temperature with a cracked mercury tube and then with his own hand because he trusted neither alone. Jaro's granddaughter came running from the upper path and was sent for Mala, then sent back because Mala had already started over, having heard something in the gulls or her knee or the moral fabric of the morning. A boy from Pike School arrived with two older students because Teacher had seen the mist shift and decided school could learn outside.
 
 By noon there were nine people at North Lock and five separate notes being written.
 
@@ -566,7 +564,7 @@ Mala nodded. "Better."
 
 "Most better things are hateful at first."
 
-He leaned his forearms on the wet rail. Across the water, the arch glowed faintly in the town lights, empty at its center. He imagined Lena somewhere beyond it: moving, arguing, noticing, getting herself shut out of places because she could not leave a wrong sentence uncorrected. He imagined her dead and then punished himself for it. He imagined her alive and not coming and hated himself worse. He imagined her carrying peppermint drops gone soft in her pocket because she had always bought them even when she pretended she had not.
+He leaned his forearms on the wet rail. Across the water, the arch glowed faintly in the town lights, empty at its center. He imagined Lena somewhere beyond it: moving, arguing, noticing, getting herself shut out of places because she could not leave a wrong sentence uncorrected. He imagined her dead and punished himself for it. He imagined her alive and not coming and hated himself worse.
 
 His chest hurt.
 
