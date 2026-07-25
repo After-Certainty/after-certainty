@@ -1011,8 +1011,9 @@ The eventual vignette pass is complete when:
 | VIGNETTE-003 | **Complete** — Chapter 6 hierarchy (3 full VGs; secondary examples compressed) |
 | Calibration lesson | Let an ordinary institutional artifact remain unchanged while conditions around it change; the mismatch reveals the argument before the chapter names it |
 | VIGNETTE-005 | **Complete** — Chapter 9 reporting-packet / public-update compression |
-| VIGNETTE-007 | **Drafted** — Chapter 11 dashboard return; Smooth Board retained |
-| Next task | Human review of Chapter 11, then Chapter 7 decision gate → **VIGNETTE-009** |
+| VIGNETTE-007 | **Complete** — Chapter 11 dashboard return; Smooth Board retained |
+| VIGNETTE-004 | **Skipped** — Chapter 7 decision gate: library dinner already inhabitable; no cute return needed; success-narrows-correction still scene-anchored |
+| Next task | **VIGNETTE-009** whole-book continuity |
 | Conditional | VIGNETTE-004 (Chapter 7) |
 | Deferred | VIGNETTE-008 (Intro / Chapter 1) |
 | Remaining risks | Voice drift; over-patterning; cute returns; Ch10 teaching clarity; Ch6 range loss if over-compressed |

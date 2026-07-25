@@ -44,8 +44,7 @@ for how influence was organized.[^c11-outcome-bias] Desk A's numbers are not
 imaginary. They really posted faster and reached more people. The mistake is
 quieter: those outcomes get read as the whole judgment about whether the
 leadership was good. A slower-looking stretch can come from disciplined
-**correction** that prevented a larger failure—work the dashboard never had
-to score.
+**correction** that prevented a larger failure.
 
 ### **The Smooth Board**
 
@@ -226,8 +225,8 @@ already been selecting for the wrong strengths long enough that seeing more
 clearly alone cannot unwind the pattern.
 
 The weekly dashboard still ranks speed, share, and volume. It still has no
-column for the stories that never shipped, or for the corrections that never
-had to run.
+column for the stories editors held before publication—or for the errors
+readers never had to see.
 
 ### **A Clearer Read**
 
