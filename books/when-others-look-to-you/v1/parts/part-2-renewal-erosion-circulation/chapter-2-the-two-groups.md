@@ -1,6 +1,6 @@
 # **Chapter 2 — Two Directions**
 
-### **Two Directions**
+### **When Reality Pushes Back**
 
 A team leaves a hard review meeting with clear next steps. Two days later,
 someone closest to the issue raises a new risk. The lead pauses, reopens the
