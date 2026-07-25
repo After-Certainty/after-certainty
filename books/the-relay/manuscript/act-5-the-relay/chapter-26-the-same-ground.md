@@ -566,7 +566,7 @@ He looked back at the black water.
 
 His mouth moved. "Yes."
 
-There it was, then. Not rescue. Not return. Not one sibling arriving at last to absolve the other of the road they had taken. The same ground under them, and the ground still choosing mud. The old opposition did not vanish. It changed weight. Move and stay were no longer arguments pretending to be identities. They were tasks, each incomplete without the other, each capable of becoming cowardice when mistaken for virtue.
+There it was, then. Not rescue. Not return. The same ground under them, and the ground still choosing mud. Move and stay had not vanished. They had only stopped pretending to be identities.
 
 Lena leaned back on her hands and felt the cold stone through her palms.
 
@@ -604,11 +604,7 @@ They sat there until the lamps came on fully and the lake stopped pretending to 
 
 No one knew whether the practice would survive the crisis that made it necessary. That uncertainty sat with them too. It sat on the lock wall, in the cold, between the siblings and behind them and under their boots. Lena found she did not need to push it away.
 
-The work had not brought her brother back.
-
-Her brother had not stayed unchanged for her to find.
-
-She had not come to the Tarn to rescue him, and he had not come to Vesper to forgive her. They had moved toward each other through a world that kept refusing clean arrivals, each carrying half of a weight they had spent years misnaming as the other's escape.
+The work had not brought her brother back. He had not stayed unchanged for her to find. They had moved toward each other through a world that kept refusing clean arrivals, each carrying half of a weight they had spent years misnaming as the other's escape.
 
 Now they sat on the same stone, eating ruined candy in the dark, while the water below them answered one hand differently than another and both answers mattered.
 

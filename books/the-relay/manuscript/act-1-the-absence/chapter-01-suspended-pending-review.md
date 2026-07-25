@@ -20,7 +20,7 @@ He didn't answer. She let the quiet do the work. His fingers kept twitching agai
 
 "It's seed-stock," he said, lower now. He smelled of chicory and the stale sweat of a man who'd been scared a while. "For the lower settlements out past Vesper. They've had no relief vessel from the inner worlds in three months — the regional office is sitting on the paperwork till the quarter closes, everyone covering their own backs. I'm just trying to get it through before the rotation locks the platforms. People have to plant something."
 
-It was probably even half true. That was the thing about good lies: they were built on a real grievance. But the crate ran nine kilos heavy for seed, and a man moving seed for hungry strangers did not also buy himself a blue ticket out of the sector.
+It was probably even half true. Good lies were built on a real grievance. But the crate ran nine kilos heavy for seed, and a man moving seed for hungry strangers did not also buy himself a blue ticket out of the sector.
 
 "Lena, please." He'd read her rose — the courier's badge at her shoulder — or just her face. "The arch locks for the maintenance cycle in two hours, and the next courier through to the lower settlements is a week out. Just sign the stub. It's a routine hop." He meant the part about the settlements.
 

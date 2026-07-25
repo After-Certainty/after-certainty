@@ -870,7 +870,7 @@ Dalla's drum trembled again.
 
 This time no one froze.
 
-They made space around the sound without making a ceremony of it. Toma slid one ledger aside. Sera moved her cup before it left another ring over something important. Jun reached for a pencil, stopped, and waited until Dalla spoke. Cai closed his notebook but kept one finger inside the page he had been hating. Nadi, who had arrived ahead of Lena by some road woman's insult to distance, looked toward the door before she looked toward the drum, as if the message already had weight and weather attached.
+They made space around the sound without making a ceremony of it. Ledgers shifted. A cup left the wet edge of the crate. Jun reached for a pencil, stopped, and waited until Dalla spoke. Near the door, Nadi was already listening as if the message had weight and weather attached.
 
 Dalla listened.
 
@@ -878,17 +878,13 @@ Dalla listened.
 
 No single person answered.
 
-The room moved instead.
+The room moved instead — not as one body, only as several bodies discovering, with irritation and fatigue, that the next hand had already begun before the last was finished.
 
-Not beautifully. Not as one body. As several bodies discovering, with irritation and fatigue, that the next hand had already begun before the last was finished.
+A page went toward load. Another toward water. Merrow left before anyone made finding two names sound like success. Ivera and Oss drew disagreement from opposite sides of the crate. Somewhere in the returns, rain was being checked against milk time by a muttering that no archivist in any age had been paid enough for farmers.
 
-A page went to Nadi because load had entered the sentence. Another went to Arin because water had. Sera took Merrow before anyone made finding two names sound like success. Cai and Jun bent over Ivera and Oss from opposite sides of the crate, disagreeing before their shoulders settled. Toma went back through the old returns for rain against milk time, muttering that no archivist in any age had been paid enough for farmers.
+Lena did not take a page.
 
-Lena stood with her hands empty.
-
-For one sharp, almost unbearable moment, she wanted the old job back. Receive. Carry. Deliver. Leave. The clean line. The motion that ended in a stamp. It would have been easier to take one page, one route, one answer, and be useful in a way everyone could recognize.
-
-Instead the work passed around her, through her, past her, back again.
+For one sharp moment she wanted the old job back — one route, one stamp, usefulness everyone could recognize. Instead the pages found other hands first, then came back asking for more.
 
 Coming back around, she thought, and did not know whether the words were hope or warning.
 

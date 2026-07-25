@@ -128,7 +128,7 @@ Arin had not moved. His eyes stayed on the line about bell tone, then went to th
 
 *VESPER CROSSING — SUSPENDED PENDING REVIEW*
 
-It had remained there through everything. Through Lena's arrival, through the gatehouse room, through the first manifest, through Low Cairn's four crossings and Halen's pages and Sera's road-shelter pencil and Varik's clean answer becoming useful but no longer final. The notice had become less an instruction than a scar. No one had taken it down because no one had earned the right to replace it.
+It had remained there through everything. Through Lena's arrival, through the gatehouse room, through the first manifest, through Low Cairn's crossings and Halen's pages. The notice had become less an instruction than a scar. No one had taken it down because no one had earned the right to replace it.
 
 Edrin sat beneath it now with his cane across his knees, looking older than guilt and less protected by it.
 

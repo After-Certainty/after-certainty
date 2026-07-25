@@ -80,7 +80,7 @@ He stared at her, then at the page, then at the people in the shelter who had su
 
 Sera waited.
 
-That was the thing Lena had not understood about her before Merrow. Sera's waiting was not passive. It did not leave the room alone. It held a place open and made people decide whether they would enter it. She had once done this with tea, blankets, the right kind of silence, a hand on a shoulder no one else had thought to touch. Now she did it with a damp manifest, a cup, and a blank corner at the bottom of the page.
+What Lena had not understood about her before Merrow was the waiting. It was not passive. It held a place open and made people decide whether they would enter it. She had once done this with tea, blankets, the right kind of silence. Now she did it with a damp manifest, a cup, and a blank corner at the bottom of the page.
 
 The burned man looked toward the noticeboard. "The washed stone wasn't washed."
 
@@ -346,7 +346,7 @@ Then at the yard.
 
 Then at the page.
 
-Lena felt something in the air shift so slightly that, had she not spent the last week watching bad gates hold by fractions, she might have missed it. Varik had not lost them. They had not stopped liking him. His answer still stood, useful and probably necessary.
+Lena felt the air shift by a fraction. Varik had not lost them. They had not stopped liking him. His answer still stood.
 
 But it no longer ended the room.
 
@@ -424,23 +424,11 @@ The yard moved around both.
 
 That was how Varik faded.
 
-Not by being unmasked. Not by confession. Not by a crowd turning cold. He did not fall. No one stripped his words from the chalkboard. A child still brought him an empty bowl to stack. The old woman he had served earlier touched his arm on her way out and thanked him. He bent to hear her because he was still the sort of person who bent to hear old women.
+Not by being unmasked. Not by a crowd turning cold. A child still brought him an empty bowl to stack. The old woman he had served earlier touched his arm on her way out and thanked him.
 
-But when the next question came, it did not go straight to him.
+But when the next question came, it did not go straight to him. It went to the page, or to the girl with ink on her thumb, now guarding the Tarn strip with the miserable dignity of someone who had become necessary before she felt ready.
 
-It went first to the page.
-
-Or to the person who had carried the page.
-
-Or to the place the page had failed to name.
-
-Or to the kitchen woman who knew what waiting cost in grain.
-
-Or to the girl with ink on her thumb, now guarding the Tarn strip with the miserable dignity of someone who had become necessary before she felt ready.
-
-Lena stood at the edge of the yard and felt no victory at all.
-
-Only space.
+Lena stood at the edge of the yard and felt no victory at all. Only space.
 
 Sera looked tired.
 
@@ -498,13 +486,11 @@ Sera looked at the oilcloth in her lap. "I gave them something to fight over wit
 
 Sera tied the thread off. Her fingers were steady, but the skin around her eyes looked bruised by wakefulness.
 
-"I thought trust meant staying soft enough for another person's truth," she said. "That is still true. But softness without a place to put what arrives becomes another kind of disappearance. People tell the truth in a room, and then the road forgets it. Or the road carries it, and the room cannot tell whether it survived the journey."
+"I thought trust meant staying soft enough for another person's truth," she said. "That is still true. But softness without a place to put what arrives becomes another kind of disappearance."
 
 She folded the repaired oilcloth once, then again.
 
 "This does not make trust safer," she said. "It makes trust answerable."
-
-From Sera, the word *answerable* sounded almost like prayer and almost like accusation.
 
 Lena leaned her head back against the wall. Through the floorboards, a murmur rose in the yard. Not panic. Not quite work yet. The first voices of morning finding the unfinished page.
 
@@ -678,7 +664,7 @@ The next time someone said *safe*, someone else asked for whom.
 
 The next time someone said *send it*, a child asked whether the road had answered.
 
-These were not noble changes. Noble changes looked better on walls. These were irritating changes. They slowed good people down. They made kindness show its arithmetic. They made competence leave fingerprints. They made faith carry a pencil.
+These were not noble changes. They slowed good people down. They made kindness show its arithmetic. They made faith carry a pencil.
 
 Sera's pace slowed near the old chain-link, where the Halen pen had once taught Lena how easily rescue could become sorting. The gaps in the fence had widened. Someone had tied strips of cloth through the cut places so children would see the sharp wire before running through.
 
@@ -734,13 +720,9 @@ Sera folded the page carefully along someone else's crease.
 
 For a moment she held it against her chest, not as relic, not as proof, only as a thing that had come back altered and therefore alive.
 
-Lena thought of Varik at the loading line, route strips in hand, still useful and no longer final. She thought of the girl guarding the smear. The kitchen woman naming mouths. The man at the road shelter admitting the road had lied before the rain. Sera, who had once carried trust in her own body and now handed people a way to keep it from disappearing when she left.
+Lena thought of the girl guarding the smear, the kitchen woman naming mouths, Varik at the loading line with route strips still useful in his hands.
 
-The world did not become less frightened.
-
-But fear had lost one of its privileges.
-
-It could no longer always choose the nearest clear voice and call the choosing wisdom.
+The world did not become less frightened. Fear had only lost one privilege: it could no longer always choose the nearest clear voice and call the choosing wisdom.
 
 The runner shifted impatiently. "Is there an answer?"
 
