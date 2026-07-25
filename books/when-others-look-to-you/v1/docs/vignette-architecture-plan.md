@@ -240,7 +240,7 @@ Plus ~19 non-block examples across intro, Ch1–2, bridges, Ch12, epilogue.
 | consolidate / complicate | 2 | Ch6, Ch10 |
 | add-return | 1–2 | Ch11 strongly expected; Ch7 conditional/optional |
 | leave-as-brief / no vignette task | rest | Intro, Ch1, bridges, many pairs |
-| Active major prose chapters | 4 | Ch10 first, then Ch2, Ch6, Ch9, Ch11 |
+| Active major prose chapters | 5 | Ch10 first, then Ch2, Ch6, Ch9, Ch11 |
 
 ---
 
