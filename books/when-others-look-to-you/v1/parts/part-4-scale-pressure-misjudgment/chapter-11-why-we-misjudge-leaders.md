@@ -34,7 +34,7 @@ Desk B runs slower. Editors hold two stories for verification when source claims
 
 By morning, Desk A leads every visible metric. Desk B trails on speed and reach.
 
-By afternoon, Desk A issues two major corrections and pulls one viral post. Desk B publishes fewer corrections because two high-impact errors never shipped.
+By afternoon, Desk A issues two major corrections and pulls one viral post. Desk B publishes fewer corrections because two high-impact errors were never published.
 
 In the weekly review, leadership praise follows the dashboard: speed, share, and volume. Verification work appears as delay, not as prevented harm.
 :::

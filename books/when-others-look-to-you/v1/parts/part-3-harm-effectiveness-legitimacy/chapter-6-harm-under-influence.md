@@ -3,7 +3,7 @@
 ### **Where the Cost Lands**
 
 ::: {custom-style="Vignette Block"}
-Friday night before a holiday retail push, a cold-chain supervisor catches a gap in the temperature log for pallets staged for Monday delivery. She stops the outbound door. Her director keeps the trucks parked, pulls the questionable lot, and re-sequences the warehouse for a slower pack. Retail partners get a blunt note that morning: the load will be short, timing will slip, reasons in one paragraph. At the weekly operations huddle she does not blame the supervisor. She names the call, the cost, and who authorized it. The room does not applaud. Everyone sees who held the steer when the bill arrived.
+Friday night before a holiday retail push, a cold-chain supervisor catches a gap in the temperature log for pallets staged for Monday delivery. She stops the outbound door. Her director keeps the trucks parked, pulls the questionable lot, and re-sequences the warehouse for a slower pack. Retail partners get a blunt note that morning: the load will be short, timing will slip, reasons in one paragraph. At the weekly operations huddle she does not blame the supervisor. She names the call, the cost, and who authorized it. The room does not applaud. Everyone sees who made the call and stayed with the cost when the bill arrived.
 :::
 
 ::: {custom-style="Vignette Block"}

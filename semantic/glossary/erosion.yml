@@ -5,20 +5,21 @@ shortDefinition: >-
   or meaning over time. It is often hard to notice because the structure may continue functioning 
   after its responsiveness has weakened.
 longDefinition: >-
-  Erosion names the direction in which a group, system, or relationship moves when its capacity for 
-  adaptation, learning, or responsiveness gradually weakens—when scalability or adaptability shrinks, 
-  when correction channels narrow, when insulation builds while the surface still looks coordinated. 
-  It becomes important because erosion is structural rather than dramatic; systems can erode long 
-  before they visibly fail, and what looks like stability from inside the room may be thinning fit 
-  unseen. Erosion can affect reach (the ability to coordinate action) or revision (the ability to 
-  adapt and correct), or both. It helps to notice erosion early—before learning collapses, before 
-  disagreement is recoded as disloyalty, before temporary workarounds outlast the emergency they were 
-  made for. Erosion often appears as ordinary choices that teach people correction is costly: warnings 
-  that travel farther but change less on arrival, exceptions that start appearing in training materials, 
-  harm that gets buried in vague wording. The question erosion raises is: which capacity is shrinking 
-  first—reach, revision, or both? What ordinary patterns are teaching people that speaking up carries 
-  cost? Erosion differs from decay in that erosion names the process of thinning, while decay names 
-  the end state.
+  Erosion names the direction in which a group, system, or relationship moves when adaptability 
+  shrinks—when influence stops changing direction under pressure, when correction channels narrow, 
+  when insulation builds while the surface still looks coordinated. Scalability then determines whether 
+  that erosion remains coordinated or also loses reach. It becomes important because erosion is 
+  structural rather than dramatic; systems can erode long before they visibly fail, and what looks like 
+  stability from inside the room may be thinning fit unseen. Low scalability alone does not mean 
+  erosion: a group may still renew while struggling to coordinate at scale, just as it may stay highly 
+  coordinated while losing the ability to change course. It helps to notice erosion early—before 
+  learning collapses, before disagreement is recoded as disloyalty, before temporary workarounds 
+  outlast the emergency they were made for. Erosion often appears as ordinary choices that teach people 
+  correction is costly: warnings that travel farther but change less on arrival, exceptions that start 
+  appearing in training materials, harm that gets buried in vague wording. The question erosion raises 
+  is: is adaptability shrinking, and is coordination holding or fraying as that rigidity sets in? What 
+  ordinary patterns are teaching people that speaking up carries cost? Erosion differs from decay in 
+  that erosion names the process of thinning, while decay names the end state.
 termKind: extended
 relatedConcepts: []
 relatedPatterns: []
@@ -29,9 +30,9 @@ recognitionSignals:
 - one decision route becomes the default gate everyone waits on
 - temporary workarounds outlast the emergency they were made for
 - harm gets buried in vague wording and pushed away from decision-makers
-- scalability or adaptability shrinks without anyone announcing a policy change
+- adaptability shrinks without anyone announcing a policy change while reach may still look strong
 questions:
-- Which capacity is shrinking first—reach, revision, or both?
+- Is adaptability shrinking, and is coordination holding or fraying as that rigidity sets in?
 - What ordinary choices are teaching people that correction is costly?
 - Where is insulation building while the surface still looks coordinated?
 counterbalances:
