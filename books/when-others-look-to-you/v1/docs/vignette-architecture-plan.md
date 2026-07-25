@@ -1004,19 +1004,17 @@ The eventual vignette pass is complete when:
 
 | Item | Assessment |
 |---|---|
-| Plan ready? | **Yes** — ready after baseline confirmation |
-| First task | VIGNETTE-001 (kickoff) |
-| Before first prose edit | Complete 001; confirm paths, validator green, canonical counts, no meaningful plan/manuscript drift |
-| First major prose task | **VIGNETTE-006 (Chapter 10)** |
-| Human review after first prose | Chapter 10 calibration gate (§24b) |
+| Plan ready? | **Yes** |
+| VIGNETTE-001 | **Complete** — see [`vignette-001-baseline-confirmation.md`](vignette-001-baseline-confirmation.md) |
+| Next task | **VIGNETTE-006 (Chapter 10)** — first major prose / calibration draft |
+| Before Ch2 / Ch6 | Chapter 10 calibration gate (§24b) |
 | Conditional | VIGNETTE-004 (Chapter 7) |
 | Deferred | VIGNETTE-008 (Intro / Chapter 1) |
 | Remaining risks | Voice drift; over-patterning; cute returns; Ch10 teaching clarity; Ch6 range loss if over-compressed |
-| Planning blockers | **None** found on manuscript inspection |
+| Planning blockers | **None** |
 
-**Conclusion:** The plan is ready to implement after baseline confirmation.
-Chapter 10 is the first major prose task and will serve as the calibration draft
-for the rest of the pass.
+**Conclusion:** Baseline confirmation is done. Chapter 10 is the next task and
+will serve as the calibration draft for the rest of the pass.
 
 ---
 
