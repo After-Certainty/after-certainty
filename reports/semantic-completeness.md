@@ -1,12 +1,12 @@
 # Semantic completeness report
 
-Generated: `2026-07-23T05:09:14.482755+00:00`
+Generated: `2026-07-25T19:11:32.163231+00:00`
 
 ## Manifest provenance
 
 - schemaVersion: `2.3`
-- sourceCommit: `a6ed779e093db60e957a1dc1fec1b15ba56fb336`
-- manifest generatedAt: `2026-07-23T05:09:00.671609+00:00`
+- sourceCommit: `f0e4bae5d41940535a1a6c7565eaa617ee81d069`
+- manifest generatedAt: `2026-07-25T19:11:25.197560+00:00`
 
 Public canonical works evaluated: **32**
 
@@ -24,7 +24,6 @@ _None._
 
 ### Books absent from questions
 
-- `the-relay`
 - `velorum`
 - `when-others-look-to-you-v2`
 
@@ -50,7 +49,6 @@ _None._
 - `the-discipline-of-uncertainty`
 - `the-economy-we-dont-experience`
 - `the-game-we-think-we-saw`
-- `the-relay`
 - `the-world-we-make-together`
 - `velorum`
 - `what-we-cannot-see`
@@ -91,7 +89,6 @@ _None._
 - `the-discipline-of-uncertainty`
 - `the-economy-we-dont-experience`
 - `the-game-we-think-we-saw`
-- `the-relay`
 - `the-world-we-make-together`
 - `velorum`
 - `what-we-cannot-see`
@@ -120,7 +117,6 @@ _None._
 - `observer-patterns`
 - `the-discipline-of-uncertainty`
 - `the-economy-we-dont-experience`
-- `the-relay`
 - `trust-beyond-similarity`
 - `velorum`
 - `what-we-cannot-see`
@@ -664,7 +660,7 @@ _None._
 | `publicStatus` | `complete` |
 | `contentType` | `complete` |
 | `literaryForm` | `complete` |
-| `publicationDate` | `missing` |
+| `publicationDate` | `complete` |
 | `substantialRevisionDate` | `not-applicable` |
 | `richOverview` | `complete` |
 | `centralQuestion` | `complete` |
@@ -676,13 +672,13 @@ _None._
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `complete` |
 | `searchAliases` | `complete` |
-| `questionCoverage` | `missing` |
+| `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
-| `publicChangeEvent` | `missing` |
+| `publicChangeEvent` | `complete` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
 | `selectedThinkersOrSources` | `not-applicable` |
 
