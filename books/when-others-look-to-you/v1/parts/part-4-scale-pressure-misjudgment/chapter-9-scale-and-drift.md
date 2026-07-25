@@ -6,15 +6,15 @@
 A neighborhood congregation grows into a regional network with shared branding,
 shared training, and shared donor strategy. Local leaders notice that a
 mentoring program is creating burnout and quiet exclusion for younger
-volunteers. One site lead puts it in the monthly reporting packet the way the
-cycle requires: names held back, severity flattened into a status line so the
-form will accept it.
+volunteers. One site lead records the concern in the monthly reporting packet,
+with names removed and burnout and exclusion reduced to a staffing note. By the
+time the packet reaches the regional desk, that note sits beneath an expanding
+program.
 
-By the time the packet reaches the regional desk, the line reads as a staffing
-note under an expanding program. The next public update highlights growth and
-consistency. Mentoring slots are still listed as full. Two younger volunteers
-have already stepped back. A third keeps the hours and stops raising the
-pattern. Local adaptation slows before the official status changes.
+The next public update highlights growth and consistency. Mentoring slots are
+still listed as full. Two younger volunteers have already stepped back. A third
+keeps the hours and stops reporting the strain. Local adaptation slows before
+the official status changes.
 :::
 
 Reach widened faster than the paths people could use to fix what was wrong.
@@ -125,8 +125,8 @@ Scale sets the conditions; pressure tests them. Crisis and urgency force tradeof
 across **harm**, **effectiveness**, and **legitimacy** at once, while **correction**
 either narrows or holds depending on which pathways still run.
 
-The next public update can still highlight growth and consistency after the
-mentoring program has already thinned. The reporting cycle did its job. The
+The next public update can still highlight growth and consistency after
+participation has already begun to thin. The reporting cycle did its job. The
 local meaning did not survive the trip.
 
 ::: {custom-style="Pull Quote Block"}
