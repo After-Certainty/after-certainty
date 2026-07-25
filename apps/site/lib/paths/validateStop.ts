@@ -1,6 +1,8 @@
 import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import { bookPublicationStatus, findBookBySlug } from "@/lib/books/book-metadata";
 import { resolveWorkEdition } from "@/lib/books/resolve-work-edition";
+import { isChapterSearchEligible } from "@/lib/corpus/chapter-eligibility";
+import { chaptersFromGraph } from "@/lib/graph/chapters";
 import { buildGraphIndex, type GraphIndex } from "@/lib/graph/graph";
 import type { PodcastEpisode } from "@/types/content";
 import type { PathStopInput } from "@/types/paths";
@@ -17,6 +19,7 @@ export type PathHealthIssue = {
 
 const ENTITY_TYPE_LABELS: Record<string, string> = {
   book: "Book",
+  chapter: "Chapter",
   concept: "Concept",
   pattern: "Pattern",
   situation: "Situation",
@@ -213,6 +216,39 @@ export function validateStopReference(
 
     warnNonCanonicalEdition(slug, books, issues, ownerId);
     return resolvedId;
+  }
+
+  if (stop.entityType === "chapter") {
+    const entityId = stop.entityId;
+    if (!entityId) {
+      issues.push({
+        severity: "error",
+        code: "missing_chapter_ref",
+        ownerId,
+        detail: `Stop ${stop.position} missing chapter entityId`,
+      });
+      return null;
+    }
+    const chapter = chaptersFromGraph(graph).find((c) => c.id === entityId);
+    if (!chapter) {
+      issues.push({
+        severity: "error",
+        code: "unknown_chapter",
+        ownerId,
+        detail: `Unknown chapter "${entityId}" at stop ${stop.position}`,
+      });
+      return null;
+    }
+    const book = books.find((b) => b.id === chapter.editionId);
+    if (!isChapterSearchEligible(chapter, book)) {
+      issues.push({
+        severity: "error",
+        code: "ineligible_chapter",
+        ownerId,
+        detail: `Chapter "${entityId}" at stop ${stop.position} is not a public reader destination`,
+      });
+    }
+    return entityId;
   }
 
   const entityId = stop.entityId;

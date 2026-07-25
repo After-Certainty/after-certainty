@@ -355,6 +355,7 @@ const ontologySchema = z
 
 const discoveryPathEntityTypeSchema = z.enum([
   "book",
+  "chapter",
   "concept",
   "pattern",
   "situation",

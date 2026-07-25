@@ -325,9 +325,16 @@ export function collectPublicCorpusIntegrityIssues(
   const trailIdsBySlug = new Map(registry.trails.map((t) => [t.slug, t.id]));
   for (const trail of trailsFromGraph(graph)) {
     if (trail.status !== "published") continue;
-    const referencesListedBook = trail.pathStops.some(
-      (stop) => stop.entityType === "book" && stop.entityId && listedBookIds.has(stop.entityId),
-    );
+    const referencesListedBook = trail.pathStops.some((stop) => {
+      if (stop.entityType === "book" && stop.entityId && listedBookIds.has(stop.entityId)) {
+        return true;
+      }
+      if (stop.entityType === "chapter" && stop.entityId) {
+        const editionId = editionIdByChapterId.get(stop.entityId);
+        return Boolean(editionId && listedBookIds.has(editionId));
+      }
+      return false;
+    });
     if (!referencesListedBook) continue;
 
     if (!trailIdsBySlug.has(trail.slug)) {

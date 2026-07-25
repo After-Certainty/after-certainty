@@ -27,7 +27,7 @@ Site-owned pieces that remain under `apps/site/`:
 | Purpose | Reusable sequence for themes, audiences, or revisits | Accessible entrance when you arrive with a felt tension |
 | Route   | `/trails/[slug]`                                     | `/questions/[slug]`                                     |
 
-Both use the same **path stop** model under the hood.
+Both use the same **path stop** model under the hood. Stops may target books, concepts, patterns, and other explore entities — and **public chapters** via `entityType: chapter` + `entityId` (see [authoring-discovery-metadata.md](https://github.com/ksteffe/after-certainty/blob/main/docs/authoring-discovery-metadata.md) and [semantic-chapter-identity.md](https://github.com/ksteffe/after-certainty/blob/main/docs/semantic-chapter-identity.md)).
 
 ## Creating a new trail
 

@@ -58,5 +58,8 @@ next-env.d.ts
 # Native Reader manuscripts installed for SSR (READ-003; do not commit)
 /data/manuscripts/
 
+# Native Reader manuscript images/diagrams installed for public serving
+/public/manuscript-assets/
+
 # Generated book-cover WebP derivatives (installed from build/site-assets)
 /public/generated/book-covers/

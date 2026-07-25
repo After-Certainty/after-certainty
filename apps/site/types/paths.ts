@@ -1,5 +1,6 @@
 export type PathEntityType =
   | "book"
+  | "chapter"
   | "concept"
   | "pattern"
   | "situation"

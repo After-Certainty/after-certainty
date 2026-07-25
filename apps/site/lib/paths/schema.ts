@@ -2,6 +2,7 @@ import { z } from "zod";
 
 export const pathEntityTypeSchema = z.enum([
   "book",
+  "chapter",
   "concept",
   "pattern",
   "situation",

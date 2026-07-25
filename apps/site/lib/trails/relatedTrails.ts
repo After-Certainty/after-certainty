@@ -7,7 +7,7 @@ import {
   resolveStopEntityId,
 } from "@/lib/paths/validateStop";
 import { getPublishedTrails } from "@/lib/trails/loadTrails";
-import type { Book } from "@/types/semanticGraph";
+import type { Book, ManifestChapter } from "@/types/semanticGraph";
 import type { PathStopInput } from "@/types/paths";
 import type { QuestionDefinition } from "@/types/questions";
 import type { TrailDefinition } from "@/types/trails";
@@ -20,6 +20,7 @@ export function resolveStopCanonicalId(
   stop: PathStopInput,
   index: GraphIndex,
   books: readonly Book[],
+  chapters: readonly ManifestChapter[] = [],
 ): string | null {
   if (stop.entityType === "external") {
     return resolveStopEntityId(stop);
@@ -42,6 +43,10 @@ export function resolveStopCanonicalId(
     );
   }
 
+  if (stop.entityType === "chapter") {
+    return stop.entityId ?? null;
+  }
+
   const entityId = stop.entityId;
   if (!entityId) return null;
   return index.resolveCanonicalId(entityId) ?? entityId;
@@ -52,10 +57,17 @@ export function trailReferencesCanonicalId(
   canonicalId: string,
   index: GraphIndex,
   books: readonly Book[],
+  chapters: readonly ManifestChapter[] = [],
 ): boolean {
   return trail.pathStops.some((stop) => {
-    const resolved = resolveStopCanonicalId(stop, index, books);
-    return resolved === canonicalId;
+    const resolved = resolveStopCanonicalId(stop, index, books, chapters);
+    if (resolved === canonicalId) return true;
+    // Chapter stops also associate the trail with the parent edition/book.
+    if (stop.entityType === "chapter" && stop.entityId) {
+      const chapter = chapters.find((c) => c.id === stop.entityId);
+      return chapter?.editionId === canonicalId;
+    }
+    return false;
   });
 }
 
@@ -63,14 +75,15 @@ export function findPublishedTrailsForEntity(input: {
   canonicalId: string;
   index: GraphIndex;
   books: readonly Book[];
+  chapters?: readonly ManifestChapter[];
   trails?: readonly TrailDefinition[];
   limit?: number;
 }): TrailDefinition[] {
-  const { canonicalId, index, books, limit = 3 } = input;
+  const { canonicalId, index, books, chapters = [], limit = 3 } = input;
   const trails = input.trails ?? getPublishedTrails();
 
   return trails
-    .filter((trail) => trailReferencesCanonicalId(trail, canonicalId, index, books))
+    .filter((trail) => trailReferencesCanonicalId(trail, canonicalId, index, books, chapters))
     .slice(0, limit);
 }
 
@@ -78,9 +91,10 @@ function resolvePathStopCanonicalIds(
   stops: readonly PathStopInput[],
   index: GraphIndex,
   books: readonly Book[],
+  chapters: readonly ManifestChapter[] = [],
 ): string[] {
   return stops
-    .map((stop) => resolveStopCanonicalId(stop, index, books))
+    .map((stop) => resolveStopCanonicalId(stop, index, books, chapters))
     .filter((id): id is string => Boolean(id));
 }
 
@@ -88,19 +102,27 @@ export function findPublishedTrailsForQuestion(input: {
   question: QuestionDefinition;
   index: GraphIndex;
   books: readonly Book[];
+  chapters?: readonly ManifestChapter[];
   trails?: readonly TrailDefinition[];
   limit?: number;
   overlapMax?: number;
 }): TrailDefinition[] {
-  const { question, index, books, limit = 3, overlapMax = QUESTION_TRAIL_OVERLAP_MAX } = input;
+  const {
+    question,
+    index,
+    books,
+    chapters = [],
+    limit = 3,
+    overlapMax = QUESTION_TRAIL_OVERLAP_MAX,
+  } = input;
   const published = input.trails ?? getPublishedTrails();
 
-  const questionStopIds = resolvePathStopCanonicalIds(question.pathStops, index, books);
+  const questionStopIds = resolvePathStopCanonicalIds(question.pathStops, index, books, chapters);
   if (questionStopIds.length === 0) return [];
 
   const ranked = published
     .map((trail) => {
-      const trailStopIds = resolvePathStopCanonicalIds(trail.pathStops, index, books);
+      const trailStopIds = resolvePathStopCanonicalIds(trail.pathStops, index, books, chapters);
       const overlap = pathOverlapRatio(questionStopIds, trailStopIds);
       return { trail, overlap };
     })

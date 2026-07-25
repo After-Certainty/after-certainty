@@ -104,7 +104,9 @@ Site reconstruction helpers:
 | Overview TOC links | Remain unset until READ-006 (`publicUrl` stays undefined) |
 | Search / sitemap eligibility | Unlocked for public chapters on public books (READ-005 / READ-009) |
 
-Downloads (EPUB/PDF/DOCX) remain valid reading paths regardless of reader rollout.
+Downloads (EPUB/PDF/DOCX) remain valid reading paths alongside the native reader.
+
+**V1 cohort (READ-010):** All published catalog editions with manuscript chapters are in scope — no download-only holdout list. See [`native-reader-v1-cohort.md`](native-reader-v1-cohort.md).
 
 ### Client storage keys (future READ-011+)
 

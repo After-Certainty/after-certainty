@@ -29,17 +29,21 @@ Vignette text
 });
 
 describe("rewriteManuscriptAssetUrls", () => {
-  it("rewrites relative images and demotes .md links to text", () => {
+  it("rewrites relative images to site manuscript-assets and demotes .md links to text", () => {
     const md = `See [How to Read](how-to-read-this-book.md).
 
 ![Map](export-assets/diagrams/map.png)
+![Cover](BookCover.png)
 `;
     const out = rewriteManuscriptAssetUrls(md, { bookDir: "books/after-certainty" });
     expect(out).toContain("See How to Read.");
     expect(out).not.toContain("](how-to-read-this-book.md)");
+    // Export-time PNGs map to committed SVGs under docs/diagrams/.
     expect(out).toContain(
-      "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/export-assets/diagrams/map.png",
+      "![Map](/manuscript-assets/books/after-certainty/docs/diagrams/map.svg)",
     );
+    expect(out).toContain("![Cover](/manuscript-assets/books/after-certainty/BookCover.png)");
+    expect(out).not.toContain("raw.githubusercontent.com");
   });
 });
 

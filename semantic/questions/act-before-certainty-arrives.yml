@@ -39,10 +39,10 @@ pathStops:
   description: 'A friendly entry: how curiosity keeps learning open when easy certainty would close it.'
   whyThisFollows: Curiosity is often the first discipline before harder choices.
 - position: 4
-  entityType: book
-  entityId: book-after-certainty
-  description: 'The capstone: living, judging, and remaining responsible once certainty is no longer enough.'
-  whyThisFollows: This is the primary depth for the question.
+  entityType: chapter
+  entityId: chapter-after-certainty-parts-part-2-what-can-still-be-practiced-chapter-4-judgment-without-finality
+  description: 'Read Judgment Without Finality in After Certainty—practice that stays responsible when certainty has not arrived.'
+  whyThisFollows: This is the primary depth for the question; the chapter is the precise doorway into the capstone.
 - position: 5
   entityType: book
   entityId: book-how-serious-systems-learn

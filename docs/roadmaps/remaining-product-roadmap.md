@@ -232,18 +232,18 @@ flowchart LR
 | **Current state** | Chapter metadata in manifest; Inside this book lists titles/summaries without links; registry blocks chapter search/sitemap eligibility. |
 | **Existing implementation** | `ManifestChapter`, `book-chapter-view-model.ts`, `lib/graph/chapters.ts`, `validate-chapters.ts`, public registry chapter records with `canonicalUrl: routeKey` but unlisted. |
 | **Existing documentation** | Chapter identity doc; open question in canonical-status plan; **no** native-reader plan until this roadmap. |
-| **Remaining work** | URL contract, SSR routes, manuscript HTML pipeline, TOC/prev-next, footnotes/anchors, a11y baseline, unlock search/sitemap, wire overview/search/trail destinations, pilot book set. |
-| **Dependencies** | Stable chapter IDs already exist; pilot book decision (READ-010); manuscript files in `books/*/`. |
+| **Remaining work** | Phase 1 reader spine largely shipped (READ-001–009, READ-007); cohort decided (READ-010). Further reading work → Phase 2. |
+| **Dependencies** | Stable chapter IDs already exist; pilot book decision (READ-010 — resolved); manuscript files in `books/*/`. |
 | **Corpus changes** | Usually none for V1 code path; enrichment improves snippet quality but is **not** a launch blocker for all books. |
 | **Site changes** | New App Router chapter pages; markdown/HTML pipeline; registry/search/sitemap unlock; overview link wiring. |
 | **Tests** | Unit tests for slug/route helpers; corpus validation updates; Playwright smoke for pilot chapters; a11y checks for reader chrome. |
 | **Accessibility** | Landmarks, heading order, footnote refs/back-links, focus management, reduced motion, readable typography under zoom. |
 | **Performance** | Avoid shipping entire books as one client bundle; prefer per-chapter SSR; watch HTML size for long chapters. |
-| **Editorial input required** | Which books enter the first public reader cohort (READ-010). |
+| **Editorial input required** | ~~Which books enter the first public reader cohort (READ-010).~~ Resolved — all published catalog editions. |
 | **External records required** | None for V1. |
 | **Risks** | Footnote/citation fidelity; poetry/fiction layout; spoiling via summaries in search; accidental indexing before ready. |
 | **Out of scope** | Accounts, annotations, synced progress, offline PWA, AI summaries, full-text search of entire manuscripts in V1 (summaries + titles first). |
-| **Completion criteria** | Pilot public books have SSR chapter pages; prev/next + TOC work; footnotes usable; chapters in sitemap/search only when routes live; E2E smoke green; downloads remain available. |
+| **Completion criteria** | Published catalog books have SSR chapter pages; prev/next + TOC work; footnotes usable; chapters in sitemap/search only when routes live; E2E smoke green; downloads remain available. |
 
 ### WS-READ-PLUS — Reader enhancements (Phase 2)
 
@@ -442,6 +442,7 @@ flowchart LR
 | **Goal** | Allow authored path stops to target chapter URLs where chapter destinations exist. |
 | **Why it matters** | Questions/trails currently stop at book/entity level more often than precise chapters. |
 | **Type / owner / size** | mixed / shared / M |
+| **Status** | Implemented — `entityType: chapter` on path stops; resolve + validate; pilot stop on `act-before-certainty-arrives`. |
 | **Likely files** | Trail/question schemas and site path stop resolvers; authoring docs |
 | **Dependencies** | READ-002; corpus stop updates optional |
 | **Acceptance criteria** | Stops with chapter targets resolve; invalid targets fail validation; at least one pilot path updated or documented as follow-on editorial |
@@ -481,9 +482,10 @@ flowchart LR
 |-------|-------|
 | **Goal** | Kevin selects first public reader cohort (e.g. fully enriched priority books). |
 | **Type / owner / size** | research / manual/external / S |
+| **Status** | Resolved — **all** published catalog editions with manuscript chapters are in V1; no download-only holdouts. See [`docs/native-reader-v1-cohort.md`](../native-reader-v1-cohort.md). |
 | **Dependencies** | None (can run parallel to READ-001) |
-| **Acceptance criteria** | Written list of edition slugs in/out for V1; non-pilot books keep download-only reading |
-| **Kevin / external** | **Required** |
+| **Acceptance criteria** | Written list of edition slugs in/out for V1; scope decision recorded (supersedes earlier “narrow pilot / download-only holdouts” default) |
+| **Kevin / external** | **Required** — decided 2026-07-25 |
 | **Order** | Parallel with 1–3 |
 
 ---
@@ -891,7 +893,7 @@ Work Cursor/agents should **not** pretend to finish alone:
 
 1. Historical **publication dates** and evidence ranking (CORPUS-001/002)
 2. Which editions count as **substantial revisions**
-3. **Pilot book list** for Native Reader V1 (READ-010)
+3. ~~**Pilot book list** for Native Reader V1 (READ-010)~~ — **Resolved:** all published catalog editions ([`native-reader-v1-cohort.md`](../native-reader-v1-cohort.md))
 4. Fiction/poem **summary voice** and spoiler bounds (CORPUS-006/007)
 5. Editorial summaries for thin/zero-coverage chapters (CORPUS-003–005)
 6. Priority thinkers for concept grounding (PROVENANCE-005)
@@ -971,7 +973,7 @@ Intentionally postponed so they do not re-enter near-term planning:
 
 | Phase | Complete when |
 |-------|----------------|
-| **1 — Read After Certainty** | Pilot editions have SSR chapter pages with body HTML, footnotes, TOC/prev-next, a11y baseline; chapters eligible for sitemap/search; overview links work; E2E smoke green; downloads still available |
+| **1 — Read After Certainty** | Published catalog editions have SSR chapter pages with body HTML, footnotes, TOC/prev-next, a11y baseline; chapters eligible for sitemap/search; overview links work; E2E smoke green; downloads still available; cohort = all published catalog books (READ-010) |
 | **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size/reading theme; TOC drawer + copy section link; in-book search either shipped or explicitly deferred |
 | **3 — Editorial and historical** | Evidence workflow exists; confirmed dates backfilled; priority enrichment batch 6–9 + poems done or explicitly re-prioritized; thin relatedWorks/situations closed; historical What’s New for dated works |
 | **4 — Semantic traceability** | Definition helper live; thinker coverage panel (+ JSON-LD); targeted grounding batch done; creatorNames warnings cleared; provenance UI decided |
@@ -983,7 +985,7 @@ Intentionally postponed so they do not re-enter near-term planning:
 
 Unresolved product/editorial decisions (not implementation tasks):
 
-1. **Native Reader pilot cohort** — which edition slugs launch first?  
+1. ~~**Native Reader pilot cohort**~~ — **Resolved (READ-010):** all published catalog editions with manuscript chapters; see [`native-reader-v1-cohort.md`](../native-reader-v1-cohort.md).  
 2. ~~**Chapter URL final aesthetics**~~ — **Resolved (READ-001):** `/explore/books/{editionSlug}/chapters/{chapterSlug}` (= manifest `routeKey`).  
 3. **Search visibility for fiction/poetry chapters** — index summaries or titles-only?  
 4. **Download vs Read online** primary CTA once reader exists.  
