@@ -25,7 +25,7 @@ the temporary command protocol.
 
 Ten days later the water is down in most places. Officials talk about a sunset
 and a review date. Some challenge calls keep landing. A second corridor gets
-rerouted. The room sounds more open than it did on night one.
+rerouted.
 
 Months later the underpasses are dry. Weather has stabilized. Neighborhood
 groups that accepted the emergency grip now ask who can reopen a remaining
@@ -35,9 +35,9 @@ under pressure." The storm justified the contraction. The aftermath turned the
 continuing signature into a legitimacy problem.
 :::
 
-Stay with that one city. The opening move can be justified. The later problem
-is not that someone took the wheel in a flood. It is that the wheel never
-came back once the water did.
+The opening move can be justified. The later problem is not that authority
+narrowed during the flood. It is that the approval path remained narrow after
+the water receded.
 
 Pressure never removes tradeoffs; it squeezes them into less time. What buys
 responsiveness now can cost later. Under urgency, organizations usually move
@@ -96,10 +96,11 @@ decisions happen afterward.[^c10-crisis-precedent]
 Crisis does not invent those habits; it reveals what the structure already
 permits and turns up the volume.
 
-That is why the first week can look like competence even when the later months
-will not. The divergence appears when emergency precedent either sunsets or
-becomes governance. Under pressure, what gets rewarded or punished travels fast
-as a template for who leads next—**Leadership Reproduces Itself**.
+That is why the first week can demonstrate real competence while the same
+arrangement creates a different problem over the following months. The
+divergence appears when emergency precedent either sunsets or becomes
+governance. Under pressure, what gets rewarded or punished travels fast as a
+template for who leads next—**Leadership Reproduces Itself**.
 
 ### **Pressure and Recovery**
 
@@ -124,8 +125,7 @@ that **correction** is still working. The tradeoff worked at first; failure
 followed when rules meant for emergencies became the everyday way decisions get
 made. That is **Exceptions are Forever**: exceptions introduced under urgency
 tend to persist. Temporary permissions harden into the new normal for how things
-run. You can see the shift in one object: the central signature that cleared
-sandbags still gates a dry corridor.
+run.
 
 ### **Restraint Under Urgency**
 
@@ -169,8 +169,8 @@ question is what can still change once the trajectory is clear but reversal is
 still incomplete—and once **Exceptions are Forever** has already begun to shape
 the baseline.
 
-The practical read is simple. Can the same group that needed a central signature
-in the flood also release that signature once the underpass is dry?
+The central signature that cleared sandbags is still required to reopen an
+underpass that has been dry for months.
 
 When visible control outruns structural signal, judgment moves farther from
 front-line evidence. The next chapter turns to that read directly.
