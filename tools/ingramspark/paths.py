@@ -37,5 +37,27 @@ def ebook_isbn(spec: dict[str, Any]) -> str:
     return isbn
 
 
+def print_output_dir(repo: Path, spec: dict[str, Any]) -> Path:
+    return ingramspark_build_dir(repo, spec) / "print"
+
+
+def print_isbn(spec: dict[str, Any]) -> str:
+    target = spec_ingramspark_target(spec)
+    print_cfg = _as_dict(target.get("print"))
+    isbn = str(print_cfg.get("isbn") or "").strip()
+    if not isbn:
+        raise ValueError("publishing.targets.ingramspark.print.isbn is required")
+    return isbn
+
+
+def print_interior_pdf_path(repo: Path, spec: dict[str, Any]) -> Path:
+    """IngramSpark interior naming: ``{isbn}_txt.pdf``."""
+    return print_output_dir(repo, spec) / f"{print_isbn(spec)}_txt.pdf"
+
+
+def print_page_count_path(repo: Path, spec: dict[str, Any]) -> Path:
+    return print_output_dir(repo, spec) / "page-count.json"
+
+
 def package_zip_path(repo: Path, spec: dict[str, Any]) -> Path:
     return ingramspark_build_dir(repo, spec) / ingramspark_artifact_name(book_id(spec))
