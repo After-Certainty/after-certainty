@@ -79,15 +79,12 @@ leaders when signals travel far and late. Part V takes up what is still
 possible when warning signals arrive too late, feedback routes close, and
 judgment fails anyway.
 
-Those dynamics also gather into four shapes: **Forming**, **Adjusting**,
-**Eroding**, and **Circulating**. **Forming** is where live conditions get
-set. From there a structure can move toward **Adjusting** or **Eroding**. Both
-paths shape what later gets copied and passed on.
-
-**Circulating** includes what spreads through imitation. It is also about who
-may hold the center for a phase—temporary or shared leadership—and who is
-treated as *allowed* to steer before titles change. Copied habit and copied
-permission both feed what forms next.
+The named patterns above also sort, for reference, into four shapes—
+**Forming**, **Adjusting**, **Eroding**, and **Circulating**—used later as a
+catalog, not as a second grid to memorize. What matters on first read is the
+throughline already named: attention concentrates, examples teach, correction
+holds or thins, and **circulation** decides whether influence can move through
+people as well as from the center.
 
 Crisis runs as a recurring thread through the book, with its strongest
 integration where scale and pressure enter—late in the arc.

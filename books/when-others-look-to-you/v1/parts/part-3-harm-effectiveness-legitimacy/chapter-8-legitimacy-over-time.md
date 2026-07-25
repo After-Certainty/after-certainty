@@ -146,13 +146,10 @@ but decay deepens.
 
 ### **Correction and Circulation**
 
-People keep following for different legitimacy reasons. **Correction** is the read
-on whether warnings and dissent can still reach the people who hold power and
-change a decision without punishment.
-
-**Circulation** is the read on whether influence can still leave formal leaders,
-pass through people who step up for a moment, and come back without a penalty
-round.
+People keep following for different legitimacy reasons. The earlier distinction
+still applies here: **correction** asks whether warnings can still change what
+formal leaders decide; **circulation** asks whether anyone else may hold the
+decision point for a stretch and return without a penalty round.
 
 How those episodes are treated feeds **legitimacy** as well as throughput.
 **Permission**—what the room teaches after someone leads without being the usual
@@ -160,37 +157,15 @@ name—adds up in the same **vibrant** or **decaying** habits **circulation**
 describes. Before long, who counts as a leader and who people will still follow
 stop looking like separate questions.
 
-### **Correction Signals**
-
-Beyond **selective followership**, other **correction** signals show up in ordinary
-work. Watch whether bad news travels upward without career penalty, whether
-dissent can change a decision before execution, whether leaders explain revision
-when they change course, and whether trust increases or contracts after conflict.
-
-**Circulation** leaves a different trace. Feedback reaching the center is only
-part of the read. Also watch what the room teaches after someone who is not the
-usual name holds it—whether step-ins are credited and named, whether people are
+Watch the ordinary traces. For **correction**: whether bad news travels without
+career penalty, and whether dissent can change a decision before execution. For
+**circulation**: whether step-ins are credited and named, whether people are
 welcome back into the decision ring, and whether the afterward story reads as
-useful work or damage control. Those are **permission** signals. They narrow or
-widen before the next crisis tests who may steer.
-
-When most **correction** signals read closed, authority is becoming one-way.
-When **permission** reads cold, people still learn to wait for the usual gate,
-even when the work has already moved on.
-
-### **How Correction and Circulation Shape Renewal and Erosion**
-
-**Correction** keeps authority connected to consequence. It lets a growing
-organization spot early warnings and adjust before harm spreads. It does not
-erase conflict; it keeps conflict open to revision.
-
-**Circulation** also helps groups grow when **permission** lets people nearest the
-shifting facts step in, fix things locally, and send what they learned back to the
-center.
-
-When **correction** weakens, decay appears before leaders can name it. What got
-rewarded or punished while **correction** narrowed is what the next leaders will
-have learned to copy—**Leadership Reproduces Itself**.
+useful work or damage control. When **correction** signals read closed, authority
+is becoming one-way. When **permission** reads cold, people learn to wait for the
+usual gate even when the work has already moved on. What gets rewarded or punished
+while those paths narrow is what the next leaders will copy—**Leadership
+Reproduces Itself**.
 
 ### **Scale and Distance**
 

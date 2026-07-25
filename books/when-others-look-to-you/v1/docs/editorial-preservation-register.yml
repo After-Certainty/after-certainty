@@ -19,10 +19,10 @@ verbatim:
   reason: Closing reading stance for the introduction.
 - id: guest-leadership-trusted-punished
   file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
-  text: |-
-    When guest leadership is trusted, more people use it openly.
+  text: 'When guest leadership is trusted, more people use it openly.
 
-    When guest leadership is punished, people retreat.
+
+    When guest leadership is punished, people retreat.'
   reason: Signature guest-leadership pull quote; two-part movement must stay intact.
 - id: correction-vs-circulation-failure
   file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
@@ -130,22 +130,22 @@ verbatim:
   reason: Chapter 1 restatement of canonical definition; keep if chapter still opens with it.
 - id: bridge2-renewal-def
   file: parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md
-  text: Renewal is whether a group can still change course under pressure.
+  text: '**Renewal** is whether a group can still change course under pressure.'
   reason: Bridge II canonical renewal definition.
 - id: bridge2-erosion-def
   file: parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md
-  text: Erosion is what happens when correction narrows and exceptions quietly harden.
+  text: '**Erosion** is what happens when **correction** narrows and exceptions quietly harden.'
   reason: Bridge II canonical erosion definition.
 - id: bridge2-circulation-def
   file: parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md
-  text: Circulation is whether leadership can pass through more people—or whether every decision keeps
-    returning to the same gate.
+  text: '**Circulation** is whether leadership can pass through more people—or whether every decision
+    keeps returning to the same gate.'
   reason: Bridge II circulation preview definition.
 - id: ch5-correction-circulation-defs
   file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
-  text: 'Correction keeps the center honest: warnings and dissent can still change what the person with
-    formal power decides. Circulation lets decision authority move—whether anyone else may make the call
-    for a stretch, step back when the moment passes, and not pay later for having stepped in.'
+  text: '**Correction** keeps the center honest: warnings and dissent can still change what the person
+    with formal power decides. **Circulation** lets decision authority move—whether anyone else may make
+    the call for a stretch, step back when the moment passes, and not pay later for having stepped in.'
   reason: Core correction vs circulation definition pair in Chapter 5.
 - id: ch6-harm-routes
   file: parts/part-3-harm-effectiveness-legitimacy/chapter-6-harm-under-influence.md
@@ -158,11 +158,12 @@ verbatim:
   reason: Chapter 7 effectiveness over-time hinge.
 - id: ch9-scale-not-villain
   file: parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md
-  text: Scale does not cause erosion by itself. It widens what the structure was already inclined to produce.
+  text: Scale does not cause **erosion** by itself. It widens what the structure was already inclined
+    to produce.
   reason: Scale amplifies rather than mechanically causes erosion.
 - id: ch10-temporary-vs-permanent
   file: parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md
-  text: Temporary contraction can preserve function; permanent closure locks in decay.
+  text: Temporary contraction can preserve function; permanent closure locks in **decay**.
   reason: Temporary centralization vs permanent capture hinge.
 - id: ch11-selection-pressure
   file: parts/part-4-scale-pressure-misjudgment/chapter-11-why-we-misjudge-leaders.md
@@ -195,9 +196,10 @@ substantive:
   reason: Memorable compression of how instruction travels.
 - id: intro-four-shapes-preview
   file: front-matter/introduction-attention-finds-a-focus.md
-  text: 'Those dynamics also gather into four shapes: Forming, Adjusting, Eroding, and Circulating.'
-  protectedMeaning: >-
-    Light preview of Appendix B / pattern groups; readers need not memorize as a second framework.
+  text: The named patterns above also sort, for reference, into four shapes—Forming, Adjusting, Eroding,
+    and Circulating—used later as a catalog, not as a second grid to memorize.
+  protectedMeaning: Light preview of Appendix B / pattern groups; readers need not memorize as a second
+    framework.
   reason: Keep as preview; reduce later insistence on memorizing the four-shape grid.
 - id: ch1-amplifies-showed
   file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
@@ -320,11 +322,11 @@ substantive:
   reason: Handoff into Chapter 8.
 - id: ch8-correction-circulation-reads
   file: parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md
-  text: Correction is the read on whether warnings and dissent can still reach the people who hold power
-    and change a decision without punishment. Circulation is the read on whether influence can still leave
-    formal leaders, pass through people who step up for a moment, and come back without a penalty round.
+  text: correction asks whether warnings can still change what formal leaders decide; circulation asks
+    whether anyone else may hold the decision point for a stretch and return without a penalty round.
   protectedMeaning: Part III rejoinder of correction/circulation.
-  reason: Substance must survive; exact wording may compress if Ch.5 already carried the load.
+  reason: Part III rejoinder of correction/circulation (compressed to structural return rather than full
+    redefinition).
 - id: ch10-exceptions-persist
   file: parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md
   text: 'That is Exceptions are Forever: exceptions introduced under urgency tend to persist.'
@@ -374,14 +376,15 @@ substantive:
 manualReview:
 - id: intro-four-shapes-load
   file: front-matter/introduction-attention-finds-a-focus.md
-  text: 'Those dynamics also gather into four shapes: Forming, Adjusting, Eroding, and Circulating.'
-  concern: May overload as a second framework; keep as light preview or soften later insistence.
+  text: The named patterns above also sort, for reference, into four shapes—Forming, Adjusting, Eroding,
+    and Circulating—used later as a catalog, not as a second grid to memorize.
+  concern: Revised in Stage 2 to light-catalog framing; confirm Kevin is satisfied with reduced memorization
+    demand.
 - id: ch1-pace-twin
   file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
   text: Your pace becomes their pace. Your tolerance becomes their tolerance. Your silence becomes a signal.
     Your reaction becomes instruction.
-  concern: >-
-    Near-twin of intro pace/tolerance line; may be necessary structural return or redundant restatement.
+  concern: Near-twin of intro pace/tolerance line; may be necessary structural return or redundant restatement.
 - id: ch2-hospital-pair
   file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
   text: In one network, all three clinics… In another network, each clinic interprets…
@@ -393,19 +396,16 @@ manualReview:
 - id: ch2-four-corners-memorization
   file: parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md
   text: regenerative… adaptive… entrenched… and stalled…
-  concern: >-
-    Keep once with diagram; reduce demand that readers memorize corner names as core vocabulary.
+  concern: Keep once with diagram; reduce demand that readers memorize corner names as core vocabulary.
 - id: ch5-permission-aftermath-echoes
   file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
   text: Watch treatment and aftermath…
-  concern: >-
-    Aftermath restated in Permission Question, credit vignette, Where Circulation Lands, and Reading Circulation;
-    preserve one strong form, compress others carefully.
+  concern: Aftermath restated in Permission Question, credit vignette, Where Circulation Lands, and Reading
+    Circulation; preserve one strong form, compress others carefully.
 - id: ch5-atrophy-paragraphs
   file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
   text: What Atrophies Without Circulation section
-  concern: >-
-    Three consecutive paragraphs on judgment/warning/bench may compress without losing bench atrophy.
+  concern: Three consecutive paragraphs on judgment/warning/bench may compress without losing bench atrophy.
 - id: ch5-theater-pair
   file: parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md
   text: Who Gets Credit theater vignette
@@ -417,13 +417,12 @@ manualReview:
 - id: ch10-emergency-pair
   file: parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md
   text: Closed vs reopened emergency approval path vignettes
-  concern: >-
-    Teaching pair; one side may gain later legitimacy cost while still justified under pressure.
+  concern: Teaching pair; one side may gain later legitimacy cost while still justified under pressure.
 - id: ch12-five-elements-list
   file: parts/part-5-closing/chapter-12-what-happens-next.md
   text: Work through the list in order. Harm… Effectiveness… Legitimacy… Correction… Circulation…
-  concern: >-
-    Useful integrated method; compress surrounding summary if earlier chapters already established lenses.
+  concern: Useful integrated method; compress surrounding summary if earlier chapters already established
+    lenses.
 - id: ch12-opening-four-beats
   file: parts/part-5-closing/chapter-12-what-happens-next.md
   text: Four ordinary beats…

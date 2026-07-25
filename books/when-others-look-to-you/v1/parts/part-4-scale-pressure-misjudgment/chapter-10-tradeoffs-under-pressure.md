@@ -5,7 +5,9 @@
 ::: {custom-style="Vignette Block"}
 A city issues an overnight emergency order after a severe storm. Transit
 routes are redirected, procurement rules are suspended, and decisions are
-centralized in a small command group.
+centralized in a small command group. In the first forty-eight hours, that
+centralization is hard to argue with: flooded underpasses, diverted ambulances,
+and a procurement queue that would have stalled sandbags.
 
 In the first week, response speed improves and visible disruption drops.
 Teams closest to routes report blind spots in neighborhood access, but route
@@ -13,7 +15,11 @@ corrections are delayed because the temporary command protocol blocks local
 overrides.
 
 Months later, weather conditions have stabilized, but the same approval path
-remains. Officials describe it as "proven under pressure."
+remains. Officials describe it as "proven under pressure." Neighborhood groups
+that accepted the emergency grip now ask who can reopen a corridor without a
+central signature—and find the answer still runs through the command group.
+The storm justified the contraction. The aftermath turned it into a legitimacy
+problem.
 :::
 
 ### **Emergency Order, Reopened**
@@ -21,6 +27,7 @@ remains. Officials describe it as "proven under pressure."
 ::: {custom-style="Vignette Block"}
 A city facing the same storm starts with the same emergency order: centralized
 reroutes, suspended procurement constraints, and a temporary command group.
+The first days look as necessary as in the closed city.
 
 In the first week, response speed also improves. Teams near the routes flag
 missed dialysis-stop access, and the command group logs those concerns for the
@@ -35,8 +42,9 @@ the emergency protocol as useful, with a posted sunset and review date.
 
 Both cities face the same storm and open with the same emergency move:
 centralized reroutes, procurement lifted, and a small command group running the
-plan. They split afterward—on whether the emergency stays bounded or quietly
-becomes how things work.
+plan. The opening move can be justified in both. They split afterward—on whether
+the emergency stays bounded or quietly becomes how things work, and on whether
+people still treat the remaining grip as legitimate once the waters recede.
 
 Pressure never removes tradeoffs; it squeezes them into less time. The blunt
 tension stays the same: what buys responsiveness now can cost later.
@@ -78,18 +86,11 @@ Start with two checks. Reach is whether warning and facts still travel to the
 places that can act. Adjustment is whether direction can still move when new
 information shows up.
 
-Those checks yield four reads that show up often enough to name. In a
-**regenerative** read, reach and adjustment both hold under load. In an
-**adaptive** read, adjustment holds locally while broader coordination strains.
-In an **entrenched** read, reach still holds but changing course gets harder. In
-a **stalled** read, neither reliable reach nor reliable course change holds.
-
 Under pressure, the **vibrant group** and **decaying group** pay different costs
-when course change must happen fast. The reopened city reads closer to
-**regenerative** or **adaptive**: reach holds and course change stays possible.
-The closed city reads toward **entrenched**: reach still appears steady, but
-adjustment hardens. Crisis does more than interrupt the schedule; it widens the
-contrast so reach and adjustment are easier to read before the pressure fades.
+when course change must happen fast. The reopened city keeps reach and course
+change usable. The closed city still looks coordinated while adjustment hardens.
+Crisis does more than interrupt the schedule; it widens the contrast so reach and
+adjustment are easier to read before the pressure fades.
 
 ### **Crisis Across the Lenses**
 

@@ -173,10 +173,8 @@ optional whenever someone shouts "emergency" loud enough.
 
 When **decay** deepens, **Disagreement is Suppressed**, **Learning Collapses**,
 and **Exceptions are Forever** show up together—not as slogans, but as what the
-group can no longer do when pressure rises.
-Challenge starts to sound like disloyalty. What people on the ground know stops
-steering decisions in time. Temporary fixes outlast the emergency that
-justified them.
+group can no longer do when pressure rises. Temporary fixes outlast the
+emergency that justified them.
 
 The question is whether **correction** can reopen once these patterns are
 in motion. When that channel stays closed, **erosion** stops being a

@@ -58,8 +58,6 @@ Permission can be open on paper and closed in practice. A formal deputizing stru
 
 People can raise problems. The formal leader can still change course. Yet every decision that matters may still wait on that same leader. No one else may hold the steer while the problem is still taking shape.
 
-You can have a group where people speak up and leaders listen.
-But even then, every decision can still wait on the same person.
 That is the difference between **correction** and **circulation**.
 **Correction** keeps the center honest: warnings and dissent can still
 change what the person with formal power decides. **Circulation** lets
@@ -69,17 +67,17 @@ having stepped in.
 
 The failure mode is not "they didn't hear you." It is "only one name is permitted to steer."
 
-Over time, that narrow gate frustrates individuals. It also hollows out what the group could otherwise practice at the edges: judgment under pressure, early warning, and a bench that has held the center before.
+Over time, that narrow gate hollows out what the group could otherwise practice at the edges: judgment under pressure, early warning, and a bench that has held the center before.
 
 ### **Who Gets Credit**
 
 ::: {custom-style="Vignette Block"}
-The director is out during tech week. A veteran stage manager runs the room: calls cues, keeps the cast on time, settles a props dispute that could have stopped rehearsal. In the newsletter, the board thanks "the team." Her name is not in it. Within a few weeks, she is off the short list invited into scheduling fights. Nobody accuses her of overreaching. Everyone learns what stepping into the gap cost.
+The director is out during tech week. A veteran stage manager runs the room: calls cues, keeps the cast on time, settles a props dispute that could have stopped rehearsal. Bad news still reaches the director by phone—she listens, adjusts the call, and the plan changes. In the newsletter, the board thanks "the team." Her name is not in it. Within a few weeks, she is still welcome to raise risks, but she is off the short list invited into scheduling fights. Nobody accuses her of overreaching. Everyone learns a mixed lesson: **correction** can stay open while **circulation** narrows to people already close to the center.
 
-Elsewhere, the same kind of gap: someone runs the room when the director is away, makes the call on a safety issue, keeps the show moving. When the director returns, the rehearsal report names her choice in plain language. The director's first note is about pacing, not erasing who held the floor. The next time someone is sick before opening, more people believe they can hold the floor for a night without paying for it later.
+Elsewhere, the same kind of gap: someone runs the room when the director is away, makes the call on a safety issue, keeps the show moving. When the director returns, the rehearsal report names her choice in plain language. The director's first note is about pacing, not erasing who held the floor. The next time someone is sick before opening, more people believe they can hold the floor for a night without paying for it later—including people who are not already in the inner ring.
 :::
 
-Same competence can read as threat or as gift, depending on whether **circulation** is open or captured. The difference shows up first in credit, absence, and who still gets invited back into the decision ring.
+Same competence can read as threat or as gift, depending on whether **circulation** is open or captured. The difference shows up first in credit, absence, and who still gets invited back into the decision ring. A room can still hear warnings and still teach that only certain names may hold the floor.
 
 ### **Three Shapes: Correction and Circulation**
 
@@ -107,32 +105,21 @@ the role-holder, or making defense too costly.
 
 Capture doesn't look like failure from inside the group. The work still moves. Decisions still get made. The center still holds.
 
-What disappears is easy to miss, because you never saw it fully formed:
-the judgment people on the edges were developing, the early warnings
-that had a route before they lost it, the practiced capacity to hold the
-center for a stretch when the work demanded it. You only notice it when
-pressure arrives and it is not there.
+What disappears is easy to miss: judgment at the edges goes unpracticed, early warnings lose their route, and no one builds the habit of holding the center for a stretch. Skill is not the issue; opportunity is. Watching someone else lead does not build that habit.
 
-When only certain people are permitted to lead, everyone else's habit of acting on judgment under pressure goes unpracticed—skill is not the issue; opportunity is. Watching someone else lead doesn't build that habit.
-
-**Circulation** is partly how groups grow people who can spot trouble from inside the work. When only one path for leading exists, the people closest to shifting conditions never get room to act on what they see. The warning exists but has no route.
+**Circulation** is partly how groups grow people who can spot trouble from inside the work. When only one path for leading exists, the warning may still exist—but it has no route that lets the nearest person act.
 
 A group that has never circulated leadership has no practiced bench. When pressure arrives and the center needs support, or when the center fails, there is no one who has held the role before and knows what it requires. The group discovers this at exactly the moment when the cost of discovering it is highest.
 
 ### **Where Circulation Lands**
 
-What people see after a step-in adds up faster than what policy says on paper: who got credit, whose name never appeared, how the afterward landed in the room. Together that shapes **legitimacy** beneath effectiveness inside **circulation**. The full framework for **legitimacy** comes later.
+Aftermath still teaches faster than policy: credit, absence, and the story told afterward shape **legitimacy** beneath effectiveness inside **circulation**. The full framework for **legitimacy** comes later.
 
-When **circulation** holds alongside **renewal**, temporary leadership reads as legitimate work: the lead passes to whoever is closest to the shifting facts; coverage does not erase who stepped in. What spreads is **correction**, adaptation, and shared authority. Turnover inherits a culture where challenge in the chair stays normal. **Renewal** at the center and **circulation** through the bench reinforce each other.
+When **circulation** holds alongside **renewal**, temporary leadership reads as legitimate work: the lead passes to whoever is closest to the shifting facts; coverage does not erase who stepped in. **Renewal** at the center and **circulation** through the bench reinforce each other—though a group can still keep **correction** open while offering temporary turns only to insiders.
 
-**Decay** tightens rather than removes **circulation**. Influence routes through channels the center already trusts; temporary authority rewards deference to the center instead of local judgment. The group can look busy developing leaders while rehearsing the same blind spots and insulation.
+**Decay** tightens rather than removes **circulation**. Influence routes through channels the center already trusts; temporary authority rewards deference instead of local judgment. The group can look busy developing leaders while rehearsing the same blind spots.
 
-Under acute pressure, that pattern often reads as discipline.
-Coordination outside the official chain gets treated as bypass or
-leakage, not as backup when the chain is overloaded. Then
-**circulation** captures: the legitimate story narrows to the chart,
-temporary leadership never earns room to form, and exceptions harden
-into habit.
+Under acute pressure, that pattern often reads as discipline. Coordination outside the official chain gets treated as bypass, not as backup. Then **circulation** captures: the legitimate story narrows to the chart, temporary leadership never earns room to form, and exceptions harden into habit.
 
 **Erosion** does not need a villain. It only needs the next people in line to learn—before anyone's name is on the door—whether stepping into the gap when something breaks is safe.
 

@@ -40,15 +40,10 @@ inconvenient signal narrow.
 
 **Effectiveness** is about whether the work actually produces results. The
 stronger read is whether those outcomes will hold—or whether they were bought by
-quietly burning through conditions the group still needs.
-
-When **renewal** holds, groups pay smaller costs early so direction can still
-adjust. When **erosion** deepens, groups protect short-term smoothness and pay
-later in larger forms: preventable **harm**, rework, trust loss, and expensive
+quietly burning through conditions the group still needs. **Renewal** tends to
+spend early to preserve capacity. **Erosion** tends to borrow against the
+future—later paid as preventable **harm**, rework, trust loss, and expensive
 repair.[^c7-deferred-costs]
-
-In short, **renewal** tends to spend early to preserve capacity. **Erosion** tends
-to borrow against the future.
 
 ### **When Success Narrows Correction**
 
