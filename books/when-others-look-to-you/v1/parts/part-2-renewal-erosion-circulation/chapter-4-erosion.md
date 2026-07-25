@@ -19,9 +19,12 @@ That is the opening signal. In groups where **decay** deepens, challenge is stil
 imaginable, but it starts to feel costly before anyone speaks. The room keeps
 its image of stability while reality goes unvoiced.
 
-**Erosion** shows when one or both capacities shrink: influence stops changing
-direction under pressure, coordinated action stops holding reach, or both.[^c4-groupthink]
-**Decay** is what tends to show when those limits keep repeating.
+**Erosion** shows when **adaptability** shrinks: influence stops changing
+direction when reality pushes back.[^c4-groupthink] **Scalability** then tells
+whether the group remains coordinated while that rigidity sets in or whether
+coordination is fraying too.
+
+**Decay** is what tends to show when low **adaptability** keeps repeating.
 
 People stop raising inconvenient information. Errors get reframed as
 exceptions. **Harm** gets buried in vague wording and pushed away from

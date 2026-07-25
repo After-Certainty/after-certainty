@@ -2,17 +2,20 @@
 
 ### **When Reality Pushes Back**
 
-A team leaves a hard review meeting with clear next steps. Two days later,
-someone closest to the issue raises a new risk. The lead pauses, reopens the
-decision, and adjusts the plan. The work slows for a day, then moves faster
-because fewer people are guessing.
+::: {custom-style="Vignette Block"}
+A hospital sets a new triage protocol in the main site on Monday. By Friday,
+three satellite clinics are using the same thresholds and hitting the same
+response-time target. Reach looks clean on the weekly sheet.
 
-Another team starts in the same place. A new risk surfaces. The lead waves it
-off to protect momentum. People stop raising edge-case details. Work still
-moves, but blind spots stack up.
+Midweek, nurses flag a dosage risk in a standing order attached to the new
+protocol. Two clinics update practice within days. The third keeps the old
+order posted at the station and waits for the monthly review. The sheet at the
+center still reads coordinated. At the third clinic, the protocol that traveled
+so fast has not moved when the facts did.
+:::
 
-Both teams are under influence. In both teams, people take cues from the same
-few voices. What separates them is what happens when reality pushes back.
+People take cues from the same few voices. What separates the networks is what
+happens when reality pushes back against a plan that has already spread.
 
 That is the pivot. Once **Attention Finds a Focus**, influence keeps
 producing one of two directions. The group can still correct course while
@@ -41,14 +44,9 @@ sustain **renewal**. What matters is structure under pressure, not purity.
 
 Most of the story comes down to two capacities.
 
-Start with one concrete case. A hospital sets a new triage protocol in the
-main site on Monday. By Friday, three satellite clinics are using it.
-
-In one network, all three clinics use the same thresholds and hit the same
-response-time target—**scalability** looks strong. Midweek, nurses flag a
-dosage-order risk. Two clinics update practice within days; the third keeps
-the old order until the monthly review. Reach held. Local adaptability did
-not move together.
+In the hospital scene, all three clinics took up the protocol—**scalability**
+looked strong. The dosage risk showed where **adaptability** did not move
+together. Reach held. Local course change did not.
 
 In another network, each clinic already interprets the protocol differently,
 so priority decisions drift by location. The dosage warning is passed up, but
@@ -72,6 +70,9 @@ struggling to coordinate at scale, just as it may stay highly coordinated while
 losing the ability to change course. That is why one organization can look
 renewing on paper while a site or function is already eroding.
 
+At the third clinic, the old dosage order can still be on the wall when the
+monthly review finally opens. The protocol traveled. The revision did not.
+
 ### **The Vibrant Group and the Decaying Group**
 
 In one school district, new campuses open and still run the same attendance
@@ -94,7 +95,7 @@ holds but change gets hard), and **stalled** (coordination and course
 change both weaken). You do not need to keep the four labels in working
 memory. The useful read is simpler: are we still able to change course as
 reach grows? These are not personality types. They describe how the work is
-set up when pressure hits—and the setup can differ by domain, site, or season.
+set up when pressure hits. The setup can differ by domain, site, or season.
 
 The decisive split is whether **adaptability** stays high or falls low.
 
