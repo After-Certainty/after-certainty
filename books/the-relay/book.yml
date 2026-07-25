@@ -1,6 +1,6 @@
 version: 1
 publishing:
-  enabled: false
+  enabled: true
 book:
   id: the-relay
   title: The Relay

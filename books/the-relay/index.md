@@ -4,8 +4,6 @@
 
 When a gate in an ancient network of worlds goes dark and no one will say why, a courier sets out to reach the brother stranded on the far side — and finds a civilization that has forgotten how to tell itself the truth.
 
-The design memory for the novel — the seven-guide handbook, synopsis, and chapter outline — lives in [`docs/`](docs/). Start at [`docs/00-design-handbook-overview.md`](docs/00-design-handbook-overview.md).
-
 ## Front Matter
 
 - [Title Page](front-matter/title-page.md)
@@ -54,7 +52,3 @@ The design memory for the novel — the seven-guide handbook, synopsis, and chap
 - [Chapter 26 — The Same Ground](manuscript/act-5-the-relay/chapter-26-the-same-ground.md)
 - [Chapter 27 — Who Has the Word From the Tarn](manuscript/act-5-the-relay/chapter-27-who-has-the-word-from-the-tarn.md)
 - [Chapter 28 — It Goes On Without Her](manuscript/act-5-the-relay/chapter-28-it-goes-on-without-her.md)
-
-## Structure
-
-Five acts (the five movements: Beginning · Complication · Discovery · Integration · Resolution), 28 chapters. See [`docs/chapter-outline.md`](docs/chapter-outline.md) for the scene architecture and [`docs/00-design-handbook-overview.md`](docs/00-design-handbook-overview.md) for the design handbook.

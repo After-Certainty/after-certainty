@@ -81,6 +81,31 @@ def test_duplicate_id_fails(tmp_path: Path) -> None:
         )
 
 
+def test_docs_links_are_not_emitted_as_chapters(tmp_path: Path) -> None:
+    sys.path.insert(0, str(REPO / "tools"))
+    from manuscript_structure import build_structure_for_book
+
+    book_dir = tmp_path / "sample-book"
+    (book_dir / "manuscript").mkdir(parents=True)
+    (book_dir / "docs").mkdir()
+    (book_dir / "manuscript" / "chapter-01.md").write_text("# One\n\nHello.\n", encoding="utf-8")
+    (book_dir / "docs" / "outline.md").write_text("# Outline\n\nPlanning only.\n", encoding="utf-8")
+    (book_dir / "index.md").write_text(
+        "# Sample\n\n## Chapters\n\n"
+        "- [One](manuscript/chapter-01.md)\n"
+        "- [Outline](docs/outline.md)\n",
+        encoding="utf-8",
+    )
+
+    _parts, chapters = build_structure_for_book(
+        book_dir,
+        edition_slug="sample-book",
+        work_id="work-sample-book",
+        edition_id="book-sample-book",
+    )
+    assert [c["sourcePath"] for c in chapters] == ["manuscript/chapter-01.md"]
+
+
 def test_content_types_fiction_poetry_nonfiction(semantic_manifest: dict) -> None:
     data = semantic_manifest
     by = {b["slug"]: b for b in data["books"]}

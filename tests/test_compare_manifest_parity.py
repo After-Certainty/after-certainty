@@ -84,6 +84,30 @@ def test_compare_requires_representative_slugs() -> None:
     assert any("observer-patterns" in e for e in errors)
 
 
+def test_compare_ignores_docs_source_path_chapters_in_floor() -> None:
+    """Stale release chapters under docs/ must not block reader-facing TOC cleanup."""
+    remote = _minimal_manifest(books=4)
+    remote["chapters"] = [
+        {"id": "ch-1", "sourcePath": "manuscript/chapter-01.md"},
+        {
+            "id": "ch-docs",
+            "sourcePath": "docs/00-design-handbook-overview.md",
+            "title": "Design handbook",
+        },
+        {"id": "ch-outline", "sourcePath": "docs/chapter-outline.md"},
+    ]
+    local = _minimal_manifest(books=4)
+    local["chapters"] = [
+        {"id": "ch-1", "sourcePath": "manuscript/chapter-01.md"},
+    ]
+    report, errors = compare(local, remote)
+    assert not errors, errors
+    assert report["compatible"] is True
+    assert report["countDeltas"]["chapters"]["remote"] == 1
+    assert report["countDeltas"]["chapters"]["local"] == 1
+    assert report["countDeltas"]["chapters"]["delta"] == 0
+
+
 def test_cli_writes_reports(tmp_path: Path, monkeypatch) -> None:  # type: ignore[no-untyped-def]
     import compare_manifest_parity as cmp
 

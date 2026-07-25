@@ -73,6 +73,26 @@ def _fetch_json(url: str, timeout: float = 120.0) -> dict[str, Any]:
     return data
 
 
+def _is_author_facing_chapter(row: Any) -> bool:
+    """Design-handbook paths under docs/ are not reader chapters.
+
+    Older release manifests may still list them if index.md once linked docs.
+    Exclude them from chapter count floors so cleaning the TOC is not a
+    false Stage B regression.
+    """
+    if not isinstance(row, dict):
+        return False
+    source = str(row.get("sourcePath") or "").replace("\\", "/").lstrip("./")
+    return source == "docs" or source.startswith("docs/")
+
+
+def _collection_count(manifest: dict[str, Any], key: str) -> int:
+    rows = list(manifest.get(key) or [])
+    if key != "chapters":
+        return len(rows)
+    return sum(1 for row in rows if not _is_author_facing_chapter(row))
+
+
 def _identity(manifest: dict[str, Any]) -> dict[str, Any]:
     return {
         "manifestVersion": manifest.get("manifestVersion"),
@@ -82,7 +102,7 @@ def _identity(manifest: dict[str, Any]) -> dict[str, Any]:
         "repository": manifest.get("repository"),
         "ref": manifest.get("ref"),
         "releaseTag": manifest.get("releaseTag"),
-        "counts": {key: len(manifest.get(key) or []) for key in COLLECTIONS},
+        "counts": {key: _collection_count(manifest, key) for key in COLLECTIONS},
     }
 
 
@@ -157,6 +177,8 @@ def compare(local: dict[str, Any], remote: dict[str, Any]) -> tuple[dict[str, An
             "sourceCommit and generatedAt are expected to differ while production "
             "still serves the remote release artifact (Stage B).",
             "Count floors use the live remote release; local must not shrink below remote.",
+            "Chapter floors exclude author-facing docs/ sourcePath entries "
+            "(design handbook / outline), which are not reader chapters.",
         ],
         "local": local_id,
         "remote": remote_id,
