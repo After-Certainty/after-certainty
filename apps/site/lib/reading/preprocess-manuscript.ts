@@ -2,6 +2,29 @@
  * Light Pandoc → GFM-friendly preprocess for on-site reading.
  * Does not attempt full Pandoc fidelity (READ-003).
  */
+
+/** Public URL prefix for assets installed by `install_local_manifest_for_site`. */
+export const MANUSCRIPT_ASSET_PUBLIC_PREFIX = "/manuscript-assets";
+
+/**
+ * Map a book-relative media path to the site-served manuscript-assets URL.
+ *
+ * Export-time diagram PNGs (`export-assets/diagrams/*.png`) are generated from
+ * committed SVGs under `docs/diagrams/` and are usually absent from the checkout.
+ * The reader therefore serves the SVG source for those references.
+ */
+export function manuscriptAssetPublicUrl(bookDir: string, relativeSrc: string): string {
+  const dir = bookDir.replace(/^\/+|\/+$/g, "");
+  let rel = relativeSrc.trim().replace(/^\.\//, "").replace(/^\/+/, "");
+
+  const diagramPng = /^export-assets\/diagrams\/(.+)\.png$/i.exec(rel);
+  if (diagramPng) {
+    rel = `docs/diagrams/${diagramPng[1]}.svg`;
+  }
+
+  return `${MANUSCRIPT_ASSET_PUBLIC_PREFIX}/${dir}/${rel}`;
+}
+
 export function preprocessManuscriptMarkdown(markdown: string, options?: { stripLeadingH1?: boolean }): string {
   let text = markdown.replace(/\r\n/g, "\n");
 
@@ -29,17 +52,14 @@ export function preprocessManuscriptMarkdown(markdown: string, options?: { strip
 /**
  * Rewrite relative manuscript links/images for public reading.
  * - Unresolved `.md` links become plain text (chapter routes are rewritten earlier).
- * - Relative images become raw.githubusercontent.com URLs when bookDir is known.
+ * - Relative images become site `/manuscript-assets/{bookDir}/…` URLs.
  */
 export function rewriteManuscriptAssetUrls(
   markdown: string,
   input: { bookDir: string; githubRepoUrl?: string },
 ): string {
-  const repoUrl = (input.githubRepoUrl ?? "https://github.com/ksteffe/after-certainty").replace(
-    /\/$/,
-    "",
-  );
-  const rawBase = `${repoUrl.replace("github.com", "raw.githubusercontent.com")}/main/${input.bookDir.replace(/^\/+|\/+$/g, "")}`;
+  void input.githubRepoUrl; // retained for call-site compatibility; unused after site-local assets
+  const bookDir = input.bookDir.replace(/^\/+|\/+$/g, "");
 
   let text = markdown;
 
@@ -48,8 +68,7 @@ export function rewriteManuscriptAssetUrls(
     const trimmed = src.trim();
     if (/^(https?:|data:|\/\/)/i.test(trimmed)) return full;
     if (trimmed.startsWith("/")) return full;
-    const cleaned = trimmed.replace(/^\.\//, "");
-    return `![${alt}](${rawBase}/${cleaned})`;
+    return `![${alt}](${manuscriptAssetPublicUrl(bookDir, trimmed)})`;
   });
 
   // Remaining markdown links to other .md files → keep link text only.

@@ -68,10 +68,16 @@ def test_install_writes_gitignored_local_artifacts(tmp_path: Path) -> None:
 def test_install_copies_manuscripts_under_book_dir(tmp_path: Path) -> None:
     source = tmp_path / "semantic-manifest.json"
     site_data = tmp_path / "site-data"
+    site_public = tmp_path / "site-public"
     book_dir = tmp_path / "books" / "demo-book"
     chapter = book_dir / "front-matter" / "introduction.md"
     chapter.parent.mkdir(parents=True)
     chapter.write_text("# Hello\n\nBody.\n", encoding="utf-8")
+    diagram = book_dir / "docs" / "diagrams" / "pattern-groups.svg"
+    diagram.parent.mkdir(parents=True)
+    diagram.write_text("<svg xmlns='http://www.w3.org/2000/svg'></svg>\n", encoding="utf-8")
+    cover = book_dir / "BookCover.png"
+    cover.write_bytes(b"\x89PNG\r\n\x1a\n")
     source.write_text(
         json.dumps(
             {
@@ -92,6 +98,8 @@ def test_install_copies_manuscripts_under_book_dir(tmp_path: Path) -> None:
             str(source),
             "--site-data",
             str(site_data),
+            "--site-public",
+            str(site_public),
             "--skip-covers",
         ]
     )
@@ -101,6 +109,10 @@ def test_install_copies_manuscripts_under_book_dir(tmp_path: Path) -> None:
     )
     assert installed.is_file()
     assert "Hello" in installed.read_text(encoding="utf-8")
+
+    assets_root = site_public / "manuscript-assets" / "books" / "demo-book"
+    assert (assets_root / "docs" / "diagrams" / "pattern-groups.svg").is_file()
+    assert (assets_root / "BookCover.png").is_file()
 
 
 def test_install_rejects_missing_source(tmp_path: Path) -> None:

@@ -12,6 +12,10 @@ Also installs chapter manuscript Markdown into
 apps/site/data/manuscripts/ (mirroring bookDir) so Native Reader SSR can
 read files on Vercel without relying on monorepo file tracing alone.
 
+Also installs manuscript images/diagrams into
+apps/site/public/manuscript-assets/ (mirroring bookDir) so Native Reader
+<img> tags resolve on Vercel without raw.githubusercontent.com.
+
 Public release artifacts remain published; Stage D disables runtime remote fetch
 via env on the deployment.
 """
@@ -24,6 +28,15 @@ import shutil
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
+
+# Media referenced from chapter markdown (covers, figures, diagrams).
+_MANUSCRIPT_MEDIA_SUFFIXES = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".avif"}
+_MANUSCRIPT_ASSET_SKIP_DIR_NAMES = {
+    "semantic-reports",
+    "node_modules",
+    ".git",
+    "__pycache__",
+}
 
 
 def _check_deploy_sha(manifest: dict, expected: str | None) -> int:
@@ -196,6 +209,69 @@ def _install_manuscripts(
     return 0
 
 
+def _install_manuscript_assets(
+    *,
+    repo: Path,
+    manifest: dict,
+    site_public: Path,
+) -> int:
+    """Copy manuscript media into apps/site/public/manuscript-assets/{bookDir}/…"""
+    dest_root = site_public / "manuscript-assets"
+    if dest_root.exists():
+        shutil.rmtree(dest_root)
+    dest_root.mkdir(parents=True, exist_ok=True)
+
+    books = manifest.get("books")
+    if not isinstance(books, list):
+        print("error: manifest missing books array", file=sys.stderr)
+        return 1
+
+    copied = 0
+    for book in books:
+        if not isinstance(book, dict):
+            continue
+        book_dir = book.get("bookDir")
+        slug = book.get("slug")
+        if not isinstance(book_dir, str) or not book_dir.strip():
+            if isinstance(slug, str) and slug.strip():
+                book_dir = f"books/{slug.strip()}"
+            else:
+                continue
+        src = _safe_book_dir(book_dir, repo=repo)
+        if src is None:
+            print(
+                f"warning: skip manuscript assets for unsafe/missing bookDir={book_dir!r}",
+                file=sys.stderr,
+            )
+            continue
+        rel_book = Path(book_dir.strip().replace("\\", "/").lstrip("/"))
+        for path in sorted(src.rglob("*")):
+            if not path.is_file():
+                continue
+            if path.suffix.lower() not in _MANUSCRIPT_MEDIA_SUFFIXES:
+                continue
+            rel = path.relative_to(src)
+            if any(
+                part.startswith(".") or part in _MANUSCRIPT_ASSET_SKIP_DIR_NAMES
+                for part in rel.parts
+            ):
+                continue
+            target = dest_root / rel_book / rel
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(path, target)
+            copied += 1
+
+    marker = dest_root / "README.md"
+    marker.write_text(
+        "# Installed manuscript assets\n\n"
+        "Produced by `make install-local-manifest-for-site` for Native Reader "
+        "images/diagrams. Do not edit or commit; regenerate from the corpus checkout.\n",
+        encoding="utf-8",
+    )
+    print(f"Installed manuscript assets → {dest_root} ({copied} media files)")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -239,6 +315,17 @@ def main(argv: list[str] | None = None) -> int:
         help="Skip copying chapter markdown into apps/site/data/manuscripts.",
     )
     parser.add_argument(
+        "--site-public",
+        type=Path,
+        default=None,
+        help="Site public directory (default: <repo>/apps/site/public)",
+    )
+    parser.add_argument(
+        "--skip-manuscript-assets",
+        action="store_true",
+        help="Skip copying manuscript images into apps/site/public/manuscript-assets.",
+    )
+    parser.add_argument(
         "--require-deploy-sha",
         default=None,
         help="Require manifest sourceCommit to equal this SHA (Vercel: VERCEL_GIT_COMMIT_SHA).",
@@ -253,10 +340,9 @@ def main(argv: list[str] | None = None) -> int:
     repo = args.repo.resolve()
     source = (args.source or (repo / "build" / "semantic-manifest.json")).resolve()
     site_data = (args.site_data or (repo / "apps" / "site" / "data")).resolve()
+    site_public = (args.site_public or (repo / "apps" / "site" / "public")).resolve()
     cover_source = (args.cover_source or (repo / "build" / "site-assets" / "book-covers")).resolve()
-    site_covers = (
-        args.site_covers or (repo / "apps" / "site" / "public" / "generated" / "book-covers")
-    ).resolve()
+    site_covers = (args.site_covers or (site_public / "generated" / "book-covers")).resolve()
 
     if not source.is_file():
         print(
@@ -314,6 +400,11 @@ def main(argv: list[str] | None = None) -> int:
 
     if not args.skip_manuscripts:
         code = _install_manuscripts(repo=repo, manifest=manifest, site_data=site_data)
+        if code != 0:
+            return code
+
+    if not args.skip_manuscript_assets:
+        code = _install_manuscript_assets(repo=repo, manifest=manifest, site_public=site_public)
         if code != 0:
             return code
 
