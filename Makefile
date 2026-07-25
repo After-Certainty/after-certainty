@@ -34,7 +34,7 @@ help:
 	@echo "  make export-ingramspark-print DIR=path/to/book-folder"
 	@echo "  make build-ingramspark-pdfx-proof"
 	@echo "  make validate-ingramspark-print-cover DIR=path/to/book-folder"
-	@echo "  make preflight-ingramspark DIR=path/to/book-folder"
+	@echo "  make preflight-ingramspark DIR=path/to/book-folder [EBOOK_ONLY=1|PRINT_ONLY=1]"
 	@echo "  make package-ingramspark DIR=path/to/book-folder"
 	@echo "  make install-epubcheck [EPUBCHECK_VERSION=5.3.0]"
 	@echo "  make export-all-docx"
@@ -428,9 +428,13 @@ validate-ingramspark-print-cover:
 	@test -n "$(DIR)" || { echo "Usage: make validate-ingramspark-print-cover DIR=path/to/book-folder [INTERIOR_PAGE_COUNT=N]"; exit 1; }
 	@python3 scripts/validate_ingramspark_print_cover.py --repo . --book-dir "$(DIR)" $(if $(INTERIOR_PAGE_COUNT),--interior-page-count $(INTERIOR_PAGE_COUNT),)
 
+# Unified profile-driven preflight (JSON + text). Does not build a ZIP.
 preflight-ingramspark: check-pandoc install-epubcheck
-	@test -n "$(DIR)" || { echo "Usage: make preflight-ingramspark DIR=path/to/book-folder"; exit 1; }
-	@python3 scripts/package_ingramspark.py --repo . --book-dir "$(DIR)" --ebook-only --preflight-only
+	@test -n "$(DIR)" || { echo "Usage: make preflight-ingramspark DIR=path/to/book-folder [EBOOK_ONLY=1|PRINT_ONLY=1] [SKIP_BUILD=1]"; exit 1; }
+	@python3 scripts/preflight_ingramspark.py --repo . --book-dir "$(DIR)" \
+		$(if $(EBOOK_ONLY),--ebook-only,) \
+		$(if $(PRINT_ONLY),--print-only,) \
+		$(if $(SKIP_BUILD),--skip-build,)
 
 package-ingramspark: check-pandoc install-epubcheck
 	@test -n "$(DIR)" || { echo "Usage: make package-ingramspark DIR=path/to/book-folder"; exit 1; }
