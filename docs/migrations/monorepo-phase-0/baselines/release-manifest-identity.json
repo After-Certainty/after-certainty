@@ -1,6 +1,7 @@
 {
-  "capturedAt": "2026-07-23T23:20:32.958836+00:00",
+  "capturedAt": "2026-07-25T05:02:00+00:00",
   "source": "https://github.com/ksteffe/after-certainty/releases/download/latest/semantic-manifest.json",
+  "notes": "Intentional chapter floor refresh: The Relay index no longer links author-facing docs/ handbook files, so two non-reader chapters were removed from the public chapter collection.",
   "manifestVersion": 2,
   "schemaVersion": "2.3",
   "generatedAt": "2026-07-23T12:54:00.182172+00:00",
@@ -24,7 +25,7 @@
     "changeEvents": 6,
     "searchAliases": 39,
     "parts": 124,
-    "chapters": 625
+    "chapters": 623
   },
   "sampleSlugs": {
     "books": [
