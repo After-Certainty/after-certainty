@@ -210,6 +210,14 @@ outlast people who keep paths for challenge open—even when keeping those paths
 open costs more. That is not necessarily corruption. It is selection: whatever
 a group's judgment system rewards, more of it accumulates over time.
 
+Observers are part of that system. Employees, voters, boards, journalists,
+communities, and funders help decide which forms of leadership become normal—
+not only by what they intend, but by what they reward, what they excuse, what
+they call decisive, what they treat as weakness, which costs stay invisible, and
+which outcomes dominate the story. That is selection pressure, not a charge of
+blame against people who lack control of the whole structure. Still, those
+choices accumulate. Legitimacy travels with them.
+
 Institutions are not neutral containers. They develop habits—what gets
 promoted, what gets funded, what counts as a win—and those habits shape who
 stays in position to lead. Misjudgment does not only misread individuals; it
