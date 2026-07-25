@@ -1015,8 +1015,10 @@ The eventual vignette pass is complete when:
 | Remaining risks | Voice drift; over-patterning; cute returns; Ch10 teaching clarity; Ch6 range loss if over-compressed |
 | Planning blockers | **None** |
 
-**Conclusion:** Baseline confirmation is done. Chapter 10 is the next task and
-will serve as the calibration draft for the rest of the pass.
+**Conclusion:** VIGNETTE-006 has passed calibration after polish. Chapters 2 and
+6 may proceed, using Chapter 10 as the style model—especially the lesson that an
+unchanged institutional artifact, under changed conditions, can reveal the
+argument before the chapter names it.
 
 ---
 
