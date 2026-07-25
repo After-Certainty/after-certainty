@@ -10,9 +10,9 @@ Friday night before a holiday retail push, a cold-chain supervisor catches a gap
 Elsewhere in the same industry, another site finds the same kind of gap the same night. The site lead could hold the door. A big box count is committed; the forecast is already in the stores’ systems. She approves ship with extra gel packs and a rider for drivers to check on arrival. Nobody records the choice as failure. If product warms in transit, the rework lands on route teams and receiving docks. The center keeps the story of on-time commitment. If something goes wrong, it will show up as field noise, not as a decision in the conference room where the release was judged.
 :::
 
-Start by pairing the scenes. Two groups face the same pressure, and influence is
-already live in both. Before the outcomes split, what splits first is where risk
-and cost settle while a stop is still possible.
+Two groups face the same pressure, and influence is already live in both.
+Before the outcomes split, what splits first is where risk and cost settle
+while a stop is still possible.
 
 Then read harm's route early. Watch who absorbs, who pays, and what the room is
 allowed to say out loud.
@@ -101,17 +101,13 @@ shield people closest to avoidable fallout where they can. They adjust scope whe
 warning signals appear. This posture does not eliminate loss; it ties authority to
 accountability.[^c6-just-culture]
 
-### **The Rivet Batch**
-
-::: {custom-style="Vignette Block"}
-On a fabrication line, an inspector flags a rivet batch from a new supplier that tests inside tolerance but shows odd variance under vibration. Production could still clear the day’s aircraft panel order if the flag stays quiet until Monday’s metallurgy review.
-
-The plant manager stops the panel run anyway. She pulls one shift’s worth of overtime back to swap stock, pushes the ship date, and sends a two-line note to the customer contact she already has on speed dial. That afternoon she sits in the union steward’s office while the overnight crew argues about who eats the overtime hit. She does not offer a speech about values. She stays until the schedule they land on is one she will defend in the same room if the customer pushes back.
-:::
-
-Taken together, that read is harm-absorbing in practice. The person who could authorize risk
-stays visible when the cost lands. The group can still see who tied decision
-rights to the bill.
+The cold-chain stop already shows the link. So can a quieter case: an inspector
+flags a rivet batch that tests inside tolerance but shows odd variance under
+vibration. The plant manager could wait for Monday’s metallurgy review and still
+clear the day’s panel order. She stops the run, eats the overtime fight in the
+steward’s office, and stays until the schedule is one she will defend if the
+customer pushes back. The person who could authorize risk stays visible when the
+cost lands.
 
 ### **Harm-Tolerant**
 
@@ -131,16 +127,12 @@ continuity over repair. Talk shifts from repair to rationalization: "This is jus
 how things are at this scale." Over time, small preventable harms settle in as
 normal.
 
-### **Peak Numbers Hold**
-
-::: {custom-style="Vignette Block"}
-A regional parcel hub runs the same January surge every year. For the third January in a row, ergonomic injuries spike in the sort aisle: shoulders, wrists, backs. The safety committee adds warm-up drills and buys better gloves. The productivity target for picks per hour does not move. When a lead asks whether the sort rate is realistic for the headcount on the floor, the answer is the same line leadership used last year: “We have to hit peak or we lose the lane.”
-
-Nobody calls it harm in the meeting. They call it season. The same hurt shows up on new names. The story that matters is still the number on the board.
-:::
-
-Harm-tolerant groups often know something is wrong. What holds is the decision to
-treat recurrence as normal overhead rather than as a signal to change the plan.
+A parcel hub can name the pattern without changing it. Ergonomic injuries spike
+in the same January surge three years running. Warm-up drills and better gloves
+arrive. The picks-per-hour target does not move. Leadership calls it season. The
+story that matters is still the number on the board. Harm-tolerant groups often
+know something is wrong. What holds is treating recurrence as normal overhead
+rather than as a signal to change the plan.
 
 ### **Harm-Instrumental**
 
@@ -173,17 +165,12 @@ harder. Leaders see what is easy to track and miss what people are carrying.
 Groups are not always cruel; they can be blind without intending cruelty. Blind
 groups still cause harm.
 
-### **The Quarterly Looks Healthy**
-
-::: {custom-style="Vignette Block"}
-A software company’s leadership review lives in a dashboard: pipeline, bookings, churn, implementation milestones. For three quarters the chart looks strong. Underneath, the onboarding team runs triple-booked installs. Customers trade fixes in threads the executives never open. Success managers pad dates privately so deadlines stop breaking audibly.
-
-No one decides to ignore anyone. Leadership asks for confidence each Monday; the evidence they receive is the same green rollup the dashboard already showed. The harm lives in handoffs, retries, and quiet apology calls—channels the scorecard was never built to show.
-:::
-
-Harm-blind leadership differs from tolerance in where attention goes. Tolerance
-often names the strain and chooses continuity anyway. Blindness misses the strain
-in the channels where it actually gathers.
+A leadership review can live in a green dashboard—pipeline, bookings, churn—
+while onboarding runs triple-booked installs and customers trade fixes in threads
+executives never open. No one decides to ignore anyone. The scorecard was never
+built to show the channels where the harm gathers. Tolerance often names the
+strain and chooses continuity anyway. Blindness misses the strain where it
+actually lands.
 
 ### **What the Room Stores**
 
@@ -230,24 +217,13 @@ Read **correction** failures early by watching where harm lands. People raise re
 risk; nothing changes; the cost stays in place or moves to someone who cannot
 refuse.
 
-### **When Escalation Stops**
-
-::: {custom-style="Vignette Block"}
-A hospital unit adopts a new scheduling rule designed by central leadership. Nurses report that the rule creates unsafe handoff gaps on night shifts. The issue is raised twice and acknowledged, but no change follows.
-
-After that, charge nurses stop escalating. They arrange informal swaps among themselves to close the gaps. Reports still show formal compliance with the central rule, but local practice quietly diverges.
-:::
-
-This is a **correction** failure, not simply local resistance.
-
-Trace what happened next. People raised the issue; nothing changed. Fixes then
-moved off the books.
-
-Lay formal coordination beside daily practice. On paper, the group looks coordinated. In
-daily work, practice follows a different rule.
-
-That gap signals one-way authority that is hard to revise. Distorted feedback may
-already govern daily operations there. **Learning Collapse** may already be in play.
+A hospital unit can show the sequence in brief. Nurses report that a new central
+scheduling rule creates unsafe handoff gaps on night shifts. The issue is raised
+twice and acknowledged; no change follows. Charge nurses stop escalating and
+close the gaps with informal swaps. Reports still show compliance. Local practice
+quietly diverges. That is a **correction** failure, not simply local resistance.
+Fixes moved off the books. On paper the group looks coordinated; in daily work it
+follows a different rule. **Learning Collapse** may already be in play.
 
 Open refusal can still support **correction** where others can see it. Covert
 refusal points toward silent exit.[^c6-exit]
