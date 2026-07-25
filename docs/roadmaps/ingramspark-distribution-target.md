@@ -88,7 +88,7 @@ Initial books for planning and eventual enablement:
 - Making IngramSpark packages a public reading format or site download
 - Inventing placeholder ISBNs in production `book.yml`
 - Generating full-wrap print covers from front-cover-only web assets in the first implementation
-- Hardcover support in the first pilot (schema reserved; not required for pilot)
+- Hardcover support in the first pilot; the future multi-edition model is documented but no hardcover fields are included in the initial schema
 - Changing public DOCX/EPUB/PDF naming or site download URLs
 - Replacing the rolling `latest` digital release workflow
 - Editorial typesetting redesign unrelated to IngramSpark constraints
@@ -328,7 +328,7 @@ Confidence states used below:
 | PDF/X-1a:2001 or PDF/X-3:2002 | `confirmed-current` (stated) | Tooling + account confirmation |
 | “Do not include ICC profiles” vs PDF/X output intent | `official-but-conflicting` + `account-verification-needed` | Strip per-object/raster ICC where practical; treat PDF/X **output intent** as a distinct question; **INGRAM-004 starts with an isolated PDF/X proof upload** before any blocking rule is locked in the profile |
 | B&W interior grayscale (not CMYK) | `confirmed-current` | Do not force CMYK interiors for B&W titles |
-| Color interior CMYK | `confirmed-current` | Only when `colorMode: color` |
+| Color interior CMYK | `confirmed-current` | Only when `color_mode: color` |
 | Fonts embedded | `confirmed-current` | Blocking |
 | No crop/registration marks | `confirmed-current` | Blocking |
 | 0.5" margins | `official-recommendation` | Warning if below; human proof |
@@ -1325,7 +1325,7 @@ Required cases from the prompt checklist are in scope: missing ISBN, duplicate I
 | Risk | Mitigation | Detection |
 |------|------------|-----------|
 | Official requirements change | Dated profiles; re-audit on User Guide/FCG updates | Periodic source fetch; failed account upload |
-| Conflicting official docs | Record conflicts; safer default; account verify | Profile `conflictGroup` |
+| Conflicting official docs | Record conflicts; safer default; account verify | Profile `conflict_group` |
 | PDF/X tool support weak in CI | Start with advisory veraPDF; pin Ghostscript; pilot upload | Preflight + account |
 | Font embedding/licensing | `pdffonts` gate; license review for embeds | CI + human |
 | Inconsistent color conversion | Pinned working profile; golden fixtures | Checksums + visual |
