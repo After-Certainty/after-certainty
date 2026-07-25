@@ -67,6 +67,7 @@ export default async function ExploreBookChapterPage({ params }: PageProps) {
   const manuscript = await loadChapterManuscript({
     book: resolved.book,
     chapter: resolved.chapter,
+    graph,
   });
   const navigation = buildChapterReadingNavigation({
     graph,

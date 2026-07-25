@@ -1,9 +1,11 @@
 import fs from "node:fs/promises";
 
+import { publicChaptersForEdition } from "@/lib/graph/chapters";
 import { renderManuscriptHtml } from "@/lib/reading/render-manuscript-html";
+import { manuscriptChapterLinkTargets } from "@/lib/reading/rewrite-manuscript-chapter-links";
 import { resolveManuscriptPath } from "@/lib/reading/resolve-manuscript-path";
 import { siteConfig } from "@/lib/site-config";
-import type { Book, ManifestChapter } from "@/types/semanticGraph";
+import type { Book, ManifestChapter, SemanticGraph } from "@/types/semanticGraph";
 
 export type ChapterManuscriptResult =
   | {
@@ -24,6 +26,8 @@ export type ChapterManuscriptResult =
 export async function loadChapterManuscript(input: {
   book: Book;
   chapter: ManifestChapter;
+  /** When provided, in-manuscript TOC / `.md` links rewrite to chapter routes. */
+  graph?: SemanticGraph;
   repoRoot?: string;
 }): Promise<ChapterManuscriptResult> {
   const sourcePath = input.chapter.sourcePath?.trim();
@@ -54,10 +58,16 @@ export async function loadChapterManuscript(input: {
       /^\/+|\/+$/g,
       "",
     );
+    const editionId = input.book.editionId ?? input.book.id;
+    const chapterLinkTargets = input.graph
+      ? manuscriptChapterLinkTargets(publicChaptersForEdition(input.graph, editionId))
+      : undefined;
     const html = await renderManuscriptHtml({
       markdown,
       bookDir,
       githubRepoUrl: siteConfig.githubUrl,
+      sourcePath,
+      chapterLinkTargets,
     });
     return {
       status: "ok",

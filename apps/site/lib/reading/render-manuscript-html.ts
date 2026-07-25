@@ -10,6 +10,10 @@ import {
   preprocessManuscriptMarkdown,
   rewriteManuscriptAssetUrls,
 } from "@/lib/reading/preprocess-manuscript";
+import {
+  rewriteManuscriptChapterLinks,
+  type ManuscriptChapterLinkTarget,
+} from "@/lib/reading/rewrite-manuscript-chapter-links";
 
 /**
  * Allow heading ids from rehype-slug and common image attrs after sanitize.
@@ -43,6 +47,10 @@ export type RenderManuscriptHtmlInput = {
   githubRepoUrl?: string;
   /** When true (default), strip the leading H1 that duplicates the reader chrome title. */
   stripLeadingH1?: boolean;
+  /** Current chapter sourcePath — required to resolve relative `.md` links. */
+  sourcePath?: string;
+  /** Public chapters in this edition for Contents / cross-chapter link rewrite. */
+  chapterLinkTargets?: readonly ManuscriptChapterLinkTarget[];
 };
 
 /**
@@ -52,6 +60,14 @@ export async function renderManuscriptHtml(input: RenderManuscriptHtmlInput): Pr
   let markdown = preprocessManuscriptMarkdown(input.markdown, {
     stripLeadingH1: input.stripLeadingH1,
   });
+
+  if (input.sourcePath && input.chapterLinkTargets?.length) {
+    markdown = rewriteManuscriptChapterLinks(markdown, {
+      sourcePath: input.sourcePath,
+      chapters: input.chapterLinkTargets,
+    });
+  }
+
   markdown = rewriteManuscriptAssetUrls(markdown, {
     bookDir: input.bookDir,
     githubRepoUrl: input.githubRepoUrl,
