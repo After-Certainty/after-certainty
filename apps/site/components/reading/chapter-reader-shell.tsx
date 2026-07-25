@@ -96,6 +96,15 @@ export function ChapterReaderShell({
         ) : null}
 
         {summary ? <p className="text-sm leading-relaxed text-muted md:text-base">{summary}</p> : null}
+
+        {navigation ? (
+          <ChapterAdjacentNav
+            prev={navigation.prev}
+            next={navigation.next}
+            ariaLabel="Previous and next chapter"
+            className="flex flex-row items-start justify-between gap-4 border-t border-border/30 pt-6 sm:gap-10"
+          />
+        ) : null}
       </header>
 
       {navigation ? <ChapterToc navigation={navigation} /> : null}
@@ -125,7 +134,11 @@ export function ChapterReaderShell({
 
       <footer className="mt-12 space-y-8 border-t border-border/40 pt-8">
         {navigation ? (
-          <ChapterAdjacentNav prev={navigation.prev} next={navigation.next} />
+          <ChapterAdjacentNav
+            prev={navigation.prev}
+            next={navigation.next}
+            ariaLabel="Previous and next chapter at end of page"
+          />
         ) : null}
         <div className="flex flex-wrap gap-3">
           <ButtonLink href={bookHref} variant="ghost">

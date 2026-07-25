@@ -1,0 +1,16 @@
+id: event-book-the-relay-published
+type: book_published
+title: The Relay is published
+summary: >
+  A social science fiction novel in which a courier faces collapsing circulation and
+  discovers that participation—not premature certainty—is how a civilization learns again.
+date: '2026-07-25'
+entityType: book
+entityId: book-the-relay
+featured: false
+significance: major
+visibility: public
+source: authored
+whyItMatters: >
+  Opens a fiction doorway into finite perspective, broken feedback, and distributed learning
+  for readers who enter the project through story.

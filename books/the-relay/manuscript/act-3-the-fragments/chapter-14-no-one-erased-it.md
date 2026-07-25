@@ -762,17 +762,17 @@ Toma watched the floor numbers with exaggerated resentment. "Where now?"
 
 "Every fool's favorite direction."
 
-"Not straight north. I need Cai's world first."
+"Not straight north. I need Ivera first."
 
 "Gate mechanic?"
 
-"Gate keeper. Or something like one. Edrin mentioned her at Vesper. Jun's pages point through her old return line. If the local fixes kept working after the offices died, someone like Cai would know."
+"Gate keeper. Or something like one. Edrin mentioned them at Vesper. Jun's pages point through the old return line. If the local fixes kept working after the offices died, someone there would know."
 
-"And if she refuses?"
+"And if they refuse?"
 
 "Everyone refuses."
 
-"She may know what people changed locally and never logged."
+"They may know what people changed locally and never logged."
 
 Toma looked at her. "You heard Veya say no institutions will come back because you found a folio."
 

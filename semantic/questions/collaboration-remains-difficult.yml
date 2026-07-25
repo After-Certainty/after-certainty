@@ -43,6 +43,18 @@ pathStops:
   entityId: concept-diffuse-ownership
   description: Consider how responsibility thins when everyone is involved but no one can move the whole.
   whyThisFollows: Collaboration breaks when ownership becomes too diffuse to act.
+- position: 5
+  entityType: book
+  entityId: book-the-relay
+  description: >
+    A fiction doorway—gates darken and no courier holds the complete map, so coordination must
+    be reinvented as shared observation rather than a center that sees for everyone.
+  whyThisFollows: >
+    Story can stage coordination failure and redistributed learning when nonfiction argument
+    alone may feel abstract.
+  optional: true
+  fictionDoorway: true
+  estimatedMinutes: 45
 closingReflection: 'Collaboration may feel less like a moral failing and more like a design problem—feedback,
   ownership, and legibility matter. The work continues: what would make correction easier in your context?'
 carryForwardQuestion: Where does good intent stop reaching the people who need to act on it?

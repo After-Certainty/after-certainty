@@ -421,14 +421,21 @@ entries:
   - courier relay
   - civilization blind spot
   - participation not certainty
+  - who has the word from the tarn
+  - open manifest
+  - add before passing
   kind: related
   aliasClass: vocabulary_bridge
   targetIds:
   - book-the-relay
   - concept-finite-perspective
   - concept-coordination
+  - concept-feedback
   - pattern-learning-collapses
-  note: Title and genre bridge for The Relay — finite perspective and learning failure dramatized in fiction
+  - pattern-feedback-drives-change
+  note: >
+    Title and genre bridge for The Relay — finite perspective, broken feedback, and
+    redistributed learning dramatized in fiction
 - terms:
   - what we cannot see
   - limits of perspective

@@ -20,10 +20,9 @@ test.describe("reader smoke (READ-009)", () => {
     await expect(page.locator("#chapter-title")).toBeVisible();
     await expect(page.locator(".chapter-manuscript")).toBeVisible();
 
-    const next = page.getByRole("navigation", { name: "Previous and next chapter" }).getByRole(
-      "link",
-      { name: /Next chapter:/i },
-    );
+    const next = page
+      .getByRole("navigation", { name: "Previous and next chapter", exact: true })
+      .getByRole("link", { name: /Next chapter:/i });
     await expect(next).toBeVisible();
     await next.click();
     await expect(page).toHaveURL(new RegExp(`${nextPath.replace(/\//g, "\\/")}$`));

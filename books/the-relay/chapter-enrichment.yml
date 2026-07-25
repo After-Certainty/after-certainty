@@ -1,0 +1,718 @@
+version: 1
+chapters:
+  - sourcePath: front-matter/jacket-copy.md
+    kind: other
+    summary: >
+      For seven hundred years, gates have made travel between a thousand worlds ordinary.
+      Courier Lena watches the Vesper gate shut without warning, trapping her brother on the
+      far side, while more gates fail and frightened people reach for the nearest clear voice.
+      She keeps asking where answers come from before certainty fills the silence.
+    centralQuestion: >
+      What happens when a civilization-sized blind spot can only be seen one perspective at a time?
+    selectedConcepts:
+      - finite-perspective
+      - uncertainty
+      - coordination
+    selectedPatterns:
+      - learning-collapses
+      - gaps-invite-completion
+    searchAliases:
+      - the relay jacket
+      - social science fiction novel
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      toNext: >
+        Into the opening chapter, where a routine crossing goes silent.
+
+  - sourcePath: manuscript/act-1-the-absence/chapter-01-suspended-pending-review.md
+    summary: >
+      Lena clears freight by reading how crates are really sealed, not by trusting the
+      paperwork — until the Vesper gate goes dark under a notice that says only
+      "suspended pending review." Her brother Arin is stuck on the far side. With no real
+      explanation, she starts hunting for whoever wrote the notice.
+    centralQuestion: What does a civilization do when a critical crossing fails without explanation?
+    selectedConcepts:
+      - uncertainty
+      - institutional-memory
+      - feedback
+    selectedPatterns:
+      - learning-collapses
+      - gaps-invite-completion
+    searchAliases:
+      - suspended pending review
+      - vesper gate dark
+      - suspension bulletin
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From jacket promise into the first concrete failure.
+      toNext: Lena goes looking for a reason and finds that no one has one.
+
+  - sourcePath: manuscript/act-1-the-absence/chapter-02-no-one-has-one.md
+    summary: >
+      Lena asks why the gate is closed and finds clerks, platforms, and rumor feeds full of
+      stories forming faster than facts. No office can name a cause. She keeps digging anyway,
+      brushing past Jun, who studies how explanations travel.
+    centralQuestion: What is more frightening than a broken gate—a room that cannot say why?
+    selectedConcepts:
+      - uncertainty
+      - finite-perspective
+      - feedback
+    selectedPatterns:
+      - meaning-outruns-the-words
+      - gaps-invite-completion
+    searchAliases:
+      - no one has one
+      - stories faster than facts
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: From unexplained darkness into the search for cause.
+      toNext: Sibling bond and the slow way around a dark gate.
+
+  - sourcePath: manuscript/act-1-the-absence/chapter-03-the-slow-way.md
+    summary: >
+      With the gate shut, Lena books a slow freighter — weeks through ordinary space instead
+      of four seconds through a door. She holds peppermint candies and a "next time" tag meant
+      for Arin, and commits to reach him the long way around the dark.
+    centralQuestion: What does it cost to keep a relationship across a network that no longer connects?
+    selectedConcepts:
+      - trust
+      - finite-perspective
+      - coordination
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - learning-collapses
+    searchAliases:
+      - the slow way
+      - next time peppermint
+      - two speeds of travel
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: From no answers into the decision to go around.
+      toNext: More gates fail and the sabotage rumor takes shape.
+
+  - sourcePath: manuscript/act-1-the-absence/chapter-04-more-gates.md
+    summary: >
+      On the slow route she finds a second gate failing, then news of a third. Dockside talk
+      hardens into a sabotage story that comforts people faster than Lena can outrun it. She
+      meets a calm woman offering tea without a finished theory.
+    centralQuestion: When failure spreads, what story arrives first to make the chaos feel owned?
+    selectedConcepts:
+      - uncertainty
+      - coordination
+      - trust
+    selectedPatterns:
+      - meaning-outruns-the-words
+      - gaps-invite-completion
+    searchAliases:
+      - more gates
+      - sabotage rumor begins
+      - sera early brush
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: From one dark gate into systemic failure.
+      toNext: Scale lands—the network is too large for any single mind.
+
+  - sourcePath: manuscript/act-1-the-absence/chapter-05-the-size-of-it.md
+    summary: >
+      On a slow corridor, Lena meets waystation keeper Pell — a man who keeps one remote
+      station running and knows nothing beyond it — and finally feels how huge the gate
+      network is. No one is minding the whole of it. The sabotage story would be easier;
+      what she sees is a system too big for any single office to explain.
+    centralQuestion: How do you orient when the thing you belonged to is larger than anyone can hold?
+    selectedConcepts:
+      - finite-perspective
+      - coordination
+      - institutional-memory
+    selectedPatterns:
+      - learning-collapses
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - the size of it
+      - space between worlds
+      - keeper pell
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: From spreading failure into scale.
+      toNext: Act II—the wrong story spreads because it works.
+
+  - sourcePath: manuscript/act-2-the-cascade/chapter-06-stranger-and-larger.md
+    summary: >
+      World by world, Lena relearns how strange and vast the network is when you cannot simply
+      step through a door. Markets, guides, and silent gate-towns make the scale real. The
+      sabotage story travels ahead of her everywhere she goes.
+    centralQuestion: What returns to sight when ordinary motion through a vast system becomes impossible?
+    selectedConcepts:
+      - finite-perspective
+      - coordination
+      - uncertainty
+    selectedPatterns:
+      - meaning-outruns-the-words
+      - learning-collapses
+    searchAliases:
+      - stranger and larger
+      - wonder beats
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: From dread of scale into lived vastness.
+      toNext: A town is saved by the wrong theory—and Lena sounds like a crank.
+
+  - sourcePath: manuscript/act-2-the-cascade/chapter-07-arguing-with-a-miracle.md
+    summary: >
+      At Anneth, acting on the sabotage theory closes a causeway and saves a town from a wrong
+      tide — so Lena's doubts sound like arguing with a miracle. Denied the crossing, she
+      barters passage down the salt channels, shaken that a wrong story can still keep people
+      alive.
+    centralQuestion: How do you argue with a story that just saved lives?
+    selectedConcepts:
+      - uncertainty
+      - trust
+      - feedback
+    selectedPatterns:
+      - gaps-invite-completion
+      - learning-collapses
+      - feedback-drives-change
+    searchAliases:
+      - arguing with a miracle
+      - sabotage theory works
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From wonder into the cost of being locally wrong about a useful story.
+      toNext: The same story curdles into crowd violence at the docks.
+
+  - sourcePath: manuscript/act-2-the-cascade/chapter-08-the-docks.md
+    summary: >
+      At the Drevin drift markets, the sabotage story turns a quiet crowd against traders, and
+      Varik's name travels the dock before his body does. Lena gets two children clear while
+      pilot Nadi refuses unpaid questions about whose fault the dark is. People still have to
+      eat, and moral urgency does not load a barge.
+    centralQuestion: What happens when a useful story becomes a reason to hurt the wrong people?
+    selectedConcepts:
+      - coordination
+      - trust
+      - responsibility
+    selectedPatterns:
+      - gaps-invite-completion
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - the docks
+      - nadi refuses
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: From denied passage into moral anger at the docks.
+      toNext: Varik arrives—certainty that works, and closes questions.
+
+  - sourcePath: manuscript/act-2-the-cascade/chapter-09-the-best-man-in-the-room.md
+    summary: >
+      At Khoury Transfer, a hungry crowd is about to break into sealed relief food. Varik
+      talks father Bram down from forcing the freight gate open, and gives station-master
+      Oyo a signed form she can finally use to release the food. He turns the crowd into a
+      working crew and feeds the children. Lena feels the pull even as she refuses to join
+      him yet.
+    centralQuestion: Why is premature certainty so hard to refuse when it works today?
+    selectedConcepts:
+      - trust
+      - uncertainty
+      - coordination
+    selectedPatterns:
+      - gaps-invite-completion
+      - learning-collapses
+      - meaning-outruns-the-words
+    searchAliases:
+      - the best man in the room
+      - varik certainty
+      - khoury transfer
+      - bram freight gate
+      - oyo station-master
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: From crowd danger into attractive certainty.
+      toNext: Sera’s kindness—needed, and not enough.
+
+  - sourcePath: manuscript/act-2-the-cascade/chapter-10-kind-and-not-enough.md
+    summary: >
+      On the pilgrim road, Sera holds displaced people with practical care and no finished
+      theory. Lena stands between Varik's certainty and Sera's kindness. Scraps of local
+      oddities — late tides, wrong lights — begin to travel from world to world as short
+      warning notes.
+    centralQuestion: What if the kind answer is real and still insufficient for a failing network?
+    selectedConcepts:
+      - trust
+      - feedback
+      - finite-perspective
+    selectedPatterns:
+      - learning-collapses
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - kind and not enough
+      - pilgrim road
+      - the lists
+    situations:
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: From Varik’s pull into Sera’s opposite incomplete answer.
+      toNext: Inside Jun—hedged work stripped onto banners.
+
+  - sourcePath: manuscript/act-2-the-cascade/chapter-11-the-caveats.md
+    summary: >
+      Analyst Jun has spent decades measuring how rumor outruns evidence. He watches his hedged
+      findings appear on Varik's banners with every caveat stripped away. The caution that would
+      not speak in public helps build the certainty he feared.
+    centralQuestion: What happens when careful doubt is stripped into a public certainty?
+    selectedConcepts:
+      - feedback
+      - uncertainty
+      - institutional-memory
+    selectedPatterns:
+      - meaning-outruns-the-words
+      - learning-collapses
+      - gaps-invite-completion
+    searchAliases:
+      - the caveats
+      - jun hedged work
+      - qualifier shedding
+    situations:
+      - meaning-outruns-shared-understanding
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From two wrong answers into the scholar who fed one of them.
+      toNext: Lena’s low point—almost saying yes to one answer, today.
+
+  - sourcePath: manuscript/act-2-the-cascade/chapter-12-one-answer-today.md
+    summary: >
+      A route Lena cleared dies mid-crossing; people she put on a boat called the Wren do
+      not come back. Exhausted at Borren, she almost accepts Varik's demand for one answer
+      today — then says no, and keeps walking toward the warning lists she still cannot
+      name.
+    centralQuestion: When fear is loudest, what does “one answer, today” cost tomorrow?
+    selectedConcepts:
+      - uncertainty
+      - trust
+      - feedback
+    selectedPatterns:
+      - gaps-invite-completion
+      - learning-collapses
+      - feedback-drives-change
+    searchAliases:
+      - one answer today
+      - lena almost believes
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From Jun’s compromised caution into Lena’s near surrender.
+      toNext: Act III—fragments that reframe erasure as stopped practice.
+
+  - sourcePath: manuscript/act-3-the-fragments/chapter-13-the-vellum-moon.md
+    summary: >
+      On the Vellum Moon, archivist Toma shows Lena records that look scrubbed — institutions
+      missing from the books. The conspiracy reading feels satisfying and almost fits. She
+      leaves for Lower Vellum seeking someone who can say what the absences mean.
+    centralQuestion: When the record shows absence, how do you know whether something was erased?
+    selectedConcepts:
+      - institutional-memory
+      - finite-perspective
+      - feedback
+    selectedPatterns:
+      - gaps-invite-completion
+      - learning-collapses
+    searchAliases:
+      - the vellum moon
+      - scrubbed register
+      - toma archives
+    situations:
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: From cascade certainty into archival suspicion.
+      toNext: Veya’s hinge—no one erased it; they stopped doing it.
+
+  - sourcePath: manuscript/act-3-the-fragments/chapter-14-no-one-erased-it.md
+    summary: >
+      Veya tells Lena the harder truth: no one erased the old practice of observing and
+      answering; people simply stopped doing it, so gradually no hole was left to prosecute.
+      Closures are a symptom; attention had already left. Lena turns next toward Ivera, a
+      busy crossing world the old pages keep pointing through.
+    centralQuestion: How does a civilization lose a way of seeing without leaving a deletion to prosecute?
+    selectedConcepts:
+      - institutional-memory
+      - feedback
+      - coordination
+    selectedPatterns:
+      - learning-collapses
+      - responsibility-persists-beyond-control
+      - gaps-invite-completion
+    searchAliases:
+      - no one erased it
+      - they simply stopped doing it
+      - purge misread
+    situations:
+      - temporary-fixes-become-permanent
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From conspiracy comfort into grief without a villain.
+      toNext: Inside Arin—what staying sees at the Tarn.
+
+  - sourcePath: manuscript/act-3-the-fragments/chapter-15-what-staying-sees.md
+    summary: >
+      At the Tarn, Arin sees the lake is wrong while the official water gauge still reads
+      fine. He stays, listens to chains and mist, and writes down what locals notice. Those
+      notes are just habit for now — not yet an organized network.
+    centralQuestion: What kind of knowledge can only accumulate by remaining in one place?
+    selectedConcepts:
+      - finite-perspective
+      - feedback
+      - institutional-memory
+    selectedPatterns:
+      - feedback-drives-change
+      - learning-collapses
+    searchAliases:
+      - what staying sees
+      - tarn lake wrong
+      - watcher lists
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From lost practice into the stay-side habit that still watches.
+      toNext: Cai’s world—fixes that never get logged.
+
+  - sourcePath: manuscript/act-3-the-fragments/chapter-16-the-fixes-nobody-logged.md
+    summary: >
+      At Ivera — which slow pilots call Cai's world — Lena finally meets Cai, a gate keeper
+      who keeps the crossing open with local repairs he never writes down for anyone else.
+      The fixes work here; the wider network still cannot learn from them. She begins to see
+      that her brother, watching from one lake, may already be doing a version of the same
+      work.
+    centralQuestion: What fails when every repair is local and none of the repairs can see each other?
+    selectedConcepts:
+      - institutional-memory
+      - feedback
+      - coordination
+    selectedPatterns:
+      - learning-collapses
+      - feedback-drives-change
+      - gaps-invite-completion
+    searchAliases:
+      - the fixes nobody logged
+      - cai notebook
+      - unlogged fixes
+      - ivera cai's world
+    situations:
+      - temporary-fixes-become-permanent
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From stay-side watching into keepers’ hidden corrections.
+      toNext: Merrow holds beautifully—and the gate still goes dark.
+
+  - sourcePath: manuscript/act-3-the-fragments/chapter-17-holding-is-not-enough.md
+    summary: >
+      At Merrow, Sera's people care for the stranded and refuse to blame outsiders — then
+      their gate goes dark anyway. Kindness is real and still not enough to keep travel
+      moving. Their failure reports leave asking other places to write back.
+    centralQuestion: What becomes visible when the best local holding still cannot keep a gate alive?
+    selectedConcepts:
+      - trust
+      - coordination
+      - feedback
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - learning-collapses
+      - feedback-drives-change
+    searchAliases:
+      - holding is not enough
+      - merrow gate dark
+      - sera discovery
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: From hidden fixes into the limit of care without structure.
+      toNext: Recognition—whose hand has been stitching the lists.
+
+  - sourcePath: manuscript/act-3-the-fragments/chapter-18-whose-hand.md
+    summary: >
+      Lena finally understands who has been stitching the warning notes together: while she
+      traveled, Arin stayed put and built a way for local observations to move. She turns
+      toward getting travelers and settled people into the same room — not yet with a finished
+      method.
+    centralQuestion: What becomes possible when moving sight and staying sight finally meet?
+    selectedConcepts:
+      - finite-perspective
+      - coordination
+      - feedback
+      - trust
+    selectedPatterns:
+      - feedback-drives-change
+      - learning-collapses
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - whose hand
+      - arin recognition
+      - other half
+    situations:
+      - feedback-stops-changing-decisions
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: From Merrow’s limit into recognition of the stay-side builder.
+      toNext: Act IV—slow convergence toward dark Vesper.
+
+  - sourcePath: manuscript/act-4-integration/chapter-19-the-slow-convergence.md
+    summary: >
+      They choose the dark Vesper gatehouse as the meeting place because it belongs to neither
+      side. Getting couriers, keepers, archivists, and lake people into one wounded room is
+      logistics and friction, not ceremony.
+    centralQuestion: Where can opposed halves meet without either arriving as host?
+    selectedConcepts:
+      - coordination
+      - trust
+      - finite-perspective
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - gaps-invite-completion
+    searchAliases:
+      - the slow convergence
+      - vesper is dark
+      - neither side as host
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: From recognition into the hard work of gathering.
+      toNext: Arin brings the far side around the dark.
+
+  - sourcePath: manuscript/act-4-integration/chapter-20-the-far-side-comes.md
+    summary: >
+      Arin leaves the lake, bringing water readings, peppermint candies, and neighbors from
+      the far side toward the meeting. The people who stayed arrive to help invent the fix —
+      not as rescued cargo.
+    centralQuestion: What does it mean for staying knowledge to travel without becoming tourism?
+    selectedConcepts:
+      - finite-perspective
+      - feedback
+      - trust
+    selectedPatterns:
+      - feedback-drives-change
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - the far side comes
+      - arin moving
+      - peppermint wrapper
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From gathering call into the stay leg’s approach.
+      toNext: Everyone in one room—positions collide.
+
+  - sourcePath: manuscript/act-4-integration/chapter-21-the-room.md
+    summary: >
+      In the dead gatehouse at Vesper, opposed positions collide — hold the line, keep moving,
+      restore the old, trust people, let it die, put one office in charge, honor those who
+      stay. Everyone is partly right; no one yet has a shared answer. Lena and Arin stand in
+      the same room at last.
+    centralQuestion: How do partial truths share a room without instantly becoming a fight for the center?
+    selectedConcepts:
+      - coordination
+      - uncertainty
+      - trust
+      - finite-perspective
+    selectedPatterns:
+      - gaps-invite-completion
+      - learning-collapses
+      - meaning-outruns-the-words
+    searchAliases:
+      - the room
+      - opposed positions
+      - gatehouse collision
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: From arrival into pure collision.
+      toNext: Visible abandonments—what each must release.
+
+  - sourcePath: manuscript/act-4-integration/chapter-22-what-they-refuse-to-give-up.md
+    summary: >
+      By morning, each person has to name what they will not give up — and then release it on
+      the page: preservation alone, motion alone, restoration, unstructured trust, dignified
+      ending, staying that never travels. Lena lets go of carrying the work alone.
+    centralQuestion: What must be abandoned before a shared method can be invented?
+    selectedConcepts:
+      - coordination
+      - trust
+      - responsibility
+      - institutional-memory
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - feedback-drives-change
+      - learning-collapses
+    searchAliases:
+      - what they refuse to give up
+      - visible abandonments
+      - carrying becomes shared
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: From collision into costly release.
+      toNext: Jun’s interior—giving up the central model.
+
+  - sourcePath: manuscript/act-4-integration/chapter-23-no-center.md
+    summary: >
+      Jun gives up his dream of one mind that sees the whole network. He can accept a method
+      with no headquarters — people ask each other to compare notes instead of waiting for a
+      central order. The empty middle of the room stops looking like failure.
+    centralQuestion: Can a civilization produce shared sight without installing a center that freezes learning?
+    selectedConcepts:
+      - coordination
+      - feedback
+      - uncertainty
+      - finite-perspective
+    selectedPatterns:
+      - learning-collapses
+      - feedback-drives-change
+      - gaps-invite-completion
+    searchAliases:
+      - no center
+      - refuse naming
+      - request comparison
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From abandonments into the intellectual surrender.
+      toNext: The first open manifest—move and stay fused on paper.
+
+  - sourcePath: manuscript/act-4-integration/chapter-24-the-first-one.md
+    summary: >
+      They remake an ordinary courier shipping form so each person can add observations and
+      open questions before passing it on. Traveling sight and staying sight share one page.
+      The first copy leaves into weather with no promise it will survive.
+    centralQuestion: What artifact lets observation travel without pretending any hand holds the whole?
+    selectedConcepts:
+      - feedback
+      - coordination
+      - trust
+      - institutional-memory
+    selectedPatterns:
+      - feedback-drives-change
+      - learning-collapses
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - the first one
+      - open manifest
+      - add before passing
+    situations:
+      - feedback-stops-changing-decisions
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: From no-center method into a thing you can hold.
+      toNext: Act V—whether the practice can circulate under pressure.
+
+  - sourcePath: manuscript/act-5-the-relay/chapter-25-coming-back-around.md
+    summary: >
+      The shipping-form pages come back filled in; people fixing different broken places
+      finally see one another's work. Gates begin staying open unsteadily — not magically
+      restored. Clean bureaucratic forms try to capture the practice and fail to own it.
+    centralQuestion: What restores circulation when repair cannot be centralized?
+    selectedConcepts:
+      - feedback
+      - coordination
+      - institutional-memory
+    selectedPatterns:
+      - feedback-drives-change
+      - learning-collapses
+      - gaps-invite-completion
+    searchAliases:
+      - coming back around
+      - holding badly
+      - manifests return
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From the first artifact into its messy return.
+      toNext: Sibling reunion on the same ground—not as rescue.
+
+  - sourcePath: manuscript/act-5-the-relay/chapter-26-the-same-ground.md
+    summary: >
+      Lena and Arin stand together in mud, working a water lock, each having carried half a
+      weight they mistook for the other's escape. Traveling and staying become shared tasks,
+      not identities. "Next time" becomes: answer if anything has changed.
+    centralQuestion: What does reunion look like when neither sibling was the rescued one?
+    selectedConcepts:
+      - trust
+      - finite-perspective
+      - coordination
+    selectedPatterns:
+      - responsibility-persists-beyond-control
+      - feedback-drives-change
+    searchAliases:
+      - the same ground
+      - next time answer if changed
+      - reunion not rescue
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: From circulating pages into human-scale Move/Stay.
+      toNext: Sera carries structure for trust; Varik fades by displacement.
+
+  - sourcePath: manuscript/act-5-the-relay/chapter-27-who-has-the-word-from-the-tarn.md
+    summary: >
+      Sera carries the new practice into towns as something people can trust each other with.
+      Varik still gives useful answers and remains liked — until a room turns back to the page
+      when someone asks who has the word from the Tarn. Certainty stays useful and stops being
+      final.
+    centralQuestion: How does a better way of knowing displace premature certainty without a public unmasking?
+    selectedConcepts:
+      - trust
+      - feedback
+      - uncertainty
+      - coordination
+    selectedPatterns:
+      - gaps-invite-completion
+      - feedback-drives-change
+      - meaning-outruns-the-words
+    searchAliases:
+      - who has the word from the tarn
+      - varik fades
+      - trust answerable
+    situations:
+      - meaning-outruns-shared-understanding
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: From sibling tasks into the practice spreading in public.
+      toNext: Widening mystery; the work continues without Lena at the center.
+
+  - sourcePath: manuscript/act-5-the-relay/chapter-28-it-goes-on-without-her.md
+    summary: >
+      A strange report from Theral West fits none of the newly learned pattern. The old
+      "suspended pending review" notice becomes something people can answer again; an
+      abandoned operations desk holds the open question instead of pretending to repair the
+      gate. The question continues through other hands while Lena stands still and watches it
+      go on without her.
+    centralQuestion: >
+      What does it mean for a civilization to stay able to learn after its first working method
+      proves incomplete?
+    selectedConcepts:
+      - uncertainty
+      - feedback
+      - coordination
+      - institutional-memory
+    selectedPatterns:
+      - feedback-drives-change
+      - learning-collapses
+      - gaps-invite-completion
+      - responsibility-persists-beyond-control
+    searchAliases:
+      - it goes on without her
+      - theral west
+      - post current bulletin until answered
+      - question continuing
+    situations:
+      - feedback-stops-changing-decisions
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: From displaced certainty into a method that must remain revisable.
+      toNext: >
+        The book ends with circulation, not closure—the civilization stays larger than anyone in it.

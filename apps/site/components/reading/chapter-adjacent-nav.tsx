@@ -5,19 +5,24 @@ import type { ChapterNavLink } from "@/lib/reading/chapter-navigation";
 export type ChapterAdjacentNavProps = {
   prev?: ChapterNavLink;
   next?: ChapterNavLink;
+  /** Distinguish duplicate prev/next navs when both top and bottom are present. */
+  ariaLabel?: string;
+  className?: string;
 };
 
 /**
  * Previous / next chapter controls in edition reading order (READ-004).
  */
-export function ChapterAdjacentNav({ prev, next }: ChapterAdjacentNavProps) {
+export function ChapterAdjacentNav({
+  prev,
+  next,
+  ariaLabel = "Previous and next chapter",
+  className = "flex flex-row items-start justify-between gap-4 sm:gap-10",
+}: ChapterAdjacentNavProps) {
   if (!prev && !next) return null;
 
   return (
-    <nav
-      aria-label="Previous and next chapter"
-      className="flex flex-row items-start justify-between gap-4 sm:gap-10"
-    >
+    <nav aria-label={ariaLabel} className={className}>
       <div className="min-w-0 flex-1 sm:max-w-[min(100%,28rem)]">
         {prev ? (
           <Link

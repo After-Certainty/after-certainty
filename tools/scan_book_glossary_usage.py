@@ -27,7 +27,14 @@ from book_specs import load_any_book_spec  # noqa: E402
 from semantic_enrichment import book_id_from_spec, entity_in_book  # noqa: E402
 
 GLOSSARY_DIR = Path("semantic/glossary")
-MANUSCRIPT_GLOBS = ("parts", "front-matter", "back-matter", "interludes", "appendix")
+MANUSCRIPT_GLOBS = (
+    "parts",
+    "manuscript",
+    "front-matter",
+    "back-matter",
+    "interludes",
+    "appendix",
+)
 
 
 @dataclass(frozen=True)
