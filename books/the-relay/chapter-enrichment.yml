@@ -119,9 +119,10 @@ chapters:
 
   - sourcePath: manuscript/act-1-the-absence/chapter-05-the-size-of-it.md
     summary: >
-      Crossing the long dark between worlds, Lena finally feels how huge the gate network
-      is — and that no one is minding the whole of it. The sabotage story would be easier;
-      what she sees instead is a system too big for any single office to explain.
+      On a slow corridor, Lena meets waystation keeper Pell — a man who knows his own spine
+      completely and nothing past it — and finally feels how huge the gate network is. No one
+      is minding the whole of it. The sabotage story would be easier; what she sees is a system
+      too big for any single office to explain.
     centralQuestion: How do you orient when the thing you belonged to is larger than anyone can hold?
     selectedConcepts:
       - finite-perspective
@@ -133,6 +134,7 @@ chapters:
     searchAliases:
       - the size of it
       - space between worlds
+      - keeper pell
     situations:
       - responsibility-outruns-control
     transition:
@@ -187,9 +189,10 @@ chapters:
 
   - sourcePath: manuscript/act-2-the-cascade/chapter-08-the-docks.md
     summary: >
-      At the Drevin drift markets, the sabotage story turns a quiet crowd against traders.
-      Lena gets two children clear while pilot Nadi refuses unpaid questions about whose fault
-      the dark is. People still have to eat, and moral urgency does not load a barge.
+      At the Drevin drift markets, the sabotage story turns a quiet crowd against traders, and
+      Varik's name travels the dock before his body does. Lena gets two children clear while
+      pilot Nadi refuses unpaid questions about whose fault the dark is. People still have to
+      eat, and moral urgency does not load a barge.
     centralQuestion: What happens when a useful story becomes a reason to hurt the wrong people?
     selectedConcepts:
       - coordination
@@ -209,9 +212,10 @@ chapters:
 
   - sourcePath: manuscript/act-2-the-cascade/chapter-09-the-best-man-in-the-room.md
     summary: >
-      At a stranded transfer, Varik feeds, names, and moves a hungry crowd with competence that
-      feels like rescue. A chorus-culture delegation finds his lone certainty faintly indecent.
-      Lena feels the pull even as she refuses to join him yet.
+      At Khoury Transfer, Varik talks hungry father Bram off a lock-bar and gives station-master
+      Oyo a liability box she can finally stamp. He turns a crowd into a crew and feeds children
+      with competence that feels like rescue. Lena feels the pull even as she refuses to join
+      him yet.
     centralQuestion: Why is premature certainty so hard to refuse when it works today?
     selectedConcepts:
       - trust
@@ -224,7 +228,9 @@ chapters:
     searchAliases:
       - the best man in the room
       - varik certainty
-      - chorus culture
+      - khoury transfer
+      - bram lock-bar
+      - oyo station-master
     situations:
       - meaning-outruns-shared-understanding
     transition:
@@ -329,7 +335,8 @@ chapters:
     summary: >
       Veya tells Lena the harder truth: no one erased the old practice of observing and
       answering; people simply stopped doing it, so gradually no hole was left to prosecute.
-      Closures are a symptom; attention had already left.
+      Closures are a symptom; attention had already left. Lena turns next toward Ivera, a
+      hinge-world the old pages keep pointing through.
     centralQuestion: How does a civilization lose a way of seeing without leaving a deletion to prosecute?
     selectedConcepts:
       - institutional-memory
@@ -375,10 +382,10 @@ chapters:
 
   - sourcePath: manuscript/act-3-the-fragments/chapter-16-the-fixes-nobody-logged.md
     summary: >
-      On Cai's world the gate still glows, held up by notebooks of fixes nobody logged.
-      Keepers correct locally and blindly; apprenticeships survive while shared learning does
-      not. Lena begins to see that her brother's stay-side watching may already be part of the
-      same work.
+      At Ivera — Cai's world, to the slow pilots — Lena finally meets Cai: a gate keeper whose
+      notebooks of unlogged fixes keep the arch glowing. Local repairs work; shared learning
+      does not. She begins to see that her brother's stay-side watching may already be part of
+      the same work.
     centralQuestion: What fails when every repair is local and none of the repairs can see each other?
     selectedConcepts:
       - institutional-memory
@@ -392,6 +399,7 @@ chapters:
       - the fixes nobody logged
       - cai notebook
       - unlogged fixes
+      - ivera cai's world
     situations:
       - temporary-fixes-become-permanent
       - feedback-stops-changing-decisions
