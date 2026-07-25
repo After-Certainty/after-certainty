@@ -676,7 +676,7 @@ Nadi looked at the crate. At the people around it. At the open page.
 
 She left.
 
-The door swung hard enough to let in rain-smell and a blade of gray morning.
+The door swung hard enough to let in rain-smell and a blade of grey morning.
 
 No one followed her.
 
