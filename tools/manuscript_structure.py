@@ -247,6 +247,10 @@ def build_structure_for_book(
                 continue
             if rel in seen_source_paths:
                 continue
+            # Design-handbook / planning docs are author-facing, not reading content
+            # (even if accidentally linked from index.md).
+            if rel == "docs" or rel.startswith("docs/"):
+                continue
             # Skip generated front-matter boilerplate that is not reading content
             stem = path.stem.lower()
             if stem in {

@@ -18,6 +18,9 @@ def resolve_markdown_units(book_dir: Path) -> list[Path]:
     rels = [m.group(1).strip() for m in MD_LINK_RE.finditer(text)]
     units: list[Path] = []
     for rel in rels:
+        # Author-facing design docs are not manuscript units.
+        if rel == "docs" or rel.startswith("docs/"):
+            continue
         candidate = (book_dir / rel).resolve()
         if candidate.exists() and candidate.is_file():
             units.append(candidate)
