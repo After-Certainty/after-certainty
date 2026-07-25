@@ -1,5 +1,5 @@
 [codespell]
 # Manuscript tree: skip generated Kindle single-file and binary assets.
-skip = export-kindle.md,*.png
+skip = export-kindle.md,*.png,semantic-reports/*,./semantic-reports/*
 # Proper names and valid English codespell otherwise flags.
 ignore-words-list = claus,covert

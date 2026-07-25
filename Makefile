@@ -1,4 +1,4 @@
-.PHONY: help sync-semantic check check-pandoc test lint lint-fix validate-book-specs build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-book-cover-assets validate-book-cover-assets generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
+.PHONY: help sync-semantic check check-pandoc test lint lint-fix validate-book-specs validate-editorial-preservation build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-book-cover-assets validate-book-cover-assets generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx clean-import-md spellcheck typography-check-how-meaning-moves
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -38,6 +38,7 @@ help:
 	@echo "  make lint-fix  (ruff check --fix + ruff format; writes files)"
 	@echo "  make check  (lint + pytest; run before commit/push when Python changed)"
 	@echo "  make validate-book-specs"
+	@echo "  make validate-editorial-preservation BOOK_DIR=books/when-others-look-to-you/v1"
 	@echo "  make generate-books-manifest [MANIFEST_OUT=build/books-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
 	@echo "  make validate-books-manifest [MANIFEST=build/books-manifest.json]"
 	@echo "  make verify-books-manifest [MANIFEST_OUT=build/books-manifest.json]"
@@ -140,6 +141,10 @@ validate-publication-manuscript:
 	else \
 		python3 tools/validate_publication_manuscript.py --book-dir "$(DIR)"; \
 	fi
+
+validate-editorial-preservation:
+	@test -n "$(BOOK_DIR)" || { echo "Usage: make validate-editorial-preservation BOOK_DIR=books/when-others-look-to-you/v1"; exit 1; }
+	@python3 tools/validate_editorial_preservation.py --repo . --book-dir "$(BOOK_DIR)"
 
 build-book:
 	@test -n "$(DIR)" || { echo "Usage: make build-book DIR=path/from/repo/root [OUT_DIR=build/...] [FORMATS=\"docx epub pdf\"]"; exit 1; }
