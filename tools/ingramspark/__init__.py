@@ -1,4 +1,4 @@
-"""IngramSpark production-target helpers (profile, ebook/print export, preflight)."""
+"""IngramSpark production-target helpers (profile, export, unified preflight)."""
 
 from __future__ import annotations
 

@@ -42,6 +42,11 @@ from ingramspark.paths import (  # noqa: E402
     ingramspark_build_dir,
     package_zip_path,
 )
+from ingramspark.preflight import (  # noqa: E402
+    PreflightError,
+    run_preflight,
+    write_unified_preflight_reports,
+)
 from ingramspark.profile import load_profile  # noqa: E402
 
 
@@ -311,6 +316,7 @@ def main() -> None:
     spec = load_spec_for_book_dir(book_dir)
 
     if args.preflight_only:
+        # Unified preflight (INGRAM-006). Packaging still defaults to ebook-only builds.
         if not args.skip_build:
             try:
                 export_ingramspark_epub(repo=repo, book_dir=book_dir, spec=spec, pandoc=args.pandoc)
@@ -322,8 +328,18 @@ def main() -> None:
                 )
             except (EbookExportError, EbookCoverError, ValueError) as exc:
                 raise SystemExit(str(exc)) from exc
-        report = run_ebook_preflight(repo=repo, spec=spec, skip_epubcheck=args.skip_epubcheck)
-        json_path, text_path = write_ebook_preflight_reports(report, ebook_output_dir(repo, spec))
+        try:
+            report = run_preflight(
+                repo=repo,
+                book_dir=book_dir,
+                spec=spec,
+                ebook_only=True,
+                print_only=False,
+                skip_epubcheck=args.skip_epubcheck,
+            )
+        except PreflightError as exc:
+            raise SystemExit(str(exc)) from exc
+        json_path, text_path = write_unified_preflight_reports(report, repo=repo, spec=spec)
         print(text_path.read_text(encoding="utf-8"))
         print(json_path.as_posix())
         raise SystemExit(0 if report.ok else 1)
