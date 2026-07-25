@@ -1006,11 +1006,11 @@ The eventual vignette pass is complete when:
 |---|---|
 | Plan ready? | **Yes** |
 | VIGNETTE-001 | **Complete** — see [`vignette-001-baseline-confirmation.md`](vignette-001-baseline-confirmation.md) |
-| VIGNETTE-006 | **Calibration passed** — Chapter 10 is the style model |
-| VIGNETTE-002 | **Drafted** — Chapter 2 hospital triage / dosage-order opener |
-| VIGNETTE-003 | **Drafted** — Chapter 6 hierarchy (3 full VGs; secondary examples compressed) |
+| VIGNETTE-006 | **Complete** — Chapter 10 fully calibrated; style model for later tasks |
+| VIGNETTE-002 | **Complete** — Chapter 2 hospital triage / standing-order dosage risk opener |
+| VIGNETTE-003 | **Complete** — Chapter 6 hierarchy (3 full VGs; secondary examples compressed) |
 | Calibration lesson | Let an ordinary institutional artifact remain unchanged while conditions around it change; the mismatch reveals the argument before the chapter names it |
-| Next task | Human review of Ch2/Ch6, then **VIGNETTE-005** (Chapter 9) |
+| Next task | **VIGNETTE-005** (Chapter 9) |
 | Conditional | VIGNETTE-004 (Chapter 7) |
 | Deferred | VIGNETTE-008 (Intro / Chapter 1) |
 | Remaining risks | Voice drift; over-patterning; cute returns; Ch10 teaching clarity; Ch6 range loss if over-compressed |

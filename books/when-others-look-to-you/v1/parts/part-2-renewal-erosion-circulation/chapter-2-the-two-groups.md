@@ -7,16 +7,15 @@ A hospital sets a new triage protocol in the main site on Monday. By Friday,
 three satellite clinics are using the same thresholds and hitting the same
 response-time target. Reach looks clean on the weekly sheet.
 
-Midweek, nurses flag a dosage-order risk tied to the new protocol. Two clinics
-update practice within days. The third keeps the old order posted at the
-station and waits for the monthly review. The sheet at the center still reads
-coordinated. At the third clinic, the protocol that traveled so fast has not
-moved when the facts did.
+Midweek, nurses flag a dosage risk in a standing order attached to the new
+protocol. Two clinics update practice within days. The third keeps the old
+order posted at the station and waits for the monthly review. The sheet at the
+center still reads coordinated. At the third clinic, the protocol that traveled
+so fast has not moved when the facts did.
 :::
 
-Both networks in the next stretch are under influence. People take cues from
-the same few voices. What separates them is what happens when reality pushes
-back against a plan that has already spread.
+People take cues from the same few voices. What separates the networks is what
+happens when reality pushes back against a plan that has already spread.
 
 That is the pivot. Once **Attention Finds a Focus**, influence keeps
 producing one of two directions. The group can still correct course while
@@ -46,7 +45,7 @@ sustain **renewal**. What matters is structure under pressure, not purity.
 Most of the story comes down to two capacities.
 
 In the hospital scene, all three clinics took up the protocol—**scalability**
-looked strong. The dosage-order risk showed where **adaptability** did not move
+looked strong. The dosage risk showed where **adaptability** did not move
 together. Reach held. Local course change did not.
 
 In another network, each clinic already interprets the protocol differently,

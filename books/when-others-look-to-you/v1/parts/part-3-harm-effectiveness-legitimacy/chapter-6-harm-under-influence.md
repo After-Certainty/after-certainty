@@ -104,8 +104,8 @@ accountability.[^c6-just-culture]
 The cold-chain stop already shows the link. So can a quieter case: an inspector
 flags a rivet batch that tests inside tolerance but shows odd variance under
 vibration. The plant manager could wait for Monday’s metallurgy review and still
-clear the day’s panel order. She stops the run, eats the overtime fight in the
-steward’s office, and stays until the schedule is one she will defend if the
+clear the day’s panel order. She stops the run, takes the overtime dispute into
+the steward’s office, and stays until the schedule is one she will defend if the
 customer pushes back. The person who could authorize risk stays visible when the
 cost lands.
 
@@ -165,12 +165,12 @@ harder. Leaders see what is easy to track and miss what people are carrying.
 Groups are not always cruel; they can be blind without intending cruelty. Blind
 groups still cause harm.
 
-A leadership review can live in a green dashboard—pipeline, bookings, churn—
-while onboarding runs triple-booked installs and customers trade fixes in threads
-executives never open. No one decides to ignore anyone. The scorecard was never
-built to show the channels where the harm gathers. Tolerance often names the
-strain and chooses continuity anyway. Blindness misses the strain where it
-actually lands.
+A leadership review can live in a green dashboard—pipeline, bookings,
+churn—while onboarding runs triple-booked installs and customers trade fixes in
+threads executives never open. No one decides to ignore anyone. The scorecard
+was never built to show the channels where the harm gathers. Tolerance often
+names the strain and chooses continuity anyway. Blindness misses the strain
+where it actually lands.
 
 ### **What the Room Stores**
 
@@ -217,11 +217,11 @@ Read **correction** failures early by watching where harm lands. People raise re
 risk; nothing changes; the cost stays in place or moves to someone who cannot
 refuse.
 
-A hospital unit can show the sequence in brief. Nurses report that a new central
-scheduling rule creates unsafe handoff gaps on night shifts. The issue is raised
-twice and acknowledged; no change follows. Charge nurses stop escalating and
-close the gaps with informal swaps. Reports still show compliance. Local practice
-quietly diverges. That is a **correction** failure, not simply local resistance.
+Nurses in a hospital unit report that a new central scheduling rule creates
+unsafe handoff gaps on night shifts. The issue is raised twice and acknowledged;
+no change follows. Charge nurses stop escalating and close the gaps with informal
+swaps. Reports still show compliance. Local practice quietly diverges. That is a
+**correction** failure, not simply local resistance.
 Fixes moved off the books. On paper the group looks coordinated; in daily work it
 follows a different rule. **Learning Collapse** may already be in play.
 
