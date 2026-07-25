@@ -23,7 +23,7 @@
 ## Part II — Renewal, Erosion, and Circulation
 
 - [Bridge — From Formation to Movement](parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md)
-- [Chapter 2 — The Two Groups](parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md)
+- [Chapter 2 — Two Directions](parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md)
 - [Chapter 3 — Renewal](parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md)
 - [Chapter 4 — Erosion](parts/part-2-renewal-erosion-circulation/chapter-4-erosion.md)
 - [Chapter 5 — Circulation](parts/part-2-renewal-erosion-circulation/chapter-5-circulation.md)

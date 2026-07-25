@@ -72,9 +72,11 @@ default people later treat as normal.
 Under pressure, **correction** narrows first: dissent slides from open signal
 toward quiet workaround unless someone reopens channels on purpose. In the
 reopened vignette, challenge calls carry weight again; in the closed vignette,
-challenge piles up as reporting without route changes. That is a circulation
-difference—whether signal still moves up, across, and back down while there is
-still time to matter.
+challenge piles up as reporting without route changes. That is first a
+**correction** difference: whether signals still move up, across, and back down
+while there is time to matter. **Circulation** enters when the people closest to
+the routes regain authority to act on those signals without waiting for a
+central signature.
 
 ### **States Under Pressure**
 
@@ -112,11 +114,15 @@ next—**Leadership Reproduces Itself**.
 
 After the spike, the deciding question is not whether **correction**
 tightened—it usually does—but whether **correction** reopens once the acute
-stretch ends. That includes room for temporary step-in leadership and whether
-the emergency pattern sunsets or becomes permanent.
+stretch ends, and whether **circulation** returns with it: temporary step-in
+leadership and local decision rights, or an emergency pattern that has become
+permanent.
 
-Recovery in practice means **circulation** reopens: ground signal reaches the
-center, decisions adjust, and revised direction returns to the edge.
+Recovery requires **correction** to reopen: ground signals reach the center,
+decisions adjust, and revised direction returns to the edge. It also requires
+**circulation** to reopen: district and local actors regain the authority to
+make bounded decisions without routing every consequential choice through the
+emergency command group.
 
 Temporary contraction can preserve function; permanent closure locks in **decay**.
 In the reopened vignette, contraction does its job and then releases. In the

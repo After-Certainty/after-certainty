@@ -79,12 +79,12 @@ leaders when signals travel far and late. Part V takes up what is still
 possible when warning signals arrive too late, feedback routes close, and
 judgment fails anyway.
 
-The named patterns above also sort, for reference, into four shapes—
-**Forming**, **Adjusting**, **Eroding**, and **Circulating**—used later as a
-catalog, not as a second grid to memorize. What matters on first read is the
-throughline already named: attention concentrates, examples teach, correction
-holds or thins, and **circulation** decides whether influence can move through
-people as well as from the center.
+The named patterns also gather, for reference, into four shapes—**Forming**,
+**Adjusting**, **Eroding**, and **Circulating**. They return later as a way of
+organizing what the book has already made visible. The throughline is simpler:
+attention concentrates, examples teach, **correction** holds or thins, and
+**circulation** determines whether influence can move through people as well as
+from the center.
 
 Crisis runs as a recurring thread through the book, with its strongest
 integration where scale and pressure enter—late in the arc.

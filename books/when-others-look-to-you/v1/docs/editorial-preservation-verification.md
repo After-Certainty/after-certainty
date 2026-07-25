@@ -139,3 +139,19 @@ Post-revision accounting against `editorial-preservation-register.yml`.
 5. Chapter 12 compression of opening beats and integrated-view summary.
 6. Whether further length reduction is desired beyond ~1% net (clarifications in Ch. 2/11 offset cuts).
 
+## Follow-up (terminology integrity)
+
+Surgical pass after the main editorial revision. Not a new full editorial baseline.
+
+| Change | Status |
+|--------|--------|
+| Chapter 2 capacity inconsistency (`Erosion shows when either capacity shrinks`) | Corrected: adaptability is the decisive erosion signal; scalability distinguishes coordinated vs fraying conditions; low scalability alone is not erosion |
+| Chapter 2 public title | Renamed display title to **Chapter 2 — Two Directions** |
+| Stable identity / route | Source path `chapter-2-the-two-groups.md` and route slug preserved (path-derived, not title-derived); no redirect required |
+| Chapter 10 correction vs circulation | Signal movement labeled as **correction**; authority to act without a central signature labeled as **circulation**; recovery passage states both reopen |
+| Introduction four-shapes language | Replaced editorial-sounding “second grid to memorize” with in-voice catalog / throughline wording |
+| Protected verbatim lines | Unchanged; validator re-run after follow-up |
+| Semantic metadata | Display title refreshes from manuscript H1 / `index.md` on manifest regenerate; no authored `chapter-enrichment.yml` title override |
+
+Register updates for this follow-up: `intro-four-shapes-preview` and `intro-four-shapes-load` excerpts synchronized to the revised introduction prose.
+

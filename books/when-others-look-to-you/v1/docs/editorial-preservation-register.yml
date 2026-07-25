@@ -196,10 +196,12 @@ substantive:
   reason: Memorable compression of how instruction travels.
 - id: intro-four-shapes-preview
   file: front-matter/introduction-attention-finds-a-focus.md
-  text: The named patterns above also sort, for reference, into four shapes—Forming, Adjusting, Eroding,
-    and Circulating—used later as a catalog, not as a second grid to memorize.
-  protectedMeaning: Light preview of Appendix B / pattern groups; readers need not memorize as a second
-    framework.
+  text: 'The named patterns also gather, for reference, into four shapes—Forming, Adjusting, Eroding,
+    and Circulating. They return later as a way of organizing what the book has already made visible.
+    The throughline is simpler: attention concentrates, examples teach, correction holds or thins, and
+    circulation determines whether influence can move through people as well as from the center.'
+  protectedMeaning: Light preview of Appendix B / pattern groups; readers need not memorize them in advance;
+    throughline remains attention, example, correction, circulation.
   reason: Keep as preview; reduce later insistence on memorizing the four-shape grid.
 - id: ch1-amplifies-showed
   file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
@@ -376,10 +378,12 @@ substantive:
 manualReview:
 - id: intro-four-shapes-load
   file: front-matter/introduction-attention-finds-a-focus.md
-  text: The named patterns above also sort, for reference, into four shapes—Forming, Adjusting, Eroding,
-    and Circulating—used later as a catalog, not as a second grid to memorize.
-  concern: Revised in Stage 2 to light-catalog framing; confirm Kevin is satisfied with reduced memorization
-    demand.
+  text: 'The named patterns also gather, for reference, into four shapes—Forming, Adjusting, Eroding,
+    and Circulating. They return later as a way of organizing what the book has already made visible.
+    The throughline is simpler: attention concentrates, examples teach, correction holds or thins, and
+    circulation determines whether influence can move through people as well as from the center.'
+  concern: 'Follow-up: smoothed editorial-sounding ''second grid to memorize'' into in-voice catalog framing.
+    Confirm Kevin is satisfied.'
 - id: ch1-pace-twin
   file: parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md
   text: Your pace becomes their pace. Your tolerance becomes their tolerance. Your silence becomes a signal.

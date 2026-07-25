@@ -1,4 +1,4 @@
-# **Chapter 2 — The Two Groups**
+# **Chapter 2 — Two Directions**
 
 ### **Two Directions**
 
@@ -63,10 +63,14 @@ holding every thread by hand.
 **Adaptability** asks whether the work can still change direction when reality
 pushes back—whether plans stay open to revision after they are in motion.
 
-**Erosion** shows when either capacity shrinks. How those capacities combine
-depends on whether **adaptability** stays high or falls low. That split is what
-separates the two groups—and why one organization can look renewing on paper
-while a site or function is already eroding.
+The four states show how the capacities combine. The decisive signal for
+**erosion** is whether **adaptability** shrinks—whether the group can still
+change course when reality pushes back. **Scalability** then tells whether that
+weakening remains coordinated or whether coordination is fraying too. Reduced
+**scalability** alone does not mean **erosion**: a group may still renew while
+struggling to coordinate at scale, just as it may stay highly coordinated while
+losing the ability to change course. That is why one organization can look
+renewing on paper while a site or function is already eroding.
 
 ### **The Vibrant Group and the Decaying Group**
 

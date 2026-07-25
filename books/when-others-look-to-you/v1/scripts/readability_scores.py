@@ -50,7 +50,7 @@ ORDERED: list[tuple[str, str, str]] = [
     ),
     (
         "Part II",
-        "Ch 2 — The Two Groups",
+        "Ch 2 — Two Directions",
         "parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md",
     ),
     (
