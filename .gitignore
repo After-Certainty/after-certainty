@@ -20,6 +20,9 @@ tools/__pycache__/
 uv.lock.tmp
 *.egg-info/
 
+# Downloaded EPUBCheck distributions (install via scripts/install_epubcheck.sh)
+tools/vendor/epubcheck-*/
+
 # Local build outputs (e.g. make generate-books-manifest → build/books-manifest.json)
 build/
 

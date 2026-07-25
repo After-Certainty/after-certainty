@@ -121,6 +121,15 @@ checks:
       longest: 2560
       shortest: 1600
 
+  - id: ebook-internal-cover-pixel-cap
+    applies_to: ebook-interior
+    severity: blocking
+    confidence: official-but-conflicting
+    conflict_group: epub-interior-image-pixels
+    note: >
+      External retail JPG must meet cover minima (often >3.2M pixels). The cover
+      embedded inside the EPUB is a separate resized derivative under max_interior_image_pixels.
+
   - id: print-fonts-embedded
     applies_to: print-interior
     severity: blocking
