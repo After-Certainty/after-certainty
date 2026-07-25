@@ -4,7 +4,7 @@ By the third slow road after Merrow, Lena could no longer pretend the lists were
 
 At first she had wanted them to be small.
 
-That shamed her, but it was true. Small things could be carried — folded, tucked behind a dead scanner panel, copied by lamplight, traded for passage. Small things did not demand that she become anything other than what she already knew how to be: a courier with good eyes, a sore shoulder, and an old habit of moving before grief found its full weight.
+That shamed her, but it was true. Small things could be carried — folded, tucked behind a dead scanner panel, copied by lamplight, traded for passage. Small things did not demand that she become anything other than a courier with good eyes, a sore shoulder, and an old habit of moving before grief found its full weight.
 
 The lists had begun that way. Scraps. Warnings. Local oddities. *Marsh-light gone green, out of season. Cooling-river milky three days. Sixth-day tide a quarter late — tell the next.* The kind of thing a frightened settlement might write because no official board was answering and the world had become too strange to trust memory alone.
 
@@ -22,7 +22,7 @@ Then Merrow had gone dark above a village doing nearly everything right, and the
 
 Now, on the slow roads beyond Merrow, the scraps kept arriving with that same shape.
 
-Not identical. That would have made her suspect an office, and lately she trusted offices least when they were most coherent. These were not stamped forms. They came on paper, vellum, slate rubbings, cloth tags, thin strips of bark. Some written cleanly, some badly. One described a wrong wind for half a page before mentioning, almost as an afterthought, that the lower ferry rope had sung under no load, which seemed to Lena the more alarming fact.
+Not identical. That would have made her suspect an office, and lately she trusted offices least when they were most coherent. These were not stamped forms. They came on paper, vellum, slate rubbings, cloth tags, thin strips of bark. Some written cleanly, some badly. One described a wrong wind for half a page before mentioning that the lower ferry rope had sung under no load, which seemed to Lena the more alarming fact.
 
 But beneath the mess, a pattern held.
 
@@ -34,7 +34,7 @@ But beneath the mess, a pattern held.
 *Answer if received.*
 *Tell the next.*
 
-Not official. Not standardized. But taught.
+Not official. Not standardized. Taught.
 
 That was the word Lena avoided for almost a day after it came to her.
 
@@ -60,7 +60,7 @@ Lena traveled with six others because Sera had insisted.
 
 That had been unfair enough to be useful.
 
-So she left Merrow with a ridge farmer named Yov, two young runners carrying the official-not-official failure packets, a Halen wheelwright whose wagon had become storage for everyone's shared supplies, a woman from the fruit convoy who knew three ruined bridges by reputation, and a boy of fourteen who had attached himself to the group by carrying water briskly enough that no one had the heart to detach him.
+So she left Merrow with Yov, two young runners carrying the official-not-official failure packets, a Halen wheelwright whose wagon had become storage for shared supplies, a woman from the fruit convoy who knew three ruined bridges by reputation, and a boy of fourteen who had attached himself by carrying water briskly enough that no one had the heart to detach him.
 
 His name was Tev. He had written *bedding-food* in the Merrow flour count and had not stopped arguing about it since.
 
@@ -68,7 +68,7 @@ They made poor speed and good records.
 
 At every stopping place, Lena asked.
 
-Not loudly. Not with Varik's talent for gathering a room. She wanted edges: peddlers, boat hands, mill clerks, old women with baskets, children who knew where adults hid notes. She asked for wrong things. Local things. Notices nobody had posted. Scrap-lines moving hand to hand.
+Not loudly. Not with Varik's talent for gathering a room. She wanted edges: peddlers, boat hands, mill clerks, old women with baskets, children who knew where adults hid notes. She asked for wrong things, local things, scrap-lines moving hand to hand.
 
 The first night, at a sheep shelter with one wall missing and a roof that had negotiated terms with the rain, Yov produced three waxed slips from his coat.
 
@@ -163,7 +163,7 @@ He looked pleased with himself.
 
 "Then I won't."
 
-The bridge keeper, Mari, came out with a kettle and a limp. She was perhaps fifty, perhaps older, with a red birthmark across one cheek and the expression of a woman who had spent years refusing to be impressed by weather.
+The bridge keeper, Mari, came out with a kettle and a limp. She was perhaps fifty, perhaps older, with a red birthmark across one cheek and the expression of a woman refusing to be impressed by weather.
 
 "You copying the tin?" she asked.
 
@@ -197,7 +197,7 @@ Not the west marsh. Not the hand perhaps. But the sentence.
 
 *Because people stop where roads narrow.*
 
-It was the kind of practical observation that sounded obvious only after someone had loved a place enough to learn where bodies hesitated — the kind of thing he would have said to Lena years ago, annoyed that she kept calling the gate easy.
+It sounded obvious only after someone had loved a place enough to learn where bodies hesitated — the kind of thing he would have said to Lena years ago, annoyed that she kept calling the gate easy.
 
 "Did it have a name?" she asked.
 
@@ -241,9 +241,9 @@ She gave Lena a piece of cloth for the tea and would not accept thanks.
 
 By the time they reached the old Strake ferry, the thread had begun to pull.
 
-Not physically. No single cord, no central route, no hidden office with a map and pins. Only scraps, signs, repeated closing lines, children repeating *teacher says answer,* bridge tins, mill ledgers, flour tallies, gate failure notes, and the occasional onion crate because Lio had not exaggerated the usefulness of onions.
+Not physically. No single cord, no central route, no hidden office with a map and pins. Only scraps, signs, repeated closing lines, bridge tins, mill ledgers, flour tallies, gate failure notes, and the occasional onion crate because Lio had not exaggerated the usefulness of onions.
 
-But a thread did not need to be straight to be real. It needed tension.
+But a thread did not need to be straight to be real.
 
 The ferry was out.
 
@@ -259,9 +259,9 @@ Yov sighed. "Always bad when they start there."
 
 The delay trapped them at Strake for a day.
 
-Lena would have resented the wait once. Now she used the day like a table.
+Lena would have resented the wait once. Now she used it like a table.
 
-She spread the scraps in the corner of the ferry house, weighted them with pebbles, and began arranging them. Not by place, severity, or route — offices and Varik and courier habit all wanted those — but by what had come back changed.
+She spread the scraps in the ferry house, weighted them with pebbles, and began arranging them. Not by place, severity, or route — offices and Varik and courier habit all wanted those — but by what had come back changed.
 
 Unanswered.
 
@@ -287,7 +287,7 @@ It was also the most alive.
 
 This was not rumor.
 
-Rumor wanted sameness. Rumor smoothed the world until every wrong thing became one hand, one enemy, one shape people could hate without bending close.
+Rumor wanted sameness. Rumor smoothed the world until every wrong thing became one hand, one enemy, one shape to hate without bending close.
 
 The lists were doing the opposite.
 
@@ -297,15 +297,15 @@ They preserved difference.
 
 Lena stared at those words until the ferry house faded around them.
 
-That was the hand. Not the handwriting, not the seal, not even the water-lines. The hand was in the refusal to make the wrong things too quickly one thing.
+That was the hand. Not the handwriting, not the seal, not even the water-lines. The refusal to make the wrong things too quickly one thing.
 
 Arin.
 
-She did not know when certainty entered. It was not dramatic. It did not arrive like an announcement. It settled the way a load settles when tied correctly: pressure distributed, movement reduced, the body aware that something had become carryable.
+She did not know when certainty entered. It was not dramatic. It settled the way a load settles when tied correctly: pressure distributed, movement reduced, the body aware that something had become carryable.
 
 Arin would write that way.
 
-He would not say the marsh-light was the same as the lake. He would ask whether it was. He would irritate everyone into saying exactly what they meant by cold. He would distrust any sentence that traveled too well because he had distrusted fast roads before she did.
+He would not say the marsh-light was the same as the lake. He would ask whether it was. He would irritate everyone into saying exactly what they meant by cold. He would distrust any sentence that traveled too well.
 
 *No, it's just fast.*
 
@@ -337,7 +337,7 @@ He came around the table and looked at the piles. "Why those?"
 
 "Then why do it?"
 
-Because otherwise the *Wren* dies. Because otherwise Varik wins the room. Because otherwise Arin stands by wrong water forever, writing to a world that has forgotten the obligation to reply.
+Because otherwise the *Wren* dies. Because otherwise Varik wins the room. Because otherwise Arin stands by wrong water forever.
 
 Lena said, "Because a message alone can leave someone lonely with the truth."
 
@@ -389,7 +389,7 @@ More observations. More wrongness. One from Low Aster: an old bell rung without 
 
 Lena touched the line.
 
-Already moving. A community stranded behind a dark gate had still managed to send a sentence that could prevent a stranger's throat from being cut in another yard.
+Already moving. A community stranded behind a dark gate had still managed to send a sentence that could protect a stranger in another yard.
 
 She copied the Merrow line three times.
 
@@ -427,7 +427,7 @@ Lena read it once.
 
 Then again.
 
-The ferry house went quiet, though it had not been loud before. Tev, sensing something without knowing what, stopped moving. Rennet looked at the eggs in her basket. Yov snored on the bench by the stove, oblivious and therefore merciful.
+The ferry house went quiet, though it had not been loud before. Tev stopped moving. Rennet looked at the eggs in her basket. Yov snored on the bench by the stove, oblivious.
 
 Lena did not need the signature.
 
@@ -439,7 +439,7 @@ It was there, faint at the corner: three water lines, one uneven slash.
 
 She knew the hand because she knew the wound.
 
-That was Arin. Not the boy at the table. Not the brother reduced to the one line she had kept as accusation for years. This was the man the Tarn had made: precise, stubborn, suspicious of speed — and now sending that suspicion outward so other people could use it.
+That was Arin. Not the boy at the table. Not the brother reduced to the one line she had kept as accusation for years. The man the Tarn had made: precise, stubborn, suspicious of speed — and now sending that suspicion outward so other people could use it.
 
 While she moved, Arin had stayed.
 
@@ -465,7 +465,7 @@ Rennet's eyes lifted.
 
 "He's yours?"
 
-The phrasing struck her oddly. *Yours.* As if people could be carried in the possessive as well as the heart.
+The phrasing struck her oddly. *Yours.* As if people could be carried in the possessive.
 
 "No," Lena said after a moment. "I'm his."
 
@@ -477,7 +477,7 @@ Tev said, "Does that mean he started the lists?"
 
 "No."
 
-Lena knew that as soon as she said it. Marsh-watchers, Anneth tides, moth counts, Cai's notebooks, Veya's screw, Sera's acknowledgment line — none of it began with one hand. But Arin had done something the scraps could travel through.
+Lena knew that as soon as she said it. Marsh-watchers, Anneth tides, moth counts, Cai's notebooks, Veya's screw, Sera's acknowledgment line — none of it began with one hand. But Arin had made something the scraps could travel through.
 
 Outside, rain began to tap the ferry house roof, light at first, then harder. The patched places revealed themselves one by one. Yov woke when water hit his forehead and swore at the ceiling as though betrayal required literacy.
 
@@ -549,7 +549,7 @@ Tev whispered, "That's dramatic."
 
 Inside the tube were pages from Lio.
 
-Not many. Not the living map itself. Lio knew better than to send that whole fragile thing onto wet roads. These were extracts, copied in their neat, severe hand: lines connected, sources noted, questions pending, acknowledgments received. There was a short letter wrapped around them.
+Not many. Not the living map itself. Lio knew better than to send that fragile thing onto wet roads. These were extracts, copied in their neat, severe hand: lines connected, sources noted, questions pending, acknowledgments received. A short letter wrapped around them.
 
 *Lena,*
 
@@ -567,13 +567,13 @@ Not many. Not the living map itself. Lio knew better than to send that whole fra
 
 *— Lio*
 
-Below the signature, in a smaller hand that must have been Sael's because the phrasing seemed to correct itself mid-breath, was written:
+Below the signature, in a smaller hand that must have been Sael's, was written:
 
 *If "contact" sounds too neat, revise before repeating.*
 
 Lena laughed.
 
-It came out suddenly enough that the runner smiled.
+It came out suddenly enough to make the runner smile.
 
 "Good news?"
 
@@ -591,13 +591,13 @@ She folded the letter and put it with Arin's note.
 
 For a while, she could not move.
 
-The others were unloading behind her, mud sucking at boots, ferry rope creaking, Tev arguing that *bedding-food* should be an official emergency category if only because the phrase improved morale. The world, unreasonable and damp, continued.
+The others unloaded behind her, mud sucking at boots, ferry rope creaking, Tev arguing that *bedding-food* should be an official emergency category because the phrase improved morale. The world, unreasonable and damp, continued.
 
 Lena stood under a leafless tree with Lio's letter in her hand and let the act of recognition finish.
 
 Arin was not merely waiting.
 
-She had imagined him waiting because guilt prefers still images. Arin by the lock. Arin by the lake. Arin looking at a board that did not answer. Arin hurt because she had not come. Arin dead because imagining the worst was sometimes the mind's ugly effort to prepare the body.
+She had imagined him waiting because guilt prefers still images. Arin by the lock. Arin by the lake. Arin looking at a board that did not answer. Arin hurt because she had not come. Arin dead because the mind tried to prepare the body.
 
 But Arin had not only waited.
 
@@ -605,7 +605,7 @@ He had stayed.
 
 And staying, in the world after the gates, had become work.
 
-He had known the lake before the gauge. He had listened when children counted moths. He had believed old people's knees more than central measures. He had learned one place's wrongness well enough to teach other places how to describe their own without turning it too quickly into a theory.
+He had known the lake before the gauge. He had listened when children counted moths. He had believed old people's knees more than central measures. He had learned one place's wrongness well enough to teach other places how to describe their own without turning it into theory.
 
 While she crossed worlds, he deepened one.
 
@@ -613,13 +613,13 @@ Neither was enough alone.
 
 That was the recognition.
 
-Not that her brother was alive. She still did not know that, not fully. A line was not a body. A seal was not a hand. She would not let hope perform certainty's old trick.
+Not that her brother was alive. She still did not know that, not fully. A line was not a body. A seal was not a hand.
 
 The recognition was that Arin was not waiting for her to invent what came next. He had been building the other half while she moved.
 
-Lena looked back at the ferry house across the river, now blurred by rain. Behind her: Vellum, Veya, Cai, Lio, Sera, Merrow, Vesper. Ahead, through slow roads and broken crossings, the Tarn.
+Lena looked back at the ferry house across the river, blurred by rain. Behind her: Vellum, Veya, Cai, Lio, Sera, Merrow, Vesper. Ahead, through slow roads and broken crossings, the Tarn.
 
-Between them, scraps moved — badly, late, damp, misquoted, copied by children, left in tins where roads narrowed.
+Between them, scraps moved — badly, late, damp, misquoted, copied by children, left in tins.
 
 It was ridiculous.
 
@@ -635,11 +635,11 @@ Yov called, "Road's not getting shorter while you brood."
 
 Lena tucked Lio's letter away and shouldered her pack.
 
-The pack was heavier than it had any right to be. Veya's copies. Jun's pages. Merrow's failure notes. Cai's Rallo query copy. Lio's extract. Arin's note. Rennet's replies. The moth child. The bridge tin copies.
+The pack was heavier than it had any right to be. Veya's copies. Jun's pages. Merrow's failure notes. Cai's Rallo query. Lio's extract. Arin's note. Rennet's replies. The moth child. The bridge tin copies.
 
 They started up the far road.
 
-By afternoon the rain stopped and a cold wind came through the gaps in the stone walls. The road climbed into country that had once served the fast gate indirectly — farms, smithies, inns declared obsolete and now crowded again, not all of them pleased by resurrection.
+By afternoon the rain stopped and a cold wind came through the stone walls. The road climbed into country that had once served the fast gate indirectly — farms, smithies, inns declared obsolete and now crowded again, not all pleased by resurrection.
 
 At a crossroads inn called The Bent Nail, someone had painted a new board beside the door:
 
@@ -653,13 +653,9 @@ Beneath that, in smaller script:
 
 *If in doubt, ask Elu. If Elu is asleep, wake someone nicer.*
 
-The board was funny.
-
-It was also governance.
-
 Lena copied it.
 
-Inside, the common room held more maps than tables: mud maps, chalk maps, torn maps with corrections, memory maps that started with *it used to be* and crossed themselves out. Pins marked bad bridges, rumor-heavy towns, food holds, safe wells, roads where Halen traders had been blamed or protected, gates unstable, dark, or not to be trusted even if lit.
+Inside, the common room held more maps than tables: mud maps, chalk maps, torn maps with corrections, memory maps that started with *it used to be* and crossed themselves out. Pins marked bad bridges, rumor-heavy towns, food holds, safe wells, Halen danger, gates unstable, dark, or not to be trusted even if lit.
 
 At the far wall hung a sheet titled *ANSWERS RECEIVED.*
 
@@ -678,9 +674,7 @@ Lena went cold.
 
 There it was.
 
-His words traveling better than he did. Opening a hold correctly at Khoury. Authorizing harm at Sarn.
-
-A useful phrase becoming a weapon in another room.
+His words traveling better than he did. Opening a hold at Khoury. Authorizing harm at Sarn.
 
 She copied the line with a hand that wanted to shake and did not.
 
@@ -712,7 +706,7 @@ The note was brief.
 
 *We have enough fragments to know the lists are not random. We do not have enough to make them safe.*
 
-*The Tarn hand teaches exactness without central claim. That is the important thing. If it is your brother, do not make him a symbol. Symbols are where living work goes to be admired instead of answered.*
+*The Tarn hand teaches exactness without central claim. If it is your brother, do not make him a symbol. Symbols are where living work goes to be admired instead of answered.*
 
 *We are routing toward the old Osprey groundline. It may reach within two days of the Tarn if the lower locks still run. It will need people trusted on both sides of the road — who stay and who move.*
 
@@ -729,7 +723,7 @@ Then she read the note again and stopped smiling.
 
 Trusted on both sides.
 
-No. Too much. Too clean. Too close to making her the bridge again. Borren had carved that lesson into her.
+No. Too much. Too clean. Too close to making her the bridge again.
 
 But perhaps trust meant first carrying without owning.
 
@@ -741,9 +735,9 @@ The next morning, The Bent Nail sent out five packets: east to Ivera, west towar
 
 Lena took the north packet.
 
-Not because it was hers. Because it was going toward the Tarn. Because it carried Arin's line and her answer beside it. Because if Arin was holding one end, she needed to stop imagining that reaching him meant pulling him away from it.
+Not because it was hers. Because it was going toward the Tarn. Because it carried Arin's line and her answer beside it. If Arin was holding one end, reaching him did not mean pulling him away from it.
 
-The road north from The Bent Nail did not deserve the name. It was more an agreement among rocks. The group thinned there: Yov stayed to help repair a culvert; the Halen wheelwright turned east with a copy of the Sarn warning about Varik's phrase; Rennet, who had somehow reappeared with more eggs and no explanation, took two packets west. Tev tried to stay with Lena until every adult face at once seemed to channel Sera from miles behind.
+The road north from The Bent Nail did not deserve the name. It was more an agreement among rocks. The group thinned there: Yov stayed to help repair a culvert; the Halen wheelwright turned east with the Sarn warning; Rennet, reappeared with more eggs and no explanation, took two packets west. Tev tried to stay with Lena until every adult face seemed to channel Sera from miles behind.
 
 "You're going back to Merrow," Lena said.
 
@@ -795,7 +789,7 @@ She folded the scrap and put it with the others.
 
 Then she went north.
 
-For a day, she traveled with only the Osprey runner, a woman named Dalla whose entire personality seemed to consist of walking uphill and disapproving of people who breathed audibly. They shared dried roots, silence, and one argument about whether a path counted as passable if using it required crawling under thorn vine.
+For a day, she traveled with only the Osprey runner, a woman named Dalla whose entire personality seemed to consist of walking uphill and disapproving of audible breathing. They shared dried roots, silence, and one argument about whether a path counted as passable if using it required crawling under thorn vine.
 
 Dalla said yes.
 
@@ -805,11 +799,11 @@ Dalla said obligations were easier downhill.
 
 At dusk they reached the groundline house.
 
-It stood in a hollow between two ridges, half-buried in moss, built before the gates had made such structures embarrassing. A low stone building, long and narrow, with a rusted mast at one end and a line of black ceramic insulators running north into the trees. The door stuck. Dalla kicked it twice and called this maintenance.
+It stood in a hollow between two ridges, half-buried in moss, built before the gates had made such structures embarrassing: a low stone building with a rusted mast and black ceramic insulators running north into the trees. The door stuck. Dalla kicked it twice and called this maintenance.
 
 Inside, the air smelled of mouse, damp wire, and old lightning.
 
-The groundline apparatus filled the main room: hand cranks, signal drums, a message plate, a wall of switches with labels worn nearly blank. Most of it was dead. Some of it had been repaired recently.
+The groundline apparatus filled the main room: hand cranks, signal drums, a message plate, switches with labels worn nearly blank. Most of it was dead. Some had been repaired recently.
 
 That stopped Lena in the doorway.
 
@@ -850,7 +844,7 @@ The runner went to the apparatus and set her packet on the plate.
 
 "How far?"
 
-"Old Osprey line branches before the dark. If Tarn lower locks still keep a listening house, it may knock within a day's walk. If not, it will make a clicking noise here and we will feel foolish."
+"Old Osprey line branches before the dark. If Tarn lower locks still keep a listening house, it may knock within a day's walk. If not, we will feel foolish."
 
 She checked the slate, cranked six slow, and waited.
 
@@ -868,7 +862,7 @@ Lena could not breathe.
 
 The runner began sending.
 
-Not words. Code. Short pulses through an old line gates had made obsolete and somebody — Arin, or someone taught by someone taught by him — had repaired enough to listen.
+Not words. Code. Short pulses through an old line gates had made obsolete and somebody — Arin, or someone taught by him — had repaired enough to listen.
 
 Not fast like a gate.
 
@@ -904,7 +898,7 @@ Lena sat down hard on the nearest bench.
 
 The bench held.
 
-The world did not become safe. The gates did not open. Arin did not walk through the door. The Tarn was still beyond dark, and a repeat mark was not a voice, not a body, not forgiveness, not arrival.
+The world did not become safe. The gates did not open. Arin did not walk through the door. The Tarn was still beyond dark, and a repeat mark was not a voice, not a body, not arrival.
 
 But somewhere north, the packet had reached someone.
 
@@ -938,7 +932,7 @@ This time the silence after was longer.
 
 So long Dalla checked the line.
 
-So long Lena had time to imagine all the ways a sentence could die after being sent: wrong branch, broken relay, unread plate, Arin gone, Arin alive and angry, words arriving too late to matter.
+So long Lena had time to imagine all the ways a sentence could die: wrong branch, broken relay, unread plate, Arin gone, Arin alive and angry, words arriving too late.
 
 Then the wall clicked.
 
@@ -952,7 +946,7 @@ Dalla straightened.
 
 "Message."
 
-The code came slowly. Whoever sent it was either far, unpracticed, or forcing old equipment to behave beyond dignity. Dalla wrote as she listened.
+The code came slowly. Whoever sent it was far, unpracticed, or forcing old equipment to behave beyond dignity. Dalla wrote as she listened.
 
 *Received.*
 *Holding.*
@@ -974,15 +968,15 @@ A mark was not proof of safety.
 
 But she knew.
 
-Not with certainty. She distrusted certainty now. This was something else, older and more frightening: recognition shaped by enough difference to stay true.
+Not with certainty. She distrusted certainty now. This was something older and more frightening: recognition shaped by enough difference to stay true.
 
-He was alive enough to answer, or his work was alive enough to answer for him. Either way, the road had changed.
+He was alive enough to answer, or his work was alive enough to answer for him.
 
 Lena pressed both hands over her face.
 
-No sob came. Not yet. The feeling was too large and too full of tasks. Grief had taught her that feelings sometimes wait until work has less need of the body.
+No sob came. Not yet. The feeling was too large and too full of tasks.
 
-Dalla looked away with the tact of people who spent their lives carrying things too important to understand.
+Dalla looked away with a runner's tact.
 
 After a while, Lena lowered her hands.
 
@@ -1016,9 +1010,9 @@ She sent.
 
 The repeat mark came back faster this time.
 
-Lena stood in the old groundline house until her legs steadied.
+Lena stood there until her legs steadied.
 
-Outside, night had come over the ridges. No gate light, no city glow. Only the mast against the sky and the line running north, thin unless one knew to look.
+Outside, night had come over the ridges. No gate light, no city glow. Only the mast and the line running north, thin unless one knew to look.
 
 The thread had pulled taut.
 
@@ -1026,7 +1020,7 @@ Not tight enough to trust.
 
 Taut enough to follow.
 
-By morning, they had made twelve copies of the exchange. Not the personal line — Lena kept that back. The rest went out: to Lio, to Merrow, to Vellum, to Cai, to the bridge tins, to the west marsh.
+By morning, they had made twelve copies of the exchange. Not the personal line — Lena kept that back. The rest went to Lio, Merrow, Vellum, Cai, the bridge tins, the west marsh.
 
 *Holding. Need people who can answer the line. Do not come alone.*
 
@@ -1044,29 +1038,29 @@ Dalla read that and nodded once.
 
 "Good."
 
-They left after first light, following the ceramic insulators north until the road dropped into a valley where three old routes crossed. From there, if the line held, Lena might reach the outer Tarn approaches in days instead of weeks.
+They left after first light, following the ceramic insulators north until the road dropped into a valley where three old routes crossed. If the line held, Lena might reach the outer Tarn approaches in days instead of weeks.
 
 If.
 
-The word no longer felt like weakness. It felt like the condition under which honest people moved.
+The word no longer felt like weakness.
 
-At the ridge top she turned back once. The groundline house was almost invisible below — a stone seam in moss, a place where answer had crossed distance.
+At the ridge top she turned back once. The groundline house was almost invisible below — a stone seam in moss.
 
 She adjusted her pack.
 
-It still held too much. It would hold more before this was done.
+It still held too much. It would hold more.
 
 At the next crossroads, Dalla asked, "Where?"
 
-Lena looked north, toward the line, toward the Tarn, toward Arin's water and the hand she knew before anyone named it.
+Lena looked north, toward the line, the Tarn, Arin's water and the hand she knew before anyone named it.
 
-Then west, east, south — Merrow's packet line, Ivera through Lio, Vellum's copies and Sera's notes already changing hands.
+Then west, east, south — Merrow's packet line, Ivera through Lio, Vellum's copies and Sera's notes.
 
 One road would get her closer to Arin.
 
-One web of roads might get what he needed into contact with what she had been carrying.
+One web of roads might bring what he needed into contact with what she carried.
 
-For the first time, she understood that choosing between those two was the old mistake.
+She understood that choosing between those two was the old mistake.
 
 "North," she said. "But not alone. Send to Lio: whoever has been answering twice — their notes, not their theories. Not to me. To the Osprey groundline and every road-narrowing between here and Ivera."
 
@@ -1080,7 +1074,7 @@ Dalla stared. "That's a lot of hands."
 
 They started down the north road.
 
-Behind them, the old line clicked once, receiving something from somewhere Lena could not see. Ahead, the Tarn remained hidden behind distance, water, dark, and the stubborn fact that recognition was not yet repair.
+Behind them, the old line clicked once, receiving something Lena could not see. Ahead, the Tarn remained hidden behind distance, water, dark, and the fact that recognition was not yet repair.
 
 Arin was not waiting.
 
@@ -1090,14 +1084,10 @@ Now the work was to bring the moving and staying lines into contact.
 
 Whether they could cohere stayed beyond the next ridge.
 
-For now, she walked north carrying his answer in her pack and his hand in the line, and every road she passed was no longer only a way toward him.
+For now, she walked north carrying his answer in her pack and his hand in the line, and every road was no longer only a way toward him.
 
-It was a place where someone might need to leave a tin.
+It was a place where someone might need to leave a tin, where someone might stop, where the next true word might wait for a hand.
 
-A place where someone might stop.
-
-A place where the next true word might wait for a hand.
-
-Lena walked, and the slow road, for once, did not feel like delay.
+Lena walked, and the slow road did not feel like delay.
 
 It felt like the only speed that could still learn.
