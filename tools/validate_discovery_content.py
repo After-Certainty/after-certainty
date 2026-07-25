@@ -62,6 +62,51 @@ def _validator(schema: dict, store: dict[str, object]) -> jsonschema.protocols.V
     return jsonschema.Draft202012Validator(schema, resolver=resolver)
 
 
+def _collect_chapter_ids(repo: Path) -> tuple[set[str], set[str]]:
+    """Return (all chapter ids, public chapter ids) from manuscript structure."""
+    from manuscript_structure import build_structure_for_book, load_chapter_enrichment
+
+    all_ids: set[str] = set()
+    public_ids: set[str] = set()
+    for spec_path in discover_book_spec_paths(repo):
+        book_dir = spec_path.parent
+        if not (book_dir / "index.md").is_file():
+            continue
+        try:
+            spec = load_book_spec(spec_path)
+        except (OSError, ValueError):
+            continue
+        book = spec.get("book") if isinstance(spec, dict) else None
+        if not isinstance(book, dict):
+            continue
+        slug = str(book.get("id") or "").strip()
+        if not slug:
+            continue
+        edition_id = f"book-{slug}"
+        work_id = str(book.get("work_id") or f"work-{slug}").strip() or f"work-{slug}"
+        book_kind = str(book.get("kind") or "prose").strip() or "prose"
+        try:
+            _parts, chapters = build_structure_for_book(
+                book_dir,
+                edition_slug=slug,
+                work_id=work_id,
+                edition_id=edition_id,
+                public=True,
+                enrichment=load_chapter_enrichment(book_dir),
+                book_kind=book_kind,
+            )
+        except (OSError, ValueError, FileNotFoundError):
+            continue
+        for chapter in chapters:
+            cid = str(chapter.get("id") or "").strip()
+            if not cid:
+                continue
+            all_ids.add(cid)
+            if chapter.get("public"):
+                public_ids.add(cid)
+    return all_ids, public_ids
+
+
 def _collect_entity_ids(repo: Path) -> dict[str, set[str]]:
     from book_specs import discover_upcoming_spec_paths, load_upcoming_spec
 
@@ -97,9 +142,13 @@ def _collect_entity_ids(repo: Path) -> dict[str, set[str]]:
                     out.add(f"{prefix}{s}")
         return out
 
+    chapter_ids, chapter_public_ids = _collect_chapter_ids(repo)
+
     return {
         "book": books,
         "book_slugs": book_slugs,
+        "chapter": chapter_ids,
+        "chapter_public": chapter_public_ids,
         "concept": slugs("glossary", "concept-"),
         "pattern": slugs("patterns", "pattern-"),
         "situation": slugs("situations", "situation-"),
@@ -338,6 +387,15 @@ def validate_path_stops(
                 errors.append(f"{path}: unknown bookSlug {book_slug!r}")
             if not entity_id and not book_slug:
                 errors.append(f"{path}: book stop requires entityId or bookSlug")
+        elif etype == "chapter":
+            if not entity_id:
+                errors.append(f"{path}: chapter stop requires entityId")
+            elif entity_id not in ids.get("chapter", set()):
+                errors.append(f"{path}: unknown chapter entityId {entity_id!r}")
+            elif entity_id not in ids.get("chapter_public", set()):
+                errors.append(
+                    f"{path}: chapter entityId {entity_id!r} is not a public reader destination"
+                )
         elif etype in {"concept", "pattern", "situation", "source", "thinker"}:
             if not entity_id:
                 errors.append(f"{path}: {etype} stop requires entityId")

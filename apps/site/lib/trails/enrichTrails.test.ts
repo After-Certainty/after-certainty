@@ -33,6 +33,42 @@ describe("enrichStop", () => {
     expect(stop.title).toBeTruthy();
     expect(stop.external).toBe(false);
   });
+
+  it("resolves chapter stops to reader routeKey", () => {
+    const index = buildGraphIndex(graph);
+    const chapter = {
+      id: "chapter-after-certainty-front-matter-introduction",
+      workId: "work-after-certainty",
+      editionId: "book-after-certainty",
+      title: "Introduction",
+      position: 1,
+      kind: "introduction" as const,
+      sourcePath: "front-matter/introduction.md",
+      wordCount: 1200,
+      estimatedReadingMinutes: 6,
+      public: true,
+      routeKey: "/explore/books/after-certainty/chapters/front-matter-introduction",
+    };
+
+    const stop = enrichStop(
+      {
+        position: 1,
+        entityType: "chapter",
+        entityId: chapter.id,
+        description: "Chapter stop",
+      },
+      index,
+      graph.books,
+      podcastEpisodes.episodes,
+      [chapter],
+    );
+
+    expect(stop.href).toBe(chapter.routeKey);
+    expect(stop.title).toBe("Introduction");
+    expect(stop.entityTypeLabel).toBe("Chapter");
+    expect(stop.estimatedMinutes).toBe(6);
+    expect(stop.external).toBe(false);
+  });
 });
 
 describe("enrichTrail", () => {

@@ -379,6 +379,7 @@ export interface Edition {
 
 export type DiscoveryPathEntityType =
   | "book"
+  | "chapter"
   | "concept"
   | "pattern"
   | "situation"

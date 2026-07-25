@@ -113,6 +113,12 @@ def test_validate_discovery_rejects_duplicate_question(tmp_path: Path) -> None:
     ids = {
         "book": {"book-after-certainty"},
         "book_slugs": {"after-certainty"},
+        "chapter": {
+            "chapter-after-certainty-front-matter-introduction",
+        },
+        "chapter_public": {
+            "chapter-after-certainty-front-matter-introduction",
+        },
         "concept": set(),
         "pattern": set(),
         "situation": set(),
@@ -141,6 +147,54 @@ def test_validate_discovery_rejects_duplicate_question(tmp_path: Path) -> None:
         require_transitions=True,
     )
     assert any("unknown bookSlug" in e for e in errors)
+
+
+def test_validate_path_stops_rejects_unknown_and_non_public_chapters() -> None:
+    from validate_discovery_content import validate_path_stops
+
+    errors: list[str] = []
+    ids = {
+        "book": set(),
+        "book_slugs": set(),
+        "chapter": {"chapter-known-private", "chapter-known-public"},
+        "chapter_public": {"chapter-known-public"},
+        "concept": set(),
+        "pattern": set(),
+        "situation": set(),
+        "source": set(),
+        "thinker": set(),
+    }
+    validate_path_stops(
+        Path("synthetic-chapters.yml"),
+        [
+            {
+                "position": 1,
+                "entityType": "chapter",
+                "entityId": "chapter-known-public",
+                "description": "ok",
+            },
+            {
+                "position": 2,
+                "entityType": "chapter",
+                "entityId": "chapter-missing",
+                "description": "bad",
+                "whyThisFollows": "next",
+            },
+            {
+                "position": 3,
+                "entityType": "chapter",
+                "entityId": "chapter-known-private",
+                "description": "hidden",
+                "whyThisFollows": "next",
+            },
+        ],
+        ids=ids,
+        errors=errors,
+        require_transitions=True,
+    )
+    assert any("unknown chapter entityId" in e for e in errors)
+    assert any("not a public reader destination" in e for e in errors)
+    assert not any("chapter-known-public" in e and "unknown" in e for e in errors)
 
 
 def test_hidden_change_event_excluded(tmp_path: Path) -> None:

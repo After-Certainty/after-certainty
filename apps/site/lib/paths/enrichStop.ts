@@ -1,6 +1,7 @@
 import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import { bookPublicationStatus, findBookBySlug } from "@/lib/books/book-metadata";
 import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
+import { chapterPublicPath } from "@/lib/graph/chapters";
 import { exploreHrefForCanonicalId, explorePaths } from "@/lib/graph/explorePaths";
 import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
@@ -11,10 +12,11 @@ import {
 } from "@/lib/paths/validateStop";
 import type { PodcastEpisode } from "@/types/content";
 import type { EnrichedPathStop, PathStopInput } from "@/types/paths";
-import type { Book } from "@/types/semanticGraph";
+import type { Book, ManifestChapter } from "@/types/semanticGraph";
 
 const DEFAULT_MINUTES: Record<string, number> = {
   book: 25,
+  chapter: 10,
   concept: 5,
   pattern: 8,
   situation: 6,
@@ -40,6 +42,7 @@ export function enrichStop(
   index: GraphIndex,
   books: readonly Book[],
   podcastEpisodes: readonly PodcastEpisode[],
+  chapters: readonly ManifestChapter[] = [],
 ): EnrichedPathStop {
   const minutes = stop.estimatedMinutes ?? defaultMinutesForType(stop.entityType);
 
@@ -96,6 +99,25 @@ export function enrichStop(
     };
   }
 
+  if (stop.entityType === "chapter") {
+    const entityId = stop.entityId ?? "";
+    const chapter = chapters.find((c) => c.id === entityId);
+    const href = chapter ? (chapterPublicPath(chapter) ?? explorePaths.home) : explorePaths.home;
+    const chapterMinutes =
+      stop.estimatedMinutes ??
+      chapter?.estimatedReadingMinutes ??
+      defaultMinutesForType("chapter");
+    return {
+      ...stop,
+      resolvedEntityId: entityId,
+      title: stop.titleOverride ?? chapter?.title ?? entityId,
+      href,
+      external: false,
+      entityTypeLabel: entityTypeLabel(stop.entityType),
+      estimatedMinutes: chapterMinutes,
+    };
+  }
+
   const entityId = stop.entityId ?? "";
   const resolvedId = index.resolveCanonicalId(entityId) ?? entityId;
   const href = exploreHrefForCanonicalId(index, resolvedId) ?? explorePaths.home;
@@ -116,10 +138,11 @@ export function enrichPathStops(
   index: GraphIndex,
   books: readonly Book[],
   podcastEpisodes: readonly PodcastEpisode[],
+  chapters: readonly ManifestChapter[] = [],
 ): EnrichedPathStop[] {
   return [...stops]
     .sort((a, b) => a.position - b.position)
-    .map((stop) => enrichStop(stop, index, books, podcastEpisodes));
+    .map((stop) => enrichStop(stop, index, books, podcastEpisodes, chapters));
 }
 
 export function totalEstimatedMinutes(stops: EnrichedPathStop[]): number {

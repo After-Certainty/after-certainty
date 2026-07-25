@@ -442,6 +442,7 @@ flowchart LR
 | **Goal** | Allow authored path stops to target chapter URLs where chapter destinations exist. |
 | **Why it matters** | Questions/trails currently stop at book/entity level more often than precise chapters. |
 | **Type / owner / size** | mixed / shared / M |
+| **Status** | Implemented — `entityType: chapter` on path stops; resolve + validate; pilot stop on `act-before-certainty-arrives`. |
 | **Likely files** | Trail/question schemas and site path stop resolvers; authoring docs |
 | **Dependencies** | READ-002; corpus stop updates optional |
 | **Acceptance criteria** | Stops with chapter targets resolve; invalid targets fail validation; at least one pilot path updated or documented as follow-on editorial |

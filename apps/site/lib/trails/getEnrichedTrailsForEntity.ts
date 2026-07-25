@@ -1,5 +1,6 @@
 import { getPodcastEpisodes } from "@/lib/content-data";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
+import { chaptersFromGraph } from "@/lib/graph/chapters";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getPublishedTrails } from "@/lib/trails/loadTrails";
 import { enrichTrails } from "@/lib/trails/enrichTrails";
@@ -19,6 +20,7 @@ export async function getEnrichedTrailsForEntity(input: {
     canonicalId: input.canonicalId,
     index,
     books: graph.books,
+    chapters: chaptersFromGraph(graph),
     trails: getPublishedTrails(graph),
     limit: input.limit ?? 3,
   });

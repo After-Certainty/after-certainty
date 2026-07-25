@@ -3,6 +3,7 @@ import { findBookBySlug } from "@/lib/books/book-metadata";
 import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex, graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
+import { chaptersFromGraph } from "@/lib/graph/chapters";
 import { enrichPathStops, totalEstimatedMinutes } from "@/lib/paths/enrichStop";
 import { resolveBookSlugFromEntityId } from "@/lib/paths/validateStop";
 import type { PodcastEpisode } from "@/types/content";
@@ -46,7 +47,13 @@ export function enrichTrail(
   podcastEpisodes: readonly PodcastEpisode[],
 ): EnrichedTrail {
   const index = buildGraphIndex(graph);
-  const pathStopsEnriched = enrichPathStops(trail.pathStops, index, graph.books, podcastEpisodes);
+  const pathStopsEnriched = enrichPathStops(
+    trail.pathStops,
+    index,
+    graph.books,
+    podcastEpisodes,
+    chaptersFromGraph(graph),
+  );
 
   return {
     ...trail,

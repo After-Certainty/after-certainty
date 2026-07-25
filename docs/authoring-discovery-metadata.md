@@ -189,10 +189,20 @@ pathStops:
     entityId: book-trust-beyond-similarity
     description: "..."
     whyThisFollows: "..."   # required after the first stop when published
+  # Optional: deep-link a public chapter (stable ManifestChapter.id, not routeKey):
+  # - position: 3
+  #   entityType: chapter
+  #   entityId: chapter-after-certainty-parts-part-2-what-can-still-be-practiced-chapter-4-judgment-without-finality
+  #   description: "..."
+  #   whyThisFollows: "..."
 closingReflection: "..."
 ```
 
 Do not duplicate book titles or download URLs; the generator enriches stop titles.
+
+### Chapter path stops (READ-007)
+
+Use `entityType: chapter` with `entityId` set to the chapter’s stable graph id (`chapter-{editionSlug}-…` from `docs/semantic-chapter-identity.md`). The site resolves the stop to the public reader URL (`routeKey`). Only **public** chapters on public books are valid; unknown or non-public ids fail discovery validation.
 
 ## Trails
 
