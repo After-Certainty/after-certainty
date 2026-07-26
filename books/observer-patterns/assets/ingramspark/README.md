@@ -5,7 +5,7 @@ Planning source assets for `assembled-raster-wrap` (not website covers). Derived
 before full production packaging.
 
 ```
-back.png          # 1838×2775 @ 300 ppi — blurred lower-band atmosphere + barcode clear reserve
+back.png          # 1838×2775 @ 300 ppi — atmosphere + 3-line back copy + barcode clear reserve
 spine-source.png  # 44×2775 @ 300 ppi — uncropped master for page-count recrops
 spine.png         # 24×2775 @ 300 ppi — center-cropped for 32 cream pages (provisional)
 front.png         # 1838×2775 @ 300 ppi — upscaled cover fitted into trim+bleed
@@ -17,6 +17,12 @@ Assembly order: **back → spine → front**.
 Print ISBN: `9798256208776` → staged cover `9798256208776_cvr.pdf`.  
 Provisional interior length: **32** cream pages (Typst print PDF measured ~31, even-padded).
 Spine text is off (< 48 pages). Ebook remains disabled (print-only).
+
+Back copy (≤3 lines; website question + closing aphorisms):
+
+1. What takes shape when looking, deciding, and following become decisive?
+2. What is observed repeatedly becomes believed.
+3. Once you see these patterns, they’re hard to ignore.
 
 ```bash
 python3 tools/generate_ingramspark_wrap_from_cover.py \

@@ -4,7 +4,7 @@ Derive IngramSpark assembled-raster-wrap panels from a book's book-cover.png.
 
 Produces (under assets/ingramspark/ by default):
   front.png       — upscaled cover fitted into trim+bleed front panel
-  back.png        — blurred atmosphere from cover lower band + barcode reserve
+  back.png        — blurred atmosphere, ≤3-line back copy, barcode reserve
   spine.png       — edge pattern strip (no spine text below 48 pages)
   spine-source.png — wider master for page-count recrops
   template-meta.yml — geometry matching 6×9 cream perfect-bound
@@ -24,7 +24,7 @@ try:
 except ModuleNotFoundError as exc:  # pragma: no cover
     raise SystemExit("PyYAML required: python3 -m pip install pyyaml") from exc
 
-from PIL import Image, ImageDraw, ImageFilter, ImageOps
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 DEFAULT_COVER = "book-cover.png"
 DEFAULT_OUT_DIR = "assets/ingramspark"
@@ -39,6 +39,19 @@ BARCODE_W_IN = 2.58
 BARCODE_H_IN = 1.52
 BARCODE_BOTTOM_INSET_IN = 0.55
 SPINE_SOURCE_PAD_PX = 20
+
+# Observer Patterns back copy: website central question + closing aphorisms (≤3 lines).
+DEFAULT_BACK_LINES = [
+    "What takes shape when looking, deciding, and following become decisive?",
+    "What is observed repeatedly becomes believed.",
+    "Once you see these patterns, they’re hard to ignore.",
+]
+
+FONT_PATHS = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+    "/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf",
+]
 
 
 def inches_to_px(inches: float, *, ppi: int = PPI) -> int:
@@ -61,13 +74,49 @@ def fit_cover_to_panel(cover: Image.Image, size: tuple[int, int]) -> Image.Image
     return ImageOps.fit(cover.convert("RGB"), size, method=Image.Resampling.LANCZOS)
 
 
+def load_back_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
+    for path in FONT_PATHS:
+        try:
+            return ImageFont.truetype(path, size)
+        except OSError:
+            continue
+    return ImageFont.load_default()
+
+
+def draw_centered_line(
+    draw: ImageDraw.ImageDraw,
+    *,
+    text: str,
+    center_x: int,
+    y: int,
+    font: ImageFont.ImageFont,
+    fill: tuple[int, int, int] = (248, 246, 242),
+    stroke: tuple[int, int, int] = (16, 20, 32),
+    stroke_width: int = 2,
+) -> int:
+    """Draw one centered line; return the line height used."""
+    bbox = draw.textbbox((0, 0), text, font=font, stroke_width=stroke_width)
+    tw = bbox[2] - bbox[0]
+    th = bbox[3] - bbox[1]
+    x = center_x - tw // 2
+    draw.text(
+        (x, y),
+        text,
+        font=font,
+        fill=fill,
+        stroke_width=stroke_width,
+        stroke_fill=stroke,
+    )
+    return th
+
+
 def make_back(
     cover: Image.Image,
     size: tuple[int, int],
     *,
-    description: str = "",
+    lines: list[str] | None = None,
 ) -> tuple[Image.Image, tuple[int, int, int, int]]:
-    """Atmosphere field from cover color (no readable title) + barcode reserve.
+    """Atmosphere field from cover color + ≤3-line back copy + barcode reserve.
 
     Returns ``(image, (x, y, w, h))`` barcode box in back-panel pixels.
     """
@@ -78,14 +127,15 @@ def make_back(
     band = src.crop((0, int(sh * 0.62), sw, sh))
     base = ImageOps.fit(band, size, method=Image.Resampling.LANCZOS)
     soft = base.filter(ImageFilter.GaussianBlur(radius=36))
-    # Slight darken for print ink control / future blurb legibility.
-    soft = Image.blend(soft, Image.new("RGB", size, (20, 24, 36)), 0.22)
+    # Darken for print ink control and back-copy legibility.
+    soft = Image.blend(soft, Image.new("RGB", size, (20, 24, 36)), 0.28)
 
     draw = ImageDraw.Draw(soft)
     bw = inches_to_px(BARCODE_W_IN)
     bh = inches_to_px(BARCODE_H_IN)
     # Bottom-center of the trim area (exclude left outside bleed).
     bleed = inches_to_px(BLEED_IN)
+    safe = inches_to_px(SAFE_INSET_IN)
     trim_left = bleed
     trim_w = inches_to_px(TRIM_W_IN)
     cx = trim_left + trim_w // 2
@@ -95,9 +145,34 @@ def make_back(
     # Quiet white/cream reserve for Ingram-generated barcode.
     draw.rounded_rectangle((x0, y0, x0 + bw, y0 + bh), radius=8, fill=(248, 245, 238))
 
-    if description.strip():
-        # Reserved for future blurb rendering; keep blank for now so design review is visual-first.
-        _ = description
+    copy_lines = [
+        ln.strip() for ln in (lines if lines is not None else DEFAULT_BACK_LINES) if ln.strip()
+    ]
+    if len(copy_lines) > 3:
+        raise SystemExit(f"back cover allows at most 3 lines (got {len(copy_lines)})")
+    if copy_lines:
+        # Fit long question on one line inside the safe trim width.
+        max_text_w = trim_w - 2 * safe
+        question_size = 38
+        body_size = 34
+        q_font = load_back_font(question_size)
+        while question_size >= 28:
+            q_font = load_back_font(question_size)
+            q_bbox = draw.textbbox((0, 0), copy_lines[0], font=q_font, stroke_width=2)
+            if (q_bbox[2] - q_bbox[0]) <= max_text_w:
+                break
+            question_size -= 1
+        body_font = load_back_font(min(body_size, question_size))
+
+        # Upper-middle stack, clear of barcode reserve.
+        gap_after_question = inches_to_px(0.28)
+        line_gap = inches_to_px(0.14)
+        y = int(h * 0.30)
+        for idx, line in enumerate(copy_lines):
+            font = q_font if idx == 0 else body_font
+            th = draw_centered_line(draw, text=line, center_x=cx, y=y, font=font)
+            y += th + (gap_after_question if idx == 0 else line_gap)
+
     return soft, (x0, y0, bw, bh)
 
 
@@ -217,7 +292,7 @@ def generate(
     source_w = spine_px + SPINE_SOURCE_PAD_PX
 
     front = fit_cover_to_panel(cover, (front_w, front_h))
-    back, barcode_box = make_back(cover, (front_w, front_h))
+    back, barcode_box = make_back(cover, (front_w, front_h), lines=DEFAULT_BACK_LINES)
     spine_source = make_spine_source(cover, front_h, source_w)
     left = (source_w - spine_px) // 2
     spine = spine_source.crop((left, 0, left + spine_px, front_h))
