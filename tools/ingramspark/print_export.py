@@ -203,12 +203,101 @@ def convert_pdf_to_device_gray(*, src: Path, dest: Path, gs: str = "gs") -> None
         raise PrintExportError(f"Ghostscript grayscale conversion failed: {detail[:600]}")
 
 
+def append_blank_pdf_page(
+    *,
+    pdf_path: Path,
+    width_inches: float,
+    height_inches: float,
+    gs: str = "gs",
+) -> None:
+    """Append one blank page matching trim size (IngramSpark even page-count rule)."""
+    gs_path = shutil.which(gs)
+    if not gs_path:
+        raise PrintExportError(f"Ghostscript ({gs}) not found on PATH")
+    if width_inches <= 0 or height_inches <= 0:
+        raise PrintExportError(f"Invalid trim for blank page: {width_inches}x{height_inches}")
+
+    # At 72 dpi, device pixels equal PDF points.
+    width_pt = int(round(float(width_inches) * 72.0))
+    height_pt = int(round(float(height_inches) * 72.0))
+    with tempfile.TemporaryDirectory(prefix="ingram-even-pad-") as tmp:
+        tmp_path = Path(tmp)
+        blank = tmp_path / "blank.pdf"
+        merged = tmp_path / "merged.pdf"
+        blank_cmd = [
+            gs_path,
+            "-dBATCH",
+            "-dNOPAUSE",
+            "-dSAFER",
+            "-sDEVICE=pdfwrite",
+            f"-g{width_pt}x{height_pt}",
+            "-r72",
+            f"-sOutputFile={blank.as_posix()}",
+            "-c",
+            "showpage",
+        ]
+        proc = subprocess.run(blank_cmd, capture_output=True, text=True, check=False)
+        if proc.returncode != 0 or not blank.is_file():
+            detail = (proc.stderr or proc.stdout or "").strip()
+            raise PrintExportError(f"Failed to create blank filler page: {detail[:600]}")
+
+        merge_cmd = [
+            gs_path,
+            "-dBATCH",
+            "-dNOPAUSE",
+            "-dSAFER",
+            "-sDEVICE=pdfwrite",
+            "-dCompatibilityLevel=1.4",
+            f"-sOutputFile={merged.as_posix()}",
+            pdf_path.as_posix(),
+            blank.as_posix(),
+        ]
+        proc = subprocess.run(merge_cmd, capture_output=True, text=True, check=False)
+        if proc.returncode != 0 or not merged.is_file():
+            detail = (proc.stderr or proc.stdout or "").strip()
+            raise PrintExportError(f"Failed to append blank filler page: {detail[:600]}")
+        shutil.copy2(merged, pdf_path)
+
+
+def ensure_even_print_page_count(
+    *,
+    pdf_path: Path,
+    width_inches: float,
+    height_inches: float,
+    gs: str = "gs",
+) -> bool:
+    """
+    If the interior page count is odd, append one blank page.
+
+    IngramSpark requires paperback interiors with page counts in [18, 1050] that are
+    divisible by 2. Returns True when a filler page was added.
+    """
+    inspection = inspect_pdf(pdf_path)
+    if inspection.errors:
+        raise PrintExportError(
+            "Cannot measure interior page count for even-pad:\n- " + "\n- ".join(inspection.errors)
+        )
+    pages = inspection.page_count
+    if pages is None or pages < 1:
+        raise PrintExportError("Interior PDF has no measurable page count")
+    if pages % 2 == 0:
+        return False
+    append_blank_pdf_page(
+        pdf_path=pdf_path,
+        width_inches=width_inches,
+        height_inches=height_inches,
+        gs=gs,
+    )
+    return True
+
+
 def validate_print_interior(
     *,
     pdf_path: Path,
     width_inches: float,
     height_inches: float,
     color_mode: str,
+    require_even_page_count: bool = True,
 ) -> dict[str, Any]:
     """
     Basic print-interior gates for INGRAM-004 scaffolding.
@@ -223,6 +312,12 @@ def validate_print_interior(
         errors.extend(inspection.errors)
     if inspection.page_count is None or inspection.page_count < 1:
         errors.append("Interior PDF has no measurable page count")
+    elif require_even_page_count and inspection.page_count % 2 != 0:
+        errors.append(
+            f"Interior page count is {inspection.page_count} (odd). IngramSpark requires "
+            "an even page count between 18 and 1050; the exporter should have appended a "
+            "blank filler page."
+        )
     if not media_box_matches_trim(
         inspection, width_inches=width_inches, height_inches=height_inches
     ):
@@ -348,6 +443,13 @@ def export_ingramspark_print_interior(
             # Color interiors: keep Pandoc/XeLaTeX output for now; CMYK path is later work.
             shutil.copy2(raw_pdf, final_pdf)
 
+    blank_page_appended = ensure_even_print_page_count(
+        pdf_path=final_pdf,
+        width_inches=width,
+        height_inches=height,
+        gs=gs,
+    )
+
     validation = validate_print_interior(
         pdf_path=final_pdf,
         width_inches=width,
@@ -367,6 +469,7 @@ def export_ingramspark_print_interior(
             {
                 "isbn": isbn,
                 "page_count": page_count,
+                "blank_page_appended": blank_page_appended,
                 "trim_inches": {"width": width, "height": height},
                 "color_mode": color_mode,
                 "edition": print_cfg.get("edition"),
