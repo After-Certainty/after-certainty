@@ -43,3 +43,5 @@ Spot-check after export:
 ## Release
 
 On push to `main`, CI builds and publishes `observer-patterns.pdf` to the rolling **latest** GitHub release when this book is in the affected set.
+
+IngramSpark print (paperback ISBN `9798256208776`) is `production-approved` and account-uploaded (2026-07). Ebook packaging remains disabled.

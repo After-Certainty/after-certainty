@@ -202,9 +202,9 @@ Belongs to the **back** panel when `barcode_mode: ingram-generated`. Validated a
 
 Profile-driven ImageMagick path (`print.cover_raster`). Working ICC profiles convert
 RGB→CMYK, then `strip_per_object_icc` removes them so the PDF is DeviceCMYK + Flate/Zip
-(no LZW). Everyone Knows Love cover upload accepted this construction (2026-07;
-`cover_raster.status: account-accepted`). Cover PDF/X OutputIntent remains
-`none-provisional`.
+(no LZW). Everyone Knows Love and Observer Patterns cover uploads accepted this
+construction (2026-07; `cover_raster.status: account-accepted`). Cover PDF/X
+OutputIntent remains `none-provisional`.
 
 ## Commands
 

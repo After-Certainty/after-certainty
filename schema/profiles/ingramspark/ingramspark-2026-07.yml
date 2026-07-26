@@ -72,10 +72,10 @@ print:
     notes: >
       Ghostscript ICC pair for deterministic RGB→CMYK. Working profiles are used only
       during conversion; strip_per_object_icc removes them so the cover PDF is DeviceCMYK
-      without per-object ICC. Cover PDFs use Flate/Zip (not LZW). Everyone Knows Love
-      cover 9798256206949_cvr.pdf accepted by IngramSpark account preflight (2026-07)
-      with this construction. Dimension validation remains blocking. Cover PDF/X
-      OutputIntent remains none-provisional.
+      without per-object ICC. Cover PDFs use Flate/Zip (not LZW). Account-accepted for
+      Everyone Knows Love 9798256206949_cvr.pdf and Observer Patterns 9798256208776_cvr.pdf
+      (2026-07). Dimension validation remains blocking. Cover PDF/X OutputIntent remains
+      none-provisional.
 
 conflicts:
   - id: epub-content-version
@@ -237,8 +237,8 @@ checks:
     confidence: account-verification-needed
     conflict_group: pdfx-vs-icc
     note: >
-      RGB→CMYK conversion follows print.cover_raster (account-accepted for EKL DeviceCMYK
-      + Flate without per-object ICC, 2026-07). Cover PDF/X OutputIntent remains
+      RGB→CMYK conversion follows print.cover_raster (account-accepted for EKL and OP
+      DeviceCMYK + Flate without per-object ICC, 2026-07). Cover PDF/X OutputIntent remains
       none-provisional; interior PDF/X/ICC policy is still account-verification-needed.
 
   - id: package-edition-isbn-unique

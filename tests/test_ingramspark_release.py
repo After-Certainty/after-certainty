@@ -275,9 +275,9 @@ def test_matrix_ingramspark_github_release_flags() -> None:
                 # EKL pilot is production-approved with rolling release attach.
                 assert row["ingramspark_github_release"] == "true", row
             elif row["slug"] == "observer-patterns":
-                # Print-only planning; no GitHub Release attach yet.
+                # Print-only; production-approved with rolling release attach.
                 assert row["ingramspark_ebook"] == "false", row
-                assert row["ingramspark_github_release"] == "false", row
+                assert row["ingramspark_github_release"] == "true", row
             else:
                 raise AssertionError(f"unexpected IngramSpark opt-in: {row}")
         else:
