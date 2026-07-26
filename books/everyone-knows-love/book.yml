@@ -129,7 +129,8 @@ frontmatter:
       repo_template: templates/title_page.md.j2
       output: front-matter/title-page.md
     copyright:
-      repo_template: templates/copyright.md.j2
+      # EKL-specific: leading \newpage for print openers (shared copyright template has none).
+      repo_template: templates/copyright_everyone_knows_love.md.j2
       output: front-matter/copyright.md
     about_the_series:
       repo_template: templates/about_the_series_everyone_knows_love.md.j2

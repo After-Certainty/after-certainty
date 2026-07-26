@@ -1,3 +1,5 @@
+\newpage
+
 # **About the Series**
 
 The books in the After Certainty series explore a recurring problem: human beings create systems to coordinate meaning, authority, responsibility, and collective action. Those systems solve real problems—they create stability where there was uncertainty, continuity where there was fragmentation, and cooperation where none was previously possible.
