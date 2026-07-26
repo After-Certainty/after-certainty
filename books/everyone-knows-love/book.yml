@@ -10,11 +10,16 @@ publishing:
         github_release: false
         immutable_release: false
       ebook:
+        # Reserved ISBN; keep disabled until cover meets IngramSpark pixel minima
+        # (≥1600 short side / ≥2560 long side). Current book-cover.png is 1024×1536.
         enabled: false
+        isbn: "9798256206956"
+        format: reflowable
+        cover_source: book-cover.png
       print:
         enabled: true
         edition: paperback
-        # print.isbn omitted until a real paperback ISBN is assigned
+        isbn: "9798256206949"
         binding: perfect-bound
         trim:
           width_inches: 6.0
@@ -43,6 +48,9 @@ book:
     website: https://after-certainty.com
   language: en
   copyright_year: 2026
+  isbns:
+  - "9798256206949"
+  - "9798256206956"
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
   content_type: nonfiction

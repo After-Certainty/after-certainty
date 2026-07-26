@@ -266,11 +266,11 @@ def test_existing_matrix_books_have_false_ingramspark_flags() -> None:
     assert payload["count"] >= 1
     opted_in = []
     for row in payload["include"]:
-        # Preview/planning opt-ins may package; GitHub Release attach stays off.
+        # Planning opt-ins may package; GitHub Release attach stays off.
         assert row["ingramspark_github_release"] == "false", row
         if row["package_ingramspark"] == "true":
             opted_in.append(row)
             assert row["slug"] == "everyone-knows-love", row
             assert row["ingramspark_print"] == "true", row
             assert row["ingramspark_ebook"] == "false", row
-    assert opted_in, "expected Everyone Knows Love planning cover-preview opt-in"
+    assert opted_in, "expected Everyone Knows Love IngramSpark print opt-in"

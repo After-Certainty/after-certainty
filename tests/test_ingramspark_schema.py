@@ -478,7 +478,7 @@ def test_print_isbn_required_when_github_release_packaging(tmp_path: Path) -> No
 
 
 def test_existing_repo_books_still_validate(repo_root: Path) -> None:
-    """Every current book.yml remains schema-valid; only planning cover previews may opt in."""
+    """Every current book.yml remains schema-valid; IngramSpark opt-ins stay planning."""
     from book_specs import discover_book_spec_paths
 
     paths = discover_book_spec_paths(repo_root)
@@ -491,5 +491,10 @@ def test_existing_repo_books_still_validate(repo_root: Path) -> None:
             target = spec_ingramspark_target(spec)
             assert target.get("status") == "planning"
             assert target.get("print", {}).get("enabled") is True
-            assert not str(target.get("print", {}).get("isbn") or "").strip()
-    assert any(p.name == "book.yml" and "everyone-knows-love" in p.as_posix() for p in opted_in)
+            assert (target.get("package") or {}).get("github_release") is not True
+    ekl = next(p for p in opted_in if "everyone-knows-love" in p.as_posix())
+    ekl_spec = load_book_spec(ekl)
+    ekl_target = spec_ingramspark_target(ekl_spec)
+    assert ekl_target["print"]["isbn"] == "9798256206949"
+    assert ekl_target["ebook"]["isbn"] == "9798256206956"
+    assert ekl_target["ebook"]["enabled"] is False
