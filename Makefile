@@ -36,7 +36,7 @@ help:
 	@echo "  make validate-ingramspark-print-cover DIR=path/to/book-folder"
 	@echo "  make build-ingramspark-print-cover DIR=path/to/book-folder"
 	@echo "  make preflight-ingramspark DIR=path/to/book-folder [EBOOK_ONLY=1|PRINT_ONLY=1]"
-	@echo "  make package-ingramspark DIR=path/to/book-folder [EBOOK_ONLY=1|PRINT_ONLY=1]"
+	@echo "  make package-ingramspark DIR=path/to/book-folder [EBOOK_ONLY=1|PRINT_ONLY=1]  (planning cover-preview ZIP when print.isbn omitted)"
 	@echo "  make install-epubcheck [EPUBCHECK_VERSION=5.3.0]"
 	@echo "  make export-all-docx"
 	@echo "  make build-book DIR=path/from/repo/root [OUT_DIR=build/...] [FORMATS=\"docx epub pdf\"]"
@@ -443,8 +443,9 @@ preflight-ingramspark: check-pandoc install-epubcheck
 		$(if $(PRINT_ONLY),--print-only,) \
 		$(if $(SKIP_BUILD),--skip-build,)
 
-# Submission-kit ZIP for enabled modes (ebook and/or print). Optional EBOOK_ONLY=1 / PRINT_ONLY=1.
-package-ingramspark: check-pandoc install-epubcheck
+# Submission-kit ZIP for enabled modes, or planning cover-preview ZIP when print.isbn is omitted.
+# Preview kits do not need pandoc/epubcheck; full print/ebook kits do.
+package-ingramspark:
 	@test -n "$(DIR)" || { echo "Usage: make package-ingramspark DIR=path/to/book-folder [EBOOK_ONLY=1|PRINT_ONLY=1] [SKIP_BUILD=1]"; exit 1; }
 	@python3 scripts/package_ingramspark.py --repo . --book-dir "$(DIR)" \
 		$(if $(EBOOK_ONLY),--ebook-only,) \

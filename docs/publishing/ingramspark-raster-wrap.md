@@ -124,7 +124,18 @@ publishing:
             front: assets/ingramspark/front.png
 ```
 
-Then: `make build-ingramspark-print-cover DIR=books/everyone-knows-love`
+Then:
+
+```bash
+make build-ingramspark-print-cover DIR=books/everyone-knows-love
+make package-ingramspark DIR=books/everyone-knows-love
+```
+
+The package target writes an inspectable **preview** ZIP (not a submission kit):
+
+`build/ingramspark/everyone-knows-love/everyone-knows-love-ingramspark-preview.zip`
+
+Contents: staged cover PDF, cover preflight, inspection overlay, README (`NOT FOR INGRAMSPARK UPLOAD`), checksums, and metadata. CI workflow `.github/workflows/ingramspark-preview.yml` uploads the same ZIP as a PR/workflow artifact named `ingramspark-preview-<book-id>`.
 
 ## template-meta.yml
 

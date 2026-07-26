@@ -17,6 +17,13 @@ Assembly order: **back → spine → front**.
 
 ```bash
 make build-ingramspark-print-cover DIR=books/everyone-knows-love
+make package-ingramspark DIR=books/everyone-knows-love
 ```
 
-Assign a real print ISBN (and lock interior page count / regenerate spine if needed) before packaging or upload. See `docs/publishing/ingramspark-raster-wrap.md`.
+Preview ZIP (inspectable, not for Ingram upload):
+
+`build/ingramspark/everyone-knows-love/everyone-knows-love-ingramspark-preview.zip`
+
+CI uploads the same file as workflow artifact `ingramspark-preview-everyone-knows-love`.
+
+Assign a real print ISBN (and lock interior page count / regenerate spine if needed) before packaging a submission kit or uploading to IngramSpark. See `docs/publishing/ingramspark-raster-wrap.md`.

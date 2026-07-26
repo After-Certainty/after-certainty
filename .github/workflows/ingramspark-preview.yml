@@ -1,0 +1,141 @@
+# Build planning IngramSpark cover-preview ZIPs and upload them as workflow artifacts
+# for human inspection (not submission kits; no print ISBN required).
+
+name: IngramSpark cover preview
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - "books/**/book.yml"
+      - "books/**/assets/ingramspark/**"
+      - "tools/ingramspark/**"
+      - "scripts/package_ingramspark.py"
+      - "scripts/convert_ingramspark_print_cover.py"
+      - "scripts/discover_ingramspark_preview_books.py"
+      - "schema/book.schema.json"
+      - "schema/profiles/ingramspark/**"
+      - ".github/workflows/ingramspark-preview.yml"
+  push:
+    branches: [main]
+    paths:
+      - "books/**/book.yml"
+      - "books/**/assets/ingramspark/**"
+      - "tools/ingramspark/**"
+      - "scripts/package_ingramspark.py"
+      - "scripts/convert_ingramspark_print_cover.py"
+      - "scripts/discover_ingramspark_preview_books.py"
+      - "schema/book.schema.json"
+      - "schema/profiles/ingramspark/**"
+      - ".github/workflows/ingramspark-preview.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: ingramspark-preview-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  PYTHON_VERSION: "3.12.3"
+
+jobs:
+  discover:
+    name: Discover preview books
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.set.outputs.matrix }}
+      empty: ${{ steps.set.outputs.empty }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install dependencies (frozen lock)
+        run: |
+          set -euo pipefail
+          bash scripts/ci_uv_sync.sh
+
+      - id: set
+        name: List planning cover-preview books
+        run: |
+          set -euo pipefail
+          python3 <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          import sys
+
+          sys.path.insert(0, "tools")
+          from book_specs import discover_book_spec_paths, load_book_spec
+          from ingramspark.paths import book_id, is_print_cover_preview
+
+          repo = Path(".").resolve()
+          books = []
+          for path in discover_book_spec_paths(repo):
+              try:
+                  spec = load_book_spec(path)
+              except ValueError:
+                  continue
+              if not is_print_cover_preview(spec):
+                  continue
+              bid = book_id(spec)
+              books.append({"id": bid, "dir": path.parent.relative_to(repo).as_posix(), "slug": bid})
+          print(f"Found {len(books)} preview book(s)")
+          print(json.dumps(books, indent=2))
+          out = os.environ["GITHUB_OUTPUT"]
+          with open(out, "a", encoding="utf-8") as fh:
+              if not books:
+                  fh.write("empty=true\n")
+                  fh.write('matrix={"include":[]}\n')
+              else:
+                  fh.write("empty=false\n")
+                  fh.write(f"matrix={json.dumps({'include': books})}\n")
+          PY
+
+  package:
+    name: Package ${{ matrix.slug }}
+    needs: discover
+    if: needs.discover.outputs.empty != 'true'
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJSON(needs.discover.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install system tools (ImageMagick + Ghostscript)
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends imagemagick ghostscript
+
+      - name: Install dependencies (frozen lock)
+        run: |
+          set -euo pipefail
+          bash scripts/ci_uv_sync.sh
+
+      - name: Build cover-preview ZIP
+        run: |
+          set -euo pipefail
+          make package-ingramspark DIR="${{ matrix.dir }}"
+          test -f "build/ingramspark/${{ matrix.id }}/${{ matrix.id }}-ingramspark-preview.zip"
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: ingramspark-preview-${{ matrix.slug }}
+          path: build/ingramspark/${{ matrix.id }}/${{ matrix.id }}-ingramspark-preview.zip
+          if-no-files-found: error
+          retention-days: 14

@@ -132,6 +132,14 @@ def ingramspark_artifact_name(book_id: str) -> str:
     return f"{stem}-ingramspark.zip"
 
 
+def ingramspark_preview_artifact_name(book_id: str) -> str:
+    """Planning cover-preview ZIP (not an IngramSpark submission kit)."""
+    stem = str(book_id).strip()
+    if not stem:
+        raise ValueError("book.id is required to derive IngramSpark preview artifact name")
+    return f"{stem}-ingramspark-preview.zip"
+
+
 def _validate_ingramspark_constraints(spec: dict[str, Any], spec_path: Path) -> None:
     """Semantic rules beyond JSON Schema (profile existence, ISBN uniqueness, assets)."""
     target = spec_ingramspark_target(spec)

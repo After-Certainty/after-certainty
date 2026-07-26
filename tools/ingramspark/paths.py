@@ -5,7 +5,11 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from book_specs import ingramspark_artifact_name, spec_ingramspark_target
+from book_specs import (
+    ingramspark_artifact_name,
+    ingramspark_preview_artifact_name,
+    spec_ingramspark_target,
+)
 
 
 def _as_dict(value: Any) -> dict[str, Any]:
@@ -91,5 +95,24 @@ def print_page_count_path(repo: Path, spec: dict[str, Any]) -> Path:
     return print_output_dir(repo, spec) / "page-count.json"
 
 
+def is_print_cover_preview(spec: dict[str, Any]) -> bool:
+    """
+    True when print is enabled without ISBN under status: planning.
+
+    Cover conversion and preview ZIPs are allowed; submission packaging is not.
+    """
+    target = spec_ingramspark_target(spec)
+    if target.get("status") != "planning":
+        return False
+    print_cfg = _as_dict(target.get("print"))
+    if print_cfg.get("enabled", False) is not True:
+        return False
+    return print_isbn_optional(spec) is None
+
+
 def package_zip_path(repo: Path, spec: dict[str, Any]) -> Path:
     return ingramspark_build_dir(repo, spec) / ingramspark_artifact_name(book_id(spec))
+
+
+def preview_package_zip_path(repo: Path, spec: dict[str, Any]) -> Path:
+    return ingramspark_build_dir(repo, spec) / ingramspark_preview_artifact_name(book_id(spec))
