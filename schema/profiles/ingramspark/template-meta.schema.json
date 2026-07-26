@@ -2,24 +2,13 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://after-certainty.com/schema/profiles/ingramspark/template-meta.schema.json",
   "title": "IngramSpark cover template observed metadata",
-  "description": "Observed geometry from an IngramSpark Cover Template Generator request. Compared to book.yml print.trim / print.cover at validation time; not a second hand-maintained trim authority.",
-  "type": "object",
-  "additionalProperties": false,
-  "required": [
-    "page_count",
-    "trim",
-    "binding",
-    "paper",
-    "color_mode",
-    "media_box"
+  "description": "Observed geometry from an IngramSpark Cover Template Generator request. Compared to book.yml print.trim / print.cover at validation time; not a second hand-maintained trim authority. Accepts legacy flat form (supplied-wrap PDF), single-wrap raster v1, or assembled three-panel raster v1.",
+  "oneOf": [
+    { "$ref": "#/$defs/legacyFlat" },
+    { "$ref": "#/$defs/rasterV1" }
   ],
-  "properties": {
-    "page_count": {
-      "type": "integer",
-      "minimum": 1,
-      "description": "Interior page count the template was generated for (PDF page count as submitted)."
-    },
-    "trim": {
+  "$defs": {
+    "trimInches": {
       "type": "object",
       "additionalProperties": false,
       "required": ["width_inches", "height_inches"],
@@ -28,20 +17,7 @@
         "height_inches": { "type": "number", "exclusiveMinimum": 0 }
       }
     },
-    "binding": {
-      "type": "string",
-      "enum": ["perfect-bound"]
-    },
-    "paper": {
-      "type": "string",
-      "enum": ["cream", "white"]
-    },
-    "color_mode": {
-      "type": "string",
-      "enum": ["black-and-white", "color"],
-      "description": "Interior color mode the template assumed."
-    },
-    "media_box": {
+    "mediaBoxInches": {
       "type": "object",
       "additionalProperties": false,
       "required": ["width_inches", "height_inches"],
@@ -51,20 +27,281 @@
         "height_inches": { "type": "number", "exclusiveMinimum": 0 }
       }
     },
-    "spine_width_inches": {
-      "type": "number",
-      "minimum": 0
+    "pixelSize": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["expected_width_pixels", "expected_height_pixels"],
+      "properties": {
+        "expected_width_pixels": { "type": "integer", "minimum": 1 },
+        "expected_height_pixels": { "type": "integer", "minimum": 1 }
+      }
     },
-    "barcode_supplied": {
-      "type": "boolean",
-      "description": "True when the wrap includes a supplied barcode; must match print.cover.barcode_mode."
+    "legacyFlat": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "page_count",
+        "trim",
+        "binding",
+        "paper",
+        "color_mode",
+        "media_box"
+      ],
+      "properties": {
+        "page_count": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Interior page count the template was generated for (PDF page count as submitted)."
+        },
+        "trim": { "$ref": "#/$defs/trimInches" },
+        "binding": {
+          "type": "string",
+          "enum": ["perfect-bound"]
+        },
+        "paper": {
+          "type": "string",
+          "enum": ["cream", "white"]
+        },
+        "color_mode": {
+          "type": "string",
+          "enum": ["black-and-white", "color"],
+          "description": "Interior color mode the template assumed."
+        },
+        "media_box": { "$ref": "#/$defs/mediaBoxInches" },
+        "spine_width_inches": {
+          "type": "number",
+          "minimum": 0
+        },
+        "barcode_supplied": {
+          "type": "boolean",
+          "description": "True when the wrap includes a supplied barcode; must match print.cover.barcode_mode."
+        },
+        "spine_text": {
+          "type": "boolean",
+          "description": "True when the wrap includes spine text (forbidden for paperback under 48 pages)."
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
     },
-    "spine_text": {
-      "type": "boolean",
-      "description": "True when the wrap includes spine text (forbidden for paperback under 48 pages)."
-    },
-    "notes": {
-      "type": "string"
+    "rasterV1": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "manufacturing",
+        "geometry",
+        "raster"
+      ],
+      "properties": {
+        "version": {
+          "type": "integer",
+          "const": 1
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "provider": {
+              "type": "string",
+              "enum": ["ingramspark"]
+            },
+            "template_file": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "manufacturing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "trim_width_inches",
+            "trim_height_inches",
+            "binding",
+            "paper",
+            "interior_color_mode",
+            "page_count"
+          ],
+          "properties": {
+            "trim_width_inches": { "type": "number", "exclusiveMinimum": 0 },
+            "trim_height_inches": { "type": "number", "exclusiveMinimum": 0 },
+            "binding": {
+              "type": "string",
+              "enum": ["perfect-bound"]
+            },
+            "paper": {
+              "type": "string",
+              "enum": ["cream", "white"]
+            },
+            "interior_color_mode": {
+              "type": "string",
+              "enum": ["black-and-white", "color"]
+            },
+            "page_count": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        },
+        "geometry": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "media_box_width_points",
+            "media_box_height_points",
+            "spine_width_points"
+          ],
+          "properties": {
+            "media_box_width_points": { "type": "number", "exclusiveMinimum": 0 },
+            "media_box_height_points": { "type": "number", "exclusiveMinimum": 0 },
+            "spine_width_points": { "type": "number", "minimum": 0 },
+            "bleed_points": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Uniform bleed on all sides (legacy). Prefer outside/top/bottom when they differ."
+            },
+            "outside_bleed_points": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Left (back) and right (front) outside bleed."
+            },
+            "top_bleed_points": { "type": "number", "minimum": 0 },
+            "bottom_bleed_points": { "type": "number", "minimum": 0 },
+            "safe_inset_points": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Optional inset from trim for type-safety guides on the inspection overlay."
+            }
+          },
+          "anyOf": [
+            { "required": ["bleed_points"] },
+            {
+              "required": [
+                "outside_bleed_points",
+                "top_bleed_points",
+                "bottom_bleed_points"
+              ]
+            }
+          ]
+        },
+        "raster": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["required_ppi"],
+          "properties": {
+            "required_ppi": {
+              "type": "integer",
+              "minimum": 72,
+              "description": "Authoritative PPI for pixel↔media-box mapping; embedded PNG DPI is ignored."
+            },
+            "expected_width_pixels": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Single full-wrap PNG expected width (raster-wrap)."
+            },
+            "expected_height_pixels": {
+              "type": "integer",
+              "minimum": 1,
+              "description": "Single full-wrap PNG expected height (raster-wrap)."
+            },
+            "full_wrap": {
+              "$ref": "#/$defs/pixelSize",
+              "description": "Assembled full-wrap expected dimensions (assembled-raster-wrap)."
+            },
+            "components": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["back", "spine", "front"],
+              "properties": {
+                "back": { "$ref": "#/$defs/pixelSize" },
+                "spine": { "$ref": "#/$defs/pixelSize" },
+                "front": { "$ref": "#/$defs/pixelSize" }
+              }
+            }
+          },
+          "anyOf": [
+            {
+              "required": [
+                "required_ppi",
+                "expected_width_pixels",
+                "expected_height_pixels"
+              ]
+            },
+            {
+              "required": ["required_ppi", "full_wrap", "components"]
+            }
+          ]
+        },
+        "barcode_reserve": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["required"],
+          "properties": {
+            "required": { "type": "boolean" },
+            "panel": {
+              "type": "string",
+              "enum": ["back"],
+              "description": "Panel owning the reserve (always back for paperback wraps)."
+            },
+            "width_inches": { "type": "number", "exclusiveMinimum": 0 },
+            "height_inches": { "type": "number", "exclusiveMinimum": 0 },
+            "x_points": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Lower-left X in PDF media-box coordinates (points)."
+            },
+            "y_points": {
+              "type": "number",
+              "minimum": 0,
+              "description": "Lower-left Y in PDF media-box coordinates (points)."
+            },
+            "x_pixels": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Top-left X within the back panel image (pixels)."
+            },
+            "y_pixels": {
+              "type": "integer",
+              "minimum": 0,
+              "description": "Top-left Y within the back panel image (pixels; y increases downward)."
+            },
+            "width_pixels": { "type": "integer", "minimum": 1 },
+            "height_pixels": { "type": "integer", "minimum": 1 }
+          },
+          "anyOf": [
+            {
+              "required": [
+                "required",
+                "width_inches",
+                "height_inches",
+                "x_points",
+                "y_points"
+              ]
+            },
+            {
+              "required": [
+                "required",
+                "panel",
+                "x_pixels",
+                "y_pixels",
+                "width_pixels",
+                "height_pixels"
+              ]
+            }
+          ]
+        },
+        "barcode_supplied": {
+          "type": "boolean"
+        },
+        "spine_text": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
     }
   }
 }

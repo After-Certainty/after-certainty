@@ -463,3 +463,152 @@ def test_verify_checksums_detects_mismatch(tmp_path: Path) -> None:
     assert verify_checksums_file(root / "checksums.sha256", root=root) == []
     f.write_bytes(b"abcd")
     assert verify_checksums_file(root / "checksums.sha256", root=root)
+
+
+convert = shutil.which("convert") or shutil.which("magick")
+requires_im = pytest.mark.skipif(convert is None, reason="ImageMagick required")
+requires_pillow = pytest.mark.skipif(
+    __import__("importlib").util.find_spec("PIL") is None, reason="Pillow required"
+)
+
+
+@requires_pillow
+@requires_im
+def test_planning_cover_preview_zip_without_isbn(tmp_path: Path) -> None:
+    from PIL import Image
+
+    from ingramspark.template_meta import pixels_from_points
+
+    repo = _temp_repo(tmp_path)
+    book_dir = repo / "books" / "ingram-pkg-preview"
+    assets = book_dir / "assets" / "ingramspark"
+    assets.mkdir(parents=True)
+    ppi = 72
+    outside = 9.0
+    top = 9.0
+    bottom = 9.0
+    spine_pt = 36.0
+    trim_w = 6.0
+    trim_h = 9.0
+    box_w = 918.0
+    box_h = 666.0
+    back_w = pixels_from_points(outside + trim_w * 72, ppi)
+    spine_w = pixels_from_points(spine_pt, ppi)
+    front_w = pixels_from_points(trim_w * 72 + outside, ppi)
+    height = pixels_from_points(box_h, ppi)
+    for name, width, color in (
+        ("back.png", back_w, (200, 40, 40)),
+        ("spine.png", spine_w, (40, 200, 40)),
+        ("front.png", front_w, (40, 40, 200)),
+    ):
+        Image.new("RGB", (width, height), color).save(assets / name, format="PNG", dpi=(ppi, ppi))
+    meta = {
+        "version": 1,
+        "source": {"provider": "ingramspark", "template_file": "template.pdf"},
+        "manufacturing": {
+            "trim_width_inches": trim_w,
+            "trim_height_inches": trim_h,
+            "binding": "perfect-bound",
+            "paper": "cream",
+            "interior_color_mode": "black-and-white",
+            "page_count": 100,
+        },
+        "geometry": {
+            "media_box_width_points": box_w,
+            "media_box_height_points": box_h,
+            "spine_width_points": spine_pt,
+            "outside_bleed_points": outside,
+            "top_bleed_points": top,
+            "bottom_bleed_points": bottom,
+            "safe_inset_points": 18.0,
+        },
+        "raster": {
+            "required_ppi": ppi,
+            "full_wrap": {
+                "expected_width_pixels": back_w + spine_w + front_w,
+                "expected_height_pixels": height,
+            },
+            "components": {
+                "back": {"expected_width_pixels": back_w, "expected_height_pixels": height},
+                "spine": {"expected_width_pixels": spine_w, "expected_height_pixels": height},
+                "front": {"expected_width_pixels": front_w, "expected_height_pixels": height},
+            },
+        },
+        "barcode_supplied": False,
+        "spine_text": False,
+        "barcode_reserve": {
+            "required": True,
+            "panel": "back",
+            "x_pixels": 40,
+            "y_pixels": max(0, height - 9 - 72 - 40),
+            "width_pixels": 126,
+            "height_pixels": 72,
+        },
+    }
+    (assets / "template-meta.yml").write_text(
+        yaml.safe_dump(meta, sort_keys=False), encoding="utf-8"
+    )
+    (book_dir / "index.md").write_text("# Preview\n", encoding="utf-8")
+    spec = {
+        "version": 1,
+        "publishing": {
+            "enabled": True,
+            "targets": {
+                "ingramspark": {
+                    "enabled": True,
+                    "specification_profile": "ingramspark-2026-07",
+                    "status": "planning",
+                    "package": {"github_release": False, "immutable_release": False},
+                    "ebook": {"enabled": False},
+                    "print": {
+                        "enabled": True,
+                        "edition": "paperback",
+                        "binding": "perfect-bound",
+                        "trim": {"width_inches": trim_w, "height_inches": trim_h},
+                        "interior": {
+                            "color_mode": "black-and-white",
+                            "paper": "cream",
+                            "bleed": False,
+                        },
+                        "cover": {
+                            "strategy": "assembled-raster-wrap",
+                            "assets": {
+                                "back": "assets/ingramspark/back.png",
+                                "spine": "assets/ingramspark/spine.png",
+                                "front": "assets/ingramspark/front.png",
+                            },
+                            "template_metadata": "assets/ingramspark/template-meta.yml",
+                            "template_page_count": 100,
+                            "barcode_mode": "ingram-generated",
+                        },
+                    },
+                }
+            },
+        },
+        "book": {
+            "id": "ingram-pkg-preview",
+            "title": "Preview Book",
+            "language": "en",
+            "copyright_year": 2026,
+            "author": {"name": "Test Author"},
+        },
+        "paths": {"manuscript": "./index.md", "output": "."},
+        "frontmatter": {"generate": {"enabled": False}},
+        "build": {"formats": {"epub": {"enabled": False}, "pdf": {"enabled": False}}},
+        "github": {"release": False, "release_tag": "latest", "artifacts": ["epub"]},
+    }
+    (book_dir / "book.yml").write_text(yaml.safe_dump(spec, sort_keys=False), encoding="utf-8")
+    loaded = load_spec_for_book_dir(book_dir)
+    result = package_ingramspark(repo=repo, book_dir=book_dir, spec=loaded)
+    assert result.zip_path.name == "ingram-pkg-preview-ingramspark-preview.zip"
+    assert result.modes == ["print-cover-preview"]
+    assert result.manifest.get("preview") is True
+    assert result.manifest.get("isbns") == {}
+    with zipfile.ZipFile(result.zip_path, "r") as zf:
+        names = set(zf.namelist())
+        readme = zf.read("README-UPLOAD.txt").decode("utf-8")
+    assert "print/ingram-pkg-preview_cvr.pdf" in names
+    assert "print-cover/preflight.json" in names
+    assert "print-cover/inspection-overlay.png" in names
+    assert "NOT FOR INGRAMSPARK UPLOAD" in readme
+    assert not any("_txt.pdf" in n for n in names)

@@ -1133,6 +1133,8 @@ Pilot sequence (aligned with the task graph in §26–§27):
 - **Rollback:** N/A beyond disabling print
 - **Size:** M–L
 
+**Raster full-wrap follow-on:** `print.cover.strategy: raster-wrap` converts a flattened PNG to `{isbn}_cvr.pdf` with exact pixel matching (no scaling). See [`docs/publishing/ingramspark-raster-wrap.md`](../publishing/ingramspark-raster-wrap.md).
+
 ### INGRAM-006 — Unified preflight framework
 
 - **Purpose:** Profile-driven blocking/warning/manual report (JSON + text); ebook checks usable before print checks exist

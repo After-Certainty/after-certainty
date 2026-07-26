@@ -32,7 +32,15 @@ if ! command -v uv >/dev/null 2>&1 || [[ "$(uv --version 2>/dev/null | awk '{pri
   rm -rf "$tmpdir"
 fi
 
-uv sync --frozen
+# Optional dependency groups, e.g. UV_GROUPS="publishing" or UV_GROUPS="dev".
+sync_args=(--frozen)
+if [[ -n "${UV_GROUPS:-}" ]]; then
+  # shellcheck disable=SC2206
+  for group in ${UV_GROUPS}; do
+    sync_args+=(--group "${group}")
+  done
+fi
+uv sync "${sync_args[@]}"
 export PATH="${ROOT}/.venv/bin:$PATH"
 # GITHUB_PATH is consumed by *subsequent* workflow steps only — not later
 # commands in the same step. Prefer a separate install step, or call scripts

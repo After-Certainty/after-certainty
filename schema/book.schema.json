@@ -710,7 +710,8 @@
           "description": "Initial schema supports paperback only; hardcover requires a future multi-edition model."
         },
         "isbn": {
-          "$ref": "#/$defs/isbn13"
+          "$ref": "#/$defs/isbn13",
+          "description": "Print edition ISBN-13. Required for production-approved status, packaging/releases, and interior export. Optional in status: planning for cover-preview builds (output stages as {book.id}_cvr.pdf)."
         },
         "binding": {
           "type": "string",
@@ -742,7 +743,6 @@
         "required": [
           "enabled",
           "edition",
-          "isbn",
           "binding",
           "trim",
           "interior",
@@ -808,6 +808,8 @@
           "type": "string",
           "enum": [
             "supplied-wrap",
+            "raster-wrap",
+            "assembled-raster-wrap",
             "template-generated",
             "hybrid"
           ]
@@ -815,7 +817,36 @@
         "source": {
           "type": "string",
           "minLength": 1,
-          "description": "Full-wrap cover PDF path relative to the book directory."
+          "description": "Full-wrap cover source relative to the book directory (PDF for supplied-wrap; flattened PNG for raster-wrap)."
+        },
+        "assets": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "back",
+            "spine",
+            "front"
+          ],
+          "description": "Three-panel PNG paths for assembled-raster-wrap (relative to the book directory).",
+          "properties": {
+            "back": {
+              "type": "string",
+              "minLength": 1
+            },
+            "spine": {
+              "type": "string",
+              "minLength": 1
+            },
+            "front": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "template_metadata": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Path to template-meta.yml relative to the book directory (required for raster-wrap and assembled-raster-wrap)."
         },
         "template_source": {
           "type": "string",
@@ -835,24 +866,70 @@
           ]
         }
       },
-      "if": {
-        "properties": {
-          "strategy": {
-            "const": "supplied-wrap"
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "strategy": {
+                "const": "supplied-wrap"
+              }
+            },
+            "required": [
+              "strategy"
+            ]
+          },
+          "then": {
+            "required": [
+              "strategy",
+              "source",
+              "template_page_count",
+              "barcode_mode"
+            ]
           }
         },
-        "required": [
-          "strategy"
-        ]
-      },
-      "then": {
-        "required": [
-          "strategy",
-          "source",
-          "template_page_count",
-          "barcode_mode"
-        ]
-      }
+        {
+          "if": {
+            "properties": {
+              "strategy": {
+                "const": "raster-wrap"
+              }
+            },
+            "required": [
+              "strategy"
+            ]
+          },
+          "then": {
+            "required": [
+              "strategy",
+              "source",
+              "template_metadata",
+              "template_page_count",
+              "barcode_mode"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "strategy": {
+                "const": "assembled-raster-wrap"
+              }
+            },
+            "required": [
+              "strategy"
+            ]
+          },
+          "then": {
+            "required": [
+              "strategy",
+              "assets",
+              "template_metadata",
+              "template_page_count",
+              "barcode_mode"
+            ]
+          }
+        }
+      ]
     },
     "ingramsparkOverride": {
       "type": "object",

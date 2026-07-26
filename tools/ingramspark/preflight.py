@@ -50,6 +50,9 @@ _ISSUE_TO_PROFILE_CHECK: dict[str, str] = {
     "print-cover-binding": "print-cover-trim-match",
     "print-cover-paper": "print-cover-trim-match",
     "print-cover-color": "print-cover-trim-match",
+    "print-cover-raster-dimensions": "print-cover-raster-dimensions",
+    "print-cover-raster-color": "print-cover-raster-color",
+    "print-cover-transparency": "print-cover-raster-dimensions",
 }
 
 
@@ -189,6 +192,12 @@ def _manual_review_checklist(*, ebook: bool, print_on: bool) -> list[str]:
 
 def _classify_cover_error(message: str) -> str:
     lower = message.lower()
+    if "raster wrap dimensions" in lower or "will not stretch" in lower:
+        return "print-cover-raster-dimensions"
+    if "transparent" in lower or "transparency" in lower:
+        return "print-cover-transparency"
+    if "cmyk conversion" in lower or "working icc" in lower:
+        return "print-cover-raster-color"
     if "template was generated" in lower or "template_page_count" in lower or "page_count" in lower:
         return "print-cover-page-count"
     if "media box" in lower:

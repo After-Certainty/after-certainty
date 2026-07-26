@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """
-Assemble an IngramSpark submission-kit ZIP.
+Assemble an IngramSpark submission-kit ZIP (or planning cover-preview ZIP).
 
 Supports ebook-only, print-only, or combined packages per book.yml (INGRAM-007).
+When print is enabled without ISBN under status: planning, writes
+``{book.id}-ingramspark-preview.zip`` for inspection (not for Ingram upload).
 Use --preflight-only to run checks without writing a ZIP.
 """
 

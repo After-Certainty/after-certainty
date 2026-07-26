@@ -14,10 +14,15 @@ from typing import Any, Literal
 
 from book_specs import (
     ingramspark_artifact_name,
+    ingramspark_preview_artifact_name,
     spec_ingramspark_enabled,
     spec_ingramspark_target,
 )
-from ingramspark.cover_validate import CoverValidateError, validate_print_cover_or_raise
+from ingramspark.cover_validate import (
+    CoverValidateError,
+    validate_print_cover,
+    validate_print_cover_or_raise,
+)
 from ingramspark.ebook_cover import EbookCoverError, export_ebook_cover_jpg
 from ingramspark.ebook_export import EbookExportError, export_ingramspark_epub
 from ingramspark.paths import (
@@ -25,15 +30,22 @@ from ingramspark.paths import (
     ebook_isbn,
     ebook_output_dir,
     ingramspark_build_dir,
+    is_print_cover_preview,
     package_zip_path,
+    preview_package_zip_path,
+    print_cover_basename,
     print_cover_pdf_path,
+    print_cover_work_dir,
     print_interior_pdf_path,
     print_isbn,
+    print_isbn_optional,
     print_output_dir,
     print_page_count_path,
+    sanitize_report_paths,
 )
 from ingramspark.preflight import (
     PreflightError,
+    PreflightIssue,
     UnifiedPreflightReport,
     run_preflight,
     select_modes,
@@ -42,7 +54,7 @@ from ingramspark.preflight import (
 from ingramspark.print_export import PrintExportError, export_ingramspark_print_interior
 from ingramspark.profile import load_profile
 
-Mode = Literal["ebook", "print"]
+Mode = Literal["ebook", "print", "print-cover-preview"]
 
 
 class PackageError(ValueError):
@@ -110,6 +122,27 @@ def _add_zip_file(
     zf.writestr(info, data)
 
 
+_TEXT_ARC_SUFFIXES = (".json", ".txt", ".yml", ".yaml", ".sha256", ".md")
+
+
+def _packaged_member_bytes(*, repo: Path, arcname: str, data: bytes) -> bytes:
+    """Rewrite absolute repo/home paths in text members before they enter the ZIP."""
+    lower = arcname.lower()
+    if not any(lower.endswith(suffix) for suffix in _TEXT_ARC_SUFFIXES):
+        return data
+    try:
+        text = data.decode("utf-8")
+    except UnicodeDecodeError:
+        return data
+    root = repo.resolve().as_posix().rstrip("/")
+    text = text.replace(root + "/", "").replace(root, ".")
+    # Defense in depth for runner workspaces that somehow diverge from repo resolve().
+    sanitized = sanitize_report_paths(text, repo=repo)
+    if isinstance(sanitized, str):
+        text = sanitized
+    return text.encode("utf-8")
+
+
 def write_readme_upload(
     *,
     spec: dict[str, Any],
@@ -126,6 +159,54 @@ def write_readme_upload(
     title = str(book.get("title") or "")
     author = _as_dict(book.get("author")).get("name") or ""
     mode_label = "+".join(modes) if modes else "empty"
+    preview = "print-cover-preview" in modes
+    if preview:
+        cover_name = print_cover_basename(spec)
+        lines = [
+            f"IngramSpark COVER PREVIEW kit ({mode_label})",
+            "=" * (34 + len(mode_label)),
+            "",
+            "NOT FOR INGRAMSPARK UPLOAD.",
+            "This ZIP is a planning/inspection artifact (no print ISBN / no interior).",
+            "Do not submit these files to IngramSpark until a real print ISBN is assigned",
+            "and a full submission kit is packaged.",
+            "",
+            f"Title: {title}",
+            f"Author: {author}",
+            f"Specification profile: {profile_id}",
+            f"Modes: {', '.join(modes)}",
+            "",
+            "Inspectable print cover",
+            "-----------------------",
+            f"Cover wrap (PDF):   print/{cover_name}",
+            "Cover preflight:    print-cover/preflight.json",
+            "Inspection overlay: print-cover/inspection-overlay.png",
+            f"Edition:            {print_cfg.get('edition')}",
+            f"Binding:            {print_cfg.get('binding')}",
+            f"Barcode mode:       {_as_dict(print_cfg.get('cover')).get('barcode_mode')}",
+            f"Template pages:     {_as_dict(print_cfg.get('cover')).get('template_page_count')}",
+            "",
+        ]
+        lines.extend(
+            [
+                "Manual checks still required",
+                "----------------------------",
+            ]
+        )
+        if manual_review:
+            lines.extend(f"- {item}" for item in manual_review)
+        else:
+            lines.append(
+                "- Confirm spine seams, barcode clear area, and color before ordering ISBN."
+            )
+        lines.append("")
+        if warnings:
+            lines.append("Known warnings from preflight")
+            lines.append("-----------------------------")
+            lines.extend(f"- {w}" for w in warnings)
+            lines.append("")
+        return "\n".join(lines)
+
     lines = [
         f"IngramSpark submission kit ({mode_label})",
         "=" * (28 + len(mode_label)),
@@ -379,6 +460,255 @@ def build_package_manifest(
     return manifest
 
 
+def _write_zip_bundle(
+    *,
+    repo: Path,
+    zip_path: Path,
+    readme: str,
+    manifest: dict[str, Any],
+    files: dict[str, Path],
+    book_yml_snapshot: str,
+    tool_versions: dict[str, Any],
+) -> None:
+    safe_manifest = sanitize_report_paths(manifest, repo=repo)
+    checksum_lines = [
+        f"{meta['sha256']}  {arcname}" for arcname, meta in sorted(safe_manifest["files"].items())
+    ]
+    date_time = zip_date_time()
+    members: list[tuple[str, bytes]] = [
+        ("README-UPLOAD.txt", readme.encode("utf-8")),
+        (
+            "package-manifest.json",
+            json.dumps(safe_manifest, indent=2, sort_keys=True).encode("utf-8") + b"\n",
+        ),
+        ("checksums.sha256", ("\n".join(checksum_lines) + "\n").encode("utf-8")),
+        ("metadata/book-yml-snapshot.yml", book_yml_snapshot.encode("utf-8")),
+        (
+            "metadata/production-metadata.json",
+            json.dumps(safe_manifest, indent=2, sort_keys=True).encode("utf-8") + b"\n",
+        ),
+        ("metadata/source-commit.txt", (safe_manifest["source_commit"] + "\n").encode("utf-8")),
+        (
+            "metadata/tool-versions.json",
+            json.dumps(tool_versions, indent=2, sort_keys=True).encode("utf-8") + b"\n",
+        ),
+    ]
+    for arcname, path in sorted(files.items()):
+        members.append(
+            (
+                arcname,
+                _packaged_member_bytes(repo=repo, arcname=arcname, data=path.read_bytes()),
+            )
+        )
+
+    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+        for arcname, data in sorted(members, key=lambda item: item[0]):
+            _add_zip_file(
+                zf,
+                arcname,
+                _packaged_member_bytes(repo=repo, arcname=arcname, data=data),
+                date_time,
+            )
+
+
+def package_print_cover_preview(
+    *,
+    repo: Path,
+    book_dir: Path,
+    spec: dict[str, Any],
+    skip_build: bool = False,
+) -> PackageResult:
+    """
+    Build ``{book.id}-ingramspark-preview.zip`` for planning cover inspection.
+
+    No print ISBN / interior required. Not a submission kit.
+    """
+    if not spec_ingramspark_enabled(spec):
+        raise PackageError("publishing.targets.ingramspark.enabled must be true")
+    if not is_print_cover_preview(spec):
+        raise PackageError(
+            "print-cover-preview requires status: planning, print.enabled, and no print.isbn"
+        )
+    target = spec_ingramspark_target(spec)
+    ebook = _as_dict(target.get("ebook"))
+    if ebook.get("enabled", False) is True:
+        raise PackageError(
+            "print-cover-preview packaging is cover-only; disable ebook.enabled "
+            "or assign print.isbn for a full submission kit"
+        )
+
+    profile_id = str(target.get("specification_profile") or "").strip()
+    profile = load_profile(profile_id)
+    build_dir = ingramspark_build_dir(repo, spec)
+    build_dir.mkdir(parents=True, exist_ok=True)
+    modes: list[str] = ["print-cover-preview"]
+
+    if not skip_build:
+        try:
+            validate_print_cover_or_raise(repo=repo, book_dir=book_dir, spec=spec, stage=True)
+        except CoverValidateError as exc:
+            raise PackageError(str(exc)) from exc
+    else:
+        cover_pdf = print_cover_pdf_path(repo, spec)
+        if not cover_pdf.is_file():
+            raise PackageError(
+                f"Missing staged cover preview PDF for --skip-build: {cover_pdf}. "
+                "Run make build-ingramspark-print-cover first."
+            )
+
+    cover_result = validate_print_cover(repo=repo, book_dir=book_dir, spec=spec, stage=False)
+    issues: list[PreflightIssue] = []
+    for message in cover_result.errors:
+        issues.append(PreflightIssue(id="print-cover-error", severity="blocking", message=message))
+    for message in cover_result.warnings:
+        issues.append(PreflightIssue(id="print-cover-warning", severity="warning", message=message))
+    issues.append(
+        PreflightIssue(
+            id="print-cover-preview",
+            severity="informational",
+            message=(
+                "Planning cover-preview package (no print ISBN / no interior). "
+                "Not for IngramSpark upload."
+            ),
+        )
+    )
+    preflight = UnifiedPreflightReport(
+        ok=not cover_result.errors and not any(i.severity == "blocking" for i in issues),
+        specification_profile=profile_id,
+        modes=list(modes),
+        issues=issues,
+        manual_review=[
+            "NOT FOR INGRAMSPARK UPLOAD — planning cover preview only.",
+            "Assign a print ISBN and rebuild a full submission kit before upload.",
+            *list(cover_result.warnings),
+        ],
+        tool_versions={
+            "specification_profile": profile_id,
+            "epub_content_version": str(profile.get("epub_content_version") or ""),
+            "epubcheck_tool_version": str(profile.get("epubcheck_tool_version") or ""),
+        },
+        print_cover=cover_result.to_dict(),
+        profile_checks_applied=["print-cover-preview"],
+    )
+    write_unified_preflight_reports(preflight, repo=repo, spec=spec)
+    if not preflight.ok:
+        raise PackageError(preflight.human_text())
+
+    cover_pdf = print_cover_pdf_path(repo, spec)
+    work_dir = print_cover_work_dir(repo, spec)
+    files: dict[str, Path] = {
+        f"print/{cover_pdf.name}": cover_pdf,
+    }
+    for name in (
+        "preflight.json",
+        "preflight.txt",
+        "inspection-overlay.png",
+        "source-inspection.json",
+    ):
+        path = work_dir / name
+        if path.is_file():
+            files[f"print-cover/{name}"] = path
+    root_preflight = build_dir / "preflight.json"
+    if root_preflight.is_file():
+        files["preflight.json"] = root_preflight
+    for arcname, path in files.items():
+        if not path.is_file():
+            raise PackageError(f"Missing package member {arcname}: {path}")
+
+    file_hashes = {
+        arcname: {"sha256": sha256_file(path)}
+        for arcname, path in sorted(files.items())
+        if not arcname.endswith("preflight.json")
+        and not arcname.endswith("preflight.txt")
+        and arcname != "preflight.json"
+    }
+    print_cfg = _as_dict(target.get("print"))
+    cover = _as_dict(print_cfg.get("cover"))
+    trim = _as_dict(print_cfg.get("trim"))
+    interior = _as_dict(print_cfg.get("interior"))
+    artifact = ingramspark_preview_artifact_name(book_id(spec))
+    manifest: dict[str, Any] = {
+        "book_id": book_id(spec),
+        "slug": book_id(spec),
+        "title": _as_dict(spec.get("book")).get("title"),
+        "subtitle": _as_dict(spec.get("book")).get("subtitle"),
+        "author": _as_dict(_as_dict(spec.get("book")).get("author")).get("name"),
+        "edition": print_cfg.get("edition"),
+        "modes": list(modes),
+        "preview": True,
+        "isbns": {},
+        "source_commit": git_commit(repo),
+        "dirty_tree": git_dirty(repo),
+        "build_timestamp": build_timestamp(),
+        "specification_profile": profile_id,
+        "epub_content_version": profile.get("epub_content_version"),
+        "epubcheck_tool_version": profile.get("epubcheck_tool_version"),
+        "tool_versions": preflight.tool_versions,
+        "preflight": preflight.to_dict(),
+        "human_review": preflight.manual_review,
+        "files": file_hashes,
+        "artifact_name": artifact,
+        "book_dir": book_dir.relative_to(repo).as_posix()
+        if book_dir.is_relative_to(repo)
+        else book_dir.as_posix(),
+        "print": {
+            "binding": print_cfg.get("binding"),
+            "trim_inches": {
+                "width": trim.get("width_inches"),
+                "height": trim.get("height_inches"),
+            },
+            "paper": interior.get("paper"),
+            "color_mode": interior.get("color_mode"),
+            "bleed": interior.get("bleed"),
+            "barcode_mode": cover.get("barcode_mode"),
+            "template_page_count": cover.get("template_page_count"),
+            "interior_page_count": None,
+            "cover_filename": cover_pdf.name,
+        },
+    }
+
+    warnings = [i.message for i in preflight.issues if i.severity == "warning"]
+    readme = write_readme_upload(
+        spec=spec,
+        profile_id=profile_id,
+        modes=modes,
+        warnings=warnings,
+        manual_review=preflight.manual_review,
+        print_meta=None,
+    )
+    book_yml_snapshot = (book_dir / "book.yml").read_text(encoding="utf-8")
+    meta_dir = build_dir / "metadata"
+    meta_dir.mkdir(parents=True, exist_ok=True)
+    (meta_dir / "book-yml-snapshot.yml").write_text(book_yml_snapshot, encoding="utf-8")
+    (meta_dir / "production-metadata.json").write_text(
+        json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    (meta_dir / "source-commit.txt").write_text(manifest["source_commit"] + "\n", encoding="utf-8")
+    (meta_dir / "tool-versions.json").write_text(
+        json.dumps(preflight.tool_versions, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    (build_dir / "package-manifest.json").write_text(
+        json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    (build_dir / "README-UPLOAD.txt").write_text(readme, encoding="utf-8")
+    checksum_lines = [
+        f"{meta['sha256']}  {arcname}" for arcname, meta in sorted(manifest["files"].items())
+    ]
+    (build_dir / "checksums.sha256").write_text("\n".join(checksum_lines) + "\n", encoding="utf-8")
+
+    zip_path = preview_package_zip_path(repo, spec)
+    _write_zip_bundle(
+        repo=repo,
+        zip_path=zip_path,
+        readme=readme,
+        manifest=manifest,
+        files=files,
+        book_yml_snapshot=book_yml_snapshot,
+        tool_versions=preflight.tool_versions,
+    )
+    return PackageResult(zip_path=zip_path, modes=list(modes), manifest=manifest)
+
+
 def package_ingramspark(
     *,
     repo: Path,
@@ -395,16 +725,37 @@ def package_ingramspark(
     """
     Build ``{book.id}-ingramspark.zip`` for enabled modes.
 
+    When print is enabled without ISBN under ``status: planning``, builds a
+    cover-preview ZIP (``{book.id}-ingramspark-preview.zip``) instead.
+
     ``--ebook-only`` / ``--print-only`` restrict modes; otherwise package whatever
     ``book.yml`` enables. Ebook-only ZIPs omit ``print/``; print-only omits ``ebook/``.
     """
     if not spec_ingramspark_enabled(spec):
         raise PackageError("publishing.targets.ingramspark.enabled must be true")
 
+    if is_print_cover_preview(spec) and not ebook_only:
+        return package_print_cover_preview(
+            repo=repo,
+            book_dir=book_dir,
+            spec=spec,
+            skip_build=skip_build,
+        )
+    if is_print_cover_preview(spec) and ebook_only:
+        raise PackageError(
+            "print.isbn is omitted (planning cover preview); cannot package ebook-only "
+            "from this print-preview configuration without a print ISBN path change"
+        )
+
     try:
         modes = select_modes(spec, ebook_only=ebook_only, print_only=print_only)
     except PreflightError as exc:
         raise PackageError(str(exc)) from exc
+
+    if "print" in modes and print_isbn_optional(spec) is None:
+        raise PackageError(
+            "publishing.targets.ingramspark.print.isbn is required for submission packaging"
+        )
 
     target = spec_ingramspark_target(spec)
     profile_id = str(target.get("specification_profile") or "").strip()
@@ -467,9 +818,6 @@ def package_ingramspark(
         print_meta=print_meta,
     )
 
-    checksum_lines = [
-        f"{meta['sha256']}  {arcname}" for arcname, meta in sorted(manifest["files"].items())
-    ]
     tool_versions = {
         "specification_profile": profile_id,
         "epub_content_version": profile.get("epub_content_version"),
@@ -492,35 +840,21 @@ def package_ingramspark(
         json.dumps(manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
     (build_dir / "README-UPLOAD.txt").write_text(readme, encoding="utf-8")
+    checksum_lines = [
+        f"{meta['sha256']}  {arcname}" for arcname, meta in sorted(manifest["files"].items())
+    ]
     (build_dir / "checksums.sha256").write_text("\n".join(checksum_lines) + "\n", encoding="utf-8")
 
-    date_time = zip_date_time()
     zip_path = package_zip_path(repo, spec)
-    members: list[tuple[str, bytes]] = [
-        ("README-UPLOAD.txt", readme.encode("utf-8")),
-        (
-            "package-manifest.json",
-            json.dumps(manifest, indent=2, sort_keys=True).encode("utf-8") + b"\n",
-        ),
-        ("checksums.sha256", ("\n".join(checksum_lines) + "\n").encode("utf-8")),
-        ("metadata/book-yml-snapshot.yml", book_yml_snapshot.encode("utf-8")),
-        (
-            "metadata/production-metadata.json",
-            json.dumps(manifest, indent=2, sort_keys=True).encode("utf-8") + b"\n",
-        ),
-        ("metadata/source-commit.txt", (manifest["source_commit"] + "\n").encode("utf-8")),
-        (
-            "metadata/tool-versions.json",
-            json.dumps(tool_versions, indent=2, sort_keys=True).encode("utf-8") + b"\n",
-        ),
-    ]
-    for arcname, path in sorted(files.items()):
-        members.append((arcname, path.read_bytes()))
-
-    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
-        for arcname, data in sorted(members, key=lambda item: item[0]):
-            _add_zip_file(zf, arcname, data, date_time)
-
+    _write_zip_bundle(
+        repo=repo,
+        zip_path=zip_path,
+        readme=readme,
+        manifest=manifest,
+        files=files,
+        book_yml_snapshot=book_yml_snapshot,
+        tool_versions=tool_versions,
+    )
     return PackageResult(zip_path=zip_path, modes=list(modes), manifest=manifest)
 
 

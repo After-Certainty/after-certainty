@@ -343,12 +343,153 @@ def test_no_hardcover_isbn_or_artifact_name_in_schema(tmp_path: Path) -> None:
         validate_book_spec(spec2, path2)
 
 
+def test_print_planning_may_omit_isbn_for_cover_preview(tmp_path: Path) -> None:
+    book_dir = tmp_path / "book"
+    assets = book_dir / "assets" / "ingramspark"
+    assets.mkdir(parents=True)
+    for name in ("back.png", "spine.png", "front.png"):
+        (assets / name).write_bytes(b"\x89PNG\r\n\x1a\n")
+    (assets / "template-meta.yml").write_text("version: 1\n", encoding="utf-8")
+    spec = _minimal_book_spec(
+        targets={
+            "ingramspark": {
+                "enabled": True,
+                "specification_profile": "ingramspark-2026-07",
+                "status": "planning",
+                "package": {"github_release": False, "immutable_release": False},
+                "ebook": {"enabled": False},
+                "print": {
+                    "enabled": True,
+                    "edition": "paperback",
+                    "binding": "perfect-bound",
+                    "trim": {"width_inches": 6.0, "height_inches": 9.0},
+                    "interior": {
+                        "color_mode": "black-and-white",
+                        "paper": "cream",
+                        "bleed": False,
+                    },
+                    "cover": {
+                        "strategy": "assembled-raster-wrap",
+                        "assets": {
+                            "back": "assets/ingramspark/back.png",
+                            "spine": "assets/ingramspark/spine.png",
+                            "front": "assets/ingramspark/front.png",
+                        },
+                        "template_metadata": "assets/ingramspark/template-meta.yml",
+                        "template_page_count": 100,
+                        "barcode_mode": "ingram-generated",
+                    },
+                },
+            }
+        }
+    )
+    path = _write_spec(book_dir, spec)
+    loaded = load_book_spec(path)
+    assert "isbn" not in loaded["publishing"]["targets"]["ingramspark"]["print"]
+
+
+def test_print_isbn_required_when_production_approved(tmp_path: Path) -> None:
+    book_dir = tmp_path / "book"
+    assets = book_dir / "assets" / "ingramspark"
+    assets.mkdir(parents=True)
+    for name in ("back.png", "spine.png", "front.png"):
+        (assets / name).write_bytes(b"\x89PNG\r\n\x1a\n")
+    (assets / "template-meta.yml").write_text("version: 1\n", encoding="utf-8")
+    spec = _minimal_book_spec(
+        targets={
+            "ingramspark": {
+                "enabled": True,
+                "specification_profile": "ingramspark-2026-07",
+                "status": "production-approved",
+                "ebook": {"enabled": False},
+                "print": {
+                    "enabled": True,
+                    "edition": "paperback",
+                    "binding": "perfect-bound",
+                    "trim": {"width_inches": 6.0, "height_inches": 9.0},
+                    "interior": {
+                        "color_mode": "black-and-white",
+                        "paper": "cream",
+                        "bleed": False,
+                    },
+                    "cover": {
+                        "strategy": "assembled-raster-wrap",
+                        "assets": {
+                            "back": "assets/ingramspark/back.png",
+                            "spine": "assets/ingramspark/spine.png",
+                            "front": "assets/ingramspark/front.png",
+                        },
+                        "template_metadata": "assets/ingramspark/template-meta.yml",
+                        "template_page_count": 100,
+                        "barcode_mode": "ingram-generated",
+                    },
+                },
+            }
+        }
+    )
+    path = _write_spec(book_dir, spec)
+    with pytest.raises(ValueError, match="print.isbn is required"):
+        validate_book_spec(spec, path)
+
+
+def test_print_isbn_required_when_github_release_packaging(tmp_path: Path) -> None:
+    book_dir = tmp_path / "book"
+    assets = book_dir / "assets" / "ingramspark"
+    assets.mkdir(parents=True)
+    for name in ("back.png", "spine.png", "front.png"):
+        (assets / name).write_bytes(b"\x89PNG\r\n\x1a\n")
+    (assets / "template-meta.yml").write_text("version: 1\n", encoding="utf-8")
+    spec = _minimal_book_spec(
+        targets={
+            "ingramspark": {
+                "enabled": True,
+                "specification_profile": "ingramspark-2026-07",
+                "status": "planning",
+                "package": {"github_release": True, "immutable_release": False},
+                "ebook": {"enabled": False},
+                "print": {
+                    "enabled": True,
+                    "edition": "paperback",
+                    "binding": "perfect-bound",
+                    "trim": {"width_inches": 6.0, "height_inches": 9.0},
+                    "interior": {
+                        "color_mode": "black-and-white",
+                        "paper": "cream",
+                        "bleed": False,
+                    },
+                    "cover": {
+                        "strategy": "assembled-raster-wrap",
+                        "assets": {
+                            "back": "assets/ingramspark/back.png",
+                            "spine": "assets/ingramspark/spine.png",
+                            "front": "assets/ingramspark/front.png",
+                        },
+                        "template_metadata": "assets/ingramspark/template-meta.yml",
+                        "template_page_count": 100,
+                        "barcode_mode": "ingram-generated",
+                    },
+                },
+            }
+        }
+    )
+    path = _write_spec(book_dir, spec)
+    with pytest.raises(ValueError, match="print.isbn is required"):
+        validate_book_spec(spec, path)
+
+
 def test_existing_repo_books_still_validate(repo_root: Path) -> None:
-    """Default-disabled: every current book.yml remains valid with no target block."""
+    """Every current book.yml remains schema-valid; only planning cover previews may opt in."""
     from book_specs import discover_book_spec_paths
 
     paths = discover_book_spec_paths(repo_root)
     assert paths
+    opted_in = []
     for path in paths:
         spec = load_book_spec(path)
-        assert spec_ingramspark_enabled(spec) is False
+        if spec_ingramspark_enabled(spec):
+            opted_in.append(path)
+            target = spec_ingramspark_target(spec)
+            assert target.get("status") == "planning"
+            assert target.get("print", {}).get("enabled") is True
+            assert not str(target.get("print", {}).get("isbn") or "").strip()
+    assert any(p.name == "book.yml" and "everyone-knows-love" in p.as_posix() for p in opted_in)
