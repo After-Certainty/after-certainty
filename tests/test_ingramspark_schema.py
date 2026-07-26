@@ -497,4 +497,5 @@ def test_existing_repo_books_still_validate(repo_root: Path) -> None:
     ekl_target = spec_ingramspark_target(ekl_spec)
     assert ekl_target["print"]["isbn"] == "9798256206949"
     assert ekl_target["ebook"]["isbn"] == "9798256206956"
-    assert ekl_target["ebook"]["enabled"] is False
+    assert ekl_target["ebook"]["enabled"] is True
+    assert ekl_target["ebook"]["cover_source"] == "assets/ingramspark/ebook-front.png"

@@ -13,7 +13,7 @@ template-meta.yml
 Assembly order: **back → spine → front**.
 
 Print ISBN: `9798256206949` → staged cover `9798256206949_cvr.pdf`.  
-Ebook ISBN `9798256206956` is reserved in `book.yml`; `ebook-front.png` meets pixel minima (ebook target still disabled until rehearsal).
+Ebook ISBN `9798256206956` is enabled in `book.yml` with cover source `ebook-front.png`.
 
 ```bash
 make build-ingramspark-print-cover DIR=books/everyone-knows-love

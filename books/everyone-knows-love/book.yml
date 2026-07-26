@@ -10,9 +10,8 @@ publishing:
         github_release: false
         immutable_release: false
       ebook:
-        # Reserved ISBN; keep disabled until ebook rehearsal is intentionally enabled.
         # Cover is a bleed-free 6×9 crop of assets/ingramspark/front.png (1800×2700).
-        enabled: false
+        enabled: true
         isbn: "9798256206956"
         format: reflowable
         cover_source: assets/ingramspark/ebook-front.png
