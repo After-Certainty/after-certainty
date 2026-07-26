@@ -18,6 +18,7 @@ from book_specs import (
     spec_ingramspark_enabled,
     spec_ingramspark_target,
 )
+from ingramspark.cover_page_sync import CoverPageSyncError, sync_assembled_cover_to_page_count
 from ingramspark.cover_validate import (
     CoverValidateError,
     validate_print_cover,
@@ -319,19 +320,34 @@ def _build_exports(
                 allow_upscale=allow_cover_upscale,
             )
         if "print" in modes:
-            export_ingramspark_print_interior(
+            exported = export_ingramspark_print_interior(
                 repo=repo,
                 book_dir=book_dir,
                 spec=spec,
                 pandoc=pandoc,
                 pdf_engine=pdf_engine,
             )
+            try:
+                sync = sync_assembled_cover_to_page_count(
+                    book_dir=book_dir,
+                    spec=spec,
+                    page_count=exported.page_count,
+                )
+            except CoverPageSyncError as exc:
+                raise PackageError(str(exc)) from exc
+            if sync.changed:
+                # Cover validation reads template_page_count from book.yml.
+                from book_specs import load_spec_for_book_dir  # noqa: PLC0415
+
+                spec = load_spec_for_book_dir(book_dir)
+                print(sync.message)
             validate_print_cover_or_raise(repo=repo, book_dir=book_dir, spec=spec, stage=True)
     except (
         EbookExportError,
         EbookCoverError,
         PrintExportError,
         CoverValidateError,
+        CoverPageSyncError,
         ValueError,
         FileNotFoundError,
     ) as exc:
