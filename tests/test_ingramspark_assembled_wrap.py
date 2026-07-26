@@ -574,6 +574,16 @@ def test_no_production_book_opted_in() -> None:
             assert ebook.get("enabled") is not True, book_yml
             cover = print_cfg.get("cover") or {}
             assert cover.get("strategy") == "assembled-raster-wrap", book_yml
+        elif "when-others-become-leaders" in book_yml.as_posix():
+            assert ingram.get("status") == "planning", book_yml
+            assert package.get("github_release") is not True, book_yml
+            assert package.get("immutable_release") is not True, book_yml
+            assert str(print_cfg.get("isbn") or "").strip() == "9798256208912", book_yml
+            ebook = ingram.get("ebook") or {}
+            assert ebook.get("enabled") is True, book_yml
+            assert str(ebook.get("isbn") or "").strip() == "9798256208929", book_yml
+            cover = print_cfg.get("cover") or {}
+            assert cover.get("strategy") == "assembled-raster-wrap", book_yml
         else:
             assert package.get("github_release") is not True, book_yml
             assert package.get("immutable_release") is not True, book_yml

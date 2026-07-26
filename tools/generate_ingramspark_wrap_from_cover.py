@@ -40,12 +40,19 @@ BARCODE_H_IN = 1.52
 BARCODE_BOTTOM_INSET_IN = 0.55
 SPINE_SOURCE_PAD_PX = 20
 
-# Observer Patterns back copy: website central question + closing aphorisms (≤3 lines).
-DEFAULT_BACK_LINES = [
-    "What takes shape when looking, deciding, and following become decisive?",
-    "What is observed repeatedly becomes believed.",
-    "Once you see these patterns, they’re hard to ignore.",
-]
+# Per-book defaults (override with --back-line). At most three lines.
+BACK_LINES_BY_BOOK_ID: dict[str, list[str]] = {
+    "observer-patterns": [
+        "What takes shape when looking, deciding, and following become decisive?",
+        "What is observed repeatedly becomes believed.",
+        "Once you see these patterns, they’re hard to ignore.",
+    ],
+    "when-others-become-leaders": [
+        "What kind of leadership increases the capacity of others",
+        "to act, care, organize, and lead beyond the originating person?",
+        "This book asks what enduring influence leaves behind.",
+    ],
+}
 
 FONT_PATHS = [
     "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
@@ -145,9 +152,7 @@ def make_back(
     # Quiet white/cream reserve for Ingram-generated barcode.
     draw.rounded_rectangle((x0, y0, x0 + bw, y0 + bh), radius=8, fill=(248, 245, 238))
 
-    copy_lines = [
-        ln.strip() for ln in (lines if lines is not None else DEFAULT_BACK_LINES) if ln.strip()
-    ]
+    copy_lines = [ln.strip() for ln in (lines or []) if ln.strip()]
     if len(copy_lines) > 3:
         raise SystemExit(f"back cover allows at most 3 lines (got {len(copy_lines)})")
     if copy_lines:
@@ -256,14 +261,41 @@ def write_template_meta(
             "height_pixels": bh,
         },
         "barcode_supplied": False,
+        # Pattern-only generated spines; no title/author glyphs even when page_count ≥ 48.
         "spine_text": False,
         "notes": (
             f"Panels derived from book-cover.png for {page_count} cream pages "
-            f"(spine {spine_px}px / {spine_pt}pt). No spine text (page count < 48). "
+            f"(spine {spine_px}px / {spine_pt}pt). Spine is pattern-only (no spine text). "
             "Confirm geometry against the Cover Template Generator before upload."
         ),
     }
     path.write_text(yaml.safe_dump(payload, sort_keys=False), encoding="utf-8")
+
+
+def write_ebook_front(front_path: Path, dest: Path, *, ppi: int = PPI) -> Path:
+    """Bleed-free 6×9 crop from the front panel (right outside bleed removed)."""
+    front = Image.open(front_path).convert("RGB")
+    bleed = inches_to_px(BLEED_IN, ppi=ppi)
+    trim_w = inches_to_px(TRIM_W_IN, ppi=ppi)
+    trim_h = inches_to_px(TRIM_H_IN, ppi=ppi)
+    # Front panel is trim + right outside bleed (+ vertical bleed). Crop to trim.
+    crop = front.crop((0, bleed, trim_w, bleed + trim_h))
+    if crop.size != (trim_w, trim_h):
+        crop = crop.resize((trim_w, trim_h), Image.Resampling.LANCZOS)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    crop.save(dest, format="PNG", dpi=(ppi, ppi))
+    return dest
+
+
+def _book_id(book_dir: Path) -> str:
+    spec_path = book_dir / "book.yml"
+    if not spec_path.is_file():
+        return book_dir.name
+    data = yaml.safe_load(spec_path.read_text(encoding="utf-8")) or {}
+    book = data.get("book") if isinstance(data, dict) else {}
+    if isinstance(book, dict) and str(book.get("id") or "").strip():
+        return str(book["id"]).strip()
+    return book_dir.name
 
 
 def generate(
@@ -272,6 +304,8 @@ def generate(
     page_count: int,
     cover_name: str = DEFAULT_COVER,
     out_rel: str = DEFAULT_OUT_DIR,
+    back_lines: list[str] | None = None,
+    ebook_front: bool = False,
 ) -> dict[str, Path]:
     if page_count < 18:
         raise SystemExit(f"page_count must be >= 18 for IngramSpark paperbacks (got {page_count})")
@@ -286,13 +320,16 @@ def generate(
     out_dir = book_dir / out_rel
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    book_id = _book_id(book_dir)
+    lines = back_lines if back_lines is not None else BACK_LINES_BY_BOOK_ID.get(book_id, [])
+
     cover = Image.open(cover_path)
     front_w, front_h = panel_size()
     spine_px = cream_spine_px(page_count)
     source_w = spine_px + SPINE_SOURCE_PAD_PX
 
     front = fit_cover_to_panel(cover, (front_w, front_h))
-    back, barcode_box = make_back(cover, (front_w, front_h), lines=DEFAULT_BACK_LINES)
+    back, barcode_box = make_back(cover, (front_w, front_h), lines=lines)
     spine_source = make_spine_source(cover, front_h, source_w)
     left = (source_w - spine_px) // 2
     spine = spine_source.crop((left, 0, left + spine_px, front_h))
@@ -317,6 +354,8 @@ def generate(
         front_h=front_h,
         barcode_box=barcode_box,
     )
+    if ebook_front:
+        paths["ebook_front"] = write_ebook_front(paths["front"], out_dir / "ebook-front.png")
     return paths
 
 
@@ -331,6 +370,17 @@ def main() -> None:
     )
     parser.add_argument("--cover", default=DEFAULT_COVER)
     parser.add_argument("--out-dir", default=DEFAULT_OUT_DIR)
+    parser.add_argument(
+        "--back-line",
+        action="append",
+        default=[],
+        help="Back-cover line (repeat up to 3×). Defaults from book id when omitted.",
+    )
+    parser.add_argument(
+        "--ebook-front",
+        action="store_true",
+        help="Also write ebook-front.png (bleed-free 6×9 crop of front.png)",
+    )
     args = parser.parse_args()
 
     book_dir = Path(args.book_dir).resolve()
@@ -339,6 +389,8 @@ def main() -> None:
         page_count=args.page_count,
         cover_name=args.cover,
         out_rel=args.out_dir,
+        back_lines=args.back_line or None,
+        ebook_front=args.ebook_front,
     )
     for key, path in paths.items():
         print(f"{key}={path}")

@@ -514,3 +514,13 @@ def test_existing_repo_books_still_validate(repo_root: Path) -> None:
     assert op_target["print"]["isbn"] == "9798256208776"
     assert op_target["print"]["cover"]["strategy"] == "assembled-raster-wrap"
     assert op_target["print"]["cover"]["template_page_count"] == 32
+    wobl = next(p for p in opted_in if "when-others-become-leaders" in p.as_posix())
+    wobl_spec = load_book_spec(wobl)
+    wobl_target = spec_ingramspark_target(wobl_spec)
+    assert wobl_target["status"] == "planning"
+    assert wobl_target["ebook"]["enabled"] is True
+    assert wobl_target["ebook"]["isbn"] == "9798256208929"
+    assert wobl_target["ebook"]["cover_source"] == "assets/ingramspark/ebook-front.png"
+    assert wobl_target["print"]["isbn"] == "9798256208912"
+    assert wobl_target["print"]["cover"]["strategy"] == "assembled-raster-wrap"
+    assert wobl_target["print"]["cover"]["template_page_count"] == 128

@@ -291,6 +291,10 @@ def test_matrix_ingramspark_github_release_flags() -> None:
                 # Print-only; production-approved with rolling release attach.
                 assert row["ingramspark_ebook"] == "false", row
                 assert row["ingramspark_github_release"] == "true", row
+            elif row["slug"] == "when-others-become-leaders":
+                # Print+ebook planning; no GitHub Release attach yet.
+                assert row["ingramspark_ebook"] == "true", row
+                assert row["ingramspark_github_release"] == "false", row
             else:
                 raise AssertionError(f"unexpected IngramSpark opt-in: {row}")
         else:
@@ -298,3 +302,4 @@ def test_matrix_ingramspark_github_release_flags() -> None:
     slugs = {row["slug"] for row in opted_in}
     assert "everyone-knows-love" in slugs
     assert "observer-patterns" in slugs
+    assert "when-others-become-leaders" in slugs
