@@ -35,7 +35,12 @@ def test_stage_pdf_units_keeps_distinct_bridge_files(tmp_path: Path) -> None:
     assert staged[0].name == "bridge.md"
     assert staged[1].name == "bridge.md"
     assert staged[0] != staged[1]
-    assert staged[0].read_text(encoding="utf-8") == "# Part I bridge\n"
-    assert staged[1].read_text(encoding="utf-8") == "# Part V bridge\n"
+    text1 = staged[0].read_text(encoding="utf-8")
+    text5 = staged[1].read_text(encoding="utf-8")
+    # Bridges stay distinct paths and keep their body; PDF staging bottom-aligns them.
+    assert "# Part I bridge" in text1
+    assert "# Part V bridge" in text5
+    assert "\\vspace*{\\fill}" in text1
+    assert "\\vspace*{\\fill}" in text5
     assert staged[2].name == "closing.md"
     assert "```{=latex}" in staged[2].read_text(encoding="utf-8")

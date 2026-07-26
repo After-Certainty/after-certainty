@@ -12,6 +12,7 @@ for path in (SCRIPTS, TOOLS):
         sys.path.insert(0, str(path))
 
 from book_export_assets import (  # noqa: E402
+    prepare_bridge_markdown_for_pdf,
     prepare_title_page_for_docx,
     prepare_title_page_for_pdf,
     strip_inline_title_page_cover,
@@ -82,3 +83,29 @@ def test_stage_docx_units_rewrites_title_page_when_flag_set(tmp_path: Path) -> N
     staged = stage_docx_units([title_page], tmp_path / "docx-tmp", spec=spec, book_dir=tmp_path)
     assert staged[0].name == "title-page.md"
     assert "![](BookCover.png)" in staged[0].read_text(encoding="utf-8")
+
+
+def test_prepare_bridge_markdown_for_pdf_bottom_aligns() -> None:
+    text = "\\newpage\n\n# Part II — How Love Moves\n\nLove does not sit still.\n"
+    out = prepare_bridge_markdown_for_pdf(text)
+    assert "{=latex}" in out
+    assert "\\vspace*{\\fill}" in out
+    assert "# Part II — How Love Moves" in out
+    assert "Love does not sit still." in out
+    assert out.strip().startswith("```{=latex}")
+    assert out.count("\\clearpage") >= 2
+
+
+def test_stage_pdf_units_bottom_aligns_bridge(tmp_path: Path) -> None:
+    book_dir = tmp_path / "book"
+    bridge = book_dir / "parts" / "part-1" / "bridge.md"
+    bridge.parent.mkdir(parents=True)
+    bridge.write_text(
+        "\\newpage\n\n# Part I — Test\n\nShort bridge.\n",
+        encoding="utf-8",
+    )
+    staged = stage_pdf_units([bridge], tmp_path / "pdf-tmp", spec={}, book_dir=book_dir)
+    assert staged[0].name == "bridge.md"
+    text = staged[0].read_text(encoding="utf-8")
+    assert "\\vspace*{\\fill}" in text
+    assert "# Part I — Test" in text
