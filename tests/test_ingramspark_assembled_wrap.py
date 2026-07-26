@@ -318,6 +318,32 @@ def test_exact_panels_assemble_and_convert(tmp_path: Path) -> None:
 
 @requires_pillow
 @requires_im
+def test_cover_pdf_has_no_lzw_or_per_object_icc(tmp_path: Path) -> None:
+    """IngramSpark rejects LZW and embedded ICC profiles on cover PDFs."""
+    repo = _temp_repo(tmp_path)
+    book_dir = _fixture_book(repo)
+    _page_count(repo)
+    spec = load_spec_for_book_dir(book_dir)
+    result = convert_raster_wrap(repo=repo, book_dir=book_dir, spec=spec)
+    assert result.ok, result.errors
+    assert result.color.get("stripPerObjectIccApplied") is True
+    assert result.color.get("pdfCompression") == "Zip"
+    assert result.color.get("pdfHasLzw") is False
+    assert result.color.get("pdfHasIccBased") is False
+    assert "DeviceCMYK" in (result.output.get("detectedColorSpaces") or [])
+    assert "ICCBased" not in (result.output.get("detectedColorSpaces") or [])
+    pdf_text = print_cover_pdf_path(repo, spec).read_bytes().decode("latin-1", errors="ignore")
+    assert "/LZWDecode" not in pdf_text
+    assert "/FlateDecode" in pdf_text
+    assert "/ICCBased" not in pdf_text
+    assert "/DeviceCMYK" in pdf_text
+    check_ids = {c.id: c.status for c in result.checks}
+    assert check_ids.get("pdf-no-lzw") == "passed"
+    assert check_ids.get("pdf-no-per-object-icc") == "passed"
+
+
+@requires_pillow
+@requires_im
 def test_planning_without_isbn_stages_book_id_cover(tmp_path: Path) -> None:
     repo = _temp_repo(tmp_path)
     book_dir = _fixture_book(repo)

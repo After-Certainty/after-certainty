@@ -70,9 +70,12 @@ print:
     output_intent: none-provisional
     allow_transparency_flatten: false
     notes: >
-      Candidate Ghostscript ICC pair for deterministic RGB→CMYK. Not SWOP/GRACoL pinned
-      until IngramSpark account preflight accepts a construction. Do not label results
-      fully Ingram-approved. Dimension validation remains blocking regardless.
+      Candidate Ghostscript ICC pair for deterministic RGB→CMYK. Working profiles are
+      used only during conversion; strip_per_object_icc removes them from the cover PDF
+      so IngramSpark sees DeviceCMYK without per-object ICC. Cover PDFs use Flate/Zip
+      compression (not LZW). Not SWOP/GRACoL pinned until account preflight accepts a
+      construction. Do not label results fully Ingram-approved. Dimension validation
+      remains blocking regardless.
 
 conflicts:
   - id: epub-content-version
