@@ -1,6 +1,6 @@
 # IngramSpark raster print-cover conversion
 
-Operating notes for opt-in raster print covers. Authority for the broader target remains [`docs/roadmaps/ingramspark-distribution-target.md`](../roadmaps/ingramspark-distribution-target.md).
+Operating notes for opt-in raster print covers. For the end-to-end new-book workflow (ISBNs, package, account upload, release flags), see [`ingramspark-operating-procedure.md`](ingramspark-operating-procedure.md). Authority for the broader target remains [`docs/roadmaps/ingramspark-distribution-target.md`](../roadmaps/ingramspark-distribution-target.md).
 
 Two strategies share color conversion, PDF generation, preflight, and website exclusion:
 
