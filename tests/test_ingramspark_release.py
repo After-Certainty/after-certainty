@@ -246,6 +246,7 @@ def test_website_manifest_still_excludes_ingramspark(tmp_path: Path) -> None:
 
 
 def test_matrix_ingramspark_github_release_flags() -> None:
+    # Use pdf (not epub): Observer Patterns is print/PDF-only and omitted from epub matrices.
     matrix = subprocess.run(
         [
             sys.executable,
@@ -254,7 +255,7 @@ def test_matrix_ingramspark_github_release_flags() -> None:
             str(_REPO),
             "--all",
             "--format",
-            "epub",
+            "pdf",
         ],
         capture_output=True,
         text=True,
@@ -268,11 +269,19 @@ def test_matrix_ingramspark_github_release_flags() -> None:
     for row in payload["include"]:
         if row["package_ingramspark"] == "true":
             opted_in.append(row)
-            assert row["slug"] == "everyone-knows-love", row
             assert row["ingramspark_print"] == "true", row
-            assert row["ingramspark_ebook"] == "true", row
-            # EKL pilot is production-approved with rolling release attach.
-            assert row["ingramspark_github_release"] == "true", row
+            if row["slug"] == "everyone-knows-love":
+                assert row["ingramspark_ebook"] == "true", row
+                # EKL pilot is production-approved with rolling release attach.
+                assert row["ingramspark_github_release"] == "true", row
+            elif row["slug"] == "observer-patterns":
+                # Print-only planning; no GitHub Release attach yet.
+                assert row["ingramspark_ebook"] == "false", row
+                assert row["ingramspark_github_release"] == "false", row
+            else:
+                raise AssertionError(f"unexpected IngramSpark opt-in: {row}")
         else:
             assert row["ingramspark_github_release"] == "false", row
-    assert opted_in, "expected Everyone Knows Love IngramSpark print+ebook opt-in"
+    slugs = {row["slug"] for row in opted_in}
+    assert "everyone-knows-love" in slugs
+    assert "observer-patterns" in slugs

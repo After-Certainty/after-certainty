@@ -11,7 +11,12 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
+from book_specs import (
+    spec_ingramspark_enabled,
+    spec_ingramspark_target,
+    spec_pdf_engine,
+    spec_typst_config,
+)
 from ingramspark.paths import (
     print_interior_pdf_path,
     print_isbn,
@@ -97,6 +102,62 @@ def _recommended_margin_inches(spec: dict[str, Any]) -> float:
         return 0.5
     profile = load_profile(profile_id)
     return float(_as_dict(profile.get("print")).get("recommended_margin_inches") or 0.5)
+
+
+def _typst_pdf(
+    *,
+    book_dir: Path,
+    out_pdf: Path,
+    typst_bin: str = "typst",
+) -> None:
+    """Compile the book's Typst print entry (no jacket art on the title page)."""
+    if str(_TOOLS) not in sys.path:
+        sys.path.insert(0, str(_TOOLS))
+    if str(_SCRIPTS) not in sys.path:
+        sys.path.insert(0, str(_SCRIPTS))
+    from export_typst_pdf import (  # noqa: PLC0415
+        ensure_typst_version,
+        typst_binary,
+    )
+    from generate_typst_manifest import write_typst_manifest  # noqa: PLC0415
+
+    # Prefer a dedicated print entry that omits cover-image; fall back to main.typ.
+    print_entry = book_dir / "typst" / "main-print.typ"
+    entry_path = print_entry if print_entry.is_file() else book_dir / "typst" / "main.typ"
+    if not entry_path.is_file():
+        raise PrintExportError(
+            f"Typst entry not found for print export (tried {print_entry.name} and main.typ)"
+        )
+
+    # Load min version from book.yml when available via sibling import path.
+    from book_specs import load_spec_for_book_dir  # noqa: PLC0415
+
+    try:
+        spec = load_spec_for_book_dir(book_dir)
+        typst_cfg = spec_typst_config(spec)
+        minimum = str(typst_cfg.get("min_version", "0.14.0")).strip() or "0.14.0"
+        binary = typst_binary(typst_bin)
+        ensure_typst_version(binary, minimum)
+        write_typst_manifest(book_dir)
+    except SystemExit as exc:
+        raise PrintExportError(str(exc) or "Typst print setup failed") from exc
+
+    cmd = [
+        binary,
+        "compile",
+        "--root",
+        book_dir.as_posix(),
+        entry_path.as_posix(),
+        out_pdf.as_posix(),
+    ]
+    try:
+        subprocess.run(cmd, check=True)
+    except subprocess.CalledProcessError as exc:
+        raise PrintExportError(
+            f"Typst print compile failed ({exc.returncode}): {' '.join(cmd)}"
+        ) from exc
+    if not out_pdf.is_file():
+        raise PrintExportError(f"Typst did not write print PDF: {out_pdf}")
 
 
 def _pandoc_pdf(
@@ -368,7 +429,7 @@ def export_ingramspark_print_interior(
     book_dir: Path,
     spec: dict[str, Any],
     pandoc: str = "pandoc",
-    pdf_engine: str = "xelatex",
+    pdf_engine: str = "",
     gs: str = "gs",
     apply_pdfx_proof_construction: bool = False,
 ) -> PrintExportResult:
@@ -395,16 +456,20 @@ def export_ingramspark_print_interior(
 
     with tempfile.TemporaryDirectory(prefix="ingram-print-raw-") as tmp:
         raw_pdf = Path(tmp) / "interior-raw.pdf"
-        _pandoc_pdf(
-            book_dir=book_dir,
-            spec=spec,
-            out_pdf=raw_pdf,
-            width_in=width,
-            height_in=height,
-            margin_in=margin,
-            pandoc=pandoc,
-            pdf_engine=pdf_engine,
-        )
+        engine = (pdf_engine or "").strip().lower() or spec_pdf_engine(spec) or "xelatex"
+        if engine == "typst":
+            _typst_pdf(book_dir=book_dir, out_pdf=raw_pdf, typst_bin="typst")
+        else:
+            _pandoc_pdf(
+                book_dir=book_dir,
+                spec=spec,
+                out_pdf=raw_pdf,
+                width_in=width,
+                height_in=height,
+                margin_in=margin,
+                pandoc=pandoc,
+                pdf_engine=engine,
+            )
         if color_mode == "black-and-white":
             if apply_pdfx_proof_construction:
                 from ingramspark.pdfx_proof import (  # noqa: PLC0415

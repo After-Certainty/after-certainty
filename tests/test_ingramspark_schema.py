@@ -506,3 +506,11 @@ def test_existing_repo_books_still_validate(repo_root: Path) -> None:
     assert ekl_target["ebook"]["isbn"] == "9798256206956"
     assert ekl_target["ebook"]["enabled"] is True
     assert ekl_target["ebook"]["cover_source"] == "assets/ingramspark/ebook-front.png"
+    op = next(p for p in opted_in if "observer-patterns" in p.as_posix())
+    op_spec = load_book_spec(op)
+    op_target = spec_ingramspark_target(op_spec)
+    assert op_target["status"] == "planning"
+    assert op_target["ebook"].get("enabled") is not True
+    assert op_target["print"]["isbn"] == "9798256208776"
+    assert op_target["print"]["cover"]["strategy"] == "assembled-raster-wrap"
+    assert op_target["print"]["cover"]["template_page_count"] == 32

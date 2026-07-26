@@ -36,7 +36,11 @@ def main() -> None:
     parser.add_argument("--repo", default=".")
     parser.add_argument("--book-dir", required=True)
     parser.add_argument("--pandoc", default="pandoc")
-    parser.add_argument("--pdf-engine", default="xelatex")
+    parser.add_argument(
+        "--pdf-engine",
+        default="",
+        help="Override print PDF engine (default: book.yml pdf_engine, else xelatex)",
+    )
     parser.add_argument("--ebook-only", action="store_true")
     parser.add_argument("--print-only", action="store_true")
     parser.add_argument("--skip-epubcheck", action="store_true")
