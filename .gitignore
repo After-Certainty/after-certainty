@@ -26,6 +26,13 @@ tools/vendor/epubcheck-*/
 # Local build outputs (e.g. make generate-books-manifest → build/books-manifest.json)
 build/
 
+# CI / local release-staging working directories (book-export-release.yml)
+upload/
+ingramspark-out/
+prior/
+built/
+staging/
+
 # Installed generated site assets (covers copied by install-local-manifest-for-site)
 apps/site/public/generated/book-covers/
 apps/site/public/manuscript-assets/

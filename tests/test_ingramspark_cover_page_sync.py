@@ -120,6 +120,14 @@ def test_build_exports_returns_reloaded_spec_after_sync(
     monkeypatch.setattr(pkg, "export_ingramspark_print_interior", lambda **_kwargs: _FakeExport())
     monkeypatch.setattr(pkg, "validate_print_cover_or_raise", lambda **_kwargs: None)
 
+    # Force a stale in-memory / on-disk page count so sync must rewrite during export.
+    text = (book_dir / "book.yml").read_text(encoding="utf-8")
+    (book_dir / "book.yml").write_text(
+        text.replace("template_page_count: 74", "template_page_count: 76").replace(
+            "template_page_count: 100", "template_page_count: 76"
+        ),
+        encoding="utf-8",
+    )
     stale = load_spec_for_book_dir(book_dir)
     assert (
         stale["publishing"]["targets"]["ingramspark"]["print"]["cover"]["template_page_count"] == 76
