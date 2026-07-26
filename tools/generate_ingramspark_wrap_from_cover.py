@@ -69,12 +69,12 @@ SANS_BOLD_FONT_PATHS = [
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
 ]
 
-# EKL-style warm cream spine + dark brown type (matches Everyone Knows Love wrap).
-SPINE_BG = (246, 229, 203)
-SPINE_FG = (58, 42, 28)
+# Labeled spine: dark brown field + cream type (inverted from EKL cream/dark).
+SPINE_BG = (58, 42, 28)
+SPINE_FG = (246, 229, 203)
 MIN_PAGES_FOR_SPINE_TEXT = 48
 
-# Books that get solid cream spine with vertical title/author (EKL-style).
+# Books that get a solid labeled spine with vertical title/author.
 LABELED_SPINE_BOOK_IDS = frozenset({"when-others-become-leaders"})
 
 
@@ -244,7 +244,7 @@ def make_labeled_spine_source(
     bg: tuple[int, int, int] = SPINE_BG,
     fg: tuple[int, int, int] = SPINE_FG,
 ) -> Image.Image:
-    """Solid cream spine with vertical title/author (EKL-style), text centered for recrops."""
+    """Solid labeled spine with vertical title/author, text centered for recrops."""
     # Side inset: Ingram ~0.03125" for spines < 0.35"; keep a little extra for crop pad.
     side_inset = max(inches_to_px(0.04), 6)
     max_text_w = max(12, width - 2 * side_inset)
@@ -526,7 +526,7 @@ def main() -> None:
         "--spine-style",
         choices=("auto", "pattern", "labeled"),
         default="auto",
-        help="pattern=cover strip; labeled=cream spine with title/author (EKL-style)",
+        help="pattern=cover strip; labeled=solid spine with title/author",
     )
     args = parser.parse_args()
 

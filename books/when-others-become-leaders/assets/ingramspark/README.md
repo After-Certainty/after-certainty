@@ -5,8 +5,8 @@ Planning source assets for `assembled-raster-wrap` (not website covers). Derived
 
 ```
 back.png          # 1838×2775 @ 300 ppi — atmosphere + 3-line back copy + barcode reserve
-spine-source.png  # wider cream master for page-count recrops (title/author centered)
-spine.png         # 96×2775 @ 300 ppi — cream spine + vertical title/author (128 pages)
+spine-source.png  # wider labeled master for page-count recrops (title/author centered)
+spine.png         # 96×2775 @ 300 ppi — dark brown spine + cream title/author (128 pages)
 front.png         # 1838×2775 @ 300 ppi — upscaled cover fitted into trim+bleed
 ebook-front.png   # 1800×2700 @ 300 ppi — bleed-free 6×9 crop of front.png
 template-meta.yml
@@ -17,7 +17,7 @@ Assembly order: **back → spine → front**.
 Print ISBN: `9798256208912` → staged cover `9798256208912_cvr.pdf`.  
 Ebook ISBN: `9798256208929` with cover source `ebook-front.png`.  
 Measured interior: **128** cream pages (local XeLaTeX; CI may differ slightly — package-time sync).
-Spine matches the EKL cream treatment: solid warm brown/cream field with vertical title + author.
+Spine uses the EKL title/author layout with inverted colors: dark brown field + cream type.
 
 Back copy (≤3 lines; website question + framing):
 
