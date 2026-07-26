@@ -1,6 +1,6 @@
 # Observed / derived geometry for the assembled-raster-wrap panels in this folder.
 # print.trim in book.yml remains authoritative for manufacturing trim.
-# page_count is provisional until the print interior PDF page count is locked;
+# page_count must match the measured print interior PDF page count;
 # regenerate spine.png + this file if the interior length changes.
 version: 1
 source:
@@ -12,11 +12,15 @@ manufacturing:
   binding: perfect-bound
   paper: cream
   interior_color_mode: black-and-white
-  page_count: 100
+  page_count: 59
 geometry:
-  media_box_width_points: 900.0
+  # media box width is pixel-sum exact (3720 px @ 300 ppi → 892.8 pt); implied
+  # trim+bleed+spine is 892.56 pt (within 0.5 pt template-meta tolerance).
+  media_box_width_points: 892.8
   media_box_height_points: 666.0
-  spine_width_points: 17.76
+  # Cream bulk ≈ page_count × 0.0025 in → 0.1475 in; pixel-exact spine = 44 px
+  # (10.56 pt @ 300 ppi). Confirm against Cover Template Generator before upload.
+  spine_width_points: 10.56
   outside_bleed_points: 9.0
   top_bleed_points: 9.0
   bottom_bleed_points: 9.0
@@ -24,14 +28,14 @@ geometry:
 raster:
   required_ppi: 300
   full_wrap:
-    expected_width_pixels: 3750
+    expected_width_pixels: 3720
     expected_height_pixels: 2775
   components:
     back:
       expected_width_pixels: 1838
       expected_height_pixels: 2775
     spine:
-      expected_width_pixels: 74
+      expected_width_pixels: 44
       expected_height_pixels: 2775
     front:
       expected_width_pixels: 1838
@@ -48,7 +52,7 @@ barcode_reserve:
 barcode_supplied: false
 spine_text: true
 notes: >
-  Panels sourced as production RGB PNGs (back/spine/front). Spine width 17.76 pt
-  (74 px @ 300 ppi) matches the designed spine art; media box 900×666 pt matches
-  the 3750×2775 assembled wrap. Confirm manufacturing.page_count against the
+  Panels sourced as production RGB PNGs (back/spine/front). Spine width 10.56 pt
+  (44 px @ 300 ppi) matches cream bulk for 59 pages; media box 892.8×666 pt matches
+  the 3720×2775 assembled wrap. Confirm manufacturing.page_count against the
   Cover Template Generator request and measured interior pages before packaging.

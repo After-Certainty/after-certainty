@@ -4,7 +4,7 @@ Production source assets for `assembled-raster-wrap` (not website/ebook covers).
 
 ```
 back.png    # 1838×2775 @ 300 ppi — left outside bleed + back trim + vertical bleed
-spine.png   # 74×2775   @ 300 ppi — exact spine + vertical bleed
+spine.png   # 44×2775   @ 300 ppi — exact spine + vertical bleed (59 cream pages)
 front.png   # 1838×2775 @ 300 ppi — front trim + right outside bleed + vertical bleed
 template-meta.yml
 ```
@@ -20,4 +20,4 @@ make export-ingramspark-print DIR=books/everyone-knows-love
 make package-ingramspark DIR=books/everyone-knows-love
 ```
 
-Lock interior page count against `template_page_count` / `template-meta.yml` (provisional **100**) and regenerate `spine.png` if the measured length differs. Enlarge the back barcode clear area to ≥1.75″ × 1.0″ before IngramSpark upload. See `docs/publishing/ingramspark-raster-wrap.md`.
+`template_page_count` / `template-meta.yml` are locked to the measured interior (**59**). Regenerate `spine.png` + geometry if the interior length changes. Enlarge the back barcode clear area to ≥1.75″ × 1.0″ before IngramSpark upload. See `docs/publishing/ingramspark-raster-wrap.md`.

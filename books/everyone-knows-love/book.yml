@@ -31,7 +31,7 @@ publishing:
         cover:
           strategy: assembled-raster-wrap
           template_metadata: assets/ingramspark/template-meta.yml
-          template_page_count: 100
+          template_page_count: 59
           barcode_mode: ingram-generated
           assets:
             back: assets/ingramspark/back.png
