@@ -74,12 +74,12 @@ def make_back(
     w, h = size
     src = cover.convert("RGB")
     sw, sh = src.size
-    # Prefer lower/side bands so front title/author do not reverse-print through blur.
-    band = src.crop((0, int(sh * 0.45), sw, sh))
+    # Prefer lower band so front title/author do not ghost through blur.
+    band = src.crop((0, int(sh * 0.62), sw, sh))
     base = ImageOps.fit(band, size, method=Image.Resampling.LANCZOS)
-    soft = base.filter(ImageFilter.GaussianBlur(radius=28))
+    soft = base.filter(ImageFilter.GaussianBlur(radius=36))
     # Slight darken for print ink control / future blurb legibility.
-    soft = Image.blend(soft, Image.new("RGB", size, (20, 24, 36)), 0.18)
+    soft = Image.blend(soft, Image.new("RGB", size, (20, 24, 36)), 0.22)
 
     draw = ImageDraw.Draw(soft)
     bw = inches_to_px(BARCODE_W_IN)
