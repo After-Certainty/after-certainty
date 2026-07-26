@@ -1,114 +1,151 @@
-# IngramSpark raster full-wrap cover conversion
+# IngramSpark raster print-cover conversion
 
-Operating notes for the opt-in `print.cover.strategy: raster-wrap` path. Authority for the broader target remains [`docs/roadmaps/ingramspark-distribution-target.md`](../roadmaps/ingramspark-distribution-target.md).
+Operating notes for opt-in raster print covers. Authority for the broader target remains [`docs/roadmaps/ingramspark-distribution-target.md`](../roadmaps/ingramspark-distribution-target.md).
 
-## What a production raster wrap PNG is
+Two strategies share color conversion, PDF generation, preflight, and website exclusion:
 
-A **flattened full-wrap PNG** containing back cover, spine, and front cover (plus bleed) as a single image. It is a **print manufacturing source**, not the website/ebook front cover.
+| Strategy | Inputs |
+|----------|--------|
+| `raster-wrap` | One exact-size full-wrap PNG |
+| `assembled-raster-wrap` | Separate `back.png`, `spine.png`, `front.png` |
 
-- Not generated from the site cover
-- Not upscaled from a concept mockup
-- Not committed as CMYK intermediates under `apps/site/public`
+These are **print manufacturing sources**, not website/ebook front covers.
 
-## Configuration (book.yml)
+## Why three images?
 
-```yaml
-publishing:
-  targets:
-    ingramspark:
-      enabled: true
-      specification_profile: ingramspark-2026-07
-      print:
-        enabled: true
-        edition: paperback
-        isbn: "978……………"   # real print ISBN before packaging
-        binding: perfect-bound
-        trim: { width_inches: 6.0, height_inches: 9.0 }
-        interior: { color_mode: black-and-white, paper: cream, bleed: false }
-        cover:
-          strategy: raster-wrap
-          source: assets/ingramspark/full-wrap.png
-          template_metadata: assets/ingramspark/template-meta.yml
-          template_page_count: 240   # must match interior + template-meta
-          barcode_mode: ingram-generated
+Design tools often export back, spine, and front separately. Assembling in-repo keeps:
+
+- Exact spine widths tied to page count / paper (regenerate only the spine when the interior length changes)
+- Clear bleed ownership per panel
+- No silent scaling when one panel is wrong
+
+Order is always left-to-right: **back → spine → front**.
+
+```
+┌─────────────────┬───────────┬─────────────────┐
+│      BACK       │   SPINE   │      FRONT      │
+└─────────────────┴───────────┴─────────────────┘
 ```
 
-Output filename is **derived**: `{print-isbn}_cvr.pdf` under `build/ingramspark/<book-id>/print/`. Artifact names are not configurable.
+## Bleed ownership
 
-## template-meta.yml (raster v1)
+The converter never invents bleed (no edge extend, no background pad).
 
-Prefer storing **exact PDF geometry in points** and **integer expected pixels**:
+| Panel | Includes |
+|-------|----------|
+| **Back** | Left outside bleed + back trim + top/bottom bleed. No horizontal bleed into the spine. |
+| **Spine** | Exact spine width + top/bottom bleed. No horizontal bleed beyond spine bounds. |
+| **Front** | Front trim + right outside bleed + top/bottom bleed. No horizontal bleed into the spine. |
+
+```
+full_wrap_width  = back_w + spine_w + front_w
+full_wrap_height = trim_height + top_bleed + bottom_bleed
+```
+
+## Example asset layout
+
+```
+assets/ingramspark/
+├── front.png
+├── back.png
+├── spine.png
+├── template.pdf          # optional local copy of the Ingram template
+└── template-meta.yml
+```
+
+## Configuration
+
+### Single wrap (`raster-wrap`)
+
+```yaml
+cover:
+  strategy: raster-wrap
+  source: assets/ingramspark/full-wrap.png
+  template_metadata: assets/ingramspark/template-meta.yml
+  template_page_count: 240
+  barcode_mode: ingram-generated
+```
+
+### Assembled panels (`assembled-raster-wrap`)
+
+```yaml
+cover:
+  strategy: assembled-raster-wrap
+  template_metadata: assets/ingramspark/template-meta.yml
+  template_page_count: 240
+  barcode_mode: ingram-generated
+  assets:
+    back: assets/ingramspark/back.png
+    spine: assets/ingramspark/spine.png
+    front: assets/ingramspark/front.png
+```
+
+Output filename is **derived**: `{print-isbn}_cvr.pdf`. A real print ISBN is required for staging/packaging names; panel assembly validation does not invent barcodes or ISBNs.
+
+## template-meta.yml
+
+### Assembled (preferred for three panels)
 
 ```yaml
 version: 1
-source:
-  provider: ingramspark
-  template_file: ingram-cover-template.pdf
-manufacturing:
-  trim_width_inches: 6
-  trim_height_inches: 9
-  binding: perfect-bound
-  paper: cream
-  interior_color_mode: black-and-white
-  page_count: 240
+manufacturing: { … page_count, trim, binding, paper, interior_color_mode … }
 geometry:
-  media_box_width_points: …   # from the Ingram template
+  media_box_width_points: …
   media_box_height_points: …
   spine_width_points: …
-  bleed_points: 9.0             # 0.125 in
-  safe_inset_points: 18.0       # optional; used for overlay / reserve checks
+  outside_bleed_points: 9.0
+  top_bleed_points: 9.0
+  bottom_bleed_points: 9.0
 raster:
   required_ppi: 300
-  expected_width_pixels: …      # must equal round(media_box_width_inches × ppi)
-  expected_height_pixels: …
+  full_wrap:
+    expected_width_pixels: …
+    expected_height_pixels: …
+  components:
+    back:  { expected_width_pixels: …, expected_height_pixels: … }
+    spine: { expected_width_pixels: …, expected_height_pixels: … }
+    front: { expected_width_pixels: …, expected_height_pixels: … }
 barcode_reserve:
   required: true
-  width_inches: 1.75
-  height_inches: 1.0
-  x_points: …                   # lower-left in media-box coordinates
-  y_points: …
+  panel: back
+  x_pixels: …          # top-left in the back panel image
+  y_pixels: …
+  width_pixels: …      # must be ≥ 1.75 in at required_ppi
+  height_pixels: …     # must be ≥ 1.0 in at required_ppi
 ```
 
-Legacy flat `template-meta.yml` (for `supplied-wrap` PDF) remains valid. Raster-wrap requires the versioned form.
+Uniform `bleed_points` (all sides equal) remains accepted. Single-wrap may still use flat `expected_width_pixels` / `expected_height_pixels` and point-based barcode reserves.
 
-### Rounding / consistency
+### Consistency
 
-`expected_*_pixels` must equal `round(media_box_inches × required_ppi)` using Python’s `round` (IEEE banker's rounding at exact `.5`). Effective PPI is reported as `pixels / media_box_inches` and is **not** taken from embedded PNG DPI tags.
+Stored integer pixels must equal `round(inches × required_ppi)` for the media box and each component. Component heights must match; widths must sum to full-wrap width. Embedded PNG DPI is never authoritative.
 
-Manufacturing fields are compared to `print.trim`, `print.binding`, `print.interior.paper`, `print.interior.color_mode`, and measured interior page count. Stale templates fail before conversion.
+## Assembly
+
+Lossless Pillow paste at:
+
+- back: `x=0`
+- spine: `x=back_width`
+- front: `x=back_width+spine_width`
+- all: `y=0`
+
+Intermediate: `build/ingramspark/<book-id>/print-cover/assembled-wrap-rgb.png`
+
+Then the shared CMYK path → one-page PDF. Panels are **not** color-converted separately (avoids edge seams).
 
 ## Exact dimension rule
 
-The source PNG must match `expected_width_pixels` × `expected_height_pixels` **exactly**.
+Every panel (or the single wrap) must match expected pixels **exactly**. Correct aspect ratio alone is insufficient. The converter will not scale, crop, pad, stretch, resample, rotate, or extend edges.
 
-The converter will **not** stretch, crop, pad, resample, upscale, or downsample. Embedded DPI metadata is ignored for sizing; physical size comes from pixel dimensions + template media box + exact PDF placement.
+After page-count changes, regenerate **spine.png** (and update `template-meta.yml` spine geometry); back/front can often stay if trim/bleed are unchanged.
 
-## Transparency
+## Barcode reserve
 
-Meaningful transparency fails. Fully opaque alpha channels are allowed. Silent flatten against an assumed background is not implemented; profile `allow_transparency_flatten` remains false.
-
-## Barcode reserve (`barcode_mode: ingram-generated`)
-
-- Geometry must be present and fully inside the back-cover panel (and safe area when `safe_inset_points` is set).
-- Must not overlap spine / front / bleed-only-only placement.
-- Inspection overlay draws the reserve; preflight lists it for **manual review**.
-- Optional luma heuristic may note “approximately uniform/light” but **does not prove** absence of design content.
-- No barcode art and no ISBN invention.
+Belongs to the **back** panel when `barcode_mode: ingram-generated`. Validated against back geometry; shown on the inspection overlay; listed for human review. Approximate blankness detection is heuristic only. No barcode is generated.
 
 ## Color conversion (provisional)
 
-Profile block `print.cover_raster` (status `experimental-warning`):
-
-| Setting | Current candidate |
-|--------|-------------------|
-| Tool | ImageMagick (`convert` / `magick`) |
-| Working RGB ICC | Ghostscript `srgb.icc` |
-| Working CMYK ICC | Ghostscript `default_cmyk.icc` |
-| Rendering intent | Relative |
-| Black-point compensation | on |
-| PDF/X output intent | `none-provisional` |
-
-Do **not** label the result fully Ingram-approved. Dimension checks remain blocking; color/PDF/X remain warning / manual-review until account verification.
+Same profile-driven ImageMagick path as before (`print.cover_raster`, `experimental-warning`). Do not label results fully Ingram-approved until account verification.
 
 ## Commands
 
@@ -116,34 +153,29 @@ Do **not** label the result fully Ingram-approved. Dimension checks remain block
 make build-ingramspark-print-cover DIR=path/to/book-folder
 make validate-ingramspark-print-cover DIR=path/to/book-folder
 
-uv run python scripts/convert_ingramspark_print_cover.py \
-  --book books/<book-id> \
-  --source assets/ingramspark/full-wrap.png \
+python3 scripts/convert_ingramspark_print_cover.py \
+  --book-dir books/<book-id> \
+  --back assets/ingramspark/back.png \
+  --spine assets/ingramspark/spine.png \
+  --front assets/ingramspark/front.png \
   --template-meta assets/ingramspark/template-meta.yml
 ```
 
-Work directory (not website assets):
+Work directory:
 
 ```
 build/ingramspark/<book-id>/print-cover/
   source-inspection.json
-  converted-cover.tif
+  assembled-wrap-rgb.png
+  assembled-wrap-cmyk.tif
   cover.pdf
   preflight.json
   preflight.txt
   inspection-overlay.png
 ```
 
-Staged production name: `build/ingramspark/<book-id>/print/{isbn}_cvr.pdf`.
+Staged: `build/ingramspark/<book-id>/print/{isbn}_cvr.pdf`. Overlay guides never enter the production PNG/PDF.
 
 ## Website exclusion
 
-Raster covers are only on the IngramSpark packaging path. They are not a `build.formats` entry, not copied into `apps/site/public`, and not listed in public book manifests or download buttons.
-
-## Preparing the RGB PNG
-
-1. Request an IngramSpark Cover Template Generator PDF for the current page count / trim / paper / binding.
-2. Record observed geometry in `template-meta.yml` (points + expected pixels at 300 ppi).
-3. Design the wrap at those exact pixel dimensions in RGB (or export flattened RGB).
-4. Leave the barcode reserve empty when using `ingram-generated`.
-5. Run `build-ingramspark-print-cover` and inspect `inspection-overlay.png` + `preflight.txt`.
+Not a `build.formats` entry; not copied to `apps/site/public`; not listed in public manifests. The ebook cover remains a separate front-only RGB JPG under the ebook target.
