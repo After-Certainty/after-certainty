@@ -8,7 +8,7 @@ publishing:
       status: production-approved
       package:
         github_release: true
-        immutable_release: true
+        immutable_release: false
       ebook:
         enabled: false
       print:

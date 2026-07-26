@@ -498,7 +498,8 @@ def test_existing_repo_books_still_validate(repo_root: Path) -> None:
                 or "when-others-become-leaders" in path.as_posix()
             ):
                 assert package.get("github_release") is True
-                assert package.get("immutable_release") is True
+                # ISBN-tagged immutable archives are optional; rolling latest is enough.
+                assert package.get("immutable_release") is not True
             else:
                 assert package.get("github_release") is not True
                 assert package.get("immutable_release") is not True

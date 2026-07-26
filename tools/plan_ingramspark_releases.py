@@ -99,6 +99,7 @@ def build_plan(*, repo: Path, staging: Path) -> dict[str, Any]:
     date_stamp = time.strftime("%Y%m%d", time.gmtime())
     latest_zips: list[str] = []
     immutable: list[dict[str, str]] = []
+    skipped_immutable: list[str] = []
     errors: list[str] = []
     repo_dirty = _git_dirty(repo)
 
@@ -120,9 +121,11 @@ def build_plan(*, repo: Path, staging: Path) -> dict[str, Any]:
             continue
         zip_dirty = _manifest_dirty_from_zip(path)
         if repo_dirty or zip_dirty is True:
-            errors.append(
-                f"{path.name}: refusing immutable release while the git tree or package "
-                f"manifest reports dirty_tree (status is production-approved)"
+            # Do not fail Prepare release staging / rolling `latest` for this.
+            # Immutable tags are optional archives; skip until the tree is clean.
+            skipped_immutable.append(
+                f"{path.name}: skipped immutable release (dirty_tree in git tree or "
+                f"package manifest; status is production-approved)"
             )
             continue
         expected = ingramspark_artifact_name(book_id)
@@ -143,6 +146,7 @@ def build_plan(*, repo: Path, staging: Path) -> dict[str, Any]:
     return {
         "latest_zips": latest_zips,
         "immutable": immutable,
+        "skipped_immutable": skipped_immutable,
         "errors": errors,
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
     }
@@ -175,6 +179,8 @@ def main() -> None:
     )
     out.write_text(json.dumps(plan, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(out.as_posix())
+    for skip in plan.get("skipped_immutable") or []:
+        print(f"warning: {skip}", file=sys.stderr)
     if plan["errors"]:
         for err in plan["errors"]:
             print(f"error: {err}", file=sys.stderr)

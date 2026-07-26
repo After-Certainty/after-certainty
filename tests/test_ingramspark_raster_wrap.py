@@ -589,7 +589,7 @@ def test_no_production_book_opted_in() -> None:
         if "everyone-knows-love" in book_yml.as_posix():
             assert ingram.get("status") == "production-approved", book_yml
             assert package.get("github_release") is True, book_yml
-            assert package.get("immutable_release") is True, book_yml
+            assert package.get("immutable_release") is not True, book_yml
             assert str(print_cfg.get("isbn") or "").strip() == "9798256206949", book_yml
             ebook = ingram.get("ebook") or {}
             assert ebook.get("enabled") is True, book_yml
@@ -597,14 +597,14 @@ def test_no_production_book_opted_in() -> None:
         elif "observer-patterns" in book_yml.as_posix():
             assert ingram.get("status") == "production-approved", book_yml
             assert package.get("github_release") is True, book_yml
-            assert package.get("immutable_release") is True, book_yml
+            assert package.get("immutable_release") is not True, book_yml
             assert str(print_cfg.get("isbn") or "").strip() == "9798256208776", book_yml
             ebook = ingram.get("ebook") or {}
             assert ebook.get("enabled") is not True, book_yml
         elif "when-others-become-leaders" in book_yml.as_posix():
             assert ingram.get("status") == "production-approved", book_yml
             assert package.get("github_release") is True, book_yml
-            assert package.get("immutable_release") is True, book_yml
+            assert package.get("immutable_release") is not True, book_yml
             assert str(print_cfg.get("isbn") or "").strip() == "9798256208912", book_yml
             ebook = ingram.get("ebook") or {}
             assert ebook.get("enabled") is True, book_yml

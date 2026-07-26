@@ -9,7 +9,7 @@ publishing:
       status: production-approved
       package:
         github_release: true
-        immutable_release: true
+        immutable_release: false
       ebook:
         # Cover is a bleed-free 6×9 crop of assets/ingramspark/front.png (1800×2700).
         enabled: true
