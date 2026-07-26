@@ -91,9 +91,16 @@ def git_commit(repo: Path) -> str:
 
 
 def git_dirty(repo: Path) -> bool:
+    """True when tracked files differ from HEAD.
+
+    Ignores untracked paths so CI dirs like ``upload/`` / ``ingramspark-out/`` do not
+    mark production packages dirty_tree (immutable-release gating).
+    """
     try:
         out = subprocess.check_output(
-            ["git", "status", "--porcelain"], cwd=repo.as_posix(), text=True
+            ["git", "status", "--porcelain", "--untracked-files=no"],
+            cwd=repo.as_posix(),
+            text=True,
         )
         return bool(out.strip())
     except (subprocess.CalledProcessError, FileNotFoundError):

@@ -38,9 +38,12 @@ def _as_dict(value: Any) -> dict[str, Any]:
 
 
 def _git_dirty(repo: Path) -> bool:
+    """True when tracked files differ from HEAD (ignore CI untracked staging dirs)."""
     try:
         out = subprocess.check_output(
-            ["git", "status", "--porcelain"], cwd=repo.as_posix(), text=True
+            ["git", "status", "--porcelain", "--untracked-files=no"],
+            cwd=repo.as_posix(),
+            text=True,
         )
         return bool(out.strip())
     except (subprocess.CalledProcessError, FileNotFoundError):

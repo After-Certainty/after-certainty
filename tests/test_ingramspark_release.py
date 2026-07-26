@@ -205,6 +205,18 @@ def test_immutable_plan_includes_production_approved(tmp_path: Path) -> None:
         package={"github_release": True, "immutable_release": True},
     )
     (book_dir / "book.yml").write_text(yaml.safe_dump(spec, sort_keys=False), encoding="utf-8")
+    # Simulate a real git repo so plan_ingramspark_releases._git_dirty can run.
+    subprocess.run(["git", "init"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(["git", "add", "books", "schema"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(
+        ["git", "-c", "user.email=t@example.com", "-c", "user.name=t", "commit", "-m", "init"],
+        cwd=repo,
+        check=True,
+        capture_output=True,
+    )
+    # CI prepare job always has untracked staging dirs; they must not block immutable.
+    (repo / "upload").mkdir()
+    (repo / "upload" / "everyone-knows-love-ingramspark.zip").write_bytes(b"x")
     zip_name = ingramspark_artifact_name("release-fixture")
     with zipfile.ZipFile(staging / zip_name, "w") as zf:
         zf.writestr(
@@ -212,6 +224,7 @@ def test_immutable_plan_includes_production_approved(tmp_path: Path) -> None:
             json.dumps({"dirty_tree": False, "book_id": "release-fixture"}),
         )
     plan = build_plan(repo=repo, staging=staging)
+    assert plan["errors"] == []
     assert len(plan["immutable"]) == 1
     assert plan["immutable"][0]["tag"].startswith("ingramspark/release-fixture/")
     assert plan["immutable"][0]["asset"] == zip_name
