@@ -159,6 +159,9 @@ def generate_frontmatter_for_book(repo: Path, book_rel: str) -> list[Path]:
         if not rendered.endswith("\n"):
             rendered += "\n"
         out_path.parent.mkdir(parents=True, exist_ok=True)
+        # Skip identical writes so CI builds do not dirty an already-synced tree.
+        if out_path.is_file() and out_path.read_text(encoding="utf-8") == rendered:
+            continue
         out_path.write_text(rendered, encoding="utf-8")
         written.append(out_path)
 

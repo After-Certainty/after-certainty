@@ -1,4 +1,4 @@
-![Cover](book-cover.png){ width=100% }
+![Everyone Knows Love cover](book-cover.png){ width=100% }
 
 \newpage
 

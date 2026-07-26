@@ -1,4 +1,4 @@
-![Cover](book-cover.png){ width=100% }
+![When Others Become Leaders cover](book-cover.png){ width=100% }
 
 \newpage
 
