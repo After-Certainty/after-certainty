@@ -137,11 +137,15 @@ jobs:
         run: |
           set -euo pipefail
           bash scripts/ci_uv_sync.sh
-          python3 -c "import PIL; print(PIL.__version__)"
+          # GITHUB_PATH applies to later steps only; call the venv python here.
+          .venv/bin/python3 -c "import PIL; print('Pillow', PIL.__version__)"
 
       - name: Build cover-preview ZIP
         run: |
           set -euo pipefail
+          # Prefer the project venv even if PATH ordering differs.
+          export PATH="${GITHUB_WORKSPACE}/.venv/bin:${PATH}"
+          python3 -c "import PIL"
           make package-ingramspark DIR="${{ matrix.dir }}"
           test -f "build/ingramspark/${{ matrix.id }}/${{ matrix.id }}-ingramspark-preview.zip"
 
