@@ -44,11 +44,11 @@ barcode_reserve:
   required: true
   panel: back
   # Top-left of the white clear box on back.png (image coordinates).
-  # ~1.40" × 0.97" — below Ingram's 1.75" × 1.0" guidance; enlarge before upload.
-  x_pixels: 1236
-  y_pixels: 2281
-  width_pixels: 419
-  height_pixels: 292
+  # 2.58" × 1.52" — meets Ingram's ≥1.75" × 1.0" guidance.
+  x_pixels: 938
+  y_pixels: 2081
+  width_pixels: 775
+  height_pixels: 455
 barcode_supplied: false
 spine_text: true
 notes: >

@@ -21,4 +21,4 @@ make export-ingramspark-print DIR=books/everyone-knows-love
 make package-ingramspark DIR=books/everyone-knows-love
 ```
 
-`template_page_count` / `template-meta.yml` are locked to the measured interior (**58**). Regenerate `spine.png` + geometry if the interior length changes. Enlarge the back barcode clear area to ≥1.75″ × 1.0″ before IngramSpark upload. See `docs/publishing/ingramspark-raster-wrap.md`.
+`template_page_count` / `template-meta.yml` are locked to the measured interior (**58**). Regenerate `spine.png` + geometry if the interior length changes. Back barcode clear area is ~2.58″ × 1.52″ (meets ≥1.75″ × 1.0″). See `docs/publishing/ingramspark-raster-wrap.md`.
