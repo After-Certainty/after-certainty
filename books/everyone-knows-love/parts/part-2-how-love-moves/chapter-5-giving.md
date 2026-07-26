@@ -1,3 +1,5 @@
+\newpage
+
 # Giving
 
 A neighbor knocked at nine on a Tuesday with a casserole dish and no speech prepared.

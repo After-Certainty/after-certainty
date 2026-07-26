@@ -81,8 +81,11 @@ def test_prepare_closing_markdown_for_pdf() -> None:
     text = (BOOK / "back-matter" / "closing.md").read_text(encoding="utf-8")
     out = prepare_closing_markdown_for_pdf(text)
     assert "{=latex}" in out
-    assert "\\clearpage" in out
+    assert out.count("\\clearpage") >= 2
+    assert "\\clearpage" in out.split("\\end{center}")[-1]
     assert "voluntary inconvenience" in out
+    assert "free to say no" in out
+    assert "how we grow" in out
 
 
 @pytest.mark.skipif(not _pandoc_available(), reason="pandoc not installed")

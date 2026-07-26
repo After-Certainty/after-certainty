@@ -1,3 +1,5 @@
+\newpage
+
 # Further Reading — Other Observers
 
 This book is an essay, not a dissertation. The chapters ask you to look alongside the author—not to evaluate footnotes. For that reason, there are no citations in the body of the text.

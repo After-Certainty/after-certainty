@@ -1,3 +1,5 @@
+\newpage
+
 # Humanity's Long Conversation About Love
 
 A grandmother told a child that love is patient.

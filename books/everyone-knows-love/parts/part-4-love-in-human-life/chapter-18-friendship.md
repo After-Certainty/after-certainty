@@ -1,3 +1,5 @@
+\newpage
+
 # Friendship
 
 A woman ran into someone she had not seen in years at the grocery store.
