@@ -64,6 +64,12 @@ def test_kindle_flatten_rewrites_closing_blocks(tmp_path: Path) -> None:
     assert "::: closing-page-break" in text
     assert 'custom-style="Closing Quote Block"' not in text
     assert "voluntary inconvenience" in text
+    # Single typographic title page (cover + \\newpage already stripped).
+    assert text.lstrip().startswith("# **Everyone Knows Love**")
+    assert text.count("# **Everyone Knows Love**") == 1
+    # Part bridges keep one H1 each (no synthetic duplicate).
+    assert text.count("# Part I — Everyone Knows Love") == 1
+    assert text.count("# **Part I — Everyone Knows Love**") == 0
 
 
 def test_reference_docx_has_closing_styles(reference_docx: Path) -> None:

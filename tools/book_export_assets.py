@@ -183,3 +183,33 @@ def prepare_closing_markdown_for_pdf(text: str) -> str:
         "\\clearpage\n"
         "```\n"
     )
+
+
+_LEADING_NEWPAGE_RE = re.compile(r"^(?:\\newpage[ \t]*\n+)+")
+
+
+def prepare_bridge_markdown_for_pdf(text: str) -> str:
+    """Bottom-align a short part-bridge opener on its own PDF/print page.
+
+    Part bridges are usually a heading plus a few paragraphs; top alignment leaves
+    a large empty lower half. Leading ``\\newpage`` markers are replaced by an
+    explicit ``\\clearpage`` plus ``\\vspace*{\\fill}`` so the markdown heading
+    still converts normally.
+    """
+    body = text.strip()
+    if not body:
+        return text
+    body = _LEADING_NEWPAGE_RE.sub("", body).strip()
+    if not body:
+        return text
+    return (
+        "```{=latex}\n"
+        "\\clearpage\n"
+        "\\vspace*{\\fill}\n"
+        "```\n\n"
+        f"{body}\n\n"
+        "```{=latex}\n"
+        "\\vspace*{0.12\\textheight}\n"
+        "\\clearpage\n"
+        "```\n"
+    )

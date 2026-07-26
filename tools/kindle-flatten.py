@@ -113,17 +113,93 @@ def ensure_blank_line_before_footnote_definitions(text: str) -> str:
 
 
 def strip_inline_cover_image(text: str) -> str:
-    # Drop inline BookCover from each chunk (--epub-cover-image supplies the cover).
-    # front-matter/title-page.md must still have real headings/text after this strip,
-    # or the first spine section is empty and readers open on copyright.
-    lines = []
-    for line in text.splitlines():
-        if re.search(r"!\[[^\]]*\]\(([^)]*(?:BookCover|book_cover|book-cover)\.png)\)", line):
+    """
+    Drop inline BookCover from each chunk (--epub-cover-image supplies the cover).
+
+    Also drops a following ``\\newpage`` that only separated the cover image from
+    the typographic title. Leaving that marker creates an orphan EPUB chapter whose
+    only heading is the pandoc metadata title, so readers see two title pages.
+    """
+    lines = text.splitlines()
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        if re.search(
+            r"!\[[^\]]*\]\(([^)]*(?:BookCover|book_cover|book-cover)\.png)\)",
+            line,
+        ):
+            i += 1
+            while i < len(lines) and not lines[i].strip():
+                i += 1
+            if i < len(lines) and lines[i].strip() == r"\newpage":
+                i += 1
+                while i < len(lines) and not lines[i].strip():
+                    i += 1
             continue
-        lines.append(line)
-    cleaned = "\n".join(lines)
+        out.append(line)
+        i += 1
+    cleaned = "\n".join(out)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip() + "\n"
-    return cleaned
+    return cleaned if cleaned.strip() else ""
+
+
+def normalize_part_heading(text: str) -> str:
+    """Compare Part titles across `# **Part …**` and `# Part …` spellings."""
+    value = text.strip()
+    value = re.sub(r"^\*+|\*+$", "", value).strip()
+    value = value.replace("–", "—").replace("−", "—")
+    return re.sub(r"\s+", " ", value).casefold()
+
+
+def extract_leading_h1(text: str) -> str | None:
+    """Return the first markdown H1 title, skipping leading ``\\newpage`` / blanks."""
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped == r"\newpage":
+            continue
+        match = re.match(r"^#\s+(.+?)\s*$", stripped)
+        if match:
+            return match.group(1).strip()
+        return None
+    return None
+
+
+def body_opens_with_part_heading(body: str) -> bool:
+    """True when the unit already starts with a Part opener H1."""
+    heading = extract_leading_h1(body)
+    if heading is None:
+        return False
+    return normalize_part_heading(heading).startswith("part ")
+
+
+def should_inject_part_h1(part_h1: str | None, body: str) -> bool:
+    """
+    Inject a synthetic Part H1 only when the first unit under a Part block does
+    not already open with a Part heading (e.g. a chapter that is not a bridge).
+    """
+    if not part_h1:
+        return False
+    if body_opens_with_part_heading(body):
+        return False
+    injected = extract_leading_h1(part_h1)
+    existing = extract_leading_h1(body)
+    if injected is None or existing is None:
+        return True
+    return normalize_part_heading(injected) != normalize_part_heading(existing)
+
+
+def strip_leading_newpage(text: str) -> str:
+    """Remove leading ``\\newpage`` markers (meaningless / harmful in EPUB)."""
+    lines = text.splitlines()
+    i = 0
+    while i < len(lines):
+        stripped = lines[i].strip()
+        if not stripped or stripped == r"\newpage":
+            i += 1
+            continue
+        break
+    return "\n".join(lines[i:]).strip() + ("\n" if lines[i:] else "")
 
 
 def main() -> None:
@@ -155,8 +231,8 @@ def main() -> None:
         if args.flatten_custom_blocks:
             text = flatten_custom_blocks(text)
         text = prepare_manuscript_unit_for_export(text)
-        body = text.strip()
-        if part_h1:
+        body = strip_leading_newpage(text.strip())
+        if should_inject_part_h1(part_h1, body):
             body = f"{part_h1}\n\n{body}"
         chunks.append(body)
 

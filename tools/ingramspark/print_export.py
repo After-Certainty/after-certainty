@@ -115,6 +115,7 @@ def _pandoc_pdf(
     from assemble import assemble_markdown_units  # noqa: PLC0415
     from book_export_assets import (  # noqa: PLC0415
         pdf_header_tex,
+        prepare_bridge_markdown_for_pdf,
         prepare_closing_markdown_for_pdf,
         strip_inline_title_page_cover,
         title_page_cover_basename,
@@ -136,6 +137,11 @@ def _pandoc_pdf(
             if unit.name == "closing.md":
                 unit.write_text(
                     prepare_closing_markdown_for_pdf(unit.read_text(encoding="utf-8")),
+                    encoding="utf-8",
+                )
+            elif unit.name == "bridge.md":
+                unit.write_text(
+                    prepare_bridge_markdown_for_pdf(unit.read_text(encoding="utf-8")),
                     encoding="utf-8",
                 )
             elif unit.name == "title-page.md" and cover_basename:

@@ -19,6 +19,7 @@ if str(Path(__file__).resolve().parent) not in sys.path:
 from assemble import assemble_markdown_units  # noqa: E402
 from book_export_assets import (  # noqa: E402
     pdf_header_tex,
+    prepare_bridge_markdown_for_pdf,
     prepare_closing_markdown_for_pdf,
     prepare_title_page_for_pdf,
     title_page_cover_basename,
@@ -48,8 +49,9 @@ def stage_pdf_units(
     Return pandoc input paths in manuscript order.
 
     Units are preprocessed for publication and copied into ``tmp_dir`` so
-    duplicate basenames (e.g. part bridges) stay distinct. ``closing.md`` and
-    ``title-page.md`` receive format-specific tweaks after preprocessing.
+    duplicate basenames (e.g. part bridges) stay distinct. ``closing.md``,
+    ``bridge.md``, and ``title-page.md`` receive format-specific tweaks after
+    preprocessing.
     """
     unnumbered_cover = title_page_cover_unnumbered(spec)
     cover_basename = title_page_cover_basename(spec)
@@ -59,6 +61,10 @@ def stage_pdf_units(
     for unit in publication_units:
         if unit.name == "closing.md":
             text = prepare_closing_markdown_for_pdf(unit.read_text(encoding="utf-8"))
+            unit.write_text(text, encoding="utf-8")
+            staged.append(unit)
+        elif unit.name == "bridge.md":
+            text = prepare_bridge_markdown_for_pdf(unit.read_text(encoding="utf-8"))
             unit.write_text(text, encoding="utf-8")
             staged.append(unit)
         elif unit.name == "title-page.md" and unnumbered_cover and cover_basename:
