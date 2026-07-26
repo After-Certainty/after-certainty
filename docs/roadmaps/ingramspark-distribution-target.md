@@ -1213,10 +1213,11 @@ Pilot sequence (aligned with the task graph in §26–§27):
 ### INGRAM-011 — Documentation and operating procedure
 
 - **Purpose:** Local workflow, proofing checklist, template refresh, release/submission process (including 009A vs 009B)
-- **Files likely:** `docs/publishing/ingramspark-operating-procedure.md` (or section update here)
+- **Files:** [`docs/publishing/ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md)
 - **Dependencies:** INGRAM-009B (full procedure); draft notes may start after 009A
 - **Exclusions:** Code changes
 - **Acceptance:** Another book can be opted in without production code changes
+- **Status:** **Complete (2026-07)** — operating procedure covers lifecycle, assets, page-count sync, package/upload, release flags, and gotchas for new opt-ins
 - **Size:** S
 
 ---
@@ -1415,7 +1416,7 @@ Required cases from the prompt checklist are in scope: missing ISBN, duplicate I
 22. Observer Patterns can be packaged once its blockers are resolved. **Done for print (2026-07) — account-uploaded; `status: production-approved`. Ebook deferred.**
 23. Everyone Knows Love can be packaged once its blockers are resolved. **Done — packaged and account-accepted; `status: production-approved`.**
 24. When Others Become Leaders can be packaged once its blockers are resolved. **Done (2026-07) — print + ebook account-uploaded; `status: production-approved`.**
-25. Process documented well enough to opt in another book without changing production code.
+25. Process documented well enough to opt in another book without changing production code. **Done (2026-07) — [`docs/publishing/ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md).**
 
 ---
 
@@ -1423,8 +1424,8 @@ Required cases from the prompt checklist are in scope: missing ISBN, duplicate I
 
 | Question | Answer |
 |----------|--------|
-| Is the plan ready for implementation? | **Yes** — core exporters/packaging shipped; EKL pilot complete |
-| Can any book be enabled now? | **Yes — all three initial books** are `production-approved` (EKL print+ebook; OP print; WOBL print+ebook). OP ebook/poetry EPUB still deferred |
+| Is the plan ready for implementation? | **Yes** — core exporters/packaging shipped; initial books production-approved; operating procedure in [`docs/publishing/ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md) |
+| Can any book be enabled now? | **Yes — all three initial books** are `production-approved` (EKL print+ebook; OP print; WOBL print+ebook). OP ebook/poetry EPUB still deferred. New house-default paperbacks follow the operating procedure |
 | Highest technical risk | PDF/X ↔ ICC / output-intent conflict for interiors still advisory; cover DeviceCMYK-without-ICC path **account-accepted** on EKL, OP, and WOBL |
 | Highest production risk | Stale cover templates / page-count drift after ISBN submission (mitigated by package-time cover page-count sync) |
 | Spec gate | Approved; paperback-only schema and pilot split in use |
