@@ -246,6 +246,7 @@ def test_website_manifest_still_excludes_ingramspark(tmp_path: Path) -> None:
 
 
 def test_matrix_ingramspark_github_release_flags() -> None:
+    # Use pdf (not epub): Observer Patterns is print/PDF-only and omitted from epub matrices.
     matrix = subprocess.run(
         [
             sys.executable,
@@ -254,7 +255,7 @@ def test_matrix_ingramspark_github_release_flags() -> None:
             str(_REPO),
             "--all",
             "--format",
-            "epub",
+            "pdf",
         ],
         capture_output=True,
         text=True,
