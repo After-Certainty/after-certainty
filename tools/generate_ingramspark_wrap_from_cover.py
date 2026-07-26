@@ -4,8 +4,8 @@ Derive IngramSpark assembled-raster-wrap panels from a book's book-cover.png.
 
 Produces (under assets/ingramspark/ by default):
   front.png       — upscaled cover fitted into trim+bleed front panel
-  back.png        — blurred/extended cover field + barcode clear reserve
-  spine.png       — pattern strip (no text below 48 pages)
+  back.png        — blurred atmosphere from cover lower band + barcode reserve
+  spine.png       — edge pattern strip (no spine text below 48 pages)
   spine-source.png — wider master for page-count recrops
   template-meta.yml — geometry matching 6×9 cream perfect-bound
 
@@ -67,16 +67,19 @@ def make_back(
     *,
     description: str = "",
 ) -> tuple[Image.Image, tuple[int, int, int, int]]:
-    """Blurred cover field with a solid barcode clear rectangle.
+    """Atmosphere field from cover color (no readable title) + barcode reserve.
 
     Returns ``(image, (x, y, w, h))`` barcode box in back-panel pixels.
     """
     w, h = size
-    # Mirror horizontally so the back feels related but not identical to the front.
-    base = ImageOps.mirror(fit_cover_to_panel(cover, size))
-    soft = base.filter(ImageFilter.GaussianBlur(radius=18))
-    # Slight darken for print ink control / text legibility if blurb is added later.
-    soft = Image.blend(soft, Image.new("RGB", size, (20, 24, 36)), 0.12)
+    src = cover.convert("RGB")
+    sw, sh = src.size
+    # Prefer lower/side bands so front title/author do not reverse-print through blur.
+    band = src.crop((0, int(sh * 0.45), sw, sh))
+    base = ImageOps.fit(band, size, method=Image.Resampling.LANCZOS)
+    soft = base.filter(ImageFilter.GaussianBlur(radius=28))
+    # Slight darken for print ink control / future blurb legibility.
+    soft = Image.blend(soft, Image.new("RGB", size, (20, 24, 36)), 0.18)
 
     draw = ImageDraw.Draw(soft)
     bw = inches_to_px(BARCODE_W_IN)
@@ -99,12 +102,12 @@ def make_back(
 
 
 def make_spine_source(cover: Image.Image, height: int, width: int) -> Image.Image:
-    """Tall strip sampled from the cover's left third (pattern continuity)."""
+    """Tall strip from a cover edge band (avoid title glyphs on thin spines)."""
     src = cover.convert("RGB")
     sw, sh = src.size
-    # Sample a vertical band from the left/center of the cover art.
-    band_w = max(8, sw // 6)
-    left = max(0, sw // 5)
+    # Far-left vertical band is usually pattern-only on these covers.
+    band_w = max(8, sw // 12)
+    left = max(0, sw // 40)
     crop = src.crop((left, 0, left + band_w, sh))
     return crop.resize((width, height), Image.Resampling.LANCZOS)
 
