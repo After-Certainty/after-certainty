@@ -809,6 +809,7 @@
           "enum": [
             "supplied-wrap",
             "raster-wrap",
+            "assembled-raster-wrap",
             "template-generated",
             "hybrid"
           ]
@@ -818,10 +819,34 @@
           "minLength": 1,
           "description": "Full-wrap cover source relative to the book directory (PDF for supplied-wrap; flattened PNG for raster-wrap)."
         },
+        "assets": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "back",
+            "spine",
+            "front"
+          ],
+          "description": "Three-panel PNG paths for assembled-raster-wrap (relative to the book directory).",
+          "properties": {
+            "back": {
+              "type": "string",
+              "minLength": 1
+            },
+            "spine": {
+              "type": "string",
+              "minLength": 1
+            },
+            "front": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
         "template_metadata": {
           "type": "string",
           "minLength": 1,
-          "description": "Path to template-meta.yml relative to the book directory (required for raster-wrap)."
+          "description": "Path to template-meta.yml relative to the book directory (required for raster-wrap and assembled-raster-wrap)."
         },
         "template_source": {
           "type": "string",
@@ -877,6 +902,27 @@
             "required": [
               "strategy",
               "source",
+              "template_metadata",
+              "template_page_count",
+              "barcode_mode"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "strategy": {
+                "const": "assembled-raster-wrap"
+              }
+            },
+            "required": [
+              "strategy"
+            ]
+          },
+          "then": {
+            "required": [
+              "strategy",
+              "assets",
               "template_metadata",
               "template_page_count",
               "barcode_mode"

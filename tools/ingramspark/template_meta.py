@@ -27,6 +27,8 @@ TEMPLATE_META_SCHEMA_PATH = (
     _REPO_ROOT / "schema" / "profiles" / "ingramspark" / "template-meta.schema.json"
 )
 POINTS_PER_INCH = 72.0
+MIN_BARCODE_WIDTH_INCHES = 1.75
+MIN_BARCODE_HEIGHT_INCHES = 1.0
 
 _TEMPLATE_META_SCHEMA_CACHE: dict[str, Any] | None = None
 
@@ -36,12 +38,24 @@ class TemplateMetaError(ValueError):
 
 
 @dataclass(frozen=True)
+class ComponentPixels:
+    width: int
+    height: int
+
+
+@dataclass(frozen=True)
 class BarcodeReserve:
     required: bool
     width_inches: float
     height_inches: float
     x_points: float
     y_points: float
+    panel: str = "back"
+    # Optional top-left pixel coords within the back panel image (y downward).
+    x_pixels: int | None = None
+    y_pixels: int | None = None
+    width_pixels: int | None = None
+    height_pixels: int | None = None
 
     @property
     def width_points(self) -> float:
@@ -70,14 +84,22 @@ class NormalizedTemplateMeta:
     spine_width_inches: float | None
     spine_width_points: float | None
     bleed_points: float | None
+    outside_bleed_points: float | None
+    top_bleed_points: float | None
+    bottom_bleed_points: float | None
     safe_inset_points: float | None
     barcode_supplied: bool | None
     spine_text: bool | None
     required_ppi: int | None
     expected_width_pixels: int | None
     expected_height_pixels: int | None
+    components: dict[str, ComponentPixels] | None
     barcode_reserve: BarcodeReserve | None
     raw: dict[str, Any]
+
+    @property
+    def has_components(self) -> bool:
+        return bool(self.components)
 
 
 def load_template_meta_schema() -> dict[str, Any]:
@@ -163,6 +185,9 @@ def _normalize_legacy(raw: dict[str, Any]) -> NormalizedTemplateMeta:
         spine_width_inches=spine_w,
         spine_width_points=inches_to_points(spine_w) if spine_w is not None else None,
         bleed_points=None,
+        outside_bleed_points=None,
+        top_bleed_points=None,
+        bottom_bleed_points=None,
         safe_inset_points=None,
         barcode_supplied=raw.get("barcode_supplied")
         if isinstance(raw.get("barcode_supplied"), bool)
@@ -171,9 +196,45 @@ def _normalize_legacy(raw: dict[str, Any]) -> NormalizedTemplateMeta:
         required_ppi=None,
         expected_width_pixels=None,
         expected_height_pixels=None,
+        components=None,
         barcode_reserve=None,
         raw=raw,
     )
+
+
+def resolve_bleed_points(geo: dict[str, Any]) -> tuple[float, float, float, float]:
+    """Return (uniform_or_outside_for_legacy, outside, top, bottom)."""
+    if "outside_bleed_points" in geo:
+        outside = float(geo["outside_bleed_points"])
+        top = float(geo["top_bleed_points"])
+        bottom = float(geo["bottom_bleed_points"])
+        return outside, outside, top, bottom
+    bleed = float(geo["bleed_points"])
+    return bleed, bleed, bleed, bleed
+
+
+def expected_component_points(
+    *,
+    trim_width_inches: float,
+    trim_height_inches: float,
+    spine_width_points: float,
+    outside_bleed_points: float,
+    top_bleed_points: float,
+    bottom_bleed_points: float,
+) -> dict[str, tuple[float, float]]:
+    """Exact contiguous panel sizes in points (includes owned bleed only)."""
+    trim_w = inches_to_points(trim_width_inches)
+    trim_h = inches_to_points(trim_height_inches)
+    height = trim_h + top_bleed_points + bottom_bleed_points
+    back_w = outside_bleed_points + trim_w
+    spine_w = float(spine_width_points)
+    front_w = trim_w + outside_bleed_points
+    return {
+        "back": (back_w, height),
+        "spine": (spine_w, height),
+        "front": (front_w, height),
+        "full_wrap": (back_w + spine_w + front_w, height),
+    }
 
 
 def _normalize_raster_v1(raw: dict[str, Any]) -> NormalizedTemplateMeta:
@@ -187,10 +248,7 @@ def _normalize_raster_v1(raw: dict[str, Any]) -> NormalizedTemplateMeta:
         box_w_pts = float(geo["media_box_width_points"])
         box_h_pts = float(geo["media_box_height_points"])
         spine_pts = float(geo["spine_width_points"])
-        bleed_pts = float(geo["bleed_points"])
         ppi = int(raster["required_ppi"])
-        exp_w = int(raster["expected_width_pixels"])
-        exp_h = int(raster["expected_height_pixels"])
     except (KeyError, TypeError, ValueError) as exc:
         raise TemplateMetaError(
             "raster v1 template-meta missing manufacturing/geometry/raster fields"
@@ -199,33 +257,122 @@ def _normalize_raster_v1(raw: dict[str, Any]) -> NormalizedTemplateMeta:
     if ppi < 72:
         raise TemplateMetaError(f"raster.required_ppi must be >= 72 (got {ppi})")
 
-    derived_w = pixels_from_points(box_w_pts, ppi)
-    derived_h = pixels_from_points(box_h_pts, ppi)
-    if exp_w != derived_w or exp_h != derived_h:
+    try:
+        _uniform, outside, top, bottom = resolve_bleed_points(geo)
+    except (KeyError, TypeError, ValueError) as exc:
         raise TemplateMetaError(
-            "template-meta raster dimensions are inconsistent with geometry × required_ppi.\n"
-            f"  stored expected: {exp_w} × {exp_h} px\n"
-            f"  derived from media box {box_w_pts} × {box_h_pts} pt at {ppi} ppi "
-            f"(round(inches × ppi)): {derived_w} × {derived_h} px\n"
-            "Update expected_*_pixels or geometry so they agree under the project rounding rule."
+            "geometry requires bleed_points or outside/top/bottom_bleed_points"
+        ) from exc
+
+    expected = expected_component_points(
+        trim_width_inches=tw,
+        trim_height_inches=th,
+        spine_width_points=spine_pts,
+        outside_bleed_points=outside,
+        top_bleed_points=top,
+        bottom_bleed_points=bottom,
+    )
+    implied_w, implied_h = expected["full_wrap"]
+    if abs(implied_w - box_w_pts) > 0.05 or abs(implied_h - box_h_pts) > 0.05:
+        raise TemplateMetaError(
+            "geometry is inconsistent with trim + spine + bleed for a back|spine|front wrap.\n"
+            f"  implied media box: {implied_w} × {implied_h} pt\n"
+            f"  stored media box: {box_w_pts} × {box_h_pts} pt"
         )
 
-    reserve: BarcodeReserve | None = None
-    reserve_raw = raw.get("barcode_reserve")
-    if isinstance(reserve_raw, dict):
+    components: dict[str, ComponentPixels] | None = None
+    comps_raw = raster.get("components")
+    full_wrap = raster.get("full_wrap") if isinstance(raster.get("full_wrap"), dict) else None
+    if isinstance(comps_raw, dict) and full_wrap is not None:
         try:
-            reserve = BarcodeReserve(
-                required=bool(reserve_raw["required"]),
-                width_inches=float(reserve_raw["width_inches"]),
-                height_inches=float(reserve_raw["height_inches"]),
-                x_points=float(reserve_raw["x_points"]),
-                y_points=float(reserve_raw["y_points"]),
-            )
+            components = {
+                "back": ComponentPixels(
+                    int(comps_raw["back"]["expected_width_pixels"]),
+                    int(comps_raw["back"]["expected_height_pixels"]),
+                ),
+                "spine": ComponentPixels(
+                    int(comps_raw["spine"]["expected_width_pixels"]),
+                    int(comps_raw["spine"]["expected_height_pixels"]),
+                ),
+                "front": ComponentPixels(
+                    int(comps_raw["front"]["expected_width_pixels"]),
+                    int(comps_raw["front"]["expected_height_pixels"]),
+                ),
+            }
+            exp_w = int(full_wrap["expected_width_pixels"])
+            exp_h = int(full_wrap["expected_height_pixels"])
         except (KeyError, TypeError, ValueError) as exc:
-            raise TemplateMetaError("barcode_reserve is incomplete or invalid") from exc
+            raise TemplateMetaError("raster.components / full_wrap is incomplete") from exc
+
+        # Height consistency + width sum
+        heights = {c.height for c in components.values()}
+        if len(heights) != 1 or next(iter(heights)) != exp_h:
+            raise TemplateMetaError(
+                "component heights must match each other and full_wrap height.\n"
+                f"  back={components['back'].height}, spine={components['spine'].height}, "
+                f"front={components['front'].height}, full_wrap={exp_h}"
+            )
+        width_sum = components["back"].width + components["spine"].width + components["front"].width
+        if width_sum != exp_w:
+            raise TemplateMetaError(
+                "component widths must sum to full_wrap width.\n"
+                f"  back+spine+front={width_sum} px, full_wrap={exp_w} px"
+            )
+
+        # Consistency with geometry × PPI
+        for role in ("back", "spine", "front"):
+            der_w = pixels_from_points(expected[role][0], ppi)
+            der_h = pixels_from_points(expected[role][1], ppi)
+            got = components[role]
+            if got.width != der_w or got.height != der_h:
+                raise TemplateMetaError(
+                    f"raster.components.{role} pixels are inconsistent with geometry × "
+                    f"required_ppi.\n"
+                    f"  stored: {got.width} × {got.height} px\n"
+                    f"  derived from {expected[role][0]} × {expected[role][1]} pt at {ppi} ppi: "
+                    f"{der_w} × {der_h} px"
+                )
+        der_fw = pixels_from_points(box_w_pts, ppi)
+        der_fh = pixels_from_points(box_h_pts, ppi)
+        if exp_w != der_fw or exp_h != der_fh:
+            raise TemplateMetaError(
+                "template-meta full_wrap dimensions are inconsistent with geometry × "
+                "required_ppi.\n"
+                f"  stored expected: {exp_w} × {exp_h} px\n"
+                f"  derived: {der_fw} × {der_fh} px"
+            )
+    else:
+        try:
+            exp_w = int(raster["expected_width_pixels"])
+            exp_h = int(raster["expected_height_pixels"])
+        except (KeyError, TypeError, ValueError) as exc:
+            raise TemplateMetaError(
+                "raster v1 requires expected_width/height_pixels or full_wrap+components"
+            ) from exc
+        derived_w = pixels_from_points(box_w_pts, ppi)
+        derived_h = pixels_from_points(box_h_pts, ppi)
+        if exp_w != derived_w or exp_h != derived_h:
+            raise TemplateMetaError(
+                "template-meta raster dimensions are inconsistent with geometry × "
+                "required_ppi.\n"
+                f"  stored expected: {exp_w} × {exp_h} px\n"
+                f"  derived from media box {box_w_pts} × {box_h_pts} pt at {ppi} ppi "
+                f"(round(inches × ppi)): {derived_w} × {derived_h} px\n"
+                "Update expected_*_pixels or geometry so they agree under the project "
+                "rounding rule."
+            )
+
+    reserve = _normalize_barcode_reserve(
+        raw.get("barcode_reserve"),
+        ppi=ppi,
+        media_box_height_points=box_h_pts,
+        back_width_points=expected["back"][0],
+        back_height_pixels=components["back"].height if components else exp_h,
+    )
 
     safe = geo.get("safe_inset_points")
     safe_inset = float(safe) if isinstance(safe, (int, float)) else None
+    bleed_uniform = float(geo["bleed_points"]) if "bleed_points" in geo else outside
 
     return NormalizedTemplateMeta(
         form="raster-v1",
@@ -241,7 +388,10 @@ def _normalize_raster_v1(raw: dict[str, Any]) -> NormalizedTemplateMeta:
         media_box_height_points=box_h_pts,
         spine_width_inches=points_to_inches(spine_pts),
         spine_width_points=spine_pts,
-        bleed_points=bleed_pts,
+        bleed_points=bleed_uniform,
+        outside_bleed_points=outside,
+        top_bleed_points=top,
+        bottom_bleed_points=bottom,
         safe_inset_points=safe_inset,
         barcode_supplied=raw.get("barcode_supplied")
         if isinstance(raw.get("barcode_supplied"), bool)
@@ -250,9 +400,67 @@ def _normalize_raster_v1(raw: dict[str, Any]) -> NormalizedTemplateMeta:
         required_ppi=ppi,
         expected_width_pixels=exp_w,
         expected_height_pixels=exp_h,
+        components=components,
         barcode_reserve=reserve,
         raw=raw,
     )
+
+
+def _normalize_barcode_reserve(
+    reserve_raw: Any,
+    *,
+    ppi: int,
+    media_box_height_points: float,
+    back_width_points: float,
+    back_height_pixels: int,
+) -> BarcodeReserve | None:
+    if not isinstance(reserve_raw, dict):
+        return None
+    required = bool(reserve_raw["required"])
+    panel = str(reserve_raw.get("panel") or "back").strip() or "back"
+    if panel != "back":
+        raise TemplateMetaError(f"barcode_reserve.panel must be 'back' (got {panel!r})")
+
+    if "x_pixels" in reserve_raw:
+        try:
+            x_px = int(reserve_raw["x_pixels"])
+            y_px = int(reserve_raw["y_pixels"])
+            w_px = int(reserve_raw["width_pixels"])
+            h_px = int(reserve_raw["height_pixels"])
+        except (KeyError, TypeError, ValueError) as exc:
+            raise TemplateMetaError("barcode_reserve pixel fields are incomplete") from exc
+        width_in = w_px / float(ppi)
+        height_in = h_px / float(ppi)
+        # Convert top-left panel pixels → PDF lower-left points in media box
+        # (back panel starts at x=0; image y downward → PDF y upward).
+        x_pts = (x_px / float(ppi)) * POINTS_PER_INCH
+        y_pts_top = (y_px / float(ppi)) * POINTS_PER_INCH
+        height_pts = (h_px / float(ppi)) * POINTS_PER_INCH
+        y_pts = media_box_height_points - y_pts_top - height_pts
+        return BarcodeReserve(
+            required=required,
+            width_inches=width_in,
+            height_inches=height_in,
+            x_points=x_pts,
+            y_points=y_pts,
+            panel=panel,
+            x_pixels=x_px,
+            y_pixels=y_px,
+            width_pixels=w_px,
+            height_pixels=h_px,
+        )
+
+    try:
+        return BarcodeReserve(
+            required=required,
+            width_inches=float(reserve_raw["width_inches"]),
+            height_inches=float(reserve_raw["height_inches"]),
+            x_points=float(reserve_raw["x_points"]),
+            y_points=float(reserve_raw["y_points"]),
+            panel=panel,
+        )
+    except (KeyError, TypeError, ValueError) as exc:
+        raise TemplateMetaError("barcode_reserve is incomplete or invalid") from exc
 
 
 def effective_ppi(
@@ -276,31 +484,29 @@ def back_cover_panel_points(meta: NormalizedTemplateMeta) -> tuple[float, float,
     Return (x0, y0, x1, y1) for the back-cover panel in media-box coordinates.
 
     Layout assumption (IngramSpark full wrap): left = back, center = spine, right = front.
-    Panel includes bleed on the outer left and shares vertical bleed with the wrap.
     """
-    if meta.spine_width_points is None or meta.bleed_points is None:
+    outside = meta.outside_bleed_points
+    if outside is None:
+        outside = meta.bleed_points
+    if meta.spine_width_points is None or outside is None:
         raise TemplateMetaError(
-            "spine_width_points and bleed_points are required to locate the back-cover panel"
+            "spine_width_points and bleed (outside or bleed_points) are required "
+            "to locate the back-cover panel"
         )
-    bleed = float(meta.bleed_points)
     spine = float(meta.spine_width_points)
     trim_w_pts = inches_to_points(meta.trim_width_inches)
-    # back panel width = bleed (outer) + trim
     x0 = 0.0
-    x1 = bleed + trim_w_pts
-    # ensure spine starts where we expect
+    x1 = float(outside) + trim_w_pts
     expected_spine_x0 = x1
     expected_front_x0 = expected_spine_x0 + spine
-    expected_media_w = expected_front_x0 + trim_w_pts + bleed
+    expected_media_w = expected_front_x0 + trim_w_pts + float(outside)
     if abs(expected_media_w - meta.media_box_width_points) > 0.05:
         raise TemplateMetaError(
             "geometry is inconsistent with trim + spine + bleed for a back|spine|front wrap.\n"
             f"  implied media width: {expected_media_w} pt\n"
             f"  stored media_box_width_points: {meta.media_box_width_points} pt"
         )
-    y0 = 0.0
-    y1 = meta.media_box_height_points
-    return (x0, y0, x1, y1)
+    return (x0, 0.0, x1, meta.media_box_height_points)
 
 
 def validate_barcode_reserve_geometry(meta: NormalizedTemplateMeta) -> list[str]:
@@ -309,13 +515,26 @@ def validate_barcode_reserve_geometry(meta: NormalizedTemplateMeta) -> list[str]
     reserve = meta.barcode_reserve
     if reserve is None:
         errors.append(
-            "barcode_reserve geometry is required in template-meta.yml for raster-wrap "
+            "barcode_reserve geometry is required in template-meta.yml for raster wraps "
             "when barcode_mode is ingram-generated"
         )
         return errors
     if not reserve.required:
         errors.append("barcode_reserve.required must be true for ingram-generated barcode mode")
         return errors
+    if reserve.panel != "back":
+        errors.append(f"barcode_reserve.panel must be back (got {reserve.panel!r})")
+
+    if reserve.width_inches + 1e-9 < MIN_BARCODE_WIDTH_INCHES:
+        errors.append(
+            f"barcode_reserve width {reserve.width_inches:.4f} in is smaller than the "
+            f"approved minimum {MIN_BARCODE_WIDTH_INCHES} in"
+        )
+    if reserve.height_inches + 1e-9 < MIN_BARCODE_HEIGHT_INCHES:
+        errors.append(
+            f"barcode_reserve height {reserve.height_inches:.4f} in is smaller than the "
+            f"approved minimum {MIN_BARCODE_HEIGHT_INCHES} in"
+        )
 
     try:
         bx0, by0, bx1, by1 = back_cover_panel_points(meta)
@@ -335,22 +554,28 @@ def validate_barcode_reserve_geometry(meta: NormalizedTemplateMeta) -> list[str]
             f"back panel [{bx0:.2f},{by0:.2f}]–[{bx1:.2f},{by1:.2f}] pt)"
         )
 
-    bleed = float(meta.bleed_points or 0.0)
-    # Must not sit only in bleed-only strip: require intersection with trim (non-bleed) back area.
-    trim_x0 = bleed
+    if rx1 > meta.media_box_width_points + 1e-6 or ry1 > meta.media_box_height_points + 1e-6:
+        errors.append("barcode_reserve extends outside the assembled wrap media box")
+
+    outside = float(
+        meta.outside_bleed_points
+        if meta.outside_bleed_points is not None
+        else meta.bleed_points or 0.0
+    )
+    top = float(meta.top_bleed_points if meta.top_bleed_points is not None else outside)
+    bottom = float(meta.bottom_bleed_points if meta.bottom_bleed_points is not None else outside)
+    trim_x0 = outside
     trim_x1 = bx1
-    trim_y0 = bleed
-    trim_y1 = meta.media_box_height_points - bleed
+    trim_y0 = bottom
+    trim_y1 = meta.media_box_height_points - top
     if rx1 <= trim_x0 or rx0 >= trim_x1 or ry1 <= trim_y0 or ry0 >= trim_y1:
         errors.append(
             "barcode_reserve must intersect the back-cover trim (non-bleed) area; "
             "it must not lie only in bleed, spine, or front cover"
         )
 
-    if meta.spine_width_points is not None:
-        spine_x0 = bx1
-        if rx1 > spine_x0 + 1e-6:
-            errors.append("barcode_reserve overlaps the spine panel")
+    if meta.spine_width_points is not None and rx1 > bx1 + 1e-6:
+        errors.append("barcode_reserve overlaps the spine panel")
 
     if meta.safe_inset_points is not None:
         inset = float(meta.safe_inset_points)
