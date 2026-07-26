@@ -58,9 +58,9 @@ print:
   max_total_ink_coverage_percent: 240
   recommended_margin_inches: 0.5
   bleed_inches: 0.125
-  # Raster full-wrap PNG → print cover PDF. Color/PDF/X remain provisional.
+  # Raster full-wrap PNG → print cover PDF.
   cover_raster:
-    status: experimental-warning
+    status: account-accepted
     conversion_tool: imagemagick
     working_rgb_icc: /usr/share/color/icc/ghostscript/srgb.icc
     working_cmyk_icc: /usr/share/color/icc/ghostscript/default_cmyk.icc
@@ -70,12 +70,12 @@ print:
     output_intent: none-provisional
     allow_transparency_flatten: false
     notes: >
-      Candidate Ghostscript ICC pair for deterministic RGB→CMYK. Working profiles are
-      used only during conversion; strip_per_object_icc removes them from the cover PDF
-      so IngramSpark sees DeviceCMYK without per-object ICC. Cover PDFs use Flate/Zip
-      compression (not LZW). Not SWOP/GRACoL pinned until account preflight accepts a
-      construction. Do not label results fully Ingram-approved. Dimension validation
-      remains blocking regardless.
+      Ghostscript ICC pair for deterministic RGB→CMYK. Working profiles are used only
+      during conversion; strip_per_object_icc removes them so the cover PDF is DeviceCMYK
+      without per-object ICC. Cover PDFs use Flate/Zip (not LZW). Everyone Knows Love
+      cover 9798256206949_cvr.pdf accepted by IngramSpark account preflight (2026-07)
+      with this construction. Dimension validation remains blocking. Cover PDF/X
+      OutputIntent remains none-provisional.
 
 conflicts:
   - id: epub-content-version
@@ -237,8 +237,9 @@ checks:
     confidence: account-verification-needed
     conflict_group: pdfx-vs-icc
     note: >
-      RGB→CMYK conversion follows print.cover_raster (experimental-warning). PDF/X output
-      intent and final ICC policy remain provisional until account verification.
+      RGB→CMYK conversion follows print.cover_raster (account-accepted for EKL DeviceCMYK
+      + Flate without per-object ICC, 2026-07). Cover PDF/X OutputIntent remains
+      none-provisional; interior PDF/X/ICC policy is still account-verification-needed.
 
   - id: package-edition-isbn-unique
     applies_to: package
