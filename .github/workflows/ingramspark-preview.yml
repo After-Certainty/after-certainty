@@ -118,11 +118,15 @@ jobs:
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
-      - name: Install system tools (ImageMagick + Ghostscript)
+      - name: Install system tools (ImageMagick + Ghostscript + poppler)
         run: |
           set -euo pipefail
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends imagemagick ghostscript
+          sudo apt-get install -y --no-install-recommends \
+            imagemagick \
+            ghostscript \
+            poppler-utils \
+            qpdf
           # Ubuntu ImageMagick defaults often deny PDF read/write; cover conversion needs PDF.
           if [ -f /etc/ImageMagick-6/policy.xml ]; then
             sudo sed -i 's/rights="none" pattern="PDF"/rights="read|write" pattern="PDF"/' \
@@ -132,6 +136,9 @@ jobs:
             sudo sed -i 's/rights="none" pattern="PDF"/rights="read|write" pattern="PDF"/' \
               /etc/ImageMagick-7/policy.xml
           fi
+          command -v pdfinfo
+          command -v gs
+          command -v convert || command -v magick
 
       - name: Install dependencies (frozen lock + publishing group)
         run: |
