@@ -1,0 +1,46 @@
+version: 1
+source:
+  provider: ingramspark
+  template_file: derived-from-book-cover.png
+manufacturing:
+  trim_width_inches: 6.0
+  trim_height_inches: 9.0
+  binding: perfect-bound
+  paper: cream
+  interior_color_mode: black-and-white
+  page_count: 32
+geometry:
+  media_box_width_points: 888.0
+  media_box_height_points: 666.0
+  spine_width_points: 5.76
+  outside_bleed_points: 9.0
+  top_bleed_points: 9.0
+  bottom_bleed_points: 9.0
+  safe_inset_points: 18.0
+raster:
+  required_ppi: 300
+  full_wrap:
+    expected_width_pixels: 3700
+    expected_height_pixels: 2775
+  components:
+    back:
+      expected_width_pixels: 1838
+      expected_height_pixels: 2775
+    spine:
+      expected_width_pixels: 24
+      expected_height_pixels: 2775
+    front:
+      expected_width_pixels: 1838
+      expected_height_pixels: 2775
+barcode_reserve:
+  required: true
+  panel: back
+  x_pixels: 551
+  y_pixels: 2154
+  width_pixels: 774
+  height_pixels: 456
+barcode_supplied: false
+spine_text: false
+notes: Panels derived from book-cover.png for 32 cream pages (spine 24px / 5.76pt).
+  No spine text (page count < 48). Confirm geometry against the Cover Template Generator
+  before upload.

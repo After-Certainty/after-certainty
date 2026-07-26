@@ -26,16 +26,17 @@
   set text(font: "Libertinus Serif", size: 11pt)
   set par(leading: 0.65em, spacing: 1.2em, justify: false)
 
-  if cover-image != none {
-    align(center)[
-      #image(cover-image, width: 80%)
-      #v(2em)
-      #text(size: 22pt, weight: "bold")[#title]
-      #v(0.75em)
-      #text(size: 13pt)[#author]
-    ]
-    pagebreak()
-  }
+  // Title page: optional jacket image (omit for IngramSpark print interiors).
+  align(center)[
+    #if cover-image != none {
+      image(cover-image, width: 80%)
+      v(2em)
+    }
+    #text(size: 22pt, weight: "bold")[#title]
+    #v(0.75em)
+    #text(size: 13pt)[#author]
+  ]
+  pagebreak()
 
   body
 }

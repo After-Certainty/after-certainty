@@ -1,0 +1,29 @@
+# IngramSpark print-cover panels (Observer Patterns)
+
+Planning source assets for `assembled-raster-wrap` (not website covers). Derived from
+`book-cover.png` via `tools/generate_ingramspark_wrap_from_cover.py` for visual review
+before paperback ISBN assignment.
+
+```
+back.png          # 1838×2775 @ 300 ppi — mirrored/blurred cover + barcode clear reserve
+spine-source.png  # 44×2775 @ 300 ppi — uncropped master for page-count recrops
+spine.png         # 24×2775 @ 300 ppi — center-cropped for 32 cream pages (provisional)
+front.png         # 1838×2775 @ 300 ppi — upscaled cover fitted into trim+bleed
+template-meta.yml
+```
+
+Assembly order: **back → spine → front**.
+
+Provisional interior length: **32** cream pages (Typst print PDF measured ~31, even-padded).
+Spine text is off (< 48 pages). No print ISBN yet → packaging builds a cover-preview ZIP
+(`observer-patterns-ingramspark-preview.zip`).
+
+```bash
+python3 tools/generate_ingramspark_wrap_from_cover.py \
+  --book-dir books/observer-patterns --page-count 32
+make build-ingramspark-print-cover DIR=books/observer-patterns
+make package-ingramspark DIR=books/observer-patterns
+```
+
+After ISBN + final interior export, sync `template_page_count` / spine geometry and
+confirm against the Cover Template Generator. See `docs/publishing/ingramspark-raster-wrap.md`.

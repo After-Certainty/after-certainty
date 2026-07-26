@@ -594,6 +594,13 @@ def test_no_production_book_opted_in() -> None:
             ebook = ingram.get("ebook") or {}
             assert ebook.get("enabled") is True, book_yml
             assert str(ebook.get("isbn") or "").strip() == "9798256206956", book_yml
+        elif "observer-patterns" in book_yml.as_posix():
+            assert ingram.get("status") == "planning", book_yml
+            assert package.get("github_release") is not True, book_yml
+            assert package.get("immutable_release") is not True, book_yml
+            assert not str(print_cfg.get("isbn") or "").strip(), book_yml
+            ebook = ingram.get("ebook") or {}
+            assert ebook.get("enabled") is not True, book_yml
         else:
             assert package.get("github_release") is not True, book_yml
             assert package.get("immutable_release") is not True, book_yml
