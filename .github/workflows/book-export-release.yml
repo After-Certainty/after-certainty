@@ -141,8 +141,18 @@ jobs:
 
       - name: Install Pandoc and diagram rasterization
         run: |
+          set -euo pipefail
           sudo apt-get update
           sudo apt-get install -y pandoc librsvg2-bin imagemagick texlive-xetex
+          # Cover PDF conversion needs ImageMagick PDF coder rights.
+          if [ -f /etc/ImageMagick-6/policy.xml ]; then
+            sudo sed -i 's/rights="none" pattern="PDF"/rights="read|write" pattern="PDF"/' \
+              /etc/ImageMagick-6/policy.xml
+          fi
+          if [ -f /etc/ImageMagick-7/policy.xml ]; then
+            sudo sed -i 's/rights="none" pattern="PDF"/rights="read|write" pattern="PDF"/' \
+              /etc/ImageMagick-7/policy.xml
+          fi
 
       - name: Install Python dependencies (frozen lock)
         env:
