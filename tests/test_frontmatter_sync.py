@@ -9,10 +9,14 @@ import yaml
 
 _REPO = Path(__file__).resolve().parents[1]
 _SCRIPTS = _REPO / "scripts"
-if str(_SCRIPTS) not in sys.path:
-    sys.path.insert(0, str(_SCRIPTS))
+_TOOLS = _REPO / "tools"
+for _p in (_SCRIPTS, _TOOLS):
+    if str(_p) not in sys.path:
+        sys.path.insert(0, str(_p))
 
-from frontmatter_gen import generate_frontmatter_for_book  # noqa: E402
+from book_specs import load_any_book_spec  # noqa: E402
+from frontmatter_gen import render_repo_template, template_context_from_book  # noqa: E402
+from path_safety import PathSafetyError, ensure_book_relative  # noqa: E402
 
 
 def test_production_approved_ingramspark_frontmatter_is_template_synced() -> None:
@@ -32,12 +36,34 @@ def test_production_approved_ingramspark_frontmatter_is_template_synced() -> Non
         gen = (data.get("frontmatter") or {}).get("generate") or {}
         if gen.get("enabled") is not True:
             continue
-        book_rel = book_yml.parent.relative_to(_REPO).as_posix()
-        written = generate_frontmatter_for_book(_REPO, book_rel)
-        if written:
-            drifted.extend(p.relative_to(_REPO).as_posix() for p in written)
+
+        spec = load_any_book_spec(book_yml)
+        book = spec.get("book") or {}
+        ctx = template_context_from_book(book if isinstance(book, dict) else {})
+        book_dir = book_yml.parent
+
+        for key in ("title_page", "copyright", "about_the_series"):
+            block = gen.get(key)
+            if not isinstance(block, dict):
+                continue
+            tmpl_rel = str(block.get("repo_template", "")).strip()
+            out_rel = str(block.get("output", "")).strip()
+            if not tmpl_rel or not out_rel:
+                continue
+            rendered = render_repo_template(_REPO, tmpl_rel, ctx)
+            if not rendered.endswith("\n"):
+                rendered += "\n"
+            try:
+                out_path = ensure_book_relative(book_dir, out_rel, description="frontmatter output")
+            except PathSafetyError as exc:
+                raise AssertionError(str(exc)) from exc
+            if not out_path.is_file():
+                drifted.append(f"{out_rel} (missing)")
+                continue
+            if out_path.read_text(encoding="utf-8") != rendered:
+                drifted.append(out_path.relative_to(_REPO).as_posix())
 
     assert not drifted, (
-        "Regenerating front-matter rewrote tracked files; commit the outputs or "
-        f"update templates before immutable release: {drifted}"
+        "Committed front-matter drifts from templates; regenerate and commit before "
+        f"immutable release: {drifted}"
     )
