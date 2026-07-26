@@ -6,10 +6,10 @@ publishing:
     ingramspark:
       enabled: true
       specification_profile: ingramspark-2026-07
-      status: planning
+      status: production-approved
       package:
-        github_release: false
-        immutable_release: false
+        github_release: true
+        immutable_release: true
       ebook:
         # Cover is a bleed-free 6×9 crop of assets/ingramspark/front.png (1800×2700).
         enabled: true

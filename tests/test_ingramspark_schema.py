@@ -492,7 +492,11 @@ def test_existing_repo_books_still_validate(repo_root: Path) -> None:
             assert target.get("status") in {"planning", "production-approved"}
             assert target.get("print", {}).get("enabled") is True
             package = target.get("package") or {}
-            if "everyone-knows-love" in path.as_posix() or "observer-patterns" in path.as_posix():
+            if (
+                "everyone-knows-love" in path.as_posix()
+                or "observer-patterns" in path.as_posix()
+                or "when-others-become-leaders" in path.as_posix()
+            ):
                 assert package.get("github_release") is True
                 assert package.get("immutable_release") is True
             else:
@@ -517,7 +521,7 @@ def test_existing_repo_books_still_validate(repo_root: Path) -> None:
     wobl = next(p for p in opted_in if "when-others-become-leaders" in p.as_posix())
     wobl_spec = load_book_spec(wobl)
     wobl_target = spec_ingramspark_target(wobl_spec)
-    assert wobl_target["status"] == "planning"
+    assert wobl_target["status"] == "production-approved"
     assert wobl_target["ebook"]["enabled"] is True
     assert wobl_target["ebook"]["isbn"] == "9798256208929"
     assert wobl_target["ebook"]["cover_source"] == "assets/ingramspark/ebook-front.png"
