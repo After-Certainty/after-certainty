@@ -12,13 +12,13 @@ manufacturing:
   binding: perfect-bound
   paper: cream
   interior_color_mode: black-and-white
-  page_count: 59
+  page_count: 58
 geometry:
   # media box width is pixel-sum exact (3720 px @ 300 ppi → 892.8 pt); implied
   # trim+bleed+spine is 892.56 pt (within 0.5 pt template-meta tolerance).
   media_box_width_points: 892.8
   media_box_height_points: 666.0
-  # Cream bulk ≈ page_count × 0.0025 in → 0.1475 in; pixel-exact spine = 44 px
+  # Cream bulk ≈ page_count × 0.0025 in → 0.145 in; pixel-exact spine = 44 px
   # (10.56 pt @ 300 ppi). Confirm against Cover Template Generator before upload.
   spine_width_points: 10.56
   outside_bleed_points: 9.0
@@ -53,6 +53,6 @@ barcode_supplied: false
 spine_text: true
 notes: >
   Panels sourced as production RGB PNGs (back/spine/front). Spine width 10.56 pt
-  (44 px @ 300 ppi) matches cream bulk for 59 pages; media box 892.8×666 pt matches
+  (44 px @ 300 ppi) matches cream bulk for 58 pages; media box 892.8×666 pt matches
   the 3720×2775 assembled wrap. Confirm manufacturing.page_count against the
   Cover Template Generator request and measured interior pages before packaging.

@@ -14,11 +14,31 @@ for path in (SCRIPTS, TOOLS):
 from book_export_assets import (  # noqa: E402
     prepare_title_page_for_docx,
     prepare_title_page_for_pdf,
+    strip_inline_title_page_cover,
 )
 from export_docx import stage_docx_units  # noqa: E402
 from export_pdf import stage_pdf_units  # noqa: E402
 
 TITLE_PAGE = '![Book cover](BookCover.png){ width=100% }\n\n\\newpage\n\n# **Title**\n'
+
+
+def test_strip_inline_title_page_cover_removes_image_and_newpage() -> None:
+    out = strip_inline_title_page_cover(TITLE_PAGE, "BookCover.png")
+    assert "BookCover.png" not in out
+    assert "\\newpage" not in out
+    assert out.startswith("# **Title**")
+
+
+def test_strip_inline_title_page_cover_ignores_other_images() -> None:
+    text = "![Diagram](diagram.png)\n\n# **Title**\n"
+    assert strip_inline_title_page_cover(text, "BookCover.png") == text
+
+
+def test_strip_inline_title_page_cover_handles_ekl_style() -> None:
+    text = "![Cover](book-cover.png){ width=100% }\n\n\\newpage\n\n# **Everyone Knows Love**\n"
+    out = strip_inline_title_page_cover(text, "book-cover.png")
+    assert "book-cover.png" not in out
+    assert out.startswith("# **Everyone Knows Love**")
 
 
 def test_prepare_title_page_for_pdf_replaces_cover_with_latex() -> None:
