@@ -73,6 +73,41 @@ def resolve_title_page_cover_path(book_dir: Path, spec: dict[str, Any]) -> Path 
     return None
 
 
+def strip_inline_title_page_cover(text: str, cover_basename: str) -> str:
+    """
+    Remove the markdown title-page cover image for print interiors.
+
+    IngramSpark expects a separate cover PDF upload; the interior should not
+    repeat the jacket art. Also drops a following ``\\newpage`` that only
+    separated the cover image from the title text.
+    """
+    cover_name = Path(cover_basename).name
+    if not cover_name:
+        return text
+
+    lines = text.splitlines()
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        line = lines[i]
+        match = re.match(r"^!\[[^\]]*\]\(([^)]+)\)(?:\{[^}]*\})?\s*$", line)
+        if match and Path(match.group(1).strip()).name == cover_name:
+            i += 1
+            while i < len(lines) and not lines[i].strip():
+                i += 1
+            if i < len(lines) and lines[i].strip() == r"\newpage":
+                i += 1
+                while i < len(lines) and not lines[i].strip():
+                    i += 1
+            continue
+        out.append(line)
+        i += 1
+
+    cleaned = "\n".join(out)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
+    return cleaned + "\n" if cleaned else ""
+
+
 def prepare_title_page_for_pdf(
     text: str, cover_basename: str, *, cover_path: Path | None = None
 ) -> str:

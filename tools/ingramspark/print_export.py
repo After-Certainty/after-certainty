@@ -116,9 +116,8 @@ def _pandoc_pdf(
     from book_export_assets import (  # noqa: PLC0415
         pdf_header_tex,
         prepare_closing_markdown_for_pdf,
-        prepare_title_page_for_pdf,
+        strip_inline_title_page_cover,
         title_page_cover_basename,
-        title_page_cover_unnumbered,
     )
     from publication_markdown import stage_publication_units  # noqa: PLC0415
 
@@ -132,7 +131,6 @@ def _pandoc_pdf(
             units, tmp_path / "manuscript", book_dir=book_dir
         )
         staged: list[Path] = []
-        unnumbered_cover = title_page_cover_unnumbered(spec)
         cover_basename = title_page_cover_basename(spec)
         for unit in publication_units:
             if unit.name == "closing.md":
@@ -140,13 +138,12 @@ def _pandoc_pdf(
                     prepare_closing_markdown_for_pdf(unit.read_text(encoding="utf-8")),
                     encoding="utf-8",
                 )
-            elif unit.name == "title-page.md" and unnumbered_cover and cover_basename:
-                cover_src = book_dir / cover_basename
+            elif unit.name == "title-page.md" and cover_basename:
+                # Print cover is a separate IngramSpark upload; do not embed jacket art.
                 unit.write_text(
-                    prepare_title_page_for_pdf(
+                    strip_inline_title_page_cover(
                         unit.read_text(encoding="utf-8"),
                         cover_basename,
-                        cover_path=cover_src if cover_src.is_file() else None,
                     ),
                     encoding="utf-8",
                 )
