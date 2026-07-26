@@ -575,7 +575,7 @@ def test_schema_accepts_raster_wrap_strategy(tmp_path: Path) -> None:
 
 @requires_pillow
 def test_no_production_book_opted_in() -> None:
-    """IngramSpark opt-ins: EKL is production-approved with release attach; others stay quiet."""
+    """IngramSpark opt-ins: EKL + OP are production-approved with release attach."""
     for book_yml in (_REPO / "books").glob("*/book.yml"):
         data = yaml.safe_load(book_yml.read_text(encoding="utf-8")) or {}
         targets = (data.get("publishing") or {}).get("targets") or {}
@@ -595,9 +595,9 @@ def test_no_production_book_opted_in() -> None:
             assert ebook.get("enabled") is True, book_yml
             assert str(ebook.get("isbn") or "").strip() == "9798256206956", book_yml
         elif "observer-patterns" in book_yml.as_posix():
-            assert ingram.get("status") == "planning", book_yml
-            assert package.get("github_release") is not True, book_yml
-            assert package.get("immutable_release") is not True, book_yml
+            assert ingram.get("status") == "production-approved", book_yml
+            assert package.get("github_release") is True, book_yml
+            assert package.get("immutable_release") is True, book_yml
             assert str(print_cfg.get("isbn") or "").strip() == "9798256208776", book_yml
             ebook = ingram.get("ebook") or {}
             assert ebook.get("enabled") is not True, book_yml

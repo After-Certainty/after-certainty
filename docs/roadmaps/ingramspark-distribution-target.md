@@ -27,7 +27,7 @@ containing the separate files IngramSpark expects for upload (EPUB + JPG; interi
 
 Official IngramSpark sources conflict on several ebook limits and on ICC vs PDF/X handling. Those conflicts are recorded in dated profile **`ingramspark-2026-07`** with safe defaults; they are not silently resolved. EPUB **3.0/3.0.0 content compliance** is separate from the pinned **current EPUBCheck tool** version.
 
-**Recommended first pilot:** *Everyone Knows Love* (`everyone-knows-love`) — **complete (2026-07)**. Chosen for the standard Pandoc EPUB/PDF path, existing export polish, and low interior complexity. Sequence was an early **ebook rehearsal (INGRAM-009A)** then a **full production pilot (INGRAM-009B)** with IngramSpark account upload/preflight. Remaining initial books (Observer Patterns, When Others Become Leaders) still need edition ISBNs, manufacturing metadata, and print-cover assets; Observer Patterns also needs a poetry EPUB path.
+**Recommended first pilot:** *Everyone Knows Love* (`everyone-knows-love`) — **complete (2026-07)**. Chosen for the standard Pandoc EPUB/PDF path, existing export polish, and low interior complexity. Sequence was an early **ebook rehearsal (INGRAM-009A)** then a **full production pilot (INGRAM-009B)** with IngramSpark account upload/preflight. *Observer Patterns* print-only title is also **account-uploaded (2026-07)** (`status: production-approved`; ebook still out of scope / Typst poetry EPUB). *When Others Become Leaders* still needs edition ISBNs, manufacturing metadata, and print-cover assets.
 
 **Ready for:** schema + profile skeleton implementation (INGRAM-002), after this decision-resolution update.  
 **Not ready for:** enabling any book or shipping production packages until human ISBN/manufacturing/cover decisions land.
@@ -555,7 +555,7 @@ Filenames and embedded metadata must use the edition ISBN for that artifact. Pub
 
 | Book | Ebook ISBN | Paperback ISBN | Hardcover |
 |------|------------|----------------|-----------|
-| Observer Patterns | **Missing — human blocker** | **Missing — human blocker** | Out of scope for initial schema |
+| Observer Patterns | Disabled (print-only; poetry EPUB later) | `9798256208776` | Out of scope for initial schema |
 | Everyone Knows Love | `9798256206956` | `9798256206949` | Out of scope for initial schema |
 | When Others Become Leaders | **Missing — human blocker** | **Missing — human blocker** | Out of scope for initial schema |
 
@@ -960,13 +960,13 @@ Goal: **evidence-reproducible** (same inputs + tools → same substantive output
 | Publication | `publishing.enabled: true` |
 | DOCX / EPUB / PDF | Off / Off / On (`pdf_engine: typst`) |
 | Release | `latest`, artifacts `[pdf]` |
-| Cover | `book-cover.png` 1024×1536 RGB; no ICC/DPI; below ebook minima |
-| ISBNs | None |
-| Trim | Typst `paper: "us-trade"` (6×9) in `typst/template.typ`; not IngramSpark YAML |
-| Binding / paper / bleed / barcode | Unknown |
-| Interior complexity | No `assets/`; cover-only imagery; low |
-| Print wrap / template | Missing |
-| Readiness | `requires-exporter-change` (ebook) + `ready-after-metadata` + `ready-after-cover-work` |
+| Cover | `book-cover.png` + assembled-raster-wrap panels under `assets/ingramspark/` |
+| ISBNs | Paperback `9798256208776` (ebook disabled) |
+| Trim | 6×9 perfect-bound cream; Typst `us-trade` print entry without jacket art |
+| Binding / paper / bleed / barcode | Perfect-bound / cream / no bleed / Ingram-generated barcode |
+| Interior complexity | Poetry; Typst DeviceGray interior; low |
+| Print wrap / template | Assembled-raster-wrap + `template-meta.yml` (32 cream pages provisional→measured) |
+| Readiness | **Print account-uploaded (2026-07)** — `status: production-approved`; ebook still `requires-exporter-change` |
 
 ### 22.2 Everyone Knows Love
 
@@ -1046,7 +1046,7 @@ Pilot sequence (aligned with the task graph in §26–§27):
 | Book | Blockers |
 |------|----------|
 | Everyone Knows Love | **Cleared** — ISBNs, manufacturing metadata, wrap assets, packaging, and account upload/preflight complete; `status: production-approved` |
-| Observer Patterns | Ebook/print ISBNs; manufacturing metadata; hi-res cover; wrap; **plus** EPUB pipeline disabled / poetry EPUB specialization; Typst PDF/X path |
+| Observer Patterns | **Print cleared (2026-07)** — paperback ISBN, wrap, Typst interior, account upload; `status: production-approved`. Remaining: poetry EPUB / ebook ISBN if an ebook edition is desired later |
 | When Others Become Leaders | Ebook/print ISBNs; manufacturing metadata; hi-res cover; wrap; **plus** explicit editorial deferral of trim/spine/print cover until interior considered stable |
 
 ---
@@ -1204,6 +1204,7 @@ Pilot sequence (aligned with the task graph in §26–§27):
 - **Dependencies:** INGRAM-009B pilot gate
 - **Exclusions:** New exporter architecture beyond known poetry/Typst needs
 - **Acceptance:** Explicit readiness status per book; packages when unblocked
+- **Status:** **Partial (2026-07)** — Observer Patterns print-only package uploaded to IngramSpark (`9798256208776`; `status: production-approved`). When Others Become Leaders still blocked. OP ebook/poetry EPUB remains optional follow-on.
 - **Tests:** Per-book fixtures where automated
 - **Human review:** Required per book
 - **Size:** L
@@ -1410,7 +1411,7 @@ Required cases from the prompt checklist are in scope: missing ISBN, duplicate I
 19. Packages never appear on the website.
 20. At least one pilot package passes an actual IngramSpark account upload or preflight. **Done (EKL, 2026-07).**
 21. All three initial books have an explicit readiness status.
-22. Observer Patterns can be packaged once its blockers are resolved.
+22. Observer Patterns can be packaged once its blockers are resolved. **Done for print (2026-07) — account-uploaded; `status: production-approved`. Ebook deferred.**
 23. Everyone Knows Love can be packaged once its blockers are resolved. **Done — packaged and account-accepted; `status: production-approved`.**
 24. When Others Become Leaders can be packaged once its blockers are resolved.
 25. Process documented well enough to opt in another book without changing production code.
@@ -1422,8 +1423,8 @@ Required cases from the prompt checklist are in scope: missing ISBN, duplicate I
 | Question | Answer |
 |----------|--------|
 | Is the plan ready for implementation? | **Yes** — core exporters/packaging shipped; EKL pilot complete |
-| Can any book be enabled now? | **Yes — Everyone Knows Love** (`status: production-approved`). Observer Patterns and When Others Become Leaders remain blocked on ISBNs / manufacturing / (OP) poetry EPUB |
-| Highest technical risk | PDF/X ↔ ICC / output-intent conflict for interiors still advisory; cover DeviceCMYK-without-ICC path **account-accepted** on EKL |
+| Can any book be enabled now? | **Yes — Everyone Knows Love** and **Observer Patterns** (print) are `production-approved`. When Others Become Leaders remains blocked; OP ebook/poetry EPUB still deferred |
+| Highest technical risk | PDF/X ↔ ICC / output-intent conflict for interiors still advisory; cover DeviceCMYK-without-ICC path **account-accepted** on EKL and OP |
 | Highest production risk | Stale cover templates / page-count drift after ISBN submission (mitigated by package-time cover page-count sync) |
 | Spec gate | Approved; paperback-only schema and pilot split in use |
 | Separate profile file needed now? | Profile lives at `schema/profiles/ingramspark/ingramspark-2026-07.yml` |
