@@ -3,16 +3,17 @@
 Production source assets for `assembled-raster-wrap` (not website/ebook covers).
 
 ```
-back.png    # 1838×2775 @ 300 ppi — left outside bleed + back trim + vertical bleed
-spine.png   # 44×2775   @ 300 ppi — exact spine + vertical bleed (59 cream pages)
-front.png   # 1838×2775 @ 300 ppi — front trim + right outside bleed + vertical bleed
+back.png         # 1838×2775 @ 300 ppi — left outside bleed + back trim + vertical bleed
+spine.png        # 44×2775   @ 300 ppi — exact spine + vertical bleed (59 cream pages)
+front.png        # 1838×2775 @ 300 ppi — front trim + right outside bleed + vertical bleed
+ebook-front.png  # 1800×2700 @ 300 ppi — bleed-free 6×9 crop of front.png (ebook cover source)
 template-meta.yml
 ```
 
 Assembly order: **back → spine → front**.
 
 Print ISBN: `9798256206949` → staged cover `9798256206949_cvr.pdf`.  
-Ebook ISBN `9798256206956` is reserved in `book.yml` (ebook target still disabled until the front cover meets pixel minima).
+Ebook ISBN `9798256206956` is enabled in `book.yml` with cover source `ebook-front.png`.
 
 ```bash
 make build-ingramspark-print-cover DIR=books/everyone-knows-love

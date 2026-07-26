@@ -535,7 +535,7 @@ def test_no_production_book_opted_in() -> None:
         if "everyone-knows-love" in book_yml.as_posix():
             assert str(print_cfg.get("isbn") or "").strip() == "9798256206949", book_yml
             ebook = ingram.get("ebook") or {}
-            assert ebook.get("enabled") is not True, book_yml
+            assert ebook.get("enabled") is True, book_yml
             assert str(ebook.get("isbn") or "").strip() == "9798256206956", book_yml
 
 

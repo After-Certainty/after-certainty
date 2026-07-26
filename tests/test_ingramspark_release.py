@@ -272,5 +272,5 @@ def test_existing_matrix_books_have_false_ingramspark_flags() -> None:
             opted_in.append(row)
             assert row["slug"] == "everyone-knows-love", row
             assert row["ingramspark_print"] == "true", row
-            assert row["ingramspark_ebook"] == "false", row
-    assert opted_in, "expected Everyone Knows Love IngramSpark print opt-in"
+            assert row["ingramspark_ebook"] == "true", row
+    assert opted_in, "expected Everyone Knows Love IngramSpark print+ebook opt-in"

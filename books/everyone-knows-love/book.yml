@@ -10,12 +10,11 @@ publishing:
         github_release: false
         immutable_release: false
       ebook:
-        # Reserved ISBN; keep disabled until cover meets IngramSpark pixel minima
-        # (≥1600 short side / ≥2560 long side). Current book-cover.png is 1024×1536.
-        enabled: false
+        # Cover is a bleed-free 6×9 crop of assets/ingramspark/front.png (1800×2700).
+        enabled: true
         isbn: "9798256206956"
         format: reflowable
-        cover_source: book-cover.png
+        cover_source: assets/ingramspark/ebook-front.png
       print:
         enabled: true
         edition: paperback
