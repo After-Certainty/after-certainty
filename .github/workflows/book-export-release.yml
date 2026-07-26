@@ -182,15 +182,113 @@ jobs:
             fi
           fi
 
+      - name: Install IngramSpark packaging tools
+        if: matrix.package_ingramspark == 'true'
+        run: |
+          set -euo pipefail
+          sudo apt-get update
+          sudo apt-get install -y ghostscript poppler-utils qpdf default-jre-headless imagemagick
+          if [ "${{ matrix.ingramspark_print }}" = "true" ]; then
+            # Full print interiors need XeLaTeX; planning cover-preview ZIPs do not.
+            # Install texlive when a print ISBN is present (submission kit path).
+            if python3 - <<'PY'
+          import sys
+          from pathlib import Path
+          sys.path.insert(0, "tools")
+          from book_specs import load_spec_for_book_dir
+          from ingramspark.paths import is_print_cover_preview
+          spec = load_spec_for_book_dir(Path("${{ matrix.dir }}"))
+          raise SystemExit(0 if is_print_cover_preview(spec) else 1)
+          PY
+            then
+              echo "Planning cover-preview package; skipping texlive"
+            else
+              sudo apt-get install -y texlive-xetex texlive-fonts-recommended
+            fi
+          fi
+          if [ "${{ matrix.ingramspark_ebook }}" = "true" ]; then
+            bash scripts/install_epubcheck.sh
+          fi
+
+      - name: Package IngramSpark submission kit
+        if: matrix.package_ingramspark == 'true'
+        env:
+          BOOK_DIR: ${{ matrix.dir }}
+          INGRAM_EBOOK: ${{ matrix.ingramspark_ebook }}
+          INGRAM_PRINT: ${{ matrix.ingramspark_print }}
+          INGRAM_GITHUB_RELEASE: ${{ matrix.ingramspark_github_release }}
+        run: |
+          set -euo pipefail
+          mkdir -p upload ingramspark-out
+          pkg_flags=()
+          if [ "$INGRAM_EBOOK" = "true" ] && [ "$INGRAM_PRINT" != "true" ]; then
+            pkg_flags+=(--ebook-only)
+          elif [ "$INGRAM_PRINT" = "true" ] && [ "$INGRAM_EBOOK" != "true" ]; then
+            pkg_flags+=(--print-only)
+          fi
+          python3 scripts/package_ingramspark.py \
+            --repo . \
+            --book-dir "$BOOK_DIR" \
+            "${pkg_flags[@]}"
+          zip_path="$(
+            BOOK_DIR="$BOOK_DIR" python3 - <<'PY'
+          from pathlib import Path
+          import os
+          import sys
+          sys.path.insert(0, "tools")
+          from book_specs import (
+              ingramspark_artifact_name,
+              ingramspark_preview_artifact_name,
+              load_spec_for_book_dir,
+          )
+          from ingramspark.paths import is_print_cover_preview
+          spec = load_spec_for_book_dir(Path(os.environ["BOOK_DIR"]))
+          book_id = spec["book"]["id"]
+          name = (
+              ingramspark_preview_artifact_name(book_id)
+              if is_print_cover_preview(spec)
+              else ingramspark_artifact_name(book_id)
+          )
+          print(Path("build/ingramspark") / book_id / name)
+          PY
+          )"
+          test -f "$zip_path"
+          cp -f "$zip_path" ingramspark-out/
+          report="$(dirname "$zip_path")/preflight-report.txt"
+          if [ -f "$report" ]; then
+            cp -f "$report" ingramspark-out/
+          fi
+          # Attach to rolling latest only when package.github_release is true.
+          # Preview ZIPs are never release-attached.
+          if [ "$INGRAM_GITHUB_RELEASE" = "true" ]; then
+            case "$(basename "$zip_path")" in
+              *-ingramspark-preview.zip)
+                echo "Refusing to attach preview ZIP to GitHub Releases" >&2
+                exit 1
+                ;;
+            esac
+            cp -f "$zip_path" upload/
+          fi
+
       - name: Scan book upload for secrets
         run: |
           set -euo pipefail
           python3 tools/scan_generated_secrets.py upload
+          if [ -d ingramspark-out ]; then
+            python3 tools/scan_generated_secrets.py ingramspark-out
+          fi
 
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: book-${{ matrix.slug }}
           path: upload/*
+          if-no-files-found: error
+
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        if: matrix.package_ingramspark == 'true'
+        with:
+          name: ingramspark-${{ matrix.slug }}
+          path: ingramspark-out/*
           if-no-files-found: error
 
   prepare-release:
@@ -229,7 +327,8 @@ jobs:
           # contents:read token — cannot create/alter/delete releases.
           gh release download latest \
             --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' \
-            --pattern '*.manifest.json' --pattern 'books-manifest.json' \
+            --pattern '*.manifest.json' --pattern '*-ingramspark.zip' \
+            --pattern 'books-manifest.json' \
             --pattern 'semantic-manifest.json' --pattern 'SHA256SUMS' \
             --dir prior || true
 
@@ -301,6 +400,15 @@ jobs:
           bash scripts/publish_latest_release.sh staging \
             "Automated exports. This push built ${{ needs.detect.outputs.count }} book(s) at commit ${{ github.sha }}."
 
+      - name: Publish immutable IngramSpark production tags
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          set +x
+          bash scripts/publish_ingramspark_immutable_releases.sh staging
+
       - name: Revalidate www.after-certainty.com caches
         env:
           CACHE_REVALIDATE_SECRET: ${{ secrets.CACHE_REVALIDATE_SECRET }}
@@ -337,7 +445,8 @@ jobs:
           mkdir -p prior
           gh release download latest \
             --pattern '*.docx' --pattern '*.epub' --pattern '*.pdf' \
-            --pattern '*.manifest.json' --pattern 'books-manifest.json' \
+            --pattern '*.manifest.json' --pattern '*-ingramspark.zip' \
+            --pattern 'books-manifest.json' \
             --pattern 'semantic-manifest.json' --pattern 'SHA256SUMS' \
             --dir prior || true
 
@@ -406,6 +515,15 @@ jobs:
           set +x
           bash scripts/publish_latest_release.sh staging \
             "Automated exports. Semantic manifest rebuilt at commit ${{ github.sha }}."
+
+      - name: Publish immutable IngramSpark production tags
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          set +x
+          bash scripts/publish_ingramspark_immutable_releases.sh staging
 
       - name: Revalidate www.after-certainty.com caches
         env:

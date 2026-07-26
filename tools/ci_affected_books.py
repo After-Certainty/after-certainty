@@ -31,6 +31,9 @@ from book_specs import (  # noqa: E402
     load_spec_for_book_dir,
     resolve_spec_path,
     spec_formats,
+    spec_ingramspark_enabled,
+    spec_ingramspark_github_release,
+    spec_ingramspark_target,
     spec_pdf_engine,
 )
 
@@ -145,6 +148,10 @@ def matrix_entries(repo: Path, books: list[Path]) -> list[dict[str, str]]:
         stem = stem_for_book_dir(rel, root=repo)
         slug = stem.replace("/", "-")
         formats = set(spec_formats(spec))
+        target = spec_ingramspark_target(spec)
+        ebook = target.get("ebook") if isinstance(target.get("ebook"), dict) else {}
+        print_cfg = target.get("print") if isinstance(target.get("print"), dict) else {}
+        package_ingramspark = spec_ingramspark_enabled(spec)
         entries.append(
             {
                 "dir": rel,
@@ -154,6 +161,16 @@ def matrix_entries(repo: Path, books: list[Path]) -> list[dict[str, str]]:
                 "has_epub": "true" if "epub" in formats else "false",
                 "has_pdf": "true" if "pdf" in formats else "false",
                 "needs_typst": "true" if spec_pdf_engine(spec) == "typst" else "false",
+                "package_ingramspark": "true" if package_ingramspark else "false",
+                "ingramspark_github_release": (
+                    "true" if spec_ingramspark_github_release(spec) else "false"
+                ),
+                "ingramspark_ebook": (
+                    "true" if package_ingramspark and ebook.get("enabled") is True else "false"
+                ),
+                "ingramspark_print": (
+                    "true" if package_ingramspark and print_cfg.get("enabled") is True else "false"
+                ),
             }
         )
     return entries

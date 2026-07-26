@@ -74,5 +74,12 @@ fi
 
 "$PYTHON" tools/scan_generated_secrets.py "$OUT_DIR"
 
+# Plan optional immutable IngramSpark tags for the write-capable publish job.
+"$PYTHON" tools/plan_ingramspark_releases.py \
+  --repo . \
+  --staging "$OUT_DIR" \
+  --out "$OUT_DIR/ingramspark-release-plan.json" \
+  --strict
+
 bash scripts/write_sha256sums.sh "$OUT_DIR"
 ls -la "$OUT_DIR"
