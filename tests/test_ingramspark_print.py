@@ -195,6 +195,7 @@ def test_rgb_content_fails_bw_validation(tmp_path: Path) -> None:
         width_inches=6.0,
         height_inches=9.0,
         color_mode="black-and-white",
+        require_even_page_count=False,
     )
     assert report["ok"] is False
     assert any("DeviceRGB" in e for e in report["errors"])
@@ -234,6 +235,7 @@ def test_grayscale_conversion_removes_rgb(tmp_path: Path) -> None:
         width_inches=6.0,
         height_inches=9.0,
         color_mode="black-and-white",
+        require_even_page_count=False,
     )
     assert report["ok"] is True
     assert report["inspection"]["mentions_device_rgb"] is not True
@@ -256,14 +258,45 @@ def test_print_interior_export_isbn_trim_and_page_count(tmp_path: Path) -> None:
     assert result.pdf_path.name == "9780000000202_txt.pdf"
     assert result.pdf_path.is_file()
     assert result.page_count >= 1
+    assert result.page_count % 2 == 0
     assert result.page_count_path.is_file()
     payload = json.loads(result.page_count_path.read_text(encoding="utf-8"))
     assert payload["page_count"] == result.page_count
+    assert "blank_page_appended" in payload
     assert payload["trim_inches"] == {"width": 6.0, "height": 9.0}
     inspection = inspect_pdf(result.pdf_path)
     assert media_box_matches_trim(inspection, width_inches=6.0, height_inches=9.0)
     assert inspection.all_fonts_embedded is True
     assert inspection.mentions_device_rgb is not True
+
+
+@requires_gs
+def test_ensure_even_print_page_count_appends_blank(tmp_path: Path) -> None:
+    from ingramspark.print_export import ensure_even_print_page_count
+
+    odd = tmp_path / "odd.pdf"
+    subprocess.run(
+        [
+            "gs",
+            "-dBATCH",
+            "-dNOPAUSE",
+            "-dSAFER",
+            "-sDEVICE=pdfwrite",
+            "-g432x648",
+            "-r72",
+            f"-sOutputFile={odd.as_posix()}",
+            "-c",
+            "showpage",
+        ],
+        check=True,
+        capture_output=True,
+    )
+    assert inspect_pdf(odd).page_count == 1
+    assert ensure_even_print_page_count(pdf_path=odd, width_inches=6.0, height_inches=9.0)
+    inspection = inspect_pdf(odd)
+    assert inspection.page_count == 2
+    assert media_box_matches_trim(inspection, width_inches=6.0, height_inches=9.0)
+    assert ensure_even_print_page_count(pdf_path=odd, width_inches=6.0, height_inches=9.0) is False
 
 
 @requires_print_tools
