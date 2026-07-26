@@ -478,7 +478,7 @@ def test_print_isbn_required_when_github_release_packaging(tmp_path: Path) -> No
 
 
 def test_existing_repo_books_still_validate(repo_root: Path) -> None:
-    """Every current book.yml remains schema-valid; release attach stays explicit."""
+    """Every current book.yml remains schema-valid; EKL has production release attach."""
     from book_specs import discover_book_spec_paths
 
     paths = discover_book_spec_paths(repo_root)
@@ -491,8 +491,13 @@ def test_existing_repo_books_still_validate(repo_root: Path) -> None:
             target = spec_ingramspark_target(spec)
             assert target.get("status") in {"planning", "production-approved"}
             assert target.get("print", {}).get("enabled") is True
-            assert (target.get("package") or {}).get("github_release") is not True
-            assert (target.get("package") or {}).get("immutable_release") is not True
+            package = target.get("package") or {}
+            if "everyone-knows-love" in path.as_posix():
+                assert package.get("github_release") is True
+                assert package.get("immutable_release") is True
+            else:
+                assert package.get("github_release") is not True
+                assert package.get("immutable_release") is not True
     ekl = next(p for p in opted_in if "everyone-knows-love" in p.as_posix())
     ekl_spec = load_book_spec(ekl)
     ekl_target = spec_ingramspark_target(ekl_spec)

@@ -1037,7 +1037,7 @@ Pilot sequence (aligned with the task graph in §26–§27):
 1. **INGRAM-009A — ebook rehearsal** — **done** (ebook ISBN + hi-res crop; local/CI packaging; account ebook path exercised with the full pilot).
 2. **INGRAM-009B — full production pilot** — **done** (ebook + paperback print package packaged in CI/local; IngramSpark account upload/preflight accepted for interior + cover + ebook after cover ICC/LZW fix).
 
-**Account outcome:** Title files accepted; cover warnings for per-object ICC and LZW were cleared by DeviceCMYK + Flate conversion (`strip_per_object_icc`). `book.yml` status is now `production-approved`. GitHub Release / immutable tag attach remain off until deliberately enabled (`package.github_release` / `immutable_release`).
+**Account outcome:** Title files accepted; cover warnings for per-object ICC and LZW were cleared by DeviceCMYK + Flate conversion (`strip_per_object_icc`). `book.yml` status is `production-approved` with `package.github_release` and `package.immutable_release` enabled for rolling + immutable kit attach.
 
 ---
 
@@ -1193,7 +1193,7 @@ Pilot sequence (aligned with the task graph in §26–§27):
 - **Dependencies:** INGRAM-009A learning incorporated; INGRAM-004 (incl. PDF/X proof); INGRAM-005; full INGRAM-006/007; INGRAM-008; human manufacturing + wrap decisions
 - **Exclusions:** Enabling other books until this gate passes
 - **Acceptance:** Full ZIP passes automated preflight + human visual review; account upload/preflight for ebook and print as applicable; immutable release when submitting under ISBN
-- **Status:** **Complete (2026-07)** — paperback ISBN `9798256206949`; assembled-raster-wrap cover accepted after ICC strip + Flate/Zip; interior DeviceGray package accepted; `status: production-approved`. Immutable GitHub release attach still optional (`immutable_release: false`).
+- **Status:** **Complete (2026-07)** — paperback ISBN `9798256206949`; assembled-raster-wrap cover accepted after ICC strip + Flate/Zip; interior DeviceGray package accepted; `status: production-approved` with `github_release` + `immutable_release` enabled.
 - **Tests:** EKL full-package assertions as applicable
 - **Human review:** **Required** — print manufacturing, wrap, account
 - **Rollback:** Set print.enabled false / status planning
