@@ -5,7 +5,7 @@ publishing:
     ingramspark:
       enabled: true
       specification_profile: ingramspark-2026-07
-      status: planning
+      status: production-approved
       package:
         github_release: false
         immutable_release: false

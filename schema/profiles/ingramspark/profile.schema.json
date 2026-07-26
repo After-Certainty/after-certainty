@@ -178,13 +178,14 @@
         "cover_raster": {
           "type": "object",
           "additionalProperties": false,
-          "description": "Profile-driven raster-wrap color conversion. Experimental until PDF/X/ICC account verification completes.",
+          "description": "Profile-driven raster-wrap color conversion. account-accepted means IngramSpark account preflight accepted the construction for at least one title.",
           "properties": {
             "status": {
               "type": "string",
               "enum": [
                 "experimental-warning",
                 "account-verification-needed",
+                "account-accepted",
                 "production-blocking"
               ]
             },

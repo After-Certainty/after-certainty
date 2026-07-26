@@ -187,8 +187,9 @@ class RasterWrapResult:
             "Embedded PNG DPI is not authoritative."
         )
         lines.append(
-            "Color conversion and PDF/X/ICC behavior follow the dated profile and may be "
-            "provisional (experimental-warning / account-verification-needed)."
+            "Color conversion and PDF/X/ICC behavior follow the dated profile "
+            "(cover_raster.status may be account-accepted while cover PDF/X OutputIntent "
+            "remains none-provisional)."
         )
         return "\n".join(lines) + "\n"
 
@@ -466,7 +467,7 @@ def _cover_raster_policy(repo: Path, spec: dict[str, Any]) -> dict[str, Any]:
     if not policy:
         # Safe defaults mirroring ingramspark-2026-07 when profile omits the block.
         policy = {
-            "status": "experimental-warning",
+            "status": "account-accepted",
             "conversion_tool": "imagemagick",
             "working_rgb_icc": "/usr/share/color/icc/ghostscript/srgb.icc",
             "working_cmyk_icc": "/usr/share/color/icc/ghostscript/default_cmyk.icc",
@@ -568,7 +569,7 @@ def _convert_png_to_cmyk_pdf(
         "stripPerObjectIccApplied": strip_icc,
         "pdfCompression": "Zip",
         "outputIntentPolicy": str(policy.get("output_intent") or "none-provisional"),
-        "profileStatus": str(policy.get("status") or "experimental-warning"),
+        "profileStatus": str(policy.get("status") or "account-accepted"),
         "tiffPath": tiff_path.as_posix(),
         "notes": str(policy.get("notes") or "").strip() or None,
     }
@@ -1261,12 +1262,16 @@ def convert_raster_wrap(
         return result
 
     result.color = color_meta
-    result.color["provisional"] = str(policy.get("status") or "") != "production-blocking"
+    cover_status = str(policy.get("status") or "")
+    result.color["provisional"] = cover_status not in {
+        "production-blocking",
+        "account-accepted",
+    }
     result.checks.append(
         PreflightCheck(
             "color-conversion",
             "warning" if result.color["provisional"] else "passed",
-            f"status={policy.get('status')}; not labeled fully Ingram-approved",
+            f"status={policy.get('status')}",
         )
     )
 
