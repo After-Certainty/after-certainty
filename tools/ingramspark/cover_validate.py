@@ -1,4 +1,4 @@
-"""Validate supplied IngramSpark print wrap + template-meta.yml (INGRAM-005)."""
+"""Validate IngramSpark print wrap + template-meta.yml (supplied-wrap PDF or raster-wrap PNG)."""
 
 from __future__ import annotations
 
@@ -8,21 +8,6 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-try:
-    import yaml
-except ModuleNotFoundError as exc:  # pragma: no cover
-    raise SystemExit(
-        "PyYAML is required for template-meta.yml. Install with: python3 -m pip install pyyaml"
-    ) from exc
-
-try:
-    import jsonschema
-except ModuleNotFoundError as exc:  # pragma: no cover
-    raise SystemExit(
-        "jsonschema is required for template-meta.yml. "
-        "Install with: python3 -m pip install jsonschema"
-    ) from exc
-
 from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 from ingramspark.paths import (
     print_cover_pdf_path,
@@ -31,17 +16,17 @@ from ingramspark.paths import (
     print_page_count_path,
 )
 from ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
-
-_REPO_ROOT = Path(__file__).resolve().parents[2]
-TEMPLATE_META_SCHEMA_PATH = (
-    _REPO_ROOT / "schema" / "profiles" / "ingramspark" / "template-meta.schema.json"
+from ingramspark.template_meta import (
+    TemplateMetaError,
+    load_raw_template_meta,
+    load_template_meta_schema,
+    normalize_template_meta,
 )
+
 DEFAULT_TEMPLATE_META_REL = "assets/ingramspark/template-meta.yml"
 TRIM_TOLERANCE_INCHES = 0.02
 # Paperback spine text is forbidden below this interior page count (IngramSpark guidance).
 MIN_PAGES_FOR_SPINE_TEXT = 48
-
-_TEMPLATE_META_SCHEMA_CACHE: dict[str, Any] | None = None
 
 
 class CoverValidateError(ValueError):
@@ -59,6 +44,8 @@ class CoverValidateResult:
     wrap_path: Path | None = None
     interior_page_count: int | None = None
     template_page_count: int | None = None
+    strategy: str | None = None
+    raster_preflight: dict[str, Any] | None = None
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -75,20 +62,13 @@ class CoverValidateResult:
             "wrap_path": self.wrap_path.as_posix() if self.wrap_path else None,
             "interior_page_count": self.interior_page_count,
             "template_page_count": self.template_page_count,
+            "strategy": self.strategy,
+            "raster_preflight": self.raster_preflight,
         }
 
 
 def _as_dict(value: Any) -> dict[str, Any]:
     return value if isinstance(value, dict) else {}
-
-
-def load_template_meta_schema() -> dict[str, Any]:
-    global _TEMPLATE_META_SCHEMA_CACHE
-    if _TEMPLATE_META_SCHEMA_CACHE is not None:
-        return _TEMPLATE_META_SCHEMA_CACHE
-    with TEMPLATE_META_SCHEMA_PATH.open("r", encoding="utf-8") as f:
-        _TEMPLATE_META_SCHEMA_CACHE = json.load(f)
-    return _TEMPLATE_META_SCHEMA_CACHE
 
 
 def resolve_template_meta_path(book_dir: Path, *, relative: str | None = None) -> Path:
@@ -97,24 +77,11 @@ def resolve_template_meta_path(book_dir: Path, *, relative: str | None = None) -
 
 
 def load_template_meta(path: Path) -> dict[str, Any]:
-    if not path.is_file():
-        raise CoverValidateError(
-            f"Missing template-meta.yml at {path}. "
-            f"Record observed Cover Template Generator metadata before validating the wrap."
-        )
-    with path.open("r", encoding="utf-8") as f:
-        data = yaml.safe_load(f) or {}
-    if not isinstance(data, dict):
-        raise CoverValidateError(f"Expected mapping in {path}")
-    schema = load_template_meta_schema()
+    """Load and schema-validate template-meta.yml; returns the raw mapping."""
     try:
-        jsonschema.validate(instance=data, schema=schema)
-    except jsonschema.ValidationError as exc:
-        location = ".".join(str(p) for p in exc.path) or "<root>"
-        raise CoverValidateError(
-            f"{path}: template-meta schema validation failed at {location}: {exc.message}"
-        ) from exc
-    return data
+        return load_raw_template_meta(path)
+    except TemplateMetaError as exc:
+        raise CoverValidateError(str(exc)) from exc
 
 
 def resolve_wrap_path(book_dir: Path, spec: dict[str, Any]) -> Path:
@@ -122,17 +89,19 @@ def resolve_wrap_path(book_dir: Path, spec: dict[str, Any]) -> Path:
     print_cfg = _as_dict(target.get("print"))
     cover = _as_dict(print_cfg.get("cover"))
     strategy = str(cover.get("strategy") or "").strip()
-    if strategy != "supplied-wrap":
+    if strategy not in {"supplied-wrap", "raster-wrap"}:
         raise CoverValidateError(
-            f"print.cover.strategy {strategy!r} is not supported yet; use supplied-wrap"
+            f"print.cover.strategy {strategy!r} is not supported yet; "
+            f"use supplied-wrap or raster-wrap"
         )
     rel = str(cover.get("source") or "").strip()
     if not rel:
         raise CoverValidateError("publishing.targets.ingramspark.print.cover.source is required")
     path = (book_dir / rel).resolve()
     if not path.is_file():
+        kind = "PNG" if strategy == "raster-wrap" else "PDF"
         raise CoverValidateError(
-            f"Missing print cover wrap PDF: {rel} (under {book_dir}). "
+            f"Missing print cover wrap {kind}: {rel} (under {book_dir}). "
             f"Supply a full-wrap cover matching the IngramSpark template."
         )
     return path
@@ -174,27 +143,20 @@ def stale_page_count_message(*, template_pages: int, interior_pages: int) -> str
     )
 
 
-def validate_print_cover(
+def _validate_supplied_wrap(
     *,
     repo: Path,
     book_dir: Path,
     spec: dict[str, Any],
-    interior_page_count: int | None = None,
-    template_meta_relative: str | None = None,
-    stage: bool = True,
+    print_cfg: dict[str, Any],
+    cover: dict[str, Any],
+    interior: dict[str, Any],
+    trim: dict[str, Any],
+    interior_page_count: int | None,
+    template_meta_relative: str | None,
+    stage: bool,
+    result: CoverValidateResult,
 ) -> CoverValidateResult:
-    """
-    Validate supplied wrap + template-meta against ``print.trim`` and interior page count.
-
-    When ``stage`` is true and validation passes, copy the wrap to
-    ``build/ingramspark/<id>/print/{isbn}_cvr.pdf``.
-    """
-    result = CoverValidateResult(ok=True)
-    print_cfg = _require_print_enabled(spec)
-    cover = _as_dict(print_cfg.get("cover"))
-    interior = _as_dict(print_cfg.get("interior"))
-    trim = _as_dict(print_cfg.get("trim"))
-
     try:
         wrap_path = resolve_wrap_path(book_dir, spec)
     except CoverValidateError as exc:
@@ -203,16 +165,20 @@ def validate_print_cover(
         return result
     result.wrap_path = wrap_path
 
-    meta_path = resolve_template_meta_path(book_dir, relative=template_meta_relative)
+    meta_rel = template_meta_relative
+    if not meta_rel:
+        meta_rel = str(cover.get("template_metadata") or "").strip() or None
+    meta_path = resolve_template_meta_path(book_dir, relative=meta_rel)
     result.template_meta_path = meta_path
     try:
-        meta = load_template_meta(meta_path)
-    except CoverValidateError as exc:
+        raw = load_template_meta(meta_path)
+        meta = normalize_template_meta(raw)
+    except (CoverValidateError, TemplateMetaError) as exc:
         result.ok = False
         result.errors.append(str(exc))
         return result
 
-    meta_pages = int(meta["page_count"])
+    meta_pages = meta.page_count
     result.template_page_count = meta_pages
     book_template_pages = cover.get("template_page_count")
     if isinstance(book_template_pages, int) and book_template_pages != meta_pages:
@@ -236,8 +202,6 @@ def validate_print_cover(
             stale_page_count_message(template_pages=meta_pages, interior_pages=measured)
         )
 
-    cfg_w: float | None
-    cfg_h: float | None
     try:
         cfg_w = float(trim["width_inches"])
         cfg_h = float(trim["height_inches"])
@@ -246,42 +210,36 @@ def validate_print_cover(
         cfg_w = None
         cfg_h = None
     if cfg_w is not None and cfg_h is not None:
-        meta_trim = _as_dict(meta.get("trim"))
-        try:
-            mt_w = float(meta_trim["width_inches"])
-            mt_h = float(meta_trim["height_inches"])
-        except (KeyError, TypeError, ValueError):
-            result.errors.append("template-meta.yml trim is missing width_inches/height_inches")
-        else:
-            same_orientation = _inches_close(cfg_w, mt_w) and _inches_close(cfg_h, mt_h)
-            swapped = _inches_close(cfg_w, mt_h) and _inches_close(cfg_h, mt_w)
-            if not same_orientation and not swapped:
-                result.errors.append(
-                    f"Configured print.trim {cfg_w}x{cfg_h} in does not match "
-                    f"template-meta.yml trim {mt_w}x{mt_h} in. "
-                    f"print.trim is authoritative; update the template request or book.yml."
-                )
+        same_orientation = _inches_close(cfg_w, meta.trim_width_inches) and _inches_close(
+            cfg_h, meta.trim_height_inches
+        )
+        swapped = _inches_close(cfg_w, meta.trim_height_inches) and _inches_close(
+            cfg_h, meta.trim_width_inches
+        )
+        if not same_orientation and not swapped:
+            result.errors.append(
+                f"Configured print.trim {cfg_w}x{cfg_h} in does not match "
+                f"template-meta.yml trim {meta.trim_width_inches}x{meta.trim_height_inches} in. "
+                f"print.trim is authoritative; update the template request or book.yml."
+            )
 
     cfg_binding = str(print_cfg.get("binding") or "").strip()
-    meta_binding = str(meta.get("binding") or "").strip()
-    if cfg_binding and meta_binding and cfg_binding != meta_binding:
+    if cfg_binding and meta.binding and cfg_binding != meta.binding:
         result.errors.append(
-            f"print.binding {cfg_binding!r} does not match template-meta binding {meta_binding!r}"
+            f"print.binding {cfg_binding!r} does not match template-meta binding {meta.binding!r}"
         )
 
     cfg_paper = str(interior.get("paper") or "").strip()
-    meta_paper = str(meta.get("paper") or "").strip()
-    if cfg_paper and meta_paper and cfg_paper != meta_paper:
+    if cfg_paper and meta.paper and cfg_paper != meta.paper:
         result.errors.append(
-            f"print.interior.paper {cfg_paper!r} does not match template-meta paper {meta_paper!r}"
+            f"print.interior.paper {cfg_paper!r} does not match template-meta paper {meta.paper!r}"
         )
 
     cfg_color = str(interior.get("color_mode") or "").strip()
-    meta_color = str(meta.get("color_mode") or "").strip()
-    if cfg_color and meta_color and cfg_color != meta_color:
+    if cfg_color and meta.color_mode and cfg_color != meta.color_mode:
         result.errors.append(
             f"print.interior.color_mode {cfg_color!r} does not match "
-            f"template-meta color_mode {meta_color!r}"
+            f"template-meta color_mode {meta.color_mode!r}"
         )
 
     barcode_mode = str(cover.get("barcode_mode") or "").strip()
@@ -290,7 +248,7 @@ def validate_print_cover(
             f"print.cover.barcode_mode must be ingram-generated or supplied (got {barcode_mode!r})"
         )
     else:
-        barcode_supplied = meta.get("barcode_supplied")
+        barcode_supplied = meta.barcode_supplied
         if barcode_mode == "supplied" and barcode_supplied is not True:
             result.errors.append(
                 "barcode_mode is supplied, but template-meta.yml does not set "
@@ -303,11 +261,7 @@ def validate_print_cover(
                 "barcode_supplied: true. Use barcode_mode: supplied or clear barcode_supplied."
             )
 
-    if (
-        measured is not None
-        and measured < MIN_PAGES_FOR_SPINE_TEXT
-        and meta.get("spine_text") is True
-    ):
+    if measured is not None and measured < MIN_PAGES_FOR_SPINE_TEXT and meta.spine_text is True:
         result.errors.append(
             f"Spine text is present in template-meta, but interior page count is {measured} "
             f"(paperback spine text requires at least {MIN_PAGES_FOR_SPINE_TEXT} pages)."
@@ -320,24 +274,19 @@ def validate_print_cover(
         result.warnings.append(
             f"Cover wrap has {inspection.page_count} pages; IngramSpark expects a single-page wrap"
         )
-    meta_box = _as_dict(meta.get("media_box"))
-    try:
-        box_w = float(meta_box["width_inches"])
-        box_h = float(meta_box["height_inches"])
-    except (KeyError, TypeError, ValueError):
-        result.errors.append("template-meta.yml media_box is missing width_inches/height_inches")
-    else:
-        if not media_box_matches_trim(
-            inspection,
-            width_inches=box_w,
-            height_inches=box_h,
-            tolerance_inches=TRIM_TOLERANCE_INCHES,
-        ):
-            result.errors.append(
-                f"Cover wrap media box {inspection.media_box_inches!r} does not match "
-                f"template-meta.yml media_box {box_w}x{box_h} in. "
-                f"Do not scale or crop a stale wrap to force a fit."
-            )
+    box_w = meta.media_box_width_inches
+    box_h = meta.media_box_height_inches
+    if not media_box_matches_trim(
+        inspection,
+        width_inches=box_w,
+        height_inches=box_h,
+        tolerance_inches=TRIM_TOLERANCE_INCHES,
+    ):
+        result.errors.append(
+            f"Cover wrap media box {inspection.media_box_inches!r} does not match "
+            f"template-meta.yml media_box {box_w}x{box_h} in. "
+            f"Do not scale or crop a stale wrap to force a fit."
+        )
 
     if inspection.mentions_device_rgb is True:
         result.warnings.append(
@@ -356,6 +305,121 @@ def validate_print_cover(
         result.staged_cover_path = dest
     report_path.write_text(json.dumps(result.to_dict(), indent=2) + "\n", encoding="utf-8")
     result.report_path = report_path
+    return result
+
+
+def _validate_raster_wrap(
+    *,
+    repo: Path,
+    book_dir: Path,
+    spec: dict[str, Any],
+    cover: dict[str, Any],
+    interior_page_count: int | None,
+    template_meta_relative: str | None,
+    stage: bool,
+    result: CoverValidateResult,
+) -> CoverValidateResult:
+    from ingramspark.raster_wrap import RasterWrapError, convert_raster_wrap
+
+    meta_rel = template_meta_relative
+    if not meta_rel:
+        meta_rel = str(cover.get("template_metadata") or "").strip() or None
+    meta_path = resolve_template_meta_path(book_dir, relative=meta_rel)
+    result.template_meta_path = meta_path
+    try:
+        source = resolve_wrap_path(book_dir, spec)
+    except CoverValidateError as exc:
+        result.ok = False
+        result.errors.append(str(exc))
+        return result
+    result.wrap_path = source
+
+    try:
+        raster = convert_raster_wrap(
+            repo=repo,
+            book_dir=book_dir,
+            spec=spec,
+            source=source,
+            template_meta_path=meta_path,
+            interior_page_count=interior_page_count,
+            stage=stage,
+        )
+    except RasterWrapError as exc:
+        result.ok = False
+        result.errors.append(str(exc))
+        return result
+
+    result.raster_preflight = raster.to_dict()
+    result.errors.extend(raster.errors)
+    result.warnings.extend(raster.warnings)
+    result.staged_cover_path = raster.staged_cover_path
+    result.template_page_count = (
+        int(raster.template["pageCount"]) if "pageCount" in raster.template else None
+    )
+    result.interior_page_count = interior_page_count
+    result.ok = raster.ok and not result.errors
+
+    out_dir = print_output_dir(repo, spec)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    report_path = out_dir / "cover-validation.json"
+    report_path.write_text(json.dumps(result.to_dict(), indent=2) + "\n", encoding="utf-8")
+    result.report_path = report_path
+    return result
+
+
+def validate_print_cover(
+    *,
+    repo: Path,
+    book_dir: Path,
+    spec: dict[str, Any],
+    interior_page_count: int | None = None,
+    template_meta_relative: str | None = None,
+    stage: bool = True,
+) -> CoverValidateResult:
+    """
+    Validate print cover + template-meta against ``print.trim`` and interior page count.
+
+    ``supplied-wrap``: validate PDF wrap and optionally stage to ``{isbn}_cvr.pdf``.
+    ``raster-wrap``: convert PNG → print cover PDF with exact dimension checks, then stage.
+    """
+    result = CoverValidateResult(ok=True)
+    print_cfg = _require_print_enabled(spec)
+    cover = _as_dict(print_cfg.get("cover"))
+    interior = _as_dict(print_cfg.get("interior"))
+    trim = _as_dict(print_cfg.get("trim"))
+    strategy = str(cover.get("strategy") or "").strip()
+    result.strategy = strategy
+
+    if strategy == "raster-wrap":
+        return _validate_raster_wrap(
+            repo=repo,
+            book_dir=book_dir,
+            spec=spec,
+            cover=cover,
+            interior_page_count=interior_page_count,
+            template_meta_relative=template_meta_relative,
+            stage=stage,
+            result=result,
+        )
+    if strategy == "supplied-wrap":
+        return _validate_supplied_wrap(
+            repo=repo,
+            book_dir=book_dir,
+            spec=spec,
+            print_cfg=print_cfg,
+            cover=cover,
+            interior=interior,
+            trim=trim,
+            interior_page_count=interior_page_count,
+            template_meta_relative=template_meta_relative,
+            stage=stage,
+            result=result,
+        )
+
+    result.ok = False
+    result.errors.append(
+        f"print.cover.strategy {strategy!r} is not supported yet; use supplied-wrap or raster-wrap"
+    )
     return result
 
 
@@ -383,3 +447,19 @@ def validate_print_cover_or_raise(
 
 def isbn_for_cover(spec: dict[str, Any]) -> str:
     return print_isbn(spec)
+
+
+# Re-export for tests/tools that imported the schema helper from this module.
+__all__ = [
+    "CoverValidateError",
+    "CoverValidateResult",
+    "DEFAULT_TEMPLATE_META_REL",
+    "isbn_for_cover",
+    "load_template_meta",
+    "load_template_meta_schema",
+    "resolve_template_meta_path",
+    "resolve_wrap_path",
+    "stale_page_count_message",
+    "validate_print_cover",
+    "validate_print_cover_or_raise",
+]
