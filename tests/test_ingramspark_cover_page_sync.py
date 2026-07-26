@@ -85,6 +85,65 @@ def test_sync_assembled_cover_recrops_spine(tmp_path: Path) -> None:
     assert again.changed is False
 
 
+def test_build_exports_returns_reloaded_spec_after_sync(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Regression: preflight must see synced template_page_count, not the stale in-memory spec."""
+    from dataclasses import dataclass
+
+    from ingramspark import package as pkg
+
+    src_book = _REPO / "books" / "everyone-knows-love"
+    repo = tmp_path / "repo"
+    repo.mkdir()
+    book_dir = repo / "books" / "everyone-knows-love"
+    (repo / "schema").symlink_to(_REPO / "schema", target_is_directory=True)
+    (book_dir / "assets" / "ingramspark").mkdir(parents=True)
+    for name in (
+        "book.yml",
+        "book-cover.png",
+        "assets/ingramspark/template-meta.yml",
+        "assets/ingramspark/spine-source.png",
+        "assets/ingramspark/spine.png",
+        "assets/ingramspark/back.png",
+        "assets/ingramspark/front.png",
+        "assets/ingramspark/ebook-front.png",
+    ):
+        dest = book_dir / name
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_bytes((src_book / name).read_bytes())
+
+    @dataclass(frozen=True)
+    class _FakeExport:
+        page_count: int = 74
+
+    monkeypatch.setattr(pkg, "export_ingramspark_print_interior", lambda **_kwargs: _FakeExport())
+    monkeypatch.setattr(pkg, "validate_print_cover_or_raise", lambda **_kwargs: None)
+
+    stale = load_spec_for_book_dir(book_dir)
+    assert (
+        stale["publishing"]["targets"]["ingramspark"]["print"]["cover"]["template_page_count"] == 76
+    )
+
+    returned = pkg._build_exports(
+        repo=repo,
+        book_dir=book_dir,
+        spec=stale,
+        modes=["print"],
+        pandoc="pandoc",
+        pdf_engine="xelatex",
+        allow_cover_upscale=False,
+    )
+    assert (
+        returned["publishing"]["targets"]["ingramspark"]["print"]["cover"]["template_page_count"]
+        == 74
+    )
+    # Stale caller object must not be mutated in place; return value is the source of truth.
+    assert (
+        stale["publishing"]["targets"]["ingramspark"]["print"]["cover"]["template_page_count"] == 76
+    )
+
+
 def test_sync_requires_spine_source(tmp_path: Path) -> None:
     src_book = _REPO / "books" / "everyone-knows-love"
     book_dir = tmp_path / "everyone-knows-love"

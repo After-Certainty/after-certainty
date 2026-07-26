@@ -15,6 +15,7 @@ from typing import Any, Literal
 from book_specs import (
     ingramspark_artifact_name,
     ingramspark_preview_artifact_name,
+    load_spec_for_book_dir,
     spec_ingramspark_enabled,
     spec_ingramspark_target,
 )
@@ -309,7 +310,14 @@ def _build_exports(
     pandoc: str,
     pdf_engine: str,
     allow_cover_upscale: bool,
-) -> None:
+) -> dict[str, Any]:
+    """
+    Build ebook/print exports for packaging.
+
+    Returns the (possibly reloaded) book spec. Print cover page-count sync may
+    rewrite ``book.yml`` / template-meta on disk; callers must use the returned
+    spec for preflight and manifest so in-memory values match disk.
+    """
     try:
         if "ebook" in modes:
             export_ingramspark_epub(repo=repo, book_dir=book_dir, spec=spec, pandoc=pandoc)
@@ -336,9 +344,7 @@ def _build_exports(
             except CoverPageSyncError as exc:
                 raise PackageError(str(exc)) from exc
             if sync.changed:
-                # Cover validation reads template_page_count from book.yml.
-                from book_specs import load_spec_for_book_dir  # noqa: PLC0415
-
+                # Cover validation / later preflight read template_page_count from spec.
                 spec = load_spec_for_book_dir(book_dir)
                 print(sync.message)
             validate_print_cover_or_raise(repo=repo, book_dir=book_dir, spec=spec, stage=True)
@@ -352,6 +358,7 @@ def _build_exports(
         FileNotFoundError,
     ) as exc:
         raise PackageError(str(exc)) from exc
+    return spec
 
 
 def _read_print_page_count(repo: Path, spec: dict[str, Any]) -> dict[str, Any] | None:
@@ -780,7 +787,8 @@ def package_ingramspark(
     build_dir.mkdir(parents=True, exist_ok=True)
 
     if not skip_build:
-        _build_exports(
+        # Sync may rewrite book.yml; keep the returned spec for preflight/manifest.
+        spec = _build_exports(
             repo=repo,
             book_dir=book_dir,
             spec=spec,
