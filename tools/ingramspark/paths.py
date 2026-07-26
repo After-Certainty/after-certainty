@@ -60,6 +60,11 @@ def print_cover_pdf_path(repo: Path, spec: dict[str, Any]) -> Path:
     return print_output_dir(repo, spec) / f"{print_isbn(spec)}_cvr.pdf"
 
 
+def print_cover_work_dir(repo: Path, spec: dict[str, Any]) -> Path:
+    """Target-specific work directory for raster-wrap intermediates (not website assets)."""
+    return ingramspark_build_dir(repo, spec) / "print-cover"
+
+
 def print_page_count_path(repo: Path, spec: dict[str, Any]) -> Path:
     return print_output_dir(repo, spec) / "page-count.json"
 

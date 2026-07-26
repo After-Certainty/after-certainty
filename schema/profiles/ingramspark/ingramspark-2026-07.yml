@@ -58,6 +58,21 @@ print:
   max_total_ink_coverage_percent: 240
   recommended_margin_inches: 0.5
   bleed_inches: 0.125
+  # Raster full-wrap PNG → print cover PDF. Color/PDF/X remain provisional.
+  cover_raster:
+    status: experimental-warning
+    conversion_tool: imagemagick
+    working_rgb_icc: /usr/share/color/icc/ghostscript/srgb.icc
+    working_cmyk_icc: /usr/share/color/icc/ghostscript/default_cmyk.icc
+    rendering_intent: Relative
+    black_point_compensation: true
+    strip_per_object_icc: true
+    output_intent: none-provisional
+    allow_transparency_flatten: false
+    notes: >
+      Candidate Ghostscript ICC pair for deterministic RGB→CMYK. Not SWOP/GRACoL pinned
+      until IngramSpark account preflight accepts a construction. Do not label results
+      fully Ingram-approved. Dimension validation remains blocking regardless.
 
 conflicts:
   - id: epub-content-version
@@ -204,6 +219,23 @@ checks:
     confidence: confirmed-current
     note: >
       barcode_mode ingram-generated vs supplied must agree with template-meta.barcode_supplied.
+
+  - id: print-cover-raster-dimensions
+    applies_to: print-cover
+    severity: blocking
+    confidence: confirmed-current
+    note: >
+      raster-wrap PNG pixel dimensions must exactly match template-meta.raster.expected_*_pixels.
+      Embedded PNG DPI is ignored. Converter never stretches, crops, pads, or resamples.
+
+  - id: print-cover-raster-color
+    applies_to: print-cover
+    severity: warning
+    confidence: account-verification-needed
+    conflict_group: pdfx-vs-icc
+    note: >
+      RGB→CMYK conversion follows print.cover_raster (experimental-warning). PDF/X output
+      intent and final ICC policy remain provisional until account verification.
 
   - id: package-edition-isbn-unique
     applies_to: package
