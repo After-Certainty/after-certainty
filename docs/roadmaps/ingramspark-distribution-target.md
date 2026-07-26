@@ -27,7 +27,7 @@ containing the separate files IngramSpark expects for upload (EPUB + JPG; interi
 
 Official IngramSpark sources conflict on several ebook limits and on ICC vs PDF/X handling. Those conflicts are recorded in dated profile **`ingramspark-2026-07`** with safe defaults; they are not silently resolved. EPUB **3.0/3.0.0 content compliance** is separate from the pinned **current EPUBCheck tool** version.
 
-**Recommended first pilot:** *Everyone Knows Love* (`everyone-knows-love`) — **complete (2026-07)**. Chosen for the standard Pandoc EPUB/PDF path, existing export polish, and low interior complexity. Sequence was an early **ebook rehearsal (INGRAM-009A)** then a **full production pilot (INGRAM-009B)** with IngramSpark account upload/preflight. *Observer Patterns* print-only title is also **account-uploaded (2026-07)** (`status: production-approved`; ebook still out of scope / Typst poetry EPUB). *When Others Become Leaders* still needs edition ISBNs, manufacturing metadata, and print-cover assets.
+**Recommended first pilot:** *Everyone Knows Love* (`everyone-knows-love`) — **complete (2026-07)**. Chosen for the standard Pandoc EPUB/PDF path, existing export polish, and low interior complexity. Sequence was an early **ebook rehearsal (INGRAM-009A)** then a **full production pilot (INGRAM-009B)** with IngramSpark account upload/preflight. *Observer Patterns* print-only title is also **account-uploaded (2026-07)** (`status: production-approved`; ebook still out of scope / Typst poetry EPUB). *When Others Become Leaders* packaging is **started (2026-07)** with print/ebook ISBNs and cover-derived wrap (`status: planning`).
 
 **Ready for:** schema + profile skeleton implementation (INGRAM-002), after this decision-resolution update.  
 **Not ready for:** enabling any book or shipping production packages until human ISBN/manufacturing/cover decisions land.
@@ -557,7 +557,7 @@ Filenames and embedded metadata must use the edition ISBN for that artifact. Pub
 |------|------------|----------------|-----------|
 | Observer Patterns | Disabled (print-only; poetry EPUB later) | `9798256208776` | Out of scope for initial schema |
 | Everyone Knows Love | `9798256206956` | `9798256206949` | Out of scope for initial schema |
-| When Others Become Leaders | **Missing — human blocker** | **Missing — human blocker** | Out of scope for initial schema |
+| When Others Become Leaders | `9798256208929` | `9798256208912` | Out of scope for initial schema |
 
 Do **not** invent placeholders in implemented configuration.
 
@@ -1047,7 +1047,7 @@ Pilot sequence (aligned with the task graph in §26–§27):
 |------|----------|
 | Everyone Knows Love | **Cleared** — ISBNs, manufacturing metadata, wrap assets, packaging, and account upload/preflight complete; `status: production-approved` |
 | Observer Patterns | **Print cleared (2026-07)** — paperback ISBN, wrap, Typst interior, account upload; `status: production-approved`. Remaining: poetry EPUB / ebook ISBN if an ebook edition is desired later |
-| When Others Become Leaders | Ebook/print ISBNs; manufacturing metadata; hi-res cover; wrap; **plus** explicit editorial deferral of trim/spine/print cover until interior considered stable |
+| When Others Become Leaders | **Packaging started (2026-07)** — print/ebook ISBNs + cover-derived wrap in `status: planning`; account upload / `production-approved` still pending |
 
 ---
 
