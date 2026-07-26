@@ -16,6 +16,45 @@ def _as_dict(value: Any) -> dict[str, Any]:
     return value if isinstance(value, dict) else {}
 
 
+def report_path(repo: Path, path: Path | str | None) -> str | None:
+    """
+    Path for packaged reports/manifests.
+
+    Prefer repo-relative POSIX paths so CI secret scanners do not flag
+    absolute ``/home/...`` runner workspaces.
+    """
+    if path is None:
+        return None
+    p = Path(path)
+    try:
+        return p.resolve().relative_to(repo.resolve()).as_posix()
+    except ValueError:
+        text = p.as_posix()
+        if text.startswith(("/home/", "/Users/", "/root/", "/var/secrets/")):
+            return p.name
+        return text
+
+
+def sanitize_report_paths(value: Any, *, repo: Path) -> Any:
+    """Recursively rewrite absolute repo / home paths in JSON-like structures."""
+    if isinstance(value, dict):
+        return {k: sanitize_report_paths(v, repo=repo) for k, v in value.items()}
+    if isinstance(value, list):
+        return [sanitize_report_paths(v, repo=repo) for v in value]
+    if isinstance(value, str):
+        repo_root = repo.resolve().as_posix().rstrip("/")
+        if value == repo_root:
+            return "."
+        prefix = repo_root + "/"
+        if value.startswith(prefix):
+            return value[len(prefix) :]
+        if value.startswith(("/home/", "/Users/", "/root/", "/var/secrets/")):
+            # Keep the last path segment only (file basename).
+            return Path(value).name
+        return value
+    return value
+
+
 def book_id(spec: dict[str, Any]) -> str:
     book = _as_dict(spec.get("book"))
     return str(book.get("id") or "").strip()

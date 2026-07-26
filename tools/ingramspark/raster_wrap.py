@@ -25,6 +25,7 @@ from ingramspark.paths import (
     print_isbn_optional,
     print_output_dir,
     print_page_count_path,
+    sanitize_report_paths,
 )
 from ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
 from ingramspark.profile import load_profile
@@ -743,7 +744,7 @@ def convert_raster_wrap(
     except TemplateMetaError as exc:
         result.errors.append(str(exc))
         result.checks.append(PreflightCheck("template-meta", "failed", str(exc)))
-        _write_reports(result, work_dir)
+        _write_reports(result, work_dir, repo=repo)
         return result
 
     if meta.form != "raster-v1" or meta.required_ppi is None:
@@ -753,7 +754,7 @@ def convert_raster_wrap(
         )
         result.errors.append(msg)
         result.checks.append(PreflightCheck("template-meta", "failed", msg))
-        _write_reports(result, work_dir)
+        _write_reports(result, work_dir, repo=repo)
         return result
 
     assert meta.expected_width_pixels is not None
@@ -797,7 +798,7 @@ def convert_raster_wrap(
         except (AssembleWrapError, RasterWrapError) as exc:
             result.errors.append(str(exc))
             result.checks.append(PreflightCheck("panel-assets", "failed", str(exc)))
-            _write_reports(result, work_dir)
+            _write_reports(result, work_dir, repo=repo)
             return result
 
         sources_out: dict[str, Any] = {}
@@ -940,9 +941,10 @@ def convert_raster_wrap(
         if result.errors:
             result.status = "failed"
             (work_dir / "source-inspection.json").write_text(
-                json.dumps(inspection_payload, indent=2) + "\n", encoding="utf-8"
+                json.dumps(sanitize_report_paths(inspection_payload, repo=repo), indent=2) + "\n",
+                encoding="utf-8",
             )
-            _write_reports(result, work_dir)
+            _write_reports(result, work_dir, repo=repo)
             return result
 
         assembled_path = work_dir / "assembled-wrap-rgb.png"
@@ -958,9 +960,10 @@ def convert_raster_wrap(
             result.errors.append(str(exc))
             result.checks.append(PreflightCheck("assembly-dimensions", "failed", str(exc)))
             (work_dir / "source-inspection.json").write_text(
-                json.dumps(inspection_payload, indent=2) + "\n", encoding="utf-8"
+                json.dumps(sanitize_report_paths(inspection_payload, repo=repo), indent=2) + "\n",
+                encoding="utf-8",
             )
-            _write_reports(result, work_dir)
+            _write_reports(result, work_dir, repo=repo)
             return result
 
         result.assembly = assembly_meta
@@ -978,12 +981,13 @@ def convert_raster_wrap(
             source_info = inspect_png(src)
         except RasterWrapError as exc:
             result.errors.append(str(exc))
-            _write_reports(result, work_dir)
+            _write_reports(result, work_dir, repo=repo)
             return result
         result.source = dict(source_info)
         inspection_payload["assembled"] = source_info
         (work_dir / "source-inspection.json").write_text(
-            json.dumps(inspection_payload, indent=2) + "\n", encoding="utf-8"
+            json.dumps(sanitize_report_paths(inspection_payload, repo=repo), indent=2) + "\n",
+            encoding="utf-8",
         )
     else:
         # Single full-wrap PNG
@@ -993,12 +997,13 @@ def convert_raster_wrap(
         except RasterWrapError as exc:
             result.errors.append(str(exc))
             result.checks.append(PreflightCheck("png-inspect", "failed", str(exc)))
-            _write_reports(result, work_dir)
+            _write_reports(result, work_dir, repo=repo)
             return result
 
         result.source = dict(source_info)
         (work_dir / "source-inspection.json").write_text(
-            json.dumps(source_info, indent=2) + "\n", encoding="utf-8"
+            json.dumps(sanitize_report_paths(source_info, repo=repo), indent=2) + "\n",
+            encoding="utf-8",
         )
 
     eff_x, eff_y = effective_ppi(
@@ -1197,7 +1202,7 @@ def convert_raster_wrap(
             "skipped": True,
             "reason": "blocking validation errors",
         }
-        _write_reports(result, work_dir)
+        _write_reports(result, work_dir, repo=repo)
         return result
 
     isbn = print_isbn_optional(spec)
@@ -1216,7 +1221,7 @@ def convert_raster_wrap(
             )
         result.errors.append(msg)
         result.status = "failed"
-        _write_reports(result, work_dir)
+        _write_reports(result, work_dir, repo=repo)
         return result
     if not isbn:
         result.warnings.append(
@@ -1238,7 +1243,7 @@ def convert_raster_wrap(
         result.errors.append(str(exc))
         result.checks.append(PreflightCheck("color-conversion", "failed", str(exc)))
         result.status = "failed"
-        _write_reports(result, work_dir)
+        _write_reports(result, work_dir, repo=repo)
         return result
 
     result.color = color_meta
@@ -1352,7 +1357,7 @@ def convert_raster_wrap(
 
     if result.errors:
         result.status = "failed"
-        _write_reports(result, work_dir)
+        _write_reports(result, work_dir, repo=repo)
         return result
 
     if stage:
@@ -1366,16 +1371,23 @@ def convert_raster_wrap(
 
     # passed with warnings still "passed" for dimension-correct experimental color path
     result.status = "passed"
-    _write_reports(result, work_dir)
+    _write_reports(result, work_dir, repo=repo)
     return result
 
 
-def _write_reports(result: RasterWrapResult, work_dir: Path) -> None:
+def _write_reports(result: RasterWrapResult, work_dir: Path, *, repo: Path | None = None) -> None:
     work_dir.mkdir(parents=True, exist_ok=True)
     json_path = work_dir / "preflight.json"
     txt_path = work_dir / "preflight.txt"
-    json_path.write_text(json.dumps(result.to_dict(), indent=2) + "\n", encoding="utf-8")
-    txt_path.write_text(result.human_text(), encoding="utf-8")
+    payload = result.to_dict()
+    text = result.human_text()
+    if repo is not None:
+        payload = sanitize_report_paths(payload, repo=repo)
+        # human_text embeds absolute paths; rewrite repo root for packaged reports.
+        root = repo.resolve().as_posix().rstrip("/")
+        text = text.replace(root + "/", "").replace(root, ".")
+    json_path.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    txt_path.write_text(text, encoding="utf-8")
     result.preflight_json_path = json_path
     result.preflight_txt_path = txt_path
 

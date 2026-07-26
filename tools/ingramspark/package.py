@@ -41,6 +41,7 @@ from ingramspark.paths import (
     print_isbn_optional,
     print_output_dir,
     print_page_count_path,
+    sanitize_report_paths,
 )
 from ingramspark.preflight import (
     PreflightError,
@@ -119,6 +120,27 @@ def _add_zip_file(
     info.date_time = date_time  # type: ignore[assignment]
     info.compress_type = zipfile.ZIP_DEFLATED
     zf.writestr(info, data)
+
+
+_TEXT_ARC_SUFFIXES = (".json", ".txt", ".yml", ".yaml", ".sha256", ".md")
+
+
+def _packaged_member_bytes(*, repo: Path, arcname: str, data: bytes) -> bytes:
+    """Rewrite absolute repo/home paths in text members before they enter the ZIP."""
+    lower = arcname.lower()
+    if not any(lower.endswith(suffix) for suffix in _TEXT_ARC_SUFFIXES):
+        return data
+    try:
+        text = data.decode("utf-8")
+    except UnicodeDecodeError:
+        return data
+    root = repo.resolve().as_posix().rstrip("/")
+    text = text.replace(root + "/", "").replace(root, ".")
+    # Defense in depth for runner workspaces that somehow diverge from repo resolve().
+    sanitized = sanitize_report_paths(text, repo=repo)
+    if isinstance(sanitized, str):
+        text = sanitized
+    return text.encode("utf-8")
 
 
 def write_readme_upload(
@@ -440,6 +462,7 @@ def build_package_manifest(
 
 def _write_zip_bundle(
     *,
+    repo: Path,
     zip_path: Path,
     readme: str,
     manifest: dict[str, Any],
@@ -447,34 +470,45 @@ def _write_zip_bundle(
     book_yml_snapshot: str,
     tool_versions: dict[str, Any],
 ) -> None:
+    safe_manifest = sanitize_report_paths(manifest, repo=repo)
     checksum_lines = [
-        f"{meta['sha256']}  {arcname}" for arcname, meta in sorted(manifest["files"].items())
+        f"{meta['sha256']}  {arcname}" for arcname, meta in sorted(safe_manifest["files"].items())
     ]
     date_time = zip_date_time()
     members: list[tuple[str, bytes]] = [
         ("README-UPLOAD.txt", readme.encode("utf-8")),
         (
             "package-manifest.json",
-            json.dumps(manifest, indent=2, sort_keys=True).encode("utf-8") + b"\n",
+            json.dumps(safe_manifest, indent=2, sort_keys=True).encode("utf-8") + b"\n",
         ),
         ("checksums.sha256", ("\n".join(checksum_lines) + "\n").encode("utf-8")),
         ("metadata/book-yml-snapshot.yml", book_yml_snapshot.encode("utf-8")),
         (
             "metadata/production-metadata.json",
-            json.dumps(manifest, indent=2, sort_keys=True).encode("utf-8") + b"\n",
+            json.dumps(safe_manifest, indent=2, sort_keys=True).encode("utf-8") + b"\n",
         ),
-        ("metadata/source-commit.txt", (manifest["source_commit"] + "\n").encode("utf-8")),
+        ("metadata/source-commit.txt", (safe_manifest["source_commit"] + "\n").encode("utf-8")),
         (
             "metadata/tool-versions.json",
             json.dumps(tool_versions, indent=2, sort_keys=True).encode("utf-8") + b"\n",
         ),
     ]
     for arcname, path in sorted(files.items()):
-        members.append((arcname, path.read_bytes()))
+        members.append(
+            (
+                arcname,
+                _packaged_member_bytes(repo=repo, arcname=arcname, data=path.read_bytes()),
+            )
+        )
 
     with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
         for arcname, data in sorted(members, key=lambda item: item[0]):
-            _add_zip_file(zf, arcname, data, date_time)
+            _add_zip_file(
+                zf,
+                arcname,
+                _packaged_member_bytes(repo=repo, arcname=arcname, data=data),
+                date_time,
+            )
 
 
 def package_print_cover_preview(
@@ -664,6 +698,7 @@ def package_print_cover_preview(
 
     zip_path = preview_package_zip_path(repo, spec)
     _write_zip_bundle(
+        repo=repo,
         zip_path=zip_path,
         readme=readme,
         manifest=manifest,
@@ -812,6 +847,7 @@ def package_ingramspark(
 
     zip_path = package_zip_path(repo, spec)
     _write_zip_bundle(
+        repo=repo,
         zip_path=zip_path,
         readme=readme,
         manifest=manifest,
