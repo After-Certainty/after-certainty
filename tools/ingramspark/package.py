@@ -740,7 +740,7 @@ def package_ingramspark(
     ebook_only: bool = False,
     print_only: bool = False,
     pandoc: str = "pandoc",
-    pdf_engine: str = "xelatex",
+    pdf_engine: str = "",
     skip_epubcheck: bool = False,
     allow_cover_upscale: bool = False,
     skip_build: bool = False,

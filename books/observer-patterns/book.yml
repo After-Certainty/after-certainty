@@ -14,7 +14,7 @@ publishing:
       print:
         enabled: true
         edition: paperback
-        # print.isbn omitted until assigned — cover-preview packaging only.
+        isbn: "9798256208776"
         binding: perfect-bound
         trim:
           width_inches: 6.0
@@ -43,6 +43,8 @@ book:
     website: https://after-certainty.com
   language: en
   copyright_year: 2026
+  isbns:
+  - "9798256208776"
   title_page_cover: book-cover.png
   open_graph_image: open-graph.png
   content_type: poetry

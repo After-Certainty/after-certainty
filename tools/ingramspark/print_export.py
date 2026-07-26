@@ -429,7 +429,7 @@ def export_ingramspark_print_interior(
     book_dir: Path,
     spec: dict[str, Any],
     pandoc: str = "pandoc",
-    pdf_engine: str = "xelatex",
+    pdf_engine: str = "",
     gs: str = "gs",
     apply_pdfx_proof_construction: bool = False,
 ) -> PrintExportResult:
