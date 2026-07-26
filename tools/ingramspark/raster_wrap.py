@@ -1108,14 +1108,16 @@ def convert_raster_wrap(
 
     barcode_mode = str(cover.get("barcode_mode") or "").strip()
     if barcode_mode == "ingram-generated":
-        reserve_errors = validate_barcode_reserve_geometry(meta)
+        reserve_errors, reserve_warnings = validate_barcode_reserve_geometry(meta)
         for err in reserve_errors:
             result.errors.append(err)
+        for warning in reserve_warnings:
+            result.warnings.append(warning)
         result.checks.append(
             PreflightCheck(
                 "barcode-reserve-geometry",
-                "failed" if reserve_errors else "passed",
-                "; ".join(reserve_errors) if reserve_errors else "",
+                "failed" if reserve_errors else ("warning" if reserve_warnings else "passed"),
+                "; ".join(reserve_errors or reserve_warnings),
             )
         )
         if meta.barcode_reserve is not None:

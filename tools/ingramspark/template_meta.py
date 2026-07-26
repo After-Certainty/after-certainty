@@ -273,7 +273,9 @@ def _normalize_raster_v1(raw: dict[str, Any]) -> NormalizedTemplateMeta:
         bottom_bleed_points=bottom,
     )
     implied_w, implied_h = expected["full_wrap"]
-    if abs(implied_w - box_w_pts) > 0.05 or abs(implied_h - box_h_pts) > 0.05:
+    # Allow sub-point drift: pixel-rounded panel widths (e.g. 1838+74+1838 @ 300 ppi)
+    # can imply 899.76 pt while the template media box is stored as 900.0 pt.
+    if abs(implied_w - box_w_pts) > 0.5 or abs(implied_h - box_h_pts) > 0.5:
         raise TemplateMetaError(
             "geometry is inconsistent with trim + spine + bleed for a back|spine|front wrap.\n"
             f"  implied media box: {implied_w} × {implied_h} pt\n"
@@ -500,7 +502,7 @@ def back_cover_panel_points(meta: NormalizedTemplateMeta) -> tuple[float, float,
     expected_spine_x0 = x1
     expected_front_x0 = expected_spine_x0 + spine
     expected_media_w = expected_front_x0 + trim_w_pts + float(outside)
-    if abs(expected_media_w - meta.media_box_width_points) > 0.05:
+    if abs(expected_media_w - meta.media_box_width_points) > 0.5:
         raise TemplateMetaError(
             "geometry is inconsistent with trim + spine + bleed for a back|spine|front wrap.\n"
             f"  implied media width: {expected_media_w} pt\n"
@@ -509,38 +511,48 @@ def back_cover_panel_points(meta: NormalizedTemplateMeta) -> tuple[float, float,
     return (x0, 0.0, x1, meta.media_box_height_points)
 
 
-def validate_barcode_reserve_geometry(meta: NormalizedTemplateMeta) -> list[str]:
-    """Return error messages if barcode reserve is missing or outside the back panel/safe area."""
+def validate_barcode_reserve_geometry(
+    meta: NormalizedTemplateMeta,
+) -> tuple[list[str], list[str]]:
+    """
+    Return (errors, warnings) for barcode reserve geometry.
+
+    Undersized reserves (below 1.75×1.0 in) are warnings so assembly/PDF preflight can
+    still run while flagging artwork that needs a larger clear area.
+    """
     errors: list[str] = []
+    warnings: list[str] = []
     reserve = meta.barcode_reserve
     if reserve is None:
         errors.append(
             "barcode_reserve geometry is required in template-meta.yml for raster wraps "
             "when barcode_mode is ingram-generated"
         )
-        return errors
+        return errors, warnings
     if not reserve.required:
         errors.append("barcode_reserve.required must be true for ingram-generated barcode mode")
-        return errors
+        return errors, warnings
     if reserve.panel != "back":
         errors.append(f"barcode_reserve.panel must be back (got {reserve.panel!r})")
 
     if reserve.width_inches + 1e-9 < MIN_BARCODE_WIDTH_INCHES:
-        errors.append(
+        warnings.append(
             f"barcode_reserve width {reserve.width_inches:.4f} in is smaller than the "
-            f"approved minimum {MIN_BARCODE_WIDTH_INCHES} in"
+            f"approved minimum {MIN_BARCODE_WIDTH_INCHES} in; enlarge the clear area on "
+            f"the back panel before IngramSpark upload"
         )
     if reserve.height_inches + 1e-9 < MIN_BARCODE_HEIGHT_INCHES:
-        errors.append(
+        warnings.append(
             f"barcode_reserve height {reserve.height_inches:.4f} in is smaller than the "
-            f"approved minimum {MIN_BARCODE_HEIGHT_INCHES} in"
+            f"approved minimum {MIN_BARCODE_HEIGHT_INCHES} in; enlarge the clear area on "
+            f"the back panel before IngramSpark upload"
         )
 
     try:
         bx0, by0, bx1, by1 = back_cover_panel_points(meta)
     except TemplateMetaError as exc:
         errors.append(str(exc))
-        return errors
+        return errors, warnings
 
     rx0 = reserve.x_points
     ry0 = reserve.y_points
@@ -594,4 +606,4 @@ def validate_barcode_reserve_geometry(meta: NormalizedTemplateMeta) -> list[str]
                 f"(safe [{safe_x0:.2f},{safe_y0:.2f}]–[{safe_x1:.2f},{safe_y1:.2f}] pt)"
             )
 
-    return errors
+    return errors, warnings

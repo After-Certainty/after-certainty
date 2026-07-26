@@ -446,7 +446,7 @@ def test_barcode_reserve_crossing_spine_fails(tmp_path: Path) -> None:
 
 
 @requires_pillow
-def test_barcode_reserve_too_small_fails(tmp_path: Path) -> None:
+def test_barcode_reserve_too_small_warns(tmp_path: Path) -> None:
     meta = _assembled_meta()
     meta["barcode_reserve"] = {
         "required": True,
@@ -461,8 +461,8 @@ def test_barcode_reserve_too_small_fails(tmp_path: Path) -> None:
     _page_count(repo)
     spec = load_spec_for_book_dir(book_dir)
     result = convert_raster_wrap(repo=repo, book_dir=book_dir, spec=spec)
-    assert not result.ok
-    assert any("smaller than the approved minimum" in e for e in result.errors)
+    assert any("smaller than the approved minimum" in w for w in result.warnings)
+    assert not any("smaller than the approved minimum" in e for e in result.errors)
 
 
 @requires_pillow
