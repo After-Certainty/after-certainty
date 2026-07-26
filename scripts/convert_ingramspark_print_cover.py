@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert a raster-wrap full-wrap PNG into IngramSpark {isbn}_cvr.pdf."""
+"""Convert IngramSpark raster print covers (single wrap or assembled panels) to {isbn}_cvr.pdf."""
 
 from __future__ import annotations
 
@@ -16,6 +16,14 @@ from book_specs import load_spec_for_book_dir  # noqa: E402
 from ingramspark.raster_wrap import RasterWrapError, convert_raster_wrap_or_raise  # noqa: E402
 
 
+def _resolve(book_dir: Path, value: str) -> Path | None:
+    text = value.strip()
+    if not text:
+        return None
+    path = Path(text)
+    return path if path.is_absolute() else (book_dir / path).resolve()
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo", default=".")
@@ -29,8 +37,11 @@ def main() -> None:
     parser.add_argument(
         "--source",
         default="",
-        help="Override PNG path relative to the book directory (default: print.cover.source)",
+        help="Override single full-wrap PNG (raster-wrap; default: print.cover.source)",
     )
+    parser.add_argument("--back", default="", help="Override back panel PNG")
+    parser.add_argument("--spine", default="", help="Override spine panel PNG")
+    parser.add_argument("--front", default="", help="Override front panel PNG")
     parser.add_argument(
         "--template-meta",
         default="",
@@ -55,7 +66,7 @@ def main() -> None:
     parser.add_argument(
         "--cleanup-intermediates",
         action="store_true",
-        help="Delete converted-cover.tif after a successful conversion",
+        help="Delete assembled-wrap-cmyk.tif after a successful conversion",
     )
     args = parser.parse_args()
 
@@ -64,24 +75,17 @@ def main() -> None:
     book_dir = book_arg if book_arg.is_absolute() else (repo / book_arg).resolve()
     spec = load_spec_for_book_dir(book_dir)
 
-    source = None
-    if args.source.strip():
-        src = Path(args.source.strip())
-        source = src if src.is_absolute() else (book_dir / src).resolve()
-    meta = None
-    if args.template_meta.strip():
-        mp = Path(args.template_meta.strip())
-        meta = mp if mp.is_absolute() else (book_dir / mp).resolve()
-    output = Path(args.output.strip()).resolve() if args.output.strip() else None
-
     try:
         result = convert_raster_wrap_or_raise(
             repo=repo,
             book_dir=book_dir,
             spec=spec,
-            source=source,
-            template_meta_path=meta,
-            output_pdf=output,
+            source=_resolve(book_dir, args.source),
+            back=_resolve(book_dir, args.back),
+            spine=_resolve(book_dir, args.spine),
+            front=_resolve(book_dir, args.front),
+            template_meta_path=_resolve(book_dir, args.template_meta),
+            output_pdf=Path(args.output.strip()).resolve() if args.output.strip() else None,
             interior_page_count=args.interior_page_count,
             stage=not args.no_stage,
             cleanup_intermediates=args.cleanup_intermediates,

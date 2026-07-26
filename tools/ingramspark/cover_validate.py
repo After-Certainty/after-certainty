@@ -89,11 +89,26 @@ def resolve_wrap_path(book_dir: Path, spec: dict[str, Any]) -> Path:
     print_cfg = _as_dict(target.get("print"))
     cover = _as_dict(print_cfg.get("cover"))
     strategy = str(cover.get("strategy") or "").strip()
-    if strategy not in {"supplied-wrap", "raster-wrap"}:
+    if strategy not in {"supplied-wrap", "raster-wrap", "assembled-raster-wrap"}:
         raise CoverValidateError(
             f"print.cover.strategy {strategy!r} is not supported yet; "
-            f"use supplied-wrap or raster-wrap"
+            f"use supplied-wrap, raster-wrap, or assembled-raster-wrap"
         )
+    if strategy == "assembled-raster-wrap":
+        assets = _as_dict(cover.get("assets"))
+        for role in ("back", "spine", "front"):
+            rel = str(assets.get(role) or "").strip()
+            if not rel:
+                raise CoverValidateError(
+                    f"publishing.targets.ingramspark.print.cover.assets.{role} is required"
+                )
+            path = (book_dir / rel).resolve()
+            if not path.is_file():
+                raise CoverValidateError(
+                    f"Missing print cover {role} PNG: {rel} (under {book_dir})."
+                )
+        # Return back panel as the representative source path for reports.
+        return (book_dir / str(assets["back"]).strip()).resolve()
     rel = str(cover.get("source") or "").strip()
     if not rel:
         raise CoverValidateError("publishing.targets.ingramspark.print.cover.source is required")
@@ -335,15 +350,18 @@ def _validate_raster_wrap(
     result.wrap_path = source
 
     try:
-        raster = convert_raster_wrap(
-            repo=repo,
-            book_dir=book_dir,
-            spec=spec,
-            source=source,
-            template_meta_path=meta_path,
-            interior_page_count=interior_page_count,
-            stage=stage,
-        )
+        strategy = str(cover.get("strategy") or "").strip()
+        kwargs: dict[str, Any] = {
+            "repo": repo,
+            "book_dir": book_dir,
+            "spec": spec,
+            "template_meta_path": meta_path,
+            "interior_page_count": interior_page_count,
+            "stage": stage,
+        }
+        if strategy == "raster-wrap":
+            kwargs["source"] = source
+        raster = convert_raster_wrap(**kwargs)
     except RasterWrapError as exc:
         result.ok = False
         result.errors.append(str(exc))
@@ -380,7 +398,7 @@ def validate_print_cover(
     Validate print cover + template-meta against ``print.trim`` and interior page count.
 
     ``supplied-wrap``: validate PDF wrap and optionally stage to ``{isbn}_cvr.pdf``.
-    ``raster-wrap``: convert PNG → print cover PDF with exact dimension checks, then stage.
+    ``raster-wrap`` / ``assembled-raster-wrap``: convert PNG(s) → print cover PDF, then stage.
     """
     result = CoverValidateResult(ok=True)
     print_cfg = _require_print_enabled(spec)
@@ -390,7 +408,7 @@ def validate_print_cover(
     strategy = str(cover.get("strategy") or "").strip()
     result.strategy = strategy
 
-    if strategy == "raster-wrap":
+    if strategy in {"raster-wrap", "assembled-raster-wrap"}:
         return _validate_raster_wrap(
             repo=repo,
             book_dir=book_dir,
@@ -418,7 +436,8 @@ def validate_print_cover(
 
     result.ok = False
     result.errors.append(
-        f"print.cover.strategy {strategy!r} is not supported yet; use supplied-wrap or raster-wrap"
+        f"print.cover.strategy {strategy!r} is not supported yet; "
+        f"use supplied-wrap, raster-wrap, or assembled-raster-wrap"
     )
     return result
 

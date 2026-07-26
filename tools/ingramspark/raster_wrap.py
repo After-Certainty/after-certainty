@@ -1,4 +1,4 @@
-"""Convert a full-wrap PNG into a one-page IngramSpark print cover PDF (raster-wrap)."""
+"""Convert raster print covers (single wrap or assembled panels) to {isbn}_cvr.pdf."""
 
 from __future__ import annotations
 
@@ -11,6 +11,13 @@ from pathlib import Path
 from typing import Any, Literal
 
 from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
+from ingramspark.assemble_wrap import (
+    PANEL_ORDER,
+    AssembleWrapError,
+    assemble_rgb_wrap,
+    panel_dimension_mismatch_message,
+    require_components,
+)
 from ingramspark.paths import (
     print_cover_pdf_path,
     print_cover_work_dir,
@@ -56,7 +63,10 @@ class PreflightCheck:
 @dataclass
 class RasterWrapResult:
     status: CheckStatus
+    strategy: str = ""
     source: dict[str, Any] = field(default_factory=dict)
+    sources: dict[str, Any] = field(default_factory=dict)
+    assembly: dict[str, Any] = field(default_factory=dict)
     template: dict[str, Any] = field(default_factory=dict)
     output: dict[str, Any] = field(default_factory=dict)
     color: dict[str, Any] = field(default_factory=dict)
@@ -78,7 +88,10 @@ class RasterWrapResult:
     def to_dict(self) -> dict[str, Any]:
         return {
             "status": self.status,
+            "strategy": self.strategy,
             "source": self.source,
+            "sources": self.sources,
+            "assembly": self.assembly,
             "template": self.template,
             "output": self.output,
             "color": self.color,
@@ -112,11 +125,32 @@ class RasterWrapResult:
             for err in self.errors:
                 lines.append(err)
                 lines.append("")
-        lines.append("Source")
-        lines.append("------")
-        for key, value in self.source.items():
-            lines.append(f"  {key}: {value}")
-        lines.append("")
+        if self.strategy:
+            lines.append(f"strategy: {self.strategy}")
+            lines.append("")
+        if self.sources:
+            lines.append("Sources")
+            lines.append("-------")
+            for role, info in self.sources.items():
+                lines.append(f"  {role}:")
+                if isinstance(info, dict):
+                    for key, value in info.items():
+                        lines.append(f"    {key}: {value}")
+                else:
+                    lines.append(f"    {info}")
+            lines.append("")
+        elif self.source:
+            lines.append("Source")
+            lines.append("------")
+            for key, value in self.source.items():
+                lines.append(f"  {key}: {value}")
+            lines.append("")
+        if self.assembly:
+            lines.append("Assembly")
+            lines.append("--------")
+            for key, value in self.assembly.items():
+                lines.append(f"  {key}: {value}")
+            lines.append("")
         lines.append("Template")
         lines.append("--------")
         for key, value in self.template.items():
@@ -185,16 +219,18 @@ def resolve_cover_cfg(spec: dict[str, Any]) -> dict[str, Any]:
     if print_cfg.get("enabled", False) is not True:
         raise RasterWrapError("publishing.targets.ingramspark.print.enabled must be true")
     cover = _as_dict(print_cfg.get("cover"))
-    if str(cover.get("strategy") or "").strip() != "raster-wrap":
+    strategy = str(cover.get("strategy") or "").strip()
+    if strategy not in {"raster-wrap", "assembled-raster-wrap"}:
         raise RasterWrapError(
-            "print.cover.strategy must be raster-wrap for this converter "
-            f"(got {cover.get('strategy')!r})"
+            f"print.cover.strategy must be raster-wrap or assembled-raster-wrap (got {strategy!r})"
         )
     return cover
 
 
 def resolve_raster_source(book_dir: Path, spec: dict[str, Any]) -> Path:
     cover = resolve_cover_cfg(spec)
+    if str(cover.get("strategy") or "").strip() != "raster-wrap":
+        raise RasterWrapError("resolve_raster_source is only for raster-wrap")
     rel = str(cover.get("source") or "").strip()
     if not rel:
         raise RasterWrapError("publishing.targets.ingramspark.print.cover.source is required")
@@ -202,6 +238,34 @@ def resolve_raster_source(book_dir: Path, spec: dict[str, Any]) -> Path:
     if not path.is_file():
         raise RasterWrapError(f"Missing raster wrap PNG: {rel} (under {book_dir})")
     return path
+
+
+def resolve_panel_assets(
+    book_dir: Path,
+    spec: dict[str, Any],
+    *,
+    back: Path | None = None,
+    spine: Path | None = None,
+    front: Path | None = None,
+) -> dict[str, Path]:
+    cover = resolve_cover_cfg(spec)
+    assets = _as_dict(cover.get("assets"))
+    resolved: dict[str, Path] = {}
+    overrides = {"back": back, "spine": spine, "front": front}
+    for role in PANEL_ORDER:
+        if overrides[role] is not None:
+            path = overrides[role]
+        else:
+            rel = str(assets.get(role) or "").strip()
+            if not rel:
+                raise RasterWrapError(
+                    f"publishing.targets.ingramspark.print.cover.assets.{role} is required"
+                )
+            path = (book_dir / rel).resolve()
+        if not path.is_file():
+            raise RasterWrapError(f"Missing {role} panel PNG: {path}")
+        resolved[role] = path
+    return resolved
 
 
 def resolve_template_meta_path(
@@ -499,7 +563,7 @@ def _draw_inspection_overlay(
     source: Path,
     overlay_path: Path,
     meta: NormalizedTemplateMeta,
-    source_info: dict[str, Any],
+    source_info: dict[str, Any] | None = None,
 ) -> None:
     from PIL import Image, ImageDraw, ImageFont
 
@@ -518,12 +582,19 @@ def _draw_inspection_overlay(
         bottom = h_px - y0 * sy
         return (left, top, right, bottom)
 
-    bleed = float(meta.bleed_points or 0.0)
+    outside = float(
+        meta.outside_bleed_points
+        if meta.outside_bleed_points is not None
+        else (meta.bleed_points or 0.0)
+    )
+    top = float(meta.top_bleed_points if meta.top_bleed_points is not None else outside)
+    bottom = float(meta.bottom_bleed_points if meta.bottom_bleed_points is not None else outside)
     spine = float(meta.spine_width_points or 0.0)
     trim_w = meta.trim_width_inches * 72.0
     # back | spine | front
-    back_x1 = bleed + trim_w
+    back_x1 = outside + trim_w
     spine_x1 = back_x1 + spine
+    front_x1 = spine_x1 + trim_w
 
     # Media box
     draw.rectangle(
@@ -531,43 +602,39 @@ def _draw_inspection_overlay(
         outline=(0, 0, 0, 220),
         width=3,
     )
-    # Bleed inset
-    if bleed > 0:
+    # Bleed: left outside, right outside, top, bottom
+    if outside > 0 or top > 0 or bottom > 0:
         draw.rectangle(
             pt_rect(
-                bleed,
-                bleed,
-                meta.media_box_width_points - bleed,
-                meta.media_box_height_points - bleed,
+                outside,
+                bottom,
+                meta.media_box_width_points - outside,
+                meta.media_box_height_points - top,
             ),
             outline=(255, 140, 0, 200),
             width=2,
         )
-    # Panel boundaries
-    draw.line(
-        [
-            (back_x1 * sx, 0),
-            (back_x1 * sx, h_px),
-        ],
-        fill=(0, 120, 255, 220),
-        width=2,
-    )
-    draw.line(
-        [
-            (spine_x1 * sx, 0),
-            (spine_x1 * sx, h_px),
-        ],
-        fill=(0, 120, 255, 220),
-        width=2,
-    )
+    # Back trim right edge (= back/spine boundary when outside bleed is only outer)
+    draw.line([(back_x1 * sx, 0), (back_x1 * sx, h_px)], fill=(0, 120, 255, 220), width=2)
+    draw.line([(spine_x1 * sx, 0), (spine_x1 * sx, h_px)], fill=(0, 120, 255, 220), width=2)
+    # Front trim left is spine_x1; right outer bleed at front_x1
+    draw.line([(front_x1 * sx, 0), (front_x1 * sx, h_px)], fill=(0, 160, 200, 180), width=1)
+    try:
+        font = ImageFont.load_default()
+    except Exception:  # noqa: BLE001
+        font = None
+    mid_y = h_px // 2
+    draw.text((8, mid_y), "BACK", fill=(0, 0, 0, 255), font=font)
+    draw.text(((back_x1 + spine_x1) / 2 * sx - 10, mid_y), "SPINE", fill=(0, 0, 0, 255), font=font)
+    draw.text(((spine_x1 + front_x1) / 2 * sx - 10, mid_y), "FRONT", fill=(0, 0, 0, 255), font=font)
     if meta.safe_inset_points is not None:
         inset = float(meta.safe_inset_points)
         draw.rectangle(
             pt_rect(
-                bleed + inset,
-                bleed + inset,
+                outside + inset,
+                bottom + inset,
                 back_x1 - inset,
-                meta.media_box_height_points - bleed - inset,
+                meta.media_box_height_points - top - inset,
             ),
             outline=(0, 180, 80, 200),
             width=2,
@@ -581,14 +648,12 @@ def _draw_inspection_overlay(
             outline=(220, 0, 0, 230),
             width=3,
         )
+    spine_in = meta.spine_width_inches if meta.spine_width_inches is not None else 0.0
     label = (
-        f"{w_px}×{h_px}px  required_ppi={meta.required_ppi}  "
-        f"media={meta.media_box_width_points:.1f}×{meta.media_box_height_points:.1f}pt"
+        f"{w_px}×{h_px}px  ppi={meta.required_ppi}  "
+        f"media={meta.media_box_width_points:.1f}×{meta.media_box_height_points:.1f}pt  "
+        f"spine={spine_in:.3f}in  pages={meta.page_count}"
     )
-    try:
-        font = ImageFont.load_default()
-    except Exception:  # noqa: BLE001
-        font = None
     draw.text((8, 8), label, fill=(0, 0, 0, 255), font=font)
     overlay_path.parent.mkdir(parents=True, exist_ok=True)
     base.convert("RGB").save(overlay_path, format="PNG")
@@ -643,6 +708,9 @@ def convert_raster_wrap(
     book_dir: Path,
     spec: dict[str, Any],
     source: Path | None = None,
+    back: Path | None = None,
+    spine: Path | None = None,
+    front: Path | None = None,
     template_meta_path: Path | None = None,
     output_pdf: Path | None = None,
     interior_page_count: int | None = None,
@@ -650,16 +718,18 @@ def convert_raster_wrap(
     cleanup_intermediates: bool = False,
 ) -> RasterWrapResult:
     """
-    Validate a full-wrap PNG against template-meta and convert to ``{isbn}_cvr.pdf``.
+    Validate raster cover sources against template-meta and convert to ``{isbn}_cvr.pdf``.
 
+    Supports ``raster-wrap`` (single PNG) and ``assembled-raster-wrap`` (back|spine|front).
     Never stretches, crops, pads, or resamples. Embedded PNG DPI is ignored for sizing.
     """
     result = RasterWrapResult(status="failed")
     cover = resolve_cover_cfg(spec)
+    strategy = str(cover.get("strategy") or "").strip()
+    result.strategy = strategy
     print_cfg = _as_dict(spec_ingramspark_target(spec).get("print"))
     policy = _cover_raster_policy(repo, spec)
 
-    src = source or resolve_raster_source(book_dir, spec)
     meta_path = template_meta_path or resolve_template_meta_path(book_dir, spec)
     work_dir = print_cover_work_dir(repo, spec)
     work_dir.mkdir(parents=True, exist_ok=True)
@@ -676,8 +746,8 @@ def convert_raster_wrap(
 
     if meta.form != "raster-v1" or meta.required_ppi is None:
         msg = (
-            "raster-wrap requires versioned template-meta.yml with geometry + raster "
-            "(expected_width_pixels / expected_height_pixels / required_ppi)"
+            f"{strategy} requires versioned template-meta.yml with geometry + raster "
+            "(expected pixels / required_ppi)"
         )
         result.errors.append(msg)
         result.checks.append(PreflightCheck("template-meta", "failed", msg))
@@ -701,24 +771,233 @@ def convert_raster_wrap(
         result.errors.append(err)
     result.checks.append(
         PreflightCheck(
+            "template-manufacturing-match",
+            "failed" if mfg_errors else "passed",
+            "; ".join(mfg_errors) if mfg_errors else "",
+        )
+    )
+    # Keep legacy check id alias for preflight mapping
+    result.checks.append(
+        PreflightCheck(
             "manufacturing-match",
             "failed" if mfg_errors else "passed",
             "; ".join(mfg_errors) if mfg_errors else "",
         )
     )
 
-    try:
-        source_info = inspect_png(src)
-    except RasterWrapError as exc:
-        result.errors.append(str(exc))
-        result.checks.append(PreflightCheck("png-inspect", "failed", str(exc)))
-        _write_reports(result, work_dir)
-        return result
+    inspection_payload: dict[str, Any] = {}
+    src: Path
 
-    result.source = dict(source_info)
-    (work_dir / "source-inspection.json").write_text(
-        json.dumps(source_info, indent=2) + "\n", encoding="utf-8"
-    )
+    if strategy == "assembled-raster-wrap":
+        try:
+            components = require_components(meta)
+            panel_paths = resolve_panel_assets(book_dir, spec, back=back, spine=spine, front=front)
+        except (AssembleWrapError, RasterWrapError) as exc:
+            result.errors.append(str(exc))
+            result.checks.append(PreflightCheck("panel-assets", "failed", str(exc)))
+            _write_reports(result, work_dir)
+            return result
+
+        sources_out: dict[str, Any] = {}
+        height_ok = True
+        widths = []
+        for role in PANEL_ORDER:
+            path = panel_paths[role]
+            try:
+                info = inspect_png(path)
+            except RasterWrapError as exc:
+                result.errors.append(str(exc))
+                sources_out[role] = {"path": path.as_posix(), "status": "failed", "error": str(exc)}
+                result.checks.append(PreflightCheck(f"{role}-dimensions", "failed", str(exc)))
+                continue
+            exp = components[role]
+            info = {
+                **info,
+                "role": role,
+                "expectedWidthPixels": exp.width,
+                "expectedHeightPixels": exp.height,
+                "status": "passed",
+            }
+            # Effective PPI from this panel's segment geometry
+            if role == "spine" and meta.spine_width_inches:
+                seg_w_in = meta.spine_width_inches
+            elif role in {"back", "front"}:
+                outside_in = (meta.outside_bleed_points or meta.bleed_points or 0) / 72.0
+                seg_w_in = meta.trim_width_inches + outside_in
+            else:
+                seg_w_in = meta.media_box_width_inches
+            seg_h_in = meta.media_box_height_inches
+            try:
+                info["effectiveHorizontalPpi"] = round(info["widthPixels"] / seg_w_in, 4)
+                info["effectiveVerticalPpi"] = round(info["heightPixels"] / seg_h_in, 4)
+            except Exception:  # noqa: BLE001
+                pass
+
+            if info["widthPixels"] != exp.width or info["heightPixels"] != exp.height:
+                msg = panel_dimension_mismatch_message(
+                    role=role,
+                    source_path=path,
+                    width=int(info["widthPixels"]),
+                    height=int(info["heightPixels"]),
+                    expected_w=exp.width,
+                    expected_h=exp.height,
+                    page_count=meta.page_count,
+                )
+                result.errors.append(msg)
+                info["status"] = "failed"
+                result.checks.append(PreflightCheck(f"{role}-dimensions", "failed", msg))
+            else:
+                result.checks.append(PreflightCheck(f"{role}-dimensions", "passed"))
+                emb = info.get("embeddedDpi")
+                if emb and (
+                    abs(float(emb[0]) - float(meta.required_ppi)) > 0.5
+                    or abs(float(emb[1]) - float(meta.required_ppi)) > 0.5
+                ):
+                    result.warnings.append(
+                        f"{role}: embedded PNG DPI {emb} differs from required_ppi "
+                        f"{meta.required_ppi}; pixels match (embedded DPI not authoritative)."
+                    )
+
+            # Transparency per panel
+            if info.get("hasTransparentPixels"):
+                msg = (
+                    f"{role} PNG contains transparent or partially transparent pixels. "
+                    "The converter will not silently flatten transparency against an "
+                    "assumed background."
+                )
+                result.errors.append(msg)
+                result.checks.append(PreflightCheck(f"{role}-transparency", "failed", msg))
+                info["status"] = "failed"
+            elif info.get("hasAlpha"):
+                result.warnings.append(
+                    f"{role}: alpha channel present but all pixels are fully opaque"
+                )
+                result.checks.append(
+                    PreflightCheck(
+                        f"{role}-transparency",
+                        "warning",
+                        "Opaque alpha channel",
+                    )
+                )
+            else:
+                result.checks.append(PreflightCheck(f"{role}-transparency", "passed"))
+
+            mode = str(info.get("colorSpace") or "")
+            if mode == "P":
+                msg = f"{role}: indexed PNG is not accepted; export flattened RGB."
+                result.errors.append(msg)
+                result.checks.append(PreflightCheck(f"{role}-color-type", "failed", msg))
+                info["status"] = "failed"
+            elif mode not in {"RGB", "RGBA"} and mode not in {"L", "LA"}:
+                msg = f"{role}: unsupported PNG color type {mode!r}"
+                result.errors.append(msg)
+                result.checks.append(PreflightCheck(f"{role}-color-type", "failed", msg))
+                info["status"] = "failed"
+            else:
+                result.checks.append(PreflightCheck(f"{role}-color-type", "passed"))
+
+            sources_out[role] = info
+            widths.append(int(info["widthPixels"]))
+            if int(info["heightPixels"]) != meta.expected_height_pixels:
+                height_ok = False
+
+        result.sources = sources_out
+        inspection_payload = {"strategy": strategy, "panels": sources_out}
+
+        if height_ok and len(sources_out) == 3:
+            result.checks.append(PreflightCheck("component-height-consistency", "passed"))
+        else:
+            if not any("height" in e.lower() for e in result.errors):
+                result.errors.append(
+                    "All panels must share the exact full-wrap height "
+                    f"({meta.expected_height_pixels} px)"
+                )
+            result.checks.append(PreflightCheck("component-height-consistency", "failed"))
+
+        if len(widths) == 3 and sum(widths) == meta.expected_width_pixels:
+            result.checks.append(PreflightCheck("component-width-sum", "passed"))
+        elif len(widths) == 3:
+            msg = (
+                f"Panel widths sum to {sum(widths)} px but full_wrap width is "
+                f"{meta.expected_width_pixels} px"
+            )
+            result.errors.append(msg)
+            result.checks.append(PreflightCheck("component-width-sum", "failed", msg))
+
+        result.checks.append(
+            PreflightCheck(
+                "component-transparency",
+                "failed"
+                if any(
+                    c.id.endswith("-transparency") and c.status == "failed" for c in result.checks
+                )
+                else "passed",
+            )
+        )
+
+        if result.errors:
+            result.status = "failed"
+            (work_dir / "source-inspection.json").write_text(
+                json.dumps(inspection_payload, indent=2) + "\n", encoding="utf-8"
+            )
+            _write_reports(result, work_dir)
+            return result
+
+        assembled_path = work_dir / "assembled-wrap-rgb.png"
+        try:
+            assembly_meta = assemble_rgb_wrap(
+                panels=panel_paths,
+                expected=components,
+                full_width=meta.expected_width_pixels,
+                full_height=meta.expected_height_pixels,
+                output_path=assembled_path,
+            )
+        except AssembleWrapError as exc:
+            result.errors.append(str(exc))
+            result.checks.append(PreflightCheck("assembly-dimensions", "failed", str(exc)))
+            (work_dir / "source-inspection.json").write_text(
+                json.dumps(inspection_payload, indent=2) + "\n", encoding="utf-8"
+            )
+            _write_reports(result, work_dir)
+            return result
+
+        result.assembly = assembly_meta
+        result.checks.append(PreflightCheck("assembly-dimensions", "passed"))
+        result.checks.append(PreflightCheck("assembly-panel-order", "passed", "back,spine,front"))
+        result.checks.append(PreflightCheck("assembly-no-resampling", "passed"))
+        result.manual_review.extend(
+            [
+                "Confirm panel boundaries align correctly.",
+                "Confirm spine text is centered and upright.",
+            ]
+        )
+        src = assembled_path
+        try:
+            source_info = inspect_png(src)
+        except RasterWrapError as exc:
+            result.errors.append(str(exc))
+            _write_reports(result, work_dir)
+            return result
+        result.source = dict(source_info)
+        inspection_payload["assembled"] = source_info
+        (work_dir / "source-inspection.json").write_text(
+            json.dumps(inspection_payload, indent=2) + "\n", encoding="utf-8"
+        )
+    else:
+        # Single full-wrap PNG
+        src = source or resolve_raster_source(book_dir, spec)
+        try:
+            source_info = inspect_png(src)
+        except RasterWrapError as exc:
+            result.errors.append(str(exc))
+            result.checks.append(PreflightCheck("png-inspect", "failed", str(exc)))
+            _write_reports(result, work_dir)
+            return result
+
+        result.source = dict(source_info)
+        (work_dir / "source-inspection.json").write_text(
+            json.dumps(source_info, indent=2) + "\n", encoding="utf-8"
+        )
 
     eff_x, eff_y = effective_ppi(
         width_pixels=int(source_info["widthPixels"]),
@@ -843,12 +1122,17 @@ def convert_raster_wrap(
             r = meta.barcode_reserve
             result.barcode_reserve = {
                 "required": r.required,
+                "panel": r.panel,
                 "widthInches": r.width_inches,
                 "heightInches": r.height_inches,
                 "xPoints": r.x_points,
                 "yPoints": r.y_points,
                 "widthPoints": r.width_points,
                 "heightPoints": r.height_points,
+                "xPixels": r.x_pixels,
+                "yPixels": r.y_pixels,
+                "widthPixels": r.width_pixels,
+                "heightPixels": r.height_pixels,
             }
             sample = _sample_barcode_reserve_uniformity(src, meta)
             if sample:
@@ -923,7 +1207,7 @@ def convert_raster_wrap(
         _write_reports(result, work_dir)
         return result
 
-    tiff_path = work_dir / "converted-cover.tif"
+    tiff_path = work_dir / "assembled-wrap-cmyk.tif"
     intermediate_pdf = work_dir / "cover.pdf"
     try:
         color_meta = _convert_png_to_cmyk_pdf(
