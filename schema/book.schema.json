@@ -710,7 +710,8 @@
           "description": "Initial schema supports paperback only; hardcover requires a future multi-edition model."
         },
         "isbn": {
-          "$ref": "#/$defs/isbn13"
+          "$ref": "#/$defs/isbn13",
+          "description": "Print edition ISBN-13. Required for production-approved status, packaging/releases, and interior export. Optional in status: planning for cover-preview builds (output stages as {book.id}_cvr.pdf)."
         },
         "binding": {
           "type": "string",
@@ -742,7 +743,6 @@
         "required": [
           "enabled",
           "edition",
-          "isbn",
           "binding",
           "trim",
           "interior",

@@ -9,16 +9,14 @@ front.png   # 1838×2775 @ 300 ppi — front trim + right outside bleed + vertic
 template-meta.yml
 ```
 
-Assembly order: **back → spine → front** → `{print-isbn}_cvr.pdf`.
+Assembly order: **back → spine → front**.
 
-The IngramSpark target is not enabled in `book.yml` until a real print ISBN and locked interior page count are available. Local conversion test:
+`book.yml` opts into IngramSpark with `status: planning` and **no** `print.isbn` yet. Cover preview stages as:
+
+`build/ingramspark/everyone-knows-love/print/everyone-knows-love_cvr.pdf`
 
 ```bash
-python3 scripts/convert_ingramspark_print_cover.py \
-  --book-dir books/everyone-knows-love \
-  …
+make build-ingramspark-print-cover DIR=books/everyone-knows-love
 ```
 
-(requires a temporary enabled target + print ISBN in the spec used for the run).
-
-See `docs/publishing/ingramspark-raster-wrap.md`.
+Assign a real print ISBN (and lock interior page count / regenerate spine if needed) before packaging or upload. See `docs/publishing/ingramspark-raster-wrap.md`.

@@ -11,7 +11,6 @@ from typing import Any
 from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 from ingramspark.paths import (
     print_cover_pdf_path,
-    print_isbn,
     print_output_dir,
     print_page_count_path,
 )
@@ -464,8 +463,11 @@ def validate_print_cover_or_raise(
     return result
 
 
-def isbn_for_cover(spec: dict[str, Any]) -> str:
-    return print_isbn(spec)
+def isbn_for_cover(spec: dict[str, Any]) -> str | None:
+    """Print ISBN when set; None in planning cover-preview mode (no isbn)."""
+    from ingramspark.paths import print_isbn_optional
+
+    return print_isbn_optional(spec)
 
 
 # Re-export for tests/tools that imported the schema helper from this module.

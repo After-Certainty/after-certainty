@@ -317,6 +317,26 @@ def test_exact_panels_assemble_and_convert(tmp_path: Path) -> None:
 
 
 @requires_pillow
+@requires_im
+def test_planning_without_isbn_stages_book_id_cover(tmp_path: Path) -> None:
+    repo = _temp_repo(tmp_path)
+    book_dir = _fixture_book(repo)
+    _page_count(repo)
+    spec_path = book_dir / "book.yml"
+    spec = yaml.safe_load(spec_path.read_text(encoding="utf-8"))
+    del spec["publishing"]["targets"]["ingramspark"]["print"]["isbn"]
+    spec_path.write_text(yaml.safe_dump(spec, sort_keys=False), encoding="utf-8")
+    spec = load_spec_for_book_dir(book_dir)
+    result = convert_raster_wrap(repo=repo, book_dir=book_dir, spec=spec)
+    assert result.ok, result.errors
+    staged = print_cover_pdf_path(repo, spec)
+    assert staged.is_file()
+    assert staged.name == "ingram-assembled-fixture_cvr.pdf"
+    assert result.output.get("printIsbn") is None
+    assert any("No print.isbn" in w for w in result.warnings)
+
+
+@requires_pillow
 def test_boundary_pixels_preserved(tmp_path: Path) -> None:
     from PIL import Image
 
@@ -418,10 +438,8 @@ def test_missing_panel_fails(tmp_path: Path) -> None:
     book_dir = _fixture_book(repo)
     (book_dir / "assets/ingramspark/front.png").unlink()
     _page_count(repo)
-    spec = load_spec_for_book_dir(book_dir)
-    result = convert_raster_wrap(repo=repo, book_dir=book_dir, spec=spec)
-    assert not result.ok
-    assert any("front" in e.lower() for e in result.errors)
+    with pytest.raises(ValueError, match="assets.front"):
+        load_spec_for_book_dir(book_dir)
 
 
 @requires_pillow
@@ -503,10 +521,18 @@ def test_schema_accepts_assembled_strategy(tmp_path: Path) -> None:
 
 @requires_pillow
 def test_no_production_book_opted_in() -> None:
+    """Only planning cover-preview opt-ins (no print ISBN) are allowed in books/."""
     for book_yml in (_REPO / "books").glob("*/book.yml"):
         data = yaml.safe_load(book_yml.read_text(encoding="utf-8")) or {}
         ingram = ((data.get("publishing") or {}).get("targets") or {}).get("ingramspark") or {}
-        assert ingram.get("enabled") is not True, book_yml
+        if ingram.get("enabled") is not True:
+            continue
+        assert ingram.get("status") == "planning", book_yml
+        print_cfg = ingram.get("print") or {}
+        assert print_cfg.get("enabled") is True, book_yml
+        assert not str(print_cfg.get("isbn") or "").strip(), book_yml
+        assert (ingram.get("package") or {}).get("github_release") is not True, book_yml
+        assert (ingram.get("package") or {}).get("immutable_release") is not True, book_yml
 
 
 @requires_pillow

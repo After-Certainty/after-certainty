@@ -1,4 +1,4 @@
-"""Convert raster print covers (single wrap or assembled panels) to {isbn}_cvr.pdf."""
+"""Convert raster print covers (single wrap or assembled panels) to staged *_cvr.pdf."""
 
 from __future__ import annotations
 
@@ -19,9 +19,10 @@ from ingramspark.assemble_wrap import (
     require_components,
 )
 from ingramspark.paths import (
+    print_cover_basename,
     print_cover_pdf_path,
     print_cover_work_dir,
-    print_isbn,
+    print_isbn_optional,
     print_output_dir,
     print_page_count_path,
 )
@@ -718,9 +719,10 @@ def convert_raster_wrap(
     cleanup_intermediates: bool = False,
 ) -> RasterWrapResult:
     """
-    Validate raster cover sources against template-meta and convert to ``{isbn}_cvr.pdf``.
+    Validate raster cover sources against template-meta and convert to a staged ``*_cvr.pdf``.
 
-    Supports ``raster-wrap`` (single PNG) and ``assembled-raster-wrap`` (back|spine|front).
+    With ``print.isbn``: ``{isbn}_cvr.pdf``. Without ISBN in ``status: planning``:
+    ``{book.id}_cvr.pdf``. Supports ``raster-wrap`` and ``assembled-raster-wrap``.
     Never stretches, crops, pads, or resamples. Embedded PNG DPI is ignored for sizing.
     """
     result = RasterWrapResult(status="failed")
@@ -1198,16 +1200,29 @@ def convert_raster_wrap(
         _write_reports(result, work_dir)
         return result
 
-    isbn = print_isbn(spec)
+    isbn = print_isbn_optional(spec)
+    expected_name = print_cover_basename(spec)
     staged = output_pdf or print_cover_pdf_path(repo, spec)
-    if staged.name != f"{isbn}_cvr.pdf":
-        result.errors.append(
-            f"Output filename must be derived from the print ISBN ({isbn}_cvr.pdf); "
-            f"got {staged.name}"
-        )
+    if staged.name != expected_name:
+        if isbn:
+            msg = (
+                f"Output filename must be derived from the print ISBN ({expected_name}); "
+                f"got {staged.name}"
+            )
+        else:
+            msg = (
+                f"Output filename must be derived from book.id without print.isbn "
+                f"({expected_name}); got {staged.name}"
+            )
+        result.errors.append(msg)
         result.status = "failed"
         _write_reports(result, work_dir)
         return result
+    if not isbn:
+        result.warnings.append(
+            f"No print.isbn configured; staging cover preview as {expected_name}. "
+            "Assign a print ISBN before packaging or IngramSpark upload."
+        )
 
     tiff_path = work_dir / "assembled-wrap-cmyk.tif"
     intermediate_pdf = work_dir / "cover.pdf"

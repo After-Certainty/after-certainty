@@ -80,7 +80,51 @@ cover:
     front: assets/ingramspark/front.png
 ```
 
-Output filename is **derived**: `{print-isbn}_cvr.pdf`. A real print ISBN is required for staging/packaging names; panel assembly validation does not invent barcodes or ISBNs.
+Output filename is **derived**:
+
+| Config | Staged name |
+|--------|-------------|
+| `print.isbn` set | `{print-isbn}_cvr.pdf` (IngramSpark submission name) |
+| `print.isbn` omitted, `status: planning` | `{book.id}_cvr.pdf` (local cover preview) |
+
+Omitting the ISBN is allowed only for `status: planning` cover previews (no GitHub release packaging flags). Interior export and submission-kit packaging still require a real print ISBN. Panel assembly does not invent barcodes or ISBNs.
+
+### Planning cover preview (no ISBN yet)
+
+```yaml
+publishing:
+  targets:
+    ingramspark:
+      enabled: true
+      specification_profile: ingramspark-2026-07
+      status: planning
+      package:
+        github_release: false
+        immutable_release: false
+      ebook:
+        enabled: false
+      print:
+        enabled: true
+        edition: paperback
+        # isbn omitted until assigned
+        binding: perfect-bound
+        trim: { width_inches: 6.0, height_inches: 9.0 }
+        interior:
+          color_mode: black-and-white
+          paper: cream
+          bleed: false
+        cover:
+          strategy: assembled-raster-wrap
+          template_metadata: assets/ingramspark/template-meta.yml
+          template_page_count: 100
+          barcode_mode: ingram-generated
+          assets:
+            back: assets/ingramspark/back.png
+            spine: assets/ingramspark/spine.png
+            front: assets/ingramspark/front.png
+```
+
+Then: `make build-ingramspark-print-cover DIR=books/everyone-knows-love`
 
 ## template-meta.yml
 

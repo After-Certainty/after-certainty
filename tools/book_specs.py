@@ -178,9 +178,29 @@ def _validate_ingramspark_constraints(spec: dict[str, Any], spec_path: Path) -> 
                     f"{cover_source!r} does not exist under {book_dir}"
                 )
 
+    status = str(target.get("status") or "").strip()
+    package = _as_dict(target.get("package"))
+    release_packaging = (
+        package.get("github_release") is True or package.get("immutable_release") is True
+    )
+    print_isbn_value = str(print_cfg.get("isbn") or "").strip()
+
+    if print_on and not print_isbn_value:
+        if status != "planning":
+            raise ValueError(
+                f"{spec_path}: publishing.targets.ingramspark.print.isbn is required "
+                f"when status is {status!r} (omit only for status: planning cover previews)"
+            )
+        if release_packaging:
+            raise ValueError(
+                f"{spec_path}: publishing.targets.ingramspark.print.isbn is required "
+                f"when package.github_release or package.immutable_release is true"
+            )
+
     if print_on:
         cover = _as_dict(print_cfg.get("cover"))
-        if cover.get("strategy") == "supplied-wrap":
+        strategy = str(cover.get("strategy") or "").strip()
+        if strategy == "supplied-wrap":
             source = str(cover.get("source", "")).strip()
             if source:
                 wrap_path = (book_dir / source).resolve()
@@ -189,11 +209,31 @@ def _validate_ingramspark_constraints(spec: dict[str, Any], spec_path: Path) -> 
                         f"{spec_path}: publishing.targets.ingramspark.print.cover.source "
                         f"{source!r} does not exist under {book_dir}"
                     )
+        elif strategy == "raster-wrap":
+            source = str(cover.get("source", "")).strip()
+            if source:
+                wrap_path = (book_dir / source).resolve()
+                if not wrap_path.is_file():
+                    raise ValueError(
+                        f"{spec_path}: publishing.targets.ingramspark.print.cover.source "
+                        f"{source!r} does not exist under {book_dir}"
+                    )
+        elif strategy == "assembled-raster-wrap":
+            assets = _as_dict(cover.get("assets"))
+            for role in ("back", "spine", "front"):
+                rel = str(assets.get(role) or "").strip()
+                if not rel:
+                    continue
+                panel = (book_dir / rel).resolve()
+                if not panel.is_file():
+                    raise ValueError(
+                        f"{spec_path}: publishing.targets.ingramspark.print.cover.assets."
+                        f"{role} {rel!r} does not exist under {book_dir}"
+                    )
 
     if ebook_on and print_on:
         ebook_isbn = str(ebook.get("isbn", "")).strip()
-        print_isbn = str(print_cfg.get("isbn", "")).strip()
-        if ebook_isbn and print_isbn and ebook_isbn == print_isbn:
+        if ebook_isbn and print_isbn_value and ebook_isbn == print_isbn_value:
             raise ValueError(
                 f"{spec_path}: ebook ISBN and print ISBN must be distinct (both are {ebook_isbn!r})"
             )

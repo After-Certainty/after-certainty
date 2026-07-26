@@ -41,13 +41,35 @@ def print_output_dir(repo: Path, spec: dict[str, Any]) -> Path:
     return ingramspark_build_dir(repo, spec) / "print"
 
 
-def print_isbn(spec: dict[str, Any]) -> str:
+def print_isbn_optional(spec: dict[str, Any]) -> str | None:
+    """Return print ISBN when configured; otherwise None (planning cover-preview mode)."""
     target = spec_ingramspark_target(spec)
     print_cfg = _as_dict(target.get("print"))
     isbn = str(print_cfg.get("isbn") or "").strip()
+    return isbn or None
+
+
+def print_isbn(spec: dict[str, Any]) -> str:
+    isbn = print_isbn_optional(spec)
     if not isbn:
         raise ValueError("publishing.targets.ingramspark.print.isbn is required")
     return isbn
+
+
+def print_cover_basename(spec: dict[str, Any]) -> str:
+    """
+    Cover PDF basename.
+
+    With a print ISBN: ``{isbn}_cvr.pdf`` (IngramSpark submission name).
+    Without ISBN (planning cover preview): ``{book.id}_cvr.pdf``.
+    """
+    isbn = print_isbn_optional(spec)
+    if isbn:
+        return f"{isbn}_cvr.pdf"
+    bid = book_id(spec)
+    if not bid:
+        raise ValueError("book.id is required to name a cover PDF without print.isbn")
+    return f"{bid}_cvr.pdf"
 
 
 def print_interior_pdf_path(repo: Path, spec: dict[str, Any]) -> Path:
@@ -56,8 +78,8 @@ def print_interior_pdf_path(repo: Path, spec: dict[str, Any]) -> Path:
 
 
 def print_cover_pdf_path(repo: Path, spec: dict[str, Any]) -> Path:
-    """IngramSpark cover naming: ``{isbn}_cvr.pdf``."""
-    return print_output_dir(repo, spec) / f"{print_isbn(spec)}_cvr.pdf"
+    """Staged cover path: ``{isbn}_cvr.pdf`` or planning ``{book.id}_cvr.pdf``."""
+    return print_output_dir(repo, spec) / print_cover_basename(spec)
 
 
 def print_cover_work_dir(repo: Path, spec: dict[str, Any]) -> Path:

@@ -50,7 +50,10 @@ def main() -> None:
     parser.add_argument(
         "--output",
         default="",
-        help="Override output PDF path (must still be named {print-isbn}_cvr.pdf)",
+        help=(
+            "Override output PDF path (must match {print-isbn}_cvr.pdf, or "
+            "{book.id}_cvr.pdf when print.isbn is omitted in planning)"
+        ),
     )
     parser.add_argument(
         "--interior-page-count",
