@@ -39,3 +39,6 @@ make build-book DIR=books/when-others-become-leaders FORMATS="docx epub"
 ## Promotion readiness
 
 **R2** — published in `books/`; exports verified in CI.
+
+IngramSpark print + ebook (paperback ISBN `9798256208912`, ebook ISBN `9798256208929`)
+is `production-approved` and account-uploaded (2026-07).

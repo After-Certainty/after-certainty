@@ -1,7 +1,8 @@
 # IngramSpark print-cover panels (When Others Become Leaders)
 
-Planning source assets for `assembled-raster-wrap` (not website covers). Derived from
-`book-cover.png` via `tools/generate_ingramspark_wrap_from_cover.py`.
+Production source assets for `assembled-raster-wrap` (not website covers). Derived from
+`book-cover.png` via `tools/generate_ingramspark_wrap_from_cover.py`. Print + ebook
+title uploaded to IngramSpark (2026-07); `book.yml` status is `production-approved`.
 
 ```
 back.png          # 1838×2775 @ 300 ppi — atmosphere + 3-line back copy + barcode reserve
