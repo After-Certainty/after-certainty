@@ -501,8 +501,10 @@ def _convert_png_to_cmyk_pdf(
         )
     intent = str(policy.get("rendering_intent") or "Relative")
     bpc = bool(policy.get("black_point_compensation", True))
+    strip_icc = bool(policy.get("strip_per_object_icc", True))
 
     # Color convert without geometry change; write CMYK TIFF intermediate.
+    # Use Zip (Flate) — IngramSpark rejects LZW compression on uploaded PDFs.
     tiff_cmd = [
         magick,
         source.as_posix(),
@@ -518,7 +520,7 @@ def _convert_png_to_cmyk_pdf(
     tiff_cmd.extend(
         [
             "-compress",
-            "LZW",
+            "Zip",
             tiff_path.as_posix(),
         ]
     )
@@ -529,6 +531,8 @@ def _convert_png_to_cmyk_pdf(
         )
 
     # Place at exact media box via density = required_ppi (no -resize).
+    # Working ICC profiles are for conversion only; strip them from the PDF so
+    # IngramSpark does not see per-object ICCBased color (DeviceCMYK remains).
     pdf_cmd = [
         magick,
         tiff_path.as_posix(),
@@ -536,8 +540,16 @@ def _convert_png_to_cmyk_pdf(
         str(required_ppi),
         "-units",
         "PixelsPerInch",
-        pdf_path.as_posix(),
     ]
+    if strip_icc:
+        pdf_cmd.extend(["+profile", "*"])
+    pdf_cmd.extend(
+        [
+            "-compress",
+            "Zip",
+            pdf_path.as_posix(),
+        ]
+    )
     proc = subprocess.run(pdf_cmd, capture_output=True, text=True, check=False)
     if proc.returncode != 0:
         raise RasterWrapError(
@@ -552,7 +564,9 @@ def _convert_png_to_cmyk_pdf(
         "workingCmykIcc": cmyk_icc.as_posix(),
         "renderingIntent": intent,
         "blackPointCompensation": bpc,
-        "stripPerObjectIccPolicy": bool(policy.get("strip_per_object_icc", True)),
+        "stripPerObjectIccPolicy": strip_icc,
+        "stripPerObjectIccApplied": strip_icc,
+        "pdfCompression": "Zip",
         "outputIntentPolicy": str(policy.get("output_intent") or "none-provisional"),
         "profileStatus": str(policy.get("status") or "experimental-warning"),
         "tiffPath": tiff_path.as_posix(),
@@ -1321,6 +1335,32 @@ def convert_raster_wrap(
         result.checks.append(PreflightCheck("pdf-no-rgb", "warning"))
     else:
         result.checks.append(PreflightCheck("pdf-no-rgb", "passed"))
+
+    pdf_bytes = intermediate_pdf.read_bytes()
+    pdf_text = pdf_bytes.decode("latin-1", errors="ignore")
+    has_lzw = "/LZWDecode" in pdf_text
+    result.color["pdfHasLzw"] = has_lzw
+    result.color["pdfHasIccBased"] = bool(inspection.mentions_icc_based)
+    if has_lzw:
+        msg = (
+            "Cover PDF uses LZW compression, which IngramSpark rejects. "
+            "Regenerate with Flate/Zip compression (cover_raster conversion)."
+        )
+        result.errors.append(msg)
+        result.checks.append(PreflightCheck("pdf-no-lzw", "failed", msg))
+    else:
+        result.checks.append(PreflightCheck("pdf-no-lzw", "passed"))
+
+    strip_icc = bool(policy.get("strip_per_object_icc", True))
+    if strip_icc and inspection.mentions_icc_based:
+        msg = (
+            "Cover PDF still embeds ICCBased color after strip_per_object_icc; "
+            "IngramSpark requests DeviceCMYK without per-object ICC profiles."
+        )
+        result.errors.append(msg)
+        result.checks.append(PreflightCheck("pdf-no-per-object-icc", "failed", msg))
+    elif strip_icc:
+        result.checks.append(PreflightCheck("pdf-no-per-object-icc", "passed"))
 
     if not inspection.mentions_device_cmyk and not inspection.mentions_icc_based:
         result.warnings.append("Could not confirm CMYK/ICCBased color in output PDF")
