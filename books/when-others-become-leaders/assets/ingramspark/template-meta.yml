@@ -40,7 +40,7 @@ barcode_reserve:
   width_pixels: 774
   height_pixels: 456
 barcode_supplied: false
-spine_text: false
+spine_text: true
 notes: Panels derived from book-cover.png for 128 cream pages (spine 96px / 23.04pt).
-  Spine is pattern-only (no spine text). Confirm geometry against the Cover Template
-  Generator before upload.
+  Spine is solid cream with vertical title/author (EKL-style). Confirm geometry against
+  the Cover Template Generator before upload.

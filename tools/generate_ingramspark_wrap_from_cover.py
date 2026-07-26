@@ -59,6 +59,23 @@ FONT_PATHS = [
     "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
     "/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf",
 ]
+SERIF_FONT_PATHS = [
+    "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf",
+]
+SANS_BOLD_FONT_PATHS = [
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+]
+
+# EKL-style warm cream spine + dark brown type (matches Everyone Knows Love wrap).
+SPINE_BG = (246, 229, 203)
+SPINE_FG = (58, 42, 28)
+MIN_PAGES_FOR_SPINE_TEXT = 48
+
+# Books that get solid cream spine with vertical title/author (EKL-style).
+LABELED_SPINE_BOOK_IDS = frozenset({"when-others-become-leaders"})
 
 
 def inches_to_px(inches: float, *, ppi: int = PPI) -> int:
@@ -81,13 +98,19 @@ def fit_cover_to_panel(cover: Image.Image, size: tuple[int, int]) -> Image.Image
     return ImageOps.fit(cover.convert("RGB"), size, method=Image.Resampling.LANCZOS)
 
 
-def load_back_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
-    for path in FONT_PATHS:
+def load_font(
+    size: int, paths: list[str] | None = None
+) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
+    for path in paths or FONT_PATHS:
         try:
             return ImageFont.truetype(path, size)
         except OSError:
             continue
     return ImageFont.load_default()
+
+
+def load_back_font(size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
+    return load_font(size, FONT_PATHS)
 
 
 def draw_centered_line(
@@ -192,6 +215,93 @@ def make_spine_source(cover: Image.Image, height: int, width: int) -> Image.Imag
     return crop.resize((width, height), Image.Resampling.LANCZOS)
 
 
+def _fit_font_to_width(
+    text: str,
+    *,
+    max_width: int,
+    max_size: int,
+    min_size: int,
+    paths: list[str],
+) -> ImageFont.ImageFont:
+    size = max_size
+    font = load_font(size, paths)
+    probe = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+    while size > min_size:
+        font = load_font(size, paths)
+        bbox = probe.textbbox((0, 0), text, font=font)
+        if (bbox[2] - bbox[0]) <= max_width:
+            return font
+        size -= 1
+    return load_font(min_size, paths)
+
+
+def make_labeled_spine_source(
+    *,
+    width: int,
+    height: int,
+    title: str,
+    author: str,
+    bg: tuple[int, int, int] = SPINE_BG,
+    fg: tuple[int, int, int] = SPINE_FG,
+) -> Image.Image:
+    """Solid cream spine with vertical title/author (EKL-style), text centered for recrops."""
+    # Side inset: Ingram ~0.03125" for spines < 0.35"; keep a little extra for crop pad.
+    side_inset = max(inches_to_px(0.04), 6)
+    max_text_w = max(12, width - 2 * side_inset)
+
+    title_font = _fit_font_to_width(
+        title,
+        max_width=max_text_w,
+        max_size=min(64, max_text_w),
+        min_size=18,
+        paths=SERIF_FONT_PATHS,
+    )
+    author_font = _fit_font_to_width(
+        author.upper(),
+        max_width=max_text_w,
+        max_size=min(36, max_text_w - 4),
+        min_size=14,
+        paths=SANS_BOLD_FONT_PATHS,
+    )
+
+    # Horizontal band (title — rule — author), then rotate so upright spine reads top→bottom.
+    probe = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+    t_bbox = probe.textbbox((0, 0), title, font=title_font)
+    a_bbox = probe.textbbox((0, 0), author.upper(), font=author_font)
+    t_w, t_h = t_bbox[2] - t_bbox[0], t_bbox[3] - t_bbox[1]
+    a_w, a_h = a_bbox[2] - a_bbox[0], a_bbox[3] - a_bbox[1]
+    gap = inches_to_px(0.22)
+    rule_w = max(inches_to_px(0.35), min(t_w, a_w) // 2)
+    band_w = t_w + gap + rule_w + gap + a_w + inches_to_px(0.3)
+    band_h = max_text_w
+    band = Image.new("RGB", (band_w, band_h), bg)
+    bdraw = ImageDraw.Draw(band)
+    x = inches_to_px(0.08)
+    y_t = (band_h - t_h) // 2
+    bdraw.text((x, y_t), title, font=title_font, fill=fg)
+    x += t_w + gap
+    rule_y = band_h // 2
+    bdraw.line((x, rule_y, x + rule_w, rule_y), fill=fg, width=max(2, inches_to_px(0.01)))
+    cx, cy = x + rule_w // 2, rule_y
+    r = max(3, inches_to_px(0.025))
+    bdraw.ellipse((cx - r, cy - r, cx + r, cy + r), fill=fg)
+    x += rule_w + gap
+    y_a = (band_h - a_h) // 2
+    bdraw.text((x, y_a), author.upper(), font=author_font, fill=fg)
+
+    # Rotate 90° CW: title near the head of the book.
+    rotated = band.rotate(-90, expand=True)
+    spine = Image.new("RGB", (width, height), bg)
+    rw, rh = rotated.size
+    ox = (width - rw) // 2
+    top_margin = inches_to_px(0.55)
+    bottom_margin = inches_to_px(0.55)
+    avail = height - top_margin - bottom_margin
+    oy = top_margin + max(0, (avail - rh) // 2)
+    spine.paste(rotated, (ox, oy))
+    return spine
+
+
 def write_template_meta(
     path: Path,
     *,
@@ -200,6 +310,7 @@ def write_template_meta(
     front_w: int,
     front_h: int,
     barcode_box: tuple[int, int, int, int],
+    spine_text: bool = False,
     ppi: int = PPI,
 ) -> None:
     spine_pt = round(spine_px / ppi * 72.0, 2)
@@ -261,12 +372,16 @@ def write_template_meta(
             "height_pixels": bh,
         },
         "barcode_supplied": False,
-        # Pattern-only generated spines; no title/author glyphs even when page_count ≥ 48.
-        "spine_text": False,
+        "spine_text": spine_text,
         "notes": (
             f"Panels derived from book-cover.png for {page_count} cream pages "
-            f"(spine {spine_px}px / {spine_pt}pt). Spine is pattern-only (no spine text). "
-            "Confirm geometry against the Cover Template Generator before upload."
+            f"(spine {spine_px}px / {spine_pt}pt). "
+            + (
+                "Spine is solid cream with vertical title/author (EKL-style). "
+                if spine_text
+                else "Spine is pattern-only (no spine text). "
+            )
+            + "Confirm geometry against the Cover Template Generator before upload."
         ),
     }
     path.write_text(yaml.safe_dump(payload, sort_keys=False), encoding="utf-8")
@@ -287,13 +402,18 @@ def write_ebook_front(front_path: Path, dest: Path, *, ppi: int = PPI) -> Path:
     return dest
 
 
-def _book_id(book_dir: Path) -> str:
+def _load_book_section(book_dir: Path) -> dict[str, Any]:
     spec_path = book_dir / "book.yml"
     if not spec_path.is_file():
-        return book_dir.name
+        return {}
     data = yaml.safe_load(spec_path.read_text(encoding="utf-8")) or {}
     book = data.get("book") if isinstance(data, dict) else {}
-    if isinstance(book, dict) and str(book.get("id") or "").strip():
+    return book if isinstance(book, dict) else {}
+
+
+def _book_id(book_dir: Path) -> str:
+    book = _load_book_section(book_dir)
+    if str(book.get("id") or "").strip():
         return str(book["id"]).strip()
     return book_dir.name
 
@@ -306,6 +426,7 @@ def generate(
     out_rel: str = DEFAULT_OUT_DIR,
     back_lines: list[str] | None = None,
     ebook_front: bool = False,
+    spine_style: str = "auto",
 ) -> dict[str, Path]:
     if page_count < 18:
         raise SystemExit(f"page_count must be >= 18 for IngramSpark paperbacks (got {page_count})")
@@ -320,8 +441,19 @@ def generate(
     out_dir = book_dir / out_rel
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    book_id = _book_id(book_dir)
+    book = _load_book_section(book_dir)
+    book_id = str(book.get("id") or "").strip() or book_dir.name
+    title = str(book.get("title") or book_id).strip()
+    author = str((book.get("author") or {}).get("name") or "").strip() or "Kevin Steffensen"
     lines = back_lines if back_lines is not None else BACK_LINES_BY_BOOK_ID.get(book_id, [])
+
+    style = spine_style.strip().lower()
+    if style == "auto":
+        style = "labeled" if book_id in LABELED_SPINE_BOOK_IDS else "pattern"
+    if style == "labeled" and page_count < MIN_PAGES_FOR_SPINE_TEXT:
+        raise SystemExit(
+            f"labeled spine requires page_count >= {MIN_PAGES_FOR_SPINE_TEXT} (got {page_count})"
+        )
 
     cover = Image.open(cover_path)
     front_w, front_h = panel_size()
@@ -330,7 +462,15 @@ def generate(
 
     front = fit_cover_to_panel(cover, (front_w, front_h))
     back, barcode_box = make_back(cover, (front_w, front_h), lines=lines)
-    spine_source = make_spine_source(cover, front_h, source_w)
+    if style == "labeled":
+        spine_source = make_labeled_spine_source(
+            width=source_w,
+            height=front_h,
+            title=title,
+            author=author,
+        )
+    else:
+        spine_source = make_spine_source(cover, front_h, source_w)
     left = (source_w - spine_px) // 2
     spine = spine_source.crop((left, 0, left + spine_px, front_h))
 
@@ -353,6 +493,7 @@ def generate(
         front_w=front_w,
         front_h=front_h,
         barcode_box=barcode_box,
+        spine_text=(style == "labeled"),
     )
     if ebook_front:
         paths["ebook_front"] = write_ebook_front(paths["front"], out_dir / "ebook-front.png")
@@ -381,6 +522,12 @@ def main() -> None:
         action="store_true",
         help="Also write ebook-front.png (bleed-free 6×9 crop of front.png)",
     )
+    parser.add_argument(
+        "--spine-style",
+        choices=("auto", "pattern", "labeled"),
+        default="auto",
+        help="pattern=cover strip; labeled=cream spine with title/author (EKL-style)",
+    )
     args = parser.parse_args()
 
     book_dir = Path(args.book_dir).resolve()
@@ -391,6 +538,7 @@ def main() -> None:
         out_rel=args.out_dir,
         back_lines=args.back_line or None,
         ebook_front=args.ebook_front,
+        spine_style=args.spine_style,
     )
     for key, path in paths.items():
         print(f"{key}={path}")
