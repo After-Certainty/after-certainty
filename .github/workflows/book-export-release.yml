@@ -145,6 +145,9 @@ jobs:
           sudo apt-get install -y pandoc librsvg2-bin imagemagick texlive-xetex
 
       - name: Install Python dependencies (frozen lock)
+        env:
+          # Raster/assembled IngramSpark covers need Pillow from the publishing group.
+          UV_GROUPS: publishing
         run: |
           set -euo pipefail
           bash scripts/ci_uv_sync.sh

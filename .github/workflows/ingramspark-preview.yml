@@ -39,6 +39,8 @@ permissions:
 
 env:
   PYTHON_VERSION: "3.12.3"
+  # Pillow (and related) live in the publishing dependency group.
+  UV_GROUPS: publishing
 
 jobs:
   discover:
@@ -121,11 +123,21 @@ jobs:
           set -euo pipefail
           sudo apt-get update
           sudo apt-get install -y --no-install-recommends imagemagick ghostscript
+          # Ubuntu ImageMagick defaults often deny PDF read/write; cover conversion needs PDF.
+          if [ -f /etc/ImageMagick-6/policy.xml ]; then
+            sudo sed -i 's/rights="none" pattern="PDF"/rights="read|write" pattern="PDF"/' \
+              /etc/ImageMagick-6/policy.xml
+          fi
+          if [ -f /etc/ImageMagick-7/policy.xml ]; then
+            sudo sed -i 's/rights="none" pattern="PDF"/rights="read|write" pattern="PDF"/' \
+              /etc/ImageMagick-7/policy.xml
+          fi
 
-      - name: Install dependencies (frozen lock)
+      - name: Install dependencies (frozen lock + publishing group)
         run: |
           set -euo pipefail
           bash scripts/ci_uv_sync.sh
+          python3 -c "import PIL; print(PIL.__version__)"
 
       - name: Build cover-preview ZIP
         run: |
