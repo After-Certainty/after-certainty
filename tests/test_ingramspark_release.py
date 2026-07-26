@@ -191,6 +191,42 @@ def test_immutable_plan_skips_planning_status(tmp_path: Path) -> None:
     assert plan["errors"] == []
 
 
+def test_immutable_plan_skips_dirty_tree_without_failing(tmp_path: Path) -> None:
+    """dirty_tree must skip immutable tags, not fail Prepare release staging."""
+    repo = tmp_path / "repo"
+    staging = tmp_path / "staging"
+    book_dir = repo / "books" / "release-fixture"
+    book_dir.mkdir(parents=True)
+    staging.mkdir()
+    (repo / "schema").symlink_to(_REPO / "schema", target_is_directory=True)
+    (book_dir / "cover.png").write_bytes(b"x")
+    (book_dir / "index.md").write_text("# Hi\n", encoding="utf-8")
+    spec = _minimal_spec(
+        status="production-approved",
+        package={"github_release": True, "immutable_release": True},
+    )
+    (book_dir / "book.yml").write_text(yaml.safe_dump(spec, sort_keys=False), encoding="utf-8")
+    subprocess.run(["git", "init"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(["git", "add", "books", "schema"], cwd=repo, check=True, capture_output=True)
+    subprocess.run(
+        ["git", "-c", "user.email=t@example.com", "-c", "user.name=t", "commit", "-m", "init"],
+        cwd=repo,
+        check=True,
+        capture_output=True,
+    )
+    zip_name = ingramspark_artifact_name("release-fixture")
+    with zipfile.ZipFile(staging / zip_name, "w") as zf:
+        zf.writestr(
+            "package-manifest.json",
+            json.dumps({"dirty_tree": True, "book_id": "release-fixture"}),
+        )
+    plan = build_plan(repo=repo, staging=staging)
+    assert zip_name in plan["latest_zips"]
+    assert plan["immutable"] == []
+    assert plan["errors"] == []
+    assert any("dirty_tree" in msg for msg in plan["skipped_immutable"])
+
+
 def test_immutable_plan_includes_production_approved(tmp_path: Path) -> None:
     repo = tmp_path / "repo"
     staging = tmp_path / "staging"

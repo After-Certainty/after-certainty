@@ -41,7 +41,7 @@ planning  →  package / proof / account upload  →  production-approved
 | Flag | Effect on `main` |
 |------|------------------|
 | `github_release: true` | Attach `{book.id}-ingramspark.zip` to the rolling GitHub `latest` release |
-| `immutable_release: true` | Also publish tag `ingramspark/<book-id>/<print-isbn>` (requires `production-approved` + clean tree) |
+| `immutable_release: true` | Optional: also publish tag `ingramspark/<book-id>/<print-isbn>` retaining that ZIP after `latest` rotates (requires `production-approved` + clean tree). **Not required for Ingram upload** — rolling `github_release` is enough. Current pilots keep this **false**. |
 
 Preview ZIPs (`*-ingramspark-preview.zip`, planning without print ISBN) never attach to releases.
 
@@ -234,11 +234,11 @@ Local preflight passing is necessary, not sufficient. Account ingestion can stil
 status: production-approved
 package:
   github_release: true
-  immutable_release: true   # optional; requires clean tree
+  immutable_release: false   # optional archive tags; leave false unless you need them
 ```
 
 4. Commit measured cover page counts so CI packaging does not rewrite tracked files.
-5. Merge to `main`. Rolling `latest` picks up the ZIP when `github_release` is true; immutable tags follow the planner when `immutable_release` + `production-approved` + clean tree.
+5. Merge to `main`. Rolling `latest` picks up the ZIP when `github_release` is true.
 
 Interior PDF/X / output-intent rules remain **advisory** in the profile (`account-verification-needed`). Production interiors ship as DeviceGray. Optional experiment: `APPLY_PDFX=1 make export-ingramspark-print DIR=…`.
 
