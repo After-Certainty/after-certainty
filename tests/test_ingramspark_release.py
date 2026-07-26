@@ -245,7 +245,7 @@ def test_website_manifest_still_excludes_ingramspark(tmp_path: Path) -> None:
     assert "ingramspark" not in book_entry
 
 
-def test_existing_matrix_books_have_false_ingramspark_flags() -> None:
+def test_matrix_ingramspark_github_release_flags() -> None:
     matrix = subprocess.run(
         [
             sys.executable,
