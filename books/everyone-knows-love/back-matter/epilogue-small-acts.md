@@ -1,3 +1,5 @@
+\newpage
+
 # Small Acts
 
 Someone waited at the curb while an elderly neighbor locked the door; someone listened on the phone without trying to fix what could not be fixed; someone carried groceries up the stairs because the bags were heavy and the offer was easy; someone made coffee and left the mug where it would be found. Someone left the porch light on for a grown child who had not lived at home in years, because the habit of welcome had outlasted the need; someone said, "I've got you," and meant it for the next hour, not for the rest of life.

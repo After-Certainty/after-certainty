@@ -1,3 +1,5 @@
+\newpage
+
 # Romance
 
 Two people had been married long enough that their arguments had developed weather patterns.

@@ -157,7 +157,12 @@ _CLOSING_QUOTE_RE = re.compile(
 
 
 def prepare_closing_markdown_for_pdf(text: str) -> str:
-    """Render the closing quote page as raw LaTeX (Pandoc does not emit div environments)."""
+    """Render the closing quote as its own PDF page, then clear before the next unit.
+
+    Pandoc does not emit LaTeX environments for the closing fenced divs. Without a
+    trailing ``\\clearpage``, short quote pages flow into the following unit
+    (e.g. appendix) on the same physical page.
+    """
     match = _CLOSING_QUOTE_RE.search(text)
     if not match:
         alt = re.search(r"::: closing-quote\s*\n(.*?)\n:::", text, re.S)
@@ -175,5 +180,6 @@ def prepare_closing_markdown_for_pdf(text: str) -> str:
         "\\itshape\n"
         f"{body}\n"
         "\\end{center}\n"
+        "\\clearpage\n"
         "```\n"
     )

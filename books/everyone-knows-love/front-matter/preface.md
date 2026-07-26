@@ -1,3 +1,5 @@
+\newpage
+
 # Preface
 
 Love is one of those words that feels easier to recognize than to explain.

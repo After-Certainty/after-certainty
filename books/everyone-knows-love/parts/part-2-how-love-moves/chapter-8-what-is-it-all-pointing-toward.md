@@ -1,3 +1,5 @@
+\newpage
+
 # What Is It All Pointing Toward?
 
 A mother called last Sunday while her grown child was folding laundry.

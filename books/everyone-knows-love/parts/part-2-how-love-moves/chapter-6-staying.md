@@ -1,3 +1,5 @@
+\newpage
+
 # Staying
 
 A father sat in the waiting room for four hours while they ran tests on his wife.
