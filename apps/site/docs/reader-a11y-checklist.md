@@ -46,4 +46,4 @@ scope here.
 - [x] Text-size controls (READ-014) — rem steps on manuscript body; site light/dark remains global theme
 - [x] TOC drawer + copy section link (READ-015) — mobile Contents dialog; clipboard for chapter/section URLs
 - [x] In-book search (READ-016) — edition-scoped chapter titles/summaries dialog; keyboard listbox
-- [ ] Offline spike (READ-017+)
+- [x] Offline spike (READ-017) — researched; recommendation defer (no SW ship); see `offline-reading-spike.md`

@@ -101,7 +101,7 @@ Site roadmap headers that still say “planning only” for search are **stale**
 | Footnotes / section anchors in reader | **Absent** | Corpus markdown only |
 | Chapter prev/next + reading TOC | **Absent** as reader chrome | Adjacent nav exists for *explore entities*, not chapters |
 | Path/trail local progress | **Present** | `lib/paths/pathProgress.ts` — questions/trails only |
-| Bookmarks, text-size, reading themes, offline reading | **Partial** | Bookmarks + reader text size shipped (READ-013/014); site light/dark for theme; offline still absent |
+| Bookmarks, text-size, reading themes, offline reading | **Partial** | Bookmarks + reader text size shipped (READ-013/014); site light/dark for theme; offline spike **defer** (READ-017) |
 | Local chapter reading progress | **Present** (READ-011) | `lib/reading/readingProgress.ts`; recorder in chapter reader shell |
 | Continue-reading entry points | **Present** (READ-012) | Start Here + book overview/detail CTAs when valid local progress resolves to a live chapter |
 | Local bookmarks | **Present** (READ-013) | Chapter/section bookmarks in reader chrome; list on book overview/detail |
@@ -254,10 +254,10 @@ flowchart LR
 |-------|---------|
 | **Problem** | V1 reading works, but return visits and comfort controls are thin. |
 | **User value** | Resume reading, bookmark places, adjust type size/theme, find within a book. |
-| **Current state** | Local progress, continue-reading, bookmarks, text size, TOC drawer, copy section link, and in-book search shipped (READ-011–016). Path progress pattern exists for questions/trails. |
+| **Current state** | Local progress, continue-reading, bookmarks, text size, TOC drawer, copy section link, and in-book search shipped (READ-011–016). Offline spike complete: **defer** (see `apps/site/docs/offline-reading-spike.md`). Path progress pattern exists for questions/trails. |
 | **Existing implementation** | `lib/reading/readingProgress.ts`; `continueReading.ts`; `readingBookmarks.ts`; `readingPreferences.ts` (text size); continue/bookmark/size panels; TOC drawer + `copy-section-link.tsx`; `in-book-search.tsx` + `searchWithinBook` (chapter titles/summaries via global index `bookIds` filter); `lib/paths/pathProgress.ts`; site `theme-provider` for light/dark. |
-| **Existing documentation** | This roadmap; chapter-identity client storage keys. |
-| **Remaining work** | Offline only as research spike (READ-017, default defer). |
+| **Existing documentation** | This roadmap; chapter-identity client storage keys; [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md). |
+| **Remaining work** | None for Phase 2 reader enhancements (READ-017 deferred by recommendation). |
 | **Dependencies** | Phase 1 routes + stable IDs. |
 | **Corpus / site** | Site-only storage (localStorage); no corpus requirement. |
 | **Tests** | Storage key stability tests; UI tests for controls; no cross-device sync expectations. |
@@ -569,9 +569,10 @@ flowchart LR
 |-------|-------|
 | **Goal** | Research-only spike: service worker feasibility for pilot chapters. |
 | **Type / owner / size** | research / site / M |
+| **Status** | Complete — recommendation **defer (no-ship)**. See [`apps/site/docs/offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md). EPUB/PDF remain the offline path; native SW not justified now. |
 | **Dependencies** | Phase 1 |
 | **Acceptance criteria** | Written recommendation ship/no-ship; **default = defer** unless explicitly prioritized |
-| **Note** | Listed so it does not re-enter Phase 1 planning |
+| **Note** | Listed so it does not re-enter Phase 1 planning. Reopen only per criteria in the spike doc. |
 
 ---
 
@@ -948,7 +949,7 @@ Intentionally postponed so they do not re-enter near-term planning:
 - Native mobile app
 - Complex recommendation engine
 - Embeddings-backed search (until [`search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md) says otherwise)
-- Full offline PWA reading (see READ-017 research-only)
+- Full offline PWA reading (READ-017 researched — **defer**; see [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md))
 - Optional Turbo remote cache enablement (ops DX, not product)
 - Mass-filling all empty thinker concepts in one pass
 - Requiring complete enrichment of all books before Reader V1
@@ -990,7 +991,7 @@ Intentionally postponed so they do not re-enter near-term planning:
 | Phase | Complete when |
 |-------|----------------|
 | **1 — Read After Certainty** | Published catalog editions have SSR chapter pages with body HTML, footnotes, TOC/prev-next, a11y baseline; chapters eligible for sitemap/search; overview links work; E2E smoke green; downloads still available; cohort = all published catalog books (READ-010) |
-| **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size controls; TOC drawer + copy section link; in-book search shipped (titles/summaries); offline spike deferred |
+| **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size controls; TOC drawer + copy section link; in-book search shipped; offline spike complete (**defer**) |
 | **3 — Editorial and historical** | Evidence workflow exists; confirmed dates backfilled; priority enrichment batch 6–9 + poems done or explicitly re-prioritized; thin relatedWorks/situations closed; historical What’s New for dated works |
 | **4 — Semantic traceability** | Definition helper live; thinker coverage panel (+ JSON-LD); targeted grounding batch done; creatorNames warnings cleared; provenance UI decided |
 | **5 — Think Together** | Brief accepted; at least one lightweight pilot path live **or** explicit deferral recorded in §12 |
