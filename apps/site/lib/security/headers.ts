@@ -27,7 +27,8 @@ export const SECURITY_HEADERS: { key: string; value: string }[] = [
       "style-src 'self' 'unsafe-inline'",
       "img-src 'self' data: blob: https:",
       "font-src 'self' data:",
-      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://vitals.vercel-insights.com https://va.vercel-scripts.com",
+      // googletagmanager.com required in connect-src for GA4 gtag transport (script-src alone is insufficient)
+      "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://vitals.vercel-insights.com https://va.vercel-scripts.com",
       "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com",
       "media-src 'self' https: data:",
     ].join("; "),

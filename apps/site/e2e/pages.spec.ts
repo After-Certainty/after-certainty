@@ -29,4 +29,36 @@ test.describe("page smoke", () => {
     await expect(page).toHaveURL(/\/explore\/books\/after-certainty$/);
     await expect(page.locator(mainContent)).toBeVisible();
   });
+
+  test("legacy Search Console book URLs redirect to exact Explore targets", async ({ page }) => {
+    const samples = [
+      {
+        from: "/books/when-authority-outlives-accountability",
+        to: /\/explore\/books\/when-authority-outlives-accountability$/,
+      },
+      {
+        from: "/books/why-collaboration-is-so-hard",
+        to: /\/explore\/books\/why-collaboration-is-so-hard$/,
+      },
+      {
+        from: "/books/when-others-look-to-you/patterns/exceptions-are-forever",
+        to: /\/explore\/patterns\/exceptions-are-forever$/,
+      },
+    ];
+    for (const { from, to } of samples) {
+      await page.goto(from, { waitUntil: "domcontentloaded" });
+      await expect(page).toHaveURL(to);
+      await expect(page).not.toHaveURL(/\/$/);
+    }
+  });
+
+  test("priority concept pages SSR definition without client interaction", async ({ page }) => {
+    const response = await page.goto("/explore/concepts/shift-left", {
+      waitUntil: "domcontentloaded",
+    });
+    expect(response?.status()).toBe(200);
+    const html = await page.content();
+    expect(html).toMatch(/<h1[^>]*>[\s\S]*Shift Left/i);
+    expect(html.toLowerCase()).toContain("canonical");
+  });
 });

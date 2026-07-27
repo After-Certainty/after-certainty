@@ -34,9 +34,12 @@ export const topLevelSmokeUrls: SmokeUrl[] = [
 /** Sample entity detail pages — stable slugs from bundled manifests. */
 export const contentSmokeUrls: SmokeUrl[] = [
   { path: "/explore/books/after-certainty", label: "Book: After Certainty" },
+  { path: "/explore/books/boundary-conditions", label: "Book: Boundary Conditions" },
   { path: "/explore/books/how-meaning-moves", label: "Book: How Meaning Moves" },
   { path: "/explore/thinkers/john-dewey", label: "Thinker: John Dewey" },
   { path: "/explore/concepts/certainty", label: "Concept: Certainty" },
+  { path: "/explore/concepts/interpretation", label: "Concept: Interpretation" },
+  { path: "/explore/concepts/shift-left", label: "Concept: Shift-left" },
   { path: "/explore/concepts/abstraction", label: "Concept: Abstraction" },
   { path: "/explore/patterns/attention-finds-a-focus", label: "Pattern: Attention Finds a Focus" },
   {
@@ -46,6 +49,10 @@ export const contentSmokeUrls: SmokeUrl[] = [
   {
     path: "/explore/sources/agamben-giorgio-state-of-exception",
     label: "Source: Agamben — State of Exception",
+  },
+  {
+    path: "/explore/sources/brehm-jack-w-a-theory-of-psychological-reactance",
+    label: "Source: Brehm — Psychological Reactance",
   },
 ];
 

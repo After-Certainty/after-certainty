@@ -62,6 +62,35 @@ describe("sitemap", () => {
     expect(urls.some((u) => u.includes("/explore/thinkers/"))).toBe(true);
   });
 
+  it("includes priority Search Console entities and privacy", async () => {
+    const paths = await getSitemapPaths();
+    expect(paths).toContain("/privacy");
+    expect(paths).toContain("/explore/books/boundary-conditions");
+    expect(paths).toContain("/explore/concepts/interpretation");
+    expect(paths).toContain("/explore/concepts/shift-left");
+    expect(
+      paths.some((p) =>
+        p.includes("/explore/sources/brehm-jack-w-a-theory-of-psychological-reactance"),
+      ),
+    ).toBe(true);
+  });
+
+  it("excludes query-parameter and legacy book paths", async () => {
+    const paths = await getSitemapPaths();
+    expect(paths.every((p) => !p.includes("?"))).toBe(true);
+    expect(paths.every((p) => p !== "/books" && !p.startsWith("/books/"))).toBe(true);
+    expect(paths.every((p) => !p.includes("favicon"))).toBe(true);
+  });
+
+  it("uses manifest generatedAt for lastmod when present", async () => {
+    const { resolveSitemapLastModified } = await import("./sitemap");
+    expect(resolveSitemapLastModified("2026-06-01T12:00:00.000Z").toISOString()).toBe(
+      "2026-06-01T12:00:00.000Z",
+    );
+    const fallback = resolveSitemapLastModified(undefined);
+    expect(fallback.getTime()).toBeGreaterThan(Date.parse("2020-01-01"));
+  });
+
   it("includes companion editions and omits draft books from book paths", async () => {
     const paths = await getSitemapPaths();
     expect(paths).toContain("/explore/books/when-others-look-to-you-v2");

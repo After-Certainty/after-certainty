@@ -33,7 +33,7 @@ export function ExploreObservatoryFocusLink({
         params: { content_type: kind, item_id: slug, method: "link" },
       }}
     >
-      Focus in observatory
+      Open in graph
     </TrackedLink>
   );
 }

@@ -96,6 +96,24 @@ export function resolveGaMeasurementId(): string | null {
   return DEFAULT_GA_MEASUREMENT_ID;
 }
 
+/**
+ * Whether to load the GA4 gtag script.
+ * Production Vercel only by default; set `NEXT_PUBLIC_GA_ENABLE_PREVIEW=1` to opt in on previews.
+ * Local `next dev` never loads GA (`NODE_ENV !== "production"`).
+ */
+export function shouldLoadGoogleAnalytics(): boolean {
+  if (process.env.NODE_ENV !== "production") return false;
+  if (!resolveGaMeasurementId()) return false;
+
+  const vercelEnv = process.env.VERCEL_ENV?.trim();
+  // Local `next start` / CI without Vercel: treat as allowed production-like.
+  if (!vercelEnv) return true;
+  if (vercelEnv === "production") return true;
+
+  const previewOptIn = process.env.NEXT_PUBLIC_GA_ENABLE_PREVIEW?.trim();
+  return previewOptIn === "1" || previewOptIn === "true";
+}
+
 /** Open Graph / Twitter card title (~50–60 chars for link preview tools). */
 export const OG_SHARE_TITLE = "After Certainty — An Intellectual Commons for Human Systems";
 

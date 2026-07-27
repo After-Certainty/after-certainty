@@ -43,4 +43,22 @@ describe("SECURITY_HEADERS", () => {
     expect(map["Content-Security-Policy"]).toContain("frame-ancestors 'self'");
     expect(map["Strict-Transport-Security"]).toContain("max-age=");
   });
+
+  it("allows GA4 / gtag hosts without overly broad connect rules", () => {
+    const csp = SECURITY_HEADERS.find((h) => h.key === "Content-Security-Policy")?.value ?? "";
+    const connectSrc = csp.split(";").map((d) => d.trim()).find((d) => d.startsWith("connect-src"));
+    const scriptSrc = csp.split(";").map((d) => d.trim()).find((d) => d.startsWith("script-src"));
+
+    expect(scriptSrc).toContain("https://www.googletagmanager.com");
+    expect(connectSrc).toContain("https://www.googletagmanager.com");
+    expect(connectSrc).toContain("https://*.google-analytics.com");
+    expect(connectSrc).toContain("https://*.analytics.google.com");
+    expect(connectSrc).toContain("https://region1.google-analytics.com");
+
+    // Forbid overly broad / advertising endpoints we are not using
+    expect(connectSrc).not.toMatch(/connect-src[^;]*\s\*(?:\s|;|$)/);
+    expect(csp).not.toContain("*.google.com");
+    expect(csp).not.toContain("doubleclick");
+    expect(csp).not.toContain("googlesyndication");
+  });
 });

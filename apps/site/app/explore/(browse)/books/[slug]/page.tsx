@@ -48,12 +48,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const overview = buildBookOverviewViewModel(book, graph);
   const description =
     overview?.overview.centralQuestion ?? book.summary ?? book.subtitle ?? book.title;
+  const canonical = `${explorePaths.books}/${book.slug}`;
   if (!book.openGraphImage) {
-    return createPageMetadata({ title: book.title, description });
+    return createPageMetadata({
+      title: book.title,
+      description,
+      alternates: { canonical },
+    });
   }
   return createPageMetadata({
     title: book.title,
     description,
+    alternates: { canonical },
     openGraph: {
       images: [{ url: book.openGraphImage, alt: book.title }],
     },

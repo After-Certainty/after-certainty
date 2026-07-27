@@ -32,7 +32,7 @@ describe("trackEvent", () => {
   });
 
   it("no-ops without analytics consent in production", () => {
-    process.env = { ...env, NODE_ENV: "production" };
+    process.env = { ...env, NODE_ENV: "production", VERCEL_ENV: "production" };
     setConsent("denied");
     trackEvent("click", { outbound: true });
     expect(sendGAEvent).not.toHaveBeenCalled();
@@ -40,7 +40,7 @@ describe("trackEvent", () => {
   });
 
   it("sends events when production and consent granted", () => {
-    process.env = { ...env, NODE_ENV: "production" };
+    process.env = { ...env, NODE_ENV: "production", VERCEL_ENV: "production" };
     setConsent("granted");
     trackEvent("select_content", { content_type: "book", item_id: "example" });
     expect(sendGAEvent).toHaveBeenCalledWith("event", "select_content", {
@@ -48,5 +48,14 @@ describe("trackEvent", () => {
       item_id: "example",
     });
     expect(isAnalyticsEnabled()).toBe(true);
+  });
+
+  it("no-ops on Vercel preview without opt-in", () => {
+    process.env = { ...env, NODE_ENV: "production", VERCEL_ENV: "preview" };
+    delete process.env.NEXT_PUBLIC_GA_ENABLE_PREVIEW;
+    setConsent("granted");
+    trackEvent("click", { outbound: true });
+    expect(sendGAEvent).not.toHaveBeenCalled();
+    expect(isAnalyticsEnabled()).toBe(false);
   });
 });

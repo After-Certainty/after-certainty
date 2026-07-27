@@ -8,8 +8,9 @@ export type ConsentValue = "granted" | "denied";
 export type ConsentState = ConsentValue | "unknown";
 
 /**
- * Regions where analytics requires opt-in (EEA, UK, Switzerland).
- * Matches Google Consent Mode regional defaults guidance.
+ * Regions where Google historically recommends stricter consent defaults (EEA, UK, Switzerland).
+ * Site policy denies analytics globally until Accept (see consent-defaults-script.ts); this list
+ * remains for documentation and potential future regional messaging.
  * @see https://developers.google.com/tag-platform/security/guides/consent
  */
 export const REGULATED_CONSENT_REGIONS = [

@@ -23,21 +23,29 @@ function SignalList({ heading, items }: { heading: string; items: string[] | und
   );
 }
 
-/** Shared enrichment blocks for situations (and reusable for other entities). */
-export function ExploreEnrichmentSections({ enrichment }: ExploreEnrichmentSectionsProps) {
+/** True when enrichment has at least one authored visible block. */
+export function hasSemanticEnrichment(enrichment: SemanticEnrichment): boolean {
   const trajectory = enrichment.trajectory;
   const manifestationEntries = enrichment.manifestations
     ? Object.entries(enrichment.manifestations).filter(([, items]) => items.length > 0)
     : [];
-
-  const hasBody =
+  return (
     (enrichment.recognitionSignals?.length ?? 0) > 0 ||
     (enrichment.questions?.length ?? 0) > 0 ||
     (enrichment.counterbalances?.length ?? 0) > 0 ||
     Boolean(trajectory) ||
-    manifestationEntries.length > 0;
+    manifestationEntries.length > 0
+  );
+}
 
-  if (!hasBody) return null;
+/** Shared enrichment blocks for situations (and reusable for other entities). */
+export function ExploreEnrichmentSections({ enrichment }: ExploreEnrichmentSectionsProps) {
+  if (!hasSemanticEnrichment(enrichment)) return null;
+
+  const trajectory = enrichment.trajectory;
+  const manifestationEntries = enrichment.manifestations
+    ? Object.entries(enrichment.manifestations).filter(([, items]) => items.length > 0)
+    : [];
 
   return (
     <div className="flex flex-col gap-14">

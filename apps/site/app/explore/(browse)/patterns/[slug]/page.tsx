@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ExplorePatternMedia } from "@/components/explore/explore-pattern-media";
+import { ExplorePatternNarrative } from "@/components/explore/explore-pattern-narrative";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
@@ -26,6 +27,7 @@ import { createPageMetadata } from "@/lib/metadata";
 import { buildPatternPageJsonLd, relatedConceptUrls } from "@/lib/seo/json-ld";
 import { buildPublicGroundingViewModel } from "@/lib/graph/grounding";
 import { SemanticGroundingDisclosure } from "@/components/explore/semantic-grounding-disclosure";
+import { ExploreEnrichmentSections, hasSemanticEnrichment } from "@/components/explore/explore-enrichment-sections";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -38,6 +40,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return createPageMetadata({
     title: pattern.title,
     description: pattern.summary,
+    alternates: { canonical: `${explorePaths.patterns}/${pattern.slug}` },
   });
 }
 
@@ -84,6 +87,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
           <LinkifiedText text={pattern.summary} />
         </p>
+        <ExplorePatternNarrative pattern={pattern} />
         {grounding ? <SemanticGroundingDisclosure grounding={grounding} /> : null}
         <ExploreEntityDetailActions observatory={{ kind: "pattern", slug: pattern.slug }} />
         <ExplorePatternMedia pattern={pattern} />
@@ -94,6 +98,15 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           next={nextPattern ? { slug: nextPattern.slug, title: nextPattern.title } : undefined}
         />
       </Section>
+
+      {hasSemanticEnrichment(pattern) ? (
+        <Section
+          atmosphere="transition"
+          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+        >
+          <ExploreEnrichmentSections enrichment={pattern} />
+        </Section>
+      ) : null}
 
       <RelatedTrailsSection canonicalId={pattern.id} entityLabel="pattern" />
 

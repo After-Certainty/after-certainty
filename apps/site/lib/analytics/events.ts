@@ -3,7 +3,9 @@ import type { GraphEntityKind } from "@/types/semanticGraph";
 /**
  * GA4 setup (Admin):
  * - Data streams → Enhanced measurement: page views on; "Page changes based on browser history events" on.
+ *   Client-side App Router navigations rely on that history toggle (no custom pathname tracker).
  * - Enable Consent Mode on the web stream.
+ * - Consent defaults deny analytics_storage globally until Accept (lib/consent/consent-defaults-script.ts).
  * - Mark key events (file_download) after validating names in DebugView.
  *
  * Custom dimensions (optional): register `content_type`, `location`, `platform` for standard reports.

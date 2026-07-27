@@ -46,6 +46,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return createPageMetadata({
     title: situation.title,
     description: situation.summary,
+    alternates: { canonical: `${explorePaths.situations}/${situation.slug}` },
   });
 }
 

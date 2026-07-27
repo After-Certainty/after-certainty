@@ -9,10 +9,10 @@ import type {
   SearchSelectParams,
 } from "@/lib/analytics/events";
 import { hasAnalyticsConsent } from "@/lib/consent/storage";
-import { resolveGaMeasurementId } from "@/lib/site-config";
+import { resolveGaMeasurementId, shouldLoadGoogleAnalytics } from "@/lib/site-config";
 
 export function isAnalyticsEnabled(): boolean {
-  if (process.env.NODE_ENV !== "production") return false;
+  if (!shouldLoadGoogleAnalytics()) return false;
   if (!resolveGaMeasurementId()) return false;
   if (typeof document !== "undefined" && !hasAnalyticsConsent()) return false;
   return true;
