@@ -14,9 +14,9 @@
 
 ## 1. Executive summary
 
-The monorepo already ships public digital exports (DOCX / EPUB / PDF) to a rolling GitHub `latest` release and surfaces those formats on the site via semantic-manifest download URLs. It has **no** print-on-demand pipeline, no edition-specific production ISBNs, no IngramSpark preflight, and no full-wrap cover workflow.
+The monorepo ships public digital exports (DOCX / EPUB / PDF) to a rolling GitHub `latest` release and surfaces those formats on the site via semantic-manifest download URLs. Separately, an opt-in IngramSpark production target under `publishing.targets.ingramspark` (not a public `build.formats` entry) is **implemented and in use** for the initial pilot books.
 
-An IngramSpark target should be an **opt-in production distribution target** under `publishing.targets.ingramspark`, not a public reading format under `build.formats`. When enabled and fully configured, CI and local tooling produce:
+When enabled and fully configured, CI and local tooling produce:
 
 ```text
 <book-slug>-ingramspark.zip
