@@ -38,6 +38,7 @@ scope here.
 - [x] One `h1` for the chapter title in reader chrome
 - [x] Manuscript heading ids from the pipeline (rehype-slug); leading H1 stripped to avoid duplicate titles
 
-## Not in this baseline
+## Phase 2 (partial)
 
-- Reading progress, continue reading, bookmarks, text-size controls (Phase 2)
+- [x] Reading progress persistence (READ-011) — localStorage only; no UI chrome yet
+- [ ] Continue reading, bookmarks, text-size controls (READ-012+)
