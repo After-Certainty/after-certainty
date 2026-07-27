@@ -14,11 +14,24 @@ The clerk looked up for the first time. "Sabotage," he said. Not a question.
 
 "That's the one."
 
-He made a mark in a box, the way he'd have marked a crate of spirits. "Two-claim duty or a statement of source. You can pay or you can tell me who you had it from."
+He made a mark in a box, the way he'd have marked a crate of spirits. "Class?"
+
+"I don't—"
+
+"Firsthand, secondhand, market talk, or everyone." He waited with the patience of a man who had watched travelers invent categories all morning. "Everyone counts as widely handled. Two-claim duty or a statement of source. You can pay or you can tell me who you had it from."
 
 "I had it from everyone," Lena said. "That's the part I'd pay to understand."
 
-The clerk did not find this funny either. He charged her the two-claim, stamped a chit, and told her the duty wasn't on the rumor; it was on *carrying* it across a border without saying so. She paid it — a real coin, off her thinning roll — and walked through onto Maween proper with a receipt in her cuff that said, in effect, that she had imported one unit of fear and declared it like an honest woman. It was the most accurate document anyone had given her since Vesper.
+The clerk did not find this funny either. He wrote *origin: everyone* in the source field, frowned at it as if the field had insulted him personally, charged her the two-claim, and stamped a chit. The receipt said, in the clerk's tidy hand:
+
+*CUSTOMS — HEARSAY MATERIAL*
+*One rumor, widely handled.*
+*Origin: everyone.*
+*Destination: further.*
+*Duty: two-claim.*
+*Traveler appeared annoyed but not surprised.*
+
+He told her the duty wasn't on the rumor; it was on *carrying* it across a border without saying so. She paid it — a real coin, off her thinning roll — and walked through onto Maween proper with the receipt in her cuff. It was the most accurate document anyone had given her since Vesper.
 
 ---
 
@@ -42,7 +55,7 @@ She took it in and kept moving, the way she took in everything she couldn't yet 
 
 Tessom was where the size of it started to get in.
 
-It was a float-market, strung in the slack water between two gates where the pull of neither quite reached — a reef of tethered stalls and net-bags and slow-turning crates hung in air that had forgotten which way was down. Lena came through the lock still walking — boots reaching for a floor that had quietly stopped being there — and her own momentum threw her out into three lurching strides of nothing, heels kicking at a void that gave them no purchase, her stomach turning over at the sudden, total absence of down. A dockhand caught her ankle without looking and reeled her in to a guide-line the way you'd land a fish you'd landed a thousand times. "First float?" he said, already past her. It wasn't. She'd run cargo through Tessom twice. She'd just never *looked* at it, because both times she'd had a full hold and a clock and a buyer, and a courier with a clock sees doors, not rooms.
+It was a float-market, strung in the slack water between two gates where the pull of neither quite reached — a reef of tethered stalls and net-bags and slow-turning crates hung in air that had forgotten which way was down. Lena came through the lock still walking — boots reaching for a floor that had quietly stopped being there — and her own momentum threw her out into three lurching strides of nothing, heels kicking at a void that gave them no purchase, her stomach turning over at the sudden, total absence of down. A dockhand caught her ankle without looking and reeled her in to a guide-line the way you'd land a fish you'd landed a thousand times. "First float?" he said, already past her, and then, over his shoulder, "Catch fee's in the tip jar if you've got dignity left." It wasn't her first float. She'd run cargo through Tessom twice. She'd just never *looked* at it, because both times she'd had a full hold and a clock and a buyer, and a courier with a clock sees doors, not rooms. She put a coin in the jar anyway. The jar was bolted to nothing and somehow stayed put, which felt like a personal insult.
 
 Now she had nothing but time she couldn't spend, and she looked.
 
@@ -98,7 +111,7 @@ She would not take Lena further. Not for fear, she said — she'd been north a h
 
 "Strange times," she said, "when the dark's not the worst of it." She clicked, listened, shook her head at whatever came back. "I can hear a thing coming for three days. Whatever's taking the gate-towns, I can't hear it at all. It doesn't make a sound." She turned to go back down into the light. "Mind how you go, sideways woman. Some of us can tell when a place stops answering. Most of you can't, and you live in the places."
 
-So that was Coreth. The last live arch on the rim, the door she'd spent a fortnight crabbing sideways to reach, gone quiet in the canyon's mouth like all the rest — and she had been climbing toward it for days, spending coin and water and warmth and what was left of her margin on a town that had stopped answering before she ever set out. Lena stood at the top of the cold canyon and let herself feel it, fully and without arguing it down: the duty-receipt in her cuff that said she'd imported one unit of fear honestly, the stranger's seed three worlds back that would never reach the mouths it was bagged for, the distance to her brother grown a fortnight larger while she crossed toward a door that was no longer there.
+So that was Coreth. The last live arch on the rim, the door she'd spent a fortnight crabbing sideways to reach, gone quiet in the canyon's mouth like all the rest — and she had been climbing toward it for days, spending coin and water and warmth and what was left of her margin on a town that had stopped answering before she ever set out. Lena stood at the top of the cold canyon and let herself feel it, fully and without arguing it down: the hearsay receipt in her cuff that said she'd imported one rumor honestly, the stranger's seed three worlds back that would never reach the mouths it was bagged for, the distance to her brother grown a fortnight larger while she crossed toward a door that was no longer there.
 
 When she asked the guide where a person went from here, the old woman clicked at the canyon a long moment before she answered, as if checking the question against the rock. Back down the rim, she said. There was a tidebound arch two worlds south — the busy crossings, the trade worlds, the ones still thick with people. The ones, Lena understood, that were thick now with the story too: where sabotage had stopped being a word at a wicket and started closing causeways and hauling traders off docks. To keep going north she would have to turn around and go back *into* it.
 

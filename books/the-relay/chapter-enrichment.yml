@@ -29,8 +29,9 @@ chapters:
     summary: >
       Lena clears freight by reading how crates are really sealed, not by trusting the
       paperwork — until the Vesper gate goes dark under a notice that says only
-      "suspended pending review." Her brother Arin is stuck on the far side. With no real
-      explanation, she starts hunting for whoever wrote the notice.
+      "suspended pending review." Three words and a stamp: a shrug with formatting. Her
+      brother Arin is stuck on the far side. With no who, why, or fault code, she starts
+      hunting for whoever wrote the notice.
     centralQuestion: What does a civilization do when a critical crossing fails without explanation?
     selectedConcepts:
       - uncertainty
@@ -52,8 +53,9 @@ chapters:
   - sourcePath: manuscript/act-1-the-absence/chapter-02-no-one-has-one.md
     summary: >
       Lena asks why the gate is closed and finds clerks, platforms, and rumor feeds full of
-      stories forming faster than facts. No office can name a cause. She keeps digging anyway,
-      brushing past Jun, who studies how explanations travel.
+      stories forming faster than facts. While offices produce longer notices that say less,
+      Jun climbs onto a baggage scale and sorts panic by species — pending is not lost,
+      pending is rude — and still no office can name a cause.
     centralQuestion: What is more frightening than a broken gate—a room that cannot say why?
     selectedConcepts:
       - uncertainty
@@ -74,8 +76,9 @@ chapters:
   - sourcePath: manuscript/act-1-the-absence/chapter-03-the-slow-way.md
     summary: >
       With the gate shut, Lena books a slow freighter — weeks through ordinary space instead
-      of four seconds through a door. She holds peppermint candies and a "next time" tag meant
-      for Arin, and commits to reach him the long way around the dark.
+      of four seconds through a door. Upstream improves the notice into Fault Code 0 and
+      pending-as-policy; Lena signs an incident form OTHER: wall, keeps peppermint candies
+      and a "next time" tag for Arin, and commits to the long way around the dark.
     centralQuestion: What does it cost to keep a relationship across a network that no longer connects?
     selectedConcepts:
       - trust
@@ -143,10 +146,11 @@ chapters:
 
   - sourcePath: manuscript/act-2-the-cascade/chapter-06-stranger-and-larger.md
     summary: >
-      Without doors, the network becomes strange again: tethered markets, canyon guides who
-      read silence off stone, gate-towns gone quiet where they should be loud. Ahead of Lena,
-      the sabotage story is already closing causeways — and the only way north runs back
-      through a tidebound arch into the thick of it.
+      On Maween, fear is dutiable: a customs clerk charges Lena for carrying one undeclared
+      rumor across a border, origin everyone, destination further. At Tessom she loses a
+      fight with negotiated gravity while locals walk the air. Ahead, the sabotage story is
+      already closing causeways — and the only way north runs back through a tidebound arch
+      into the thick of it.
     centralQuestion: What returns to sight when ordinary motion through a vast system becomes impossible?
     selectedConcepts:
       - finite-perspective
@@ -218,10 +222,9 @@ chapters:
   - sourcePath: manuscript/act-2-the-cascade/chapter-09-the-best-man-in-the-room.md
     summary: >
       At Khoury Transfer, a hungry crowd is about to break into sealed relief food. Varik
-      talks father Bram down from forcing the freight gate open, and gives station-master
-      Oyo a signed form she can finally use to release the food. He turns the crowd into a
-      working crew and feeds the children. Lena feels the pull even as she refuses to join
-      him yet.
+      does the dangerous thing: he gives the room a plan good enough to obey — talks father
+      Bram off the lock-bar, puts his name in the liability box, turns counting into religion,
+      and feeds the children. Lena feels the pull even as she refuses to join him yet.
     centralQuestion: Why is premature certainty so hard to refuse when it works today?
     selectedConcepts:
       - trust
@@ -273,8 +276,9 @@ chapters:
   - sourcePath: manuscript/act-2-the-cascade/chapter-11-the-caveats.md
     summary: >
       Analyst Jun has spent decades measuring how rumor outruns evidence. He watches his hedged
-      findings appear on Varik's banners with every caveat stripped away. The caution that would
-      not speak in public helps build the certainty he feared.
+      findings hung as Varik's banners with every caveat stripped away — his careful curve
+      getting "reach," the worst congratulation in the language. The caution that would not
+      speak in public helps build the certainty he feared.
     centralQuestion: What happens when careful doubt is stripped into a public certainty?
     selectedConcepts:
       - feedback

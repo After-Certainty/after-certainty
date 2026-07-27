@@ -118,6 +118,10 @@ Lio watched Lena read the last line.
 
 Lio looked suspicious. "You like useless things."
 
+"I like honest things that refuse to become useful prematurely," Jun said. "That line has integrity. Also mud."
+
+Cai made a sound that, from Cai, was nearly affection. "Leave the mud. It is evidence."
+
 "Yes," Jun said. "But this one is useful."
 
 Cai reached for the manifest, stopped, and looked at Lio instead. "May I?"

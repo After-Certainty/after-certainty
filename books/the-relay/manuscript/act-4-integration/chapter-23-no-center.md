@@ -104,7 +104,7 @@ She came in with mud up both boots and one sleeve wet to the elbow. The rain beh
 
 No one asked about the wagon.
 
-Nadi answered anyway. "Tilted. Not gone. Three people shouting, two useful. We unloaded half the sacks before the axle sank deeper. South path remains insulting but passable by people willing to become ugly."
+Nadi answered anyway. "Tilted. Not gone. Three people shouting, two useful. We unloaded half the sacks before the axle sank deeper. South path remains insulting but passable by people willing to become ugly. Also, if anyone is about to propose a ceremonial meaning for that mud, don't. Mud is already working."
 
 "Any injuries?" Sera asked.
 
