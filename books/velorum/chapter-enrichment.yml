@@ -109,10 +109,11 @@ chapters:
 
   - sourcePath: manuscript/act-1-the-choice/chapter-05-velorum.md
     summary: >
-      On the warm rings they keep the wrist-link, lay rope in an old pilgrim groove, and lean as if
-      on a dock line. The rope draws taut without either of them pulling harder. Presence without
-      form presses in. They say they are in — one shared inhale in two chests — and cannot fully
-      pull free. They leave the center still linked, carrying whatever found them.
+      On the warm rings Cael still has Riven's wrist and will not let go. They lay rope in an old
+      pilgrim groove and lean as if on a dock line. The rope draws taut without either of them
+      pulling harder. Presence without form presses in. They say they are in — one shared inhale in
+      two chests — and cannot fully pull free. They leave the center still holding on, carrying
+      whatever found them.
     centralQuestion: What happens the moment a vow stops being optional and becomes shared breath?
     selectedConcepts:
       - boundary
@@ -130,7 +131,7 @@ chapters:
       - responsibility-outruns-control
       - result-final-meaning-unsettled
     transition:
-      fromPrevious: Wrist-linked rings become a vow they cannot reverse.
+      fromPrevious: Holding wrists on the rings becomes a vow they cannot reverse.
       toNext: They learn the cost — and still hold.
 
   - sourcePath: manuscript/act-1-the-choice/chapter-06-the-curse.md
