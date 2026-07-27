@@ -254,10 +254,10 @@ flowchart LR
 |-------|---------|
 | **Problem** | V1 reading works, but return visits and comfort controls are thin. |
 | **User value** | Resume reading, bookmark places, adjust type size/theme, find within a book. |
-| **Current state** | Local progress, continue-reading, bookmarks, and reading chrome prefs shipped (READ-011–014). Path progress pattern exists for questions/trails. |
-| **Existing implementation** | `lib/reading/readingProgress.ts`; `continueReading.ts`; `readingBookmarks.ts`; `readingPreferences.ts` (text size); continue/bookmark/size panels; `lib/paths/pathProgress.ts`; site `theme-provider` for light/dark. |
+| **Current state** | Local progress, continue-reading, bookmarks, text size, TOC drawer, and copy section link shipped (READ-011–015). Path progress pattern exists for questions/trails. |
+| **Existing implementation** | `lib/reading/readingProgress.ts`; `continueReading.ts`; `readingBookmarks.ts`; `readingPreferences.ts` (text size); continue/bookmark/size panels; TOC drawer + `copy-section-link.tsx`; `lib/paths/pathProgress.ts`; site `theme-provider` for light/dark. |
 | **Existing documentation** | This roadmap; chapter-identity client storage keys. |
-| **Remaining work** | TOC drawer; copy section link; optional in-book search; offline only as research spike. |
+| **Remaining work** | Optional in-book search; offline only as research spike. |
 | **Dependencies** | Phase 1 routes + stable IDs. |
 | **Corpus / site** | Site-only storage (localStorage); no corpus requirement. |
 | **Tests** | Storage key stability tests; UI tests for controls; no cross-device sync expectations. |
@@ -547,7 +547,10 @@ flowchart LR
 |-------|-------|
 | **Goal** | Mobile-friendly TOC drawer; copy-to-clipboard for section URLs. |
 | **Type / owner / size** | implementation / site / S |
+| **Status** | Implemented — mobile Contents drawer; header copy chapter/section link; per-heading Copy link in manuscript. |
+| **Likely files** | `apps/site/components/reading/chapter-toc.tsx`; `copy-section-link.tsx`; chapter reader shell |
 | **Dependencies** | READ-004, READ-003 anchors |
+| **Acceptance criteria** | Mobile Contents opens a dialog TOC; Escape/backdrop close; copy chapter or `#section` URL from chrome and headings |
 
 #### READ-016 — Search within a book
 

@@ -4,6 +4,10 @@ import Link from "next/link";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ChapterAdjacentNav } from "@/components/reading/chapter-adjacent-nav";
 import { ChapterToc } from "@/components/reading/chapter-toc";
+import {
+  CopySectionLinkControl,
+  ManuscriptHeadingCopyLinks,
+} from "@/components/reading/copy-section-link";
 import { ChapterBookmarkControl } from "@/components/reading/reading-bookmarks-panel";
 import {
   ReadingPreferencesControls,
@@ -12,6 +16,7 @@ import {
 import { RecordReadingProgress } from "@/components/reading/record-reading-progress";
 import { ButtonLink } from "@/components/ui/button-link";
 import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
+import { chapterPublicPath, chapterSlugFromRouteKey } from "@/lib/graph/chapters";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import type { ChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 import type { Book, ManifestChapter } from "@/types/semanticGraph";
@@ -26,7 +31,7 @@ export type ChapterReaderShellProps = {
 };
 
 /**
- * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011/013/014).
+ * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011–015).
  */
 export function ChapterReaderShell({
   book,
@@ -36,6 +41,9 @@ export function ChapterReaderShell({
 }: ChapterReaderShellProps) {
   const kindLabel = chapterKindLabel(chapter.kind);
   const bookHref = `${explorePaths.books}/${book.slug}`;
+  const chapterPath =
+    chapterPublicPath(chapter) ??
+    `${bookHref}/chapters/${chapterSlugFromRouteKey(chapter.routeKey)}`;
   const minutes =
     typeof chapter.estimatedReadingMinutes === "number" && chapter.estimatedReadingMinutes > 0
       ? chapter.estimatedReadingMinutes
@@ -57,6 +65,7 @@ export function ChapterReaderShell({
       className="relative mx-auto max-w-3xl px-4 py-12 md:py-16"
     >
       <RecordReadingProgress editionId={progressEditionId} chapterId={chapter.id} />
+      <ManuscriptHeadingCopyLinks />
 
       <a href="#chapter-content" className="reader-skip-link">
         Skip to chapter text
@@ -100,6 +109,7 @@ export function ChapterReaderShell({
             chapterId={chapter.id}
             chapterTitle={chapter.title}
           />
+          <CopySectionLinkControl chapterPath={chapterPath} />
         </div>
 
         <ReadingPreferencesControls />

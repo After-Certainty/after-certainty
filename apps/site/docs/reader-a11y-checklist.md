@@ -44,4 +44,5 @@ scope here.
 - [x] Continue reading entry points (READ-012) — Start Here + book pages; keyboard-focusable links/buttons
 - [x] Local bookmarks (READ-013) — chapter/section toggle in reader; list on book pages
 - [x] Text-size controls (READ-014) — rem steps on manuscript body; site light/dark remains global theme
-- [ ] TOC drawer + copy section link (READ-015+)
+- [x] TOC drawer + copy section link (READ-015) — mobile Contents dialog; clipboard for chapter/section URLs
+- [ ] In-book search / offline spike (READ-016+)
