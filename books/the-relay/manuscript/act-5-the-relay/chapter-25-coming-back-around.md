@@ -522,7 +522,7 @@ Cai flinched.
 
 The correction remained.
 
-No one cheered. No one named the page. No one said integration, or method, or answer work, which Lena considered mercy. They found three carriers instead: one to Oss by foot through the hinge road, one to South Lock by Nadi's half-passable south route, one back to Vesper for Dalla to repeat what paper could not outrun. The same page could not go three places at once, so Mareth tore a blank maintenance backing from an old heat ledger and copied the instruction badly, preserving the crossed-out only, the heat limits, and the place where her own hand had pressed too hard.
+No one cheered. No one named the page. No one tried to name it, which Lena considered mercy — the first sensible thing anyone had done all morning. They found three carriers instead: one to Oss by foot through the hinge road, one to South Lock by Nadi's half-passable south route, one back to Vesper for Dalla to repeat what paper could not outrun. The same page could not go three places at once, so Mareth tore a blank maintenance backing from an old heat ledger and copied the instruction badly, preserving the crossed-out only, the heat limits, and the place where her own hand had pressed too hard.
 
 "Copy the ugly," Cai said.
 
