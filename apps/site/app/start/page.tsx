@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ContinueReadingStartSection } from "@/components/reading/continue-reading-panel";
 import { StartClosing } from "@/components/start/start-closing";
 import { StartExplore } from "@/components/start/start-explore";
 import { StartFrontShelf } from "@/components/start/start-front-shelf";
@@ -12,6 +13,7 @@ import { StartTrailsSection } from "@/components/trails/start-trails-section";
 import { JsonLd } from "@/components/seo/json-ld";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { explorePaths } from "@/lib/graph/explorePaths";
+import { buildContinueReadingCatalog } from "@/lib/reading/continueReading";
 import { createPageMetadata } from "@/lib/metadata";
 import { absoluteUrl, buildStartPageJsonLd } from "@/lib/seo/json-ld";
 import { FRONT_SHELF_ENTRIES } from "@/lib/start/front-shelf";
@@ -34,11 +36,13 @@ export default async function StartPage() {
       url: absoluteUrl(`${explorePaths.books}/${entry.slug}`),
     };
   });
+  const continueReadingCatalog = buildContinueReadingCatalog(graph);
 
   return (
     <article>
       <JsonLd data={buildStartPageJsonLd({ shelfItems })} />
       <StartHero />
+      <ContinueReadingStartSection catalog={continueReadingCatalog} />
       <StartWhat />
       <StartQuestionsSection />
       <StartTrailsSection />

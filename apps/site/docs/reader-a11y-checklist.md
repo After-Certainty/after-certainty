@@ -40,5 +40,6 @@ scope here.
 
 ## Phase 2 (partial)
 
-- [x] Reading progress persistence (READ-011) — localStorage only; no UI chrome yet
-- [ ] Continue reading, bookmarks, text-size controls (READ-012+)
+- [x] Reading progress persistence (READ-011) — localStorage only
+- [x] Continue reading entry points (READ-012) — Start Here + book pages; keyboard-focusable links/buttons
+- [ ] Bookmarks, text-size controls (READ-013+)

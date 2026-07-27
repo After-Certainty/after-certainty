@@ -102,7 +102,8 @@ Site roadmap headers that still say “planning only” for search are **stale**
 | Chapter prev/next + reading TOC | **Absent** as reader chrome | Adjacent nav exists for *explore entities*, not chapters |
 | Path/trail local progress | **Present** | `lib/paths/pathProgress.ts` — questions/trails only |
 | Bookmarks, text-size, reading themes, offline reading | **Absent** | Global site theme ≠ reader theme; no PWA reader |
-| Local chapter reading progress | **Present** (READ-011) | `lib/reading/readingProgress.ts`; recorder in chapter reader shell — no continue-reading UI yet (READ-012) |
+| Local chapter reading progress | **Present** (READ-011) | `lib/reading/readingProgress.ts`; recorder in chapter reader shell |
+| Continue-reading entry points | **Present** (READ-012) | Start Here + book overview/detail CTAs when valid local progress resolves to a live chapter |
 
 Public corpus validation requires public chapters to be search- and sitemap-eligible with matching index/sitemap membership (READ-005 / READ-009).
 
@@ -252,10 +253,10 @@ flowchart LR
 |-------|---------|
 | **Problem** | V1 reading works, but return visits and comfort controls are thin. |
 | **User value** | Resume reading, bookmark places, adjust type size/theme, find within a book. |
-| **Current state** | Local reading progress shipped (READ-011). Path progress pattern exists for questions/trails. |
-| **Existing implementation** | `lib/reading/readingProgress.ts`; `lib/paths/pathProgress.ts`; site `theme-provider` (global, not reader). |
+| **Current state** | Local reading progress + continue-reading CTAs shipped (READ-011/012). Path progress pattern exists for questions/trails. |
+| **Existing implementation** | `lib/reading/readingProgress.ts`; `lib/reading/continueReading.ts`; continue panels on Start/book pages; `lib/paths/pathProgress.ts`; site `theme-provider` (global, not reader). |
 | **Existing documentation** | This roadmap; chapter-identity client storage keys. |
-| **Remaining work** | Continue-reading entry points; local bookmarks; text-size/reading theme; TOC drawer; copy section link; optional in-book search; offline only as research spike. |
+| **Remaining work** | Local bookmarks; text-size/reading theme; TOC drawer; copy section link; optional in-book search; offline only as research spike. |
 | **Dependencies** | Phase 1 routes + stable IDs. |
 | **Corpus / site** | Site-only storage (localStorage); no corpus requirement. |
 | **Tests** | Storage key stability tests; UI tests for controls; no cross-device sync expectations. |
@@ -512,6 +513,8 @@ flowchart LR
 |-------|-------|
 | **Goal** | Surface continue-reading on `/start` and/or book overview when local progress exists. |
 | **Type / owner / size** | implementation / site / S |
+| **Status** | Implemented — Start Here section + book overview/legacy detail CTAs; catalog validates progress against public chapter routes. |
+| **Likely files** | `apps/site/lib/reading/continueReading.ts`; `apps/site/components/reading/continue-reading-panel.tsx`; `app/start/page.tsx`; book overview/legacy layouts |
 | **Dependencies** | READ-011 |
 | **Acceptance criteria** | CTA appears only with valid progress; links to chapter route |
 

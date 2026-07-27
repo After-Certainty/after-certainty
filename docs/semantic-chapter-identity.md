@@ -121,6 +121,8 @@ URLs may change presentation hosts; `editionId` + `chapter.id` must not.
 
 **READ-011 (shipped):** Site stores one last-position entry per edition under localStorage key `ac_reading_progress`, keyed by `editionId`. Each entry includes `identityKey` = `readingProgress:{editionId}:{chapterId}`, plus optional `fragmentId` / `scrollY`. No server sync — clearing site data resets. See [`apps/site/lib/reading/readingProgress.ts`](../apps/site/lib/reading/readingProgress.ts).
 
+**READ-012 (shipped):** Continue-reading CTAs on `/start` and book overview/detail resolve stored progress against a server-built catalog of public chapter routes (`apps/site/lib/reading/continueReading.ts`). Invalid or stale chapter ids produce no CTA.
+
 ### Out of scope for this contract
 
 - Account-synced progress

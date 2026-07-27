@@ -13,6 +13,7 @@ import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ExploreBookMedia } from "@/components/explore/explore-book-media";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
+import { ContinueReadingForBook } from "@/components/reading/continue-reading-panel";
 import { JsonLd } from "@/components/seo/json-ld";
 import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
@@ -25,6 +26,7 @@ import type { OrderedBookActions } from "@/lib/books/semantic-book-action-links"
 import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import type { GraphIndex } from "@/lib/graph/graph";
+import type { ContinueReadingCatalog } from "@/lib/reading/continueReading";
 import { buildBookPageJsonLd } from "@/lib/seo/json-ld";
 import type { QuestionDefinition } from "@/types/questions";
 import type { WhatsNewEvent } from "@/lib/whats-new/schema";
@@ -52,6 +54,8 @@ export type BookOverviewLayoutProps = {
   index: GraphIndex;
   breadcrumbs: { label: string; href?: string }[];
   relatedTrails?: ReactNode;
+  /** Public chapter destinations for local continue-reading (READ-012). */
+  continueReadingCatalog?: ContinueReadingCatalog;
 };
 
 function OverviewSection({
@@ -91,6 +95,7 @@ export function BookOverviewLayout({
   index,
   breadcrumbs,
   relatedTrails,
+  continueReadingCatalog,
 }: BookOverviewLayoutProps) {
   const { book, overview, edition, selectedConcepts, selectedPatterns, readBefore, readNext } = vm;
   const status = bookPublicationStatus(book);
@@ -189,6 +194,9 @@ export function BookOverviewLayout({
         </div>
 
         <BookOverviewActions bookId={book.id} bookSlug={book.slug} actions={actions} />
+        {continueReadingCatalog ? (
+          <ContinueReadingForBook editionId={book.id} catalog={continueReadingCatalog} />
+        ) : null}
         <ExploreBookMedia book={book} />
       </Section>
 

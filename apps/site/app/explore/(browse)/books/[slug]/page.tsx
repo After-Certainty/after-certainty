@@ -26,6 +26,10 @@ import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
 import { relatedContentForBook } from "@/lib/graph/relatedContent";
 import { resolveThinkersForBook } from "@/lib/graph/bookThinkers";
 import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
+import {
+  buildContinueReadingCatalog,
+  continueReadingCatalogForEdition,
+} from "@/lib/reading/continueReading";
 import { createPageMetadata } from "@/lib/metadata";
 import { resolveBookCover } from "@/lib/books/resolve-book-cover";
 import {
@@ -119,6 +123,10 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
   });
   const relatedQuestions = findPublishedQuestionsForBook(book.id, 2, getPublishedQuestions(graph));
   const readHref = firstPublicChapterHref(graph, book.id) ?? undefined;
+  const continueReadingCatalog = continueReadingCatalogForEdition(
+    buildContinueReadingCatalog(graph),
+    book.id,
+  );
 
   if (overviewVm) {
     const actions = getOrderedBookActions({
@@ -147,6 +155,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
         index={index}
         breadcrumbs={bookBreadcrumbs}
         relatedTrails={<RelatedTrailsSection canonicalId={book.id} entityLabel="book" />}
+        continueReadingCatalog={continueReadingCatalog}
       />
     );
   }
@@ -183,6 +192,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
       index={index}
       breadcrumbs={bookBreadcrumbs}
       relatedWhatsNew={relatedWhatsNew}
+      continueReadingCatalog={continueReadingCatalog}
     />
   );
 }
