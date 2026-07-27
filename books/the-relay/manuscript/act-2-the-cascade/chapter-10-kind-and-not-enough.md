@@ -42,25 +42,25 @@ She tested it the way you test ice, a little weight at a time.
 
 "He does. I watched him do it. He took a station nine days from a riot and had it running in an hour. Named the children. Put his own name where the blame would land." Lena watched Sera's face and found nothing to push against. "And then he told four hundred frightened people exactly who was doing this to them — saboteurs, cutters, separatists out past the dark — and they believed him, because he'd just fed them, and it was a lie. Or near enough. He doesn't know any more than I do. He just decided, and gave them the deciding to hold, and they loved him for it."
 
-Sera was quiet a while. "And you can't do that," she said. Not unkind.
+Sera was quiet a while, feeding a stick to the fire with her free hand. "And you can't do that," she said. Not unkind.
 
 "I won't do that."
 
-"Mm." A log settled. "There's less daylight between *can't* and *won't* than we like." She said it gently, and it went in deep, because it was true and Lena hadn't expected it from her. "What would you tell them? If they asked you, the way they ask him. Four hundred frightened people, and you've got the floor. What's the true thing you'd put in their hands?"
+"Mm." A log settled. "There's less daylight between *can't* and *won't* than we like." She said it gently, and it went in deep. "What would you tell them? If they asked you, the way they ask him. Four hundred frightened people, and you've got the floor."
 
 This was the question. It was the Anneth man's question, the one she'd lost the gate over, the one she carried now like the anger and the fear, a thing declared at every wicket and never set down. Lena had thought about it across four more worlds and still didn't have it.
 
 "That it's bigger than a villain," she said slowly. "That the gates aren't being cut, they're — the whole thing's been running on people quietly minding their own piece and assuming someone minds the rest, and the someone stopped, everywhere, so slow nobody saw. That the answer isn't to find who did it. It's to — " she stopped, hearing it, the place where the true thing ran out of road. "It's to start telling each other what we see again. I think. I don't know what that looks like. I just know his answer is wrong."
 
-"It's a good true thing," Sera said. "It won't feed anyone tonight."
+"It's a good true thing," Sera said, warming her palms over the flames. "It won't feed anyone tonight."
 
 "No."
 
-"That's the part I made my peace with a long time ago." Sera looked at her across the fire, and for the first time there was something underneath the calm — not doubt, but the worn-smooth place where doubt had been, years ago, and been answered. "I used to think if I could just say the right true thing, people would hold. Then I watched a lot of people not hold, and a lot of others hold with no true thing at all, just each other. So I stopped trying to give them the true thing." She spread her hands at the two hundred people sharing one fire in the cold, none of them eating each other, all of them still here. "I give them each other. The people will hold. You have to trust them to carry each other — that's the whole of what I know, and most days it's enough to walk a road on."
+"That's the part I made my peace with a long time ago." She looked at the two hundred people sharing one fire — none of them eating each other, all of them still here. "I used to think if I could say the right thing, people would hold. Then I watched a lot of people not hold, and a lot of others hold with no true thing at all, just each other." She handed Lena a cup she'd kept warm against her coat. "So I stopped trying to give them the answer. I give them tea. Blankets. Each other. Most days that's enough to walk a road on."
 
 "And the days it isn't?"
 
-Sera smiled, and it was the saddest thing Lena had seen on the road, sadder than the blankets, because it had no self-pity in it at all. "Most true things don't prove enough," she said. "Mine doesn't. His doesn't. You learn to keep saying yours anyway." She fed the fire again. "I just picked the true thing that doesn't get anyone hurt when it falls short."
+Sera smiled — the saddest thing on the road, with no self-pity in it. "Most true things don't prove enough. Mine doesn't. His doesn't." She tucked a blanket edge under a sleeping child's chin without looking. "I picked the one that doesn't get anyone hurt when it falls short."
 
 ---
 
