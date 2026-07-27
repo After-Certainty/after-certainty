@@ -1,12 +1,12 @@
 # Semantic completeness report
 
-Generated: `2026-07-25T19:11:32.163231+00:00`
+Generated: `2026-07-27T15:12:16.275394+00:00`
 
 ## Manifest provenance
 
 - schemaVersion: `2.3`
-- sourceCommit: `f0e4bae5d41940535a1a6c7565eaa617ee81d069`
-- manifest generatedAt: `2026-07-25T19:11:25.197560+00:00`
+- sourceCommit: `0b8143bd0ed3d4bf933987d06ec54d28bb09d230`
+- manifest generatedAt: `2026-07-27T15:11:56.204700+00:00`
 
 Public canonical works evaluated: **32**
 
@@ -118,7 +118,6 @@ _None._
 - `the-discipline-of-uncertainty`
 - `the-economy-we-dont-experience`
 - `trust-beyond-similarity`
-- `velorum`
 - `what-we-cannot-see`
 - `when-accountability-no-longer-expires`
 - `when-authority-is-misread`
@@ -780,7 +779,7 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
 | `selectedThinkersOrSources` | `not-applicable` |
 

@@ -61,8 +61,19 @@ describe.skipIf(!localGraph)("book overview view model (local manifest)", () => 
     expect(vm!.structure!.chapters.some((c) => Boolean(c.summary))).toBe(true);
   });
 
-  it("builds fiction chapter maps without requiring authored summaries", () => {
+  it("builds fiction chapter maps with authored summaries for Velorum", () => {
     const book = localGraph!.books.find((b) => b.slug === "velorum")!;
+    expect(book.contentType).toBe("fiction");
+    const vm = buildBookOverviewViewModel(book, localGraph!);
+    expect(vm).not.toBeNull();
+    expect(vm!.structure).not.toBeNull();
+    expect(vm!.structure!.chapters.length).toBeGreaterThan(5);
+    expect(vm!.structure!.hasAuthoredSummaries).toBe(true);
+    expect(vm!.structure!.chapters.some((c) => Boolean(c.summary))).toBe(true);
+  });
+
+  it("builds fiction chapter maps without requiring authored summaries", () => {
+    const book = localGraph!.books.find((b) => b.slug === "boundary-conditions")!;
     expect(book.contentType).toBe("fiction");
     const vm = buildBookOverviewViewModel(book, localGraph!);
     expect(vm).not.toBeNull();
