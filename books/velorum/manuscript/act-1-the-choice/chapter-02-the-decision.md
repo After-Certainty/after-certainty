@@ -78,7 +78,7 @@ Riven understood exactly what Cael meant and was annoyed about it. "Then we come
 
 Riven laughed once.
 
-"So the plan is to fix our lives by walking into a ditch," Riven said.
+"So the plan is to fix our lives by walking into a goddamn ditch," Riven said.
 
 "The plan is to walk until we know." Cael set the broom against the wall. "If Ashfen's nothing, we turn around. If it's something, we decide what that means when we're standing in it."
 

@@ -118,7 +118,7 @@ Riven glanced across the fire. Cael heard it too and didn't comment.
 
 When the fire burned low:
 
-"You're leaning into this," Riven said.
+"You're leaning into this," Riven said. "Fucking hell."
 
 "Into what?" Cael asked.
 
