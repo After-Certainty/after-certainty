@@ -101,7 +101,7 @@ Site roadmap headers that still say “planning only” for search are **stale**
 | Footnotes / section anchors in reader | **Absent** | Corpus markdown only |
 | Chapter prev/next + reading TOC | **Absent** as reader chrome | Adjacent nav exists for *explore entities*, not chapters |
 | Path/trail local progress | **Present** | `lib/paths/pathProgress.ts` — questions/trails only |
-| Bookmarks, text-size, reading themes, offline reading | **Partial** | Local bookmarks shipped (READ-013); reader theme/size and offline still absent |
+| Bookmarks, text-size, reading themes, offline reading | **Partial** | Bookmarks + reader text size shipped (READ-013/014); site light/dark for theme; offline still absent |
 | Local chapter reading progress | **Present** (READ-011) | `lib/reading/readingProgress.ts`; recorder in chapter reader shell |
 | Continue-reading entry points | **Present** (READ-012) | Start Here + book overview/detail CTAs when valid local progress resolves to a live chapter |
 | Local bookmarks | **Present** (READ-013) | Chapter/section bookmarks in reader chrome; list on book overview/detail |
@@ -254,10 +254,10 @@ flowchart LR
 |-------|---------|
 | **Problem** | V1 reading works, but return visits and comfort controls are thin. |
 | **User value** | Resume reading, bookmark places, adjust type size/theme, find within a book. |
-| **Current state** | Local progress, continue-reading, and bookmarks shipped (READ-011–013). Path progress pattern exists for questions/trails. |
-| **Existing implementation** | `lib/reading/readingProgress.ts`; `lib/reading/continueReading.ts`; `lib/reading/readingBookmarks.ts`; continue/bookmark panels; `lib/paths/pathProgress.ts`; site `theme-provider` (global, not reader). |
+| **Current state** | Local progress, continue-reading, bookmarks, and reading chrome prefs shipped (READ-011–014). Path progress pattern exists for questions/trails. |
+| **Existing implementation** | `lib/reading/readingProgress.ts`; `continueReading.ts`; `readingBookmarks.ts`; `readingPreferences.ts` (text size); continue/bookmark/size panels; `lib/paths/pathProgress.ts`; site `theme-provider` for light/dark. |
 | **Existing documentation** | This roadmap; chapter-identity client storage keys. |
-| **Remaining work** | Text-size/reading theme; TOC drawer; copy section link; optional in-book search; offline only as research spike. |
+| **Remaining work** | TOC drawer; copy section link; optional in-book search; offline only as research spike. |
 | **Dependencies** | Phase 1 routes + stable IDs. |
 | **Corpus / site** | Site-only storage (localStorage); no corpus requirement. |
 | **Tests** | Storage key stability tests; UI tests for controls; no cross-device sync expectations. |
@@ -530,12 +530,14 @@ flowchart LR
 | **Dependencies** | READ-002; section anchors from READ-003 |
 | **Acceptance criteria** | Add/remove bookmark; list accessible from book overview or reader chrome |
 
-#### READ-014 — Text-size and reading theme controls
+#### READ-014 — Text-size controls
 
 | Field | Value |
 |-------|-------|
-| **Goal** | Reader-local type size and reading theme (distinct from global site theme if needed). |
+| **Goal** | Reader-local type size (site light/dark remains the appearance theme). |
 | **Type / owner / size** | implementation / site / M |
+| **Status** | Implemented — `ac_reading_prefs` localStorage with rem-based S–XL text size; site light/dark remains the only theme. Manuscript colors follow site tokens (not prose-invert). |
+| **Likely files** | `apps/site/lib/reading/readingPreferences.ts`; `apps/site/components/reading/reading-preferences-controls.tsx`; `globals.css`; chapter reader shell; chapter-manuscript-body |
 | **Dependencies** | READ-003 |
 | **Acceptance criteria** | Preference persists locally; remains readable at 200% zoom; contrast maintained |
 
@@ -983,7 +985,7 @@ Intentionally postponed so they do not re-enter near-term planning:
 | Phase | Complete when |
 |-------|----------------|
 | **1 — Read After Certainty** | Published catalog editions have SSR chapter pages with body HTML, footnotes, TOC/prev-next, a11y baseline; chapters eligible for sitemap/search; overview links work; E2E smoke green; downloads still available; cohort = all published catalog books (READ-010) |
-| **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size/reading theme; TOC drawer + copy section link; in-book search either shipped or explicitly deferred |
+| **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size controls; TOC drawer + copy section link; in-book search either shipped or explicitly deferred |
 | **3 — Editorial and historical** | Evidence workflow exists; confirmed dates backfilled; priority enrichment batch 6–9 + poems done or explicitly re-prioritized; thin relatedWorks/situations closed; historical What’s New for dated works |
 | **4 — Semantic traceability** | Definition helper live; thinker coverage panel (+ JSON-LD); targeted grounding batch done; creatorNames warnings cleared; provenance UI decided |
 | **5 — Think Together** | Brief accepted; at least one lightweight pilot path live **or** explicit deferral recorded in §12 |

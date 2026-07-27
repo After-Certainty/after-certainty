@@ -5,6 +5,10 @@ import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ChapterAdjacentNav } from "@/components/reading/chapter-adjacent-nav";
 import { ChapterToc } from "@/components/reading/chapter-toc";
 import { ChapterBookmarkControl } from "@/components/reading/reading-bookmarks-panel";
+import {
+  ReadingPreferencesControls,
+  ReadingPreferencesRoot,
+} from "@/components/reading/reading-preferences-controls";
 import { RecordReadingProgress } from "@/components/reading/record-reading-progress";
 import { ButtonLink } from "@/components/ui/button-link";
 import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
@@ -22,7 +26,7 @@ export type ChapterReaderShellProps = {
 };
 
 /**
- * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011/013).
+ * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011/013/014).
  */
 export function ChapterReaderShell({
   book,
@@ -48,7 +52,7 @@ export function ChapterReaderShell({
   ];
 
   return (
-    <article
+    <ReadingPreferencesRoot
       aria-labelledby="chapter-title"
       className="relative mx-auto max-w-3xl px-4 py-12 md:py-16"
     >
@@ -97,6 +101,8 @@ export function ChapterReaderShell({
             chapterTitle={chapter.title}
           />
         </div>
+
+        <ReadingPreferencesControls />
 
         {centralQuestion ? (
           <p className="text-base leading-relaxed text-fg/90 md:text-lg">
@@ -156,6 +162,6 @@ export function ChapterReaderShell({
           </ButtonLink>
         </div>
       </footer>
-    </article>
+    </ReadingPreferencesRoot>
   );
 }
