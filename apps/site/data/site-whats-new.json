@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "updatedAt": "2026-07-22",
+  "updatedAt": "2026-07-27",
   "launchFrom": "2026-01-01",
   "notes": "Site-owned What\u2019s New rows (site features and podcast). Book published/revised events come from after-certainty changeEvents.",
   "events": [
@@ -43,6 +43,20 @@
       "entityType": "site",
       "href": "/trails",
       "featured": false,
+      "significance": "major",
+      "visibility": "public",
+      "source": "authored",
+      "published": true
+    },
+    {
+      "id": "event-site-native-reader",
+      "type": "site_feature",
+      "title": "Read online",
+      "summary": "Published books can now be read on the site chapter by chapter, with stable links from book pages, search, and reading paths.",
+      "date": "2026-07-27",
+      "entityType": "site",
+      "href": "/explore/books",
+      "featured": true,
       "significance": "major",
       "visibility": "public",
       "source": "authored",
