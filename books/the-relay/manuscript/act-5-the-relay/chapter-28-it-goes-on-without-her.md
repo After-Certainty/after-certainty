@@ -288,10 +288,6 @@ The box did not operate the gate.
 
 It held the question where people entering the room would have to see it.
 
-That was less than the civilization had once promised itself.
-
-It was more than the box had done in years.
-
 The Theral runner read the posted notice with his head tilted. "So what do I take back?"
 
 "Not the notice," Edrin said quickly.
@@ -675,8 +671,6 @@ Beside the arch, the new bulletin in the cracked GATE OPERATIONS box lifted at o
 Below it someone had already added, in handwriting too small for Lena to read from where she stood.
 
 That was right.
-
-A notice could carry meaning again only if it could be changed by someone she did not see.
 
 Dalla's drum trembled once.
 

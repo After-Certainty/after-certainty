@@ -102,8 +102,6 @@ He looked at her.
 
 She lifted her chin. "You can say it. I can write. The page can be annoying to both of us."
 
-This, Lena thought, was how it spread. Not with a declaration. Not by law. Not because anyone finally understood the system. One person with a burn on his wrist knew a road had lied under rain. One woman with milk on her sleeve could write the sentence. One pilgrim put the pencil where both of them had to see it.
-
 The woman wrote:
 
 *Road reported washed stone. Actually undermined before rain. Heavy hinge pieces made wrongness show. Question for Low Cairn and Oss: did heavy pass after good-looking road?*
@@ -486,11 +484,11 @@ Sera looked at the oilcloth in her lap. "I gave them something to fight over wit
 
 Sera tied the thread off. Her fingers were steady, but the skin around her eyes looked bruised by wakefulness.
 
-"I thought trust meant staying soft enough for another person's truth," she said. "That is still true. But softness without a place to put what arrives becomes another kind of disappearance."
+"I thought trust meant staying soft enough for another person's truth," she said. "That is still true. But if there's nowhere to put what arrives, it just vanishes again."
 
 She folded the repaired oilcloth once, then again.
 
-"This does not make trust safer," she said. "It makes trust answerable."
+"This does not make trust safer," she said. "It makes someone answer."
 
 Lena leaned her head back against the wall. Through the floorboards, a murmur rose in the yard. Not panic. Not quite work yet. The first voices of morning finding the unfinished page.
 

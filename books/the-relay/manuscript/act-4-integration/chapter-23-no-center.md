@@ -390,19 +390,7 @@ But the halves were not waiting to be assembled.
 
 They were already one broken thing.
 
-What stayed learned first and became private.
-
-What moved learned widely and became thin.
-
-The center received both and became hungry.
-
 Each failure had seemed different because each happened in a different place. A lake. A road. A return room. A gate office. A food route. A maintenance board. A courier's shoulder. But the break was the same break repeating itself with local accents.
-
-Knowledge lost correction when it traveled.
-
-Knowledge lost consequence when it stayed.
-
-Knowledge lost humility when it gathered above both.
 
 Jun heard his own breath and disliked how loud it seemed.
 
@@ -412,7 +400,7 @@ No one answered.
 
 He looked at Lena, then at Lio, then at his chart.
 
-"No one can hold it," he said again. "That is not an unfortunate limit we have to design around. That is the point."
+"No one can hold it," he said again. "That is not an unfortunate limit we have to design around. That is the condition."
 
 Cai's eyes narrowed.
 
@@ -420,7 +408,7 @@ Nadi went still.
 
 Jun pressed harder into the chart until the center box creased under his thumb.
 
-"If one person can hold the method, the method has already failed. If one office can authorize sight, the office will become the thing seen. If one courier carries the whole, the road becomes a throat and someone will put hands around it. If one archive preserves the old answer, memory becomes ownership. If one room creates trust, trust dies when the room empties."
+"If one person can hold the method, the method has already failed. If one office can authorize sight, the office will become the thing seen. If one courier carries the whole, someone will put hands around the road. If one archive preserves the old answer, memory becomes ownership. If one room creates trust, trust dies when the room empties."
 
 Sera's face tightened at that, but she did not object.
 

@@ -1177,12 +1177,6 @@ The drum took the words into itself.
 
 For several breaths the room listened to them leave.
 
-Not because anyone believed the groundline made them safe. Messages could be misunderstood at any speed. But this time the words did not leave a room where one person had completed them. They left carrying fingerprints, argument, crossed-out fields, a child's crooked line, a former official's witness, a repairman's restraint, a road woman's mud, a caretaker's harm, a watcher's correction, an archivist's unease, and Lena's partial stamp that cleared nothing.
-
-The first one was ugly.
-
-It had to be.
-
 Senn took her coat from the peg.
 
 Lio clutched the oilcloth packet.
