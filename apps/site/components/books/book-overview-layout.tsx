@@ -14,6 +14,7 @@ import { ExploreBookMedia } from "@/components/explore/explore-book-media";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { ContinueReadingForBook } from "@/components/reading/continue-reading-panel";
+import { BookmarksForBook } from "@/components/reading/reading-bookmarks-panel";
 import { JsonLd } from "@/components/seo/json-ld";
 import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
@@ -195,7 +196,10 @@ export function BookOverviewLayout({
 
         <BookOverviewActions bookId={book.id} bookSlug={book.slug} actions={actions} />
         {continueReadingCatalog ? (
-          <ContinueReadingForBook editionId={book.id} catalog={continueReadingCatalog} />
+          <>
+            <ContinueReadingForBook editionId={book.id} catalog={continueReadingCatalog} />
+            <BookmarksForBook editionId={book.id} catalog={continueReadingCatalog} />
+          </>
         ) : null}
         <ExploreBookMedia book={book} />
       </Section>

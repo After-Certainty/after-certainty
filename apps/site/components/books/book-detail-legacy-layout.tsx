@@ -10,6 +10,7 @@ import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
 import { ContinueReadingForBook } from "@/components/reading/continue-reading-panel";
+import { BookmarksForBook } from "@/components/reading/reading-bookmarks-panel";
 import { JsonLd } from "@/components/seo/json-ld";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { LinkifiedText } from "@/components/ui/linkified-text";
@@ -156,7 +157,10 @@ export function BookDetailLegacyLayout({
           publicationLinks={publicationLinks}
         />
         {continueReadingCatalog ? (
-          <ContinueReadingForBook editionId={book.id} catalog={continueReadingCatalog} />
+          <>
+            <ContinueReadingForBook editionId={book.id} catalog={continueReadingCatalog} />
+            <BookmarksForBook editionId={book.id} catalog={continueReadingCatalog} />
+          </>
         ) : null}
         <ExploreBookMedia book={book} />
         <ExploreAdjacentNav

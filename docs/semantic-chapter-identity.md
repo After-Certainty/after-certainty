@@ -123,6 +123,8 @@ URLs may change presentation hosts; `editionId` + `chapter.id` must not.
 
 **READ-012 (shipped):** Continue-reading CTAs on `/start` and book overview/detail resolve stored progress against a server-built catalog of public chapter routes (`apps/site/lib/reading/continueReading.ts`). Invalid or stale chapter ids produce no CTA.
 
+**READ-013 (shipped):** Local bookmarks under `ac_reading_bookmarks`, identity `bookmark:{editionId}:{chapterId}[:{fragmentId}]`. Reader chrome toggles chapter or current `#` section; book overview/detail lists resolved bookmarks. See [`apps/site/lib/reading/readingBookmarks.ts`](../apps/site/lib/reading/readingBookmarks.ts).
+
 ### Out of scope for this contract
 
 - Account-synced progress
