@@ -202,11 +202,11 @@ Merrow looked at him. "He already did." She turned toward the yard gate. "Don't 
 
 At the command hall he stopped beside the casualty reports. The stack was smaller than before. Still too large. His old note sat where he'd left it.
 
-*Accept load. Do not split.*
+*Carry the weight. Don't pull apart.*
 
 He stared at it for a moment, then crossed out the last line. Underneath, he wrote:
 
-*Do not pretend.*
+*Stop pretending.*
 
 A clerk passed in the hall, arms full of bandage rolls. She saw him at the board and looked away fast, as though eye contact might assign her something. Cael didn't call after her.
 

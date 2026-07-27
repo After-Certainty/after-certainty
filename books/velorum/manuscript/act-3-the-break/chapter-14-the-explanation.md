@@ -94,7 +94,7 @@ He was gone before Cael could answer. Through the bond Cael got the stair impact
 
 The hall was too quiet without Riven's breathing in it. Cael had not noticed, until now, how much he had used Riven's irritation as a wall to lean on—something to push against so his own wanting-to-believe did not show.
 
-He read the river-stairs section again. He wrote one line in the margin: *Accept load. Do not split.*
+He read the river-stairs section again. He wrote one line in the margin: *Carry the weight. Don't pull apart.*
 
 His hand shook on the last word.
 

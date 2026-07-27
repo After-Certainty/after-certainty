@@ -88,7 +88,7 @@ The square went quiet in stages. First the center. Then the side streets. People
 
 From the basin Riven could see the whole platform now: Halverin alone at the rail, aides gone from the steps, no clerk left to tally. The speaking horn lay on the stone below him, mouth cracked. Bleached broadsides still flapped on the magistrate wall—their names centered in bold. The dry fountain basin held splintered timber and wet stone where there had been no water at dawn. Ropes sagged at the margins. A paste boy stood with his bucket, not sure whether to run. Two guards looked at Merrow and then away.
 
-At the magistrate overhang a clerk tried to write *sequence adjustment* on a fresh sheet. Merrow's guard took the sheet and pointed at the injury slate. "Wrong desk. File under *suspended*." The clerk sat on the steps with his stack and wrote nothing useful.
+At the magistrate overhang a clerk tried to write *change the run* on a fresh sheet. Merrow's guard took the sheet and pointed at the injury slate. "Wrong desk. File under *suspended*." The clerk sat on the steps with his stack and wrote nothing useful.
 
 Halverin stood empty-handed above the horn on the step.
 
@@ -100,7 +100,7 @@ Riven got one foot under him. Cael helped without speaking. They stood together 
 
 He looked up at Halverin. No triumph. Just the sick wash of everybody seeing the same thing.
 
-"This isn't refinement," Riven said, loud enough for the front rows. "This is loss."
+"This isn't getting better," Riven said, loud enough for the front rows. "This is loss."
 
 Behind him the square was still arguing about what to call it. Riven did not turn to listen. He had said the only word that fit.
 

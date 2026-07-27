@@ -52,7 +52,7 @@ That morning patrol routes shifted—east wall thin, debris detail thick. A guar
 
 The spice seller from the south lane—saffron stain still ghosted in the stones where her table had sat—opened a tray at the market edge with nothing on it but a Merrow compensation stub and a sign that said *paid at last, still angry*. She sold spice by the pinch to customers who asked why she was smiling. "Because paperwork finally lost," she said. "Don't make me a symbol either."
 
-Above the magistrate office windows, shutters stayed closed. Riven heard from the debris pile that Halverin's senior clerk had spent the morning rewriting the demonstration report three times—*crowd interference*, then *pair variance*, then *unforeseen bond reaction*—while a council aide read each draft aloud and shook his head. By afternoon the clerks had stopped agreeing with each other and started filing everything under *pending council*, which was Merrow's word for *suspended* with better shoes.
+Above the magistrate office windows, shutters stayed closed. Riven heard from the debris pile that Halverin's senior clerk had spent the morning rewriting the demonstration report three times—*crowd noise*, then *the pair mismatched*, then *the bond went wrong*—while a council aide read each draft aloud and shook his head. By afternoon the clerks had stopped agreeing with each other and started filing everything under *pending council*, which was Merrow's word for *suspended* with better shoes.
 
 He had slept in fragments the night before and woken with Cael's dreams still moving in his chest. Lyra had treated three crush injuries and a guard with a rope burn and had not come to the east annex except once, at noon, to leave broth and a note that said *don't sign*. He had eaten the broth. He had burned the note so clerks would not find it.
 
@@ -154,7 +154,7 @@ Lyra's voice stayed tired, not cruel. "You are." "Every time you reach for me, h
 
 Riven's hands hung at his sides. "What am I supposed to do with that?"
 
-"Live," she said. "Stop calling it refinement. Stop waiting for Halverin to invent a prettier fucking word." She capped the salve jar. "And don't chase me to make the bond quieter. I can't quiet it."
+"Live," she said. "Stop calling it progress. Stop waiting for Halverin to invent a prettier fucking word." She capped the salve jar. "And don't chase me to make the bond quieter. I can't quiet it."
 
 He laughed once, broken. "You think I'd chase you for that?"
 
@@ -202,7 +202,7 @@ She shouldered the bundle. At the door she stopped and looked at Riven one last 
 
 She left. The annex door shut. Footsteps faded down the corridor and out into the yard. Riven heard a guard greet her by name. Heard a wagon wheel turn. Heard none of it through his own ears only.
 
-Merrow's runner checked the south ward manifest at the yard gate and initialed each crate line. Halverin's clerk tried to attach a correction broadside to the manifest stack. Merrow's runner took the sheet, read *sequence adjustment*, and handed it back. "File under *suspended*. Gate clears on my slate, not his."
+Merrow's runner checked the south ward manifest at the yard gate and initialed each crate line. Halverin's clerk tried to attach a correction broadside to the manifest stack. Merrow's runner took the sheet, read *change the run*, and handed it back. "File under *suspended*. Gate clears on my slate, not his."
 
 Cael stood in the corridor with his back to the wall. The bond carried Lyra's footsteps leaving and Riven's grief and Cael's own shame in one braid. Cael did not follow Riven into the annex room. He went to the yard instead and signed Merrow's gate roster with a hand that shook.
 
@@ -362,7 +362,7 @@ Riven ate because bodies required it. The bond carried Cael tasting salt on the 
 
 Riven understood, with the tired clarity Lyra had always carried, that Kestrel Gate was not smaller than before the demonstration—it was louder inside its own walls, and the noise was not going to stop when he and Cael walked east toward Velorum.
 
-He still loved him. That was the part the curse could not file under *pair variance* or *suspended*—the part that made walking east feel like leaving someone behind even when the someone was still in his chest.
+He still loved him. That was the part the curse could not file under *the pair mismatched* or *suspended*—the part that made walking east feel like leaving someone behind even when the someone was still in his chest.
 
 He went back to the annex. Cael was already there, boots on the wrong side of the door again, roster in hand. They did not talk about Lyra. They did not talk about the handbills. They ate bread Merrow had left and felt each other eat and went to sleep in fragments because bodies required it even when stories did not.
 

@@ -6,7 +6,7 @@ Below, ration lines still moved though it was past second bell, someone shouting
 
 Earlier that day they'd swept the tanners alley twice because the slate kept showing bunching where nobody could see why. Cael had marked the alley mouth. Riven had marked the grain line backup. Merrow had circled both and said *same problem, different hour.* Riven had wanted to argue. The bond had carried Cael's agreement before he could.
 
-Riven sat with his back against the stone and tried to hold one thought that was only his: *boundary problem.* Lyra had said it yesterday at the infirmary—flat, clinical, a label off a crate. Not judgment, not sympathy, just fact. What she meant wasn't eyes on him. It was waking up tired because Cael hadn't slept. It was hunger that wasn't his meal.
+Riven sat with his back against the stone and tried to hold one thought that was only his: *getting into each other's heads.* Lyra had said it yesterday at the infirmary—flat, clinical, a label off a crate. Not judgment, not sympathy, just fact. What she meant wasn't eyes on him. It was waking up tired because Cael hadn't slept. It was hunger that wasn't his meal.
 
 For three breaths he managed to keep the thought contained. Then Cael felt it. The reaction came back immediately.
 

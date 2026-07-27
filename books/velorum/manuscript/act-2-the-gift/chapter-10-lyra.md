@@ -8,7 +8,7 @@ The next afternoon—first full day on Merrow's riverside roster—Riven arrived
 
 He had marked the grain line that morning before the cut—same slate Merrow would read twice because Cael kept replaying the blade in his head from across the yard. The bond carried the replay all the way to the door.
 
-At dawn Merrow's runner had brought a slate to the arch—*counts by bed, not pair-type*—and come back out ten minutes later still holding it. Riven had heard the story at the grain line and filed it under *not my problem* until his arm started leaking.
+At dawn Merrow's runner had brought a slate to the arch—*counts by bed, not by the pair*—and come back out ten minutes later still holding it. Riven had heard the story at the grain line and filed it under *not my problem* until his arm started leaking.
 
 Runners, splints, families hunting names on slates. He shouldered through. At the infirmary arch a boy in Halverin's crest tried to skip the line. The medic at the prep table didn't look up from her stitch. "Back of the line or drink from the bucket."
 
@@ -156,7 +156,7 @@ She wiped her hands on a rag, thinking. "I've seen good pairs. Volunteers. Same 
 
 Riven frowned. "No?"
 
-"No." A beat. She set the needle roll between them on the prep table—thread, strip knife, charcoal for slates—and kept her eyes on his bandaged knuckles. Through the open door Cael's counting scraped in the corridor, boot on stone, pause, boot again. "It's a boundary problem people turned into a legend."
+"No." A beat. She set the needle roll between them on the prep table—thread, strip knife, charcoal for slates—and kept her eyes on his bandaged knuckles. Through the open door Cael's counting scraped in the corridor, boot on stone, pause, boot again. "It's them getting into each other's heads. People turned that into a legend."
 
 Riven didn't answer. Lyra washed a cooper's side while Riven held pressure. When she tied off she looked at his forearm stitches. "These'll split if you haul timber tomorrow."
 
@@ -166,7 +166,7 @@ Riven didn't answer. Lyra washed a cooper's side while Riven held pressure. When
 
 Across the yard, Cael felt them too. Riven knew because anger arrived first, then embarrassment, then the familiar feeling of Cael trying to shove a door closed that no longer existed.
 
-"Halverin calls it load-sharing," Lyra said. "From his map, maybe. From here it's harm with good posters on it."
+"Halverin calls it sharing the weight," Lyra said. "From his map, maybe. From here it's harm with good posters on it."
 
 She sent an orderly to the yard with a bed count and a refusal—*no demonstration reserve, injury keeps its cots.* The orderly came back ten minutes later with Halverin's clerk hand still on the list. Lyra scratched the column out again and told Riven to tell Merrow, not the magistrate. "If he wants parade beds," she said, "he can bleed on the platform and bill himself."
 
@@ -176,7 +176,7 @@ A carpenter from the repair yard waited at the door with a splint request and a 
 
 "When he runs his demonstration," Lyra said, "ask who stands in front row."
 
-She capped a salve jar and nodded toward a runner waiting at the door. "Tell your magistrate injury counts by bed. If he wants pair-types, he can count bodies himself."
+She capped a salve jar and nodded toward a runner waiting at the door. "Tell your magistrate injury counts by bed. If he wants them counted as a pair, he can count bodies himself."
 
 The runner left. Riven stood too quickly. The room tilted. His hand hit the table before the floor settled.
 
@@ -202,7 +202,7 @@ Riven sat, mostly because she expected to be obeyed. She wiped her hands on a st
 
 "Everybody knew Mara. She shoved everybody," Lyra said.
 
-A runner burst through the side door with a slate—*injury count by pair-type, magistrate office.* Lyra read it once and handed it back. "Body count by bed. Tell him the difference."
+A runner burst through the side door with a slate—*injury count by the pair, magistrate office.* Lyra read it once and handed it back. "Body count by bed. Tell him the difference."
 
 The runner looked at Riven. Riven pointed at Lyra. The runner left.
 
@@ -272,13 +272,13 @@ Riven rolled his eyes. "Oh, for fuck's sake."
 
 Cael looked away first. Which told Riven everything he needed to know.
 
-"You hear her line about boundary problems?"
+"You hear what she said? About getting into each other's heads?"
 
 Cael's jaw worked once. "I heard it."
 
 "And?" Riven asked.
 
-"And I don't have an answer that makes it better." Cael unfolded his arms and looked past Riven toward the infirmary door. "Halverin sent a clerk asking for injury counts by pair-type. She sent him body counts by bed."
+"And I don't have an answer that makes it better." Cael unfolded his arms and looked past Riven toward the infirmary door. "Halverin sent a clerk asking for injury counts by the pair. She sent him body counts by bed."
 
 "Good," Riven said.
 
@@ -304,7 +304,7 @@ Cael didn't answer. Riven pushed past him. The annoying part was that Cael didn'
 
 In the yard two guards argued over whether the pair should escort a supply cart to the east barracks. Merrow's voice cut through from the command hall door: "Infirmary first. Patrol second." The guards shut up. One of them muttered, "Halverin already promised the cart," loud enough to carry. Merrow didn't answer. That told Riven more than a reprimand would have.
 
-In the dormitory, sleep refused to show up. Lyra's lines kept colliding with Cael's supply counts in Riven's head—*boundary problem*, *ask who pays for it*, missing captains, fifty on a good shift—whether he wanted any of it or not.
+In the dormitory, sleep refused to show up. Lyra's lines kept colliding with Cael's supply counts in Riven's head—*getting into each other's heads*, *ask who pays for it*, missing captains, fifty on a good shift—whether he wanted any of it or not.
 
 Cael had reorganized their kit again—rope coiled, nails sorted, blanket refolded on the inside cot. Riven's boots sat where Cael always put them, toes to the wall. Riven moved them back with his heel and didn't comment.
 

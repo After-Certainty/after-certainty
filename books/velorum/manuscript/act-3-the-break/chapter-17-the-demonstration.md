@@ -252,9 +252,9 @@ Halverin stepped down one stair, hands out. "Citizens—stand back. This is a co
 
 No one stood back.
 
-A clerk at the magistrate overhang wrote *sequence adjustment* on a fresh sheet. Merrow's guard took the sheet, read the header, and pointed at the injury slate. "Wrong desk." The clerk sat on the steps and began a second sheet without tearing the first.
+A clerk at the magistrate overhang wrote *change the run* on a fresh sheet. Merrow's guard took the sheet, read the header, and pointed at the injury slate. "Wrong desk." The clerk sat on the steps and began a second sheet without tearing the first.
 
-Halverin's senior aide appeared at the platform rail with three broadside drafts facedown. "Which version do you want, magistrate? *Crowd exceeded tolerance* or *pair variance at margin*—"
+Halverin's senior aide appeared at the platform rail with three broadside drafts facedown. "Which version do you want, magistrate? *Crowd broke the count* or *the pair mismatched on the hard lift*—"
 
 Halverin did not answer. He looked at Cael and Riven on the frame and for the first time since the stairs briefing Cael saw fear without a chart underneath it.
 

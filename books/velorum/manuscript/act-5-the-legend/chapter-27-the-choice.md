@@ -78,7 +78,7 @@ Riven turned on his side. "That's surrender."
 
 "That's acceptance," Cael said. "Not defeat. We've been doing it in pieces since Ashfen. Velorum isn't a place we find. It's what happens when we stop pretending the load can be split."
 
-Riven remembered Lyra's voice: *loss, not refinement.* He remembered Halverin's counts. He remembered the woodcut at Heartbridge, two men, one rope, heroes curse never forgotten.
+Riven remembered Lyra's voice: *loss, not getting better.* He remembered Halverin's counts. He remembered the woodcut at Heartbridge, two men, one rope, heroes curse never forgotten.
 
 He had wanted to be remembered for something that mattered. The town was already remembering the wrong version. He could feel it in the stares on the walk in, in the way people stepped aside.
 

@@ -24,7 +24,7 @@ Not raiders. Not fire. Something wrong in the land's alignment, a tear in the wa
 
 Cael's skin prickled the way it had at Ashring, not magic on the tongue, pressure behind the eyes and in the teeth. Riven felt it too. Cael knew because Riven's hand tightened on the support post at the same instant.
 
-"Velorum correction," Bran yelled, backing up. "Or whatever eats corrections."
+"The ground's tearing!" Bran yelled, backing up. "Or whatever the hell this is."
 
 Cael did not have theology. He had work.
 
@@ -32,7 +32,7 @@ Cael did not have theology. He had work.
 
 "On you," Riven said.
 
-They drove support posts into the runout while laborers fed timber. Pain crossed clean when they chose it, dirty when fear spiked. Cael felt Riven's memory of the square and his own memory of the riverside entrance braid into one drive: *do not split.*
+They drove support posts into the runout while laborers fed timber. Pain crossed clean when they chose it, dirty when fear spiked. Cael felt Riven's memory of the square and his own memory of the riverside entrance braid into one drive: *don't pull apart.*
 
 A laborer named Jess caught Cael's eye and fed support posts without being asked. She had worked Kestrel Gate repairs after the attack. She did not ask how the bond worked. She asked where to put her hands.
 

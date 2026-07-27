@@ -42,7 +42,7 @@ Riven laughed without humor. "It's the only part I have left."
 
 Lyra was quiet for a moment. Outside, a cart rolled past and someone shouted about rope lines. Through the high windows Riven caught only rooflines and the plumb line swaying in the square below; hammers, a child crying, Halverin's horn testing one note and cutting off.
 
-"This isn't refinement," she said. She set down the needle roll and faced him fully. No chart. No diagnosis sheet. Just the room and the bond loud between them.
+"This isn't getting better," she said. She set down the needle roll and faced him fully. No chart. No diagnosis sheet. Just the room and the bond loud between them.
 
 Riven's throat tightened. "Say it plain."
 
@@ -86,7 +86,7 @@ She did not flinch. "There it is," Lyra said.
 
 "I didn't—"
 
-Lyra leaned back. "You did. Through the bond. Through your face." "I'm not angry at you for wanting. I'm telling you the wanting can't stay yours. That's loss—not refinement."
+Lyra leaned back. "You did. Through the bond. Through your face." "I'm not angry at you for wanting. I'm telling you the wanting can't stay yours. That's loss—not getting better."
 
 Riven's hands closed on the cup. "Cael feels it."
 

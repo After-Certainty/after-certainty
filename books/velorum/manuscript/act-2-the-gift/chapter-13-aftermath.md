@@ -108,7 +108,7 @@ Riven stopped at the door, hand still on the frame. "You can tell?"
 
 She washed her hands though they were already clean. "Halverin will put you center line when he runs his demonstration. Merrow will put you on debris until then. Listen to Merrow."
 
-A runner burst through the annex door with a slate—*injury count by pair-type, magistrate office.* Lyra read it once and handed it back. "Body count by bed. Tell him the difference."
+A runner burst through the annex door with a slate—*injury count by the pair, magistrate office.* Lyra read it once and handed it back. "Body count by bed. Tell him the difference."
 
 Riven waited. Lyra finally looked up. "That's one pair of shoulders trying to carry too much weight."
 

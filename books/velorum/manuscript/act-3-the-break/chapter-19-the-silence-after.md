@@ -128,7 +128,7 @@ Riven lay on the other cot with one arm over his eyes. "Say it," he said.
 
 Cael swallowed. "I don't know what we are. I know I'm not a wall. Neither are you."
 
-Riven's arm moved. He looked at Cael across the narrow room. Through the bond Cael felt the echo of Lyra's words: *loss, not refinement.*
+Riven's arm moved. He looked at Cael across the narrow room. Through the bond Cael felt the echo of Lyra's words: *loss, not getting better.*
 
 "I do," Riven said quietly. "That's why I'm scared."
 
@@ -196,7 +196,7 @@ Riven drank. "That the bond failed. That Halverin failed. That the crowd failed.
 
 Cael's jaw worked. "Which one do you pick?"
 
-"Lyra's," Riven said. "Loss. Not refinement."
+"Lyra's," Riven said. "Loss. Not getting better."
 
 Cael nodded once. He did not argue. Through the bond Riven felt him want to—and felt him stop, which was new, and almost worse.
 
@@ -260,7 +260,7 @@ Cael watched from the barracks steps and did not go down. Going down would make 
 
 Cael went to the command hall because Merrow sent for him, not because he believed in halls anymore. The doors stood open to the yard. Lamp smoke and wet wool rolled out across the threshold. She had casualty slates and supply counts and no poetry in her mouth.
 
-On the way he passed Halverin's office. The door stood ajar. Inside, three clerks and a senior aide had the demonstration report spread across two tables. One clerk read aloud: "*Crowd interference exceeded tolerance at margin increase.*" Another said, "Write *pair variance*—council likes that better." The senior aide rubbed his eyes. "Write both. File under pending."
+On the way he passed Halverin's office. The door stood ajar. Inside, three clerks and a senior aide had the demonstration report spread across two tables. One clerk read aloud: "*Crowd noise broke the count at the harder lift.*" Another said, "Write *the pair mismatched*—council likes that better." The senior aide rubbed his eyes. "Write both. File under pending."
 
 Halverin sat in the corner chair with his coat still buttoned and a cup of cold tea untouched. He was not speaking.
 

@@ -200,7 +200,7 @@ Halverin didn't look up. "Merrow."
 
 The aide left. A runner came back from the east shelters—blood on his cuff, slate smeared. "Two hurt in the riot. Merrow wanted the pair there first."
 
-Halverin read the slate without looking up. "Riverside first. File the hurt under injury, not pair-type." The runner left.
+Halverin read the slate without looking up. "Riverside first. File the hurt under injury, not under the pair." The runner left.
 
 Halverin gathered the maps. "You'll hear worse stories by tonight. File what you see."
 
@@ -280,7 +280,7 @@ Cael didn't react. "Then lower chapel floor."
 
 The man hesitated, then left. The second followed a few seconds later, muttering to himself. The crowd broke apart. People went back to waiting. Riven hated how quickly that happened—and that the line had gone longer because of them, not shorter.
 
-A clerk tried to get Riven's name for an incident slate. Riven pointed at Cael. Cael signed with chalk on Merrow's stub—*riverside entrance, blade drawn, no blood.* The clerk looked disappointed. "Halverin's office wanted pair-type," he said. "Miracle hold or sync save. This won't paste." He looked at Riven, then at Cael. "You're the one who reads the counts. Next time give me something that pastes." He left with the stub uncopied.
+A clerk tried to get Riven's name for an incident slate. Riven pointed at Cael. Cael signed with chalk on Merrow's stub—*riverside entrance, blade drawn, no blood.* The clerk looked disappointed. "Halverin's office wanted it by the pair," he said. "Hero hold or shared save. This won't paste." He looked at Riven, then at Cael. "You're the one who reads the counts. Next time give me something that pastes." He left with the stub uncopied.
 
 Cael pretended the question hadn't landed. It had. Through the bond Riven felt him file it under *somebody asked me first* and hate that he cared.
 
