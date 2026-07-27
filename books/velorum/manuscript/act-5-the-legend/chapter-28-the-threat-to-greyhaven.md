@@ -38,7 +38,7 @@ A laborer named Jess caught Cael's eye and fed support posts without being asked
 
 "Here," Cael said. "Then get clear."
 
-She moved. Good. The less people in the circuit, the better.
+She moved. Good. The fewer people tied into this, the better.
 
 The tear in the channel widened. A section of north street cobble lifted and settled wrong. A warehouse wall groaned. People ran. A cart overturned near the fish stalls and spilled silver that nobody stopped to collect.
 
@@ -50,7 +50,7 @@ Cael saw what was at stake: if the town fell, everything they had paid would mea
 
 "I know," Riven said, teeth bared.
 
-They stopped resisting partition. Fatigue, fear, pain, moved as one load. Cael's shoulders burned. Riven's ribs ached from a bruise three days old and fresh at once.
+They stopped trying to keep anything separate. Fatigue, fear, pain moved as one load. Cael's shoulders burned. Riven's ribs ached from a bruise three days old and fresh at once.
 
 The water slowed. Not natural. Forced. The tear eased a fraction.
 
@@ -64,7 +64,7 @@ They split without splitting, Cael to the yard wall, Riven to the channel mouth,
 
 Cael drove a support post into the runout at the cooper's yard while the loft wall shivered. Plaster dust fell in his hair. He tasted it in Riven's mouth across the bond. Riven cursed at the channel mouth where water still fought the cut. The curse arrived in Cael's throat before he could stop it.
 
-The loft beam he had counted cracks in three nights ago groaned. Cael's old bed frame was visible through a gap in the wall. He felt nothing for the room except as load geometry: if the yard went, the channel mouth lost support.
+The loft beam he had counted cracks in three nights ago groaned. Cael's old bed frame was visible through a gap in the wall. He felt nothing for the room except as brace work: if the yard went, the channel mouth lost support.
 
 "Hold," Cael said.
 

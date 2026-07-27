@@ -64,7 +64,7 @@ Riven breathed in. Cael breathed with him on the fourth count, not performance, 
 
 He stopped fighting the bond.
 
-Not the partial refusal of the square when they disobeyed counts. Not the road's tired habit. Full weight. Every partition he had tried to keep, fear, love, fatigue, want, shame, he let move—not because he believed, because the town would pay if he didn't.
+Not the partial refusal of the square when they disobeyed counts. Not the road's tired habit. Full weight. Everything he had tried to keep to himself—fear, love, fatigue, want, shame—he let move. Not because he believed. Because the town would pay if he didn't.
 
 It hurt in his chest and Cael's at once, breath stolen twice over.
 
@@ -74,7 +74,7 @@ Cael gasped. Riven gasped. They grabbed each other's forearms on the hill stone 
 
 "I'm holding," Riven said. They held.
 
-Pressure hit behind the eyes, along the spine, in the teeth. Not a figure. A system answering a pair that finally stopped pretending they were two separate loads.
+Pressure hit behind the eyes, along the spine, in the teeth. Not a figure. The bond answering two men who finally stopped pretending they were carrying separate loads.
 
 Riven felt Greyhaven in the bond, not thoughts, consequence: berms, channels, roofs, bodies running. The cooper's yard where they had slept last night. The loft beam Cael had counted cracks in. The lower market where Bran had first seen them alive. Water jumped the cut. Roofs shivered. Every place they had touched in three days pulled at once.
 
@@ -88,7 +88,7 @@ Behind them someone sobbed. Riven could not turn to look. The rope crew had drop
 
 Riven's vision narrowed. He tasted iron and harbor salt. Cael's steadiness kept him from sliding off the stone into the kind of panic that would have dropped the load onto the town.
 
-Below, someone rang a festival bell out of habit. Riven felt the town flinch in the circuit and held anyway.
+Below, someone rang a festival bell out of habit. Riven felt the town flinch through the bond and held anyway.
 
 On the ground line Bran's cousin screamed when the peg pulled halfway out. Bran drove it back with his boot and swore at the grass. Jess shouted coordinates to her brother on the lower peg—*left, not your left*—wrong hand once, corrected. The rope crew held. Nobody ran.
 

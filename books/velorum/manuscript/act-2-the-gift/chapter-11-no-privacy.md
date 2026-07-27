@@ -106,7 +106,7 @@ For a moment he thought he'd kept it. Then grief hit him from across the squareâ
 
 Riven tried againâ€”different memory, different shelf. The baker's lane in summer. Heat. Stolen plums. Cael's laugh when they ran. The laugh crossed before the plums did. Riven slammed his palm against the shutter and felt Cael flinch three streets away.
 
-The wine cup slipped from his hand. Clay shattered against the cobbles. No locked room. No hidden corner. No private shelf inside his own head.
+The wine cup slipped from his hand. Clay shattered against the cobbles. No locked room. No hidden corner. Nowhere left inside his own head that stayed his.
 
 A night watch pair turned the corner. Riven pressed against the shutter until they passed. One of them muttered about drunk pairs. Riven didn't correct him. Correction would travel too.
 

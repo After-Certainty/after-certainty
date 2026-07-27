@@ -32,7 +32,7 @@ The cooper himself came out mid-sale and looked at the three of them the way peo
 
 The pilgrim who had snapped at Riven wore a cheap badge from a chapbook printer in the next town. He wanted a signature on his pamphlet. Riven had said no with his whole body. The bond had broadcast the refusal before the word left his mouth. Cael had felt it and turned, nails forgotten in his fist.
 
-Lyra had seen that kind of spill before in the annex, when the bond was still new enough to surprise them. Now it was furniture. She wondered if they slept anymore without sharing the edge of a dream. She wondered if Riven still tried to keep one thought to himself in the loft above the cooper's yard. She did not ask. Questions like that had become part of the circuit if she stood too close.
+Lyra had seen that kind of spill before in the annex, when the bond was still new enough to surprise them. Now it was furniture. She wondered if they slept anymore without sharing the edge of a dream. She wondered if Riven still tried to keep one thought to himself in the loft above the cooper's yard. She did not ask. Questions like that spilled into them if she stood too close.
 
 Riven saw her first. He stopped so fast Cael stumbled half a step and felt it.
 
@@ -76,7 +76,7 @@ Lyra looked at the statue visible above roofs, smooth faces, rope clean as theol
 
 Riven flinched. Cael did too, echoed.
 
-Lyra did not step closer. She would not become part of the circuit again. She had left to keep one room closed. She had come back to see whether the room still existed anywhere in them.
+Lyra did not step closer. She would not get pulled into them again. She had left to keep one room closed. She had come back to see whether the room still existed anywhere in them.
 
 "I didn't come to fix you," she said.
 
