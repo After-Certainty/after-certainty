@@ -98,7 +98,7 @@ Cael opened his mouth. Closed it. The honest answer was no. The honest answer wa
 
 "I know." Lyra released Riven's wrist. "South tent's full. Take water. Don't sign anything tonight."
 
-Riven looked at Cael's bandaged palms, at the way a guard at the lane mouth had called *Captain* before he had said Riven's name all day. "I thought you'd come down when you saw me on the wagon," he said, quiet enough that Lyra pretended not to hear. "I thought that was still us."
+Riven looked at Cael's bandaged palms, at the way a guard at the lane mouth had called *Captain* before he had said Riven's name all day. "I thought you'd come down when you saw me on the wagon," he said, quiet enough that Lyra pretended not to hear. "I thought that was still us. Hell."
 
 Cael opened his mouth. Closed it. He had stayed on the steps because Halverin's lie needed to die out loud. He had told himself Riven would understand that too, once the talking stopped.
 
@@ -310,7 +310,7 @@ A charm seller had moved his tray from the square mouth to the barracks corner, 
 
 A cooper's crew loaded splintered timber onto a debris wagon in the basin mud. The nephew with rope burns waved at Cael and then thought better of it. Riven's shoulder still echoed from yesterday's lift. Cael felt the echo and did not comment.
 
-"Lyra's right," Riven said. "Fucking hell. She's right."
+"Lyra's right," Riven said. "Fucking hell. She's right. Goddamnit."
 
 "I know," Cael said. "Do you believe it?" Cael watched a strip of paper fall and twist in the wind. *STEADINESS RETURNS* broke in half. "Yes," he said. "I just don't know what to do with yes yet."
 
@@ -434,7 +434,7 @@ From the annex slit at third watch: corridor footsteps, paper slid under the doo
 
 At dusk Cael turned from the glass. Riven was on the cot, awake, staring at the door as if it might open. It would not open the way they wanted. "She leaves tomorrow night," Cael said.
 
-"I know," Riven said. "Shit. I know."
+"I know," Riven said. "Shit. I know. Fuck."
 
 They did not say more. The silence held—footsteps in the corridor, a wagon wheel outside, Lyra's bundle already packed on the second wagon bench, not gone yet but going. Riven turned on the cot. Cael heard the fabric scrape through the bond before he heard it with his ears.
 

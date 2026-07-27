@@ -148,7 +148,7 @@ Cael heard the split in it—Riven hearing *stay alive*, him hearing *don't wast
 
 Color crept into Riven's face, and for a while he stared at the stones beneath their feet. The kitchen window above them had gone dark. Mara moved inside—chair scrape, low argument—and the yard went quiet except for the drain ticking.
 
-"I don't want to be the idiot who followed you because you sounded certain."
+"I don't want to be the idiot who followed you because you sounded certain. Fuck that."
 
 "Then don't follow me," Cael said.
 
@@ -298,7 +298,7 @@ For a while neither of them spoke, then Riven let out a long breath. "All right.
 
 Cael waited.
 
-"I'm walking because you're going." Riven dragged a hand across his mouth. "And I'm not the kind of bastard who lets his friend find out alone."
+"I'm walking because you're going." Riven dragged a hand across his mouth. "And I'm not the kind of bastard who lets his friend find out alone. Goddamnit."
 
 Cael nodded once. "Fair." The chalk map was still on the yard stones—lines washed pale by dew, distances rounded up the way Cael always rounded up. Riven toed the fork mark. "If we're wrong about the seep?"
 
@@ -358,7 +358,7 @@ Riven was quiet long enough that Cael thought he'd won. Then: "If we die out the
 
 "Probably," Cael said.
 
-"That's comforting."
+"That's comforting. Jesus Fucking Christ."
 
 "I wasn't trying to be," Cael said.
 

@@ -6,11 +6,11 @@ Riven woke with Cael's fall still in his body, hands grabbing for something that
 
 "Bad?" Cael asked.
 
-Riven rubbed grit from his eyes. "Bad enough."
+Riven rubbed grit from his eyes. "Bad enough. Shit."
 
 "You fell in mine too," Cael said.
 
-"I know," Riven said.
+"I know," Riven said. "Fuck."
 
 The sky above the cut was the color of old tin with no warmth in it and no promise either, their bedrolls damp while the Seeker sat twenty paces off, already upright with hood up and staff across their knees. They had not slept. Or had slept sitting. Riven couldn't tell the difference anymore.
 
@@ -22,7 +22,7 @@ The sky above the cut was the color of old tin with no warmth in it and no promi
 
 Cael sat up slowly. "Sorry."
 
-"Stop apologizing." The answer came out harder than he intended. "It's not you."
+"Stop apologizing." The answer came out harder than he intended. "It's not you. Goddamnit."
 
 Cael looked away. Through the bond, Riven felt the apology continue anyway. He wanted it to stop. It didn't.
 
@@ -162,7 +162,7 @@ At the ridge he stopped where the country spread beneath them with no farms and 
 
 Cael stared toward the horizon. "I think something is."
 
-"Yeah." Riven rubbed the back of his neck.
+"Yeah." Riven rubbed the back of his neck. "Hell of a something."
 
 Neither of them said anything after that.
 

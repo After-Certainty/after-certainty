@@ -152,13 +152,13 @@ The bond strained, not broken yet, but close. The air over the fountain basin lo
 
 He looked at the chalk marks. He looked at Merrow's open wagon. He looked at Halverin's face and saw the first crack in the magistrate's certainty, quickly plastered over with volume.
 
-"One more sequence," Cael said to Riven. "Match me."
+"One more sequence," Cael said to Riven. "Match me. Shit."
 
 "I've been matching you," Riven said. "The whole fucking time."
 
 "Then match harder," Cael said.
 
-"Harder." Riven laughed once, raw. "Fuck almighty."
+"Harder." Riven laughed once, raw. "Fuck almighty. Goddamnit."
 
 Through the bond Riven felt how much Cael meant it—not cruelty, hope dressed as instruction. That was worse. On the Heartbridge path Cael had said *match me* when a cart was listing and meant *trust the weight*. Here he meant *trust Halverin until the weight proves him wrong*. Riven did not know how to say the difference without breaking the next count.
 
@@ -218,7 +218,7 @@ Cael stopped listening. He looked at Riven. Riven looked back. Not Halverin's rh
 
 "On me," Cael said.
 
-"On you," Riven said. "Fuck. On you."
+"On you," Riven said. "Fuck. On you. Hell."
 
 They moved together, not for the crowd, not for the magistrate, for the load that was trying to tear through both of them at once. The square was still screaming. The air was still wrong. Halverin was still talking.
 

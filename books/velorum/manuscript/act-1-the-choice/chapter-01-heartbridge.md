@@ -120,19 +120,19 @@ Riven blinked. "What?"
 
 "The inn. The docks. Money." Cael shrugged. "You always look angry after."
 
-Heat climbed into Riven's face—part anger, part embarrassment at being read that easily. "I'm angry because I can already feel tomorrow in my back."
+Heat climbed into Riven's face—part anger, part embarrassment at being read that easily. "I'm angry because I can already feel tomorrow in my fucking back."
 
 "Which part?"
 
-"The part where I haul crates until my back gives out and the boss still counts wrong." He scrubbed his palms against his trousers. "The part where Mara scrubs my name and hires somebody cheaper by noon."
+"The part where I haul crates until my back gives out and the boss still counts wrong." He scrubbed his palms against his trousers. "The part where Mara scrubs my name and hires somebody cheaper by noon. Goddamnit."
 
 Cael nodded. Fair enough.
 
-Riven looked back toward the harbor. "If I die tomorrow, nobody's singing about it."
+Riven looked back toward the harbor. "If I die tomorrow, nobody's singing about it. Hell, nobody's even noticing."
 
 Cael laughed once, short and unexpected. "That's your nightmare?"
 
-Riven glared at him. "Don't."
+Riven glared at him. "Don't. Just fucking don't."
 
 Cael went quiet for a beat—not disagreement, recognition. Riven was afraid of vanishing. He was afraid of staying and still not knowing. "Buy me lunch first, then."
 
@@ -248,7 +248,7 @@ Riven blinked. "What?"
 
 "I want to go look." Cael looked north. "If any of it's true, I don't want to waste it down here counting wrong."
 
-Riven stared at him. "You're serious."
+Riven stared at him. "You're serious. Jesus Fucking Christ."
 
 "Yeah."
 
@@ -274,11 +274,11 @@ Below them, wrong note from the square, then laughter—somebody covering for th
 
 Riven looked back toward town: Mara's inn, the docks, the same streets, the same jobs, the same board, the same tomorrow. Then he looked north.
 
-"Christ," he said quietly. Not agreement. Not yet.
+"Christ," he said quietly. Not agreement. Not yet. "Shit."
 
 Cael waited. Riven kicked a loose stone off the path. It bounced once and vanished into the grass.
 
-"I hear you," Riven said. "That doesn't mean I'm saying yes before we've slept on it."
+"I hear you," Riven said. "That doesn't mean I'm saying yes before we've slept on it. Fuck that."
 
 Cael's mouth twitched. "Fair."
 

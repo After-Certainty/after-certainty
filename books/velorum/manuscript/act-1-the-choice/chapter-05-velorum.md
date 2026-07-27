@@ -22,7 +22,7 @@ His pack strap dug into his shoulder—the same worn seam from Mara's loft. He s
 
 Sweat gathered at his hairline though the air was cold; he wiped it with his free hand and smelled salt and iron, wrong for a mountaintop and wrong for anywhere that wasn't the harbor, while the carved channels that should have carried runoff sat dry. Riven watched a leaf—or something like a leaf—skitter across the center without wind. It stopped. Started again. Wrong direction.
 
-"Cael." Riven's voice came out thin. Wrong. "We should really go."
+"Cael." Riven's voice came out thin. Wrong. "We should really fucking go."
 
 "Maybe." Cael again. The same answer.
 
@@ -148,7 +148,7 @@ They let go of the rope. Riven wiped his palms on his coat. Cael straightened an
 
 Cael flexed his hand once. "For now."
 
-"We're done." Riven hitched his pack higher on his shoulder. "Turn around before dark. We tell her the pamphlet was right about the bowl and wrong about everything else."
+"We're done." Riven hitched his pack higher on his shoulder. "Turn around before dark. Goddamnit. We tell her the pamphlet was right about the bowl and wrong about everything else."
 
 He took two steps toward the rim. Cael didn't follow.
 
@@ -158,7 +158,7 @@ He took two steps toward the rim. Cael didn't follow.
 
 "You felt the ring drop."
 
-"So did you." Riven stopped. "That's weather. Or stone. Not a god in a hat."
+"So did you." Riven stopped. "That's weather. Or stone. Not a god in a fucking hat."
 
 "No god." Cael's eyes stayed on the groove. "Still something."
 
@@ -172,13 +172,13 @@ Riven wanted to lie, wanted to say he'd been dragged here, wanted to say this wa
 
 He thought about turning around one more time. Gate. Board. Handcart. Small failures he understood.
 
-"I'm not leaving you up here alone." The admission hurt, more than the fear, more than the weight in his chest. "I'm not giving you that story."
+"I'm not leaving you up here alone." The admission hurt, more than the fear, more than the weight in his chest. "I'm not giving you that story. Hell no."
 
 Cael swallowed. Something moved across his face, gone before Riven could name it.
 
 "That's not a yes," Cael said.
 
-"It's not a no," Riven said.
+"It's not a no," Riven said. "Shit."
 
 "Riven." Cael's grip didn't ease.
 
