@@ -133,3 +133,11 @@ export const READING_TEXT_SIZE_LABELS: Record<ReadingTextSize, string> = {
   lg: "Large",
   xl: "Extra large",
 };
+
+/** Rem values applied as `--reader-font-size` on the chapter frame. */
+export const READING_TEXT_SIZE_REMS: Record<ReadingTextSize, string> = {
+  sm: "0.9375rem",
+  md: "1.0625rem",
+  lg: "1.25rem",
+  xl: "1.5rem",
+};

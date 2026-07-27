@@ -20,7 +20,7 @@ describe("ReadingPreferencesControls", () => {
     window.localStorage.clear();
   });
 
-  it("applies default size data attribute without theme controls", () => {
+  it("applies default size data attribute and CSS variable without theme controls", () => {
     render(
       <ReadingPreferencesRoot aria-labelledby="t">
         <h1 id="t">Title</h1>
@@ -28,8 +28,9 @@ describe("ReadingPreferencesControls", () => {
       </ReadingPreferencesRoot>,
     );
 
-    const root = document.querySelector(".chapter-reader");
+    const root = document.querySelector(".chapter-reader") as HTMLElement;
     expect(root).toHaveAttribute("data-reading-size", "md");
+    expect(root.style.getPropertyValue("--reader-font-size")).toBe("1.0625rem");
     expect(root).not.toHaveAttribute("data-reading-theme");
     expect(screen.queryByRole("radiogroup", { name: "Reading theme" })).not.toBeInTheDocument();
   });
@@ -44,7 +45,9 @@ describe("ReadingPreferencesControls", () => {
     );
 
     await user.click(screen.getByRole("button", { name: "Increase text size" }));
-    expect(document.querySelector(".chapter-reader")).toHaveAttribute("data-reading-size", "lg");
+    const root = document.querySelector(".chapter-reader") as HTMLElement;
+    expect(root).toHaveAttribute("data-reading-size", "lg");
+    expect(root.style.getPropertyValue("--reader-font-size")).toBe("1.25rem");
     expect(getReadingPreferences().textSize).toBe("lg");
     expect(window.localStorage.getItem(READING_PREFERENCES_STORAGE_KEY)).toContain("lg");
   });

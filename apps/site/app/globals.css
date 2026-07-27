@@ -107,80 +107,6 @@
     outline-offset: 2px;
   }
 
-  /* Rem-based type so browser zoom scales cleanly. Size steps from READ-014. */
-  .prose-reading {
-    font-size: var(--reader-font-size, 1.0625rem);
-    line-height: 1.75;
-    color: var(--fg);
-  }
-
-  .chapter-reader {
-    --reader-font-size: 1.0625rem;
-  }
-
-  .chapter-reader[data-reading-size="sm"] {
-    --reader-font-size: 0.9375rem;
-  }
-
-  .chapter-reader[data-reading-size="md"] {
-    --reader-font-size: 1.0625rem;
-  }
-
-  .chapter-reader[data-reading-size="lg"] {
-    --reader-font-size: 1.25rem;
-  }
-
-  .chapter-reader[data-reading-size="xl"] {
-    --reader-font-size: 1.5rem;
-  }
-
-  /*
-   * Manuscript colors follow site tokens (light/dark), not prose-neutral / prose-invert.
-   * OS prefers-color-scheme must not invert chapter text against the chosen site theme.
-   * Font size is set here so Typography’s .prose base size does not ignore reader controls.
-   */
-  .chapter-reader .chapter-manuscript.prose {
-    --tw-prose-body: var(--fg);
-    --tw-prose-headings: var(--fg);
-    --tw-prose-lead: var(--muted);
-    --tw-prose-links: var(--accent);
-    --tw-prose-bold: var(--fg);
-    --tw-prose-counters: var(--muted);
-    --tw-prose-bullets: var(--muted);
-    --tw-prose-hr: color-mix(in oklab, var(--border) 80%, transparent);
-    --tw-prose-quotes: var(--fg);
-    --tw-prose-quote-borders: var(--accent);
-    --tw-prose-captions: var(--muted);
-    --tw-prose-code: var(--fg);
-    --tw-prose-pre-code: var(--fg);
-    --tw-prose-pre-bg: var(--bg-elevated);
-    --tw-prose-th-borders: var(--border);
-    --tw-prose-td-borders: var(--border);
-    --tw-prose-invert-body: var(--fg);
-    --tw-prose-invert-headings: var(--fg);
-    --tw-prose-invert-lead: var(--muted);
-    --tw-prose-invert-links: var(--accent);
-    --tw-prose-invert-bold: var(--fg);
-    --tw-prose-invert-counters: var(--muted);
-    --tw-prose-invert-bullets: var(--muted);
-    --tw-prose-invert-hr: color-mix(in oklab, var(--border) 80%, transparent);
-    --tw-prose-invert-quotes: var(--fg);
-    --tw-prose-invert-quote-borders: var(--accent);
-    --tw-prose-invert-captions: var(--muted);
-    --tw-prose-invert-code: var(--fg);
-    --tw-prose-invert-pre-code: var(--fg);
-    --tw-prose-invert-pre-bg: var(--bg-elevated);
-    --tw-prose-invert-th-borders: var(--border);
-    --tw-prose-invert-td-borders: var(--border);
-    color: var(--fg);
-    font-size: var(--reader-font-size, 1.0625rem);
-    line-height: 1.75;
-  }
-
-  .chapter-manuscript {
-    line-height: 1.75;
-  }
-
   .chapter-manuscript .footnotes {
     margin-top: 3rem;
     padding-top: 1.5rem;
@@ -224,4 +150,74 @@
       scroll-behavior: auto;
     }
   }
+}
+
+/*
+ * Unlayered on purpose: Typography’s `.prose` utilities live in a cascade layer.
+ * Unlayered rules beat layered utilities, so reader size/color actually apply.
+ * (Previously these sat in @layer components and lost to `.prose` — dark mode kept
+ * dark gray body text, and font-size controls had no visible effect.)
+ */
+.prose-reading {
+  font-size: var(--reader-font-size, 1.0625rem);
+  line-height: 1.75;
+  color: var(--fg);
+}
+
+.chapter-reader {
+  --reader-font-size: 1.0625rem;
+}
+
+.chapter-reader[data-reading-size="sm"] {
+  --reader-font-size: 0.9375rem;
+}
+
+.chapter-reader[data-reading-size="md"] {
+  --reader-font-size: 1.0625rem;
+}
+
+.chapter-reader[data-reading-size="lg"] {
+  --reader-font-size: 1.25rem;
+}
+
+.chapter-reader[data-reading-size="xl"] {
+  --reader-font-size: 1.5rem;
+}
+
+.chapter-reader .chapter-manuscript.prose {
+  --tw-prose-body: var(--fg);
+  --tw-prose-headings: var(--fg);
+  --tw-prose-lead: var(--muted);
+  --tw-prose-links: var(--accent);
+  --tw-prose-bold: var(--fg);
+  --tw-prose-counters: var(--muted);
+  --tw-prose-bullets: var(--muted);
+  --tw-prose-hr: color-mix(in oklab, var(--border) 80%, transparent);
+  --tw-prose-quotes: var(--fg);
+  --tw-prose-quote-borders: var(--accent);
+  --tw-prose-captions: var(--muted);
+  --tw-prose-code: var(--fg);
+  --tw-prose-pre-code: var(--fg);
+  --tw-prose-pre-bg: var(--bg-elevated);
+  --tw-prose-th-borders: var(--border);
+  --tw-prose-td-borders: var(--border);
+  color: var(--fg);
+  font-size: var(--reader-font-size, 1.0625rem);
+  line-height: 1.75;
+}
+
+.chapter-reader .chapter-manuscript.prose :where(p, li, h1, h2, h3, h4, h5, h6, blockquote, td, th, strong, a) {
+  color: inherit;
+}
+
+.chapter-reader .chapter-manuscript.prose :where(h1, h2, h3, h4, h5, h6, strong) {
+  color: var(--fg);
+}
+
+.chapter-reader .chapter-manuscript.prose :where(a) {
+  color: var(--accent);
+}
+
+.chapter-manuscript {
+  line-height: 1.75;
 }

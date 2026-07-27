@@ -6,6 +6,7 @@ import { useSyncExternalStore } from "react";
 import {
   getReadingPreferences,
   READING_TEXT_SIZE_LABELS,
+  READING_TEXT_SIZE_REMS,
   READING_TEXT_SIZES,
   setReadingTextSize,
   subscribeReadingPreferences,
@@ -29,10 +30,11 @@ function useReadingPreferences(): ReadingPreferences {
 type ReadingPreferencesRootProps = {
   children: ReactNode;
   className?: string;
-} & Omit<HTMLAttributes<HTMLElement>, "children" | "className">;
+} & Omit<HTMLAttributes<HTMLElement>, "children" | "className" | "style">;
 
 /**
- * Article wrapper that applies reader-local text-size data attributes (READ-014).
+ * Article wrapper that applies reader-local text-size (READ-014).
+ * Sets `--reader-font-size` inline so size wins over Typography utilities.
  */
 export function ReadingPreferencesRoot({
   children,
@@ -46,6 +48,11 @@ export function ReadingPreferencesRoot({
       {...props}
       className={`chapter-reader ${className}`.trim()}
       data-reading-size={prefs.textSize}
+      style={
+        {
+          ["--reader-font-size" as string]: READING_TEXT_SIZE_REMS[prefs.textSize],
+        } as HTMLAttributes<HTMLElement>["style"]
+      }
     >
       {children}
     </article>
