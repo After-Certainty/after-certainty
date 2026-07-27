@@ -530,11 +530,11 @@ flowchart LR
 | **Dependencies** | READ-002; section anchors from READ-003 |
 | **Acceptance criteria** | Add/remove bookmark; list accessible from book overview or reader chrome |
 
-#### READ-014 — Text-size and reading theme controls
+#### READ-014 — Text-size controls
 
 | Field | Value |
 |-------|-------|
-| **Goal** | Reader-local type size and reading theme (distinct from global site theme if needed). |
+| **Goal** | Reader-local type size (site light/dark remains the appearance theme). |
 | **Type / owner / size** | implementation / site / M |
 | **Status** | Implemented — `ac_reading_prefs` localStorage with rem-based S–XL text size; site light/dark remains the only theme. Manuscript colors follow site tokens (not prose-invert). |
 | **Likely files** | `apps/site/lib/reading/readingPreferences.ts`; `apps/site/components/reading/reading-preferences-controls.tsx`; `globals.css`; chapter reader shell; chapter-manuscript-body |
@@ -985,7 +985,7 @@ Intentionally postponed so they do not re-enter near-term planning:
 | Phase | Complete when |
 |-------|----------------|
 | **1 — Read After Certainty** | Published catalog editions have SSR chapter pages with body HTML, footnotes, TOC/prev-next, a11y baseline; chapters eligible for sitemap/search; overview links work; E2E smoke green; downloads still available; cohort = all published catalog books (READ-010) |
-| **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size/reading theme; TOC drawer + copy section link; in-book search either shipped or explicitly deferred |
+| **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size controls; TOC drawer + copy section link; in-book search either shipped or explicitly deferred |
 | **3 — Editorial and historical** | Evidence workflow exists; confirmed dates backfilled; priority enrichment batch 6–9 + poems done or explicitly re-prioritized; thin relatedWorks/situations closed; historical What’s New for dated works |
 | **4 — Semantic traceability** | Definition helper live; thinker coverage panel (+ JSON-LD); targeted grounding batch done; creatorNames warnings cleared; provenance UI decided |
 | **5 — Think Together** | Brief accepted; at least one lightweight pilot path live **or** explicit deferral recorded in §12 |
