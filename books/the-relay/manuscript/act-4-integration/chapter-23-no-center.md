@@ -778,10 +778,4 @@ The center of the room remained empty.
 
 For the first time all morning, Jun did not experience that as a failure.
 
-The empty center was not where knowledge had failed to gather.
-
-It was the space knowledge would have to cross, be corrected by, and leave again if it was going to remain alive.
-
 No one held it.
-
-That was the point.
