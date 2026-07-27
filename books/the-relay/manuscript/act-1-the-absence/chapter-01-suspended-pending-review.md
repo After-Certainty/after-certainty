@@ -94,7 +94,7 @@ The panel held one line, in the flat unspaced type of the regional office:
 
 Lena read it twice, then a third time, because anger sometimes hid things. It hadn't. There was nothing to find. No who: it didn't say which authority, or whose hand. No why: it didn't say what had failed, or whether anything had — transit, signaling, the crossing itself, the right to ask. No when. No fault code, no posting office, no estimated restoration — not even the limp printed apology you always got, the one where some office too big to mean it was sorry for the inconvenience.
 
-Three words and a stamp. A shrug with formatting.
+Three words and a stamp. A shrug with formatting. By evening someone upstream would improve it into something longer and less true. She had watched that improvement her whole career, the way you watch a bad seal get stamped twice and called certified.
 
 It was a real object, at least. She could give it that. Someone had cut it, printed it, carried it down, and a frightened boy had pushed it into a slot. She reached up and worked the panel out of the board's clip and turned it over. The back was blank.
 

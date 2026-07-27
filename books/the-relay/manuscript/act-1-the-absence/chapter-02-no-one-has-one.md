@@ -190,7 +190,7 @@ Behind the glass Vane had both hands up, the older clerk beside him, and no one 
 
 "Terrible idea," she said, and followed.
 
-He climbed onto the edge of the baggage scale, which chimed in protest, put two fingers in his mouth, and whistled. That worked; the room turned. "Who heard Tarn is lost?" he called, and the room erupted — *my cousin, the board dropped, station crew said, names are gone.* Jun lifted both hands. "Good. Excellent. Very specific panic. Thank you." The confusion that followed wasn't calm, but it had some order to it.
+He climbed onto the edge of the baggage scale, which chimed in protest, put two fingers in his mouth, and whistled. That worked; the room turned. The scale chimed again, as if it also objected to being used as a podium. "Who heard Tarn is lost?" he called, and the room erupted — *my cousin, the board dropped, station crew said, names are gone.* Jun lifted both hands. "Good. Excellent. Very specific panic. Thank you." The confusion that followed wasn't calm, but it had some order to it.
 
 He pointed at a woman near the feed-screen. "You. Did you see names vanish, or did you see the board stop refreshing?"
 

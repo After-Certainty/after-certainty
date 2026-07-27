@@ -248,7 +248,7 @@ Then Senn said, "Put that boy in charge of insulting forms."
 
 Everyone looked at him.
 
-He looked at the manifest as if it had betrayed him personally. "If he is going to correct a bad field, he should learn how to leave the correction visible."
+He looked at the manifest as if it had betrayed him personally. "If he is going to correct a bad field, he should learn how to leave the correction visible. Do not improve the form into honesty. Honesty should look like an argument with the form."
 
 Lio froze.
 

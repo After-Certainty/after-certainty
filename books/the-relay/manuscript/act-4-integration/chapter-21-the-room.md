@@ -54,6 +54,8 @@ There it was.
 
 She laughed once, too sharply. "You look like you have been correcting water until it corrected you back."
 
+"You look like you have been arguing with doors until they stopped answering," Arin said.
+
 His face changed then. Not softening. Something worse. Something that had found the shape of home and been hurt by it.
 
 "Lena," he said.
