@@ -96,3 +96,25 @@ export function searchWithIndex(
   hits.sort((a, b) => b.score - a.score);
   return hits;
 }
+
+const IN_BOOK_RESULT_LIMIT = 12;
+
+/**
+ * Search chapter titles/summaries within one edition (READ-016).
+ * Does not search manuscript body text.
+ */
+export function searchWithinBook(
+  engine: SearchEngine,
+  query: string,
+  editionId: string,
+  options: Omit<RunSearchOptions, "bookIds" | "entityTypes"> = {},
+): SearchHit[] {
+  const trimmedEdition = editionId.trim();
+  if (!trimmedEdition) return [];
+  return searchWithIndex(engine, query, {
+    ...options,
+    entityTypes: ["chapter"],
+    bookIds: [trimmedEdition],
+    limit: options.limit ?? IN_BOOK_RESULT_LIMIT,
+  });
+}

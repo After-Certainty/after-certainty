@@ -254,10 +254,10 @@ flowchart LR
 |-------|---------|
 | **Problem** | V1 reading works, but return visits and comfort controls are thin. |
 | **User value** | Resume reading, bookmark places, adjust type size/theme, find within a book. |
-| **Current state** | Local progress, continue-reading, bookmarks, text size, TOC drawer, and copy section link shipped (READ-011–015). Path progress pattern exists for questions/trails. |
-| **Existing implementation** | `lib/reading/readingProgress.ts`; `continueReading.ts`; `readingBookmarks.ts`; `readingPreferences.ts` (text size); continue/bookmark/size panels; TOC drawer + `copy-section-link.tsx`; `lib/paths/pathProgress.ts`; site `theme-provider` for light/dark. |
+| **Current state** | Local progress, continue-reading, bookmarks, text size, TOC drawer, copy section link, and in-book search shipped (READ-011–016). Path progress pattern exists for questions/trails. |
+| **Existing implementation** | `lib/reading/readingProgress.ts`; `continueReading.ts`; `readingBookmarks.ts`; `readingPreferences.ts` (text size); continue/bookmark/size panels; TOC drawer + `copy-section-link.tsx`; `in-book-search.tsx` + `searchWithinBook` (chapter titles/summaries via global index `bookIds` filter); `lib/paths/pathProgress.ts`; site `theme-provider` for light/dark. |
 | **Existing documentation** | This roadmap; chapter-identity client storage keys. |
-| **Remaining work** | Optional in-book search; offline only as research spike. |
+| **Remaining work** | Offline only as research spike (READ-017, default defer). |
 | **Dependencies** | Phase 1 routes + stable IDs. |
 | **Corpus / site** | Site-only storage (localStorage); no corpus requirement. |
 | **Tests** | Storage key stability tests; UI tests for controls; no cross-device sync expectations. |
@@ -558,6 +558,8 @@ flowchart LR
 |-------|-------|
 | **Goal** | Find within one edition’s chapter titles/summaries (and optionally loaded chapter text with clear perf limits). |
 | **Type / owner / size** | implementation / site / L |
+| **Status** | Implemented — edition-scoped MiniSearch over chapter docs (titles/summaries/aliases); dialog on chapter reader + book overview; manuscript body deferred. |
+| **Likely files** | `lib/search/miniSearch.ts` (`bookIds` filter); `lib/search/query.ts` (`searchWithinBook`); `components/reading/in-book-search.tsx`; chapter reader shell; book overview layout |
 | **Dependencies** | Phase 1 search chapter docs helpful but not strictly required |
 | **Acceptance criteria** | Scoped results; no global index regression; empty states clear |
 
@@ -988,7 +990,7 @@ Intentionally postponed so they do not re-enter near-term planning:
 | Phase | Complete when |
 |-------|----------------|
 | **1 — Read After Certainty** | Published catalog editions have SSR chapter pages with body HTML, footnotes, TOC/prev-next, a11y baseline; chapters eligible for sitemap/search; overview links work; E2E smoke green; downloads still available; cohort = all published catalog books (READ-010) |
-| **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size controls; TOC drawer + copy section link; in-book search either shipped or explicitly deferred |
+| **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size controls; TOC drawer + copy section link; in-book search shipped (titles/summaries); offline spike deferred |
 | **3 — Editorial and historical** | Evidence workflow exists; confirmed dates backfilled; priority enrichment batch 6–9 + poems done or explicitly re-prioritized; thin relatedWorks/situations closed; historical What’s New for dated works |
 | **4 — Semantic traceability** | Definition helper live; thinker coverage panel (+ JSON-LD); targeted grounding batch done; creatorNames warnings cleared; provenance UI decided |
 | **5 — Think Together** | Brief accepted; at least one lightweight pilot path live **or** explicit deferral recorded in §12 |

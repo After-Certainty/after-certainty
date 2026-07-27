@@ -45,4 +45,5 @@ scope here.
 - [x] Local bookmarks (READ-013) — chapter/section toggle in reader; list on book pages
 - [x] Text-size controls (READ-014) — rem steps on manuscript body; site light/dark remains global theme
 - [x] TOC drawer + copy section link (READ-015) — mobile Contents dialog; clipboard for chapter/section URLs
-- [ ] In-book search / offline spike (READ-016+)
+- [x] In-book search (READ-016) — edition-scoped chapter titles/summaries dialog; keyboard listbox
+- [ ] Offline spike (READ-017+)
