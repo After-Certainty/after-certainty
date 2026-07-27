@@ -42,8 +42,11 @@ export type SearchOpenParams = {
   method: "header" | "shortcut" | "mobile" | "link" | "direct";
 };
 
+/** Search UI surface — `in_book` is edition-scoped chapter search (READ-016). */
+export type SearchSurface = "quick" | "full" | "in_book";
+
 export type SearchQueryParams = {
-  surface: "quick" | "full";
+  surface: SearchSurface;
   has_results: boolean;
   result_count_bucket: string;
   query_length_bucket: string;
@@ -52,16 +55,16 @@ export type SearchQueryParams = {
 export type SearchSelectParams = {
   content_type: string;
   item_id: string;
-  surface: "quick" | "full";
+  surface: SearchSurface;
   rank_bucket: string;
 };
 
 export type SearchRefineParams = {
-  surface: "quick" | "full";
+  surface: SearchSurface;
 };
 
 export type SearchNoResultsParams = {
-  surface: "quick" | "full";
+  surface: SearchSurface;
   query_length_bucket: string;
 };
 

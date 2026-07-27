@@ -69,6 +69,11 @@ export type QuerySearchOptions = {
   limit?: number;
   /** Restrict to one or more entity types. */
   entityTypes?: readonly SearchEntityType[];
+  /**
+   * Restrict to documents whose `bookIds` intersect this set (edition ids).
+   * Used for in-book chapter search (READ-016).
+   */
+  bookIds?: readonly string[];
   /** Fuzzy coefficient; `false` disables (default 0.2). */
   fuzzy?: number | false;
   prefix?: boolean;
@@ -91,6 +96,8 @@ export function queryMiniSearch(
   const prefix = options.prefix ?? true;
   const typeFilter =
     options.entityTypes && options.entityTypes.length > 0 ? new Set(options.entityTypes) : null;
+  const bookIdFilter =
+    options.bookIds && options.bookIds.length > 0 ? new Set(options.bookIds) : null;
 
   const results = engine.miniSearch.search(prepared.searchText, {
     prefix,
@@ -106,6 +113,10 @@ export function queryMiniSearch(
       const document = engine.documentsById.get(String(result.id));
       if (!document || document.visibility === "unlisted") return false;
       if (typeFilter && !typeFilter.has(document.entityType)) return false;
+      if (bookIdFilter) {
+        const ids = document.bookIds;
+        if (!ids?.some((id) => bookIdFilter.has(id))) return false;
+      }
       return true;
     },
   });

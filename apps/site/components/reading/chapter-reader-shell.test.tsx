@@ -46,6 +46,7 @@ describe("ChapterReaderShell", () => {
     );
 
     expect(screen.getByTestId("chapter-toc-drawer-open")).toBeInTheDocument();
+    expect(screen.getByTestId("in-book-search-open")).toBeInTheDocument();
     expect(
       screen.getByRole("navigation", { name: "Previous and next chapter", exact: true }),
     ).toBeInTheDocument();

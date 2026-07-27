@@ -58,6 +58,43 @@ describe("createMiniSearchIndex / queryMiniSearch", () => {
     expect(hits[0]?.document.id).toBe("book-1");
   });
 
+  it("filters by bookIds for in-book chapter search", () => {
+    const documents = [
+      doc({
+        id: "chapter-a-1",
+        title: "Letting Go of Correctness",
+        entityType: "chapter",
+        resultLabel: "Chapter",
+        canonicalUrl: "/explore/books/a/chapters/1",
+        searchText: "Letting Go of Correctness\nExplanation costs",
+        bookIds: ["book-a"],
+        boostWeight: 1,
+      }),
+      doc({
+        id: "chapter-b-1",
+        title: "Correctness elsewhere",
+        entityType: "chapter",
+        resultLabel: "Chapter",
+        canonicalUrl: "/explore/books/b/chapters/1",
+        searchText: "Correctness elsewhere",
+        bookIds: ["book-b"],
+        boostWeight: 1,
+      }),
+      doc({
+        id: "concept-correctness",
+        title: "Correctness",
+        searchText: "Correctness",
+        boostWeight: 1.2,
+      }),
+    ];
+    const hits = searchDocuments(documents, "correctness", {
+      entityTypes: ["chapter"],
+      bookIds: ["book-a"],
+    });
+    expect(hits).toHaveLength(1);
+    expect(hits[0]?.document.id).toBe("chapter-a-1");
+  });
+
   it("surfaces related bridge terms via searchText and explanations", () => {
     const aliasConfig = parseSearchAliasConfig({
       version: 1,

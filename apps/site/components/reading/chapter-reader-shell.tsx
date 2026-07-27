@@ -8,6 +8,7 @@ import {
   CopySectionLinkControl,
   ManuscriptHeadingCopyLinks,
 } from "@/components/reading/copy-section-link";
+import { InBookSearch } from "@/components/reading/in-book-search";
 import { ChapterBookmarkControl } from "@/components/reading/reading-bookmarks-panel";
 import {
   ReadingPreferencesControls,
@@ -31,7 +32,7 @@ export type ChapterReaderShellProps = {
 };
 
 /**
- * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011–015).
+ * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011–016).
  */
 export function ChapterReaderShell({
   book,
@@ -134,6 +135,7 @@ export function ChapterReaderShell({
       </header>
 
       {navigation ? <ChapterToc navigation={navigation} /> : null}
+      <InBookSearch editionId={progressEditionId} bookTitle={book.title} variant="reader" />
 
       <div
         id="chapter-content"
