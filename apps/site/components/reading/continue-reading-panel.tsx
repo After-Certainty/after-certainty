@@ -116,10 +116,6 @@ export function ContinueReadingStartSection({ catalog }: ContinueReadingStartSec
         >
           Continue reading
         </h2>
-        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted md:text-base">
-          Pick up where you left off on this device. Progress stays local — clearing site data
-          resets it.
-        </p>
         <ul className="mt-8 space-y-4">
           {targets.map((target) => (
             <li
