@@ -125,7 +125,7 @@ URLs may change presentation hosts; `editionId` + `chapter.id` must not.
 
 **READ-013 (shipped):** Local bookmarks under `ac_reading_bookmarks`, identity `bookmark:{editionId}:{chapterId}[:{fragmentId}]`. Reader chrome toggles chapter or current `#` section; book overview/detail lists resolved bookmarks. See [`apps/site/lib/reading/readingBookmarks.ts`](../apps/site/lib/reading/readingBookmarks.ts).
 
-**READ-014 (shipped):** Reader-local preferences under `ac_reading_prefs` (`textSize`: sm–xl; `theme`: inherit / sepia / night). Applied via `data-reading-*` on the chapter frame; does not change global site theme. See [`apps/site/lib/reading/readingPreferences.ts`](../apps/site/lib/reading/readingPreferences.ts).
+**READ-014 (shipped):** Reader-local text size under `ac_reading_prefs` (`textSize`: sm–xl). Applied via `data-reading-size` on the chapter frame; manuscript type uses rem steps. Site light/dark theme is unchanged. See [`apps/site/lib/reading/readingPreferences.ts`](../apps/site/lib/reading/readingPreferences.ts).
 
 ### Out of scope for this contract
 

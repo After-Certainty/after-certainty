@@ -1,18 +1,14 @@
 /**
  * Local (device-only) reading chrome preferences (READ-014).
- * Text size + reading theme for the native reader — independent of global site theme.
+ * Text size for the native reader. Site light/dark remains the global theme.
  * No server sync; clearing site data resets.
  */
 
 export const READING_TEXT_SIZES = ["sm", "md", "lg", "xl"] as const;
 export type ReadingTextSize = (typeof READING_TEXT_SIZES)[number];
 
-export const READING_THEMES = ["inherit", "sepia", "night"] as const;
-export type ReadingTheme = (typeof READING_THEMES)[number];
-
 export type ReadingPreferences = {
   textSize: ReadingTextSize;
-  theme: ReadingTheme;
   updatedAt: string;
 };
 
@@ -21,7 +17,6 @@ const CHANGE_EVENT = "ac-reading-prefs-changed";
 
 export const DEFAULT_READING_PREFERENCES: Omit<ReadingPreferences, "updatedAt"> = {
   textSize: "md",
-  theme: "inherit",
 };
 
 const EMPTY_SNAPSHOT: ReadingPreferences = {
@@ -44,16 +39,11 @@ function isTextSize(value: unknown): value is ReadingTextSize {
   return typeof value === "string" && (READING_TEXT_SIZES as readonly string[]).includes(value);
 }
 
-function isTheme(value: unknown): value is ReadingTheme {
-  return typeof value === "string" && (READING_THEMES as readonly string[]).includes(value);
-}
-
 function normalizePreferences(raw: unknown): ReadingPreferences {
   if (!raw || typeof raw !== "object") return EMPTY_SNAPSHOT;
   const record = raw as Record<string, unknown>;
   return {
     textSize: isTextSize(record.textSize) ? record.textSize : DEFAULT_READING_PREFERENCES.textSize,
-    theme: isTheme(record.theme) ? record.theme : DEFAULT_READING_PREFERENCES.theme,
     updatedAt:
       typeof record.updatedAt === "string" && record.updatedAt.trim()
         ? record.updatedAt
@@ -62,7 +52,7 @@ function normalizePreferences(raw: unknown): ReadingPreferences {
 }
 
 function samePreferences(a: ReadingPreferences, b: ReadingPreferences): boolean {
-  return a.textSize === b.textSize && a.theme === b.theme && a.updatedAt === b.updatedAt;
+  return a.textSize === b.textSize && a.updatedAt === b.updatedAt;
 }
 
 function rememberSnapshot(next: ReadingPreferences): ReadingPreferences {
@@ -90,12 +80,11 @@ export function getReadingPreferences(): ReadingPreferences {
 }
 
 export function setReadingPreferences(
-  patch: Partial<Pick<ReadingPreferences, "textSize" | "theme">>,
+  patch: Partial<Pick<ReadingPreferences, "textSize">>,
 ): ReadingPreferences {
   const current = getReadingPreferences();
   const next: ReadingPreferences = {
     textSize: patch.textSize ?? current.textSize,
-    theme: patch.theme ?? current.theme,
     updatedAt: new Date().toISOString(),
   };
   rememberSnapshot(next);
@@ -111,10 +100,6 @@ export function setReadingPreferences(
 
 export function setReadingTextSize(textSize: ReadingTextSize): ReadingPreferences {
   return setReadingPreferences({ textSize });
-}
-
-export function setReadingTheme(theme: ReadingTheme): ReadingPreferences {
-  return setReadingPreferences({ theme });
 }
 
 export function clearReadingPreferences(): void {
@@ -147,10 +132,4 @@ export const READING_TEXT_SIZE_LABELS: Record<ReadingTextSize, string> = {
   md: "Medium",
   lg: "Large",
   xl: "Extra large",
-};
-
-export const READING_THEME_LABELS: Record<ReadingTheme, string> = {
-  inherit: "Default",
-  sepia: "Sepia",
-  night: "Night",
 };

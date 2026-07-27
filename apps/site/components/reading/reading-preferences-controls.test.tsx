@@ -20,7 +20,7 @@ describe("ReadingPreferencesControls", () => {
     window.localStorage.clear();
   });
 
-  it("applies default size and theme data attributes", () => {
+  it("applies default size data attribute without theme controls", () => {
     render(
       <ReadingPreferencesRoot aria-labelledby="t">
         <h1 id="t">Title</h1>
@@ -30,7 +30,8 @@ describe("ReadingPreferencesControls", () => {
 
     const root = document.querySelector(".chapter-reader");
     expect(root).toHaveAttribute("data-reading-size", "md");
-    expect(root).toHaveAttribute("data-reading-theme", "inherit");
+    expect(root).not.toHaveAttribute("data-reading-theme");
+    expect(screen.queryByRole("radiogroup", { name: "Reading theme" })).not.toBeInTheDocument();
   });
 
   it("changes text size and persists preference", async () => {
@@ -46,24 +47,6 @@ describe("ReadingPreferencesControls", () => {
     expect(document.querySelector(".chapter-reader")).toHaveAttribute("data-reading-size", "lg");
     expect(getReadingPreferences().textSize).toBe("lg");
     expect(window.localStorage.getItem(READING_PREFERENCES_STORAGE_KEY)).toContain("lg");
-  });
-
-  it("selects a reading theme", async () => {
-    const user = userEvent.setup();
-    render(
-      <ReadingPreferencesRoot aria-labelledby="t">
-        <h1 id="t">Title</h1>
-        <ReadingPreferencesControls />
-      </ReadingPreferencesRoot>,
-    );
-
-    await user.click(screen.getByRole("radio", { name: "Sepia" }));
-    expect(document.querySelector(".chapter-reader")).toHaveAttribute(
-      "data-reading-theme",
-      "sepia",
-    );
-    expect(getReadingPreferences().theme).toBe("sepia");
-    expect(screen.getByRole("radio", { name: "Sepia" })).toHaveAttribute("aria-checked", "true");
   });
 
   it("disables decrease at the smallest size", async () => {

@@ -7,7 +7,6 @@ import {
   READING_PREFERENCES_STORAGE_KEY,
   setReadingPreferences,
   setReadingTextSize,
-  setReadingTheme,
 } from "@/lib/reading/readingPreferences";
 
 describe("readingPreferences", () => {
@@ -20,41 +19,34 @@ describe("readingPreferences", () => {
   });
 
   it("returns defaults when nothing is stored", () => {
-    const prefs = getReadingPreferences();
-    expect(prefs.textSize).toBe(DEFAULT_READING_PREFERENCES.textSize);
-    expect(prefs.theme).toBe(DEFAULT_READING_PREFERENCES.theme);
+    expect(getReadingPreferences().textSize).toBe(DEFAULT_READING_PREFERENCES.textSize);
   });
 
-  it("persists text size and theme", () => {
+  it("persists text size", () => {
     setReadingTextSize("lg");
-    setReadingTheme("sepia");
-
-    const prefs = getReadingPreferences();
-    expect(prefs.textSize).toBe("lg");
-    expect(prefs.theme).toBe("sepia");
-    expect(window.localStorage.getItem(READING_PREFERENCES_STORAGE_KEY)).toContain("sepia");
+    expect(getReadingPreferences().textSize).toBe("lg");
+    expect(window.localStorage.getItem(READING_PREFERENCES_STORAGE_KEY)).toContain("lg");
   });
 
-  it("ignores invalid stored values", () => {
+  it("ignores invalid stored values and drops legacy theme fields", () => {
     window.localStorage.setItem(
       READING_PREFERENCES_STORAGE_KEY,
-      JSON.stringify({ textSize: "huge", theme: "neon", updatedAt: "x" }),
+      JSON.stringify({ textSize: "huge", theme: "sepia", updatedAt: "x" }),
     );
-    const prefs = getReadingPreferences();
-    expect(prefs.textSize).toBe("md");
-    expect(prefs.theme).toBe("inherit");
+    expect(getReadingPreferences().textSize).toBe("md");
+    expect(getReadingPreferences()).not.toHaveProperty("theme");
   });
 
-  it("patches without wiping the other preference", () => {
-    setReadingPreferences({ textSize: "xl", theme: "night" });
+  it("patches text size", () => {
+    setReadingPreferences({ textSize: "xl" });
     setReadingPreferences({ textSize: "sm" });
-    expect(getReadingPreferences()).toMatchObject({ textSize: "sm", theme: "night" });
+    expect(getReadingPreferences().textSize).toBe("sm");
   });
 
   it("clears stored preferences", () => {
-    setReadingTheme("sepia");
+    setReadingTextSize("xl");
     clearReadingPreferences();
     expect(window.localStorage.getItem(READING_PREFERENCES_STORAGE_KEY)).toBeNull();
-    expect(getReadingPreferences().theme).toBe("inherit");
+    expect(getReadingPreferences().textSize).toBe("md");
   });
 });

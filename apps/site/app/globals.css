@@ -111,6 +111,7 @@
   .prose-reading {
     font-size: var(--reader-font-size, 1.0625rem);
     line-height: 1.75;
+    color: var(--fg);
   }
 
   .chapter-reader {
@@ -133,42 +134,47 @@
     --reader-font-size: 1.5rem;
   }
 
-  /* Reader-local themes (READ-014) — scoped to the chapter frame, not site chrome. */
-  .chapter-reader[data-reading-theme="sepia"],
-  .chapter-reader[data-reading-theme="night"] {
-    background-color: var(--bg);
+  /*
+   * Manuscript colors follow site tokens (light/dark), not prose-neutral / prose-invert.
+   * OS prefers-color-scheme must not invert chapter text against the chosen site theme.
+   * Font size is set here so Typography’s .prose base size does not ignore reader controls.
+   */
+  .chapter-reader .chapter-manuscript.prose {
+    --tw-prose-body: var(--fg);
+    --tw-prose-headings: var(--fg);
+    --tw-prose-lead: var(--muted);
+    --tw-prose-links: var(--accent);
+    --tw-prose-bold: var(--fg);
+    --tw-prose-counters: var(--muted);
+    --tw-prose-bullets: var(--muted);
+    --tw-prose-hr: color-mix(in oklab, var(--border) 80%, transparent);
+    --tw-prose-quotes: var(--fg);
+    --tw-prose-quote-borders: var(--accent);
+    --tw-prose-captions: var(--muted);
+    --tw-prose-code: var(--fg);
+    --tw-prose-pre-code: var(--fg);
+    --tw-prose-pre-bg: var(--bg-elevated);
+    --tw-prose-th-borders: var(--border);
+    --tw-prose-td-borders: var(--border);
+    --tw-prose-invert-body: var(--fg);
+    --tw-prose-invert-headings: var(--fg);
+    --tw-prose-invert-lead: var(--muted);
+    --tw-prose-invert-links: var(--accent);
+    --tw-prose-invert-bold: var(--fg);
+    --tw-prose-invert-counters: var(--muted);
+    --tw-prose-invert-bullets: var(--muted);
+    --tw-prose-invert-hr: color-mix(in oklab, var(--border) 80%, transparent);
+    --tw-prose-invert-quotes: var(--fg);
+    --tw-prose-invert-quote-borders: var(--accent);
+    --tw-prose-invert-captions: var(--muted);
+    --tw-prose-invert-code: var(--fg);
+    --tw-prose-invert-pre-code: var(--fg);
+    --tw-prose-invert-pre-bg: var(--bg-elevated);
+    --tw-prose-invert-th-borders: var(--border);
+    --tw-prose-invert-td-borders: var(--border);
     color: var(--fg);
-  }
-
-  .chapter-reader[data-reading-theme="sepia"] {
-    --bg: #f3ebdd;
-    --bg-elevated: #f8f2e8;
-    --fg: #2a2318;
-    --muted: #5a5348;
-    --border: rgba(42, 35, 24, 0.14);
-    --accent: #7a5f2c;
-    --accent-soft: rgba(122, 95, 44, 0.14);
-    --glow: rgba(122, 95, 44, 0.06);
-  }
-
-  .chapter-reader[data-reading-theme="night"] {
-    --bg: #101118;
-    --bg-elevated: #171924;
-    --fg: #e7e3dc;
-    --muted: #9b968c;
-    --border: rgba(231, 227, 220, 0.12);
-    --accent: #c4a45a;
-    --accent-soft: rgba(196, 164, 90, 0.14);
-    --glow: rgba(196, 164, 90, 0.08);
-  }
-
-  @media (prefers-reduced-motion: no-preference) {
-    .chapter-reader[data-reading-theme="sepia"],
-    .chapter-reader[data-reading-theme="night"] {
-      transition:
-        background-color 0.2s ease,
-        color 0.2s ease;
-    }
+    font-size: var(--reader-font-size, 1.0625rem);
+    line-height: 1.75;
   }
 
   .chapter-manuscript {

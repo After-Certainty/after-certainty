@@ -12,7 +12,7 @@ export function ChapterManuscriptBody({ result }: ChapterManuscriptBodyProps) {
   if (result.status === "ok") {
     return (
       <div
-        className="chapter-manuscript prose prose-neutral dark:prose-invert max-w-none prose-headings:font-display prose-headings:scroll-mt-24 prose-a:text-accent prose-img:rounded-sm"
+        className="chapter-manuscript prose max-w-none prose-headings:font-display prose-headings:scroll-mt-24 prose-a:text-accent prose-img:rounded-sm"
         // Sanitized via rehype-sanitize in renderManuscriptHtml (READ-003).
         dangerouslySetInnerHTML={{ __html: result.html }}
       />
