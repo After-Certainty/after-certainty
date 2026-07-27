@@ -2,7 +2,7 @@
 
 How to opt a book into IngramSpark packaging and submit it. Use this for **new** titles; the three initial pilots (Everyone Knows Love, Observer Patterns, When Others Become Leaders) are already `production-approved`.
 
-**Authority:** design and gates live in [`docs/roadmaps/ingramspark-distribution-target.md`](../roadmaps/ingramspark-distribution-target.md).  
+**Roadmap (complete):** [`docs/roadmaps/ingramspark-distribution-target.md`](../roadmaps/ingramspark-distribution-target.md).  
 **Cover mechanics:** [`docs/publishing/ingramspark-raster-wrap.md`](ingramspark-raster-wrap.md).  
 **Profile:** [`schema/profiles/ingramspark/ingramspark-2026-07.yml`](../../schema/profiles/ingramspark/ingramspark-2026-07.yml).
 
@@ -36,7 +36,7 @@ planning  →  package / proof / account upload  →  production-approved
 | Status | Use for | Release flags |
 |--------|---------|---------------|
 | `planning` | Assets, cover preview, local/CI kits, account dry-runs | Keep `github_release` and `immutable_release` **false** until you mean it |
-| `production-approved` | Human attested after account acceptance | Turn on `github_release` / `immutable_release` as desired |
+| `production-approved` | Human attested after account acceptance | Turn on `github_release` (keep `immutable_release` false unless you want ISBN tags) |
 
 | Flag | Effect on `main` |
 |------|------------------|
@@ -167,7 +167,7 @@ Notes:
 
 At package time, if `assembled-raster-wrap` and the measured interior disagree with `template_page_count`, packaging rewrites `book.yml`, `template-meta.yml`, and center-crops `spine.png` from `spine-source.png`. That dirties the git tree.
 
-**Before immutable release:** commit the measured page count / spine / template-meta so packaging is a no-op and `dirty_tree` stays false.
+**Before relying on a clean package tree:** commit the measured page count / spine / template-meta so packaging is a no-op and `dirty_tree` stays false.
 
 Cream spine rule of thumb (also used by the generator/sync): **0.0025 in per page** at 300 ppi.
 
@@ -287,7 +287,7 @@ Outputs: `build/ingramspark/<book-id>/`.
 
 | Issue | What to do |
 |-------|------------|
-| Page count drift (local vs CI) | Prefer CI-measured even count; commit it before immutable release |
+| Page count drift (local vs CI) | Prefer CI-measured even count; commit it so packaging does not rewrite tracked files |
 | `dirty_tree` blocks immutable tag | Commit sync rewrites; packaging uses `git status --untracked-files=no` |
 | Missing / narrow `spine-source.png` | Package-time spine recrop fails when page count changes |
 | Wrong panel pixels | Hard fail — fix PNG or template-meta; never silent resample |
