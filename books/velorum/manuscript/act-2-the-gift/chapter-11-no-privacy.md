@@ -6,7 +6,7 @@ Below, ration lines still moved though it was past second bell, someone shouting
 
 Earlier that day they'd swept the tanners alley twice because the slate kept showing bunching where nobody could see why. Cael had marked the alley mouth. Riven had marked the grain line backup. Merrow had circled both and said *same problem, different hour.* Riven had wanted to argue. The bond had carried Cael's agreement before he could.
 
-Riven sat with his back against the stone and tried to hold one thought that was only his: *boundary problem.* Lyra had said it yesterday at the infirmary—flat, clinical, a label off a crate. Not judgment, not sympathy, just fact. What she meant wasn't eyes on him. It was waking up tired because Cael hadn't slept. It was hunger that wasn't his meal.
+Riven sat with his back against the stone and tried to hold one thought that was only his: *getting into each other's heads.* Lyra had said it yesterday at the infirmary—flat, clinical, a label off a crate. Not judgment, not sympathy, just fact. What she meant wasn't eyes on him. It was waking up tired because Cael hadn't slept. It was hunger that wasn't his meal.
 
 For three breaths he managed to keep the thought contained. Then Cael felt it. The reaction came back immediately.
 
@@ -26,7 +26,7 @@ Cael pulled himself through the hatch, hair damp from the mist, shirt half-butto
 
 "About Lyra," Cael said.
 
-Not a question. Riven barked out a laugh. "You see the problem."
+Not a question. Riven barked out a laugh. "You see the fucking problem."
 
 Cael folded his arms against the wind. "You act like we can untangle what's already crossing both ways."
 
@@ -40,7 +40,7 @@ The words stuck. Cael flinched—just a little, enough.
 
 "That's not fair," Cael said.
 
-"Fair?" Riven spread his hands. "Try wanting someone while your best friend gets front-row seats."
+"Fair?" Riven spread his hands. "Try wanting someone while your best friend gets front-row goddamn seats."
 
 Cael looked away first, toward the lanterns moving along the wall, toward anything else. "This isn't about that."
 
@@ -54,7 +54,7 @@ Riven's head throbbed—not his, Cael's from the wall walk—and he pressed his 
 
 "We're under pressure," Cael said.
 
-Riven laughed. "Christ. You sound like Halverin already."
+Riven laughed. "Jesus Fucking Christ. You sound like Halverin already."
 
 "You still count nails twice," Riven said.
 
@@ -80,11 +80,11 @@ Cael winced.
 
 "I think she understands it." Cael looked back at him. "That's not fixing. I know."
 
-"No." Riven shoved his hands into his pockets. "No, it's not."
+"No." Riven shoved his hands into his pockets. "No, it's not. Fuck."
 
 Wind pushed at his back. For a moment his balance shifted wrong—Cael's fatigue from the wall walk, not his—and Riven grabbed the parapet stone before he could fall. Cael felt it and went still.
 
-"Don't," Riven said.
+"Don't," Riven said. "Don't you fucking dare."
 
 "I'm not doing anything," Cael said.
 
@@ -106,7 +106,7 @@ For a moment he thought he'd kept it. Then grief hit him from across the square�
 
 Riven tried again—different memory, different shelf. The baker's lane in summer. Heat. Stolen plums. Cael's laugh when they ran. The laugh crossed before the plums did. Riven slammed his palm against the shutter and felt Cael flinch three streets away.
 
-The wine cup slipped from his hand. Clay shattered against the cobbles. No locked room. No hidden corner. No private shelf inside his own head.
+The wine cup slipped from his hand. Clay shattered against the cobbles. No locked room. No hidden corner. Nowhere left inside his own head that stayed his.
 
 A night watch pair turned the corner. Riven pressed against the shutter until they passed. One of them muttered about drunk pairs. Riven didn't correct him. Correction would travel too.
 
@@ -134,7 +134,7 @@ Riven looked away first. "I didn't."
 
 "You could've told me."
 
-Riven laughed once—short, tired. "That's the point. It was mine not to tell."
+Riven laughed once—short, tired. "That's the point. It was mine not to tell. Mine. Goddamnit."
 
 Cael looked down at his hands. "I didn't ask for your memories."
 
@@ -144,7 +144,7 @@ A man farther down the row rolled over and muttered something in his sleep. Wool
 
 "What the fuck do you want me to do when it happens?"
 
-Riven opened his mouth, closed it again. "I want one room in my own head that stays mine."
+Riven opened his mouth, closed it again. "I want one room in my own head that stays mine. One. Fucking. Room."
 
 When Cael finally answered, his voice sounded rough. "I don't want to take things from you."
 
@@ -154,7 +154,7 @@ Cael rubbed his face, elbows on his knees, trying to press the bond back out thr
 
 "Merrow wants us at first bell," Cael said.
 
-"Of course she does," Riven said.
+"Of course she does," Riven said. "Hell."
 
 "I can ask for reassignment."
 
@@ -168,7 +168,7 @@ Somebody nearby started grinding their teeth in their sleep.
 
 After a while Cael spoke again. "You remember Heartbridge?"
 
-"You mean before we ruined our lives?" Riven asked.
+"You mean before we ruined our lives?" Riven asked. "Shit."
 
 "The ridge. The first argument." Riven followed his gaze up toward the rafters. "You kept talking about purpose."
 
@@ -176,7 +176,7 @@ After a while Cael spoke again. "You remember Heartbridge?"
 
 "You came anyway," Cael said.
 
-Riven swallowed. "Yeah. I thought I'd still be me when we got there."
+Riven swallowed. "Yeah. I thought I'd still be me when we got there. God damn me for thinking that."
 
 He tried to hold the memory—cold air, the ridge, Cael's voice talking about load and duty—but Cael's present shame washed through it before he could finish. The ridge became Kestrel Gate. The argument became the roof.
 
@@ -226,7 +226,7 @@ Riven watched him disappear through the crowd. "That's not a patrol."
 
 "No," Cael said.
 
-"That's Halverin," Riven said.
+"That's Halverin," Riven said. "Bastard."
 
 Cael folded the roster. "Probably."
 

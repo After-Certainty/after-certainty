@@ -162,7 +162,7 @@ Riven swore under his breath. The bond carried grief. And something worse he cou
 
 The pressure eased. Not approval. Not forgiveness. Less resistance. The seams of the ring dimmed. Wind crossed the Ashring again. Ordinary wind. Ordinary cold. The most ordinary thing either of them had felt in days.
 
-Riven's ears still rang. Cael's hands wouldn't stop trembling until he pressed them flat against stone and counted breaths the way he'd counted loads on a bridge crew. One. Two. Three. Not Halverin's count. Load count. The ring had answered with structure, not mercy—not a place, not a cure, the act of carrying when partition failed. They would have to learn what that meant on the road home, if home still existed as anything other than a filing category.
+Riven's ears still rang. Cael's hands wouldn't stop trembling until he pressed them flat against stone and counted breaths the way he'd counted loads on a bridge crew. One. Two. Three. Not Halverin's count. Load count. The ring had answered with work, not mercy—not a place, not a cure, just the act of carrying when neither of them could keep a thought private. They would have to learn what that meant on the road home, if home still existed as anything other than a filing category.
 
 Riven's legs didn't work for a moment. Cael's didn't either. They stood in the center of the ring until the Seeker turned toward the rim.
 

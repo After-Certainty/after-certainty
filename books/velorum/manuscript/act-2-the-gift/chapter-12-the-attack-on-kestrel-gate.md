@@ -122,7 +122,7 @@ Riven pushed away from the wall, voice rising. "Nine at the stairs. The dockwork
 
 Halverin looked from Riven to Cael. "The delays mattered."
 
-Riven barked out a laugh. "Jesus Christ. The dockworker. The stairs."
+Riven barked out a laugh. "Jesus Fucking Christ. The dockworker. The stairs."
 
 Halverin's voice stayed level. "You felt it."
 
@@ -142,7 +142,7 @@ Nobody moved. Cael could still see the dockworker, still see blood on the stairs
 
 Halverin nodded once, watching the same memory pass across Cael's face. "You're close to something."
 
-Riven folded his arms. "We're close to being exhausted."
+Riven folded his arms. "We're close to being fucking exhausted."
 
 "That too." For the first time all night, Halverin almost sounded human—tired, not convinced, just tired. "We'll talk tomorrow." He gathered the slates. The meeting was over before either of them had anything left to say.
 
@@ -176,7 +176,7 @@ Medics passed with splints and slates—names, beds, *riverside entrance* writte
 
 A slate had been nailed beside the mess door—preliminary totals. The numbers changed while they stood there, then changed again, each revision worse than the last.
 
-Riven leaned against the wall, eyes closed. "Tell me this is the worst of it."
+Riven leaned against the wall, eyes closed. "Tell me this is the worst of it. Goddamnit. Tell me."
 
 Cael looked at the additions squeezed into the margins. "No."
 
@@ -212,6 +212,6 @@ At the barracks door, two medics tried to send them to bed. Cael went to the dut
 
 Cael looked at the slate, then at Riven. "The city's not sleeping."
 
-Riven looked out toward the square—the lanterns, the workers, the smoke still hanging over the rooftops. "No," he said. "It isn't."
+Riven looked out toward the square—the lanterns, the workers, the smoke still hanging over the rooftops. "No," he said. "It isn't. Hell."
 
 The smell of fire followed them inside. Neither bothered washing again.

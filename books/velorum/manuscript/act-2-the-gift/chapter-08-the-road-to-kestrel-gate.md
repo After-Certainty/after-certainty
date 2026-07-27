@@ -22,7 +22,7 @@ Cael kept walking. "Tell them that after the causeway."
 
 The second empty post sat back from the road—a squat stone box with a slate roof and a yard big enough for two carts. No lamp under the eaves. Cael pushed the door and found a ledger still open on the table, last entry three days old. *Patrol routed south. No relief.* Somebody had left a half-eaten ration and walked away.
 
-"That's not empty," Riven said. "That's abandoned."
+"That's not empty," Riven said. "That's abandoned. Shit."
 
 Cael closed the ledger. "Same thing on this road."
 
@@ -118,11 +118,11 @@ Riven glanced across the fire. Cael heard it too and didn't comment.
 
 When the fire burned low:
 
-"You're leaning into this," Riven said.
+"You're leaning into this," Riven said. "Fucking hell."
 
 "Into what?" Cael asked.
 
-"Being what they need," Riven said.
+"Being what they need," Riven said. "Goddamnit. Listen to yourself."
 
 Cael rubbed a thumb across his knuckles. "They need towns that don't burn."
 
@@ -172,7 +172,7 @@ The dormitory smelled of wool and boiled turnips. Somebody had chalked *hero row
 
 "You took the good side," Cael said.
 
-"You checked the frame three times," Riven said.
+"You checked the frame three times," Riven said. "Fucking hell."
 
 "Somebody has to," Cael said.
 

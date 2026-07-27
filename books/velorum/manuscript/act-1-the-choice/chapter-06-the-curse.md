@@ -118,7 +118,7 @@ Cael forced his hand onto his own strap. The canvas bit his palm. Good. His.
 
 Riven shouldered his pack wrong—left strap twisted, right too loose. Cael reached to fix it. Stopped. Fixed his own instead. Riven watched both motions and looked sick.
 
-"This is bad," Riven said. "Like actually bad."
+"This is bad," Riven said. "Like actually fucking bad."
 
 "Yeah." No maybe this time.
 
@@ -138,7 +138,7 @@ The moment they started down the trail, things got worse—each step arriving ea
 
 Riven's pack had been packed wrong since the rim—left heavy, right light. Cael had noticed at the seep yesterday and not said anything. Now the wrong weight pulled at both of them. Riven shifted the strap. Cael felt the relief before the strap moved.
 
-"Christ," Riven said.
+"Christ," Riven said. "Goddamnit."
 
 "Yeah."
 
@@ -256,11 +256,11 @@ They stopped walking. Wind pushed at their coats. The mountain fell away beside 
 
 "We didn't ask for this," Cael said.
 
-"You walked us onto the rings." Riven's voice stayed level. Too level. "You held out your hand."
+"You walked us onto the rings." Riven's voice stayed level. Too level. "You held out your hand. You fucking held it out."
 
 Cael's jaw tightened. "You grabbed it."
 
-"I know." Riven opened his eyes. "That's what I'm saying."
+"I know." Riven opened his eyes. "That's what I'm saying. Shit."
 
 Cael didn't answer. Because Riven was right. Because he wasn't. Because both things could be true.
 
@@ -288,7 +288,7 @@ They started walking again. Lower down, the mountain softened. Pines returned. T
 
 Twice on the descent Riven tried to hum—nothing, just noise to fill his head. Cael heard the tune anyway. Old bond story. Market square. Wrong mountain for it. Riven stopped humming.
 
-Cael found a flat spot beneath a stand of pines and dropped his pack. Needles gave under his boots; the slope fell away to the east, treeline opening on the pale Ashring above the ridge. Neither discussed it. Riven let his pack slide off one shoulder. The relief crossed between them immediately. Both of them winced. Riven muttered, "Still hate that."
+Cael found a flat spot beneath a stand of pines and dropped his pack. Needles gave under his boots; the slope fell away to the east, treeline opening on the pale Ashring above the ridge. Neither discussed it. Riven let his pack slide off one shoulder. The relief crossed between them immediately. Both of them winced. Riven muttered, "Still fucking hate that."
 
 Above the treeline the Ashring showed pale on the ridge—grey stone against cloud, no warmth left in it.
 

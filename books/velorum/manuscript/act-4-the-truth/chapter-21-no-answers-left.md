@@ -144,7 +144,7 @@ Cael adjusted the travel slate under one arm. "Enough."
 
 Merrow grunted and handed over two stamped slates. "Halverin's signature clears stores for three days. After that you're on your own."
 
-"We were always on our own," Riven said.
+"We were always on our own," Riven said. "Fucking always."
 
 "Fair." She tapped the map tucked beneath the slates. "Salt. Oatcakes. Broken roads marked. One clerk wrote *unstable, avoid.* Believe the clerk."
 
@@ -170,7 +170,7 @@ Riven stared at the ground. The bond carried the news before either of them answ
 
 Merrow held his gaze. "That's not what she asked me to pass on."
 
-Riven looked away. "Christ." Barely a whisper. "We won't."
+Riven looked away. "Christ." Barely a whisper. "We won't. Goddamnit."
 
 Merrow studied them for a moment. "Good." She stepped back into the rain. "Stay off the main roads if you can."
 
@@ -202,11 +202,11 @@ Merrow looked at him. "He already did." She turned toward the yard gate. "Don't 
 
 At the command hall he stopped beside the casualty reports. The stack was smaller than before. Still too large. His old note sat where he'd left it.
 
-*Accept load. Do not split.*
+*Carry the weight. Don't pull apart.*
 
 He stared at it for a moment, then crossed out the last line. Underneath, he wrote:
 
-*Do not pretend.*
+*Stop pretending.*
 
 A clerk passed in the hall, arms full of bandage rolls. She saw him at the board and looked away fast, as though eye contact might assign her something. Cael didn't call after her.
 
@@ -226,7 +226,7 @@ The hall had learned what he was—a problem walking toward the door, not a comm
 
 Riven nodded. "Good." Cael capped the pen. They walked out.
 
-On the way to the outer gate they passed the demonstration platform. Somebody had dismantled half of it. Planks stacked in the mud. The count board was gone. Riven stood on the remaining frame for a moment, looking north, then jumped down without a word. Cael felt the jump in his knees. Riven spat into the mud beside the stack. "Good riddance."
+On the way to the outer gate they passed the demonstration platform. Somebody had dismantled half of it. Planks stacked in the mud. The count board was gone. Riven stood on the remaining frame for a moment, looking north, then jumped down without a word. Cael felt the jump in his knees. Riven spat into the mud beside the stack. "Good fucking riddance."
 
 Nobody answered. The yard was empty. Even the clerks had learned to look away.
 
@@ -250,7 +250,7 @@ A north-bound family waited at the same tap—two children, one leaking bucket. 
 
 Through the bond, Riven felt it too. Not relief. Just space. The square couldn't reach them here. The clerks couldn't file them here. For one night the bond carried only exhaustion and the crackle of wet wood.
 
-At the first marked fork the next morning, Riven unfolded the map beneath his cloak. Broken bridge. *Unstable. Avoid.* He traced the road north with one finger. "We're really doing this."
+At the first marked fork the next morning, Riven unfolded the map beneath his cloak. Broken bridge. *Unstable. Avoid.* He traced the road north with one finger. "We're really doing this. Hell."
 
 A gate patrol passed going south before he folded the map—same complaint about ration cuts, same empty bread sacks, same sergeant who wouldn't meet their eyes. Kestrel Gate's problems were behind the mist now. The road ahead didn't care.
 

@@ -84,7 +84,7 @@ Cael walked down the steps. Halverin did not follow. Cael did not look back to s
 
 At the wagon Riven looked up. His eyes were red-rimmed—not crying, exhausted. Paste dust streaked his sleeve. Through the bond Cael felt Riven's pulse still too fast. Lyra checked Riven's wrist a second time. "Pulse still racing. Water. Sit."
 
-"We already sat," Riven said.
+"We already sat," Riven said. "Goddamnit."
 
 "Then sit again," Lyra said.
 
@@ -98,13 +98,13 @@ Cael opened his mouth. Closed it. The honest answer was no. The honest answer wa
 
 "I know." Lyra released Riven's wrist. "South tent's full. Take water. Don't sign anything tonight."
 
-Riven looked at Cael's bandaged palms, at the way a guard at the lane mouth had called *Captain* before he had said Riven's name all day. "I thought you'd come down when you saw me on the wagon," he said, quiet enough that Lyra pretended not to hear. "I thought that was still us."
+Riven looked at Cael's bandaged palms, at the way a guard at the lane mouth had called *Captain* before he had said Riven's name all day. "I thought you'd come down when you saw me on the wagon," he said, quiet enough that Lyra pretended not to hear. "I thought that was still us. Hell."
 
 Cael opened his mouth. Closed it. He had stayed on the steps because Halverin's lie needed to die out loud. He had told himself Riven would understand that too, once the talking stopped.
 
 "We already signed," Cael said.
 
-"Then unsign in your head," Lyra said. "Clerks love paper. Bodies don't."
+"Then unsign in your head," Lyra said. "Clerks love paper. Bodies don't. Fuck their paper."
 
 She moved off into the lane crowd. Cael watched her go and felt Riven feel it through the bond, want and shame in the same pulse. Lyra did not look back. She never looked back when she was working.
 
@@ -118,23 +118,23 @@ Inside the annex the table sat between the two cots, lamp wick trimmed, font emp
 
 The square noise through the shutter was not hammering anymore. It was argument—low, persistent, the sound of a city trying to decide what it had seen. Someone laughed once and cut off. Someone else cried. Cael counted neither. Counting would mean he believed order was still available if he chose it.
 
-Riven lay on the other cot with one arm over his eyes. "Say it," he said.
+Riven lay on the other cot with one arm over his eyes. "Say it," he said. "Say the fucking thing."
 
 "Say what," Cael said.
 
 "What you believe now." Cael stared at the ceiling beam—cracks, old smoke stain, a nail that had worked loose. "I believe we failed in public," he said. "I believe people saw it. I believe Halverin's path is broken." He stopped. "I believed if I carried enough load I could keep the next person from dying in the crush. That was wrong too."
 
-"And us?" Riven said.
+"And us?" Riven said. "Hell. What about us?"
 
 Cael swallowed. "I don't know what we are. I know I'm not a wall. Neither are you."
 
-Riven's arm moved. He looked at Cael across the narrow room. Through the bond Cael felt the echo of Lyra's words: *loss, not refinement.*
+Riven's arm moved. He looked at Cael across the narrow room. Through the bond Cael felt the echo of Lyra's words: *loss, not getting better.*
 
 "I do," Riven said quietly. "That's why I'm scared."
 
 Not Halverin. Not the square. The distance between them in a room they had shared since Greyhaven felt like a third person.
 
-Riven sat up and laced his boots without looking at Cael. "I can't lie here and listen to you think."
+Riven sat up and laced his boots without looking at Cael. "I can't lie here and listen to you think. Shit."
 
 "Riven—" Cael said.
 
@@ -172,11 +172,11 @@ Two stalls down a cooper told his nephew *west lane stays open, injury cord firs
 
 A merchant Riven did not know stopped him at the lane mouth. "You're one of them."
 
-"I'm hauling debris tomorrow," Riven said. "Ask Merrow."
+"I'm hauling debris tomorrow," Riven said. "Ask Merrow. Don't ask me for a goddamn miracle."
 
 "I saw you bleed." The merchant's eyes were too bright. Not malice. Need. "Tell me it was the crowd. Tell me it works if people behave."
 
-Riven looked at the man's hands—flour under the nails, a wedding band worn thin. "It works until it doesn't," he said. "Then you call Lyra, not Halverin."
+Riven looked at the man's hands—flour under the nails, a wedding band worn thin. "It works until it doesn't," he said. "Then you call Lyra, not Halverin. Not that bastard."
 
 The merchant flinched like the name was a curse. "Medics don't fix stories."
 
@@ -192,11 +192,11 @@ Cael was at the annex table when he returned. Lamp low. Two cups of water poured
 
 "Same thing tonight." Cael pushed one cup across. "What did they say?"
 
-Riven drank. "That the bond failed. That Halverin failed. That the crowd failed. That Velorum cursed us. That we need more pairs. That we need fewer." He set the cup down. "Pick one. The city already did."
+Riven drank. "That the bond failed. That Halverin failed. That the crowd failed. That Velorum cursed us. That we need more pairs. That we need fewer." He set the cup down. "Pick one. The city already did. Fuck their pick."
 
 Cael's jaw worked. "Which one do you pick?"
 
-"Lyra's," Riven said. "Loss. Not refinement."
+"Lyra's," Riven said. "Loss. Not getting better. God damn her for being right."
 
 Cael nodded once. He did not argue. Through the bond Riven felt him want to—and felt him stop, which was new, and almost worse.
 
@@ -260,7 +260,7 @@ Cael watched from the barracks steps and did not go down. Going down would make 
 
 Cael went to the command hall because Merrow sent for him, not because he believed in halls anymore. The doors stood open to the yard. Lamp smoke and wet wool rolled out across the threshold. She had casualty slates and supply counts and no poetry in her mouth.
 
-On the way he passed Halverin's office. The door stood ajar. Inside, three clerks and a senior aide had the demonstration report spread across two tables. One clerk read aloud: "*Crowd interference exceeded tolerance at margin increase.*" Another said, "Write *pair variance*—council likes that better." The senior aide rubbed his eyes. "Write both. File under pending."
+On the way he passed Halverin's office. The door stood ajar. Inside, three clerks and a senior aide had the demonstration report spread across two tables. One clerk read aloud: "*Crowd noise broke the count at the harder lift.*" Another said, "Write *the pair mismatched*—council likes that better." The senior aide rubbed his eyes. "Write both. File under pending."
 
 Halverin sat in the corner chair with his coat still buttoned and a cup of cold tea untouched. He was not speaking.
 
@@ -310,7 +310,7 @@ A charm seller had moved his tray from the square mouth to the barracks corner, 
 
 A cooper's crew loaded splintered timber onto a debris wagon in the basin mud. The nephew with rope burns waved at Cael and then thought better of it. Riven's shoulder still echoed from yesterday's lift. Cael felt the echo and did not comment.
 
-"Lyra's right," Riven said.
+"Lyra's right," Riven said. "Fucking hell. She's right. Goddamnit."
 
 "I know," Cael said. "Do you believe it?" Cael watched a strip of paper fall and twist in the wind. *STEADINESS RETURNS* broke in half. "Yes," he said. "I just don't know what to do with yes yet."
 
@@ -324,7 +324,7 @@ Riven hauled splintered timber until his shoulders burned again. The cooper's ne
 
 "My uncle says Halverin broke it," the boy said. "My aunt says the bond broke it. My cousin says the crowd broke it because people can't stand still anymore." He stacked a board wrong and winced when the bond echo hit them both. "Which one do you believe?"
 
-Riven set a splinter down carefully. "I believe my palms hurt."
+Riven set a splinter down carefully. "I believe my palms hurt. That's the only fucking creed I've got."
 
 The boy looked at his bandages. "That's not an answer."
 
@@ -346,7 +346,7 @@ Riven picked up another armload. "Your uncle's smart."
 
 "He says you should leave before the clerks turn you into a saint."
 
-Riven almost laughed. "Tell your uncle saints don't split their palms on command."
+Riven almost laughed. "Tell your uncle saints don't split their palms on command. Tell him saints are bullshit."
 
 Merrow passed the debris cord without stopping. "Hands not throats," she said, and moved on. The women at the basin mouth scattered when she looked at them—not fear, habit. Authority still meant something even when stories did not.
 
@@ -434,7 +434,7 @@ From the annex slit at third watch: corridor footsteps, paper slid under the doo
 
 At dusk Cael turned from the glass. Riven was on the cot, awake, staring at the door as if it might open. It would not open the way they wanted. "She leaves tomorrow night," Cael said.
 
-"I know," Riven said.
+"I know," Riven said. "Shit. I know. Fuck."
 
 They did not say more. The silence held—footsteps in the corridor, a wagon wheel outside, Lyra's bundle already packed on the second wagon bench, not gone yet but going. Riven turned on the cot. Cael heard the fabric scrape through the bond before he heard it with his ears.
 

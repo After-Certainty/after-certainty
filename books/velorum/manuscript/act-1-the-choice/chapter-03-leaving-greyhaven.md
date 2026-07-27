@@ -66,7 +66,7 @@ Riven snorted. "I wasn't planning to stop for singers."
 
 "You were planning to stop for something."
 
-"Say that again."
+"Say that again. Goddamnit."
 
 Cael glanced toward the kitchen where Mara kept counting coins, and when he looked back his voice was quieter. "We leave clean. No fights. No stories. We get a few miles behind us before anyone's awake enough to make trouble."
 
@@ -160,7 +160,7 @@ The blanket strap kept rubbing, and the rope slowly worked its way lower until h
 
 "It's fine."
 
-"It's not fine. You're fighting your pack like it insulted you." Riven tugged the strap loose another notch, and the pressure eased immediately, which he hated.
+"It's not fine. You're fighting your pack like it insulted you." Riven tugged the strap loose another notch, and the pressure eased immediately, which he hated. "Fine. Fuck. Happy?"
 
 The road bent around the hillside and started climbing again. The drop on the outside wasn't steep enough to kill you, but it would leave a mark, and Riven found himself keeping to the inside edge of the path while Cael kept walking ahead.
 
@@ -172,7 +172,7 @@ Riven kicked a loose stone off the trail. "I asked first."
 
 Cael let out a breath that fogged in the cold air. "I said I wasn't dragging you."
 
-"And I said I was coming." Riven watched Cael's boots on the trail ahead; they never slipped on loose stone or hesitated. "So don't walk like you're doing this alone."
+"And I said I was coming." Riven watched Cael's boots on the trail ahead; they never slipped on loose stone or hesitated. "So don't walk like you're doing this alone, Goddamnit."
 
 Cael slowed just enough that Riven no longer had to lengthen every stride to keep up.
 
@@ -194,7 +194,7 @@ Heat climbed into Riven's face. "I didn't say leash."
 
 "You didn't have to," Cael said.
 
-Riven barked out a laugh. "Christ, you're unbelievable."
+Riven barked out a laugh. "Jesus Fucking Christ, you're unbelievable."
 
 "I'm walking," Cael said, and turned back to the road.
 
@@ -260,7 +260,7 @@ Cael looked again. Longer this time. "Kid's prints. Different stride."
 
 "Walkers." He hitched his pack.
 
-Riven adjusted his pack. "So we're not the only idiots."
+Riven adjusted his pack. "So we're not the only fucking idiots."
 
 "No." Cael didn't smile. "We're not the only ones."
 
@@ -290,7 +290,7 @@ A muscle moved in Cael's jaw. "I want to know."
 
 The other half of the question—*and if it isn't*—stuck in his head like a stone in his boot.
 
-"Great." Riven picked at a burr on his cuff. "My heel's bleeding through the wool and you want scripture."
+"Fucking hell." Riven picked at a burr on his cuff. "My heel's bleeding through the wool and you want scripture."
 
 They started walking again without talking about it, the way they always had, one moving and the other following.
 
@@ -302,7 +302,7 @@ The wind grew sharper as the road climbed, trees leaning against it with branche
 
 "You're mad about something."
 
-Riven kicked at a loose stone. "I'm mad that you make it sound like you're doing me a favor by letting me carry my own weight."
+Riven kicked at a loose stone. "I'm mad that you make it sound like you're doing me a goddamn favor by letting me carry my own weight."
 
 Cael walked a few more steps before answering. "I'm not doing you a favor. Loosen the strap or you'll fall off the hillside."
 
@@ -320,7 +320,7 @@ The trail widened here, shale giving way to packed dirt between pine trunks. Win
 
 "Don't what?" Cael asked.
 
-"Don't make it easy," Riven said, sharper than he intended. "I can't do that and still mean it."
+"Don't make it easy," Riven said, sharper than he intended. "I can't do that shit and still mean it."
 
 Cael watched him for a moment, then nodded. "All right."
 
@@ -396,7 +396,7 @@ A marker stone sat between the branches, somebody's initials carved shallow and 
 
 The first climb hit harder than it looked. Gravel slid beneath Riven's boots, and he caught himself against a rock, skinning the base of his thumb. A hand touched his elbow, not pulling, just there.
 
-"I'm fine," Riven said.
+"I'm fine," Riven said. "Goddamnit. I'm fine."
 
 "I know," Cael said, and let go.
 

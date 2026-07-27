@@ -58,7 +58,7 @@ At the margin a guard's shield rim flashed wet paste from a broadside and threw 
 
 "Eyes on me," Halverin said. "Not on the crowd. Not on each other. On me."
 
-Riven muttered, "Eyes on the load."
+Riven muttered, "Eyes on the load. Goddamnit."
 
 Halverin heard enough to frown. "Again."
 
@@ -102,7 +102,7 @@ On the fourth lift Halverin called margin increase without warning. Shields adva
 
 "Again," Halverin said. "Discipline."
 
-Riven's anger hit the bond hot. Cael's shame answered it. The frame dipped again.
+Riven's anger hit the bond hot. Cael's shame answered it. The frame dipped again. "Fuck this," Riven muttered.
 
 "Again," Halverin shouted. "Discipline."
 
@@ -140,11 +140,11 @@ Cael stepped. Riven stepped late. The bond pulled wrong. Cael's knee buckled. Th
 
 Riven looked at him. Cael saw the refusal in Riven's face before he heard it in words.
 
-"We're improvising every fucking second," Riven said, too low for the crowd, loud enough for Cael.
+"We're improvising every fucking second," Riven said, too low for the crowd, loud enough for Cael. "His goddamn counts are killing us."
 
-"Not now," Cael said.
+"Not now," Cael said. "Jesus Christ. Not now."
 
-"Now is all there is," Riven said.
+"Now is all there is," Riven said. "Shit."
 
 Halverin raised the horn again. "Again. From the top. You're not leaving this square until you hold."
 
@@ -152,11 +152,13 @@ The bond strained, not broken yet, but close. The air over the fountain basin lo
 
 He looked at the chalk marks. He looked at Merrow's open wagon. He looked at Halverin's face and saw the first crack in the magistrate's certainty, quickly plastered over with volume.
 
-"One more sequence," Cael said to Riven. "Match me."
+"One more sequence," Cael said to Riven. "Match me. Shit."
 
-"I've been matching you," Riven said.
+"I've been matching you," Riven said. "The whole fucking time."
 
 "Then match harder," Cael said.
+
+"Harder." Riven laughed once, raw. "Fuck almighty. Goddamnit."
 
 Through the bond Riven felt how much Cael meant it—not cruelty, hope dressed as instruction. That was worse. On the Heartbridge path Cael had said *match me* when a cart was listing and meant *trust the weight*. Here he meant *trust Halverin until the weight proves him wrong*. Riven did not know how to say the difference without breaking the next count.
 
@@ -216,7 +218,7 @@ Cael stopped listening. He looked at Riven. Riven looked back. Not Halverin's rh
 
 "On me," Cael said.
 
-"On you," Riven said.
+"On you," Riven said. "Fuck. On you. Hell."
 
 They moved together, not for the crowd, not for the magistrate, for the load that was trying to tear through both of them at once. The square was still screaming. The air was still wrong. Halverin was still talking.
 
@@ -252,9 +254,9 @@ Halverin stepped down one stair, hands out. "Citizens—stand back. This is a co
 
 No one stood back.
 
-A clerk at the magistrate overhang wrote *sequence adjustment* on a fresh sheet. Merrow's guard took the sheet, read the header, and pointed at the injury slate. "Wrong desk." The clerk sat on the steps and began a second sheet without tearing the first.
+A clerk at the magistrate overhang wrote *change the run* on a fresh sheet. Merrow's guard took the sheet, read the header, and pointed at the injury slate. "Wrong desk." The clerk sat on the steps and began a second sheet without tearing the first.
 
-Halverin's senior aide appeared at the platform rail with three broadside drafts facedown. "Which version do you want, magistrate? *Crowd exceeded tolerance* or *pair variance at margin*—"
+Halverin's senior aide appeared at the platform rail with three broadside drafts facedown. "Which version do you want, magistrate? *Crowd broke the count* or *the pair mismatched on the hard lift*—"
 
 Halverin did not answer. He looked at Cael and Riven on the frame and for the first time since the stairs briefing Cael saw fear without a chart underneath it.
 

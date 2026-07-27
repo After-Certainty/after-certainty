@@ -16,13 +16,13 @@ Cael did not flinch anymore. That was worse than flinching.
 
 They walked into Greyhaven at dusk past patched roofs and familiar stink of harbor fish. People stared. Word had outrun them, as word always did. *Kestrel Gate pair. Bond. Square.* A woman dropped a basket when she saw their faces. A boy ran ahead to tell someone who would tell someone else.
 
-At the lower market a clerk tried to put their names on a relief slate before they'd said a word. Riven knocked the chalk out of his hand. "We're not signing."
+At the lower market a clerk tried to put their names on a relief slate before they'd said a word. Riven knocked the chalk out of his hand. "We're not signing. Fuck off."
 
 The clerk looked offended, then relieved, then went back to counting barrels that weren't there yet. Cael felt Riven's anger cross and did not clamp down. Some fights were still worth having in one chest.
 
 Bran saw Riven first near the lower market and swore like a prayer. "You're alive."
 
-"For now," Riven said.
+"For now," Riven said. "Hell of a welcome."
 
 A fish seller who had known Riven's mother stopped mid-price and looked away. That hurt in a small way the bond amplified until Cael's jaw tightened and Riven felt both of them carrying it.
 
@@ -60,7 +60,7 @@ Harbor noise came up through the boards. Someone sang off-key near the channel. 
 
 Merrow's runner banged the cooper's door once at midnight and left a timber tally without waiting—*need twelve posts by dawn, got eight, find the rest or shift the line.* Riven unfolded the paper at the floorboard gap and traced the lines with his thumb until the words made sense. Cael read it in his chest before Riven finished.
 
-"Say it," Riven said.
+"Say it," Riven said. "Goddamnit. Say it."
 
 "What," Cael said.
 
@@ -70,15 +70,15 @@ Merrow's runner banged the cooper's door once at midnight and left a timber tall
 
 "Greyhaven shatters if we don't hold."
 
-"Hold how," Riven said.
+"Hold how," Riven said. "With what fucking leftover?"
 
 "Together. Full load. No pretending we can split the pain."
 
-Riven turned on his side. "That's surrender."
+Riven turned on his side. "That's surrender. Shit."
 
 "That's acceptance," Cael said. "Not defeat. We've been doing it in pieces since Ashfen. Velorum isn't a place we find. It's what happens when we stop pretending the load can be split."
 
-Riven remembered Lyra's voice: *loss, not refinement.* He remembered Halverin's counts. He remembered the woodcut at Heartbridge, two men, one rope, heroes curse never forgotten.
+Riven remembered Lyra's voice: *loss, not getting better.* He remembered Halverin's counts. He remembered the woodcut at Heartbridge, two men, one rope, heroes curse never forgotten.
 
 He had wanted to be remembered for something that mattered. The town was already remembering the wrong version. He could feel it in the stares on the walk in, in the way people stepped aside.
 
@@ -92,7 +92,7 @@ The bond carried the word before Riven could take it back. Cael's breath caught.
 
 "Love doesn't stay private," Cael said. "You want the room and the berm. You can't have both."
 
-Riven closed his eyes. "If I choose the load, I lose the room."
+Riven closed his eyes. "If I choose the load, I lose the room. Fuck."
 
 "Yes," Cael said.
 
@@ -104,7 +104,7 @@ Riven closed his eyes. "If I choose the load, I lose the room."
 
 "It's a choice," Cael said. "You can still walk away and let the berm go."
 
-Riven turned on his back and stared at the ceiling crack—a pale line in the beam where the wood had split. "You want me to say yes like it feels good."
+Riven turned on his back and stared at the ceiling crack—a pale line in the beam where the wood had split. "You want me to say yes like it feels good. It doesn't. Goddamnit. It doesn't."
 
 "I want you to say yes like it's true," Cael said.
 
@@ -144,7 +144,7 @@ Riven stood on the line and felt the bond pull tight, not performance, not Halve
 
 Below them the channel cut ran dark between mud walls. Laborers held posts along the berm's length—Bran at the rope stack, timber groaning, water pushing at the cut. Market smoke drifted above the rooftops behind them. Cael met his eyes. "When it breaks, don't split."
 
-"When it breaks, don't lecture," Riven said.
+"When it breaks, don't lecture," Riven said. "Don't you fucking lecture."
 
 "Deal," Cael said.
 
@@ -168,7 +168,7 @@ Bran stared at them, rope slack in his hands. "What are you doing?"
 
 "Looks like dying," Bran said.
 
-"Same shift," Riven said.
+"Same shift," Riven said. "Same goddamn shift."
 
 The berm held a third minute. Water slowed in the cut. A cheer started in the market and died when another section groaned. Riven tasted blood where he had bitten his cheek. Cael's shoulder would bruise tomorrow from the shoring work. They would both feel it in both bodies. The load eased a fraction and did not let go.
 
@@ -178,7 +178,7 @@ A magistrate's aide tried to read a gratitude notice from the lower berm. Bran t
 
 Merrow arrived without greeting and walked the line with chalk on her fingers. She marked the gap where the crooked post had sat and said nothing about heroics. "Shift change at noon. Eat. Then back." She looked at Riven's split knuckles. "Lyra's clinic is empty. Use it if you want stitches. Don't put your names on the slate."
 
-Riven almost laughed. "We didn't sign yesterday either."
+Riven almost laughed. "We didn't sign yesterday either. Bastards keep asking."
 
 "Good." Merrow capped her chalk. "Keep not signing."
 

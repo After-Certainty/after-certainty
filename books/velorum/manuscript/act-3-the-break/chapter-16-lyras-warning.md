@@ -42,7 +42,7 @@ Riven laughed without humor. "It's the only part I have left."
 
 Lyra was quiet for a moment. Outside, a cart rolled past and someone shouted about rope lines. Through the high windows Riven caught only rooflines and the plumb line swaying in the square below; hammers, a child crying, Halverin's horn testing one note and cutting off.
 
-"This isn't refinement," she said. She set down the needle roll and faced him fully. No chart. No diagnosis sheet. Just the room and the bond loud between them.
+"This isn't getting better," she said. "Fuck getting better." She set down the needle roll and faced him fully. No chart. No diagnosis sheet. Just the room and the bond loud between them.
 
 Riven's throat tightened. "Say it plain."
 
@@ -52,7 +52,7 @@ Riven's throat tightened. "Say it plain."
 
 Riven looked down at the tea. The surface shook when he breathed. "Halverin says we resisted."
 
-"Halverin needs a story that keeps him standing." Lyra's voice did not rise. "You don't have to wear it."
+"Halverin needs a story that keeps him standing." Lyra's voice did not rise. "You don't have to wear that shit."
 
 "Cael will," Riven said.
 
@@ -68,13 +68,13 @@ The bond spiked with Cael's irritation at that, then shame, then a clamp so hard
 
 Riven swallowed. The tea was bitter enough to cut through the headache for a second. "What am I supposed to do, then? Run?"
 
-"Stop calling it a gift," Lyra said. "Gifts don't put someone else's grief in your chest. Gifts don't punish you for wanting someone who isn't him."
+"Stop calling it a gift," Lyra said. "Gifts don't put someone else's grief in your chest. Gifts don't punish you for wanting someone who isn't him. Fuck that word."
 
 She waited. The annex was quiet except for cloth rustling and the distant square waking.
 
 "You think I chose this," Riven said.
 
-"I think you chose the road to Velorum," Lyra said. "I think the bond chose the rest. Halverin won't say that. It doesn't keep him on the platform."
+"I think you chose the road to Velorum," Lyra said. "I think the bond chose the rest. Halverin won't say that. It doesn't keep his goddamn ass on the platform."
 
 "And Cael?" Riven said.
 
@@ -86,7 +86,7 @@ She did not flinch. "There it is," Lyra said.
 
 "I didn't—"
 
-Lyra leaned back. "You did. Through the bond. Through your face." "I'm not angry at you for wanting. I'm telling you the wanting can't stay yours. That's loss—not refinement."
+Lyra leaned back. "You did. Through the bond. Through your face." "I'm not angry at you for wanting. I'm telling you the wanting can't stay yours. That's loss—not getting better. Goddamnit. Hear it."
 
 Riven's hands closed on the cup. "Cael feels it."
 
@@ -94,21 +94,21 @@ Riven's hands closed on the cup. "Cael feels it."
 
 "And you knew before I said it," Lyra said.
 
-"I know what the bond does to rooms," Lyra said. "I know what it did in here when I stitched your arm. I know what it'll do in the square when a thousand people watch you pretend you're one body."
+"I know what the bond does to rooms," Lyra said. "I know what it did in here when I stitched your arm. I know what it'll do in the square when a thousand people watch you pretend you're one body. It's fucking theater."
 
-"Since the attack a guard came in with a rope burn. While I wrapped him his partner in the corridor flinched like the cloth touched him. No bond. Just watching." She tapped the needle roll. "Multiply that by a thousand throats and tell me Halverin's count is medicine."
+"Since the attack a guard came in with a rope burn. While I wrapped him his partner in the corridor flinched like the cloth touched him. No bond. Just watching." She tapped the needle roll. "Multiply that by a thousand throats and tell me Halverin's count is medicine. It's bullshit."
 
 Riven stared at the high windows—only rooflines and the staging below. On the table, her instruments lay in order: needle, thread, salve, strip knife for cloth, not flesh. She had built a life around things that could be fixed with hands.
 
 "If we fail publicly," he said, "people die in their heads before their bodies."
 
-"Bleed where I can reach you," Lyra said. "Halverin's horn won't stitch that shut."
+"Bleed where I can reach you," Lyra said. "Halverin's horn won't stitch that shut. Fuck his horn."
 
 Riven heard Halverin's voice from the magistrate office again—*Alignment. Path. Correction.* Cael had nodded at each word. Riven had kept his mouth shut because arguing in front of Cael cost double through the bond.
 
 "You want me to walk out there and fail on purpose," he said.
 
-"I want you to stop pretending the square won't cost skin," Lyra said. "If it breaks, let them see the splinters. Not the poster."
+"I want you to stop pretending the square won't cost skin," Lyra said. "If it breaks, let them see the splinters. Not the goddamn poster."
 
 He wanted to argue, wanted a plan with chalk marks and counts, wanted Cael to walk in and say they could hold the line if they just tried harder—and Cael did not walk in. Cael stayed in the corridor and fed the bond with fear Cael was trying to nail down with numbers.
 
@@ -116,7 +116,7 @@ Riven paced the small room once. The bond pulled with every step. Cael's heartbe
 
 "Halverin will call it resistance again," Riven said.
 
-"Halverin will call it whatever keeps him on the platform," Lyra said. "You don't have to make his story true."
+"Halverin will call it whatever keeps him on the platform," Lyra said. "You don't have to make his fucking story true."
 
 "He has the city," Riven said.
 
@@ -152,7 +152,7 @@ He had no answer for that. The bond pulsed with Cael's footsteps in the corridor
 
 "He knows I'm saying something," Lyra said. "He'll feel the shape of it. That's why he's not coming in."
 
-Riven's laugh was bitter. "No privacy."
+Riven's laugh was bitter. "No privacy. Hell."
 
 "No privacy," she agreed. "Not you. Not him. Not me when you're in my annex bleeding through his chest."
 
@@ -192,7 +192,7 @@ Lyra nodded. "I'll be at the south lane tent. Not in the front row."
 
 At the door he stopped. "If you're right, what happens to us after?"
 
-Lyra looked at him for a long beat. "You keep living. You stop pretending living won't cost."
+Lyra looked at him for a long beat. "You keep living. You stop pretending living won't cost. That's the only goddamn advice I've got."
 
 "And the city?"
 

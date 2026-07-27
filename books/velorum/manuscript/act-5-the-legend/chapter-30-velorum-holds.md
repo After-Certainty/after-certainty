@@ -32,7 +32,7 @@ The cooper himself came out mid-sale and looked at the three of them the way peo
 
 The pilgrim who had snapped at Riven wore a cheap badge from a chapbook printer in the next town. He wanted a signature on his pamphlet. Riven had said no with his whole body. The bond had broadcast the refusal before the word left his mouth. Cael had felt it and turned, nails forgotten in his fist.
 
-Lyra had seen that kind of spill before in the annex, when the bond was still new enough to surprise them. Now it was furniture. She wondered if they slept anymore without sharing the edge of a dream. She wondered if Riven still tried to keep one thought to himself in the loft above the cooper's yard. She did not ask. Questions like that had become part of the circuit if she stood too close.
+Lyra had seen that kind of spill before in the annex, when the bond was still new enough to surprise them. Now it was furniture. She wondered if they slept anymore without sharing the edge of a dream. She wondered if Riven still tried to keep one thought to himself in the loft above the cooper's yard. She did not ask. Questions like that spilled into them if she stood too close.
 
 Riven saw her first. He stopped so fast Cael stumbled half a step and felt it.
 
@@ -60,7 +60,7 @@ A chapbook printer's boy thrust a wet broadside between them—*THE TOWN HELD*�
 
 Lyra nodded. She had predicted that. She had also predicted they would survive and call it victory. The town did. The stone did. "Does it hurt?" she asked.
 
-"Yes," Riven said. No poetry.
+"Yes," Riven said. No poetry. "Hell yes."
 
 "All the time?" Lyra asked.
 
@@ -68,15 +68,15 @@ Lyra nodded. She had predicted that. She had also predicted they would survive a
 
 Lyra looked at the statue visible above roofs, smooth faces, rope clean as theology. "They'll remember you like that," she said.
 
-"They remember a lie that keeps the berm up," Riven said.
+"They remember a lie that keeps the berm up," Riven said. "A useful fucking lie."
 
 "Velorum holds," Cael said, flat.
 
-"Velorum holds," Lyra agreed. "The act, not the stone. You carry. The town names it. Those aren't the same thing." She looked at both of them. "You don't hold fully. Not separate."
+"Velorum holds," Lyra agreed. "The act, not the stone. You carry. The town names it. Those aren't the same goddamn thing." She looked at both of them. "You don't hold fully. Not separate."
 
 Riven flinched. Cael did too, echoed.
 
-Lyra did not step closer. She would not become part of the circuit again. She had left to keep one room closed. She had come back to see whether the room still existed anywhere in them.
+Lyra did not step closer. She would not get pulled into them again. She had left to keep one room closed. She had come back to see whether the room still existed anywhere in them.
 
 "I didn't come to fix you," she said.
 
@@ -88,13 +88,13 @@ Cael's mouth tightened. "Are we?"
 
 Lyra considered. A child ran past chasing a dog. A pilgrim dropped a coin. The bond between the two men pulled invisible, tide under skin. Riven's grief for her crossed to Cael before she could name it. Cael's old jealousy arrived in Riven's shoulders as a stiffening she could read from ten paces.
 
-"You're still two people," she said. "You're not a room with a lock on it. That doesn't mean you're the statue."
+"You're still two people," she said. "You're not a room with a lock on it. That doesn't mean you're the statue. Don't let them turn you into that shit."
 
 Riven closed his eyes. "Fair."
 
 "I'm sorry," he said.
 
-"Don't," Lyra said, same word he had used when she left. "Don't make it about sorry. You paid. The town paid less because you did. Remember that when the songs get loud."
+"Don't," Lyra said, same word he had used when she left. "Don't make it about sorry. You paid. The town paid less because you did. Remember that when the songs get loud. Fuck the songs if they don't."
 
 "We will," Cael said, though Lyra heard the doubt.
 
@@ -124,7 +124,7 @@ Lyra nodded at the first woman and kept climbing.
 
 She put one palm on the new stone. Cold. Too smooth. The hairline crack from the night of the tear was already being filled with mortar someone thought was respectful. Lyra wanted to scrape it out and let the fracture show.
 
-"They were separate once," she said to no one who wanted to hear.
+"They were separate once," she said to no one who wanted to hear. "Before the myth ate the fucking truth."
 
 Wind came off the harbor. Below, Greyhaven moved, patched, alive. Cael and Riven crossed the lower square toward the north berm check, shoulders squared, not touching, still bound. Bran walked with them, pointing at timber stacks. Ordinary work for men the town had already turned into myth.
 
@@ -144,7 +144,7 @@ At dusk she heard children practicing a refrain near the market: *Heroes. Curse.
 
 A chapbook seller corrected their rhythm and sold two copies to pilgrims who would never read past the title. Lyra did not correct them.
 
-The seller tried to hang a broadside on the clinic door—*THE TOWN HELD*—and Lyra made him take it down. "This is a clinic. Not a shrine."
+The seller tried to hang a broadside on the clinic door—*THE TOWN HELD*—and Lyra made him take it down. "This is a clinic. Not a shrine. Take that shit somewhere else."
 
 He looked at her bandage tray like it might sign for him. She closed the door in his face and locked it. The ink smeared on his fingers when he peeled the sheet off the wood. Good.
 
