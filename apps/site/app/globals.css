@@ -107,10 +107,68 @@
     outline-offset: 2px;
   }
 
-  /* Rem-based type so browser zoom scales cleanly. */
+  /* Rem-based type so browser zoom scales cleanly. Size steps from READ-014. */
   .prose-reading {
-    font-size: 1.0625rem;
+    font-size: var(--reader-font-size, 1.0625rem);
     line-height: 1.75;
+  }
+
+  .chapter-reader {
+    --reader-font-size: 1.0625rem;
+  }
+
+  .chapter-reader[data-reading-size="sm"] {
+    --reader-font-size: 0.9375rem;
+  }
+
+  .chapter-reader[data-reading-size="md"] {
+    --reader-font-size: 1.0625rem;
+  }
+
+  .chapter-reader[data-reading-size="lg"] {
+    --reader-font-size: 1.25rem;
+  }
+
+  .chapter-reader[data-reading-size="xl"] {
+    --reader-font-size: 1.5rem;
+  }
+
+  /* Reader-local themes (READ-014) — scoped to the chapter frame, not site chrome. */
+  .chapter-reader[data-reading-theme="sepia"],
+  .chapter-reader[data-reading-theme="night"] {
+    background-color: var(--bg);
+    color: var(--fg);
+  }
+
+  .chapter-reader[data-reading-theme="sepia"] {
+    --bg: #f3ebdd;
+    --bg-elevated: #f8f2e8;
+    --fg: #2a2318;
+    --muted: #5a5348;
+    --border: rgba(42, 35, 24, 0.14);
+    --accent: #7a5f2c;
+    --accent-soft: rgba(122, 95, 44, 0.14);
+    --glow: rgba(122, 95, 44, 0.06);
+  }
+
+  .chapter-reader[data-reading-theme="night"] {
+    --bg: #101118;
+    --bg-elevated: #171924;
+    --fg: #e7e3dc;
+    --muted: #9b968c;
+    --border: rgba(231, 227, 220, 0.12);
+    --accent: #c4a45a;
+    --accent-soft: rgba(196, 164, 90, 0.14);
+    --glow: rgba(196, 164, 90, 0.08);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .chapter-reader[data-reading-theme="sepia"],
+    .chapter-reader[data-reading-theme="night"] {
+      transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+    }
   }
 
   .chapter-manuscript {
