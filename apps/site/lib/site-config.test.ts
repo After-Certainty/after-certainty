@@ -6,6 +6,7 @@ import {
   isSemanticManifestUseLocal,
   resolveGaMeasurementId,
   resolveSiteSocialLinks,
+  shouldLoadGoogleAnalytics,
 } from "@/lib/site-config";
 
 describe("semantic manifest env flags", () => {
@@ -58,6 +59,56 @@ describe("resolveGaMeasurementId", () => {
     prev = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
     process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID = "  G-CUSTOM123  ";
     expect(resolveGaMeasurementId()).toBe("G-CUSTOM123");
+  });
+});
+
+describe("shouldLoadGoogleAnalytics", () => {
+  const keys = ["VERCEL_ENV", "NEXT_PUBLIC_GA_ENABLE_PREVIEW", "NODE_ENV"] as const;
+  const saved: Record<string, string | undefined> = {};
+
+  afterEach(() => {
+    for (const k of keys) {
+      const v = saved[k];
+      if (v === undefined) delete process.env[k];
+      else process.env[k] = v;
+    }
+  });
+
+  function stash() {
+    for (const k of keys) {
+      saved[k] = process.env[k];
+    }
+  }
+
+  it("loads on Vercel production", () => {
+    stash();
+    process.env.NODE_ENV = "production";
+    process.env.VERCEL_ENV = "production";
+    delete process.env.NEXT_PUBLIC_GA_ENABLE_PREVIEW;
+    expect(shouldLoadGoogleAnalytics()).toBe(true);
+  });
+
+  it("does not load on Vercel preview by default", () => {
+    stash();
+    process.env.NODE_ENV = "production";
+    process.env.VERCEL_ENV = "preview";
+    delete process.env.NEXT_PUBLIC_GA_ENABLE_PREVIEW;
+    expect(shouldLoadGoogleAnalytics()).toBe(false);
+  });
+
+  it("loads on preview when NEXT_PUBLIC_GA_ENABLE_PREVIEW=1", () => {
+    stash();
+    process.env.NODE_ENV = "production";
+    process.env.VERCEL_ENV = "preview";
+    process.env.NEXT_PUBLIC_GA_ENABLE_PREVIEW = "1";
+    expect(shouldLoadGoogleAnalytics()).toBe(true);
+  });
+
+  it("does not load in development", () => {
+    stash();
+    process.env.NODE_ENV = "development";
+    process.env.VERCEL_ENV = "production";
+    expect(shouldLoadGoogleAnalytics()).toBe(false);
   });
 });
 

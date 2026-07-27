@@ -37,6 +37,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       thinker.summary ??
       thinker.whyThisMatters ??
       `${thinker.name} — ${thinkerTypeLabel(thinker.type)}`,
+    alternates: { canonical: `${explorePaths.thinkers}/${thinker.slug}` },
   });
 }
 

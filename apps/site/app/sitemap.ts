@@ -27,7 +27,20 @@ const TOP_LEVEL_PATHS = [
   "/whats-new",
   "/collaborators",
   "/about",
+  "/privacy",
 ] as const;
+
+/**
+ * Prefer manifest `generatedAt` for a stable lastmod across requests in the same build;
+ * fall back to "now" only when provenance is missing.
+ */
+export function resolveSitemapLastModified(generatedAt: string | undefined): Date {
+  if (generatedAt?.trim()) {
+    const parsed = Date.parse(generatedAt);
+    if (!Number.isNaN(parsed)) return new Date(parsed);
+  }
+  return new Date();
+}
 
 /**
  * All pathname segments to expose in sitemap.xml — deduped, stable order.
@@ -84,7 +97,8 @@ export async function getSitemapPaths(): Promise<string[]> {
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = resolveDeploymentUrl();
-  const lastModified = new Date();
+  const graph = await getSemanticGraph();
+  const lastModified = resolveSitemapLastModified(graph.generatedAt);
   const pathList = await getSitemapPaths();
 
   return pathList.map((path) => ({

@@ -36,7 +36,7 @@ export function ConsentProvider({ children }: { children: ReactNode }) {
   const acceptAnalytics = useCallback(() => {
     setConsent("granted");
     setConsentState("granted");
-    updateAnalyticsConsent(true);
+    updateAnalyticsConsent(true, { sendPageView: true });
   }, []);
 
   const rejectAnalytics = useCallback(() => {

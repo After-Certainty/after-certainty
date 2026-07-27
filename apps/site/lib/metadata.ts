@@ -60,6 +60,14 @@ export function createPageMetadata(override: Metadata): Metadata {
   return {
     ...defaultMetadata,
     ...override,
+    alternates: {
+      ...defaultMetadata.alternates,
+      ...override.alternates,
+      types: {
+        ...defaultMetadata.alternates?.types,
+        ...override.alternates?.types,
+      },
+    },
     openGraph: {
       ...defaultMetadata.openGraph,
       ...override.openGraph,

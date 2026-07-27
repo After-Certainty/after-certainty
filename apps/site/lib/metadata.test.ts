@@ -34,6 +34,16 @@ describe("createPageMetadata", () => {
     expect(m.openGraph?.title).toBe("After Certainty");
     expect(m.openGraph?.description).toBe("A book.");
   });
+
+  it("merges alternates.canonical without dropping RSS types", () => {
+    const m = createPageMetadata({
+      title: "Concept",
+      description: "A definition.",
+      alternates: { canonical: "/explore/concepts/certainty" },
+    });
+    expect(m.alternates?.canonical).toBe("/explore/concepts/certainty");
+    expect(m.alternates?.types?.["application/rss+xml"]).toBeTruthy();
+  });
 });
 
 describe("defaultMetadata", () => {

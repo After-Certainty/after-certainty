@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ExploreObservatory } from "@/components/explore/observatory/ExploreObservatory";
 import { buildExploreCoverBySlug } from "@/lib/explore/buildExploreCoverBySlug";
+import { buildExplorePageMetadata } from "@/lib/explore/explore-page-metadata";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import {
   isValidExploreFocusKind,
@@ -10,13 +11,6 @@ import { buildGraphIndex } from "@/lib/graph/graph";
 import { isExplorePathwayKind, pathwayFromSearchParams } from "@/lib/graph/explorePaths";
 import { pathwayGraphNodeIds, resolvePathwayStepIndex } from "@/lib/observatory/pathwayFromContent";
 import { resolveExplorePathway } from "@/lib/observatory/resolvePathway";
-import { createPageMetadata } from "@/lib/metadata";
-
-export const metadata: Metadata = createPageMetadata({
-  title: "Explore",
-  description:
-    "A semantic observatory for the After Certainty graph — traverse concepts, patterns, books, and thinkers as a calm, navigable landscape.",
-});
 
 type ExplorePageProps = {
   searchParams?: Promise<{
@@ -25,8 +19,16 @@ type ExplorePageProps = {
     pathwayKind?: string;
     pathwaySlug?: string;
     pathwayStep?: string;
+    view?: string;
+    edge?: string;
+    relPreset?: string;
   }>;
 };
+
+export async function generateMetadata({ searchParams }: ExplorePageProps): Promise<Metadata> {
+  const sp = searchParams ? await searchParams : {};
+  return buildExplorePageMetadata(sp);
+}
 
 export default async function ExploreObservatoryPage({ searchParams }: ExplorePageProps) {
   const { graph } = await getExploreSemanticGraph();

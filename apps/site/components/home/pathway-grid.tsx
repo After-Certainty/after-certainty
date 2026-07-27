@@ -33,21 +33,20 @@ function IconPatterns(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-function IconCollaborators(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
-      <circle cx={9} cy={7} r={3} />
-      <circle cx={16} cy={8} r={2.5} />
-      <path d="M3 19c0-3.3 2.7-5 6-5s6 1.7 6 5M14 19c0-2 1.5-3 4-3s4 1 4 3" strokeLinecap="round" />
-    </svg>
-  );
-}
-
 function IconStart(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
       <circle cx={12} cy={12} r={9} />
       <path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function IconConcepts(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
+      <circle cx={12} cy={12} r={3} />
+      <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" strokeLinecap="round" />
     </svg>
   );
 }
@@ -60,6 +59,12 @@ const pathways = [
     Icon: IconBooks,
   },
   {
+    href: "/explore/concepts",
+    title: "Concepts",
+    description: "Named ideas in the semantic graph—definitions, recognition signals, and related works.",
+    Icon: IconConcepts,
+  },
+  {
     href: "/podcast",
     title: "Podcast",
     description: "Conversations on uncertainty, institutions, and the texture of leadership.",
@@ -70,12 +75,6 @@ const pathways = [
     title: "Patterns",
     description: "Reusable ideas—named, documented, and open to remix under commons terms.",
     Icon: IconPatterns,
-  },
-  {
-    href: "/collaborators",
-    title: "Collaborators",
-    description: "Editors, researchers, and partners stewarding this space together.",
-    Icon: IconCollaborators,
   },
   {
     href: "/start",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { ExploreEnrichmentSections, hasSemanticEnrichment } from "@/components/explore/explore-enrichment-sections";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { GraphNeighborhoodCards } from "@/components/explore/graph-neighborhood-cards";
@@ -45,6 +46,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return createPageMetadata({
     title: concept.title,
     description: getConceptFullDefinition(concept),
+    alternates: { canonical: `${explorePaths.concepts}/${concept.slug}` },
   });
 }
 
@@ -144,6 +146,15 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
           next={nextConcept ? { slug: nextConcept.slug, title: nextConcept.title } : undefined}
         />
       </Section>
+
+      {hasSemanticEnrichment(concept) ? (
+        <Section
+          atmosphere="transition"
+          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+        >
+          <ExploreEnrichmentSections enrichment={concept} />
+        </Section>
+      ) : null}
 
       <RelatedTrailsSection canonicalId={concept.id} entityLabel="concept" />
 

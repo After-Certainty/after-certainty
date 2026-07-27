@@ -25,7 +25,9 @@ function fileExtensionFromUrl(url: string): string {
   }
 }
 
-/** Observatory focus (primary) and optional purchase/download actions on explore entity detail pages. */
+/** Observatory focus (secondary) and optional purchase/download actions on explore entity detail pages.
+ * Related grids already use canonical entity hrefs as primary crawl links.
+ */
 export function ExploreEntityDetailActions({
   observatory,
   publicationLinks = [],
@@ -36,7 +38,11 @@ export function ExploreEntityDetailActions({
   return (
     <section className="mt-10" aria-label={label}>
       <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-        <ExploreObservatoryFocusLink kind={observatory.kind} slug={observatory.slug} variant="primary" />
+        <ExploreObservatoryFocusLink
+          kind={observatory.kind}
+          slug={observatory.slug}
+          variant="secondary"
+        />
         {publicationLinks.map((item) => (
           <TrackedLink
             key={`${item.href}-${item.label}`}
