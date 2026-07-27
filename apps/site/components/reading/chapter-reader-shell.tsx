@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ChapterAdjacentNav } from "@/components/reading/chapter-adjacent-nav";
 import { ChapterToc } from "@/components/reading/chapter-toc";
+import { ChapterBookmarkControl } from "@/components/reading/reading-bookmarks-panel";
 import { RecordReadingProgress } from "@/components/reading/record-reading-progress";
 import { ButtonLink } from "@/components/ui/button-link";
 import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
@@ -21,7 +22,7 @@ export type ChapterReaderShellProps = {
 };
 
 /**
- * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011 progress).
+ * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011/013).
  */
 export function ChapterReaderShell({
   book,
@@ -81,7 +82,7 @@ export function ChapterReaderShell({
           {chapter.title}
         </h1>
 
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-muted">
           {kindLabel ? <span>{kindLabel}</span> : null}
           {kindLabel && minutes ? <span aria-hidden>·</span> : null}
           {minutes ? (
@@ -90,6 +91,11 @@ export function ChapterReaderShell({
               {minutes === 1 ? "" : "s"}
             </span>
           ) : null}
+          <ChapterBookmarkControl
+            editionId={progressEditionId}
+            chapterId={chapter.id}
+            chapterTitle={chapter.title}
+          />
         </div>
 
         {centralQuestion ? (

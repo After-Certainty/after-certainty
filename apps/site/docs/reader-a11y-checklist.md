@@ -42,4 +42,5 @@ scope here.
 
 - [x] Reading progress persistence (READ-011) — localStorage only
 - [x] Continue reading entry points (READ-012) — Start Here + book pages; keyboard-focusable links/buttons
-- [ ] Bookmarks, text-size controls (READ-013+)
+- [x] Local bookmarks (READ-013) — chapter/section toggle in reader; list on book pages
+- [ ] Text-size / reading theme controls (READ-014+)

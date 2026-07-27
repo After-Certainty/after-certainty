@@ -101,9 +101,10 @@ Site roadmap headers that still say “planning only” for search are **stale**
 | Footnotes / section anchors in reader | **Absent** | Corpus markdown only |
 | Chapter prev/next + reading TOC | **Absent** as reader chrome | Adjacent nav exists for *explore entities*, not chapters |
 | Path/trail local progress | **Present** | `lib/paths/pathProgress.ts` — questions/trails only |
-| Bookmarks, text-size, reading themes, offline reading | **Absent** | Global site theme ≠ reader theme; no PWA reader |
+| Bookmarks, text-size, reading themes, offline reading | **Partial** | Local bookmarks shipped (READ-013); reader theme/size and offline still absent |
 | Local chapter reading progress | **Present** (READ-011) | `lib/reading/readingProgress.ts`; recorder in chapter reader shell |
 | Continue-reading entry points | **Present** (READ-012) | Start Here + book overview/detail CTAs when valid local progress resolves to a live chapter |
+| Local bookmarks | **Present** (READ-013) | Chapter/section bookmarks in reader chrome; list on book overview/detail |
 
 Public corpus validation requires public chapters to be search- and sitemap-eligible with matching index/sitemap membership (READ-005 / READ-009).
 
@@ -253,10 +254,10 @@ flowchart LR
 |-------|---------|
 | **Problem** | V1 reading works, but return visits and comfort controls are thin. |
 | **User value** | Resume reading, bookmark places, adjust type size/theme, find within a book. |
-| **Current state** | Local reading progress + continue-reading CTAs shipped (READ-011/012). Path progress pattern exists for questions/trails. |
-| **Existing implementation** | `lib/reading/readingProgress.ts`; `lib/reading/continueReading.ts`; continue panels on Start/book pages; `lib/paths/pathProgress.ts`; site `theme-provider` (global, not reader). |
+| **Current state** | Local progress, continue-reading, and bookmarks shipped (READ-011–013). Path progress pattern exists for questions/trails. |
+| **Existing implementation** | `lib/reading/readingProgress.ts`; `lib/reading/continueReading.ts`; `lib/reading/readingBookmarks.ts`; continue/bookmark panels; `lib/paths/pathProgress.ts`; site `theme-provider` (global, not reader). |
 | **Existing documentation** | This roadmap; chapter-identity client storage keys. |
-| **Remaining work** | Local bookmarks; text-size/reading theme; TOC drawer; copy section link; optional in-book search; offline only as research spike. |
+| **Remaining work** | Text-size/reading theme; TOC drawer; copy section link; optional in-book search; offline only as research spike. |
 | **Dependencies** | Phase 1 routes + stable IDs. |
 | **Corpus / site** | Site-only storage (localStorage); no corpus requirement. |
 | **Tests** | Storage key stability tests; UI tests for controls; no cross-device sync expectations. |
@@ -524,6 +525,8 @@ flowchart LR
 |-------|-------|
 | **Goal** | Bookmark chapter or section anchors locally. |
 | **Type / owner / size** | implementation / site / M |
+| **Status** | Implemented — `ac_reading_bookmarks` localStorage API; reader toggle (chapter/section); book overview/detail list; stale ids filtered via continue-reading catalog. |
+| **Likely files** | `apps/site/lib/reading/readingBookmarks.ts`; `apps/site/components/reading/reading-bookmarks-panel.tsx`; chapter reader shell; book layouts |
 | **Dependencies** | READ-002; section anchors from READ-003 |
 | **Acceptance criteria** | Add/remove bookmark; list accessible from book overview or reader chrome |
 
