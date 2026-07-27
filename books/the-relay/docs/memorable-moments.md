@@ -49,7 +49,7 @@ You don't remember your favorite novels for their architecture. You remember *mo
 
 ### Seeding Arin (the emotional destination)
 
-- **The lists out past the dark gate.** Twice, pilots coming the slow way mention the same odd thing: people who never travel, trading not cargo but small wrong details — a season come early, a light changed color. Lena files it away. The reader thinks *…that's Arin, isn't it?* — so when it is, it lands as recognition, not surprise.
+- **The lists out past the dark gate.** Twice, pilots coming the slow way mention the same odd thing: people who never travel, trading not cargo but unseasonals — marsh-light gone green, a cooling-river milky, birds missing from their week. Lena files it away. The reader thinks *…that's Arin, isn't it?* — so when it is, it lands as recognition, not surprise.
 
 ### The relay made physical
 

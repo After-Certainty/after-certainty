@@ -286,7 +286,7 @@ Lena took Veya's packet from inside her coat.
 
 Cai saw it and did not look away quickly enough.
 
-"I have records from Vellum," she said. "Old local returns. Gate attunement exceptions. Offices that used to collect small wrong things and compare them across places." She held his eyes. "I think you're still doing pieces of that. I think the corrections aren't in any log I can read."
+"I have records from Vellum," she said. "Old local returns. Gate attunement exceptions. Offices that used to collect unseasonals and compare them across places." She held his eyes. "I think you're still doing pieces of that. I think the corrections aren't in any log I can read."
 
 Cai's face changed one word at a time.
 
@@ -1088,7 +1088,7 @@ No. Not Sol. A different A. A boy at a family table telling her fast was not the
 
 Lio's eyes softened.
 
-"Lake wrong before gauge. Winter-skin under summer. Moths low. Black water pulse at North Lock. Answer if you see the same."
+"Skin first. Gauge late. Winter-skin under summer. Moths low. Black water pulse at North Lock. Answer if you see the same."
 
 Lena closed her eyes.
 

@@ -100,7 +100,7 @@ Not greedily. Carefully.
 
 "What lists?"
 
-"The small wrong things. Marsh-light, late tide, wrong water, moths low. They're not random. Some of the settled people are passing them hand to hand. Lio at Ivera is collecting lines. Cai has hidden gate fixes. Veya had the old records. Jun had the charts. My brother—" She stopped.
+"The unseasonals. Marsh-light, late tide, wrong water, moths low. They're not random. Some of the settled people are passing them hand to hand. Lio at Ivera is collecting lines. Cai has hidden gate fixes. Veya had the old records. Jun had the charts. My brother—" She stopped.
 
 Sera waited.
 
@@ -124,7 +124,7 @@ Sera's face softened, but she did not reach for her. Lena was grateful.
 
 "What did he say?"
 
-"Lake wrong before gauge. Winter-skin under summer. Black water pulse. Answer if you see the same."
+"Skin first. Gauge late. Winter-skin under summer. Black water pulse. Answer if you see the same."
 
 Sera took this in with the seriousness of someone receiving not news, but weight.
 

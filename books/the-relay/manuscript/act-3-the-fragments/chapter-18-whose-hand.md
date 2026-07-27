@@ -68,7 +68,7 @@ They made poor speed and good records.
 
 At every stopping place, Lena asked.
 
-Not loudly. Not with Varik's talent for gathering a room. She wanted edges: peddlers, boat hands, mill clerks, old women with baskets, children who knew where adults hid notes. She asked for wrong things, local things, scrap-lines moving hand to hand.
+Not loudly. Not with Varik's talent for gathering a room. She wanted edges: peddlers, boat hands, mill clerks, old women with baskets, children who knew where adults hid notes. She asked for unseasonals, local things, scrap-lines moving hand to hand.
 
 The first night, at a sheep shelter with one wall missing and a roof that had negotiated terms with the rain, Yov produced three waxed slips from his coat.
 
@@ -297,7 +297,7 @@ They preserved difference.
 
 Lena stared at those words until the ferry house faded around them.
 
-That was the hand. Not the handwriting, not the seal, not even the water-lines. The refusal to make the wrong things too quickly one thing.
+That was the hand. Not the handwriting, not the seal, not even the water-lines. The refusal to make the unseasonals too quickly one thing.
 
 Arin.
 
