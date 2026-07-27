@@ -30,7 +30,7 @@ Cael did not have theology. He had work.
 
 "On me," he said to Riven.
 
-"On you," Riven said.
+"On you," Riven said. "Fuck. On you."
 
 They drove support posts into the runout while laborers fed timber. Pain crossed clean when they chose it, dirty when fear spiked. Cael felt Riven's memory of the square and his own memory of the riverside entrance braid into one drive: *don't pull apart.*
 
@@ -48,7 +48,7 @@ Cael saw what was at stake: if the town fell, everything they had paid would mea
 
 "This is what we chose," he said, not to the crowd, to Riven.
 
-"I know," Riven said, teeth bared.
+"I know," Riven said, teeth bared. "Goddamnit. I know."
 
 They stopped trying to keep anything separate. Fatigue, fear, pain moved as one load. Cael's shoulders burned. Riven's ribs ached from a bruise three days old and fresh at once.
 
@@ -56,7 +56,7 @@ The water slowed. Not natural. Forced. The tear eased a fraction.
 
 Bran stared at them, rope slack in his hands. "That hold the channel or kill you?"
 
-"Both if we're lucky," Riven said.
+"Both if we're lucky," Riven said. "Hell if we're not."
 
 A second break opened uphill near the cooper's yard, Cael's old loft visible in the smoke line. The bond spiked with Riven's fear for the town and Cael's fear for the story and both turned into motion.
 
@@ -68,7 +68,7 @@ The loft beam he had counted cracks in three nights ago groaned. Cael's old bed 
 
 "Hold," Cael said.
 
-"Holding," Riven said.
+"Holding," Riven said. "Shit. Holding."
 
 By midday the channel held. The market stayed dry. Three buildings were lost. No mass death. Cael could not call that victory.
 
@@ -82,7 +82,7 @@ The owner looked at Cael and Riven like they were the signature he could not get
 
 "Heroes don't pay timber bills," the owner said, not quite a question.
 
-"Then don't call us that," Riven said. "Call us labor."
+"Then don't call us that," Riven said. "Call us labor. Not fucking heroes."
 
 Merrow was already walking. The owner swore at her back and went to count what was left of his yard stack. Bran muttered something about fish prices and followed Merrow with the head count.
 
@@ -100,7 +100,7 @@ Cael looked at Greyhaven's roofs, at Heartbridge hill in the distance, at the fa
 
 "We hold until it stops tearing," Cael said.
 
-"Or until we break," Riven said.
+"Or until we break," Riven said. "Same goddamn choice."
 
 "Or that," Cael said.
 
@@ -110,7 +110,7 @@ Jess found Cael at the water line. "My brother's on the rope crew tonight. Tell 
 
 "The pamphlet printers will be here by dusk," Bran said, not quite a joke.
 
-"Tell them we're busy," Riven said.
+"Tell them we're busy," Riven said. "Tell them to go to hell."
 
 "Heartbridge line next if this goes again," Bran said. "Merrow's note said so."
 
@@ -124,7 +124,7 @@ He picked up a support post. Riven picked up the other end. The bond pulled tigh
 
 Bran found them at the yard gate with fish stew and no spoons. "Eat. Second bell again if the tear moves uphill."
 
-"We're not symbols," Riven said.
+"We're not symbols," Riven said. "We're the load. Fuck symbols."
 
 "Good." Bran scraped the pot. "Symbols don't eat stew."
 

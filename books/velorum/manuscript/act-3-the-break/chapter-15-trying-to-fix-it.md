@@ -90,7 +90,7 @@ She left. Halverin's jaw tightened. He did not argue with Merrow. That told Cael
 
 Halverin looked at Cael instead of answering Riven. "You will hold tomorrow. He will follow."
 
-"He's not a dog," Cael said, and surprised himself with the sharpness.
+"He's not a dog," Cael said, and surprised himself with the sharpness. "Jesus Christ."
 
 Halverin's expression did not change. "No. He's a bonded pair. Act like one."
 
@@ -118,25 +118,25 @@ Cael scanned it. Civic language. Steady voice. No mention of failure. "You want 
 
 "I want you sounding like you believe the ground'll hold," Halverin said.
 
-Riven took the sheet from Cael's hand and read it once. "You left out what happens if we fail in front of them."
+Riven took the sheet from Cael's hand and read it once. "You left out what happens if we fail in front of them. Goddamnit."
 
 "Then we adjust in public and keep going," Halverin said. "Panic is worse than a visible screwup."
 
-"For who?" Riven asked.
+"For who?" Riven asked. "For Halverin? Fuck that."
 
 Halverin checked the horn strap and did not answer.
 
 Lyra came through the square at midday with a crate of bandage rolls on her shoulder and stopped when she saw the staging. Rope lines ran taut from post to post; wooden supports threw a crosshatch over the dry basin rim. She set the crate down without asking for help.
 
-"You're putting sick people in the front row," she said.
+"You're putting sick people in the front row," she said. "That's shit, and you know it."
 
 "We're not," Cael said. "Merrow cleared the lanes."
 
 "You're putting hope in the front row," Lyra said. "Same goddamn problem."
 
-Riven stepped down from the platform. "Don't come tomorrow if you can't watch it."
+Riven stepped down from the platform. "Don't come tomorrow if you can't watch it. Hell."
 
-"I'll be where the hurt is," Lyra said. "That's the only place worth standing."
+"I'll be where the hurt is," Lyra said. "That's the only place worth standing. Not his goddamn theater."
 
 She left before Riven could say anything else. Through the bond Cael got the ache of that exchange and his own shame for wanting her approval less than he wanted Halverin's plan to work.
 
@@ -146,17 +146,17 @@ That evening the spice seller tried to reclaim her pitch space at the south rope
 
 Cael heard the last clause and felt cold run down his spine. *Until you have no choice left* was a threat in polite words.
 
-He signed the staging slate anyway. Riven watched him sign. "You still think this fixes it?"
+He signed the staging slate anyway. Riven watched him sign. "You still think this fixes it? Shit."
 
 Cael capped the ink. "I think we owe the dead a better next minute than we gave them at the stairs."
 
-"That's not the same thing," Riven said.
+"That's not the same fucking thing," Riven said.
 
 "No," Cael said. "It's what I can do tonight." He told himself Riven would understand once the square held—or once it broke honestly. Riven had always come around on the road when the load was real.
 
 They walked the square perimeter after Halverin left. Chalk marks had smeared pale from foot traffic; bracket hooks clinked on the magistrate wall as crews finished hanging rigging. Paste smell. Fresh rope. A boy practicing the chalk arrows like a game while his mother shouted at him to come home.
 
-Riven stopped under one of the broadsides. "If we fail tomorrow, it's not just us," Riven said.
+Riven stopped under one of the broadsides. "If we fail tomorrow, it's not just us," Riven said. "It's every bastard who believed the paste."
 
 "I know," Cael said.
 
@@ -180,7 +180,7 @@ On the last night Halverin came to the annex himself, unusual enough that Cael s
 
 Halverin left a folded sequence card on the table. Cael did not open it until after the door shut. Signal one. Signal two. Margin increase. Hold until break. He folded it again and set it under Merrow's bread bundle.
 
-After he left, Riven said, "He talks like acceptance is a weapon."
+After he left, Riven said, "He talks like acceptance is a weapon. Fuck almighty."
 
 "Maybe it is," Cael said. "Maybe it's also the only tool we have that isn't a blade."
 

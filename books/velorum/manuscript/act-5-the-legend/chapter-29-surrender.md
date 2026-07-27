@@ -26,11 +26,11 @@ One of the men—Bran's cousin, rope-burned palms—asked if they should tie off
 
 Riven looked at the hill monument, two men carved with a rope between them, heroes curse never forgotten. The old stone was cracked from winter and from whatever had happened on the berm at midday. He had climbed this hill wanting meaning. He had the meaning now. It tasted like metal.
 
-"If we do this, we don't come back as ourselves," Riven said.
+"If we do this, we don't come back as ourselves," Riven said. "Fuck. I know that."
 
 "We haven't been," Cael said.
 
-"Lyra—" Riven said.
+"Lyra—" Riven said. "Goddamnit. Lyra—"
 
 "Is gone. Not dead. Gone." Cael's jaw tightened. "I feel you miss her. I feel you hate that I feel it. There's no room."
 
@@ -44,15 +44,15 @@ Riven wanted to say he had never asked to be a symbol either. The town had decid
 
 "You sure?" Bran asked. Not Cael. Riven.
 
-"No," Riven said. "I'm sure about the other thing. If we don't, the market goes under before midnight."
+"No," Riven said. "I'm sure about the other thing. If we don't, the market goes under before midnight. Shit."
 
 Bran looked at him a beat, then nodded and stepped back into the ring.
 
-"This isn't belief," Riven said.
+"This isn't belief," Riven said. "This isn't fucking faith."
 
 "No," Cael said.
 
-"This isn't Halverin," Riven said.
+"This isn't Halverin," Riven said. "Hell. At least that."
 
 "No."
 
@@ -72,7 +72,7 @@ Cael gasped. Riven gasped. They grabbed each other's forearms on the hill stone 
 
 "Hold," Cael said.
 
-"I'm holding," Riven said. They held.
+"I'm holding," Riven said. "Goddamnit. I'm holding." They held.
 
 Pressure hit behind the eyes, along the spine, in the teeth. Not a figure. The bond answering two men who finally stopped pretending they were carrying separate loads.
 
@@ -104,7 +104,7 @@ Below, someone in the market cheered once and was shouted down.
 
 "Done?" Bran asked from far away.
 
-"Done for now," Riven said.
+"Done for now," Riven said. "Fuck. For now."
 
 Greyhaven below still stood. Smoke rose from one lost warehouse. People moved in the streets again.
 
@@ -120,7 +120,7 @@ Riven did not feel saved. He felt spent.
 
 Cael leaned against the monument base. "We didn't become stone."
 
-"No," Riven said. "We became load."
+"No," Riven said. "We became load. That's the whole goddamn story."
 
 Riven laughed once, broken, and felt Cael laugh in his chest without permission.
 
@@ -144,7 +144,7 @@ They sat on the hill until the stars came out. No ceremony. No magistrate speech
 
 One of the women left her coil at the monument base. Bran picked it up without comment and slung it over his shoulder. "My cousin wants to know if you're still men," he said, not looking at them.
 
-"We're still men," Riven said.
+"We're still men," Riven said. "Say it. Shit. Say we're still men."
 
 "Good." Bran paused. "He also wants to know if the market'll flood again tomorrow."
 

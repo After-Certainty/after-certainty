@@ -16,7 +16,7 @@ Merrow passed at noon with a slate and marked them both present. "Hands not thro
 
 Yesterday at midday Cael had come down from the wall roster and joined the debris cord without announcement. Riven had seen him coming and felt his own shoulders tighten before Cael felt it back.
 
-"You don't have to," Riven said.
+"You don't have to," Riven said. "Goddamnit. You don't."
 
 "Merrow assigned me second shift on debris instead of east wall." Cael picked up a splintered board. "Unless you'd rather I hold a story somewhere."
 
@@ -94,7 +94,7 @@ An orderly stacked folded cloth on the prep table where Lyra's kit had been. Nee
 
 "He'll go anyway."
 
-"Yes," Lyra said. "Don't make it clean when he does."
+"Yes," Lyra said. "Don't make it clean when he does. Don't you fucking make it clean."
 
 Riven's throat tightened. "It isn't clean."
 
@@ -114,7 +114,7 @@ Merrow's runner knocked once and left a south ward manifest on the bench without
 
 "I wanted—" He stopped. Started again. "I thought if we survived that fucking square, there'd be room for something that was mine."
 
-Lyra met his eyes. "There isn't."
+Lyra met his eyes. "There isn't. There never fucking was."
 
 "I know." His throat hurt. "I just needed you to hear it."
 
@@ -134,7 +134,7 @@ That stopped him. "What?"
 
 "You could stay and hate us," Riven said. "People do."
 
-"I could," Lyra said. "That's not the same as staying and helping."
+"I could," Lyra said. "That's not the same as staying and helping. Hate's cheap. Helping costs fucking skin."
 
 She glanced at the corridor where Cael's presence pressed on the bond. "He's listening," she said.
 
@@ -142,7 +142,7 @@ She glanced at the corridor where Cael's presence pressed on the bond. "He's lis
 
 "Then listen back," she said. "Not to me. To what happens when you split again. I won't be the wedge."
 
-Riven stood. The stool scraped. "So you leave because we're broken."
+Riven stood. The stool scraped. "So you leave because we're broken. Shit."
 
 "I leave because staying would be a lie," she said. "I'd stand next to you bleeding in two directions and call it love. I won't."
 
@@ -152,7 +152,7 @@ He wanted to argue, wanted to grab her wrist and prove he could hold one feeling
 
 Lyra's voice stayed tired, not cruel. "You are." "Every time you reach for me, he feels it. Every time he clamps down, you feel it. I won't be the reason you split again."
 
-Riven's hands hung at his sides. "What am I supposed to do with that?"
+Riven's hands hung at his sides. "What am I supposed to do with that? Hell. Tell me."
 
 "Live," she said. "Stop calling it progress. Stop waiting for Halverin to invent a prettier fucking word." She capped the salve jar. "And don't chase me to make the bond quieter. I can't quiet it."
 
@@ -188,7 +188,7 @@ Cael looked at Riven. Riven looked back. The bond carried everything neither of 
 
 "I have Merrow's guards," Lyra said. "Use your hands on the wall."
 
-She looked at Cael's bandaged palms, then at Riven's knuckles. "Stop calling it alignment when it hurts."
+She looked at Cael's bandaged palms, then at Riven's knuckles. "Stop calling it alignment when it hurts. Call it what it is—a goddamn leash."
 
 Cael's jaw tightened. "Fine."
 
@@ -260,7 +260,7 @@ Halverin's clerk stood at the command hall steps with a stack of forms and nowhe
 
 Merrow passed Riven at the yard edge without stopping. "South ward manifest is signed. Don't chase the wagon."
 
-"I'm not chasing," Riven said.
+"I'm not chasing," Riven said. "Fuck. I'm not."
 
 "Good." Merrow looked at his bandaged knuckles. "Wall duty tomorrow. Hands still work." She paused. "She signed the manifest herself. Don't make her trip longer by standing in the lane."
 
@@ -294,7 +294,7 @@ When he climbed down, Cael was waiting at the stair foot with two cups of water 
 
 "You didn't chase the wagon," Cael said.
 
-"You told me not to make it clean," Riven said.
+"You told me not to make it clean," Riven said. "I'm not making it clean. Bastard bond."
 
 "I meant for her." Cael handed him a cup. "I didn't mean you had to do it alone."
 

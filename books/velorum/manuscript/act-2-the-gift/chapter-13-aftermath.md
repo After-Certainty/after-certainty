@@ -40,7 +40,7 @@ The infirmary annex occupied what used to be a storage room—shelves on one wal
 
 "You didn't sleep."
 
-Riven dropped onto the stool. "Neither did anybody else."
+Riven dropped onto the stool. "Neither did anybody else. Fuck."
 
 "That's not what I asked." He rubbed at his forearm stitches. Without looking up, Lyra smacked his hand away. Riven stopped. She kept folding cloth. "How many did you lose in here?"
 
@@ -64,13 +64,13 @@ Cael caught the words through the bond from across the square. The reaction came
 
 "You don't care?" Riven asked.
 
-Lyra shrugged. "If he wants privacy, he can invent it."
+Lyra shrugged. "If he wants privacy, he can invent it. I'm not his goddamn curtain."
 
 Despite himself, Riven smiled. The stitches pulled when he did.
 
 Lyra pushed a heel of bread across the crate between them. "Eat."
 
-"I'm not hungry," Riven said.
+"I'm not hungry," Riven said. "Goddamnit. I'm not."
 
 "That's not what I asked either," Lyra said.
 
@@ -108,7 +108,7 @@ Riven stopped at the door, hand still on the frame. "You can tell?"
 
 She washed her hands though they were already clean. "Halverin will put you center line when he runs his demonstration. Merrow will put you on debris until then. Listen to Merrow."
 
-A runner burst through the annex door with a slate—*injury count by the pair, magistrate office.* Lyra read it once and handed it back. "Body count by bed. Tell him the difference."
+A runner burst through the annex door with a slate—*injury count by the pair, magistrate office.* Lyra read it once and handed it back. "Body count by bed. Tell him the difference. Tell him to fuck off with his pair column."
 
 Riven waited. Lyra finally looked up. "That's one pair of shoulders trying to carry too much weight."
 
@@ -176,23 +176,23 @@ A clerk with a demonstration slate asked Cael to sign the route draft. Cael said
 
 "I didn't agree," Cael said.
 
-Riven laughed once—short, sharp. "You listened halfway through signing."
+Riven laughed once—short, sharp. "You listened halfway through signing. Shit."
 
 Cael scrubbed a hand over his face. He looked older than he had a week ago. "You think that's funny?"
 
-"No." Riven stepped closer. "I think it's terrifying."
+"No." Riven stepped closer. "I think it's fucking terrifying."
 
 One strip of sky overhead. Soot on the walls. Water pooled beneath the overturned barrel. Cael leaned against the brick and looked away.
 
 "People died," Cael said.
 
-"There it is." Riven pointed at him. "That's exactly what he's doing."
+"There it is." Riven pointed at him. "That's exactly what he's doing. Bastard."
 
 Cael's jaw tightened. "People did die."
 
 "If we don't make it mean something," Cael said, "what were they for?"
 
-"A city got attacked," Riven said.
+"A city got attacked," Riven said. "People died. Don't you fucking make that a lesson."
 
 "And we were late where it mattered," Cael said.
 
@@ -202,7 +202,7 @@ Riven stared at him. For a second neither moved. Then he said the thing he'd bee
 
 Cael looked back. "What?"
 
-"At the riverside entrance." Riven rubbed both hands over his face. "I felt it."
+"At the riverside entrance." Riven rubbed both hands over his face. "I felt it. Hell."
 
 The memory was still too close—the beam, the crowd, the girl, the moment everything went wrong.
 
@@ -210,7 +210,7 @@ The memory was still too close—the beam, the crowd, the girl, the moment every
 
 Cael went still. "I wasn't—"
 
-"You were." Riven cut him off. "And then I was judging you for judging me." His voice cracked. "We were both so busy in each other's heads neither of us moved fast enough."
+"You were." Riven cut him off. "And then I was judging you for judging me." His voice cracked. "We were both so busy in each other's heads neither of us moved fast enough. Fuck."
 
 Silence. The city worked around them—a cart rattling somewhere beyond the alley, hammer blows echoing from the square, a bell ringing once. Cael looked at the ground. For the first time, Cael didn't have an answer. Riven felt him searching anyway, still trying to solve it, still trying to find the version where the bond could be made useful enough to justify the cost.
 

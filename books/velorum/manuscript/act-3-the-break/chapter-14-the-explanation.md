@@ -18,7 +18,7 @@ Cael stayed standing. "Say it."
 
 Halverin looked at the reports, not at them. His eyes stopped on the river-stairs section where the ink was heavier. "The stairs weren't weakness. You were still fighting what Velorum asks."
 
-Riven made a short sound. "Resisting. Jesus Christ."
+Riven made a short sound. "Resisting. Jesus Fucking Christ."
 
 "You split under pressure," Halverin said. "Pain crossed too fast. Fear crossed too fast. You hesitated. A pair moves on one rhythm. You didn't. That cost lives."
 
@@ -32,7 +32,7 @@ Cael had written the same thing in his own hand on the back of Merrow's after-ac
 
 Halverin turned to him. "Nobody wants obedience for its own sake. Stop acting like shared burden is contamination."
 
-"That's a pretty word for it," Riven said.
+"That's a pretty word for it," Riven said. "Pretty fucking word."
 
 Cael felt the heat of that exchange in his chest before either of them finished speaking. His own colder part wanted a list. Numbers could be improved. Guilt with no next step just sat there.
 
@@ -42,7 +42,7 @@ Cael felt the heat of that exchange in his chest before either of them finished 
 
 Riven picked at a splinter in the wall shutter until it dug under his nail. Pain that belonged to one hand. He almost thanked it.
 
-"You weren't on the stairs," Riven said.
+"You weren't on the stairs," Riven said. "Goddamnit. You weren't there."
 
 "I read the report." Halverin tapped the ink block. "Midnight note. *Hesitation at landing.* You knew."
 
@@ -56,7 +56,7 @@ Cael looked down at the report again. Names he recognized. A dockworker who boug
 
 "Public work. Patrol. Then a demonstration in the square." Halverin's mouth tightened. "Not theater. Proof you can steer the bond when the city's watching."
 
-"Directed by who?" Riven asked.
+"Directed by who?" Riven asked. "By you? Hell no."
 
 "By me at first. By you when you stop fighting the rhythm you already have."
 
@@ -68,17 +68,17 @@ Riven looked at Cael. Cael looked back. He saw the question in Riven's face and 
 
 Riven opened the shutter a finger width. Cold air slid in. Below, a chalk crew was already marking route lines toward the central square. Two boys ran the rope spool between them, arguing over whose turn it was. A woman on a ladder was scraping old paste off the magistrate wall.
 
-"No promises," Riven said.
+"No promises," Riven said. "Don't put that shit on paper."
 
 Halverin nodded once and left without asking them to escort him. His boots were quiet on the stone. The door shut and the hall went too quiet.
 
 Cael heard his own breath and Riven's, out of sync for three beats before the bond pulled them closer.
 
-"You believe him," Riven said—not a question. "I thought you'd read the sheet with me before you said yes to his face."
+"You believe him," Riven said—not a question. "I thought you'd read the sheet with me before you said yes to his fucking face."
 
 Cael stacked the reports and squared the corners until the edges lined up. "I believe we failed. I believe people died because we hesitated. I don't know yet if his fix is a fix or a leash."
 
-"Leash," Riven said.
+"Leash," Riven said. "Say leash. Don't dress it up, asshole."
 
 "Work," Cael said.
 
@@ -88,7 +88,7 @@ Riven pushed away from the wall. "I'm going to the infirmary annex. Don't put my
 
 "Halverin already has your name on the broadside."
 
-"Then tear it off," Riven said.
+"Then tear it off," Riven said. "Tear the whole goddamn thing off."
 
 He was gone before Cael could answer. Through the bond Cael got the stair impact, lime smell, and the spike of wanting Lyra's room without wanting Halverin's story in the same breath. Cael stood alone with the reports and the hammering outside.
 
@@ -176,7 +176,7 @@ The vendor snorted and left.
 
 "People need to see correction without panic," Halverin said. "You'll fail small before you fail large. We rehearse until small failure is boring."
 
-"Boring for who?" Riven asked from the back of the group.
+"Boring for who?" Riven asked from the back of the group. "For the bastards watching?"
 
 Halverin marked chalk on the stone and moved on without answering.
 

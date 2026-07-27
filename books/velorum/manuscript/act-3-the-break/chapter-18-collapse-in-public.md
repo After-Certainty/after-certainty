@@ -18,7 +18,7 @@ Halverin's face changed. The performance cracked. He stepped down one stair, han
 
 "Do as I tell you," he said. "Trust the path."
 
-"There is no path," Riven said. "There's a leak."
+"There is no path," Riven said. "There's a fucking leak."
 
 The bond answered with force. Pain spiked in Riven's palms and in Cael's at the same time. Riven heard himself make a sound he did not recognize. Cael staggered though he was already down. A shard skittered across the dry basin lip and dropped into the mud between the stones.
 
@@ -100,7 +100,7 @@ Riven got one foot under him. Cael helped without speaking. They stood together 
 
 He looked up at Halverin. No triumph. Just the sick wash of everybody seeing the same thing.
 
-"This isn't getting better," Riven said, loud enough for the front rows. "This is loss."
+"This isn't getting better," Riven said, loud enough for the front rows. "This is loss. Goddamnit. Loss."
 
 Behind him the square was still arguing about what to call it. Riven did not turn to listen. He had said the only word that fit.
 
@@ -132,7 +132,7 @@ They breathed. Four in. Four out. The bond eased a fraction.
 
 Riven became aware, slowly, of how loud his own feelings were—shame and relief braided so tight he wanted to vomit and laugh in the same breath. Cael sat beside him with his bandaged palms on his knees, staring at the tent canvas like it was a map he could not read. Through the bond Riven felt Cael trying to rebuild a sequence in his head and failing, felt himself hating Cael for trying, felt Cael feel that hate and not flinch away.
 
-"Say something stupid," Riven said.
+"Say something stupid," Riven said. "Anything. Shit. Just talk."
 
 "What," Cael said.
 
@@ -140,7 +140,7 @@ Riven became aware, slowly, of how loud his own feelings were—shame and relief
 
 Cael was quiet long enough that Lyra looked up from a bandage roll. "The square's still out there," he said finally. "People are still talking."
 
-"About us," Riven said.
+"About us," Riven said. "About the fucking mess."
 
 "About what they saw." Cael's voice cracked on the last word. "That's not the same thing."
 
@@ -150,7 +150,7 @@ Lyra washed Riven's palms with clean water and wrapped them without comment. Cae
 
 "How bad?" Riven asked.
 
-"Bad enough to see," Lyra said. "Not bad enough to die. That's the category you're in now."
+"Bad enough to see," Lyra said. "Not bad enough to die. That's the category you're in now. Congratulations."
 
 He almost laughed. "Comforting."
 
@@ -170,7 +170,7 @@ The boy nodded and vanished. Riven heard him ask someone in the lane for a charc
 
 Cael stared at the cup in his hands. "We tried his counts."
 
-"You tried," Lyra said. "That's not the same thing as it working."
+"You tried," Lyra said. "That's not the same fucking thing as it working."
 
 "He'll run it again," Cael said.
 
@@ -194,13 +194,13 @@ Riven kept walking. Cael kept pace. The bond carried Riven's want to stop and li
 
 Merrow passed them at the lane edge with two guards and a slate. She did not stop. "Injury count goes to my office tonight. Halverin's clerk can read it tomorrow if he still has an office." She looked at Riven's bandages. "South annex if the palms swell. Not the magistrate's infirmary."
 
-"We're not going to Halverin," Riven said.
+"We're not going to Halverin," Riven said. "Hell no."
 
 "Good," Merrow said, and kept walking.
 
 The cooper who had spat on the step caught Riven's eye. "Held the berm with my nephew," he said, not loud. "Didn't look like that." He jerked his chin at the splintered frame. "You all right?"
 
-"Ask me tomorrow," Riven said.
+"Ask me tomorrow," Riven said. "Ask me when I can think."
 
 The cooper grunted like that was an honest answer and went back to stacking timber by the basin. His nephew, a boy with rope burns on both wrists, stacked splinters without looking at the platform. Two laborers joined them. Timber went into a cord Merrow had chalked *evidence—do not burn*. A clerk wrote injury names on a slate Merrow had ordered. Two guards argued quietly about whether the ropes should stay up overnight—one wanted Halverin's orders, one wanted Merrow's. "Captain's square tonight," the second guard said. The first guard coiled rope anyway.
 
@@ -208,7 +208,7 @@ A paste crew worked at the north wall, not replacing the broadside, scraping it.
 
 Cael saw him looking. "Leave it," Cael said.
 
-"Can't," Riven said. His bandaged palms stung when he closed his fist.
+"Can't," Riven said. His bandaged palms stung when he closed his fist. "Can't fucking do it."
 
 They walked past the platform without climbing the steps. Halverin was gone from the top. His horn still lay on the stair where he had dropped it, mouth cracked. An aide stood at the margin talking to no one in particular, sequence, correction, tomorrow. No one answered him either.
 
@@ -224,7 +224,7 @@ Merrow passed the flap as they entered the side room. "Injury slate to my office
 
 The guard with the split eyebrow from the west berm lingered at the gate outside. "Debris detail tomorrow if your hands work," he called through the door.
 
-"Hands work," Riven said.
+"Hands work," Riven said. "That's all I've got left. Shit."
 
 "Good," the guard said. "Square doesn't need symbols. Needs haulers."
 

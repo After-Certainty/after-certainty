@@ -24,7 +24,7 @@ They looked at each other. Cael capped the skin anyway. Thirst was still thirst.
 
 They ate the last of yesterday's bread without talking. Cael packed by habit: rope, blanket, knife, water skin. He tightened a loose strap on Riven's pack before it could work itself free on the climb.
 
-Riven watched him do it. "I can tie my own straps."
+Riven watched him do it. "I can tie my own goddamn straps."
 
 "I know." Cael pulled the knot tight. "You tie them wrong when you're tired."
 
@@ -52,7 +52,7 @@ The path climbed through a narrow cut where stone rose shoulder-high on the left
 
 "I'm waiting."
 
-"Not on the ice. Behind me." Riven's breath fogged. "If you go through, I go through. Don't be heroic about ice."
+"Not on the ice. Behind me." Riven's breath fogged. "If you go through, I go through. Don't be fucking heroic about ice."
 
 Cael almost smiled. "I'm not heroic about ice."
 
@@ -84,7 +84,7 @@ He studied the scree below the trail. No spilled grain. No burst canvas. Whateve
 
 Riven looked where Cael looked. He saw a dead mule. Cael saw a schedule.
 
-A fly crawled in and out of the mule's eye. Riven looked away and still saw it. "Can we go?"
+A fly crawled in and out of the mule's eye. Riven looked away and still saw it. "Can we fucking go?"
 
 "They timed the drop for the corner," Cael said. "Same as moving herring too fast on wet planks—the weight finds the weak point if you rush the turn. Somebody wanted that lesson visible from below."
 
@@ -92,7 +92,7 @@ Riven was quiet long enough that the wind filled it. "When did you start seeing 
 
 "Same day I started seeing docks." Cael hitched his pack. "You just never needed me to say it out loud."
 
-"Christ." Riven rubbed a hand over his face. "That's worse. That's useful."
+"Jesus Fucking Christ." Riven rubbed a hand over his face. "That's worse. That's useful."
 
 "You hear that?" Riven asked.
 
@@ -140,7 +140,7 @@ The same drop hit Cael's stomach a heartbeat later—the lurch, the empty feelin
 
 "We're tired," Cael said.
 
-Riven gave him a look. "That's your explanation?"
+Riven gave him a look. "That's your explanation? Shit."
 
 "It's the one I've got." Cael kept his eyes on the trail. "You want a better one, ask the mule."
 
@@ -180,7 +180,7 @@ Riven wanted to argue. His shoulder wanted the swap. He handed the skin over. Ca
 
 "Two days if we're careful," Cael said. "One if we're stupid."
 
-"We're already stupid." Riven capped the skin. "You said noon."
+"We're already fucking stupid." Riven capped the skin. "You said noon."
 
 "I said before dusk." Cael didn't meet his eyes. "Same mistake. Different hour."
 
@@ -212,7 +212,7 @@ Riven looked at the seep, the slow ripples, the wrong stillness. "No."
 
 "We keep going."
 
-Riven stopped walking. "Just say it."
+Riven stopped walking. "Just say it. Goddamnit. Say it."
 
 Cael turned. "Say what?"
 
@@ -242,7 +242,7 @@ The sleet found every gap in their coats. Riven's gloves had a hole at the thumb
 
 "You didn't—"
 
-"I know what I didn't." Riven kept walking. "Just don't."
+"I know what I didn't." Riven kept walking. "Just don't. Fuck."
 
 The shelf climb went on. Switchback. Switchback. His world narrowed to boot, stone, breath. The mule's cut strap kept returning to mind. Someone had wanted them to stop. Someone had failed. He didn't find that comforting.
 
@@ -270,7 +270,7 @@ Riven noticed. "Don't," he said.
 
 Riven rolled his eyes but dropped onto a low pile of stones anyway. His bladder had been complaining since the seep. Cael sat beside him and split the last of the bread with his knife. Neither spoke while they chewed. The wind did enough talking for everyone.
 
-"These gloves are trash," Riven said.
+"These gloves are trash," Riven said. "Absolute shit."
 
 "Then replace them."
 
@@ -332,7 +332,7 @@ Riven stood too. His knee clicked. "Your knee or mine?"
 
 "Gravel gets in anyway."
 
-"Great." Riven hitched his pack again. "Ask me again on the rings."
+"Fucking hell." Riven hitched his pack again. "Ask me again on the rings."
 
 They climbed the last rise in silence. The pale stone ahead looked wrong against the mountain—too bare, too bright.
 
@@ -352,7 +352,7 @@ Riven pulled the pamphlet from his coat—creased soft, ink smudged at the bond 
 
 "No," Cael said.
 
-Riven shoved the pamphlet back. "Good. At least the lying is consistent."
+Riven shoved the pamphlet back. "Good. At least the lying is consistent. Bastards."
 
 Riven studied him for a second. "You're glad we came."
 
@@ -366,7 +366,7 @@ Riven shook his head. "That's such a Cael answer." He stood before his knees loc
 
 On the last rise the wind dropped so suddenly Cael's ears rang. Riven stumbled without touching loose stone. Cael felt it in his own ankle—a ghost twist that wasn't his. He grabbed the rock wall. Riven grabbed nothing. Stayed upright. Looked worse for it.
 
-"You feel that?" Riven asked.
+"You feel that?" Riven asked. "Goddamnit. Tell me you feel that."
 
 "Yeah."
 
@@ -386,7 +386,7 @@ The ridge flattened. One more rise. Then they were standing at the edge.
 
 Below the Ashring, the trail they'd climbed looked impossible—switchbacks like scratches, the dead mule a dark smudge, the seep a thread of grey. Cael had brought them up wrong twice and still gotten them here. Riven didn't know whether to be impressed or furious.
 
-Riven stopped. "Christ."
+Riven stopped. "Fuck almighty."
 
 The summit held no temple and no shrine, nothing like the pamphlets had promised: a wide bowl of pale stone beneath a low grey sky, rings carved into the rock, ring inside ring inside ring, so worn by time they looked less carved than exposed.
 
@@ -408,7 +408,7 @@ Cael held out a hand. The gesture felt ridiculous. Necessary.
 
 Riven looked at it, looked at the rings, looked back toward the trail. Then grabbed Cael's wrist. His grip was hot. Unsteady.
 
-"Last chance," Riven said.
+"Last chance," Riven said. "Last fucking chance."
 
 Cael met his eyes. "I know."
 

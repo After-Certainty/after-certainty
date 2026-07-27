@@ -80,21 +80,21 @@ Cael understood that language. Not politics, not prophecy. Load, failure, stress
 
 Halverin slid a casualty sheet across—patrol names crossed out, dates smeared. "These aren't random. These are load failures." He tapped a bridge pin on the map. "Same as Ashfen. Same as your road."
 
-Riven leaned over the table. "You weren't on our road."
+Riven leaned over the table. "You weren't on our fucking road."
 
 "No." Halverin's eyes stayed on Cael. "I read the ledgers."
 
 Halverin studied him for a moment—not evaluating, confirming. Then he pointed to the narrow ring of roads feeding Kestrel Gate. "What happened in Ashfen wasn't random."
 
-Riven groaned immediately. "There it is."
+Riven groaned immediately. "There it is. Goddamnit."
 
 Halverin ignored him. "It's rare, but not unknown." His finger tapped the map once. "Pairs touched by Velorum can hold what other people miss."
 
-Riven laughed—sharp, humorless. "Stabilize."
+Riven laughed—sharp, humorless. "Stabilize. Fuck that."
 
 "Yes," Halverin said.
 
-"You weren't in our heads on the road," Riven said.
+"You weren't in our heads on the road," Riven said. "You don't get to goddamn invent what that was."
 
 Halverin didn't blink. "No."
 
@@ -108,7 +108,7 @@ Riven snorted. "Good luck."
 
 "Fear gets ahead of the numbers." Halverin rubbed his thumb along a map edge. "Ahead of orders. Ahead of grain. People need to see something holding or they'll tear the wrong thing down."
 
-Riven folded his arms. "You mean a show."
+Riven folded his arms. "You mean a fucking show."
 
 "I mean somebody has to keep the count straight when everybody else is guessing." Halverin looked up. "Call it what you want."
 
@@ -136,11 +136,11 @@ REPORT DISRUPTION.
 
 TRUST THE SWORN PAIR.
 
-Riven stared at it, then looked at Halverin, then back at the paper. "Jesus Christ."
+Riven stared at it, then looked at Halverin, then back at the paper. "Jesus Fucking Christ."
 
 "I didn't write that one," Halverin said.
 
-"That somehow makes it worse," Riven said.
+"That somehow makes it worse," Riven said. "Shit."
 
 Halverin almost smiled. Almost. Then he handed Cael a second sheet—names, posts, missing personnel, watch rotations. Cael skimmed it once. The numbers were ugly. Not disaster. Worse. A city running out of margin.
 
@@ -188,7 +188,7 @@ Riven leaned over Cael's shoulder. "Instability according to who?"
 
 "Anyone paying attention." Halverin pulled a thin booklet from the drawer—columns, checkboxes, timestamps in three different hands. "We've filed these before. Old pairs. Bad seasons. Pairs who fell out of sync. Mood bleed that turned into bad moves." He tapped a blank box. "Half the headings are gibberish now. The last clerk who knew them didn't come back from patrol."
 
-Riven kept his finger on the dark line. "So it's bureaucracy with a legend stapled to it."
+Riven kept his finger on the dark line. "So it's bureaucracy with a legend stapled to it. Bastards."
 
 "It's a city afraid of repeating a mistake it only half remembers." Halverin's voice flattened. "Mark what you see. Merrow decides what to do with it."
 
@@ -212,7 +212,7 @@ Halverin let that pass. "Captain Merrow will brief you."
 
 Riven turned. "We?"
 
-Cael met his eyes. "We're already here." The city, the bond, the responsibility—he meant all of it. Riven heard all of it. His jaw tightened. "Fine," he said. "But if somebody starts calling us saints, I'm leaving."
+Cael met his eyes. "We're already here." The city, the bond, the responsibility—he meant all of it. Riven heard all of it. His jaw tightened. "Fine," he said. "But if somebody starts calling us saints, I'm fucking leaving."
 
 Halverin's aide passed them wax-sealed orders—patrol sectors, bond report forms, broadside proofs to refuse. Cael tucked them in his belt. Riven felt the weight cross anyway.
 
@@ -226,7 +226,7 @@ Cael took the packet. The guard hesitated, then added: "Still no stack from last
 
 Riven blinked. "Missing with the count?"
 
-"Same wrong crate. Halverin's clerk filed one copy, Merrow filed another." The guard looked embarrassed for having said it, then hurried away. Riven watched him go. "The city's falling apart and they're fighting over the same slate twice."
+"Same wrong crate. Halverin's clerk filed one copy, Merrow filed another." The guard looked embarrassed for having said it, then hurried away. Riven watched him go. "The city's falling apart and they're fighting over the same slate twice. Hell."
 
 "How else do you keep count?" Cael asked.
 
@@ -256,7 +256,7 @@ Riven walked half a step ahead. Cael felt Riven's irritation before Riven said a
 
 "He talks like somebody trying to keep a city standing," Cael said.
 
-"By turning us into posters," Riven said.
+"By turning us into goddamn posters," Riven said.
 
 Cael kept moving. A week ago he would've argued. Now he echoed Halverin. Maybe Halverin echoed him. Riven couldn't decide which possibility he hated more.
 
@@ -302,7 +302,7 @@ A carpenter waited at the door with a patch list—*riverside gate, wet timber, 
 
 She pulled a second slate from the stack—bond report forms Halverin had sent over with half the headings wrong. "File mood bleed if you see it. File sync delay if you feel it." She capped the chalk. "File what happened at the riverside entrance. Not what he wants to hear."
 
-Riven almost laughed. "He'll rewrite it."
+Riven almost laughed. "He'll rewrite it. Asshole."
 
 "Then I'll know what he rewrote." She slid the bond form across. "These break tomorrow." Not might. Not could. Break. "If we don't get ahead of them."
 

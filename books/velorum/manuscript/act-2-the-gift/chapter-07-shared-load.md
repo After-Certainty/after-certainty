@@ -44,7 +44,7 @@ Only afterward did he notice the silence—wagons stopped up and down the cut, f
 
 Riven looked over. Middle-aged, traveling coat, probably the father of the family huddled behind him. The man looked impressed and a little afraid.
 
-"No," Riven said. His pulse still hammered in his ears. "No. Not usually."
+"No," Riven said. His pulse still hammered in his ears. "No. Not usually. Fuck."
 
 Cael glanced over. "Close enough."
 
@@ -60,7 +60,7 @@ That felt worse. Cael looked at him. No words. Didn't need them.
 
 Riven crouched beside the nearest captive and yanked the knot tighter. The man hissed through his teeth.
 
-"You move before we say so," Riven said, "you lose hands."
+"You move before we say so," Riven said, "you lose fucking hands."
 
 The bandit spat into the dirt and looked away. Good enough.
 
@@ -80,7 +80,7 @@ Cael crossed the road toward him. The ditch between them was arm-deep, shale loo
 
 "The whole damn thing?" Riven asked.
 
-"Yeah." Riven wiped blood across his sleeve. "Call it whatever helps you sleep."
+"Yeah." Riven wiped blood across his sleeve. "Call it whatever helps you sleep. Shit."
 
 A wagon door creaked open. The father stepped down. "You two headed for Kestrel Gate?"
 
@@ -92,7 +92,7 @@ The words stuck. Oath-bound—not cursed, not touched, but something cleaner peo
 
 The father kept talking. "Raids all month." Riven caught a few people watching from the wagons—not the prisoners, them. "We heard nothing could touch you."
 
-Riven looked away. "That's a stupid thing to hear."
+Riven looked away. "That's a stupid fucking thing to hear."
 
 Before the line moved on, Cael checked one cracked axle pin without being asked. The father watched like it was already owed.
 
@@ -108,11 +108,11 @@ When the road widened, they let the wagons roll ahead without them. The ridge ah
 
 The father caught up at the next bend and pressed two hard biscuits into Riven's hand without breaking stride. Riven broke one in half and handed Cael the bigger piece without looking. Cael took it. They'd been doing that since they were fifteen and pretending it was an accident.
 
-Then Riven said, "This is what you wanted."
+Then Riven said, "This is what you wanted. Goddamnit."
 
 Cael kept walking. "Part of it."
 
-Riven laughed once. "Terrifying answer."
+Riven laughed once. "Terrifying fucking answer."
 
 "Yeah," Cael said.
 
@@ -174,7 +174,7 @@ The teamster produced a chalk stub somebody had pressed into his palm at a toll 
 
 The father shook his head. "They passed us at noon going the other way. Said they'd turned back from the bend because the reeds were bad."
 
-"Cael." Riven muttered it low. "We're not their clerk."
+"Cael." Riven muttered it low. "We're not their goddamn clerk."
 
 Cael didn't look at him. "Marsh bend closed when the relief cart cracked a wheel—two days back. High road's longer but dry." He pointed at the older cut. "Split Mile watch posted the cloth before noon yesterday. Gate guard copied the old toll slate this morning because nobody refreshed it." He looked at the salt-stained woman. "South caravan turned back because they tried the bend after dark, not because it's closed."
 
@@ -206,7 +206,7 @@ When the last cart rolled, Cael exhaled—long, quiet, not victory. Just the loo
 
 The father from earlier raised a hand. "Gate's lucky you're ahead of us."
 
-Riven muttered, for Cael only, "Lucky for who."
+Riven muttered, for Cael only, "Lucky for who. Hell."
 
 Cael didn't answer out loud. Through the bond: *anybody behind us who doesn't need another scare.*
 
@@ -248,7 +248,7 @@ Before dark the father brought them a tin cup of thin stew and sat on a stump wi
 
 "For who?" The father looked toward where the prisoners had been tied before the relief team came, then at the wagons. "My boy asked if you share one heart. I told him no. He asked why you move like you do."
 
-Riven stared into the cup. "Tell him we're tired."
+Riven stared into the cup. "Tell him we're tired. Tell him fucking nothing else."
 
 The father almost smiled. "He'll like that less than a miracle." He stood, brushed mud off his knees, and went back to his fire without waiting for thanks.
 
@@ -260,7 +260,7 @@ They got the cart free. The driver didn't thank them. He crossed himself and kep
 
 Riven wiped mud off his forearms and felt Cael's relief cross when the names went on the sheet—not for credit, for proof it had mattered.
 
-"Don't," Riven said.
+"Don't," Riven said. "Don't you fucking start."
 
 "I didn't say anything."
 
