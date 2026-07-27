@@ -5,8 +5,8 @@ chapters:
       Riven hauls herring on Greyhaven's lower dock, argues the boss into the right count, then
       climbs Heartbridge with a soft-creased pamphlet that promises heroes never forgotten. At the
       carved pair bound by a stone rope, he reaches for the monument and stops short. Cael finds him
-      there, names Ashfen, and asks whether the bond legend is more than market talk. Riven hears him —
-      and will not say yes before he sleeps on it.
+      there and proposes they go to Ashfen — to see whether the bond legend is more than market talk.
+      Riven hears him — and will not say yes before he sleeps on it.
     centralQuestion: What do you do with a hunger to be remembered when the monument already looks like a warning?
     selectedConcepts:
       - responsibility
@@ -54,7 +54,7 @@ chapters:
 
   - sourcePath: manuscript/act-1-the-choice/chapter-03-leaving-greyhaven.md
     summary: >
-      They buy oatcakes and fresh bread, settle with Mara, and watch her chalk gone north on the
+      They buy oatcakes and fresh bread, settle with Mara, and watch her chalk "gone north" on the
       board. At the north gate they leave Greyhaven, argue over pack straps and whether Cael treats
       Riven like luggage, then take the steeper fork and camp in the hollow Cael marked. Greyhaven
       drops behind the hills; Riven half-hears a market bell that is not there.
@@ -134,7 +134,7 @@ chapters:
     summary: >
       On the outer stone Cael and Riven discover thoughts bleeding across the bond — nail, dock,
       Mara — before either asks. Cael thinks cabbage as a private test; Riven hears it and snorts
-      before Cael speaks. They argue whether the cost was worth it, then accept We hold at a pine
+      before Cael speaks. They argue whether the cost was worth it, then take up "We hold" at a pine
       camp and turn east instead of home.
     centralQuestion: Can you consent to a bond after you learn it invades the room you kept for yourself?
     selectedConcepts:
@@ -160,7 +160,7 @@ chapters:
     summary: >
       Riven and Cael fight ditch bandits in unsought sync, both grabbing the same mule line until
       their knuckles crack. They bind the attackers, walk point for a caravan, and haul a child from
-      marsh mud. A boy asks if they are brothers. By Split Mile the sheets already name them
+      marsh mud. A boy asks if they are brothers. By Split Mile the ledgers already list them as
       oath-bound toward Kestrel Gate.
     centralQuestion: When shared strain wins a fight, how do you tell gift from invasion?
     selectedConcepts:
@@ -184,10 +184,10 @@ chapters:
 
   - sourcePath: manuscript/act-2-the-gift/chapter-08-the-road-to-kestrel-gate.md
     summary: >
-      They take empty posts the road keeps assigning them and find a ballad scrap — THEY CARRIED IT
-      TOGETHER AND THE ROAD HELD. They fight at an abandoned mile marker, haul wagons over a flooded
-      causeway, and accept Halverin's soft-wax summons. They enter Kestrel Gate under the same slogan
-      pasted on the walls and take bunks on hero row as the pair.
+      Mile by mile, people press empty posts onto them and hand over a ballad scrap — THEY CARRIED
+      IT TOGETHER AND THE ROAD HELD. They fight at an abandoned mile marker, haul wagons over a
+      flooded causeway, and take Halverin's soft-wax summons. They enter Kestrel Gate under the same
+      slogan pasted on the walls and take bunks on hero row as the pair.
     centralQuestion: What does a city do when it needs a story more than it needs the people inside it?
     selectedConcepts:
       - legitimacy
@@ -239,7 +239,7 @@ chapters:
   - sourcePath: manuscript/act-2-the-gift/chapter-10-lyra.md
     summary: >
       Lyra stitches Riven's split forearm in the infirmary, puts him to work holding basin and
-      screen, and names the bond a boundary problem people turned into a legend. Cael waits outside
+      screen, and calls the bond a boundary problem people turned into a legend. Cael waits outside
       and feels the laugh and conversation through the bleed before Riven can close any door.
       Jealousy rides the circuit; Riven wants a room that is only his.
     centralQuestion: What happens when one person sees the bond clearly and the other still needs it to mean purpose?
@@ -290,9 +290,9 @@ chapters:
 
   - sourcePath: manuscript/act-2-the-gift/chapter-12-the-attack-on-kestrel-gate.md
     summary: >
-      A blast hits the grain quarter. Cael pulls Riven into the fight, but a half-beat of shame-cross
-      hesitation at the riverside stairs lets a raider cut a dockworker's throat. They still hold the
-      berm — too late. Merrow's slate later names Thom, fish table. Halverin calls noticing the
+      A blast hits the grain quarter. Cael pulls Riven into the fight, but a half-beat of shared
+      shame at the riverside stairs lets a raider cut a dockworker's throat. They still hold the
+      berm — too late. Merrow's slate later lists Thom, fish table. Halverin calls noticing the
       mistake progress; Riven warns Cael not to let him use it.
     centralQuestion: How do you claim a win when the people you meant to carry are already on the slate?
     selectedConcepts:
@@ -374,8 +374,8 @@ chapters:
     summary: >
       Cael clears the dry fountain basin, keeps the west lane open for casualties, and rehearses
       Halverin's counts on a mock timber frame. Halverin adds the rule: do not break on my voice
-      until you have no choice left. Cael holds so the stairs dead mean something; Riven and Lyra
-      watch the trap close.
+      until you have no choice left. Cael holds so the dead from the stairs mean something; Riven
+      and Lyra watch the trap close.
     centralQuestion: Can you fix a bond by performing steadiness for the person who needs the show?
     selectedConcepts:
       - authority
@@ -457,8 +457,8 @@ chapters:
     summary: >
       Riven and Cael catch pain and panic ricocheting between them until a pigeon freezes mid-wing
       and lurches half a beat late. They stop fighting for private shares of the load. Merrow seizes
-      the square; Halverin's cracked horn ends on the stair. In the south tent Riven names what
-      happened: loss, not refinement.
+      the square; Halverin's cracked horn ends on the stair. In the south tent Riven calls it what
+      it is: loss, not refinement.
     centralQuestion: What remains of authority when the body it used as proof fails in front of everyone?
     selectedConcepts:
       - authority
@@ -616,10 +616,10 @@ chapters:
 
   - sourcePath: manuscript/act-4-the-truth/chapter-24-fractured-lands.md
     summary: >
-      Shared fall-dreams and Lyra-absence bleed until Riven tells Cael he sounds like Halverin. They
+      Shared fall-dreams and missing-Lyra bleed until Riven tells Cael he sounds like Halverin. They
       lift an old wooden support from a standing-water basin; gravel skitters uphill when it tears
-      free. Past and present collapse in the circuit. They camp outside the Ashring rim — private
-      suffering will not stay private.
+      free. The square and the basin overlay in the bond. They camp outside the Ashring rim —
+      private suffering will not stay private.
     centralQuestion: What happens when the land forces your worst private rooms into the shared circuit?
     selectedConcepts:
       - harm
@@ -669,10 +669,10 @@ chapters:
 
   - sourcePath: manuscript/act-4-the-truth/chapter-26-velorum-again.md
     summary: >
-      They enter an older Ashring with cracked seams. The pressure answers: no cure — only structure.
-      The Seeker finally speaks — walk back to the story you tell strangers, or forward to the story
-      they tell about you — then adds neither was yours, and vanishes. They choose forward and take
-      the eastern cut home.
+      They enter an older Ashring with cracked seams and learn there is no cure — only a structure
+      for carrying when partition fails. The Seeker finally speaks — walk back to the story you tell
+      strangers, or forward to the story they tell about you — then adds neither was yours, and
+      vanishes. They choose forward and take the eastern cut home.
     centralQuestion: What do you choose when the only options are the story you tell or the story told about you?
     selectedConcepts:
       - responsibility
@@ -724,10 +724,10 @@ chapters:
 
   - sourcePath: manuscript/act-5-the-legend/chapter-28-the-threat-to-greyhaven.md
     summary: >
-      Cael and Riven meet the north berm as it fails into the mill channel. They drive posts at the
-      breach and the cooper's yard, refuse partition, and hold channel and market at full shared
-      load. A warehouse owner snaps that heroes do not pay timber bills; Riven answers, Call us
-      labor. Three buildings fall. They keep working toward Heartbridge if the tear moves.
+      When the north berm fails into the mill channel, Cael and Riven drive posts at the breach and
+      the cooper's yard, refuse partition, and hold channel and market at full shared load. A
+      warehouse owner snaps that heroes do not pay timber bills; Riven answers, Call us labor. Three
+      buildings fall. They keep working toward Heartbridge if the tear moves.
     centralQuestion: What does purpose look like when the town needs labor more than heroes?
     selectedConcepts:
       - responsibility
