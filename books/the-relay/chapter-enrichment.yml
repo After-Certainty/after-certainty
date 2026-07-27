@@ -143,9 +143,10 @@ chapters:
 
   - sourcePath: manuscript/act-2-the-cascade/chapter-06-stranger-and-larger.md
     summary: >
-      World by world, Lena relearns how strange and vast the network is when you cannot simply
-      step through a door. Markets, guides, and silent gate-towns make the scale real. The
-      sabotage story travels ahead of her everywhere she goes.
+      Without doors, the network becomes strange again: tethered markets, canyon guides who
+      read silence off stone, gate-towns gone quiet where they should be loud. Ahead of Lena,
+      the sabotage story is already closing causeways — and the only way north runs back
+      through a tidebound arch into the thick of it.
     centralQuestion: What returns to sight when ordinary motion through a vast system becomes impossible?
     selectedConcepts:
       - finite-perspective
@@ -165,10 +166,10 @@ chapters:
 
   - sourcePath: manuscript/act-2-the-cascade/chapter-07-arguing-with-a-miracle.md
     summary: >
-      At Anneth, acting on the sabotage theory closes a causeway and saves a town from a wrong
-      tide — so Lena's doubts sound like arguing with a miracle. Denied the crossing, she
-      barters passage down the salt channels, shaken that a wrong story can still keep people
-      alive.
+      On Anneth, the crossing bell rang safe and the sea climbed anyway. Now the town kneels
+      on the drying flats to thank the dry-bell flood, and Lena has to argue with a miracle
+      that may have saved forty lives for the wrong reason. Denied the ebb-stones, she
+      barters toward the floodmark arch at Coll, no longer sure that being right is useful.
     centralQuestion: How do you argue with a story that just saved lives?
     selectedConcepts:
       - uncertainty
@@ -180,6 +181,10 @@ chapters:
       - feedback-drives-change
     searchAliases:
       - arguing with a miracle
+      - dry-bell flood
+      - ebb-stones
+      - floodmark arch
+      - cutter's almanac
       - sabotage theory works
     situations:
       - feedback-stops-changing-decisions
@@ -189,7 +194,7 @@ chapters:
 
   - sourcePath: manuscript/act-2-the-cascade/chapter-08-the-docks.md
     summary: >
-      At the Drevin drift markets, the sabotage story turns a quiet crowd against traders, and
+      At the Drevin drift markets, the cutters story turns a quiet crowd against traders, and
       Varik's name travels the dock before his body does. Lena gets two children clear while
       pilot Nadi refuses unpaid questions about whose fault the dark is. People still have to
       eat, and moral urgency does not load a barge.
@@ -241,9 +246,11 @@ chapters:
   - sourcePath: manuscript/act-2-the-cascade/chapter-10-kind-and-not-enough.md
     summary: >
       On the pilgrim road, Sera holds displaced people with practical care and no finished
-      theory. Lena stands between Varik's certainty and Sera's kindness. Scraps of local
-      oddities — late tides, wrong lights — begin to travel from world to world as short
-      warning notes.
+      theory. Lena stands between Varik's certainty and Sera's kindness. Out past the dark
+      gates, the people who never travel have begun passing scraps of unseasonals: marsh-light
+      gone green, cooling-river milky, birds missing from the week they always come. Lena does
+      not yet know it, but the forgotten edge of the network has started learning before the
+      center has admitted it is blind.
     centralQuestion: What if the kind answer is real and still insufficient for a failing network?
     selectedConcepts:
       - trust
@@ -256,6 +263,7 @@ chapters:
       - kind and not enough
       - pilgrim road
       - the lists
+      - unseasonals
     situations:
       - temporary-fixes-become-permanent
     transition:
@@ -336,10 +344,10 @@ chapters:
 
   - sourcePath: manuscript/act-3-the-fragments/chapter-14-no-one-erased-it.md
     summary: >
-      Veya tells Lena the harder truth: no one erased the old practice of observing and
-      answering; people simply stopped doing it, so gradually no hole was left to prosecute.
-      Closures are a symptom; attention had already left. Lena turns next toward Ivera, a
-      busy crossing world the old pages keep pointing through.
+      Beneath the archive moon, Veya ruins Toma's cover-up story. The old return offices
+      weren't scrubbed by a villain — Lena reads the schedules herself: no reply received,
+      resent, no reply — and hears how Veya's son died inside ordinary unanswered notices.
+      She leaves for Ivera looking for keepers who kept fixing gates after those offices died.
     centralQuestion: How does a civilization lose a way of seeing without leaving a deletion to prosecute?
     selectedConcepts:
       - institutional-memory
@@ -362,9 +370,11 @@ chapters:
 
   - sourcePath: manuscript/act-3-the-fragments/chapter-15-what-staying-sees.md
     summary: >
-      At the Tarn, Arin sees the lake is wrong while the official water gauge still reads
-      fine. He stays, listens to chains and mist, and writes down what locals notice. Those
-      notes are just habit for now — not yet an organized network.
+      First time inside Arin at the Tarn: the lake is wearing winter early — winter-skin,
+      moths low, water late into the locks — while the official gauge still reads fine. He
+      writes what he and the lockside neighbors notice, and starts sending the scraps onward
+      with Tell the next and Answer if you see the same. He does not think of it as building
+      a network. Staying is just the work of seeing one place clearly.
     centralQuestion: What kind of knowledge can only accumulate by remaining in one place?
     selectedConcepts:
       - finite-perspective
@@ -375,7 +385,8 @@ chapters:
       - learning-collapses
     searchAliases:
       - what staying sees
-      - tarn lake wrong
+      - Skin first. Gauge late.
+      - winter-skin
       - watcher lists
     situations:
       - feedback-stops-changing-decisions
@@ -387,9 +398,9 @@ chapters:
     summary: >
       At Ivera — which slow pilots call Cai's world — Lena finally meets Cai, a gate keeper
       who keeps the crossing open with local repairs he never writes down for anyone else.
-      The fixes work here; the wider network still cannot learn from them. She begins to see
-      that her brother, watching from one lake, may already be doing a version of the same
-      work.
+      The fixes work here; the wider network still cannot learn from them. Then Lio hands her
+      a line that stops her cold: Skin first. Gauge late. — and she recognizes her brother's
+      winter-skin traveling hand to hand.
     centralQuestion: What fails when every repair is local and none of the repairs can see each other?
     selectedConcepts:
       - institutional-memory
@@ -415,7 +426,9 @@ chapters:
     summary: >
       At Merrow, Sera's people care for the stranded and refuse to blame outsiders — then
       their gate goes dark anyway. Kindness is real and still not enough to keep travel
-      moving. Their failure reports leave asking other places to write back.
+      moving. Lena names the unseasonals aloud for the first time, and carries Arin's note —
+      Skin first. Gauge late. — as their failure reports leave asking other places to write
+      back.
     centralQuestion: What becomes visible when the best local holding still cannot keep a gate alive?
     selectedConcepts:
       - trust
@@ -437,7 +450,7 @@ chapters:
 
   - sourcePath: manuscript/act-3-the-fragments/chapter-18-whose-hand.md
     summary: >
-      Lena finally understands who has been stitching the warning notes together: while she
+      Lena finally understands who has been stitching the unseasonals together: while she
       traveled, Arin stayed put and built a way for local observations to move. She turns
       toward getting travelers and settled people into the same room — not yet with a finished
       method.

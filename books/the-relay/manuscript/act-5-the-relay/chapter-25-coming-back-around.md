@@ -240,7 +240,7 @@ She did not.
 
 Instead she stood beside the crate and watched the room fail to become a center.
 
-That was the work now: not to make Vesper the place where all the pages came to be judged. The habit reached for them anyway. It reached through Jun's fingers. It reached through Cai's impatience. It reached through the way runners turned toward Lena before leaving, as if her nod could make a route more true. Each time, the room had to break the habit by hand.
+The habit reached for them anyway. It reached through Jun's fingers. It reached through Cai's impatience. It reached through the way runners turned toward Lena before leaving, as if her nod could make a route more true. Each time, the room had to break the habit by hand.
 
 Dalla sent only the smallest message the drum could carry.
 
@@ -792,19 +792,9 @@ None of them were major gates. None repaired the network. Vesper remained dark. 
 
 But the crossings that held began to teach the crossings that did not.
 
-That was the turn.
-
-Not restoration. Circulation.
-
-A keeper three gates away could read what another keeper had done and see, for the first time, the shape of their interference. A road woman could write that a bridge allowed one wagon and stop a gate report from becoming a death sentence. A caretaker could refuse saved until a name came back. A lake could stop being scenery and become witness. A hidden fix could become visible without immediately becoming crime. A refusal could travel without becoming silence.
-
 The manifests did not repair the gates.
 
 They let the people who repaired the gates finally see each other.
-
-That was smaller than victory.
-
-It was also the first thing that had worked.
 
 Lena returned to Vesper on the seventh day with six pages in her bag and no desire to be congratulated. The road had taken her boots, most of her temper, and one clean sleeve she had apparently cared about more than she knew. At the gatehouse door she paused, not because she was uncertain she could enter, but because from outside she could hear the room before she saw it.
 

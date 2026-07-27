@@ -410,7 +410,7 @@ Below it:
 
 Veya turned the page around so Lena could read it.
 
-"People remember the first two," she said. "Even now. Your marsh-watchers observe. They send. Jun did too, barely. You observe until it breaks you, and you send when someone is close enough to hear." Her finger tapped the third line. "The old offices died here. Not because no one saw. Not because no one spoke. Because answer became optional."
+"People remember the first two," she said. "Even now. Your marsh-watchers observe. They send. Jun did too, barely. You observe until it breaks you, and you send when someone is close enough to hear." Her finger tapped the third line. "The old offices died here. Not because no one saw. Not because no one spoke. Because the third line stopped being anyone's job."
 
 Lena stared at the three words.
 
@@ -426,7 +426,7 @@ She thought of Jun's pages folded behind the scanner. He had sent. She had never
 
 Veya's eyes sharpened, and Lena realized she had asked something that mattered.
 
-"Not agreement," Veya said. "That was the center's mistake. It wanted confirmation — reliable, unreliable, priority, non-critical. Answer is simpler and harder. Received. Compared. Corrected. Carried onward. Sometimes *no.* Sometimes *we saw it too.* Sometimes *do not send this again until the second sign.* Without answer, the first observer never learns what their seeing became, and the next never learns what came before."
+"Not agreement," Veya said. "That was the center's mistake. It wanted confirmation — reliable, unreliable, priority, non-critical. Answer is simpler and harder. Someone writes back. Compares. Corrects. Carries it on. Sometimes *no.* Sometimes *we saw it too.* Sometimes *do not send this again until the second sign.* Without answer, the first observer never learns what their seeing became, and the next never learns what came before."
 
 Lena let out a breath that was almost a laugh and not at all one.
 
@@ -464,7 +464,7 @@ He did.
 
 Veya folded the teaching page and returned it to the folio.
 
-"You came here following records because you believed the missing records would tell you who closed the world. They do not. They tell you how the world learned to close without feeling its own fingers on the latch." She retied the folio. "That is less useful for anger and more useful for grief."
+"You came here following records because you believed the missing records would tell you who closed the world. They do not. They tell you how many times a clerk wrote *no reply received* and called the day finished." She retied the folio. "That is less useful for anger and more useful for grief."
 
 "I have enough grief."
 
@@ -520,25 +520,23 @@ It was not absolution. It was receipt.
 
 Toma reached for his tea and drank half of it in one swallow.
 
-After a while, Lena said, "Then the closures are a symptom."
+After a while, Lena said, "Then the gates going dark now—"
 
-Veya nodded once.
+"Same failure," Veya said. "Only louder."
 
-"Of what?"
+Lena looked toward the copy-slates. "Not because one office closed two hundred years ago. The office closed because people had already begun treating local variation as noise until confirmed, and reply as waste once receipt could be logged."
 
-"Of the same thing killing the gates now." She looked toward the copy-slates. "The network did not fail because one office closed two hundred years ago. The office closed because people had already begun treating local variation as noise until confirmed, and reply as waste once receipt could be logged."
-
-"Folklore," Lena said.
+"Folklore," she said, quieter.
 
 "Yes. Folklore is often knowledge whose office was closed."
 
 Toma whispered, "That is excellent."
 
-Veya ignored him again. "The gates continued to work, so the loss looked harmless. Every year the absence did not kill anyone important became evidence that it did not matter."
+Veya ignored him again. "The gates kept working, so the loss looked harmless. Every year the absence did not kill anyone important became evidence that it did not matter."
 
 "Until it did."
 
-"Until it had mattered for so long that no one living remembered what the mattering was supposed to look like."
+"Until people were dying inside unanswered notices and calling it ordinary weather."
 
 "Can it be restarted?" Lena asked.
 

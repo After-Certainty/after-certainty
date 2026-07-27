@@ -422,6 +422,10 @@ When they were done, Arin laid the pages on the lockhouse table and read them th
 
 *Tell the next* had become the closing line on most of their scraps without anyone voting on it.
 
+He almost left it there. Then, under the list, in the clipped hand he used for lockhouse warnings:
+
+*Skin first. Gauge late.*
+
 He hesitated, then added beneath it:
 
 *Answer if you see the same.*

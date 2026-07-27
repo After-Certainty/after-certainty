@@ -100,7 +100,7 @@ A boy on the winch called down — were they still loading the Coll run, the tid
 
 "It is complicated," Lena said. "The thing eating the gates isn't sabotage. I've watched it across—"
 
-"I don't care." Nadi said it without heat, which was worse than heat. "I genuinely do not care if it's saboteurs or bad luck or the gods gone to sleep. You know what's the same in every story? People still have to eat tomorrow. Sabotage, eat tomorrow. Bad luck, eat tomorrow. The whole network's quietly dying of nobody-minding-it — eat tomorrow. Your truth doesn't put one bowl down. His does." She didn't say *Varik.* She didn't have to; he was on the rim now too, a name in every mouth. "At least the cutting-threads crowd gets a convoy moving while they're wrong. What do *you* get moving?"
+"I don't care." Nadi said it without heat, which was worse than heat. "I genuinely do not care if it's saboteurs or bad luck or the gods gone to sleep. You know what's the same in every story? People still have to eat tomorrow. Sabotage, eat tomorrow. Bad luck, eat tomorrow. The whole network's quietly dying of nobody-minding-it — eat tomorrow. Your truth doesn't put one bowl down. His does." She didn't say *Varik.* She didn't have to; he was on the rim now too, a name in every mouth. "At least the cutters get a convoy moving while they're wrong. What do *you* get moving?"
 
 It landed exactly where she'd aimed it. Lena thought of Anneth, offering a town a true thing that caught no one. Thought of two children walking down to Pier Two and six people she'd left behind a chain-link gate because two was what she had.
 

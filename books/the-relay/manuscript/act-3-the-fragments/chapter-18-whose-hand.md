@@ -68,7 +68,7 @@ They made poor speed and good records.
 
 At every stopping place, Lena asked.
 
-Not loudly. Not with Varik's talent for gathering a room. She wanted edges: peddlers, boat hands, mill clerks, old women with baskets, children who knew where adults hid notes. She asked for wrong things, local things, scrap-lines moving hand to hand.
+Not loudly. Not with Varik's talent for gathering a room. She wanted edges: peddlers, boat hands, mill clerks, old women with baskets, children who knew where adults hid notes. She asked for unseasonals, local things, scrap-lines moving hand to hand.
 
 The first night, at a sheep shelter with one wall missing and a roof that had negotiated terms with the rain, Yov produced three waxed slips from his coat.
 
@@ -297,7 +297,7 @@ They preserved difference.
 
 Lena stared at those words until the ferry house faded around them.
 
-That was the hand. Not the handwriting, not the seal, not even the water-lines. The refusal to make the wrong things too quickly one thing.
+That was the hand. Not the handwriting, not the seal, not even the water-lines. The refusal to make the unseasonals too quickly one thing.
 
 Arin.
 
@@ -603,19 +603,9 @@ But Arin had not only waited.
 
 He had stayed.
 
-And staying, in the world after the gates, had become work.
+He had known the lake before the gauge. He had listened when children counted moths. He had believed old people's knees more than central measures. While she crossed worlds, he deepened one.
 
-He had known the lake before the gauge. He had listened when children counted moths. He had believed old people's knees more than central measures. He had learned one place's wrongness well enough to teach other places how to describe their own without turning it into theory.
-
-While she crossed worlds, he deepened one.
-
-Neither was enough alone.
-
-That was the recognition.
-
-Not that her brother was alive. She still did not know that, not fully. A line was not a body. A seal was not a hand.
-
-The recognition was that Arin was not waiting for her to invent what came next. He had been building the other half while she moved.
+A line was not a body. A seal was not a hand. But Arin was not waiting for her to invent what came next. He had been building the other half while she moved.
 
 Lena looked back at the ferry house across the river, blurred by rain. Behind her: Vellum, Veya, Cai, Lio, Sera, Merrow, Vesper. Ahead, through slow roads and broken crossings, the Tarn.
 
@@ -1059,8 +1049,6 @@ Then west, east, south — Merrow's packet line, Ivera through Lio, Vellum's cop
 One road would get her closer to Arin.
 
 One web of roads might bring what he needed into contact with what she carried.
-
-She understood that choosing between those two was the old mistake.
 
 "North," she said. "But not alone. Send to Lio: whoever has been answering twice — their notes, not their theories. Not to me. To the Osprey groundline and every road-narrowing between here and Ivera."
 
