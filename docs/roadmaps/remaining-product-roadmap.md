@@ -102,6 +102,7 @@ Site roadmap headers that still say “planning only” for search are **stale**
 | Chapter prev/next + reading TOC | **Absent** as reader chrome | Adjacent nav exists for *explore entities*, not chapters |
 | Path/trail local progress | **Present** | `lib/paths/pathProgress.ts` — questions/trails only |
 | Bookmarks, text-size, reading themes, offline reading | **Absent** | Global site theme ≠ reader theme; no PWA reader |
+| Local chapter reading progress | **Present** (READ-011) | `lib/reading/readingProgress.ts`; recorder in chapter reader shell — no continue-reading UI yet (READ-012) |
 
 Public corpus validation requires public chapters to be search- and sitemap-eligible with matching index/sitemap membership (READ-005 / READ-009).
 
@@ -251,10 +252,10 @@ flowchart LR
 |-------|---------|
 | **Problem** | V1 reading works, but return visits and comfort controls are thin. |
 | **User value** | Resume reading, bookmark places, adjust type size/theme, find within a book. |
-| **Current state** | Path progress pattern exists for questions/trails only. |
-| **Existing implementation** | `lib/paths/pathProgress.ts`; site `theme-provider` (global, not reader). |
-| **Existing documentation** | This roadmap. |
-| **Remaining work** | Local progress/bookmarks keyed by `editionId` + `chapterId`; continue-reading entry points; text-size/reading theme; TOC drawer; copy section link; optional in-book search; offline only as research spike. |
+| **Current state** | Local reading progress shipped (READ-011). Path progress pattern exists for questions/trails. |
+| **Existing implementation** | `lib/reading/readingProgress.ts`; `lib/paths/pathProgress.ts`; site `theme-provider` (global, not reader). |
+| **Existing documentation** | This roadmap; chapter-identity client storage keys. |
+| **Remaining work** | Continue-reading entry points; local bookmarks; text-size/reading theme; TOC drawer; copy section link; optional in-book search; offline only as research spike. |
 | **Dependencies** | Phase 1 routes + stable IDs. |
 | **Corpus / site** | Site-only storage (localStorage); no corpus requirement. |
 | **Tests** | Storage key stability tests; UI tests for controls; no cross-device sync expectations. |
@@ -498,6 +499,8 @@ flowchart LR
 |-------|-------|
 | **Goal** | Persist last chapter (and optional scroll position) keyed by `editionId` + `chapterId` in localStorage. |
 | **Type / owner / size** | implementation / site / M |
+| **Status** | Implemented — `ac_reading_progress` localStorage API; recorder mounted in chapter reader shell; identityKey uses `chapterReadingStorageKey`. |
+| **Likely files** | `apps/site/lib/reading/readingProgress.ts`; `apps/site/components/reading/record-reading-progress.tsx`; `chapter-reader-shell.tsx` |
 | **Dependencies** | Phase 1 complete for pilot books |
 | **Acceptance criteria** | Keys stable per contract; clearing site data resets; no server sync |
 | **Pattern reference** | `lib/paths/pathProgress.ts` |

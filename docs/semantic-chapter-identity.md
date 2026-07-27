@@ -108,7 +108,7 @@ Downloads (EPUB/PDF/DOCX) remain valid reading paths alongside the native reader
 
 **V1 cohort (READ-010):** All published catalog editions with manuscript chapters are in scope — no download-only holdout list. See [`native-reader-v1-cohort.md`](native-reader-v1-cohort.md).
 
-### Client storage keys (future READ-011+)
+### Client storage keys (READ-011+)
 
 Prefer opaque graph ids, not URL strings:
 
@@ -118,6 +118,8 @@ bookmark:{editionId}:{chapterId}[:{fragmentId}]
 ```
 
 URLs may change presentation hosts; `editionId` + `chapter.id` must not.
+
+**READ-011 (shipped):** Site stores one last-position entry per edition under localStorage key `ac_reading_progress`, keyed by `editionId`. Each entry includes `identityKey` = `readingProgress:{editionId}:{chapterId}`, plus optional `fragmentId` / `scrollY`. No server sync — clearing site data resets. See [`apps/site/lib/reading/readingProgress.ts`](../apps/site/lib/reading/readingProgress.ts).
 
 ### Out of scope for this contract
 

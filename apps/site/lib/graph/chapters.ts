@@ -88,8 +88,9 @@ export function chapterPublicPath(chapter: Pick<ManifestChapter, "routeKey">): s
 }
 
 /**
- * Stable localStorage / progress key material (future READ-011+).
- * Prefer graph ids over URL strings.
+ * Stable identity string for local reading progress (READ-011).
+ * Prefer graph ids over URL strings. Stored as `identityKey` on progress entries.
+ * @see lib/reading/readingProgress.ts
  */
 export function chapterReadingStorageKey(editionId: string, chapterId: string): string {
   return `readingProgress:${editionId}:${chapterId}`;

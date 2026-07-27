@@ -4,6 +4,7 @@ import Link from "next/link";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ChapterAdjacentNav } from "@/components/reading/chapter-adjacent-nav";
 import { ChapterToc } from "@/components/reading/chapter-toc";
+import { RecordReadingProgress } from "@/components/reading/record-reading-progress";
 import { ButtonLink } from "@/components/ui/button-link";
 import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
 import { explorePaths } from "@/lib/graph/explorePaths";
@@ -20,7 +21,7 @@ export type ChapterReaderShellProps = {
 };
 
 /**
- * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y).
+ * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011 progress).
  */
 export function ChapterReaderShell({
   book,
@@ -36,6 +37,7 @@ export function ChapterReaderShell({
       : undefined;
   const summary = chapter.summary?.trim();
   const centralQuestion = chapter.centralQuestion?.trim();
+  const progressEditionId = chapter.editionId || book.id;
 
   const breadcrumbs = [
     { label: "Explore", href: explorePaths.home },
@@ -49,6 +51,8 @@ export function ChapterReaderShell({
       aria-labelledby="chapter-title"
       className="relative mx-auto max-w-3xl px-4 py-12 md:py-16"
     >
+      <RecordReadingProgress editionId={progressEditionId} chapterId={chapter.id} />
+
       <a href="#chapter-content" className="reader-skip-link">
         Skip to chapter text
       </a>
