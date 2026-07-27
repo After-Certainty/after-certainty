@@ -9,6 +9,7 @@ import { ExploreBookMedia } from "@/components/explore/explore-book-media";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
+import { ContinueReadingForBook } from "@/components/reading/continue-reading-panel";
 import { JsonLd } from "@/components/seo/json-ld";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { LinkifiedText } from "@/components/ui/linkified-text";
@@ -18,6 +19,7 @@ import type { EditionRelationship } from "@/lib/books/publication-registry-schem
 import type { SemanticBookActionLinkItem } from "@/lib/books/semantic-book-action-links";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import type { GraphIndex } from "@/lib/graph/graph";
+import type { ContinueReadingCatalog } from "@/lib/reading/continueReading";
 import { buildBookPageJsonLd } from "@/lib/seo/json-ld";
 import type { WhatsNewEvent } from "@/lib/whats-new/schema";
 import type { Book, GlossaryConcept, Pattern, Source, Thinker } from "@/types/semanticGraph";
@@ -48,6 +50,8 @@ export type BookDetailLegacyLayoutProps = {
   index: GraphIndex;
   breadcrumbs: { label: string; href?: string }[];
   relatedWhatsNew?: WhatsNewEvent[];
+  /** Public chapter destinations for local continue-reading (READ-012). */
+  continueReadingCatalog?: ContinueReadingCatalog;
 };
 
 /** Pre–Phase G book detail layout for books without an overview overlay. */
@@ -71,6 +75,7 @@ export function BookDetailLegacyLayout({
   index,
   breadcrumbs,
   relatedWhatsNew = [],
+  continueReadingCatalog,
 }: BookDetailLegacyLayoutProps) {
   const hasRelated =
     inventory.concepts.length +
@@ -150,6 +155,9 @@ export function BookDetailLegacyLayout({
           observatory={{ kind: "book", slug: book.slug }}
           publicationLinks={publicationLinks}
         />
+        {continueReadingCatalog ? (
+          <ContinueReadingForBook editionId={book.id} catalog={continueReadingCatalog} />
+        ) : null}
         <ExploreBookMedia book={book} />
         <ExploreAdjacentNav
           basePath={explorePaths.books}
