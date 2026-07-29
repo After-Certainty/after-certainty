@@ -30,6 +30,7 @@ export const defaultMetadata: Metadata = {
     siteName: siteConfig.name,
     title: siteConfig.ogShareTitle,
     description: siteConfig.description,
+    // Homepage only — `createPageMetadata` replaces this with the page canonical.
     url: siteConfig.url,
     images: [
       {
@@ -52,10 +53,38 @@ export const defaultMetadata: Metadata = {
   },
 };
 
+/**
+ * Prefer an explicit `openGraph.url`, else the page `alternates.canonical`.
+ * Relative paths resolve against `metadataBase` in the Next Metadata API.
+ */
+export function resolveOpenGraphUrl(override: Metadata): string | URL | undefined {
+  if (override.openGraph?.url !== undefined && override.openGraph.url !== null) {
+    return override.openGraph.url;
+  }
+  const canonical = override.alternates?.canonical;
+  if (typeof canonical === "string") {
+    const trimmed = canonical.trim();
+    return trimmed || undefined;
+  }
+  if (canonical instanceof URL) {
+    return canonical;
+  }
+  if (canonical && typeof canonical === "object" && "url" in canonical) {
+    const url = canonical.url;
+    if (typeof url === "string") {
+      const trimmed = url.trim();
+      return trimmed || undefined;
+    }
+    if (url instanceof URL) return url;
+  }
+  return undefined;
+}
+
 export function createPageMetadata(override: Metadata): Metadata {
   const pageTitle = typeof override.title === "string" ? override.title : siteConfig.name;
   const pageDescription =
     typeof override.description === "string" ? override.description : siteConfig.description;
+  const openGraphUrl = resolveOpenGraphUrl(override);
 
   return {
     ...defaultMetadata,
@@ -73,6 +102,9 @@ export function createPageMetadata(override: Metadata): Metadata {
       ...override.openGraph,
       title: override.openGraph?.title ?? pageTitle,
       description: override.openGraph?.description ?? pageDescription,
+      // Never inherit the homepage og:url on interior pages — Facebook treats
+      // og:url as the share identity and will re-scrape that URL (and its image).
+      url: openGraphUrl,
     },
     twitter: {
       ...defaultMetadata.twitter,

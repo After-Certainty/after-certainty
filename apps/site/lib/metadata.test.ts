@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { createPageMetadata, defaultMetadata } from "@/lib/metadata";
+import { createPageMetadata, defaultMetadata, resolveOpenGraphUrl } from "@/lib/metadata";
 import { OG_SHARE_TITLE } from "@/lib/site-config";
 
 describe("createPageMetadata", () => {
@@ -43,6 +43,40 @@ describe("createPageMetadata", () => {
     });
     expect(m.alternates?.canonical).toBe("/explore/concepts/certainty");
     expect(m.alternates?.types?.["application/rss+xml"]).toBeTruthy();
+  });
+
+  it("sets openGraph.url from alternates.canonical so Facebook does not re-scrape the homepage", () => {
+    const m = createPageMetadata({
+      title: "Curiosity Before Certainty",
+      description: "A book.",
+      alternates: { canonical: "/explore/books/curiosity-before-certainty" },
+    });
+    expect(m.openGraph?.url).toBe("/explore/books/curiosity-before-certainty");
+  });
+
+  it("does not inherit the homepage openGraph.url when no canonical is provided", () => {
+    const m = createPageMetadata({
+      title: "About",
+      description: "Orientation into the project.",
+    });
+    expect(m.openGraph?.url).toBeUndefined();
+  });
+
+  it("prefers an explicit openGraph.url over alternates.canonical", () => {
+    const m = createPageMetadata({
+      title: "Custom",
+      description: "Custom share URL.",
+      alternates: { canonical: "/explore/books/demo" },
+      openGraph: { url: "https://www.after-certainty.com/custom-share" },
+    });
+    expect(m.openGraph?.url).toBe("https://www.after-certainty.com/custom-share");
+  });
+});
+
+describe("resolveOpenGraphUrl", () => {
+  it("reads string and descriptor canonical forms", () => {
+    expect(resolveOpenGraphUrl({ alternates: { canonical: "/a" } })).toBe("/a");
+    expect(resolveOpenGraphUrl({ alternates: { canonical: { url: "/b" } } })).toBe("/b");
   });
 });
 
