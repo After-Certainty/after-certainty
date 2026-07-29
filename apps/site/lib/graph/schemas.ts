@@ -56,7 +56,15 @@ const optionalManifestString = z
   .nullish()
   .transform((value) => value ?? undefined);
 
-const optionalManifestUrl = httpUrlSchema.nullish().transform((value) => value ?? undefined);
+/** Absolute http(s) URL or first-party installed open-graph path. */
+const siteOpenGraphImagePathSchema = z
+  .string()
+  .regex(/^\/generated\/open-graph\/[a-zA-Z0-9._-]+\.png$/);
+
+const optionalOpenGraphImage = z
+  .union([httpUrlSchema, siteOpenGraphImagePathSchema])
+  .nullish()
+  .transform((value) => value ?? undefined);
 
 const bookStatusSchema = z.enum([
   "published",
@@ -157,7 +165,7 @@ const bookSchema = z.object({
     .nullish()
     .transform((value) => value ?? undefined),
   coverImage: optionalManifestString,
-  openGraphImage: optionalManifestUrl,
+  openGraphImage: optionalOpenGraphImage,
   coverImages: coverImagesSchema.optional(),
   coverImageGeneration: coverImageGenerationSchema.optional(),
   status: bookStatusSchema.optional(),

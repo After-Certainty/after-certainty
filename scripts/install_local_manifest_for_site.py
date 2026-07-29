@@ -8,6 +8,12 @@ generated manifest without overwriting the committed production fallback.
 Also installs generated book-cover WebP derivatives into
 apps/site/public/generated/book-covers/ (replacing stale slug directories).
 
+Also installs book open-graph.png files into
+apps/site/public/generated/open-graph/<slug>.png and rewrites
+books[].openGraphImage to site-relative /generated/open-graph/<slug>.png
+so social crawlers (especially Facebook) fetch first-party URLs instead of
+raw.githubusercontent.com.
+
 Also installs chapter manuscript Markdown into
 apps/site/data/manuscripts/ (mirroring bookDir) so Native Reader SSR can
 read files on Vercel without relying on monorepo file tracing alone.
@@ -130,6 +136,80 @@ def _install_book_covers(
         )
 
     print(f"Installed book covers → {site_covers} ({len(keep)} books)")
+    return 0
+
+
+_SITE_OG_URL_PREFIX = "/generated/open-graph"
+
+
+def _safe_slug(slug: object) -> str | None:
+    if not isinstance(slug, str) or not slug or "/" in slug or ".." in slug:
+        return None
+    return slug
+
+
+def _resolve_open_graph_source(repo: Path, book: dict) -> Path | None:
+    """Locate archival open-graph.png for a manifest book entry."""
+    og_path = book.get("openGraphImagePath")
+    if isinstance(og_path, str) and og_path.strip():
+        rel = og_path.strip().replace("\\", "/").lstrip("/")
+        if rel and ".." not in rel.split("/") and not rel.startswith("/"):
+            candidate = (repo / rel).resolve()
+            books_root = (repo / "books").resolve()
+            if (candidate == books_root or books_root in candidate.parents) and candidate.is_file():
+                return candidate
+
+    book_dir = book.get("bookDir")
+    if isinstance(book_dir, str) and book_dir.strip():
+        src_dir = _safe_book_dir(book_dir, repo=repo)
+        if src_dir is not None:
+            for name in ("open-graph.png", "open_graph.png"):
+                candidate = src_dir / name
+                if candidate.is_file():
+                    return candidate
+    return None
+
+
+def _install_open_graph_images(
+    *,
+    repo: Path,
+    manifest: dict,
+    site_og: Path,
+) -> int:
+    """Copy open-graph.png into public/generated/open-graph and rewrite manifest URLs."""
+    books = manifest.get("books")
+    if not isinstance(books, list):
+        print("error: manifest missing books array", file=sys.stderr)
+        return 1
+
+    site_og.mkdir(parents=True, exist_ok=True)
+    keep: set[str] = set()
+    installed = 0
+
+    for book in books:
+        if not isinstance(book, dict):
+            continue
+        slug = _safe_slug(book.get("slug"))
+        if slug is None:
+            continue
+        source = _resolve_open_graph_source(repo, book)
+        if source is None:
+            continue
+        dest = site_og / f"{slug}.png"
+        shutil.copy2(source, dest)
+        if not dest.is_file() or dest.stat().st_size <= 0:
+            print(f"error: failed to install open graph image for {slug}", file=sys.stderr)
+            return 1
+        book["openGraphImage"] = f"{_SITE_OG_URL_PREFIX}/{slug}.png"
+        keep.add(f"{slug}.png")
+        installed += 1
+
+    for child in site_og.iterdir():
+        if child.is_file() and child.suffix.lower() == ".png" and child.name not in keep:
+            child.unlink()
+            print(f"Removed stale installed open-graph: {child.name}")
+
+    print(f"Installed open-graph images → {site_og} ({installed} books)")
     return 0
 
 
@@ -310,6 +390,17 @@ def main(argv: list[str] | None = None) -> int:
         help="Install JSON only (tests / emergency).",
     )
     parser.add_argument(
+        "--skip-open-graph",
+        action="store_true",
+        help="Skip copying open-graph.png into apps/site/public/generated/open-graph.",
+    )
+    parser.add_argument(
+        "--site-open-graph",
+        type=Path,
+        default=None,
+        help="Site open-graph dir (default: <repo>/apps/site/public/generated/open-graph)",
+    )
+    parser.add_argument(
         "--skip-manuscripts",
         action="store_true",
         help="Skip copying chapter markdown into apps/site/data/manuscripts.",
@@ -343,6 +434,7 @@ def main(argv: list[str] | None = None) -> int:
     site_public = (args.site_public or (repo / "apps" / "site" / "public")).resolve()
     cover_source = (args.cover_source or (repo / "build" / "site-assets" / "book-covers")).resolve()
     site_covers = (args.site_covers or (site_public / "generated" / "book-covers")).resolve()
+    site_og = (args.site_open_graph or (site_public / "generated" / "open-graph")).resolve()
 
     if not source.is_file():
         print(
@@ -380,6 +472,16 @@ def main(argv: list[str] | None = None) -> int:
     dest = site_data / "local-semantic-manifest.json"
     intended_path = site_data / "local-intended-manifest-release.json"
 
+    if not args.skip_covers:
+        code = _install_book_covers(repo=repo, cover_source=cover_source, site_covers=site_covers)
+        if code != 0:
+            return code
+
+    if not args.skip_open_graph:
+        code = _install_open_graph_images(repo=repo, manifest=manifest, site_og=site_og)
+        if code != 0:
+            return code
+
     dest.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
 
     intended = {
@@ -392,11 +494,6 @@ def main(argv: list[str] | None = None) -> int:
         "source": "local-checkout",
     }
     intended_path.write_text(json.dumps(intended, indent=2) + "\n", encoding="utf-8")
-
-    if not args.skip_covers:
-        code = _install_book_covers(repo=repo, cover_source=cover_source, site_covers=site_covers)
-        if code != 0:
-            return code
 
     if not args.skip_manuscripts:
         code = _install_manuscripts(repo=repo, manifest=manifest, site_data=site_data)

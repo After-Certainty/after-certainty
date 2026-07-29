@@ -31,6 +31,7 @@ import {
   continueReadingCatalogForEdition,
 } from "@/lib/reading/continueReading";
 import { createPageMetadata } from "@/lib/metadata";
+import { bookOpenGraphImageFields } from "@/lib/books/book-open-graph-metadata";
 import { resolveBookCover } from "@/lib/books/resolve-book-cover";
 import {
   booksSortedForExploreIndex,
@@ -49,23 +50,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const description =
     overview?.overview.centralQuestion ?? book.summary ?? book.subtitle ?? book.title;
   const canonical = `${explorePaths.books}/${book.slug}`;
-  if (!book.openGraphImage) {
-    return createPageMetadata({
-      title: book.title,
-      description,
-      alternates: { canonical },
-    });
-  }
   return createPageMetadata({
     title: book.title,
     description,
     alternates: { canonical },
-    openGraph: {
-      images: [{ url: book.openGraphImage, alt: book.title }],
-    },
-    twitter: {
-      images: [book.openGraphImage],
-    },
+    ...bookOpenGraphImageFields(book),
   });
 }
 

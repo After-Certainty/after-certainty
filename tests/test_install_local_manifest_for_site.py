@@ -115,6 +115,57 @@ def test_install_copies_manuscripts_under_book_dir(tmp_path: Path) -> None:
     assert (assets_root / "BookCover.png").is_file()
 
 
+def test_install_copies_open_graph_and_rewrites_manifest_url(tmp_path: Path) -> None:
+    source = tmp_path / "semantic-manifest.json"
+    site_data = tmp_path / "site-data"
+    site_public = tmp_path / "site-public"
+    book_dir = tmp_path / "books" / "demo-book"
+    book_dir.mkdir(parents=True)
+    og = book_dir / "open-graph.png"
+    og.write_bytes(b"\x89PNG\r\n\x1a\n" + b"og-bytes")
+    source.write_text(
+        json.dumps(
+            {
+                "schemaVersion": "2.3",
+                "generatedAt": "2026-07-24T00:00:00+00:00",
+                "sourceCommit": "abc",
+                "books": [
+                    {
+                        "slug": "demo-book",
+                        "bookDir": "books/demo-book",
+                        "openGraphImage": "https://raw.githubusercontent.com/example/main/books/demo-book/open-graph.png",
+                        "openGraphImagePath": "books/demo-book/open-graph.png",
+                    }
+                ],
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    code = install.main(
+        [
+            "--repo",
+            str(tmp_path),
+            "--source",
+            str(source),
+            "--site-data",
+            str(site_data),
+            "--site-public",
+            str(site_public),
+            "--skip-covers",
+            "--skip-manuscripts",
+            "--skip-manuscript-assets",
+        ]
+    )
+    assert code == 0
+    installed = site_public / "generated" / "open-graph" / "demo-book.png"
+    assert installed.is_file()
+    assert installed.read_bytes() == og.read_bytes()
+
+    loaded = json.loads((site_data / "local-semantic-manifest.json").read_text(encoding="utf-8"))
+    assert loaded["books"][0]["openGraphImage"] == "/generated/open-graph/demo-book.png"
+
+
 def test_install_rejects_missing_source(tmp_path: Path) -> None:
     code = install.main(
         [

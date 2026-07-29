@@ -7,6 +7,7 @@ import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { buildChapterRouteKey } from "@/lib/graph/chapters";
 import { createPageMetadata } from "@/lib/metadata";
+import { bookOpenGraphImageFields } from "@/lib/books/book-open-graph-metadata";
 import { buildChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 import { loadChapterManuscript } from "@/lib/reading/load-chapter-manuscript";
 import { resolvePublicChapter } from "@/lib/reading/resolve-public-chapter";
@@ -37,6 +38,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     alternates: {
       canonical: resolved.pathname,
     },
+    ...bookOpenGraphImageFields(resolved.book),
   });
 }
 
