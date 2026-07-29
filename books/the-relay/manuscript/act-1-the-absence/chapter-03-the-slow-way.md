@@ -8,7 +8,7 @@ She knew pilots — a courier knew everyone who moved between the worlds — and
 
 "The gate takes four seconds," Lena said.
 
-"The gate isn't there." He gave the wire another twist, still not looking up; a crust of white broke loose and rattled down into the sump. "You want to sit on the benches with the fruit-sellers till the clerks clear the wire, that's a fine plan for somebody. You want the far side of the Tarn before the winter turn, you pay for the grease I'll burn getting you round the rim. Sennen first — and I'm hearing Sennen's arch is acting up — then the Haldis leg, then a hop nobody likes into the approach. That road's older than the maps. It'll be there after, too."
+"The gate isn't there." He gave the wire another twist, still not looking up; a crust of white broke loose and rattled down into the sump. "You want to sit on the benches with the fruit-sellers till the clerks clear the wire, that's a fine plan for somebody. You want the far side of the Tarn before the winter turn, you pay for the grease I'll burn getting you round the rim. Sennen first — and I'm hearing Sennen's arch is acting up — then the Haldis leg, then a hop nobody likes into the approach. That road's older than the rock under it. It'll be there after, too."
 
 This was what the gates made everyone forget. A gate was a doorway: you stepped through on one world and out on another, and the distance between them stopped counting. For seven hundred years people had treated the worlds as close. Under the doorways the older dark was still there — days to a near world, weeks to a far one, the long cold stretch everyone had spent centuries free to ignore. A gate going dark didn't cut a world off from everywhere. It only cut it off from *fast*.
 
