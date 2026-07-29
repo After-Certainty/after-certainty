@@ -32,6 +32,15 @@ updates:
       prefix: deps
       include: scope
     groups:
+      # Match before broader production/development groups so React stays one PR.
+      # Root package.json declares react/react-dom + overrides "$react"/"$react-dom"
+      # so Dependabot bumps keep a single hoisted copy for the workspace.
+      react:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "@types/react"
+          - "@types/react-dom"
       production-minor-patch:
         dependency-type: production
         update-types:
