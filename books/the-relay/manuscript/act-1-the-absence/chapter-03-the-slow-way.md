@@ -10,7 +10,7 @@ She knew pilots — a courier knew everyone who moved between the worlds — and
 
 "The gate isn't there." He gave the wire another twist, unbothered, stating it the way you'd report the weather; a crust of white broke loose and rattled down into the sump. "You want to sit on the benches with the fruit-sellers till the clerks clear the wire, that's a fine plan for somebody. You want the far side of the Tarn before the winter turn, you pay for the grease I'll burn getting you round the rim. Sennen first — and I'm hearing Sennen's arch is acting up — then the Haldis leg, then a hop nobody likes into the approach. That road's older than your doorway. It'll be there after, too."
 
-This was the thing the gates made everyone forget. A gate was a doorway: you stepped through on one world and out on another and the distance simply stopped applying, and so for seven hundred years the worlds had felt like rooms in one house, an afternoon's walk end to end. But the doorways were laid over something older that had never gone anywhere — the actual dark between the actual worlds, the long cold distance everyone had spent centuries free to forget. Days to a near world. Weeks to a far one. A gate going dark didn't sever a world from everywhere. It severed it from *fast*.
+This was what the gates made everyone forget. A gate was a doorway: you stepped through on one world and out on another, and the distance between them stopped counting. For seven hundred years people had crossed as if the worlds were close. Under the doorways the older dark was still there — the long cold stretch between the actual worlds, the one everyone had spent centuries free to ignore. Days to a near world. Weeks to a far one. A gate going dark didn't cut a world off from everywhere. It only cut it off from *fast*.
 
 "How long's the Tarn shut?" she asked, and caught the slip as it left her.
 
@@ -68,7 +68,7 @@ She'd hated him for that, mostly because it sat close enough to true to leave a 
 
 *No,* he'd said. *It's just fast.*
 
-He'd left it there, which from Arin was a whole argument, and in all the years since neither of them had ever gone back and finished it — each privately sure the other had taken the lesser path, neither once brave enough to learn whether it was a fight or only two ways of being afraid. She pitied him a little, for a life measured in one lake's moods while the entire stitched immensity of the worlds ran past his door. He pitied her right back, she knew, for the lightness she called freedom, the way you pity a person who's never kept a dog.
+He'd left it there, which from Arin was a whole argument, and in all the years since neither of them had ever gone back and finished it. Each was privately sure the other had taken the lesser path. Neither had asked whether they were still fighting or only both afraid. She pitied him a little, for a life measured in one lake's moods while every other world ran past his door. He pitied her right back, she knew, for the lightness she called freedom.
 
 *It's just fast.*
 
@@ -90,8 +90,8 @@ She took out the slate and wrote the message she could not send, the way a perso
 
 The wheel turned. **NO VALID RELAY PATH TO DESTINATION.**
 
-She'd known it would. She put the slate away and took out the candies instead — and the tag she'd tied to them, *next time*, in her own hand. With the pen she'd kept she wrote beneath it, slower, the letters coming cramped and small, the way words come when they are trying not to take up room: *Next time was too late. I know.* Paper kept what a slate could swallow; it left the evidence of every line you'd been too much a coward to send. She folded the tag back around the twist, message and peppermint together, into a packet that would reach no one, and pushed it down into her inner pocket, against her ribs. Something to carry. It would do until it didn't.
+She'd known it would. She put the slate away and took out the candies instead — and the tag she'd tied to them, *next time*, in her own hand. With the pen she'd kept she wrote beneath it, slower, the letters coming cramped and small, the way words come when they are trying not to take up room: *Next time was too late. I know.* Paper kept what a slate could swallow; it left the evidence of every line you'd been too much a coward to send. She folded the tag back around the twist, message and peppermint together, into a packet that would reach no one, and pushed it down into her inner pocket, against her ribs. Something for the weeks ahead.
 
 She watched the Ribbon dwindle to a grey speck in the freighter's wake, and let herself understand the worst small piece of it — worse than twenty-two days in the dark. If Vesper stayed shut, Arin would never know she'd come at all. He would not picture her on a cold gallery aboard a stinking freighter, counting buoys toward him for a month. He would picture her where he always had: out on the dry stone where the houses had two floors and the floors didn't smell of peat-smoke, being light, being smart, taking the easy road — right up until she rattled his latch.
 
-She drew the blanket round her shoulders and settled in to be carried the only way left, slowly, toward the one door that mattered — a wooden one, on a lake, at the far side of the dark.
+She drew the blanket round her shoulders and settled in to be carried the only way left, slowly, toward Arin's wooden door on the lake.
