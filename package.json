@@ -43,7 +43,7 @@
     "corpus:sync-semantic": "uv sync --frozen --only-group semantic"
   },
   "devDependencies": {
-    "turbo": "^2.5.4"
+    "turbo": "^2.10.7"
   },
   "dependencies": {
     "react": "19.2.8",
