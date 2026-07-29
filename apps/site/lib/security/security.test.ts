@@ -54,6 +54,7 @@ describe("SECURITY_HEADERS", () => {
     expect(connectSrc).toContain("https://*.google-analytics.com");
     expect(connectSrc).toContain("https://*.analytics.google.com");
     expect(connectSrc).toContain("https://region1.google-analytics.com");
+    expect(connectSrc).toContain("https://www.google.com");
 
     // Forbid overly broad / advertising endpoints we are not using
     expect(connectSrc).not.toMatch(/connect-src[^;]*\s\*(?:\s|;|$)/);
