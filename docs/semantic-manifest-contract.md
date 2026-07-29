@@ -80,6 +80,8 @@ Optional on each `books[]` entry when web derivatives exist:
 
 Legacy `coverImage` / `coverImagePath` remain required (nullable). External consumers may ignore the new fields.
 
+Site install (`make install-local-manifest-for-site`) also copies archival `open-graph.png` to `apps/site/public/generated/open-graph/<slug>.png` and rewrites the **local** installed manifest `openGraphImage` to `/generated/open-graph/<slug>.png`. The published release `semantic-manifest.json` may still use absolute GitHub raw URLs for `openGraphImage`; that rewrite is site-build-only.
+
 ## Site consumption (monorepo Stage D)
 
 The public site installs the same-checkout artifact into gitignored `apps/site/data/local-semantic-manifest.json` and builds with `SEMANTIC_MANIFEST_USE_LOCAL=1` (remote fetch removed). The GitHub `latest` release asset remains a public API for external consumers and parity checks; it is not required for the site’s own production build after Phase 6 Stage E. See [`docs/migrations/monorepo-phase-6/`](migrations/monorepo-phase-6/).

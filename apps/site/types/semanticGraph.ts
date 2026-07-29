@@ -124,7 +124,11 @@ export interface Book {
   description?: string;
   /** Path under /public or absolute URL when supplied by the semantic manifest */
   coverImage?: string;
-  /** Absolute URL for book-specific Open Graph / Twitter share art when supplied by the manifest */
+  /**
+   * Book-specific Open Graph / Twitter share art.
+   * Site builds prefer `/generated/open-graph/<slug>.png` (installed from archival
+   * `open-graph.png`); release manifests may still use absolute GitHub raw URLs.
+   */
   openGraphImage?: string;
   /** Generated web-optimized cover derivatives (schema 2.3 additive). */
   coverImages?: BookCoverImages;

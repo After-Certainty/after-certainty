@@ -21,7 +21,7 @@ Resize: aspect-preserving `fit: "inside"` with `withoutEnlargement: true`. No cr
 | Catalog and shelf cards | card |
 | Related / explore book cards | card |
 | Compact thumbnails / What’s New | thumbnail |
-| Open Graph metadata | `openGraphImage` (not web covers) |
+| Open Graph metadata | `openGraphImage` → site `/generated/open-graph/<slug>.png` (not web covers) |
 | Publishing / downloads | original `title_page_cover` |
 
 ## Commands
@@ -47,6 +47,7 @@ REQUIRE_INSTALLED=1 REQUIRE_SEMANTIC=1 make validate-book-cover-assets
 - `build/site-assets/book-covers/<slug>/{detail,card,thumbnail}.webp`
 - `build/site-assets/book-covers/manifest.json` (actual dims, bytes, SHA-256)
 - Installed: `apps/site/public/generated/book-covers/<slug>/…` (gitignored)
+- Installed Open Graph: `apps/site/public/generated/open-graph/<slug>.png` (gitignored; copied from archival `books/**/open-graph.png` during install; local manifest `openGraphImage` rewritten to `/generated/open-graph/<slug>.png`)
 
 ## Manifest fields (additive, schemaVersion 2.3)
 

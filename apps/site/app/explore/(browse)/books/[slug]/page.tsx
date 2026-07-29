@@ -56,12 +56,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       alternates: { canonical },
     });
   }
+  const ogImage = {
+    url: book.openGraphImage,
+    width: 1200,
+    height: 630,
+    alt: book.title,
+  };
   return createPageMetadata({
     title: book.title,
     description,
     alternates: { canonical },
     openGraph: {
-      images: [{ url: book.openGraphImage, alt: book.title }],
+      images: [ogImage],
     },
     twitter: {
       images: [book.openGraphImage],

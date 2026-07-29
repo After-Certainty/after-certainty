@@ -78,7 +78,9 @@ describe("validateSemanticGraph", () => {
       expect(result.success).toBe(true);
       if (!result.success) return;
       const afterCertainty = result.data.books.find((b) => b.slug === "after-certainty");
-      expect(afterCertainty?.openGraphImage).toContain("after-certainty/open-graph.png");
+      expect(afterCertainty?.openGraphImage).toMatch(
+        /after-certainty\/open-graph\.png|\/generated\/open-graph\/after-certainty\.png/,
+      );
       const wolty = result.data.books.find((b) => b.slug === "when-others-look-to-you-v1");
       expect(wolty?.media?.intro?.youtubeVideoId).toBeTruthy();
       expect(wolty?.purchaseLinks?.[0]?.retailer).toBe("amazon");
@@ -456,6 +458,31 @@ describe("validateSemanticGraph", () => {
     if (result.success) {
       expect(result.data.books[0]?.coverImage).toBeUndefined();
       expect(result.data.books[0]?.openGraphImage).toBeUndefined();
+    }
+  });
+
+  it("accepts first-party installed openGraphImage paths", () => {
+    const result = validateSemanticGraph({
+      books: [
+        {
+          id: "book-example",
+          slug: "example",
+          title: "Example",
+          openGraphImage: "/generated/open-graph/example.png",
+          concepts: [],
+          patterns: [],
+          sources: [],
+        },
+      ],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.books[0]?.openGraphImage).toBe("/generated/open-graph/example.png");
     }
   });
 
