@@ -45,9 +45,13 @@
   "devDependencies": {
     "turbo": "^2.5.4"
   },
-  "overrides": {
+  "dependencies": {
     "react": "19.2.8",
-    "react-dom": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom",
     "postcss": ">=8.5.10",
     "sharp": "^0.35.3",
     "brace-expansion": "5.0.8"
