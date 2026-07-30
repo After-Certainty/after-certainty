@@ -6,7 +6,10 @@ import type { GraphEntityKind } from "@/types/semanticGraph";
  *   Client-side App Router navigations rely on that history toggle (no custom pathname tracker).
  * - Enable Consent Mode on the web stream.
  * - Consent defaults deny analytics_storage globally until Accept (lib/consent/consent-defaults-script.ts).
- * - Mark key events (file_download) after validating names in DebugView.
+ * - Mark key events (file_download, chapter_open, next_chapter) after validating names in DebugView.
+ *
+ * Reader funnel (ANALYTICS-001): chapter_open → next_chapter → file_download with location=reader.
+ * Never send manuscript text, titles, summaries, or raw queries — IDs and buckets only.
  *
  * Custom dimensions (optional): register `content_type`, `location`, `platform` for standard reports.
  */
@@ -26,6 +29,22 @@ export type FileDownloadParams = {
   link_url: string;
   content_type?: "book";
   item_id?: string;
+  /** Surface that initiated the download (e.g. `reader` for ANALYTICS-001). */
+  location?: string;
+};
+
+/** Native reader — chapter view (ANALYTICS-001). IDs only. */
+export type ChapterOpenParams = {
+  book_id: string;
+  chapter_id: string;
+  edition_id?: string;
+};
+
+/** Native reader — advance to next chapter in reading order (ANALYTICS-001). */
+export type NextChapterParams = {
+  book_id: string;
+  from_chapter_id: string;
+  to_chapter_id: string;
 };
 
 /** Outbound / external CTA clicks — filter by `location` + `platform` in Explorations. */
@@ -270,6 +289,8 @@ export const AnalyticsEvents = {
   bookOverviewConceptSelect: "book_overview_concept_select",
   bookOverviewRelatedSelect: "book_overview_related_select",
   bookOverviewEditionHistoryOpen: "book_overview_edition_history_open",
+  chapterOpen: "chapter_open",
+  nextChapter: "next_chapter",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];

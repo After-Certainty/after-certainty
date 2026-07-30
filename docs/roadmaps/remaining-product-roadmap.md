@@ -2,7 +2,7 @@
 
 **Status:** Active — authoritative for *remaining* cross-layer work  
 **Created:** 2026-07-24  
-**Last audited:** 2026-07-28 (evidence-based consolidation)  
+**Last audited:** 2026-07-30 (ANALYTICS-001 shipped)  
 **Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
@@ -25,7 +25,7 @@ Discovery, catalog orientation, native chapter reading, monorepo same-checkout b
 | Corpus contract (manifest 2.3) | Established | [`semantic-manifest-contract.md`](../semantic-manifest-contract.md) |
 | IngramSpark packaging | Shipped | `tools/ingramspark/`; pilots `production-approved`; [`ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md) |
 | Site analytics (discovery/search) | Present | `apps/site/lib/analytics/events.ts`; GA4 + Vercel Analytics |
-| Reader funnel events | Missing | No chapter-open / next-chapter / download-from-reader events yet |
+| Reader funnel events | Shipped | `chapter_open` / `next_chapter` / `file_download` (`location=reader`); consent-gated; GA4 Admin key-event marking remains Kevin |
 | Root CONTRIBUTING + issue templates | Missing | Site-only `apps/site/docs/contributing-*.md` |
 | Think Together | Marketing only | Quotes on site; no product surface |
 
@@ -56,7 +56,6 @@ Do not reopen these as active product phases.
 | Track | Remaining outcome |
 |-------|-------------------|
 | **Repository transparency** | Root `CONTRIBUTING.md`; corpus vs site issue templates; GitHub settings checklist (Kevin) |
-| **Reader analytics** | Consent-gated chapter funnel events so on-site reading can be measured |
 | **Editorial / historical metadata** | Publication-date evidence workflow; ASIN confirmations; remaining chapter/poem enrichment; historical What’s New where dates are real |
 | **Semantic traceability (targeted)** | Thinker concept panel, JSON-LD `knowsAbout`, optional thinkers-by-concept filter; selective grounding—not graph saturation |
 | **Think Together** | Product brief only when Kevin chooses a pilot; no social platform build now |
@@ -76,16 +75,15 @@ Highest-value, actionable, clear current benefit.
 
 Valuable work that depends on Now items, Kevin’s decisions, or editorial evidence.
 
-1. **ANALYTICS-001** — Reader funnel GA4 events  
-2. **PROVENANCE-002** — Thinker concept coverage panel  
-3. **PROVENANCE-003** — JSON-LD `knowsAbout` for thinkers  
-4. **CORPUS-001** — Publication-date evidence file + backfill workflow (Kevin)  
-5. **CORPUS-002** — Confirm Amazon ASINs for two authority titles (Kevin / external)  
-6. **CORPUS-003–008** — Remaining priority chapter/poem enrichment (editorial)  
-7. **CORPUS-009** — Historical What’s New backfill where dates are confirmed  
-8. **PROVENANCE-004** — Explore thinkers-by-concept filter (after more concept links exist)  
-9. **PROVENANCE-005–007** — Targeted grounding / metadata cleanup (quality over quantity)  
-10. **OPS-003** — Complete GitHub settings checklist (Kevin / external)
+1. **PROVENANCE-002** — Thinker concept coverage panel  
+2. **PROVENANCE-003** — JSON-LD `knowsAbout` for thinkers  
+3. **CORPUS-001** — Publication-date evidence file + backfill workflow (Kevin)  
+4. **CORPUS-002** — Confirm Amazon ASINs for two authority titles (Kevin / external)  
+5. **CORPUS-003–008** — Remaining priority chapter/poem enrichment (editorial)  
+6. **CORPUS-009** — Historical What’s New backfill where dates are confirmed  
+7. **PROVENANCE-004** — Explore thinkers-by-concept filter (after more concept links exist)  
+8. **PROVENANCE-005–007** — Targeted grounding / metadata cleanup (quality over quantity)  
+9. **OPS-003** — Complete GitHub settings checklist (Kevin / external)
 
 ### Later / revisit when triggered
 
@@ -115,7 +113,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 | Think Together moderation / public responses | Kevin | TOGETHER-001 |
 | Whether relationship provenance deserves public UI | Kevin | PROVENANCE-008 |
 | GitHub org/repo settings checklist | Kevin | OPS-003 |
-| GA4 Admin key events for reader funnel | Kevin / analytics Admin | ANALYTICS-001 |
+| GA4 Admin key events for reader funnel (`chapter_open`, `next_chapter`, `file_download`) | Kevin / analytics Admin | ANALYTICS-001 (events shipped; Admin marking remains) |
 
 ---
 
@@ -186,20 +184,6 @@ Only genuinely remaining outcomes. Each entry must pass the value test (problem,
 | **Consequence if skipped** | Misfiled issues; slower triage |
 | **Acceptance** | Templates distinguish corpus vs site; parallel with OPS-001 |
 | **Changes** | contribution/community capability |
-
-### ANALYTICS-001 — Reader funnel events
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Discovery analytics exist, but chapter open / next-chapter / download-from-reader are not instrumented. |
-| **Benefit** | Kevin can see whether on-site reading is used vs downloads alone, and where readers drop off. |
-| **Who** | Kevin (product decisions); readers indirectly via better prioritization |
-| **Evidence** | `events.ts` has search/questions/trails/books events; no reader funnel events; reader chrome is live |
-| **Consequence if skipped** | Reader investment cannot be validated with data |
-| **Why later than OPS** | Reader is shipped; contribution hygiene unblocks more people sooner |
-| **Acceptance** | Consent-gated events documented; no raw manuscript text or queries; GA4 Admin note in external queue |
-| **Changes** | site maintainability; discoverability of product priorities |
 
 ### PROVENANCE-002 — Thinker concept coverage panel
 
@@ -436,13 +420,14 @@ Preserved for commits, issues, and docs. Do not renumber survivors. Do not reope
 | READ-016 | Complete | In-book search (titles/summaries) |
 | READ-017 | Complete — defer (no-ship) | Offline spike; reopen per spike doc |
 | PROVENANCE-001 | Complete | `getConceptDisplayDefinition` shipped and wired |
+| ANALYTICS-001 | Complete | Reader funnel: `chapter_open`, `next_chapter`, `file_download` (`location=reader`); consent-gated; GA4 Admin key-event marking remains Kevin |
 | OPS-002 | Complete | README points at this roadmap |
 | INGRAM-001–011 | Complete | See IngramSpark historical roadmap |
 | TOGETHER-002 | Deferred (gated) | After TOGETHER-001 only |
 | TOGETHER-003 | Deferred (gated) | After TOGETHER-001, or fold into OPS feedback path |
 | PROVENANCE-008 | Deferred (Kevin) | Ship or permanently defer after product decision |
 
-**Active open IDs:** OPS-001, OPS-001b, OPS-003, ANALYTICS-001, PROVENANCE-002–007, CORPUS-001–009, TOGETHER-001 (Later).
+**Active open IDs:** OPS-001, OPS-001b, OPS-003, PROVENANCE-002–007, CORPUS-001–009, TOGETHER-001 (Later).
 
 ---
 
@@ -451,12 +436,12 @@ Preserved for commits, issues, and docs. Do not renumber survivors. Do not reope
 The current roadmap horizon is complete when:
 
 1. Root contribution docs and issue templates exist (OPS-001 / OPS-001b).  
-2. Reader funnel events ship privacy-safely (ANALYTICS-001), or are explicitly waived with reason.  
+2. Reader funnel events shipped privacy-safely (ANALYTICS-001); GA4 Admin key-event marking is Kevin follow-up.  
 3. Publication-date workflow exists and known ASIN confirmations are resolved or documented unknown (CORPUS-001/002).  
 4. Remaining priority enrichment books/poems in CORPUS-003–008 are done or explicitly deprioritized with reason.  
 5. At least PROVENANCE-002/003 land for thinker discoverability; further grounding stays targeted.  
 6. Think Together remains brief-gated until Kevin triggers it.  
-7. No completed reader/discovery/monorepo/IngramSpark work is listed as active backlog.
+7. No completed reader/discovery/monorepo/IngramSpark/analytics work is listed as active backlog.
 
 ---
 

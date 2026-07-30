@@ -63,6 +63,7 @@ export function trackFileDownload(params: {
   link_url: string;
   content_type?: string;
   item_id?: string;
+  location?: string;
 }): void {
   trackEvent("file_download", params);
 }
