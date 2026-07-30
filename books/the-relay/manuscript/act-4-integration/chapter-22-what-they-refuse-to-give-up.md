@@ -38,7 +38,7 @@ That was not avoidance. Not entirely. It was an agreement neither had named: if 
 
 Morning made no one more generous.
 
-Lio opened the blank book on the crate nearest the stove. The pages had warped slightly in the damp. They pressed one hand flat against the first sheet and waited.
+Lio opened the blank book on the crate nearest the stove. The pages had warped slightly in the damp. He pressed one hand flat against the first sheet and waited.
 
 Nadi looked at the book as if it had asked for payment.
 

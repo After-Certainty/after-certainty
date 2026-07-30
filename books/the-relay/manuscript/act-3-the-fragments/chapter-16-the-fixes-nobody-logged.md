@@ -844,7 +844,7 @@ Sael left, which somehow took longer than human leaving because every movement s
 
 Lena turned to Cai. "Who is Lio?"
 
-"A clerk."
+"My apprentice."
 
 "That means less to me than it used to."
 
@@ -852,19 +852,19 @@ Lena turned to Cai. "Who is Lio?"
 
 "An office?"
 
-"Offices get closed. Lio is a habit with a desk."
+"Offices get closed. Lio is a boy with a desk and too many lines."
 
 "What does Lio do differently?"
 
 Cai smiled, and it carried real fondness.
 
-"They answer."
+"He answers."
 
 Outside, the yard settled into its delay. Somewhere above, a retained-order board said *we still know you are waiting.*
 
 Cai stood.
 
-"Come on, courier. Let's take you to the habit with a desk."
+"Come on, courier. Let's take you to the boy with the desk."
 
 They climbed back toward the yard by a side passage. Halfway up, Maro called after them.
 
@@ -938,11 +938,11 @@ Lena stepped through the door.
 
 Lio was not what she expected either.
 
-They were human, or close enough that the difference did not announce itself. Maybe sixty, maybe older, with short dark hair silvered at the temples, spectacles pushed up on their head, and ink on their sleeve. Their desk was three crate lids laid across two file cabinets. On it sat stacks of slips, route scraps, tiny hand-drawn maps, broken seals, two bowls of onions, a child's slate, and an intake book open to a page of names connected by lines.
+He was younger than the voice through the door had suggested — fifteen, maybe sixteen, short dark hair ink-stiff at the temples, a scratch on one knuckle, and more ink on his sleeve than on most of the slips. His desk was three crate lids laid across two file cabinets. On it sat stacks of slips, route scraps, tiny hand-drawn maps, broken seals, two bowls of onions, a child's slate, and an intake book open to a page of names connected by lines.
 
 Lio looked up and smiled as if Lena were late to a meeting Lena had not known existed.
 
-"Finally," they said.
+"Finally," he said.
 
 Lio picked up Toma's sealed note from the desk. Apparently Sael had sent it ahead already.
 
@@ -960,11 +960,11 @@ Then the copied lines of the marsh-list she had written from memory after Borren
 
 Lio did not reach immediately.
 
-Then they took the pages and began to read.
+Then he took the pages and began to read.
 
 Outside the gate pulse continued, uneven but holding.
 
-When they finished, they set all the pages side by side.
+When he finished, he set all the pages side by side.
 
 Not stacked.
 
@@ -1004,7 +1004,7 @@ The room went still.
 
 Lio did not defend.
 
-"No," they said. "We did not."
+"No," he said. "We did not."
 
 "Why?"
 
@@ -1032,7 +1032,7 @@ Lio's eyes met hers.
 
 "Where should I be sitting?"
 
-Lena had no reply and hated them briefly for asking.
+Lena had no reply and hated him briefly for asking.
 
 Lio placed one finger on the marsh-lines, then on a blank column ruled for reply marks that had never been filled. "We can compare what arrives. We cannot yet answer fast enough without becoming the kind of desk that killed the old lines."
 
@@ -1054,9 +1054,9 @@ The word came out before she thought. Not refusal. Correction.
 
 Lio heard it.
 
-"Good," they said. "Then we may get somewhere eventually."
+"Good," he said. "Then we may get somewhere eventually."
 
-They opened the intake book and turned it toward her.
+He opened the intake book and turned it toward her.
 
 Names. Lines. Places. Some solid, some dotted, some crossed with marks Lena did not know yet. Cai to Rallo. Rallo unanswered. Sael to Vellum. Vellum to Lio. Marsh packets west. West pilot to Tarn? A question mark. Tarn circled twice.
 
@@ -1114,7 +1114,7 @@ Neither had she heard Sael, standing behind him with the Rallo query in all four
 
 Lio looked at the map of names and lines and then at Lena.
 
-"Then," they said, "your brother may already be holding a line we have not known how to reach."
+"Then," he said, "your brother may already be holding a line we have not known how to reach."
 
 Lena looked at the pages: Veya's returns, Cai's notebooks, Jun's warning, the marsh-list, Lio's lines, Arin's winter-skin.
 
@@ -1122,4 +1122,4 @@ Lena looked at the pages: Veya's returns, Cai's notebooks, Jun's warning, the ma
 
 Lio picked up a blank slip.
 
-"We answer him," they said.
+"We answer him," he said.
