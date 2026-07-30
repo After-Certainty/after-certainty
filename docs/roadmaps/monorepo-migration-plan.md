@@ -1,35 +1,41 @@
 # Monorepo migration plan: after-certainty + after-certainty-site
 
-**Status:** Phases 0–8 complete (monorepo migration done).  
+**Status:** Complete — historical migration record (Phases 0–8 done).  
 **Date:** 2026-07-24  
+**Completed:** 2026-07 (Phases 0–8)  
 **Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
-**Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
+**Former site repository (archived / read-only):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
-**Document legend**
+**Document role:** Retained for migration rationale, sequencing, and lessons. It is **not** an active backlog. Remaining product work lives in [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Orientation: [`docs/roadmaps/README.md`](README.md).
+
+> **Historical planning snapshot**  
+> Sections below that use **Fact / Recommendation / Unresolved**, describe a two-repo architecture, or say “this PR adds only this planning document” describe the repository **as it existed when this plan was created**. They are retained for design rationale and are **not** a description of the current monorepo.
+
+**Document legend (planning-time labels)**
 
 | Label | Meaning |
 |-------|---------|
 | **Fact** | Observed in the repositories, workflows, or public GitHub metadata at planning time |
-| **Recommendation** | Proposed approach grounded in those facts |
-| **Unresolved** | Cannot be confirmed from the repositories alone (dashboard, DNS, org policy, etc.) |
+| **Recommendation** | Proposed approach grounded in those facts (now delivered unless noted deferred) |
+| **Unresolved** | Could not be confirmed from the repositories alone at planning time |
 
 ---
 
 ## 1. Executive summary
 
-**Recommendation:** Combine the two repositories into one monorepo with **after-certainty as the survivor**, the public Next.js site at **`apps/site/`**, and the corpus (**`books/`**, **`semantic/`**, **`schema/`**, **`tools/`**, **`scripts/`**, **`Makefile`**) remaining at the **repository root**.
+**Outcome (delivered):** The two repositories were combined into one monorepo with **after-certainty as the survivor**, the public Next.js site at **`apps/site/`**, and the corpus (**`books/`**, **`semantic/`**, **`schema/`**, **`tools/`**, **`scripts/`**, **`Makefile`**) at the **repository root**.
 
-Use **npm workspaces** plus a **thin Turborepo** layer for the Node task graph. Keep **Make + uv** as the corpus orchestrator. Do **not** move the corpus under `packages/corpus`. Do **not** rewrite the Python publishing pipeline into TypeScript. Do **not** run DOCX/PDF/EPUB/Typst inside Vercel.
+The plan used **npm workspaces** plus a **thin Turborepo** layer for the Node task graph, kept **Make + uv** as the corpus orchestrator, did **not** move the corpus under `packages/corpus`, did **not** rewrite the Python publishing pipeline into TypeScript, and does **not** run DOCX/PDF/EPUB/Typst inside Vercel.
 
-**Why:** The site currently depends on a released `semantic-manifest.json` via remote fetch, ISR, cache revalidation, and a bundled fallback. That creates cross-repository release coordination, schema-compatibility risk, fallback drift, and dual-CI friction. The desired end state is:
+**Why (planning rationale):** The site previously depended on a released `semantic-manifest.json` via remote fetch, ISR, cache revalidation, and a bundled fallback. That created cross-repository release coordination, schema-compatibility risk, fallback drift, and dual-CI friction. The end state achieved is:
 
 > one repository → one commit → validated semantic data → generated semantic-manifest → site build from that local artifact → one immutable deployment
 
 while still publishing `semantic-manifest.json` as a public release artifact for traceability and external consumers.
 
-**Migration style:** staged, reversible, no flag day. Production continues on the current Vercel project until a monorepo preview is proven. Remote manifest loading is removed only after local-build parity is validated. The old site repository is archived only after a stability window.
+**Migration style (as executed):** staged, reversible, no flag day. Remote manifest loading was removed after local-build parity. The old site repository was archived after a stability window.
 
-**This PR:** adds only this planning document under [`docs/roadmaps/`](./). That path matches the site’s roadmap convention and the requested deliverable path; the corpus also has [`docs/planning/`](../planning/) and [`docs/migrations/`](../migrations/) for related work.
+Optional Phase 8 Turbo remote cache remains **deferred DX**, not remaining product work (see remaining-product roadmap deferred ideas).
 
 ---
 
@@ -1244,6 +1250,8 @@ flowchart TB
 
 ## Appendix C — Snapshot facts at planning time
 
+> **Historical planning snapshot** — values below were observed when this plan was written; they are not a live inventory.
+
 | Item | Value |
 |------|--------|
 | Corpus schemaVersion | `2.3` |
@@ -1258,4 +1266,4 @@ flowchart TB
 
 ---
 
-*End of planning document. Implementation must follow phases above; this file alone does not change production behavior.*
+*End of historical migration record. Phases 0–8 are complete. Remaining product work: [`remaining-product-roadmap.md`](remaining-product-roadmap.md).*

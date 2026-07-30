@@ -1,5 +1,8 @@
 # Thinker concept site follow-ups (`apps/site/`)
 
+**Status:** Active audit / draft UX proposals (evidence for PROVENANCE-002–004)  
+**Authoritative remaining work:** [`docs/roadmaps/remaining-product-roadmap.md`](../roadmaps/remaining-product-roadmap.md)
+
 Draft issues for the public site in the monorepo (`ksteffe/after-certainty` → `apps/site/`). The former standalone `after-certainty-site` repository is archived. These are not blocking for manifest v2 compatibility.
 
 ## 1. Thinker detail page — concept coverage panel

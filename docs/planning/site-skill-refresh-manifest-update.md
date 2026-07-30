@@ -1,5 +1,16 @@
 # Site skill update: refresh-manifest
 
+**Status:** Obsolete / stale — do not follow
+
+This note targeted the archived standalone site repository. Monorepo same-checkout
+manifest loading replaced remote refresh. See
+[`docs/roadmaps/monorepo-migration-plan.md`](../roadmaps/monorepo-migration-plan.md)
+and [`docs/roadmaps/README.md`](../roadmaps/README.md).
+
+---
+
+## Historical context
+
 Apply this to `after-certainty-site/.cursor/skills/refresh-manifest/SKILL.md` when merging thinkers/sources manifest support.
 
 See the full updated skill content in the after-certainty PR branch or copy from this file's target state.

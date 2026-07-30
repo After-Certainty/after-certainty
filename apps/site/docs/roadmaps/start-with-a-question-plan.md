@@ -1,26 +1,31 @@
 # Start with a Question — Product, Content, UX, and Technical Plan
 
-**Deliverable path:** [`docs/roadmaps/start-with-a-question-plan.md`](docs/roadmaps/start-with-a-question-plan.md)  
-**Location rationale:** The repo already stores product/architecture plans under [`docs/roadmaps/`](docs/roadmaps/) (e.g. [`global-search-plan.md`](docs/roadmaps/global-search-plan.md)). This keeps planning docs discoverable next to security notes in [`docs/security-assessment.md`](docs/security-assessment.md).
+**Location:** [`apps/site/docs/roadmaps/start-with-a-question-plan.md`](start-with-a-question-plan.md)
 
-**Status:** Implemented (see feature branch)
+**Status:** Complete — historical design record (Questions / paths shipped)  
+**Completed:** 2026-07
+
+**Document role:** Retained for design rationale. Not an active backlog. Remaining cross-layer work: [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md).
+
+> **Historical planning snapshot**  
+> Mid-document claims that chapter URLs or curated trails were absent describe the site **at plan-writing time**. Chapter reader routes and trails have since shipped; prefer live `app/` routes and tests over those snapshots.
 
 ---
 
 ## 1. Executive summary
 
-After Certainty is a **Next.js 16 App Router** site (`package.json`: Next 16.2.10, React 19) deployed on **Vercel**, with **no database or auth**. Content flows from a same-checkout installed **`semantic-manifest.json`** plus podcast RSS, with offline/test fixtures in [`data/`](data/).
+After Certainty is a **Next.js 16 App Router** site deployed on **Vercel**, with **no database or auth**. Content flows from a same-checkout installed **`semantic-manifest.json`** plus podcast RSS, with offline/test fixtures in [`data/`](../../data/).
 
-**Facts from repository:**
+**Facts from repository (updated 2026-07-28):**
 
-- Discovery today is **type-first** (Books, Explore/Observatory, Patterns, etc.) or **book-first** (Start Here Front Shelf in [`lib/start/front-shelf.ts`](lib/start/front-shelf.ts)).
-- **Global Search is already shipped** ([`/search`](app/search/page.tsx), MiniSearch, [`data/search-aliases.json`](data/search-aliases.json)) — it complements but does not replace editorial entrances.
-- **No chapter URLs, essay routes, or curated trail objects** exist; the only shipped reading-path product is Front Shelf (unordered book doorways).
-- **Situations** exist but are sparse (1 bundled entry); **Pathway** type in [`types/observatory.ts`](types/observatory.ts) is explicitly “not wired in v1.”
+- Discovery is **type-first** (Books, Explore/Observatory, Patterns, etc.) or **book-first** (Start Here Front Shelf in [`lib/start/front-shelf.ts`](../../lib/start/front-shelf.ts)), plus **question paths** and **trails**.
+- **Global Search is shipped** ([`/search`](../../app/search/page.tsx), MiniSearch).
+- **Chapter URLs and native reading** are shipped under book chapter routes; curated trails are live.
+- **Situations** remain relatively sparse; Pathway wiring notes in older types may be historical.
 
 **Product recommendation (judgment):** Add **Start with a Question** as a **coexisting editorial discovery mode** — a dedicated `/questions` index and permanent `/questions/[slug]` pages with finite, authored paths (3–7 stops) that resolve to canonical explore entities. Do **not** replace Start Here; **extend** it with a question-based section. Surface **3–4 featured questions** on the homepage and a prominent block on Start Here.
 
-**Technical recommendation (judgment):** **Hybrid authored manifest + generated enrichment/validation** in this site repo (same pattern as [`data/search-aliases.json`](data/search-aliases.json) + [`lib/search/buildSearchDocuments.ts`](lib/search/buildSearchDocuments.ts)), not a separate CMS and not auto-generated paths from the graph.
+**Technical recommendation (judgment):** **Hybrid authored manifest + generated enrichment/validation** in this site repo (same pattern as authored search aliases / related bridges + [`lib/search/buildSearchDocuments.ts`](../../lib/search/buildSearchDocuments.ts)), not a separate CMS and not auto-generated paths from the graph.
 
 **V1 launch scope:** **12 questions**, static path rendering, **no saved progress**, fiction allowed as framed stops, podcast as optional external stops.
 

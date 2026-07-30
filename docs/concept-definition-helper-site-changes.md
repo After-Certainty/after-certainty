@@ -1,17 +1,24 @@
 # Concept Definition Helper - Site Changes
 
-This document contains the changes needed in **`apps/site/`** (monorepo) to implement the centralized concept definition display helper. The former standalone `after-certainty-site` repository is archived.
+**Status:** Complete — historical implementation notes (PROVENANCE-001)  
+**Shipped as:** `apps/site/lib/graph/conceptFormatting.ts` (`getConceptDisplayDefinition` / `getConceptFullDefinition`), wired across concept cards, observatory, search, and book overviews.
+
+**Document role:** Retained for the original proposed API (variant-based helper path). Variant polish is **not** active roadmap work unless display inconsistency is demonstrated. Remaining provenance UX: [`docs/roadmaps/remaining-product-roadmap.md`](roadmaps/remaining-product-roadmap.md).
+
+This document originally described changes needed in **`apps/site/`** (monorepo) for a centralized concept definition display helper. The former standalone `after-certainty-site` repository is archived.
 
 ## Status
 
-✅ Content repo (`after-certainty`): Validation added, committed, and pushed to PR #241
-✅ Site lives under `apps/site/` in the same monorepo (apply remaining helper changes there if still pending)
+✅ Content repo (`after-certainty`): Validation added, committed, and pushed to PR #241  
+✅ Helper shipped and widely used under `apps/site/lib/graph/conceptFormatting.ts`  
+✅ PROVENANCE-001 closed in the remaining-product completion ledger
 
-## Changes for `apps/site/`
+## Changes for `apps/site/` (historical proposal)
 
 ### 1. Create Helper Function
 
-**File**: `apps/site/lib/explore/getConceptDisplayDefinition.ts` (new file)
+**File (as proposed):** `apps/site/lib/explore/getConceptDisplayDefinition.ts`  
+**File (as shipped):** `apps/site/lib/graph/conceptFormatting.ts`
 
 ```typescript
 import type { GlossaryConcept } from "@/types/semanticGraph";

@@ -1,10 +1,13 @@
 # IngramSpark operating procedure
 
+**Status:** Living operating procedure (not a roadmap)
+
 How to opt a book into IngramSpark packaging and submit it. Use this for **new** titles; the three initial pilots (Everyone Knows Love, Observer Patterns, When Others Become Leaders) are already `production-approved`.
 
-**Roadmap (complete):** [`docs/roadmaps/ingramspark-distribution-target.md`](../roadmaps/ingramspark-distribution-target.md).  
+**Historical design + delivery record:** [`docs/roadmaps/ingramspark-distribution-target.md`](../roadmaps/ingramspark-distribution-target.md).  
 **Cover mechanics:** [`docs/publishing/ingramspark-raster-wrap.md`](ingramspark-raster-wrap.md).  
-**Profile:** [`schema/profiles/ingramspark/ingramspark-2026-07.yml`](../../schema/profiles/ingramspark/ingramspark-2026-07.yml).
+**Profile:** [`schema/profiles/ingramspark/ingramspark-2026-07.yml`](../../schema/profiles/ingramspark/ingramspark-2026-07.yml).  
+**Remaining product work (not IngramSpark-specific):** [`docs/roadmaps/remaining-product-roadmap.md`](../roadmaps/remaining-product-roadmap.md).
 
 IngramSpark is an opt-in `publishing.targets.ingramspark` path. It does **not** become a website download format. There is **no** in-repo account upload — you download the ZIP and upload in the IngramSpark portal.
 

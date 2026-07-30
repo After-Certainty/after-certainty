@@ -1,5 +1,8 @@
 # Chapter identity in the semantic manifest
 
+**Status:** Living contract / authoring guide (not a roadmap).  
+**Remaining product work:** [`docs/roadmaps/remaining-product-roadmap.md`](roadmaps/remaining-product-roadmap.md).
+
 Additive collections `parts[]` and `chapters[]` (schemaVersion **2.2+**) export manuscript structure without embedding full chapter text.
 
 ## Generation

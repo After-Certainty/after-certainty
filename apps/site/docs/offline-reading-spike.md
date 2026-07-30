@@ -1,10 +1,9 @@
 # Offline reading spike (READ-017)
 
-Research-only recommendation for service-worker / offline support of the native
-chapter reader. **Not an implementation plan.** Default outcome is defer unless
-product explicitly prioritizes a follow-on ticket.
+**Status:** Deferred evaluation — complete spike with **defer (no-ship)** recommendation  
+**Not an implementation plan.** Reopen only when [When to reopen](#when-to-reopen) criteria are met.
 
-Related: `docs/roadmaps/remaining-product-roadmap.md` §READ-017;
+Related: [`docs/roadmaps/remaining-product-roadmap.md`](../../../docs/roadmaps/remaining-product-roadmap.md) (Later / completion ledger READ-017);
 reader chrome in `apps/site/components/reading/`.
 
 ## Verdict

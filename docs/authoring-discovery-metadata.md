@@ -1,5 +1,8 @@
 # Authoring discovery metadata
 
+**Status:** Living authoring guide (not a roadmap)  
+**Remaining product work:** [`docs/roadmaps/remaining-product-roadmap.md`](roadmaps/remaining-product-roadmap.md)
+
 Ownership boundary:
 
 - **after-certainty** (corpus at repo root) owns what the corpus is, means, and how intellectual objects relate.

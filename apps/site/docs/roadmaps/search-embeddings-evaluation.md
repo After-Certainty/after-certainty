@@ -1,5 +1,9 @@
 # Search embeddings evaluation (Phase F)
 
+**Status:** Deferred evaluation — not active roadmap work  
+**Revisit when:** Decision criteria below flip (thematic miss rate stays high after alias growth; copyright-safe corpus text; ops cost acceptable).  
+**Related:** [`search-quality-workflow.md`](search-quality-workflow.md); [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md) (Later / not-worth-now).
+
 When metadata + aliases plateau on thematic natural-language queries, consider embedding retrieval as a **secondary** signal — not a replacement for MiniSearch lexical search.
 
 ## Current baseline (keep)
