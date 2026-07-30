@@ -8,11 +8,11 @@ manufacturing:
   binding: perfect-bound
   paper: cream
   interior_color_mode: black-and-white
-  page_count: 76
+  page_count: 82
 geometry:
-  media_box_width_points: 895.92
+  media_box_width_points: 897.12
   media_box_height_points: 666.0
-  spine_width_points: 13.68
+  spine_width_points: 14.88
   outside_bleed_points: 9.0
   top_bleed_points: 9.0
   bottom_bleed_points: 9.0
@@ -20,14 +20,14 @@ geometry:
 raster:
   required_ppi: 300
   full_wrap:
-    expected_width_pixels: 3733
+    expected_width_pixels: 3738
     expected_height_pixels: 2775
   components:
     back:
       expected_width_pixels: 1838
       expected_height_pixels: 2775
     spine:
-      expected_width_pixels: 57
+      expected_width_pixels: 62
       expected_height_pixels: 2775
     front:
       expected_width_pixels: 1838
@@ -35,13 +35,13 @@ raster:
 barcode_reserve:
   required: true
   panel: back
-  x_pixels: 938
-  y_pixels: 2081
-  width_pixels: 775
-  height_pixels: 455
+  x_pixels: 1062
+  y_pixels: 2157
+  width_pixels: 525
+  height_pixels: 300
 barcode_supplied: false
 spine_text: true
-notes: "Panels sourced as production RGB PNGs (back/spine/front). Spine width 13.68\
-  \ pt (57 px @ 300 ppi) matches cream bulk for 76 pages; media box 895.92\xD7666.0\
-  \ pt matches the 3733\xD72775 assembled wrap. Auto-synced to measured interior page\
-  \ count at package time."
+notes: "Panels sourced as production RGB PNGs (back/spine/front). Spine width 14.88\
+  \ pt (62 px @ 300 ppi) matches cream bulk for 82 pages; media box 897.12\xD7666.0\
+  \ pt matches the 3738\xD72775 assembled wrap. Spine type kept within \u22650.04\
+  \ in side clear. Barcode clear area is 1.75\xD71.0 in for Ingram-generated placement."

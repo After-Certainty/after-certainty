@@ -56,7 +56,8 @@ print:
       conversion without locking this PDF/X packaging; pass --apply-pdfx-proof-construction
       on export-ingramspark-print to trial the same Ghostscript flags on a book PDF.
   max_total_ink_coverage_percent: 240
-  recommended_margin_inches: 0.5
+  # 0.55" keeps TeX glyph overhang inside Ingram's 0.5" interior type-safety band.
+  recommended_margin_inches: 0.55
   bleed_inches: 0.125
   # Raster full-wrap PNG → print cover PDF.
   cover_raster:

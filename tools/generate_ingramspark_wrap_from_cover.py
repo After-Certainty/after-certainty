@@ -34,11 +34,16 @@ TRIM_H_IN = 9.0
 BLEED_IN = 0.125  # 9 pt
 SAFE_INSET_IN = 0.25  # 18 pt
 CREAM_BULK_IN_PER_PAGE = 0.0025
-# Ingram-generated barcode reserve (matches EKL-scale clear area guidance).
-BARCODE_W_IN = 2.58
-BARCODE_H_IN = 1.52
+# Ingram-generated barcode reserve (Lightning Source placement size).
+# Oversized white boxes are rejected; keep at the approved 1.75" × 1.0".
+BARCODE_W_IN = 1.75
+BARCODE_H_IN = 1.0
 BARCODE_BOTTOM_INSET_IN = 0.55
 SPINE_SOURCE_PAD_PX = 20
+# Thin-spine type safety: Ingram requires ≥0.03125" side clear when spine < 0.35";
+# keep ≥0.04" so center-crops from spine-source retain a pad.
+SPINE_SIDE_INSET_IN = 0.04
+SPINE_THIN_THRESHOLD_IN = 0.35
 
 # Per-book defaults (override with --back-line). At most three lines.
 BACK_LINES_BY_BOOK_ID: dict[str, list[str]] = {
@@ -235,32 +240,70 @@ def _fit_font_to_width(
     return load_font(min_size, paths)
 
 
+def _fit_font_to_height(
+    text: str,
+    *,
+    max_height: int,
+    max_size: int,
+    min_size: int,
+    paths: list[str],
+) -> ImageFont.ImageFont:
+    """Largest font whose glyph bbox height fits the cross-spine safety width."""
+    size = max_size
+    font = load_font(size, paths)
+    probe = ImageDraw.Draw(Image.new("RGB", (8, 8)))
+    while size > min_size:
+        font = load_font(size, paths)
+        bbox = probe.textbbox((0, 0), text, font=font)
+        if (bbox[3] - bbox[1]) <= max_height:
+            return font
+        size -= 1
+    return load_font(min_size, paths)
+
+
+def spine_side_inset_px(spine_px: int, *, ppi: int = PPI) -> int:
+    """Side clear on the cropped spine panel (pixels)."""
+    spine_in = spine_px / float(ppi)
+    # Wider spines get Ingram's 0.0625" band; thin spines use house 0.04" pad.
+    if spine_in >= SPINE_THIN_THRESHOLD_IN:
+        return max(inches_to_px(0.0625, ppi=ppi), 6)
+    return max(inches_to_px(SPINE_SIDE_INSET_IN, ppi=ppi), 6)
+
+
 def make_labeled_spine_source(
     *,
     width: int,
     height: int,
     title: str,
     author: str,
+    spine_px: int | None = None,
     bg: tuple[int, int, int] = SPINE_BG,
     fg: tuple[int, int, int] = SPINE_FG,
 ) -> Image.Image:
-    """Solid labeled spine with vertical title/author, text centered for recrops."""
-    # Side inset: Ingram ~0.03125" for spines < 0.35"; keep a little extra for crop pad.
-    side_inset = max(inches_to_px(0.04), 6)
-    max_text_w = max(12, width - 2 * side_inset)
+    """Solid labeled spine with vertical title/author, text centered for recrops.
 
-    title_font = _fit_font_to_width(
+    Glyph size is fitted to the *cropped* spine width (``spine_px``), not the
+    wider ``spine-source`` master, so center-crops keep Ingram side clear.
+    """
+    crop_w = int(spine_px) if spine_px is not None else int(width)
+    if crop_w < 1:
+        raise ValueError(f"spine_px must be >= 1 (got {crop_w})")
+    side_inset = spine_side_inset_px(crop_w)
+    max_text_w = max(8, crop_w - 2 * side_inset)
+
+    # Fit by glyph height: after -90° rotation, height becomes cross-spine width.
+    title_font = _fit_font_to_height(
         title,
-        max_width=max_text_w,
-        max_size=min(64, max_text_w),
-        min_size=18,
+        max_height=max_text_w,
+        max_size=min(64, max_text_w + 8),
+        min_size=10,
         paths=SERIF_FONT_PATHS,
     )
-    author_font = _fit_font_to_width(
+    author_font = _fit_font_to_height(
         author.upper(),
-        max_width=max_text_w,
-        max_size=min(36, max_text_w - 4),
-        min_size=14,
+        max_height=max(8, max_text_w - 2),
+        max_size=min(40, max_text_w),
+        min_size=9,
         paths=SANS_BOLD_FONT_PATHS,
     )
 
@@ -277,22 +320,29 @@ def make_labeled_spine_source(
     band = Image.new("RGB", (band_w, band_h), bg)
     bdraw = ImageDraw.Draw(band)
     x = inches_to_px(0.08)
-    y_t = (band_h - t_h) // 2
+    y_t = (band_h - t_h) // 2 - t_bbox[1]
     bdraw.text((x, y_t), title, font=title_font, fill=fg)
     x += t_w + gap
     rule_y = band_h // 2
     bdraw.line((x, rule_y, x + rule_w, rule_y), fill=fg, width=max(2, inches_to_px(0.01)))
     cx, cy = x + rule_w // 2, rule_y
-    r = max(3, inches_to_px(0.025))
+    r = max(2, inches_to_px(0.016))
     bdraw.ellipse((cx - r, cy - r, cx + r, cy + r), fill=fg)
     x += rule_w + gap
-    y_a = (band_h - a_h) // 2
+    y_a = (band_h - a_h) // 2 - a_bbox[1]
     bdraw.text((x, y_a), author.upper(), font=author_font, fill=fg)
 
     # Rotate 90° CW: title near the head of the book.
-    rotated = band.rotate(-90, expand=True)
-    spine = Image.new("RGB", (width, height), bg)
+    rotated = band.rotate(-90, expand=True, resample=Image.Resampling.BICUBIC)
     rw, rh = rotated.size
+    if rw > max_text_w:
+        scale = max_text_w / float(rw)
+        rotated = rotated.resize(
+            (max_text_w, max(1, int(round(rh * scale)))),
+            Image.Resampling.LANCZOS,
+        )
+        rw, rh = rotated.size
+    spine = Image.new("RGB", (width, height), bg)
     ox = (width - rw) // 2
     top_margin = inches_to_px(0.55)
     bottom_margin = inches_to_px(0.55)
@@ -468,6 +518,7 @@ def generate(
             height=front_h,
             title=title,
             author=author,
+            spine_px=spine_px,
         )
     else:
         spine_source = make_spine_source(cover, front_h, source_w)
