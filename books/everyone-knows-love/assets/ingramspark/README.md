@@ -22,4 +22,4 @@ make export-ingramspark-print DIR=books/everyone-knows-love
 make package-ingramspark DIR=books/everyone-knows-love
 ```
 
-`template_page_count` / spine geometry sync to the measured interior at package time (from `spine-source.png`). Spine type is kept within ≥0.04″ side clear on the cropped panel. Back barcode clear area is **1.75″ × 1.0″** (Ingram placement size; do not use a larger design box). See `docs/publishing/ingramspark-raster-wrap.md`.
+`template_page_count` / spine geometry sync to the measured interior at package time (from `spine-source.png`). Spine type is kept within ≥0.04″ side clear on the cropped panel. Back art is author-supplied (no baked-in barcode); a **1.75″ × 1.0″** clear reserve is painted for Ingram-generated placement. See `docs/publishing/ingramspark-raster-wrap.md`.

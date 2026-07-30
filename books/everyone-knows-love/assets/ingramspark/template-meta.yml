@@ -35,13 +35,14 @@ raster:
 barcode_reserve:
   required: true
   panel: back
-  x_pixels: 1062
-  y_pixels: 2158
+  x_pixels: 1202
+  y_pixels: 2326
   width_pixels: 525
   height_pixels: 300
 barcode_supplied: false
 spine_text: true
-notes: "Panels sourced as production RGB PNGs (back/spine/front). Spine width 14.88\
-  \ pt (62 px @ 300 ppi) matches cream bulk for 82 pages; media box 897.12\xD7666.0\
-  \ pt matches the 3738\xD72775 assembled wrap. Spine type kept within \u22650.04\
-  \ in side clear. Barcode clear area is 1.75\xD71.0 in for Ingram-generated placement."
+notes: "Panels sourced as production RGB PNGs (back/spine/front). Back panel upscaled\
+  \ from author-supplied 1021\xD71540 art (no baked-in barcode) to 1838\xD72775 @\
+  \ 300 ppi. Spine width 14.88 pt (62 px) matches cream bulk for 82 pages; media box\
+  \ 897.12\xD7666.0 pt. Barcode clear area is 1.75\xD71.0 in for Ingram-generated\
+  \ placement."
