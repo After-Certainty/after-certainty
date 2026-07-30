@@ -36,7 +36,7 @@ barcode_reserve:
   required: true
   panel: back
   x_pixels: 1062
-  y_pixels: 2157
+  y_pixels: 2158
   width_pixels: 525
   height_pixels: 300
 barcode_supplied: false
