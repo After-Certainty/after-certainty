@@ -1,11 +1,33 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 
 import { ChapterReaderShell } from "@/components/reading/chapter-reader-shell";
 import { buildChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
+import type { Book } from "@/types/semanticGraph";
 
 const enriched = loadManifestFixture("enriched-book");
+
+vi.mock("@/lib/analytics/track-reader", () => ({
+  trackChapterOpen: vi.fn(),
+  trackNextChapter: vi.fn(),
+}));
+
+function bookWithDownloads(book: Book): Book {
+  return {
+    ...book,
+    epub: {
+      enabled: true,
+      file: "after-certainty.epub",
+      url: "https://example.com/releases/after-certainty.epub",
+    },
+    pdf: {
+      enabled: true,
+      file: "after-certainty.pdf",
+      url: "https://example.com/releases/after-certainty.pdf",
+    },
+  };
+}
 
 describe("ChapterReaderShell", () => {
   it("renders chapter chrome without fabricating manuscript body", () => {
@@ -67,6 +89,26 @@ describe("ChapterReaderShell", () => {
     expect(screen.getByText("Manuscript body")).toBeInTheDocument();
   });
 
+  it("renders download links when the book has release files", () => {
+    const book = bookWithDownloads(
+      enriched.books.find((candidate) => candidate.slug === "after-certainty")!,
+    );
+    const chapter = (enriched.chapters ?? []).find(
+      (candidate) => candidate.id === "chapter-after-certainty-front-matter-introduction",
+    )!;
+
+    render(<ChapterReaderShell book={book} chapter={chapter} />);
+
+    expect(screen.getByRole("link", { name: "Download EPUB" })).toHaveAttribute(
+      "href",
+      "https://example.com/releases/after-certainty.epub",
+    );
+    expect(screen.getByRole("link", { name: "Download PDF" })).toHaveAttribute(
+      "href",
+      "https://example.com/releases/after-certainty.pdf",
+    );
+  });
+
   it("renders provided manuscript children instead of the placeholder", () => {
     const book = enriched.books.find((candidate) => candidate.slug === "after-certainty");
     const chapter = (enriched.chapters ?? [])[0];
@@ -83,3 +125,4 @@ describe("ChapterReaderShell", () => {
     expect(screen.queryByRole("status")).not.toBeInTheDocument();
   });
 });
+

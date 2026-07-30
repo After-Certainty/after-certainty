@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ChapterAdjacentNav } from "@/components/reading/chapter-adjacent-nav";
+import { ChapterReaderDownloads } from "@/components/reading/chapter-reader-downloads";
 import { ChapterToc } from "@/components/reading/chapter-toc";
 import {
   CopySectionLinkControl,
@@ -14,6 +15,7 @@ import {
   ReadingPreferencesControls,
   ReadingPreferencesRoot,
 } from "@/components/reading/reading-preferences-controls";
+import { RecordChapterOpen } from "@/components/reading/record-chapter-open";
 import { RecordReadingProgress } from "@/components/reading/record-reading-progress";
 import { ButtonLink } from "@/components/ui/button-link";
 import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
@@ -66,6 +68,11 @@ export function ChapterReaderShell({
       className="relative mx-auto max-w-3xl px-4 py-12 md:py-16"
     >
       <RecordReadingProgress editionId={progressEditionId} chapterId={chapter.id} />
+      <RecordChapterOpen
+        bookId={book.id}
+        chapterId={chapter.id}
+        editionId={progressEditionId}
+      />
       <ManuscriptHeadingCopyLinks />
 
       <a href="#chapter-content" className="reader-skip-link">
@@ -128,6 +135,8 @@ export function ChapterReaderShell({
           <ChapterAdjacentNav
             prev={navigation.prev}
             next={navigation.next}
+            bookId={book.id}
+            fromChapterId={chapter.id}
             ariaLabel="Previous and next chapter"
             className="flex flex-row items-start justify-between gap-4 border-t border-border/30 pt-6 sm:gap-10"
           />
@@ -165,9 +174,12 @@ export function ChapterReaderShell({
           <ChapterAdjacentNav
             prev={navigation.prev}
             next={navigation.next}
+            bookId={book.id}
+            fromChapterId={chapter.id}
             ariaLabel="Previous and next chapter at end of page"
           />
         ) : null}
+        <ChapterReaderDownloads book={book} />
         <div className="flex flex-wrap gap-3">
           <ButtonLink href={bookHref} variant="ghost">
             Back to book
