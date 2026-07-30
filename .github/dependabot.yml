@@ -41,6 +41,13 @@ updates:
           - "react-dom"
           - "@types/react"
           - "@types/react-dom"
+      # Same single-copy pattern for Next: root declares next + override "$next"
+      # so nested postcss/sharp from Next stay under workspace overrides.
+      next:
+        patterns:
+          - "next"
+          - "@next/*"
+          - "eslint-config-next"
       production-minor-patch:
         dependency-type: production
         update-types:
