@@ -549,7 +549,7 @@ Tev whispered, "That's dramatic."
 
 Inside the tube were pages from Lio.
 
-Not many. Not the living map itself. Lio knew better than to send that fragile thing onto wet roads. These were extracts, copied in their neat, severe hand: lines connected, sources noted, questions pending, acknowledgments received. A short letter wrapped around them.
+Not many. Not the living map itself. Lio knew better than to send that fragile thing onto wet roads. These were extracts, copied in his neat, severe hand: lines connected, sources noted, questions pending, acknowledgments received. A short letter wrapped around them.
 
 *Lena,*
 

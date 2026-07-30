@@ -304,9 +304,9 @@ Jun went pale.
 
 "Good. The range is clear."
 
-Lio arrived last among those coming from Lena's side, which meant they had arrived earlier and only become visible when useful.
+Lio arrived last among those coming from Lena's side, which meant he had arrived earlier and only become visible when useful.
 
-They came with no cart, no convoy, no dramatic object, only a book wrapped in plain cloth, two names Lena did not recognize, and a child from Ivera who carried onions and watched everything. When Lena asked why onions, Lio said, "Continuity," and refused to explain.
+He came with no cart, no convoy, no dramatic object, only a book wrapped in plain cloth, two names Lena did not recognize, and a string bag of onions he refused to set down. When Lena asked why onions, Lio said, "Continuity," and would not explain.
 
 "You chose Vesper," Lena said.
 
@@ -426,7 +426,7 @@ His brightness dimmed.
 
 "Not to restore them," she said. "To remember the reason. A report was not complete because it was filed. It remained troubled until answered, corrected, disputed, or carried forward with the dispute attached."
 
-Lio had already taken out their book.
+Lio had already taken out his book.
 
 Nadi frowned. "If I say a pilot lies about fuel, and he says I cheat him on grain weight, does your dispute column carry both?"
 
@@ -606,7 +606,7 @@ Cai placed the red notebook and the sheep one beside them, then immediately move
 
 *Vesper South Gatehouse. Local day uncertain. Meeting not yet begun.*
 
-Then, after a pause, they added:
+Then, after a pause, he added:
 
 *Room holding open.*
 
