@@ -2,1030 +2,479 @@
 
 **Status:** Active — authoritative for *remaining* cross-layer work  
 **Created:** 2026-07-24  
+**Last audited:** 2026-07-28 (evidence-based consolidation)  
 **Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
-**Scope of this document:** Remaining product, corpus, editorial, and operations work that is **not** already adequately documented elsewhere, and that is **not** already complete in the monorepo. Specialized plans remain authoritative for their topics; this roadmap links to them instead of copying them.
+**Authority:** This is the sole master backlog for remaining product, corpus, and ops work. Specialized historical plans retain design rationale; living procedures and contracts answer “how” and “what rules,” not “what next.” Index: [`docs/roadmaps/README.md`](README.md).
 
-**Out of scope for this document’s creation:** Implementing features, changing production code, editing semantic data, adding dependencies, altering CI, or changing deployment configuration.
-
-**Product stance (default):** Phase 1 is **Read After Certainty (Native Reader V1)**. **Think Together** is Phase 5 — research and lightweight contribution design first. Neither V1 assumes accounts, cloud sync, or a runtime database.
+**Evidence rule:** Code, tests, workflows, and current reports override planning-time snapshots in older documents.
 
 ---
 
-## 1. Purpose
+## 1. Project position today
 
-This document gives a reliable backlog that can later be broken into individual Cursor or agent implementation tasks.
+Discovery, catalog orientation, native chapter reading, monorepo same-checkout builds, and IngramSpark submission kits are **shipped**. The remaining work is editorial metadata depth, targeted semantic UX, repository contribution hygiene, reader analytics, and a small set of Kevin- or externally gated decisions—not rebuilding the reader or rediscovering search.
 
-It exists because:
-
-- Discovery and catalog orientation are largely shipped.
-- The corpus contract (manifest schemaVersion **2.3**) is established.
-- The monorepo and same-checkout site build are complete.
-- The largest remaining *product* gap is on-site reading (chapter routes and manuscript rendering).
-- Enrichment, publication dates, and semantic traceability still have report-backed gaps that should not be confused with “rebuild discovery.”
-- Think Together is present only as marketing language — it needs a brief before implementation.
-
-**Classification used while auditing candidates**
-
-| Classification | Meaning |
-|----------------|---------|
-| complete | Done in code/data/docs with evidence |
-| implemented but not documented | Shipped; docs lag |
-| partially implemented | Real surface exists; distinct outcome remains |
-| documented but not implemented | Plan/spec exists; code absent |
-| documented and partially implemented | Plan exists; only some outcomes landed |
-| not documented | Real remaining work with no adequate plan |
-| obsolete | Superseded (often by monorepo migration) |
-| requires human editorial input | Agents cannot finish without Kevin |
-| requires external records or configuration | Outside the repository |
-
-Only **genuinely remaining** work appears in active phases below.
+| Area | Status | Evidence |
+|------|--------|----------|
+| Monorepo + same-checkout site build | Complete | [`monorepo-migration-plan.md`](monorepo-migration-plan.md); `apps/site/`; `scripts/vercel_build.sh` |
+| Discovery (search, questions, trails, Start Here, What’s New, overviews) | Shipped | Live routes under `apps/site/app/`; E2E; contributing guides |
+| Native chapter reader (routes, HTML, footnotes, TOC, prev/next, progress, continue, bookmarks, text size, copy-link, in-book search) | Shipped | `apps/site/app/explore/(browse)/books/[slug]/chapters/`; `lib/reading/*`; reader e2e |
+| Offline / PWA | Deferred (no-ship) | [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md) (READ-017) |
+| Corpus contract (manifest 2.3) | Established | [`semantic-manifest-contract.md`](../semantic-manifest-contract.md) |
+| IngramSpark packaging | Shipped | `tools/ingramspark/`; pilots `production-approved`; [`ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md) |
+| Site analytics (discovery/search) | Present | `apps/site/lib/analytics/events.ts`; GA4 + Vercel Analytics |
+| Reader funnel events | Missing | No chapter-open / next-chapter / download-from-reader events yet |
+| Root CONTRIBUTING + issue templates | Missing | Site-only `apps/site/docs/contributing-*.md` |
+| Think Together | Marketing only | Quotes on site; no product surface |
 
 ---
 
-## 2. Current state
+## 2. What is complete
 
-Grounded in repository evidence as of 2026-07-24 (planning inspection). Live production parity was **not** treated as authoritative over repository state.
+Do not reopen these as active product phases.
 
-### 2.1 Monorepo and deployment
-
-| Fact | Evidence |
-|------|----------|
-| Monorepo migration Phases 0–8 complete | [`docs/roadmaps/monorepo-migration-plan.md`](monorepo-migration-plan.md); [`docs/migrations/monorepo-phase-0/`](../migrations/monorepo-phase-0/) … [`phase-8/`](../migrations/monorepo-phase-8/) |
-| Site lives at `apps/site/` | Repo layout; root [`README.md`](../../README.md) |
-| Same-checkout manifest → install → site build | [`scripts/vercel_build.sh`](../../scripts/vercel_build.sh); `npm run site:build:local` / Turbo pipeline |
-| Runtime remote manifest fetch removed | Phase 6; local/offline load under `apps/site/lib/graph/` |
-| Public `semantic-manifest.json` release asset retained for external consumers | Contract + Phase 5/6 notes |
-| Cover derivative pipeline + validate gate | [`docs/book-cover-assets.md`](../book-cover-assets.md); build validates installed covers |
-| Optional Turbo remote cache | Documented in Phase 8 — **not** required remaining product work |
-
-### 2.2 Corpus contract
-
-| Fact | Evidence |
-|------|----------|
-| Manifest schemaVersion **2.3** | [`docs/semantic-manifest-contract.md`](../semantic-manifest-contract.md); [`schema/semantic-manifest.schema.json`](../../schema/semantic-manifest.schema.json) |
-| Work/edition identity, public status, content type, literary form | `book.yml` + book/manifest schemas |
-| Parts/chapters with stable IDs and reserved `routeKey` | [`docs/semantic-chapter-identity.md`](../semantic-chapter-identity.md); `ManifestChapter` in `apps/site/types/semanticGraph.ts` |
-| Chapter enrichment YAML (summaries, questions, aliases, roles) | [`schema/semantic/chapter-enrichment.schema.json`](../../schema/semantic/chapter-enrichment.schema.json) |
-| Overview metadata, concept/pattern roles, grounding, relationship provenance | Schema 2.3; book overview schemas on site |
-| Change events | `semantic/change-events/*.yml` + change-event schema |
-| Search aliases | Book-local + `semantic/search-aliases.yml` |
-
-YAML remains canonical; the generated manifest is the public additive API.
-
-### 2.3 Discovery phase status
-
-**Shipped** (routes, view-models, E2E, and/or contributing guides present):
-
-| Surface | Primary paths |
-|---------|----------------|
-| Global Search | `/search`; `apps/site/lib/search/*`; `e2e/search.spec.ts` |
-| Start with a Question | `/questions`, `/questions/[slug]` |
-| Curated trails | `/trails`, `/trails/[slug]` |
-| Book shelves + catalog filters | `/explore/books`; catalog URL state |
-| Book overview pages | `/explore/books/[slug]`; overview layout when `overview` present |
-| What’s New + RSS | `/whats-new`; `/whats-new/feed.xml` |
-| Start Here | `/start` |
-| Concepts / Patterns / Situations / Thinkers / Sources | `/explore/{kind}` and detail routes |
-
-Site roadmap headers that still say “planning only” for search are **stale**; implementation is live. Prefer code + E2E over those headers.
-
-### 2.4 Current reading capabilities
-
-| Capability | Status | Evidence |
-|------------|--------|----------|
-| Chapter metadata + Inside this book maps | **Present** (orientation only) | `book-inside-this-book.tsx`; `book-chapter-view-model.ts` sets `publicUrl` undefined |
-| On-site chapter routes | **Absent** | No `app/**/chapters/**`; registry comment “until chapter routes ship” |
-| Full manuscript HTML rendering | **Absent** | Site does not transform manuscripts; downloads via export links |
-| Footnotes / section anchors in reader | **Absent** | Corpus markdown only |
-| Chapter prev/next + reading TOC | **Absent** as reader chrome | Adjacent nav exists for *explore entities*, not chapters |
-| Path/trail local progress | **Present** | `lib/paths/pathProgress.ts` — questions/trails only |
-| Bookmarks, text-size, reading themes, offline reading | **Partial** | Bookmarks + reader text size shipped (READ-013/014); site light/dark for theme; offline spike **defer** (READ-017) |
-| Local chapter reading progress | **Present** (READ-011) | `lib/reading/readingProgress.ts`; recorder in chapter reader shell |
-| Continue-reading entry points | **Present** (READ-012) | Start Here + book overview/detail CTAs when valid local progress resolves to a live chapter |
-| Local bookmarks | **Present** (READ-013) | Chapter/section bookmarks in reader chrome; list on book overview/detail |
-
-Public corpus validation requires public chapters to be search- and sitemap-eligible with matching index/sitemap membership (READ-005 / READ-009).
-
-### 2.5 Semantic enrichment state
-
-From [`reports/semantic-enrichment-remaining-gaps.md`](../../reports/semantic-enrichment-remaining-gaps.md) and related audits (2026-07-23 snapshots):
-
-| Area | State |
-|------|--------|
-| Priority books 1–5 chapter enrichment | **Complete** (73 reading units) |
-| Priority books 6–9 + observer-patterns poems | **Remaining** (editorial) |
-| Publication dates | **6 books dated**; most unknown; Amazon ASIN confirmation pending for two authority titles |
-| Change events | Sparse — only where real publication evidence exists |
-| Thinker↔concept coverage | Large empty-concept set in `reports/thinker-concept-audit.md` — data quality, not a product rebuild |
-| Graph audit | 0 errors / 74 warnings — do not promote every warning to a roadmap feature |
-| Bibliography ↔ semantic drift | Clean (0 missing/stale) in committed drift report |
-
-### 2.6 Participation and Think Together
-
-Marketing and collaborator copy invite reflection and contribution. There is **no** Think Together product plan, schema, contribution workflow, annotation system, or classroom path implementation.
-
-### 2.7 Analytics
-
-Consent-gated GA4 events exist for search, questions, catalog, downloads, and related discovery (`apps/site/lib/analytics/events.ts`), plus Vercel Analytics / Speed Insights. **No** chapter-reader funnel events yet (expected after routes exist).
+| Outcome | Evidence |
+|---------|----------|
+| Find Your Way (search, questions, trails, Start Here, explore) | Routes + E2E + contributing guides |
+| Unify corpus contract (manifest 2.3) | Contract + schemas + generators |
+| Monorepo migration Phases 0–8 | Migration plan + phase records |
+| Cover derivative pipeline | [`book-cover-assets.md`](../book-cover-assets.md) |
+| Canonical editions / What’s New / book overviews | Site plan Phases A–H landed |
+| Native Reader V1 + deepen-reading chrome | READ-001–016 implemented; READ-017 defer |
+| Priority chapter enrichment books 1–5 | [`reports/semantic-enrichment-remaining-gaps.md`](../../reports/semantic-enrichment-remaining-gaps.md) |
+| Content-type / literary-form corrections | [`enrichment-content-type-corrections.md`](../migrations/enrichment-content-type-corrections.md) |
+| IngramSpark initial packaging (INGRAM-001–011) | [`ingramspark-distribution-target.md`](ingramspark-distribution-target.md) |
+| Concept definition display helper | `apps/site/lib/graph/conceptFormatting.ts` (PROVENANCE-001) |
+| Public roadmap pointer from README | Root README → this document (OPS-002) |
 
 ---
 
-## 3. Existing planning-document inventory
+## 3. What genuinely remains
 
-High-signal documents only. Per-book editorial plans under `books/*/docs/` and `docs/rewrite-plans/` are **not** product roadmaps; link [`upcoming/docs/portfolio-status.md`](../../upcoming/docs/portfolio-status.md) for live upcoming editorial status.
-
-| Document | Topic | Status | Still authoritative? | Relationship to this roadmap |
-|----------|-------|--------|----------------------|------------------------------|
-| [`docs/roadmaps/monorepo-migration-plan.md`](monorepo-migration-plan.md) | Monorepo architecture + Phases 0–8 | Complete | Yes (historical + rationale) | **Reference** — do not replan migration |
-| [`docs/migrations/monorepo-phase-0/`](../migrations/monorepo-phase-0/) … [`phase-8/`](../migrations/monorepo-phase-8/) | Phase completion records | Complete | Yes as records | **Reference** |
-| [`apps/site/docs/roadmaps/global-search-plan.md`](../../apps/site/docs/roadmaps/global-search-plan.md) | Global Search V1 | V1 shipped; header stale | Yes for design; header outdated | **Reference**; chapter search follow-on is READ-005 here |
-| [`apps/site/docs/roadmaps/search-quality-workflow.md`](../../apps/site/docs/roadmaps/search-quality-workflow.md) | Ongoing alias/ranking quality | Active playbook | Yes | **Reference** — ops, not duplicate phase |
-| [`apps/site/docs/roadmaps/search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md) | When to add embeddings | Deferred / eval | Yes | **Deferred ideas** unless eval flips |
-| [`apps/site/docs/roadmaps/start-with-a-question-plan.md`](../../apps/site/docs/roadmaps/start-with-a-question-plan.md) | Questions / paths | Implemented | Yes as design record | **Reference**; chapter deep links → READ-007 |
-| [`apps/site/docs/roadmaps/canonical-status-whats-new-book-overviews-plan.md`](../../apps/site/docs/roadmaps/canonical-status-whats-new-book-overviews-plan.md) | Editions, What’s New, overviews | Phases A–H landed | Yes for catalog UX; mid-doc “current state” snapshots historical | **Reference**; open “in-browser reader” question → Phase 1 here |
-| [`docs/semantic-manifest-contract.md`](../semantic-manifest-contract.md) | Manifest compatibility | Living | Yes | Contract SoT |
-| [`docs/semantic-chapter-identity.md`](../semantic-chapter-identity.md) | Chapter IDs / enrichment | Living | Yes | Inputs for READ-* / CORPUS-* |
-| [`docs/semantic-relationship-types.md`](../semantic-relationship-types.md) | Typed relationships | Living | Yes | Phase 4 reference |
-| [`docs/semantic-graph-evolution.md`](../semantic-graph-evolution.md) | Enrichment architecture (#116) | Tooling active; “external site repo” framing outdated | Partial | **Reference**; Phase 4 site UX now in-monorepo |
-| [`docs/semantic-thinkers-sources-migration.md`](../semantic-thinkers-sources-migration.md) | Thinkers/sources migration | Mostly shipped; some “proposed” wording stale | Partial | **Reference** |
-| [`docs/authoring-discovery-metadata.md`](../authoring-discovery-metadata.md) | Authoring shelves/questions/etc. | Living | Yes | **Reference** |
-| [`docs/book-cover-assets.md`](../book-cover-assets.md) | Cover pipeline | Living ops | Yes | Complete pipeline — no new phase |
-| [`docs/concept-definition-helper-site-changes.md`](../concept-definition-helper-site-changes.md) | Centralize concept definition display | Documented, **not implemented** | Yes as backlog | → **PROVENANCE-001** |
-| [`docs/migrations/site-to-semantic-manifest-inventory.md`](../migrations/site-to-semantic-manifest-inventory.md) | Discovery ownership boundary | Largely ported | Yes for ownership | **Reference** |
-| [`docs/migrations/enrichment-content-type-corrections.md`](../migrations/enrichment-content-type-corrections.md) | Content-type fix record | Complete | Historical | Do not reopen |
-| [`docs/audits/thinker-concept-site-issues.md`](../audits/thinker-concept-site-issues.md) | Thinker UX follow-ups | Active draft issues | Yes | → PROVENANCE-002–004 |
-| [`reports/semantic-enrichment-remaining-gaps.md`](../../reports/semantic-enrichment-remaining-gaps.md) | Enrichment backlog | Active snapshot | Yes (regenerate for truth) | → CORPUS-* / PROVENANCE-* |
-| [`reports/publication-date-audit.md`](../../reports/publication-date-audit.md) | Missing dates | Active | Yes | → CORPUS-001/002/009 |
-| [`reports/thinker-concept-audit.md`](../../reports/thinker-concept-audit.md) | Empty thinker concepts | Snapshot / backlog | Yes as gap list | → PROVENANCE-005 (targeted) |
-| [`reports/semantic-graph-audit.md`](../../reports/semantic-graph-audit.md) | Graph DQ warnings | Snapshot | Regenerate | Data-quality; selective only |
-| [`reports/semantic-metadata-quality-audit.md`](../../reports/semantic-metadata-quality-audit.md) | Source/thinker metadata | Snapshot | Regenerate | → PROVENANCE-006 |
-| [`docs/security/github-settings-checklist.md`](../security/github-settings-checklist.md) | Manual GitHub settings | Open checkboxes | Yes | → OPS-003 |
-| [`docs/security/hardening-report.md`](../security/hardening-report.md) | Hardening + deferred | Complete + deferred | Yes | Ops deferred items |
-| [`docs/planning/refresh-manifest-SKILL.md`](../planning/refresh-manifest-SKILL.md) | Remote refresh skill | Obsolete | No | Obsolete after Phase 6 |
-| [`docs/audits/follow-up-issues-backlog.md`](../audits/follow-up-issues-backlog.md) | May 2026 follow-ups | Stale snapshot | Weak | Do not treat as live SoT |
-| [`docs/portfolio-audit/`](../portfolio-audit/) | Promotion readiness suite | May 2026 snapshot | Historical | Prefer `upcoming/docs/portfolio-status.md` |
-| [`apps/site/docs/contributing-*.md`](../../apps/site/docs/) | Authoring how-tos | Living | Yes | How-to, not roadmap |
-| Native reader plan | — | **Not found** | — | **This document** owns Phase 1–2 |
-| Think Together plan | — | **Not found** | — | **This document** owns Phase 5 research |
-
-**Do not delete or rewrite** historical migration records. Prefer linking.
+| Track | Remaining outcome |
+|-------|-------------------|
+| **Repository transparency** | Root `CONTRIBUTING.md`; corpus vs site issue templates; GitHub settings checklist (Kevin) |
+| **Reader analytics** | Consent-gated chapter funnel events so on-site reading can be measured |
+| **Editorial / historical metadata** | Publication-date evidence workflow; ASIN confirmations; remaining chapter/poem enrichment; historical What’s New where dates are real |
+| **Semantic traceability (targeted)** | Thinker concept panel, JSON-LD `knowsAbout`, optional thinkers-by-concept filter; selective grounding—not graph saturation |
+| **Think Together** | Product brief only when Kevin chooses a pilot; no social platform build now |
 
 ---
 
-## 4. Completed roadmap phases
+## 4. Now / Next / Later
 
-Do not reopen these as active product phases. Follow-ups appear only when a *distinct* remaining outcome exists.
+### Now
 
-| Phase | Outcome | Evidence of completion |
-|-------|---------|------------------------|
-| **Find Your Way Through After Certainty** | Search, questions, trails, Start Here, explore entity graph | Routes + E2E + contributing guides; questions plan marked Implemented |
-| **Unify the Corpus Contract** | Manifest 2.3: chapters, overviews, roles, grounding, provenance fields | Contract + schemas + generators |
-| **Monorepo migration** | Single repo; site at `apps/site/`; former site archived | Migration plan Phases 0–8 complete |
-| **Same-commit site build** | Generate local manifest → install → build; remote fetch removed | `vercel_build.sh`; Phase 5–6 |
-| **Cover derivative pipeline** | Deterministic WebP variants + validate gate | `docs/book-cover-assets.md`; build scripts |
-| **Rich book orientation** | Canonical editions, public status, What’s New, book overviews, Inside this book maps (without chapter hrefs) | Canonical plan Phases A–H landed |
-| **Priority chapter enrichment 1–5** | Full summaries for after-certainty, learning-to-see, the-game-we-think-we-saw, the-world-we-make-together, why-collaboration-is-so-hard | Enrichment gaps report “Completed in this pass” |
-| **Content-type / literary-form corrections** | Recorded corrections | `enrichment-content-type-corrections.md` |
+Highest-value, actionable, clear current benefit.
 
----
+1. **OPS-001** — Root `CONTRIBUTING.md` + semantic contribution guidelines  
+2. **OPS-001b** — Issue templates distinguishing corpus vs `apps/site`
 
-## 5. Active roadmap phases
+### Next
 
-```mermaid
-flowchart LR
-  P1[Phase1_NativeReader]
-  P2[Phase2_DeepenReadingNav]
-  P3[Phase3_EditorialHistorical]
-  P4[Phase4_SemanticTraceability]
-  P5[Phase5_ThinkTogether]
-  P1 --> P2
-  P1 --> P3
-  P3 --> P4
-  P2 --> P5
-```
+Valuable work that depends on Now items, Kevin’s decisions, or editorial evidence.
 
-| Phase | Name | Goal |
-|-------|------|------|
-| **1** | Read After Certainty | Public, accessible, server-rendered chapter reading with stable routes and search destinations |
-| **2** | Deepen Reading and Navigation | Local progress, bookmarks, reading chrome, in-book find — after V1 |
-| **3** | Complete Editorial and Historical Metadata | Publication dates, change events, remaining chapter/poem enrichment |
-| **4** | Strengthen Semantic Traceability | High-value graph grounding + small site UX for thinkers/concepts |
-| **5** | Think Together | Lightweight participation — design before build |
+1. **ANALYTICS-001** — Reader funnel GA4 events  
+2. **PROVENANCE-002** — Thinker concept coverage panel  
+3. **PROVENANCE-003** — JSON-LD `knowsAbout` for thinkers  
+4. **CORPUS-001** — Publication-date evidence file + backfill workflow (Kevin)  
+5. **CORPUS-002** — Confirm Amazon ASINs for two authority titles (Kevin / external)  
+6. **CORPUS-003–008** — Remaining priority chapter/poem enrichment (editorial)  
+7. **CORPUS-009** — Historical What’s New backfill where dates are confirmed  
+8. **PROVENANCE-004** — Explore thinkers-by-concept filter (after more concept links exist)  
+9. **PROVENANCE-005–007** — Targeted grounding / metadata cleanup (quality over quantity)  
+10. **OPS-003** — Complete GitHub settings checklist (Kevin / external)
 
-**Folded into phases (not separate near-term phases):**
+### Later / revisit when triggered
 
-- Analytics-informed refinement → ANALYTICS-001 after reader exists; discovery analytics stay in existing search-quality playbook
-- Accessibility/performance hardening → READ-008 (+ Phase 2 controls); no vague “keep improving a11y” item
-- Public contribution / repo transparency → OPS-* alongside Phase 5
-
-**Chapter-level search** is part of Phase 1 (depends on live routes), not a separate phase.
+| Item | Trigger |
+|------|---------|
+| **TOGETHER-001** product brief | Kevin explicitly chooses a Think Together pilot and needs a mechanism that Substack, GitHub issues, email, or existing channels do not already provide |
+| **TOGETHER-002 / TOGETHER-003** | Only after TOGETHER-001 accepts a distinct mechanism (or fold simple feedback into OPS/CONTRIBUTING) |
+| **PROVENANCE-008** relationship provenance UI | Kevin decides public provenance beats a debug dump |
+| Offline / PWA (READ-017) | Criteria in [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md) |
+| Embeddings search | [`search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md) decision criteria flip |
+| Interior PDF/X hardening | Ingram rejects DeviceGray interiors, or another printer requires PDF/X |
+| Hardcover / non-house trims / color interiors | A real hardcover or color book is planned |
+| Structured cover-warning IDs | Packaging automation needs machine-readable preview-safe vs submission-block distinction beyond current error IDs |
+| `immutable_release` ISBN-tagged archives | Rolling `latest` kits stop meeting the actual archival need |
 
 ---
 
-## 6. Workstreams
+## 5. Editorial and external dependencies
 
-### WS-READ — Native Reader V1 (Phase 1)
-
-| Field | Content |
-|-------|---------|
-| **Problem** | Readers can discover and orient to books but cannot read manuscripts on-site; chapter `routeKey`s are reserved but unused; downloads are the only reading path. |
-| **User value** | Continuity from discovery → chapter; shareable chapter URLs; accessible reading without leaving the site. |
-| **Current state** | Chapter metadata in manifest; Inside this book lists titles/summaries without links; registry blocks chapter search/sitemap eligibility. |
-| **Existing implementation** | `ManifestChapter`, `book-chapter-view-model.ts`, `lib/graph/chapters.ts`, `validate-chapters.ts`, public registry chapter records with `canonicalUrl: routeKey` but unlisted. |
-| **Existing documentation** | Chapter identity doc; open question in canonical-status plan; **no** native-reader plan until this roadmap. |
-| **Remaining work** | Phase 1 reader spine largely shipped (READ-001–009, READ-007); cohort decided (READ-010). Further reading work → Phase 2. |
-| **Dependencies** | Stable chapter IDs already exist; pilot book decision (READ-010 — resolved); manuscript files in `books/*/`. |
-| **Corpus changes** | Usually none for V1 code path; enrichment improves snippet quality but is **not** a launch blocker for all books. |
-| **Site changes** | New App Router chapter pages; markdown/HTML pipeline; registry/search/sitemap unlock; overview link wiring. |
-| **Tests** | Unit tests for slug/route helpers; corpus validation updates; Playwright smoke for pilot chapters; a11y checks for reader chrome. |
-| **Accessibility** | Landmarks, heading order, footnote refs/back-links, focus management, reduced motion, readable typography under zoom. |
-| **Performance** | Avoid shipping entire books as one client bundle; prefer per-chapter SSR; watch HTML size for long chapters. |
-| **Editorial input required** | ~~Which books enter the first public reader cohort (READ-010).~~ Resolved — all published catalog editions. |
-| **External records required** | None for V1. |
-| **Risks** | Footnote/citation fidelity; poetry/fiction layout; spoiling via summaries in search; accidental indexing before ready. |
-| **Out of scope** | Accounts, annotations, synced progress, offline PWA, AI summaries, full-text search of entire manuscripts in V1 (summaries + titles first). |
-| **Completion criteria** | Published catalog books have SSR chapter pages; prev/next + TOC work; footnotes usable; chapters in sitemap/search only when routes live; E2E smoke green; downloads remain available. |
-
-### WS-READ-PLUS — Reader enhancements (Phase 2)
-
-| Field | Content |
-|-------|---------|
-| **Problem** | V1 reading works, but return visits and comfort controls are thin. |
-| **User value** | Resume reading, bookmark places, adjust type size/theme, find within a book. |
-| **Current state** | Local progress, continue-reading, bookmarks, text size, TOC drawer, copy section link, and in-book search shipped (READ-011–016). Offline spike complete: **defer** (see `apps/site/docs/offline-reading-spike.md`). Path progress pattern exists for questions/trails. |
-| **Existing implementation** | `lib/reading/readingProgress.ts`; `continueReading.ts`; `readingBookmarks.ts`; `readingPreferences.ts` (text size); continue/bookmark/size panels; TOC drawer + `copy-section-link.tsx`; `in-book-search.tsx` + `searchWithinBook` (chapter titles/summaries via global index `bookIds` filter); `lib/paths/pathProgress.ts`; site `theme-provider` for light/dark. |
-| **Existing documentation** | This roadmap; chapter-identity client storage keys; [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md). |
-| **Remaining work** | None for Phase 2 reader enhancements (READ-017 deferred by recommendation). |
-| **Dependencies** | Phase 1 routes + stable IDs. |
-| **Corpus / site** | Site-only storage (localStorage); no corpus requirement. |
-| **Tests** | Storage key stability tests; UI tests for controls; no cross-device sync expectations. |
-| **A11y / perf** | Controls must be keyboard-accessible; theme changes respect `prefers-reduced-motion` where animated. |
-| **Editorial / external** | None required. |
-| **Risks** | Storage schema churn if IDs change; privacy (keep progress local). |
-| **Out of scope** | Cloud sync, accounts, social annotations. |
-| **Completion criteria** | Documented local APIs; continue-reading visible on Start and/or book overview for returning devices; controls persist per device. |
-
-### WS-CORPUS — Editorial and historical metadata (Phase 3)
-
-| Field | Content |
-|-------|---------|
-| **Problem** | Newest sorting, edition timelines, and What’s New history are weak without dates; several books lack chapter/poem summaries for orientation and future chapter search. |
-| **User value** | Trustworthy chronology; richer Inside this book / search snippets; better trail authoring. |
-| **Current state** | Six dated books; enrichment gaps report lists next batch; change events only with real evidence. |
-| **Existing documentation** | Publication-date audit (evidence rules); enrichment gaps; chapter-identity; change-event schema. |
-| **Remaining work** | Evidence-file workflow; ASIN confirmation; enrich books 6–9 + poems; thin relatedWorks/situations; historical What’s New where dates exist. |
-| **Dependencies** | Kevin evidence for dates; fiction/poem voice rules already in chapter-identity. |
-| **Corpus changes** | `book.yml` dates; `chapter-enrichment.yml`; `semantic/change-events/`; overview relatedWorks/situations. |
-| **Site changes** | Mostly consume existing fields; CORPUS-009 may add events only. |
-| **Tests** | Schema validation; regenerate completeness/publication audits; no Git-date inference. |
-| **Editorial input required** | High — dates, substantial revisions, summaries. |
-| **External records required** | Retailer/ISBN/announcement evidence as listed in audit rules. |
-| **Risks** | Inventing dates; spoiling fiction; treating packaging tags as publication. |
-| **Out of scope** | Auto-inferring dates from Git; requiring full enrichment before Reader V1. |
-| **Completion criteria** | Unknown dates remain explicitly unknown until evidenced; next-batch enrichments land with regenerated reports showing coverage gains. |
-
-### WS-PROVENANCE — Semantic traceability (Phase 4)
-
-| Field | Content |
-|-------|---------|
-| **Problem** | Thinker pages and concept display can under-represent graph grounding; definition field selection can drift across UI surfaces. |
-| **User value** | Clearer intellectual terrain; consistent concept blurbs; better SEO for thinkers with real concept links. |
-| **Current state** | Grounding disclosure on concepts/patterns; relationship provenance typed but little public UI; concept helper planned but missing. |
-| **Existing documentation** | `concept-definition-helper-site-changes.md`; `thinker-concept-site-issues.md`; audit reports. |
-| **Remaining work** | Helper implementation; thinker coverage panel; JSON-LD; optional explore filter; **targeted** thinker↔work grounding; creatorNames normalization; selective concept/pattern provenance. |
-| **Dependencies** | Do not block Reader V1. |
-| **Risks** | Trying to fill all 302 empty thinker concept lists — treat as long-horizon editorial, not one task. |
-| **Out of scope** | Turning every graph warning into a UI badge. |
-| **Completion criteria** | Helper used on index/detail/card paths; thinker panel ships; targeted grounding batches reduce *priority* empty cases; metadata-quality warnings for creatorNames cleared. |
-
-### WS-TOGETHER — Think Together (Phase 5)
-
-| Field | Content |
-|-------|---------|
-| **Problem** | The project invites people to “think together” without a concrete lightweight participation path. |
-| **User value** | Reflection, classroom/book-club use, and error reporting without requiring accounts. |
-| **Current state** | Marketing copy only. |
-| **Remaining work** | Product brief first; then optional reflection-prompt pilot; public feedback path; contribution docs. |
-| **Dependencies** | Kevin moderation/public-response policy; preferably after Reader V1 so prompts can attach to chapters. |
-| **Out of scope** | Social feed, accounts, unmoderated public annotation walls. |
-| **Completion criteria** | Written brief with chosen mechanism; at least one shippable pilot path OR explicit deferral into Deferred Ideas. |
-
-### WS-OPS — Repository transparency and external ops
-
-| Field | Content |
-|-------|---------|
-| **Problem** | Contribution entry points and some GitHub settings remain incomplete for public collaborators. |
-| **User value** | Clear how to report errors and propose semantic/site changes. |
-| **Remaining work** | Root CONTRIBUTING + semantic guidelines; issue templates; README pointer to this roadmap; GitHub settings checklist. |
-| **Completion criteria** | Docs linked from README; templates distinguish corpus vs site; checklist items intentionally done or explicitly waived. |
+| Need | Who | Related IDs |
+|------|-----|-------------|
+| Historical publication dates and evidence ranking | Kevin | CORPUS-001, CORPUS-002, CORPUS-009 |
+| Amazon/retailer ASIN confirmation | Kevin / external | CORPUS-002 |
+| Fiction/poem summary voice and spoiler bounds | Kevin | CORPUS-006, CORPUS-007 |
+| Chapter summaries for thin/zero-coverage titles | Editorial (Kevin judgment) | CORPUS-003–005 |
+| Priority thinkers for concept grounding | Kevin | PROVENANCE-005 |
+| Think Together moderation / public responses | Kevin | TOGETHER-001 |
+| Whether relationship provenance deserves public UI | Kevin | PROVENANCE-008 |
+| GitHub org/repo settings checklist | Kevin | OPS-003 |
+| GA4 Admin key events for reader funnel | Kevin / analytics Admin | ANALYTICS-001 |
 
 ---
 
-## 7. Agent-ready task candidates
-
-**Labels:** each task has `Type` ∈ {implementation, editorial, data-backfill, audit, operations, research, mixed} and `Owner` ∈ {corpus, site, shared, manual/external}.
-
-**Size:** XS / S / M / L / XL (relative — not calendar dates).
-
-### Phase 1 — Read After Certainty
-
-#### READ-001 — Chapter URL and identity contract
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Freeze public chapter URL shape and identity keys (`editionId`, `chapter.id`, `routeKey` / slug) before building pages. |
-| **Why it matters** | Prevents broken links, search churn, and progress-key rewrites. |
-| **Type / owner / size** | research + implementation / shared / S |
-| **Likely files** | `docs/semantic-chapter-identity.md`; `apps/site/lib/graph/chapters.ts`; `apps/site/types/semanticGraph.ts`; possibly a short ADR section in this roadmap or chapter-identity |
-| **Corpus / site scope** | Shared contract; minimal code |
-| **Dependencies** | None |
-| **Inputs** | Existing `routeKey` examples (tests expect `/explore/books/...`); chapter identity rules |
-| **Outputs** | Written contract: URL pattern, slug derivation, 404 rules, which books are eligible |
-| **Acceptance criteria** | Documented mapping from `ManifestChapter` → public path; conflicts with reserved `routeKey` resolved; no live routes required yet |
-| **Tests** | Unit tests for slug helpers remain green; add contract examples if helpers change |
-| **Risks** | Choosing a URL that fights existing `routeKey` already in manifests |
-| **Kevin / external** | Confirm pilot URL style if aesthetic preference matters |
-| **Parallel?** | Yes — foundation; blocks READ-002+ |
-| **Order** | 1 |
-
-#### READ-002 — Server-rendered chapter routes for public reading units
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Add App Router chapter pages that resolve public chapters by book slug + chapter slug and render SSR shells (content may land with READ-003). |
-| **Why it matters** | First visible reading destination. |
-| **Type / owner / size** | implementation / site / L |
-| **Status** | Implemented — SSR shell live; manuscript body deferred to READ-003; overview links still off (READ-006). |
-| **Likely files** | `apps/site/app/explore/(browse)/books/[slug]/chapters/[chapterSlug]/page.tsx` (or contracted path); metadata helpers; `public-registry.ts` |
-| **Dependencies** | READ-001 |
-| **Inputs** | Manifest chapters; `routeKey` |
-| **Outputs** | Working routes for public chapters; canonical metadata; not-found for private/missing |
-| **Acceptance criteria** | Hitting a contracted URL returns 200 for a known public chapter; unknown slug → notFound; no fabricated links from overview until READ-006 |
-| **Tests** | Route/unit tests; optional Playwright stub |
-| **Risks** | Static params explosion; draft chapters leaking |
-| **Kevin / external** | No |
-| **Parallel?** | Sequence after READ-001; can overlap design of READ-003 |
-| **Order** | 2 |
-
-#### READ-003 — Manuscript HTML pipeline (footnotes, section anchors)
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Transform chapter markdown from the corpus into safe SSR HTML with footnotes and stable section anchors. |
-| **Why it matters** | Without this, routes are empty shells. |
-| **Type / owner / size** | implementation / site / XL |
-| **Status** | Implemented — unified remark/rehype pipeline with sanitize, footnotes, heading anchors; missing-file alert state; in-manuscript Contents/`.md` links rewrite to chapter routes when resolvable. |
-| **Likely files** | New `apps/site/lib/reading/*`; chapter page; possibly shared markdown utilities; security sanitization |
-| **Corpus scope** | Read manuscript files; do not rewrite manuscripts |
-| **Site scope** | Pipeline + rendering components |
-| **Dependencies** | READ-001; tightly couples with READ-002 |
-| **Inputs** | `sourcePath` on chapters; book roots under `books/` |
-| **Outputs** | Rendered HTML; footnote component behavior; `#` anchors for headings |
-| **Acceptance criteria** | Pilot chapter shows body text; footnotes navigable; headings have ids; XSS-safe sanitization; missing file → clear error state |
-| **Tests** | Fixture markdown → HTML snapshots; footnote link tests; sanitizer tests |
-| **Risks** | Poetry/fiction layout; Pandoc vs remark divergence from export pipeline; large HTML |
-| **Kevin / external** | Judgment on acceptable fidelity vs export formats |
-| **Parallel?** | Can start after READ-001 in parallel with route scaffolding |
-| **Order** | 3 |
-
-#### READ-004 — Part/chapter TOC and previous/next navigation
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Reading chrome: book TOC (parts/chapters) and prev/next chapter links in reading order. |
-| **Why it matters** | Makes multi-chapter books navigable without returning to overview only. |
-| **Type / owner / size** | implementation / site / M |
-| **Status** | Implemented — in-reader TOC + prev/next; overview Inside-this-book links still READ-006. |
-| **Likely files** | Chapter layout components; reuse `book-chapter-view-model` / registry maps `chapterIdsByEditionId` |
-| **Dependencies** | READ-002 |
-| **Acceptance criteria** | Prev/next respect edition reading order; first/last terminate cleanly; TOC lists parts/chapters with live hrefs for public units |
-| **Tests** | Order edge cases (bridges, poems, single-chapter) |
-| **Kevin / external** | No |
-| **Parallel?** | After READ-002; parallel with READ-008 |
-| **Order** | 4 |
-
-#### READ-005 — Chapter search eligibility and index summaries
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Once routes exist, allow public chapters into search documents (title, summary, aliases) with `canonicalUrl` pointing at chapter pages. |
-| **Why it matters** | Discovery → precise reading destination. |
-| **Type / owner / size** | implementation / shared / M |
-| **Status** | Implemented — lean chapter search docs; registry searchEligible/listed; book docs retain chapter text fallback; validation enforces consistency. |
-| **Likely files** | `buildSearchDocuments.ts`; `public-registry.ts`; `validate-public-corpus.ts`; `chapter-eligibility.ts` |
-| **Dependencies** | READ-002 (and preferably READ-003) |
-| **Acceptance criteria** | Validation requires eligibility **only when** routes ship; chapter hits open chapter URLs; books still index chapter text fallback policy documented; budget alerts still respected |
-| **Tests** | Search document builders; corpus validation tests updated; search E2E sample |
-| **Risks** | Index size; spoiling via fiction summaries |
-| **Kevin / external** | Which books’ chapters are search-visible in pilot |
-| **Parallel?** | After routes; parallel with READ-006 |
-| **Order** | 7 |
-
-#### READ-006 — Wire Inside this book and entity links to chapter routes
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Set `publicUrl` on chapter VM; link Inside this book; deep-link from concept/pattern chapter associations where data exists. |
-| **Why it matters** | Removes “orientation without destination.” |
-| **Type / owner / size** | implementation / site / S |
-| **Status** | Implemented — Inside this book links; concept/pattern “Appears in chapters” when associations exist. |
-| **Likely files** | `book-chapter-view-model.ts`; `book-inside-this-book.tsx`; `chapter-associations.ts`; concept/pattern detail pages |
-| **Dependencies** | READ-002 |
-| **Acceptance criteria** | Overview chapter rows link to live routes; tests that previously asserted `publicUrl === undefined` updated; no links for non-public chapters |
-| **Tests** | View-model tests; component tests |
-| **Parallel?** | Yes with READ-005 |
-| **Order** | 8 |
-
-#### READ-007 — Trail and question stops targeting chapters
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Allow authored path stops to target chapter URLs where chapter destinations exist. |
-| **Why it matters** | Questions/trails currently stop at book/entity level more often than precise chapters. |
-| **Type / owner / size** | mixed / shared / M |
-| **Status** | Implemented — `entityType: chapter` on path stops; resolve + validate; pilot stop on `act-before-certainty-arrives`. |
-| **Likely files** | Trail/question schemas and site path stop resolvers; authoring docs |
-| **Dependencies** | READ-002; corpus stop updates optional |
-| **Acceptance criteria** | Stops with chapter targets resolve; invalid targets fail validation; at least one pilot path updated or documented as follow-on editorial |
-| **Kevin / external** | Which paths to update first |
-| **Parallel?** | After READ-002; editorial portion parallel |
-| **Order** | 11 (after core reader) |
-
-#### READ-008 — Reader accessibility baseline
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Landmarks, skip-to-content within reader, footnote accessibility, focus order, reduced-motion, zoom-friendly type. |
-| **Why it matters** | Reading is an a11y-critical surface. |
-| **Type / owner / size** | implementation / site / M |
-| **Status** | Implemented — reader landmarks/skip, footnote id pairing fix, always-on underline, reduced-motion scroll, checklist + E2E. |
-| **Likely files** | `chapter-reader-shell.tsx`; `render-manuscript-html.ts`; `globals.css`; `apps/site/docs/reader-a11y-checklist.md`; `e2e/reader-a11y.spec.ts` |
-| **Dependencies** | READ-003 |
-| **Acceptance criteria** | Checklist documented and covered by tests/E2E a11y assertions for reader chrome; no reliance on color alone for footnotes |
-| **Parallel?** | With READ-004 |
-| **Order** | 5 |
-
-#### READ-009 — Sitemap unlock and E2E reader smoke
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Include public chapter URLs in sitemap when eligible; Playwright smoke for pilot book chapters. |
-| **Type / owner / size** | implementation / site / M |
-| **Status** | Implemented — public chapter paths in sitemap + registry; validation enforces eligibility; after-certainty reader smoke E2E. |
-| **Likely files** | `app/sitemap.ts`; `public-registry.ts`; `validate-public-corpus.ts`; `e2e/reader-smoke.spec.ts` |
-| **Dependencies** | READ-002, READ-003 |
-| **Acceptance criteria** | Sitemap contains pilot chapter paths; validation enforces consistency; E2E covers open chapter → next → overview |
-| **Order** | 6 |
-
-#### READ-010 — Pilot rollout scope decision
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Kevin selects first public reader cohort (e.g. fully enriched priority books). |
-| **Type / owner / size** | research / manual/external / S |
-| **Status** | Resolved — **all** published catalog editions with manuscript chapters are in V1; no download-only holdouts. See [`docs/native-reader-v1-cohort.md`](../native-reader-v1-cohort.md). |
-| **Dependencies** | None (can run parallel to READ-001) |
-| **Acceptance criteria** | Written list of edition slugs in/out for V1; scope decision recorded (supersedes earlier “narrow pilot / download-only holdouts” default) |
-| **Kevin / external** | **Required** — decided 2026-07-25 |
-| **Order** | Parallel with 1–3 |
-
----
-
-### Phase 2 — Deepen reading
-
-#### READ-011 — Local reading progress
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Persist last chapter (and optional scroll position) keyed by `editionId` + `chapterId` in localStorage. |
-| **Type / owner / size** | implementation / site / M |
-| **Status** | Implemented — `ac_reading_progress` localStorage API; recorder mounted in chapter reader shell; identityKey uses `chapterReadingStorageKey`. |
-| **Likely files** | `apps/site/lib/reading/readingProgress.ts`; `apps/site/components/reading/record-reading-progress.tsx`; `chapter-reader-shell.tsx` |
-| **Dependencies** | Phase 1 complete for pilot books |
-| **Acceptance criteria** | Keys stable per contract; clearing site data resets; no server sync |
-| **Pattern reference** | `lib/paths/pathProgress.ts` |
-| **Order** | After Phase 1 |
-
-#### READ-012 — Continue reading entry points
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Surface continue-reading on `/start` and/or book overview when local progress exists. |
-| **Type / owner / size** | implementation / site / S |
-| **Status** | Implemented — Start Here section + book overview/legacy detail CTAs; catalog validates progress against public chapter routes. |
-| **Likely files** | `apps/site/lib/reading/continueReading.ts`; `apps/site/components/reading/continue-reading-panel.tsx`; `app/start/page.tsx`; book overview/legacy layouts |
-| **Dependencies** | READ-011 |
-| **Acceptance criteria** | CTA appears only with valid progress; links to chapter route |
-
-#### READ-013 — Local bookmarks
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Bookmark chapter or section anchors locally. |
-| **Type / owner / size** | implementation / site / M |
-| **Status** | Implemented — `ac_reading_bookmarks` localStorage API; reader toggle (chapter/section); book overview/detail list; stale ids filtered via continue-reading catalog. |
-| **Likely files** | `apps/site/lib/reading/readingBookmarks.ts`; `apps/site/components/reading/reading-bookmarks-panel.tsx`; chapter reader shell; book layouts |
-| **Dependencies** | READ-002; section anchors from READ-003 |
-| **Acceptance criteria** | Add/remove bookmark; list accessible from book overview or reader chrome |
-
-#### READ-014 — Text-size controls
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Reader-local type size (site light/dark remains the appearance theme). |
-| **Type / owner / size** | implementation / site / M |
-| **Status** | Implemented — `ac_reading_prefs` localStorage with rem-based S–XL text size; site light/dark remains the only theme. Manuscript colors follow site tokens (not prose-invert). |
-| **Likely files** | `apps/site/lib/reading/readingPreferences.ts`; `apps/site/components/reading/reading-preferences-controls.tsx`; `globals.css`; chapter reader shell; chapter-manuscript-body |
-| **Dependencies** | READ-003 |
-| **Acceptance criteria** | Preference persists locally; remains readable at 200% zoom; contrast maintained |
-
-#### READ-015 — TOC drawer and copy link to section
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Mobile-friendly TOC drawer; copy-to-clipboard for section URLs. |
-| **Type / owner / size** | implementation / site / S |
-| **Status** | Implemented — mobile Contents drawer; header copy chapter/section link; per-heading Copy link in manuscript. |
-| **Likely files** | `apps/site/components/reading/chapter-toc.tsx`; `copy-section-link.tsx`; chapter reader shell |
-| **Dependencies** | READ-004, READ-003 anchors |
-| **Acceptance criteria** | Mobile Contents opens a dialog TOC; Escape/backdrop close; copy chapter or `#section` URL from chrome and headings |
-
-#### READ-016 — Search within a book
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Find within one edition’s chapter titles/summaries (and optionally loaded chapter text with clear perf limits). |
-| **Type / owner / size** | implementation / site / L |
-| **Status** | Implemented — edition-scoped MiniSearch over chapter docs (titles/summaries/aliases); dialog on chapter reader + book overview; manuscript body deferred. |
-| **Likely files** | `lib/search/miniSearch.ts` (`bookIds` filter); `lib/search/query.ts` (`searchWithinBook`); `components/reading/in-book-search.tsx`; chapter reader shell; book overview layout |
-| **Dependencies** | Phase 1 search chapter docs helpful but not strictly required |
-| **Acceptance criteria** | Scoped results; no global index regression; empty states clear |
-
-#### READ-017 — Offline reading spike (deferred default)
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Research-only spike: service worker feasibility for pilot chapters. |
-| **Type / owner / size** | research / site / M |
-| **Status** | Complete — recommendation **defer (no-ship)**. See [`apps/site/docs/offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md). EPUB/PDF remain the offline path; native SW not justified now. |
-| **Dependencies** | Phase 1 |
-| **Acceptance criteria** | Written recommendation ship/no-ship; **default = defer** unless explicitly prioritized |
-| **Note** | Listed so it does not re-enter Phase 1 planning. Reopen only per criteria in the spike doc. |
-
----
-
-### Phase 3 — Editorial and historical metadata
-
-#### CORPUS-001 — Publication-date evidence file + backfill workflow
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Author-supplied evidence file (or documented table) feeding `publication_date` / `edition_published_at` / `substantially_revised_at` without Git inference. |
-| **Type / owner / size** | data-backfill / corpus + manual/external / M |
-| **Likely files** | New evidence doc under `docs/` or `reports/`; `books/*/book.yml`; audit regeneration |
-| **Dependencies** | Publication-date audit rules |
-| **Acceptance criteria** | Workflow documented; at least template + one example backfill; unknown remains allowed |
-| **Kevin / external** | **Required** for evidence rows |
-| **Parallel?** | Yes with Reader work |
-
-#### CORPUS-002 — Confirm Amazon ASINs for two authority titles
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Confirm ASINs `B0DWZ2ZFXG` / `B0GJ3QZQ1V` → set dates + change events for `when-authority-is-misread` and `when-authority-outlives-accountability`. |
-| **Type / owner / size** | editorial / manual/external / S |
-| **Dependencies** | Kevin confirmation |
-| **Acceptance criteria** | Dates authored with evidence notes; change events created; publication-date audit updated on regen |
-| **Parallel?** | Yes |
-
-#### CORPUS-003 — Chapter enrichment: before-certainty-arrives
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Full `chapter-enrichment.yml` for all reading units. |
-| **Type / owner / size** | editorial / corpus / L |
-| **Dependencies** | Chapter-identity guidelines |
-| **Acceptance criteria** | Completeness coverage present==total; manifest regenerates clean |
-| **Kevin / external** | Editorial judgment on summaries |
-| **Parallel?** | Yes vs site tasks |
-
-#### CORPUS-004 — Expand living-in-sediment beyond sample
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Expand from 1/21 sample summaries to full coverage. |
-| **Type / owner / size** | editorial / corpus / M |
-| **Parallel?** | Yes |
-
-#### CORPUS-005 — Chapter enrichment: the-economy-we-dont-experience
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Full chapter enrichment. |
-| **Type / owner / size** | editorial / corpus / L |
-| **Parallel?** | Yes |
-
-#### CORPUS-006 — Fiction summaries: boundary-conditions
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Fiction-safe summaries (anti-proof language; minimal spoiling). |
-| **Type / owner / size** | editorial / corpus / L |
-| **Kevin / external** | Voice/spoiler judgment |
-| **Parallel?** | Yes |
-
-#### CORPUS-007 — Poem summaries: observer-patterns
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Poem-level summaries for exported `poem` kinds. |
-| **Type / owner / size** | editorial / corpus / M |
-| **Kevin / external** | Poetry summary voice |
-| **Parallel?** | Yes |
-
-#### CORPUS-008 — relatedWorks + situations for thin titles
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Add typed relatedWorks / situationCoverage for `trust-beyond-similarity` and `what-we-cannot-see` per enrichment gaps. |
-| **Type / owner / size** | editorial / corpus / S |
-| **Parallel?** | Yes |
-
-#### CORPUS-009 — Historical What’s New backfill
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Author change events for editions with confirmed dates so What’s New / newest sorting gain history. |
-| **Type / owner / size** | mixed / corpus / M |
-| **Dependencies** | CORPUS-001/002 where applicable |
-| **Acceptance criteria** | Events validate; `/whats-new` shows historical entries; no fabricated dates |
-
----
-
-### Phase 4 — Semantic traceability
-
-#### PROVENANCE-001 — Concept definition display helper
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Implement `getConceptDisplayDefinition` and wire index/detail/card/search surfaces per existing plan. |
-| **Type / owner / size** | implementation / site / S |
-| **Likely files** | `apps/site/lib/explore/getConceptDisplayDefinition.ts`; concept card/detail; search result copy if applicable |
-| **Existing docs** | [`docs/concept-definition-helper-site-changes.md`](../concept-definition-helper-site-changes.md) |
-| **Dependencies** | None |
-| **Acceptance criteria** | Helper file exists; call sites use variants; unit tests for fallback chain |
-| **Parallel?** | **Yes** — independent of reader |
-| **Order** | Early parallel win |
-
-#### PROVENANCE-002 — Thinker concept coverage panel
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Show thinker-level concepts plus union from linked works; optional empty-state honesty. |
-| **Type / owner / size** | implementation / site / M |
-| **Existing docs** | [`docs/audits/thinker-concept-site-issues.md`](../audits/thinker-concept-site-issues.md) §1 |
-| **Dependencies** | None for UI; data richness improves with PROVENANCE-005 |
-| **Acceptance criteria** | Panel on thinker detail; empty concepts explained when works have concepts |
-
-#### PROVENANCE-003 — JSON-LD knowsAbout for thinkers
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Emit `knowsAbout` when `thinkers[].concepts` non-empty. |
-| **Type / owner / size** | implementation / site / S |
-| **Dependencies** | Prefer after PROVENANCE-002 or independent |
-| **Acceptance criteria** | JSON-LD present only with real concept links |
-
-#### PROVENANCE-004 — Explore thinkers by concept filter
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Optional concept filter on `/explore/thinkers`. |
-| **Type / owner / size** | implementation / site / M |
-| **Dependencies** | Useful after more thinkers have concepts |
-| **Acceptance criteria** | URL-shareable filter; empty filter states |
-
-#### PROVENANCE-005 — Targeted thinker↔work concept grounding
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Ground **priority** public thinkers (not all 302 empty) from linked works / manuscript importance. |
-| **Type / owner / size** | data-backfill / corpus / L |
-| **Dependencies** | Thinker-concept audit for candidates; Kevin priority list |
-| **Acceptance criteria** | Documented selection criteria; audit shows reduction for selected set; no mass low-value spam links |
-| **Kevin / external** | Priority list |
-
-#### PROVENANCE-006 — Normalize multi-author creatorNames mismatches
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Clear the 11 metadata-quality warnings for multi-author `creatorNames` punctuation/name display. |
-| **Type / owner / size** | data-backfill / corpus / S |
-| **Acceptance criteria** | Regenerated metadata-quality audit shows 0 of those warnings |
-| **Parallel?** | Yes |
-
-#### PROVENANCE-007 — Concept grounding + remaining pattern provenance batch
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Continue editorial grounding/provenance beyond the representative 15 relationships / 20 patterns. |
-| **Type / owner / size** | editorial / corpus / M |
-| **Acceptance criteria** | Batch size agreed; reports show grounding coverage gain; quality over quantity |
-
-#### PROVENANCE-008 — Relationship provenance display
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Public UI for relationship provenance **only if** a clear reader benefit is identified. |
-| **Type / owner / size** | implementation / site / M |
-| **Dependencies** | Product decision in Open decisions |
-| **Acceptance criteria** | Ship or explicitly defer; no half-hidden debug dumps |
-
----
-
-### Phase 5 — Think Together and ops
-
-#### TOGETHER-001 — Product brief: lightweight contribution without accounts
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Decide mechanism (GitHub issues, form, emailed responses, curated submissions) and moderation policy. |
-| **Type / owner / size** | research / manual/external / M |
-| **Dependencies** | Kevin policy |
-| **Acceptance criteria** | Written brief with in/out of scope; feeds TOGETHER-002/003 |
-| **Kevin / external** | **Required** |
-
-#### TOGETHER-002 — Chapter reflection prompt schema + authoring pilot
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Optional schema for reflection prompts attached to chapters; pilot on one book. |
-| **Type / owner / size** | mixed / shared / M |
-| **Dependencies** | TOGETHER-001; preferably Phase 1 routes |
-| **Acceptance criteria** | Schema + one authored pilot; site renders prompts or explicitly defers UI |
-
-#### TOGETHER-003 — Public error-report / feedback path
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Obvious path for readers to report corpus/site errors. |
-| **Type / owner / size** | operations / shared / S |
-| **Dependencies** | TOGETHER-001 or OPS-001 |
-| **Acceptance criteria** | Linked from About/Start/footer; destination works |
-
-#### OPS-001 — Root CONTRIBUTING + semantic contribution guidelines
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Root `CONTRIBUTING.md` pointing at corpus vs site paths, validation commands, and review expectations. |
-| **Type / owner / size** | operations / shared / S |
-| **Dependencies** | None |
-| **Acceptance criteria** | File exists; links schemas, `make check`, site contributing guides |
-| **Parallel?** | Yes |
-
-#### OPS-001b — Issue templates for corpus vs site
-
-| Field | Value |
-|-------|-------|
-| **Goal** | GitHub issue templates distinguishing manuscript/semantic vs `apps/site` bugs. |
-| **Type / owner / size** | operations / shared / XS |
-| **Parallel?** | Yes with OPS-001 |
-
-#### OPS-002 — Public roadmap pointer
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Link this document from root README (and optionally site docs index). |
-| **Type / owner / size** | operations / shared / XS |
-| **Acceptance criteria** | Discoverable link; does not duplicate content |
-
-#### OPS-003 — Complete GitHub settings checklist
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Work through [`docs/security/github-settings-checklist.md`](../security/github-settings-checklist.md). |
-| **Type / owner / size** | operations / manual/external / M |
-| **Kevin / external** | **Required** (org/repo settings) |
-| **Acceptance criteria** | Items checked or waived with notes |
-
-#### ANALYTICS-001 — Reader funnel events
-
-| Field | Value |
-|-------|-------|
-| **Goal** | Add consent-gated GA4 events for chapter open, next-chapter, download-from-reader — **no raw manuscript text or queries**. |
-| **Type / owner / size** | implementation / site / S |
-| **Likely files** | `apps/site/lib/analytics/events.ts`; reader components |
-| **Dependencies** | READ-002+ |
-| **Acceptance criteria** | Events documented; privacy-safe; optional GA4 Admin key-event registration noted in External queue |
-| **External** | GA4 Admin configuration |
-
----
-
-### Task count summary
-
-| Bucket | Count |
-|--------|-------|
-| Agent-ready tasks (unique IDs) | **42** (READ-001–017, CORPUS-001–009, PROVENANCE-001–008, TOGETHER-001–003, OPS-001, OPS-001b, OPS-002–003, ANALYTICS-001) |
-| Implementation-primary | 22 |
-| Editorial / data-backfill / mixed editorial | 14 |
-| Research / operations / manual-external | 6 |
-
-*(Counts classify by primary type; mixed tasks counted once in their dominant bucket.)*
-
----
-
-## 8. Dependency graph
-
-```mermaid
-flowchart TD
-  READ001[READ-001_URL_contract]
-  READ010[READ-010_pilot_books]
-  READ002[READ-002_chapter_routes]
-  READ003[READ-003_HTML_pipeline]
-  READ004[READ-004_TOC_prev_next]
-  READ008[READ-008_a11y]
-  READ009[READ-009_sitemap_E2E]
-  READ005[READ-005_chapter_search]
-  READ006[READ-006_overview_links]
-  READ007[READ-007_trail_stops]
-  READ011[READ-011_progress]
-  READ012[READ-012_continue]
-  CORPUS002[CORPUS-002_ASIN_dates]
-  CORPUS001[CORPUS-001_evidence_workflow]
-  PROV001[PROVENANCE-001_def_helper]
-  TOG001[TOGETHER-001_brief]
-
-  READ001 --> READ002
-  READ001 --> READ003
-  READ010 --> READ002
-  READ002 --> READ004
-  READ003 --> READ008
-  READ002 --> READ009
-  READ003 --> READ009
-  READ002 --> READ005
-  READ002 --> READ006
-  READ002 --> READ007
-  READ009 --> READ011
-  READ011 --> READ012
-  CORPUS001 --> CORPUS002
-  READ002 --> ANALYTICS001[ANALYTICS-001]
-  TOG001 --> TOGETHER002[TOGETHER-002]
-  READ002 --> TOGETHER002
-```
-
-Plain-text spine:
-
-```
-READ-001 (+ READ-010)
-  → READ-002 + READ-003
-    → READ-004, READ-008, READ-009
-      → READ-005, READ-006, READ-007
-        → READ-011 → READ-012 → READ-013…016
-CORPUS-001/002 and CORPUS-003…008 ∥ Reader
-PROVENANCE-001 ∥ Reader
-TOGETHER-001 → TOGETHER-002 (after chapters preferred)
-```
-
----
-
-## 9. Parallelization plan
-
-| Class | Tasks | Notes |
-|-------|-------|-------|
-| **Sequential foundation** | READ-001 → READ-002/003 → unlock search/sitemap | Same files: registry, search, chapter VM |
-| **Site-only parallel** | PROVENANCE-001; OPS-001/001b/002; PROVENANCE-002–004 after brief review | Low conflict with reader |
-| **Corpus-only editorial parallel** | CORPUS-003–008; PROVENANCE-006–007 | Avoid simultaneous edits to same `book.yml` / enrichment file |
-| **Cross-layer** | READ-005, READ-007, CORPUS-009, TOGETHER-002 | Need coordinated schema + site |
-| **Manual/external parallel** | READ-010, CORPUS-002, OPS-003, TOGETHER-001 | No code conflict |
-| **Conflict risk (same files)** | READ-002/005/006/009 all touch registry + validation — serialize or single agent | |
-| **Conflict risk (corpus)** | Multiple enrichment tasks on different books = OK; same book = serialize | |
-
----
-
-## 10. Human-input queue
-
-Work Cursor/agents should **not** pretend to finish alone:
-
-1. Historical **publication dates** and evidence ranking (CORPUS-001/002)
-2. Which editions count as **substantial revisions**
-3. ~~**Pilot book list** for Native Reader V1 (READ-010)~~ — **Resolved:** all published catalog editions ([`native-reader-v1-cohort.md`](../native-reader-v1-cohort.md))
-4. Fiction/poem **summary voice** and spoiler bounds (CORPUS-006/007)
-5. Editorial summaries for thin/zero-coverage chapters (CORPUS-003–005)
-6. Priority thinkers for concept grounding (PROVENANCE-005)
-7. Think Together **moderation** and whether reader responses are public (TOGETHER-001)
-8. Whether “Read online” language should replace/augment downloads once reader ships
-9. Whether relationship provenance deserves public UI (PROVENANCE-008)
-10. Homepage/nav priority among Questions vs other CTAs (noted in questions plan — product preference)
-
----
-
-## 11. External configuration queue
-
-| Item | Why | Task link |
-|------|-----|-----------|
-| GitHub org/repo settings checklist | Security/ops gaps remain unchecked | OPS-003 |
-| GA4 Admin: reader key events / custom dimensions | Events in code still need Admin marking | ANALYTICS-001 |
-| Form/email provider (if chosen over GitHub issues) | Feedback path | TOGETHER-003 |
-| Amazon/retailer confirmation for ASINs | Date evidence | CORPUS-002 |
-| Search Console (if used for chapter indexing after launch) | Monitor chapter URLs | After READ-009 |
-| Domain/DNS/Vercel project settings | Only if changing hosting — **not** required for this roadmap’s product phases | — |
-| Turbo remote cache tokens | Optional DX from Phase 8 — deferred | Deferred |
-
-Do **not** invent a deployment-parity task from external crawler staleness without repository/deploy evidence.
-
----
-
-## 12. Deferred ideas
+## 6. Deferred ideas
 
 Intentionally postponed so they do not re-enter near-term planning:
 
-- User accounts / auth
-- Cloud-synced annotations or reading progress
-- Social feed or unmoderated public walls
-- AI-generated chapter or book summaries
-- Runtime database or full CMS
-- Native mobile app
-- Complex recommendation engine
-- Embeddings-backed search (until [`search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md) says otherwise)
-- Full offline PWA reading (READ-017 researched — **defer**; see [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md))
-- Optional Turbo remote cache enablement (ops DX, not product)
-- Mass-filling all empty thinker concepts in one pass
-- Requiring complete enrichment of all books before Reader V1
+- User accounts / auth; cloud-synced annotations or reading progress  
+- Social feed or unmoderated public annotation walls  
+- AI-generated chapter or book summaries  
+- Runtime database or full CMS; native mobile app  
+- Complex recommendation engine  
+- Embeddings-backed search (until the evaluation doc says otherwise)  
+- Full offline PWA reading (READ-017)  
+- Optional Turbo remote cache enablement (ops DX, not product)  
+- Mass-filling all empty thinker concepts in one pass  
 
 ---
 
-## 13. Prioritized next tasks
+## 7. Not currently worth doing
 
-### Next one
+Protects future agents from re-proposing these without a new trigger.
 
-1. **READ-001 — Chapter URL and identity contract**  
-   Unlocks safe route, search, sitemap, and progress work without thrash.
-
-### Next three
-
-1. **READ-001** — URL/identity contract  
-2. **READ-002** — SSR chapter routes  
-3. **READ-003** — Manuscript HTML pipeline  
-
-### Next ten
-
-1. READ-001 — URL/identity contract  
-2. READ-002 — Chapter routes  
-3. READ-003 — HTML pipeline  
-4. READ-004 — TOC + prev/next  
-5. READ-008 — Reader a11y baseline  
-6. READ-009 — Sitemap + E2E smoke  
-7. READ-005 — Chapter search destinations  
-8. READ-006 — Overview/entity chapter links  
-9. CORPUS-002 — ASIN date confirmation (parallel human track)  
-10. PROVENANCE-001 — Concept definition helper (parallel site win)
-
-**Why this order:** Ship a trustworthy reader spine before enhancement chrome; keep one human date task and one independent site cleanup in the top ten so editorial/site parallel tracks stay warm without blocking reading.
+| Idea | Why not now | Reopen when |
+|------|-------------|-------------|
+| Generalized hardcover / multi-edition manufacturing | No hardcover in flight; house paperback path works | A hardcover edition is planned |
+| Full color-interior pipeline | No color book planned; DeviceGray pilots accepted | A color interior is prepared |
+| Interior PDF/X rework as active work | Account uploads succeeded on DeviceGray; PDF/X is opt-in candidate | Ingram rejection or new printer policy |
+| Structured cover-warning IDs as product work | Blocking errors already have check IDs; warnings are opportunistic | CI/automation cannot distinguish preview-safe vs block without parsing English |
+| Page-count sync “product phase” | Sync exists; residual dirty-tree risk is owned by the operating procedure (commit CI-measured counts) | Packaging unexpectedly mutates sources without a review boundary that procedure cannot cover |
+| Cloud accounts / synced reading progress | Local progress meets current need | Multi-device sync is a stated product goal |
+| Social feeds / public annotation walls | No moderation capacity; conflicts with lightweight stance | Explicit Think Together pilot requires it |
+| Embeddings before search evaluation | Lexical search + aliases still primary | Evaluation criteria flip |
+| Offline/PWA after defer spike | Downloads already provide offline reading | Spike reopen criteria met |
+| Filling every semantic graph warning / empty thinker | Low reader value; high editorial cost | Specific high-traffic thinker/concept gaps harm discoverability |
+| `immutable_release` machinery | Rolling kits meet pilot need | ISBN-tagged archives required |
+| Duplicate “roadmap cleanup” task | This consolidation resolves it | — |
 
 ---
 
-## 14. Roadmap completion definitions
+## 8. Active task catalog
 
-| Phase | Complete when |
-|-------|----------------|
-| **1 — Read After Certainty** | Published catalog editions have SSR chapter pages with body HTML, footnotes, TOC/prev-next, a11y baseline; chapters eligible for sitemap/search; overview links work; E2E smoke green; downloads still available; cohort = all published catalog books (READ-010) |
-| **2 — Deepen Reading** | Local progress + continue reading; bookmarks; text-size controls; TOC drawer + copy section link; in-book search shipped; offline spike complete (**defer**) |
-| **3 — Editorial and historical** | Evidence workflow exists; confirmed dates backfilled; priority enrichment batch 6–9 + poems done or explicitly re-prioritized; thin relatedWorks/situations closed; historical What’s New for dated works |
-| **4 — Semantic traceability** | Definition helper live; thinker coverage panel (+ JSON-LD); targeted grounding batch done; creatorNames warnings cleared; provenance UI decided |
-| **5 — Think Together** | Brief accepted; at least one lightweight pilot path live **or** explicit deferral recorded in §12 |
+Only genuinely remaining outcomes. Each entry must pass the value test (problem, benefit, who, evidence, consequence).
+
+### OPS-001 — Root CONTRIBUTING + semantic contribution guidelines
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Now |
+| **Problem** | Contributors and agents lack a single root entry for corpus vs site paths, validation commands, and review expectations. |
+| **Benefit** | Fewer incorrect PRs (wrong tree, skipped `make check`, semantic edits without schema awareness). |
+| **Who** | Kevin, future contributors, Cursor agents |
+| **Evidence** | No root `CONTRIBUTING.md`; only `apps/site/docs/contributing-*.md` |
+| **Consequence if skipped** | Repeated agent/contributor mistakes; slower reviews |
+| **Why now** | Unblocks clearer issue routing (with OPS-001b) after reader/discovery are stable |
+| **Acceptance** | File exists; links schemas, `make check`, site contributing guides |
+| **Changes** | author/editor workflow; contribution/community capability |
+
+### OPS-001b — Issue templates for corpus vs site
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Now |
+| **Problem** | GitHub issues have no templates separating manuscript/semantic vs `apps/site` bugs. |
+| **Benefit** | Cleaner triage; agents file in the right lane. |
+| **Who** | Kevin, contributors |
+| **Evidence** | No `.github/ISSUE_TEMPLATE/` |
+| **Consequence if skipped** | Misfiled issues; slower triage |
+| **Acceptance** | Templates distinguish corpus vs site; parallel with OPS-001 |
+| **Changes** | contribution/community capability |
+
+### ANALYTICS-001 — Reader funnel events
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Discovery analytics exist, but chapter open / next-chapter / download-from-reader are not instrumented. |
+| **Benefit** | Kevin can see whether on-site reading is used vs downloads alone, and where readers drop off. |
+| **Who** | Kevin (product decisions); readers indirectly via better prioritization |
+| **Evidence** | `events.ts` has search/questions/trails/books events; no reader funnel events; reader chrome is live |
+| **Consequence if skipped** | Reader investment cannot be validated with data |
+| **Why later than OPS** | Reader is shipped; contribution hygiene unblocks more people sooner |
+| **Acceptance** | Consent-gated events documented; no raw manuscript text or queries; GA4 Admin note in external queue |
+| **Changes** | site maintainability; discoverability of product priorities |
+
+### PROVENANCE-002 — Thinker concept coverage panel
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Thinker pages do not clearly show concept coverage vs empty state when linked works have concepts. |
+| **Benefit** | Readers understand what a thinker is “about” on-site without hunting works. |
+| **Who** | Readers; Kevin evaluating graph usefulness |
+| **Evidence** | [`thinker-concept-site-issues.md`](../audits/thinker-concept-site-issues.md); many thinkers still thin in audit reports |
+| **Acceptance** | Panel on thinker detail; honest empty state |
+| **Changes** | reader experience; discoverability |
+
+### PROVENANCE-003 — JSON-LD `knowsAbout` for thinkers
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Thinker pages miss structured data for concept associations when `concepts` exist. |
+| **Benefit** | Better machine-readable discoverability for thinkers that already have concept links. |
+| **Who** | Readers via search engines; site SEO |
+| **Evidence** | Thinker routes exist; concept links exist for some thinkers; `knowsAbout` not emitted |
+| **Acceptance** | JSON-LD only when real concept links exist |
+| **Changes** | discoverability |
+
+### PROVENANCE-004 — Explore thinkers by concept filter
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next (after more concept links) |
+| **Problem** | `/explore/thinkers` cannot filter by concept. |
+| **Benefit** | Readers find interlocutors for a theme without scanning cards. |
+| **Who** | Readers |
+| **Evidence** | Thinkers index exists; filter absent; data richness still uneven |
+| **Why later** | Filter value rises after PROVENANCE-005 adds links |
+| **Acceptance** | URL-shareable filter; empty states |
+| **Changes** | reader experience; discoverability |
+
+### PROVENANCE-005 — Targeted thinker↔work concept grounding
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next (editorial) |
+| **Problem** | Many public thinkers have empty concept lists; mass-fill would create noise. |
+| **Benefit** | Priority thinkers become useful navigation hubs for readers. |
+| **Who** | Readers; Kevin (priority list) |
+| **Evidence** | [`reports/thinker-concept-audit.md`](../../reports/thinker-concept-audit.md) |
+| **Acceptance** | Documented selection criteria; audit shows reduction for selected set; no spam links |
+| **Kevin** | Required for priority list |
+| **Changes** | data trustworthiness; discoverability |
+
+### PROVENANCE-006 — Normalize multi-author `creatorNames` mismatches
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | ~11 metadata-quality warnings for multi-author display/punctuation. |
+| **Benefit** | Cleaner source/thinker attribution on site and in audits; fewer false “data broken” signals for agents. |
+| **Who** | Readers (attribution); Kevin/agents (trust in reports) |
+| **Evidence** | [`reports/semantic-metadata-quality-audit.md`](../../reports/semantic-metadata-quality-audit.md); enrichment gaps report |
+| **Acceptance** | Regenerated audit shows 0 of those warnings |
+| **Changes** | data trustworthiness |
+
+### PROVENANCE-007 — Concept grounding + pattern provenance batch
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next (editorial, bounded) |
+| **Problem** | Grounding/provenance exists for a representative sample; further coverage is selective. |
+| **Benefit** | High-value patterns/concepts show why they appear in the graph—readers can trust the claim. |
+| **Who** | Readers; Kevin |
+| **Evidence** | Enrichment gaps report (20 patterns / 15 relationships as representative) |
+| **Acceptance** | Agreed batch size; coverage gain without quantity spam |
+| **Changes** | data trustworthiness |
+
+### CORPUS-001 — Publication-date evidence file + backfill workflow
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Most books lack authored publication dates; agents must not invent them from Git. |
+| **Benefit** | What’s New history and newest sorting become trustworthy where evidence exists. |
+| **Who** | Readers; Kevin |
+| **Evidence** | [`reports/publication-date-audit.md`](../../reports/publication-date-audit.md) (six dated; most unknown) |
+| **Acceptance** | Workflow documented; template + one example; unknown remains allowed |
+| **Kevin** | Required for evidence rows |
+| **Changes** | discoverability; author/editor workflow |
+
+### CORPUS-002 — Confirm Amazon ASINs for two authority titles
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Two ASINs need human confirmation before dates/change events can be authored. |
+| **Benefit** | Authority titles gain accurate history on What’s New and catalog sorting. |
+| **Who** | Kevin / external retailer check |
+| **Evidence** | Publication-date audit; enrichment gaps (`B0DWZ2ZFXG`, `B0GJ3QZQ1V`) |
+| **Acceptance** | Dates with evidence notes; change events; audit regen |
+| **Changes** | discoverability |
+
+### CORPUS-003 — Chapter enrichment: before-certainty-arrives
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Priority title lacks full chapter summaries used by in-book search and orientation. |
+| **Benefit** | Readers find chapters by theme; overviews and search improve. |
+| **Who** | Readers; Kevin (editorial judgment) |
+| **Evidence** | Enrichment gaps report — deferred priority books 6–9 |
+| **Acceptance** | Completeness present==total for the book; manifest regenerates clean |
+| **Changes** | reader experience; discoverability |
+
+### CORPUS-004 — Expand living-in-sediment beyond sample
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Only a sample of chapters has summaries (report: 1/21-class thinness). |
+| **Benefit** | Same as CORPUS-003 for this title. |
+| **Who** | Readers; Kevin |
+| **Evidence** | Enrichment gaps report |
+| **Acceptance** | Full coverage for reading units |
+| **Changes** | reader experience; discoverability |
+
+### CORPUS-005 — Chapter enrichment: the-economy-we-dont-experience
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Priority title lacks full chapter enrichment. |
+| **Benefit** | In-book search and orientation for economic themes. |
+| **Who** | Readers; Kevin |
+| **Evidence** | Enrichment gaps report |
+| **Acceptance** | Full chapter enrichment; clean manifest |
+| **Changes** | reader experience; discoverability |
+
+### CORPUS-006 — Fiction summaries: boundary-conditions
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Fiction needs anti-proof, low-spoiler summaries—not essay-style claims. |
+| **Benefit** | Readers can browse fiction chapters without spoiled plots or wrong genre tone. |
+| **Who** | Readers; Kevin (voice/spoiler judgment) |
+| **Evidence** | Enrichment gaps; literary form fiction |
+| **Acceptance** | Fiction-safe summaries authored |
+| **Changes** | reader experience |
+
+### CORPUS-007 — Poem summaries: observer-patterns
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | Poem kinds export without poem-level summaries. |
+| **Benefit** | In-book/search orientation for poetry without forcing prose essay tone. |
+| **Who** | Readers; Kevin (poetry voice) |
+| **Evidence** | Enrichment gaps (20 poems; summaries not authored) |
+| **Acceptance** | Poem-level summaries for exported poem kinds |
+| **Changes** | reader experience; discoverability |
+
+### CORPUS-008 — relatedWorks + situations for thin titles
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | `trust-beyond-similarity` and `what-we-cannot-see` still miss typed relatedWorks / situationCoverage. |
+| **Benefit** | Cross-book discovery and situation browsing improve for thin titles. |
+| **Who** | Readers |
+| **Evidence** | Enrichment gaps “Thin / partial remaining” |
+| **Acceptance** | Typed links present; completeness improves |
+| **Changes** | discoverability |
+
+### CORPUS-009 — Historical What’s New backfill
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next |
+| **Problem** | What’s New is sparse where real publication dates exist but events were never authored. |
+| **Benefit** | Readers see honest project history; newest sorting gains signal. |
+| **Who** | Readers; Kevin |
+| **Evidence** | Publication-date audit; change-event sparsity |
+| **Dependencies** | CORPUS-001/002 where applicable |
+| **Acceptance** | Events validate; `/whats-new` shows historical entries; no fabricated dates |
+| **Changes** | discoverability |
+
+### OPS-003 — Complete GitHub settings checklist
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Next (external) |
+| **Problem** | Manual GitHub protections remain unchecked in-repo. |
+| **Benefit** | Branch protection and related settings reduce accidental force-pushes and unsafe merges. |
+| **Who** | Kevin (org/repo UI) |
+| **Evidence** | [`github-settings-checklist.md`](../security/github-settings-checklist.md) open checkboxes |
+| **Acceptance** | Items checked or waived with notes |
+| **Changes** | repository reliability |
+
+### Later — TOGETHER-001 (trigger-gated)
+
+| Field | Value |
+|-------|-------|
+| **Horizon** | Later |
+| **Problem** | Site marketing says “think together” but no participation product exists. |
+| **Benefit** | Only worth building if a mechanism offers something Substack, GitHub issues, email, or existing discussion channels do not—e.g. chapter-tied reflection with editorial curation and no accounts. |
+| **Who** | Kevin (policy); readers if piloted |
+| **Evidence** | Marketing quotes only; no routes/schema |
+| **Trigger** | Kevin chooses a Think Together pilot |
+| **Acceptance** | Written brief with in/out of scope; feeds or declines TOGETHER-002/003 |
+| **Changes** | contribution/community capability (if accepted) |
 
 ---
 
-## 15. Open decisions
+## 9. Completion ledger (retired task IDs)
 
-Unresolved product/editorial decisions (not implementation tasks):
+Preserved for commits, issues, and docs. Do not renumber survivors. Do not reopen under a new ID unless the remaining outcome is materially different.
 
-1. ~~**Native Reader pilot cohort**~~ — **Resolved (READ-010):** all published catalog editions with manuscript chapters; see [`native-reader-v1-cohort.md`](../native-reader-v1-cohort.md).  
-2. ~~**Chapter URL final aesthetics**~~ — **Resolved (READ-001):** `/explore/books/{editionSlug}/chapters/{chapterSlug}` (= manifest `routeKey`).  
-3. **Search visibility for fiction/poetry chapters** — index summaries or titles-only?  
-4. **Download vs Read online** primary CTA once reader exists.  
-5. **Think Together mechanism** — GitHub-only vs form vs curated submissions; public vs private responses.  
-6. **Relationship provenance public UI** — ship or defer (PROVENANCE-008).  
-7. **Offline reading** — spike then defer (default) vs prioritize.  
-8. **Nav emphasis** — whether Questions deserves primary nav (questions plan leftover).  
-9. **Enrichment vs reader sequencing** — default here: reader may launch on enriched pilots without waiting for books 6–9.
+| ID | Status | Note |
+|----|--------|------|
+| READ-001 | Complete | Chapter URL / identity contract |
+| READ-002 | Complete | SSR chapter routes |
+| READ-003 | Complete | Manuscript HTML pipeline |
+| READ-004 | Complete | TOC + prev/next |
+| READ-005 | Complete | Search eligibility for live chapters |
+| READ-006 | Complete | Overview → chapter links |
+| READ-007 | Complete | Footnotes / anchors |
+| READ-008 | Complete | Reader a11y baseline |
+| READ-009 | Complete | Sitemap + E2E smoke |
+| READ-010 | Complete | Cohort = all published catalog editions |
+| READ-011 | Complete | Local reading progress |
+| READ-012 | Complete | Continue-reading entry points |
+| READ-013 | Complete | Local bookmarks |
+| READ-014 | Complete | Text size / reading preferences |
+| READ-015 | Complete | TOC drawer + copy section link |
+| READ-016 | Complete | In-book search (titles/summaries) |
+| READ-017 | Complete — defer (no-ship) | Offline spike; reopen per spike doc |
+| PROVENANCE-001 | Complete | `getConceptDisplayDefinition` shipped and wired |
+| OPS-002 | Complete | README points at this roadmap |
+| INGRAM-001–011 | Complete | See IngramSpark historical roadmap |
+| TOGETHER-002 | Deferred (gated) | After TOGETHER-001 only |
+| TOGETHER-003 | Deferred (gated) | After TOGETHER-001, or fold into OPS feedback path |
+| PROVENANCE-008 | Deferred (Kevin) | Ship or permanently defer after product decision |
 
-**Resolved by READ-001:** Public chapter URLs are frozen as `/explore/books/{editionSlug}/chapters/{chapterSlug}` (manifest `routeKey`). See [`docs/semantic-chapter-identity.md`](../semantic-chapter-identity.md).
+**Active open IDs:** OPS-001, OPS-001b, OPS-003, ANALYTICS-001, PROVENANCE-002–007, CORPUS-001–009, TOGETHER-001 (Later).
 
 ---
 
-## Assumptions that could not be fully verified
+## 10. Definition of done (current horizon)
 
-- **Production deploy contents** were not audited live; repository + build scripts are primary evidence.  
-- **Committed reports** under `reports/` are dated **2026-07-23**; regenerate before treating counts as current truth.  
-- **Situations** routes exist; corpus sparsity may make the index look empty — that is data volume, not missing routes.  
-- Mid-document “current state” snapshots inside older site roadmaps (especially canonical-status §2) are **historical** and may contradict headers that say Phases A–H landed.  
-- No dedicated accessibility or Lighthouse report artifacts were found under `reports/`; a11y claims for discovery rely on code patterns and E2E, not a committed audit file.
+The current roadmap horizon is complete when:
+
+1. Root contribution docs and issue templates exist (OPS-001 / OPS-001b).  
+2. Reader funnel events ship privacy-safely (ANALYTICS-001), or are explicitly waived with reason.  
+3. Publication-date workflow exists and known ASIN confirmations are resolved or documented unknown (CORPUS-001/002).  
+4. Remaining priority enrichment books/poems in CORPUS-003–008 are done or explicitly deprioritized with reason.  
+5. At least PROVENANCE-002/003 land for thinker discoverability; further grounding stays targeted.  
+6. Think Together remains brief-gated until Kevin triggers it.  
+7. No completed reader/discovery/monorepo/IngramSpark work is listed as active backlog.
+
+---
+
+## 11. Links
+
+| Kind | Paths |
+|------|-------|
+| Index | [`docs/roadmaps/README.md`](README.md) |
+| Historical plans | [`monorepo-migration-plan.md`](monorepo-migration-plan.md); [`ingramspark-distribution-target.md`](ingramspark-distribution-target.md); site plans under `apps/site/docs/roadmaps/` |
+| Procedures | [`ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md); [`search-quality-workflow.md`](../../apps/site/docs/roadmaps/search-quality-workflow.md) |
+| Contracts | [`semantic-manifest-contract.md`](../semantic-manifest-contract.md); [`semantic-chapter-identity.md`](../semantic-chapter-identity.md); [`book-cover-assets.md`](../book-cover-assets.md) |
+| Reports | [`reports/`](../../reports/) (regenerate for truth; do not hand-edit values) |
+| Editorial SoT | [`upcoming/docs/portfolio-status.md`](../../upcoming/docs/portfolio-status.md) |
+| Security ops | [`github-settings-checklist.md`](../security/github-settings-checklist.md) |
+| Deferred spikes | [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md); [`search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md) |
 
 ---
 
 ## Document maintenance
 
-When a phase completes, update §4 and trim §5–7 rather than opening a parallel “remaining roadmap v2.” Keep specialized plans authoritative for search quality, embeddings evaluation, monorepo history, and cover ops.
+When a task completes: move its ID to the completion ledger, remove it from §8 and from Now/Next, and update §1 if project position changed. Do not leave phases marked Active with no remaining work.

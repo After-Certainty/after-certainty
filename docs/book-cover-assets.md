@@ -1,5 +1,8 @@
 # Book cover web assets
 
+**Status:** Living contract (not a roadmap).  
+**Remaining product work:** [`docs/roadmaps/remaining-product-roadmap.md`](roadmaps/remaining-product-roadmap.md).
+
 Deterministic WebP derivatives for the public site. Original covers under `books/**`
 remain the archival source of truth.
 

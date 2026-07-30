@@ -1,5 +1,8 @@
 # Search quality workflow (Phase E)
 
+**Status:** Living operating procedure (not a roadmap)  
+**Related:** Historical design — [`global-search-plan.md`](global-search-plan.md); deferred embeddings — [`search-embeddings-evaluation.md`](search-embeddings-evaluation.md); remaining product work — [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md).
+
 How unresolved and weak searches become better aliases, descriptions, and ranking — without turning analytics into a query log.
 
 ## Principles

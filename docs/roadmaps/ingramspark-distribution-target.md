@@ -1,14 +1,22 @@
 # IngramSpark distribution target
 
-**Status:** Complete (2026-07) — initial IngramSpark packaging roadmap delivered  
+**Status:** Complete (2026-07) — historical design + delivery record  
 **Created:** 2026-07-25  
 **Completed:** 2026-07-26  
-**Repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
-**Planning inspection commit:** repository state as of this document’s creation (mainline audit)
+**Repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)
 
-**Scope of this document:** Design (and record delivery of) an opt-in build mode that produces a submission-kit ZIP for IngramSpark ebook and/or print upload. Historical design decisions remain here; day-to-day opt-in steps live in [`docs/publishing/ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md).
+**Document role:** Retained for the original requirements audit, major design decisions, and completion evidence. It is **not** an active backlog. Day-to-day packaging and upload steps live in [`docs/publishing/ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md). Cross-layer remaining work: [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Index: [`docs/roadmaps/README.md`](README.md).
 
-**Related roadmaps:** [`remaining-product-roadmap.md`](remaining-product-roadmap.md) remains authoritative for cross-layer product backlog; this document owns IngramSpark packaging specifically.
+> **Historical planning snapshot**  
+> Mid-document gap tables, “current state” audits, and planning-only language describe the repository **when this plan was written**. They are **not** current gaps. Pilots are account-uploaded with `status: production-approved`. Treat §5–§22 planning-time inventories as history unless a section is explicitly labeled delivered outcome.
+
+**Three layers to keep distinct**
+
+| Layer | Meaning |
+|-------|---------|
+| **Original planning-time state** | Pre-implementation gaps and requirement conflicts recorded for rationale |
+| **Delivered implementation** | INGRAM-001–011 complete; EKL / OP (print) / WOBL kits in use |
+| **Optional future extensions** | Non-blocking; reopen only under triggers in the remaining-product roadmap (PDF/X on rejection, hardcover when planned, etc.) |
 
 ---
 
@@ -1423,7 +1431,17 @@ High level: configure ISBNs → assets/wrap → measure even page count → pack
 
 No further INGRAM catalog tasks. For another 6×9 cream paperback on the Pandoc path, follow [`docs/publishing/ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md).
 
-Optional later work (new roadmap or ad hoc): OP poetry EPUB; hardcover / other manufacturing; promote interior PDF/X rules from advisory if account policy settles; turn on `immutable_release` only if ISBN-tagged archives are wanted.
+**Optional future extensions (not active product backlog):**
+
+| Extension | Status in remaining-product roadmap |
+|-----------|-------------------------------------|
+| OP poetry / Typst ebook | Later / ad hoc when needed |
+| Hardcover / non-house trims / color interiors | Not currently worth doing — reopen when a real edition is planned |
+| Promote interior PDF/X from advisory | Later — trigger: Ingram rejection or new printer policy |
+| `immutable_release` ISBN-tagged archives | Not currently worth doing — rolling `latest` meets pilot need |
+| Structured cover-warning IDs / page-count sync productization | Not active — errors already classified; sync residual risk owned by the operating procedure |
+
+Do not promote these into the remaining-product Now/Next lists without a new demonstrated benefit. See [`remaining-product-roadmap.md`](remaining-product-roadmap.md) §7.
 
 ---
 

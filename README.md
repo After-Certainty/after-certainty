@@ -1,8 +1,10 @@
 # After Certainty
 
-This repository is the **corpus and publishing** home for After Certainty. It also hosts the public website under [`apps/site/`](apps/site/) (imported from the former [`after-certainty-site`](https://github.com/ksteffe/after-certainty-site) repository; see the [monorepo migration plan](docs/roadmaps/monorepo-migration-plan.md)).
+This repository is the **corpus and publishing** home for After Certainty. It also hosts the public website under [`apps/site/`](apps/site/) (imported from the former [`after-certainty-site`](https://github.com/ksteffe/after-certainty-site) repository; migration record: [monorepo migration plan](docs/roadmaps/monorepo-migration-plan.md)).
 
 **Corpus layout is unchanged:** books and semantic YAML stay at the repository root. The site is a workspace app that builds from a same-checkout semantic manifest; the public release manifest remains available for external consumers.
+
+**Planning:** Remaining product and corpus work is tracked in the [remaining product roadmap](docs/roadmaps/remaining-product-roadmap.md). Roadmap index and document hierarchy: [docs/roadmaps/README.md](docs/roadmaps/README.md).
 
 ## Toolchains
 

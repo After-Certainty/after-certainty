@@ -1,15 +1,20 @@
 # Global Search — Technical and Product Plan
 
-**Status:** Planning only (not implemented)  
+**Status:** Complete — historical design record (Global Search V1 shipped)  
 **Repository:** `apps/site/` (`ksteffe/after-certainty`)  
 **Date:** 2026-07-19  
-**Location:** `docs/roadmaps/global-search-plan.md` (chosen because the repo’s only existing doc under `docs/` is `security-assessment.md`; there is no prior roadmaps folder. This path matches the request and keeps architectural plans discoverable alongside security assessment notes.)
+**Completed:** 2026-07 (V1 live at `/search`)
+
+**Document role:** Retained for design rationale. Not an active backlog. Day-to-day quality work: [`search-quality-workflow.md`](search-quality-workflow.md). Embeddings remain deferred: [`search-embeddings-evaluation.md`](search-embeddings-evaluation.md). Remaining cross-layer work: [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md).
+
+> **Historical planning snapshot**  
+> Sections that describe missing site-wide search, remote ISR-only manifests, or “planning only” implementation reflect the site **before** V1 shipped. Prefer live routes, E2E, and `lib/search/*` over mid-document “current state” tables.
 
 ---
 
 ## 1. Executive summary
 
-After Certainty is a Next.js App Router site on Vercel that surfaces an intellectual commons from ISR-fetched JSON manifests (semantic graph, books catalog, podcast RSS). Visitors already browse by entity type and explore relationships in the Observatory, but there is no site-wide way to ask an ordinary question or type a phrase and land in the right place.
+After Certainty is a Next.js App Router site on Vercel that surfaces an intellectual commons from a same-checkout semantic manifest (plus podcast RSS). Visitors browse by entity type and explore relationships in the Observatory. **Global Search V1** adds a site-wide way to ask an ordinary question or type a phrase and land in the right place.
 
 **Global Search V1** should make that intellectual structure discoverable without becoming a generative assistant. The recommended architecture is:
 

@@ -2,7 +2,8 @@
 
 **Version:** 1.0  
 **Date:** 2026-07-06  
-**Status:** Living document
+**Status:** Living contract (not a roadmap)  
+**Remaining product work:** [`docs/roadmaps/remaining-product-roadmap.md`](roadmaps/remaining-product-roadmap.md)
 
 ---
 

@@ -1,18 +1,26 @@
 ---
 name: refresh-manifest
 description: >-
-  Pull the latest semantic-manifest.json from the after-certainty content
-  repository release and update the bundled fallback. Use when manifest
-  changes are deployed upstream, including v1.5 enriched sources or v2
-  thinkers array, and need to be synced to the site repo.
+  OBSOLETE — remote manifest pull for the former standalone site repo.
+  The monorepo builds from a same-checkout local semantic manifest.
 ---
 
 # Refresh Semantic Manifest
 
-## Purpose
+**Status:** Obsolete / stale — do not follow
 
-Sync the bundled [`data/semantic-manifest.json`](../../data/semantic-manifest.json) 
-with the latest release from `ksteffe/after-certainty`.
+This skill targeted the archived `after-certainty-site` repository’s remote-fetch
+workflow. Monorepo migration Phase 6 removed runtime remote manifest sync.
+Same-checkout build: `make generate-semantic-manifest` / `npm run site:build:local`.
+See [`docs/roadmaps/monorepo-migration-plan.md`](../roadmaps/monorepo-migration-plan.md)
+and [`docs/roadmaps/remaining-product-roadmap.md`](../roadmaps/remaining-product-roadmap.md).
+
+---
+
+## Purpose (historical)
+
+Sync the bundled site fixture `data/semantic-manifest.json` (path relative to the
+former standalone site repo) with the latest release from `ksteffe/after-certainty`.
 
 Upstream migration: [semantic-thinkers-sources-migration.md](https://github.com/ksteffe/after-certainty/blob/main/docs/semantic-thinkers-sources-migration.md)
 

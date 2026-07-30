@@ -1,13 +1,17 @@
 # Canonical Editions, What’s New, and Book Overviews — Product, Content, UX, and Technical Plan
 
 **Deliverable path:** [`docs/roadmaps/canonical-status-whats-new-book-overviews-plan.md`](canonical-status-whats-new-book-overviews-plan.md)  
-**Location rationale:** The repo stores product and architecture plans under [`docs/roadmaps/`](./) (e.g. [`start-with-a-question-plan.md`](start-with-a-question-plan.md), [`global-search-plan.md`](global-search-plan.md)). Contributing guides live at [`docs/`](../). This document follows that convention.
+**Location:** `apps/site/docs/roadmaps/` in the monorepo.
 
-**Status:** Planning complete. **Phases A–H landed** — publication registry, resolution, status/edition labels, What’s New, book overview content model, redesigned overview IA, and book ↔ What’s New cross-links with trail/search consistency polish.
+**Status:** Complete — historical design record (**Phases A–H landed**)  
+**Completed:** 2026-07
 
-**Scope of this document:** Product and technical plan. Implementation proceeds in phases A–H.
+**Document role:** Retained for design rationale (editions, What’s New, book overviews). Not an active backlog. Remaining cross-layer work (e.g. historical What’s New backfill where dates are confirmed): [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md).
 
-**Legend:** Statements marked **(fact)** are grounded in the repository as inspected. Statements marked **(judgment)** are product or architecture recommendations.
+> **Historical planning snapshot**  
+> Mid-document catalog counts, `publicationDate: null` tables, and “implementation proceeds in phases” language describe the site **at plan-writing time**. Prefer live routes and current semantic data over those snapshots. (Fixture path examples in older sections may use planning-time layouts.)
+
+**Legend:** Statements marked **(fact)** were grounded in the repository as inspected at planning time. Statements marked **(judgment)** were product or architecture recommendations.
 
 ---
 

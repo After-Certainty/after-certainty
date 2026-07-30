@@ -1,9 +1,15 @@
 # Follow-Up Issues Backlog
 
+**Status:** Stale / weak source of truth — May 2026 snapshot  
 **Date:** 2026-05-21  
 **Source:** Portfolio promotion readiness audit ([#99](https://github.com/ksteffe/after-certainty/issues/99))
 
-Suggested GitHub issues for the repository owner to file. Dependencies noted where sequencing matters.
+**Do not treat this document as the active backlog.** Prefer:
+
+- Editorial portfolio: [`upcoming/docs/portfolio-status.md`](../../upcoming/docs/portfolio-status.md)
+- Remaining product/platform work: [`docs/roadmaps/remaining-product-roadmap.md`](../roadmaps/remaining-product-roadmap.md)
+
+Suggested GitHub issues below were for the repository owner to file at audit time. Many promotion items have since landed; verify against portfolio-status before acting.
 
 ---
 

@@ -1,5 +1,8 @@
 # Semantic manifest contract (v2.3)
 
+**Status:** Living contract — rules implementations must preserve (not a roadmap).  
+**Remaining product work:** [`docs/roadmaps/remaining-product-roadmap.md`](roadmaps/remaining-product-roadmap.md).
+
 `semantic-manifest.json` is a **public, generated API**. YAML under `books/` and `semantic/` is canonical; the manifest is never hand-edited.
 
 ## Compatibility policy
