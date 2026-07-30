@@ -510,6 +510,27 @@ def test_barcode_reserve_too_small_warns(tmp_path: Path) -> None:
 
 
 @requires_pillow
+def test_barcode_reserve_too_large_warns(tmp_path: Path) -> None:
+    meta = _assembled_meta()
+    # ~2.58×1.52 in — historically used, but Ingram rejected oversized boxes.
+    meta["barcode_reserve"] = {
+        "required": True,
+        "panel": "back",
+        "x_pixels": 200,
+        "y_pixels": 400,
+        "width_pixels": 775,
+        "height_pixels": 455,
+    }
+    repo = _temp_repo(tmp_path)
+    book_dir = _fixture_book(repo, meta=meta)
+    _page_count(repo)
+    spec = load_spec_for_book_dir(book_dir)
+    result = convert_raster_wrap(repo=repo, book_dir=book_dir, spec=spec)
+    assert any("larger than the Ingram placement size" in w for w in result.warnings)
+    assert not any("larger than the Ingram placement size" in e for e in result.errors)
+
+
+@requires_pillow
 def test_website_exclusion(tmp_path: Path) -> None:
     repo = _temp_repo(tmp_path)
     book_dir = _fixture_book(repo)

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
@@ -122,12 +123,14 @@ def test_build_exports_returns_reloaded_spec_after_sync(
 
     # Force a stale in-memory / on-disk page count so sync must rewrite during export.
     text = (book_dir / "book.yml").read_text(encoding="utf-8")
-    (book_dir / "book.yml").write_text(
-        text.replace("template_page_count: 74", "template_page_count: 76").replace(
-            "template_page_count: 100", "template_page_count: 76"
-        ),
-        encoding="utf-8",
+    updated, n = re.subn(
+        r"(template_page_count:\s*)\d+",
+        r"\g<1>76",
+        text,
+        count=1,
     )
+    assert n == 1
+    (book_dir / "book.yml").write_text(updated, encoding="utf-8")
     stale = load_spec_for_book_dir(book_dir)
     assert (
         stale["publishing"]["targets"]["ingramspark"]["print"]["cover"]["template_page_count"] == 76

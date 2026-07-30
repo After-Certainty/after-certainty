@@ -29,6 +29,9 @@ TEMPLATE_META_SCHEMA_PATH = (
 POINTS_PER_INCH = 72.0
 MIN_BARCODE_WIDTH_INCHES = 1.75
 MIN_BARCODE_HEIGHT_INCHES = 1.0
+# Ingram places a ~1.755" × 1.0" barcode; oversized clear boxes have been rejected.
+MAX_BARCODE_WIDTH_INCHES = 1.76
+MAX_BARCODE_HEIGHT_INCHES = 1.05
 
 _TEMPLATE_META_SCHEMA_CACHE: dict[str, Any] | None = None
 
@@ -517,8 +520,9 @@ def validate_barcode_reserve_geometry(
     """
     Return (errors, warnings) for barcode reserve geometry.
 
-    Undersized reserves (below 1.75×1.0 in) are warnings so assembly/PDF preflight can
-    still run while flagging artwork that needs a larger clear area.
+    Undersized reserves (below 1.75×1.0 in) and oversized reserves (above ~1.76×1.05 in)
+    are warnings so assembly/PDF preflight can still run while flagging artwork that
+    needs a clear area matching Ingram's placement size.
     """
     errors: list[str] = []
     warnings: list[str] = []
@@ -546,6 +550,18 @@ def validate_barcode_reserve_geometry(
             f"barcode_reserve height {reserve.height_inches:.4f} in is smaller than the "
             f"approved minimum {MIN_BARCODE_HEIGHT_INCHES} in; enlarge the clear area on "
             f"the back panel before IngramSpark upload"
+        )
+    if reserve.width_inches - 1e-9 > MAX_BARCODE_WIDTH_INCHES:
+        warnings.append(
+            f"barcode_reserve width {reserve.width_inches:.4f} in is larger than the "
+            f"Ingram placement size (~{MAX_BARCODE_WIDTH_INCHES} in); shrink the clear "
+            f"box toward 1.75×1.0 in (Ingram may reject oversized barcode boxes)"
+        )
+    if reserve.height_inches - 1e-9 > MAX_BARCODE_HEIGHT_INCHES:
+        warnings.append(
+            f"barcode_reserve height {reserve.height_inches:.4f} in is larger than the "
+            f"Ingram placement size (~{MAX_BARCODE_HEIGHT_INCHES} in); shrink the clear "
+            f"box toward 1.75×1.0 in (Ingram may reject oversized barcode boxes)"
         )
 
     try:

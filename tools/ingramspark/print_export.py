@@ -217,6 +217,16 @@ def _pandoc_pdf(
             staged.append(unit)
 
         margin = f"{margin_in}in"
+        # includefoot/includehead keep page numbers and running heads inside the
+        # margin box so ink stays ≥ recommended_margin_inches from trim (IngramSpark
+        # interior type safety). Without these, LaTeX places the footer in the
+        # bottom margin and page numbers fall inside the 0.5" safety strip.
+        # Pass geometry as one option so Pandoc emits a single usepackage line.
+        geometry = (
+            f"paperwidth={width_in}in,paperheight={height_in}in,"
+            f"top={margin},bottom={margin},left={margin},right={margin},"
+            "includefoot,includehead"
+        )
         cmd = [
             pandoc,
             *[p.as_posix() for p in staged],
@@ -224,17 +234,7 @@ def _pandoc_pdf(
             f"--pdf-engine={pdf_engine}",
             "--from=markdown+fenced_divs+raw_tex",
             "-V",
-            f"geometry:paperwidth={width_in}in",
-            "-V",
-            f"geometry:paperheight={height_in}in",
-            "-V",
-            f"geometry:top={margin}",
-            "-V",
-            f"geometry:bottom={margin}",
-            "-V",
-            f"geometry:left={margin}",
-            "-V",
-            f"geometry:right={margin}",
+            f"geometry:{geometry}",
             "-o",
             out_pdf.as_posix(),
         ]

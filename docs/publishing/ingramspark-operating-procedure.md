@@ -148,9 +148,11 @@ make validate-ingramspark-print-cover DIR=books/<book-id>
 
 Details (bleed ownership, barcode reserve, inspection overlay): [`ingramspark-raster-wrap.md`](ingramspark-raster-wrap.md).
 
-**Barcode:** house default is `ingram-generated` — leave a clear ≈1.75″×1″ reserve on the back; do not draw a barcode in the PNG.
+**Barcode:** house default is `ingram-generated` — leave a clear **1.75″×1″** reserve on the back (Ingram’s placement size); do not draw a barcode in the PNG, and do not leave a much larger white design box.
 
-**Spine text:** Ingram forbids spine text on paperbacks under 48 pages. Keep `spine_text: false` below that threshold.
+**Spine text:** Ingram forbids spine text on paperbacks under 48 pages. Keep `spine_text: false` below that threshold. When spine text is used, keep all spine ink inside the pink type-safety band (≥0.04″ side clear on thin spines after cropping `spine.png`).
+
+**Interior margins:** Print export uses the profile `recommended_margin_inches` (0.55″) with `includefoot`/`includehead` so body text, page numbers, and glyph overhang stay inside Ingram’s ≥0.5″ interior safety area.
 
 ---
 

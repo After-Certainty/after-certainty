@@ -165,11 +165,13 @@ barcode_reserve:
   panel: back
   x_pixels: …          # top-left in the back panel image
   y_pixels: …
-  width_pixels: …      # must be ≥ 1.75 in at required_ppi
-  height_pixels: …     # must be ≥ 1.0 in at required_ppi
+  width_pixels: …      # target 1.75 in at required_ppi (Ingram placement size)
+  height_pixels: …     # target 1.0 in at required_ppi
 ```
 
 Uniform `bleed_points` (all sides equal) remains accepted. Single-wrap may still use flat `expected_width_pixels` / `expected_height_pixels` and point-based barcode reserves.
+
+Keep the barcode clear box at about **1.75″ × 1.0″**. Undersized reserves warn below that floor; oversized boxes (much larger white rectangles) also warn — Ingram has rejected covers when the placeholder was substantially bigger than the barcode they place.
 
 ### Consistency
 
@@ -197,6 +199,10 @@ After page-count changes, regenerate **spine.png** (and update `template-meta.ym
 ## Barcode reserve
 
 Belongs to the **back** panel when `barcode_mode: ingram-generated`. Validated against back geometry; shown on the inspection overlay; listed for human review. Approximate blankness detection is heuristic only. No barcode is generated.
+
+## Spine type safety
+
+For perfect-bound spines under 0.35″, keep all spine ink (title, author, ornaments) inside a centered band with ≥0.04″ clear on each side of the **cropped** `spine.png` (Ingram’s published thin-spine minimum is 0.03125″; the extra pad survives page-count center-crops from `spine-source.png`). Fit glyph size to that band height before rotating type onto the spine — do not size type by fitting the full title string into the spine width.
 
 ## Color conversion
 
