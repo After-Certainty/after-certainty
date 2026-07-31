@@ -1,7 +1,8 @@
 # Brief: Introduction — The Merge Button
 
-**Drafting status:** not started  
-**Manuscript stub:** [`../../front-matter/introduction-the-merge-button.md`](../../front-matter/introduction-the-merge-button.md)
+**Drafting status:** draft (awaiting author review)  
+**Manuscript:** [`../../front-matter/introduction-the-merge-button.md`](../../front-matter/introduction-the-merge-button.md)  
+**Source check:** He et al. arXiv:2607.01904 verified 2026-07-31 (802 developers; 196,212 PRs; 2.09× throughput; reviewer load ~doubled; automated review overtook human; merge/revert stable).
 
 ## Chapter title
 

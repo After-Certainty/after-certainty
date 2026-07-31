@@ -4,7 +4,7 @@
 **Author:** Kevin Steffensen  
 **Series:** After Certainty  
 **Status:** Upcoming / in development (`upcoming.status: in_progress`)  
-**Current phase:** Architecture and research (Phase 0)
+**Current phase:** Phase 1 — Outline to prose (Introduction drafted)
 
 ## Premise
 

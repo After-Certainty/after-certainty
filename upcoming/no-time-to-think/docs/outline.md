@@ -57,7 +57,7 @@ A green “Merge” button at the bottom of a software pull request.
 
 See [`planning/00-introduction-the-merge-button.md`](planning/00-introduction-the-merge-button.md).
 
-**Drafting status:** not started
+**Drafting status:** draft (awaiting author review)
 
 ---
 

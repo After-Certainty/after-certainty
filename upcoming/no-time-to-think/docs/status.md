@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Phase 0 — Structure**
+**Phase 1 — Outline to prose** (Introduction drafted; awaiting author review before next unit)
 
 ## Active branch
 
-`cursor/upcoming-two-book-scaffolds-6d58` (initial scaffold). Use `upcoming/no-time-to-think-<phase>` when focused work begins.
+`cursor/no-time-to-think-intro-draft-6d58`
 
 ## Manuscript hub
 
@@ -23,7 +23,7 @@
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — The Merge Button | not started | Stub + planning brief |
+| Introduction — The Merge Button | draft | Prose drafted; He et al. 2x study reverified (arXiv:2607.01904); awaiting author review |
 | Part I bridge | not started | Stub |
 | Chapter 1 — The Dashboard | not started | Stub + planning brief |
 | Chapter 2 — The Signature | not started | Stub + planning brief |
@@ -42,18 +42,18 @@
 
 ## Next actions
 
-1. Author review of outline import and part/chapter naming.
-2. Reverify Part I 2026 current-event anchors before any prose drafting.
+1. Author review of Introduction — The Merge Button.
+2. On approval: draft Chapter 1 — The Dashboard (reverify productivity-measurement anchors first).
 3. Deepen historical source dossiers for Part II (Taylor, Ford, checklists, Challenger, TMI).
 
 ## Open decisions / known issues
 
 - Is the title too close to a general busyness critique, or does the shifted-bottleneck argument differentiate it?
-- Should the opening remain in software, or begin with a more universally legible object?
+- Opening retained in software (Merge button) per outline; revisit only if author wants a more universally legible doorway.
 - Which stories show successful redesign rather than only pressure and risk?
 - Two-object conclusion discipline: Merge button (doorway) + stop-work card (institutional answer).
 
 ## Rough scale
 
-- Manuscript words (parts + front/back matter): ~0 (stubs only)
-- Last assessed: docs scaffold (July 2026)
+- Manuscript words (parts + front/back matter): ~850 (Introduction draft; other units stubs)
+- Last assessed: July 2026 intro draft
