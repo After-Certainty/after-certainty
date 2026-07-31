@@ -4,7 +4,7 @@
 **Author:** Kevin Steffensen  
 **Series:** After Certainty  
 **Status:** Upcoming / in development (`upcoming.status: in_progress`)  
-**Current phase:** Phase 1 — Outline to prose (Introduction drafted)
+**Current phase:** Phase 1 complete — full first prose draft (~10.8k); DOCX review export enabled
 
 ## Premise
 

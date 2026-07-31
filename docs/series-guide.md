@@ -294,7 +294,7 @@ Production can accelerate faster than a system’s capacity to understand, verif
 
 **Question:** What social and institutional conditions must exist before thinking is actually possible?
 
-**Status:** Phase 1 drafting under [`upcoming/no-time-to-think/`](../upcoming/no-time-to-think/) (Introduction drafted; awaiting author review).
+**Status:** First prose draft under [`upcoming/no-time-to-think/`](../upcoming/no-time-to-think/) (~10.8k; DOCX review export enabled; awaiting author whole-book review).
 
 ### [The Case That Does Not Fit](../upcoming/the-case-that-does-not-fit/index.md)
 

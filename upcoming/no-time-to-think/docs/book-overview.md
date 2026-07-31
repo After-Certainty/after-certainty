@@ -10,7 +10,7 @@
 | Series | After Certainty |
 | Status | Upcoming / in development |
 | Spec status | `upcoming.status: in_progress` |
-| Current phase | Phase 1 — Outline to prose (Introduction drafted) |
+| Current phase | Phase 1 complete — full first prose draft; DOCX enabled |
 | Spec | [`upcoming.yml`](../upcoming.yml) |
 
 ## Short premise

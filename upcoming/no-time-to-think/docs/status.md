@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Outline to prose** (Introduction + Part I chs. 1–3 + Part III chs. 9–11 + conclusion drafted; awaiting author review)
+**Phase 1 complete (full first prose draft)** — all units drafted; awaiting manuscript-wide author review. DOCX export enabled for review builds.
 
 ## Active branch
 
@@ -23,37 +23,38 @@
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — The Merge Button | draft | ~894 words; He et al. 2x study; awaiting author review |
-| Part I bridge | not started | Stub (keep short) |
-| Chapter 1 — The Dashboard | draft | Expanded prose; layoff memo as supporting passage; awaiting review |
-| Chapter 2 — The Signature | draft | Expanded prose; GAO notes citation; awaiting review |
-| Chapter 3 — The Control Tower Clock | draft | Expanded prose; FAA workforce citation; awaiting review |
-| Part II bridge | not started | Stub |
-| Chapter 4 — The Stopwatch | not started | Stub + planning brief |
-| Chapter 5 — The Conveyor Belt | not started | Stub + planning brief |
-| Chapter 6 — The Checklist | not started | Stub + planning brief |
-| Chapter 7 — The Launch Schedule | not started | Stub + planning brief |
-| Chapter 8 — The Alarm Panel | not started | Stub + planning brief |
-| Part III bridge | not started | Stub (keep short) |
-| Chapter 9 — What History Preserved | draft | Expanded prose; awaiting review |
-| Chapter 10 — The Work After Automation | draft | Expanded prose; awaiting review |
-| Chapter 11 — The Missing Steering Wheel | draft | Expanded prose; Zoox/AP citation; awaiting review |
-| Conclusion — The Place Where Speed Stops | draft | Expanded prose; two-object close; awaiting review |
+| Introduction — The Merge Button | draft | ~894 words; He et al. 2x study reverified |
+| Part I bridge | draft | Short bridge |
+| Chapter 1 — The Dashboard | draft | Layoff memo as supporting passage |
+| Chapter 2 — The Signature | draft | GAO medical-notes citation |
+| Chapter 3 — The Control Tower Clock | draft | FAA workforce plan citation |
+| Part II bridge | draft | Short bridge; Challenger/TMI framed |
+| Chapter 4 — The Stopwatch | draft | Taylor / measurement |
+| Chapter 5 — The Conveyor Belt | draft | Ford line / system pace |
+| Chapter 6 — The Checklist | draft | Aviation memory friction |
+| Chapter 7 — The Launch Schedule | draft | Challenger / stop authority |
+| Chapter 8 — The Alarm Panel | draft | TMI / comprehension |
+| Part III bridge | draft | Short bridge |
+| Chapter 9 — What History Preserved | draft | Stop-work card / calibration |
+| Chapter 10 — The Work After Automation | draft | Scarce post-generation work |
+| Chapter 11 — The Missing Steering Wheel | draft | Zoox / AP citation reverified |
+| Conclusion — The Place Where Speed Stops | draft | Two-object close + responsible-speed list |
 
 ## Next actions
 
-1. Author review of Introduction and newly expanded Part I / Part III / conclusion units.
-2. Deepen historical source dossiers for Part II (Taylor, Ford, checklists, Challenger, TMI), then draft chs. 4–8.
-3. Keep bridges short; do not expand them in the same pass as chapters.
+1. Author manuscript-wide review (whole-book pass).
+2. Deepen historical source dossiers and lock Part II footnotes (Taylor, Ford, checklists, Challenger, TMI).
+3. Phase 2 unit passes after author feedback; keep EPUB/PDF disabled until promotion.
 
 ## Open decisions / known issues
 
 - Is the title too close to a general busyness critique, or does the shifted-bottleneck argument differentiate it?
 - Opening retained in software (Merge button) per outline; revisit only if author wants a more universally legible doorway.
 - Which stories show successful redesign rather than only pressure and risk?
-- Two-object conclusion discipline: Merge button (doorway) + stop-work card (institutional answer).
+- Historical footnotes still marked for dossier verification before citation lock.
 
 ## Rough scale
 
-- Manuscript words (expanded units): Introduction ~894; chs. 1–3 and 9–11 ~750–860 body each; conclusion ~500+ body
-- Last assessed: July 2026 batch expansion (chs. 1–3, 9–11, conclusion)
+- Manuscript words (intro + parts + conclusion): ~10.8k (essay-band first draft)
+- `build.formats.docx.enabled: true` (with `interior_finish: true`); epub/pdf still false
+- Last assessed: July 2026 full first prose draft
