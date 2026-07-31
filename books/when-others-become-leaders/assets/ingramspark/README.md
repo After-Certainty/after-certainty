@@ -5,7 +5,7 @@ Production source assets for `assembled-raster-wrap` (not website covers). Deriv
 title uploaded to IngramSpark (2026-07); `book.yml` status is `production-approved`.
 
 ```
-back.png          # 1838×2775 @ 300 ppi — atmosphere + 3-line back copy + barcode reserve
+back.png          # 1838×2775 @ 300 ppi — atmosphere + 3-line back copy + 1.75×1.0 in white barcode reserve
 spine-source.png  # wider labeled master for page-count recrops (title/author centered)
 spine.png         # 96×2775 @ 300 ppi — dark brown spine + cream title/author (128 pages)
 front.png         # 1838×2775 @ 300 ppi — upscaled cover fitted into trim+bleed
