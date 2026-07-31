@@ -177,8 +177,8 @@ def make_back(
     bottom = h - inches_to_px(BARCODE_BOTTOM_INSET_IN)
     x0 = cx - bw // 2
     y0 = bottom - bh
-    # Quiet white/cream reserve for Ingram-generated barcode.
-    draw.rounded_rectangle((x0, y0, x0 + bw, y0 + bh), radius=8, fill=(248, 245, 238))
+    # Quiet white reserve for Ingram-generated barcode (must be white, ~1.75×1.0 in).
+    draw.rounded_rectangle((x0, y0, x0 + bw, y0 + bh), radius=8, fill=(255, 255, 255))
 
     copy_lines = [ln.strip() for ln in (lines or []) if ln.strip()]
     if len(copy_lines) > 3:

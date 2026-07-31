@@ -5,7 +5,7 @@ Production source assets for `assembled-raster-wrap` (not website covers). Deriv
 to IngramSpark (2026-07); `book.yml` status is `production-approved`.
 
 ```
-back.png          # 1838×2775 @ 300 ppi — atmosphere + 3-line back copy + barcode clear reserve
+back.png          # 1838×2775 @ 300 ppi — atmosphere + 3-line back copy + 1.75×1.0 in white barcode reserve
 spine-source.png  # 44×2775 @ 300 ppi — uncropped master for page-count recrops
 spine.png         # 24×2775 @ 300 ppi — center-cropped for 32 cream pages (provisional)
 front.png         # 1838×2775 @ 300 ppi — upscaled cover fitted into trim+bleed
