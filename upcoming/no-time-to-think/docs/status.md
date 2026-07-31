@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 — Outline to prose** (Introduction drafted; awaiting author review before next unit)
+**Phase 1 — Outline to prose** (Introduction + Part I drafts in progress; Part II chapters 4–8 expanded)
 
 ## Active branch
 
@@ -28,12 +28,12 @@
 | Chapter 1 — The Dashboard | not started | Stub + planning brief |
 | Chapter 2 — The Signature | not started | Stub + planning brief |
 | Chapter 3 — The Control Tower Clock | not started | Stub + planning brief |
-| Part II bridge | not started | Stub |
-| Chapter 4 — The Stopwatch | not started | Stub + planning brief |
-| Chapter 5 — The Conveyor Belt | not started | Stub + planning brief |
-| Chapter 6 — The Checklist | not started | Stub + planning brief |
-| Chapter 7 — The Launch Schedule | not started | Stub + planning brief |
-| Chapter 8 — The Alarm Panel | not started | Stub + planning brief |
+| Part II bridge | draft | Slightly expanded; Challenger/TMI framing retained |
+| Chapter 4 — The Stopwatch | draft | Expanded ~800 words; awaiting author review |
+| Chapter 5 — The Conveyor Belt | draft | Expanded ~750+ words; awaiting author review |
+| Chapter 6 — The Checklist | draft | Expanded ~750+ words; awaiting author review |
+| Chapter 7 — The Launch Schedule | draft | Expanded ~750+ words; awaiting author review |
+| Chapter 8 — The Alarm Panel | draft | Expanded ~750+ words; awaiting author review |
 | Part III bridge | not started | Stub |
 | Chapter 9 — What History Preserved | not started | Stub + planning brief |
 | Chapter 10 — The Work After Automation | not started | Stub + planning brief |
@@ -55,5 +55,5 @@
 
 ## Rough scale
 
-- Manuscript words (parts + front/back matter): ~850 (Introduction draft; other units stubs)
-- Last assessed: July 2026 intro draft
+- Manuscript words (Part II bridge + ch. 4–8 prose): ~4,300 expanded in this pass
+- Last assessed: July 2026 Part II expansion pass
