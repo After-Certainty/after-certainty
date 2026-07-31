@@ -1,6 +1,6 @@
 # Brief: Conclusion — The Place Where Speed Stops
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../back-matter/conclusion-the-place-where-speed-stops.md`](../../back-matter/conclusion-the-place-where-speed-stops.md)
 
 ## Chapter title

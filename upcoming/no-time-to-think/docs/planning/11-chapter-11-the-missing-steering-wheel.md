@@ -1,6 +1,6 @@
 # Brief: Chapter 11 — The Missing Steering Wheel
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-3-responsible-speed/chapter-11-the-missing-steering-wheel.md`](../../parts/part-3-responsible-speed/chapter-11-the-missing-steering-wheel.md)
 
 ## Chapter title

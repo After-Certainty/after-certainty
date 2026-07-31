@@ -1,6 +1,6 @@
 # Brief: Chapter 8 — The Alarm Panel
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-2-where-the-constraint-went/chapter-8-the-alarm-panel.md`](../../parts/part-2-where-the-constraint-went/chapter-8-the-alarm-panel.md)
 
 ## Chapter title

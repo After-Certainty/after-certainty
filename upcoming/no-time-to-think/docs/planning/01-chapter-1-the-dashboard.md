@@ -1,6 +1,6 @@
 # Brief: Chapter 1 — The Dashboard
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-1-the-acceleration-around-us/chapter-1-the-dashboard.md`](../../parts/part-1-the-acceleration-around-us/chapter-1-the-dashboard.md)
 
 ## Chapter title

@@ -1,6 +1,6 @@
 # Brief: Chapter 6 — The Checklist
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-2-where-the-constraint-went/chapter-6-the-checklist.md`](../../parts/part-2-where-the-constraint-went/chapter-6-the-checklist.md)
 
 ## Chapter title

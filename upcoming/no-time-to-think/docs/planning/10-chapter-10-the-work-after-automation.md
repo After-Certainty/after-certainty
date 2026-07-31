@@ -1,6 +1,6 @@
 # Brief: Chapter 10 — The Work After Automation
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-3-responsible-speed/chapter-10-the-work-after-automation.md`](../../parts/part-3-responsible-speed/chapter-10-the-work-after-automation.md)
 
 ## Chapter title

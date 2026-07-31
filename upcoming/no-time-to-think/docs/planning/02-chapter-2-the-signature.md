@@ -1,6 +1,6 @@
 # Brief: Chapter 2 — The Signature
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-1-the-acceleration-around-us/chapter-2-the-signature.md`](../../parts/part-1-the-acceleration-around-us/chapter-2-the-signature.md)
 
 ## Chapter title

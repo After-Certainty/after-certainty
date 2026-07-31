@@ -21,7 +21,8 @@ paths:
 build:
   formats:
     docx:
-      enabled: false
+      enabled: true
+      interior_finish: true
     epub:
       enabled: false
     pdf:

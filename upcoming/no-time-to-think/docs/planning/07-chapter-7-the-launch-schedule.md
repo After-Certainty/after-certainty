@@ -1,6 +1,6 @@
 # Brief: Chapter 7 — The Launch Schedule
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-2-where-the-constraint-went/chapter-7-the-launch-schedule.md`](../../parts/part-2-where-the-constraint-went/chapter-7-the-launch-schedule.md)
 
 ## Chapter title

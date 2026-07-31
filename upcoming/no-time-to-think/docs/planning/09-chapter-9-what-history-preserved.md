@@ -1,6 +1,6 @@
 # Brief: Chapter 9 — What History Preserved
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-3-responsible-speed/chapter-9-what-history-preserved.md`](../../parts/part-3-responsible-speed/chapter-9-what-history-preserved.md)
 
 ## Chapter title

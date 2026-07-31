@@ -1,6 +1,6 @@
 # Brief: Chapter 3 — The Control Tower Clock
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-1-the-acceleration-around-us/chapter-3-the-control-tower-clock.md`](../../parts/part-1-the-acceleration-around-us/chapter-3-the-control-tower-clock.md)
 
 ## Chapter title

@@ -1,6 +1,6 @@
 # Brief: Chapter 5 — The Conveyor Belt
 
-**Drafting status:** not started  
+**Drafting status:** draft (full manuscript pass; awaiting author review)  
 **Manuscript stub:** [`../../parts/part-2-where-the-constraint-went/chapter-5-the-conveyor-belt.md`](../../parts/part-2-where-the-constraint-went/chapter-5-the-conveyor-belt.md)
 
 ## Chapter title

@@ -1,3 +1,27 @@
-# Chapter 1 — The Dashboard
+\newpage
 
-<!-- Draft not started. See docs/planning/01-chapter-1-the-dashboard.md -->
+# **Chapter 1**
+
+## **The Dashboard**
+
+A productivity dashboard glows with arrows pointing upward.
+
+Commits are up. Tickets closed are up. Documents generated are up. Messages sent are up. Time saved—whatever that means in the current slide—is up. The colors are green. The room relaxes. Leadership has proof that the investment worked.
+
+The dashboard is not lying about the numbers it was built to display. That is part of the trouble. Metrics do not merely observe work. They teach an organization what to pursue. When generation becomes cheap, the easiest measurements are often volume and velocity: how many artifacts appeared, how quickly they moved, how much human typing was avoided. Those measures can be real. They can also become a moral account of the workplace before anyone has agreed on what productivity is for.
+
+Research on AI coding assistants has continued to find genuine productivity gains alongside substantial variation by setting and persistent disagreement about what should count.[^c1-he-throughput] Some teams finish more pull requests. Some individuals report less toil on repetitive tasks. Some settings show little lasting change once the novelty wears off. The evidence does not settle into a single number that managers can paste into a forecast. What it does settle is a sharper problem: immediate output is a poor substitute for comprehension, ownership, maintainability, and learning—the slower capacities that determine whether today’s acceleration becomes tomorrow’s debt.
+
+The distinction matters because leaders often promise gains before the organization has settled the definition. Possibility becomes pressure. A tool that *can* increase throughput becomes a mandate that *must*. Forecasts harden into staffing plans. Staffing plans harden into budgets. Budgets harden into the quiet assumption that anyone who asks for more review time is resisting progress. The dashboard, once a window, becomes a scoreboard. What cannot be plotted there starts to feel optional, then invisible, then like waste.
+
+Consider a layoff memo as a supporting case, not the whole story. The memo arrives after a quarter of green arrows. It speaks the language of efficiency, focus, and right-sizing. Headcount falls. The work does not. Coordination, exception handling, informal mentoring, and the memory of why a brittle system behaves as it does do not leave with the people who carried them. They reappear as review load, maintenance debt, onboarding friction, or unowned consequence. Someone still has to explain the odd failure mode. Someone still has to notice that two fluent changes conflict. Someone still has to teach the new hire what the dashboard will never show. The memo is not primarily about cruelty. It is about belief formation: an institution treated a partial measure as a complete forecast, then acted irreversibly on that belief. Generation looked cheaper. Judgment was never counted as capacity. When the org chart thinned, the dashboard could still show rising artifacts—until the people left to interpret those artifacts were gone.
+
+Which gains appear immediately? Output often does. A commit lands. A ticket closes. A document appears in the shared drive with a polished first draft. Which costs arrive later? The thinning of context. The loss of people who knew where the exceptions lived. The training path that no longer produces judgment because competent-looking artifacts can be generated without the apprenticeship that once taught what “good” meant. Ownership becomes harder to locate when many hands—and many models—touched the result. A system that once had slow experts who could explain a failure mode now has fast producers and a thinner bench of people who can say whether the failure mode still matters.
+
+Measurement converts possibility into obligation when the organization confuses what it can count with what it needs. Commits, tickets, documents, and messages are easy fields. Comprehension is not. Maintainability is not. The capacity of a team to revise a decision after consequence appears is not. None of those absences mean the dashboard is useless. They mean the dashboard is incomplete in a way that becomes dangerous precisely when it looks successful. Incomplete measurement is a kind of institutional blindness. The organization can celebrate a rise in artifacts while remaining silent about whether anyone still understands the system those artifacts enter.
+
+A serious productivity account would have to make room for those slower fields. Not by inventing a single replacement metric that pretends to solve judgment, but by refusing to treat volume alone as proof that the system got better. Did review capacity keep pace with generation? Did ownership remain named? Did newcomers still learn enough to interrupt a bad pattern? Did maintenance get staffed, or only deferred? Those questions do not glow green by default. They require an organization willing to look past the arrow—and willing to treat understanding as productive capacity rather than as delay.
+
+The arrow is green because output rose. The dashboard has no field for whether anyone still understands the system.
+
+[^c1-he-throughput]: See also Hao He et al., “AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate,” arXiv:2607.01904, July 2, 2026, https://arxiv.org/abs/2607.01904 — a documented case in which throughput rose while review load and the locus of scarce work shifted. Broader AI-assistant productivity findings vary by setting; treat “productivity” as a contested category, not a single settled number.
