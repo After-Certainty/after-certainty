@@ -288,7 +288,30 @@ Read before-arrives for **historical formation of moral order**; read living-in-
 
 ## Upcoming manuscripts
 
-None currently under `upcoming/` for nonfiction. New scaffolds start from [`upcoming/docs/_templates/`](../upcoming/docs/_templates/).
+### [No Time to Think](../upcoming/no-time-to-think/index.md)
+
+Production can accelerate faster than a system’s capacity to understand, verify, integrate, maintain, and care for what it produces. This book follows shifted bottlenecks—from Merge buttons and clinical signatures through Taylor, Ford, Challenger, and Three Mile Island—toward the design of responsible speed.
+
+**Question:** What social and institutional conditions must exist before thinking is actually possible?
+
+**Status:** Phase 0 structure scaffold under [`upcoming/no-time-to-think/`](../upcoming/no-time-to-think/).
+
+### [The Case That Does Not Fit](../upcoming/the-case-that-does-not-fit/index.md)
+
+Every rule is a compression. This book examines what happens when the ignored detail becomes the morally decisive one—and how institutions can preserve both protection from arbitrary judgment and protection from rules that mistook the case.
+
+**Question:** How can a system make room for the case its rules cannot understand without turning judgment into arbitrary power?
+
+**Status:** Phase 0 structure scaffold under [`upcoming/the-case-that-does-not-fit/`](../upcoming/the-case-that-does-not-fit/).
+
+### No Time to Think vs The Case That Does Not Fit
+
+**No Time to Think**: whether the institution still has the *capacity* for judgment—time, attention, context, review, stop authority.  
+**The Case That Does Not Fit**: whether the institution has the *architecture* to reconsider a category that failed a particular case.
+
+Read them as companions; do not collapse either into a general AI or culture-war critique.
+
+New scaffolds start from [`upcoming/docs/_templates/`](../upcoming/docs/_templates/).
 
 ---
 

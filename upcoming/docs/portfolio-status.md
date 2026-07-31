@@ -12,10 +12,12 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
+| [No Time to Think](../no-time-to-think/) | Phase 0 — Structure | Parking-place outline imported; heading stubs + planning briefs; no prose | Author review of outline; reverify Part I 2026 anchors | [status](../no-time-to-think/docs/status.md) |
+| [The Case That Does Not Fit](../the-case-that-does-not-fit/) | Phase 0 — Structure | Parking-place outline imported; heading stubs + planning briefs; no prose | Author review of durability/balance gates; reverify Part I 2026 anchors | [status](../the-case-that-does-not-fit/docs/status.md) |
 | [Why Diversity Matters](../../books/why-diversity-matters/) | Phase 0–1 | Essay edition in `books/`; outline scaffolds + interview questions | Author intro + chapter drafts | [status](../../books/why-diversity-matters/docs/status.md) |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 (essay edition) | Agent pipeline + echo gates complete; expansion decision locked (~14.5k) | Author sign-off on Parts III–IV gate; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 
-*No active nonfiction scaffolds remain under `upcoming/`. **The World We Make Together** was promoted to [`books/the-world-we-make-together/`](../../books/the-world-we-make-together/).*
+*Active under `upcoming/`:* **No Time to Think** and **The Case That Does Not Fit** (companion pair). **The World We Make Together** was promoted to [`books/the-world-we-make-together/`](../../books/the-world-we-make-together/).
 
 ## Published fiction
 
