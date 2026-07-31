@@ -35,12 +35,12 @@ raster:
 barcode_reserve:
   required: true
   panel: back
-  x_pixels: 551
-  y_pixels: 2154
-  width_pixels: 774
-  height_pixels: 456
+  x_pixels: 676
+  y_pixels: 2310
+  width_pixels: 525
+  height_pixels: 300
 barcode_supplied: false
 spine_text: false
 notes: Panels derived from book-cover.png for 32 cream pages (spine 24px / 5.76pt).
-  No spine text (page count < 48). Confirm geometry against the Cover Template Generator
-  before upload.
+  Spine is pattern-only (no spine text). Confirm geometry against the Cover Template
+  Generator before upload.
