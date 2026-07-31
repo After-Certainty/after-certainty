@@ -55,7 +55,17 @@ There is no single mandatory order. The table below groups books by **question**
 
 Not yet in the public export pipeline. See [`upcoming/docs/portfolio-status.md`](../upcoming/docs/portfolio-status.md) for active scaffolds.
 
+| Question | Book |
+|----------|------|
+| What conditions must exist before thinking is actually possible? | [No Time to Think](../upcoming/no-time-to-think/index.md) |
+| How can a system make room for the case its rules cannot understand? | [The Case That Does Not Fit](../upcoming/the-case-that-does-not-fit/index.md) |
+
 ### Disambiguation (high-overlap pairs)
+
+**Capacity vs reconsideration (companion pair)**
+
+- [**No Time to Think**](../upcoming/no-time-to-think/index.md) — systemic *capacity* for judgment under acceleration (time, attention, stop authority).
+- [**The Case That Does Not Fit**](../upcoming/the-case-that-does-not-fit/index.md) — *architecture* of reconsideration when a rule mistook the case.
 
 **Accountability / authority**
 
