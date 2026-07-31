@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Architectural constraints for **No Time to Think** (*Present-Day Acceleration, Historical Precedents, and the Design of Responsible Speed*).
+Architectural constraints for **No Time to Think** (*How Acceleration Relocates Judgment—and Why Institutions Must Protect It*).
 
 This is not a marketing brief. It preserves conceptual cohesion, stylistic consistency, and structural discipline across the manuscript.
 

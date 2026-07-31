@@ -110,7 +110,7 @@ Active scaffolds under [`upcoming/`](upcoming/) (Phase 0 — structure; exports 
 
 | Book | Hub |
 |------|-----|
-| **No Time to Think** — *Present-Day Acceleration, Historical Precedents, and the Design of Responsible Speed* | [`upcoming/no-time-to-think/`](upcoming/no-time-to-think/) |
+| **No Time to Think** — *How Acceleration Relocates Judgment—and Why Institutions Must Protect It* | [`upcoming/no-time-to-think/`](upcoming/no-time-to-think/) |
 | **The Case That Does Not Fit** — *Present-Day Cases, Historical Patterns, and Institutions Capable of Reconsideration* | [`upcoming/the-case-that-does-not-fit/`](upcoming/the-case-that-does-not-fit/) |
 
 See the [portfolio dashboard](upcoming/docs/portfolio-status.md). Judgment / compression cluster siblings are published under `books/`—see the Books table above.

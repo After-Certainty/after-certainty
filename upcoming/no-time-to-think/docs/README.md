@@ -1,6 +1,6 @@
 # No Time to Think — Planning Docs
 
-Central navigation for planning documents for *No Time to Think: Present-Day Acceleration, Historical Precedents, and the Design of Responsible Speed*.
+Central navigation for planning documents for *No Time to Think: How Acceleration Relocates Judgment—and Why Institutions Must Protect It*.
 
 ## Start here
 

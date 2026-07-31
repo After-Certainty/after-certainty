@@ -5,7 +5,7 @@
 | Field | Value |
 |-------|-------|
 | Title | No Time to Think |
-| Subtitle | Present-Day Acceleration, Historical Precedents, and the Design of Responsible Speed |
+| Subtitle | How Acceleration Relocates Judgment—and Why Institutions Must Protect It |
 | Author | Kevin Steffensen |
 | Series | After Certainty |
 | Status | Upcoming / in development |

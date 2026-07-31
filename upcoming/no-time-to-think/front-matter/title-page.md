@@ -1,7 +1,9 @@
+![](book-cover.png){ width=100% }
+
+\newpage
+
 # **No Time to Think**
 
-## **Present-Day Acceleration, Historical Precedents, and the Design of Responsible Speed**
+## **How Acceleration Relocates Judgment—and Why Institutions Must Protect It**
 
 **Kevin Steffensen**
-
-<!-- Scaffold placeholder. Cover and generated title page deferred until promotion. -->
