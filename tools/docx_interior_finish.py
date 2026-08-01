@@ -325,14 +325,21 @@ def _split_sections_at_openers(doc: Document) -> int:
     return len(body_openers)
 
 
-def _apply_document_metadata(doc: Document, *, title: str, subtitle: str, author: str) -> None:
+def _apply_document_metadata(
+    doc: Document,
+    *,
+    title: str,
+    subtitle: str,
+    author: str,
+    keywords: str = "",
+) -> None:
     """Set core properties used by Word, PDF converters, and accessibility tooling."""
     props = doc.core_properties
     props.title = title
     props.subject = subtitle
     props.author = author
     props.language = "en-US"
-    props.keywords = (
+    props.keywords = keywords.strip() or (
         "history; power; democracy; leadership; institutions; "
         "collective action; shared power; public philosophy"
     )
@@ -345,6 +352,7 @@ def finish_interior_docx(
     running_title: str,
     subtitle: str = "",
     author: str = "",
+    keywords: str = "",
 ) -> dict:
     """Apply interior finish conventions to *path* in place."""
     status = {
@@ -365,12 +373,13 @@ def finish_interior_docx(
 
     status["toc_removed"] = _remove_contents_page(doc)
     status["toc_field"] = False
-    if running_title or subtitle or author:
+    if running_title or subtitle or author or keywords:
         _apply_document_metadata(
             doc,
             title=running_title or "Manuscript",
             subtitle=subtitle or "",
             author=author or "",
+            keywords=keywords or "",
         )
         status["metadata"] = True
     doc.save(str(path))

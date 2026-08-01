@@ -55,6 +55,11 @@ def _book_author(spec: dict) -> str:
     return str(author or "").strip()
 
 
+def _book_keywords(spec: dict) -> str:
+    book = spec.get("book") if isinstance(spec.get("book"), dict) else {}
+    return str(book.get("keywords") or "").strip()
+
+
 def _maybe_finish_interior(out: Path, *, spec: dict) -> None:
     cfg = spec_format_config(spec, "docx")
     if cfg.get("interior_finish") is not True:
@@ -68,6 +73,7 @@ def _maybe_finish_interior(out: Path, *, spec: dict) -> None:
         running_title=_running_title(spec),
         subtitle=_book_subtitle(spec),
         author=_book_author(spec),
+        keywords=_book_keywords(spec),
     )
     print(f"interior_finish: {status}")
 

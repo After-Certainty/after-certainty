@@ -88,6 +88,6 @@ The mature rule system does not deny pressure. It builds the place where pressur
 
 [^c6-statute]: 18 U.S.C. § 3553(f), "Limitation on Applicability of Statutory Minimums in Certain Cases," https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section3553&num=0&edition=prelim.
 
-[^c6-pulsifer]: *Pulsifer v. United States*, 601 U.S. 124 (2024). The Court interpreted the criminal-history conditions in § 3553(f)(1) as independently disqualifying: failure to satisfy any one of them bars safety-valve relief.
+[^c6-pulsifer]: *Pulsifer v. United States*, 601 U.S. 124 (2024). The Court held that a defendant is ineligible if any one of the listed disqualifying criminal-history characteristics applies.
 
 [^c6-ussc-2023]: United States Sentencing Commission, "2023 Amendment In Brief: Amendment 817," https://www.ussc.gov/sites/default/files/pdf/amendment-process/amendments-in-brief/AIB_817.pdf.

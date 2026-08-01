@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Final reader-facing editorial and continuity pass complete** (~30.2k words). New subtitle in place; verification seams moved into footnotes; volatile 2026 anchors rechecked. Cover + OG wired; DOCX export enabled. **Not claimed production-ready.**
+**Final proof and production-preparation pass complete** (~30.2k words). Adjacent Ch7 footnotes merged; punctuation and outline seams cleaned; DOCX keywords/metadata corrected; cover alt text preserved. Regenerated DOCX/PDF proof inspected. **Not print- or ebook-production-ready.**
 
 ## Official title
 
@@ -19,37 +19,21 @@
 
 ## Key docs
 
-- [`book-rules.md`](book-rules.md)
-- [`drafting-process.md`](drafting-process.md)
-- [`outline.md`](outline.md)
-- Developmental deepening: [`research/developmental-deepening-pass-change-log.md`](research/developmental-deepening-pass-change-log.md)
-- Source verification: [`research/source-verification-editorial-consolidation-change-log.md`](research/source-verification-editorial-consolidation-change-log.md)
+- Final proof / production-prep log: [`research/final-proof-production-preparation-change-log.md`](research/final-proof-production-preparation-change-log.md)
 - Final continuity pass: [`research/final-reader-facing-editorial-continuity-change-log.md`](research/final-reader-facing-editorial-continuity-change-log.md)
+- Source verification: [`research/source-verification-editorial-consolidation-change-log.md`](research/source-verification-editorial-consolidation-change-log.md)
+- Developmental deepening: [`research/developmental-deepening-pass-change-log.md`](research/developmental-deepening-pass-change-log.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
 
-## Unit progress
+## Next actions (production)
 
-| Unit | Phase | Notes |
-|------|-------|-------|
-| Title / metadata | subtitle updated | Cover strapline vs subtitle flagged for production |
-| Author’s Note | settled | Composite disclosure |
-| Introduction | continuity | Acacia expired; counts in note |
-| Chapters 1–4 | continuity | Panian RECAP order; FERP note; stats language |
-| Chapters 5–8 | continuity | Petition/bill; *Pulsifer*; 504 narration; Ch8 seam |
-| Chapter 9–10 | settled | Light touch only |
-| Chapter 11 | continuity | Object-based continuity (no chapter-number outline) |
-| Conclusion | settled | Final “Other” lines exact |
-
-## Next actions
-
-1. Author whole-book DOCX review.
-2. Pre-publication recheck of unresolved volatile facts (see final continuity change log).
-3. Cover-design decision: strapline vs official subtitle.
-4. Production pass: typography, ebook, metadata, accessibility, hyperlinks.
+1. Cover strapline vs official subtitle design decision.
+2. Pre-publication volatile-fact recheck.
+3. Print / ebook / ISBN / BISAC / hyperlink / accessibility workflows.
 
 ## Rough scale
 
 - Manuscript words: **~30,200**
+- LibreOffice PDF proof: **95** letter pages (Word pagination may differ)
 - Formats: docx on (`interior_finish`); epub/pdf off
-- Cover + OG wired (OG config subtitle updated; image not regenerated this pass)
-- Last assessed: August 1, 2026 final reader-facing continuity pass
+- Last assessed: August 1, 2026 final proof / production-prep pass

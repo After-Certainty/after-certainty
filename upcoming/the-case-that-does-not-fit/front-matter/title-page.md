@@ -1,4 +1,4 @@
-![](book-cover.png){ width=100% }
+![Book cover for *The Case That Does Not Fit* by Kevin Steffensen, showing a tan case-file folder with a paper clip, an "Other" tab and blank line, and the book's governing statement.](book-cover.png){ width=100% }
 
 \newpage
 

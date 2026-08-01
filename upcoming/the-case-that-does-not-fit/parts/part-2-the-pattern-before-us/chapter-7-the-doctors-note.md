@@ -16,7 +16,7 @@ For a long time, people with disabilities were often required to bargain persona
 
 In April 1977, disability activists in San Francisco made that arrangement impossible to describe as enough. Section 504 of the Rehabilitation Act had been enacted in 1973, prohibiting disability discrimination in programs and activities receiving federal financial assistance.[^c7-dol-504] But regulations giving the provision practical force had been delayed. The American Coalition of Citizens with Disabilities pressed for a deadline. On April 5, 1977, protesters entered federal offices of the Department of Health, Education, and Welfare in San Francisco and stayed.[^c7-smithsonian-504]
 
-The occupation lasted nearly four weeks and became part of a national disability-rights protest demanding that HEW Secretary Joseph Califano sign the Section 504 regulations.[^c7-smithsonian-504][^c7-nps-504] Organizers and leaders included Judy Heumann, Kitty Cone, and Mary Jane Owen. The point of the occupation was not that one official should be kinder to one person at one counter. It was that access could not remain a matter of local generosity.
+The occupation lasted nearly four weeks and became part of a national disability-rights protest demanding that HEW Secretary Joseph Califano sign the Section 504 regulations.[^c7-504-sit-in] Organizers and leaders included Judy Heumann, Kitty Cone, and Mary Jane Owen. The point of the occupation was not that one official should be kinder to one person at one counter. It was that access could not remain a matter of local generosity.
 
 The pressure on the institution was concrete. Califano could sign regulations that would require covered institutions to treat disability access as a civil-rights obligation. Or he could continue the delay, leaving people to depend on informal accommodations, sympathetic administrators, and uneven local practice. The activists occupying the building were not asking for sentiment. They were demanding that the promise already placed in federal law become administrable.
 
@@ -74,7 +74,7 @@ Accommodation is not a favor added to equality. It is one of the ways equality l
 
 [^c7-smithsonian-504]: Smithsonian National Museum of American History, "Sitting-in for Disability Rights: The Section 504 Protests of the 1970s," https://americanhistory.si.edu/explore/stories/sitting-disability-rights-section-504-protests-1970s.
 
-[^c7-nps-504]: National Park Service, "504 Protest: Disability Community and Civil Rights," https://www.nps.gov/articles/000/504-protest-disability-community-and-civil-rights.htm.
+[^c7-504-sit-in]: Smithsonian National Museum of American History, "Sitting-in for Disability Rights: The Section 504 Protests of the 1970s," https://americanhistory.si.edu/explore/stories/sitting-disability-rights-section-504-protests-1970s; National Park Service, "504 Protest: Disability Community and Civil Rights," https://www.nps.gov/articles/000/504-protest-disability-community-and-civil-rights.htm.
 
 [^c7-dol-504]: U.S. Department of Labor, "Section 504, Rehabilitation Act of 1973," https://www.dol.gov/agencies/oasam/centers-offices/civil-rights-center/statutes/section-504-rehabilitation-act-of-1973.
 
