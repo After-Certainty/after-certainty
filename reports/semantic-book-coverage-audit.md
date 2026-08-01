@@ -22,8 +22,8 @@ Portfolio: **34** book specs (33 titles; WOLTY v1 + v2).
 
 | Book | G/P/S/T | Ch | Priority note |
 | --- | ---: | ---: | --- |
-| `living-in-sediment` | 0/0/72/73 | 1/21 | Strong sources; glossary link pass + chapters |
-| `when-others-become-leaders` | 0/0/53/49 | 0/15 | Same |
+| `living-in-sediment` | 5/3/72/73 | 1/21 | Overview concepts/patterns wired (2026-08-01); chapters still thin |
+| `when-others-become-leaders` | 6/4/53/49 | 0/15 | Overview concepts/patterns wired (2026-08-01); chapters still missing |
 | `how-serious-systems-learn` | 0/0/38/46 | 1/25 | Handbook |
 | `when-moral-seriousness-scales` | 0/0/22/19 | 0/17 | |
 | `when-others-look-to-you-v2` | 0/0/17/17 | 0/18 | Also absent from questions |
@@ -85,11 +85,12 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 
 ## Suggested extraction order
 
-1. **Sources** for `the-world-we-make-together` (biblio ready; chapters already done).
-2. **First semantic pass** for `no-time-to-think` and `the-case-that-does-not-fit` (wire glossary/patterns `relatedBooks`, search aliases, discovery shelves/questions/trails).
-3. **Glossary linking** for source-rich G=0 books (`living-in-sediment`, `when-others-become-leaders`, handbooks, …).
-4. **Chapter enrichment batch** for thin flagships (`coupling`, `before-certainty-arrives`, WOLTY v1, `when-interpretation-no-longer-matters`, …).
-5. **Biblio reconcile** for `when-interpretation-no-longer-matters` (stale RB) and `why-collaboration-is-so-hard`.
+1. ~~Sources for `the-world-we-make-together`~~ done (#442).
+2. ~~First semantic pass for `no-time-to-think` and `the-case-that-does-not-fit`~~ done (#442).
+3. ~~Glossary linking for `living-in-sediment` and `when-others-become-leaders`~~ done (overview spines wired).
+4. **Glossary linking** for remaining source-rich G=0 books (handbooks: `how-serious-systems-learn`, `the-discipline-of-uncertainty`, …).
+5. **Chapter enrichment batch** for thin flagships (`coupling`, `before-certainty-arrives`, WOLTY v1, `living-in-sediment`, `when-others-become-leaders`, …).
+6. **Biblio reconcile** for `when-interpretation-no-longer-matters` (stale RB) and `why-collaboration-is-so-hard`.
 
 ## How to regenerate
 
