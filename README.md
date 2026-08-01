@@ -95,6 +95,7 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **What We Cannot See** — *Bias, Judgment, and the Limits of Perspective* | [`books/what-we-cannot-see/index.md`](books/what-we-cannot-see/index.md) | Why partial perspective is structural; judgment under limits; integration as civilizational adaptation (~21k words). |
 | **Everyone Knows Love** — *Why Is It So Hard to Explain?* | [`books/everyone-knows-love/index.md`](books/everyone-knows-love/index.md) | Love as recognition before definition—seeing, giving, staying, repair, and care in ordinary life. |
 | **No Time to Think** — *How Acceleration Relocates Judgment—and Why Institutions Must Protect It* | [`books/no-time-to-think/index.md`](books/no-time-to-think/index.md) | What happens when production accelerates faster than capacity to verify, integrate, and stop—responsible speed and protected judgment. |
+| **The Case That Does Not Fit** — *How Rules Protect Us—and What Institutions Must Do When They Misread Us* | [`books/the-case-that-does-not-fit/index.md`](books/the-case-that-does-not-fit/index.md) | What happens when a rule’s compression mistook the case—architecture for reconsideration without abandoning fairness. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 
@@ -107,12 +108,6 @@ Together these manuscripts are part of the broader **After Certainty** thread: t
 
 ## Upcoming nonfiction
 
-Active scaffolds under [`upcoming/`](upcoming/) (Phase 0 — structure; exports disabled):
-
-| Book | Hub |
-|------|-----|
-| **The Case That Does Not Fit** — *Present-Day Cases, Historical Patterns, and Institutions Capable of Reconsideration* | [`upcoming/the-case-that-does-not-fit/`](upcoming/the-case-that-does-not-fit/) |
-
-See the [portfolio dashboard](upcoming/docs/portfolio-status.md). Judgment / compression cluster siblings are published under `books/`—see the Books table above.
+No active nonfiction scaffolds under [`upcoming/`](upcoming/) at present. See the [portfolio dashboard](upcoming/docs/portfolio-status.md). Judgment / compression cluster siblings—including *The Case That Does Not Fit*—are published under `books/`—see the Books table above.
 
 **Fiction:** **Velorum** — [`books/velorum/index.md`](books/velorum/index.md). **Boundary Conditions** (organizational fiction) — [`books/boundary-conditions/index.md`](books/boundary-conditions/index.md).

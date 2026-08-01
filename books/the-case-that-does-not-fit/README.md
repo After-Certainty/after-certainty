@@ -3,8 +3,8 @@
 **Subtitle:** How Rules Protect Us—and What Institutions Must Do When They Misread Us  
 **Author:** Kevin Steffensen  
 **Series:** After Certainty  
-**Status:** Upcoming / in development (`upcoming.status: in_progress`)  
-**Current phase:** Architecture and research (Phase 0)
+**Status:** Published manuscript under [`books/the-case-that-does-not-fit/`](.) (`publishing.enabled: true`)  
+**Current phase:** Phase 5 — promoted; production follow-ups open
 
 ## Premise
 
@@ -16,14 +16,12 @@ Rules make shared life possible. But every rule is a compression: it identifies 
 
 ## Companion title
 
-*The Case That Does Not Fit* examines the architecture of reconsideration. *No Time to Think* examines whether institutions still possess the capacity—time, attention, context, review, and stop authority—for judgment at all.
-
-## Setup note
-
-This scaffold pass creates repository structure, metadata, outline, chapter briefs, and research scaffolding. **No chapters have been drafted.**
+*The Case That Does Not Fit* examines the architecture of reconsideration. [*No Time to Think*](../no-time-to-think/) examines whether institutions still possess the capacity—time, attention, context, review, and stop authority—for judgment at all.
 
 ## Key paths
 
 - Manuscript hub: [`index.md`](index.md)
 - Planning hub: [`docs/README.md`](docs/README.md)
-- Spec: [`upcoming.yml`](upcoming.yml)
+- Spec: [`book.yml`](book.yml)
+- Status: [`docs/status.md`](docs/status.md)
+- Phase 5 report: [`docs/phase-5-promotion.md`](docs/phase-5-promotion.md)

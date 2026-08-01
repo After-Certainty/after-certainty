@@ -49,8 +49,8 @@ Lessons from the past for the future.
 
 [Series guide](../../docs/series-guide.md) · Rules, judgment, and institutional reconsideration
 
-- [No Time to Think](../../books/no-time-to-think/index.md) — capacity for judgment under acceleration (companion)
-- [When Incentives Become the Moral Language](../../books/when-incentives-become-the-moral-language/index.md) — when metrics replace judgment
-- [How Serious Systems Learn](../../books/how-serious-systems-learn/index.md) — designed revisability and learning
-- [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/index.md) — authority when public understanding collapses
-- [After Certainty](../../books/after-certainty/index.md) — practice capstone for judgment under limits
+- [No Time to Think](../no-time-to-think/index.md) — capacity for judgment under acceleration (companion)
+- [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/index.md) — when metrics replace judgment
+- [How Serious Systems Learn](../how-serious-systems-learn/index.md) — designed revisability and learning
+- [When Interpretation No Longer Matters](../when-interpretation-no-longer-matters/index.md) — authority when public understanding collapses
+- [After Certainty](../after-certainty/index.md) — practice capstone for judgment under limits

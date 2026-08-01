@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Final proof and production-preparation pass complete** (~30.2k words). Adjacent Ch7 footnotes merged; punctuation and outline seams cleaned; DOCX keywords/metadata corrected; cover alt text preserved. Regenerated DOCX/PDF proof inspected. **Not print- or ebook-production-ready.**
+**Phase 5 complete — promoted to `books/the-case-that-does-not-fit/`** (~30.2k words). Final proof / production-prep and cover-caption pipeline fix complete. **Not print- or ebook-production-ready** until cover strapline decision, volatile-fact recheck, and packaging workflows finish.
 
 ## Official title
 
@@ -19,11 +19,12 @@
 
 ## Key docs
 
+- Phase 5 promotion: [`phase-5-promotion.md`](phase-5-promotion.md)
 - Final proof / production-prep log: [`research/final-proof-production-preparation-change-log.md`](research/final-proof-production-preparation-change-log.md)
 - Final continuity pass: [`research/final-reader-facing-editorial-continuity-change-log.md`](research/final-reader-facing-editorial-continuity-change-log.md)
 - Source verification: [`research/source-verification-editorial-consolidation-change-log.md`](research/source-verification-editorial-consolidation-change-log.md)
 - Developmental deepening: [`research/developmental-deepening-pass-change-log.md`](research/developmental-deepening-pass-change-log.md)
-- Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
+- Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../../upcoming/docs/portfolio-status.md)
 
 ## Next actions (production)
 
@@ -34,6 +35,6 @@
 ## Rough scale
 
 - Manuscript words: **~30,200**
-- LibreOffice PDF proof: **95** letter pages (Word pagination may differ)
-- Formats: docx on (`interior_finish`); epub/pdf off
-- Last assessed: August 1, 2026 final proof / production-prep pass
+- Author Word proof: **74** pages; LibreOffice letter conversion may differ (~95)
+- Formats: docx / epub / pdf on (`interior_finish` for docx); `github.release: true`
+- Last assessed: August 1, 2026 Phase 5 promotion

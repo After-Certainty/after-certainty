@@ -1,0 +1,126 @@
+version: 1
+publishing:
+  enabled: true
+book:
+  id: the-case-that-does-not-fit
+  title: The Case That Does Not Fit
+  subtitle: How Rules Protect Us—and What Institutions Must Do When They Misread Us
+  description: Rules make shared life possible, but every rule is a compression. The Case That Does Not Fit examines what happens when the ignored detail becomes the morally decisive one—and how institutions can preserve both protection from arbitrary judgment and protection from rules that have mistaken a person for someone else.
+  author:
+    name: Kevin Steffensen
+    website: https://after-certainty.com
+  language: en
+  copyright_year: 2026
+  keywords: "rules; judgment; institutional design; reconsideration; discretion; due process; appeals; accommodation; automated decisions; administrative law"
+  title_page_cover: book-cover.png
+  open_graph_image: open-graph.png
+  content_type: nonfiction
+  literary_form: monograph
+  companion_books:
+  - no-time-to-think
+  overview:
+    centralQuestion: How can a system make room for the case its rules cannot understand without turning judgment into arbitrary power?
+    whyItExists: Rules protect people from arbitrary judgment, but every rule compresses reality. When the ignored detail becomes decisive, institutions need architecture for reconsideration—appeals, accommodation, discretion, and designed correctability—without abandoning fairness or consistency.
+    audience: Readers who work inside rules-bound institutions—administrators, clinicians, educators, engineers, lawyers, and citizens—who need language for when a category mistook the case.
+    nonGoals:
+    - It is not an argument against rules, consistency, or due process as such.
+    - It does not treat discretion as favoritism or nostalgia for unaccountable judgment.
+    - It is not a compliance checklist, litigation guide, or culture-war brief.
+    selectedConcepts:
+    - judgment
+    - compression
+    - revisability
+    - legitimacy
+    - accountability
+    - authority
+    selectedPatterns:
+    - revisability-preserves-judgment
+    - finality-compensates-for-uncertainty
+    - dissent-is-welcomed
+    selectedConceptRoles:
+    - conceptId: judgment
+      roleInWork: >
+        Names what rules cannot fully replace—recognizing when a compression has mistaken a
+        particular life for someone else's case.
+    - conceptId: compression
+      roleInWork: >
+        Central mechanism: every rule selects differences that count and ignores the rest; the
+        book follows what happens when ignored detail becomes morally decisive.
+    - conceptId: revisability
+      roleInWork: >
+        Tracks designed room to reopen a category—appeals, accommodation, blank lines—without
+        dissolving the rule into arbitrary local power.
+    - conceptId: legitimacy
+      roleInWork: >
+        Holds both protections at once: protection from arbitrary judgment and protection from
+        rules that mistook the person.
+    - conceptId: accountability
+      roleInWork: >
+        Keeps reconsideration answerable—who may reopen a decision, on what record, and with
+        what standing—so correction does not become favoritism.
+    - conceptId: authority
+      roleInWork: >
+        Frames who may interpret, override, or refuse a category when the form's blank line
+        fails to capture the case.
+    selectedPatternRoles:
+    - patternId: revisability-preserves-judgment
+      roleInWork: >
+        Deepens why appeals, accommodation, and designed pause keep judgment alive after a
+        category has already decided.
+    - patternId: finality-compensates-for-uncertainty
+      roleInWork: >
+        Shows how institutions close cases early to manage uncertainty—and what that costs the
+        person who does not fit.
+    - patternId: dissent-is-welcomed
+      roleInWork: >
+        Anchors protected disagreement and reconsideration channels as architecture, not
+        optional courtesy.
+    readBefore:
+    - no-time-to-think
+    - when-incentives-become-the-moral-language
+    readNext:
+    - how-serious-systems-learn
+    - after-certainty
+    relatedWorks:
+    - workId: no-time-to-think
+      relationship: companion_to
+      reason: Capacity for judgment under acceleration pairs with architecture for reconsidering a mistook case.
+    - workId: when-incentives-become-the-moral-language
+      relationship: companion_to
+      reason: Metrics that replace judgment pair with rules that compress away the decisive particular.
+    - workId: how-serious-systems-learn
+      relationship: deepens
+      reason: Designed revisability continues when institutions must reopen a category that failed a case.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Architecture for reconsideration prepares the practice question of judging under limits.
+paths:
+  manuscript: ./index.md
+  output: .
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+    # Custom book-specific About the Series is hand-maintained in
+    # front-matter/about-the-series.md — do not generate from the series template.
+build:
+  formats:
+    docx:
+      enabled: true
+      interior_finish: true
+    epub:
+      enabled: true
+    pdf:
+      enabled: true
+github:
+  release: true
+  release_tag: latest
+  artifacts:
+  - docx
+  - epub
+  - pdf

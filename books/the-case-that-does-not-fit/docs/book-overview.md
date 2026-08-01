@@ -8,10 +8,10 @@
 | Subtitle | How Rules Protect Us—and What Institutions Must Do When They Misread Us |
 | Author | Kevin Steffensen |
 | Series | After Certainty |
-| Status | Upcoming / in development |
-| Spec status | `upcoming.status: in_progress` |
-| Current phase | Architecture and research (Phase 0) |
-| Spec | [`upcoming.yml`](../upcoming.yml) |
+| Status | Published manuscript under `books/` |
+| Spec status | `publishing.enabled: true` |
+| Current phase | Phase 5 — promoted; production follow-ups open |
+| Spec | [`book.yml`](../book.yml) |
 
 ## Short premise
 
@@ -43,8 +43,8 @@ Legitimate institutions are not those that never make mistakes. They are those t
 
 ## Companion
 
-*The Case That Does Not Fit* complements [*No Time to Think*](../../../books/no-time-to-think/) (reconsideration architecture vs. capacity for judgment).
+*The Case That Does Not Fit* complements [*No Time to Think*](../no-time-to-think/) (reconsideration architecture vs. capacity for judgment).
 
-## Setup note
+## Companion path
 
-**No chapters have been drafted in this setup pass.** Manuscript files contain headings and planning pointers only. See [`status.md`](status.md).
+Relative from this book: [`../no-time-to-think/`](../no-time-to-think/).

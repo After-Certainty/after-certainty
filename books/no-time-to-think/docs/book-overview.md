@@ -44,4 +44,4 @@ Every organization decides where judgment will live. If it never makes that deci
 
 ## Companion
 
-*No Time to Think* complements [*The Case That Does Not Fit*](../../../upcoming/the-case-that-does-not-fit/) (capacity for judgment vs. reconsideration architecture).
+*No Time to Think* complements [*The Case That Does Not Fit*](../../the-case-that-does-not-fit/) (capacity for judgment vs. reconsideration architecture).
