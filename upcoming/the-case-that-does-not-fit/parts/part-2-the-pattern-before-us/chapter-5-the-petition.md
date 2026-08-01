@@ -60,7 +60,7 @@ Return, then, to the object. A petition can be small enough to hold in one hand.
 
 The petition does not abolish the printed form. It asks for the kind of attention the form cannot give.
 
-Rules protect people from arbitrary judgment. Equity's lasting lesson is that judgment must sometimes protect people from rules that have mistaken the kind of case before them. The petition is the old paper trace of that second protection.
+Equity's lasting lesson is that the second protection sometimes arrives as a petition: a disciplined place where judgment can notice that the ordinary form has mistaken the kind of case before it. The petition is the old paper trace of that capacity.
 
 ::: {custom-style="Closing Quote Block" .closing-quote}
 A lawful exception is not an escape from rules. It is the point at which the rule is required to remember what it was for.

@@ -58,7 +58,7 @@ The return to the posted order is a return to the ordinary surface of extraordin
 
 Every person reading it must live the consequence individually. That is the fact the category refuses to hold. The order is general. The loss is particular.
 
-Rules protect people from arbitrary judgment. But a rule built from fear and ancestry can become arbitrary judgment in general form. Judgment protects people from rules that have mistaken them for someone else. In this history, the institution's gravest failure was its refusal to ask who each person was before deciding what the category meant.
+A rule built from fear and ancestry can become arbitrary judgment in general form. In this history, the institution's gravest failure was its refusal to ask who each person was before deciding what the category meant.
 
 ::: {custom-style="Closing Quote Block" .closing-quote}
 Emergency does not remove the need for judgment. It reveals whether judgment has any structure strong enough to survive fear.

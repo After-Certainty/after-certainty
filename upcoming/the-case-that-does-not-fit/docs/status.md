@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**First full draft complete** (~28k words). Cover + open-graph wired; DOCX export enabled for author review. Not claimed publication-ready.
+**Developmental deepening pass complete** (~31k words). Lived Part I scenes and concrete Part II historical episodes added; Chapter 11 reorganized around three reconsideration movements. Cover + OG wired; DOCX export enabled. **Not claimed publication-ready.**
 
 ## Active branch
 
@@ -17,46 +17,33 @@
 - [`book-rules.md`](book-rules.md)
 - [`drafting-process.md`](drafting-process.md)
 - [`outline.md`](outline.md)
+- Developmental deepening change log: [`research/developmental-deepening-pass-change-log.md`](research/developmental-deepening-pass-change-log.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| About the Series / Author’s Note | drafted | Front matter complete |
-| Introduction — The Blank Line | drafted | Acacia / formal vs fictional access |
-| Part I bridge | drafted | |
-| Chapter 1 — The Checkbox | drafted | MD/MI FERPA / parent notification tension |
-| Chapter 2 — The Keycard | drafted | EOIR telework / Rehabilitation Act |
-| Chapter 3 — The Denial Letter | drafted | HealthCare.gov external review; reachable appeal |
-| Chapter 4 — The Discipline Chart | drafted | Title VI disparate-impact rescission; moral reverse |
-| Part II bridge | drafted | |
-| Chapter 5 — The Petition | drafted | Equity as second doorway |
-| Chapter 6 — The Sentencing Table | drafted | Conceptual hinge; safety valve |
-| Chapter 7 — The Doctor’s Note | drafted | §504 / ADA |
-| Chapter 8 — The Appeal Stamp | drafted | APA / administrative review |
-| Chapter 9 — The Exclusion Order | drafted | EO 9066 / Civil Liberties Act 1988 |
-| Part III bridge | drafted | |
-| Chapter 10 — The Machine’s Category | drafted | Architecture of correctability (not NTTT clock) |
-| Chapter 11 — Institutions That Can Reconsider | drafted | Dual-protection synthesis |
-| Conclusion — Other | drafted | Finished sentence retained |
+| About the Series / Author’s Note | drafted | Author’s Note discloses composites |
+| Introduction — The Blank Line | deepened | Orientation scene + formal/usable access |
+| Chapters 1–4 | deepened | Sustained composite decision scenes |
+| Chapters 5, 7, 8 | deepened | Lumley; 504 sit-in; Overton Park |
+| Chapter 6 | lightly deepened | Hinge preserved; safety valve intact |
+| Chapter 9 | light polish | Historical force preserved |
+| Chapter 10 | light compress | Correctability spine preserved |
+| Chapter 11 | reorganized | Contradict / revise / learn |
+| Conclusion — Other | lightly compressed | Final lines preserved |
 
 ## Next actions
 
-1. Author whole-book DOCX review.
-2. Citation / primary-source deepening for Part II (FJC, USSC/CRS, Archives, ACUS).
-3. Reverify 2026 Part I anchors before lock.
-4. Editorial passes after feedback (not before).
-
-## Open decisions / known issues
-
-- Geographic-breadth non-U.S. tradition still optional (only if it adds conceptual work).
-- Distinction from *No Time to Think* must stay sharp in Part III on author read.
-- Cover + OG present; `build.formats.docx.enabled: true` with `interior_finish`.
+1. Author whole-book DOCX review after deepening.
+2. Citation / primary-source deepening where flagged in change log.
+3. Final reverify of 2026 Part I anchors before lock.
+4. Editorial polish after feedback (not before).
 
 ## Rough scale
 
-- Manuscript words: **~27,800**
-- Formats: docx on; epub/pdf off
+- Manuscript words: **~31,100**
+- Formats: docx on (`interior_finish`); epub/pdf off
 - Cover + OG wired
-- Last assessed: August 2026 first full draft
+- Last assessed: August 2026 developmental deepening pass

@@ -16,8 +16,6 @@ The Sentencing Reform Act of 1984 emerged from that concern. Congress created th
 
 This is the hinge of the book because the reason for the rule is so strong. It will not do to say that tables are cold and judges are humane. The earlier discretionary world had its own injuries. A system that lets each courtroom become a separate moral climate can injure people by difference as much as by severity. The person sentenced in one city should not lose years that a similarly situated person in another city keeps because the system has mistaken variation for justice.
 
-Rules protect people from arbitrary judgment. Judgment protects people from rules that have mistaken them for someone else.
-
 So the table enters as a civilizing device. It requires classification. What was the offense? What conduct counts? What was the defendant's criminal history? Which adjustments apply? The table forces the institution to show its work. It turns sentencing from a private impression into a public sequence of reasons. Even when people disagree with the outcome, they can see the grammar by which the outcome was produced.
 
 But every table is a compression. It decides in advance which differences will count. Offense level counts. Criminal history counts. Certain role adjustments count. Acceptance of responsibility may count. Many facts of a life do not appear directly in the grid. The question is not whether the table is indifferent. It must be indifferent to some things, or it cannot protect against favoritism. The question is whether the facts it excludes are sometimes the facts that should matter.

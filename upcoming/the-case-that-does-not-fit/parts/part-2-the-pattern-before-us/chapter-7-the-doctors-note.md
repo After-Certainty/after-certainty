@@ -66,7 +66,7 @@ That is why the doctor's note remains a useful object. It is awkwardly personal 
 
 The note does not say the rule has no value. It says the rule's value is not exhausted by its sameness. If the purpose is learning, travel, civic participation, medical care, communication, or public access, then the institution must ask whether its default method serves that purpose for the person before it. Sometimes the answer will be yes. Sometimes the requested change will be unreasonable. Sometimes the institution must propose a different effective modification. But sometimes the note will reveal that the only thing standing between the person and participation is a method the institution has mistaken for necessity.
 
-Rules protect people from arbitrary judgment. Disability accommodation insists on that protection by turning access from private mercy into enforceable obligation. Judgment protects people from rules that have mistaken them for someone else. The doctor's note asks the institution to see the difference between equal treatment and identical treatment, and to make that difference lawful.
+Disability accommodation turns access from private mercy into enforceable obligation without abandoning the need for standards. The doctor's note asks the institution to see the difference between equal treatment and identical treatment, and to make that difference lawful.
 
 ::: {custom-style="Closing Quote Block" .closing-quote}
 Accommodation is not a favor added to equality. It is one of the ways equality learns the shape of the person before it.
