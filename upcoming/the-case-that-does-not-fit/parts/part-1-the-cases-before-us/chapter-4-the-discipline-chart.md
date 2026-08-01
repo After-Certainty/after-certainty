@@ -20,9 +20,19 @@ This chapter begins by reversing the moral direction of the previous three. Some
 
 ---
 
+In a composite district office, an administrator and a civil-rights reviewer sit beside the same screen. The first filter narrows the spreadsheet by school. The second narrows it by offense. The pattern sharpens around words that look ordinary until they are counted: defiance, disruption, disrespect, threat. One campus has far more referrals under those categories than another campus serving similar grades. A third filter separates suspensions longer than three days. The numbers do not accuse anyone yet. They make the room quieter.
+
+The reviewer opens individual files. The first incident has a plausible explanation: a teacher wrote that the student refused repeated directions and the class could not continue. The second file also has a plausible explanation: a hallway confrontation escalated after a warning. The third includes a parent conference, a prior behavior plan, and a note from an assistant principal who appears to have followed district policy. None of the files says, in plain language, that race or disability caused the decision. None proves the chart's story by itself.
+
+Then the reviewer returns to the aggregate view. The same vague categories are doing more work at one campus than another. Students with disabilities are appearing in removal counts that seem out of proportion to enrollment. The files are not identical, but the pattern is not random enough to dismiss. The administrator can feel both truths at once: each decision deserves to be judged on its facts, and the accumulation of those facts may reveal something no single file can confess.
+
+The spreadsheet does not relieve the district of proof. It does not tell the principal to reverse a suspension because a percentage looks bad. It does not make disparity into discrimination. It does require a next step: check the coding, compare campuses, ask whether categories are too elastic, examine training and alternatives, test the explanations against the pattern rather than allowing each explanation to bury it.
+
+---
+
 On July 23, 2026, the U.S. Department of Education announced that it was rescinding Title VI disparate-impact regulations. The department framed the move as a return to intentional-discrimination enforcement and argued that prior disparate-impact provisions could pressure schools toward racial balancing or decision-making based on outcomes rather than unequal treatment of individuals. The rescission was published in the Federal Register at 91 FR 46733 and took effect around July 24, 2026.[^c4-titlevi]
 
-The strongest case for the department's position should be stated before the objection.
+The department's concern should be stated before the objection.
 
 Civil-rights law is not supposed to make individuals instruments of demographic management. If a school disciplines a student for a serious violation, the moral question in that case cannot be answered solely by asking whether the discipline chart will look worse afterward. A student is not a unit used to calibrate a spreadsheet. A teacher threatened in a classroom is not required to absorb risk because a district fears an aggregate disparity. A principal should not be pressured to treat one child more leniently or more harshly because of a racial category rather than because of the facts before her.
 
@@ -34,7 +44,7 @@ That is one protection rules must preserve.
 
 ---
 
-The strongest case for effects-based review begins where the intentional-treatment rule becomes too narrow to see institutional harm.
+The case for effects-based review begins where the intentional-treatment rule becomes too narrow to see institutional harm.
 
 Discrimination does not always announce itself as motive. A district can adopt a facially neutral policy that repeatedly removes one group of students at much higher rates. A school can rely on discretionary categories like defiance, disruption, disrespect, or threat in ways that absorb cultural bias without anyone writing bias into the rule. A pattern can persist across classrooms because each adult believes he is responding to the case before him. No single decision-maker needs to confess hostile intent for the aggregate result to reveal a problem.
 
@@ -58,7 +68,7 @@ The intentional-treatment focus protects people from being reduced to group outc
 
 The effects-based focus protects people from a different reduction: the claim that no one was wronged because no one can prove hostile intent. It insists that institutional legitimacy includes attention to predictable consequences. It protects students whose repeated exclusion is rationalized one incident at a time. It asks whether policies written in neutral language are functioning, in practice, as channels for unequal burden.
 
-The book's invariant appears here from the opposite direction. Rules protect people from arbitrary judgment. A discipline standard, a civil-rights regulation, a reporting requirement, and a statistical review process can all restrain local actors who might otherwise treat similar conduct differently for reasons no one sees. Judgment protects people from rules that have mistaken them for someone else. A purely effects-based rule can also mistake people for numbers, treating an individual decision as suspect because of the category it affects rather than because the decision itself was wrong.
+The book's invariant appears here from the opposite direction. A discipline standard, a civil-rights regulation, a reporting requirement, and a statistical review process can all restrain local actors who might otherwise treat similar conduct differently for reasons no one sees. The counterweight is equally necessary: a purely effects-based rule can mistake people for numbers, treating an individual decision as suspect because of the category it affects rather than because the decision itself was wrong.
 
 Legitimacy depends on preserving both protections.
 
@@ -106,4 +116,4 @@ The spreadsheet is not justice. It is not proof. It is not a substitute for indi
 
 No cell in the spreadsheet contains a motive. The pattern exists anyway. Whether the pattern proves injustice is the question the spreadsheet cannot answer by itself.
 
-[^c4-titlevi]: U.S. Department of Education, "U.S. Department of Education Removes Disparate-Impact Title VI Regulations," July 23, 2026, https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations; Federal Register, "Nondiscrimination Based on Race, Color, or National Origin in Programs or Activities Receiving Federal Financial Assistance," 91 FR 46733, effective around July 24, 2026. Reverify final regulatory status, publication details, and any litigation before publication.
+[^c4-titlevi]: U.S. Department of Education, "U.S. Department of Education Removes Disparate-Impact Title VI Regulations," July 23, 2026, https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations; Federal Register, "Nondiscrimination Based on Race, Color, or National Origin in Programs or Activities Receiving Federal Financial Assistance," 91 FR 46733, effective around July 24, 2026.

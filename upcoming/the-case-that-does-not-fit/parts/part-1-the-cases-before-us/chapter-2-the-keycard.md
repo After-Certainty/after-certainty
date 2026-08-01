@@ -10,13 +10,23 @@ Held against the reader beside the office door, it produced a brief chirp and a 
 
 A keycard is not usually thought of as a rule. It feels like a tool: plastic, magnetic strip, lanyard, photograph, expiration date. But it contains an institutional claim. This person may enter. This person belongs here during these hours, in this building, under these conditions. The card does not ask whether the person slept, whether the train was late, whether the office air is safe for the body carrying it. It verifies one thing. The door opens or it does not.
 
-For many workplaces, the physical door matters. Offices are not only symbolic. People coordinate there. Supervisors see who is present. Teams train new staff. Confidential work stays within controlled spaces. Informal questions happen at the edge of meetings. Public service depends on a shared understanding that the work is not simply a private arrangement between employee and laptop. A rule requiring employees to return to the office can be defended as fairness, cohesion, security, apprenticeship, accountability, and operational need.
+For many workplaces, the physical door matters. Offices are not only symbolic. People coordinate there. Supervisors see who is present. Teams train new staff. Confidential work stays within controlled spaces. Coverage can be scheduled, secure systems monitored, informal questions answered at the edge of meetings, and public obligations carried by people who are visibly part of the same organization. A rule requiring employees to return to the office can be defended as fairness, cohesion, security, apprenticeship, accountability, and operational need.
 
 That case deserves to be stated plainly. Uniform workplace rules protect against favoritism. They prevent the employee with the most persuasive supervisor, the most flexible household, or the most informal influence from receiving arrangements others cannot obtain. They keep managers from deciding accommodation by affection. They also help an institution plan space, schedule coverage, protect records, maintain common habits, and preserve the public sense that work is being carried by a shared organization rather than dispersed private discretion.
 
 The keycard, in that account, is equality made visible. Everyone returns. Everyone swipes in. Everyone is subject to the same rule.
 
 The difficulty begins when the same rule is not the same burden.
+
+---
+
+In a composite workplace file, the return-to-office date is printed in bold. The employee has already sent medical documentation. Human resources has acknowledged receipt. A supervisor has forwarded the job description, a list of recurring tasks, and a note about team coverage. The employee's keycard still works, but the question has moved elsewhere: what exactly must the body be present for?
+
+A reviewer begins by separating the job from the symbol of the job. Some duties may genuinely require presence: a secure terminal that cannot be accessed remotely, a training rotation that depends on observing others, a confidential meeting where remote attendance creates risk, a public counter that needs coverage during stated hours. Other duties may not: drafting, research, data review, phone calls, case preparation, meetings already held by video because half the participants work in other cities. The question is not whether the employee is exempt from work. It is which conditions are necessary for the work to be done.
+
+The file also contains the pressure on everyone else. Coworkers may have rearranged commutes, child care, medical appointments, or household routines to comply with the return deadline. They may resent an exception if it looks like preference disguised as need. A supervisor may worry that one approved request will become ten informal bargains, each harder to explain than the last. The institution has reasons to guard the rule from collapse.
+
+But the documentation changes what fairness has to consider. For one worker, entering the building may be an ordinary inconvenience. For another, the same entrance may carry a medical risk that the rule did not imagine when it treated all swipes as equal. The reviewer cannot answer that by liking or distrusting remote work in general. The task is narrower and more demanding: identify the essential functions, test the requested arrangement against them, weigh burdens on coworkers and operations, and give reasons that can be reviewed.
 
 ---
 
@@ -72,9 +82,9 @@ It should require evidence. The employer is allowed to ask whether the limitatio
 
 At the same time, the evidence requirement can become its own barrier. A worker may be asked for documentation already supplied, medical details beyond what is necessary, repeated certifications, forms written for conditions unlike theirs, or proof that no physician can state in the precise language the employer demands. The process can say "we consider accommodations" while exhausting the person who needs one. It can preserve the formal doorway while making passage through it so costly that only the persistent or well-supported can enter.
 
-The same institutional tension appears again. Rules protect people from arbitrary judgment. The accommodation process protects the workplace from arbitrary exception. But judgment protects people from rules that have mistaken them for someone else. The medical review, the interactive process, and the written decision are not departures from fairness. Properly designed, they are fairness trying to become accurate.
+The same institutional tension appears again. General standards protect the workplace from arbitrary exception. The accommodation process protects the worker when a general standard has classified a different body as though it were the same. The medical review, the interactive process, and the written decision are not departures from fairness. Properly designed, they are fairness trying to become accurate.
 
-The preliminary injunction in the DOJ attorneys' case sits inside that tension. It does not prove that the employees will ultimately win every claim. It does not prove that the agency lacked any legitimate reason for office presence. It does show a court treating the question as particular enough to require interim protection while the merits proceed. The case could end in several ways and still leave the institutional question intact: when a general return rule meets a serious disability, what must the institution do before it can say the same rule is fair?
+The preliminary injunction in the DOJ attorneys' case sits inside that tension. It does not prove that the employees will ultimately win every claim. It does not prove that the agency lacked any legitimate reason for office presence. It does show a court treating the question as particular enough to require interim protection while the merits proceed. The case could end in several ways and still leave the institutional question intact: when does the same rule become an unequal burden because the body differs from what the rule imagined?
 
 ---
 
@@ -104,4 +114,4 @@ If the institution treats every request for a different arrangement as a threat 
 
 The keycard opens the door. It cannot tell the institution whether entering the building should have been the measure of doing the work.
 
-[^c2-telework]: Drew Friedman, "Judge tells DOJ to reinstate telework for two attorneys as their lawsuit proceeds," Federal News Network, July 10, 2026, https://federalnewsnetwork.com/workforce-rightsgovernance/2026/07/judge-tells-doj-to-reinstate-telework-for-two-attorneys-as-their-lawsuit-proceeds/. The report describes a preliminary injunction by Judge Patricia Tolliver Giles requiring DOJ/EOIR to restore telework for Kimberly Panian and Hoi Yee Baxter while their Rehabilitation Act suit proceeds. Reverify docket status and final disposition before publication.
+[^c2-telework]: Drew Friedman, "Judge tells DOJ to reinstate telework for two attorneys as their lawsuit proceeds," Federal News Network, July 10, 2026, https://federalnewsnetwork.com/workforce-rightsgovernance/2026/07/judge-tells-doj-to-reinstate-telework-for-two-attorneys-as-their-lawsuit-proceeds/. The report describes a preliminary injunction by Judge Patricia Tolliver Giles requiring DOJ/EOIR to restore telework for Kimberly Panian and Hoi Yee Baxter while their Rehabilitation Act suit proceeds.
