@@ -1,7 +1,7 @@
 # Glossary candidates: how-serious-systems-learn
 
 - **Book directory:** `books/how-serious-systems-learn`
-- **Existing glossary entries:** 135
+- **Existing glossary entries:** 144
 
 - **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_
 

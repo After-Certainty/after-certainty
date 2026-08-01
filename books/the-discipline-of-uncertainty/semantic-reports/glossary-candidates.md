@@ -1,7 +1,7 @@
 # Glossary candidates: the-discipline-of-uncertainty
 
 - **Book directory:** `books/the-discipline-of-uncertainty`
-- **Existing glossary entries:** 135
+- **Existing glossary entries:** 144
 
 - **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_
 
