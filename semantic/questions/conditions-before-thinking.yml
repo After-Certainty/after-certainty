@@ -1,0 +1,56 @@
+id: conditions-before-thinking
+slug: conditions-before-thinking
+question: What social and institutional conditions must exist before thinking is actually possible?
+summary: Speed relocates the constraint—judgment needs time, attention, consequence contact, and stop
+  authority that dashboards do not count.
+orientation: A faster step does not necessarily create a faster system. When production accelerates
+  faster than a system's capacity to understand, verify, integrate, and care, thinking becomes
+  structurally scarce unless institutions protect it.
+whatThisIsNot:
+- Not an argument against AI, automation, or speed as such.
+- Not nostalgia for slowness or pre-digital work.
+- Not a compliance checklist or vendor evaluation guide.
+status: published
+featured: false
+families:
+- Judgment and uncertainty
+- Systems and organizations
+primaryBookId: book-no-time-to-think
+relatedQuestionIds:
+- act-before-certainty-arrives
+- discipline-under-incomplete-information
+- collaboration-remains-difficult
+searchHints:
+- no time to think
+- acceleration judgment
+- protected judgment
+- responsible speed
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-attention
+  description: Begin with attention as scarce capacity—what cannot be attended cannot be judged.
+  whyThisFollows: Acceleration first compresses what can be held in view.
+- position: 2
+  entityType: concept
+  entityId: concept-judgment
+  description: Name judgment as practice that needs conditions—time, consequence contact, stop authority.
+  whyThisFollows: Thinking is not only individual virtue; it depends on institutional shelter.
+- position: 3
+  entityType: book
+  entityId: book-no-time-to-think
+  description: 'Primary book: how acceleration relocates judgment and how institutions can design responsible speed.'
+  whyThisFollows: This volume follows the relocation from Merge buttons and clinical signatures through industrial and nuclear cases.
+- position: 4
+  entityType: pattern
+  entityId: pattern-learning-collapses
+  description: Notice when local knowledge never reaches decisions in time—learning collapses under throughput pressure.
+  whyThisFollows: Protected judgment fails when feedback cannot interrupt production.
+- position: 5
+  entityType: book
+  entityId: book-how-serious-systems-learn
+  description: Practice for teams that must keep learning while still moving.
+  whyThisFollows: Handbooks translate the condition problem into institutional discipline.
+closingReflection: Speed is not inherently careless—but judgment is conditional. Ask what your system
+  protects when the clock wins.
+carryForwardQuestion: Where does acceleration relocate the constraint in your work—and who still has stop authority?

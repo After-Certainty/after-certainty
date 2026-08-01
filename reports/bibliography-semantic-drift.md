@@ -13,9 +13,9 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 ## Portfolio summary
 
 - Books with bibliography audited: **24**
-- Matched pairs: **775**
-- Missing in semantic (no work found): **54**
-- Exists but missing `relatedBooks` link: **16**
+- Matched pairs: **829**
+- Missing in semantic (no work found): **14**
+- Exists but missing `relatedBooks` link: **2**
 - Stale `relatedBooks` links: **26**
 
 | Book | Style | Biblio | Linked | Matched | Missing | Missing RB | Stale |
@@ -30,7 +30,7 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 | `the-discipline-of-uncertainty` | list | 10 | 10 | 10 | 0 | 0 | 0 |
 | `the-economy-we-dont-experience` | pandoc_div | 27 | 27 | 27 | 0 | 0 | 0 |
 | `the-game-we-think-we-saw` | list | 72 | 72 | 72 | 0 | 0 | 0 |
-| `the-world-we-make-together` | pandoc_div | 54 | 0 | 0 | 40 | 14 | 0 |
+| `the-world-we-make-together` | pandoc_div | 54 | 54 | 54 | 0 | 0 | 0 |
 | `trust-beyond-similarity` | list | 42 | 42 | 42 | 0 | 0 | 0 |
 | `what-we-cannot-see` | list | 21 | 21 | 21 | 0 | 0 | 0 |
 | `when-accountability-no-longer-expires` | list | 12 | 12 | 12 | 0 | 0 | 0 |
@@ -81,12 +81,12 @@ These book ids appear in source `relatedBooks` but have **no** manuscript biblio
 - `simon-herbert-a-a-behavioral-model-of-rational-choice` ← biblio `simon-herbert-a-a-behavioral-model-of-rational-choice` (exact_slug, score=100)
 - `taylor-charles-sources-of-the-self-the-making-of-the-modern-identity` ← biblio `taylor-charles-sources-of-the-self-the-making-of-the-modern-identity` (exact_slug, score=100)
 - `thompson-dennis-f-moral-responsibility-of-public-officials-the` ← biblio `thompson-dennis-f-moral-responsibility-of-public-officials-the` (exact_slug, score=100)
-- `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of` ← biblio `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of` (exact_slug, score=100)
 - `walzer-michael-just-and-unjust-wars-a-moral-argument-with-historical` ← biblio `walzer-michael-just-and-unjust-wars-a-moral-argument-with-historical` (exact_slug, score=100)
 - `weber-max-economy-and-society-an-outline-of-interpretive-sociology` ← biblio `weber-max-economy-and-society-an-outline-of-interpretive-sociology` (exact_slug, score=100)
 - `ross-lee-and-richard-nisbett-the-person-and-the-situation` ← biblio `ross-lee-and-richard-e-nisbett-the-person-and-the-situation` (title_author, score=85)
 - `scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed` ← biblio `scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the` (title_author, score=85)
 - `sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media` ← biblio `sunstein-cass-r-republic-divided-democracy-in-the-age-of-social` (title_author, score=85)
+- `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care` ← biblio `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of` (title_author, score=85)
 
 ### Missing in semantic (0)
 
@@ -846,72 +846,73 @@ _None._
 
 - Bibliography: `books/the-world-we-make-together/back-matter/bibliography.md`
 - Parse style: `pandoc_div` (54 entries)
-- Semantic linked sources: 0
+- Semantic linked sources: 54
 - Parse warning: other styles also matched: plain_chicago=53
 
-### Matched (0)
+### Matched (54)
+
+- `abate-tom-nummi-workers-say-their-final-good-byes` ← biblio `abate-tom-nummi-workers-say-their-final-good-byes` (exact_slug, score=100)
+- `adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc` ← biblio `adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc` (exact_slug, score=100)
+- `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` ← biblio `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` (exact_slug, score=100)
+- `blackpast-black-panther-party-s-free-breakfast-program-1969-1980` ← biblio `blackpast-black-panther-party-s-free-breakfast-program-1969-1980` (exact_slug, score=100)
+- `brown-v-board-of-education-347-u-s-483-1954` ← biblio `brown-v-board-of-education-347-u-s-483-1954` (exact_slug, score=100)
+- `bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california` ← biblio `bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california` (exact_slug, score=100)
+- `california-african-american-museum-free-breakfast-for-school-children-program` ← biblio `california-african-american-museum-free-breakfast-for-school-children-program` (exact_slug, score=100)
+- `carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history` ← biblio `carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history` (exact_slug, score=100)
+- `church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp` ← biblio `church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp` (exact_slug, score=100)
+- `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` ← biblio `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` (exact_slug, score=100)
+- `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` ← biblio `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` (exact_slug, score=100)
+- `electoral-commission-of-south-africa-27-apr-1994-national-election` ← biblio `electoral-commission-of-south-africa-27-apr-1994-national-election` (exact_slug, score=100)
+- `encyclopedia-of-arkansas-lost-year` ← biblio `encyclopedia-of-arkansas-lost-year` (exact_slug, score=100)
+- `federal-aviation-administration-mcdonnell-douglas-dc-8-61` ← biblio `federal-aviation-administration-mcdonnell-douglas-dc-8-61` (exact_slug, score=100)
+- `feynman-richard-p-personal-observations-on-the-reliability-of-the-shuttle` ← biblio `feynman-richard-p-personal-observations-on-the-reliability-of-the-shuttle` (exact_slug, score=100)
+- `fine-sidney-sit-down-the-general-motors-strike-of-1936-1937` ← biblio `fine-sidney-sit-down-the-general-motors-strike-of-1936-1937` (exact_slug, score=100)
+- `follett-mary-parker-creative-experience` ← biblio `follett-mary-parker-creative-experience` (exact_slug, score=100)
+- `follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett` ← biblio `follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett` (exact_slug, score=100)
+- `founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783` ← biblio `founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783` (exact_slug, score=100)
+- `harvard-university-pluralism-project-langar-the-communal-meal` ← biblio `harvard-university-pluralism-project-langar-the-communal-meal` (exact_slug, score=100)
+- `lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark` ← biblio `lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark` (exact_slug, score=100)
+- `lowcountry-digital-history-initiative-the-progressive-club-johns-island` ← biblio `lowcountry-digital-history-initiative-the-progressive-club-johns-island` (exact_slug, score=100)
+- `martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream` ← biblio `martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream` (exact_slug, score=100)
+- `mcgregor-douglas-the-human-side-of-enterprise` ← biblio `mcgregor-douglas-the-human-side-of-enterprise` (exact_slug, score=100)
+- `mill-john-stuart-considerations-on-representative-government` ← biblio `mill-john-stuart-considerations-on-representative-government` (exact_slug, score=100)
+- `mount-vernon-newburgh-address` ← biblio `mount-vernon-newburgh-address` (exact_slug, score=100)
+- `mount-vernon-newburgh-conspiracy` ← biblio `mount-vernon-newburgh-conspiracy` (exact_slug, score=100)
+- `national-aeronautics-and-space-administration-apollo-11-mission-report` ← biblio `national-aeronautics-and-space-administration-apollo-11-mission-report` (exact_slug, score=100)
+- `national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era` ← biblio `national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era` (exact_slug, score=100)
+- `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` ← biblio `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` (exact_slug, score=100)
+- `national-museum-of-american-history-i-have-a-dream` ← biblio `national-museum-of-american-history-i-have-a-dream` (exact_slug, score=100)
+- `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c` ← biblio `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c` (exact_slug, score=100)
+- `national-park-service-march-history` ← biblio `national-park-service-march-history` (exact_slug, score=100)
+- `national-park-service-march-on-washington-for-jobs-and-freedom` ← biblio `national-park-service-march-on-washington-for-jobs-and-freedom` (exact_slug, score=100)
+- `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` ← biblio `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` (exact_slug, score=100)
+- `national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug` ← biblio `national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug` (exact_slug, score=100)
+- `northern-ireland-department-of-justice-department-of-justice-interface-programme` ← biblio `northern-ireland-department-of-justice-department-of-justice-interface-programme` (exact_slug, score=100)
+- `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen` ← biblio `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen` (exact_slug, score=100)
+- `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` ← biblio `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` (exact_slug, score=100)
+- `payne-charles-m-i-ve-got-the-light-of-freedom-the-organizing-tradition-and-the-mississippi-freed` ← biblio `payne-charles-m-i-ve-got-the-light-of-freedom-the-organizing-tradition-and-the-mississippi-freed` (exact_slug, score=100)
+- `pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory` ← biblio `pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory` (exact_slug, score=100)
+- `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the` ← biblio `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the` (exact_slug, score=100)
+- `ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision` ← biblio `ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision` (exact_slug, score=100)
+- `reynolds-v-sims-377-u-s-533-1964` ← biblio `reynolds-v-sims-377-u-s-533-1964` (exact_slug, score=100)
+- `sncc-digital-gateway-birth-of-sncc` ← biblio `sncc-digital-gateway-birth-of-sncc` (exact_slug, score=100)
+- `south-african-history-online-denis-farrell` ← biblio `south-african-history-online-denis-farrell` (exact_slug, score=100)
+- `south-african-history-online-election-results-1994` ← biblio `south-african-history-online-election-results-1994` (exact_slug, score=100)
+- `south-african-history-online-the-south-african-general-elections-1994` ← biblio `south-african-history-online-the-south-african-general-elections-1994` (exact_slug, score=100)
+- `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` ← biblio `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` (exact_slug, score=100)
+- `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care` ← biblio `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care` (exact_slug, score=100)
+- `u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs` ← biblio `u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs` (exact_slug, score=100)
+- `u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie` ← biblio `u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie` (exact_slug, score=100)
+- `united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894` ← biblio `united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894` (exact_slug, score=100)
+- `world-bank-brazil-toward-a-more-inclusive-and-effective-participatory-budget-in-porto-alegre` ← biblio `world-bank-brazil-toward-a-more-inclusive-and-effective-participatory-budget-in-porto-alegre` (exact_slug, score=100)
+
+### Missing in semantic (0)
 
 _None._
 
-### Missing in semantic (40)
+### Exists but missing relatedBooks (0)
 
-- Tom Abate — *Nummi workers say their final good-byes* (`abate-tom-nummi-workers-say-their-final-good-byes`)
-- Paul S Adler — *The 'Learning Bureaucracy': New United Motor Manufacturing, Inc* (`adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc`)
-- BlackPast — *Black Panther Party's Free Breakfast Program (1969-1980)* (`blackpast-black-panther-party-s-free-breakfast-program-1969-1980`)
-- Nick Bunkley — *G.M. and Toyota's Joint Venture Ends in California* (`bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california`)
-- California African American Museum — *Free Breakfast for School Children Program* (`california-african-american-museum-free-breakfast-for-school-children-program`)
-- Thomas Carlyle — *On Heroes, Hero-Worship, and the Heroic in History* (`carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history`)
-- Church Committee — *Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities* (`church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp`)
-- Electoral Commission of South Africa — *27 Apr 1994 National Election* (`electoral-commission-of-south-africa-27-apr-1994-national-election`)
-- Encyclopedia of Arkansas — *Lost Year* (`encyclopedia-of-arkansas-lost-year`)
-- Federal Aviation Administration — *McDonnell Douglas DC-8-61* (`federal-aviation-administration-mcdonnell-douglas-dc-8-61`)
-- Richard P Feynman — *Personal Observations on the Reliability of the Shuttle* (`feynman-richard-p-personal-observations-on-the-reliability-of-the-shuttle`)
-- Sidney Fine — *Sit-Down: The General Motors Strike of 1936-1937* (`fine-sidney-sit-down-the-general-motors-strike-of-1936-1937`)
-- Mary Parker Follett — *Creative Experience* (`follett-mary-parker-creative-experience`)
-- Mary Parker Follett — *Dynamic Administration: The Collected Papers of Mary Parker Follett* (`follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett`)
-- National Archives Founders Online — *From George Washington to Officers of the Army, 15 March 1783* (`founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783`)
-- Harvard University Pluralism Project — *Langar: The Communal Meal* (`harvard-university-pluralism-project-langar-the-communal-meal`)
-- Lowcountry Digital History Initiative — *Local and National Leader: Septima P. Clark* (`lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark`)
-- Lowcountry Digital History Initiative — *The Progressive Club, Johns Island* (`lowcountry-digital-history-initiative-the-progressive-club-johns-island`)
-- Martin Luther King, Jr. Research and Education Institute, Stanford University — *I Have a Dream* (`martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream`)
-- Douglas McGregor — *The Human Side of Enterprise* (`mcgregor-douglas-the-human-side-of-enterprise`)
-- John Stuart Mill — *Considerations on Representative Government* (`mill-john-stuart-considerations-on-representative-government`)
-- Mount Vernon — *Newburgh Address* (`mount-vernon-newburgh-address`)
-- Mount Vernon — *Newburgh Conspiracy* (`mount-vernon-newburgh-conspiracy`)
-- National Aeronautics and Space Administration — *Apollo 11 Mission Report* (`national-aeronautics-and-space-administration-apollo-11-mission-report`)
-- National Aeronautics and Space Administration — *Managing NASA in the Apollo Era* (`national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era`)
-- National Museum of American History — *I Have a Dream* (`national-museum-of-american-history-i-have-a-dream`)
-- National Park Service — *March History* (`national-park-service-march-history`)
-- National Transportation Safety Board — *Aircraft Accident Report: United Airlines, Inc., McDonnell-Douglas DC-8-61, N8082U, Portland, Oregon, December 28, 1978* (`national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug`)
-- Northern Ireland Department of Justice — *Department of Justice Interface Programme* (`northern-ireland-department-of-justice-department-of-justice-interface-programme`)
-- Charles M Payne — *I've Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle* (`payne-charles-m-i-ve-got-the-light-of-freedom-the-organizing-tradition-and-the-mississippi-freed`)
-- Pettigrew, Thomas F., and Linda R. Tropp — *A Meta-Analytic Test of Intergroup Contact Theory* (`pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory`)
-- 377 U.S. 533 (1964) *Reynolds v. Sims* — *(no title)* (`reynolds-v-sims-377-u-s-533-1964`)
-- SNCC Digital Gateway — *Birth of SNCC* (`sncc-digital-gateway-birth-of-sncc`)
-- South African History Online — *Denis Farrell* (`south-african-history-online-denis-farrell`)
-- South African History Online — *Election Results 1994* (`south-african-history-online-election-results-1994`)
-- South African History Online — *The South African general elections: 1994* (`south-african-history-online-the-south-african-general-elections-1994`)
-- U.S. Department of Agriculture, Food and Nutrition Service — *School Breakfast Program FAQs* (`u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs`)
-- U.S. Government Accountability Office — *Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges* (`u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie`)
-- United States Strike Commission — *Report on the Chicago Strike of June-July, 1894* (`united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894`)
-- World Bank — *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre* (`world-bank-brazil-toward-a-more-inclusive-and-effective-participatory-budget-in-porto-alegre`)
-
-### Exists but missing relatedBooks (14)
-
-- `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` matches biblio `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` (exact_slug; current books: coupling, how-trust-forms, living-in-sediment, trust-beyond-similarity, when-trust-stops-tracking-reality, why-collaboration-is-so-hard)
-- `ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision` matches biblio `ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision` (exact_slug; current books: when-others-become-leaders)
-- `national-archives-u-s-official-demands-march-on-washington-for-jobs-and-freedom-1963` matches biblio `national-park-service-march-on-washington-for-jobs-and-freedom` (title_author; current books: when-others-become-leaders)
-- `president-s-commission-on-the-space-shuttle-challenger-accident-report-of-the-presidential-commi` matches biblio `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the` (title_author; current books: what-we-cannot-see)
-- `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of` matches biblio `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care` (title_author; current books: after-certainty)
-- `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions` matches biblio `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` (summary_overlap; current books: when-incentives-become-the-moral-language)
-- `board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco` matches biblio `brown-v-board-of-education-347-u-s-483-1954` (summary_overlap; current books: the-economy-we-dont-experience)
-- `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire` matches biblio `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` (summary_overlap; current books: when-others-become-leaders)
-- `agamben-giorgio-state-of-exception` matches biblio `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` (summary_overlap; current books: when-others-look-to-you-v1, when-others-look-to-you-v2)
-- `albertz-rainer-israel-in-exile-the-history-and-literature-of-the` matches biblio `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` (summary_overlap; current books: before-certainty-arrives)
-- `carlin-john-playing-the-enemy-nelson-mandela-and-the-game-that-made-a-nation` matches biblio `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c` (summary_overlap; current books: when-others-become-leaders)
-- `cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem` matches biblio `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` (summary_overlap; current books: the-game-we-think-we-saw)
-- `board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate` matches biblio `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen` (summary_overlap; current books: the-economy-we-dont-experience)
-- `arrington-leonard-j-great-basin-kingdom` matches biblio `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` (summary_overlap; current books: learning-to-see)
+_None._
 
 ### Stale relatedBooks (0)
 
@@ -921,27 +922,23 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (42)
+### Biblio creators without thinker node (34)
 
 - `347-u-s-483-1954-brown-v-board-of-education` (347 U.S. 483 (1954) *Brown v. Board of Education*)
 - `377-u-s-533-1964-reynolds-v-sims` (377 U.S. 533 (1964) *Reynolds v. Sims*)
 - `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-april-1998-london-uk-government-https-www-gov-uk-government-publications-the-belfast-agreement` (*Belfast Agreement* (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement)
 - `blackpast` (BlackPast)
 - `california-african-american-museum` (California African American Museum)
-- `charles-m-payne` (Charles M Payne)
 - `church-committee` (Church Committee)
 - `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` (Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution))
-- `douglas-mcgregor` (Douglas McGregor)
 - `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction-of-justice-within-the-state-of-arkansas-24-september-1957-national-archives-https-www-archives-gov-milestone-documents-executive-order-10730` (Eisenhower, Dwight D. Executive Order 10730, "Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas." 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730)
 - `electoral-commission-of-south-africa` (Electoral Commission of South Africa)
 - `encyclopedia-of-arkansas` (Encyclopedia of Arkansas)
 - `especially-the-commons-https-www-nobelprize-org-prizes-economic-sciences-2009-summary-sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-for-elinor-ostrom-for-her-analysis-of-economic-governance` (especially the commons"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom ("for her analysis of economic governance)
 - `federal-aviation-administration` (Federal Aviation Administration)
 - `harvard-university-pluralism-project` (Harvard University Pluralism Project)
-- `john-stuart-mill` (John Stuart Mill)
 - `lowcountry-digital-history-initiative` (Lowcountry Digital History Initiative)
 - `martin-luther-king-jr-research-and-education-institute-stanford-university` (Martin Luther King, Jr. Research and Education Institute, Stanford University)
-- `mary-parker-follett` (Mary Parker Follett)
 - `mount-vernon` (Mount Vernon)
 - `national-aeronautics-and-space-administration` (National Aeronautics and Space Administration)
 - `national-archives-founders-online` (National Archives Founders Online)
@@ -954,21 +951,41 @@ _None._
 - `nick-bunkley` (Nick Bunkley)
 - `northern-ireland-department-of-justice` (Northern Ireland Department of Justice)
 - `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referendum-on-the-belfast-agreement` (Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement)
-- `paul-s-adler` (Paul S Adler)
 - `pettigrew-thomas-f-and-linda-r-tropp` (Pettigrew, Thomas F., and Linda R. Tropp)
 - `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission` (Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission))
-- `richard-p-feynman` (Richard P Feynman)
-- `sidney-fine` (Sidney Fine)
 - `sncc-digital-gateway` (SNCC Digital Gateway)
-- `thomas-carlyle` (Thomas Carlyle)
 - `tom-abate` (Tom Abate)
 - `u-s-department-of-agriculture-food-and-nutrition-service` (U.S. Department of Agriculture, Food and Nutrition Service)
 - `u-s-government-accountability-office` (U.S. Government Accountability Office)
 - `united-states-strike-commission` (United States Strike Commission)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (25)
 
-_None._
+- `tom-abate` on `abate-tom-nummi-workers-say-their-final-good-byes`
+- `blackpast` on `blackpast-black-panther-party-s-free-breakfast-program-1969-1980`
+- `nick-bunkley` on `bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california`
+- `california-african-american-museum` on `california-african-american-museum-free-breakfast-for-school-children-program`
+- `church-committee` on `church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp`
+- `electoral-commission-of-south-africa` on `electoral-commission-of-south-africa-27-apr-1994-national-election`
+- `encyclopedia-of-arkansas` on `encyclopedia-of-arkansas-lost-year`
+- `federal-aviation-administration` on `federal-aviation-administration-mcdonnell-douglas-dc-8-61`
+- `national-archives-founders-online` on `founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783`
+- `harvard-university-pluralism-project` on `harvard-university-pluralism-project-langar-the-communal-meal`
+- `lowcountry-digital-history-initiative` on `lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark`
+- `lowcountry-digital-history-initiative` on `lowcountry-digital-history-initiative-the-progressive-club-johns-island`
+- `mount-vernon` on `mount-vernon-newburgh-address`
+- `mount-vernon` on `mount-vernon-newburgh-conspiracy`
+- `national-aeronautics-and-space-administration` on `national-aeronautics-and-space-administration-apollo-11-mission-report`
+- `national-aeronautics-and-space-administration` on `national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era`
+- `national-museum-of-american-history` on `national-museum-of-american-history-i-have-a-dream`
+- `national-park-service` on `national-park-service-march-history`
+- `national-park-service` on `national-park-service-march-on-washington-for-jobs-and-freedom`
+- `national-transportation-safety-board` on `national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug`
+- `northern-ireland-department-of-justice` on `northern-ireland-department-of-justice-department-of-justice-interface-programme`
+- `pettigrew-thomas-f-and-linda-r-tropp` on `pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory`
+- `sncc-digital-gateway` on `sncc-digital-gateway-birth-of-sncc`
+- `u-s-government-accountability-office` on `u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie`
+- `united-states-strike-commission` on `united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894`
 
 ## `trust-beyond-similarity`
 

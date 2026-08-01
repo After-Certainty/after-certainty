@@ -1,0 +1,16 @@
+slug: richard-p-feynman
+name: Richard P. Feynman
+type: person
+summary: Physicist whose Challenger appendix modeled public technical judgment under
+  institutional pressure.
+concepts:
+- accountability
+- judgment
+- authority
+patterns: []
+relatedBooks:
+- the-world-we-make-together
+works:
+- feynman-richard-p-personal-observations-on-the-reliability-of-the-shuttle
+whyThisMatters: Feynman’s appendix is a case of one voice making institutional failure
+  legible without owning the whole system.

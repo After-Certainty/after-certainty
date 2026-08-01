@@ -1,0 +1,49 @@
+id: protected-judgment-under-speed
+slug: protected-judgment-under-speed
+title: Protected Judgment Under Speed
+summary: How acceleration relocates the constraint on thinking—and what institutions must protect if
+  judgment is to remain possible.
+orientation: Throughput pressure compresses attention and stop authority. This trail moves from scarce
+  attention through No Time to Think into patterns of collapsed learning and corrigible judgment.
+status: published
+featured: false
+themes:
+- Judgment
+- Attention
+- Institutions
+depth: intermediate
+primaryBookId: book-no-time-to-think
+relatedTrailIds:
+- judgment-before-certainty
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-attention
+  description: Start with attention as the scarce gate between signal and response.
+- position: 2
+  entityType: concept
+  entityId: concept-judgment
+  description: Name judgment as practice that needs time, consequence contact, and stop authority.
+  whyThisFollows: Without those conditions, acceleration relocates thinking rather than speeding it.
+- position: 3
+  entityType: book
+  entityId: book-no-time-to-think
+  description: Follow how production speed outruns understanding—and what protected judgment requires.
+  whyThisFollows: This is the primary depth for the trail.
+- position: 4
+  entityType: pattern
+  entityId: pattern-learning-collapses
+  description: Notice when local knowledge never interrupts the plan in time.
+  whyThisFollows: Collapsed learning is how speed becomes institutional blindness.
+- position: 5
+  entityType: pattern
+  entityId: pattern-revisability-preserves-judgment
+  description: See how institutions keep calls corrigible when the clock has already moved.
+  whyThisFollows: Protection is incomplete if revision itself is treated as failure.
+- position: 6
+  entityType: book
+  entityId: book-how-serious-systems-learn
+  description: A handbook path for teams that must learn while still shipping.
+  whyThisFollows: Practice translates the condition problem into operating discipline.
+closingReflection: Ask not only how fast the step is—ask what capacity still surrounds the decision.
+suggestedContinuation: If the leftover case under rules is your next pressure, follow Room for the Unfitting Case.

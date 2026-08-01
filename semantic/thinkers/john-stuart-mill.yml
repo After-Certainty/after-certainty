@@ -1,0 +1,16 @@
+slug: john-stuart-mill
+name: John Stuart Mill
+type: person
+summary: Liberal political philosopher of representative government, liberty, and
+  public deliberation.
+concepts:
+- agency
+- legitimacy
+- authority
+patterns: []
+relatedBooks:
+- the-world-we-make-together
+works:
+- mill-john-stuart-considerations-on-representative-government
+whyThisMatters: Mill helps frame how representative institutions claim to make collective
+  agency durable without erasing difference.
