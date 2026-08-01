@@ -1,7 +1,7 @@
 # Glossary candidates: when-moral-seriousness-scales
 
 - **Book directory:** `books/when-moral-seriousness-scales`
-- **Existing glossary entries:** 135
+- **Existing glossary entries:** 144
 
 - **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_
 

@@ -1,7 +1,7 @@
 # Glossary candidates: when-accountability-no-longer-expires
 
 - **Book directory:** `books/when-accountability-no-longer-expires`
-- **Existing glossary entries:** 135
+- **Existing glossary entries:** 144
 
 - **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_
 
