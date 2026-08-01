@@ -19,6 +19,7 @@ relatedConcepts:
 relatedPatterns: []
 relatedBooks:
 - coupling
+- how-serious-systems-learn
 recognitionSignals:
 - responsibility boundaries and escalation routes are deliberately designed
 - feedback paths return consequence to actors who can redesign behavior

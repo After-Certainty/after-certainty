@@ -22,14 +22,14 @@ Portfolio: **34** book specs (33 titles; WOLTY v1 + v2).
 
 | Book | G/P/S/T | Ch | Priority note |
 | --- | ---: | ---: | --- |
-| `living-in-sediment` | 5/3/72/73 | 1/21 | Overview concepts/patterns wired (2026-08-01); chapters still thin |
-| `when-others-become-leaders` | 6/4/53/49 | 0/15 | Overview concepts/patterns wired (2026-08-01); chapters still missing |
-| `how-serious-systems-learn` | 0/0/38/46 | 1/25 | Handbook |
+| `living-in-sediment` | 5/4/72/73 | 1/21 | Overview concepts/patterns wired (#444); chapters still thin |
+| `when-others-become-leaders` | 6/5/53/49 | 0/15 | Overview concepts/patterns wired (#444); chapters still missing |
+| `how-serious-systems-learn` | 6/8/38/46 | 1/25 | Overview concepts/patterns wired (2026-08-01); chapters thin |
+| `the-discipline-of-uncertainty` | 6/5/10/12 | 0/23 | Overview concepts/patterns wired (2026-08-01); chapters missing |
 | `when-moral-seriousness-scales` | 0/0/22/19 | 0/17 | |
 | `when-others-look-to-you-v2` | 0/0/17/17 | 0/18 | Also absent from questions |
 | `when-accountability-no-longer-expires` | 0/0/12/11 | 1/19 | |
 | `learning-to-see` | 0/0/12/13 | 19/19 | Chapters done; sources linked without manuscript biblio (out of drift scope) |
-| `the-discipline-of-uncertainty` | 0/0/10/12 | 0/23 | Handbook |
 
 ### 2b — Concept/pattern spine present; chapter enrichment thin or missing
 
@@ -88,9 +88,10 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 1. ~~Sources for `the-world-we-make-together`~~ done (#442).
 2. ~~First semantic pass for `no-time-to-think` and `the-case-that-does-not-fit`~~ done (#442).
 3. ~~Glossary linking for `living-in-sediment` and `when-others-become-leaders`~~ done (overview spines wired).
-4. **Glossary linking** for remaining source-rich G=0 books (handbooks: `how-serious-systems-learn`, `the-discipline-of-uncertainty`, …).
-5. **Chapter enrichment batch** for thin flagships (`coupling`, `before-certainty-arrives`, WOLTY v1, `living-in-sediment`, `when-others-become-leaders`, …).
-6. **Biblio reconcile** for `when-interpretation-no-longer-matters` (stale RB) and `why-collaboration-is-so-hard`.
+4. ~~Glossary linking for handbooks `how-serious-systems-learn` and `the-discipline-of-uncertainty`~~ done.
+5. **Glossary linking** for remaining source-rich G=0 books (`when-moral-seriousness-scales`, `when-others-look-to-you-v2`, `when-accountability-no-longer-expires`, `learning-to-see`, …).
+6. **Chapter enrichment batch** for thin flagships (`coupling`, `before-certainty-arrives`, WOLTY v1, `living-in-sediment`, `when-others-become-leaders`, handbooks, …).
+7. **Biblio reconcile** for `when-interpretation-no-longer-matters` (stale RB) and `why-collaboration-is-so-hard`.
 
 ## How to regenerate
 
