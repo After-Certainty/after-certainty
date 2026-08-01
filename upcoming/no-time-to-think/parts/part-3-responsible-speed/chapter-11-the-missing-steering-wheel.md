@@ -64,7 +64,7 @@ If those forms of work are treated as temporary launch costs rather than permane
 
 Deployment compounds the problem in a predictable way. A pilot can still feel experimental, can still carry the careful attention of a team that knows it is building evidence. Ordinary infrastructure does not feel that way. Once a service becomes background—priced, scheduled, and depended upon—the public and the organization both stop watching as carefully. That is often the defining feature of successful technology: it becomes invisible. It is also when insufficient stop authority becomes hardest to notice, because nobody is watching for it anymore. Until an edge case arrives that the old wheel would have made interruptible by someone present, and the new architecture has to prove that interruption still lives somewhere real, with enough attention and authority to act before consequence arrives.
 
-The pattern is familiar by now. Make a step faster, cheaper, or unnecessary. Watch the constraint move. Ask whether the new location of judgment is staffed, visible, and interruptible. The missing steering wheel is simply the pattern rendered in metal and air.
+By this point in the book the sequence should be recognizable. Make a step faster, cheaper, or unnecessary. Watch the constraint move. Ask whether the new location of judgment is staffed, visible, and interruptible. The missing steering wheel is that sequence rendered in metal and air.
 
 The vehicle has more room because the wheel is gone. The empty space asks who can interrupt it now.
 

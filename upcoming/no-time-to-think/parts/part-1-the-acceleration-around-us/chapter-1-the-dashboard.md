@@ -54,7 +54,7 @@ Consider what follows from the belief that generation volume constitutes the pro
 
 That spring, the engineering organization restructured. Headcount fell by eighteen percent. The teams reduced most were the ones whose work was hardest to count—the people who knew where the brittle seams were, who ran informal code reviews outside ticketed workflows, who had been translating architectural decisions into documentation new hires could use. The memo did not speak of what those people had carried that the tools could not.
 
-That work did not leave with the headcount. Coordination, exception handling, institutional memory, and the slow transmission of judgment from experienced practitioners to newer ones—these do not disappear when the org chart thins. They reappear as review load, maintenance debt, onboarding friction, and unowned consequence.
+That work did not leave with the headcount. Coordination, exception handling, and the context people carried between systems—these do not disappear when the org chart thins. They reappear as review load, maintenance debt, onboarding friction, and unowned consequence.
 
 The restructuring was not primarily an act of cruelty. It was an act of belief. The organization had treated a partial measure—volume, velocity, artifacts produced—as a complete account of capacity. It concluded that certain human functions had become redundant. What it had not accounted for, because the dashboard had never asked the question, was what those human functions were doing that the tools were not doing.
 

@@ -66,6 +66,4 @@ As aircraft became more complex, the constraint moved from the physical ability 
 
 [^c6-degani]: A. Degani and E. L. Wiener, *Human Factors of Flight-Deck Checklists: The Normal Checklist*, NASA Contractor Report CR-177549, NASA Ames Research Center, 1990, https://www.faa.gov/sites/faa.gov/files/2022-11/NASA%20Ames%20Rpt%20CR%20177549%20.pdf. Analyzes checklist design principles including length, format, and the relationship between checklist structure and actual cockpit use under operational conditions.
 
-[^c6-asrs]: NASA Aviation Safety Reporting System (ASRS), operational since April 1976 under FAA–NASA agreement; overview: https://www.nasa.gov/human-systems-integration-division/aviation-safety-reporting-system-overview/. The voluntary reporting, confidentiality, and immunity design are described in detail in Chapter 9.
-
 [^c6-jc]: Agency for Healthcare Research and Quality, *Preventing Wrong-Site, Wrong-Procedure, and Wrong-Person Surgery* (Chapter 36), NCBI Bookshelf, https://www.ncbi.nlm.nih.gov/books/NBK2678/. The Joint Commission Universal Protocol for preventing wrong-site surgery—including pre-procedure verification, site marking, and time-out immediately before incision—became effective July 1, 2004 for accredited organizations.
