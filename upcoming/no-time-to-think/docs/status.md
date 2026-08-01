@@ -2,7 +2,7 @@
 
 ## Current phase
 
-**Phase 1 complete (full first prose draft)** — all units drafted; awaiting manuscript-wide author review. DOCX export enabled for review builds.
+**Developmental deepen-the-world pass complete** — manuscript ~31k words. Architecture, chapter sequence, governing claim, ordinary objects, and conclusion structure preserved. Awaiting author whole-book review.
 
 ## Active branch
 
@@ -17,44 +17,45 @@
 - [`book-rules.md`](book-rules.md)
 - [`drafting-process.md`](drafting-process.md)
 - [`outline.md`](outline.md)
+- Research notes for this pass: [`research/developmental-pass-source-notes.md`](research/developmental-pass-source-notes.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
 
 ## Unit progress
 
 | Unit | Phase | Notes |
 |------|-------|-------|
-| Introduction — The Merge Button | draft | ~894 words; He et al. 2x study reverified |
-| Part I bridge | draft | Short bridge |
-| Chapter 1 — The Dashboard | draft | Layoff memo as supporting passage |
-| Chapter 2 — The Signature | draft | GAO medical-notes citation |
-| Chapter 3 — The Control Tower Clock | draft | FAA workforce plan citation |
-| Part II bridge | draft | Short bridge; Challenger/TMI framed |
-| Chapter 4 — The Stopwatch | draft | Taylor / measurement |
-| Chapter 5 — The Conveyor Belt | draft | Ford line / system pace |
-| Chapter 6 — The Checklist | draft | Aviation memory friction |
-| Chapter 7 — The Launch Schedule | draft | Challenger / stop authority |
-| Chapter 8 — The Alarm Panel | draft | TMI / comprehension |
-| Part III bridge | draft | Short bridge |
-| Chapter 9 — What History Preserved | draft | Stop-work card / calibration |
-| Chapter 10 — The Work After Automation | draft | Scarce post-generation work |
-| Chapter 11 — The Missing Steering Wheel | draft | Zoox / AP citation reverified |
-| Conclusion — The Place Where Speed Stops | draft | Two-object close + responsible-speed list |
+| Introduction — The Merge Button | draft | Lived PR scene before claim; He et al. |
+| Part I bridge | draft | Short |
+| Chapter 1 — The Dashboard | draft | Meeting + layoff memo scenes |
+| Chapter 2 — The Signature | draft | End-of-day clinic signing scene; GAO |
+| Chapter 3 — The Control Tower Clock | draft | Quiet vs busy sector; FAA plan |
+| Part II bridge | draft | Short |
+| Chapter 4 — The Stopwatch | draft | Bethlehem / Taylor with scholarly caveats |
+| Chapter 5 — The Conveyor Belt | draft | Highland Park; Arnold man-hours |
+| Chapter 6 — The Checklist | draft | Model 299 / Wright Field 1935 |
+| Chapter 7 — The Launch Schedule | draft | Thiokol teleconference; Rogers |
+| Chapter 8 — The Alarm Panel | draft | TMI control room; human factors |
+| Part III bridge | draft | Short |
+| Chapter 9 — What History Preserved | draft | Stop-work, sterile cockpit, ASRS, time-out |
+| Chapter 10 — The Work After Automation | draft | Priority apprenticeship expansion |
+| Chapter 11 — The Missing Steering Wheel | draft | Zoox / intervention locus |
+| Conclusion — The Place Where Speed Stops | draft | Two-object close retained |
 
 ## Next actions
 
-1. Author manuscript-wide review (whole-book pass).
-2. Deepen historical source dossiers and lock Part II footnotes (Taylor, Ford, checklists, Challenger, TMI).
-3. Phase 2 unit passes after author feedback; keep EPUB/PDF disabled until promotion.
+1. Author whole-book review of deepen-the-world pass.
+2. Citation lock / further primary-source deepening where author flags.
+3. Phase 2 editorial unit passes after feedback (not before).
 
 ## Open decisions / known issues
 
-- Is the title too close to a general busyness critique, or does the shifted-bottleneck argument differentiate it?
-- Opening retained in software (Merge button) per outline; revisit only if author wants a more universally legible doorway.
-- Which stories show successful redesign rather than only pressure and risk?
-- Historical footnotes still marked for dossier verification before citation lock.
+- Taylor Schmidt/Noll story presented with Wrege–Perroni caveats; author may want softer or fuller treatment.
+- Historical footnotes strengthened but some still point to research dossier for final lock.
+- Explicit “Where did the constraint move?” chant removed from manuscript prose (kept as editorial test in book-rules).
 
 ## Rough scale
 
-- Manuscript words (intro + parts + conclusion): ~10.8k (essay-band first draft)
-- `build.formats.docx.enabled: true` (with `interior_finish: true`); epub/pdf still false
-- Last assessed: July 2026 full first prose draft
+- Manuscript words (intro + parts + conclusion): **~31,000** (target band 30–35k)
+- `build.formats.docx.enabled: true` (with `interior_finish: true`)
+- Cover + OG wired
+- Last assessed: August 2026 deepen-the-world pass

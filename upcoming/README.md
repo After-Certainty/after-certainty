@@ -32,7 +32,7 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 | Book | Phase | Hub |
 |------|-------|-----|
-| [No Time to Think](no-time-to-think/) | Phase 1 complete (first prose draft; DOCX on) | [`index.md`](no-time-to-think/index.md) · [`status`](no-time-to-think/docs/status.md) |
+| [No Time to Think](no-time-to-think/) | Developmental pass (~31k; DOCX on) | [`index.md`](no-time-to-think/index.md) · [`status`](no-time-to-think/docs/status.md) |
 | [The Case That Does Not Fit](the-case-that-does-not-fit/) | Phase 0 — Structure | [`index.md`](the-case-that-does-not-fit/index.md) · [`status`](the-case-that-does-not-fit/docs/status.md) |
 
 Scaffold additional titles from [`docs/_templates/`](docs/_templates/).
