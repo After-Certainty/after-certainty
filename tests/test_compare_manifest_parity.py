@@ -65,8 +65,8 @@ def test_compare_accepts_equal_or_larger_local() -> None:
     assert report["countDeltas"]["glossary"]["delta"] == 1
 
 
-def test_compare_rejects_schema_mismatch_and_regression() -> None:
-    remote = _minimal_manifest(books=4)
+def test_compare_rejects_schema_regression_and_count_regression() -> None:
+    remote = _minimal_manifest(schema="2.3", books=4)
     remote["glossary"] = [{"id": f"g-{i}"} for i in range(5)]
     local = _minimal_manifest(schema="2.2", books=4)
     local["glossary"] = [{"id": "g-0"}]  # regression vs remote
@@ -74,6 +74,18 @@ def test_compare_rejects_schema_mismatch_and_regression() -> None:
     assert report["compatible"] is False
     assert any("schemaVersion" in e for e in errors)
     assert any("count regression for glossary" in e for e in errors)
+
+
+def test_compare_allows_additive_local_schema_ahead_of_remote() -> None:
+    """PRs may bump schemaVersion before the published release asset catches up."""
+    remote = _minimal_manifest(schema="2.3", books=4)
+    local = _minimal_manifest(schema="2.4", books=4)
+    local["patterns"].append({"id": "p-extra", "slug": "p-extra"})
+    report, errors = compare(local, remote)
+    assert not errors, errors
+    assert report["compatible"] is True
+    assert report["local"]["schemaVersion"] == "2.4"
+    assert report["remote"]["schemaVersion"] == "2.3"
 
 
 def test_compare_requires_representative_slugs() -> None:

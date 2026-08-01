@@ -93,6 +93,24 @@ def _collection_count(manifest: dict[str, Any], key: str) -> int:
     return sum(1 for row in rows if not _is_author_facing_chapter(row))
 
 
+REQUIRED_LOCAL_SCHEMA_VERSION = "2.4"
+
+
+def _parse_schema_version(value: Any) -> tuple[int, int] | None:
+    """Parse additive ``major.minor`` schemaVersion strings."""
+    if not isinstance(value, str) or not value.strip():
+        return None
+    parts = value.strip().split(".")
+    if len(parts) < 2:
+        return None
+    try:
+        major = int(parts[0])
+        minor = int(parts[1])
+    except ValueError:
+        return None
+    return major, minor
+
+
 def _identity(manifest: dict[str, Any]) -> dict[str, Any]:
     return {
         "manifestVersion": manifest.get("manifestVersion"),
@@ -125,13 +143,29 @@ def compare(local: dict[str, Any], remote: dict[str, Any]) -> tuple[dict[str, An
     local_id = _identity(local)
     remote_id = _identity(remote)
 
-    if local_id["schemaVersion"] != remote_id["schemaVersion"]:
+    local_schema = local_id["schemaVersion"]
+    remote_schema = remote_id["schemaVersion"]
+    if local_schema != REQUIRED_LOCAL_SCHEMA_VERSION:
         errors.append(
-            f"schemaVersion mismatch: local={local_id['schemaVersion']!r} "
-            f"remote={remote_id['schemaVersion']!r}"
+            f"local schemaVersion must be {REQUIRED_LOCAL_SCHEMA_VERSION!r}, got {local_schema!r}"
         )
-    if local_id["schemaVersion"] != "2.4":
-        errors.append(f"local schemaVersion must be '2.4', got {local_id['schemaVersion']!r}")
+
+    local_parsed = _parse_schema_version(local_schema)
+    remote_parsed = _parse_schema_version(remote_schema)
+    if local_parsed is None:
+        errors.append(f"local schemaVersion is not parseable: {local_schema!r}")
+    elif remote_parsed is None:
+        errors.append(f"remote schemaVersion is not parseable: {remote_schema!r}")
+    elif local_parsed[0] != remote_parsed[0]:
+        errors.append(
+            f"schemaVersion major mismatch: local={local_schema!r} remote={remote_schema!r}"
+        )
+    elif local_parsed < remote_parsed:
+        # Local must not lag a newer published release contract.
+        errors.append(
+            f"schemaVersion regression: local={local_schema!r} < remote={remote_schema!r}"
+        )
+    # local > remote is allowed: additive bumps land in PRs before the release asset updates.
 
     count_deltas: dict[str, dict[str, int]] = {}
     for key in COLLECTIONS:
@@ -179,6 +213,8 @@ def compare(local: dict[str, Any], remote: dict[str, Any]) -> tuple[dict[str, An
             "Count floors use the live remote release; local must not shrink below remote.",
             "Chapter floors exclude author-facing docs/ sourcePath entries "
             "(design handbook / outline), which are not reader chapters.",
+            "Additive schemaVersion bumps are allowed when local is ahead of remote "
+            f"within the same major (local must be {REQUIRED_LOCAL_SCHEMA_VERSION}).",
         ],
         "local": local_id,
         "remote": remote_id,
