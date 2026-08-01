@@ -6897,7 +6897,7 @@
         "other styles also matched: plain_chicago=1"
       ],
       "biblio_count": 38,
-      "linked_count": 54,
+      "linked_count": 38,
       "matched": [
         {
           "biblioSlug": "brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio",
@@ -6999,6 +6999,33 @@
           "sourceName": "Kirk A Hawkins — Venezuela’s Chavismo and Populism in Comparative Perspective"
         },
         {
+          "biblioSlug": "jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41",
+          "sourceSlug": "jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Last Trump Job Approval 34%; Average Is Record-Low 41%",
+          "biblioAuthor": "Jeffrey M Jones",
+          "sourceName": "Jeffrey M Jones — Last Trump Job Approval 34%; Average Is Record-Low 41%"
+        },
+        {
+          "biblioSlug": "jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents",
+          "sourceSlug": "jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Trump Approval More Stable Than Approval for Prior Presidents",
+          "biblioAuthor": "Jeffrey M Jones",
+          "sourceName": "Jeffrey M Jones — Trump Approval More Stable Than Approval for Prior Presidents"
+        },
+        {
+          "biblioSlug": "jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization",
+          "sourceSlug": "jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Trump Job Approval Sets New Record for Polarization",
+          "biblioAuthor": "Jeffrey M Jones",
+          "sourceName": "Jeffrey M Jones — Trump Job Approval Sets New Record for Polarization"
+        },
+        {
           "biblioSlug": "kershaw-ian-hitler-1889-1936-hubris",
           "sourceSlug": "kershaw-ian-hitler-1889-1936-hubris",
           "score": 100,
@@ -7006,6 +7033,15 @@
           "biblioTitle": "Hitler: 1889-1936 Hubris",
           "biblioAuthor": "Ian Kershaw",
           "sourceName": "Ian Kershaw — Hitler: 1889–1936 Hubris"
+        },
+        {
+          "biblioSlug": "kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi",
+          "sourceSlug": "kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "President Trump Has Made More Than 20,000 False or Misleading Claims",
+          "biblioAuthor": "Kessler, Glenn, Salvador Rizzo, and Meg Kelly",
+          "sourceName": "Kessler, Glenn, Salvador Rizzo, and Meg Kelly — President Trump Has Made More Than 20,000 False or Misleading Claims"
         },
         {
           "biblioSlug": "kiernan-ben-the-pol-pot-regime-race-power-and-genocide-in-cambodia-under-the-khmer-rouge-1975-79",
@@ -7080,6 +7116,33 @@
           "sourceName": "Joseph A Page — Perón: A Biography"
         },
         {
+          "biblioSlug": "pew-research-center-a-look-back-at-americans-reactions-to-the-jan-6-riot-at-the-u-s-capitol",
+          "sourceSlug": "pew-research-center-a-look-back-at-americans-reactions-to-the-jan-6-riot-at-the-u-s-capitol",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "A Look Back at Americans' Reactions to the Jan. 6 Riot at the U.S. Capitol",
+          "biblioAuthor": "Pew Research Center",
+          "sourceName": "Pew Research Center — A Look Back at Americans' Reactions to the Jan. 6 Riot at the U.S. Capitol"
+        },
+        {
+          "biblioSlug": "pew-research-center-large-majority-of-the-public-views-prosecution-of-capitol-rioters-as-very-im",
+          "sourceSlug": "pew-research-center-large-majority-of-the-public-views-prosecution-of-capitol-rioters-as-very-im",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Large Majority of the Public Views Prosecution of Capitol Rioters as 'Very Important.'",
+          "biblioAuthor": "Pew Research Center",
+          "sourceName": "Pew Research Center — Large Majority of the Public Views Prosecution of Capitol Rioters as 'Very Important.'"
+        },
+        {
+          "biblioSlug": "pew-research-center-views-on-the-rioting-at-the-u-s-capitol",
+          "sourceSlug": "pew-research-center-views-on-the-rioting-at-the-u-s-capitol",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Views on the Rioting at the U.S. Capitol",
+          "biblioAuthor": "Pew Research Center",
+          "sourceName": "Pew Research Center — Views on the Rioting at the U.S. Capitol"
+        },
+        {
           "biblioSlug": "reiterman-tim-raven-the-untold-story-of-the-rev-jim-jones",
           "sourceSlug": "reiterman-tim-raven-the-untold-story-of-the-rev-jim-jones",
           "score": 100,
@@ -7098,6 +7161,15 @@
           "sourceName": "Jan Shipps — Mormonism: The Story of a New Religious Tradition"
         },
         {
+          "biblioSlug": "solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation",
+          "sourceSlug": "solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The Gulag Archipelago, 1918-1956: An Experiment in Literary Investigation",
+          "biblioAuthor": "Aleksandr I Solzhenitsyn",
+          "sourceName": "Aleksandr I Solzhenitsyn — The Gulag Archipelago, 1918-1956: An Experiment in Literary Investigation"
+        },
+        {
           "biblioSlug": "tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer",
           "sourceSlug": "tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer",
           "score": 100,
@@ -7107,6 +7179,33 @@
           "sourceName": "Eugene V. Gallagher and James D. Tabor — Why Waco? Cults and the Battle for Religious Freedom in America"
         },
         {
+          "biblioSlug": "u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-c",
+          "sourceSlug": "u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-c",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "",
+          "biblioAuthor": "2019) U.S. House of Representatives. Articles of Impeachment against Donald John Trump. H. Res. 755. 116th Cong. (December 18",
+          "sourceName": "U.S. House of Representatives — Articles of Impeachment against Donald John Trump (H. Res. 755, 116th Cong.)"
+        },
+        {
+          "biblioSlug": "u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-hig",
+          "sourceSlug": "u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-hig",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "",
+          "biblioAuthor": "U.S. House of Representatives. Impeaching Donald John Trump, President of the United States, for High Crimes and Misdemeanors. H. Res. 24. 117th Cong. (January 13, 2021)",
+          "sourceName": "U.S. House of Representatives — Impeaching Donald John Trump, President of the United States, for High Crimes and Misdemeanors (H. Res. 24, 117th Cong.)"
+        },
+        {
+          "biblioSlug": "ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers",
+          "sourceSlug": "ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "First They Killed My Father: A Daughter of Cambodia Remembers",
+          "biblioAuthor": "Loung Ung",
+          "sourceName": "Loung Ung — First They Killed My Father: A Daughter of Cambodia Remembers"
+        },
+        {
           "biblioSlug": "wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict",
           "sourceSlug": "wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict",
           "score": 100,
@@ -7114,6 +7213,15 @@
           "biblioTitle": "Armageddon in Waco: Critical Perspectives on the Branch Davidian Conflict",
           "biblioAuthor": "Wright, Stuart A.",
           "sourceName": "Wright, Stuart A., ed — Armageddon in Waco: Critical Perspectives on the Branch Davidian Conflict"
+        },
+        {
+          "biblioSlug": "givens-terryl-l-by-the-hand-of-mormon-the-american-scripture-that-launched-a-new-world-religion",
+          "sourceSlug": "givens-terryl-l-by-the-hand-of-mormon",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "By the Hand of Mormon: The American Scripture That Launched a New World Religion",
+          "biblioAuthor": "Terryl L Givens",
+          "sourceName": "Terryl L Givens — By the Hand of Mormon: The American Scripture That Launched a New World Religion"
         },
         {
           "biblioSlug": "hirschman-albert-o-exit-voice-and-loyalty",
@@ -7132,257 +7240,35 @@
           "biblioTitle": "The Pearl of Great Price",
           "biblioAuthor": "The Church of Jesus Christ of Latter-day Saints",
           "sourceName": "The Church of Jesus Christ of Latter-day Saints — Pearl of Great Price"
-        },
-        {
-          "biblioSlug": "u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-c",
-          "sourceSlug": "parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "2019) U.S. House of Representatives. Articles of Impeachment against Donald John Trump. H. Res. 755. 116th Cong. (December 18",
-          "sourceName": "Ashley Parker and Michael Scherer — Donald Trump and His Assault on Truth."
-        },
-        {
-          "biblioSlug": "u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-hig",
-          "sourceSlug": "woodward-bob-fear-trump-in-the-white-house",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "U.S. House of Representatives. Impeaching Donald John Trump, President of the United States, for High Crimes and Misdemeanors. H. Res. 24. 117th Cong. (January 13, 2021)",
-          "sourceName": "Bob Woodward — Fear: Trump in the White House"
         }
       ],
-      "missing_in_semantic": [
-        {
-          "biblioSlug": "givens-terryl-l-by-the-hand-of-mormon-the-american-scripture-that-launched-a-new-world-religion",
-          "biblioTitle": "By the Hand of Mormon: The American Scripture That Launched a New World Religion",
-          "biblioAuthor": "Terryl L Givens",
-          "summary": "Givens, Terryl L. *By the Hand of Mormon: The American Scripture That Launched a New World Religion*. New York: Oxford University Press, 2002."
-        },
-        {
-          "biblioSlug": "jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41",
-          "biblioTitle": "Last Trump Job Approval 34%; Average Is Record-Low 41%",
-          "biblioAuthor": "Jeffrey M Jones",
-          "summary": "Jones, Jeffrey M. \"Last Trump Job Approval 34%; Average Is Record-Low 41%.\" Gallup, January 18, 2021."
-        },
-        {
-          "biblioSlug": "jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents",
-          "biblioTitle": "Trump Approval More Stable Than Approval for Prior Presidents",
-          "biblioAuthor": "Jeffrey M Jones",
-          "summary": "Jones, Jeffrey M. \"Trump Approval More Stable Than Approval for Prior Presidents.\" Gallup, January 18, 2019."
-        },
-        {
-          "biblioSlug": "jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization",
-          "biblioTitle": "Trump Job Approval Sets New Record for Polarization",
-          "biblioAuthor": "Jeffrey M Jones",
-          "summary": "Jones, Jeffrey M. \"Trump Job Approval Sets New Record for Polarization.\" Gallup, January 18, 2019."
-        },
-        {
-          "biblioSlug": "kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi",
-          "biblioTitle": "President Trump Has Made More Than 20,000 False or Misleading Claims",
-          "biblioAuthor": "Kessler, Glenn, Salvador Rizzo, and Meg Kelly",
-          "summary": "Kessler, Glenn, Salvador Rizzo, and Meg Kelly. \"President Trump Has Made More Than 20,000 False or Misleading Claims.\" *Washington Post*, July 13, 2020."
-        },
-        {
-          "biblioSlug": "pew-research-center-a-look-back-at-americans-reactions-to-the-jan-6-riot-at-the-u-s-capitol",
-          "biblioTitle": "A Look Back at Americans' Reactions to the Jan. 6 Riot at the U.S. Capitol",
-          "biblioAuthor": "Pew Research Center",
-          "summary": "Pew Research Center. \"A Look Back at Americans' Reactions to the Jan. 6 Riot at the U.S. Capitol.\" January 4, 2022."
-        },
-        {
-          "biblioSlug": "pew-research-center-large-majority-of-the-public-views-prosecution-of-capitol-rioters-as-very-im",
-          "biblioTitle": "Large Majority of the Public Views Prosecution of Capitol Rioters as 'Very Important.'",
-          "biblioAuthor": "Pew Research Center",
-          "summary": "Pew Research Center. \"Large Majority of the Public Views Prosecution of Capitol Rioters as 'Very Important.'\" March 18, 2021."
-        },
-        {
-          "biblioSlug": "pew-research-center-views-on-the-rioting-at-the-u-s-capitol",
-          "biblioTitle": "Views on the Rioting at the U.S. Capitol",
-          "biblioAuthor": "Pew Research Center",
-          "summary": "Pew Research Center. \"Views on the Rioting at the U.S. Capitol.\" January 15, 2021."
-        },
-        {
-          "biblioSlug": "solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation",
-          "biblioTitle": "The Gulag Archipelago, 1918-1956: An Experiment in Literary Investigation",
-          "biblioAuthor": "Aleksandr I Solzhenitsyn",
-          "summary": "Solzhenitsyn, Aleksandr I. *The Gulag Archipelago, 1918-1956: An Experiment in Literary Investigation*. Vol. 1. Translated by Thomas P. Whitney. New York: Harper & Row, 1973."
-        },
-        {
-          "biblioSlug": "ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers",
-          "biblioTitle": "First They Killed My Father: A Daughter of Cambodia Remembers",
-          "biblioAuthor": "Loung Ung",
-          "summary": "Ung, Loung. *First They Killed My Father: A Daughter of Cambodia Remembers*. New York: HarperCollins, 2000."
-        }
-      ],
+      "missing_in_semantic": [],
       "missing_related_books": [],
-      "stale_related_books": [
-        {
-          "sourceSlug": "arendt-hannah-the-origins-of-totalitarianism",
-          "sourceName": "Hannah Arendt — The Origins of Totalitarianism",
-          "title": "The Origins of Totalitarianism",
-          "path": "semantic/sources/arendt-hannah-the-origins-of-totalitarianism.yml"
-        },
-        {
-          "sourceSlug": "barker-eileen-the-making-of-a-moonie-choice-or-brainwashing",
-          "sourceName": "Eileen Barker — The Making of a Moonie: Choice or Brainwashing?",
-          "title": "The Making of a Moonie: Choice or Brainwashing?",
-          "path": "semantic/sources/barker-eileen-the-making-of-a-moonie-choice-or-brainwashing.yml"
-        },
-        {
-          "sourceSlug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog",
-          "sourceName": "Peter L. Berger and Thomas Luckmann — The Social Construction of Reality: A Treatise in the Sociology of Knowledge",
-          "title": "The Social Construction of Reality: A Treatise in the Sociology of Knowledge",
-          "path": "semantic/sources/berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog.yml"
-        },
-        {
-          "sourceSlug": "berlin-isaiah-the-hedgehog-and-the-fox",
-          "sourceName": "Isaiah Berlin — The Hedgehog and the Fox.",
-          "title": "The Hedgehog and the Fox.",
-          "path": "semantic/sources/berlin-isaiah-the-hedgehog-and-the-fox.yml"
-        },
-        {
-          "sourceSlug": "chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific",
-          "sourceName": "George D Chryssides — The Advent of Sun Myung Moon: The Origins, Beliefs, and Practices of the Unification Church",
-          "title": "The Advent of Sun Myung Moon: The Origins, Beliefs, and Practices of the Unification Church",
-          "path": "semantic/sources/chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific.yml"
-        },
-        {
-          "sourceSlug": "ellul-jacques-propaganda-the-formation-of-men-s-attitudes",
-          "sourceName": "Jacques Ellul — Propaganda: The Formation of Men’s Attitudes",
-          "title": "Propaganda: The Formation of Men’s Attitudes",
-          "path": "semantic/sources/ellul-jacques-propaganda-the-formation-of-men-s-attitudes.yml"
-        },
-        {
-          "sourceSlug": "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails",
-          "sourceName": "Henry W. Riecken, Leon Festinger, and Stanley Schachter — When Prophecy Fails",
-          "title": "When Prophecy Fails",
-          "path": "semantic/sources/festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails.yml"
-        },
-        {
-          "sourceSlug": "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
-          "sourceName": "Michel Foucault — Discipline and Punish: The Birth of the Prison",
-          "title": "Discipline and Punish: The Birth of the Prison",
-          "path": "semantic/sources/foucault-michel-discipline-and-punish-the-birth-of-the-prison.yml"
-        },
-        {
-          "sourceSlug": "foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977",
-          "sourceName": "Michel Foucault — Power/Knowledge: Selected Interviews and Other Writings, 1972–1977",
-          "title": "Power/Knowledge: Selected Interviews and Other Writings, 1972–1977",
-          "path": "semantic/sources/foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977.yml"
-        },
-        {
-          "sourceSlug": "foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76",
-          "sourceName": "Michel Foucault — \"Society Must Be Defended\": Lectures at the Collège de France, 1975–76",
-          "title": "\"Society Must Be Defended\": Lectures at the Collège de France, 1975–76",
-          "path": "semantic/sources/foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76.yml"
-        },
-        {
-          "sourceSlug": "givens-terryl-l-by-the-hand-of-mormon",
-          "sourceName": "Terryl L Givens — By the Hand of Mormon",
-          "title": "By the Hand of Mormon",
-          "path": "semantic/sources/givens-terryl-l-by-the-hand-of-mormon.yml"
-        },
-        {
-          "sourceSlug": "goffman-erving-the-presentation-of-self-in-everyday-life",
-          "sourceName": "Erving Goffman — The Presentation of Self in Everyday Life",
-          "title": "The Presentation of Self in Everyday Life",
-          "path": "semantic/sources/goffman-erving-the-presentation-of-self-in-everyday-life.yml"
-        },
-        {
-          "sourceSlug": "gott-richard-hugo-ch-vez-and-the-bolivarian-revolution",
-          "sourceName": "Richard Gott — Hugo Chávez and the Bolivarian Revolution",
-          "title": "Hugo Chávez and the Bolivarian Revolution",
-          "path": "semantic/sources/gott-richard-hugo-ch-vez-and-the-bolivarian-revolution.yml"
-        },
-        {
-          "sourceSlug": "habermas-j-rgen-the-theory-of-communicative-action",
-          "sourceName": "Jürgen Habermas — The Theory of Communicative Action",
-          "title": "The Theory of Communicative Action",
-          "path": "semantic/sources/habermas-j-rgen-the-theory-of-communicative-action.yml"
-        },
-        {
-          "sourceSlug": "havel-vaclav-the-power-of-the-powerless",
-          "sourceName": "Václav Havel — The Power of the Powerless.",
-          "title": "The Power of the Powerless.",
-          "path": "semantic/sources/havel-vaclav-the-power-of-the-powerless.yml"
-        },
-        {
-          "sourceSlug": "kuhn-thomas-s-the-structure-of-scientific-revolutions",
-          "sourceName": "Thomas S Kuhn — The Structure of Scientific Revolutions",
-          "title": "The Structure of Scientific Revolutions",
-          "path": "semantic/sources/kuhn-thomas-s-the-structure-of-scientific-revolutions.yml"
-        },
-        {
-          "sourceSlug": "mouffe-chantal-the-democratic-paradox",
-          "sourceName": "Chantal Mouffe — The Democratic Paradox",
-          "title": "The Democratic Paradox",
-          "path": "semantic/sources/mouffe-chantal-the-democratic-paradox.yml"
-        },
-        {
-          "sourceSlug": "popper-karl-the-open-society-and-its-enemies",
-          "sourceName": "Karl Popper — The Open Society and Its Enemies",
-          "title": "The Open Society and Its Enemies",
-          "path": "semantic/sources/popper-karl-the-open-society-and-its-enemies.yml"
-        },
-        {
-          "sourceSlug": "postman-neil-amusing-ourselves-to-death",
-          "sourceName": "Neil Postman — Amusing Ourselves to Death",
-          "title": "Amusing Ourselves to Death",
-          "path": "semantic/sources/postman-neil-amusing-ourselves-to-death.yml"
-        },
-        {
-          "sourceSlug": "schmitt-carl-the-concept-of-the-political",
-          "sourceName": "Carl Schmitt — The Concept of the Political",
-          "title": "The Concept of the Political",
-          "path": "semantic/sources/schmitt-carl-the-concept-of-the-political.yml"
-        },
-        {
-          "sourceSlug": "shklar-judith-ordinary-vices",
-          "sourceName": "Judith Shklar — Ordinary Vices",
-          "title": "Ordinary Vices",
-          "path": "semantic/sources/shklar-judith-ordinary-vices.yml"
-        },
-        {
-          "sourceSlug": "steffensen-kevin-how-meaning-moves",
-          "sourceName": "Kevin Steffensen — How Meaning Moves",
-          "title": "How Meaning Moves",
-          "path": "semantic/sources/steffensen-kevin-how-meaning-moves.yml"
-        },
-        {
-          "sourceSlug": "steffensen-kevin-when-authority-is-misread",
-          "sourceName": "Kevin Steffensen — When Authority Is Misread",
-          "title": "When Authority Is Misread",
-          "path": "semantic/sources/steffensen-kevin-when-authority-is-misread.yml"
-        },
-        {
-          "sourceSlug": "steffensen-kevin-when-authority-outlives-accountability-a-lens-for",
-          "sourceName": "Kevin Steffensen — When Authority Outlives Accountability: A Lens for",
-          "title": "When Authority Outlives Accountability: A Lens for",
-          "path": "semantic/sources/steffensen-kevin-when-authority-outlives-accountability-a-lens-for.yml"
-        },
-        {
-          "sourceSlug": "sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media",
-          "sourceName": "Cass R Sunstein — #Republic: Divided Democracy in the Age of Social Media",
-          "title": "#Republic: Divided Democracy in the Age of Social Media",
-          "path": "semantic/sources/sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media.yml"
-        },
-        {
-          "sourceSlug": "weber-max-economy-and-society-an-outline-of-interpretive-sociology",
-          "sourceName": "Max Weber — Economy and Society: An Outline of Interpretive Sociology",
-          "title": "Economy and Society: An Outline of Interpretive Sociology",
-          "path": "semantic/sources/weber-max-economy-and-society-an-outline-of-interpretive-sociology.yml"
-        }
-      ],
+      "stale_related_books": [],
       "thinker_stale": [
+        {
+          "thinkerSlug": "ashley-parker",
+          "name": "Ashley Parker",
+          "works": [
+            "parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth"
+          ],
+          "linkedWorksOnBook": []
+        },
+        {
+          "thinkerSlug": "bob-woodward",
+          "name": "Bob Woodward",
+          "works": [
+            "woodward-bob-fear-trump-in-the-white-house"
+          ],
+          "linkedWorksOnBook": []
+        },
         {
           "thinkerSlug": "carl-schmitt",
           "name": "Carl Schmitt",
           "works": [
             "schmitt-carl-the-concept-of-the-political"
           ],
-          "linkedWorksOnBook": [
-            "schmitt-carl-the-concept-of-the-political"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "cass-r-sunstein",
@@ -7390,9 +7276,7 @@
           "works": [
             "sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media"
           ],
-          "linkedWorksOnBook": [
-            "sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "chantal-mouffe",
@@ -7400,9 +7284,7 @@
           "works": [
             "mouffe-chantal-the-democratic-paradox"
           ],
-          "linkedWorksOnBook": [
-            "mouffe-chantal-the-democratic-paradox"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "eileen-barker",
@@ -7410,9 +7292,7 @@
           "works": [
             "barker-eileen-the-making-of-a-moonie-choice-or-brainwashing"
           ],
-          "linkedWorksOnBook": [
-            "barker-eileen-the-making-of-a-moonie-choice-or-brainwashing"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "erving-goffman",
@@ -7421,9 +7301,7 @@
             "goffman-erving-interaction-ritual",
             "goffman-erving-the-presentation-of-self-in-everyday-life"
           ],
-          "linkedWorksOnBook": [
-            "goffman-erving-the-presentation-of-self-in-everyday-life"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "george-d-chryssides",
@@ -7431,9 +7309,7 @@
           "works": [
             "chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific"
           ],
-          "linkedWorksOnBook": [
-            "chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "hannah-arendt",
@@ -7449,9 +7325,7 @@
             "arendt-hannah-the-origins-of-totalitarianism",
             "arendt-hannah-what-is-authority"
           ],
-          "linkedWorksOnBook": [
-            "arendt-hannah-the-origins-of-totalitarianism"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "henry-w-riecken",
@@ -7459,9 +7333,7 @@
           "works": [
             "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
           ],
-          "linkedWorksOnBook": [
-            "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "isaiah-berlin",
@@ -7469,9 +7341,7 @@
           "works": [
             "berlin-isaiah-the-hedgehog-and-the-fox"
           ],
-          "linkedWorksOnBook": [
-            "berlin-isaiah-the-hedgehog-and-the-fox"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "jacques-ellul",
@@ -7479,9 +7349,7 @@
           "works": [
             "ellul-jacques-propaganda-the-formation-of-men-s-attitudes"
           ],
-          "linkedWorksOnBook": [
-            "ellul-jacques-propaganda-the-formation-of-men-s-attitudes"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "judith-shklar",
@@ -7490,9 +7358,7 @@
             "shklar-judith-n-putting-cruelty-first",
             "shklar-judith-ordinary-vices"
           ],
-          "linkedWorksOnBook": [
-            "shklar-judith-ordinary-vices"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "jurgen-habermas",
@@ -7500,9 +7366,7 @@
           "works": [
             "habermas-j-rgen-the-theory-of-communicative-action"
           ],
-          "linkedWorksOnBook": [
-            "habermas-j-rgen-the-theory-of-communicative-action"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "karl-r-popper",
@@ -7511,9 +7375,7 @@
             "popper-karl-r-the-logic-of-scientific-discovery",
             "popper-karl-the-open-society-and-its-enemies"
           ],
-          "linkedWorksOnBook": [
-            "popper-karl-the-open-society-and-its-enemies"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "kevin-steffensen",
@@ -7524,11 +7386,7 @@
             "steffensen-kevin-when-authority-outlives-accountability-a-lens-for",
             "steffensen-kevin-when-others-look-to-you-companion-edition"
           ],
-          "linkedWorksOnBook": [
-            "steffensen-kevin-how-meaning-moves",
-            "steffensen-kevin-when-authority-is-misread",
-            "steffensen-kevin-when-authority-outlives-accountability-a-lens-for"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "leon-festinger",
@@ -7536,9 +7394,7 @@
           "works": [
             "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
           ],
-          "linkedWorksOnBook": [
-            "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "max-weber",
@@ -7547,9 +7403,15 @@
             "weber-max-economy-and-society-an-outline-of-interpretive-sociology",
             "weber-max-politics-as-a-vocation"
           ],
-          "linkedWorksOnBook": [
-            "weber-max-economy-and-society-an-outline-of-interpretive-sociology"
-          ]
+          "linkedWorksOnBook": []
+        },
+        {
+          "thinkerSlug": "michael-scherer",
+          "name": "Michael Scherer",
+          "works": [
+            "parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth"
+          ],
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "michel-foucault",
@@ -7560,11 +7422,7 @@
             "foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76",
             "foucault-michel-the-order-of-things-an-archaeology-of-the-human-sciences"
           ],
-          "linkedWorksOnBook": [
-            "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
-            "foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977",
-            "foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "neil-postman",
@@ -7572,9 +7430,7 @@
           "works": [
             "postman-neil-amusing-ourselves-to-death"
           ],
-          "linkedWorksOnBook": [
-            "postman-neil-amusing-ourselves-to-death"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "peter-l-berger",
@@ -7582,9 +7438,7 @@
           "works": [
             "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog"
           ],
-          "linkedWorksOnBook": [
-            "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "richard-gott",
@@ -7592,9 +7446,7 @@
           "works": [
             "gott-richard-hugo-ch-vez-and-the-bolivarian-revolution"
           ],
-          "linkedWorksOnBook": [
-            "gott-richard-hugo-ch-vez-and-the-bolivarian-revolution"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "stanley-schachter",
@@ -7602,19 +7454,7 @@
           "works": [
             "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
           ],
-          "linkedWorksOnBook": [
-            "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
-          ]
-        },
-        {
-          "thinkerSlug": "terryl-l-givens",
-          "name": "Terryl L Givens",
-          "works": [
-            "givens-terryl-l-by-the-hand-of-mormon"
-          ],
-          "linkedWorksOnBook": [
-            "givens-terryl-l-by-the-hand-of-mormon"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "thomas-luckmann",
@@ -7622,9 +7462,7 @@
           "works": [
             "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog"
           ],
-          "linkedWorksOnBook": [
-            "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "thomas-s-kuhn",
@@ -7632,9 +7470,7 @@
           "works": [
             "kuhn-thomas-s-the-structure-of-scientific-revolutions"
           ],
-          "linkedWorksOnBook": [
-            "kuhn-thomas-s-the-structure-of-scientific-revolutions"
-          ]
+          "linkedWorksOnBook": []
         },
         {
           "thinkerSlug": "vaclav-havel",
@@ -7642,9 +7478,7 @@
           "works": [
             "havel-vaclav-the-power-of-the-powerless"
           ],
-          "linkedWorksOnBook": [
-            "havel-vaclav-the-power-of-the-powerless"
-          ]
+          "linkedWorksOnBook": []
         }
       ],
       "creator_missing_thinker": [
@@ -7701,7 +7535,33 @@
           "creatorName": "Wright, Stuart A."
         }
       ],
-      "orphan_creator_slugs": [],
+      "orphan_creator_slugs": [
+        {
+          "creatorSlug": "jeffrey-m-jones",
+          "sourceSlug": "jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41",
+          "sourceName": "Jeffrey M Jones — Last Trump Job Approval 34%; Average Is Record-Low 41%"
+        },
+        {
+          "creatorSlug": "jeffrey-m-jones",
+          "sourceSlug": "jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents",
+          "sourceName": "Jeffrey M Jones — Trump Approval More Stable Than Approval for Prior Presidents"
+        },
+        {
+          "creatorSlug": "jeffrey-m-jones",
+          "sourceSlug": "jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization",
+          "sourceName": "Jeffrey M Jones — Trump Job Approval Sets New Record for Polarization"
+        },
+        {
+          "creatorSlug": "aleksandr-i-solzhenitsyn",
+          "sourceSlug": "solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation",
+          "sourceName": "Aleksandr I Solzhenitsyn — The Gulag Archipelago, 1918-1956: An Experiment in Literary Investigation"
+        },
+        {
+          "creatorSlug": "loung-ung",
+          "sourceSlug": "ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers",
+          "sourceName": "Loung Ung — First They Killed My Father: A Daughter of Cambodia Remembers"
+        }
+      ],
       "weak_parse": false
     },
     {
@@ -9195,7 +9055,7 @@
         "other styles also matched: plain_chicago=15"
       ],
       "biblio_count": 15,
-      "linked_count": 9,
+      "linked_count": 15,
       "matched": [
         {
           "biblioSlug": "hirschman-albert-o-exit-voice-and-loyalty-responses-to-decline-in-firms-organizations-and-states",
@@ -9216,6 +9076,15 @@
           "sourceName": "Arlie Russell Hochschild — The Managed Heart: Commercialization of Human Feeling"
         },
         {
+          "biblioSlug": "kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr",
+          "sourceSlug": "kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review",
+          "biblioAuthor": "Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania",
+          "sourceName": "Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania — Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review"
+        },
+        {
           "biblioSlug": "luhmann-niklas-trust-and-power-two-works",
           "sourceSlug": "luhmann-niklas-trust-and-power-two-works",
           "score": 100,
@@ -9232,6 +9101,42 @@
           "biblioTitle": "Organizations",
           "biblioAuthor": "March, James G., and Herbert A. Simon",
           "sourceName": "March, James G., and Herbert A. Simon — Organizations"
+        },
+        {
+          "biblioSlug": "morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme",
+          "sourceSlug": "morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions",
+          "biblioAuthor": "Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman",
+          "sourceName": "Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman — Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions"
+        },
+        {
+          "biblioSlug": "muller-jerry-z-the-tyranny-of-metrics",
+          "sourceSlug": "muller-jerry-z-the-tyranny-of-metrics",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The Tyranny of Metrics",
+          "biblioAuthor": "Jerry Z Muller",
+          "sourceName": "Jerry Z Muller — The Tyranny of Metrics"
+        },
+        {
+          "biblioSlug": "occupational-safety-and-health-administration-cranes-and-derricks",
+          "sourceSlug": "occupational-safety-and-health-administration-cranes-and-derricks",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Cranes and Derricks",
+          "biblioAuthor": "Occupational Safety and Health Administration",
+          "sourceName": "Occupational Safety and Health Administration — Cranes and Derricks"
+        },
+        {
+          "biblioSlug": "occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule",
+          "sourceSlug": "occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Cranes and Derricks in Construction: Final Rule",
+          "biblioAuthor": "Occupational Safety and Health Administration",
+          "sourceName": "Occupational Safety and Health Administration"
         },
         {
           "biblioSlug": "ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action",
@@ -9277,47 +9182,6 @@
           "biblioTitle": "Sensemaking in Organizations",
           "biblioAuthor": "Karl E Weick",
           "sourceName": "Karl E Weick — Sensemaking in Organizations"
-        }
-      ],
-      "missing_in_semantic": [
-        {
-          "biblioSlug": "kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr",
-          "biblioTitle": "Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review",
-          "biblioAuthor": "Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania",
-          "summary": "Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania. \"Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review.\" *Annals of Internal Medici"
-        },
-        {
-          "biblioSlug": "morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme",
-          "biblioTitle": "Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions",
-          "biblioAuthor": "Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman",
-          "summary": "Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman. \"Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions.\" *PLoS ONE* 13, no. 8 (2"
-        },
-        {
-          "biblioSlug": "occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule",
-          "biblioTitle": "Cranes and Derricks in Construction: Final Rule",
-          "biblioAuthor": "Occupational Safety and Health Administration",
-          "summary": "Occupational Safety and Health Administration. *Cranes and Derricks in Construction: Final Rule*. 29 CFR Part 1926 Subpart CC. Washington, DC: U.S. Department of Labor, 2010."
-        },
-        {
-          "biblioSlug": "occupational-safety-and-health-administration-cranes-and-derricks",
-          "biblioTitle": "Cranes and Derricks",
-          "biblioAuthor": "Occupational Safety and Health Administration",
-          "summary": "Occupational Safety and Health Administration. *Cranes and Derricks*. OSHA 3433-05. Washington, DC: U.S. Department of Labor, 2011."
-        }
-      ],
-      "missing_related_books": [
-        {
-          "biblioSlug": "muller-jerry-z-the-tyranny-of-metrics",
-          "sourceSlug": "muller-jerry-z-the-tyranny-of-metrics",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Tyranny of Metrics",
-          "biblioAuthor": "Jerry Z Muller",
-          "sourceName": "Jerry Z Muller — The Tyranny of Metrics",
-          "sourceRelatedBooks": [
-            "how-serious-systems-learn",
-            "living-in-sediment"
-          ]
         },
         {
           "biblioSlug": "edmondson-amy-psychological-safety-and-learning-behavior-in-work-teams",
@@ -9326,12 +9190,11 @@
           "method": "title_author",
           "biblioTitle": "Psychological Safety and Learning Behavior in Work Teams",
           "biblioAuthor": "Amy Edmondson",
-          "sourceName": "Amy C Edmondson — Psychological Safety and Learning Behavior in Work",
-          "sourceRelatedBooks": [
-            "when-others-look-to-you-v1"
-          ]
+          "sourceName": "Amy C Edmondson — Psychological Safety and Learning Behavior in Work"
         }
       ],
+      "missing_in_semantic": [],
+      "missing_related_books": [],
       "stale_related_books": [],
       "thinker_stale": [],
       "creator_missing_thinker": [
@@ -9371,9 +9234,9 @@
     }
   ],
   "totals": {
-    "matched": 829,
-    "missingInSemantic": 14,
-    "missingRelatedBooks": 2,
-    "staleRelatedBooks": 26
+    "matched": 845,
+    "missingInSemantic": 0,
+    "missingRelatedBooks": 0,
+    "staleRelatedBooks": 0
   }
 }
