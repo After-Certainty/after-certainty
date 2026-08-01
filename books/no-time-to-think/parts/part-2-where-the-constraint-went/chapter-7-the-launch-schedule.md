@@ -1,0 +1,81 @@
+\newpage
+
+# **Chapter 7**
+
+## **The Launch Schedule**
+
+A calendar date becomes increasingly difficult to move.
+
+At first the date is only coordination. Suppliers need it. Crews need it. Budgets need it. Public expectation organizes around it. Then the date gathers weight. It becomes a promise. Then a reputation. Then a test of whether the organization can keep faith with itself. By the time someone arrives with a technical concern, the concern must climb a structure that was not on the original engineering drawing: the accumulated social meaning of delay.
+
+---
+
+On the evening of January 27, 1986, engineers and managers at Morton Thiokol's facility in Utah and at NASA's Marshall Space Flight Center and Kennedy Space Center gathered on a telephone conference to discuss a concern about the following morning's launch. The mission, STS-51-L, was scheduled to carry the Space Shuttle Challenger and its seven-person crew into orbit. A temperature forecast for the Kennedy launch site—well below the freezing mark overnight—had raised a question that Thiokol's engineers had been tracking for months: how cold temperatures affected the O-ring seals in the solid rocket booster joints.
+
+By approximately 5:45 p.m., the first phase of the teleconference was under way. Thiokol engineers presented their concern: low temperatures put the O-rings at risk of losing the resilience needed to seal properly against hot combustion gases during ignition. Their recommendation, based on the available data, was to delay the launch. They suggested that the Level II program manager, Arnie Aldrich at Johnson Space Center, should be informed.
+
+The second phase of the teleconference, delayed while charts were transmitted by telefax, began around 8:45 p.m. Robert Lund, Thiokol's vice president of engineering, presented the engineering team's formal recommendation: do not launch below 53 degrees Fahrenheit. The reference point was the coldest previous launch, STS-51-C in January 1985, in which cold-temperature effects on the O-rings had been observed and documented. Below that temperature base, the engineers' concern was that behavior was untested. The overnight forecast for Kennedy was well below that threshold.
+
+George Hardy, a deputy director at Marshall, later testified that he was appalled by Thiokol's recommendation not to launch, but that he would not direct a launch against the contractor's explicit no-go position. Larry Mulloy, the Marshall SRB project manager, pressed back on the engineering basis for the 53-degree lower bound, arguing that the data presented did not conclusively demonstrate the relationship the engineers were claiming. Under this challenge, Thiokol requested a pause in the conference—an off-net caucus to discuss the situation without NASA officials on the line.
+
+The caucus lasted approximately thirty minutes. Within it, Thiokol's management and engineering team debated whether to hold the no-launch recommendation. Roger Boisjoly and Arnie Thompson, two of the engineers most directly familiar with the O-ring data, continued to argue against launch. At the end of the caucus, Thiokol's vice president of operations, Jerry Mason, called for a management decision rather than an engineering decision. Robert Lund, who had presented the engineering no-go, changed his vote. Joe Kilminster, Thiokol's vice president of space booster programs, signed a revised recommendation—now recommending launch—and faxed it to NASA.
+
+The Level II program manager, Aldrich, was not brought into the O-ring temperature concern as a Level II launch-decision issue that evening. Mulloy's testimony to the Rogers Commission described his judgment that the concern did not rise to a Launch Commit Criteria violation requiring formal Level II notification. The Rogers Commission reached a different view: the decision-makers for the launch were unaware of the contractor's initial written recommendation against launch below 53 degrees Fahrenheit, and were unaware of the continuing engineering opposition within Thiokol after the management reversal.[^c7-rogers]
+
+Challenger launched the following morning. It was seventy-three seconds into flight when the vehicle broke apart. All seven crew members were lost.
+
+---
+
+The Rogers Commission's investigation of the accident identified two kinds of failure that were distinct but connected. The first was the joint seal itself: the O-rings, in temperatures well below their design experience base, did not perform as they needed to. The second was the decision process: a concern that was present, documented, and argued for on the night of January 27 did not reach the people responsible for the final launch decision in a form that allowed them to act on it.[^c7-rogers-s2]
+
+How that second failure happened is the structural question this book needs.
+
+The commission examined the path that technical concerns were supposed to travel. The Flight Readiness Review process ran from Level IV (component contractors) through Level III (Marshall, Johnson, Kennedy) to Level II (program manager) to Level I (NASA Administrator's representative). For each mission, each level certified readiness and passed that certification upward. The O-ring concerns—which had been raised across multiple missions and had generated formal launch constraints and waivers at the program level—were not communicated to Level I and Level II reviewers in a way that conveyed the continuing uncertainty and the unresolved nature of the engineering concern. At the Flight Readiness Review for STS-51-L, Moore at Level I and Aldrich at Level II were not aware that the solid rocket booster joint had an open constraint tied to temperature.[^c7-v1ch5] The night-before teleconference, in which that concern was re-raised with new urgency, did not result in the concern being elevated into the formal launch-decision chain.
+
+The commission's language about this is precise and worth following. The decision to launch was made by appropriate NASA officials without outside intervention or political pressure—the commission, after investigation, rejected the claim that White House interest in the mission or the presence of a teacher among the crew had forced or accelerated the decision.[^c7-v1ch8] The pressure the commission identified was internal and institutional: a flight-rate ambition that had accumulated over years, and a "can-do" culture that made it structurally difficult to bring a late concern up the chain in a form that could stop the clock.
+
+---
+
+That flight-rate ambition was not invented for STS-51-L. It had been building for years. After the Shuttle completed its orbital flight test program in 1982 and was declared operational, NASA planned an increasingly aggressive launch schedule. By 1985, projections for 1990 called for twenty-four flights per year—two per month. Nine missions in 1985 had already strained maintenance capacity, spare-parts inventory, and training schedules. The commission examined the plan for 1986 and concluded that fifteen flights—already scheduled—were almost certainly beyond what the organization could execute safely with the resources it had.
+
+The effects of that ambition were concrete. Maintenance tasks were deferred to meet the next flight's schedule. Spare-parts shortages were managed by cannibalizing components from vehicles waiting their turn. Overtime at Kennedy ran long for weeks at a stretch. Training that might have prepared crews and ground teams for off-nominal conditions was compressed to keep up with the pace. Resources that might have been directed at lower-priority problems—including the O-ring joint performance history—were drawn toward the near-term operational demands of the manifest.[^c7-v1ch8-s2]
+
+The commission's Recommendation VIII addressed this directly: the nation's decision to rely on the Space Shuttle as its primary launch vehicle had created what it called "relentless pressure" to increase the flight rate. It recommended that the flight rate be set at a level consistent with available resources, and that changes to the manifest be made through formal, controlled processes.[^c7-recomm]
+
+---
+
+The structural question for this book is what happens when a schedule gathers enough weight that the people who possess technical concerns cannot get those concerns into the decision in time for the decision to use them. The Thiokol engineers were not the only people who knew something. NASA engineers and managers who knew the O-ring history, who had signed the waivers on previous flights, who had seen the erosion data, were also present in the system. The concern was not secret. It was documented. It was argued for strenuously, on the record, on the night before the flight. It did not reach the final decision in a form that could stop it.
+
+Why did that happen? The commission identified several contributing factors. The Flight Readiness Review process had normalized the O-ring concern as an acceptable risk by treating each previous successful flight as evidence of acceptable performance rather than as evidence of unresolved risk. The process by which concerns were elevated had no formal path for a contractor's engineering staff to insist that their objection be heard at Level I or II if program management had already decided to proceed. And the culture of the program, under the flight-rate pressure the commission documented, had generated an environment in which expressing doubt about a launch could read as obstruction, disloyalty, or insufficient confidence—precisely the conditions under which people closest to a hazard find that their channels for communicating it are functioning poorly.[^c7-v1ch7]
+
+The off-net caucus at Thiokol illustrates the mechanism in concentrated form. The engineers in the room who continued to argue against launch were not wrong. Their manager's instruction to make a management decision rather than an engineering decision—to separate the technical evaluation from the organizational choice about what to recommend—was not an instruction to find better evidence. It was an instruction to change the register in which the question was being answered. Engineering said: the data show unacceptable risk below 53 degrees. Management said: given all considerations, we recommend proceeding. The engineering answer did not change. The organizational answer did. The fax that arrived at NASA reflected the second answer without disclosing the first.[^c7-rogers-s3]
+
+---
+
+The commission's recommendations after Challenger addressed both the hardware and the decision architecture. The solid rocket motor joint was redesigned, with independent oversight by a committee formed through the National Research Council.[^c7-recomm-s2] The commission also called for structural changes to how safety concerns traveled through the organization: an independent Office of Safety, Reliability and Quality Assurance reporting directly to the NASA Administrator rather than through program management; astronaut representation in senior management positions; recorded Flight Readiness Reviews; a formal Launch Commit Criteria review for any constraint that had been waived; and a Safety Advisory Panel with independent standing.
+
+These recommendations were institutional repairs to the authorization path—attempts to create channels through which a late-arriving technical concern could reach the right level of the decision structure without having to overcome a schedule's accumulated social weight. They did not assume that the engineers would always be right, or that a no-go recommendation could never be wrong. They assumed that the engineers needed a functioning path, and that a path which required them to first overcome management's schedule commitments was not functioning.
+
+The Thiokol–NASA teleconference illustrates something about institutional decision pace that is easy to miss from the outside. Both phases of the conference took hours. The engineers had time to present data, respond to challenges, and consult among themselves during the caucus. The calendar date was not moving. What was moving was the organizational difficulty of holding a no-launch position under challenge. The concern had full expression in the first phase of the conference and still failed to survive the second. The failure was not speed; it was the configuration of the decision structure that governed whether the concern could carry authority into the authorization chain.
+
+This pattern is legible in organizations that never come near a launch pad. Product release dates, quarterly targets, go-live commitments, and deployment windows all generate a version of the same dynamic: a date that starts as coordination becomes, over time, a test of seriousness. A person who arrives with a concern after the date has hardened is not simply presenting a technical observation. They are asking the organization to treat the accumulated weight of its commitments as movable. That request is harder than it looks. It requires channels that work when the news is unwelcome, criteria for stopping that exist in advance of the specific crisis so that a scrub is an application of policy rather than a personal act of dissent, and leadership that has practiced disappointing a schedule before the highest-stakes case arrives.
+
+Without those conditions, the schedule quietly becomes the sovereign. Warnings arrive. The concern is present. The chain that was supposed to carry it from the people who noticed to the people who decide is not broken in any single place. It is simply weighted in one direction by the accumulated force of everything that has already been committed. The engineers could see the concern. Seeing was not the scarce act. Making the concern count was. The constraint had moved into organizational authorization: whether technical uncertainty could become a legitimate reason to stop.
+
+[^c7-rogers]: *Report of the Presidential Commission on the Space Shuttle Challenger Accident* (Rogers Commission), Vol. I, Chapter 5, "The Accident," https://www.nasa.gov/history/rogersrep/v1ch5.htm. Primary account of the January 27, 1986 teleconference: Thiokol's initial no-launch recommendation below 53°F, NASA challenge, off-net caucus, management reversal, and Kilminster's signed launch recommendation. Additional hearing testimony: https://www.nasa.gov/history/rogersrep/v4part6.htm.
+
+[^c7-v1ch5]: Rogers Commission, "The Accident," https://www.nasa.gov/history/rogersrep/v1ch5.htm. Level I and Level II decision-makers were unaware of Thiokol's initial written no-launch recommendation and of continuing engineering opposition after the management reversal; O-ring temperature constraints and waivers were not known to them at the STS-51-L Flight Readiness Review.
+
+[^c7-v1ch8]: Rogers Commission, "Pressures on the System," https://www.nasa.gov/history/rogersrep/v1ch8.htm. Documents flight-rate ambition, deferred maintenance, spare-parts shortages, overtime, and compressed training; finds the launch decision was made by appropriate NASA officials without outside political intervention.
+
+[^c7-v1ch7]: Rogers Commission, "The Silent Safety Program," https://www.nasa.gov/history/rogersrep/v1ch7.htm. Documents problem-reporting gaps, trend-analysis deficiencies, and reduced safety involvement in critical pre-launch discussions.
+
+[^c7-recomm]: Rogers Commission, Recommendations, https://www.nasa.gov/history/rogersrep/v1recomm.htm. Recommendation I calls for Solid Rocket Motor joint redesign and asks the NASA Administrator to request that the National Research Council form an independent Solid Rocket Motor design oversight committee. Also recommends an independent safety office reporting to the NASA Administrator; recorded Flight Readiness Reviews; and Recommendation VIII on matching flight rate to resources.
+
+[^c7-rogers-s2]: Rogers Commission, "The Accident."
+
+[^c7-rogers-s3]: Rogers Commission, "The Accident."
+
+[^c7-v1ch8-s2]: Rogers Commission, "Pressures on the System."
+
+[^c7-recomm-s2]: Rogers Commission, Recommendations (National Research Council Solid Rocket Motor design oversight).

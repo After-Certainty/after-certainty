@@ -1,0 +1,20 @@
+# Tuning for tools/generate_open_graph.py — No Time to Think
+# Cover: dark navy + instrument-panel / ALARM art; subtitle teal-gray
+bg_crop: [40, 720, 984, 1450]
+tint: [8, 12, 28, 160]
+accent_color: [158, 186, 204]
+title_lines:
+  - text: No Time
+    color: white
+  - text: to Think
+    color: accent
+subtitle_lines:
+  - HOW ACCELERATION RELOCATES
+  - JUDGMENT—AND WHY INSTITUTIONS
+  - MUST PROTECT IT
+subtitle_color: accent
+font_title: 48
+font_sub: 16
+title_start_y: 78
+title_line_gap: 54
+rule_width: 360

@@ -1,0 +1,140 @@
+version: 1
+publishing:
+  enabled: true
+book:
+  id: no-time-to-think
+  title: No Time to Think
+  subtitle: How Acceleration Relocates Judgment—and Why Institutions Must Protect It
+  description: Speed is not inherently careless, but judgment depends on conditions—time, attention,
+    consequence contact, and stop authority. No Time to Think examines what happens when production
+    accelerates faster than a system's capacity to understand, verify, integrate, maintain, and care
+    for what it produces—and how institutions can design responsible speed.
+  author:
+    name: Kevin Steffensen
+    website: https://after-certainty.com
+  language: en
+  copyright_year: 2026
+  title_page_cover: book-cover.png
+  open_graph_image: open-graph.png
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: What social and institutional conditions must exist before thinking is actually possible?
+    whyItExists: A faster step does not necessarily create a faster system; it often relocates the
+      constraint. This book follows that relocation—from Merge buttons and clinical signatures through
+      Taylor, Ford, Challenger, and Three Mile Island—toward the design of protected judgment.
+    audience: Leaders, engineers, clinicians, operators, and readers who work inside accelerated systems
+      and need language for capacity, verification, and stop authority that dashboards do not count.
+    nonGoals:
+    - It is not an argument against AI, automation, or speed as such.
+    - It does not treat slowness as a virtue or nostalgia for pre-digital work.
+    - It is not a compliance checklist or vendor evaluation guide.
+    selectedConcepts:
+    - judgment
+    - attention
+    - accountability
+    - authority
+    - coordination
+    - institutional-memory
+    selectedPatterns:
+    - learning-collapses
+    - revisability-preserves-judgment
+    - dissent-is-welcomed
+    - feedback-drives-change
+    - attention-finds-a-signal
+    selectedConceptRoles:
+    - conceptId: judgment
+      roleInWork: >
+        Central scarce capacity: deciding under consequence when production outruns the conditions
+        judgment needs—time, attention, context, and permission to stop.
+    - conceptId: attention
+      roleInWork: >
+        Tracks what acceleration relocates—review load, monitoring, and the attentional budget that
+        verification and interruption still require.
+    - conceptId: accountability
+      roleInWork: >
+        Holds who remains answerable when fluent systems draft notes, suggest codes, or remove the
+        steering wheel from the passenger's hands.
+    - conceptId: authority
+      roleInWork: >
+        Names stop-work and interruption rights—whether someone still has standing to halt throughput
+        when uncertainty outruns the dashboard.
+    - conceptId: coordination
+      roleInWork: >
+        Frames how institutions coordinate speed without erasing the places where understanding and
+        verification must still live.
+    - conceptId: institutional-memory
+      roleInWork: >
+        Preserves what history kept—checklists, sterile cockpit, reporting systems—against the drift
+        that treats each new acceleration as without precedent.
+    selectedPatternRoles:
+    - patternId: learning-collapses
+      roleInWork: >
+        Shows when throughput gains hide the review, maintenance, and apprenticeship work that learning
+        still requires.
+    - patternId: revisability-preserves-judgment
+      roleInWork: >
+        Deepens why protected pause and revision remain necessary after automation relocates the
+        bottleneck.
+    - patternId: dissent-is-welcomed
+      roleInWork: >
+        Anchors stop-work and protected reporting as architectures that keep near-misses from vanishing
+        into silence.
+    - patternId: feedback-drives-change
+      roleInWork: >
+        Ties incident investigation and anonymous reporting to institutional learning after speed has
+        relocated consequence.
+    - patternId: attention-finds-a-signal
+      roleInWork: >
+        Names how distraction and fluent surfaces compete for the attention judgment needs under
+        operational pressure.
+    readBefore:
+    - when-incentives-become-the-moral-language
+    - how-serious-systems-learn
+    readNext:
+    - why-collaboration-is-so-hard
+    - after-certainty
+    relatedWorks:
+    - workId: when-incentives-become-the-moral-language
+      relationship: companion_to
+      reason: Metrics that replace judgment pair with acceleration that relocates the capacity judgment needs.
+    - workId: how-serious-systems-learn
+      relationship: deepens
+      reason: Learning under constraint continues when production outruns verification and stop authority.
+    - workId: why-collaboration-is-so-hard
+      relationship: companion_to
+      reason: Diffuse ownership and relocated bottlenecks both ask where scarce coordination work still lives.
+    - workId: after-certainty
+      relationship: prepares_for
+      reason: Capacity for judgment under acceleration prepares the practice question of living without
+        total explanation.
+paths:
+  manuscript: ./index.md
+  output: .
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+    # Custom book-specific About the Series is hand-maintained in
+    # front-matter/about-the-series.md — do not generate from the series template.
+build:
+  formats:
+    docx:
+      enabled: true
+      interior_finish: true
+    epub:
+      enabled: true
+    pdf:
+      enabled: true
+github:
+  release: true
+  release_tag: latest
+  artifacts:
+  - docx
+  - epub
+  - pdf

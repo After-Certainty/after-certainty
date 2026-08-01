@@ -114,6 +114,14 @@ History is collective, but responsibility remains uneven. Through ordinary objec
 
 **Pair with:** *When Others Become Leaders* (what enduring influence leaves behind) → this book (collective causation and power-with) → *After Certainty* (practice under limits).
 
+### [No Time to Think](../books/no-time-to-think/index.md)
+
+Production can accelerate faster than a system’s capacity to understand, verify, integrate, maintain, and care for what it produces. This book follows shifted bottlenecks—from Merge buttons and clinical signatures through Taylor, Ford, Challenger, and Three Mile Island—toward the design of responsible speed.
+
+**Question:** What social and institutional conditions must exist before thinking is actually possible?
+
+**Pair with:** *When Incentives Become the Moral Language* (metrics that replace judgment) → this book (capacity judgment still needs) → companion scaffold *The Case That Does Not Fit* (architecture of reconsideration) → *After Certainty* (practice under limits).
+
 ---
 
 ## The Thread Running Through All of Them
@@ -145,6 +153,7 @@ For readers building the full argument (conceptual, not prescriptive):
 9. **[After Certainty](../books/after-certainty/index.md)** — Practice (capstone)
 10. **[Learning to See](../books/learning-to-see/index.md)** — Practice (comparative practices)
 11. **[The World We Make Together](../books/the-world-we-make-together/index.md)** — Practice (collective action)
+12. **[No Time to Think](../books/no-time-to-think/index.md)** — Practice (judgment under acceleration)
 
 Several of these are **essay-length** concentrated arguments (~8–13k words), not full-length volumes.
 
@@ -236,6 +245,7 @@ These published titles extend adjacent questions. They are not required for the 
 | Compression in public economic speech | [The Economy We Don't Experience](../books/the-economy-we-dont-experience/index.md) |
 | What a decisive sports result leaves unsettled | [The Game We Think We Saw](../books/the-game-we-think-we-saw/index.md) |
 | Collective causation and shared power under unequal leverage | [The World We Make Together](../books/the-world-we-make-together/index.md) |
+| Capacity for judgment under acceleration | [No Time to Think](../books/no-time-to-think/index.md) |
 
 ---
 
@@ -288,14 +298,6 @@ Read before-arrives for **historical formation of moral order**; read living-in-
 
 ## Upcoming manuscripts
 
-### [No Time to Think](../upcoming/no-time-to-think/index.md)
-
-Production can accelerate faster than a system’s capacity to understand, verify, integrate, maintain, and care for what it produces. This book follows shifted bottlenecks—from Merge buttons and clinical signatures through Taylor, Ford, Challenger, and Three Mile Island—toward the design of responsible speed.
-
-**Question:** What social and institutional conditions must exist before thinking is actually possible?
-
-**Status:** Phase 0 structure scaffold under [`upcoming/no-time-to-think/`](../upcoming/no-time-to-think/).
-
 ### [The Case That Does Not Fit](../upcoming/the-case-that-does-not-fit/index.md)
 
 Every rule is a compression. This book examines what happens when the ignored detail becomes the morally decisive one—and how institutions can preserve both protection from arbitrary judgment and protection from rules that mistook the case.
@@ -306,8 +308,8 @@ Every rule is a compression. This book examines what happens when the ignored de
 
 ### No Time to Think vs The Case That Does Not Fit
 
-**No Time to Think**: whether the institution still has the *capacity* for judgment—time, attention, context, review, stop authority.  
-**The Case That Does Not Fit**: whether the institution has the *architecture* to reconsider a category that failed a particular case.
+**No Time to Think** (published under [`books/no-time-to-think/`](../books/no-time-to-think/)): whether the institution still has the *capacity* for judgment—time, attention, context, review, stop authority.  
+**The Case That Does Not Fit** (upcoming): whether the institution has the *architecture* to reconsider a category that failed a particular case.
 
 Read them as companions; do not collapse either into a general AI or culture-war critique.
 
@@ -330,6 +332,7 @@ New scaffolds start from [`upcoming/docs/_templates/`](../upcoming/docs/_templat
 | The Economy We Don't Experience | [books/the-economy-we-dont-experience/index.md](../books/the-economy-we-dont-experience/index.md) |
 | The Game We Think We Saw | [books/the-game-we-think-we-saw/index.md](../books/the-game-we-think-we-saw/index.md) |
 | The World We Make Together | [books/the-world-we-make-together/index.md](../books/the-world-we-make-together/index.md) |
+| No Time to Think | [books/no-time-to-think/index.md](../books/no-time-to-think/index.md) |
 | When Accountability No Longer Expires | [books/when-accountability-no-longer-expires/index.md](../books/when-accountability-no-longer-expires/index.md) |
 | When Authority Is Misread | [books/when-authority-is-misread/index.md](../books/when-authority-is-misread/index.md) |
 | When Authority Outlives Accountability | [books/when-authority-outlives-accountability/index.md](../books/when-authority-outlives-accountability/index.md) |

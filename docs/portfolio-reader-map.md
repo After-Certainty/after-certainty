@@ -44,6 +44,7 @@ There is no single mandatory order. The table below groups books by **question**
 | When does interpretation stop coordinating authority? | [When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md) |
 | What remains unsettled after a decisive sports result? | [The Game We Think We Saw](../books/the-game-we-think-we-saw/index.md) |
 | How do ordinary people, unequal power, and shared action shape history? | [The World We Make Together](../books/the-world-we-make-together/index.md) |
+| What conditions must exist before thinking is actually possible? | [No Time to Think](../books/no-time-to-think/index.md) |
 
 **WOLTY editions:** Read **v1** first for the integrated field guide (harm, effectiveness, legitimacy). Use **v2** as a pattern-level companion, not a replacement.
 
@@ -57,14 +58,13 @@ Not yet in the public export pipeline. See [`upcoming/docs/portfolio-status.md`]
 
 | Question | Book |
 |----------|------|
-| What conditions must exist before thinking is actually possible? | [No Time to Think](../upcoming/no-time-to-think/index.md) |
 | How can a system make room for the case its rules cannot understand? | [The Case That Does Not Fit](../upcoming/the-case-that-does-not-fit/index.md) |
 
 ### Disambiguation (high-overlap pairs)
 
 **Capacity vs reconsideration (companion pair)**
 
-- [**No Time to Think**](../upcoming/no-time-to-think/index.md) — systemic *capacity* for judgment under acceleration (time, attention, stop authority).
+- [**No Time to Think**](../books/no-time-to-think/index.md) — systemic *capacity* for judgment under acceleration (time, attention, stop authority).
 - [**The Case That Does Not Fit**](../upcoming/the-case-that-does-not-fit/index.md) — *architecture* of reconsideration when a rule mistook the case.
 
 **Accountability / authority**

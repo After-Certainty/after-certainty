@@ -1,0 +1,67 @@
+\newpage
+
+# **Chapter 4**
+
+## **The Stopwatch**
+
+A stopwatch is held beside a worker performing a repeated task.
+
+The click is small. The claim it makes is large. Whatever fits between start and stop will be treated as the work. Whatever falls outside that interval—hesitation that prevents an error, a glance that coordinates with a neighbor, a slight adjustment when the material behaves differently today—risks becoming invisible. The instrument does not announce that judgment. It simply times what an observer can see.
+
+---
+
+In the late 1890s, roughly 80,000 tons of pig iron lay stacked in an open field at the Bethlehem works in Pennsylvania. The price of iron had risen in the early months of the Spanish-American War, and management wanted the surplus moved to market. Workers loaded the iron by hand—each pig weighed approximately 92 pounds—onto railroad cars: lift a pig from the pile, carry it a short distance up an inclined plank, deposit it, return for the next. A gang of 75 laborers working in this fashion averaged, by management's reckoning, about 12½ long tons per man per day.
+
+Frederick Winslow Taylor, then a consultant engaged by Bethlehem, believed that figure was well below what a fit worker could produce with the right method and the right incentive. He and his colleagues selected one man from the gang—a Pennsylvania Dutchman Taylor called "Schmidt" in his later published account, whose actual name was Henry Noll, as scholars subsequently identified—and arranged an experiment in directed labor. Instead of setting his own pace across the shift, the worker would follow instructions given by a man with a watch: lift and walk when told, sit and rest when told. He would not plan his own day. He would execute a sequence someone else had planned and timed in advance.
+
+Taylor's account reports that under directed rest the worker loaded approximately 47 long tons per day—nearly four times the gang average—and received higher daily wages in return. Taylor presented this as his paradigmatic demonstration of scientific management's central claim: that for any given kind of work there exists a superior method, discoverable by systematic observation, that can be codified and issued to workers in explicit instructions. The work of determining the method belonged to management. The work of executing it belonged to the person carrying the pig.[^c4-taylor]
+
+Taylor's account of the Bethlehem experiment, and particularly its specific numbers, has been disputed. Scholars Charles D. Wrege and Amedeo G. Perroni examined the original records and published findings in 1974 that raised serious doubts about the accuracy of Taylor's published narrative—about whether the reported productivity gain was achieved as described, and about how Taylor depicted the worker at the center of the story. Later researchers have contested parts of the Wrege–Perroni critique, and the dispute remains genuine.[^c4-wrege] The Schmidt narrative is best understood as Taylor's paradigmatic illustration of a principle rather than an independently audited experiment. The principle itself proved far more durable than any particular number, and it reshaped industrial practice for generations.
+
+One element of Taylor's method that tends to be overlooked in later retellings is the volume of preparatory work required before the stopwatch was useful at all. Before any timed study could be conducted, the tools had to be standardized—belt sizes, cutting angles, lubricant types, machine settings—so that variation in equipment would not contaminate variation in method. That standardization work was substantial, requiring engineering analysis, iterative trials, and expert judgment that preceded the timing. The simplicity of the final instrument—held in a hand, clicked at the moment of action—concealed the complexity of what had already been decided before it was lifted.[^c4-shop]
+
+---
+
+What Taylor proposed was a systematic transfer of knowledge. Under the old craft arrangement, the worker decided how to approach the task: which motion to use, when to rest, how to pace effort across the shift, how to adjust when the material or the tool behaved unexpectedly. This knowledge was private, accumulated through experience, and largely invisible to anyone observing from outside. Taylor's method was designed to make it visible—to extract it, study it, codify the best version, and return it to the shop floor in a written form that any trained worker could follow. Management would plan the work; workers would execute the plan.
+
+To manage this transfer, Taylor designed what he called functional foremanship: eight specialized roles replacing the traditional single foreman who had previously held all supervisory functions in one person. In the planning department, the order-of-work clerk sequenced the jobs; the instruction-card clerk specified the method for each task; the time-and-cost clerk tracked how actual performance compared to the standard. On the shop floor, the gang boss handled setup, the speed boss enforced the required rate, the inspector judged quality, and the repair boss managed tool and machine recovery. A shop disciplinarian handled conduct.
+
+The instrument of daily communication between the planning department and the worker was the instruction card. Each morning a worker received a card that specified the task, the tools, the sequence of motions, and the time within which each step should be completed. A worker who finished within the allotted time earned a premium wage—Taylor cited a range of 30 to 100 percent above the ordinary rate. A worker who did not was treated as having failed to execute the method correctly, rather than as having discovered something the method did not account for.[^c4-shop-s2]
+
+This classification was not incidental. It was the mechanism.
+
+---
+
+When the instruction card defined "the work" as the timed sequence, adaptation became deviation. A worker who adjusted the prescribed motion because the iron arrived wet, because the plank was slicker than the standard assumed, because a neighbor was new and needed a moment—was, in the system's formal language, failing to perform the task. The knowledge that informed the adjustment was real. It was used. But it had no form the card could credit and no channel by which it could revise the card. It existed as invisible labor, performed for the benefit of the system that denied its existence.
+
+The clearest record of this remainder is what Taylor called systematic soldiering: workers deliberately restricting output below their capacity, coordinating informally to limit what management would see and therefore demand.[^c4-taylor-s2] Taylor treated soldiering as the central problem scientific management must solve—evidence of a moral failure in the workforce, a conspiracy against efficiency, an obstacle requiring measurement and discipline to eliminate.
+
+A different reading is possible. Soldiering was the return of experienced workers' judgment about sustainable pace and safe conditions, now operating in concealment because the open exercise of that judgment had been designed out of the job. The workers still knew what the card did not know. The knowledge had been driven underground. It reappeared as restriction, and the system described it as dishonesty.
+
+The inspector and the repair boss institutionalized another version of the same remainder. Quality defects and tool failures had previously been handled by the craftsperson who noticed the anomaly; under Taylor's system, that correction required dedicated roles. The standard worked for the ordinary case it had been designed to cover. The inspector and the repair boss existed for the gap between that ordinary case and the conditions the shop actually produced—and were not in Taylor's productivity ledger as primary labor.
+
+---
+
+The total supervisory apparatus Taylor's system created—eight roles in place of one or two—was the relocated work of the craftsperson's integrated judgment, now disaggregated across specialists. Taylor expected scientific standardization to reduce uncertainty and improvisation over time. In practice the supervisory and clerical apparatus persisted, because the gap between any written standard and actual conditions is not a problem waiting to be engineered away. It is a permanent feature of work in variable environments.
+
+Consider what the daily written loop actually required. Each morning a worker received an instruction card; each evening, records were returned to the planning department showing what had been done and what had not. Route clerks tracked the progress of each casting or forging through the shop. A single task—machining a part—generated paper traveling in two directions simultaneously. The clerical work of maintaining that loop was not trivial, and it did not exist in the pre-Taylor shop. Someone had to write the cards, file the returns, track the variances, and update the standards when accumulated variances revealed that the standard was wrong. That someone was inside the overhead the stopwatch had created—necessary, ongoing, and uncounted.
+
+Why did this new constraint remain less visible than the original inefficiency? Several reasons converged. The planning department's work did not appear as a direct cost of production in the same column as the worker's wages. It was management, and management was supposed to exist. The instruction card produced numbers that could be charted and audited; the tacit knowledge the card replaced could not be plotted. Once the system defined "the job" as the timed sequence, variation looked like failure rather than information.
+
+Measurement can be a genuine act of improvement. Wasteful motion is real; a written method can carry a hard-won lesson to workers who will never meet the person who first paid to discover it. The trouble begins when the timed sequence is treated as complete—as though everything that matters could fit between the clicks. What the card cannot capture does not disappear. It returns as supervision burden, quality escapes, equipment downtime, resistance, and the quiet labor of workers who still know something the plan does not. The cost is real and ongoing. It simply arrives in categories—overhead, morale, turnover, maintenance—that are treated as separate problems from the productivity the stopwatch celebrated.
+
+---
+
+The moralization arrived quickly. Once the instruction card defined what competence looked like, workers who deviated—even for sound reasons—could be described as slow, resistant, or hard to manage. The judgment they were exercising, which may have been protecting the system from something the metric could not see, arrived in the ledger as underperformance. The ledger could not ask whether the underperformance was the last place where a problem could be caught before consequence left the plant.
+
+An institution that wants the benefits of measurement without the blindness needs a second kind of visibility: a channel for naming uncounted work, authority to revise the standard when exceptions accumulate into a pattern, and enough margin that adaptation is treated as real labor rather than deviation. That second system is harder to build. It does not celebrate itself. Over time it produces a model of the task that is harder to fool—one that knows what the stopwatch did not time, and counts it anyway. The stopwatch made each movement easier to see; the variation it removed returned elsewhere as supervision, breakdown, resistance, and exception.
+
+[^c4-taylor]: Frederick W. Taylor, *The Principles of Scientific Management* (New York: Harper & Brothers, 1911), Project Gutenberg text, https://www.gutenberg.org/cache/epub/6435/pg6435.html. Taylor's pig-iron narrative—the ~80,000-ton Bethlehem stockpile, the ~12½-ton baseline, the Schmidt experiment, the ~47-ton target, and the 30–100 percent wage premium—appears in the opening section. Taylor identifies the worker as a Pennsylvania Dutchman he calls "Schmidt"; later scholarly work identified the actual name as Henry Noll. Taylor's account is used here as his paradigmatic illustration; its empirical accuracy remains disputed.
+
+[^c4-shop]: Frederick W. Taylor, *Shop Management* (1903; republished 1911), Project Gutenberg, https://www.gutenberg.org/cache/epub/6464/pg6464.html. Describes functional foremanship (eight specialized roles), the instruction card (task, sequence, speed, time allowed, pay rate), and the principle that planning formerly done by workmen must be done by management.
+
+[^c4-wrege]: Charles D. Wrege and Amedeo G. Perroni, "Taylor's Pig-Tale: A Historical Analysis of Frederick W. Taylor's Pig-Iron Experiments," *Academy of Management Journal* 17, no. 1 (1974): 6–27, https://doi.org/10.5465/254767; Charles D. Wrege and Richard M. Hodgetts, "Frederick W. Taylor's 1899 Pig Iron Observations: Examining Fact, Fiction, and Lessons for the New Millennium," *Academy of Management Journal* 43, no. 6 (2000), https://doi.org/10.2307/1556350. Locke (1982) and others have disputed parts of the Wrege–Perroni critique; the scholarly dispute remains unresolved.
+
+[^c4-taylor-s2]: Taylor, *The Principles of Scientific Management*.
+
+[^c4-shop-s2]: Taylor, *Shop Management*.

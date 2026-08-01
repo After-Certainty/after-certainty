@@ -110,3 +110,31 @@ def test_finish_interior_noop_without_introduction(tmp_path: Path) -> None:
     doc.save(str(path))
     status = finish_interior_docx(path, running_title="X")
     assert status["body_openers"] == 0
+
+
+def test_finish_interior_skips_front_matter_about_the_series(tmp_path: Path) -> None:
+    """About the Series before Introduction stays in front matter; body starts at Intro."""
+    doc = Document()
+    doc.add_heading("Title", level=1)
+    _add_page_break(doc)
+    doc.add_heading("About the Series", level=1)
+    doc.add_paragraph("Series copy.")
+    _add_page_break(doc)
+    doc.add_heading("Introduction", level=1)
+    doc.add_paragraph("Intro body.")
+    _add_page_break(doc)
+    doc.add_heading("Chapter 1", level=1)
+    doc.add_paragraph("Chapter body.")
+    path = tmp_path / "with-about.docx"
+    doc.save(str(path))
+
+    status = finish_interior_docx(path, running_title="No Time to Think")
+    assert status["body_openers"] == 2  # Introduction, Chapter 1 (not About the Series)
+    assert status["sections"] == 3
+    assert status["front_matter_cleared"] is True
+    assert status["body_headers"] is True
+
+    finished = Document(str(path))
+    texts = [(p.text or "").strip() for p in finished.paragraphs]
+    assert "About the Series" in texts
+    assert "Introduction" in texts

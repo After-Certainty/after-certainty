@@ -43,7 +43,7 @@ Legitimate institutions are not those that never make mistakes. They are those t
 
 ## Companion
 
-*The Case That Does Not Fit* complements [*No Time to Think*](../../no-time-to-think/) (reconsideration architecture vs. capacity for judgment).
+*The Case That Does Not Fit* complements [*No Time to Think*](../../../books/no-time-to-think/) (reconsideration architecture vs. capacity for judgment).
 
 ## Setup note
 
