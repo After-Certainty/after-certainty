@@ -37,6 +37,16 @@ def _paragraph_style_name(paragraph: Paragraph) -> str:
         return ""
 
 
+def _paragraph_style_id(paragraph: Paragraph) -> str:
+    p_pr = paragraph._element.find(qn("w:pPr"))
+    if p_pr is None:
+        return ""
+    p_style = p_pr.find(qn("w:pStyle"))
+    if p_style is None:
+        return ""
+    return str(p_style.get(qn("w:val")) or "")
+
+
 def _is_body_opener(paragraph: Paragraph) -> bool:
     if _paragraph_style_name(paragraph) != "Heading 1":
         return False
@@ -346,6 +356,56 @@ def _apply_document_metadata(
     props.category = "Nonfiction"
 
 
+def _strip_front_matter_image_captions(doc: Document) -> int:
+    """Remove printed cover captions before the body (Introduction).
+
+    Pandoc may emit an ``Image Caption`` paragraph from markdown alt text. That
+    text belongs only in the drawing accessibility ``descr``, not on the page.
+    Also drops empty ``Captioned Figure`` wrappers that contain no drawing once
+    a caption was the sole sibling content (cover drawings are kept).
+    """
+    intro = _find_intro_paragraph(doc)
+    removed = 0
+    for p in list(doc.paragraphs):
+        if intro is not None and p._element is intro._element:
+            break
+        style = _paragraph_style_name(p)
+        style_id = _paragraph_style_id(p)
+        text = (p.text or "").strip()
+        has_drawing = bool(p._element.findall(".//" + qn("w:drawing")))
+        is_image_caption = style == "Image Caption" or style_id == "ImageCaption"
+        is_empty_captioned_figure = (
+            (style == "Captioned Figure" or style_id == "CaptionedFigure")
+            and not has_drawing
+            and not text
+        )
+        if is_image_caption or is_empty_captioned_figure:
+            parent = p._element.getparent()
+            if parent is not None:
+                parent.remove(p._element)
+                removed += 1
+    return removed
+
+
+def _set_first_cover_image_descr(doc: Document, cover_alt: str) -> bool:
+    """Set accessibility descr/title on the first floating/inline drawing."""
+    alt = cover_alt.strip()
+    if not alt:
+        return False
+    for doc_pr in doc.element.body.iter(qn("wp:docPr")):
+        doc_pr.set("descr", alt)
+        # Keep title empty; screen readers use descr for the long description.
+        if not doc_pr.get("title"):
+            doc_pr.set("title", "")
+        # Mirror onto pic:cNvPr when present (some readers prefer it).
+        parent = doc_pr.getparent()
+        if parent is not None:
+            for cnv in parent.iter(qn("pic:cNvPr")):
+                cnv.set("descr", alt)
+        return True
+    return False
+
+
 def finish_interior_docx(
     path: Path,
     *,
@@ -353,6 +413,7 @@ def finish_interior_docx(
     subtitle: str = "",
     author: str = "",
     keywords: str = "",
+    cover_alt: str = "",
 ) -> dict:
     """Apply interior finish conventions to *path* in place."""
     status = {
@@ -363,6 +424,8 @@ def finish_interior_docx(
         "toc_field": False,
         "toc_removed": False,
         "metadata": False,
+        "cover_captions_removed": 0,
+        "cover_descr_set": False,
     }
 
     doc = Document(str(path))
@@ -373,6 +436,8 @@ def finish_interior_docx(
 
     status["toc_removed"] = _remove_contents_page(doc)
     status["toc_field"] = False
+    status["cover_captions_removed"] = _strip_front_matter_image_captions(doc)
+    status["cover_descr_set"] = _set_first_cover_image_descr(doc, cover_alt)
     if running_title or subtitle or author or keywords:
         _apply_document_metadata(
             doc,

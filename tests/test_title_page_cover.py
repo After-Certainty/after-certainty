@@ -16,6 +16,7 @@ from book_export_assets import (  # noqa: E402
     prepare_title_page_for_docx,
     prepare_title_page_for_pdf,
     strip_inline_title_page_cover,
+    title_page_cover_alt,
 )
 from export_docx import stage_docx_units  # noqa: E402
 from export_pdf import stage_pdf_units  # noqa: E402
@@ -57,6 +58,17 @@ def test_prepare_title_page_for_docx_uses_empty_alt() -> None:
     assert "![Book cover]" not in out
 
 
+def test_title_page_cover_alt_extracts_markdown_alt() -> None:
+    text = (
+        "![Book cover for *Title* by Author, showing a folder.](book-cover.png)"
+        "{ width=100% }\n\n\\newpage\n"
+    )
+    assert title_page_cover_alt(text, "book-cover.png") == (
+        "Book cover for *Title* by Author, showing a folder."
+    )
+    assert title_page_cover_alt(text, "other.png") == ""
+
+
 def test_stage_pdf_units_rewrites_title_page_when_flag_set(tmp_path: Path) -> None:
     title_page = tmp_path / "title-page.md"
     title_page.write_text(TITLE_PAGE, encoding="utf-8")
@@ -83,6 +95,21 @@ def test_stage_docx_units_rewrites_title_page_when_flag_set(tmp_path: Path) -> N
     staged = stage_docx_units([title_page], tmp_path / "docx-tmp", spec=spec, book_dir=tmp_path)
     assert staged[0].name == "title-page.md"
     assert "![](BookCover.png)" in staged[0].read_text(encoding="utf-8")
+
+
+def test_stage_docx_units_empties_cover_alt_without_unnumbered_flag(tmp_path: Path) -> None:
+    """DOCX must not print markdown alt as Image Caption for any cover book."""
+    title_page = tmp_path / "title-page.md"
+    title_page.write_text(
+        "![Book cover for Title, showing a folder.](book-cover.png){ width=100% }\n\n"
+        "\\newpage\n\n# **Title**\n",
+        encoding="utf-8",
+    )
+    spec = {"book": {"title_page_cover": "book-cover.png"}}
+    staged = stage_docx_units([title_page], tmp_path / "docx-tmp2", spec=spec, book_dir=tmp_path)
+    text = staged[0].read_text(encoding="utf-8")
+    assert "![](book-cover.png){ width=100% }" in text
+    assert "showing a folder" not in text
 
 
 def test_prepare_bridge_markdown_for_pdf_bottom_aligns() -> None:

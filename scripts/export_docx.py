@@ -23,8 +23,8 @@ from book_export_assets import (  # noqa: E402
     prepare_title_page_for_docx,
     reference_docx,
     replace_newpage_for_docx,
+    title_page_cover_alt,
     title_page_cover_basename,
-    title_page_cover_unnumbered,
 )
 from book_output_stem import stem_for_book_dir  # noqa: E402
 from book_specs import load_spec_for_book_dir, spec_format_config  # noqa: E402
@@ -60,7 +60,18 @@ def _book_keywords(spec: dict) -> str:
     return str(book.get("keywords") or "").strip()
 
 
-def _maybe_finish_interior(out: Path, *, spec: dict) -> None:
+def _cover_alt_from_units(units: list[Path], *, spec: dict) -> str:
+    cover_basename = title_page_cover_basename(spec)
+    if not cover_basename:
+        return ""
+    for unit in units:
+        if unit.name != "title-page.md":
+            continue
+        return title_page_cover_alt(unit.read_text(encoding="utf-8"), cover_basename)
+    return ""
+
+
+def _maybe_finish_interior(out: Path, *, spec: dict, cover_alt: str = "") -> None:
     cfg = spec_format_config(spec, "docx")
     if cfg.get("interior_finish") is not True:
         return
@@ -74,19 +85,20 @@ def _maybe_finish_interior(out: Path, *, spec: dict) -> None:
         subtitle=_book_subtitle(spec),
         author=_book_author(spec),
         keywords=_book_keywords(spec),
+        cover_alt=cover_alt,
     )
     print(f"interior_finish: {status}")
 
 
 def stage_docx_units(units: list[Path], tmp_dir: Path, *, spec: dict, book_dir: Path) -> list[Path]:
     publication_units = stage_publication_units(units, tmp_dir / "manuscript", book_dir=book_dir)
-    unnumbered_cover = title_page_cover_unnumbered(spec)
     cover_basename = title_page_cover_basename(spec)
 
     staged: list[Path] = []
     for unit in publication_units:
         text = unit.read_text(encoding="utf-8")
-        if unit.name == "title-page.md" and unnumbered_cover and cover_basename:
+        # Always empty cover alt for DOCX: Pandoc prints non-empty alt as Image Caption.
+        if unit.name == "title-page.md" and cover_basename:
             text = prepare_title_page_for_docx(text, cover_basename)
         text = replace_newpage_for_docx(text)
         unit.write_text(text, encoding="utf-8")
@@ -121,12 +133,13 @@ def export_docx_file(
     units: list[Path],
     out: Path,
     spec: dict | None = None,
+    cover_alt: str = "",
 ) -> None:
     if not units:
         raise SystemExit(f"No markdown units to export for {out.name}")
     run(build_pandoc_cmd(pandoc=pandoc, book_dir=book_dir, units=units, out=out))
     if spec is not None:
-        _maybe_finish_interior(out, spec=spec)
+        _maybe_finish_interior(out, spec=spec, cover_alt=cover_alt)
     print(out.as_posix())
 
 
@@ -186,6 +199,9 @@ def main() -> None:
     if not units:
         raise SystemExit(f"No markdown units found from {book_dir / 'index.md'}")
 
+    # Capture cover alt before staging empties it (Pandoc prints alt as a caption).
+    cover_alt = _cover_alt_from_units(units, spec=spec)
+
     with tempfile.TemporaryDirectory(prefix="docx-export-") as tmp:
         docx_units = stage_docx_units(units, Path(tmp), spec=spec, book_dir=book_dir)
         out = book_dir / f"{book_stem}.docx"
@@ -195,6 +211,7 @@ def main() -> None:
             units=docx_units,
             out=out,
             spec=spec,
+            cover_alt=cover_alt,
         )
 
 

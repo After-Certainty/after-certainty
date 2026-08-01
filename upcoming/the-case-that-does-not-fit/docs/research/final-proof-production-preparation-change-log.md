@@ -17,8 +17,9 @@ Proofing and production-prep only. No developmental rewrite. **Not print- or ebo
 | Final manuscript words | 30,191 |
 | **Net change** | **+8** |
 | LibreOffice PDF pages (Letter conversion of DOCX) | **95** |
+| Author Word/render page count (uploaded DOCX) | **74** |
 
-Word pagination in Microsoft Word with the reference style may differ from LibreOffice’s conversion; this pass did not retune layout to a prior page target.
+Word pagination in Microsoft Word with the reference style may differ from LibreOffice’s conversion; this pass did not retune layout to a prior page target. The 74-page Word render is the authoritative proof count for editorial sign-off.
 
 ---
 
