@@ -2,10 +2,10 @@ import { gzipSync } from "node:zlib";
 
 /**
  * Soft expected ceiling for the current corpus (plan §13 targeted ~140–200 KB;
- * full documents + aliasConfig + public chapter docs land near ~450 KB gzip
- * after Velorum chapter enrichment; bumped for No Time to Think promotion).
+ * full documents + aliasConfig + public chapter docs land near ~480 KB gzip
+ * after World We Make Together source extract + NTTT/Case discovery).
  */
-export const SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES = 454 * 1024;
+export const SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES = 480 * 1024;
 
 /** CI alert threshold — fail tests when the transferable index exceeds this. */
 export const SEARCH_INDEX_GZIP_ALERT_BYTES = 500 * 1024;
