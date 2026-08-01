@@ -26,9 +26,9 @@ The pull request queue fills because generation is now fast and because the orga
 
 ---
 
-In 2024, a mid-sized software company set an explicit mandate: double the merged pull requests per engineer per quarter. A research team spent more than two years following what that mandate produced.
+In mid-2025, a mid-sized software company set an explicit mandate: double the merged pull requests per engineer. A research team analyzed more than two years of company data to examine what followed.
 
-Hao He and colleagues tracked 802 developers and 196,212 pull requests across January 2024 to April 2026.[^intro-he-2x] By April 2026, per-capita throughput had reached 2.09 times the pre-mandate baseline. Automated review overtook human review in volume. Per-reviewer load roughly doubled. Merge rates held steady. Revert rates held steady—at least within the study window.
+Hao He and colleagues assembled a panel of 802 developers and 196,212 pull requests spanning January 2024 to April 2026—a window that begins before the mandate and continues after it.[^intro-he-2x] By April 2026, per-capita throughput had reached 2.09 times the pre-mandate baseline. Automated review overtook human review in volume. Per-reviewer load roughly doubled. Merge rates held steady. Revert rates held steady—at least within the study window.
 
 The stability of those rates matters. The familiar cautionary story—people sped up, quality collapsed, everything broke visibly—does not describe what the researchers found. Things did not fall apart in ways the dashboard could see. The green arrows remained green.
 
@@ -80,4 +80,4 @@ The engineer was good at her job. She wanted to do it carefully. She read what t
 
 The queue contained twenty-two more.
 
-[^intro-he-2x]: Hao He et al., "AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate," arXiv:2607.01904, July 2, 2026, https://arxiv.org/abs/2607.01904. Panel of 802 developers and 196,212 pull requests (January 2024–April 2026); per-capita throughput reached 2.09× the pre-mandate baseline in April 2026; per-reviewer load roughly doubled; automated review overtook human review; merge and revert rates held steady during the study window. The authors treat the adoption-and-use channel as strongly implicated rather than establishing exact causal attribution from random assignment.
+[^intro-he-2x]: Hao He et al., "AI Writes Faster Than Humans Can Review: A Longitudinal Study of an Enterprise 2x Mandate," arXiv:2607.01904, July 2, 2026, https://arxiv.org/abs/2607.01904. The authors describe a mid-sized company "committed to doubling merged pull requests per engineer since mid-2025," with a CTO announcement of a "2× mandate" in June 2025. The observational panel covers 802 developers and 196,212 pull requests from January 2024 through April 2026—before and after the mandate. Per-capita throughput reached 2.09× the pre-mandate baseline in April 2026; per-reviewer load roughly doubled; automated review overtook human review; merge and revert rates held steady during the study window. Because adoption and usage intensity were not randomly assigned, the authors treat the adoption-and-use channel as strongly implicated rather than establishing exact causal attribution.

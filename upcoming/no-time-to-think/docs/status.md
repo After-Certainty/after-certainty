@@ -45,8 +45,8 @@
 
 ## Rough scale
 
-- Manuscript words: **~29,520**
+- Manuscript words: **~29,840**
 - Footnote definitions: **42**
 - `build.formats.docx.enabled: true` (with `interior_finish: true`)
 - Cover + OG wired
-- Last assessed: August 2026 final production pass
+- Last assessed: August 2026 factual correction pass

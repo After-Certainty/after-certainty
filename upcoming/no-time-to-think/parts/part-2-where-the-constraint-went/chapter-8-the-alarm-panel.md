@@ -66,7 +66,7 @@ The instruments sensed many things. The constraint had moved into comprehension:
 
 [^c8-nureg]: Nuclear Regulatory Commission, NUREG-0737, *Clarification of TMI Action Plan Requirements*, October 1980, and Supplement 1, January 1983, https://www.nrc.gov/reading-rm/doc-collections/nuregs/staff/sr0737/sup1/index. Required Safety Parameter Display Systems, Detailed Control Room Design Reviews, and upgraded Emergency Operating Procedures.
 
-[^c8-eop]: On symptom-based and function-oriented emergency operating procedures after TMI, see https://www.osti.gov/servlets/purl/6307206.
+[^c8-eop]: U.S. Nuclear Regulatory Commission, NUREG-1358, *Lessons Learned From the Special Inspection Program for Emergency Operating Procedures* (April 1989), OSTI/DOE: https://www.osti.gov/biblio/6307206; full text: https://www.osti.gov/servlets/purl/6307206. Reviews post-TMI upgrades requiring function- or symptom-based EOPs so operators can mitigate consequences across a broad range of accidents without first correctly diagnosing the initiating event (Background discusses NUREG-0737 Supplement 1 / Generic Letter 82-33).
 
 [^c8-inpo]: Institute of Nuclear Power Operations (INPO), founded December 1979; https://www.inpo.info/history. Created by member utilities for peer evaluation and lessons-learned sharing after the Kemeny Commission and congressional pressure. NRC chronology: https://www.nrc.gov/docs/ML2009/ML20093B635.pdf.
 

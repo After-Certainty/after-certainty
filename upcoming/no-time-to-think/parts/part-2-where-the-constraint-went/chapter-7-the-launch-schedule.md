@@ -52,7 +52,7 @@ The off-net caucus at Thiokol illustrates the mechanism in concentrated form. Th
 
 ---
 
-The commission's recommendations after Challenger addressed both the hardware and the decision architecture. The solid rocket motor joint was redesigned, with independent NRC oversight. But the commission also called for structural changes to how safety concerns traveled through the organization: an independent Office of Safety, Reliability and Quality Assurance reporting directly to the NASA Administrator rather than through program management; astronaut representation in senior management positions; recorded Flight Readiness Reviews; a formal Launch Commit Criteria review for any constraint that had been waived; and a Safety Advisory Panel with independent standing.[^c7-recomm-s2]
+The commission's recommendations after Challenger addressed both the hardware and the decision architecture. The solid rocket motor joint was redesigned, with independent oversight by a committee formed through the National Research Council.[^c7-recomm-s2] The commission also called for structural changes to how safety concerns traveled through the organization: an independent Office of Safety, Reliability and Quality Assurance reporting directly to the NASA Administrator rather than through program management; astronaut representation in senior management positions; recorded Flight Readiness Reviews; a formal Launch Commit Criteria review for any constraint that had been waived; and a Safety Advisory Panel with independent standing.
 
 These recommendations were institutional repairs to the authorization path—attempts to create channels through which a late-arriving technical concern could reach the right level of the decision structure without having to overcome a schedule's accumulated social weight. They did not assume that the engineers would always be right, or that a no-go recommendation could never be wrong. They assumed that the engineers needed a functioning path, and that a path which required them to first overcome management's schedule commitments was not functioning.
 
@@ -70,7 +70,7 @@ Without those conditions, the schedule quietly becomes the sovereign. Warnings a
 
 [^c7-v1ch7]: Rogers Commission, "The Silent Safety Program," https://www.nasa.gov/history/rogersrep/v1ch7.htm. Documents problem-reporting gaps, trend-analysis deficiencies, and reduced safety involvement in critical pre-launch discussions.
 
-[^c7-recomm]: Rogers Commission, Recommendations, https://www.nasa.gov/history/rogersrep/v1recomm.htm. Includes SRB joint redesign with independent oversight; an independent safety office reporting to the NASA Administrator; recorded Flight Readiness Reviews; and Recommendation VIII on matching flight rate to resources.
+[^c7-recomm]: Rogers Commission, Recommendations, https://www.nasa.gov/history/rogersrep/v1recomm.htm. Recommendation I calls for Solid Rocket Motor joint redesign and asks the NASA Administrator to request that the National Research Council form an independent Solid Rocket Motor design oversight committee. Also recommends an independent safety office reporting to the NASA Administrator; recorded Flight Readiness Reviews; and Recommendation VIII on matching flight rate to resources.
 
 [^c7-rogers-s2]: Rogers Commission, "The Accident."
 
@@ -78,4 +78,4 @@ Without those conditions, the schedule quietly becomes the sovereign. Warnings a
 
 [^c7-v1ch8-s2]: Rogers Commission, "Pressures on the System."
 
-[^c7-recomm-s2]: Rogers Commission, Recommendations.
+[^c7-recomm-s2]: Rogers Commission, Recommendations (National Research Council Solid Rocket Motor design oversight).
