@@ -36,7 +36,7 @@ A longitudinal study covering more than two years and nearly 200,000 pull reques
 
 What such a study can measure is the pace of generation and the distribution of review labor. What it cannot easily measure is whether the reviews that happened were adequate to what was being reviewed—whether comprehension kept pace with production, whether the engineers doing the reviewing had enough context to catch the failure modes that take months to surface. The two-year window is long enough to show that the system did not obviously break. It is not long enough to show whether it became more brittle.
 
-That brittleness, when it arrives, rarely announces itself cleanly. It shows up in the bug that takes an experienced engineer two days to diagnose because the system has added three months of AI-assisted changes that nobody has a full mental model of. It shows up in the new hire who can generate plausible-looking code immediately and has no path to learn what distinguishes plausible-looking from correct. It shows up in the review that got done under thirty seconds of attention because there were twenty-two other pull requests and the sprint closed on Friday.
+That brittleness, when it arrives, rarely announces itself cleanly. It shows up in the bug that takes an experienced engineer two days to diagnose because the system has accumulated three months of AI-assisted changes that nobody has a full mental model of. It shows up in the review that got done under thirty seconds of attention because there were twenty-two other pull requests and the sprint closed on Friday.
 
 ---
 
@@ -52,25 +52,17 @@ The senior engineer who noticed the race condition on line 412 understood this s
 
 Consider what follows from the belief that generation volume constitutes the productivity story.
 
-That spring, the engineering organization restructured. The announcement used familiar language: efficiency, focus, right-sizing for the next phase of growth. Headcount fell by eighteen percent. The teams reduced most were the ones whose work was hardest to count: the infrastructure engineers who knew where the brittle seams in the legacy system were located; the senior developers who ran informal code reviews for junior colleagues, the ones that happened in hallways and over shared documents rather than in ticketed workflows; the technical writers who had been translating architectural decisions into documentation that new hires could use.
+That spring, the engineering organization restructured. Headcount fell by eighteen percent. The teams reduced most were the ones whose work was hardest to count—the people who knew where the brittle seams were, who ran informal code reviews outside ticketed workflows, who had been translating architectural decisions into documentation new hires could use. The memo did not speak of what those people had carried that the tools could not.
 
-The memo was carefully written. It emphasized the strength of what remained. It spoke of the tools that would amplify what the leaner team could accomplish. It did not speak of what the leaving people had carried that the tools could not carry for them.
+That work did not leave with the headcount. Coordination, exception handling, institutional memory, and the slow transmission of judgment from experienced practitioners to newer ones—these do not disappear when the org chart thins. They reappear as review load, maintenance debt, onboarding friction, and unowned consequence.
 
-That work did not leave with the headcount. Coordination, exception handling, institutional memory, and the slow transmission of judgment from experienced practitioners to newer ones—these do not disappear when the org chart thins. They reappear as review load, maintenance debt, onboarding friction, and unowned consequence. Three months after the restructuring, a failure in the payment service required someone to understand why a particular path through the authorization logic had been built the way it was. The code was two years old, modified twelve times. The engineer who had built it and could explain the design reasoning was no longer at the company. Nobody had documented the reasoning because the engineer who knew it had been the documentation.
-
-The memo was not primarily an act of cruelty. It was an act of belief. The organization had treated a partial measure—volume, velocity, artifacts produced—as a complete account of capacity. It concluded that certain human functions had become redundant. What it had not accounted for, because the dashboard had never asked the question, was what those human functions were doing that the tools were not doing.
+The restructuring was not primarily an act of cruelty. It was an act of belief. The organization had treated a partial measure—volume, velocity, artifacts produced—as a complete account of capacity. It concluded that certain human functions had become redundant. What it had not accounted for, because the dashboard had never asked the question, was what those human functions were doing that the tools were not doing.
 
 Generation looked cheaper. Judgment was never counted as capacity. When the org chart thinned, the green arrows continued to point upward, for a while, in the metrics that were tracked—while the people left to interpret what those arrows meant grew fewer and less rested and carried more of the context that no model had been trained on.
 
 ---
 
-The pattern in which visible gains arrive first and deferred costs arrive later is not specific to software or to AI. It appears wherever an organization measures the output of a faster stage without measuring the capacity of the stages that absorb that output.
-
-Which gains appear immediately? Production does. A commit lands. A ticket closes. A document appears in the shared folder with a polished first draft. A recommendation is generated. These are real, and the people who produced them worked to make them happen.
-
-Which costs arrive later? The thinning of context: the gradual loss of people who knew where the exceptions lived and why the system behaves as it does under edge conditions. The training path that no longer produces judgment: a new hire can generate competent-looking artifacts in the first week, which removes the early failures that once taught what "good" meant in this codebase, for this team, under these constraints. The capacity to revise a decision after consequence appears: a capacity that depends on people who understand the system well enough to locate what went wrong and why.
-
-A team that once had experienced engineers who could explain any failure mode may, after a period of rapid AI-assisted production and restructuring, have fast generators and a thinner bench of people who can say whether the failure mode matters, where it originates, and what changing it would disturb. The failure mode itself has not changed. The institutional capacity to understand it has.
+Which costs arrive later? The thinning of context: the gradual loss of people who knew where the exceptions lived and why the system behaves as it does under edge conditions. The capacity to revise a decision after consequence appears: a capacity that depends on people who understand the system well enough to locate what went wrong and why.
 
 Ownership becomes harder to locate when many hands—and many models—contributed to the result. A system that once had authors now has artifacts. The artifacts may be indistinguishable from what careful authors would have produced. The difference appears when something fails and nobody can say with confidence why, or when a proposed change looks safe in isolation and nobody has the context to see what it would disturb three components downstream.
 

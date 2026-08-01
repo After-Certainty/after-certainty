@@ -46,7 +46,7 @@ This formulation is not a caution against speed. It is a design observation. Whe
 
 Most of the time, the second path feels more natural. The gain from the faster step is visible and immediate. The cost of the unfollowed bottleneck is deferred and distributed—it does not appear in the dashboard that celebrated the speed increase. The metric that measured success was not designed to look for where the friction went.
 
-This is not a new pattern. Acceleration has repeatedly outpaced the institutional redesign it requires. What differs now is the pace of the production-side change, the breadth of domains it is entering simultaneously, and how cleanly the output can be made to look finished before it is.
+The pattern has appeared before. Acceleration has repeatedly outpaced the institutional redesign it requires. What differs now is the pace of the production-side change, the breadth of domains it is entering simultaneously, and how cleanly the output can be made to look finished before it is.
 
 ---
 

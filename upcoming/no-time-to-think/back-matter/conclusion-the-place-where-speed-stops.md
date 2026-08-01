@@ -18,13 +18,11 @@ The signature transferred responsibility in under a second. A name on a discharg
 
 The control-tower clock measured attention that throughput models miss. A controller managing dense traffic is not slowed by the pause before the next transmission; they are preserving the cognitive space in which a readback error can be caught before it becomes a clearance that a crew executes.
 
-The stopwatch and the instruction card moved judgment from workers to planners. The assembly line moved the pacing constraint into supply, endurance, and quality at speed. Each acceleration left a residue of work that the original measurement could not see, staffed by people the dashboard never counted, resolving exceptions that the instruction card had not modeled.
-
-The checklist preserved what memory under pressure could not: the sequencing discipline that kept attention available for the conditions no procedure anticipated. The launch schedule showed how a date accumulates social force until concern must fight the weight of delay rather than a specific person's resistance. The alarm panel showed that more information, arranged without priority, does not produce more comprehension. It can produce less.
+The stopwatch and the instruction card moved judgment from workers to planners; the assembly line moved the pacing constraint into supply, endurance, and quality at speed—each acceleration leaving a residue of work the original measurement could not see. The checklist preserved the sequencing discipline that memory under pressure could not hold; the launch schedule showed how a date accumulates social force until concern must fight momentum rather than a specific person's resistance; the alarm panel showed that more information, arranged without priority, can produce less comprehension rather than more.
 
 The post-automation queue showed that finished-looking artifacts still require human judgment to become institutional action. That queue fills faster as generation becomes cheaper. The unfinished work after automation—selecting, verifying, integrating, explaining, owning—does not diminish when drafting accelerates. It accumulates, because abundance raises the number of candidate actions that must be refused, revised, or absorbed.
 
-The missing steering wheel showed that removing a control can be rational and still leave a question unanswered: where does interruption live now? The cabin has more room. The empty space asks who can act when the system encounters something it cannot handle, and whether the institution around the system has named that person, staffed that role, and maintained stop authority in forms that survive the transition from pilot to infrastructure.
+The missing steering wheel showed that removing a control can be rational and still leave a question unanswered: where does interruption live now? The empty space asks who can act when the system encounters something it cannot handle, and whether the institution has named that person, staffed that role, and maintained stop authority through the transition from pilot to infrastructure.
 
 ---
 
