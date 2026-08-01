@@ -16,8 +16,6 @@ book:
   open_graph_image: open-graph.png
   content_type: nonfiction
   literary_form: monograph
-  companion_books:
-  - no-time-to-think
   overview:
     centralQuestion: How can a system make room for the case its rules cannot understand without turning judgment into arbitrary power?
     whyItExists: Rules protect people from arbitrary judgment, but every rule compresses reality. When the ignored detail becomes decisive, institutions need architecture for reconsideration—appeals, accommodation, discretion, and designed correctability—without abandoning fairness or consistency.
