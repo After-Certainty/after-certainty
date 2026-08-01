@@ -30,7 +30,7 @@
 | Item | Decision |
 |------|----------|
 | Blank pages before parts | Prefer next-available page for this compact book; do not insert recto-only blanks inconsistently. Re-check after re-export. |
-| Page numbers | Enabled via `interior_finish: true` on DOCX (folios from Introduction; omitted on cover/front-matter openers per finish script). |
+| Page numbers | Enabled via `interior_finish: true` on DOCX (folios from Introduction; omitted on cover/front-matter openers per finish script). Finish logic updated so front-matter About the Series no longer blocks body section splits. |
 | Cover alt text | DOCX export currently uses empty cover-image alt to avoid Word figure captions (`prepare_title_page_for_docx`). Accessible alt remains a follow-up for EPUB/a11y packaging. |
 | Footnote URL hyperlinks | Plain-text URLs retained for print; hyperlink encoding deferred to EPUB packaging. |
 
