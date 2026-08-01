@@ -146,14 +146,16 @@ def test_finish_interior_strips_cover_caption_and_sets_descr(tmp_path: Path) -> 
     path = tmp_path / "cover-caption.docx"
     doc.save(str(path))
 
-    alt = "Book cover for Title by Author, showing a folder."
-    status = finish_interior_docx(path, running_title="Title", cover_alt=alt)
+    alt_md = "Book cover for *Title* by Author, showing a folder."
+    alt_plain = "Book cover for Title by Author, showing a folder."
+    status = finish_interior_docx(path, running_title="Title", cover_alt=alt_md)
     assert status["cover_captions_removed"] >= 1
     assert status["cover_descr_set"] is True
 
     finished = Document(str(path))
     texts = [(p.text or "").strip() for p in finished.paragraphs]
-    assert alt not in texts
+    assert alt_plain not in texts
+    assert alt_md not in texts
     assert not any(
         p._element.find(qn("w:pPr")) is not None
         and (p._element.find(qn("w:pPr")).find(qn("w:pStyle")) is not None)
@@ -161,7 +163,7 @@ def test_finish_interior_strips_cover_caption_and_sets_descr(tmp_path: Path) -> 
         for p in finished.paragraphs
     )
     doc_pr = next(finished.element.body.iter(qn("wp:docPr")))
-    assert doc_pr.get("descr") == alt
+    assert doc_pr.get("descr") == alt_plain
 
 
 def test_finish_interior_skips_front_matter_about_the_series(tmp_path: Path) -> None:

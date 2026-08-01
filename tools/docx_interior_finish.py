@@ -387,9 +387,18 @@ def _strip_front_matter_image_captions(doc: Document) -> int:
     return removed
 
 
+def _plain_cover_alt(cover_alt: str) -> str:
+    """Strip light markdown emphasis so drawing descr is plain prose."""
+    alt = cover_alt.strip()
+    # Pandoc would not keep *emphasis* markers in image descr.
+    alt = re.sub(r"\*+([^*]+)\*+", r"\1", alt)
+    alt = re.sub(r"_+([^_]+)_+", r"\1", alt)
+    return alt
+
+
 def _set_first_cover_image_descr(doc: Document, cover_alt: str) -> bool:
     """Set accessibility descr/title on the first floating/inline drawing."""
-    alt = cover_alt.strip()
+    alt = _plain_cover_alt(cover_alt)
     if not alt:
         return False
     for doc_pr in doc.element.body.iter(qn("wp:docPr")):

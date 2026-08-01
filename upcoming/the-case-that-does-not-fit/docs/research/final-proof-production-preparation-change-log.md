@@ -163,8 +163,23 @@ No remaining “Present-Day Cases, Historical Patterns, and Institutions Capable
 - Converted to PDF via LibreOffice; rendered page PNGs.
 - Confirmed: title-page subtitle; Ch7 single footnote marker; Ch9 em dashes; Conclusion final four lines; no “2021” footnote merge; keywords/metadata correct.
 
+### Cover alt printed as Image Caption (follow-up fix)
+
+Author Word render showed the cover accessibility string as a visible **Image Caption** on page 2 (blank verso). Cause: markdown image alt was exported by Pandoc as both drawing `descr` and a printed caption; `prepare_title_page_for_docx` emptied alt only when `title_page_cover_unnumbered: true`, which this book does not set.
+
+Pipeline correction:
+
+1. Always empty cover markdown alt for DOCX when a title-page cover is configured.
+2. Capture the original alt and re-apply it to `wp:docPr`/`pic:cNvPr` `descr` in `finish_interior_docx`.
+3. Strip any front-matter `Image Caption` paragraphs as a safety net.
+
+**Verified after re-export:** no `Image Caption` paragraphs; cover `descr` restored as plain accessibility text; LibreOffice page 1 = cover, page 2 = blank verso, page 3 = title/copyright.
+
 Artifacts:
 
 - `/opt/cursor/artifacts/the-case-that-does-not-fit-proof.docx`
 - `/opt/cursor/artifacts/the-case-that-does-not-fit-proof.pdf`
 - `/opt/cursor/artifacts/case-proof-pages/page-*.png`
+- `/opt/cursor/artifacts/the-case-that-does-not-fit-editorial-master.docx`
+- `/opt/cursor/artifacts/the-case-that-does-not-fit-editorial-master.pdf`
+- `/opt/cursor/artifacts/case-caption-fix-pages/page-01.png` … `page-03.png`
