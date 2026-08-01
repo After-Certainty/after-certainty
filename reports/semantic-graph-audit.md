@@ -7,7 +7,7 @@
 - Errors: **0**
 - Warnings: **74**
 - Info: **261**
-- Entities scanned: {'books': 32, 'concepts': 144, 'patterns': 30, 'thinkers': 635, 'sources': 648, 'relationships': 109}
+- Entities scanned: {'books': 34, 'concepts': 144, 'patterns': 30, 'thinkers': 635, 'sources': 648, 'relationships': 109}
 
 ## Top priority issues
 

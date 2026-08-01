@@ -1,6 +1,6 @@
 {
   "generatedBy": "tools/audit_bibliography_semantic_drift.py",
-  "bookCount": 22,
+  "bookCount": 24,
   "books": [
     {
       "book_id": "after-certainty",
@@ -3351,6 +3351,1274 @@
       "weak_parse": false
     },
     {
+      "book_id": "the-game-we-think-we-saw",
+      "bibliography": "books/the-game-we-think-we-saw/back-matter/bibliography.md",
+      "parse_style": "list",
+      "parse_warnings": [],
+      "biblio_count": 72,
+      "linked_count": 72,
+      "matched": [
+        {
+          "biblioSlug": "andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl",
+          "sourceSlug": "andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Andrew Luck Announces His Retirement from the NFL",
+          "biblioAuthor": "Andrew Walker",
+          "sourceName": "Andrew Walker — Andrew Luck Announces His Retirement from the NFL"
+        },
+        {
+          "biblioSlug": "andscape-for-allen-iverson-it-was-never-just-about-practice",
+          "sourceSlug": "andscape-for-allen-iverson-it-was-never-just-about-practice",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "For Allen Iverson, It Was Never Just about 'Practice'",
+          "biblioAuthor": "Andscape",
+          "sourceName": "Andscape — For Allen Iverson, It Was Never Just about 'Practice'"
+        },
+        {
+          "biblioSlug": "associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics",
+          "sourceSlug": "associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "AP Was There: Smith and Carlos Protest during 1968 Olympics",
+          "biblioAuthor": "Associated Press",
+          "sourceName": "Associated Press — AP Was There: Smith and Carlos Protest during 1968 Olympics"
+        },
+        {
+          "biblioSlug": "associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83",
+          "sourceSlug": "associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Bob Knight, Indiana's Combustible Coaching Giant, Dies at Age 83",
+          "biblioAuthor": "Associated Press",
+          "sourceName": "Associated Press — Bob Knight, Indiana's Combustible Coaching Giant, Dies at Age 83"
+        },
+        {
+          "biblioSlug": "associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture",
+          "sourceSlug": "associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Bob Knight's Chair: College Basketball's Classic Furniture",
+          "biblioAuthor": "Associated Press",
+          "sourceName": "Associated Press — Bob Knight's Chair: College Basketball's Classic Furniture"
+        },
+        {
+          "biblioSlug": "associated-press-kaepernick-eric-reid-settle-collusion-grievances-with-nfl",
+          "sourceSlug": "associated-press-kaepernick-eric-reid-settle-collusion-grievances-with-nfl",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Kaepernick, Eric Reid Settle Collusion Grievances with NFL",
+          "biblioAuthor": "Associated Press",
+          "sourceName": "Associated Press — Kaepernick, Eric Reid Settle Collusion Grievances with NFL"
+        },
+        {
+          "biblioSlug": "associated-press-kaepernick-files-grievance-against-nfl-alleging-collusion",
+          "sourceSlug": "associated-press-kaepernick-files-grievance-against-nfl-alleging-collusion",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Kaepernick Files Grievance against NFL, Alleging Collusion",
+          "biblioAuthor": "Associated Press",
+          "sourceName": "Associated Press — Kaepernick Files Grievance against NFL, Alleging Collusion"
+        },
+        {
+          "biblioSlug": "associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener",
+          "sourceSlug": "associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Nike Unveils Kaepernick Ad to Air during NFL Season Opener",
+          "biblioAuthor": "Associated Press",
+          "sourceName": "Associated Press — Nike Unveils Kaepernick Ad to Air during NFL Season Opener"
+        },
+        {
+          "biblioSlug": "associated-press-return-of-the-hoosier-knight-back-at-indiana-after-20-years",
+          "sourceSlug": "associated-press-return-of-the-hoosier-knight-back-at-indiana-after-20-years",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Return of the Hoosier: Knight Back at Indiana after 20 Years",
+          "biblioAuthor": "Associated Press",
+          "sourceName": "Associated Press — Return of the Hoosier: Knight Back at Indiana after 20 Years"
+        },
+        {
+          "biblioSlug": "associated-press-trump-says-nfl-should-fire-players-who-kneel-during-anthem",
+          "sourceSlug": "associated-press-trump-says-nfl-should-fire-players-who-kneel-during-anthem",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Trump Says NFL Should Fire Players Who Kneel during Anthem",
+          "biblioAuthor": "Associated Press",
+          "sourceName": "Associated Press — Trump Says NFL Should Fire Players Who Kneel during Anthem"
+        },
+        {
+          "biblioSlug": "basketball-reference-bill-russell",
+          "sourceSlug": "basketball-reference-bill-russell",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Bill Russell",
+          "biblioAuthor": "Basketball-Reference",
+          "sourceName": "Basketball-Reference — Bill Russell"
+        },
+        {
+          "biblioSlug": "centers-for-disease-control-and-prevention-returning-to-sports",
+          "sourceSlug": "centers-for-disease-control-and-prevention-returning-to-sports",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Returning to Sports",
+          "biblioAuthor": "Centers for Disease Control and Prevention",
+          "sourceName": "Centers for Disease Control and Prevention — Returning to Sports"
+        },
+        {
+          "biblioSlug": "centers-for-disease-control-and-prevention-symptoms-of-concussion",
+          "sourceSlug": "centers-for-disease-control-and-prevention-symptoms-of-concussion",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Symptoms of Concussion",
+          "biblioAuthor": "Centers for Disease Control and Prevention",
+          "sourceName": "Centers for Disease Control and Prevention — Symptoms of Concussion"
+        },
+        {
+          "biblioSlug": "cnn-indiana-university-keeps-coach-knight-with-sanctions",
+          "sourceSlug": "cnn-indiana-university-keeps-coach-knight-with-sanctions",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Indiana University Keeps Coach Knight with Sanctions",
+          "biblioAuthor": "CNN",
+          "sourceName": "CNN — Indiana University Keeps Coach Knight with Sanctions"
+        },
+        {
+          "biblioSlug": "cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem",
+          "sourceSlug": "cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Trump: NFL Owners Should Fire Players Who Protest the National Anthem",
+          "biblioAuthor": "CNN Politics",
+          "sourceName": "CNN Politics — Trump: NFL Owners Should Fire Players Who Protest the National Anthem"
+        },
+        {
+          "biblioSlug": "dave-studeman-the-triumph-of-moneyball",
+          "sourceSlug": "dave-studeman-the-triumph-of-moneyball",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The Triumph of Moneyball",
+          "biblioAuthor": "Dave Studeman",
+          "sourceName": "Dave Studeman — The Triumph of Moneyball"
+        },
+        {
+          "biblioSlug": "espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid",
+          "sourceSlug": "espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Colin Kaepernick Takes Knee for Anthem; Joined by Teammate Eric Reid",
+          "biblioAuthor": "ESPN",
+          "sourceName": "ESPN — Colin Kaepernick Takes Knee for Anthem; Joined by Teammate Eric Reid"
+        },
+        {
+          "biblioSlug": "espn-emotional-bob-knight-ends-20-year-split-with-indiana",
+          "sourceSlug": "espn-emotional-bob-knight-ends-20-year-split-with-indiana",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Emotional Bob Knight Ends 20-Year Split with Indiana",
+          "biblioAuthor": "ESPN",
+          "sourceName": "ESPN — Emotional Bob Knight Ends 20-Year Split with Indiana"
+        },
+        {
+          "biblioSlug": "espn-new-policy-requires-on-field-players-personnel-to-stand-for-anthem",
+          "sourceSlug": "espn-new-policy-requires-on-field-players-personnel-to-stand-for-anthem",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "New Policy Requires On-Field Players, Personnel to Stand for Anthem",
+          "biblioAuthor": "ESPN",
+          "sourceName": "ESPN — New Policy Requires On-Field Players, Personnel to Stand for Anthem"
+        },
+        {
+          "biblioSlug": "espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism",
+          "sourceSlug": "espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "NFL Commissioner Roger Goodell Says NFL Was 'Wrong' Not to Listen to Its Players about Racism",
+          "biblioAuthor": "ESPN",
+          "sourceName": "ESPN — NFL Commissioner Roger Goodell Says NFL Was 'Wrong' Not to Listen to Its Players about Racism"
+        },
+        {
+          "biblioSlug": "espn-qb-colin-kaepernick-files-grievance-for-collusion-against-nfl-owners",
+          "sourceSlug": "espn-qb-colin-kaepernick-files-grievance-for-collusion-against-nfl-owners",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "QB Colin Kaepernick Files Grievance for Collusion against NFL Owners",
+          "biblioAuthor": "ESPN",
+          "sourceName": "ESPN — QB Colin Kaepernick Files Grievance for Collusion against NFL Owners"
+        },
+        {
+          "biblioSlug": "espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting",
+          "sourceSlug": "espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Roger Goodell: 'Wish We Had Listened Earlier' to What Colin Kaepernick Was Protesting",
+          "biblioAuthor": "ESPN",
+          "sourceName": "ESPN — Roger Goodell: 'Wish We Had Listened Earlier' to What Colin Kaepernick Was Protesting"
+        },
+        {
+          "biblioSlug": "espn-transcript-of-brand-s-statement",
+          "sourceSlug": "espn-transcript-of-brand-s-statement",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Transcript of Brand's Statement",
+          "biblioAuthor": "ESPN",
+          "sourceName": "ESPN — Transcript of Brand's Statement"
+        },
+        {
+          "biblioSlug": "espn-video-supports-reed-s-allegation-against-knight",
+          "sourceSlug": "espn-video-supports-reed-s-allegation-against-knight",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Video Supports Reed's Allegation against Knight",
+          "biblioAuthor": "ESPN",
+          "sourceName": "ESPN — Video Supports Reed's Allegation against Knight"
+        },
+        {
+          "biblioSlug": "grand-slam-tournaments-statement-from-grand-slam-tournaments-regarding-naomi-osaka",
+          "sourceSlug": "grand-slam-tournaments-statement-from-grand-slam-tournaments-regarding-naomi-osaka",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Statement from Grand Slam Tournaments Regarding Naomi Osaka",
+          "biblioAuthor": "Grand Slam tournaments",
+          "sourceName": "Grand Slam tournaments — Statement from Grand Slam Tournaments Regarding Naomi Osaka"
+        },
+        {
+          "biblioSlug": "indiana-university-athletics-coach-bob-knight-passes-away-at-83",
+          "sourceSlug": "indiana-university-athletics-coach-bob-knight-passes-away-at-83",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Coach Bob Knight Passes Away at 83",
+          "biblioAuthor": "Indiana University Athletics",
+          "sourceName": "Indiana University Athletics — Coach Bob Knight Passes Away at 83"
+        },
+        {
+          "biblioSlug": "international-football-association-board-video-assistant-referee-var-protocol",
+          "sourceSlug": "international-football-association-board-video-assistant-referee-var-protocol",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Video Assistant Referee (VAR) Protocol",
+          "biblioAuthor": "International Football Association Board",
+          "sourceName": "International Football Association Board — Video Assistant Referee (VAR) Protocol"
+        },
+        {
+          "biblioSlug": "international-olympic-committee-gymnastics-what-are-the-twisties",
+          "sourceSlug": "international-olympic-committee-gymnastics-what-are-the-twisties",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Gymnastics: What Are the Twisties?",
+          "biblioAuthor": "International Olympic Committee",
+          "sourceName": "International Olympic Committee — Gymnastics: What Are the Twisties?"
+        },
+        {
+          "biblioSlug": "international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list",
+          "sourceSlug": "international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Simone Biles: All Titles, Records and Medals - Complete List",
+          "biblioAuthor": "International Olympic Committee",
+          "sourceName": "International Olympic Committee — Simone Biles: All Titles, Records and Medals - Complete List"
+        },
+        {
+          "biblioSlug": "international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si",
+          "sourceSlug": "international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Simone Biles Opens Up about the Twisties: 'My Mind and Body Are Simply Not in Sync.'",
+          "biblioAuthor": "International Olympic Committee",
+          "sourceName": "International Olympic Committee — Simone Biles Opens Up about the Twisties: 'My Mind and Body Are Simply Not in Sync.'"
+        },
+        {
+          "biblioSlug": "international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste",
+          "sourceSlug": "international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Simone Biles Speaks about Pulling Out of Team Event: 'I Took a Step Back.'",
+          "biblioAuthor": "International Olympic Committee",
+          "sourceName": "International Olympic Committee — Simone Biles Speaks about Pulling Out of Team Event: 'I Took a Step Back.'"
+        },
+        {
+          "biblioSlug": "jackie-macmullan-the-little-known-story-behind-allen-iverson-s-practice-rant",
+          "sourceSlug": "jackie-macmullan-the-little-known-story-behind-allen-iverson-s-practice-rant",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The Little-Known Story behind Allen Iverson's 'Practice' Rant",
+          "biblioAuthor": "Jackie MacMullan",
+          "sourceName": "Jackie MacMullan — The Little-Known Story behind Allen Iverson's 'Practice' Rant"
+        },
+        {
+          "biblioSlug": "jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis",
+          "sourceSlug": "jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "An Economic Evaluation of the *Moneyball* Hypothesis",
+          "biblioAuthor": "Jahn K. Hakes and Raymond D. Sauer",
+          "sourceName": "Jahn K. Hakes and Raymond D. Sauer — An Economic Evaluation of the Moneyball Hypothesis"
+        },
+        {
+          "biblioSlug": "john-feinstein-a-season-on-the-brink",
+          "sourceSlug": "john-feinstein-a-season-on-the-brink",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "A Season on the Brink",
+          "biblioAuthor": "John Feinstein",
+          "sourceName": "John Feinstein — A Season on the Brink"
+        },
+        {
+          "biblioSlug": "los-angeles-times-former-hoosier-reed-says-he-was-choked-by-knight",
+          "sourceSlug": "los-angeles-times-former-hoosier-reed-says-he-was-choked-by-knight",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Former Hoosier Reed Says He Was Choked by Knight",
+          "biblioAuthor": "Los Angeles Times",
+          "sourceName": "Los Angeles Times — Former Hoosier Reed Says He Was Choked by Knight"
+        },
+        {
+          "biblioSlug": "los-angeles-times-knight-suspended-for-a-game-by-big-ten-for-throwing-chair",
+          "sourceSlug": "los-angeles-times-knight-suspended-for-a-game-by-big-ten-for-throwing-chair",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Knight Suspended for a Game by Big Ten for Throwing Chair",
+          "biblioAuthor": "Los Angeles Times",
+          "sourceName": "Los Angeles Times — Knight Suspended for a Game by Big Ten for Throwing Chair"
+        },
+        {
+          "biblioSlug": "los-angeles-times-tape-has-knight-grabbing-player",
+          "sourceSlug": "los-angeles-times-tape-has-knight-grabbing-player",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Tape Has Knight Grabbing Player",
+          "biblioAuthor": "Los Angeles Times",
+          "sourceName": "Los Angeles Times — Tape Has Knight Grabbing Player"
+        },
+        {
+          "biblioSlug": "major-league-baseball-mlb-announces-abs-challenge-system-coming-to-the-major-leagues-beginning-i",
+          "sourceSlug": "major-league-baseball-mlb-announces-abs-challenge-system-coming-to-the-major-leagues-beginning-i",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "MLB Announces ABS Challenge System Coming to the Major Leagues Beginning in the 2026 Season",
+          "biblioAuthor": "Major League Baseball",
+          "sourceName": "Major League Baseball — MLB Announces ABS Challenge System Coming to the Major Leagues Beginning in the 2026 Season"
+        },
+        {
+          "biblioSlug": "major-league-baseball-pitch-smart-pitching-guidelines",
+          "sourceSlug": "major-league-baseball-pitch-smart-pitching-guidelines",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Pitch Smart Pitching Guidelines",
+          "biblioAuthor": "Major League Baseball",
+          "sourceName": "Major League Baseball — Pitch Smart Pitching Guidelines"
+        },
+        {
+          "biblioSlug": "michael-lewis-moneyball-the-art-of-winning-an-unfair-game",
+          "sourceSlug": "michael-lewis-moneyball-the-art-of-winning-an-unfair-game",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Moneyball: The Art of Winning an Unfair Game",
+          "biblioAuthor": "Michael Lewis",
+          "sourceName": "Michael Lewis — Moneyball: The Art of Winning an Unfair Game"
+        },
+        {
+          "biblioSlug": "michael-marot-oft-injured-colts-qb-andrew-luck-29-announces-retirement",
+          "sourceSlug": "michael-marot-oft-injured-colts-qb-andrew-luck-29-announces-retirement",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Oft-Injured Colts QB Andrew Luck, 29, Announces Retirement",
+          "biblioAuthor": "Michael Marot",
+          "sourceName": "Michael Marot — Oft-Injured Colts QB Andrew Luck, 29, Announces Retirement"
+        },
+        {
+          "biblioSlug": "mlb-com-mlb-to-use-abs-challenge-system-starting-in-2026",
+          "sourceSlug": "mlb-com-mlb-to-use-abs-challenge-system-starting-in-2026",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "MLB to Use ABS Challenge System Starting in 2026",
+          "biblioAuthor": "MLB.com",
+          "sourceName": "MLB.com — MLB to Use ABS Challenge System Starting in 2026"
+        },
+        {
+          "biblioSlug": "moore-et-al-factors-and-expectations-influencing-concussion-disclosure-within-ncaa-division-i-at",
+          "sourceSlug": "moore-et-al-factors-and-expectations-influencing-concussion-disclosure-within-ncaa-division-i-at",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Factors and Expectations Influencing Concussion Disclosure within NCAA Division I Athletes",
+          "biblioAuthor": "Moore et al",
+          "sourceName": "Moore et al — Factors and Expectations Influencing Concussion Disclosure within NCAA Division I Athletes"
+        },
+        {
+          "biblioSlug": "naomi-osaka-it-s-o-k-not-to-be-o-k",
+          "sourceSlug": "naomi-osaka-it-s-o-k-not-to-be-o-k",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "It's O.K. Not to Be O.K",
+          "biblioAuthor": "Naomi Osaka",
+          "sourceName": "Naomi Osaka — It's O.K. Not to Be O.K"
+        },
+        {
+          "biblioSlug": "national-collegiate-athletic-association-concussion-fact-sheet-for-coaches",
+          "sourceSlug": "national-collegiate-athletic-association-concussion-fact-sheet-for-coaches",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Concussion Fact Sheet for Coaches",
+          "biblioAuthor": "National Collegiate Athletic Association",
+          "sourceName": "National Collegiate Athletic Association — Concussion Fact Sheet for Coaches"
+        },
+        {
+          "biblioSlug": "nba-com-legends-profile-bill-russell",
+          "sourceSlug": "nba-com-legends-profile-bill-russell",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Legends Profile: Bill Russell",
+          "biblioAuthor": "NBA.com",
+          "sourceName": "NBA.com — Legends Profile: Bill Russell"
+        },
+        {
+          "biblioSlug": "nba-com-nba-sends-teams-the-results-found-in-load-management-study",
+          "sourceSlug": "nba-com-nba-sends-teams-the-results-found-in-load-management-study",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "NBA Sends Teams the Results Found in Load Management Study",
+          "biblioAuthor": "NBA.com",
+          "sourceName": "NBA.com — NBA Sends Teams the Results Found in Load Management Study"
+        },
+        {
+          "biblioSlug": "nba-communications-nba-board-of-governors-approves-new-player-participation-policy",
+          "sourceSlug": "nba-communications-nba-board-of-governors-approves-new-player-participation-policy",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "NBA Board of Governors Approves New Player Participation Policy",
+          "biblioAuthor": "NBA Communications",
+          "sourceName": "NBA Communications — NBA Board of Governors Approves New Player Participation Policy"
+        },
+        {
+          "biblioSlug": "nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick",
+          "sourceSlug": "nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Who Gets Most of the Credit - Brady or Belichick?",
+          "biblioAuthor": "NBC Sports Boston",
+          "sourceName": "NBC Sports Boston — Who Gets Most of the Credit - Brady or Belichick?"
+        },
+        {
+          "biblioSlug": "nfl-com-brady-to-have-season-ending-knee-surgery",
+          "sourceSlug": "nfl-com-brady-to-have-season-ending-knee-surgery",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Brady to Have Season-Ending Knee Surgery…",
+          "biblioAuthor": "NFL.com",
+          "sourceName": "NFL.com — Brady to Have Season-Ending Knee Surgery…"
+        },
+        {
+          "biblioSlug": "nfl-com-buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp",
+          "sourceSlug": "nfl-com-buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Buccaneers QB Tom Brady Extends Record with Fifth Super Bowl MVP…",
+          "biblioAuthor": "NFL.com",
+          "sourceName": "NFL.com — Buccaneers QB Tom Brady Extends Record with Fifth Super Bowl MVP…"
+        },
+        {
+          "biblioSlug": "nfl-com-nfl-anthem-policy-on-hold-under-standstill-agreement",
+          "sourceSlug": "nfl-com-nfl-anthem-policy-on-hold-under-standstill-agreement",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "NFL Anthem Policy on Hold under Standstill Agreement",
+          "biblioAuthor": "NFL.com",
+          "sourceName": "NFL.com — NFL Anthem Policy on Hold under Standstill Agreement"
+        },
+        {
+          "biblioSlug": "nfl-com-nfl-owners-approve-national-anthem-policy-for-2018",
+          "sourceSlug": "nfl-com-nfl-owners-approve-national-anthem-policy-for-2018",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "NFL Owners Approve National Anthem Policy for 2018",
+          "biblioAuthor": "NFL.com",
+          "sourceName": "NFL.com — NFL Owners Approve National Anthem Policy for 2018"
+        },
+        {
+          "biblioSlug": "nfl-com-nfl-teams-unanimously-approve-simplified-catch-rule",
+          "sourceSlug": "nfl-com-nfl-teams-unanimously-approve-simplified-catch-rule",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "NFL Teams Unanimously Approve Simplified Catch Rule",
+          "biblioAuthor": "NFL.com",
+          "sourceName": "NFL.com — NFL Teams Unanimously Approve Simplified Catch Rule"
+        },
+        {
+          "biblioSlug": "nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground",
+          "sourceSlug": "nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Referee: Dez Bryant Catch Incomplete Once Ball Hit Ground",
+          "biblioAuthor": "NFL.com",
+          "sourceName": "NFL.com — Referee: Dez Bryant Catch Incomplete Once Ball Hit Ground"
+        },
+        {
+          "biblioSlug": "nfl-com-roger-goodell-nfl-wrong-for-not-listening-to-protesting-players-earlier",
+          "sourceSlug": "nfl-com-roger-goodell-nfl-wrong-for-not-listening-to-protesting-players-earlier",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Roger Goodell: NFL 'Wrong' for Not Listening to Protesting Players Earlier",
+          "biblioAuthor": "NFL.com",
+          "sourceName": "NFL.com — Roger Goodell: NFL 'Wrong' for Not Listening to Protesting Players Earlier"
+        },
+        {
+          "biblioSlug": "nfl-concussion-protocol-return-to-participation-protocol-overview",
+          "sourceSlug": "nfl-concussion-protocol-return-to-participation-protocol-overview",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Concussion Protocol & Return-to-Participation Protocol: Overview",
+          "biblioAuthor": "NFL",
+          "sourceName": "NFL — Concussion Protocol & Return-to-Participation Protocol: Overview"
+        },
+        {
+          "biblioSlug": "nfl-football-operations-art-mcnally-gameday-central",
+          "sourceSlug": "nfl-football-operations-art-mcnally-gameday-central",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Art McNally GameDay Central",
+          "biblioAuthor": "NFL Football Operations",
+          "sourceName": "NFL Football Operations — Art McNally GameDay Central"
+        },
+        {
+          "biblioSlug": "nick-wagoner-from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-chan",
+          "sourceSlug": "nick-wagoner-from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-chan",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "From a Seat to a Knee: How Colin Kaepernick and Nate Boyer Are Trying to Affect Change",
+          "biblioAuthor": "Nick Wagoner",
+          "sourceName": "Nick Wagoner — From a Seat to a Knee: How Colin Kaepernick and Nate Boyer Are Trying to Affect Change"
+        },
+        {
+          "biblioSlug": "pro-football-reference-2008-new-england-patriots",
+          "sourceSlug": "pro-football-reference-2008-new-england-patriots",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "2008 New England Patriots",
+          "biblioAuthor": "Pro-Football-Reference",
+          "sourceName": "Pro-Football-Reference — 2008 New England Patriots"
+        },
+        {
+          "biblioSlug": "pro-football-reference-new-england-patriots-franchise-encyclopedia",
+          "sourceSlug": "pro-football-reference-new-england-patriots-franchise-encyclopedia",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "New England Patriots Franchise Encyclopedia",
+          "biblioAuthor": "Pro-Football-Reference",
+          "sourceName": "Pro-Football-Reference — New England Patriots Franchise Encyclopedia"
+        },
+        {
+          "biblioSlug": "pro-football-reference-super-bowl-lv-box-score",
+          "sourceSlug": "pro-football-reference-super-bowl-lv-box-score",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Super Bowl LV Box Score",
+          "biblioAuthor": "Pro-Football-Reference",
+          "sourceName": "Pro-Football-Reference — Super Bowl LV Box Score"
+        },
+        {
+          "biblioSlug": "reuters-u-s-quarterback-kaepernick-settles-grievance-case-with-nfl",
+          "sourceSlug": "reuters-u-s-quarterback-kaepernick-settles-grievance-case-with-nfl",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "U.S. Quarterback Kaepernick Settles Grievance Case with NFL",
+          "biblioAuthor": "Reuters",
+          "sourceName": "Reuters — U.S. Quarterback Kaepernick Settles Grievance Case with NFL"
+        },
+        {
+          "biblioSlug": "san-francisco-49ers-colin-kaepernick-opts-out-of-contract-becomes-a-free-agent",
+          "sourceSlug": "san-francisco-49ers-colin-kaepernick-opts-out-of-contract-becomes-a-free-agent",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Colin Kaepernick Opts Out of Contract, Becomes a Free Agent",
+          "biblioAuthor": "San Francisco 49ers",
+          "sourceName": "San Francisco 49ers — Colin Kaepernick Opts Out of Contract, Becomes a Free Agent"
+        },
+        {
+          "biblioSlug": "steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem",
+          "sourceSlug": "steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Colin Kaepernick Explains Why He Sat during National Anthem",
+          "biblioAuthor": "Steve Wyche",
+          "sourceName": "Steve Wyche — Colin Kaepernick Explains Why He Sat during National Anthem"
+        },
+        {
+          "biblioSlug": "united-states-anti-doping-agency-lance-armstrong-receives-lifetime-ban-and-disqualification-of-c",
+          "sourceSlug": "united-states-anti-doping-agency-lance-armstrong-receives-lifetime-ban-and-disqualification-of-c",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Lance Armstrong Receives Lifetime Ban and Disqualification of Competitive Results for Doping Violations Stemming from His Involvement in the United States Postal Service Pro-Cycling Team Doping Conspiracy",
+          "biblioAuthor": "United States Anti-Doping Agency",
+          "sourceName": "United States Anti-Doping Agency — Lance Armstrong Receives Lifetime Ban and Disqualification of Competitive Results for Doping Violations Stemming from His Involvement in the United States Postal Service Pro-Cycling Team Doping Conspiracy"
+        },
+        {
+          "biblioSlug": "united-states-anti-doping-agency-reasoned-decision-of-the-united-states-anti-doping-agency-on-di",
+          "sourceSlug": "united-states-anti-doping-agency-reasoned-decision-of-the-united-states-anti-doping-agency-on-di",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Reasoned Decision of the United States Anti-Doping Agency on Disqualification and Ineligibility",
+          "biblioAuthor": "United States Anti-Doping Agency",
+          "sourceName": "United States Anti-Doping Agency — Reasoned Decision of the United States Anti-Doping Agency on Disqualification and Ineligibility"
+        },
+        {
+          "biblioSlug": "united-states-supreme-court-clay-v-united-states",
+          "sourceSlug": "united-states-supreme-court-clay-v-united-states",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Clay v. United States",
+          "biblioAuthor": "United States Supreme Court",
+          "sourceName": "United States Supreme Court — Clay v. United States"
+        },
+        {
+          "biblioSlug": "weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath",
+          "sourceSlug": "weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Concussion Symptom Underreporting among Incoming NCAA Division I College Athletes",
+          "biblioAuthor": "Weber Rawlins et al",
+          "sourceName": "Weber Rawlins et al — Concussion Symptom Underreporting among Incoming NCAA Division I College Athletes"
+        },
+        {
+          "biblioSlug": "will-graves-biles-returns-to-olympic-competition-wins-bronze-on-beam",
+          "sourceSlug": "will-graves-biles-returns-to-olympic-competition-wins-bronze-on-beam",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Biles Returns to Olympic Competition, Wins Bronze on Beam",
+          "biblioAuthor": "Will Graves",
+          "sourceName": "Will Graves — Biles Returns to Olympic Competition, Wins Bronze on Beam"
+        },
+        {
+          "biblioSlug": "will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self",
+          "sourceSlug": "will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Biles Withdraws from Gymnastics Final to Protect Team, Self",
+          "biblioAuthor": "Will Graves",
+          "sourceName": "Will Graves — Biles Withdraws from Gymnastics Final to Protect Team, Self"
+        },
+        {
+          "biblioSlug": "world-athletics-iconic-mexico-city-olympic-podium-protest-turns-50",
+          "sourceSlug": "world-athletics-iconic-mexico-city-olympic-podium-protest-turns-50",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Iconic Mexico City Olympic Podium Protest Turns 50",
+          "biblioAuthor": "World Athletics",
+          "sourceName": "World Athletics — Iconic Mexico City Olympic Podium Protest Turns 50"
+        }
+      ],
+      "missing_in_semantic": [],
+      "missing_related_books": [],
+      "stale_related_books": [],
+      "thinker_stale": [],
+      "creator_missing_thinker": [],
+      "orphan_creator_slugs": [],
+      "weak_parse": false
+    },
+    {
+      "book_id": "the-world-we-make-together",
+      "bibliography": "books/the-world-we-make-together/back-matter/bibliography.md",
+      "parse_style": "pandoc_div",
+      "parse_warnings": [
+        "other styles also matched: plain_chicago=53"
+      ],
+      "biblio_count": 54,
+      "linked_count": 0,
+      "matched": [],
+      "missing_in_semantic": [
+        {
+          "biblioSlug": "abate-tom-nummi-workers-say-their-final-good-byes",
+          "biblioTitle": "Nummi workers say their final good-byes",
+          "biblioAuthor": "Tom Abate",
+          "summary": "Abate, Tom. \"Nummi workers say their final good-byes.\" *San Francisco Chronicle*, April 2, 2010. https://www.sfgate.com/bayarea/article/Nummi-workers-say-their-final-good-byes-3194045.php."
+        },
+        {
+          "biblioSlug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
+          "biblioTitle": "The 'Learning Bureaucracy': New United Motor Manufacturing, Inc",
+          "biblioAuthor": "Paul S Adler",
+          "summary": "Adler, Paul S. \"The 'Learning Bureaucracy': New United Motor Manufacturing, Inc.\" In *Research in Organizational Behavior*, vol. 15, edited by Barry M. Staw and L. L. Cummings, 111-94. Greenwich, CT: "
+        },
+        {
+          "biblioSlug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
+          "biblioTitle": "Black Panther Party's Free Breakfast Program (1969-1980)",
+          "biblioAuthor": "BlackPast",
+          "summary": "BlackPast. \"Black Panther Party's Free Breakfast Program (1969-1980).\" https://blackpast.org/african-american-history/black-panther-partys-free-breakfast-program-1969-1980/."
+        },
+        {
+          "biblioSlug": "bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california",
+          "biblioTitle": "G.M. and Toyota's Joint Venture Ends in California",
+          "biblioAuthor": "Nick Bunkley",
+          "summary": "Bunkley, Nick. \"G.M. and Toyota's Joint Venture Ends in California.\" *New York Times* Wheels blog, April 2, 2010. https://archive.nytimes.com/wheels.blogs.nytimes.com/2010/04/02/g-m-and-toyotas-joint-"
+        },
+        {
+          "biblioSlug": "california-african-american-museum-free-breakfast-for-school-children-program",
+          "biblioTitle": "Free Breakfast for School Children Program",
+          "biblioAuthor": "California African American Museum",
+          "summary": "California African American Museum. \"Free Breakfast for School Children Program.\" https://caamuseum.org/."
+        },
+        {
+          "biblioSlug": "carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history",
+          "biblioTitle": "On Heroes, Hero-Worship, and the Heroic in History",
+          "biblioAuthor": "Thomas Carlyle",
+          "summary": "Carlyle, Thomas. *On Heroes, Hero-Worship, and the Heroic in History*. London: James Fraser, 1841."
+        },
+        {
+          "biblioSlug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
+          "biblioTitle": "Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities",
+          "biblioAuthor": "Church Committee",
+          "summary": "Church Committee. *Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities*. United States Senate. Washington, DC: Government Printing Office, 197"
+        },
+        {
+          "biblioSlug": "electoral-commission-of-south-africa-27-apr-1994-national-election",
+          "biblioTitle": "27 Apr 1994 National Election",
+          "biblioAuthor": "Electoral Commission of South Africa",
+          "summary": "Electoral Commission of South Africa. \"27 Apr 1994 National Election\" results archive. https://www.elections.org.za/content/pages/reports/npe/selection.aspx."
+        },
+        {
+          "biblioSlug": "encyclopedia-of-arkansas-lost-year",
+          "biblioTitle": "Lost Year",
+          "biblioAuthor": "Encyclopedia of Arkansas",
+          "summary": "Encyclopedia of Arkansas. \"Lost Year.\" https://encyclopediaofarkansas.net/entries/lost-year-737/."
+        },
+        {
+          "biblioSlug": "federal-aviation-administration-mcdonnell-douglas-dc-8-61",
+          "biblioTitle": "McDonnell Douglas DC-8-61",
+          "biblioAuthor": "Federal Aviation Administration",
+          "summary": "Federal Aviation Administration. \"McDonnell Douglas DC-8-61\" (N8082U / United Airlines Flight 173). Lessons Learned from Civil Aviation Accidents. https://www.faa.gov/lessons_learned/transport_airplan"
+        },
+        {
+          "biblioSlug": "feynman-richard-p-personal-observations-on-the-reliability-of-the-shuttle",
+          "biblioTitle": "Personal Observations on the Reliability of the Shuttle",
+          "biblioAuthor": "Richard P Feynman",
+          "summary": "Feynman, Richard P. \"Personal Observations on the Reliability of the Shuttle.\" Appendix F in *Report of the Presidential Commission on the Space Shuttle Challenger Accident*, vol. 2. Washington, DC, 1"
+        },
+        {
+          "biblioSlug": "fine-sidney-sit-down-the-general-motors-strike-of-1936-1937",
+          "biblioTitle": "Sit-Down: The General Motors Strike of 1936-1937",
+          "biblioAuthor": "Sidney Fine",
+          "summary": "Fine, Sidney. *Sit-Down: The General Motors Strike of 1936-1937*. Ann Arbor: University of Michigan Press, 1969."
+        },
+        {
+          "biblioSlug": "follett-mary-parker-creative-experience",
+          "biblioTitle": "Creative Experience",
+          "biblioAuthor": "Mary Parker Follett",
+          "summary": "Follett, Mary Parker. *Creative Experience*. New York: Longmans, Green, 1924."
+        },
+        {
+          "biblioSlug": "follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett",
+          "biblioTitle": "Dynamic Administration: The Collected Papers of Mary Parker Follett",
+          "biblioAuthor": "Mary Parker Follett",
+          "summary": "Follett, Mary Parker. *Dynamic Administration: The Collected Papers of Mary Parker Follett*. Edited by Henry C. Metcalf and L. Urwick. New York: Harper & Brothers, 1942."
+        },
+        {
+          "biblioSlug": "founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783",
+          "biblioTitle": "From George Washington to Officers of the Army, 15 March 1783",
+          "biblioAuthor": "National Archives Founders Online",
+          "summary": "Founders Online, National Archives. \"From George Washington to Officers of the Army, 15 March 1783.\" https://founders.archives.gov/documents/Washington/99-01-02-10840."
+        },
+        {
+          "biblioSlug": "harvard-university-pluralism-project-langar-the-communal-meal",
+          "biblioTitle": "Langar: The Communal Meal",
+          "biblioAuthor": "Harvard University Pluralism Project",
+          "summary": "Harvard University Pluralism Project. \"Langar: The Communal Meal.\" https://pluralism.org/langar-the-communal-meal."
+        },
+        {
+          "biblioSlug": "lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark",
+          "biblioTitle": "Local and National Leader: Septima P. Clark",
+          "biblioAuthor": "Lowcountry Digital History Initiative",
+          "summary": "Lowcountry Digital History Initiative. \"Local and National Leader: Septima P. Clark.\" https://ldhi.library.cofc.edu/exhibits/show/septima_clark/local-and-national-leader."
+        },
+        {
+          "biblioSlug": "lowcountry-digital-history-initiative-the-progressive-club-johns-island",
+          "biblioTitle": "The Progressive Club, Johns Island",
+          "biblioAuthor": "Lowcountry Digital History Initiative",
+          "summary": "Lowcountry Digital History Initiative. \"The Progressive Club, Johns Island.\" https://ldhi.library.cofc.edu/exhibits/show/septima_clark/virtual-tour/the-progressive-club."
+        },
+        {
+          "biblioSlug": "martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream",
+          "biblioTitle": "I Have a Dream",
+          "biblioAuthor": "Martin Luther King, Jr. Research and Education Institute, Stanford University",
+          "summary": "Martin Luther King, Jr. Research and Education Institute, Stanford University. \"I Have a Dream.\" https://kinginstitute.stanford.edu/i-have-dream."
+        },
+        {
+          "biblioSlug": "mcgregor-douglas-the-human-side-of-enterprise",
+          "biblioTitle": "The Human Side of Enterprise",
+          "biblioAuthor": "Douglas McGregor",
+          "summary": "McGregor, Douglas. *The Human Side of Enterprise*. New York: McGraw-Hill, 1960."
+        },
+        {
+          "biblioSlug": "mill-john-stuart-considerations-on-representative-government",
+          "biblioTitle": "Considerations on Representative Government",
+          "biblioAuthor": "John Stuart Mill",
+          "summary": "Mill, John Stuart. *Considerations on Representative Government*. London: Parker, Son, and Bourn, 1861."
+        },
+        {
+          "biblioSlug": "mount-vernon-newburgh-address",
+          "biblioTitle": "Newburgh Address",
+          "biblioAuthor": "Mount Vernon",
+          "summary": "Mount Vernon. \"Newburgh Address.\" https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/newburgh-address."
+        },
+        {
+          "biblioSlug": "mount-vernon-newburgh-conspiracy",
+          "biblioTitle": "Newburgh Conspiracy",
+          "biblioAuthor": "Mount Vernon",
+          "summary": "Mount Vernon. \"Newburgh Conspiracy.\" https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/newburgh-conspiracy."
+        },
+        {
+          "biblioSlug": "national-aeronautics-and-space-administration-apollo-11-mission-report",
+          "biblioTitle": "Apollo 11 Mission Report",
+          "biblioAuthor": "National Aeronautics and Space Administration",
+          "summary": "National Aeronautics and Space Administration. *Apollo 11 Mission Report*. NASA SP-238. Washington, DC: NASA, 1971."
+        },
+        {
+          "biblioSlug": "national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era",
+          "biblioTitle": "Managing NASA in the Apollo Era",
+          "biblioAuthor": "National Aeronautics and Space Administration",
+          "summary": "National Aeronautics and Space Administration. *Managing NASA in the Apollo Era*. NASA SP-4102. Washington, DC: NASA, 1982."
+        },
+        {
+          "biblioSlug": "national-museum-of-american-history-i-have-a-dream",
+          "biblioTitle": "I Have a Dream",
+          "biblioAuthor": "National Museum of American History",
+          "summary": "National Museum of American History. \"I Have a Dream\" / March on Washington collection. Washington, DC: Smithsonian Institution. https://americanhistory.si.edu/."
+        },
+        {
+          "biblioSlug": "national-park-service-march-history",
+          "biblioTitle": "March History",
+          "biblioAuthor": "National Park Service",
+          "summary": "National Park Service. \"March History.\" National Mall and Memorial Parks. https://www.nps.gov/nama/mow-history.htm."
+        },
+        {
+          "biblioSlug": "national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug",
+          "biblioTitle": "Aircraft Accident Report: United Airlines, Inc., McDonnell-Douglas DC-8-61, N8082U, Portland, Oregon, December 28, 1978",
+          "biblioAuthor": "National Transportation Safety Board",
+          "summary": "National Transportation Safety Board. *Aircraft Accident Report: United Airlines, Inc., McDonnell-Douglas DC-8-61, N8082U, Portland, Oregon, December 28, 1978*. NTSB-AAR-79-7. Washington, DC: NTSB, 19"
+        },
+        {
+          "biblioSlug": "northern-ireland-department-of-justice-department-of-justice-interface-programme",
+          "biblioTitle": "Department of Justice Interface Programme",
+          "biblioAuthor": "Northern Ireland Department of Justice",
+          "summary": "Northern Ireland Department of Justice. \"Department of Justice Interface Programme.\" https://www.justice-ni.gov.uk/articles/department-justice-interface-programme."
+        },
+        {
+          "biblioSlug": "payne-charles-m-i-ve-got-the-light-of-freedom-the-organizing-tradition-and-the-mississippi-freed",
+          "biblioTitle": "I've Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle",
+          "biblioAuthor": "Charles M Payne",
+          "summary": "Payne, Charles M. *I've Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle*. Berkeley: University of California Press, 1995."
+        },
+        {
+          "biblioSlug": "pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory",
+          "biblioTitle": "A Meta-Analytic Test of Intergroup Contact Theory",
+          "biblioAuthor": "Pettigrew, Thomas F., and Linda R. Tropp",
+          "summary": "Pettigrew, Thomas F., and Linda R. Tropp. \"A Meta-Analytic Test of Intergroup Contact Theory.\" *Journal of Personality and Social Psychology* 90, no. 5 (2006): 751-83."
+        },
+        {
+          "biblioSlug": "reynolds-v-sims-377-u-s-533-1964",
+          "biblioTitle": "",
+          "biblioAuthor": "377 U.S. 533 (1964) *Reynolds v. Sims*",
+          "summary": "*Reynolds v. Sims*, 377 U.S. 533 (1964)."
+        },
+        {
+          "biblioSlug": "sncc-digital-gateway-birth-of-sncc",
+          "biblioTitle": "Birth of SNCC",
+          "biblioAuthor": "SNCC Digital Gateway",
+          "summary": "SNCC Digital Gateway. \"Birth of SNCC\" / founding conference materials. https://snccdigital.org/."
+        },
+        {
+          "biblioSlug": "south-african-history-online-denis-farrell",
+          "biblioTitle": "Denis Farrell",
+          "biblioAuthor": "South African History Online",
+          "summary": "South African History Online. \"Denis Farrell.\" https://www.sahistory.org.za/people/denis-farrell."
+        },
+        {
+          "biblioSlug": "south-african-history-online-election-results-1994",
+          "biblioTitle": "Election Results 1994",
+          "biblioAuthor": "South African History Online",
+          "summary": "South African History Online. \"Election Results 1994.\" https://www.sahistory.org.za/archive/election-results-1994."
+        },
+        {
+          "biblioSlug": "south-african-history-online-the-south-african-general-elections-1994",
+          "biblioTitle": "The South African general elections: 1994",
+          "biblioAuthor": "South African History Online",
+          "summary": "South African History Online. \"The South African general elections: 1994.\" https://www.sahistory.org.za/article/south-african-general-elections-1994."
+        },
+        {
+          "biblioSlug": "u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs",
+          "biblioTitle": "School Breakfast Program FAQs",
+          "biblioAuthor": "U.S. Department of Agriculture, Food and Nutrition Service",
+          "summary": "U.S. Department of Agriculture, Food and Nutrition Service. \"School Breakfast Program FAQs.\" https://www.fns.usda.gov/sbp/faqs."
+        },
+        {
+          "biblioSlug": "u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie",
+          "biblioTitle": "Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges",
+          "biblioAuthor": "U.S. Government Accountability Office",
+          "summary": "U.S. Government Accountability Office. *Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges*. GAO/AIMD-00-290. Washington, DC: GAO, September 2000. https://www"
+        },
+        {
+          "biblioSlug": "united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894",
+          "biblioTitle": "Report on the Chicago Strike of June-July, 1894",
+          "biblioAuthor": "United States Strike Commission",
+          "summary": "United States Strike Commission. *Report on the Chicago Strike of June-July, 1894*. Washington, DC: Government Printing Office, 1895."
+        },
+        {
+          "biblioSlug": "world-bank-brazil-toward-a-more-inclusive-and-effective-participatory-budget-in-porto-alegre",
+          "biblioTitle": "Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre",
+          "biblioAuthor": "World Bank",
+          "summary": "World Bank. *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre*. Report No. 40144-BR. Vol. 1, Main Report. Washington, DC: World Bank, January 29, 2008. https://docume"
+        }
+      ],
+      "missing_related_books": [
+        {
+          "biblioSlug": "ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action",
+          "sourceSlug": "ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Governing the Commons: The Evolution of Institutions for Collective Action",
+          "biblioAuthor": "Elinor Ostrom",
+          "sourceName": "Elinor Ostrom — Governing the Commons: The Evolution of Institutions for Collective Action",
+          "sourceRelatedBooks": [
+            "coupling",
+            "how-trust-forms",
+            "living-in-sediment",
+            "trust-beyond-similarity",
+            "when-trust-stops-tracking-reality",
+            "why-collaboration-is-so-hard"
+          ]
+        },
+        {
+          "biblioSlug": "ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision",
+          "sourceSlug": "ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Ella Baker and the Black Freedom Movement: A Radical Democratic Vision",
+          "biblioAuthor": "Barbara Ransby",
+          "sourceName": "Barbara Ransby — Ella Baker and the Black Freedom Movement: A Radical Democratic Vision — Ella Baker and the Black Freedom Movement: A Radical Democratic Vision",
+          "sourceRelatedBooks": [
+            "when-others-become-leaders"
+          ]
+        },
+        {
+          "biblioSlug": "national-park-service-march-on-washington-for-jobs-and-freedom",
+          "sourceSlug": "national-archives-u-s-official-demands-march-on-washington-for-jobs-and-freedom-1963",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "March on Washington for Jobs and Freedom",
+          "biblioAuthor": "National Park Service",
+          "sourceName": "National Archives (U.S.) — Official demands, March on Washington for Jobs and Freedom",
+          "sourceRelatedBooks": [
+            "when-others-become-leaders"
+          ]
+        },
+        {
+          "biblioSlug": "presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the",
+          "sourceSlug": "president-s-commission-on-the-space-shuttle-challenger-accident-report-of-the-presidential-commi",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+          "biblioAuthor": "Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission)",
+          "sourceName": "President's Commission on the Space Shuttle Challenger Accident — Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+          "sourceRelatedBooks": [
+            "what-we-cannot-see"
+          ]
+        },
+        {
+          "biblioSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care",
+          "sourceSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Moral Boundaries: A Political Argument for an Ethic of Care",
+          "biblioAuthor": "Joan C Tronto",
+          "sourceName": "Joan C Tronto — Moral Boundaries: A Political Argument for an Ethic of",
+          "sourceRelatedBooks": [
+            "after-certainty"
+          ]
+        },
+        {
+          "biblioSlug": "belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr",
+          "sourceSlug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "*Belfast Agreement* (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement",
+          "sourceName": "Congressional Record — 111th Congress debate on Affordable Care Act and public-option provisions",
+          "sourceRelatedBooks": [
+            "when-incentives-become-the-moral-language"
+          ]
+        },
+        {
+          "biblioSlug": "brown-v-board-of-education-347-u-s-483-1954",
+          "sourceSlug": "board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "347 U.S. 483 (1954) *Brown v. Board of Education*",
+          "sourceName": "Board of Governors of the Federal Reserve System — Beige Book: Summary of Commentary on Current Economic Conditions by Federal Reserve District — Beige Book: Summary of Commentary on Current Economic Conditions by Federal Reserve District",
+          "sourceRelatedBooks": [
+            "the-economy-we-dont-experience"
+          ]
+        },
+        {
+          "biblioSlug": "constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution",
+          "sourceSlug": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution)",
+          "sourceName": "Desai, Ashwin, and Goolam Vahed — The South African Gandhi: Stretcher-Bearer of Empire — The South African Gandhi: Stretcher-Bearer of Empire",
+          "sourceRelatedBooks": [
+            "when-others-become-leaders"
+          ]
+        },
+        {
+          "biblioSlug": "eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction",
+          "sourceSlug": "agamben-giorgio-state-of-exception",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "Eisenhower, Dwight D. Executive Order 10730, \"Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas.\" 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730",
+          "sourceName": "Giorgio Agamben — State of Exception",
+          "sourceRelatedBooks": [
+            "when-others-look-to-you-v1",
+            "when-others-look-to-you-v2"
+          ]
+        },
+        {
+          "biblioSlug": "national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p",
+          "sourceSlug": "albertz-rainer-israel-in-exile-the-history-and-literature-of-the",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/",
+          "sourceName": "Rainer Albertz — Israel in Exile: The History and Literature of the — Israel in Exile: The History and Literature of the",
+          "sourceRelatedBooks": [
+            "before-certainty-arrives"
+          ]
+        },
+        {
+          "biblioSlug": "national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c",
+          "sourceSlug": "carlin-john-playing-the-enemy-nelson-mandela-and-the-game-that-made-a-nation",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/",
+          "sourceName": "John Carlin — Playing the Enemy: Nelson Mandela and the Game That Made a Nation — Playing the Enemy: Nelson Mandela and the Game That Made a Nation",
+          "sourceRelatedBooks": [
+            "when-others-become-leaders"
+          ]
+        },
+        {
+          "biblioSlug": "national-park-service-pullman-national-historical-park-https-www-nps-gov-pull",
+          "sourceSlug": "cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/",
+          "sourceName": "CNN Politics — Trump: NFL Owners Should Fire Players Who Protest the National Anthem",
+          "sourceRelatedBooks": [
+            "the-game-we-think-we-saw"
+          ]
+        },
+        {
+          "biblioSlug": "northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen",
+          "sourceSlug": "board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement",
+          "sourceName": "Board of Governors of the Federal Reserve System — Supervisory bank stress-test results and related supervisory materials. Washington, DC: Federal Reserve Board, 2011-2024 — Supervisory bank stress-test results and related supervisory materials. Washington, DC: Federal Reserve Board, 2011-2024",
+          "sourceRelatedBooks": [
+            "the-economy-we-dont-experience"
+          ]
+        },
+        {
+          "biblioSlug": "sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f",
+          "sourceSlug": "arrington-leonard-j-great-basin-kingdom",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "especially the commons\"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom (\"for her analysis of economic governance",
+          "sourceName": "Leonard J. Arrington — Great Basin Kingdom: An Economic History of the Latter-day Saints, 1830–1900",
+          "sourceRelatedBooks": [
+            "learning-to-see"
+          ]
+        }
+      ],
+      "stale_related_books": [],
+      "thinker_stale": [],
+      "creator_missing_thinker": [
+        {
+          "creatorSlug": "347-u-s-483-1954-brown-v-board-of-education",
+          "creatorName": "347 U.S. 483 (1954) *Brown v. Board of Education*"
+        },
+        {
+          "creatorSlug": "377-u-s-533-1964-reynolds-v-sims",
+          "creatorName": "377 U.S. 533 (1964) *Reynolds v. Sims*"
+        },
+        {
+          "creatorSlug": "belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-april-1998-london-uk-government-https-www-gov-uk-government-publications-the-belfast-agreement",
+          "creatorName": "*Belfast Agreement* (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement"
+        },
+        {
+          "creatorSlug": "blackpast",
+          "creatorName": "BlackPast"
+        },
+        {
+          "creatorSlug": "california-african-american-museum",
+          "creatorName": "California African American Museum"
+        },
+        {
+          "creatorSlug": "charles-m-payne",
+          "creatorName": "Charles M Payne"
+        },
+        {
+          "creatorSlug": "church-committee",
+          "creatorName": "Church Committee"
+        },
+        {
+          "creatorSlug": "constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution",
+          "creatorName": "Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution)"
+        },
+        {
+          "creatorSlug": "douglas-mcgregor",
+          "creatorName": "Douglas McGregor"
+        },
+        {
+          "creatorSlug": "eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction-of-justice-within-the-state-of-arkansas-24-september-1957-national-archives-https-www-archives-gov-milestone-documents-executive-order-10730",
+          "creatorName": "Eisenhower, Dwight D. Executive Order 10730, \"Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas.\" 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730"
+        },
+        {
+          "creatorSlug": "electoral-commission-of-south-africa",
+          "creatorName": "Electoral Commission of South Africa"
+        },
+        {
+          "creatorSlug": "encyclopedia-of-arkansas",
+          "creatorName": "Encyclopedia of Arkansas"
+        },
+        {
+          "creatorSlug": "especially-the-commons-https-www-nobelprize-org-prizes-economic-sciences-2009-summary-sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-for-elinor-ostrom-for-her-analysis-of-economic-governance",
+          "creatorName": "especially the commons\"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom (\"for her analysis of economic governance"
+        },
+        {
+          "creatorSlug": "federal-aviation-administration",
+          "creatorName": "Federal Aviation Administration"
+        },
+        {
+          "creatorSlug": "harvard-university-pluralism-project",
+          "creatorName": "Harvard University Pluralism Project"
+        },
+        {
+          "creatorSlug": "john-stuart-mill",
+          "creatorName": "John Stuart Mill"
+        },
+        {
+          "creatorSlug": "lowcountry-digital-history-initiative",
+          "creatorName": "Lowcountry Digital History Initiative"
+        },
+        {
+          "creatorSlug": "martin-luther-king-jr-research-and-education-institute-stanford-university",
+          "creatorName": "Martin Luther King, Jr. Research and Education Institute, Stanford University"
+        },
+        {
+          "creatorSlug": "mary-parker-follett",
+          "creatorName": "Mary Parker Follett"
+        },
+        {
+          "creatorSlug": "mount-vernon",
+          "creatorName": "Mount Vernon"
+        },
+        {
+          "creatorSlug": "national-aeronautics-and-space-administration",
+          "creatorName": "National Aeronautics and Space Administration"
+        },
+        {
+          "creatorSlug": "national-archives-founders-online",
+          "creatorName": "National Archives Founders Online"
+        },
+        {
+          "creatorSlug": "national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-programs-washington-dc-smithsonian-institution-https-nmaahc-si-edu",
+          "creatorName": "National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/"
+        },
+        {
+          "creatorSlug": "national-museum-of-american-history",
+          "creatorName": "National Museum of American History"
+        },
+        {
+          "creatorSlug": "national-park-service",
+          "creatorName": "National Park Service"
+        },
+        {
+          "creatorSlug": "national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-chsc",
+          "creatorName": "National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/"
+        },
+        {
+          "creatorSlug": "national-park-service-pullman-national-historical-park-https-www-nps-gov-pull",
+          "creatorName": "National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/"
+        },
+        {
+          "creatorSlug": "national-transportation-safety-board",
+          "creatorName": "National Transportation Safety Board"
+        },
+        {
+          "creatorSlug": "nick-bunkley",
+          "creatorName": "Nick Bunkley"
+        },
+        {
+          "creatorSlug": "northern-ireland-department-of-justice",
+          "creatorName": "Northern Ireland Department of Justice"
+        },
+        {
+          "creatorSlug": "northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referendum-on-the-belfast-agreement",
+          "creatorName": "Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement"
+        },
+        {
+          "creatorSlug": "paul-s-adler",
+          "creatorName": "Paul S Adler"
+        },
+        {
+          "creatorSlug": "pettigrew-thomas-f-and-linda-r-tropp",
+          "creatorName": "Pettigrew, Thomas F., and Linda R. Tropp"
+        },
+        {
+          "creatorSlug": "presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission",
+          "creatorName": "Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission)"
+        },
+        {
+          "creatorSlug": "richard-p-feynman",
+          "creatorName": "Richard P Feynman"
+        },
+        {
+          "creatorSlug": "sidney-fine",
+          "creatorName": "Sidney Fine"
+        },
+        {
+          "creatorSlug": "sncc-digital-gateway",
+          "creatorName": "SNCC Digital Gateway"
+        },
+        {
+          "creatorSlug": "thomas-carlyle",
+          "creatorName": "Thomas Carlyle"
+        },
+        {
+          "creatorSlug": "tom-abate",
+          "creatorName": "Tom Abate"
+        },
+        {
+          "creatorSlug": "u-s-department-of-agriculture-food-and-nutrition-service",
+          "creatorName": "U.S. Department of Agriculture, Food and Nutrition Service"
+        },
+        {
+          "creatorSlug": "u-s-government-accountability-office",
+          "creatorName": "U.S. Government Accountability Office"
+        },
+        {
+          "creatorSlug": "united-states-strike-commission",
+          "creatorName": "United States Strike Commission"
+        }
+      ],
+      "orphan_creator_slugs": [],
+      "weak_parse": false
+    },
+    {
       "book_id": "trust-beyond-similarity",
       "bibliography": "books/trust-beyond-similarity/back-matter/bibliography.md",
       "parse_style": "list",
@@ -5463,36 +6731,9 @@
       "parse_warnings": [
         "other styles also matched: plain_chicago=1"
       ],
-      "biblio_count": 54,
+      "biblio_count": 38,
       "linked_count": 54,
       "matched": [
-        {
-          "biblioSlug": "arendt-hannah-the-origins-of-totalitarianism",
-          "sourceSlug": "arendt-hannah-the-origins-of-totalitarianism",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Origins of Totalitarianism",
-          "biblioAuthor": "Hannah Arendt",
-          "sourceName": "Hannah Arendt — The Origins of Totalitarianism"
-        },
-        {
-          "biblioSlug": "barker-eileen-the-making-of-a-moonie-choice-or-brainwashing",
-          "sourceSlug": "barker-eileen-the-making-of-a-moonie-choice-or-brainwashing",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Making of a Moonie: Choice or Brainwashing?",
-          "biblioAuthor": "Eileen Barker",
-          "sourceName": "Eileen Barker — The Making of a Moonie: Choice or Brainwashing?"
-        },
-        {
-          "biblioSlug": "berlin-isaiah-the-hedgehog-and-the-fox",
-          "sourceSlug": "berlin-isaiah-the-hedgehog-and-the-fox",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Hedgehog and the Fox",
-          "biblioAuthor": "Isaiah Berlin",
-          "sourceName": "Isaiah Berlin — The Hedgehog and the Fox."
-        },
         {
           "biblioSlug": "brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio",
           "sourceSlug": "brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio",
@@ -5530,15 +6771,6 @@
           "sourceName": "David P Chandler — Voices from S-21: Terror and History in Pol Pot’s Secret Prison"
         },
         {
-          "biblioSlug": "chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific",
-          "sourceSlug": "chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Advent of Sun Myung Moon: The Origins, Beliefs, and Practices of the Unification Church",
-          "biblioAuthor": "George D Chryssides",
-          "sourceName": "George D Chryssides — The Advent of Sun Myung Moon: The Origins, Beliefs, and Practices of the Unification Church"
-        },
-        {
           "biblioSlug": "corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy",
           "sourceSlug": "corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy",
           "score": 100,
@@ -5557,15 +6789,6 @@
           "sourceName": "Frank Dikötter — The Cultural Revolution: A People’s History, 1962–1976"
         },
         {
-          "biblioSlug": "ellul-jacques-propaganda-the-formation-of-men-s-attitudes",
-          "sourceSlug": "ellul-jacques-propaganda-the-formation-of-men-s-attitudes",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Propaganda: The Formation of Men's Attitudes",
-          "biblioAuthor": "Jacques Ellul",
-          "sourceName": "Jacques Ellul — Propaganda: The Formation of Men’s Attitudes"
-        },
-        {
           "biblioSlug": "escud-carlos-argentine-political-culture",
           "sourceSlug": "escud-carlos-argentine-political-culture",
           "score": 100,
@@ -5573,15 +6796,6 @@
           "biblioTitle": "Argentine Political Culture",
           "biblioAuthor": "Carlos Escudé",
           "sourceName": "Carlos Escudé — Argentine Political Culture"
-        },
-        {
-          "biblioSlug": "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails",
-          "sourceSlug": "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "When Prophecy Fails",
-          "biblioAuthor": "Festinger, Leon, Henry W. Riecken, and Stanley Schachter",
-          "sourceName": "Henry W. Riecken, Leon Festinger, and Stanley Schachter — When Prophecy Fails"
         },
         {
           "biblioSlug": "figes-orlando-the-whisperers-private-life-in-stalin-s-russia",
@@ -5602,60 +6816,6 @@
           "sourceName": "Sheila Fitzpatrick — Everyday Stalinism: Ordinary Life in Extraordinary Times"
         },
         {
-          "biblioSlug": "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
-          "sourceSlug": "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Discipline and Punish: The Birth of the Prison",
-          "biblioAuthor": "Michel Foucault",
-          "sourceName": "Michel Foucault — Discipline and Punish: The Birth of the Prison"
-        },
-        {
-          "biblioSlug": "foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977",
-          "sourceSlug": "foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Power/Knowledge: Selected Interviews and Other Writings, 1972-1977",
-          "biblioAuthor": "Michel Foucault",
-          "sourceName": "Michel Foucault — Power/Knowledge: Selected Interviews and Other Writings, 1972–1977"
-        },
-        {
-          "biblioSlug": "foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76",
-          "sourceSlug": "foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "\"Society Must Be Defended\": Lectures at the Collège de France, 1975-76",
-          "biblioAuthor": "Michel Foucault",
-          "sourceName": "Michel Foucault — \"Society Must Be Defended\": Lectures at the Collège de France, 1975–76"
-        },
-        {
-          "biblioSlug": "givens-terryl-l-by-the-hand-of-mormon",
-          "sourceSlug": "givens-terryl-l-by-the-hand-of-mormon",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "By the Hand of Mormon",
-          "biblioAuthor": "Terryl L Givens",
-          "sourceName": "Terryl L Givens — By the Hand of Mormon"
-        },
-        {
-          "biblioSlug": "goffman-erving-the-presentation-of-self-in-everyday-life",
-          "sourceSlug": "goffman-erving-the-presentation-of-self-in-everyday-life",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Presentation of Self in Everyday Life",
-          "biblioAuthor": "Erving Goffman",
-          "sourceName": "Erving Goffman — The Presentation of Self in Everyday Life"
-        },
-        {
-          "biblioSlug": "gott-richard-hugo-ch-vez-and-the-bolivarian-revolution",
-          "sourceSlug": "gott-richard-hugo-ch-vez-and-the-bolivarian-revolution",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Hugo Chávez and the Bolivarian Revolution",
-          "biblioAuthor": "Richard Gott",
-          "sourceName": "Richard Gott — Hugo Chávez and the Bolivarian Revolution"
-        },
-        {
           "biblioSlug": "haberman-maggie-confidence-man-the-making-of-donald-trump-and-the-breaking-of-america",
           "sourceSlug": "haberman-maggie-confidence-man-the-making-of-donald-trump-and-the-breaking-of-america",
           "score": 100,
@@ -5663,15 +6823,6 @@
           "biblioTitle": "Confidence Man: The Making of Donald Trump and the Breaking of America",
           "biblioAuthor": "Maggie Haberman",
           "sourceName": "Maggie Haberman — Confidence Man: The Making of Donald Trump and the Breaking of America"
-        },
-        {
-          "biblioSlug": "habermas-j-rgen-the-theory-of-communicative-action",
-          "sourceSlug": "habermas-j-rgen-the-theory-of-communicative-action",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Theory of Communicative Action",
-          "biblioAuthor": "Jürgen Habermas",
-          "sourceName": "Jürgen Habermas — The Theory of Communicative Action"
         },
         {
           "biblioSlug": "hawkins-kirk-a-venezuela-s-chavismo-and-populism-in-comparative-perspective",
@@ -5728,15 +6879,6 @@
           "sourceName": "Stephen Kotkin — Stalin: Paradoxes of Power, 1878–1928"
         },
         {
-          "biblioSlug": "kuhn-thomas-s-the-structure-of-scientific-revolutions",
-          "sourceSlug": "kuhn-thomas-s-the-structure-of-scientific-revolutions",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Structure of Scientific Revolutions",
-          "biblioAuthor": "Thomas S Kuhn",
-          "sourceName": "Thomas S Kuhn — The Structure of Scientific Revolutions"
-        },
-        {
           "biblioSlug": "kuran-timur-private-truths-public-lies-the-social-consequences-of-preference-falsification",
           "sourceSlug": "kuran-timur-private-truths-public-lies-the-social-consequences-of-preference-falsification",
           "score": 100,
@@ -5764,15 +6906,6 @@
           "sourceName": "Michael Schoenhals and Roderick MacFarquhar — Mao’s Last Revolution"
         },
         {
-          "biblioSlug": "mouffe-chantal-the-democratic-paradox",
-          "sourceSlug": "mouffe-chantal-the-democratic-paradox",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Democratic Paradox",
-          "biblioAuthor": "Chantal Mouffe",
-          "sourceName": "Chantal Mouffe — The Democratic Paradox"
-        },
-        {
           "biblioSlug": "page-joseph-a-per-n-a-biography",
           "sourceSlug": "page-joseph-a-per-n-a-biography",
           "score": 100,
@@ -5780,33 +6913,6 @@
           "biblioTitle": "Perón: A Biography",
           "biblioAuthor": "Joseph A Page",
           "sourceName": "Joseph A Page — Perón: A Biography"
-        },
-        {
-          "biblioSlug": "parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth",
-          "sourceSlug": "parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Donald Trump and His Assault on Truth",
-          "biblioAuthor": "Parker, Ashley, and Michael Scherer",
-          "sourceName": "Ashley Parker and Michael Scherer — Donald Trump and His Assault on Truth."
-        },
-        {
-          "biblioSlug": "popper-karl-the-open-society-and-its-enemies",
-          "sourceSlug": "popper-karl-the-open-society-and-its-enemies",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Open Society and Its Enemies",
-          "biblioAuthor": "Karl Popper",
-          "sourceName": "Karl Popper — The Open Society and Its Enemies"
-        },
-        {
-          "biblioSlug": "postman-neil-amusing-ourselves-to-death",
-          "sourceSlug": "postman-neil-amusing-ourselves-to-death",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Amusing Ourselves to Death",
-          "biblioAuthor": "Neil Postman",
-          "sourceName": "Neil Postman — Amusing Ourselves to Death"
         },
         {
           "biblioSlug": "reiterman-tim-raven-the-untold-story-of-the-rev-jim-jones",
@@ -5818,15 +6924,6 @@
           "sourceName": "Tim Reiterman — Raven: The Untold Story of the Rev. Jim Jones"
         },
         {
-          "biblioSlug": "schmitt-carl-the-concept-of-the-political",
-          "sourceSlug": "schmitt-carl-the-concept-of-the-political",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "The Concept of the Political",
-          "biblioAuthor": "Carl Schmitt",
-          "sourceName": "Carl Schmitt — The Concept of the Political"
-        },
-        {
           "biblioSlug": "shipps-jan-mormonism-the-story-of-a-new-religious-tradition",
           "sourceSlug": "shipps-jan-mormonism-the-story-of-a-new-religious-tradition",
           "score": 100,
@@ -5834,33 +6931,6 @@
           "biblioTitle": "Mormonism: The Story of a New Religious Tradition",
           "biblioAuthor": "Jan Shipps",
           "sourceName": "Jan Shipps — Mormonism: The Story of a New Religious Tradition"
-        },
-        {
-          "biblioSlug": "shklar-judith-ordinary-vices",
-          "sourceSlug": "shklar-judith-ordinary-vices",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Ordinary Vices",
-          "biblioAuthor": "Judith Shklar",
-          "sourceName": "Judith Shklar — Ordinary Vices"
-        },
-        {
-          "biblioSlug": "steffensen-kevin-how-meaning-moves",
-          "sourceSlug": "steffensen-kevin-how-meaning-moves",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "How Meaning Moves",
-          "biblioAuthor": "Kevin Steffensen",
-          "sourceName": "Kevin Steffensen — How Meaning Moves"
-        },
-        {
-          "biblioSlug": "steffensen-kevin-when-authority-is-misread",
-          "sourceSlug": "steffensen-kevin-when-authority-is-misread",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "When Authority Is Misread",
-          "biblioAuthor": "Kevin Steffensen",
-          "sourceName": "Kevin Steffensen — When Authority Is Misread"
         },
         {
           "biblioSlug": "tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer",
@@ -5872,24 +6942,6 @@
           "sourceName": "Eugene V. Gallagher and James D. Tabor — Why Waco? Cults and the Battle for Religious Freedom in America"
         },
         {
-          "biblioSlug": "the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price",
-          "sourceSlug": "the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Pearl of Great Price",
-          "biblioAuthor": "The Church of Jesus Christ of Latter-day Saints",
-          "sourceName": "The Church of Jesus Christ of Latter-day Saints — Pearl of Great Price"
-        },
-        {
-          "biblioSlug": "woodward-bob-fear-trump-in-the-white-house",
-          "sourceSlug": "woodward-bob-fear-trump-in-the-white-house",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Fear: Trump in the White House",
-          "biblioAuthor": "Bob Woodward",
-          "sourceName": "Bob Woodward — Fear: Trump in the White House"
-        },
-        {
           "biblioSlug": "wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict",
           "sourceSlug": "wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict",
           "score": 100,
@@ -5897,24 +6949,6 @@
           "biblioTitle": "Armageddon in Waco: Critical Perspectives on the Branch Davidian Conflict",
           "biblioAuthor": "Wright, Stuart A.",
           "sourceName": "Wright, Stuart A., ed — Armageddon in Waco: Critical Perspectives on the Branch Davidian Conflict"
-        },
-        {
-          "biblioSlug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality",
-          "sourceSlug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "The Social Construction of Reality",
-          "biblioAuthor": "Berger, Peter L., and Thomas Luckmann",
-          "sourceName": "Peter L. Berger and Thomas Luckmann — The Social Construction of Reality: A Treatise in the Sociology of Knowledge"
-        },
-        {
-          "biblioSlug": "havel-v-clav-the-power-of-the-powerless",
-          "sourceSlug": "havel-vaclav-the-power-of-the-powerless",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "The Power of the Powerless",
-          "biblioAuthor": "Václav Havel",
-          "sourceName": "Václav Havel — The Power of the Powerless."
         },
         {
           "biblioSlug": "hirschman-albert-o-exit-voice-and-loyalty",
@@ -5926,41 +6960,536 @@
           "sourceName": "Albert O Hirschman — Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States"
         },
         {
-          "biblioSlug": "steffensen-kevin-when-authority-outlives-accountability",
-          "sourceSlug": "steffensen-kevin-when-authority-outlives-accountability-a-lens-for",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "When Authority Outlives Accountability",
-          "biblioAuthor": "Kevin Steffensen",
-          "sourceName": "Kevin Steffensen — When Authority Outlives Accountability: A Lens for"
+          "biblioSlug": "the-church-of-jesus-christ-of-latter-day-saints-the-pearl-of-great-price",
+          "sourceSlug": "the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price",
+          "score": 65,
+          "method": "title_jaccard",
+          "biblioTitle": "The Pearl of Great Price",
+          "biblioAuthor": "The Church of Jesus Christ of Latter-day Saints",
+          "sourceName": "The Church of Jesus Christ of Latter-day Saints — Pearl of Great Price"
         },
         {
-          "biblioSlug": "sunstein-cass-r-republic",
-          "sourceSlug": "sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "#Republic",
-          "biblioAuthor": "Cass R Sunstein",
-          "sourceName": "Cass R Sunstein — #Republic: Divided Democracy in the Age of Social Media"
+          "biblioSlug": "u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-c",
+          "sourceSlug": "parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "2019) U.S. House of Representatives. Articles of Impeachment against Donald John Trump. H. Res. 755. 116th Cong. (December 18",
+          "sourceName": "Ashley Parker and Michael Scherer — Donald Trump and His Assault on Truth."
         },
         {
-          "biblioSlug": "weber-max-economy-and-society",
-          "sourceSlug": "weber-max-economy-and-society-an-outline-of-interpretive-sociology",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Economy and Society",
-          "biblioAuthor": "Max Weber",
-          "sourceName": "Max Weber — Economy and Society: An Outline of Interpretive Sociology"
+          "biblioSlug": "u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-hig",
+          "sourceSlug": "woodward-bob-fear-trump-in-the-white-house",
+          "score": 58,
+          "method": "summary_overlap",
+          "biblioTitle": "",
+          "biblioAuthor": "U.S. House of Representatives. Impeaching Donald John Trump, President of the United States, for High Crimes and Misdemeanors. H. Res. 24. 117th Cong. (January 13, 2021)",
+          "sourceName": "Bob Woodward — Fear: Trump in the White House"
         }
       ],
-      "missing_in_semantic": [],
+      "missing_in_semantic": [
+        {
+          "biblioSlug": "givens-terryl-l-by-the-hand-of-mormon-the-american-scripture-that-launched-a-new-world-religion",
+          "biblioTitle": "By the Hand of Mormon: The American Scripture That Launched a New World Religion",
+          "biblioAuthor": "Terryl L Givens",
+          "summary": "Givens, Terryl L. *By the Hand of Mormon: The American Scripture That Launched a New World Religion*. New York: Oxford University Press, 2002."
+        },
+        {
+          "biblioSlug": "jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41",
+          "biblioTitle": "Last Trump Job Approval 34%; Average Is Record-Low 41%",
+          "biblioAuthor": "Jeffrey M Jones",
+          "summary": "Jones, Jeffrey M. \"Last Trump Job Approval 34%; Average Is Record-Low 41%.\" Gallup, January 18, 2021."
+        },
+        {
+          "biblioSlug": "jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents",
+          "biblioTitle": "Trump Approval More Stable Than Approval for Prior Presidents",
+          "biblioAuthor": "Jeffrey M Jones",
+          "summary": "Jones, Jeffrey M. \"Trump Approval More Stable Than Approval for Prior Presidents.\" Gallup, January 18, 2019."
+        },
+        {
+          "biblioSlug": "jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization",
+          "biblioTitle": "Trump Job Approval Sets New Record for Polarization",
+          "biblioAuthor": "Jeffrey M Jones",
+          "summary": "Jones, Jeffrey M. \"Trump Job Approval Sets New Record for Polarization.\" Gallup, January 18, 2019."
+        },
+        {
+          "biblioSlug": "kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi",
+          "biblioTitle": "President Trump Has Made More Than 20,000 False or Misleading Claims",
+          "biblioAuthor": "Kessler, Glenn, Salvador Rizzo, and Meg Kelly",
+          "summary": "Kessler, Glenn, Salvador Rizzo, and Meg Kelly. \"President Trump Has Made More Than 20,000 False or Misleading Claims.\" *Washington Post*, July 13, 2020."
+        },
+        {
+          "biblioSlug": "pew-research-center-a-look-back-at-americans-reactions-to-the-jan-6-riot-at-the-u-s-capitol",
+          "biblioTitle": "A Look Back at Americans' Reactions to the Jan. 6 Riot at the U.S. Capitol",
+          "biblioAuthor": "Pew Research Center",
+          "summary": "Pew Research Center. \"A Look Back at Americans' Reactions to the Jan. 6 Riot at the U.S. Capitol.\" January 4, 2022."
+        },
+        {
+          "biblioSlug": "pew-research-center-large-majority-of-the-public-views-prosecution-of-capitol-rioters-as-very-im",
+          "biblioTitle": "Large Majority of the Public Views Prosecution of Capitol Rioters as 'Very Important.'",
+          "biblioAuthor": "Pew Research Center",
+          "summary": "Pew Research Center. \"Large Majority of the Public Views Prosecution of Capitol Rioters as 'Very Important.'\" March 18, 2021."
+        },
+        {
+          "biblioSlug": "pew-research-center-views-on-the-rioting-at-the-u-s-capitol",
+          "biblioTitle": "Views on the Rioting at the U.S. Capitol",
+          "biblioAuthor": "Pew Research Center",
+          "summary": "Pew Research Center. \"Views on the Rioting at the U.S. Capitol.\" January 15, 2021."
+        },
+        {
+          "biblioSlug": "solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation",
+          "biblioTitle": "The Gulag Archipelago, 1918-1956: An Experiment in Literary Investigation",
+          "biblioAuthor": "Aleksandr I Solzhenitsyn",
+          "summary": "Solzhenitsyn, Aleksandr I. *The Gulag Archipelago, 1918-1956: An Experiment in Literary Investigation*. Vol. 1. Translated by Thomas P. Whitney. New York: Harper & Row, 1973."
+        },
+        {
+          "biblioSlug": "ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers",
+          "biblioTitle": "First They Killed My Father: A Daughter of Cambodia Remembers",
+          "biblioAuthor": "Loung Ung",
+          "summary": "Ung, Loung. *First They Killed My Father: A Daughter of Cambodia Remembers*. New York: HarperCollins, 2000."
+        }
+      ],
       "missing_related_books": [],
-      "stale_related_books": [],
-      "thinker_stale": [],
+      "stale_related_books": [
+        {
+          "sourceSlug": "arendt-hannah-the-origins-of-totalitarianism",
+          "sourceName": "Hannah Arendt — The Origins of Totalitarianism",
+          "title": "The Origins of Totalitarianism",
+          "path": "semantic/sources/arendt-hannah-the-origins-of-totalitarianism.yml"
+        },
+        {
+          "sourceSlug": "barker-eileen-the-making-of-a-moonie-choice-or-brainwashing",
+          "sourceName": "Eileen Barker — The Making of a Moonie: Choice or Brainwashing?",
+          "title": "The Making of a Moonie: Choice or Brainwashing?",
+          "path": "semantic/sources/barker-eileen-the-making-of-a-moonie-choice-or-brainwashing.yml"
+        },
+        {
+          "sourceSlug": "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog",
+          "sourceName": "Peter L. Berger and Thomas Luckmann — The Social Construction of Reality: A Treatise in the Sociology of Knowledge",
+          "title": "The Social Construction of Reality: A Treatise in the Sociology of Knowledge",
+          "path": "semantic/sources/berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog.yml"
+        },
+        {
+          "sourceSlug": "berlin-isaiah-the-hedgehog-and-the-fox",
+          "sourceName": "Isaiah Berlin — The Hedgehog and the Fox.",
+          "title": "The Hedgehog and the Fox.",
+          "path": "semantic/sources/berlin-isaiah-the-hedgehog-and-the-fox.yml"
+        },
+        {
+          "sourceSlug": "chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific",
+          "sourceName": "George D Chryssides — The Advent of Sun Myung Moon: The Origins, Beliefs, and Practices of the Unification Church",
+          "title": "The Advent of Sun Myung Moon: The Origins, Beliefs, and Practices of the Unification Church",
+          "path": "semantic/sources/chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific.yml"
+        },
+        {
+          "sourceSlug": "ellul-jacques-propaganda-the-formation-of-men-s-attitudes",
+          "sourceName": "Jacques Ellul — Propaganda: The Formation of Men’s Attitudes",
+          "title": "Propaganda: The Formation of Men’s Attitudes",
+          "path": "semantic/sources/ellul-jacques-propaganda-the-formation-of-men-s-attitudes.yml"
+        },
+        {
+          "sourceSlug": "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails",
+          "sourceName": "Henry W. Riecken, Leon Festinger, and Stanley Schachter — When Prophecy Fails",
+          "title": "When Prophecy Fails",
+          "path": "semantic/sources/festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails.yml"
+        },
+        {
+          "sourceSlug": "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
+          "sourceName": "Michel Foucault — Discipline and Punish: The Birth of the Prison",
+          "title": "Discipline and Punish: The Birth of the Prison",
+          "path": "semantic/sources/foucault-michel-discipline-and-punish-the-birth-of-the-prison.yml"
+        },
+        {
+          "sourceSlug": "foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977",
+          "sourceName": "Michel Foucault — Power/Knowledge: Selected Interviews and Other Writings, 1972–1977",
+          "title": "Power/Knowledge: Selected Interviews and Other Writings, 1972–1977",
+          "path": "semantic/sources/foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977.yml"
+        },
+        {
+          "sourceSlug": "foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76",
+          "sourceName": "Michel Foucault — \"Society Must Be Defended\": Lectures at the Collège de France, 1975–76",
+          "title": "\"Society Must Be Defended\": Lectures at the Collège de France, 1975–76",
+          "path": "semantic/sources/foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76.yml"
+        },
+        {
+          "sourceSlug": "givens-terryl-l-by-the-hand-of-mormon",
+          "sourceName": "Terryl L Givens — By the Hand of Mormon",
+          "title": "By the Hand of Mormon",
+          "path": "semantic/sources/givens-terryl-l-by-the-hand-of-mormon.yml"
+        },
+        {
+          "sourceSlug": "goffman-erving-the-presentation-of-self-in-everyday-life",
+          "sourceName": "Erving Goffman — The Presentation of Self in Everyday Life",
+          "title": "The Presentation of Self in Everyday Life",
+          "path": "semantic/sources/goffman-erving-the-presentation-of-self-in-everyday-life.yml"
+        },
+        {
+          "sourceSlug": "gott-richard-hugo-ch-vez-and-the-bolivarian-revolution",
+          "sourceName": "Richard Gott — Hugo Chávez and the Bolivarian Revolution",
+          "title": "Hugo Chávez and the Bolivarian Revolution",
+          "path": "semantic/sources/gott-richard-hugo-ch-vez-and-the-bolivarian-revolution.yml"
+        },
+        {
+          "sourceSlug": "habermas-j-rgen-the-theory-of-communicative-action",
+          "sourceName": "Jürgen Habermas — The Theory of Communicative Action",
+          "title": "The Theory of Communicative Action",
+          "path": "semantic/sources/habermas-j-rgen-the-theory-of-communicative-action.yml"
+        },
+        {
+          "sourceSlug": "havel-vaclav-the-power-of-the-powerless",
+          "sourceName": "Václav Havel — The Power of the Powerless.",
+          "title": "The Power of the Powerless.",
+          "path": "semantic/sources/havel-vaclav-the-power-of-the-powerless.yml"
+        },
+        {
+          "sourceSlug": "kuhn-thomas-s-the-structure-of-scientific-revolutions",
+          "sourceName": "Thomas S Kuhn — The Structure of Scientific Revolutions",
+          "title": "The Structure of Scientific Revolutions",
+          "path": "semantic/sources/kuhn-thomas-s-the-structure-of-scientific-revolutions.yml"
+        },
+        {
+          "sourceSlug": "mouffe-chantal-the-democratic-paradox",
+          "sourceName": "Chantal Mouffe — The Democratic Paradox",
+          "title": "The Democratic Paradox",
+          "path": "semantic/sources/mouffe-chantal-the-democratic-paradox.yml"
+        },
+        {
+          "sourceSlug": "popper-karl-the-open-society-and-its-enemies",
+          "sourceName": "Karl Popper — The Open Society and Its Enemies",
+          "title": "The Open Society and Its Enemies",
+          "path": "semantic/sources/popper-karl-the-open-society-and-its-enemies.yml"
+        },
+        {
+          "sourceSlug": "postman-neil-amusing-ourselves-to-death",
+          "sourceName": "Neil Postman — Amusing Ourselves to Death",
+          "title": "Amusing Ourselves to Death",
+          "path": "semantic/sources/postman-neil-amusing-ourselves-to-death.yml"
+        },
+        {
+          "sourceSlug": "schmitt-carl-the-concept-of-the-political",
+          "sourceName": "Carl Schmitt — The Concept of the Political",
+          "title": "The Concept of the Political",
+          "path": "semantic/sources/schmitt-carl-the-concept-of-the-political.yml"
+        },
+        {
+          "sourceSlug": "shklar-judith-ordinary-vices",
+          "sourceName": "Judith Shklar — Ordinary Vices",
+          "title": "Ordinary Vices",
+          "path": "semantic/sources/shklar-judith-ordinary-vices.yml"
+        },
+        {
+          "sourceSlug": "steffensen-kevin-how-meaning-moves",
+          "sourceName": "Kevin Steffensen — How Meaning Moves",
+          "title": "How Meaning Moves",
+          "path": "semantic/sources/steffensen-kevin-how-meaning-moves.yml"
+        },
+        {
+          "sourceSlug": "steffensen-kevin-when-authority-is-misread",
+          "sourceName": "Kevin Steffensen — When Authority Is Misread",
+          "title": "When Authority Is Misread",
+          "path": "semantic/sources/steffensen-kevin-when-authority-is-misread.yml"
+        },
+        {
+          "sourceSlug": "steffensen-kevin-when-authority-outlives-accountability-a-lens-for",
+          "sourceName": "Kevin Steffensen — When Authority Outlives Accountability: A Lens for",
+          "title": "When Authority Outlives Accountability: A Lens for",
+          "path": "semantic/sources/steffensen-kevin-when-authority-outlives-accountability-a-lens-for.yml"
+        },
+        {
+          "sourceSlug": "sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media",
+          "sourceName": "Cass R Sunstein — #Republic: Divided Democracy in the Age of Social Media",
+          "title": "#Republic: Divided Democracy in the Age of Social Media",
+          "path": "semantic/sources/sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media.yml"
+        },
+        {
+          "sourceSlug": "weber-max-economy-and-society-an-outline-of-interpretive-sociology",
+          "sourceName": "Max Weber — Economy and Society: An Outline of Interpretive Sociology",
+          "title": "Economy and Society: An Outline of Interpretive Sociology",
+          "path": "semantic/sources/weber-max-economy-and-society-an-outline-of-interpretive-sociology.yml"
+        }
+      ],
+      "thinker_stale": [
+        {
+          "thinkerSlug": "carl-schmitt",
+          "name": "Carl Schmitt",
+          "works": [
+            "schmitt-carl-the-concept-of-the-political"
+          ],
+          "linkedWorksOnBook": [
+            "schmitt-carl-the-concept-of-the-political"
+          ]
+        },
+        {
+          "thinkerSlug": "cass-r-sunstein",
+          "name": "Cass R Sunstein",
+          "works": [
+            "sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media"
+          ],
+          "linkedWorksOnBook": [
+            "sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media"
+          ]
+        },
+        {
+          "thinkerSlug": "chantal-mouffe",
+          "name": "Chantal Mouffe",
+          "works": [
+            "mouffe-chantal-the-democratic-paradox"
+          ],
+          "linkedWorksOnBook": [
+            "mouffe-chantal-the-democratic-paradox"
+          ]
+        },
+        {
+          "thinkerSlug": "eileen-barker",
+          "name": "Eileen Barker",
+          "works": [
+            "barker-eileen-the-making-of-a-moonie-choice-or-brainwashing"
+          ],
+          "linkedWorksOnBook": [
+            "barker-eileen-the-making-of-a-moonie-choice-or-brainwashing"
+          ]
+        },
+        {
+          "thinkerSlug": "erving-goffman",
+          "name": "Erving Goffman",
+          "works": [
+            "goffman-erving-interaction-ritual",
+            "goffman-erving-the-presentation-of-self-in-everyday-life"
+          ],
+          "linkedWorksOnBook": [
+            "goffman-erving-the-presentation-of-self-in-everyday-life"
+          ]
+        },
+        {
+          "thinkerSlug": "george-d-chryssides",
+          "name": "George D Chryssides",
+          "works": [
+            "chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific"
+          ],
+          "linkedWorksOnBook": [
+            "chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific"
+          ]
+        },
+        {
+          "thinkerSlug": "hannah-arendt",
+          "name": "Hannah Arendt",
+          "works": [
+            "arendt-hannah-between-past-and-future",
+            "arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil",
+            "arendt-hannah-on-revolution",
+            "arendt-hannah-on-violence",
+            "arendt-hannah-responsibility-and-judgment",
+            "arendt-hannah-the-human-condition",
+            "arendt-hannah-the-life-of-the-mind",
+            "arendt-hannah-the-origins-of-totalitarianism",
+            "arendt-hannah-what-is-authority"
+          ],
+          "linkedWorksOnBook": [
+            "arendt-hannah-the-origins-of-totalitarianism"
+          ]
+        },
+        {
+          "thinkerSlug": "henry-w-riecken",
+          "name": "Henry W. Riecken",
+          "works": [
+            "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
+          ],
+          "linkedWorksOnBook": [
+            "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
+          ]
+        },
+        {
+          "thinkerSlug": "isaiah-berlin",
+          "name": "Isaiah Berlin",
+          "works": [
+            "berlin-isaiah-the-hedgehog-and-the-fox"
+          ],
+          "linkedWorksOnBook": [
+            "berlin-isaiah-the-hedgehog-and-the-fox"
+          ]
+        },
+        {
+          "thinkerSlug": "jacques-ellul",
+          "name": "Jacques Ellul",
+          "works": [
+            "ellul-jacques-propaganda-the-formation-of-men-s-attitudes"
+          ],
+          "linkedWorksOnBook": [
+            "ellul-jacques-propaganda-the-formation-of-men-s-attitudes"
+          ]
+        },
+        {
+          "thinkerSlug": "judith-shklar",
+          "name": "Judith Shklar",
+          "works": [
+            "shklar-judith-n-putting-cruelty-first",
+            "shklar-judith-ordinary-vices"
+          ],
+          "linkedWorksOnBook": [
+            "shklar-judith-ordinary-vices"
+          ]
+        },
+        {
+          "thinkerSlug": "jurgen-habermas",
+          "name": "Jürgen Habermas",
+          "works": [
+            "habermas-j-rgen-the-theory-of-communicative-action"
+          ],
+          "linkedWorksOnBook": [
+            "habermas-j-rgen-the-theory-of-communicative-action"
+          ]
+        },
+        {
+          "thinkerSlug": "karl-r-popper",
+          "name": "Karl R Popper",
+          "works": [
+            "popper-karl-r-the-logic-of-scientific-discovery",
+            "popper-karl-the-open-society-and-its-enemies"
+          ],
+          "linkedWorksOnBook": [
+            "popper-karl-the-open-society-and-its-enemies"
+          ]
+        },
+        {
+          "thinkerSlug": "kevin-steffensen",
+          "name": "Kevin Steffensen",
+          "works": [
+            "steffensen-kevin-how-meaning-moves",
+            "steffensen-kevin-when-authority-is-misread",
+            "steffensen-kevin-when-authority-outlives-accountability-a-lens-for",
+            "steffensen-kevin-when-others-look-to-you-companion-edition"
+          ],
+          "linkedWorksOnBook": [
+            "steffensen-kevin-how-meaning-moves",
+            "steffensen-kevin-when-authority-is-misread",
+            "steffensen-kevin-when-authority-outlives-accountability-a-lens-for"
+          ]
+        },
+        {
+          "thinkerSlug": "leon-festinger",
+          "name": "Leon Festinger",
+          "works": [
+            "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
+          ],
+          "linkedWorksOnBook": [
+            "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
+          ]
+        },
+        {
+          "thinkerSlug": "max-weber",
+          "name": "Max Weber",
+          "works": [
+            "weber-max-economy-and-society-an-outline-of-interpretive-sociology",
+            "weber-max-politics-as-a-vocation"
+          ],
+          "linkedWorksOnBook": [
+            "weber-max-economy-and-society-an-outline-of-interpretive-sociology"
+          ]
+        },
+        {
+          "thinkerSlug": "michel-foucault",
+          "name": "Michel Foucault",
+          "works": [
+            "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
+            "foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977",
+            "foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76",
+            "foucault-michel-the-order-of-things-an-archaeology-of-the-human-sciences"
+          ],
+          "linkedWorksOnBook": [
+            "foucault-michel-discipline-and-punish-the-birth-of-the-prison",
+            "foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977",
+            "foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76"
+          ]
+        },
+        {
+          "thinkerSlug": "neil-postman",
+          "name": "Neil Postman",
+          "works": [
+            "postman-neil-amusing-ourselves-to-death"
+          ],
+          "linkedWorksOnBook": [
+            "postman-neil-amusing-ourselves-to-death"
+          ]
+        },
+        {
+          "thinkerSlug": "peter-l-berger",
+          "name": "Peter L. Berger",
+          "works": [
+            "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog"
+          ],
+          "linkedWorksOnBook": [
+            "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog"
+          ]
+        },
+        {
+          "thinkerSlug": "richard-gott",
+          "name": "Richard Gott",
+          "works": [
+            "gott-richard-hugo-ch-vez-and-the-bolivarian-revolution"
+          ],
+          "linkedWorksOnBook": [
+            "gott-richard-hugo-ch-vez-and-the-bolivarian-revolution"
+          ]
+        },
+        {
+          "thinkerSlug": "stanley-schachter",
+          "name": "Stanley Schachter",
+          "works": [
+            "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
+          ],
+          "linkedWorksOnBook": [
+            "festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails"
+          ]
+        },
+        {
+          "thinkerSlug": "terryl-l-givens",
+          "name": "Terryl L Givens",
+          "works": [
+            "givens-terryl-l-by-the-hand-of-mormon"
+          ],
+          "linkedWorksOnBook": [
+            "givens-terryl-l-by-the-hand-of-mormon"
+          ]
+        },
+        {
+          "thinkerSlug": "thomas-luckmann",
+          "name": "Thomas Luckmann",
+          "works": [
+            "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog"
+          ],
+          "linkedWorksOnBook": [
+            "berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog"
+          ]
+        },
+        {
+          "thinkerSlug": "thomas-s-kuhn",
+          "name": "Thomas S Kuhn",
+          "works": [
+            "kuhn-thomas-s-the-structure-of-scientific-revolutions"
+          ],
+          "linkedWorksOnBook": [
+            "kuhn-thomas-s-the-structure-of-scientific-revolutions"
+          ]
+        },
+        {
+          "thinkerSlug": "vaclav-havel",
+          "name": "Václav Havel",
+          "works": [
+            "havel-vaclav-the-power-of-the-powerless"
+          ],
+          "linkedWorksOnBook": [
+            "havel-vaclav-the-power-of-the-powerless"
+          ]
+        }
+      ],
       "creator_missing_thinker": [
         {
-          "creatorSlug": "berger-peter-l-and-thomas-luckmann",
-          "creatorName": "Berger, Peter L., and Thomas Luckmann"
+          "creatorSlug": "2019-u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-cong-december-18",
+          "creatorName": "2019) U.S. House of Representatives. Articles of Impeachment against Donald John Trump. H. Res. 755. 116th Cong. (December 18"
+        },
+        {
+          "creatorSlug": "aleksandr-i-solzhenitsyn",
+          "creatorName": "Aleksandr I Solzhenitsyn"
         },
         {
           "creatorSlug": "brown-eliot-and-maureen-farrell",
@@ -5975,36 +7504,32 @@
           "creatorName": "Corrales, Javier, and Michael Penfold"
         },
         {
-          "creatorSlug": "festinger-leon-henry-w-riecken-and-stanley-schachter",
-          "creatorName": "Festinger, Leon, Henry W. Riecken, and Stanley Schachter"
-        },
-        {
           "creatorSlug": "frank-dik-tter",
           "creatorName": "Frank Dikötter"
         },
         {
-          "creatorSlug": "j-rgen-habermas",
-          "creatorName": "Jürgen Habermas"
+          "creatorSlug": "jeffrey-m-jones",
+          "creatorName": "Jeffrey M Jones"
         },
         {
-          "creatorSlug": "karl-popper",
-          "creatorName": "Karl Popper"
+          "creatorSlug": "kessler-glenn-salvador-rizzo-and-meg-kelly",
+          "creatorName": "Kessler, Glenn, Salvador Rizzo, and Meg Kelly"
+        },
+        {
+          "creatorSlug": "loung-ung",
+          "creatorName": "Loung Ung"
         },
         {
           "creatorSlug": "macfarquhar-roderick-and-michael-schoenhals",
           "creatorName": "MacFarquhar, Roderick, and Michael Schoenhals"
         },
         {
-          "creatorSlug": "parker-ashley-and-michael-scherer",
-          "creatorName": "Parker, Ashley, and Michael Scherer"
-        },
-        {
           "creatorSlug": "tabor-james-d-and-eugene-v-gallagher",
           "creatorName": "Tabor, James D., and Eugene V. Gallagher"
         },
         {
-          "creatorSlug": "v-clav-havel",
-          "creatorName": "Václav Havel"
+          "creatorSlug": "u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-high-crimes-and-misdemeanors-h-res-24-117th-cong-january-13-2021",
+          "creatorName": "U.S. House of Representatives. Impeaching Donald John Trump, President of the United States, for High Crimes and Misdemeanors. H. Res. 24. 117th Cong. (January 13, 2021)"
         },
         {
           "creatorSlug": "wright-stuart-a",
@@ -7500,9 +9025,11 @@
     {
       "book_id": "why-collaboration-is-so-hard",
       "bibliography": "books/why-collaboration-is-so-hard/back-matter/bibliography.md",
-      "parse_style": "list",
-      "parse_warnings": [],
-      "biblio_count": 9,
+      "parse_style": "pandoc_div",
+      "parse_warnings": [
+        "other styles also matched: plain_chicago=15"
+      ],
+      "biblio_count": 15,
       "linked_count": 9,
       "matched": [
         {
@@ -7587,14 +9114,81 @@
           "sourceName": "Karl E Weick — Sensemaking in Organizations"
         }
       ],
-      "missing_in_semantic": [],
-      "missing_related_books": [],
+      "missing_in_semantic": [
+        {
+          "biblioSlug": "kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr",
+          "biblioTitle": "Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review",
+          "biblioAuthor": "Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania",
+          "summary": "Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania. \"Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review.\" *Annals of Internal Medici"
+        },
+        {
+          "biblioSlug": "morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme",
+          "biblioTitle": "Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions",
+          "biblioAuthor": "Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman",
+          "summary": "Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman. \"Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions.\" *PLoS ONE* 13, no. 8 (2"
+        },
+        {
+          "biblioSlug": "occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule",
+          "biblioTitle": "Cranes and Derricks in Construction: Final Rule",
+          "biblioAuthor": "Occupational Safety and Health Administration",
+          "summary": "Occupational Safety and Health Administration. *Cranes and Derricks in Construction: Final Rule*. 29 CFR Part 1926 Subpart CC. Washington, DC: U.S. Department of Labor, 2010."
+        },
+        {
+          "biblioSlug": "occupational-safety-and-health-administration-cranes-and-derricks",
+          "biblioTitle": "Cranes and Derricks",
+          "biblioAuthor": "Occupational Safety and Health Administration",
+          "summary": "Occupational Safety and Health Administration. *Cranes and Derricks*. OSHA 3433-05. Washington, DC: U.S. Department of Labor, 2011."
+        }
+      ],
+      "missing_related_books": [
+        {
+          "biblioSlug": "muller-jerry-z-the-tyranny-of-metrics",
+          "sourceSlug": "muller-jerry-z-the-tyranny-of-metrics",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The Tyranny of Metrics",
+          "biblioAuthor": "Jerry Z Muller",
+          "sourceName": "Jerry Z Muller — The Tyranny of Metrics",
+          "sourceRelatedBooks": [
+            "how-serious-systems-learn",
+            "living-in-sediment"
+          ]
+        },
+        {
+          "biblioSlug": "edmondson-amy-psychological-safety-and-learning-behavior-in-work-teams",
+          "sourceSlug": "edmondson-amy-c-psychological-safety-and-learning-behavior-in-work",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Psychological Safety and Learning Behavior in Work Teams",
+          "biblioAuthor": "Amy Edmondson",
+          "sourceName": "Amy C Edmondson — Psychological Safety and Learning Behavior in Work",
+          "sourceRelatedBooks": [
+            "when-others-look-to-you-v1"
+          ]
+        }
+      ],
       "stale_related_books": [],
       "thinker_stale": [],
       "creator_missing_thinker": [
         {
+          "creatorSlug": "amy-edmondson",
+          "creatorName": "Amy Edmondson"
+        },
+        {
+          "creatorSlug": "kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania",
+          "creatorName": "Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania"
+        },
+        {
           "creatorSlug": "march-james-g-and-herbert-a-simon",
           "creatorName": "March, James G., and Herbert A. Simon"
+        },
+        {
+          "creatorSlug": "morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman",
+          "creatorName": "Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman"
+        },
+        {
+          "creatorSlug": "occupational-safety-and-health-administration",
+          "creatorName": "Occupational Safety and Health Administration"
         },
         {
           "creatorSlug": "star-susan-leigh-and-anselm-strauss",
@@ -7612,9 +9206,9 @@
     }
   ],
   "totals": {
-    "matched": 729,
-    "missingInSemantic": 0,
-    "missingRelatedBooks": 0,
-    "staleRelatedBooks": 0
+    "matched": 775,
+    "missingInSemantic": 54,
+    "missingRelatedBooks": 16,
+    "staleRelatedBooks": 26
   }
 }

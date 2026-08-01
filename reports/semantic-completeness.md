@@ -1,14 +1,14 @@
 # Semantic completeness report
 
-Generated: `2026-07-27T15:12:16.275394+00:00`
+Generated: `2026-08-01T14:37:17.297031+00:00`
 
 ## Manifest provenance
 
 - schemaVersion: `2.3`
-- sourceCommit: `0b8143bd0ed3d4bf933987d06ec54d28bb09d230`
-- manifest generatedAt: `2026-07-27T15:11:56.204700+00:00`
+- sourceCommit: `037180432ac339908b29e2259a67010623a09b9f`
+- manifest generatedAt: `2026-08-01T14:37:12.874638+00:00`
 
-Public canonical works evaluated: **32**
+Public canonical works evaluated: **34**
 
 Field statuses: `complete`, `missing`, `generated-only`, `incomplete`, `potentially-incorrect`, `not-applicable`.
 
@@ -20,20 +20,25 @@ _None._
 
 ### Books missing search aliases
 
-_None._
+- `no-time-to-think`
+- `the-case-that-does-not-fit`
 
 ### Books absent from questions
 
+- `no-time-to-think`
+- `the-case-that-does-not-fit`
 - `velorum`
 - `when-others-look-to-you-v2`
 
 ### Books absent from trails
 
-_None._
+- `no-time-to-think`
+- `the-case-that-does-not-fit`
 
 ### Books absent from editorial shelves
 
-_None._
+- `no-time-to-think`
+- `the-case-that-does-not-fit`
 
 ### Books without publication dates
 
@@ -45,7 +50,9 @@ _None._
 - `how-trust-forms`
 - `learning-to-see`
 - `living-in-sediment`
+- `no-time-to-think`
 - `observer-patterns`
+- `the-case-that-does-not-fit`
 - `the-discipline-of-uncertainty`
 - `the-economy-we-dont-experience`
 - `the-game-we-think-we-saw`
@@ -85,7 +92,9 @@ _None._
 - `how-trust-forms`
 - `learning-to-see`
 - `living-in-sediment`
+- `no-time-to-think`
 - `observer-patterns`
+- `the-case-that-does-not-fit`
 - `the-discipline-of-uncertainty`
 - `the-economy-we-dont-experience`
 - `the-game-we-think-we-saw`
@@ -114,7 +123,9 @@ _None._
 - `how-serious-systems-learn`
 - `how-trust-forms`
 - `living-in-sediment`
+- `no-time-to-think`
 - `observer-patterns`
+- `the-case-that-does-not-fit`
 - `the-discipline-of-uncertainty`
 - `the-economy-we-dont-experience`
 - `trust-beyond-similarity`
@@ -511,6 +522,40 @@ _None._
 | `situationCoverage` | `complete` |
 | `selectedThinkersOrSources` | `complete` |
 
+### `no-time-to-think` (nonfiction, contentType=`nonfiction`)
+
+- Spec: `books/no-time-to-think/book.yml`
+- Work: `work-no-time-to-think` · Edition: `book-no-time-to-think`
+
+| Field | Status |
+| --- | --- |
+| `stableWorkId` | `complete` |
+| `stableCanonicalEditionId` | `complete` |
+| `publicStatus` | `complete` |
+| `contentType` | `complete` |
+| `literaryForm` | `complete` |
+| `publicationDate` | `missing` |
+| `substantialRevisionDate` | `not-applicable` |
+| `richOverview` | `complete` |
+| `centralQuestion` | `complete` |
+| `whyItExists` | `complete` |
+| `audience` | `complete` |
+| `nonGoals` | `complete` |
+| `selectedConcepts` | `complete` |
+| `selectedPatterns` | `complete` |
+| `readingRelationships` | `complete` |
+| `typedWorkRelationships` | `complete` |
+| `searchAliases` | `missing` |
+| `questionCoverage` | `missing` |
+| `trailCoverage` | `missing` |
+| `shelfCoverageBeyondCatalog` | `missing` |
+| `publicChangeEvent` | `missing` |
+| `partStructure` | `complete` |
+| `chapterStructure` | `complete` |
+| `chapterSummaries` | `missing` |
+| `situationCoverage` | `missing` |
+| `selectedThinkersOrSources` | `not-applicable` |
+
 ### `observer-patterns` (poetry, contentType=`poetry`)
 
 - Spec: `books/observer-patterns/book.yml`
@@ -538,6 +583,40 @@ _None._
 | `questionCoverage` | `complete` |
 | `trailCoverage` | `complete` |
 | `shelfCoverageBeyondCatalog` | `complete` |
+| `publicChangeEvent` | `missing` |
+| `partStructure` | `complete` |
+| `chapterStructure` | `complete` |
+| `chapterSummaries` | `missing` |
+| `situationCoverage` | `missing` |
+| `selectedThinkersOrSources` | `not-applicable` |
+
+### `the-case-that-does-not-fit` (nonfiction, contentType=`nonfiction`)
+
+- Spec: `books/the-case-that-does-not-fit/book.yml`
+- Work: `work-the-case-that-does-not-fit` · Edition: `book-the-case-that-does-not-fit`
+
+| Field | Status |
+| --- | --- |
+| `stableWorkId` | `complete` |
+| `stableCanonicalEditionId` | `complete` |
+| `publicStatus` | `complete` |
+| `contentType` | `complete` |
+| `literaryForm` | `complete` |
+| `publicationDate` | `missing` |
+| `substantialRevisionDate` | `not-applicable` |
+| `richOverview` | `complete` |
+| `centralQuestion` | `complete` |
+| `whyItExists` | `complete` |
+| `audience` | `complete` |
+| `nonGoals` | `complete` |
+| `selectedConcepts` | `complete` |
+| `selectedPatterns` | `complete` |
+| `readingRelationships` | `complete` |
+| `typedWorkRelationships` | `complete` |
+| `searchAliases` | `missing` |
+| `questionCoverage` | `missing` |
+| `trailCoverage` | `missing` |
+| `shelfCoverageBeyondCatalog` | `missing` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |

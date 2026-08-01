@@ -1,13 +1,24 @@
 slug: targets
 title: Targets
-shortDefinition: Targets names the domain where harm reduction survives while climate
-  targets and ESG reporting replace responsibility language. Institutions learned to lead
-  with dated numerical goals and auditable standards that make behavior comparable across
-  jurisdictions. Those tools solve genuine coordination problems, but also make it possible
-  to perform seriousness without settling who is responsible for what harm, to whom, and
-  when.
+shortDefinition: Targets are dated numerical goals and auditable standards that make
+  behavior comparable across contexts. They solve genuine coordination problems, but can
+  displace responsibility language—performing seriousness without settling who is
+  responsible for what harm, to whom, and when.
+longDefinition: >-
+  Targets name a coordination tool that becomes a moral substitute. They become important
+  whenever institutions need comparable progress claims under contested causation and
+  delayed consequences. They help preserve shared benchmarks and timed ambition, but can
+  fail when meeting the number stands in for owning specific tradeoffs publicly. In When
+  Incentives Become the Moral Language, targets mark the domain where harm-reduction aims
+  survive while climate targets and ESG reporting replace responsibility language—net-zero
+  pledges and disclosure frameworks make seriousness legible without settling causal
+  ownership. It differs from accountability because targets measure compliance against a
+  goal; accountability settles who owes what to whom when harm occurs.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- accountability
+- harm
+- incentives
 relatedPatterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language

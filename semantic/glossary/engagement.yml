@@ -1,13 +1,24 @@
 slug: engagement
 title: Engagement
-shortDefinition: Engagement names the domain where connection aims survive while editorial
-  judgment is replaced by behavioral metrics. Platforms learned to say "users engage with
-  this content" instead of "we think this content is valuable"—behavioral data looked
-  neutral because it described user actions rather than platform preferences. Engagement
-  measures response, not whether interaction improved understanding or produced the
-  connection anyone claimed to build toward at the start.
+shortDefinition: Engagement is measured behavioral response treated as a stand-in for
+  worth, connection, or value. It tracks what holds attention or elicits action, not
+  whether interaction improved understanding or produced the connection anyone claimed to
+  build toward at the start.
+longDefinition: >-
+  Engagement names a metric that becomes a moral language. It becomes important whenever
+  institutions need a neutral-seeming account of what audiences or users want. It helps
+  preserve feedback and product learning, but can fail when response volume replaces
+  judgments about importance, quality, or civic consequence. In When Incentives Become the
+  Moral Language, engagement marks the domain where connection aims survive while platforms
+  learn to say users engage with this content instead of we think this content is
+  valuable—behavioral data looks neutral because it describes user actions rather than
+  editorial preference. It differs from attention because attention names the scarce
+  capacity itself; engagement names the scored response that capacity produces.
 termKind: extended
-relatedConcepts: []
+relatedConcepts:
+- attention
+- judgment
+- incentives
 relatedPatterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
