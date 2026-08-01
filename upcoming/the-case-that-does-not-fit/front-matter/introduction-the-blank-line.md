@@ -18,13 +18,13 @@ The blank line exists because the boxes are also a compression. They make the wo
 
 ---
 
-On July 31, 2026, a federal contract supporting legal services for unaccompanied migrant children expired. According to Associated Press reporting, the affected Acacia Center for Justice network included roughly one hundred organizations and had been serving about 20,000 children.[^c0-acacia]
+On July 31, 2026, a federal contract supporting legal services for unaccompanied migrant children was set to expire. Press accounts of the Acacia Center for Justice network described roughly one hundred participating organizations and on the order of twenty thousand children served; exact counts vary by source, and later successor arrangements remained unsettled as of early August 2026.[^c0-acacia]
 
-The immigration system did not disappear when the contract expired. The statutes remained. The hearings remained. The notices, eligibility categories, deadlines, and possible forms of relief remained. A child could still have a case file. A court could still have a calendar. The government could still say, formally and accurately, that process existed.
+The immigration system did not disappear when the contract expired. The statutes remained. The hearings remained. The notices, eligibility categories, deadlines, and possible forms of relief remained. A child could still have a case file. A court could still have a calendar. Counsel, orientation, and representation did not vanish from every corner of the system. The government could still say, formally and accurately, that process existed.
 
 But for a child who does not understand the law, does not speak the language of the proceeding, does not know which facts matter, and may not know how to turn fear, family history, trafficking, abandonment, danger, or ordinary confusion into the terms an institution recognizes, the existence of a process is not the same as access to it.
 
-In a composite legal-orientation room, the difference can be quiet enough to miss. A child arrives with a notice folded into a pocket because it has already been folded and unfolded too many times. The form asks for parent, sponsor, guardian, prior address, current address. The child can answer some of this. He knows where he slept last night. He knows the name of the adult who brought him to the appointment. He does not know whether the aunt who took him in after his mother disappeared is legally relevant if she is not the sponsor of record. He does not know that the man he calls his mother's boyfriend might matter to the question the law is actually asking. He does not know that the date on the notice is not a suggestion to come sometime before the end of the month but a deadline whose passage can change what remains available.
+A recurring version of the legal-orientation scene looks like this. A child arrives with a notice folded into a pocket because it has already been folded and unfolded too many times. The form asks for parent, sponsor, guardian, prior address, current address. The child can answer some of this. He knows where he slept last night. He knows the name of the adult who brought him to the appointment. He does not know whether the aunt who took him in after his mother disappeared is legally relevant if she is not the sponsor of record. He does not know that the man he calls his mother's boyfriend might matter to the question the law is actually asking. He does not know that the date on the notice is not a suggestion to come sometime before the end of the month but a deadline whose passage can change what remains available.
 
 The facts do not arrive already sorted. A child may say that people were waiting near the bus stop, that a family debt followed him, that an older boy told him which route to take, that a relative said not to mention one address because it would make trouble. None of those sentences is yet a legal claim. None proves that relief should be granted. But an orientation worker, interpreter, or lawyer may hear in them the beginning of a question the form has not asked: trafficking rather than travel, abandonment rather than ordinary family conflict, persecution rather than generalized fear, a caretaker relationship the boxes do not name, a deadline misunderstood before it became fatal. Representation does not manufacture the case. At its best, it helps the institution receive the case in a form the law can test.
 
@@ -74,19 +74,9 @@ The work is architectural. It is not enough to celebrate empathy. Empathy can be
 
 ---
 
-The chapters that follow begin with present cases.
+The chapters that follow begin with present cases: a school checkbox where two protective presumptions collide; a workplace keycard where equal presence becomes unequal burden; a denial letter whose appeal path may exist on paper but not in the world; and a discipline spreadsheet that reverses the moral direction of the first three by asking when patterned consequences must reopen inquiry without becoming a quota.
 
-A school form contains a checkbox: parent notified. A general presumption that parents should know important facts about their children meets a general presumption that automatic disclosure may endanger some students. Slogans cannot resolve the moment when two protective rules collide in one life.
-
-An employee keycard opens the office door. A uniform return-to-office rule treats physical presence as fairness and managerial order. A disability accommodation claim asks whether the same rule has become unequal when applied to bodies facing different risks. The pressure falls on the line between an exception as privilege and an exception as the condition of equal participation.
-
-An insurance letter begins with a denial. It includes instructions for appeal, but the path from denial to review may require time, expertise, medical documentation, persistence, and institutional capacity the patient does not have. The issue is whether appeal is genuinely reachable rather than formally present.
-
-A discipline spreadsheet displays rates by category. This chapter reverses the moral direction of the first three. Sometimes general rules and statistical review protect people from local discretion. Sometimes the pattern no single decision reveals is the thing an institution must see. At the same time, effects-based review can create its own dangers if demographic outcomes become substitutes for individual judgment. The institutional problem is how patterned consequences can trigger reconsideration without converting people into instruments of a quota.
-
-Later chapters turn backward to older institutional forms: equity, sentencing, accommodation, appeal, emergency exclusion. The point is not that the present has invented a new problem. It is that institutions have long struggled to build systems that can be consistent without becoming blind, and responsive without becoming arbitrary.
-
-The future question is sharper because classification is becoming faster, more automated, and more widely embedded in ordinary decisions. A system can now assign categories at scale with a confidence that looks cleaner than the judgment behind it. But the old question remains: where does the case that does not fit go?
+Later chapters turn backward to equity, sentencing, accommodation, appeal, and emergency exclusion. The present has not invented a new problem. Institutions have long struggled to remain consistent without becoming blind, and responsive without becoming arbitrary. The future question is sharper because classification is becoming faster and more automated. The old question remains: where does the case that does not fit go?
 
 ---
 
@@ -102,4 +92,4 @@ The form can be complete and still incomplete. Every box can have an answer. The
 
 The question is whether the institution still knows what to do with a form whose boxes are full and whose last line says `Other: ____________________`.
 
-[^c0-acacia]: Associated Press, "Legal services ending for unaccompanied migrant children," July 31, 2026, https://apnews.com/article/migrant-children-deport-unaccompanied-26aee30582c81f7399e919f7f298439d. The report describes the expiration of a federal contract supporting legal services through the Acacia Center for Justice network, involving roughly one hundred groups and about 20,000 children.
+[^c0-acacia]: Associated Press, "Legal services ending for unaccompanied migrant children," July 31, 2026, https://apnews.com/article/migrant-children-deport-unaccompanied-26aee30582c81f7399e919f7f298439d (roughly one hundred organizations; about 20,000 children). See also Acacia Center for Justice, "Unaccompanied Children Program," https://acaciajustice.org/what-we-do/unaccompanied-children-program/ (nearly 100 providers; more than 26,000 children). Successor contract status remained unsettled as of early August 2026.

@@ -20,7 +20,7 @@ This chapter begins by reversing the moral direction of the previous three. Some
 
 ---
 
-In a composite district office, an administrator and a civil-rights reviewer sit beside the same screen. The first filter narrows the spreadsheet by school. The second narrows it by offense. The pattern sharpens around words that look ordinary until they are counted: defiance, disruption, disrespect, threat. One campus has far more referrals under those categories than another campus serving similar grades. A third filter separates suspensions longer than three days. The numbers do not accuse anyone yet. They make the room quieter.
+An administrator and a civil-rights reviewer sit beside the same screen. The first filter narrows the spreadsheet by school. The second narrows it by offense. The pattern sharpens around words that look ordinary until they are counted: defiance, disruption, disrespect, threat. One campus has far more referrals under those categories than another campus serving similar grades. A third filter separates suspensions longer than three days. The numbers do not accuse anyone yet. They make the room quieter.
 
 The reviewer opens individual files. The first incident has a plausible explanation: a teacher wrote that the student refused repeated directions and the class could not continue. The second file also has a plausible explanation: a hallway confrontation escalated after a warning. The third includes a parent conference, a prior behavior plan, and a note from an assistant principal who appears to have followed district policy. None of the files says, in plain language, that race or disability caused the decision. None proves the chart's story by itself.
 
@@ -30,7 +30,7 @@ The spreadsheet does not relieve the district of proof. It does not tell the pri
 
 ---
 
-On July 23, 2026, the U.S. Department of Education announced that it was rescinding Title VI disparate-impact regulations. The department framed the move as a return to intentional-discrimination enforcement and argued that prior disparate-impact provisions could pressure schools toward racial balancing or decision-making based on outcomes rather than unequal treatment of individuals. The rescission was published in the Federal Register at 91 FR 46733 and took effect around July 24, 2026.[^c4-titlevi]
+On July 23, 2026, the U.S. Department of Education announced that it was rescinding Title VI disparate-impact regulations. The department framed the move as a return to intentional-discrimination enforcement and argued that prior disparate-impact provisions could pressure schools toward racial balancing or decision-making based on outcomes rather than unequal treatment of individuals. The final rule was published in the Federal Register at 91 FR 46733 on July 24, 2026, and took effect that same day.[^c4-titlevi]
 
 The department's concern should be stated before the objection.
 
@@ -116,4 +116,4 @@ The spreadsheet is not justice. It is not proof. It is not a substitute for indi
 
 No cell in the spreadsheet contains a motive. The pattern exists anyway. Whether the pattern proves injustice is the question the spreadsheet cannot answer by itself.
 
-[^c4-titlevi]: U.S. Department of Education, "U.S. Department of Education Removes Disparate-Impact Title VI Regulations," July 23, 2026, https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations; Federal Register, "Nondiscrimination Based on Race, Color, or National Origin in Programs or Activities Receiving Federal Financial Assistance," 91 FR 46733, effective around July 24, 2026.
+[^c4-titlevi]: U.S. Department of Education, "U.S. Department of Education Removes Disparate-Impact Title VI Regulations," July 23, 2026, https://www.ed.gov/about/news/press-release/us-department-of-education-removes-disparate-impact-title-vi-regulations; Federal Register, "Rescinding Portions of the Department of Education Title VI Regulations To Align With the Statutory Prohibition Against Discrimination Based on Race, Color, or National Origin," 91 FR 46733 (July 24, 2026), Doc. 2026-15019, effective July 24, 2026, https://www.federalregister.gov/documents/2026/07/24/2026-15019/rescinding-portions-of-the-department-of-education-title-vi-regulations-to-align-with-the-statutory.

@@ -20,7 +20,7 @@ The difficulty begins when the checkbox becomes automatic.
 
 ---
 
-In a composite school office, the form sits between a counselor and an assistant principal. The student has asked to talk before first period because the hallway feels less safe than it did last week. The immediate request is not dramatic on the page: a name used in class, a pronoun on a seating chart, a question about whether a parent will be called. The student is not asking the school to erase the family. The student is asking whether the call can wait until someone helps think through what will happen when the information arrives at home.
+Consider the ordinary school office. The form sits between a counselor and an assistant principal. The student has asked to talk before first period because the hallway feels less safe than it did last week. The immediate request is not dramatic on the page: a name used in class, a pronoun on a seating chart, a question about whether a parent will be called. The student is not asking the school to erase the family. The student is asking whether the call can wait until someone helps think through what will happen when the information arrives at home.
 
 The counselor knows why the checkbox exists. A parent may need to know because the child's distress is worsening, because medical care may be involved, because the family is legally responsible for decisions the school cannot make alone, because concealment can become its own injury. The administrator knows the district policy will later be read by people who were not in the room: a parent, a superintendent, an agency, a lawyer, a reporter. If the box is unchecked, someone will ask why. If it is checked, the student may go home to a conversation the school has not prepared for and cannot supervise.
 
@@ -30,7 +30,7 @@ So the pen hovers. One lawful possibility may be immediate notice. Another may b
 
 ---
 
-In late July 2026, the U.S. Department of Education threatened federal funding consequences for two school districts: Anne Arundel County Public Schools in Maryland and Ann Arbor Public Schools in Michigan. The dispute concerned district policies involving transgender students, confidentiality, parental notification, and whether parents were denied access to important information about their children. Reuters reported the federal threat on July 27; the department also issued a public release stating that it was acting against districts it accused of "secretly transitioning" students and hiding information from parents.[^c1-ed-reuters]
+On July 27, 2026, the U.S. Department of Education announced enforcement steps against Anne Arundel County Public Schools in Maryland and a response deadline for Ann Arbor Public Schools in Michigan. The department's own release characterized the districts as "secretly transitioning" students and hiding information from parents, and warned of possible judicial proceedings and loss of federal funding. Those charged phrases belong to the agency's account, not to an adjudicated finding that every contested practice was already proven. The dispute concerned confidentiality, parental notification, and whether parents were denied access to important information about their children.[^c1-ed-reuters]
 
 The public argument around such cases often moves quickly toward accusation. One side describes secrecy from parents. Another describes protection for vulnerable students. One side says the school has usurped the family. Another says automatic disclosure may endanger a child whose home circumstances are unknown or unsafe.
 
@@ -58,7 +58,7 @@ The institutional problem is not that one side believes in rules and the other b
 
 The phrase "Parent notified" makes the decision look binary. Checked or unchecked. Told or not told. Compliant or noncompliant.
 
-Real cases often contain more steps than the box can hold. What exactly is being disclosed? A name used with friends? A request to change a school record? A mental-health concern? A risk of self-harm? A request about bathrooms, sports, pronouns, counseling, or privacy? Has the student asked for time before disclosure? Has anyone asked why? Is there evidence of danger at home, or only an assumption? Is there evidence that parents are supportive, or only a legal entitlement presumed to settle the question? What is the student's age? What state law applies? What school role is involved? What record is being changed? Who will review the decision if a parent or student objects?
+Real cases often contain more steps than the box can hold. What exactly is being disclosed—a name used with friends, a record change, a mental-health concern, a safety risk? Has the student asked for time before disclosure? Is there evidence of danger at home, or only an assumption? Is there evidence that parents are supportive, or only a legal entitlement presumed to settle the question? What is the student's age, what law applies, and who will review the decision if a parent or student objects?
 
 A checkbox cannot answer these questions. It can only record the fact the system has chosen to count.
 
@@ -106,4 +106,4 @@ A checked box says that notification occurred. It cannot say whether notificatio
 
 For that, the school needs more than a checkbox. It needs a way to decide what the checkbox cannot know.
 
-[^c1-ed-reuters]: Reuters, "US threatens to cut funding for two school districts over transgender student policies," reported July 27, 2026, via Yahoo News, https://www.yahoo.com/news/politics/articles/us-threatens-cut-funding-two-023255599.html; U.S. Department of Education, "Trump Administration Cracks Down on School Districts Secretly Transitioning Students and Hiding It from Parents," July 2026, https://www.ed.gov/about/news/press-release/trump-administration-cracks-down-school-districts-secretly-transitioning-students-and-hiding-it-parents.
+[^c1-ed-reuters]: U.S. Department of Education, "Trump Administration Cracks Down on School Districts Secretly Transitioning Students and Hiding It from Parents," July 27, 2026, https://www.ed.gov/about/news/press-release/trump-administration-cracks-down-school-districts-secretly-transitioning-students-and-hiding-it-parents. The department's own headline and body use the "secretly transitioning" characterization; the release describes FERPA enforcement steps involving Anne Arundel County Public Schools and a response deadline for Ann Arbor Public Schools, with possible judicial proceedings and loss of federal funding.

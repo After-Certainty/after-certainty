@@ -18,7 +18,7 @@ Emergency power exists because some harms cannot be repaired later. Delay can co
 
 That is the strongest case. It is also the reason emergency power is so dangerous. The very features that make it useful--speed, breadth, deference, secrecy, and simplified categories--are the features that can strip judgment from the decision. A category becomes easier to administer than a person. Suspicion becomes easier to generalize than to prove. The burden of uncertainty falls on the people least able to contest it.
 
-Executive Order 9066 was signed by President Franklin D. Roosevelt on February 19, 1942. The National Archives explains that the order authorized military commanders to exclude civilians from designated military areas, and that although the order did not name an ethnic group, it resulted in the incarceration of Japanese Americans.[^c9-archives-lesson] In practice, military orders on the West Coast targeted people of Japanese ancestry, including U.S. citizens and lawful residents.
+Executive Order 9066 was signed by President Franklin D. Roosevelt on February 19, 1942. The order authorized the Secretary of War and military commanders to prescribe military areas and exclude "any or all persons" from them; it did not name an ethnic group.[^c9-archives-eo] In practice, military orders on the West Coast targeted people of Japanese ancestry, including U.S. citizens and lawful residents, and resulted in forced removal and incarceration.[^c9-archives-lesson]
 
 The order's text and implementation reveal the institutional pattern. The formal authority was territorial and military. The actual burden fell by ancestry. The public justification was security. The mechanism was category. Once ancestry became a proxy for danger, individual loyalty, conduct, age, citizenship, family history, and ordinary evidence receded. The institution no longer needed to show that a particular person had done anything dangerous. The category did the work.
 
@@ -36,9 +36,9 @@ The language itself is instructive. Official terms often reduce moral pressure. 
 
 That gap between administrative description and lived consequence appears throughout rule systems, though rarely with such severity. A file may say "denied" while the person experiences homelessness. A form may say "ineligible" while the person experiences hunger. A table may say "minimum" while the person experiences years. An order may say "excluded" while the person experiences forced removal. Institutions need administrative language, but they should distrust the way it can shrink reality.
 
-The Civil Liberties Act of 1988 is part of the same story, not because it repaired the original harm fully, but because it shows that institutions can later name what they refused to see. The National Archives notes that Public Law 100-383, the Civil Liberties Act of 1988, authorized reparations and a formal presidential apology to Japanese Americans confined during World War II.[^c9-archives-legacy] The Archives also summarizes that the Act acknowledged injustice, apologized, and provided a $20,000 payment to each person incarcerated.[^c9-archives-press]
+The Civil Liberties Act of 1988 is part of the same story, not because it repaired the original harm fully, but because it shows that institutions can later name what they refused to see. Public Law 100-383 authorized a formal apology and a $20,000 payment to each eligible person incarcerated.[^c9-archives-legacy] The statute's findings located the failure in racial prejudice, wartime hysteria, and a failure of political leadership.[^c9-cla-findings]
 
-The Civil Liberties Act followed years of advocacy and investigation, including the work of the Commission on Wartime Relocation and Internment of Civilians. The later language mattered because it did not describe the incarceration as a mere administrative miscalculation. It located the failure in racial prejudice, wartime hysteria, and failures of political leadership, language reported by the National Archives in connection with the Act's anniversary display.[^c9-archives-press]
+The Act followed years of advocacy and investigation, including the work of the Commission on Wartime Relocation and Internment of Civilians. The later language mattered because it did not describe the incarceration as a mere administrative miscalculation. It made the structural failure part of the public record.
 
 But later repair has limits. Apology is not reversal. Restitution is not restoration. A check cannot return a closed business, a lost home, an interrupted education, a parent's humiliation, or a child's memory of confinement. The value of later repair lies partly elsewhere: it changes the public record. It gives future institutions fewer excuses for pretending the category was neutral. It teaches that an emergency rule can be lawful in form, widely supported in the moment, and later recognized as a grave injustice.
 
@@ -64,8 +64,10 @@ A rule built from fear and ancestry can become arbitrary judgment in general for
 Emergency does not remove the need for judgment. It reveals whether judgment has any structure strong enough to survive fear.
 :::
 
+[^c9-archives-eo]: National Archives, "Executive Order 9066: Resulting in Japanese-American Incarceration" (milestone documents), February 19, 1942, https://www.archives.gov/milestone-documents/executive-order-9066.
+
 [^c9-archives-lesson]: National Archives, "Japanese-American Incarceration During World War II," https://www.archives.gov/education/lessons/japanese-relocation.
 
-[^c9-archives-legacy]: National Archives, "World War II Japanese American Incarceration: Post-War Legacy," https://www.archives.gov/research/aapi/ww2/legacy.
+[^c9-archives-legacy]: Civil Liberties Act of 1988, Pub. L. No. 100-383, 102 Stat. 903; National Archives, "World War II Japanese American Incarceration: Post-War Legacy," https://www.archives.gov/research/aapi/ww2/legacy.
 
-[^c9-archives-press]: National Archives, "National Archives Commemorates the 25th Anniversary of the Civil Liberties Act," https://www.archives.gov/press/press-releases/2013/nr13-118.html.
+[^c9-cla-findings]: 50 U.S.C. § 4202 (congressional findings concerning the evacuation, relocation, and internment of civilians during World War II), https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid:USC-prelim-title50-section4202.

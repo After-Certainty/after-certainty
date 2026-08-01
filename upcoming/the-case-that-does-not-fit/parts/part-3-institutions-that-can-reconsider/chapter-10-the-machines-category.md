@@ -44,7 +44,7 @@ For the affected person, explainability means something more practical. It means
 
 An institution can possess a technical explanation and still provide no meaningful explanation to the person outside it. A model card or validation memo may help governance without telling a denied applicant why the system treated their household as ineligible. Conversely, a simple notice may help the person without revealing patterned errors across many cases. Both forms are needed. One governs the machine. The other opens the decision to contradiction.
 
-The European Union's General Data Protection Regulation frames part of this issue through rights attached to certain solely automated decisions: human intervention, the ability to express one's point of view, and the ability to contest the decision.[^c10-gdpr] The wider institutional principle is that a consequential automated category must not become final before the person has a meaningful way to say what it missed.
+The European Union's General Data Protection Regulation frames part of this issue through safeguards attached to certain solely automated decisions with legal or similarly significant effects: human intervention, the ability to express one's point of view, and the ability to contest the decision.[^c10-gdpr] Article 22(3) does not, by itself, create a universal right to explanation. The wider institutional principle is that a consequential automated category must not become final before the person has a meaningful way to say what it missed.
 
 Explainability without contradictability is only narration. It tells a person why the institution thinks it is right without telling them what would make the institution change course.
 
@@ -116,6 +116,6 @@ But somewhere in the system there has to be another field, even if it is not on 
 
 The confidence score looks precise. The person still needs a place to write what the model did not ask.
 
-[^c10-gdpr]: Regulation (EU) 2016/679, General Data Protection Regulation, Article 22(3), provides that certain safeguards for automated individual decision-making include "at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision," https://eur-lex.europa.eu/eli/reg/2016/679/oj.
+[^c10-gdpr]: Regulation (EU) 2016/679, General Data Protection Regulation, Article 22(3), provides that, for decisions covered by Article 22, the data controller shall implement suitable measures including "at least the right to obtain human intervention on the part of the controller, to express his or her point of view and to contest the decision," https://eur-lex.europa.eu/eli/reg/2016/679/oj. The provision applies to certain solely automated decisions; it does not by itself establish a general right to explanation.
 
 [^c10-nist]: National Institute of Standards and Technology, *Artificial Intelligence Risk Management Framework (AI RMF 1.0)* (2023), https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf.

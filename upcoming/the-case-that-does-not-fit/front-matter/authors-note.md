@@ -4,7 +4,7 @@
 
 Several contemporary scenes in this book are composites.
 
-The parent reading a school form, the worker holding a keycard outside an office building, the patient rereading a denial letter, the administrator studying a discipline spreadsheet, and related present-day moments are constructed from documented events, public institutional records, ordinary professional workflows, and recurring patterns. They do not portray identifiable private individuals unless a person is named in a cited public source. They are written to make institutional structure visible: how rules classify, how judgment enters or disappears, and how reconsideration becomes either real or merely formal.
+The legal-orientation room, the school office, the workplace accommodation file, the patient with a denial letter, the district discipline spreadsheet, and related present-day moments are constructed from documented events, public institutional records, ordinary professional workflows, and recurring patterns. They do not portray identifiable private individuals unless a person is named in a cited public source. They are written to make institutional structure visible: how rules classify, how judgment enters or disappears, and how reconsideration becomes either real or merely formal.
 
 Historical material in later chapters is reconstructed from cited sources. Where public records leave uncertainty, the manuscript should not be read as filling that uncertainty with dramatic invention. The aim is fidelity to the structural problem these episodes reveal, not confidence beyond the evidence.
 

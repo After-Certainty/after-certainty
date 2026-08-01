@@ -1,22 +1,25 @@
-\newpage
+---
+---
 
 # **Chapter 5**
 
 ## **The Petition**
 
-The petition is not impressive as an object. It may be a few pages. It may be written by hand. It may have been folded, carried, refolded, and carried again. Its force does not come from ornament. It comes from the awkwardness of its address.
+The petition is not impressive as an object. It may be a few pages. It may carry the formal polish of counsel or the plainer urgency of someone writing without one. Its force does not come from ornament. It comes from the awkwardness of its address.
 
-The person who writes it is not saying, simply, "I lost." Losing is something rules are built to produce. A court, an office, or a clerk can decide against someone without having failed them. The petition says something more difficult: the available rule has no adequate place for this injury. The ordinary doorway is open, but it leads to the wrong room. The form can receive a claim, but not the kind of relief the claim requires.
+The person who files it is not saying, simply, "I lost." Losing is something rules are built to produce. A court, an office, or a clerk can decide against someone without having failed them. The petition says something more difficult: the available rule has no adequate place for this injury. The ordinary doorway is open, but it leads to the wrong room. The form can receive a claim, but not the kind of relief the claim requires.
 
-In 1852, Benjamin Lumley came to the Court of Chancery with that kind of problem. Lumley managed Her Majesty's Theatre in London. Johanna Wagner, a singer whose performances were valuable because they were hers, had contracted to sing for him for a defined period and not to sing elsewhere during that engagement. Then she agreed to sing for Frederick Gye, who managed the rival Covent Garden theatre. Lumley could sue at law for breach of contract. That doorway existed. But the ordinary remedy did not fit the injury he said was coming.[^c5-lumley]
+That request does not depend on the petitioner's social vulnerability. It depends on a mismatch between the injury threatened and the remedy the ordinary legal path can supply. A petition is a formal request addressed to a jurisdiction capable of supplying a different kind of remedy. It acknowledges that the ordinary doorway exists and still cannot prevent the harm that matters.
+
+In 1852, Benjamin Lumley came to the Court of Chancery with that kind of problem. Lumley was not a powerless outsider to the legal system. He was a sophisticated theatrical manager of Her Majesty's Theatre in London. Johanna Wagner, a singer whose performances were valuable because they were hers, had contracted to sing for him for a defined period and not to sing elsewhere during that engagement. Then she agreed to sing for Frederick Gye, who managed the rival Covent Garden theatre. Lumley could sue at law for breach of contract. That doorway existed. But the ordinary remedy did not fit the injury he said was coming.[^c5-lumley]
 
 Money damages could count something after the fact: lost receipts, broken expectations, the commercial harm of a missing performer. But damages could not make Wagner's voice appear on Lumley's stage. They could not give his audience the season he had advertised. They could not easily price the difference between one singer and another when the bargain had been for a particular artist at a particular theatre at a particular moment. The legal rule that personal service contracts were not specifically enforced had a serious reason behind it. A court should not command a person to sing, act, write, nurse, teach, or serve through coercive order. The law had learned to distrust forced performance of personal services.
 
 So the pressure was precise. If the court compelled Wagner to sing for Lumley, it would cross a line the law had reason to keep. If the court did nothing but leave Lumley to damages, the rival engagement might make the contract's exclusivity meaningless before any money judgment arrived. The legal system had one rule protecting Wagner from compulsory personal service and another set of remedies too weak to protect Lumley from the threatened breach he identified.
 
-Lord St. Leonards's answer in *Lumley v. Wagner* did not make the contract disappear, and it did not order Wagner to perform. The Court of Chancery refused to compel her affirmative service. But it enforced the negative stipulation: she could be restrained from singing elsewhere in violation of the agreement. The injunction did not produce the music Lumley wanted. It did something narrower. It prevented the rival performance that would defeat the exclusivity for which he had bargained.[^c5-lumley-summary]
+Lord St. Leonards's answer in *Lumley v. Wagner* did not make the contract disappear, and it did not order Wagner to perform. The Court of Chancery refused to compel her affirmative service. But it enforced the negative stipulation: she could be restrained from singing elsewhere in violation of the agreement. The injunction did not produce the music Lumley wanted. It did something narrower. It prevented the rival performance that would defeat the exclusivity for which he had bargained.[^c5-lumley]
 
-That consequence is why the case still matters. Equity made possible a remedy that common-law damages could not supply. It acted before the loss became only a number. It treated the threatened breach as something that might require prevention rather than compensation. It also showed how dangerous corrective judgment would be if it forgot its own limits. The court did not say that hardship entitled Lumley to whatever order would satisfy him. It did not transform a singer into an instrument of judicial will. It located the particular promise that could be restrained without ordering the personal performance the law refused to command.
+That consequence is why the case still matters. Equity made possible a remedy that common-law damages could not supply. It acted before the loss became only a number. It treated the threatened breach as something that might require prevention rather than compensation. It also showed how dangerous corrective judgment would be if it forgot its own limits. The court did not say that commercial inconvenience entitled Lumley to whatever order would satisfy him. It did not transform a singer into an instrument of judicial will. It located the particular promise that could be restrained without ordering the personal performance the law refused to command.
 
 The strongest reason for the ordinary rule deserves to be stated first. A legal system cannot run on exception alone. If every disappointed contracting party can convert inconvenience into a special order, the law ceases to be a common structure. The powerful become better at obtaining urgent relief. The persistent can wear institutions down. The sympathetic case in front of the decision-maker can eclipse the unseen cases that depended on the rule being applied consistently.
 
@@ -48,7 +51,7 @@ But the federal story also shows the need for consolidation. Separate systems ca
 
 That movement will recur in the chapters that follow. First, a rule protects against unequal judgment. Then the rule hardens. Then a corrective appears. Then the corrective must be bounded so it does not become the new source of unequal judgment. The history of equity gives this pattern one of its earliest legal shapes.
 
-The petition is humble because it does not pretend to redesign the system all at once. It asks for a hearing in the case at hand. Yet embedded in that request is a larger institutional demand. The petitioner is saying: your categories may be lawful and still incomplete. Your ordinary remedy may be regular and still inadequate. If the system has no lawful way to hear this, then the system's orderliness has become too small for its own promise.
+The petition is modest because it does not pretend to redesign the system all at once. It asks for a hearing in the case at hand. Yet embedded in that request is a larger institutional demand. The petitioner is saying: your categories may be lawful and still incomplete. Your ordinary remedy may be regular and still inadequate. If the system has no lawful way to hear this, then the system's orderliness has become too small for its own promise.
 
 This is not an argument for every claim to prevail. Most petitions should fail if the rule actually fits, if the remedy at law is adequate, or if the requested relief would harm others in ways the petitioner has not acknowledged. Equity is not a license to prefer the visible sufferer over the invisible public. It must preserve the general rule's strongest reason: to make justice less dependent on personal favor.
 
@@ -56,7 +59,7 @@ But where the ordinary form has genuinely mistaken the case, the petition perfor
 
 That record also lets the institution learn without pretending that every hard case requires a new code. A petition can reveal a recurring edge. If the same mismatch appears often enough, the second doorway may teach the first doorway how to change.
 
-Return, then, to the object. A petition can be small enough to hold in one hand. It can be written in ordinary language by someone who has run out of ordinary options. Lumley's petition did not abolish contract law, damages, or the refusal to compel personal service. It stood beside those rules, asking Chancery to notice that their protections had left a different injury exposed.
+Return, then, to the object. A petition can be small enough to hold in one hand. It may be filed by a manager protecting a commercial bargain, or by someone who has run out of ordinary options. Those are not the same social situations. They share an institutional structure: a request that another jurisdiction notice an injury the ordinary remedy cannot prevent. Lumley's bill in Chancery did not abolish contract law, damages, or the refusal to compel personal service. It stood beside those rules, asking equity to notice that their protections had left a different injury exposed.
 
 The petition does not abolish the printed form. It asks for the kind of attention the form cannot give.
 
@@ -67,8 +70,6 @@ A lawful exception is not an escape from rules. It is the point at which the rul
 :::
 
 [^c5-lumley]: *Lumley v. Wagner* (1852) 1 De G.M. & G. 604; 42 Eng. Rep. 687; BAILII, "[1852] EWHC Ch J96," https://www.bailii.org/ew/cases/EWHC/Ch/1852/J96.html.
-
-[^c5-lumley-summary]: British and Irish Legal Information Institute, *Lumley v. Wagner*; see also Encyclopedia.com, "Lumley v. Wagner," https://www.encyclopedia.com/law/encyclopedias-almanacs-transcripts-and-maps/lumley-v-wagner.
 
 [^c5-fjc-equity]: Federal Judicial Center, "Jurisdiction: Equity," https://www.fjc.gov/history/work-courts/jurisdiction-equity.
 
