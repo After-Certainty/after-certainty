@@ -6,15 +6,15 @@ Counts **G / P / S / T** = glossary / patterns / sources / thinkers with `relate
 
 Portfolio: **34** book specs (33 titles; WOLTY v1 + v2).
 
-## Tier 1 — No / near-zero graph extraction (first-pass needed)
+## Tier 1 — First-pass extraction (updated 2026-08-01)
 
 | Book | Type | G/P/S/T | Ch | Biblio | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| `no-time-to-think` | nonfiction | 0/0/0/0 | 0/16 | no | Newly promoted; overview already names concepts/patterns; missing search aliases + discovery paths |
-| `the-case-that-does-not-fit` | nonfiction | 0/0/0/0 | 0/16 | no | Same as above |
-| `the-world-we-make-together` | nonfiction | 0/0/0/0 | 16/16 | **yes** (54) | Chapters done; sources never extracted — biblio drift: 40 missing + 14 missing `relatedBooks` |
+| `no-time-to-think` | nonfiction | 6/5/0/0 | 0/16 | no | Overview concepts/patterns wired; search aliases + question/trail/shelf added; no manuscript glossary/biblio yet |
+| `the-case-that-does-not-fit` | nonfiction | 6/3/0/0 | 0/16 | no | Same pattern as NTTT |
+| `the-world-we-make-together` | nonfiction | 5/2/54/13 | 16/16 | **yes** (54) | Sources promoted (biblio drift now 54 matched / 0 missing); key thinkers added; overview concepts/patterns wired |
 
-**Follow-up skills:** `glossary-extract` / wire `relatedBooks` for NTTT + Case; `semantic-sources` (+ thinkers) for World We Make Together.
+**Remaining follow-ups:** chapter summaries for NTTT/Case; richer org thinker promotion for World; glossary enrichment beyond overview spine.
 
 ## Tier 2 — Sources present; glossary linking and/or chapters thin (refresh)
 

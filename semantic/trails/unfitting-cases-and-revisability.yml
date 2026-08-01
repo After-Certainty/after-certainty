@@ -1,0 +1,49 @@
+id: unfitting-cases-and-revisability
+slug: unfitting-cases-and-revisability
+title: Room for the Unfitting Case
+summary: How rules compress reality for fairness—and what architecture keeps judgment possible when the leftover case becomes decisive.
+orientation: Useful compression leaves detail behind. This trail moves from compression through The Case
+  That Does Not Fit into revisability and the temptations of premature finality.
+status: published
+featured: false
+themes:
+- Judgment
+- Rules
+- Revisability
+depth: intermediate
+primaryBookId: book-the-case-that-does-not-fit
+relatedTrailIds:
+- judgment-before-certainty
+- protected-judgment-under-speed
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-compression
+  description: Begin with compression as the cost of comparable, defendable rules.
+- position: 2
+  entityType: concept
+  entityId: concept-legitimacy
+  description: See why rule-following claims fairness—and when that claim fails the leftover case.
+  whyThisFollows: Legitimacy frays when the ignored detail is the morally decisive one.
+- position: 3
+  entityType: book
+  entityId: book-the-case-that-does-not-fit
+  description: Read how systems make—or refuse—room for the case their rules cannot understand.
+  whyThisFollows: This is the primary depth for the trail.
+- position: 4
+  entityType: pattern
+  entityId: pattern-revisability-preserves-judgment
+  description: Notice architecture that treats revision as accountability rather than collapse.
+  whyThisFollows: Room for the case is institutional, not only personal mercy.
+- position: 5
+  entityType: pattern
+  entityId: pattern-finality-compensates-for-uncertainty
+  description: Watch for forceful closure that substitutes for living with unresolved fit.
+  whyThisFollows: Finality often arrives exactly where the leftover case is most uncomfortable.
+- position: 6
+  entityType: pattern
+  entityId: pattern-dissent-is-welcomed
+  description: See whether dissent can surface the unfitting detail before harm compounds.
+  whyThisFollows: Without welcomed dissent, reconsideration never gets a hearing.
+closingReflection: Fair rules still need a path back when reality exceeds the category.
+suggestedContinuation: If speed is what made the leftover case invisible, follow Protected Judgment Under Speed.

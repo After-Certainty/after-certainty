@@ -19,6 +19,8 @@ relatedPatterns:
 relatedBooks:
 - when-others-look-to-you-v1
 - coupling
+- no-time-to-think
+- the-case-that-does-not-fit
 recognitionSignals:
 - someone interrupts the agenda to hold at an inconvenient slide without being treated
   as disloyal

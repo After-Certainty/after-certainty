@@ -202,15 +202,6 @@
           "sourceName": "Dennis F Thompson — Moral Responsibility of Public Officials: The"
         },
         {
-          "biblioSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of",
-          "sourceSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of",
-          "score": 100,
-          "method": "exact_slug",
-          "biblioTitle": "Moral Boundaries: A Political Argument for an Ethic of",
-          "biblioAuthor": "Joan C Tronto",
-          "sourceName": "Joan C Tronto — Moral Boundaries: A Political Argument for an Ethic of"
-        },
-        {
           "biblioSlug": "walzer-michael-just-and-unjust-wars-a-moral-argument-with-historical",
           "sourceSlug": "walzer-michael-just-and-unjust-wars-a-moral-argument-with-historical",
           "score": 100,
@@ -254,6 +245,15 @@
           "biblioTitle": "#Republic: Divided Democracy in the Age of Social",
           "biblioAuthor": "Cass R Sunstein",
           "sourceName": "Cass R Sunstein — #Republic: Divided Democracy in the Age of Social Media"
+        },
+        {
+          "biblioSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of",
+          "sourceSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care",
+          "score": 85,
+          "method": "title_author",
+          "biblioTitle": "Moral Boundaries: A Political Argument for an Ethic of",
+          "biblioAuthor": "Joan C Tronto",
+          "sourceName": "Joan C Tronto — Moral Boundaries: A Political Argument for an Ethic of Care"
         }
       ],
       "missing_in_semantic": [],
@@ -4023,251 +4023,350 @@
         "other styles also matched: plain_chicago=53"
       ],
       "biblio_count": 54,
-      "linked_count": 0,
-      "matched": [],
-      "missing_in_semantic": [
+      "linked_count": 54,
+      "matched": [
         {
           "biblioSlug": "abate-tom-nummi-workers-say-their-final-good-byes",
+          "sourceSlug": "abate-tom-nummi-workers-say-their-final-good-byes",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Nummi workers say their final good-byes",
           "biblioAuthor": "Tom Abate",
-          "summary": "Abate, Tom. \"Nummi workers say their final good-byes.\" *San Francisco Chronicle*, April 2, 2010. https://www.sfgate.com/bayarea/article/Nummi-workers-say-their-final-good-byes-3194045.php."
+          "sourceName": "Tom Abate — Nummi workers say their final good-byes"
         },
         {
           "biblioSlug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
+          "sourceSlug": "adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "The 'Learning Bureaucracy': New United Motor Manufacturing, Inc",
           "biblioAuthor": "Paul S Adler",
-          "summary": "Adler, Paul S. \"The 'Learning Bureaucracy': New United Motor Manufacturing, Inc.\" In *Research in Organizational Behavior*, vol. 15, edited by Barry M. Staw and L. L. Cummings, 111-94. Greenwich, CT: "
+          "sourceName": "Paul S Adler — The 'Learning Bureaucracy': New United Motor Manufacturing, Inc"
+        },
+        {
+          "biblioSlug": "belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr",
+          "sourceSlug": "belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "",
+          "biblioAuthor": "*Belfast Agreement* (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement",
+          "sourceName": "*Belfast Agreement* (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement"
         },
         {
           "biblioSlug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
+          "sourceSlug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Black Panther Party's Free Breakfast Program (1969-1980)",
           "biblioAuthor": "BlackPast",
-          "summary": "BlackPast. \"Black Panther Party's Free Breakfast Program (1969-1980).\" https://blackpast.org/african-american-history/black-panther-partys-free-breakfast-program-1969-1980/."
+          "sourceName": "BlackPast — Black Panther Party's Free Breakfast Program (1969-1980)"
+        },
+        {
+          "biblioSlug": "brown-v-board-of-education-347-u-s-483-1954",
+          "sourceSlug": "brown-v-board-of-education-347-u-s-483-1954",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "",
+          "biblioAuthor": "347 U.S. 483 (1954) *Brown v. Board of Education*",
+          "sourceName": "347 U.S. 483 (1954) *Brown v. Board of Education*"
         },
         {
           "biblioSlug": "bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california",
+          "sourceSlug": "bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "G.M. and Toyota's Joint Venture Ends in California",
           "biblioAuthor": "Nick Bunkley",
-          "summary": "Bunkley, Nick. \"G.M. and Toyota's Joint Venture Ends in California.\" *New York Times* Wheels blog, April 2, 2010. https://archive.nytimes.com/wheels.blogs.nytimes.com/2010/04/02/g-m-and-toyotas-joint-"
+          "sourceName": "Nick Bunkley — G.M. and Toyota's Joint Venture Ends in California"
         },
         {
           "biblioSlug": "california-african-american-museum-free-breakfast-for-school-children-program",
+          "sourceSlug": "california-african-american-museum-free-breakfast-for-school-children-program",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Free Breakfast for School Children Program",
           "biblioAuthor": "California African American Museum",
-          "summary": "California African American Museum. \"Free Breakfast for School Children Program.\" https://caamuseum.org/."
+          "sourceName": "California African American Museum — Free Breakfast for School Children Program"
         },
         {
           "biblioSlug": "carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history",
+          "sourceSlug": "carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "On Heroes, Hero-Worship, and the Heroic in History",
           "biblioAuthor": "Thomas Carlyle",
-          "summary": "Carlyle, Thomas. *On Heroes, Hero-Worship, and the Heroic in History*. London: James Fraser, 1841."
+          "sourceName": "Thomas Carlyle — On Heroes, Hero-Worship, and the Heroic in History"
         },
         {
           "biblioSlug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
+          "sourceSlug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities",
           "biblioAuthor": "Church Committee",
-          "summary": "Church Committee. *Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities*. United States Senate. Washington, DC: Government Printing Office, 197"
+          "sourceName": "Church Committee — Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities"
+        },
+        {
+          "biblioSlug": "constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution",
+          "sourceSlug": "constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "",
+          "biblioAuthor": "Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution)",
+          "sourceName": "Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution)"
+        },
+        {
+          "biblioSlug": "eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction",
+          "sourceSlug": "eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "",
+          "biblioAuthor": "Eisenhower, Dwight D. Executive Order 10730, \"Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas.\" 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730",
+          "sourceName": "Eisenhower, Dwight D. Executive Order 10730, \"Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas.\" 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730"
         },
         {
           "biblioSlug": "electoral-commission-of-south-africa-27-apr-1994-national-election",
+          "sourceSlug": "electoral-commission-of-south-africa-27-apr-1994-national-election",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "27 Apr 1994 National Election",
           "biblioAuthor": "Electoral Commission of South Africa",
-          "summary": "Electoral Commission of South Africa. \"27 Apr 1994 National Election\" results archive. https://www.elections.org.za/content/pages/reports/npe/selection.aspx."
+          "sourceName": "Electoral Commission of South Africa — 27 Apr 1994 National Election"
         },
         {
           "biblioSlug": "encyclopedia-of-arkansas-lost-year",
+          "sourceSlug": "encyclopedia-of-arkansas-lost-year",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Lost Year",
           "biblioAuthor": "Encyclopedia of Arkansas",
-          "summary": "Encyclopedia of Arkansas. \"Lost Year.\" https://encyclopediaofarkansas.net/entries/lost-year-737/."
+          "sourceName": "Encyclopedia of Arkansas — Lost Year"
         },
         {
           "biblioSlug": "federal-aviation-administration-mcdonnell-douglas-dc-8-61",
+          "sourceSlug": "federal-aviation-administration-mcdonnell-douglas-dc-8-61",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "McDonnell Douglas DC-8-61",
           "biblioAuthor": "Federal Aviation Administration",
-          "summary": "Federal Aviation Administration. \"McDonnell Douglas DC-8-61\" (N8082U / United Airlines Flight 173). Lessons Learned from Civil Aviation Accidents. https://www.faa.gov/lessons_learned/transport_airplan"
+          "sourceName": "Federal Aviation Administration — McDonnell Douglas DC-8-61"
         },
         {
           "biblioSlug": "feynman-richard-p-personal-observations-on-the-reliability-of-the-shuttle",
+          "sourceSlug": "feynman-richard-p-personal-observations-on-the-reliability-of-the-shuttle",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Personal Observations on the Reliability of the Shuttle",
           "biblioAuthor": "Richard P Feynman",
-          "summary": "Feynman, Richard P. \"Personal Observations on the Reliability of the Shuttle.\" Appendix F in *Report of the Presidential Commission on the Space Shuttle Challenger Accident*, vol. 2. Washington, DC, 1"
+          "sourceName": "Richard P Feynman — Personal Observations on the Reliability of the Shuttle"
         },
         {
           "biblioSlug": "fine-sidney-sit-down-the-general-motors-strike-of-1936-1937",
+          "sourceSlug": "fine-sidney-sit-down-the-general-motors-strike-of-1936-1937",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Sit-Down: The General Motors Strike of 1936-1937",
           "biblioAuthor": "Sidney Fine",
-          "summary": "Fine, Sidney. *Sit-Down: The General Motors Strike of 1936-1937*. Ann Arbor: University of Michigan Press, 1969."
+          "sourceName": "Sidney Fine — Sit-Down: The General Motors Strike of 1936-1937"
         },
         {
           "biblioSlug": "follett-mary-parker-creative-experience",
+          "sourceSlug": "follett-mary-parker-creative-experience",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Creative Experience",
           "biblioAuthor": "Mary Parker Follett",
-          "summary": "Follett, Mary Parker. *Creative Experience*. New York: Longmans, Green, 1924."
+          "sourceName": "Mary Parker Follett — Creative Experience"
         },
         {
           "biblioSlug": "follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett",
+          "sourceSlug": "follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Dynamic Administration: The Collected Papers of Mary Parker Follett",
           "biblioAuthor": "Mary Parker Follett",
-          "summary": "Follett, Mary Parker. *Dynamic Administration: The Collected Papers of Mary Parker Follett*. Edited by Henry C. Metcalf and L. Urwick. New York: Harper & Brothers, 1942."
+          "sourceName": "Mary Parker Follett — Dynamic Administration: The Collected Papers of Mary Parker Follett"
         },
         {
           "biblioSlug": "founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783",
+          "sourceSlug": "founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "From George Washington to Officers of the Army, 15 March 1783",
           "biblioAuthor": "National Archives Founders Online",
-          "summary": "Founders Online, National Archives. \"From George Washington to Officers of the Army, 15 March 1783.\" https://founders.archives.gov/documents/Washington/99-01-02-10840."
+          "sourceName": "National Archives Founders Online — From George Washington to Officers of the Army, 15 March 1783"
         },
         {
           "biblioSlug": "harvard-university-pluralism-project-langar-the-communal-meal",
+          "sourceSlug": "harvard-university-pluralism-project-langar-the-communal-meal",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Langar: The Communal Meal",
           "biblioAuthor": "Harvard University Pluralism Project",
-          "summary": "Harvard University Pluralism Project. \"Langar: The Communal Meal.\" https://pluralism.org/langar-the-communal-meal."
+          "sourceName": "Harvard University Pluralism Project — Langar: The Communal Meal"
         },
         {
           "biblioSlug": "lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark",
+          "sourceSlug": "lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Local and National Leader: Septima P. Clark",
           "biblioAuthor": "Lowcountry Digital History Initiative",
-          "summary": "Lowcountry Digital History Initiative. \"Local and National Leader: Septima P. Clark.\" https://ldhi.library.cofc.edu/exhibits/show/septima_clark/local-and-national-leader."
+          "sourceName": "Lowcountry Digital History Initiative — Local and National Leader: Septima P. Clark"
         },
         {
           "biblioSlug": "lowcountry-digital-history-initiative-the-progressive-club-johns-island",
+          "sourceSlug": "lowcountry-digital-history-initiative-the-progressive-club-johns-island",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "The Progressive Club, Johns Island",
           "biblioAuthor": "Lowcountry Digital History Initiative",
-          "summary": "Lowcountry Digital History Initiative. \"The Progressive Club, Johns Island.\" https://ldhi.library.cofc.edu/exhibits/show/septima_clark/virtual-tour/the-progressive-club."
+          "sourceName": "Lowcountry Digital History Initiative — The Progressive Club, Johns Island"
         },
         {
           "biblioSlug": "martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream",
+          "sourceSlug": "martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "I Have a Dream",
           "biblioAuthor": "Martin Luther King, Jr. Research and Education Institute, Stanford University",
-          "summary": "Martin Luther King, Jr. Research and Education Institute, Stanford University. \"I Have a Dream.\" https://kinginstitute.stanford.edu/i-have-dream."
+          "sourceName": "Martin Luther King, Jr. Research and Education Institute, Stanford University — I Have a Dream"
         },
         {
           "biblioSlug": "mcgregor-douglas-the-human-side-of-enterprise",
+          "sourceSlug": "mcgregor-douglas-the-human-side-of-enterprise",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "The Human Side of Enterprise",
           "biblioAuthor": "Douglas McGregor",
-          "summary": "McGregor, Douglas. *The Human Side of Enterprise*. New York: McGraw-Hill, 1960."
+          "sourceName": "Douglas McGregor — The Human Side of Enterprise"
         },
         {
           "biblioSlug": "mill-john-stuart-considerations-on-representative-government",
+          "sourceSlug": "mill-john-stuart-considerations-on-representative-government",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Considerations on Representative Government",
           "biblioAuthor": "John Stuart Mill",
-          "summary": "Mill, John Stuart. *Considerations on Representative Government*. London: Parker, Son, and Bourn, 1861."
+          "sourceName": "John Stuart Mill — Considerations on Representative Government"
         },
         {
           "biblioSlug": "mount-vernon-newburgh-address",
+          "sourceSlug": "mount-vernon-newburgh-address",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Newburgh Address",
           "biblioAuthor": "Mount Vernon",
-          "summary": "Mount Vernon. \"Newburgh Address.\" https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/newburgh-address."
+          "sourceName": "Mount Vernon — Newburgh Address"
         },
         {
           "biblioSlug": "mount-vernon-newburgh-conspiracy",
+          "sourceSlug": "mount-vernon-newburgh-conspiracy",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Newburgh Conspiracy",
           "biblioAuthor": "Mount Vernon",
-          "summary": "Mount Vernon. \"Newburgh Conspiracy.\" https://www.mountvernon.org/library/digitalhistory/digital-encyclopedia/article/newburgh-conspiracy."
+          "sourceName": "Mount Vernon — Newburgh Conspiracy"
         },
         {
           "biblioSlug": "national-aeronautics-and-space-administration-apollo-11-mission-report",
+          "sourceSlug": "national-aeronautics-and-space-administration-apollo-11-mission-report",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Apollo 11 Mission Report",
           "biblioAuthor": "National Aeronautics and Space Administration",
-          "summary": "National Aeronautics and Space Administration. *Apollo 11 Mission Report*. NASA SP-238. Washington, DC: NASA, 1971."
+          "sourceName": "National Aeronautics and Space Administration — Apollo 11 Mission Report"
         },
         {
           "biblioSlug": "national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era",
+          "sourceSlug": "national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Managing NASA in the Apollo Era",
           "biblioAuthor": "National Aeronautics and Space Administration",
-          "summary": "National Aeronautics and Space Administration. *Managing NASA in the Apollo Era*. NASA SP-4102. Washington, DC: NASA, 1982."
+          "sourceName": "National Aeronautics and Space Administration — Managing NASA in the Apollo Era"
+        },
+        {
+          "biblioSlug": "national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p",
+          "sourceSlug": "national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "",
+          "biblioAuthor": "National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/",
+          "sourceName": "National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/"
         },
         {
           "biblioSlug": "national-museum-of-american-history-i-have-a-dream",
+          "sourceSlug": "national-museum-of-american-history-i-have-a-dream",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "I Have a Dream",
           "biblioAuthor": "National Museum of American History",
-          "summary": "National Museum of American History. \"I Have a Dream\" / March on Washington collection. Washington, DC: Smithsonian Institution. https://americanhistory.si.edu/."
+          "sourceName": "National Museum of American History — I Have a Dream"
+        },
+        {
+          "biblioSlug": "national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c",
+          "sourceSlug": "national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "",
+          "biblioAuthor": "National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/",
+          "sourceName": "National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/"
         },
         {
           "biblioSlug": "national-park-service-march-history",
+          "sourceSlug": "national-park-service-march-history",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "March History",
           "biblioAuthor": "National Park Service",
-          "summary": "National Park Service. \"March History.\" National Mall and Memorial Parks. https://www.nps.gov/nama/mow-history.htm."
+          "sourceName": "National Park Service — March History"
+        },
+        {
+          "biblioSlug": "national-park-service-march-on-washington-for-jobs-and-freedom",
+          "sourceSlug": "national-park-service-march-on-washington-for-jobs-and-freedom",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "March on Washington for Jobs and Freedom",
+          "biblioAuthor": "National Park Service",
+          "sourceName": "National Park Service — March on Washington for Jobs and Freedom"
+        },
+        {
+          "biblioSlug": "national-park-service-pullman-national-historical-park-https-www-nps-gov-pull",
+          "sourceSlug": "national-park-service-pullman-national-historical-park-https-www-nps-gov-pull",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "",
+          "biblioAuthor": "National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/",
+          "sourceName": "National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/"
         },
         {
           "biblioSlug": "national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug",
+          "sourceSlug": "national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Aircraft Accident Report: United Airlines, Inc., McDonnell-Douglas DC-8-61, N8082U, Portland, Oregon, December 28, 1978",
           "biblioAuthor": "National Transportation Safety Board",
-          "summary": "National Transportation Safety Board. *Aircraft Accident Report: United Airlines, Inc., McDonnell-Douglas DC-8-61, N8082U, Portland, Oregon, December 28, 1978*. NTSB-AAR-79-7. Washington, DC: NTSB, 19"
+          "sourceName": "National Transportation Safety Board — Aircraft Accident Report: United Airlines, Inc., McDonnell-Douglas DC-8-61, N8082U, Portland, Oregon, December 28, 1978"
         },
         {
           "biblioSlug": "northern-ireland-department-of-justice-department-of-justice-interface-programme",
+          "sourceSlug": "northern-ireland-department-of-justice-department-of-justice-interface-programme",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "Department of Justice Interface Programme",
           "biblioAuthor": "Northern Ireland Department of Justice",
-          "summary": "Northern Ireland Department of Justice. \"Department of Justice Interface Programme.\" https://www.justice-ni.gov.uk/articles/department-justice-interface-programme."
+          "sourceName": "Northern Ireland Department of Justice — Department of Justice Interface Programme"
         },
         {
-          "biblioSlug": "payne-charles-m-i-ve-got-the-light-of-freedom-the-organizing-tradition-and-the-mississippi-freed",
-          "biblioTitle": "I've Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle",
-          "biblioAuthor": "Charles M Payne",
-          "summary": "Payne, Charles M. *I've Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle*. Berkeley: University of California Press, 1995."
-        },
-        {
-          "biblioSlug": "pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory",
-          "biblioTitle": "A Meta-Analytic Test of Intergroup Contact Theory",
-          "biblioAuthor": "Pettigrew, Thomas F., and Linda R. Tropp",
-          "summary": "Pettigrew, Thomas F., and Linda R. Tropp. \"A Meta-Analytic Test of Intergroup Contact Theory.\" *Journal of Personality and Social Psychology* 90, no. 5 (2006): 751-83."
-        },
-        {
-          "biblioSlug": "reynolds-v-sims-377-u-s-533-1964",
+          "biblioSlug": "northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen",
+          "sourceSlug": "northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "",
-          "biblioAuthor": "377 U.S. 533 (1964) *Reynolds v. Sims*",
-          "summary": "*Reynolds v. Sims*, 377 U.S. 533 (1964)."
+          "biblioAuthor": "Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement",
+          "sourceName": "Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement"
         },
-        {
-          "biblioSlug": "sncc-digital-gateway-birth-of-sncc",
-          "biblioTitle": "Birth of SNCC",
-          "biblioAuthor": "SNCC Digital Gateway",
-          "summary": "SNCC Digital Gateway. \"Birth of SNCC\" / founding conference materials. https://snccdigital.org/."
-        },
-        {
-          "biblioSlug": "south-african-history-online-denis-farrell",
-          "biblioTitle": "Denis Farrell",
-          "biblioAuthor": "South African History Online",
-          "summary": "South African History Online. \"Denis Farrell.\" https://www.sahistory.org.za/people/denis-farrell."
-        },
-        {
-          "biblioSlug": "south-african-history-online-election-results-1994",
-          "biblioTitle": "Election Results 1994",
-          "biblioAuthor": "South African History Online",
-          "summary": "South African History Online. \"Election Results 1994.\" https://www.sahistory.org.za/archive/election-results-1994."
-        },
-        {
-          "biblioSlug": "south-african-history-online-the-south-african-general-elections-1994",
-          "biblioTitle": "The South African general elections: 1994",
-          "biblioAuthor": "South African History Online",
-          "summary": "South African History Online. \"The South African general elections: 1994.\" https://www.sahistory.org.za/article/south-african-general-elections-1994."
-        },
-        {
-          "biblioSlug": "u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs",
-          "biblioTitle": "School Breakfast Program FAQs",
-          "biblioAuthor": "U.S. Department of Agriculture, Food and Nutrition Service",
-          "summary": "U.S. Department of Agriculture, Food and Nutrition Service. \"School Breakfast Program FAQs.\" https://www.fns.usda.gov/sbp/faqs."
-        },
-        {
-          "biblioSlug": "u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie",
-          "biblioTitle": "Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges",
-          "biblioAuthor": "U.S. Government Accountability Office",
-          "summary": "U.S. Government Accountability Office. *Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges*. GAO/AIMD-00-290. Washington, DC: GAO, September 2000. https://www"
-        },
-        {
-          "biblioSlug": "united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894",
-          "biblioTitle": "Report on the Chicago Strike of June-July, 1894",
-          "biblioAuthor": "United States Strike Commission",
-          "summary": "United States Strike Commission. *Report on the Chicago Strike of June-July, 1894*. Washington, DC: Government Printing Office, 1895."
-        },
-        {
-          "biblioSlug": "world-bank-brazil-toward-a-more-inclusive-and-effective-participatory-budget-in-porto-alegre",
-          "biblioTitle": "Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre",
-          "biblioAuthor": "World Bank",
-          "summary": "World Bank. *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre*. Report No. 40144-BR. Vol. 1, Main Report. Washington, DC: World Bank, January 29, 2008. https://docume"
-        }
-      ],
-      "missing_related_books": [
         {
           "biblioSlug": "ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action",
           "sourceSlug": "ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action",
@@ -4275,15 +4374,34 @@
           "method": "exact_slug",
           "biblioTitle": "Governing the Commons: The Evolution of Institutions for Collective Action",
           "biblioAuthor": "Elinor Ostrom",
-          "sourceName": "Elinor Ostrom — Governing the Commons: The Evolution of Institutions for Collective Action",
-          "sourceRelatedBooks": [
-            "coupling",
-            "how-trust-forms",
-            "living-in-sediment",
-            "trust-beyond-similarity",
-            "when-trust-stops-tracking-reality",
-            "why-collaboration-is-so-hard"
-          ]
+          "sourceName": "Elinor Ostrom — Governing the Commons: The Evolution of Institutions for Collective Action"
+        },
+        {
+          "biblioSlug": "payne-charles-m-i-ve-got-the-light-of-freedom-the-organizing-tradition-and-the-mississippi-freed",
+          "sourceSlug": "payne-charles-m-i-ve-got-the-light-of-freedom-the-organizing-tradition-and-the-mississippi-freed",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "I've Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle",
+          "biblioAuthor": "Charles M Payne",
+          "sourceName": "Charles M Payne — I've Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle"
+        },
+        {
+          "biblioSlug": "pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory",
+          "sourceSlug": "pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "A Meta-Analytic Test of Intergroup Contact Theory",
+          "biblioAuthor": "Pettigrew, Thomas F., and Linda R. Tropp",
+          "sourceName": "Pettigrew, Thomas F., and Linda R. Tropp — A Meta-Analytic Test of Intergroup Contact Theory"
+        },
+        {
+          "biblioSlug": "presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the",
+          "sourceSlug": "presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
+          "biblioAuthor": "Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission)",
+          "sourceName": "Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission) — Report of the Presidential Commission on the Space Shuttle Challenger Accident"
         },
         {
           "biblioSlug": "ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision",
@@ -4292,157 +4410,110 @@
           "method": "exact_slug",
           "biblioTitle": "Ella Baker and the Black Freedom Movement: A Radical Democratic Vision",
           "biblioAuthor": "Barbara Ransby",
-          "sourceName": "Barbara Ransby — Ella Baker and the Black Freedom Movement: A Radical Democratic Vision — Ella Baker and the Black Freedom Movement: A Radical Democratic Vision",
-          "sourceRelatedBooks": [
-            "when-others-become-leaders"
-          ]
+          "sourceName": "Barbara Ransby — Ella Baker and the Black Freedom Movement: A Radical Democratic Vision — Ella Baker and the Black Freedom Movement: A Radical Democratic Vision"
         },
         {
-          "biblioSlug": "national-park-service-march-on-washington-for-jobs-and-freedom",
-          "sourceSlug": "national-archives-u-s-official-demands-march-on-washington-for-jobs-and-freedom-1963",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "March on Washington for Jobs and Freedom",
-          "biblioAuthor": "National Park Service",
-          "sourceName": "National Archives (U.S.) — Official demands, March on Washington for Jobs and Freedom",
-          "sourceRelatedBooks": [
-            "when-others-become-leaders"
-          ]
-        },
-        {
-          "biblioSlug": "presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the",
-          "sourceSlug": "president-s-commission-on-the-space-shuttle-challenger-accident-report-of-the-presidential-commi",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Report of the Presidential Commission on the Space Shuttle Challenger Accident",
-          "biblioAuthor": "Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission)",
-          "sourceName": "President's Commission on the Space Shuttle Challenger Accident — Report of the Presidential Commission on the Space Shuttle Challenger Accident",
-          "sourceRelatedBooks": [
-            "what-we-cannot-see"
-          ]
-        },
-        {
-          "biblioSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care",
-          "sourceSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of",
-          "score": 85,
-          "method": "title_author",
-          "biblioTitle": "Moral Boundaries: A Political Argument for an Ethic of Care",
-          "biblioAuthor": "Joan C Tronto",
-          "sourceName": "Joan C Tronto — Moral Boundaries: A Political Argument for an Ethic of",
-          "sourceRelatedBooks": [
-            "after-certainty"
-          ]
-        },
-        {
-          "biblioSlug": "belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr",
-          "sourceSlug": "congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions",
-          "score": 58,
-          "method": "summary_overlap",
+          "biblioSlug": "reynolds-v-sims-377-u-s-533-1964",
+          "sourceSlug": "reynolds-v-sims-377-u-s-533-1964",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "",
-          "biblioAuthor": "*Belfast Agreement* (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement",
-          "sourceName": "Congressional Record — 111th Congress debate on Affordable Care Act and public-option provisions",
-          "sourceRelatedBooks": [
-            "when-incentives-become-the-moral-language"
-          ]
+          "biblioAuthor": "377 U.S. 533 (1964) *Reynolds v. Sims*",
+          "sourceName": "377 U.S. 533 (1964) *Reynolds v. Sims*"
         },
         {
-          "biblioSlug": "brown-v-board-of-education-347-u-s-483-1954",
-          "sourceSlug": "board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "347 U.S. 483 (1954) *Brown v. Board of Education*",
-          "sourceName": "Board of Governors of the Federal Reserve System — Beige Book: Summary of Commentary on Current Economic Conditions by Federal Reserve District — Beige Book: Summary of Commentary on Current Economic Conditions by Federal Reserve District",
-          "sourceRelatedBooks": [
-            "the-economy-we-dont-experience"
-          ]
+          "biblioSlug": "sncc-digital-gateway-birth-of-sncc",
+          "sourceSlug": "sncc-digital-gateway-birth-of-sncc",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Birth of SNCC",
+          "biblioAuthor": "SNCC Digital Gateway",
+          "sourceName": "SNCC Digital Gateway — Birth of SNCC"
         },
         {
-          "biblioSlug": "constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution",
-          "sourceSlug": "desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution)",
-          "sourceName": "Desai, Ashwin, and Goolam Vahed — The South African Gandhi: Stretcher-Bearer of Empire — The South African Gandhi: Stretcher-Bearer of Empire",
-          "sourceRelatedBooks": [
-            "when-others-become-leaders"
-          ]
+          "biblioSlug": "south-african-history-online-denis-farrell",
+          "sourceSlug": "south-african-history-online-denis-farrell",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Denis Farrell",
+          "biblioAuthor": "South African History Online",
+          "sourceName": "South African History Online — Denis Farrell"
         },
         {
-          "biblioSlug": "eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction",
-          "sourceSlug": "agamben-giorgio-state-of-exception",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "Eisenhower, Dwight D. Executive Order 10730, \"Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas.\" 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730",
-          "sourceName": "Giorgio Agamben — State of Exception",
-          "sourceRelatedBooks": [
-            "when-others-look-to-you-v1",
-            "when-others-look-to-you-v2"
-          ]
+          "biblioSlug": "south-african-history-online-election-results-1994",
+          "sourceSlug": "south-african-history-online-election-results-1994",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Election Results 1994",
+          "biblioAuthor": "South African History Online",
+          "sourceName": "South African History Online — Election Results 1994"
         },
         {
-          "biblioSlug": "national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p",
-          "sourceSlug": "albertz-rainer-israel-in-exile-the-history-and-literature-of-the",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/",
-          "sourceName": "Rainer Albertz — Israel in Exile: The History and Literature of the — Israel in Exile: The History and Literature of the",
-          "sourceRelatedBooks": [
-            "before-certainty-arrives"
-          ]
-        },
-        {
-          "biblioSlug": "national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c",
-          "sourceSlug": "carlin-john-playing-the-enemy-nelson-mandela-and-the-game-that-made-a-nation",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/",
-          "sourceName": "John Carlin — Playing the Enemy: Nelson Mandela and the Game That Made a Nation — Playing the Enemy: Nelson Mandela and the Game That Made a Nation",
-          "sourceRelatedBooks": [
-            "when-others-become-leaders"
-          ]
-        },
-        {
-          "biblioSlug": "national-park-service-pullman-national-historical-park-https-www-nps-gov-pull",
-          "sourceSlug": "cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/",
-          "sourceName": "CNN Politics — Trump: NFL Owners Should Fire Players Who Protest the National Anthem",
-          "sourceRelatedBooks": [
-            "the-game-we-think-we-saw"
-          ]
-        },
-        {
-          "biblioSlug": "northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen",
-          "sourceSlug": "board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate",
-          "score": 58,
-          "method": "summary_overlap",
-          "biblioTitle": "",
-          "biblioAuthor": "Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement",
-          "sourceName": "Board of Governors of the Federal Reserve System — Supervisory bank stress-test results and related supervisory materials. Washington, DC: Federal Reserve Board, 2011-2024 — Supervisory bank stress-test results and related supervisory materials. Washington, DC: Federal Reserve Board, 2011-2024",
-          "sourceRelatedBooks": [
-            "the-economy-we-dont-experience"
-          ]
+          "biblioSlug": "south-african-history-online-the-south-african-general-elections-1994",
+          "sourceSlug": "south-african-history-online-the-south-african-general-elections-1994",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "The South African general elections: 1994",
+          "biblioAuthor": "South African History Online",
+          "sourceName": "South African History Online — The South African general elections: 1994"
         },
         {
           "biblioSlug": "sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f",
-          "sourceSlug": "arrington-leonard-j-great-basin-kingdom",
-          "score": 58,
-          "method": "summary_overlap",
+          "sourceSlug": "sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f",
+          "score": 100,
+          "method": "exact_slug",
           "biblioTitle": "",
           "biblioAuthor": "especially the commons\"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom (\"for her analysis of economic governance",
-          "sourceName": "Leonard J. Arrington — Great Basin Kingdom: An Economic History of the Latter-day Saints, 1830–1900",
-          "sourceRelatedBooks": [
-            "learning-to-see"
-          ]
+          "sourceName": "especially the commons\"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom (\"for her analysis of economic governance"
+        },
+        {
+          "biblioSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care",
+          "sourceSlug": "tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Moral Boundaries: A Political Argument for an Ethic of Care",
+          "biblioAuthor": "Joan C Tronto",
+          "sourceName": "Joan C Tronto — Moral Boundaries: A Political Argument for an Ethic of Care"
+        },
+        {
+          "biblioSlug": "u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs",
+          "sourceSlug": "u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "School Breakfast Program FAQs",
+          "biblioAuthor": "U.S. Department of Agriculture, Food and Nutrition Service",
+          "sourceName": "U.S. Department of Agriculture, Food and Nutrition Service — School Breakfast Program FAQs"
+        },
+        {
+          "biblioSlug": "u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie",
+          "sourceSlug": "u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges",
+          "biblioAuthor": "U.S. Government Accountability Office",
+          "sourceName": "U.S. Government Accountability Office — Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges"
+        },
+        {
+          "biblioSlug": "united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894",
+          "sourceSlug": "united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Report on the Chicago Strike of June-July, 1894",
+          "biblioAuthor": "United States Strike Commission",
+          "sourceName": "United States Strike Commission — Report on the Chicago Strike of June-July, 1894"
+        },
+        {
+          "biblioSlug": "world-bank-brazil-toward-a-more-inclusive-and-effective-participatory-budget-in-porto-alegre",
+          "sourceSlug": "world-bank-brazil-toward-a-more-inclusive-and-effective-participatory-budget-in-porto-alegre",
+          "score": 100,
+          "method": "exact_slug",
+          "biblioTitle": "Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre",
+          "biblioAuthor": "World Bank",
+          "sourceName": "World Bank — Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre"
         }
       ],
+      "missing_in_semantic": [],
+      "missing_related_books": [],
       "stale_related_books": [],
       "thinker_stale": [],
       "creator_missing_thinker": [
@@ -4467,20 +4538,12 @@
           "creatorName": "California African American Museum"
         },
         {
-          "creatorSlug": "charles-m-payne",
-          "creatorName": "Charles M Payne"
-        },
-        {
           "creatorSlug": "church-committee",
           "creatorName": "Church Committee"
         },
         {
           "creatorSlug": "constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution",
           "creatorName": "Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution)"
-        },
-        {
-          "creatorSlug": "douglas-mcgregor",
-          "creatorName": "Douglas McGregor"
         },
         {
           "creatorSlug": "eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction-of-justice-within-the-state-of-arkansas-24-september-1957-national-archives-https-www-archives-gov-milestone-documents-executive-order-10730",
@@ -4507,20 +4570,12 @@
           "creatorName": "Harvard University Pluralism Project"
         },
         {
-          "creatorSlug": "john-stuart-mill",
-          "creatorName": "John Stuart Mill"
-        },
-        {
           "creatorSlug": "lowcountry-digital-history-initiative",
           "creatorName": "Lowcountry Digital History Initiative"
         },
         {
           "creatorSlug": "martin-luther-king-jr-research-and-education-institute-stanford-university",
           "creatorName": "Martin Luther King, Jr. Research and Education Institute, Stanford University"
-        },
-        {
-          "creatorSlug": "mary-parker-follett",
-          "creatorName": "Mary Parker Follett"
         },
         {
           "creatorSlug": "mount-vernon",
@@ -4571,10 +4626,6 @@
           "creatorName": "Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement"
         },
         {
-          "creatorSlug": "paul-s-adler",
-          "creatorName": "Paul S Adler"
-        },
-        {
           "creatorSlug": "pettigrew-thomas-f-and-linda-r-tropp",
           "creatorName": "Pettigrew, Thomas F., and Linda R. Tropp"
         },
@@ -4583,20 +4634,8 @@
           "creatorName": "Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission)"
         },
         {
-          "creatorSlug": "richard-p-feynman",
-          "creatorName": "Richard P Feynman"
-        },
-        {
-          "creatorSlug": "sidney-fine",
-          "creatorName": "Sidney Fine"
-        },
-        {
           "creatorSlug": "sncc-digital-gateway",
           "creatorName": "SNCC Digital Gateway"
-        },
-        {
-          "creatorSlug": "thomas-carlyle",
-          "creatorName": "Thomas Carlyle"
         },
         {
           "creatorSlug": "tom-abate",
@@ -4615,7 +4654,133 @@
           "creatorName": "United States Strike Commission"
         }
       ],
-      "orphan_creator_slugs": [],
+      "orphan_creator_slugs": [
+        {
+          "creatorSlug": "tom-abate",
+          "sourceSlug": "abate-tom-nummi-workers-say-their-final-good-byes",
+          "sourceName": "Tom Abate — Nummi workers say their final good-byes"
+        },
+        {
+          "creatorSlug": "blackpast",
+          "sourceSlug": "blackpast-black-panther-party-s-free-breakfast-program-1969-1980",
+          "sourceName": "BlackPast — Black Panther Party's Free Breakfast Program (1969-1980)"
+        },
+        {
+          "creatorSlug": "nick-bunkley",
+          "sourceSlug": "bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california",
+          "sourceName": "Nick Bunkley — G.M. and Toyota's Joint Venture Ends in California"
+        },
+        {
+          "creatorSlug": "california-african-american-museum",
+          "sourceSlug": "california-african-american-museum-free-breakfast-for-school-children-program",
+          "sourceName": "California African American Museum — Free Breakfast for School Children Program"
+        },
+        {
+          "creatorSlug": "church-committee",
+          "sourceSlug": "church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp",
+          "sourceName": "Church Committee — Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities"
+        },
+        {
+          "creatorSlug": "electoral-commission-of-south-africa",
+          "sourceSlug": "electoral-commission-of-south-africa-27-apr-1994-national-election",
+          "sourceName": "Electoral Commission of South Africa — 27 Apr 1994 National Election"
+        },
+        {
+          "creatorSlug": "encyclopedia-of-arkansas",
+          "sourceSlug": "encyclopedia-of-arkansas-lost-year",
+          "sourceName": "Encyclopedia of Arkansas — Lost Year"
+        },
+        {
+          "creatorSlug": "federal-aviation-administration",
+          "sourceSlug": "federal-aviation-administration-mcdonnell-douglas-dc-8-61",
+          "sourceName": "Federal Aviation Administration — McDonnell Douglas DC-8-61"
+        },
+        {
+          "creatorSlug": "national-archives-founders-online",
+          "sourceSlug": "founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783",
+          "sourceName": "National Archives Founders Online — From George Washington to Officers of the Army, 15 March 1783"
+        },
+        {
+          "creatorSlug": "harvard-university-pluralism-project",
+          "sourceSlug": "harvard-university-pluralism-project-langar-the-communal-meal",
+          "sourceName": "Harvard University Pluralism Project — Langar: The Communal Meal"
+        },
+        {
+          "creatorSlug": "lowcountry-digital-history-initiative",
+          "sourceSlug": "lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark",
+          "sourceName": "Lowcountry Digital History Initiative — Local and National Leader: Septima P. Clark"
+        },
+        {
+          "creatorSlug": "lowcountry-digital-history-initiative",
+          "sourceSlug": "lowcountry-digital-history-initiative-the-progressive-club-johns-island",
+          "sourceName": "Lowcountry Digital History Initiative — The Progressive Club, Johns Island"
+        },
+        {
+          "creatorSlug": "mount-vernon",
+          "sourceSlug": "mount-vernon-newburgh-address",
+          "sourceName": "Mount Vernon — Newburgh Address"
+        },
+        {
+          "creatorSlug": "mount-vernon",
+          "sourceSlug": "mount-vernon-newburgh-conspiracy",
+          "sourceName": "Mount Vernon — Newburgh Conspiracy"
+        },
+        {
+          "creatorSlug": "national-aeronautics-and-space-administration",
+          "sourceSlug": "national-aeronautics-and-space-administration-apollo-11-mission-report",
+          "sourceName": "National Aeronautics and Space Administration — Apollo 11 Mission Report"
+        },
+        {
+          "creatorSlug": "national-aeronautics-and-space-administration",
+          "sourceSlug": "national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era",
+          "sourceName": "National Aeronautics and Space Administration — Managing NASA in the Apollo Era"
+        },
+        {
+          "creatorSlug": "national-museum-of-american-history",
+          "sourceSlug": "national-museum-of-american-history-i-have-a-dream",
+          "sourceName": "National Museum of American History — I Have a Dream"
+        },
+        {
+          "creatorSlug": "national-park-service",
+          "sourceSlug": "national-park-service-march-history",
+          "sourceName": "National Park Service — March History"
+        },
+        {
+          "creatorSlug": "national-park-service",
+          "sourceSlug": "national-park-service-march-on-washington-for-jobs-and-freedom",
+          "sourceName": "National Park Service — March on Washington for Jobs and Freedom"
+        },
+        {
+          "creatorSlug": "national-transportation-safety-board",
+          "sourceSlug": "national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug",
+          "sourceName": "National Transportation Safety Board — Aircraft Accident Report: United Airlines, Inc., McDonnell-Douglas DC-8-61, N8082U, Portland, Oregon, December 28, 1978"
+        },
+        {
+          "creatorSlug": "northern-ireland-department-of-justice",
+          "sourceSlug": "northern-ireland-department-of-justice-department-of-justice-interface-programme",
+          "sourceName": "Northern Ireland Department of Justice — Department of Justice Interface Programme"
+        },
+        {
+          "creatorSlug": "pettigrew-thomas-f-and-linda-r-tropp",
+          "sourceSlug": "pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory",
+          "sourceName": "Pettigrew, Thomas F., and Linda R. Tropp — A Meta-Analytic Test of Intergroup Contact Theory"
+        },
+        {
+          "creatorSlug": "sncc-digital-gateway",
+          "sourceSlug": "sncc-digital-gateway-birth-of-sncc",
+          "sourceName": "SNCC Digital Gateway — Birth of SNCC"
+        },
+        {
+          "creatorSlug": "u-s-government-accountability-office",
+          "sourceSlug": "u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie",
+          "sourceName": "U.S. Government Accountability Office — Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges"
+        },
+        {
+          "creatorSlug": "united-states-strike-commission",
+          "sourceSlug": "united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894",
+          "sourceName": "United States Strike Commission — Report on the Chicago Strike of June-July, 1894"
+        }
+      ],
       "weak_parse": false
     },
     {
@@ -9206,9 +9371,9 @@
     }
   ],
   "totals": {
-    "matched": 775,
-    "missingInSemantic": 54,
-    "missingRelatedBooks": 16,
+    "matched": 829,
+    "missingInSemantic": 14,
+    "missingRelatedBooks": 2,
     "staleRelatedBooks": 26
   }
 }

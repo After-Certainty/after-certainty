@@ -1,0 +1,54 @@
+id: room-for-the-unfitting-case
+slug: room-for-the-unfitting-case
+question: How can a system make room for the case its rules cannot understand without turning judgment into arbitrary power?
+summary: Rules protect people from arbitrary judgment by compressing reality—until the ignored detail becomes
+  decisive and institutions need architecture for reconsideration.
+orientation: Every rule leaves something out. When the leftover case matters, appeals, accommodation, and
+  dissent channels must keep judgment corrigible without dissolving into pure discretion.
+whatThisIsNot:
+- Not a rejection of rules or standards.
+- Not a license for arbitrary managerial power.
+- Not an argument that every exception should override the rule.
+status: published
+featured: false
+families:
+- Judgment and uncertainty
+- Systems and organizations
+primaryBookId: book-the-case-that-does-not-fit
+relatedQuestionIds:
+- act-before-certainty-arrives
+- temporary-exceptions-become-permanent
+- sincere-people-still-wrong
+searchHints:
+- case that does not fit
+- rules and exceptions
+- reconsideration
+- compression and judgment
+pathStops:
+- position: 1
+  entityType: concept
+  entityId: concept-compression
+  description: Begin with compression—rules make action comparable by leaving detail behind.
+  whyThisFollows: The unfitting case is produced by useful compression, not only by error.
+- position: 2
+  entityType: concept
+  entityId: concept-revisability
+  description: See revisability as institutional capacity to reopen a settled call when reality returns.
+  whyThisFollows: Room for the case is architecture, not only individual mercy.
+- position: 3
+  entityType: book
+  entityId: book-the-case-that-does-not-fit
+  description: 'Primary book: how systems make—or refuse—room for the case their rules cannot understand.'
+  whyThisFollows: This volume holds the tension between rule protection and judgment under leftover detail.
+- position: 4
+  entityType: pattern
+  entityId: pattern-revisability-preserves-judgment
+  description: Notice when revision is still treated as accountability rather than collapse.
+  whyThisFollows: Corrigibility keeps judgment responsible when the exception is real.
+- position: 5
+  entityType: pattern
+  entityId: pattern-finality-compensates-for-uncertainty
+  description: Watch for forceful closure that papers over unresolved uncertainty.
+  whyThisFollows: Finality often substitutes for living with the case that still does not fit.
+closingReflection: Rules need leftover-case architecture—or they become injustice with a clean audit trail.
+carryForwardQuestion: Where does your system lack a path back when the ignored detail becomes decisive?
