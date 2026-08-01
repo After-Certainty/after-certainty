@@ -10,7 +10,7 @@ It gives a category, a place, a deadline, and an instruction. Report here. Bring
 
 An exclusion order is a rule with a door behind it. The door does not open into review. It opens into removal.
 
-This chapter must be careful about comparison. Executive Order 9066 and the forced removal and incarceration of Japanese Americans during World War II occupy their own historical and moral place. The point here is not to claim that present cases are identical to that history. They are not. The point is structural: under fear, institutions can replace individualized judgment with category, and once they do, the category can become powerful enough to carry people away.
+This chapter must be careful about comparison. Executive Order 9066 and the forced removal and incarceration of Japanese Americans during World War II occupy their own historical and moral place. The point here is not to claim that present cases are identical to that history. They are not. The warning is non-identity, not equivalence: under fear, institutions can replace individualized judgment with category, and once they do, the category can become powerful enough to carry people away.
 
 The strongest reason for emergency authority should be stated plainly. Governments sometimes face danger that is real, urgent, and not fully legible in advance. War, attack, epidemic, natural disaster, and sudden violence can require action before ordinary processes are complete. Institutions that cannot act under emergency may fail in their most basic duty to protect life and public security. A rule of government that treats every urgent decision as though it could wait for perfect information is not serious.
 
