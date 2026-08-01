@@ -107,7 +107,11 @@ def test_force_contact_distinct_from_glossary_contact() -> None:
     force = _load_yml(SEMANTIC / "forces" / "contact.yml")
     concept = _load_yml(SEMANTIC / "glossary" / "contact.yml")
     assert force["slug"] == concept["slug"] == "contact"
-    assert "organizing" in force["description"].lower() or "decision" in force["description"].lower()
-    assert "said" in concept["shortDefinition"].lower() or "dialogue" in concept.get(
-        "longDefinition", ""
-    ).lower() or "meaning" in concept["shortDefinition"].lower()
+    assert (
+        "organizing" in force["description"].lower() or "decision" in force["description"].lower()
+    )
+    assert (
+        "said" in concept["shortDefinition"].lower()
+        or "dialogue" in concept.get("longDefinition", "").lower()
+        or "meaning" in concept["shortDefinition"].lower()
+    )

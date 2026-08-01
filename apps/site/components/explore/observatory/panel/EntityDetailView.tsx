@@ -15,6 +15,7 @@ import {
   relatedContentForConcept,
   relatedContentForPattern,
   relatedContentForSituation,
+  relatedContentForForce,
   relatedContentForSource,
   relatedContentForThinker,
 } from "@/lib/graph/relatedContent";
@@ -70,7 +71,9 @@ export function EntityDetailView({
             ? relatedContentForBook(index, node.entity)
             : node.kind === "thinker"
               ? relatedContentForThinker(index, node.entity)
-              : relatedContentForSource(index, node.entity);
+              : node.kind === "force"
+                ? relatedContentForForce(index, node.entity)
+                : relatedContentForSource(index, node.entity);
 
   const hasRelatedTerrain =
     bundle.concepts.length > 0 ||

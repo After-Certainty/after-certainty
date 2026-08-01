@@ -1871,9 +1871,11 @@ def run_audit(
         if isinstance(row, dict) and str(row.get("slug", "")).strip()
     }
     if not force_slugs:
-        force_slugs = {
-            p.stem for p in (repo / SEMANTIC / "forces").glob("*.yml")
-        } if (repo / SEMANTIC / "forces").is_dir() else set()
+        force_slugs = (
+            {p.stem for p in (repo / SEMANTIC / "forces").glob("*.yml")}
+            if (repo / SEMANTIC / "forces").is_dir()
+            else set()
+        )
     rel_issues, vocabulary, density_stats = audit_relationships(
         repo,
         semantic_manifest,

@@ -2,6 +2,7 @@ import type { GraphIndex, GraphNode } from "@/lib/graph/graph";
 import {
   relatedContentForBook,
   relatedContentForConcept,
+  relatedContentForForce,
   relatedContentForPattern,
   relatedContentForSituation,
   relatedContentForSource,
@@ -23,13 +24,8 @@ function bundleForNode(index: GraphIndex, node: GraphNode): RelatedContentBundle
       return relatedContentForSource(index, node.entity);
     case "thinker":
       return relatedContentForThinker(index, node.entity);
-    case "force": {
-      const patterns = (node.entity.relatedPatterns ?? [])
-        .map((id) => index.getNodeByCanonicalId(id))
-        .filter((n): n is Extract<GraphNode, { kind: "pattern" }> => n?.kind === "pattern")
-        .map((n) => n.entity);
-      return { concepts: [], patterns, books: [], sources: [], thinkers: [] };
-    }
+    case "force":
+      return relatedContentForForce(index, node.entity);
   }
 }
 

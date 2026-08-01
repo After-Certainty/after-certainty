@@ -3,6 +3,7 @@ import type { GraphIndex } from "@/lib/graph/graph";
 import type {
   Book,
   GlossaryConcept,
+  OrganizingForce,
   Pattern,
   Situation,
   Source,
@@ -75,6 +76,19 @@ export function relatedContentForSource(index: GraphIndex, s: Source): RelatedCo
     concepts: getRelatedConcepts(index, s.concepts),
     patterns: getRelatedPatterns(index, s.patterns),
     books: getRelatedBooks(index, s.relatedBooks),
+    sources: [],
+    thinkers: [],
+  };
+}
+
+export function relatedContentForForce(
+  index: GraphIndex,
+  force: OrganizingForce,
+): RelatedContentBundle {
+  return {
+    concepts: [],
+    patterns: getRelatedPatterns(index, force.relatedPatterns),
+    books: [],
     sources: [],
     thinkers: [],
   };

@@ -9,6 +9,7 @@ import { exploreHrefForNode, exploreObservatoryFocusHref } from "@/lib/graph/exp
 import {
   relatedContentForBook,
   relatedContentForConcept,
+  relatedContentForForce,
   relatedContentForPattern,
   relatedContentForSituation,
   relatedContentForSource,
@@ -77,7 +78,9 @@ export function ObservatoryEntityPanel({
             ? relatedContentForBook(index, node.entity)
             : node.kind === "thinker"
               ? relatedContentForThinker(index, node.entity)
-              : relatedContentForSource(index, node.entity);
+              : node.kind === "force"
+                ? relatedContentForForce(index, node.entity)
+                : relatedContentForSource(index, node.entity);
 
   const hasRelatedTerrain =
     bundle.concepts.length > 0 ||

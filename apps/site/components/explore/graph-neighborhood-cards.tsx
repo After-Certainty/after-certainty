@@ -40,6 +40,9 @@ export function GraphNeighborhoodCards({
               {n.kind === "thinker" && n.entity.summary ? (
                 <p className="mt-2 line-clamp-2 text-sm text-muted">{n.entity.summary}</p>
               ) : null}
+              {n.kind === "force" ? (
+                <p className="mt-2 line-clamp-2 text-sm text-muted">{n.entity.description}</p>
+              ) : null}
             </Link>
           </li>
         ))}

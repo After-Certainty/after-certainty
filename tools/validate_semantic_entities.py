@@ -255,9 +255,7 @@ def _check_relationships_file(
             kind = str(row.get(kind_key, "concept")).strip().lower() or "concept"
             allowed = kind_sets.get(kind)
             if s and allowed is not None and s not in allowed:
-                errors.append(
-                    f"{path}: relationships[{i}].{side} unknown {kind} slug {s!r}"
-                )
+                errors.append(f"{path}: relationships[{i}].{side} unknown {kind} slug {s!r}")
 
 
 def _manifest_round_trip(repo: Path, errors: list[str]) -> None:

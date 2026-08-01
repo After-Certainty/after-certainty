@@ -58,7 +58,9 @@ async function main() {
                   ? `${explorePaths.thinkers}/${n.slug}`
                   : n.kind === "situation"
                     ? `${explorePaths.situations}/${n.slug}`
-                    : null;
+                    : n.kind === "force"
+                      ? `${explorePaths.patterns}?force=${encodeURIComponent(n.slug)}`
+                      : null;
       if (href) bump(href);
     }
   }
