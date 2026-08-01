@@ -1,0 +1,49 @@
+slug: reality-answers-back
+title: Reality Answers Back
+patternRole: master
+setup: Human systems must simplify reality in order to perceive, decide, coordinate, and act.
+problem: Those simplifications necessarily leave out people, consequences, perspectives, history,
+  and changed conditions.
+observation: Every abstraction, institution, decision, and model eventually encounters the reality
+  it only partially captured. Reality answers through failures, exceptions, dissent, unintended
+  behavior, lived experience, or consequences the model did not contain.
+forces:
+- Simplification is required for coordinated action
+- What is left out eventually returns
+- Systems need paths for revision before collapse
+counterbalances:
+- Preserve paths through which answers can be noticed early enough to revise understanding and
+  action
+relatedConcepts:
+- correction
+- revisability
+- uncertainty
+- judgment
+relatedPatterns:
+- compression-loses-the-person
+- understanding-circulates
+- results-conceal-the-game
+- distance-conceals-consequence
+- structures-outlive-reasons
+- authority-follows-attention
+- participation-creates-legitimacy
+- bad-news-reaches-power
+- speed-relocates-judgment
+- commitment-leaves-room
+- responsibility-follows-leverage
+- care-preserves-particulars
+relatedBooks:
+- after-certainty
+- learning-to-see
+- observer-patterns
+- how-serious-systems-learn
+- the-case-that-does-not-fit
+- when-incentives-become-the-moral-language
+- the-relay
+- what-we-cannot-see
+- curiosity-before-certainty
+- the-discipline-of-uncertainty
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: Master pattern for The After Certainty Pattern Language; cross-corpus governing dynamic.

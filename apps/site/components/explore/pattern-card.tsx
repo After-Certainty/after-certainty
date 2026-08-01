@@ -8,10 +8,21 @@ type PatternCardProps = {
 };
 
 export function PatternCard({ pattern }: PatternCardProps) {
+  const eyebrow =
+    pattern.patternRole === "master"
+      ? "Master pattern"
+      : pattern.patternRole === "supporting"
+        ? pattern.realityDynamic === "obscuring"
+          ? "Supporting · obscuring"
+          : pattern.realityDynamic === "corrective"
+            ? "Supporting · corrective"
+            : "Supporting pattern"
+        : "Pattern";
+
   return (
     <ExploreCard>
       <Link href={`${explorePaths.patterns}/${pattern.slug}`} className="block space-y-2">
-        <p className="text-[10px] uppercase tracking-[0.28em] text-accent">Pattern</p>
+        <p className="text-[10px] uppercase tracking-[0.28em] text-accent">{eyebrow}</p>
         <h3 className="font-display text-xl font-medium tracking-tight text-fg transition-colors group-hover:text-accent">
           {pattern.title}
         </h3>

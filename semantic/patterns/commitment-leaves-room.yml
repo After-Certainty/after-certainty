@@ -1,0 +1,40 @@
+slug: commitment-leaves-room
+title: Commitment Leaves Room
+patternRole: supporting
+organizingForce: time
+realityDynamic: corrective
+editorialStatus: provisional
+observation: Commitment enables coordinated action while preserving room for revision when evidence,
+  conditions, or consequences change.
+problem: Systems must act before certainty arrives, but commitments become dangerous when correction
+  threatens identity, legitimacy, sunk cost, or authority.
+forces:
+- Action cannot wait for certainty
+- Closed commitment resists correction
+counterbalances:
+- Design commitments with review points, reversibility where possible, explicit assumptions, and
+  safe paths for changing direction
+relatedConcepts:
+- revisability
+- corrigibility
+- certainty
+relatedPatterns:
+- correctness-hardens-into-identity
+- contact-keeps-the-read-open
+- structures-outlive-reasons
+- reality-answers-back
+- speed-relocates-judgment
+relatedBooks:
+- after-certainty
+- curiosity-before-certainty
+- the-discipline-of-uncertainty
+- how-serious-systems-learn
+- before-certainty-arrives
+- learning-to-see
+- the-relay
+- how-trust-forms
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: Provisional canonical name retained pending editorial ratification; After Certainty Pattern
+    Language supporting pattern (Time).

@@ -82,6 +82,7 @@ function subtitleOf(n: GraphNode): string | undefined {
   if (n.kind === "pattern") return n.entity.summary;
   if (n.kind === "book") return n.entity.subtitle ?? n.entity.summary;
   if (n.kind === "thinker") return n.entity.summary;
+  if (n.kind === "force") return n.entity.description;
   return n.entity.summary;
 }
 

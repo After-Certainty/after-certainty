@@ -5,7 +5,14 @@
 
 import type { GraphNode } from "@/lib/graph/graph";
 
-export type NodeVisualKind = "concept" | "pattern" | "situation" | "book" | "source" | "thinker";
+export type NodeVisualKind =
+  | "concept"
+  | "pattern"
+  | "situation"
+  | "book"
+  | "source"
+  | "thinker"
+  | "force";
 
 export type NodeVisualProfile = {
   kind: NodeVisualKind;
@@ -37,5 +44,7 @@ export function visualProfileForGraphNode(node: GraphNode): NodeVisualProfile {
       return { kind: "source", accent: "slate", shape: "pill", emphasis: "low" };
     case "thinker":
       return { kind: "thinker", accent: "violet", shape: "circle", emphasis: "mid" };
+    case "force":
+      return { kind: "force", accent: "teal", shape: "pill", emphasis: "mid" };
   }
 }

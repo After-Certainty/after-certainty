@@ -7,14 +7,16 @@ forces:
 - Tone, timing, and power register before content
 - Social risk pushes attention toward possible consequence
 observation: What stands out first shapes what people notice next.
-example: In practice, attention finds a signal in the first cue, and that cue often
-  decides the channel everything else travels through.
+example: In practice, attention finds a signal in the first cue, and that cue often decides the
+  channel everything else travels through.
 relatedConcepts:
 - consequence
 - uncertainty
 relatedPatterns:
 - meaning-forms-early
 - meaning-outruns-the-words
+- understanding-circulates
+- authority-follows-attention
 relatedBooks:
 - how-meaning-moves
 - no-time-to-think

@@ -32,7 +32,14 @@ export function isSymmetricRelationship(predicate: string): boolean {
 
 export function dynamicVerbGroup(predicate: string): DynamicVerbGroup | null {
   const key = normalizePredicateKey(predicate);
-  if (key === "preserves" || key === "renews" || key === "stabilizes" || key === "enables") {
+  if (
+    key === "preserves" ||
+    key === "renews" ||
+    key === "stabilizes" ||
+    key === "enables" ||
+    key === "organizes" ||
+    key === "expresses"
+  ) {
     return "sustaining";
   }
   if (

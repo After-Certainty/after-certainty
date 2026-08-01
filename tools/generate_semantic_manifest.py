@@ -58,6 +58,10 @@ def pattern_id(slug: str) -> str:
     return f"pattern-{slug}"
 
 
+def force_id(slug: str) -> str:
+    return f"force-{slug}"
+
+
 def situation_id(slug: str) -> str:
     return f"situation-{slug}"
 
@@ -600,6 +604,36 @@ def build_patterns(repo: Path, *, repo_slug: str, ref: str) -> list[dict]:
         grounding = _project_grounding(data)
         if grounding:
             entry["grounding"] = grounding
+        pattern_role = str(data.get("patternRole", "")).strip()
+        if pattern_role in {"master", "supporting"}:
+            entry["patternRole"] = pattern_role
+        organizing_force = str(data.get("organizingForce", "")).strip()
+        if organizing_force:
+            entry["organizingForce"] = organizing_force
+        reality_dynamic = str(data.get("realityDynamic", "")).strip()
+        if reality_dynamic in {"obscuring", "corrective"}:
+            entry["realityDynamic"] = reality_dynamic
+        editorial_status = str(data.get("editorialStatus", "")).strip()
+        if editorial_status == "provisional":
+            entry["editorialStatus"] = editorial_status
+        out.append(entry)
+    return out
+
+
+def build_forces(repo: Path) -> list[dict]:
+    raw = _load_dir_yml(repo / SEMANTIC_ROOT / "forces")
+    out: list[dict] = []
+    for slug in sorted(raw.keys()):
+        data = raw[slug]
+        entry = {
+            "id": force_id(slug),
+            "slug": slug,
+            "title": str(data.get("title", slug)).strip(),
+            "description": str(data.get("description", "")).strip(),
+            "relatedPatterns": [
+                pattern_id(s) for s in _normalize_pattern_slugs(data.get("relatedPatterns"))
+            ],
+        }
         out.append(entry)
     return out
 
@@ -735,6 +769,8 @@ def build_relationships(repo: Path) -> list[dict]:
                 return pattern_id(slug)
             if kind == "source":
                 return source_id(slug)
+            if kind == "force":
+                return force_id(slug)
             return concept_id(slug)
 
         if not a or not b:
@@ -1013,6 +1049,7 @@ def main() -> None:
     )
     glossary = _finalize_glossary_list(by_gloss)
     patterns = build_patterns(repo, repo_slug=repo_slug, ref=args.github_ref)
+    forces = build_forces(repo)
     situations = build_situations(repo)
     sources = build_sources(repo)
     thinkers = build_thinkers(repo)
@@ -1059,6 +1096,8 @@ def main() -> None:
     }
     if thinkers:
         payload["thinkers"] = thinkers
+    if forces:
+        payload["forces"] = forces
     attach_discovery_collections(
         payload,
         repo=repo,

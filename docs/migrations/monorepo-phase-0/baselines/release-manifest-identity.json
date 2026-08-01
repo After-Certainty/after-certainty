@@ -3,7 +3,7 @@
   "source": "https://github.com/ksteffe/after-certainty/releases/download/latest/semantic-manifest.json",
   "notes": "Intentional chapter floor refresh: The Relay index no longer links author-facing docs/ handbook files, so two non-reader chapters were removed from the public chapter collection.",
   "manifestVersion": 2,
-  "schemaVersion": "2.3",
+  "schemaVersion": "2.4",
   "generatedAt": "2026-07-23T12:54:00.182172+00:00",
   "sourceCommit": "e9dc01725aab8411d9f6a8e75175f2953b504d69",
   "repository": "ksteffe/after-certainty",

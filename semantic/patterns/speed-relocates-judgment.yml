@@ -1,0 +1,32 @@
+slug: speed-relocates-judgment
+title: Speed Relocates Judgment
+patternRole: supporting
+organizingForce: time
+realityDynamic: obscuring
+observation: As systems accelerate, judgment moves away from the work, becomes embedded in defaults
+  and automation, or disappears into processes no one can pause.
+problem: Production can accelerate faster than observation, interpretation, integration, maintenance,
+  and care.
+forces:
+- Acceleration outruns reflection
+- Defaults absorb judgment
+counterbalances:
+- Increase speed only where the people closest to the work retain the time, information, and authority
+  to notice, stop, and revise
+relatedConcepts:
+- acceleration
+- judgment
+- friction
+relatedPatterns:
+- distance-conceals-consequence
+- bad-news-reaches-power
+- commitment-leaves-room
+- understanding-circulates
+- reality-answers-back
+relatedBooks:
+- no-time-to-think
+- when-moral-seriousness-scales
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: After Certainty Pattern Language supporting pattern (Time).

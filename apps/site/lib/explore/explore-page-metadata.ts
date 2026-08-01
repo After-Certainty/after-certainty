@@ -69,6 +69,8 @@ export function exploreCanonicalPathForFocus(
       return `${explorePaths.sources}/${trimmed}`;
     case "thinker":
       return `${explorePaths.thinkers}/${trimmed}`;
+    case "force":
+      return `${explorePaths.patterns}?force=${encodeURIComponent(trimmed)}`;
   }
 }
 

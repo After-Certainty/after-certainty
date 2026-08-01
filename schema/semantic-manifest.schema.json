@@ -90,7 +90,14 @@
     "schemaVersion": {
       "type": "string",
       "pattern": "^2\\.\\d+$",
-      "description": "Additive contract version. 2.1 introduces works/editions and discovery collections. 2.2 adds parts/chapters, literaryForm, overview.relatedWorks. 2.3 adds selected concept/pattern roles, grounding provenance, richer chapter transitions, and thinker identity classes."
+      "description": "Additive contract version. 2.1 introduces works/editions and discovery collections. 2.2 adds parts/chapters, literaryForm, overview.relatedWorks. 2.3 adds selected concept/pattern roles, grounding provenance, richer chapter transitions, and thinker identity classes. 2.4 adds organizing forces and pattern-language hierarchy fields (patternRole, organizingForce, realityDynamic)."
+    },
+    "forces": {
+      "type": "array",
+      "description": "Organizing forces for cross-corpus pattern languages (schemaVersion 2.4).",
+      "items": {
+        "$ref": "#/$defs/forceEntry"
+      }
     },
     "sourceCommit": {
       "type": [
@@ -881,6 +888,60 @@
         },
         "grounding": {
           "$ref": "#/$defs/groundingBlock"
+        },
+        "patternRole": {
+          "type": "string",
+          "enum": ["master", "supporting"]
+        },
+        "organizingForce": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Force slug (not force- prefixed id)."
+        },
+        "realityDynamic": {
+          "type": "string",
+          "enum": ["obscuring", "corrective"]
+        },
+        "editorialStatus": {
+          "type": "string",
+          "enum": ["provisional"]
+        }
+      }
+    },
+    "forceEntry": {
+      "description": "Organizing force that groups supporting patterns (schemaVersion 2.4).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "description",
+        "relatedPatterns"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^force-[a-zA-Z0-9._-]+$"
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relatedPatterns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^pattern-[a-zA-Z0-9._-]+$"
+          }
         }
       }
     },

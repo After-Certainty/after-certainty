@@ -8,22 +8,24 @@ forces:
 - Good news travels easier than bad news
 - People learn what is safe to say
 observation: Problems show up early. Reality reaches those who decide in time.
-example: If you see a problem, say it now. Dissent is welcomed here—we can't fix what
-  we don't raise while it's still small.
+example: If you see a problem, say it now. Dissent is welcomed here—we can't fix what we don't
+  raise while it's still small.
 relatedConcepts:
 - correction
 - vitality
 relatedPatterns:
 - examples-accumulate
 - learning-collapses
+- understanding-circulates
+- participation-creates-legitimacy
+- bad-news-reaches-power
 relatedBooks:
 - when-others-look-to-you-v1
 - coupling
 - no-time-to-think
 - the-case-that-does-not-fit
 recognitionSignals:
-- someone interrupts the agenda to hold at an inconvenient slide without being treated
-  as disloyal
+- someone interrupts the agenda to hold at an inconvenient slide without being treated as disloyal
 - bad news moves in a thread or room everyone already saw
 - raising risk early does not cost a place at the table
 - problems show up before they compound into identity fights
@@ -63,8 +65,8 @@ media:
     path: semantic/media/patterns/dissent-is-welcomed.png
     width: 1200
     height: 669
-    alt: Infographic summarizing how dissent surfaces problems early so leaders can
-      correct course in time.
+    alt: Infographic summarizing how dissent surfaces problems early so leaders can correct course
+      in time.
 grounding:
   type: original_synthesis
   developedFrom:

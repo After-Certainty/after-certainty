@@ -1,0 +1,34 @@
+slug: structures-outlive-reasons
+title: Structures Outlive Reasons
+patternRole: supporting
+organizingForce: time
+realityDynamic: obscuring
+observation: Rules, roles, institutions, workarounds, and routines often persist after the conditions
+  that originally justified them have changed or disappeared.
+problem: People inherit structures more readily than they inherit the reasons those structures
+  were created.
+forces:
+- Structures travel more easily than reasons
+- Changed conditions do not automatically retire old forms
+counterbalances:
+- Recover the original purpose, compare it with current conditions, and deliberately renew, revise,
+  or retire the structure
+relatedConcepts:
+- inheritance
+- normalization
+- drift
+relatedPatterns:
+- exceptions-are-forever
+- correctness-hardens-into-identity
+- commitment-leaves-room
+- reality-answers-back
+relatedBooks:
+- living-in-sediment
+- before-certainty-arrives
+- when-accountability-no-longer-expires
+- the-world-we-make-together
+- when-trust-stops-tracking-reality
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: After Certainty Pattern Language supporting pattern (Time).

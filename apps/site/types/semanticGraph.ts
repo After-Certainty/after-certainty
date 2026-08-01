@@ -229,6 +229,10 @@ export interface GlossaryConcept extends SemanticEnrichment {
   grounding?: SemanticGrounding;
 }
 
+export type PatternRole = "master" | "supporting";
+export type PatternRealityDynamic = "obscuring" | "corrective";
+export type PatternEditorialStatus = "provisional";
+
 export interface Pattern extends SemanticEnrichment {
   id: string;
   slug: string;
@@ -241,11 +245,29 @@ export interface Pattern extends SemanticEnrichment {
   example?: string;
   relatedConcepts?: string[];
   relatedBooks?: string[];
+  relatedPatterns?: string[];
   youtubeVideoId?: string;
   mediumArticleUrl?: string;
   infographic?: MediaInfographic;
   /** schemaVersion 2.3 — optional public grounding / provenance. */
   grounding?: SemanticGrounding;
+  /** schemaVersion 2.4 — master/supporting role in a cross-corpus pattern language. */
+  patternRole?: PatternRole;
+  /** schemaVersion 2.4 — force slug when patternRole is supporting. */
+  organizingForce?: string;
+  /** schemaVersion 2.4 — whether the pattern obscures reality or restores contact. */
+  realityDynamic?: PatternRealityDynamic;
+  /** schemaVersion 2.4 — provisional editorial marker. */
+  editorialStatus?: PatternEditorialStatus;
+}
+
+/** Organizing force for a cross-corpus pattern language (schemaVersion 2.4). */
+export interface OrganizingForce {
+  id: string;
+  slug: string;
+  title: string;
+  description: string;
+  relatedPatterns?: string[];
 }
 
 /**
@@ -580,6 +602,8 @@ export interface SemanticGraph {
   ontology?: SemanticOntology;
   /** Canonical thinker nodes when manifestVersion is 2. */
   thinkers?: Thinker[];
+  /** schemaVersion 2.4 — organizing forces for pattern languages. */
+  forces?: OrganizingForce[];
   /** schemaVersion 2.1 discovery collections (absent on older manifests). */
   works?: Work[];
   editions?: Edition[];
@@ -593,7 +617,7 @@ export interface SemanticGraph {
   chapters?: ManifestChapter[];
   /** Manifest metadata (optional, from semantic-manifest.json) */
   manifestVersion?: 1 | 2;
-  /** Additive discovery contract version (e.g. "2.3"). */
+  /** Additive discovery contract version (e.g. "2.4"). */
   schemaVersion?: string;
   generatedAt?: string;
   repository?: string;
@@ -605,7 +629,14 @@ export interface SemanticGraph {
 }
 
 /** Entity collections exposed in the explore UI */
-export type GraphEntityKind = "book" | "concept" | "pattern" | "situation" | "source" | "thinker";
+export type GraphEntityKind =
+  | "book"
+  | "concept"
+  | "pattern"
+  | "situation"
+  | "source"
+  | "thinker"
+  | "force";
 
 /** Focal node for neighborhood / future graph visualization adapters */
 export type GraphFocalNode =
@@ -614,4 +645,5 @@ export type GraphFocalNode =
   | { kind: "pattern"; id: string; slug: string }
   | { kind: "situation"; id: string; slug: string }
   | { kind: "source"; id: string; slug: string }
-  | { kind: "thinker"; id: string; slug: string };
+  | { kind: "thinker"; id: string; slug: string }
+  | { kind: "force"; id: string; slug: string };

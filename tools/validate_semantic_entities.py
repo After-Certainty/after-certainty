@@ -43,7 +43,17 @@ from thinker_concept_audit import (  # noqa: E402
 SEMANTIC = Path("semantic")
 SCHEMA_DIR = Path("schema") / "semantic"
 SLUG_PARENTS = frozenset(
-    {"glossary", "patterns", "sources", "situations", "thinkers", "questions", "trails", "shelves"}
+    {
+        "glossary",
+        "patterns",
+        "forces",
+        "sources",
+        "situations",
+        "thinkers",
+        "questions",
+        "trails",
+        "shelves",
+    }
 )
 
 ONTOLOGY_SCHEMA_BY_NAME = {
@@ -57,6 +67,7 @@ ONTOLOGY_SCHEMA_BY_NAME = {
 DIR_SCHEMA = {
     "glossary": "glossary-entry.schema.json",
     "patterns": "pattern-entry.schema.json",
+    "forces": "force-entry.schema.json",
     "sources": "source-entry.schema.json",
     "situations": "situation-entry.schema.json",
     "thinkers": "thinker-entry.schema.json",
@@ -217,23 +228,34 @@ def _check_relationships_file(
     path: Path,
     *,
     concepts: set[str],
+    patterns: set[str],
+    sources: set[str],
+    forces: set[str],
     errors: list[str],
     strict_refs: bool,
 ) -> None:
+    del strict_refs  # reserved for callers that escalate warnings
     doc = _load_yaml(path)
     if not isinstance(doc, dict):
         return
     rows = doc.get("relationships")
     if not isinstance(rows, list):
         return
+    kind_sets = {
+        "concept": concepts,
+        "pattern": patterns,
+        "source": sources,
+        "force": forces,
+    }
     for i, row in enumerate(rows):
         if not isinstance(row, dict):
             continue
-        for side in ("source", "target"):
+        for side, kind_key in (("source", "sourceKind"), ("target", "targetKind")):
             s = str(row.get(side, "")).strip()
-            if s and s not in concepts:
-                msg = f"{path}: relationships[{i}].{side} unknown concept slug {s!r}"
-                errors.append(msg)
+            kind = str(row.get(kind_key, "concept")).strip().lower() or "concept"
+            allowed = kind_sets.get(kind)
+            if s and allowed is not None and s not in allowed:
+                errors.append(f"{path}: relationships[{i}].{side} unknown {kind} slug {s!r}")
 
 
 def _manifest_round_trip(repo: Path, errors: list[str]) -> None:
@@ -307,13 +329,16 @@ def validate(
 
     concepts = _collect_ontology_concept_slugs(repo) | _collect_dir_slugs(repo, "glossary")
     patterns = _collect_dir_slugs(repo, "patterns")
+    forces = _collect_dir_slugs(repo, "forces")
     sources = _collect_dir_slugs(repo, "sources")
     situations = _collect_dir_slugs(repo, "situations")
     thinkers = _collect_dir_slugs(repo, "thinkers")
     books = _collect_book_slugs(repo)
     audit_warnings: list[str] = []
 
-    seen_slugs: dict[str, Path] = {}
+    # Slug uniqueness is scoped by entity directory so prefixed ids may share stems
+    # (e.g. concept-contact vs force-contact).
+    seen_slugs: dict[tuple[str, str], Path] = {}
 
     for path in _iter_semantic_yml(repo, include_drafts=include_drafts):
         rel_repo = path.relative_to(repo)
@@ -336,14 +361,16 @@ def validate(
                 schema_errors.append(f"{rel_repo}: {err.message}")
 
         if rel_sem.parts and rel_sem.parts[0] in SLUG_PARENTS and isinstance(data, dict):
+            parent = rel_sem.parts[0]
             slug = str(data.get("slug", "")).strip()
             if slug:
-                prev = seen_slugs.get(slug)
+                key = (parent, slug)
+                prev = seen_slugs.get(key)
                 if prev is not None and prev != path:
                     schema_errors.append(
                         f"{rel_repo}: duplicate slug {slug!r} (also in {prev.relative_to(repo)})"
                     )
-                seen_slugs[slug] = path
+                seen_slugs[key] = path
                 if slug != path.stem:
                     slug_errors.append(f"{rel_repo}: slug {slug!r} != filename stem {path.stem!r}")
 
@@ -357,10 +384,34 @@ def validate(
                 path=rel_repo,
                 errors=ref_errors,
             )
+            if rel_sem.parts and rel_sem.parts[0] == "patterns":
+                role = str(data.get("patternRole", "")).strip()
+                organizing_force = str(data.get("organizingForce", "")).strip()
+                if role == "supporting":
+                    if not organizing_force:
+                        ref_errors.append(
+                            f"{rel_repo}: supporting pattern requires organizingForce"
+                        )
+                    elif organizing_force not in forces:
+                        ref_errors.append(
+                            f"{rel_repo}: organizingForce references unknown force "
+                            f"{organizing_force!r}"
+                        )
+                elif organizing_force and role != "supporting":
+                    ref_errors.append(
+                        f"{rel_repo}: organizingForce is only valid when patternRole is supporting"
+                    )
 
         if path.name == "relationships.yml":
             _check_relationships_file(
-                repo, path, concepts=concepts, errors=ref_errors, strict_refs=strict_refs
+                repo,
+                path,
+                concepts=concepts,
+                patterns=patterns,
+                sources=sources,
+                forces=forces,
+                errors=ref_errors,
+                strict_refs=strict_refs,
             )
 
         if rel_sem.parts and rel_sem.parts[0] == "ontology" and path.name.endswith("-terms.yml"):
@@ -440,8 +491,8 @@ def validate(
         n = len(list(_iter_semantic_yml(repo, include_drafts=include_drafts)))
         print(
             f"Validated {n} semantic YAML file(s); "
-            f"concepts={len(concepts)} patterns={len(patterns)} sources={len(sources)} "
-            f"situations={len(situations)}"
+            f"concepts={len(concepts)} patterns={len(patterns)} forces={len(forces)} "
+            f"sources={len(sources)} situations={len(situations)}"
         )
     return rc
 

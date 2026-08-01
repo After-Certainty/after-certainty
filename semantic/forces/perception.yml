@@ -1,0 +1,8 @@
+slug: perception
+title: Perception
+description: How people and systems notice, simplify, interpret, and construct models of the
+  world.
+relatedPatterns:
+- compression-loses-the-person
+- understanding-circulates
+- results-conceal-the-game

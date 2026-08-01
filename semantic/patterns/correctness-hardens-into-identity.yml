@@ -1,17 +1,17 @@
 slug: correctness-hardens-into-identity
 title: Correctness Hardens Into Identity
-setup: Correctness begins as a tool for coordination—aligning on evidence, reality,
-  and shared understanding under uncertainty.
-problem: Under pressure, being right matters less for understanding than for preserving
-  coherence and belonging; revision starts feeling like betrayal.
+setup: Correctness begins as a tool for coordination—aligning on evidence, reality, and shared
+  understanding under uncertainty.
+problem: Under pressure, being right matters less for understanding than for preserving coherence
+  and belonging; revision starts feeling like betrayal.
 forces:
 - Disagreement is treated as moral threat
 - Identity fuses with the winning frame
 - Revision threatens group coherence
 - Finality relieves the discomfort of not knowing
 observation: The danger is not error alone; it is the inability to remain revisable.
-example: A team treats a challenged forecast as disloyalty rather than as an update
-  to shared reality.
+example: A team treats a challenged forecast as disloyalty rather than as an update to shared
+  reality.
 relatedConcepts:
 - judgment
 - correction
@@ -19,6 +19,9 @@ relatedConcepts:
 relatedPatterns:
 - revisability-preserves-judgment
 - finality-compensates-for-uncertainty
+- structures-outlive-reasons
+- authority-follows-attention
+- commitment-leaves-room
 relatedBooks:
 - after-certainty
 recognitionSignals:

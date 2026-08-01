@@ -10,6 +10,7 @@ const FOCUS_KINDS = new Set<GraphEntityKind>([
   "book",
   "source",
   "thinker",
+  "force",
 ]);
 
 export function isValidExploreFocusKind(v: string): v is GraphEntityKind {
@@ -47,5 +48,7 @@ export function resolveExploreFocusCanonicalId(
     }
     case "thinker":
       return index.thinkerBySlug.get(s)?.id ?? null;
+    case "force":
+      return index.forceBySlug.get(s)?.id ?? null;
   }
 }

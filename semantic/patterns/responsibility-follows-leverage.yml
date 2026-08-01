@@ -1,0 +1,37 @@
+slug: responsibility-follows-leverage
+title: Responsibility Follows Leverage
+patternRole: supporting
+organizingForce: power
+realityDynamic: corrective
+observation: The greater a person's or institution's capacity to shape outcomes, prevent harm,
+  benefit from a system, or repair consequences, the greater its responsibility.
+problem: Collective explanations can dissolve responsibility, while individual blame can conceal
+  unequal power and structural production.
+forces:
+- Leverage is uneven
+- Blame and collectivity can both obscure capacity
+counterbalances:
+- Assign responsibility according to leverage, knowledge, freedom of action, benefit, and capacity
+  to prevent or repair harm
+relatedConcepts:
+- responsibility
+- accountability
+- asymmetry
+relatedPatterns:
+- authority-follows-attention
+- distance-conceals-consequence
+- blame-compresses-complexity
+- participation-creates-legitimacy
+- reality-answers-back
+relatedBooks:
+- the-world-we-make-together
+- coupling
+- when-authority-outlives-accountability
+- when-accountability-no-longer-expires
+- when-others-look-to-you-v1
+- the-case-that-does-not-fit
+- after-certainty
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: After Certainty Pattern Language supporting pattern (Power).

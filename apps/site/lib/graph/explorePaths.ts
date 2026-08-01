@@ -46,6 +46,9 @@ export function exploreHrefForNode(node: GraphNode): string {
       return `${explorePaths.sources}/${node.slug}`;
     case "thinker":
       return `${explorePaths.thinkers}/${node.slug}`;
+    case "force":
+      // Forces surface on the pattern index until dedicated force routes exist.
+      return `${explorePaths.patterns}?force=${encodeURIComponent(node.slug)}`;
   }
 }
 

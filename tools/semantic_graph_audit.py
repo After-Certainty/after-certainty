@@ -49,9 +49,11 @@ ALLOWED_RELATIONSHIP_TYPES = frozenset(
         "contrasts",
         "distorts",
         "enables",
+        "expresses",
         "grounds",
         "hardens",
         "intensifies",
+        "organizes",
         "precedes",
         "preserves",
         "pressures",
@@ -312,6 +314,7 @@ def _infer_entity_type(entity_id: str) -> str:
         ("thinker-", "thinker"),
         ("book-", "book"),
         ("situation-", "situation"),
+        ("force-", "force"),
     ):
         if entity_id.startswith(prefix):
             return etype
@@ -319,7 +322,15 @@ def _infer_entity_type(entity_id: str) -> str:
 
 
 def _strip_id_prefix(entity_id: str) -> str:
-    for prefix in ("concept-", "pattern-", "source-", "thinker-", "book-", "situation-"):
+    for prefix in (
+        "concept-",
+        "pattern-",
+        "source-",
+        "thinker-",
+        "book-",
+        "situation-",
+        "force-",
+    ):
         if entity_id.startswith(prefix):
             return entity_id.removeprefix(prefix)
     return entity_id
@@ -1396,6 +1407,7 @@ def audit_relationships(
     pattern_slugs: set[str],
     source_slugs: set[str],
     thinker_slugs: set[str],
+    force_slugs: set[str] | None = None,
 ) -> tuple[list[AuditIssue], list[VocabEntry], dict[str, list[dict]]]:
     issues: list[AuditIssue] = []
     rows = _collect_relationship_rows(repo, semantic_manifest)
@@ -1405,6 +1417,7 @@ def audit_relationships(
         "pattern": pattern_slugs,
         "source": source_slugs,
         "thinker": thinker_slugs,
+        "force": force_slugs or set(),
     }
 
     seen_edges: Counter[tuple[str, str, str, str, str]] = Counter()
@@ -1852,6 +1865,17 @@ def run_audit(
         issues.extend(audit_books(semantic_manifest, books_manifest))
     issues.extend(audit_manifest_staleness(paths, semantic_manifest, books_manifest))
 
+    force_slugs = {
+        str(row.get("slug", "")).strip()
+        for row in (semantic_manifest.get("forces") or [])
+        if isinstance(row, dict) and str(row.get("slug", "")).strip()
+    }
+    if not force_slugs:
+        force_slugs = (
+            {p.stem for p in (repo / SEMANTIC / "forces").glob("*.yml")}
+            if (repo / SEMANTIC / "forces").is_dir()
+            else set()
+        )
     rel_issues, vocabulary, density_stats = audit_relationships(
         repo,
         semantic_manifest,
@@ -1859,6 +1883,7 @@ def run_audit(
         pattern_slugs=set(patterns),
         source_slugs=set(sources),
         thinker_slugs=set(thinkers),
+        force_slugs=force_slugs,
     )
     issues.extend(rel_issues)
 

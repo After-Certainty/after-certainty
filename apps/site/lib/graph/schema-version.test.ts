@@ -18,21 +18,24 @@ describe("schema-version", () => {
     expect(parseSchemaVersion("not-a-version")).toBeNull();
   });
 
-  it("accepts schema 2.3 and compatibility 2.2; rejects major 3+", () => {
+  it("accepts schema 2.4 and compatibility 2.2/2.3; rejects major 3+", () => {
     expect(isCompatibleSchemaVersion(undefined)).toBe(true);
     expect(isCompatibleSchemaVersion("2.2")).toBe(true);
     expect(isCompatibleSchemaVersion("2.3")).toBe(true);
+    expect(isCompatibleSchemaVersion("2.4")).toBe(true);
     expect(isCompatibleSchemaVersion("3.0")).toBe(false);
     expect(isCompatibleSchemaVersion("abc")).toBe(false);
   });
 
   it("identifies intended vs compatibility modes", () => {
-    expect(isIntendedSchemaVersion("2.3")).toBe(true);
     expect(isIntendedSchemaVersion("2.4")).toBe(true);
+    expect(isIntendedSchemaVersion("2.5")).toBe(true);
+    expect(isIntendedSchemaVersion("2.3")).toBe(false);
     expect(isIntendedSchemaVersion("2.2")).toBe(false);
     expect(isCompatibilitySchemaVersion("2.2")).toBe(true);
-    expect(isCompatibilitySchemaVersion("2.3")).toBe(false);
-    expect(isSchemaAtLeast("2.3", INTENDED_SCHEMA_VERSION)).toBe(true);
+    expect(isCompatibilitySchemaVersion("2.3")).toBe(true);
+    expect(isCompatibilitySchemaVersion("2.4")).toBe(false);
+    expect(isSchemaAtLeast("2.4", INTENDED_SCHEMA_VERSION)).toBe(true);
     expect(
       compareSchemaVersions(parseSchemaVersion("2.10")!, parseSchemaVersion("2.3")!),
     ).toBeGreaterThan(0);

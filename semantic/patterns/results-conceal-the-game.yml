@@ -1,0 +1,31 @@
+slug: results-conceal-the-game
+title: Results Conceal the Game
+patternRole: supporting
+organizingForce: perception
+realityDynamic: obscuring
+observation: Visible outcomes and metrics reveal that something happened, but often conceal the
+  broader field of causes, constraints, costs, and meanings that produced it.
+problem: Scores, profits, elections, rulings, promotions, failures, and dashboards are easy to
+  communicate and therefore become explanations rather than evidence.
+forces:
+- Results travel easily
+- The field that produced them does not
+counterbalances:
+- Look beyond the result to the field of interactions that produced it
+relatedConcepts:
+- abstraction
+- mediation
+- compression
+relatedPatterns:
+- blame-compresses-complexity
+- compression-loses-the-person
+- distance-conceals-consequence
+- understanding-circulates
+- reality-answers-back
+relatedBooks:
+- the-game-we-think-we-saw
+- when-incentives-become-the-moral-language
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: After Certainty Pattern Language supporting pattern (Perception).
