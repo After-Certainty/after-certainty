@@ -2,11 +2,11 @@
 
 ## Current phase
 
-**Final production pass complete** — footnote consolidation, Chapter 10 heading alignment, stop-work object reframe, DOCX audit. Architecture and governing claim unchanged. **Not claimed publication-ready** while 2026 current-event anchors and a few historical details still require re-verification.
+**Factual correction pass complete** (after production pass). Challenger National Research Council wording, Hao He mid-2025 mandate timeline, Model 299 inquiry/lesson split, Zoox FR primary source, and related qualifications applied. **Not claimed publication-ready** while a few items remain qualified rather than fully verified (see factual-correction change log).
 
 ## Active branch
 
-`cursor/no-time-to-think-production-pass-6d58`
+`cursor/no-time-to-think-factual-corrections-6d58`
 
 ## Manuscript hub
 
@@ -19,6 +19,7 @@
 - [`outline.md`](outline.md)
 - Publication-prep change log: [`research/publication-prep-change-log.md`](research/publication-prep-change-log.md)
 - Final production pass change log: [`research/final-production-pass-change-log.md`](research/final-production-pass-change-log.md)
+- Factual correction pass change log: [`research/factual-correction-pass-change-log.md`](research/factual-correction-pass-change-log.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../docs/portfolio-status.md)
 
 ## Unit progress
