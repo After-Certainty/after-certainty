@@ -36,7 +36,7 @@ Portfolio: **34** book specs (33 titles; WOLTY v1 + v2).
 | Book | G/P/S/T | Ch | Priority note |
 | --- | ---: | ---: | --- |
 | `coupling` | 34/6/68/120 | 1/37 | Deep graph; chapters nearly empty |
-| `before-certainty-arrives` | 43/0/42/43 | 0/15 | Glossary-heavy; no chapter summaries |
+| `before-certainty-arrives` | 43/0/42/43 | 15/15 | Chapter enrichment complete (CORPUS-003; 2026-08-01) |
 | `when-others-look-to-you-v1` | 13/10/26/28 | 0/25 | Flagship patterns; chapters missing |
 | `when-interpretation-no-longer-matters` | 25/0/54/58 | 0/15 | Biblio drift cleared; `authority` glossary-linked (was source-only via Weber) |
 | `what-we-cannot-see` | 16/0/21/22 | 0/19 | |
@@ -76,6 +76,7 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 | Book | G/P/S/T | Ch | Gaps |
 | --- | ---: | ---: | --- |
 | `after-certainty` | 18/10/27/25 | 15/15 | Strongest flagship |
+| `before-certainty-arrives` | 43/0/42/43 | 15/15 | Chapters complete; patterns still thin (P=0) |
 | `the-game-we-think-we-saw` | 17/0/72/40 | 13/13 | Strong |
 | `why-collaboration-is-so-hard` | 12/0/15/11 | 10/10 | Biblio drift cleared; chapters present |
 
@@ -86,7 +87,7 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 3. ~~Glossary linking for `living-in-sediment` and `when-others-become-leaders`~~ done (overview spines wired).
 4. ~~Glossary linking for handbooks `how-serious-systems-learn` and `the-discipline-of-uncertainty`~~ done (#445).
 5. ~~Glossary linking for remaining source-rich G=0 books~~ done (moral seriousness, WOLTY v2, accountability expires, learning-to-see).
-6. **Chapter enrichment batch** for thin flagships (`coupling`, `before-certainty-arrives`, WOLTY v1/v2, `living-in-sediment`, `when-others-become-leaders`, handbooks, `when-interpretation-no-longer-matters`, …).
+6. **Chapter enrichment batch** for thin flagships — `before-certainty-arrives` done (15/15); remaining: `coupling`, WOLTY v1/v2, `living-in-sediment`, `when-others-become-leaders`, handbooks, `when-interpretation-no-longer-matters`, …
 7. ~~**Biblio reconcile** for `when-interpretation-no-longer-matters` and `why-collaboration-is-so-hard`~~ done (0/0/0 drift).
 8. **Semantic enrichment** on newly linked hubs (definitions / recognition-signals) where thin.
 

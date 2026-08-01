@@ -1,0 +1,455 @@
+version: 1
+chapters:
+  - sourcePath: front-matter/introduction-the-moment-before-things-feel-obvious.md
+    summary: >
+      A temple clay tablet waits while the harvest is still being argued—obligation that
+      outlasts the official who pressed it. Certainty rarely arrives as discovered truth;
+      more often it arrives when instability becomes intolerable and people ask what will
+      still hold. The book treats certainty as an adaptive response: moral, religious, legal,
+      and epistemic systems as tools that compress choice under constraint, then harden into
+      inheritance that can outlive its reasons.
+    centralQuestion: Why does certainty arrive as survival equipment before it feels like obvious truth?
+    selectedConcepts:
+      - certainty
+      - constraint
+      - compression
+      - inheritance
+      - coordination
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - meaning-forms-early
+      - structures-outlive-reasons
+    searchAliases:
+      - the moment before things feel obvious
+      - clay tablet harvest
+      - certainty as adaptive response
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      toNext: >
+        From certainty as tool under instability into Part I's pressure cases—constraint
+        before choice.
+
+  - sourcePath: parts/part-1-constraint-before-choice/bridge.md
+    summary: >
+      Part I stays with pressure rather than philosophy: Çatalhöyük households sharing walls
+      and burying their dead beneath floors; Uruk clerks pressing harvest counts into clay;
+      Shang courts holding power and piety in the same ceremony. Cases differ; the question
+      rhymes—what will still hold when explanation is too slow and the season will not wait.
+      Roles, law, and sacred authority arrive as adaptations before they feel like the shape
+      of the good itself.
+    centralQuestion: What still holds when explanation is too slow and disagreement too costly?
+    selectedConcepts:
+      - constraint
+      - coordination
+      - legitimacy
+      - authority
+      - certainty
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - meaning-forms-early
+    searchAliases:
+      - constraint before choice
+      - catalhoyuk uruk shang
+      - what will still hold
+    transition:
+      fromPrevious: >
+        From the introduction's adaptive framing into the first pressure cases.
+      toNext: >
+        From the part frame into life under Neolithic constraint—cohesion before doctrine.
+
+  - sourcePath: parts/part-1-constraint-before-choice/chapter-1-life-under-constraint.md
+    summary: >
+      At Çatalhöyük, dense roof-entry houses, floor burials, and recurring images show
+      coordination without granting access to doctrine. Early societies faced hunger, exposure,
+      and violence more than abstract moral argument; the primary ethical question was what
+      holds a group together long enough to live. Material repetition—who was buried where,
+      which rooms connected—makes visible roles and ritual before anyone could ask whether the
+      arrangement was just.
+    centralQuestion: What holds a group together when survival, not moral theory, organizes daily life?
+    selectedConcepts:
+      - constraint
+      - coordination
+      - certainty
+      - formation
+      - structure
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - meaning-forms-early
+    searchAliases:
+      - life under constraint
+      - catalhoyuk floors
+      - cohesion before doctrine
+    situations:
+      - pressure-accelerates-interpretation
+    transition:
+      fromPrevious: >
+        From Part I's pressure frame into Neolithic cohesion under scarcity and proximity.
+      toNext: >
+        From small-group holding into order that must travel across distance and strangers.
+
+  - sourcePath: parts/part-1-constraint-before-choice/chapter-2-order-before-truth.md
+    summary: >
+      Large Bronze Age societies could not rely on familiarity alone. In Uruk's temple
+      economies, clerks pressed barley, labor, and field allotments into clay so spoken
+      harvest obligations could be checked after the official was gone. Mesopotamia, Egypt,
+      the Indus Valley, and early China faced predictability across time and territory more
+      urgently than later questions of moral truth—order as infrastructure before argument
+      about the good.
+    centralQuestion: How does moral life become predictable when strangers must coordinate across distance?
+    selectedConcepts:
+      - compression
+      - coordination
+      - bureaucracy
+      - scale
+      - certainty
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - meaning-forms-early
+      - distance-conceals-consequence
+    searchAliases:
+      - order before truth
+      - uruk tablets
+      - bronze age predictability
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From survival cohesion into scale that outruns personal trust.
+      toNext: >
+        From recorded order into authority that needs moral protection across generations.
+
+  - sourcePath: parts/part-1-constraint-before-choice/chapter-3-from-power-to-moral-legitimacy.md
+    summary: >
+      When distance widens between decision and consequence, authority reduces uncertainty—
+      but cannot remain stable on force alone. Shang oracle bones made royal questions and
+      ancestral answers legible in matter that outlasted any single ruler. Early empires and
+      theocratic states wrapped power in sacred and moral language so coordination could
+      survive stress, succession, and people who would never meet the decision-maker.
+    centralQuestion: How does power become protected as moral legitimacy when personal trust no longer stretches?
+    selectedConcepts:
+      - legitimacy
+      - authority
+      - certainty
+      - inheritance
+      - coordination-pressure
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - participation-creates-legitimacy
+      - meaning-forms-early
+    searchAliases:
+      - from power to moral legitimacy
+      - shang oracle bones
+      - sacred authority across distance
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: >
+        From clay order into why authority needs moral cover to persist.
+      toNext: >
+        From Part I's legitimacy into Part II—compression when presence cannot follow empire.
+
+  - sourcePath: parts/part-2-compression-under-scale/bridge.md
+    summary: >
+      Part II follows certainty traveling when presence cannot: Assyrian reliefs at Lachish
+      making distant conquest visible in stone; exiles and teachers carrying law where shrines
+      no longer held; Ashoka's edicts fixing obligation in rock across provinces. Density,
+      shared structural pressures, and writing as stabilizer turn what once coordinated a room
+      into what coordinates an empire.
+    centralQuestion: How does certainty travel when presence cannot follow—across provinces, diaspora, and generations?
+    selectedConcepts:
+      - compression
+      - scale
+      - certainty
+      - coordination
+      - inheritance
+    selectedPatterns:
+      - distance-conceals-consequence
+      - meaning-forms-early
+      - compression-loses-the-person
+    searchAliases:
+      - compression under scale
+      - lachish ashoka
+      - certainty without presence
+    transition:
+      fromPrevious: >
+        From legitimacy under early empire into Iron Age and classical compression.
+      toNext: >
+        From the part frame into density that separates decision from consequence.
+
+  - sourcePath: parts/part-2-compression-under-scale/chapter-4-population-growth-and-social-density.md
+    summary: >
+      At Lachish in 701 BCE, Assyrian siege and later Nineveh reliefs made visible what
+      distance otherwise hid: imperial decision and provincial consequence no longer met in
+      one place. Iron Age density multiplied strangers and roles while older personal authority
+      struggled to span the gap. The moral problem shifted from survival alone to coordination
+      when orders traveled on clay and courier and arrived in bodies, emptied granaries, and
+      tribute lists.
+    centralQuestion: How do moral systems coordinate when action and consequence no longer share a place?
+    selectedConcepts:
+      - scale
+      - compression
+      - distance
+      - coordination-pressure
+      - authority
+    selectedPatterns:
+      - distance-conceals-consequence
+      - compression-loses-the-person
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - population growth and social density
+      - lachish siege
+      - empire and distance
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From Part II's travel problem into imperial density at Lachish.
+      toNext: >
+        From density's pressure into Axial-age tools that travel without shared revelation.
+
+  - sourcePath: parts/part-2-compression-under-scale/chapter-5-shared-conditions-not-shared-revelation.md
+    summary: >
+      Judaism, Greek philosophy, Confucianism, and Buddhism are often cast as simultaneous
+      awakenings; the book keeps a narrower claim. Under similar structural pressures—density,
+      estrangement, weakened older certainties—several traditions developed moral tools that
+      could travel beyond kinship and shrine. Shared conditions, not shared revelation, help
+      explain why portable ethics and critique arose in distant places without collapsing them
+      into one progress story.
+    centralQuestion: What do similar structural pressures explain—and not explain—about portable moral tools across cultures?
+    selectedConcepts:
+      - compression
+      - scale
+      - certainty
+      - legitimacy
+      - formation
+    selectedPatterns:
+      - meaning-forms-early
+      - structures-outlive-reasons
+      - meaning-outruns-the-words
+    searchAliases:
+      - shared conditions not shared revelation
+      - axial age pressures
+      - portable moral tools
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: >
+        From density that opens distance into traditions that compress meaning for travel.
+      toNext: >
+        From portable ethics into writing that fixes obligation in stone and canon.
+
+  - sourcePath: parts/part-2-compression-under-scale/chapter-6-writing-as-moral-stabilizer.md
+    summary: >
+      Ashoka's rock and pillar edicts made dharma encounterable on roadsides and frontiers—
+      moral vocabulary inscribed across regions that shared neither kinship nor shrine. Writing
+      did not end interpretation; it changed where interpretation happened and which readings
+      could claim the authority of the inscribed word. From Hammurabi's stone to imperial
+      repetition, writing stabilizes obligation so certainty can outlast the ruler's presence.
+    centralQuestion: How does writing change where moral obligation lives when the ruler cannot be present?
+    selectedConcepts:
+      - compression
+      - bureaucracy
+      - certainty
+      - institutional-memory
+      - authority
+    selectedPatterns:
+      - meaning-forms-early
+      - exceptions-are-forever
+      - structures-outlive-reasons
+    searchAliases:
+      - writing as moral stabilizer
+      - ashoka edicts
+      - inscribed dharma
+    situations:
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: >
+        From portable traditions into inscription that fixes them across empire.
+      toNext: >
+        From classical compression into Part III—certainty inherited after the roads fail.
+
+  - sourcePath: parts/part-3-inherited-certainty/bridge.md
+    summary: >
+      Inherited certainty arrives as what remains when roads fail and collectors stop coming.
+      Medieval Europe re-compressed after imperial collapse; Renaissance expansion brought
+      peoples and places inherited categories could not fully contain; industrial scale replaced
+      the temple wall with factory bell, file, and timetable. Part III follows hardening into
+      inheritance—and the moment before failure, when systems still function but the fit has
+      begun to thin.
+    centralQuestion: What does certainty become once it hardens into inheritance rather than immediate adaptation?
+    selectedConcepts:
+      - inheritance
+      - drift
+      - certainty
+      - structure
+      - compression
+    selectedPatterns:
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+      - exceptions-are-forever
+    searchAliases:
+      - inherited certainty
+      - after the roads fail
+      - hardening into inheritance
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From writing's reach into certainty that outlives the conditions that made it.
+      toNext: >
+        From the part frame into medieval re-adaptation after imperial thinning.
+
+  - sourcePath: parts/part-3-inherited-certainty/chapter-7-medieval-re-adaptation.md
+    summary: >
+      After Roman administration thinned in much of Western Europe, communities faced
+      uncertainty at scale—not open-ended moral experiment. Authority splintered; violence
+      grew harder to contain; coordination had to be reassembled locally, then tightened again
+      under later catastrophes. Framing the millennium as mere regression mistakes survival
+      under breakdown for a fall from classical rationality; re-adaptation compressed order
+      because inherited maps of obligation still had to hold life together.
+    centralQuestion: How does certainty re-tighten after imperial infrastructure fails without becoming mere regression?
+    selectedConcepts:
+      - inheritance
+      - constraint
+      - compression
+      - legitimacy
+      - structure
+    selectedPatterns:
+      - structures-outlive-reasons
+      - finality-compensates-for-uncertainty
+      - meaning-drifts-over-time
+    searchAliases:
+      - medieval re-adaptation
+      - after rome
+      - local order after collapse
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From inherited certainty's frame into post-imperial re-compression.
+      toNext: >
+        From tightened local order into early modern exposure that fractures categories.
+
+  - sourcePath: parts/part-3-inherited-certainty/chapter-8-renaissance-exploration-and-fracture.md
+    summary: >
+      At Valladolid, Las Casas and Sepúlveda argued whether conquest and Indigenous peoples
+      could be fitted into inherited Aristotelian and Christian categories. The debate did not
+      end violence; it made visible inherited moral order meeting peoples and places it had
+      not anticipated—and tightening even as it argued. Geographic and intellectual expansion
+      introduced novelty faster than frameworks could absorb, producing fracture without clean
+      triumph of conscience over empire.
+    centralQuestion: What happens when inherited moral categories meet peoples and places they were not built to hold?
+    selectedConcepts:
+      - inheritance
+      - drift
+      - legitimacy
+      - certainty
+      - compression
+    selectedPatterns:
+      - structures-outlive-reasons
+      - meaning-shifts-under-pressure
+      - exceptions-are-forever
+    searchAliases:
+      - renaissance exploration and fracture
+      - valladolid debate
+      - inherited categories under contact
+    situations:
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: >
+        From medieval re-tightening into exposure that strains inherited maps.
+      toNext: >
+        From plural fracture into industrial procedures that coordinate strangers by the clock.
+
+  - sourcePath: parts/part-3-inherited-certainty/chapter-9-industrial-scale-and-institutional-certainty.md
+    summary: >
+      On November 18, 1883, North American railroads adopted standard time zones so schedules
+      and freight contracts could share one hour across hundreds of miles—abstraction felt in
+      the body as a missed connection. Factory bells, punch cards, and office hierarchies
+      translated moral expectation into procedure so strangers could coordinate without knowing
+      one another's names. Institutional certainty at industrial scale made repeatable order
+      the everyday face of inheritance.
+    centralQuestion: How does industrial coordination turn inherited certainty into procedure strangers can share?
+    selectedConcepts:
+      - scale
+      - bureaucracy
+      - compression
+      - institutional-memory
+      - certainty
+    selectedPatterns:
+      - compression-loses-the-person
+      - structures-outlive-reasons
+      - distance-conceals-consequence
+    searchAliases:
+      - industrial scale and institutional certainty
+      - railway time 1883
+      - factory bell timetable
+    situations:
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: >
+        From fractured inheritance into procedure that spans strangers at industrial scale.
+      toNext: >
+        From functioning institutions into the threshold where fit thins before systems stop.
+
+  - sourcePath: parts/part-3-inherited-certainty/chapter-10-the-moment-before-failure.md
+    summary: >
+      By late twentieth century, tools of certainty still largely functioned—law, markets, and
+      administration still coordinated life—while the fit between map and ground loosened. As
+      Katrina approached in 2005, situation reports, conference calls, and charts still named
+      responsibilities even as overlapping jurisdictions and the gap between plan and ground
+      widened. The threshold is often not when a system stops, but when procedures still signal
+      readiness after inheritance has begun to fail its conditions.
+    centralQuestion: How do we recognize certainty outliving its fit while procedures still signal that everything is ready?
+    selectedConcepts:
+      - drift
+      - inheritance
+      - certainty
+      - structural-fragility
+      - legitimacy
+    selectedPatterns:
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+      - learning-collapses
+    searchAliases:
+      - the moment before failure
+      - katrina situation reports
+      - procedures still signal readiness
+    situations:
+      - inherited-rule-outlives-constraint
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From industrial procedure into the edge where coordination continues as fit thins.
+      toNext: >
+        From the threshold into recognition without a new instruction manual.
+
+  - sourcePath: back-matter/conclusion-recognition-without-instruction.md
+    summary: >
+      Certainty has been treated as coordination equipment under constraint, scale, and
+      uncertainty—not as pure truth or mere deception. It is conditional: formed under
+      particular pressures, then inherited and protected until asked to do work it was never
+      built to sustain. Moral systems rarely fail all at once; they outlive themselves.
+      Understanding how certainty arrived does not prescribe how to live once it no longer
+      holds—that belongs to the books that follow.
+    centralQuestion: What does recognizing certainty as conditional change—without yet telling us how to live after it thins?
+    selectedConcepts:
+      - certainty
+      - inheritance
+      - drift
+      - constraint
+      - legitimacy
+    selectedPatterns:
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - recognition without instruction
+      - certainty is conditional
+      - systems outlive themselves
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From the moment before failure into what recognition can hold without prescription.
