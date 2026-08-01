@@ -32,6 +32,6 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 | Book | Phase | Hub |
 |------|-------|-----|
-| [The Case That Does Not Fit](the-case-that-does-not-fit/) | Phase 0 — Structure | [`index.md`](the-case-that-does-not-fit/index.md) · [`status`](the-case-that-does-not-fit/docs/status.md) |
+| [The Case That Does Not Fit](the-case-that-does-not-fit/) | First full draft (~28k; DOCX on) | [`index.md`](the-case-that-does-not-fit/index.md) · [`status`](the-case-that-does-not-fit/docs/status.md) |
 
 Scaffold additional titles from [`docs/_templates/`](docs/_templates/).

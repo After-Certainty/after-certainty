@@ -1,0 +1,22 @@
+# Tuning for tools/generate_open_graph.py — The Case That Does Not Fit
+# Cover: warm parchment / bronze form-and-checkbox art
+bg_crop: [40, 480, 984, 1320]
+tint: [48, 36, 22, 150]
+accent_color: [196, 148, 72]
+title_lines:
+  - text: The Case
+    color: white
+  - text: That Does
+    color: accent
+  - text: Not Fit
+    color: white
+subtitle_lines:
+  - PRESENT-DAY CASES, HISTORICAL
+  - PATTERNS, AND INSTITUTIONS
+  - CAPABLE OF RECONSIDERATION
+subtitle_color: accent
+font_title: 46
+font_sub: 15
+title_start_y: 70
+title_line_gap: 50
+rule_width: 360
