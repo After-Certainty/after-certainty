@@ -94,6 +94,7 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **Trust Beyond Similarity** — *How Trust Remains Possible Across Difference* | [`books/trust-beyond-similarity/index.md`](books/trust-beyond-similarity/index.md) | How people learn to trust perspectives they do not share—and why difference makes trust more valuable. |
 | **What We Cannot See** — *Bias, Judgment, and the Limits of Perspective* | [`books/what-we-cannot-see/index.md`](books/what-we-cannot-see/index.md) | Why partial perspective is structural; judgment under limits; integration as civilizational adaptation (~21k words). |
 | **Everyone Knows Love** — *Why Is It So Hard to Explain?* | [`books/everyone-knows-love/index.md`](books/everyone-knows-love/index.md) | Love as recognition before definition—seeing, giving, staying, repair, and care in ordinary life. |
+| **No Time to Think** — *How Acceleration Relocates Judgment—and Why Institutions Must Protect It* | [`books/no-time-to-think/index.md`](books/no-time-to-think/index.md) | What happens when production accelerates faster than capacity to verify, integrate, and stop—responsible speed and protected judgment. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 
@@ -110,7 +111,6 @@ Active scaffolds under [`upcoming/`](upcoming/) (Phase 0 — structure; exports 
 
 | Book | Hub |
 |------|-----|
-| **No Time to Think** — *How Acceleration Relocates Judgment—and Why Institutions Must Protect It* | [`upcoming/no-time-to-think/`](upcoming/no-time-to-think/) |
 | **The Case That Does Not Fit** — *Present-Day Cases, Historical Patterns, and Institutions Capable of Reconsideration* | [`upcoming/the-case-that-does-not-fit/`](upcoming/the-case-that-does-not-fit/) |
 
 See the [portfolio dashboard](upcoming/docs/portfolio-status.md). Judgment / compression cluster siblings are published under `books/`—see the Books table above.

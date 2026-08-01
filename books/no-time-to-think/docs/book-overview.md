@@ -8,10 +8,9 @@
 | Subtitle | How Acceleration Relocates Judgment—and Why Institutions Must Protect It |
 | Author | Kevin Steffensen |
 | Series | After Certainty |
-| Status | Upcoming / in development |
-| Spec status | `upcoming.status: in_progress` |
-| Current phase | Developmental deepen-the-world pass (~31k); DOCX enabled |
-| Spec | [`upcoming.yml`](../upcoming.yml) |
+| Status | Published pipeline (`books/`); final proof follow-ups open |
+| Spec | [`book.yml`](../book.yml) |
+| Current phase | Phase 5 promote + proofread corrections |
 
 ## Short premise
 
@@ -45,8 +44,4 @@ Every organization decides where judgment will live. If it never makes that deci
 
 ## Companion
 
-*No Time to Think* complements [*The Case That Does Not Fit*](../../the-case-that-does-not-fit/) (capacity for judgment vs. reconsideration architecture).
-
-## Setup note
-
-**No chapters have been drafted in this setup pass.** Manuscript files contain headings and planning pointers only. See [`status.md`](status.md).
+*No Time to Think* complements [*The Case That Does Not Fit*](../../../upcoming/the-case-that-does-not-fit/) (capacity for judgment vs. reconsideration architecture).

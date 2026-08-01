@@ -296,15 +296,18 @@ def _split_sections_at_openers(doc: Document) -> int:
     if not openers:
         return 0
 
-    # Front matter ends immediately before Introduction.
-    intro = openers[0]
-    if (intro.text or "").strip() != "Introduction":
+    # Front matter ends immediately before Introduction. About the Series (and any
+    # other recognized openers) may appear earlier in front matter; keep those in
+    # the front-matter section and start body sections at Introduction.
+    intro = next((p for p in openers if (p.text or "").strip() == "Introduction"), None)
+    if intro is None:
         return 0
+    body_openers = openers[openers.index(intro) :]
 
     # Insert from last opener backward so element positions stay stable.
     # The section break BEFORE opener[i] defines properties for the previous section.
     # final_sectPr defines properties for the last opener's section.
-    for opener in reversed(openers[1:]):
+    for opener in reversed(body_openers[1:]):
         # Previous section is a body opener section (continuous page numbers).
         sectPr = _make_sect_pr(final_sectPr, next_page=True, start=None, title_page=True)
         _insert_section_break_before(opener, sectPr)
@@ -319,7 +322,7 @@ def _split_sections_at_openers(doc: Document) -> int:
             final_sectPr.remove(el)
     final_sectPr.append(OxmlElement("w:titlePg"))
 
-    return len(openers)
+    return len(body_openers)
 
 
 def _apply_document_metadata(doc: Document, *, title: str, subtitle: str, author: str) -> None:
