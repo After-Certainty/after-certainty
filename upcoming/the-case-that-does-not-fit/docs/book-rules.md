@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Architectural constraints for **The Case That Does Not Fit** (*Present-Day Cases, Historical Patterns, and Institutions Capable of Reconsideration*).
+Architectural constraints for **The Case That Does Not Fit** (*How Rules Protect Us—and What Institutions Must Do When They Misread Us*).
 
 This is not a marketing brief. It preserves conceptual cohesion, stylistic consistency, and structural discipline across the manuscript.
 

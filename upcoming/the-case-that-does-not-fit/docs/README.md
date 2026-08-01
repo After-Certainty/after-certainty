@@ -1,6 +1,6 @@
 # The Case That Does Not Fit — Planning Docs
 
-Central navigation for planning documents for *The Case That Does Not Fit: Present-Day Cases, Historical Patterns, and Institutions Capable of Reconsideration*.
+Central navigation for planning documents for *The Case That Does Not Fit: How Rules Protect Us—and What Institutions Must Do When They Misread Us*.
 
 ## Start here
 

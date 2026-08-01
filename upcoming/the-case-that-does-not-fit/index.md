@@ -1,6 +1,6 @@
 # **The Case That Does Not Fit**
 
-## **Present-Day Cases, Historical Patterns, and Institutions Capable of Reconsideration**
+## **How Rules Protect Us—and What Institutions Must Do When They Misread Us**
 
 ### **Contents**
 

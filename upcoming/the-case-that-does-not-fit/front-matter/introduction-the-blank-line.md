@@ -18,7 +18,7 @@ The blank line exists because the boxes are also a compression. They make the wo
 
 ---
 
-On July 31, 2026, a federal contract supporting legal services for unaccompanied migrant children was set to expire. Press accounts of the Acacia Center for Justice network described roughly one hundred participating organizations and on the order of twenty thousand children served; exact counts vary by source, and later successor arrangements remained unsettled as of early August 2026.[^c0-acacia]
+On July 31, 2026, a federal contract supporting legal services for unaccompanied migrant children expired. The Acacia Center for Justice coordinated a network of nearly one hundred organizations serving tens of thousands of children. As the contract ended, no successor arrangement had been publicly identified.[^c0-acacia]
 
 The immigration system did not disappear when the contract expired. The statutes remained. The hearings remained. The notices, eligibility categories, deadlines, and possible forms of relief remained. A child could still have a case file. A court could still have a calendar. Counsel, orientation, and representation did not vanish from every corner of the system. The government could still say, formally and accurately, that process existed.
 
@@ -92,4 +92,4 @@ The form can be complete and still incomplete. Every box can have an answer. The
 
 The question is whether the institution still knows what to do with a form whose boxes are full and whose last line says `Other: ____________________`.
 
-[^c0-acacia]: Associated Press, "Legal services ending for unaccompanied migrant children," July 31, 2026, https://apnews.com/article/migrant-children-deport-unaccompanied-26aee30582c81f7399e919f7f298439d (roughly one hundred organizations; about 20,000 children). See also Acacia Center for Justice, "Unaccompanied Children Program," https://acaciajustice.org/what-we-do/unaccompanied-children-program/ (nearly 100 providers; more than 26,000 children). Successor contract status remained unsettled as of early August 2026.
+[^c0-acacia]: Associated Press, "Legal services ending for unaccompanied migrant children," July 31, 2026, https://apnews.com/article/migrant-children-deport-unaccompanied-26aee30582c81f7399e919f7f298439d (roughly one hundred organizations; about 20,000 children). Acacia Center for Justice, "Trump Administration Ends Unaccompanied Children Program Contract with Acacia's Legal Service Providers," July 31, 2026, https://acaciajustice.org/trump-administration-ends-unaccompanied-children-program-contract-with-acacias-legal-service-providers/ (nearly 100 providers; more than 20,000 children; contract ended that day). Acacia's program page has also described more than 26,000 children, https://acaciajustice.org/what-we-do/unaccompanied-children-program/. As of August 1, 2026, no publicly identified successor arrangement had been verified.

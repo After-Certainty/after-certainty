@@ -1,6 +1,6 @@
 # The Case That Does Not Fit
 
-**Subtitle:** Present-Day Cases, Historical Patterns, and Institutions Capable of Reconsideration  
+**Subtitle:** How Rules Protect Us—and What Institutions Must Do When They Misread Us  
 **Author:** Kevin Steffensen  
 **Series:** After Certainty  
 **Status:** Upcoming / in development (`upcoming.status: in_progress`)  

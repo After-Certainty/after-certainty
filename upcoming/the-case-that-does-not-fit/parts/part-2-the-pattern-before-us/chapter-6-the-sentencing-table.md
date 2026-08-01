@@ -34,7 +34,7 @@ If the statutory criteria are met, the court may sentence without regard to the 
 
 This is the mature pattern. First, unequal discretion produces a demand for rules. Then rigid consistency produces cases of disproportion. Then the system invents a bounded exception. The exception is not a loophole in the casual sense. It is not a private favor. It is not simply mercy. It is a structured authorization for judgment under specified conditions.
 
-Section 3553(f) is built in that form. The statute directs the court to sentence without regard to the statutory minimum for certain covered offenses only if the court finds that the listed requirements are satisfied after the government has had an opportunity to make a recommendation.[^c6-statute] The government's recommendation does not control the court's legal determination. The requirements concern criminal history, violence or weapons, death or serious bodily injury, leadership or organizing role, and truthful provision of information to the government. Criminal-history eligibility is more than a vague "limited record"; the statute sets a three-condition checklist. The exact details have changed over time, including expansion under the First Step Act, but the structure is the point for this chapter: the return of judgment is conditional, recorded, and reviewable.[^c6-ussc-2023]
+Section 3553(f) is built in that form. The statute directs the court to sentence without regard to the statutory minimum for certain covered offenses only if the court finds that the listed requirements are satisfied after the government has had an opportunity to make a recommendation.[^c6-statute] The government's recommendation does not control the court's legal determination. The requirements concern criminal history, violence or weapons, death or serious bodily injury, leadership or organizing role, and truthful provision of information to the government. Criminal-history eligibility is defined by statute rather than left to a vague impression that the defendant has a "limited record."[^c6-pulsifer] The exact details have changed over time, including expansion under the First Step Act, but the structure is the point for this chapter: the return of judgment is conditional, recorded, and reviewable.[^c6-ussc-2023]
 
 The safety valve does three things at once.
 
@@ -87,5 +87,7 @@ The mature rule system does not deny pressure. It builds the place where pressur
 [^c6-crs-safety-valve]: Congressional Research Service, "Federal Mandatory Minimum Sentences: The Safety Valve and Substantial Assistance Exceptions," Congress.gov, https://www.congress.gov/crs-product/R41326.
 
 [^c6-statute]: 18 U.S.C. § 3553(f), "Limitation on Applicability of Statutory Minimums in Certain Cases," https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section3553&num=0&edition=prelim.
+
+[^c6-pulsifer]: *Pulsifer v. United States*, 601 U.S. 124 (2024). The Court interpreted the criminal-history conditions in § 3553(f)(1) as independently disqualifying: failure to satisfy any one of them bars safety-valve relief.
 
 [^c6-ussc-2023]: United States Sentencing Commission, "2023 Amendment In Brief: Amendment 817," https://www.ussc.gov/sites/default/files/pdf/amendment-process/amendments-in-brief/AIB_817.pdf.
