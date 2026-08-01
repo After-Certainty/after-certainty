@@ -4,9 +4,11 @@ import type { SearchDocument, SearchEntityType } from "@/lib/search/types";
 
 /**
  * Soft expected ceiling after source lean + chapter dedupe + wire slimming
- * (original plan §13 targeted ~140–200 KB; pruned corpus aims ≲300 KB gzip).
+ * (original plan §13 targeted ~140–200 KB; pruned corpus aimed ≲300 KB gzip).
+ * Bumped for chapter-enrichment batch (BCA / sediment / WOBL summaries on
+ * chapter documents); revisit with another prune if enrichment continues past ~320 KB.
  */
-export const SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES = 300 * 1024;
+export const SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES = 320 * 1024;
 
 /** CI alert threshold — fail tests when the transferable index exceeds this. */
 export const SEARCH_INDEX_GZIP_ALERT_BYTES = 360 * 1024;
