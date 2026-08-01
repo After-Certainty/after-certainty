@@ -1,6 +1,6 @@
-# Glossary candidates: when-others-look-to-you-v2
+# Glossary candidates: learning-to-see
 
-- **Book directory:** `books/when-others-look-to-you/v2`
+- **Book directory:** `books/learning-to-see`
 - **Existing glossary entries:** 144
 
 - **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_
