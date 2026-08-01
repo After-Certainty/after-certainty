@@ -14,15 +14,11 @@ But the most consequential effect of cheap generation may not be the filled queu
 
 ---
 
-### What expertise is
-
-Expertise is not primarily an accumulation of correct answers. It is an accumulation of calibrated uncertainty—a developing sense of when to trust a pattern, when to doubt a conclusion, when a fluent result is concealing an omission. That calibration does not form by observing correct output. It forms by producing work, encountering where it fails, and building a pattern library from the texture of error over time. Pattern recognition and consequence contact are not ornaments on expertise. They are how expertise becomes usable when the case does not fit the template.
+The first question is what expertise actually consists of. Expertise is not primarily an accumulation of correct answers. It is an accumulation of calibrated uncertainty—a developing sense of when to trust a pattern, when to doubt a conclusion, when a fluent result is concealing an omission. That calibration does not form by observing correct output. It forms by producing work, encountering where it fails, and building a pattern library from the texture of error over time. Pattern recognition and consequence contact are not ornaments on expertise. They are how expertise becomes usable when the case does not fit the template.
 
 ---
 
-### How expertise traditionally forms
-
-An apprentice radiologist learns to read imaging not by observing correct diagnoses but by making assessments, comparing them with what the attending sees, and developing a fine-grained sense of what they missed—at what size, in what tissue, under what visual conditions. The finding that escaped their first-year attention becomes the one they catch reliably by their third year. An apprentice engineer learns what makes a system fragile not by reading explanations of fragility but by writing code, watching it break, and tracing the break back to the decision that produced it. A junior attorney learns to identify the controlling legal issue not by reading model briefs but by drafting briefs, receiving markup, and internalizing over years what the markup was saying about how the problem should have been framed.
+That kind of judgment has traditionally formed through supervised struggle. An apprentice radiologist learns to read imaging not by observing correct diagnoses but by making assessments, comparing them with what the attending sees, and developing a fine-grained sense of what they missed—at what size, in what tissue, under what visual conditions. The finding that escaped their first-year attention becomes the one they catch reliably by their third year. An apprentice engineer learns what makes a system fragile not by reading explanations of fragility but by writing code, watching it break, and tracing the break back to the decision that produced it. A junior attorney learns to identify the controlling legal issue not by reading model briefs but by drafting briefs, receiving markup, and internalizing over years what the markup was saying about how the problem should have been framed.
 
 In each case, the learning is not the correct output. The learning is the distance between the novice's output and the expert's assessment—and the repeated experience of closing that distance, incompletely at first, more reliably over time. Supervised failure, independent first attempts, feedback, and repeated comparison form the curriculum. The failures are instructive only because the novice was the one who produced them and can trace what went wrong from the inside.
 
@@ -32,9 +28,7 @@ The result was faster throughput and a workforce that had been, by design, separ
 
 ---
 
-### What cheap fluency disrupts
-
-The fluency problem has a specific structure. A generated output—a clinical note, a legal brief, a code function, an analytical summary—does not announce its own errors in the way that apprentice work announces them. Apprentice work fails visibly. It is uneven, clearly incomplete in places, obviously uncertain in others. That visibility is instructive: the novice can see where their work differed from what the expert would have produced, and that difference is the curriculum.
+Cheap fluency disrupts that formation in a specific way. The fluency problem has a specific structure. A generated output—a clinical note, a legal brief, a code function, an analytical summary—does not announce its own errors in the way that apprentice work announces them. Apprentice work fails visibly. It is uneven, clearly incomplete in places, obviously uncertain in others. That visibility is instructive: the novice can see where their work differed from what the expert would have produced, and that difference is the curriculum.
 
 Generated output is designed to be uniformly fluent. It does not have the tells of early-stage work. The novice reviewing it cannot rely on the ordinary signals that something needs more attention, because those signals—uneven prose, structural gaps, uncertain framing—have been smoothed by the model. The output may still be wrong in ways that only an expert would catch: a clinical note that is stylistically complete but omits a medication interaction relevant to the presenting complaint; a legal brief that is formally well-constructed but frames the controlling issue in a way that forecloses the stronger argument; a code function that compiles and passes its test suite but handles certain edge cases in ways that will cause failures in production under conditions the tests did not cover. The novice does not yet have the pattern library to catch those errors. And unlike traditional apprenticeship, the novice cannot develop that library by examining their own work, because they did not produce the work.
 
@@ -58,9 +52,7 @@ The parallel with Taylorism is not exact, but the structure is recognizable. Tay
 
 ---
 
-### How institutions must redesign apprenticeship
-
-Deliberate apprenticeship design means several things in practice. It means protecting some fraction of novice work from AI assistance—not as deprivation but as deliberate consequence contact. A resident who forms an independent clinical assessment before seeing the AI suggestion is receiving different training from one who reviews the AI suggestion as their first contact with the case. The comparison between an independent assessment and a model's view, made after the independent assessment is formed, is a different learning event than reviewing the model's framing first. One builds calibration. The other builds familiarity with how the model approaches similar cases.
+If fluency can arrive before judgment, institutions must redesign apprenticeship rather than assume formation will still happen by default. Deliberate apprenticeship design means several things in practice. It means protecting some fraction of novice work from AI assistance—not as deprivation but as deliberate consequence contact. A resident who forms an independent clinical assessment before seeing the AI suggestion is receiving different training from one who reviews the AI suggestion as their first contact with the case. The comparison between an independent assessment and a model's view, made after the independent assessment is formed, is a different learning event than reviewing the model's framing first. One builds calibration. The other builds familiarity with how the model approaches similar cases.
 
 It means creating supervised environments where novices can make errors and trace them. Code they must debug without automated suggestions. Drafts they must write before comparing to the model's output. Cases they must assess before seeing the recommended approach. The difficulty is not the point. The feedback loop—the moment when the novice's output is compared to what the expert or the system would have done, and the novice can see and understand the gap—is the point. That loop produces the pattern library that makes the fluent output of AI tools useful rather than misleading, because the person reviewing the output has enough independent judgment to catch what the output got wrong.
 
@@ -90,4 +82,4 @@ Responsible speed, in this chapter's terms, means staffing the work after automa
 
 The queue is full of finished artifacts. The unfinished work is deciding what any of them should mean.
 
-[^c10-taylor]: Frederick W. Taylor, *The Principles of Scientific Management* (1911): "all of the planning which under the old system was done by the workman, as a result of his personal experience, must of necessity under the new system be done by the management in accordance with the laws of the science." Project Gutenberg: https://www.gutenberg.org/cache/epub/6435/pg6435.html
+[^c10-taylor]: Taylor, *The Principles of Scientific Management* (1911): "all of the planning which under the old system was done by the workman, as a result of his personal experience, must of necessity under the new system be done by the management in accordance with the laws of the science," https://www.gutenberg.org/cache/epub/6435/pg6435.html.
