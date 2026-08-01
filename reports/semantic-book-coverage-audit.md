@@ -38,7 +38,7 @@ Portfolio: **34** book specs (33 titles; WOLTY v1 + v2).
 | `coupling` | 34/6/68/120 | 1/37 | Deep graph; chapters nearly empty |
 | `before-certainty-arrives` | 43/0/42/43 | 0/15 | Glossary-heavy; no chapter summaries |
 | `when-others-look-to-you-v1` | 13/10/26/28 | 0/25 | Flagship patterns; chapters missing |
-| `when-interpretation-no-longer-matters` | 24/0/54/58 | 0/15 | Also biblio drift: 10 missing, 26 stale RB |
+| `when-interpretation-no-longer-matters` | 25/0/54/58 | 0/15 | Biblio drift cleared; `authority` glossary-linked (was source-only via Weber) |
 | `what-we-cannot-see` | 16/0/21/22 | 0/19 | |
 | `when-incentives-become-the-moral-language` | 8/0/47/46 | 0/20 | |
 | `the-economy-we-dont-experience` | 5/0/27/24 | 0/16 | |
@@ -53,13 +53,9 @@ Portfolio: **34** book specs (33 titles; WOLTY v1 + v2).
 
 From `reports/bibliography-semantic-drift.md` (24 books audited):
 
-| Book | Missing | Missing RB | Stale |
-| --- | ---: | ---: | ---: |
-| `the-world-we-make-together` | 40 | 14 | 0 |
-| `when-interpretation-no-longer-matters` | 10 | 0 | 26 |
-| `why-collaboration-is-so-hard` | 4 | 2 | 0 |
+All audited bibliographies: **0 missing / 0 stale / 0 missing RB** (845 matched).
 
-All other audited bibliographies: 0 missing / 0 stale / 0 missing RB.
+Cleared 2026-08-01: `when-interpretation-no-longer-matters` (was 10 missing / 26 stale) and `why-collaboration-is-so-hard` (was 4 missing / 2 missing RB). World We Make Together was already cleared in #442.
 
 ## Tier 3 — Overview curation only (little or no graph extraction)
 
@@ -81,7 +77,7 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 | --- | ---: | ---: | --- |
 | `after-certainty` | 18/10/27/25 | 15/15 | Strongest flagship |
 | `the-game-we-think-we-saw` | 17/0/72/40 | 13/13 | Strong |
-| `why-collaboration-is-so-hard` | 12/0/9/11 | 10/10 | Thin sources; small biblio drift |
+| `why-collaboration-is-so-hard` | 12/0/15/11 | 10/10 | Biblio drift cleared; chapters present |
 
 ## Suggested extraction order
 
@@ -90,8 +86,8 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 3. ~~Glossary linking for `living-in-sediment` and `when-others-become-leaders`~~ done (overview spines wired).
 4. ~~Glossary linking for handbooks `how-serious-systems-learn` and `the-discipline-of-uncertainty`~~ done (#445).
 5. ~~Glossary linking for remaining source-rich G=0 books~~ done (moral seriousness, WOLTY v2, accountability expires, learning-to-see).
-6. **Chapter enrichment batch** for thin flagships (`coupling`, `before-certainty-arrives`, WOLTY v1/v2, `living-in-sediment`, `when-others-become-leaders`, handbooks, …).
-7. **Biblio reconcile** for `when-interpretation-no-longer-matters` (stale RB) and `why-collaboration-is-so-hard`.
+6. **Chapter enrichment batch** for thin flagships (`coupling`, `before-certainty-arrives`, WOLTY v1/v2, `living-in-sediment`, `when-others-become-leaders`, handbooks, `when-interpretation-no-longer-matters`, …).
+7. ~~**Biblio reconcile** for `when-interpretation-no-longer-matters` and `why-collaboration-is-so-hard`~~ done (0/0/0 drift).
 8. **Semantic enrichment** on newly linked hubs (definitions / recognition-signals) where thin.
 
 ## How to regenerate

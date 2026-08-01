@@ -4,8 +4,7 @@ type: book
 summary: 'Postman, Neil. *Amusing Ourselves to Death*. New York: Penguin Books, 1985.'
 concepts: []
 patterns: []
-relatedBooks:
-- when-interpretation-no-longer-matters
+relatedBooks: []
 title: Amusing Ourselves to Death
 creatorNames:
 - Neil Postman

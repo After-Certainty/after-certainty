@@ -13,10 +13,10 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 ## Portfolio summary
 
 - Books with bibliography audited: **24**
-- Matched pairs: **829**
-- Missing in semantic (no work found): **14**
-- Exists but missing `relatedBooks` link: **2**
-- Stale `relatedBooks` links: **26**
+- Matched pairs: **845**
+- Missing in semantic (no work found): **0**
+- Exists but missing `relatedBooks` link: **0**
+- Stale `relatedBooks` links: **0**
 
 | Book | Style | Biblio | Linked | Matched | Missing | Missing RB | Stale |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -37,13 +37,13 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 | `when-authority-is-misread` | list | 51 | 51 | 51 | 0 | 0 | 0 |
 | `when-authority-outlives-accountability` | list | 30 | 30 | 30 | 0 | 0 | 0 |
 | `when-incentives-become-the-moral-language` | plain_chicago | 47 | 47 | 47 | 0 | 0 | 0 |
-| `when-interpretation-no-longer-matters` | list | 38 | 54 | 28 | 10 | 0 | 26 |
+| `when-interpretation-no-longer-matters` | list | 38 | 38 | 38 | 0 | 0 | 0 |
 | `when-moral-seriousness-scales` | list | 22 | 22 | 22 | 0 | 0 | 0 |
 | `when-others-become-leaders` | list | 53 | 53 | 53 | 0 | 0 | 0 |
 | `when-others-look-to-you-v1` | list | 26 | 26 | 26 | 0 | 0 | 0 |
 | `when-others-look-to-you-v2` | list | 17 | 17 | 17 | 0 | 0 | 0 |
 | `when-trust-stops-tracking-reality` | list | 23 | 23 | 23 | 0 | 0 | 0 |
-| `why-collaboration-is-so-hard` | pandoc_div | 15 | 9 | 9 | 4 | 2 | 0 |
+| `why-collaboration-is-so-hard` | pandoc_div | 15 | 15 | 15 | 0 | 0 | 0 |
 
 ## Out of audit scope
 
@@ -1432,10 +1432,10 @@ _None._
 
 - Bibliography: `books/when-interpretation-no-longer-matters/back-matter/bibliography.md`
 - Parse style: `list` (38 entries)
-- Semantic linked sources: 54
+- Semantic linked sources: 38
 - Parse warning: other styles also matched: plain_chicago=1
 
-### Matched (28)
+### Matched (38)
 
 - `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio` ← biblio `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio` (exact_slug, score=100)
 - `bushman-richard-lyman-joseph-smith-rough-stone-rolling` ← biblio `bushman-richard-lyman-joseph-smith-rough-stone-rolling` (exact_slug, score=100)
@@ -1448,7 +1448,11 @@ _None._
 - `fitzpatrick-sheila-everyday-stalinism-ordinary-life-in-extraordinary-times` ← biblio `fitzpatrick-sheila-everyday-stalinism-ordinary-life-in-extraordinary-times` (exact_slug, score=100)
 - `haberman-maggie-confidence-man-the-making-of-donald-trump-and-the-breaking-of-america` ← biblio `haberman-maggie-confidence-man-the-making-of-donald-trump-and-the-breaking-of-america` (exact_slug, score=100)
 - `hawkins-kirk-a-venezuela-s-chavismo-and-populism-in-comparative-perspective` ← biblio `hawkins-kirk-a-venezuela-s-chavismo-and-populism-in-comparative-perspective` (exact_slug, score=100)
+- `jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41` ← biblio `jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41` (exact_slug, score=100)
+- `jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents` ← biblio `jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents` (exact_slug, score=100)
+- `jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization` ← biblio `jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization` (exact_slug, score=100)
 - `kershaw-ian-hitler-1889-1936-hubris` ← biblio `kershaw-ian-hitler-1889-1936-hubris` (exact_slug, score=100)
+- `kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi` ← biblio `kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi` (exact_slug, score=100)
 - `kiernan-ben-the-pol-pot-regime-race-power-and-genocide-in-cambodia-under-the-khmer-rouge-1975-79` ← biblio `kiernan-ben-the-pol-pot-regime-race-power-and-genocide-in-cambodia-under-the-khmer-rouge-1975-79` (exact_slug, score=100)
 - `klein-ezra-why-we-re-polarized` ← biblio `klein-ezra-why-we-re-polarized` (exact_slug, score=100)
 - `klemperer-victor-i-will-bear-witness-a-diary-of-the-nazi-years-1933-1941` ← biblio `klemperer-victor-i-will-bear-witness-a-diary-of-the-nazi-years-1933-1941` (exact_slug, score=100)
@@ -1457,63 +1461,37 @@ _None._
 - `laclau-ernesto-on-populist-reason` ← biblio `laclau-ernesto-on-populist-reason` (exact_slug, score=100)
 - `macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution` ← biblio `macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution` (exact_slug, score=100)
 - `page-joseph-a-per-n-a-biography` ← biblio `page-joseph-a-per-n-a-biography` (exact_slug, score=100)
+- `pew-research-center-a-look-back-at-americans-reactions-to-the-jan-6-riot-at-the-u-s-capitol` ← biblio `pew-research-center-a-look-back-at-americans-reactions-to-the-jan-6-riot-at-the-u-s-capitol` (exact_slug, score=100)
+- `pew-research-center-large-majority-of-the-public-views-prosecution-of-capitol-rioters-as-very-im` ← biblio `pew-research-center-large-majority-of-the-public-views-prosecution-of-capitol-rioters-as-very-im` (exact_slug, score=100)
+- `pew-research-center-views-on-the-rioting-at-the-u-s-capitol` ← biblio `pew-research-center-views-on-the-rioting-at-the-u-s-capitol` (exact_slug, score=100)
 - `reiterman-tim-raven-the-untold-story-of-the-rev-jim-jones` ← biblio `reiterman-tim-raven-the-untold-story-of-the-rev-jim-jones` (exact_slug, score=100)
 - `shipps-jan-mormonism-the-story-of-a-new-religious-tradition` ← biblio `shipps-jan-mormonism-the-story-of-a-new-religious-tradition` (exact_slug, score=100)
+- `solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation` ← biblio `solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation` (exact_slug, score=100)
 - `tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer` ← biblio `tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer` (exact_slug, score=100)
+- `u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-c` ← biblio `u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-c` (exact_slug, score=100)
+- `u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-hig` ← biblio `u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-hig` (exact_slug, score=100)
+- `ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers` ← biblio `ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers` (exact_slug, score=100)
 - `wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict` ← biblio `wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict` (exact_slug, score=100)
+- `givens-terryl-l-by-the-hand-of-mormon` ← biblio `givens-terryl-l-by-the-hand-of-mormon-the-american-scripture-that-launched-a-new-world-religion` (title_author, score=85)
 - `hirschman-albert-o-exit-voice-and-loyalty-responses-to-decline-in-firms-organizations-and-states` ← biblio `hirschman-albert-o-exit-voice-and-loyalty` (title_author, score=85)
 - `the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price` ← biblio `the-church-of-jesus-christ-of-latter-day-saints-the-pearl-of-great-price` (title_jaccard, score=65)
-- `parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth` ← biblio `u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-c` (summary_overlap, score=58)
-- `woodward-bob-fear-trump-in-the-white-house` ← biblio `u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-hig` (summary_overlap, score=58)
 
-### Missing in semantic (10)
+### Missing in semantic (0)
 
-- Terryl L Givens — *By the Hand of Mormon: The American Scripture That Launched a New World Religion* (`givens-terryl-l-by-the-hand-of-mormon-the-american-scripture-that-launched-a-new-world-religion`)
-- Jeffrey M Jones — *Last Trump Job Approval 34%; Average Is Record-Low 41%* (`jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41`)
-- Jeffrey M Jones — *Trump Approval More Stable Than Approval for Prior Presidents* (`jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents`)
-- Jeffrey M Jones — *Trump Job Approval Sets New Record for Polarization* (`jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization`)
-- Kessler, Glenn, Salvador Rizzo, and Meg Kelly — *President Trump Has Made More Than 20,000 False or Misleading Claims* (`kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi`)
-- Pew Research Center — *A Look Back at Americans' Reactions to the Jan. 6 Riot at the U.S. Capitol* (`pew-research-center-a-look-back-at-americans-reactions-to-the-jan-6-riot-at-the-u-s-capitol`)
-- Pew Research Center — *Large Majority of the Public Views Prosecution of Capitol Rioters as 'Very Important.'* (`pew-research-center-large-majority-of-the-public-views-prosecution-of-capitol-rioters-as-very-im`)
-- Pew Research Center — *Views on the Rioting at the U.S. Capitol* (`pew-research-center-views-on-the-rioting-at-the-u-s-capitol`)
-- Aleksandr I Solzhenitsyn — *The Gulag Archipelago, 1918-1956: An Experiment in Literary Investigation* (`solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation`)
-- Loung Ung — *First They Killed My Father: A Daughter of Cambodia Remembers* (`ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers`)
+_None._
 
 ### Exists but missing relatedBooks (0)
 
 _None._
 
-### Stale relatedBooks (26)
+### Stale relatedBooks (0)
 
-- `arendt-hannah-the-origins-of-totalitarianism` — Hannah Arendt — The Origins of Totalitarianism
-- `barker-eileen-the-making-of-a-moonie-choice-or-brainwashing` — Eileen Barker — The Making of a Moonie: Choice or Brainwashing?
-- `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog` — Peter L. Berger and Thomas Luckmann — The Social Construction of Reality: A Treatise in the Sociology of Knowledge
-- `berlin-isaiah-the-hedgehog-and-the-fox` — Isaiah Berlin — The Hedgehog and the Fox.
-- `chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific` — George D Chryssides — The Advent of Sun Myung Moon: The Origins, Beliefs, and Practices of the Unification Church
-- `ellul-jacques-propaganda-the-formation-of-men-s-attitudes` — Jacques Ellul — Propaganda: The Formation of Men’s Attitudes
-- `festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails` — Henry W. Riecken, Leon Festinger, and Stanley Schachter — When Prophecy Fails
-- `foucault-michel-discipline-and-punish-the-birth-of-the-prison` — Michel Foucault — Discipline and Punish: The Birth of the Prison
-- `foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977` — Michel Foucault — Power/Knowledge: Selected Interviews and Other Writings, 1972–1977
-- `foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76` — Michel Foucault — "Society Must Be Defended": Lectures at the Collège de France, 1975–76
-- `givens-terryl-l-by-the-hand-of-mormon` — Terryl L Givens — By the Hand of Mormon
-- `goffman-erving-the-presentation-of-self-in-everyday-life` — Erving Goffman — The Presentation of Self in Everyday Life
-- `gott-richard-hugo-ch-vez-and-the-bolivarian-revolution` — Richard Gott — Hugo Chávez and the Bolivarian Revolution
-- `habermas-j-rgen-the-theory-of-communicative-action` — Jürgen Habermas — The Theory of Communicative Action
-- `havel-vaclav-the-power-of-the-powerless` — Václav Havel — The Power of the Powerless.
-- `kuhn-thomas-s-the-structure-of-scientific-revolutions` — Thomas S Kuhn — The Structure of Scientific Revolutions
-- `mouffe-chantal-the-democratic-paradox` — Chantal Mouffe — The Democratic Paradox
-- `popper-karl-the-open-society-and-its-enemies` — Karl Popper — The Open Society and Its Enemies
-- `postman-neil-amusing-ourselves-to-death` — Neil Postman — Amusing Ourselves to Death
-- `schmitt-carl-the-concept-of-the-political` — Carl Schmitt — The Concept of the Political
-- `shklar-judith-ordinary-vices` — Judith Shklar — Ordinary Vices
-- `steffensen-kevin-how-meaning-moves` — Kevin Steffensen — How Meaning Moves
-- `steffensen-kevin-when-authority-is-misread` — Kevin Steffensen — When Authority Is Misread
-- `steffensen-kevin-when-authority-outlives-accountability-a-lens-for` — Kevin Steffensen — When Authority Outlives Accountability: A Lens for
-- `sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media` — Cass R Sunstein — #Republic: Divided Democracy in the Age of Social Media
-- `weber-max-economy-and-society-an-outline-of-interpretive-sociology` — Max Weber — Economy and Society: An Outline of Interpretive Sociology
+_None._
 
-### Thinkers stale for this book (25)
+### Thinkers stale for this book (27)
 
+- `ashley-parker` — Ashley Parker
+- `bob-woodward` — Bob Woodward
 - `carl-schmitt` — Carl Schmitt
 - `cass-r-sunstein` — Cass R Sunstein
 - `chantal-mouffe` — Chantal Mouffe
@@ -1530,12 +1508,12 @@ _None._
 - `kevin-steffensen` — Kevin Steffensen
 - `leon-festinger` — Leon Festinger
 - `max-weber` — Max Weber
+- `michael-scherer` — Michael Scherer
 - `michel-foucault` — Michel Foucault
 - `neil-postman` — Neil Postman
 - `peter-l-berger` — Peter L. Berger
 - `richard-gott` — Richard Gott
 - `stanley-schachter` — Stanley Schachter
-- `terryl-l-givens` — Terryl L Givens
 - `thomas-luckmann` — Thomas Luckmann
 - `thomas-s-kuhn` — Thomas S Kuhn
 - `vaclav-havel` — Václav Havel
@@ -1556,9 +1534,13 @@ _None._
 - `u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-high-crimes-and-misdemeanors-h-res-24-117th-cong-january-13-2021` (U.S. House of Representatives. Impeaching Donald John Trump, President of the United States, for High Crimes and Misdemeanors. H. Res. 24. 117th Cong. (January 13, 2021))
 - `wright-stuart-a` (Wright, Stuart A.)
 
-### Orphan creatorSlugs on linked sources (0)
+### Orphan creatorSlugs on linked sources (5)
 
-_None._
+- `jeffrey-m-jones` on `jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41`
+- `jeffrey-m-jones` on `jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents`
+- `jeffrey-m-jones` on `jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization`
+- `aleksandr-i-solzhenitsyn` on `solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation`
+- `loung-ung` on `ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers`
 
 ## `when-moral-seriousness-scales`
 
@@ -1898,32 +1880,34 @@ _None._
 
 - Bibliography: `books/why-collaboration-is-so-hard/back-matter/bibliography.md`
 - Parse style: `pandoc_div` (15 entries)
-- Semantic linked sources: 9
+- Semantic linked sources: 15
 - Parse warning: other styles also matched: plain_chicago=15
 
-### Matched (9)
+### Matched (15)
 
 - `hirschman-albert-o-exit-voice-and-loyalty-responses-to-decline-in-firms-organizations-and-states` ← biblio `hirschman-albert-o-exit-voice-and-loyalty-responses-to-decline-in-firms-organizations-and-states` (exact_slug, score=100)
 - `hochschild-arlie-russell-the-managed-heart-commercialization-of-human-feeling` ← biblio `hochschild-arlie-russell-the-managed-heart-commercialization-of-human-feeling` (exact_slug, score=100)
+- `kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr` ← biblio `kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr` (exact_slug, score=100)
 - `luhmann-niklas-trust-and-power-two-works` ← biblio `luhmann-niklas-trust-and-power-two-works` (exact_slug, score=100)
 - `march-james-g-and-herbert-a-simon-organizations` ← biblio `march-james-g-and-herbert-a-simon-organizations` (exact_slug, score=100)
+- `morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme` ← biblio `morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme` (exact_slug, score=100)
+- `muller-jerry-z-the-tyranny-of-metrics` ← biblio `muller-jerry-z-the-tyranny-of-metrics` (exact_slug, score=100)
+- `occupational-safety-and-health-administration-cranes-and-derricks` ← biblio `occupational-safety-and-health-administration-cranes-and-derricks` (exact_slug, score=100)
+- `occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule` ← biblio `occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule` (exact_slug, score=100)
 - `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` ← biblio `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` (exact_slug, score=100)
 - `scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed` ← biblio `scott-james-c-seeing-like-a-state-how-certain-schemes-to-improve-the-human-condition-have-failed` (exact_slug, score=100)
 - `sennett-richard-together-the-rituals-pleasures-and-politics-of-cooperation` ← biblio `sennett-richard-together-the-rituals-pleasures-and-politics-of-cooperation` (exact_slug, score=100)
 - `star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and` ← biblio `star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and` (exact_slug, score=100)
 - `weick-karl-e-sensemaking-in-organizations` ← biblio `weick-karl-e-sensemaking-in-organizations` (exact_slug, score=100)
+- `edmondson-amy-c-psychological-safety-and-learning-behavior-in-work` ← biblio `edmondson-amy-psychological-safety-and-learning-behavior-in-work-teams` (title_author, score=85)
 
-### Missing in semantic (4)
+### Missing in semantic (0)
 
-- Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania — *Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review* (`kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr`)
-- Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman — *Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions* (`morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme`)
-- Occupational Safety and Health Administration — *Cranes and Derricks in Construction: Final Rule* (`occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule`)
-- Occupational Safety and Health Administration — *Cranes and Derricks* (`occupational-safety-and-health-administration-cranes-and-derricks`)
+_None._
 
-### Exists but missing relatedBooks (2)
+### Exists but missing relatedBooks (0)
 
-- `muller-jerry-z-the-tyranny-of-metrics` matches biblio `muller-jerry-z-the-tyranny-of-metrics` (exact_slug; current books: how-serious-systems-learn, living-in-sediment)
-- `edmondson-amy-c-psychological-safety-and-learning-behavior-in-work` matches biblio `edmondson-amy-psychological-safety-and-learning-behavior-in-work-teams` (title_author; current books: when-others-look-to-you-v1)
+_None._
 
 ### Stale relatedBooks (0)
 

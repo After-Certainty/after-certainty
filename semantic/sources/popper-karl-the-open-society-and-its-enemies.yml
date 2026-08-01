@@ -4,8 +4,7 @@ type: book
 summary: 'Popper, Karl. *The Open Society and Its Enemies*. London: Routledge, 1945.'
 concepts: []
 patterns: []
-relatedBooks:
-- when-interpretation-no-longer-matters
+relatedBooks: []
 title: The Open Society and Its Enemies
 creatorNames:
 - Karl Popper
