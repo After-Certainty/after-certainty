@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 import type { SearchIndexPayload } from "@/lib/search/indexPayload";
-import { createSearchEngine, type SearchEngine } from "@/lib/search/miniSearch";
+import type { SearchEngine } from "@/lib/search/miniSearch";
 
 type SearchIndexState =
   | { status: "idle" }
@@ -14,6 +14,7 @@ type SearchIndexState =
 let cachedPayload: SearchIndexPayload | null = null;
 let cachedEngine: SearchEngine | null = null;
 let inflight: Promise<SearchIndexPayload> | null = null;
+let engineInflight: Promise<SearchEngine> | null = null;
 
 function readyState(): Extract<SearchIndexState, { status: "ready" }> | null {
   if (cachedEngine && cachedPayload) {
@@ -41,6 +42,34 @@ async function fetchSearchIndexPayload(): Promise<SearchIndexPayload> {
       });
   }
   return inflight;
+}
+
+async function ensureSearchEngine(payload: SearchIndexPayload): Promise<SearchEngine> {
+  if (cachedEngine) return cachedEngine;
+  if (!engineInflight) {
+    engineInflight = import("@/lib/search/miniSearch")
+      .then(({ createSearchEngine }) => createSearchEngine(payload.documents))
+      .then((engine) => {
+        cachedEngine = engine;
+        return engine;
+      })
+      .finally(() => {
+        engineInflight = null;
+      });
+  }
+  return engineInflight;
+}
+
+/**
+ * Warm the JSON corpus (and MiniSearch chunk) during browser idle time so
+ * Cmd-K / `/search` often hit a ready cache.
+ */
+export function prefetchSearchIndex(): void {
+  void fetchSearchIndexPayload()
+    .then((payload) => ensureSearchEngine(payload))
+    .catch(() => {
+      /* prefetch is best-effort */
+    });
 }
 
 export type UseSearchIndexOptions = {
@@ -71,10 +100,9 @@ export function useSearchIndex(options: UseSearchIndexOptions = {}): SearchIndex
     let cancelled = false;
 
     fetchSearchIndexPayload()
-      .then((payload) => {
+      .then((payload) => ensureSearchEngine(payload).then((engine) => ({ payload, engine })))
+      .then(({ payload, engine }) => {
         if (cancelled) return;
-        const engine = createSearchEngine(payload.documents);
-        cachedEngine = engine;
         setState({ status: "ready", engine, payload });
       })
       .catch((err: unknown) => {
@@ -98,4 +126,5 @@ export function resetSearchIndexCacheForTests(): void {
   cachedPayload = null;
   cachedEngine = null;
   inflight = null;
+  engineInflight = null;
 }

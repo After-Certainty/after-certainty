@@ -4,8 +4,10 @@ import { WOLTY_PUBLIC_ALIAS, WOLTY_V1_SLUG } from "@/lib/books/book-slugs";
 import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
 import {
   buildSearchDocuments,
+  buildSourceDocument,
   collectSearchDocumentIssues,
   findCatalogBookForSlug,
+  leanSourceDescription,
   parseBookEdition,
   pickCanonicalEditionSlug,
 } from "@/lib/search/buildSearchDocuments";
@@ -152,8 +154,9 @@ describe("buildSearchDocuments", () => {
     const docs = buildSearchDocuments({ graph, podcastEpisodes: episodes });
 
     expect(docs.map((d) => d.entityType).sort()).toEqual(
-      ["book", "concept", "pattern", "podcast_episode", "source", "thinker"].sort(),
+      ["book", "concept", "pattern", "podcast_episode", "thinker"].sort(),
     );
+    expect(docs.some((d) => d.entityType === "source")).toBe(false);
 
     const book = docs.find((d) => d.id === "book-a");
     expect(book?.canonicalUrl).toBe("/explore/books/book-a");
@@ -212,6 +215,40 @@ describe("buildSearchDocuments", () => {
     const docs = buildSearchDocuments({ graph });
     expect(docs.find((d) => d.slug === "how-meaning-moves")?.status).toBe("forthcoming");
     expect(docs.find((d) => d.slug === "how-meaning-moves")?.sourceArtifact).toBe("semantic");
+  });
+
+  it("leans bibliography source descriptions and omits citation from searchText", () => {
+    const citation =
+      "Acemoglu, Daron, and James A. Robinson. Why Nations Fail: The Origins of Power, Prosperity, and Poverty. New York: Crown Publishers, 2012. Expanded citation padding for truncation.";
+    const sourceDoc = buildSourceDocument(
+      {
+        id: "source-why-nations-fail",
+        slug: "why-nations-fail",
+        name: "Acemoglu — Why Nations Fail",
+        type: "book",
+        title: "Why Nations Fail",
+        summary: citation,
+        citation,
+        creatorNames: ["Daron Acemoglu"],
+        relatedBooks: ["living-in-sediment"],
+      },
+      emptyGraph(),
+    );
+
+    const description = leanSourceDescription({
+      id: "source-why-nations-fail",
+      slug: "why-nations-fail",
+      name: "Acemoglu — Why Nations Fail",
+      type: "book",
+      summary: citation,
+      citation,
+    });
+    expect(description?.endsWith("…")).toBe(true);
+    expect(description!.length).toBeLessThanOrEqual(160);
+    expect(sourceDoc.description).toBe(description);
+    expect(sourceDoc.searchText).not.toMatch(/Crown/);
+    expect(sourceDoc.searchText).toMatch(/Daron Acemoglu/);
+    expect(sourceDoc.relatedTitles).toBeUndefined();
   });
 
   it.skipIf(!tryLoadLocalSemanticManifest())(

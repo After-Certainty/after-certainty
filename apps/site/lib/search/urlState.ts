@@ -2,6 +2,7 @@ import type { SearchEntityType } from "@/lib/search/types";
 
 export const SEARCH_PAGE_SIZE = 24;
 
+/** Entity types exposed in Global Search filters (sources browse via Explore). */
 export const SEARCH_ENTITY_TYPES: readonly SearchEntityType[] = [
   "book",
   "chapter",
@@ -9,7 +10,6 @@ export const SEARCH_ENTITY_TYPES: readonly SearchEntityType[] = [
   "pattern",
   "situation",
   "thinker",
-  "source",
   "podcast_episode",
 ] as const;
 

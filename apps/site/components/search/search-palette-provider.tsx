@@ -13,6 +13,7 @@ import {
 } from "react";
 
 import { QuickSearchDialog } from "@/components/search/quick-search-dialog";
+import { prefetchSearchIndex } from "@/components/search/use-search-index";
 import { trackSearchOpen } from "@/lib/analytics/track";
 import type { SearchOpenParams } from "@/lib/analytics/events";
 
@@ -75,6 +76,20 @@ export function SearchPaletteProvider({ children }: { children: ReactNode }) {
     window.addEventListener("keydown", onKeyDown);
     return () => window.removeEventListener("keydown", onKeyDown);
   }, [open, openSearch, closeSearch]);
+
+  useEffect(() => {
+    const win = window as Window & {
+      requestIdleCallback?: (cb: () => void, opts?: { timeout: number }) => number;
+      cancelIdleCallback?: (id: number) => void;
+    };
+    const schedule =
+      win.requestIdleCallback?.bind(win) ??
+      ((cb: () => void) => window.setTimeout(cb, 1) as unknown as number);
+    const cancel =
+      win.cancelIdleCallback?.bind(win) ?? ((id: number) => window.clearTimeout(id));
+    const idleId = schedule(() => prefetchSearchIndex(), { timeout: 2500 });
+    return () => cancel(idleId);
+  }, []);
 
   const value = useMemo(
     () => ({ open, openSearch, closeSearch, triggerRef }),

@@ -10,7 +10,7 @@ import { getTrailSearchBridges } from "@/lib/trails/loadTrails";
 export const metadata: Metadata = createPageMetadata({
   title: "Search",
   description:
-    "Search After Certainty — books, concepts, patterns, thinkers, sources, and podcast episodes across the intellectual commons.",
+    "Search After Certainty — books, concepts, patterns, thinkers, chapters, and podcast episodes across the intellectual commons.",
 });
 
 type SearchPageProps = {

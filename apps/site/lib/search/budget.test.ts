@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
 import {
+  measureSearchDocumentsByEntityType,
   measureSearchIndexPayload,
   SEARCH_INDEX_GZIP_ALERT_BYTES,
   SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES,
@@ -21,12 +22,30 @@ describe.skipIf(!graph)("search index budget (local manifest)", () => {
       "2026-07-19T00:00:00.000Z",
     );
     const size = measureSearchIndexPayload(payload);
+    const byType = measureSearchDocumentsByEntityType(payload.documents);
+
+    // Surface composition in CI logs when budgets drift.
+    console.info(
+      "[search-budget]",
+      JSON.stringify({
+        documentCount: payload.documentCount,
+        jsonBytes: size.jsonBytes,
+        gzipBytes: size.gzipBytes,
+        byType: byType.map((row) => ({
+          entityType: row.entityType,
+          documentCount: row.documentCount,
+          gzipBytes: row.gzipBytes,
+        })),
+      }),
+    );
 
     expect(payload.documentCount).toBe(documents.length);
     expect(size.gzipBytes).toBeLessThanOrEqual(SEARCH_INDEX_GZIP_ALERT_BYTES);
     expect(size.exceedsAlert).toBe(false);
-    // Soft expectation from the plan — fail loudly if we blow past the intended V1 band.
     expect(size.gzipBytes).toBeLessThanOrEqual(SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES);
     expect(size.jsonBytes).toBeGreaterThan(50_000);
+
+    expect(byType.length).toBeGreaterThan(0);
+    expect(byType.every((row) => row.documentCount > 0 && row.gzipBytes > 0)).toBe(true);
   });
 });

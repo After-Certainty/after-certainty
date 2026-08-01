@@ -212,7 +212,7 @@ function GlobalSearchPageInner({
         <p className="text-xs uppercase tracking-[0.25em] text-muted">Discover</p>
         <h1 className="mt-4 font-display text-4xl text-fg md:text-5xl">Search</h1>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted">
-          Find books, concepts, patterns, thinkers, sources, and podcast episodes across After
+          Find books, concepts, patterns, thinkers, chapters, and podcast episodes across After
           Certainty — without already knowing which section holds the answer.
         </p>
 
