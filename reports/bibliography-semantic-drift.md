@@ -12,11 +12,11 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 
 ## Portfolio summary
 
-- Books with bibliography audited: **22**
-- Matched pairs: **729**
-- Missing in semantic (no work found): **0**
-- Exists but missing `relatedBooks` link: **0**
-- Stale `relatedBooks` links: **0**
+- Books with bibliography audited: **24**
+- Matched pairs: **775**
+- Missing in semantic (no work found): **54**
+- Exists but missing `relatedBooks` link: **16**
+- Stale `relatedBooks` links: **26**
 
 | Book | Style | Biblio | Linked | Matched | Missing | Missing RB | Stale |
 | --- | --- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -29,19 +29,21 @@ Manuscript bibliographies are the source of truth for which works (and thus crea
 | `living-in-sediment` | list | 72 | 72 | 72 | 0 | 0 | 0 |
 | `the-discipline-of-uncertainty` | list | 10 | 10 | 10 | 0 | 0 | 0 |
 | `the-economy-we-dont-experience` | pandoc_div | 27 | 27 | 27 | 0 | 0 | 0 |
+| `the-game-we-think-we-saw` | list | 72 | 72 | 72 | 0 | 0 | 0 |
+| `the-world-we-make-together` | pandoc_div | 54 | 0 | 0 | 40 | 14 | 0 |
 | `trust-beyond-similarity` | list | 42 | 42 | 42 | 0 | 0 | 0 |
 | `what-we-cannot-see` | list | 21 | 21 | 21 | 0 | 0 | 0 |
 | `when-accountability-no-longer-expires` | list | 12 | 12 | 12 | 0 | 0 | 0 |
 | `when-authority-is-misread` | list | 51 | 51 | 51 | 0 | 0 | 0 |
 | `when-authority-outlives-accountability` | list | 30 | 30 | 30 | 0 | 0 | 0 |
 | `when-incentives-become-the-moral-language` | plain_chicago | 47 | 47 | 47 | 0 | 0 | 0 |
-| `when-interpretation-no-longer-matters` | list | 54 | 54 | 54 | 0 | 0 | 0 |
+| `when-interpretation-no-longer-matters` | list | 38 | 54 | 28 | 10 | 0 | 26 |
 | `when-moral-seriousness-scales` | list | 22 | 22 | 22 | 0 | 0 | 0 |
 | `when-others-become-leaders` | list | 53 | 53 | 53 | 0 | 0 | 0 |
 | `when-others-look-to-you-v1` | list | 26 | 26 | 26 | 0 | 0 | 0 |
 | `when-others-look-to-you-v2` | list | 17 | 17 | 17 | 0 | 0 | 0 |
 | `when-trust-stops-tracking-reality` | list | 23 | 23 | 23 | 0 | 0 | 0 |
-| `why-collaboration-is-so-hard` | list | 9 | 9 | 9 | 0 | 0 | 0 |
+| `why-collaboration-is-so-hard` | pandoc_div | 15 | 9 | 9 | 4 | 2 | 0 |
 
 ## Out of audit scope
 
@@ -735,6 +737,239 @@ _None._
 
 _None._
 
+## `the-game-we-think-we-saw`
+
+- Bibliography: `books/the-game-we-think-we-saw/back-matter/bibliography.md`
+- Parse style: `list` (72 entries)
+- Semantic linked sources: 72
+
+### Matched (72)
+
+- `andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl` ← biblio `andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl` (exact_slug, score=100)
+- `andscape-for-allen-iverson-it-was-never-just-about-practice` ← biblio `andscape-for-allen-iverson-it-was-never-just-about-practice` (exact_slug, score=100)
+- `associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics` ← biblio `associated-press-ap-was-there-smith-and-carlos-protest-during-1968-olympics` (exact_slug, score=100)
+- `associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83` ← biblio `associated-press-bob-knight-indiana-s-combustible-coaching-giant-dies-at-age-83` (exact_slug, score=100)
+- `associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture` ← biblio `associated-press-bob-knight-s-chair-college-basketball-s-classic-furniture` (exact_slug, score=100)
+- `associated-press-kaepernick-eric-reid-settle-collusion-grievances-with-nfl` ← biblio `associated-press-kaepernick-eric-reid-settle-collusion-grievances-with-nfl` (exact_slug, score=100)
+- `associated-press-kaepernick-files-grievance-against-nfl-alleging-collusion` ← biblio `associated-press-kaepernick-files-grievance-against-nfl-alleging-collusion` (exact_slug, score=100)
+- `associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener` ← biblio `associated-press-nike-unveils-kaepernick-ad-to-air-during-nfl-season-opener` (exact_slug, score=100)
+- `associated-press-return-of-the-hoosier-knight-back-at-indiana-after-20-years` ← biblio `associated-press-return-of-the-hoosier-knight-back-at-indiana-after-20-years` (exact_slug, score=100)
+- `associated-press-trump-says-nfl-should-fire-players-who-kneel-during-anthem` ← biblio `associated-press-trump-says-nfl-should-fire-players-who-kneel-during-anthem` (exact_slug, score=100)
+- `basketball-reference-bill-russell` ← biblio `basketball-reference-bill-russell` (exact_slug, score=100)
+- `centers-for-disease-control-and-prevention-returning-to-sports` ← biblio `centers-for-disease-control-and-prevention-returning-to-sports` (exact_slug, score=100)
+- `centers-for-disease-control-and-prevention-symptoms-of-concussion` ← biblio `centers-for-disease-control-and-prevention-symptoms-of-concussion` (exact_slug, score=100)
+- `cnn-indiana-university-keeps-coach-knight-with-sanctions` ← biblio `cnn-indiana-university-keeps-coach-knight-with-sanctions` (exact_slug, score=100)
+- `cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem` ← biblio `cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem` (exact_slug, score=100)
+- `dave-studeman-the-triumph-of-moneyball` ← biblio `dave-studeman-the-triumph-of-moneyball` (exact_slug, score=100)
+- `espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid` ← biblio `espn-colin-kaepernick-takes-knee-for-anthem-joined-by-teammate-eric-reid` (exact_slug, score=100)
+- `espn-emotional-bob-knight-ends-20-year-split-with-indiana` ← biblio `espn-emotional-bob-knight-ends-20-year-split-with-indiana` (exact_slug, score=100)
+- `espn-new-policy-requires-on-field-players-personnel-to-stand-for-anthem` ← biblio `espn-new-policy-requires-on-field-players-personnel-to-stand-for-anthem` (exact_slug, score=100)
+- `espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism` ← biblio `espn-nfl-commissioner-roger-goodell-says-nfl-was-wrong-not-to-listen-to-its-players-about-racism` (exact_slug, score=100)
+- `espn-qb-colin-kaepernick-files-grievance-for-collusion-against-nfl-owners` ← biblio `espn-qb-colin-kaepernick-files-grievance-for-collusion-against-nfl-owners` (exact_slug, score=100)
+- `espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting` ← biblio `espn-roger-goodell-wish-we-had-listened-earlier-to-what-colin-kaepernick-was-protesting` (exact_slug, score=100)
+- `espn-transcript-of-brand-s-statement` ← biblio `espn-transcript-of-brand-s-statement` (exact_slug, score=100)
+- `espn-video-supports-reed-s-allegation-against-knight` ← biblio `espn-video-supports-reed-s-allegation-against-knight` (exact_slug, score=100)
+- `grand-slam-tournaments-statement-from-grand-slam-tournaments-regarding-naomi-osaka` ← biblio `grand-slam-tournaments-statement-from-grand-slam-tournaments-regarding-naomi-osaka` (exact_slug, score=100)
+- `indiana-university-athletics-coach-bob-knight-passes-away-at-83` ← biblio `indiana-university-athletics-coach-bob-knight-passes-away-at-83` (exact_slug, score=100)
+- `international-football-association-board-video-assistant-referee-var-protocol` ← biblio `international-football-association-board-video-assistant-referee-var-protocol` (exact_slug, score=100)
+- `international-olympic-committee-gymnastics-what-are-the-twisties` ← biblio `international-olympic-committee-gymnastics-what-are-the-twisties` (exact_slug, score=100)
+- `international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list` ← biblio `international-olympic-committee-simone-biles-all-titles-records-and-medals-complete-list` (exact_slug, score=100)
+- `international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si` ← biblio `international-olympic-committee-simone-biles-opens-up-about-the-twisties-my-mind-and-body-are-si` (exact_slug, score=100)
+- `international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste` ← biblio `international-olympic-committee-simone-biles-speaks-about-pulling-out-of-team-event-i-took-a-ste` (exact_slug, score=100)
+- `jackie-macmullan-the-little-known-story-behind-allen-iverson-s-practice-rant` ← biblio `jackie-macmullan-the-little-known-story-behind-allen-iverson-s-practice-rant` (exact_slug, score=100)
+- `jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis` ← biblio `jahn-k-hakes-and-raymond-d-sauer-an-economic-evaluation-of-the-moneyball-hypothesis` (exact_slug, score=100)
+- `john-feinstein-a-season-on-the-brink` ← biblio `john-feinstein-a-season-on-the-brink` (exact_slug, score=100)
+- `los-angeles-times-former-hoosier-reed-says-he-was-choked-by-knight` ← biblio `los-angeles-times-former-hoosier-reed-says-he-was-choked-by-knight` (exact_slug, score=100)
+- `los-angeles-times-knight-suspended-for-a-game-by-big-ten-for-throwing-chair` ← biblio `los-angeles-times-knight-suspended-for-a-game-by-big-ten-for-throwing-chair` (exact_slug, score=100)
+- `los-angeles-times-tape-has-knight-grabbing-player` ← biblio `los-angeles-times-tape-has-knight-grabbing-player` (exact_slug, score=100)
+- `major-league-baseball-mlb-announces-abs-challenge-system-coming-to-the-major-leagues-beginning-i` ← biblio `major-league-baseball-mlb-announces-abs-challenge-system-coming-to-the-major-leagues-beginning-i` (exact_slug, score=100)
+- `major-league-baseball-pitch-smart-pitching-guidelines` ← biblio `major-league-baseball-pitch-smart-pitching-guidelines` (exact_slug, score=100)
+- `michael-lewis-moneyball-the-art-of-winning-an-unfair-game` ← biblio `michael-lewis-moneyball-the-art-of-winning-an-unfair-game` (exact_slug, score=100)
+- `michael-marot-oft-injured-colts-qb-andrew-luck-29-announces-retirement` ← biblio `michael-marot-oft-injured-colts-qb-andrew-luck-29-announces-retirement` (exact_slug, score=100)
+- `mlb-com-mlb-to-use-abs-challenge-system-starting-in-2026` ← biblio `mlb-com-mlb-to-use-abs-challenge-system-starting-in-2026` (exact_slug, score=100)
+- `moore-et-al-factors-and-expectations-influencing-concussion-disclosure-within-ncaa-division-i-at` ← biblio `moore-et-al-factors-and-expectations-influencing-concussion-disclosure-within-ncaa-division-i-at` (exact_slug, score=100)
+- `naomi-osaka-it-s-o-k-not-to-be-o-k` ← biblio `naomi-osaka-it-s-o-k-not-to-be-o-k` (exact_slug, score=100)
+- `national-collegiate-athletic-association-concussion-fact-sheet-for-coaches` ← biblio `national-collegiate-athletic-association-concussion-fact-sheet-for-coaches` (exact_slug, score=100)
+- `nba-com-legends-profile-bill-russell` ← biblio `nba-com-legends-profile-bill-russell` (exact_slug, score=100)
+- `nba-com-nba-sends-teams-the-results-found-in-load-management-study` ← biblio `nba-com-nba-sends-teams-the-results-found-in-load-management-study` (exact_slug, score=100)
+- `nba-communications-nba-board-of-governors-approves-new-player-participation-policy` ← biblio `nba-communications-nba-board-of-governors-approves-new-player-participation-policy` (exact_slug, score=100)
+- `nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick` ← biblio `nbc-sports-boston-who-gets-most-of-the-credit-brady-or-belichick` (exact_slug, score=100)
+- `nfl-com-brady-to-have-season-ending-knee-surgery` ← biblio `nfl-com-brady-to-have-season-ending-knee-surgery` (exact_slug, score=100)
+- `nfl-com-buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp` ← biblio `nfl-com-buccaneers-qb-tom-brady-extends-record-with-fifth-super-bowl-mvp` (exact_slug, score=100)
+- `nfl-com-nfl-anthem-policy-on-hold-under-standstill-agreement` ← biblio `nfl-com-nfl-anthem-policy-on-hold-under-standstill-agreement` (exact_slug, score=100)
+- `nfl-com-nfl-owners-approve-national-anthem-policy-for-2018` ← biblio `nfl-com-nfl-owners-approve-national-anthem-policy-for-2018` (exact_slug, score=100)
+- `nfl-com-nfl-teams-unanimously-approve-simplified-catch-rule` ← biblio `nfl-com-nfl-teams-unanimously-approve-simplified-catch-rule` (exact_slug, score=100)
+- `nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground` ← biblio `nfl-com-referee-dez-bryant-catch-incomplete-once-ball-hit-ground` (exact_slug, score=100)
+- `nfl-com-roger-goodell-nfl-wrong-for-not-listening-to-protesting-players-earlier` ← biblio `nfl-com-roger-goodell-nfl-wrong-for-not-listening-to-protesting-players-earlier` (exact_slug, score=100)
+- `nfl-concussion-protocol-return-to-participation-protocol-overview` ← biblio `nfl-concussion-protocol-return-to-participation-protocol-overview` (exact_slug, score=100)
+- `nfl-football-operations-art-mcnally-gameday-central` ← biblio `nfl-football-operations-art-mcnally-gameday-central` (exact_slug, score=100)
+- `nick-wagoner-from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-chan` ← biblio `nick-wagoner-from-a-seat-to-a-knee-how-colin-kaepernick-and-nate-boyer-are-trying-to-affect-chan` (exact_slug, score=100)
+- `pro-football-reference-2008-new-england-patriots` ← biblio `pro-football-reference-2008-new-england-patriots` (exact_slug, score=100)
+- `pro-football-reference-new-england-patriots-franchise-encyclopedia` ← biblio `pro-football-reference-new-england-patriots-franchise-encyclopedia` (exact_slug, score=100)
+- `pro-football-reference-super-bowl-lv-box-score` ← biblio `pro-football-reference-super-bowl-lv-box-score` (exact_slug, score=100)
+- `reuters-u-s-quarterback-kaepernick-settles-grievance-case-with-nfl` ← biblio `reuters-u-s-quarterback-kaepernick-settles-grievance-case-with-nfl` (exact_slug, score=100)
+- `san-francisco-49ers-colin-kaepernick-opts-out-of-contract-becomes-a-free-agent` ← biblio `san-francisco-49ers-colin-kaepernick-opts-out-of-contract-becomes-a-free-agent` (exact_slug, score=100)
+- `steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem` ← biblio `steve-wyche-colin-kaepernick-explains-why-he-sat-during-national-anthem` (exact_slug, score=100)
+- `united-states-anti-doping-agency-lance-armstrong-receives-lifetime-ban-and-disqualification-of-c` ← biblio `united-states-anti-doping-agency-lance-armstrong-receives-lifetime-ban-and-disqualification-of-c` (exact_slug, score=100)
+- `united-states-anti-doping-agency-reasoned-decision-of-the-united-states-anti-doping-agency-on-di` ← biblio `united-states-anti-doping-agency-reasoned-decision-of-the-united-states-anti-doping-agency-on-di` (exact_slug, score=100)
+- `united-states-supreme-court-clay-v-united-states` ← biblio `united-states-supreme-court-clay-v-united-states` (exact_slug, score=100)
+- `weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath` ← biblio `weber-rawlins-et-al-concussion-symptom-underreporting-among-incoming-ncaa-division-i-college-ath` (exact_slug, score=100)
+- `will-graves-biles-returns-to-olympic-competition-wins-bronze-on-beam` ← biblio `will-graves-biles-returns-to-olympic-competition-wins-bronze-on-beam` (exact_slug, score=100)
+- `will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self` ← biblio `will-graves-biles-withdraws-from-gymnastics-final-to-protect-team-self` (exact_slug, score=100)
+- `world-athletics-iconic-mexico-city-olympic-podium-protest-turns-50` ← biblio `world-athletics-iconic-mexico-city-olympic-podium-protest-turns-50` (exact_slug, score=100)
+
+### Missing in semantic (0)
+
+_None._
+
+### Exists but missing relatedBooks (0)
+
+_None._
+
+### Stale relatedBooks (0)
+
+_None._
+
+### Thinkers stale for this book (0)
+
+_None._
+
+### Biblio creators without thinker node (0)
+
+_None._
+
+### Orphan creatorSlugs on linked sources (0)
+
+_None._
+
+## `the-world-we-make-together`
+
+- Bibliography: `books/the-world-we-make-together/back-matter/bibliography.md`
+- Parse style: `pandoc_div` (54 entries)
+- Semantic linked sources: 0
+- Parse warning: other styles also matched: plain_chicago=53
+
+### Matched (0)
+
+_None._
+
+### Missing in semantic (40)
+
+- Tom Abate — *Nummi workers say their final good-byes* (`abate-tom-nummi-workers-say-their-final-good-byes`)
+- Paul S Adler — *The 'Learning Bureaucracy': New United Motor Manufacturing, Inc* (`adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc`)
+- BlackPast — *Black Panther Party's Free Breakfast Program (1969-1980)* (`blackpast-black-panther-party-s-free-breakfast-program-1969-1980`)
+- Nick Bunkley — *G.M. and Toyota's Joint Venture Ends in California* (`bunkley-nick-g-m-and-toyota-s-joint-venture-ends-in-california`)
+- California African American Museum — *Free Breakfast for School Children Program* (`california-african-american-museum-free-breakfast-for-school-children-program`)
+- Thomas Carlyle — *On Heroes, Hero-Worship, and the Heroic in History* (`carlyle-thomas-on-heroes-hero-worship-and-the-heroic-in-history`)
+- Church Committee — *Final Report of the Select Committee to Study Governmental Operations with Respect to Intelligence Activities* (`church-committee-final-report-of-the-select-committee-to-study-governmental-operations-with-resp`)
+- Electoral Commission of South Africa — *27 Apr 1994 National Election* (`electoral-commission-of-south-africa-27-apr-1994-national-election`)
+- Encyclopedia of Arkansas — *Lost Year* (`encyclopedia-of-arkansas-lost-year`)
+- Federal Aviation Administration — *McDonnell Douglas DC-8-61* (`federal-aviation-administration-mcdonnell-douglas-dc-8-61`)
+- Richard P Feynman — *Personal Observations on the Reliability of the Shuttle* (`feynman-richard-p-personal-observations-on-the-reliability-of-the-shuttle`)
+- Sidney Fine — *Sit-Down: The General Motors Strike of 1936-1937* (`fine-sidney-sit-down-the-general-motors-strike-of-1936-1937`)
+- Mary Parker Follett — *Creative Experience* (`follett-mary-parker-creative-experience`)
+- Mary Parker Follett — *Dynamic Administration: The Collected Papers of Mary Parker Follett* (`follett-mary-parker-dynamic-administration-the-collected-papers-of-mary-parker-follett`)
+- National Archives Founders Online — *From George Washington to Officers of the Army, 15 March 1783* (`founders-online-national-archives-from-george-washington-to-officers-of-the-army-15-march-1783`)
+- Harvard University Pluralism Project — *Langar: The Communal Meal* (`harvard-university-pluralism-project-langar-the-communal-meal`)
+- Lowcountry Digital History Initiative — *Local and National Leader: Septima P. Clark* (`lowcountry-digital-history-initiative-local-and-national-leader-septima-p-clark`)
+- Lowcountry Digital History Initiative — *The Progressive Club, Johns Island* (`lowcountry-digital-history-initiative-the-progressive-club-johns-island`)
+- Martin Luther King, Jr. Research and Education Institute, Stanford University — *I Have a Dream* (`martin-luther-king-jr-research-and-education-institute-stanford-university-i-have-a-dream`)
+- Douglas McGregor — *The Human Side of Enterprise* (`mcgregor-douglas-the-human-side-of-enterprise`)
+- John Stuart Mill — *Considerations on Representative Government* (`mill-john-stuart-considerations-on-representative-government`)
+- Mount Vernon — *Newburgh Address* (`mount-vernon-newburgh-address`)
+- Mount Vernon — *Newburgh Conspiracy* (`mount-vernon-newburgh-conspiracy`)
+- National Aeronautics and Space Administration — *Apollo 11 Mission Report* (`national-aeronautics-and-space-administration-apollo-11-mission-report`)
+- National Aeronautics and Space Administration — *Managing NASA in the Apollo Era* (`national-aeronautics-and-space-administration-managing-nasa-in-the-apollo-era`)
+- National Museum of American History — *I Have a Dream* (`national-museum-of-american-history-i-have-a-dream`)
+- National Park Service — *March History* (`national-park-service-march-history`)
+- National Transportation Safety Board — *Aircraft Accident Report: United Airlines, Inc., McDonnell-Douglas DC-8-61, N8082U, Portland, Oregon, December 28, 1978* (`national-transportation-safety-board-aircraft-accident-report-united-airlines-inc-mcdonnell-doug`)
+- Northern Ireland Department of Justice — *Department of Justice Interface Programme* (`northern-ireland-department-of-justice-department-of-justice-interface-programme`)
+- Charles M Payne — *I've Got the Light of Freedom: The Organizing Tradition and the Mississippi Freedom Struggle* (`payne-charles-m-i-ve-got-the-light-of-freedom-the-organizing-tradition-and-the-mississippi-freed`)
+- Pettigrew, Thomas F., and Linda R. Tropp — *A Meta-Analytic Test of Intergroup Contact Theory* (`pettigrew-thomas-f-and-linda-r-tropp-a-meta-analytic-test-of-intergroup-contact-theory`)
+- 377 U.S. 533 (1964) *Reynolds v. Sims* — *(no title)* (`reynolds-v-sims-377-u-s-533-1964`)
+- SNCC Digital Gateway — *Birth of SNCC* (`sncc-digital-gateway-birth-of-sncc`)
+- South African History Online — *Denis Farrell* (`south-african-history-online-denis-farrell`)
+- South African History Online — *Election Results 1994* (`south-african-history-online-election-results-1994`)
+- South African History Online — *The South African general elections: 1994* (`south-african-history-online-the-south-african-general-elections-1994`)
+- U.S. Department of Agriculture, Food and Nutrition Service — *School Breakfast Program FAQs* (`u-s-department-of-agriculture-food-and-nutrition-service-school-breakfast-program-faqs`)
+- U.S. Government Accountability Office — *Year 2000 Computing Challenge: Lessons Learned Can Be Applied to Other Management Challenges* (`u-s-government-accountability-office-year-2000-computing-challenge-lessons-learned-can-be-applie`)
+- United States Strike Commission — *Report on the Chicago Strike of June-July, 1894* (`united-states-strike-commission-report-on-the-chicago-strike-of-june-july-1894`)
+- World Bank — *Brazil: Toward a More Inclusive and Effective Participatory Budget in Porto Alegre* (`world-bank-brazil-toward-a-more-inclusive-and-effective-participatory-budget-in-porto-alegre`)
+
+### Exists but missing relatedBooks (14)
+
+- `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` matches biblio `ostrom-elinor-governing-the-commons-the-evolution-of-institutions-for-collective-action` (exact_slug; current books: coupling, how-trust-forms, living-in-sediment, trust-beyond-similarity, when-trust-stops-tracking-reality, why-collaboration-is-so-hard)
+- `ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision` matches biblio `ransby-barbara-ella-baker-and-the-black-freedom-movement-a-radical-democratic-vision` (exact_slug; current books: when-others-become-leaders)
+- `national-archives-u-s-official-demands-march-on-washington-for-jobs-and-freedom-1963` matches biblio `national-park-service-march-on-washington-for-jobs-and-freedom` (title_author; current books: when-others-become-leaders)
+- `president-s-commission-on-the-space-shuttle-challenger-accident-report-of-the-presidential-commi` matches biblio `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission-report-of-the` (title_author; current books: what-we-cannot-see)
+- `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of` matches biblio `tronto-joan-c-moral-boundaries-a-political-argument-for-an-ethic-of-care` (title_author; current books: after-certainty)
+- `congressional-record-111th-congress-debate-on-affordable-care-act-and-public-option-provisions` matches biblio `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-apr` (summary_overlap; current books: when-incentives-become-the-moral-language)
+- `board-of-governors-of-the-federal-reserve-system-beige-book-summary-of-commentary-on-current-eco` matches biblio `brown-v-board-of-education-347-u-s-483-1954` (summary_overlap; current books: the-economy-we-dont-experience)
+- `desai-ashwin-and-goolam-vahed-the-south-african-gandhi-stretcher-bearer-of-empire` matches biblio `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` (summary_overlap; current books: when-others-become-leaders)
+- `agamben-giorgio-state-of-exception` matches biblio `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction` (summary_overlap; current books: when-others-look-to-you-v1, when-others-look-to-you-v2)
+- `albertz-rainer-israel-in-exile-the-history-and-literature-of-the` matches biblio `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-p` (summary_overlap; current books: before-certainty-arrives)
+- `carlin-john-playing-the-enemy-nelson-mandela-and-the-game-that-made-a-nation` matches biblio `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-c` (summary_overlap; current books: when-others-become-leaders)
+- `cnn-politics-trump-nfl-owners-should-fire-players-who-protest-the-national-anthem` matches biblio `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` (summary_overlap; current books: the-game-we-think-we-saw)
+- `board-of-governors-of-the-federal-reserve-system-supervisory-bank-stress-test-results-and-relate` matches biblio `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referen` (summary_overlap; current books: the-economy-we-dont-experience)
+- `arrington-leonard-j-great-basin-kingdom` matches biblio `sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-f` (summary_overlap; current books: learning-to-see)
+
+### Stale relatedBooks (0)
+
+_None._
+
+### Thinkers stale for this book (0)
+
+_None._
+
+### Biblio creators without thinker node (42)
+
+- `347-u-s-483-1954-brown-v-board-of-education` (347 U.S. 483 (1954) *Brown v. Board of Education*)
+- `377-u-s-533-1964-reynolds-v-sims` (377 U.S. 533 (1964) *Reynolds v. Sims*)
+- `belfast-agreement-good-friday-agreement-multi-party-agreement-and-british-irish-agreement-10-april-1998-london-uk-government-https-www-gov-uk-government-publications-the-belfast-agreement` (*Belfast Agreement* (Good Friday Agreement). Multi-Party Agreement and British-Irish Agreement, 10 April 1998. London: UK Government. https://www.gov.uk/government/publications/the-belfast-agreement)
+- `blackpast` (BlackPast)
+- `california-african-american-museum` (California African American Museum)
+- `charles-m-payne` (Charles M Payne)
+- `church-committee` (Church Committee)
+- `constitution-of-the-republic-of-south-africa-act-200-of-1993-interim-constitution` (Constitution of the Republic of South Africa Act 200 of 1993 (Interim Constitution))
+- `douglas-mcgregor` (Douglas McGregor)
+- `eisenhower-dwight-d-executive-order-10730-providing-assistance-for-the-removal-of-an-obstruction-of-justice-within-the-state-of-arkansas-24-september-1957-national-archives-https-www-archives-gov-milestone-documents-executive-order-10730` (Eisenhower, Dwight D. Executive Order 10730, "Providing Assistance for the Removal of an Obstruction of Justice within the State of Arkansas." 24 September 1957. National Archives. https://www.archives.gov/milestone-documents/executive-order-10730)
+- `electoral-commission-of-south-africa` (Electoral Commission of South Africa)
+- `encyclopedia-of-arkansas` (Encyclopedia of Arkansas)
+- `especially-the-commons-https-www-nobelprize-org-prizes-economic-sciences-2009-summary-sveriges-riksbank-prize-in-economic-sciences-in-memory-of-alfred-nobel-2009-prize-announcement-for-elinor-ostrom-for-her-analysis-of-economic-governance` (especially the commons"). https://www.nobelprize.org/prizes/economic-sciences/2009/summary/ Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2009. Prize announcement for Elinor Ostrom ("for her analysis of economic governance)
+- `federal-aviation-administration` (Federal Aviation Administration)
+- `harvard-university-pluralism-project` (Harvard University Pluralism Project)
+- `john-stuart-mill` (John Stuart Mill)
+- `lowcountry-digital-history-initiative` (Lowcountry Digital History Initiative)
+- `martin-luther-king-jr-research-and-education-institute-stanford-university` (Martin Luther King, Jr. Research and Education Institute, Stanford University)
+- `mary-parker-follett` (Mary Parker Follett)
+- `mount-vernon` (Mount Vernon)
+- `national-aeronautics-and-space-administration` (National Aeronautics and Space Administration)
+- `national-archives-founders-online` (National Archives Founders Online)
+- `national-museum-of-african-american-history-and-culture-black-panther-party-community-survival-programs-washington-dc-smithsonian-institution-https-nmaahc-si-edu` (National Museum of African American History and Culture. Black Panther Party community survival programs. Washington, DC: Smithsonian Institution. https://nmaahc.si.edu/)
+- `national-museum-of-american-history` (National Museum of American History)
+- `national-park-service` (National Park Service)
+- `national-park-service-little-rock-central-high-school-national-historic-site-https-www-nps-gov-chsc` (National Park Service. Little Rock Central High School National Historic Site. https://www.nps.gov/chsc/)
+- `national-park-service-pullman-national-historical-park-https-www-nps-gov-pull` (National Park Service. Pullman National Historical Park. https://www.nps.gov/pull/)
+- `national-transportation-safety-board` (National Transportation Safety Board)
+- `nick-bunkley` (Nick Bunkley)
+- `northern-ireland-department-of-justice` (Northern Ireland Department of Justice)
+- `northern-ireland-office-electoral-office-for-northern-ireland-results-of-the-22-may-1998-referendum-on-the-belfast-agreement` (Northern Ireland Office / Electoral Office for Northern Ireland. Results of the 22 May 1998 referendum on the Belfast Agreement)
+- `paul-s-adler` (Paul S Adler)
+- `pettigrew-thomas-f-and-linda-r-tropp` (Pettigrew, Thomas F., and Linda R. Tropp)
+- `presidential-commission-on-the-space-shuttle-challenger-accident-rogers-commission` (Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission))
+- `richard-p-feynman` (Richard P Feynman)
+- `sidney-fine` (Sidney Fine)
+- `sncc-digital-gateway` (SNCC Digital Gateway)
+- `thomas-carlyle` (Thomas Carlyle)
+- `tom-abate` (Tom Abate)
+- `u-s-department-of-agriculture-food-and-nutrition-service` (U.S. Department of Agriculture, Food and Nutrition Service)
+- `u-s-government-accountability-office` (U.S. Government Accountability Office)
+- `united-states-strike-commission` (United States Strike Commission)
+
+### Orphan creatorSlugs on linked sources (0)
+
+_None._
+
 ## `trust-beyond-similarity`
 
 - Bibliography: `books/trust-beyond-similarity/back-matter/bibliography.md`
@@ -1179,97 +1414,129 @@ _None._
 ## `when-interpretation-no-longer-matters`
 
 - Bibliography: `books/when-interpretation-no-longer-matters/back-matter/bibliography.md`
-- Parse style: `list` (54 entries)
+- Parse style: `list` (38 entries)
 - Semantic linked sources: 54
 - Parse warning: other styles also matched: plain_chicago=1
 
-### Matched (54)
+### Matched (28)
 
-- `arendt-hannah-the-origins-of-totalitarianism` ← biblio `arendt-hannah-the-origins-of-totalitarianism` (exact_slug, score=100)
-- `barker-eileen-the-making-of-a-moonie-choice-or-brainwashing` ← biblio `barker-eileen-the-making-of-a-moonie-choice-or-brainwashing` (exact_slug, score=100)
-- `berlin-isaiah-the-hedgehog-and-the-fox` ← biblio `berlin-isaiah-the-hedgehog-and-the-fox` (exact_slug, score=100)
 - `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio` ← biblio `brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the-great-startup-delusio` (exact_slug, score=100)
 - `bushman-richard-lyman-joseph-smith-rough-stone-rolling` ← biblio `bushman-richard-lyman-joseph-smith-rough-stone-rolling` (exact_slug, score=100)
 - `carreyrou-john-bad-blood-secrets-and-lies-in-a-silicon-valley-startup` ← biblio `carreyrou-john-bad-blood-secrets-and-lies-in-a-silicon-valley-startup` (exact_slug, score=100)
 - `chandler-david-p-voices-from-s-21-terror-and-history-in-pol-pot-s-secret-prison` ← biblio `chandler-david-p-voices-from-s-21-terror-and-history-in-pol-pot-s-secret-prison` (exact_slug, score=100)
-- `chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific` ← biblio `chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific` (exact_slug, score=100)
 - `corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy` ← biblio `corrales-javier-and-michael-penfold-dragon-in-the-tropics-hugo-ch-vez-and-the-political-economy` (exact_slug, score=100)
 - `dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976` ← biblio `dik-tter-frank-the-cultural-revolution-a-people-s-history-1962-1976` (exact_slug, score=100)
-- `ellul-jacques-propaganda-the-formation-of-men-s-attitudes` ← biblio `ellul-jacques-propaganda-the-formation-of-men-s-attitudes` (exact_slug, score=100)
 - `escud-carlos-argentine-political-culture` ← biblio `escud-carlos-argentine-political-culture` (exact_slug, score=100)
-- `festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails` ← biblio `festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails` (exact_slug, score=100)
 - `figes-orlando-the-whisperers-private-life-in-stalin-s-russia` ← biblio `figes-orlando-the-whisperers-private-life-in-stalin-s-russia` (exact_slug, score=100)
 - `fitzpatrick-sheila-everyday-stalinism-ordinary-life-in-extraordinary-times` ← biblio `fitzpatrick-sheila-everyday-stalinism-ordinary-life-in-extraordinary-times` (exact_slug, score=100)
-- `foucault-michel-discipline-and-punish-the-birth-of-the-prison` ← biblio `foucault-michel-discipline-and-punish-the-birth-of-the-prison` (exact_slug, score=100)
-- `foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977` ← biblio `foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977` (exact_slug, score=100)
-- `foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76` ← biblio `foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76` (exact_slug, score=100)
-- `givens-terryl-l-by-the-hand-of-mormon` ← biblio `givens-terryl-l-by-the-hand-of-mormon` (exact_slug, score=100)
-- `goffman-erving-the-presentation-of-self-in-everyday-life` ← biblio `goffman-erving-the-presentation-of-self-in-everyday-life` (exact_slug, score=100)
-- `gott-richard-hugo-ch-vez-and-the-bolivarian-revolution` ← biblio `gott-richard-hugo-ch-vez-and-the-bolivarian-revolution` (exact_slug, score=100)
 - `haberman-maggie-confidence-man-the-making-of-donald-trump-and-the-breaking-of-america` ← biblio `haberman-maggie-confidence-man-the-making-of-donald-trump-and-the-breaking-of-america` (exact_slug, score=100)
-- `habermas-j-rgen-the-theory-of-communicative-action` ← biblio `habermas-j-rgen-the-theory-of-communicative-action` (exact_slug, score=100)
 - `hawkins-kirk-a-venezuela-s-chavismo-and-populism-in-comparative-perspective` ← biblio `hawkins-kirk-a-venezuela-s-chavismo-and-populism-in-comparative-perspective` (exact_slug, score=100)
 - `kershaw-ian-hitler-1889-1936-hubris` ← biblio `kershaw-ian-hitler-1889-1936-hubris` (exact_slug, score=100)
 - `kiernan-ben-the-pol-pot-regime-race-power-and-genocide-in-cambodia-under-the-khmer-rouge-1975-79` ← biblio `kiernan-ben-the-pol-pot-regime-race-power-and-genocide-in-cambodia-under-the-khmer-rouge-1975-79` (exact_slug, score=100)
 - `klein-ezra-why-we-re-polarized` ← biblio `klein-ezra-why-we-re-polarized` (exact_slug, score=100)
 - `klemperer-victor-i-will-bear-witness-a-diary-of-the-nazi-years-1933-1941` ← biblio `klemperer-victor-i-will-bear-witness-a-diary-of-the-nazi-years-1933-1941` (exact_slug, score=100)
 - `kotkin-stephen-stalin-paradoxes-of-power-1878-1928` ← biblio `kotkin-stephen-stalin-paradoxes-of-power-1878-1928` (exact_slug, score=100)
-- `kuhn-thomas-s-the-structure-of-scientific-revolutions` ← biblio `kuhn-thomas-s-the-structure-of-scientific-revolutions` (exact_slug, score=100)
 - `kuran-timur-private-truths-public-lies-the-social-consequences-of-preference-falsification` ← biblio `kuran-timur-private-truths-public-lies-the-social-consequences-of-preference-falsification` (exact_slug, score=100)
 - `laclau-ernesto-on-populist-reason` ← biblio `laclau-ernesto-on-populist-reason` (exact_slug, score=100)
 - `macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution` ← biblio `macfarquhar-roderick-and-michael-schoenhals-mao-s-last-revolution` (exact_slug, score=100)
-- `mouffe-chantal-the-democratic-paradox` ← biblio `mouffe-chantal-the-democratic-paradox` (exact_slug, score=100)
 - `page-joseph-a-per-n-a-biography` ← biblio `page-joseph-a-per-n-a-biography` (exact_slug, score=100)
-- `parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth` ← biblio `parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth` (exact_slug, score=100)
-- `popper-karl-the-open-society-and-its-enemies` ← biblio `popper-karl-the-open-society-and-its-enemies` (exact_slug, score=100)
-- `postman-neil-amusing-ourselves-to-death` ← biblio `postman-neil-amusing-ourselves-to-death` (exact_slug, score=100)
 - `reiterman-tim-raven-the-untold-story-of-the-rev-jim-jones` ← biblio `reiterman-tim-raven-the-untold-story-of-the-rev-jim-jones` (exact_slug, score=100)
-- `schmitt-carl-the-concept-of-the-political` ← biblio `schmitt-carl-the-concept-of-the-political` (exact_slug, score=100)
 - `shipps-jan-mormonism-the-story-of-a-new-religious-tradition` ← biblio `shipps-jan-mormonism-the-story-of-a-new-religious-tradition` (exact_slug, score=100)
-- `shklar-judith-ordinary-vices` ← biblio `shklar-judith-ordinary-vices` (exact_slug, score=100)
-- `steffensen-kevin-how-meaning-moves` ← biblio `steffensen-kevin-how-meaning-moves` (exact_slug, score=100)
-- `steffensen-kevin-when-authority-is-misread` ← biblio `steffensen-kevin-when-authority-is-misread` (exact_slug, score=100)
 - `tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer` ← biblio `tabor-james-d-and-eugene-v-gallagher-why-waco-cults-and-the-battle-for-religious-freedom-in-amer` (exact_slug, score=100)
-- `the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price` ← biblio `the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price` (exact_slug, score=100)
-- `woodward-bob-fear-trump-in-the-white-house` ← biblio `woodward-bob-fear-trump-in-the-white-house` (exact_slug, score=100)
 - `wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict` ← biblio `wright-stuart-a-ed-armageddon-in-waco-critical-perspectives-on-the-branch-davidian-conflict` (exact_slug, score=100)
-- `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog` ← biblio `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality` (title_author, score=85)
-- `havel-vaclav-the-power-of-the-powerless` ← biblio `havel-v-clav-the-power-of-the-powerless` (title_author, score=85)
 - `hirschman-albert-o-exit-voice-and-loyalty-responses-to-decline-in-firms-organizations-and-states` ← biblio `hirschman-albert-o-exit-voice-and-loyalty` (title_author, score=85)
-- `steffensen-kevin-when-authority-outlives-accountability-a-lens-for` ← biblio `steffensen-kevin-when-authority-outlives-accountability` (title_author, score=85)
-- `sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media` ← biblio `sunstein-cass-r-republic` (title_author, score=85)
-- `weber-max-economy-and-society-an-outline-of-interpretive-sociology` ← biblio `weber-max-economy-and-society` (title_author, score=85)
+- `the-church-of-jesus-christ-of-latter-day-saints-pearl-of-great-price` ← biblio `the-church-of-jesus-christ-of-latter-day-saints-the-pearl-of-great-price` (title_jaccard, score=65)
+- `parker-ashley-and-michael-scherer-donald-trump-and-his-assault-on-truth` ← biblio `u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-c` (summary_overlap, score=58)
+- `woodward-bob-fear-trump-in-the-white-house` ← biblio `u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-hig` (summary_overlap, score=58)
 
-### Missing in semantic (0)
+### Missing in semantic (10)
 
-_None._
+- Terryl L Givens — *By the Hand of Mormon: The American Scripture That Launched a New World Religion* (`givens-terryl-l-by-the-hand-of-mormon-the-american-scripture-that-launched-a-new-world-religion`)
+- Jeffrey M Jones — *Last Trump Job Approval 34%; Average Is Record-Low 41%* (`jones-jeffrey-m-last-trump-job-approval-34-average-is-record-low-41`)
+- Jeffrey M Jones — *Trump Approval More Stable Than Approval for Prior Presidents* (`jones-jeffrey-m-trump-approval-more-stable-than-approval-for-prior-presidents`)
+- Jeffrey M Jones — *Trump Job Approval Sets New Record for Polarization* (`jones-jeffrey-m-trump-job-approval-sets-new-record-for-polarization`)
+- Kessler, Glenn, Salvador Rizzo, and Meg Kelly — *President Trump Has Made More Than 20,000 False or Misleading Claims* (`kessler-glenn-salvador-rizzo-and-meg-kelly-president-trump-has-made-more-than-20-000-false-or-mi`)
+- Pew Research Center — *A Look Back at Americans' Reactions to the Jan. 6 Riot at the U.S. Capitol* (`pew-research-center-a-look-back-at-americans-reactions-to-the-jan-6-riot-at-the-u-s-capitol`)
+- Pew Research Center — *Large Majority of the Public Views Prosecution of Capitol Rioters as 'Very Important.'* (`pew-research-center-large-majority-of-the-public-views-prosecution-of-capitol-rioters-as-very-im`)
+- Pew Research Center — *Views on the Rioting at the U.S. Capitol* (`pew-research-center-views-on-the-rioting-at-the-u-s-capitol`)
+- Aleksandr I Solzhenitsyn — *The Gulag Archipelago, 1918-1956: An Experiment in Literary Investigation* (`solzhenitsyn-aleksandr-i-the-gulag-archipelago-1918-1956-an-experiment-in-literary-investigation`)
+- Loung Ung — *First They Killed My Father: A Daughter of Cambodia Remembers* (`ung-loung-first-they-killed-my-father-a-daughter-of-cambodia-remembers`)
 
 ### Exists but missing relatedBooks (0)
 
 _None._
 
-### Stale relatedBooks (0)
+### Stale relatedBooks (26)
 
-_None._
+- `arendt-hannah-the-origins-of-totalitarianism` — Hannah Arendt — The Origins of Totalitarianism
+- `barker-eileen-the-making-of-a-moonie-choice-or-brainwashing` — Eileen Barker — The Making of a Moonie: Choice or Brainwashing?
+- `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog` — Peter L. Berger and Thomas Luckmann — The Social Construction of Reality: A Treatise in the Sociology of Knowledge
+- `berlin-isaiah-the-hedgehog-and-the-fox` — Isaiah Berlin — The Hedgehog and the Fox.
+- `chryssides-george-d-the-advent-of-sun-myung-moon-the-origins-beliefs-and-practices-of-the-unific` — George D Chryssides — The Advent of Sun Myung Moon: The Origins, Beliefs, and Practices of the Unification Church
+- `ellul-jacques-propaganda-the-formation-of-men-s-attitudes` — Jacques Ellul — Propaganda: The Formation of Men’s Attitudes
+- `festinger-leon-henry-w-riecken-and-stanley-schachter-when-prophecy-fails` — Henry W. Riecken, Leon Festinger, and Stanley Schachter — When Prophecy Fails
+- `foucault-michel-discipline-and-punish-the-birth-of-the-prison` — Michel Foucault — Discipline and Punish: The Birth of the Prison
+- `foucault-michel-power-knowledge-selected-interviews-and-other-writings-1972-1977` — Michel Foucault — Power/Knowledge: Selected Interviews and Other Writings, 1972–1977
+- `foucault-michel-society-must-be-defended-lectures-at-the-coll-ge-de-france-1975-76` — Michel Foucault — "Society Must Be Defended": Lectures at the Collège de France, 1975–76
+- `givens-terryl-l-by-the-hand-of-mormon` — Terryl L Givens — By the Hand of Mormon
+- `goffman-erving-the-presentation-of-self-in-everyday-life` — Erving Goffman — The Presentation of Self in Everyday Life
+- `gott-richard-hugo-ch-vez-and-the-bolivarian-revolution` — Richard Gott — Hugo Chávez and the Bolivarian Revolution
+- `habermas-j-rgen-the-theory-of-communicative-action` — Jürgen Habermas — The Theory of Communicative Action
+- `havel-vaclav-the-power-of-the-powerless` — Václav Havel — The Power of the Powerless.
+- `kuhn-thomas-s-the-structure-of-scientific-revolutions` — Thomas S Kuhn — The Structure of Scientific Revolutions
+- `mouffe-chantal-the-democratic-paradox` — Chantal Mouffe — The Democratic Paradox
+- `popper-karl-the-open-society-and-its-enemies` — Karl Popper — The Open Society and Its Enemies
+- `postman-neil-amusing-ourselves-to-death` — Neil Postman — Amusing Ourselves to Death
+- `schmitt-carl-the-concept-of-the-political` — Carl Schmitt — The Concept of the Political
+- `shklar-judith-ordinary-vices` — Judith Shklar — Ordinary Vices
+- `steffensen-kevin-how-meaning-moves` — Kevin Steffensen — How Meaning Moves
+- `steffensen-kevin-when-authority-is-misread` — Kevin Steffensen — When Authority Is Misread
+- `steffensen-kevin-when-authority-outlives-accountability-a-lens-for` — Kevin Steffensen — When Authority Outlives Accountability: A Lens for
+- `sunstein-cass-r-republic-divided-democracy-in-the-age-of-social-media` — Cass R Sunstein — #Republic: Divided Democracy in the Age of Social Media
+- `weber-max-economy-and-society-an-outline-of-interpretive-sociology` — Max Weber — Economy and Society: An Outline of Interpretive Sociology
 
-### Thinkers stale for this book (0)
+### Thinkers stale for this book (25)
 
-_None._
+- `carl-schmitt` — Carl Schmitt
+- `cass-r-sunstein` — Cass R Sunstein
+- `chantal-mouffe` — Chantal Mouffe
+- `eileen-barker` — Eileen Barker
+- `erving-goffman` — Erving Goffman
+- `george-d-chryssides` — George D Chryssides
+- `hannah-arendt` — Hannah Arendt
+- `henry-w-riecken` — Henry W. Riecken
+- `isaiah-berlin` — Isaiah Berlin
+- `jacques-ellul` — Jacques Ellul
+- `judith-shklar` — Judith Shklar
+- `jurgen-habermas` — Jürgen Habermas
+- `karl-r-popper` — Karl R Popper
+- `kevin-steffensen` — Kevin Steffensen
+- `leon-festinger` — Leon Festinger
+- `max-weber` — Max Weber
+- `michel-foucault` — Michel Foucault
+- `neil-postman` — Neil Postman
+- `peter-l-berger` — Peter L. Berger
+- `richard-gott` — Richard Gott
+- `stanley-schachter` — Stanley Schachter
+- `terryl-l-givens` — Terryl L Givens
+- `thomas-luckmann` — Thomas Luckmann
+- `thomas-s-kuhn` — Thomas S Kuhn
+- `vaclav-havel` — Václav Havel
 
 ### Biblio creators without thinker node (13)
 
-- `berger-peter-l-and-thomas-luckmann` (Berger, Peter L., and Thomas Luckmann)
+- `2019-u-s-house-of-representatives-articles-of-impeachment-against-donald-john-trump-h-res-755-116th-cong-december-18` (2019) U.S. House of Representatives. Articles of Impeachment against Donald John Trump. H. Res. 755. 116th Cong. (December 18)
+- `aleksandr-i-solzhenitsyn` (Aleksandr I Solzhenitsyn)
 - `brown-eliot-and-maureen-farrell` (Brown, Eliot, and Maureen Farrell)
 - `carlos-escud` (Carlos Escudé)
 - `corrales-javier-and-michael-penfold` (Corrales, Javier, and Michael Penfold)
-- `festinger-leon-henry-w-riecken-and-stanley-schachter` (Festinger, Leon, Henry W. Riecken, and Stanley Schachter)
 - `frank-dik-tter` (Frank Dikötter)
-- `j-rgen-habermas` (Jürgen Habermas)
-- `karl-popper` (Karl Popper)
+- `jeffrey-m-jones` (Jeffrey M Jones)
+- `kessler-glenn-salvador-rizzo-and-meg-kelly` (Kessler, Glenn, Salvador Rizzo, and Meg Kelly)
+- `loung-ung` (Loung Ung)
 - `macfarquhar-roderick-and-michael-schoenhals` (MacFarquhar, Roderick, and Michael Schoenhals)
-- `parker-ashley-and-michael-scherer` (Parker, Ashley, and Michael Scherer)
 - `tabor-james-d-and-eugene-v-gallagher` (Tabor, James D., and Eugene V. Gallagher)
-- `v-clav-havel` (Václav Havel)
+- `u-s-house-of-representatives-impeaching-donald-john-trump-president-of-the-united-states-for-high-crimes-and-misdemeanors-h-res-24-117th-cong-january-13-2021` (U.S. House of Representatives. Impeaching Donald John Trump, President of the United States, for High Crimes and Misdemeanors. H. Res. 24. 117th Cong. (January 13, 2021))
 - `wright-stuart-a` (Wright, Stuart A.)
 
 ### Orphan creatorSlugs on linked sources (0)
@@ -1613,8 +1880,9 @@ _None._
 ## `why-collaboration-is-so-hard`
 
 - Bibliography: `books/why-collaboration-is-so-hard/back-matter/bibliography.md`
-- Parse style: `list` (9 entries)
+- Parse style: `pandoc_div` (15 entries)
 - Semantic linked sources: 9
+- Parse warning: other styles also matched: plain_chicago=15
 
 ### Matched (9)
 
@@ -1628,13 +1896,17 @@ _None._
 - `star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and` ← biblio `star-susan-leigh-and-anselm-strauss-layers-of-silence-arenas-of-voice-the-ecology-of-visible-and` (exact_slug, score=100)
 - `weick-karl-e-sensemaking-in-organizations` ← biblio `weick-karl-e-sensemaking-in-organizations` (exact_slug, score=100)
 
-### Missing in semantic (0)
+### Missing in semantic (4)
 
-_None._
+- Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania — *Medication Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic Review* (`kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania-medication-reconciliation-during-tr`)
+- Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman — *Emergency Department Crowding: A Systematic Review of Causes, Consequences and Solutions* (`morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman-emergency-departme`)
+- Occupational Safety and Health Administration — *Cranes and Derricks in Construction: Final Rule* (`occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule`)
+- Occupational Safety and Health Administration — *Cranes and Derricks* (`occupational-safety-and-health-administration-cranes-and-derricks`)
 
-### Exists but missing relatedBooks (0)
+### Exists but missing relatedBooks (2)
 
-_None._
+- `muller-jerry-z-the-tyranny-of-metrics` matches biblio `muller-jerry-z-the-tyranny-of-metrics` (exact_slug; current books: how-serious-systems-learn, living-in-sediment)
+- `edmondson-amy-c-psychological-safety-and-learning-behavior-in-work` matches biblio `edmondson-amy-psychological-safety-and-learning-behavior-in-work-teams` (title_author; current books: when-others-look-to-you-v1)
 
 ### Stale relatedBooks (0)
 
@@ -1644,9 +1916,13 @@ _None._
 
 _None._
 
-### Biblio creators without thinker node (2)
+### Biblio creators without thinker node (6)
 
+- `amy-edmondson` (Amy Edmondson)
+- `kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania` (Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania)
 - `march-james-g-and-herbert-a-simon` (March, James G., and Herbert A. Simon)
+- `morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman` (Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman)
+- `occupational-safety-and-health-administration` (Occupational Safety and Health Administration)
 - `star-susan-leigh-and-anselm-strauss` (Star, Susan Leigh, and Anselm Strauss)
 
 ### Orphan creatorSlugs on linked sources (0)

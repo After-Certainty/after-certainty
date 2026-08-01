@@ -1,5 +1,5 @@
 {
-  "bookCount": 32,
+  "bookCount": 34,
   "books": [
     {
       "chapterSummaryCoverage": {
@@ -455,6 +455,47 @@
     {
       "chapterSummaryCoverage": {
         "present": 0,
+        "total": 16
+      },
+      "contentType": "nonfiction",
+      "editionId": "book-no-time-to-think",
+      "fields": {
+        "audience": "complete",
+        "centralQuestion": "complete",
+        "chapterStructure": "complete",
+        "chapterSummaries": "missing",
+        "contentType": "complete",
+        "literaryForm": "complete",
+        "nonGoals": "complete",
+        "partStructure": "complete",
+        "publicChangeEvent": "missing",
+        "publicStatus": "complete",
+        "publicationDate": "missing",
+        "questionCoverage": "missing",
+        "readingRelationships": "complete",
+        "richOverview": "complete",
+        "searchAliases": "missing",
+        "selectedConcepts": "complete",
+        "selectedPatterns": "complete",
+        "selectedThinkersOrSources": "not-applicable",
+        "shelfCoverageBeyondCatalog": "missing",
+        "situationCoverage": "missing",
+        "stableCanonicalEditionId": "complete",
+        "stableWorkId": "complete",
+        "substantialRevisionDate": "not-applicable",
+        "trailCoverage": "missing",
+        "typedWorkRelationships": "complete",
+        "whyItExists": "complete"
+      },
+      "literaryForm": "monograph",
+      "profile": "nonfiction",
+      "slug": "no-time-to-think",
+      "specPath": "books/no-time-to-think/book.yml",
+      "workId": "work-no-time-to-think"
+    },
+    {
+      "chapterSummaryCoverage": {
+        "present": 0,
         "total": 29
       },
       "contentType": "poetry",
@@ -492,6 +533,47 @@
       "slug": "observer-patterns",
       "specPath": "books/observer-patterns/book.yml",
       "workId": "work-observer-patterns"
+    },
+    {
+      "chapterSummaryCoverage": {
+        "present": 0,
+        "total": 16
+      },
+      "contentType": "nonfiction",
+      "editionId": "book-the-case-that-does-not-fit",
+      "fields": {
+        "audience": "complete",
+        "centralQuestion": "complete",
+        "chapterStructure": "complete",
+        "chapterSummaries": "missing",
+        "contentType": "complete",
+        "literaryForm": "complete",
+        "nonGoals": "complete",
+        "partStructure": "complete",
+        "publicChangeEvent": "missing",
+        "publicStatus": "complete",
+        "publicationDate": "missing",
+        "questionCoverage": "missing",
+        "readingRelationships": "complete",
+        "richOverview": "complete",
+        "searchAliases": "missing",
+        "selectedConcepts": "complete",
+        "selectedPatterns": "complete",
+        "selectedThinkersOrSources": "not-applicable",
+        "shelfCoverageBeyondCatalog": "missing",
+        "situationCoverage": "missing",
+        "stableCanonicalEditionId": "complete",
+        "stableWorkId": "complete",
+        "substantialRevisionDate": "not-applicable",
+        "trailCoverage": "missing",
+        "typedWorkRelationships": "complete",
+        "whyItExists": "complete"
+      },
+      "literaryForm": "monograph",
+      "profile": "nonfiction",
+      "slug": "the-case-that-does-not-fit",
+      "specPath": "books/the-case-that-does-not-fit/book.yml",
+      "workId": "work-the-case-that-does-not-fit"
     },
     {
       "chapterSummaryCoverage": {
@@ -1314,21 +1396,32 @@
       "workId": "work-why-diversity-matters"
     }
   ],
-  "generatedAt": "2026-07-27T15:12:16.275394+00:00",
+  "generatedAt": "2026-08-01T14:37:17.297031+00:00",
   "manifest": {
-    "generatedAt": "2026-07-27T15:11:56.204700+00:00",
+    "generatedAt": "2026-08-01T14:37:12.874638+00:00",
     "schemaVersion": "2.3",
-    "sourceCommit": "0b8143bd0ed3d4bf933987d06ec54d28bb09d230"
+    "sourceCommit": "037180432ac339908b29e2259a67010623a09b9f"
   },
   "summaries": {
-    "booksAbsentFromEditorialShelves": [],
+    "booksAbsentFromEditorialShelves": [
+      "no-time-to-think",
+      "the-case-that-does-not-fit"
+    ],
     "booksAbsentFromQuestions": [
+      "no-time-to-think",
+      "the-case-that-does-not-fit",
       "velorum",
       "when-others-look-to-you-v2"
     ],
-    "booksAbsentFromTrails": [],
+    "booksAbsentFromTrails": [
+      "no-time-to-think",
+      "the-case-that-does-not-fit"
+    ],
     "booksMissingRichOverviews": [],
-    "booksMissingSearchAliases": [],
+    "booksMissingSearchAliases": [
+      "no-time-to-think",
+      "the-case-that-does-not-fit"
+    ],
     "booksWithNoChapterStructure": [],
     "booksWithNoPublicChangeEvent": [
       "before-certainty-arrives",
@@ -1339,7 +1432,9 @@
       "how-trust-forms",
       "learning-to-see",
       "living-in-sediment",
+      "no-time-to-think",
       "observer-patterns",
+      "the-case-that-does-not-fit",
       "the-discipline-of-uncertainty",
       "the-economy-we-dont-experience",
       "the-game-we-think-we-saw",
@@ -1368,7 +1463,9 @@
       "how-serious-systems-learn",
       "how-trust-forms",
       "living-in-sediment",
+      "no-time-to-think",
       "observer-patterns",
+      "the-case-that-does-not-fit",
       "the-discipline-of-uncertainty",
       "the-economy-we-dont-experience",
       "trust-beyond-similarity",
@@ -1395,7 +1492,9 @@
       "how-trust-forms",
       "learning-to-see",
       "living-in-sediment",
+      "no-time-to-think",
       "observer-patterns",
+      "the-case-that-does-not-fit",
       "the-discipline-of-uncertainty",
       "the-economy-we-dont-experience",
       "the-game-we-think-we-saw",

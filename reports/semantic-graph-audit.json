@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T05:09:19.822420+00:00",
+  "generatedAt": "2026-08-01T14:37:21.725900+00:00",
   "repoContext": {
     "detectedRepoType": "source",
     "inputFiles": [
@@ -11,7 +11,7 @@
     "warnings": 74,
     "info": 261,
     "entitiesScanned": {
-      "books": 32,
+      "books": 34,
       "concepts": 144,
       "patterns": 30,
       "thinkers": 635,
@@ -2194,9 +2194,9 @@
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'leadership-coalesces'."
     },
     {
       "severity": "info",
@@ -2205,9 +2205,9 @@
       "entityId": "attention-finds-a-focus",
       "entityTitle": "Attention Finds a Focus",
       "field": "relatedPatterns",
-      "currentValue": "leadership-coalesces",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'leadership-coalesces'."
+      "suggestedFix": "Consider adding 'attention-finds-a-focus' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
@@ -2260,9 +2260,9 @@
       "entityId": "blame-compresses-complexity",
       "entityTitle": "Blame Compresses Complexity",
       "field": "relatedPatterns",
-      "currentValue": "attention-restores-contact",
+      "currentValue": "admiration-becomes-insulation",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
+      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'admiration-becomes-insulation'."
     },
     {
       "severity": "info",
@@ -2271,9 +2271,9 @@
       "entityId": "blame-compresses-complexity",
       "entityTitle": "Blame Compresses Complexity",
       "field": "relatedPatterns",
-      "currentValue": "admiration-becomes-insulation",
+      "currentValue": "attention-restores-contact",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'admiration-becomes-insulation'."
+      "suggestedFix": "Consider adding 'blame-compresses-complexity' to relatedPatterns on 'attention-restores-contact'."
     },
     {
       "severity": "info",
@@ -2370,9 +2370,9 @@
       "entityId": "examples-accumulate",
       "entityTitle": "Examples Accumulate",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "attention-finds-a-focus",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'attention-finds-a-focus'."
     },
     {
       "severity": "info",
@@ -2381,9 +2381,9 @@
       "entityId": "examples-accumulate",
       "entityTitle": "Examples Accumulate",
       "field": "relatedPatterns",
-      "currentValue": "attention-finds-a-focus",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'attention-finds-a-focus'."
+      "suggestedFix": "Consider adding 'examples-accumulate' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -2414,9 +2414,9 @@
       "entityId": "explanation-replaces-response",
       "entityTitle": "Explanation Replaces Response",
       "field": "relatedPatterns",
-      "currentValue": "speech-escalates-faster-than-meaning",
+      "currentValue": "responsibility-persists-beyond-control",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'speech-escalates-faster-than-meaning'."
+      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'responsibility-persists-beyond-control'."
     },
     {
       "severity": "info",
@@ -2425,9 +2425,9 @@
       "entityId": "explanation-replaces-response",
       "entityTitle": "Explanation Replaces Response",
       "field": "relatedPatterns",
-      "currentValue": "responsibility-persists-beyond-control",
+      "currentValue": "speech-escalates-faster-than-meaning",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'responsibility-persists-beyond-control'."
+      "suggestedFix": "Consider adding 'explanation-replaces-response' to relatedPatterns on 'speech-escalates-faster-than-meaning'."
     },
     {
       "severity": "info",
@@ -2458,9 +2458,9 @@
       "entityId": "finality-compensates-for-uncertainty",
       "entityTitle": "Finality Compensates for Uncertainty",
       "field": "relatedPatterns",
-      "currentValue": "speech-escalates-faster-than-meaning",
+      "currentValue": "correctness-hardens-into-identity",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'speech-escalates-faster-than-meaning'."
+      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'correctness-hardens-into-identity'."
     },
     {
       "severity": "info",
@@ -2469,9 +2469,9 @@
       "entityId": "finality-compensates-for-uncertainty",
       "entityTitle": "Finality Compensates for Uncertainty",
       "field": "relatedPatterns",
-      "currentValue": "correctness-hardens-into-identity",
+      "currentValue": "speech-escalates-faster-than-meaning",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'correctness-hardens-into-identity'."
+      "suggestedFix": "Consider adding 'finality-compensates-for-uncertainty' to relatedPatterns on 'speech-escalates-faster-than-meaning'."
     },
     {
       "severity": "info",
@@ -2524,9 +2524,9 @@
       "entityId": "leaders-feel-the-consequences",
       "entityTitle": "Leaders Feel the Consequences",
       "field": "relatedPatterns",
-      "currentValue": "dissent-is-welcomed",
+      "currentValue": "learning-collapses",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'dissent-is-welcomed'."
+      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'learning-collapses'."
     },
     {
       "severity": "info",
@@ -2535,9 +2535,9 @@
       "entityId": "leaders-feel-the-consequences",
       "entityTitle": "Leaders Feel the Consequences",
       "field": "relatedPatterns",
-      "currentValue": "learning-collapses",
+      "currentValue": "dissent-is-welcomed",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'learning-collapses'."
+      "suggestedFix": "Consider adding 'leaders-feel-the-consequences' to relatedPatterns on 'dissent-is-welcomed'."
     },
     {
       "severity": "info",
@@ -2568,9 +2568,9 @@
       "entityId": "leadership-reproduces-itself",
       "entityTitle": "Leadership Reproduces Itself",
       "field": "relatedPatterns",
-      "currentValue": "examples-accumulate",
+      "currentValue": "leadership-coalesces",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
+      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'leadership-coalesces'."
     },
     {
       "severity": "info",
@@ -2579,9 +2579,9 @@
       "entityId": "leadership-reproduces-itself",
       "entityTitle": "Leadership Reproduces Itself",
       "field": "relatedPatterns",
-      "currentValue": "leadership-coalesces",
+      "currentValue": "examples-accumulate",
       "reason": "Pattern relationship appears one-way; inverse may be expected.",
-      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'leadership-coalesces'."
+      "suggestedFix": "Consider adding 'leadership-reproduces-itself' to relatedPatterns on 'examples-accumulate'."
     },
     {
       "severity": "info",
