@@ -9,7 +9,7 @@ from compare_manifest_parity import compare
 
 
 def _minimal_manifest(
-    *, schema: str = "2.3", books: int = 2, extra_book: dict | None = None
+    *, schema: str = "2.4", books: int = 2, extra_book: dict | None = None
 ) -> dict:
     book_rows = [
         {"slug": "after-certainty", "contentType": "nonfiction"},

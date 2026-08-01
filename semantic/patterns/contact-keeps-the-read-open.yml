@@ -6,10 +6,8 @@ forces:
 - Additional context widens what people can see
 - Lower emotional charge improves tolerance for ambiguity
 - Restraint keeps meaning revisable
-observation: Additional context can sharpen understanding without fully resolving
-  it.
-example: Contact keeps the read open when understanding tightens without the story
-  having to close.
+observation: Additional context can sharpen understanding without fully resolving it.
+example: Contact keeps the read open when understanding tightens without the story having to close.
 relatedConcepts:
 - meaning
 - interpretation
@@ -17,6 +15,10 @@ relatedConcepts:
 relatedPatterns:
 - meaning-outruns-the-words
 - meaning-gets-distorted
+- compression-loses-the-person
+- understanding-circulates
+- bad-news-reaches-power
+- commitment-leaves-room
 relatedBooks:
 - how-meaning-moves
 recognitionSignals:

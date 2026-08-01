@@ -1,0 +1,35 @@
+slug: distance-conceals-consequence
+title: Distance Conceals Consequence
+patternRole: supporting
+organizingForce: contact
+realityDynamic: obscuring
+observation: The farther decisions are separated from their effects by time, place, role, abstraction,
+  or organizational layers, the easier it becomes for consequences to disappear.
+problem: Those with the greatest authority may have the least direct contact with what their decisions
+  produce.
+forces:
+- Authority often sits far from effects
+- Distance makes consequence optional in practice
+counterbalances:
+- Carry lived consequences, exceptions, and effects back toward the places where decisions are
+  made
+relatedConcepts:
+- coupling
+- scale
+- accountability
+relatedPatterns:
+- attention-restores-contact
+- compression-loses-the-person
+- bad-news-reaches-power
+- responsibility-follows-leverage
+- care-preserves-particulars
+- speed-relocates-judgment
+- reality-answers-back
+relatedBooks:
+- coupling
+- when-moral-seriousness-scales
+- when-authority-outlives-accountability
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: After Certainty Pattern Language supporting pattern (Contact).

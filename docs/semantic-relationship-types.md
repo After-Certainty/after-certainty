@@ -11,7 +11,9 @@
 
 The After Certainty semantic graph uses **typed directed relationships** to encode how concepts interact. This document defines the semantics of each relationship type and provides usage guidelines.
 
-**Current vocabulary:** 19 relationship types + structural_tension (bidirectional)
+**Current vocabulary:** 21 relationship types + structural_tension (bidirectional)
+
+Pattern and force endpoints are allowed in `semantic/relationships.yml` via `sourceKind` / `targetKind` (`concept` \| `pattern` \| `source` \| `force`).
 
 ---
 
@@ -383,7 +385,41 @@ The After Certainty semantic graph uses **typed directed relationships** to enco
 
 ---
 
-### 10. Structural Tensions (Special Type)
+### 10. Pattern-language structure
+
+#### `organizes`
+**Meaning:** An organizing force groups or contains a supporting pattern  
+**Pattern:** Force A organizes pattern B  
+**Directionality:** Strong (A → B is not B → A)
+
+**Examples:**
+- `perception` organizes `compression-loses-the-person`
+- `contact` organizes `care-preserves-particulars`
+
+**Usage:** Use for After Certainty Pattern Language force→pattern membership. Do not use for Alexander-style narrative `forces[]` on pattern YAML.
+
+**Distinguish from:**
+- `shapes` - Influences form vs groups membership
+- `grounds` - Creates structural necessity vs organizational containment
+
+#### `expresses`
+**Meaning:** A supporting pattern instantiates or contributes to a master pattern  
+**Pattern:** Supporting pattern A expresses master pattern B  
+**Directionality:** Strong (A → B is not B → A)
+
+**Examples:**
+- `understanding-circulates` expresses `reality-answers-back` (corrective dynamic)
+- `distance-conceals-consequence` expresses `reality-answers-back` (obscuring dynamic)
+
+**Usage:** Prefer over generic `related` for master/supporting hierarchy. Pair with pattern fields `patternRole`, `organizingForce`, and `realityDynamic`.
+
+**Distinguish from:**
+- `grounds` - Master may also `grounds` forces; `expresses` is supporting→master
+- `related` - Untyped adjacency
+
+---
+
+### 11. Structural Tensions (Special Type)
 
 #### `structural_tension`
 **Meaning:** Fundamental opposition or trade-off between concepts  

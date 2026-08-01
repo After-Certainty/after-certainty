@@ -7,10 +7,10 @@ forces:
 - Silence pushes someone to act
 - Early signals weigh extra
 - Leadership can show up without anyone planning it
-observation: Attention settles on one person. Others start lining up their behavior
-  with that person's actions, tone, or timing.
-example: When nobody knows the next move, attention finds a focus fast—then direction
-  follows whether anyone planned it or not.
+observation: Attention settles on one person. Others start lining up their behavior with that
+  person's actions, tone, or timing.
+example: When nobody knows the next move, attention finds a focus fast—then direction follows
+  whether anyone planned it or not.
 relatedConcepts:
 - meaning
 - coordination
@@ -23,6 +23,7 @@ relatedConcepts:
 relatedPatterns:
 - examples-accumulate
 - leadership-coalesces
+- authority-follows-attention
 relatedBooks:
 - when-others-look-to-you-v1
 relatedSources:
@@ -67,8 +68,7 @@ media:
     path: semantic/media/patterns/attention-finds-a-focus.png
     width: 1200
     height: 669
-    alt: Infographic summarizing how attention converges on one person and influence
-      follows.
+    alt: Infographic summarizing how attention converges on one person and influence follows.
 grounding:
   type: original_synthesis
   developedFrom:

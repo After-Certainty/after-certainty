@@ -1,0 +1,35 @@
+slug: compression-loses-the-person
+title: Compression Loses the Person
+patternRole: supporting
+organizingForce: perception
+realityDynamic: obscuring
+observation: When complexity is compressed into categories, metrics, roles, averages, summaries,
+  or stories, the person or particular case can disappear from view.
+problem: Human systems require simplification to coordinate at scale, but the details removed
+  by compression may contain the morally or practically decisive fact.
+forces:
+- Scale requires compression
+- Decisive particulars may be what compression removes
+counterbalances:
+- Preserve a path from the abstraction back to the particular people, cases, and consequences
+  it represents
+relatedConcepts:
+- compression
+- abstraction
+- scale
+relatedPatterns:
+- blame-compresses-complexity
+- attention-restores-contact
+- contact-keeps-the-read-open
+- understanding-circulates
+- results-conceal-the-game
+- distance-conceals-consequence
+- care-preserves-particulars
+- reality-answers-back
+relatedBooks:
+- the-case-that-does-not-fit
+- when-incentives-become-the-moral-language
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: After Certainty Pattern Language supporting pattern (Perception).

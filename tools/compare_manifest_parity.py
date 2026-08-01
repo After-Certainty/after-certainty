@@ -130,8 +130,8 @@ def compare(local: dict[str, Any], remote: dict[str, Any]) -> tuple[dict[str, An
             f"schemaVersion mismatch: local={local_id['schemaVersion']!r} "
             f"remote={remote_id['schemaVersion']!r}"
         )
-    if local_id["schemaVersion"] != "2.3":
-        errors.append(f"local schemaVersion must be '2.3', got {local_id['schemaVersion']!r}")
+    if local_id["schemaVersion"] != "2.4":
+        errors.append(f"local schemaVersion must be '2.4', got {local_id['schemaVersion']!r}")
 
     count_deltas: dict[str, dict[str, int]] = {}
     for key in COLLECTIONS:

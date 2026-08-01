@@ -10,7 +10,7 @@ describe("fallback freshness", () => {
     const report = collectFallbackFreshnessIssues(undefined, { intended: null });
     const errors = report.issues.filter((i) => i.severity === "error");
     expect(errors).toEqual([]);
-    expect(report.schemaVersion).toBe("2.3");
+    expect(["2.3", "2.4"]).toContain(report.schemaVersion);
     expect(report.generatedAt).toBeTruthy();
     expect(report.sourceCommit).toBeTruthy();
   });

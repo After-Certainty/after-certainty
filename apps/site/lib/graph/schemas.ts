@@ -261,12 +261,25 @@ const patternSchema = z.object({
   observation: z.string().optional(),
   example: z.string().optional(),
   relatedConcepts: stringList,
+  relatedPatterns: stringList,
   relatedBooks: stringList,
   youtubeVideoId: youtubeVideoIdSchema.optional(),
   mediumArticleUrl: httpUrlSchema.optional(),
   infographic: mediaInfographicSchema.optional(),
   grounding: semanticGroundingSchema.optional(),
+  patternRole: z.enum(["master", "supporting"]).optional(),
+  organizingForce: z.string().min(1).optional(),
+  realityDynamic: z.enum(["obscuring", "corrective"]).optional(),
+  editorialStatus: z.enum(["provisional"]).optional(),
   ...enrichmentFields,
+});
+
+const organizingForceSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  description: z.string().min(1),
+  relatedPatterns: stringList,
 });
 
 const situationSchema = z.object({
@@ -574,7 +587,8 @@ const manifestChapterSchema = z.object({
 /**
  * Root manifest schema. Unknown top-level keys are stripped from the typed result;
  * schemaVersion 2.1+ discovery collections, 2.2 literaryForm / chapters / parts,
- * and 2.3 roles / grounding / poetry kinds are retained when present.
+ * 2.3 roles / grounding / poetry kinds, and 2.4 forces / pattern-language fields
+ * are retained when present.
  */
 export const semanticGraphSchema = z.object({
   books: z.array(bookSchema).default([]),
@@ -585,6 +599,7 @@ export const semanticGraphSchema = z.object({
   relationships: z.array(relationshipSchema).default([]),
   ontology: ontologySchema,
   thinkers: z.array(thinkerSchema).optional(),
+  forces: z.array(organizingForceSchema).optional(),
   works: z.array(workSchema).optional(),
   editions: z.array(editionSchema).optional(),
   questions: z.array(manifestQuestionSchema).optional(),
@@ -618,6 +633,7 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     relationships: data.relationships,
     ontology: data.ontology,
     thinkers: data.thinkers,
+    forces: data.forces,
     works: data.works,
     editions: data.editions,
     questions: data.questions,

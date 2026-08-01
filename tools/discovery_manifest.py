@@ -24,7 +24,7 @@ from book_specs import (
 )
 
 SEMANTIC = Path("semantic")
-SCHEMA_VERSION = "2.3"
+SCHEMA_VERSION = "2.4"
 CONTENT_TYPES = frozenset({"nonfiction", "fiction", "handbook", "essay_collection", "poetry"})
 LITERARY_FORMS = frozenset(
     {

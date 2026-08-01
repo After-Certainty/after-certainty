@@ -32,6 +32,25 @@
     "counterbalances": { "$ref": "common.json#/$defs/stringList" },
     "manifestations": { "$ref": "common.json#/$defs/manifestations" },
     "trajectory": { "$ref": "common.json#/$defs/trajectory" },
-    "grounding": { "$ref": "common.json#/$defs/grounding" }
+    "grounding": { "$ref": "common.json#/$defs/grounding" },
+    "patternRole": {
+      "type": "string",
+      "enum": ["master", "supporting"],
+      "description": "Optional hierarchy role in a cross-corpus pattern language. Ordinary portfolio/WOLTY patterns omit this field."
+    },
+    "organizingForce": {
+      "$ref": "common.json#/$defs/slug",
+      "description": "Slug of an organizing force in semantic/forces/. Required when patternRole is supporting."
+    },
+    "realityDynamic": {
+      "type": "string",
+      "enum": ["obscuring", "corrective"],
+      "description": "Whether the pattern tends to obscure reality or restore contact with it (After Certainty Pattern Language)."
+    },
+    "editorialStatus": {
+      "type": "string",
+      "enum": ["provisional"],
+      "description": "Optional editorial marker; provisional means the canonical name or framing may still be revised."
+    }
   }
 }

@@ -16,12 +16,12 @@ const localGraph = tryLoadLocalSemanticManifest();
 
 describe("validateSemanticGraph", () => {
   it.skipIf(!localGraph)(
-    "accepts schemaVersion 2.3 enrichment from the installed local manifest",
+    "accepts schemaVersion 2.4 enrichment from the installed local manifest",
     () => {
       const result = validateSemanticGraph(localGraph!);
       expect(result.success).toBe(true);
       if (!result.success) return;
-      expect(result.data.schemaVersion).toBe("2.3");
+      expect(result.data.schemaVersion).toBe("2.4");
       expect(result.data.sourceCommit).toBeTruthy();
       expect(result.data.works?.length).toBeGreaterThan(0);
       expect(result.data.editions?.length).toBeGreaterThan(0);

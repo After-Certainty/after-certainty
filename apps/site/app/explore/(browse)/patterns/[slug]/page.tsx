@@ -28,6 +28,7 @@ import { buildPatternPageJsonLd, relatedConceptUrls } from "@/lib/seo/json-ld";
 import { buildPublicGroundingViewModel } from "@/lib/graph/grounding";
 import { SemanticGroundingDisclosure } from "@/components/explore/semantic-grounding-disclosure";
 import { ExploreEnrichmentSections, hasSemanticEnrichment } from "@/components/explore/explore-enrichment-sections";
+import { PatternLanguageContext } from "@/components/explore/pattern-language-context";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -80,13 +81,20 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
       />
       <Section atmosphere="none" className="pt-10 md:pt-14 !pb-10 md:!pb-12">
         <BreadcrumbTrail items={patternBreadcrumbs} />
-        <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Pattern</p>
+        <p className="text-[11px] uppercase tracking-[0.28em] text-accent">
+          {pattern.patternRole === "master"
+            ? "Master pattern"
+            : pattern.patternRole === "supporting"
+              ? "Supporting pattern"
+              : "Pattern"}
+        </p>
         <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
           {pattern.title}
         </h1>
         <p className="mt-10 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
           <LinkifiedText text={pattern.summary} />
         </p>
+        <PatternLanguageContext index={index} pattern={pattern} />
         <ExplorePatternNarrative pattern={pattern} />
         {grounding ? <SemanticGroundingDisclosure grounding={grounding} /> : null}
         <ExploreEntityDetailActions observatory={{ kind: "pattern", slug: pattern.slug }} />

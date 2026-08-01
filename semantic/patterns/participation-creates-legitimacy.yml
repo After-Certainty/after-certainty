@@ -1,0 +1,38 @@
+slug: participation-creates-legitimacy
+title: Participation Creates Legitimacy
+patternRole: supporting
+organizingForce: power
+realityDynamic: corrective
+observation: People are more likely to trust, sustain, and recognize a shared order when they
+  have a consequential role in shaping, contesting, or repairing it.
+problem: Centralized direction may be faster, but systems imposed without meaningful participation
+  often lose legitimacy and local knowledge.
+forces:
+- Speed favors centralized direction
+- Legitimacy requires consequential voice
+counterbalances:
+- Give affected people a real voice capable of changing the shared order, not merely symbolic
+  consultation
+relatedConcepts:
+- legitimacy
+- contestability
+- trust
+relatedPatterns:
+- understanding-circulates
+- dissent-is-welcomed
+- bad-news-reaches-power
+- care-preserves-particulars
+- authority-follows-attention
+- disagreement-is-suppressed
+- reality-answers-back
+relatedBooks:
+- how-trust-forms
+- trust-beyond-similarity
+- the-relay
+- after-certainty
+- how-serious-systems-learn
+- the-case-that-does-not-fit
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: After Certainty Pattern Language supporting pattern (Power).

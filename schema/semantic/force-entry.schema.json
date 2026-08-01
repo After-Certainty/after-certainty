@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/force-entry.schema.json",
+  "title": "Semantic organizing-force entry YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["slug", "title", "description"],
+  "properties": {
+    "slug": { "$ref": "common.json#/$defs/slug" },
+    "title": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "description": { "$ref": "common.json#/$defs/nonEmptyString" },
+    "relatedPatterns": { "$ref": "common.json#/$defs/patternSlugList" }
+  }
+}

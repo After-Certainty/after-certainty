@@ -1,0 +1,8 @@
+slug: time
+title: Time
+description: How commitments, structures, and judgment change as systems persist, accelerate,
+  adapt, or drift.
+relatedPatterns:
+- structures-outlive-reasons
+- speed-relocates-judgment
+- commitment-leaves-room

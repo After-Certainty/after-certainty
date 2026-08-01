@@ -20,11 +20,11 @@
           "description": { "type": "string" },
           "sourceKind": {
             "type": "string",
-            "enum": ["concept", "pattern", "source"]
+            "enum": ["concept", "pattern", "source", "force"]
           },
           "targetKind": {
             "type": "string",
-            "enum": ["concept", "pattern", "source"]
+            "enum": ["concept", "pattern", "source", "force"]
           },
           "provenance": { "$ref": "common.json#/$defs/relationshipProvenance" }
         }

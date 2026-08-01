@@ -128,6 +128,11 @@ export function ObservatoryEntityPanel({
             <LinkifiedText text={node.entity.summary} />
           </p>
         ) : null}
+        {node.kind === "force" ? (
+          <p className="mt-4 text-sm leading-relaxed text-muted">
+            <LinkifiedText text={node.entity.description} />
+          </p>
+        ) : null}
         {node.kind === "concept" && node.entity.layer ? (
           <p className="mt-3 text-[11px] uppercase tracking-[0.2em] text-muted">
             Layer · <span className="text-fg">{node.entity.layer}</span>

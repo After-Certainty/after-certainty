@@ -1,0 +1,40 @@
+slug: bad-news-reaches-power
+title: Bad News Reaches Power
+patternRole: supporting
+organizingForce: contact
+realityDynamic: corrective
+observation: Systems learn and correct only when uncomfortable evidence can reach people with
+  the authority and capacity to act.
+problem: Hierarchy, success, identity, fear, and incentives filter bad news as it moves upward.
+forces:
+- Correction requires uncomfortable evidence
+- Hierarchy filters what reaches authority
+counterbalances:
+- Create short, safe, protected routes through which failures, exceptions, dissent, and unintended
+  effects reach decision-makers
+relatedConcepts:
+- feedback
+- correction
+- authority
+relatedPatterns:
+- dissent-is-welcomed
+- disagreement-is-suppressed
+- contact-keeps-the-read-open
+- distance-conceals-consequence
+- understanding-circulates
+- participation-creates-legitimacy
+- blame-compresses-complexity
+- speed-relocates-judgment
+- reality-answers-back
+relatedBooks:
+- how-serious-systems-learn
+- when-trust-stops-tracking-reality
+- coupling
+- no-time-to-think
+- when-others-look-to-you-v1
+- when-accountability-no-longer-expires
+relatedSources: []
+grounding:
+  type: original_synthesis
+  note: Necessary corrective condition in the After Certainty Pattern Language; distinct from
+    the failure mode Disagreement Is Suppressed.

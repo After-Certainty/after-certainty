@@ -13,7 +13,7 @@ REPO = Path(__file__).resolve().parents[1]
 def test_parts_and_chapters_present_and_ordered(semantic_manifest: dict) -> None:
     data = semantic_manifest
     assert "parts" in data and "chapters" in data
-    assert data["schemaVersion"] == "2.3"
+    assert data["schemaVersion"] == "2.4"
     chapters = [
         c for c in data["chapters"] if c["editionId"] == "book-why-collaboration-is-so-hard"
     ]

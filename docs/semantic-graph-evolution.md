@@ -14,11 +14,14 @@ Architecture and workflow for [issue #116](https://github.com/ksteffe/after-cert
 |-----------|--------|-------------------|
 | `semantic/glossary/` | Concepts (terms) | `concept-` |
 | `semantic/patterns/` | Recurring dynamics | `pattern-` |
+| `semantic/forces/` | Organizing forces (pattern languages) | `force-` |
 | `semantic/sources/` | Works / citations (books, articles, reports, …) | `source-` |
 | `semantic/thinkers/` | People / institutions (optional v2) | `thinker-` |
 | `semantic/situations/` | Human-oriented entry points | `situation-` |
 | `semantic/ontology/` | Core/supporting term registry | (feeds glossary) |
 | `semantic/relationships.yml` | Explicit edges | `relationships[]` |
+
+Cross-corpus pattern language: [`docs/after-certainty-pattern-language.md`](after-certainty-pattern-language.md).
 
 **Sources vs thinkers:** `semantic/sources/` holds bibliographic **works**. Thinker aggregation lives in optional `semantic/thinkers/` (manifest `thinkers[]` when non-empty). See [semantic-thinkers-sources-migration.md](semantic-thinkers-sources-migration.md).
 

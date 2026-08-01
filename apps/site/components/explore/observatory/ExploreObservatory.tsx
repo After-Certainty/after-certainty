@@ -92,6 +92,7 @@ const ALL_KINDS: GraphEntityKind[] = [
   "book",
   "source",
   "thinker",
+  "force",
 ];
 
 function undirectedPairKey(a: string, b: string): string {

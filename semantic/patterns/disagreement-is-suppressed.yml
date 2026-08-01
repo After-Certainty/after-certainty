@@ -1,7 +1,7 @@
 slug: disagreement-is-suppressed
 title: Disagreement is Suppressed
-setup: A leader or leadership setup gains stability, success, or repeated proof that
-  they are right.
+setup: A leader or leadership setup gains stability, success, or repeated proof that they are
+  right.
 problem: Guarding the leader can matter as much as getting the facts right.
 forces:
 - Success builds confidence. Challenge feels less needed.
@@ -9,8 +9,8 @@ forces:
 - Loyalty is rewarded over pushback
 - Stories about who we are harden around the leader
 observation: Dissent fades or softens until it no longer challenges decisions.
-example: I keep asking where the challenge is, and I'm not hearing it. Disagreement
-  is suppressed—even when the risk is staring at us.
+example: I keep asking where the challenge is, and I'm not hearing it. Disagreement is suppressed—even
+  when the risk is staring at us.
 relatedConcepts:
 - legitimacy
 - stability
@@ -19,6 +19,8 @@ relatedConcepts:
 relatedPatterns:
 - leadership-coalesces
 - learning-collapses
+- participation-creates-legitimacy
+- bad-news-reaches-power
 relatedBooks:
 - when-others-look-to-you-v1
 relatedSources:
@@ -56,13 +58,11 @@ trajectory:
   - track what speaking cost the last person who raised a similar flag
 manifestations:
   leadership:
-  - a program manager stays silent in a planning meeting despite a vendor mismatch
-    she saw last quarter
+  - a program manager stays silent in a planning meeting despite a vendor mismatch she saw last
+    quarter
   organizations:
-  - a foreman's tailgate talk ends with no hands raised while rebar mismatch stays
-    in the lot
+  - a foreman's tailgate talk ends with no hands raised while rebar mismatch stays in the lot
   family:
   - relatives agree in the group chat but voice the real worry privately afterward
 media:
   mediumArticleUrl: https://medium.com/@steffensen.kevin/disagreement-is-suppressed-49514eb3bc43
-
