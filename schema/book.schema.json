@@ -91,6 +91,10 @@
           "type": "integer",
           "minimum": 1900
         },
+        "keywords": {
+          "type": "string",
+          "description": "Semicolon-separated document keywords for DOCX/PDF core properties"
+        },
         "title_page_cover": {
           "type": "string",
           "minLength": 1

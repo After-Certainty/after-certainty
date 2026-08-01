@@ -49,6 +49,12 @@
       "patternIds": "*"
     },
     {
+      "bookSlug": "the-case-that-does-not-fit",
+      "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
+      "conceptIds": "*",
+      "patternIds": "*"
+    },
+    {
       "bookSlug": "observer-patterns",
       "reason": "Orientation overview selects graph entities not yet linked on the book row; awaiting upstream books[].concepts / books[].patterns backfill.",
       "conceptIds": "*",

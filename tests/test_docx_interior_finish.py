@@ -112,6 +112,60 @@ def test_finish_interior_noop_without_introduction(tmp_path: Path) -> None:
     assert status["body_openers"] == 0
 
 
+def _set_paragraph_style_id(paragraph, style_id: str) -> None:
+    p_pr = paragraph._element.get_or_add_pPr()
+    p_style = p_pr.find(qn("w:pStyle"))
+    if p_style is None:
+        p_style = OxmlElement("w:pStyle")
+        p_pr.insert(0, p_style)
+    p_style.set(qn("w:val"), style_id)
+
+
+def test_finish_interior_strips_cover_caption_and_sets_descr(tmp_path: Path) -> None:
+    doc = Document()
+    cover = doc.add_paragraph()
+    # Minimal drawing tree with wp:docPr (as Pandoc emits for figures).
+    run = cover.add_run()
+    drawing = OxmlElement("w:drawing")
+    inline = OxmlElement("wp:inline")
+    doc_pr = OxmlElement("wp:docPr")
+    doc_pr.set("id", "1")
+    doc_pr.set("name", "Picture")
+    doc_pr.set("descr", "")
+    inline.append(doc_pr)
+    drawing.append(inline)
+    run._r.append(drawing)
+    _set_paragraph_style_id(cover, "CaptionedFigure")
+    caption = doc.add_paragraph("Book cover for Title by Author, showing a folder.")
+    _set_paragraph_style_id(caption, "ImageCaption")
+    _add_page_break(doc)
+    doc.add_heading("Title", level=1)
+    _add_page_break(doc)
+    doc.add_heading("Introduction", level=1)
+    doc.add_paragraph("Intro body.")
+    path = tmp_path / "cover-caption.docx"
+    doc.save(str(path))
+
+    alt_md = "Book cover for *Title* by Author, showing a folder."
+    alt_plain = "Book cover for Title by Author, showing a folder."
+    status = finish_interior_docx(path, running_title="Title", cover_alt=alt_md)
+    assert status["cover_captions_removed"] >= 1
+    assert status["cover_descr_set"] is True
+
+    finished = Document(str(path))
+    texts = [(p.text or "").strip() for p in finished.paragraphs]
+    assert alt_plain not in texts
+    assert alt_md not in texts
+    assert not any(
+        p._element.find(qn("w:pPr")) is not None
+        and (p._element.find(qn("w:pPr")).find(qn("w:pStyle")) is not None)
+        and p._element.find(qn("w:pPr")).find(qn("w:pStyle")).get(qn("w:val")) == "ImageCaption"
+        for p in finished.paragraphs
+    )
+    doc_pr = next(finished.element.body.iter(qn("wp:docPr")))
+    assert doc_pr.get("descr") == alt_plain
+
+
 def test_finish_interior_skips_front_matter_about_the_series(tmp_path: Path) -> None:
     """About the Series before Introduction stays in front matter; body starts at Intro."""
     doc = Document()

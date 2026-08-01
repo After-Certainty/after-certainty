@@ -87,14 +87,18 @@ def infer_unit_kind(rel_path: str, title: str) -> str:
         return "bridge"
     if "interlude" in combined:
         return "interlude"
-    if "note" in stem and "authors" not in stem:
+    # Chapter units before notes: titles like "The Doctor's Note" must not become kind "notes".
+    if "chapter" in stem or re.search(r"\bchapter\b", lower_title):
+        return "chapter"
+    # Endnote / notes appendices only — not ordinary words containing "note".
+    if stem in {"notes", "endnotes", "end-notes", "end_notes"} or stem.startswith(
+        ("notes-", "endnotes-", "end-notes-")
+    ):
         return "notes"
     if "sequence" in combined:
         return "sequence"
     if "poem" in combined:
         return "poem"
-    if "chapter" in stem or re.search(r"\bchapter\b", lower_title):
-        return "chapter"
     # Poetry / act units without "chapter" in the name
     # (book_kind=poetry is applied by the caller after this heuristic.)
     norm = rel_path.replace("\\", "/")

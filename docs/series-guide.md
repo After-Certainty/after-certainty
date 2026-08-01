@@ -120,7 +120,15 @@ Production can accelerate faster than a system’s capacity to understand, verif
 
 **Question:** What social and institutional conditions must exist before thinking is actually possible?
 
-**Pair with:** *When Incentives Become the Moral Language* (metrics that replace judgment) → this book (capacity judgment still needs) → companion scaffold *The Case That Does Not Fit* (architecture of reconsideration) → *After Certainty* (practice under limits).
+**Pair with:** *When Incentives Become the Moral Language* (metrics that replace judgment) → this book (capacity judgment still needs) → companion [*The Case That Does Not Fit*](../books/the-case-that-does-not-fit/index.md) (architecture of reconsideration) → *After Certainty* (practice under limits).
+
+### [The Case That Does Not Fit](../books/the-case-that-does-not-fit/index.md)
+
+Every rule is a compression. This book examines what happens when the ignored detail becomes the morally decisive one—and how institutions can preserve both protection from arbitrary judgment and protection from rules that mistook the case.
+
+**Question:** How can a system make room for the case its rules cannot understand without turning judgment into arbitrary power?
+
+**Pair with:** *No Time to Think* (capacity for judgment) → this book (architecture of reconsideration) → *How Serious Systems Learn* / *After Certainty* (designed revisability and practice under limits).
 
 ---
 
@@ -298,22 +306,14 @@ Read before-arrives for **historical formation of moral order**; read living-in-
 
 ## Upcoming manuscripts
 
-### [The Case That Does Not Fit](../upcoming/the-case-that-does-not-fit/index.md)
-
-Every rule is a compression. This book examines what happens when the ignored detail becomes the morally decisive one—and how institutions can preserve both protection from arbitrary judgment and protection from rules that mistook the case.
-
-**Question:** How can a system make room for the case its rules cannot understand without turning judgment into arbitrary power?
-
-**Status:** Phase 0 structure scaffold under [`upcoming/the-case-that-does-not-fit/`](../upcoming/the-case-that-does-not-fit/).
+No active nonfiction scaffolds under `upcoming/` at present. New scaffolds start from [`upcoming/docs/_templates/`](../upcoming/docs/_templates/).
 
 ### No Time to Think vs The Case That Does Not Fit
 
 **No Time to Think** (published under [`books/no-time-to-think/`](../books/no-time-to-think/)): whether the institution still has the *capacity* for judgment—time, attention, context, review, stop authority.  
-**The Case That Does Not Fit** (upcoming): whether the institution has the *architecture* to reconsider a category that failed a particular case.
+**The Case That Does Not Fit** (published under [`books/the-case-that-does-not-fit/`](../books/the-case-that-does-not-fit/)): whether the institution has the *architecture* to reconsider a category that failed a particular case.
 
 Read them as companions; do not collapse either into a general AI or culture-war critique.
-
-New scaffolds start from [`upcoming/docs/_templates/`](../upcoming/docs/_templates/).
 
 ---
 
@@ -333,6 +333,7 @@ New scaffolds start from [`upcoming/docs/_templates/`](../upcoming/docs/_templat
 | The Game We Think We Saw | [books/the-game-we-think-we-saw/index.md](../books/the-game-we-think-we-saw/index.md) |
 | The World We Make Together | [books/the-world-we-make-together/index.md](../books/the-world-we-make-together/index.md) |
 | No Time to Think | [books/no-time-to-think/index.md](../books/no-time-to-think/index.md) |
+| The Case That Does Not Fit | [books/the-case-that-does-not-fit/index.md](../books/the-case-that-does-not-fit/index.md) |
 | When Accountability No Longer Expires | [books/when-accountability-no-longer-expires/index.md](../books/when-accountability-no-longer-expires/index.md) |
 | When Authority Is Misread | [books/when-authority-is-misread/index.md](../books/when-authority-is-misread/index.md) |
 | When Authority Outlives Accountability | [books/when-authority-outlives-accountability/index.md](../books/when-authority-outlives-accountability/index.md) |

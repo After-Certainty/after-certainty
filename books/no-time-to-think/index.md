@@ -49,7 +49,7 @@ Lessons from the past for an AI-accelerated future.
 
 [Series guide](../../docs/series-guide.md) · Judgment under acceleration and institutional capacity
 
-- [The Case That Does Not Fit](../../upcoming/the-case-that-does-not-fit/index.md) — architecture of reconsideration (companion)
+- [The Case That Does Not Fit](../the-case-that-does-not-fit/index.md) — architecture of reconsideration (companion)
 - [Why Collaboration Is So Hard](../why-collaboration-is-so-hard/index.md) — coordination under diffuse ownership
 - [How Serious Systems Learn](../how-serious-systems-learn/index.md) — learning under constraint
 - [When Incentives Become the Moral Language](../when-incentives-become-the-moral-language/index.md) — when metrics replace judgment

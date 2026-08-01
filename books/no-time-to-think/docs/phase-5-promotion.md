@@ -24,7 +24,7 @@ Promotion report per drafting-process Phase 5. Completed August 2026 on branch
 
 ## Path references
 
-`index.md` Related books use `../` peers under `books/`, `../../upcoming/the-case-that-does-not-fit/` for the companion scaffold, and `../../docs/series-guide.md`.
+`index.md` Related books use `../` peers under `books/` (including promoted companion `../the-case-that-does-not-fit/`) and `../../docs/series-guide.md`.
 
 ## Remaining after promote
 

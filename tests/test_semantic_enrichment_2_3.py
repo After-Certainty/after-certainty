@@ -64,6 +64,19 @@ def test_poetry_kinds_supported() -> None:
     assert infer_unit_kind("front-matter/introduction.md", "Introduction") == "introduction"
 
 
+def test_infer_unit_kind_chapter_title_with_note_is_chapter() -> None:
+    """Chapter stems containing 'note' must not be classified as kind notes."""
+    assert (
+        infer_unit_kind(
+            "parts/part-2-the-pattern-before-us/chapter-7-the-doctors-note.md",
+            "Chapter 7 — The Doctor’s Note",
+        )
+        == "chapter"
+    )
+    assert infer_unit_kind("back-matter/notes.md", "Notes") == "notes"
+    assert infer_unit_kind("back-matter/endnotes.md", "Endnotes") == "notes"
+
+
 def test_chapter_transition_object_exports(tmp_path: Path) -> None:
     book_dir = tmp_path / "demo"
     (book_dir / "parts" / "p1").mkdir(parents=True)

@@ -33,7 +33,7 @@ def pdf_header_tex(book_dir: Path) -> Path | None:
 
 
 _COVER_IMAGE_RE = re.compile(
-    r"^!\[[^\]]*\]\(([^)]+)\)(?:\{[^}]*\})?\s*$",
+    r"^!\[([^\]]*)\]\(([^)]+)\)(?:\{[^}]*\})?\s*$",
     re.M,
 )
 
@@ -73,6 +73,17 @@ def resolve_title_page_cover_path(book_dir: Path, spec: dict[str, Any]) -> Path 
     return None
 
 
+def title_page_cover_alt(text: str, cover_basename: str) -> str:
+    """Return the markdown alt text for the configured title-page cover image."""
+    cover_name = Path(cover_basename).name
+    if not cover_name:
+        return ""
+    for match in _COVER_IMAGE_RE.finditer(text):
+        if Path(match.group(2).strip()).name == cover_name:
+            return match.group(1).strip()
+    return ""
+
+
 def strip_inline_title_page_cover(text: str, cover_basename: str) -> str:
     """
     Remove the markdown title-page cover image for print interiors.
@@ -90,8 +101,8 @@ def strip_inline_title_page_cover(text: str, cover_basename: str) -> str:
     i = 0
     while i < len(lines):
         line = lines[i]
-        match = re.match(r"^!\[[^\]]*\]\(([^)]+)\)(?:\{[^}]*\})?\s*$", line)
-        if match and Path(match.group(1).strip()).name == cover_name:
+        match = re.match(r"^!\[([^\]]*)\]\(([^)]+)\)(?:\{[^}]*\})?\s*$", line)
+        if match and Path(match.group(2).strip()).name == cover_name:
             i += 1
             while i < len(lines) and not lines[i].strip():
                 i += 1
@@ -115,7 +126,7 @@ def prepare_title_page_for_pdf(
     image_ref = cover_path.as_posix() if cover_path is not None else cover_basename
 
     def replace(match: re.Match[str]) -> str:
-        path = match.group(1).strip()
+        path = match.group(2).strip()
         if Path(path).name != cover_basename:
             return match.group(0)
         # Absolute or book-relative paths work for xelatex; basename alone does not,
@@ -134,10 +145,14 @@ def prepare_title_page_for_pdf(
 
 
 def prepare_title_page_for_docx(text: str, cover_basename: str) -> str:
-    """Use an empty image alt so Word does not render a figure caption."""
+    """Use an empty image alt so Word does not render a figure caption.
+
+    Pandoc treats non-empty markdown image alt text as a printed Image Caption.
+    Accessibility alt must be re-applied to the drawing ``descr`` after export.
+    """
 
     def replace(match: re.Match[str]) -> str:
-        path = match.group(1).strip()
+        path = match.group(2).strip()
         if Path(path).name != cover_basename:
             return match.group(0)
         attrs = ""
