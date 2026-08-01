@@ -87,7 +87,7 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 3. ~~Glossary linking for `living-in-sediment` and `when-others-become-leaders`~~ done (overview spines wired).
 4. ~~Glossary linking for handbooks `how-serious-systems-learn` and `the-discipline-of-uncertainty`~~ done (#445).
 5. ~~Glossary linking for remaining source-rich G=0 books~~ done (moral seriousness, WOLTY v2, accountability expires, learning-to-see).
-6. **Chapter enrichment batch** for thin flagships — `before-certainty-arrives` done (15/15); remaining: `coupling`, WOLTY v1/v2, `living-in-sediment`, `when-others-become-leaders`, handbooks, `when-interpretation-no-longer-matters`, …
+6. **Chapter enrichment batch** for thin flagships — BCA + `living-in-sediment` done; remaining: `coupling`, WOLTY v1/v2, `when-others-become-leaders`, handbooks, `when-interpretation-no-longer-matters`, …
 7. ~~**Biblio reconcile** for `when-interpretation-no-longer-matters` and `why-collaboration-is-so-hard`~~ done (0/0/0 drift).
 8. **Semantic enrichment** on newly linked hubs (definitions / recognition-signals) where thin.
 
