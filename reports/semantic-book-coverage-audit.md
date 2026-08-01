@@ -38,7 +38,7 @@ Portfolio: **34** book specs (33 titles; WOLTY v1 + v2).
 | `coupling` | 34/6/68/120 | 1/37 | Deep graph; chapters nearly empty |
 | `before-certainty-arrives` | 43/0/42/43 | 0/15 | Glossary-heavy; no chapter summaries |
 | `when-others-look-to-you-v1` | 13/10/26/28 | 0/25 | Flagship patterns; chapters missing |
-| `when-interpretation-no-longer-matters` | 24/0/54/58 | 0/15 | Biblio drift cleared (2026-08-01); chapters still missing |
+| `when-interpretation-no-longer-matters` | 25/0/54/58 | 0/15 | Biblio drift cleared; `authority` glossary-linked (was source-only via Weber) |
 | `what-we-cannot-see` | 16/0/21/22 | 0/19 | |
 | `when-incentives-become-the-moral-language` | 8/0/47/46 | 0/20 | |
 | `the-economy-we-dont-experience` | 5/0/27/24 | 0/16 | |
