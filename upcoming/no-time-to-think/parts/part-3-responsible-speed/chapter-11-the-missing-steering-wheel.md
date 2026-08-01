@@ -68,4 +68,4 @@ The pattern is familiar by now. Make a step faster, cheaper, or unnecessary. Wat
 
 The vehicle has more room because the wheel is gone. The empty space asks who can interrupt it now.
 
-[^c11-zoox]: Josh Funk and Ty ONeil, "Amazon's Zoox robotaxis approved to operate without steering wheels," Associated Press, July 30, 2026, https://apnews.com/article/1bdb3bb8ecc80a23721504315cfa50ce. Reverify regulatory status before publication; proposals regarding brake pedals and commercial rollout conditions may change.
+[^c11-zoox]: Josh Funk and Ty ONeil, "Amazon's Zoox robotaxis approved to operate without steering wheels," Associated Press, July 30, 2026, https://apnews.com/article/1bdb3bb8ecc80a23721504315cfa50ce. Proposals regarding brake pedals and commercial rollout conditions may change as federal standards are updated.
