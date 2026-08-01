@@ -1,6 +1,6 @@
-# Glossary candidates: living-in-sediment
+# Glossary candidates: when-others-become-leaders
 
-- **Book directory:** `books/living-in-sediment`
+- **Book directory:** `books/when-others-become-leaders`
 - **Existing glossary entries:** 144
 
 - **Manuscript glossary:** _none found (checked glossary.md, back-matter/glossary.md, …)_
