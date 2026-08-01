@@ -381,32 +381,37 @@ function buildThinkerDocument(
   };
 }
 
-function buildSourceDocument(
+/** Short UI blurb — avoid shipping full bibliography strings that duplicate citation. */
+export function leanSourceDescription(source: Source): string | undefined {
+  const summary = source.summary?.trim();
+  const citation = source.citation?.trim();
+  const raw =
+    summary && citation && summary === citation ? citation : summary || citation || undefined;
+  if (!raw) return undefined;
+  const max = 160;
+  if (raw.length <= max) return raw;
+  return `${raw.slice(0, max - 1).trimEnd()}…`;
+}
+
+/**
+ * Lean source document builder retained for Explore / future opt-in indexes.
+ * Global Search omits bibliography sources from the transferable MiniSearch corpus.
+ */
+export function buildSourceDocument(
   source: Source,
-  index: GraphIndex,
   graph: SemanticGraph,
-  aliasTerms: string[],
-  relatedBridgeTerms: string[],
+  aliasTerms: string[] = [],
+  relatedBridgeTerms: string[] = [],
 ): SearchDocument {
   const title = sourceDisplayTitle(source);
   const creatorNames = uniqueStrings(source.creatorNames ?? []);
-  const relatedTitles = uniqueStrings([
-    ...resolveRelatedTitles(index, source.concepts),
-    ...resolveRelatedTitles(index, source.patterns),
-    ...resolveRelatedTitles(index, source.relatedBooks),
-  ]);
 
+  // Match on title/creators/slug/aliases only — citation blobs flood thematic queries
+  // and nearly always duplicate summary for bibliography sources.
   const searchText = joinSearchText([
-    source.name,
-    source.title,
     source.slug,
-    source.summary,
-    source.citation,
-    source.sourceKind,
-    source.type,
     ...creatorNames,
     ...aliasTerms,
-    ...relatedTitles,
     ...relatedBridgeTerms,
   ]);
 
@@ -415,18 +420,14 @@ function buildSourceDocument(
     entityType: "source",
     slug: source.slug,
     title,
-    description: source.summary ?? source.citation,
+    description: leanSourceDescription(source),
     resultLabel: SEARCH_RESULT_LABELS.source,
     canonicalUrl: `${explorePaths.sources}/${source.slug}`,
     visibility: "listed",
     searchText,
     aliases: aliasTerms,
     creatorNames: creatorNames.length ? creatorNames : undefined,
-    relatedTitles: relatedTitles.length ? relatedTitles : undefined,
-    conceptIds: source.concepts?.length ? [...source.concepts] : undefined,
-    patternIds: source.patterns?.length ? [...source.patterns] : undefined,
     bookIds: source.relatedBooks?.length ? [...source.relatedBooks] : undefined,
-    publicationDate: typeof source.year === "number" ? String(source.year) : undefined,
     boostWeight: computeSearchBoostWeight({ entityType: "source" }),
     relationshipDensity: relationshipDensityForId(
       graph,
@@ -474,22 +475,17 @@ function buildPodcastDocument(
 }
 
 /**
- * Fold public chapter title/summary/alias text into the parent book document.
- * Chapter documents (READ-005) provide precise destinations; book docs keep this
- * vocabulary so book hits still match chapter-oriented queries.
+ * Fold public chapter titles/aliases into the parent book document.
+ * Summaries and central questions live only on chapter documents (READ-005) to
+ * avoid duplicating long prose into every book hit while keeping chapter
+ * vocabulary discoverable at the book level.
  */
 function chapterSearchTextForBook(graph: SemanticGraph, book: SemanticBook): string[] {
   const editionId = book.editionId ?? book.id;
   const chunks: string[] = [];
   for (const chapter of chaptersFromGraph(graph)) {
     if (chapter.editionId !== editionId || !chapter.public) continue;
-    chunks.push(
-      chapter.title,
-      chapter.partTitle ?? "",
-      chapter.summary ?? "",
-      chapter.centralQuestion ?? "",
-      ...(chapter.searchAliases ?? []),
-    );
+    chunks.push(chapter.title, ...(chapter.searchAliases ?? []));
   }
   return chunks;
 }
@@ -619,17 +615,8 @@ export function buildSearchDocuments(input: BuildSearchDocumentsInput): SearchDo
     );
   }
 
-  for (const source of graph.sources) {
-    push(
-      buildSourceDocument(
-        source,
-        index,
-        graph,
-        aliasMap.get(source.id) ?? [],
-        relatedMap.get(source.id) ?? [],
-      ),
-    );
-  }
+  // Bibliography sources omitted from the transferable global index (Explore
+  // Sources remains the dedicated browse path; person lookups use thinkers).
 
   for (const episode of podcastEpisodes) {
     const id = `podcast:${episode.id}`;

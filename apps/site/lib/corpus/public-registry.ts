@@ -265,7 +265,8 @@ export function buildPublicCorpusRegistry(graph: SemanticGraph): PublicCorpusReg
       publicStatus: "public",
       visibility: "listed",
       canonicalUrl: `${explorePaths.sources}/${s.slug}`,
-      searchEligible: true,
+      // Bibliography sources are listed in Explore but omitted from Global Search.
+      searchEligible: false,
       sitemapEligible: true,
     };
     byId.set(record.id, record);
