@@ -16,7 +16,7 @@ Other details sit around the edges: a case number, a date, a file link, a button
 
 This is the ordinary face of automated classification. It may appear in a benefits office, bank, insurance claim, school discipline platform, fraud screen, employment system, hospital review, or public agency's case-management software. The language varies: eligibility, risk, priority, misconduct, medical necessity, identity match. The movement is similar. A messy set of facts becomes a category an institution can act on.
 
-Classification is not new. Institutions have always classified. A form with checkboxes classifies. A sentencing table classifies. A doctor's note classifies. An appeal stamp classifies. The difference is not that machines introduce categories into a previously category-free world. The difference is that automated categories can arrive with a special institutional authority: they can feel more objective because no visible person authored them, more precise because they carry a number, and harder to challenge because the path from life to category is buried inside data, code, model behavior, vendor documentation, and administrative habit.
+Classification is not new. A form with checkboxes classifies. A sentencing table classifies. A doctor's note classifies. An appeal stamp classifies. The difference is not that machines introduce categories into a category-free world. It is that automated categories can arrive with a special institutional authority: more objective because no visible person authored them, more precise because they carry a number, and harder to challenge because the path from life to category is buried inside data, code, model behavior, vendor documentation, and administrative habit.
 
 The category may be wrong in an ordinary way. The data may be stale. Two people may have been merged into one file. A household may have changed. A diagnosis code may not capture the reason treatment is needed. A name may not match across databases because one source uses an old spelling and another a transliteration. None of this is exotic. It is the ordinary friction of reality entering institutional records.
 
@@ -24,9 +24,9 @@ What changes is the difficulty of making the friction visible.
 
 ---
 
-A human clerk who says no can be questioned in the human grammar of reasons. Why? What did you see? What rule are you applying? What fact would change your mind? The clerk may answer badly; human judgment can be partial, inconsistent, and unfair. One of the reasons rules exist is to restrain that danger.
+A human clerk who says no can be questioned in the human grammar of reasons. Why? What did you see? What rule are you applying? What fact would change your mind? The clerk may answer badly; human judgment can be partial, inconsistent, and unfair. One reason rules exist is to restrain that danger.
 
-But human authorship is at least visible. The person affected can often tell that someone made a judgment. They can ask whether the judgment was authorized. They can ask whether the rule was applied correctly. They can ask whether the decision-maker misunderstood something.
+But human authorship is at least visible. The person affected can often tell that someone made a judgment. They can ask whether the judgment was authorized, whether the rule was applied correctly, and whether the decision-maker misunderstood something.
 
 Automated classification can make judgment disappear into infrastructure. The person at the desk may say, "The system says you are not eligible." The call-center representative may say, "I can only see the status." The notice may reproduce a code without explaining the pathway. The final decision still affects a human life, but its authorship has become distributed among policy designers, engineers, data sources, adopting agencies, reviewers, and model behavior that may not be directly legible even to the institution using it.
 
@@ -36,7 +36,7 @@ Precision is not the same as truth. A wrong category can be expressed with great
 
 ---
 
-The first design requirement is explainability, but explainability has to mean more than a technical artifact stored somewhere inside the vendor file.
+Explainability has to mean more than a technical artifact stored somewhere inside the vendor file.
 
 For the institution, explainability means knowing enough about the system to govern it. What inputs mattered? Which sources supplied them? Which parts apply fixed rules and which apply statistical inference? What kinds of errors does the system make, for whom, and under what conditions? What is the difference between the model's confidence and the institution's legal or ethical confidence in acting on the result?
 
@@ -54,15 +54,15 @@ A decision is contradictable when the institution has named the kinds of evidenc
 
 If a benefits screen classifies a person as over the income threshold, contradictability means the person can identify the income source counted, correct whether it belongs to the current household, submit evidence of a change, and receive a decision from someone authorized to revise the category. If a fraud model flags a claim, the institution must say what kind of benign explanation would matter. If a medical-necessity tool recommends denial, the treating clinician must be able to supply case-specific facts that change the assumption.
 
-Contradictability requires more than a final appeal. It has to be built into the ordinary path of decision. The person must know where to send the correction. The correction must reach a place where it can alter the relevant data or assumption. The institution must preserve a record of what was corrected so the same error does not reappear at the next renewal, next claim, or next review. Otherwise the appeal becomes a temporary exception to an error-producing system, and the person has to defeat the same mistake repeatedly.
+Contradictability requires more than a final appeal. It has to be built into the ordinary path of decision. The person must know where to send the correction. The correction must reach a place where it can alter the relevant data or assumption. The institution must preserve a record of what was corrected so the same error does not reappear at the next renewal, claim, or review. Otherwise the appeal becomes a temporary exception to an error-producing system, and the person has to defeat the same mistake repeatedly.
 
-That repetition is one of the most common signs of uncorrectability. A person proves that the address is wrong, and the next notice goes to the wrong address again. A person proves that two files were merged, and the next eligibility check merges them again. A person proves that the treatment is not elective in their case, and the next authorization request begins from the same generic assumption. The institution experiences each correction as a one-off. The person experiences the institution as incapable of learning.
+That repetition is one of the common signs of uncorrectability. A person proves that the address is wrong, and the next notice goes to the wrong address again. A person proves that two files were merged, and the next eligibility check merges them again. A person proves that the treatment is not elective in their case, and the next authorization request begins from the same generic assumption. The institution experiences each correction as a one-off. The person experiences the institution as incapable of learning.
 
 Correctability design has to distinguish between correcting the outcome and correcting the source. Changing this denial to an approval may be necessary. It is not sufficient if the mistaken data, proxy, threshold, or assumption remains untouched. A category that can be reversed for one person but not repaired for the next one is still an institutional design problem.
 
 ---
 
-The right to human reconsideration is therefore not a decorative humane gesture. It is an architectural requirement for certain kinds of decisions.
+Human reconsideration is not a decorative humane gesture. It is an architectural requirement for certain kinds of decisions.
 
 Not every automated classification requires the same review. Institutions classify constantly. A spam filter, a routing tool, a duplicate-record suggestion, a queue priority, and a final denial of housing, care, employment, liberty, education, or public support do not carry the same stakes. The entitlement to human reconsideration should be proportional to the consequence, the uncertainty, the reversibility of harm, and the person's ability to protect themselves elsewhere.
 
@@ -78,9 +78,9 @@ The reviewer does not have to be free to do anything. That would recreate the da
 
 Review capacity has to be proportional to classification capacity.
 
-This sentence sounds administrative. It is actually one of the central protections. When an institution expands automated classification, it expands the number of people who can be placed into consequential categories. If reconsideration remains obscure, understaffed, linguistically inaccessible, legally intimidating, or practically unreachable, automation has changed the balance of power even if the formal appeal right remains unchanged.
+This sentence sounds administrative. It is one of the central protections. When an institution expands automated classification, it expands the number of people who can be placed into consequential categories. If reconsideration remains obscure, understaffed, linguistically inaccessible, legally intimidating, or practically unreachable, automation has changed the balance of power even if the formal appeal right remains unchanged.
 
-The question is not whether every first decision should receive full human review. It is whether the people for whom the category matters have a review path matched to the seriousness and distribution of the decision.
+Not every first decision should receive full human review. But people for whom the category matters need a review path matched to the seriousness and distribution of the decision.
 
 Matched capacity includes ordinary details that determine whether a right exists in practice. Notices must reach people. Deadlines must allow evidence gathering. Translation and disability access must be part of the path, not favors added after failure. Reviewers must understand the subject matter. The institution must monitor whether certain groups appeal less often, lose more often, or disappear because the path is too difficult to enter.
 
@@ -90,7 +90,7 @@ The National Institute of Standards and Technology's AI Risk Management Framewor
 
 ---
 
-The last design requirement is preserving uncertainty.
+The system also has to preserve uncertainty.
 
 Many institutional systems prefer binaries because binaries move cleanly through workflows. Eligible or ineligible. Fraud or no fraud. Approve or deny. A binary is not always wrong; institutions often need a decision. But an automated system can make a binary feel more settled than it is.
 
