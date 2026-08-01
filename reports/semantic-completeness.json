@@ -44,7 +44,7 @@
     },
     {
       "chapterSummaryCoverage": {
-        "present": 0,
+        "present": 15,
         "total": 15
       },
       "contentType": "nonfiction",
@@ -53,7 +53,7 @@
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -471,19 +471,19 @@
         "publicChangeEvent": "missing",
         "publicStatus": "complete",
         "publicationDate": "missing",
-        "questionCoverage": "missing",
+        "questionCoverage": "complete",
         "readingRelationships": "complete",
         "richOverview": "complete",
-        "searchAliases": "missing",
+        "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
         "selectedThinkersOrSources": "not-applicable",
-        "shelfCoverageBeyondCatalog": "missing",
+        "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
@@ -553,19 +553,19 @@
         "publicChangeEvent": "missing",
         "publicStatus": "complete",
         "publicationDate": "missing",
-        "questionCoverage": "missing",
+        "questionCoverage": "complete",
         "readingRelationships": "complete",
         "richOverview": "complete",
-        "searchAliases": "missing",
+        "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
         "selectedThinkersOrSources": "not-applicable",
-        "shelfCoverageBeyondCatalog": "missing",
+        "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "missing",
         "stableCanonicalEditionId": "complete",
         "stableWorkId": "complete",
         "substantialRevisionDate": "not-applicable",
-        "trailCoverage": "missing",
+        "trailCoverage": "complete",
         "typedWorkRelationships": "complete",
         "whyItExists": "complete"
       },
@@ -764,7 +764,7 @@
         "searchAliases": "complete",
         "selectedConcepts": "complete",
         "selectedPatterns": "complete",
-        "selectedThinkersOrSources": "not-applicable",
+        "selectedThinkersOrSources": "complete",
         "shelfCoverageBeyondCatalog": "complete",
         "situationCoverage": "complete",
         "stableCanonicalEditionId": "complete",
@@ -1396,32 +1396,21 @@
       "workId": "work-why-diversity-matters"
     }
   ],
-  "generatedAt": "2026-08-01T14:37:17.297031+00:00",
+  "generatedAt": "2026-08-01T22:41:53.032991+00:00",
   "manifest": {
-    "generatedAt": "2026-08-01T14:37:12.874638+00:00",
-    "schemaVersion": "2.3",
-    "sourceCommit": "037180432ac339908b29e2259a67010623a09b9f"
+    "generatedAt": "2026-08-01T22:41:37.367056+00:00",
+    "schemaVersion": "2.4",
+    "sourceCommit": "a8001b84202a8532cbc8c60264cca45b66e5437a"
   },
   "summaries": {
-    "booksAbsentFromEditorialShelves": [
-      "no-time-to-think",
-      "the-case-that-does-not-fit"
-    ],
+    "booksAbsentFromEditorialShelves": [],
     "booksAbsentFromQuestions": [
-      "no-time-to-think",
-      "the-case-that-does-not-fit",
       "velorum",
       "when-others-look-to-you-v2"
     ],
-    "booksAbsentFromTrails": [
-      "no-time-to-think",
-      "the-case-that-does-not-fit"
-    ],
+    "booksAbsentFromTrails": [],
     "booksMissingRichOverviews": [],
-    "booksMissingSearchAliases": [
-      "no-time-to-think",
-      "the-case-that-does-not-fit"
-    ],
+    "booksMissingSearchAliases": [],
     "booksWithNoChapterStructure": [],
     "booksWithNoPublicChangeEvent": [
       "before-certainty-arrives",
@@ -1454,7 +1443,6 @@
     ],
     "booksWithOnlyGeneratedSemanticAssociations": [],
     "booksWithPartialChapterSummaries": [
-      "before-certainty-arrives",
       "boundary-conditions",
       "coupling",
       "curiosity-before-certainty",

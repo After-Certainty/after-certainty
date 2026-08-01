@@ -1,12 +1,12 @@
 # Semantic completeness report
 
-Generated: `2026-08-01T14:37:17.297031+00:00`
+Generated: `2026-08-01T22:41:53.032991+00:00`
 
 ## Manifest provenance
 
-- schemaVersion: `2.3`
-- sourceCommit: `037180432ac339908b29e2259a67010623a09b9f`
-- manifest generatedAt: `2026-08-01T14:37:12.874638+00:00`
+- schemaVersion: `2.4`
+- sourceCommit: `a8001b84202a8532cbc8c60264cca45b66e5437a`
+- manifest generatedAt: `2026-08-01T22:41:37.367056+00:00`
 
 Public canonical works evaluated: **34**
 
@@ -20,25 +20,20 @@ _None._
 
 ### Books missing search aliases
 
-- `no-time-to-think`
-- `the-case-that-does-not-fit`
+_None._
 
 ### Books absent from questions
 
-- `no-time-to-think`
-- `the-case-that-does-not-fit`
 - `velorum`
 - `when-others-look-to-you-v2`
 
 ### Books absent from trails
 
-- `no-time-to-think`
-- `the-case-that-does-not-fit`
+_None._
 
 ### Books absent from editorial shelves
 
-- `no-time-to-think`
-- `the-case-that-does-not-fit`
+_None._
 
 ### Books without publication dates
 
@@ -114,7 +109,6 @@ _None._
 
 ### Books with partial chapter summary coverage
 
-- `before-certainty-arrives`
 - `boundary-conditions`
 - `coupling`
 - `curiosity-before-certainty`
@@ -212,7 +206,7 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
 | `selectedThinkersOrSources` | `complete` |
 
@@ -545,10 +539,10 @@ _None._
 | `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `complete` |
-| `searchAliases` | `missing` |
-| `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `searchAliases` | `complete` |
+| `questionCoverage` | `complete` |
+| `trailCoverage` | `complete` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -613,10 +607,10 @@ _None._
 | `selectedPatterns` | `complete` |
 | `readingRelationships` | `complete` |
 | `typedWorkRelationships` | `complete` |
-| `searchAliases` | `missing` |
-| `questionCoverage` | `missing` |
-| `trailCoverage` | `missing` |
-| `shelfCoverageBeyondCatalog` | `missing` |
+| `searchAliases` | `complete` |
+| `questionCoverage` | `complete` |
+| `trailCoverage` | `complete` |
+| `shelfCoverageBeyondCatalog` | `complete` |
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
@@ -792,7 +786,7 @@ _None._
 | `chapterStructure` | `complete` |
 | `chapterSummaries` | `complete` |
 | `situationCoverage` | `complete` |
-| `selectedThinkersOrSources` | `not-applicable` |
+| `selectedThinkersOrSources` | `complete` |
 
 ### `trust-beyond-similarity` (nonfiction, contentType=`nonfiction`)
 
