@@ -1,12 +1,12 @@
 # Semantic completeness report
 
-Generated: `2026-08-01T22:41:53.032991+00:00`
+Generated: `2026-08-01T23:16:31.517648+00:00`
 
 ## Manifest provenance
 
 - schemaVersion: `2.4`
-- sourceCommit: `a8001b84202a8532cbc8c60264cca45b66e5437a`
-- manifest generatedAt: `2026-08-01T22:41:37.367056+00:00`
+- sourceCommit: `7b20a4166883a0bd5032fe9d3a94770bdfe3e586`
+- manifest generatedAt: `2026-08-01T23:16:19.716026+00:00`
 
 Public canonical works evaluated: **34**
 
@@ -116,7 +116,6 @@ _None._
 - `how-meaning-moves`
 - `how-serious-systems-learn`
 - `how-trust-forms`
-- `living-in-sediment`
 - `no-time-to-think`
 - `observer-patterns`
 - `the-case-that-does-not-fit`

@@ -413,7 +413,7 @@
     },
     {
       "chapterSummaryCoverage": {
-        "present": 1,
+        "present": 21,
         "total": 21
       },
       "contentType": "nonfiction",
@@ -1396,11 +1396,11 @@
       "workId": "work-why-diversity-matters"
     }
   ],
-  "generatedAt": "2026-08-01T22:41:53.032991+00:00",
+  "generatedAt": "2026-08-01T23:16:31.517648+00:00",
   "manifest": {
-    "generatedAt": "2026-08-01T22:41:37.367056+00:00",
+    "generatedAt": "2026-08-01T23:16:19.716026+00:00",
     "schemaVersion": "2.4",
-    "sourceCommit": "a8001b84202a8532cbc8c60264cca45b66e5437a"
+    "sourceCommit": "7b20a4166883a0bd5032fe9d3a94770bdfe3e586"
   },
   "summaries": {
     "booksAbsentFromEditorialShelves": [],
@@ -1450,7 +1450,6 @@
       "how-meaning-moves",
       "how-serious-systems-learn",
       "how-trust-forms",
-      "living-in-sediment",
       "no-time-to-think",
       "observer-patterns",
       "the-case-that-does-not-fit",

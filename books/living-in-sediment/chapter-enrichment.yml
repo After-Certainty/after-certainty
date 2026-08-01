@@ -1,23 +1,620 @@
 version: 1
 chapters:
+  - sourcePath: front-matter/prologue-september-is-not-seven.md
+    summary: >
+      September still carries seven inside its name though it is the ninth month—a quiet lie
+      made possible by centuries of repetition after the calendar shifted and the labels did
+      not. Children sometimes notice first; adults treat the sequence as architecture rather
+      than inheritance. The prologue opens the book's habit: ordinary timekeeping as evidence
+      that structures outlive the reasons that named them.
+    centralQuestion: What does a familiar calendar label still carry after its original count no longer fits?
+    selectedConcepts:
+      - inheritance
+      - drift
+      - structure
+      - compression
+    selectedPatterns:
+      - meaning-drifts-over-time
+      - structures-outlive-reasons
+      - exceptions-are-forever
+    searchAliases:
+      - september is not seven
+      - october means eight
+      - calendar name fossils
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      toNext: >
+        From month-name fossils into Part I's gentler companions—days, seconds, mortgages, gold.
+
+  - sourcePath: parts/part-1-fossils-we-dont-notice/bridge.md
+    summary: >
+      Part I begins with ordinary companions that still carry history: day names, time
+      measurement, keyboard shape, mortgage form, the lingering intuition of gold. These
+      inheritances organize life without demanding a political position; the pleasure is
+      noticing that something familiar has been quietly historical all along. The movement
+      trains perception before the book turns to fossils that shape power.
+    centralQuestion: What can unnoticed everyday forms teach before we look at institutions?
+    selectedConcepts:
+      - inheritance
+      - structure
+      - drift
+      - compression
+    selectedPatterns:
+      - meaning-drifts-over-time
+      - structures-outlive-reasons
+      - examples-accumulate
+    searchAliases:
+      - fossils we dont notice
+      - ordinary companions
+      - quiet history in tools
+    transition:
+      fromPrevious: >
+        From the prologue's calendar puzzle into the first cluster of gentle fossils.
+      toNext: >
+        From the part frame into Thursday still carrying Thor.
+
   - sourcePath: parts/part-1-fossils-we-dont-notice/chapter-1-the-gods-in-the-week.md
     summary: >
       Thursday still carries Thor’s day — ancient cosmologies keeping appointments after the story that
       named them has disappeared — showing how institutional sediment hides in ordinary language.
+      The hammer is gone; the name still organizes meetings, grocery lists, and schoolwork without
+      asking to be noticed. Sediment here is not a conspiracy; it is coordination that outlived its
+      cosmology.
     centralQuestion: What inherited structures still organize us after their original reasons have faded?
     selectedConcepts:
       - inheritance
       - legitimacy
       - certainty
       - scale
+      - drift
     selectedPatterns:
       - exceptions-are-forever
       - meaning-drifts-over-time
+      - structures-outlive-reasons
     searchAliases:
       - the gods in the week
       - thursday is thor's day
     situations:
       - inherited-rule-outlives-constraint
-    readingTransition: >
-      From weekday fossils into other unnoticed inheritances — sixty seconds, the thirty-year house, gold
-      in the mind.
+    transition:
+      fromPrevious: >
+        From Part I's invitation into the weekday as living fossil.
+      toNext: >
+        From weekday fossils into other unnoticed inheritances — sixty seconds, the thirty-year house, gold
+        in the mind.
+
+  - sourcePath: parts/part-1-fossils-we-dont-notice/chapter-2-sixty-seconds.md
+    summary: >
+      Microwaves, traffic lights, and tooth-brushing timers arrive already assembled around
+      sixty—yet that rhythm is a way of describing the universe, not a property of it. Seconds
+      and minutes feel natural because repetition hid the construction. The chapter treats time
+      measurement as sediment: a coordinating inheritance so familiar it no longer invites
+      curiosity about who chose the counts.
+    centralQuestion: Why does a constructed measure of time feel like a property of the universe?
+    selectedConcepts:
+      - inheritance
+      - compression
+      - structure
+      - drift
+      - coordination
+    selectedPatterns:
+      - meaning-drifts-over-time
+      - structures-outlive-reasons
+      - examples-accumulate
+    searchAliases:
+      - sixty seconds
+      - time measurement fossil
+      - minute and hour inheritance
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From day-name sediment into the numbers that slice the day.
+      toNext: >
+        From clock fossils into the thirty-year mortgage that shapes a home.
+
+  - sourcePath: parts/part-1-fossils-we-dont-notice/chapter-3-the-thirty-year-house.md
+    summary: >
+      A home gathers habits—creaking stairs, closet height marks, the Christmas-tree spot—
+      while closing-day papers fix attention on rates and payments. The thirty-year mortgage
+      remembers a crisis response that became the default path to dwelling; sediment here is
+      financial form that still steers family life long after the emergency that standardized
+      it. The house feels personal; the term is institutional inheritance.
+    centralQuestion: How does a crisis-era financing form become the ordinary shape of a home?
+    selectedConcepts:
+      - inheritance
+      - structure
+      - compression
+      - legitimacy
+      - institutional-memory
+    selectedPatterns:
+      - exceptions-are-forever
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+    searchAliases:
+      - the thirty-year house
+      - mortgage sediment
+      - closing day papers
+    situations:
+      - temporary-fixes-become-permanent
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From measured time into the financial form that structures dwelling.
+      toNext: >
+        From mortgage sediment into gold's lingering authority in the mind.
+
+  - sourcePath: parts/part-1-fossils-we-dont-notice/chapter-4-gold-in-the-mind.md
+    summary: >
+      A child turns a coin and expects a reason; adults answer with governments, markets,
+      trust, or history. For long stretches value seemed tangible in metal you could hold—an
+      explanation that did not require invisible banking systems. Even after convertibility
+      faded, gold persists as intuition and metaphor: sediment in how minds still reach for
+      solidity when money has become abstract coordination.
+    centralQuestion: Why does gold still feel like an explanation after money has become abstract?
+    selectedConcepts:
+      - inheritance
+      - legitimacy
+      - drift
+      - certainty
+      - compression
+    selectedPatterns:
+      - meaning-drifts-over-time
+      - structures-outlive-reasons
+      - meaning-forms-early
+    searchAliases:
+      - gold in the mind
+      - metal as explanation
+      - value sediment
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From mortgage form into value's lingering material metaphor.
+      toNext: >
+        From gentle everyday fossils into Part II—sediment inside governments and scores.
+
+  - sourcePath: parts/part-2-fossils-that-shape-power/bridge.md
+    summary: >
+      Weekday gods and keyboard QWERTY are gentle inheritances; the same pattern settles into
+      institutions. Part II turns from fossils we can smile at to fossils that still allocate
+      voice, credit, moral tempo, and gathering space. History hiding in a government asks more
+      of the reader than history hiding in Thursday—without abandoning the same perception skill.
+    centralQuestion: What changes when the fossil we notice sits inside power rather than a weekday?
+    selectedConcepts:
+      - inheritance
+      - legitimacy
+      - structure
+      - authority
+      - scale
+    selectedPatterns:
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+      - examples-accumulate
+    searchAliases:
+      - fossils that shape power
+      - institutions as sediment
+      - from weekday to government
+    transition:
+      fromPrevious: >
+        From Part I's gentle fossils into institutional ones.
+      toNext: >
+        From the part frame into Senate compromise still steering representation.
+
+  - sourcePath: parts/part-2-fossils-that-shape-power/chapter-5-the-small-states-and-the-senate.md
+    summary: >
+      From thirty thousand feet Wyoming and California look equally certain on the map while
+      one holds nearly seventy times the population of the other. The Senate's equal state voice
+      remembers a negotiation room, not a finished principle descending intact. Constitutions
+      are acts of compromise that become sediment: representation rules that still shape power
+      centuries after the delegates left.
+    centralQuestion: How does a founding compromise keep allocating political voice after its bargaining room is gone?
+    selectedConcepts:
+      - inheritance
+      - legitimacy
+      - structure
+      - scale
+      - authority
+    selectedPatterns:
+      - structures-outlive-reasons
+      - exceptions-are-forever
+      - meaning-drifts-over-time
+    searchAliases:
+      - the small states and the senate
+      - equal state representation
+      - constitutional compromise fossil
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From Part II's institutional turn into constitutional sediment.
+      toNext: >
+        From Senate voice into the credit score that follows a person.
+
+  - sourcePath: parts/part-2-fossils-that-shape-power/chapter-6-the-score-that-follows-you.md
+    summary: >
+      A three-digit number appears in a banking app already carrying authority—few remember
+      first encountering it or asking why it should exist. Credit scores feel like facts rather
+      than inventions that compress judgment into a portable ranking. Sediment here is
+      reputational infrastructure: a measurement that follows people into loans, rentals, and
+      jobs long after its originating underwriting problems have been forgotten.
+    centralQuestion: How does an invented ranking become ordinary authority over a person's options?
+    selectedConcepts:
+      - compression
+      - structure
+      - legitimacy
+      - inheritance
+      - bureaucracy
+    selectedPatterns:
+      - compression-loses-the-person
+      - meaning-drifts-over-time
+      - structures-outlive-reasons
+    searchAliases:
+      - the score that follows you
+      - credit score sediment
+      - portable ranking authority
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From constitutional voice into personal numerical reputation.
+      toNext: >
+        From the score into ninety-day morality—quarterly tempo as moral weather.
+
+  - sourcePath: parts/part-2-fossils-that-shape-power/chapter-7-ninety-day-morality.md
+    summary: >
+      Lives remember years as stories; conference rooms every three months compare revenue to
+      guidance in a practiced rhythm. For millions, the year becomes four successive evaluations
+      rather than one continuous passage. Quarterly reporting is sediment that sets moral tempo—
+      what counts as responsible, urgent, or deferred—long after the accounting convenience that
+      installed the cadence.
+    centralQuestion: How does a reporting cadence become the moral weather of organizations and careers?
+    selectedConcepts:
+      - compression
+      - structure
+      - inheritance
+      - drift
+      - incentives
+    selectedPatterns:
+      - examples-accumulate
+      - compression-loses-the-person
+      - exceptions-are-forever
+    searchAliases:
+      - ninety-day morality
+      - quarterly earnings tempo
+      - four evaluations a year
+    situations:
+      - temporary-fixes-become-permanent
+      - pressure-accelerates-interpretation
+    transition:
+      fromPrevious: >
+        From portable scores into time-boxed institutional judgment.
+      toNext: >
+        From quarterly tempo into buildings that still request silence and gathering.
+
+  - sourcePath: parts/part-2-fossils-that-shape-power/chapter-8-the-building-and-the-gathering.md
+    summary: >
+      Cathedrals, courthouses, and libraries quiet voices before anyone asks—architecture that
+      seems to make a request. Early ekklesia named the gathering, not the stone; later the
+      building became the container we treat as the institution. Sediment here is how space and
+      form inherit authority: the gathering's purpose hardens into walls that still teach
+      comportment after the original assembly language has thinned.
+    centralQuestion: When does the building replace the gathering as what we think the institution is?
+    selectedConcepts:
+      - structure
+      - inheritance
+      - legitimacy
+      - formation
+      - authority
+    selectedPatterns:
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+      - meaning-forms-early
+    searchAliases:
+      - the building and the gathering
+      - ekklesia vs church building
+      - architecture as request
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From temporal institutional fossils into spatial ones.
+      toNext: >
+        From hardened buildings into Part III—fossils still forming in algorithms and data.
+
+  - sourcePath: parts/part-3-fossils-forming-now/bridge.md
+    summary: >
+      Looking backward, compromises and measurements look clear once urgency has stripped away;
+      the present offers no such luxury. People living through printing presses or early railroads
+      rarely knew they were settling tomorrow's sediment. Part III watches structures forming
+      now—ranking, subscription, delegated judgment, data doubles—before time has finished the
+      interpretive work.
+    centralQuestion: How do we notice sediment while it is still settling rather than only after it hardens?
+    selectedConcepts:
+      - inheritance
+      - drift
+      - structure
+      - compression
+      - formation
+    selectedPatterns:
+      - examples-accumulate
+      - meaning-forms-early
+      - meaning-drifts-over-time
+    searchAliases:
+      - fossils forming now
+      - sediment while settling
+      - present without hindsight
+    transition:
+      fromPrevious: >
+        From inherited institutional fossils into ones still being laid down.
+      toNext: >
+        From the part frame into what search ranking already decides for attention.
+
+  - sourcePath: parts/part-3-fossils-forming-now/chapter-9-what-the-algorithm-sees.md
+    summary: >
+      Library shelves once let neighboring books create discovery; blank search boxes return
+      ordered millions in a fraction of a second, and most people click the first few. Ranking
+      systems are not optional decoration—they are how an unnavigable warehouse becomes usable.
+      Sediment forming now is attention ordered before we ask why those results appeared first,
+      compressing judgment into infrastructure still settling.
+    centralQuestion: What does ranking infrastructure decide about attention before we decide what deserves it?
+    selectedConcepts:
+      - compression
+      - structure
+      - attention
+      - inheritance
+      - scale
+    selectedPatterns:
+      - compression-loses-the-person
+      - examples-accumulate
+      - meaning-forms-early
+    searchAliases:
+      - what the algorithm sees
+      - search ranking sediment
+      - ordered attention
+    situations:
+      - meaning-forms-before-anyone-checks-it
+      - pressure-accelerates-interpretation
+    transition:
+      fromPrevious: >
+        From Part III's forming-now frame into algorithmic ordering.
+      toNext: >
+        From ranked discovery into subscription as the new shape of ownership.
+
+  - sourcePath: parts/part-3-fossils-forming-now/chapter-10-subscription-lives.md
+    summary: >
+      Buying a book once ended the seller relationship; dust, lending, and grandchildren could
+      follow without another transaction. Subscription turns access into ongoing permission—
+      software, media, even features of cars—so possession becomes a renewable lease. Sediment
+      forming here is life organized by continuous payment and revocable access rather than
+      concluded ownership.
+    centralQuestion: What changes when ordinary goods stop concluding in ownership and become renewable access?
+    selectedConcepts:
+      - structure
+      - inheritance
+      - drift
+      - compression
+      - incentives
+    selectedPatterns:
+      - exceptions-are-forever
+      - examples-accumulate
+      - meaning-drifts-over-time
+    searchAliases:
+      - subscription lives
+      - ownership vs access
+      - renewable permission
+    situations:
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: >
+        From ranked attention into the commercial form reshaping possession.
+      toNext: >
+        From subscription access into judgment delegated to systems that cannot answer.
+
+  - sourcePath: parts/part-3-fossils-forming-now/chapter-11-delegated-judgment.md
+    summary: >
+      Bankers, hiring managers, physicians, and teachers once carried judgment and explanation
+      together—someone who could be questioned. Delegation to systems and scores often keeps
+      the decision while thinning the answerable person. Sediment forming now is authority that
+      still steers loans, hires, and care after the conversational face of judgment has been
+      replaced by procedure that does not hesitate in the margins.
+    centralQuestion: What is lost when decisions keep traveling after the person who could explain them no longer stands there?
+    selectedConcepts:
+      - judgment
+      - authority
+      - compression
+      - bureaucracy
+      - legitimacy
+    selectedPatterns:
+      - compression-loses-the-person
+      - learning-collapses
+      - structures-outlive-reasons
+    searchAliases:
+      - delegated judgment
+      - explanation without a face
+      - procedure replaces hesitation
+    situations:
+      - feedback-stops-changing-decisions
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From subscription's continuous permission into who—or what—now judges.
+      toNext: >
+        From delegated decisions into the data double that introduces us first.
+
+  - sourcePath: parts/part-3-fossils-forming-now/chapter-12-the-data-double.md
+    summary: >
+      Credit applications, recommendations, insurance estimates, and résumé screens already know
+      fragments before a human learns a name. Location pings, purchases, pauses, and routes
+      accumulate into something that begins to resemble someone. Sediment forming now is the
+      statistical shadow that introduces people to institutions—an inherited-looking profile
+      assembled from traces rather than from self-presentation.
+    centralQuestion: Who meets institutions first—the person, or the double assembled from their traces?
+    selectedConcepts:
+      - compression
+      - structure
+      - inheritance
+      - identity-saturation
+      - scale
+    selectedPatterns:
+      - compression-loses-the-person
+      - examples-accumulate
+      - meaning-forms-early
+    searchAliases:
+      - the data double
+      - statistical shadow
+      - profile before introduction
+    situations:
+      - meaning-outruns-shared-understanding
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From delegated judgment into the profile that precedes the person.
+      toNext: >
+        From fossils forming now into Part IV—how to live among sediment without permanent distrust.
+
+  - sourcePath: parts/part-4-living-among-sediment/bridge.md
+    summary: >
+      Weekdays, mortgages, Senate compromise, rankings, and datasets rhyme: a response that
+      worked well enough settles while the original problem fades. Seeing sediment everywhere
+      can tip into permanent distrust—history as a catalogue of mistakes awaiting dismantling.
+      Part IV refuses that reflex: the task is living among inheritance with perception, not
+      treating every layer as obsolete on sight.
+    centralQuestion: How do we keep seeing sediment without concluding that everything inherited is only waiting to be torn down?
+    selectedConcepts:
+      - inheritance
+      - legitimacy
+      - drift
+      - structure
+      - humility
+    selectedPatterns:
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+      - revisability-preserves-judgment
+    searchAliases:
+      - living among sediment
+      - against permanent distrust
+      - perception without dismantling reflex
+    transition:
+      fromPrevious: >
+        From forming fossils into the stance for living with them.
+      toNext: >
+        From the part frame into what remains when justification fades.
+
+  - sourcePath: parts/part-4-living-among-sediment/chapter-13-when-justification-fades.md
+    summary: >
+      An old river bend looks permanent until you remember it began as water finding an easier
+      path that deepened itself year after year. Structures likewise keep their shape after the
+      justification that cut the channel has faded. The chapter practices seeing path-dependence
+      without demanding that every bend be straightened—recognition that form can outlast reason
+      while still carrying water.
+    centralQuestion: What should we do with structures that still function after their original justification has faded?
+    selectedConcepts:
+      - drift
+      - inheritance
+      - legitimacy
+      - structure
+      - compression
+    selectedPatterns:
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+      - exceptions-are-forever
+    searchAliases:
+      - when justification fades
+      - river bend path dependence
+      - form after reason
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From Part IV's stance into faded justification as a river's memory.
+      toNext: >
+        From faded reasons into the double edge of stability and corrosion.
+
+  - sourcePath: parts/part-4-living-among-sediment/chapter-14-stability-and-corrosion.md
+    summary: >
+      Fossils in this book are often still alive: the seven-day week, shared calendars, and old
+      metaphors continue coordinating strangers. Inheritance is generous—civilizations remember
+      more than any individual could—yet noticing layers can breed suspicion of everything that
+      endured. Stability and corrosion arrive together: sediment preserves coordination and can
+      also hide misfit; the work is telling them apart without a single purge.
+    centralQuestion: How do we honor sediment that still coordinates without ignoring the corrosion it can hide?
+    selectedConcepts:
+      - inheritance
+      - legitimacy
+      - drift
+      - structure
+      - humility
+    selectedPatterns:
+      - structures-outlive-reasons
+      - revisability-preserves-judgment
+      - meaning-drifts-over-time
+    searchAliases:
+      - stability and corrosion
+      - living fossils
+      - suspicion of endurance
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From faded justification into the ambivalence of what endured.
+      toNext: >
+        From that ambivalence into archaeology of the present as a practice.
+
+  - sourcePath: parts/part-4-living-among-sediment/chapter-15-archaeology-of-the-present.md
+    summary: >
+      Archaeologists brush dirt from fragments before deciding what to think—restraint before
+      interpretation. The same patience applies to weekdays, keyboards, mortgages, Senate shape,
+      quarterly cadence, search rankings, and data shadows still underfoot. Archaeology of the
+      present is a practice of noticing layers in living infrastructure: ask what this is and
+      what it remembers before asking only what should replace it.
+    centralQuestion: What does it mean to practice archaeology on structures we still inhabit?
+    selectedConcepts:
+      - inheritance
+      - structure
+      - drift
+      - humility
+      - judgment
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - structures-outlive-reasons
+      - contact-keeps-the-read-open
+    searchAliases:
+      - archaeology of the present
+      - restraint before interpretation
+      - layers underfoot
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From stability and corrosion into a method for reading the present.
+      toNext: >
+        From method into the epilogue's return to the calendar with second sight.
+
+  - sourcePath: back-matter/epilogue-two-months-off.md
+    summary: >
+      October still means eight; December still carries ten—nothing on the wall has changed, yet
+      the calendar acquires a second dimension once the mismatch is known. Meetings and school
+      years continue; the names become evidence rather than mere labels. The epilogue closes the
+      perception habit the book trained: sediment remains ordinary, and ordinary becomes readable
+      as history we still live inside.
+    centralQuestion: What changes when familiar labels become evidence without the world itself rearranging?
+    selectedConcepts:
+      - inheritance
+      - drift
+      - structure
+      - compression
+    selectedPatterns:
+      - meaning-drifts-over-time
+      - structures-outlive-reasons
+      - examples-accumulate
+    searchAliases:
+      - two months off
+      - calendar second dimension
+      - labels become evidence
+    situations:
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From archaeology of the present back to the prologue's calendar with new eyes.
