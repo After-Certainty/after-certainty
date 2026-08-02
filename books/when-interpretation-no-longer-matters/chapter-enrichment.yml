@@ -1,0 +1,433 @@
+version: 1
+chapters:
+  - sourcePath: front-matter/introduction-the-question-this-book-asks.md
+    summary: >
+      A careful concern is raised, restated more cleanly, and met with nods—yet nothing
+      redistributes consequence. The room did not lack sentences; it lacked an obligation
+      that sentences could enforce. The introduction names the book's question: what kind of
+      authority exists when understanding no longer has the power to matter, and how to tell
+      that condition apart from mere misunderstanding.
+    centralQuestion: What remains of authority when recognition no longer redistributes consequence?
+    selectedConcepts:
+      - interpretation
+      - authority
+      - displacement-of-interpretation
+      - witness
+      - post-interpretive-authority
+    selectedPatterns:
+      - explanation-replaces-response
+      - disagreement-is-suppressed
+      - meaning-reinforces-itself
+    searchAliases:
+      - the question that changes nothing
+      - understanding without consequence
+      - recognition that does not redistribute
+    situations:
+      - explanation-displaces-action
+      - feedback-stops-changing-decisions
+    transition:
+      toNext: >
+        From the unanswered meeting into Part I—where interpretation ends at the threshold.
+
+  - sourcePath: parts/part-1-where-interpretation-ends/bridge.md
+    summary: >
+      Part I opens where interpretation stops functioning as a shared path into consequence:
+      doors that open only inward, and rooms where everyone already knows. The movement is
+      diagnostic rather than accusatory—learning to recognize the boundary before prescribing
+      clearer speech.
+    centralQuestion: Where does shared understanding stop being able to revise what authority may do?
+    selectedConcepts:
+      - interpretation
+      - authority
+      - narrative-enclosure
+      - displacement-of-interpretation
+    selectedPatterns:
+      - meaning-reinforces-itself
+      - disagreement-is-suppressed
+    searchAliases:
+      - where interpretation ends
+      - part i threshold
+    transition:
+      fromPrevious: >
+        From the introduction's unanswered concern into the boundary conditions.
+      toNext: >
+        From the part title into the door that opens only inward.
+
+  - sourcePath: parts/part-1-where-interpretation-ends/chapter-1-the-door-that-opens-only-inward.md
+    summary: >
+      Some doors open only from inside—the lock works, reasons from the hallway cannot turn the
+      bolt. Family rules, workplace customs, and congregational readings can give reasons that
+      hold within while sounding circular to outsiders. The threshold chapter names enclosure:
+      interpretation still happens inside, but entry is not available to argument from without.
+    centralQuestion: How can meaning remain lively inside a room that outsiders cannot argue their way into?
+    selectedConcepts:
+      - narrative-enclosure
+      - interpretation
+      - authority
+      - legitimacy
+      - displacement-of-interpretation
+    selectedPatterns:
+      - meaning-reinforces-itself
+      - meaning-forms-early
+      - disagreement-is-suppressed
+    searchAliases:
+      - the door that opens only inward
+      - circular reasons
+      - threshold enclosure
+    situations:
+      - meaning-outruns-shared-understanding
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From Part I's frame into the inward-opening door.
+      toNext: >
+        From enclosure's structure into kitchens where everyone already knows.
+
+  - sourcePath: parts/part-1-where-interpretation-ends/chapter-2-everyone-already-knows.md
+    summary: >
+      Across a kitchen table someone warns carefully; the other nods gratefully—*I know*—and
+      the conversation ends because recognition was absorbed as agreement. Shared understanding
+      arrives quickly and still leaves no path into a world where the warning can matter.
+      Knowing together is not yet leverage; displacement begins when recognition substitutes
+      for repair.
+    centralQuestion: Why can shared recognition feel like progress while leaving danger untouched?
+    selectedConcepts:
+      - displacement-of-interpretation
+      - interpretation
+      - witness
+      - authority
+      - judgment
+    selectedPatterns:
+      - explanation-replaces-response
+      - disagreement-is-suppressed
+      - meaning-reinforces-itself
+    searchAliases:
+      - everyone already knows
+      - i know kitchen table
+      - recognition without path
+    situations:
+      - explanation-displaces-action
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From the inward door into intimate rooms where knowing replaces acting.
+      toNext: >
+        From the boundary into Part II—what fills the space when interpretation loses leverage.
+
+  - sourcePath: parts/part-2-what-replaces-interpretation/bridge.md
+    summary: >
+      Part II follows what takes interpretation's place when shared evaluation no longer
+      governs: arguments that sort loyalty, names that outlive platforms, applause that cannot
+      end, and stories that metabolize every objection. Replacement is not silence—it is other
+      uses of speech.
+    centralQuestion: What kinds of speech take over when interpretation no longer revises authority?
+    selectedConcepts:
+      - displacement-of-interpretation
+      - narrative-enclosure
+      - authority
+      - post-interpretive-authority
+    selectedPatterns:
+      - correctness-hardens-into-identity
+      - meaning-reinforces-itself
+      - explanation-replaces-response
+    searchAliases:
+      - what replaces interpretation
+      - part ii replacements
+    transition:
+      fromPrevious: >
+        From where interpretation ends into the substitutes that fill the room.
+      toNext: >
+        From the part frame into the argument that sorts the room.
+
+  - sourcePath: parts/part-2-what-replaces-interpretation/chapter-3-the-argument-that-sorts-the-room.md
+    summary: >
+      A family group chat fills with forwarded posts; the question looks like evidence while
+      the work is affiliation. Caution is heard as softness or betrayal; neutrality becomes a
+      side. Disagreement no longer clarifies a proposition across a shared evaluative space—it
+      sorts who belongs. Interpretation is displaced by sorting.
+    centralQuestion: When does an argument about evidence become a machine for sorting loyalty?
+    selectedConcepts:
+      - displacement-of-interpretation
+      - narrative-enclosure
+      - interpretation
+      - authority
+      - identity-saturation
+    selectedPatterns:
+      - correctness-hardens-into-identity
+      - disagreement-is-suppressed
+      - meaning-reinforces-itself
+    searchAliases:
+      - the argument that sorts the room
+      - family group chat
+      - neutrality becomes a side
+    situations:
+      - pressure-accelerates-interpretation
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: >
+        From Part II's replacements into affiliation dressed as evidence.
+      toNext: >
+        From sorted rooms into names that survive every platform.
+
+  - sourcePath: parts/part-2-what-replaces-interpretation/chapter-4-the-name-that-survives-every-platform.md
+    summary: >
+      A campaign button in a drawer outlives the wage board and foreign policy that once
+      justified its slogan. Inherited political labels become household atmosphere—children
+      learn the name before the budget. Loyalty can outlive the reasons that once made loyalty
+      look like judgment; the name waits for an heir, not a better brief.
+    centralQuestion: How does a political name keep organizing belonging after its first platform is gone?
+    selectedConcepts:
+      - narrative-enclosure
+      - authority
+      - inheritance
+      - displacement-of-interpretation
+      - identity-saturation
+    selectedPatterns:
+      - correctness-hardens-into-identity
+      - structures-outlive-reasons
+      - meaning-reinforces-itself
+    searchAliases:
+      - the name that survives every platform
+      - campaign button drawer
+      - loyalty after reasons
+    situations:
+      - inherited-rule-outlives-constraint
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From sorting arguments into labels that outlive their platforms.
+      toNext: >
+        From inherited names into applause that no one dares to end.
+
+  - sourcePath: parts/part-2-what-replaces-interpretation/chapter-5-the-applause-no-one-wants-to-end.md
+    summary: >
+      Palms are sore and rhythm has gone wrong, yet the ovation continues because stopping
+      marks you against a room that has not granted permission to end it. What holds the sound
+      open is not belief that the words deserve another minute—it is shared knowledge that the
+      first lowered hands will be seen. Performative legitimacy under coercion replaces
+      evaluation with watched endurance.
+    centralQuestion: What kind of authority is being performed when no one can safely stop applauding?
+    selectedConcepts:
+      - post-interpretive-authority
+      - authority
+      - coercion
+      - performative-legitimacy
+      - displacement-of-interpretation
+    selectedPatterns:
+      - disagreement-is-suppressed
+      - meaning-reinforces-itself
+      - explanation-replaces-response
+    searchAliases:
+      - the applause no one wants to end
+      - ovation that cannot stop
+      - first to lower hands
+    situations:
+      - pressure-accelerates-interpretation
+      - dissent-narrows-to-workaround
+    transition:
+      fromPrevious: >
+        From surviving names into ritual applause under surveillance.
+      toNext: >
+        From coerced celebration into stories that turn every objection into fuel.
+
+  - sourcePath: parts/part-2-what-replaces-interpretation/chapter-6-the-story-that-explains-every-objection.md
+    summary: >
+      Attack is answered not with evidence first but with a quieter sentence: if this were
+      nothing, no one would bother. The move feels like thoughtfulness—thicker accounts of
+      motive, tone, and timing—while sealing the belief against interruption. Interpreting
+      harder becomes enclosure; every objection confirms the story rather than reopening
+      shared evaluation.
+    centralQuestion: How can interpreting harder seal a belief against the very objections that should test it?
+    selectedConcepts:
+      - narrative-enclosure
+      - displacement-of-interpretation
+      - interpretation
+      - certainty
+      - identity-saturation
+    selectedPatterns:
+      - meaning-reinforces-itself
+      - correctness-hardens-into-identity
+      - explanation-replaces-response
+    searchAliases:
+      - the story that explains every objection
+      - attack as confirmation
+      - interpreting harder
+    situations:
+      - meaning-forms-before-anyone-checks-it
+      - intent-gets-assigned-after-the-fact
+    transition:
+      fromPrevious: >
+        From applause that cannot end into narrative that metabolizes critique.
+      toNext: >
+        From replacements into Part III—when correction cannot reach.
+
+  - sourcePath: parts/part-3-when-correction-cannot-reach/bridge.md
+    summary: >
+      Part III asks what happens before and after the boundary when questions become
+      disloyalty, criticism becomes purification ritual, and judgment still has work that is
+      not repair. Correction's tools remain available as language while losing the capacity to
+      revise standing.
+    centralQuestion: What can still be done when the tools of correction no longer reopen authority?
+    selectedConcepts:
+      - post-interpretive-authority
+      - witness
+      - judgment
+      - authority
+      - displacement-of-interpretation
+    selectedPatterns:
+      - disagreement-is-suppressed
+      - explanation-replaces-response
+      - revisability-preserves-judgment
+    searchAliases:
+      - when correction cannot reach
+      - before and after the boundary
+    transition:
+      fromPrevious: >
+        From what replaces interpretation into rooms where correction cannot land.
+      toNext: >
+        From the part frame into the question that becomes disloyalty.
+
+  - sourcePath: parts/part-3-when-correction-cannot-reach/chapter-7-the-question-that-becomes-disloyalty.md
+    summary: >
+      An ordinary ask for pilot results and verification dates is met with smiles about
+      negativity, momentum, and vision—openness language intact while the corridor translation
+      reprices the question. Freedom to ask remains; a second and third request start to sound
+      like personality. Evidence becomes an attitude problem when constraint has been cast as
+      optional drama.
+    centralQuestion: How does a request for evidence become coded as disloyalty without anyone forbidding the question?
+    selectedConcepts:
+      - displacement-of-interpretation
+      - authority
+      - post-interpretive-authority
+      - judgment
+      - legitimacy
+    selectedPatterns:
+      - disagreement-is-suppressed
+      - explanation-replaces-response
+      - correctness-hardens-into-identity
+    searchAliases:
+      - the question that becomes disloyalty
+      - take that offline
+      - evidence as attitude
+    situations:
+      - feedback-stops-changing-decisions
+      - dissent-narrows-to-workaround
+      - explanation-displaces-action
+    transition:
+      fromPrevious: >
+        From Part III's frame into the meeting where diligence is repriced.
+      toNext: >
+        From silenced evidence into criticism scheduled as purification.
+
+  - sourcePath: parts/part-3-when-correction-cannot-reach/chapter-8-the-criticism-that-cannot-correct.md
+    summary: >
+      Retrospectives and self-criticism hours ask for candor on a timer; what follows is
+      approved failure—flaws the hierarchy is ready to absorb—rather than discovery that would
+      rearrange standing. Notebooks fill with sentences that sound like repair and function as
+      ritual proof that criticism occurred. Critique can be commandeered as authority's output,
+      not its constraint.
+    centralQuestion: When does required criticism stop correcting authority and start reproducing it?
+    selectedConcepts:
+      - post-interpretive-authority
+      - authority
+      - displacement-of-interpretation
+      - judgment
+      - coercion
+    selectedPatterns:
+      - explanation-replaces-response
+      - disagreement-is-suppressed
+      - meaning-reinforces-itself
+    searchAliases:
+      - the criticism that cannot correct
+      - approved failure
+      - self-criticism ritual
+    situations:
+      - feedback-stops-changing-decisions
+      - dissent-narrows-to-workaround
+    transition:
+      fromPrevious: >
+        From evidence-as-disloyalty into criticism as scheduled purification.
+      toNext: >
+        From uncorrecting critique into what judgment can still do when repair cannot.
+
+  - sourcePath: parts/part-3-when-correction-cannot-reach/chapter-9-what-judgment-can-still-do.md
+    summary: >
+      Someone writes after it is too late—names copied before they thin, testimony for a
+      tribunal that may not arrive. The hand is not inventing theory; it is attaching words to
+      events that would otherwise remain private weather. Witness is not a rescue program when
+      mediating pathways are smashed; it is judgment's remaining social life—record, address,
+      and obligation that outlasts the speaker.
+    centralQuestion: What can judgment still do when it cannot restore the pathway from recognition to repair?
+    selectedConcepts:
+      - witness
+      - judgment
+      - post-interpretive-authority
+      - authority
+      - harm
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - explanation-replaces-response
+      - contact-keeps-the-read-open
+    searchAliases:
+      - what judgment can still do
+      - list of names
+      - witness after repair fails
+    situations:
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: >
+        From criticism that cannot correct into witness that still addresses facts.
+      toNext: >
+        From remaining judgment into the conclusion's return to the meeting.
+
+  - sourcePath: back-matter/conclusion-after-interpretation.md
+    summary: >
+      The opening shrug—concern understood, decision unchanged—returns harder to treat as mere
+      etiquette. The book refuses a single explanation (misunderstanding, refusal, capture,
+      evil) for every failure of consequence, keeping a sharper alternative available: not
+      everything that fails to matter has been misunderstood. The improvement is modest: which
+      questions to keep open long enough for a useful distinction to appear.
+    centralQuestion: What distinction remains useful after we stop collapsing every unanswered concern into misunderstanding?
+    selectedConcepts:
+      - interpretation
+      - displacement-of-interpretation
+      - post-interpretive-authority
+      - authority
+      - judgment
+    selectedPatterns:
+      - explanation-replaces-response
+      - revisability-preserves-judgment
+      - meaning-reinforces-itself
+    searchAliases:
+      - after interpretation
+      - the meeting after the meeting
+      - not merely misunderstood
+    situations:
+      - explanation-displaces-action
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: >
+        From witness's remaining work into the return to the unchanged decision.
+
+  - sourcePath: back-matter/glossary.md
+    summary: >
+      Working terms for scenes already argued—alignment/sorting, interpretation as shared
+      consequential evaluation, and related reminders—not a checklist for diagnosing every room
+      or a syllabus to recite over a meeting. The appendix keeps vocabulary available without
+      pretending definitions replace judgment.
+    centralQuestion: Which working terms help keep the book's distinctions available without turning them into a checklist?
+    selectedConcepts:
+      - interpretation
+      - displacement-of-interpretation
+      - authority
+      - narrative-enclosure
+    selectedPatterns:
+      - meaning-reinforces-itself
+      - explanation-replaces-response
+    searchAliases:
+      - working terms
+      - appendix glossary
+      - alignment sorting
+    transition:
+      fromPrevious: >
+        From the conclusion into compact reminders for the scenes already walked.

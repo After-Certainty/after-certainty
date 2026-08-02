@@ -1,12 +1,12 @@
 # Semantic completeness report
 
-Generated: `2026-08-01T23:28:23.209467+00:00`
+Generated: `2026-08-02T00:02:09.391088+00:00`
 
 ## Manifest provenance
 
 - schemaVersion: `2.4`
-- sourceCommit: `dc6f609d885984cacbc5d59ae27df29a46cb4005`
-- manifest generatedAt: `2026-08-01T23:28:11.852904+00:00`
+- sourceCommit: `181d1acee062330e499741f9e12cb68061255f46`
+- manifest generatedAt: `2026-08-02T00:01:57.851809+00:00`
 
 Public canonical works evaluated: **34**
 
@@ -127,7 +127,6 @@ _None._
 - `when-authority-is-misread`
 - `when-authority-outlives-accountability`
 - `when-incentives-become-the-moral-language`
-- `when-interpretation-no-longer-matters`
 - `when-moral-seriousness-scales`
 - `when-others-look-to-you-v1`
 - `when-others-look-to-you-v2`
@@ -1054,7 +1053,7 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
 | `selectedThinkersOrSources` | `complete` |
 
