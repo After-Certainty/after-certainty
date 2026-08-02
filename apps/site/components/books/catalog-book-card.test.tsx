@@ -80,7 +80,7 @@ describe("CatalogBookCard", () => {
     expect(screen.getByRole("heading", { name: "After Certainty" })).toBeInTheDocument();
     expect(screen.getByText("Nonfiction")).toBeInTheDocument();
     expect(screen.getByText("Subtitle")).toBeInTheDocument();
-    expect(screen.getByText("Download →")).toBeInTheDocument();
+    expect(screen.getByText("View Book →")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /After Certainty/i })).toHaveAttribute(
       "href",
       "/explore/books/after-certainty",

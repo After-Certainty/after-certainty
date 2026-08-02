@@ -74,13 +74,7 @@ function CompactMeta({ book }: { book: CatalogBookView }) {
         {book.title}
       </h3>
       {blurb ? <p className="line-clamp-2 text-sm leading-snug text-muted">{blurb}</p> : null}
-      <p className="pt-0.5 text-xs text-accent">
-        {book.availability.includes("download")
-          ? "Download →"
-          : book.availability.includes("print")
-            ? "Print →"
-            : "View book →"}
-      </p>
+      <p className="pt-0.5 text-xs text-accent">View Book →</p>
     </div>
   );
 }
