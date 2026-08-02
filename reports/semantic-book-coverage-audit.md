@@ -90,7 +90,7 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 3. ~~Glossary linking for `living-in-sediment` and `when-others-become-leaders`~~ done (overview spines wired).
 4. ~~Glossary linking for handbooks `how-serious-systems-learn` and `the-discipline-of-uncertainty`~~ done (#445).
 5. ~~Glossary linking for remaining source-rich G=0 books~~ done (moral seriousness, WOLTY v2, accountability expires, learning-to-see).
-6. **Chapter enrichment batch** for thin flagships — BCA + sediment + WOBL + Interpretation done; remaining: `coupling`, WOLTY v1/v2, handbooks, …
+6. **Chapter enrichment batch** for thin flagships — BCA + sediment + WOBL + Interpretation + Discipline done; remaining: HSSL, WOLTY v1/v2, `coupling`, …
 7. ~~**Biblio reconcile** for `when-interpretation-no-longer-matters` and `why-collaboration-is-so-hard`~~ done (0/0/0 drift).
 8. **Semantic enrichment** on newly linked hubs (definitions / recognition-signals) where thin.
 
