@@ -1,12 +1,12 @@
 # Semantic completeness report
 
-Generated: `2026-08-02T00:28:37.816017+00:00`
+Generated: `2026-08-02T01:43:12.125708+00:00`
 
 ## Manifest provenance
 
 - schemaVersion: `2.4`
-- sourceCommit: `6e0e55cb210e774c27425df91ab5328840abadd7`
-- manifest generatedAt: `2026-08-02T00:28:26.466342+00:00`
+- sourceCommit: `0b662305500b92da966d6c678f017b597742fdf2`
+- manifest generatedAt: `2026-08-02T01:42:59.101660+00:00`
 
 Public canonical works evaluated: **34**
 
@@ -127,7 +127,6 @@ _None._
 - `when-incentives-become-the-moral-language`
 - `when-moral-seriousness-scales`
 - `when-others-look-to-you-v1`
-- `when-others-look-to-you-v2`
 - `when-trust-stops-tracking-reality`
 - `why-diversity-matters`
 
@@ -1187,7 +1186,7 @@ _None._
 | `publicChangeEvent` | `complete` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
 | `selectedThinkersOrSources` | `complete` |
 

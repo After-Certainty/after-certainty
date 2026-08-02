@@ -27,7 +27,7 @@ Portfolio: **34** book specs (33 titles; WOLTY v1 + v2).
 | `how-serious-systems-learn` | 6/8/38/46 | 25/25 | Overview wired (#445); chapter enrichment complete |
 | `the-discipline-of-uncertainty` | 6/5/10/12 | 23/23 | Overview wired (#445); chapter enrichment complete |
 | `when-moral-seriousness-scales` | 7/6/22/19 | 0/17 | Overview wired (2026-08-01); chapters missing |
-| `when-others-look-to-you-v2` | 6/7/17/17 | 0/18 | Overview wired (2026-08-01); still thin on questions |
+| `when-others-look-to-you-v2` | 6/7/17/17 | 18/18 | Overview wired (2026-08-01); chapter enrichment complete |
 | `when-accountability-no-longer-expires` | 6/6/12/11 | 1/19 | Overview wired (2026-08-01); chapters thin |
 | `learning-to-see` | 6/5/12/13 | 19/19 | Overview wired (2026-08-01); chapters done; no manuscript biblio |
 
@@ -82,6 +82,7 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 | `when-interpretation-no-longer-matters` | 25/0/54/58 | 15/15 | Chapters complete |
 | `the-discipline-of-uncertainty` | 6/5/10/12 | 23/23 | Chapters complete |
 | `how-serious-systems-learn` | 6/8/38/46 | 25/25 | Chapters complete |
+| `when-others-look-to-you-v2` | 6/7/17/17 | 18/18 | Chapters complete |
 | `the-game-we-think-we-saw` | 17/0/72/40 | 13/13 | Strong |
 | `why-collaboration-is-so-hard` | 12/0/15/11 | 10/10 | Biblio drift cleared; chapters present |
 
@@ -92,7 +93,7 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 3. ~~Glossary linking for `living-in-sediment` and `when-others-become-leaders`~~ done (overview spines wired).
 4. ~~Glossary linking for handbooks `how-serious-systems-learn` and `the-discipline-of-uncertainty`~~ done (#445).
 5. ~~Glossary linking for remaining source-rich G=0 books~~ done (moral seriousness, WOLTY v2, accountability expires, learning-to-see).
-6. **Chapter enrichment batch** for thin flagships — BCA + sediment + WOBL + Interpretation + Discipline + HSSL done; remaining: WOLTY v1/v2, `coupling`, …
+6. **Chapter enrichment batch** for thin flagships — BCA + sediment + WOBL + Interpretation + Discipline + HSSL + WOLTY v2 done; remaining: WOLTY v1, `coupling`, …
 7. ~~**Biblio reconcile** for `when-interpretation-no-longer-matters` and `why-collaboration-is-so-hard`~~ done (0/0/0 drift).
 8. **Semantic enrichment** on newly linked hubs (definitions / recognition-signals) where thin.
 
