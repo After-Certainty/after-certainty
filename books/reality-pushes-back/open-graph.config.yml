@@ -1,0 +1,21 @@
+# Tuning for tools/generate_open_graph.py — Reality Pushes Back
+# Cover: warm wood / amber material resistance art
+bg_crop: [40, 520, 984, 1320]
+tint: [36, 24, 14, 150]
+accent_color: [196, 140, 64]
+title_lines:
+  - text: Reality
+    color: white
+  - text: Pushes
+    color: accent
+  - text: Back
+    color: white
+subtitle_lines:
+  - WHAT HAPPENS WHEN OUR
+  - MODELS MEET THE WORLD
+subtitle_color: accent
+font_title: 52
+font_sub: 16
+title_start_y: 78
+title_line_gap: 56
+rule_width: 360

@@ -96,6 +96,14 @@ The earlier books are primarily diagnostic. They explain how meaning forms, how 
 
 **Question:** How do we live responsibly after certainty loses its ability to settle the world?
 
+### [Reality Pushes Back](../books/reality-pushes-back/index.md)
+
+Narrative home of the After Certainty Pattern Language. Through ordinary life in one town across roughly fifteen years, twelve supporting patterns—organized by perception, power, time, and contact—show how every useful model leaves something out, and how reality answers through materials, people, and consequences the model did not contain. Not a duplicate of the practice capstone: *After Certainty* asks how to live after frameworks fail; this book dramatizes the recurring movements those frameworks encounter.
+
+**Question:** What part of reality answered back?
+
+**Pair with:** [*How Meaning Moves*](../books/how-meaning-moves/index.md) (companion pattern language) → this book (town dramatization of the cross-corpus language) → [*After Certainty*](../books/after-certainty/index.md) (practice under limits).
+
 ### [Learning to See](../books/learning-to-see/index.md)
 
 How scientific, philosophical, psychological, and spiritual traditions develop **practices** that form better knowers—attention, humility, community, memory, repair, moral imagination—without claiming those traditions are secretly the same. Culminates in what becomes scarce when AI makes answers abundant.
@@ -333,6 +341,7 @@ Read them as companions; do not collapse either into a general AI or culture-war
 | The Game We Think We Saw | [books/the-game-we-think-we-saw/index.md](../books/the-game-we-think-we-saw/index.md) |
 | The World We Make Together | [books/the-world-we-make-together/index.md](../books/the-world-we-make-together/index.md) |
 | No Time to Think | [books/no-time-to-think/index.md](../books/no-time-to-think/index.md) |
+| Reality Pushes Back | [books/reality-pushes-back/index.md](../books/reality-pushes-back/index.md) |
 | The Case That Does Not Fit | [books/the-case-that-does-not-fit/index.md](../books/the-case-that-does-not-fit/index.md) |
 | When Accountability No Longer Expires | [books/when-accountability-no-longer-expires/index.md](../books/when-accountability-no-longer-expires/index.md) |
 | When Authority Is Misread | [books/when-authority-is-misread/index.md](../books/when-authority-is-misread/index.md) |
