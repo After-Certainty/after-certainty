@@ -66,21 +66,13 @@ After all units are at least `draft`:
 
 ### Phase 5 — Promote to `books/`
 
-When cover arrives and manuscript is ready for the publishing pipeline:
-
-- Author supplies `book-cover.png`
-- Generate `open-graph.png`
-- Move into `books/reality-pushes-back/` with full `book.yml` (exports enabled)
-- Wire `relatedBooks` / overview selected patterns as needed
-- Update [upcoming/docs/portfolio-status.md](../../docs/portfolio-status.md)
-- Open PR
+Completed: cover installed, OG generated, `book.yml` exports enabled, portfolio and series-guide paths updated.
 
 ## Commit discipline
 
 - Prefer commits at scaffold, seeded prose, part batches, and status refresh.
 - Never commit manuscript changes without updating `docs/status.md` when the phase changes.
-- Hold PR until cover is provided.
 
 ## Current starting phase
 
-See `docs/status.md` — **Phase 1 — Outline to prose (first complete draft)**.
+See `docs/status.md` — **Phase 5 — Promoted to `books/`**.

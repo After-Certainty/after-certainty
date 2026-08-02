@@ -1,0 +1,157 @@
+version: 1
+publishing:
+  enabled: true
+book:
+  id: reality-pushes-back
+  title: Reality Pushes Back
+  subtitle: What Happens When Our Models Meet the World
+  description: >
+    A narrative pattern language for the After Certainty corpus. Through ordinary
+    life in one town across roughly fifteen years, twelve supporting patterns—
+    organized by perception, power, time, and contact—show how every useful model
+    leaves something out, and how reality answers through materials, people, and
+    consequences the model did not contain.
+  author:
+    name: Kevin Steffensen
+    website: https://after-certainty.com
+  language: en
+  copyright_year: 2026
+  keywords: "pattern language; perception; power; time; contact; reality answers back; models; institutions; judgment; material resistance"
+  title_page_cover: book-cover.png
+  open_graph_image: open-graph.png
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: What part of reality answered back?
+    whyItExists: >
+      The After Certainty Pattern Language needs a narrative home. This book
+      dramatizes the master pattern Reality Answers Back and its twelve supporting
+      patterns through material resistance and ordinary town life—distinct from the
+      practice capstone After Certainty.
+    audience: >
+      Readers who want the cross-corpus pattern language grounded in lived
+      particulars—craft, schools, municipal work, and public life—rather than as an
+      abstract catalog alone.
+    nonGoals:
+    - It is not a duplicate of the After Certainty practice capstone.
+    - It is not small-town melodrama or a hero's mastery of the pattern language.
+    - It does not treat patterns as moral labels of good versus bad.
+    selectedConcepts:
+    - compression
+    - abstraction
+    - judgment
+    - legitimacy
+    - accountability
+    - revisability
+    selectedPatterns:
+    - reality-answers-back
+    - compression-loses-the-person
+    - understanding-circulates
+    - authority-follows-attention
+    - structures-outlive-reasons
+    - speed-relocates-judgment
+    - care-preserves-particulars
+    selectedConceptRoles:
+    - conceptId: compression
+      roleInWork: >
+        Names the necessary reduction that makes coordination possible and the
+        danger when the reduction begins to feel complete.
+    - conceptId: abstraction
+      roleInWork: >
+        Tracks maps, scores, forms, and procedures that leave particulars behind
+        until material or lived consequence returns.
+    - conceptId: judgment
+      roleInWork: >
+        Follows where judgment lives as systems accelerate, harden, and lose
+        contact—and how attention can reopen it.
+    - conceptId: legitimacy
+      roleInWork: >
+        Anchors participation as consequential shaping of a shared order, not
+        symbolic consultation alone.
+    - conceptId: accountability
+      roleInWork: >
+        Ties responsibility to leverage—capacity to shape, prevent, benefit from,
+        or repair outcomes.
+    - conceptId: revisability
+      roleInWork: >
+        Preserves room in commitments for correction when conditions and evidence
+        change.
+    selectedPatternRoles:
+    - patternId: reality-answers-back
+      roleInWork: >
+        Master pattern of the book: every useful model eventually meets the
+        reality it only partially captured.
+    - patternId: compression-loses-the-person
+      roleInWork: >
+        Opens Part I through the lost sweater—accurate categories that still leave
+        the person out of view.
+    - patternId: understanding-circulates
+      roleInWork: >
+        Corrective Perception pattern: understanding revises itself when partial
+        perspectives move among people rather than remaining isolated.
+    - patternId: authority-follows-attention
+      roleInWork: >
+        Opens Part II—authority forming from room attention before legitimacy is
+        conferred.
+    - patternId: structures-outlive-reasons
+      roleInWork: >
+        Time-force pattern: inherited forms persist after the conditions that
+        justified them have changed.
+    - patternId: speed-relocates-judgment
+      roleInWork: >
+        Shows acceleration moving judgment into defaults and routes—echoed in the
+        municipal continuity spine.
+    - patternId: care-preserves-particulars
+      roleInWork: >
+        Closes the arc with an unsigned form—care as accurate attention inside
+        systems, not rejection of them.
+    readBefore:
+    - how-meaning-moves
+    - living-in-sediment
+    readNext:
+    - after-certainty
+    - when-others-look-to-you-v1
+    relatedWorks:
+    - workId: after-certainty
+      relationship: companion_to
+      reason: Practice capstone after frameworks fail pairs with this narrative dramatization of the pattern language.
+    - workId: how-meaning-moves
+      relationship: companion_to
+      reason: Companion pattern language of meaning; this book is the cross-corpus After Certainty language in town form.
+    - workId: living-in-sediment
+      relationship: deepens
+      reason: Structures Outlive Reasons appears as one chapter in a fuller sediment investigation.
+    - workId: no-time-to-think
+      relationship: deepens
+      reason: Speed Relocates Judgment appears here as one force-chapter; No Time to Think expands the acceleration problem.
+paths:
+  manuscript: ./index.md
+  output: .
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+    about_the_series:
+      repo_template: templates/about_the_series.md.j2
+      output: front-matter/about-the-series.md
+build:
+  formats:
+    docx:
+      enabled: true
+      interior_finish: true
+    epub:
+      enabled: true
+    pdf:
+      enabled: true
+github:
+  release: true
+  release_tag: latest
+  artifacts:
+  - docx
+  - epub
+  - pdf

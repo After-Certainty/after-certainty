@@ -12,11 +12,10 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 | Book | Phase | Progress summary | Next action | Status |
 |------|-------|------------------|-------------|--------|
-| [Reality Pushes Back](../reality-pushes-back/) | Phase 1 complete | First complete draft (~54k): Intro, 12 pattern chapters, conclusion, Appendix A | Author read-through; await cover before promote/PR | [status](../reality-pushes-back/docs/status.md) |
 | [Why Diversity Matters](../../books/why-diversity-matters/) | Phase 0–1 | Essay edition in `books/`; outline scaffolds + interview questions | Author intro + chapter drafts | [status](../../books/why-diversity-matters/docs/status.md) |
 | [When Interpretation No Longer Matters](../../books/when-interpretation-no-longer-matters/) | Phase 5 (essay edition) | Agent pipeline + echo gates complete; expansion decision locked (~14.5k) | Author sign-off on Parts III–IV gate; export smoke | [status](../../books/when-interpretation-no-longer-matters/docs/status.md) |
 
-*Active under `upcoming/`:* **Reality Pushes Back**. **The Case That Does Not Fit** was promoted to [`books/the-case-that-does-not-fit/`](../../books/the-case-that-does-not-fit/). Companion **No Time to Think** is at [`books/no-time-to-think/`](../../books/no-time-to-think/). **The World We Make Together** is at [`books/the-world-we-make-together/`](../../books/the-world-we-make-together/).
+*Active under `upcoming/`:* none. **Reality Pushes Back** was promoted to [`books/reality-pushes-back/`](../../books/reality-pushes-back/). **The Case That Does Not Fit** was promoted to [`books/the-case-that-does-not-fit/`](../../books/the-case-that-does-not-fit/). Companion **No Time to Think** is at [`books/no-time-to-think/`](../../books/no-time-to-think/). **The World We Make Together** is at [`books/the-world-we-make-together/`](../../books/the-world-we-make-together/).
 
 ## Published fiction
 

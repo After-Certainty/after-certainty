@@ -6,6 +6,9 @@
 
 ## Front Matter
 
+- [Title Page](front-matter/title-page.md)
+- [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Introduction — The Bent Nail](front-matter/introduction-the-bent-nail.md)
 
 ## Part I — Perception: What We Leave Out
@@ -53,9 +56,9 @@ The farther consequences move from those who decide, the harder they become to r
 
 [Series guide](../../docs/series-guide.md) · Pattern language / practice cluster
 
-- [After Certainty](../../books/after-certainty/index.md) — practice capstone when frameworks fail
-- [How Meaning Moves](../../books/how-meaning-moves/index.md) — companion pattern language of meaning
-- [When Others Look to You](../../books/when-others-look-to-you/v1/index.md) — leadership pattern language this corpus extends
-- [Living in Sediment](../../books/living-in-sediment/index.md) — structures that outlive their reasons
-- [No Time to Think](../../books/no-time-to-think/index.md) — judgment under acceleration
-- [The Case That Does Not Fit](../../books/the-case-that-does-not-fit/index.md) — when compression misses the decisive case
+- [After Certainty](../after-certainty/index.md) — practice capstone when frameworks fail
+- [How Meaning Moves](../how-meaning-moves/index.md) — companion pattern language of meaning
+- [When Others Look to You](../when-others-look-to-you/v1/index.md) — leadership pattern language this corpus extends
+- [Living in Sediment](../living-in-sediment/index.md) — structures that outlive their reasons
+- [No Time to Think](../no-time-to-think/index.md) — judgment under acceleration
+- [The Case That Does Not Fit](../the-case-that-does-not-fit/index.md) — when compression misses the decisive case
