@@ -5,12 +5,12 @@ import type { SearchDocument, SearchEntityType } from "@/lib/search/types";
 /**
  * Soft expected ceiling after source lean + chapter dedupe + wire slimming
  * (original plan §13 targeted ~140–200 KB; pruned corpus aimed ≲300 KB gzip).
- * Bumped for ongoing chapter-enrichment batch (incl. Discipline of Uncertainty); revisit with another prune if enrichment continues past ~360 KB.
+ * Bumped for ongoing chapter-enrichment batch (incl. HSSL); revisit with another prune if enrichment continues past ~390 KB.
  */
-export const SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES = 360 * 1024;
+export const SEARCH_INDEX_GZIP_EXPECTED_MAX_BYTES = 390 * 1024;
 
 /** CI alert threshold — fail tests when the transferable index exceeds this. */
-export const SEARCH_INDEX_GZIP_ALERT_BYTES = 400 * 1024;
+export const SEARCH_INDEX_GZIP_ALERT_BYTES = 440 * 1024;
 
 /** Migration-review threshold from the Global Search plan (not a hard CI fail). */
 export const SEARCH_INDEX_GZIP_MIGRATION_BYTES = 1.5 * 1024 * 1024;
