@@ -21,7 +21,11 @@ describe("ExploreIndexGroup", () => {
   it("starts open when defaultOpen is true and toggles on click", async () => {
     const user = userEvent.setup();
     render(
-      <ExploreIndexGroup title="After Certainty Pattern Language" countLabel="12 patterns" defaultOpen>
+      <ExploreIndexGroup
+        title="After Certainty Pattern Language"
+        countLabel="12 patterns"
+        defaultOpen
+      >
         <p>Language cards</p>
       </ExploreIndexGroup>,
     );

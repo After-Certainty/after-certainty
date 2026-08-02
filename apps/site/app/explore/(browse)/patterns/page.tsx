@@ -43,9 +43,7 @@ export default async function ExplorePatternsIndexPage({ searchParams }: PagePro
   const languagePatterns = patterns.filter(isPatternLanguagePattern);
   const otherPatterns = patterns.filter((p) => !isPatternLanguagePattern(p));
   const activeForce = forceFilter ? index.forceBySlug.get(forceFilter) : null;
-  const filteredSupports = activeForce
-    ? supportingPatternsForForce(index, activeForce.slug)
-    : [];
+  const filteredSupports = activeForce ? supportingPatternsForForce(index, activeForce.slug) : [];
 
   return (
     <article>
@@ -96,9 +94,7 @@ export default async function ExplorePatternsIndexPage({ searchParams }: PagePro
                 </li>
               ))}
             </ul>
-            {activeForce ? (
-              <p className="text-sm text-muted">{activeForce.description}</p>
-            ) : null}
+            {activeForce ? <p className="text-sm text-muted">{activeForce.description}</p> : null}
           </div>
         ) : null}
 

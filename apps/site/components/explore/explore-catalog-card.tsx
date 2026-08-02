@@ -72,7 +72,9 @@ function DetailedBody({
         {title}
       </h3>
       {blurb ? (
-        <p className={`line-clamp-3 text-sm leading-relaxed text-muted ${blurbClassName}`}>{blurb}</p>
+        <p className={`line-clamp-3 text-sm leading-relaxed text-muted ${blurbClassName}`}>
+          {blurb}
+        </p>
       ) : null}
     </div>
   );

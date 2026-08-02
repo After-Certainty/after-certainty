@@ -66,7 +66,10 @@ export function ExploreIndexGroup({
         onClick={() => setOpen((value) => !value)}
       >
         <span className="min-w-0 flex-1 leading-tight">
-          <h2 id={mobileHeadingId} className="font-display text-lg font-medium tracking-tight text-fg">
+          <h2
+            id={mobileHeadingId}
+            className="font-display text-lg font-medium tracking-tight text-fg"
+          >
             {title}
           </h2>
           <span className="mt-0.5 block text-[11px] leading-none text-muted">{countLabel}</span>
