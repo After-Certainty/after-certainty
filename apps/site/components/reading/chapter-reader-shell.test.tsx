@@ -41,6 +41,11 @@ describe("ChapterReaderShell", () => {
     render(<ChapterReaderShell book={book!} chapter={chapter!} />);
 
     expect(screen.getByRole("heading", { level: 1, name: "Introduction" })).toBeInTheDocument();
+    expect(screen.getByTestId("reading-progress-chrome")).toBeInTheDocument();
+    expect(screen.getByTestId("reader-exit")).toHaveAttribute(
+      "href",
+      "/explore/books/after-certainty",
+    );
     expect(screen.getByRole("link", { name: "Back to book" })).toHaveAttribute(
       "href",
       "/explore/books/after-certainty",
@@ -69,6 +74,10 @@ describe("ChapterReaderShell", () => {
 
     expect(screen.getByTestId("chapter-toc-drawer-open")).toBeInTheDocument();
     expect(screen.getByTestId("in-book-search-open")).toBeInTheDocument();
+    expect(screen.getByTestId("reader-chapter-position")).toHaveAttribute(
+      "aria-label",
+      expect.stringMatching(/^Chapter \d+ of \d+$/),
+    );
     expect(
       screen.getByRole("navigation", { name: "Previous and next chapter", exact: true }),
     ).toBeInTheDocument();
@@ -125,4 +134,3 @@ describe("ChapterReaderShell", () => {
     expect(screen.queryByRole("status")).not.toBeInTheDocument();
   });
 });
-

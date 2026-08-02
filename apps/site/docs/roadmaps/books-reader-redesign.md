@@ -1,6 +1,6 @@
 # Books, curated shelves, book detail, and native reader redesign
 
-**Status:** Active — specialized site plan (Phases A–C complete; Phase D in progress)  
+**Status:** Active — specialized site plan (Phases A–D complete; Phase E in progress)  
 **Created:** 2026-08-02  
 **Location:** `apps/site/docs/roadmaps/books-reader-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
@@ -20,7 +20,7 @@ The public site already ships a full books stack under `/explore/books`. This re
 | Books index   | `/explore/books`                               | Hero, featured shelf accordion sections (`BooksShelfSection`), complete catalog with URL filters (`BooksCatalogControls`) |
 | Shelves       | `/explore/books/shelves/[slug]` + `?shelf=`    | Corpus shelves in `semantic/shelves/*.yml`; dedicated routes (Phase C); catalog filter retained                           |
 | Book detail   | `/explore/books/[slug]`                        | Overview/legacy layouts; Phase D densifies hero, real metadata table, shelf membership + adjacency                        |
-| Native reader | `/explore/books/[slug]/chapters/[chapterSlug]` | Chapter shell, TOC + drawer, prev/next, local progress/bookmarks/text size, in-book search (READ-001–016)                 |
+| Native reader | `/explore/books/[slug]/chapters/[chapterSlug]` | Chapter shell + Phase E sticky progress chrome; Explore sidebar/footer hidden on reader routes                            |
 
 **Data:** Books from `books/*/book.yml` → semantic manifest. Shelf membership is shelf-side only (never on `book.yml`). Reading trails are curated discovery content, not personal lists.
 
@@ -100,40 +100,40 @@ Statuses: **matches** · **visual-diff** · **partial** · **missing** · **defe
 
 ### 4.4 Native reader
 
-| Feature                                | Status                | Notes                                       |
-| -------------------------------------- | --------------------- | ------------------------------------------- |
-| Chapter reading + TOC + prev/next      | matches / visual-diff | Chrome differs; global header/footer remain |
-| Local progress / bookmarks / text size | matches               | Separate localStorage modules               |
-| Scroll % progress bar                  | missing               | Prefer chapter + scroll progress (Phase E)  |
-| Fake page counts / pages left          | not-recommended       | No reliable pagination model                |
-| Line-height / width / theme prefs      | partial               | Text size only today                        |
-| Highlights / notes                     | missing               | Local-only later if adequate                |
-| Synced / account features              | deferred-backend      | Documented deferrals                        |
+| Feature                                | Status                | Notes                                                          |
+| -------------------------------------- | --------------------- | -------------------------------------------------------------- |
+| Chapter reading + TOC + prev/next      | matches / visual-diff | Focused chrome; global header remains; footer hidden on reader |
+| Local progress / bookmarks / text size | matches               | Separate localStorage modules                                  |
+| Scroll % progress bar                  | matches               | Sticky chapter + scroll % chrome (Phase E)                     |
+| Fake page counts / pages left          | not-recommended       | No reliable pagination model                                   |
+| Line-height / width / theme prefs      | partial               | Text size only today                                           |
+| Highlights / notes                     | missing               | Local-only later if adequate                                   |
+| Synced / account features              | deferred-backend      | Documented deferrals                                           |
 
 ---
 
 ## 5. Feature matrix
 
-| Feature                      | Current              | Target                          | Data                | Persistence  | Phase | Backend? | Disposition     |
-| ---------------------------- | -------------------- | ------------------------------- | ------------------- | ------------ | ----- | -------- | --------------- |
-| Shelf accordion preview      | Yes                  | Denser list rows                | shelves YAML        | —            | A→B   | No       | adapt           |
-| Dedicated shelf routes       | No                   | `/explore/books/shelves/[slug]` | shelves YAML        | —            | C     | No       | implement       |
-| Shelf path helpers           | No                   | `explorePaths.booksShelf`       | —                   | —            | A     | No       | implement       |
-| Shelf membership / adjacency | Partial (`shelfIds`) | Selectors for detail            | shelves + catalog   | —            | A→D   | No       | implement       |
-| CatalogBookCard list layout  | compact only         | Mockup-aligned list             | catalog VM          | —            | A     | No       | implement       |
-| Books density tokens         | No                   | CSS vars                        | —                   | —            | A     | No       | implement       |
-| Books index hero tighten     | Tall hero            | Compact mobile                  | —                   | —            | B     | No       | adapt           |
-| Catalog filter density       | Expanded             | Compact accordion               | URL state           | —            | B     | No       | adapt           |
-| Book detail shelf context    | No                   | Also-in-shelf + prev/next       | selectors           | —            | D     | No       | implement       |
-| Metadata table               | Sparse               | Real fields only                | book.yml / registry | —            | D     | No       | adapt           |
-| Reader chrome                | In-page + site shell | Focused reader chrome           | —                   | —            | E     | No       | adapt           |
-| Scroll progress UI           | Storage only         | Visible indicator               | progress store      | localStorage | E     | No       | implement       |
-| Unified storage helper       | Scattered            | Safe typed helper               | —                   | localStorage | A→F   | No       | implement       |
-| Favorites                    | No                   | Local favorites                 | book IDs            | localStorage | F     | No       | implement       |
-| Highlights / notes           | No                   | Local only if quality OK        | anchors             | localStorage | F     | No       | adapt / defer   |
-| Personal reading trail       | No                   | —                               | —                   | —            | —     | Yes      | defer           |
-| Account sync                 | No                   | —                               | —                   | —            | —     | Yes      | defer           |
-| Fake page counts             | No                   | Never invent                    | —                   | —            | —     | —        | not-recommended |
+| Feature                      | Current                      | Target                          | Data                | Persistence  | Phase | Backend? | Disposition     |
+| ---------------------------- | ---------------------------- | ------------------------------- | ------------------- | ------------ | ----- | -------- | --------------- |
+| Shelf accordion preview      | Yes                          | Denser list rows                | shelves YAML        | —            | A→B   | No       | adapt           |
+| Dedicated shelf routes       | No                           | `/explore/books/shelves/[slug]` | shelves YAML        | —            | C     | No       | implement       |
+| Shelf path helpers           | No                           | `explorePaths.booksShelf`       | —                   | —            | A     | No       | implement       |
+| Shelf membership / adjacency | Partial (`shelfIds`)         | Selectors for detail            | shelves + catalog   | —            | A→D   | No       | implement       |
+| CatalogBookCard list layout  | compact only                 | Mockup-aligned list             | catalog VM          | —            | A     | No       | implement       |
+| Books density tokens         | No                           | CSS vars                        | —                   | —            | A     | No       | implement       |
+| Books index hero tighten     | Tall hero                    | Compact mobile                  | —                   | —            | B     | No       | adapt           |
+| Catalog filter density       | Expanded                     | Compact accordion               | URL state           | —            | B     | No       | adapt           |
+| Book detail shelf context    | No                           | Also-in-shelf + prev/next       | selectors           | —            | D     | No       | implement       |
+| Metadata table               | Sparse                       | Real fields only                | book.yml / registry | —            | D     | No       | adapt           |
+| Reader chrome                | Focused (sidebar/footer off) | Focused reader chrome           | —                   | —            | E     | No       | adapt           |
+| Scroll progress UI           | Visible chapter + scroll %   | Visible indicator               | scroll through body | session UI   | E     | No       | implement       |
+| Unified storage helper       | Scattered                    | Safe typed helper               | —                   | localStorage | A→F   | No       | implement       |
+| Favorites                    | No                           | Local favorites                 | book IDs            | localStorage | F     | No       | implement       |
+| Highlights / notes           | No                           | Local only if quality OK        | anchors             | localStorage | F     | No       | adapt / defer   |
+| Personal reading trail       | No                           | —                               | —                   | —            | —     | Yes      | defer           |
+| Account sync                 | No                           | —                               | —                   | —            | —     | Yes      | defer           |
+| Fake page counts             | No                           | Never invent                    | —                   | —            | —     | —        | not-recommended |
 
 ---
 
@@ -225,7 +225,7 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** SEO / sitemap / registry URL drift.  
 **Routes / manifests:** New routes; registry URL updates; no invented shelf data.
 
-### Phase D — Book detail redesign (this PR)
+### Phase D — Book detail redesign (complete — PR #463)
 
 **Objective:** Cover/metadata layout, stronger Read CTA, real metadata table, shelf membership, related entities, prev/next in shelf.
 
@@ -235,12 +235,14 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** Overview vs legacy layout divergence — mitigated by shared metadata/shelf components.  
 **Routes / manifests:** Optional metadata proposals only if needed.
 
-### Phase E — Reader shell and TOC
+### Phase E — Reader shell and TOC (this PR)
 
 **Objective:** Focused reader chrome, progress UI (chapter + scroll %), responsive header, exit behavior, a11y.
 
-**Acceptance:** No fake page counts; TOC keyboard/focus management; progress from real storage.  
-**Risks:** Fighting global site shell; mobile Safari chrome.  
+**Likely files:** `chapter-reader-shell.tsx`, `reading-progress-chrome.tsx`, `chapter-toc.tsx`, `explore-sidebar-gate.tsx`, `reader-aware-footer.tsx`, `site-shell.tsx`, `scroll-progress.ts`, E2E/unit tests, this roadmap.
+
+**Acceptance:** No fake page counts; TOC keyboard/focus management; progress from real scroll through chapter content; Explore sidebar + site footer hidden on reader routes; sticky exit + chapter position + scroll %.  
+**Risks:** Fighting global site shell; mobile Safari chrome — mitigated by sticky bar under existing header, footer omit only.  
 **Routes / manifests:** No.
 
 ### Phase F — Local-only reader features

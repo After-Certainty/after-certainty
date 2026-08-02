@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Container } from "@/components/ui/container";
-import { ExploreSidebar } from "@/components/explore/explore-sidebar";
+import { ExploreSidebarGate } from "@/components/explore/explore-sidebar-gate";
 
 type ExploreLayoutProps = {
   children: ReactNode;
@@ -10,7 +10,7 @@ type ExploreLayoutProps = {
 
 /**
  * Atmospheric shell for the semantic atlas — spacious, minimal chrome.
- * Future: graph overlays / topology maps can extend this wrapper without changing routes.
+ * Chapter reader routes hide the Explore sidebar via ExploreSidebarGate (Phase E).
  */
 export function ExploreLayout({ children, hideSidebar = false }: ExploreLayoutProps) {
   return (
@@ -20,7 +20,7 @@ export function ExploreLayout({ children, hideSidebar = false }: ExploreLayoutPr
         aria-hidden
       />
       <Container className="relative">
-        {!hideSidebar ? <ExploreSidebar /> : null}
+        {!hideSidebar ? <ExploreSidebarGate /> : null}
         {children}
       </Container>
     </div>

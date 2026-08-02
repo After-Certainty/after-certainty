@@ -22,6 +22,9 @@
   --books-row-py: 0.625rem;
   --books-cover-list-w: 3.5rem;
   --books-cover-list-h: 5.25rem;
+
+  /* Native reader chrome (redesign Phase E) */
+  --reader-progress-h: 2px;
 }
 
 .light {

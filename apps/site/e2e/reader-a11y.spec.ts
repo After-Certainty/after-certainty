@@ -38,6 +38,8 @@ test.describe("reader accessibility baseline (READ-008)", () => {
         exact: true,
       }),
     ).toBeVisible();
+    await expect(page.getByRole("progressbar", { name: "Chapter scroll progress" })).toBeVisible();
+    await expect(page.getByTestId("reader-exit")).toBeVisible();
 
     const content = page.locator("#chapter-content");
     await expect(content).toBeVisible();

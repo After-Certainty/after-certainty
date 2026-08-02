@@ -11,6 +11,7 @@ import {
 } from "@/components/reading/copy-section-link";
 import { InBookSearch } from "@/components/reading/in-book-search";
 import { ChapterBookmarkControl } from "@/components/reading/reading-bookmarks-panel";
+import { ReadingProgressChrome } from "@/components/reading/reading-progress-chrome";
 import {
   ReadingPreferencesControls,
   ReadingPreferencesRoot,
@@ -35,6 +36,7 @@ export type ChapterReaderShellProps = {
 
 /**
  * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011–016).
+ * Phase E: sticky progress chrome, denser mobile header, focused exit affordance.
  */
 export function ChapterReaderShell({
   book,
@@ -54,6 +56,10 @@ export function ChapterReaderShell({
   const summary = chapter.summary?.trim();
   const centralQuestion = chapter.centralQuestion?.trim();
   const progressEditionId = chapter.editionId || book.id;
+  const chapterIndex = navigation
+    ? navigation.chapters.findIndex((entry) => entry.id === navigation.current.id) + 1
+    : undefined;
+  const chapterCount = navigation?.chapters.length;
 
   const breadcrumbs = [
     { label: "Explore", href: explorePaths.home },
@@ -65,23 +71,29 @@ export function ChapterReaderShell({
   return (
     <ReadingPreferencesRoot
       aria-labelledby="chapter-title"
-      className="relative mx-auto max-w-3xl px-4 py-12 md:py-16"
+      data-chapter-reader=""
+      className="relative mx-auto max-w-3xl px-4 py-6 md:py-12"
     >
       <RecordReadingProgress editionId={progressEditionId} chapterId={chapter.id} />
-      <RecordChapterOpen
-        bookId={book.id}
-        chapterId={chapter.id}
-        editionId={progressEditionId}
-      />
+      <RecordChapterOpen bookId={book.id} chapterId={chapter.id} editionId={progressEditionId} />
       <ManuscriptHeadingCopyLinks />
 
       <a href="#chapter-content" className="reader-skip-link">
         Skip to chapter text
       </a>
 
-      <BreadcrumbTrail items={breadcrumbs} />
+      <ReadingProgressChrome
+        bookTitle={book.title}
+        bookHref={bookHref}
+        chapterIndex={chapterIndex && chapterIndex > 0 ? chapterIndex : undefined}
+        chapterCount={chapterCount}
+      />
 
-      <header className="mb-8 space-y-4 border-b border-border/40 pb-8">
+      <div className="hidden md:block">
+        <BreadcrumbTrail items={breadcrumbs} />
+      </div>
+
+      <header className="mb-6 space-y-3 border-b border-border/40 pb-6 md:mb-8 md:space-y-4 md:pb-8">
         <p className="text-[11px] uppercase tracking-[0.2em] text-muted">
           <Link href={bookHref} className="transition-colors hover:text-accent">
             {book.title}
@@ -98,7 +110,7 @@ export function ChapterReaderShell({
 
         <h1
           id="chapter-title"
-          className="font-display text-3xl leading-tight text-fg md:text-4xl"
+          className="font-display text-2xl leading-tight text-fg sm:text-3xl md:text-4xl"
         >
           {chapter.title}
         </h1>
@@ -129,7 +141,9 @@ export function ChapterReaderShell({
           </p>
         ) : null}
 
-        {summary ? <p className="text-sm leading-relaxed text-muted md:text-base">{summary}</p> : null}
+        {summary ? (
+          <p className="text-sm leading-relaxed text-muted md:text-base">{summary}</p>
+        ) : null}
 
         {navigation ? (
           <ChapterAdjacentNav
@@ -149,7 +163,7 @@ export function ChapterReaderShell({
       <div
         id="chapter-content"
         tabIndex={-1}
-        className="chapter-body prose-reading min-h-[12rem] scroll-mt-24 outline-none"
+        className="chapter-body prose-reading min-h-[12rem] scroll-mt-28 outline-none md:scroll-mt-24"
       >
         {children ?? (
           <div
