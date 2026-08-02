@@ -18,6 +18,7 @@ import {
 } from "@/components/reading/reading-preferences-controls";
 import { RecordChapterOpen } from "@/components/reading/record-chapter-open";
 import { RecordReadingProgress } from "@/components/reading/record-reading-progress";
+import { RestoreReadingScroll } from "@/components/reading/restore-reading-scroll";
 import { ButtonLink } from "@/components/ui/button-link";
 import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
 import { chapterPublicPath, chapterSlugFromRouteKey } from "@/lib/graph/chapters";
@@ -75,6 +76,7 @@ export function ChapterReaderShell({
       className="relative mx-auto px-4 py-6 md:py-12"
     >
       <RecordReadingProgress editionId={progressEditionId} chapterId={chapter.id} />
+      <RestoreReadingScroll editionId={progressEditionId} chapterId={chapter.id} />
       <RecordChapterOpen bookId={book.id} chapterId={chapter.id} editionId={progressEditionId} />
       <ManuscriptHeadingCopyLinks />
 

@@ -1,6 +1,6 @@
 # Books, curated shelves, book detail, and native reader redesign
 
-**Status:** Active — specialized site plan (Phases A–E complete; Phase F in progress)  
+**Status:** Complete through Phase G — specialized site plan (A–G shipped)  
 **Created:** 2026-08-02  
 **Location:** `apps/site/docs/roadmaps/books-reader-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
@@ -129,7 +129,7 @@ Statuses: **matches** · **visual-diff** · **partial** · **missing** · **defe
 | Reader chrome                | Focused (sidebar/footer off) | Focused reader chrome           | —                   | —            | E     | No       | adapt           |
 | Scroll progress UI           | Visible chapter + scroll %   | Visible indicator               | scroll through body | session UI   | E     | No       | implement       |
 | Unified storage helper       | Versioned envelopes          | Safe typed helper               | —                   | localStorage | A→F   | No       | implement       |
-| Favorites                    | Yes (device-only)             | Local favorites                 | book IDs            | localStorage | F     | No       | implement       |
+| Favorites                    | Yes (device-only)            | Local favorites                 | book IDs            | localStorage | F     | No       | implement       |
 | Highlights / notes           | No                           | Local only if quality OK        | anchors             | localStorage | F     | No       | defer           |
 | Personal reading trail       | No                           | —                               | —                   | —            | —     | Yes      | defer           |
 | Account sync                 | No                           | —                               | —                   | —            | —     | Yes      | defer           |
@@ -245,7 +245,7 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** Fighting global site shell; mobile Safari chrome — mitigated by sticky bar under existing header, footer omit only.  
 **Routes / manifests:** No.
 
-### Phase F — Local-only reader features (this PR)
+### Phase F — Local-only reader features (complete — PR #465)
 
 **Objective:** Favorites; richer prefs; migrate onto versioned storage helper. Label as device-only. Defer highlights/notes (no stable selection/anchor pipeline).
 
@@ -255,11 +255,14 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** Storage quota (swallowed); prefs width shifts sticky chrome — covered by unit tests.  
 **Routes / manifests:** No.
 
-### Phase G — Polish and validation
+### Phase G — Polish and validation (this PR)
 
-**Objective:** Reduced motion, scroll restoration, focus management, skeletons, visual regression, mobile Safari checks.
+**Objective:** Reduced motion, scroll restoration, focus management, light skeletons, a11y checklist + E2E depth. Visual regression suite and real Mobile Safari deferred (manual checklist).
 
-**Acceptance:** A11y checklist updated; E2E smoke green.  
+**Likely files:** `lib/a11y/focus-trap.ts`, `in-book-search.tsx`, `chapter-toc.tsx`, `restore-reading-scroll.tsx`, `catalog-book-card.tsx`, catalog/chapter `loading.tsx` (catalog loader scoped under `books/(catalog)/` so shelves/`[slug]` keep real status codes), `reader-a11y-checklist.md`, `e2e/reader-a11y.spec.ts`, this roadmap.
+
+**Acceptance:** In-book search Tab trap + focus restore; soft `scrollY` restore when no hash; motion-reduce on catalog/skip/loaders; checklist updated; E2E reduced-motion + search Escape.  
+**Risks:** Soft scroll restore racing layout — one rAF + hash precedence.  
 **Routes / manifests:** No.
 
 ---

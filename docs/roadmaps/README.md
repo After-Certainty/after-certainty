@@ -31,7 +31,7 @@ This index orients agents and maintainers. It is **not** a backlog.
 
 | Path | Topic | Classification |
 |------|-------|----------------|
-| [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md) | Books index, shelves, detail, native reader UX redesign | **active-specialized-site-plan** (links here for unfinished cross-layer follow-ups; not a second master backlog) |
+| [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md) | Books index, shelves, detail, native reader UX redesign | **complete-specialized-site-plan** (A–G; deferred highlights / visual-regression / Safari manual checks) |
 
 ### Completed historical roadmaps / migration records
 

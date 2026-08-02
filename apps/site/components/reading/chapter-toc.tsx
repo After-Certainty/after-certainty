@@ -4,10 +4,8 @@ import Link from "next/link";
 import { useCallback, useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
+import { trapFocusKeydown } from "@/lib/a11y/focus-trap";
 import type { ChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
-
-const FOCUSABLE_SELECTOR =
-  'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
 
 export type ChapterTocListProps = {
   navigation: ChapterReadingNavigation;
@@ -152,27 +150,7 @@ function ChapterTocDrawer({ navigation }: ChapterTocDrawerProps) {
         setOpen(false);
         return;
       }
-      if (e.key !== "Tab") return;
-
-      const panel = panelRef.current;
-      if (!panel) return;
-      const focusable = Array.from(panel.querySelectorAll<HTMLElement>(FOCUSABLE_SELECTOR)).filter(
-        (el) => !el.hasAttribute("disabled") && el.getAttribute("aria-hidden") !== "true",
-      );
-      if (focusable.length === 0) {
-        e.preventDefault();
-        return;
-      }
-      const first = focusable[0]!;
-      const last = focusable[focusable.length - 1]!;
-      const active = document.activeElement as HTMLElement | null;
-      if (e.shiftKey && active === first) {
-        e.preventDefault();
-        last.focus();
-      } else if (!e.shiftKey && active === last) {
-        e.preventDefault();
-        first.focus();
-      }
+      trapFocusKeydown(e, panelRef.current);
     };
 
     window.addEventListener("keydown", onKey);

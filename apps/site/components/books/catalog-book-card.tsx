@@ -53,12 +53,12 @@ function ListCover({ book }: { book: CatalogBookView }) {
           src={src}
           alt=""
           fill
-          className="object-contain opacity-95 transition-opacity duration-500 group-hover:opacity-100"
+          className="object-contain opacity-95 transition-opacity duration-500 motion-reduce:transition-none motion-reduce:duration-0 group-hover:opacity-100"
           sizes="56px"
         />
       ) : (
         <div
-          className="absolute inset-0 bg-gradient-to-br from-accent/[0.12] via-bg-elevated to-bg transition-opacity duration-500 group-hover:from-accent/[0.16]"
+          className="absolute inset-0 bg-gradient-to-br from-accent/[0.12] via-bg-elevated to-bg transition-opacity duration-500 motion-reduce:transition-none motion-reduce:duration-0 group-hover:from-accent/[0.16]"
           aria-hidden
         />
       )}
@@ -75,12 +75,12 @@ function CompactCover({ book }: { book: CatalogBookView }) {
           src={src}
           alt=""
           fill
-          className="object-contain opacity-95 transition-opacity duration-500 group-hover:opacity-100"
+          className="object-contain opacity-95 transition-opacity duration-500 motion-reduce:transition-none motion-reduce:duration-0 group-hover:opacity-100"
           sizes="80px"
         />
       ) : (
         <div
-          className="absolute inset-0 bg-gradient-to-br from-accent/[0.12] via-bg-elevated to-bg transition-opacity duration-500 group-hover:from-accent/[0.16]"
+          className="absolute inset-0 bg-gradient-to-br from-accent/[0.12] via-bg-elevated to-bg transition-opacity duration-500 motion-reduce:transition-none motion-reduce:duration-0 group-hover:from-accent/[0.16]"
           aria-hidden
         />
       )}
@@ -96,12 +96,12 @@ function DetailedCover({ book }: { book: CatalogBookView }) {
           src={book.coverImage}
           alt=""
           fill
-          className="object-contain opacity-95 transition-opacity duration-500 group-hover:opacity-100"
+          className="object-contain opacity-95 transition-opacity duration-500 motion-reduce:transition-none motion-reduce:duration-0 group-hover:opacity-100"
           sizes="(max-width:768px) 100vw, (max-width:1280px) 50vw, 33vw"
         />
       ) : (
         <div
-          className="absolute inset-0 bg-gradient-to-br from-accent/[0.12] via-bg-elevated to-bg transition-opacity duration-500 group-hover:from-accent/[0.16]"
+          className="absolute inset-0 bg-gradient-to-br from-accent/[0.12] via-bg-elevated to-bg transition-opacity duration-500 motion-reduce:transition-none motion-reduce:duration-0 group-hover:from-accent/[0.16]"
           aria-hidden
         />
       )}

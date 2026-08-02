@@ -87,4 +87,24 @@ test.describe("reader accessibility baseline (READ-008)", () => {
     const decoration = await firstRef.evaluate((el) => getComputedStyle(el).textDecorationLine);
     expect(decoration).toContain("underline");
   });
+
+  test("prefers-reduced-motion disables smooth scrolling", async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    const behavior = await page.evaluate(
+      () => getComputedStyle(document.documentElement).scrollBehavior,
+    );
+    expect(behavior).toBe("auto");
+  });
+
+  test("in-book search Escape restores focus to the trigger", async ({ page }) => {
+    await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    const trigger = page.getByTestId("in-book-search-open");
+    await expect(trigger).toBeVisible();
+    await trigger.click();
+    await expect(page.getByTestId("in-book-search-dialog")).toBeVisible();
+    await page.keyboard.press("Escape");
+    await expect(page.getByTestId("in-book-search-dialog")).toHaveCount(0);
+    await expect(trigger).toBeFocused();
+  });
 });
