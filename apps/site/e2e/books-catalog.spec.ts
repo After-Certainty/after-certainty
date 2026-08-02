@@ -43,7 +43,10 @@ test.describe("Books catalog", () => {
     // Upstream contentType: Boundary Conditions, The Relay, and Velorum.
     // Prefer the live-region summary — Filter & sort also shows a decorative count.
     await expect(
-      page.locator("#main").getByRole("paragraph").filter({ hasText: /^3 books$/ }),
+      page
+        .locator("#main")
+        .getByRole("paragraph")
+        .filter({ hasText: /^3 books$/ }),
     ).toBeVisible();
     await expect(
       page.locator("#main").getByRole("heading", { name: "The Relay", level: 3 }),
@@ -51,6 +54,33 @@ test.describe("Books catalog", () => {
     await expect(
       page.locator("#main").getByRole("heading", { name: "Boundary Conditions", level: 3 }),
     ).toBeVisible();
+  });
+
+  test("dedicated shelf page lists ordered books and breadcrumbs", async ({ page }) => {
+    await page.goto("/explore/books/shelves/start-here");
+    await expect(page.getByRole("heading", { name: "Start Here", level: 1 })).toBeVisible();
+    await expect(page.getByText("Curated shelf")).toBeVisible();
+    await expect(page.getByRole("navigation", { name: "Breadcrumb" })).toContainText("Books");
+    await expect(
+      page.locator("#main").getByRole("heading", { name: /Curiosity Before Certainty/i }),
+    ).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Other shelves", level: 2 })).toBeVisible();
+  });
+
+  test("View shelf from index navigates to dedicated shelf route", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/explore/books");
+    await page
+      .getByRole("link", { name: /View shelf|View all \d+ books/i })
+      .first()
+      .click();
+    await expect(page).toHaveURL(/\/explore\/books\/shelves\//);
+    await expect(page.getByText("Curated shelf")).toBeVisible();
+  });
+
+  test("unknown shelf slug returns 404", async ({ page }) => {
+    const response = await page.goto("/explore/books/shelves/not-a-real-shelf");
+    expect(response?.status()).toBe(404);
   });
 
   test("poetry type filter shows Observer Patterns and survives reload", async ({ page }) => {

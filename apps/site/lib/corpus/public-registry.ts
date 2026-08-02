@@ -15,7 +15,7 @@ import {
   indexChaptersByEditionId,
   indexPartsByEditionId,
 } from "@/lib/graph/chapters";
-import { explorePaths } from "@/lib/graph/explorePaths";
+import { exploreBooksShelfHref, explorePaths } from "@/lib/graph/explorePaths";
 import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
 import { resolveThinkers } from "@/lib/graph/thinkers";
 import { getPublishedQuestions } from "@/lib/questions/loadQuestions";
@@ -200,9 +200,9 @@ export function buildPublicCorpusRegistry(graph: SemanticGraph): PublicCorpusReg
       title: shelf.title,
       publicStatus: "public",
       visibility: "listed",
-      canonicalUrl: `${explorePaths.books}?shelf=${encodeURIComponent(shelf.slug)}`,
+      canonicalUrl: exploreBooksShelfHref(shelf.slug),
       searchEligible: false,
-      sitemapEligible: false,
+      sitemapEligible: true,
     };
     byId.set(record.id, record);
     shelves.push(record);
@@ -333,6 +333,7 @@ export function buildPublicCorpusRegistry(graph: SemanticGraph): PublicCorpusReg
     ...books.filter((b) => b.sitemapEligible).map((b) => b.canonicalUrl),
     ...questions.map((q) => q.canonicalUrl),
     ...trails.map((t) => t.canonicalUrl),
+    ...shelves.filter((s) => s.sitemapEligible).map((s) => s.canonicalUrl),
     ...concepts.map((c) => c.canonicalUrl),
     ...patterns.map((p) => p.canonicalUrl),
     ...situations.map((s) => s.canonicalUrl),

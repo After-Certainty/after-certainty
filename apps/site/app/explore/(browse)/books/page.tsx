@@ -58,7 +58,6 @@ export default async function ExploreBooksIndexPage({ searchParams }: BooksPageP
               shelf={startHereSection.shelf}
               books={startHereSection.books}
               totalCount={startHereSection.totalCount}
-              showViewAll={false}
               defaultOpen
             />
           ) : null}

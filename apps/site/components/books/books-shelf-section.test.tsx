@@ -87,4 +87,22 @@ describe("BooksShelfSection", () => {
     );
     expect(container.querySelector('[data-books-layout="list"]')).toBeInTheDocument();
   });
+
+  it("links View all / View shelf to the dedicated shelf route", () => {
+    render(
+      <BooksShelfSection shelf={shelf} books={[book]} totalCount={4} defaultOpen showViewAll />,
+    );
+    const link = screen.getByRole("link", { name: /View all 4 books/i });
+    expect(link).toHaveAttribute("href", "/explore/books/shelves/start-here");
+  });
+
+  it("links View shelf when the preview already includes every book", () => {
+    render(
+      <BooksShelfSection shelf={shelf} books={[book]} totalCount={1} defaultOpen showViewAll />,
+    );
+    expect(screen.getByRole("link", { name: /View shelf/i })).toHaveAttribute(
+      "href",
+      "/explore/books/shelves/start-here",
+    );
+  });
 });
