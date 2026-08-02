@@ -4,21 +4,21 @@ import { describe, expect, it, vi } from "vitest";
 import { ReaderChapterLink } from "@/components/reading/reader-chapter-link";
 
 const trackEvent = vi.fn();
-const cancelSpokenContent = vi.fn();
+const navigateToChapter = vi.fn();
 
 vi.mock("@/lib/analytics/track", () => ({
   trackEvent: (...args: unknown[]) => trackEvent(...args),
 }));
 
 vi.mock("@/lib/reading/navigate-chapter", () => ({
-  cancelSpokenContent: (...args: unknown[]) => cancelSpokenContent(...args),
-  navigateToChapter: vi.fn(),
+  cancelSpokenContent: vi.fn(),
+  navigateToChapter: (...args: unknown[]) => navigateToChapter(...args),
 }));
 
 describe("ReaderChapterLink", () => {
-  it("renders a plain hard-nav anchor and cancels speech on click", () => {
+  it("forces hard navigation via navigateToChapter on primary click", () => {
     trackEvent.mockClear();
-    cancelSpokenContent.mockClear();
+    navigateToChapter.mockClear();
 
     render(
       <ReaderChapterLink
@@ -37,6 +37,6 @@ describe("ReaderChapterLink", () => {
     expect(link).toHaveAttribute("data-reader-hard-nav", "");
     fireEvent.click(link);
     expect(trackEvent).toHaveBeenCalledWith("next_chapter", { book_id: "book-1" });
-    expect(cancelSpokenContent).toHaveBeenCalled();
+    expect(navigateToChapter).toHaveBeenCalledWith("/explore/books/demo/chapters/two");
   });
 });

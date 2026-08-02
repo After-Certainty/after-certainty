@@ -6,6 +6,7 @@ import {
   CopySectionLinkControl,
   ManuscriptHeadingCopyLinks,
 } from "@/components/reading/copy-section-link";
+import { HardNavManuscriptLinks } from "@/components/reading/hard-nav-manuscript-links";
 import { ReaderChrome } from "@/components/reading/reader-chrome";
 import { ReadingPreferencesRoot } from "@/components/reading/reading-preferences-controls";
 import { RecordChapterOpen } from "@/components/reading/record-chapter-open";
@@ -59,6 +60,7 @@ export function ChapterReaderShell({
       className="relative mx-auto px-4 pb-10 pt-0 md:pb-16"
     >
       <ResetSpokenContent chapterId={chapter.id} chapterTitle={chapter.title} />
+      <HardNavManuscriptLinks />
       <RecordReadingProgress editionId={progressEditionId} chapterId={chapter.id} />
       <RestoreReadingScroll editionId={progressEditionId} chapterId={chapter.id} />
       <RecordChapterOpen bookId={book.id} chapterId={chapter.id} editionId={progressEditionId} />

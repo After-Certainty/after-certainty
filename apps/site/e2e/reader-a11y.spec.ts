@@ -24,7 +24,8 @@ test.describe("reader accessibility baseline (READ-008)", () => {
     const article = page.getByRole("article");
     await expect(article).toBeVisible();
 
-    const title = page.locator("#chapter-title");
+    const title = page.locator("article[data-chapter-reader] #chapter-title");
+    await expect(title).toHaveCount(1);
     await expect(title).toBeVisible();
     await expect(title).toHaveAttribute("id", "chapter-title");
 

@@ -4,7 +4,7 @@ import type { ComponentPropsWithoutRef, MouseEvent } from "react";
 
 import type { LinkAnalytics } from "@/components/analytics/tracked-link";
 import { trackEvent } from "@/lib/analytics/track";
-import { cancelSpokenContent } from "@/lib/reading/navigate-chapter";
+import { navigateToChapter } from "@/lib/reading/navigate-chapter";
 
 type ReaderChapterLinkProps = ComponentPropsWithoutRef<"a"> & {
   href: string;
@@ -12,9 +12,9 @@ type ReaderChapterLinkProps = ComponentPropsWithoutRef<"a"> & {
 };
 
 /**
- * Chapter-to-chapter link that forces a full document load (plain anchor).
- * Avoids Next.js soft navigation so Mobile Safari Listen to Page / Speak Screen
- * picks up the new chapter instead of staying on the previous one.
+ * Chapter-to-chapter link that forces a full document load.
+ * Uses preventDefault + location.assign so Next.js cannot soft-navigate the
+ * click (soft nav leaves Speak Screen / Listen to Page stuck on the prior chapter).
  */
 export function ReaderChapterLink({
   href,
@@ -44,9 +44,10 @@ export function ReaderChapterLink({
         if (analytics) {
           trackEvent(analytics.event, analytics.params);
         }
-        cancelSpokenContent();
         onClick?.(event);
-        // Do not preventDefault — allow the browser to perform a full navigation.
+        if (event.defaultPrevented) return;
+        event.preventDefault();
+        navigateToChapter(href);
       }}
     >
       {children}
