@@ -15,18 +15,11 @@ import {
 import { createPortal } from "react-dom";
 
 import { useSearchIndex } from "@/components/search/use-search-index";
-import {
-  trackSearchNoResults,
-  trackSearchQuery,
-  trackSearchSelect,
-} from "@/lib/analytics/track";
+import { trapFocusKeydown } from "@/lib/a11y/focus-trap";
+import { trackSearchNoResults, trackSearchQuery, trackSearchSelect } from "@/lib/analytics/track";
 import { searchWithinBook, type SearchHit } from "@/lib/search/query";
 import { snippetSegments } from "@/lib/search/snippets";
-import {
-  queryLengthBucket,
-  rankBucket,
-  resultCountBucket,
-} from "@/lib/search/urlState";
+import { queryLengthBucket, rankBucket, resultCountBucket } from "@/lib/search/urlState";
 
 const RESULT_LIMIT = 12;
 
@@ -94,15 +87,11 @@ type InBookSearchDialogProps = {
   onClose: () => void;
 };
 
-function InBookSearchDialog({
-  panelId,
-  editionId,
-  bookTitle,
-  onClose,
-}: InBookSearchDialogProps) {
+function InBookSearchDialog({ panelId, editionId, bookTitle, onClose }: InBookSearchDialogProps) {
   const router = useRouter();
   const indexState = useSearchIndex({ enabled: true });
   const inputRef = useRef<HTMLInputElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
   const inputId = useId();
   const listId = useId();
   const statusId = useId();
@@ -122,7 +111,12 @@ function InBookSearchDialog({
 
   useEffect(() => {
     const onKey = (e: globalThis.KeyboardEvent) => {
-      if (e.key === "Escape") onClose();
+      if (e.key === "Escape") {
+        e.preventDefault();
+        onClose();
+        return;
+      }
+      trapFocusKeydown(e, panelRef.current);
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
@@ -213,6 +207,7 @@ function InBookSearchDialog({
         onClick={onClose}
       />
       <div
+        ref={panelRef}
         id={panelId}
         role="dialog"
         aria-modal="true"

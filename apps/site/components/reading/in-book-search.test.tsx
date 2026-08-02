@@ -35,8 +35,7 @@ function payload(): SearchIndexPayload {
         canonicalUrl: "/explore/books/after-certainty/chapters/chapter-1",
         visibility: "listed",
         contextLabel: "Chapter in After Certainty",
-        searchText:
-          "The End of Correctness\nWhen explanation stops being enough.\nAfter Certainty",
+        searchText: "The End of Correctness\nWhen explanation stops being enough.\nAfter Certainty",
         aliases: [],
         bookIds: ["book-after-certainty"],
         boostWeight: 1,
@@ -106,9 +105,7 @@ describe("InBookSearch", () => {
 
   it("opens a dialog and returns only chapters for the edition", async () => {
     const user = userEvent.setup();
-    render(
-      <InBookSearch editionId="book-after-certainty" bookTitle="After Certainty" />,
-    );
+    render(<InBookSearch editionId="book-after-certainty" bookTitle="After Certainty" />);
 
     await user.click(screen.getByTestId("in-book-search-open"));
     const dialog = await screen.findByTestId("in-book-search-dialog");
@@ -129,9 +126,7 @@ describe("InBookSearch", () => {
 
   it("shows a clear empty state when nothing matches", async () => {
     const user = userEvent.setup();
-    render(
-      <InBookSearch editionId="book-after-certainty" bookTitle="After Certainty" />,
-    );
+    render(<InBookSearch editionId="book-after-certainty" bookTitle="After Certainty" />);
 
     await user.click(screen.getByTestId("in-book-search-open"));
     const dialog = await screen.findByTestId("in-book-search-dialog");
@@ -140,5 +135,19 @@ describe("InBookSearch", () => {
     await waitFor(() => {
       expect(within(dialog).getByText(/No chapters match in this book/i)).toBeInTheDocument();
     });
+  });
+
+  it("restores focus to the trigger after Escape", async () => {
+    const user = userEvent.setup();
+    render(<InBookSearch editionId="book-after-certainty" bookTitle="After Certainty" />);
+
+    const trigger = screen.getByTestId("in-book-search-open");
+    await user.click(trigger);
+    await screen.findByTestId("in-book-search-dialog");
+    await user.keyboard("{Escape}");
+    await waitFor(() => {
+      expect(screen.queryByTestId("in-book-search-dialog")).not.toBeInTheDocument();
+    });
+    expect(trigger).toHaveFocus();
   });
 });

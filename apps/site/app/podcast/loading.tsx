@@ -2,7 +2,7 @@ import { Container } from "@/components/ui/container";
 
 export default function PodcastLoading() {
   return (
-    <div className="animate-pulse">
+    <div className="animate-pulse motion-reduce:animate-none">
       <div className="min-h-[min(52vh,560px)] border-b border-border/40 bg-bg-elevated/20" />
       <Container className="max-w-4xl py-16 md:py-24">
         <div className="h-4 w-24 rounded bg-border/40" />

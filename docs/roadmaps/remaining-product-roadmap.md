@@ -87,7 +87,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 
 ### Specialized site UX (tracked outside this master backlog)
 
-Books index / curated shelves / book detail / native reader redesign is an **active specialized site plan** — not a second master backlog. See [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md). Promote unfinished cross-layer follow-ups here only when they outgrow site-only UX work.
+Books index / curated shelves / book detail / native reader redesign is a **completed specialized site plan** (Phases A–G). See [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md). Remaining deferrals (highlights/notes, visual-regression suite, Mobile Safari manual checks) promote here only if they outgrow site-only UX work.
 
 ### Later / revisit when triggered
 
