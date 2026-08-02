@@ -10,15 +10,16 @@ Playwright (`e2e/reader-a11y.spec.ts`, `e2e/reader-smoke.spec.ts`).
 
 - [x] Page main landmark via site shell (`#main`)
 - [x] Chapter chrome is an `article` labelled by the chapter `h1` (`aria-labelledby`)
-- [x] In-reader TOC is a `nav` with an accessible name
+- [x] In-reader TOC is a `nav` with an accessible name (inside Radix controls drawer)
 - [x] Prev/next controls are a `nav` with an accessible name
 - [x] Manuscript body target `#chapter-content` is focusable (`tabindex="-1"`) for skip
 - [x] Sticky reading progress chrome exposes `role="progressbar"` (chapter scroll %)
+- [x] Standard site header/footer are omitted on reader routes; restored on book detail after exit
 
 ## Skip links
 
 - [x] Site “Skip to content” → `#main`
-- [x] In-reader “Skip to chapter text” → `#chapter-content` (past breadcrumbs/header/TOC)
+- [x] In-reader “Skip to chapter text” → `#chapter-content` (past compact toolbar)
 
 ## Footnotes
 
@@ -32,8 +33,8 @@ Playwright (`e2e/reader-a11y.spec.ts`, `e2e/reader-smoke.spec.ts`).
 - [x] Interactive controls are reachable in a sensible order (skip → chrome → TOC → body → adjacent)
 - [x] `scroll-behavior: smooth` is disabled when `prefers-reduced-motion: reduce`
 - [x] Reader body type uses rem so browser zoom scales cleanly
-- [x] TOC mobile drawer: Escape closes; Tab cycles inside dialog; focus returns to Contents
-- [x] In-book search dialog: Escape closes; Tab cycles inside dialog; focus returns to trigger
+- [x] Reader controls drawer (Radix Dialog): Escape closes; focus trap; restore focus to opener
+- [x] In-book search dialog (Settings tab): Escape closes; Tab cycles inside dialog; focus returns to trigger
 - [x] Progress bar width transition respects `motion-reduce:transition-none`
 - [x] Catalog cover hover fades / site skip-link transform respect reduced motion
 

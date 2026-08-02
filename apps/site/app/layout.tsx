@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -11,6 +11,12 @@ import { SiteShell } from "@/components/layout/site-shell";
 import { buildConsentDefaultsInlineScript } from "@/lib/consent/consent-defaults-script";
 import { defaultMetadata } from "@/lib/metadata";
 import { texturePreloadHrefs } from "@/lib/textures";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
 
 const display = Cormorant_Garamond({
   variable: "--font-display-serif",
@@ -32,7 +38,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable} h-full`} suppressHydrationWarning>
+    <html
+      lang="en"
+      className={`${display.variable} ${sans.variable} h-full`}
+      suppressHydrationWarning
+    >
       <head>
         {texturePreloadHrefs.map((href) => (
           <link key={href} rel="preload" href={href} as="image" />

@@ -13,14 +13,22 @@ export type ChapterTocListProps = {
   onNavigate?: () => void;
   /** Compact spacing for drawer panels. */
   compact?: boolean;
+  /** Show 1-based chapter numbers (no fabricated page counts). */
+  showNumbers?: boolean;
 };
 
 /**
  * Shared part/chapter TOC list used by inline and drawer surfaces (READ-004/015).
  */
-export function ChapterTocList({ navigation, onNavigate, compact = false }: ChapterTocListProps) {
+export function ChapterTocList({
+  navigation,
+  onNavigate,
+  compact = false,
+  showNumbers = false,
+}: ChapterTocListProps) {
   const { parts, current, chapters } = navigation;
   const longBook = chapters.length > 24 || parts.length > 4;
+  const indexById = new Map(chapters.map((chapter, index) => [chapter.id, index + 1]));
 
   return (
     <div className={compact ? "space-y-3" : "space-y-4"}>
@@ -42,19 +50,30 @@ export function ChapterTocList({ navigation, onNavigate, compact = false }: Chap
             <ol className="mt-3 space-y-2 border-l border-border/30 pl-4">
               {part.chapters.map((chapter) => {
                 const isCurrent = chapter.id === current.id;
+                const number = indexById.get(chapter.id);
+                const label = (
+                  <span className="flex items-baseline gap-3">
+                    {showNumbers && typeof number === "number" ? (
+                      <span className="w-5 shrink-0 tabular-nums text-accent" aria-hidden>
+                        {number}
+                      </span>
+                    ) : null}
+                    <span className="min-w-0">{chapter.title}</span>
+                  </span>
+                );
                 return (
                   <li key={chapter.id}>
                     {isCurrent ? (
                       <span aria-current="page" className="block text-sm leading-snug text-accent">
-                        {chapter.title}
+                        {label}
                       </span>
                     ) : (
                       <Link
                         href={chapter.href}
-                        className="block text-sm leading-snug text-muted transition-colors hover:text-accent"
+                        className="block text-sm leading-snug text-muted transition-colors hover:text-fg"
                         onClick={onNavigate}
                       >
-                        {chapter.title}
+                        {label}
                       </Link>
                     )}
                   </li>

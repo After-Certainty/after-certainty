@@ -23,7 +23,11 @@ function subscribeNoop() {
 
 /** True after hydration — localStorage is only meaningful on the client. */
 function useIsClient(): boolean {
-  return useSyncExternalStore(subscribeNoop, () => true, () => false);
+  return useSyncExternalStore(
+    subscribeNoop,
+    () => true,
+    () => false,
+  );
 }
 
 type ContinueReadingForBookProps = {

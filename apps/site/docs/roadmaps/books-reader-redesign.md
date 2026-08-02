@@ -1,6 +1,6 @@
 # Books, curated shelves, book detail, and native reader redesign
 
-**Status:** Complete through Phase G — specialized site plan (A–G shipped)  
+**Status:** Complete through Phase G; **Phase H** dedicated reader shell + Radix drawers in progress/shipped  
 **Created:** 2026-08-02  
 **Location:** `apps/site/docs/roadmaps/books-reader-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
@@ -20,7 +20,7 @@ The public site already ships a full books stack under `/explore/books`. This re
 | Books index   | `/explore/books`                               | Hero, featured shelf accordion sections (`BooksShelfSection`), complete catalog with URL filters (`BooksCatalogControls`) |
 | Shelves       | `/explore/books/shelves/[slug]` + `?shelf=`    | Corpus shelves in `semantic/shelves/*.yml`; dedicated routes (Phase C); catalog filter retained                           |
 | Book detail   | `/explore/books/[slug]`                        | Overview/legacy layouts; Phase D densifies hero, real metadata table, shelf membership + adjacency                        |
-| Native reader | `/explore/books/[slug]/chapters/[chapterSlug]` | Chapter shell + Phase E sticky progress chrome; Explore sidebar/footer hidden on reader routes                            |
+| Native reader | `/explore/books/[slug]/chapters/[chapterSlug]` | Dedicated `(reader)` layout; compact sticky toolbar; Radix bottom drawer; site header/footer omitted on reader routes     |
 
 **Data:** Books from `books/*/book.yml` → semantic manifest. Shelf membership is shelf-side only (never on `book.yml`). Reading trails are curated discovery content, not personal lists.
 
@@ -100,15 +100,15 @@ Statuses: **matches** · **visual-diff** · **partial** · **missing** · **defe
 
 ### 4.4 Native reader
 
-| Feature                                | Status                | Notes                                                          |
-| -------------------------------------- | --------------------- | -------------------------------------------------------------- |
-| Chapter reading + TOC + prev/next      | matches / visual-diff | Focused chrome; global header remains; footer hidden on reader |
-| Local progress / bookmarks / text size | matches               | Separate localStorage modules                                  |
-| Scroll % progress bar                  | matches               | Sticky chapter + scroll % chrome (Phase E)                     |
-| Fake page counts / pages left          | not-recommended       | No reliable pagination model                                   |
-| Line-height / width / theme prefs      | partial               | Size + line-height + width (Phase F); site theme stays global  |
-| Highlights / notes                     | missing               | Deferred — no stable selection/anchor pipeline yet             |
-| Synced / account features              | deferred-backend      | Documented deferrals                                           |
+| Feature                                | Status                | Notes                                                         |
+| -------------------------------------- | --------------------- | ------------------------------------------------------------- |
+| Chapter reading + TOC + prev/next      | matches / visual-diff | Dedicated shell; no site header/footer; Radix TOC drawer      |
+| Local progress / bookmarks / text size | matches               | Separate localStorage modules                                 |
+| Scroll % progress bar                  | matches               | Compact sticky toolbar (chapter index + scroll %)             |
+| Fake page counts / pages left          | not-recommended       | No reliable pagination model; TOC shows chapter numbers only  |
+| Line-height / width / theme prefs      | matches               | Drawer Text controls + Theme tab via next-themes (site theme) |
+| Highlights / notes                     | missing               | Deferred — no stable selection/anchor pipeline yet            |
+| Synced / account features              | deferred-backend      | Documented deferrals                                          |
 
 ---
 
@@ -255,7 +255,7 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** Storage quota (swallowed); prefs width shifts sticky chrome — covered by unit tests.  
 **Routes / manifests:** No.
 
-### Phase G — Polish and validation (this PR)
+### Phase G — Polish and validation (complete)
 
 **Objective:** Reduced motion, scroll restoration, focus management, light skeletons, a11y checklist + E2E depth. Visual regression suite and real Mobile Safari deferred (manual checklist).
 
@@ -264,6 +264,18 @@ Device-scoped features (label clearly; never imply sync):
 **Acceptance:** In-book search Tab trap + focus restore; soft `scrollY` restore when no hash; motion-reduce on catalog/skip/loaders; checklist updated; E2E reduced-motion + search Escape.  
 **Risks:** Soft scroll restore racing layout — one rAF + hash precedence.  
 **Routes / manifests:** No.
+
+### Phase H — Dedicated reader shell + Radix drawers (this PR)
+
+**Objective:** Match dedicated-reader mockup interaction: no standard site header/footer; compact sticky toolbar; Radix Dialog bottom drawer for Text/Contents/Theme/Settings; live prefs; end-of-chapter cleanup (downloads off reader; quieter copy-link).
+
+**Likely files:** `app/explore/(reader)/**`, `site-shell.tsx`, `reader-aware-header.tsx`, `reader-drawer.tsx`, `reader-toolbar.tsx`, `reader-controls-drawer.tsx`, `reader-chrome.tsx`, `chapter-reader-shell.tsx`, `globals.css`, E2E/unit tests, this roadmap.
+
+**Acceptance:** Reader omits site chrome; book detail restores it; exit → book detail; position preserved locally; Radix drawer focus/Escape; contents from real chapters; no fake page counts; downloads not end-of-chapter primary; safe-area + `viewport-fit=cover`; build green.  
+**Risks:** Pathname-based header omit remains (SiteShell is root-level); mitigated by matching footer gate + `(reader)` layout boundary for Explore chrome.  
+**Routes / manifests:** Same public URLs; route group move only.
+
+**Follow-ups:** Optional desktop side panel for contents; swipe-to-dismiss; reader-scoped theme distinct from site theme; highlights/notes.
 
 ---
 
