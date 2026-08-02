@@ -1,22 +1,24 @@
-import Link from "next/link";
 import type { Situation } from "@/types/semanticGraph";
-import { ExploreCard } from "@/components/explore/explore-card";
+import {
+  ExploreCatalogCard,
+  type ExploreCatalogCardLayout,
+} from "@/components/explore/explore-catalog-card";
 import { explorePaths } from "@/lib/graph/explorePaths";
 
 type SituationCardProps = {
   situation: Situation;
+  layout?: ExploreCatalogCardLayout;
 };
 
-export function SituationCard({ situation }: SituationCardProps) {
+export function SituationCard({ situation, layout = "responsive" }: SituationCardProps) {
   return (
-    <ExploreCard>
-      <Link href={`${explorePaths.situations}/${situation.slug}`} className="block space-y-2">
-        <p className="text-[10px] uppercase tracking-[0.28em] text-accent">Situation</p>
-        <h3 className="font-display text-xl font-medium tracking-tight text-fg transition-colors group-hover:text-accent">
-          {situation.title}
-        </h3>
-        <p className="line-clamp-3 text-sm leading-relaxed text-muted">{situation.summary}</p>
-      </Link>
-    </ExploreCard>
+    <ExploreCatalogCard
+      href={`${explorePaths.situations}/${situation.slug}`}
+      eyebrow="Situation"
+      title={situation.title}
+      blurb={situation.summary}
+      ctaLabel="View Situation →"
+      layout={layout}
+    />
   );
 }

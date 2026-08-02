@@ -1,33 +1,34 @@
-import Link from "next/link";
 import type { Pattern } from "@/types/semanticGraph";
-import { ExploreCard } from "@/components/explore/explore-card";
+import {
+  ExploreCatalogCard,
+  type ExploreCatalogCardLayout,
+} from "@/components/explore/explore-catalog-card";
 import { explorePaths } from "@/lib/graph/explorePaths";
 
 type PatternCardProps = {
   pattern: Pattern;
+  layout?: ExploreCatalogCardLayout;
 };
 
-export function PatternCard({ pattern }: PatternCardProps) {
-  const eyebrow =
-    pattern.patternRole === "master"
-      ? "Master pattern"
-      : pattern.patternRole === "supporting"
-        ? pattern.realityDynamic === "obscuring"
-          ? "Supporting · obscuring"
-          : pattern.realityDynamic === "corrective"
-            ? "Supporting · corrective"
-            : "Supporting pattern"
-        : "Pattern";
+function patternEyebrow(pattern: Pattern): string {
+  if (pattern.patternRole === "master") return "Master pattern";
+  if (pattern.patternRole === "supporting") {
+    if (pattern.realityDynamic === "obscuring") return "Supporting · obscuring";
+    if (pattern.realityDynamic === "corrective") return "Supporting · corrective";
+    return "Supporting pattern";
+  }
+  return "Pattern";
+}
 
+export function PatternCard({ pattern, layout = "responsive" }: PatternCardProps) {
   return (
-    <ExploreCard>
-      <Link href={`${explorePaths.patterns}/${pattern.slug}`} className="block space-y-2">
-        <p className="text-[10px] uppercase tracking-[0.28em] text-accent">{eyebrow}</p>
-        <h3 className="font-display text-xl font-medium tracking-tight text-fg transition-colors group-hover:text-accent">
-          {pattern.title}
-        </h3>
-        <p className="line-clamp-3 text-sm leading-relaxed text-muted">{pattern.summary}</p>
-      </Link>
-    </ExploreCard>
+    <ExploreCatalogCard
+      href={`${explorePaths.patterns}/${pattern.slug}`}
+      eyebrow={patternEyebrow(pattern)}
+      title={pattern.title}
+      blurb={pattern.summary}
+      ctaLabel="View Pattern →"
+      layout={layout}
+    />
   );
 }

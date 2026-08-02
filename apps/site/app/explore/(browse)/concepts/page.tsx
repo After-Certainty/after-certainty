@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { ConceptCard } from "@/components/explore/concept-card";
+import { exploreIndexCatalogGridClassName } from "@/components/explore/explore-catalog-card";
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { ExploreIndexPagination } from "@/components/explore/explore-index-pagination";
 import { ExploreIndexSearch } from "@/components/explore/explore-index-search";
@@ -80,7 +81,7 @@ export default async function ExploreConceptsIndexPage({
         headingId="explore-concepts-heading"
         lede="Each entry is a coordinate in the atlas — open one to move along relationships, patterns, books, and thinkers."
       />
-      <Section atmosphere="none" className="border-t border-border/25 py-14 md:py-20">
+      <Section atmosphere="none" className="border-t border-border/25 py-10 md:py-20">
         {concepts.length === 0 ? (
           <p className="text-muted">No concepts are published in the manifest yet.</p>
         ) : (
@@ -99,7 +100,7 @@ export default async function ExploreConceptsIndexPage({
             {pageConcepts.length === 0 ? (
               <p className="mt-8 text-muted">No concepts match that search.</p>
             ) : (
-              <div className="mt-8 grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              <div className={`mt-6 md:mt-8 ${exploreIndexCatalogGridClassName}`}>
                 {pageConcepts.map((c) => (
                   <ConceptCard key={c.id} concept={c} />
                 ))}

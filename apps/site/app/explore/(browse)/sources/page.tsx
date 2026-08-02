@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { exploreIndexCatalogGridClassName } from "@/components/explore/explore-catalog-card";
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { ExploreIndexPagination } from "@/components/explore/explore-index-pagination";
 import { ExploreIndexSearch } from "@/components/explore/explore-index-search";
@@ -95,7 +96,7 @@ export default async function ExploreSourcesIndexPage({
         headingId="explore-sources-heading"
         lede="Books, articles, reports, and other research works — bibliographic entries linked across the graph."
       />
-      <Section atmosphere="transition" className="border-t border-border/25 py-14 md:py-20">
+      <Section atmosphere="transition" className="border-t border-border/25 py-10 md:py-20">
         {sources.length === 0 ? (
           <p className="text-muted">No sources are published in the manifest yet.</p>
         ) : (
@@ -114,7 +115,7 @@ export default async function ExploreSourcesIndexPage({
             {pageSources.length === 0 ? (
               <p className="mt-8 text-muted">No sources match that search.</p>
             ) : (
-              <div className="mt-8 grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              <div className={`mt-6 md:mt-8 ${exploreIndexCatalogGridClassName}`}>
                 {pageSources.map((s) => (
                   <SourceCard key={s.id} source={s} />
                 ))}
