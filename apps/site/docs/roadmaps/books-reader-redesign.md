@@ -259,7 +259,7 @@ Device-scoped features (label clearly; never imply sync):
 
 **Objective:** Reduced motion, scroll restoration, focus management, light skeletons, a11y checklist + E2E depth. Visual regression suite and real Mobile Safari deferred (manual checklist).
 
-**Likely files:** `lib/a11y/focus-trap.ts`, `in-book-search.tsx`, `chapter-toc.tsx`, `restore-reading-scroll.tsx`, `catalog-book-card.tsx`, books/chapter `loading.tsx`, `reader-a11y-checklist.md`, `e2e/reader-a11y.spec.ts`, this roadmap.
+**Likely files:** `lib/a11y/focus-trap.ts`, `in-book-search.tsx`, `chapter-toc.tsx`, `restore-reading-scroll.tsx`, `catalog-book-card.tsx`, catalog/chapter `loading.tsx` (catalog loader scoped under `books/(catalog)/` so shelves/`[slug]` keep real status codes), `reader-a11y-checklist.md`, `e2e/reader-a11y.spec.ts`, this roadmap.
 
 **Acceptance:** In-book search Tab trap + focus restore; soft `scrollY` restore when no hash; motion-reduce on catalog/skip/loaders; checklist updated; E2E reduced-motion + search Escape.  
 **Risks:** Soft scroll restore racing layout — one rAF + hash precedence.  
