@@ -25,7 +25,7 @@ Portfolio: **34** book specs (33 titles; WOLTY v1 + v2).
 | `living-in-sediment` | 5/4/72/73 | 21/21 | Overview wired (#444); chapter enrichment complete (CORPUS-004) |
 | `when-others-become-leaders` | 6/5/53/49 | 15/15 | Overview wired (#444); chapter enrichment complete |
 | `how-serious-systems-learn` | 6/8/38/46 | 1/25 | Overview wired (#445); chapters thin |
-| `the-discipline-of-uncertainty` | 6/5/10/12 | 0/23 | Overview wired (#445); chapters missing |
+| `the-discipline-of-uncertainty` | 6/5/10/12 | 23/23 | Overview wired (#445); chapter enrichment complete |
 | `when-moral-seriousness-scales` | 7/6/22/19 | 0/17 | Overview wired (2026-08-01); chapters missing |
 | `when-others-look-to-you-v2` | 6/7/17/17 | 0/18 | Overview wired (2026-08-01); still thin on questions |
 | `when-accountability-no-longer-expires` | 6/6/12/11 | 1/19 | Overview wired (2026-08-01); chapters thin |
@@ -80,6 +80,7 @@ Typically have `overview.selectedConcepts` / `selectedPatterns` but **0** glossa
 | `living-in-sediment` | 5/4/72/73 | 21/21 | Chapters complete (CORPUS-004) |
 | `when-others-become-leaders` | 6/5/53/49 | 15/15 | Chapters complete |
 | `when-interpretation-no-longer-matters` | 25/0/54/58 | 15/15 | Chapters complete |
+| `the-discipline-of-uncertainty` | 6/5/10/12 | 23/23 | Chapters complete |
 | `the-game-we-think-we-saw` | 17/0/72/40 | 13/13 | Strong |
 | `why-collaboration-is-so-hard` | 12/0/15/11 | 10/10 | Biblio drift cleared; chapters present |
 
