@@ -52,7 +52,7 @@ This is not a lesson about carpentry, though carpenters know it well. Fabric has
 
 Human systems answer this way too.
 
-A school record can hold a child’s reading level and miss the sentence she was afraid to finish. A recipe can list measurements and still fail because the room is colder than it used to be. A scoreboard can tell who won and conceal what the game cost. A chair at the front of a room can gather authority before anyone has earned it. A public process can invite participation without letting participation shape the outcome. A tool can multiply force, and with it responsibility. A key can survive the reason it was cut. A machine can move faster than judgment. A decision can travel far from the people who feel its effects. A crack can return through fresh paint. A form can be ready for signature before the person inside it has been seen.
+A school record can hold a child's reading level and miss the sentence she was afraid to finish. A recipe can list measurements and still fail because the room is colder than it used to be. A scoreboard can tell who won and conceal what the game cost. A chair at the front of a room can gather authority before anyone has earned it. A public process can invite participation without letting participation shape the outcome. A tool can multiply force, and with it responsibility. A key can survive the reason it was cut. A machine can move faster than judgment. A decision can travel far from the people who feel its effects. A crack can return through fresh paint. A form can be ready for signature before the person inside it has been seen.
 
 Each of these moments begins the same way the bent nail began.
 
@@ -162,7 +162,7 @@ Ben dropped the nail into it.
 
 It landed with a small metallic sound among the others.
 
-No one would learn from that nail by looking at it once. It was only bent metal. Without the board, the angle, the hallway, the heat, the buried knot, the habit of Ben’s hand, and the slight adjustment that followed, it could become the wrong lesson very easily. Bad nail. Bad swing. Bad wood. Bad luck.
+No one would learn from that nail by looking at it once. It was only bent metal. Without the board, the angle, the hallway, the heat, the buried knot, the habit of Ben's hand, and the slight adjustment that followed, it could become the wrong lesson very easily. Bad nail. Bad swing. Bad wood. Bad luck.
 
 The nail alone was not the truth.
 

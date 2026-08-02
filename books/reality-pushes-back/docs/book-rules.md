@@ -102,6 +102,7 @@ The rhythm guides chapters without making them mechanically identical.
 - The narrator may know what happened, was said, was done, what an object bears, what an institution recorded—not the complete inner reason for hesitation, regret, or silence.
 - The ending preserves attention, not resolution. The town may learn; it does not graduate from uncertainty.
 - Town name remains deferred (“the town”) until an explicit naming decision.
+- Approved cover art is locked as-is; do not modify, regenerate, or alter cover elements.
 
 ## Continuity anchors
 

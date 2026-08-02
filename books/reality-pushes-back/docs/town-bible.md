@@ -596,7 +596,7 @@ Ch.
 	Year 1
 	Autumn
 	Nora
-	Tessa or another child
+	Tessa Mitchell
 	New school year; lost-and-found and records begin accumulating
 	None
 	2
@@ -773,8 +773,9 @@ Internal consistency matters more than municipal completeness.
 ________________
 
 Town Name (Deferred)
-The town remains unnamed in the manuscript for now. Cover art or generated mockups should not canonize a town name such as Riverbend unless a later deliberate decision is made to name the town.
-Use neutral phrases in prose and production copy: the school, the elementary school, Town Hall, the community center, the water tower, the town.
+The town remains unnamed in the manuscript for now. The approved cover art is locked as-is and should not be altered, but future manuscript/planning references should not canonize a town name unless a later deliberate decision is made.
+Use neutral phrases in prose and production copy: the town, the school, the elementary school, Town Hall, the community center, the bakery, the river path, the bridge, the water tower.
+Generated mockups or non-canonical drafts that invent branding (for example, Riverbend) are not manuscript canon.
 ________________
 
 XII. Reader Discoveries That Remain Open
@@ -838,12 +839,28 @@ Prefer ordinary municipal language over Relay-adjacent phrasing. Do not use “P
 ________________
 
 Cover and Production Notes
-Future cover iterations should avoid naming the town unless the manuscript later canonizes a name. Generated mockups that invent branding (for example, Riverbend) are non-canonical draft imagery unless an explicit naming decision is recorded here.
+DO NOT modify the approved cover art. DO NOT regenerate cover images. DO NOT remove or alter cover elements. The existing cover is approved as-is.
+The town remains unnamed in the manuscript for now. The approved cover art is locked as-is and should not be altered, but future manuscript/planning references should not canonize a town name unless a later deliberate decision is made.
+Generated mockups that invent branding (for example, Riverbend) are non-canonical draft imagery unless an explicit naming decision is recorded here.
 If cover concept notes mention a “Permit Application” prop, treat it as optional visual atmosphere, not manuscript branding; prefer ordinary town objects already in the chapters when revising cover prompts.
 ________________
 
 Hinge Chapters
 Chapters 3, 6, and 9 are intentional hinge chapters. Their endings may name the completed force and turn toward the next part more explicitly than ordinary chapter endings. They should remain brief, rhythmic, and connected to the chapter’s material object.
+________________
+
+Secondary Cast Continuity
+Recurring secondary presence (preserve roles; do not flatten):
+   * Mara — June’s younger bakery employee; documentation, measurement, apprenticeship, participation, shared work
+   * Maribel — school office; attendance, announcements, lost-and-found practicality (later years: office continuity may appear through a replacement without renaming the role)
+   * Ruth — library mornings at the bakery; overheard / inherited kitchen memory (Chapter 2)
+   * Lila — community center office; facilities tickets and building operations contact (Chapters 5, 11)
+   * Ed — public works / older routes; material leverage and field memory (Chapters 6, 7, 8, 10)
+   * Eli Moran — Chapter 12 child case; not a series protagonist
+   * Ms. Dinh — Eli’s teacher; chapter-local
+   * Celia — bakery worker named once for physical consequence of inherited layout (Chapter 9); one-off name is acceptable town texture
+   * Mrs. Galanis — older bakery customer; one-off name is acceptable town texture
+Do not reuse retired names (Marcus, Sam, Elena, Toby, Lucy). Do not introduce Lena. Prefer unnamed roles when a name would distract from the core ensemble.
 ________________
 
 XV. Version Notes
@@ -868,6 +885,12 @@ Editorial consistency pass:
    * canonize Tessa Mitchell; remove surname TBD from deferred decisions
    * record unnamed-town and cover non-canonization notes
    * record hinge-chapter guidance for Chapters 3, 6, and 9
+v1.3
+Near-final production consistency pass:
+   * lock approved cover as-is; do not alter cover art
+   * strengthen unnamed-town note for manuscript/planning (Riverbend and similar remain non-canonical)
+   * add secondary-cast continuity notes (Mara, Ruth, Celia, Maribel, Lila, Eli, Ed, Ms. Dinh, Mrs. Galanis)
+   * align Chapter 1 chronology secondary presence with Tessa Mitchell
 ________________
 
 Working Compass

@@ -841,4 +841,5 @@ Chapters 3, 6, and 9 are intentional hinge chapters. Their endings may name the 
 ________________
 
 Town Name
-The town remains unnamed in the manuscript for now. Cover art or generated mockups should not canonize a town name such as Riverbend unless a later deliberate decision is made to name the town.
+The town remains unnamed in the manuscript for now. The approved cover art is locked as-is and should not be altered, but future manuscript/planning references should not canonize a town name unless a later deliberate decision is made.
+Use neutral phrases: the town, the school, the elementary school, Town Hall, the community center, the bakery, the river path, the bridge.
