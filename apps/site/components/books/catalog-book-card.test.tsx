@@ -10,6 +10,8 @@ const sampleBook: CatalogBookView = {
   title: "After Certainty",
   subtitle: "Subtitle",
   description: "Description text",
+  coverImage: "/generated/book-covers/after-certainty/card.webp",
+  coverThumbnail: "/generated/book-covers/after-certainty/thumbnail.webp",
   status: "published",
   isPublic: true,
   isCanonicalEdition: true,
@@ -25,7 +27,7 @@ const sampleBook: CatalogBookView = {
 
 describe("CatalogBookCard", () => {
   it("renders title, type badge, and download availability", () => {
-    render(<CatalogBookCard book={sampleBook} location="catalog" />);
+    render(<CatalogBookCard book={sampleBook} location="catalog" layout="detailed" />);
     expect(screen.getByRole("heading", { name: "After Certainty" })).toBeInTheDocument();
     expect(screen.getByText("Nonfiction")).toBeInTheDocument();
     expect(screen.getByText("Download")).toBeInTheDocument();
@@ -33,7 +35,13 @@ describe("CatalogBookCard", () => {
   });
 
   it("shows upcoming badge for forthcoming books", () => {
-    render(<CatalogBookCard book={{ ...sampleBook, status: "forthcoming" }} location="catalog" />);
+    render(
+      <CatalogBookCard
+        book={{ ...sampleBook, status: "forthcoming" }}
+        location="catalog"
+        layout="detailed"
+      />,
+    );
     expect(screen.getByLabelText("Upcoming")).toBeInTheDocument();
   });
 
@@ -48,6 +56,7 @@ describe("CatalogBookCard", () => {
           editionLabel: "Companion edition",
         }}
         location="catalog"
+        layout="detailed"
       />,
     );
     expect(screen.getByLabelText("Companion edition")).toBeInTheDocument();
@@ -60,8 +69,29 @@ describe("CatalogBookCard", () => {
           editionLabel: "Primary volume",
         }}
         location="catalog"
+        layout="detailed"
       />,
     );
     expect(screen.queryByText("Primary volume")).not.toBeInTheDocument();
+  });
+
+  it("renders compact horizontal card with type, title, blurb, and action", () => {
+    render(<CatalogBookCard book={sampleBook} location="catalog" layout="compact" />);
+    expect(screen.getByRole("heading", { name: "After Certainty" })).toBeInTheDocument();
+    expect(screen.getByText("Nonfiction")).toBeInTheDocument();
+    expect(screen.getByText("Subtitle")).toBeInTheDocument();
+    expect(screen.getByText("Download →")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /After Certainty/i })).toHaveAttribute(
+      "href",
+      "/explore/books/after-certainty",
+    );
+  });
+
+  it("uses a single link in compact layout without nested interactive elements", () => {
+    const { container } = render(
+      <CatalogBookCard book={sampleBook} location="shelf" layout="compact" />,
+    );
+    expect(container.querySelectorAll("a")).toHaveLength(1);
+    expect(container.querySelectorAll("button")).toHaveLength(0);
   });
 });

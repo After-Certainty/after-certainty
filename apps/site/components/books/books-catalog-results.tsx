@@ -30,7 +30,9 @@ export function BooksCatalogResults({
       {results.length === 0 ? (
         <div className="rounded-sm border border-border/40 bg-bg-elevated/30 p-6 text-sm text-muted">
           {trimmedQuery ? (
-            <p>Try a shorter phrase or clear the search to browse shelves.</p>
+            <p>
+              Clear the search filter, or use site search in the header to look across the library.
+            </p>
           ) : hasActiveFilters ? (
             <p>Remove filters one at a time, or clear all filters to return to the full library.</p>
           ) : (
@@ -38,7 +40,7 @@ export function BooksCatalogResults({
           )}
         </div>
       ) : (
-        <div className="grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+        <div className="grid min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:gap-5 xl:grid-cols-3">
           {results.map((book) => (
             <CatalogBookCard key={book.id} book={book} location="catalog" />
           ))}

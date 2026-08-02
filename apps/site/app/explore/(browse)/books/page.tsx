@@ -53,6 +53,7 @@ export default async function ExploreBooksIndexPage({ searchParams }: BooksPageP
           books={startHereSection.books}
           totalCount={startHereSection.totalCount}
           showViewAll={false}
+          defaultOpen
         />
       ) : null}
 
@@ -64,7 +65,7 @@ export default async function ExploreBooksIndexPage({ searchParams }: BooksPageP
 
       <Section
         atmosphere="transition"
-        className="border-t border-border/25 py-14 md:py-20"
+        className="border-t border-border/25 py-10 md:py-20"
         aria-labelledby="books-catalog-heading"
       >
         <div className="space-y-3">
@@ -76,16 +77,12 @@ export default async function ExploreBooksIndexPage({ searchParams }: BooksPageP
           </h2>
           <p className="max-w-2xl text-muted">
             {filteredView
-              ? "Refine by shelf, type, availability, or title search. Share the URL to preserve your view."
-              : "Every published volume — filter, sort, or search when you know what you are looking for."}
+              ? "Refine by shelf, type, or availability. Share the URL to preserve your view."
+              : "Every published volume — filter or sort when you know what you are looking for."}
           </p>
         </div>
         <div className="mt-10">
-          <BooksCatalogControls
-            initialState={urlState}
-            results={results}
-            filterOptions={filterOptions}
-          />
+          <BooksCatalogControls results={results} filterOptions={filterOptions} />
         </div>
       </Section>
     </article>

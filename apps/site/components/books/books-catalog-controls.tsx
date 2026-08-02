@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import { Suspense, useEffect, useId, useMemo, useState, type FormEvent } from "react";
+import { Suspense, useMemo } from "react";
 
 import { BooksCatalogResults } from "@/components/books/books-catalog-results";
 import { CONTENT_TYPE_LABELS, type ContentType } from "@/lib/books/catalog-taxonomy";
@@ -9,7 +9,6 @@ import type { CatalogFilterOptions } from "@/lib/books/catalog-query";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import {
   catalogBrowseQueryString,
-  catalogQueryLengthBucket,
   hasActiveCatalogFilters,
   parseCatalogUrlState,
   type CatalogUrlState,
@@ -18,16 +17,13 @@ import {
   trackBooksFilterApply,
   trackBooksFilterRemove,
   trackBooksFiltersReset,
-  trackBooksSearch,
   trackBooksSortChange,
 } from "@/lib/analytics/track-books-catalog";
 import type { BookAvailabilityFlag } from "@/lib/books/book-metadata";
 
-const QUERY_DEBOUNCE_MS = 250;
 const BOOKS_PATH = "/explore/books";
 
 type BooksCatalogControlsProps = {
-  initialState: CatalogUrlState;
   results: CatalogBookView[];
   filterOptions: CatalogFilterOptions;
 };
@@ -36,15 +32,22 @@ function toggleValue<T extends string>(values: readonly T[], value: T): T[] {
   return values.includes(value) ? values.filter((v) => v !== value) : [...values, value];
 }
 
-function BooksCatalogControlsInner({
-  initialState,
-  results,
-  filterOptions,
-}: BooksCatalogControlsProps) {
+function activeFilterCount(state: CatalogUrlState): number {
+  let count = 0;
+  if (state.shelf) count += 1;
+  count += state.types.length;
+  count += state.statuses.length;
+  count += state.availability.length;
+  if (state.sort !== "recommended") count += 1;
+  if (state.editions === "all") count += 1;
+  if (state.q) count += 1;
+  return count;
+}
+
+function BooksCatalogControlsInner({ results, filterOptions }: BooksCatalogControlsProps) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const detailsId = useId();
 
   const urlState = useMemo(
     () =>
@@ -63,32 +66,10 @@ function BooksCatalogControlsInner({
     [searchParams, filterOptions.shelves],
   );
 
-  const [query, setQuery] = useState(initialState.q);
-  const [syncedQ, setSyncedQ] = useState(urlState.q);
-
-  if (urlState.q !== syncedQ) {
-    setSyncedQ(urlState.q);
-    if (query.trim() === syncedQ || query.trim() === urlState.q) {
-      setQuery(urlState.q);
-    }
-  }
-
   function replaceState(next: CatalogUrlState) {
     const qs = catalogBrowseQueryString(next);
     router.replace(`${pathname}${qs}`, { scroll: false });
   }
-
-  useEffect(() => {
-    const handle = window.setTimeout(() => {
-      if (query.trim() === urlState.q) return;
-      const next = { ...urlState, q: query.trim() };
-      replaceState(next);
-      if (query.trim()) {
-        trackBooksSearch({ query_length_bucket: catalogQueryLengthBucket(query) });
-      }
-    }, QUERY_DEBOUNCE_MS);
-    return () => window.clearTimeout(handle);
-  }, [query, urlState]);
 
   function updateState(patch: Partial<CatalogUrlState>, analyticsKey?: string) {
     const next = { ...urlState, ...patch };
@@ -112,12 +93,8 @@ function BooksCatalogControlsInner({
     trackBooksSortChange({ sort: value });
   }
 
-  function onSubmit(e: FormEvent) {
-    e.preventDefault();
-    replaceState({ ...urlState, q: query.trim() });
-  }
-
   const activeFilters = hasActiveCatalogFilters(urlState);
+  const filterCount = activeFilterCount(urlState);
 
   const chips: { label: string; remove: () => void }[] = [];
   if (urlState.shelf) {
@@ -164,14 +141,23 @@ function BooksCatalogControlsInner({
       remove: () => removeFilter({ editions: "default" }, "editions"),
     });
   }
+  if (urlState.q) {
+    chips.push({
+      label: `Search: ${urlState.q}`,
+      remove: () => removeFilter({ q: "" }, "q"),
+    });
+  }
 
   return (
-    <div className="space-y-8">
+    <div className="space-y-6 md:space-y-8">
       <details className="md:hidden rounded-sm border border-border/50 bg-bg-elevated/30">
-        <summary className="min-h-11 cursor-pointer list-none px-4 py-3 text-sm font-medium text-fg [&::-webkit-details-marker]:hidden">
-          Filter books
+        <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 px-4 py-3 text-sm font-medium text-fg [&::-webkit-details-marker]:hidden">
+          <span>Filter books</span>
+          {filterCount > 0 ? (
+            <span className="text-xs font-normal text-accent">{filterCount} active</span>
+          ) : null}
         </summary>
-        <div className="space-y-6 border-t border-border/40 px-4 py-4">
+        <div className="space-y-5 border-t border-border/40 px-4 py-4">
           <FilterFieldsets
             urlState={urlState}
             filterOptions={filterOptions}
@@ -210,23 +196,6 @@ function BooksCatalogControlsInner({
           onShelfSelect={(slug) => updateState({ shelf: slug }, "shelf")}
         />
       </div>
-
-      <form role="search" onSubmit={onSubmit} className="max-w-xl space-y-2">
-        <label
-          htmlFor={`${detailsId}-search`}
-          className="text-[10px] uppercase tracking-[0.28em] text-muted"
-        >
-          Search books
-        </label>
-        <input
-          id={`${detailsId}-search`}
-          type="search"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search by title…"
-          className="w-full rounded-sm border border-border/80 bg-bg-elevated px-4 py-3 text-sm text-fg placeholder:text-muted/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-        />
-      </form>
 
       {chips.length > 0 ? (
         <div className="flex flex-wrap items-center gap-2">

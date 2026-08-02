@@ -66,15 +66,15 @@ Orientation fields live on `books[].overview` from after-certainty. See [`docs/c
 
 ## URL parameters
 
-| Param          | Purpose                                            |
-| -------------- | -------------------------------------------------- |
-| `shelf`        | Narrow to one shelf slug                           |
-| `type`         | Comma-separated content types                      |
-| `status`       | `published` or `upcoming`                          |
-| `availability` | `online`, `download`, `print`, `open`              |
-| `sort`         | `recommended` (default), `title-asc`, `title-desc` |
-| `q`            | Title/metadata substring search                    |
-| `editions`     | `all` to include non-canonical editions            |
+| Param          | Purpose                                                                      |
+| -------------- | ---------------------------------------------------------------------------- |
+| `shelf`        | Narrow to one shelf slug                                                     |
+| `type`         | Comma-separated content types                                                |
+| `status`       | `published` or `upcoming`                                                    |
+| `availability` | `online`, `download`, `print`, `open`                                        |
+| `sort`         | `recommended` (default), `title-asc`, `title-desc`                           |
+| `q`            | Legacy/deep-link title/metadata filter (no page UI; prefer global `/search`) |
+| `editions`     | `all` to include non-canonical editions                                      |
 
 Filtered views set `alternates.canonical` to `/explore/books`.
 
