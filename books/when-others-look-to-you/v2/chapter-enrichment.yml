@@ -1,0 +1,500 @@
+version: 1
+chapters:
+  - sourcePath: front-matter/acknowledgements.md
+    summary: >
+      The book came from many small moments repeated over time, not a single revelation.
+      Acknowledgements thank those who lived the dynamics of attention and leadership up close—
+      offering encouragement, belief, and space to try, fail, and try again.
+    centralQuestion: Who helped make these dynamics visible through lived practice rather than theory alone?
+    selectedConcepts:
+      - formation
+      - circulation
+      - relational-credibility
+    selectedPatterns:
+      - examples-accumulate
+      - leadership-coalesces
+    searchAliases:
+      - acknowledgements
+      - lived dynamics
+    transition:
+      toNext: >
+        From gratitude into the working definition of leadership.
+
+  - sourcePath: front-matter/introduction-when-others-look-to-you.md
+    summary: >
+      A leader is someone others look to when deciding what to do next—not first a title,
+      authority, or assigned responsibility. Leadership begins when attention finds a focus.
+      The introduction opens the book's arc: forming, renewing, eroding, and repeating as
+      observable conditions rather than personality traits.
+    centralQuestion: Where does leadership begin if not with title, authority, or formal responsibility?
+    selectedConcepts:
+      - authority
+      - formation
+      - circulation
+      - attention
+      - accountability
+    selectedPatterns:
+      - attention-finds-a-focus
+      - leadership-coalesces
+      - leadership-reproduces-itself
+    searchAliases:
+      - when others look to you
+      - leadership begins with attention
+      - working definition of leader
+    situations:
+      - leadership-reproduces-under-pressure
+    transition:
+      toNext: >
+        From the definition into Part I—forming, when others begin to look to you.
+
+  - sourcePath: parts/part-1-forming/bridge.md
+    summary: >
+      The introduction walked the full arc; Part I stays with Forming only. Three chapters
+      follow what happens when others begin to look to you: attention finds a focus, examples
+      accumulate, and leadership coalesces. The movement is observational—how a focus becomes
+      a pattern before anyone names a leader.
+    centralQuestion: What happens in a group when others begin to look to one person?
+    selectedConcepts:
+      - formation
+      - attention
+      - authority
+      - circulation
+    selectedPatterns:
+      - attention-finds-a-focus
+      - examples-accumulate
+      - leadership-coalesces
+    searchAliases:
+      - forming
+      - from introduction to forming
+    transition:
+      fromPrevious: >
+        From the introduction's arc into the first movement alone.
+      toNext: >
+        From the part frame into attention finding a focus.
+
+  - sourcePath: parts/part-1-forming/chapter-1-attention-finds-a-focus.md
+    summary: >
+      Musicians adjust around a tentative phrase—no solo is assigned, yet the drummer softens
+      and the room orients. Attention finds a focus, and everything else follows. Leadership
+      begins as orientation before anyone announces authority: people look in the same direction
+      when deciding what happens next.
+    centralQuestion: How does a group begin to orient toward someone before anyone assigns leadership?
+    selectedConcepts:
+      - attention
+      - formation
+      - authority
+      - circulation
+    selectedPatterns:
+      - attention-finds-a-focus
+      - leadership-coalesces
+      - examples-accumulate
+    searchAliases:
+      - attention finds a focus
+      - musicians tentative phrase
+      - orientation before title
+    situations:
+      - leadership-reproduces-under-pressure
+    transition:
+      fromPrevious: >
+        From Part I's forming frame into the first orientation.
+      toNext: >
+        From focus into examples that accumulate under watchfulness.
+
+  - sourcePath: parts/part-1-forming/chapter-2-examples-accumulate.md
+    summary: >
+      Once attention has a focus, behavior is no longer private—responses and small choices
+      become readable as examples. They rarely feel defining in the moment. Accumulated under
+      watchfulness, they teach the room what moves things forward and what gets accepted before
+      anyone states a rule.
+    centralQuestion: How do small, watched responses become the examples a group learns from?
+    selectedConcepts:
+      - formation
+      - attention
+      - circulation
+      - accountability
+    selectedPatterns:
+      - examples-accumulate
+      - attention-finds-a-focus
+      - leadership-coalesces
+    searchAliases:
+      - examples accumulate
+      - behavior no longer private
+      - small watched choices
+    situations:
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From attention's focus into the examples that pile up under it.
+      toNext: >
+        From accumulating examples into leadership that coalesces.
+
+  - sourcePath: parts/part-1-forming/chapter-3-leadership-coalesces.md
+    summary: >
+      A question slows the room and attention returns to the same place—not once as accident,
+      but as a pattern that repeats. No one says “let’s go to them,” yet turns and pauses
+      converge. Leadership coalesces when orientation becomes habitual address: the group has
+      learned where to look when deciding what to do next.
+    centralQuestion: When does repeated orientation become leadership rather than a one-time glance?
+    selectedConcepts:
+      - authority
+      - formation
+      - circulation
+      - attention
+      - accountability
+    selectedPatterns:
+      - leadership-coalesces
+      - attention-finds-a-focus
+      - examples-accumulate
+    searchAliases:
+      - leadership coalesces
+      - attention returns to the same place
+      - habitual address
+    situations:
+      - reliable-person-becomes-the-route
+      - leadership-reproduces-under-pressure
+    transition:
+      fromPrevious: >
+        From examples into the coalescing of a steady address.
+      toNext: >
+        From forming into Part II—renewing the loop that keeps the group tied to reality.
+
+  - sourcePath: parts/part-2-renewing/bridge.md
+    summary: >
+      Once attention has a steady address, information and adjustment matter. Part II—Renewing—
+      follows the loop that keeps a group tied to what is happening, not only to what was decided
+      last time: dissent welcomed, feedback driving change, leaders feeling consequences. When
+      these hold, course can still correct while the cost is small.
+    centralQuestion: What keeps a formed focus tied to reality instead of only to prior decisions?
+    selectedConcepts:
+      - renewal
+      - accountability
+      - circulation
+      - feedback
+      - authority
+    selectedPatterns:
+      - dissent-is-welcomed
+      - feedback-drives-change
+      - leaders-feel-the-consequences
+    searchAliases:
+      - renewing
+      - from forming to renewing
+    transition:
+      fromPrevious: >
+        From coalesced leadership into the loop that renews it.
+      toNext: >
+        From the part frame into dissent that is welcomed.
+
+  - sourcePath: parts/part-2-renewing/chapter-4-dissent-is-welcomed.md
+    summary: >
+      A boat keeps its course while the wind shifts—small enough to ignore, real enough that the
+      sail no longer sits the same. Welcomed dissent is the early notice that conditions have
+      changed before drama forces a reaction. Renewal depends on voices that can name the shift
+      while the difference is still cheap to hear.
+    centralQuestion: How does welcomed dissent keep a group from sailing on after the wind has already shifted?
+    selectedConcepts:
+      - renewal
+      - contestability
+      - accountability
+      - authority
+      - humility
+    selectedPatterns:
+      - dissent-is-welcomed
+      - feedback-drives-change
+      - leaders-feel-the-consequences
+    searchAliases:
+      - dissent is welcomed
+      - wind shifts sail
+      - early notice cheap to hear
+    situations:
+      - dissent-narrows-to-workaround
+    transition:
+      fromPrevious: >
+        From Part II's renewing frame into dissent that can still land.
+      toNext: >
+        From welcomed dissent into feedback that drives change.
+
+  - sourcePath: parts/part-2-renewing/chapter-5-feedback-drives-change.md
+    summary: >
+      The wind shift becomes clear; someone sees the drift without needing full certainty or a
+      complete explanation. Feedback drives change when recognition that what was true a moment
+      ago is no longer true now can still alter course. Renewal is not endless discussion—it is
+      adjustment while signals still reach the room in time.
+    centralQuestion: What must feedback be able to do for renewal to remain real rather than ceremonial?
+    selectedConcepts:
+      - renewal
+      - feedback
+      - accountability
+      - revisability
+      - authority
+    selectedPatterns:
+      - feedback-drives-change
+      - dissent-is-welcomed
+      - leaders-feel-the-consequences
+    searchAliases:
+      - feedback drives change
+      - drift off the line
+      - adjust while signals arrive
+    situations:
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From dissent into feedback that actually moves the course.
+      toNext: >
+        From changed course into leaders who feel the consequences.
+
+  - sourcePath: parts/part-2-renewing/chapter-6-leaders-feel-the-consequences.md
+    summary: >
+      After the sail shifts and the course changes, what matters is what happens next to the
+      person others look to. Leaders feel the consequences when outcomes return to the focus of
+      attention—not only praise for decisiveness, but contact with results that can revise the
+      next look. Without that loop, renewal becomes performance.
+    centralQuestion: How does a leader staying in contact with consequences keep renewal from becoming performance?
+    selectedConcepts:
+      - accountability
+      - authority
+      - renewal
+      - responsibility
+      - circulation
+    selectedPatterns:
+      - leaders-feel-the-consequences
+      - feedback-drives-change
+      - leadership-coalesces
+    searchAliases:
+      - leaders feel the consequences
+      - contact with results
+      - renewal not performance
+    situations:
+      - leaders-judged-beyond-their-reach
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From feedback-driven change into consequence returning to the leader.
+      toNext: >
+        From renewing into Part III—eroding when the loop weakens.
+
+  - sourcePath: parts/part-3-eroding/bridge.md
+    summary: >
+      When the loop weakens, problems show first as silence—not catastrophe. Part III—Eroding—
+      follows pushback fading, signals arriving incomplete, and temporary exceptions hardening:
+      disagreement suppressed, learning collapsing, exceptions forever. Erosion is quiet until
+      structure has already changed.
+    centralQuestion: How does erosion begin as silence before it looks like failure?
+    selectedConcepts:
+      - erosion
+      - authority
+      - accountability
+      - feedback
+    selectedPatterns:
+      - disagreement-is-suppressed
+      - learning-collapses
+      - exceptions-are-forever
+    searchAliases:
+      - eroding
+      - from renewing to eroding
+      - silence before catastrophe
+    transition:
+      fromPrevious: >
+        From renewing loops into what happens when they thin.
+      toNext: >
+        From the part frame into disagreement that is suppressed.
+
+  - sourcePath: parts/part-3-eroding/chapter-7-disagreement-is-suppressed.md
+    summary: >
+      A small crack in a wall is easy to miss; the building still stands and everything continues
+      as expected. Suppressed disagreement is that crack—pushback that no longer surfaces while
+      structure appears intact. Erosion begins when the cost of naming the line outweighs the
+      cost of pretending the surface is fine.
+    centralQuestion: What disappears first when disagreement can no longer safely appear?
+    selectedConcepts:
+      - erosion
+      - authority
+      - contestability
+      - accountability
+    selectedPatterns:
+      - disagreement-is-suppressed
+      - dissent-is-welcomed
+      - learning-collapses
+    searchAliases:
+      - disagreement is suppressed
+      - crack in the wall
+      - pushback goes quiet
+    situations:
+      - dissent-narrows-to-workaround
+      - admiration-insulates-from-scrutiny
+    transition:
+      fromPrevious: >
+        From Part III's erosion frame into silence where dissent should be.
+      toNext: >
+        From suppressed disagreement into learning that collapses.
+
+  - sourcePath: parts/part-3-eroding/chapter-8-learning-collapses.md
+    summary: >
+      An unrepaired crack spreads—not always in a straight line, often beneath the surface.
+      Learning collapses when the ground story stops reaching the room in time: signals arrive
+      incomplete, late, or already shaped to protect the focus of attention. The group still
+      moves; it no longer updates.
+    centralQuestion: How does learning collapse while the group still appears to be moving?
+    selectedConcepts:
+      - erosion
+      - feedback
+      - accountability
+      - institutional-memory
+      - authority
+    selectedPatterns:
+      - learning-collapses
+      - disagreement-is-suppressed
+      - feedback-drives-change
+    searchAliases:
+      - learning collapses
+      - crack spreads beneath
+      - ground story stops reaching
+    situations:
+      - feedback-stops-changing-decisions
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: >
+        From suppressed disagreement into signals that no longer update the room.
+      toNext: >
+        From collapsed learning into exceptions that become forever.
+
+  - sourcePath: parts/part-3-eroding/chapter-9-exceptions-are-forever.md
+    summary: >
+      Over time the crack stops looking like damage and becomes part of the building—familiar,
+      worked around, unnoticed. Temporary exceptions harden into structure not because anyone
+      decides, but because nothing removes them. Forever exceptions are erosion completed:
+      workaround as the new normal.
+    centralQuestion: How do temporary exceptions become the durable structure of a group?
+    selectedConcepts:
+      - erosion
+      - structure
+      - authority
+      - accountability
+      - drift
+    selectedPatterns:
+      - exceptions-are-forever
+      - learning-collapses
+      - structures-outlive-reasons
+    searchAliases:
+      - exceptions are forever
+      - crack becomes the building
+      - workaround as normal
+    situations:
+      - temporary-fixes-become-permanent
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From collapsed learning into exceptions that no longer expire.
+      toNext: >
+        From eroding into Part IV—repeating, when behavior spreads.
+
+  - sourcePath: parts/part-4-repeating/bridge.md
+    summary: >
+      What has formed does not stay in one room. Part IV—Repeating—has a single chapter naming
+      how behavior spreads: leadership reproduces itself, and what is copied becomes what happens
+      next. The arc returns to the beginning—when a new question appears, attention finds a focus
+      again, shaped by what people have already learned.
+    centralQuestion: How does what formed in one room become what the next room does by default?
+    selectedConcepts:
+      - circulation
+      - formation
+      - authority
+      - erosion
+      - renewal
+    selectedPatterns:
+      - leadership-reproduces-itself
+      - attention-finds-a-focus
+      - examples-accumulate
+    searchAliases:
+      - repeating
+      - from eroding to repeating
+    transition:
+      fromPrevious: >
+        From hardened exceptions into how patterns travel outward.
+      toNext: >
+        From the part frame into leadership that reproduces itself.
+
+  - sourcePath: parts/part-4-repeating/chapter-10-leadership-reproduces-itself.md
+    summary: >
+      Nothing stays isolated—decisions, responses, and patterns travel because people watch what
+      moves things forward, what gets accepted, and what persists. They adjust without instructions.
+      Leadership reproduces itself when copied behavior becomes the next default, bringing the
+      arc back to attention finding a focus under inherited example.
+    centralQuestion: How does watched behavior become the template for what happens next elsewhere?
+    selectedConcepts:
+      - circulation
+      - formation
+      - authority
+      - attention
+      - accountability
+    selectedPatterns:
+      - leadership-reproduces-itself
+      - examples-accumulate
+      - attention-finds-a-focus
+    searchAliases:
+      - leadership reproduces itself
+      - copied becomes default
+      - watching what persists
+    situations:
+      - leadership-reproduces-under-pressure
+      - reliable-person-becomes-the-route
+    transition:
+      fromPrevious: >
+        From Part IV's repeating frame into reproduction across the group.
+      toNext: >
+        From reproduction into the epilogue's return to the opening claim.
+
+  - sourcePath: back-matter/epilogue.md
+    summary: >
+      The opening claim returns as pressure: a leader is someone others look to when deciding
+      what to do next. Moments arrive whether planned or not—the room slows, people look in the
+      same direction, something is already forming. By the end the definition feels less like a
+      label and more like a condition you can enter unprepared.
+    centralQuestion: What pressure does the working definition of leadership leave you under?
+    selectedConcepts:
+      - authority
+      - formation
+      - attention
+      - accountability
+      - circulation
+    selectedPatterns:
+      - attention-finds-a-focus
+      - leadership-coalesces
+      - leadership-reproduces-itself
+    searchAliases:
+      - epilogue
+      - definition as pressure
+      - moments arrive unplanned
+    situations:
+      - leadership-reproduces-under-pressure
+    transition:
+      fromPrevious: >
+        From reproducing patterns into the claim felt as pressure.
+      toNext: >
+        From the epilogue into the appendix of pattern snapshots.
+
+  - sourcePath: back-matter/appendix-a-leadership-patterns.md
+    summary: >
+      The appendix summarizes recurring patterns under Forming, Renewing, Eroding, and Repeating—
+      short snapshots of when each appears, what is happening, and what tends to follow. They are
+      conditions you can observe from small groups to institutions, not prescriptions for
+      character or technique.
+    centralQuestion: How can the book's patterns be recognized as recurring conditions rather than as advice?
+    selectedConcepts:
+      - formation
+      - renewal
+      - erosion
+      - circulation
+      - authority
+    selectedPatterns:
+      - attention-finds-a-focus
+      - leadership-coalesces
+      - dissent-is-welcomed
+      - disagreement-is-suppressed
+      - leadership-reproduces-itself
+    searchAliases:
+      - leadership patterns appendix
+      - forming renewing eroding repeating
+      - pattern snapshots
+    transition:
+      fromPrevious: >
+        From the epilogue into a compact field guide to the patterns.
