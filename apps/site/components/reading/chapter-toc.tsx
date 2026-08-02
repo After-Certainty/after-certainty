@@ -1,10 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useId, useRef, useState } from "react";
+import { useCallback, useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
 import type { ChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
+
+const FOCUSABLE_SELECTOR =
+  'a[href], button:not([disabled]), textarea, input, select, [tabindex]:not([tabindex="-1"])';
 
 export type ChapterTocListProps = {
   navigation: ChapterReadingNavigation;
@@ -74,6 +77,7 @@ export type ChapterTocProps = {
 /**
  * In-reader table of contents (READ-004) with mobile drawer (READ-015).
  * Desktop: progressive disclosure. Mobile: Contents button opens a dialog drawer.
+ * Phase E: focus trap + restore focus to the Contents trigger on close.
  */
 export function ChapterToc({ navigation }: ChapterTocProps) {
   const { chapters } = navigation;
@@ -116,24 +120,61 @@ type ChapterTocDrawerProps = {
 function ChapterTocDrawer({ navigation }: ChapterTocDrawerProps) {
   const [open, setOpen] = useState(false);
   const panelId = useId();
+  const triggerRef = useRef<HTMLButtonElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const wasOpenRef = useRef(false);
   const { chapters } = navigation;
 
-  useEffect(() => {
-    if (!open) return;
-    const prev = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
-    closeButtonRef.current?.focus();
-    return () => {
-      document.body.style.overflow = prev;
-    };
+  useLayoutEffect(() => {
+    if (open) {
+      wasOpenRef.current = true;
+      const prev = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      closeButtonRef.current?.focus();
+      return () => {
+        document.body.style.overflow = prev;
+      };
+    }
+    if (wasOpenRef.current) {
+      wasOpenRef.current = false;
+      triggerRef.current?.focus();
+    }
+    return undefined;
   }, [open]);
 
   useEffect(() => {
     if (!open) return;
+
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") {
+        e.preventDefault();
+        setOpen(false);
+        return;
+      }
+      if (e.key !== "Tab") return;
+
+      const panel = panelRef.current;
+      if (!panel) return;
+      const focusable = Array.from(panel.querySelectorAll<HTMLElement>(FOCUSABLE_SELECTOR)).filter(
+        (el) => !el.hasAttribute("disabled") && el.getAttribute("aria-hidden") !== "true",
+      );
+      if (focusable.length === 0) {
+        e.preventDefault();
+        return;
+      }
+      const first = focusable[0]!;
+      const last = focusable[focusable.length - 1]!;
+      const active = document.activeElement as HTMLElement | null;
+      if (e.shiftKey && active === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && active === last) {
+        e.preventDefault();
+        first.focus();
+      }
     };
+
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [open]);
@@ -143,8 +184,9 @@ function ChapterTocDrawer({ navigation }: ChapterTocDrawerProps) {
   return (
     <div className="mb-8 md:hidden">
       <button
+        ref={triggerRef}
         type="button"
-        className="inline-flex h-10 w-full items-center justify-between rounded-sm border border-border/60 bg-bg-elevated/30 px-4 text-[11px] uppercase tracking-[0.2em] text-muted transition-colors hover:border-accent/50 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        className="inline-flex h-11 w-full items-center justify-between rounded-sm border border-border/60 bg-bg-elevated/30 px-4 text-[11px] uppercase tracking-[0.2em] text-muted transition-colors hover:border-accent/50 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         aria-expanded={open}
         aria-controls={panelId}
         aria-haspopup="dialog"
@@ -166,6 +208,7 @@ function ChapterTocDrawer({ navigation }: ChapterTocDrawerProps) {
               onClick={close}
             />
             <div
+              ref={panelRef}
               id={panelId}
               role="dialog"
               aria-modal="true"
@@ -178,16 +221,13 @@ function ChapterTocDrawer({ navigation }: ChapterTocDrawerProps) {
                 <button
                   ref={closeButtonRef}
                   type="button"
-                  className="rounded-sm px-2 py-1 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                  className="min-h-11 rounded-sm px-2 py-1 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
                   onClick={close}
                 >
                   Close
                 </button>
               </div>
-              <nav
-                aria-label="Table of contents"
-                className="flex-1 overflow-y-auto px-5 py-4"
-              >
+              <nav aria-label="Table of contents" className="flex-1 overflow-y-auto px-5 py-4">
                 <ChapterTocList navigation={navigation} onNavigate={close} compact />
               </nav>
             </div>

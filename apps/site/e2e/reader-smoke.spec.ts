@@ -19,6 +19,9 @@ test.describe("reader smoke (READ-009)", () => {
 
     await expect(page.locator("#chapter-title")).toBeVisible();
     await expect(page.locator(".chapter-manuscript")).toBeVisible();
+    await expect(page.getByTestId("reading-progress-chrome")).toBeVisible();
+    await expect(page.getByRole("progressbar", { name: "Chapter scroll progress" })).toBeVisible();
+    await expect(page.getByTestId("reader-exit")).toBeVisible();
 
     const next = page
       .getByRole("navigation", { name: "Previous and next chapter", exact: true })
@@ -28,7 +31,7 @@ test.describe("reader smoke (READ-009)", () => {
     await expect(page).toHaveURL(new RegExp(`${nextPath.replace(/\//g, "\\/")}$`));
     await expect(page.locator("#chapter-title")).toBeVisible();
 
-    await page.getByRole("link", { name: "Back to book" }).click();
+    await page.getByTestId("reader-exit").click();
     await expect(page).toHaveURL(/\/explore\/books\/after-certainty$/);
     await expect(page.getByRole("heading", { name: "After Certainty", level: 1 })).toBeVisible();
   });

@@ -52,6 +52,22 @@ describe("ChapterToc drawer", () => {
     await waitFor(() => {
       expect(screen.queryByTestId("chapter-toc-drawer")).not.toBeInTheDocument();
     });
+    expect(screen.getByTestId("chapter-toc-drawer-open")).toHaveFocus();
+  });
+
+  it("restores focus to Contents after Escape", async () => {
+    const user = userEvent.setup();
+    const navigation = navigationForIntro();
+
+    render(<ChapterToc navigation={navigation} />);
+    const trigger = screen.getByTestId("chapter-toc-drawer-open");
+    await user.click(trigger);
+    await screen.findByTestId("chapter-toc-drawer");
+    await user.keyboard("{Escape}");
+    await waitFor(() => {
+      expect(screen.queryByTestId("chapter-toc-drawer")).not.toBeInTheDocument();
+    });
+    expect(trigger).toHaveFocus();
   });
 });
 
@@ -73,9 +89,7 @@ describe("copy section link", () => {
     const writeText = mockClipboardWriteText();
     window.history.replaceState(null, "", "/explore/books/after-certainty/chapters/intro");
 
-    render(
-      <CopySectionLinkControl chapterPath="/explore/books/after-certainty/chapters/intro" />,
-    );
+    render(<CopySectionLinkControl chapterPath="/explore/books/after-certainty/chapters/intro" />);
 
     const button = await screen.findByTestId("copy-section-link");
     expect(button).toHaveTextContent("Copy chapter link");
@@ -85,11 +99,7 @@ describe("copy section link", () => {
     );
     expect(button).toHaveTextContent("Link copied");
 
-    window.history.replaceState(
-      null,
-      "",
-      "/explore/books/after-certainty/chapters/intro#opening",
-    );
+    window.history.replaceState(null, "", "/explore/books/after-certainty/chapters/intro#opening");
     window.dispatchEvent(new Event("hashchange"));
     expect(await screen.findByText("Copy section link")).toBeInTheDocument();
   });
