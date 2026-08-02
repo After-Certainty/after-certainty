@@ -188,11 +188,7 @@ But inherited structure can also keep issuing commands after its reason has gone
 
 That is when it begins to confuse obedience with wisdom.
 
-Rules, roles, institutions, workarounds, and routines often persist after the conditions that originally justified them have changed or disappeared.
-
-Structures outlive reasons.
-
-The pattern is not decay only. It is continuity with missing context. Human beings build because they must act before forever. They make locks, forms, offices, habits, maps, committees, names, categories, passwords, ceremonies, procedures, and routes. These things stabilize attention. They allow people who were not present at the original moment to continue a practice. Without such persistence, every generation would begin by solving yesterday's already solved problems again.
+Rules, roles, institutions, workarounds, and routines often persist after the conditions that originally justified them have changed or disappeared. That is not decay only. It is continuity with missing context. Human beings build because they must act before forever. They make locks, forms, offices, habits, maps, committees, names, categories, passwords, ceremonies, procedures, and routes. These things stabilize attention. They allow people who were not present at the original moment to continue a practice. Without such persistence, every generation would begin by solving yesterday's already solved problems again.
 
 Time does not merely preserve these structures. It edits the world around them.
 

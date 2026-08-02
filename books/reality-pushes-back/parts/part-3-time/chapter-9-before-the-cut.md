@@ -266,11 +266,7 @@ Revision does not return the world to innocence.
 
 After the cut, possibilities narrow. The old counter cannot be uncut by regret. The first school pilot cannot be experienced again by the children who were confused on day one. A public works routing rule that delayed a repair leaves the delay inside the week even if the rule changes later. Reversibility is often partial. That is why the space before the cut matters. But partial reversibility is not nothing. A table can be added. A route can be changed. A policy can carry an expiration date. A recipe can be adjusted without pretending the previous batch never existed. A commitment can acknowledge evidence without dissolving into formlessness.
 
-The pattern needed both halves.
-
-Commitment enables coordinated action while preserving room for revision when evidence, conditions, or consequences change.
-
-Commitment leaves room.
+The work needed both halves: commitment enough to act, and room enough to revise when evidence, conditions, or consequences change.
 
 Without commitment, the room never changes, the school never pilots the door, the theory never risks a prediction, the boat never leaves, the family never sets a table around a promise. Without room, commitment hardens into identity. The first line becomes sacred because erasing it would embarrass the person who drew it. The first cut becomes proof that all later discomfort must be endured. The plan becomes more important than the work it was meant to serve.
 

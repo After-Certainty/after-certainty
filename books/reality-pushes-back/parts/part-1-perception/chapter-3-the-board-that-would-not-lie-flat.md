@@ -246,11 +246,7 @@ The field was rarely pure. Causes did not line up like boards on a rack. They cr
 
 Still, judgment without context often punished the wrong thing and learned the wrong lesson.
 
-That was the pattern, though Ben would not have named it that way while standing in the workshop with a pencil behind his ear.
-
-Results Conceal the Game.
-
-Visible outcomes and metrics reveal that something happened, but often conceal the broader field of causes, constraints, costs, and meanings that produced it.
+Ben would not have named any of this while standing in the workshop with a pencil behind his ear. He had a board that would not lie flat, and that was enough to keep the field open.
 
 The result says: this board twisted.
 

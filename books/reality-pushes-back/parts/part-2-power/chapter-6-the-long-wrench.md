@@ -156,11 +156,7 @@ Power does this in human systems.
 
 An executive signs a document and alters the work of hundreds of people who never see the pen. An engineer approves a tolerance, and the tolerance becomes a bridge, a device, a medicine, a machine part, a failure mode. A platform adjusts a ranking rule, and stores, artists, newspapers, friendships, rumors, and elections feel the change unevenly. A parent turns a household rule one degree toward patience or fear, and a child grows inside that weather. A lender changes criteria. A hospital changes triage. A school changes placement rules. A city changes inspection priority. Each may be only a small motion at the handle. At the jaw, force multiplies.
 
-Responsibility follows leverage.
-
-The greater a person's or institution's capacity to shape outcomes, prevent harm, benefit from a system, or repair consequences, the greater its responsibility.
-
-This does not mean responsibility is the same as blame.
+The greater a person's or institution's capacity to shape outcomes, prevent harm, benefit from a system, or repair consequences, the greater its responsibility. That is not the same as blame.
 
 Blame often looks backward for fault. Responsibility looks in more directions. It asks who could have prevented harm, who knew enough to act, who benefited while others bore costs, who can repair now, who can change the conditions under which the harm repeats. A person may be responsible without having intended damage. An institution may be responsible for consequences no one inside it desired. A community may share cause without sharing capacity. The question is not only Who caused this? It is also Who has the handle long enough to move it?
 

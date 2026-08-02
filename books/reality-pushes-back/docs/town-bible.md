@@ -396,7 +396,7 @@ Her technical confidence can also obscure local knowledge she has not yet learne
 Rachel should be central in at least one chapter and materially important in two or three others. She does not require a full independent life arc.
 ________________
 
-Tessa — Surname TBD
+Tessa Mitchell
 Status: Recurring secondary witness
 Relationship to the town: First appears as a young resident; later encounters occur at irregular intervals.
 Tessa is intentionally unusual within the chronology.
@@ -612,7 +612,7 @@ Ch.
 	Year 3
 	Summer
 	Ben
-	Tessa or Nora
+	Tessa
 	A repair, class, or community project produces a visible result with hidden history
 	Earlier judgments may be reconsidered
 	4
@@ -753,13 +753,14 @@ XI. Deferred Decisions
 Required for Consistency
 These must be resolved before final publication:
    * town name
-   * Tessa’s surname
    * stable relative chronology
    * final spatial relationships
    * character ages sufficient to make career transitions plausible
    * which child owns the lost sweater
    * which earlier decision produces the central consequence in Chapter 10
    * which warning anchors Chapter 11
+Resolved (do not reopen without cause)
+   * Tessa’s surname is Mitchell.
 Optional Production Aids
 These may remain approximate or never appear in the manuscript:
    * exact population
@@ -769,6 +770,11 @@ These may remain approximate or never appear in the manuscript:
    * a complete inventory of every object
    * a perfectly symmetrical echo matrix
 Internal consistency matters more than municipal completeness.
+________________
+
+Town Name (Deferred)
+The town remains unnamed in the manuscript for now. Cover art or generated mockups should not canonize a town name such as Riverbend unless a later deliberate decision is made to name the town.
+Use neutral phrases in prose and production copy: the school, the elementary school, Town Hall, the community center, the water tower, the town.
 ________________
 
 XII. Reader Discoveries That Remain Open
@@ -812,9 +818,32 @@ XIV. Current Cast
    * June Park
    * Daniel Okoye
    * Rachel Kim
-   * Tessa [surname TBD]
+   * Tessa Mitchell
+   * Mara (June’s younger bakery employee; recurring secondary)
 Final names should be checked against the separate corpus-wide character registry before publication.
 Obsolete drafting names should not appear elsewhere in this document or manuscript.
+________________
+
+Character Registry Notes
+Mara is released from the retired-name list and restored as available. In the manuscript, Mara is June Park’s younger bakery employee and a recurring secondary presence connected to documentation, measurement, apprenticeship, participation, and shared work. She is not connected to the earlier discarded child-character concept.
+
+Retired / unavailable names (still excluded; do not reuse in this manuscript):
+   * Marcus
+   * Sam
+   * Elena
+   * Toby
+   * Lucy
+
+Prefer ordinary municipal language over Relay-adjacent phrasing. Do not use “PENDING REVIEW,” “Suspended Pending Review,” or close slogan variants in the manuscript.
+________________
+
+Cover and Production Notes
+Future cover iterations should avoid naming the town unless the manuscript later canonizes a name. Generated mockups that invent branding (for example, Riverbend) are non-canonical draft imagery unless an explicit naming decision is recorded here.
+If cover concept notes mention a “Permit Application” prop, treat it as optional visual atmosphere, not manuscript branding; prefer ordinary town objects already in the chapters when revising cover prompts.
+________________
+
+Hinge Chapters
+Chapters 3, 6, and 9 are intentional hinge chapters. Their endings may name the completed force and turn toward the next part more explicitly than ordinary chapter endings. They should remain brief, rhythmic, and connected to the chapter’s material object.
 ________________
 
 XV. Version Notes
@@ -833,6 +862,12 @@ Revised from v1.0 to:
    * remove corpus-wide reserved-name tracking from the town-specific document
    * clarify that continuity should deepen chapters without becoming necessary to understand them
    * resolve Chapter 5 around June as the primary witness
+v1.2
+Editorial consistency pass:
+   * restore Mara as available; keep Marcus, Sam, Elena, Toby, and Lucy retired
+   * canonize Tessa Mitchell; remove surname TBD from deferred decisions
+   * record unnamed-town and cover non-canonization notes
+   * record hinge-chapter guidance for Chapters 3, 6, and 9
 ________________
 
 Working Compass

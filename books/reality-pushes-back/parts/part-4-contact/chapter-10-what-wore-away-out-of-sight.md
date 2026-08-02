@@ -222,13 +222,9 @@ That was important too.
 
 A working system can be genuinely better and still hide costs at its edge. A policy can correct one unfairness while producing another kind of invisibility. A map can improve contact in one corridor and weaken it where the map's categories are least able to receive lived experience. The answer is not to abandon maps for anecdotes, or reports for complaint, or routing for memory. The answer begins with admitting that distance has a shape and that every abstraction needs a path back from the places where its consequences land.
 
-That was the pattern Daniel would have named only later, after the photographs had moved through three inboxes, after Rachel added a review note for low-complaint older alleys near weak pipe data, after June paid Ben for the first stage of floor repair because municipal correction did not reimburse every cost it helped reveal.
+Daniel would have named that only later, after the photographs had moved through three inboxes, after Rachel added a review note for low-complaint older alleys near weak pipe data, after June paid Ben for the first stage of floor repair because municipal correction did not reimburse every cost it helped reveal.
 
-Distance Conceals Consequence.
-
-The farther decisions are separated from their effects by time, place, role, abstraction, or organizational layers, the easier it becomes for consequences to disappear.
-
-The pattern does not require villains.
+Distance does not require villains.
 
 It may be strongest when everyone involved is trying, in some bounded way, to do the work well. The council wants fairness. The engineer wants a system that can be maintained. The clerk wants calls to enter the right place. The crew wants a route that lets them finish before rain becomes ice. The bakery owner wants the floor safe and the door usable and the morning orders ready. The report wants to tell the truth it was built to tell.
 

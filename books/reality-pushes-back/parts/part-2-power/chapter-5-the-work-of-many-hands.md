@@ -216,9 +216,7 @@ Consultation is thinner.
 
 Consultation can be sincere. It can reveal what planners missed. It can slow arrogance and improve decisions. But if the outcome cannot be changed, consultation becomes a performance of listening. People learn the difference quickly. They know when a meeting has been held after the decision was made, when survey boxes are too narrow for the real objection, when public comment lets power say it heard without having to move.
 
-Participation creates legitimacy because participation creates a trace of consequence.
-
-People are more likely to trust, sustain, and recognize a shared order when they have a consequential role in shaping, contesting, or repairing it.
+Participation creates a trace of consequence. People are more likely to trust, sustain, and recognize a shared order when they have had a real role in shaping, contesting, or repairing it.
 
 The repair matters as much as the shaping.
 

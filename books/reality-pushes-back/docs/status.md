@@ -35,7 +35,7 @@ First complete draft with cover and open-graph assets. Exports enabled. Author e
 
 ## Next actions
 
-1. Author read-through / Phase 2–4 editorial as desired.
+1. Author read-through of consistency pass (Mara registry, Ruth rename, pattern-declaration softening).
 2. Export smoke (`make export-docx DIR=books/reality-pushes-back`, etc.).
 3. Optional chapter-enrichment.yml for site discovery.
 

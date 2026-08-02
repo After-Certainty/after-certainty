@@ -138,11 +138,7 @@ A lathe can cut metal more precisely than a hand file, and more dangerously. The
 
 Speed does not remove judgment.
 
-It relocates it.
-
-Speed Relocates Judgment.
-
-As systems accelerate, judgment moves away from the work, becomes embedded in defaults and automation, or disappears into processes no one can pause.
+It relocates it—into setup, defaults, templates, and earlier design choices, or into processes no one can pause.
 
 Sometimes the relocation is good. It prevents every case from depending on mood, memory, influence, or fatigue. It lets a town respond before small harms become normal. It lets firefighters know which hydrant was inspected, nurses see which lab result requires immediate attention, and building inspectors catch a conflict before a wall is closed. Defaults can protect attention as well as replace it. A checklist can carry hard-learned knowledge into a hurried moment. A template can remind the person using it to ask a question otherwise forgotten.
 

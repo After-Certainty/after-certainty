@@ -192,9 +192,7 @@ The movement is simple enough to hide inside ordinary experience.
 
 A classroom turns toward the student who always answers first, and the teacher begins using that student as proof that the explanation landed. A family looks toward the person who handles forms, and soon that person decides which forms matter. An office waits for the calm employee during confusion, and then calls the calm employee a leader without asking what support leadership requires. A celebrity speaks about a field they have not studied, and the attention that came from acting, music, beauty, wealth, or scandal becomes transferable to medicine, politics, parenting, grief, or justice. A social media account receives enough followers to make every sentence seem like a public position. The authority did not begin with law. It began when enough people turned.
 
-Authority follows attention.
-
-When collective attention settles on a person, signal, role, or voice, authority begins to form even before legitimacy or competence has been established.
+When enough people turn, authority begins to form even before legitimacy or competence has been established.
 
 This is not always a corruption. A community cannot wait for perfect credentials before listening to anyone. Emergencies are often survived because people turn toward someone who sees the next step. Informal authority can reveal competence that formal structure ignored. People outside official roles sometimes notice what institutions miss precisely because they have not been trained to ignore it. The room at the community center needed someone to distinguish reported sites from wet places, and Daniel happened to hold the map at the moment when the room was ready to hear the difference.
 

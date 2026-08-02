@@ -164,7 +164,7 @@ Ben turned the coffee cup once in his hand. "I remember the line."
 
 June smiled despite herself. That was not the information Mara had asked for, but it was not irrelevant. The rolls had not existed only as a formula. They had existed in timing, demand, weather, school announcements, and the heat of people standing in a front room before work. A recipe made for that rhythm might not behave the same way after routines shifted.
 
-From the back table, Lena, who came in three mornings a week before her shift at the library, said, "Your aunt used to hold the water back."
+From the back table, Ruth, who came in three mornings a week before her shift at the library, said, "Your aunt used to hold the water back."
 
 June turned. "For these?"
 
@@ -188,7 +188,7 @@ It moves from card to hand, from hand to dough, from dough back to eye, from eye
 
 No one in the bakery owned the whole recipe that morning.
 
-June had memory and obligation. Mara had measurements and a notebook. Lena had an overheard sentence from a winter years earlier. Ben had the building and the draft beneath the rear door. The oven had uneven heat. The flour had its own weather. Customers would bring expectation, appetite, habit, and complaint. The dough itself held the veto no one else could overrule.
+June had memory and obligation. Mara had measurements and a notebook. Ruth had an overheard sentence from a winter years earlier. Ben had the building and the draft beneath the rear door. The oven had uneven heat. The flour had its own weather. Customers would bring expectation, appetite, habit, and complaint. The dough itself held the veto no one else could overrule.
 
 The card mattered because it gave them somewhere to gather.
 
@@ -250,23 +250,13 @@ This was not a joke exactly. Memory changes scale. Rolls shrink because hands gr
 
 The second batch went better. Not perfect. Better.
 
-June held back part of the water at the start, then added it after the flour had taken what it would take. Mara noted the room temperature, the flour lot, the weather, and the additional water. Lena thought the old winter method used a longer rest before shaping. June tried ten minutes, not twenty. The dough relaxed. The oven still browned the back-left corner first. Ben had not yet fixed the draft. Nothing had been solved in the final sense.
+June held back part of the water at the start, then added it after the flour had taken what it would take. Mara noted the room temperature, the flour lot, the weather, and the additional water. Ruth thought the old winter method used a longer rest before shaping. June tried ten minutes, not twenty. The dough relaxed. The oven still browned the back-left corner first. Ben had not yet fixed the draft. Nothing had been solved in the final sense.
 
 Still, understanding had moved.
 
 It had not moved in a straight line from expert to novice. It had moved from card to batch, from batch to question, from question to building, from building to memory, from memory to experiment, from experiment back to the card. Each person held only part of what the morning needed. Each part became more useful when it entered the shared work.
 
-This is the pattern that the morning was quietly making available, though no one in the bakery named it while the trays were cooling.
-
-Understanding Circulates.
-
-Understanding emerges and corrects itself when partial perspectives move among people rather than remaining isolated.
-
-The sentence can sound simple, but its demands are not. It asks more than friendliness. It asks for pathways. The person measuring must be able to question the person remembering. The person remembering must be corrected by the material. The person closest to the draft must be allowed to change the recipe. Customer memory must be heard without being obeyed as law.
-
-It also asks for humility from every direction.
-
-The written instruction must admit that it did not contain all conditions. The experienced hand must admit that touch can hide power when no one else is taught what to feel. The new worker must admit that standardization can preserve knowledge or flatten it. The material must be allowed to answer, and people must be allowed to carry that answer to one another.
+The morning asked for pathways more than friendliness. The person measuring had to be able to question the person remembering. The person remembering had to be corrected by the material. The person closest to the draft had to be allowed to change the recipe. Customer memory had to be heard without being obeyed as law. The written instruction had to admit that it did not contain all conditions. The experienced hand had to admit that touch can hide power when no one else is taught what to feel. The material had to be allowed to answer, and people had to be allowed to carry that answer to one another.
 
 Near the end of the morning, after the second rush had thinned and the front case held only three of the rolls, June took the recipe card down from the shelf. Mara set the notebook beside it, open to the day's measurements. The pages were clean in the way new systems are clean before enough reality has touched them.
 
@@ -312,7 +302,7 @@ Mara did not write that down immediately. She stood with the notebook open while
 
 The bakery kept working.
 
-Ben would return with the door sweep. Lena would come back on Friday and perhaps remember the longer rest more clearly, or decide she had confused it with another recipe. Mara would keep measuring because measurements mattered. June would keep touching the dough because touch mattered. Customers would keep asking for what they remembered, which was sometimes the roll and sometimes the morning around it.
+Ben would return with the door sweep. Ruth would come back on Friday and perhaps remember the longer rest more clearly, or decide she had confused it with another recipe. Mara would keep measuring because measurements mattered. June would keep touching the dough because touch mattered. Customers would keep asking for what they remembered, which was sometimes the roll and sometimes the morning around it.
 
 The card went back into the drawer before lunch.
 

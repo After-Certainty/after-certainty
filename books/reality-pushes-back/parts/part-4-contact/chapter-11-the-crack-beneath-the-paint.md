@@ -322,11 +322,7 @@ It had shaped the warning's path.
 
 The pattern was not simply that bad news exists. Bad news exists everywhere. A crack returns. A nurse worries. A technician hears a sound. A clerk sees repeated confusion. A teacher notices a child disappearing inside a category. A driver knows the route fails in ice. A line worker knows the part never fits. A resident knows the water is coming from the far end, not where the map expects.
 
-The question is whether the knowledge can travel intact enough to meet authority before reality removes the choice.
-
-Bad News Reaches Power.
-
-Systems learn and correct only when uncomfortable evidence can reach people with the authority and capacity to act.
+The question is whether the knowledge can travel intact enough to meet authority before reality removes the choice. Systems learn and correct only when uncomfortable evidence can reach people with the authority and capacity to act.
 
 Power here does not mean rank alone. It means the capacity to stop, inspect, spend, change sequence, revise classification, protect the person who speaks, and accept uncertainty without requiring the warning to arrive already proven. A receptionist, carpenter, engineer, or council member may each hold one part of that power. Each can fail the warning by demanding that someone else carry its discomfort.
 

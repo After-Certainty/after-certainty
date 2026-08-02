@@ -292,11 +292,7 @@ It is accuracy with obligation attached.
 
 It asks the school to see Eli as Eli without exempting itself from the responsibilities created by every child not standing in the office that afternoon. It asks Nora not to use particular knowledge to avoid a hard action if the action is needed. It asks the district not to treat a threshold as if it had already interpreted the cause. It asks the town not to let a compliant stop become proof that a child can use it. It asks adults not to turn wet cuffs into a story about their own attentiveness.
 
-Care Preserves Particulars.
-
-Care keeps the specific person, case, circumstance, and context visible when rules and averages would otherwise erase them.
-
-The word preserves matters. Care does not invent uniqueness where none is relevant. It preserves the particulars that reality has already supplied and that the rule would otherwise pass over. It keeps the case from closing too soon. It also keeps the adult from pretending that attention itself is the same as help.
+Care keeps the specific person, case, circumstance, and context visible when rules and averages would otherwise erase them. It does not invent uniqueness where none is relevant. It preserves the particulars that reality has already supplied and that the rule would otherwise pass over. It keeps the case from closing too soon. It also keeps the adult from pretending that attention itself is the same as help.
 
 By five o'clock, the school had emptied into its evening sounds. Custodians moved trash cans into the hallway. The after-school program filled the cafeteria with homework, chess pieces, snack wrappers, and children being contained differently. Rain thinned to mist. The parking lot lights came on before the sky required them.
 

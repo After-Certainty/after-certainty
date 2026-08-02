@@ -834,3 +834,11 @@ This is the book’s distinguishing structure:
 Material → Human → Civilization
 Or:
 Reality first answers our hands, then our relationships, then our institutions.
+________________
+
+Hinge Chapters
+Chapters 3, 6, and 9 are intentional hinge chapters. Their endings may name the completed force and turn toward the next part more explicitly than ordinary chapter endings. They should remain brief, rhythmic, and connected to the chapter’s material object.
+________________
+
+Town Name
+The town remains unnamed in the manuscript for now. Cover art or generated mockups should not canonize a town name such as Riverbend unless a later deliberate decision is made to name the town.

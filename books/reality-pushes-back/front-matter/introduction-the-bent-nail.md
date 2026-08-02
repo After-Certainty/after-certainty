@@ -146,33 +146,7 @@ But again and again, something ordinary would resist being reduced to the use so
 
 Perception shapes power. Power becomes structure. Structure persists through time. Time weakens contact with the people and consequences that first gave the structure meaning. Restored contact changes perception again. Reality answers all along the way.
 
-That answer is not always dramatic.
-
-Most of the time it arrives as a detail.
-
-A cuff stretched farther than the label can say.
-
-A dough that refuses the written measurement.
-
-A board that rocks on a flat bench.
-
-A chair everyone turns toward.
-
-A stitch that shows where one hand stopped and another began.
-
-A wrench that reveals how much force one person can apply from a distance.
-
-A key no one can place.
-
-A machine that moves faster than correction.
-
-A pencil line still waiting for the saw.
-
-A worn floor hidden beneath a rug.
-
-A crack returning through paint.
-
-A signature not yet made.
+That answer is not always dramatic. Most of the time it arrives as a detail: a cuff the label cannot describe, dough that refuses the written measurement, a board that will not lie flat, a chair the room turns toward, a key no one can place, a form left unsigned.
 
 The scale of these details can deceive us. They look too small to matter until they accumulate, and then they become the difference between seeing and missing, between responsibility and excuse, between repair and repeated damage. A bent nail does not refute carpentry. It teaches the carpenter where the plan met the grain. A failed category does not refute categories. It teaches the institution where the person exceeded the description. A consequence returning late does not prove all planning foolish. It shows where the plan lost contact with what it was shaping.
 
