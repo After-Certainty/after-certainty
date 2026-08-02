@@ -7,10 +7,11 @@ import { InBookSearch } from "@/components/reading/in-book-search";
 import { resetSearchIndexCacheForTests } from "@/components/search/use-search-index";
 import type { SearchIndexPayload } from "@/lib/search/indexPayload";
 
-const push = vi.fn();
+const navigateToChapter = vi.fn();
 
-vi.mock("next/navigation", () => ({
-  useRouter: () => ({ push, replace: vi.fn() }),
+vi.mock("@/lib/reading/navigate-chapter", () => ({
+  navigateToChapter: (...args: unknown[]) => navigateToChapter(...args),
+  cancelSpokenContent: vi.fn(),
 }));
 
 vi.mock("@/lib/analytics/track", () => ({
@@ -94,7 +95,7 @@ function payload(): SearchIndexPayload {
 describe("InBookSearch", () => {
   beforeEach(() => {
     resetSearchIndexCacheForTests();
-    push.mockReset();
+    navigateToChapter.mockReset();
     vi.stubGlobal(
       "fetch",
       vi.fn().mockResolvedValue({

@@ -1,9 +1,9 @@
 "use client";
 
-import Link from "next/link";
 import { useCallback, useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 
+import { ReaderChapterLink } from "@/components/reading/reader-chapter-link";
 import { trapFocusKeydown } from "@/lib/a11y/focus-trap";
 import type { ChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 
@@ -68,13 +68,13 @@ export function ChapterTocList({
                         {label}
                       </span>
                     ) : (
-                      <Link
+                      <ReaderChapterLink
                         href={chapter.href}
                         className="block text-sm leading-snug text-muted transition-colors hover:text-fg"
                         onClick={onNavigate}
                       >
                         {label}
-                      </Link>
+                      </ReaderChapterLink>
                     )}
                   </li>
                 );

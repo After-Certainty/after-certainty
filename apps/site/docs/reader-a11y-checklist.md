@@ -15,6 +15,7 @@ Playwright (`e2e/reader-a11y.spec.ts`, `e2e/reader-smoke.spec.ts`).
 - [x] Manuscript body target `#chapter-content` is focusable (`tabindex="-1"`) for skip
 - [x] Sticky reading progress chrome exposes `role="progressbar"` (chapter scroll %)
 - [x] Standard site header/footer are omitted on reader routes; restored on book detail after exit
+- [x] Chapter→chapter links use full document navigation so Mobile Safari Listen to Page / Speak Screen rescans the new chapter
 
 ## Skip links
 

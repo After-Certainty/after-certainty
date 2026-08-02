@@ -1,6 +1,4 @@
-import Link from "next/link";
-
-import { TrackedLink } from "@/components/analytics/tracked-link";
+import { ReaderChapterLink } from "@/components/reading/reader-chapter-link";
 import { AnalyticsEvents } from "@/lib/analytics/events";
 import type { ChapterNavLink } from "@/lib/reading/chapter-navigation";
 
@@ -18,6 +16,8 @@ export type ChapterAdjacentNavProps = {
 
 /**
  * Previous / next chapter controls in edition reading order (READ-004).
+ * Uses full-document links so Mobile Safari Listen to Page / Speak Screen
+ * reloads against the new chapter instead of staying on the previous one.
  */
 export function ChapterAdjacentNav({
   prev,
@@ -45,7 +45,7 @@ export function ChapterAdjacentNav({
     <nav aria-label={ariaLabel} className={className}>
       <div className="min-w-0 flex-1 sm:max-w-[min(100%,28rem)]">
         {prev ? (
-          <Link
+          <ReaderChapterLink
             href={prev.href}
             className="group block text-left"
             aria-label={`Previous chapter: ${prev.title}`}
@@ -57,14 +57,14 @@ export function ChapterAdjacentNav({
               </span>
               {prev.title}
             </span>
-          </Link>
+          </ReaderChapterLink>
         ) : (
           <span className="text-[11px] uppercase tracking-[0.28em] text-muted/50">Beginning</span>
         )}
       </div>
       <div className="min-w-0 flex-1 text-right sm:max-w-[min(100%,28rem)]">
         {next ? (
-          <TrackedLink
+          <ReaderChapterLink
             href={next.href}
             className="group ml-auto block max-w-full text-right"
             aria-label={`Next chapter: ${next.title}`}
@@ -78,7 +78,7 @@ export function ChapterAdjacentNav({
                 →
               </span>
             </span>
-          </TrackedLink>
+          </ReaderChapterLink>
         ) : (
           <span className="text-[11px] uppercase tracking-[0.28em] text-muted/50">End</span>
         )}

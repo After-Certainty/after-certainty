@@ -26,7 +26,10 @@ describe("ChapterAdjacentNav", () => {
       />,
     );
 
-    fireEvent.click(screen.getByRole("link", { name: "Next chapter: Chapter Two" }));
+    const next = screen.getByRole("link", { name: "Next chapter: Chapter Two" });
+    expect(next).toHaveAttribute("href", "/explore/books/demo/chapters/two");
+    expect(next).toHaveAttribute("data-reader-hard-nav", "");
+    fireEvent.click(next);
     expect(trackEvent).toHaveBeenCalledWith("next_chapter", {
       book_id: "book-1",
       from_chapter_id: "ch-1",
