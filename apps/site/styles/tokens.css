@@ -14,6 +14,14 @@
   --accent: #c9a962;
   --accent-soft: rgba(201, 169, 98, 0.14);
   --glow: rgba(201, 169, 98, 0.08);
+
+  /* Books surfaces — compact mobile density (redesign Phase A) */
+  --books-section-y: 0.5rem;
+  --books-section-y-md: 5rem;
+  --books-row-gap: 0;
+  --books-row-py: 0.625rem;
+  --books-cover-list-w: 3.5rem;
+  --books-cover-list-h: 5.25rem;
 }
 
 .light {
@@ -26,4 +34,6 @@
   --accent: #8a6f2d;
   --accent-soft: rgba(138, 111, 45, 0.12);
   --glow: rgba(138, 111, 45, 0.06);
+
+  /* Books density tokens inherit from :root unless overridden for light. */
 }

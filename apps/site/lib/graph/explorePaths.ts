@@ -12,6 +12,16 @@ export const explorePaths = {
 } as const;
 
 /**
+ * Dedicated curated shelf pathname (Phase C will mount the App Router page).
+ * Catalog filter `?shelf=` remains valid; this is the primary “View all” destination once live.
+ * @see apps/site/docs/roadmaps/books-reader-redesign.md
+ */
+export function exploreBooksShelfHref(shelfSlug: string): string {
+  const slug = shelfSlug.trim();
+  return `${explorePaths.books}/shelves/${encodeURIComponent(slug)}`;
+}
+
+/**
  * Canonical chapter pathname (READ-001). Matches manifest `routeKey`.
  * App Router page exists at this path (READ-002).
  */
