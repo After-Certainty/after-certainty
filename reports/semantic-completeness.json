@@ -1151,7 +1151,7 @@
     },
     {
       "chapterSummaryCoverage": {
-        "present": 0,
+        "present": 15,
         "total": 15
       },
       "contentType": "nonfiction",
@@ -1160,7 +1160,7 @@
         "audience": "complete",
         "centralQuestion": "complete",
         "chapterStructure": "complete",
-        "chapterSummaries": "missing",
+        "chapterSummaries": "complete",
         "contentType": "complete",
         "literaryForm": "complete",
         "nonGoals": "complete",
@@ -1396,11 +1396,11 @@
       "workId": "work-why-diversity-matters"
     }
   ],
-  "generatedAt": "2026-08-01T23:16:31.517648+00:00",
+  "generatedAt": "2026-08-01T23:28:23.209467+00:00",
   "manifest": {
-    "generatedAt": "2026-08-01T23:16:19.716026+00:00",
+    "generatedAt": "2026-08-01T23:28:11.852904+00:00",
     "schemaVersion": "2.4",
-    "sourceCommit": "7b20a4166883a0bd5032fe9d3a94770bdfe3e586"
+    "sourceCommit": "dc6f609d885984cacbc5d59ae27df29a46cb4005"
   },
   "summaries": {
     "booksAbsentFromEditorialShelves": [],
@@ -1463,7 +1463,6 @@
       "when-incentives-become-the-moral-language",
       "when-interpretation-no-longer-matters",
       "when-moral-seriousness-scales",
-      "when-others-become-leaders",
       "when-others-look-to-you-v1",
       "when-others-look-to-you-v2",
       "when-trust-stops-tracking-reality",

@@ -1,0 +1,431 @@
+version: 1
+chapters:
+  - sourcePath: front-matter/reading-with-the-series.md
+    summary: >
+      The book stands alone; its closest companion is When Others Look To You, which studies
+      influence gathering around someone. This volume asks what that influence leaves behind—
+      more capable people and communities, or dependence on the original figure. Both use
+      circulation for influence that can move through people and practices, with the caution
+      that cruelty circulates too.
+    centralQuestion: What does this book ask after influence has already gathered around someone?
+    selectedConcepts:
+      - circulation
+      - agency
+      - authority
+      - guest-leadership
+    selectedPatterns:
+      - leadership-coalesces
+      - leadership-reproduces-itself
+    searchAliases:
+      - reading with the series
+      - companion to when others look to you
+      - circulation caution
+    transition:
+      toNext: >
+        From series placement into the introduction's wrong question about the head of the table.
+
+  - sourcePath: front-matter/introduction-the-wrong-question.md
+    summary: >
+      Leadership books usually begin with the chair at the head of the table—how the occupant
+      thinks, decides, and crosses the room into that place. The introduction reframes: groups
+      need people willing to move before agreement is complete, but the lasting question is what
+      a leader leaves behind. Influence that only concentrates around one person fails the test
+      of circulation—whether agency multiplies when the original figure is absent.
+    centralQuestion: What should we ask of leadership besides who occupies the chair?
+    selectedConcepts:
+      - circulation
+      - agency
+      - authority
+      - guest-leadership
+      - moral-posture-toward-harm
+    selectedPatterns:
+      - leadership-coalesces
+      - leadership-reproduces-itself
+      - admiration-becomes-insulation
+    searchAliases:
+      - the wrong question
+      - chair at the head of the table
+      - what a leader leaves behind
+    situations:
+      - leadership-reproduces-under-pressure
+      - reliable-person-becomes-the-route
+    transition:
+      fromPrevious: >
+        From series orientation into why studying only the chair is the wrong frame.
+      toNext: >
+        From the reframed question into Part I—beginnings that do not yet look like leadership.
+
+  - sourcePath: parts/part-1-how-influence-begins/bridge.md
+    summary: >
+      Part I studies beginnings that do not yet look like leadership: a meal, a grain of salt,
+      the strange pause after victory. None announces a program; each shows how influence
+      acquires moral shape—who belongs, what a body may refuse, what power is for—before it
+      hardens into office or legend.
+    centralQuestion: How does influence acquire moral shape before it looks like leadership?
+    selectedConcepts:
+      - circulation
+      - agency
+      - moral-posture-toward-harm
+      - relational-credibility
+    selectedPatterns:
+      - leadership-coalesces
+      - meaning-forms-early
+    searchAliases:
+      - how influence begins
+      - meal salt victory
+      - moral shape before office
+    transition:
+      fromPrevious: >
+        From the introduction's wrong question into beginnings that precede titles.
+      toNext: >
+        From the part frame into the table as the first moral arrangement of belonging.
+
+  - sourcePath: parts/part-1-how-influence-begins/chapter-1-the-table.md
+    summary: >
+      Chairs face inward and seating becomes moral arrangement: who sits near the host, who
+      waits with the children, who finds no place prepared. Tables draw temporary circles of
+      belonging at weddings, cafeterias, state dinners, and family holidays. Influence begins
+      here as hospitality and exclusion—who may speak and be heard—long before anyone names a
+      leader.
+    centralQuestion: How do seating and hospitality become the first politics of who belongs?
+    selectedConcepts:
+      - guest-leadership
+      - relational-credibility
+      - circulation
+      - agency
+      - moral-posture-toward-harm
+    selectedPatterns:
+      - leadership-coalesces
+      - meaning-forms-early
+      - contact-keeps-the-read-open
+    searchAliases:
+      - the table
+      - seating as moral arrangement
+      - who belongs at the meal
+    situations:
+      - leadership-reproduces-under-pressure
+    transition:
+      fromPrevious: >
+        From Part I's beginnings into the table as first circle of belonging.
+      toNext: >
+        From hospitality's circle into salt—influence that works by disappearing.
+
+  - sourcePath: parts/part-1-how-influence-begins/chapter-2-salt.md
+    summary: >
+      Salt makes food taste more fully of itself by disappearing; it preserves, dissolves, and
+      returns through sweat and tears. Civilizations built roads and monopolies around something
+      no ruler invented. The chapter reads salt as a figure for influence that seasons a group
+      without becoming the dish—circulation that strengthens others rather than concentrating
+      flavor in one name.
+    centralQuestion: What kind of influence works by disappearing into what it strengthens?
+    selectedConcepts:
+      - circulation
+      - guest-leadership
+      - agency
+      - humility
+      - relational-credibility
+    selectedPatterns:
+      - leadership-reproduces-itself
+      - leadership-coalesces
+      - examples-accumulate
+    searchAliases:
+      - salt
+      - influence that disappears
+      - seasoning without becoming the dish
+    situations:
+      - reliable-person-becomes-the-route
+    transition:
+      fromPrevious: >
+        From the table's belonging into salt as circulating, dissolving influence.
+      toNext: >
+        From seasoning into victory—what power does when the contest ends.
+
+  - sourcePath: parts/part-1-how-influence-begins/chapter-3-victory.md
+    summary: >
+      After the whistle, handshake rituals ask winners not to gloat and losers not to strike—
+      the other side remains a person after the score. Wars and governments end on paper while
+      the defeated become neighbors; victory that only humiliates cannot circulate agency. The
+      chapter asks what power is for when counting stops: domination that freezes the field, or
+      a moral posture that leaves room for shared life afterward.
+    centralQuestion: What must victory leave intact if influence is to remain livable afterward?
+    selectedConcepts:
+      - moral-posture-toward-harm
+      - agency
+      - authority
+      - circulation
+      - harm
+    selectedPatterns:
+      - leaders-feel-the-consequences
+      - admiration-becomes-insulation
+      - leadership-coalesces
+    searchAliases:
+      - victory
+      - handshake after the whistle
+      - defeated become neighbors
+    situations:
+      - leaders-judged-beyond-their-reach
+      - admiration-insulates-from-scrutiny
+    transition:
+      fromPrevious: >
+        From salt's disappearing strength into how winners treat the field after counting stops.
+      toNext: >
+        From beginnings into Part II—influence that must travel through marches, trees, and signs.
+
+  - sourcePath: parts/part-2-how-influence-moves/bridge.md
+    summary: >
+      Part II follows influence that must travel: marches that turn belief into geography, trees
+      that ask patience of many hands, signs that reveal when language has become routine. None
+      announces a succession program; each tests whether courage and meaning can circulate beyond
+      the person who first stood up.
+    centralQuestion: How does influence move when it must travel beyond the person who first gathered it?
+    selectedConcepts:
+      - circulation
+      - agency
+      - authority
+      - formation
+    selectedPatterns:
+      - leadership-reproduces-itself
+      - leadership-coalesces
+    searchAliases:
+      - how influence moves
+      - march tree sign
+      - travel beyond the first person
+    transition:
+      fromPrevious: >
+        From Part I's beginnings into movement across space, time, and language.
+      toNext: >
+        From the part frame into the march as belief made geography.
+
+  - sourcePath: parts/part-2-how-influence-moves/chapter-4-the-march.md
+    summary: >
+      Ordinary walking becomes dispute when continuing means contesting who may occupy space
+      and whether permission was ever another's to give. Marches matter across struggles because
+      they turn belief into geography—bodies advancing together rewrite what the road allows.
+      Influence moves here as shared risk and visible claim, not only as speech from a platform.
+    centralQuestion: How does walking together turn belief into a claim on shared space?
+    selectedConcepts:
+      - circulation
+      - agency
+      - authority
+      - moral-posture-toward-harm
+      - relational-credibility
+    selectedPatterns:
+      - leadership-coalesces
+      - leadership-reproduces-itself
+      - leaders-feel-the-consequences
+    searchAliases:
+      - the march
+      - belief into geography
+      - walking as dispute
+    situations:
+      - leadership-reproduces-under-pressure
+    transition:
+      fromPrevious: >
+        From Part II's travel frame into the march as embodied claim.
+      toNext: >
+        From visible geography into the tree—change that asks patience underground.
+
+  - sourcePath: parts/part-2-how-influence-moves/chapter-5-the-tree.md
+    summary: >
+      A seed disappears before anything shows; watering the same patch looks like failure until
+      it does not. Public change is supposed to announce itself in laws and crowds photographed
+      from above; growing influence often does not. The tree figures circulation as many hands
+      protecting slow work—agency that multiplies across seasons rather than a single spectacle.
+    centralQuestion: How does influence circulate when growth stays invisible longer than spectacle allows?
+    selectedConcepts:
+      - circulation
+      - agency
+      - formation
+      - guest-leadership
+      - humility
+    selectedPatterns:
+      - examples-accumulate
+      - leadership-reproduces-itself
+      - meaning-forms-early
+    searchAliases:
+      - the tree
+      - seed underground
+      - patience of many hands
+    situations:
+      - reliable-person-becomes-the-route
+    transition:
+      fromPrevious: >
+        From the march's visible claim into slow growth that resists announcement.
+      toNext: >
+        From living growth into signs—words that remain after the person goes home.
+
+  - sourcePath: parts/part-2-how-influence-moves/chapter-6-the-sign.md
+    summary: >
+      Signs repeat without breath: wash hands, no parking, be kind above a hallway of exclusion,
+      values in a lobby that punish literal practice. Displayed words can guide or merely prove
+      that the proper language was posted. Influence moves poorly when signs substitute for
+      answerable practice—circulation fails when language becomes routine cover rather than
+      shared obligation.
+    centralQuestion: When do posted words circulate real obligation, and when do they only display it?
+    selectedConcepts:
+      - authority
+      - legitimacy
+      - moral-posture-toward-harm
+      - circulation
+      - judgment
+    selectedPatterns:
+      - admiration-becomes-insulation
+      - meaning-forms-early
+      - leadership-reproduces-itself
+    searchAliases:
+      - the sign
+      - be kind hallway
+      - values in the lobby
+    situations:
+      - admiration-insulates-from-scrutiny
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From slow growth into language that outlasts the person who posted it.
+      toNext: >
+        From movement into Part III—what endures when the originating leader is absent.
+
+  - sourcePath: parts/part-3-how-influence-endures/bridge.md
+    summary: >
+      Part III turns to endurance: what keeps producing agency after the originating leader is
+      absent or no longer central. A house if guests become stewards; a neighborhood if attention
+      is teachable; a bracelet if culture no longer waits for the stage. Places, relationships,
+      and practices carry influence forward without a succession program.
+    centralQuestion: What keeps producing agency when the person who first gathered attention is gone?
+    selectedConcepts:
+      - circulation
+      - agency
+      - guest-leadership
+      - formation
+    selectedPatterns:
+      - leadership-reproduces-itself
+      - leaders-feel-the-consequences
+    searchAliases:
+      - how influence endures
+      - after the originating leader
+      - house neighborhood bracelet
+    transition:
+      fromPrevious: >
+        From influence that travels into forms that outlast the first gatherer.
+      toNext: >
+        From the part frame into the house—threshold, guest, steward.
+
+  - sourcePath: parts/part-3-how-influence-endures/chapter-7-the-house.md
+    summary: >
+      Inside and outside, locks and curtains mark belonging; hospitality changes the threshold
+      so a traveler can stop being outside for a while. A house outlasts its founder when guests
+      become stewards rather than permanent dependents on the original host. Enduring influence
+      here is guest-leadership: temporary crossing that teaches people to keep the room open
+      without erasing the door.
+    centralQuestion: How does a house keep producing welcome after the founder no longer opens every door?
+    selectedConcepts:
+      - guest-leadership
+      - circulation
+      - agency
+      - relational-credibility
+      - formation
+    selectedPatterns:
+      - leadership-reproduces-itself
+      - contact-keeps-the-read-open
+      - leaders-feel-the-consequences
+    searchAliases:
+      - the house
+      - threshold and guest
+      - guests become stewards
+    situations:
+      - reliable-person-becomes-the-route
+      - leadership-reproduces-under-pressure
+    transition:
+      fromPrevious: >
+        From Part III's endurance frame into the house as steerable threshold.
+      toNext: >
+        From domestic stewardship into the neighborhood—attention as teachable practice.
+
+  - sourcePath: parts/part-3-how-influence-endures/chapter-8-the-neighborhood.md
+    summary: >
+      Children notice divided adult attention—the delayed answer, the smile without understanding—
+      because their lives depend on people larger than themselves. Sustained listening surrenders
+      the prepared argument and the right to decide too quickly what the speaker means. Influence
+      endures in neighborhoods when attention is teachable: not charisma on a feed, but practiced
+      presence that can be learned and passed along.
+    centralQuestion: How does teachable attention keep influence alive when screens and schedules divide it?
+    selectedConcepts:
+      - attention
+      - circulation
+      - relational-credibility
+      - formation
+      - agency
+    selectedPatterns:
+      - contact-keeps-the-read-open
+      - leadership-reproduces-itself
+      - leaders-feel-the-consequences
+    searchAliases:
+      - the neighborhood
+      - divided attention
+      - listening as surrender
+    situations:
+      - same-meeting-different-decisions
+    transition:
+      fromPrevious: >
+        From the house's threshold into attention as shared neighborhood practice.
+      toNext: >
+        From teachable presence into the bracelet—value that increases by moving.
+
+  - sourcePath: parts/part-3-how-influence-endures/chapter-9-the-bracelet.md
+    summary: >
+      Friendship bracelets begin at a kitchen table with cheap beads—no stage, no committee.
+      Most valuables gain worth by being guarded; the bracelet gains worth by moving through
+      hands that share a vocabulary. Culture circulates when people no longer wait for
+      instruction from the stage: guest-made objects and jokes become the medium of belonging
+      that outlasts any single performer.
+    centralQuestion: What kind of cultural object increases in value by circulating rather than by being owned?
+    selectedConcepts:
+      - circulation
+      - guest-leadership
+      - agency
+      - formation
+      - relational-credibility
+    selectedPatterns:
+      - leadership-reproduces-itself
+      - examples-accumulate
+      - meaning-forms-early
+    searchAliases:
+      - the bracelet
+      - friendship beads
+      - value that moves
+    situations:
+      - reliable-person-becomes-the-route
+    transition:
+      fromPrevious: >
+        From neighborhood attention into culture that circulates without the stage.
+      toNext: >
+        From enduring forms into the empty chair—absence without freezing the room.
+
+  - sourcePath: back-matter/epilogue-the-empty-chair.md
+    summary: >
+      Habit still reaches for the absent person's cup; families leave the chair untouched because
+      claiming it can feel like declaring absence complete. Eventually furniture moves—a guest,
+      a growing child, a chair by the window—and importance no longer requires preserving the
+      room exactly. The epilogue closes the book's test: leadership that circulates lets the
+      empty chair remain meaningful without making the living freeze around it.
+    centralQuestion: How do we honor an absent leader without turning the room into a museum of their place?
+    selectedConcepts:
+      - circulation
+      - agency
+      - guest-leadership
+      - authority
+      - humility
+    selectedPatterns:
+      - leadership-reproduces-itself
+      - admiration-becomes-insulation
+      - leaders-feel-the-consequences
+    searchAliases:
+      - the empty chair
+      - absence without museum
+      - furniture eventually moves
+    situations:
+      - admiration-insulates-from-scrutiny
+      - reliable-person-becomes-the-route
+    transition:
+      fromPrevious: >
+        From circulating culture into how absence tests whether agency was left behind.
