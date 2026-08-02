@@ -1,12 +1,13 @@
 import type { MetadataRoute } from "next";
 import { bookIsPublic } from "@/lib/books/book-metadata";
+import { getActiveShelves } from "@/lib/books/shelves";
 import { getBooks } from "@/lib/content-data";
 import { listChapterSitemapPaths } from "@/lib/corpus/public-registry";
 import { getQuestionSitemapSlugs } from "@/lib/questions/loadQuestions";
 import { getTrailSitemapSlugs } from "@/lib/trails/loadTrails";
 import { getSemanticGraph } from "@/lib/graph/manifest";
 import { resolveThinkers } from "@/lib/graph/thinkers";
-import { explorePaths } from "@/lib/graph/explorePaths";
+import { exploreBooksShelfHref, explorePaths } from "@/lib/graph/explorePaths";
 import { resolveDeploymentUrl } from "@/lib/site-config";
 
 /** Marketing and section landing pages */
@@ -58,6 +59,9 @@ export async function getSitemapPaths(): Promise<string[]> {
   }
 
   const graph = await getSemanticGraph();
+  for (const shelf of getActiveShelves(graph)) {
+    paths.push(exploreBooksShelfHref(shelf.slug));
+  }
   for (const concept of graph.glossary) {
     paths.push(`${explorePaths.concepts}/${concept.slug}`);
   }

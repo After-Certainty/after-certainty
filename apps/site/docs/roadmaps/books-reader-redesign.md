@@ -1,6 +1,6 @@
 # Books, curated shelves, book detail, and native reader redesign
 
-**Status:** Active — specialized site plan (Phase A complete; Phase B in progress)  
+**Status:** Active — specialized site plan (Phases A–B complete; Phase C in progress)  
 **Created:** 2026-08-02  
 **Location:** `apps/site/docs/roadmaps/books-reader-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
@@ -205,7 +205,7 @@ Device-scoped features (label clearly; never imply sync):
 **Tests:** Unit tests for paths/selectors/storage; component tests for list card / shelf section.  
 **Routes / manifests:** Path convention only; no new App Router page; no semantic YAML changes.
 
-### Phase B — Books index refinement (this PR)
+### Phase B — Books index refinement (complete — PR #461)
 
 **Objective:** Tighten hero, accordion density, catalog controls, footer dominance on mobile.
 
@@ -215,11 +215,13 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** Breaking shared Explore hero for other index pages — mitigated by opt-in `density`.  
 **Routes / manifests:** No.
 
-### Phase C — Dedicated shelf pages
+### Phase C — Dedicated shelf pages (this PR)
 
 **Objective:** `/explore/books/shelves/[slug]` pages; switch “View all” to shelf routes; update public-registry canonical URLs; keep `?shelf=` as catalog filter.
 
-**Acceptance:** Breadcrumb, title, count, description, ordered list, empty/error states.  
+**Likely files:** `app/explore/(browse)/books/shelves/[slug]/page.tsx`, `books-shelf-section.tsx`, `public-registry.ts`, `sitemap.ts`, E2E.
+
+**Acceptance:** Breadcrumb, title, count, description, ordered list, empty/error states; View all → dedicated route; `?shelf=` filter retained; shelves in sitemap.  
 **Risks:** SEO / sitemap / registry URL drift.  
 **Routes / manifests:** New routes; registry URL updates; no invented shelf data.
 

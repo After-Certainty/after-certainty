@@ -12,8 +12,8 @@ export const explorePaths = {
 } as const;
 
 /**
- * Dedicated curated shelf pathname (Phase C will mount the App Router page).
- * Catalog filter `?shelf=` remains valid; this is the primary “View all” destination once live.
+ * Dedicated curated shelf pathname.
+ * Catalog filter `?shelf=` remains valid; dedicated pages are the primary “View all” destination.
  * @see apps/site/docs/roadmaps/books-reader-redesign.md
  */
 export function exploreBooksShelfHref(shelfSlug: string): string {

@@ -4,9 +4,9 @@ import { useId, useState } from "react";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import { CatalogBookCard } from "@/components/books/catalog-book-card";
-import { catalogBrowseQueryString } from "@/lib/books/catalog-url-state";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import type { ShelfDefinition } from "@/lib/books/shelves";
+import { exploreBooksShelfHref } from "@/lib/graph/explorePaths";
 
 type BooksShelfSectionProps = {
   shelf: ShelfDefinition;
@@ -50,16 +50,7 @@ export function BooksShelfSection({
 
   if (books.length === 0) return null;
 
-  // Phase C will switch this to exploreBooksShelfHref(shelf.slug).
-  const viewAllHref = `/explore/books${catalogBrowseQueryString({
-    shelf: shelf.slug,
-    types: [],
-    statuses: [],
-    availability: [],
-    sort: "recommended",
-    q: "",
-    editions: "default",
-  })}`;
+  const viewAllHref = exploreBooksShelfHref(shelf.slug);
 
   const bookCountLabel = `${totalCount} ${totalCount === 1 ? "book" : "books"}`;
   const mobileHeadingId = `shelf-${shelf.slug}-heading`;
@@ -130,7 +121,7 @@ export function BooksShelfSection({
           ))}
         </div>
 
-        {showViewAll && totalCount > books.length ? (
+        {showViewAll ? (
           <p className="mt-2 mb-2 md:mt-8 md:mb-0">
             <TrackedLink
               href={viewAllHref}
@@ -140,7 +131,7 @@ export function BooksShelfSection({
                 params: { shelf_id: shelf.id },
               }}
             >
-              View all {totalCount} books →
+              {totalCount > books.length ? `View all ${totalCount} books →` : `View shelf →`}
             </TrackedLink>
           </p>
         ) : null}
