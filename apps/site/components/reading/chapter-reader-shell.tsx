@@ -1,21 +1,13 @@
 import type { ReactNode } from "react";
 import Link from "next/link";
 
-import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ChapterAdjacentNav } from "@/components/reading/chapter-adjacent-nav";
-import { ChapterReaderDownloads } from "@/components/reading/chapter-reader-downloads";
-import { ChapterToc } from "@/components/reading/chapter-toc";
 import {
   CopySectionLinkControl,
   ManuscriptHeadingCopyLinks,
 } from "@/components/reading/copy-section-link";
-import { InBookSearch } from "@/components/reading/in-book-search";
-import { ChapterBookmarkControl } from "@/components/reading/reading-bookmarks-panel";
-import { ReadingProgressChrome } from "@/components/reading/reading-progress-chrome";
-import {
-  ReadingPreferencesControls,
-  ReadingPreferencesRoot,
-} from "@/components/reading/reading-preferences-controls";
+import { ReaderChrome } from "@/components/reading/reader-chrome";
+import { ReadingPreferencesRoot } from "@/components/reading/reading-preferences-controls";
 import { RecordChapterOpen } from "@/components/reading/record-chapter-open";
 import { RecordReadingProgress } from "@/components/reading/record-reading-progress";
 import { RestoreReadingScroll } from "@/components/reading/restore-reading-scroll";
@@ -36,8 +28,8 @@ export type ChapterReaderShellProps = {
 };
 
 /**
- * SSR chapter reading chrome (READ-002 + READ-004 + READ-008 a11y + READ-011–016).
- * Phase E: sticky progress chrome, denser mobile header, focused exit affordance.
+ * Dedicated chapter reading shell — compact toolbar, Radix controls drawer,
+ * focused reading surface (no site header/footer; those are gated by SiteShell).
  */
 export function ChapterReaderShell({
   book,
@@ -50,10 +42,6 @@ export function ChapterReaderShell({
   const chapterPath =
     chapterPublicPath(chapter) ??
     `${bookHref}/chapters/${chapterSlugFromRouteKey(chapter.routeKey)}`;
-  const minutes =
-    typeof chapter.estimatedReadingMinutes === "number" && chapter.estimatedReadingMinutes > 0
-      ? chapter.estimatedReadingMinutes
-      : undefined;
   const summary = chapter.summary?.trim();
   const centralQuestion = chapter.centralQuestion?.trim();
   const progressEditionId = chapter.editionId || book.id;
@@ -62,18 +50,11 @@ export function ChapterReaderShell({
     : undefined;
   const chapterCount = navigation?.chapters.length;
 
-  const breadcrumbs = [
-    { label: "Explore", href: explorePaths.home },
-    { label: "Books", href: explorePaths.books },
-    { label: book.title, href: bookHref },
-    { label: chapter.title },
-  ];
-
   return (
     <ReadingPreferencesRoot
       aria-labelledby="chapter-title"
       data-chapter-reader=""
-      className="relative mx-auto px-4 py-6 md:py-12"
+      className="relative mx-auto px-4 pb-10 pt-0 md:pb-16"
     >
       <RecordReadingProgress editionId={progressEditionId} chapterId={chapter.id} />
       <RestoreReadingScroll editionId={progressEditionId} chapterId={chapter.id} />
@@ -84,57 +65,36 @@ export function ChapterReaderShell({
         Skip to chapter text
       </a>
 
-      <ReadingProgressChrome
+      <ReaderChrome
         bookTitle={book.title}
         bookHref={bookHref}
+        chapterTitle={chapter.title}
+        editionId={progressEditionId}
+        chapterId={chapter.id}
         chapterIndex={chapterIndex && chapterIndex > 0 ? chapterIndex : undefined}
         chapterCount={chapterCount}
+        navigation={navigation}
       />
 
-      <div className="hidden md:block">
-        <BreadcrumbTrail items={breadcrumbs} />
-      </div>
-
-      <header className="mb-6 space-y-3 border-b border-border/40 pb-6 md:mb-8 md:space-y-4 md:pb-8">
-        <p className="text-[11px] uppercase tracking-[0.2em] text-muted">
-          <Link href={bookHref} className="transition-colors hover:text-accent">
-            {book.title}
-          </Link>
-          {chapter.partTitle ? (
-            <>
-              <span className="mx-2 text-border" aria-hidden>
-                /
-              </span>
-              <span>{chapter.partTitle}</span>
-            </>
-          ) : null}
+      <header className="mb-6 space-y-3 pt-6 md:mb-8 md:pt-8">
+        <p className="text-[11px] uppercase tracking-[0.22em] text-accent">
+          {kindLabel || (chapter.partTitle ? chapter.partTitle : "Chapter")}
         </p>
 
         <h1
           id="chapter-title"
-          className="font-display text-2xl leading-tight text-fg sm:text-3xl md:text-4xl"
+          className="font-display text-3xl leading-tight text-fg sm:text-4xl md:text-[2.75rem]"
         >
           {chapter.title}
         </h1>
 
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-muted">
-          {kindLabel ? <span>{kindLabel}</span> : null}
-          {kindLabel && minutes ? <span aria-hidden>·</span> : null}
-          {minutes ? (
-            <span>
-              About {minutes} min
-              {minutes === 1 ? "" : "s"}
-            </span>
-          ) : null}
-          <ChapterBookmarkControl
-            editionId={progressEditionId}
-            chapterId={chapter.id}
-            chapterTitle={chapter.title}
-          />
-          <CopySectionLinkControl chapterPath={chapterPath} />
+        <div className="flex justify-center py-1" aria-hidden>
+          <span className="text-accent/80">❧</span>
         </div>
 
-        <ReadingPreferencesControls />
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-muted">
+          <CopySectionLinkControl chapterPath={chapterPath} />
+        </div>
 
         {centralQuestion ? (
           <p className="text-base leading-relaxed text-fg/90 md:text-lg">
@@ -146,26 +106,12 @@ export function ChapterReaderShell({
         {summary ? (
           <p className="text-sm leading-relaxed text-muted md:text-base">{summary}</p>
         ) : null}
-
-        {navigation ? (
-          <ChapterAdjacentNav
-            prev={navigation.prev}
-            next={navigation.next}
-            bookId={book.id}
-            fromChapterId={chapter.id}
-            ariaLabel="Previous and next chapter"
-            className="flex flex-row items-start justify-between gap-4 border-t border-border/30 pt-6 sm:gap-10"
-          />
-        ) : null}
       </header>
-
-      {navigation ? <ChapterToc navigation={navigation} /> : null}
-      <InBookSearch editionId={progressEditionId} bookTitle={book.title} variant="reader" />
 
       <div
         id="chapter-content"
         tabIndex={-1}
-        className="chapter-body prose-reading min-h-[12rem] scroll-mt-28 outline-none md:scroll-mt-24"
+        className="chapter-body prose-reading min-h-[12rem] scroll-mt-24 outline-none md:scroll-mt-28"
       >
         {children ?? (
           <div
@@ -185,17 +131,17 @@ export function ChapterReaderShell({
         )}
       </div>
 
-      <footer className="mt-12 space-y-8 border-t border-border/40 pt-8">
+      <footer className="mt-12 space-y-8 border-t border-border/30 pt-8">
         {navigation ? (
           <ChapterAdjacentNav
             prev={navigation.prev}
             next={navigation.next}
             bookId={book.id}
             fromChapterId={chapter.id}
-            ariaLabel="Previous and next chapter at end of page"
+            ariaLabel="Previous and next chapter"
+            className="flex flex-row items-start justify-between gap-4 sm:gap-10"
           />
         ) : null}
-        <ChapterReaderDownloads book={book} />
         <div className="flex flex-wrap gap-3">
           <ButtonLink href={bookHref} variant="ghost">
             Back to book

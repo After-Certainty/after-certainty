@@ -1,9 +1,18 @@
 import { act, render, screen } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 
-import { ReadingProgressChrome } from "@/components/reading/reading-progress-chrome";
+import { ReaderToolbar } from "@/components/reading/reader-toolbar";
 
-describe("ReadingProgressChrome", () => {
+const toolbarProps = {
+  bookTitle: "After Certainty",
+  bookHref: "/explore/books/after-certainty",
+  chapterTitle: "Introduction",
+  editionId: "edition-after-certainty",
+  chapterId: "chapter-after-certainty-front-matter-introduction",
+  onOpenControls: () => undefined,
+};
+
+describe("ReaderToolbar", () => {
   afterEach(() => {
     vi.restoreAllMocks();
     document.body.innerHTML = "";
@@ -14,14 +23,7 @@ describe("ReadingProgressChrome", () => {
     Object.defineProperty(window, "innerHeight", { configurable: true, value: 800 });
     Object.defineProperty(window, "scrollY", { configurable: true, value: 0 });
 
-    render(
-      <ReadingProgressChrome
-        bookTitle="After Certainty"
-        bookHref="/explore/books/after-certainty"
-        chapterIndex={1}
-        chapterCount={12}
-      />,
-    );
+    render(<ReaderToolbar {...toolbarProps} chapterIndex={1} chapterCount={12} />);
 
     expect(screen.getByTestId("reader-exit")).toHaveAttribute(
       "href",
@@ -36,6 +38,7 @@ describe("ReadingProgressChrome", () => {
       "0",
     );
     expect(screen.getByTestId("reader-scroll-percent")).toHaveTextContent("0%");
+    expect(screen.getByTestId("reader-controls-open")).toBeInTheDocument();
   });
 
   it("updates scroll percent on scroll", () => {
@@ -78,14 +81,7 @@ describe("ReadingProgressChrome", () => {
       });
     vi.spyOn(window, "cancelAnimationFrame").mockImplementation(() => undefined);
 
-    render(
-      <ReadingProgressChrome
-        bookTitle="After Certainty"
-        bookHref="/explore/books/after-certainty"
-        chapterIndex={2}
-        chapterCount={10}
-      />,
-    );
+    render(<ReaderToolbar {...toolbarProps} chapterIndex={2} chapterCount={10} />);
 
     expect(screen.getByTestId("reader-scroll-percent")).toHaveTextContent("50%");
     expect(screen.getByRole("progressbar")).toHaveAttribute("aria-valuenow", "50");

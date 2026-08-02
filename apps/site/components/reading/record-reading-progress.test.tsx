@@ -2,10 +2,7 @@ import { render } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 import { RecordReadingProgress } from "@/components/reading/record-reading-progress";
-import {
-  getReadingProgress,
-  READING_PROGRESS_STORAGE_KEY,
-} from "@/lib/reading/readingProgress";
+import { getReadingProgress, READING_PROGRESS_STORAGE_KEY } from "@/lib/reading/readingProgress";
 
 const EDITION = "book-after-certainty";
 const CHAPTER = "chapter-after-certainty-front-matter-introduction";

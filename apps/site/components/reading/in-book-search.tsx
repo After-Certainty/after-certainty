@@ -28,7 +28,7 @@ export type InBookSearchProps = {
   editionId: string;
   bookTitle: string;
   /** Compact trigger for reader chrome; overview uses a slightly wider control. */
-  variant?: "reader" | "overview";
+  variant?: "reader" | "readerCompact" | "overview";
 };
 
 /**
@@ -48,10 +48,12 @@ export function InBookSearch({ editionId, bookTitle, variant = "reader" }: InBoo
   const triggerClass =
     variant === "overview"
       ? "inline-flex h-10 items-center gap-2 rounded-sm border border-border/60 bg-bg-elevated/30 px-4 text-[11px] uppercase tracking-[0.2em] text-muted transition-colors hover:border-accent/50 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-      : "inline-flex h-10 w-full items-center justify-between rounded-sm border border-border/60 bg-bg-elevated/30 px-4 text-[11px] uppercase tracking-[0.2em] text-muted transition-colors hover:border-accent/50 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:w-auto md:min-w-[12rem]";
+      : variant === "readerCompact"
+        ? "flex min-h-11 w-full items-center justify-between rounded-sm border border-border/50 px-3 text-left text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        : "inline-flex h-10 w-full items-center justify-between rounded-sm border border-border/60 bg-bg-elevated/30 px-4 text-[11px] uppercase tracking-[0.2em] text-muted transition-colors hover:border-accent/50 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:w-auto md:min-w-[12rem]";
 
   return (
-    <div className={variant === "overview" ? "mt-6" : "mb-8"}>
+    <div className={variant === "overview" ? "mt-6" : variant === "readerCompact" ? "" : "mb-8"}>
       <button
         ref={triggerRef}
         type="button"
@@ -112,14 +114,18 @@ function InBookSearchDialog({ panelId, editionId, bookTitle, onClose }: InBookSe
   useEffect(() => {
     const onKey = (e: globalThis.KeyboardEvent) => {
       if (e.key === "Escape") {
+        // Capture + stopImmediatePropagation so a parent Radix Dialog (reader drawer)
+        // does not also close on the same Escape keypress.
         e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
         onClose();
         return;
       }
       trapFocusKeydown(e, panelRef.current);
     };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    window.addEventListener("keydown", onKey, true);
+    return () => window.removeEventListener("keydown", onKey, true);
   }, [onClose]);
 
   const hits: SearchHit[] = useMemo(() => {
@@ -173,6 +179,7 @@ function InBookSearchDialog({ panelId, editionId, bookTitle, onClose }: InBookSe
   function onKeyDown(e: KeyboardEvent<HTMLInputElement>) {
     if (e.key === "Escape") {
       e.preventDefault();
+      e.stopPropagation();
       onClose();
       return;
     }

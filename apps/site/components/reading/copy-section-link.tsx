@@ -7,7 +7,11 @@ function subscribeNoop() {
 }
 
 function useIsClient(): boolean {
-  return useSyncExternalStore(subscribeNoop, () => true, () => false);
+  return useSyncExternalStore(
+    subscribeNoop,
+    () => true,
+    () => false,
+  );
 }
 
 function useLocationHash(): string {
@@ -141,9 +145,12 @@ export function ManuscriptHeadingCopyLinks() {
         const button = document.createElement("button");
         button.type = "button";
         button.className =
-          "ms-2 inline-flex align-middle text-[10px] uppercase tracking-[0.16em] text-muted opacity-100 underline-offset-2 hover:text-accent hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:opacity-0 md:group-hover/heading:opacity-100 md:focus-visible:opacity-100";
+          "ms-2 inline-flex align-middle text-[10px] uppercase tracking-[0.16em] text-muted opacity-0 underline-offset-2 transition-opacity hover:text-accent hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent group-hover/heading:opacity-100 focus-visible:opacity-100";
         button.textContent = "Copy link";
-        button.setAttribute("aria-label", `Copy link to ${heading.textContent?.trim() || "section"}`);
+        button.setAttribute(
+          "aria-label",
+          `Copy link to ${heading.textContent?.trim() || "section"}`,
+        );
         button.dataset.testid = "heading-copy-link";
 
         const onClick = async (event: MouseEvent) => {

@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 import { describe, expect, it, vi } from "vitest";
 
 import { ChapterReaderShell } from "@/components/reading/chapter-reader-shell";
@@ -11,6 +12,22 @@ const enriched = loadManifestFixture("enriched-book");
 vi.mock("@/lib/analytics/track-reader", () => ({
   trackChapterOpen: vi.fn(),
   trackNextChapter: vi.fn(),
+}));
+
+vi.mock("next-themes", () => ({
+  useTheme: () => ({
+    theme: "dark",
+    setTheme: vi.fn(),
+    resolvedTheme: "dark",
+  }),
+}));
+
+vi.mock("next/navigation", () => ({
+  useRouter: () => ({
+    push: vi.fn(),
+    replace: vi.fn(),
+    prefetch: vi.fn(),
+  }),
 }));
 
 function bookWithDownloads(book: Book): Book {
@@ -52,9 +69,11 @@ describe("ChapterReaderShell", () => {
     );
     expect(screen.getByRole("status")).toHaveTextContent(/not on this page yet/i);
     expect(screen.getByText(/Understanding keeps arriving/i)).toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: "Download EPUB" })).not.toBeInTheDocument();
   });
 
-  it("renders TOC and next-chapter link when navigation is provided", () => {
+  it("opens contents drawer from toolbar and shows next-chapter link", async () => {
+    const user = userEvent.setup();
     const book = enriched.books.find((candidate) => candidate.slug === "after-certainty")!;
     const chapter = (enriched.chapters ?? []).find(
       (candidate) => candidate.id === "chapter-after-certainty-front-matter-introduction",
@@ -72,33 +91,28 @@ describe("ChapterReaderShell", () => {
       </ChapterReaderShell>,
     );
 
-    expect(screen.getByTestId("chapter-toc-drawer-open")).toBeInTheDocument();
-    expect(screen.getByTestId("in-book-search-open")).toBeInTheDocument();
     expect(screen.getByTestId("reader-chapter-position")).toHaveAttribute(
       "aria-label",
       expect.stringMatching(/^Chapter \d+ of \d+$/),
     );
     expect(
-      screen.getByRole("navigation", { name: "Previous and next chapter", exact: true }),
+      screen.getByRole("navigation", { name: "Previous and next chapter" }),
     ).toBeInTheDocument();
-    expect(
-      screen.getByRole("navigation", {
-        name: "Previous and next chapter at end of page",
-        exact: true,
-      }),
-    ).toBeInTheDocument();
-    const nextLinks = screen.getAllByRole("link", {
+    const nextLink = screen.getByRole("link", {
       name: `Next chapter: ${navigation!.next!.title}`,
     });
-    expect(nextLinks).toHaveLength(2);
-    for (const link of nextLinks) {
-      expect(link).toHaveAttribute("href", navigation!.next!.href);
-    }
+    expect(nextLink).toHaveAttribute("href", navigation!.next!.href);
     expect(screen.queryByRole("link", { name: /Previous chapter:/i })).not.toBeInTheDocument();
     expect(screen.getByText("Manuscript body")).toBeInTheDocument();
+
+    await user.click(screen.getByTestId("reader-controls-open"));
+    expect(await screen.findByTestId("reader-controls-drawer")).toBeInTheDocument();
+    await user.click(screen.getByTestId("reader-tab-contents"));
+    expect(screen.getByTestId("chapter-toc-drawer")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /The End of Correctness/i })).toBeInTheDocument();
   });
 
-  it("renders download links when the book has release files", () => {
+  it("keeps downloads off the reader surface even when formats exist", () => {
     const book = bookWithDownloads(
       enriched.books.find((candidate) => candidate.slug === "after-certainty")!,
     );
@@ -108,14 +122,8 @@ describe("ChapterReaderShell", () => {
 
     render(<ChapterReaderShell book={book} chapter={chapter} />);
 
-    expect(screen.getByRole("link", { name: "Download EPUB" })).toHaveAttribute(
-      "href",
-      "https://example.com/releases/after-certainty.epub",
-    );
-    expect(screen.getByRole("link", { name: "Download PDF" })).toHaveAttribute(
-      "href",
-      "https://example.com/releases/after-certainty.pdf",
-    );
+    expect(screen.queryByRole("link", { name: "Download EPUB" })).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: "Download PDF" })).not.toBeInTheDocument();
   });
 
   it("renders provided manuscript children instead of the placeholder", () => {

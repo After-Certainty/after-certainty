@@ -20,7 +20,11 @@ function subscribeNoop() {
 }
 
 function useIsClient(): boolean {
-  return useSyncExternalStore(subscribeNoop, () => true, () => false);
+  return useSyncExternalStore(
+    subscribeNoop,
+    () => true,
+    () => false,
+  );
 }
 
 function useLocationHash(): string {
@@ -53,6 +57,8 @@ type ChapterBookmarkControlProps = {
   editionId: string;
   chapterId: string;
   chapterTitle: string;
+  /** Icon-only for compact toolbar; text label for legacy placements. */
+  variant?: "text" | "icon";
 };
 
 /**
@@ -62,12 +68,25 @@ export function ChapterBookmarkControl({
   editionId,
   chapterId,
   chapterTitle,
+  variant = "text",
 }: ChapterBookmarkControlProps) {
   const isClient = useIsClient();
   const hash = useLocationHash();
   const [epoch, setEpoch] = useState(0);
 
-  if (!isClient) return null;
+  if (!isClient) {
+    // Reserve toolbar space before hydration to avoid layout shift.
+    if (variant === "icon") {
+      return (
+        <span
+          className="inline-flex h-11 w-11"
+          aria-hidden
+          data-testid="chapter-bookmark-control-placeholder"
+        />
+      );
+    }
+    return null;
+  }
 
   void epoch;
   const fragment = fragmentFromHash(hash);
@@ -83,8 +102,15 @@ export function ChapterBookmarkControl({
   return (
     <button
       type="button"
-      className="text-xs uppercase tracking-[0.18em] text-muted underline-offset-4 hover:text-accent hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+      className={
+        variant === "icon"
+          ? `inline-flex h-11 w-11 items-center justify-center rounded-sm text-base transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent ${
+              bookmarked ? "text-accent" : "text-muted hover:text-fg"
+            }`
+          : "text-xs uppercase tracking-[0.18em] text-muted underline-offset-4 hover:text-accent hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+      }
       aria-pressed={bookmarked}
+      aria-label={actionLabel}
       data-testid="chapter-bookmark-control"
       onClick={() => {
         toggleReadingBookmark({
@@ -96,7 +122,7 @@ export function ChapterBookmarkControl({
         setEpoch((value) => value + 1);
       }}
     >
-      {actionLabel}
+      {variant === "icon" ? <span aria-hidden>{bookmarked ? "★" : "☆"}</span> : actionLabel}
     </button>
   );
 }

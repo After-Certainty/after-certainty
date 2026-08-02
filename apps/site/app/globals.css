@@ -85,6 +85,141 @@
 
 /* Native Reader manuscript body (READ-003) + a11y baseline (READ-008) */
 @layer components {
+  .reader-drawer-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 500;
+  }
+
+  .reader-drawer-overlay--subtle {
+    background: color-mix(in oklab, var(--bg) 40%, transparent);
+  }
+
+  .reader-drawer-overlay--strong {
+    background: color-mix(in oklab, var(--bg) 70%, transparent);
+    backdrop-filter: blur(2px);
+  }
+
+  .reader-drawer-content {
+    position: fixed;
+    inset-inline: 0;
+    bottom: 0;
+    z-index: 501;
+    display: flex;
+    max-height: min(85dvh, 40rem);
+    flex-direction: column;
+    border: 1px solid color-mix(in oklab, var(--border) 80%, transparent);
+    border-bottom: 0;
+    border-radius: 1rem 1rem 0 0;
+    background: var(--bg-elevated);
+    box-shadow: 0 -12px 40px rgba(0, 0, 0, 0.35);
+    outline: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .reader-drawer-overlay[data-state="open"] {
+      animation: reader-drawer-fade-in 180ms ease-out;
+    }
+
+    .reader-drawer-overlay[data-state="closed"] {
+      animation: reader-drawer-fade-out 140ms ease-in;
+    }
+
+    .reader-drawer-content[data-state="open"] {
+      animation: reader-drawer-slide-in 220ms cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .reader-drawer-content[data-state="closed"] {
+      animation: reader-drawer-slide-out 160ms ease-in;
+    }
+  }
+
+  @keyframes reader-drawer-fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes reader-drawer-fade-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes reader-drawer-slide-in {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes reader-drawer-slide-out {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(100%);
+    }
+  }
+
+  .reader-range {
+    appearance: none;
+    background: transparent;
+  }
+
+  .reader-range:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  .reader-range::-webkit-slider-runnable-track {
+    height: 3px;
+    border-radius: 999px;
+    background: color-mix(in oklab, var(--border) 90%, transparent);
+  }
+
+  .reader-range::-webkit-slider-thumb {
+    appearance: none;
+    margin-top: -7px;
+    width: 1.05rem;
+    height: 1.05rem;
+    border-radius: 999px;
+    background: var(--accent);
+    border: 0;
+  }
+
+  .reader-range::-moz-range-track {
+    height: 3px;
+    border-radius: 999px;
+    background: color-mix(in oklab, var(--border) 90%, transparent);
+  }
+
+  .reader-range::-moz-range-thumb {
+    width: 1.05rem;
+    height: 1.05rem;
+    border-radius: 999px;
+    background: var(--accent);
+    border: 0;
+  }
+
+  /* Soften page texture under the reading column for body-text contrast. */
+  [data-reader-layout] .chapter-reader {
+    position: relative;
+  }
+
+  [data-reader-layout] .chapter-body {
+    border-radius: 0.25rem;
+    background: color-mix(in oklab, var(--bg) 88%, transparent);
+  }
+
   .reader-skip-link {
     position: absolute;
     left: 1rem;

@@ -12,9 +12,7 @@ vi.mock("@/lib/analytics/track-reader", () => ({
 describe("RecordChapterOpen", () => {
   it("fires chapter_open once on mount with IDs only", () => {
     trackChapterOpen.mockClear();
-    render(
-      <RecordChapterOpen bookId="book-1" chapterId="ch-1" editionId="edition-1" />,
-    );
+    render(<RecordChapterOpen bookId="book-1" chapterId="ch-1" editionId="edition-1" />);
     expect(trackChapterOpen).toHaveBeenCalledTimes(1);
     expect(trackChapterOpen).toHaveBeenCalledWith({
       book_id: "book-1",

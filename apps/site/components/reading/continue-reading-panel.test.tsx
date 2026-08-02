@@ -7,10 +7,7 @@ import {
   ContinueReadingStartSection,
 } from "@/components/reading/continue-reading-panel";
 import { buildContinueReadingCatalog } from "@/lib/reading/continueReading";
-import {
-  READING_PROGRESS_STORAGE_KEY,
-  recordReadingProgress,
-} from "@/lib/reading/readingProgress";
+import { READING_PROGRESS_STORAGE_KEY, recordReadingProgress } from "@/lib/reading/readingProgress";
 import { loadManifestFixture } from "@/test/helpers/load-manifest-fixture";
 
 const enriched = loadManifestFixture("enriched-book");
@@ -28,9 +25,7 @@ describe("ContinueReading panels", () => {
   });
 
   it("hides book CTA when there is no progress", async () => {
-    const { container } = render(
-      <ContinueReadingForBook editionId={EDITION} catalog={catalog} />,
-    );
+    const { container } = render(<ContinueReadingForBook editionId={EDITION} catalog={catalog} />);
     await waitFor(() => {
       expect(screen.queryByTestId("continue-reading-book")).not.toBeInTheDocument();
       expect(container).toBeEmptyDOMElement();

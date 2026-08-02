@@ -23,6 +23,9 @@ test.describe("reader smoke (READ-009)", () => {
     await expect(page.getByRole("progressbar", { name: "Chapter scroll progress" })).toBeVisible();
     await expect(page.getByTestId("reader-exit")).toBeVisible();
 
+    await expect(page.getByRole("banner")).toHaveCount(0);
+    await expect(page.getByTestId("reader-controls-open")).toBeVisible();
+
     const next = page
       .getByRole("navigation", { name: "Previous and next chapter", exact: true })
       .getByRole("link", { name: /Next chapter:/i });
@@ -34,6 +37,7 @@ test.describe("reader smoke (READ-009)", () => {
     await page.getByTestId("reader-exit").click();
     await expect(page).toHaveURL(/\/explore\/books\/after-certainty$/);
     await expect(page.getByRole("heading", { name: "After Certainty", level: 1 })).toBeVisible();
+    await expect(page.getByRole("banner")).toBeVisible();
   });
 
   test("manuscript Contents links open chapter routes", async ({ page }) => {

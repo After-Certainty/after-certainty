@@ -2,7 +2,7 @@ import { explorePaths } from "@/lib/graph/explorePaths";
 
 /**
  * True for native chapter reader routes: `/explore/books/{slug}/chapters/{chapterSlug}`.
- * Used to densify site chrome (hide Explore sidebar / site footer) on reading surfaces.
+ * Used to omit standard site header/footer (and Explore sidebar when present) on reading surfaces.
  */
 export function isChapterReaderPath(pathname: string | null | undefined): boolean {
   if (!pathname) return false;

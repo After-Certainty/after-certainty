@@ -17,6 +17,9 @@ test.describe("reader accessibility baseline (READ-008)", () => {
     expect(response?.status()).toBe(200);
 
     await expect(page.locator("#main")).toBeVisible();
+    // Dedicated reader shell — no standard site header/footer.
+    await expect(page.getByRole("banner")).toHaveCount(0);
+    await expect(page.getByRole("contentinfo")).toHaveCount(0);
 
     const article = page.getByRole("article");
     await expect(article).toBeVisible();
@@ -28,18 +31,16 @@ test.describe("reader accessibility baseline (READ-008)", () => {
     const labelledBy = await article.getAttribute("aria-labelledby");
     expect(labelledBy).toBe("chapter-title");
 
-    await expect(page.getByRole("navigation", { name: "Table of contents" })).toBeVisible();
     await expect(
       page.getByRole("navigation", { name: "Previous and next chapter", exact: true }),
     ).toBeVisible();
-    await expect(
-      page.getByRole("navigation", {
-        name: "Previous and next chapter at end of page",
-        exact: true,
-      }),
-    ).toBeVisible();
     await expect(page.getByRole("progressbar", { name: "Chapter scroll progress" })).toBeVisible();
     await expect(page.getByTestId("reader-exit")).toBeVisible();
+
+    await page.getByTestId("reader-controls-open").click();
+    await expect(page.getByTestId("reader-controls-drawer")).toBeVisible();
+    await page.getByTestId("reader-tab-contents").click();
+    await expect(page.getByRole("navigation", { name: "Table of contents" })).toBeVisible();
 
     const content = page.locator("#chapter-content");
     await expect(content).toBeVisible();
@@ -60,7 +61,7 @@ test.describe("reader accessibility baseline (READ-008)", () => {
   test("footnote refs and backrefs resolve to existing ids", async ({ page }) => {
     await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
 
-    const manuscript = page.locator(".chapter-manuscript");
+    const manuscript = page.locator("#chapter-content .chapter-manuscript").first();
     await expect(manuscript).toBeVisible();
 
     const refs = manuscript.locator("a[data-footnote-ref]");
@@ -99,12 +100,26 @@ test.describe("reader accessibility baseline (READ-008)", () => {
 
   test("in-book search Escape restores focus to the trigger", async ({ page }) => {
     await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    await page.getByTestId("reader-overflow-open").click();
+    await expect(page.getByTestId("reader-controls-drawer")).toBeVisible();
+    await page.getByTestId("reader-tab-settings").click();
     const trigger = page.getByTestId("in-book-search-open");
     await expect(trigger).toBeVisible();
     await trigger.click();
     await expect(page.getByTestId("in-book-search-dialog")).toBeVisible();
     await page.keyboard.press("Escape");
+    // Nested search must close without dismissing the parent reader drawer.
     await expect(page.getByTestId("in-book-search-dialog")).toHaveCount(0);
+    await expect(page.getByTestId("reader-controls-drawer")).toBeVisible();
     await expect(trigger).toBeFocused();
+  });
+
+  test("exiting reader restores standard site chrome on book detail", async ({ page }) => {
+    await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    await expect(page.getByRole("banner")).toHaveCount(0);
+    await page.getByTestId("reader-exit").click();
+    await expect(page).toHaveURL(/\/explore\/books\/after-certainty$/);
+    await expect(page.getByRole("banner")).toBeVisible();
+    await expect(page.getByRole("contentinfo")).toBeVisible();
   });
 });
