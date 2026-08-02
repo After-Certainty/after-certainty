@@ -384,6 +384,12 @@ That was the thing she could not stop seeing now. The description was not wrong.
 
 They were pieces.
 
+That was the pattern the sweater had been teaching all week, though the school did not need another slogan to hang above the bins.
+
+Compression Loses the Person.
+
+When complexity is pressed into categories, metrics, roles, averages, summaries, or stories, the person or particular case can disappear from view—not because the compression was false, but because it began to feel complete.
+
 Care did not begin by throwing the pieces away.
 
 It began by remembering that they were pieces.
