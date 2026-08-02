@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { exploreIndexCatalogGridClassName } from "@/components/explore/explore-catalog-card";
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { ExploreIndexPagination } from "@/components/explore/explore-index-pagination";
 import { ExploreIndexSearch } from "@/components/explore/explore-index-search";
@@ -74,7 +75,7 @@ export default async function ExploreThinkersIndexPage({
         headingId="explore-thinkers-heading"
         lede="Philosophers, social scientists, and institutions — grouped as people and organizations rather than individual bibliographic works."
       />
-      <Section atmosphere="transition" className="border-t border-border/25 py-14 md:py-20">
+      <Section atmosphere="transition" className="border-t border-border/25 py-10 md:py-20">
         {thinkers.length === 0 ? (
           <p className="text-muted">No thinkers are published in the manifest yet.</p>
         ) : (
@@ -93,7 +94,7 @@ export default async function ExploreThinkersIndexPage({
             {pageThinkers.length === 0 ? (
               <p className="mt-8 text-muted">No thinkers match that search.</p>
             ) : (
-              <div className="mt-8 grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+              <div className={`mt-6 md:mt-8 ${exploreIndexCatalogGridClassName}`}>
                 {pageThinkers.map((thinker) => (
                   <ThinkerCard key={thinker.id} thinker={thinker} />
                 ))}

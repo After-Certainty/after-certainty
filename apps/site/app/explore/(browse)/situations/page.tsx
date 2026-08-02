@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { exploreIndexCatalogGridClassName } from "@/components/explore/explore-catalog-card";
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { SituationCard } from "@/components/explore/situation-card";
 import { Section } from "@/components/ui/section";
@@ -25,11 +26,11 @@ export default async function ExploreSituationsIndexPage() {
         headingId="explore-situations-heading"
         lede="Concrete scenarios where patterns take hold — recognition signals, active structures, and paths back toward correction."
       />
-      <Section atmosphere="transition" className="border-t border-border/25 py-14 md:py-20">
+      <Section atmosphere="transition" className="border-t border-border/25 py-10 md:py-20">
         {situations.length === 0 ? (
           <p className="text-muted">No situations are published in the manifest yet.</p>
         ) : (
-          <div className="grid min-w-0 gap-5 sm:grid-cols-2 xl:grid-cols-3">
+          <div className={exploreIndexCatalogGridClassName}>
             {situations.map((situation) => (
               <SituationCard key={situation.id} situation={situation} />
             ))}
