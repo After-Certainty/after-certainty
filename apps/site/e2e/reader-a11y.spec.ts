@@ -61,7 +61,7 @@ test.describe("reader accessibility baseline (READ-008)", () => {
   test("footnote refs and backrefs resolve to existing ids", async ({ page }) => {
     await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
 
-    const manuscript = page.locator(".chapter-manuscript");
+    const manuscript = page.locator("#chapter-content .chapter-manuscript").first();
     await expect(manuscript).toBeVisible();
 
     const refs = manuscript.locator("a[data-footnote-ref]");
@@ -108,7 +108,9 @@ test.describe("reader accessibility baseline (READ-008)", () => {
     await trigger.click();
     await expect(page.getByTestId("in-book-search-dialog")).toBeVisible();
     await page.keyboard.press("Escape");
+    // Nested search must close without dismissing the parent reader drawer.
     await expect(page.getByTestId("in-book-search-dialog")).toHaveCount(0);
+    await expect(page.getByTestId("reader-controls-drawer")).toBeVisible();
     await expect(trigger).toBeFocused();
   });
 

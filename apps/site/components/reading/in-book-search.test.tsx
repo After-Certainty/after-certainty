@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { beforeEach, describe, expect, it, vi } from "vitest";
@@ -148,6 +149,44 @@ describe("InBookSearch", () => {
     await waitFor(() => {
       expect(screen.queryByTestId("in-book-search-dialog")).not.toBeInTheDocument();
     });
+    expect(trigger).toHaveFocus();
+  });
+
+  it("does not close a parent Radix drawer on Escape while search is open", async () => {
+    const user = userEvent.setup();
+    const { ReaderDrawer } = await import("@/components/reading/reader-drawer");
+
+    function Nested() {
+      const [open, setOpen] = useState(true);
+      return (
+        <ReaderDrawer
+          open={open}
+          onOpenChange={setOpen}
+          title="Settings"
+          description="Reader settings"
+          contentTestId="reader-controls-drawer"
+        >
+          <InBookSearch
+            editionId="book-after-certainty"
+            bookTitle="After Certainty"
+            variant="readerCompact"
+          />
+        </ReaderDrawer>
+      );
+    }
+
+    render(<Nested />);
+    expect(await screen.findByTestId("reader-controls-drawer")).toBeInTheDocument();
+
+    const trigger = screen.getByTestId("in-book-search-open");
+    await user.click(trigger);
+    await screen.findByTestId("in-book-search-dialog");
+    await user.keyboard("{Escape}");
+
+    await waitFor(() => {
+      expect(screen.queryByTestId("in-book-search-dialog")).not.toBeInTheDocument();
+    });
+    expect(screen.getByTestId("reader-controls-drawer")).toBeInTheDocument();
     expect(trigger).toHaveFocus();
   });
 });

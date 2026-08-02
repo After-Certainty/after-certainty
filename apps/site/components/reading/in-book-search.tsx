@@ -114,14 +114,18 @@ function InBookSearchDialog({ panelId, editionId, bookTitle, onClose }: InBookSe
   useEffect(() => {
     const onKey = (e: globalThis.KeyboardEvent) => {
       if (e.key === "Escape") {
+        // Capture + stopImmediatePropagation so a parent Radix Dialog (reader drawer)
+        // does not also close on the same Escape keypress.
         e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
         onClose();
         return;
       }
       trapFocusKeydown(e, panelRef.current);
     };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    window.addEventListener("keydown", onKey, true);
+    return () => window.removeEventListener("keydown", onKey, true);
   }, [onClose]);
 
   const hits: SearchHit[] = useMemo(() => {
@@ -175,6 +179,7 @@ function InBookSearchDialog({ panelId, editionId, bookTitle, onClose }: InBookSe
   function onKeyDown(e: KeyboardEvent<HTMLInputElement>) {
     if (e.key === "Escape") {
       e.preventDefault();
+      e.stopPropagation();
       onClose();
       return;
     }
