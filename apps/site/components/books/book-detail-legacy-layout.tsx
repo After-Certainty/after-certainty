@@ -11,6 +11,7 @@ import { ExploreBookMedia } from "@/components/explore/explore-book-media";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
+import { BookFavoriteControl } from "@/components/reading/book-favorite-control";
 import { ContinueReadingForBook } from "@/components/reading/continue-reading-panel";
 import { BookmarksForBook } from "@/components/reading/reading-bookmarks-panel";
 import { JsonLd } from "@/components/seo/json-ld";
@@ -188,6 +189,7 @@ export function BookDetailLegacyLayout({
           publicationLinks={publicationLinks}
           ariaLabel={publicationLinks.length > 0 ? "Read or get the book" : undefined}
         />
+        <BookFavoriteControl bookId={book.id} className="mt-4" />
         <BookMetadataTable
           className="mt-6"
           book={book}
