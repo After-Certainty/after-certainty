@@ -25,6 +25,10 @@ export type CatalogBookView = {
   coverImage?: string;
   coverWidth?: number;
   coverHeight?: number;
+  /** Thumbnail derivative for compact/mobile cards. */
+  coverThumbnail?: string;
+  coverThumbnailWidth?: number;
+  coverThumbnailHeight?: number;
   /** True when semantic manifest supplied generated coverImages. */
   hasGeneratedCovers?: boolean;
   status: BookStatus;
@@ -52,6 +56,7 @@ export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
     const status = bookPublicationStatus(book);
     const resolved = editions.get(book.slug);
     const cover = resolveBookCover(book, "card");
+    const thumbnail = resolveBookCover(book, "thumbnail");
     const typeInfo = contentTypeInfoFromBook(book);
 
     return {
@@ -63,6 +68,9 @@ export function buildCatalogViewModel(graph: SemanticGraph): CatalogBookView[] {
       coverImage: cover?.src,
       coverWidth: cover?.width,
       coverHeight: cover?.height,
+      coverThumbnail: thumbnail?.src ?? cover?.src,
+      coverThumbnailWidth: thumbnail?.width ?? cover?.width,
+      coverThumbnailHeight: thumbnail?.height ?? cover?.height,
       hasGeneratedCovers: Boolean(book.coverImages),
       status,
       isPublic: bookIsPublic(book),

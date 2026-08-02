@@ -11,7 +11,9 @@ test.describe("Books catalog", () => {
     await page.goto("/explore/books");
     // next/image rewrites local public paths to /_next/image?url=%2Fgenerated%2F...
     const cover = page
-      .locator("#main img[src*='_next/image'][src*='%2Fgenerated%2Fbook-covers%2F'][src*='card.webp']")
+      .locator(
+        "#main img[src*='_next/image'][src*='%2Fgenerated%2Fbook-covers%2F'][src*='card.webp']",
+      )
       .first();
     await expect(cover).toBeVisible();
   });
@@ -85,6 +87,33 @@ test.describe("Books catalog", () => {
     await expect(page.getByRole("group", { name: "Sort" })).toBeVisible();
   });
 
+  test("mobile shelves use accordion and omit local title search", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/explore/books");
+
+    await expect(page.getByLabel("Search books")).toHaveCount(0);
+    await expect(page.getByPlaceholder("Search by title…")).toHaveCount(0);
+
+    const startHere = page.getByRole("button", { name: /Start Here/i });
+    await expect(startHere).toBeVisible();
+    await expect(startHere).toHaveAttribute("aria-expanded", "true");
+
+    const coreShelf = page.getByRole("button", { name: /Core After Certainty/i });
+    await expect(coreShelf).toBeVisible();
+    await expect(coreShelf).toHaveAttribute("aria-expanded", "false");
+
+    await coreShelf.click();
+    await expect(coreShelf).toHaveAttribute("aria-expanded", "true");
+    await expect(startHere).toHaveAttribute("aria-expanded", "true");
+
+    const thumb = page
+      .locator(
+        "#main img[src*='_next/image'][src*='%2Fgenerated%2Fbook-covers%2F'][src*='thumbnail.webp']",
+      )
+      .first();
+    await expect(thumb).toBeVisible();
+  });
+
   test("enriched book overview shows Inside this book and work-specific roles", async ({
     page,
   }) => {
@@ -114,9 +143,7 @@ test.describe("Books catalog", () => {
 
   test("Inside this book links open a chapter route", async ({ page }) => {
     await page.goto("/explore/books/after-certainty");
-    const intro = page
-      .locator("#inside")
-      .getByRole("link", { name: "Introduction", exact: true });
+    const intro = page.locator("#inside").getByRole("link", { name: "Introduction", exact: true });
     await expect(intro).toBeVisible();
     await intro.click();
     await expect(page).toHaveURL(
