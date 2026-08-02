@@ -1,12 +1,12 @@
 # Semantic completeness report
 
-Generated: `2026-08-02T00:18:53.437660+00:00`
+Generated: `2026-08-02T00:28:37.816017+00:00`
 
 ## Manifest provenance
 
 - schemaVersion: `2.4`
-- sourceCommit: `6a18b3627dd148449703210498f0d5c28d177780`
-- manifest generatedAt: `2026-08-02T00:18:41.945064+00:00`
+- sourceCommit: `6e0e55cb210e774c27425df91ab5328840abadd7`
+- manifest generatedAt: `2026-08-02T00:28:26.466342+00:00`
 
 Public canonical works evaluated: **34**
 
@@ -114,7 +114,6 @@ _None._
 - `curiosity-before-certainty`
 - `everyone-knows-love`
 - `how-meaning-moves`
-- `how-serious-systems-learn`
 - `how-trust-forms`
 - `no-time-to-think`
 - `observer-patterns`

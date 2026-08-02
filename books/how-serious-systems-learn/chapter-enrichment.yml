@@ -1,9 +1,111 @@
 version: 1
 chapters:
+  - sourcePath: front-matter/acknowledgments.md
+    summary: >
+      Readers, collaborators, and practitioners who work inside systems where certainty failed
+      and responsibility remained shaped the book. Early reviewers and operational leaders
+      challenged claims and insisted on practical clarity under real pressure.
+    centralQuestion: Who helped keep this argument accountable to systems that cannot afford decorative learning?
+    selectedConcepts:
+      - responsibility
+      - feedback
+      - humility
+    selectedPatterns:
+      - dissent-is-welcomed
+      - contact-keeps-the-read-open
+    searchAliases:
+      - acknowledgments
+      - practitioners under pressure
+    transition:
+      toNext: >
+        From gratitude into a brief note on the author's focus.
+
+  - sourcePath: front-matter/about-the-author.md
+    summary: >
+      Kevin Steffensen writes about institutional learning and corrigibility—how organizations
+      preserve correction under pressure when prediction fails and outcomes remain high-stakes.
+      The note situates the handbook's voice in operational seriousness rather than motivational
+      certainty.
+    centralQuestion: What stance toward institutions does the author bring to high-stakes learning?
+    selectedConcepts:
+      - adaptation
+      - feedback
+      - responsibility
+      - correction
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - learning-collapses
+    searchAliases:
+      - about the author
+      - corrigibility under pressure
+    transition:
+      fromPrevious: >
+        From acknowledgments into the author's operating focus.
+      toNext: >
+        From author context into Part I's diagnosis—knowing that no longer governs outcomes.
+
+  - sourcePath: parts/part-1-why-knowing-no-longer-governs-outcomes/bridge.md
+    summary: >
+      Part I diagnoses modern systems that grow more informed while becoming less corrigible.
+      As knowledge improves, confidence scales, commitments harden, and corrective loops weaken
+      under pressure. The chapters are not against intelligence or data; they show why those
+      tools no longer guarantee responsible action when reversal becomes expensive.
+    centralQuestion: Why can systems know more while becoming harder to correct?
+    selectedConcepts:
+      - feedback
+      - correction
+      - contestability
+      - consequence-architecture
+      - coordination
+    selectedPatterns:
+      - learning-collapses
+      - feedback-drives-change
+      - revisability-preserves-judgment
+    searchAliases:
+      - knowing no longer governs outcomes
+      - informed but incorrigible
+    transition:
+      fromPrevious: >
+        From front matter into the book's central diagnosis.
+      toNext: >
+        From the part frame into when knowing is no longer enough.
+
+  - sourcePath: parts/part-1-why-knowing-no-longer-governs-outcomes/chapter-1-when-knowing-is-no-longer-enough.md
+    summary: >
+      For a long time better information was expected to yield better action—narrower error,
+      sharper judgment, responsible moves under growing understanding. The chapter unsettles that
+      inheritance: knowing can accumulate while the capacity to reverse, interrupt, and learn
+      under pressure declines. Information without corrigibility is not yet seriousness.
+    centralQuestion: Why does accumulating knowledge no longer guarantee responsible action?
+    selectedConcepts:
+      - feedback
+      - correction
+      - uncertainty
+      - judgment
+      - consequence-architecture
+    selectedPatterns:
+      - learning-collapses
+      - feedback-drives-change
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - when knowing is no longer enough
+      - information without corrigibility
+      - better data not better action
+    situations:
+      - feedback-stops-changing-decisions
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: >
+        From Part I's diagnosis into the broken promise of knowing.
+      toNext: >
+        From insufficient knowing into confidence that outruns correction.
+
   - sourcePath: parts/part-1-why-knowing-no-longer-governs-outcomes/chapter-2-confidence-outruns-correction.md
     summary: >
       Confidence is needed for action, but modern systems often reward decisiveness faster than
       interruptibility — dashboards and narrative outrunning review, feedback, and dissent.
+      Endless hesitation is drift; uninterruptible confidence is another failure mode. Seriousness
+      keeps commitment revisable when pressure buys closure.
     centralQuestion: What happens when confidence scales faster than correction?
     selectedConcepts:
       - feedback
@@ -20,5 +122,589 @@ chapters:
       - decisiveness without interruptibility
     situations:
       - feedback-stops-changing-decisions
-    readingTransition: >
-      From confidence that substitutes for correction into the collapse of corrective loops.
+    transition:
+      fromPrevious: >
+        From knowing that no longer suffices into confidence that substitutes for correction.
+      toNext: >
+        From outrunning confidence into the collapse of corrective loops.
+
+  - sourcePath: parts/part-1-why-knowing-no-longer-governs-outcomes/chapter-3-the-collapse-of-corrective-loops.md
+    summary: >
+      Metrics, retrospectives, risk reports, and escalation paths can still exist formally while
+      feedback arrives too late, too weakly, or too diffusely to change decisions. Visible learning
+      mechanisms become evidence that learning remains intact—after the loop has already stopped
+      governing action. Collapse is often quiet before it is catastrophic.
+    centralQuestion: How do corrective loops die while their rituals remain on the calendar?
+    selectedConcepts:
+      - feedback
+      - correction
+      - institutional-memory
+      - contestability
+      - consequence-architecture
+    selectedPatterns:
+      - learning-collapses
+      - feedback-drives-change
+      - structures-outlive-reasons
+    searchAliases:
+      - collapse of corrective loops
+      - rituals without revision
+      - feedback too late
+    situations:
+      - feedback-stops-changing-decisions
+      - dissent-narrows-to-workaround
+    transition:
+      fromPrevious: >
+        From confidence outrunning correction into loops that stop mattering.
+      toNext: >
+        From diagnosis into Part II—disciplines that still survive reality.
+
+  - sourcePath: parts/part-2-disciplines-that-survived-reality/bridge.md
+    summary: >
+      Part II shifts from diagnosis to operating discipline when certainty cannot be restored
+      and correction cannot be assumed. Five durable responses: constraint that preserves
+      reversibility, feedback speed over forecast confidence, system-level visibility, structured
+      falsification, and high-reliability humility when failure is not an option.
+    centralQuestion: What practices still work when prediction fails and pressure rewards closure?
+    selectedConcepts:
+      - adaptation
+      - feedback
+      - contestability
+      - coordination
+      - correction
+    selectedPatterns:
+      - feedback-drives-change
+      - revisability-preserves-judgment
+      - dissent-is-welcomed
+    searchAliases:
+      - disciplines that survived reality
+      - five durable responses
+    transition:
+      fromPrevious: >
+        From collapsed loops into practices that keep learning alive.
+      toNext: >
+        From the part frame into constraint as discipline.
+
+  - sourcePath: parts/part-2-disciplines-that-survived-reality/chapter-4-constraint-as-discipline.md
+    summary: >
+      Serious systems learn by limiting where action is allowed; unconstrained action is often
+      mistaken for agility. Constraint that preserves reversibility is not bureaucratic drag—it
+      is how institutions keep options open when speed would otherwise burn the map. Discipline
+      here is designed friction in service of corrigibility.
+    centralQuestion: Why do serious systems treat constraint as a learning instrument rather than as drag?
+    selectedConcepts:
+      - consequence-architecture
+      - adaptation
+      - coordination
+      - revisability
+      - responsibility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - feedback-drives-change
+      - learning-collapses
+    searchAliases:
+      - constraint as discipline
+      - reversibility over unconstrained agility
+      - designed friction
+    situations:
+      - temporary-fixes-become-permanent
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From Part II's operating turn into limits that preserve correction.
+      toNext: >
+        From constraint into learning that outpaces prediction.
+
+  - sourcePath: parts/part-2-disciplines-that-survived-reality/chapter-5-learning-faster-than-prediction.md
+    summary: >
+      Forecasts and models remain necessary for allocation under incomplete information; the
+      mistake is treating prediction as the primary engine of adaptation when conditions shift
+      faster than models stay valid. Serious systems privilege feedback speed and update cadence
+      over forecast confidence that cannot keep up with the environment.
+    centralQuestion: How do systems adapt when conditions change faster than predictions remain valid?
+    selectedConcepts:
+      - feedback
+      - adaptation
+      - uncertainty
+      - judgment
+      - correction
+    selectedPatterns:
+      - feedback-drives-change
+      - revisability-preserves-judgment
+      - learning-collapses
+    searchAliases:
+      - learning faster than prediction
+      - feedback over forecast confidence
+      - models that go stale
+    situations:
+      - pressure-accelerates-interpretation
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From constraining action into privileging learning speed over prediction pride.
+      toNext: >
+        From local learning into seeing the wider system you are in.
+
+  - sourcePath: parts/part-2-disciplines-that-survived-reality/chapter-6-seeing-the-system-you-are-in.md
+    summary: >
+      Local metrics improve while handovers degrade, risk shifts downstream, and customer burden
+      rises—each unit's progress remaining defensible because no one sees the whole transfer.
+      Serious learning requires system-level visibility beyond local dashboards, so optimization
+      in one place is not misread as institutional health.
+    centralQuestion: What do local improvements hide when no one can see the whole transfer of risk?
+    selectedConcepts:
+      - coordination
+      - feedback
+      - consequence-architecture
+      - institutional-memory
+      - adaptation
+    selectedPatterns:
+      - learning-collapses
+      - compression-loses-the-person
+      - feedback-drives-change
+    searchAliases:
+      - seeing the system you are in
+      - local metric improvement
+      - risk shifts downstream
+    situations:
+      - meaning-outruns-shared-understanding
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From feedback speed into visibility across unit boundaries.
+      toNext: >
+        From system sight into being wrong on purpose—structured falsification.
+
+  - sourcePath: parts/part-2-disciplines-that-survived-reality/chapter-7-being-wrong-on-purpose.md
+    summary: >
+      Far fewer systems are designed to survive discovering they were wrong than to confirm they
+      were right. Falsification—not confirmation—is the engine of progress under uncertainty.
+      Being wrong on purpose means structuring tests, probes, and dissent so disconfirmation can
+      arrive before identity and commitment make revision impossible.
+    centralQuestion: How do serious systems design for discovering they were wrong before it is too late?
+    selectedConcepts:
+      - contestability
+      - feedback
+      - correction
+      - humility
+      - revisability
+    selectedPatterns:
+      - dissent-is-welcomed
+      - revisability-preserves-judgment
+      - feedback-drives-change
+    searchAliases:
+      - being wrong on purpose
+      - falsification engine
+      - survive disconfirmation
+    situations:
+      - dissent-narrows-to-workaround
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From seeing the system into designing for productive error.
+      toNext: >
+        From deliberate falsification into domains where failure is not an option.
+
+  - sourcePath: parts/part-2-disciplines-that-survived-reality/chapter-8-when-failure-is-not-an-option.md
+    summary: >
+      Aviation, intensive care, nuclear operations, and grid control face immediate public
+      consequences where “learn by failing” sounds irresponsible. High-reliability humility
+      still learns—through near-misses, simulation, redundancy, and voice that can stop the line—
+      without treating catastrophe as the tuition. Seriousness here is learning without gambling
+      lives on the experiment.
+    centralQuestion: How do high-consequence domains keep learning when catastrophic failure cannot be the curriculum?
+    selectedConcepts:
+      - humility
+      - feedback
+      - consequence-architecture
+      - responsibility
+      - correction
+    selectedPatterns:
+      - dissent-is-welcomed
+      - learning-collapses
+      - revisability-preserves-judgment
+    searchAliases:
+      - when failure is not an option
+      - high reliability humility
+      - learn without catastrophe tuition
+    situations:
+      - responsibility-outruns-control
+      - leadership-reproduces-under-pressure
+    transition:
+      fromPrevious: >
+        From intentional wrongness into domains that cannot buy learning with disaster.
+      toNext: >
+        From durable disciplines into Part III—what they share beneath jargon.
+
+  - sourcePath: parts/part-3-what-these-disciplines-share/bridge.md
+    summary: >
+      Part III names the common logic beneath diverse methods: treat error as expected, keep
+      action interruptible, protect dissent with operational consequence, and evaluate success by
+      preserved corrigibility rather than short-term coherence. The aim is transferable
+      architecture, not methodological purity.
+    centralQuestion: What commitments do serious disciplines share beneath their different vocabularies?
+    selectedConcepts:
+      - adaptation
+      - contestability
+      - feedback
+      - correction
+      - consequence-architecture
+    selectedPatterns:
+      - feedback-drives-change
+      - dissent-is-welcomed
+      - revisability-preserves-judgment
+    searchAliases:
+      - what these disciplines share
+      - transferable architecture
+    transition:
+      fromPrevious: >
+        From domain practices into the shared grammar beneath them.
+      toNext: >
+        From the part frame into error as a design input.
+
+  - sourcePath: parts/part-3-what-these-disciplines-share/chapter-9-error-as-a-design-input.md
+    summary: >
+      The difference between fragile and serious systems is rarely intelligence; it is whether
+      error is planned for as an expected input. Serious systems design for being wrong rather
+      than assuming being right—buffers, detection, and revision paths built in before pride
+      makes mistakes unspeakable.
+    centralQuestion: What changes when error is treated as design input rather than as embarrassment?
+    selectedConcepts:
+      - feedback
+      - correction
+      - humility
+      - adaptation
+      - institutional-memory
+    selectedPatterns:
+      - feedback-drives-change
+      - learning-collapses
+      - revisability-preserves-judgment
+    searchAliases:
+      - error as a design input
+      - plan for being wrong
+      - fragile versus serious
+    situations:
+      - feedback-stops-changing-decisions
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: >
+        From shared grammar into designing with expected error.
+      toNext: >
+        From error as input into action treated as probe rather than solution.
+
+  - sourcePath: parts/part-3-what-these-disciplines-share/chapter-10-action-as-probe-not-solution.md
+    summary: >
+      Institutions often treat intervention as implementing a known answer—compliance as success,
+      disconfirmation as noise threatening momentum. Serious action is a probe into partially
+      unknown conditions: framed to learn, interruptible, and judged by what reality returns,
+      not only by whether the plan was followed.
+    centralQuestion: How do we keep action as an encounter with reality rather than as proof we already knew?
+    selectedConcepts:
+      - adaptation
+      - feedback
+      - contestability
+      - judgment
+      - revisability
+    selectedPatterns:
+      - feedback-drives-change
+      - revisability-preserves-judgment
+      - contact-keeps-the-read-open
+    searchAliases:
+      - action as probe not solution
+      - disconfirmation as noise
+      - interruptible intervention
+    situations:
+      - pressure-accelerates-interpretation
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From designing for error into acting in ways that can still learn.
+      toNext: >
+        From probing action into authority that preserves correction.
+
+  - sourcePath: parts/part-3-what-these-disciplines-share/chapter-11-authority-that-preserves-correction.md
+    summary: >
+      Leaders who align incentives and accelerate execution can produce extraordinary short-term
+      performance—and silence correction, narrow contestability, and turn commitment into
+      identity. Authority that preserves correction exercises power so feedback stays alive:
+      interruptible decisions, protected dissent, and consequence architecture that does not
+      punish the messenger.
+    centralQuestion: How must power be exercised if feedback and dissent are to survive success?
+    selectedConcepts:
+      - contestability
+      - authority
+      - feedback
+      - consequence-architecture
+      - correction
+    selectedPatterns:
+      - dissent-is-welcomed
+      - revisability-preserves-judgment
+      - learning-collapses
+    searchAliases:
+      - authority that preserves correction
+      - power without silencing feedback
+      - commitment into identity
+    situations:
+      - dissent-narrows-to-workaround
+      - leadership-reproduces-under-pressure
+      - admiration-insulates-from-scrutiny
+    transition:
+      fromPrevious: >
+        From probing action into how authority keeps correction possible.
+      toNext: >
+        From shared architecture into Part IV—when disciplines fail after success.
+
+  - sourcePath: parts/part-4-when-disciplines-fail/bridge.md
+    summary: >
+      Part IV examines how serious practices decay after convergence: methods harden into
+      identity, coherence displaces inquiry, and positive outcomes are misread as proof that
+      correction is no longer needed. Disciplines fail not only through neglect but through
+      success that puts the watch to sleep.
+    centralQuestion: How do serious methods fail after they have already worked?
+    selectedConcepts:
+      - drift
+      - institutional-memory
+      - feedback
+      - correction
+      - contestability
+    selectedPatterns:
+      - learning-collapses
+      - structures-outlive-reasons
+      - correctness-hardens-into-identity
+    searchAliases:
+      - when disciplines fail
+      - success puts the watch to sleep
+    transition:
+      fromPrevious: >
+        From preserved correction into the failure modes of successful practice.
+      toNext: >
+        From the part frame into methods that become myths.
+
+  - sourcePath: parts/part-4-when-disciplines-fail/chapter-12-when-methods-become-myths.md
+    summary: >
+      Methods are fragile because they work: visible improvement elevates practice into identity
+      and generalized doctrine. Over time the method is judged by whether it is followed, not by
+      whether it still preserves correction. Myth replaces conditional response—and learning
+      collapses into compliance theater.
+    centralQuestion: When does a working method stop being judged by corrigibility and start being judged by loyalty?
+    selectedConcepts:
+      - institutional-memory
+      - drift
+      - correction
+      - contestability
+      - adaptation
+    selectedPatterns:
+      - structures-outlive-reasons
+      - correctness-hardens-into-identity
+      - learning-collapses
+    searchAliases:
+      - when methods become myths
+      - practice into identity
+      - doctrine over correction
+    situations:
+      - temporary-fixes-become-permanent
+      - inherited-rule-outlives-constraint
+    transition:
+      fromPrevious: >
+        From Part IV's decay frame into methods hardened into myth.
+      toNext: >
+        From mythic methods into the seduction of coherence.
+
+  - sourcePath: parts/part-4-when-disciplines-fail/chapter-13-the-seduction-of-coherence.md
+    summary: >
+      Coherent accounts align teams and calm stakeholders after uncertainty—relief that often
+      closes inquiry before reality finishes speaking. Tidy explanations convert partial
+      interpretation into stable certainty, then reorganize attention around preserving that
+      certainty. Seduction is not lying; it is premature closure that feels like leadership.
+    centralQuestion: How does the relief of a tidy story become an enemy of ongoing correction?
+    selectedConcepts:
+      - judgment
+      - certainty
+      - feedback
+      - contestability
+      - correction
+    selectedPatterns:
+      - correctness-hardens-into-identity
+      - explanation-replaces-response
+      - learning-collapses
+    searchAliases:
+      - seduction of coherence
+      - tidy explanation closes inquiry
+      - premature closure
+    situations:
+      - meaning-forms-before-anyone-checks-it
+      - explanation-displaces-action
+    transition:
+      fromPrevious: >
+        From methods-as-myth into stories that close the case too soon.
+      toNext: >
+        From coherence into success as the most dangerous signal.
+
+  - sourcePath: parts/part-4-when-disciplines-fail/chapter-14-success-as-the-most-dangerous-signal.md
+    summary: >
+      Success can conceal as much as it reveals: early wins stabilize narratives, reward current
+      design, and make friction and redundancy look unnecessary. The better results look, the
+      harder it becomes to argue for correction capacity that appears unused. Treating success as
+      proof of systemic soundness is how serious systems go to sleep.
+    centralQuestion: Why is success often the signal that most endangers ongoing corrigibility?
+    selectedConcepts:
+      - feedback
+      - drift
+      - institutional-memory
+      - correction
+      - consequence-architecture
+    selectedPatterns:
+      - learning-collapses
+      - structures-outlive-reasons
+      - feedback-drives-change
+    searchAliases:
+      - success as the most dangerous signal
+      - wins that put the watch to sleep
+      - unused correction capacity
+    situations:
+      - feedback-stops-changing-decisions
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: >
+        From premature coherence into success misread as permanent soundness.
+      toNext: >
+        From failure modes into Part V—what remains possible after certainty.
+
+  - sourcePath: parts/part-5-after-certainty/bridge.md
+    summary: >
+      Part V asks what remains possible when certainty can no longer authorize action. Rather
+      than a final framework, it offers a durable posture: responsibility without illusion,
+      authority that stays correctable, and learning as an ongoing way of being rather than a
+      stage before control returns.
+    centralQuestion: What posture remains when certainty can no longer authorize action?
+    selectedConcepts:
+      - responsibility
+      - adaptation
+      - humility
+      - correction
+      - revisability
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - contact-keeps-the-read-open
+      - dissent-is-welcomed
+    searchAliases:
+      - after certainty
+      - posture without final framework
+    transition:
+      fromPrevious: >
+        From how disciplines fail into what remains operable afterward.
+      toNext: >
+        From the part frame into what remains possible.
+
+  - sourcePath: parts/part-5-after-certainty/chapter-15-what-remains-possible.md
+    summary: >
+      Two false exits after certainty fails: resignation (nothing responsible can be done) and
+      compensation (perform certainty more aggressively and call it leadership). What remains
+      possible is neither—responsibility without illusion, action that stays interruptible, and
+      authority that does not pretend the map is complete.
+    centralQuestion: What remains possible between resignation and performed certainty?
+    selectedConcepts:
+      - responsibility
+      - uncertainty
+      - judgment
+      - humility
+      - correction
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+      - learning-collapses
+    searchAliases:
+      - what remains possible
+      - resignation versus performed certainty
+      - responsibility without illusion
+    situations:
+      - result-final-meaning-unsettled
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From Part V's posture into the false exits and the remaining path.
+      toNext: >
+        From remaining possibility into learning as a way of being.
+
+  - sourcePath: parts/part-5-after-certainty/chapter-16-learning-as-a-way-of-being.md
+    summary: >
+      A system can install learning rituals and still become incorrigible when pressure rises—
+      measuring feedback while preserving authority patterns that make revision politically
+      impossible. The final question is existential as well as procedural: whether learning is
+      a temporary stage before control, or a way of being that keeps corrigibility alive.
+    centralQuestion: What does it mean for learning to be a way of being rather than a stage before control?
+    selectedConcepts:
+      - adaptation
+      - feedback
+      - contestability
+      - humility
+      - responsibility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - dissent-is-welcomed
+      - contact-keeps-the-read-open
+    searchAliases:
+      - learning as a way of being
+      - rituals without corrigibility
+      - existential not only procedural
+    situations:
+      - feedback-stops-changing-decisions
+      - dissent-narrows-to-workaround
+    transition:
+      fromPrevious: >
+        From what remains possible into learning that must survive pressure.
+      toNext: >
+        From the closing chapters into the reader guide's one-sentence map.
+
+  - sourcePath: back-matter/reader-guide.md
+    summary: >
+      A one-sentence map of each chapter's contribution to the full argument—from the core
+      diagnosis that knowledge can rise while corrigibility falls, through disciplines and
+      shared architecture, to failure modes and the posture after certainty. Use it for
+      orientation, not as a substitute for the chapters.
+    centralQuestion: How does each chapter contribute to the book's argument about serious learning?
+    selectedConcepts:
+      - adaptation
+      - feedback
+      - correction
+      - contestability
+    selectedPatterns:
+      - feedback-drives-change
+      - learning-collapses
+      - revisability-preserves-judgment
+    searchAliases:
+      - reader guide
+      - chapter contributions
+      - one-sentence map
+    transition:
+      fromPrevious: >
+        From learning as a way of being into a compact map of the argument.
+      toNext: >
+        From the guide into operating commitments for after certainty.
+
+  - sourcePath: back-matter/coda-operating-commitments.md
+    summary: >
+      After certainty, commitment shifts from claiming control to preserving corrigibility—
+      systems revisable under pressure, authority interruptible when momentum rewards certainty,
+      consequence visible when abstraction rewards speed. Seriousness is held as operating
+      commitments around action, authority, narrative, and responsibility.
+    centralQuestion: What operating commitments keep corrigibility alive when pressure rewards closure?
+    selectedConcepts:
+      - consequence-architecture
+      - contestability
+      - responsibility
+      - correction
+      - adaptation
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - dissent-is-welcomed
+      - feedback-drives-change
+    searchAliases:
+      - operating commitments
+      - preserve corrigibility
+      - after certainty commitments
+    situations:
+      - feedback-stops-changing-decisions
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From the reader guide into commitments that can be held in practice.
