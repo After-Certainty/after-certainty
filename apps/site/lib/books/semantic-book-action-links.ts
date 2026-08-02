@@ -72,7 +72,7 @@ export type OrderedBookActions = {
 /**
  * Pick a clear primary CTA for redesigned overviews.
  * Superseded editions prefer navigating to the current volume over downloading the older file.
- * When `readHref` is set (public chapters exist), "Read" is primary unless a download/purchase
+ * When `readHref` is set (public chapters exist), "Read book" is primary unless a download/purchase
  * preference is set, or the edition is superseded.
  */
 export function getOrderedBookActions(input: {
@@ -84,17 +84,11 @@ export function getOrderedBookActions(input: {
   /** First public chapter path when the native reader is available for this edition. */
   readHref?: string;
 }): OrderedBookActions {
-  const {
-    book,
-    relationship,
-    preference,
-    currentEditionHref,
-    currentEditionTitle,
-    readHref,
-  } = input;
+  const { book, relationship, preference, currentEditionHref, currentEditionTitle, readHref } =
+    input;
 
   const readAction: SemanticBookActionLinkItem | undefined = readHref
-    ? { label: "Read", href: readHref, kind: "read" }
+    ? { label: "Read book", href: readHref, kind: "read" }
     : undefined;
 
   if (relationship === "superseded" && currentEditionHref) {

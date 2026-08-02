@@ -93,14 +93,14 @@ describe("getOrderedBookActions", () => {
       readHref: "/explore/books/example/chapters/intro",
     });
     expect(ordered.primary).toEqual({
-      label: "Read",
+      label: "Read book",
       href: "/explore/books/example/chapters/intro",
       kind: "read",
     });
     expect(ordered.secondary.map((s) => s.label)).toEqual(["Download PDF"]);
   });
 
-  it("keeps preferred download primary and lists Read first among secondary", () => {
+  it("keeps preferred download primary and lists Read book first among secondary", () => {
     const ordered = getOrderedBookActions({
       book: {
         ...baseBook,
@@ -113,13 +113,13 @@ describe("getOrderedBookActions", () => {
     });
     expect(ordered.primary?.label).toBe("Download PDF");
     expect(ordered.secondary[0]).toEqual({
-      label: "Read",
+      label: "Read book",
       href: "/explore/books/example/chapters/intro",
       kind: "read",
     });
   });
 
-  it("lists Read under Continue when the edition is superseded", () => {
+  it("lists Read book under Continue when the edition is superseded", () => {
     const ordered = getOrderedBookActions({
       book: baseBook,
       relationship: "superseded",

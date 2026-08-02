@@ -1,6 +1,6 @@
 # Books, curated shelves, book detail, and native reader redesign
 
-**Status:** Active — specialized site plan (Phases A–B complete; Phase C in progress)  
+**Status:** Active — specialized site plan (Phases A–C complete; Phase D in progress)  
 **Created:** 2026-08-02  
 **Location:** `apps/site/docs/roadmaps/books-reader-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
@@ -18,8 +18,8 @@ The public site already ships a full books stack under `/explore/books`. This re
 | Surface       | Route                                          | Current implementation                                                                                                    |
 | ------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | Books index   | `/explore/books`                               | Hero, featured shelf accordion sections (`BooksShelfSection`), complete catalog with URL filters (`BooksCatalogControls`) |
-| Shelves       | Query only: `?shelf=<slug>`                    | Corpus shelves in `semantic/shelves/*.yml`; membership via `lib/books/shelves.ts`; **no dedicated shelf page routes**     |
-| Book detail   | `/explore/books/[slug]`                        | `BookOverviewLayout` when overview VM exists; availability-derived actions; related concepts/patterns/trails/questions    |
+| Shelves       | `/explore/books/shelves/[slug]` + `?shelf=`    | Corpus shelves in `semantic/shelves/*.yml`; dedicated routes (Phase C); catalog filter retained                           |
+| Book detail   | `/explore/books/[slug]`                        | Overview/legacy layouts; Phase D densifies hero, real metadata table, shelf membership + adjacency                        |
 | Native reader | `/explore/books/[slug]/chapters/[chapterSlug]` | Chapter shell, TOC + drawer, prev/next, local progress/bookmarks/text size, in-book search (READ-001–016)                 |
 
 **Data:** Books from `books/*/book.yml` → semantic manifest. Shelf membership is shelf-side only (never on `book.yml`). Reading trails are curated discovery content, not personal lists.
@@ -68,7 +68,7 @@ Statuses: **matches** · **visual-diff** · **partial** · **missing** · **defe
 | Curated shelf accordions       | partial         | Mobile accordion + desktop grid; density differs   |
 | Generated book counts          | matches         | Shown in accordion headers                         |
 | Compact horizontal book rows   | partial         | `CatalogBookCard` compact; Phase A adds `list`     |
-| Dedicated shelf “View all”     | missing         | Currently `?shelf=` catalog filter                 |
+| Dedicated shelf “View all”     | matches         | Links to `/explore/books/shelves/[slug]` (Phase C) |
 | Shelf icons/motifs             | missing         | Not in shelf YAML UI                               |
 | Complete catalog + filter/sort | visual-diff     | Works; chrome less compact than mockup accordion   |
 | Page-local title search        | not-recommended | Global search exists; deep-link `q` only           |
@@ -76,27 +76,27 @@ Statuses: **matches** · **visual-diff** · **partial** · **missing** · **defe
 
 ### 4.2 Dedicated shelf page
 
-| Feature                                | Status         | Notes                                   |
-| -------------------------------------- | -------------- | --------------------------------------- |
-| Route `/explore/books/shelves/[slug]`  | missing        | Path helper in Phase A; page in Phase C |
-| Breadcrumb, title, count, description  | missing        | Data available via shelves              |
-| Ordered book list from structured data | matches (data) | `resolveShelfBooks`                     |
-| Related shelf nav / empty states       | missing        | Phase C                                 |
+| Feature                                | Status  | Notes               |
+| -------------------------------------- | ------- | ------------------- |
+| Route `/explore/books/shelves/[slug]`  | matches | Phase C             |
+| Breadcrumb, title, count, description  | matches | Phase C             |
+| Ordered book list from structured data | matches | `resolveShelfBooks` |
+| Related shelf nav / empty states       | matches | Phase C             |
 
 ### 4.3 Book detail
 
-| Feature                                    | Status            | Notes                                       |
-| ------------------------------------------ | ----------------- | ------------------------------------------- |
-| Cover, type, title, subtitle, author       | visual-diff       | Overview layout                             |
-| Primary Read + format actions              | partial           | Derived from real availability              |
-| Summary / orientation                      | partial           | Overview fields when authored               |
-| Key idea pills                             | partial / missing | Concepts exist; mockup chrome differs       |
-| Also in this shelf / prev-next             | missing           | Selectors in Phase A; UI in Phase D         |
-| Fabricated pages/ISBN/dates                | not-recommended   | Show only real corpus fields                |
-| Add to Reading Trail (personal)            | deferred-backend  | Curated trails remain browseable            |
-| Favorites                                  | missing           | Local-only opportunity (Phase F)            |
-| Share                                      | partial           | Adapt via Web Share / copy link later       |
-| Bottom Info/Contents/Highlights/Notes tabs | missing           | Highlights/notes Phase F if quality bar met |
+| Feature                                    | Status            | Notes                                         |
+| ------------------------------------------ | ----------------- | --------------------------------------------- |
+| Cover, type, title, subtitle, author       | visual-diff       | Denser mobile hero (Phase D)                  |
+| Primary Read + format actions              | matches           | “Read book” primary from availability         |
+| Summary / orientation                      | partial           | Overview fields when authored                 |
+| Key idea pills                             | partial / missing | Concepts exist; mockup chrome differs         |
+| Also in this shelf / prev-next             | matches           | Shelf context via Phase A selectors (Phase D) |
+| Fabricated pages/ISBN/dates                | not-recommended   | Real metadata table only; omit when absent    |
+| Add to Reading Trail (personal)            | deferred-backend  | Curated trails remain browseable              |
+| Favorites                                  | missing           | Local-only opportunity (Phase F)              |
+| Share                                      | partial           | Adapt via Web Share / copy link later         |
+| Bottom Info/Contents/Highlights/Notes tabs | missing           | Highlights/notes Phase F if quality bar met   |
 
 ### 4.4 Native reader
 
@@ -215,7 +215,7 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** Breaking shared Explore hero for other index pages — mitigated by opt-in `density`.  
 **Routes / manifests:** No.
 
-### Phase C — Dedicated shelf pages (this PR)
+### Phase C — Dedicated shelf pages (complete — PR #462)
 
 **Objective:** `/explore/books/shelves/[slug]` pages; switch “View all” to shelf routes; update public-registry canonical URLs; keep `?shelf=` as catalog filter.
 
@@ -225,12 +225,14 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** SEO / sitemap / registry URL drift.  
 **Routes / manifests:** New routes; registry URL updates; no invented shelf data.
 
-### Phase D — Book detail redesign
+### Phase D — Book detail redesign (this PR)
 
 **Objective:** Cover/metadata layout, stronger Read CTA, real metadata table, shelf membership, related entities, prev/next in shelf.
 
-**Acceptance:** No fabricated fields; actions from availability; adjacency uses Phase A selectors.  
-**Risks:** Overview vs legacy layout divergence.  
+**Likely files:** `book-overview-layout.tsx`, `book-detail-legacy-layout.tsx`, `book-metadata-rows.ts`, `book-metadata-table.tsx`, `book-shelf-context.tsx`, `books/[slug]/page.tsx`, action-link labels, E2E/unit tests.
+
+**Acceptance:** No fabricated fields; actions from availability; adjacency uses Phase A selectors; denser mobile hero; “Read book” primary CTA.  
+**Risks:** Overview vs legacy layout divergence — mitigated by shared metadata/shelf components.  
 **Routes / manifests:** Optional metadata proposals only if needed.
 
 ### Phase E — Reader shell and TOC

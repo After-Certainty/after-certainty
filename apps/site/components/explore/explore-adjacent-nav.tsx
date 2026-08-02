@@ -7,19 +7,30 @@ export type ExploreAdjacentNavProps = {
   basePath: string;
   /** Singular noun for accessible labels, e.g. "book", "pattern", "concept", or "source" */
   entityLabel: string;
+  /** Phrase after the entity label in the nav aria-label (default: "in explore order"). */
+  orderDescription?: string;
+  /** Extra classes for the nav element (e.g. remove default top border in nested contexts). */
+  className?: string;
   prev?: Adjacent;
   next?: Adjacent;
 };
 
-export function ExploreAdjacentNav({ basePath, entityLabel, prev, next }: ExploreAdjacentNavProps) {
+export function ExploreAdjacentNav({
+  basePath,
+  entityLabel,
+  orderDescription = "in explore order",
+  className = "mt-12 border-t border-border/25 pt-10",
+  prev,
+  next,
+}: ExploreAdjacentNavProps) {
   if (!prev && !next) return null;
 
-  const navLabel = `Previous and next ${entityLabel} in explore order`;
+  const navLabel = `Previous and next ${entityLabel} ${orderDescription}`;
 
   return (
     <nav
       aria-label={navLabel}
-      className="mt-12 flex flex-row items-start justify-between gap-4 border-t border-border/25 pt-10 sm:gap-10"
+      className={`flex flex-row items-start justify-between gap-4 sm:gap-10 ${className}`.trim()}
     >
       <div className="min-w-0 flex-1 sm:max-w-[min(100%,28rem)]">
         {prev ? (
