@@ -4,7 +4,6 @@ import { useId, useState } from "react";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import { CatalogBookCard } from "@/components/books/catalog-book-card";
-import { Section } from "@/components/ui/section";
 import { catalogBrowseQueryString } from "@/lib/books/catalog-url-state";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import type { ShelfDefinition } from "@/lib/books/shelves";
@@ -66,26 +65,23 @@ export function BooksShelfSection({
   const desktopHeadingId = `shelf-${shelf.slug}-heading-desktop`;
 
   return (
-    <Section
-      atmosphere="none"
-      className="border-b border-border/35 py-4 md:py-20"
-      aria-label={shelf.title}
-    >
+    // Avoid Section's default py-20 — it fights compact mobile accordion rows.
+    <section className="border-b border-border/35 py-0 md:py-20" aria-label={shelf.title}>
       <button
         type="button"
-        className="flex min-h-11 w-full items-center gap-3 py-3 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:hidden"
+        className="flex min-h-11 w-full items-center gap-3 py-2 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:hidden"
         aria-expanded={open}
         aria-controls={panelId}
         onClick={() => setOpen((value) => !value)}
       >
-        <span className="min-w-0 flex-1">
+        <span className="min-w-0 flex-1 leading-tight">
           <h2
             id={mobileHeadingId}
-            className="font-display text-xl font-medium tracking-tight text-fg"
+            className="font-display text-lg font-medium tracking-tight text-fg"
           >
             {shelf.title}
           </h2>
-          <span className="mt-0.5 block text-xs text-muted">{bookCountLabel}</span>
+          <span className="mt-0.5 block text-[11px] leading-none text-muted">{bookCountLabel}</span>
         </span>
         <Chevron expanded={open} />
       </button>
@@ -107,17 +103,17 @@ export function BooksShelfSection({
         aria-label={shelf.title}
       >
         {shelf.description ? (
-          <p className="mt-2 max-w-2xl text-sm text-muted md:hidden">{shelf.description}</p>
+          <p className="pb-2 max-w-2xl text-sm text-muted md:hidden">{shelf.description}</p>
         ) : null}
 
-        <div className="mt-4 grid min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:mt-10 md:grid-cols-2 md:gap-5 xl:grid-cols-3">
+        <div className="mt-2 grid min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:mt-10 md:grid-cols-2 md:gap-5 xl:grid-cols-3">
           {books.map((book) => (
             <CatalogBookCard key={book.id} book={book} location="shelf" />
           ))}
         </div>
 
         {showViewAll && totalCount > books.length ? (
-          <p className="mt-6 md:mt-8">
+          <p className="mt-4 mb-3 md:mt-8 md:mb-0">
             <TrackedLink
               href={viewAllHref}
               className="text-sm text-accent underline-offset-4 hover:underline"
@@ -131,6 +127,6 @@ export function BooksShelfSection({
           </p>
         ) : null}
       </div>
-    </Section>
+    </section>
   );
 }
