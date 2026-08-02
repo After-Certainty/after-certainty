@@ -96,6 +96,14 @@ The earlier books are primarily diagnostic. They explain how meaning forms, how 
 
 **Question:** How do we live responsibly after certainty loses its ability to settle the world?
 
+### [Reality Pushes Back](../upcoming/reality-pushes-back/index.md) *(upcoming)*
+
+Narrative home of the After Certainty Pattern Language. Through ordinary life in one town across roughly fifteen years, twelve supporting patterns—organized by perception, power, time, and contact—show how every useful model leaves something out, and how reality answers through materials, people, and consequences the model did not contain. Not a duplicate of the practice capstone: *After Certainty* asks how to live after frameworks fail; this book dramatizes the recurring movements those frameworks encounter.
+
+**Question:** What part of reality answered back?
+
+**Pair with:** [*How Meaning Moves*](../books/how-meaning-moves/index.md) (companion pattern language) → this book (town dramatization of the cross-corpus language) → [*After Certainty*](../books/after-certainty/index.md) (practice under limits).
+
 ### [Learning to See](../books/learning-to-see/index.md)
 
 How scientific, philosophical, psychological, and spiritual traditions develop **practices** that form better knowers—attention, humility, community, memory, repair, moral imagination—without claiming those traditions are secretly the same. Culminates in what becomes scarce when AI makes answers abundant.

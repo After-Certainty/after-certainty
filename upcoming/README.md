@@ -30,6 +30,8 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 ## Current upcoming titles
 
-No active nonfiction scaffolds under `upcoming/` at present.
+| Book | Notes |
+|------|-------|
+| [`reality-pushes-back/`](reality-pushes-back/) | Narrative home of the After Certainty Pattern Language; first draft in progress; cover/PR deferred |
 
 Scaffold additional titles from [`docs/_templates/`](docs/_templates/).
