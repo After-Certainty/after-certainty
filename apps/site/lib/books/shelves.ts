@@ -150,6 +150,57 @@ export function assignShelfIds(
   });
 }
 
+/**
+ * Active shelves that include this catalog book (public canonical membership).
+ * Ordered by shelf `displayOrder`.
+ */
+export function getShelvesForBook(book: CatalogBookView, graph: SemanticGraph): ShelfDefinition[] {
+  return getActiveShelves(graph).filter((shelf) => bookOnShelf(shelf, book));
+}
+
+export type ShelfAdjacentBooks = {
+  shelf: ShelfDefinition;
+  books: CatalogBookView[];
+  previous: CatalogBookView | null;
+  next: CatalogBookView | null;
+  index: number;
+};
+
+/**
+ * Resolve ordered shelf members and previous/next neighbors for a book.
+ * Returns null when the book is not on the shelf (or shelf has no public members).
+ */
+export function getAdjacentBooksInShelf(
+  shelf: ShelfDefinition,
+  book: CatalogBookView,
+  viewModel: readonly CatalogBookView[],
+): ShelfAdjacentBooks | null {
+  const books = resolveShelfBooks(shelf, viewModel);
+  const index = books.findIndex((b) => b.id === book.id || b.slug === book.slug);
+  if (index < 0) return null;
+  return {
+    shelf,
+    books,
+    previous: index > 0 ? books[index - 1]! : null,
+    next: index < books.length - 1 ? books[index + 1]! : null,
+    index,
+  };
+}
+
+/**
+ * Prefer a featured shelf, then lowest displayOrder, for “also in this shelf” context.
+ */
+export function getPrimaryShelfContextForBook(
+  book: CatalogBookView,
+  graph: SemanticGraph,
+  viewModel: readonly CatalogBookView[],
+): ShelfAdjacentBooks | null {
+  const shelves = getShelvesForBook(book, graph);
+  if (shelves.length === 0) return null;
+  const preferred = shelves.find((s) => s.featured && s.slug !== "complete-catalog") ?? shelves[0]!;
+  return getAdjacentBooksInShelf(preferred, book, viewModel);
+}
+
 export function isUpcomingStatus(status: BookStatus): boolean {
   return UPCOMING_STATUSES.has(status);
 }

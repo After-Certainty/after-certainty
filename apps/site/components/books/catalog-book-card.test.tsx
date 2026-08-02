@@ -87,6 +87,18 @@ describe("CatalogBookCard", () => {
     );
   });
 
+  it("renders list layout with type, title, blurb, and a single link", () => {
+    const { container } = render(
+      <CatalogBookCard book={sampleBook} location="shelf" layout="list" />,
+    );
+    expect(screen.getByRole("heading", { name: "After Certainty" })).toBeInTheDocument();
+    expect(screen.getByText("Nonfiction")).toBeInTheDocument();
+    expect(screen.getByText("Subtitle")).toBeInTheDocument();
+    expect(screen.queryByText("View Book →")).not.toBeInTheDocument();
+    expect(container.querySelectorAll("a")).toHaveLength(1);
+    expect(container.querySelectorAll("button")).toHaveLength(0);
+  });
+
   it("uses a single link in compact layout without nested interactive elements", () => {
     const { container } = render(
       <CatalogBookCard book={sampleBook} location="shelf" layout="compact" />,

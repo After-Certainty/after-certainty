@@ -1,6 +1,22 @@
 import { describe, expect, it } from "vitest";
 
-import { exploreObservatoryPathwayHref, pathwayFromSearchParams } from "@/lib/graph/explorePaths";
+import {
+  exploreBooksShelfHref,
+  exploreObservatoryPathwayHref,
+  pathwayFromSearchParams,
+} from "@/lib/graph/explorePaths";
+
+describe("exploreBooksShelfHref", () => {
+  it("builds dedicated shelf path under books", () => {
+    expect(exploreBooksShelfHref("start-here")).toBe("/explore/books/shelves/start-here");
+  });
+
+  it("encodes shelf slugs for URL safety", () => {
+    expect(exploreBooksShelfHref("trust and difference")).toBe(
+      "/explore/books/shelves/trust%20and%20difference",
+    );
+  });
+});
 
 describe("exploreObservatoryPathwayHref", () => {
   it("builds a pathway deep link with observatory view", () => {

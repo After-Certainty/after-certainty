@@ -2,7 +2,7 @@
 
 **Status:** Active — authoritative for *remaining* cross-layer work  
 **Created:** 2026-07-24  
-**Last audited:** 2026-07-30 (ANALYTICS-001 shipped)  
+**Last audited:** 2026-08-02 (books/reader redesign specialized plan started)  
 **Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
@@ -85,6 +85,10 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 8. **PROVENANCE-005–007** — Targeted grounding / metadata cleanup (quality over quantity)  
 9. **OPS-003** — Complete GitHub settings checklist (Kevin / external)
 
+### Specialized site UX (tracked outside this master backlog)
+
+Books index / curated shelves / book detail / native reader redesign is an **active specialized site plan** — not a second master backlog. See [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md). Promote unfinished cross-layer follow-ups here only when they outgrow site-only UX work.
+
 ### Later / revisit when triggered
 
 | Item | Trigger |
@@ -122,6 +126,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 Intentionally postponed so they do not re-enter near-term planning:
 
 - User accounts / auth; cloud-synced annotations or reading progress  
+- Personal “Add to Reading Trail” / collaborative trails (curated trails remain browseable)  
 - Social feed or unmoderated public annotation walls  
 - AI-generated chapter or book summaries  
 - Runtime database or full CMS; native mobile app  

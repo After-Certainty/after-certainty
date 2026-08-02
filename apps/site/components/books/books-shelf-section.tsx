@@ -50,6 +50,7 @@ export function BooksShelfSection({
 
   if (books.length === 0) return null;
 
+  // Phase C will switch this to exploreBooksShelfHref(shelf.slug).
   const viewAllHref = `/explore/books${catalogBrowseQueryString({
     shelf: shelf.slug,
     types: [],
@@ -65,11 +66,14 @@ export function BooksShelfSection({
   const desktopHeadingId = `shelf-${shelf.slug}-heading-desktop`;
 
   return (
-    // Avoid Section's default py-20 — it fights compact mobile accordion rows.
-    <section className="border-b border-border/35 py-0 md:py-20" aria-label={shelf.title}>
+    // Density tokens (--books-section-y-*) prepare Phase B hero/catalog tightening.
+    <section
+      className="border-b border-border/35 py-0 md:py-[var(--books-section-y-md)]"
+      aria-label={shelf.title}
+    >
       <button
         type="button"
-        className="flex min-h-11 w-full items-center gap-3 py-2 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:hidden"
+        className="flex min-h-11 w-full items-center gap-3 py-[var(--books-row-py)] text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:hidden"
         aria-expanded={open}
         aria-controls={panelId}
         onClick={() => setOpen((value) => !value)}
@@ -106,7 +110,17 @@ export function BooksShelfSection({
           <p className="pb-2 max-w-2xl text-sm text-muted md:hidden">{shelf.description}</p>
         ) : null}
 
-        <div className="mt-2 grid min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:mt-10 md:grid-cols-2 md:gap-5 xl:grid-cols-3">
+        {/* Mobile: dense list rows (Phase A). Desktop: existing card grid. */}
+        <div
+          className="mt-1 flex flex-col gap-[var(--books-row-gap)] md:hidden"
+          data-books-layout="list"
+        >
+          {books.map((book) => (
+            <CatalogBookCard key={book.id} book={book} location="shelf" layout="list" />
+          ))}
+        </div>
+
+        <div className="mt-2 hidden min-w-0 grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 md:mt-10 md:grid md:grid-cols-2 md:gap-5 xl:grid-cols-3">
           {books.map((book) => (
             <CatalogBookCard key={book.id} book={book} location="shelf" />
           ))}
@@ -122,7 +136,7 @@ export function BooksShelfSection({
                 params: { shelf_id: shelf.id },
               }}
             >
-              View all {totalCount} books
+              View all {totalCount} books →
             </TrackedLink>
           </p>
         ) : null}

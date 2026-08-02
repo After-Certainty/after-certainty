@@ -1,6 +1,6 @@
 # Roadmaps and planning documents
 
-**Last audited:** 2026-07-28
+**Last audited:** 2026-08-02
 
 This index orients agents and maintainers. It is **not** a backlog.
 
@@ -26,6 +26,12 @@ This index orients agents and maintainers. It is **not** a backlog.
 | Path | Topic | Classification |
 |------|-------|----------------|
 | [`remaining-product-roadmap.md`](remaining-product-roadmap.md) | Remaining cross-layer product, corpus, ops work | **active-authoritative-roadmap** |
+
+### Active specialized site plans
+
+| Path | Topic | Classification |
+|------|-------|----------------|
+| [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md) | Books index, shelves, detail, native reader UX redesign | **active-specialized-site-plan** (links here for unfinished cross-layer follow-ups; not a second master backlog) |
 
 ### Completed historical roadmaps / migration records
 

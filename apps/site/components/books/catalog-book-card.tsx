@@ -7,14 +7,64 @@ import { StatusLabel } from "@/components/books/status-label";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import { catalogExceptionalChip } from "@/lib/books/public-status";
 
-type CatalogBookCardLayout = "responsive" | "compact" | "detailed";
+type CatalogBookCardLayout = "responsive" | "compact" | "detailed" | "list";
 
 type CatalogBookCardProps = {
   book: CatalogBookView;
   location: "shelf" | "catalog";
-  /** `responsive` = compact below md, detailed from md up (default). */
+  /**
+   * `responsive` = compact below md, detailed from md up (default).
+   * `list` = dense horizontal row with chevron (shelf previews / shelf pages).
+   */
   layout?: CatalogBookCardLayout;
 };
+
+function ListChevron() {
+  return (
+    <svg
+      viewBox="0 0 20 20"
+      fill="none"
+      aria-hidden
+      className="h-5 w-5 shrink-0 text-muted transition-colors group-hover:text-accent"
+    >
+      <path
+        d="M7.5 5L12.5 10L7.5 15"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}
+
+function ListCover({ book }: { book: CatalogBookView }) {
+  const src = book.coverThumbnail ?? book.coverImage;
+  return (
+    <div
+      className="relative shrink-0 overflow-hidden rounded-sm border border-border/50 bg-bg-elevated/50"
+      style={{
+        width: "var(--books-cover-list-w)",
+        height: "var(--books-cover-list-h)",
+      }}
+    >
+      {src ? (
+        <Image
+          src={src}
+          alt=""
+          fill
+          className="object-contain opacity-95 transition-opacity duration-500 group-hover:opacity-100"
+          sizes="56px"
+        />
+      ) : (
+        <div
+          className="absolute inset-0 bg-gradient-to-br from-accent/[0.12] via-bg-elevated to-bg transition-opacity duration-500 group-hover:from-accent/[0.16]"
+          aria-hidden
+        />
+      )}
+    </div>
+  );
+}
 
 function CompactCover({ book }: { book: CatalogBookView }) {
   const src = book.coverThumbnail ?? book.coverImage;
@@ -55,6 +105,25 @@ function DetailedCover({ book }: { book: CatalogBookView }) {
           aria-hidden
         />
       )}
+    </div>
+  );
+}
+
+function ListMeta({ book }: { book: CatalogBookView }) {
+  const typeLabel = book.contentTypeLabel;
+  const exceptional = catalogExceptionalChip(book);
+  const blurb = book.subtitle || book.description;
+
+  return (
+    <div className="min-w-0 flex-1 space-y-0.5 py-0.5">
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="text-[10px] uppercase tracking-[0.28em] text-accent">{typeLabel}</span>
+        {exceptional ? <StatusLabel label={exceptional.label} kind={exceptional.kind} /> : null}
+      </div>
+      <h3 className="font-display text-base font-medium leading-snug tracking-tight text-fg line-clamp-2 transition-colors group-hover:text-accent">
+        {book.title}
+      </h3>
+      {blurb ? <p className="line-clamp-2 text-sm leading-snug text-muted">{blurb}</p> : null}
     </div>
   );
 }
@@ -111,6 +180,25 @@ function DetailedMeta({ book }: { book: CatalogBookView }) {
 }
 
 export function CatalogBookCard({ book, location, layout = "responsive" }: CatalogBookCardProps) {
+  if (layout === "list") {
+    return (
+      <article className="group min-w-0 border-b border-border/35 last:border-b-0">
+        <TrackedLink
+          href={book.href}
+          className="flex min-h-11 items-center gap-3 py-[var(--books-row-py)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          analytics={{
+            event: "books_card_select",
+            params: { book_id: book.id, location },
+          }}
+        >
+          <ListCover book={book} />
+          <ListMeta book={book} />
+          <ListChevron />
+        </TrackedLink>
+      </article>
+    );
+  }
+
   const showCompact = layout === "compact" || layout === "responsive";
   const showDetailed = layout === "detailed" || layout === "responsive";
   const isResponsive = layout === "responsive";

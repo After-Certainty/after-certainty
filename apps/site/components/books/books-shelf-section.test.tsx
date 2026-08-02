@@ -69,9 +69,22 @@ describe("BooksShelfSection", () => {
 
     const toggle = screen.getByRole("button", { name: /Start Here/i });
     expect(toggle).toHaveAttribute("aria-expanded", "true");
-    expect(screen.getByRole("link", { name: /After Certainty/i })).toBeInTheDocument();
+    expect(screen.getAllByRole("link", { name: /After Certainty/i }).length).toBeGreaterThan(0);
 
     await user.click(toggle);
     expect(toggle).toHaveAttribute("aria-expanded", "false");
+  });
+
+  it("renders mobile list layout cards when expanded", () => {
+    const { container } = render(
+      <BooksShelfSection
+        shelf={shelf}
+        books={[book]}
+        totalCount={1}
+        defaultOpen
+        showViewAll={false}
+      />,
+    );
+    expect(container.querySelector('[data-books-layout="list"]')).toBeInTheDocument();
   });
 });
