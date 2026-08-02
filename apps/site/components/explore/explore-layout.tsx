@@ -14,8 +14,11 @@ type ExploreLayoutProps = {
  */
 export function ExploreLayout({ children, hideSidebar = false }: ExploreLayoutProps) {
   return (
-    <div className="relative overflow-x-clip border-b border-border/30 bg-gradient-to-b from-bg-elevated/40 via-transparent to-transparent pb-4 pt-0 md:pb-8">
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-48 bg-[radial-gradient(ellipse_80%_60%_at_50%_-20%,var(--glow),transparent)] opacity-90" aria-hidden />
+    <div className="relative overflow-x-clip border-b border-border/30 bg-gradient-to-b from-bg-elevated/40 via-transparent to-transparent pb-2 pt-0 md:pb-8">
+      <div
+        className="pointer-events-none absolute inset-x-0 top-0 h-48 bg-[radial-gradient(ellipse_80%_60%_at_50%_-20%,var(--glow),transparent)] opacity-90"
+        aria-hidden
+      />
       <Container className="relative">
         {!hideSidebar ? <ExploreSidebar /> : null}
         {children}

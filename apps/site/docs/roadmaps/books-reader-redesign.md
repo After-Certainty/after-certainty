@@ -1,6 +1,6 @@
 # Books, curated shelves, book detail, and native reader redesign
 
-**Status:** Active — specialized site plan (Phase A in progress)  
+**Status:** Active — specialized site plan (Phase A complete; Phase B in progress)  
 **Created:** 2026-08-02  
 **Location:** `apps/site/docs/roadmaps/books-reader-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
@@ -185,7 +185,7 @@ Device-scoped features (label clearly; never imply sync):
 
 ## 9. Phased implementation plan
 
-### Phase A — Shared foundations (this PR)
+### Phase A — Shared foundations (complete — PR #460)
 
 **Objective:** Path helpers, shelf membership/adjacency selectors, list-row card layout, density tokens, thin safe localStorage helper — without redesigning full pages.
 
@@ -205,14 +205,14 @@ Device-scoped features (label clearly; never imply sync):
 **Tests:** Unit tests for paths/selectors/storage; component tests for list card / shelf section.  
 **Routes / manifests:** Path convention only; no new App Router page; no semantic YAML changes.
 
-### Phase B — Books index refinement
+### Phase B — Books index refinement (this PR)
 
 **Objective:** Tighten hero, accordion density, catalog controls, footer dominance on mobile.
 
-**Likely files:** `explore-hero.tsx` (or books-specific compact prop), `books/page.tsx`, `books-shelf-section.tsx`, `books-catalog-controls.tsx`, ExploreSidebar density (careful — site-wide).
+**Likely files:** `explore-hero.tsx` (`density="compact"` for Books only), `books/page.tsx`, `books-shelf-section.tsx`, `books-catalog-controls.tsx`, `explore-sidebar.tsx`, `site-footer.tsx`, `explore-layout.tsx`.
 
-**Acceptance:** Books index usable at 320–430px without excess whitespace; accordion keyboard intact; no horizontal overflow.  
-**Risks:** Breaking shared Explore hero for other index pages.  
+**Acceptance:** Books index usable at 320–430px without excess whitespace; accordion keyboard intact; no horizontal overflow; other Explore index heroes unchanged (default density).  
+**Risks:** Breaking shared Explore hero for other index pages — mitigated by opt-in `density`.  
 **Routes / manifests:** No.
 
 ### Phase C — Dedicated shelf pages

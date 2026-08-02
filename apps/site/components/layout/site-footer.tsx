@@ -41,7 +41,7 @@ export async function SiteFooter() {
   return (
     <footer className="atm-footer border-t border-border/60 bg-bg-elevated/40">
       <span className="atm-footer-grain" aria-hidden />
-      <Container className="atm-footer__inner py-16">
+      <Container className="atm-footer__inner py-10 md:py-16">
         <div className="grid gap-12 md:grid-cols-[2fr_1fr]">
           <div>
             <SiteLockup variant="footer" />
