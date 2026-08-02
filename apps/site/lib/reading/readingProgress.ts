@@ -1,12 +1,17 @@
 import { chapterReadingStorageKey } from "@/lib/graph/chapters";
+import {
+  canUseLocalStorage,
+  readVersionedLocalStateWithMigration,
+  removeLocalStorageKey,
+  writeVersionedLocalState,
+} from "@/lib/storage/safe-local-storage";
 
 /**
  * Local (device-only) reading progress for Native Reader (READ-011).
  * One last-position entry per edition — continue-reading (READ-012) reads this.
  * No server sync; clearing site data resets.
  *
- * @see docs/semantic-chapter-identity.md — Client storage keys
- * @see lib/paths/pathProgress.ts — same storage pattern
+ * Storage: versioned envelope via safe-local-storage (Phase F). Legacy bare maps migrate on read.
  */
 
 export type ReadingProgressEntry = {
@@ -24,31 +29,42 @@ export type ReadingProgressEntry = {
 export type ReadingProgressStore = Record<string, ReadingProgressEntry>;
 
 const STORAGE_KEY = "ac_reading_progress";
+const STORAGE_VERSION = 1;
 
-function canUseStorage(): boolean {
-  return typeof window !== "undefined" && typeof window.localStorage !== "undefined";
+function isProgressEntry(value: unknown): value is ReadingProgressEntry {
+  if (!value || typeof value !== "object") return false;
+  const record = value as Record<string, unknown>;
+  return (
+    typeof record.editionId === "string" &&
+    typeof record.chapterId === "string" &&
+    typeof record.identityKey === "string" &&
+    typeof record.updatedAt === "string"
+  );
+}
+
+function migrateProgressStore(raw: unknown): ReadingProgressStore | null {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
+  const store: ReadingProgressStore = {};
+  for (const [key, value] of Object.entries(raw as Record<string, unknown>)) {
+    if (!key.trim() || !isProgressEntry(value)) continue;
+    store[key] = value;
+  }
+  return store;
 }
 
 function readStore(): ReadingProgressStore {
-  if (!canUseStorage()) return {};
-  try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
-    if (!raw) return {};
-    const parsed = JSON.parse(raw) as unknown;
-    if (!parsed || typeof parsed !== "object") return {};
-    return parsed as ReadingProgressStore;
-  } catch {
-    return {};
-  }
+  if (!canUseLocalStorage()) return {};
+  return (
+    readVersionedLocalStateWithMigration<ReadingProgressStore>(
+      STORAGE_KEY,
+      STORAGE_VERSION,
+      migrateProgressStore,
+    ) ?? {}
+  );
 }
 
 function writeStore(store: ReadingProgressStore): void {
-  if (!canUseStorage()) return;
-  try {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(store));
-  } catch {
-    // Quota / private mode — ignore.
-  }
+  writeVersionedLocalState(STORAGE_KEY, STORAGE_VERSION, store);
 }
 
 function normalizeOptionalString(value: string | null | undefined): string | undefined {
@@ -142,12 +158,8 @@ export function clearReadingProgress(editionId: string): void {
 }
 
 export function clearAllReadingProgress(): void {
-  if (!canUseStorage()) return;
-  try {
-    window.localStorage.removeItem(STORAGE_KEY);
-  } catch {
-    // ignore
-  }
+  removeLocalStorageKey(STORAGE_KEY);
 }
 
 export const READING_PROGRESS_STORAGE_KEY = STORAGE_KEY;
+export const READING_PROGRESS_STORAGE_VERSION = STORAGE_VERSION;

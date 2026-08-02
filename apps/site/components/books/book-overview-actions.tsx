@@ -6,6 +6,7 @@ import {
   exploreSecondaryButtonClass,
 } from "@/components/explore/explore-action-buttons";
 import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
+import { BookFavoriteControl } from "@/components/reading/book-favorite-control";
 import { AnalyticsEvents } from "@/lib/analytics/events";
 import {
   isInternalBookAction,
@@ -124,6 +125,7 @@ export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewA
           purchase links support print editions.
         </p>
       ) : null}
+      <BookFavoriteControl bookId={bookId} className="pt-1" />
     </section>
   );
 }

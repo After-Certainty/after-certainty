@@ -1,6 +1,6 @@
 # Books, curated shelves, book detail, and native reader redesign
 
-**Status:** Active — specialized site plan (Phases A–D complete; Phase E in progress)  
+**Status:** Active — specialized site plan (Phases A–E complete; Phase F in progress)  
 **Created:** 2026-08-02  
 **Location:** `apps/site/docs/roadmaps/books-reader-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
@@ -24,9 +24,9 @@ The public site already ships a full books stack under `/explore/books`. This re
 
 **Data:** Books from `books/*/book.yml` → semantic manifest. Shelf membership is shelf-side only (never on `book.yml`). Reading trails are curated discovery content, not personal lists.
 
-**Local persistence today:** Separate keys — `ac_reading_progress`, `ac_reading_bookmarks`, `ac_reading_prefs` — with client-only guards. No favorites, highlights, notes, or unified versioned schema.
+**Local persistence today:** Versioned `ac_reading_*` keys (progress, bookmarks, prefs, favorites) via `safe-local-storage`; legacy bare JSON migrates on read. Highlights/notes deferred. Device-only — no sync.
 
-**Mobile pressure:** Global header + Explore secondary nav (`ExploreSidebar`) + tall `ExploreIndexHero` leave less first-viewport room than the mockups’ dense library feel. Site footer remains on all pages including the reader.
+**Mobile pressure:** Global header + Explore secondary nav (`ExploreSidebar`) + tall `ExploreIndexHero` leave less first-viewport room than the mockups’ dense library feel. Site footer is omitted on chapter reader routes (Phase E).
 
 ---
 
@@ -94,7 +94,7 @@ Statuses: **matches** · **visual-diff** · **partial** · **missing** · **defe
 | Also in this shelf / prev-next             | matches           | Shelf context via Phase A selectors (Phase D) |
 | Fabricated pages/ISBN/dates                | not-recommended   | Real metadata table only; omit when absent    |
 | Add to Reading Trail (personal)            | deferred-backend  | Curated trails remain browseable              |
-| Favorites                                  | missing           | Local-only opportunity (Phase F)              |
+| Favorites                                  | matches           | Device-only toggle on book detail (Phase F)   |
 | Share                                      | partial           | Adapt via Web Share / copy link later         |
 | Bottom Info/Contents/Highlights/Notes tabs | missing           | Highlights/notes Phase F if quality bar met   |
 
@@ -106,8 +106,8 @@ Statuses: **matches** · **visual-diff** · **partial** · **missing** · **defe
 | Local progress / bookmarks / text size | matches               | Separate localStorage modules                                  |
 | Scroll % progress bar                  | matches               | Sticky chapter + scroll % chrome (Phase E)                     |
 | Fake page counts / pages left          | not-recommended       | No reliable pagination model                                   |
-| Line-height / width / theme prefs      | partial               | Text size only today                                           |
-| Highlights / notes                     | missing               | Local-only later if adequate                                   |
+| Line-height / width / theme prefs      | partial               | Size + line-height + width (Phase F); site theme stays global  |
+| Highlights / notes                     | missing               | Deferred — no stable selection/anchor pipeline yet             |
 | Synced / account features              | deferred-backend      | Documented deferrals                                           |
 
 ---
@@ -128,9 +128,9 @@ Statuses: **matches** · **visual-diff** · **partial** · **missing** · **defe
 | Metadata table               | Sparse                       | Real fields only                | book.yml / registry | —            | D     | No       | adapt           |
 | Reader chrome                | Focused (sidebar/footer off) | Focused reader chrome           | —                   | —            | E     | No       | adapt           |
 | Scroll progress UI           | Visible chapter + scroll %   | Visible indicator               | scroll through body | session UI   | E     | No       | implement       |
-| Unified storage helper       | Scattered                    | Safe typed helper               | —                   | localStorage | A→F   | No       | implement       |
-| Favorites                    | No                           | Local favorites                 | book IDs            | localStorage | F     | No       | implement       |
-| Highlights / notes           | No                           | Local only if quality OK        | anchors             | localStorage | F     | No       | adapt / defer   |
+| Unified storage helper       | Versioned envelopes          | Safe typed helper               | —                   | localStorage | A→F   | No       | implement       |
+| Favorites                    | Yes (device-only)             | Local favorites                 | book IDs            | localStorage | F     | No       | implement       |
+| Highlights / notes           | No                           | Local only if quality OK        | anchors             | localStorage | F     | No       | defer           |
 | Personal reading trail       | No                           | —                               | —                   | —            | —     | Yes      | defer           |
 | Account sync                 | No                           | —                               | —                   | —            | —     | Yes      | defer           |
 | Fake page counts             | No                           | Never invent                    | —                   | —            | —     | —        | not-recommended |
@@ -176,10 +176,10 @@ Device-scoped features (label clearly; never imply sync):
 - Reading progress / last-read location (shipped)
 - Bookmarks (shipped)
 - Reader text size (shipped)
-- Favorites (Phase F)
-- Highlights / notes (Phase F if quality adequate)
-- Richer appearance: line-height, reading width, theme (Phase F)
-- Safe storage abstraction + schema versioning (Phase A helper; Phase F migration)
+- Favorites (Phase F — shipped, device-only)
+- Highlights / notes (deferred past Phase F)
+- Richer appearance: line-height, reading width (Phase F); reader theme deferred (site theme global)
+- Safe storage abstraction + schema versioning (Phase F migration complete)
 
 ---
 
@@ -235,7 +235,7 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** Overview vs legacy layout divergence — mitigated by shared metadata/shelf components.  
 **Routes / manifests:** Optional metadata proposals only if needed.
 
-### Phase E — Reader shell and TOC (this PR)
+### Phase E — Reader shell and TOC (complete — PR #464)
 
 **Objective:** Focused reader chrome, progress UI (chapter + scroll %), responsive header, exit behavior, a11y.
 
@@ -245,12 +245,14 @@ Device-scoped features (label clearly; never imply sync):
 **Risks:** Fighting global site shell; mobile Safari chrome — mitigated by sticky bar under existing header, footer omit only.  
 **Routes / manifests:** No.
 
-### Phase F — Local-only reader features
+### Phase F — Local-only reader features (this PR)
 
-**Objective:** Favorites; optional highlights/notes; richer prefs; migrate onto versioned storage helper. Label as device-only.
+**Objective:** Favorites; richer prefs; migrate onto versioned storage helper. Label as device-only. Defer highlights/notes (no stable selection/anchor pipeline).
 
-**Acceptance:** Schema version + migration; no hydration mismatch; clear reset.  
-**Risks:** Half-baked highlight UX; storage quota.  
+**Likely files:** `safe-local-storage.ts`, `readingProgress.ts`, `readingBookmarks.ts`, `readingPreferences.ts`, `readingFavorites.ts`, `reading-preferences-controls.tsx`, `book-favorite-control.tsx`, book overview/legacy actions, tests, this roadmap.
+
+**Acceptance:** Versioned envelopes + legacy migration on read; favorites toggle with device-only copy; line-height + reading-width prefs; reset appearance; no hydration mismatch; highlights deferred.  
+**Risks:** Storage quota (swallowed); prefs width shifts sticky chrome — covered by unit tests.  
 **Routes / manifests:** No.
 
 ### Phase G — Polish and validation

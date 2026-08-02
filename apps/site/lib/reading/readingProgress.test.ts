@@ -9,6 +9,7 @@ import {
   READING_PROGRESS_STORAGE_KEY,
   recordReadingProgress,
 } from "@/lib/reading/readingProgress";
+import { readVersionedLocalState } from "@/lib/storage/safe-local-storage";
 
 const EDITION = "book-after-certainty";
 const CHAPTER_INTRO = "chapter-after-certainty-front-matter-introduction";
@@ -153,6 +154,23 @@ describe("readingProgress", () => {
     expect(window.localStorage.getItem(READING_PROGRESS_STORAGE_KEY)).toBeNull();
   });
 
+  it("migrates legacy bare progress maps into a versioned envelope", () => {
+    const legacyEntry = {
+      editionId: EDITION,
+      chapterId: CHAPTER_INTRO,
+      identityKey: chapterReadingStorageKey(EDITION, CHAPTER_INTRO),
+      updatedAt: "2026-01-01T00:00:00.000Z",
+    };
+    window.localStorage.setItem(
+      READING_PROGRESS_STORAGE_KEY,
+      JSON.stringify({ [EDITION]: legacyEntry }),
+    );
+    expect(getReadingProgress(EDITION)?.chapterId).toBe(CHAPTER_INTRO);
+    expect(readVersionedLocalState(READING_PROGRESS_STORAGE_KEY, 1)?.data).toMatchObject({
+      [EDITION]: expect.objectContaining({ chapterId: CHAPTER_INTRO }),
+    });
+  });
+
   it("returns null and no-ops when storage is empty or edition id blank", () => {
     expect(getReadingProgress(EDITION)).toBeNull();
     expect(getReadingProgress("")).toBeNull();
@@ -161,9 +179,9 @@ describe("readingProgress", () => {
   });
 
   it("throws when recording without edition or chapter id", () => {
-    expect(() =>
-      recordReadingProgress({ editionId: "", chapterId: CHAPTER_INTRO }),
-    ).toThrow(/non-empty/);
+    expect(() => recordReadingProgress({ editionId: "", chapterId: CHAPTER_INTRO })).toThrow(
+      /non-empty/,
+    );
     expect(() => recordReadingProgress({ editionId: EDITION, chapterId: "  " })).toThrow(
       /non-empty/,
     );

@@ -160,12 +160,13 @@
  */
 .prose-reading {
   font-size: var(--reader-font-size, 1.0625rem);
-  line-height: 1.75;
+  line-height: var(--reader-line-height, 1.75);
   color: var(--fg);
 }
 
 .chapter-reader {
   --reader-font-size: 1.0625rem;
+  --reader-line-height: 1.75;
 }
 
 .chapter-reader[data-reading-size="sm"] {
@@ -203,10 +204,12 @@
   --tw-prose-td-borders: var(--border);
   color: var(--fg);
   font-size: var(--reader-font-size, 1.0625rem);
-  line-height: 1.75;
+  line-height: var(--reader-line-height, 1.75);
 }
 
-.chapter-reader .chapter-manuscript.prose :where(p, li, h1, h2, h3, h4, h5, h6, blockquote, td, th, strong, a) {
+.chapter-reader
+  .chapter-manuscript.prose
+  :where(p, li, h1, h2, h3, h4, h5, h6, blockquote, td, th, strong, a) {
   color: inherit;
 }
 
@@ -219,5 +222,5 @@
 }
 
 .chapter-manuscript {
-  line-height: 1.75;
+  line-height: var(--reader-line-height, 1.75);
 }

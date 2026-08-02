@@ -72,7 +72,7 @@ export function ChapterReaderShell({
     <ReadingPreferencesRoot
       aria-labelledby="chapter-title"
       data-chapter-reader=""
-      className="relative mx-auto max-w-3xl px-4 py-6 md:py-12"
+      className="relative mx-auto px-4 py-6 md:py-12"
     >
       <RecordReadingProgress editionId={progressEditionId} chapterId={chapter.id} />
       <RecordChapterOpen bookId={book.id} chapterId={chapter.id} editionId={progressEditionId} />

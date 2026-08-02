@@ -5,6 +5,7 @@ import {
   readLocalStorageJson,
   readLocalStorageRaw,
   readVersionedLocalState,
+  readVersionedLocalStateWithMigration,
   removeLocalStorageKey,
   writeLocalStorageJson,
   writeVersionedLocalState,
@@ -49,5 +50,18 @@ describe("safe-local-storage", () => {
       data: { favorite: true },
     });
     expect(readVersionedLocalState(KEY, 2)).toBeNull();
+  });
+
+  it("migrates legacy bare payloads into a versioned envelope", () => {
+    writeLocalStorageJson(KEY, { count: 3 });
+    const migrated = readVersionedLocalStateWithMigration<{ count: number }>(KEY, 1, (raw) => {
+      if (!raw || typeof raw !== "object" || !("count" in raw)) return null;
+      return { count: (raw as { count: number }).count };
+    });
+    expect(migrated).toEqual({ count: 3 });
+    expect(readVersionedLocalState<{ count: number }>(KEY, 1)).toEqual({
+      version: 1,
+      data: { count: 3 },
+    });
   });
 });
