@@ -1,0 +1,644 @@
+version: 1
+chapters:
+  - sourcePath: front-matter/introduction-when-certainty-stops-working.md
+    summary: >
+      Public and organizational life increasingly disagrees from incompatible certainties—
+      the same incident read as system failure and as negligence, metrics improving while
+      frontline reports worsen. The introduction refuses an unkind diagnosis of irrationality
+      and names a structural shift: certainty fraying as social glue under scale and exposure.
+      The book aims to name shared discomfort and practice judgment when absolutes stop working.
+    centralQuestion: What changes when certainty stops holding people together without becoming prophecy or cynicism?
+    selectedConcepts:
+      - certainty
+      - uncertainty
+      - judgment
+      - humility
+      - revisability
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - correctness-hardens-into-identity
+      - revisability-preserves-judgment
+    searchAliases:
+      - when certainty stops working
+      - incompatible certainties
+      - certainty as social glue
+    situations:
+      - pressure-accelerates-interpretation
+      - result-final-meaning-unsettled
+    transition:
+      toNext: >
+        From shared discomfort into Part I—why absolutes remain seductive when they fail.
+
+  - sourcePath: parts/part-1-why-we-crave-absolutes/bridge.md
+    summary: >
+      Part I asks why absolutes and clean models stay seductive even when they fail—before
+      patterns, probability, institutions, and leadership. It is diagnostic: see why clean
+      answers sell, who buys them, and what institutions pay when reality returns variance.
+      Psychological comfort comes first; abstraction that scales comfort into metrics follows.
+    centralQuestion: Why do clean answers keep selling when lived variance keeps returning?
+    selectedConcepts:
+      - certainty
+      - uncertainty
+      - compression
+      - judgment
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - correctness-hardens-into-identity
+    searchAliases:
+      - why we crave absolutes
+      - seduction of clean answers
+    transition:
+      fromPrevious: >
+        From the introduction's diagnosis into the hunger for closure.
+      toNext: >
+        From the part frame into the psychological comfort of certainty.
+
+  - sourcePath: parts/part-1-why-we-crave-absolutes/chapter-1-the-psychological-comfort-of-certainty.md
+    summary: >
+      A resident facing conflicting shortage guidance feels anger at lost orientation; a team
+      after reorganization sighs in relief at a crisp incomplete plan. Certainty ends the spike
+      of open loops—even wrong certainty can feel safer than nuanced truth under stress. The
+      chapter maps why that comfort is so strong and why institutions ignore the load at their
+      peril.
+    centralQuestion: Why can wrong certainty feel safer than true nuance when orientation collapses?
+    selectedConcepts:
+      - certainty
+      - uncertainty
+      - judgment
+      - humility
+      - formation
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - correctness-hardens-into-identity
+    searchAliases:
+      - psychological comfort of certainty
+      - open loop closure
+      - medication shortage resident
+    situations:
+      - pressure-accelerates-interpretation
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From Part I's hunger into rooms where closure ends the spike.
+      toNext: >
+        From nervous-system comfort into abstraction that scales clean answers.
+
+  - sourcePath: parts/part-1-why-we-crave-absolutes/chapter-2-abstraction-and-the-seduction-of-clean-answers.md
+    summary: >
+      A clinician performance score compresses dozens of behaviors into one number—transparent
+      to administrators, a cartoon to clinicians. Abstraction makes action possible and dispute
+      inevitable when the map is mistaken for the territory. Institutions scale comfort into
+      metrics that travel farther than the lived cases they summarize.
+    centralQuestion: How do clean models travel farther than the cases they compress—and at what cost?
+    selectedConcepts:
+      - compression
+      - certainty
+      - judgment
+      - scale
+      - drift
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - compression-loses-the-person
+      - correctness-hardens-into-identity
+    searchAliases:
+      - abstraction and clean answers
+      - performance score cartoon
+      - map mistaken for territory
+    situations:
+      - meaning-outruns-shared-understanding
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: >
+        From personal comfort into institutional instruments of closure.
+      toNext: >
+        From craving absolutes into Part II—what patterns actually are.
+
+  - sourcePath: parts/part-2-what-patterns-actually-are/bridge.md
+    summary: >
+      Part II turns from why we crave closure to what we do with patterns when closure fails.
+      Patterns are how serious people learn—smoke before fire—not the enemy of discipline.
+      The enemy is verdict language that treats a pattern as if it already decided the ending.
+      Warnings preserve agency; destiny talk ends it.
+    centralQuestion: How do we keep patterns as warnings without letting them harden into verdicts?
+    selectedConcepts:
+      - judgment
+      - uncertainty
+      - revisability
+      - certainty
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+      - learning-collapses
+    searchAliases:
+      - what patterns actually are
+      - warnings not verdicts
+    transition:
+      fromPrevious: >
+        From appetite for absolutes into disciplined use of regularities.
+      toNext: >
+        From the part frame into patterns as warnings before outcome is known.
+
+  - sourcePath: parts/part-2-what-patterns-actually-are/chapter-3-patterns-as-warnings-not-verdicts.md
+    summary: >
+      Near-misses on a manufacturing line and boundary slips in a training clinic argue for
+      intervention before catastrophe is proven—direction matters before outcome is known. A
+      pattern does not license panic shutdown or doom proclamation. It argues for proportionate
+      response while refusing the leap from tendency to destiny.
+    centralQuestion: What kind of response does a pattern authorize before the ending is known?
+    selectedConcepts:
+      - judgment
+      - uncertainty
+      - revisability
+      - responsibility
+      - humility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - learning-collapses
+      - examples-accumulate
+    searchAliases:
+      - patterns as warnings not verdicts
+      - near-miss cluster
+      - direction before outcome
+    situations:
+      - pressure-accelerates-interpretation
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: >
+        From Part II's distinction into warning without destiny talk.
+      toNext: >
+        From usable warnings into fatalism that ends agency.
+
+  - sourcePath: parts/part-2-what-patterns-actually-are/chapter-4-when-pattern-recognition-turns-fatalistic.md
+    summary: >
+      Documented agency failures become "government cannot work, ever"; three missed launches
+      become "we are structurally incapable." The leap from tends-to-happen to must-happen is
+      fatalism wearing pattern language. Real regularities stay real; fatalism ends agency by
+      converting warning into destiny and demoralizing the people who could still revise.
+    centralQuestion: When does pattern recognition stop informing action and start ending it?
+    selectedConcepts:
+      - certainty
+      - judgment
+      - revisability
+      - responsibility
+      - drift
+    selectedPatterns:
+      - correctness-hardens-into-identity
+      - learning-collapses
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - pattern recognition turns fatalistic
+      - tends becomes must
+      - structurally incapable
+    situations:
+      - feedback-stops-changing-decisions
+      - meaning-forms-before-anyone-checks-it
+    transition:
+      fromPrevious: >
+        From warnings that preserve agency into fatalism that removes it.
+      toNext: >
+        From pattern misuse into Part III—probabilistic truth and moral seriousness.
+
+  - sourcePath: parts/part-3-probabilistic-truth-and-moral-seriousness/bridge.md
+    summary: >
+      Part III explains how judgment survives when closure fails and patterns stay warnings—
+      practiced in speech and institutions that do not punish revision as betrayal. It is neither
+      a statistics lecture nor moral relativism. Decisions that hurt people—floods, treatments,
+      recalls—keep probabilistic seriousness tied to obligation under incomplete maps.
+    centralQuestion: How does moral seriousness survive when truth arrives as a distribution rather than a binary?
+    selectedConcepts:
+      - judgment
+      - uncertainty
+      - responsibility
+      - revisability
+      - humility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - probabilistic truth and moral seriousness
+      - judgment under distribution
+    transition:
+      fromPrevious: >
+        From pattern discipline into truth that refuses simple binaries.
+      toNext: >
+        From the part frame into why the world refuses absolutes.
+
+  - sourcePath: parts/part-3-probabilistic-truth-and-moral-seriousness/chapter-5-why-the-world-refuses-absolutes.md
+    summary: >
+      Flood plans, specialty-care centralization, and ethics committees face distributions—
+      average gains, tail harms, waste if overprepared. Responsible questions name populations
+      and triggers for reconsideration rather than "will it happen?" alone. Entering morality
+      with eyes open means naming tradeoffs without pretending a single sentence can end them.
+    centralQuestion: What does responsibility look like when the honest map is a distribution of harms?
+    selectedConcepts:
+      - uncertainty
+      - judgment
+      - responsibility
+      - revisability
+      - humility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+      - contact-keeps-the-read-open
+    searchAliases:
+      - why the world refuses absolutes
+      - flood distributions
+      - tradeoffs with eyes open
+    situations:
+      - responsibility-outruns-control
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: >
+        From Part III's frame into decisions under distribution.
+      toNext: >
+        From refusing binaries into why probability is not relativism.
+
+  - sourcePath: parts/part-3-probabilistic-truth-and-moral-seriousness/chapter-6-probabilistic-reasoning-is-not-moral-relativism.md
+    summary: >
+      Prosecutors, physicians, parents, city attorneys, and ombuds act before certainty—cases
+      filed, treatments started, interim protections set—under standards made explicit and kept
+      revisable. Probabilistic seriousness is accountability under partial knowledge, not
+      "anything goes." Weighted concern authorizes proportionate action without declaring guilt
+      or outcome as destiny.
+    centralQuestion: How can we act under partial knowledge without collapsing into either paralysis or prophecy?
+    selectedConcepts:
+      - responsibility
+      - judgment
+      - revisability
+      - uncertainty
+      - humility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+      - learning-collapses
+    searchAliases:
+      - probabilistic reasoning not relativism
+      - interim protections
+      - accountability under partial knowledge
+    situations:
+      - responsibility-outruns-control
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From distributions into obligation that still binds before proof is complete.
+      toNext: >
+        From personal/institutional judgment into Part IV—systems that host drift.
+
+  - sourcePath: parts/part-4-institutions-authority-and-drift/bridge.md
+    summary: >
+      Part IV asks what happens when probabilistic judgment must be hosted by systems that
+      remember, signal, and punish. Drift often converts warnings into wallpaper—ethics weeks
+      without power, quiet dashboards read as vindication. Success teaches that the watch was
+      unnecessary; then harm returns and the institution is shocked at its own sleep.
+    centralQuestion: How do institutions turn living warnings into wallpaper—and then into absolutes under pressure?
+    selectedConcepts:
+      - drift
+      - authority
+      - uncertainty
+      - responsibility
+      - institutional-memory
+    selectedPatterns:
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+      - learning-collapses
+    searchAliases:
+      - institutions authority and drift
+      - warnings into wallpaper
+    transition:
+      fromPrevious: >
+        From seriousness under distribution into systems that host or hollow it.
+      toNext: >
+        From the part frame into warning systems that incriminate their own success.
+
+  - sourcePath: parts/part-4-institutions-authority-and-drift/chapter-7-warning-systems-that-incriminate-their-own-success.md
+    summary: >
+      A hospital's green infection dashboard thins morbidity conferences until a cluster returns;
+      quiet success was read as moral vindication rather than a changed environment. Warning
+      systems are strange: they gain authority by limiting the authority they serve, telling
+      successful institutions that success is a moral risk. Constitutions, scriptures, and safety
+      regimes share that grammar.
+    centralQuestion: Why do warning systems erode precisely when their dashboards look like success?
+    selectedConcepts:
+      - drift
+      - authority
+      - certainty
+      - institutional-memory
+      - responsibility
+    selectedPatterns:
+      - learning-collapses
+      - structures-outlive-reasons
+      - meaning-drifts-over-time
+    searchAliases:
+      - warning systems incriminate success
+      - green dashboard drift
+      - success as moral risk
+    situations:
+      - feedback-stops-changing-decisions
+      - temporary-fixes-become-permanent
+    transition:
+      fromPrevious: >
+        From institutional hosting into how success puts the watch to sleep.
+      toNext: >
+        From eroded warnings into collapse into absolutes under vivid harm.
+
+  - sourcePath: parts/part-4-institutions-authority-and-drift/chapter-8-individuals-structures-and-the-collapse-into-absolutes.md
+    summary: >
+      One teacher's abuse or one bullying manager produces verdicts of "broken everywhere" or
+      "one bad apple"—both offering moral closure that ends the conversation needed for scope,
+      reporting paths, and supervision. Harm is vivid; scope is uncertain; institutions sound
+      like minimization and publics like total judgment. Neither language alone does the boring
+      work that changes probabilities.
+    centralQuestion: How do we keep instance and structure in view without collapsing into totalizing absolutes?
+    selectedConcepts:
+      - judgment
+      - responsibility
+      - certainty
+      - drift
+      - humility
+    selectedPatterns:
+      - correctness-hardens-into-identity
+      - blame-compresses-complexity
+      - revisability-preserves-judgment
+    searchAliases:
+      - individuals structures absolutes
+      - one bad apple versus toxic everywhere
+      - moral closure that ends conversation
+    situations:
+      - blame-locates-harm-in-a-face
+      - meaning-outruns-shared-understanding
+    transition:
+      fromPrevious: >
+        From sleeping watches into public and institutional absolute talk under harm.
+      toNext: >
+        From institutional collapse into Part V—leadership without prophecy.
+
+  - sourcePath: parts/part-5-leadership-without-prophecy/bridge.md
+    summary: >
+      Part V turns to leaders whose speech is heard as orientation while the map is incomplete.
+      Boards and markets reward decisive tone; hesitation reads as weakness and revision as
+      betrayal. Discipline is not a mood but habits: naming risk without destiny, acting with
+      pre-committed revision. Leadership becomes practice under incomplete information.
+    centralQuestion: How can leaders orient others without selling prophecy when the map is incomplete?
+    selectedConcepts:
+      - uncertainty
+      - judgment
+      - authority
+      - humility
+      - revisability
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+      - leaders-feel-the-consequences
+    searchAliases:
+      - leadership without prophecy
+      - pressure into certainty
+    transition:
+      fromPrevious: >
+        From institutional drift into the people who must speak under incomplete maps.
+      toNext: >
+        From the part frame into why leaders are pressured into certainty.
+
+  - sourcePath: parts/part-5-leadership-without-prophecy/chapter-9-why-leaders-are-pressured-into-certainty.md
+    summary: >
+      Earnings guidance, charity galas, and legislative testimony each reward closure; finance
+      offers a range while communications wants a repeatable number. Superintendents after
+      safety incidents feel the same compression: honesty about distributions may read as failure
+      to protect. Certainty scales in markets and rooms; humility does not—because institutions
+      buy narratives that behave like verdicts.
+    centralQuestion: What incentives push leaders to speak in verdicts even when they know the range?
+    selectedConcepts:
+      - certainty
+      - authority
+      - humility
+      - uncertainty
+      - responsibility
+    selectedPatterns:
+      - finality-compensates-for-uncertainty
+      - correctness-hardens-into-identity
+      - leaders-feel-the-consequences
+    searchAliases:
+      - leaders pressured into certainty
+      - earnings guidance range
+      - certainty scales humility does not
+    situations:
+      - pressure-accelerates-interpretation
+      - leaders-judged-beyond-their-reach
+    transition:
+      fromPrevious: >
+        From Part V's leadership frame into structural pressure for verdict speech.
+      toNext: >
+        From pressure into discipline as practical habits under incomplete information.
+
+  - sourcePath: parts/part-5-leadership-without-prophecy/chapter-10-the-discipline-of-uncertainty-as-leadership-practice.md
+    summary: >
+      Wildfire orders with triggers, hospital surge decision rules, and product launches under
+      incomplete information need decisiveness and revision without feeling like tricks. Speak
+      in models and notification paths; promise process that is legible when outcomes cannot be
+      guaranteed. Legibility is a moral good when harm is distributed and trust fractures if
+      leaders spoke only in destiny.
+    centralQuestion: What habits let leaders act decisively while pre-committing to honest revision?
+    selectedConcepts:
+      - revisability
+      - uncertainty
+      - judgment
+      - responsibility
+      - humility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - leaders-feel-the-consequences
+      - contact-keeps-the-read-open
+    searchAliases:
+      - discipline of uncertainty as leadership practice
+      - triggers not destiny
+      - legible process under surge
+    situations:
+      - responsibility-outruns-control
+      - feedback-stops-changing-decisions
+    transition:
+      fromPrevious: >
+        From pressure for certainty into practiced speech and process under uncertainty.
+      toNext: >
+        From leadership practice into Part VI—living without guarantees.
+
+  - sourcePath: parts/part-6-living-without-guarantees/bridge.md
+    summary: >
+      Part VI asks what remains for persons after appetite, patterns, probability, institutions,
+      and leadership pressure: responsibility and meaning when guarantees are gone. Acting
+      without a final map still leaves obligations to revise and proportion harm. Meaning that
+      survives uncertainty orients without false closure—avoiding prophecy and cynicism alike.
+    centralQuestion: What holds responsibility and meaning when guarantees are no longer available?
+    selectedConcepts:
+      - responsibility
+      - uncertainty
+      - judgment
+      - humility
+      - formation
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - meaning-drifts-over-time
+    searchAliases:
+      - living without guarantees
+      - responsibility and meaning after certainty
+    transition:
+      fromPrevious: >
+        From leadership practice into ordinary life under distributions.
+      toNext: >
+        From the part frame into responsibility after certainty.
+
+  - sourcePath: parts/part-6-living-without-guarantees/chapter-11-responsibility-after-certainty.md
+    summary: >
+      Parents buckle seatbelts without controlling every road; therapists hold seriousness
+      without promising healing; council members allocate risk without knowing the decade's
+      shocks. Agency without guarantees is maturity—acting where harm is plausible without
+      outsourcing moral labor to fate scripts. Demanding guaranteed outcomes pushes leaders
+      toward prophecy that breaks later.
+    centralQuestion: What does responsibility look like when no clean category assigns it for you?
+    selectedConcepts:
+      - responsibility
+      - agency
+      - uncertainty
+      - judgment
+      - humility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - responsibility-persists-beyond-control
+      - leaders-feel-the-consequences
+    searchAliases:
+      - responsibility after certainty
+      - agency without guarantees
+      - seatbelt without prophecy
+    situations:
+      - responsibility-outruns-control
+    transition:
+      fromPrevious: >
+        From Part VI's frame into obligations that survive incomplete maps.
+      toNext: >
+        From responsibility into meaning that can survive revision.
+
+  - sourcePath: parts/part-6-living-without-guarantees/chapter-12-meaning-that-survives-uncertainty.md
+    summary: >
+      Rituals promise repetition more than harvest; researchers keep fidelity to method when
+      most experiments fail; people marry without knowing the future. Meaning does not require
+      certainty—it requires honesty about what is held, why, and what would count against it.
+      Institutions that demand guaranteed outputs push prophecy in public and cynicism in private.
+    centralQuestion: How can meaning orient us without depending on false closure?
+    selectedConcepts:
+      - uncertainty
+      - formation
+      - humility
+      - revisability
+      - judgment
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - meaning-drifts-over-time
+      - contact-keeps-the-read-open
+    searchAliases:
+      - meaning that survives uncertainty
+      - ritual repetition
+      - commitment without proof
+    situations:
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: >
+        From responsibility without guarantees into orientation that survives revision.
+      toNext: >
+        From lived meaning into the conclusion—uncertainty as discipline.
+
+  - sourcePath: back-matter/conclusion-uncertainty-as-a-discipline.md
+    summary: >
+      Certainty stopped functioning as remembered social glue; the response is not performed
+      confidence but discipline—reasoning, judging, and acting when absolutes fail. Uncertainty
+      is not a failure state; treating it as failure produces prophecy culture that punishes
+      revision. The conclusion gathers the book's moves for readers returning to ordinary rooms.
+    centralQuestion: What does it mean to treat uncertainty as a discipline rather than a failure state?
+    selectedConcepts:
+      - uncertainty
+      - judgment
+      - revisability
+      - certainty
+      - humility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+      - correctness-hardens-into-identity
+    searchAliases:
+      - uncertainty as a discipline
+      - not a failure state
+      - against prophecy culture
+    situations:
+      - result-final-meaning-unsettled
+    transition:
+      fromPrevious: >
+        From meaning under uncertainty into the stance the book leaves the reader with.
+
+  - sourcePath: back-matter/appendix-a-bounded-seriousness-not-infinite-possibility.md
+    summary: >
+      Some readers hear disciplined uncertainty as permission to drift—if absolutes fail,
+      anything is possible and nothing must be decided. The appendix refuses that confusion:
+      openness without obligation can become moral evasion. Discipline is bounded seriousness—
+      act under known stakes while refusing false inevitability.
+    centralQuestion: How is disciplined uncertainty different from keeping every option open forever?
+    selectedConcepts:
+      - responsibility
+      - uncertainty
+      - judgment
+      - revisability
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - finality-compensates-for-uncertainty
+    searchAliases:
+      - bounded seriousness
+      - not infinite possibility
+      - against moral evasion
+    transition:
+      fromPrevious: >
+        From the conclusion into a guardrail against misreading discipline as drift.
+
+  - sourcePath: back-matter/appendix-b-doubt-versus-discipline.md
+    summary: >
+      Cultural skepticism can be overdue accountability or doubt as lifestyle—permanent
+      suspension of commitment that feels virtuous for refusing false certainty. This book does
+      not belong on the doubt shelf. Doubt suspends commitment; discipline commits under partial
+      knowledge with revision rules.
+    centralQuestion: What is the difference between living in doubt and practicing disciplined uncertainty?
+    selectedConcepts:
+      - uncertainty
+      - judgment
+      - revisability
+      - humility
+      - responsibility
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - contact-keeps-the-read-open
+    searchAliases:
+      - doubt versus discipline
+      - doubt as lifestyle
+      - commit with revision rules
+    transition:
+      fromPrevious: >
+        From bounded seriousness into the distinction from permanent suspension.
+
+  - sourcePath: back-matter/appendix-c-faith-science-and-probabilistic-commitment.md
+    summary: >
+      Public fights sort science versus faith while hiding a shared problem: how to commit when
+      proof is incomplete. The appendix is not theology or methods text; it maps where practices
+      overlap and diverge so probabilistic seriousness can learn from each without collapsing
+      them—or treating faith as prophecy in ancient dress.
+    centralQuestion: What can faith and science each teach about committing when proof is incomplete?
+    selectedConcepts:
+      - uncertainty
+      - judgment
+      - revisability
+      - humility
+      - formation
+    selectedPatterns:
+      - revisability-preserves-judgment
+      - meaning-forms-early
+      - contact-keeps-the-read-open
+    searchAliases:
+      - faith science probabilistic commitment
+      - commit when proof incomplete
+      - overlap without collapse
+    transition:
+      fromPrevious: >
+        From doubt versus discipline into traditions that already practice commitment under incompleteness.

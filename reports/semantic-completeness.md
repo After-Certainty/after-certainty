@@ -1,12 +1,12 @@
 # Semantic completeness report
 
-Generated: `2026-08-02T00:02:09.391088+00:00`
+Generated: `2026-08-02T00:18:53.437660+00:00`
 
 ## Manifest provenance
 
 - schemaVersion: `2.4`
-- sourceCommit: `181d1acee062330e499741f9e12cb68061255f46`
-- manifest generatedAt: `2026-08-02T00:01:57.851809+00:00`
+- sourceCommit: `6a18b3627dd148449703210498f0d5c28d177780`
+- manifest generatedAt: `2026-08-02T00:18:41.945064+00:00`
 
 Public canonical works evaluated: **34**
 
@@ -119,7 +119,6 @@ _None._
 - `no-time-to-think`
 - `observer-patterns`
 - `the-case-that-does-not-fit`
-- `the-discipline-of-uncertainty`
 - `the-economy-we-dont-experience`
 - `trust-beyond-similarity`
 - `what-we-cannot-see`
@@ -645,7 +644,7 @@ _None._
 | `publicChangeEvent` | `missing` |
 | `partStructure` | `complete` |
 | `chapterStructure` | `complete` |
-| `chapterSummaries` | `missing` |
+| `chapterSummaries` | `complete` |
 | `situationCoverage` | `missing` |
 | `selectedThinkersOrSources` | `complete` |
 
