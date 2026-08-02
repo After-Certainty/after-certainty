@@ -23,7 +23,7 @@ export function BooksCatalogResults({
       : `${results.length} ${results.length === 1 ? "book" : "books"}`;
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4 md:space-y-6">
       <p className="text-sm text-muted" aria-live="polite" aria-atomic="true">
         {resultSummary}
       </p>

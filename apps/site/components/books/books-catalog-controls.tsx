@@ -149,15 +149,22 @@ function BooksCatalogControlsInner({ results, filterOptions }: BooksCatalogContr
   }
 
   return (
-    <div className="space-y-6 md:space-y-8">
-      <details className="md:hidden rounded-sm border border-border/50 bg-bg-elevated/30">
-        <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 px-4 py-3 text-sm font-medium text-fg [&::-webkit-details-marker]:hidden">
-          <span>Filter books</span>
-          {filterCount > 0 ? (
-            <span className="text-xs font-normal text-accent">{filterCount} active</span>
-          ) : null}
+    <div className="space-y-4 md:space-y-8">
+      <details className="md:hidden border-b border-border/40">
+        <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 py-2.5 text-sm font-medium text-fg [&::-webkit-details-marker]:hidden">
+          <span className="flex min-w-0 items-center gap-2">
+            <FilterIcon />
+            <span>Filter &amp; sort</span>
+          </span>
+          <span className="flex shrink-0 items-center gap-2 text-xs font-normal text-muted">
+            {filterCount > 0 ? <span className="text-accent">{filterCount} active</span> : null}
+            <span aria-hidden="true">
+              {results.length} {results.length === 1 ? "book" : "books"}
+            </span>
+            <FilterChevron />
+          </span>
         </summary>
-        <div className="space-y-5 border-t border-border/40 px-4 py-4">
+        <div className="space-y-4 border-t border-border/35 pb-4 pt-3">
           <FilterFieldsets
             urlState={urlState}
             filterOptions={filterOptions}
@@ -222,6 +229,33 @@ function BooksCatalogControlsInner({ results, filterOptions }: BooksCatalogContr
 
       <BooksCatalogResults results={results} query={urlState.q} hasActiveFilters={activeFilters} />
     </div>
+  );
+}
+
+function FilterIcon() {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" aria-hidden className="h-4 w-4 shrink-0 text-accent">
+      <path
+        d="M3.5 5.5h13M6 10h8M8.5 14.5h3"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+function FilterChevron() {
+  return (
+    <svg viewBox="0 0 20 20" fill="none" aria-hidden className="h-4 w-4 shrink-0 text-muted">
+      <path
+        d="M5 7.5L10 12.5L15 7.5"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
   );
 }
 

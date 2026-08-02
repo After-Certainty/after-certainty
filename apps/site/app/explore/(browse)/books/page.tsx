@@ -44,44 +44,49 @@ export default async function ExploreBooksIndexPage({ searchParams }: BooksPageP
         eyebrow="Library"
         title="Books"
         headingId="explore-books-heading"
+        density="compact"
         lede="A reading library, not a database — curated shelves and a complete catalog for moving through the project at your own pace."
       />
 
-      {showShelfSections && startHereSection ? (
-        <BooksShelfSection
-          shelf={startHereSection.shelf}
-          books={startHereSection.books}
-          totalCount={startHereSection.totalCount}
-          showViewAll={false}
-          defaultOpen
-        />
-      ) : null}
-
-      {showShelfSections
-        ? featuredShelfSections.map(({ shelf, books, totalCount }) => (
+      {showShelfSections ? (
+        <div className="pt-4 md:pt-2">
+          <p className="mb-1 text-[10px] uppercase tracking-[0.28em] text-accent md:mb-4">
+            Curated shelves
+          </p>
+          {startHereSection ? (
+            <BooksShelfSection
+              shelf={startHereSection.shelf}
+              books={startHereSection.books}
+              totalCount={startHereSection.totalCount}
+              showViewAll={false}
+              defaultOpen
+            />
+          ) : null}
+          {featuredShelfSections.map(({ shelf, books, totalCount }) => (
             <BooksShelfSection key={shelf.id} shelf={shelf} books={books} totalCount={totalCount} />
-          ))
-        : null}
+          ))}
+        </div>
+      ) : null}
 
       <Section
         atmosphere="transition"
-        className="border-t border-border/25 py-10 md:py-20"
+        className="!py-6 border-t border-border/25 md:!py-16"
         aria-labelledby="books-catalog-heading"
       >
-        <div className="space-y-3">
+        <div className="space-y-2 md:space-y-3">
           <h2
             id="books-catalog-heading"
-            className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl"
+            className="font-display text-xl font-medium tracking-tight text-fg md:text-3xl"
           >
             {filteredView ? "Filtered catalog" : "Complete catalog"}
           </h2>
-          <p className="max-w-2xl text-muted">
+          <p className="max-w-2xl text-sm text-muted md:text-base">
             {filteredView
               ? "Refine by shelf, type, or availability. Share the URL to preserve your view."
               : "Every published volume — filter or sort when you know what you are looking for."}
           </p>
         </div>
-        <div className="mt-10">
+        <div className="mt-5 md:mt-10">
           <BooksCatalogControls results={results} filterOptions={filterOptions} />
         </div>
       </Section>

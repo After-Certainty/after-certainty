@@ -79,13 +79,15 @@ export function BooksShelfSection({
         onClick={() => setOpen((value) => !value)}
       >
         <span className="min-w-0 flex-1 leading-tight">
-          <h2
-            id={mobileHeadingId}
-            className="font-display text-lg font-medium tracking-tight text-fg"
-          >
-            {shelf.title}
-          </h2>
-          <span className="mt-0.5 block text-[11px] leading-none text-muted">{bookCountLabel}</span>
+          <span className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+            <h2
+              id={mobileHeadingId}
+              className="font-display text-base font-medium tracking-tight text-fg"
+            >
+              {shelf.title}
+            </h2>
+            <span className="text-[11px] leading-none text-muted">{bookCountLabel}</span>
+          </span>
         </span>
         <Chevron expanded={open} />
       </button>
@@ -107,7 +109,9 @@ export function BooksShelfSection({
         aria-label={shelf.title}
       >
         {shelf.description ? (
-          <p className="pb-2 max-w-2xl text-sm text-muted md:hidden">{shelf.description}</p>
+          <p className="pb-1 max-w-2xl text-sm leading-snug text-muted md:hidden">
+            {shelf.description}
+          </p>
         ) : null}
 
         {/* Mobile: dense list rows (Phase A). Desktop: existing card grid. */}
@@ -127,10 +131,10 @@ export function BooksShelfSection({
         </div>
 
         {showViewAll && totalCount > books.length ? (
-          <p className="mt-4 mb-3 md:mt-8 md:mb-0">
+          <p className="mt-2 mb-2 md:mt-8 md:mb-0">
             <TrackedLink
               href={viewAllHref}
-              className="text-sm text-accent underline-offset-4 hover:underline"
+              className="inline-flex min-h-11 items-center text-sm text-accent underline-offset-4 hover:underline"
               analytics={{
                 event: "books_shelf_select",
                 params: { shelf_id: shelf.id },

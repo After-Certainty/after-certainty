@@ -41,7 +41,10 @@ test.describe("Books catalog", () => {
     await expect(page).toHaveURL(/shelf=fiction/);
     await expect(page.getByRole("heading", { name: "Filtered catalog" })).toBeVisible();
     // Upstream contentType: Boundary Conditions, The Relay, and Velorum.
-    await expect(page.locator("#main").getByText("3 books")).toBeVisible();
+    // Prefer the live-region summary — Filter & sort also shows a decorative count.
+    await expect(
+      page.locator("#main").getByRole("paragraph").filter({ hasText: /^3 books$/ }),
+    ).toBeVisible();
     await expect(
       page.locator("#main").getByRole("heading", { name: "The Relay", level: 3 }),
     ).toBeVisible();
@@ -83,7 +86,7 @@ test.describe("Books catalog", () => {
   test("mobile filter disclosure is operable", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/explore/books?type=fiction");
-    await page.getByText("Filter books").click();
+    await page.getByText("Filter & sort").click();
     await expect(page.getByRole("group", { name: "Sort" })).toBeVisible();
   });
 
