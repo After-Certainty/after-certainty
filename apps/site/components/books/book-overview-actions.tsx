@@ -79,7 +79,7 @@ export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewA
 
   return (
     <section
-      className="mt-10 space-y-4"
+      className="mt-6 space-y-4 md:mt-10"
       aria-label={hasPublication ? "Read or get the book" : "Actions"}
     >
       <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">

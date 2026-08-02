@@ -160,7 +160,7 @@ test.describe("Books catalog", () => {
 
   test("book overview Read CTA opens the first public chapter", async ({ page }) => {
     await page.goto("/explore/books/after-certainty");
-    const read = page.getByRole("link", { name: "Read", exact: true });
+    const read = page.getByRole("link", { name: "Read book", exact: true });
     await expect(read).toBeVisible();
     await expect(read).toHaveAttribute(
       "href",

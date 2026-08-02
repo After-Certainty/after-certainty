@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { BookMetadataTable } from "@/components/books/book-metadata-table";
+import { BookShelfContext } from "@/components/books/book-shelf-context";
 import { BookWhatsNewLinks } from "@/components/books/book-whats-new-links";
 import { EditionNotice } from "@/components/books/edition-notice";
 import { StatusLabel } from "@/components/books/status-label";
@@ -18,6 +20,8 @@ import { Section } from "@/components/ui/section";
 import type { BookStatus } from "@/types/content";
 import type { EditionRelationship } from "@/lib/books/publication-registry-schema";
 import type { SemanticBookActionLinkItem } from "@/lib/books/semantic-book-action-links";
+import type { ShelfAdjacentBooks, ShelfDefinition } from "@/lib/books/shelves";
+import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import type { GraphIndex } from "@/lib/graph/graph";
 import type { ContinueReadingCatalog } from "@/lib/reading/continueReading";
@@ -53,6 +57,12 @@ export type BookDetailLegacyLayoutProps = {
   relatedWhatsNew?: WhatsNewEvent[];
   /** Public chapter destinations for local continue-reading (READ-012). */
   continueReadingCatalog?: ContinueReadingCatalog;
+  /** Active shelves containing this book (Phase D). */
+  membershipShelves?: ShelfDefinition[];
+  /** Primary shelf adjacency for also-in-shelf + prev/next (Phase D). */
+  primaryShelf?: ShelfAdjacentBooks | null;
+  /** Public chapter count for metadata table (Phase D). */
+  chapterCount?: number;
 };
 
 /** Pre–Phase G book detail layout for books without an overview overlay. */
@@ -77,6 +87,9 @@ export function BookDetailLegacyLayout({
   breadcrumbs,
   relatedWhatsNew = [],
   continueReadingCatalog,
+  membershipShelves = [],
+  primaryShelf = null,
+  chapterCount,
 }: BookDetailLegacyLayoutProps) {
   const hasRelated =
     inventory.concepts.length +
@@ -84,14 +97,22 @@ export function BookDetailLegacyLayout({
       inventory.thinkers.length +
       inventory.researchSources.length >
     0;
+  const typeInfo = contentTypeInfoFromBook(book);
+  const typeEyebrow = typeInfo.isKnown ? typeInfo.label : "Book";
+  const authors =
+    book.authors
+      ?.map((a) => a.trim())
+      .filter(Boolean)
+      .join(", ") || undefined;
+  const showExploreAdjacent = Boolean(prevBook || nextBook) && !primaryShelf;
 
   return (
     <article>
       <JsonLd data={buildBookPageJsonLd({ book, breadcrumbs })} />
-      <Section atmosphere="none" className="pt-10 md:pt-14 !pb-10 md:!pb-12">
+      <Section atmosphere="none" className="!pb-8 pt-8 md:!pb-12 md:pt-12">
         <BreadcrumbTrail items={breadcrumbs} />
         <div className="flex flex-wrap items-center gap-2">
-          <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Book</p>
+          <p className="text-[11px] uppercase tracking-[0.28em] text-accent">{typeEyebrow}</p>
           {upcomingLabel ? <StatusLabel label={upcomingLabel} kind="upcoming" /> : null}
           {relationship === "companion" ? (
             <StatusLabel label={editionLabel ?? "Companion edition"} kind="companion" />
@@ -103,33 +124,38 @@ export function BookDetailLegacyLayout({
         <div
           className={
             coverSrc
-              ? "mt-6 grid gap-10 md:grid-cols-[minmax(0,220px)_1fr] md:items-start"
-              : "mt-6 space-y-4"
+              ? "mt-4 grid grid-cols-[minmax(0,5.5rem)_1fr] items-start gap-4 sm:grid-cols-[minmax(0,7rem)_1fr] sm:gap-6 md:mt-6 md:grid-cols-[minmax(0,220px)_1fr] md:gap-10"
+              : "mt-4 space-y-4 md:mt-6"
           }
         >
           {coverSrc ? (
-            <div className="relative mx-auto aspect-[2/3] w-full max-w-[220px] shrink-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/50 md:mx-0">
+            <div className="relative aspect-[2/3] w-full shrink-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/50">
               <Image
                 src={coverSrc}
                 alt=""
                 fill
                 className="object-contain"
-                sizes="(max-width:768px) 280px, 220px"
+                sizes="(max-width:768px) 112px, 220px"
                 priority
               />
             </div>
           ) : null}
-          <div className="min-w-0 space-y-4">
-            <h1 className="font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
+          <div className="min-w-0 space-y-3 md:space-y-4">
+            <h1 className="font-display text-2xl font-medium leading-[1.08] tracking-tight text-fg sm:text-3xl md:text-5xl">
               {book.title}
             </h1>
             {book.subtitle ? (
-              <p className="max-w-2xl font-display text-xl text-muted md:text-2xl">
+              <p className="max-w-2xl font-display text-base text-muted sm:text-xl md:text-2xl">
                 {book.subtitle}
               </p>
             ) : null}
+            {authors ? (
+              <p className="text-sm text-muted">
+                By <span className="text-accent">{authors}</span>
+              </p>
+            ) : null}
             {book.summary ? (
-              <p className="max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
+              <p className="hidden max-w-2xl text-lg leading-relaxed text-muted sm:block md:text-xl">
                 <LinkifiedText text={book.summary} />
               </p>
             ) : null}
@@ -152,9 +178,26 @@ export function BookDetailLegacyLayout({
             />
           </div>
         </div>
+        {book.summary ? (
+          <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:hidden">
+            <LinkifiedText text={book.summary} />
+          </p>
+        ) : null}
         <ExploreEntityDetailActions
           observatory={{ kind: "book", slug: book.slug }}
           publicationLinks={publicationLinks}
+          ariaLabel={publicationLinks.length > 0 ? "Read or get the book" : undefined}
+        />
+        <BookMetadataTable
+          className="mt-6"
+          book={book}
+          firstPublishedAt={firstPublishedAt}
+          chapterCount={chapterCount}
+        />
+        <BookShelfContext
+          membershipShelves={membershipShelves}
+          primaryShelf={primaryShelf}
+          currentBookId={book.id}
         />
         {continueReadingCatalog ? (
           <>
@@ -163,12 +206,14 @@ export function BookDetailLegacyLayout({
           </>
         ) : null}
         <ExploreBookMedia book={book} />
-        <ExploreAdjacentNav
-          basePath={explorePaths.books}
-          entityLabel="book"
-          prev={prevBook}
-          next={nextBook}
-        />
+        {showExploreAdjacent ? (
+          <ExploreAdjacentNav
+            basePath={explorePaths.books}
+            entityLabel="book"
+            prev={prevBook}
+            next={nextBook}
+          />
+        ) : null}
       </Section>
 
       <Section

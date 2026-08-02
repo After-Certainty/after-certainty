@@ -7,6 +7,7 @@ import { RelatedTrailsSection } from "@/components/trails/related-trails-section
 import { bookPublicationStatus } from "@/lib/books/book-metadata";
 import { buildBookOverviewViewModel } from "@/lib/books/book-overview-view-model";
 import { resolveBookCanonicalSlug } from "@/lib/books/book-slugs";
+import { buildCatalogViewModel } from "@/lib/books/catalog-view-model";
 import { getPublicationRegistryFromGraph } from "@/lib/books/load-publication-registry";
 import { publicStatusLabel } from "@/lib/books/public-status";
 import { findPublishedQuestionsForBook } from "@/lib/books/related-questions-for-book";
@@ -15,12 +16,13 @@ import {
   getOrderedBookActions,
   getSemanticBookActionLinkItems,
 } from "@/lib/books/semantic-book-action-links";
+import { getPrimaryShelfContextForBook, getShelvesForBook } from "@/lib/books/shelves";
 import { findWhatsNewEventsForBook } from "@/lib/whats-new/findEventsForBook";
 import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
 import { getPublishedQuestions } from "@/lib/questions/loadQuestions";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
-import { firstPublicChapterHref } from "@/lib/graph/chapters";
-import { explorePaths } from "@/lib/graph/explorePaths";
+import { firstPublicChapterHref, publicChaptersForEdition } from "@/lib/graph/chapters";
+import { exploreBooksShelfHref, explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
 import { relatedContentForBook } from "@/lib/graph/relatedContent";
@@ -105,9 +107,25 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
         )
       : undefined;
 
+  const catalogViewModel = buildCatalogViewModel(graph);
+  const catalogBook = catalogViewModel.find((row) => row.id === book.id || row.slug === book.slug);
+  const membershipShelves = catalogBook ? getShelvesForBook(catalogBook, graph) : [];
+  const primaryShelf = catalogBook
+    ? getPrimaryShelfContextForBook(catalogBook, graph, catalogViewModel)
+    : null;
+  const chapterCount = publicChaptersForEdition(graph, book.id).length;
+
   const bookBreadcrumbs = [
     { label: "Explore", href: explorePaths.home },
     { label: "Books", href: explorePaths.books },
+    ...(primaryShelf
+      ? [
+          {
+            label: primaryShelf.shelf.title,
+            href: exploreBooksShelfHref(primaryShelf.shelf.slug),
+          },
+        ]
+      : []),
     { label: book.title },
   ];
 
@@ -151,6 +169,9 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
         breadcrumbs={bookBreadcrumbs}
         relatedTrails={<RelatedTrailsSection canonicalId={book.id} entityLabel="book" />}
         continueReadingCatalog={continueReadingCatalog}
+        membershipShelves={membershipShelves}
+        primaryShelf={primaryShelf}
+        chapterCount={chapterCount}
       />
     );
   }
@@ -162,7 +183,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
   );
 
   const publicationLinks = [
-    ...(readHref ? [{ label: "Read", href: readHref, kind: "read" as const }] : []),
+    ...(readHref ? [{ label: "Read book", href: readHref, kind: "read" as const }] : []),
     ...getSemanticBookActionLinkItems(book),
   ];
 
@@ -188,6 +209,9 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
       breadcrumbs={bookBreadcrumbs}
       relatedWhatsNew={relatedWhatsNew}
       continueReadingCatalog={continueReadingCatalog}
+      membershipShelves={membershipShelves}
+      primaryShelf={primaryShelf}
+      chapterCount={chapterCount}
     />
   );
 }
