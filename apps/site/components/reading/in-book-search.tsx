@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import {
   useCallback,
   useEffect,
@@ -17,6 +16,7 @@ import { createPortal } from "react-dom";
 import { useSearchIndex } from "@/components/search/use-search-index";
 import { trapFocusKeydown } from "@/lib/a11y/focus-trap";
 import { trackSearchNoResults, trackSearchQuery, trackSearchSelect } from "@/lib/analytics/track";
+import { navigateToChapter } from "@/lib/reading/navigate-chapter";
 import { searchWithinBook, type SearchHit } from "@/lib/search/query";
 import { snippetSegments } from "@/lib/search/snippets";
 import { queryLengthBucket, rankBucket, resultCountBucket } from "@/lib/search/urlState";
@@ -90,7 +90,6 @@ type InBookSearchDialogProps = {
 };
 
 function InBookSearchDialog({ panelId, editionId, bookTitle, onClose }: InBookSearchDialogProps) {
-  const router = useRouter();
   const indexState = useSearchIndex({ enabled: true });
   const inputRef = useRef<HTMLInputElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -166,7 +165,8 @@ function InBookSearchDialog({ panelId, editionId, bookTitle, onClose }: InBookSe
       rank_bucket: rankBucket(rank),
     });
     onClose();
-    router.push(hit.document.canonicalUrl);
+    // Full document load so Speak Screen / Listen to Page rescans the chapter.
+    navigateToChapter(hit.document.canonicalUrl);
   }
 
   function onSubmit(e: FormEvent) {

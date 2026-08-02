@@ -10,6 +10,7 @@ import { ReaderChrome } from "@/components/reading/reader-chrome";
 import { ReadingPreferencesRoot } from "@/components/reading/reading-preferences-controls";
 import { RecordChapterOpen } from "@/components/reading/record-chapter-open";
 import { RecordReadingProgress } from "@/components/reading/record-reading-progress";
+import { ResetSpokenContent } from "@/components/reading/reset-spoken-content";
 import { RestoreReadingScroll } from "@/components/reading/restore-reading-scroll";
 import { ButtonLink } from "@/components/ui/button-link";
 import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
@@ -52,10 +53,12 @@ export function ChapterReaderShell({
 
   return (
     <ReadingPreferencesRoot
+      key={chapter.id}
       aria-labelledby="chapter-title"
       data-chapter-reader=""
       className="relative mx-auto px-4 pb-10 pt-0 md:pb-16"
     >
+      <ResetSpokenContent chapterId={chapter.id} chapterTitle={chapter.title} />
       <RecordReadingProgress editionId={progressEditionId} chapterId={chapter.id} />
       <RestoreReadingScroll editionId={progressEditionId} chapterId={chapter.id} />
       <RecordChapterOpen bookId={book.id} chapterId={chapter.id} editionId={progressEditionId} />

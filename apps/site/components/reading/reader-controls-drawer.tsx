@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useTheme } from "next-themes";
 import { useEffect, useId, useState } from "react";
 
@@ -9,6 +8,7 @@ import { ChapterTocList } from "@/components/reading/chapter-toc";
 import { InBookSearch } from "@/components/reading/in-book-search";
 import { ReaderDrawer } from "@/components/reading/reader-drawer";
 import type { ChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
+import { navigateToChapter } from "@/lib/reading/navigate-chapter";
 import { clearReadingProgress } from "@/lib/reading/readingProgress";
 import {
   clearReadingPreferences,
@@ -286,7 +286,6 @@ function ChapterScrubber({
   chapterCount?: number;
   scrollPercent?: number;
 }) {
-  const router = useRouter();
   const count = chapterCount ?? navigation.chapters.length;
   const index =
     typeof chapterIndex === "number" && chapterIndex > 0
@@ -302,6 +301,13 @@ function ChapterScrubber({
 
   const percentLabel =
     typeof scrollPercent === "number" ? ` · ${scrollPercent}% through chapter` : "";
+
+  const jumpToDraft = () => {
+    const target = navigation.chapters[draft - 1];
+    if (target && target.id !== navigation.current.id) {
+      navigateToChapter(target.href);
+    }
+  };
 
   return (
     <div className="space-y-2 border-t border-border/30 pt-4" data-testid="reader-chapter-scrubber">
@@ -320,24 +326,11 @@ function ChapterScrubber({
         aria-label="Jump to chapter"
         className="reader-range h-11 w-full"
         onChange={(event) => setDraft(Number(event.target.value))}
-        onMouseUp={() => {
-          const target = navigation.chapters[draft - 1];
-          if (target && target.id !== navigation.current.id) {
-            router.push(target.href);
-          }
-        }}
-        onTouchEnd={() => {
-          const target = navigation.chapters[draft - 1];
-          if (target && target.id !== navigation.current.id) {
-            router.push(target.href);
-          }
-        }}
+        onMouseUp={jumpToDraft}
+        onTouchEnd={jumpToDraft}
         onKeyUp={(event) => {
           if (event.key === "Enter" || event.key === " ") {
-            const target = navigation.chapters[draft - 1];
-            if (target && target.id !== navigation.current.id) {
-              router.push(target.href);
-            }
+            jumpToDraft();
           }
         }}
       />

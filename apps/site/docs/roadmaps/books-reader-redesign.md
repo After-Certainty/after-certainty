@@ -277,6 +277,8 @@ Device-scoped features (label clearly; never imply sync):
 
 **Follow-ups:** Optional desktop side panel for contents; swipe-to-dismiss; reader-scoped theme distinct from site theme; highlights/notes.
 
+**Speak Screen / Listen to Page:** Chapter→chapter transitions use full document navigation (`ReaderChapterLink` / `navigateToChapter`) so Mobile Safari rescans the new chapter instead of staying stuck on the previous soft-nav snapshot.
+
 ---
 
 ## 10. Route conventions (locked)
