@@ -60,6 +60,22 @@ test.describe("Start with a Question", () => {
     await expect(page.getByRole("link", { name: /Judgment Before Certainty/i })).toBeVisible();
   });
 
+  test("question detail collapses related trails on mobile", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/questions/act-before-certainty-arrives");
+
+    await expect(
+      page.getByRole("heading", { name: "How do we act before certainty arrives?", level: 1 }),
+    ).toBeVisible();
+    await expect(page.locator('[data-path-stop-density="compact"]').first()).toBeVisible();
+    const relatedToggle = page.getByRole("button", { name: /Continue with a reading trail/i });
+    await expect(relatedToggle).toBeVisible();
+    await expect(relatedToggle).toHaveAttribute("aria-expanded", "false");
+    await relatedToggle.click();
+    await expect(relatedToggle).toHaveAttribute("aria-expanded", "true");
+    await expect(page.getByRole("link", { name: /Judgment Before Certainty/i })).toBeVisible();
+  });
+
   test("question page links to observatory pathway", async ({ page }) => {
     await page.goto("/questions/act-before-certainty-arrives");
     await expect(

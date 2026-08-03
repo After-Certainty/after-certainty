@@ -1,8 +1,8 @@
 # Explore discovery mobile redesign
 
-**Status:** Active specialized site plan (Phases 0–4 complete; Phases 5–6 planned)  
+**Status:** Active specialized site plan (Phases 0–5 complete; Phase 6 planned)  
 **Created:** 2026-08-03  
-**Updated:** 2026-08-03 (Phase 4 questions & trails indexes)  
+**Updated:** 2026-08-03 (Phase 5 path detail / stops)  
 **Location:** `apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
 
@@ -567,7 +567,7 @@ flowchart TD
 | **Depends on** | Phase 0 (intro disclosure); Phase 4 recommended |
 | **Ship independently** | Prefer after Phase 4 |
 | **Likely files** | `questions/[slug]/page.tsx`, `trails/[slug]/page.tsx`, `path-stop-card.tsx`, related trails/questions sections |
-| **Status** | Planned |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -576,12 +576,20 @@ flowchart TD
 3. Collapse related questions / related trails behind disclosure with counts.
 4. Do not add personal-trail or auth features.
 
+**Shipped (Phase 5):**
+
+- Question orientation + trail summary/orientation use `EntityIntroDisclosure` when long
+- Denser path detail section padding (`!py-8 md:!py-*`); compact `PathStopCard` (`data-path-stop-density="compact"`)
+- Related questions/trails + question→trails sections use `RelatedSectionDisclosure` with counts
+- Progress resume/clear unchanged; continue-exploring links retained
+- Playwright mobile related-collapse + compact stops; Vitest related trails disclosure
+
 **Acceptance:**
 
-- Path stops usable in first few mobile viewports after title
-- Progress resume / clear still works
-- Related sections collapsed on mobile with counts
-- No URL / SEO / analytics event contract breakage
+- [x] Path stops usable in first few mobile viewports after title
+- [x] Progress resume / clear still works
+- [x] Related sections collapsed on mobile with counts
+- [x] No URL / SEO / analytics event contract breakage
 
 ### Phase 6 — Testing and polish
 
@@ -689,9 +697,9 @@ Update as implementation phases land.
 
 ### Phase 5
 
-- [ ] Orientation/summary progressive disclosure on path details
-- [ ] Path stop cards denser on mobile; progress retained
-- [ ] Related questions/trails collapsed with counts on mobile
+- [x] Orientation/summary progressive disclosure on path details
+- [x] Path stop cards denser on mobile; progress retained
+- [x] Related questions/trails collapsed with counts on mobile
 
 ### Phase 6
 

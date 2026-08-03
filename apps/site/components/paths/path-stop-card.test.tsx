@@ -19,7 +19,7 @@ const stop: EnrichedPathStop = {
 
 describe("PathStopCard", () => {
   it("renders shared stop card content and analytics link", () => {
-    render(
+    const { container } = render(
       <PathStopCard
         stop={stop}
         stopIndex={1}
@@ -30,6 +30,7 @@ describe("PathStopCard", () => {
       />,
     );
 
+    expect(container.querySelector('[data-path-stop-density="compact"]')).toBeTruthy();
     expect(screen.getByText("Visited")).toBeInTheDocument();
     expect(screen.getByText("Continue here")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /Open Judgment \(Concept\)/i })).toHaveAttribute(

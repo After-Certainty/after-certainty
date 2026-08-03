@@ -42,15 +42,16 @@ export function PathStopCard({
     <li
       id={anchorId}
       className={[
-        "border border-border/50 bg-bg-elevated/25 p-6 md:p-8",
+        "border border-border/50 bg-bg-elevated/25 p-4 md:p-8",
         current ? "border-accent/40 ring-1 ring-accent/20" : "",
         visited && !current ? "border-border/35 bg-bg-elevated/15" : "",
       ].join(" ")}
       data-stop-position={stop.position}
       data-stop-visited={visited ? "true" : "false"}
       data-stop-current={current ? "true" : "false"}
+      data-path-stop-density="compact"
     >
-      <div className="flex flex-wrap items-center gap-3">
+      <div className="flex flex-wrap items-center gap-2 md:gap-3">
         <p className="text-xs uppercase tracking-[0.22em] text-muted">
           Stop {stopIndex} of {totalStops}
         </p>
@@ -81,23 +82,23 @@ export function PathStopCard({
       {stop.fictionDoorway ? (
         <p className="mt-2 text-xs italic text-muted">A fiction doorway — story, not proof</p>
       ) : null}
-      <h2 className="mt-3 font-display text-2xl font-medium tracking-tight text-fg">
+      <h2 className="mt-2 font-display text-xl font-medium tracking-tight text-fg md:mt-3 md:text-2xl">
         {stop.title}
       </h2>
-      <p className="mt-4 text-base leading-relaxed text-muted">{stop.description}</p>
+      <p className="mt-3 text-sm leading-relaxed text-muted md:mt-4 md:text-base">{stop.description}</p>
       {stop.whyThisFollows ? (
-        <p className="mt-4 text-sm leading-relaxed text-fg/85">
+        <p className="mt-3 text-sm leading-relaxed text-fg/85 md:mt-4">
           <span className="font-medium text-fg">Why this follows: </span>
           {stop.whyThisFollows}
         </p>
       ) : null}
       {stop.excerpt ? (
-        <blockquote className="mt-4 border-l-2 border-accent/40 pl-4 text-sm italic text-muted">
+        <blockquote className="mt-3 border-l-2 border-accent/40 pl-4 text-sm italic text-muted md:mt-4">
           {stop.excerpt}
         </blockquote>
       ) : null}
-      <p className="mt-4 text-xs text-muted">~{stop.estimatedMinutes} min</p>
-      <div className="mt-6">
+      <p className="mt-3 text-xs text-muted md:mt-4">~{stop.estimatedMinutes} min</p>
+      <div className="mt-4 md:mt-6">
         <TrackedLink
           href={stop.href}
           className="inline-flex min-h-11 items-center text-sm uppercase tracking-[0.18em] text-accent transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"

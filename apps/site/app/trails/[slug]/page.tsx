@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
+import { EntityIntroDisclosure } from "@/components/explore/entity-intro-disclosure";
+import { RelatedSectionDisclosure } from "@/components/explore/related-section-disclosure";
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import { TrailCard } from "@/components/trails/trail-card";
 import { TrailPath } from "@/components/trails/trail-path";
@@ -12,12 +14,20 @@ import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { ExplorePathwayLink } from "@/components/paths/explore-pathway-link";
 import { AnalyticsEvents } from "@/lib/analytics/events";
+import {
+  entityIntroTeaser,
+  shouldUseEntityIntroDisclosure,
+} from "@/lib/explore/entity-intro-teaser";
 import { buildTrailSearchHandoffUrl } from "@/lib/trails/enrichTrails";
 import { getEnrichedPublishedTrails, getEnrichedTrailBySlug } from "@/lib/trails/getEnrichedTrails";
 import { createPageMetadata } from "@/lib/metadata";
 import { buildTrailDetailJsonLd } from "@/lib/seo/json-ld";
 
 type PageProps = { params: Promise<{ slug: string }> };
+
+function trailCountLabel(count: number): string {
+  return `${count} ${count === 1 ? "trail" : "trails"}`;
+}
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
@@ -50,6 +60,14 @@ export default async function TrailDetailPage({ params }: PageProps) {
   const requiredStops = trail.pathStopsEnriched.filter((s) => !s.optional).length;
   const optionalStops = trail.pathStopsEnriched.length - requiredStops;
 
+  const summary = trail.summary?.trim() ?? "";
+  const summaryTeaser = entityIntroTeaser(summary);
+  const useSummaryDisclosure = shouldUseEntityIntroDisclosure(summary, summaryTeaser);
+
+  const orientation = trail.orientation?.trim() ?? "";
+  const orientationTeaser = entityIntroTeaser(orientation);
+  const useOrientationDisclosure = shouldUseEntityIntroDisclosure(orientation, orientationTeaser);
+
   return (
     <article>
       <TrailPathAnalytics trailId={trail.id} />
@@ -64,7 +82,7 @@ export default async function TrailDetailPage({ params }: PageProps) {
         />
       ) : null}
 
-      <Section atmosphere="transition" className="border-b border-border/40 py-14 md:py-20">
+      <Section atmosphere="transition" className="border-b border-border/40 !py-8 md:!py-20">
         <Container>
           <BreadcrumbTrail
             items={[
@@ -78,28 +96,56 @@ export default async function TrailDetailPage({ params }: PageProps) {
             {trail.audience ? ` · ${trail.audience}` : ""}
           </p>
           {trail.status === "upcoming" ? (
-            <p className="mt-4 inline-flex rounded-sm border border-border/60 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-muted">
+            <p className="mt-3 inline-flex rounded-sm border border-border/60 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-muted md:mt-4">
               Upcoming trail — preview
             </p>
           ) : null}
-          <h1 className="mt-6 max-w-3xl font-display text-4xl font-medium leading-tight tracking-tight text-fg md:text-5xl">
+          <h1 className="mt-3 max-w-3xl font-display text-4xl font-medium leading-tight tracking-tight text-fg md:mt-6 md:text-5xl">
             {trail.title}
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">{trail.summary}</p>
+          {summary ? (
+            useSummaryDisclosure ? (
+              <EntityIntroDisclosure
+                id="trail-full-summary"
+                regionLabel="Full trail summary"
+                teaser={summaryTeaser}
+                expandLabel="Read full summary"
+                className="!mt-4 md:!mt-6"
+              >
+                <p className="text-lg leading-relaxed text-muted">{summary}</p>
+              </EntityIntroDisclosure>
+            ) : (
+              <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted md:mt-6">{summary}</p>
+            )
+          ) : null}
           {trail.status === "upcoming" ? (
-            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted md:mt-4">
               This trail is still being composed. The path below is a preview of the planned
               sequence and may change before publication.
             </p>
           ) : null}
-          <p className="mt-6 max-w-2xl leading-relaxed text-muted">{trail.orientation}</p>
+          {orientation ? (
+            useOrientationDisclosure ? (
+              <EntityIntroDisclosure
+                id="trail-full-orientation"
+                regionLabel="Full trail orientation"
+                teaser={orientationTeaser}
+                expandLabel="Read full orientation"
+                className="!mt-4 md:!mt-6"
+              >
+                <p className="leading-relaxed text-muted">{orientation}</p>
+              </EntityIntroDisclosure>
+            ) : (
+              <p className="mt-4 max-w-2xl leading-relaxed text-muted md:mt-6">{orientation}</p>
+            )
+          ) : null}
         </Container>
       </Section>
 
-      <Section atmosphere="transition" className="border-b border-border/35 py-12 md:py-16">
+      <Section atmosphere="transition" className="border-b border-border/35 !py-8 md:!py-16">
         <Container>
           <h2 className="font-display text-2xl font-medium tracking-tight text-fg">The path</h2>
-          <p className="mt-4 max-w-2xl text-muted">
+          <p className="mt-3 max-w-2xl text-muted md:mt-4">
             {requiredStops} required stops
             {optionalStops > 0 ? ` · ${optionalStops} optional` : ""} · ~
             {trail.totalEstimatedMinutes} min
@@ -118,14 +164,16 @@ export default async function TrailDetailPage({ params }: PageProps) {
         </Container>
       </Section>
 
-      <Section atmosphere="none" className="border-b border-border/35 py-12 md:py-16">
+      <Section atmosphere="none" className="border-b border-border/35 !py-8 md:!py-16">
         <Container>
           <h2 className="font-display text-2xl font-medium tracking-tight text-fg">
             Where this path leads
           </h2>
-          <p className="mt-6 max-w-2xl leading-relaxed text-muted">{trail.closingReflection}</p>
+          <p className="mt-4 max-w-2xl leading-relaxed text-muted md:mt-6">
+            {trail.closingReflection}
+          </p>
           {trail.suggestedContinuation ? (
-            <p className="mt-8 max-w-2xl leading-relaxed text-fg/90">
+            <p className="mt-6 max-w-2xl leading-relaxed text-fg/90 md:mt-8">
               {trail.suggestedContinuation}
             </p>
           ) : null}
@@ -133,34 +181,41 @@ export default async function TrailDetailPage({ params }: PageProps) {
       </Section>
 
       {related.length > 0 ? (
-        <Section atmosphere="none" className="border-b border-border/35 py-12 md:py-16">
+        <Section
+          atmosphere="none"
+          className="border-b border-border/35 !py-8 md:!py-16"
+          data-path-related-section
+        >
           <Container>
-            <h2 className="font-display text-2xl font-medium tracking-tight text-fg">
-              Related trails
-            </h2>
-            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {related.map((relatedTrail) => (
-                <TrailCard
-                  key={relatedTrail.id}
-                  trail={relatedTrail}
-                  location="related"
-                  analytics={{
-                    event: "trail_related_select",
-                    params: { from_id: trail.id, to_id: relatedTrail.id },
-                  }}
-                />
-              ))}
-            </div>
+            <RelatedSectionDisclosure
+              id="related-trails"
+              title="Related trails"
+              countLabel={trailCountLabel(related.length)}
+            >
+              <div className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
+                {related.map((relatedTrail) => (
+                  <TrailCard
+                    key={relatedTrail.id}
+                    trail={relatedTrail}
+                    location="related"
+                    analytics={{
+                      event: "trail_related_select",
+                      params: { from_id: trail.id, to_id: relatedTrail.id },
+                    }}
+                  />
+                ))}
+              </div>
+            </RelatedSectionDisclosure>
           </Container>
         </Section>
       ) : null}
 
-      <Section atmosphere="none" className="py-14 md:py-20">
+      <Section atmosphere="none" className="!py-8 md:!py-20">
         <Container>
           <h2 className="font-display text-2xl font-medium tracking-tight text-fg">
             Continue exploring
           </h2>
-          <ul className="mt-8 flex flex-col gap-4 text-sm">
+          <ul className="mt-6 flex flex-col gap-4 text-sm md:mt-8">
             {trail.primaryBookHref && trail.primaryBookTitle ? (
               <li>
                 <TrackedLink
