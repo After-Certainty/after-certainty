@@ -22,7 +22,7 @@ export function ExploreAdjacentNav({
   basePath,
   entityLabel,
   orderDescription = "in explore order",
-  className = "mt-12 border-t border-border/25 pt-10",
+  className = "mt-10 border-t border-border/25 pt-6 md:mt-12 md:pt-10",
   prev,
   next,
 }: ExploreAdjacentNavProps) {
@@ -33,13 +33,13 @@ export function ExploreAdjacentNav({
   return (
     <nav
       aria-label={navLabel}
-      className={`flex flex-row items-start justify-between gap-4 sm:gap-10 ${className}`.trim()}
+      className={`flex flex-row items-start justify-between gap-3 overflow-x-clip sm:gap-10 ${className}`.trim()}
     >
-      <div className="min-w-0 flex-1 sm:max-w-[min(100%,28rem)]">
+      <div className="min-w-0 flex-1 basis-0 sm:max-w-[min(100%,28rem)]">
         {prev ? (
           <Link
             href={`${basePath}/${prev.slug}`}
-            className="group block text-left"
+            className="group block min-w-0 text-left"
             aria-label={`Previous ${entityLabel}: ${prev.title}`}
           >
             <span className="text-[11px] uppercase tracking-[0.28em] text-muted">Previous</span>
@@ -47,27 +47,27 @@ export function ExploreAdjacentNav({
               <SiteIcon
                 icon={CaretLeftIcon}
                 size="sm"
-                className="mt-1 text-muted group-hover:text-accent"
+                className="mt-1 shrink-0 text-muted group-hover:text-accent"
               />
-              <span className="min-w-0">{prev.title}</span>
+              <span className="min-w-0 break-words [overflow-wrap:anywhere]">{prev.title}</span>
             </span>
           </Link>
         ) : null}
       </div>
-      <div className="min-w-0 flex-1 text-right sm:max-w-[min(100%,28rem)]">
+      <div className="min-w-0 flex-1 basis-0 text-right sm:max-w-[min(100%,28rem)]">
         {next ? (
           <Link
             href={`${basePath}/${next.slug}`}
-            className="group ml-auto block max-w-full text-right"
+            className="group ml-auto block max-w-full min-w-0 text-right"
             aria-label={`Next ${entityLabel}: ${next.title}`}
           >
             <span className="text-[11px] uppercase tracking-[0.28em] text-muted">Next</span>
             <span className="mt-1 flex items-start justify-end gap-1.5 font-display text-base font-medium leading-snug tracking-tight text-fg transition-colors group-hover:text-accent sm:text-lg">
-              <span className="min-w-0">{next.title}</span>
+              <span className="min-w-0 break-words [overflow-wrap:anywhere]">{next.title}</span>
               <SiteIcon
                 icon={CaretRightIcon}
                 size="sm"
-                className="mt-1 text-muted group-hover:text-accent"
+                className="mt-1 shrink-0 text-muted group-hover:text-accent"
               />
             </span>
           </Link>
