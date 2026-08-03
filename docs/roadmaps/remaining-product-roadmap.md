@@ -2,7 +2,7 @@
 
 **Status:** Active — authoritative for *remaining* cross-layer work  
 **Created:** 2026-07-24  
-**Last audited:** 2026-08-03 (ElevenLabs TTS pilot roadmap added; explore discovery mobile redesign complete, Phases 0–6)  
+**Last audited:** 2026-08-03 (provider-neutral TTS roadmap revision; explore discovery mobile redesign complete, Phases 0–6)  
 **Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
@@ -93,13 +93,13 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 
 ### Specialized cross-layer plans (tracked outside day-to-day Now/Next)
 
-- **AUDIO-001** — Selective ElevenLabs chapter narration for the native reader is an **active specialized plan** (Phases 0–7). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). Pilot unit: After Certainty introduction; Git LFS for MP3s; no API key in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan (for example a decision to expand beyond the one-unit pilot).
+- **AUDIO-001** — Provider-neutral selective chapter narration for the native reader is an **active specialized plan** (Phases 0–8). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). ElevenLabs is the first pilot adapter; OpenAI is a later evaluation candidate. Pilot unit: After Certainty introduction; Git LFS for MP3s; enabled ≠ available; no provider API keys in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan (for example a decision to expand beyond the one-unit pilot or add a second provider adapter).
 
 ### Later / revisit when triggered
 
 | Item | Trigger |
 |------|---------|
-| **AUDIO-001** expand beyond pilot | Phase 7 evaluation accepts more units/books after credit, quality, and licensing review ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
+| **AUDIO-001** expand beyond pilot / second provider | Phase 7–8 evaluation accepts more units/books or an additional adapter after quality, cost, licensing, and ops review ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
 | **TOGETHER-001** product brief | Kevin explicitly chooses a Think Together pilot and needs a mechanism that Substack, GitHub issues, email, or existing channels do not already provide |
 | **TOGETHER-002 / TOGETHER-003** | Only after TOGETHER-001 accepts a distinct mechanism (or fold simple feedback into OPS/CONTRIBUTING) |
 | **PROVENANCE-008** relationship provenance UI | Kevin decides public provenance beats a debug dump |
@@ -125,7 +125,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 | Whether relationship provenance deserves public UI | Kevin | PROVENANCE-008 |
 | GitHub org/repo settings checklist | Kevin | OPS-003 |
 | GA4 Admin key events for reader funnel (`chapter_open`, `next_chapter`, `file_download`) | Kevin / analytics Admin | ANALYTICS-001 (events shipped; Admin marking remains) |
-| ElevenLabs public-use licensing + stock voice for chapter TTS pilot | Kevin | AUDIO-001 ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
+| Provider TTS public-use licensing, disclosure, and stock/logical voice for chapter narration pilot | Kevin | AUDIO-001 ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
 
 ---
 

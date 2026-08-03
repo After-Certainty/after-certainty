@@ -1,15 +1,34 @@
-# ElevenLabs TTS pilot for the native reader
+# Provider-neutral chapter TTS pilot for the native reader
 
 **Status:** Active specialized plan (pilot not yet implemented)  
 **Created:** 2026-08-03  
+**Revised:** 2026-08-03 (provider-neutral architecture; ElevenLabs as first adapter)  
 **Location:** `docs/roadmaps/elevenlabs-tts-pilot.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should remain linked from that master roadmap (`AUDIO-*`).
 
-**Document role:** Executable implementation roadmap for selectively generated ElevenLabs narration in the After Certainty native reader—schemas, offline planning, metered generation, CI, Git LFS artifacts, and reader UX—scoped to a low-risk credit-bounded pilot.
+**Document role:** Executable implementation roadmap for selectively generated chapter narration in the After Certainty native reader. The architecture is **provider-neutral**. ElevenLabs is the likely first pilot adapter; OpenAI TTS is a later evaluation candidate that must not require redesigning semantic metadata, receipts, manifests, CI orchestration, or the reader.
 
 > **Evidence rule:** Live code, schemas, workflows, and tests override planning-time snapshots in this document.
 
-> **Safety rule:** This roadmap must be implemented without putting `ELEVENLABS_API_KEY` in Cursor agent environments, local `.env` files, or ordinary CI. No ElevenLabs API calls were made while authoring this document.
+> **Safety rule:** Do not put provider API keys (`ELEVENLABS_API_KEY`, future `OPENAI_API_KEY`, etc.) in Cursor agent environments, local `.env` files, ordinary CI, or Vercel. Generation runs only in a manual, secret-scoped Actions job. No TTS API calls were made while authoring or revising this document.
+
+---
+
+## 0. Terminology
+
+| Term | Meaning |
+|------|---------|
+| **Narration configuration** | Authored desired state (book defaults + per-unit overrides) |
+| **Generation receipt** | Observed state recorded after a successful provider request |
+| **Audio artifact** | Generated media (MP3 via Git LFS) and optional alignment JSON |
+| **Audio manifest** | Validated site-facing index of **available** units only |
+| **Provider adapter** | Implementation of provider-specific estimate / generate / normalize |
+| **Audio-enabled unit** | Semantic unit with resolved `enabled: true` (eligible for narration) |
+| **Audio-available unit** | Enabled unit with a **current**, validated artifact matching its `generationHash` |
+
+**Enabled never implies available.** The Listen control depends on availability (receipt + artifacts + hash match), not on the authored enablement flag alone.
+
+Use **provider-neutral** for shared concerns. Do not use the phrase “provided neutral.”
 
 ---
 
@@ -19,25 +38,27 @@
 
 The monorepo already separates **authored desired state** (semantic YAML / `chapter-enrichment.yml` / `book.yml`) from **machine-generated observed state** (`build/semantic-manifest.json`, cover WebPs, enrichment PRs). The native reader SSR-renders sanitized manuscript HTML and already cancels Web Speech on chapter navigation—natural hooks for a Listen control. Corpus tooling is Make + Python (`tools/`, `tests/`); site consumption is TypeScript under `apps/site/`. GitHub Actions is the CI provider; secrets are already isolated to narrow publish jobs.
 
-**Fit:** The pilot extends existing patterns rather than inventing a parallel stack:
+**Fit:** The pilot extends existing patterns with a **provider adapter boundary**:
 
 | Existing pattern | TTS analogue |
 |------------------|--------------|
-| `chapter-enrichment.yml` unit metadata | Optional `audio` narration intent |
+| `chapter-enrichment.yml` unit metadata | Optional per-unit `audio` narration intent |
+| `book.yml` book-level fields | Optional `narration.defaults` (not YouTube `media`) |
 | Cover derivatives + install-for-site | Audio install into `apps/site/public/generated/audio/` |
 | `semantic-enrichment.yml` manual dispatch → PR | Metered generation workflow → reviewable PR |
-| `validate-*` / `verify-*` Make gates | Secret-free `plan-chapter-audio` / `validate-chapter-audio` |
-| Credential-free Cursor policy | ElevenLabs key only in Actions secrets |
+| `validate-*` / `verify-*` Make gates | Secret-free plan / list / validate / verify |
+| Credential-free Cursor policy | Provider keys only in Actions; mount **only** the selected provider’s secret |
 
-**Recommended pilot scope:** One unit—`chapter-after-certainty-front-matter-introduction`—with hard credit ceilings, Git LFS for MP3s, sentence-level highlighting deferred to Phase 6, and no automatic regeneration.
+**Recommended pilot scope:** One unit—`chapter-after-certainty-front-matter-introduction`—provider **ElevenLabs** behind a narrow `TtsProvider` interface, hard usage ceilings, Git LFS for MP3s, playback without requiring alignment, sentence-level highlighting deferred to Phase 6, no automatic regeneration.
 
 **Largest risks:**
 
-1. **Credit burn** — Rough spoken length ~8,300 characters; one generation can consume most of a 10,000-credit monthly free allowance.
+1. **Usage burn** — Rough spoken length ~8,300 characters; under ElevenLabs free credits, one generation can consume most of a ~10,000-credit monthly allowance (provider constraint, not a core architectural assumption).
 2. **Git LFS operational surface** — Repo has no LFS today; LFS must be enabled before the first MP3 commit, and CI/Vercel must fetch objects (not pointer stubs).
-3. **Spoken-text parity** — Python extractor and site renderer must agree on speakable sequence for timing sync.
-4. **Public licensing** — ElevenLabs terms for shipping generated audio on the public site need human confirmation before Phase 4/5 ship.
-5. **Accidental API use** — Mitigated by manual dispatch, dry-run defaults, unit allowlists, and no key in ordinary CI or agents.
+3. **Spoken-text parity** — Python extractor and site renderer must agree on speakable sequence when highlighting is enabled.
+4. **Public licensing / disclosure** — Provider terms for shipping AI narration on the public site need human confirmation before Phase 4/5 ship.
+5. **Accidental API use** — Mitigated by manual dispatch, dry-run defaults, single-unit pilot, hash-based skip, and no keys in ordinary CI or agents.
+6. **Provider lock-in** — Mitigated by provider-neutral config, receipts, manifests, and reader capability fields; only adapters are provider-specific.
 
 ---
 
@@ -51,6 +72,7 @@ The monorepo already separates **authored desired state** (semantic YAML / `chap
 | Package manager | npm workspaces + Turbo; Python via `uv` + `Makefile` | `package.json`, `turbo.json`, `pyproject.toml`, `uv.lock` |
 | Corpus CLI | Make is authoritative (`generate-*`, `validate-*`, `verify-*`) | `Makefile` |
 | Chapter identity | `chapter-{editionSlug}-{pathDashed}`; routeKey frozen | `tools/manuscript_structure.py`, `docs/semantic-chapter-identity.md` |
+| Addressable units | Exported manuscript chapters with `kind` enum | `introduction`, `chapter`, `bridge`, `interlude`, `conclusion`, `appendix`, `afterword`, `notes`, `poem`, `section`, `sequence`, `other` |
 | Unit enrichment | Authored in `books/<slug>/chapter-enrichment.yml`; schema forbids unknown fields | `schema/semantic/chapter-enrichment.schema.json` |
 | Book media today | YouTube-only `media.intro` / `media.patterns` | `schema/book.schema.json` `#/$defs/bookMediaSpec` |
 | Manifest pipeline | `make generate-semantic-manifest` → `build/semantic-manifest.json` | `tools/generate_semantic_manifest.py`, `tools/discovery_manifest.py` |
@@ -68,27 +90,30 @@ The monorepo already separates **authored desired state** (semantic YAML / `chap
 | Large binaries | Cover PNGs committed without LFS; `build/` gitignored | `.gitignore`, `books/*/book-cover.png` |
 | Roadmap index | Specialized plans registered in `docs/roadmaps/README.md` | This document’s home |
 | Pilot manuscript | After Certainty introduction exists and is exported as `kind: introduction` | `books/after-certainty/front-matter/introduction.md`, enrichment entry |
-| Rough spoken size | ~8,300 characters / ~1,260 words after naive markdown strip | Local estimate only; Phase 0 must use the real extractor |
+| Rough spoken size | ~8,300 characters / ~1,260 words after naive markdown strip | Local estimate only; Phase 2 must use the real extractor |
 | Mermaid | Already used in repo docs | e.g. `monorepo-migration-plan.md` |
 
 ### 2.2 Proposed changes (this plan)
 
-- Optional `audio` block on chapter enrichment (+ optional book-level `narrationDefaults`).
-- New Python package area under `tools/` for spoken-text extraction, hashing, planning, generation client, validation.
-- New Make targets: `plan-chapter-audio`, `generate-chapter-audio`, `validate-chapter-audio`, `verify-chapter-audio`.
-- Artifact tree `books/<slug>/audio/` with LFS-tracked `*.mp3`.
-- Generated `build/chapter-audio-manifest.json` + site install path.
-- Manual Actions workflow for metered generation; ordinary CI validation only.
-- Reader Listen UI + later sentence highlighting.
+- Book-level `narration.defaults` + per-chapter `audio` overrides (explicit opt-in).
+- Optional logical voice catalog (`config/chapter-audio-voices.yml`).
+- Provider-neutral Python package under `tools/chapter_audio/` (extract, resolve, hash, plan, validate) plus a narrow `TtsProvider` Protocol.
+- First adapter only: ElevenLabs. OpenAI deferred to Phase 7 evaluation.
+- Make targets: `list-chapter-audio`, `plan-chapter-audio`, `generate-chapter-audio`, `validate-chapter-audio`, `verify-chapter-audio`.
+- Artifact tree `books/<slug>/audio/` with LFS-tracked `*.mp3`; receipts/alignment in ordinary Git.
+- Generated `build/chapter-audio-manifest.json` containing **available** units only.
+- Manual Actions workflow mounts **only** the selected provider’s secret.
+- Reader depends on capability fields (available, duration, alignment granularity, disclosure)—not provider names.
 
 ### 2.3 Open questions (inspection could not fully resolve)
 
 | Question | Why unresolved | Default in this plan |
 |----------|----------------|----------------------|
-| Exact ElevenLabs with-timestamps endpoint + credit accounting for chosen model | Requires current product docs / account; no API call made | Assume Flash `eleven_flash_v2_5` + timestamp-capable TTS; confirm in Phase 0 |
-| Stock voice ID and public-use licensing | Human / commercial judgment | Placeholder voice; Kevin confirms before first generation |
+| Exact ElevenLabs timestamp endpoint + credit accounting for chosen model | Requires current product docs / account; no API call made | Assume Flash `eleven_flash_v2_5` + timestamp-capable TTS; confirm in Phase 0 |
+| Stock / logical voice mapping and public-use licensing | Human / commercial judgment | Alias `reflective-narrator`; Kevin confirms before first generation |
 | Whether Vercel build environment fetches Git LFS by default | Depends on Vercel git integration settings | Plan for explicit LFS fetch in install/build scripts |
-| Stale-audio CI policy: fail vs warn | Product judgment | **Warn** in ordinary CI during pilot; **hide** Listen when stale |
+| Stale-audio CI policy: fail vs warn | Product judgment | **Warn** in ordinary CI during pilot; omit stale from site manifest |
+| OpenAI alignment strategy if added later | Product / API capability | May be `none` until a separate strategy exists |
 
 ---
 
@@ -98,51 +123,84 @@ The monorepo already separates **authored desired state** (semantic YAML / `chap
 
 ```mermaid
 flowchart TD
-  ms[Manuscript Markdown] --> enrich[chapter-enrichment audio config]
-  enrich --> plan[plan-chapter-audio]
-  ms --> extract[Deterministic spoken-text extractor]
-  extract --> plan
+  ms[Manuscript Markdown] --> enrich[Narration configuration]
+  enrich --> resolve[Resolve enabled settings]
+  ms --> extract[Provider-neutral spoken-text extraction]
+  extract --> plan[plan-chapter-audio]
+  resolve --> plan
   plan --> hash[generationHash]
   hash --> receiptCmp{Receipt match and artifacts OK?}
-  receiptCmp -->|yes current| skip[Skip generation]
+  receiptCmp -->|yes available| skip[Skip generation]
   receiptCmp -->|stale or missing| genGate{Manual generate with budgets?}
   genGate -->|refuse| skip
-  genGate -->|allowed| eleven[ElevenLabs timestamp TTS]
-  eleven --> artifacts[MP3 LFS plus alignment plus receipt]
-  artifacts --> audioMan[chapter-audio-manifest]
+  genGate -->|allowed| adapter[Provider adapter]
+  adapter --> eleven[ElevenLabs adapter]
+  adapter -.-> openai[OpenAI adapter later]
+  eleven --> artifacts[Neutral receipt plus MP3 LFS plus alignment]
+  openai -.-> artifacts
+  artifacts --> audioMan[Audio manifest available only]
   audioMan --> install[install-local-manifest-for-site]
   install --> reader[Native reader Listen control]
-  reader --> highlight[Optional sentence highlight]
+  reader --> highlight[Optional highlight if capability allows]
 ```
 
 ### 3.2 Desired vs observed state
 
 | Kind | Store | Edited by |
 |------|-------|-----------|
-| Narration intent + settings | `books/*/chapter-enrichment.yml` (+ optional `book.yml` defaults) | Authors |
+| Narration configuration | `book.yml` `narration.defaults` + `chapter-enrichment.yml` `audio` | Authors |
+| Logical voice catalog | `config/chapter-audio-voices.yml` | Authors / maintainers |
 | Normalized spoken text | Computed (optional debug `.spoken.txt`) | Tools |
-| Receipt / hashes / paths | `books/*/audio/*.receipt.json` | Generator only |
+| Generation receipt | `books/*/audio/*.receipt.json` | Generator only |
 | Audio binary | `books/*/audio/*.mp3` (Git LFS) | Generator only |
-| Timing | `books/*/audio/*.alignment.json` | Generator only |
-| Site index | `build/chapter-audio-manifest.json` → site data/public | Generator / install |
+| Timing / alignment | `books/*/audio/*.alignment.json` (when capability ≠ `none`) | Generator only |
+| Site audio manifest | `build/chapter-audio-manifest.json` → site data/public | Generator / install |
 
 **Do not** store last-generated hashes in authored enrichment YAML.
 
-### 3.3 Component map
+### 3.3 Provider-neutral vs provider-specific
+
+**Remain provider-neutral:**
+
+- Unit discovery and logical unit IDs
+- Enabled-state resolution and inheritance
+- Text extraction and normalization
+- Generation hashing and staleness detection
+- Cost/usage estimation **interface** and budget enforcement
+- Artifact naming and paths
+- Receipt structure (with provider fields as data, not branching logic in the reader)
+- Site-facing audio manifest
+- Reader playback and highlighting (driven by capability fields)
+- CI safety model and verification commands
+
+**May be provider-specific (inside adapters / `provider_options`):**
+
+- Auth environment variable name
+- Model and voice resolution details
+- Request format and response parsing
+- Billing units and estimate formulas
+- Native timing / alignment support
+- Supported output formats
+- Disclosure wording requirements
+- Retryable error classification
+
+### 3.4 Component map
 
 | Layer | Responsibility | Likely homes |
 |-------|----------------|--------------|
-| Schema | Optional audio config validation | `schema/semantic/chapter-enrichment.schema.json`, `schema/book.schema.json`, new `schema/chapter-audio-*.schema.json` |
-| Extractor | Markdown → deterministic spoken text + sentence segments | `tools/chapter_audio/` (new) |
-| Plan / hash / verify | Secret-free CLI | `tools/plan_chapter_audio.py`, `tools/validate_chapter_audio.py` |
-| Generate | Metered ElevenLabs client | `tools/generate_chapter_audio.py` + narrow client module |
+| Schema | Narration config + generated JSON schemas | `schema/book.schema.json`, `schema/semantic/chapter-enrichment.schema.json`, `schema/chapter-audio-*.schema.json` |
+| Voice catalog | Logical alias → provider voice | `config/chapter-audio-voices.yml` |
+| Resolve / list / plan | Secret-free enablement + status reports | `tools/chapter_audio/` |
+| Extractor | Markdown → deterministic spoken text + sentence segments | `tools/chapter_audio/extract.py` |
+| Provider interface | `TtsProvider` Protocol | `tools/chapter_audio/provider.py` |
+| First adapter | ElevenLabs only | `tools/chapter_audio/adapters/elevenlabs.py` |
+| Generate / validate | Metered generate; artifact checks | `tools/generate_chapter_audio.py`, `tools/validate_chapter_audio.py` |
 | Make | Verb-noun targets | `Makefile` |
-| CI generate | Manual dispatch + PR | `.github/workflows/chapter-audio-generate.yml` (new) |
-| CI verify | No secret | Hook into `python-tests.yml` / `site-ci.yml` |
-| Site data | Resolve current audio for chapter | `apps/site/lib/reading/` + types |
-| Site UI | Listen / play / progress | `apps/site/components/reading/` |
+| CI generate | Manual dispatch + PR | `.github/workflows/chapter-audio-generate.yml` |
+| CI verify | No provider secrets | `python-tests.yml` / `site-ci.yml` |
+| Site data / UI | Capability-based Listen | `apps/site/lib/reading/`, `components/reading/` |
 
-### 3.4 Git LFS strategy (locked)
+### 3.5 Git LFS strategy (locked)
 
 Enable **before** the first MP3 commit:
 
@@ -151,20 +209,58 @@ books/*/audio/*.mp3 filter=lfs diff=lfs merge=lfs -text
 ```
 
 - **LFS:** `*.mp3` only.
-- **Regular Git:** `.alignment.json`, `.receipt.json` (and optional `.spoken.txt` if committed).
+- **Ordinary Git:** `.alignment.json`, `.receipt.json` (and optional `.spoken.txt` if committed).
 - Contributors: `git lfs install`.
 - Actions: `actions/checkout` with `lfs: true` when real MP3 bytes are required.
-- Install/build: refuse to publish pointer stubs; `validate-chapter-audio` detects the `version https://git-lfs.github.com/spec/v1` header.
+- Install/build: refuse to publish pointer stubs; validate detects the `version https://git-lfs.github.com/spec/v1` header.
+- External object storage: revisit only after the pilot if LFS quota or deploy fetch becomes binding.
+
+### 3.6 Selective rollout shapes
+
+With default-disabled book policy + explicit unit `enabled: true`, authors can roll out:
+
+- One showcase introduction (pilot)
+- All introductions across books (enable each introduction unit)
+- Selected chapters only
+- One complete book (enable every exported unit for that edition)
+
+No implicit “all chapters” rollout.
 
 ---
 
 ## 4. Data contracts
 
-### 4.1 Semantic narration configuration (authored)
+### 4.1 Addressable units
 
-**Home:** per-chapter object in `books/<slug>/chapter-enrichment.yml`, schema extension on `chapter-enrichment.schema.json`.
+Narration attaches to **exported manuscript chapters** already produced by `tools/manuscript_structure.py`, identified by graph unit IDs such as `chapter-after-certainty-front-matter-introduction`.
 
-**Book defaults (optional):** `narrationDefaults` on `book.yml` / `book.schema.json`—**not** under existing YouTube `media`.
+Supported `kind` values today: `introduction`, `chapter`, `bridge`, `interlude`, `conclusion`, `appendix`, `afterword`, `notes`, `poem`, `section`, `sequence`, `other`.
+
+**Do not** invent intra-chapter subsection narration IDs without new schema and structure work. Book-level `narration` supplies defaults only—it is not itself a narratable unit.
+
+### 4.2 Semantic narration configuration (authored)
+
+**Prefer audio on each chapter enrichment object** (fits existing `chapters[]` + `additionalProperties: false`), not a keyed `units:` map.
+
+**Book defaults** on `book.yml` / `book.schema.json` as `narration` (**not** under YouTube `media`):
+
+```yaml
+# books/after-certainty/book.yml (conceptual)
+narration:
+  defaults:
+    enabled: false
+    provider: elevenlabs
+    voice: reflective-narrator
+    model: eleven_flash_v2_5
+    output_format: mp3_44100_128
+    language: en
+    include_title: true
+    include_footnotes: false
+    max_estimated_usd: 1.00
+    provider_options: {}
+```
+
+**Unit override** in `chapter-enrichment.yml`:
 
 ```yaml
 # books/after-certainty/chapter-enrichment.yml (conceptual)
@@ -172,36 +268,129 @@ books/*/audio/*.mp3 filter=lfs diff=lfs merge=lfs -text
   # ... existing enrichment fields ...
   audio:
     enabled: true
-    provider: elevenlabs
-    voice_id: REPLACE_WITH_STOCK_VOICE_ID
-    model_id: eleven_flash_v2_5
-    output_format: mp3_44100_128
-    include_title: true
-    include_footnotes: false
-    language: en
+    # provider / voice / model inherit unless overridden
     max_credits: 9000
+```
+
+**Namespaced provider options example:**
+
+```yaml
+audio:
+  enabled: true
+  provider: elevenlabs
+  voice: reflective-narrator
+  model: eleven_flash_v2_5
+  provider_options:
+    elevenlabs:
+      stability: 0.5
+      similarity_boost: 0.75
+```
+
+Future OpenAI-shaped override (not implemented in the pilot):
+
+```yaml
+audio:
+  enabled: true
+  provider: openai
+  voice: reflective-narrator
+  model: gpt-4o-mini-tts
+  instructions: >
+    Read in a calm, reflective, restrained narrative style.
+  provider_options:
+    openai: {}
 ```
 
 | Field | Authored | Notes |
 |-------|----------|-------|
-| `enabled` | Yes | Chapter must set `true` to opt in; book defaults never silently enable |
-| `provider` | Yes | Pilot: `elevenlabs` only |
-| `voice_id` | Yes | Inherit from `narrationDefaults` if omitted |
-| `model_id` | Yes | Inherit allowed |
-| `output_format` | Yes | Inherit allowed |
-| `include_title` | Yes | Default `true` |
-| `include_footnotes` | Yes | Default `false` for pilot |
-| `language` | Yes | Default `en` |
-| `voice_settings` | Optional | Only if material to output; hashed when present |
+| `enabled` | Yes | Chapter must set `true` to opt in |
+| `provider` | Yes / inherit | Pilot resolved value: `elevenlabs` |
+| `voice` | Yes / inherit | **Logical alias**, not a raw provider ID |
+| `model` | Yes / inherit | Provider model id string |
+| `output_format` | Yes / inherit | e.g. `mp3_44100_128` |
+| `language` | Yes / inherit | Default `en` |
+| `include_title` / `include_footnotes` | Yes / inherit | Extraction options |
+| `instructions` | Optional | Hashed when present (style prompts) |
+| `provider_options.<provider>` | Optional | Provider-specific; hashed when present |
+| `max_estimated_usd` | Yes / inherit | Provider-neutral ceiling |
+| `max_credits` / other native ceilings | Optional | Provider-native; hashed/enforced when present |
 | `seed` | Optional | Hashed when present |
-| `max_credits` | Yes | Hard per-unit ceiling |
-| `pronunciation_dictionary_id` / version | Optional | Hashed when present |
 
-**Inheritance rule:** merge book `narrationDefaults` under chapter `audio`, then require chapter `enabled: true`.
+### 4.3 Inheritance and override semantics
 
-**Manifest:** Phase 1 may omit audio from `semantic-manifest.json` and keep a separate `chapter-audio-manifest.json`. If later folded into chapter entries, bump manifest `schemaVersion` and keep fields optional for forward compatibility.
+**Precedence (highest last):**
 
-### 4.2 Generation receipt (generated)
+1. Repository voice catalog (alias → provider voice details)
+2. Book `narration.defaults`
+3. Chapter `audio`
+
+**Rules:**
+
+- Omitted chapter fields inherit from book defaults.
+- Explicit `enabled: false` on a chapter wins over any broader desire to narrate.
+- Book `defaults.enabled: false` means **no silent enablement**; chapters must set `enabled: true`.
+- Book `defaults.enabled: true` is **disallowed for the pilot** (too easy to narrate an entire book accidentally). Schema may allow it later with explicit validation warnings.
+- Incomplete enabled configuration (missing resolvable voice/provider/model) → status `enabled-unconfigured`; refuse generation.
+
+### 4.4 Logical voice catalog
+
+```yaml
+# config/chapter-audio-voices.yml (conceptual)
+voices:
+  reflective-narrator:
+    elevenlabs:
+      voice_id: REPLACE_WITH_STOCK_VOICE_ID
+    openai:
+      voice: cedar
+      instructions: >
+        Read in a calm, reflective, restrained narrative style.
+```
+
+- Authored `voice` stores the **alias**.
+- Receipts store `{ "alias": "reflective-narrator", "providerVoiceId": "..." }` (or provider-native voice name).
+- Raw provider IDs belong in the catalog / `provider_options`, not as the primary authored `voice` field.
+
+### 4.5 Provider interface (Python)
+
+```python
+# tools/chapter_audio/provider.py (conceptual)
+from typing import Protocol
+
+class TtsProvider(Protocol):
+    name: str
+    adapter_version: str
+
+    def estimate(self, request: GenerationRequest) -> GenerationEstimate: ...
+
+    def generate(self, request: GenerationRequest) -> ProviderGenerationResult: ...
+
+    def normalize_alignment(
+        self,
+        result: ProviderGenerationResult,
+        spoken_text: str,
+    ) -> NormalizedAlignment | None: ...
+```
+
+**`GenerationRequest` (provider-neutral):** unit ID, exact spoken text, resolved voice identity, model, output format, language, instructions, resolved `provider_options`, deterministic settings, maximum allowed cost (USD and/or native).
+
+**`ProviderGenerationResult`:** encoded audio bytes, optional provider generation/request ID, duration, provider-reported usage, raw alignment when available, warnings, audit metadata. **Never** include secrets or auth headers.
+
+Adapters must not assume native word-level alignment. `normalize_alignment` may return `None`.
+
+### 4.6 Alignment capability model
+
+| Capability | Meaning |
+|------------|---------|
+| `native-character` | Provider returns character timing |
+| `native-word` | Provider returns word timing |
+| `derived-word` | Words derived from another signal (e.g. separate transcription) |
+| `segment-only` | Sentence/phrase segments only |
+| `none` | Playback only; no sync data |
+
+Normalized alignment files (when present) keep a provider-neutral segment schema. Site manifest exposes the **actual** granularity available. Reader supports playback when granularity is `none`.
+
+**Pilot recommendation:** ElevenLabs → normalize to **sentence** segments (`segment-only`). Word highlighting only when data and rendering contracts are trustworthy (post-pilot).
+
+### 4.7 Generation receipt (generated)
 
 `books/<slug>/audio/<chapterSlug>.receipt.json`
 
@@ -218,34 +407,52 @@ books/*/audio/*.mp3 filter=lfs diff=lfs merge=lfs -text
   "pipelineVersion": 1,
   "extractorVersion": 1,
   "provider": "elevenlabs",
-  "voiceId": "...",
-  "modelId": "eleven_flash_v2_5",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "..."
+  },
   "outputFormat": "mp3_44100_128",
   "language": "en",
   "includeTitle": true,
   "includeFootnotes": false,
-  "charactersSubmitted": 0,
-  "estimatedCredits": 0,
-  "generatedAt": "2026-08-03T12:00:00Z",
+  "spokenCharacters": 0,
+  "estimatedUsage": { "unit": "credits", "amount": 0, "usd": null },
+  "actualUsage": { "unit": "credits", "amount": 0, "usd": null },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/after-certainty/audio/front-matter-introduction.alignment.json"
+  },
   "audioPath": "books/after-certainty/audio/front-matter-introduction.mp3",
-  "alignmentPath": "books/after-certainty/audio/front-matter-introduction.alignment.json",
   "audioSha256": "sha256:...",
-  "alignmentSchemaVersion": 1
+  "generatedAt": "2026-08-03T12:00:00Z"
 }
 ```
 
-All fields generated. Authors must not hand-edit receipts.
+OpenAI-shaped receipt fields (illustrative only):
 
-### 4.3 Normalized timing data (generated)
+```json
+{
+  "provider": "openai",
+  "estimatedUsage": { "unit": "usd", "amount": 0.04, "usd": 0.04 },
+  "alignment": { "granularity": "none", "path": null }
+}
+```
 
-`books/<slug>/audio/<chapterSlug>.alignment.json`
+All receipt fields are generated. Authors must not hand-edit receipts. No secrets in receipts.
+
+### 4.8 Normalized timing data (generated, optional)
+
+`books/<slug>/audio/<chapterSlug>.alignment.json` when granularity ≠ `none`:
 
 ```json
 {
   "schemaVersion": 1,
   "unitId": "chapter-after-certainty-front-matter-introduction",
   "generationHash": "sha256:...",
-  "granularity": "sentence",
+  "granularity": "segment-only",
   "segments": [
     {
       "id": "s0001",
@@ -259,18 +466,9 @@ All fields generated. Authors must not hand-edit receipts.
 }
 ```
 
-| Field | Role |
-|-------|------|
-| `granularity` | Pilot: `sentence` |
-| `segments[].id` | Stable within a generation; site `data-audio-seg` |
-| `charStart` / `charEnd` | Offsets into normalized spoken text |
-| Optional `words[]` | Deferred; may be stored later without changing sentence IDs |
+### 4.9 Site-facing audio manifest (generated)
 
-Provider-specific timestamp payloads are normalized into this shape before write.
-
-### 4.4 Site-facing audio manifest (generated)
-
-`build/chapter-audio-manifest.json` (install copy under `apps/site/data/`)
+`build/chapter-audio-manifest.json` — **only available units** (`enabled-current`).
 
 ```json
 {
@@ -282,25 +480,26 @@ Provider-specific timestamp payloads are normalized into this shape before write
       "editionSlug": "after-certainty",
       "chapterSlug": "front-matter-introduction",
       "routeKey": "/explore/books/after-certainty/chapters/front-matter-introduction",
-      "status": "current",
       "audioUrl": "/generated/audio/after-certainty/front-matter-introduction.mp3",
+      "durationSeconds": null,
       "alignmentUrl": "/generated/audio/after-certainty/front-matter-introduction.alignment.json",
+      "alignmentGranularity": "segment-only",
       "generationHash": "sha256:...",
-      "durationHintMs": null
+      "disclosure": "AI-generated narration"
     }
   ]
 }
 ```
 
-`status` values: `current` | `stale` | `missing` | `disabled` | `invalid`.
+**Public manifest omits provider name.** The reader asks: Is audio available? Duration known? Alignment available? At what granularity? Is disclosure required?—not “Is this ElevenLabs?”
 
-**Listener rule:** Show Listen only when `status === "current"` and artifacts resolve.
+**Pilot artifact policy:** one active current artifact set per unit. Switching provider replaces the active current set; prior files may become `orphaned-artifact` until cleanup. Do not ship multiple provider variants as simultaneously available during the pilot.
 
-### 4.5 Schema versioning
+### 4.10 Schema versioning
 
-- Integer `schemaVersion` on each generated JSON; validators accept known versions and fail closed on unknown major versions.
-- Authored enrichment remains `version: 1` at file root; additive `audio` property is backward compatible (`additionalProperties: false` requires schema edit).
-- Pipeline / extractor versions are separate integers inside the generation hash input.
+- Integer `schemaVersion` on generated JSON; fail closed on unknown majors.
+- Authored enrichment remains file `version: 1`; additive `audio` requires schema edit (`additionalProperties: false`).
+- Pipeline / extractor / adapter versions participate in the generation hash.
 
 ---
 
@@ -312,40 +511,39 @@ Canonical UTF-8 JSON (sorted keys) hashed with SHA-256, prefixed `sha256:`:
 
 | Input | Included |
 |-------|----------|
-| `pipelineVersion` | Yes |
+| `pipelineVersion` / relevant schema versions | Yes |
 | `extractorVersion` | Yes |
 | Exact normalized spoken text | Yes |
 | `provider` | Yes |
-| `voiceId` | Yes |
-| `modelId` | Yes |
+| `providerAdapterVersion` | Yes |
+| `model` | Yes |
+| Resolved voice identity (alias + provider voice id) | Yes |
+| Voice configuration / `provider_options` affecting output | Yes |
+| `instructions` | When present |
 | `outputFormat` | Yes |
 | `language` | Yes |
-| `includeTitle` / `includeFootnotes` | Yes |
-| `voice_settings` (canonical) | When present |
-| `seed` | When present |
-| Pronunciation dictionary id + version | When present |
-| Any other request setting that changes audio | Yes |
+| Extraction options (`include_title`, `include_footnotes`, …) | Yes |
+| Pronunciation dictionary / override version | When present |
+| Alignment strategy when it affects generated artifacts | Yes |
+| Deterministic `seed` | When present |
 
-**Do not** hash only raw Markdown. Also record `sourceHash` (raw file bytes) on the receipt for forensics; it does not alone decide freshness.
+**Do not** hash only raw Markdown. Record `sourceHash` on the receipt for forensics; it does not alone decide freshness.
 
 ### 5.2 Spoken-text normalization (deterministic)
 
-Extractor must define stable behavior for corpus constructs observed in manuscripts:
+Extractor must define stable behavior for corpus constructs:
 
 | Construct | Pilot rule |
 |-----------|------------|
 | YAML / Pandoc front matter | Strip |
-| ATX / setext headings | Speak text; optional title policy via `include_title` |
-| Emphasis / strong | Speak inner text only |
+| Headings | Speak text; honor `include_title` |
+| Emphasis / strong | Speak inner text |
 | Links | Speak link text; omit URL |
-| Images | Omit image; optionally speak alt if policy says so (pilot: omit) |
-| Captions / `{ width=... }` attrs | Strip |
-| Footnotes | Omit bodies and refs when `include_footnotes: false` |
+| Images / attrs | Omit (pilot) |
+| Footnotes | Omit when `include_footnotes: false` |
 | Block quotes | Speak text |
-| Scene separators (`---` / `***`) | Short pause marker or omit (define in extractor tests) |
-| HTML | Strip tags; speak text if any |
-| `:::` containers / `\newpage` | Strip (same as reader preprocess) |
-| Leading duplicate H1 | Align with `preprocessManuscriptMarkdown` title handling |
+| Scene separators | Define in fixtures (pause marker or omit) |
+| HTML / `:::` / `\newpage` | Strip tags / containers |
 
 Golden fixtures under `tests/fixtures/chapter_audio/` lock behavior.
 
@@ -353,356 +551,409 @@ Golden fixtures under `tests/fixtures/chapter_audio/` lock behavior.
 
 | Change | Effect |
 |--------|--------|
-| Text edit changing spoken text | New hash → stale |
-| Voice / model / format / settings change | New hash → stale |
-| Extractor version bump | New hash → stale |
-| Pronunciation dictionary change | New hash → stale |
-| Missing MP3 or alignment | `missing` / `invalid`; no Listen |
-| Corrupt / unreadable receipt | `invalid`; refuse to treat as current |
-| Reverted text restoring prior spoken form | Hash matches prior receipt **only if** settings unchanged; may become current again without regen |
+| Text edit changing spoken text | New hash → `enabled-stale` |
+| Provider change | New hash → regenerate required (same text ≠ same artifact) |
+| Voice / model / instructions / format / provider_options | New hash → stale |
+| Extractor or adapter version bump | New hash → stale |
+| Missing MP3 or required alignment | `enabled-missing` / `enabled-invalid` |
+| Corrupt receipt | `enabled-invalid` |
+| Reverted config restoring prior hash | May rediscover matching receipt/artifacts without regen |
 | `enabled: false` | `disabled`; hide Listen; do not generate |
-| `force=true` | Regenerate even if current (still subject to credit ceilings) |
-| LFS pointer instead of MP3 | `invalid` |
+| `force=true` | Regenerate even if current (still subject to budgets) |
+| LFS pointer instead of MP3 | `enabled-invalid` |
 
 ---
 
-## 6. Credit and safety controls
+## 6. Usage budgets and safety controls
 
 ### 6.1 Principles
 
-- Offline plan/validate never need a key and never call the network for TTS.
+- Offline list/plan/validate never need a key and never call TTS networks.
 - Generation is explicit, single-unit (pilot), budgeted, and reviewable.
-- Ordinary CI never receives `ELEVENLABS_API_KEY`.
-- Cursor agents never receive the key ([`docs/security/credential-free-cursor.md`](../security/credential-free-cursor.md)).
+- Ordinary CI never receives provider TTS secrets.
+- Cursor agents never receive provider TTS keys.
+- Generation does not run on Vercel; do not place TTS secrets in Vercel env.
 
-### 6.2 Pilot defaults
+### 6.2 Provider-neutral budget model
+
+Support provider-native units such as: credits, characters, generated minutes, audio tokens, USD.
+
+Planning always reports:
+
+- Provider-native estimate (when known)
+- Normalized USD estimate when calculable (`usd` field may be null)
+
+Enforcement:
+
+- Hard `max_estimated_usd` (provider-neutral)
+- Optional provider-native ceiling (e.g. `max_credits` for ElevenLabs)
+- No usage-based overage unless the repository owner explicitly enables it later
+
+**ElevenLabs free-credit limit (~10,000/month)** is a **pilot provider constraint**, not an architectural constant.
+
+### 6.3 Pilot defaults
 
 | Control | Default |
 |---------|---------|
-| Monthly free allowance assumption | 10,000 credits |
-| Units per workflow run | **1** (required `UNIT` / `unit_id`) |
-| `audio-generate-enabled` bulk command | **Deferred** until after one-unit pilot |
+| Units per workflow run | **1** (required `UNIT`) |
+| Bulk generate-all-enabled | Deferred until after pilot |
 | `force` | `false` |
-| Workflow `dry_run` | `true` (must flip to `false` to spend credits) |
-| Per-unit `max_credits` | `9000` for the After Certainty introduction |
-| Per-run workflow ceiling | `9500` |
+| Workflow `dry_run` | `true` |
+| `max_estimated_usd` (pilot unit) | `1.00` (tighten after Phase 0 estimate) |
+| ElevenLabs `max_credits` | `9000` |
 | Unchanged content | Refuse regeneration |
-| Disabled units | Refuse |
+| Disabled / unconfigured | Refuse |
 | Over budget | Refuse |
-| PR / fork triggers | None; `workflow_dispatch` only from default branch trusted context |
+| Triggers | `workflow_dispatch` only |
 | Concurrency | `chapter-audio-${{ inputs.unit_id }}`, `cancel-in-progress: false` |
-| Logs | Per-unit skip/regen reason required |
+| Logs | Per-unit skip/regen reason; never print secrets |
 
-### 6.3 Secret placement
+### 6.4 Secret placement
 
 | Location | Allowed? |
 |----------|----------|
-| GitHub Actions repository secret `ELEVENLABS_API_KEY` | Yes (Phase 4) |
+| Actions secret `ELEVENLABS_API_KEY` | Yes (Phase 4), only on generate job when unit provider is ElevenLabs |
+| Future Actions secret `OPENAI_API_KEY` | Yes only if Phase 7+ implements OpenAI and unit resolves to it |
+| Mount both keys on every generate job | **No** — mount only the selected provider’s secret |
 | `site-ci.yml` / `python-tests.yml` | No |
 | Cursor / cloud agents | No |
-| `.env`, `.env.local`, committed files | No |
-| Workflow logs | Never print key or full auth headers |
-
-### 6.4 Account allowance checks
-
-When the ElevenLabs API exposes subscription/character remaining, query during generate (not during ordinary CI) and refuse if remaining < estimated need. If unsupported, rely on hard ceilings and dry-run character reports.
+| Vercel | No |
+| `.env` / committed files | No |
 
 ---
 
-## 7. Phased implementation roadmap
+## 7. Tracking audio-enabled units
+
+### 7.1 Status vocabulary
+
+| Status | Meaning |
+|--------|---------|
+| `disabled` | Resolved `enabled: false` |
+| `enabled-unconfigured` | Enabled but missing resolvable provider/voice/model/options |
+| `enabled-current` | Enabled + receipt hash matches + artifacts valid (**available**) |
+| `enabled-stale` | Enabled + receipt/hash mismatch |
+| `enabled-missing` | Enabled + no artifacts/receipt |
+| `enabled-invalid` | Enabled + corrupt/mismatching/pointer artifacts |
+| `orphaned-artifact` | Artifacts exist for a unit that is disabled, deleted, or ID-changed |
+
+### 7.2 Reporting commands (Make-native)
+
+| Command | Role |
+|---------|------|
+| `make list-chapter-audio` | List units; filters e.g. `FILTER=enabled\|available\|stale\|missing` |
+| `make plan-chapter-audio` | Full plan report; `UNIT=...` or `ENABLED=1` |
+| `make validate-chapter-audio` | Secret-free artifact/receipt/LFS checks |
+| `make verify-chapter-audio` | Plan + validate gate for ordinary CI |
+| `make generate-chapter-audio UNIT=...` | Metered generate (requires selected provider secret) |
+
+### 7.3 Plan report fields (no API key, no network)
+
+For each unit, planning output should include:
+
+- Unit ID, book/edition slug, title, source path, kind
+- Enabled state; whether settings are inherited vs overridden
+- Provider; logical voice alias; resolved provider voice id
+- Normalized character count; estimated duration (heuristic OK)
+- Estimated provider-native usage and USD (when calculable)
+- Current generation hash vs receipt generation hash
+- Status and reason regeneration is or is not required
+
+This report answers: which units are audio-enabled? which provider? which inherit defaults? which enabled units lack current audio? which are available?
+
+---
+
+## 8. Phased implementation roadmap
 
 Do not combine phases into one implementation PR.
 
-### Phase 0 — Decisions and spike
+### Phase 0 — Provider-neutral decisions
 
-- Confirm timestamp-capable endpoint, model credit rules, licensing.
-- Lock pilot unit (this doc’s unit) and stock voice.
-- Measure exact spoken characters via extractor prototype or temporary local script **without** API calls.
-- Enable Git LFS tracking file (`.gitattributes`) before any MP3 exists.
-- Decide sentence highlighting for Phase 6 (locked: sentence).
-- Record expected credit ceiling.
+- Confirm supported unit granularity (exported chapters only).
+- Confirm authored enablement model and inheritance rules.
+- Select pilot provider (ElevenLabs) and pilot unit.
+- Confirm licensing and disclosure requirements.
+- Decide initial alignment granularity (sentence / `segment-only`).
+- Confirm Git LFS artifact strategy; add `.gitattributes` before any MP3.
+- Rough character / cost estimate without API calls.
 
-### Phase 1 — Metadata and schemas
+### Phase 1 — Semantic enablement and schemas
 
-- Add optional `audio` to chapter enrichment schema + book `narrationDefaults`.
-- Wire validation (`validate_discovery_content` / enrichment consumers as needed).
-- Add JSON Schemas for receipt, alignment, audio manifest.
-- Fixtures + schema tests.
-- Commit `.gitattributes` LFS pattern if not done in Phase 0.
+- Add `narration.defaults` + chapter `audio` schemas.
+- Add voice catalog schema/file.
+- Inheritance resolution + validation for enabled-but-incomplete config.
+- Queries/reports listing audio-enabled units (`list-chapter-audio`).
+- Schema fixtures and tests.
+- **No provider SDK; no API calls.**
 
-### Phase 2 — Offline planning
+### Phase 2 — Provider-neutral planning
 
-- Deterministic spoken-text extraction + sentence segmentation.
-- Hashing + receipt load/compare.
-- `make plan-chapter-audio` (JSON/text report: current/stale/missing/disabled/invalid + character estimates).
-- Fixture tests; zero network.
+- Deterministic spoken-text extraction.
+- Resolve provider configuration and voice aliases.
+- Compute generation hashes; load/compare receipts.
+- Estimate provider-native and USD cost (formulas/mocks; no network).
+- Produce enabled/current/stale/missing reports.
+- Secret-free.
 
-### Phase 3 — Metered generation
+### Phase 3 — Provider interface and first adapter
 
-- Narrow ElevenLabs client interface.
-- `make generate-chapter-audio UNIT=...` with budgets, dry-run, force=false.
-- Atomic writes (temp → rename); normalize alignment; write receipt.
-- Default tests use mocks; no real credits in CI.
+- Add `TtsProvider` Protocol and shared request/result types.
+- Implement **ElevenLabs adapter only**.
+- Mock all provider calls in tests.
+- Normalize results and alignment (or `none`).
+- Atomic artifact writing.
 
-### Phase 4 — Manual CI workflow
+### Phase 4 — Manual generation workflow
 
-- `workflow_dispatch` workflow with inputs, concurrency, dry-run default.
-- LFS install/push; open reviewable PR (enrichment-style).
-- Ordinary CI: `validate-chapter-audio` / `verify-chapter-audio` without secret.
-- Document secret in GitHub settings checklist (Kevin).
+- Resolve provider from the selected unit.
+- Supply only that provider’s secret.
+- Enforce hard limits; dry-run default.
+- Generate one unit; validate; open reviewable PR with LFS push.
+- Ordinary CI remains provider-secret-free.
 
-### Phase 5 — Reader playback pilot
+### Phase 5 — Reader playback
 
-- Install audio into `apps/site/public/generated/audio/`.
-- Data loader: Listen only if `current`.
-- Accessible play/pause/progress; cleanup on chapter nav.
-- Tests; progressive enhancement (no JS → no broken layout; audio link optional).
+- Consume provider-neutral manifest (available only).
+- Accessible play/pause/progress; AI narration disclosure.
+- Cleanup on chapter navigation.
+- **Do not require alignment.**
 
-### Phase 6 — Synchronized highlighting pilot
+### Phase 6 — Optional synchronized highlighting
 
-- Sentence-level `data-audio-seg` via dedicated rehype pass (not naive word split).
-- Shared fixtures proving extractor segments ↔ renderer markers ↔ alignment IDs.
-- `prefers-reduced-motion` / a11y: highlighting optional or subdued.
-- Preserve links, emphasis, footnotes, copy/selection, SSR/hydration.
+- Use `alignmentGranularity` capability metadata.
+- Sentence-level pilot; preserve playback when timing unavailable.
+- Keep provider-specific alignment parsing out of the reader.
 
-### Phase 7 — Evaluation and expansion
+### Phase 7 — Second-provider evaluation
 
-- Measure credits used, voice quality, timing quality, UX.
-- Re-check licensing.
-- Decide whether to enable more introductions/chapters or stop.
+- Evaluate the same pilot unit conceptually with OpenAI (quality, cost, alignment, ops).
+- Do **not** add the second adapter unless evaluation justifies it.
+- Document coexistence / migration behavior (pilot default: replace active current).
+
+### Phase 8 — Expansion
+
+- Enable selected additional units or one full book.
+- Monitor API spend, LFS growth, bandwidth.
+- Reassess storage/CDN if needed.
 
 ---
 
-## 8. Task breakdown
+## 9. Task breakdown
 
-Complexity: **S** small · **M** medium · **L** large. Credits: **No** unless noted.
+Complexity: **S** small · **M** medium · **L** large.  
+Columns: **PN** provider-neutral · **PS** provider-specific · **Creds** · **Usage** real API spend.
 
 ### Phase 0
 
-| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | Security | Credits | Size |
-|----|------|--------------|-----------|------|------------|-------|----------|---------|------|
-| AUDIO-P0-01 | Confirm ElevenLabs endpoint, model credits, licensing notes | — | Notes in this roadmap or `docs/publishing/` spike addendum | — | Written assumptions checked by human | N/A | No key in agents | No | S |
-| AUDIO-P0-02 | Measure exact spoken chars for pilot unit (local extractor spike) | intro md | Optional spike script (discard or keep under tools) | P0-01 | Character count + estimate logged | Fixture sketch | No network | No | S |
-| AUDIO-P0-03 | Select stock voice ID (human) | enrichment later | — | P0-01 | Voice ID recorded | N/A | N/A | No | S |
-| AUDIO-P0-04 | Add Git LFS `.gitattributes` for `books/*/audio/*.mp3` | `.gitattributes` | `.gitattributes` | — | `git check-attr filter` shows LFS; no MP3s yet | Doc/CI note | N/A | No | S |
+| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | PN | PS | Creds | Usage | Size |
+|----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
+| AUDIO-P0-01 | Confirm licensing, disclosure, ElevenLabs endpoint assumptions | This roadmap notes | Optional spike note | — | Human-checked assumptions | N/A | Y | Y | N | N | S |
+| AUDIO-P0-02 | Local spoken-length estimate for pilot unit | Intro md | Optional throwaway script | — | Character count recorded | N/A | Y | N | N | N | S |
+| AUDIO-P0-03 | Choose logical voice alias + catalog stock id (human) | — | — | P0-01 | Alias recorded | N/A | Y | Y | N | N | S |
+| AUDIO-P0-04 | Add Git LFS `.gitattributes` for `books/*/audio/*.mp3` | `.gitattributes` | `.gitattributes` | — | `git check-attr` shows LFS | Doc note | Y | N | N | N | S |
 
 ### Phase 1
 
-| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | Security | Credits | Size |
-|----|------|--------------|-----------|------|------------|-------|----------|---------|------|
-| AUDIO-P1-01 | Schema: chapter `audio` + book `narrationDefaults` | `schema/semantic/chapter-enrichment.schema.json`, `schema/book.schema.json` | — | P0-04 | Invalid audio configs fail validation | Schema tests | No secrets | No | M |
-| AUDIO-P1-02 | Receipt / alignment / audio-manifest JSON Schemas | — | `schema/chapter-audio-receipt.schema.json`, `schema/chapter-audio-alignment.schema.json`, `schema/chapter-audio-manifest.schema.json` | P1-01 | Draft fixtures validate | `tests/test_chapter_audio_schemas.py` | No secrets | No | M |
-| AUDIO-P1-03 | Opt in pilot enrichment `audio` block (enabled, ceilings, placeholders) | `books/after-certainty/chapter-enrichment.yml` | — | P1-01, P0-03 | Enrichment validates; enabled only for pilot unit | Discovery/enrichment tests | No secrets | No | S |
+| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | PN | PS | Creds | Usage | Size |
+|----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
+| AUDIO-P1-01 | Schemas for `narration.defaults` + chapter `audio` | `schema/book.schema.json`, `chapter-enrichment.schema.json` | — | P0-04 | Invalid configs fail | Schema tests | Y | N | N | N | M |
+| AUDIO-P1-02 | Voice catalog + receipt/alignment/manifest schemas | — | `config/chapter-audio-voices.yml`, `schema/chapter-audio-*.schema.json` | P1-01 | Fixtures validate | Schema tests | Y | partial | N | N | M |
+| AUDIO-P1-03 | Inheritance resolver + enabled-unit listing | — | `tools/chapter_audio/resolve.py`, `list_chapter_audio.py` | P1-02 | `make list-chapter-audio FILTER=enabled` works | Unit tests | Y | N | N | N | M |
+| AUDIO-P1-04 | Opt in pilot enrichment + book defaults | `books/after-certainty/book.yml`, `chapter-enrichment.yml` | — | P1-03, P0-03 | Only pilot unit enabled | Validation tests | Y | Y | N | N | S |
 
 ### Phase 2
 
-| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | Security | Credits | Size |
-|----|------|--------------|-----------|------|------------|-------|----------|---------|------|
-| AUDIO-P2-01 | Spoken-text extractor + sentence segments | — | `tools/chapter_audio/extract.py`, fixtures | P1-02 | Deterministic on fixtures | Golden tests | No network | No | L |
-| AUDIO-P2-02 | Hash + receipt compare | — | `tools/chapter_audio/hashing.py`, `receipts.py` | P2-01 | Stable hash; detects setting/text drift | Unit tests | No network | No | M |
-| AUDIO-P2-03 | `make plan-chapter-audio` | `Makefile` | `tools/plan_chapter_audio.py` | P2-02 | Reports status + chars; exit codes documented | CLI tests | No key | No | M |
+| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | PN | PS | Creds | Usage | Size |
+|----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
+| AUDIO-P2-01 | Spoken-text extractor + sentence segments | — | `tools/chapter_audio/extract.py`, fixtures | P1-03 | Deterministic fixtures | Golden tests | Y | N | N | N | L |
+| AUDIO-P2-02 | Hash + receipt compare + cost estimate interface | — | `hashing.py`, `receipts.py`, `estimate.py` | P2-01 | Provider change invalidates hash | Unit tests | Y | estimate formulas may be PS | N | N | M |
+| AUDIO-P2-03 | `make plan-chapter-audio` | `Makefile` | `tools/plan_chapter_audio.py` | P2-02 | Full status report; no network | CLI tests | Y | N | N | N | M |
 
 ### Phase 3
 
-| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | Security | Credits | Size |
-|----|------|--------------|-----------|------|------------|-------|----------|---------|------|
-| AUDIO-P3-01 | ElevenLabs client interface + mocks | — | `tools/chapter_audio/elevenlabs_client.py` | P2-03 | Interface injectable; mock returns audio+timestamps | Mock tests | Key only via env in real mode | No in CI | M |
-| AUDIO-P3-02 | `generate-chapter-audio` with budgets + atomic write | `Makefile` | `tools/generate_chapter_audio.py` | P3-01 | Refuses disabled/stale-budget/unchanged; atomic outputs | Failure + budget tests | Refuses without key when not dry-run | Only when explicitly run with key | L |
-| AUDIO-P3-03 | Alignment normalizer | — | `tools/chapter_audio/alignment.py` | P3-01 | Provider payload → schema | Fixture tests | N/A | No | M |
+| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | PN | PS | Creds | Usage | Size |
+|----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
+| AUDIO-P3-01 | `TtsProvider` Protocol + types | — | `tools/chapter_audio/provider.py` | P2-03 | Interface compile/import; no concrete SDK required beyond adapter | Type/unit tests | Y | N | N | N | M |
+| AUDIO-P3-02 | ElevenLabs adapter + mocks | — | `adapters/elevenlabs.py` | P3-01 | Mock generate returns audio + optional timing | Mock tests | N | Y | env only in real mode | N in CI | M |
+| AUDIO-P3-03 | `generate-chapter-audio` budgets + atomic write | `Makefile` | `tools/generate_chapter_audio.py` | P3-02 | Refuses disabled/unconfigured/over-budget/unchanged | Failure tests | Y | uses adapter | Y for real | only explicit real run | L |
 
 ### Phase 4
 
-| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | Security | Credits | Size |
-|----|------|--------------|-----------|------|------------|-------|----------|---------|------|
-| AUDIO-P4-01 | Manual generate workflow | — | `.github/workflows/chapter-audio-generate.yml` | P3-02, P0-04 | Dispatch inputs; dry_run default; LFS push; PR branch | Workflow dry review | Key only on generate job; clear during plan | Only if dry_run=false | M |
-| AUDIO-P4-02 | Ordinary CI validate/verify audio | `python-tests.yml`, maybe `site-ci.yml` | — | P2-03 | CI runs validate without secret; no generate step | CI greps / job list | No `ELEVENLABS_API_KEY` in ordinary CI | No | M |
-| AUDIO-P4-03 | Document secret + LFS ops | `docs/security/github-settings-checklist.md`, maybe CONTRIBUTING | — | P4-01 | Checklist entry for Kevin | N/A | Credential-free Cursor unchanged | No | S |
+| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | PN | PS | Creds | Usage | Size |
+|----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
+| AUDIO-P4-01 | Manual generate workflow | — | `.github/workflows/chapter-audio-generate.yml` | P3-03, P0-04 | Dry-run default; mounts only selected provider secret; LFS push; PR branch | Workflow review | Y | secret name PS | Y on generate job | if dry_run=false | M |
+| AUDIO-P4-02 | Ordinary CI validate/verify | `python-tests.yml`, maybe `site-ci.yml` | — | P2-03 | No TTS secrets; validate present | Job inspection | Y | N | N | N | M |
+| AUDIO-P4-03 | Document secrets + LFS ops | `docs/security/github-settings-checklist.md` | — | P4-01 | Checklist entry for Kevin | N/A | Y | Y | N | N | S |
 
 ### Phase 5
 
-| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | Security | Credits | Size |
-|----|------|--------------|-----------|------|------------|-------|----------|---------|------|
-| AUDIO-P5-01 | Install audio artifacts for site | `scripts/install_local_manifest_for_site.py`, `vercel_build.sh` | — | P4-02 | Copies real MP3s; fails on LFS pointers | Python tests | N/A | No | M |
-| AUDIO-P5-02 | Site audio manifest loader | `apps/site/types/`, `lib/reading/` | `lib/reading/chapter-audio.ts` | P5-01 | Resolves current only | Vitest | N/A | No | M |
-| AUDIO-P5-03 | Listen / playback UI + nav cleanup | `chapter-reader-shell.tsx`, `reader-chrome.tsx`, `navigate-chapter.ts`, `reset-spoken-content.tsx` | `components/reading/chapter-audio-player.tsx` | P5-02 | Accessible controls; pause on chapter change; no Listen if not current | Component + e2e smoke | N/A | No | L |
+| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | PN | PS | Creds | Usage | Size |
+|----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
+| AUDIO-P5-01 | Install audio for site | `scripts/install_local_manifest_for_site.py`, `vercel_build.sh` | — | P4-02 | Copies real MP3s; fails on LFS pointers | Python tests | Y | N | N | N | M |
+| AUDIO-P5-02 | Manifest loader (available only) | `apps/site/types/`, `lib/reading/` | `chapter-audio.ts` | P5-01 | Listen data only when available | Vitest | Y | N | N | N | M |
+| AUDIO-P5-03 | Playback UI + disclosure + nav cleanup | reader shell/chrome, `navigate-chapter.ts`, `reset-spoken-content.tsx` | `chapter-audio-player.tsx` | P5-02 | Playback without alignment; disclosure shown | Component + e2e | Y | N | N | N | L |
 
 ### Phase 6
 
-| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | Security | Credits | Size |
-|----|------|--------------|-----------|------|------------|-------|----------|---------|------|
-| AUDIO-P6-01 | Shared segment contract fixtures | tools + site | `tests/fixtures/chapter_audio/*`, site fixture | P2-01, P5-03 | Same segment texts/ids | Cross-checked tests | N/A | No | M |
-| AUDIO-P6-02 | Rehype sentence markers | `render-manuscript-html.ts`, sanitize schema | `lib/reading/rehype-audio-segments.ts` | P6-01 | Markers without breaking footnotes/links | render tests | Sanitize allows `data-audio-seg` | No | L |
-| AUDIO-P6-03 | Playback sync + reduced-motion | player component | — | P6-02 | Sentence highlight tracks audio; respects a11y prefs | Component tests | N/A | No | M |
+| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | PN | PS | Creds | Usage | Size |
+|----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
+| AUDIO-P6-01 | Shared segment fixtures | tools + site | fixtures | P2-01, P5-03 | Extractor ↔ renderer contract | Cross tests | Y | N | N | N | M |
+| AUDIO-P6-02 | Rehype sentence markers | `render-manuscript-html.ts` | `rehype-audio-segments.ts` | P6-01 | Markers without breaking footnotes/links | Render tests | Y | N | N | N | L |
+| AUDIO-P6-03 | Sync highlight + reduced-motion | player | — | P6-02 | Uses capability; no-op if `none` | Component tests | Y | N | N | N | M |
 
-### Phase 7
+### Phase 7–8
 
-| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | Security | Credits | Size |
-|----|------|--------------|-----------|------|------------|-------|----------|---------|------|
-| AUDIO-P7-01 | Evaluation write-up + expand/stop decision | this roadmap or short report | Optional `reports/chapter-audio-pilot-eval.md` | P5–P6 + one real gen | Decision recorded; backlog updated | N/A | No new secrets | Accounting only | S |
+| ID | Goal | Likely files | New files | Deps | Acceptance | Tests | PN | PS | Creds | Usage | Size |
+|----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
+| AUDIO-P7-01 | Second-provider evaluation write-up | report / this roadmap | Optional `reports/chapter-audio-provider-eval.md` | P5+ | Expand/stop/adapter decision recorded | N/A | Y | Y | N | N unless explicit | S |
+| AUDIO-P8-01 | Expansion monitoring checklist | roadmap / ops note | — | P7 | LFS/spend/bandwidth reviewed before bulk enable | N/A | Y | N | N | N | S |
 
 ---
 
-## 9. Testing strategy
+## 10. Testing strategy
 
 | Area | Approach |
 |------|----------|
-| Text normalization | Golden Markdown fixtures → exact spoken text |
-| Hash stability | Same inputs → same `generationHash` |
-| Hash invalidation | Flip each hashed field; expect mismatch |
-| Receipt corruption | Truncated/missing fields → `invalid` |
-| Budget enforcement | Estimate > max → refuse before client call |
-| Mock ElevenLabs | Recorded bytes + timestamp JSON; assert writes |
-| Atomic write failure | Kill after audio temp write → no receipt replace; old current preserved |
-| Alignment normalize | Provider fixture → schema + segment count |
-| LFS pointer detection | File starting with LFS pointer header → fail validate |
-| Site manifest load | Fixture manifest statuses |
-| Reader controls | Vitest + Playwright smoke |
-| Highlight sync | Fake timers / stubbed `HTMLMediaElement` |
-| Accessibility | Labels, keyboard, reduced-motion path; extend `reader-a11y` if needed |
-| CI behavior | Assert ordinary workflows lack generate job and secret env |
-| Network assurance | Client raises if called without mock in unit tests; plan/validate have no HTTP session |
+| Enablement resolution | Inheritance fixtures; default-disabled; explicit true/false |
+| Enabled listing | `list-chapter-audio` filters |
+| Text normalization | Golden Markdown → spoken text |
+| Hash stability / invalidation | Including **provider change** and voice/instructions change |
+| Receipt corruption | → `enabled-invalid` |
+| Budget enforcement | USD and native ceilings refuse before client call |
+| Provider interface | Mock adapter; no network in unit tests |
+| Atomic write failure | Prior current preserved |
+| Alignment normalize | Provider fixture → neutral segments or `none` |
+| LFS pointer detection | Fail validate |
+| Site manifest | Only `enabled-current`; no provider field required by reader |
+| Reader controls | Playback without alignment; disclosure; nav cleanup |
+| Highlight sync | Optional; respects `alignmentGranularity` and reduced-motion |
+| CI | Ordinary workflows lack generate + TTS secrets |
+| Network assurance | Plan/list/validate have no HTTP TTS session |
 
-`make check` / site Vitest must make **zero** ElevenLabs network calls.
+`make check` / site Vitest must make **zero** TTS provider network calls.
 
 ---
 
-## 10. Failure modes and recovery
+## 11. Failure modes and recovery
 
 | Failure | Behavior |
 |---------|----------|
-| API rate limit | Fail run; leave prior artifacts; retry later manually |
-| Credit exhaustion | Refuse; dry-run still works |
-| Partial/malformed API response | Do not replace receipt/audio; exit non-zero |
-| Audio without valid timing | Refuse to mark current; optional policy: keep audio only if Phase 5 playback-without-highlight accepted—pilot **requires** timing |
-| Process killed mid-write | Temps cleaned or ignored; previous receipt remains authoritative |
-| Receipt/audio hash mismatch | `invalid`; hide Listen; CI warn/fail per policy |
-| Stale after manuscript edit | Plan shows stale; Listen hidden; no auto-regen |
-| Deleted source unit | Orphan artifacts reported by validate; remove in follow-up PR |
-| Changed unit IDs | Treat as new unit; old paths orphaned |
-| Duplicate generate jobs | Workflow concurrency group per `unit_id` |
-| Failed PR push | Artifacts remain on runner only; no silent main commit |
-| Reader: audio 404 / decode error | Control shows error; reading uninterrupted |
-| LFS not fetched on Vercel | Install detects pointer; fail build or skip audio install with loud log (prefer fail once audio is expected) |
+| API rate limit / credit exhaustion | Fail run; leave prior artifacts; dry-run still works |
+| Partial/malformed provider response | Do not replace receipt/audio |
+| Audio without timing | Allowed for availability if granularity `none`; Phase 5 playback still ships |
+| Process killed mid-write | Temps ignored; previous receipt authoritative |
+| Receipt/audio mismatch | `enabled-invalid`; omit from manifest |
+| Stale after edits | Plan shows `enabled-stale`; Listen hidden; no auto-regen |
+| Deleted / renamed unit | Orphans reported |
+| Duplicate generate jobs | Concurrency group per unit id |
+| Missing provider secret | Refuse generate; clear error |
+| Wrong secret mounted | Refuse (provider/secret mismatch) |
+| Failed PR push | No silent main commit |
+| Reader 404 / decode error | Error state; reading uninterrupted |
+| LFS not fetched | Detect pointer; fail install when audio expected |
 
 ---
 
-## 11. Pilot definition
+## 12. Pilot definition
 
 | Field | Value |
 |-------|-------|
 | Unit ID | `chapter-after-certainty-front-matter-introduction` |
-| Edition slug | `after-certainty` |
-| Chapter slug | `front-matter-introduction` |
 | Source path | `books/after-certainty/front-matter/introduction.md` |
-| Route | `/explore/books/after-certainty/chapters/front-matter-introduction` |
-| Approx spoken characters | ~8,300 (naive strip); **re-measure in Phase 0** |
-| Voice | Placeholder stock voice — Kevin selects in AUDIO-P0-03 |
+| `audio.enabled` | `true` (unit); book defaults `enabled: false` |
+| Provider | `elevenlabs` (first adapter) |
+| Logical voice | `reflective-narrator` |
 | Model | `eleven_flash_v2_5` (confirm Phase 0) |
-| Output format | `mp3_44100_128` |
-| `include_title` | `true` |
-| `include_footnotes` | `false` |
-| Per-unit `max_credits` | `9000` |
-| Per-run ceiling | `9500` |
-| Expected artifacts | `books/after-certainty/audio/front-matter-introduction.mp3` (LFS), `.alignment.json`, `.receipt.json` |
-| Manual invocation (conceptual) | Actions → Chapter audio generate → `unit_id=chapter-after-certainty-front-matter-introduction`, `max_credits=9500`, `force=false`, first `dry_run=true`, then `dry_run=false` |
-| Reader behavior | Listen visible only when receipt hash matches and MP3 is real; play/pause/progress; cleanup on navigate |
-| Non-regen acceptance | Second generate with unchanged inputs exits 0 without API call and without rewriting artifacts |
+| Approx spoken characters | ~8,300 (naive); re-measure in Phase 2 |
+| Estimated usage | Provider-native credits ≈ character count order; USD when formula known |
+| Expected artifacts | `books/after-certainty/audio/front-matter-introduction.mp3` (LFS), `.alignment.json` (if segment timing available), `.receipt.json` |
+| Alignment capability | Prefer `segment-only` (sentence); playback must work even if `none` |
+| Manual invocation | Actions dispatch with `UNIT=...`, `dry_run=true` then explicit `false`; mounts only `ELEVENLABS_API_KEY` |
+| Reader behavior | Listen only when **available**; disclosure shown; alignment optional |
+| Acceptance tests | Unchanged content does not regenerate; **changing provider invalidates generation hash** |
 
-**Credit note:** One successful generation may consume most of the monthly free allowance. Retries wait for a new month or an explicit human budget decision.
+**Credit note:** One successful ElevenLabs generation may consume most of a free monthly allowance. Retries wait for a new month or an explicit human budget decision.
 
 ---
 
-## 12. Open decisions
+## 13. Open decisions
 
-| Decision | Recommendation (default) |
-|----------|----------------------------|
-| Public licensing / attribution for ElevenLabs audio on after-certainty.com | Confirm before first public deploy of audio; do not ship Listen until Kevin OK |
-| Preferred stock voice | Human listen test in Phase 0; record `voice_id` in enrichment |
-| Narrate titles? | Yes (`include_title: true`) |
-| Narrate footnotes? | No for pilot |
-| Highlight granularity | **Sentence** for pilot |
-| Storage | **Git + LFS for MP3s**; JSON in regular Git; PR review. Revisit CDN/Blob only if LFS quota or deploy fetch hurts |
-| Stale audio UX / CI | **Hide** Listen when not `current`; ordinary CI **warn** on stale enabled units during pilot (upgrade to fail when process is trusted) |
-| Bulk `generate-enabled` | Deferred post-pilot |
-| Fold audio into semantic-manifest chapters[] | Defer; keep separate audio manifest for pilot |
+| Decision | Default |
+|----------|---------|
+| Logical voice aliases vs raw provider voice IDs | **Aliases** via `config/chapter-audio-voices.yml` |
+| Provider defaults at repository vs book level | **Book** `narration.defaults`; repo catalog only for voices |
+| Public manifests expose provider identity? | **No** — receipts keep provider; reader uses capabilities |
+| Initial alignment granularity | **Sentence / `segment-only`** |
+| OpenAI alignment if added | May be **`none`** until a separate strategy exists |
+| Commercial-use / disclosure by provider | Confirm before public Listen; show AI narration disclosure |
+| Multiple provider variants coexist? | **No** during pilot — one active current set per unit |
+| Switching provider | **Replace** active current; orphans cleaned later |
+| Stale enabled units in ordinary CI | **Warn** during pilot; omit from site manifest |
+| Git LFS vs external object storage after pilot | **Keep LFS** until quota/deploy friction forces revisit |
+| Explicit opt-in | **Yes** — disabled unless unit sets `enabled: true` |
+| First adapter | **ElevenLabs**; OpenAI = Phase 7 evaluation candidate |
 
 ---
 
-## 13. Cursor execution sequence
+## 14. Cursor execution sequence
 
-Each prompt implements **one phase or tight task group**. Stop when acceptance criteria pass. Do not request or load `ELEVENLABS_API_KEY` into Cursor unless the prompt explicitly says Phase 3/4 human-gated generation is in scope **and** the operator intends a real run (prefer CI for real runs).
+Each prompt implements one phase or tight task group. Stop when acceptance criteria pass.
 
-### Prompt A — Phase 0 spike + LFS bootstrap
+### Prompt A — Phase 0 decisions + LFS bootstrap
 
-- **Objective:** Confirm assumptions; measure spoken length locally; add `.gitattributes` LFS lines; record voice placeholder notes.
-- **Scope:** Docs notes + `.gitattributes` only (or tiny local measurement script).
-- **Non-goals:** Schemas beyond LFS; API calls; enrichment enablement.
-- **Tests:** `git check-attr` on a hypothetical path; no network.
-- **Stop:** LFS pattern committed; character estimate recorded.
-- **Credits:** Not permitted.
+- **Objective:** Licensing/voice notes; local character estimate; `.gitattributes` LFS lines.
+- **Non-goals:** Schemas beyond LFS; adapters; API calls.
+- **Secrets / usage:** Not permitted.
+- **Stop:** LFS pattern committed; assumptions recorded.
 
-### Prompt B — Phase 1 schemas + pilot enrichment stub
+### Prompt B — Phase 1 semantic enablement and reporting (**first implementation task**)
 
-- **Objective:** AUDIO-P1-01–P1-03.
-- **Scope:** JSON Schemas, enrichment `audio` block, schema tests.
-- **Non-goals:** Extractor, CI generate, reader UI.
-- **Tests:** Schema validation tests green; `make validate-book-specs` / enrichment validation as wired.
-- **Stop:** Pilot unit config validates; no MP3s.
-- **Credits:** Not permitted.
+- **Objective:** AUDIO-P1-01–P1-04 — schemas, voice catalog stub, inheritance resolver, `list-chapter-audio`, pilot unit enablement.
+- **Non-goals:** Extractor completeness beyond stubs if needed for listing; provider SDKs; generation; reader UI.
+- **Tests:** Schema + resolver + list filters; only pilot unit enabled.
+- **Secrets / usage:** Not permitted.
+- **Stop:** `make list-chapter-audio FILTER=enabled` reports the pilot unit without network access.
 
-### Prompt C — Phase 2 offline planning
+### Prompt C — Phase 2 provider-neutral planning
 
-- **Objective:** AUDIO-P2-01–P2-03.
-- **Scope:** Extractor, hashing, receipts, `plan-chapter-audio`.
-- **Non-goals:** ElevenLabs client; workflows; site UI.
-- **Tests:** Golden fixtures; hash tests; plan CLI.
-- **Stop:** `make plan-chapter-audio` reports pilot unit status without secrets.
-- **Credits:** Not permitted.
+- **Objective:** Extractor, hashing (incl. provider invalidation), plan report, cost estimate interface.
+- **Non-goals:** Real adapters; workflows; site UI.
+- **Secrets / usage:** Not permitted.
+- **Stop:** `make plan-chapter-audio` reports statuses and hashes offline.
 
-### Prompt D — Phase 3 metered generation (mock-first)
+### Prompt D — Phase 3 provider interface + ElevenLabs adapter only
 
-- **Objective:** AUDIO-P3-01–P3-03.
-- **Scope:** Client interface, generate command, alignment normalizer, atomic writes.
-- **Non-goals:** Public workflow; reader; real API by default.
-- **Tests:** Mocks only in CI; document how a human runs a real generate in Actions later.
-- **Stop:** Mock generate produces valid artifact trio; budgets enforced.
-- **Credits:** Not in Cursor/CI; real optional only via explicit human CI run.
+- **Objective:** `TtsProvider` + ElevenLabs adapter + generate command with mocks.
+- **Non-goals:** OpenAI adapter; public workflow; reader.
+- **Secrets / usage:** Not in Cursor/CI; real optional only via later Actions.
+- **Stop:** Mock generate writes valid artifact trio; budgets enforced.
 
-### Prompt E — Phase 4 manual workflow + ordinary CI verify
+### Prompt E — Phase 4 manual workflow
 
-- **Objective:** AUDIO-P4-01–P4-03.
-- **Scope:** Workflow YAML, CI hooks, security checklist note, LFS checkout flags.
-- **Non-goals:** Reader UI; enabling more units.
-- **Tests:** Workflow review; validate job present; confirm no secret on site-ci/python-tests.
-- **Stop:** Dry-run dispatch path documented; validate in ordinary CI.
-- **Credits:** Only if a human sets `dry_run=false` in Actions (not in Cursor).
+- **Objective:** Dispatch workflow; mount only selected provider secret; ordinary CI validate; checklist docs.
+- **Non-goals:** Reader UI; second provider.
+- **Secrets / usage:** Only in Actions when `dry_run=false` (human-gated).
+- **Stop:** Dry-run path documented; ordinary CI has no TTS secrets.
 
 ### Prompt F — Phase 5 reader playback
 
-- **Objective:** AUDIO-P5-01–P5-03.
-- **Scope:** Install path, loader, Listen UI, nav cleanup.
+- **Objective:** Install path, available-only loader, Listen UI, disclosure, nav cleanup.
 - **Non-goals:** Highlighting; bulk generation.
-- **Tests:** Vitest + reader e2e smoke; a11y labels.
-- **Stop:** Listen appears iff current; playback works; chapter change stops audio.
-- **Credits:** Not permitted.
+- **Secrets / usage:** Not permitted.
+- **Stop:** Listen appears iff available; playback works without alignment.
 
-### Prompt G — Phase 6 sentence highlighting
+### Prompt G — Phase 6 highlighting (separate)
 
-- **Objective:** AUDIO-P6-01–P6-03.
-- **Scope:** Shared fixtures, rehype markers, sync, reduced-motion.
-- **Non-goals:** Word-level highlight; DOM-wide naive split; new units.
-- **Tests:** Render + sync tests; footnote/link regressions.
-- **Stop:** Sentences highlight in sync on pilot unit with fixture alignment.
-- **Credits:** Not permitted.
+- **Objective:** Sentence markers + sync from capability metadata.
+- **Non-goals:** Word-level; second provider.
+- **Secrets / usage:** Not permitted.
+- **Stop:** Highlight works when granularity allows; no-op when `none`.
 
-### Prompt H — Phase 7 evaluation
+### Prompt H — Phase 7 second-provider evaluation (separate decision)
 
-- **Objective:** AUDIO-P7-01.
-- **Scope:** Short evaluation report; update remaining-product roadmap / this status.
-- **Non-goals:** Expanding to full audiobook.
-- **Tests:** N/A.
-- **Stop:** Expand/stop decision recorded.
-- **Credits:** Accounting only.
+- **Objective:** Compare OpenAI candidate vs ElevenLabs on quality/cost/alignment/ops; decide whether to implement an adapter.
+- **Non-goals:** Implementing OpenAI unless evaluation explicitly accepts it.
+- **Secrets / usage:** Only if a human runs a deliberate comparison outside ordinary CI; not required for a paper evaluation.
+- **Stop:** Written expand/stop/adapter decision.
 
 ---
 
@@ -711,10 +962,11 @@ Each prompt implements **one phase or tight task group**. Stop when acceptance c
 | Path | Role |
 |------|------|
 | `books/after-certainty/front-matter/introduction.md` | Pilot source |
-| `books/after-certainty/chapter-enrichment.yml` | Authored unit metadata |
+| `books/after-certainty/chapter-enrichment.yml` | Per-unit authored metadata |
+| `books/after-certainty/book.yml` | Book defaults home |
 | `schema/semantic/chapter-enrichment.schema.json` | Enrichment schema |
 | `schema/book.schema.json` | Book defaults / media |
-| `tools/manuscript_structure.py` | Chapter IDs / structure |
+| `tools/manuscript_structure.py` | Chapter IDs / kinds |
 | `docs/semantic-chapter-identity.md` | ID contract |
 | `Makefile` | Corpus commands |
 | `.github/workflows/semantic-enrichment.yml` | Manual PR workflow precedent |
@@ -726,6 +978,10 @@ Each prompt implements **one phase or tight task group**. Stop when acceptance c
 
 ## Appendix B — Authorship confirmation
 
-- Roadmap authored from repository inspection on 2026-08-03.
-- **No ElevenLabs API calls were made.**
-- **No API credentials were added** to the repository, environment files, or agent session.
+- Initial roadmap authored from repository inspection on 2026-08-03.
+- Provider-neutral revision on 2026-08-03 preserves verified findings and Git LFS strategy while introducing adapter boundaries, enabled≠available semantics, and multi-provider-ready contracts.
+- **No TTS API calls were made.**
+- **No API credentials were added.**
+- **No provider SDKs were installed.**
+- **No audio was generated.**
+- **No application behavior was changed** in this documentation revision.
