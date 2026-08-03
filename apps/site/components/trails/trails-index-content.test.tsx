@@ -57,9 +57,9 @@ vi.mock("@/lib/trails/getEnrichedTrails", () => ({
 import { TrailsIndexContent } from "@/components/trails/trails-index-content";
 
 describe("TrailsIndexContent", () => {
-  it("renders hero and trail sections", async () => {
+  it("renders dense hero, featured, themes, and upcoming", async () => {
     const ui = await TrailsIndexContent({});
-    render(ui);
+    const { container } = render(ui);
 
     expect(
       screen.getByRole("heading", {
@@ -67,10 +67,20 @@ describe("TrailsIndexContent", () => {
         name: "Follow a deliberate path through the commons",
       }),
     ).toBeInTheDocument();
+    expect(container.querySelector('[data-path-index-density="editorial"]')).toBeTruthy();
+    expect(container.querySelector("[data-path-index-featured]")).toBeTruthy();
     expect(screen.getByRole("heading", { name: "Featured trails" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Judgment" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Coming soon" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /Where Institutions Look/i })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Judgment" })).toHaveAttribute(
+      "href",
+      "/trails?theme=judgment",
+    );
+    expect(screen.getAllByRole("link", { name: /Start with a Question/i })[0]).toHaveAttribute(
+      "href",
+      "/questions",
+    );
   });
 
   it("shows empty state when theme filter matches nothing", async () => {
@@ -78,5 +88,13 @@ describe("TrailsIndexContent", () => {
     render(ui);
 
     expect(screen.getByText(/No trails match that theme/i)).toBeInTheDocument();
+  });
+
+  it("hides featured when a theme filter is active", async () => {
+    const ui = await TrailsIndexContent({ themeFilter: "judgment" });
+    const { container } = render(ui);
+
+    expect(container.querySelector("[data-path-index-featured]")).toBeNull();
+    expect(screen.queryByRole("heading", { name: "Featured trails" })).not.toBeInTheDocument();
   });
 });

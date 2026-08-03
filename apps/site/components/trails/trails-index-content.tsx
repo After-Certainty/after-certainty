@@ -52,18 +52,22 @@ export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProp
   return (
     <>
       <TrailSectionAnalytics location="index" />
-      <Section atmosphere="transition" className="border-b border-border/40 py-16 md:py-24">
+      <Section
+        atmosphere="transition"
+        className="border-b border-border/40 !py-8 md:!py-24"
+        data-path-index-density="editorial"
+      >
         <Container>
           <p className="text-xs uppercase tracking-[0.42em] text-muted">Curated Reading Trails</p>
-          <h1 className="mt-6 max-w-3xl font-display text-4xl font-medium tracking-tight text-fg md:text-5xl lg:text-6xl">
+          <h1 className="mt-3 max-w-3xl font-display text-4xl font-medium tracking-tight text-fg md:mt-6 md:text-5xl lg:text-6xl">
             Follow a deliberate path through the commons
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
+          <p className="mt-3 max-w-2xl text-base leading-relaxed text-muted md:mt-6 md:text-lg">
             Each trail is a finite, editorially composed sequence through books, concepts, patterns,
             and more—designed to help you move through a tension in order, with context for why each
             stop belongs and why one follows another.
           </p>
-          <p className="mt-4 max-w-2xl text-sm text-muted">
+          <p className="mt-3 max-w-2xl text-sm text-muted md:mt-4">
             Trails differ from{" "}
             <Link href="/questions" className="text-accent underline-offset-4 hover:underline">
               Start with a Question
@@ -78,12 +82,16 @@ export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProp
       </Section>
 
       {featured.length > 0 && !themeFilter ? (
-        <Section atmosphere="transition" className="border-b border-border/35 py-14 md:py-20">
+        <Section
+          atmosphere="transition"
+          className="border-b border-border/35 !py-6 md:!py-20"
+          data-path-index-featured
+        >
           <Container>
             <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl">
               Featured trails
             </h2>
-            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-6 grid gap-3 sm:grid-cols-2 sm:gap-4 md:mt-10 lg:grid-cols-4">
               {featured.map((trail) => (
                 <TrailCard
                   key={trail.id}
@@ -101,7 +109,7 @@ export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProp
       ) : null}
 
       {themes.length > 1 ? (
-        <Section atmosphere="none" className="border-b border-border/25 py-8">
+        <Section atmosphere="none" className="border-b border-border/25 !py-6 md:!py-8">
           <Container>
             <nav aria-label="Trail themes" className="flex flex-wrap gap-3">
               <Link
@@ -131,7 +139,7 @@ export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProp
       ) : null}
 
       {trails.length === 0 && upcoming.length === 0 ? (
-        <Section atmosphere="none" className="border-b border-border/35 py-14 md:py-20">
+        <Section atmosphere="none" className="border-b border-border/35 !py-8 md:!py-20">
           <Container>
             <p className="text-muted">
               {themeFilter
@@ -153,13 +161,13 @@ export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProp
             key={theme}
             id={`theme-${slugifyTheme(theme)}`}
             atmosphere="none"
-            className="scroll-mt-24 border-b border-border/35 py-14 md:py-20"
+            className="scroll-mt-24 border-b border-border/35 !py-8 md:!py-20"
           >
             <Container>
               <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl">
                 {theme}
               </h2>
-              <div className="mt-10 grid gap-4 sm:grid-cols-2">
+              <div className="mt-6 grid gap-3 sm:grid-cols-2 sm:gap-4 md:mt-10">
                 {themeTrails.map((trail) => (
                   <TrailCard
                     key={trail.id}
@@ -181,17 +189,17 @@ export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProp
         <Section
           id="upcoming"
           atmosphere="transition"
-          className="scroll-mt-24 border-b border-border/35 py-14 md:py-20"
+          className="scroll-mt-24 border-b border-border/35 !py-8 md:!py-20"
         >
           <Container>
             <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl">
               Coming soon
             </h2>
-            <p className="mt-4 max-w-2xl text-muted">
+            <p className="mt-3 max-w-2xl text-muted md:mt-4">
               Trails still being composed. You can preview the planned path; they are not yet in
               search or the sitemap.
             </p>
-            <div className="mt-10 grid gap-4 sm:grid-cols-2">
+            <div className="mt-6 grid gap-3 sm:grid-cols-2 sm:gap-4 md:mt-10">
               {upcoming.map((trail) => (
                 <TrailCard
                   key={trail.id}
@@ -208,7 +216,7 @@ export async function TrailsIndexContent({ themeFilter }: TrailsIndexContentProp
         </Section>
       ) : null}
 
-      <Section atmosphere="none" className="py-14 md:py-20">
+      <Section atmosphere="none" className="!py-8 md:!py-20">
         <Container>
           <p className="max-w-2xl text-muted">
             Arriving with a human tension rather than a theme? Try{" "}

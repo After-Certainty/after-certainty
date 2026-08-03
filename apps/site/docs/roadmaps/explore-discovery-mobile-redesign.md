@@ -1,8 +1,8 @@
 # Explore discovery mobile redesign
 
-**Status:** Active specialized site plan (Phases 0–3 complete; Phases 4–6 planned)  
+**Status:** Active specialized site plan (Phases 0–4 complete; Phases 5–6 planned)  
 **Created:** 2026-08-03  
-**Updated:** 2026-08-03 (Phase 3 atlas related / graph chrome)  
+**Updated:** 2026-08-03 (Phase 4 questions & trails indexes)  
 **Location:** `apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
 
@@ -535,7 +535,7 @@ flowchart TD
 | **Depends on** | Phase 0 optional |
 | **Ship independently** | Yes (parallel to atlas Phases 1–3 after Phase 0) |
 | **Likely files** | `questions-index-content.tsx`, `trails-index-content.tsx`, optional card density tweaks |
-| **Status** | Planned |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -544,11 +544,19 @@ flowchart TD
 3. Keep family jump links and theme filter URLs; densify chip chrome only if needed.
 4. Preserve trails upcoming section and cross-links to questions/search.
 
+**Shipped (Phase 4):**
+
+- Questions/trails index heroes use `!py-8 md:!py-24` (override `Section` base) + tighter title/lede gaps; `data-path-index-density="editorial"`
+- Featured sections `!py-6 md:!py-20` with denser grids; preserved when no theme filter
+- Family anchors (`#family-*`) and trails `?theme=` / upcoming / cross-links unchanged
+- Question/trail cards slightly denser on mobile (`p-4 md:p-5`)
+- Vitest for questions index; trails theme-filter featured hide; Playwright featured-early @ 390
+
 **Acceptance:**
 
-- Featured row + first group readable without endless scroll past hero @ 390px
-- `?theme=` and family anchors unchanged
-- Desktop spacing remains comfortable
+- [x] Featured row + first group readable without endless scroll past hero @ 390px
+- [x] `?theme=` and family anchors unchanged
+- [x] Desktop spacing remains comfortable
 
 ### Phase 5 — Question & trail detail / path stops
 
@@ -675,9 +683,9 @@ Update as implementation phases land.
 
 ### Phase 4
 
-- [ ] Questions and trails index heroes denser on mobile
-- [ ] Featured content reachable without oversized first viewport
-- [ ] Theme filter and family anchors unchanged
+- [x] Questions and trails index heroes denser on mobile
+- [x] Featured content reachable without oversized first viewport
+- [x] Theme filter and family anchors unchanged
 
 ### Phase 5
 

@@ -31,13 +31,17 @@ export async function QuestionsIndexContent() {
   return (
     <>
       <QuestionSectionAnalytics location="index" />
-      <Section atmosphere="transition" className="border-b border-border/40 py-16 md:py-24">
+      <Section
+        atmosphere="transition"
+        className="border-b border-border/40 !py-8 md:!py-24"
+        data-path-index-density="editorial"
+      >
         <Container>
           <p className="text-xs uppercase tracking-[0.42em] text-muted">Start with a Question</p>
-          <h1 className="mt-6 max-w-3xl font-display text-4xl font-medium tracking-tight text-fg md:text-5xl lg:text-6xl">
+          <h1 className="mt-3 max-w-3xl font-display text-4xl font-medium tracking-tight text-fg md:mt-6 md:text-5xl lg:text-6xl">
             Begin with a tension you recognize
           </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted">
+          <p className="mt-3 max-w-2xl text-base leading-relaxed text-muted md:mt-6 md:text-lg">
             Each question opens a short, editorial path through books, concepts, patterns, and
             more—designed for newcomers who do not yet know the project&apos;s vocabulary.
           </p>
@@ -45,12 +49,16 @@ export async function QuestionsIndexContent() {
       </Section>
 
       {featured.length > 0 ? (
-        <Section atmosphere="transition" className="border-b border-border/35 py-14 md:py-20">
+        <Section
+          atmosphere="transition"
+          className="border-b border-border/35 !py-6 md:!py-20"
+          data-path-index-featured
+        >
           <Container>
             <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl">
               Featured questions
             </h2>
-            <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-6 grid gap-3 sm:grid-cols-2 sm:gap-4 md:mt-10 lg:grid-cols-4">
               {featured.map((question) => (
                 <QuestionCard key={question.id} question={question} location="index" />
               ))}
@@ -60,7 +68,7 @@ export async function QuestionsIndexContent() {
       ) : null}
 
       {families.length > 1 ? (
-        <Section atmosphere="none" className="border-b border-border/25 py-8">
+        <Section atmosphere="none" className="border-b border-border/25 !py-6 md:!py-8">
           <Container>
             <nav aria-label="Question families" className="flex flex-wrap gap-3">
               {families.map((family) => (
@@ -82,13 +90,13 @@ export async function QuestionsIndexContent() {
           key={family}
           id={`family-${slugifyFamily(family)}`}
           atmosphere="none"
-          className="border-b border-border/35 py-14 md:py-20 scroll-mt-24"
+          className="scroll-mt-24 border-b border-border/35 !py-8 md:!py-20"
         >
           <Container>
             <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl">
               {family}
             </h2>
-            <div className="mt-10 grid gap-4 sm:grid-cols-2">
+            <div className="mt-6 grid gap-3 sm:grid-cols-2 sm:gap-4 md:mt-10">
               {familyQuestions.map((question) => (
                 <QuestionCard key={question.id} question={question} location="index" />
               ))}
@@ -97,7 +105,7 @@ export async function QuestionsIndexContent() {
         </Section>
       ))}
 
-      <Section atmosphere="none" className="py-14 md:py-20">
+      <Section atmosphere="none" className="!py-8 md:!py-20">
         <Container>
           <p className="max-w-2xl text-muted">
             Looking for a specific title or phrase?{" "}

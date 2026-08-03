@@ -21,6 +21,18 @@ test.describe("Curated Reading Trails", () => {
     ).toBeVisible();
   });
 
+  test("trails index featured arrives early on mobile", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/trails");
+
+    await expect(page.locator('[data-path-index-density="editorial"]')).toBeVisible();
+    const featured = page.locator("[data-path-index-featured]");
+    await expect(featured).toBeVisible();
+    const box = await featured.boundingBox();
+    expect(box).toBeTruthy();
+    expect(box!.y).toBeLessThan(844 * 1.75);
+  });
+
   test("visitor can follow a trail stop to a canonical destination", async ({ page }) => {
     await page.goto("/trails/judgment-before-certainty");
     await expect(

@@ -30,21 +30,21 @@ export function TrailCard({ trail, location = "index", analytics }: TrailCardPro
           </span>
         ) : null}
       </div>
-      <h3 className="mt-3 font-display text-xl font-medium leading-snug tracking-tight text-fg md:text-2xl">
+      <h3 className="mt-2 font-display text-xl font-medium leading-snug tracking-tight text-fg md:mt-3 md:text-2xl">
         {trail.title}
       </h3>
-      <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">{trail.summary}</p>
-      <p className="mt-4 text-xs text-muted">
+      <p className="mt-2 flex-1 text-sm leading-relaxed text-muted md:mt-3">{trail.summary}</p>
+      <p className="mt-3 text-xs text-muted md:mt-4">
         {stopCount} stops · ~{minutes} min
       </p>
-      <span className="mt-6 text-xs uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg">
+      <span className="mt-4 text-xs uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg md:mt-6">
         {isUpcoming ? "Preview this trail →" : "Follow this trail →"}
       </span>
     </>
   );
 
   const className =
-    "group flex h-full flex-col border border-border/50 bg-bg-elevated/40 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent";
+    "group flex h-full flex-col border border-border/50 bg-bg-elevated/40 p-4 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:p-5";
 
   if (analytics) {
     return (
