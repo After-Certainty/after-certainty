@@ -31,7 +31,7 @@ This index orients agents and maintainers. It is **not** a backlog.
 
 | Path | Topic | Classification |
 |------|-------|----------------|
-| [`apps/site/docs/roadmaps/patterns-mobile-redesign.md`](../../apps/site/docs/roadmaps/patterns-mobile-redesign.md) | Patterns index + Pattern detail mobile UX redesign | **active-specialized-site-plan** (Phases 1–2 complete; Phases 3–6 pending) |
+| [`apps/site/docs/roadmaps/patterns-mobile-redesign.md`](../../apps/site/docs/roadmaps/patterns-mobile-redesign.md) | Patterns index + Pattern detail mobile UX redesign | **active-specialized-site-plan** (Phases 1–3 complete; Phases 4–6 pending) |
 | [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md) | Books index, shelves, detail, native reader UX redesign | **complete-specialized-site-plan** (A–G; deferred highlights / visual-regression / Safari manual checks) |
 
 ### Completed historical roadmaps / migration records

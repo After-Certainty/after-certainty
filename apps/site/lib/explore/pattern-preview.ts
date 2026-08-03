@@ -18,7 +18,12 @@ export type PatternPreviewFields = {
   secondary: string | null;
 };
 
-function firstSentences(text: string | undefined, maxSentences = 2, maxChars = 220): string | null {
+/** First N sentences of text, capped by character budget. */
+export function firstSentences(
+  text: string | undefined,
+  maxSentences = 2,
+  maxChars = 220,
+): string | null {
   const trimmed = text?.trim();
   if (!trimmed) return null;
 
