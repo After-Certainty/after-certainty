@@ -21,15 +21,15 @@ export function SiteLockup({ variant }: { variant: LockupVariant }) {
         height={512}
         className={
           isFooter
-            ? "h-14 w-auto max-w-[200px] shrink-0 object-contain object-left md:h-[4.5rem]"
+            ? "h-11 w-auto max-w-[160px] shrink-0 object-contain object-left md:h-[4.5rem] md:max-w-[200px]"
             : "h-8 w-auto max-w-[100px] shrink-0 object-contain object-left sm:h-9 sm:max-w-[120px] md:h-10 md:max-w-[140px]"
         }
-        sizes={isFooter ? "(max-width: 768px) 180px, 200px" : "(max-width: 768px) 130px, 150px"}
+        sizes={isFooter ? "(max-width: 768px) 140px, 200px" : "(max-width: 768px) 130px, 150px"}
       />
       <span
         className={`min-w-0 font-display text-fg transition-colors group-hover:text-accent ${
           isFooter
-            ? "text-xl tracking-[0.28em] md:text-2xl"
+            ? "text-lg tracking-[0.28em] md:text-2xl"
             : "text-sm tracking-[0.22em] sm:text-base sm:tracking-[0.26em] md:text-lg md:tracking-[0.28em]"
         }`}
       >

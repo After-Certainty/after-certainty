@@ -39,7 +39,7 @@ export function PatternLanguageContext({ index, pattern }: PatternLanguageContex
   }));
 
   return (
-    <div className="mt-8 max-w-2xl border-t border-border/25 pt-6 text-sm leading-relaxed text-muted md:pt-8">
+    <div className="mt-6 max-w-2xl border-t border-border/25 pt-5 text-sm leading-relaxed text-muted md:mt-8 md:pt-8">
       <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Pattern language</p>
       <ul className="mt-3 space-y-1.5">
         <li>

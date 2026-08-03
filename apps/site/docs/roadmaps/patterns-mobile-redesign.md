@@ -456,6 +456,7 @@ flowchart TB
 | **Depends on** | Phases 2–4 mostly done for spacing context |
 | **Ship independently** | Yes (site-wide) |
 | **Likely files** | `site-footer.tsx`, atmosphere footer classes, pattern page spacing, touch-target / contrast pass |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -463,6 +464,13 @@ flowchart TB
 2. Remove unnecessary vertical gaps; reduce repeated headings; arrange links in a compact wrapping row or small grid; keep touch targets accessible.
 3. Desktop footer retains a fuller usable layout.
 4. Normalize Patterns page spacing; regression-check Books index and other Explore indexes.
+
+**Shipped (Phase 5):**
+
+- `SiteFooter` — denser mobile padding; 2-column wrapping Together links (`md:` list); `min-h-11` touch targets; license + semantic date in compact meta row; single content tree
+- Slightly smaller footer lockup on mobile
+- Explore section tokens (`--explore-section-y` / `--explore-section-pb`) on pattern detail related blocks
+- Tighter intro stack spacing on pattern detail (language / glance / grounding)
 
 **Risks:** Link discoverability if over-culled; site-wide visual blast radius.  
 **Acceptance:**

@@ -86,7 +86,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           relatedConceptUrls: relatedConceptUrls(index, pattern.relatedConcepts),
         })}
       />
-      <Section atmosphere="none" className="pt-8 md:pt-14 !pb-8 md:!pb-12">
+      <Section atmosphere="none" className="pt-6 md:pt-14 !pb-6 md:!pb-12">
         <BreadcrumbTrail items={patternBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">
           {patternIndexEyebrow(pattern)}
@@ -119,7 +119,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
       {hasSemanticEnrichment(pattern) ? (
         <Section
           atmosphere="transition"
-          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+          className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
           <ExploreEnrichmentSections enrichment={pattern} />
         </Section>
@@ -130,7 +130,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
       {relatedChapters.length > 0 ? (
         <Section
           atmosphere="transition"
-          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+          className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
           <RelatedChaptersSection chapters={relatedChapters} />
         </Section>
@@ -139,9 +139,9 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
       {hasRelated ? (
         <Section
           atmosphere="transition"
-          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+          className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
-          <div className="flex flex-col gap-10 md:gap-14">
+          <div className="flex flex-col gap-8 md:gap-14">
             <RelatedConceptsSection concepts={related.concepts} />
             <RelatedBooksSection books={related.books} />
           </div>
@@ -151,7 +151,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
       {hasRelationships ? (
         <Section
           atmosphere="none"
-          className="border-t border-border/25 !pt-10 md:!pt-14 !pb-20 md:!pb-28"
+          className="border-t border-border/25 !pt-6 md:!pt-14 !pb-12 md:!pb-24"
         >
           <SemanticRelationshipsSection
             index={index}

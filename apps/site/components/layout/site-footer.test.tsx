@@ -80,4 +80,27 @@ describe("SiteFooter", () => {
     );
     expect(social.github).toBe("https://github.com/ksteffe/after-certainty");
   });
+
+  it("shows semantic data date and license in the compact meta row", async () => {
+    render(await SiteFooter());
+    expect(screen.getByText(/Semantic data:/i)).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /CC BY-SA 4\.0/i })).toBeInTheDocument();
+  });
+
+  it("keeps essential Together destinations in a single link list", async () => {
+    render(await SiteFooter());
+    expect(screen.getByRole("link", { name: /Explore patterns/i })).toHaveAttribute(
+      "href",
+      "/explore/patterns",
+    );
+    expect(screen.getByRole("link", { name: /Reading Trails/i })).toHaveAttribute(
+      "href",
+      "/trails",
+    );
+    expect(screen.getByRole("link", { name: /Privacy & cookies/i })).toHaveAttribute(
+      "href",
+      "/privacy",
+    );
+    expect(screen.getByRole("link", { name: /Collaborators/i })).toBeInTheDocument();
+  });
 });

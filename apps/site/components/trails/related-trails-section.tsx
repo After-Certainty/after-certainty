@@ -20,7 +20,7 @@ export async function RelatedTrailsSection({
   return (
     <Section
       atmosphere="transition"
-      className="border-t border-border/25 !pt-8 md:!pt-10 !pb-8 md:!pb-10"
+      className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-6 md:!pb-10"
     >
       <section aria-label="Related reading trails" className="flex flex-col gap-6">
         <div>

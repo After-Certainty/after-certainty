@@ -27,6 +27,11 @@
   --explore-row-py: var(--books-row-py);
   --explore-cover-list-w: var(--books-cover-list-w);
   --explore-cover-list-h: var(--books-cover-list-h);
+  /* Explore detail section rhythm (Patterns mobile Phase 5) */
+  --explore-section-y: 1.5rem;
+  --explore-section-y-md: 2.5rem;
+  --explore-section-pb: 2.5rem;
+  --explore-section-pb-md: 4rem;
 
   /* Native reader chrome (redesign Phase E) */
   --reader-progress-h: 2px;
