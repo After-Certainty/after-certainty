@@ -420,6 +420,7 @@ flowchart TB
 | **Depends on** | Phase 1 CompactBookRow + disclosure; ideally after Phase 3 |
 | **Ship independently** | Yes with Phase 3 |
 | **Likely files** | `related-content-grid.tsx` / callers, `book-card.tsx` usage sites, `semantic-relationships-section.tsx`, `relationship-list.tsx`, `relationship-card.tsx`, `explore-adjacent-nav.tsx`, Observatory action placement |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -428,6 +429,15 @@ flowchart TB
 3. Outgoing / Incoming dynamics as accordion groups; preserve relationship verb labels and semantic distinctions.
 4. Compact prev/next; long titles wrap; no horizontal overflow at 320px.
 5. Observatory CTA remains reachable.
+
+**Shipped (Phase 4):**
+
+- `RelatedSectionDisclosure` — shared mobile collapse + count; open from `md`
+- `RelatedConceptsSection` — collapsed concepts with count on mobile
+- `RelatedBooksSection` — `CompactBookRow` list (no near-full-width covers)
+- `RelationshipList` `collapsible` + pattern-page `collapsibleDynamics` — Outgoing/Incoming accordion groups; tensions unchanged
+- `ExploreAdjacentNav` — denser mobile chrome; `break-words` / overflow clip at narrow widths
+- Observatory CTA left in intro section (reachable above related blocks)
 
 **Risks:** Flattening relationship types; nested interactive controls (toggle vs links).  
 **Acceptance:**

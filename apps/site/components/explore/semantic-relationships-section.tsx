@@ -9,6 +9,11 @@ type SemanticRelationshipsSectionProps = {
   focalCanonicalId: string;
   focalKind: GraphEntityKind;
   focalSlug: string;
+  /**
+   * Collapse outgoing/incoming dynamics on mobile (Patterns detail Phase 4).
+   * Tensions stay always visible; verb labels unchanged.
+   */
+  collapsibleDynamics?: boolean;
 };
 
 export function SemanticRelationshipsSection({
@@ -16,6 +21,7 @@ export function SemanticRelationshipsSection({
   focalCanonicalId,
   focalKind,
   focalSlug,
+  collapsibleDynamics = false,
 }: SemanticRelationshipsSectionProps) {
   const { tensions, outgoingDynamics, incomingDynamics } = relationshipsForConcept(index, focalCanonicalId);
   const hasAny = tensions.length + outgoingDynamics.length + incomingDynamics.length > 0;
@@ -37,6 +43,7 @@ export function SemanticRelationshipsSection({
           mode="outgoing"
           title="Outgoing dynamics"
           observatoryFocus={{ kind: focalKind, slug: focalSlug }}
+          collapsible={collapsibleDynamics}
         />
       ) : null}
       {incomingDynamics.length > 0 ? (
@@ -46,6 +53,7 @@ export function SemanticRelationshipsSection({
           mode="incoming"
           title="Incoming dynamics"
           observatoryFocus={{ kind: focalKind, slug: focalSlug }}
+          collapsible={collapsibleDynamics}
         />
       ) : null}
     </div>

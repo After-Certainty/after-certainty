@@ -8,7 +8,8 @@ import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { PatternAtAGlance } from "@/components/explore/pattern-at-a-glance";
 import { PatternIntroDisclosure } from "@/components/explore/pattern-intro-disclosure";
-import { RelatedContentGrid } from "@/components/explore/related-content-grid";
+import { RelatedBooksSection } from "@/components/explore/related-books-section";
+import { RelatedConceptsSection } from "@/components/explore/related-concepts-section";
 import { RelatedChaptersSection } from "@/components/explore/related-chapters-section";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
@@ -140,13 +141,9 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           atmosphere="transition"
           className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
         >
-          <div className="flex flex-col gap-14">
-            <RelatedContentGrid heading="Related concepts" concepts={related.concepts} />
-            <RelatedContentGrid
-              heading="Related books"
-              books={related.books}
-              booksForCovers={graph.books}
-            />
+          <div className="flex flex-col gap-10 md:gap-14">
+            <RelatedConceptsSection concepts={related.concepts} />
+            <RelatedBooksSection books={related.books} />
           </div>
         </Section>
       ) : null}
@@ -161,6 +158,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
             focalCanonicalId={pattern.id}
             focalKind="pattern"
             focalSlug={pattern.slug}
+            collapsibleDynamics
           />
         </Section>
       ) : null}
