@@ -55,7 +55,7 @@ describe("CompactBookRow", () => {
     expect(screen.getByRole("heading", { name: "After Certainty" })).toBeInTheDocument();
     expect(screen.getByText("A short subtitle")).toBeInTheDocument();
     expect(screen.getByText("Concise summary for related-book rows.")).toBeInTheDocument();
-    expect(screen.getByText("View book →")).toBeInTheDocument();
+    expect(screen.getByText("View book")).toBeInTheDocument();
 
     const link = screen.getByRole("link", { name: /After Certainty/i });
     expect(link).toHaveAttribute("href", "/explore/books/after-certainty");
@@ -69,6 +69,21 @@ describe("CompactBookRow", () => {
       width: "var(--explore-cover-list-w)",
       height: "var(--explore-cover-list-h)",
     });
+  });
+
+  it("clamps long titles without overflowing the row", () => {
+    render(
+      <CompactBookRow
+        book={{
+          ...sampleBook,
+          title:
+            "An Extremely Long Book Title That Should Clamp Rather Than Stretch The Layout Horizontally",
+        }}
+      />,
+    );
+    const heading = screen.getByRole("heading", { level: 3 });
+    expect(heading.className).toMatch(/line-clamp-2/);
+    expect(heading.parentElement?.className).toMatch(/min-w-0/);
   });
 
   it("omits description when showDescription is false", () => {

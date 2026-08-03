@@ -79,6 +79,22 @@ describe("patternAtAGlance", () => {
     expect(items.find((i) => i.slot === "whyItMatters")).toBeUndefined();
     expect(items.find((i) => i.slot === "keyRisk")!.text).toContain("another mask");
   });
+
+  it("handles meaning-forms-early-shaped patterns without empty shells", () => {
+    const items = patternAtAGlance(
+      pattern({
+        id: "5",
+        slug: "meaning-forms-early",
+        title: "Meaning Forms Early",
+        setup: "Meaning consolidates before the frame is tested.",
+        summary: "Composed summary.",
+        counterbalances: ["Keep revising the frame against contact."],
+      }),
+    );
+    expect(items.map((i) => i.slot)).toEqual(["whatItDoes", "counterbalance"]);
+    expect(items.find((i) => i.slot === "whyItMatters")).toBeUndefined();
+    expect(items.find((i) => i.slot === "keyRisk")).toBeUndefined();
+  });
 });
 
 describe("patternDetailTeaser", () => {

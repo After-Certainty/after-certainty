@@ -1,7 +1,8 @@
 # Patterns index and Pattern detail mobile redesign
 
-**Status:** Phase 2 complete — Phases 3–6 pending  
+**Status:** Complete (Phases 1–6)  
 **Created:** 2026-08-03  
+**Completed:** 2026-08-03  
 **Location:** `apps/site/docs/roadmaps/patterns-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
 
@@ -68,31 +69,34 @@
 - `apps/site/lib/explore/pattern-language.ts`
 - `apps/site/lib/explore/explore-patterns-order.ts`
 
-### A.3 Pattern detail stack (render order today)
+### A.3 Pattern detail stack (post Phases 3–4)
 
 1. `JsonLd` (`buildPatternPageJsonLd`)
-2. `BreadcrumbTrail` + role eyebrow + `h1` + full `summary` via `LinkifiedText`
-3. `PatternLanguageContext` (long force lists on master)
-4. `ExplorePatternNarrative` (setup / problem / forces[] / observation / example)
-5. `SemanticGroundingDisclosure` (when grounding present)
-6. `ExploreEntityDetailActions` (Observatory deep-link)
-7. `ExplorePatternMedia` (YouTube / infographic / Medium)
-8. `ExploreAdjacentNav` (prev/next in title sort order)
-9. `ExploreEnrichmentSections` (recognition, questions, counterbalances, trajectory, manifestations)
-10. `RelatedTrailsSection` / `RelatedChaptersSection`
-11. `RelatedContentGrid` — concepts + books (`BookCard` with near-full-width covers on mobile)
-12. `SemanticRelationshipsSection` — tensions + outgoing/incoming `RelationshipCard` grids
+2. `BreadcrumbTrail` + classification eyebrow + `h1`
+3. `PatternIntroDisclosure` — mobile teaser + “Read full description”; full summary + `ExplorePatternNarrative` from `md`
+4. Compact `PatternLanguageContext` (+ `PatternForceAccordion` on master)
+5. `PatternAtAGlance` (omit empty slots)
+6. `SemanticGroundingDisclosure` (when grounding present)
+7. `ExploreEntityDetailActions` (Observatory deep-link)
+8. `ExplorePatternMedia` (YouTube / infographic / Medium)
+9. `ExploreAdjacentNav` (prev/next; wrap-safe at narrow widths)
+10. `ExploreEnrichmentSections` (recognition, questions, counterbalances, trajectory, manifestations)
+11. `RelatedTrailsSection` / `RelatedChaptersSection`
+12. `RelatedConceptsSection` + `RelatedBooksSection` (`CompactBookRow`; concepts collapsed on mobile)
+13. `SemanticRelationshipsSection` — tensions + collapsible outgoing/incoming dynamics on pattern detail
 
 **Key files:**
 
 - `apps/site/app/explore/(browse)/patterns/[slug]/page.tsx`
+- `apps/site/components/explore/pattern-intro-disclosure.tsx`
 - `apps/site/components/explore/pattern-language-context.tsx`
-- `apps/site/components/explore/explore-pattern-narrative.tsx`
-- `apps/site/components/explore/related-content-grid.tsx`
-- `apps/site/components/explore/book-card.tsx`
+- `apps/site/components/explore/pattern-force-accordion.tsx`
+- `apps/site/components/explore/pattern-at-a-glance.tsx`
+- `apps/site/components/explore/related-concepts-section.tsx`
+- `apps/site/components/explore/related-books-section.tsx`
+- `apps/site/components/explore/compact-book-row.tsx`
 - `apps/site/components/explore/semantic-relationships-section.tsx`
 - `apps/site/components/explore/relationship-list.tsx`
-- `apps/site/components/explore/relationship-card.tsx`
 - `apps/site/components/explore/explore-adjacent-nav.tsx`
 
 ### A.4 Books index reuse candidates
@@ -488,6 +492,7 @@ flowchart TB
 | --- | --- |
 | **Depends on** | Phases 1–5 |
 | **Ship independently** | Final PR or stacked with last phase |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -497,20 +502,26 @@ flowchart TB
 4. Remove superseded styles/components; verify `next/image` sizes / lazy loading; Lighthouse sanity on index + one detail.
 5. Update this roadmap status + `docs/roadmaps/README.md` inventory classification when complete.
 
+**Shipped (Phase 6):**
+
+- Vitest: thin-metadata preview / at-a-glance cases; force accordion `aria-controls` + one-liner; CompactBookRow long-title clamp; CTA without Unicode arrow
+- Playwright: `e2e/patterns-mobile.spec.ts` — master/supporting/thin detail @ 390; overflow + prev/next @ 320; footer mobile + desktop
+- Docs: status complete; §A.3 refreshed to post-redesign stack; inventory reclassified
+
 **Test matrix (minimum):**
 
 | Case | Coverage |
 | --- | --- |
-| Patterns index @ 320 / 375 / 390 / 430 | E2E + manual |
+| Patterns index @ 320 / 375 / 390 / 430 | E2E (`explore-indexes` @ 390) + manual |
 | Master pattern detail | E2E |
 | Supporting pattern detail | E2E |
-| Pattern with missing optional metadata | Unit + spot E2E |
+| Pattern with missing optional metadata | Unit + E2E (`meaning-forms-early`) |
 | Pattern accordion open/closed | Unit + E2E |
 | Related concepts collapsed/expanded | E2E |
 | Related books 1 and N | E2E |
-| Long pattern / book titles | E2E / component |
+| Long pattern / book titles | Unit + E2E adjacent wrap |
 | Prev/next wrapping | E2E @ 320 |
-| Footer mobile + desktop | E2E / manual |
+| Footer mobile + desktop | E2E |
 | Keyboard interaction | Unit + manual |
 | `prefers-reduced-motion` | Manual / component class assertions |
 | No horizontal overflow | E2E @ 320 |
@@ -549,31 +560,31 @@ flowchart TB
 
 Success means all of the following:
 
-- [ ] The Patterns index no longer begins with an oversized mobile hero
-- [ ] Several patterns are visible within the first few mobile viewports
-- [ ] Collapsed pattern rows are significantly shorter than the current cards
-- [ ] Pattern detail pages present the core thesis quickly
-- [ ] Long prose is available through progressive disclosure and remains in the document
-- [ ] Organizing-force information is scannable
-- [ ] Related books no longer use near-full-width covers
-- [ ] Incoming and outgoing relationships are meaningfully grouped (verb distinctions preserved)
-- [ ] The footer is substantially shorter on mobile
-- [ ] Desktop layouts are not regressed
-- [ ] No horizontal scrolling occurs at 320px
-- [ ] Accordions are accessible by keyboard and screen reader (`aria-expanded` / `aria-controls`, focus states)
-- [ ] The redesign uses real corpus data rather than pattern-specific hard coding
-- [ ] Inbound `/explore/patterns` and `/explore/patterns/[slug]` (and legacy redirects) remain intact
-- [ ] Metadata, structured data, and breadcrumbs behave as today
+- [x] The Patterns index no longer begins with an oversized mobile hero
+- [x] Several patterns are visible within the first few mobile viewports
+- [x] Collapsed pattern rows are significantly shorter than the current cards
+- [x] Pattern detail pages present the core thesis quickly
+- [x] Long prose is available through progressive disclosure and remains in the document
+- [x] Organizing-force information is scannable
+- [x] Related books no longer use near-full-width covers
+- [x] Incoming and outgoing relationships are meaningfully grouped (verb distinctions preserved)
+- [x] The footer is substantially shorter on mobile
+- [x] Desktop layouts are not regressed
+- [x] No horizontal scrolling occurs at 320px
+- [x] Accordions are accessible by keyboard and screen reader (`aria-expanded` / `aria-controls`, focus states)
+- [x] The redesign uses real corpus data rather than pattern-specific hard coding
+- [x] Inbound `/explore/patterns` and `/explore/patterns/[slug]` (and legacy redirects) remain intact
+- [x] Metadata, structured data, and breadcrumbs behave as today
 
 ---
 
 ## Executive summary
 
-1. **Phases:** Foundations → Patterns index → Detail core → Detail relationships → Footer/polish → Testing/cleanup
+1. **Phases:** Foundations → Patterns index → Detail core → Detail relationships → Footer/polish → Testing/cleanup — **complete**
 2. **Reuse from Books:** `ExploreIndexGroup`, shelf accordion ARIA pattern, `CatalogBookCard` list sizing/tokens, `ExploreIndexHero` density concept, Vitest/Playwright conventions
 3. **Radix:** Accordion dependency **not** needed; keep Dialog-only
 4. **Highest-risk decisions:** at-a-glance field gaps; editorial hero; site-wide footer; SSR disclosure without duplicate trees
-5. **Recommended first implementation phase after this docs PR:** Phase 1 — shared disclosure primitive + `CompactBookRow`
+5. **Shipped:** Phases 1–6 in `apps/site`
 
 ---
 

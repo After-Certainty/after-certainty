@@ -99,8 +99,13 @@ describe("PatternForceAccordion", () => {
     expect(screen.getByText("Organizing forces")).toBeInTheDocument();
     const toggle = screen.getByRole("button", { name: /perception/i });
     expect(toggle).toHaveAttribute("aria-expanded", "false");
+    expect(toggle).toHaveAttribute("aria-controls");
+    expect(screen.getAllByText("How seeing shapes what can be known.").length).toBeGreaterThan(0);
     await user.click(toggle);
     expect(toggle).toHaveAttribute("aria-expanded", "true");
+    const panelId = toggle.getAttribute("aria-controls");
+    expect(panelId).toBeTruthy();
+    expect(document.getElementById(panelId!)).toHaveAttribute("role", "region");
     expect(screen.getByRole("link", { name: "Attention Finds a Focus" })).toHaveAttribute(
       "href",
       "/explore/patterns/a",
