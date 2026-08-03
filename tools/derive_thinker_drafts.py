@@ -30,7 +30,11 @@ if str(_TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(_TOOLS_DIR))
 
 from generate_semantic_manifest import _load_dir_yml  # noqa: E402
-from source_metadata import creator_slug_from_name, split_display_name  # noqa: E402
+from source_metadata import (  # noqa: E402
+    creator_slug_from_name,
+    split_display_name,
+    strip_markdown_italics,
+)
 
 SEMANTIC_ROOT = Path("semantic")
 DEFAULT_DRAFT_DIR = Path("semantic/_drafts/generated/thinkers")
@@ -83,10 +87,10 @@ def _thinker_name(rows: list[dict], slug: str) -> str:
         if isinstance(names, list):
             for name in names:
                 if creator_slug_from_name(str(name)) == slug:
-                    return str(name).strip()
+                    return strip_markdown_italics(str(name).strip())
         author, _ = split_display_name(str(row.get("name", "")).strip())
         if author and creator_slug_from_name(author) == slug:
-            return author
+            return strip_markdown_italics(author)
     return slug.replace("-", " ").title()
 
 

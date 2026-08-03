@@ -69,6 +69,8 @@ def test_extract_dod_bibliography_entry() -> None:
     row = rows[0]
     assert row["workTitle"] == "Defense System Software Development"
     assert "Department of Defense" in row["name"]
+    assert "*" not in row["summary"]
+    assert "Defense System Software Development" in row["summary"]
 
 
 def test_enrich_source_record_from_garbled_dod_name() -> None:

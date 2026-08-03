@@ -3,7 +3,7 @@ name: 'Lucian A. Bebchuk and Scott Hirst — Index Funds and the Future of Corpo
   Governance: Theory, Evidence, and Policy.'
 type: article
 summary: 'Bebchuk, Lucian A., and Scott Hirst. "Index Funds and the Future of Corporate
-  Governance: Theory, Evidence, and Policy." *Columbia Law Review* 119, no. 8 (2019):
+  Governance: Theory, Evidence, and Policy." Columbia Law Review 119, no. 8 (2019):
   2029-2146.'
 concepts: []
 patterns: []
@@ -12,12 +12,10 @@ relatedBooks:
 title: 'Index Funds and the Future of Corporate Governance: Theory, Evidence, and
   Policy.'
 creatorNames:
-- Lucian A. Bebchuk
-- Scott Hirst
+- Lucian A. Bebchuk and Scott Hirst
 creatorSlugs:
-- lucian-a-bebchuk
-- scott-hirst
+- lucian-a-bebchuk-and-scott-hirst
 citation: 'Bebchuk, Lucian A., and Scott Hirst. "Index Funds and the Future of Corporate
-  Governance: Theory, Evidence, and Policy." *Columbia Law Review* 119, no. 8 (2019):
+  Governance: Theory, Evidence, and Policy." Columbia Law Review 119, no. 8 (2019):
   2029-2146.'
 sourceKind: article

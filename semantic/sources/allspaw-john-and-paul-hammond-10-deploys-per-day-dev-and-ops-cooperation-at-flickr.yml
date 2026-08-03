@@ -10,11 +10,9 @@ relatedBooks:
 - coupling
 title: '10+ Deploys Per Day: Dev and Ops Cooperation at Flickr.'
 creatorNames:
-- John Allspaw
-- Paul Hammond
+- John Allspaw and Paul Hammond
 creatorSlugs:
-- john-allspaw
-- paul-hammond
+- john-allspaw-and-paul-hammond
 citation: 'Allspaw, John, and Paul Hammond. "10+ Deploys Per Day: Dev and Ops Cooperation
   at Flickr." Velocity conference presentation, 2009.'
 sourceKind: article

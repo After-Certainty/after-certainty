@@ -58,6 +58,13 @@ describe("source display helpers", () => {
     expect(sourceDisplayBody(enrichedSource)).toContain("Between Past and Future");
   });
 
+  it("strips markdown italics from citation and summary display body", () => {
+    expect(sourceDisplayBody(enrichedSource)).toBe(
+      "Arendt, Hannah. Between Past and Future. New York: Penguin Books, 2006.",
+    );
+    expect(sourceDisplayBody(enrichedSource)).not.toContain("*");
+  });
+
   it("formats snake_case source kinds for display", () => {
     expect(
       sourceDisplayLabel({

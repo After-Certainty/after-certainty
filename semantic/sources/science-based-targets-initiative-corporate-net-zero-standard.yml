@@ -1,9 +1,8 @@
 slug: science-based-targets-initiative-corporate-net-zero-standard
-name: Science Based Targets initiative — Corporate Net-Zero Standard — Corporate Net-Zero
-  Standard
+name: Science Based Targets initiative — Corporate Net-Zero Standard
 type: book
-summary: Science Based Targets initiative. *Corporate Net-Zero Standard*, Version
-  1.2. 2023. https://sciencebasedtargets.org/.
+summary: Science Based Targets initiative. Corporate Net-Zero Standard, Version 1.2.
+  2023. https://sciencebasedtargets.org/.
 concepts: []
 patterns: []
 relatedBooks:
@@ -13,6 +12,6 @@ creatorNames:
 - Science Based Targets initiative
 creatorSlugs:
 - science-based-targets-initiative
-citation: Science Based Targets initiative. *Corporate Net-Zero Standard*, Version
-  1.2. 2023. https://sciencebasedtargets.org/.
+citation: Science Based Targets initiative. Corporate Net-Zero Standard, Version 1.2.
+  2023. https://sciencebasedtargets.org/.
 sourceKind: standard

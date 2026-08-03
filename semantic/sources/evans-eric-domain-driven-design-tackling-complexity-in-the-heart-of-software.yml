@@ -1,8 +1,8 @@
 slug: evans-eric-domain-driven-design-tackling-complexity-in-the-heart-of-software
 name: 'Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software'
 type: book
-summary: 'Evans, Eric. *Domain-Driven Design: Tackling Complexity in the Heart of
-  Software*. Boston: Addison-Wesley, 2003.'
+summary: 'Evans, Eric. Domain-Driven Design: Tackling Complexity in the Heart of Software.
+  Boston: Addison-Wesley, 2003.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -12,8 +12,8 @@ creatorNames:
 - Eric Evans
 creatorSlugs:
 - eric-evans
-citation: 'Evans, Eric. *Domain-Driven Design: Tackling Complexity in the Heart of
-  Software*. Boston: Addison-Wesley, 2003.'
+citation: 'Evans, Eric. Domain-Driven Design: Tackling Complexity in the Heart of
+  Software. Boston: Addison-Wesley, 2003.'
 sourceKind: book
 year: 2003
 publisher: Addison-Wesley

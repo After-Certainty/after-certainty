@@ -20,7 +20,6 @@ from thinker_concept_audit import load_entity_dir  # noqa: E402
 
 SEMANTIC = Path("semantic")
 
-_ITALIC_IN_DISPLAY_RE = re.compile(r"\*[^*]+\*")
 _PLACEHOLDER_SUMMARY_RE = re.compile(
     r"edit summary before promotion|Canonical thinker entry for source grouping",
     re.I,
@@ -51,7 +50,8 @@ def _normalize_author_key(name: str) -> str:
 
 
 def _markdown_in_display(text: str) -> bool:
-    return bool(_ITALIC_IN_DISPLAY_RE.search(text))
+    """True when text still contains markdown italic markers or leftover ``*``."""
+    return "*" in text
 
 
 def _audit_source(slug: str, data: dict, thinkers: dict[str, dict]) -> list[QualityIssue]:
@@ -65,6 +65,10 @@ def _audit_source(slug: str, data: dict, thinkers: dict[str, dict]) -> list[Qual
     for field_name, value in (
         ("name", name),
         ("institution", institution),
+        ("summary", str(data.get("summary", "")).strip()),
+        ("citation", str(data.get("citation", "")).strip()),
+        ("title", title),
+        ("publisher", str(data.get("publisher", "")).strip()),
     ):
         if value and _markdown_in_display(value):
             issues.append(
@@ -167,6 +171,28 @@ def _audit_thinker(
                 "markdown_in_display",
                 "critical",
                 f"name contains markdown italics: {name!r}",
+            )
+        )
+
+    if summary and _markdown_in_display(summary):
+        issues.append(
+            QualityIssue(
+                "thinker",
+                slug,
+                "markdown_in_display",
+                "critical",
+                f"summary contains markdown italics: {summary!r}",
+            )
+        )
+
+    if why and _markdown_in_display(why):
+        issues.append(
+            QualityIssue(
+                "thinker",
+                slug,
+                "markdown_in_display",
+                "critical",
+                f"whyThisMatters contains markdown italics: {why!r}",
             )
         )
 

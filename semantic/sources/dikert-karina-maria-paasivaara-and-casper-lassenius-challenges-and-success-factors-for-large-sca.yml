@@ -4,7 +4,7 @@ name: 'Casper Lassenius, Karina Dikert, and Maria Paasivaara — Challenges and 
 type: article
 summary: 'Dikert, Karina, Maria Paasivaara, and Casper Lassenius. "Challenges and
   Success Factors for Large-Scale Agile Transformations: A Systematic Literature Review."
-  *Journal of Systems and Software* 119 (2016): 87-108.'
+  Journal of Systems and Software 119 (2016): 87-108.'
 concepts:
 - agile
 patterns: []
@@ -13,14 +13,10 @@ relatedBooks:
 title: 'Challenges and Success Factors for Large-Scale Agile Transformations: A Systematic
   Literature Review.'
 creatorNames:
-- Casper Lassenius
-- Karina Dikert
-- Maria Paasivaara
+- Casper Lassenius, Karina Dikert, and Maria Paasivaara
 creatorSlugs:
-- casper-lassenius
-- karina-dikert
-- maria-paasivaara
+- casper-lassenius-karina-dikert-and-maria-paasivaara
 citation: 'Dikert, Karina, Maria Paasivaara, and Casper Lassenius. "Challenges and
   Success Factors for Large-Scale Agile Transformations: A Systematic Literature Review."
-  *Journal of Systems and Software* 119 (2016): 87-108.'
+  Journal of Systems and Software 119 (2016): 87-108.'
 sourceKind: article

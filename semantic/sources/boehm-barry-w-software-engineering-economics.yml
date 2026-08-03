@@ -1,8 +1,8 @@
 slug: boehm-barry-w-software-engineering-economics
 name: Barry W Boehm — Software Engineering Economics
 type: book
-summary: 'Boehm, Barry W. *Software Engineering Economics*. Englewood Cliffs, NJ:
-  Prentice-Hall, 1981.'
+summary: 'Boehm, Barry W. Software Engineering Economics. Englewood Cliffs, NJ: Prentice-Hall,
+  1981.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -12,7 +12,7 @@ creatorNames:
 - Barry W Boehm
 creatorSlugs:
 - barry-w-boehm
-citation: 'Boehm, Barry W. *Software Engineering Economics*. Englewood Cliffs, NJ:
-  Prentice-Hall, 1981.'
+citation: 'Boehm, Barry W. Software Engineering Economics. Englewood Cliffs, NJ: Prentice-Hall,
+  1981.'
 sourceKind: book
 year: 1981

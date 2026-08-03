@@ -2,8 +2,8 @@ slug: alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-lan
 name: 'Alexander, Christopher, Sara Ishikawa, Murray Silverstein, et al — A Pattern
   Language: Towns, Buildings, Construction'
 type: book
-summary: 'Alexander, Christopher, Sara Ishikawa, Murray Silverstein, et al. *A Pattern
-  Language: Towns, Buildings, Construction*. New York: Oxford University Press, 1977.'
+summary: 'Alexander, Christopher, Sara Ishikawa, Murray Silverstein, et al. A Pattern
+  Language: Towns, Buildings, Construction. New York: Oxford University Press, 1977.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -12,9 +12,9 @@ title: 'A Pattern Language: Towns, Buildings, Construction'
 creatorNames:
 - Alexander, Christopher, Sara Ishikawa, Murray Silverstein, et al
 creatorSlugs:
-- christopher-alexander
-citation: 'Alexander, Christopher, Sara Ishikawa, Murray Silverstein, et al. *A Pattern
-  Language: Towns, Buildings, Construction*. New York: Oxford University Press, 1977.'
+- alexander-christopher-sara-ishikawa-murray-silverstein-et-al
+citation: 'Alexander, Christopher, Sara Ishikawa, Murray Silverstein, et al. A Pattern
+  Language: Towns, Buildings, Construction. New York: Oxford University Press, 1977.'
 sourceKind: book
 year: 1977
 publisher: Oxford University Press

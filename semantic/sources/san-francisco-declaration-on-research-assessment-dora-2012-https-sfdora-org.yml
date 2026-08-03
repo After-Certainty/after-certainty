@@ -7,9 +7,9 @@ patterns: []
 relatedBooks:
 - when-incentives-become-the-moral-language
 creatorNames:
-- DORA (San Francisco Declaration on Research Assessment)
+- DORA
 creatorSlugs:
-- declaration-on-research-assessment
+- dora
 citation: San Francisco Declaration on Research Assessment (DORA). 2012. https://sfdora.org/.
 sourceKind: book
 title: San Francisco Declaration on Research Assessment

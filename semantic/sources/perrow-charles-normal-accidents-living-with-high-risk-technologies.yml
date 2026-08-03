@@ -1,8 +1,8 @@
 slug: perrow-charles-normal-accidents-living-with-high-risk-technologies
 name: 'Charles Perrow — Normal Accidents: Living with High-Risk Technologies'
 type: book
-summary: 'Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*.
-  New York: Basic Books, 1984.'
+summary: 'Perrow, Charles. Normal Accidents: Living with High-Risk Technologies. New
+  York: Basic Books, 1984.'
 concepts:
 - meaning
 patterns: []
@@ -17,7 +17,7 @@ creatorNames:
 - Charles Perrow
 creatorSlugs:
 - charles-perrow
-citation: 'Perrow, Charles. *Normal Accidents: Living with High-Risk Technologies*.
+citation: 'Perrow, Charles. Normal Accidents: Living with High-Risk Technologies.
   New York: Basic Books, 1984.'
 sourceKind: book
 year: 1984

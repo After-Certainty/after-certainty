@@ -1,8 +1,8 @@
 slug: habermas-j-rgen-the-theory-of-communicative-action
 name: Jürgen Habermas — The Theory of Communicative Action
 type: book
-summary: 'Habermas, Jürgen. *The Theory of Communicative Action*. Vol. 1, *Reason
-  and the Rationalization of Society*. Boston: Beacon Press, 1984.'
+summary: 'Habermas, Jürgen. The Theory of Communicative Action. Vol. 1, Reason and
+  the Rationalization of Society. Boston: Beacon Press, 1984.'
 concepts: []
 patterns: []
 relatedBooks: []
@@ -10,9 +10,9 @@ title: The Theory of Communicative Action
 creatorNames:
 - Jürgen Habermas
 creatorSlugs:
-- jurgen-habermas
-citation: 'Habermas, Jürgen. *The Theory of Communicative Action*. Vol. 1, *Reason
-  and the Rationalization of Society*. Boston: Beacon Press, 1984.'
+- j-rgen-habermas
+citation: 'Habermas, Jürgen. The Theory of Communicative Action. Vol. 1, Reason and
+  the Rationalization of Society. Boston: Beacon Press, 1984.'
 sourceKind: book
 year: 1984
 publisher: Beacon Press

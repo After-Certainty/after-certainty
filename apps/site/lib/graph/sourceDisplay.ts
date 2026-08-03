@@ -3,8 +3,14 @@ import { getThinkerBySlug } from "@/lib/graph/graphQueries";
 import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
 import type { SemanticGraph, Source, Thinker } from "@/types/semanticGraph";
 
+/** Strip Chicago-style ``*italic*`` markers (mirrors tools/source_metadata.strip_markdown_italics). */
+export function stripMarkdownItalics(text: string): string {
+  return text.replace(/\*([^*]+)\*/g, "$1").trim();
+}
+
 export function sourceDisplayTitle(source: Source): string {
-  return source.title?.trim() || source.name;
+  const raw = source.title?.trim() || source.name;
+  return stripMarkdownItalics(raw);
 }
 
 export function sourceDisplayLabel(source: Source): string {
@@ -13,7 +19,8 @@ export function sourceDisplayLabel(source: Source): string {
 }
 
 export function sourceDisplayBody(source: Source): string | undefined {
-  return source.citation?.trim() || source.summary?.trim() || undefined;
+  const raw = source.citation?.trim() || source.summary?.trim() || undefined;
+  return raw ? stripMarkdownItalics(raw) : undefined;
 }
 
 export function sourceCreatorThinkerLinks(graph: SemanticGraph, source: Source): Thinker[] {

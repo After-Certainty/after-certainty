@@ -1,8 +1,8 @@
 slug: sch-n-donald-a-the-reflective-practitioner-how-professionals-think
 name: 'Donald A Schön — The Reflective Practitioner: How Professionals Think'
 type: book
-summary: 'Schön, Donald A. *The Reflective Practitioner: How Professionals Think in
-  Action*. New York: Basic Books, 1983.'
+summary: 'Schön, Donald A. The Reflective Practitioner: How Professionals Think in
+  Action. New York: Basic Books, 1983.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -11,9 +11,9 @@ title: 'The Reflective Practitioner: How Professionals Think'
 creatorNames:
 - Donald A Schön
 creatorSlugs:
-- donald-a-schon
-citation: 'Schön, Donald A. *The Reflective Practitioner: How Professionals Think
-  in Action*. New York: Basic Books, 1983.'
+- donald-a-sch-n
+citation: 'Schön, Donald A. The Reflective Practitioner: How Professionals Think in
+  Action. New York: Basic Books, 1983.'
 sourceKind: book
 year: 1983
 publisher: Basic Books

@@ -1,7 +1,7 @@
 slug: isaacson-walter-steve-jobs
 name: Walter Isaacson — Steve Jobs
 type: book
-summary: 'Isaacson, Walter. *Steve Jobs*. New York: Simon & Schuster, 2011.'
+summary: 'Isaacson, Walter. Steve Jobs. New York: Simon & Schuster, 2011.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -11,7 +11,7 @@ creatorNames:
 - Walter Isaacson
 creatorSlugs:
 - walter-isaacson
-citation: 'Isaacson, Walter. *Steve Jobs*. New York: Simon & Schuster, 2011.'
+citation: 'Isaacson, Walter. Steve Jobs. New York: Simon & Schuster, 2011.'
 sourceKind: book
 year: 2011
 publisher: Simon & Schuster

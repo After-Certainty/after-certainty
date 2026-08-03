@@ -1,7 +1,7 @@
 slug: popper-karl-the-open-society-and-its-enemies
-name: "Karl Popper \u2014 The Open Society and Its Enemies"
+name: Karl Popper — The Open Society and Its Enemies
 type: book
-summary: 'Popper, Karl. *The Open Society and Its Enemies*. London: Routledge, 1945.'
+summary: 'Popper, Karl. The Open Society and Its Enemies. London: Routledge, 1945.'
 concepts: []
 patterns: []
 relatedBooks: []
@@ -9,8 +9,8 @@ title: The Open Society and Its Enemies
 creatorNames:
 - Karl Popper
 creatorSlugs:
-- karl-r-popper
-citation: 'Popper, Karl. *The Open Society and Its Enemies*. London: Routledge, 1945.'
+- karl-popper
+citation: 'Popper, Karl. The Open Society and Its Enemies. London: Routledge, 1945.'
 sourceKind: book
 year: 1945
 publisher: Routledge

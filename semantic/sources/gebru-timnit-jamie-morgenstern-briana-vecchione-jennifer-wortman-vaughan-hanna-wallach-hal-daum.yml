@@ -3,30 +3,19 @@ name: Briana Vecchione, Hal Daumé III, Hanna Wallach, Jamie Morgenstern, Jennif
   Wortman Vaughan, Kate Crawford, and Timnit Gebru — Datasheets for Datasets.
 type: article
 summary: 'Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan,
-  Hanna Wallach, Hal Daumé III, and Kate Crawford. "Datasheets for Datasets." *Communications
-  of the ACM* 64, no. 12 (2021): 86-92.'
+  Hanna Wallach, Hal Daumé III, and Kate Crawford. "Datasheets for Datasets." Communications
+  of the ACM 64, no. 12 (2021): 86-92.'
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 title: Datasheets for Datasets.
 creatorNames:
-- Briana Vecchione
-- Hal Daumé III
-- Hanna Wallach
-- Jamie Morgenstern
-- Jennifer Wortman Vaughan
-- Kate Crawford
-- Timnit Gebru
+- Briana Vecchione, Hal Daumé III, Hanna Wallach, Jamie Morgenstern, Jennifer Wortman
+  Vaughan, Kate Crawford, and Timnit Gebru
 creatorSlugs:
-- briana-vecchione
-- hal-daume-iii
-- hanna-wallach
-- jamie-morgenstern
-- jennifer-wortman-vaughan
-- kate-crawford
-- timnit-gebru
+- briana-vecchione-hal-daum-iii-hanna-wallach-jamie-morgenstern-jennifer-wortman-vaughan-kate-crawford-and-timnit-gebru
 citation: 'Gebru, Timnit, Jamie Morgenstern, Briana Vecchione, Jennifer Wortman Vaughan,
-  Hanna Wallach, Hal Daumé III, and Kate Crawford. "Datasheets for Datasets." *Communications
-  of the ACM* 64, no. 12 (2021): 86-92.'
+  Hanna Wallach, Hal Daumé III, and Kate Crawford. "Datasheets for Datasets." Communications
+  of the ACM 64, no. 12 (2021): 86-92.'
 sourceKind: dataset

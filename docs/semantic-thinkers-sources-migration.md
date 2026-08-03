@@ -42,7 +42,7 @@ Optional fields: `citationOnly`, `aliases`, `formerSlugs`, `canonicalSlug` (exam
   "slug": "arendt-hannah-between-past-and-future",
   "name": "Hannah Arendt — Between Past and Future",
   "type": "book",
-  "summary": "Arendt, Hannah. *Between Past and Future*. New York: Penguin Books, 2006.",
+  "summary": "Arendt, Hannah. Between Past and Future. New York: Penguin Books, 2006.",
   "concepts": [],
   "patterns": [],
   "relatedBooks": ["book-living-in-sediment"]
@@ -71,7 +71,7 @@ Canonical YAML lives in [`semantic/sources/`](../semantic/sources/) (~411 files)
 | `creatorNames` | People or institutions behind the work | `["Hannah Arendt"]` |
 | `creatorSlugs` | Stable thinker keys for site grouping | `["hannah-arendt"]` |
 | `title` | Work title (separate from author) | `Between Past and Future` |
-| `citation` | Full bibliography string | Chicago-style line (prefer over `summary` for display when set) |
+| `citation` | Full bibliography string | Plain Chicago-style line (no markdown italics; prefer over `summary` for display when set) |
 | `year` | Publication year | `2006` |
 | `publisher` | Publisher or issuing body | `Penguin Books` |
 | `institution` | Institutional author when distinct | `World Bank` |
@@ -83,6 +83,7 @@ Canonical YAML lives in [`semantic/sources/`](../semantic/sources/) (~411 files)
 - Keep legacy `type` (`book` / `article`) for backward compatibility; prefer `sourceKind` when present.
 - Keep `summary` required; backfill may copy `summary` → `citation` until editors split abstract vs bibliography.
 - Keep `name` as required display fallback (`"Author — Title"`).
+- Store plain-text bibliography strings in `summary` / `citation` / display `name` — strip Chicago markdown italics (`*Title*`) at extract and enrich time. Manuscript bibliographies keep markdown; semantic YAML and the Explore UI do not.
 
 ### Slug conventions
 
@@ -105,10 +106,10 @@ creatorNames:
 creatorSlugs:
   - hannah-arendt
 title: Between Past and Future
-citation: 'Arendt, Hannah. *Between Past and Future*. New York: Penguin Books, 2006.'
+citation: 'Arendt, Hannah. Between Past and Future. New York: Penguin Books, 2006.'
 year: 2006
 publisher: Penguin Books
-summary: 'Arendt, Hannah. *Between Past and Future*. New York: Penguin Books, 2006.'
+summary: 'Arendt, Hannah. Between Past and Future. New York: Penguin Books, 2006.'
 concepts: []
 patterns: []
 relatedBooks:

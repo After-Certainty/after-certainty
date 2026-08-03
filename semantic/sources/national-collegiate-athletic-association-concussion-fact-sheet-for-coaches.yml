@@ -1,7 +1,8 @@
 slug: national-collegiate-athletic-association-concussion-fact-sheet-for-coaches
 name: National Collegiate Athletic Association — Concussion Fact Sheet for Coaches
 type: article
-summary: National Collegiate Athletic Association. "Concussion Fact Sheet for Coaches." http://fs.ncaa.org/Docs/health_safety/ConFactSheetcoaches.pdf.
+summary: National Collegiate Athletic Association. "Concussion Fact Sheet for Coaches."
+  http://fs.ncaa.org/Docs/health_safety/ConFactSheetcoaches.pdf.
 concepts: []
 patterns: []
 relatedBooks:
@@ -11,5 +12,6 @@ creatorNames:
 - National Collegiate Athletic Association
 creatorSlugs:
 - national-collegiate-athletic-association
-citation: National Collegiate Athletic Association. "Concussion Fact Sheet for Coaches." http://fs.ncaa.org/Docs/health_safety/ConFactSheetcoaches.pdf.
-sourceKind: institutional_document
+citation: National Collegiate Athletic Association. "Concussion Fact Sheet for Coaches."
+  http://fs.ncaa.org/Docs/health_safety/ConFactSheetcoaches.pdf.
+sourceKind: article

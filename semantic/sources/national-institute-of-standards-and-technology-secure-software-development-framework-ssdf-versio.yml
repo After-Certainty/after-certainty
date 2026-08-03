@@ -3,9 +3,9 @@ name: 'National Institute of Standards and Technology — Secure Software Develo
   Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software
   Vulnerabilities'
 type: book
-summary: 'National Institute of Standards and Technology. *Secure Software Development
+summary: 'National Institute of Standards and Technology. Secure Software Development
   Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software
-  Vulnerabilities*. NIST SP 800-218. 2022. https://csrc.nist.gov/pubs/sp/800/218/final.'
+  Vulnerabilities. NIST SP 800-218. 2022. https://csrc.nist.gov/pubs/sp/800/218/final.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -16,8 +16,8 @@ creatorNames:
 - National Institute of Standards and Technology
 creatorSlugs:
 - national-institute-of-standards-and-technology
-citation: 'National Institute of Standards and Technology. *Secure Software Development
+citation: 'National Institute of Standards and Technology. Secure Software Development
   Framework (SSDF) Version 1.1: Recommendations for Mitigating the Risk of Software
-  Vulnerabilities*. NIST SP 800-218. 2022. https://csrc.nist.gov/pubs/sp/800/218/final.'
-sourceKind: standard
+  Vulnerabilities. NIST SP 800-218. 2022. https://csrc.nist.gov/pubs/sp/800/218/final.'
+sourceKind: institutional_document
 institution: National Institute of Standards and Technology

@@ -1,7 +1,8 @@
 slug: united-states-supreme-court-clay-v-united-states
 name: United States Supreme Court — Clay v. United States
 type: article
-summary: United States Supreme Court. "Clay v. United States." 403 U.S. 698 (1971). https://www.oyez.org/cases/1970/783.
+summary: United States Supreme Court. "Clay v. United States." 403 U.S. 698 (1971).
+  https://www.oyez.org/cases/1970/783.
 concepts: []
 patterns: []
 relatedBooks:
@@ -11,6 +12,7 @@ creatorNames:
 - United States Supreme Court
 creatorSlugs:
 - united-states-supreme-court
-citation: United States Supreme Court. "Clay v. United States." 403 U.S. 698 (1971). https://www.oyez.org/cases/1970/783.
-sourceKind: case
+citation: United States Supreme Court. "Clay v. United States." 403 U.S. 698 (1971).
+  https://www.oyez.org/cases/1970/783.
+sourceKind: article
 year: 1971

@@ -1,7 +1,7 @@
 slug: brooks-frederick-p-jr-the-mythical-man-month-essays-on-software-engineering
 name: 'Frederick P. Brooks Jr. — The Mythical Man-Month: Essays on Software Engineering'
 type: book
-summary: 'Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering*.
+summary: 'Brooks, Frederick P., Jr. The Mythical Man-Month: Essays on Software Engineering.
   Anniversary ed. Boston: Addison-Wesley, 1995.'
 concepts: []
 patterns: []
@@ -11,8 +11,8 @@ title: 'The Mythical Man-Month: Essays on Software Engineering'
 creatorNames:
 - Frederick P. Brooks Jr.
 creatorSlugs:
-- brooks-frederick-p-jr
-citation: 'Brooks, Frederick P., Jr. *The Mythical Man-Month: Essays on Software Engineering*.
+- frederick-p-brooks-jr
+citation: 'Brooks, Frederick P., Jr. The Mythical Man-Month: Essays on Software Engineering.
   Anniversary ed. Boston: Addison-Wesley, 1995.'
 sourceKind: book
 year: 1995

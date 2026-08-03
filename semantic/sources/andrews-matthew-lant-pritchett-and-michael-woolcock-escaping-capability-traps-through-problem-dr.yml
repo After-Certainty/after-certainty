@@ -3,7 +3,7 @@ name: Lant Pritchett, Matthew Andrews, and Michael Woolcock — Escaping Capabil
   Traps Through Problem Driven Iterative Adaptation (PDIA).
 type: article
 summary: 'Andrews, Matthew, Lant Pritchett, and Michael Woolcock. "Escaping Capability
-  Traps Through Problem Driven Iterative Adaptation (PDIA)." *World Development* 51
+  Traps Through Problem Driven Iterative Adaptation (PDIA)." World Development 51
   (2013): 234-244. https://doi.org/10.1016/j.worlddev.2013.05.011.'
 concepts: []
 patterns: []
@@ -11,14 +11,10 @@ relatedBooks:
 - coupling
 title: Escaping Capability Traps Through Problem Driven Iterative Adaptation (PDIA).
 creatorNames:
-- Lant Pritchett
-- Matthew Andrews
-- Michael Woolcock
+- Lant Pritchett, Matthew Andrews, and Michael Woolcock
 creatorSlugs:
-- lant-pritchett
-- matthew-andrews
-- michael-woolcock
+- lant-pritchett-matthew-andrews-and-michael-woolcock
 citation: 'Andrews, Matthew, Lant Pritchett, and Michael Woolcock. "Escaping Capability
-  Traps Through Problem Driven Iterative Adaptation (PDIA)." *World Development* 51
+  Traps Through Problem Driven Iterative Adaptation (PDIA)." World Development 51
   (2013): 234-244. https://doi.org/10.1016/j.worlddev.2013.05.011.'
 sourceKind: article

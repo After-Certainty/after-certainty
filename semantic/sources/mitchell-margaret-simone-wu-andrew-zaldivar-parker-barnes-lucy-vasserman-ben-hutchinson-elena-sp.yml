@@ -5,35 +5,20 @@ name: Andrew Zaldivar, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Luc
 type: article
 summary: Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
   Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "Model Cards
-  for Model Reporting." *Proceedings of the Conference on Fairness, Accountability,
-  and Transparency (FAccT)*, 220-229. https://doi.org/10.1145/3287560.3287596.
+  for Model Reporting." Proceedings of the Conference on Fairness, Accountability,
+  and Transparency (FAccT), 220-229. https://doi.org/10.1145/3287560.3287596.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 title: Model Cards for Model Reporting.
 creatorNames:
-- Andrew Zaldivar
-- Ben Hutchinson
-- Elena Spitzer
-- Inioluwa Deborah Raji
-- Lucy Vasserman
-- Margaret Mitchell
-- Parker Barnes
-- Simone Wu
-- Timnit Gebru
+- Andrew Zaldivar, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Lucy Vasserman,
+  Margaret Mitchell, Parker Barnes, Simone Wu, and Timnit Gebru
 creatorSlugs:
-- andrew-zaldivar
-- ben-hutchinson
-- elena-spitzer
-- inioluwa-deborah-raji
-- lucy-vasserman
-- margaret-mitchell
-- parker-barnes
-- simone-wu
-- timnit-gebru
+- andrew-zaldivar-ben-hutchinson-elena-spitzer-inioluwa-deborah-raji-lucy-vasserman-margaret-mitchell-parker-barnes-simone-wu-and-timnit-gebru
 citation: Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman,
   Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "Model Cards
-  for Model Reporting." *Proceedings of the Conference on Fairness, Accountability,
-  and Transparency (FAccT)*, 220-229. https://doi.org/10.1145/3287560.3287596.
+  for Model Reporting." Proceedings of the Conference on Fairness, Accountability,
+  and Transparency (FAccT), 220-229. https://doi.org/10.1145/3287560.3287596.
 sourceKind: article

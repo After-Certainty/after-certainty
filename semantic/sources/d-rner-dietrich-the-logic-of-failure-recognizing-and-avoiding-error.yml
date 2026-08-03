@@ -1,8 +1,8 @@
 slug: d-rner-dietrich-the-logic-of-failure-recognizing-and-avoiding-error
 name: 'Dietrich Dörner — The Logic of Failure: Recognizing and Avoiding Error'
 type: book
-summary: 'Dörner, Dietrich. *The Logic of Failure: Recognizing and Avoiding Error
-  in Complex Situations*. New York: Basic Books, 1996.'
+summary: 'Dörner, Dietrich. The Logic of Failure: Recognizing and Avoiding Error in
+  Complex Situations. New York: Basic Books, 1996.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -11,9 +11,9 @@ title: 'The Logic of Failure: Recognizing and Avoiding Error'
 creatorNames:
 - Dietrich Dörner
 creatorSlugs:
-- dietrich-dorner
-citation: 'Dörner, Dietrich. *The Logic of Failure: Recognizing and Avoiding Error
-  in Complex Situations*. New York: Basic Books, 1996.'
+- dietrich-d-rner
+citation: 'Dörner, Dietrich. The Logic of Failure: Recognizing and Avoiding Error
+  in Complex Situations. New York: Basic Books, 1996.'
 sourceKind: book
 year: 1996
 publisher: Basic Books

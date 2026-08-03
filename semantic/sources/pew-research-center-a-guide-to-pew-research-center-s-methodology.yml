@@ -1,8 +1,7 @@
 slug: pew-research-center-a-guide-to-pew-research-center-s-methodology
-name: Pew Research Center — A Guide to Pew Research Center's Methodology — A Guide
-  to Pew Research Center's Methodology
+name: Pew Research Center — A Guide to Pew Research Center's Methodology
 type: book
-summary: Pew Research Center. *A Guide to Pew Research Center's Methodology*. https://www.pewresearch.org/.
+summary: Pew Research Center. A Guide to Pew Research Center's Methodology. https://www.pewresearch.org/.
 concepts: []
 patterns: []
 relatedBooks:
@@ -12,5 +11,5 @@ creatorNames:
 - Pew Research Center
 creatorSlugs:
 - pew-research-center
-citation: Pew Research Center. *A Guide to Pew Research Center's Methodology*. https://www.pewresearch.org/.
+citation: Pew Research Center. A Guide to Pew Research Center's Methodology. https://www.pewresearch.org/.
 sourceKind: book

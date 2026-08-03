@@ -1,7 +1,7 @@
 slug: fowler-martin-refactoring-improving-the-design-of-existing-code
 name: 'Martin Fowler — Refactoring: Improving the Design of Existing Code'
 type: book
-summary: 'Fowler, Martin. *Refactoring: Improving the Design of Existing Code*. 2nd
+summary: 'Fowler, Martin. Refactoring: Improving the Design of Existing Code. 2nd
   ed. Boston: Addison-Wesley, 2019.'
 concepts: []
 patterns: []
@@ -12,7 +12,7 @@ creatorNames:
 - Martin Fowler
 creatorSlugs:
 - martin-fowler
-citation: 'Fowler, Martin. *Refactoring: Improving the Design of Existing Code*. 2nd
+citation: 'Fowler, Martin. Refactoring: Improving the Design of Existing Code. 2nd
   ed. Boston: Addison-Wesley, 2019.'
 sourceKind: book
 year: 2019
