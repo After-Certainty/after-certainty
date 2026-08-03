@@ -57,6 +57,24 @@ test.describe("Curated Reading Trails", () => {
     await expect(page).toHaveURL("/trails/software-judgment-trail");
   });
 
+  test("trail detail collapses related trails on mobile", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/trails/systems-without-correction");
+
+    await expect(
+      page.getByRole("heading", { name: "Systems That Cannot Correct Themselves", level: 1 }),
+    ).toBeVisible();
+    await expect(page.locator('[data-path-stop-density="compact"]').first()).toBeVisible();
+    const relatedToggle = page.getByRole("button", { name: /Related trails/i });
+    await expect(relatedToggle).toBeVisible();
+    await expect(relatedToggle).toHaveAttribute("aria-expanded", "false");
+    await relatedToggle.click();
+    await expect(relatedToggle).toHaveAttribute("aria-expanded", "true");
+    await expect(
+      page.getByRole("link", { name: /After Certainty for Software Engineers/i }),
+    ).toBeVisible();
+  });
+
   test("theme filter narrows trails index", async ({ page }) => {
     await page.goto("/trails?theme=judgment");
     await expect(page.getByRole("navigation", { name: "Trail themes" })).toBeVisible();

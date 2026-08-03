@@ -44,9 +44,9 @@ export function PathStopList({
       : null;
 
   return (
-    <div className="mt-10">
+    <div className="mt-6 md:mt-10">
       {lastStopPosition != null ? (
-        <div className="mb-6 flex flex-wrap items-center gap-4 rounded-sm border border-border/50 bg-bg-elevated/30 px-4 py-3 text-sm text-muted">
+        <div className="mb-4 flex flex-wrap items-center gap-4 rounded-sm border border-border/50 bg-bg-elevated/30 px-4 py-3 text-sm text-muted md:mb-6">
           <p>
             {completed
               ? "You previously finished this path."
@@ -73,7 +73,7 @@ export function PathStopList({
           </button>
         </div>
       ) : null}
-      <ol className="list-none space-y-5 p-0">
+      <ol className="list-none space-y-4 p-0 md:space-y-5">
         {sortedStops.map((stop, index) => {
           const stopIndex = index + 1;
           const visited = lastStopPosition != null && stop.position <= lastStopPosition;
