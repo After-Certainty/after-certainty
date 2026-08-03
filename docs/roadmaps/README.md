@@ -1,6 +1,6 @@
 # Roadmaps and planning documents
 
-**Last audited:** 2026-08-03 (explore discovery mobile plan added)
+**Last audited:** 2026-08-03 (explore discovery mobile plan: Phase 1b filter+sort)
 
 This index orients agents and maintainers. It is **not** a backlog.
 
@@ -31,7 +31,7 @@ This index orients agents and maintainers. It is **not** a backlog.
 
 | Path | Topic | Classification |
 |------|-------|----------------|
-| [`apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`](../../apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md) | Concepts, thinkers, sources, situations, questions, trails mobile UX redesign | **active-specialized-site-plan** (Phases 0–6 planned) |
+| [`apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`](../../apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md) | Concepts, thinkers, sources, situations, questions, trails mobile UX (+ thinkers/sources filter+sort) | **active-specialized-site-plan** (Phases 0–6 + Phase 1b planned) |
 | [`apps/site/docs/roadmaps/patterns-mobile-redesign.md`](../../apps/site/docs/roadmaps/patterns-mobile-redesign.md) | Patterns index + Pattern detail mobile UX redesign | **complete-specialized-site-plan** (Phases 1–6) |
 | [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md) | Books index, shelves, detail, native reader UX redesign | **complete-specialized-site-plan** (A–G; deferred highlights / visual-regression / Safari manual checks) |
 
