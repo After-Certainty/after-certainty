@@ -34,7 +34,7 @@ export function CompactBookRow({
   coverImage: coverImageProp,
   eyebrow = "Book",
   showDescription = true,
-  ctaLabel = "View book →",
+  ctaLabel = "View book",
   className = "",
 }: CompactBookRowProps) {
   const resolved = resolveBookCover(book, "thumbnail");

@@ -16,7 +16,7 @@ const socialIconClass =
   "inline-flex min-h-11 min-w-11 items-center justify-center rounded-md p-2 text-muted transition-colors duration-200 ease-out hover:bg-border/50 hover:text-accent focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent/60";
 
 const footerNavLinkClass =
-  "inline-flex min-h-11 items-center gap-1.5 text-sm text-fg transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:min-h-0";
+  "flex min-h-11 max-w-full items-center gap-1.5 text-left text-sm leading-snug text-fg transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:min-h-0";
 
 export async function SiteFooter() {
   const semanticGraph = await getSemanticGraph();
@@ -59,12 +59,12 @@ export async function SiteFooter() {
             <p className="text-[10px] uppercase tracking-[0.25em] text-muted md:text-xs">Together</p>
             <ul className="mt-2 grid grid-cols-2 gap-x-3 gap-y-0 md:mt-4 md:block md:space-y-3">
               {footerLinks.map((link) => (
-                <li key={link.href}>
+                <li key={link.href} className="min-w-0">
                   <Link className={footerNavLinkClass} href={link.href}>
                     {link.href === podcastRssHref ? (
-                      <SiteIcon icon={RssIcon} size="sm" className="text-muted" />
+                      <SiteIcon icon={RssIcon} size="sm" className="shrink-0 text-muted" />
                     ) : null}
-                    {link.label}
+                    <span className="min-w-0 break-words [overflow-wrap:anywhere]">{link.label}</span>
                   </Link>
                 </li>
               ))}

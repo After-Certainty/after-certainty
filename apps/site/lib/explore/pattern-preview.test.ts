@@ -89,4 +89,21 @@ describe("patternPreviewFields", () => {
     expect(fields.secondaryLabel).toBeNull();
     expect(fields.secondary).toBeNull();
   });
+
+  it("degrades for meaning-forms-early-shaped thin metadata (no problem/observation)", () => {
+    const fields = patternPreviewFields(
+      pattern({
+        id: "4",
+        slug: "meaning-forms-early",
+        title: "Meaning Forms Early",
+        setup: "Meaning consolidates before the frame is tested.",
+        summary: "Composed summary from setup and example only.",
+        counterbalances: ["Keep revising the frame against contact."],
+      }),
+    );
+    // Preview prefers observation → problem → summary (setup is at-a-glance only).
+    expect(fields.description).toContain("Composed summary");
+    expect(fields.secondaryLabel).toBe("Counterbalance");
+    expect(fields.secondary).toContain("revising the frame");
+  });
 });

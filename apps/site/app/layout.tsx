@@ -53,7 +53,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="flex min-h-full flex-col antialiased" suppressHydrationWarning>
+      <body className="flex min-h-full flex-col overflow-x-clip antialiased" suppressHydrationWarning>
         <ConsentProvider>
           <ThemeProvider>
             <SiteShell>{children}</SiteShell>
