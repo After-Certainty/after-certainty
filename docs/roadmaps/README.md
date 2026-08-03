@@ -1,6 +1,6 @@
 # Roadmaps and planning documents
 
-**Last audited:** 2026-08-03 (explore discovery mobile redesign complete, Phases 0–6)
+**Last audited:** 2026-08-03 (provider-neutral TTS roadmap revision; explore discovery mobile redesign complete, Phases 0–6)
 
 This index orients agents and maintainers. It is **not** a backlog.
 
@@ -27,11 +27,11 @@ This index orients agents and maintainers. It is **not** a backlog.
 |------|-------|----------------|
 | [`remaining-product-roadmap.md`](remaining-product-roadmap.md) | Remaining cross-layer product, corpus, ops work | **active-authoritative-roadmap** |
 
-### Active specialized site plans
+### Active specialized plans
 
 | Path | Topic | Classification |
 |------|-------|----------------|
-| *(none)* | — | — |
+| [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) | Provider-neutral chapter TTS for native reader (ElevenLabs first adapter; credit/usage-bounded pilot) | **active-specialized-plan** (Phases 0–8 not started) |
 
 ### Complete specialized site plans
 
