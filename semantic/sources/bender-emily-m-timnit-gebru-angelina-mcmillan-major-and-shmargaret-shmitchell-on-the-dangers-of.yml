@@ -4,25 +4,19 @@ name: 'Angelina McMillan-Major, Emily M. Bender, Shmargaret Shmitchell, and Timn
 type: article
 summary: 'Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret
   Shmitchell. "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
-  *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency
-  (FAccT)*, 610-623. https://doi.org/10.1145/3442188.3445922.'
+  Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency
+  (FAccT), 610-623. https://doi.org/10.1145/3442188.3445922.'
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 title: 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?'
 creatorNames:
-- Angelina McMillan-Major
-- Emily M. Bender
-- Shmargaret Shmitchell
-- Timnit Gebru
+- Angelina McMillan-Major, Emily M. Bender, Shmargaret Shmitchell, and Timnit Gebru
 creatorSlugs:
-- angelina-mcmillan-major
-- emily-m-bender
-- shmargaret-shmitchell
-- timnit-gebru
+- angelina-mcmillan-major-emily-m-bender-shmargaret-shmitchell-and-timnit-gebru
 citation: 'Bender, Emily M., Timnit Gebru, Angelina McMillan-Major, and Shmargaret
   Shmitchell. "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
-  *Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency
-  (FAccT)*, 610-623. https://doi.org/10.1145/3442188.3445922.'
+  Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency
+  (FAccT), 610-623. https://doi.org/10.1145/3442188.3445922.'
 sourceKind: article

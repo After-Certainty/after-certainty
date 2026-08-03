@@ -2,21 +2,19 @@ slug: acemoglu-daron-and-james-a-robinson-why-nations-fail-the-origins-of-power
 name: 'Daron Acemoglu and James A. Robinson — Why Nations Fail: The Origins of Power,
   Prosperity, and Poverty'
 type: book
-summary: 'Acemoglu, Daron, and James A. Robinson. *Why Nations Fail: The Origins of
-  Power, Prosperity, and Poverty*. New York: Crown, 2012.'
+summary: 'Acemoglu, Daron, and James A. Robinson. Why Nations Fail: The Origins of
+  Power, Prosperity, and Poverty. New York: Crown, 2012.'
 concepts: []
 patterns: []
 relatedBooks:
 - living-in-sediment
 title: 'Why Nations Fail: The Origins of Power, Prosperity, and Poverty'
 creatorNames:
-- Daron Acemoglu
-- James A. Robinson
+- Daron Acemoglu and James A. Robinson
 creatorSlugs:
-- daron-acemoglu
-- james-a-robinson
-citation: 'Acemoglu, Daron, and James A. Robinson. *Why Nations Fail: The Origins
-  of Power, Prosperity, and Poverty*. New York: Crown, 2012.'
+- daron-acemoglu-and-james-a-robinson
+citation: 'Acemoglu, Daron, and James A. Robinson. Why Nations Fail: The Origins of
+  Power, Prosperity, and Poverty. New York: Crown, 2012.'
 sourceKind: book
 year: 2012
 publisher: Crown

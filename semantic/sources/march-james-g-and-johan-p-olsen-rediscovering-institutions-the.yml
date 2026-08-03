@@ -1,8 +1,8 @@
 slug: march-james-g-and-johan-p-olsen-rediscovering-institutions-the
 name: 'James G March and Johan P. Olsen — Rediscovering Institutions: The'
 type: book
-summary: 'March, James G., and Johan P. Olsen. *Rediscovering Institutions: The Organizational
-  Basis of Politics*. New York: Free Press, 1989.'
+summary: 'March, James G., and Johan P. Olsen. Rediscovering Institutions: The Organizational
+  Basis of Politics. New York: Free Press, 1989.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -10,13 +10,11 @@ relatedBooks:
 - when-moral-seriousness-scales
 title: 'Rediscovering Institutions: The'
 creatorNames:
-- James G March
-- Johan P. Olsen
+- James G March and Johan P. Olsen
 creatorSlugs:
-- james-g-march
-- johan-p-olsen
-citation: 'March, James G., and Johan P. Olsen. *Rediscovering Institutions: The Organizational
-  Basis of Politics*. New York: Free Press, 1989.'
+- james-g-march-and-johan-p-olsen
+citation: 'March, James G., and Johan P. Olsen. Rediscovering Institutions: The Organizational
+  Basis of Politics. New York: Free Press, 1989.'
 sourceKind: book
 year: 1989
 publisher: Free Press

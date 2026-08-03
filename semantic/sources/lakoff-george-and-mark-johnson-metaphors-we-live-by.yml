@@ -1,7 +1,7 @@
 slug: lakoff-george-and-mark-johnson-metaphors-we-live-by
 name: George Lakoff and Mark Johnson — Metaphors We Live By
 type: book
-summary: 'Lakoff, George, and Mark Johnson. *Metaphors We Live By*. Chicago: University
+summary: 'Lakoff, George, and Mark Johnson. Metaphors We Live By. Chicago: University
   of Chicago Press, 1980.'
 concepts: []
 patterns: []
@@ -9,12 +9,10 @@ relatedBooks:
 - living-in-sediment
 title: Metaphors We Live By
 creatorNames:
-- George Lakoff
-- Mark Johnson
+- George Lakoff and Mark Johnson
 creatorSlugs:
-- george-lakoff
-- mark-johnson
-citation: 'Lakoff, George, and Mark Johnson. *Metaphors We Live By*. Chicago: University
+- george-lakoff-and-mark-johnson
+citation: 'Lakoff, George, and Mark Johnson. Metaphors We Live By. Chicago: University
   of Chicago Press, 1980.'
 sourceKind: book
 year: 1980

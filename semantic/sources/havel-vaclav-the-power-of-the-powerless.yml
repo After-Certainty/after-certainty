@@ -1,7 +1,7 @@
 slug: havel-vaclav-the-power-of-the-powerless
 name: Václav Havel — The Power of the Powerless.
 type: article
-summary: 'Havel, Václav. "The Power of the Powerless." In *Living in Truth*, edited
+summary: 'Havel, Václav. "The Power of the Powerless." In Living in Truth, edited
   by Jan Vladislav, 36–122. London: Faber and Faber, 1986.'
 concepts: []
 patterns: []
@@ -11,8 +11,8 @@ title: The Power of the Powerless.
 creatorNames:
 - Václav Havel
 creatorSlugs:
-- vaclav-havel
-citation: 'Havel, Václav. "The Power of the Powerless." In *Living in Truth*, edited
+- v-clav-havel
+citation: 'Havel, Václav. "The Power of the Powerless." In Living in Truth, edited
   by Jan Vladislav, 36–122. London: Faber and Faber, 1986.'
 sourceKind: article
 year: 1986

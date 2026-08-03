@@ -2,21 +2,19 @@ slug: fahey-liam-and-robert-m-randall-eds-learning-from-the-future
 name: 'Liam Fahey and Robert M. Randall — Learning from the Future: Competitive Foresight
   Scenarios'
 type: book
-summary: 'Fahey, Liam, and Robert M. Randall, eds. *Learning from the Future: Competitive
-  Foresight Scenarios*. New York: Wiley, 1998.'
+summary: 'Fahey, Liam, and Robert M. Randall, eds. Learning from the Future: Competitive
+  Foresight Scenarios. New York: Wiley, 1998.'
 concepts: []
 patterns: []
 relatedBooks:
 - how-serious-systems-learn
 title: 'Learning from the Future: Competitive Foresight Scenarios'
 creatorNames:
-- Liam Fahey
-- Robert M. Randall
+- Liam Fahey and Robert M. Randall
 creatorSlugs:
-- liam-fahey
-- robert-m-randall
-citation: 'Fahey, Liam, and Robert M. Randall, eds. *Learning from the Future: Competitive
-  Foresight Scenarios*. New York: Wiley, 1998.'
+- liam-fahey-and-robert-m-randall
+citation: 'Fahey, Liam, and Robert M. Randall, eds. Learning from the Future: Competitive
+  Foresight Scenarios. New York: Wiley, 1998.'
 sourceKind: book
 year: 1998
 publisher: Wiley

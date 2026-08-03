@@ -5,7 +5,7 @@ name: 'Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania — Me
 type: article
 summary: 'Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania. "Medication
   Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic
-  Review." *Annals of Internal Medicine* 158, no. 5 pt. 2 (2013): 397-403.'
+  Review." Annals of Internal Medicine 158, no. 5 pt. 2 (2013): 397-403.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -13,11 +13,10 @@ relatedBooks:
 title: 'Medication Reconciliation During Transitions of Care as a Patient Safety Strategy:
   A Systematic Review'
 creatorNames:
-- Janice L. Kwan
-- Lisha Lo
-- Margaret Sampson
-- Kaveh G. Shojania
+- Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania
 citation: 'Kwan, Janice L., Lisha Lo, Margaret Sampson, and Kaveh G. Shojania. "Medication
   Reconciliation During Transitions of Care as a Patient Safety Strategy: A Systematic
-  Review." *Annals of Internal Medicine* 158, no. 5 pt. 2 (2013): 397-403.'
+  Review." Annals of Internal Medicine 158, no. 5 pt. 2 (2013): 397-403.'
 sourceKind: article
+creatorSlugs:
+- kwan-janice-l-lisha-lo-margaret-sampson-and-kaveh-g-shojania

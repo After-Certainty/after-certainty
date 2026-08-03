@@ -1,8 +1,9 @@
 slug: occupational-safety-and-health-administration-cranes-and-derricks-in-construction-final-rule
-name: Occupational Safety and Health Administration
+name: 'Occupational Safety and Health Administration — Cranes and Derricks in Construction:
+  Final Rule'
 type: book
-summary: 'Occupational Safety and Health Administration. *Cranes and Derricks in Construction:
-  Final Rule*. 29 CFR Part 1926 Subpart CC. Washington, DC: U.S. Department of Labor,
+summary: 'Occupational Safety and Health Administration. Cranes and Derricks in Construction:
+  Final Rule. 29 CFR Part 1926 Subpart CC. Washington, DC: U.S. Department of Labor,
   2010.'
 concepts: []
 patterns: []
@@ -11,10 +12,12 @@ relatedBooks:
 title: 'Cranes and Derricks in Construction: Final Rule'
 creatorNames:
 - Occupational Safety and Health Administration
-citation: 'Occupational Safety and Health Administration. *Cranes and Derricks in
-  Construction: Final Rule*. 29 CFR Part 1926 Subpart CC. Washington, DC: U.S. Department
-  of Labor, 2010.'
+citation: 'Occupational Safety and Health Administration. Cranes and Derricks in Construction:
+  Final Rule. 29 CFR Part 1926 Subpart CC. Washington, DC: U.S. Department of Labor,
+  2010.'
 sourceKind: institutional_document
 year: 2010
 publisher: U
 institution: Occupational Safety and Health Administration
+creatorSlugs:
+- occupational-safety-and-health-administration

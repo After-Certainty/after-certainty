@@ -2,8 +2,8 @@ slug: tavris-carol-and-elliot-aronson-mistakes-were-made-but-not-by-me
 name: 'Carol Tavris and Elliot Aronson — Mistakes Were Made (But Not by Me): Why We
   Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts'
 type: book
-summary: 'Tavris, Carol, and Elliot Aronson. *Mistakes Were Made (But Not by Me):
-  Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts*. Orlando, FL: Harcourt,
+summary: 'Tavris, Carol, and Elliot Aronson. Mistakes Were Made (But Not by Me): Why
+  We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts. Orlando, FL: Harcourt,
   2007.'
 concepts: []
 patterns: []
@@ -12,13 +12,11 @@ relatedBooks:
 title: 'Mistakes Were Made (But Not by Me): Why We Justify Foolish Beliefs, Bad Decisions,
   and Hurtful Acts'
 creatorNames:
-- Carol Tavris
-- Elliot Aronson
+- Carol Tavris and Elliot Aronson
 creatorSlugs:
-- carol-tavris
-- elliot-aronson
-citation: 'Tavris, Carol, and Elliot Aronson. *Mistakes Were Made (But Not by Me):
-  Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts*. Orlando, FL: Harcourt,
+- carol-tavris-and-elliot-aronson
+citation: 'Tavris, Carol, and Elliot Aronson. Mistakes Were Made (But Not by Me):
+  Why We Justify Foolish Beliefs, Bad Decisions, and Hurtful Acts. Orlando, FL: Harcourt,
   2007.'
 sourceKind: book
 year: 2007

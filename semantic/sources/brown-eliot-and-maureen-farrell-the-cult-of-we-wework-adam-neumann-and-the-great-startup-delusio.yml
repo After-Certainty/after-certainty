@@ -2,21 +2,19 @@ slug: brown-eliot-and-maureen-farrell-the-cult-of-we-wework-adam-neumann-and-the
 name: 'Eliot Brown and Maureen Farrell — The Cult of We: WeWork, Adam Neumann, and
   the Great Startup Delusion'
 type: book
-summary: 'Brown, Eliot, and Maureen Farrell. *The Cult of We: WeWork, Adam Neumann,
-  and the Great Startup Delusion*. New York: Crown, 2021.'
+summary: 'Brown, Eliot, and Maureen Farrell. The Cult of We: WeWork, Adam Neumann,
+  and the Great Startup Delusion. New York: Crown, 2021.'
 concepts: []
 patterns: []
 relatedBooks:
 - when-interpretation-no-longer-matters
 title: 'The Cult of We: WeWork, Adam Neumann, and the Great Startup Delusion'
 creatorNames:
-- Eliot Brown
-- Maureen Farrell
+- Eliot Brown and Maureen Farrell
 creatorSlugs:
-- eliot-brown
-- maureen-farrell
-citation: 'Brown, Eliot, and Maureen Farrell. *The Cult of We: WeWork, Adam Neumann,
-  and the Great Startup Delusion*. New York: Crown, 2021.'
+- eliot-brown-and-maureen-farrell
+citation: 'Brown, Eliot, and Maureen Farrell. The Cult of We: WeWork, Adam Neumann,
+  and the Great Startup Delusion. New York: Crown, 2021.'
 sourceKind: book
 year: 2021
 publisher: Crown

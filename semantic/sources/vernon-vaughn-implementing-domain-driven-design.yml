@@ -1,8 +1,8 @@
 slug: vernon-vaughn-implementing-domain-driven-design
 name: Vaughn Vernon — Implementing Domain-Driven Design
 type: book
-summary: 'Vernon, Vaughn. *Implementing Domain-Driven Design*. Upper Saddle River,
-  NJ: Addison-Wesley, 2013.'
+summary: 'Vernon, Vaughn. Implementing Domain-Driven Design. Upper Saddle River, NJ:
+  Addison-Wesley, 2013.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -12,7 +12,7 @@ creatorNames:
 - Vaughn Vernon
 creatorSlugs:
 - vaughn-vernon
-citation: 'Vernon, Vaughn. *Implementing Domain-Driven Design*. Upper Saddle River,
+citation: 'Vernon, Vaughn. Implementing Domain-Driven Design. Upper Saddle River,
   NJ: Addison-Wesley, 2013.'
 sourceKind: book
 year: 2013

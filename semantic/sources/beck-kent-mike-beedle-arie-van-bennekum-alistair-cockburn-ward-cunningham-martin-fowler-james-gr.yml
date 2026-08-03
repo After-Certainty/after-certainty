@@ -15,41 +15,11 @@ relatedBooks:
 - coupling
 title: Manifesto for Agile Software Development.
 creatorNames:
-- Alistair Cockburn
-- Andrew Hunt
-- Arie van Bennekum
-- Brian Marick
-- Dave Thomas
-- James Grenning
-- Jeff Sutherland
-- Jim Highsmith
-- Jon Kern
-- Ken Schwaber
-- Kent Beck
-- Martin Fowler
-- Mike Beedle
-- Robert C Martin
-- Ron Jeffries
-- Steve Mellor
-- Ward Cunningham
+- Alistair Cockburn, Andrew Hunt, Arie van Bennekum, Brian Marick, Dave Thomas, James
+  Grenning, Jeff Sutherland, Jim Highsmith, Jon Kern, Ken Schwaber, Kent Beck, Martin
+  Fowler, Mike Beedle, Robert C Martin, Ron Jeffries, Steve Mellor, and Ward Cunningham
 creatorSlugs:
-- alistair-cockburn
-- andrew-hunt
-- arie-van-bennekum
-- brian-marick
-- dave-thomas
-- james-grenning
-- jeff-sutherland
-- jim-highsmith
-- jon-kern
-- ken-schwaber
-- kent-beck
-- martin-fowler
-- mike-beedle
-- robert-c-martin
-- ron-jeffries
-- steve-mellor
-- ward-cunningham
+- alistair-cockburn-andrew-hunt-arie-van-bennekum-brian-marick-dave-thomas-james-grenning-jeff-sutherland-jim-highsmith-jon-kern-ken-schwaber-kent-beck-martin-fowler-mike-beedle-robert-c-martin-ron-jeffries-steve-mellor-and-ward-cunningham
 citation: Beck, Kent, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham,
   Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern,
   Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, and

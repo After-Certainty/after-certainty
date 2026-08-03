@@ -2,8 +2,8 @@ slug: humble-jez-and-david-farley-continuous-delivery-reliable-software-releases
 name: 'David Farley and Jez Humble — Continuous Delivery: Reliable Software Releases
   through Build, Test, and Deployment Automation'
 type: book
-summary: 'Humble, Jez, and David Farley. *Continuous Delivery: Reliable Software Releases
-  through Build, Test, and Deployment Automation*. Boston: Addison-Wesley, 2010.'
+summary: 'Humble, Jez, and David Farley. Continuous Delivery: Reliable Software Releases
+  through Build, Test, and Deployment Automation. Boston: Addison-Wesley, 2010.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -11,14 +11,11 @@ relatedBooks:
 title: 'Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment
   Automation'
 creatorNames:
-- David Farley
-- Jez Humble
+- David Farley and Jez Humble
 creatorSlugs:
-- david-farley
-- jez-humble
-citation: 'Humble, Jez, and David Farley. *Continuous Delivery: Reliable Software
-  Releases through Build, Test, and Deployment Automation*. Boston: Addison-Wesley,
-  2010.'
+- david-farley-and-jez-humble
+citation: 'Humble, Jez, and David Farley. Continuous Delivery: Reliable Software Releases
+  through Build, Test, and Deployment Automation. Boston: Addison-Wesley, 2010.'
 sourceKind: book
 year: 2010
 publisher: Addison-Wesley

@@ -1,21 +1,19 @@
 slug: hood-christopher-and-ruth-dixon-a-government-that-worked-better-and-cost-less
 name: Christopher Hood and Ruth Dixon — A Government That Worked Better and Cost Less?
 type: book
-summary: 'Hood, Christopher, and Ruth Dixon. *A Government That Worked Better and
-  Cost Less?* Oxford: Oxford University Press, 2015.'
+summary: 'Hood, Christopher, and Ruth Dixon. A Government That Worked Better and Cost
+  Less? Oxford: Oxford University Press, 2015.'
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 title: A Government That Worked Better and Cost Less?
 creatorNames:
-- Christopher Hood
-- Ruth Dixon
+- Christopher Hood and Ruth Dixon
 creatorSlugs:
-- christopher-hood
-- ruth-dixon
-citation: 'Hood, Christopher, and Ruth Dixon. *A Government That Worked Better and
-  Cost Less?* Oxford: Oxford University Press, 2015.'
+- christopher-hood-and-ruth-dixon
+citation: 'Hood, Christopher, and Ruth Dixon. A Government That Worked Better and
+  Cost Less? Oxford: Oxford University Press, 2015.'
 sourceKind: book
 year: 2015
 publisher: Oxford University Press

@@ -41,10 +41,49 @@ def test_enrich_source_record_adds_v15_fields() -> None:
     assert out["title"] == "Between Past and Future"
     assert out["creatorNames"] == ["Hannah Arendt"]
     assert out["creatorSlugs"] == ["hannah-arendt"]
-    assert out["citation"] == raw["summary"]
+    assert out["citation"] == (
+        "Arendt, Hannah. Between Past and Future. New York: Penguin Books, 2006."
+    )
+    assert out["summary"] == out["citation"]
+    assert "*" not in out["citation"]
     assert out["sourceKind"] == "book"
     assert out["year"] == 2006
     assert out["publisher"] == "Penguin Books"
+
+
+def test_enrich_strips_markdown_from_name_when_overwrite_false() -> None:
+    raw = {
+        "slug": "brown-v-board",
+        "name": "347 U.S. 483 (1954) *Brown v. Board of Education*",
+        "type": "article",
+        "summary": "*Brown v. Board of Education*, 347 U.S. 483 (1954).",
+        "concepts": [],
+        "patterns": [],
+        "relatedBooks": [],
+        "title": "Brown v. Board of Education",
+    }
+    out = enrich_source_record(raw, overwrite=False)
+    assert "*" not in out["name"]
+    assert "*" not in out["summary"]
+    assert "*" not in out["citation"]
+    assert "Brown v. Board of Education" in out["name"]
+
+
+def test_enrich_strips_italics_before_publisher_parse() -> None:
+    raw = {
+        "slug": "chernow-ron-washington-a-life",
+        "name": "Ron Chernow — Washington: A Life",
+        "type": "book",
+        "summary": "Chernow, Ron. *Washington: A Life*. New York: Penguin Press, 2010.",
+        "concepts": [],
+        "patterns": [],
+        "relatedBooks": [],
+        "title": "Washington: A Life",
+        "publisher": "A Life*",
+    }
+    out = enrich_source_record(raw, overwrite=False)
+    assert out["publisher"] == "Penguin Press"
+    assert "*" not in out["citation"]
 
 
 def test_enrich_source_record_preserves_existing_fields() -> None:

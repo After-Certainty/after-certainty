@@ -28,6 +28,12 @@ DEFAULT_DRAFT_ROOT = Path("semantic/_drafts/generated/thinkers")
 DEFAULT_DEST = Path("semantic/thinkers")
 DEFAULT_OVERRIDES = Path("semantic/thinkers-pilot-overrides.yml")
 
+_TOOLS_DIR = Path(__file__).resolve().parent
+if str(_TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(_TOOLS_DIR))
+
+from source_metadata import strip_markdown_italics  # noqa: E402
+
 
 def _load_overrides(path: Path) -> dict[str, dict]:
     if not path.is_file():
@@ -43,12 +49,20 @@ def _load_overrides(path: Path) -> dict[str, dict]:
 
 def _apply_overrides(rec: dict, overrides: dict) -> dict:
     extra = overrides.get(str(rec.get("slug", "")).strip(), {})
-    if not extra:
-        return rec
     out = dict(rec)
-    for key in ("summary", "whyThisMatters", "type", "name"):
-        if key in extra and str(extra[key]).strip():
-            out[key] = str(extra[key]).strip()
+    if extra:
+        for key in ("summary", "whyThisMatters", "type", "name"):
+            if key in extra and str(extra[key]).strip():
+                out[key] = str(extra[key]).strip()
+    name = str(out.get("name", "")).strip()
+    if name:
+        out["name"] = strip_markdown_italics(name)
+    summary = str(out.get("summary", "")).strip()
+    if summary:
+        out["summary"] = strip_markdown_italics(summary)
+    why = str(out.get("whyThisMatters", "")).strip()
+    if why:
+        out["whyThisMatters"] = strip_markdown_italics(why)
     return out
 
 

@@ -1,7 +1,7 @@
 slug: snow-john-on-the-mode-of-communication-of-cholera
 name: John Snow — On the Mode of Communication of Cholera
 type: book
-summary: 'Snow, John. *On the Mode of Communication of Cholera*. 2nd ed. London: John
+summary: 'Snow, John. On the Mode of Communication of Cholera. 2nd ed. London: John
   Churchill, 1855.'
 concepts: []
 patterns: []
@@ -12,8 +12,8 @@ creatorNames:
 - John Snow
 creatorSlugs:
 - john-snow
-citation: 'Snow, John. *On the Mode of Communication of Cholera*. 2nd ed. London:
-  John Churchill, 1855.'
+citation: 'Snow, John. On the Mode of Communication of Cholera. 2nd ed. London: John
+  Churchill, 1855.'
 sourceKind: book
 year: 1855
 publisher: John Churchill

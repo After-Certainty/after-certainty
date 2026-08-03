@@ -1,7 +1,7 @@
 slug: kff-employer-health-benefits-survey
-name: KFF — Employer Health Benefits Survey — Employer Health Benefits Survey
+name: KFF — Employer Health Benefits Survey
 type: book
-summary: 'KFF. *Employer Health Benefits Survey*. San Francisco: KFF, 2022-2024.'
+summary: 'KFF. Employer Health Benefits Survey. San Francisco: KFF, 2022-2024.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -11,6 +11,6 @@ creatorNames:
 - KFF
 creatorSlugs:
 - kff
-citation: 'KFF. *Employer Health Benefits Survey*. San Francisco: KFF, 2022-2024.'
+citation: 'KFF. Employer Health Benefits Survey. San Francisco: KFF, 2022-2024.'
 sourceKind: book
 year: 2024

@@ -3,7 +3,7 @@ name: Open Science Collaboration — Estimating the Reproducibility of Psycholog
   Science.
 type: article
 summary: 'Open Science Collaboration. "Estimating the Reproducibility of Psychological
-  Science." *Science* 349, no. 6251 (2015): aac4716.'
+  Science." Science 349, no. 6251 (2015): aac4716.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -15,5 +15,5 @@ creatorNames:
 creatorSlugs:
 - open-science-collaboration
 citation: 'Open Science Collaboration. "Estimating the Reproducibility of Psychological
-  Science." *Science* 349, no. 6251 (2015): aac4716.'
+  Science." Science 349, no. 6251 (2015): aac4716.'
 sourceKind: article

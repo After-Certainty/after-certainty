@@ -1,7 +1,7 @@
 slug: u-s-department-of-defense-dod-std-2167a-defense-system-software-development
 name: U.S. Department of Defense — Defense System Software Development
 type: book
-summary: U.S. Department of Defense. DOD-STD-2167A, *Defense System Software Development*.
+summary: U.S. Department of Defense. DOD-STD-2167A, Defense System Software Development.
   1988.
 concepts: []
 patterns: []
@@ -11,7 +11,7 @@ creatorNames:
 - U.S. Department of Defense
 creatorSlugs:
 - u-s-department-of-defense
-citation: U.S. Department of Defense. DOD-STD-2167A, *Defense System Software Development*.
+citation: U.S. Department of Defense. DOD-STD-2167A, Defense System Software Development.
   1988.
 sourceKind: standard
 year: 1988

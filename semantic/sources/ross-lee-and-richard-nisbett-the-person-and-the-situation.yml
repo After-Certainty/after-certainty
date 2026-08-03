@@ -1,7 +1,7 @@
 slug: ross-lee-and-richard-nisbett-the-person-and-the-situation
 name: Lee Ross and Richard Nisbett — The Person and the Situation
 type: book
-summary: 'Ross, Lee, and Richard Nisbett. *The Person and the Situation*. New York:
+summary: 'Ross, Lee, and Richard Nisbett. The Person and the Situation. New York:
   McGraw-Hill, 1991.'
 concepts:
 - interpretation
@@ -14,12 +14,10 @@ relatedBooks:
 - after-certainty
 title: The Person and the Situation
 creatorNames:
-- Lee Ross
-- Richard Nisbett
+- Lee Ross and Richard Nisbett
 creatorSlugs:
-- lee-ross
-- richard-nisbett
-citation: 'Ross, Lee, and Richard Nisbett. *The Person and the Situation*. New York:
+- lee-ross-and-richard-nisbett
+citation: 'Ross, Lee, and Richard Nisbett. The Person and the Situation. New York:
   McGraw-Hill, 1991.'
 sourceKind: book
 year: 1991

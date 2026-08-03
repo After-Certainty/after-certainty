@@ -5,7 +5,7 @@ name: 'Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Lei
 type: article
 summary: 'Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh
   Kinsman. "Emergency Department Crowding: A Systematic Review of Causes, Consequences
-  and Solutions." *PLoS ONE* 13, no. 8 (2018): e0203316.'
+  and Solutions." PLoS ONE 13, no. 8 (2018): e0203316.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -13,12 +13,10 @@ relatedBooks:
 title: 'Emergency Department Crowding: A Systematic Review of Causes, Consequences
   and Solutions'
 creatorNames:
-- Claire Morley
-- Maria Unwin
-- Gregory M. Peterson
-- Jim Stankovich
-- Leigh Kinsman
+- Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh Kinsman
 citation: 'Morley, Claire, Maria Unwin, Gregory M. Peterson, Jim Stankovich, and Leigh
   Kinsman. "Emergency Department Crowding: A Systematic Review of Causes, Consequences
-  and Solutions." *PLoS ONE* 13, no. 8 (2018): e0203316.'
+  and Solutions." PLoS ONE 13, no. 8 (2018): e0203316.'
 sourceKind: article
+creatorSlugs:
+- morley-claire-maria-unwin-gregory-m-peterson-jim-stankovich-and-leigh-kinsman

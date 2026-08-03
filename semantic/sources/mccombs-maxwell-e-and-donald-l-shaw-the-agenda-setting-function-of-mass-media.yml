@@ -3,18 +3,16 @@ name: Donald L. Shaw and Maxwell E. McCombs — The Agenda-Setting Function of M
   Media.
 type: article
 summary: 'McCombs, Maxwell E., and Donald L. Shaw. "The Agenda-Setting Function of
-  Mass Media." *Public Opinion Quarterly* 36, no. 2 (1972): 176-187.'
+  Mass Media." Public Opinion Quarterly 36, no. 2 (1972): 176-187.'
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 title: The Agenda-Setting Function of Mass Media.
 creatorNames:
-- Donald L. Shaw
-- Maxwell E. McCombs
+- Donald L. Shaw and Maxwell E. McCombs
 creatorSlugs:
-- donald-l-shaw
-- maxwell-e-mccombs
+- donald-l-shaw-and-maxwell-e-mccombs
 citation: 'McCombs, Maxwell E., and Donald L. Shaw. "The Agenda-Setting Function of
-  Mass Media." *Public Opinion Quarterly* 36, no. 2 (1972): 176-187.'
+  Mass Media." Public Opinion Quarterly 36, no. 2 (1972): 176-187.'
 sourceKind: article

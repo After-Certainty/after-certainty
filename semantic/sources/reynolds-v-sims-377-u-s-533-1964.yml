@@ -1,12 +1,14 @@
 slug: reynolds-v-sims-377-u-s-533-1964
-name: 377 U.S. 533 (1964) *Reynolds v. Sims*
+name: 377 U.S. 533 (1964) Reynolds v. Sims
 type: book
-summary: '*Reynolds v. Sims*, 377 U.S. 533 (1964).'
+summary: Reynolds v. Sims, 377 U.S. 533 (1964).
 concepts: []
 patterns: []
 relatedBooks:
 - the-world-we-make-together
 creatorNames:
-- United States Supreme Court
-citation: '*Reynolds v. Sims*, 377 U.S. 533 (1964).'
+- 377 U.S. 533 (1964) Reynolds v. Sims
+citation: Reynolds v. Sims, 377 U.S. 533 (1964).
 sourceKind: book
+creatorSlugs:
+- 377-u-s-533-1964-reynolds-v-sims

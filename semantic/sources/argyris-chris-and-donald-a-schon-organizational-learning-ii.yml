@@ -2,8 +2,8 @@ slug: argyris-chris-and-donald-a-schon-organizational-learning-ii
 name: 'Chris Argyris and Donald A Schön — Organizational Learning II: Theory, Method,
   and Practice'
 type: book
-summary: 'Argyris, Chris, and Donald A. Schon. *Organizational Learning II: Theory,
-  Method, and Practice*. Reading, MA: Addison-Wesley, 1996.'
+summary: 'Argyris, Chris, and Donald A. Schon. Organizational Learning II: Theory,
+  Method, and Practice. Reading, MA: Addison-Wesley, 1996.'
 concepts:
 - contestability
 - correction
@@ -14,12 +14,10 @@ relatedBooks:
 - when-others-look-to-you-v2
 title: 'Organizational Learning II: Theory, Method, and Practice'
 creatorNames:
-- Chris Argyris
-- Donald A Schön
+- Chris Argyris and Donald A Schön
 creatorSlugs:
-- chris-argyris
-- donald-a-schon
-citation: 'Argyris, Chris, and Donald A. Schon. *Organizational Learning II: Theory,
-  Method, and Practice*. Reading, MA: Addison-Wesley, 1996.'
+- chris-argyris-and-donald-a-sch-n
+citation: 'Argyris, Chris, and Donald A. Schon. Organizational Learning II: Theory,
+  Method, and Practice. Reading, MA: Addison-Wesley, 1996.'
 sourceKind: book
 year: 1996

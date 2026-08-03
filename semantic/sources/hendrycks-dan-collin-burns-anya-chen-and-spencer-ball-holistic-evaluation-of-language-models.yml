@@ -3,22 +3,16 @@ name: Anya Chen, Collin Burns, Dan Hendrycks, and Spencer Ball — Holistic Eval
   of Language Models.
 type: article
 summary: Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball. "Holistic Evaluation
-  of Language Models." *Annals of the New York Academy of Sciences* (2023). https://doi.org/10.1111/nyas.15007.
+  of Language Models." Annals of the New York Academy of Sciences (2023). https://doi.org/10.1111/nyas.15007.
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 title: Holistic Evaluation of Language Models.
 creatorNames:
-- Anya Chen
-- Collin Burns
-- Dan Hendrycks
-- Spencer Ball
+- Anya Chen, Collin Burns, Dan Hendrycks, and Spencer Ball
 creatorSlugs:
-- anya-chen
-- collin-burns
-- dan-hendrycks
-- spencer-ball
+- anya-chen-collin-burns-dan-hendrycks-and-spencer-ball
 citation: Hendrycks, Dan, Collin Burns, Anya Chen, and Spencer Ball. "Holistic Evaluation
-  of Language Models." *Annals of the New York Academy of Sciences* (2023). https://doi.org/10.1111/nyas.15007.
+  of Language Models." Annals of the New York Academy of Sciences (2023). https://doi.org/10.1111/nyas.15007.
 sourceKind: article

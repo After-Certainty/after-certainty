@@ -1,7 +1,7 @@
 slug: odea-thomas-f-the-mormons
 name: Thomas F O'Dea — The Mormons
 type: book
-summary: 'O''Dea, Thomas F. *The Mormons*. Chicago: University of Chicago Press, 1957.'
+summary: 'O''Dea, Thomas F. The Mormons. Chicago: University of Chicago Press, 1957.'
 concepts: []
 patterns: []
 relatedBooks:
@@ -10,8 +10,8 @@ title: The Mormons
 creatorNames:
 - Thomas F O'Dea
 creatorSlugs:
-- thomas-f-odea
-citation: 'O''Dea, Thomas F. *The Mormons*. Chicago: University of Chicago Press, 1957.'
+- thomas-f-o-dea
+citation: 'O''Dea, Thomas F. The Mormons. Chicago: University of Chicago Press, 1957.'
 sourceKind: book
 year: 1957
 publisher: University of Chicago Press

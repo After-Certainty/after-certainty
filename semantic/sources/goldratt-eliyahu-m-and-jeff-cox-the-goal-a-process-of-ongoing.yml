@@ -1,7 +1,7 @@
 slug: goldratt-eliyahu-m-and-jeff-cox-the-goal-a-process-of-ongoing
 name: 'Eliyahu M. Goldratt and Jeff Cox — The Goal: A Process of Ongoing'
 type: book
-summary: 'Goldratt, Eliyahu M., and Jeff Cox. *The Goal: A Process of Ongoing Improvement*.
+summary: 'Goldratt, Eliyahu M., and Jeff Cox. The Goal: A Process of Ongoing Improvement.
   Great Barrington, MA: North River Press, 1984.'
 concepts: []
 patterns: []
@@ -9,12 +9,10 @@ relatedBooks:
 - how-serious-systems-learn
 title: 'The Goal: A Process of Ongoing'
 creatorNames:
-- Eliyahu M. Goldratt
-- Jeff Cox
+- Eliyahu M. Goldratt and Jeff Cox
 creatorSlugs:
-- eliyahu-m-goldratt
-- jeff-cox
-citation: 'Goldratt, Eliyahu M., and Jeff Cox. *The Goal: A Process of Ongoing Improvement*.
+- eliyahu-m-goldratt-and-jeff-cox
+citation: 'Goldratt, Eliyahu M., and Jeff Cox. The Goal: A Process of Ongoing Improvement.
   Great Barrington, MA: North River Press, 1984.'
 sourceKind: book
 year: 1984

@@ -47,9 +47,10 @@ def _dump_record(rec: dict) -> str:
 
 def normalize_thinker_record(rec: dict) -> dict:
     out = dict(rec)
-    name = str(out.get("name", "")).strip()
-    if name and name != strip_markdown_italics(name):
-        out["name"] = strip_markdown_italics(name)
+    for key in ("name", "summary", "whyThisMatters"):
+        value = str(out.get(key, "")).strip()
+        if value and value != strip_markdown_italics(value):
+            out[key] = strip_markdown_italics(value)
     return out
 
 

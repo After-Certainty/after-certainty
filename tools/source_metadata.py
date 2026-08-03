@@ -300,10 +300,13 @@ def parse_year_from_citation(citation: str) -> int | None:
 
 
 def parse_publisher_from_citation(citation: str) -> str | None:
-    match = _PUBLISHER_RE.search(citation)
-    if not match:
+    # Strip italics first so ``*Washington: A Life*`` is not parsed as Place: Publisher.
+    # Prefer the last Place: Publisher match — titles may contain place names
+    # (e.g. ``Washington: A Life`` before ``New York: Penguin Press``).
+    matches = list(_PUBLISHER_RE.finditer(strip_markdown_italics(citation)))
+    if not matches:
         return None
-    publisher = match.group(1).strip()
+    publisher = matches[-1].group(1).strip().rstrip("*").strip()
     return publisher or None
 
 
@@ -313,7 +316,8 @@ def _resolve_author_title(
     overwrite: bool,
 ) -> tuple[str, str, str]:
     """Return (author, title, display_name) for a source record."""
-    name = strip_markdown_italics(str(rec.get("name", "")).strip())
+    raw_name = str(rec.get("name", "")).strip()
+    name = strip_markdown_italics(raw_name)
     summary = str(rec.get("summary", "")).strip()
     citation = str(rec.get("citation", "")).strip() or summary
 
@@ -323,16 +327,37 @@ def _resolve_author_title(
     else:
         title = ""
 
+    existing_title = strip_markdown_italics(str(rec.get("title", "")).strip())
+    if existing_title and " — " not in existing_title and " – " not in existing_title:
+        if not title or overwrite:
+            title = existing_title
+
     author, parsed_title = split_display_name(name)
     if not title:
         title = parsed_title
 
-    if not title or (author and title == author):
+    # Collapse duplicated ``Title — Title`` residue from a bad display name.
+    if title and (" — " in title or " – " in title):
+        title = title.split(" — ", 1)[0].split(" – ", 1)[0].strip()
+
+    needs_bib = (
+        not title
+        or (author and title == author)
+        or raw_name.startswith("*")
+        or " — " in parsed_title
+        or " – " in parsed_title
+    )
+    if needs_bib:
         bib_author, bib_title = parse_bibliography_author_title(citation or summary)
         if bib_title:
-            if not title or name.startswith("*"):
+            if (
+                not title
+                or raw_name.startswith("*")
+                or " — " in parsed_title
+                or " – " in parsed_title
+            ):
                 title = bib_title
-            if not author or name.startswith("*") or author == name:
+            if not author or raw_name.startswith("*") or author == name:
                 author = bib_author or author
 
     if not author:
@@ -353,11 +378,14 @@ def enrich_source_record(rec: dict, *, overwrite: bool = False) -> dict:
     Return a copy of *rec* with v1.5 optional fields filled when missing.
 
     When *overwrite* is false, only adds fields that are absent or empty.
+    Markdown italics are always stripped from ``summary``, ``citation``, and
+    display ``name`` (bibliography markers must not reach the site as plain text).
+    Author/title parsing still runs on the raw markdown forms first.
     """
     out = dict(rec)
-    summary = str(out.get("summary", "")).strip()
     entry_type = str(out.get("type", "book")).strip() or "book"
 
+    # Resolve while summary/citation may still contain ``*Title*`` markers.
     author, title, display_name = _resolve_author_title(out, overwrite=overwrite)
 
     def _set(key: str, value: object) -> None:
@@ -367,8 +395,10 @@ def enrich_source_record(rec: dict, *, overwrite: bool = False) -> dict:
             return
         out[key] = value
 
-    if display_name and (overwrite or not out.get("name") or "*" in str(out.get("name", ""))):
-        _set("name", display_name)
+    existing_name = str(out.get("name", ""))
+    if display_name and (overwrite or not existing_name.strip() or "*" in existing_name):
+        # Bypass ``_set`` so markdown-contaminated names are always cleaned.
+        out["name"] = display_name
 
     _set("title", title)
     if author:
@@ -377,8 +407,14 @@ def enrich_source_record(rec: dict, *, overwrite: bool = False) -> dict:
         if overwrite or not out.get("creatorSlugs"):
             _set("creatorSlugs", [creator_slug_from_name(clean_author)])
 
-    citation = str(out.get("citation", "")).strip() or summary
-    _set("citation", citation)
+    raw_summary = str(out.get("summary", "")).strip()
+    summary = strip_markdown_italics(raw_summary)
+    if summary:
+        out["summary"] = summary
+
+    citation = strip_markdown_italics(str(out.get("citation", "")).strip() or raw_summary)
+    if citation:
+        out["citation"] = citation
 
     _set(
         "sourceKind",
@@ -387,10 +423,22 @@ def enrich_source_record(rec: dict, *, overwrite: bool = False) -> dict:
 
     if citation:
         _set("year", parse_year_from_citation(citation))
-        _set("publisher", parse_publisher_from_citation(citation))
+        parsed_publisher = parse_publisher_from_citation(citation)
+        if "*" in str(out.get("publisher", "")):
+            if parsed_publisher:
+                out["publisher"] = parsed_publisher
+            else:
+                out.pop("publisher", None)
+        else:
+            _set("publisher", parsed_publisher)
 
     if author and _is_institutional_author(author):
-        _set("institution", _institutional_org_name(author))
+        institution = _institutional_org_name(author)
+        if "*" in str(out.get("institution", "")):
+            if institution:
+                out["institution"] = institution
+        else:
+            _set("institution", institution)
 
     out.pop("workTitle", None)
     return out

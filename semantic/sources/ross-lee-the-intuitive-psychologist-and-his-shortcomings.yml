@@ -3,7 +3,7 @@ name: 'Lee Ross and Richard Nisbett — The Intuitive Psychologist and His Short
   Distortions in the Attribution Process'
 type: article
 summary: 'Ross, Lee. "The Intuitive Psychologist and His Shortcomings: Distortions
-  in the Attribution Process." In *Advances in Experimental Social Psychology*, edited
+  in the Attribution Process." In Advances in Experimental Social Psychology, edited
   by Leonard Berkowitz, vol. 10, 173–220. New York: Academic Press, 1977.'
 concepts: []
 patterns: []
@@ -13,13 +13,11 @@ relatedBooks:
 title: 'The Intuitive Psychologist and His Shortcomings: Distortions in the Attribution
   Process'
 creatorNames:
-- Lee Ross
-- Richard Nisbett
+- Lee Ross and Richard Nisbett
 creatorSlugs:
-- lee-ross
-- richard-nisbett
+- lee-ross-and-richard-nisbett
 citation: 'Ross, Lee. "The Intuitive Psychologist and His Shortcomings: Distortions
-  in the Attribution Process." In *Advances in Experimental Social Psychology*, edited
+  in the Attribution Process." In Advances in Experimental Social Psychology, edited
   by Leonard Berkowitz, vol. 10, 173–220. New York: Academic Press, 1977.'
 sourceKind: article
 year: 1977

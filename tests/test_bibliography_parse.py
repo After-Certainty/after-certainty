@@ -28,6 +28,8 @@ def test_parse_list_bibliography_basic() -> None:
     assert len(rows) == 1
     assert rows[0]["workTitle"] == "Defense System Software Development"
     assert "Department of Defense" in rows[0]["name"]
+    assert "*" not in rows[0]["summary"]
+    assert "Defense System Software Development" in rows[0]["summary"]
     # re-export from extract still works
     assert len(extract_list(text)) == 1
 

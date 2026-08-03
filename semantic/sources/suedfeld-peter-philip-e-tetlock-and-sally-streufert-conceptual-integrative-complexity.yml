@@ -3,7 +3,7 @@ name: Peter Suedfeld, Philip E Tetlock, and Sally Streufert — Conceptual/Integ
   Complexity.
 type: article
 summary: 'Suedfeld, Peter, Philip E. Tetlock, and Sally Streufert. "Conceptual/Integrative
-  Complexity." In *Motivation and Personality: Handbook of Thematic Content Analysis*,
+  Complexity." In Motivation and Personality: Handbook of Thematic Content Analysis,
   edited by Charles P. Smith et al., 393–400. Cambridge: Cambridge University Press,
   1992.'
 concepts: []
@@ -12,15 +12,11 @@ relatedBooks:
 - trust-beyond-similarity
 title: Conceptual/Integrative Complexity.
 creatorNames:
-- Peter Suedfeld
-- Philip E Tetlock
-- Sally Streufert
+- Peter Suedfeld, Philip E Tetlock, and Sally Streufert
 creatorSlugs:
-- peter-suedfeld
-- philip-e-tetlock
-- sally-streufert
+- peter-suedfeld-philip-e-tetlock-and-sally-streufert
 citation: 'Suedfeld, Peter, Philip E. Tetlock, and Sally Streufert. "Conceptual/Integrative
-  Complexity." In *Motivation and Personality: Handbook of Thematic Content Analysis*,
+  Complexity." In Motivation and Personality: Handbook of Thematic Content Analysis,
   edited by Charles P. Smith et al., 393–400. Cambridge: Cambridge University Press,
   1992.'
 sourceKind: article

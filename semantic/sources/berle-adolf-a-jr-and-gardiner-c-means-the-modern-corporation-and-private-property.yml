@@ -2,21 +2,19 @@ slug: berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-p
 name: Adolf A. Berle Jr. and Gardiner C. Means — The Modern Corporation and Private
   Property
 type: book
-summary: 'Berle, Adolf A., Jr., and Gardiner C. Means. *The Modern Corporation and
-  Private Property*. New York: Macmillan, 1932.'
+summary: 'Berle, Adolf A., Jr., and Gardiner C. Means. The Modern Corporation and
+  Private Property. New York: Macmillan, 1932.'
 concepts: []
 patterns: []
 relatedBooks:
 - coupling
 title: The Modern Corporation and Private Property
 creatorNames:
-- Adolf A. Berle Jr.
-- Gardiner C. Means
+- Adolf A. Berle Jr. and Gardiner C. Means
 creatorSlugs:
-- adolf-a-berle
-- gardiner-c-means
-citation: 'Berle, Adolf A., Jr., and Gardiner C. Means. *The Modern Corporation and
-  Private Property*. New York: Macmillan, 1932.'
+- adolf-a-berle-jr-and-gardiner-c-means
+citation: 'Berle, Adolf A., Jr., and Gardiner C. Means. The Modern Corporation and
+  Private Property. New York: Macmillan, 1932.'
 sourceKind: book
 year: 1932
 publisher: Macmillan

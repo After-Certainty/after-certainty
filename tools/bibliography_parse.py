@@ -16,7 +16,7 @@ import re
 from dataclasses import dataclass, field
 
 from semantic_extract import slugify_heading
-from source_metadata import parse_bibliography_author_title
+from source_metadata import parse_bibliography_author_title, strip_markdown_italics
 
 _PANDOC_DIV_RE = re.compile(
     r"::: \{"  # opening fence
@@ -144,6 +144,8 @@ def _summary(block: str, limit: int = 700) -> str:
     text = " ".join(normalize_typography(block).split())
     # Drop leading bullet marker from summary
     text = re.sub(r"^-\s*", "", text)
+    # Plain-text drafts for the site — strip Chicago ``*Title*`` markers.
+    text = strip_markdown_italics(text)
     if len(text) <= limit:
         return text
     return text[: limit - 1].rstrip() + "…"
