@@ -36,4 +36,21 @@ describe("ExploreIndexHero", () => {
     );
     expect(container.querySelector('[data-density="default"]')).toBeInTheDocument();
   });
+
+  it("marks editorial density and optional count label for Patterns", () => {
+    const { container } = render(
+      <ExploreIndexHero
+        eyebrow="Structures"
+        title="Patterns"
+        lede="Directional, recurring forms."
+        headingId="patterns-heading"
+        density="editorial"
+        countLabel="43 patterns"
+      />,
+    );
+    expect(container.querySelector('[data-density="editorial"]')).toBeInTheDocument();
+    expect(screen.getByText("43 patterns")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Patterns", level: 1 })).toBeInTheDocument();
+  });
 });
+

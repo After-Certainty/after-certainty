@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { exploreIndexCatalogGridClassName } from "@/components/explore/explore-catalog-card";
 import { ExploreIndexGroup } from "@/components/explore/explore-index-group";
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { ExplorePatternsPlaylistCallout } from "@/components/explore/explore-patterns-playlist-callout";
 import { PatternCard } from "@/components/explore/pattern-card";
+import { PatternIndexAccordion } from "@/components/explore/pattern-index-accordion";
+import { PatternLanguageFeatureCard } from "@/components/explore/pattern-language-feature-card";
 import { Section } from "@/components/ui/section";
 import {
   forcesInCycleOrder,
@@ -14,9 +14,9 @@ import {
 } from "@/lib/explore/pattern-language";
 import { patternsSortedForExploreIndex } from "@/lib/explore/explore-patterns-order";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { explorePaths } from "@/lib/graph/explorePaths";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
+import type { Pattern } from "@/types/semanticGraph";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Patterns",
@@ -28,8 +28,25 @@ type PageProps = {
   searchParams?: Promise<{ force?: string }>;
 };
 
+/** Desktop-only catalog grid (mobile uses PatternIndexAccordion). */
+const patternDesktopGridClassName =
+  "hidden min-w-0 grid-cols-1 gap-3 md:grid md:grid-cols-2 md:gap-5 xl:grid-cols-3";
+
 function patternCountLabel(count: number): string {
   return `${count} ${count === 1 ? "pattern" : "patterns"}`;
+}
+
+function PatternCatalog({ patterns }: { patterns: readonly Pattern[] }) {
+  return (
+    <>
+      <PatternIndexAccordion patterns={patterns} />
+      <div className={patternDesktopGridClassName}>
+        {patterns.map((p) => (
+          <PatternCard key={p.id} pattern={p} />
+        ))}
+      </div>
+    </>
+  );
 }
 
 export default async function ExplorePatternsIndexPage({ searchParams }: PageProps) {
@@ -51,61 +68,29 @@ export default async function ExplorePatternsIndexPage({ searchParams }: PagePro
         eyebrow="Structures"
         title="Patterns"
         headingId="explore-patterns-heading"
+        density="editorial"
+        countLabel={patternCountLabel(patterns.length)}
         lede="Directional, recurring forms — each pattern links back into concepts and volumes as living language."
       />
-      <Section atmosphere="transition" className="border-t border-border/25 py-10 md:py-20">
+      <Section atmosphere="transition" className="border-t border-border/25 py-6 md:py-16">
         <ExplorePatternsPlaylistCallout books={graph.books} />
 
-        {forces.length > 0 && master ? (
-          <div className="mb-10 max-w-3xl space-y-4 md:mb-14">
-            <p className="text-[11px] uppercase tracking-[0.28em] text-accent">
-              After Certainty Pattern Language
-            </p>
-            <p className="text-muted">
-              Master pattern:{" "}
-              <Link
-                href={`${explorePaths.patterns}/${master.slug}`}
-                className="text-fg underline-offset-4 hover:underline"
-              >
-                {master.title}
-              </Link>
-            </p>
-            <ul className="flex flex-wrap gap-2 text-sm md:gap-3">
-              <li>
-                <Link
-                  href={explorePaths.patterns}
-                  className={`inline-flex min-h-11 items-center underline-offset-4 hover:underline ${
-                    activeForce ? "text-muted" : "text-fg"
-                  }`}
-                >
-                  All forces
-                </Link>
-              </li>
-              {forces.map((f) => (
-                <li key={f.id}>
-                  <Link
-                    href={`${explorePaths.patterns}?force=${encodeURIComponent(f.slug)}`}
-                    className={`inline-flex min-h-11 items-center underline-offset-4 hover:underline ${
-                      activeForce?.slug === f.slug ? "text-fg" : "text-muted"
-                    }`}
-                  >
-                    {f.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            {activeForce ? <p className="text-sm text-muted">{activeForce.description}</p> : null}
-          </div>
+        {master ? (
+          <PatternLanguageFeatureCard
+            master={master}
+            forces={forces}
+            activeForceSlug={activeForce?.slug ?? null}
+          />
+        ) : null}
+
+        {activeForce ? (
+          <p className="mb-4 max-w-2xl text-sm text-muted md:mb-6">{activeForce.description}</p>
         ) : null}
 
         {patterns.length === 0 ? (
           <p className="text-muted">No patterns are published in the manifest yet.</p>
         ) : activeForce ? (
-          <div className={exploreIndexCatalogGridClassName}>
-            {filteredSupports.map((p) => (
-              <PatternCard key={p.id} pattern={p} />
-            ))}
-          </div>
+          <PatternCatalog patterns={filteredSupports} />
         ) : (
           <div className="space-y-0 md:space-y-14">
             {languagePatterns.length > 0 ? (
@@ -115,11 +100,7 @@ export default async function ExplorePatternsIndexPage({ searchParams }: PagePro
                 countLabel={patternCountLabel(languagePatterns.length)}
                 defaultOpen
               >
-                <div className={exploreIndexCatalogGridClassName}>
-                  {languagePatterns.map((p) => (
-                    <PatternCard key={p.id} pattern={p} />
-                  ))}
-                </div>
+                <PatternCatalog patterns={languagePatterns} />
               </ExploreIndexGroup>
             ) : null}
             {otherPatterns.length > 0 ? (
@@ -128,11 +109,7 @@ export default async function ExplorePatternsIndexPage({ searchParams }: PagePro
                 title="Portfolio patterns"
                 countLabel={patternCountLabel(otherPatterns.length)}
               >
-                <div className={exploreIndexCatalogGridClassName}>
-                  {otherPatterns.map((p) => (
-                    <PatternCard key={p.id} pattern={p} />
-                  ))}
-                </div>
+                <PatternCatalog patterns={otherPatterns} />
               </ExploreIndexGroup>
             ) : null}
           </div>

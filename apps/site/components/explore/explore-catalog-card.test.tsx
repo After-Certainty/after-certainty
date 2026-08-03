@@ -28,7 +28,7 @@ describe("ExploreCatalogCard", () => {
     render(
       <ExploreCatalogCard
         href="/explore/patterns/attention-finds-a-focus"
-        eyebrow="Supporting · corrective"
+        eyebrow="Supporting · Corrective"
         title="Attention Finds a Focus"
         blurb="A pattern about attention narrowing onto a focal object."
         ctaLabel="View Pattern →"
@@ -37,7 +37,7 @@ describe("ExploreCatalogCard", () => {
     );
 
     expect(screen.getByRole("heading", { name: "Attention Finds a Focus" })).toBeInTheDocument();
-    expect(screen.getByText("Supporting · corrective")).toBeInTheDocument();
+    expect(screen.getByText("Supporting · Corrective")).toBeInTheDocument();
     expect(
       screen.getByText("A pattern about attention narrowing onto a focal object."),
     ).toBeInTheDocument();
