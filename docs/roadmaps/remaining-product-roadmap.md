@@ -2,7 +2,7 @@
 
 **Status:** Active — authoritative for *remaining* cross-layer work  
 **Created:** 2026-07-24  
-**Last audited:** 2026-08-02 (books/reader redesign specialized plan started)  
+**Last audited:** 2026-08-03 (explore discovery mobile plan: Phase 1b filter+sort)  
 **Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
@@ -87,7 +87,9 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 
 ### Specialized site UX (tracked outside this master backlog)
 
-Books index / curated shelves / book detail / native reader redesign is a **completed specialized site plan** (Phases A–G). See [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md). Remaining deferrals (highlights/notes, visual-regression suite, Mobile Safari manual checks) promote here only if they outgrow site-only UX work.
+- Books index / curated shelves / book detail / native reader redesign is a **completed specialized site plan** (Phases A–G). See [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md). Remaining deferrals (highlights/notes, visual-regression suite, Mobile Safari manual checks) promote here only if they outgrow site-only UX work.
+- Patterns index / Pattern detail mobile redesign is a **completed specialized site plan** (Phases 1–6). See [`apps/site/docs/roadmaps/patterns-mobile-redesign.md`](../../apps/site/docs/roadmaps/patterns-mobile-redesign.md).
+- Concepts, thinkers, sources, situations, questions, and reader trails mobile redesign is an **active specialized site plan** (Phases 0–6 + Phase 1b thinkers/sources type·kind filter+sort). See [`apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`](../../apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md). Type/kind catalog controls are tracked there; **PROVENANCE-004** remains the separate thinkers-by-**concept** filter. Promote unfinished follow-ups here only if they outgrow site-only UX work.
 
 ### Later / revisit when triggered
 
@@ -222,7 +224,7 @@ Only genuinely remaining outcomes. Each entry must pass the value test (problem,
 | **Problem** | `/explore/thinkers` cannot filter by concept. |
 | **Benefit** | Readers find interlocutors for a theme without scanning cards. |
 | **Who** | Readers |
-| **Evidence** | Thinkers index exists; filter absent; data richness still uneven |
+| **Evidence** | Thinkers index exists; concept facet absent; data richness still uneven. Type/kind filter+sort is tracked separately in [`explore-discovery-mobile-redesign.md`](../../apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md) Phase 1b and does not replace this item. |
 | **Why later** | Filter value rises after PROVENANCE-005 adds links |
 | **Acceptance** | URL-shareable filter; empty states |
 | **Changes** | reader experience; discoverability |
