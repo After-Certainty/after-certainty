@@ -10,7 +10,7 @@ export function SiteHeader() {
   return (
     <SearchPaletteProvider>
       <header className="sticky top-0 z-50 border-b border-border/60 bg-bg/80 backdrop-blur-md">
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-6 md:gap-6">
+        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 pl-[max(1rem,env(safe-area-inset-left,0px))] pr-[max(1.75rem,env(safe-area-inset-right,0px))] md:gap-6 md:px-6">
           <SiteLockup variant="header" />
           <nav aria-label="Primary" className="hidden items-center gap-8 md:flex">
             {siteConfig.navigation.map((item) => (
@@ -23,7 +23,7 @@ export function SiteHeader() {
               </Link>
             ))}
           </nav>
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex shrink-0 items-center gap-1.5 sm:gap-3">
             <HeaderSearchButton />
             <ThemeToggle />
             <MobileNav items={siteConfig.navigation} />
