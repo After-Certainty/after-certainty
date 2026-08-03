@@ -65,7 +65,10 @@ test.describe("Start with a Question", () => {
     await page.goto("/questions/act-before-certainty-arrives");
 
     await expect(
-      page.getByRole("heading", { name: "How do we act before certainty arrives?", level: 1 }),
+      page.getByRole("heading", {
+        name: "How can we act responsibly before certainty arrives?",
+        level: 1,
+      }),
     ).toBeVisible();
     await expect(page.locator('[data-path-stop-density="compact"]').first()).toBeVisible();
     const relatedToggle = page.getByRole("button", { name: /Continue with a reading trail/i });
