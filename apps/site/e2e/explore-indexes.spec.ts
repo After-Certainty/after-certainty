@@ -12,6 +12,8 @@ test.describe("Explore index mobile parity", () => {
     await page.goto("/explore/patterns");
 
     await expect(page.getByRole("heading", { name: "Patterns", level: 1 })).toBeVisible();
+    await expect(page.locator('[data-density="editorial"]')).toBeVisible();
+    await expect(page.getByText(/\d+ patterns/i).first()).toBeVisible();
 
     const languageGroup = page.getByRole("button", { name: /After Certainty Pattern Language/i });
     await expect(languageGroup).toBeVisible();
@@ -25,7 +27,11 @@ test.describe("Explore index mobile parity", () => {
     await expect(portfolioGroup).toHaveAttribute("aria-expanded", "true");
     await expect(languageGroup).toHaveAttribute("aria-expanded", "true");
 
-    await expect(page.getByText("View Pattern →").first()).toBeVisible();
+    const patternRow = page.getByRole("button", { name: /Master pattern|Supporting/i }).first();
+    await expect(patternRow).toBeVisible();
+    await patternRow.click();
+    await expect(patternRow).toHaveAttribute("aria-expanded", "true");
+    await expect(page.getByRole("link", { name: /View pattern/i }).first()).toBeVisible();
   });
 
   test("concepts index shows compact catalog cards on mobile", async ({ page }) => {

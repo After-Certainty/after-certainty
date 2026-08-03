@@ -1,6 +1,6 @@
 # Patterns index and Pattern detail mobile redesign
 
-**Status:** Phase 1 complete — Phases 2–6 pending  
+**Status:** Phase 2 complete — Phases 3–6 pending  
 **Created:** 2026-08-03  
 **Location:** `apps/site/docs/roadmaps/patterns-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
@@ -345,7 +345,8 @@ flowchart TB
 | --- | --- |
 | **Depends on** | Phase 1 disclosure |
 | **Ship independently** | Yes |
-| **Likely files** | `patterns/page.tsx`, `explore-hero.tsx`, `explore-patterns-playlist-callout.tsx`, new master card + pattern accordion, `pattern-card.tsx` / preview helper, `e2e/explore-indexes.spec.ts` |
+| **Likely files** | `patterns/page.tsx`, `explore-hero.tsx`, `explore-patterns-playlist-callout.tsx`, `pattern-language-feature-card.tsx`, `pattern-index-accordion.tsx`, `lib/explore/pattern-preview.ts`, `e2e/explore-indexes.spec.ts` |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -356,6 +357,14 @@ flowchart TB
 5. Keep Portfolio group collapsed; same accordion when opened.
 6. Desktop: retain card grid via `md:` (shared data, responsive presentation).
 7. Keep `?force=` filter mode usable with compact rows.
+
+**Shipped (Phase 2):**
+
+- `ExploreIndexHero` `density="editorial"` + `countLabel` — text-first mobile; image stack from `md+`
+- Compact `ExplorePatternsPlaylistCallout` horizontal card with play affordance
+- `PatternLanguageFeatureCard` — master CTA + force filter chips
+- `PatternIndexAccordion` — single-open rows via Phase 1 `MobileDisclosureGroup`
+- `patternPreviewFields()` / `patternIndexEyebrow()` — concise accordion previews from real fields
 
 **Risks:** Composed `summary` too long for previews — use `patternPreviewFields()`; force-filter regression.  
 **Acceptance:**
