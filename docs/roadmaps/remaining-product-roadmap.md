@@ -2,7 +2,7 @@
 
 **Status:** Active — authoritative for *remaining* cross-layer work  
 **Created:** 2026-07-24  
-**Last audited:** 2026-08-03 (explore discovery mobile redesign complete, Phases 0–6)  
+**Last audited:** 2026-08-03 (ElevenLabs TTS pilot roadmap added; explore discovery mobile redesign complete, Phases 0–6)  
 **Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
@@ -91,10 +91,15 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 - Patterns index / Pattern detail mobile redesign is a **completed specialized site plan** (Phases 1–6). See [`apps/site/docs/roadmaps/patterns-mobile-redesign.md`](../../apps/site/docs/roadmaps/patterns-mobile-redesign.md).
 - Concepts, thinkers, sources, situations, questions, and reader trails mobile redesign is a **completed specialized site plan** (Phases 0–6). See [`apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`](../../apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md). Type/kind catalog controls shipped in Phase 1b; **PROVENANCE-004** remains the separate thinkers-by-**concept** filter. Promote unfinished follow-ups here only if they outgrow site-only UX work.
 
+### Specialized cross-layer plans (tracked outside day-to-day Now/Next)
+
+- **AUDIO-001** — Selective ElevenLabs chapter narration for the native reader is an **active specialized plan** (Phases 0–7). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). Pilot unit: After Certainty introduction; Git LFS for MP3s; no API key in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan (for example a decision to expand beyond the one-unit pilot).
+
 ### Later / revisit when triggered
 
 | Item | Trigger |
 |------|---------|
+| **AUDIO-001** expand beyond pilot | Phase 7 evaluation accepts more units/books after credit, quality, and licensing review ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
 | **TOGETHER-001** product brief | Kevin explicitly chooses a Think Together pilot and needs a mechanism that Substack, GitHub issues, email, or existing channels do not already provide |
 | **TOGETHER-002 / TOGETHER-003** | Only after TOGETHER-001 accepts a distinct mechanism (or fold simple feedback into OPS/CONTRIBUTING) |
 | **PROVENANCE-008** relationship provenance UI | Kevin decides public provenance beats a debug dump |
@@ -120,6 +125,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 | Whether relationship provenance deserves public UI | Kevin | PROVENANCE-008 |
 | GitHub org/repo settings checklist | Kevin | OPS-003 |
 | GA4 Admin key events for reader funnel (`chapter_open`, `next_chapter`, `file_download`) | Kevin / analytics Admin | ANALYTICS-001 (events shipped; Admin marking remains) |
+| ElevenLabs public-use licensing + stock voice for chapter TTS pilot | Kevin | AUDIO-001 ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
 
 ---
 
