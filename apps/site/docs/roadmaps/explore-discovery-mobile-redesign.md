@@ -1,8 +1,8 @@
 # Explore discovery mobile redesign
 
-**Status:** Active specialized site plan (Phase 0 complete; Phases 1–6 + Phase 1b planned)  
+**Status:** Active specialized site plan (Phases 0–1 complete; Phase 1b + Phases 2–6 planned)  
 **Created:** 2026-08-03  
-**Updated:** 2026-08-03 (Phase 0 shared intro disclosure)  
+**Updated:** 2026-08-03 (Phase 1 atlas index heroes)  
 **Location:** `apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
 
@@ -395,7 +395,7 @@ flowchart TD
 | **Depends on** | Phase 0 optional (hero already exists; can ship without intro disclosure) |
 | **Ship independently** | Yes |
 | **Likely files** | `concepts/page.tsx`, `thinkers/page.tsx`, `sources/page.tsx`, `situations/page.tsx`; possibly section class tokens |
-| **Status** | Planned |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -405,12 +405,18 @@ flowchart TD
 4. Thinkers and sources: keep existing search/pagination in this phase; **Phase 1b** adds filter/sort chrome.
 5. Situations: hero + spacing only; keep flat card grid.
 
+**Shipped (Phase 1):**
+
+- Concepts / thinkers / sources / situations indexes: `ExploreIndexHero` `density="editorial"` + unfiltered `countLabel` via `exploreIndexCountLabel`
+- Catalog sections: `py-6 md:py-16` (Patterns index parity)
+- E2E: concepts + thinkers editorial density/count assertions in `explore-indexes.spec.ts`
+
 **Acceptance:**
 
-- Several catalog cards visible within the first mobile viewport on each index
-- No oversized default hero
-- Desktop (`md+`) remains acceptable; no breaking URL / SEO changes
-- E2E smoke: concepts (and preferably one other atlas index) @ 390px
+- [x] Several catalog cards visible within the first mobile viewport on each index
+- [x] No oversized default hero
+- [x] Desktop (`md+`) remains acceptable; no breaking URL / SEO changes
+- [x] E2E smoke: concepts (and preferably one other atlas index) @ 390px
 
 ### Phase 1b — Thinkers & sources catalog controls
 
@@ -618,9 +624,9 @@ Update as implementation phases land.
 
 ### Phase 1
 
-- [ ] Concepts / thinkers / sources / situations indexes use editorial hero + real count labels
-- [ ] Several catalog cards visible in the first mobile viewport
-- [ ] Concepts/situations search or flat-grid behavior unchanged; thinkers/sources still work with `q`/`page` pending Phase 1b
+- [x] Concepts / thinkers / sources / situations indexes use editorial hero + real count labels
+- [x] Several catalog cards visible in the first mobile viewport
+- [x] Concepts/situations search or flat-grid behavior unchanged; thinkers/sources still work with `q`/`page` pending Phase 1b
 
 ### Phase 1b
 
