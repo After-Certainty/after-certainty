@@ -23,6 +23,11 @@
   --books-cover-list-w: 3.5rem;
   --books-cover-list-h: 5.25rem;
 
+  /* Explore / Patterns compact rows (Patterns mobile redesign Phase 1) */
+  --explore-row-py: var(--books-row-py);
+  --explore-cover-list-w: var(--books-cover-list-w);
+  --explore-cover-list-h: var(--books-cover-list-h);
+
   /* Native reader chrome (redesign Phase E) */
   --reader-progress-h: 2px;
 }

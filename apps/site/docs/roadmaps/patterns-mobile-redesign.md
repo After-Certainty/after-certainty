@@ -1,6 +1,6 @@
 # Patterns index and Pattern detail mobile redesign
 
-**Status:** Planning complete — implementation not started (Phases 1–6 pending)  
+**Status:** Phase 1 complete — Phases 2–6 pending  
 **Created:** 2026-08-03  
 **Location:** `apps/site/docs/roadmaps/patterns-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
@@ -311,7 +311,8 @@ flowchart TB
 | --- | --- |
 | **Depends on** | Nothing |
 | **Ship independently** | Yes (low visual change if Patterns not yet wired) |
-| **Likely files** | New disclosure under `components/explore/` or `components/ui/`; optional chevron extract; `styles/tokens.css`; `CompactBookRow` (+ adapter); disclosure unit tests; optional footer structure prep only |
+| **Likely files** | `components/ui/mobile-disclosure.tsx`, `components/ui/disclosure-chevron.tsx`, `components/explore/compact-book-row.tsx`, `styles/tokens.css`; light chevron reuse in `explore-index-group.tsx` / `books-shelf-section.tsx` / `catalog-book-card.tsx` |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -319,6 +320,15 @@ flowchart TB
 2. Add single-open controller for sibling items (pattern rows).
 3. Add `CompactBookRow` using cover list tokens, `next/image`, reserved dimensions, no layout shift.
 4. Defer full footer visual rewrite to Phase 5 if riskier; document the target layout here.
+
+**Footer note (deferred to Phase 5):** Keep `SiteFooter` structure unchanged in Phase 1. Target mobile layout later: identity + short description; essential links in a compact wrapping row/small grid; social icons; corpus/semantic date; license — without reproducing the full desktop sitemap as a tall column. Desktop retains the fuller two-column layout.
+
+**Shipped primitives (Phase 1):**
+
+- `MobileDisclosure` / `MobileDisclosureGroup` — `aria-expanded` + `aria-controls` + `role="region"`; `type="single"` for item rows; `type="multiple"` for Books-style groups
+- `DisclosureChevron` — shared down/right chevron with `motion-reduce`
+- `CompactBookRow` — `Book`-shaped horizontal row; cover box via `--explore-cover-list-*` (aliases of books list tokens)
+- Explore density tokens: `--explore-row-py`, `--explore-cover-list-w`, `--explore-cover-list-h`
 
 **Risks:** Over-abstraction; premature footer changes affecting all pages.  
 **Acceptance:**

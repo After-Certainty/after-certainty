@@ -2,6 +2,8 @@
 
 import { useId, useState, type ReactNode } from "react";
 
+import { DisclosureChevron } from "@/components/ui/disclosure-chevron";
+
 type ExploreIndexGroupProps = {
   title: string;
   countLabel: string;
@@ -11,27 +13,6 @@ type ExploreIndexGroupProps = {
   children: ReactNode;
   /** Stable slug for heading ids (defaults from title). */
   id?: string;
-};
-
-function Chevron({ expanded }: { expanded: boolean }) {
-  return (
-    <svg
-      viewBox="0 0 20 20"
-      fill="none"
-      aria-hidden
-      className={`h-5 w-5 shrink-0 text-muted transition-transform duration-200 motion-reduce:transition-none ${
-        expanded ? "rotate-180" : ""
-      }`}
-    >
-      <path
-        d="M5 7.5L10 12.5L15 7.5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
 }
 
 function slugify(value: string): string {
@@ -74,7 +55,7 @@ export function ExploreIndexGroup({
           </h2>
           <span className="mt-0.5 block text-[11px] leading-none text-muted">{countLabel}</span>
         </span>
-        <Chevron expanded={open} />
+        <DisclosureChevron expanded={open} />
       </button>
 
       <div className="hidden space-y-3 md:block">
