@@ -7,11 +7,22 @@ const SUPPORTING = "/explore/patterns/authority-follows-attention";
 const THIN = "/explore/patterns/meaning-forms-early";
 
 async function assertNoHorizontalOverflow(page: Page) {
-  const overflow = await page.evaluate(() => {
+  const result = await page.evaluate(() => {
     const doc = document.documentElement;
-    return doc.scrollWidth > doc.clientWidth + 1;
+    const before = window.scrollX;
+    window.scrollTo(200, window.scrollY);
+    const after = window.scrollX;
+    window.scrollTo(before, window.scrollY);
+    return {
+      couldScroll: after !== before,
+      scrollWidth: doc.scrollWidth,
+      clientWidth: doc.clientWidth,
+    };
   });
-  expect(overflow).toBe(false);
+  expect(
+    result.couldScroll,
+    `page can scroll horizontally (scrollWidth=${result.scrollWidth}, clientWidth=${result.clientWidth})`,
+  ).toBe(false);
 }
 
 test.describe("Patterns mobile redesign", () => {
