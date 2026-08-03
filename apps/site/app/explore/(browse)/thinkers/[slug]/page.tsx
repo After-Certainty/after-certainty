@@ -4,6 +4,7 @@ import { JsonLd } from "@/components/seo/json-ld";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
+import { RelatedBooksSection } from "@/components/explore/related-books-section";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
@@ -127,17 +128,21 @@ export default async function ExploreThinkerDetailPage({ params }: PageProps) {
       {hasRelated ? (
         <Section
           atmosphere="transition"
-          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+          className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
-          <div className="flex flex-col gap-14">
-            <RelatedContentGrid heading="Works" sources={related.works} />
-            <RelatedContentGrid heading="Related concepts" concepts={related.concepts} />
-            <RelatedContentGrid heading="Related patterns" patterns={related.patterns} />
+          <div className="flex flex-col gap-8 md:gap-14">
+            <RelatedContentGrid heading="Works" sources={related.works} collapsible />
             <RelatedContentGrid
-              heading="Related books"
-              books={related.books}
-              booksForCovers={graph.books}
+              heading="Related concepts"
+              concepts={related.concepts}
+              collapsible
             />
+            <RelatedContentGrid
+              heading="Related patterns"
+              patterns={related.patterns}
+              collapsible
+            />
+            <RelatedBooksSection books={related.books} collapsible />
           </div>
         </Section>
       ) : null}

@@ -1,8 +1,8 @@
 # Explore discovery mobile redesign
 
-**Status:** Active specialized site plan (Phases 0–2 complete; Phases 3–6 planned)  
+**Status:** Active specialized site plan (Phases 0–3 complete; Phases 4–6 planned)  
 **Created:** 2026-08-03  
-**Updated:** 2026-08-03 (Phase 2 atlas detail core)  
+**Updated:** 2026-08-03 (Phase 3 atlas related / graph chrome)  
 **Location:** `apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
 
@@ -501,7 +501,7 @@ flowchart TD
 | **Depends on** | Phase 2 recommended (same detail pages); can overlap carefully |
 | **Ship independently** | Prefer after Phase 2 |
 | **Likely files** | Detail pages above; `related-content-grid.tsx` / wrappers; `related-books` via `CompactBookRow`; `semantic-relationships-section.tsx`; `graph-neighborhood-cards.tsx` |
-| **Status** | Planned |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -510,12 +510,21 @@ flowchart TD
 3. Collapse relationships and neighborhood sections on mobile by default.
 4. Verify `ExploreAdjacentNav` at 320px (no overflow).
 
+**Shipped (Phase 3):**
+
+- `RelatedContentGrid` `collapsible` — mobile disclosure + compact cards; book layouts unchanged
+- `RelatedBooksSection` `collapsible` — `CompactBookRow` list behind disclosure on atlas detail
+- Concepts/thinkers/sources/situations related sections wired with counts; denser section tokens
+- `SemanticRelationshipsSection` `collapsibleDynamics` on concept + source detail
+- `GraphNeighborhoodCards` `collapsible` on concept neighborhood
+- `ExploreAdjacentNav` overflow/wrap regression covered in Vitest
+
 **Acceptance:**
 
-- Related sections collapsed with counts on mobile; open from `md`
-- Related books readable as compact rows
-- No horizontal overflow @ 320px
-- Observatory CTA still reachable
+- [x] Related sections collapsed with counts on mobile; open from `md`
+- [x] Related books readable as compact rows
+- [x] No horizontal overflow @ 320px
+- [x] Observatory CTA still reachable
 
 ### Phase 4 — Questions & trails indexes
 
@@ -659,10 +668,10 @@ Update as implementation phases land.
 
 ### Phase 3
 
-- [ ] Related grids collapsed with counts on mobile
-- [ ] Related books use compact rows when covers exist
-- [ ] Relationships / neighborhood collapsed on mobile where present
-- [ ] No overflow @ 320px on atlas detail
+- [x] Related grids collapsed with counts on mobile
+- [x] Related books use compact rows when covers exist
+- [x] Relationships / neighborhood collapsed on mobile where present
+- [x] No overflow @ 320px on atlas detail
 
 ### Phase 4
 

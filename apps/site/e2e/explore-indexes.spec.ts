@@ -84,4 +84,17 @@ test.describe("Explore index mobile parity", () => {
       await expect(enrichmentToggle).toHaveAttribute("aria-expanded", "true");
     }
   });
+
+  test("concept detail collapses related sections on mobile", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/explore/concepts/certainty");
+
+    await expect(page.getByRole("heading", { name: "Certainty", level: 1 })).toBeVisible();
+    const relatedToggle = page.getByRole("button", { name: /Related (concepts|patterns|books)/i }).first();
+    if (await relatedToggle.count()) {
+      await expect(relatedToggle).toHaveAttribute("aria-expanded", "false");
+      await relatedToggle.click();
+      await expect(relatedToggle).toHaveAttribute("aria-expanded", "true");
+    }
+  });
 });
