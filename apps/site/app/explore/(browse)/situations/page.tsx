@@ -3,6 +3,7 @@ import { exploreIndexCatalogGridClassName } from "@/components/explore/explore-c
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { SituationCard } from "@/components/explore/situation-card";
 import { Section } from "@/components/ui/section";
+import { exploreIndexCountLabel } from "@/lib/explore/explore-index-browse";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 
@@ -24,9 +25,11 @@ export default async function ExploreSituationsIndexPage() {
         eyebrow="Lived terrain"
         title="Situations"
         headingId="explore-situations-heading"
+        density="editorial"
+        countLabel={exploreIndexCountLabel(situations.length, "situation")}
         lede="Concrete scenarios where patterns take hold — recognition signals, active structures, and paths back toward correction."
       />
-      <Section atmosphere="transition" className="border-t border-border/25 py-10 md:py-20">
+      <Section atmosphere="transition" className="border-t border-border/25 py-6 md:py-16">
         {situations.length === 0 ? (
           <p className="text-muted">No situations are published in the manifest yet.</p>
         ) : (

@@ -6,6 +6,7 @@ import { ExploreIndexPagination } from "@/components/explore/explore-index-pagin
 import { ExploreIndexSearch } from "@/components/explore/explore-index-search";
 import { Section } from "@/components/ui/section";
 import {
+  exploreIndexCountLabel,
   filterExploreIndexItems,
   paginateExploreIndexItems,
   parseExploreIndexPage,
@@ -79,9 +80,11 @@ export default async function ExploreConceptsIndexPage({
         eyebrow="Glossary"
         title="Concepts"
         headingId="explore-concepts-heading"
+        density="editorial"
+        countLabel={exploreIndexCountLabel(concepts.length, "concept")}
         lede="Each entry is a coordinate in the atlas — open one to move along relationships, patterns, books, and thinkers."
       />
-      <Section atmosphere="none" className="border-t border-border/25 py-10 md:py-20">
+      <Section atmosphere="none" className="border-t border-border/25 py-6 md:py-16">
         {concepts.length === 0 ? (
           <p className="text-muted">No concepts are published in the manifest yet.</p>
         ) : (

@@ -3,6 +3,7 @@ import { describe, expect, it } from "vitest";
 import {
   EXPLORE_INDEX_PAGE_SIZE,
   exploreIndexBrowseQueryString,
+  exploreIndexCountLabel,
   filterExploreIndexItems,
   paginateExploreIndexItems,
   parseExploreIndexPage,
@@ -94,5 +95,14 @@ describe("exploreIndexBrowseQueryString", () => {
     expect(exploreIndexBrowseQueryString("dewey", 1)).toBe("?q=dewey");
     expect(exploreIndexBrowseQueryString("", 2)).toBe("?page=2");
     expect(exploreIndexBrowseQueryString("dewey", 2)).toBe("?q=dewey&page=2");
+  });
+});
+
+describe("exploreIndexCountLabel", () => {
+  it("uses singular and plural forms", () => {
+    expect(exploreIndexCountLabel(1, "concept")).toBe("1 concept");
+    expect(exploreIndexCountLabel(24, "concept")).toBe("24 concepts");
+    expect(exploreIndexCountLabel(0, "thinker")).toBe("0 thinkers");
+    expect(exploreIndexCountLabel(2, "person", "people")).toBe("2 people");
   });
 });

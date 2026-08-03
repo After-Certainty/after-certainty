@@ -6,6 +6,7 @@ import { ExploreIndexSearch } from "@/components/explore/explore-index-search";
 import { SourceCard } from "@/components/explore/source-card";
 import { Section } from "@/components/ui/section";
 import {
+  exploreIndexCountLabel,
   filterExploreIndexItems,
   paginateExploreIndexItems,
   parseExploreIndexPage,
@@ -94,9 +95,11 @@ export default async function ExploreSourcesIndexPage({
         eyebrow="Works"
         title="Sources"
         headingId="explore-sources-heading"
+        density="editorial"
+        countLabel={exploreIndexCountLabel(sources.length, "source")}
         lede="Books, articles, reports, and other research works — bibliographic entries linked across the graph."
       />
-      <Section atmosphere="transition" className="border-t border-border/25 py-10 md:py-20">
+      <Section atmosphere="transition" className="border-t border-border/25 py-6 md:py-16">
         {sources.length === 0 ? (
           <p className="text-muted">No sources are published in the manifest yet.</p>
         ) : (

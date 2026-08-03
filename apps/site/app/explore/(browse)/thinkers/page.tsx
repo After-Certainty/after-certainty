@@ -6,6 +6,7 @@ import { ExploreIndexSearch } from "@/components/explore/explore-index-search";
 import { ThinkerCard } from "@/components/explore/thinker-card";
 import { Section } from "@/components/ui/section";
 import {
+  exploreIndexCountLabel,
   filterExploreIndexItems,
   paginateExploreIndexItems,
   parseExploreIndexPage,
@@ -73,9 +74,11 @@ export default async function ExploreThinkersIndexPage({
         eyebrow="Voices"
         title="Thinkers"
         headingId="explore-thinkers-heading"
+        density="editorial"
+        countLabel={exploreIndexCountLabel(thinkers.length, "thinker")}
         lede="Philosophers, social scientists, and institutions — grouped as people and organizations rather than individual bibliographic works."
       />
-      <Section atmosphere="transition" className="border-t border-border/25 py-10 md:py-20">
+      <Section atmosphere="transition" className="border-t border-border/25 py-6 md:py-16">
         {thinkers.length === 0 ? (
           <p className="text-muted">No thinkers are published in the manifest yet.</p>
         ) : (

@@ -71,3 +71,12 @@ export function exploreIndexBrowseQueryString(q: string, page: number): string {
   const s = params.toString();
   return s ? `?${s}` : "";
 }
+
+/** Unfiltered catalog count line for editorial index heroes (e.g. "24 concepts"). */
+export function exploreIndexCountLabel(
+  count: number,
+  singular: string,
+  plural: string = `${singular}s`,
+): string {
+  return `${count} ${count === 1 ? singular : plural}`;
+}

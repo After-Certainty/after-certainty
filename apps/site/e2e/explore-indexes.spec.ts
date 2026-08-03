@@ -39,6 +39,17 @@ test.describe("Explore index mobile parity", () => {
     await page.goto("/explore/concepts");
 
     await expect(page.getByRole("heading", { name: "Concepts", level: 1 })).toBeVisible();
+    await expect(page.locator('[data-density="editorial"]')).toBeVisible();
+    await expect(page.getByText(/\d+ concepts?/i).first()).toBeVisible();
     await expect(page.getByText("View Concept →").first()).toBeVisible();
+  });
+
+  test("thinkers index uses editorial hero density on mobile", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/explore/thinkers");
+
+    await expect(page.getByRole("heading", { name: "Thinkers", level: 1 })).toBeVisible();
+    await expect(page.locator('[data-density="editorial"]')).toBeVisible();
+    await expect(page.getByText(/\d+ thinkers?/i).first()).toBeVisible();
   });
 });
