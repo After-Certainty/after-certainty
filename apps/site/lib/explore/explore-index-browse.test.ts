@@ -96,6 +96,17 @@ describe("exploreIndexBrowseQueryString", () => {
     expect(exploreIndexBrowseQueryString("", 2)).toBe("?page=2");
     expect(exploreIndexBrowseQueryString("dewey", 2)).toBe("?q=dewey&page=2");
   });
+
+  it("preserves extra catalog params", () => {
+    expect(
+      exploreIndexBrowseQueryString("x", 2, [
+        ["type", "person"],
+        ["sort", "name-desc"],
+        ["q", "ignored"],
+        ["page", "9"],
+      ]),
+    ).toBe("?type=person&sort=name-desc&q=x&page=2");
+  });
 });
 
 describe("exploreIndexCountLabel", () => {

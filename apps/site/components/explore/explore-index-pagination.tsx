@@ -12,10 +12,17 @@ type ExploreIndexPaginationProps = {
   endIndex: number;
   /** Accessible name for the nav, e.g. "Thinkers pagination". */
   label: string;
+  /** Extra query params to preserve across pages (e.g. type/kind/sort). */
+  preserveParams?: Iterable<[string, string]>;
 };
 
-function pageHref(pathname: string, query: string, page: number): string {
-  return `${pathname}${exploreIndexBrowseQueryString(query, page)}`;
+function pageHref(
+  pathname: string,
+  query: string,
+  page: number,
+  preserveParams?: Iterable<[string, string]>,
+): string {
+  return `${pathname}${exploreIndexBrowseQueryString(query, page, preserveParams)}`;
 }
 
 /** Compact page number list: always includes 1, last, current ±1, with ellipses. */
@@ -56,6 +63,7 @@ export function ExploreIndexPagination({
   startIndex,
   endIndex,
   label,
+  preserveParams,
 }: ExploreIndexPaginationProps) {
   if (totalPages <= 1) return null;
 
@@ -77,7 +85,7 @@ export function ExploreIndexPagination({
       <div className="flex flex-wrap items-center gap-2">
         {page > 1 ? (
           <Link
-            href={pageHref(pathname, query, page - 1)}
+            href={pageHref(pathname, query, page - 1, preserveParams)}
             className="rounded-sm border border-border/80 px-3 py-2 text-xs uppercase tracking-[0.2em] text-fg transition-colors hover:border-accent/40 hover:text-accent"
             rel="prev"
           >
@@ -106,7 +114,7 @@ export function ExploreIndexPagination({
                   </span>
                 ) : (
                   <Link
-                    href={pageHref(pathname, query, entry)}
+                    href={pageHref(pathname, query, entry, preserveParams)}
                     className="inline-flex min-w-9 items-center justify-center rounded-sm border border-border/80 px-2 py-2 text-xs text-fg transition-colors hover:border-accent/40 hover:text-accent"
                   >
                     {entry}
@@ -119,7 +127,7 @@ export function ExploreIndexPagination({
 
         {page < totalPages ? (
           <Link
-            href={pageHref(pathname, query, page + 1)}
+            href={pageHref(pathname, query, page + 1, preserveParams)}
             className="rounded-sm border border-border/80 px-3 py-2 text-xs uppercase tracking-[0.2em] text-fg transition-colors hover:border-accent/40 hover:text-accent"
             rel="next"
           >

@@ -63,8 +63,20 @@ export function paginateExploreIndexItems<T>(
 }
 
 /** Build a `?q=&page=` query string, omitting defaults (`page=1`, empty `q`). */
-export function exploreIndexBrowseQueryString(q: string, page: number): string {
+export function exploreIndexBrowseQueryString(
+  q: string,
+  page: number,
+  /** Extra params to preserve (e.g. `type` / `kind` / `sort`). `q` and `page` are ignored here. */
+  preserve?: Iterable<[string, string]> | null,
+): string {
   const params = new URLSearchParams();
+  if (preserve) {
+    for (const [key, value] of preserve) {
+      if (key === "q" || key === "page") continue;
+      if (!value) continue;
+      params.set(key, value);
+    }
+  }
   const trimmed = q.trim();
   if (trimmed) params.set("q", trimmed);
   if (page > 1) params.set("page", String(page));

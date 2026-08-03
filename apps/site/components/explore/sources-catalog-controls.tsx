@@ -1,0 +1,214 @@
+"use client";
+
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useMemo } from "react";
+
+import { CaretDownIcon, FunnelSimpleIcon, XIcon } from "@/components/icons/approved";
+import { SiteIcon } from "@/components/icons/site-icon";
+import {
+  buildSourcesFilterOptions,
+  sourceKindChipLabel,
+  type SourcesCatalogFilterOptions,
+} from "@/lib/explore/sources-catalog-query";
+import {
+  parseSourcesCatalogUrlState,
+  sourcesCatalogBrowseQueryString,
+  type SourcesCatalogUrlState,
+} from "@/lib/explore/sources-catalog-url-state";
+import { explorePaths } from "@/lib/graph/explorePaths";
+import type { Source, SourceKind } from "@/types/semanticGraph";
+
+type SourcesCatalogControlsProps = {
+  allSources: readonly Source[];
+  matchCount: number;
+};
+
+function toggleValue<T extends string>(values: readonly T[], value: T): T[] {
+  return values.includes(value) ? values.filter((v) => v !== value) : [...values, value];
+}
+
+function activeFilterCount(state: SourcesCatalogUrlState): number {
+  let count = state.kinds.length;
+  if (state.sort !== "recommended") count += 1;
+  if (state.q) count += 1;
+  return count;
+}
+
+function FilterToggle({
+  pressed,
+  label,
+  onClick,
+}: {
+  pressed: boolean;
+  label: string;
+  onClick: () => void;
+}) {
+  return (
+    <button
+      type="button"
+      aria-pressed={pressed}
+      onClick={onClick}
+      className="min-h-11 rounded-sm border border-border/50 px-4 py-2 text-xs uppercase tracking-[0.14em] text-muted transition-colors hover:border-accent/40 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent aria-pressed:border-accent/50 aria-pressed:text-accent"
+    >
+      {label}
+    </button>
+  );
+}
+
+function FilterFieldsets({
+  urlState,
+  filterOptions,
+  onToggleKind,
+  onSortChange,
+}: {
+  urlState: SourcesCatalogUrlState;
+  filterOptions: SourcesCatalogFilterOptions;
+  onToggleKind: (kind: SourceKind) => void;
+  onSortChange: (sort: SourcesCatalogUrlState["sort"]) => void;
+}) {
+  return (
+    <>
+      {filterOptions.kinds.length > 1 ? (
+        <fieldset>
+          <legend className="text-[10px] uppercase tracking-[0.28em] text-muted">Kind</legend>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {filterOptions.kinds.map((kind) => (
+              <FilterToggle
+                key={kind}
+                pressed={urlState.kinds.includes(kind)}
+                label={sourceKindChipLabel(kind)}
+                onClick={() => onToggleKind(kind)}
+              />
+            ))}
+          </div>
+        </fieldset>
+      ) : null}
+
+      <fieldset>
+        <legend className="text-[10px] uppercase tracking-[0.28em] text-muted">Sort</legend>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {filterOptions.sorts.map((sort) => (
+            <FilterToggle
+              key={sort.value}
+              pressed={urlState.sort === sort.value}
+              label={sort.label}
+              onClick={() => onSortChange(sort.value)}
+            />
+          ))}
+        </div>
+      </fieldset>
+    </>
+  );
+}
+
+function SourcesCatalogControlsInner({ allSources, matchCount }: SourcesCatalogControlsProps) {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const filterOptions = useMemo(() => buildSourcesFilterOptions(allSources), [allSources]);
+
+  const urlState = useMemo(
+    () =>
+      parseSourcesCatalogUrlState({
+        kind: searchParams.get("kind"),
+        sort: searchParams.get("sort"),
+        q: searchParams.get("q"),
+      }),
+    [searchParams],
+  );
+
+  function replaceState(next: SourcesCatalogUrlState) {
+    const qs = sourcesCatalogBrowseQueryString(next);
+    router.replace(`${pathname}${qs}`, { scroll: false });
+  }
+
+  function updateState(patch: Partial<SourcesCatalogUrlState>) {
+    replaceState({ ...urlState, ...patch });
+  }
+
+  const filterCount = activeFilterCount(urlState);
+  const chips: { label: string; remove: () => void }[] = [];
+  for (const kind of urlState.kinds) {
+    chips.push({
+      label: sourceKindChipLabel(kind),
+      remove: () => updateState({ kinds: urlState.kinds.filter((k) => k !== kind) }),
+    });
+  }
+  if (urlState.sort !== "recommended") {
+    const sortLabel =
+      filterOptions.sorts.find((s) => s.value === urlState.sort)?.label ?? urlState.sort;
+    chips.push({
+      label: `Sort: ${sortLabel}`,
+      remove: () => updateState({ sort: "recommended" }),
+    });
+  }
+
+  return (
+    <div className="space-y-4 md:space-y-6">
+      <details className="border-b border-border/40 md:hidden">
+        <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 py-2.5 text-sm font-medium text-fg [&::-webkit-details-marker]:hidden">
+          <span className="flex min-w-0 items-center gap-2">
+            <SiteIcon icon={FunnelSimpleIcon} size="sm" className="text-accent" />
+            <span>Filter &amp; sort</span>
+          </span>
+          <span className="flex shrink-0 items-center gap-2 text-xs font-normal text-muted">
+            {filterCount > 0 ? <span className="text-accent">{filterCount} active</span> : null}
+            <span aria-hidden="true">
+              {matchCount} {matchCount === 1 ? "match" : "matches"}
+            </span>
+            <SiteIcon icon={CaretDownIcon} size="sm" className="text-muted" />
+          </span>
+        </summary>
+        <div className="space-y-4 border-t border-border/35 pb-4 pt-3">
+          <FilterFieldsets
+            urlState={urlState}
+            filterOptions={filterOptions}
+            onToggleKind={(kind) => updateState({ kinds: toggleValue(urlState.kinds, kind) })}
+            onSortChange={(sort) => updateState({ sort })}
+          />
+        </div>
+      </details>
+
+      <div className="hidden space-y-6 md:block">
+        <FilterFieldsets
+          urlState={urlState}
+          filterOptions={filterOptions}
+          onToggleKind={(kind) => updateState({ kinds: toggleValue(urlState.kinds, kind) })}
+          onSortChange={(sort) => updateState({ sort })}
+        />
+      </div>
+
+      {chips.length > 0 ? (
+        <div className="flex flex-wrap items-center gap-2">
+          {chips.map((chip) => (
+            <button
+              key={chip.label}
+              type="button"
+              aria-label={`Remove ${chip.label}`}
+              onClick={chip.remove}
+              className="inline-flex min-h-11 items-center gap-1.5 rounded-sm border border-border/60 px-3 py-2 text-xs text-muted transition-colors hover:border-accent/40 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+            >
+              {chip.label}
+              <SiteIcon icon={XIcon} size={14} weight="regular" className="opacity-80" />
+            </button>
+          ))}
+          <button
+            type="button"
+            onClick={() => router.replace(explorePaths.sources, { scroll: false })}
+            className="min-h-11 px-3 py-2 text-xs text-accent underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          >
+            Clear all
+          </button>
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+export function SourcesCatalogControls(props: SourcesCatalogControlsProps) {
+  return (
+    <Suspense fallback={null}>
+      <SourcesCatalogControlsInner {...props} />
+    </Suspense>
+  );
+}

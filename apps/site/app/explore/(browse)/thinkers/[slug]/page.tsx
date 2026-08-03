@@ -18,13 +18,9 @@ import { getThinkerBySlug } from "@/lib/graph/graphQueries";
 import { relatedContentForThinker } from "@/lib/graph/relatedContent";
 import { createPageMetadata } from "@/lib/metadata";
 import { buildThinkerPageJsonLd } from "@/lib/seo/json-ld";
-import type { Thinker } from "@/types/semanticGraph";
+import { thinkerTypeLabel } from "@/lib/explore/thinker-taxonomy";
 
 type PageProps = { params: Promise<{ slug: string }> };
-
-function thinkerTypeLabel(type: Thinker["type"]): string {
-  return type === "organization" ? "Organization" : "Person";
-}
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
