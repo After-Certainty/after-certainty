@@ -4,6 +4,7 @@ import Image from "next/image";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import { StatusLabel } from "@/components/books/status-label";
+import { DisclosureChevron } from "@/components/ui/disclosure-chevron";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import { catalogExceptionalChip } from "@/lib/books/public-status";
 
@@ -18,25 +19,6 @@ type CatalogBookCardProps = {
    */
   layout?: CatalogBookCardLayout;
 };
-
-function ListChevron() {
-  return (
-    <svg
-      viewBox="0 0 20 20"
-      fill="none"
-      aria-hidden
-      className="h-5 w-5 shrink-0 text-muted transition-colors group-hover:text-accent"
-    >
-      <path
-        d="M7.5 5L12.5 10L7.5 15"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
 
 function ListCover({ book }: { book: CatalogBookView }) {
   const src = book.coverThumbnail ?? book.coverImage;
@@ -193,7 +175,7 @@ export function CatalogBookCard({ book, location, layout = "responsive" }: Catal
         >
           <ListCover book={book} />
           <ListMeta book={book} />
-          <ListChevron />
+          <DisclosureChevron expanded={false} direction="right" />
         </TrackedLink>
       </article>
     );

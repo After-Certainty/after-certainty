@@ -4,6 +4,7 @@ import { useId, useState } from "react";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import { CatalogBookCard } from "@/components/books/catalog-book-card";
+import { DisclosureChevron } from "@/components/ui/disclosure-chevron";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
 import type { ShelfDefinition } from "@/lib/books/shelves";
 import { exploreBooksShelfHref } from "@/lib/graph/explorePaths";
@@ -16,27 +17,6 @@ type BooksShelfSectionProps = {
   /** When true, the mobile accordion starts expanded (Start Here). */
   defaultOpen?: boolean;
 };
-
-function Chevron({ expanded }: { expanded: boolean }) {
-  return (
-    <svg
-      viewBox="0 0 20 20"
-      fill="none"
-      aria-hidden
-      className={`h-5 w-5 shrink-0 text-muted transition-transform duration-200 motion-reduce:transition-none ${
-        expanded ? "rotate-180" : ""
-      }`}
-    >
-      <path
-        d="M5 7.5L10 12.5L15 7.5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
 
 export function BooksShelfSection({
   shelf,
@@ -80,7 +60,7 @@ export function BooksShelfSection({
             <span className="text-[11px] leading-none text-muted">{bookCountLabel}</span>
           </span>
         </span>
-        <Chevron expanded={open} />
+        <DisclosureChevron expanded={open} />
       </button>
 
       <div className="hidden space-y-3 md:block">
