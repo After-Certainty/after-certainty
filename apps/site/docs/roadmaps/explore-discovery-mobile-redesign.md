@@ -1,8 +1,8 @@
 # Explore discovery mobile redesign
 
-**Status:** Active specialized site plan (Phases 0–1b complete; Phases 2–6 planned)  
+**Status:** Active specialized site plan (Phases 0–2 complete; Phases 3–6 planned)  
 **Created:** 2026-08-03  
-**Updated:** 2026-08-03 (Phase 1b thinkers/sources catalog controls)  
+**Updated:** 2026-08-03 (Phase 2 atlas detail core)  
 **Location:** `apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
 
@@ -459,6 +459,7 @@ flowchart TD
 - [x] Pagination resets on filter/sort change; `q` still works
 - [x] Empty states; no concept facet
 - [x] Unit tests for URL parse/serialize; Playwright filter/sort deep-links
+
 ### Phase 2 — Atlas detail core
 
 **Objective:** Intro disclosure for long prose; denser detail headers; collapse enrichment on mobile.
@@ -468,7 +469,7 @@ flowchart TD
 | **Depends on** | Phase 0 (intro disclosure) |
 | **Ship independently** | Yes after Phase 0 |
 | **Likely files** | `concepts/[slug]/page.tsx`, `thinkers/[slug]/page.tsx`, `sources/[slug]/page.tsx`, `situations/[slug]/page.tsx`, `explore-enrichment-sections.tsx` |
-| **Status** | Planned |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -477,12 +478,19 @@ flowchart TD
 3. Collapse enrichment blocks behind disclosures with counts (or one grouped enrichment disclosure).
 4. Omit empty shells; do not invent at-a-glance fields.
 
+**Shipped (Phase 2):**
+
+- `entity-intro-teaser` helpers (`~280` char threshold); wired on concepts/thinkers/sources/situations detail
+- Denser detail headers (`pt-6 md:pt-14`) matching Patterns
+- Enrichment blocks collapse on mobile via `MobileDisclosure` with counts; display headings retained from `md`
+- Situations enrichment section omitted when empty
+
 **Acceptance:**
 
-- Core thesis / title visible quickly on mobile
-- Full definition remains in DOM / expandable
-- Enrichment not painting a long stack by default on mobile
-- Desktop always-open enrichment / intro from `md`
+- [x] Core thesis / title visible quickly on mobile
+- [x] Full definition remains in DOM / expandable
+- [x] Enrichment not painting a long stack by default on mobile
+- [x] Desktop always-open enrichment / intro from `md`
 
 ### Phase 3 — Atlas related / graph chrome
 
@@ -645,9 +653,9 @@ Update as implementation phases land.
 
 ### Phase 2
 
-- [ ] Long atlas intro prose uses mobile disclosure; short prose stays always visible
-- [ ] Enrichment collapsed on mobile with counts (where enrichment exists)
-- [ ] Desktop intro/enrichment open from `md`
+- [x] Long atlas intro prose uses mobile disclosure; short prose stays always visible
+- [x] Enrichment collapsed on mobile with counts (where enrichment exists)
+- [x] Desktop intro/enrichment open from `md`
 
 ### Phase 3
 

@@ -71,4 +71,17 @@ test.describe("Explore index mobile parity", () => {
     await expect(page.getByRole("button", { name: "article", pressed: true })).toBeVisible();
     await expect(page.getByRole("button", { name: "Title A–Z", pressed: true })).toBeVisible();
   });
+
+  test("concept detail collapses enrichment on mobile when present", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/explore/concepts/certainty");
+
+    await expect(page.getByRole("heading", { name: "Certainty", level: 1 })).toBeVisible();
+    const enrichmentToggle = page.getByRole("button", { name: /Recognition signals/i }).first();
+    if (await enrichmentToggle.count()) {
+      await expect(enrichmentToggle).toHaveAttribute("aria-expanded", "false");
+      await enrichmentToggle.click();
+      await expect(enrichmentToggle).toHaveAttribute("aria-expanded", "true");
+    }
+  });
 });
