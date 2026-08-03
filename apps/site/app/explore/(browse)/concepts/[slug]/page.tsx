@@ -6,6 +6,7 @@ import { ExploreEnrichmentSections, hasSemanticEnrichment } from "@/components/e
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { GraphNeighborhoodCards } from "@/components/explore/graph-neighborhood-cards";
+import { RelatedBooksSection } from "@/components/explore/related-books-section";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { RelatedChaptersSection } from "@/components/explore/related-chapters-section";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
@@ -199,20 +200,26 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
       {hasRelated ? (
         <Section
           atmosphere="transition"
-          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+          className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
-          <div className="flex flex-col gap-14">
-            <RelatedContentGrid heading="Related concepts" concepts={related.concepts} />
-            <RelatedContentGrid heading="Related patterns" patterns={related.patterns} />
+          <div className="flex flex-col gap-8 md:gap-14">
             <RelatedContentGrid
-              heading="Related books"
-              books={related.books}
-              booksForCovers={graph.books}
+              heading="Related concepts"
+              concepts={related.concepts}
+              collapsible
             />
+            <RelatedContentGrid
+              heading="Related patterns"
+              patterns={related.patterns}
+              collapsible
+            />
+            <RelatedBooksSection books={related.books} collapsible />
             <RelatedContentGrid
               heading="Thinkers & sources"
               thinkers={related.thinkers}
               sources={mergedSources}
+              collapsible
+              disclosureId="thinkers-sources"
             />
           </div>
         </Section>
@@ -232,6 +239,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
             focalCanonicalId={concept.id}
             focalKind="concept"
             focalSlug={concept.slug}
+            collapsibleDynamics
           />
         </Section>
       ) : null}
@@ -241,6 +249,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
           <GraphNeighborhoodCards
             nodes={uniqueNeighbors}
             title="Neighboring terrain (other connected entities)"
+            collapsible
           />
         </Section>
       ) : null}
