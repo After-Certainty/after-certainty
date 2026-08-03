@@ -1,5 +1,7 @@
 "use client";
 
+import { MagnifyingGlassIcon } from "@/components/icons/approved";
+import { SiteIcon } from "@/components/icons/site-icon";
 import { useSearchPalette } from "@/components/search/search-palette-provider";
 
 type HeaderSearchButtonProps = {
@@ -30,20 +32,7 @@ export function HeaderSearchButton({
       aria-expanded={open}
       onClick={() => openSearch(method)}
     >
-      <svg
-        className="h-4 w-4 shrink-0"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        aria-hidden
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M21 21l-4.35-4.35M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15z"
-        />
-      </svg>
+      <SiteIcon icon={MagnifyingGlassIcon} size="sm" weight="regular" />
       {label ? (
         <span>{label}</span>
       ) : (

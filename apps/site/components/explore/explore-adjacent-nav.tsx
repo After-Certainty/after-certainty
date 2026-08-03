@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+import { SiteIcon } from "@/components/icons/site-icon";
+import { CaretLeftIcon, CaretRightIcon } from "@/components/icons/approved";
+
 type Adjacent = { slug: string; title: string };
 
 export type ExploreAdjacentNavProps = {
@@ -40,11 +43,13 @@ export function ExploreAdjacentNav({
             aria-label={`Previous ${entityLabel}: ${prev.title}`}
           >
             <span className="text-[11px] uppercase tracking-[0.28em] text-muted">Previous</span>
-            <span className="mt-1 block font-display text-base font-medium leading-snug tracking-tight text-fg transition-colors group-hover:text-accent sm:text-lg">
-              <span aria-hidden className="text-muted group-hover:text-accent">
-                ←{" "}
-              </span>
-              {prev.title}
+            <span className="mt-1 flex items-start gap-1.5 font-display text-base font-medium leading-snug tracking-tight text-fg transition-colors group-hover:text-accent sm:text-lg">
+              <SiteIcon
+                icon={CaretLeftIcon}
+                size="sm"
+                className="mt-1 text-muted group-hover:text-accent"
+              />
+              <span className="min-w-0">{prev.title}</span>
             </span>
           </Link>
         ) : null}
@@ -57,12 +62,13 @@ export function ExploreAdjacentNav({
             aria-label={`Next ${entityLabel}: ${next.title}`}
           >
             <span className="text-[11px] uppercase tracking-[0.28em] text-muted">Next</span>
-            <span className="mt-1 block font-display text-base font-medium leading-snug tracking-tight text-fg transition-colors group-hover:text-accent sm:text-lg">
-              {next.title}
-              <span aria-hidden className="text-muted group-hover:text-accent">
-                {" "}
-                →
-              </span>
+            <span className="mt-1 flex items-start justify-end gap-1.5 font-display text-base font-medium leading-snug tracking-tight text-fg transition-colors group-hover:text-accent sm:text-lg">
+              <span className="min-w-0">{next.title}</span>
+              <SiteIcon
+                icon={CaretRightIcon}
+                size="sm"
+                className="mt-1 text-muted group-hover:text-accent"
+              />
             </span>
           </Link>
         ) : null}

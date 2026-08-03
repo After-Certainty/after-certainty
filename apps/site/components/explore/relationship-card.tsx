@@ -3,6 +3,11 @@
 import Link from "next/link";
 import type { MouseEvent } from "react";
 
+import { SiteIcon } from "@/components/icons/site-icon";
+import {
+  dynamicsDirectionIcons,
+  observatoryIcon,
+} from "@/components/icons/semantic";
 import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
 import type { Relationship } from "@/types/semanticGraph";
 
@@ -40,6 +45,13 @@ export function RelationshipCard({
   isActive = false,
   direction,
 }: RelationshipCardProps) {
+  const DirectionIcon =
+    direction === "incoming"
+      ? dynamicsDirectionIcons.incoming
+      : direction === "outgoing"
+        ? dynamicsDirectionIcons.outgoing
+        : null;
+
   const inner = (
     <div className="space-y-1.5">
       <p className="text-[10px] uppercase tracking-[0.22em] text-accent">
@@ -47,11 +59,15 @@ export function RelationshipCard({
       </p>
       {direction ? (
         <p className="flex items-center gap-2 font-display text-lg text-fg">
-          {direction === "incoming" && (
-            <span className="text-accent" aria-label="incoming">
-              ←
-            </span>
-          )}
+          {direction === "incoming" && DirectionIcon ? (
+            <SiteIcon
+              icon={DirectionIcon}
+              size="sm"
+              className="text-accent"
+              decorative={false}
+              aria-label="incoming"
+            />
+          ) : null}
           {counterpartyHref ? (
             <Link
               href={counterpartyHref}
@@ -64,11 +80,15 @@ export function RelationshipCard({
           ) : (
             <span>{counterpartyLabel}</span>
           )}
-          {direction === "outgoing" && (
-            <span className="text-accent" aria-label="outgoing">
-              →
-            </span>
-          )}
+          {direction === "outgoing" && DirectionIcon ? (
+            <SiteIcon
+              icon={DirectionIcon}
+              size="sm"
+              className="text-accent"
+              decorative={false}
+              aria-label="outgoing"
+            />
+          ) : null}
         </p>
       ) : counterpartyHref ? (
         <Link
@@ -89,10 +109,11 @@ export function RelationshipCard({
         <p className="pt-1">
           <Link
             href={observatoryHref}
-            className="text-[10px] uppercase tracking-[0.18em] text-accent hover:underline"
+            className="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-[0.18em] text-accent hover:underline"
             onClick={stopNav}
             onPointerDown={stopNav}
           >
+            <SiteIcon icon={observatoryIcon} size="sm" className="text-accent" />
             Open in observatory
           </Link>
         </p>

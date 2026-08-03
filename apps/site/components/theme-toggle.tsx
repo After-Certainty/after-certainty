@@ -3,6 +3,9 @@
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
+import { MoonIcon, SunIcon } from "@/components/icons/approved";
+import { SiteIcon } from "@/components/icons/site-icon";
+
 /**
  * `next-themes` can resolve the theme on the client before hydration finishes, which
  * would make the first client render (button) differ from the server HTML (placeholder).
@@ -49,9 +52,12 @@ export function ThemeToggle() {
       onClick={() => setTheme(isDark ? "light" : "dark")}
       aria-label={isDark ? "Activate light appearance" : "Activate dark appearance"}
     >
-      <span aria-hidden className="text-accent">
-        {isDark ? "◐" : "◑"}
-      </span>
+      <SiteIcon
+        icon={isDark ? MoonIcon : SunIcon}
+        size="sm"
+        weight="regular"
+        className="text-accent"
+      />
       <span className="hidden sm:inline">{isDark ? "Dark" : "Light"}</span>
     </button>
   );

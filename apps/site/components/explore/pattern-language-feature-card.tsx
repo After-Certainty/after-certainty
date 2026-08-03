@@ -35,7 +35,7 @@ export function PatternLanguageFeatureCard({
             <span className="block font-display text-xl font-medium tracking-tight text-fg transition-colors group-hover:text-accent md:text-2xl">
               {master.title}
             </span>
-            <span className="mt-1 block text-xs text-accent">View master pattern →</span>
+            <span className="mt-1 block text-xs text-accent">View master pattern</span>
           </span>
           <DisclosureChevron expanded={false} direction="right" className="mt-1" />
         </Link>

@@ -4,6 +4,8 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo } from "react";
 
 import { BooksCatalogResults } from "@/components/books/books-catalog-results";
+import { CaretDownIcon, FunnelSimpleIcon, XIcon } from "@/components/icons/approved";
+import { SiteIcon } from "@/components/icons/site-icon";
 import { CONTENT_TYPE_LABELS, type ContentType } from "@/lib/books/catalog-taxonomy";
 import type { CatalogFilterOptions } from "@/lib/books/catalog-query";
 import type { CatalogBookView } from "@/lib/books/catalog-view-model";
@@ -153,7 +155,7 @@ function BooksCatalogControlsInner({ results, filterOptions }: BooksCatalogContr
       <details className="md:hidden border-b border-border/40">
         <summary className="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 py-2.5 text-sm font-medium text-fg [&::-webkit-details-marker]:hidden">
           <span className="flex min-w-0 items-center gap-2">
-            <FilterIcon />
+            <SiteIcon icon={FunnelSimpleIcon} size="sm" className="text-accent" />
             <span>Filter &amp; sort</span>
           </span>
           <span className="flex shrink-0 items-center gap-2 text-xs font-normal text-muted">
@@ -161,7 +163,7 @@ function BooksCatalogControlsInner({ results, filterOptions }: BooksCatalogContr
             <span aria-hidden="true">
               {results.length} {results.length === 1 ? "book" : "books"}
             </span>
-            <FilterChevron />
+            <SiteIcon icon={CaretDownIcon} size="sm" className="text-muted" />
           </span>
         </summary>
         <div className="space-y-4 border-t border-border/35 pb-4 pt-3">
@@ -212,9 +214,10 @@ function BooksCatalogControlsInner({ results, filterOptions }: BooksCatalogContr
               type="button"
               aria-label={`Remove ${chip.label}`}
               onClick={chip.remove}
-              className="min-h-11 rounded-sm border border-border/60 px-3 py-2 text-xs text-muted transition-colors hover:border-accent/40 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+              className="inline-flex min-h-11 items-center gap-1.5 rounded-sm border border-border/60 px-3 py-2 text-xs text-muted transition-colors hover:border-accent/40 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
             >
-              {chip.label} ×
+              {chip.label}
+              <SiteIcon icon={XIcon} size={14} weight="regular" className="opacity-80" />
             </button>
           ))}
           <button
@@ -229,33 +232,6 @@ function BooksCatalogControlsInner({ results, filterOptions }: BooksCatalogContr
 
       <BooksCatalogResults results={results} query={urlState.q} hasActiveFilters={activeFilters} />
     </div>
-  );
-}
-
-function FilterIcon() {
-  return (
-    <svg viewBox="0 0 20 20" fill="none" aria-hidden className="h-4 w-4 shrink-0 text-accent">
-      <path
-        d="M3.5 5.5h13M6 10h8M8.5 14.5h3"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
-
-function FilterChevron() {
-  return (
-    <svg viewBox="0 0 20 20" fill="none" aria-hidden className="h-4 w-4 shrink-0 text-muted">
-      <path
-        d="M5 7.5L10 12.5L15 7.5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
   );
 }
 

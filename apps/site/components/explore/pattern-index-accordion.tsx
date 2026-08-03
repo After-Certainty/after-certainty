@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 
+import { CaretRightIcon } from "@/components/icons/approved";
+import { SiteIcon } from "@/components/icons/site-icon";
 import { MobileDisclosure, MobileDisclosureGroup } from "@/components/ui/mobile-disclosure";
 import { patternIndexEyebrow, patternPreviewFields } from "@/lib/explore/pattern-preview";
 import { explorePaths } from "@/lib/graph/explorePaths";
@@ -56,9 +58,10 @@ export function PatternIndexAccordion({ patterns, className = "" }: PatternIndex
               <p>
                 <Link
                   href={`${explorePaths.patterns}/${pattern.slug}`}
-                  className="text-accent underline-offset-4 hover:underline"
+                  className="inline-flex items-center gap-1 text-accent underline-offset-4 hover:underline"
                 >
-                  View pattern →
+                  View pattern
+                  <SiteIcon icon={CaretRightIcon} size="sm" className="text-accent" />
                 </Link>
               </p>
             </div>
