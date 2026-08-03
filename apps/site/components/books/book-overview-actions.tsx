@@ -6,6 +6,9 @@ import {
   exploreSecondaryButtonClass,
 } from "@/components/explore/explore-action-buttons";
 import { ExploreObservatoryFocusLink } from "@/components/explore/explore-observatory-focus-link";
+import { ArrowSquareOutIcon } from "@/components/icons/approved";
+import { bookActionIconForKind } from "@/components/icons/semantic";
+import { SiteIcon } from "@/components/icons/site-icon";
 import { BookFavoriteControl } from "@/components/reading/book-favorite-control";
 import { AnalyticsEvents } from "@/lib/analytics/events";
 import {
@@ -73,6 +76,25 @@ function analyticsForSecondary(bookId: string, item: NonNullable<OrderedBookActi
   };
 }
 
+function ActionLabel({
+  kind,
+  label,
+  external,
+}: {
+  kind: string;
+  label: string;
+  external: boolean;
+}) {
+  const Leading = bookActionIconForKind(kind);
+  return (
+    <span className="inline-flex items-center gap-2">
+      {Leading ? <SiteIcon icon={Leading} size="sm" /> : null}
+      <span>{label}</span>
+      {external ? <SiteIcon icon={ArrowSquareOutIcon} size="sm" className="opacity-80" /> : null}
+    </span>
+  );
+}
+
 /** Primary + secondary format/purchase actions for redesigned book overviews. */
 export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewActionsProps) {
   const { primary, secondary } = actions;
@@ -98,7 +120,11 @@ export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewA
               },
             }}
           >
-            {primary.label}
+            <ActionLabel
+              kind={primary.kind}
+              label={primary.label}
+              external={!isInternalBookAction(primary.kind)}
+            />
           </TrackedLink>
         ) : (
           <ExploreObservatoryFocusLink kind="book" slug={bookSlug} variant="primary" />
@@ -112,7 +138,11 @@ export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewA
             className={exploreSecondaryButtonClass}
             analytics={analyticsForSecondary(bookId, item)}
           >
-            {item.label}
+            <ActionLabel
+              kind={item.kind}
+              label={item.label}
+              external={!isInternalBookAction(item.kind)}
+            />
           </TrackedLink>
         ))}
         {primary ? (

@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useCallback, useEffect, useId, useState } from "react";
 import { createPortal } from "react-dom";
 
+import { ListIcon, XIcon } from "@/components/icons/approved";
+import { SiteIcon } from "@/components/icons/site-icon";
 import { useSearchPalette } from "@/components/search/search-palette-provider";
 
 type NavItem = { readonly href: string; readonly label: string };
@@ -43,23 +45,7 @@ export function MobileNav({ items }: { items: readonly NavItem[] }) {
         aria-label={open ? "Close menu" : "Open menu"}
         onClick={() => setOpen((o) => !o)}
       >
-        <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden>
-          {open ? (
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M6 18L18 6M6 6l12 12"
-            />
-          ) : (
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
-            />
-          )}
-        </svg>
+        <SiteIcon icon={open ? XIcon : ListIcon} size="md" weight="regular" />
       </button>
 
       {open &&

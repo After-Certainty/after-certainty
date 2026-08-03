@@ -2,6 +2,8 @@ import Link from "next/link";
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import { SiteLockup } from "@/components/branding/site-lockup";
 import { outboundLinkAnalytics } from "@/lib/analytics/track";
+import { RssIcon } from "@/components/icons/approved";
+import { SiteIcon } from "@/components/icons/site-icon";
 import { GitHubSymbol } from "@/components/icons/social/GitHubSymbol";
 import { LinkedInSymbol } from "@/components/icons/social/LinkedInSymbol";
 import { MediumSymbol } from "@/components/icons/social/MediumSymbol";
@@ -15,6 +17,7 @@ const socialIconClass =
 
 export async function SiteFooter() {
   const semanticGraph = await getSemanticGraph();
+  const podcastRssHref = resolvePodcastRssUrl();
   const manifestDate = semanticGraph.generatedAt
     ? new Date(semanticGraph.generatedAt).toLocaleDateString("en-US", {
         year: "numeric",
@@ -24,7 +27,7 @@ export async function SiteFooter() {
     : null;
   const footerLinks = [
     { label: "GitHub", href: siteConfig.githubUrl },
-    { label: "RSS / Podcast feed", href: resolvePodcastRssUrl() },
+    { label: "RSS / Podcast feed", href: podcastRssHref },
     { label: "Start with a Question", href: "/questions" },
     { label: "Reading Trails", href: "/trails" },
     { label: "What’s New", href: "/whats-new" },
@@ -65,9 +68,12 @@ export async function SiteFooter() {
               {footerLinks.map((link) => (
                 <li key={link.href}>
                   <Link
-                    className="text-sm text-fg transition-colors hover:text-accent"
+                    className="inline-flex items-center gap-1.5 text-sm text-fg transition-colors hover:text-accent"
                     href={link.href}
                   >
+                    {link.href === podcastRssHref ? (
+                      <SiteIcon icon={RssIcon} size="sm" className="text-muted" />
+                    ) : null}
                     {link.label}
                   </Link>
                 </li>

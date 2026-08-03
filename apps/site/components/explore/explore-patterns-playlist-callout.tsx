@@ -1,4 +1,6 @@
 import { TrackedLink } from "@/components/analytics/tracked-link";
+import { PlayIcon } from "@/components/icons/approved";
+import { SiteIcon } from "@/components/icons/site-icon";
 import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { booksWithPatternsPlaylist } from "@/lib/explore/entity-media";
 import type { Book } from "@/types/semanticGraph";
@@ -9,7 +11,7 @@ type ExplorePatternsPlaylistCalloutProps = {
 
 /**
  * Compact horizontal video callout for the Patterns index.
- * Whole card is the interactive target.
+ * Whole card is the interactive target; Play icon is decorative beside the title.
  */
 export function ExplorePatternsPlaylistCallout({ books }: ExplorePatternsPlaylistCalloutProps) {
   const withPlaylist = booksWithPatternsPlaylist(books);
@@ -47,9 +49,7 @@ export function ExplorePatternsPlaylistCallout({ books }: ExplorePatternsPlaylis
               className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-accent/35 text-accent transition-colors group-hover:border-accent/60"
               aria-hidden
             >
-              <svg viewBox="0 0 20 20" fill="currentColor" className="h-3.5 w-3.5 translate-x-px">
-                <path d="M6.5 4.5v11l9-5.5-9-5.5Z" />
-              </svg>
+              <SiteIcon icon={PlayIcon} size="sm" weight="regular" className="translate-x-px" />
             </span>
           </TrackedLink>
         );
