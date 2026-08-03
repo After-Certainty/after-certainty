@@ -19,6 +19,11 @@ import { relatedContentForThinker } from "@/lib/graph/relatedContent";
 import { createPageMetadata } from "@/lib/metadata";
 import { buildThinkerPageJsonLd } from "@/lib/seo/json-ld";
 import { thinkerTypeLabel } from "@/lib/explore/thinker-taxonomy";
+import { EntityIntroDisclosure } from "@/components/explore/entity-intro-disclosure";
+import {
+  entityIntroTeaser,
+  shouldUseEntityIntroDisclosure,
+} from "@/lib/explore/entity-intro-teaser";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -64,6 +69,10 @@ export default async function ExploreThinkerDetailPage({ params }: PageProps) {
     { label: thinker.name },
   ];
 
+  const summary = thinker.summary?.trim() ?? "";
+  const summaryTeaser = entityIntroTeaser(summary);
+  const useSummaryDisclosure = shouldUseEntityIntroDisclosure(summary, summaryTeaser);
+
   return (
     <article>
       <JsonLd
@@ -72,21 +81,34 @@ export default async function ExploreThinkerDetailPage({ params }: PageProps) {
           breadcrumbs: thinkerBreadcrumbs,
         })}
       />
-      <Section atmosphere="none" className="pt-10 md:pt-14 !pb-10 md:!pb-12">
+      <Section atmosphere="none" className="pt-6 md:pt-14 !pb-6 md:!pb-12">
         <BreadcrumbTrail items={thinkerBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">
           {thinkerTypeLabel(thinker.type)}
         </p>
-        <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
+        <h1 className="mt-3 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:mt-4 md:text-5xl">
           {thinker.name}
         </h1>
-        {thinker.summary ? (
-          <p className="mt-10 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
-            <LinkifiedText text={thinker.summary} />
-          </p>
+        {summary ? (
+          useSummaryDisclosure ? (
+            <EntityIntroDisclosure
+              id="thinker-full-summary"
+              regionLabel="Full thinker summary"
+              teaser={summaryTeaser}
+              expandLabel="Read full summary"
+            >
+              <p className="text-lg leading-relaxed text-muted md:text-xl">
+                <LinkifiedText text={summary} />
+              </p>
+            </EntityIntroDisclosure>
+          ) : (
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted md:mt-10 md:text-xl">
+              <LinkifiedText text={summary} />
+            </p>
+          )
         ) : null}
         {thinker.whyThisMatters ? (
-          <div className="mt-8 max-w-2xl space-y-3">
+          <div className="mt-6 max-w-2xl space-y-3 md:mt-8">
             <h2 className="text-[11px] uppercase tracking-[0.24em] text-muted">Why this matters</h2>
             <p className="text-lg leading-relaxed text-muted md:text-xl">
               <LinkifiedText text={thinker.whyThisMatters} />

@@ -31,9 +31,14 @@ import {
   relatedBookUrls,
   relatedPatternUrls,
 } from "@/lib/seo/json-ld";
-import { getConceptFullDefinition } from "@/lib/graph/conceptFormatting";
+import { getConceptFullDefinition, getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
 import { buildPublicGroundingViewModel } from "@/lib/graph/grounding";
 import { SemanticGroundingDisclosure } from "@/components/explore/semantic-grounding-disclosure";
+import { EntityIntroDisclosure } from "@/components/explore/entity-intro-disclosure";
+import {
+  entityIntroTeaserFromFullAndShort,
+  shouldUseEntityIntroDisclosure,
+} from "@/lib/explore/entity-intro-teaser";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -116,6 +121,15 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
     ...conceptRelationshipUrls(index, concept.id),
   ];
   const grounding = buildPublicGroundingViewModel(concept.grounding, graph);
+  const fullDefinition = getConceptFullDefinition(concept);
+  const definitionTeaser = entityIntroTeaserFromFullAndShort(
+    fullDefinition,
+    getConceptDisplayDefinition(concept),
+  );
+  const useDefinitionDisclosure = shouldUseEntityIntroDisclosure(
+    fullDefinition,
+    definitionTeaser,
+  );
 
   return (
     <article>
@@ -126,17 +140,32 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
           relatedUrls,
         })}
       />
-      <Section atmosphere="none" className="pt-10 md:pt-14 !pb-10 md:!pb-12">
+      <Section atmosphere="none" className="pt-6 md:pt-14 !pb-6 md:!pb-12">
         <BreadcrumbTrail items={conceptBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Concept</p>
-        <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
+        <h1 className="mt-3 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:mt-4 md:text-5xl">
           {concept.title}
         </h1>
-        <div className="mt-8 max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:text-[17px]">
-          <p className="whitespace-pre-wrap">
-            <LinkifiedText text={getConceptFullDefinition(concept)} />
-          </p>
-        </div>
+        {useDefinitionDisclosure ? (
+          <EntityIntroDisclosure
+            id="concept-full-definition"
+            regionLabel="Full concept definition"
+            teaser={definitionTeaser}
+            expandLabel="Read full definition"
+          >
+            <div className="max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:text-[17px]">
+              <p className="whitespace-pre-wrap">
+                <LinkifiedText text={fullDefinition} />
+              </p>
+            </div>
+          </EntityIntroDisclosure>
+        ) : (
+          <div className="mt-6 max-w-2xl space-y-4 text-base leading-[1.85] text-muted md:mt-8 md:text-[17px]">
+            <p className="whitespace-pre-wrap">
+              <LinkifiedText text={fullDefinition} />
+            </p>
+          </div>
+        )}
         {grounding ? <SemanticGroundingDisclosure grounding={grounding} /> : null}
         <ExploreEntityDetailActions observatory={{ kind: "concept", slug: concept.slug }} />
         <ExploreAdjacentNav

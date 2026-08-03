@@ -16,6 +16,12 @@ import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 import { buildSituationPageJsonLd, relatedConceptUrls } from "@/lib/seo/json-ld";
 import type { Situation } from "@/types/semanticGraph";
+import { EntityIntroDisclosure } from "@/components/explore/entity-intro-disclosure";
+import {
+  entityIntroTeaser,
+  shouldUseEntityIntroDisclosure,
+} from "@/lib/explore/entity-intro-teaser";
+import { hasSemanticEnrichment } from "@/components/explore/explore-enrichment-sections";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -69,6 +75,11 @@ export default async function ExploreSituationDetailPage({ params }: PageProps) 
     { label: situation.title },
   ];
 
+  const summary = situation.summary?.trim() ?? "";
+  const summaryTeaser = entityIntroTeaser(summary);
+  const useSummaryDisclosure = shouldUseEntityIntroDisclosure(summary, summaryTeaser);
+  const showEnrichment = hasSemanticEnrichment(situation);
+
   return (
     <article>
       <JsonLd
@@ -78,15 +89,30 @@ export default async function ExploreSituationDetailPage({ params }: PageProps) 
           relatedConceptUrls: relatedConceptUrls(index, situation.relatedConcepts),
         })}
       />
-      <Section atmosphere="none" className="pt-10 md:pt-14 !pb-10 md:!pb-12">
+      <Section atmosphere="none" className="pt-6 md:pt-14 !pb-6 md:!pb-12">
         <BreadcrumbTrail items={breadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Situation</p>
-        <h1 className="mt-4 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:text-5xl">
+        <h1 className="mt-3 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:mt-4 md:text-5xl">
           {situation.title}
         </h1>
-        <p className="mt-10 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
-          <LinkifiedText text={situation.summary} />
-        </p>
+        {summary ? (
+          useSummaryDisclosure ? (
+            <EntityIntroDisclosure
+              id="situation-full-summary"
+              regionLabel="Full situation summary"
+              teaser={summaryTeaser}
+              expandLabel="Read full summary"
+            >
+              <p className="text-lg leading-relaxed text-muted md:text-xl">
+                <LinkifiedText text={summary} />
+              </p>
+            </EntityIntroDisclosure>
+          ) : (
+            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted md:mt-10 md:text-xl">
+              <LinkifiedText text={summary} />
+            </p>
+          )
+        ) : null}
         <ExploreEntityDetailActions observatory={{ kind: "situation", slug: situation.slug }} />
         <ExploreAdjacentNav
           basePath={explorePaths.situations}
@@ -96,12 +122,14 @@ export default async function ExploreSituationDetailPage({ params }: PageProps) 
         />
       </Section>
 
-      <Section
-        atmosphere="transition"
-        className="border-t border-border/25 !pt-10 md:!pt-14 !pb-14 md:!pb-20"
-      >
-        <ExploreEnrichmentSections enrichment={situation} />
-      </Section>
+      {showEnrichment ? (
+        <Section
+          atmosphere="transition"
+          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+        >
+          <ExploreEnrichmentSections enrichment={situation} />
+        </Section>
+      ) : null}
 
       {hasRelated ? (
         <Section
