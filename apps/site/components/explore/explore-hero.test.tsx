@@ -49,6 +49,8 @@ describe("ExploreIndexHero", () => {
       />,
     );
     expect(container.querySelector('[data-density="editorial"]')).toBeInTheDocument();
+    expect(container.querySelector(".explore-page__media")).toBeInTheDocument();
+    expect(container.querySelector(".explore-page__media")?.className).not.toMatch(/\bhidden\b/);
     expect(screen.getByText("43 patterns")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Patterns", level: 1 })).toBeInTheDocument();
   });
