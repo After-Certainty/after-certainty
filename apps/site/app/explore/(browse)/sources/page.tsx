@@ -4,6 +4,7 @@ import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { ExploreIndexPagination } from "@/components/explore/explore-index-pagination";
 import { ExploreIndexSearch } from "@/components/explore/explore-index-search";
 import { SourceCard } from "@/components/explore/source-card";
+import { SourcesCatalogControls } from "@/components/explore/sources-catalog-controls";
 import { Section } from "@/components/ui/section";
 import {
   exploreIndexCountLabel,
@@ -12,6 +13,8 @@ import {
   parseExploreIndexPage,
   type ExploreIndexItem,
 } from "@/lib/explore/explore-index-browse";
+import { applySourcesCatalogQuery } from "@/lib/explore/sources-catalog-query";
+import { parseSourcesCatalogUrlState } from "@/lib/explore/sources-catalog-url-state";
 import { sourcesSortedForExploreIndex } from "@/lib/explore/explore-sources-order";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { explorePaths } from "@/lib/graph/explorePaths";
@@ -30,7 +33,7 @@ export const metadata: Metadata = createPageMetadata({
 });
 
 type ExploreSourcesIndexPageProps = {
-  searchParams?: Promise<{ q?: string; page?: string }>;
+  searchParams?: Promise<{ q?: string; page?: string; kind?: string; sort?: string }>;
 };
 
 function sourceBrowseItem(source: Source): ExploreIndexItem {
@@ -76,18 +79,28 @@ export default async function ExploreSourcesIndexPage({
   searchParams,
 }: ExploreSourcesIndexPageProps) {
   const sp = searchParams ? await searchParams : {};
-  const q = typeof sp.q === "string" ? sp.q : "";
+  const catalogState = parseSourcesCatalogUrlState({
+    kind: typeof sp.kind === "string" ? sp.kind : undefined,
+    sort: typeof sp.sort === "string" ? sp.sort : undefined,
+    q: typeof sp.q === "string" ? sp.q : undefined,
+  });
+  const q = catalogState.q;
   const requestedPage = parseExploreIndexPage(typeof sp.page === "string" ? sp.page : undefined);
 
   const { graph } = await getExploreSemanticGraph();
-  const sources = sourcesSortedForExploreIndex(graph.sources);
-  const browseItems = sources.map(sourceBrowseItem);
+  const allSources = sourcesSortedForExploreIndex(graph.sources);
+  const typedSorted = applySourcesCatalogQuery(allSources, catalogState);
+  const browseItems = typedSorted.map(sourceBrowseItem);
   const filteredItems = filterExploreIndexItems(browseItems, q);
   const slice = paginateExploreIndexItems(filteredItems, requestedPage);
-  const sourceById = new Map(sources.map((s) => [s.id, s]));
+  const sourceById = new Map(typedSorted.map((s) => [s.id, s]));
   const pageSources = slice.items
     .map((item) => sourceById.get(item.id))
     .filter((s): s is Source => s != null);
+
+  const preserveParams: [string, string][] = [];
+  if (catalogState.kinds.length > 0) preserveParams.push(["kind", catalogState.kinds.join(",")]);
+  if (catalogState.sort !== "recommended") preserveParams.push(["sort", catalogState.sort]);
 
   return (
     <article>
@@ -96,27 +109,36 @@ export default async function ExploreSourcesIndexPage({
         title="Sources"
         headingId="explore-sources-heading"
         density="editorial"
-        countLabel={exploreIndexCountLabel(sources.length, "source")}
+        countLabel={exploreIndexCountLabel(allSources.length, "source")}
         lede="Books, articles, reports, and other research works — bibliographic entries linked across the graph."
       />
       <Section atmosphere="transition" className="border-t border-border/25 py-6 md:py-16">
-        {sources.length === 0 ? (
+        {allSources.length === 0 ? (
           <p className="text-muted">No sources are published in the manifest yet.</p>
         ) : (
           <>
-            <ExploreIndexSearch
-              items={sources.map(sourceSuggestionItem)}
-              initialQuery={q}
-              placeholder="Search sources…"
-              label="Find a source"
-            />
+            <SourcesCatalogControls allSources={allSources} matchCount={slice.totalItems} />
+            <div className="mt-6 md:mt-8">
+              <ExploreIndexSearch
+                items={allSources.map(sourceSuggestionItem)}
+                initialQuery={q}
+                placeholder="Search sources…"
+                label="Find a source"
+              />
+            </div>
             <p className="mt-6 text-sm text-muted" aria-live="polite">
               {q.trim()
                 ? `${slice.totalItems} match${slice.totalItems === 1 ? "" : "es"} for “${q.trim()}”`
-                : `${slice.totalItems} sources`}
+                : catalogState.kinds.length > 0 || catalogState.sort !== "recommended"
+                  ? `${slice.totalItems} source${slice.totalItems === 1 ? "" : "s"}`
+                  : `${slice.totalItems} sources`}
             </p>
             {pageSources.length === 0 ? (
-              <p className="mt-8 text-muted">No sources match that search.</p>
+              <p className="mt-8 text-muted">
+                {q.trim() || catalogState.kinds.length > 0
+                  ? "No sources match those filters."
+                  : "No sources match that search."}
+              </p>
             ) : (
               <div className={`mt-6 md:mt-8 ${exploreIndexCatalogGridClassName}`}>
                 {pageSources.map((s) => (
@@ -133,6 +155,7 @@ export default async function ExploreSourcesIndexPage({
               startIndex={slice.startIndex}
               endIndex={slice.endIndex}
               label="Sources pagination"
+              preserveParams={preserveParams}
             />
           </>
         )}

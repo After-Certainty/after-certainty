@@ -51,5 +51,24 @@ test.describe("Explore index mobile parity", () => {
     await expect(page.getByRole("heading", { name: "Thinkers", level: 1 })).toBeVisible();
     await expect(page.locator('[data-density="editorial"]')).toBeVisible();
     await expect(page.getByText(/\d+ thinkers?/i).first()).toBeVisible();
+    await expect(page.getByText("Filter & sort")).toBeVisible();
+  });
+
+  test("thinkers type filter deep-link narrows results", async ({ page }) => {
+    await page.setViewportSize({ width: 1024, height: 800 });
+    await page.goto("/explore/thinkers?type=organization");
+
+    await expect(page.getByRole("heading", { name: "Thinkers", level: 1 })).toBeVisible();
+    await expect(page.getByRole("button", { name: "Organization", pressed: true })).toBeVisible();
+  });
+
+  test("sources kind filter deep-link works", async ({ page }) => {
+    await page.setViewportSize({ width: 1024, height: 800 });
+    await page.goto("/explore/sources?kind=article&sort=title-asc");
+
+    await expect(page.getByRole("heading", { name: "Sources", level: 1 })).toBeVisible();
+    await expect(page.locator('[data-density="editorial"]')).toBeVisible();
+    await expect(page.getByRole("button", { name: "article", pressed: true })).toBeVisible();
+    await expect(page.getByRole("button", { name: "Title A–Z", pressed: true })).toBeVisible();
   });
 });

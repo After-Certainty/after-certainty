@@ -65,11 +65,11 @@ function ExploreIndexSearchInner({
     const handle = window.setTimeout(() => {
       const nextQ = query.trim();
       if (nextQ === urlQ) return;
-      const qs = exploreIndexBrowseQueryString(nextQ, 1);
+      const qs = exploreIndexBrowseQueryString(nextQ, 1, searchParams.entries());
       router.replace(`${pathname}${qs}`, { scroll: false });
     }, QUERY_DEBOUNCE_MS);
     return () => window.clearTimeout(handle);
-  }, [query, pathname, router, urlQ]);
+  }, [query, pathname, router, urlQ, searchParams]);
 
   function goToSuggestion(item: ExploreIndexItem) {
     setOpen(false);
@@ -79,7 +79,7 @@ function ExploreIndexSearchInner({
 
   function syncQueryNow(nextRaw: string) {
     const nextQ = nextRaw.trim();
-    const qs = exploreIndexBrowseQueryString(nextQ, 1);
+    const qs = exploreIndexBrowseQueryString(nextQ, 1, searchParams.entries());
     router.replace(`${pathname}${qs}`, { scroll: false });
   }
 

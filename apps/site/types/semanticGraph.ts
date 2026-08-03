@@ -318,7 +318,7 @@ export interface Source {
   whyThisMatters?: string;
 }
 
-export type ThinkerType = "person" | "organization";
+export type ThinkerType = "person" | "organization" | "author_group" | "collective";
 
 export interface Thinker {
   id: string;

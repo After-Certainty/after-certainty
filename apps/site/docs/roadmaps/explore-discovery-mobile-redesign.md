@@ -1,8 +1,8 @@
 # Explore discovery mobile redesign
 
-**Status:** Active specialized site plan (Phases 0–1 complete; Phase 1b + Phases 2–6 planned)  
+**Status:** Active specialized site plan (Phases 0–1b complete; Phases 2–6 planned)  
 **Created:** 2026-08-03  
-**Updated:** 2026-08-03 (Phase 1 atlas index heroes)  
+**Updated:** 2026-08-03 (Phase 1b thinkers/sources catalog controls)  
 **Location:** `apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
 
@@ -427,7 +427,7 @@ flowchart TD
 | **Depends on** | Phase 1 recommended (heroes already dense); can ship after Phase 1 on the same indexes |
 | **Ship independently** | Yes |
 | **Likely files** | `lib/explore/thinkers-catalog-url-state.ts`, `sources-catalog-url-state.ts` (+ query apply helpers); `components/explore/thinkers-catalog-controls.tsx`, `sources-catalog-controls.tsx` (or one parameterized control); `thinkers/page.tsx`, `sources/page.tsx`; `types/semanticGraph.ts` + zod schemas for `ThinkerType`; Vitest URL tests; Playwright deep-links |
-| **Status** | Planned |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -443,16 +443,22 @@ flowchart TD
 - `/explore/thinkers?type=person,organization&sort=name-asc`
 - `/explore/sources?kind=book,article&sort=title-desc&q=bias`
 
+**Shipped (Phase 1b):**
+
+- `ThinkerType` + zod expanded; `thinkerTypeLabel` shared by card/detail
+- Thinkers/sources URL state + query apply + Books-like catalog controls
+- Search/pagination preserve `type`/`kind`/`sort`; filter/sort resets page
+- Vitest URL/query helpers; Playwright deep-links for type/kind/sort
+
 **Risks:** Over-sharing with Books catalog package; mislabeling `author_group`; ignoring `sourceKind` in favor of legacy `type`.  
 **Acceptance:**
 
-- Multi-select type/kind via CSV query params; invalid values ignored
-- Sort deep-links work; `recommended` omitted from URL
-- Chips + Clear all; mobile disclosure usable @ 390px
-- Pagination resets on filter/sort change; `q` still works
-- Empty states; no concept facet
-- Unit tests for URL parse/serialize; Playwright filter/sort deep-links @ 390
-
+- [x] Multi-select type/kind via CSV query params; invalid values ignored
+- [x] Sort deep-links work; `recommended` omitted from URL
+- [x] Chips + Clear all; mobile disclosure usable @ 390px
+- [x] Pagination resets on filter/sort change; `q` still works
+- [x] Empty states; no concept facet
+- [x] Unit tests for URL parse/serialize; Playwright filter/sort deep-links
 ### Phase 2 — Atlas detail core
 
 **Objective:** Intro disclosure for long prose; denser detail headers; collapse enrichment on mobile.
@@ -630,12 +636,12 @@ Update as implementation phases land.
 
 ### Phase 1b
 
-- [ ] Thinkers multi-select `?type=` filter; site `ThinkerType` includes `author_group` / `collective`
-- [ ] Sources multi-select `?kind=` filter from `sourceKind`
-- [ ] Sort deep-links (`name-*` / `title-*`); `recommended` omitted from URL
-- [ ] Mobile Filter & sort `<details>`; desktop fieldsets; chips + Clear all
-- [ ] Pagination resets on filter/sort change; `q` still works; empty states
-- [ ] No concept facet; Vitest URL helpers + Playwright deep-links @ 390
+- [x] Thinkers multi-select `?type=` filter; site `ThinkerType` includes `author_group` / `collective`
+- [x] Sources multi-select `?kind=` filter from `sourceKind`
+- [x] Sort deep-links (`name-*` / `title-*`); `recommended` omitted from URL
+- [x] Mobile Filter & sort `<details>`; desktop fieldsets; chips + Clear all
+- [x] Pagination resets on filter/sort change; `q` still works; empty states
+- [x] No concept facet; Vitest URL helpers + Playwright deep-links @ 390
 
 ### Phase 2
 
