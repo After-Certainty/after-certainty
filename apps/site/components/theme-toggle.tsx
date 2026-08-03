@@ -24,7 +24,7 @@ export function ThemeToggle() {
   if (!mounted) {
     return (
       <span
-        className="inline-flex h-9 w-10 items-center justify-center rounded-sm border border-border/60 text-xs text-muted"
+        className="inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-xs text-muted sm:w-10"
         aria-hidden
       >
         ···
@@ -35,7 +35,7 @@ export function ThemeToggle() {
   if (!resolvedTheme) {
     return (
       <span
-        className="inline-flex h-9 w-10 items-center justify-center rounded-sm border border-border/60 text-xs text-muted"
+        className="inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-xs text-muted sm:w-10"
         aria-hidden
       >
         ···
@@ -48,7 +48,7 @@ export function ThemeToggle() {
   return (
     <button
       type="button"
-      className="inline-flex h-9 items-center gap-2 rounded-sm border border-border/60 px-3 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:border-accent/50 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+      className="inline-flex h-9 w-9 items-center justify-center gap-2 rounded-sm border border-border/60 text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:border-accent/50 hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent sm:w-auto sm:px-3"
       onClick={() => setTheme(isDark ? "light" : "dark")}
       aria-label={isDark ? "Activate light appearance" : "Activate dark appearance"}
     >
