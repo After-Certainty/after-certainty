@@ -16,7 +16,7 @@ export function PatternAtAGlance({ items, className = "" }: PatternAtAGlanceProp
 
   return (
     <section
-      className={`mt-8 max-w-3xl md:mt-10 ${className}`.trim()}
+      className={`mt-6 max-w-3xl md:mt-10 ${className}`.trim()}
       aria-labelledby="pattern-at-a-glance-heading"
     >
       <h2

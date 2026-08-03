@@ -13,7 +13,7 @@ export function SemanticGroundingDisclosure({ grounding }: SemanticGroundingDisc
   const hasSupport = grounding.supportingWorks.length > 0 || grounding.supportingSources.length > 0;
 
   return (
-    <aside className="mt-10 max-w-2xl border-t border-border/30 pt-8" aria-label="Grounding">
+    <aside className="mt-6 max-w-2xl border-t border-border/30 pt-5 md:mt-10 md:pt-8" aria-label="Grounding">
       <p className="text-[10px] uppercase tracking-[0.28em] text-accent">Grounding</p>
       <p className="mt-2 font-display text-lg font-medium tracking-tight text-fg">
         {grounding.label}
