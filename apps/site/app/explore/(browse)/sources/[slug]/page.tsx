@@ -170,7 +170,7 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
       {hasRelationships ? (
         <Section
           atmosphere="none"
-          className="border-t border-border/25 !pt-10 md:!pt-14 !pb-20 md:!pb-28"
+          className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
           <h2 className="text-[11px] uppercase tracking-[0.24em] text-muted">
             Intellectual lineage

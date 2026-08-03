@@ -180,7 +180,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
       {hasSemanticEnrichment(concept) ? (
         <Section
           atmosphere="transition"
-          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+          className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
           <ExploreEnrichmentSections enrichment={concept} />
         </Section>
@@ -191,7 +191,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
       {relatedChapters.length > 0 ? (
         <Section
           atmosphere="transition"
-          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+          className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
           <RelatedChaptersSection chapters={relatedChapters} />
         </Section>
@@ -230,8 +230,8 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
           atmosphere="none"
           className={
             hasNeighborhood
-              ? "border-t border-border/25 !pt-10 md:!pt-14 !pb-4 md:!pb-6"
-              : "border-t border-border/25 !pt-10 md:!pt-14 !pb-20 md:!pb-28"
+              ? "border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-4 md:!pb-6"
+              : "border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
           }
         >
           <SemanticRelationshipsSection

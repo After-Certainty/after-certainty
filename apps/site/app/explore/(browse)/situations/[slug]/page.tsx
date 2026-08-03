@@ -126,7 +126,7 @@ export default async function ExploreSituationDetailPage({ params }: PageProps) 
       {showEnrichment ? (
         <Section
           atmosphere="transition"
-          className="border-t border-border/25 !pt-8 md:!pt-10 !pb-14 md:!pb-20"
+          className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
           <ExploreEnrichmentSections enrichment={situation} />
         </Section>

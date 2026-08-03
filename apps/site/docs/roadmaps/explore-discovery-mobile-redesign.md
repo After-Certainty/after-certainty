@@ -1,8 +1,9 @@
 # Explore discovery mobile redesign
 
-**Status:** Active specialized site plan (Phases 0–5 complete; Phase 6 planned)  
+**Status:** Complete (Phases 0–6)  
 **Created:** 2026-08-03  
-**Updated:** 2026-08-03 (Phase 5 path detail / stops)  
+**Updated:** 2026-08-03 (Phase 6 testing and polish)  
+**Completed:** 2026-08-03  
 **Location:** `apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
 
@@ -600,7 +601,7 @@ flowchart TD
 | **Depends on** | Phases 1–5 and 1b (as shipped) |
 | **Ship independently** | Finalizing PR(s) |
 | **Likely files** | New/extended `e2e/*-mobile.spec.ts`, component tests, this roadmap checkboxes |
-| **Status** | Planned |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -609,11 +610,19 @@ flowchart TD
 3. Desktop smoke for the same routes.
 4. Spacing polish; update this document’s phase statuses and completion checklist.
 
+**Shipped (Phase 6):**
+
+- Vitest already covering intro disclosure, teaser helpers, thinkers/sources URL state, related disclosure, path indexes/stops (Phases 0–5)
+- Playwright: `e2e/explore-discovery-mobile.spec.ts` — atlas index/detail @ 390, overflow @ 320, thinkers/sources filter+sort @ 390, questions/trails @ 390+320, desktop disclosure smoke
+- Shared `e2e/fixtures/overflow.ts` (Patterns suite switched to it)
+- Atlas detail section shells aligned to `--explore-section-*` tokens (concepts/sources/situations leftovers)
+- This roadmap + inventory reclassified complete
+
 **Acceptance:**
 
-- CI green for unit + E2E suites touched
-- No horizontal overflow @ 320 on covered routes
-- Roadmap statuses reflect shipped reality
+- [x] CI green for unit + E2E suites touched
+- [x] No horizontal overflow @ 320 on covered routes
+- [x] Roadmap statuses reflect shipped reality
 
 ---
 
@@ -703,26 +712,26 @@ Update as implementation phases land.
 
 ### Phase 6
 
-- [ ] Vitest coverage for shared disclosure wrappers and catalog URL helpers
-- [ ] Playwright mobile coverage for atlas + thinkers/sources filters + questions + trails samples
-- [ ] This roadmap statuses updated to complete
+- [x] Vitest coverage for shared disclosure wrappers and catalog URL helpers
+- [x] Playwright mobile coverage for atlas + thinkers/sources filters + questions + trails samples
+- [x] This roadmap statuses updated to complete
 
 ### Cross-cutting
 
-- [ ] Real corpus data only; no fabricated fields
-- [ ] Inbound URLs and legacy redirects intact (`q`/`page` deep links preserved; new params additive)
-- [ ] Metadata, structured data, and breadcrumbs behave as today
-- [ ] After Certainty visual identity preserved
+- [x] Real corpus data only; no fabricated fields
+- [x] Inbound URLs and legacy redirects intact (`q`/`page` deep links preserved; new params additive)
+- [x] Metadata, structured data, and breadcrumbs behave as today
+- [x] After Certainty visual identity preserved
 
 ---
 
 ## Executive summary
 
-1. **Phases:** Foundations → Atlas indexes → **Thinkers/sources catalog controls (1b)** → Atlas detail core → Atlas related → Questions/trails indexes → Path details → Testing/polish
+1. **Phases (complete):** Foundations → Atlas indexes → Thinkers/sources catalog controls (1b) → Atlas detail core → Atlas related → Questions/trails indexes → Path details → Testing/polish
 2. **Reuse from Books/Patterns:** `ExploreIndexHero` editorial density, Books catalog URL/controls pattern (copy), `MobileDisclosure`, `RelatedSectionDisclosure`, `CompactBookRow`, `PatternIntroDisclosure` generalization, explore density tokens, Vitest/Playwright conventions
 3. **Two cohorts:** Atlas (Explore browse) and editorial paths (questions/trails) share principles but not the same chrome
-4. **Highest-risk decisions:** Intro teaser derivation without inventing fields; path-stop density without losing why-this-follows; thinker `ThinkerType` alignment; preferring `sourceKind` over legacy `type`
-5. **Out of scope:** Footer, Books/Patterns reopen, PROVENANCE-002–004 concept/provenance items, personal trails, concept facet on thinkers index
+4. **Highest-risk decisions resolved:** Intro teaser derivation without inventing fields; path-stop density without losing why-this-follows; thinker `ThinkerType` alignment; preferring `sourceKind` over legacy `type`
+5. **Out of scope (unchanged):** Footer, Books/Patterns reopen, PROVENANCE-002–004 concept/provenance items, personal trails, concept facet on thinkers index
 
 ---
 

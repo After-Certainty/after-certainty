@@ -2,7 +2,7 @@
 
 **Status:** Active — authoritative for *remaining* cross-layer work  
 **Created:** 2026-07-24  
-**Last audited:** 2026-08-03 (explore discovery mobile plan: Phase 5 path detail)  
+**Last audited:** 2026-08-03 (explore discovery mobile redesign complete, Phases 0–6)  
 **Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
@@ -89,7 +89,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 
 - Books index / curated shelves / book detail / native reader redesign is a **completed specialized site plan** (Phases A–G). See [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md). Remaining deferrals (highlights/notes, visual-regression suite, Mobile Safari manual checks) promote here only if they outgrow site-only UX work.
 - Patterns index / Pattern detail mobile redesign is a **completed specialized site plan** (Phases 1–6). See [`apps/site/docs/roadmaps/patterns-mobile-redesign.md`](../../apps/site/docs/roadmaps/patterns-mobile-redesign.md).
-- Concepts, thinkers, sources, situations, questions, and reader trails mobile redesign is an **active specialized site plan** (Phases 0–5 complete; Phase 6 planned). See [`apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`](../../apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md). Type/kind catalog controls shipped in Phase 1b; **PROVENANCE-004** remains the separate thinkers-by-**concept** filter. Promote unfinished follow-ups here only if they outgrow site-only UX work.
+- Concepts, thinkers, sources, situations, questions, and reader trails mobile redesign is a **completed specialized site plan** (Phases 0–6). See [`apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`](../../apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md). Type/kind catalog controls shipped in Phase 1b; **PROVENANCE-004** remains the separate thinkers-by-**concept** filter. Promote unfinished follow-ups here only if they outgrow site-only UX work.
 
 ### Later / revisit when triggered
 
