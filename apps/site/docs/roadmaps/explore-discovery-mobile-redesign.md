@@ -1,8 +1,8 @@
 # Explore discovery mobile redesign
 
-**Status:** Active specialized site plan (Phases 0–6 + Phase 1b planned; not yet implemented)  
+**Status:** Active specialized site plan (Phase 0 complete; Phases 1–6 + Phase 1b planned)  
 **Created:** 2026-08-03  
-**Updated:** 2026-08-03 (Phase 1b thinkers/sources filter+sort)  
+**Updated:** 2026-08-03 (Phase 0 shared intro disclosure)  
 **Location:** `apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`  
 **Authority:** Specialized UX/product plan. Does **not** replace [`docs/roadmaps/remaining-product-roadmap.md`](../../../../docs/roadmaps/remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should be linked from the remaining-product roadmap.
 
@@ -363,7 +363,7 @@ flowchart TD
 | **Depends on** | Nothing (Books/Patterns primitives already shipped) |
 | **Ship independently** | Yes (low visual change if pages not yet wired) |
 | **Likely files** | `components/explore/entity-intro-disclosure.tsx` (or generalize `pattern-intro-disclosure.tsx`), tests; optional `RelatedContentGrid` disclosure prop; `styles/tokens.css` only if new density tokens are required |
-| **Status** | Planned |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -372,12 +372,19 @@ flowchart TD
 3. Document count-label copy conventions (`N concepts`, `N thinkers`, …) using real catalog lengths.
 4. Keep Patterns behavior stable (thin wrapper or shared component with identical UX).
 
+**Shipped (Phase 0):**
+
+- `EntityIntroDisclosure` — entity-agnostic teaser + expand label + `alwaysOpenFromMd`; SSR children
+- `PatternIntroDisclosure` — thin wrapper preserving Patterns UX (`id`, region label, expand copy)
+- Unit tests: `entity-intro-disclosure.test.tsx`; existing `pattern-detail-phase3` intro cases still pass
+- Reuse confirmed: `RelatedSectionDisclosure`, `CompactBookRow`, `ExploreIndexHero` `editorial` already cover atlas/path needs without new primitives in this phase
+
 **Risks:** Over-abstraction; breaking Patterns intro tests.  
 **Acceptance:**
 
-- Unit tests for expand/collapse + keyboard + `aria-expanded` / `aria-controls`
-- Patterns detail still passes existing tests if refactored onto shared primitive
-- No atlas/path visual change until Phases 1+
+- [x] Unit tests for expand/collapse + keyboard + `aria-expanded` / `aria-controls`
+- [x] Patterns detail still passes existing tests if refactored onto shared primitive
+- [x] No atlas/path visual change until Phases 1+
 
 ### Phase 1 — Atlas indexes
 
@@ -606,8 +613,8 @@ Update as implementation phases land.
 
 ### Phase 0
 
-- [ ] Shared entity intro disclosure shipped (or Patterns intro generalized) with unit tests
-- [ ] Reuse of `RelatedSectionDisclosure` / `CompactBookRow` / editorial hero confirmed in this plan
+- [x] Shared entity intro disclosure shipped (or Patterns intro generalized) with unit tests
+- [x] Reuse of `RelatedSectionDisclosure` / `CompactBookRow` / editorial hero confirmed in this plan
 
 ### Phase 1
 
