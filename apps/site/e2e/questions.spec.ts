@@ -31,6 +31,19 @@ test.describe("Start with a Question", () => {
     await expect(page.getByRole("heading", { name: "Trust and disagreement" })).toBeVisible();
   });
 
+  test("questions index featured arrives early on mobile", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/questions");
+
+    await expect(page.locator('[data-path-index-density="editorial"]')).toBeVisible();
+    const featured = page.locator("[data-path-index-featured]");
+    await expect(featured).toBeVisible();
+    const box = await featured.boundingBox();
+    expect(box).toBeTruthy();
+    // Featured section top should be within ~2 mobile viewports after load.
+    expect(box!.y).toBeLessThan(844 * 1.75);
+  });
+
   test("search shows curated questions for matching query", async ({ page }) => {
     await page.goto("/search?q=trust+disagreement");
     await expect(page.getByRole("heading", { name: "Curated questions" })).toBeVisible();
