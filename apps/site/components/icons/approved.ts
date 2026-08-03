@@ -28,4 +28,5 @@ export {
   XIcon,
 } from "@phosphor-icons/react/ssr";
 
-export type { Icon, IconProps, IconWeight } from "@phosphor-icons/react/ssr";
+// Types live on the package root / lib entry — not re-exported from `/ssr`.
+export type { Icon, IconProps, IconWeight } from "@phosphor-icons/react";
