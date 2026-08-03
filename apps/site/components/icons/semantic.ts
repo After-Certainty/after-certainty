@@ -13,7 +13,7 @@ import {
   WarningCircleIcon,
 } from "@/components/icons/approved";
 
-/** Pattern At-a-glance slots — wire when PatternAtAGlance lands (Patterns mobile Phase 3). */
+/** Pattern At-a-glance slots — used by `PatternAtAGlance` (Patterns mobile Phase 3). */
 export const patternGlanceIcons = {
   whatItDoes: CompassIcon,
   whyItMatters: TargetIcon,

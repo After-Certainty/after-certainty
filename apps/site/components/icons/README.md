@@ -24,14 +24,14 @@ Phosphor (`@phosphor-icons/react`) is the general-purpose icon library for Books
 
 ## At-a-glance (Patterns mobile Phase 3)
 
-`patternGlanceIcons` in `semantic.ts` maps:
+`patternGlanceIcons` in `semantic.ts` maps into `PatternAtAGlance`:
 
 - What it does → `CompassIcon`
 - Why it matters → `TargetIcon`
 - Key risk → `WarningCircleIcon`
 - Counterbalance → `ScalesIcon`
 
-Wire these when `PatternAtAGlance` is implemented. Do not invent glance cards for icons alone.
+Slots come from `patternAtAGlance()` — omit empty sources; do not invent cards for icons alone.
 
 ## Non-goals
 

@@ -385,6 +385,7 @@ flowchart TB
 | **Depends on** | Phase 1 disclosure |
 | **Ship independently** | Yes (can follow or parallel Phase 2 once foundations land) |
 | **Likely files** | `patterns/[slug]/page.tsx`, `pattern-language-context.tsx`, `explore-pattern-narrative.tsx`, new intro/glance/force components, `lib/explore/pattern-at-a-glance.ts` (+ tests) |
+| **Status** | Complete |
 
 **Implementation steps:**
 
@@ -393,6 +394,13 @@ flowchart TB
 3. Compact pattern-language summary card (cycle line for master, e.g. Perception → Power → Time → Contact → Perception, derived from force order — not hard-coded master prose).
 4. At-a-glance two-column grid with graceful omission.
 5. Force sections → accordions on mobile (name + one-line; expand for detail + related patterns + Observatory).
+
+**Shipped (Phase 3):**
+
+- `PatternIntroDisclosure` — mobile teaser + “Read full description”; full summary/narrative always open from `md`
+- `patternAtAGlance()` / `PatternAtAGlance` — omit empty slots; Phosphor glance icons
+- Compact `PatternLanguageContext` + derived `patternForceCycleLine()`
+- `PatternForceAccordion` — master organizing forces; Observatory deep-links per force
 
 **Risks:** SEO if content removed from HTML — keep SSR; inconsistent fields — omit slots; do not duplicate master-only copy into generic components.  
 **Acceptance:**
