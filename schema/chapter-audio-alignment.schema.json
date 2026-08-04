@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/chapter-audio-alignment.schema.json",
+  "title": "Normalized chapter audio alignment",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "unitId", "generationHash", "granularity", "segments"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "unitId": { "type": "string", "minLength": 1 },
+    "generationHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "granularity": {
+      "type": "string",
+      "enum": [
+        "native-character",
+        "native-word",
+        "derived-word",
+        "segment-only",
+        "none"
+      ]
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "text", "startMs", "endMs"],
+        "properties": {
+          "id": { "type": "string", "minLength": 1 },
+          "text": { "type": "string" },
+          "startMs": { "type": "number", "minimum": 0 },
+          "endMs": { "type": "number", "minimum": 0 },
+          "charStart": { "type": "integer", "minimum": 0 },
+          "charEnd": { "type": "integer", "minimum": 0 }
+        }
+      }
+    }
+  }
+}

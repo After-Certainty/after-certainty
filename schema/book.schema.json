@@ -336,9 +336,79 @@
     },
     "media": {
       "$ref": "#/$defs/bookMediaSpec"
+    },
+    "narration": {
+      "$ref": "#/$defs/bookNarrationSpec",
+      "description": "Optional chapter-TTS defaults. Units opt in via chapter-enrichment.yml audio.enabled; book defaults.enabled must stay false for the pilot."
     }
   },
   "$defs": {
+    "bookNarrationSpec": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "defaults": {
+          "$ref": "#/$defs/narrationAudioSettings"
+        }
+      }
+    },
+    "narrationAudioSettings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "description": "Book-level enablement. Pilot: keep false; chapters must set audio.enabled true explicitly."
+        },
+        "provider": {
+          "type": "string",
+          "enum": ["elevenlabs", "openai"]
+        },
+        "voice": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Logical voice alias resolved via config/chapter-audio-voices.yml"
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output_format": {
+          "type": "string",
+          "minLength": 1
+        },
+        "language": {
+          "type": "string",
+          "minLength": 1
+        },
+        "include_title": {
+          "type": "boolean"
+        },
+        "include_footnotes": {
+          "type": "boolean"
+        },
+        "instructions": {
+          "type": "string"
+        },
+        "max_estimated_usd": {
+          "type": "number",
+          "minimum": 0
+        },
+        "max_credits": {
+          "type": "number",
+          "minimum": 0
+        },
+        "seed": {
+          "type": ["integer", "string", "null"]
+        },
+        "provider_options": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object"
+          }
+        }
+      }
+    },
     "bookOverview": {
       "type": "object",
       "additionalProperties": false,

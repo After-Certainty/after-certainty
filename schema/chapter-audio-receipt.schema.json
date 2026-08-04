@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/chapter-audio-receipt.schema.json",
+  "title": "Chapter audio generation receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "unitId",
+    "generationHash",
+    "provider",
+    "providerAdapterVersion",
+    "model",
+    "voice",
+    "outputFormat",
+    "spokenCharacters",
+    "audioPath",
+    "generatedAt"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "unitId": { "type": "string", "minLength": 1 },
+    "editionSlug": { "type": "string", "minLength": 1 },
+    "chapterSlug": { "type": "string", "minLength": 1 },
+    "sourcePath": { "type": "string", "minLength": 1 },
+    "sourceHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "spokenTextHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "generationHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "pipelineVersion": { "type": "integer", "minimum": 1 },
+    "extractorVersion": { "type": "integer", "minimum": 1 },
+    "provider": { "type": "string", "enum": ["elevenlabs", "openai"] },
+    "providerAdapterVersion": { "type": "string", "minLength": 1 },
+    "model": { "type": "string", "minLength": 1 },
+    "voice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["alias", "providerVoiceId"],
+      "properties": {
+        "alias": { "type": "string", "minLength": 1 },
+        "providerVoiceId": { "type": "string", "minLength": 1 }
+      }
+    },
+    "outputFormat": { "type": "string", "minLength": 1 },
+    "language": { "type": "string", "minLength": 1 },
+    "includeTitle": { "type": "boolean" },
+    "includeFootnotes": { "type": "boolean" },
+    "spokenCharacters": { "type": "integer", "minimum": 0 },
+    "estimatedUsage": { "$ref": "#/$defs/usage" },
+    "actualUsage": { "$ref": "#/$defs/usage" },
+    "providerGenerationId": { "type": ["string", "null"] },
+    "alignment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["granularity"],
+      "properties": {
+        "granularity": {
+          "type": "string",
+          "enum": [
+            "native-character",
+            "native-word",
+            "derived-word",
+            "segment-only",
+            "none"
+          ]
+        },
+        "path": { "type": ["string", "null"] }
+      }
+    },
+    "audioPath": { "type": "string", "minLength": 1 },
+    "audioSha256": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+    "generatedAt": { "type": "string", "minLength": 1 }
+  },
+  "$defs": {
+    "usage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["unit", "amount"],
+      "properties": {
+        "unit": {
+          "type": "string",
+          "enum": ["credits", "characters", "usd", "tokens", "minutes"]
+        },
+        "amount": { "type": "number" },
+        "usd": { "type": ["number", "null"] }
+      }
+    }
+  }
+}

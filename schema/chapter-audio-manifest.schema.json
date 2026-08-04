@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/chapter-audio-manifest.schema.json",
+  "title": "Site-facing chapter audio manifest (available units only)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "generatedAt", "units"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "generatedAt": { "type": "string", "minLength": 1 },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "unitId",
+          "editionSlug",
+          "chapterSlug",
+          "routeKey",
+          "audioUrl",
+          "alignmentGranularity",
+          "generationHash",
+          "disclosure"
+        ],
+        "properties": {
+          "unitId": { "type": "string", "minLength": 1 },
+          "editionSlug": { "type": "string", "minLength": 1 },
+          "chapterSlug": { "type": "string", "minLength": 1 },
+          "routeKey": { "type": "string", "minLength": 1 },
+          "audioUrl": { "type": "string", "minLength": 1 },
+          "durationSeconds": { "type": ["number", "null"] },
+          "alignmentUrl": { "type": ["string", "null"] },
+          "alignmentGranularity": {
+            "type": "string",
+            "enum": [
+              "native-character",
+              "native-word",
+              "derived-word",
+              "segment-only",
+              "none"
+            ]
+          },
+          "generationHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" },
+          "disclosure": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

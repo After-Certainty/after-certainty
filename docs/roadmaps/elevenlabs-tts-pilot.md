@@ -49,7 +49,9 @@ The monorepo already separates **authored desired state** (semantic YAML / `chap
 | `validate-*` / `verify-*` Make gates | Secret-free plan / list / validate / verify |
 | Credential-free Cursor policy | Provider keys only in Actions; mount **only** the selected provider’s secret |
 
-**Recommended pilot scope:** One unit—`chapter-after-certainty-front-matter-introduction`—provider **ElevenLabs** behind a narrow `TtsProvider` interface, hard usage ceilings, Git LFS for MP3s, playback without requiring alignment, sentence-level highlighting deferred to Phase 6, no automatic regeneration.
+**Recommended pilot scope:** **Observer Patterns** (poetry) — enable the full exported book (29 units) for narration tracking; **first generate** = `chapter-observer-patterns-front-matter-introduction` (~211 characters). Provider **ElevenLabs** behind a narrow `TtsProvider` interface. Free-plan first with GitHub Actions artifact download; **no public Listen** until paid-plan upgrade. Poetry form is an intentional stress case (short units, line breaks, two-column pattern tables). Full-book rough spoken size ~13.6k characters—pace free-plan generation or wait for paid upgrade before narrating everything.
+
+**Publishing gate (Kevin, 2026-08-04):** Start on the **ElevenLabs free plan** to prove generation + alignment/receipt data. The **first successful generate** should upload a **GitHub Actions artifact** (MP3 + alignment + receipt) for download/review—not publish Listen on the public site. **Do not** ship site-facing audio / native-reader Listen until Kevin confirms an upgrade to a plan that allows public distribution (target: ~$6/mo Creator tier or successor) **and** licensing/disclosure are accepted. Until then: generate → artifact (and optional review PR into `books/*/audio/` is fine for pipeline testing) → **public availability stays off**.
 
 **Largest risks:**
 
@@ -544,6 +546,8 @@ Extractor must define stable behavior for corpus constructs:
 | Block quotes | Speak text |
 | Scene separators | Define in fixtures (pause marker or omit) |
 | HTML / `:::` / `\newpage` | Strip tags / containers |
+| Poetry line breaks / stanza gaps | Preserve audible pause structure (Phase 2 fixtures from Observer Patterns) |
+| Two-column Markdown tables (OP poems) | Define explicit narration (e.g. left then right, or “A. … B. …”); must be deterministic |
 
 Golden fixtures under `tests/fixtures/chapter_audio/` lock behavior.
 
@@ -680,12 +684,20 @@ Do not combine phases into one implementation PR.
 
 | ID | Status | Notes |
 |----|--------|-------|
-| AUDIO-P0-02 | **Done** | Provisional strip of `books/after-certainty/front-matter/introduction.md` → **8,331** spoken characters / **1,263** words (Phase 2 extractor will re-measure). If ~1 ElevenLabs credit ≈ 1 character, one generation uses most of a 10k free monthly allowance. |
+| AUDIO-P0-02 | **Done** | Provisional strip originally measured After Certainty intro (~8.3k). **Pilot book switched to Observer Patterns** (2026-08-04): introduction ~**211** characters; full exported book ~**13.6k** rough characters across 29 units. |
 | AUDIO-P0-04 | **Done** | Root [`.gitattributes`](../../.gitattributes) tracks `books/*/audio/*.mp3` with Git LFS; receipts/alignment remain ordinary Git. |
-| AUDIO-P0-01 | **Blocked on Kevin** | Confirm ElevenLabs commercial/public-site licensing + AI disclosure wording before Phase 4/5 ship. No API key required for this decision. |
-| AUDIO-P0-03 | **Blocked on Kevin** | Pick stock voice and map it to alias `reflective-narrator` in the voice catalog (Phase 1). No API key required until generation. |
+| AUDIO-P0-01 | **Blocked on Kevin** | Confirm ElevenLabs commercial/public-site licensing + AI disclosure wording before **Phase 5** public Listen. Free-plan generation + GitHub artifact review may proceed earlier. No API key required for the licensing decision itself. |
+| AUDIO-P0-03 | **Blocked on Kevin** | Pick stock voice and map it to alias `reflective-narrator` in the voice catalog (Phase 1 can ship a placeholder; generation needs a real id). No API key required until generation. |
+| **Public Listen** | **Gated** | Free plan first → GitHub Actions artifact download for the first generate test. **No** native-reader / public-site audio until Kevin upgrades (target ~$6/mo) and confirms. |
+| **Pilot book** | **Observer Patterns** | Poetry collection; all 29 exported units audio-enabled for tracking; first generate = introduction. |
 
-**API key:** Still **not** required. Add `ELEVENLABS_API_KEY` as a GitHub Actions secret only when Phase 4’s manual generate workflow exists, and only use it with `dry_run=false`.
+**API key:** Still **not** required for Phase 1–2. Add `ELEVENLABS_API_KEY` as a GitHub Actions secret when Phase 4’s manual generate workflow exists; use it with `dry_run=false` on the free plan for artifact-only verification. Do not put the key in Cursor or Vercel.
+
+#### Phase 1 progress (2026-08-04)
+
+| ID | Status | Notes |
+|----|--------|-------|
+| AUDIO-P1-01–P1-04 | **Done (pilot book: Observer Patterns)** | Schemas, voice catalog stub, `make list-chapter-audio`, Observer Patterns `narration.defaults` + all 29 exported units `audio.enabled: true`. Status is `enabled-unconfigured` until Kevin replaces `PLACEHOLDER_ELEVENLABS_VOICE_ID`. Public Listen remains gated. After Certainty audio opt-in was reverted. |
 
 ### Phase 1 — Semantic enablement and schemas
 
@@ -698,7 +710,7 @@ Do not combine phases into one implementation PR.
 
 ### Phase 2 — Provider-neutral planning
 
-- Deterministic spoken-text extraction.
+- Deterministic spoken-text extraction (**poetry stress case:** line breaks, stanza gaps, two-column Markdown tables in Observer Patterns).
 - Resolve provider configuration and voice aliases.
 - Compute generation hashes; load/compare receipts.
 - Estimate provider-native and USD cost (formulas/mocks; no network).
@@ -718,14 +730,16 @@ Do not combine phases into one implementation PR.
 - Resolve provider from the selected unit.
 - Supply only that provider’s secret.
 - Enforce hard limits; dry-run default.
-- Generate one unit; validate; open reviewable PR with LFS push.
+- Generate one unit; validate; **upload GitHub Actions artifacts** (MP3 + alignment + receipt) for download on the free-plan first test.
+- Optional: open a reviewable PR that commits LFS audio under `books/*/audio/` for pipeline review—**still not** site Listen.
 - Ordinary CI remains provider-secret-free.
+- **Public-site gate:** do not install audio into the live reader / public manifest until Kevin confirms paid-plan upgrade + licensing.
 
 ### Phase 5 — Reader playback
 
-- Consume provider-neutral manifest (available only).
-- Accessible play/pause/progress; AI narration disclosure.
-- Cleanup on chapter navigation.
+- **Gated** behind Kevin’s confirmation that the ElevenLabs plan allows public distribution (and disclosure is accepted).
+- Until then, skip shipping Listen on after-certainty.com even if artifacts exist in git.
+- When unblocked: consume provider-neutral manifest (available only); accessible play/pause/progress; AI narration disclosure; cleanup on chapter navigation.
 - **Do not require alignment.**
 
 ### Phase 6 — Optional synchronized highlighting
@@ -870,21 +884,24 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 
 | Field | Value |
 |-------|-------|
-| Unit ID | `chapter-after-certainty-front-matter-introduction` |
-| Source path | `books/after-certainty/front-matter/introduction.md` |
-| `audio.enabled` | `true` (unit); book defaults `enabled: false` |
+| Pilot book | **Observer Patterns** (`observer-patterns`, `kind: poetry`) |
+| First generate unit ID | `chapter-observer-patterns-front-matter-introduction` |
+| Source path | `books/observer-patterns/front-matter/introduction.md` |
+| Enabled set | All **29** exported units (introduction, bridges, poems, closing) via `chapter-enrichment.yml` |
+| `audio.enabled` | `true` on each unit; book `narration.defaults.enabled: false` |
 | Provider | `elevenlabs` (first adapter) |
 | Logical voice | `reflective-narrator` |
-| Model | `eleven_flash_v2_5` (confirm Phase 0) |
-| Approx spoken characters | **8,331** provisional (2026-08-03 Phase 0 strip); Phase 2 extractor re-measures |
-| Estimated usage | Provider-native credits ≈ character count order; USD when formula known |
-| Expected artifacts | `books/after-certainty/audio/front-matter-introduction.mp3` (LFS), `.alignment.json` (if segment timing available), `.receipt.json` |
-| Alignment capability | Prefer `segment-only` (sentence); playback must work even if `none` |
-| Manual invocation | Actions dispatch with `UNIT=...`, `dry_run=true` then explicit `false`; mounts only `ELEVENLABS_API_KEY` |
-| Reader behavior | Listen only when **available**; disclosure shown; alignment optional |
-| Acceptance tests | Unchanged content does not regenerate; **changing provider invalidates generation hash** |
+| Model | `eleven_flash_v2_5` (confirm Phase 0/4) |
+| Approx spoken characters (intro) | **~211** (provisional); Phase 2 extractor re-measures |
+| Approx spoken characters (full book) | **~13,600** rough — exceeds typical 10k free monthly allowance if generated in one month; pace unit-by-unit or upgrade |
+| Poetry-form notes | Short lines, stanza breaks, and two-column Markdown tables are part of the spoken-text contract (Phase 2 must define table narration explicitly) |
+| Expected first artifacts | `books/observer-patterns/audio/front-matter-introduction.mp3` (LFS), optional `.alignment.json`, `.receipt.json` — **or** GitHub Actions artifact zip for free-plan first test |
+| Alignment capability | Prefer `segment-only` (sentence/line); playback must work even if `none` |
+| Manual invocation | Actions dispatch with `UNIT=chapter-observer-patterns-front-matter-introduction`, `dry_run=true` then explicit `false`; mounts only `ELEVENLABS_API_KEY`; upload Actions artifact; do not enable public Listen yet |
+| Reader behavior | Listen only when **available** and **public gate lifted**; disclosure shown; alignment optional |
+| Acceptance tests | Unchanged content does not regenerate; **changing provider invalidates generation hash**; poetry fixtures cover tables/line breaks |
 
-**Credit note:** One successful ElevenLabs generation may consume most of a free monthly allowance. Retries wait for a new month or an explicit human budget decision.
+**Credit note:** First generate (introduction) is cheap on the free plan. Narrating much of the book is intentional but must be paced or done after the paid-plan upgrade. Retries and full-book runs wait for budget headroom.
 
 ---
 
@@ -897,7 +914,8 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Public manifests expose provider identity? | **No** — receipts keep provider; reader uses capabilities |
 | Initial alignment granularity | **Sentence / `segment-only`** |
 | OpenAI alignment if added | May be **`none`** until a separate strategy exists |
-| Commercial-use / disclosure by provider | Confirm before public Listen; show AI narration disclosure |
+| Commercial-use / disclosure by provider | Confirm before **public** Listen; free-plan generate + GitHub artifact OK for private/pipeline test; show AI narration disclosure when site ships |
+| Public site Listen before paid plan | **Blocked** until Kevin confirms upgrade (~$6/mo) + licensing; first generate uses Actions **artifact download** only |
 | Multiple provider variants coexist? | **No** during pilot — one active current set per unit |
 | Switching provider | **Replace** active current; orphans cleaned later |
 | Stale enabled units in ordinary CI | **Warn** during pilot; omit from site manifest |
