@@ -26,7 +26,7 @@
 | **Audio-enabled unit** | Semantic unit with resolved `enabled: true` (eligible for narration) |
 | **Audio-available unit** | Enabled unit with a **current**, validated artifact matching its `generationHash` |
 
-**Enabled never implies available.** The Listen control depends on (1) site flag `NEXT_PUBLIC_CHAPTER_AUDIO=1` and (2) availability (receipt + artifacts + hash match)—not on the authored enablement flag alone.
+**Enabled never implies available.** The Listen control depends on availability (receipt + artifacts + hash match installed into the site)—not on the authored enablement flag alone. No separate site env flag: if no unit is available for the chapter, Listen does not appear.
 
 Use **provider-neutral** for shared concerns. Do not use the phrase “provided neutral.”
 
@@ -51,7 +51,7 @@ The monorepo already separates **authored desired state** (semantic YAML / `chap
 
 **Recommended pilot scope:** **Observer Patterns** (poetry) — enable the full exported book (29 units) for narration tracking; **first generate** = `chapter-observer-patterns-front-matter-introduction` (~211 characters). Provider **ElevenLabs** behind a narrow `TtsProvider` interface. Free-plan first; **no production Listen** until Kevin’s explicit go-ahead (paid-plan upgrade + licensing). Poetry form is an intentional stress case (short units, line breaks, two-column pattern tables). Full-book rough spoken size ~13.6k characters—pace free-plan generation or wait for paid upgrade before narrating everything.
 
-**Local vs production (Kevin, 2026-08-04):** On a **trusted laptop**, Kevin may generate with gitignored root `.env.local` (`ELEVENLABS_API_KEY`), install the local site manifest, set `NEXT_PUBLIC_CHAPTER_AUDIO=1` in gitignored `apps/site/.env.local`, run the site, and exercise the full native-reader Listen path before anything is public. **Listen UI defaults off** everywhere until that site flag is set to `1`. Production / after-certainty.com stays off until Kevin sets the same variable in Vercel (explicit go-ahead after paid-plan upgrade + licensing). Optional GitHub Actions artifact upload and review PRs that commit LFS under `books/*/audio/` remain fine for tooling—without `NEXT_PUBLIC_CHAPTER_AUDIO=1`, Listen stays hidden even if units are available.
+**Local vs production (Kevin, 2026-08-04):** On a **trusted laptop**, Kevin may generate with gitignored root `.env.local` (`ELEVENLABS_API_KEY`), install the local site manifest (including available audio), run the site, and exercise the full native-reader Listen path—Listen appears only for chapters that are **available**. No site feature-flag env var: presence of available units is the signal. **Production / after-certainty.com** stays dark until Kevin’s go-ahead by **not shipping available audio into the live install** (or not merging generated artifacts to `main` until ready)—so there is nothing to forget to enable. Optional GitHub Actions artifact upload remains fine for pipeline review without installing into production.
 
 **Largest risks:**
 
@@ -694,7 +694,7 @@ Do not combine phases into one implementation PR.
 | AUDIO-P0-04 | **Done** | Root [`.gitattributes`](../../.gitattributes) tracks `books/*/audio/*.mp3` with Git LFS; receipts/alignment remain ordinary Git. |
 | AUDIO-P0-01 | **Blocked on Kevin** | Confirm ElevenLabs commercial/public-site licensing + AI disclosure wording before **Phase 5** public Listen. Free-plan generation + GitHub artifact review may proceed earlier. No API key required for the licensing decision itself. |
 | AUDIO-P0-03 | **Blocked on Kevin** | Pick stock voice and map it to alias `reflective-narrator` in the voice catalog (Phase 1 can ship a placeholder; generation needs a real id). No API key required until generation. |
-| **Public / production Listen** | **Gated by env** | Default off. Local E2E: `NEXT_PUBLIC_CHAPTER_AUDIO=1` in `apps/site/.env.local`. Production: same var in Vercel only after Kevin’s go-ahead (target ~$6/mo + licensing). Listen still requires **available** artifacts. |
+| **Public / production Listen** | **Gated by availability** | Listen only when a unit is **available** in the installed site audio manifest. Local E2E: generate + install locally. Production stays dark until Kevin’s go-ahead by not shipping available audio live (target ~$6/mo + licensing). No `NEXT_PUBLIC_*` enable flag. |
 | **Pilot book** | **Observer Patterns** | Poetry collection; all 29 exported units audio-enabled for tracking; first generate = introduction. |
 
 **API key:** Still **not** required for Phase 1–2. When ready for a real free-plan generate (Phase 3+): copy `.env.example` → `.env.local`, set `ELEVENLABS_API_KEY`, run `make generate-chapter-audio` on a trusted laptop, then install/run the site locally to exercise reader features. Optional later: the same key as a GitHub Actions secret. Never commit `.env.local`; never put the key in Cursor cloud agents or Vercel. Production Listen waits for Kevin’s go-ahead.
@@ -743,15 +743,15 @@ Do not combine phases into one implementation PR.
 - Primary path for first real generate: **laptop** `make generate-chapter-audio UNIT=…` with `.env.local`.
 - After generate: local `install-local-manifest-for-site` (or successor) + local site so Kevin can test reader features end-to-end.
 - Optional: Resolve provider from the selected unit in Actions; supply only that provider’s secret; dry-run default; upload GitHub Actions artifacts for review.
-- Optional: open a reviewable PR that commits LFS audio under `books/*/audio/` for pipeline review—Listen stays dark until `NEXT_PUBLIC_CHAPTER_AUDIO=1`.
+- Optional: open a reviewable PR that commits LFS audio under `books/*/audio/` for pipeline review—hold merge to `main` / live install until Kevin’s go-ahead if Listen must stay dark in production.
 - Ordinary CI remains provider-secret-free.
-- **Production enable:** Kevin sets `NEXT_PUBLIC_CHAPTER_AUDIO=1` in Vercel when ready (paid-plan upgrade + licensing + go-ahead).
+- **Production enable:** ship available audio into the live site install only after paid-plan upgrade + licensing + Kevin’s go-ahead. No separate Listen env flag.
 
 ### Phase 5 — Reader playback
 
 - **Build and test locally first:** Listen UI, disclosure, nav cleanup against locally generated available artifacts—Kevin’s laptop is the primary QA surface.
-- **Site feature flag (default off):** `NEXT_PUBLIC_CHAPTER_AUDIO` must be `1` for Listen UI to appear. Unset / any other value → no Listen, even if units are available. Local: `apps/site/.env.local`. Production: Vercel env only after go-ahead.
-- Still capability-based for which chapters: Listen for a unit only when **flag on** and unit is **available**.
+- **No site feature-flag env var.** Listen appears iff the chapter unit is **available** in the installed audio manifest. Until the generate pipeline has produced and installed artifacts, the button does not show anywhere.
+- Production stays dark by not installing / merging available audio until go-ahead—not by remembering an env toggle.
 - Consume provider-neutral manifest (available only); accessible play/pause/progress; AI narration disclosure; cleanup on chapter navigation.
 - **Do not require alignment.**
 
@@ -830,8 +830,7 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 |----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
 | AUDIO-P5-01 | Install audio for site | `scripts/install_local_manifest_for_site.py`, `vercel_build.sh` | — | P4-02 | Copies real MP3s; fails on LFS pointers | Python tests | Y | N | N | N | M |
 | AUDIO-P5-02 | Manifest loader (available only) | `apps/site/types/`, `lib/reading/` | `chapter-audio.ts` | P5-01 | Listen data only when available | Vitest | Y | N | N | N | M |
-| AUDIO-P5-03 | Playback UI + disclosure + nav cleanup | reader shell/chrome, `navigate-chapter.ts`, `reset-spoken-content.tsx` | `chapter-audio-player.tsx` | P5-02 | Listen only when `NEXT_PUBLIC_CHAPTER_AUDIO=1` **and** available; disclosure shown; default off | Component + e2e | Y | N | N | N | L |
-| AUDIO-P5-04 | Site chapter-audio feature flag | `apps/site/lib/site-config.ts`, `.env.example` | — | P5-02 | Default off; `=1` enables Listen surface | Unit tests | Y | N | N | N | S |
+| AUDIO-P5-03 | Playback UI + disclosure + nav cleanup | reader shell/chrome, `navigate-chapter.ts`, `reset-spoken-content.tsx` | `chapter-audio-player.tsx` | P5-02 | Listen only when available; no env enable flag; disclosure shown | Component + e2e | Y | N | N | N | L |
 
 ### Phase 6
 
@@ -865,7 +864,7 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Alignment normalize | Provider fixture → neutral segments or `none` |
 | LFS pointer detection | Fail validate |
 | Site manifest | Only `enabled-current`; no provider field required by reader |
-| Reader controls | Flag off → no Listen; flag on + available → playback without alignment; disclosure; nav cleanup |
+| Reader controls | Listen only when available; no env enable flag; playback without alignment; disclosure; nav cleanup |
 | Highlight sync | Optional; respects `alignmentGranularity` and reduced-motion |
 | CI | Ordinary workflows lack generate + TTS secrets |
 | Network assurance | Plan/list/validate have no HTTP TTS session |
@@ -911,8 +910,8 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Poetry-form notes | Short lines, stanza breaks, and two-column Markdown tables are part of the spoken-text contract (Phase 2 must define table narration explicitly) |
 | Expected first artifacts | `books/observer-patterns/audio/front-matter-introduction.mp3` (LFS), optional `.alignment.json`, `.receipt.json` — **or** GitHub Actions artifact zip for free-plan first test |
 | Alignment capability | Prefer `segment-only` (sentence/line); playback must work even if `none` |
-| Manual invocation | Prefer laptop: root `.env.local` + `make generate-chapter-audio UNIT=…`, then local site install. For E2E Listen QA set `NEXT_PUBLIC_CHAPTER_AUDIO=1` in `apps/site/.env.local`. Production: set the same in Vercel only after go-ahead. |
-| Reader behavior | Listen only when `NEXT_PUBLIC_CHAPTER_AUDIO=1` **and** unit is **available**. Default off. Disclosure shown; alignment optional |
+| Manual invocation | Prefer laptop: root `.env.local` + `make generate-chapter-audio UNIT=…`, then local site install. Listen appears for available units only—no site enable env. Hold production install/merge until Kevin’s go-ahead. |
+| Reader behavior | Listen only when unit is **available** in the installed manifest. Disclosure shown; alignment optional |
 | Acceptance tests | Unchanged content does not regenerate; **changing provider invalidates generation hash**; poetry fixtures cover tables/line breaks |
 
 **Credit note:** First generate (introduction) is cheap on the free plan. Narrating much of the book is intentional but must be paced or done after the paid-plan upgrade. Retries and full-book runs wait for budget headroom.
@@ -929,8 +928,8 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Initial alignment granularity | **Sentence / `segment-only`** |
 | OpenAI alignment if added | May be **`none`** until a separate strategy exists |
 | Commercial-use / disclosure by provider | Confirm before **production** Listen; free-plan generate + local reader QA (+ optional GitHub artifact) OK beforehand; show AI narration disclosure when Listen ships |
-| Production Listen before go-ahead | **Blocked** until Kevin sets `NEXT_PUBLIC_CHAPTER_AUDIO=1` in Vercel (after upgrade ~$6/mo + licensing). Local E2E uses the same flag in `apps/site/.env.local` |
-| Site Listen enable flag | **`NEXT_PUBLIC_CHAPTER_AUDIO`** — default **off** (unset ≠ enable). Value `1` enables the Listen UI surface. Still requires **available** units. Local: `apps/site/.env.local`. Production: Vercel env. Not a secret. |
+| Production Listen before go-ahead | **Blocked** until Kevin’s go-ahead (upgrade ~$6/mo + licensing). Gate by not shipping available audio into the live install—not by a site env flag. Local generate + local install is enough for E2E QA |
+| Site Listen enable flag | **None.** Capability-based only: available units in the installed audio manifest. Avoids a forgotten `NEXT_PUBLIC_*` toggle |
 | Multiple provider variants coexist? | **No** during pilot — one active current set per unit |
 | Switching provider | **Replace** active current; orphans cleaned later |
 | Stale enabled units in ordinary CI | **Warn** during pilot; omit from site manifest |
@@ -982,10 +981,10 @@ Each prompt implements one phase or tight task group. Stop when acceptance crite
 
 ### Prompt F — Phase 5 reader playback
 
-- **Objective:** Local install path, available-only loader, Listen UI gated by `NEXT_PUBLIC_CHAPTER_AUDIO` (default off), disclosure, nav cleanup—testable on Kevin’s laptop with flag in `apps/site/.env.local`.
-- **Non-goals:** Highlighting; bulk generation; setting the flag in Vercel without Kevin’s go-ahead.
-- **Secrets / usage:** Not permitted in CI/cloud agents. Flag is public (`NEXT_PUBLIC_*`), not a secret.
-- **Stop:** Listen appears iff `NEXT_PUBLIC_CHAPTER_AUDIO=1` and unit available; default off; playback works without alignment.
+- **Objective:** Local install path, available-only loader, Listen UI (no env enable flag), disclosure, nav cleanup—testable on Kevin’s laptop after generate + install.
+- **Non-goals:** Highlighting; bulk generation; shipping available audio to production without Kevin’s go-ahead.
+- **Secrets / usage:** Not permitted in CI/cloud agents.
+- **Stop:** Listen appears iff unit available; absent when no available audio; playback works without alignment.
 
 ### Prompt G — Phase 6 highlighting (separate)
 
