@@ -46,6 +46,7 @@ help:
 	@echo "  make lint-fix  (ruff check --fix + ruff format; writes files)"
 	@echo "  make check  (lint + pytest; run before commit/push when Python changed)"
 	@echo "  make list-chapter-audio [FILTER=all|enabled|available|disabled|stale|missing|unconfigured|invalid] [FORMAT=table|json]"
+	@echo "  make plan-chapter-audio [ENABLED=1] [UNIT=chapter-id] [FORMAT=table|json]"
 	@echo "  make validate-book-specs"
 	@echo "  make validate-editorial-preservation BOOK_DIR=books/when-others-look-to-you/v1"
 	@echo "  make generate-books-manifest [MANIFEST_OUT=build/books-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
@@ -149,6 +150,12 @@ validate-book-specs:
 
 list-chapter-audio:
 	@python3 tools/list_chapter_audio.py --repo . --filter "$(or $(FILTER),all)" --format "$(or $(FORMAT),table)"
+
+plan-chapter-audio:
+	@python3 tools/plan_chapter_audio.py --repo . \
+		$(if $(filter 1 true TRUE yes YES,$(ENABLED)),--enabled,) \
+		$(if $(UNIT),--unit "$(UNIT)",) \
+		--format "$(or $(FORMAT),table)"
 
 validate-publication-manuscript:
 	@test -n "$(DIR)" || { echo "Usage: make validate-publication-manuscript DIR=path/from/repo/root [BOUNDARY=1]"; exit 1; }

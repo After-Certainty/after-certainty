@@ -1,0 +1,17 @@
+## What Love Teaches
+
+Love is chosen.
+
+Small acts compound.
+
+Choice is tested.
+
+Presence grows.
+
+| | |
+| --- | --- |
+| Love deepens. | Obligation replaces choice. |
+| Love endures. | Love fades. |
+| Growth requires loss. | Growth stops. |
+
+Love is learned.

@@ -242,8 +242,10 @@ def resolve_unit_audio(
         model=model,
     )
     source_path = str(chapter.get("sourcePath") or "").strip()
-    chapter_slug = str(chapter.get("chapterSlug") or "").strip()
     route_key = str(chapter.get("routeKey") or "").strip()
+    chapter_slug = str(chapter.get("chapterSlug") or "").strip()
+    if not chapter_slug and route_key:
+        chapter_slug = route_key.rstrip("/").split("/")[-1]
     return ResolvedUnitAudio(
         unit_id=str(chapter.get("id") or "").strip(),
         edition_slug=edition_slug,
