@@ -865,7 +865,7 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Alignment normalize | Provider fixture → neutral segments or `none` |
 | LFS pointer detection | Fail validate |
 | Site manifest | Only `enabled-current`; no provider field required by reader |
-| Reader controls | Playback without alignment; disclosure; nav cleanup |
+| Reader controls | Flag off → no Listen; flag on + available → playback without alignment; disclosure; nav cleanup |
 | Highlight sync | Optional; respects `alignmentGranularity` and reduced-motion |
 | CI | Ordinary workflows lack generate + TTS secrets |
 | Network assurance | Plan/list/validate have no HTTP TTS session |
