@@ -928,6 +928,7 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | OpenAI alignment if added | May be **`none`** until a separate strategy exists |
 | Commercial-use / disclosure by provider | Confirm before **production** Listen; free-plan generate + local reader QA (+ optional GitHub artifact) OK beforehand; show AI narration disclosure when Listen ships |
 | Production Listen before go-ahead | **Blocked** until Kevin’s explicit go-ahead (upgrade ~$6/mo + licensing). Local generate + local site/reader testing is in scope earlier |
+| Overall env var to enable Listen in production? | **Not required.** Listen shows only when a unit is **available** in the installed site audio manifest. Production stays dark by **not installing** audio into the live Vercel build until go-ahead. Optional later: a Vercel kill-switch (`NEXT_PUBLIC_CHAPTER_AUDIO=0`) if artifacts are already in git and Kevin wants an extra off switch—do not make env the primary enable path |
 | Multiple provider variants coexist? | **No** during pilot — one active current set per unit |
 | Switching provider | **Replace** active current; orphans cleaned later |
 | Stale enabled units in ordinary CI | **Warn** during pilot; omit from site manifest |
