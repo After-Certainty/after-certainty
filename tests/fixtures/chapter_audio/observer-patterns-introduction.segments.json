@@ -1,0 +1,56 @@
+[
+  {
+    "id": "s0001",
+    "text": "This is a book of patterns.",
+    "charStart": 0,
+    "charEnd": 27
+  },
+  {
+    "id": "s0002",
+    "text": "Not instructions.",
+    "charStart": 29,
+    "charEnd": 46
+  },
+  {
+    "id": "s0003",
+    "text": "Not arguments.",
+    "charStart": 48,
+    "charEnd": 62
+  },
+  {
+    "id": "s0004",
+    "text": "Just things that happen\u2014",
+    "charStart": 64,
+    "charEnd": 88
+  },
+  {
+    "id": "s0005",
+    "text": "when people look,",
+    "charStart": 90,
+    "charEnd": 107
+  },
+  {
+    "id": "s0006",
+    "text": "decide,",
+    "charStart": 109,
+    "charEnd": 116
+  },
+  {
+    "id": "s0007",
+    "text": "and follow what they see.",
+    "charStart": 118,
+    "charEnd": 143
+  },
+  {
+    "id": "s0008",
+    "text": "These patterns can be read alone.",
+    "charStart": 145,
+    "charEnd": 178
+  },
+  {
+    "id": "s0009",
+    "text": "They can also be read together.",
+    "charStart": 180,
+    "charEnd": 211
+  }
+]

@@ -699,6 +699,12 @@ Do not combine phases into one implementation PR.
 |----|--------|-------|
 | AUDIO-P1-01–P1-04 | **Done (pilot book: Observer Patterns)** | Schemas, voice catalog stub, `make list-chapter-audio`, Observer Patterns `narration.defaults` + all 29 exported units `audio.enabled: true`. Status is `enabled-unconfigured` until Kevin replaces `PLACEHOLDER_ELEVENLABS_VOICE_ID`. Public Listen remains gated. After Certainty audio opt-in was reverted. |
 
+#### Phase 2 progress (2026-08-04)
+
+| ID | Status | Notes |
+|----|--------|-------|
+| AUDIO-P2-01–P2-03 | **Done** | Deterministic extractor (OP poetry tables → left-then-right), generation hashing (provider change invalidates), offline estimates, `make plan-chapter-audio`. Intro spoken length confirmed **211** chars. Still secret-free; units remain `enabled-unconfigured` until a real voice id is set. |
+
 ### Phase 1 — Semantic enablement and schemas
 
 - Add `narration.defaults` + chapter `audio` schemas.
@@ -892,7 +898,7 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Provider | `elevenlabs` (first adapter) |
 | Logical voice | `reflective-narrator` |
 | Model | `eleven_flash_v2_5` (confirm Phase 0/4) |
-| Approx spoken characters (intro) | **~211** (provisional); Phase 2 extractor re-measures |
+| Approx spoken characters (intro) | **211** (extractor v1, 2026-08-04) |
 | Approx spoken characters (full book) | **~13,600** rough — exceeds typical 10k free monthly allowance if generated in one month; pace unit-by-unit or upgrade |
 | Poetry-form notes | Short lines, stanza breaks, and two-column Markdown tables are part of the spoken-text contract (Phase 2 must define table narration explicitly) |
 | Expected first artifacts | `books/observer-patterns/audio/front-matter-introduction.mp3` (LFS), optional `.alignment.json`, `.receipt.json` — **or** GitHub Actions artifact zip for free-plan first test |

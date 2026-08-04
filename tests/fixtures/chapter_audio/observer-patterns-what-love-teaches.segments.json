@@ -1,0 +1,74 @@
+[
+  {
+    "id": "s0001",
+    "text": "What Love Teaches",
+    "charStart": 0,
+    "charEnd": 17
+  },
+  {
+    "id": "s0002",
+    "text": "Love is chosen.",
+    "charStart": 19,
+    "charEnd": 34
+  },
+  {
+    "id": "s0003",
+    "text": "Small acts compound.",
+    "charStart": 36,
+    "charEnd": 56
+  },
+  {
+    "id": "s0004",
+    "text": "Choice is tested.",
+    "charStart": 58,
+    "charEnd": 75
+  },
+  {
+    "id": "s0005",
+    "text": "Presence grows.",
+    "charStart": 77,
+    "charEnd": 92
+  },
+  {
+    "id": "s0006",
+    "text": "Love deepens.",
+    "charStart": 94,
+    "charEnd": 107
+  },
+  {
+    "id": "s0007",
+    "text": "Obligation replaces choice.",
+    "charStart": 108,
+    "charEnd": 135
+  },
+  {
+    "id": "s0008",
+    "text": "Love endures.",
+    "charStart": 136,
+    "charEnd": 149
+  },
+  {
+    "id": "s0009",
+    "text": "Love fades.",
+    "charStart": 150,
+    "charEnd": 161
+  },
+  {
+    "id": "s0010",
+    "text": "Growth requires loss.",
+    "charStart": 162,
+    "charEnd": 183
+  },
+  {
+    "id": "s0011",
+    "text": "Growth stops.",
+    "charStart": 184,
+    "charEnd": 197
+  },
+  {
+    "id": "s0012",
+    "text": "Love is learned.",
+    "charStart": 199,
+    "charEnd": 215
+  }
+]
