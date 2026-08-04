@@ -751,6 +751,7 @@ Do not combine phases into one implementation PR.
 
 - **Build and test locally first:** Listen UI, disclosure, nav cleanup against locally generated available artifacts—Kevin’s laptop is the primary QA surface.
 - **Production / after-certainty.com** stays gated until Kevin confirms paid-plan public distribution + disclosure **and** gives an explicit go-ahead.
+- Primary production gate: **omit audio from the live install/build** until go-ahead (not a required global enable env var). Listen remains capability-based (`available` only).
 - Consume provider-neutral manifest (available only); accessible play/pause/progress; AI narration disclosure; cleanup on chapter navigation.
 - **Do not require alignment.**
 
