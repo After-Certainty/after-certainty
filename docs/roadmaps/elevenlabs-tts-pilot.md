@@ -49,9 +49,9 @@ The monorepo already separates **authored desired state** (semantic YAML / `chap
 | `validate-*` / `verify-*` Make gates | Secret-free plan / list / validate / verify |
 | Credential-free Cursor policy | Cloud agents: no keys. Laptop pilot: gitignored `.env.local` only; optional Actions secret later |
 
-**Recommended pilot scope:** **Observer Patterns** (poetry) — enable the full exported book (29 units) for narration tracking; **first generate** = `chapter-observer-patterns-front-matter-introduction` (~211 characters). Provider **ElevenLabs** behind a narrow `TtsProvider` interface. Free-plan first with GitHub Actions artifact download; **no public Listen** until paid-plan upgrade. Poetry form is an intentional stress case (short units, line breaks, two-column pattern tables). Full-book rough spoken size ~13.6k characters—pace free-plan generation or wait for paid upgrade before narrating everything.
+**Recommended pilot scope:** **Observer Patterns** (poetry) — enable the full exported book (29 units) for narration tracking; **first generate** = `chapter-observer-patterns-front-matter-introduction` (~211 characters). Provider **ElevenLabs** behind a narrow `TtsProvider` interface. Free-plan first; **no production Listen** until Kevin’s explicit go-ahead (paid-plan upgrade + licensing). Poetry form is an intentional stress case (short units, line breaks, two-column pattern tables). Full-book rough spoken size ~13.6k characters—pace free-plan generation or wait for paid upgrade before narrating everything.
 
-**Publishing gate (Kevin, 2026-08-04):** Start on the **ElevenLabs free plan** to prove generation + alignment/receipt data. The **first successful generate** should upload a **GitHub Actions artifact** (MP3 + alignment + receipt) for download/review—not publish Listen on the public site. **Do not** ship site-facing audio / native-reader Listen until Kevin confirms an upgrade to a plan that allows public distribution (target: ~$6/mo Creator tier or successor) **and** licensing/disclosure are accepted. Until then: generate → artifact (and optional review PR into `books/*/audio/` is fine for pipeline testing) → **public availability stays off**.
+**Local vs production (Kevin, 2026-08-04):** On a **trusted laptop**, Kevin may generate with gitignored `.env.local`, install the local site manifest, run the site, and exercise the full native-reader Listen path (playback, disclosure, nav cleanup, later highlighting) before anything is public. **Production / after-certainty.com stays off** until Kevin gives an explicit go-ahead—do not wire audio into the live Vercel build or public manifest until then. Optional GitHub Actions artifact upload remains fine for pipeline review; optional review PRs that commit LFS under `books/*/audio/` are fine for tooling—**public availability stays off** without that go-ahead.
 
 **Largest risks:**
 
@@ -694,10 +694,10 @@ Do not combine phases into one implementation PR.
 | AUDIO-P0-04 | **Done** | Root [`.gitattributes`](../../.gitattributes) tracks `books/*/audio/*.mp3` with Git LFS; receipts/alignment remain ordinary Git. |
 | AUDIO-P0-01 | **Blocked on Kevin** | Confirm ElevenLabs commercial/public-site licensing + AI disclosure wording before **Phase 5** public Listen. Free-plan generation + GitHub artifact review may proceed earlier. No API key required for the licensing decision itself. |
 | AUDIO-P0-03 | **Blocked on Kevin** | Pick stock voice and map it to alias `reflective-narrator` in the voice catalog (Phase 1 can ship a placeholder; generation needs a real id). No API key required until generation. |
-| **Public Listen** | **Gated** | Free plan first → GitHub Actions artifact download for the first generate test. **No** native-reader / public-site audio until Kevin upgrades (target ~$6/mo) and confirms. |
+| **Public / production Listen** | **Gated** | Local laptop generate + local site/reader testing is encouraged. **No** production / after-certainty.com Listen until Kevin’s explicit go-ahead (target ~$6/mo upgrade + licensing). |
 | **Pilot book** | **Observer Patterns** | Poetry collection; all 29 exported units audio-enabled for tracking; first generate = introduction. |
 
-**API key:** Still **not** required for Phase 1–2. When ready for a real free-plan generate (Phase 3+): copy `.env.example` → `.env.local`, set `ELEVENLABS_API_KEY`, run `make generate-chapter-audio` on a trusted laptop. Optional later: the same key as a GitHub Actions secret. Never commit `.env.local`; never put the key in Cursor cloud agents or Vercel.
+**API key:** Still **not** required for Phase 1–2. When ready for a real free-plan generate (Phase 3+): copy `.env.example` → `.env.local`, set `ELEVENLABS_API_KEY`, run `make generate-chapter-audio` on a trusted laptop, then install/run the site locally to exercise reader features. Optional later: the same key as a GitHub Actions secret. Never commit `.env.local`; never put the key in Cursor cloud agents or Vercel. Production Listen waits for Kevin’s go-ahead.
 
 #### Phase 1 progress (2026-08-04)
 
@@ -741,16 +741,17 @@ Do not combine phases into one implementation PR.
 ### Phase 4 — Manual generation workflow
 
 - Primary path for first real generate: **laptop** `make generate-chapter-audio UNIT=…` with `.env.local`.
+- After generate: local `install-local-manifest-for-site` (or successor) + local site so Kevin can test reader features end-to-end.
 - Optional: Resolve provider from the selected unit in Actions; supply only that provider’s secret; dry-run default; upload GitHub Actions artifacts for review.
-- Optional: open a reviewable PR that commits LFS audio under `books/*/audio/` for pipeline review—**still not** site Listen.
+- Optional: open a reviewable PR that commits LFS audio under `books/*/audio/` for pipeline review—**still not** production Listen.
 - Ordinary CI remains provider-secret-free.
-- **Public-site gate:** do not install audio into the live reader / public manifest until Kevin confirms paid-plan upgrade + licensing.
+- **Production gate:** do not install audio into the live Vercel / public-site reader until Kevin’s explicit go-ahead (paid-plan upgrade + licensing).
 
 ### Phase 5 — Reader playback
 
-- **Gated** behind Kevin’s confirmation that the ElevenLabs plan allows public distribution (and disclosure is accepted).
-- Until then, skip shipping Listen on after-certainty.com even if artifacts exist in git.
-- When unblocked: consume provider-neutral manifest (available only); accessible play/pause/progress; AI narration disclosure; cleanup on chapter navigation.
+- **Build and test locally first:** Listen UI, disclosure, nav cleanup against locally generated available artifacts—Kevin’s laptop is the primary QA surface.
+- **Production / after-certainty.com** stays gated until Kevin confirms paid-plan public distribution + disclosure **and** gives an explicit go-ahead.
+- Consume provider-neutral manifest (available only); accessible play/pause/progress; AI narration disclosure; cleanup on chapter navigation.
 - **Do not require alignment.**
 
 ### Phase 6 — Optional synchronized highlighting
@@ -826,9 +827,9 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 
 | ID | Goal | Likely files | New files | Deps | Acceptance | Tests | PN | PS | Creds | Usage | Size |
 |----|------|--------------|-----------|------|------------|-------|----|----|-------|-------|------|
-| AUDIO-P5-01 | Install audio for site | `scripts/install_local_manifest_for_site.py`, `vercel_build.sh` | — | P4-02 | Copies real MP3s; fails on LFS pointers | Python tests | Y | N | N | N | M |
+| AUDIO-P5-01 | Install audio for site | `scripts/install_local_manifest_for_site.py`, `vercel_build.sh` | — | P4-02 | Local install copies real MP3s; fails on LFS pointers; **production install remains off** until Kevin’s go-ahead | Python tests | Y | N | N | N | M |
 | AUDIO-P5-02 | Manifest loader (available only) | `apps/site/types/`, `lib/reading/` | `chapter-audio.ts` | P5-01 | Listen data only when available | Vitest | Y | N | N | N | M |
-| AUDIO-P5-03 | Playback UI + disclosure + nav cleanup | reader shell/chrome, `navigate-chapter.ts`, `reset-spoken-content.tsx` | `chapter-audio-player.tsx` | P5-02 | Playback without alignment; disclosure shown | Component + e2e | Y | N | N | N | L |
+| AUDIO-P5-03 | Playback UI + disclosure + nav cleanup | reader shell/chrome, `navigate-chapter.ts`, `reset-spoken-content.tsx` | `chapter-audio-player.tsx` | P5-02 | Local site: playback without alignment; disclosure shown; production Listen still gated | Component + e2e | Y | N | N | N | L |
 
 ### Phase 6
 
@@ -908,8 +909,8 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Poetry-form notes | Short lines, stanza breaks, and two-column Markdown tables are part of the spoken-text contract (Phase 2 must define table narration explicitly) |
 | Expected first artifacts | `books/observer-patterns/audio/front-matter-introduction.mp3` (LFS), optional `.alignment.json`, `.receipt.json` — **or** GitHub Actions artifact zip for free-plan first test |
 | Alignment capability | Prefer `segment-only` (sentence/line); playback must work even if `none` |
-| Manual invocation | Prefer laptop: `.env.local` + `make generate-chapter-audio UNIT=chapter-observer-patterns-front-matter-introduction` (dry-run then real). Optional Actions dispatch later. Do not enable public Listen yet. |
-| Reader behavior | Listen only when **available** and **public gate lifted**; disclosure shown; alignment optional |
+| Manual invocation | Prefer laptop: `.env.local` + `make generate-chapter-audio UNIT=chapter-observer-patterns-front-matter-introduction` (dry-run then real), then local site install + reader QA. Optional Actions dispatch later. Do not enable **production** Listen until Kevin’s go-ahead. |
+| Reader behavior | **Local:** Listen when **available**. **Production:** available units still omitted / gated until Kevin’s go-ahead. Disclosure shown; alignment optional |
 | Acceptance tests | Unchanged content does not regenerate; **changing provider invalidates generation hash**; poetry fixtures cover tables/line breaks |
 
 **Credit note:** First generate (introduction) is cheap on the free plan. Narrating much of the book is intentional but must be paced or done after the paid-plan upgrade. Retries and full-book runs wait for budget headroom.
@@ -925,8 +926,8 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Public manifests expose provider identity? | **No** — receipts keep provider; reader uses capabilities |
 | Initial alignment granularity | **Sentence / `segment-only`** |
 | OpenAI alignment if added | May be **`none`** until a separate strategy exists |
-| Commercial-use / disclosure by provider | Confirm before **public** Listen; free-plan generate + GitHub artifact OK for private/pipeline test; show AI narration disclosure when site ships |
-| Public site Listen before paid plan | **Blocked** until Kevin confirms upgrade (~$6/mo) + licensing; first generate uses Actions **artifact download** only |
+| Commercial-use / disclosure by provider | Confirm before **production** Listen; free-plan generate + local reader QA (+ optional GitHub artifact) OK beforehand; show AI narration disclosure when Listen ships |
+| Production Listen before go-ahead | **Blocked** until Kevin’s explicit go-ahead (upgrade ~$6/mo + licensing). Local generate + local site/reader testing is in scope earlier |
 | Multiple provider variants coexist? | **No** during pilot — one active current set per unit |
 | Switching provider | **Replace** active current; orphans cleaned later |
 | Stale enabled units in ordinary CI | **Warn** during pilot; omit from site manifest |
@@ -978,10 +979,10 @@ Each prompt implements one phase or tight task group. Stop when acceptance crite
 
 ### Prompt F — Phase 5 reader playback
 
-- **Objective:** Install path, available-only loader, Listen UI, disclosure, nav cleanup.
-- **Non-goals:** Highlighting; bulk generation.
-- **Secrets / usage:** Not permitted.
-- **Stop:** Listen appears iff available; playback works without alignment.
+- **Objective:** Local install path, available-only loader, Listen UI, disclosure, nav cleanup—testable on Kevin’s laptop against generated artifacts.
+- **Non-goals:** Highlighting; bulk generation; enabling production / Vercel Listen without Kevin’s go-ahead.
+- **Secrets / usage:** Not permitted in CI/cloud agents.
+- **Stop:** On local site, Listen appears iff available; playback works without alignment; production remains gated.
 
 ### Prompt G — Phase 6 highlighting (separate)
 

@@ -46,8 +46,9 @@ Rules:
 
 1. Never commit `.env.local` (root `.gitignore` excludes `.env` / `.env.*` except `.env.example`).
 2. Never paste the key into chat or PR descriptions.
-3. Prefer this laptop path for the first free-plan generate; GitHub Actions secrets remain optional.
-4. Cloud / untrusted agents stay credential-free.
+3. Prefer this laptop path for the first free-plan generate; then install and run the site locally to QA Listen / reader features. GitHub Actions secrets remain optional.
+4. Production / after-certainty.com Listen stays off until an explicit go-ahead—local testing does not imply public enablement.
+5. Cloud / untrusted agents stay credential-free.
 
 ## Dev container
 
