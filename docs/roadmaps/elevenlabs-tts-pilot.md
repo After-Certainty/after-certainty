@@ -51,6 +51,8 @@ The monorepo already separates **authored desired state** (semantic YAML / `chap
 
 **Recommended pilot scope:** One unit—`chapter-after-certainty-front-matter-introduction`—provider **ElevenLabs** behind a narrow `TtsProvider` interface, hard usage ceilings, Git LFS for MP3s, playback without requiring alignment, sentence-level highlighting deferred to Phase 6, no automatic regeneration.
 
+**Publishing gate (Kevin, 2026-08-04):** Start on the **ElevenLabs free plan** to prove generation + alignment/receipt data. The **first successful generate** should upload a **GitHub Actions artifact** (MP3 + alignment + receipt) for download/review—not publish Listen on the public site. **Do not** ship site-facing audio / native-reader Listen until Kevin confirms an upgrade to a plan that allows public distribution (target: ~$6/mo Creator tier or successor) **and** licensing/disclosure are accepted. Until then: generate → artifact (and optional review PR into `books/*/audio/` is fine for pipeline testing) → **public availability stays off**.
+
 **Largest risks:**
 
 1. **Usage burn** — Rough spoken length ~8,300 characters; under ElevenLabs free credits, one generation can consume most of a ~10,000-credit monthly allowance (provider constraint, not a core architectural assumption).
@@ -682,10 +684,17 @@ Do not combine phases into one implementation PR.
 |----|--------|-------|
 | AUDIO-P0-02 | **Done** | Provisional strip of `books/after-certainty/front-matter/introduction.md` → **8,331** spoken characters / **1,263** words (Phase 2 extractor will re-measure). If ~1 ElevenLabs credit ≈ 1 character, one generation uses most of a 10k free monthly allowance. |
 | AUDIO-P0-04 | **Done** | Root [`.gitattributes`](../../.gitattributes) tracks `books/*/audio/*.mp3` with Git LFS; receipts/alignment remain ordinary Git. |
-| AUDIO-P0-01 | **Blocked on Kevin** | Confirm ElevenLabs commercial/public-site licensing + AI disclosure wording before Phase 4/5 ship. No API key required for this decision. |
-| AUDIO-P0-03 | **Blocked on Kevin** | Pick stock voice and map it to alias `reflective-narrator` in the voice catalog (Phase 1). No API key required until generation. |
+| AUDIO-P0-01 | **Blocked on Kevin** | Confirm ElevenLabs commercial/public-site licensing + AI disclosure wording before **Phase 5** public Listen. Free-plan generation + GitHub artifact review may proceed earlier. No API key required for the licensing decision itself. |
+| AUDIO-P0-03 | **Blocked on Kevin** | Pick stock voice and map it to alias `reflective-narrator` in the voice catalog (Phase 1 can ship a placeholder; generation needs a real id). No API key required until generation. |
+| **Public Listen** | **Gated** | Free plan first → GitHub Actions artifact download for the first generate test. **No** native-reader / public-site audio until Kevin upgrades (target ~$6/mo) and confirms. |
 
-**API key:** Still **not** required. Add `ELEVENLABS_API_KEY` as a GitHub Actions secret only when Phase 4’s manual generate workflow exists, and only use it with `dry_run=false`.
+**API key:** Still **not** required for Phase 1–2. Add `ELEVENLABS_API_KEY` as a GitHub Actions secret when Phase 4’s manual generate workflow exists; use it with `dry_run=false` on the free plan for artifact-only verification. Do not put the key in Cursor or Vercel.
+
+#### Phase 1 progress (2026-08-04)
+
+| ID | Status | Notes |
+|----|--------|-------|
+| AUDIO-P1-01–P1-04 | **Done** | Schemas, voice catalog stub, `make list-chapter-audio`, After Certainty intro `audio.enabled: true`. Status is `enabled-unconfigured` until Kevin replaces `PLACEHOLDER_ELEVENLABS_VOICE_ID`. Public Listen remains gated. |
 
 ### Phase 1 — Semantic enablement and schemas
 
@@ -718,14 +727,16 @@ Do not combine phases into one implementation PR.
 - Resolve provider from the selected unit.
 - Supply only that provider’s secret.
 - Enforce hard limits; dry-run default.
-- Generate one unit; validate; open reviewable PR with LFS push.
+- Generate one unit; validate; **upload GitHub Actions artifacts** (MP3 + alignment + receipt) for download on the free-plan first test.
+- Optional: open a reviewable PR that commits LFS audio under `books/*/audio/` for pipeline review—**still not** site Listen.
 - Ordinary CI remains provider-secret-free.
+- **Public-site gate:** do not install audio into the live reader / public manifest until Kevin confirms paid-plan upgrade + licensing.
 
 ### Phase 5 — Reader playback
 
-- Consume provider-neutral manifest (available only).
-- Accessible play/pause/progress; AI narration disclosure.
-- Cleanup on chapter navigation.
+- **Gated** behind Kevin’s confirmation that the ElevenLabs plan allows public distribution (and disclosure is accepted).
+- Until then, skip shipping Listen on after-certainty.com even if artifacts exist in git.
+- When unblocked: consume provider-neutral manifest (available only); accessible play/pause/progress; AI narration disclosure; cleanup on chapter navigation.
 - **Do not require alignment.**
 
 ### Phase 6 — Optional synchronized highlighting
@@ -897,7 +908,8 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Public manifests expose provider identity? | **No** — receipts keep provider; reader uses capabilities |
 | Initial alignment granularity | **Sentence / `segment-only`** |
 | OpenAI alignment if added | May be **`none`** until a separate strategy exists |
-| Commercial-use / disclosure by provider | Confirm before public Listen; show AI narration disclosure |
+| Commercial-use / disclosure by provider | Confirm before **public** Listen; free-plan generate + GitHub artifact OK for private/pipeline test; show AI narration disclosure when site ships |
+| Public site Listen before paid plan | **Blocked** until Kevin confirms upgrade (~$6/mo) + licensing; first generate uses Actions **artifact download** only |
 | Multiple provider variants coexist? | **No** during pilot — one active current set per unit |
 | Switching provider | **Replace** active current; orphans cleaned later |
 | Stale enabled units in ordinary CI | **Warn** during pilot; omit from site manifest |

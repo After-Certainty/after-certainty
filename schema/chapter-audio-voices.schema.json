@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/chapter-audio-voices.schema.json",
+  "title": "Chapter audio logical voice catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["voices"],
+  "properties": {
+    "voices": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "elevenlabs": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["voice_id"],
+            "properties": {
+              "voice_id": { "type": "string", "minLength": 1 }
+            }
+          },
+          "openai": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["voice"],
+            "properties": {
+              "voice": { "type": "string", "minLength": 1 },
+              "instructions": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

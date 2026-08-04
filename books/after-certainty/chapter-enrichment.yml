@@ -23,6 +23,9 @@ chapters:
     readingTransition: >
       From the series' diagnostic work into Part I—letting go of the grips that try to finish what
       understanding cannot.
+    audio:
+      enabled: true
+      max_credits: 9000
 
   - sourcePath: parts/part-1-letting-go/bridge.md
     summary: >

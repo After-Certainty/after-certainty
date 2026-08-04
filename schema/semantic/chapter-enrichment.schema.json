@@ -63,6 +63,10 @@
               "sequence",
               "other"
             ]
+          },
+          "audio": {
+            "$ref": "#/$defs/chapterAudioSettings",
+            "description": "Optional narration intent for this exported manuscript unit. enabled:true opts in; other fields inherit from book.yml narration.defaults when omitted."
           }
         },
         "anyOf": [
@@ -70,6 +74,37 @@
           { "required": ["source"] },
           { "required": ["id"] }
         ]
+      }
+    }
+  },
+  "$defs": {
+    "chapterAudioSettings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "provider": {
+          "type": "string",
+          "enum": ["elevenlabs", "openai"]
+        },
+        "voice": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Logical voice alias (config/chapter-audio-voices.yml)"
+        },
+        "model": { "type": "string", "minLength": 1 },
+        "output_format": { "type": "string", "minLength": 1 },
+        "language": { "type": "string", "minLength": 1 },
+        "include_title": { "type": "boolean" },
+        "include_footnotes": { "type": "boolean" },
+        "instructions": { "type": "string" },
+        "max_estimated_usd": { "type": "number", "minimum": 0 },
+        "max_credits": { "type": "number", "minimum": 0 },
+        "seed": { "type": ["integer", "string", "null"] },
+        "provider_options": {
+          "type": "object",
+          "additionalProperties": { "type": "object" }
+        }
       }
     }
   }
