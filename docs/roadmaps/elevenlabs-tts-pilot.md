@@ -711,6 +711,12 @@ Do not combine phases into one implementation PR.
 |----|--------|-------|
 | AUDIO-P2-01–P2-03 | **Done** | Deterministic extractor (OP poetry tables → left-then-right), generation hashing (provider change invalidates), offline estimates, `make plan-chapter-audio`. Intro spoken length confirmed **211** chars. Still secret-free; units remain `enabled-unconfigured` until a real voice id is set. |
 
+#### Phase 3 progress (2026-08-04)
+
+| ID | Status | Notes |
+|----|--------|-------|
+| AUDIO-P3-01–P3-03 | **Done** | `TtsProvider` Protocol, ElevenLabs adapter (stdlib HTTP) + `MockElevenLabsProvider`, `make generate-chapter-audio` with dry-run default / `--mock` / `--real`, budgets, atomic artifact trio, `.env.local` key loading. CI uses mocks only. Real generate still blocked on `PLACEHOLDER_ELEVENLABS_VOICE_ID` + Kevin’s key on laptop. |
+
 ### Phase 1 — Semantic enablement and schemas
 
 - Add `narration.defaults` + chapter `audio` schemas.

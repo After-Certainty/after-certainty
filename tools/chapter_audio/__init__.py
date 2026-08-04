@@ -1,4 +1,4 @@
-"""Chapter audio: provider-neutral resolve, extract, plan, and (later) generate helpers."""
+"""Chapter audio: provider-neutral resolve, extract, plan, and generate helpers."""
 
 from __future__ import annotations
 

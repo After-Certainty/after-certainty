@@ -39,7 +39,9 @@ For the chapter-audio pilot, a **trusted local machine** may hold `ELEVENLABS_AP
 
 ```bash
 # after copying .env.example → .env.local and setting ELEVENLABS_API_KEY=
-make generate-chapter-audio UNIT=chapter-observer-patterns-front-matter-introduction
+make generate-chapter-audio UNIT=chapter-observer-patterns-front-matter-introduction DRY_RUN=1
+make generate-chapter-audio UNIT=… MOCK=1   # offline practice; no API
+make generate-chapter-audio UNIT=… REAL=1   # real call; needs key + real voice id
 ```
 
 Then install the local site manifest and run the site. Listen appears only for chapters

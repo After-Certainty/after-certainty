@@ -6,6 +6,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
+from chapter_audio.adapters.elevenlabs import ADAPTER_VERSION as ELEVENLABS_ADAPTER_VERSION
 from chapter_audio.estimate import estimate_usage
 from chapter_audio.extract import EXTRACTOR_VERSION, extract_spoken_document
 from chapter_audio.hashing import (
@@ -17,10 +18,13 @@ from chapter_audio.hashing import (
 from chapter_audio.receipts import classify_artifacts
 from chapter_audio.resolve import ResolvedUnitAudio, classify_status, iter_resolved_units
 
-# Until Phase 3 ships the ElevenLabs adapter, planning uses this version string.
-# Phase 3 must keep adapter_version in sync or hashes will intentionally go stale.
-PENDING_ADAPTER_VERSION = "1"
 ALIGNMENT_STRATEGY = "segment-only"
+
+
+def _adapter_version(provider: str | None) -> str:
+    if provider == "elevenlabs":
+        return ELEVENLABS_ADAPTER_VERSION
+    return ELEVENLABS_ADAPTER_VERSION
 
 
 @dataclass(frozen=True)
@@ -177,7 +181,7 @@ def plan_unit(
     payload = build_generation_hash_payload(
         spoken_text=spoken.spoken_text,
         provider=unit.provider,
-        provider_adapter_version=PENDING_ADAPTER_VERSION,
+        provider_adapter_version=_adapter_version(unit.provider),
         model=unit.model,
         voice_alias=unit.voice_alias,
         provider_voice_id=unit.provider_voice_id,
