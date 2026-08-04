@@ -676,6 +676,17 @@ Do not combine phases into one implementation PR.
 - Confirm Git LFS artifact strategy; add `.gitattributes` before any MP3.
 - Rough character / cost estimate without API calls.
 
+#### Phase 0 progress (2026-08-03)
+
+| ID | Status | Notes |
+|----|--------|-------|
+| AUDIO-P0-02 | **Done** | Provisional strip of `books/after-certainty/front-matter/introduction.md` → **8,331** spoken characters / **1,263** words (Phase 2 extractor will re-measure). If ~1 ElevenLabs credit ≈ 1 character, one generation uses most of a 10k free monthly allowance. |
+| AUDIO-P0-04 | **Done** | Root [`.gitattributes`](../../.gitattributes) tracks `books/*/audio/*.mp3` with Git LFS; receipts/alignment remain ordinary Git. |
+| AUDIO-P0-01 | **Blocked on Kevin** | Confirm ElevenLabs commercial/public-site licensing + AI disclosure wording before Phase 4/5 ship. No API key required for this decision. |
+| AUDIO-P0-03 | **Blocked on Kevin** | Pick stock voice and map it to alias `reflective-narrator` in the voice catalog (Phase 1). No API key required until generation. |
+
+**API key:** Still **not** required. Add `ELEVENLABS_API_KEY` as a GitHub Actions secret only when Phase 4’s manual generate workflow exists, and only use it with `dry_run=false`.
+
 ### Phase 1 — Semantic enablement and schemas
 
 - Add `narration.defaults` + chapter `audio` schemas.
@@ -749,7 +760,9 @@ Columns: **PN** provider-neutral · **PS** provider-specific · **Creds** · **U
 | AUDIO-P0-01 | Confirm licensing, disclosure, ElevenLabs endpoint assumptions | This roadmap notes | Optional spike note | — | Human-checked assumptions | N/A | Y | Y | N | N | S |
 | AUDIO-P0-02 | Local spoken-length estimate for pilot unit | Intro md | Optional throwaway script | — | Character count recorded | N/A | Y | N | N | N | S |
 | AUDIO-P0-03 | Choose logical voice alias + catalog stock id (human) | — | — | P0-01 | Alias recorded | N/A | Y | Y | N | N | S |
-| AUDIO-P0-04 | Add Git LFS `.gitattributes` for `books/*/audio/*.mp3` | `.gitattributes` | `.gitattributes` | — | `git check-attr` shows LFS | Doc note | Y | N | N | N | S |
+| AUDIO-P0-04 | Add Git LFS `.gitattributes` for `books/*/audio/*.mp3` | `.gitattributes` | `.gitattributes` | — | `git check-attr filter` shows LFS; no MP3s yet | Doc/CI note | Y | N | N | N | S |
+
+Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** completed on branch work; **AUDIO-P0-01** and **AUDIO-P0-03** remain Kevin-gated and do not block Phase 1 schemas/listing.
 
 ### Phase 1
 
@@ -863,7 +876,7 @@ Columns: **PN** provider-neutral · **PS** provider-specific · **Creds** · **U
 | Provider | `elevenlabs` (first adapter) |
 | Logical voice | `reflective-narrator` |
 | Model | `eleven_flash_v2_5` (confirm Phase 0) |
-| Approx spoken characters | ~8,300 (naive); re-measure in Phase 2 |
+| Approx spoken characters | **8,331** provisional (2026-08-03 Phase 0 strip); Phase 2 extractor re-measures |
 | Estimated usage | Provider-native credits ≈ character count order; USD when formula known |
 | Expected artifacts | `books/after-certainty/audio/front-matter-introduction.mp3` (LFS), `.alignment.json` (if segment timing available), `.receipt.json` |
 | Alignment capability | Prefer `segment-only` (sentence); playback must work even if `none` |
