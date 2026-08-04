@@ -93,7 +93,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 
 ### Specialized cross-layer plans (tracked outside day-to-day Now/Next)
 
-- **AUDIO-001** — Provider-neutral selective chapter narration for the native reader is an **active specialized plan** (Phases 0–8). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). ElevenLabs is the first pilot adapter; OpenAI is a later evaluation candidate. Pilot unit: After Certainty introduction; Git LFS for MP3s; enabled ≠ available; no provider API keys in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan (for example a decision to expand beyond the one-unit pilot or add a second provider adapter).
+- **AUDIO-001** — Provider-neutral selective chapter narration for the native reader is an **active specialized plan** (Phases 0–8). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). ElevenLabs is the first pilot adapter; OpenAI is a later evaluation candidate. **Pilot book: Observer Patterns (poetry)** — all exported units enabled for tracking; first generate = introduction; free-plan GitHub artifact first; public Listen gated until paid-plan upgrade. Git LFS for MP3s; enabled ≠ available; no provider API keys in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan.
 
 ### Later / revisit when triggered
 
