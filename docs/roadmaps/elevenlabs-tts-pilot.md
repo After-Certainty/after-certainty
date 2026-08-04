@@ -10,7 +10,7 @@
 
 > **Evidence rule:** Live code, schemas, workflows, and tests override planning-time snapshots in this document.
 
-> **Safety rule:** Do not put provider API keys (`ELEVENLABS_API_KEY`, future `OPENAI_API_KEY`, etc.) in Cursor agent environments, local `.env` files, ordinary CI, or Vercel. Generation runs only in a manual, secret-scoped Actions job. No TTS API calls were made while authoring or revising this document.
+> **Safety rule:** Do not commit provider API keys (`ELEVENLABS_API_KEY`, future `OPENAI_API_KEY`, etc.). Do not put them in Cursor **cloud** agent environments, ordinary CI, or Vercel. For the first real generate, Kevin may use a **trusted laptop**: put the key only in gitignored root `.env.local` (see `.env.example`) and run `make generate-chapter-audio`. Optional later: the same variable as a GitHub Actions secret for a manual workflow. No TTS API calls were made while authoring or revising this document.
 
 ---
 
@@ -47,7 +47,7 @@ The monorepo already separates **authored desired state** (semantic YAML / `chap
 | Cover derivatives + install-for-site | Audio install into `apps/site/public/generated/audio/` |
 | `semantic-enrichment.yml` manual dispatch → PR | Metered generation workflow → reviewable PR |
 | `validate-*` / `verify-*` Make gates | Secret-free plan / list / validate / verify |
-| Credential-free Cursor policy | Provider keys only in Actions; mount **only** the selected provider’s secret |
+| Credential-free Cursor policy | Cloud agents: no keys. Laptop pilot: gitignored `.env.local` only; optional Actions secret later |
 
 **Recommended pilot scope:** **Observer Patterns** (poetry) — enable the full exported book (29 units) for narration tracking; **first generate** = `chapter-observer-patterns-front-matter-introduction` (~211 characters). Provider **ElevenLabs** behind a narrow `TtsProvider` interface. Free-plan first with GitHub Actions artifact download; **no public Listen** until paid-plan upgrade. Poetry form is an intentional stress case (short units, line breaks, two-column pattern tables). Full-book rough spoken size ~13.6k characters—pace free-plan generation or wait for paid upgrade before narrating everything.
 
@@ -575,8 +575,10 @@ Golden fixtures under `tests/fixtures/chapter_audio/` lock behavior.
 - Offline list/plan/validate never need a key and never call TTS networks.
 - Generation is explicit, single-unit (pilot), budgeted, and reviewable.
 - Ordinary CI never receives provider TTS secrets.
-- Cursor agents never receive provider TTS keys.
+- Cursor **cloud** agents never receive provider TTS keys.
 - Generation does not run on Vercel; do not place TTS secrets in Vercel env.
+- **Preferred first real call path:** Kevin’s laptop + gitignored root `.env.local` + `make generate-chapter-audio` (after Phase 3).
+- **Optional later:** GitHub Actions `workflow_dispatch` with repository secret for the same command.
 
 ### 6.2 Provider-neutral budget model
 
@@ -616,13 +618,17 @@ Enforcement:
 
 | Location | Allowed? |
 |----------|----------|
-| Actions secret `ELEVENLABS_API_KEY` | Yes (Phase 4), only on generate job when unit provider is ElevenLabs |
+| Root `.env.local` (gitignored) on Kevin’s laptop | **Yes** — preferred for the first free-plan generate test via `make generate-chapter-audio` |
+| Root `.env.example` | Yes — documents variable **names** only; never real values |
+| Actions secret `ELEVENLABS_API_KEY` | Yes (optional Phase 4), only on generate job when unit provider is ElevenLabs |
 | Future Actions secret `OPENAI_API_KEY` | Yes only if Phase 7+ implements OpenAI and unit resolves to it |
 | Mount both keys on every generate job | **No** — mount only the selected provider’s secret |
 | `site-ci.yml` / `python-tests.yml` | No |
-| Cursor / cloud agents | No |
+| Cursor **cloud** agents / untrusted agent VMs | No |
 | Vercel | No |
-| `.env` / committed files | No |
+| Committed `.env`, chat transcripts, manifests, receipts | No |
+
+**Loading rule (Phase 3+):** `generate-chapter-audio` may read `ELEVENLABS_API_KEY` from the process environment or from root `.env.local` if present. It must refuse to run a real generate if the key is missing, and must never print the key.
 
 ---
 
@@ -691,7 +697,7 @@ Do not combine phases into one implementation PR.
 | **Public Listen** | **Gated** | Free plan first → GitHub Actions artifact download for the first generate test. **No** native-reader / public-site audio until Kevin upgrades (target ~$6/mo) and confirms. |
 | **Pilot book** | **Observer Patterns** | Poetry collection; all 29 exported units audio-enabled for tracking; first generate = introduction. |
 
-**API key:** Still **not** required for Phase 1–2. Add `ELEVENLABS_API_KEY` as a GitHub Actions secret when Phase 4’s manual generate workflow exists; use it with `dry_run=false` on the free plan for artifact-only verification. Do not put the key in Cursor or Vercel.
+**API key:** Still **not** required for Phase 1–2. When ready for a real free-plan generate (Phase 3+): copy `.env.example` → `.env.local`, set `ELEVENLABS_API_KEY`, run `make generate-chapter-audio` on a trusted laptop. Optional later: the same key as a GitHub Actions secret. Never commit `.env.local`; never put the key in Cursor cloud agents or Vercel.
 
 #### Phase 1 progress (2026-08-04)
 
@@ -730,13 +736,12 @@ Do not combine phases into one implementation PR.
 - Mock all provider calls in tests.
 - Normalize results and alignment (or `none`).
 - Atomic artifact writing.
+- Support loading `ELEVENLABS_API_KEY` from the environment or gitignored root `.env.local` for laptop generate (never commit the file).
 
 ### Phase 4 — Manual generation workflow
 
-- Resolve provider from the selected unit.
-- Supply only that provider’s secret.
-- Enforce hard limits; dry-run default.
-- Generate one unit; validate; **upload GitHub Actions artifacts** (MP3 + alignment + receipt) for download on the free-plan first test.
+- Primary path for first real generate: **laptop** `make generate-chapter-audio UNIT=…` with `.env.local`.
+- Optional: Resolve provider from the selected unit in Actions; supply only that provider’s secret; dry-run default; upload GitHub Actions artifacts for review.
 - Optional: open a reviewable PR that commits LFS audio under `books/*/audio/` for pipeline review—**still not** site Listen.
 - Ordinary CI remains provider-secret-free.
 - **Public-site gate:** do not install audio into the live reader / public manifest until Kevin confirms paid-plan upgrade + licensing.
@@ -903,7 +908,7 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Poetry-form notes | Short lines, stanza breaks, and two-column Markdown tables are part of the spoken-text contract (Phase 2 must define table narration explicitly) |
 | Expected first artifacts | `books/observer-patterns/audio/front-matter-introduction.mp3` (LFS), optional `.alignment.json`, `.receipt.json` — **or** GitHub Actions artifact zip for free-plan first test |
 | Alignment capability | Prefer `segment-only` (sentence/line); playback must work even if `none` |
-| Manual invocation | Actions dispatch with `UNIT=chapter-observer-patterns-front-matter-introduction`, `dry_run=true` then explicit `false`; mounts only `ELEVENLABS_API_KEY`; upload Actions artifact; do not enable public Listen yet |
+| Manual invocation | Prefer laptop: `.env.local` + `make generate-chapter-audio UNIT=chapter-observer-patterns-front-matter-introduction` (dry-run then real). Optional Actions dispatch later. Do not enable public Listen yet. |
 | Reader behavior | Listen only when **available** and **public gate lifted**; disclosure shown; alignment optional |
 | Acceptance tests | Unchanged content does not regenerate; **changing provider invalidates generation hash**; poetry fixtures cover tables/line breaks |
 
@@ -959,17 +964,17 @@ Each prompt implements one phase or tight task group. Stop when acceptance crite
 
 ### Prompt D — Phase 3 provider interface + ElevenLabs adapter only
 
-- **Objective:** `TtsProvider` + ElevenLabs adapter + generate command with mocks.
-- **Non-goals:** OpenAI adapter; public workflow; reader.
-- **Secrets / usage:** Not in Cursor/CI; real optional only via later Actions.
-- **Stop:** Mock generate writes valid artifact trio; budgets enforced.
+- **Objective:** `TtsProvider` + ElevenLabs adapter + generate command with mocks; wire optional `.env.local` key loading for laptop use.
+- **Non-goals:** OpenAI adapter; requiring Actions; reader; committing secrets.
+- **Secrets / usage:** Not in cloud agents/CI. Real calls only when Kevin runs generate locally with gitignored `.env.local`.
+- **Stop:** Mock generate writes valid artifact trio; budgets enforced; `.env.example` documents `ELEVENLABS_API_KEY`.
 
-### Prompt E — Phase 4 manual workflow
+### Prompt E — Phase 4 optional Actions workflow + local generate polish
 
-- **Objective:** Dispatch workflow; mount only selected provider secret; ordinary CI validate; checklist docs.
-- **Non-goals:** Reader UI; second provider.
-- **Secrets / usage:** Only in Actions when `dry_run=false` (human-gated).
-- **Stop:** Dry-run path documented; ordinary CI has no TTS secrets.
+- **Objective:** Document/polish laptop generate path; optional dispatch workflow; ordinary CI validate; checklist docs.
+- **Non-goals:** Reader UI; second provider; public Listen.
+- **Secrets / usage:** Laptop `.env.local` for Kevin’s first free-plan test; Actions secret only if/when workflow is used.
+- **Stop:** Local generate path documented; ordinary CI has no TTS secrets.
 
 ### Prompt F — Phase 5 reader playback
 

@@ -30,6 +30,24 @@ GitHub, Vercel, Beehiiv, SSH, or other production credentials.
 - Do not export `GH_TOKEN`, `GITHUB_TOKEN`, `CACHE_REVALIDATE_SECRET`, or Vercel tokens
   into agent sessions unless the task explicitly requires publication (it usually does not).
 - Do not paste production secrets into chat, commits, or generated manifests.
+- Do not put TTS provider keys into **Cursor cloud** agent environments.
+
+## Exception: laptop-only chapter TTS generate
+
+For the chapter-audio pilot, a **trusted local machine** may hold `ELEVENLABS_API_KEY` in
+**gitignored** root [`.env.local`](../../.env.example) and run:
+
+```bash
+# after copying .env.example → .env.local and setting ELEVENLABS_API_KEY=
+make generate-chapter-audio UNIT=chapter-observer-patterns-front-matter-introduction
+```
+
+Rules:
+
+1. Never commit `.env.local` (root `.gitignore` excludes `.env` / `.env.*` except `.env.example`).
+2. Never paste the key into chat or PR descriptions.
+3. Prefer this laptop path for the first free-plan generate; GitHub Actions secrets remain optional.
+4. Cloud / untrusted agents stay credential-free.
 
 ## Dev container
 
