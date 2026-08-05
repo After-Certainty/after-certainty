@@ -159,13 +159,15 @@ def test_list_chapter_audio_enabled_filter_observer_patterns(repo_root: Path) ->
     assert r.returncode == 0, r.stderr
     payload = json.loads(r.stdout)
     units = payload["units"]
-    assert len(units) == 29
+    assert len(units) == 6
     assert all(u["editionSlug"] == "observer-patterns" for u in units)
-    assert all(u["status"] == "enabled-missing" for u in units)
+    assert all(str(u["status"]).startswith("enabled") for u in units)
     ids = {u["unitId"] for u in units}
     assert PILOT_INTRO in ids
     assert any(u["kind"] == "poem" for u in units)
-    assert any(u["kind"] == "bridge" for u in units)
+    assert all(u["kind"] in {"introduction", "poem"} for u in units)
+    assert sum(1 for u in units if u["kind"] == "poem") == 5
+
 
 
 def test_observer_patterns_book_spec_still_validates(repo_root: Path) -> None:
