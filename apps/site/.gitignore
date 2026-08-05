@@ -56,6 +56,9 @@ next-env.d.ts
 /data/local-intended-manifest-release.json
 /data/local-chapter-audio-manifest.json
 
+# SSR Listen alignment JSON (MP3s stay under public/generated/audio/)
+/data/chapter-audio/
+
 # Native Reader manuscripts installed for SSR (READ-003; do not commit)
 /data/manuscripts/
 
