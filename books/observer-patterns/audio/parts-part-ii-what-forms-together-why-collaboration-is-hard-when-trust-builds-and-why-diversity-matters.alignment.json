@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-ii-what-forms-together-why-collaboration-is-hard-when-trust-builds-and-why-diversity-matters",
+  "generationHash": "sha256:13f73a063ce4f9a126e9dc01511c95e7eb68568c665dba5b27f4dd0ca0b97dc0",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Why Collaboration Is Hard When Trust Builds And Why Diversity Matters",
+      "startMs": 0.0,
+      "endMs": 5190.0,
+      "charStart": 0,
+      "charEnd": 69
+    },
+    {
+      "id": "s0002",
+      "text": "Difference is present.",
+      "startMs": 6003.0,
+      "endMs": 7593.0,
+      "charStart": 71,
+      "charEnd": 93
+    },
+    {
+      "id": "s0003",
+      "text": "Trust is offered.",
+      "startMs": 8290.0,
+      "endMs": 9567.0,
+      "charStart": 95,
+      "charEnd": 112
+    },
+    {
+      "id": "s0004",
+      "text": "Context varies.",
+      "startMs": 9846.0,
+      "endMs": 11332.0,
+      "charStart": 114,
+      "charEnd": 129
+    },
+    {
+      "id": "s0005",
+      "text": "Variation accumulates.",
+      "startMs": 11425.0,
+      "endMs": 13213.0,
+      "charStart": 131,
+      "charEnd": 153
+    },
+    {
+      "id": "s0006",
+      "text": "Small risks compound.",
+      "startMs": 13364.0,
+      "endMs": 15163.0,
+      "charStart": 155,
+      "charEnd": 176
+    },
+    {
+      "id": "s0007",
+      "text": "Perspective expands.",
+      "startMs": 15291.0,
+      "endMs": 17183.0,
+      "charStart": 178,
+      "charEnd": 198
+    },
+    {
+      "id": "s0008",
+      "text": "Reliability forms.",
+      "startMs": 17299.0,
+      "endMs": 18913.0,
+      "charStart": 200,
+      "charEnd": 218
+    },
+    {
+      "id": "s0009",
+      "text": "Assumptions are tested",
+      "startMs": 19041.0,
+      "endMs": 20771.0,
+      "charStart": 220,
+      "charEnd": 242
+    },
+    {
+      "id": "s0010",
+      "text": "Vulnerability is tested.",
+      "startMs": 21096.0,
+      "endMs": 22965.0,
+      "charStart": 244,
+      "charEnd": 268
+    },
+    {
+      "id": "s0011",
+      "text": "Understanding aligns.",
+      "startMs": 23244.0,
+      "endMs": 25113.0,
+      "charStart": 270,
+      "charEnd": 291
+    },
+    {
+      "id": "s0012",
+      "text": "Understanding diverges.",
+      "startMs": 25229.0,
+      "endMs": 27063.0,
+      "charStart": 292,
+      "charEnd": 315
+    },
+    {
+      "id": "s0013",
+      "text": "Trust holds.",
+      "startMs": 27237.0,
+      "endMs": 28410.0,
+      "charStart": 316,
+      "charEnd": 328
+    },
+    {
+      "id": "s0014",
+      "text": "Trust shatters.",
+      "startMs": 28584.0,
+      "endMs": 29896.0,
+      "charStart": 329,
+      "charEnd": 344
+    },
+    {
+      "id": "s0015",
+      "text": "Common ground forms.",
+      "startMs": 30047.0,
+      "endMs": 31487.0,
+      "charStart": 345,
+      "charEnd": 365
+    },
+    {
+      "id": "s0016",
+      "text": "Division forms.",
+      "startMs": 31603.0,
+      "endMs": 32695.0,
+      "charStart": 366,
+      "charEnd": 381
+    },
+    {
+      "id": "s0017",
+      "text": "Repair begins.",
+      "startMs": 32811.0,
+      "endMs": 34053.0,
+      "charStart": 382,
+      "charEnd": 396
+    },
+    {
+      "id": "s0018",
+      "text": "Exposure retreats.",
+      "startMs": 34297.0,
+      "endMs": 35644.0,
+      "charStart": 397,
+      "charEnd": 415
+    },
+    {
+      "id": "s0019",
+      "text": "Learning accelerates.",
+      "startMs": 35760.0,
+      "endMs": 37118.0,
+      "charStart": 416,
+      "charEnd": 437
+    },
+    {
+      "id": "s0020",
+      "text": "Learning stalls.",
+      "startMs": 37292.0,
+      "endMs": 38430.0,
+      "charStart": 438,
+      "charEnd": 454
+    },
+    {
+      "id": "s0021",
+      "text": "Trust demands openness.",
+      "startMs": 38639.0,
+      "endMs": 40787.0,
+      "charStart": 455,
+      "charEnd": 478
+    },
+    {
+      "id": "s0022",
+      "text": "Trust withdraws.",
+      "startMs": 40961.0,
+      "endMs": 42482.0,
+      "charStart": 479,
+      "charEnd": 495
+    },
+    {
+      "id": "s0023",
+      "text": "Resilience grows.",
+      "startMs": 42656.0,
+      "endMs": 44270.0,
+      "charStart": 496,
+      "charEnd": 513
+    },
+    {
+      "id": "s0024",
+      "text": "Fragility increases.",
+      "startMs": 44444.0,
+      "endMs": 46301.0,
+      "charStart": 514,
+      "charEnd": 534
+    },
+    {
+      "id": "s0025",
+      "text": "Trust is built.",
+      "startMs": 46452.0,
+      "endMs": 47892.0,
+      "charStart": 535,
+      "charEnd": 550
+    },
+    {
+      "id": "s0026",
+      "text": "Coordination breaks.",
+      "startMs": 48043.0,
+      "endMs": 49599.0,
+      "charStart": 551,
+      "charEnd": 571
+    },
+    {
+      "id": "s0027",
+      "text": "Coordination forms.",
+      "startMs": 49808.0,
+      "endMs": 51363.0,
+      "charStart": 572,
+      "charEnd": 591
+    },
+    {
+      "id": "s0028",
+      "text": "Work stalls.",
+      "startMs": 51572.0,
+      "endMs": 52606.0,
+      "charStart": 592,
+      "charEnd": 604
+    },
+    {
+      "id": "s0029",
+      "text": "Work progresses.",
+      "startMs": 52722.0,
+      "endMs": 53976.0,
+      "charStart": 605,
+      "charEnd": 621
+    },
+    {
+      "id": "s0030",
+      "text": "Collaboration fails.",
+      "startMs": 54185.0,
+      "endMs": 55845.0,
+      "charStart": 622,
+      "charEnd": 642
+    },
+    {
+      "id": "s0031",
+      "text": "Collaboration holds.",
+      "startMs": 55996.0,
+      "endMs": 57552.0,
+      "charStart": 643,
+      "charEnd": 663
+    },
+    {
+      "id": "s0032",
+      "text": "What persists reflects what was included.",
+      "startMs": 57795.0,
+      "endMs": 60605.0,
+      "charStart": 665,
+      "charEnd": 706
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you",
+  "sourcePath": "parts/part-vi-what-holds/why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you.md",
+  "sourceHash": "sha256:007e0a90d4af661d427f815a2e0007ced5484ab50ce3a2e65bf9a7e02fda22f3",
+  "spokenTextHash": "sha256:368385187963a9b8da5c7a1c817628829b261ffdd1416b49ad648816b9b92a53",
+  "generationHash": "sha256:3c7c766fab3c05524d200041a5ad89e97336fa8b1a8ec1dffdec161b1bae9450",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1090,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1090.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1090.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you.mp3",
+  "audioSha256": "sha256:a729775ea15f64d2afcce49959399f8e56db8d394f7c0c76d5f192a78cf8d688",
+  "generatedAt": "2026-08-05T05:15:00Z"
+}

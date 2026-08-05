@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-v-where-they-meet-how-belief-forms-when-others-look-to-you",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-v-where-they-meet-how-belief-forms-when-others-look-to-you",
+  "sourcePath": "parts/part-v-where-they-meet/how-belief-forms-when-others-look-to-you.md",
+  "sourceHash": "sha256:9d22f271cd8ef4c88bb5f931ba0bd84ffb8a3105148346f806c8c647319951f9",
+  "spokenTextHash": "sha256:ba3aef27ccb790091b55dfaac0d0d01b518a2c643c159e1878d49be5448f98fa",
+  "generationHash": "sha256:4da5817173f976ccee8e1ed32f12f5b7ceb2acf009d3615fc6f61abfc3153100",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 505,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 505.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 505.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-v-where-they-meet-how-belief-forms-when-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-v-where-they-meet-how-belief-forms-when-others-look-to-you.mp3",
+  "audioSha256": "sha256:d65ebb773778293a299d06ffbf10aee18cf75fa0ffb58fcbf84cf2562978dfc3",
+  "generatedAt": "2026-08-05T05:14:20Z"
+}

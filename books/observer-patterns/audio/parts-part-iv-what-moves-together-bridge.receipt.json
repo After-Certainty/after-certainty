@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iv-what-moves-together-bridge",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-iv-what-moves-together-bridge",
+  "sourcePath": "parts/part-iv-what-moves-together/bridge.md",
+  "sourceHash": "sha256:2b429c5c5b7296e5b9b284157209505b7c18439c839b207577c971cc0b2b9cdd",
+  "spokenTextHash": "sha256:4435a56be88d645a7ba2f2f1973cc4268bda099ffc83d4384060f1c054580351",
+  "generationHash": "sha256:fee3f3375698c2513e2c712841d15fd7161f23b7ab28c80e6fc73175c649a6cf",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 48,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 48.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 48.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-iv-what-moves-together-bridge.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-iv-what-moves-together-bridge.mp3",
+  "audioSha256": "sha256:6ea0fac02ef64287fe4b3b4b8a5d58ee3346703a0a3a9f77d1c14120090eb889",
+  "generatedAt": "2026-08-05T05:13:37Z"
+}

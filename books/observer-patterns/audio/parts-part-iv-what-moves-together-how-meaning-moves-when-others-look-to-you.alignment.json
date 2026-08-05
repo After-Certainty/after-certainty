@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iv-what-moves-together-how-meaning-moves-when-others-look-to-you",
+  "generationHash": "sha256:b74cce80c00944355088405cd17ee5e09eedca5f0d680189545295be2116023f",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "How Meaning Moves When Others Look To You",
+      "startMs": 0.0,
+      "endMs": 2357.0,
+      "charStart": 0,
+      "charEnd": 41
+    },
+    {
+      "id": "s0002",
+      "text": "Attention finds a focus.",
+      "startMs": 3309.0,
+      "endMs": 5213.0,
+      "charStart": 43,
+      "charEnd": 67
+    },
+    {
+      "id": "s0003",
+      "text": "Attention lands.",
+      "startMs": 5538.0,
+      "endMs": 6862.0,
+      "charStart": 69,
+      "charEnd": 85
+    },
+    {
+      "id": "s0004",
+      "text": "Examples accumulate.",
+      "startMs": 7106.0,
+      "endMs": 8522.0,
+      "charStart": 87,
+      "charEnd": 107
+    },
+    {
+      "id": "s0005",
+      "text": "Meaning forms.",
+      "startMs": 8801.0,
+      "endMs": 9939.0,
+      "charStart": 109,
+      "charEnd": 123
+    },
+    {
+      "id": "s0006",
+      "text": "Leadership coalesces.",
+      "startMs": 10264.0,
+      "endMs": 11889.0,
+      "charStart": 125,
+      "charEnd": 146
+    },
+    {
+      "id": "s0007",
+      "text": "Meaning shifts.",
+      "startMs": 12168.0,
+      "endMs": 13364.0,
+      "charStart": 148,
+      "charEnd": 163
+    },
+    {
+      "id": "s0008",
+      "text": "Dissent is welcomed.",
+      "startMs": 13608.0,
+      "endMs": 14989.0,
+      "charStart": 165,
+      "charEnd": 185
+    },
+    {
+      "id": "s0009",
+      "text": "Disagreement is suppressed.",
+      "startMs": 15233.0,
+      "endMs": 16824.0,
+      "charStart": 186,
+      "charEnd": 213
+    },
+    {
+      "id": "s0010",
+      "text": "Good intent is assumed.",
+      "startMs": 16998.0,
+      "endMs": 18600.0,
+      "charStart": 214,
+      "charEnd": 237
+    },
+    {
+      "id": "s0011",
+      "text": "Bad intent is assumed.",
+      "startMs": 18844.0,
+      "endMs": 20516.0,
+      "charStart": 238,
+      "charEnd": 260
+    },
+    {
+      "id": "s0012",
+      "text": "Feedback drives change.",
+      "startMs": 20759.0,
+      "endMs": 22652.0,
+      "charStart": 261,
+      "charEnd": 284
+    },
+    {
+      "id": "s0013",
+      "text": "Learning collapses.",
+      "startMs": 23035.0,
+      "endMs": 24324.0,
+      "charStart": 285,
+      "charEnd": 304
+    },
+    {
+      "id": "s0014",
+      "text": "Leaders feel the consequences.",
+      "startMs": 24649.0,
+      "endMs": 26367.0,
+      "charStart": 305,
+      "charEnd": 335
+    },
+    {
+      "id": "s0015",
+      "text": "Exceptions are forever.",
+      "startMs": 26541.0,
+      "endMs": 28247.0,
+      "charStart": 336,
+      "charEnd": 359
+    },
+    {
+      "id": "s0016",
+      "text": "Gaps get filled.",
+      "startMs": 28573.0,
+      "endMs": 29803.0,
+      "charStart": 360,
+      "charEnd": 376
+    },
+    {
+      "id": "s0017",
+      "text": "Meaning gets lost.",
+      "startMs": 30047.0,
+      "endMs": 31289.0,
+      "charStart": 377,
+      "charEnd": 395
+    },
+    {
+      "id": "s0018",
+      "text": "Meaning drifts.",
+      "startMs": 31498.0,
+      "endMs": 32671.0,
+      "charStart": 397,
+      "charEnd": 412
+    },
+    {
+      "id": "s0019",
+      "text": "Meaning gets clarified.",
+      "startMs": 32880.0,
+      "endMs": 34261.0,
+      "charStart": 414,
+      "charEnd": 437
+    },
+    {
+      "id": "s0020",
+      "text": "Meaning gets distorted.",
+      "startMs": 34436.0,
+      "endMs": 35922.0,
+      "charStart": 438,
+      "charEnd": 461
+    },
+    {
+      "id": "s0021",
+      "text": "Leadership reproduces itself.",
+      "startMs": 36247.0,
+      "endMs": 38360.0,
+      "charStart": 463,
+      "charEnd": 492
+    }
+  ]
+}

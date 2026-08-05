@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vii-what-remains-bridge",
+  "generationHash": "sha256:24ee52cb7994b6eb192f39f91ef2a626ac0151100efa3ee2e6ad43de1a9651be",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What remains is what was repeated.",
+      "startMs": 0.0,
+      "endMs": 2043.0,
+      "charStart": 0,
+      "charEnd": 34
+    }
+  ]
+}

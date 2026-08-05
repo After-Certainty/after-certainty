@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vi-what-holds-why-diversity-matters-when-trust-builds-and-others-look-to-you",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-vi-what-holds-why-diversity-matters-when-trust-builds-and-others-look-to-you",
+  "sourcePath": "parts/part-vi-what-holds/why-diversity-matters-when-trust-builds-and-others-look-to-you.md",
+  "sourceHash": "sha256:f55898c3c15e07a7f40e850eefd72d221dc6280fb373cbdb2e5a176996e40626",
+  "spokenTextHash": "sha256:22953b5bd2c147500a048da22ae2d11b5fc0a3f1229ce6e0bbcfe3f1e07ed5d6",
+  "generationHash": "sha256:80ce0ee923a7eafa9799d64b796e311cd2c94600b8c2ed6923a38bc5d3d11bb0",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 874,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 874.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 874.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-vi-what-holds-why-diversity-matters-when-trust-builds-and-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-vi-what-holds-why-diversity-matters-when-trust-builds-and-others-look-to-you.mp3",
+  "audioSha256": "sha256:89b2faebae614eccec45e837a30ea935492fb39593d7c8065f0c6e315f4ab5b0",
+  "generatedAt": "2026-08-05T05:14:53Z"
+}

@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vi-what-holds-why-diversity-matters-when-trust-builds-and-others-look-to-you",
+  "generationHash": "sha256:80ce0ee923a7eafa9799d64b796e311cd2c94600b8c2ed6923a38bc5d3d11bb0",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Why Diversity Matters When Trust Builds And Others Look To You",
+      "startMs": 0.0,
+      "endMs": 4086.0,
+      "charStart": 0,
+      "charEnd": 62
+    },
+    {
+      "id": "s0002",
+      "text": "Difference is encountered.",
+      "startMs": 5201.0,
+      "endMs": 6745.0,
+      "charStart": 64,
+      "charEnd": 90
+    },
+    {
+      "id": "s0003",
+      "text": "Trust is offered.",
+      "startMs": 7070.0,
+      "endMs": 8417.0,
+      "charStart": 92,
+      "charEnd": 109
+    },
+    {
+      "id": "s0004",
+      "text": "Attention finds a focus.",
+      "startMs": 8695.0,
+      "endMs": 10750.0,
+      "charStart": 111,
+      "charEnd": 135
+    },
+    {
+      "id": "s0005",
+      "text": "Variation accumulates.",
+      "startMs": 10925.0,
+      "endMs": 12457.0,
+      "charStart": 137,
+      "charEnd": 159
+    },
+    {
+      "id": "s0006",
+      "text": "Small risks compound.",
+      "startMs": 12608.0,
+      "endMs": 14384.0,
+      "charStart": 161,
+      "charEnd": 182
+    },
+    {
+      "id": "s0007",
+      "text": "Examples accumulate.",
+      "startMs": 14559.0,
+      "endMs": 16033.0,
+      "charStart": 184,
+      "charEnd": 204
+    },
+    {
+      "id": "s0008",
+      "text": "Assumptions are tested.",
+      "startMs": 16149.0,
+      "endMs": 17496.0,
+      "charStart": 206,
+      "charEnd": 229
+    },
+    {
+      "id": "s0009",
+      "text": "Vulnerability is tested.",
+      "startMs": 17624.0,
+      "endMs": 19156.0,
+      "charStart": 231,
+      "charEnd": 255
+    },
+    {
+      "id": "s0010",
+      "text": "Perspective expands.",
+      "startMs": 19307.0,
+      "endMs": 20770.0,
+      "charStart": 257,
+      "charEnd": 277
+    },
+    {
+      "id": "s0011",
+      "text": "Leadership coalesces.",
+      "startMs": 20944.0,
+      "endMs": 22430.0,
+      "charStart": 279,
+      "charEnd": 300
+    },
+    {
+      "id": "s0012",
+      "text": "Reliability forms.",
+      "startMs": 22558.0,
+      "endMs": 24055.0,
+      "charStart": 302,
+      "charEnd": 320
+    },
+    {
+      "id": "s0013",
+      "text": "Understanding fragments.",
+      "startMs": 24206.0,
+      "endMs": 25727.0,
+      "charStart": 321,
+      "charEnd": 345
+    },
+    {
+      "id": "s0014",
+      "text": "Understanding deepens.",
+      "startMs": 25901.0,
+      "endMs": 27515.0,
+      "charStart": 346,
+      "charEnd": 368
+    },
+    {
+      "id": "s0015",
+      "text": "Trust shatters.",
+      "startMs": 27666.0,
+      "endMs": 29094.0,
+      "charStart": 369,
+      "charEnd": 384
+    },
+    {
+      "id": "s0016",
+      "text": "Trust holds.",
+      "startMs": 29245.0,
+      "endMs": 30475.0,
+      "charStart": 385,
+      "charEnd": 397
+    },
+    {
+      "id": "s0017",
+      "text": "Disagreement is suppressed.",
+      "startMs": 30626.0,
+      "endMs": 32043.0,
+      "charStart": 398,
+      "charEnd": 425
+    },
+    {
+      "id": "s0018",
+      "text": "Common ground forms.",
+      "startMs": 32159.0,
+      "endMs": 33517.0,
+      "charStart": 426,
+      "charEnd": 446
+    },
+    {
+      "id": "s0019",
+      "text": "Division forms.",
+      "startMs": 33645.0,
+      "endMs": 34829.0,
+      "charStart": 447,
+      "charEnd": 462
+    },
+    {
+      "id": "s0020",
+      "text": "Dissent is welcomed.",
+      "startMs": 34922.0,
+      "endMs": 36304.0,
+      "charStart": 463,
+      "charEnd": 483
+    },
+    {
+      "id": "s0021",
+      "text": "Exposure retreats.",
+      "startMs": 36420.0,
+      "endMs": 37883.0,
+      "charStart": 484,
+      "charEnd": 502
+    },
+    {
+      "id": "s0022",
+      "text": "Repair begins.",
+      "startMs": 37964.0,
+      "endMs": 39380.0,
+      "charStart": 503,
+      "charEnd": 517
+    },
+    {
+      "id": "s0023",
+      "text": "Learning stalls.",
+      "startMs": 39624.0,
+      "endMs": 40785.0,
+      "charStart": 518,
+      "charEnd": 534
+    },
+    {
+      "id": "s0024",
+      "text": "Learning accelerates.",
+      "startMs": 40901.0,
+      "endMs": 42387.0,
+      "charStart": 535,
+      "charEnd": 556
+    },
+    {
+      "id": "s0025",
+      "text": "Exceptions are forever.",
+      "startMs": 42469.0,
+      "endMs": 44361.0,
+      "charStart": 557,
+      "charEnd": 580
+    },
+    {
+      "id": "s0026",
+      "text": "Feedback drives change.",
+      "startMs": 44640.0,
+      "endMs": 46520.0,
+      "charStart": 581,
+      "charEnd": 604
+    },
+    {
+      "id": "s0027",
+      "text": "Fragility increases.",
+      "startMs": 46637.0,
+      "endMs": 48332.0,
+      "charStart": 605,
+      "charEnd": 625
+    },
+    {
+      "id": "s0028",
+      "text": "Trust demands openness.",
+      "startMs": 48657.0,
+      "endMs": 50456.0,
+      "charStart": 626,
+      "charEnd": 649
+    },
+    {
+      "id": "s0029",
+      "text": "Trust withdraws.",
+      "startMs": 50549.0,
+      "endMs": 51861.0,
+      "charStart": 650,
+      "charEnd": 666
+    },
+    {
+      "id": "s0030",
+      "text": "Resilience grows.",
+      "startMs": 52070.0,
+      "endMs": 53463.0,
+      "charStart": 667,
+      "charEnd": 684
+    },
+    {
+      "id": "s0031",
+      "text": "Learning collapses.",
+      "startMs": 53672.0,
+      "endMs": 54996.0,
+      "charStart": 685,
+      "charEnd": 704
+    },
+    {
+      "id": "s0032",
+      "text": "Leaders feel the consequences.",
+      "startMs": 55170.0,
+      "endMs": 56888.0,
+      "charStart": 705,
+      "charEnd": 735
+    },
+    {
+      "id": "s0033",
+      "text": "Exclusion is reinforced.",
+      "startMs": 56970.0,
+      "endMs": 58711.0,
+      "charStart": 736,
+      "charEnd": 760
+    },
+    {
+      "id": "s0034",
+      "text": "Inclusion is practiced.",
+      "startMs": 58862.0,
+      "endMs": 60383.0,
+      "charStart": 761,
+      "charEnd": 784
+    },
+    {
+      "id": "s0035",
+      "text": "Trust is built.",
+      "startMs": 60511.0,
+      "endMs": 61764.0,
+      "charStart": 785,
+      "charEnd": 800
+    },
+    {
+      "id": "s0036",
+      "text": "Leadership reproduces itself.",
+      "startMs": 61973.0,
+      "endMs": 64005.0,
+      "charStart": 802,
+      "charEnd": 831
+    },
+    {
+      "id": "s0037",
+      "text": "What persists reflects what was included.",
+      "startMs": 64330.0,
+      "endMs": 67151.0,
+      "charStart": 833,
+      "charEnd": 874
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-v-where-they-meet-what-love-teaches-when-others-look-to-you",
+  "generationHash": "sha256:2a8c2330ce58a2797b0556dbe42c0fe32cb67b59f8e54fab660e16b067e39342",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What Love Teaches When Others Look To You",
+      "startMs": 0.0,
+      "endMs": 2380.0,
+      "charStart": 0,
+      "charEnd": 41
+    },
+    {
+      "id": "s0002",
+      "text": "Attention finds a focus.",
+      "startMs": 3681.0,
+      "endMs": 5852.0,
+      "charStart": 43,
+      "charEnd": 67
+    },
+    {
+      "id": "s0003",
+      "text": "Love is chosen.",
+      "startMs": 6235.0,
+      "endMs": 7466.0,
+      "charStart": 69,
+      "charEnd": 84
+    },
+    {
+      "id": "s0004",
+      "text": "Examples accumulate.",
+      "startMs": 7976.0,
+      "endMs": 9381.0,
+      "charStart": 86,
+      "charEnd": 106
+    },
+    {
+      "id": "s0005",
+      "text": "Small acts compound.",
+      "startMs": 9625.0,
+      "endMs": 11320.0,
+      "charStart": 108,
+      "charEnd": 128
+    },
+    {
+      "id": "s0006",
+      "text": "Leadership coalesces.",
+      "startMs": 11529.0,
+      "endMs": 13119.0,
+      "charStart": 130,
+      "charEnd": 151
+    },
+    {
+      "id": "s0007",
+      "text": "Presence grows.",
+      "startMs": 13363.0,
+      "endMs": 14640.0,
+      "charStart": 153,
+      "charEnd": 168
+    },
+    {
+      "id": "s0008",
+      "text": "Dissent is welcomed.",
+      "startMs": 14791.0,
+      "endMs": 16138.0,
+      "charStart": 170,
+      "charEnd": 190
+    },
+    {
+      "id": "s0009",
+      "text": "Disagreement is suppressed.",
+      "startMs": 16312.0,
+      "endMs": 17926.0,
+      "charStart": 191,
+      "charEnd": 218
+    },
+    {
+      "id": "s0010",
+      "text": "Choice is tested.",
+      "startMs": 18135.0,
+      "endMs": 19354.0,
+      "charStart": 219,
+      "charEnd": 236
+    },
+    {
+      "id": "s0011",
+      "text": "Obligation replaces choice.",
+      "startMs": 19632.0,
+      "endMs": 21536.0,
+      "charStart": 237,
+      "charEnd": 264
+    },
+    {
+      "id": "s0012",
+      "text": "Feedback drives change.",
+      "startMs": 21780.0,
+      "endMs": 23417.0,
+      "charStart": 265,
+      "charEnd": 288
+    },
+    {
+      "id": "s0013",
+      "text": "Learning collapses.",
+      "startMs": 23742.0,
+      "endMs": 25008.0,
+      "charStart": 289,
+      "charEnd": 308
+    },
+    {
+      "id": "s0014",
+      "text": "Love deepens.",
+      "startMs": 25252.0,
+      "endMs": 26413.0,
+      "charStart": 309,
+      "charEnd": 322
+    },
+    {
+      "id": "s0015",
+      "text": "Love fades.",
+      "startMs": 26622.0,
+      "endMs": 27608.0,
+      "charStart": 323,
+      "charEnd": 334
+    },
+    {
+      "id": "s0016",
+      "text": "Leaders feel the consequences.",
+      "startMs": 27887.0,
+      "endMs": 29779.0,
+      "charStart": 335,
+      "charEnd": 365
+    },
+    {
+      "id": "s0017",
+      "text": "Exceptions are forever.",
+      "startMs": 29988.0,
+      "endMs": 31428.0,
+      "charStart": 366,
+      "charEnd": 389
+    },
+    {
+      "id": "s0018",
+      "text": "Love endures.",
+      "startMs": 31869.0,
+      "endMs": 33100.0,
+      "charStart": 390,
+      "charEnd": 403
+    },
+    {
+      "id": "s0019",
+      "text": "Growth stops.",
+      "startMs": 33379.0,
+      "endMs": 34725.0,
+      "charStart": 404,
+      "charEnd": 417
+    },
+    {
+      "id": "s0020",
+      "text": "Growth requires loss.",
+      "startMs": 35050.0,
+      "endMs": 36641.0,
+      "charStart": 418,
+      "charEnd": 439
+    },
+    {
+      "id": "s0021",
+      "text": "Love is learned.",
+      "startMs": 36966.0,
+      "endMs": 37930.0,
+      "charStart": 441,
+      "charEnd": 457
+    },
+    {
+      "id": "s0022",
+      "text": "Leadership reproduces itself.",
+      "startMs": 38255.0,
+      "endMs": 40635.0,
+      "charStart": 459,
+      "charEnd": 488
+    }
+  ]
+}

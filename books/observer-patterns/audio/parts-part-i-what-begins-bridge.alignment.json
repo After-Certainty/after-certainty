@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-i-what-begins-bridge",
+  "generationHash": "sha256:d1d5af3b5a449b86a408b522b434cf7862b9029f0798a7945016ad77d81c11cc",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What begins is easy to miss.",
+      "startMs": 0.0,
+      "endMs": 1579.0,
+      "charStart": 0,
+      "charEnd": 28
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iv-what-moves-together-why-diversity-matters-in-how-meaning-moves",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-iv-what-moves-together-why-diversity-matters-in-how-meaning-moves",
+  "sourcePath": "parts/part-iv-what-moves-together/why-diversity-matters-in-how-meaning-moves.md",
+  "sourceHash": "sha256:78d62f4afacdbb8e0ae6597002251cd1a7b58ec75d53d19c8ff7189f0cf6a3f0",
+  "spokenTextHash": "sha256:9d303c3da87e15efc19088e36e164aef5e172fcef3804281fb033cbea863b75d",
+  "generationHash": "sha256:95382dac9f5c9ccc0e2cacb9674033a5c072ee0c19594925cf2af695cf1f1549",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 613,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 613.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 613.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-iv-what-moves-together-why-diversity-matters-in-how-meaning-moves.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-iv-what-moves-together-why-diversity-matters-in-how-meaning-moves.mp3",
+  "audioSha256": "sha256:c3aae138a04d3ca71076b2165ff831003594b5f4051ef2df3c92597cc3af0bdf",
+  "generatedAt": "2026-08-05T05:13:50Z"
+}

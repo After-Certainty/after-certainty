@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iii-what-takes-shape-bridge",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-iii-what-takes-shape-bridge",
+  "sourcePath": "parts/part-iii-what-takes-shape/bridge.md",
+  "sourceHash": "sha256:550475a13f0128c0e60ebdb5d58b2a8b922ab1b213869039658062bf25aea98b",
+  "spokenTextHash": "sha256:c1956dcdf22e64223bb523cd1bf2fe39c61855218cbf6a171fb01444480c388a",
+  "generationHash": "sha256:6a6b6210f97f35142e336c8e5ca451286cd9f49beb1bd17d2f5a01de0ba24be5",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 37,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 37.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 37.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-iii-what-takes-shape-bridge.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-iii-what-takes-shape-bridge.mp3",
+  "audioSha256": "sha256:e0b3150f0677c0ca4f2ae29fd346b2893702cad413bf4b998ba42eb39fefe15e",
+  "generatedAt": "2026-08-05T05:13:20Z"
+}
