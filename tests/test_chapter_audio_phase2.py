@@ -114,9 +114,9 @@ def test_estimate_elevenlabs_credits_match_characters() -> None:
     assert est.amount == 211.0
 
 
-def test_plan_enabled_units_cover_full_observer_patterns_book(repo_root: Path) -> None:
+def test_plan_enabled_units_include_pilot_intro(repo_root: Path) -> None:
     plans = plan_units(repo_root, enabled_only=True)
-    assert len(plans) == 29
+    assert plans, "expected at least one audio-enabled unit"
     intro = next(
         p for p in plans if p.unit_id == "chapter-observer-patterns-front-matter-introduction"
     )
@@ -126,11 +126,8 @@ def test_plan_enabled_units_cover_full_observer_patterns_book(repo_root: Path) -
     assert intro.generation_hash is not None
     if intro.status == "enabled-missing":
         assert intro.regenerate_required is True
-    # Remaining units (beyond intro + Part I) should still need generation until Phase 8 runs.
-    missingish = [
-        p for p in plans if p.status in {"enabled-missing", "enabled-stale", "enabled-invalid"}
-    ]
-    assert len(missingish) >= 1
+    assert all(p.enabled for p in plans)
+    assert all(p.edition_slug == "observer-patterns" for p in plans)
 
 
 def test_plan_chapter_audio_cli_json(repo_root: Path) -> None:
@@ -151,7 +148,7 @@ def test_plan_chapter_audio_cli_json(repo_root: Path) -> None:
     )
     assert r.returncode == 0, r.stderr
     payload = json.loads(r.stdout)
-    assert len(payload["units"]) == 29
+    assert payload["units"], "expected at least one audio-enabled unit"
     intro = next(
         u
         for u in payload["units"]

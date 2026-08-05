@@ -725,13 +725,13 @@ Do not combine phases into one implementation PR.
 | AUDIO-P4-02 | **Done** | `make validate-chapter-audio` / `make verify-chapter-audio` (secret-free); wired into `python-tests.yml`. |
 | AUDIO-P4-03 | **Done** | `docs/security/github-settings-checklist.md` documents `ELEVENLABS_API_KEY` + LFS ops. |
 
-**Phase 4 enablement scope:** Observer Patterns — all **29** exported units `audio.enabled: true` (full book). Workflow default `units` input matches that set; already-current artifacts are skipped unless `force=true`.
+**Phase 4 enablement scope:** Observer Patterns — all exported units may be `audio.enabled: true`. The `chapter-audio-generate` workflow **auto-discovers** enabled units that need generation (missing/stale/invalid) from book narration + chapter enrichment; optional `units` / `edition` inputs narrow the set. Already-current artifacts are skipped unless `force=true`.
 
 #### Phase 8 progress (2026-08-05)
 
 | ID | Status | Notes |
 |----|--------|-------|
-| AUDIO-P8-01 (OP full book) | **In progress** | Licensing + Starter plan go-ahead recorded. Remaining ~23 units (~10.5k credits est.) queued via enablement + `chapter-audio-generate` workflow (`dry_run=false`). |
+| AUDIO-P8-01 (OP full book) | **In progress** | Licensing + Starter plan go-ahead recorded. Remaining units (~10.5k credits est.) via enablement + reconcile workflow (`dry_run=false`). |
 
 ### Phase 1 — Semantic enablement and schemas
 

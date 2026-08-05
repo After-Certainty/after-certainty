@@ -1,9 +1,12 @@
-# Phase 4: manual chapter-audio generation (workflow_dispatch only).
+# Phase 4+: manual chapter-audio generation (workflow_dispatch only).
 # Dry-run by default. Real generate mounts ELEVENLABS_API_KEY only on the generate step.
 # Ordinary CI (python-tests / site-ci) never receives TTS secrets.
 #
-# After a real generate, opens a review PR with LFS-tracked MP3s under books/*/audio/.
-# Merging that PR makes those units available to the site Listen control.
+# By default the workflow reconciles the corpus: it discovers units that are
+# audio-enabled (book.yml narration + chapter-enrichment.yml) but not current
+# (missing / stale / invalid artifacts) and generates only those. Optional
+# `units` / `edition` inputs narrow the set. Merging the review PR makes those
+# units available to the site Listen control.
 
 name: Chapter audio generate
 
@@ -12,47 +15,25 @@ on:
     inputs:
       units:
         description: >-
-          Unit id(s), comma or newline separated. Default is the full Observer Patterns
-          exported set (29 units). Already-current units are skipped unless force=true.
-        required: true
+          Optional explicit unit id(s), comma or newline separated. Leave empty
+          to auto-discover enabled units that need generation across the corpus.
+        required: false
         type: string
-        default: |
-          chapter-observer-patterns-front-matter-introduction
-          chapter-observer-patterns-parts-part-i-what-begins-bridge
-          chapter-observer-patterns-parts-part-i-what-begins-what-love-teaches
-          chapter-observer-patterns-parts-part-i-what-begins-when-trust-builds
-          chapter-observer-patterns-parts-part-i-what-begins-how-belief-forms
-          chapter-observer-patterns-parts-part-i-what-begins-why-diversity-matters
-          chapter-observer-patterns-parts-part-i-what-begins-why-collaboration-is-hard
-          chapter-observer-patterns-parts-part-ii-what-forms-together-bridge
-          chapter-observer-patterns-parts-part-ii-what-forms-together-what-love-teaches-when-trust-builds-how-belief-forms
-          chapter-observer-patterns-parts-part-ii-what-forms-together-why-collaboration-is-hard-when-trust-builds-and-why-diversity-matters
-          chapter-observer-patterns-parts-part-iii-what-takes-shape-bridge
-          chapter-observer-patterns-parts-part-iii-what-takes-shape-when-others-look-to-you
-          chapter-observer-patterns-parts-part-iii-what-takes-shape-how-meaning-moves
-          chapter-observer-patterns-parts-part-iv-what-moves-together-bridge
-          chapter-observer-patterns-parts-part-iv-what-moves-together-how-meaning-moves-when-others-look-to-you
-          chapter-observer-patterns-parts-part-iv-what-moves-together-why-diversity-matters-in-how-meaning-moves
-          chapter-observer-patterns-parts-part-iv-what-moves-together-why-diversity-matters-when-others-look-to-you
-          chapter-observer-patterns-parts-part-v-where-they-meet-bridge
-          chapter-observer-patterns-parts-part-v-where-they-meet-what-love-teaches-when-others-look-to-you
-          chapter-observer-patterns-parts-part-v-where-they-meet-how-trust-builds-when-others-look-to-you
-          chapter-observer-patterns-parts-part-v-where-they-meet-how-belief-forms-when-others-look-to-you
-          chapter-observer-patterns-parts-part-v-where-they-meet-why-collaboration-is-hard-when-others-look-to-you
-          chapter-observer-patterns-parts-part-vi-what-holds-bridge
-          chapter-observer-patterns-parts-part-vi-what-holds-when-trust-builds-how-meaning-moves-and-belief-forms
-          chapter-observer-patterns-parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves
-          chapter-observer-patterns-parts-part-vi-what-holds-why-diversity-matters-when-trust-builds-and-others-look-to-you
-          chapter-observer-patterns-parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you
-          chapter-observer-patterns-parts-part-vii-what-remains-bridge
-          chapter-observer-patterns-parts-part-vii-what-remains-closing
+        default: ""
+      edition:
+        description: >-
+          Optional edition slug filter (e.g. observer-patterns). Empty = all books
+          with audio-enabled units.
+        required: false
+        type: string
+        default: ""
       dry_run:
         description: "Plan + budgets only (no API call, no writes). Keep true until ready."
         required: false
         type: boolean
         default: true
       force:
-        description: "Regenerate even when current artifacts match"
+        description: "Include enabled units that are already current (regenerate)"
         required: false
         type: boolean
         default: false
@@ -102,33 +83,53 @@ jobs:
           set -euo pipefail
           bash scripts/ci_uv_sync.sh
 
-      - name: Parse unit ids
+      - name: Discover units to generate
         id: units
+        env:
+          GH_TOKEN: ""
+          GITHUB_TOKEN: ""
         run: |
           set -euo pipefail
-          python3 - <<'PY'
+          args=(--repo . --format ids)
+          if [ "${{ inputs.force }}" = "true" ]; then
+            args+=(--force)
+          fi
+          edition="${{ inputs.edition }}"
+          if [ -n "${edition// /}" ]; then
+            args+=(--edition "$edition")
+          fi
+          # Optional explicit unit allow-list (otherwise reconcile all needing generate).
+          python3 - <<'PY' > /tmp/chapter-audio-unit-args.txt
           import os
           import re
           raw = """${{ inputs.units }}"""
           units = [u for u in re.split(r"[\s,]+", raw.strip()) if u]
-          if not units:
-              raise SystemExit("no unit ids provided")
           for u in units:
               if ".." in u or "/" in u or "\\" in u or not re.fullmatch(r"[A-Za-z0-9._-]+", u):
                   raise SystemExit(f"invalid unit id: {u!r}")
-          path = os.environ["GITHUB_OUTPUT"]
-          with open(path, "a", encoding="utf-8") as fh:
-              fh.write(f"count={len(units)}\n")
-              fh.write("list<<EOF\n")
-              fh.write("\n".join(units) + "\n")
-              fh.write("EOF\n")
-          print(f"units ({len(units)}):")
-          for u in units:
-              print(f"  {u}")
+              print(f"--unit\n{u}")
           PY
+          if [ -s /tmp/chapter-audio-unit-args.txt ]; then
+            mapfile -t unit_flags < /tmp/chapter-audio-unit-args.txt
+            args+=("${unit_flags[@]}")
+          fi
+          mapfile -t discovered < <(python3 tools/discover_chapter_audio.py "${args[@]}")
+          count="${#discovered[@]}"
+          {
+            echo "count=${count}"
+            echo "list<<EOF"
+            printf '%s\n' "${discovered[@]}"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+          echo "units needing generate (${count}):"
+          if [ "$count" -eq 0 ]; then
+            echo "  (none — nothing to reconcile)"
+          else
+            printf '  %s\n' "${discovered[@]}"
+          fi
 
       - name: Dry-run plan (no secrets)
-        if: ${{ inputs.dry_run }}
+        if: ${{ inputs.dry_run && steps.units.outputs.count != '0' }}
         env:
           GH_TOKEN: ""
           GITHUB_TOKEN: ""
@@ -141,8 +142,12 @@ jobs:
             echo "::endgroup::"
           done <<< "${{ steps.units.outputs.list }}"
 
+      - name: Nothing to generate
+        if: ${{ steps.units.outputs.count == '0' }}
+        run: echo "No enabled units need generation (already current or none enabled)."
+
       - name: Real generate (ElevenLabs secret on this step only)
-        if: ${{ !inputs.dry_run }}
+        if: ${{ !inputs.dry_run && steps.units.outputs.count != '0' }}
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           GH_TOKEN: ""
@@ -166,7 +171,7 @@ jobs:
           done <<< "${{ steps.units.outputs.list }}"
 
       - name: Validate artifacts (secret-free)
-        if: ${{ !inputs.dry_run }}
+        if: ${{ !inputs.dry_run && steps.units.outputs.count != '0' }}
         env:
           GH_TOKEN: ""
           GITHUB_TOKEN: ""
@@ -177,7 +182,7 @@ jobs:
           make verify-chapter-audio
 
       - name: Upload generated audio artifacts
-        if: ${{ !inputs.dry_run }}
+        if: ${{ !inputs.dry_run && steps.units.outputs.count != '0' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: chapter-audio-${{ github.run_id }}
@@ -185,7 +190,7 @@ jobs:
           if-no-files-found: warn
 
       - name: Commit LFS audio and open review PR
-        if: ${{ !inputs.dry_run && inputs.open_pr }}
+        if: ${{ !inputs.dry_run && inputs.open_pr && steps.units.outputs.count != '0' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
