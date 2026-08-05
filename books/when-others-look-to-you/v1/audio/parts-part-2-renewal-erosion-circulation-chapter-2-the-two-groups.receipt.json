@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups",
+  "sourcePath": "parts/part-2-renewal-erosion-circulation/chapter-2-the-two-groups.md",
+  "sourceHash": "sha256:fd9d282c063c74dec9b3424f2036eba2307033fa3906dc003c82182826161df2",
+  "spokenTextHash": "sha256:d3dc45f65a00dc19e3e16ac623890af92d96e9aafa7dc31539e1443dae8cfcfe",
+  "generationHash": "sha256:f051d2b5f63e9aee270f96df0f7b493dceb2935ddd4249645ed01d01a72d51df",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 5582,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2791.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2791.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups.mp3",
+  "audioSha256": "sha256:0e270b789b033af12188d35140f8f062641c8de0c49d69d2e125073374c5d27d",
+  "generatedAt": "2026-08-05T06:05:41Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+  "sourcePath": "parts/part-1-how-influence-forms/chapter-1-the-weight-of-being-looked-to.md",
+  "sourceHash": "sha256:7de8232e02d2a12baae715711f507a8ce2a73e2fc4922735e67204551013c6c8",
+  "spokenTextHash": "sha256:a5405fc65d09c69434f05127266e766d4db26a18e6ddc075e799214d27b4c485",
+  "generationHash": "sha256:38ad74e933e0573cd5ad1fac2a8a6ce53f2239667e4ef68e4e6c0a850ea6ef83",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 5135,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2567.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2567.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to.mp3",
+  "audioSha256": "sha256:80b0e18cabc1c9a6fedd0c3707619d879cb949bb9b47c29c104a5b46667aee08",
+  "generatedAt": "2026-08-05T06:05:21Z"
+}

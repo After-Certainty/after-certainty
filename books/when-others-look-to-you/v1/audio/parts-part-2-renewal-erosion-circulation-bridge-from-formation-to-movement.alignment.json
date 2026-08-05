@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-2-renewal-erosion-circulation-bridge-from-formation-to-movement",
+  "generationHash": "sha256:1942d0c2c478eaac62b1e1791f6466be850ba262b3aaf43a7ba2fddba64342dc",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Bridge — From Formation to Movement",
+      "startMs": 0.0,
+      "endMs": 2972.0,
+      "charStart": 0,
+      "charEnd": 35
+    },
+    {
+      "id": "s0002",
+      "text": "Influence does not stay neutral once people start looking the same way.",
+      "startMs": 3483.0,
+      "endMs": 7059.0,
+      "charStart": 37,
+      "charEnd": 108
+    },
+    {
+      "id": "s0003",
+      "text": "It moves.",
+      "startMs": 7303.0,
+      "endMs": 8104.0,
+      "charStart": 109,
+      "charEnd": 118
+    },
+    {
+      "id": "s0004",
+      "text": "This part names that movement in three forms: renewal, erosion, and circulation.",
+      "startMs": 8347.0,
+      "endMs": 14048.0,
+      "charStart": 120,
+      "charEnd": 200
+    },
+    {
+      "id": "s0005",
+      "text": "Renewal is whether a group can still change course under pressure.",
+      "startMs": 14048.0,
+      "endMs": 17635.0,
+      "charStart": 200,
+      "charEnd": 266
+    },
+    {
+      "id": "s0006",
+      "text": "Erosion is what happens when correction narrows and exceptions quietly harden.",
+      "startMs": 17635.0,
+      "endMs": 22291.0,
+      "charStart": 266,
+      "charEnd": 344
+    },
+    {
+      "id": "s0007",
+      "text": "Circulation is whether leadership can pass through more people—or whether every decision keeps returning to the same gate.",
+      "startMs": 22291.0,
+      "endMs": 29245.0,
+      "charStart": 344,
+      "charEnd": 466
+    },
+    {
+      "id": "s0008",
+      "text": "Scalability and adaptability name the two capacities; together they map into the vibrant group and the decaying group on a simple two-by-two.",
+      "startMs": 30047.0,
+      "endMs": 38731.0,
+      "charStart": 471,
+      "charEnd": 612
+    },
+    {
+      "id": "s0009",
+      "text": "Then renewal and erosion each get a full hearing—pattern by pattern—once the map is clear.",
+      "startMs": 38731.0,
+      "endMs": 44327.0,
+      "charStart": 612,
+      "charEnd": 702
+    },
+    {
+      "id": "s0010",
+      "text": "Together, these questions ask what the group reinforces, what it shuts down, and what it trains people to repeat.",
+      "startMs": 44942.0,
+      "endMs": 51618.0,
+      "charStart": 705,
+      "charEnd": 818
+    },
+    {
+      "id": "s0011",
+      "text": "They are not personality types.",
+      "startMs": 51618.0,
+      "endMs": 54126.0,
+      "charStart": 818,
+      "charEnd": 849
+    }
+  ]
+}
