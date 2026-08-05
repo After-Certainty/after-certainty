@@ -42,6 +42,12 @@ function isText(node: RootContent | ElementContent): node is Text {
   return node.type === "text";
 }
 
+function elementClassNames(value: unknown): string[] {
+  if (Array.isArray(value)) return value.map(String);
+  if (typeof value === "string") return value.split(/\s+/);
+  return [];
+}
+
 function collectTextRefs(tree: Root): TextRef[] {
   const refs: TextRef[] = [];
   let offset = 0;
@@ -62,12 +68,7 @@ function collectTextRefs(tree: Root): TextRef[] {
         continue;
       }
       if (!isElement(node)) continue;
-      const className = node.properties?.className;
-      const classes = Array.isArray(className)
-        ? className.map(String)
-        : typeof className === "string"
-          ? className.split(/\s+/)
-          : [];
+      const classes = elementClassNames(node.properties?.className);
       if (classes.includes("footnotes")) continue;
       if (SKIP_TAGS.has(String(node.tagName).toLowerCase())) continue;
       if (node.children?.length) walk(node, node.children);

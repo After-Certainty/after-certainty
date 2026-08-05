@@ -50,8 +50,14 @@ export function ChapterAudioPlayer({ audio }: ChapterAudioPlayerProps) {
   const disclosureId = useId();
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [expanded, setExpanded] = useState(false);
-  const [alignment, setAlignment] = useState<ChapterAudioAlignment | null>(null);
+  const [fetchedAlignment, setFetchedAlignment] = useState<ChapterAudioAlignment | null>(null);
   const activeIdRef = useRef<string | null>(null);
+
+  const highlightEnabled =
+    expanded &&
+    canHighlightAlignment(audio.alignmentGranularity) &&
+    Boolean(audio.alignmentUrl);
+  const alignment = highlightEnabled ? fetchedAlignment : null;
 
   useEffect(() => {
     const el = audioRef.current;
@@ -60,11 +66,7 @@ export function ChapterAudioPlayer({ audio }: ChapterAudioPlayerProps) {
   }, [audio.audioUrl, expanded]);
 
   useEffect(() => {
-    if (!expanded) return;
-    if (!canHighlightAlignment(audio.alignmentGranularity) || !audio.alignmentUrl) {
-      setAlignment(null);
-      return;
-    }
+    if (!highlightEnabled || !audio.alignmentUrl) return;
     let cancelled = false;
     void fetch(audio.alignmentUrl)
       .then((res) => (res.ok ? res.json() : null))
@@ -72,18 +74,18 @@ export function ChapterAudioPlayer({ audio }: ChapterAudioPlayerProps) {
         if (cancelled) return;
         const parsed = parseChapterAudioAlignment(raw);
         if (parsed && parsed.generationHash === audio.generationHash) {
-          setAlignment(parsed);
+          setFetchedAlignment(parsed);
         } else {
-          setAlignment(null);
+          setFetchedAlignment(null);
         }
       })
       .catch(() => {
-        if (!cancelled) setAlignment(null);
+        if (!cancelled) setFetchedAlignment(null);
       });
     return () => {
       cancelled = true;
     };
-  }, [expanded, audio.alignmentUrl, audio.alignmentGranularity, audio.generationHash]);
+  }, [highlightEnabled, audio.alignmentUrl, audio.generationHash]);
 
   useEffect(() => {
     const el = audioRef.current;
@@ -106,10 +108,6 @@ export function ChapterAudioPlayer({ audio }: ChapterAudioPlayerProps) {
       setActiveSegment(chapterRoot, nextId);
     };
 
-    const onEndedOrPause = () => {
-      // Keep last highlight on pause; clear on ended.
-    };
-
     const onEnded = () => {
       clearActiveSegments(chapterRoot);
       activeIdRef.current = null;
@@ -118,14 +116,12 @@ export function ChapterAudioPlayer({ audio }: ChapterAudioPlayerProps) {
     el.addEventListener("timeupdate", sync);
     el.addEventListener("seeked", sync);
     el.addEventListener("play", sync);
-    el.addEventListener("pause", onEndedOrPause);
     el.addEventListener("ended", onEnded);
 
     return () => {
       el.removeEventListener("timeupdate", sync);
       el.removeEventListener("seeked", sync);
       el.removeEventListener("play", sync);
-      el.removeEventListener("pause", onEndedOrPause);
       el.removeEventListener("ended", onEnded);
       clearActiveSegments(chapterRoot);
       activeIdRef.current = null;
