@@ -5,6 +5,7 @@ from __future__ import annotations
 import base64
 import json
 import math
+import ssl
 import urllib.error
 import urllib.request
 from collections.abc import Callable
@@ -29,12 +30,21 @@ _MOCK_MP3_PREFIX = b"ID3\x03\x00\x00\x00\x00\x00\x00MOCK-CHAPTER-AUDIO"
 HttpTransport = Callable[[str, bytes, dict[str, str]], tuple[int, bytes, dict[str, str]]]
 
 
+def _ssl_context() -> ssl.SSLContext:
+    """Prefer certifi's CA bundle (python.org macOS installs often lack cert.pem)."""
+    try:
+        import certifi
+    except ImportError:
+        return ssl.create_default_context()
+    return ssl.create_default_context(cafile=certifi.where())
+
+
 def _default_transport(
     url: str, body: bytes, headers: dict[str, str]
 ) -> tuple[int, bytes, dict[str, str]]:
     req = urllib.request.Request(url, data=body, headers=headers, method="POST")
     try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
+        with urllib.request.urlopen(req, timeout=120, context=_ssl_context()) as resp:
             raw = resp.read()
             resp_headers = {k.lower(): v for k, v in resp.headers.items()}
             return int(resp.status), raw, resp_headers

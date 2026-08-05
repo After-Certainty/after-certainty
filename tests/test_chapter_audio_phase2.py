@@ -114,17 +114,17 @@ def test_estimate_elevenlabs_credits_match_characters() -> None:
     assert est.amount == 211.0
 
 
-def test_plan_enabled_units_are_unconfigured_without_voice(repo_root: Path) -> None:
+def test_plan_enabled_units_are_missing_until_generated(repo_root: Path) -> None:
     plans = plan_units(repo_root, enabled_only=True)
     assert len(plans) == 29
     intro = next(
         p for p in plans if p.unit_id == "chapter-observer-patterns-front-matter-introduction"
     )
-    assert intro.status == "enabled-unconfigured"
+    assert intro.status == "enabled-missing"
     assert intro.spoken_characters == 211
     assert intro.estimated_usage_amount == 211.0
-    assert intro.generation_hash is None
-    assert intro.regenerate_required is False
+    assert intro.generation_hash is not None
+    assert intro.regenerate_required is True
 
 
 def test_plan_chapter_audio_cli_json(repo_root: Path) -> None:
@@ -152,4 +152,4 @@ def test_plan_chapter_audio_cli_json(repo_root: Path) -> None:
         if u["unit_id"] == "chapter-observer-patterns-front-matter-introduction"
     )
     assert intro["spoken_characters"] == 211
-    assert intro["status"] == "enabled-unconfigured"
+    assert intro["status"] == "enabled-missing"

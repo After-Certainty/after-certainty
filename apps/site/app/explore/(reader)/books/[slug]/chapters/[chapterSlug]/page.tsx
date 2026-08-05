@@ -8,6 +8,7 @@ import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { buildChapterRouteKey } from "@/lib/graph/chapters";
 import { createPageMetadata } from "@/lib/metadata";
 import { bookOpenGraphImageFields } from "@/lib/books/book-open-graph-metadata";
+import { getChapterAudioForChapter } from "@/lib/reading/chapter-audio";
 import { buildChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 import { loadChapterManuscript } from "@/lib/reading/load-chapter-manuscript";
 import { resolvePublicChapter } from "@/lib/reading/resolve-public-chapter";
@@ -76,9 +77,19 @@ export default async function ExploreBookChapterPage({ params }: PageProps) {
     book: resolved.book,
     chapterId: resolved.chapter.id,
   });
+  const chapterAudio = getChapterAudioForChapter({
+    editionSlug: resolved.editionSlug,
+    chapterSlug,
+    chapterId: resolved.chapter.id,
+  });
 
   return (
-    <ChapterReaderShell book={resolved.book} chapter={resolved.chapter} navigation={navigation}>
+    <ChapterReaderShell
+      book={resolved.book}
+      chapter={resolved.chapter}
+      navigation={navigation}
+      chapterAudio={chapterAudio}
+    >
       <ChapterManuscriptBody result={manuscript} />
     </ChapterReaderShell>
   );

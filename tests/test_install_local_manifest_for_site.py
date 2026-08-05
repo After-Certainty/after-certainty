@@ -63,6 +63,47 @@ def test_install_writes_gitignored_local_artifacts(tmp_path: Path) -> None:
 
     # Must not create or overwrite a committed-style fallback name.
     assert not (site_data / "semantic-manifest.json").exists()
+    audio_manifest = site_data / "local-chapter-audio-manifest.json"
+    assert audio_manifest.is_file()
+    assert json.loads(audio_manifest.read_text(encoding="utf-8"))["units"] == []
+
+
+def test_install_copies_available_chapter_audio(tmp_path: Path) -> None:
+    source = tmp_path / "semantic-manifest.json"
+    site_data = tmp_path / "site-data"
+    site_public = tmp_path / "site-public"
+    # Minimal voice catalog so resolve/plan can run.
+    voices = tmp_path / "config" / "chapter-audio-voices.yml"
+    voices.parent.mkdir(parents=True)
+    voices.write_text(
+        "voices:\n  reflective-narrator:\n    elevenlabs:\n      voice_id: test-voice\n",
+        encoding="utf-8",
+    )
+    source.write_text(json.dumps(_minimal_manifest()), encoding="utf-8")
+
+    code = install.main(
+        [
+            "--repo",
+            str(tmp_path),
+            "--source",
+            str(source),
+            "--site-data",
+            str(site_data),
+            "--site-public",
+            str(site_public),
+            "--skip-covers",
+            "--skip-manuscripts",
+            "--skip-manuscript-assets",
+            "--skip-open-graph",
+        ]
+    )
+    assert code == 0
+    audio_manifest = site_data / "local-chapter-audio-manifest.json"
+    assert audio_manifest.is_file()
+    payload = json.loads(audio_manifest.read_text(encoding="utf-8"))
+    assert payload["schemaVersion"] == 1
+    assert payload["units"] == []
+    assert (site_public / "generated" / "audio" / "README.md").is_file()
 
 
 def test_install_copies_manuscripts_under_book_dir(tmp_path: Path) -> None:

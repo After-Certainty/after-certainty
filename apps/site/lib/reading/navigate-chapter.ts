@@ -7,12 +7,30 @@
  * (or a plain <a>) for chapter→chapter moves inside the reader.
  */
 
+const chapterAudioElements = new Set<HTMLAudioElement>();
+
+/** Register a chapter TTS <audio> element so nav cleanup can pause it. */
+export function registerChapterAudioElement(el: HTMLAudioElement): () => void {
+  chapterAudioElements.add(el);
+  return () => {
+    chapterAudioElements.delete(el);
+  };
+}
+
 export function cancelSpokenContent(): void {
   if (typeof window === "undefined") return;
   try {
     window.speechSynthesis?.cancel();
   } catch {
     // speechSynthesis can throw when unavailable or mid-teardown.
+  }
+  for (const el of chapterAudioElements) {
+    try {
+      el.pause();
+      el.currentTime = 0;
+    } catch {
+      // Element may already be detached.
+    }
   }
 }
 
