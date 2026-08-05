@@ -1,6 +1,6 @@
 {
   "manifestVersion": 1,
-  "updatedAt": "2026-07-27",
+  "updatedAt": "2026-08-05",
   "launchFrom": "2026-01-01",
   "notes": "Site-owned What\u2019s New rows (site features and podcast). Book published/revised events come from after-certainty changeEvents.",
   "events": [
@@ -56,6 +56,20 @@
       "date": "2026-07-27",
       "entityType": "site",
       "href": "/explore/books",
+      "featured": true,
+      "significance": "major",
+      "visibility": "public",
+      "source": "authored",
+      "published": true
+    },
+    {
+      "id": "event-site-listen-to-books",
+      "type": "site_feature",
+      "title": "Listen to books",
+      "summary": "Some published books now include chapter narration you can play while reading. Open Observer Patterns\u2019 introduction to try the audio player.",
+      "date": "2026-08-05",
+      "entityType": "site",
+      "href": "/explore/books/observer-patterns/chapters/front-matter-introduction",
       "featured": true,
       "significance": "major",
       "visibility": "public",
