@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-front-matter-preface",
+  "generationHash": "sha256:6d8801fc4d4c6aace4c5b66f7f922ea4cff0c5508236c443247a78f3e1426097",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Preface",
+      "startMs": 0.0,
+      "endMs": 801.0,
+      "charStart": 0,
+      "charEnd": 7
+    },
+    {
+      "id": "s0002",
+      "text": "The Practical Problem",
+      "startMs": 1614.0,
+      "endMs": 2960.0,
+      "charStart": 9,
+      "charEnd": 30
+    },
+    {
+      "id": "s0003",
+      "text": "In real life, leadership is judged too late.",
+      "startMs": 3773.0,
+      "endMs": 6839.0,
+      "charStart": 32,
+      "charEnd": 76
+    },
+    {
+      "id": "s0004",
+      "text": "We wait for visible outcomes, then decide whether someone was strong or weak, good or bad, successful or failed.",
+      "startMs": 7164.0,
+      "endMs": 13851.0,
+      "charStart": 78,
+      "charEnd": 190
+    },
+    {
+      "id": "s0005",
+      "text": "By that point, many of the important structural choices have already hardened.",
+      "startMs": 13851.0,
+      "endMs": 18530.0,
+      "charStart": 190,
+      "charEnd": 268
+    },
+    {
+      "id": "s0006",
+      "text": "Patterns are already being copied.",
+      "startMs": 18530.0,
+      "endMs": 20840.0,
+      "charStart": 268,
+      "charEnd": 302
+    },
+    {
+      "id": "s0007",
+      "text": "Harm has already been distributed.",
+      "startMs": 21270.0,
+      "endMs": 23302.0,
+      "charStart": 305,
+      "charEnd": 339
+    },
+    {
+      "id": "s0008",
+      "text": "This book begins while influence is still forming.",
+      "startMs": 23545.0,
+      "endMs": 26587.0,
+      "charStart": 341,
+      "charEnd": 391
+    },
+    {
+      "id": "s0009",
+      "text": "It stays with what you can see in that window.",
+      "startMs": 26912.0,
+      "endMs": 29211.0,
+      "charStart": 392,
+      "charEnd": 438
+    },
+    {
+      "id": "s0010",
+      "text": "The Frame",
+      "startMs": 30511.0,
+      "endMs": 31300.0,
+      "charStart": 440,
+      "charEnd": 449
+    },
+    {
+      "id": "s0011",
+      "text": "The book uses one durable definition as its anchor.",
+      "startMs": 32601.0,
+      "endMs": 36118.0,
+      "charStart": 451,
+      "charEnd": 502
+    },
+    {
+      "id": "s0012",
+      "text": "The introduction states it outright.",
+      "startMs": 36444.0,
+      "endMs": 38684.0,
+      "charStart": 503,
+      "charEnd": 539
+    },
+    {
+      "id": "s0013",
+      "text": "From that anchor, the chapters move in layers.",
+      "startMs": 39067.0,
+      "endMs": 41958.0,
+      "charStart": 541,
+      "charEnd": 587
+    },
+    {
+      "id": "s0014",
+      "text": "Each stretch opens with a bridge; the chapters that follow carry the next part of the argument.",
+      "startMs": 41958.0,
+      "endMs": 47310.0,
+      "charStart": 587,
+      "charEnd": 682
+    },
+    {
+      "id": "s0015",
+      "text": "- How influence forms — From Attention to Pattern.",
+      "startMs": 47531.0,
+      "endMs": 51374.0,
+      "charStart": 685,
+      "charEnd": 735
+    },
+    {
+      "id": "s0016",
+      "text": "Chapter 1 takes up the weight of being looked to. - Renewal, erosion, and circulation — From Formation to Movement.",
+      "startMs": 51374.0,
+      "endMs": 61939.0,
+      "charStart": 735,
+      "charEnd": 850
+    },
+    {
+      "id": "s0017",
+      "text": "Chapters 2 through 5: two directions, then renewal, erosion, and circulation. - Harm, effectiveness, and legitimacy — From Movement to Lenses.",
+      "startMs": 61939.0,
+      "endMs": 76348.0,
+      "charStart": 850,
+      "charEnd": 992
+    },
+    {
+      "id": "s0018",
+      "text": "Chapters 6 through 8 take up harm, then effectiveness, then legitimacy. - Scale, pressure, and misjudgment — From Structure to Scale and Judgment.",
+      "startMs": 76348.0,
+      "endMs": 89200.0,
+      "charStart": 992,
+      "charEnd": 1138
+    },
+    {
+      "id": "s0019",
+      "text": "Chapters 9 through 11 take up scale, tradeoffs under pressure, and why we misjudge leaders. - What remains — From Misjudgment to What Remains.",
+      "startMs": 89200.0,
+      "endMs": 100728.0,
+      "charStart": 1138,
+      "charEnd": 1280
+    },
+    {
+      "id": "s0020",
+      "text": "Chapter 12 closes the arc.",
+      "startMs": 102249.0,
+      "endMs": 104769.0,
+      "charStart": 1285,
+      "charEnd": 1311
+    },
+    {
+      "id": "s0021",
+      "text": "The language stays simple on purpose.",
+      "startMs": 105465.0,
+      "endMs": 107915.0,
+      "charStart": 1313,
+      "charEnd": 1350
+    },
+    {
+      "id": "s0022",
+      "text": "The ideas are serious, but they do not require ornate phrasing to be useful.",
+      "startMs": 107915.0,
+      "endMs": 113163.0,
+      "charStart": 1350,
+      "charEnd": 1426
+    },
+    {
+      "id": "s0023",
+      "text": "What This Book Is Not",
+      "startMs": 114289.0,
+      "endMs": 115218.0,
+      "charStart": 1429,
+      "charEnd": 1450
+    },
+    {
+      "id": "s0024",
+      "text": "Better lenses do not remove uncertainty.",
+      "startMs": 115264.0,
+      "endMs": 119084.0,
+      "charStart": 1452,
+      "charEnd": 1492
+    },
+    {
+      "id": "s0025",
+      "text": "Good intentions do not guarantee good structure.",
+      "startMs": 119525.0,
+      "endMs": 122300.0,
+      "charStart": 1493,
+      "charEnd": 1541
+    },
+    {
+      "id": "s0026",
+      "text": "Outcomes alone do not settle questions of legitimacy.",
+      "startMs": 122625.0,
+      "endMs": 126120.0,
+      "charStart": 1542,
+      "charEnd": 1595
+    },
+    {
+      "id": "s0027",
+      "text": "Leadership remains difficult, even under clear analysis.",
+      "startMs": 126631.0,
+      "endMs": 130334.0,
+      "charStart": 1597,
+      "charEnd": 1653
+    },
+    {
+      "id": "s0028",
+      "text": "Difficulty is not an excuse for blindness.",
+      "startMs": 130717.0,
+      "endMs": 133655.0,
+      "charStart": 1654,
+      "charEnd": 1696
+    },
+    {
+      "id": "s0029",
+      "text": "Who This Is For",
+      "startMs": 134770.0,
+      "endMs": 136058.0,
+      "charStart": 1698,
+      "charEnd": 1713
+    },
+    {
+      "id": "s0030",
+      "text": "This book is for people who find themselves looked to, and for people who",
+      "startMs": 137173.0,
+      "endMs": 140946.0,
+      "charStart": 1715,
+      "charEnd": 1788
+    },
+    {
+      "id": "s0031",
+      "text": "look to others and wonder whether to continue.",
+      "startMs": 141004.0,
+      "endMs": 143779.0,
+      "charStart": 1789,
+      "charEnd": 1835
+    },
+    {
+      "id": "s0032",
+      "text": "It is for:",
+      "startMs": 144162.0,
+      "endMs": 145079.0,
+      "charStart": 1837,
+      "charEnd": 1847
+    },
+    {
+      "id": "s0033",
+      "text": "- People with formal authority.",
+      "startMs": 145114.0,
+      "endMs": 147738.0,
+      "charStart": 1849,
+      "charEnd": 1880
+    },
+    {
+      "id": "s0034",
+      "text": "- People with informal influence.",
+      "startMs": 147796.0,
+      "endMs": 150466.0,
+      "charStart": 1881,
+      "charEnd": 1914
+    },
+    {
+      "id": "s0035",
+      "text": "- People deciding how to read authority in institutions they depend on.",
+      "startMs": 150513.0,
+      "endMs": 155250.0,
+      "charStart": 1915,
+      "charEnd": 1986
+    },
+    {
+      "id": "s0036",
+      "text": "If you have ever felt that something was wrong in a group before",
+      "startMs": 155761.0,
+      "endMs": 158454.0,
+      "charStart": 1988,
+      "charEnd": 2052
+    },
+    {
+      "id": "s0037",
+      "text": "results made it obvious, this lens is for that feeling.",
+      "startMs": 158489.0,
+      "endMs": 162077.0,
+      "charStart": 2053,
+      "charEnd": 2108
+    }
+  ]
+}

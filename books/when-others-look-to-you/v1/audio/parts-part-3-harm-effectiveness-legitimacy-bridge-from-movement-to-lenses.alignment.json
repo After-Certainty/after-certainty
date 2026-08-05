@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-3-harm-effectiveness-legitimacy-bridge-from-movement-to-lenses",
+  "generationHash": "sha256:0ae85466ed0557cd0af38e687e8e30cc9922d5c577903493b029157e52f3f22e",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Bridge — From Movement to Lenses",
+      "startMs": 0.0,
+      "endMs": 2972.0,
+      "charStart": 0,
+      "charEnd": 32
+    },
+    {
+      "id": "s0002",
+      "text": "Start with movement.",
+      "startMs": 3483.0,
+      "endMs": 4737.0,
+      "charStart": 34,
+      "charEnd": 54
+    },
+    {
+      "id": "s0003",
+      "text": "Renewal, erosion, and circulation describe how influence moves.",
+      "startMs": 4737.0,
+      "endMs": 9566.0,
+      "charStart": 54,
+      "charEnd": 117
+    },
+    {
+      "id": "s0004",
+      "text": "Each can be open or captured.",
+      "startMs": 10182.0,
+      "endMs": 12074.0,
+      "charStart": 119,
+      "charEnd": 148
+    },
+    {
+      "id": "s0005",
+      "text": "Turn to what that movement produces.",
+      "startMs": 12248.0,
+      "endMs": 14698.0,
+      "charStart": 150,
+      "charEnd": 186
+    },
+    {
+      "id": "s0006",
+      "text": "Harm, effectiveness, and legitimacy are three lenses on what influence is producing.",
+      "startMs": 14698.0,
+      "endMs": 20491.0,
+      "charStart": 186,
+      "charEnd": 270
+    },
+    {
+      "id": "s0007",
+      "text": "Each lens shows something the others miss.",
+      "startMs": 20491.0,
+      "endMs": 23046.0,
+      "charStart": 270,
+      "charEnd": 312
+    },
+    {
+      "id": "s0008",
+      "text": "Together they complete the picture.",
+      "startMs": 23580.0,
+      "endMs": 25542.0,
+      "charStart": 315,
+      "charEnd": 350
+    },
+    {
+      "id": "s0009",
+      "text": "Say plainly what each lens emphasizes.",
+      "startMs": 25820.0,
+      "endMs": 28676.0,
+      "charStart": 352,
+      "charEnd": 390
+    },
+    {
+      "id": "s0010",
+      "text": "Harm is where cost lands when reach grows.",
+      "startMs": 29001.0,
+      "endMs": 31869.0,
+      "charStart": 391,
+      "charEnd": 433
+    },
+    {
+      "id": "s0011",
+      "text": "Effectiveness is what success borrows from and what it still protects.",
+      "startMs": 32194.0,
+      "endMs": 36409.0,
+      "charStart": 434,
+      "charEnd": 504
+    },
+    {
+      "id": "s0012",
+      "text": "Legitimacy is why people keep following—and what permission they keep extending over time.",
+      "startMs": 36409.0,
+      "endMs": 41912.0,
+      "charStart": 504,
+      "charEnd": 594
+    },
+    {
+      "id": "s0013",
+      "text": "Read the lenses as a set.",
+      "startMs": 42365.0,
+      "endMs": 44164.0,
+      "charStart": 597,
+      "charEnd": 622
+    },
+    {
+      "id": "s0014",
+      "text": "Where one blurs, another can still sharpen the read.",
+      "startMs": 44489.0,
+      "endMs": 48019.0,
+      "charStart": 623,
+      "charEnd": 675
+    }
+  ]
+}

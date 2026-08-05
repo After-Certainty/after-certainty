@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-front-matter-typographical-conventions",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "front-matter-typographical-conventions",
+  "sourcePath": "front-matter/typographical-conventions.md",
+  "sourceHash": "sha256:f03b391d9ebcd6588d165720c01e2e7d7b59a0ec0c61b9a807fb3b3403b3ea91",
+  "spokenTextHash": "sha256:a42031dbe2762baa603f13df7a2236201830b87bac2462ee3f43ac07a212f5d5",
+  "generationHash": "sha256:d3fd57e2c705d0e4fcf935857ecf1f2f171a17cf371c0d3f06ee5e0cf03bfc85",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1376,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 344.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 344.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/front-matter-typographical-conventions.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/front-matter-typographical-conventions.mp3",
+  "audioSha256": "sha256:629f7604f16986aa6a7113d929e4080b16a8e490c155d84677806eb0708cd832",
+  "generatedAt": "2026-08-05T13:00:48Z"
+}

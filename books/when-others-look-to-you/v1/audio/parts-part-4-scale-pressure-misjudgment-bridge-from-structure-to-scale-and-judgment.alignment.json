@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-4-scale-pressure-misjudgment-bridge-from-structure-to-scale-and-judgment",
+  "generationHash": "sha256:9f33d06e95c7a7c2a2778df7e8242f4d97adedcad30d29bf56ff49a8602341b5",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Bridge — From Structure to Scale and Judgment",
+      "startMs": 0.0,
+      "endMs": 2984.0,
+      "charStart": 0,
+      "charEnd": 45
+    },
+    {
+      "id": "s0002",
+      "text": "The same structure reads differently once reach grows.",
+      "startMs": 3797.0,
+      "endMs": 7431.0,
+      "charStart": 47,
+      "charEnd": 101
+    },
+    {
+      "id": "s0003",
+      "text": "People sit farther from the consequences of what they decide.",
+      "startMs": 7756.0,
+      "endMs": 11053.0,
+      "charStart": 103,
+      "charEnd": 164
+    },
+    {
+      "id": "s0004",
+      "text": "News from the ground takes longer to climb, and it bends more in transit.",
+      "startMs": 11053.0,
+      "endMs": 16022.0,
+      "charStart": 164,
+      "charEnd": 237
+    },
+    {
+      "id": "s0005",
+      "text": "What felt obvious in the room can vanish into reports, timing gaps, and urgency.",
+      "startMs": 16022.0,
+      "endMs": 21479.0,
+      "charStart": 237,
+      "charEnd": 317
+    },
+    {
+      "id": "s0006",
+      "text": "Renewal, erosion, vitality, and decay still name what is happening underneath.",
+      "startMs": 22129.0,
+      "endMs": 27597.0,
+      "charStart": 321,
+      "charEnd": 399
+    },
+    {
+      "id": "s0007",
+      "text": "At scale, reports arrive late.",
+      "startMs": 28410.0,
+      "endMs": 31057.0,
+      "charStart": 400,
+      "charEnd": 430
+    },
+    {
+      "id": "s0008",
+      "text": "Summaries flatten local signals.",
+      "startMs": 31057.0,
+      "endMs": 33205.0,
+      "charStart": 430,
+      "charEnd": 462
+    },
+    {
+      "id": "s0009",
+      "text": "Pressure rewards fast closure.",
+      "startMs": 33704.0,
+      "endMs": 35771.0,
+      "charStart": 464,
+      "charEnd": 494
+    },
+    {
+      "id": "s0010",
+      "text": "Together that makes it harder to see whether the system can still correct itself.",
+      "startMs": 35771.0,
+      "endMs": 40345.0,
+      "charStart": 494,
+      "charEnd": 575
+    },
+    {
+      "id": "s0011",
+      "text": "Reach widens.",
+      "startMs": 40879.0,
+      "endMs": 42400.0,
+      "charStart": 578,
+      "charEnd": 591
+    },
+    {
+      "id": "s0012",
+      "text": "Feedback thins.",
+      "startMs": 42644.0,
+      "endMs": 43967.0,
+      "charStart": 592,
+      "charEnd": 607
+    },
+    {
+      "id": "s0013",
+      "text": "Pressure comes next.",
+      "startMs": 44246.0,
+      "endMs": 45720.0,
+      "charStart": 608,
+      "charEnd": 628
+    },
+    {
+      "id": "s0014",
+      "text": "The chapters ahead follow that arc.",
+      "startMs": 45929.0,
+      "endMs": 48077.0,
+      "charStart": 630,
+      "charEnd": 665
+    },
+    {
+      "id": "s0015",
+      "text": "Scale and Drift shows how distance changes what you can see.",
+      "startMs": 48286.0,
+      "endMs": 52268.0,
+      "charStart": 667,
+      "charEnd": 727
+    },
+    {
+      "id": "s0016",
+      "text": "Tradeoffs Under Pressure shows what urgency can lock in.",
+      "startMs": 52709.0,
+      "endMs": 56691.0,
+      "charStart": 728,
+      "charEnd": 784
+    },
+    {
+      "id": "s0017",
+      "text": "Why We Misjudge Leaders shows how clean stories can outrun structural signals.",
+      "startMs": 56900.0,
+      "endMs": 62137.0,
+      "charStart": 785,
+      "charEnd": 863
+    }
+  ]
+}

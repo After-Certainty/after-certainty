@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions",
+  "sourcePath": "parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md",
+  "sourceHash": "sha256:a99fcb419aa75fe724cf7698c29f8a5584b90ccfc8c88d90d4c7314b7f673f93",
+  "spokenTextHash": "sha256:d5c9cb2415c497f20d5f512d36a37076b2d41f6ef209598a7ff39866f2acfafe",
+  "generationHash": "sha256:95530eb015ca7789b7d20411c9e4f5225fb95f73096290f13a734ea57c75ac2a",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 6581,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1645.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1645.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions.mp3",
+  "audioSha256": "sha256:7249e7d52605c22062e64c36e7b031ff44e35047a6d3dd830deccb48b98df500",
+  "generatedAt": "2026-08-05T13:01:31Z"
+}

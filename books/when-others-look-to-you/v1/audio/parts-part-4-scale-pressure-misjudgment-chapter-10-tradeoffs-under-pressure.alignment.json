@@ -1,0 +1,888 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure",
+  "generationHash": "sha256:44b04095904ed48f92d5bc1563e00e597c26b4c2f581a7dd54b7be12a7733a21",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 10 — Tradeoffs Under Pressure",
+      "startMs": 0.0,
+      "endMs": 2949.0,
+      "charStart": 0,
+      "charEnd": 37
+    },
+    {
+      "id": "s0002",
+      "text": "The Signature Still Required",
+      "startMs": 3390.0,
+      "endMs": 5050.0,
+      "charStart": 39,
+      "charEnd": 67
+    },
+    {
+      "id": "s0003",
+      "text": "A city issues an overnight emergency order after a severe storm.",
+      "startMs": 5747.0,
+      "endMs": 10043.0,
+      "charStart": 69,
+      "charEnd": 133
+    },
+    {
+      "id": "s0004",
+      "text": "Transit routes are redirected, procurement rules are suspended, and decisions move into a small command group.",
+      "startMs": 10043.0,
+      "endMs": 16870.0,
+      "charStart": 133,
+      "charEnd": 243
+    },
+    {
+      "id": "s0005",
+      "text": "In the first forty-eight hours, that move is hard to argue with: flooded underpasses, diverted ambulances, and a procurement queue that would have stalled sandbags.",
+      "startMs": 16870.0,
+      "endMs": 26645.0,
+      "charStart": 243,
+      "charEnd": 407
+    },
+    {
+      "id": "s0006",
+      "text": "Response speed improves.",
+      "startMs": 27191.0,
+      "endMs": 28828.0,
+      "charStart": 410,
+      "charEnd": 434
+    },
+    {
+      "id": "s0007",
+      "text": "Visible disruption drops.",
+      "startMs": 28828.0,
+      "endMs": 30674.0,
+      "charStart": 434,
+      "charEnd": 459
+    },
+    {
+      "id": "s0008",
+      "text": "The temporary command protocol is doing real work.",
+      "startMs": 30999.0,
+      "endMs": 34018.0,
+      "charStart": 461,
+      "charEnd": 511
+    },
+    {
+      "id": "s0009",
+      "text": "By the middle of the first week, teams closest to the routes start sending what the center could not see from the map alone.",
+      "startMs": 34343.0,
+      "endMs": 40984.0,
+      "charStart": 513,
+      "charEnd": 637
+    },
+    {
+      "id": "s0010",
+      "text": "One crew flags a missed dialysis-stop access on a redirected corridor.",
+      "startMs": 40984.0,
+      "endMs": 45953.0,
+      "charStart": 637,
+      "charEnd": 707
+    },
+    {
+      "id": "s0011",
+      "text": "Another reports a neighborhood cut off by a detour that looked clean upstairs.",
+      "startMs": 45953.0,
+      "endMs": 50922.0,
+      "charStart": 707,
+      "charEnd": 785
+    },
+    {
+      "id": "s0012",
+      "text": "The command group logs the concerns for the post-spike review window.",
+      "startMs": 50922.0,
+      "endMs": 55438.0,
+      "charStart": 785,
+      "charEnd": 854
+    },
+    {
+      "id": "s0013",
+      "text": "A challenge call is taken.",
+      "startMs": 56193.0,
+      "endMs": 57818.0,
+      "charStart": 858,
+      "charEnd": 884
+    },
+    {
+      "id": "s0014",
+      "text": "One corridor is adjusted from local signal.",
+      "startMs": 57818.0,
+      "endMs": 60454.0,
+      "charStart": 884,
+      "charEnd": 927
+    },
+    {
+      "id": "s0015",
+      "text": "Ground facts are reaching the people who can still change the plan.",
+      "startMs": 61069.0,
+      "endMs": 64169.0,
+      "charStart": 930,
+      "charEnd": 997
+    },
+    {
+      "id": "s0016",
+      "text": "What does not return with those facts is bounded local authority.",
+      "startMs": 64169.0,
+      "endMs": 67849.0,
+      "charStart": 997,
+      "charEnd": 1062
+    },
+    {
+      "id": "s0017",
+      "text": "District teams can report changing conditions.",
+      "startMs": 67849.0,
+      "endMs": 70508.0,
+      "charStart": 1062,
+      "charEnd": 1108
+    },
+    {
+      "id": "s0018",
+      "text": "They still cannot reopen a corridor, restore an override, or clear a procurement exception without a central signature under the temporary command protocol.",
+      "startMs": 70508.0,
+      "endMs": 78844.0,
+      "charStart": 1108,
+      "charEnd": 1264
+    },
+    {
+      "id": "s0019",
+      "text": "Ten days later the water is down in most places.",
+      "startMs": 79993.0,
+      "endMs": 83198.0,
+      "charStart": 1269,
+      "charEnd": 1317
+    },
+    {
+      "id": "s0020",
+      "text": "Officials talk about a sunset and a review date.",
+      "startMs": 83198.0,
+      "endMs": 86332.0,
+      "charStart": 1317,
+      "charEnd": 1365
+    },
+    {
+      "id": "s0021",
+      "text": "Some challenge calls keep landing.",
+      "startMs": 86646.0,
+      "endMs": 88701.0,
+      "charStart": 1367,
+      "charEnd": 1401
+    },
+    {
+      "id": "s0022",
+      "text": "A second corridor gets rerouted.",
+      "startMs": 88701.0,
+      "endMs": 90721.0,
+      "charStart": 1401,
+      "charEnd": 1433
+    },
+    {
+      "id": "s0023",
+      "text": "Months later the underpasses are dry.",
+      "startMs": 91174.0,
+      "endMs": 93693.0,
+      "charStart": 1436,
+      "charEnd": 1473
+    },
+    {
+      "id": "s0024",
+      "text": "Weather has stabilized.",
+      "startMs": 94076.0,
+      "endMs": 95469.0,
+      "charStart": 1474,
+      "charEnd": 1497
+    },
+    {
+      "id": "s0025",
+      "text": "Neighborhood groups that accepted the emergency grip now ask who can reopen a remaining restricted corridor without going through the command group.",
+      "startMs": 95469.0,
+      "endMs": 103805.0,
+      "charStart": 1497,
+      "charEnd": 1645
+    },
+    {
+      "id": "s0026",
+      "text": "The answer is unchanged.",
+      "startMs": 103805.0,
+      "endMs": 105570.0,
+      "charStart": 1645,
+      "charEnd": 1669
+    },
+    {
+      "id": "s0027",
+      "text": "The same approval path remains.",
+      "startMs": 105872.0,
+      "endMs": 107788.0,
+      "charStart": 1672,
+      "charEnd": 1703
+    },
+    {
+      "id": "s0028",
+      "text": "Officials describe it as \"proven under pressure.\"",
+      "startMs": 107788.0,
+      "endMs": 111062.0,
+      "charStart": 1703,
+      "charEnd": 1752
+    },
+    {
+      "id": "s0029",
+      "text": "The storm justified the contraction.",
+      "startMs": 111340.0,
+      "endMs": 113465.0,
+      "charStart": 1755,
+      "charEnd": 1791
+    },
+    {
+      "id": "s0030",
+      "text": "The later problem is not that authority narrowed during the flood.",
+      "startMs": 113465.0,
+      "endMs": 117169.0,
+      "charStart": 1791,
+      "charEnd": 1857
+    },
+    {
+      "id": "s0031",
+      "text": "It is that the approval path remained narrow after the water receded.",
+      "startMs": 117169.0,
+      "endMs": 121104.0,
+      "charStart": 1857,
+      "charEnd": 1926
+    },
+    {
+      "id": "s0032",
+      "text": "Pressure never removes tradeoffs; it squeezes them into less time.",
+      "startMs": 121546.0,
+      "endMs": 125760.0,
+      "charStart": 1930,
+      "charEnd": 1996
+    },
+    {
+      "id": "s0033",
+      "text": "What buys responsiveness now can cost later.",
+      "startMs": 125760.0,
+      "endMs": 128976.0,
+      "charStart": 1996,
+      "charEnd": 2040
+    },
+    {
+      "id": "s0034",
+      "text": "Under urgency, organizations usually move faster and give up some correction.",
+      "startMs": 128976.0,
+      "endMs": 133725.0,
+      "charStart": 2040,
+      "charEnd": 2117
+    },
+    {
+      "id": "s0035",
+      "text": "Sometimes that trade is worth it.",
+      "startMs": 134166.0,
+      "endMs": 135884.0,
+      "charStart": 2120,
+      "charEnd": 2153
+    },
+    {
+      "id": "s0036",
+      "text": "What matters is what still counts as temporary once the spike passes.",
+      "startMs": 135884.0,
+      "endMs": 139692.0,
+      "charStart": 2153,
+      "charEnd": 2222
+    },
+    {
+      "id": "s0037",
+      "text": "Three Lenses, One Moment",
+      "startMs": 140412.0,
+      "endMs": 142327.0,
+      "charStart": 2225,
+      "charEnd": 2249
+    },
+    {
+      "id": "s0038",
+      "text": "Pressure pulls on harm, effectiveness, and legitimacy together.",
+      "startMs": 142374.0,
+      "endMs": 146971.0,
+      "charStart": 2251,
+      "charEnd": 2314
+    },
+    {
+      "id": "s0039",
+      "text": "Correction moves with them—whether dissent and warning can still arrive fast enough to steer decisions.",
+      "startMs": 146971.0,
+      "endMs": 153380.0,
+      "charStart": 2314,
+      "charEnd": 2417
+    },
+    {
+      "id": "s0040",
+      "text": "Someone always pays for delay or blind spots.",
+      "startMs": 154193.0,
+      "endMs": 156991.0,
+      "charStart": 2420,
+      "charEnd": 2465
+    },
+    {
+      "id": "s0041",
+      "text": "The difference is whether those costs stay visible and get folded back into choices, or drift out of sight until they feel ordinary.",
+      "startMs": 156991.0,
+      "endMs": 164526.0,
+      "charStart": 2465,
+      "charEnd": 2597
+    },
+    {
+      "id": "s0042",
+      "text": "Effectiveness can mean restoring access while staying fast, or it can mean keeping dashboards calm while access harm slides off-screen.",
+      "startMs": 165373.0,
+      "endMs": 173349.0,
+      "charStart": 2600,
+      "charEnd": 2735
+    },
+    {
+      "id": "s0043",
+      "text": "Temporary legitimacy can stay pinned to emergency language and sunsets, or harden into a default people later treat as normal.",
+      "startMs": 173349.0,
+      "endMs": 181105.0,
+      "charStart": 2735,
+      "charEnd": 2861
+    },
+    {
+      "id": "s0044",
+      "text": "Under pressure, correction narrows first.",
+      "startMs": 181430.0,
+      "endMs": 184042.0,
+      "charStart": 2864,
+      "charEnd": 2905
+    },
+    {
+      "id": "s0045",
+      "text": "Dissent slides from open signal toward quiet workaround unless someone reopens channels on purpose.",
+      "startMs": 184042.0,
+      "endMs": 190044.0,
+      "charStart": 2905,
+      "charEnd": 3004
+    },
+    {
+      "id": "s0046",
+      "text": "In the city scene, that reopen begins when the dialysis-stop flag and the challenge call change a corridor.",
+      "startMs": 190044.0,
+      "endMs": 196719.0,
+      "charStart": 3004,
+      "charEnd": 3111
+    },
+    {
+      "id": "s0047",
+      "text": "That is correction: signals alter what the center decides.",
+      "startMs": 197579.0,
+      "endMs": 201363.0,
+      "charStart": 3114,
+      "charEnd": 3172
+    },
+    {
+      "id": "s0048",
+      "text": "Circulation is a further question.",
+      "startMs": 202315.0,
+      "endMs": 204242.0,
+      "charStart": 3174,
+      "charEnd": 3208
+    },
+    {
+      "id": "s0049",
+      "text": "It enters only when people closest to the routes regain authority to act on those signals without waiting for a central signature.",
+      "startMs": 204242.0,
+      "endMs": 211684.0,
+      "charStart": 3208,
+      "charEnd": 3338
+    },
+    {
+      "id": "s0050",
+      "text": "Information reaching the command group is not the same as restored decision rights at the edge.",
+      "startMs": 211684.0,
+      "endMs": 217141.0,
+      "charStart": 3338,
+      "charEnd": 3433
+    },
+    {
+      "id": "s0051",
+      "text": "States Under Pressure",
+      "startMs": 218441.0,
+      "endMs": 219649.0,
+      "charStart": 3437,
+      "charEnd": 3458
+    },
+    {
+      "id": "s0052",
+      "text": "Pressure strips away the polish that calm weeks provide.",
+      "startMs": 220090.0,
+      "endMs": 223608.0,
+      "charStart": 3460,
+      "charEnd": 3516
+    },
+    {
+      "id": "s0053",
+      "text": "How people respond when stakes spike often reveals more about the underlying structure than steady routines do.",
+      "startMs": 223608.0,
+      "endMs": 229784.0,
+      "charStart": 3516,
+      "charEnd": 3627
+    },
+    {
+      "id": "s0054",
+      "text": "Start with two checks.",
+      "startMs": 230945.0,
+      "endMs": 232269.0,
+      "charStart": 3630,
+      "charEnd": 3652
+    },
+    {
+      "id": "s0055",
+      "text": "Reach is whether warning and facts still travel to the places that can act.",
+      "startMs": 232269.0,
+      "endMs": 236262.0,
+      "charStart": 3652,
+      "charEnd": 3727
+    },
+    {
+      "id": "s0056",
+      "text": "Adjustment is whether direction can still move when new information shows up.",
+      "startMs": 236262.0,
+      "endMs": 241266.0,
+      "charStart": 3727,
+      "charEnd": 3804
+    },
+    {
+      "id": "s0057",
+      "text": "Under pressure, the vibrant group and decaying group pay different costs when course change must happen fast.",
+      "startMs": 241835.0,
+      "endMs": 248418.0,
+      "charStart": 3808,
+      "charEnd": 3917
+    },
+    {
+      "id": "s0058",
+      "text": "Early on, reach and adjustment can both look strong because centralization clears the jam.",
+      "startMs": 248418.0,
+      "endMs": 254142.0,
+      "charStart": 3917,
+      "charEnd": 4007
+    },
+    {
+      "id": "s0059",
+      "text": "Later, the same city can still look coordinated while adjustment hardens—reports keep arriving, but the signature gate does not loosen.",
+      "startMs": 254142.0,
+      "endMs": 263511.0,
+      "charStart": 4007,
+      "charEnd": 4142
+    },
+    {
+      "id": "s0060",
+      "text": "Crisis Across the Lenses",
+      "startMs": 264927.0,
+      "endMs": 266459.0,
+      "charStart": 4146,
+      "charEnd": 4170
+    },
+    {
+      "id": "s0061",
+      "text": "During crisis, several pulls tighten at once.",
+      "startMs": 267574.0,
+      "endMs": 270674.0,
+      "charStart": 4172,
+      "charEnd": 4217
+    },
+    {
+      "id": "s0062",
+      "text": "Groups become more willing to shift harm onto others.",
+      "startMs": 270674.0,
+      "endMs": 273878.0,
+      "charStart": 4217,
+      "charEnd": 4270
+    },
+    {
+      "id": "s0063",
+      "text": "They reach for short-term effectiveness and shorten the time correction has to matter.",
+      "startMs": 273878.0,
+      "endMs": 278441.0,
+      "charStart": 4270,
+      "charEnd": 4356
+    },
+    {
+      "id": "s0064",
+      "text": "Legitimacy transfers faster along emergency precedent.",
+      "startMs": 278441.0,
+      "endMs": 282156.0,
+      "charStart": 4356,
+      "charEnd": 4410
+    },
+    {
+      "id": "s0065",
+      "text": "Temporary expansions of authority settle into the baseline for how decisions happen afterward.",
+      "startMs": 282156.0,
+      "endMs": 287798.0,
+      "charStart": 4410,
+      "charEnd": 4504
+    },
+    {
+      "id": "s0066",
+      "text": "Crisis does not invent those habits; it reveals what the structure already",
+      "startMs": 288564.0,
+      "endMs": 292918.0,
+      "charStart": 4510,
+      "charEnd": 4584
+    },
+    {
+      "id": "s0067",
+      "text": "permits and turns up the volume.",
+      "startMs": 292976.0,
+      "endMs": 294927.0,
+      "charStart": 4585,
+      "charEnd": 4617
+    },
+    {
+      "id": "s0068",
+      "text": "That is why the first week can demonstrate real competence while the same arrangement creates a different problem over the following months.",
+      "startMs": 295205.0,
+      "endMs": 301811.0,
+      "charStart": 4619,
+      "charEnd": 4759
+    },
+    {
+      "id": "s0069",
+      "text": "The divergence appears when emergency precedent either sunsets or becomes governance.",
+      "startMs": 301811.0,
+      "endMs": 306688.0,
+      "charStart": 4759,
+      "charEnd": 4844
+    },
+    {
+      "id": "s0070",
+      "text": "Under pressure, what gets rewarded or punished travels fast as a template for who leads next—Leadership Reproduces Itself.",
+      "startMs": 306688.0,
+      "endMs": 314826.0,
+      "charStart": 4844,
+      "charEnd": 4966
+    },
+    {
+      "id": "s0071",
+      "text": "Pressure and Recovery",
+      "startMs": 315441.0,
+      "endMs": 317218.0,
+      "charStart": 4970,
+      "charEnd": 4991
+    },
+    {
+      "id": "s0072",
+      "text": "After the spike, the deciding question is not whether correction",
+      "startMs": 317543.0,
+      "endMs": 320991.0,
+      "charStart": 4993,
+      "charEnd": 5057
+    },
+    {
+      "id": "s0073",
+      "text": "tightened—it usually does—but whether correction reopens once the acute",
+      "startMs": 321061.0,
+      "endMs": 325635.0,
+      "charStart": 5058,
+      "charEnd": 5129
+    },
+    {
+      "id": "s0074",
+      "text": "stretch ends, and whether circulation returns with it: temporary step-in",
+      "startMs": 325670.0,
+      "endMs": 330128.0,
+      "charStart": 5130,
+      "charEnd": 5202
+    },
+    {
+      "id": "s0075",
+      "text": "leadership and local decision rights, or an emergency pattern that has become",
+      "startMs": 330186.0,
+      "endMs": 334772.0,
+      "charStart": 5203,
+      "charEnd": 5280
+    },
+    {
+      "id": "s0076",
+      "text": "permanent.",
+      "startMs": 334830.0,
+      "endMs": 335550.0,
+      "charStart": 5281,
+      "charEnd": 5291
+    },
+    {
+      "id": "s0077",
+      "text": "Recovery requires correction to reopen: ground signals reach the center, decisions adjust, and revised direction returns to the edge.",
+      "startMs": 336061.0,
+      "endMs": 344374.0,
+      "charStart": 5293,
+      "charEnd": 5426
+    },
+    {
+      "id": "s0078",
+      "text": "It also requires circulation to reopen: district and local actors regain the authority to make bounded decisions without routing every consequential choice through the emergency command group.",
+      "startMs": 344374.0,
+      "endMs": 356030.0,
+      "charStart": 5426,
+      "charEnd": 5618
+    },
+    {
+      "id": "s0079",
+      "text": "Temporary contraction can preserve function; permanent closure locks in decay.",
+      "startMs": 356564.0,
+      "endMs": 361476.0,
+      "charStart": 5621,
+      "charEnd": 5699
+    },
+    {
+      "id": "s0080",
+      "text": "In the city scene, contraction does real work in the flood.",
+      "startMs": 361754.0,
+      "endMs": 365086.0,
+      "charStart": 5700,
+      "charEnd": 5759
+    },
+    {
+      "id": "s0081",
+      "text": "The failure is what happens when the approval path outlives the condition that made it necessary.",
+      "startMs": 365086.0,
+      "endMs": 370288.0,
+      "charStart": 5759,
+      "charEnd": 5856
+    },
+    {
+      "id": "s0082",
+      "text": "In crisis, that trade is one way Examples Accumulate can undercut evidence that correction is still working.",
+      "startMs": 370717.0,
+      "endMs": 377544.0,
+      "charStart": 5859,
+      "charEnd": 5967
+    },
+    {
+      "id": "s0083",
+      "text": "The tradeoff worked at first; failure followed when rules meant for emergencies became the everyday way decisions get made.",
+      "startMs": 377544.0,
+      "endMs": 385775.0,
+      "charStart": 5967,
+      "charEnd": 6090
+    },
+    {
+      "id": "s0084",
+      "text": "That is Exceptions are Forever: exceptions introduced under urgency tend to persist.",
+      "startMs": 385775.0,
+      "endMs": 392694.0,
+      "charStart": 6090,
+      "charEnd": 6174
+    },
+    {
+      "id": "s0085",
+      "text": "Temporary permissions harden into the new normal for how things run.",
+      "startMs": 392694.0,
+      "endMs": 396978.0,
+      "charStart": 6174,
+      "charEnd": 6242
+    },
+    {
+      "id": "s0086",
+      "text": "Restraint Under Urgency",
+      "startMs": 398337.0,
+      "endMs": 400252.0,
+      "charStart": 6247,
+      "charEnd": 6270
+    },
+    {
+      "id": "s0087",
+      "text": "Restraint often reads as weakness in the hot moment.",
+      "startMs": 400949.0,
+      "endMs": 403724.0,
+      "charStart": 6272,
+      "charEnd": 6324
+    },
+    {
+      "id": "s0088",
+      "text": "Leaders who slow down, verify, and reopen challenge can look less decisive than leaders who centralize control and close debate, but over time restraint usually preserves adaptability and limits harm that would otherwise show up later.",
+      "startMs": 403724.0,
+      "endMs": 418422.0,
+      "charStart": 6324,
+      "charEnd": 6559
+    },
+    {
+      "id": "s0089",
+      "text": "The hard part is not choosing centralization on night one.",
+      "startMs": 419246.0,
+      "endMs": 422474.0,
+      "charStart": 6562,
+      "charEnd": 6620
+    },
+    {
+      "id": "s0090",
+      "text": "It is accepting short-term friction later—restoring overrides, keeping sunsets real, letting local actors hold bounded decisions again—when \"proven under pressure\" sounds cleaner.",
+      "startMs": 422474.0,
+      "endMs": 434095.0,
+      "charStart": 6620,
+      "charEnd": 6799
+    },
+    {
+      "id": "s0091",
+      "text": "Urgency can be real; what matters is what gets locked in after it passes.",
+      "startMs": 434687.0,
+      "endMs": 439250.0,
+      "charStart": 6802,
+      "charEnd": 6875
+    },
+    {
+      "id": "s0092",
+      "text": "Once the emergency story stops dominating meetings, the question is whether new information can still change the plan.",
+      "startMs": 439250.0,
+      "endMs": 446193.0,
+      "charStart": 6875,
+      "charEnd": 6993
+    },
+    {
+      "id": "s0093",
+      "text": "When it can, Feedback Drives Change still holds.",
+      "startMs": 446193.0,
+      "endMs": 449955.0,
+      "charStart": 6993,
+      "charEnd": 7041
+    },
+    {
+      "id": "s0094",
+      "text": "Boundary Conditions",
+      "startMs": 450582.0,
+      "endMs": 451696.0,
+      "charStart": 7045,
+      "charEnd": 7064
+    },
+    {
+      "id": "s0095",
+      "text": "Groups cross a boundary when emergency rules stop reading as temporary and start acting like the everyday rulebook.",
+      "startMs": 452207.0,
+      "endMs": 458035.0,
+      "charStart": 7066,
+      "charEnd": 7181
+    },
+    {
+      "id": "s0096",
+      "text": "That slide usually follows three beats: a temporary exception, then the same carve-out repeated, then the carve-out treated as default practice.",
+      "startMs": 458035.0,
+      "endMs": 466766.0,
+      "charStart": 7181,
+      "charEnd": 7325
+    },
+    {
+      "id": "s0097",
+      "text": "Once that pattern lands, pressure is less often the true cause of what happens; it becomes the justification people reach for to defend a new baseline.",
+      "startMs": 467230.0,
+      "endMs": 475996.0,
+      "charStart": 7328,
+      "charEnd": 7479
+    },
+    {
+      "id": "s0098",
+      "text": "Exceptions are Forever stops being only a warning—it describes how things actually run.",
+      "startMs": 475996.0,
+      "endMs": 482927.0,
+      "charStart": 7479,
+      "charEnd": 7566
+    },
+    {
+      "id": "s0099",
+      "text": "Read through circulation, the same slide looks like a channel shift: narrowed flow, then one-way flow, then captured flow.",
+      "startMs": 483914.0,
+      "endMs": 491309.0,
+      "charStart": 7569,
+      "charEnd": 7691
+    },
+    {
+      "id": "s0100",
+      "text": "The city scene already sketches it—overnight centralization as the temporary move, continued post-storm sign-off as the repeated move, then \"proven under pressure\" as the standing story.",
+      "startMs": 491309.0,
+      "endMs": 503464.0,
+      "charStart": 7691,
+      "charEnd": 7877
+    },
+    {
+      "id": "s0101",
+      "text": "What Remains Possible",
+      "startMs": 503894.0,
+      "endMs": 505113.0,
+      "charStart": 7880,
+      "charEnd": 7901
+    },
+    {
+      "id": "s0102",
+      "text": "Tradeoffs under pressure point toward where the structure is drifting.",
+      "startMs": 505148.0,
+      "endMs": 508828.0,
+      "charStart": 7903,
+      "charEnd": 7973
+    },
+    {
+      "id": "s0103",
+      "text": "The live question is what can still change once the trajectory is clear but reversal is still incomplete—and once Exceptions are Forever has already begun to shape the baseline.",
+      "startMs": 508828.0,
+      "endMs": 519347.0,
+      "charStart": 7973,
+      "charEnd": 8150
+    },
+    {
+      "id": "s0104",
+      "text": "The central signature that cleared sandbags is still required to reopen an",
+      "startMs": 519498.0,
+      "endMs": 523956.0,
+      "charStart": 8153,
+      "charEnd": 8227
+    },
+    {
+      "id": "s0105",
+      "text": "underpass that has been dry for months.",
+      "startMs": 524014.0,
+      "endMs": 526173.0,
+      "charStart": 8228,
+      "charEnd": 8267
+    },
+    {
+      "id": "s0106",
+      "text": "When visible control outruns structural signal, judgment moves farther from front-line evidence.",
+      "startMs": 526557.0,
+      "endMs": 532327.0,
+      "charStart": 8269,
+      "charEnd": 8365
+    },
+    {
+      "id": "s0107",
+      "text": "The next chapter turns to that read directly.",
+      "startMs": 532710.0,
+      "endMs": 535195.0,
+      "charStart": 8366,
+      "charEnd": 8411
+    },
+    {
+      "id": "s0108",
+      "text": "Pressure clarifies commitments; it does not absolve them.",
+      "startMs": 535520.0,
+      "endMs": 539073.0,
+      "charStart": 8413,
+      "charEnd": 8470
+    },
+    {
+      "id": "s0109",
+      "text": "Commitment to a Chosen Course of Action,\" *Organizational Behavior and Human Performance* 16, no.",
+      "startMs": 539398.0,
+      "endMs": 545748.0,
+      "charStart": 8472,
+      "charEnd": 8569
+    },
+    {
+      "id": "s0110",
+      "text": "1 (1976): 27–44, on escalating commitment to a course after direction has hardened—the pattern that restraint, verification, and reopened challenge are meant to interrupt.",
+      "startMs": 545748.0,
+      "endMs": 557903.0,
+      "charStart": 8569,
+      "charEnd": 8740
+    }
+  ]
+}

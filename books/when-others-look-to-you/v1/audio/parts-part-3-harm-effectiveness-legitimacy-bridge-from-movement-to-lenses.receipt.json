@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-3-harm-effectiveness-legitimacy-bridge-from-movement-to-lenses",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-3-harm-effectiveness-legitimacy-bridge-from-movement-to-lenses",
+  "sourcePath": "parts/part-3-harm-effectiveness-legitimacy/bridge-from-movement-to-lenses.md",
+  "sourceHash": "sha256:3f503f131b024d9745309068d6310fe14c0703ead36ebbcff24c7762b1349ab8",
+  "spokenTextHash": "sha256:1ebbd4bc851b2b55f41e877b19f901816392cd3e0123fe8b3448f0a6200a0e9a",
+  "generationHash": "sha256:0ae85466ed0557cd0af38e687e8e30cc9922d5c577903493b029157e52f3f22e",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 675,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 168.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 168.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-3-harm-effectiveness-legitimacy-bridge-from-movement-to-lenses.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-3-harm-effectiveness-legitimacy-bridge-from-movement-to-lenses.mp3",
+  "audioSha256": "sha256:7d73a370cd6eca7cd03245a933b240060b458fc7b1b433bc4ec6f7f9d39f517a",
+  "generatedAt": "2026-08-05T13:00:54Z"
+}

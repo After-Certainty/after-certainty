@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-4-scale-pressure-misjudgment-chapter-9-scale-and-drift",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-4-scale-pressure-misjudgment-chapter-9-scale-and-drift",
+  "sourcePath": "parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md",
+  "sourceHash": "sha256:14d019b671dea1b7db42dc4e066d4d8bb65ec189eda0e21eb7e0a5c42c4ffc66",
+  "spokenTextHash": "sha256:068ea4a5ab6857deb74ff90a439a1c46c0d353f9ab1974d21fb186c14bacd4e3",
+  "generationHash": "sha256:834f4fd1cdae0edd55188c920bd0a5fe87c41000e15e3b6dd9e7d1cba207e5ad",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 6258,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1564.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1564.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-4-scale-pressure-misjudgment-chapter-9-scale-and-drift.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-4-scale-pressure-misjudgment-chapter-9-scale-and-drift.mp3",
+  "audioSha256": "sha256:b84c1ef34f6bd54406b4a1157f9ea512a522cb142995922a95081274f2e1bd44",
+  "generatedAt": "2026-08-05T13:02:07Z"
+}

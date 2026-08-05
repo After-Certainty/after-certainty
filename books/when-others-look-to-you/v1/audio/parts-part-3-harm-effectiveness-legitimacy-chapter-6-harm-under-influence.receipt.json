@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence",
+  "sourcePath": "parts/part-3-harm-effectiveness-legitimacy/chapter-6-harm-under-influence.md",
+  "sourceHash": "sha256:b209a0fc13dae6ca5d2ebfb9f2bbdbf805973b4b666bb03755be5e8ce135228a",
+  "spokenTextHash": "sha256:46319054aabdc26a0981890f77daac242615fc6006c776c8abebf2f674f78048",
+  "generationHash": "sha256:bbf82501927760eb97e74c54be31cb9cf3779050956faf394399343a020c1008",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 13051,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 3262.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 3262.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence.mp3",
+  "audioSha256": "sha256:57ed13e5fd94973f92dae31810c0de88d03cc496d154fcabc5f41bde7ce7771a",
+  "generatedAt": "2026-08-05T13:01:17Z"
+}

@@ -1,0 +1,760 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions",
+  "generationHash": "sha256:95530eb015ca7789b7d20411c9e4f5225fb95f73096290f13a734ea57c75ac2a",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 7 — Effectiveness and Its Illusions",
+      "startMs": 0.0,
+      "endMs": 3680.0,
+      "charStart": 0,
+      "charEnd": 43
+    },
+    {
+      "id": "s0002",
+      "text": "When the Numbers Look Good",
+      "startMs": 4284.0,
+      "endMs": 5758.0,
+      "charStart": 45,
+      "charEnd": 71
+    },
+    {
+      "id": "s0003",
+      "text": "Two teams finish the quarter above target.",
+      "startMs": 6873.0,
+      "endMs": 9497.0,
+      "charStart": 73,
+      "charEnd": 115
+    },
+    {
+      "id": "s0004",
+      "text": "In the first, weekly reviews still reopen decisions when field evidence shifts—a metric may slip, then steady again on stronger footing.",
+      "startMs": 9497.0,
+      "endMs": 18529.0,
+      "charStart": 115,
+      "charEnd": 251
+    },
+    {
+      "id": "s0005",
+      "text": "In the second, the dashboard stays green while objections go quiet.",
+      "startMs": 19284.0,
+      "endMs": 23301.0,
+      "charStart": 254,
+      "charEnd": 321
+    },
+    {
+      "id": "s0006",
+      "text": "Work still ships, but more fixes migrate to side channels and private workarounds.",
+      "startMs": 23301.0,
+      "endMs": 28549.0,
+      "charStart": 321,
+      "charEnd": 403
+    },
+    {
+      "id": "s0007",
+      "text": "Both teams read as effective from a distance.",
+      "startMs": 29048.0,
+      "endMs": 31684.0,
+      "charStart": 406,
+      "charEnd": 451
+    },
+    {
+      "id": "s0008",
+      "text": "Only one preserves the conditions that keep effectiveness real over time.",
+      "startMs": 31684.0,
+      "endMs": 36304.0,
+      "charStart": 451,
+      "charEnd": 524
+    },
+    {
+      "id": "s0009",
+      "text": "What Results Can Hide",
+      "startMs": 37698.0,
+      "endMs": 39126.0,
+      "charStart": 527,
+      "charEnd": 548
+    },
+    {
+      "id": "s0010",
+      "text": "We rightly judge leadership partly by visible outcomes.",
+      "startMs": 40426.0,
+      "endMs": 43897.0,
+      "charStart": 550,
+      "charEnd": 605
+    },
+    {
+      "id": "s0011",
+      "text": "That check matters—and it is still incomplete.",
+      "startMs": 43897.0,
+      "endMs": 47113.0,
+      "charStart": 605,
+      "charEnd": 651
+    },
+    {
+      "id": "s0012",
+      "text": "A group can hit its goals while correction narrows.",
+      "startMs": 47647.0,
+      "endMs": 50457.0,
+      "charStart": 654,
+      "charEnd": 705
+    },
+    {
+      "id": "s0013",
+      "text": "It can look coordinated while trust, learning, and adaptability thin below the surface.",
+      "startMs": 50457.0,
+      "endMs": 56412.0,
+      "charStart": 705,
+      "charEnd": 792
+    },
+    {
+      "id": "s0014",
+      "text": "The pair of questions that matters is not only \"did this work now?\" but \"what did",
+      "startMs": 56819.0,
+      "endMs": 62078.0,
+      "charStart": 795,
+      "charEnd": 876
+    },
+    {
+      "id": "s0015",
+      "text": "this result do to future capacity?\"",
+      "startMs": 62125.0,
+      "endMs": 64481.0,
+      "charStart": 877,
+      "charEnd": 912
+    },
+    {
+      "id": "s0016",
+      "text": "After the Citation",
+      "startMs": 65782.0,
+      "endMs": 66885.0,
+      "charStart": 914,
+      "charEnd": 932
+    },
+    {
+      "id": "s0017",
+      "text": "The public library’s literacy program receives a state citation; the director’s photo runs in the paper, and the board’s annual dinner is a warm night.",
+      "startMs": 68185.0,
+      "endMs": 77461.0,
+      "charStart": 934,
+      "charEnd": 1085
+    },
+    {
+      "id": "s0018",
+      "text": "A children’s librarian mentions afterward, in passing, that the new family intake still asks for documents the district stopped accepting in June; two families have already been turned away at the desk.",
+      "startMs": 77786.0,
+      "endMs": 89582.0,
+      "charStart": 1086,
+      "charEnd": 1288
+    },
+    {
+      "id": "s0019",
+      "text": "The director thanks everyone for the year, pivots to dessert, and the room follows.",
+      "startMs": 89907.0,
+      "endMs": 95097.0,
+      "charStart": 1289,
+      "charEnd": 1372
+    },
+    {
+      "id": "s0020",
+      "text": "She does not press it.",
+      "startMs": 95422.0,
+      "endMs": 96652.0,
+      "charStart": 1374,
+      "charEnd": 1396
+    },
+    {
+      "id": "s0021",
+      "text": "Nobody ruled her out of order.",
+      "startMs": 96977.0,
+      "endMs": 98823.0,
+      "charStart": 1397,
+      "charEnd": 1427
+    },
+    {
+      "id": "s0022",
+      "text": "The celebration just had no place left for that sentence.",
+      "startMs": 99148.0,
+      "endMs": 102457.0,
+      "charStart": 1428,
+      "charEnd": 1485
+    },
+    {
+      "id": "s0023",
+      "text": "The result was real.",
+      "startMs": 102573.0,
+      "endMs": 104094.0,
+      "charStart": 1487,
+      "charEnd": 1507
+    },
+    {
+      "id": "s0024",
+      "text": "So was what the room could no longer hold in public.",
+      "startMs": 104419.0,
+      "endMs": 107217.0,
+      "charStart": 1508,
+      "charEnd": 1560
+    },
+    {
+      "id": "s0025",
+      "text": "Together they show the pattern: visible success can grow while channels for",
+      "startMs": 107542.0,
+      "endMs": 112337.0,
+      "charStart": 1562,
+      "charEnd": 1637
+    },
+    {
+      "id": "s0026",
+      "text": "inconvenient signal narrow.",
+      "startMs": 112407.0,
+      "endMs": 114497.0,
+      "charStart": 1638,
+      "charEnd": 1665
+    },
+    {
+      "id": "s0027",
+      "text": "Effectiveness Over Time",
+      "startMs": 115797.0,
+      "endMs": 117655.0,
+      "charStart": 1667,
+      "charEnd": 1690
+    },
+    {
+      "id": "s0028",
+      "text": "Effectiveness is about whether the work actually produces results.",
+      "startMs": 118955.0,
+      "endMs": 123228.0,
+      "charStart": 1692,
+      "charEnd": 1758
+    },
+    {
+      "id": "s0029",
+      "text": "The stronger read is whether those outcomes will hold—or whether they were bought by quietly burning through conditions the group still needs.",
+      "startMs": 123228.0,
+      "endMs": 131262.0,
+      "charStart": 1758,
+      "charEnd": 1900
+    },
+    {
+      "id": "s0030",
+      "text": "Renewal tends to spend early to preserve capacity.",
+      "startMs": 131262.0,
+      "endMs": 134907.0,
+      "charStart": 1900,
+      "charEnd": 1950
+    },
+    {
+      "id": "s0031",
+      "text": "Erosion tends to borrow against the future—later paid as preventable harm, rework, trust loss, and expensive repair.",
+      "startMs": 134907.0,
+      "endMs": 143789.0,
+      "charStart": 1950,
+      "charEnd": 2066
+    },
+    {
+      "id": "s0032",
+      "text": "When Success Narrows Correction",
+      "startMs": 144845.0,
+      "endMs": 147713.0,
+      "charStart": 2071,
+      "charEnd": 2102
+    },
+    {
+      "id": "s0033",
+      "text": "Success increases authority.",
+      "startMs": 148410.0,
+      "endMs": 150453.0,
+      "charStart": 2104,
+      "charEnd": 2132
+    },
+    {
+      "id": "s0034",
+      "text": "It can improve coordination.",
+      "startMs": 150778.0,
+      "endMs": 152636.0,
+      "charStart": 2133,
+      "charEnd": 2161
+    },
+    {
+      "id": "s0035",
+      "text": "It can also make dissent feel optional.",
+      "startMs": 152636.0,
+      "endMs": 155317.0,
+      "charStart": 2161,
+      "charEnd": 2200
+    },
+    {
+      "id": "s0036",
+      "text": "After visible wins, conflicting signals often arrive later, softer, or not at all.",
+      "startMs": 155967.0,
+      "endMs": 161900.0,
+      "charStart": 2203,
+      "charEnd": 2285
+    },
+    {
+      "id": "s0037",
+      "text": "People learn what is easy to raise and what is safer to keep to themselves.",
+      "startMs": 162225.0,
+      "endMs": 166707.0,
+      "charStart": 2286,
+      "charEnd": 2361
+    },
+    {
+      "id": "s0038",
+      "text": "That pattern is a recurring trap.",
+      "startMs": 167032.0,
+      "endMs": 169063.0,
+      "charStart": 2363,
+      "charEnd": 2396
+    },
+    {
+      "id": "s0039",
+      "text": "The same run of success that proves capability can narrow the feedback channels needed to sustain it.",
+      "startMs": 169063.0,
+      "endMs": 175367.0,
+      "charStart": 2396,
+      "charEnd": 2497
+    },
+    {
+      "id": "s0040",
+      "text": "That same run also teaches the next leaders what counts as normal leadership here—Leadership Reproduces Itself.",
+      "startMs": 175367.0,
+      "endMs": 183877.0,
+      "charStart": 2497,
+      "charEnd": 2608
+    },
+    {
+      "id": "s0041",
+      "text": "Correction as Time-Bound Effectiveness",
+      "startMs": 184899.0,
+      "endMs": 187314.0,
+      "charStart": 2612,
+      "charEnd": 2650
+    },
+    {
+      "id": "s0042",
+      "text": "Leadership sends influence outward.",
+      "startMs": 187825.0,
+      "endMs": 190530.0,
+      "charStart": 2652,
+      "charEnd": 2687
+    },
+    {
+      "id": "s0043",
+      "text": "Effectiveness over time depends on whether feedback comes back while costs are still small.",
+      "startMs": 190530.0,
+      "endMs": 196033.0,
+      "charStart": 2687,
+      "charEnd": 2778
+    },
+    {
+      "id": "s0044",
+      "text": "Correction means warnings, dissent, and what people on the ground see can reach decision-makers and change direction without punishment.",
+      "startMs": 196404.0,
+      "endMs": 204102.0,
+      "charStart": 2781,
+      "charEnd": 2917
+    },
+    {
+      "id": "s0045",
+      "text": "Dissent is Welcomed means people can still challenge without losing their place.",
+      "startMs": 204102.0,
+      "endMs": 208816.0,
+      "charStart": 2917,
+      "charEnd": 2997
+    },
+    {
+      "id": "s0046",
+      "text": "When that path stays open, groups can absorb smaller visible costs now to avoid larger failures later.",
+      "startMs": 209118.0,
+      "endMs": 215979.0,
+      "charStart": 3000,
+      "charEnd": 3102
+    },
+    {
+      "id": "s0047",
+      "text": "That read asks whether the group can still change direction—and whether it is staying healthy or moving toward decay.",
+      "startMs": 215979.0,
+      "endMs": 222968.0,
+      "charStart": 3102,
+      "charEnd": 3219
+    },
+    {
+      "id": "s0048",
+      "text": "Without correction, authority can remain while learning slows.",
+      "startMs": 223246.0,
+      "endMs": 227078.0,
+      "charStart": 3222,
+      "charEnd": 3284
+    },
+    {
+      "id": "s0049",
+      "text": "In the short run, outcomes may still look strong.",
+      "startMs": 227078.0,
+      "endMs": 230050.0,
+      "charStart": 3284,
+      "charEnd": 3333
+    },
+    {
+      "id": "s0050",
+      "text": "Over time, recurrence, rework, and repair costs rise, and groups drift toward the decaying group.",
+      "startMs": 230050.0,
+      "endMs": 236598.0,
+      "charStart": 3333,
+      "charEnd": 3430
+    },
+    {
+      "id": "s0051",
+      "text": "In vibrant groups, warnings and dissent can still move and revise direction.",
+      "startMs": 237225.0,
+      "endMs": 241671.0,
+      "charStart": 3434,
+      "charEnd": 3510
+    },
+    {
+      "id": "s0052",
+      "text": "In decaying groups, correction narrows.",
+      "startMs": 241997.0,
+      "endMs": 244295.0,
+      "charStart": 3511,
+      "charEnd": 3550
+    },
+    {
+      "id": "s0053",
+      "text": "The same care may exist privately, but the public path for changing a decision narrows until only workarounds remain.",
+      "startMs": 244295.0,
+      "endMs": 251331.0,
+      "charStart": 3550,
+      "charEnd": 3667
+    },
+    {
+      "id": "s0054",
+      "text": "When correction stays open, deferred effectiveness becomes possible: patient",
+      "startMs": 251772.0,
+      "endMs": 256451.0,
+      "charStart": 3670,
+      "charEnd": 3746
+    },
+    {
+      "id": "s0055",
+      "text": "judgment that pays a smaller cost now to avoid a larger one later.",
+      "startMs": 256498.0,
+      "endMs": 260724.0,
+      "charStart": 3747,
+      "charEnd": 3813
+    },
+    {
+      "id": "s0056",
+      "text": "The Fast Rule Pauses",
+      "startMs": 261327.0,
+      "endMs": 263046.0,
+      "charStart": 3815,
+      "charEnd": 3835
+    },
+    {
+      "id": "s0057",
+      "text": "A regional claims center rolls out a rule that auto-denies incomplete submissions after forty-eight hours.",
+      "startMs": 263742.0,
+      "endMs": 270185.0,
+      "charStart": 3837,
+      "charEnd": 3943
+    },
+    {
+      "id": "s0058",
+      "text": "Week one looks efficient.",
+      "startMs": 270511.0,
+      "endMs": 272101.0,
+      "charStart": 3944,
+      "charEnd": 3969
+    },
+    {
+      "id": "s0059",
+      "text": "Pending counts drop, managers hit daily closure targets, and the operations report finally reads as stable.",
+      "startMs": 272380.0,
+      "endMs": 279566.0,
+      "charStart": 3970,
+      "charEnd": 4077
+    },
+    {
+      "id": "s0060",
+      "text": "In the second week, a medical-review analyst sees a repeat pattern in escalations from dialysis patients.",
+      "startMs": 279891.0,
+      "endMs": 286811.0,
+      "charStart": 4079,
+      "charEnd": 4184
+    },
+    {
+      "id": "s0061",
+      "text": "Documents are arriving, but from clinics that upload in batches, not in the window the rule expects.",
+      "startMs": 287136.0,
+      "endMs": 293278.0,
+      "charStart": 4185,
+      "charEnd": 4285
+    },
+    {
+      "id": "s0062",
+      "text": "The denials are technically compliant and operationally wrong.",
+      "startMs": 293603.0,
+      "endMs": 297330.0,
+      "charStart": 4286,
+      "charEnd": 4348
+    },
+    {
+      "id": "s0063",
+      "text": "The claims VP pauses the auto-denial trigger for that category, shifts two teams to same-day manual review, and accepts that month-end closure rates will fall.",
+      "startMs": 297655.0,
+      "endMs": 308313.0,
+      "charStart": 4350,
+      "charEnd": 4509
+    },
+    {
+      "id": "s0064",
+      "text": "The drop is immediate and public.",
+      "startMs": 308557.0,
+      "endMs": 310647.0,
+      "charStart": 4510,
+      "charEnd": 4543
+    },
+    {
+      "id": "s0065",
+      "text": "Three weeks later, so is what it prevented: appeal volume does not spike, provider complaints stay low, and the unit avoids a broad reopen of closed files.",
+      "startMs": 311460.0,
+      "endMs": 322257.0,
+      "charStart": 4544,
+      "charEnd": 4699
+    },
+    {
+      "id": "s0066",
+      "text": "The vignette illustrates deferred effectiveness in practice: accept a smaller",
+      "startMs": 322582.0,
+      "endMs": 327377.0,
+      "charStart": 4701,
+      "charEnd": 4778
+    },
+    {
+      "id": "s0067",
+      "text": "visible cost now so you do not pay a larger failure later.",
+      "startMs": 327435.0,
+      "endMs": 331440.0,
+      "charStart": 4779,
+      "charEnd": 4837
+    },
+    {
+      "id": "s0068",
+      "text": "The pattern steps through in the same order whenever correction still works.",
+      "startMs": 331719.0,
+      "endMs": 335969.0,
+      "charStart": 4839,
+      "charEnd": 4915
+    },
+    {
+      "id": "s0069",
+      "text": "First, the week after the choice often looks worse on the metrics people watch.",
+      "startMs": 336572.0,
+      "endMs": 341170.0,
+      "charStart": 4916,
+      "charEnd": 4995
+    },
+    {
+      "id": "s0070",
+      "text": "Second, leaders accept that trade because slowing implementation, reopening assumptions, or taking awkward public correction is what keeps reliability from breaking later.",
+      "startMs": 341170.0,
+      "endMs": 352988.0,
+      "charStart": 4995,
+      "charEnd": 5166
+    },
+    {
+      "id": "s0071",
+      "text": "Performative Compliance and Real Coordination",
+      "startMs": 353975.0,
+      "endMs": 356727.0,
+      "charStart": 5169,
+      "charEnd": 5214
+    },
+    {
+      "id": "s0072",
+      "text": "Lead with dashboards and reports.",
+      "startMs": 357168.0,
+      "endMs": 359223.0,
+      "charStart": 5216,
+      "charEnd": 5249
+    },
+    {
+      "id": "s0073",
+      "text": "What gets measured can hide whether people are actually with you.",
+      "startMs": 359223.0,
+      "endMs": 363008.0,
+      "charStart": 5249,
+      "charEnd": 5314
+    },
+    {
+      "id": "s0074",
+      "text": "Watch what people do next.",
+      "startMs": 363600.0,
+      "endMs": 365156.0,
+      "charStart": 5317,
+      "charEnd": 5343
+    },
+    {
+      "id": "s0075",
+      "text": "They can produce good-looking counts while privately withdrawing trust.",
+      "startMs": 365156.0,
+      "endMs": 368883.0,
+      "charStart": 5343,
+      "charEnd": 5414
+    },
+    {
+      "id": "s0076",
+      "text": "They can repeat approved language while quietly routing around decisions they do not believe in.",
+      "startMs": 368883.0,
+      "endMs": 374188.0,
+      "charStart": 5414,
+      "charEnd": 5510
+    },
+    {
+      "id": "s0077",
+      "text": "From the outside, the group still looks coordinated.",
+      "startMs": 374780.0,
+      "endMs": 378136.0,
+      "charStart": 5514,
+      "charEnd": 5566
+    },
+    {
+      "id": "s0078",
+      "text": "Underneath, its ability to act together is already splitting, and the real story can hide behind tidy paperwork.",
+      "startMs": 378136.0,
+      "endMs": 385450.0,
+      "charStart": 5566,
+      "charEnd": 5678
+    },
+    {
+      "id": "s0079",
+      "text": "Learning Collapse follows.",
+      "startMs": 386298.0,
+      "endMs": 387935.0,
+      "charStart": 5680,
+      "charEnd": 5706
+    },
+    {
+      "id": "s0080",
+      "text": "When you look closely at effectiveness, selective followership shows up.",
+      "startMs": 388260.0,
+      "endMs": 392648.0,
+      "charStart": 5708,
+      "charEnd": 5780
+    },
+    {
+      "id": "s0081",
+      "text": "Open disagreement can strengthen results.",
+      "startMs": 392974.0,
+      "endMs": 395679.0,
+      "charStart": 5781,
+      "charEnd": 5822
+    },
+    {
+      "id": "s0082",
+      "text": "Quiet divergence wears them down over time.",
+      "startMs": 395679.0,
+      "endMs": 398616.0,
+      "charStart": 5822,
+      "charEnd": 5865
+    },
+    {
+      "id": "s0083",
+      "text": "Reading Effectiveness While It Is Happening",
+      "startMs": 399498.0,
+      "endMs": 401867.0,
+      "charStart": 5868,
+      "charEnd": 5911
+    },
+    {
+      "id": "s0084",
+      "text": "To understand what is really happening, pair outcomes with the conditions",
+      "startMs": 401937.0,
+      "endMs": 406058.0,
+      "charStart": 5913,
+      "charEnd": 5986
+    },
+    {
+      "id": "s0085",
+      "text": "underneath them as the work moves—not only the headline result when it lands.",
+      "startMs": 406128.0,
+      "endMs": 410958.0,
+      "charStart": 5987,
+      "charEnd": 6064
+    },
+    {
+      "id": "s0086",
+      "text": "Keep four checks active while work is underway: whether correction stayed",
+      "startMs": 411283.0,
+      "endMs": 415474.0,
+      "charStart": 6066,
+      "charEnd": 6139
+    },
+    {
+      "id": "s0087",
+      "text": "open; whether concerns changed decisions or only decorated meetings; whether",
+      "startMs": 415532.0,
+      "endMs": 420547.0,
+      "charStart": 6140,
+      "charEnd": 6216
+    },
+    {
+      "id": "s0088",
+      "text": "success increased learning capacity or reduced it; whether trust held while",
+      "startMs": 420605.0,
+      "endMs": 425458.0,
+      "charStart": 6217,
+      "charEnd": 6292
+    },
+    {
+      "id": "s0089",
+      "text": "results were achieved.",
+      "startMs": 425505.0,
+      "endMs": 426793.0,
+      "charStart": 6293,
+      "charEnd": 6315
+    },
+    {
+      "id": "s0090",
+      "text": "Without that read, results mislead.",
+      "startMs": 426968.0,
+      "endMs": 429336.0,
+      "charStart": 6317,
+      "charEnd": 6352
+    },
+    {
+      "id": "s0091",
+      "text": "Legitimacy Next",
+      "startMs": 429580.0,
+      "endMs": 431751.0,
+      "charStart": 6354,
+      "charEnd": 6369
+    },
+    {
+      "id": "s0092",
+      "text": "Effectiveness is what worked.",
+      "startMs": 431821.0,
+      "endMs": 433806.0,
+      "charStart": 6371,
+      "charEnd": 6400
+    },
+    {
+      "id": "s0093",
+      "text": "Legitimacy is why people keep following: how authority forms, hardens, and renews over time, and what makes that sustainable.",
+      "startMs": 433806.0,
+      "endMs": 442154.0,
+      "charStart": 6400,
+      "charEnd": 6525
+    },
+    {
+      "id": "s0094",
+      "text": "Performance can certify capacity while masking decay.",
+      "startMs": 442653.0,
+      "endMs": 446519.0,
+      "charStart": 6528,
+      "charEnd": 6581
+    }
+  ]
+}

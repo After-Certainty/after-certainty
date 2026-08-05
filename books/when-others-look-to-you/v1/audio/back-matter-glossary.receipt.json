@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-back-matter-glossary",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "back-matter-glossary",
+  "sourcePath": "back-matter/glossary.md",
+  "sourceHash": "sha256:2fa4f5698c4cabc08981bc3070d8df700e3781a58757669d5df6f30ca5492173",
+  "spokenTextHash": "sha256:dc58bf548425b597ecd8dfb15f3cec12608500a98b3c12c20d534b0c3539ef55",
+  "generationHash": "sha256:5d8a7faca608fd0ce2ea9cfc30784a1754d08be5aeb9e29443324f0867a56202",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3167,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 791.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 791.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/back-matter-glossary.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/back-matter-glossary.mp3",
+  "audioSha256": "sha256:024d24f0bec253cb6cbe8684b410e9dd209673b4221e9fa3a56d4fa8f4148309",
+  "generatedAt": "2026-08-05T13:03:57Z"
+}

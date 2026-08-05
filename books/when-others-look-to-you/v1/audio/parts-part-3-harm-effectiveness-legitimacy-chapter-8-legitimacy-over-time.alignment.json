@@ -1,0 +1,1016 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time",
+  "generationHash": "sha256:2ce1bef3f57a9bf13cc7472af7bb652dd27b66bc677c8a34557f14af681be6a6",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 8 — Legitimacy Over Time",
+      "startMs": 0.0,
+      "endMs": 3448.0,
+      "charStart": 0,
+      "charEnd": 32
+    },
+    {
+      "id": "s0002",
+      "text": "The Handoff After the Surge",
+      "startMs": 3831.0,
+      "endMs": 6293.0,
+      "charStart": 34,
+      "charEnd": 61
+    },
+    {
+      "id": "s0003",
+      "text": "A regional hospital network is six months past a capacity surge.",
+      "startMs": 6734.0,
+      "endMs": 11030.0,
+      "charStart": 63,
+      "charEnd": 127
+    },
+    {
+      "id": "s0004",
+      "text": "The outgoing administrator had emergency authority to override local staffing rules, fast-track purchasing, and require central sign-off on decisions that used to stay local.",
+      "startMs": 11413.0,
+      "endMs": 21630.0,
+      "charStart": 128,
+      "charEnd": 302
+    },
+    {
+      "id": "s0005",
+      "text": "At the handoff meeting, the incoming administrator inherits the same authority package.",
+      "startMs": 22013.0,
+      "endMs": 26971.0,
+      "charStart": 304,
+      "charEnd": 391
+    },
+    {
+      "id": "s0006",
+      "text": "Nobody argues for crisis powers as a new policy.",
+      "startMs": 27296.0,
+      "endMs": 30349.0,
+      "charStart": 392,
+      "charEnd": 440
+    },
+    {
+      "id": "s0007",
+      "text": "They are simply listed as current operating permissions.",
+      "startMs": 30523.0,
+      "endMs": 33693.0,
+      "charStart": 441,
+      "charEnd": 497
+    },
+    {
+      "id": "s0008",
+      "text": "In week two, a local site asks to resume its old staffing rotation for one unit.",
+      "startMs": 34076.0,
+      "endMs": 39858.0,
+      "charStart": 499,
+      "charEnd": 579
+    },
+    {
+      "id": "s0009",
+      "text": "The center declines and keeps surge-era central control in place \"until further review.\" The review date is left open.",
+      "startMs": 40299.0,
+      "endMs": 48263.0,
+      "charStart": 580,
+      "charEnd": 698
+    },
+    {
+      "id": "s0010",
+      "text": "No one says the decision is wrong.",
+      "startMs": 48647.0,
+      "endMs": 50551.0,
+      "charStart": 700,
+      "charEnd": 734
+    },
+    {
+      "id": "s0011",
+      "text": "No one says who can reopen it.",
+      "startMs": 50992.0,
+      "endMs": 52942.0,
+      "charStart": 735,
+      "charEnd": 765
+    },
+    {
+      "id": "s0012",
+      "text": "Leadership transfer is where legitimacy becomes easiest to read.",
+      "startMs": 53755.0,
+      "endMs": 57551.0,
+      "charStart": 767,
+      "charEnd": 831
+    },
+    {
+      "id": "s0013",
+      "text": "People can see who is followed, why they are followed, and what it now costs to question direction.",
+      "startMs": 57551.0,
+      "endMs": 64041.0,
+      "charStart": 831,
+      "charEnd": 930
+    },
+    {
+      "id": "s0014",
+      "text": "Start from the handoff, not from an abstract definition.",
+      "startMs": 64912.0,
+      "endMs": 68070.0,
+      "charStart": 933,
+      "charEnd": 989
+    },
+    {
+      "id": "s0015",
+      "text": "The hospital scene is not an exception case.",
+      "startMs": 68070.0,
+      "endMs": 70834.0,
+      "charStart": 989,
+      "charEnd": 1033
+    },
+    {
+      "id": "s0016",
+      "text": "It shows the structure in plain view.",
+      "startMs": 71240.0,
+      "endMs": 73307.0,
+      "charStart": 1035,
+      "charEnd": 1072
+    },
+    {
+      "id": "s0017",
+      "text": "Here is how to read that structure at transfer: after authority passes, people keep following for different reasons.",
+      "startMs": 73307.0,
+      "endMs": 80563.0,
+      "charStart": 1072,
+      "charEnd": 1188
+    },
+    {
+      "id": "s0018",
+      "text": "Those reasons are different forms of legitimacy, and each one ties authority to accountability in a different way.",
+      "startMs": 80563.0,
+      "endMs": 87134.0,
+      "charStart": 1188,
+      "charEnd": 1302
+    },
+    {
+      "id": "s0019",
+      "text": "Why People Continue to Follow",
+      "startMs": 88249.0,
+      "endMs": 89619.0,
+      "charStart": 1306,
+      "charEnd": 1335
+    },
+    {
+      "id": "s0020",
+      "text": "Legitimacy changes over time.",
+      "startMs": 89677.0,
+      "endMs": 91790.0,
+      "charStart": 1337,
+      "charEnd": 1366
+    },
+    {
+      "id": "s0021",
+      "text": "It can renew, transfer, harden, or drift out of step with what is actually happening.",
+      "startMs": 91790.0,
+      "endMs": 97734.0,
+      "charStart": 1366,
+      "charEnd": 1451
+    },
+    {
+      "id": "s0022",
+      "text": "Across transfers, the reasons differ.",
+      "startMs": 98488.0,
+      "endMs": 100938.0,
+      "charStart": 1454,
+      "charEnd": 1491
+    },
+    {
+      "id": "s0023",
+      "text": "In one, people follow because they can still watch conduct and test it against consequence.",
+      "startMs": 100938.0,
+      "endMs": 106476.0,
+      "charStart": 1491,
+      "charEnd": 1582
+    },
+    {
+      "id": "s0024",
+      "text": "In another, they follow because procedure assigned the role.",
+      "startMs": 106476.0,
+      "endMs": 110087.0,
+      "charStart": 1582,
+      "charEnd": 1642
+    },
+    {
+      "id": "s0025",
+      "text": "In another, because the title already carries permission.",
+      "startMs": 110087.0,
+      "endMs": 113268.0,
+      "charStart": 1642,
+      "charEnd": 1699
+    },
+    {
+      "id": "s0026",
+      "text": "In another, because questioning the transfer starts to sound like betrayal.",
+      "startMs": 113268.0,
+      "endMs": 117749.0,
+      "charStart": 1699,
+      "charEnd": 1774
+    },
+    {
+      "id": "s0027",
+      "text": "The same institution can move through all four over time.",
+      "startMs": 118411.0,
+      "endMs": 122150.0,
+      "charStart": 1780,
+      "charEnd": 1837
+    },
+    {
+      "id": "s0028",
+      "text": "The question is not who has good motives.",
+      "startMs": 122150.0,
+      "endMs": 124588.0,
+      "charStart": 1837,
+      "charEnd": 1878
+    },
+    {
+      "id": "s0029",
+      "text": "The question is what keeps authority revisable once it changes hands.",
+      "startMs": 124588.0,
+      "endMs": 129011.0,
+      "charStart": 1878,
+      "charEnd": 1947
+    },
+    {
+      "id": "s0030",
+      "text": "Example-Based Legitimacy",
+      "startMs": 130602.0,
+      "endMs": 132378.0,
+      "charStart": 1951,
+      "charEnd": 1975
+    },
+    {
+      "id": "s0031",
+      "text": "In example-based legitimacy, people keep following when they can see the new",
+      "startMs": 133678.0,
+      "endMs": 137707.0,
+      "charStart": 1977,
+      "charEnd": 2053
+    },
+    {
+      "id": "s0032",
+      "text": "leader's behavior line up with what leadership asks of everyone else.",
+      "startMs": 137765.0,
+      "endMs": 141654.0,
+      "charStart": 2054,
+      "charEnd": 2123
+    },
+    {
+      "id": "s0033",
+      "text": "Stay with the hospital network.",
+      "startMs": 142095.0,
+      "endMs": 143860.0,
+      "charStart": 2125,
+      "charEnd": 2156
+    },
+    {
+      "id": "s0034",
+      "text": "The incoming administrator publicly narrows one inherited emergency override after local teams show stable performance and clear safety outcomes.",
+      "startMs": 143860.0,
+      "endMs": 152452.0,
+      "charStart": 2156,
+      "charEnd": 2301
+    },
+    {
+      "id": "s0035",
+      "text": "She accepts a slower rollout, keeps the exception list visible, and names the conditions for reopening central control if risk rises.",
+      "startMs": 152452.0,
+      "endMs": 160800.0,
+      "charStart": 2301,
+      "charEnd": 2434
+    },
+    {
+      "id": "s0036",
+      "text": "People are not following only because she has the role.",
+      "startMs": 161253.0,
+      "endMs": 164132.0,
+      "charStart": 2438,
+      "charEnd": 2493
+    },
+    {
+      "id": "s0037",
+      "text": "They follow because they can see conduct tied to consequence in real time.",
+      "startMs": 164132.0,
+      "endMs": 168358.0,
+      "charStart": 2493,
+      "charEnd": 2567
+    },
+    {
+      "id": "s0038",
+      "text": "That pattern lasts only if what leaders do keeps matching what they say—especially",
+      "startMs": 168578.0,
+      "endMs": 173733.0,
+      "charStart": 2570,
+      "charEnd": 2652
+    },
+    {
+      "id": "s0039",
+      "text": "under pressure.",
+      "startMs": 173791.0,
+      "endMs": 174592.0,
+      "charStart": 2653,
+      "charEnd": 2668
+    },
+    {
+      "id": "s0040",
+      "text": "Procedural Legitimacy",
+      "startMs": 174871.0,
+      "endMs": 176519.0,
+      "charStart": 2670,
+      "charEnd": 2691
+    },
+    {
+      "id": "s0041",
+      "text": "In procedural legitimacy, people keep following when transfer rules still limit",
+      "startMs": 177634.0,
+      "endMs": 182452.0,
+      "charStart": 2693,
+      "charEnd": 2772
+    },
+    {
+      "id": "s0042",
+      "text": "what leaders can do.",
+      "startMs": 182499.0,
+      "endMs": 183741.0,
+      "charStart": 2773,
+      "charEnd": 2793
+    },
+    {
+      "id": "s0043",
+      "text": "Stay in the same network.",
+      "startMs": 184066.0,
+      "endMs": 185714.0,
+      "charStart": 2795,
+      "charEnd": 2820
+    },
+    {
+      "id": "s0044",
+      "text": "The board's transfer protocol requires a published review of all surge-era permissions within ninety days, local testimony from affected sites, and a recorded vote for each exception that remains.",
+      "startMs": 185714.0,
+      "endMs": 197766.0,
+      "charStart": 2820,
+      "charEnd": 3016
+    },
+    {
+      "id": "s0045",
+      "text": "The incoming administrator keeps authority because the process says she has it, but the process also limits what can pass forward without scrutiny.",
+      "startMs": 197766.0,
+      "endMs": 206683.0,
+      "charStart": 3016,
+      "charEnd": 3163
+    },
+    {
+      "id": "s0046",
+      "text": "When the process is real, work keeps moving and challenge keeps a door open.",
+      "startMs": 207124.0,
+      "endMs": 211617.0,
+      "charStart": 3167,
+      "charEnd": 3243
+    },
+    {
+      "id": "s0047",
+      "text": "When procedure becomes ceremony, continuity can hide erosion.",
+      "startMs": 211617.0,
+      "endMs": 215727.0,
+      "charStart": 3243,
+      "charEnd": 3304
+    },
+    {
+      "id": "s0048",
+      "text": "Office-Based Legitimacy",
+      "startMs": 217050.0,
+      "endMs": 218606.0,
+      "charStart": 3307,
+      "charEnd": 3330
+    },
+    {
+      "id": "s0049",
+      "text": "In office-based legitimacy, people follow because the position already carries",
+      "startMs": 219117.0,
+      "endMs": 223773.0,
+      "charStart": 3332,
+      "charEnd": 3410
+    },
+    {
+      "id": "s0050",
+      "text": "permissions that transfer with the title.",
+      "startMs": 223843.0,
+      "endMs": 225944.0,
+      "charStart": 3411,
+      "charEnd": 3452
+    },
+    {
+      "id": "s0051",
+      "text": "Stay in the same network.",
+      "startMs": 226223.0,
+      "endMs": 227732.0,
+      "charStart": 3454,
+      "charEnd": 3479
+    },
+    {
+      "id": "s0052",
+      "text": "The incoming administrator keeps broad central sign-off authority because \"that is what this office now includes.\" Local leaders route decisions through the center by default even when the original surge condition is gone.",
+      "startMs": 227732.0,
+      "endMs": 240549.0,
+      "charStart": 3479,
+      "charEnd": 3701
+    },
+    {
+      "id": "s0053",
+      "text": "Nothing dramatic happens on the surface.",
+      "startMs": 241025.0,
+      "endMs": 243277.0,
+      "charStart": 3703,
+      "charEnd": 3743
+    },
+    {
+      "id": "s0054",
+      "text": "The path simply stays centralized because the role already carries it.",
+      "startMs": 243277.0,
+      "endMs": 247724.0,
+      "charStart": 3743,
+      "charEnd": 3813
+    },
+    {
+      "id": "s0055",
+      "text": "This form can stabilize large systems.",
+      "startMs": 248165.0,
+      "endMs": 250789.0,
+      "charStart": 3815,
+      "charEnd": 3853
+    },
+    {
+      "id": "s0056",
+      "text": "It can also move authority forward faster than accountability can catch up.",
+      "startMs": 250789.0,
+      "endMs": 255120.0,
+      "charStart": 3853,
+      "charEnd": 3928
+    },
+    {
+      "id": "s0057",
+      "text": "Sacralized Legitimacy",
+      "startMs": 256176.0,
+      "endMs": 257848.0,
+      "charStart": 3931,
+      "charEnd": 3952
+    },
+    {
+      "id": "s0058",
+      "text": "Sacralized legitimacy appears when questioning the transfer starts to feel like a moral or identity threat.",
+      "startMs": 258661.0,
+      "endMs": 265394.0,
+      "charStart": 3954,
+      "charEnd": 4061
+    },
+    {
+      "id": "s0059",
+      "text": "People follow because challenge to leadership starts to sound like challenge to who \"we\" are.",
+      "startMs": 265394.0,
+      "endMs": 271943.0,
+      "charStart": 4061,
+      "charEnd": 4154
+    },
+    {
+      "id": "s0060",
+      "text": "Stay in the same network.",
+      "startMs": 272210.0,
+      "endMs": 273905.0,
+      "charStart": 4157,
+      "charEnd": 4182
+    },
+    {
+      "id": "s0061",
+      "text": "A clinical director asks whether surge-era controls should sunset unit by unit.",
+      "startMs": 273905.0,
+      "endMs": 279420.0,
+      "charStart": 4182,
+      "charEnd": 4261
+    },
+    {
+      "id": "s0062",
+      "text": "The reply is not about metrics or process.",
+      "startMs": 279954.0,
+      "endMs": 282682.0,
+      "charStart": 4263,
+      "charEnd": 4305
+    },
+    {
+      "id": "s0063",
+      "text": "It is that reopening transfer decisions now would \"undermine trust in the mission we held together during crisis.\" After that exchange, fewer people raise transfer questions in public.",
+      "startMs": 282682.0,
+      "endMs": 294605.0,
+      "charStart": 4305,
+      "charEnd": 4489
+    },
+    {
+      "id": "s0064",
+      "text": "From the inside, this can feel like unity.",
+      "startMs": 295058.0,
+      "endMs": 297508.0,
+      "charStart": 4492,
+      "charEnd": 4534
+    },
+    {
+      "id": "s0065",
+      "text": "Structurally, it makes correction harder: challenge becomes socially costly, then rare.",
+      "startMs": 297508.0,
+      "endMs": 303870.0,
+      "charStart": 4534,
+      "charEnd": 4621
+    },
+    {
+      "id": "s0066",
+      "text": "How Legitimacy Transfers and Shifts",
+      "startMs": 304659.0,
+      "endMs": 307051.0,
+      "charStart": 4624,
+      "charEnd": 4659
+    },
+    {
+      "id": "s0067",
+      "text": "Under pressure, many groups slide along a familiar arc—from example-based",
+      "startMs": 307655.0,
+      "endMs": 312543.0,
+      "charStart": 4661,
+      "charEnd": 4734
+    },
+    {
+      "id": "s0068",
+      "text": "legitimacy, toward procedural legitimacy, then office-based legitimacy, then",
+      "startMs": 312589.0,
+      "endMs": 318208.0,
+      "charStart": 4735,
+      "charEnd": 4811
+    },
+    {
+      "id": "s0069",
+      "text": "sacralized legitimacy.",
+      "startMs": 318301.0,
+      "endMs": 320112.0,
+      "charStart": 4812,
+      "charEnd": 4834
+    },
+    {
+      "id": "s0070",
+      "text": "In plain language, people trust what they can see, then what the rules assign,",
+      "startMs": 320809.0,
+      "endMs": 326068.0,
+      "charStart": 4836,
+      "charEnd": 4914
+    },
+    {
+      "id": "s0071",
+      "text": "then what the title already carries, and sometimes the role grows too charged to",
+      "startMs": 326184.0,
+      "endMs": 330875.0,
+      "charStart": 4915,
+      "charEnd": 4995
+    },
+    {
+      "id": "s0072",
+      "text": "question openly.",
+      "startMs": 330944.0,
+      "endMs": 332094.0,
+      "charStart": 4996,
+      "charEnd": 5012
+    },
+    {
+      "id": "s0073",
+      "text": "That drift is common; it is not inevitable.",
+      "startMs": 332605.0,
+      "endMs": 335437.0,
+      "charStart": 5014,
+      "charEnd": 5057
+    },
+    {
+      "id": "s0074",
+      "text": "Groups in renewal deliberately reopen transfer decisions before insulation hardens.",
+      "startMs": 335437.0,
+      "endMs": 341312.0,
+      "charStart": 5057,
+      "charEnd": 5140
+    },
+    {
+      "id": "s0075",
+      "text": "Crisis matters because it can widen office permissions quickly.",
+      "startMs": 342067.0,
+      "endMs": 345608.0,
+      "charStart": 5143,
+      "charEnd": 5206
+    },
+    {
+      "id": "s0076",
+      "text": "Without active rollback, those permissions are what the next leader inherits.",
+      "startMs": 345608.0,
+      "endMs": 350333.0,
+      "charStart": 5206,
+      "charEnd": 5283
+    },
+    {
+      "id": "s0077",
+      "text": "Selective Followership as a Probe",
+      "startMs": 351355.0,
+      "endMs": 353572.0,
+      "charStart": 5286,
+      "charEnd": 5319
+    },
+    {
+      "id": "s0078",
+      "text": "Selective followership works as a probe: it hints which form of legitimacy is",
+      "startMs": 354687.0,
+      "endMs": 359691.0,
+      "charStart": 5321,
+      "charEnd": 5398
+    },
+    {
+      "id": "s0079",
+      "text": "active and what kind of correction still has room.",
+      "startMs": 359772.0,
+      "endMs": 362663.0,
+      "charStart": 5399,
+      "charEnd": 5449
+    },
+    {
+      "id": "s0080",
+      "text": "Not all refusal means disorder.",
+      "startMs": 363778.0,
+      "endMs": 365833.0,
+      "charStart": 5451,
+      "charEnd": 5482
+    },
+    {
+      "id": "s0081",
+      "text": "In vibrant groups, selective refusal can function as correction.",
+      "startMs": 365833.0,
+      "endMs": 370001.0,
+      "charStart": 5482,
+      "charEnd": 5546
+    },
+    {
+      "id": "s0082",
+      "text": "People can say, \"I agree with the goal, but not this method,\" without becoming enemies of the group.",
+      "startMs": 370001.0,
+      "endMs": 376037.0,
+      "charStart": 5546,
+      "charEnd": 5646
+    },
+    {
+      "id": "s0083",
+      "text": "That limited pushback protects judgment and keeps authority connected to consequences.",
+      "startMs": 376037.0,
+      "endMs": 381703.0,
+      "charStart": 5646,
+      "charEnd": 5732
+    },
+    {
+      "id": "s0084",
+      "text": "In decaying groups, selective refusal turns covert.",
+      "startMs": 382469.0,
+      "endMs": 386452.0,
+      "charStart": 5737,
+      "charEnd": 5788
+    },
+    {
+      "id": "s0085",
+      "text": "People perform agreement while quietly routing around decisions they do not trust.",
+      "startMs": 386452.0,
+      "endMs": 391618.0,
+      "charStart": 5788,
+      "charEnd": 5870
+    },
+    {
+      "id": "s0086",
+      "text": "The group still looks coordinated, but shared reality weakens.",
+      "startMs": 391618.0,
+      "endMs": 395786.0,
+      "charStart": 5870,
+      "charEnd": 5932
+    },
+    {
+      "id": "s0087",
+      "text": "The same outward behavior can track renewal or erosion.",
+      "startMs": 396273.0,
+      "endMs": 400047.0,
+      "charStart": 5936,
+      "charEnd": 5991
+    },
+    {
+      "id": "s0088",
+      "text": "Open selective dissent usually points toward renewal.",
+      "startMs": 400047.0,
+      "endMs": 403785.0,
+      "charStart": 5991,
+      "charEnd": 6044
+    },
+    {
+      "id": "s0089",
+      "text": "Hidden selective resistance usually points toward erosion.",
+      "startMs": 403785.0,
+      "endMs": 407825.0,
+      "charStart": 6044,
+      "charEnd": 6102
+    },
+    {
+      "id": "s0090",
+      "text": "Open disagreement inside shared purpose usually means legitimacy is still renewing.",
+      "startMs": 408441.0,
+      "endMs": 413990.0,
+      "charStart": 6106,
+      "charEnd": 6189
+    },
+    {
+      "id": "s0091",
+      "text": "Public compliance paired with private divergence usually means legitimacy is sliding toward office-based or sacralized forms.",
+      "startMs": 413990.0,
+      "endMs": 422524.0,
+      "charStart": 6189,
+      "charEnd": 6314
+    },
+    {
+      "id": "s0092",
+      "text": "In that state, calm surfaces can hide trust loss, and open challenge can give way to Disagreement is Suppressed.",
+      "startMs": 422524.0,
+      "endMs": 430175.0,
+      "charStart": 6314,
+      "charEnd": 6426
+    },
+    {
+      "id": "s0093",
+      "text": "Legitimacy and Accountability",
+      "startMs": 431151.0,
+      "endMs": 433043.0,
+      "charStart": 6430,
+      "charEnd": 6459
+    },
+    {
+      "id": "s0094",
+      "text": "A leader can still draw attention after legitimacy weakens.",
+      "startMs": 433740.0,
+      "endMs": 437513.0,
+      "charStart": 6461,
+      "charEnd": 6520
+    },
+    {
+      "id": "s0095",
+      "text": "What lingers are the titles, the stories about who we are, and the habits that keep repeating.",
+      "startMs": 437513.0,
+      "endMs": 443794.0,
+      "charStart": 6520,
+      "charEnd": 6614
+    },
+    {
+      "id": "s0096",
+      "text": "The structural question is whether people making decisions remain accountable to",
+      "startMs": 444513.0,
+      "endMs": 448855.0,
+      "charStart": 6617,
+      "charEnd": 6697
+    },
+    {
+      "id": "s0097",
+      "text": "the people their choices affect.",
+      "startMs": 448914.0,
+      "endMs": 450818.0,
+      "charStart": 6698,
+      "charEnd": 6730
+    },
+    {
+      "id": "s0098",
+      "text": "If legitimacy cannot renew through visible correction, influence may continue,",
+      "startMs": 451421.0,
+      "endMs": 456646.0,
+      "charStart": 6732,
+      "charEnd": 6810
+    },
+    {
+      "id": "s0099",
+      "text": "but decay deepens.",
+      "startMs": 456890.0,
+      "endMs": 458863.0,
+      "charStart": 6811,
+      "charEnd": 6829
+    },
+    {
+      "id": "s0100",
+      "text": "Correction and Circulation",
+      "startMs": 459467.0,
+      "endMs": 461360.0,
+      "charStart": 6831,
+      "charEnd": 6857
+    },
+    {
+      "id": "s0101",
+      "text": "People keep following for different legitimacy reasons.",
+      "startMs": 461963.0,
+      "endMs": 465075.0,
+      "charStart": 6859,
+      "charEnd": 6914
+    },
+    {
+      "id": "s0102",
+      "text": "The earlier distinction still applies here: correction asks whether warnings can still change what formal leaders decide; circulation asks whether anyone else may hold the decision point for a stretch and return without a penalty round.",
+      "startMs": 465075.0,
+      "endMs": 480307.0,
+      "charStart": 6914,
+      "charEnd": 7150
+    },
+    {
+      "id": "s0103",
+      "text": "How those episodes are treated feeds legitimacy as well as throughput.",
+      "startMs": 480934.0,
+      "endMs": 485369.0,
+      "charStart": 7153,
+      "charEnd": 7223
+    },
+    {
+      "id": "s0104",
+      "text": "Permission—what the room teaches after someone leads without being the usual name—adds up in the same vibrant or decaying habits circulation describes.",
+      "startMs": 485369.0,
+      "endMs": 495585.0,
+      "charStart": 7223,
+      "charEnd": 7374
+    },
+    {
+      "id": "s0105",
+      "text": "Before long, who counts as a leader and who people will still follow stop looking like separate questions.",
+      "startMs": 495585.0,
+      "endMs": 502226.0,
+      "charStart": 7374,
+      "charEnd": 7480
+    },
+    {
+      "id": "s0106",
+      "text": "Watch the ordinary traces.",
+      "startMs": 502993.0,
+      "endMs": 504595.0,
+      "charStart": 7484,
+      "charEnd": 7510
+    },
+    {
+      "id": "s0107",
+      "text": "For correction: whether bad news travels without career penalty, and whether dissent can change a decision before execution.",
+      "startMs": 504595.0,
+      "endMs": 512199.0,
+      "charStart": 7510,
+      "charEnd": 7634
+    },
+    {
+      "id": "s0108",
+      "text": "For circulation: whether step-ins are credited and named, whether people are welcome back into the decision ring, and whether the afterward story reads as useful work or damage control.",
+      "startMs": 512199.0,
+      "endMs": 523380.0,
+      "charStart": 7634,
+      "charEnd": 7819
+    },
+    {
+      "id": "s0109",
+      "text": "When correction signals read closed, authority is becoming one-way.",
+      "startMs": 523380.0,
+      "endMs": 528140.0,
+      "charStart": 7819,
+      "charEnd": 7886
+    },
+    {
+      "id": "s0110",
+      "text": "When permission reads cold, people learn to wait for the usual gate even when the work has already moved on.",
+      "startMs": 528140.0,
+      "endMs": 534003.0,
+      "charStart": 7886,
+      "charEnd": 7994
+    },
+    {
+      "id": "s0111",
+      "text": "What gets rewarded or punished while those paths narrow is what the next leaders will copy—**Leadership Reproduces Itself**.",
+      "startMs": 534003.0,
+      "endMs": 544951.0,
+      "charStart": 7994,
+      "charEnd": 8118
+    },
+    {
+      "id": "s0112",
+      "text": "Scale and Distance",
+      "startMs": 546890.0,
+      "endMs": 548387.0,
+      "charStart": 8125,
+      "charEnd": 8143
+    },
+    {
+      "id": "s0113",
+      "text": "Under scale, distance and abstraction make correction harder to sustain.",
+      "startMs": 549688.0,
+      "endMs": 554367.0,
+      "charStart": 8145,
+      "charEnd": 8217
+    },
+    {
+      "id": "s0114",
+      "text": "A short-lived tight grip on correction during crisis can harden into habit if nobody deliberately opens feedback again.",
+      "startMs": 554367.0,
+      "endMs": 562168.0,
+      "charStart": 8217,
+      "charEnd": 8336
+    },
+    {
+      "id": "s0115",
+      "text": "As reach grows, decision-makers often sit farther from consequence, and structure",
+      "startMs": 562981.0,
+      "endMs": 567892.0,
+      "charStart": 8339,
+      "charEnd": 8420
+    },
+    {
+      "id": "s0116",
+      "text": "slides toward insulation.",
+      "startMs": 567915.0,
+      "endMs": 569947.0,
+      "charStart": 8421,
+      "charEnd": 8446
+    },
+    {
+      "id": "s0117",
+      "text": "Correction is not a promise.",
+      "startMs": 570458.0,
+      "endMs": 572176.0,
+      "charStart": 8448,
+      "charEnd": 8476
+    },
+    {
+      "id": "s0118",
+      "text": "It helps groups adjust as they grow—but only when feedback can still change decisions.",
+      "startMs": 572176.0,
+      "endMs": 577958.0,
+      "charStart": 8476,
+      "charEnd": 8562
+    },
+    {
+      "id": "s0119",
+      "text": "Return to the hospital handoff.",
+      "startMs": 579014.0,
+      "endMs": 580895.0,
+      "charStart": 8565,
+      "charEnd": 8596
+    },
+    {
+      "id": "s0120",
+      "text": "The unresolved question was never whether central control existed; it was who could reopen it and on what terms.",
+      "startMs": 580895.0,
+      "endMs": 588546.0,
+      "charStart": 8596,
+      "charEnd": 8708
+    },
+    {
+      "id": "s0121",
+      "text": "By now that read is clearer.",
+      "startMs": 588546.0,
+      "endMs": 591623.0,
+      "charStart": 8708,
+      "charEnd": 8736
+    },
+    {
+      "id": "s0122",
+      "text": "Example-based, procedural, office-based, and sacralized pressures each answer that reopening question differently.",
+      "startMs": 591623.0,
+      "endMs": 600342.0,
+      "charStart": 8736,
+      "charEnd": 8850
+    },
+    {
+      "id": "s0123",
+      "text": "That difference decides whether transfer keeps accountability alive—or seals it.",
+      "startMs": 600342.0,
+      "endMs": 605613.0,
+      "charStart": 8850,
+      "charEnd": 8930
+    },
+    {
+      "id": "s0124",
+      "text": "Appendix A extends this transfer read across government, healthcare, and religious",
+      "startMs": 606402.0,
+      "endMs": 611522.0,
+      "charStart": 8936,
+      "charEnd": 9018
+    },
+    {
+      "id": "s0125",
+      "text": "institutional sequences at larger scale.",
+      "startMs": 611603.0,
+      "endMs": 614227.0,
+      "charStart": 9019,
+      "charEnd": 9059
+    },
+    {
+      "id": "s0126",
+      "text": "Legitimacy survives through repeated accountability, not one-time assent.",
+      "startMs": 614610.0,
+      "endMs": 619045.0,
+      "charStart": 9061,
+      "charEnd": 9134
+    }
+  ]
+}

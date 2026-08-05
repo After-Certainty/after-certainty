@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-4-scale-pressure-misjudgment-chapter-11-why-we-misjudge-leaders",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-4-scale-pressure-misjudgment-chapter-11-why-we-misjudge-leaders",
+  "sourcePath": "parts/part-4-scale-pressure-misjudgment/chapter-11-why-we-misjudge-leaders.md",
+  "sourceHash": "sha256:39f5181f80d9e2cf12a9bf0cf12cb99b64072b5200eca6503f25fc9a20b53109",
+  "spokenTextHash": "sha256:48f65bd098bfdb40a7a53c56ebdbe0b6d5a96152a9802938d11c57cdbeabc17c",
+  "generationHash": "sha256:e27e87d9c7a05925a5451847a7897ac4f751cfbeeb96bc988917470e9d08e111",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 11881,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2970.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2970.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-4-scale-pressure-misjudgment-chapter-11-why-we-misjudge-leaders.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-4-scale-pressure-misjudgment-chapter-11-why-we-misjudge-leaders.mp3",
+  "audioSha256": "sha256:b8ec14893792c13a185d8f80db85c14c458c4c53be25cd372fa1548a81910a5a",
+  "generatedAt": "2026-08-05T13:02:44Z"
+}
