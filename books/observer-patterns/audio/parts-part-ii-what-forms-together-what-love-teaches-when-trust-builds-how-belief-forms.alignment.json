@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-ii-what-forms-together-what-love-teaches-when-trust-builds-how-belief-forms",
+  "generationHash": "sha256:00f9db64762d2a973b9ef4016b80ba58cdc2a479e2b657b891198a95d8650fde",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What Love Teaches When Trust Builds How Belief Forms",
+      "startMs": 0.0,
+      "endMs": 4435.0,
+      "charStart": 0,
+      "charEnd": 52
+    },
+    {
+      "id": "s0002",
+      "text": "Love is chosen.",
+      "startMs": 4516.0,
+      "endMs": 5782.0,
+      "charStart": 54,
+      "charEnd": 69
+    },
+    {
+      "id": "s0003",
+      "text": "Trust is offered.",
+      "startMs": 6223.0,
+      "endMs": 7500.0,
+      "charStart": 71,
+      "charEnd": 88
+    },
+    {
+      "id": "s0004",
+      "text": "Conviction deepens.",
+      "startMs": 7883.0,
+      "endMs": 9543.0,
+      "charStart": 90,
+      "charEnd": 109
+    },
+    {
+      "id": "s0005",
+      "text": "Small acts compound.",
+      "startMs": 9926.0,
+      "endMs": 11668.0,
+      "charStart": 111,
+      "charEnd": 131
+    },
+    {
+      "id": "s0006",
+      "text": "Small risks compound.",
+      "startMs": 11912.0,
+      "endMs": 13584.0,
+      "charStart": 133,
+      "charEnd": 154
+    },
+    {
+      "id": "s0007",
+      "text": "Experience accumulates.",
+      "startMs": 13827.0,
+      "endMs": 15650.0,
+      "charStart": 156,
+      "charEnd": 179
+    },
+    {
+      "id": "s0008",
+      "text": "Choice is tested.",
+      "startMs": 15929.0,
+      "endMs": 17392.0,
+      "charStart": 181,
+      "charEnd": 198
+    },
+    {
+      "id": "s0009",
+      "text": "Vulnerability is tested.",
+      "startMs": 17717.0,
+      "endMs": 19458.0,
+      "charStart": 200,
+      "charEnd": 224
+    },
+    {
+      "id": "s0010",
+      "text": "Certainty is tested.",
+      "startMs": 19667.0,
+      "endMs": 21304.0,
+      "charStart": 226,
+      "charEnd": 246
+    },
+    {
+      "id": "s0011",
+      "text": "Presence grows.",
+      "startMs": 21513.0,
+      "endMs": 22697.0,
+      "charStart": 248,
+      "charEnd": 263
+    },
+    {
+      "id": "s0012",
+      "text": "Reliability forms.",
+      "startMs": 22941.0,
+      "endMs": 24427.0,
+      "charStart": 265,
+      "charEnd": 283
+    },
+    {
+      "id": "s0013",
+      "text": "Belief is shaped.",
+      "startMs": 24636.0,
+      "endMs": 25925.0,
+      "charStart": 285,
+      "charEnd": 302
+    },
+    {
+      "id": "s0014",
+      "text": "Love deepens.",
+      "startMs": 26204.0,
+      "endMs": 27341.0,
+      "charStart": 304,
+      "charEnd": 317
+    },
+    {
+      "id": "s0015",
+      "text": "Obligation replaces choice.",
+      "startMs": 27666.0,
+      "endMs": 29652.0,
+      "charStart": 318,
+      "charEnd": 345
+    },
+    {
+      "id": "s0016",
+      "text": "Trust holds.",
+      "startMs": 29930.0,
+      "endMs": 31103.0,
+      "charStart": 346,
+      "charEnd": 358
+    },
+    {
+      "id": "s0017",
+      "text": "Trust shatters.",
+      "startMs": 31312.0,
+      "endMs": 32566.0,
+      "charStart": 359,
+      "charEnd": 374
+    },
+    {
+      "id": "s0018",
+      "text": "Belief opens.",
+      "startMs": 32845.0,
+      "endMs": 33994.0,
+      "charStart": 375,
+      "charEnd": 388
+    },
+    {
+      "id": "s0019",
+      "text": "Belief hardens.",
+      "startMs": 34203.0,
+      "endMs": 35294.0,
+      "charStart": 389,
+      "charEnd": 404
+    },
+    {
+      "id": "s0020",
+      "text": "Love endures.",
+      "startMs": 35469.0,
+      "endMs": 36490.0,
+      "charStart": 405,
+      "charEnd": 418
+    },
+    {
+      "id": "s0021",
+      "text": "Love fades.",
+      "startMs": 36664.0,
+      "endMs": 37663.0,
+      "charStart": 419,
+      "charEnd": 430
+    },
+    {
+      "id": "s0022",
+      "text": "Repair begins.",
+      "startMs": 37872.0,
+      "endMs": 39079.0,
+      "charStart": 431,
+      "charEnd": 445
+    },
+    {
+      "id": "s0023",
+      "text": "Exposure retreats.",
+      "startMs": 39323.0,
+      "endMs": 40670.0,
+      "charStart": 446,
+      "charEnd": 464
+    },
+    {
+      "id": "s0024",
+      "text": "Doubt is welcomed.",
+      "startMs": 40914.0,
+      "endMs": 42017.0,
+      "charStart": 465,
+      "charEnd": 483
+    },
+    {
+      "id": "s0025",
+      "text": "Doubt is silenced.",
+      "startMs": 42167.0,
+      "endMs": 43410.0,
+      "charStart": 484,
+      "charEnd": 502
+    },
+    {
+      "id": "s0026",
+      "text": "Growth requires loss.",
+      "startMs": 43584.0,
+      "endMs": 44954.0,
+      "charStart": 503,
+      "charEnd": 524
+    },
+    {
+      "id": "s0027",
+      "text": "Growth stops.",
+      "startMs": 45163.0,
+      "endMs": 46208.0,
+      "charStart": 525,
+      "charEnd": 538
+    },
+    {
+      "id": "s0028",
+      "text": "Trust demands openness.",
+      "startMs": 46382.0,
+      "endMs": 47868.0,
+      "charStart": 539,
+      "charEnd": 562
+    },
+    {
+      "id": "s0029",
+      "text": "Trust withdraws.",
+      "startMs": 48042.0,
+      "endMs": 49250.0,
+      "charStart": 563,
+      "charEnd": 579
+    },
+    {
+      "id": "s0030",
+      "text": "Revision demands courage.",
+      "startMs": 49528.0,
+      "endMs": 51003.0,
+      "charStart": 580,
+      "charEnd": 605
+    },
+    {
+      "id": "s0031",
+      "text": "Revision yields.",
+      "startMs": 51177.0,
+      "endMs": 52361.0,
+      "charStart": 606,
+      "charEnd": 622
+    },
+    {
+      "id": "s0032",
+      "text": "Love is learned.",
+      "startMs": 52605.0,
+      "endMs": 53487.0,
+      "charStart": 624,
+      "charEnd": 640
+    },
+    {
+      "id": "s0033",
+      "text": "Trust is built.",
+      "startMs": 53603.0,
+      "endMs": 54544.0,
+      "charStart": 642,
+      "charEnd": 657
+    },
+    {
+      "id": "s0034",
+      "text": "Belief is held.",
+      "startMs": 54660.0,
+      "endMs": 55960.0,
+      "charStart": 659,
+      "charEnd": 674
+    }
+  ]
+}

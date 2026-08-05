@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vi-what-holds-bridge",
+  "generationHash": "sha256:2a2440f7a393fa4809661424ba1f7315ccdbf97bc0abd99e1301d50e08a631dd",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What holds determines what remains.",
+      "startMs": 0.0,
+      "endMs": 2322.0,
+      "charStart": 0,
+      "charEnd": 35
+    }
+  ]
+}

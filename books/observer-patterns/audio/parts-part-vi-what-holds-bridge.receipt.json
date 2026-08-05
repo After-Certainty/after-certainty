@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vi-what-holds-bridge",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-vi-what-holds-bridge",
+  "sourcePath": "parts/part-vi-what-holds/bridge.md",
+  "sourceHash": "sha256:e85df719c56a84b9a624f422fa44235c0ebecc80a8c40a68b2fca040cbbfd5ff",
+  "spokenTextHash": "sha256:e0bfac0d3b5d087d450e9d3e1579167f614e170219bc96d3e8df44c3eed3d3b0",
+  "generationHash": "sha256:2a2440f7a393fa4809661424ba1f7315ccdbf97bc0abd99e1301d50e08a631dd",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 35,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 35.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 35.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-vi-what-holds-bridge.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-vi-what-holds-bridge.mp3",
+  "audioSha256": "sha256:6106ee554ff63df4f832477201f9b7b4b23d929fab2aab6bccaba3bebe442e1f",
+  "generatedAt": "2026-08-05T05:14:32Z"
+}

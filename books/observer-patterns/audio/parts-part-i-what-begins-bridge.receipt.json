@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-i-what-begins-bridge",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-i-what-begins-bridge",
+  "sourcePath": "parts/part-i-what-begins/bridge.md",
+  "sourceHash": "sha256:18d712981a1ccb9f61963c31c2d3e48bfd65be13dabb857601379463ca7c2569",
+  "spokenTextHash": "sha256:69944cd06bbfe07b3d2a9bf86ba1e295883d180418f1ec33c3070263449359aa",
+  "generationHash": "sha256:d1d5af3b5a449b86a408b522b434cf7862b9029f0798a7945016ad77d81c11cc",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 28,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 28.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 28.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-i-what-begins-bridge.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-i-what-begins-bridge.mp3",
+  "audioSha256": "sha256:c92915775c794ea30ad3778706f0fefaccd1088e0d830ac35a4d1b4d5a28c95a",
+  "generatedAt": "2026-08-05T05:12:57Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-ii-what-forms-together-what-love-teaches-when-trust-builds-how-belief-forms",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-ii-what-forms-together-what-love-teaches-when-trust-builds-how-belief-forms",
+  "sourcePath": "parts/part-ii-what-forms-together/what-love-teaches-when-trust-builds-how-belief-forms.md",
+  "sourceHash": "sha256:d03790da48189d914f3991a768f4bd9a45fe81c5038ce6ceca089913d0c34ee8",
+  "spokenTextHash": "sha256:cf88e837e43d6985451fd11b5ff6c95e6ae220be6d5af4588ca7b4f653ce1bc8",
+  "generationHash": "sha256:00f9db64762d2a973b9ef4016b80ba58cdc2a479e2b657b891198a95d8650fde",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 674,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 674.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 674.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-ii-what-forms-together-what-love-teaches-when-trust-builds-how-belief-forms.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-ii-what-forms-together-what-love-teaches-when-trust-builds-how-belief-forms.mp3",
+  "audioSha256": "sha256:b88395069698b93fc17d32f97ee16d0ee0a1fc6d29f463ae5518726a27eaf726",
+  "generatedAt": "2026-08-05T05:13:08Z"
+}

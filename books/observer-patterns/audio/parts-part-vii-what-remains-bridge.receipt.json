@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vii-what-remains-bridge",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-vii-what-remains-bridge",
+  "sourcePath": "parts/part-vii-what-remains/bridge.md",
+  "sourceHash": "sha256:8392f1f016946590d10fd7a8b779d9d31690f4e899ac5e5ed09661bfd8d87851",
+  "spokenTextHash": "sha256:f4abd571ee9157ff7c3186e55d8fe7ec3dcf87b41db82e95af3c2d3bf41a4907",
+  "generationHash": "sha256:24ee52cb7994b6eb192f39f91ef2a626ac0151100efa3ee2e6ad43de1a9651be",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 34,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 34.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 34.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-vii-what-remains-bridge.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-vii-what-remains-bridge.mp3",
+  "audioSha256": "sha256:f2def9529d2de69655ed85852dffb4f230367f68502d65890bcc61ce06a538b3",
+  "generatedAt": "2026-08-05T05:15:06Z"
+}

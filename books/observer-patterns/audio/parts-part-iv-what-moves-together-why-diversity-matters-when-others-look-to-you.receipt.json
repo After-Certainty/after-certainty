@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iv-what-moves-together-why-diversity-matters-when-others-look-to-you",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-iv-what-moves-together-why-diversity-matters-when-others-look-to-you",
+  "sourcePath": "parts/part-iv-what-moves-together/why-diversity-matters-when-others-look-to-you.md",
+  "sourceHash": "sha256:950072d6ff01ede3f9f29c662bbcf3e31ca906c861af9d2235e9500b8b55878d",
+  "spokenTextHash": "sha256:627f4dade867d0a91386425cb1e7c35dc72d65fe676a1551d6044681f2469f1e",
+  "generationHash": "sha256:ec12b97636725e2bd3cfa11fb191feb72a2556757f3c97bcdd7fb56b8df95597",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 649,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 649.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 649.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-iv-what-moves-together-why-diversity-matters-when-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-iv-what-moves-together-why-diversity-matters-when-others-look-to-you.mp3",
+  "audioSha256": "sha256:837222db6a07226f5f6cd799c3f0ebe3e9e8f8cd81b5f7dffe05ecaa1976bcd8",
+  "generatedAt": "2026-08-05T05:13:56Z"
+}

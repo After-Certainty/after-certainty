@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-ii-what-forms-together-bridge",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-ii-what-forms-together-bridge",
+  "sourcePath": "parts/part-ii-what-forms-together/bridge.md",
+  "sourceHash": "sha256:c86efe8ccee4073160b29dad1251c8ffbf3ee96d8b574cf372341f2e6e024d82",
+  "spokenTextHash": "sha256:c321bea48633e392877993db8e0f7931ef285da0a3e5e7575554044fb4429d8d",
+  "generationHash": "sha256:dc17eaef9a3a5c46bc4bc020f4b1476650e90eb8b8f79b7f9c9ed6a00de0824f",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 48,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 48.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 48.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-ii-what-forms-together-bridge.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-ii-what-forms-together-bridge.mp3",
+  "audioSha256": "sha256:7f303d512a49e182bc498e3acd336821769791fdd51d0f6c7a81cc0967d96b39",
+  "generatedAt": "2026-08-05T05:13:02Z"
+}

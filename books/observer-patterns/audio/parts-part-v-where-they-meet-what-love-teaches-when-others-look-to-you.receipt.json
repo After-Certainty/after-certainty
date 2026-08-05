@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-v-where-they-meet-what-love-teaches-when-others-look-to-you",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-v-where-they-meet-what-love-teaches-when-others-look-to-you",
+  "sourcePath": "parts/part-v-where-they-meet/what-love-teaches-when-others-look-to-you.md",
+  "sourceHash": "sha256:8ac6e917ff62934e6fbb86d3dd9fabe7cc2ba215359216ed4951d21d4767d925",
+  "spokenTextHash": "sha256:e82d4404893cf7e6fead555400325d048f121692f71829b3dda9ae06caa8c4a2",
+  "generationHash": "sha256:2a8c2330ce58a2797b0556dbe42c0fe32cb67b59f8e54fab660e16b067e39342",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 488,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 488.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 488.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-v-where-they-meet-what-love-teaches-when-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-v-where-they-meet-what-love-teaches-when-others-look-to-you.mp3",
+  "audioSha256": "sha256:e7bedcd8e6cd3e1176abc301c1ab75d47ba43f05f478bf9efce060ee9981ad03",
+  "generatedAt": "2026-08-05T05:14:07Z"
+}

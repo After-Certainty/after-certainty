@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iii-what-takes-shape-when-others-look-to-you",
+  "generationHash": "sha256:93b3e18469912e62003fcc894f6a33634572f0f9938c47e4831c5d1f21104d8d",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "When Others Look To You",
+      "startMs": 0.0,
+      "endMs": 1150.0,
+      "charStart": 0,
+      "charEnd": 23
+    },
+    {
+      "id": "s0002",
+      "text": "Attention finds a focus.",
+      "startMs": 1962.0,
+      "endMs": 3669.0,
+      "charStart": 25,
+      "charEnd": 49
+    },
+    {
+      "id": "s0003",
+      "text": "Examples accumulate.",
+      "startMs": 3785.0,
+      "endMs": 5306.0,
+      "charStart": 51,
+      "charEnd": 71
+    },
+    {
+      "id": "s0004",
+      "text": "Leadership coalesces.",
+      "startMs": 5457.0,
+      "endMs": 6873.0,
+      "charStart": 73,
+      "charEnd": 94
+    },
+    {
+      "id": "s0005",
+      "text": "Dissent is welcomed.",
+      "startMs": 7047.0,
+      "endMs": 8324.0,
+      "charStart": 96,
+      "charEnd": 116
+    },
+    {
+      "id": "s0006",
+      "text": "Disagreement is suppressed.",
+      "startMs": 8498.0,
+      "endMs": 10031.0,
+      "charStart": 117,
+      "charEnd": 144
+    },
+    {
+      "id": "s0007",
+      "text": "Feedback drives changes.",
+      "startMs": 10147.0,
+      "endMs": 11865.0,
+      "charStart": 145,
+      "charEnd": 169
+    },
+    {
+      "id": "s0008",
+      "text": "Learning collapses.",
+      "startMs": 11981.0,
+      "endMs": 13212.0,
+      "charStart": 170,
+      "charEnd": 189
+    },
+    {
+      "id": "s0009",
+      "text": "Leaders feel the consequences.",
+      "startMs": 13328.0,
+      "endMs": 15139.0,
+      "charStart": 190,
+      "charEnd": 220
+    },
+    {
+      "id": "s0010",
+      "text": "Exceptions are forever.",
+      "startMs": 15313.0,
+      "endMs": 16939.0,
+      "charStart": 221,
+      "charEnd": 244
+    },
+    {
+      "id": "s0011",
+      "text": "Leadership reproduces itself.",
+      "startMs": 17148.0,
+      "endMs": 19412.0,
+      "charStart": 246,
+      "charEnd": 275
+    }
+  ]
+}

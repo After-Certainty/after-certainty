@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-ii-what-forms-together-bridge",
+  "generationHash": "sha256:dc17eaef9a3a5c46bc4bc020f4b1476650e90eb8b8f79b7f9c9ed6a00de0824f",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What forms alone changes when it forms together.",
+      "startMs": 0.0,
+      "endMs": 3019.0,
+      "charStart": 0,
+      "charEnd": 48
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-ii-what-forms-together-why-collaboration-is-hard-when-trust-builds-and-why-diversity-matters",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-ii-what-forms-together-why-collaboration-is-hard-when-trust-builds-and-why-diversity-matters",
+  "sourcePath": "parts/part-ii-what-forms-together/why-collaboration-is-hard-when-trust-builds-and-why-diversity-matters.md",
+  "sourceHash": "sha256:ba33b31494fc52fa6562f7b1b580610d2f29642dcae6f91aeaabc2a6fc5a55f4",
+  "spokenTextHash": "sha256:2b5a263ffde5def8b7a1be5f227addd9986f7b0fbebef2c2155a9abdaf411cbe",
+  "generationHash": "sha256:13f73a063ce4f9a126e9dc01511c95e7eb68568c665dba5b27f4dd0ca0b97dc0",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 706,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 706.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 706.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-ii-what-forms-together-why-collaboration-is-hard-when-trust-builds-and-why-diversity-matters.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-ii-what-forms-together-why-collaboration-is-hard-when-trust-builds-and-why-diversity-matters.mp3",
+  "audioSha256": "sha256:e576d8878fc17f0c68ee04eec1db6be507c7c1ec8d52a4ef346a5d76b8ef2d2b",
+  "generatedAt": "2026-08-05T05:13:15Z"
+}

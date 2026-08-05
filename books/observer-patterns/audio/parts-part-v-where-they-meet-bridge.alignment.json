@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-v-where-they-meet-bridge",
+  "generationHash": "sha256:5393d1765799ab4b2013eb3b7a96aac097e7c9d05f4971c8e3f1f2b51fe9bb4a",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What meets reveals what holds.",
+      "startMs": 0.0,
+      "endMs": 1997.0,
+      "charStart": 0,
+      "charEnd": 30
+    }
+  ]
+}

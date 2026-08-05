@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-v-where-they-meet-bridge",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-v-where-they-meet-bridge",
+  "sourcePath": "parts/part-v-where-they-meet/bridge.md",
+  "sourceHash": "sha256:c70bd901892c2306cced4670c69244b2804c327749e7b769413e032336209e6f",
+  "spokenTextHash": "sha256:5cb8224c429a0f0e5745f037ba4826d0130c64a739c8d326eeb397e5ed5bbfdc",
+  "generationHash": "sha256:5393d1765799ab4b2013eb3b7a96aac097e7c9d05f4971c8e3f1f2b51fe9bb4a",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 30,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 30.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 30.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-v-where-they-meet-bridge.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-v-where-they-meet-bridge.mp3",
+  "audioSha256": "sha256:dad6e20abf4a95acde72ec320b6fe2a444f2950d5b7aebbbaffd510c964008fa",
+  "generatedAt": "2026-08-05T05:14:01Z"
+}

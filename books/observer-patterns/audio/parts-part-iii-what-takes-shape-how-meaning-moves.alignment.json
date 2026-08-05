@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iii-what-takes-shape-how-meaning-moves",
+  "generationHash": "sha256:a64e776388ecf5d552c22d511291677857969d44d247943f85afb33dc416ac2e",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "How Meaning Moves",
+      "startMs": 0.0,
+      "endMs": 1115.0,
+      "charStart": 0,
+      "charEnd": 17
+    },
+    {
+      "id": "s0002",
+      "text": "Attention lands.",
+      "startMs": 1150.0,
+      "endMs": 2578.0,
+      "charStart": 19,
+      "charEnd": 35
+    },
+    {
+      "id": "s0003",
+      "text": "Meaning forms.",
+      "startMs": 2822.0,
+      "endMs": 4087.0,
+      "charStart": 37,
+      "charEnd": 51
+    },
+    {
+      "id": "s0004",
+      "text": "Words fall short.",
+      "startMs": 4261.0,
+      "endMs": 5550.0,
+      "charStart": 53,
+      "charEnd": 70
+    },
+    {
+      "id": "s0005",
+      "text": "Gaps get filled.",
+      "startMs": 5724.0,
+      "endMs": 6978.0,
+      "charStart": 72,
+      "charEnd": 88
+    },
+    {
+      "id": "s0006",
+      "text": "Meaning gets lost.",
+      "startMs": 7187.0,
+      "endMs": 8569.0,
+      "charStart": 89,
+      "charEnd": 107
+    },
+    {
+      "id": "s0007",
+      "text": "Meaning shifts.",
+      "startMs": 8743.0,
+      "endMs": 9915.0,
+      "charStart": 109,
+      "charEnd": 124
+    },
+    {
+      "id": "s0008",
+      "text": "Good intent is assumed.",
+      "startMs": 10194.0,
+      "endMs": 12005.0,
+      "charStart": 126,
+      "charEnd": 149
+    },
+    {
+      "id": "s0009",
+      "text": "Bad intent is assumed.",
+      "startMs": 12284.0,
+      "endMs": 13897.0,
+      "charStart": 150,
+      "charEnd": 172
+    },
+    {
+      "id": "s0010",
+      "text": "Meaning drifts.",
+      "startMs": 14072.0,
+      "endMs": 15151.0,
+      "charStart": 174,
+      "charEnd": 189
+    },
+    {
+      "id": "s0011",
+      "text": "Meaning gets clarified.",
+      "startMs": 15360.0,
+      "endMs": 16881.0,
+      "charStart": 191,
+      "charEnd": 214
+    },
+    {
+      "id": "s0012",
+      "text": "Meaning gets distorted.",
+      "startMs": 17055.0,
+      "endMs": 18855.0,
+      "charStart": 215,
+      "charEnd": 238
+    }
+  ]
+}

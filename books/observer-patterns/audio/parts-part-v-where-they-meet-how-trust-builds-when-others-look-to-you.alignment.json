@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-v-where-they-meet-how-trust-builds-when-others-look-to-you",
+  "generationHash": "sha256:61090216ea5cb53534bb314d14820c0ac7e3c99cc7bb716ff38083c5851cdac6",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "How Trust Builds When Others Look To You",
+      "startMs": 0.0,
+      "endMs": 2496.0,
+      "charStart": 0,
+      "charEnd": 40
+    },
+    {
+      "id": "s0002",
+      "text": "Attention finds a focus.",
+      "startMs": 3100.0,
+      "endMs": 5271.0,
+      "charStart": 42,
+      "charEnd": 66
+    },
+    {
+      "id": "s0003",
+      "text": "Trust is offered.",
+      "startMs": 5875.0,
+      "endMs": 7129.0,
+      "charStart": 68,
+      "charEnd": 85
+    },
+    {
+      "id": "s0004",
+      "text": "Examples accumulate.",
+      "startMs": 7454.0,
+      "endMs": 9206.0,
+      "charStart": 87,
+      "charEnd": 107
+    },
+    {
+      "id": "s0005",
+      "text": "Small risks compound.",
+      "startMs": 9531.0,
+      "endMs": 11389.0,
+      "charStart": 109,
+      "charEnd": 130
+    },
+    {
+      "id": "s0006",
+      "text": "Leadership coalesces.",
+      "startMs": 11772.0,
+      "endMs": 13665.0,
+      "charStart": 132,
+      "charEnd": 153
+    },
+    {
+      "id": "s0007",
+      "text": "Reliability forms.",
+      "startMs": 13908.0,
+      "endMs": 15615.0,
+      "charStart": 155,
+      "charEnd": 173
+    },
+    {
+      "id": "s0008",
+      "text": "Dissent is welcomed.",
+      "startMs": 15824.0,
+      "endMs": 17508.0,
+      "charStart": 175,
+      "charEnd": 195
+    },
+    {
+      "id": "s0009",
+      "text": "Disagreement is suppressed.",
+      "startMs": 17833.0,
+      "endMs": 19679.0,
+      "charStart": 196,
+      "charEnd": 223
+    },
+    {
+      "id": "s0010",
+      "text": "Vulnerability is tested.",
+      "startMs": 20004.0,
+      "endMs": 22024.0,
+      "charStart": 224,
+      "charEnd": 248
+    },
+    {
+      "id": "s0011",
+      "text": "Trust shatters.",
+      "startMs": 22302.0,
+      "endMs": 23905.0,
+      "charStart": 249,
+      "charEnd": 264
+    },
+    {
+      "id": "s0012",
+      "text": "Feedback drives change.",
+      "startMs": 24230.0,
+      "endMs": 26227.0,
+      "charStart": 265,
+      "charEnd": 288
+    },
+    {
+      "id": "s0013",
+      "text": "Exceptions are forever.",
+      "startMs": 26470.0,
+      "endMs": 28340.0,
+      "charStart": 289,
+      "charEnd": 312
+    },
+    {
+      "id": "s0014",
+      "text": "Trust holds.",
+      "startMs": 28549.0,
+      "endMs": 29988.0,
+      "charStart": 313,
+      "charEnd": 325
+    },
+    {
+      "id": "s0015",
+      "text": "Exposure retreats.",
+      "startMs": 30232.0,
+      "endMs": 31846.0,
+      "charStart": 326,
+      "charEnd": 344
+    },
+    {
+      "id": "s0016",
+      "text": "Leaders feel the consequences.",
+      "startMs": 32287.0,
+      "endMs": 34261.0,
+      "charStart": 345,
+      "charEnd": 375
+    },
+    {
+      "id": "s0017",
+      "text": "Learning collapses.",
+      "startMs": 34539.0,
+      "endMs": 35921.0,
+      "charStart": 376,
+      "charEnd": 395
+    },
+    {
+      "id": "s0018",
+      "text": "Repair begins.",
+      "startMs": 36165.0,
+      "endMs": 37465.0,
+      "charStart": 396,
+      "charEnd": 410
+    },
+    {
+      "id": "s0019",
+      "text": "Trust withdraws.",
+      "startMs": 37744.0,
+      "endMs": 39079.0,
+      "charStart": 411,
+      "charEnd": 427
+    },
+    {
+      "id": "s0020",
+      "text": "Trust demands openness.",
+      "startMs": 39323.0,
+      "endMs": 41308.0,
+      "charStart": 428,
+      "charEnd": 451
+    },
+    {
+      "id": "s0021",
+      "text": "Leadership reproduces itself.",
+      "startMs": 41552.0,
+      "endMs": 43688.0,
+      "charStart": 453,
+      "charEnd": 482
+    },
+    {
+      "id": "s0022",
+      "text": "Trust is built.",
+      "startMs": 43932.0,
+      "endMs": 45557.0,
+      "charStart": 484,
+      "charEnd": 499
+    }
+  ]
+}

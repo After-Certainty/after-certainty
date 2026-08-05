@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iii-what-takes-shape-bridge",
+  "generationHash": "sha256:6a6b6210f97f35142e336c8e5ca451286cd9f49beb1bd17d2f5a01de0ba24be5",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What takes shape becomes instruction.",
+      "startMs": 0.0,
+      "endMs": 2276.0,
+      "charStart": 0,
+      "charEnd": 37
+    }
+  ]
+}
