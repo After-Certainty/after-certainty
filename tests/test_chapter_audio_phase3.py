@@ -246,7 +246,7 @@ def test_cli_defaults_to_dry_run_for_configured_pilot() -> None:
     assert payload["action"] in {"dry-run", "skip"}
     assert payload["unit_id"] == PILOT_INTRO
     if payload["action"] == "dry-run":
-        assert payload["estimated_credits"] == 211.0
+        assert payload["estimated_credits"] == 105.5
 
 
 def test_make_generate_requires_unit() -> None:

@@ -15,8 +15,23 @@ class UsageEstimate:
 
 
 # Conservative free-tier-oriented defaults; not billed rates.
-_ELEVENLABS_USD_PER_CREDIT = 0.0  # free-plan pilot; USD unknown / not charged
+_ELEVENLABS_USD_PER_CREDIT = 0.0  # subscription credits; USD unknown here
 _OPENAI_USD_PER_1K_CHARS = 0.015  # placeholder planning constant; confirm before real spend
+
+# ElevenLabs subscription credit multipliers (characters → credits).
+# Flash/Turbo are ~0.5 credit/char; Multilingual / Eleven v3-class ~1.0.
+# Confirmed against Starter dashboard burn for eleven_flash_v2_5 (2026-08-05).
+_ELEVENLABS_FLASH_TURBO_PREFIXES = (
+    "eleven_flash_",
+    "eleven_turbo_",
+)
+
+
+def elevenlabs_credits_per_character(model: str) -> float:
+    mid = (model or "").strip().lower()
+    if any(mid.startswith(prefix) for prefix in _ELEVENLABS_FLASH_TURBO_PREFIXES):
+        return 0.5
+    return 1.0
 
 
 def estimate_usage(
@@ -30,12 +45,17 @@ def estimate_usage(
     _ = void
     chars = max(0, int(spoken_characters))
     if provider == "elevenlabs":
-        # Many ElevenLabs TTS plans meter ~1 credit per character for standard models.
+        rate = elevenlabs_credits_per_character(model)
+        credits = chars * rate
         return UsageEstimate(
             unit="credits",
-            amount=float(chars),
-            usd=None if _ELEVENLABS_USD_PER_CREDIT == 0 else chars * _ELEVENLABS_USD_PER_CREDIT,
-            notes=f"offline estimate for model={model}; ~1 credit/char assumption",
+            amount=float(credits),
+            usd=None if _ELEVENLABS_USD_PER_CREDIT == 0 else credits * _ELEVENLABS_USD_PER_CREDIT,
+            notes=(
+                f"offline estimate for model={model}; "
+                f"{rate:g} credit/char "
+                f"({'Flash/Turbo' if rate < 1 else 'standard'})"
+            ),
         )
     if provider == "openai":
         usd = (chars / 1000.0) * _OPENAI_USD_PER_1K_CHARS
