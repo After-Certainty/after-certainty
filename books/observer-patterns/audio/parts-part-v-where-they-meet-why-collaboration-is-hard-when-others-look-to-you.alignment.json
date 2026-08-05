@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-v-where-they-meet-why-collaboration-is-hard-when-others-look-to-you",
+  "generationHash": "sha256:319e610a921c9ac9032eb24c4a1de1b0c84f2ba3227510d3090a9d174237d84c",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Why Collaboration Is Hard When Others Look To You",
+      "startMs": 0.0,
+      "endMs": 3924.0,
+      "charStart": 0,
+      "charEnd": 49
+    },
+    {
+      "id": "s0002",
+      "text": "Difference is present.",
+      "startMs": 4737.0,
+      "endMs": 6200.0,
+      "charStart": 51,
+      "charEnd": 73
+    },
+    {
+      "id": "s0003",
+      "text": "Attention finds a focus.",
+      "startMs": 6711.0,
+      "endMs": 8905.0,
+      "charStart": 75,
+      "charEnd": 99
+    },
+    {
+      "id": "s0004",
+      "text": "Context varies.",
+      "startMs": 9346.0,
+      "endMs": 10867.0,
+      "charStart": 101,
+      "charEnd": 116
+    },
+    {
+      "id": "s0005",
+      "text": "Examples accumulate.",
+      "startMs": 11378.0,
+      "endMs": 13154.0,
+      "charStart": 118,
+      "charEnd": 138
+    },
+    {
+      "id": "s0006",
+      "text": "Priorities converge.",
+      "startMs": 13398.0,
+      "endMs": 15174.0,
+      "charStart": 140,
+      "charEnd": 160
+    },
+    {
+      "id": "s0007",
+      "text": "Leadership coalesces.",
+      "startMs": 15557.0,
+      "endMs": 17334.0,
+      "charStart": 162,
+      "charEnd": 183
+    },
+    {
+      "id": "s0008",
+      "text": "Coordination forms.",
+      "startMs": 17717.0,
+      "endMs": 19296.0,
+      "charStart": 185,
+      "charEnd": 204
+    },
+    {
+      "id": "s0009",
+      "text": "Understanding aligns.",
+      "startMs": 19679.0,
+      "endMs": 21339.0,
+      "charStart": 206,
+      "charEnd": 227
+    },
+    {
+      "id": "s0010",
+      "text": "Understanding diverges.",
+      "startMs": 21722.0,
+      "endMs": 23638.0,
+      "charStart": 228,
+      "charEnd": 251
+    },
+    {
+      "id": "s0011",
+      "text": "Feedback drives change.",
+      "startMs": 24021.0,
+      "endMs": 25913.0,
+      "charStart": 252,
+      "charEnd": 275
+    },
+    {
+      "id": "s0012",
+      "text": "Disagreement is suppressed.",
+      "startMs": 26239.0,
+      "endMs": 28073.0,
+      "charStart": 276,
+      "charEnd": 303
+    },
+    {
+      "id": "s0013",
+      "text": "Leaders feel the consequences.",
+      "startMs": 28398.0,
+      "endMs": 30395.0,
+      "charStart": 304,
+      "charEnd": 334
+    },
+    {
+      "id": "s0014",
+      "text": "Exceptions are forever.",
+      "startMs": 30720.0,
+      "endMs": 32543.0,
+      "charStart": 335,
+      "charEnd": 358
+    },
+    {
+      "id": "s0015",
+      "text": "Feedback flows.",
+      "startMs": 32868.0,
+      "endMs": 34122.0,
+      "charStart": 359,
+      "charEnd": 374
+    },
+    {
+      "id": "s0016",
+      "text": "Feedback stops.",
+      "startMs": 34366.0,
+      "endMs": 35736.0,
+      "charStart": 375,
+      "charEnd": 390
+    },
+    {
+      "id": "s0017",
+      "text": "Assumptions are tested.",
+      "startMs": 35910.0,
+      "endMs": 37500.0,
+      "charStart": 391,
+      "charEnd": 414
+    },
+    {
+      "id": "s0018",
+      "text": "Learning collapses.",
+      "startMs": 37826.0,
+      "endMs": 39207.0,
+      "charStart": 415,
+      "charEnd": 434
+    },
+    {
+      "id": "s0019",
+      "text": "Dissent is welcomed.",
+      "startMs": 39451.0,
+      "endMs": 40937.0,
+      "charStart": 435,
+      "charEnd": 455
+    },
+    {
+      "id": "s0020",
+      "text": "Priorities conflict.",
+      "startMs": 41088.0,
+      "endMs": 42690.0,
+      "charStart": 456,
+      "charEnd": 476
+    },
+    {
+      "id": "s0021",
+      "text": "Ownership holds.",
+      "startMs": 42934.0,
+      "endMs": 44211.0,
+      "charStart": 477,
+      "charEnd": 493
+    },
+    {
+      "id": "s0022",
+      "text": "Ownership diffuses.",
+      "startMs": 44455.0,
+      "endMs": 46034.0,
+      "charStart": 494,
+      "charEnd": 513
+    },
+    {
+      "id": "s0023",
+      "text": "Work progresses.",
+      "startMs": 46208.0,
+      "endMs": 47497.0,
+      "charStart": 514,
+      "charEnd": 530
+    },
+    {
+      "id": "s0024",
+      "text": "Work stalls.",
+      "startMs": 47706.0,
+      "endMs": 48855.0,
+      "charStart": 531,
+      "charEnd": 543
+    },
+    {
+      "id": "s0025",
+      "text": "Trust grows.",
+      "startMs": 48971.0,
+      "endMs": 50155.0,
+      "charStart": 544,
+      "charEnd": 556
+    },
+    {
+      "id": "s0026",
+      "text": "Trust erodes.",
+      "startMs": 50364.0,
+      "endMs": 51641.0,
+      "charStart": 557,
+      "charEnd": 570
+    },
+    {
+      "id": "s0027",
+      "text": "Collaboration holds.",
+      "startMs": 51816.0,
+      "endMs": 53453.0,
+      "charStart": 571,
+      "charEnd": 591
+    },
+    {
+      "id": "s0028",
+      "text": "Coordination breaks.",
+      "startMs": 53696.0,
+      "endMs": 55240.0,
+      "charStart": 592,
+      "charEnd": 612
+    },
+    {
+      "id": "s0029",
+      "text": "Collaboration fails.",
+      "startMs": 55391.0,
+      "endMs": 57005.0,
+      "charStart": 613,
+      "charEnd": 633
+    },
+    {
+      "id": "s0030",
+      "text": "Leadership reproduces itself.",
+      "startMs": 57330.0,
+      "endMs": 59676.0,
+      "charStart": 635,
+      "charEnd": 664
+    }
+  ]
+}

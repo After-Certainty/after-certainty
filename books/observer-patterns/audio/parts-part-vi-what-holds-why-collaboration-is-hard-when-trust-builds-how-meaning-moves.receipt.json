@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves",
+  "sourcePath": "parts/part-vi-what-holds/why-collaboration-is-hard-when-trust-builds-how-meaning-moves.md",
+  "sourceHash": "sha256:b5817a1e5e180a72a8905983828b9b76d37507bcc2d0e55f939617771fb6fe0c",
+  "spokenTextHash": "sha256:abcbf4610d76c75c03c2f74361e736c59f06db4263132d2504ab6ce7235e4d02",
+  "generationHash": "sha256:1764107410ff05fc534ea2bad633a5111d625eb164f022bf712f5b4378776236",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 835,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 835.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 835.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves.mp3",
+  "audioSha256": "sha256:639b2419170ec9fde64201438a9609d04037e83f2c80e4109a2b1aa8968aa8b0",
+  "generatedAt": "2026-08-05T05:14:46Z"
+}

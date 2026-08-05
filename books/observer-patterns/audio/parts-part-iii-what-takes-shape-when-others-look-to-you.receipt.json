@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iii-what-takes-shape-when-others-look-to-you",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-iii-what-takes-shape-when-others-look-to-you",
+  "sourcePath": "parts/part-iii-what-takes-shape/when-others-look-to-you.md",
+  "sourceHash": "sha256:965b588e50ac790f0dc026773e7063040a89c250081bf9f14eba2858baa75503",
+  "spokenTextHash": "sha256:ee77a4481a6551e1fe6dbe17e0f735e2a0e4cf30e259570cfec59174cb0a2926",
+  "generationHash": "sha256:93b3e18469912e62003fcc894f6a33634572f0f9938c47e4831c5d1f21104d8d",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 275,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 275.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 275.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-iii-what-takes-shape-when-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-iii-what-takes-shape-when-others-look-to-you.mp3",
+  "audioSha256": "sha256:842ed2159f00842617b438b2a1e15e3dd8f79c51b8bbe85f44d758febf718e58",
+  "generatedAt": "2026-08-05T05:13:26Z"
+}

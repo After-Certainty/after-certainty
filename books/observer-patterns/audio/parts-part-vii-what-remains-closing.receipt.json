@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vii-what-remains-closing",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-vii-what-remains-closing",
+  "sourcePath": "parts/part-vii-what-remains/closing.md",
+  "sourceHash": "sha256:76acd7970c8add717221dbc1c5362f4542ee483f3b1280055c0c23c71c5fcb91",
+  "spokenTextHash": "sha256:6bc78a3a72eeda0ca617922a505fdba817fef18caa90744f4f5bd9af164c8d6b",
+  "generationHash": "sha256:e233376cc51aff4551a2926d67ca7807e44be62c424d24f1c786572a043dddcf",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 924,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 924.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 924.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-vii-what-remains-closing.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-vii-what-remains-closing.mp3",
+  "audioSha256": "sha256:c7b2a6146fedbbdd655a730f4e68f26e314cad00bb7b5b72772252d0b957ba18",
+  "generatedAt": "2026-08-05T05:15:12Z"
+}

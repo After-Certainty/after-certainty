@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vi-what-holds-when-trust-builds-how-meaning-moves-and-belief-forms",
+  "generationHash": "sha256:c10d5c9f35a39f3a6500650073b1f9df18dec3bc2554ed63bc6df056228e65b1",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "When Trust Builds How Meaning Moves And Belief Forms",
+      "startMs": 0.0,
+      "endMs": 3437.0,
+      "charStart": 0,
+      "charEnd": 52
+    },
+    {
+      "id": "s0002",
+      "text": "Trust is offered.",
+      "startMs": 3530.0,
+      "endMs": 4644.0,
+      "charStart": 54,
+      "charEnd": 71
+    },
+    {
+      "id": "s0003",
+      "text": "Attention lands.",
+      "startMs": 5085.0,
+      "endMs": 6421.0,
+      "charStart": 73,
+      "charEnd": 89
+    },
+    {
+      "id": "s0004",
+      "text": "Belief is shaped.",
+      "startMs": 6746.0,
+      "endMs": 8116.0,
+      "charStart": 91,
+      "charEnd": 108
+    },
+    {
+      "id": "s0005",
+      "text": "Small risks compound.",
+      "startMs": 8557.0,
+      "endMs": 10380.0,
+      "charStart": 110,
+      "charEnd": 131
+    },
+    {
+      "id": "s0006",
+      "text": "Meaning forms.",
+      "startMs": 10624.0,
+      "endMs": 11819.0,
+      "charStart": 133,
+      "charEnd": 147
+    },
+    {
+      "id": "s0007",
+      "text": "Experience accumulates.",
+      "startMs": 12063.0,
+      "endMs": 13735.0,
+      "charStart": 149,
+      "charEnd": 172
+    },
+    {
+      "id": "s0008",
+      "text": "Reliability forms.",
+      "startMs": 13851.0,
+      "endMs": 15430.0,
+      "charStart": 174,
+      "charEnd": 192
+    },
+    {
+      "id": "s0009",
+      "text": "Conviction deepens.",
+      "startMs": 15709.0,
+      "endMs": 17346.0,
+      "charStart": 194,
+      "charEnd": 213
+    },
+    {
+      "id": "s0010",
+      "text": "Vulnerability is tested.",
+      "startMs": 17671.0,
+      "endMs": 19401.0,
+      "charStart": 215,
+      "charEnd": 239
+    },
+    {
+      "id": "s0011",
+      "text": "Trust holds.",
+      "startMs": 19726.0,
+      "endMs": 20980.0,
+      "charStart": 241,
+      "charEnd": 253
+    },
+    {
+      "id": "s0012",
+      "text": "Words fall short.",
+      "startMs": 21223.0,
+      "endMs": 22617.0,
+      "charStart": 254,
+      "charEnd": 271
+    },
+    {
+      "id": "s0013",
+      "text": "Gaps get filled.",
+      "startMs": 22895.0,
+      "endMs": 24230.0,
+      "charStart": 272,
+      "charEnd": 288
+    },
+    {
+      "id": "s0014",
+      "text": "Meaning gets lost.",
+      "startMs": 24556.0,
+      "endMs": 25914.0,
+      "charStart": 289,
+      "charEnd": 307
+    },
+    {
+      "id": "s0015",
+      "text": "Belief opens.",
+      "startMs": 26088.0,
+      "endMs": 27342.0,
+      "charStart": 308,
+      "charEnd": 321
+    },
+    {
+      "id": "s0016",
+      "text": "Certainty is tested.",
+      "startMs": 27621.0,
+      "endMs": 29199.0,
+      "charStart": 322,
+      "charEnd": 342
+    },
+    {
+      "id": "s0017",
+      "text": "Meaning shifts.",
+      "startMs": 29525.0,
+      "endMs": 30616.0,
+      "charStart": 344,
+      "charEnd": 359
+    },
+    {
+      "id": "s0018",
+      "text": "Repair begins.",
+      "startMs": 30790.0,
+      "endMs": 32148.0,
+      "charStart": 361,
+      "charEnd": 375
+    },
+    {
+      "id": "s0019",
+      "text": "Trust shatters.",
+      "startMs": 32392.0,
+      "endMs": 33890.0,
+      "charStart": 376,
+      "charEnd": 391
+    },
+    {
+      "id": "s0020",
+      "text": "Good intent is assumed.",
+      "startMs": 34133.0,
+      "endMs": 35887.0,
+      "charStart": 392,
+      "charEnd": 415
+    },
+    {
+      "id": "s0021",
+      "text": "Bad intent is assumed.",
+      "startMs": 36096.0,
+      "endMs": 37837.0,
+      "charStart": 416,
+      "charEnd": 438
+    },
+    {
+      "id": "s0022",
+      "text": "Doubt is welcomed.",
+      "startMs": 38162.0,
+      "endMs": 39497.0,
+      "charStart": 439,
+      "charEnd": 457
+    },
+    {
+      "id": "s0023",
+      "text": "Belief hardens.",
+      "startMs": 39741.0,
+      "endMs": 41204.0,
+      "charStart": 458,
+      "charEnd": 473
+    },
+    {
+      "id": "s0024",
+      "text": "Trust demands openness.",
+      "startMs": 41378.0,
+      "endMs": 43421.0,
+      "charStart": 474,
+      "charEnd": 497
+    },
+    {
+      "id": "s0025",
+      "text": "Exposure retreats.",
+      "startMs": 43747.0,
+      "endMs": 45360.0,
+      "charStart": 498,
+      "charEnd": 516
+    },
+    {
+      "id": "s0026",
+      "text": "Revision demands courage.",
+      "startMs": 45604.0,
+      "endMs": 47555.0,
+      "charStart": 517,
+      "charEnd": 542
+    },
+    {
+      "id": "s0027",
+      "text": "Meaning drifts.",
+      "startMs": 47798.0,
+      "endMs": 49052.0,
+      "charStart": 543,
+      "charEnd": 558
+    },
+    {
+      "id": "s0028",
+      "text": "Doubt is silenced.",
+      "startMs": 49296.0,
+      "endMs": 50654.0,
+      "charStart": 559,
+      "charEnd": 577
+    },
+    {
+      "id": "s0029",
+      "text": "Trust withdraws.",
+      "startMs": 50898.0,
+      "endMs": 52442.0,
+      "charStart": 578,
+      "charEnd": 594
+    },
+    {
+      "id": "s0030",
+      "text": "Meaning gets distorted.",
+      "startMs": 52721.0,
+      "endMs": 54323.0,
+      "charStart": 595,
+      "charEnd": 618
+    },
+    {
+      "id": "s0031",
+      "text": "Revision yields.",
+      "startMs": 54567.0,
+      "endMs": 55925.0,
+      "charStart": 619,
+      "charEnd": 635
+    },
+    {
+      "id": "s0032",
+      "text": "Trust is built.",
+      "startMs": 56250.0,
+      "endMs": 57504.0,
+      "charStart": 637,
+      "charEnd": 652
+    },
+    {
+      "id": "s0033",
+      "text": "Meaning gets clarified.",
+      "startMs": 57829.0,
+      "endMs": 59443.0,
+      "charStart": 654,
+      "charEnd": 677
+    },
+    {
+      "id": "s0034",
+      "text": "Belief is held.",
+      "startMs": 59687.0,
+      "endMs": 61208.0,
+      "charStart": 679,
+      "charEnd": 694
+    }
+  ]
+}

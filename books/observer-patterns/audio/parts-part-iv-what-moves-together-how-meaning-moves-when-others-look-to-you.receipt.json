@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iv-what-moves-together-how-meaning-moves-when-others-look-to-you",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-iv-what-moves-together-how-meaning-moves-when-others-look-to-you",
+  "sourcePath": "parts/part-iv-what-moves-together/how-meaning-moves-when-others-look-to-you.md",
+  "sourceHash": "sha256:c14079f2a7388e31208981fd74f918afffd615e5bcb7356e03f916774beec683",
+  "spokenTextHash": "sha256:c02356b1466de77ee114d4666c9e29d5464c1256642a8dc048c82eb3c9d458f0",
+  "generationHash": "sha256:b74cce80c00944355088405cd17ee5e09eedca5f0d680189545295be2116023f",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 492,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 492.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 492.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-iv-what-moves-together-how-meaning-moves-when-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-iv-what-moves-together-how-meaning-moves-when-others-look-to-you.mp3",
+  "audioSha256": "sha256:d38977faea5817d872b69c8169576cd402b5e9f0f5702af3d360ef95b51071b6",
+  "generatedAt": "2026-08-05T05:13:44Z"
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vii-what-remains-closing",
+  "generationHash": "sha256:e233376cc51aff4551a2926d67ca7807e44be62c424d24f1c786572a043dddcf",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Love shows up as small acts of voluntary inconvenience.",
+      "startMs": 0.0,
+      "endMs": 3704.0,
+      "charStart": 0,
+      "charEnd": 55
+    },
+    {
+      "id": "s0002",
+      "text": "It stops being love when you’re not free to say no.",
+      "startMs": 3948.0,
+      "endMs": 6850.0,
+      "charStart": 57,
+      "charEnd": 108
+    },
+    {
+      "id": "s0003",
+      "text": "Learning to love — without losing yourself — is how we grow.",
+      "startMs": 7129.0,
+      "endMs": 11483.0,
+      "charStart": 110,
+      "charEnd": 170
+    },
+    {
+      "id": "s0004",
+      "text": "Relationship becomes the shared sacred ground when ideology can’t be.",
+      "startMs": 11993.0,
+      "endMs": 16370.0,
+      "charStart": 172,
+      "charEnd": 241
+    },
+    {
+      "id": "s0005",
+      "text": "A leader is someone others look to when deciding what to do next.",
+      "startMs": 16974.0,
+      "endMs": 20666.0,
+      "charStart": 243,
+      "charEnd": 308
+    },
+    {
+      "id": "s0006",
+      "text": "Communication is how people form meaning between one another.",
+      "startMs": 21177.0,
+      "endMs": 24742.0,
+      "charStart": 310,
+      "charEnd": 371
+    },
+    {
+      "id": "s0007",
+      "text": "Meaning often forms faster than understanding.",
+      "startMs": 25345.0,
+      "endMs": 28503.0,
+      "charStart": 373,
+      "charEnd": 419
+    },
+    {
+      "id": "s0008",
+      "text": "Truth doesn’t move at the same speed as trust.",
+      "startMs": 29107.0,
+      "endMs": 32056.0,
+      "charStart": 421,
+      "charEnd": 467
+    },
+    {
+      "id": "s0009",
+      "text": "Diversity expands what can be seen.",
+      "startMs": 32567.0,
+      "endMs": 35225.0,
+      "charStart": 469,
+      "charEnd": 504
+    },
+    {
+      "id": "s0010",
+      "text": "It also expands what can be misunderstood.",
+      "startMs": 35667.0,
+      "endMs": 38383.0,
+      "charStart": 506,
+      "charEnd": 548
+    },
+    {
+      "id": "s0011",
+      "text": "Collaboration depends on shared understanding.",
+      "startMs": 39080.0,
+      "endMs": 42006.0,
+      "charStart": 550,
+      "charEnd": 596
+    },
+    {
+      "id": "s0012",
+      "text": "It breaks when understanding diverges.",
+      "startMs": 42389.0,
+      "endMs": 45048.0,
+      "charStart": 598,
+      "charEnd": 636
+    },
+    {
+      "id": "s0013",
+      "text": "What is observed repeatedly becomes believed.",
+      "startMs": 45489.0,
+      "endMs": 48600.0,
+      "charStart": 638,
+      "charEnd": 683
+    },
+    {
+      "id": "s0014",
+      "text": "If correction is allowed, belief stays open.",
+      "startMs": 49111.0,
+      "endMs": 52060.0,
+      "charStart": 685,
+      "charEnd": 729
+    },
+    {
+      "id": "s0015",
+      "text": "If correction is blocked, belief hardens.",
+      "startMs": 52501.0,
+      "endMs": 55253.0,
+      "charStart": 731,
+      "charEnd": 772
+    },
+    {
+      "id": "s0016",
+      "text": "What hardens eventually persists.",
+      "startMs": 55531.0,
+      "endMs": 57540.0,
+      "charStart": 774,
+      "charEnd": 807
+    },
+    {
+      "id": "s0017",
+      "text": "These patterns don’t tell you what to do.",
+      "startMs": 57819.0,
+      "endMs": 60013.0,
+      "charStart": 809,
+      "charEnd": 850
+    },
+    {
+      "id": "s0018",
+      "text": "But once you see them, they’re hard to ignore.",
+      "startMs": 60222.0,
+      "endMs": 62695.0,
+      "charStart": 852,
+      "charEnd": 898
+    },
+    {
+      "id": "s0019",
+      "text": "And they keep happening.",
+      "startMs": 62811.0,
+      "endMs": 64274.0,
+      "charStart": 900,
+      "charEnd": 924
+    }
+  ]
+}

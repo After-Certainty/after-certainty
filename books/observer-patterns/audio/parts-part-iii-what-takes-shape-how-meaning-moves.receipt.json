@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iii-what-takes-shape-how-meaning-moves",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-iii-what-takes-shape-how-meaning-moves",
+  "sourcePath": "parts/part-iii-what-takes-shape/how-meaning-moves.md",
+  "sourceHash": "sha256:614f22e2646e71285dd19b35176fa61596a78f11d69c888b44dcc18411e5707d",
+  "spokenTextHash": "sha256:c9561528cf712b4e424361fa10b9d5455b79a130854bdcab4fa6f9cdc0ef0b1b",
+  "generationHash": "sha256:a64e776388ecf5d552c22d511291677857969d44d247943f85afb33dc416ac2e",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 238,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 238.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 238.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-iii-what-takes-shape-how-meaning-moves.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-iii-what-takes-shape-how-meaning-moves.mp3",
+  "audioSha256": "sha256:9832da5f2dd4069087ed2193b330dfc32b9a0362bbae20a2d2993297f6e11cb4",
+  "generatedAt": "2026-08-05T05:13:32Z"
+}

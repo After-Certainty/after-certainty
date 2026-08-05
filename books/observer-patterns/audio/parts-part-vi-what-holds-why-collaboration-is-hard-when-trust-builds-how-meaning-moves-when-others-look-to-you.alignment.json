@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you",
+  "generationHash": "sha256:3c7c766fab3c05524d200041a5ad89e97336fa8b1a8ec1dffdec161b1bae9450",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Why Collaboration Is Hard When Trust Builds How Meaning Moves When Others Look To You",
+      "startMs": 0.0,
+      "endMs": 5909.0,
+      "charStart": 0,
+      "charEnd": 85
+    },
+    {
+      "id": "s0002",
+      "text": "Difference is present.",
+      "startMs": 7209.0,
+      "endMs": 8556.0,
+      "charStart": 87,
+      "charEnd": 109
+    },
+    {
+      "id": "s0003",
+      "text": "Trust is offered.",
+      "startMs": 8881.0,
+      "endMs": 10367.0,
+      "charStart": 111,
+      "charEnd": 128
+    },
+    {
+      "id": "s0004",
+      "text": "Attention lands.",
+      "startMs": 10750.0,
+      "endMs": 12155.0,
+      "charStart": 130,
+      "charEnd": 146
+    },
+    {
+      "id": "s0005",
+      "text": "Attention finds a focus.",
+      "startMs": 12596.0,
+      "endMs": 14779.0,
+      "charStart": 148,
+      "charEnd": 172
+    },
+    {
+      "id": "s0006",
+      "text": "Context varies.",
+      "startMs": 15476.0,
+      "endMs": 16985.0,
+      "charStart": 174,
+      "charEnd": 189
+    },
+    {
+      "id": "s0007",
+      "text": "Small risks compound.",
+      "startMs": 17426.0,
+      "endMs": 19260.0,
+      "charStart": 191,
+      "charEnd": 212
+    },
+    {
+      "id": "s0008",
+      "text": "Meaning forms.",
+      "startMs": 19702.0,
+      "endMs": 21118.0,
+      "charStart": 214,
+      "charEnd": 228
+    },
+    {
+      "id": "s0009",
+      "text": "Examples accumulate.",
+      "startMs": 21559.0,
+      "endMs": 23150.0,
+      "charStart": 230,
+      "charEnd": 250
+    },
+    {
+      "id": "s0010",
+      "text": "Assumptions are tested.",
+      "startMs": 23591.0,
+      "endMs": 25182.0,
+      "charStart": 252,
+      "charEnd": 275
+    },
+    {
+      "id": "s0011",
+      "text": "Vulnerability is tested.",
+      "startMs": 25623.0,
+      "endMs": 27376.0,
+      "charStart": 277,
+      "charEnd": 301
+    },
+    {
+      "id": "s0012",
+      "text": "Leadership coalesces.",
+      "startMs": 27980.0,
+      "endMs": 29733.0,
+      "charStart": 303,
+      "charEnd": 324
+    },
+    {
+      "id": "s0013",
+      "text": "Understanding aligns.",
+      "startMs": 30336.0,
+      "endMs": 32229.0,
+      "charStart": 326,
+      "charEnd": 347
+    },
+    {
+      "id": "s0014",
+      "text": "Bad intent is assumed.",
+      "startMs": 32612.0,
+      "endMs": 34690.0,
+      "charStart": 348,
+      "charEnd": 370
+    },
+    {
+      "id": "s0015",
+      "text": "Trust holds.",
+      "startMs": 35387.0,
+      "endMs": 36873.0,
+      "charStart": 371,
+      "charEnd": 383
+    },
+    {
+      "id": "s0016",
+      "text": "Trust shatters.",
+      "startMs": 37256.0,
+      "endMs": 38858.0,
+      "charStart": 384,
+      "charEnd": 399
+    },
+    {
+      "id": "s0017",
+      "text": "Dissent is welcomed.",
+      "startMs": 39241.0,
+      "endMs": 41006.0,
+      "charStart": 400,
+      "charEnd": 420
+    },
+    {
+      "id": "s0018",
+      "text": "Disagreement is suppressed.",
+      "startMs": 41389.0,
+      "endMs": 43340.0,
+      "charStart": 421,
+      "charEnd": 448
+    },
+    {
+      "id": "s0019",
+      "text": "Gaps get filled.",
+      "startMs": 44036.0,
+      "endMs": 45592.0,
+      "charStart": 449,
+      "charEnd": 465
+    },
+    {
+      "id": "s0020",
+      "text": "Words fall short.",
+      "startMs": 46196.0,
+      "endMs": 47937.0,
+      "charStart": 466,
+      "charEnd": 483
+    },
+    {
+      "id": "s0021",
+      "text": "Repair begins.",
+      "startMs": 48541.0,
+      "endMs": 50074.0,
+      "charStart": 484,
+      "charEnd": 498
+    },
+    {
+      "id": "s0022",
+      "text": "Meaning gets lost.",
+      "startMs": 50584.0,
+      "endMs": 52163.0,
+      "charStart": 499,
+      "charEnd": 517
+    },
+    {
+      "id": "s0023",
+      "text": "Feedback drives change.",
+      "startMs": 52860.0,
+      "endMs": 55019.0,
+      "charStart": 518,
+      "charEnd": 541
+    },
+    {
+      "id": "s0024",
+      "text": "Exposure retreats.",
+      "startMs": 55461.0,
+      "endMs": 57307.0,
+      "charStart": 542,
+      "charEnd": 560
+    },
+    {
+      "id": "s0025",
+      "text": "Good intent is assumed.",
+      "startMs": 58119.0,
+      "endMs": 60267.0,
+      "charStart": 561,
+      "charEnd": 584
+    },
+    {
+      "id": "s0026",
+      "text": "Priorities conflict.",
+      "startMs": 61080.0,
+      "endMs": 62961.0,
+      "charStart": 585,
+      "charEnd": 605
+    },
+    {
+      "id": "s0027",
+      "text": "Priorities converge.",
+      "startMs": 63657.0,
+      "endMs": 65724.0,
+      "charStart": 606,
+      "charEnd": 626
+    },
+    {
+      "id": "s0028",
+      "text": "Understanding diverges.",
+      "startMs": 66676.0,
+      "endMs": 68858.0,
+      "charStart": 627,
+      "charEnd": 650
+    },
+    {
+      "id": "s0029",
+      "text": "Trust demands openness.",
+      "startMs": 69811.0,
+      "endMs": 72028.0,
+      "charStart": 651,
+      "charEnd": 674
+    },
+    {
+      "id": "s0030",
+      "text": "Coordination breaks.",
+      "startMs": 73328.0,
+      "endMs": 75210.0,
+      "charStart": 675,
+      "charEnd": 695
+    },
+    {
+      "id": "s0031",
+      "text": "Leaders feel the consequences.",
+      "startMs": 76162.0,
+      "endMs": 78135.0,
+      "charStart": 696,
+      "charEnd": 726
+    },
+    {
+      "id": "s0032",
+      "text": "Learning collapses.",
+      "startMs": 78577.0,
+      "endMs": 80109.0,
+      "charStart": 727,
+      "charEnd": 746
+    },
+    {
+      "id": "s0033",
+      "text": "Exceptions are forever.",
+      "startMs": 80713.0,
+      "endMs": 82617.0,
+      "charStart": 747,
+      "charEnd": 770
+    },
+    {
+      "id": "s0034",
+      "text": "Meaning shifts.",
+      "startMs": 83058.0,
+      "endMs": 84370.0,
+      "charStart": 772,
+      "charEnd": 787
+    },
+    {
+      "id": "s0035",
+      "text": "Coordination forms.",
+      "startMs": 84614.0,
+      "endMs": 86181.0,
+      "charStart": 789,
+      "charEnd": 808
+    },
+    {
+      "id": "s0036",
+      "text": "Feedback flows.",
+      "startMs": 86564.0,
+      "endMs": 88062.0,
+      "charStart": 810,
+      "charEnd": 825
+    },
+    {
+      "id": "s0037",
+      "text": "Work progresses.",
+      "startMs": 88387.0,
+      "endMs": 89792.0,
+      "charStart": 827,
+      "charEnd": 843
+    },
+    {
+      "id": "s0038",
+      "text": "Meaning drifts.",
+      "startMs": 90175.0,
+      "endMs": 91475.0,
+      "charStart": 844,
+      "charEnd": 859
+    },
+    {
+      "id": "s0039",
+      "text": "Ownership holds.",
+      "startMs": 91916.0,
+      "endMs": 93286.0,
+      "charStart": 860,
+      "charEnd": 876
+    },
+    {
+      "id": "s0040",
+      "text": "Feedback stops.",
+      "startMs": 93611.0,
+      "endMs": 95028.0,
+      "charStart": 877,
+      "charEnd": 892
+    },
+    {
+      "id": "s0041",
+      "text": "Trust grows.",
+      "startMs": 95353.0,
+      "endMs": 96839.0,
+      "charStart": 893,
+      "charEnd": 905
+    },
+    {
+      "id": "s0042",
+      "text": "Trust withdraws.",
+      "startMs": 97280.0,
+      "endMs": 98859.0,
+      "charStart": 906,
+      "charEnd": 922
+    },
+    {
+      "id": "s0043",
+      "text": "Meaning gets clarified.",
+      "startMs": 99300.0,
+      "endMs": 100914.0,
+      "charStart": 923,
+      "charEnd": 946
+    },
+    {
+      "id": "s0044",
+      "text": "Ownership diffuses.",
+      "startMs": 101355.0,
+      "endMs": 103085.0,
+      "charStart": 947,
+      "charEnd": 966
+    },
+    {
+      "id": "s0045",
+      "text": "Collaboration holds.",
+      "startMs": 103410.0,
+      "endMs": 105012.0,
+      "charStart": 967,
+      "charEnd": 987
+    },
+    {
+      "id": "s0046",
+      "text": "Work stalls.",
+      "startMs": 105616.0,
+      "endMs": 106882.0,
+      "charStart": 988,
+      "charEnd": 1000
+    },
+    {
+      "id": "s0047",
+      "text": "Trust erodes.",
+      "startMs": 107578.0,
+      "endMs": 109192.0,
+      "charStart": 1001,
+      "charEnd": 1014
+    },
+    {
+      "id": "s0048",
+      "text": "Meaning gets distorted.",
+      "startMs": 109517.0,
+      "endMs": 111166.0,
+      "charStart": 1015,
+      "charEnd": 1038
+    },
+    {
+      "id": "s0049",
+      "text": "Collaboration fails.",
+      "startMs": 111862.0,
+      "endMs": 113488.0,
+      "charStart": 1039,
+      "charEnd": 1059
+    },
+    {
+      "id": "s0050",
+      "text": "Leadership reproduces itself.",
+      "startMs": 114184.0,
+      "endMs": 116796.0,
+      "charStart": 1061,
+      "charEnd": 1090
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iv-what-moves-together-bridge",
+  "generationHash": "sha256:fee3f3375698c2513e2c712841d15fd7161f23b7ab28c80e6fc73175c649a6cf",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What moves between people rarely stays the same.",
+      "startMs": 0.0,
+      "endMs": 2739.0,
+      "charStart": 0,
+      "charEnd": 48
+    }
+  ]
+}

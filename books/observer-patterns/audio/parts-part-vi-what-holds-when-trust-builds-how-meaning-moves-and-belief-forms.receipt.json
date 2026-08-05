@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-vi-what-holds-when-trust-builds-how-meaning-moves-and-belief-forms",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-vi-what-holds-when-trust-builds-how-meaning-moves-and-belief-forms",
+  "sourcePath": "parts/part-vi-what-holds/when-trust-builds-how-meaning-moves-and-belief-forms.md",
+  "sourceHash": "sha256:552bd9fa5459c354c42907203073f0c8978df72e4b3538a1d2eab95d24fb083d",
+  "spokenTextHash": "sha256:7af449c8b91b9c95f42b2451555ca4bcb0a14001c8e579ef68be59164ef74fab",
+  "generationHash": "sha256:c10d5c9f35a39f3a6500650073b1f9df18dec3bc2554ed63bc6df056228e65b1",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 694,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 694.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 694.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-vi-what-holds-when-trust-builds-how-meaning-moves-and-belief-forms.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-vi-what-holds-when-trust-builds-how-meaning-moves-and-belief-forms.mp3",
+  "audioSha256": "sha256:7f4eed97434ce5d26134c54748231c8b77c52d1651d458bbfa94487f795d7cd0",
+  "generatedAt": "2026-08-05T05:14:39Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-v-where-they-meet-how-trust-builds-when-others-look-to-you",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-v-where-they-meet-how-trust-builds-when-others-look-to-you",
+  "sourcePath": "parts/part-v-where-they-meet/how-trust-builds-when-others-look-to-you.md",
+  "sourceHash": "sha256:513fd0033c7a0326909a56d8fc1244e829de6d3755f210fdd6b9b1d43e38e4e7",
+  "spokenTextHash": "sha256:6272bda447f1585847cff3ea7f6284247f9495ebcfb30ab9f077fbb376874442",
+  "generationHash": "sha256:61090216ea5cb53534bb314d14820c0ac7e3c99cc7bb716ff38083c5851cdac6",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 499,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 499.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 499.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-v-where-they-meet-how-trust-builds-when-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-v-where-they-meet-how-trust-builds-when-others-look-to-you.mp3",
+  "audioSha256": "sha256:6df28556b0d9ddcb82b34230bcf07aacc71156382cce296642fee82990d14954",
+  "generatedAt": "2026-08-05T05:14:14Z"
+}

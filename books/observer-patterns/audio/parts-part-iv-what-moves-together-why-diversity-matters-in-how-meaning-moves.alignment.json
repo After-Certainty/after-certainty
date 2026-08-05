@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-iv-what-moves-together-why-diversity-matters-in-how-meaning-moves",
+  "generationHash": "sha256:95382dac9f5c9ccc0e2cacb9674033a5c072ee0c19594925cf2af695cf1f1549",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Why Diversity Matters In How Meaning Moves",
+      "startMs": 0.0,
+      "endMs": 3913.0,
+      "charStart": 0,
+      "charEnd": 42
+    },
+    {
+      "id": "s0002",
+      "text": "Difference is encountered.",
+      "startMs": 4354.0,
+      "endMs": 5875.0,
+      "charStart": 44,
+      "charEnd": 70
+    },
+    {
+      "id": "s0003",
+      "text": "Attention lands.",
+      "startMs": 6119.0,
+      "endMs": 7280.0,
+      "charStart": 72,
+      "charEnd": 88
+    },
+    {
+      "id": "s0004",
+      "text": "Variation accumulates.",
+      "startMs": 7524.0,
+      "endMs": 9126.0,
+      "charStart": 90,
+      "charEnd": 112
+    },
+    {
+      "id": "s0005",
+      "text": "Meaning forms.",
+      "startMs": 9370.0,
+      "endMs": 10624.0,
+      "charStart": 114,
+      "charEnd": 128
+    },
+    {
+      "id": "s0006",
+      "text": "Assumptions are tested.",
+      "startMs": 10798.0,
+      "endMs": 12272.0,
+      "charStart": 130,
+      "charEnd": 153
+    },
+    {
+      "id": "s0007",
+      "text": "Perspective expands.",
+      "startMs": 12423.0,
+      "endMs": 13956.0,
+      "charStart": 155,
+      "charEnd": 175
+    },
+    {
+      "id": "s0008",
+      "text": "Learning accelerates.",
+      "startMs": 14130.0,
+      "endMs": 15395.0,
+      "charStart": 177,
+      "charEnd": 198
+    },
+    {
+      "id": "s0009",
+      "text": "Learning stalls.",
+      "startMs": 15546.0,
+      "endMs": 16614.0,
+      "charStart": 199,
+      "charEnd": 215
+    },
+    {
+      "id": "s0010",
+      "text": "Meaning shifts.",
+      "startMs": 16823.0,
+      "endMs": 17973.0,
+      "charStart": 216,
+      "charEnd": 231
+    },
+    {
+      "id": "s0011",
+      "text": "Meaning drifts.",
+      "startMs": 18124.0,
+      "endMs": 19238.0,
+      "charStart": 232,
+      "charEnd": 247
+    },
+    {
+      "id": "s0012",
+      "text": "Common ground forms.",
+      "startMs": 19354.0,
+      "endMs": 20736.0,
+      "charStart": 248,
+      "charEnd": 268
+    },
+    {
+      "id": "s0013",
+      "text": "Words fall short.",
+      "startMs": 20887.0,
+      "endMs": 22257.0,
+      "charStart": 269,
+      "charEnd": 286
+    },
+    {
+      "id": "s0014",
+      "text": "Gaps get filled.",
+      "startMs": 22373.0,
+      "endMs": 23638.0,
+      "charStart": 287,
+      "charEnd": 303
+    },
+    {
+      "id": "s0015",
+      "text": "Meaning gets lost.",
+      "startMs": 23882.0,
+      "endMs": 25194.0,
+      "charStart": 304,
+      "charEnd": 322
+    },
+    {
+      "id": "s0016",
+      "text": "Resilience grows.",
+      "startMs": 25368.0,
+      "endMs": 26703.0,
+      "charStart": 323,
+      "charEnd": 340
+    },
+    {
+      "id": "s0017",
+      "text": "Fragility increases.",
+      "startMs": 26820.0,
+      "endMs": 28353.0,
+      "charStart": 341,
+      "charEnd": 361
+    },
+    {
+      "id": "s0018",
+      "text": "Inclusion is practiced.",
+      "startMs": 28562.0,
+      "endMs": 30164.0,
+      "charStart": 362,
+      "charEnd": 385
+    },
+    {
+      "id": "s0019",
+      "text": "Division forms.",
+      "startMs": 30408.0,
+      "endMs": 31592.0,
+      "charStart": 386,
+      "charEnd": 401
+    },
+    {
+      "id": "s0020",
+      "text": "Good intent is assumed.",
+      "startMs": 31766.0,
+      "endMs": 33356.0,
+      "charStart": 402,
+      "charEnd": 425
+    },
+    {
+      "id": "s0021",
+      "text": "Bad intent is assumed.",
+      "startMs": 33507.0,
+      "endMs": 35005.0,
+      "charStart": 426,
+      "charEnd": 448
+    },
+    {
+      "id": "s0022",
+      "text": "Exclusion is reinforced.",
+      "startMs": 35179.0,
+      "endMs": 36909.0,
+      "charStart": 449,
+      "charEnd": 473
+    },
+    {
+      "id": "s0023",
+      "text": "Understanding deepens.",
+      "startMs": 37118.0,
+      "endMs": 38674.0,
+      "charStart": 475,
+      "charEnd": 497
+    },
+    {
+      "id": "s0024",
+      "text": "Understanding fragments.",
+      "startMs": 38848.0,
+      "endMs": 40322.0,
+      "charStart": 498,
+      "charEnd": 522
+    },
+    {
+      "id": "s0025",
+      "text": "Meaning gets clarified.",
+      "startMs": 40566.0,
+      "endMs": 42076.0,
+      "charStart": 523,
+      "charEnd": 546
+    },
+    {
+      "id": "s0026",
+      "text": "Meaning gets distorted.",
+      "startMs": 42250.0,
+      "endMs": 43805.0,
+      "charStart": 547,
+      "charEnd": 570
+    },
+    {
+      "id": "s0027",
+      "text": "What persists reflects what was included.",
+      "startMs": 44014.0,
+      "endMs": 46812.0,
+      "charStart": 572,
+      "charEnd": 613
+    }
+  ]
+}

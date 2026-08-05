@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-v-where-they-meet-why-collaboration-is-hard-when-others-look-to-you",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-v-where-they-meet-why-collaboration-is-hard-when-others-look-to-you",
+  "sourcePath": "parts/part-v-where-they-meet/why-collaboration-is-hard-when-others-look-to-you.md",
+  "sourceHash": "sha256:af59527a5cdfdd58dc03a88c960721f717d7db77380d31b5e64e71e7c56f14d7",
+  "spokenTextHash": "sha256:51a71e393348b7eddd497ae79b9dd42727f45b164f7d7f7aeb4dc70229c77543",
+  "generationHash": "sha256:319e610a921c9ac9032eb24c4a1de1b0c84f2ba3227510d3090a9d174237d84c",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 664,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 664.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 664.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-v-where-they-meet-why-collaboration-is-hard-when-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-v-where-they-meet-why-collaboration-is-hard-when-others-look-to-you.mp3",
+  "audioSha256": "sha256:3e74e9785de17f11939437071880e8f8c1218974199095af3851c55690644519",
+  "generatedAt": "2026-08-05T05:14:26Z"
+}
