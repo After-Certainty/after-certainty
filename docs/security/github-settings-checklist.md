@@ -39,7 +39,21 @@ These protections cannot be fully enforced by repository files alone.
 Confirm these exist only as Actions secrets/variables as intended:
 
 - `CACHE_REVALIDATE_SECRET` (Actions secret)
+- `ELEVENLABS_API_KEY` (Actions secret; **optional**) — only for manual
+  `Chapter audio generate` (`chapter-audio-generate.yml`) when `dry_run=false`.
+  Never add this secret to `python-tests`, `site-ci`, Vercel, or Cursor cloud agents.
+  Laptop path remains gitignored root `.env.local` (see `.env.example`).
 - Default `GITHUB_TOKEN` (automatic)
+
+Chapter audio Git LFS ops (Phase 4):
+
+- Root `.gitattributes` tracks `books/*/audio/*.mp3` with Git LFS; receipts and
+  alignment JSON stay in ordinary Git.
+- The generate workflow checks out with `lfs: true` and pushes LFS objects on the
+  review PR branch. Confirm the repo has Git LFS enabled and that Vercel/CI fetch
+  LFS objects before install (install refuses pointer stubs).
+- Review PRs under `chapter-audio/generate-*` before merge — merging available
+  audio makes Listen appear for those units on the live site (no env flag).
 
 Note: `SITE_REVALIDATE_URL` is **no longer trusted**. Revalidation always targets the
 hardcoded allowlisted production URL in `scripts/revalidate_site_cache.sh`.

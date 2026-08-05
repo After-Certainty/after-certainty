@@ -1,7 +1,7 @@
 # Observer Patterns — chapter enrichment (audio pilot).
 # Authored summaries/concepts can be added later; audio.enabled opts units into narration.
-# First generate target: front-matter/introduction.md (~211 chars).
-# Full-book rough spoken size ~13.6k chars — pace free-plan generation or wait for paid upgrade.
+# Phase 4 CI smoke: intro + Part I poems only (bridge and later parts stay disabled).
+# Remaining units keep max_credits so re-enablement is a one-line flip.
 version: 1
 chapters:
 - sourcePath: front-matter/introduction.md
@@ -12,7 +12,7 @@ chapters:
 - sourcePath: parts/part-i-what-begins/bridge.md
   kind: bridge
   audio:
-    enabled: true
+    enabled: false
     max_credits: 2000
 - sourcePath: parts/part-i-what-begins/what-love-teaches.md
   kind: poem
@@ -42,110 +42,110 @@ chapters:
 - sourcePath: parts/part-ii-what-forms-together/bridge.md
   kind: bridge
   audio:
-    enabled: true
+    enabled: false
     max_credits: 2000
 - sourcePath: parts/part-ii-what-forms-together/what-love-teaches-when-trust-builds-how-belief-forms.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-ii-what-forms-together/why-collaboration-is-hard-when-trust-builds-and-why-diversity-matters.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-iii-what-takes-shape/bridge.md
   kind: bridge
   audio:
-    enabled: true
+    enabled: false
     max_credits: 2000
 - sourcePath: parts/part-iii-what-takes-shape/when-others-look-to-you.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-iii-what-takes-shape/how-meaning-moves.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-iv-what-moves-together/bridge.md
   kind: bridge
   audio:
-    enabled: true
+    enabled: false
     max_credits: 2000
 - sourcePath: parts/part-iv-what-moves-together/how-meaning-moves-when-others-look-to-you.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-iv-what-moves-together/why-diversity-matters-in-how-meaning-moves.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-iv-what-moves-together/why-diversity-matters-when-others-look-to-you.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-v-where-they-meet/bridge.md
   kind: bridge
   audio:
-    enabled: true
+    enabled: false
     max_credits: 2000
 - sourcePath: parts/part-v-where-they-meet/what-love-teaches-when-others-look-to-you.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-v-where-they-meet/how-trust-builds-when-others-look-to-you.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-v-where-they-meet/how-belief-forms-when-others-look-to-you.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-v-where-they-meet/why-collaboration-is-hard-when-others-look-to-you.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-vi-what-holds/bridge.md
   kind: bridge
   audio:
-    enabled: true
+    enabled: false
     max_credits: 2000
 - sourcePath: parts/part-vi-what-holds/when-trust-builds-how-meaning-moves-and-belief-forms.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-vi-what-holds/why-collaboration-is-hard-when-trust-builds-how-meaning-moves.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-vi-what-holds/why-diversity-matters-when-trust-builds-and-others-look-to-you.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-vi-what-holds/why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you.md
   kind: poem
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000
 - sourcePath: parts/part-vii-what-remains/bridge.md
   kind: bridge
   audio:
-    enabled: true
+    enabled: false
     max_credits: 2000
 - sourcePath: parts/part-vii-what-remains/closing.md
   kind: conclusion
   audio:
-    enabled: true
+    enabled: false
     max_credits: 3000

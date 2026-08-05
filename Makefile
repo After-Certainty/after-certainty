@@ -1,4 +1,4 @@
-.PHONY: help sync-semantic check check-pandoc test lint lint-fix validate-book-specs validate-editorial-preservation build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-book-cover-assets validate-book-cover-assets generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx export-ingramspark-epub export-ingramspark-print build-ingramspark-pdfx-proof validate-ingramspark-print-cover build-ingramspark-print-cover package-ingramspark preflight-ingramspark install-epubcheck clean-import-md spellcheck typography-check-how-meaning-moves list-chapter-audio plan-chapter-audio generate-chapter-audio generate-chapter-audio-manifest install-chapter-audio-for-site
+.PHONY: help sync-semantic check check-pandoc test lint lint-fix validate-book-specs validate-editorial-preservation build-book generate-typst-manifest generate-books-manifest validate-books-manifest verify-books-manifest verify-semantic-yaml validate-semantic-entities validate-discovery-content report-semantic-completeness lint-semantic-graph generate-book-cover-assets validate-book-cover-assets generate-semantic-manifest validate-semantic-manifest verify-semantic-manifest verify-semantic-ontology compare-site-discovery compare-manifest-parity install-local-manifest-for-site propose-semantic-enrichment promote-semantic-enrichment render-semantic-glossary extract-semantic-glossary-drafts scan-book-glossary-usage discover-book-glossary-candidates extract-semantic-pattern-drafts extract-semantic-source-drafts promote-semantic-source-drafts dedupe-semantic-sources backfill-source-metadata derive-thinker-drafts promote-thinker-drafts infer-semantic-source-links audit-semantic-metadata-quality audit-semantic-graph audit-bibliography-semantic-drift reconcile-bibliography-semantic-drift normalize-semantic-metadata docx-to-md md-to-docx import-docx import-docx-dir import-gdoc-html import-observer-patterns-html split-observer-patterns install-typst export-typst-pdf export-docx export-docx-by-part export-kindle-epub export-pdf export-all-docx export-ingramspark-epub export-ingramspark-print build-ingramspark-pdfx-proof validate-ingramspark-print-cover build-ingramspark-print-cover package-ingramspark preflight-ingramspark install-epubcheck clean-import-md spellcheck typography-check-how-meaning-moves list-chapter-audio plan-chapter-audio generate-chapter-audio generate-chapter-audio-manifest validate-chapter-audio verify-chapter-audio install-chapter-audio-for-site
 
 PANDOC ?= pandoc
 CODESPELL ?= codespell
@@ -49,6 +49,8 @@ help:
 	@echo "  make plan-chapter-audio [ENABLED=1] [UNIT=chapter-id] [FORMAT=table|json]"
 	@echo "  make generate-chapter-audio UNIT=chapter-id [DRY_RUN=1] [MOCK=1] [REAL=1] [FORCE=1] [FORMAT=text|json]"
 	@echo "  make generate-chapter-audio-manifest"
+	@echo "  make validate-chapter-audio [STRICT_STALE=1]"
+	@echo "  make verify-chapter-audio [STRICT_STALE=1]"
 	@echo "  make install-chapter-audio-for-site"
 	@echo "  make validate-book-specs"
 	@echo "  make validate-editorial-preservation BOOK_DIR=books/when-others-look-to-you/v1"
@@ -171,6 +173,14 @@ generate-chapter-audio:
 
 generate-chapter-audio-manifest:
 	@python3 tools/generate_chapter_audio_manifest.py --repo .
+
+validate-chapter-audio:
+	@python3 tools/validate_chapter_audio.py --repo . \
+		$(if $(filter 1 true TRUE yes YES,$(STRICT_STALE)),--strict-stale,)
+
+verify-chapter-audio:
+	@python3 tools/verify_chapter_audio.py --repo . \
+		$(if $(filter 1 true TRUE yes YES,$(STRICT_STALE)),--strict-stale,)
 
 install-chapter-audio-for-site:
 	@python3 scripts/install_chapter_audio_for_site.py --repo .

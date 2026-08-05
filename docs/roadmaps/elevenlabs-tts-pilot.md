@@ -601,7 +601,7 @@ Enforcement:
 
 | Control | Default |
 |---------|---------|
-| Units per workflow run | **1** (required `UNIT`) |
+| Units per workflow run | One or more unit ids (comma/newline); pilot default = OP intro + Part I poems |
 | Bulk generate-all-enabled | Deferred until after pilot |
 | `force` | `false` |
 | Workflow `dry_run` | `true` |
@@ -611,7 +611,7 @@ Enforcement:
 | Disabled / unconfigured | Refuse |
 | Over budget | Refuse |
 | Triggers | `workflow_dispatch` only |
-| Concurrency | `chapter-audio-${{ inputs.unit_id }}`, `cancel-in-progress: false` |
+| Concurrency | `chapter-audio-${{ github.run_id }}`, `cancel-in-progress: false` |
 | Logs | Per-unit skip/regen reason; never print secrets |
 
 ### 6.4 Secret placement
@@ -716,6 +716,16 @@ Do not combine phases into one implementation PR.
 | ID | Status | Notes |
 |----|--------|-------|
 | AUDIO-P3-01–P3-03 | **Done** | `TtsProvider` Protocol, ElevenLabs adapter (stdlib HTTP) + `MockElevenLabsProvider`, `make generate-chapter-audio` with dry-run default / `--mock` / `--real`, budgets, atomic artifact trio, `.env.local` key loading. CI uses mocks only. Real generate still blocked on `PLACEHOLDER_ELEVENLABS_VOICE_ID` + Kevin’s key on laptop. |
+
+#### Phase 4 progress (2026-08-05)
+
+| ID | Status | Notes |
+|----|--------|-------|
+| AUDIO-P4-01 | **Done** | `.github/workflows/chapter-audio-generate.yml` — `workflow_dispatch`, dry-run default, multi-unit smoke list (OP intro + Part I poems), mounts `ELEVENLABS_API_KEY` only on real generate, LFS checkout, artifact upload, review PR via `tools/run_chapter_audio_ci.py`. |
+| AUDIO-P4-02 | **Done** | `make validate-chapter-audio` / `make verify-chapter-audio` (secret-free); wired into `python-tests.yml`. |
+| AUDIO-P4-03 | **Done** | `docs/security/github-settings-checklist.md` documents `ELEVENLABS_API_KEY` + LFS ops. |
+
+**Phase 4 enablement scope:** Observer Patterns `audio.enabled: true` only for the introduction and five Part I poems (bridge and later parts disabled). Workflow default `units` input matches that set.
 
 ### Phase 1 — Semantic enablement and schemas
 
