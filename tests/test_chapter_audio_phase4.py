@@ -24,8 +24,8 @@ from chapter_audio.validate import (  # noqa: E402
 
 
 def _repo_has_unsmudged_lfs_audio(repo: Path) -> bool:
-    """True when books/*/audio contains Git LFS pointer stubs (checkout without smudge)."""
-    for audio_dir in repo.glob("books/*/audio"):
+    """True when books/**/audio contains Git LFS pointer stubs (checkout without smudge)."""
+    for audio_dir in repo.glob("books/**/audio"):
         if not audio_dir.is_dir():
             continue
         for path in audio_dir.glob("*.mp3"):
@@ -37,7 +37,7 @@ def _repo_has_unsmudged_lfs_audio(repo: Path) -> bool:
 def _skip_if_lfs_pointers_not_smudged() -> None:
     if _repo_has_unsmudged_lfs_audio(REPO):
         pytest.skip(
-            "books/*/audio MP3s are Git LFS pointers; fetch with git lfs pull "
+            "books/**/audio MP3s are Git LFS pointers; fetch with git lfs pull "
             "(CI pytest job uses actions/checkout lfs: true)"
         )
 

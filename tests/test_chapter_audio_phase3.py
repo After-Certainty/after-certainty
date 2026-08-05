@@ -34,6 +34,7 @@ def _configured_unit(**overrides: object) -> ResolvedUnitAudio:
     base = dict(
         unit_id=PILOT_INTRO,
         edition_slug="observer-patterns",
+        book_relpath="books/observer-patterns",
         title="Introduction",
         source_path="front-matter/introduction.md",
         kind="introduction",

@@ -7,16 +7,17 @@ from pathlib import Path
 from typing import Any
 
 
-def receipt_path_for(repo: Path, edition_slug: str, chapter_slug: str) -> Path:
-    return repo / "books" / edition_slug / "audio" / f"{chapter_slug}.receipt.json"
+def receipt_path_for(repo: Path, book_relpath: str, chapter_slug: str) -> Path:
+    """Receipt path under the book directory (supports nested edition dirs)."""
+    return repo / book_relpath / "audio" / f"{chapter_slug}.receipt.json"
 
 
-def audio_path_for(repo: Path, edition_slug: str, chapter_slug: str) -> Path:
-    return repo / "books" / edition_slug / "audio" / f"{chapter_slug}.mp3"
+def audio_path_for(repo: Path, book_relpath: str, chapter_slug: str) -> Path:
+    return repo / book_relpath / "audio" / f"{chapter_slug}.mp3"
 
 
-def alignment_path_for(repo: Path, edition_slug: str, chapter_slug: str) -> Path:
-    return repo / "books" / edition_slug / "audio" / f"{chapter_slug}.alignment.json"
+def alignment_path_for(repo: Path, book_relpath: str, chapter_slug: str) -> Path:
+    return repo / book_relpath / "audio" / f"{chapter_slug}.alignment.json"
 
 
 def load_receipt(path: Path) -> dict[str, Any] | None:
@@ -42,13 +43,13 @@ def is_lfs_pointer(path: Path) -> bool:
 def classify_artifacts(
     *,
     repo: Path,
-    edition_slug: str,
+    book_relpath: str,
     chapter_slug: str,
     expected_generation_hash: str,
 ) -> tuple[bool, bool, bool, str]:
     """Return (has_artifacts, hash_matches, invalid, reason)."""
-    receipt = load_receipt(receipt_path_for(repo, edition_slug, chapter_slug))
-    audio = audio_path_for(repo, edition_slug, chapter_slug)
+    receipt = load_receipt(receipt_path_for(repo, book_relpath, chapter_slug))
+    audio = audio_path_for(repo, book_relpath, chapter_slug)
     if receipt is None and not audio.is_file():
         return False, False, False, "no receipt or audio"
     if receipt is None:

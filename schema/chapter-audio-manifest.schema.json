@@ -16,6 +16,7 @@
         "required": [
           "unitId",
           "editionSlug",
+          "bookRelpath",
           "chapterSlug",
           "routeKey",
           "audioUrl",
@@ -26,6 +27,11 @@
         "properties": {
           "unitId": { "type": "string", "minLength": 1 },
           "editionSlug": { "type": "string", "minLength": 1 },
+          "bookRelpath": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Repo-relative book directory containing audio/ (may be nested)."
+          },
           "chapterSlug": { "type": "string", "minLength": 1 },
           "routeKey": { "type": "string", "minLength": 1 },
           "audioUrl": { "type": "string", "minLength": 1 },

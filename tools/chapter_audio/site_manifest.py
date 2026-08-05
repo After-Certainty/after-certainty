@@ -54,13 +54,13 @@ def _duration_seconds_from_alignment(path: Path) -> float | None:
 def _unit_entry(repo: Path, plan: UnitAudioPlan) -> dict[str, Any] | None:
     if plan.status != "enabled-current" or not plan.generation_hash:
         return None
-    audio = repo / "books" / plan.edition_slug / "audio" / f"{plan.chapter_slug}.mp3"
+    audio = repo / plan.book_relpath / "audio" / f"{plan.chapter_slug}.mp3"
     if not audio.is_file() or is_lfs_pointer(audio):
         return None
-    receipt = load_receipt(receipt_path_for(repo, plan.edition_slug, plan.chapter_slug))
+    receipt = load_receipt(receipt_path_for(repo, plan.book_relpath, plan.chapter_slug))
     if not isinstance(receipt, dict):
         return None
-    align_path = alignment_path_for(repo, plan.edition_slug, plan.chapter_slug)
+    align_path = alignment_path_for(repo, plan.book_relpath, plan.chapter_slug)
     align_meta = receipt.get("alignment") if isinstance(receipt.get("alignment"), dict) else {}
     granularity = str(align_meta.get("granularity") or "none")
     alignment_url = None
@@ -70,6 +70,7 @@ def _unit_entry(repo: Path, plan: UnitAudioPlan) -> dict[str, Any] | None:
     return {
         "unitId": plan.unit_id,
         "editionSlug": plan.edition_slug,
+        "bookRelpath": plan.book_relpath,
         "chapterSlug": plan.chapter_slug,
         "routeKey": plan.route_key,
         "audioUrl": f"/generated/audio/{plan.edition_slug}/{plan.chapter_slug}.mp3",

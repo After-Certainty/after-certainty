@@ -200,7 +200,7 @@ def generate_unit(
             f"provider mismatch: unit wants {unit.provider}, adapter is {provider.name}"
         )
 
-    book_dir = repo / "books" / unit.edition_slug
+    book_dir = repo / unit.book_relpath
     source_file = book_dir / unit.source_path
     if manuscript_text is None:
         if not source_file.is_file():
@@ -245,7 +245,7 @@ def generate_unit(
     gen_hash = generation_hash(payload)
     has_art, hash_ok, invalid, art_reason = classify_artifacts(
         repo=repo,
-        edition_slug=unit.edition_slug,
+        book_relpath=unit.book_relpath,
         chapter_slug=unit.chapter_slug,
         expected_generation_hash=gen_hash,
     )
@@ -256,10 +256,10 @@ def generate_unit(
             reason="artifacts current; pass --force to regenerate",
             generation_hash=gen_hash,
             audio_path=str(
-                audio_path_for(repo, unit.edition_slug, unit.chapter_slug).relative_to(repo)
+                audio_path_for(repo, unit.book_relpath, unit.chapter_slug).relative_to(repo)
             ),
             receipt_path=str(
-                receipt_path_for(repo, unit.edition_slug, unit.chapter_slug).relative_to(repo)
+                receipt_path_for(repo, unit.book_relpath, unit.chapter_slug).relative_to(repo)
             ),
             estimated_credits=float(len(spoken_text)),
         )
@@ -285,9 +285,9 @@ def generate_unit(
         raise GenerateError("provider returned empty audio")
 
     alignment = provider.normalize_alignment(result, spoken_text, request=request)
-    audio_path = audio_path_for(repo, unit.edition_slug, unit.chapter_slug)
-    receipt_path = receipt_path_for(repo, unit.edition_slug, unit.chapter_slug)
-    align_path = alignment_path_for(repo, unit.edition_slug, unit.chapter_slug)
+    audio_path = audio_path_for(repo, unit.book_relpath, unit.chapter_slug)
+    receipt_path = receipt_path_for(repo, unit.book_relpath, unit.chapter_slug)
+    align_path = alignment_path_for(repo, unit.book_relpath, unit.chapter_slug)
 
     audio_rel = str(audio_path.relative_to(repo))
     receipt_rel = str(receipt_path.relative_to(repo))

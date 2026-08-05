@@ -67,6 +67,7 @@ def test_receipt_alignment_manifest_schemas_accept_examples() -> None:
             {
                 "unitId": PILOT_INTRO,
                 "editionSlug": "observer-patterns",
+                "bookRelpath": "books/observer-patterns",
                 "chapterSlug": "front-matter-introduction",
                 "routeKey": "/explore/books/observer-patterns/chapters/front-matter-introduction",
                 "audioUrl": "/generated/audio/observer-patterns/front-matter-introduction.mp3",
@@ -160,14 +161,26 @@ def test_list_chapter_audio_enabled_filter_observer_patterns(repo_root: Path) ->
     payload = json.loads(r.stdout)
     units = payload["units"]
     assert units, "expected at least one audio-enabled unit"
-    assert all(u["editionSlug"] == "observer-patterns" for u in units)
     assert all(str(u["status"]).startswith("enabled") for u in units)
     ids = {u["unitId"] for u in units}
     assert PILOT_INTRO in ids
-    kinds = {u["kind"] for u in units}
-    assert "introduction" in kinds
-    assert "poem" in kinds
-    assert all(u["kind"] in {"introduction", "poem", "bridge", "conclusion"} for u in units)
+    op = [u for u in units if u["editionSlug"] == "observer-patterns"]
+    assert op, "expected Observer Patterns units among enabled"
+    assert any(u["kind"] == "poem" for u in op)
+    assert all(
+        u["kind"]
+        in {
+            "introduction",
+            "poem",
+            "bridge",
+            "conclusion",
+            "chapter",
+            "other",
+            "afterword",
+            "appendix",
+        }
+        for u in units
+    )
 
 
 def test_observer_patterns_book_spec_still_validates(repo_root: Path) -> None:

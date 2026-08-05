@@ -66,6 +66,7 @@ def _row(unit) -> dict:
     return {
         "unitId": unit.unit_id,
         "editionSlug": unit.edition_slug,
+        "bookRelpath": unit.book_relpath,
         "title": unit.title,
         "sourcePath": unit.source_path,
         "kind": unit.kind,
