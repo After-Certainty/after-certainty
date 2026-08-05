@@ -39,19 +39,20 @@ echo "ensure_git_lfs_audio: remotes before fix:"
 git remote -v || true
 
 ORIG_URL="$(git remote get-url origin 2>/dev/null || true)"
-TOKEN="${GITHUB_TOKEN:-${GH_TOKEN:-}}"
+# Prefer a dedicated Vercel secret name; accept GITHUB_TOKEN/GH_TOKEN as aliases.
+TOKEN="${CHAPTER_AUDIO_GITHUB_TOKEN:-${GITHUB_TOKEN:-${GH_TOKEN:-}}}"
 
 # Always set an explicit LFS endpoint — Vercel often leaves this empty ("from ''").
 git config lfs.url "${LFS_ENDPOINT}"
 
 # Prefer an authenticated HTTPS origin for private LFS. Keep tokenized remotes;
-# otherwise inject GITHUB_TOKEN/GH_TOKEN when available.
+# otherwise inject a token when available.
 if [[ "$ORIG_URL" == https://*:*@github.com/* ]]; then
   echo "ensure_git_lfs_audio: keeping authenticated origin URL"
 elif [[ -n "$TOKEN" ]]; then
   git remote remove origin 2>/dev/null || true
   git remote add origin "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-  echo "ensure_git_lfs_audio: origin set with GITHUB_TOKEN/GH_TOKEN"
+  echo "ensure_git_lfs_audio: origin set with token auth"
 elif git remote get-url origin >/dev/null 2>&1; then
   git remote set-url origin "https://github.com/${GITHUB_REPOSITORY}.git"
   echo "ensure_git_lfs_audio: origin set to https (no token env — private LFS may fail)" >&2
@@ -63,29 +64,36 @@ fi
 if [[ -n "$TOKEN" ]]; then
   AUTH="$(printf 'x-access-token:%s' "$TOKEN" | base64 | tr -d '\n')"
   git config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ${AUTH}"
+else
+  echo "ensure_git_lfs_audio: missing CHAPTER_AUDIO_GITHUB_TOKEN/GITHUB_TOKEN/GH_TOKEN" >&2
 fi
 
 echo "ensure_git_lfs_audio: lfs.url=$(git config --get lfs.url)"
-# Redact credentials if present in the printed URL.
 safe_origin="$(git remote get-url origin | sed -E 's#://[^/@]+@#://***@#')"
 echo "ensure_git_lfs_audio: origin=${safe_origin}"
+echo "ensure_git_lfs_audio: token_present=$([ -n "$TOKEN" ] && echo yes || echo no)"
 
 if ! git lfs pull --include="books/*/audio/*.mp3" --exclude=""; then
   echo "error: git lfs pull failed." >&2
-  echo "On Vercel, set env GITHUB_TOKEN (Contents: Read) for this project." >&2
+  echo "On Vercel, set CHAPTER_AUDIO_GITHUB_TOKEN or GITHUB_TOKEN (Contents: Read)." >&2
   exit 2
 fi
 
+# Avoid bash process substitution (< <(...)) — Vercel builds fail with /dev/fd/63.
+mp3_list="$(mktemp)"
+find books -type f -path '*/audio/*.mp3' >"$mp3_list" 2>/dev/null || true
 pointer_count=0
 mp3_count=0
-while IFS= read -r -d '' mp3; do
+while IFS= read -r mp3; do
+  [[ -z "$mp3" ]] && continue
   mp3_count=$((mp3_count + 1))
   head="$(head -c 120 "$mp3" 2>/dev/null || true)"
   if [[ "$head" == version\ https://git-lfs.github.com/spec/v1* ]]; then
     echo "error: still an LFS pointer after pull: $mp3" >&2
     pointer_count=$((pointer_count + 1))
   fi
-done < <(find books -type f -path '*/audio/*.mp3' -print0 2>/dev/null || true)
+done <"$mp3_list"
+rm -f "$mp3_list"
 
 if [[ "$pointer_count" -gt 0 ]]; then
   echo "error: ${pointer_count} chapter-audio MP3(s) remain Git LFS pointers" >&2
