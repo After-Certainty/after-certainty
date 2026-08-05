@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-5-closing-bridge-from-misjudgment-to-what-remains",
+  "generationHash": "sha256:3613350ed2e5e54818668bd2ae81c3f17e57851ddb3c52db617d8a36035bbbfc",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Bridge — From Misjudgment to What Remains",
+      "startMs": 0.0,
+      "endMs": 3622.0,
+      "charStart": 0,
+      "charEnd": 41
+    },
+    {
+      "id": "s0002",
+      "text": "Knowing how misjudgment works does not fix a structure by itself.",
+      "startMs": 4737.0,
+      "endMs": 8951.0,
+      "charStart": 43,
+      "charEnd": 108
+    },
+    {
+      "id": "s0003",
+      "text": "It still changes what you can notice.",
+      "startMs": 9276.0,
+      "endMs": 11575.0,
+      "charStart": 110,
+      "charEnd": 147
+    },
+    {
+      "id": "s0004",
+      "text": "Which excuses you stop repeating.",
+      "startMs": 12016.0,
+      "endMs": 14117.0,
+      "charStart": 148,
+      "charEnd": 181
+    },
+    {
+      "id": "s0005",
+      "text": "Which early signals you take seriously.",
+      "startMs": 14117.0,
+      "endMs": 16416.0,
+      "charStart": 181,
+      "charEnd": 220
+    },
+    {
+      "id": "s0006",
+      "text": "Whether a path for correction can stay open—or be opened again—after the ground has shifted.",
+      "startMs": 16416.0,
+      "endMs": 22314.0,
+      "charStart": 220,
+      "charEnd": 312
+    },
+    {
+      "id": "s0007",
+      "text": "When no lens gives a clean verdict, repair still matters—not as a slogan.",
+      "startMs": 22813.0,
+      "endMs": 28491.0,
+      "charStart": 316,
+      "charEnd": 389
+    },
+    {
+      "id": "s0008",
+      "text": "Collapse is not the only shape the pattern can take.",
+      "startMs": 29188.0,
+      "endMs": 31858.0,
+      "charStart": 391,
+      "charEnd": 443
+    }
+  ]
+}

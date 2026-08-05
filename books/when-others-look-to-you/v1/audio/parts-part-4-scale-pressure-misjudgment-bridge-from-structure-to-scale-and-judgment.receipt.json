@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-4-scale-pressure-misjudgment-bridge-from-structure-to-scale-and-judgment",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-4-scale-pressure-misjudgment-bridge-from-structure-to-scale-and-judgment",
+  "sourcePath": "parts/part-4-scale-pressure-misjudgment/bridge-from-structure-to-scale-and-judgment.md",
+  "sourceHash": "sha256:9a964d435e89e3ad302cceb986eabf2c322951c2043e11507dbf4976fce22711",
+  "spokenTextHash": "sha256:72b5b8a68d9efa7627a17a116170fd6e5354ef65256e198c7a282846ea1e41d3",
+  "generationHash": "sha256:9f33d06e95c7a7c2a2778df7e8242f4d97adedcad30d29bf56ff49a8602341b5",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 863,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 215.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 215.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-4-scale-pressure-misjudgment-bridge-from-structure-to-scale-and-judgment.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-4-scale-pressure-misjudgment-bridge-from-structure-to-scale-and-judgment.mp3",
+  "audioSha256": "sha256:df0bb9048cd073a221c5e38a2809d74e9c38752a161f614cd983014b11b45ff0",
+  "generatedAt": "2026-08-05T13:01:54Z"
+}

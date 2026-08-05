@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-front-matter-preface",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "front-matter-preface",
+  "sourcePath": "front-matter/preface.md",
+  "sourceHash": "sha256:1852b00badfbf6894b480f8d41c6053f34924b14620b88b170fb2ede84b0e0c4",
+  "spokenTextHash": "sha256:d9f5a8528389b5eb4ba90ca65c3d0f33e76ac0147bd478d2faf4c0b2778a82f1",
+  "generationHash": "sha256:6d8801fc4d4c6aace4c5b66f7f922ea4cff0c5508236c443247a78f3e1426097",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2108,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 527.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 527.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/front-matter-preface.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/front-matter-preface.mp3",
+  "audioSha256": "sha256:5bfa103f7b0ce18d1b7860f3d4b00e0d45d4eb6605cf5b23dea2c478b4a89ef4",
+  "generatedAt": "2026-08-05T13:00:35Z"
+}

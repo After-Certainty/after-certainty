@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure",
+  "sourcePath": "parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md",
+  "sourceHash": "sha256:d3f7c5b7aad19471281108c43016a47379806f2dbe380130dc7fe8778b3e3999",
+  "spokenTextHash": "sha256:ba0763331b34245d7e702a0e9bbef477b08490e165695c4156d51ab07db4c633",
+  "generationHash": "sha256:44b04095904ed48f92d5bc1563e00e597c26b4c2f581a7dd54b7be12a7733a21",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 8741,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2185.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2185.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure.mp3",
+  "audioSha256": "sha256:fe438fbfd924cebe1825ae4f5b8fdb6f9f7c701bd39c4ebd3abf691c86342e8e",
+  "generatedAt": "2026-08-05T13:02:24Z"
+}

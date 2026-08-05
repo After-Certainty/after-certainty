@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-back-matter-epilogue",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "back-matter-epilogue",
+  "sourcePath": "back-matter/epilogue.md",
+  "sourceHash": "sha256:6f7858c69373b96e20110fe49bab44a8a3e6c6404efcf3671ffa6e87f456af39",
+  "spokenTextHash": "sha256:bac9c39567d3bd90c2fb2bc28d389278457b6b7b68e1ba2686fb8dd683a180bd",
+  "generationHash": "sha256:330b79666f11921c6f9342a3a8ddcc8734d719eb6dc081b05308cb6e97ec2e70",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3255,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 813.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 813.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/back-matter-epilogue.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/back-matter-epilogue.mp3",
+  "audioSha256": "sha256:58158cc2926ad3c35966d8eac8e50fc4219f9a009ad1ae9dbe14969938a00456",
+  "generatedAt": "2026-08-05T13:03:09Z"
+}

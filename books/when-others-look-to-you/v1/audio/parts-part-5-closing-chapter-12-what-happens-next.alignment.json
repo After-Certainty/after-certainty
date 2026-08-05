@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-5-closing-chapter-12-what-happens-next",
+  "generationHash": "sha256:4416047d806d84e67cd2046bcee469558938e4a7dd26e71768c4b82d09f82156",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 12 — What Happens Next",
+      "startMs": 0.0,
+      "endMs": 2613.0,
+      "charStart": 0,
+      "charEnd": 30
+    },
+    {
+      "id": "s0002",
+      "text": "The earlier chapters already installed the lenses.",
+      "startMs": 3054.0,
+      "endMs": 5829.0,
+      "charStart": 32,
+      "charEnd": 82
+    },
+    {
+      "id": "s0003",
+      "text": "What remains is how to use them together when ordinary moments keep repeating.",
+      "startMs": 5829.0,
+      "endMs": 11053.0,
+      "charStart": 82,
+      "charEnd": 160
+    },
+    {
+      "id": "s0004",
+      "text": "A dashboard can hold while side conversations carry what it leaves out.",
+      "startMs": 11866.0,
+      "endMs": 16348.0,
+      "charStart": 163,
+      "charEnd": 234
+    },
+    {
+      "id": "s0005",
+      "text": "A frontline warning can still change a plan in the room.",
+      "startMs": 16348.0,
+      "endMs": 19981.0,
+      "charStart": 234,
+      "charEnd": 290
+    },
+    {
+      "id": "s0006",
+      "text": "An emergency approval path can stay after the spike—or close on schedule so local decision rights and challenge channels return.",
+      "startMs": 19981.0,
+      "endMs": 28863.0,
+      "charStart": 290,
+      "charEnd": 418
+    },
+    {
+      "id": "s0007",
+      "text": "None of these moments looks dramatic on its own.",
+      "startMs": 30117.0,
+      "endMs": 33170.0,
+      "charStart": 421,
+      "charEnd": 469
+    },
+    {
+      "id": "s0008",
+      "text": "Together they show what keeps getting repeated.",
+      "startMs": 33553.0,
+      "endMs": 36607.0,
+      "charStart": 470,
+      "charEnd": 517
+    },
+    {
+      "id": "s0009",
+      "text": "That is Attention Finds a Focus at work: people take cues in real time, and",
+      "startMs": 37211.0,
+      "endMs": 43109.0,
+      "charStart": 519,
+      "charEnd": 594
+    },
+    {
+      "id": "s0010",
+      "text": "repeated cues become structure.",
+      "startMs": 43178.0,
+      "endMs": 45280.0,
+      "charStart": 595,
+      "charEnd": 626
+    },
+    {
+      "id": "s0011",
+      "text": "The Integrated View",
+      "startMs": 46232.0,
+      "endMs": 47509.0,
+      "charStart": 628,
+      "charEnd": 647
+    },
+    {
+      "id": "s0012",
+      "text": "The five elements are not a checklist.",
+      "startMs": 48461.0,
+      "endMs": 50887.0,
+      "charStart": 649,
+      "charEnd": 687
+    },
+    {
+      "id": "s0013",
+      "text": "They are a structural read of what repeated moments build over time.",
+      "startMs": 50887.0,
+      "endMs": 55323.0,
+      "charStart": 687,
+      "charEnd": 755
+    },
+    {
+      "id": "s0014",
+      "text": "Work through them in order.",
+      "startMs": 55706.0,
+      "endMs": 57401.0,
+      "charStart": 758,
+      "charEnd": 785
+    },
+    {
+      "id": "s0015",
+      "text": "Harm shows who pays when decisions travel.",
+      "startMs": 57842.0,
+      "endMs": 60919.0,
+      "charStart": 786,
+      "charEnd": 828
+    },
+    {
+      "id": "s0016",
+      "text": "Effectiveness shows what wins now and what is deferred.",
+      "startMs": 61163.0,
+      "endMs": 64704.0,
+      "charStart": 829,
+      "charEnd": 884
+    },
+    {
+      "id": "s0017",
+      "text": "Legitimacy shows why people keep following that direction.",
+      "startMs": 64704.0,
+      "endMs": 68326.0,
+      "charStart": 884,
+      "charEnd": 942
+    },
+    {
+      "id": "s0018",
+      "text": "Correction shows whether warning can still alter plans in time.",
+      "startMs": 68326.0,
+      "endMs": 72540.0,
+      "charStart": 942,
+      "charEnd": 1005
+    },
+    {
+      "id": "s0019",
+      "text": "Circulation shows whether leadership capacity moves through people or stays fixed at one gate.",
+      "startMs": 72540.0,
+      "endMs": 78763.0,
+      "charStart": 1005,
+      "charEnd": 1099
+    },
+    {
+      "id": "s0020",
+      "text": "Read that way, decay can still look competent for a long stretch, and renewal shows when cost stays visible near decision rights, warnings still change plans, and leadership practice circulates beyond the center.",
+      "startMs": 79344.0,
+      "endMs": 92893.0,
+      "charStart": 1104,
+      "charEnd": 1316
+    },
+    {
+      "id": "s0021",
+      "text": "Late recognition is common: by the time failure is obvious from outside, **Learning Collapse** is often already underway inside.",
+      "startMs": 92893.0,
+      "endMs": 102390.0,
+      "charStart": 1316,
+      "charEnd": 1444
+    },
+    {
+      "id": "s0022",
+      "text": "Two Trajectories",
+      "startMs": 102691.0,
+      "endMs": 103980.0,
+      "charStart": 1447,
+      "charEnd": 1463
+    },
+    {
+      "id": "s0023",
+      "text": "Repeated choices push structure in one of two directions—not personality types,",
+      "startMs": 104363.0,
+      "endMs": 110052.0,
+      "charStart": 1465,
+      "charEnd": 1544
+    },
+    {
+      "id": "s0024",
+      "text": "but where decisions add up.",
+      "startMs": 110261.0,
+      "endMs": 111968.0,
+      "charStart": 1545,
+      "charEnd": 1572
+    },
+    {
+      "id": "s0025",
+      "text": "In the first, authority stretches ahead of accountability.",
+      "startMs": 112351.0,
+      "endMs": 116043.0,
+      "charStart": 1574,
+      "charEnd": 1632
+    },
+    {
+      "id": "s0026",
+      "text": "What leaders can do and the story they tell move faster than costs, pushback, and consequences people can see.",
+      "startMs": 116043.0,
+      "endMs": 123067.0,
+      "charStart": 1632,
+      "charEnd": 1742
+    },
+    {
+      "id": "s0027",
+      "text": "In the second, authority stays tied down.",
+      "startMs": 123635.0,
+      "endMs": 126550.0,
+      "charStart": 1745,
+      "charEnd": 1786
+    },
+    {
+      "id": "s0028",
+      "text": "Power stays linked to visible consequence, correction can still change direction, and circulation still allows shared and temporary leadership when the work demands it.",
+      "startMs": 126550.0,
+      "endMs": 137358.0,
+      "charStart": 1786,
+      "charEnd": 1954
+    },
+    {
+      "id": "s0029",
+      "text": "Feedback Drives Change when plans can still move because the facts push back.",
+      "startMs": 137915.0,
+      "endMs": 143883.0,
+      "charStart": 1957,
+      "charEnd": 2034
+    },
+    {
+      "id": "s0030",
+      "text": "When the Baseline Has Already Shifted",
+      "startMs": 144057.0,
+      "endMs": 146379.0,
+      "charStart": 2036,
+      "charEnd": 2073
+    },
+    {
+      "id": "s0031",
+      "text": "One threshold is decisive: emergency permissions become ordinary",
+      "startMs": 147192.0,
+      "endMs": 151278.0,
+      "charStart": 2075,
+      "charEnd": 2139
+    },
+    {
+      "id": "s0032",
+      "text": "permissions—temporary exception, then repeated exception, then default.",
+      "startMs": 151336.0,
+      "endMs": 156480.0,
+      "charStart": 2140,
+      "charEnd": 2211
+    },
+    {
+      "id": "s0033",
+      "text": "After that baseline shifts, the practical question is sequence, not reset.",
+      "startMs": 157432.0,
+      "endMs": 162424.0,
+      "charStart": 2213,
+      "charEnd": 2287
+    },
+    {
+      "id": "s0034",
+      "text": "Reconnect decision rights to visible harm.",
+      "startMs": 163724.0,
+      "endMs": 166743.0,
+      "charStart": 2288,
+      "charEnd": 2330
+    },
+    {
+      "id": "s0035",
+      "text": "Widen pathways for correction.",
+      "startMs": 167347.0,
+      "endMs": 169390.0,
+      "charStart": 2331,
+      "charEnd": 2361
+    },
+    {
+      "id": "s0036",
+      "text": "Then reopen circulation so leadership can be handed off, practiced, and returned without penalty.",
+      "startMs": 169390.0,
+      "endMs": 176112.0,
+      "charStart": 2361,
+      "charEnd": 2458
+    },
+    {
+      "id": "s0037",
+      "text": "Repair that still routes every consequential decision through the same gate tends to snap back when the next pressure cycle hits.",
+      "startMs": 176112.0,
+      "endMs": 185180.0,
+      "charStart": 2458,
+      "charEnd": 2587
+    },
+    {
+      "id": "s0038",
+      "text": "What Circulation Makes Possible That Correction Alone Cannot",
+      "startMs": 186213.0,
+      "endMs": 191066.0,
+      "charStart": 2591,
+      "charEnd": 2651
+    },
+    {
+      "id": "s0039",
+      "text": "Correction can interrupt error.",
+      "startMs": 191182.0,
+      "endMs": 193261.0,
+      "charStart": 2653,
+      "charEnd": 2684
+    },
+    {
+      "id": "s0040",
+      "text": "It helps a center hear what it would rather not hear and change course before damage spreads.",
+      "startMs": 193261.0,
+      "endMs": 199124.0,
+      "charStart": 2684,
+      "charEnd": 2777
+    },
+    {
+      "id": "s0041",
+      "text": "But correction alone does not redistribute who gets to lead.",
+      "startMs": 199565.0,
+      "endMs": 203652.0,
+      "charStart": 2780,
+      "charEnd": 2840
+    },
+    {
+      "id": "s0042",
+      "text": "A group can accept criticism and still route every consequential decision through the same few people.",
+      "startMs": 203652.0,
+      "endMs": 209863.0,
+      "charStart": 2840,
+      "charEnd": 2942
+    },
+    {
+      "id": "s0043",
+      "text": "That can produce local repair without structural renewal.",
+      "startMs": 210304.0,
+      "endMs": 213868.0,
+      "charStart": 2944,
+      "charEnd": 3001
+    },
+    {
+      "id": "s0044",
+      "text": "Circulation changes that condition.",
+      "startMs": 214193.0,
+      "endMs": 216445.0,
+      "charStart": 3003,
+      "charEnd": 3038
+    },
+    {
+      "id": "s0045",
+      "text": "When leadership can be shared, temporarily handed off, and returned without penalty, people learn leadership from inside the role.",
+      "startMs": 216445.0,
+      "endMs": 224619.0,
+      "charStart": 3038,
+      "charEnd": 3168
+    },
+    {
+      "id": "s0046",
+      "text": "Correction helps repair errors.",
+      "startMs": 224921.0,
+      "endMs": 227011.0,
+      "charStart": 3170,
+      "charEnd": 3201
+    },
+    {
+      "id": "s0047",
+      "text": "Circulation renews who can hold the live decision point.",
+      "startMs": 227011.0,
+      "endMs": 230761.0,
+      "charStart": 3201,
+      "charEnd": 3257
+    },
+    {
+      "id": "s0048",
+      "text": "Without it, gains remain fragile—including the bench that never practiced stepping in and stepping back.",
+      "startMs": 230761.0,
+      "endMs": 237541.0,
+      "charStart": 3257,
+      "charEnd": 3361
+    },
+    {
+      "id": "s0049",
+      "text": "What Happens Next",
+      "startMs": 239015.0,
+      "endMs": 240130.0,
+      "charStart": 3365,
+      "charEnd": 3382
+    },
+    {
+      "id": "s0050",
+      "text": "What happens next is shaped less by any single decision than by repeated choices about who can see, who can challenge, and who can decide.",
+      "startMs": 241245.0,
+      "endMs": 250231.0,
+      "charStart": 3384,
+      "charEnd": 3522
+    },
+    {
+      "id": "s0051",
+      "text": "When warning can move, cost stays legible near authority, and leadership practice can circulate, renewal remains structurally possible.",
+      "startMs": 250231.0,
+      "endMs": 259937.0,
+      "charStart": 3522,
+      "charEnd": 3657
+    },
+    {
+      "id": "s0052",
+      "text": "When those conditions close, erosion compounds—even while visible performance still looks stable.",
+      "startMs": 259937.0,
+      "endMs": 266786.0,
+      "charStart": 3657,
+      "charEnd": 3754
+    },
+    {
+      "id": "s0053",
+      "text": "What outlasts any single leader is not certainty at the center, but whether leadership capacity can move.",
+      "startMs": 267494.0,
+      "endMs": 275192.0,
+      "charStart": 3758,
+      "charEnd": 3863
+    },
+    {
+      "id": "s0054",
+      "text": "That durability turns on circulation and permission: who may hold the live decision point when it counts, and whether that permission is practiced across the group or trapped at the top.",
+      "startMs": 275702.0,
+      "endMs": 286407.0,
+      "charStart": 3865,
+      "charEnd": 4051
+    },
+    {
+      "id": "s0055",
+      "text": "That is how Leadership Reproduces Itself.",
+      "startMs": 286790.0,
+      "endMs": 289646.0,
+      "charStart": 4052,
+      "charEnd": 4093
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time",
+  "sourcePath": "parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md",
+  "sourceHash": "sha256:02d55ffdbe857612d436179108a7e559b4f15aceb2809bc22e49cb4b8a516470",
+  "spokenTextHash": "sha256:4ad5fbd4ca8bf093297cb00fc6b2013c625af02855f424c749cd367280ddcab6",
+  "generationHash": "sha256:2ce1bef3f57a9bf13cc7472af7bb652dd27b66bc677c8a34557f14af681be6a6",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 9134,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2283.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2283.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time.mp3",
+  "audioSha256": "sha256:564f19b59c1d0c0774ac46f07d23407c5797ccd26f73f42d42c860f47ceb2519",
+  "generatedAt": "2026-08-05T13:01:48Z"
+}

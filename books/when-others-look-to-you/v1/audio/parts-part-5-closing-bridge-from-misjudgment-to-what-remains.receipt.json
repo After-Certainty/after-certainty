@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-5-closing-bridge-from-misjudgment-to-what-remains",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-5-closing-bridge-from-misjudgment-to-what-remains",
+  "sourcePath": "parts/part-5-closing/bridge-from-misjudgment-to-what-remains.md",
+  "sourceHash": "sha256:505c6cb3ee3f913054717a355c9d23e77df0dd6ab9bd32416d19810f70bfa70e",
+  "spokenTextHash": "sha256:b73056f836360f06b41d5063c9a1c284ac9a547acf0bb563e988630a936ab83e",
+  "generationHash": "sha256:3613350ed2e5e54818668bd2ae81c3f17e57851ddb3c52db617d8a36035bbbfc",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 443,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 110.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 110.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-5-closing-bridge-from-misjudgment-to-what-remains.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-5-closing-bridge-from-misjudgment-to-what-remains.mp3",
+  "audioSha256": "sha256:7e6bd12cc43303c116ac07a2c2042e76803c4dd9996b6c309460175c85fa9efa",
+  "generatedAt": "2026-08-05T13:02:50Z"
+}

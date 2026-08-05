@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-back-matter-appendix-a-legitimacy-transfer",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "back-matter-appendix-a-legitimacy-transfer",
+  "sourcePath": "back-matter/appendix-a-legitimacy-transfer.md",
+  "sourceHash": "sha256:ef8a3a23cd8cbd67825b3f2cdca4d2f1b45a9e23d9fee7de81a1fc628c879678",
+  "spokenTextHash": "sha256:f6b01f301edc0253c08ef181204a97970d2815d19ac955ce3d1560dc2cfd5f0d",
+  "generationHash": "sha256:fc0065114563cc4d8332e60bd107b7a63a8db45e4b7fae7a80126d0ffa47594f",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 10516,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2629.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2629.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/back-matter-appendix-a-legitimacy-transfer.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/back-matter-appendix-a-legitimacy-transfer.mp3",
+  "audioSha256": "sha256:4d549225ee711f0ba0fce59afb87c06519e950b683240c8b1e9ce5eaa839c86c",
+  "generatedAt": "2026-08-05T13:03:29Z"
+}

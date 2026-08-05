@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-front-matter-typographical-conventions",
+  "generationHash": "sha256:d3fd57e2c705d0e4fcf935857ecf1f2f171a17cf371c0d3f06ee5e0cf03bfc85",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Typographical Conventions",
+      "startMs": 0.0,
+      "endMs": 1672.0,
+      "charStart": 0,
+      "charEnd": 25
+    },
+    {
+      "id": "s0002",
+      "text": "This short section sits after the acknowledgements and before the introduction.",
+      "startMs": 2786.0,
+      "endMs": 7001.0,
+      "charStart": 27,
+      "charEnd": 106
+    },
+    {
+      "id": "s0003",
+      "text": "It only names a few recurring layout choices—nothing you need to study before reading.",
+      "startMs": 7001.0,
+      "endMs": 12202.0,
+      "charStart": 106,
+      "charEnd": 192
+    },
+    {
+      "id": "s0004",
+      "text": "Headings",
+      "startMs": 12759.0,
+      "endMs": 13270.0,
+      "charStart": 195,
+      "charEnd": 203
+    },
+    {
+      "id": "s0005",
+      "text": "Part titles, bridges between parts, and chapter titles are meant to help you find your place.",
+      "startMs": 13711.0,
+      "endMs": 19424.0,
+      "charStart": 205,
+      "charEnd": 298
+    },
+    {
+      "id": "s0006",
+      "text": "Sub-headings mark a real turn in the argument, not decoration.",
+      "startMs": 19749.0,
+      "endMs": 23499.0,
+      "charStart": 299,
+      "charEnd": 361
+    },
+    {
+      "id": "s0007",
+      "text": "Appendix B lists Pattern titles exactly as they appear there; the same",
+      "startMs": 24312.0,
+      "endMs": 29037.0,
+      "charStart": 363,
+      "charEnd": 433
+    },
+    {
+      "id": "s0008",
+      "text": "titles show up in the chapters.",
+      "startMs": 29072.0,
+      "endMs": 31011.0,
+      "charStart": 434,
+      "charEnd": 465
+    },
+    {
+      "id": "s0009",
+      "text": "Pull-quotes",
+      "startMs": 31614.0,
+      "endMs": 32474.0,
+      "charStart": 467,
+      "charEnd": 478
+    },
+    {
+      "id": "s0010",
+      "text": "Most chapters end with a short pull-quote.",
+      "startMs": 33426.0,
+      "endMs": 35980.0,
+      "charStart": 480,
+      "charEnd": 522
+    },
+    {
+      "id": "s0011",
+      "text": "It compresses the chapter’s structural point—not a slogan or a personality line.",
+      "startMs": 35980.0,
+      "endMs": 41378.0,
+      "charStart": 522,
+      "charEnd": 602
+    },
+    {
+      "id": "s0012",
+      "text": "When others look to you, your posture becomes part of their world.",
+      "startMs": 41762.0,
+      "endMs": 45535.0,
+      "charStart": 605,
+      "charEnd": 671
+    },
+    {
+      "id": "s0013",
+      "text": "Pattern blocks",
+      "startMs": 45744.0,
+      "endMs": 46847.0,
+      "charStart": 673,
+      "charEnd": 687
+    },
+    {
+      "id": "s0014",
+      "text": "In places you will see a small block that opens with Pattern: and a bold name (for example Pattern: Attention Finds a Focus).",
+      "startMs": 47799.0,
+      "endMs": 55914.0,
+      "charStart": 689,
+      "charEnd": 814
+    },
+    {
+      "id": "s0015",
+      "text": "That name is the book’s handle for a recurring dynamic.",
+      "startMs": 55914.0,
+      "endMs": 60140.0,
+      "charStart": 814,
+      "charEnd": 869
+    },
+    {
+      "id": "s0016",
+      "text": "In ordinary prose the book uses the same bold titles; it does not keep repeating the word pattern.",
+      "startMs": 60140.0,
+      "endMs": 67060.0,
+      "charStart": 869,
+      "charEnd": 967
+    },
+    {
+      "id": "s0017",
+      "text": "Pattern: Example Name",
+      "startMs": 68279.0,
+      "endMs": 71484.0,
+      "charStart": 971,
+      "charEnd": 992
+    },
+    {
+      "id": "s0018",
+      "text": "One or two sentences on what is happening in the structure of that moment.",
+      "startMs": 71553.0,
+      "endMs": 75698.0,
+      "charStart": 994,
+      "charEnd": 1068
+    },
+    {
+      "id": "s0019",
+      "text": "Vignettes",
+      "startMs": 76209.0,
+      "endMs": 77010.0,
+      "charStart": 1070,
+      "charEnd": 1079
+    },
+    {
+      "id": "s0020",
+      "text": "Some chapters use a short scene, set off from the analysis, to make an idea easier to picture.",
+      "startMs": 77962.0,
+      "endMs": 83930.0,
+      "charStart": 1081,
+      "charEnd": 1175
+    },
+    {
+      "id": "s0021",
+      "text": "The prose then picks back up and ties the scene to the chapter’s claim.",
+      "startMs": 83930.0,
+      "endMs": 88190.0,
+      "charStart": 1175,
+      "charEnd": 1246
+    },
+    {
+      "id": "s0022",
+      "text": "The room goes quiet after a mistake is named.",
+      "startMs": 88852.0,
+      "endMs": 91453.0,
+      "charStart": 1249,
+      "charEnd": 1294
+    },
+    {
+      "id": "s0023",
+      "text": "No one speaks first.",
+      "startMs": 91731.0,
+      "endMs": 92985.0,
+      "charStart": 1295,
+      "charEnd": 1315
+    },
+    {
+      "id": "s0024",
+      "text": "Then someone says, \"Let's move on,\" and the room accepts it.",
+      "startMs": 93310.0,
+      "endMs": 97896.0,
+      "charStart": 1316,
+      "charEnd": 1376
+    }
+  ]
+}

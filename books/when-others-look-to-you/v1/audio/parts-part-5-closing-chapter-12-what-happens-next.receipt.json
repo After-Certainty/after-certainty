@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-5-closing-chapter-12-what-happens-next",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-5-closing-chapter-12-what-happens-next",
+  "sourcePath": "parts/part-5-closing/chapter-12-what-happens-next.md",
+  "sourceHash": "sha256:6ba933f84db2c08cfb78e786cf6c6d17cf2b0c75b83c5dbbeb5b6ae018fca471",
+  "spokenTextHash": "sha256:39ff46a62df7996d1030efff26d7467224834d21b25b87f8e9fed791d957c338",
+  "generationHash": "sha256:4416047d806d84e67cd2046bcee469558938e4a7dd26e71768c4b82d09f82156",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 4093,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1023.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1023.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-5-closing-chapter-12-what-happens-next.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-5-closing-chapter-12-what-happens-next.mp3",
+  "audioSha256": "sha256:381daedce55c6c1cb908191d3b396c16b1dd26aa6a8634a96894cc9fbfac608b",
+  "generatedAt": "2026-08-05T13:03:00Z"
+}

@@ -1,0 +1,1600 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence",
+  "generationHash": "sha256:bbf82501927760eb97e74c54be31cb9cf3779050956faf394399343a020c1008",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 6 — Harm Under Influence",
+      "startMs": 0.0,
+      "endMs": 2659.0,
+      "charStart": 0,
+      "charEnd": 32
+    },
+    {
+      "id": "s0002",
+      "text": "Where the Cost Lands",
+      "startMs": 2810.0,
+      "endMs": 3912.0,
+      "charStart": 34,
+      "charEnd": 54
+    },
+    {
+      "id": "s0003",
+      "text": "Friday night before a holiday retail push, a cold-chain supervisor catches a gap in the temperature log for pallets staged for Monday delivery.",
+      "startMs": 5213.0,
+      "endMs": 14338.0,
+      "charStart": 56,
+      "charEnd": 199
+    },
+    {
+      "id": "s0004",
+      "text": "She stops the outbound door.",
+      "startMs": 14780.0,
+      "endMs": 16637.0,
+      "charStart": 200,
+      "charEnd": 228
+    },
+    {
+      "id": "s0005",
+      "text": "Her director keeps the trucks parked, pulls the questionable lot, and re-sequences the warehouse for a slower pack.",
+      "startMs": 16962.0,
+      "endMs": 24172.0,
+      "charStart": 229,
+      "charEnd": 344
+    },
+    {
+      "id": "s0006",
+      "text": "Retail partners get a blunt note that morning: the load will be short, timing will slip, reasons in one paragraph.",
+      "startMs": 24683.0,
+      "endMs": 32508.0,
+      "charStart": 345,
+      "charEnd": 459
+    },
+    {
+      "id": "s0007",
+      "text": "At the weekly operations huddle she does not blame the supervisor.",
+      "startMs": 33019.0,
+      "endMs": 36757.0,
+      "charStart": 460,
+      "charEnd": 526
+    },
+    {
+      "id": "s0008",
+      "text": "She names the call, the cost, and who authorized it.",
+      "startMs": 37198.0,
+      "endMs": 40705.0,
+      "charStart": 527,
+      "charEnd": 579
+    },
+    {
+      "id": "s0009",
+      "text": "The room does not applaud.",
+      "startMs": 41030.0,
+      "endMs": 42516.0,
+      "charStart": 580,
+      "charEnd": 606
+    },
+    {
+      "id": "s0010",
+      "text": "Everyone sees who made the call and stayed with the cost when the bill arrived.",
+      "startMs": 42841.0,
+      "endMs": 46753.0,
+      "charStart": 607,
+      "charEnd": 686
+    },
+    {
+      "id": "s0011",
+      "text": "Elsewhere in the same industry, another site finds the same kind of gap the same night.",
+      "startMs": 47194.0,
+      "endMs": 52256.0,
+      "charStart": 688,
+      "charEnd": 775
+    },
+    {
+      "id": "s0012",
+      "text": "The site lead could hold the door.",
+      "startMs": 52465.0,
+      "endMs": 54369.0,
+      "charStart": 776,
+      "charEnd": 810
+    },
+    {
+      "id": "s0013",
+      "text": "A big box count is committed; the forecast is already in the stores’ systems.",
+      "startMs": 54613.0,
+      "endMs": 59245.0,
+      "charStart": 811,
+      "charEnd": 888
+    },
+    {
+      "id": "s0014",
+      "text": "She approves ship with extra gel packs and a rider for drivers to check on arrival.",
+      "startMs": 59571.0,
+      "endMs": 64539.0,
+      "charStart": 889,
+      "charEnd": 972
+    },
+    {
+      "id": "s0015",
+      "text": "Nobody records the choice as failure.",
+      "startMs": 64864.0,
+      "endMs": 67372.0,
+      "charStart": 973,
+      "charEnd": 1010
+    },
+    {
+      "id": "s0016",
+      "text": "If product warms in transit, the rework lands on route teams and receiving docks.",
+      "startMs": 67813.0,
+      "endMs": 73061.0,
+      "charStart": 1011,
+      "charEnd": 1092
+    },
+    {
+      "id": "s0017",
+      "text": "The center keeps the story of on-time commitment.",
+      "startMs": 73502.0,
+      "endMs": 76567.0,
+      "charStart": 1093,
+      "charEnd": 1142
+    },
+    {
+      "id": "s0018",
+      "text": "If something goes wrong, it will show up as field noise, not as a decision in the conference room where the release was judged.",
+      "startMs": 77008.0,
+      "endMs": 83881.0,
+      "charStart": 1143,
+      "charEnd": 1270
+    },
+    {
+      "id": "s0019",
+      "text": "Two groups face the same pressure, and influence is already live in both.",
+      "startMs": 84206.0,
+      "endMs": 88641.0,
+      "charStart": 1272,
+      "charEnd": 1345
+    },
+    {
+      "id": "s0020",
+      "text": "Before the outcomes split, what splits first is where risk and cost settle while a stop is still possible.",
+      "startMs": 88641.0,
+      "endMs": 95770.0,
+      "charStart": 1345,
+      "charEnd": 1451
+    },
+    {
+      "id": "s0021",
+      "text": "Then read harm's route early.",
+      "startMs": 96037.0,
+      "endMs": 98081.0,
+      "charStart": 1454,
+      "charEnd": 1483
+    },
+    {
+      "id": "s0022",
+      "text": "Watch who absorbs, who pays, and what the room is allowed to say out loud.",
+      "startMs": 98081.0,
+      "endMs": 102910.0,
+      "charStart": 1483,
+      "charEnd": 1557
+    },
+    {
+      "id": "s0023",
+      "text": "Leadership Routes Harm",
+      "startMs": 103990.0,
+      "endMs": 106335.0,
+      "charStart": 1560,
+      "charEnd": 1582
+    },
+    {
+      "id": "s0024",
+      "text": "Leadership does not remove harm.",
+      "startMs": 107148.0,
+      "endMs": 109226.0,
+      "charStart": 1584,
+      "charEnd": 1616
+    },
+    {
+      "id": "s0025",
+      "text": "It directs where harm goes.",
+      "startMs": 109354.0,
+      "endMs": 111200.0,
+      "charStart": 1617,
+      "charEnd": 1644
+    },
+    {
+      "id": "s0026",
+      "text": "When others look to someone for direction, trace what follows.",
+      "startMs": 111409.0,
+      "endMs": 114973.0,
+      "charStart": 1646,
+      "charEnd": 1708
+    },
+    {
+      "id": "s0027",
+      "text": "Decisions reach farther than they would from a single desk.",
+      "startMs": 115356.0,
+      "endMs": 118549.0,
+      "charStart": 1709,
+      "charEnd": 1768
+    },
+    {
+      "id": "s0028",
+      "text": "Benefits spread, and costs spread with them.",
+      "startMs": 118549.0,
+      "endMs": 121649.0,
+      "charStart": 1768,
+      "charEnd": 1812
+    },
+    {
+      "id": "s0029",
+      "text": "A missed warning in one role can widen into loss for many people.",
+      "startMs": 121649.0,
+      "endMs": 125991.0,
+      "charStart": 1812,
+      "charEnd": 1877
+    },
+    {
+      "id": "s0030",
+      "text": "Where harm lands sits at the center of leadership—not ethics bolted on at the end, but part of what directing people actually means.",
+      "startMs": 125991.0,
+      "endMs": 134292.0,
+      "charStart": 1877,
+      "charEnd": 2009
+    },
+    {
+      "id": "s0031",
+      "text": "Most leaders believe they are acting for good.",
+      "startMs": 135476.0,
+      "endMs": 137961.0,
+      "charStart": 2014,
+      "charEnd": 2060
+    },
+    {
+      "id": "s0032",
+      "text": "The decisive question is not only intent.",
+      "startMs": 137961.0,
+      "endMs": 141502.0,
+      "charStart": 2060,
+      "charEnd": 2101
+    },
+    {
+      "id": "s0033",
+      "text": "It is who pays when pressure rises.",
+      "startMs": 141861.0,
+      "endMs": 144392.0,
+      "charStart": 2103,
+      "charEnd": 2138
+    },
+    {
+      "id": "s0034",
+      "text": "How Harm Moves",
+      "startMs": 145507.0,
+      "endMs": 146714.0,
+      "charStart": 2140,
+      "charEnd": 2154
+    },
+    {
+      "id": "s0035",
+      "text": "Start with a concrete anchor: follow where the cost ends up.",
+      "startMs": 147829.0,
+      "endMs": 151556.0,
+      "charStart": 2156,
+      "charEnd": 2216
+    },
+    {
+      "id": "s0036",
+      "text": "In vibrant groups, people with authority are more likely to absorb part of the cost of their own decisions.",
+      "startMs": 152369.0,
+      "endMs": 158615.0,
+      "charStart": 2218,
+      "charEnd": 2325
+    },
+    {
+      "id": "s0037",
+      "text": "They do not absorb all of it; what holds is the visible link between decision rights and accountability—as in the first opening scene, where stopping the load tied cost to the person who could still say no.",
+      "startMs": 158615.0,
+      "endMs": 171606.0,
+      "charStart": 2325,
+      "charEnd": 2531
+    },
+    {
+      "id": "s0038",
+      "text": "In decaying groups, costs move downward or outward.",
+      "startMs": 172547.0,
+      "endMs": 176134.0,
+      "charStart": 2534,
+      "charEnd": 2585
+    },
+    {
+      "id": "s0039",
+      "text": "Those closest to the consequences, people the decision touches, or peripheral groups absorb the effects while central decision-makers keep control of the public story—as in the second opening scene, where risk traveled toward drivers and docks while the commitment story stayed intact.",
+      "startMs": 176134.0,
+      "endMs": 194339.0,
+      "charStart": 2585,
+      "charEnd": 2870
+    },
+    {
+      "id": "s0040",
+      "text": "People frame that displacement as necessity, but when displacement repeats, read it as an early warning, not an unfortunate accident.",
+      "startMs": 194339.0,
+      "endMs": 203882.0,
+      "charStart": 2870,
+      "charEnd": 3003
+    },
+    {
+      "id": "s0041",
+      "text": "What happens next surfaces the fork.",
+      "startMs": 204880.0,
+      "endMs": 207632.0,
+      "charStart": 3007,
+      "charEnd": 3043
+    },
+    {
+      "id": "s0042",
+      "text": "That is where the four postures below start to separate: whether leadership absorbs, tolerates, instrumentalizes, or simply misses harm.",
+      "startMs": 207632.0,
+      "endMs": 218092.0,
+      "charStart": 3043,
+      "charEnd": 3179
+    },
+    {
+      "id": "s0043",
+      "text": "How Harm Gets Displaced",
+      "startMs": 218685.0,
+      "endMs": 220647.0,
+      "charStart": 3182,
+      "charEnd": 3205
+    },
+    {
+      "id": "s0044",
+      "text": "Harm usually moves along a few predictable channels.",
+      "startMs": 221947.0,
+      "endMs": 225302.0,
+      "charStart": 3207,
+      "charEnd": 3259
+    },
+    {
+      "id": "s0045",
+      "text": "More than one can run at the same time.",
+      "startMs": 225302.0,
+      "endMs": 227647.0,
+      "charStart": 3259,
+      "charEnd": 3298
+    },
+    {
+      "id": "s0046",
+      "text": "When costs move downward, people with less voice carry the extra load—hourly",
+      "startMs": 227938.0,
+      "endMs": 233209.0,
+      "charStart": 3301,
+      "charEnd": 3377
+    },
+    {
+      "id": "s0047",
+      "text": "staff, contractors, satellite sites, anyone who cannot easily refuse a plan that",
+      "startMs": 233278.0,
+      "endMs": 239083.0,
+      "charStart": 3378,
+      "charEnd": 3458
+    },
+    {
+      "id": "s0048",
+      "text": "already shipped.",
+      "startMs": 239141.0,
+      "endMs": 240221.0,
+      "charStart": 3459,
+      "charEnd": 3475
+    },
+    {
+      "id": "s0049",
+      "text": "When costs move outward, the people the decision touches pay first—customers,",
+      "startMs": 240662.0,
+      "endMs": 246340.0,
+      "charStart": 3477,
+      "charEnd": 3554
+    },
+    {
+      "id": "s0050",
+      "text": "clients, neighbors, patients, students—especially when the group treats their",
+      "startMs": 246421.0,
+      "endMs": 251947.0,
+      "charStart": 3555,
+      "charEnd": 3632
+    },
+    {
+      "id": "s0051",
+      "text": "experience as distant from \"our\" metrics.",
+      "startMs": 252005.0,
+      "endMs": 254849.0,
+      "charStart": 3633,
+      "charEnd": 3674
+    },
+    {
+      "id": "s0052",
+      "text": "When costs move forward, tomorrow's team inherits today's shortcut: tomorrow's debt, rework, rebuild, or reputation repair.",
+      "startMs": 255174.0,
+      "endMs": 263754.0,
+      "charStart": 3676,
+      "charEnd": 3799
+    },
+    {
+      "id": "s0053",
+      "text": "The deferral reads as manageable until the balance comes due.",
+      "startMs": 263754.0,
+      "endMs": 267806.0,
+      "charStart": 3799,
+      "charEnd": 3860
+    },
+    {
+      "id": "s0054",
+      "text": "When costs move inward, they hide inside the organization as exhaustion, fear, silence, or off-channel fixes.",
+      "startMs": 268189.0,
+      "endMs": 275945.0,
+      "charStart": 3863,
+      "charEnd": 3972
+    },
+    {
+      "id": "s0055",
+      "text": "The surface story can stay polished while daily practice splits from what the official process says.",
+      "startMs": 275945.0,
+      "endMs": 282203.0,
+      "charStart": 3972,
+      "charEnd": 4072
+    },
+    {
+      "id": "s0056",
+      "text": "The more these channels repeat, the harder correction becomes.",
+      "startMs": 282853.0,
+      "endMs": 286521.0,
+      "charStart": 4075,
+      "charEnd": 4137
+    },
+    {
+      "id": "s0057",
+      "text": "Repetition also teaches what the next person in charge is likely to copy—Leadership Reproduces Itself.",
+      "startMs": 286521.0,
+      "endMs": 293278.0,
+      "charStart": 4137,
+      "charEnd": 4239
+    },
+    {
+      "id": "s0058",
+      "text": "Under crisis pressure, displacement sharpens.",
+      "startMs": 293928.0,
+      "endMs": 296680.0,
+      "charStart": 4242,
+      "charEnd": 4287
+    },
+    {
+      "id": "s0059",
+      "text": "Harm is reframed as necessary, and displacement is treated as temporary even when it has already become habit.",
+      "startMs": 296680.0,
+      "endMs": 304006.0,
+      "charStart": 4287,
+      "charEnd": 4397
+    },
+    {
+      "id": "s0060",
+      "text": "Four Harm Postures",
+      "startMs": 304621.0,
+      "endMs": 305980.0,
+      "charStart": 4400,
+      "charEnd": 4418
+    },
+    {
+      "id": "s0061",
+      "text": "Leaders and groups settle into four recurring ways of handling harm.",
+      "startMs": 306491.0,
+      "endMs": 311019.0,
+      "charStart": 4420,
+      "charEnd": 4488
+    },
+    {
+      "id": "s0062",
+      "text": "Read these postures as stance, not as moral rankings.",
+      "startMs": 311019.0,
+      "endMs": 315094.0,
+      "charStart": 4488,
+      "charEnd": 4541
+    },
+    {
+      "id": "s0063",
+      "text": "Circulation comes in two states.",
+      "startMs": 315488.0,
+      "endMs": 317926.0,
+      "charStart": 4544,
+      "charEnd": 4576
+    },
+    {
+      "id": "s0064",
+      "text": "When circulation is open, risk and temporary authority move more freely.",
+      "startMs": 317926.0,
+      "endMs": 322861.0,
+      "charStart": 4576,
+      "charEnd": 4648
+    },
+    {
+      "id": "s0065",
+      "text": "Patterns are easier to interrupt before harm hardens.",
+      "startMs": 322861.0,
+      "endMs": 326332.0,
+      "charStart": 4648,
+      "charEnd": 4701
+    },
+    {
+      "id": "s0066",
+      "text": "When circulation is captured, those patterns harden instead.",
+      "startMs": 326878.0,
+      "endMs": 330698.0,
+      "charStart": 4705,
+      "charEnd": 4765
+    },
+    {
+      "id": "s0067",
+      "text": "Absorbing work piles onto a few people.",
+      "startMs": 330698.0,
+      "endMs": 333647.0,
+      "charStart": 4765,
+      "charEnd": 4804
+    },
+    {
+      "id": "s0068",
+      "text": "Tolerance becomes routine.",
+      "startMs": 334007.0,
+      "endMs": 335702.0,
+      "charStart": 4806,
+      "charEnd": 4832
+    },
+    {
+      "id": "s0069",
+      "text": "Instrumental tradeoffs spread outward.",
+      "startMs": 335702.0,
+      "endMs": 338128.0,
+      "charStart": 4832,
+      "charEnd": 4870
+    },
+    {
+      "id": "s0070",
+      "text": "Blind spots stay in place.",
+      "startMs": 338523.0,
+      "endMs": 340589.0,
+      "charStart": 4872,
+      "charEnd": 4898
+    },
+    {
+      "id": "s0071",
+      "text": "Harm-Absorbing",
+      "startMs": 341704.0,
+      "endMs": 342726.0,
+      "charStart": 4900,
+      "charEnd": 4914
+    },
+    {
+      "id": "s0072",
+      "text": "Harm-absorbing leadership means people with decision power also take on part of the cost.",
+      "startMs": 343840.0,
+      "endMs": 349541.0,
+      "charStart": 4916,
+      "charEnd": 5005
+    },
+    {
+      "id": "s0073",
+      "text": "The group can still see that linkage.",
+      "startMs": 350144.0,
+      "endMs": 352385.0,
+      "charStart": 5006,
+      "charEnd": 5043
+    },
+    {
+      "id": "s0074",
+      "text": "Leaders who absorb follow a small sequence.",
+      "startMs": 352768.0,
+      "endMs": 355647.0,
+      "charStart": 5045,
+      "charEnd": 5088
+    },
+    {
+      "id": "s0075",
+      "text": "They acknowledge error early.",
+      "startMs": 355856.0,
+      "endMs": 357668.0,
+      "charStart": 5089,
+      "charEnd": 5118
+    },
+    {
+      "id": "s0076",
+      "text": "They shield people closest to avoidable fallout where they can.",
+      "startMs": 357668.0,
+      "endMs": 361231.0,
+      "charStart": 5118,
+      "charEnd": 5181
+    },
+    {
+      "id": "s0077",
+      "text": "They adjust scope when warning signals appear.",
+      "startMs": 361231.0,
+      "endMs": 364923.0,
+      "charStart": 5181,
+      "charEnd": 5227
+    },
+    {
+      "id": "s0078",
+      "text": "This posture does not eliminate loss; it ties authority to accountability.",
+      "startMs": 364923.0,
+      "endMs": 370566.0,
+      "charStart": 5227,
+      "charEnd": 5301
+    },
+    {
+      "id": "s0079",
+      "text": "The cold-chain stop already shows the link.",
+      "startMs": 371727.0,
+      "endMs": 374536.0,
+      "charStart": 5306,
+      "charEnd": 5349
+    },
+    {
+      "id": "s0080",
+      "text": "So can a quieter case: an inspector flags a rivet batch that tests inside tolerance but shows odd variance under vibration.",
+      "startMs": 374536.0,
+      "endMs": 383627.0,
+      "charStart": 5349,
+      "charEnd": 5472
+    },
+    {
+      "id": "s0081",
+      "text": "The plant manager could wait for Monday’s metallurgy review and still clear the day’s panel order.",
+      "startMs": 383627.0,
+      "endMs": 389060.0,
+      "charStart": 5472,
+      "charEnd": 5570
+    },
+    {
+      "id": "s0082",
+      "text": "She stops the run, takes the overtime dispute into the steward’s office, and stays until the schedule is one she will defend if the customer pushes back.",
+      "startMs": 389060.0,
+      "endMs": 398464.0,
+      "charStart": 5570,
+      "charEnd": 5723
+    },
+    {
+      "id": "s0083",
+      "text": "The person who could authorize risk stays visible when the cost lands.",
+      "startMs": 398464.0,
+      "endMs": 403433.0,
+      "charStart": 5723,
+      "charEnd": 5793
+    },
+    {
+      "id": "s0084",
+      "text": "Harm-Tolerant",
+      "startMs": 405082.0,
+      "endMs": 406185.0,
+      "charStart": 5799,
+      "charEnd": 5812
+    },
+    {
+      "id": "s0085",
+      "text": "Harm-tolerant leadership means the same kinds of harm keep showing up.",
+      "startMs": 407299.0,
+      "endMs": 411676.0,
+      "charStart": 5814,
+      "charEnd": 5884
+    },
+    {
+      "id": "s0086",
+      "text": "The group treats them as the cost of keeping things moving.",
+      "startMs": 411676.0,
+      "endMs": 415020.0,
+      "charStart": 5884,
+      "charEnd": 5943
+    },
+    {
+      "id": "s0087",
+      "text": "Begin with decaying groups.",
+      "startMs": 415833.0,
+      "endMs": 417656.0,
+      "charStart": 5946,
+      "charEnd": 5973
+    },
+    {
+      "id": "s0088",
+      "text": "Attention narrows to tasks and to relationships inside the inner circle.",
+      "startMs": 417656.0,
+      "endMs": 422509.0,
+      "charStart": 5973,
+      "charEnd": 6045
+    },
+    {
+      "id": "s0089",
+      "text": "What happens outside that ring is easier to mute.",
+      "startMs": 423147.0,
+      "endMs": 426351.0,
+      "charStart": 6047,
+      "charEnd": 6096
+    },
+    {
+      "id": "s0090",
+      "text": "Harm still shows up—missed cues, tired people, side effects—and the group learns to treat that pattern as background noise.",
+      "startMs": 426351.0,
+      "endMs": 435431.0,
+      "charStart": 6096,
+      "charEnd": 6219
+    },
+    {
+      "id": "s0091",
+      "text": "Outwardly, everything still looks on track.",
+      "startMs": 435431.0,
+      "endMs": 438321.0,
+      "charStart": 6219,
+      "charEnd": 6262
+    },
+    {
+      "id": "s0092",
+      "text": "Someone focused only on task achievement can still do enormous relational damage.",
+      "startMs": 438321.0,
+      "endMs": 444243.0,
+      "charStart": 6262,
+      "charEnd": 6343
+    },
+    {
+      "id": "s0093",
+      "text": "The work keeps moving while trust frays.",
+      "startMs": 444881.0,
+      "endMs": 447691.0,
+      "charStart": 6347,
+      "charEnd": 6387
+    },
+    {
+      "id": "s0094",
+      "text": "Compare vibrant groups.",
+      "startMs": 448016.0,
+      "endMs": 449722.0,
+      "charStart": 6389,
+      "charEnd": 6412
+    },
+    {
+      "id": "s0095",
+      "text": "More people and relationships stay in view.",
+      "startMs": 449931.0,
+      "endMs": 452660.0,
+      "charStart": 6413,
+      "charEnd": 6456
+    },
+    {
+      "id": "s0096",
+      "text": "Harm is harder to ignore without someone naming it.",
+      "startMs": 452660.0,
+      "endMs": 455934.0,
+      "charStart": 6456,
+      "charEnd": 6507
+    },
+    {
+      "id": "s0097",
+      "text": "Either way, the trade stays the same: continuity over repair.",
+      "startMs": 455934.0,
+      "endMs": 460949.0,
+      "charStart": 6507,
+      "charEnd": 6568
+    },
+    {
+      "id": "s0098",
+      "text": "Talk shifts from repair to rationalization: \"This is just how things are at this scale.\" Over time, small preventable harms settle in as normal.",
+      "startMs": 460949.0,
+      "endMs": 472640.0,
+      "charStart": 6568,
+      "charEnd": 6712
+    },
+    {
+      "id": "s0099",
+      "text": "A parcel hub can name the pattern without changing it.",
+      "startMs": 473476.0,
+      "endMs": 476541.0,
+      "charStart": 6717,
+      "charEnd": 6771
+    },
+    {
+      "id": "s0100",
+      "text": "Ergonomic injuries spike in the same January surge three years running.",
+      "startMs": 476541.0,
+      "endMs": 481743.0,
+      "charStart": 6771,
+      "charEnd": 6842
+    },
+    {
+      "id": "s0101",
+      "text": "Warm-up drills and better gloves arrive.",
+      "startMs": 481743.0,
+      "endMs": 484390.0,
+      "charStart": 6842,
+      "charEnd": 6882
+    },
+    {
+      "id": "s0102",
+      "text": "The picks-per-hour target does not move.",
+      "startMs": 484704.0,
+      "endMs": 487084.0,
+      "charStart": 6885,
+      "charEnd": 6925
+    },
+    {
+      "id": "s0103",
+      "text": "Leadership calls it season.",
+      "startMs": 487258.0,
+      "endMs": 489115.0,
+      "charStart": 6926,
+      "charEnd": 6953
+    },
+    {
+      "id": "s0104",
+      "text": "The story that matters is still the number on the board.",
+      "startMs": 489115.0,
+      "endMs": 492273.0,
+      "charStart": 6953,
+      "charEnd": 7009
+    },
+    {
+      "id": "s0105",
+      "text": "Harm-tolerant groups often know something is wrong.",
+      "startMs": 492273.0,
+      "endMs": 495605.0,
+      "charStart": 7009,
+      "charEnd": 7060
+    },
+    {
+      "id": "s0106",
+      "text": "What holds is treating recurrence as normal overhead rather than as a signal to change the plan.",
+      "startMs": 495605.0,
+      "endMs": 501318.0,
+      "charStart": 7060,
+      "charEnd": 7156
+    },
+    {
+      "id": "s0107",
+      "text": "Harm-Instrumental",
+      "startMs": 502978.0,
+      "endMs": 504104.0,
+      "charStart": 7161,
+      "charEnd": 7178
+    },
+    {
+      "id": "s0108",
+      "text": "Harm-instrumental leadership treats some people as expendable so a prized goal or",
+      "startMs": 505219.0,
+      "endMs": 510362.0,
+      "charStart": 7180,
+      "charEnd": 7261
+    },
+    {
+      "id": "s0109",
+      "text": "timeline can stay intact.",
+      "startMs": 510432.0,
+      "endMs": 512312.0,
+      "charStart": 7262,
+      "charEnd": 7287
+    },
+    {
+      "id": "s0110",
+      "text": "Lay out the logic in the order people hear it.",
+      "startMs": 512823.0,
+      "endMs": 515412.0,
+      "charStart": 7289,
+      "charEnd": 7335
+    },
+    {
+      "id": "s0111",
+      "text": "Keep momentum.",
+      "startMs": 515691.0,
+      "endMs": 516794.0,
+      "charStart": 7336,
+      "charEnd": 7350
+    },
+    {
+      "id": "s0112",
+      "text": "Protect those at the center.",
+      "startMs": 516794.0,
+      "endMs": 518442.0,
+      "charStart": 7350,
+      "charEnd": 7378
+    },
+    {
+      "id": "s0113",
+      "text": "Pass cost outward.",
+      "startMs": 518790.0,
+      "endMs": 520323.0,
+      "charStart": 7380,
+      "charEnd": 7398
+    },
+    {
+      "id": "s0114",
+      "text": "That recipe sounds efficient.",
+      "startMs": 520648.0,
+      "endMs": 522575.0,
+      "charStart": 7399,
+      "charEnd": 7428
+    },
+    {
+      "id": "s0115",
+      "text": "Then watch repetition.",
+      "startMs": 522726.0,
+      "endMs": 524270.0,
+      "charStart": 7429,
+      "charEnd": 7451
+    },
+    {
+      "id": "s0116",
+      "text": "When the pattern repeats, trust erodes, quiet refusal grows, and the group's ability to act weakens.",
+      "startMs": 524270.0,
+      "endMs": 532351.0,
+      "charStart": 7451,
+      "charEnd": 7551
+    },
+    {
+      "id": "s0117",
+      "text": "The Tournament Weekend",
+      "startMs": 533187.0,
+      "endMs": 534487.0,
+      "charStart": 7554,
+      "charEnd": 7576
+    },
+    {
+      "id": "s0118",
+      "text": "A youth soccer club is one week out from hosting a regional tournament.",
+      "startMs": 534998.0,
+      "endMs": 539085.0,
+      "charStart": 7578,
+      "charEnd": 7649
+    },
+    {
+      "id": "s0119",
+      "text": "A volunteer who helps maintain the fields notices a goal on the secondary pitch is still not anchored to code.",
+      "startMs": 539595.0,
+      "endMs": 546677.0,
+      "charStart": 7650,
+      "charEnd": 7760
+    },
+    {
+      "id": "s0120",
+      "text": "She raises it at the coaches’ meeting.",
+      "startMs": 547374.0,
+      "endMs": 549592.0,
+      "charStart": 7761,
+      "charEnd": 7799
+    },
+    {
+      "id": "s0121",
+      "text": "The club president answers: they cannot slip the bracket; hotels are full; sponsor banners are already staged for the main pitch photoshoot.",
+      "startMs": 550102.0,
+      "endMs": 560423.0,
+      "charStart": 7800,
+      "charEnd": 7940
+    },
+    {
+      "id": "s0122",
+      "text": "“Note it for after regionals,” he says.",
+      "startMs": 561027.0,
+      "endMs": 563860.0,
+      "charStart": 7941,
+      "charEnd": 7980
+    },
+    {
+      "id": "s0123",
+      "text": "“We need both fields live for scheduling.” That first answer is where the club learns what will count for everything that follows.",
+      "startMs": 564185.0,
+      "endMs": 572312.0,
+      "charStart": 7981,
+      "charEnd": 8111
+    },
+    {
+      "id": "s0124",
+      "text": "The trade is explicit: visitors and kids on the secondary pitch carry the exposure so the hosted weekend and the center’s story stay intact.",
+      "startMs": 572915.0,
+      "endMs": 581936.0,
+      "charStart": 8112,
+      "charEnd": 8252
+    },
+    {
+      "id": "s0125",
+      "text": "The tournament finishes on schedule.",
+      "startMs": 582261.0,
+      "endMs": 584212.0,
+      "charStart": 8254,
+      "charEnd": 8290
+    },
+    {
+      "id": "s0126",
+      "text": "Sponsor photos look great.",
+      "startMs": 584456.0,
+      "endMs": 586302.0,
+      "charStart": 8291,
+      "charEnd": 8317
+    },
+    {
+      "id": "s0127",
+      "text": "Two weeks later, angry calls roll in after a collision in front of a net that shifts.",
+      "startMs": 586685.0,
+      "endMs": 591538.0,
+      "charStart": 8318,
+      "charEnd": 8403
+    },
+    {
+      "id": "s0128",
+      "text": "The volunteer who raised the warning is told to be “more of a team player” next time.",
+      "startMs": 591863.0,
+      "endMs": 596205.0,
+      "charStart": 8404,
+      "charEnd": 8489
+    },
+    {
+      "id": "s0129",
+      "text": "That vignette is harm-instrumental in compact form: a named schedule and a reputation goal win; a named population absorbs the downside.",
+      "startMs": 596809.0,
+      "endMs": 605772.0,
+      "charStart": 8491,
+      "charEnd": 8627
+    },
+    {
+      "id": "s0130",
+      "text": "Examples Accumulate in that first beat—what gets rewarded or punished teaches everyone watching.",
+      "startMs": 605772.0,
+      "endMs": 614073.0,
+      "charStart": 8627,
+      "charEnd": 8723
+    },
+    {
+      "id": "s0131",
+      "text": "Harm-Blind",
+      "startMs": 614607.0,
+      "endMs": 615501.0,
+      "charStart": 8726,
+      "charEnd": 8736
+    },
+    {
+      "id": "s0132",
+      "text": "Harm-blind leadership does not track consequences where they are actually felt.",
+      "startMs": 616314.0,
+      "endMs": 620923.0,
+      "charStart": 8738,
+      "charEnd": 8817
+    },
+    {
+      "id": "s0133",
+      "text": "Move through the pattern in short steps.",
+      "startMs": 621307.0,
+      "endMs": 623756.0,
+      "charStart": 8819,
+      "charEnd": 8859
+    },
+    {
+      "id": "s0134",
+      "text": "Things may look fine on the surface while people's lives get harder.",
+      "startMs": 623756.0,
+      "endMs": 627889.0,
+      "charStart": 8859,
+      "charEnd": 8927
+    },
+    {
+      "id": "s0135",
+      "text": "Leaders see what is easy to track and miss what people are carrying.",
+      "startMs": 628505.0,
+      "endMs": 632348.0,
+      "charStart": 8929,
+      "charEnd": 8997
+    },
+    {
+      "id": "s0136",
+      "text": "Groups are not always cruel; they can be blind without intending cruelty.",
+      "startMs": 632626.0,
+      "endMs": 637374.0,
+      "charStart": 8998,
+      "charEnd": 9071
+    },
+    {
+      "id": "s0137",
+      "text": "Blind groups still cause harm.",
+      "startMs": 637374.0,
+      "endMs": 639546.0,
+      "charStart": 9071,
+      "charEnd": 9101
+    },
+    {
+      "id": "s0138",
+      "text": "A leadership review can live in a green dashboard—pipeline, bookings, churn—while onboarding runs triple-booked installs and customers trade fixes in threads executives never open.",
+      "startMs": 639987.0,
+      "endMs": 651748.0,
+      "charStart": 9104,
+      "charEnd": 9284
+    },
+    {
+      "id": "s0139",
+      "text": "No one decides to ignore anyone.",
+      "startMs": 652131.0,
+      "endMs": 654220.0,
+      "charStart": 9285,
+      "charEnd": 9317
+    },
+    {
+      "id": "s0140",
+      "text": "The scorecard was never built to show the channels where the harm gathers.",
+      "startMs": 654220.0,
+      "endMs": 658260.0,
+      "charStart": 9317,
+      "charEnd": 9391
+    },
+    {
+      "id": "s0141",
+      "text": "Tolerance often names the strain and chooses continuity anyway.",
+      "startMs": 658260.0,
+      "endMs": 662405.0,
+      "charStart": 9391,
+      "charEnd": 9454
+    },
+    {
+      "id": "s0142",
+      "text": "Blindness misses the strain where it actually lands.",
+      "startMs": 662405.0,
+      "endMs": 665853.0,
+      "charStart": 9454,
+      "charEnd": 9506
+    },
+    {
+      "id": "s0143",
+      "text": "What the Room Stores",
+      "startMs": 667397.0,
+      "endMs": 668268.0,
+      "charStart": 9511,
+      "charEnd": 9531
+    },
+    {
+      "id": "s0144",
+      "text": "Leaders Feel the Consequences means people who decide stay tied to what their choices do to others.",
+      "startMs": 668338.0,
+      "endMs": 674492.0,
+      "charStart": 9533,
+      "charEnd": 9632
+    },
+    {
+      "id": "s0145",
+      "text": "The tie shows when cost becomes visible in the same rooms where decisions are made.",
+      "startMs": 674492.0,
+      "endMs": 679670.0,
+      "charStart": 9632,
+      "charEnd": 9715
+    },
+    {
+      "id": "s0146",
+      "text": "When Leaders Do Not Feel the Consequences, decision-makers lose contact with who bears the cost.",
+      "startMs": 681086.0,
+      "endMs": 687309.0,
+      "charStart": 9718,
+      "charEnd": 9814
+    },
+    {
+      "id": "s0147",
+      "text": "The group can slide into harm-tolerant or harm-instrumental routines even while leaders describe those decisions as necessary.",
+      "startMs": 687309.0,
+      "endMs": 695053.0,
+      "charStart": 9814,
+      "charEnd": 9940
+    },
+    {
+      "id": "s0148",
+      "text": "It can also slide into harm-blind routines when signals never reach the chart leaders watch.",
+      "startMs": 695053.0,
+      "endMs": 700985.0,
+      "charStart": 9940,
+      "charEnd": 10032
+    },
+    {
+      "id": "s0149",
+      "text": "Boundaries and Agency",
+      "startMs": 701717.0,
+      "endMs": 703111.0,
+      "charStart": 10036,
+      "charEnd": 10057
+    },
+    {
+      "id": "s0150",
+      "text": "Harm-absorbing leadership has a boundary.",
+      "startMs": 703552.0,
+      "endMs": 706083.0,
+      "charStart": 10059,
+      "charEnd": 10100
+    },
+    {
+      "id": "s0151",
+      "text": "Taking on cost can be responsible.",
+      "startMs": 706466.0,
+      "endMs": 709136.0,
+      "charStart": 10102,
+      "charEnd": 10136
+    },
+    {
+      "id": "s0152",
+      "text": "It can also become distortion when it removes other people from responsibility they still need to carry.",
+      "startMs": 709136.0,
+      "endMs": 715638.0,
+      "charStart": 10136,
+      "charEnd": 10240
+    },
+    {
+      "id": "s0153",
+      "text": "When one leader absorbs every consequence on repeat, watch what downstream turns off.",
+      "startMs": 716195.0,
+      "endMs": 722151.0,
+      "charStart": 10243,
+      "charEnd": 10328
+    },
+    {
+      "id": "s0154",
+      "text": "Teams may stop naming risk.",
+      "startMs": 722360.0,
+      "endMs": 724357.0,
+      "charStart": 10329,
+      "charEnd": 10356
+    },
+    {
+      "id": "s0155",
+      "text": "Peers may stop correcting decisions.",
+      "startMs": 724636.0,
+      "endMs": 727062.0,
+      "charStart": 10357,
+      "charEnd": 10393
+    },
+    {
+      "id": "s0156",
+      "text": "People farther from the front line may stop fixing what breaks.",
+      "startMs": 727062.0,
+      "endMs": 731172.0,
+      "charStart": 10393,
+      "charEnd": 10456
+    },
+    {
+      "id": "s0157",
+      "text": "Harm is not reduced in that pattern—it defers and concentrates.",
+      "startMs": 731172.0,
+      "endMs": 736118.0,
+      "charStart": 10456,
+      "charEnd": 10519
+    },
+    {
+      "id": "s0158",
+      "text": "Then ask what absorption is doing.",
+      "startMs": 736675.0,
+      "endMs": 738707.0,
+      "charStart": 10523,
+      "charEnd": 10557
+    },
+    {
+      "id": "s0159",
+      "text": "Watch whether harm absorption increases shared responsibility or replaces it.",
+      "startMs": 738707.0,
+      "endMs": 743909.0,
+      "charStart": 10557,
+      "charEnd": 10634
+    },
+    {
+      "id": "s0160",
+      "text": "When it increases shared responsibility, trust and capacity grow.",
+      "startMs": 744408.0,
+      "endMs": 749133.0,
+      "charStart": 10637,
+      "charEnd": 10702
+    },
+    {
+      "id": "s0161",
+      "text": "When it replaces responsibility, everyone else's room to act shrinks and future harm becomes more likely.",
+      "startMs": 749133.0,
+      "endMs": 756796.0,
+      "charStart": 10702,
+      "charEnd": 10807
+    },
+    {
+      "id": "s0162",
+      "text": "Selective Followership and Harm",
+      "startMs": 758061.0,
+      "endMs": 760024.0,
+      "charStart": 10810,
+      "charEnd": 10841
+    },
+    {
+      "id": "s0163",
+      "text": "Selective followership is one of the earliest harm indicators.",
+      "startMs": 761138.0,
+      "endMs": 765144.0,
+      "charStart": 10843,
+      "charEnd": 10905
+    },
+    {
+      "id": "s0164",
+      "text": "Place two settings side by side.",
+      "startMs": 765840.0,
+      "endMs": 768046.0,
+      "charStart": 10907,
+      "charEnd": 10939
+    },
+    {
+      "id": "s0165",
+      "text": "In healthier ones, people can say, \"This direction creates avoidable damage,\" and still be heard.",
+      "startMs": 768046.0,
+      "endMs": 774757.0,
+      "charStart": 10939,
+      "charEnd": 11036
+    },
+    {
+      "id": "s0166",
+      "text": "Selective refusal functions as warning.",
+      "startMs": 775860.0,
+      "endMs": 778635.0,
+      "charStart": 11038,
+      "charEnd": 11077
+    },
+    {
+      "id": "s0167",
+      "text": "In decaying settings, the sequence shifts.",
+      "startMs": 779018.0,
+      "endMs": 782001.0,
+      "charStart": 11079,
+      "charEnd": 11121
+    },
+    {
+      "id": "s0168",
+      "text": "People stop naming harm directly.",
+      "startMs": 782326.0,
+      "endMs": 784904.0,
+      "charStart": 11122,
+      "charEnd": 11155
+    },
+    {
+      "id": "s0169",
+      "text": "They go along in public, reroute work in private, and protect themselves through quiet workarounds.",
+      "startMs": 784904.0,
+      "endMs": 791765.0,
+      "charStart": 11155,
+      "charEnd": 11254
+    },
+    {
+      "id": "s0170",
+      "text": "Public agreement can mask widening harm pathways.",
+      "startMs": 792671.0,
+      "endMs": 796201.0,
+      "charStart": 11256,
+      "charEnd": 11305
+    },
+    {
+      "id": "s0171",
+      "text": "Read correction failures early by watching where harm lands.",
+      "startMs": 796805.0,
+      "endMs": 800845.0,
+      "charStart": 11307,
+      "charEnd": 11367
+    },
+    {
+      "id": "s0172",
+      "text": "People raise real risk; nothing changes; the cost stays in place or moves to someone who cannot refuse.",
+      "startMs": 800845.0,
+      "endMs": 808983.0,
+      "charStart": 11367,
+      "charEnd": 11470
+    },
+    {
+      "id": "s0173",
+      "text": "Nurses in a hospital unit report that a new central scheduling rule creates unsafe handoff gaps on night shifts.",
+      "startMs": 810353.0,
+      "endMs": 817261.0,
+      "charStart": 11473,
+      "charEnd": 11585
+    },
+    {
+      "id": "s0174",
+      "text": "The issue is raised twice and acknowledged; no change follows.",
+      "startMs": 817261.0,
+      "endMs": 821754.0,
+      "charStart": 11585,
+      "charEnd": 11647
+    },
+    {
+      "id": "s0175",
+      "text": "Charge nurses stop escalating and close the gaps with informal swaps.",
+      "startMs": 821754.0,
+      "endMs": 826491.0,
+      "charStart": 11647,
+      "charEnd": 11716
+    },
+    {
+      "id": "s0176",
+      "text": "Reports still show compliance.",
+      "startMs": 827397.0,
+      "endMs": 829394.0,
+      "charStart": 11719,
+      "charEnd": 11749
+    },
+    {
+      "id": "s0177",
+      "text": "Local practice quietly diverges.",
+      "startMs": 829777.0,
+      "endMs": 832238.0,
+      "charStart": 11750,
+      "charEnd": 11782
+    },
+    {
+      "id": "s0178",
+      "text": "That is a correction failure, not simply local resistance.",
+      "startMs": 832238.0,
+      "endMs": 836174.0,
+      "charStart": 11782,
+      "charEnd": 11840
+    },
+    {
+      "id": "s0179",
+      "text": "Fixes moved off the books.",
+      "startMs": 837207.0,
+      "endMs": 838925.0,
+      "charStart": 11842,
+      "charEnd": 11868
+    },
+    {
+      "id": "s0180",
+      "text": "On paper the group looks coordinated; in daily work it follows a different rule.",
+      "startMs": 838925.0,
+      "endMs": 844579.0,
+      "charStart": 11868,
+      "charEnd": 11948
+    },
+    {
+      "id": "s0181",
+      "text": "Learning Collapse may already be in play.",
+      "startMs": 845334.0,
+      "endMs": 848051.0,
+      "charStart": 11950,
+      "charEnd": 11991
+    },
+    {
+      "id": "s0182",
+      "text": "Open refusal can still support correction where others can see it.",
+      "startMs": 848376.0,
+      "endMs": 852265.0,
+      "charStart": 11993,
+      "charEnd": 12059
+    },
+    {
+      "id": "s0183",
+      "text": "Covert refusal points toward silent exit.",
+      "startMs": 852265.0,
+      "endMs": 856038.0,
+      "charStart": 12059,
+      "charEnd": 12100
+    },
+    {
+      "id": "s0184",
+      "text": "How Harm Reads",
+      "startMs": 857513.0,
+      "endMs": 858581.0,
+      "charStart": 12103,
+      "charEnd": 12117
+    },
+    {
+      "id": "s0185",
+      "text": "The harm picture in a group is readable before anyone names it out loud.",
+      "startMs": 859881.0,
+      "endMs": 864339.0,
+      "charStart": 12119,
+      "charEnd": 12191
+    },
+    {
+      "id": "s0186",
+      "text": "Ask four questions in parallel while work still moves.",
+      "startMs": 865036.0,
+      "endMs": 868647.0,
+      "charStart": 12193,
+      "charEnd": 12247
+    },
+    {
+      "id": "s0187",
+      "text": "Where cost lands when something goes wrong—not who apologizes, but who absorbs.",
+      "startMs": 868647.0,
+      "endMs": 874602.0,
+      "charStart": 12247,
+      "charEnd": 12326
+    },
+    {
+      "id": "s0188",
+      "text": "Who stays protected from consequence while still holding decision rights.",
+      "startMs": 874602.0,
+      "endMs": 879467.0,
+      "charStart": 12326,
+      "charEnd": 12399
+    },
+    {
+      "id": "s0189",
+      "text": "Whether the person who named the harm is still in the room six months later, and in what capacity.",
+      "startMs": 879467.0,
+      "endMs": 885771.0,
+      "charStart": 12399,
+      "charEnd": 12497
+    },
+    {
+      "id": "s0190",
+      "text": "What actually changed after harm was surfaced, not what was said about it.",
+      "startMs": 885771.0,
+      "endMs": 890926.0,
+      "charStart": 12497,
+      "charEnd": 12571
+    },
+    {
+      "id": "s0191",
+      "text": "When none of those watches yields a clear read, Leaders Do Not Feel the Consequences.",
+      "startMs": 892191.0,
+      "endMs": 897683.0,
+      "charStart": 12577,
+      "charEnd": 12662
+    },
+    {
+      "id": "s0192",
+      "text": "That opacity is itself the signal.",
+      "startMs": 897683.0,
+      "endMs": 900562.0,
+      "charStart": 12662,
+      "charEnd": 12696
+    },
+    {
+      "id": "s0193",
+      "text": "Harm displacement rarely announces itself.",
+      "startMs": 900910.0,
+      "endMs": 903848.0,
+      "charStart": 12698,
+      "charEnd": 12740
+    },
+    {
+      "id": "s0194",
+      "text": "Tracing who decided and who paid gets harder.",
+      "startMs": 903848.0,
+      "endMs": 907563.0,
+      "charStart": 12740,
+      "charEnd": 12785
+    },
+    {
+      "id": "s0195",
+      "text": "Effectiveness Next",
+      "startMs": 908468.0,
+      "endMs": 910268.0,
+      "charStart": 12788,
+      "charEnd": 12806
+    },
+    {
+      "id": "s0196",
+      "text": "Work can look fine on the surface.",
+      "startMs": 910326.0,
+      "endMs": 912659.0,
+      "charStart": 12808,
+      "charEnd": 12842
+    },
+    {
+      "id": "s0197",
+      "text": "Follow where the damage shows up; that path shows what is actually protected.",
+      "startMs": 912659.0,
+      "endMs": 917454.0,
+      "charStart": 12842,
+      "charEnd": 12919
+    },
+    {
+      "id": "s0198",
+      "text": "Effectiveness is the lens for how short-term wins can hide long-term decay.",
+      "startMs": 917454.0,
+      "endMs": 923062.0,
+      "charStart": 12919,
+      "charEnd": 12994
+    },
+    {
+      "id": "s0199",
+      "text": "Follow the damage path; it traces the protected edge.",
+      "startMs": 924084.0,
+      "endMs": 927543.0,
+      "charStart": 12998,
+      "charEnd": 13051
+    }
+  ]
+}

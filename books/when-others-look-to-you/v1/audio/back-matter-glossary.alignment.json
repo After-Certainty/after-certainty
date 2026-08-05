@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-back-matter-glossary",
+  "generationHash": "sha256:5d8a7faca608fd0ce2ea9cfc30784a1754d08be5aeb9e29443324f0867a56202",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Glossary",
+      "startMs": 0.0,
+      "endMs": 615.0,
+      "charStart": 0,
+      "charEnd": 8
+    },
+    {
+      "id": "s0002",
+      "text": "These entries define words used in a precise, structural sense throughout this argument.",
+      "startMs": 894.0,
+      "endMs": 5433.0,
+      "charStart": 10,
+      "charEnd": 98
+    },
+    {
+      "id": "s0003",
+      "text": "Many of them also appear in ordinary speech; here each one names a specific idea, not a loose synonym for “healthy,” “toxic,” or “effective.” Where two terms contrast—renewal and erosion, circulation and correction—the entries spell out how they differ.",
+      "startMs": 5711.0,
+      "endMs": 21280.0,
+      "charStart": 99,
+      "charEnd": 352
+    },
+    {
+      "id": "s0004",
+      "text": "Circulation — Whether influence can move through temporary or shared leadership (including guest leadership) so that leadership can scale without fixing every role at the top: how leadership spreads and reproduces itself, including what Leadership Reproduces Itself points to when people imitate what last worked.",
+      "startMs": 21605.0,
+      "endMs": 40541.0,
+      "charStart": 354,
+      "charEnd": 667
+    },
+    {
+      "id": "s0005",
+      "text": "The permission question—whether stepping in, being credited, and stepping back are safe in practice—is often settled through repeated example before anyone tests it formally.",
+      "startMs": 40785.0,
+      "endMs": 50525.0,
+      "charStart": 668,
+      "charEnd": 842
+    },
+    {
+      "id": "s0006",
+      "text": "Not the same as correction, which is a different structural problem: whether warnings and dissent can change decisions without punishment.",
+      "startMs": 50908.0,
+      "endMs": 58188.0,
+      "charStart": 843,
+      "charEnd": 981
+    },
+    {
+      "id": "s0007",
+      "text": "Correction — Whether warnings, dissent, and what people on the ground see can reach decision-makers and change direction without punishment—return paths for feedback and revision.",
+      "startMs": 58629.0,
+      "endMs": 69659.0,
+      "charStart": 983,
+      "charEnd": 1162
+    },
+    {
+      "id": "s0008",
+      "text": "Contrasts with narrow or one-way channels; not the same as circulation.",
+      "startMs": 70471.0,
+      "endMs": 75022.0,
+      "charStart": 1163,
+      "charEnd": 1234
+    },
+    {
+      "id": "s0009",
+      "text": "Adaptability — The capacity of coordinated action to change direction when reality pushes back.",
+      "startMs": 75533.0,
+      "endMs": 81570.0,
+      "charStart": 1236,
+      "charEnd": 1331
+    },
+    {
+      "id": "s0010",
+      "text": "Together with scalability, it sorts groups into the four states adaptive, entrenched, regenerative, and stalled, and underpins how renewal and erosion are read.",
+      "startMs": 82174.0,
+      "endMs": 92379.0,
+      "charStart": 1332,
+      "charEnd": 1492
+    },
+    {
+      "id": "s0011",
+      "text": "Decay — The state produced when low adaptability persists, whether coordination remains strong or has also begun to fray.",
+      "startMs": 92658.0,
+      "endMs": 100623.0,
+      "charStart": 1494,
+      "charEnd": 1615
+    },
+    {
+      "id": "s0012",
+      "text": "Contrasts with vitality; sustained erosion tends toward decay.",
+      "startMs": 101006.0,
+      "endMs": 105522.0,
+      "charStart": 1616,
+      "charEnd": 1678
+    },
+    {
+      "id": "s0013",
+      "text": "Effectiveness — What gets amplified, deferred, or mistaken for control when people look to leadership—not the same as morality or intent.",
+      "startMs": 106126.0,
+      "endMs": 114392.0,
+      "charStart": 1680,
+      "charEnd": 1817
+    },
+    {
+      "id": "s0014",
+      "text": "Erosion — The direction taken when adaptability shrinks; scalability determines whether the erosion remains coordinated or also loses reach.",
+      "startMs": 115089.0,
+      "endMs": 124249.0,
+      "charStart": 1819,
+      "charEnd": 1959
+    },
+    {
+      "id": "s0015",
+      "text": "Contrasts with renewal; it names structure, not moral worth.",
+      "startMs": 124632.0,
+      "endMs": 128161.0,
+      "charStart": 1960,
+      "charEnd": 2020
+    },
+    {
+      "id": "s0016",
+      "text": "Guest leadership — A form of circulation: people closest to an issue can temporarily step in to lead a response, then return to their usual role.",
+      "startMs": 128672.0,
+      "endMs": 137357.0,
+      "charStart": 2022,
+      "charEnd": 2167
+    },
+    {
+      "id": "s0017",
+      "text": "Harm — Where cost lands when influence is exercised: who absorbs it, who is kept in view, and what displacement is treated as acceptable.",
+      "startMs": 137798.0,
+      "endMs": 146505.0,
+      "charStart": 2169,
+      "charEnd": 2306
+    },
+    {
+      "id": "s0018",
+      "text": "Legitimacy — What makes authority feel usable to those who follow: grounding in real behavior, in rules and roles, in the office itself, or in something closer to identity and shared story.",
+      "startMs": 147109.0,
+      "endMs": 159021.0,
+      "charStart": 2308,
+      "charEnd": 2497
+    },
+    {
+      "id": "s0019",
+      "text": "Renewal — The direction in which course correction remains possible, whether coordinated reach is already broad or still developing.",
+      "startMs": 159834.0,
+      "endMs": 167299.0,
+      "charStart": 2499,
+      "charEnd": 2631
+    },
+    {
+      "id": "s0020",
+      "text": "Contrasts with erosion; sustained renewal tends toward vitality.",
+      "startMs": 168112.0,
+      "endMs": 172860.0,
+      "charStart": 2632,
+      "charEnd": 2696
+    },
+    {
+      "id": "s0021",
+      "text": "Scalability — The capacity of coordinated action to grow in reach.",
+      "startMs": 173104.0,
+      "endMs": 177249.0,
+      "charStart": 2698,
+      "charEnd": 2764
+    },
+    {
+      "id": "s0022",
+      "text": "Together with adaptability, it sorts groups into adaptive, entrenched, regenerative, and stalled, and underpins how renewal and erosion are read.",
+      "startMs": 177458.0,
+      "endMs": 186607.0,
+      "charStart": 2765,
+      "charEnd": 2910
+    },
+    {
+      "id": "s0023",
+      "text": "Vitality — The lived condition associated with sustained adaptability, whether scalability is high or low—how open the group is to revision and how workable coordination remains in the moment.",
+      "startMs": 187210.0,
+      "endMs": 199389.0,
+      "charStart": 2912,
+      "charEnd": 3104
+    },
+    {
+      "id": "s0024",
+      "text": "Contrasts with decay; sustained renewal tends toward vitality.",
+      "startMs": 200202.0,
+      "endMs": 204939.0,
+      "charStart": 3105,
+      "charEnd": 3167
+    }
+  ]
+}

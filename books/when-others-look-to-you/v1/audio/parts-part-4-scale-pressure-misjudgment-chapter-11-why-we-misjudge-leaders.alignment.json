@@ -1,0 +1,1296 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-4-scale-pressure-misjudgment-chapter-11-why-we-misjudge-leaders",
+  "generationHash": "sha256:e27e87d9c7a05925a5451847a7897ac4f751cfbeeb96bc988917470e9d08e111",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 11 — Why We Misjudge Leaders",
+      "startMs": 0.0,
+      "endMs": 2937.0,
+      "charStart": 0,
+      "charEnd": 36
+    },
+    {
+      "id": "s0002",
+      "text": "What We See First",
+      "startMs": 3262.0,
+      "endMs": 5387.0,
+      "charStart": 38,
+      "charEnd": 55
+    },
+    {
+      "id": "s0003",
+      "text": "Most people do not misjudge leaders because they are careless.",
+      "startMs": 5503.0,
+      "endMs": 8859.0,
+      "charStart": 57,
+      "charEnd": 119
+    },
+    {
+      "id": "s0004",
+      "text": "They misjudge because the signals that are easiest to see are often the worst ones to trust.",
+      "startMs": 8859.0,
+      "endMs": 14629.0,
+      "charStart": 119,
+      "charEnd": 211
+    },
+    {
+      "id": "s0005",
+      "text": "A team hits the target, and we call that strong leadership.",
+      "startMs": 15163.0,
+      "endMs": 18692.0,
+      "charStart": 214,
+      "charEnd": 273
+    },
+    {
+      "id": "s0006",
+      "text": "A team misses the target, and we call that weak leadership.",
+      "startMs": 18901.0,
+      "endMs": 22767.0,
+      "charStart": 274,
+      "charEnd": 333
+    },
+    {
+      "id": "s0007",
+      "text": "A leader sounds certain, and we hear control.",
+      "startMs": 23092.0,
+      "endMs": 25995.0,
+      "charStart": 334,
+      "charEnd": 379
+    },
+    {
+      "id": "s0008",
+      "text": "Those reads come fast, and they are also thin.",
+      "startMs": 26320.0,
+      "endMs": 29478.0,
+      "charStart": 381,
+      "charEnd": 427
+    },
+    {
+      "id": "s0009",
+      "text": "They tell you what was visible on the surface.",
+      "startMs": 29478.0,
+      "endMs": 32136.0,
+      "charStart": 427,
+      "charEnd": 473
+    },
+    {
+      "id": "s0010",
+      "text": "They do not tell you how the decision was made, who could push back, or where the risk went.",
+      "startMs": 32136.0,
+      "endMs": 36978.0,
+      "charStart": 473,
+      "charEnd": 565
+    },
+    {
+      "id": "s0011",
+      "text": "Two misreads keep showing up: outcome bias and structural blindness.",
+      "startMs": 37605.0,
+      "endMs": 42295.0,
+      "charStart": 569,
+      "charEnd": 637
+    },
+    {
+      "id": "s0012",
+      "text": "Together, they turn a partial picture into a full verdict.",
+      "startMs": 42469.0,
+      "endMs": 46197.0,
+      "charStart": 638,
+      "charEnd": 696
+    },
+    {
+      "id": "s0013",
+      "text": "That rests on what the last two chapters already set up.",
+      "startMs": 46522.0,
+      "endMs": 49680.0,
+      "charStart": 698,
+      "charEnd": 754
+    },
+    {
+      "id": "s0014",
+      "text": "Scale thins what travels.",
+      "startMs": 49680.0,
+      "endMs": 51804.0,
+      "charStart": 754,
+      "charEnd": 779
+    },
+    {
+      "id": "s0015",
+      "text": "Pressure leaves less room for challenge.",
+      "startMs": 52257.0,
+      "endMs": 54579.0,
+      "charStart": 781,
+      "charEnd": 821
+    },
+    {
+      "id": "s0016",
+      "text": "Misjudgment piles on top of both.",
+      "startMs": 54579.0,
+      "endMs": 57122.0,
+      "charStart": 821,
+      "charEnd": 854
+    },
+    {
+      "id": "s0017",
+      "text": "Misjudgment is not only about how we read leaders.",
+      "startMs": 57841.0,
+      "endMs": 60848.0,
+      "charStart": 856,
+      "charEnd": 906
+    },
+    {
+      "id": "s0018",
+      "text": "It feeds back into the system as selection pressure.",
+      "startMs": 60848.0,
+      "endMs": 64134.0,
+      "charStart": 906,
+      "charEnd": 958
+    },
+    {
+      "id": "s0019",
+      "text": "What gets rewarded in judgment is what structures learn to produce.",
+      "startMs": 64134.0,
+      "endMs": 68941.0,
+      "charStart": 958,
+      "charEnd": 1025
+    },
+    {
+      "id": "s0020",
+      "text": "The Fast Desk",
+      "startMs": 70218.0,
+      "endMs": 71274.0,
+      "charStart": 1029,
+      "charEnd": 1042
+    },
+    {
+      "id": "s0021",
+      "text": "On election night, two metro desks in the same regional newsroom are running under the same deadline.",
+      "startMs": 72226.0,
+      "endMs": 78229.0,
+      "charStart": 1044,
+      "charEnd": 1145
+    },
+    {
+      "id": "s0022",
+      "text": "Desk A publishes quickly.",
+      "startMs": 78554.0,
+      "endMs": 80272.0,
+      "charStart": 1147,
+      "charEnd": 1172
+    },
+    {
+      "id": "s0023",
+      "text": "Its live posts are first in the region and traffic spikes all night.",
+      "startMs": 80597.0,
+      "endMs": 84997.0,
+      "charStart": 1173,
+      "charEnd": 1241
+    },
+    {
+      "id": "s0024",
+      "text": "Desk B runs slower.",
+      "startMs": 85322.0,
+      "endMs": 87098.0,
+      "charStart": 1243,
+      "charEnd": 1262
+    },
+    {
+      "id": "s0025",
+      "text": "Editors hold two stories for verification when source claims do not line up with county records.",
+      "startMs": 87342.0,
+      "endMs": 93170.0,
+      "charStart": 1263,
+      "charEnd": 1359
+    },
+    {
+      "id": "s0026",
+      "text": "By morning, Desk A leads every visible metric.",
+      "startMs": 93449.0,
+      "endMs": 96932.0,
+      "charStart": 1361,
+      "charEnd": 1407
+    },
+    {
+      "id": "s0027",
+      "text": "Desk B trails on speed and reach.",
+      "startMs": 97176.0,
+      "endMs": 99730.0,
+      "charStart": 1408,
+      "charEnd": 1441
+    },
+    {
+      "id": "s0028",
+      "text": "By afternoon, Desk A issues two major corrections and pulls one viral post.",
+      "startMs": 99974.0,
+      "endMs": 105535.0,
+      "charStart": 1443,
+      "charEnd": 1518
+    },
+    {
+      "id": "s0029",
+      "text": "Desk B publishes fewer corrections because two high-impact errors were never published.",
+      "startMs": 105779.0,
+      "endMs": 110748.0,
+      "charStart": 1519,
+      "charEnd": 1606
+    },
+    {
+      "id": "s0030",
+      "text": "In the weekly review, leadership praise follows the dashboard: speed, share, and volume.",
+      "startMs": 111027.0,
+      "endMs": 116681.0,
+      "charStart": 1608,
+      "charEnd": 1696
+    },
+    {
+      "id": "s0031",
+      "text": "Verification work appears as delay, not as prevented harm.",
+      "startMs": 117122.0,
+      "endMs": 120721.0,
+      "charStart": 1697,
+      "charEnd": 1755
+    },
+    {
+      "id": "s0032",
+      "text": "Outcome bias means letting results answer for how decisions were made—and for how influence was organized.",
+      "startMs": 121162.0,
+      "endMs": 126921.0,
+      "charStart": 1757,
+      "charEnd": 1863
+    },
+    {
+      "id": "s0033",
+      "text": "Desk A's numbers are not imaginary.",
+      "startMs": 126921.0,
+      "endMs": 129452.0,
+      "charStart": 1863,
+      "charEnd": 1898
+    },
+    {
+      "id": "s0034",
+      "text": "They really posted faster and reached more people.",
+      "startMs": 129731.0,
+      "endMs": 132517.0,
+      "charStart": 1900,
+      "charEnd": 1950
+    },
+    {
+      "id": "s0035",
+      "text": "The mistake is quieter: those outcomes get read as the whole judgment about whether the leadership was good.",
+      "startMs": 132517.0,
+      "endMs": 138148.0,
+      "charStart": 1950,
+      "charEnd": 2058
+    },
+    {
+      "id": "s0036",
+      "text": "A slower-looking stretch can come from disciplined correction that prevented a larger failure.",
+      "startMs": 138148.0,
+      "endMs": 143372.0,
+      "charStart": 2058,
+      "charEnd": 2152
+    },
+    {
+      "id": "s0037",
+      "text": "The Smooth Board",
+      "startMs": 143802.0,
+      "endMs": 144696.0,
+      "charStart": 2156,
+      "charEnd": 2172
+    },
+    {
+      "id": "s0038",
+      "text": "During a week of severe storms, a regional air traffic flow-control center reroutes flights across constrained airspace.",
+      "startMs": 145508.0,
+      "endMs": 152602.0,
+      "charStart": 2174,
+      "charEnd": 2294
+    },
+    {
+      "id": "s0039",
+      "text": "Public reports look stable: delays stay near target and throughput remains high.",
+      "startMs": 153415.0,
+      "endMs": 158465.0,
+      "charStart": 2296,
+      "charEnd": 2376
+    },
+    {
+      "id": "s0040",
+      "text": "Inside the system, local controllers file repeated hazard notes about one reroute corridor during peak hours.",
+      "startMs": 158976.0,
+      "endMs": 165281.0,
+      "charStart": 2378,
+      "charEnd": 2487
+    },
+    {
+      "id": "s0041",
+      "text": "Before those notes can change the central flow plan, they must pass through multiple review layers.",
+      "startMs": 165792.0,
+      "endMs": 171341.0,
+      "charStart": 2489,
+      "charEnd": 2588
+    },
+    {
+      "id": "s0042",
+      "text": "By the time the warnings reach final authority, the active window has closed.",
+      "startMs": 171782.0,
+      "endMs": 176299.0,
+      "charStart": 2589,
+      "charEnd": 2666
+    },
+    {
+      "id": "s0043",
+      "text": "The next day, the same corridor runs again.",
+      "startMs": 176809.0,
+      "endMs": 179491.0,
+      "charStart": 2668,
+      "charEnd": 2711
+    },
+    {
+      "id": "s0044",
+      "text": "Near-miss reports rise in logs, but the top-line performance story stays smooth.",
+      "startMs": 179816.0,
+      "endMs": 185041.0,
+      "charStart": 2712,
+      "charEnd": 2792
+    },
+    {
+      "id": "s0045",
+      "text": "Structural blindness means missing how influence is organized—because attention stays on personality, intention, or rhetoric.",
+      "startMs": 185366.0,
+      "endMs": 193145.0,
+      "charStart": 2794,
+      "charEnd": 2919
+    },
+    {
+      "id": "s0046",
+      "text": "Look back at the board scene.",
+      "startMs": 193470.0,
+      "endMs": 194945.0,
+      "charStart": 2920,
+      "charEnd": 2949
+    },
+    {
+      "id": "s0047",
+      "text": "From outside, it reads like competent control under pressure.",
+      "startMs": 194945.0,
+      "endMs": 199542.0,
+      "charStart": 2949,
+      "charEnd": 3010
+    },
+    {
+      "id": "s0048",
+      "text": "Inside, the paths that carry challenge are too narrow—and too slow—to get new evidence into decisions while it can still change the plan.",
+      "startMs": 199542.0,
+      "endMs": 208830.0,
+      "charStart": 3010,
+      "charEnd": 3147
+    },
+    {
+      "id": "s0049",
+      "text": "That gap is easy to miss if you stop at the smooth surface.",
+      "startMs": 209968.0,
+      "endMs": 213382.0,
+      "charStart": 3150,
+      "charEnd": 3209
+    },
+    {
+      "id": "s0050",
+      "text": "You do not need bad intent for this shape to appear.",
+      "startMs": 213590.0,
+      "endMs": 216238.0,
+      "charStart": 3211,
+      "charEnd": 3263
+    },
+    {
+      "id": "s0051",
+      "text": "It grows through ordinary choices about rank, approvals, and who may interrupt the default plan.",
+      "startMs": 216238.0,
+      "endMs": 222112.0,
+      "charStart": 3263,
+      "charEnd": 3359
+    },
+    {
+      "id": "s0052",
+      "text": "The pattern stays common because raising a useful signal can cost people.",
+      "startMs": 222112.0,
+      "endMs": 226165.0,
+      "charStart": 3359,
+      "charEnd": 3432
+    },
+    {
+      "id": "s0053",
+      "text": "Outcome bias and structural blindness reinforce each other.",
+      "startMs": 226664.0,
+      "endMs": 230251.0,
+      "charStart": 3436,
+      "charEnd": 3495
+    },
+    {
+      "id": "s0054",
+      "text": "The first rewards what travels.",
+      "startMs": 230251.0,
+      "endMs": 232376.0,
+      "charStart": 3495,
+      "charEnd": 3526
+    },
+    {
+      "id": "s0055",
+      "text": "The second blocks what would correct the first.",
+      "startMs": 232701.0,
+      "endMs": 235232.0,
+      "charStart": 3528,
+      "charEnd": 3575
+    },
+    {
+      "id": "s0056",
+      "text": "When bad news stops moving early enough to matter, Dissent is No Longer Welcomed.",
+      "startMs": 235232.0,
+      "endMs": 240282.0,
+      "charStart": 3575,
+      "charEnd": 3656
+    },
+    {
+      "id": "s0057",
+      "text": "The Intention Trap",
+      "startMs": 240874.0,
+      "endMs": 241989.0,
+      "charStart": 3659,
+      "charEnd": 3677
+    },
+    {
+      "id": "s0058",
+      "text": "What lasts is what influence repeatedly produces.",
+      "startMs": 242372.0,
+      "endMs": 245995.0,
+      "charStart": 3679,
+      "charEnd": 3728
+    },
+    {
+      "id": "s0059",
+      "text": "That includes how correction works, how harm is allocated, whether disagreement survives, and how learning holds from one pressure cycle to the next.",
+      "startMs": 245995.0,
+      "endMs": 254818.0,
+      "charStart": 3728,
+      "charEnd": 3877
+    },
+    {
+      "id": "s0060",
+      "text": "The intention trap sits beneath outcome bias and structural blindness.",
+      "startMs": 255317.0,
+      "endMs": 259543.0,
+      "charStart": 3880,
+      "charEnd": 3950
+    },
+    {
+      "id": "s0061",
+      "text": "Observers hear a leader's stated purpose.",
+      "startMs": 260147.0,
+      "endMs": 262678.0,
+      "charStart": 3951,
+      "charEnd": 3992
+    },
+    {
+      "id": "s0062",
+      "text": "They treat sincerity as enough evidence of legitimacy.",
+      "startMs": 262678.0,
+      "endMs": 266068.0,
+      "charStart": 3992,
+      "charEnd": 4046
+    },
+    {
+      "id": "s0063",
+      "text": "Leaders make the same slip.",
+      "startMs": 266602.0,
+      "endMs": 268216.0,
+      "charStart": 4048,
+      "charEnd": 4075
+    },
+    {
+      "id": "s0064",
+      "text": "They assume that because they meant well, the structure must be healthy.",
+      "startMs": 268216.0,
+      "endMs": 272036.0,
+      "charStart": 4075,
+      "charEnd": 4147
+    },
+    {
+      "id": "s0065",
+      "text": "Intent matters for ethics.",
+      "startMs": 272697.0,
+      "endMs": 274625.0,
+      "charStart": 4150,
+      "charEnd": 4176
+    },
+    {
+      "id": "s0066",
+      "text": "It does not settle the question.",
+      "startMs": 274834.0,
+      "endMs": 276505.0,
+      "charStart": 4177,
+      "charEnd": 4209
+    },
+    {
+      "id": "s0067",
+      "text": "Why Erosion Feels Rational",
+      "startMs": 277318.0,
+      "endMs": 279420.0,
+      "charStart": 4211,
+      "charEnd": 4237
+    },
+    {
+      "id": "s0068",
+      "text": "Erosion persists because each step can sound sensible.",
+      "startMs": 280720.0,
+      "endMs": 284482.0,
+      "charStart": 4239,
+      "charEnd": 4293
+    },
+    {
+      "id": "s0069",
+      "text": "Under pressure, leaders narrow channels to \"move faster.\" Teams quiet dissent to \"stay aligned.\" Leaders simplify stories to \"reduce confusion.\" Each move has a defense up close.",
+      "startMs": 284482.0,
+      "endMs": 296626.0,
+      "charStart": 4293,
+      "charEnd": 4471
+    },
+    {
+      "id": "s0070",
+      "text": "Together they build insulation.",
+      "startMs": 296986.0,
+      "endMs": 298948.0,
+      "charStart": 4473,
+      "charEnd": 4504
+    },
+    {
+      "id": "s0071",
+      "text": "That is why erosion should be read as a pattern over time—not one bad call.",
+      "startMs": 299551.0,
+      "endMs": 304753.0,
+      "charStart": 4506,
+      "charEnd": 4581
+    },
+    {
+      "id": "s0072",
+      "text": "Any single choice can look pragmatic.",
+      "startMs": 305078.0,
+      "endMs": 307469.0,
+      "charStart": 4582,
+      "charEnd": 4619
+    },
+    {
+      "id": "s0073",
+      "text": "Repetition is what exposes the pattern: the same move, insulation thickening, while everyone still sounds reasonable.",
+      "startMs": 307469.0,
+      "endMs": 314946.0,
+      "charStart": 4619,
+      "charEnd": 4736
+    },
+    {
+      "id": "s0074",
+      "text": "Structural blindness explains why observers miss erosion.",
+      "startMs": 315352.0,
+      "endMs": 318731.0,
+      "charStart": 4739,
+      "charEnd": 4796
+    },
+    {
+      "id": "s0075",
+      "text": "The other half is why leaders can produce it without noticing.",
+      "startMs": 318731.0,
+      "endMs": 322400.0,
+      "charStart": 4796,
+      "charEnd": 4858
+    },
+    {
+      "id": "s0076",
+      "text": "Selective Followership and Misread Signals",
+      "startMs": 322992.0,
+      "endMs": 325824.0,
+      "charStart": 4861,
+      "charEnd": 4903
+    },
+    {
+      "id": "s0077",
+      "text": "Observers often assume that if people still look to a leader, they must be going along in full.",
+      "startMs": 326265.0,
+      "endMs": 331292.0,
+      "charStart": 4905,
+      "charEnd": 5000
+    },
+    {
+      "id": "s0078",
+      "text": "In practice, agreement is usually selective.",
+      "startMs": 331292.0,
+      "endMs": 334288.0,
+      "charStart": 5000,
+      "charEnd": 5044
+    },
+    {
+      "id": "s0079",
+      "text": "Someone can support the strategy but resist the tactics, trust competence but not moral judgment, or agree in public and diverge in private.",
+      "startMs": 334288.0,
+      "endMs": 343042.0,
+      "charStart": 5044,
+      "charEnd": 5184
+    },
+    {
+      "id": "s0080",
+      "text": "People may even bend instructions under pressure to hold onto autonomy.",
+      "startMs": 343042.0,
+      "endMs": 347129.0,
+      "charStart": 5184,
+      "charEnd": 5255
+    },
+    {
+      "id": "s0081",
+      "text": "That does not automatically mean disloyalty; it can mean judgment doing its job.",
+      "startMs": 347129.0,
+      "endMs": 351831.0,
+      "charStart": 5255,
+      "charEnd": 5335
+    },
+    {
+      "id": "s0082",
+      "text": "In a vibrant group, selective dissent stays visible enough to use.",
+      "startMs": 351831.0,
+      "endMs": 355825.0,
+      "charStart": 5335,
+      "charEnd": 5401
+    },
+    {
+      "id": "s0083",
+      "text": "In a decaying group, it goes quiet and turns into hidden workarounds.",
+      "startMs": 355825.0,
+      "endMs": 360573.0,
+      "charStart": 5401,
+      "charEnd": 5470
+    },
+    {
+      "id": "s0084",
+      "text": "There is a second misread next to selective agreement.",
+      "startMs": 361432.0,
+      "endMs": 364369.0,
+      "charStart": 5478,
+      "charEnd": 5532
+    },
+    {
+      "id": "s0085",
+      "text": "Dissent that arrives early and in good faith—loyal to the work, specific about risk—can still be read as disloyalty to the leader or the timeline.",
+      "startMs": 364369.0,
+      "endMs": 373983.0,
+      "charStart": 5532,
+      "charEnd": 5678
+    },
+    {
+      "id": "s0086",
+      "text": "The person raising it becomes the problem to manage.",
+      "startMs": 373983.0,
+      "endMs": 377025.0,
+      "charStart": 5678,
+      "charEnd": 5730
+    },
+    {
+      "id": "s0087",
+      "text": "Once that label sticks, the structure does not only silence people; it teaches which kind of agreement counts as safe.",
+      "startMs": 377025.0,
+      "endMs": 384641.0,
+      "charStart": 5730,
+      "charEnd": 5848
+    },
+    {
+      "id": "s0088",
+      "text": "When observers collapse all this into a single category—either \"they are with",
+      "startMs": 385442.0,
+      "endMs": 390388.0,
+      "charStart": 5853,
+      "charEnd": 5930
+    },
+    {
+      "id": "s0089",
+      "text": "the leader\" or \"they are against the leader\"—they miss the structure that",
+      "startMs": 390423.0,
+      "endMs": 395020.0,
+      "charStart": 5931,
+      "charEnd": 6004
+    },
+    {
+      "id": "s0090",
+      "text": "predicts renewal or erosion.",
+      "startMs": 395055.0,
+      "endMs": 397006.0,
+      "charStart": 6005,
+      "charEnd": 6033
+    },
+    {
+      "id": "s0091",
+      "text": "Why Confidence Is So Persuasive",
+      "startMs": 397447.0,
+      "endMs": 399839.0,
+      "charStart": 6035,
+      "charEnd": 6066
+    },
+    {
+      "id": "s0092",
+      "text": "Under stress, confidence lowers uncertainty for observers: a clear answer feels safer than a tentative one, and a strong claim feels more usable than a narrow one.",
+      "startMs": 400280.0,
+      "endMs": 410845.0,
+      "charStart": 6068,
+      "charEnd": 6231
+    },
+    {
+      "id": "s0093",
+      "text": "The confident story travels.",
+      "startMs": 411542.0,
+      "endMs": 413388.0,
+      "charStart": 6232,
+      "charEnd": 6260
+    },
+    {
+      "id": "s0094",
+      "text": "At larger reach, the headline that sounds sure often outruns the small print.",
+      "startMs": 413388.0,
+      "endMs": 418159.0,
+      "charStart": 6260,
+      "charEnd": 6337
+    },
+    {
+      "id": "s0095",
+      "text": "What steadies a tense room nearby can read as competence from far away.",
+      "startMs": 418159.0,
+      "endMs": 422710.0,
+      "charStart": 6337,
+      "charEnd": 6408
+    },
+    {
+      "id": "s0096",
+      "text": "That preference makes groups vulnerable.",
+      "startMs": 424022.0,
+      "endMs": 426298.0,
+      "charStart": 6412,
+      "charEnd": 6452
+    },
+    {
+      "id": "s0097",
+      "text": "It rewards leaders who shrink complexity too quickly and penalizes leaders who keep uncertainty visible long enough to make better decisions.",
+      "startMs": 426298.0,
+      "endMs": 435086.0,
+      "charStart": 6452,
+      "charEnd": 6593
+    },
+    {
+      "id": "s0098",
+      "text": "Confidence can still be warranted.",
+      "startMs": 435086.0,
+      "endMs": 437815.0,
+      "charStart": 6593,
+      "charEnd": 6627
+    },
+    {
+      "id": "s0099",
+      "text": "Overconfidence is different—when challenge is unwelcome, it gets costly.",
+      "startMs": 437815.0,
+      "endMs": 443248.0,
+      "charStart": 6627,
+      "charEnd": 6699
+    },
+    {
+      "id": "s0100",
+      "text": "What to Watch Instead",
+      "startMs": 444560.0,
+      "endMs": 447149.0,
+      "charStart": 6704,
+      "charEnd": 6725
+    },
+    {
+      "id": "s0101",
+      "text": "Outcomes and rhetoric are easy to see.",
+      "startMs": 448264.0,
+      "endMs": 450888.0,
+      "charStart": 6727,
+      "charEnd": 6765
+    },
+    {
+      "id": "s0102",
+      "text": "They are also easy to misread.",
+      "startMs": 451132.0,
+      "endMs": 453117.0,
+      "charStart": 6766,
+      "charEnd": 6796
+    },
+    {
+      "id": "s0103",
+      "text": "What really matters shows up more slowly.",
+      "startMs": 453117.0,
+      "endMs": 455741.0,
+      "charStart": 6796,
+      "charEnd": 6837
+    },
+    {
+      "id": "s0104",
+      "text": "Misreads go both ways.",
+      "startMs": 456356.0,
+      "endMs": 458063.0,
+      "charStart": 6840,
+      "charEnd": 6862
+    },
+    {
+      "id": "s0105",
+      "text": "A short-term loss can look like weak leadership, even when someone stopped a bad decision.",
+      "startMs": 458063.0,
+      "endMs": 463159.0,
+      "charStart": 6862,
+      "charEnd": 6952
+    },
+    {
+      "id": "s0106",
+      "text": "A team might hurt this quarter's numbers by pausing something risky—but that pause can prevent a bigger problem later.",
+      "startMs": 463159.0,
+      "endMs": 470067.0,
+      "charStart": 6952,
+      "charEnd": 7070
+    },
+    {
+      "id": "s0107",
+      "text": "If people only see the summary, they miss what was avoided.",
+      "startMs": 470683.0,
+      "endMs": 474270.0,
+      "charStart": 7073,
+      "charEnd": 7132
+    },
+    {
+      "id": "s0108",
+      "text": "Start with a simple question: can people speak up?",
+      "startMs": 474653.0,
+      "endMs": 477811.0,
+      "charStart": 7134,
+      "charEnd": 7184
+    },
+    {
+      "id": "s0109",
+      "text": "If no one can challenge a decision before it is final, accountability on paper does not mean much.",
+      "startMs": 477811.0,
+      "endMs": 483976.0,
+      "charStart": 7184,
+      "charEnd": 7282
+    },
+    {
+      "id": "s0110",
+      "text": "What matters is whether someone can raise a concern early—and still be heard.",
+      "startMs": 483976.0,
+      "endMs": 488945.0,
+      "charStart": 7282,
+      "charEnd": 7359
+    },
+    {
+      "id": "s0111",
+      "text": "Next, look at who pays the price.",
+      "startMs": 489967.0,
+      "endMs": 492358.0,
+      "charStart": 7363,
+      "charEnd": 7396
+    },
+    {
+      "id": "s0112",
+      "text": "If the same problems keep happening, correction either did not happen or did not hold.",
+      "startMs": 492358.0,
+      "endMs": 498372.0,
+      "charStart": 7396,
+      "charEnd": 7482
+    },
+    {
+      "id": "s0113",
+      "text": "And if the people who did not make the decision keep dealing with the fallout, that is a sign something is off.",
+      "startMs": 498372.0,
+      "endMs": 504700.0,
+      "charStart": 7482,
+      "charEnd": 7593
+    },
+    {
+      "id": "s0114",
+      "text": "Also look at how close leaders are to the results of their decisions.",
+      "startMs": 505640.0,
+      "endMs": 509773.0,
+      "charStart": 7597,
+      "charEnd": 7666
+    },
+    {
+      "id": "s0115",
+      "text": "When leaders are far from the consequences, reports often look better than reality.",
+      "startMs": 509773.0,
+      "endMs": 514603.0,
+      "charStart": 7666,
+      "charEnd": 7749
+    },
+    {
+      "id": "s0116",
+      "text": "Problems take longer to reach them—and when they do, they are less clear.",
+      "startMs": 515172.0,
+      "endMs": 519561.0,
+      "charStart": 7751,
+      "charEnd": 7824
+    },
+    {
+      "id": "s0117",
+      "text": "You do not need to figure out anyone's motives.",
+      "startMs": 520164.0,
+      "endMs": 522626.0,
+      "charStart": 7826,
+      "charEnd": 7873
+    },
+    {
+      "id": "s0118",
+      "text": "Just watch what keeps happening—and what actually changes when someone raises a concern.",
+      "startMs": 522626.0,
+      "endMs": 527340.0,
+      "charStart": 7873,
+      "charEnd": 7961
+    },
+    {
+      "id": "s0119",
+      "text": "Misjudgment at Scale",
+      "startMs": 528327.0,
+      "endMs": 529847.0,
+      "charStart": 7964,
+      "charEnd": 7984
+    },
+    {
+      "id": "s0120",
+      "text": "As reach grows, misjudgment gets harder to catch.",
+      "startMs": 530660.0,
+      "endMs": 533795.0,
+      "charStart": 7986,
+      "charEnd": 8035
+    },
+    {
+      "id": "s0121",
+      "text": "What would be obvious in a room turns into fragments—messages on screens, delayed write-ups, and short summaries that miss context.",
+      "startMs": 533795.0,
+      "endMs": 541086.0,
+      "charStart": 8035,
+      "charEnd": 8166
+    },
+    {
+      "id": "s0122",
+      "text": "Urgency makes this worse.",
+      "startMs": 541620.0,
+      "endMs": 543617.0,
+      "charStart": 8169,
+      "charEnd": 8194
+    },
+    {
+      "id": "s0123",
+      "text": "When time is tight, groups rely on what is easiest to defend: output, confidence, and a clear story.",
+      "startMs": 543617.0,
+      "endMs": 551070.0,
+      "charStart": 8194,
+      "charEnd": 8294
+    },
+    {
+      "id": "s0124",
+      "text": "Challenges to the direction show up later, and they cost more to raise.",
+      "startMs": 551070.0,
+      "endMs": 555726.0,
+      "charStart": 8294,
+      "charEnd": 8365
+    },
+    {
+      "id": "s0125",
+      "text": "At scale, outcome bias and structural blindness start to reinforce each other.",
+      "startMs": 556341.0,
+      "endMs": 561392.0,
+      "charStart": 8369,
+      "charEnd": 8447
+    },
+    {
+      "id": "s0126",
+      "text": "Outcome bias gives a clean verdict based on the numbers that travel.",
+      "startMs": 561902.0,
+      "endMs": 565629.0,
+      "charStart": 8448,
+      "charEnd": 8516
+    },
+    {
+      "id": "s0127",
+      "text": "Structural blindness removes the paths that would challenge that verdict—or treats dissent as disloyalty when it does appear.",
+      "startMs": 565629.0,
+      "endMs": 572665.0,
+      "charStart": 8516,
+      "charEnd": 8641
+    },
+    {
+      "id": "s0128",
+      "text": "That is why misjudgment shows up here, after scale and pressure.",
+      "startMs": 573164.0,
+      "endMs": 577158.0,
+      "charStart": 8644,
+      "charEnd": 8708
+    },
+    {
+      "id": "s0129",
+      "text": "The conditions that make decay hard to diagnose are not random.",
+      "startMs": 577158.0,
+      "endMs": 581035.0,
+      "charStart": 8708,
+      "charEnd": 8771
+    },
+    {
+      "id": "s0130",
+      "text": "They come from how influence grows—and how groups handle urgency.",
+      "startMs": 581035.0,
+      "endMs": 585319.0,
+      "charStart": 8771,
+      "charEnd": 8836
+    },
+    {
+      "id": "s0131",
+      "text": "Misjudgment Over Time",
+      "startMs": 586400.0,
+      "endMs": 588048.0,
+      "charStart": 8840,
+      "charEnd": 8861
+    },
+    {
+      "id": "s0132",
+      "text": "Misjudgment compounds over time.",
+      "startMs": 588745.0,
+      "endMs": 590893.0,
+      "charStart": 8863,
+      "charEnd": 8895
+    },
+    {
+      "id": "s0133",
+      "text": "Outcome bias and structural blindness stack: leaders keep collecting credit for short-term wins while decay deepens underneath the visible story.",
+      "startMs": 590893.0,
+      "endMs": 600111.0,
+      "charStart": 8895,
+      "charEnd": 9040
+    },
+    {
+      "id": "s0134",
+      "text": "Once failure breaks into public view, the window where warning could still change plans has usually narrowed and repair has already gotten expensive.",
+      "startMs": 600111.0,
+      "endMs": 608377.0,
+      "charStart": 9040,
+      "charEnd": 9189
+    },
+    {
+      "id": "s0135",
+      "text": "Late-stage collapse then feels sudden to outsiders and inevitable to insiders.",
+      "startMs": 609027.0,
+      "endMs": 613880.0,
+      "charStart": 9193,
+      "charEnd": 9271
+    },
+    {
+      "id": "s0136",
+      "text": "The warning signs were there; people were not weighing them when they judged.",
+      "startMs": 613880.0,
+      "endMs": 618130.0,
+      "charStart": 9271,
+      "charEnd": 9348
+    },
+    {
+      "id": "s0137",
+      "text": "Misjudgment as Selection Pressure",
+      "startMs": 618687.0,
+      "endMs": 620928.0,
+      "charStart": 9351,
+      "charEnd": 9384
+    },
+    {
+      "id": "s0138",
+      "text": "When outcome-focused, confident leadership reliably earns more credit than leadership that protects structure and challenge, the mismatch sorts who survives.",
+      "startMs": 621207.0,
+      "endMs": 630657.0,
+      "charStart": 9386,
+      "charEnd": 9543
+    },
+    {
+      "id": "s0139",
+      "text": "People who learn to project confidence and win on visible metrics outlast people who keep paths for challenge open—even when keeping those paths open costs more.",
+      "startMs": 630657.0,
+      "endMs": 640735.0,
+      "charStart": 9543,
+      "charEnd": 9704
+    },
+    {
+      "id": "s0140",
+      "text": "That is not necessarily corruption.",
+      "startMs": 641327.0,
+      "endMs": 643335.0,
+      "charStart": 9706,
+      "charEnd": 9741
+    },
+    {
+      "id": "s0141",
+      "text": "It is selection: whatever a group's judgment system rewards, more of it accumulates over time.",
+      "startMs": 643335.0,
+      "endMs": 649698.0,
+      "charStart": 9741,
+      "charEnd": 9835
+    },
+    {
+      "id": "s0142",
+      "text": "Observers are part of that system.",
+      "startMs": 650197.0,
+      "endMs": 652054.0,
+      "charStart": 9838,
+      "charEnd": 9872
+    },
+    {
+      "id": "s0143",
+      "text": "Employees, voters, boards, journalists, communities, and funders help decide which forms of leadership become normal— not only by what they intend, but by what they reward, what they excuse, what they call decisive, what they treat as weakness, which costs stay invisible, and which outcomes dominate the story.",
+      "startMs": 652054.0,
+      "endMs": 670840.0,
+      "charStart": 9872,
+      "charEnd": 10183
+    },
+    {
+      "id": "s0144",
+      "text": "That is selection pressure, not a charge of blame against people who lack control of the whole structure.",
+      "startMs": 670840.0,
+      "endMs": 676889.0,
+      "charStart": 10183,
+      "charEnd": 10288
+    },
+    {
+      "id": "s0145",
+      "text": "Still, those choices accumulate.",
+      "startMs": 676889.0,
+      "endMs": 679396.0,
+      "charStart": 10288,
+      "charEnd": 10320
+    },
+    {
+      "id": "s0146",
+      "text": "Legitimacy travels with them.",
+      "startMs": 680035.0,
+      "endMs": 681812.0,
+      "charStart": 10324,
+      "charEnd": 10353
+    },
+    {
+      "id": "s0147",
+      "text": "Institutions are not neutral containers.",
+      "startMs": 682137.0,
+      "endMs": 684436.0,
+      "charStart": 10355,
+      "charEnd": 10395
+    },
+    {
+      "id": "s0148",
+      "text": "They develop habits—what gets promoted, what gets funded, what counts as a win—and those habits shape who stays in position to lead.",
+      "startMs": 684436.0,
+      "endMs": 692121.0,
+      "charStart": 10395,
+      "charEnd": 10527
+    },
+    {
+      "id": "s0149",
+      "text": "Misjudgment does not only misread individuals; it shifts who looks credible the next time the group is under strain.",
+      "startMs": 692121.0,
+      "endMs": 698855.0,
+      "charStart": 10527,
+      "charEnd": 10643
+    },
+    {
+      "id": "s0150",
+      "text": "That is why \"better judgment\" is not a self-correcting fix once the wrong signals have compounded.",
+      "startMs": 699447.0,
+      "endMs": 704950.0,
+      "charStart": 10647,
+      "charEnd": 10745
+    },
+    {
+      "id": "s0151",
+      "text": "Repair takes deliberate effort because the structure has already been selecting for the wrong strengths long enough that seeing more clearly alone cannot unwind the pattern.",
+      "startMs": 704950.0,
+      "endMs": 714540.0,
+      "charStart": 10745,
+      "charEnd": 10918
+    },
+    {
+      "id": "s0152",
+      "text": "The weekly dashboard still ranks speed, share, and volume.",
+      "startMs": 715132.0,
+      "endMs": 718975.0,
+      "charStart": 10921,
+      "charEnd": 10979
+    },
+    {
+      "id": "s0153",
+      "text": "It still has no column for the stories editors held before publication—or for the errors readers never had to see.",
+      "startMs": 718975.0,
+      "endMs": 726243.0,
+      "charStart": 10979,
+      "charEnd": 11093
+    },
+    {
+      "id": "s0154",
+      "text": "A Clearer Read",
+      "startMs": 726928.0,
+      "endMs": 727856.0,
+      "charStart": 11096,
+      "charEnd": 11110
+    },
+    {
+      "id": "s0155",
+      "text": "The plain read is not only \"Did the leader succeed?\" It is whether this",
+      "startMs": 728460.0,
+      "endMs": 733000.0,
+      "charStart": 11112,
+      "charEnd": 11183
+    },
+    {
+      "id": "s0156",
+      "text": "leadership structure stayed open to correction while it carried real",
+      "startMs": 733069.0,
+      "endMs": 736459.0,
+      "charStart": 11184,
+      "charEnd": 11252
+    },
+    {
+      "id": "s0157",
+      "text": "influence: errors raised, authority questioned, and adjustments possible before",
+      "startMs": 736529.0,
+      "endMs": 742079.0,
+      "charStart": 11253,
+      "charEnd": 11332
+    },
+    {
+      "id": "s0158",
+      "text": "harm scales.",
+      "startMs": 742149.0,
+      "endMs": 743124.0,
+      "charStart": 11333,
+      "charEnd": 11345
+    },
+    {
+      "id": "s0159",
+      "text": "By the time decay is visible to observers, much of what a careful structural read asks for may already be scarce: fewer people rehearsed raising error when it was costly; habits that rewarded confidence and tidy fronts have compounded; early warning often stays local while the public account stays smooth.",
+      "startMs": 743565.0,
+      "endMs": 762455.0,
+      "charStart": 11347,
+      "charEnd": 11653
+    },
+    {
+      "id": "s0160",
+      "text": "The next chapter asks what can still be done inside those conditions—not ideal repair, but realistic partial repair—when influence still flows both ways only in patches, or not at all.",
+      "startMs": 762455.0,
+      "endMs": 774611.0,
+      "charStart": 11653,
+      "charEnd": 11837
+    },
+    {
+      "id": "s0161",
+      "text": "Outcomes are loud; structure is decisive.",
+      "startMs": 774970.0,
+      "endMs": 777734.0,
+      "charStart": 11840,
+      "charEnd": 11881
+    }
+  ]
+}

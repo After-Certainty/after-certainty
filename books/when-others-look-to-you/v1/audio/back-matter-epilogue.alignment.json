@@ -1,0 +1,392 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-back-matter-epilogue",
+  "generationHash": "sha256:330b79666f11921c6f9342a3a8ddcc8734d719eb6dc081b05308cb6e97ec2e70",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Epilogue",
+      "startMs": 0.0,
+      "endMs": 720.0,
+      "charStart": 0,
+      "charEnd": 8
+    },
+    {
+      "id": "s0002",
+      "text": "This book began with a simple definition: a leader is someone others",
+      "startMs": 1417.0,
+      "endMs": 5852.0,
+      "charStart": 10,
+      "charEnd": 78
+    },
+    {
+      "id": "s0003",
+      "text": "look to when deciding what to do next.",
+      "startMs": 5910.0,
+      "endMs": 8545.0,
+      "charStart": 79,
+      "charEnd": 117
+    },
+    {
+      "id": "s0004",
+      "text": "By the end, the question is concrete: what happens when authority has already traveled farther than accountability?",
+      "startMs": 9149.0,
+      "endMs": 15953.0,
+      "charStart": 119,
+      "charEnd": 234
+    },
+    {
+      "id": "s0005",
+      "text": "Some readers arrive here hoping for a clean reversal strategy.",
+      "startMs": 16905.0,
+      "endMs": 20631.0,
+      "charStart": 236,
+      "charEnd": 298
+    },
+    {
+      "id": "s0006",
+      "text": "Reversal is not always possible.",
+      "startMs": 20910.0,
+      "endMs": 23035.0,
+      "charStart": 299,
+      "charEnd": 331
+    },
+    {
+      "id": "s0007",
+      "text": "When the baseline has already shifted, the task may not be full restoration.",
+      "startMs": 23476.0,
+      "endMs": 27946.0,
+      "charStart": 333,
+      "charEnd": 409
+    },
+    {
+      "id": "s0008",
+      "text": "It may be limiting further damage, putting limits back in place, and local repair.",
+      "startMs": 27946.0,
+      "endMs": 32625.0,
+      "charStart": 409,
+      "charEnd": 491
+    },
+    {
+      "id": "s0009",
+      "text": "That distinction matters.",
+      "startMs": 33008.0,
+      "endMs": 34773.0,
+      "charStart": 494,
+      "charEnd": 519
+    },
+    {
+      "id": "s0010",
+      "text": "Slowing damage is not the same as restoring vitality.",
+      "startMs": 35016.0,
+      "endMs": 38755.0,
+      "charStart": 521,
+      "charEnd": 574
+    },
+    {
+      "id": "s0011",
+      "text": "It is not failure.",
+      "startMs": 38848.0,
+      "endMs": 40078.0,
+      "charStart": 575,
+      "charEnd": 593
+    },
+    {
+      "id": "s0012",
+      "text": "For many situations, it is the only honest starting point.",
+      "startMs": 40253.0,
+      "endMs": 43910.0,
+      "charStart": 594,
+      "charEnd": 652
+    },
+    {
+      "id": "s0013",
+      "text": "In this phase, progress looks modest.",
+      "startMs": 44084.0,
+      "endMs": 46487.0,
+      "charStart": 654,
+      "charEnd": 691
+    },
+    {
+      "id": "s0014",
+      "text": "It can mean fewer harms pushed to the edge, more decisions reopened before they harden, clearer limits on emergency permissions so urgency does not permanently rewrite the operating baseline (**Exceptions are Forever), and stronger protection for dissent and correction**.",
+      "startMs": 46487.0,
+      "endMs": 63972.0,
+      "charStart": 691,
+      "charEnd": 963
+    },
+    {
+      "id": "s0015",
+      "text": "The shifts rarely feel dramatic.",
+      "startMs": 64599.0,
+      "endMs": 66793.0,
+      "charStart": 966,
+      "charEnd": 998
+    },
+    {
+      "id": "s0016",
+      "text": "They still change how people are treated.",
+      "startMs": 66793.0,
+      "endMs": 69127.0,
+      "charStart": 998,
+      "charEnd": 1039
+    },
+    {
+      "id": "s0017",
+      "text": "The work returns to human scale once more.",
+      "startMs": 69463.0,
+      "endMs": 72273.0,
+      "charStart": 1042,
+      "charEnd": 1084
+    },
+    {
+      "id": "s0018",
+      "text": "At human scale, consequences are harder to wave away, claims are easier to check, and repair is harder to postpone.",
+      "startMs": 72598.0,
+      "endMs": 80075.0,
+      "charStart": 1086,
+      "charEnd": 1201
+    },
+    {
+      "id": "s0019",
+      "text": "That does not make human-scale leadership morally pure.",
+      "startMs": 80516.0,
+      "endMs": 83651.0,
+      "charStart": 1202,
+      "charEnd": 1257
+    },
+    {
+      "id": "s0020",
+      "text": "It makes feedback harder to ignore.",
+      "startMs": 83651.0,
+      "endMs": 86008.0,
+      "charStart": 1257,
+      "charEnd": 1292
+    },
+    {
+      "id": "s0021",
+      "text": "Formal rules and policy still matter.",
+      "startMs": 86797.0,
+      "endMs": 89224.0,
+      "charStart": 1295,
+      "charEnd": 1332
+    },
+    {
+      "id": "s0022",
+      "text": "But day-to-day practice is where durable habits are built.",
+      "startMs": 89665.0,
+      "endMs": 92916.0,
+      "charStart": 1333,
+      "charEnd": 1391
+    },
+    {
+      "id": "s0023",
+      "text": "That takes naming harm in plain words, refusing false urgency when correction is still possible, separating visible success from whether correction still works, and keeping authority open to change where others can see it.",
+      "startMs": 92916.0,
+      "endMs": 107951.0,
+      "charStart": 1391,
+      "charEnd": 1613
+    },
+    {
+      "id": "s0024",
+      "text": "None of this guarantees a happy ending.",
+      "startMs": 108938.0,
+      "endMs": 111294.0,
+      "charStart": 1616,
+      "charEnd": 1655
+    },
+    {
+      "id": "s0025",
+      "text": "It does something quieter and more realistic.",
+      "startMs": 111620.0,
+      "endMs": 114499.0,
+      "charStart": 1657,
+      "charEnd": 1702
+    },
+    {
+      "id": "s0026",
+      "text": "It reduces how much harm can be normalized, inherited, and repeated.",
+      "startMs": 114778.0,
+      "endMs": 119584.0,
+      "charStart": 1703,
+      "charEnd": 1771
+    },
+    {
+      "id": "s0027",
+      "text": "Without that work, decisions may never reconnect with who bears the cost.",
+      "startMs": 119909.0,
+      "endMs": 124356.0,
+      "charStart": 1773,
+      "charEnd": 1846
+    },
+    {
+      "id": "s0028",
+      "text": "That disconnect is what Leaders Feel the Consequences names.",
+      "startMs": 124867.0,
+      "endMs": 128756.0,
+      "charStart": 1847,
+      "charEnd": 1907
+    },
+    {
+      "id": "s0029",
+      "text": "Harm becomes a durable norm rather than an intermittent failure.",
+      "startMs": 129139.0,
+      "endMs": 133516.0,
+      "charStart": 1908,
+      "charEnd": 1972
+    },
+    {
+      "id": "s0030",
+      "text": "If what you read here changes what you tolerate, what you reward, and",
+      "startMs": 134120.0,
+      "endMs": 138474.0,
+      "charStart": 1974,
+      "charEnd": 2043
+    },
+    {
+      "id": "s0031",
+      "text": "what you refuse to excuse, you are already changing how **Leadership",
+      "startMs": 138532.0,
+      "endMs": 144279.0,
+      "charStart": 2044,
+      "charEnd": 2112
+    },
+    {
+      "id": "s0032",
+      "text": "Reproduces Itself**.",
+      "startMs": 144488.0,
+      "endMs": 146589.0,
+      "charStart": 2113,
+      "charEnd": 2133
+    },
+    {
+      "id": "s0033",
+      "text": "Anyone who takes cues from how you lead is caught in that movement.",
+      "startMs": 147100.0,
+      "endMs": 151733.0,
+      "charStart": 2135,
+      "charEnd": 2202
+    },
+    {
+      "id": "s0034",
+      "text": "Not all change arrives as reversal.",
+      "startMs": 152116.0,
+      "endMs": 154357.0,
+      "charStart": 2204,
+      "charEnd": 2239
+    },
+    {
+      "id": "s0035",
+      "text": "Some arrives as limits that hold.",
+      "startMs": 154682.0,
+      "endMs": 156737.0,
+      "charStart": 2241,
+      "charEnd": 2274
+    },
+    {
+      "id": "s0036",
+      "text": "Some arrives as damage that no longer spreads.",
+      "startMs": 156946.0,
+      "endMs": 159836.0,
+      "charStart": 2276,
+      "charEnd": 2322
+    },
+    {
+      "id": "s0037",
+      "text": "Some arrives as people who keep correction alive when certainty",
+      "startMs": 160115.0,
+      "endMs": 163842.0,
+      "charStart": 2324,
+      "charEnd": 2387
+    },
+    {
+      "id": "s0038",
+      "text": "would be easier.",
+      "startMs": 164051.0,
+      "endMs": 165189.0,
+      "charStart": 2388,
+      "charEnd": 2404
+    },
+    {
+      "id": "s0039",
+      "text": "That is still leadership.",
+      "startMs": 165432.0,
+      "endMs": 167360.0,
+      "charStart": 2406,
+      "charEnd": 2431
+    },
+    {
+      "id": "s0040",
+      "text": "A companion on the same map",
+      "startMs": 167743.0,
+      "endMs": 169565.0,
+      "charStart": 2433,
+      "charEnd": 2460
+    },
+    {
+      "id": "s0041",
+      "text": "A second book shares this pattern vocabulary—the same named dynamics—but follows a different spine: *Forming, Renewing, Eroding, Repeating*, one pattern per chapter in order, tracing how moments chain into habit and how habit travels.",
+      "startMs": 170378.0,
+      "endMs": 188153.0,
+      "charStart": 2462,
+      "charEnd": 2696
+    },
+    {
+      "id": "s0042",
+      "text": "It is not a summary of this volume or a sequel.",
+      "startMs": 188478.0,
+      "endMs": 191369.0,
+      "charStart": 2697,
+      "charEnd": 2744
+    },
+    {
+      "id": "s0043",
+      "text": "Read it before, after, or alongside this book when you want that",
+      "startMs": 191578.0,
+      "endMs": 195421.0,
+      "charStart": 2746,
+      "charEnd": 2810
+    },
+    {
+      "id": "s0044",
+      "text": "vocabulary in one clear throughline.",
+      "startMs": 195479.0,
+      "endMs": 197906.0,
+      "charStart": 2811,
+      "charEnd": 2847
+    },
+    {
+      "id": "s0045",
+      "text": "What happens next",
+      "startMs": 198231.0,
+      "endMs": 199508.0,
+      "charStart": 2849,
+      "charEnd": 2866
+    },
+    {
+      "id": "s0046",
+      "text": "When Others Become Leaders asks a different question once influence has gathered: what kind of leader leaves behind more leaders?",
+      "startMs": 199833.0,
+      "endMs": 208262.0,
+      "charStart": 2868,
+      "charEnd": 2997
+    },
+    {
+      "id": "s0047",
+      "text": "It tests circulation through nine historical cases—whether agency, practice, and moral posture survive the leader's absence.",
+      "startMs": 208262.0,
+      "endMs": 217329.0,
+      "charStart": 2997,
+      "charEnd": 3121
+    },
+    {
+      "id": "s0048",
+      "text": "Read it after this book when formation and accumulation are already visible; read it alone if historical cases are your entry point.",
+      "startMs": 217329.0,
+      "endMs": 226687.0,
+      "charStart": 3121,
+      "charEnd": 3253
+    }
+  ]
+}

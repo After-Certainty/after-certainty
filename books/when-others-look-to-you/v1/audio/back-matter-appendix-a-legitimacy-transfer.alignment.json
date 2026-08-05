@@ -1,0 +1,992 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-back-matter-appendix-a-legitimacy-transfer",
+  "generationHash": "sha256:fc0065114563cc4d8332e60bd107b7a63a8db45e4b7fae7a80126d0ffa47594f",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Appendix A — Legitimacy Transfer in Practice",
+      "startMs": 0.0,
+      "endMs": 3808.0,
+      "charStart": 0,
+      "charEnd": 44
+    },
+    {
+      "id": "s0002",
+      "text": "This appendix uses the same lenses—harm, effectiveness, legitimacy—to read how authority changes hands.",
+      "startMs": 4412.0,
+      "endMs": 12759.0,
+      "charStart": 46,
+      "charEnd": 149
+    },
+    {
+      "id": "s0003",
+      "text": "It is not a ranking of leaders, a partisan scorecard, or a verdict on any one institution.",
+      "startMs": 12759.0,
+      "endMs": 18808.0,
+      "charStart": 149,
+      "charEnd": 239
+    },
+    {
+      "id": "s0004",
+      "text": "The aim is to show how legitimacy transfers, hardens, and can stay expanded after leadership changes hands.",
+      "startMs": 18808.0,
+      "endMs": 26273.0,
+      "charStart": 239,
+      "charEnd": 346
+    },
+    {
+      "id": "s0005",
+      "text": "Legitimacy transfer is not only a political phenomenon; it is a structural one.",
+      "startMs": 26830.0,
+      "endMs": 31683.0,
+      "charStart": 350,
+      "charEnd": 429
+    },
+    {
+      "id": "s0006",
+      "text": "Wherever authority changes hands at scale—in government, healthcare, religious institutions, or large organizations—the same pattern appears.",
+      "startMs": 31683.0,
+      "endMs": 41296.0,
+      "charStart": 429,
+      "charEnd": 570
+    },
+    {
+      "id": "s0007",
+      "text": "What one leader was permitted to do becomes the baseline the next leader inherits.",
+      "startMs": 41296.0,
+      "endMs": 46323.0,
+      "charStart": 570,
+      "charEnd": 652
+    },
+    {
+      "id": "s0008",
+      "text": "Track how the baseline shifts.",
+      "startMs": 46892.0,
+      "endMs": 49063.0,
+      "charStart": 656,
+      "charEnd": 686
+    },
+    {
+      "id": "s0009",
+      "text": "Crisis widens it quickly.",
+      "startMs": 49307.0,
+      "endMs": 51211.0,
+      "charStart": 687,
+      "charEnd": 712
+    },
+    {
+      "id": "s0010",
+      "text": "Restraint can slow expansion but may not undo it.",
+      "startMs": 51211.0,
+      "endMs": 54381.0,
+      "charStart": 712,
+      "charEnd": 761
+    },
+    {
+      "id": "s0011",
+      "text": "Personalization can ride on inherited permissions.",
+      "startMs": 54752.0,
+      "endMs": 57910.0,
+      "charStart": 763,
+      "charEnd": 813
+    },
+    {
+      "id": "s0012",
+      "text": "Norms can return before hard limits do.",
+      "startMs": 58119.0,
+      "endMs": 60720.0,
+      "charStart": 814,
+      "charEnd": 853
+    },
+    {
+      "id": "s0013",
+      "text": "The three sequences below show that pattern across different institutions.",
+      "startMs": 60998.0,
+      "endMs": 65375.0,
+      "charStart": 855,
+      "charEnd": 929
+    },
+    {
+      "id": "s0014",
+      "text": "They are not equivalent in stakes or in kind.",
+      "startMs": 65375.0,
+      "endMs": 68301.0,
+      "charStart": 929,
+      "charEnd": 974
+    },
+    {
+      "id": "s0015",
+      "text": "They share a structure.",
+      "startMs": 68661.0,
+      "endMs": 70112.0,
+      "charStart": 976,
+      "charEnd": 999
+    },
+    {
+      "id": "s0016",
+      "text": "The Transfer Pattern",
+      "startMs": 71412.0,
+      "endMs": 72643.0,
+      "charStart": 1001,
+      "charEnd": 1021
+    },
+    {
+      "id": "s0017",
+      "text": "At transfer, walk through four legitimacy forms.",
+      "startMs": 73943.0,
+      "endMs": 77531.0,
+      "charStart": 1023,
+      "charEnd": 1071
+    },
+    {
+      "id": "s0018",
+      "text": "Example-based legitimacy asks whether the new authority holder's visible conduct",
+      "startMs": 77914.0,
+      "endMs": 82906.0,
+      "charStart": 1073,
+      "charEnd": 1153
+    },
+    {
+      "id": "s0019",
+      "text": "matches what the role has represented—not only what was said when authority passed.",
+      "startMs": 83022.0,
+      "endMs": 87852.0,
+      "charStart": 1154,
+      "charEnd": 1237
+    },
+    {
+      "id": "s0020",
+      "text": "Procedural legitimacy asks whether the rules and roles that govern transfer still",
+      "startMs": 88177.0,
+      "endMs": 93715.0,
+      "charStart": 1239,
+      "charEnd": 1320
+    },
+    {
+      "id": "s0021",
+      "text": "function as real constraints or mostly as ceremony.",
+      "startMs": 93808.0,
+      "endMs": 97430.0,
+      "charStart": 1321,
+      "charEnd": 1372
+    },
+    {
+      "id": "s0022",
+      "text": "Office-based legitimacy asks what the position itself now carries: what permissions",
+      "startMs": 98034.0,
+      "endMs": 104814.0,
+      "charStart": 1374,
+      "charEnd": 1457
+    },
+    {
+      "id": "s0023",
+      "text": "have built up in the role that move forward automatically with the title.",
+      "startMs": 104872.0,
+      "endMs": 108901.0,
+      "charStart": 1458,
+      "charEnd": 1531
+    },
+    {
+      "id": "s0024",
+      "text": "Sacralized legitimacy asks whether the transfer itself has become exempt from",
+      "startMs": 109853.0,
+      "endMs": 114717.0,
+      "charStart": 1533,
+      "charEnd": 1610
+    },
+    {
+      "id": "s0025",
+      "text": "ordinary challenge—whether questioning who leads next sounds like attacking something",
+      "startMs": 114776.0,
+      "endMs": 119721.0,
+      "charStart": 1611,
+      "charEnd": 1696
+    },
+    {
+      "id": "s0026",
+      "text": "the group is not supposed to reopen.",
+      "startMs": 119779.0,
+      "endMs": 121892.0,
+      "charStart": 1697,
+      "charEnd": 1733
+    },
+    {
+      "id": "s0027",
+      "text": "Each form ties accountability to authority a little differently.",
+      "startMs": 122275.0,
+      "endMs": 126513.0,
+      "charStart": 1735,
+      "charEnd": 1799
+    },
+    {
+      "id": "s0028",
+      "text": "Each transfers a little differently too.",
+      "startMs": 126513.0,
+      "endMs": 129311.0,
+      "charStart": 1799,
+      "charEnd": 1839
+    },
+    {
+      "id": "s0029",
+      "text": "Government at Scale",
+      "startMs": 130507.0,
+      "endMs": 131911.0,
+      "charStart": 1842,
+      "charEnd": 1861
+    },
+    {
+      "id": "s0030",
+      "text": "The U.S. presidency is designed around formal process.",
+      "startMs": 132863.0,
+      "endMs": 136741.0,
+      "charStart": 1863,
+      "charEnd": 1917
+    },
+    {
+      "id": "s0031",
+      "text": "Terms end and restart.",
+      "startMs": 137066.0,
+      "endMs": 139214.0,
+      "charStart": 1918,
+      "charEnd": 1940
+    },
+    {
+      "id": "s0032",
+      "text": "Law and separate branches are meant to limit what any one president can do.",
+      "startMs": 139214.0,
+      "endMs": 143986.0,
+      "charStart": 1940,
+      "charEnd": 2015
+    },
+    {
+      "id": "s0033",
+      "text": "That design does not stop transfer; it makes transfer easier to see.",
+      "startMs": 143986.0,
+      "endMs": 148873.0,
+      "charStart": 2015,
+      "charEnd": 2083
+    },
+    {
+      "id": "s0034",
+      "text": "At scale, powers used under one administration can become the expected baseline for the next.",
+      "startMs": 149721.0,
+      "endMs": 155828.0,
+      "charStart": 2087,
+      "charEnd": 2180
+    },
+    {
+      "id": "s0035",
+      "text": "Permission can move forward faster than limits do, unless people actively renew those limits.",
+      "startMs": 155828.0,
+      "endMs": 161935.0,
+      "charStart": 2180,
+      "charEnd": 2273
+    },
+    {
+      "id": "s0036",
+      "text": "After September 11, emergency logic widened how much the president could do outside usual limits and made exceptional measures routine in the name of speed and security.",
+      "startMs": 162527.0,
+      "endMs": 174207.0,
+      "charStart": 2276,
+      "charEnd": 2445
+    },
+    {
+      "id": "s0037",
+      "text": "Some measures were framed as temporary; several became lasting precedents.",
+      "startMs": 174718.0,
+      "endMs": 179397.0,
+      "charStart": 2446,
+      "charEnd": 2520
+    },
+    {
+      "id": "s0038",
+      "text": "The main form stayed procedural legitimacy, but emergency permissions granted by",
+      "startMs": 180000.0,
+      "endMs": 185422.0,
+      "charStart": 2522,
+      "charEnd": 2602
+    },
+    {
+      "id": "s0039",
+      "text": "process widened what the office was treated as allowed to do next—the direction runs",
+      "startMs": 185492.0,
+      "endMs": 191274.0,
+      "charStart": 2603,
+      "charEnd": 2687
+    },
+    {
+      "id": "s0040",
+      "text": "from procedural toward office-based expansion.",
+      "startMs": 191332.0,
+      "endMs": 194385.0,
+      "charStart": 2688,
+      "charEnd": 2734
+    },
+    {
+      "id": "s0041",
+      "text": "The next phase emphasized procedural restoration and a slower, more careful tone.",
+      "startMs": 194827.0,
+      "endMs": 200481.0,
+      "charStart": 2736,
+      "charEnd": 2817
+    },
+    {
+      "id": "s0042",
+      "text": "Some expanded powers were used more lightly; many were still available on paper.",
+      "startMs": 200922.0,
+      "endMs": 205670.0,
+      "charStart": 2818,
+      "charEnd": 2898
+    },
+    {
+      "id": "s0043",
+      "text": "The lesson is not hypocrisy or bad faith.",
+      "startMs": 206053.0,
+      "endMs": 208979.0,
+      "charStart": 2899,
+      "charEnd": 2940
+    },
+    {
+      "id": "s0044",
+      "text": "It is about design: holding back in use does not by itself roll back what the office already inherited.",
+      "startMs": 208979.0,
+      "endMs": 216282.0,
+      "charStart": 2940,
+      "charEnd": 3043
+    },
+    {
+      "id": "s0045",
+      "text": "The emphasis stayed procedural legitimacy while practice meant tighter use of",
+      "startMs": 216874.0,
+      "endMs": 221959.0,
+      "charStart": 3046,
+      "charEnd": 3123
+    },
+    {
+      "id": "s0046",
+      "text": "inherited powers without a full rollback of what the office had gained—office-based",
+      "startMs": 222017.0,
+      "endMs": 227148.0,
+      "charStart": 3124,
+      "charEnd": 3207
+    },
+    {
+      "id": "s0047",
+      "text": "carryover with little procedural pull-back.",
+      "startMs": 227195.0,
+      "endMs": 229969.0,
+      "charStart": 3208,
+      "charEnd": 3251
+    },
+    {
+      "id": "s0048",
+      "text": "The following phase intensified personalization.",
+      "startMs": 230353.0,
+      "endMs": 233592.0,
+      "charStart": 3253,
+      "charEnd": 3301
+    },
+    {
+      "id": "s0049",
+      "text": "Disagreement was framed as disloyalty; criticism of process, as a status fight.",
+      "startMs": 233592.0,
+      "endMs": 239408.0,
+      "charStart": 3301,
+      "charEnd": 3380
+    },
+    {
+      "id": "s0050",
+      "text": "No entirely new constitutional design was required—the office already held wide permissions.",
+      "startMs": 239408.0,
+      "endMs": 245329.0,
+      "charStart": 3380,
+      "charEnd": 3472
+    },
+    {
+      "id": "s0051",
+      "text": "Office-based legitimacy dominated: inherited office permissions were used to",
+      "startMs": 245817.0,
+      "endMs": 250646.0,
+      "charStart": 3476,
+      "charEnd": 3552
+    },
+    {
+      "id": "s0052",
+      "text": "personalize power, and challenge started to sound like betrayal—the direction runs",
+      "startMs": 250716.0,
+      "endMs": 255894.0,
+      "charStart": 3553,
+      "charEnd": 3635
+    },
+    {
+      "id": "s0053",
+      "text": "from office-based forms toward sacralization pressure.",
+      "startMs": 255964.0,
+      "endMs": 259134.0,
+      "charStart": 3636,
+      "charEnd": 3690
+    },
+    {
+      "id": "s0054",
+      "text": "The next phase renewed procedural language and familiar public expectations about how the office should behave.",
+      "startMs": 259830.0,
+      "endMs": 265821.0,
+      "charStart": 3692,
+      "charEnd": 3803
+    },
+    {
+      "id": "s0055",
+      "text": "Professional process and formal restraint were stressed again.",
+      "startMs": 265821.0,
+      "endMs": 269362.0,
+      "charStart": 3803,
+      "charEnd": 3865
+    },
+    {
+      "id": "s0056",
+      "text": "Inertia remained: many inherited authorities stayed with the office even as talk shifted toward \"back to normal.\"",
+      "startMs": 269362.0,
+      "endMs": 277163.0,
+      "charStart": 3865,
+      "charEnd": 3978
+    },
+    {
+      "id": "s0057",
+      "text": "Procedural legitimacy renewed in language and process, but procedural restoration ran inside office permissions that only shrank slowly.",
+      "startMs": 278266.0,
+      "endMs": 287183.0,
+      "charStart": 3982,
+      "charEnd": 4118
+    },
+    {
+      "id": "s0058",
+      "text": "It was procedural repair layered on top of office-based inertia.",
+      "startMs": 287183.0,
+      "endMs": 291943.0,
+      "charStart": 4118,
+      "charEnd": 4182
+    },
+    {
+      "id": "s0059",
+      "text": "Across these handoffs, crisis widens authority fast.",
+      "startMs": 292268.0,
+      "endMs": 296274.0,
+      "charStart": 4185,
+      "charEnd": 4237
+    },
+    {
+      "id": "s0060",
+      "text": "Restraint can slow misuse but may not undo transfer.",
+      "startMs": 296274.0,
+      "endMs": 300314.0,
+      "charStart": 4237,
+      "charEnd": 4289
+    },
+    {
+      "id": "s0061",
+      "text": "Personalization can ride on inherited permissions.",
+      "startMs": 300767.0,
+      "endMs": 304099.0,
+      "charStart": 4291,
+      "charEnd": 4341
+    },
+    {
+      "id": "s0062",
+      "text": "Norms can come back before hard limits do.",
+      "startMs": 304099.0,
+      "endMs": 307071.0,
+      "charStart": 4341,
+      "charEnd": 4383
+    },
+    {
+      "id": "s0063",
+      "text": "Expansion is easier than contraction unless people keep doing the work of limiting power over time.",
+      "startMs": 307071.0,
+      "endMs": 313828.0,
+      "charStart": 4383,
+      "charEnd": 4482
+    },
+    {
+      "id": "s0064",
+      "text": "Healthcare Networks",
+      "startMs": 314780.0,
+      "endMs": 315987.0,
+      "charStart": 4486,
+      "charEnd": 4505
+    },
+    {
+      "id": "s0065",
+      "text": "During a capacity surge, a regional hospital network grants emergency exception authority: faster purchasing, staffing overrides, centralized sign-off from a command post.",
+      "startMs": 316591.0,
+      "endMs": 330163.0,
+      "charStart": 4507,
+      "charEnd": 4678
+    },
+    {
+      "id": "s0066",
+      "text": "Patient flow improves while the surge lasts.",
+      "startMs": 330674.0,
+      "endMs": 333716.0,
+      "charStart": 4679,
+      "charEnd": 4723
+    },
+    {
+      "id": "s0067",
+      "text": "When the surge eases, the exception paths stay open for flexibility.",
+      "startMs": 334157.0,
+      "endMs": 338975.0,
+      "charStart": 4725,
+      "charEnd": 4793
+    },
+    {
+      "id": "s0068",
+      "text": "Local teams now work under more centralized permission than before the emergency.",
+      "startMs": 338975.0,
+      "endMs": 343933.0,
+      "charStart": 4793,
+      "charEnd": 4874
+    },
+    {
+      "id": "s0069",
+      "text": "When the administrator who managed the surge moves on, the expanded permission structure moves with the role.",
+      "startMs": 344525.0,
+      "endMs": 350934.0,
+      "charStart": 4877,
+      "charEnd": 4986
+    },
+    {
+      "id": "s0070",
+      "text": "The incoming administrator inherits a position that already includes what was granted under urgency.",
+      "startMs": 350934.0,
+      "endMs": 357168.0,
+      "charStart": 4986,
+      "charEnd": 5086
+    },
+    {
+      "id": "s0071",
+      "text": "Nobody is required to justify keeping it—urgency has already done the work of normalizing it.",
+      "startMs": 358074.0,
+      "endMs": 364355.0,
+      "charStart": 5089,
+      "charEnd": 5182
+    },
+    {
+      "id": "s0072",
+      "text": "Rolling it back would mean taking something away from the role itself, not just changing a policy.",
+      "startMs": 364355.0,
+      "endMs": 370230.0,
+      "charStart": 5182,
+      "charEnd": 5280
+    },
+    {
+      "id": "s0073",
+      "text": "Local leaders who joined after the surge have no prior baseline to compare it against.",
+      "startMs": 370230.0,
+      "endMs": 375582.0,
+      "charStart": 5280,
+      "charEnd": 5366
+    },
+    {
+      "id": "s0074",
+      "text": "For them, this is simply how the network runs.",
+      "startMs": 376267.0,
+      "endMs": 379333.0,
+      "charStart": 5369,
+      "charEnd": 5415
+    },
+    {
+      "id": "s0075",
+      "text": "Procedural channels for questioning centralized decisions may still exist on paper.",
+      "startMs": 379658.0,
+      "endMs": 384662.0,
+      "charStart": 5417,
+      "charEnd": 5500
+    },
+    {
+      "id": "s0076",
+      "text": "In practice, the office now carries permissions that make pushback harder: challenging the template can sound like resisting coordination the network depends on.",
+      "startMs": 384662.0,
+      "endMs": 394495.0,
+      "charStart": 5500,
+      "charEnd": 5661
+    },
+    {
+      "id": "s0077",
+      "text": "Example-based legitimacy—trust built by watching a leader's judgment in ordinary times—gives way to office-based legitimacy as the story of the surge recedes and what remains is the org chart.",
+      "startMs": 394495.0,
+      "endMs": 408078.0,
+      "charStart": 5661,
+      "charEnd": 5853
+    },
+    {
+      "id": "s0078",
+      "text": "Whether anyone actively works to narrow those permissions afterward depends on incentives that rarely line up.",
+      "startMs": 408635.0,
+      "endMs": 414661.0,
+      "charStart": 5857,
+      "charEnd": 5967
+    },
+    {
+      "id": "s0079",
+      "text": "Boards and clinical leaders may prefer stability to another wrenching redesign.",
+      "startMs": 414661.0,
+      "endMs": 419967.0,
+      "charStart": 5967,
+      "charEnd": 6046
+    },
+    {
+      "id": "s0080",
+      "text": "Frontline staff adapt around the new baseline because their work is urgent and local.",
+      "startMs": 419967.0,
+      "endMs": 425144.0,
+      "charStart": 6046,
+      "charEnd": 6131
+    },
+    {
+      "id": "s0081",
+      "text": "By the time a governance body schedules a serious review, the exception paths have their own defenders and their own vocabulary of necessity.",
+      "startMs": 425144.0,
+      "endMs": 433608.0,
+      "charStart": 6131,
+      "charEnd": 6272
+    },
+    {
+      "id": "s0082",
+      "text": "The transfer moment that mattered was the handoff of the administrator's office.",
+      "startMs": 434665.0,
+      "endMs": 438891.0,
+      "charStart": 6277,
+      "charEnd": 6357
+    },
+    {
+      "id": "s0083",
+      "text": "After that, rollback becomes an optional project competing with everything else.",
+      "startMs": 439402.0,
+      "endMs": 444115.0,
+      "charStart": 6358,
+      "charEnd": 6438
+    },
+    {
+      "id": "s0084",
+      "text": "The pattern here is not unique to healthcare.",
+      "startMs": 444499.0,
+      "endMs": 447018.0,
+      "charStart": 6440,
+      "charEnd": 6485
+    },
+    {
+      "id": "s0085",
+      "text": "It is what office-based legitimacy looks like when transfer is smooth and inherited permissions are never explicitly reviewed: authority moves forward faster than accountability does, and what was temporary becomes structural before anyone decides it should be.",
+      "startMs": 447018.0,
+      "endMs": 463353.0,
+      "charStart": 6485,
+      "charEnd": 6746
+    },
+    {
+      "id": "s0086",
+      "text": "Religious Institutions and Congregational Networks",
+      "startMs": 464804.0,
+      "endMs": 467730.0,
+      "charStart": 6749,
+      "charEnd": 6799
+    },
+    {
+      "id": "s0087",
+      "text": "Anchor on baseline first.",
+      "startMs": 469030.0,
+      "endMs": 471329.0,
+      "charStart": 6801,
+      "charEnd": 6826
+    },
+    {
+      "id": "s0088",
+      "text": "Most established religious communities combine procedural and example-based legitimacy.",
+      "startMs": 471329.0,
+      "endMs": 477180.0,
+      "charStart": 6826,
+      "charEnd": 6913
+    },
+    {
+      "id": "s0089",
+      "text": "A founding pastor, a long-tenured rabbi, a senior elder who has led through formative moments—these figures build authority through visible example over time.",
+      "startMs": 477180.0,
+      "endMs": 488523.0,
+      "charStart": 6913,
+      "charEnd": 7071
+    },
+    {
+      "id": "s0090",
+      "text": "The role they hold and the person holding it become difficult to separate.",
+      "startMs": 489742.0,
+      "endMs": 493759.0,
+      "charStart": 7074,
+      "charEnd": 7148
+    },
+    {
+      "id": "s0091",
+      "text": "When others look to them, they are looking to the office and the example simultaneously.",
+      "startMs": 494142.0,
+      "endMs": 498798.0,
+      "charStart": 7149,
+      "charEnd": 7237
+    },
+    {
+      "id": "s0092",
+      "text": "Transfer becomes complex because of that fusion.",
+      "startMs": 499181.0,
+      "endMs": 501991.0,
+      "charStart": 7239,
+      "charEnd": 7287
+    },
+    {
+      "id": "s0093",
+      "text": "When a long-tenured leader steps down or dies, what passes to the successor is a title, a role, and expectations shaped by everything the prior leader made the role mean.",
+      "startMs": 501991.0,
+      "endMs": 513740.0,
+      "charStart": 7287,
+      "charEnd": 7457
+    },
+    {
+      "id": "s0094",
+      "text": "The successor inherits those expanded expectations alongside formal authority.",
+      "startMs": 513740.0,
+      "endMs": 519940.0,
+      "charStart": 7457,
+      "charEnd": 7535
+    },
+    {
+      "id": "s0095",
+      "text": "Example-based legitimacy has to be re-earned in visible conduct.",
+      "startMs": 520834.0,
+      "endMs": 525687.0,
+      "charStart": 7539,
+      "charEnd": 7603
+    },
+    {
+      "id": "s0096",
+      "text": "Over time, it can quietly convert to office-based legitimacy—people following because of what the position represents rather than what they have seen.",
+      "startMs": 525687.0,
+      "endMs": 535230.0,
+      "charStart": 7603,
+      "charEnd": 7753
+    },
+    {
+      "id": "s0097",
+      "text": "If the founding example was compelling enough, the office can carry that weight long after the behavior that built it has changed or disappeared.",
+      "startMs": 535230.0,
+      "endMs": 543879.0,
+      "charStart": 7753,
+      "charEnd": 7898
+    },
+    {
+      "id": "s0098",
+      "text": "Sacralization pressure is most visible at transfer in religious settings.",
+      "startMs": 545087.0,
+      "endMs": 549557.0,
+      "charStart": 7902,
+      "charEnd": 7975
+    },
+    {
+      "id": "s0099",
+      "text": "When a succession is framed as providential—the right person for this moment, chosen by something beyond ordinary process—the legitimacy of questioning that transfer can become spiritually costly.",
+      "startMs": 549557.0,
+      "endMs": 561526.0,
+      "charStart": 7975,
+      "charEnd": 8171
+    },
+    {
+      "id": "s0100",
+      "text": "Asking whether the named successor is the right fit can sound like questioning something the community is not supposed to reopen.",
+      "startMs": 561526.0,
+      "endMs": 569154.0,
+      "charStart": 8171,
+      "charEnd": 8300
+    },
+    {
+      "id": "s0101",
+      "text": "Challenge is recoded not as disloyalty to a person but as disloyalty to the community's shared story about itself and its direction.",
+      "startMs": 569154.0,
+      "endMs": 579185.0,
+      "charStart": 8300,
+      "charEnd": 8432
+    },
+    {
+      "id": "s0102",
+      "text": "That pressure does not require bad faith.",
+      "startMs": 580718.0,
+      "endMs": 583701.0,
+      "charStart": 8437,
+      "charEnd": 8478
+    },
+    {
+      "id": "s0103",
+      "text": "Communities that have found genuine meaning in shared narrative often experience challenge to succession as genuinely threatening—because the narrative and the leadership are not fully separable in their experience.",
+      "startMs": 583701.0,
+      "endMs": 597482.0,
+      "charStart": 8478,
+      "charEnd": 8693
+    },
+    {
+      "id": "s0104",
+      "text": "The structural effect is the same either way: paths for correction narrow at exactly the moment transfer makes correction most necessary.",
+      "startMs": 597482.0,
+      "endMs": 607200.0,
+      "charStart": 8693,
+      "charEnd": 8830
+    },
+    {
+      "id": "s0105",
+      "text": "When congregations grow into networks—multiple campuses, affiliated communities, shared leadership structures—the transfer dynamics scale with them.",
+      "startMs": 608221.0,
+      "endMs": 618427.0,
+      "charStart": 8834,
+      "charEnd": 8982
+    },
+    {
+      "id": "s0106",
+      "text": "Local communities may never have direct access to the senior leader whose example originally anchored the network's legitimacy.",
+      "startMs": 618427.0,
+      "endMs": 626054.0,
+      "charStart": 8982,
+      "charEnd": 9109
+    },
+    {
+      "id": "s0107",
+      "text": "They inherit a culture shaped by that example without having witnessed it.",
+      "startMs": 626647.0,
+      "endMs": 630838.0,
+      "charStart": 9111,
+      "charEnd": 9185
+    },
+    {
+      "id": "s0108",
+      "text": "Office-based and sacralized legitimacy do more of the work at the edges of the network because example-based legitimacy cannot travel that far.",
+      "startMs": 630838.0,
+      "endMs": 640242.0,
+      "charStart": 9185,
+      "charEnd": 9328
+    },
+    {
+      "id": "s0109",
+      "text": "What reaches local communities is the template—the story of what leadership here looks like—rather than the lived example that built it.",
+      "startMs": 640242.0,
+      "endMs": 648787.0,
+      "charStart": 9328,
+      "charEnd": 9464
+    },
+    {
+      "id": "s0110",
+      "text": "What the Sequences Share",
+      "startMs": 650412.0,
+      "endMs": 651968.0,
+      "charStart": 9468,
+      "charEnd": 9492
+    },
+    {
+      "id": "s0111",
+      "text": "Begin by separating where they differ from where they align.",
+      "startMs": 653268.0,
+      "endMs": 657019.0,
+      "charStart": 9494,
+      "charEnd": 9554
+    },
+    {
+      "id": "s0112",
+      "text": "The three sequences differ in stakes, sector, and how explicitly legitimacy is named in each institution.",
+      "startMs": 657019.0,
+      "endMs": 664937.0,
+      "charStart": 9554,
+      "charEnd": 9659
+    },
+    {
+      "id": "s0113",
+      "text": "Religious communities often name the sacred dimension of authority directly; healthcare and government institutions often leave it implicit.",
+      "startMs": 664937.0,
+      "endMs": 674109.0,
+      "charStart": 9659,
+      "charEnd": 9799
+    },
+    {
+      "id": "s0114",
+      "text": "Named or unnamed, the structural effect on correction and accountability is similar.",
+      "startMs": 674794.0,
+      "endMs": 680041.0,
+      "charStart": 9803,
+      "charEnd": 9887
+    },
+    {
+      "id": "s0115",
+      "text": "What the sequences share is the transfer dynamic: authority that expands under pressure tends to stay expanded.",
+      "startMs": 680645.0,
+      "endMs": 688784.0,
+      "charStart": 9889,
+      "charEnd": 10000
+    },
+    {
+      "id": "s0116",
+      "text": "The next holder inherits the expanded position, not the pre-pressure baseline.",
+      "startMs": 688784.0,
+      "endMs": 694357.0,
+      "charStart": 10000,
+      "charEnd": 10078
+    },
+    {
+      "id": "s0117",
+      "text": "People who join after expansion have no prior condition to compare against.",
+      "startMs": 694670.0,
+      "endMs": 699396.0,
+      "charStart": 10081,
+      "charEnd": 10156
+    },
+    {
+      "id": "s0118",
+      "text": "For them, the inherited baseline is simply what the role is.",
+      "startMs": 699396.0,
+      "endMs": 703239.0,
+      "charStart": 10156,
+      "charEnd": 10216
+    },
+    {
+      "id": "s0119",
+      "text": "Legitimacy transfer is not wrong in itself.",
+      "startMs": 703668.0,
+      "endMs": 706420.0,
+      "charStart": 10219,
+      "charEnd": 10262
+    },
+    {
+      "id": "s0120",
+      "text": "Continuity requires some transfer.",
+      "startMs": 706664.0,
+      "endMs": 709171.0,
+      "charStart": 10263,
+      "charEnd": 10297
+    },
+    {
+      "id": "s0121",
+      "text": "The risk appears when transfer becomes automatic while limits become optional.",
+      "startMs": 709346.0,
+      "endMs": 714024.0,
+      "charStart": 10299,
+      "charEnd": 10377
+    },
+    {
+      "id": "s0122",
+      "text": "Where authority can grow without people deliberately pulling it back, accountability lags.",
+      "startMs": 714303.0,
+      "endMs": 719493.0,
+      "charStart": 10379,
+      "charEnd": 10469
+    },
+    {
+      "id": "s0123",
+      "text": "Over time, that lag is where harm accumulates.",
+      "startMs": 719818.0,
+      "endMs": 723301.0,
+      "charStart": 10470,
+      "charEnd": 10516
+    }
+  ]
+}
