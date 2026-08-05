@@ -1,22 +1,23 @@
 # When Others Look to You v1 — chapter enrichment (audio).
-# First half enabled: introduction + Part I + Part II (~22k Flash credits est.).
-# Part III–V and back matter stay disabled until a later wave.
+# Full-book narration enabled (2026-08-05): Flash burn calibrated ~0.25 credit/char
+# from Starter dashboard (OP + first-half WOLTY ≈ 14,017 used). Remaining ~25k
+# covers Parts III–V + front/back matter (~23k est.).
 version: 1
 chapters:
 - sourcePath: front-matter/preface.md
   kind: other
   audio:
-    enabled: false
+    enabled: true
     max_credits: 2000
 - sourcePath: front-matter/acknowledgements.md
   kind: other
   audio:
-    enabled: false
+    enabled: true
     max_credits: 2000
 - sourcePath: front-matter/typographical-conventions.md
   kind: other
   audio:
-    enabled: false
+    enabled: true
     max_credits: 2000
 - sourcePath: front-matter/introduction-attention-finds-a-focus.md
   kind: introduction
@@ -61,70 +62,70 @@ chapters:
 - sourcePath: parts/part-3-harm-effectiveness-legitimacy/bridge-from-movement-to-lenses.md
   kind: bridge
   audio:
-    enabled: false
+    enabled: true
     max_credits: 2000
 - sourcePath: parts/part-3-harm-effectiveness-legitimacy/chapter-6-harm-under-influence.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 8500
 - sourcePath: parts/part-3-harm-effectiveness-legitimacy/chapter-7-effectiveness-and-its-illusions.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 4500
 - sourcePath: parts/part-3-harm-effectiveness-legitimacy/chapter-8-legitimacy-over-time.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 6000
 - sourcePath: parts/part-4-scale-pressure-misjudgment/bridge-from-structure-to-scale-and-judgment.md
   kind: bridge
   audio:
-    enabled: false
+    enabled: true
     max_credits: 2000
 - sourcePath: parts/part-4-scale-pressure-misjudgment/chapter-9-scale-and-drift.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 4000
 - sourcePath: parts/part-4-scale-pressure-misjudgment/chapter-10-tradeoffs-under-pressure.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 5500
 - sourcePath: parts/part-4-scale-pressure-misjudgment/chapter-11-why-we-misjudge-leaders.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 7500
 - sourcePath: parts/part-5-closing/bridge-from-misjudgment-to-what-remains.md
   kind: bridge
   audio:
-    enabled: false
+    enabled: true
     max_credits: 2000
 - sourcePath: parts/part-5-closing/chapter-12-what-happens-next.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 3000
 - sourcePath: back-matter/epilogue.md
   kind: afterword
   audio:
-    enabled: false
+    enabled: true
     max_credits: 2500
 - sourcePath: back-matter/appendix-a-legitimacy-transfer.md
   kind: appendix
   audio:
-    enabled: false
+    enabled: true
     max_credits: 7000
 - sourcePath: back-matter/appendix-b-leadership-patterns.md
   kind: appendix
   audio:
-    enabled: false
+    enabled: true
     max_credits: 6000
 - sourcePath: back-matter/glossary.md
   kind: other
   audio:
-    enabled: false
+    enabled: true
     max_credits: 2000

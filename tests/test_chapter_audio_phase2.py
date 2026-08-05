@@ -108,14 +108,16 @@ def test_hash_stable_and_provider_change_invalidates() -> None:
     assert generation_hash(instr) != h1
 
 
-def test_estimate_elevenlabs_flash_is_half_credit_per_char() -> None:
+def test_estimate_elevenlabs_flash_is_quarter_credit_per_char() -> None:
     est = estimate_usage(provider="elevenlabs", model="eleven_flash_v2_5", spoken_characters=211)
     assert est.unit == "credits"
-    assert est.amount == 105.5
+    assert est.amount == 52.75
     standard = estimate_usage(
         provider="elevenlabs", model="eleven_multilingual_v2", spoken_characters=211
     )
     assert standard.amount == 211.0
+    turbo = estimate_usage(provider="elevenlabs", model="eleven_turbo_v2_5", spoken_characters=100)
+    assert turbo.amount == 25.0
 
 
 def test_plan_enabled_units_include_pilot_intro(repo_root: Path) -> None:
@@ -126,7 +128,7 @@ def test_plan_enabled_units_include_pilot_intro(repo_root: Path) -> None:
     )
     assert intro.status.startswith("enabled-")
     assert intro.spoken_characters == 211
-    assert intro.estimated_usage_amount == 105.5
+    assert intro.estimated_usage_amount == 52.75
     assert intro.generation_hash is not None
     if intro.status == "enabled-missing":
         assert intro.regenerate_required is True
