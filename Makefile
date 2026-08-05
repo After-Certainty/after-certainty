@@ -47,6 +47,7 @@ help:
 	@echo "  make check  (lint + pytest; run before commit/push when Python changed)"
 	@echo "  make list-chapter-audio [FILTER=all|enabled|available|disabled|stale|missing|unconfigured|invalid] [FORMAT=table|json]"
 	@echo "  make plan-chapter-audio [ENABLED=1] [UNIT=chapter-id] [FORMAT=table|json]"
+	@echo "  make generate-chapter-audio UNIT=chapter-id [DRY_RUN=1] [MOCK=1] [REAL=1] [FORCE=1] [FORMAT=text|json]"
 	@echo "  make validate-book-specs"
 	@echo "  make validate-editorial-preservation BOOK_DIR=books/when-others-look-to-you/v1"
 	@echo "  make generate-books-manifest [MANIFEST_OUT=build/books-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
@@ -156,6 +157,15 @@ plan-chapter-audio:
 		$(if $(filter 1 true TRUE yes YES,$(ENABLED)),--enabled,) \
 		$(if $(UNIT),--unit "$(UNIT)",) \
 		--format "$(or $(FORMAT),table)"
+
+generate-chapter-audio:
+	@test -n "$(UNIT)" || { echo "Usage: make generate-chapter-audio UNIT=chapter-id [DRY_RUN=1|MOCK=1|REAL=1] [FORCE=1]"; exit 1; }
+	@python3 tools/generate_chapter_audio.py --repo . --unit "$(UNIT)" \
+		$(if $(filter 1 true TRUE yes YES,$(DRY_RUN)),--dry-run,) \
+		$(if $(filter 1 true TRUE yes YES,$(MOCK)),--mock,) \
+		$(if $(filter 1 true TRUE yes YES,$(REAL)),--real,) \
+		$(if $(filter 1 true TRUE yes YES,$(FORCE)),--force,) \
+		--format "$(or $(FORMAT),text)"
 
 validate-publication-manuscript:
 	@test -n "$(DIR)" || { echo "Usage: make validate-publication-manuscript DIR=path/from/repo/root [BOUNDARY=1]"; exit 1; }
