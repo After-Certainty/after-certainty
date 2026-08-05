@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-i-what-begins-how-belief-forms",
+  "generationHash": "sha256:e655dd6a169dfc6f65f67977f687135c185700967863dacd6e16c0b9e326de70",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "How Belief Forms",
+      "startMs": 0.0,
+      "endMs": 1266.0,
+      "charStart": 0,
+      "charEnd": 16
+    },
+    {
+      "id": "s0002",
+      "text": "Experience accumulates.",
+      "startMs": 1336.0,
+      "endMs": 3007.0,
+      "charStart": 18,
+      "charEnd": 41
+    },
+    {
+      "id": "s0003",
+      "text": "Conviction deepens.",
+      "startMs": 3332.0,
+      "endMs": 4760.0,
+      "charStart": 43,
+      "charEnd": 62
+    },
+    {
+      "id": "s0004",
+      "text": "Certainty is tested.",
+      "startMs": 5039.0,
+      "endMs": 6444.0,
+      "charStart": 64,
+      "charEnd": 84
+    },
+    {
+      "id": "s0005",
+      "text": "Belief is shaped.",
+      "startMs": 6769.0,
+      "endMs": 8116.0,
+      "charStart": 86,
+      "charEnd": 103
+    },
+    {
+      "id": "s0006",
+      "text": "Belief opens.",
+      "startMs": 8441.0,
+      "endMs": 9730.0,
+      "charStart": 105,
+      "charEnd": 118
+    },
+    {
+      "id": "s0007",
+      "text": "Belief hardens.",
+      "startMs": 10113.0,
+      "endMs": 11425.0,
+      "charStart": 119,
+      "charEnd": 134
+    },
+    {
+      "id": "s0008",
+      "text": "Doubt is welcomed.",
+      "startMs": 11750.0,
+      "endMs": 13015.0,
+      "charStart": 135,
+      "charEnd": 153
+    },
+    {
+      "id": "s0009",
+      "text": "Doubt is silenced.",
+      "startMs": 13340.0,
+      "endMs": 14710.0,
+      "charStart": 154,
+      "charEnd": 172
+    },
+    {
+      "id": "s0010",
+      "text": "Revision demands courage.",
+      "startMs": 14989.0,
+      "endMs": 16800.0,
+      "charStart": 173,
+      "charEnd": 198
+    },
+    {
+      "id": "s0011",
+      "text": "Revision yields.",
+      "startMs": 17079.0,
+      "endMs": 18379.0,
+      "charStart": 199,
+      "charEnd": 215
+    },
+    {
+      "id": "s0012",
+      "text": "Belief is held.",
+      "startMs": 18762.0,
+      "endMs": 20155.0,
+      "charStart": 217,
+      "charEnd": 232
+    }
+  ]
+}

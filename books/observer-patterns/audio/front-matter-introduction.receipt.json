@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-front-matter-introduction",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "front-matter-introduction",
+  "sourcePath": "front-matter/introduction.md",
+  "sourceHash": "sha256:062c71a4953c7c81cc50dde36764a43455b0be9eaa8ee8aba14af67cc110f9cc",
+  "spokenTextHash": "sha256:9bc8de2ea647814f9bfee2078bfc8109c329d85b24f78935814c8955400fdade",
+  "generationHash": "sha256:abd36bb9732e8ff6b673a2458671d3a4c9d8b7903c05bba05b0a5f92b61a6697",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 211,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 211.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 211.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/front-matter-introduction.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/front-matter-introduction.mp3",
+  "audioSha256": "sha256:b2f29a8aa93f065cf4b450db914f57639760639085b87d54a666e3cba5ec3b98",
+  "generatedAt": "2026-08-05T03:46:27Z"
+}

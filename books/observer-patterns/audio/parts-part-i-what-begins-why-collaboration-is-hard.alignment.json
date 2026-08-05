@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-i-what-begins-why-collaboration-is-hard",
+  "generationHash": "sha256:5ed950c7e0a12769b332c18f8f22721e7c1dadc2b40346337dc1a80826c791d6",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Why Collaboration Is Hard",
+      "startMs": 0.0,
+      "endMs": 2264.0,
+      "charStart": 0,
+      "charEnd": 25
+    },
+    {
+      "id": "s0002",
+      "text": "Difference is present.",
+      "startMs": 3216.0,
+      "endMs": 4539.0,
+      "charStart": 27,
+      "charEnd": 49
+    },
+    {
+      "id": "s0003",
+      "text": "Context varies.",
+      "startMs": 4818.0,
+      "endMs": 6269.0,
+      "charStart": 51,
+      "charEnd": 66
+    },
+    {
+      "id": "s0004",
+      "text": "Assumptions are tested.",
+      "startMs": 6594.0,
+      "endMs": 7930.0,
+      "charStart": 68,
+      "charEnd": 91
+    },
+    {
+      "id": "s0005",
+      "text": "Understanding aligns.",
+      "startMs": 8139.0,
+      "endMs": 9532.0,
+      "charStart": 93,
+      "charEnd": 114
+    },
+    {
+      "id": "s0006",
+      "text": "Understanding diverges.",
+      "startMs": 9776.0,
+      "endMs": 11447.0,
+      "charStart": 115,
+      "charEnd": 138
+    },
+    {
+      "id": "s0007",
+      "text": "Priorities converge.",
+      "startMs": 11691.0,
+      "endMs": 13328.0,
+      "charStart": 139,
+      "charEnd": 159
+    },
+    {
+      "id": "s0008",
+      "text": "Priorities conflict.",
+      "startMs": 13479.0,
+      "endMs": 15035.0,
+      "charStart": 160,
+      "charEnd": 180
+    },
+    {
+      "id": "s0009",
+      "text": "Coordination forms.",
+      "startMs": 15151.0,
+      "endMs": 16591.0,
+      "charStart": 181,
+      "charEnd": 200
+    },
+    {
+      "id": "s0010",
+      "text": "Coordination breaks.",
+      "startMs": 16765.0,
+      "endMs": 18193.0,
+      "charStart": 201,
+      "charEnd": 221
+    },
+    {
+      "id": "s0011",
+      "text": "Feedback flows.",
+      "startMs": 18437.0,
+      "endMs": 19679.0,
+      "charStart": 222,
+      "charEnd": 237
+    },
+    {
+      "id": "s0012",
+      "text": "Feedback stops.",
+      "startMs": 19923.0,
+      "endMs": 21223.0,
+      "charStart": 238,
+      "charEnd": 253
+    },
+    {
+      "id": "s0013",
+      "text": "Work progresses.",
+      "startMs": 21467.0,
+      "endMs": 22802.0,
+      "charStart": 254,
+      "charEnd": 270
+    },
+    {
+      "id": "s0014",
+      "text": "Work stalls.",
+      "startMs": 23011.0,
+      "endMs": 24184.0,
+      "charStart": 271,
+      "charEnd": 283
+    },
+    {
+      "id": "s0015",
+      "text": "Ownership holds.",
+      "startMs": 24427.0,
+      "endMs": 25693.0,
+      "charStart": 284,
+      "charEnd": 300
+    },
+    {
+      "id": "s0016",
+      "text": "Ownership diffuses.",
+      "startMs": 25867.0,
+      "endMs": 27295.0,
+      "charStart": 301,
+      "charEnd": 320
+    },
+    {
+      "id": "s0017",
+      "text": "Trust grows.",
+      "startMs": 27539.0,
+      "endMs": 28874.0,
+      "charStart": 321,
+      "charEnd": 333
+    },
+    {
+      "id": "s0018",
+      "text": "Trust erodes.",
+      "startMs": 29083.0,
+      "endMs": 30627.0,
+      "charStart": 334,
+      "charEnd": 347
+    },
+    {
+      "id": "s0019",
+      "text": "Collaboration holds.",
+      "startMs": 30952.0,
+      "endMs": 32659.0,
+      "charStart": 348,
+      "charEnd": 368
+    },
+    {
+      "id": "s0020",
+      "text": "Collaboration falls.",
+      "startMs": 32903.0,
+      "endMs": 34737.0,
+      "charStart": 369,
+      "charEnd": 389
+    }
+  ]
+}

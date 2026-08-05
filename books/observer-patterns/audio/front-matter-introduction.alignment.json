@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-front-matter-introduction",
+  "generationHash": "sha256:abd36bb9732e8ff6b673a2458671d3a4c9d8b7903c05bba05b0a5f92b61a6697",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "This is a book of patterns.",
+      "startMs": 0.0,
+      "endMs": 1718.0,
+      "charStart": 0,
+      "charEnd": 27
+    },
+    {
+      "id": "s0002",
+      "text": "Not instructions.",
+      "startMs": 1834.0,
+      "endMs": 2960.0,
+      "charStart": 29,
+      "charEnd": 46
+    },
+    {
+      "id": "s0003",
+      "text": "Not arguments.",
+      "startMs": 3111.0,
+      "endMs": 4168.0,
+      "charStart": 48,
+      "charEnd": 62
+    },
+    {
+      "id": "s0004",
+      "text": "Just things that happen—",
+      "startMs": 4342.0,
+      "endMs": 5584.0,
+      "charStart": 64,
+      "charEnd": 88
+    },
+    {
+      "id": "s0005",
+      "text": "when people look,",
+      "startMs": 5700.0,
+      "endMs": 6722.0,
+      "charStart": 90,
+      "charEnd": 107
+    },
+    {
+      "id": "s0006",
+      "text": "decide,",
+      "startMs": 6791.0,
+      "endMs": 7442.0,
+      "charStart": 109,
+      "charEnd": 116
+    },
+    {
+      "id": "s0007",
+      "text": "and follow what they see.",
+      "startMs": 7465.0,
+      "endMs": 8858.0,
+      "charStart": 118,
+      "charEnd": 143
+    },
+    {
+      "id": "s0008",
+      "text": "These patterns can be read alone.",
+      "startMs": 9299.0,
+      "endMs": 11099.0,
+      "charStart": 145,
+      "charEnd": 178
+    },
+    {
+      "id": "s0009",
+      "text": "They can also be read together.",
+      "startMs": 11273.0,
+      "endMs": 13142.0,
+      "charStart": 180,
+      "charEnd": 211
+    }
+  ]
+}

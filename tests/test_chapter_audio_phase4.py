@@ -137,6 +137,20 @@ def test_run_chapter_audio_ci_dry_run_no_changes() -> None:
     assert "No books/*/audio changes" in r.stderr or "dry-run:" in r.stdout + r.stderr
 
 
+def test_changed_audio_paths_finds_untracked_audio_tree(tmp_path: Path) -> None:
+    """Regression: literal books/*/audio pathspec misses untracked audio files."""
+    subprocess.run(["git", "init"], cwd=tmp_path, check=True, capture_output=True)
+    audio = tmp_path / "books" / "observer-patterns" / "audio"
+    audio.mkdir(parents=True)
+    (audio / "front-matter-introduction.mp3").write_bytes(b"ID3fake")
+    (audio / "front-matter-introduction.receipt.json").write_text("{}", encoding="utf-8")
+    from run_chapter_audio_ci import _changed_audio_paths
+
+    paths = _changed_audio_paths(tmp_path)
+    assert "books/observer-patterns/audio/front-matter-introduction.mp3" in paths
+    assert "books/observer-patterns/audio/front-matter-introduction.receipt.json" in paths
+
+
 def test_validate_chapter_audio_module_collects_issues() -> None:
     issues = validate_chapter_audio(REPO)
     assert all(i.level in {"error", "warning"} for i in issues)

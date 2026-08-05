@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-i-what-begins-how-belief-forms",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-i-what-begins-how-belief-forms",
+  "sourcePath": "parts/part-i-what-begins/how-belief-forms.md",
+  "sourceHash": "sha256:0c56562a71ff4c8865f1454669e4889f68b530d14ebad69bac87d4c8e7dd5917",
+  "spokenTextHash": "sha256:6792175dd0272076e08ae889a07b75daa822e00a78967eec4731867e2505647e",
+  "generationHash": "sha256:e655dd6a169dfc6f65f67977f687135c185700967863dacd6e16c0b9e326de70",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 232,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 232.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 232.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-i-what-begins-how-belief-forms.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-i-what-begins-how-belief-forms.mp3",
+  "audioSha256": "sha256:84d97b9ce80af46f42bde334c1dd470fc6db06057d7e9933f8b16827a885ced3",
+  "generatedAt": "2026-08-05T03:46:41Z"
+}

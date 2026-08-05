@@ -30,7 +30,13 @@ def _manual_pr_url(*, base_branch: str, branch: str) -> str | None:
 
 
 def _changed_audio_paths(repo: Path) -> list[str]:
-    proc = _run(["git", "status", "--porcelain", "--", "books/*/audio"], cwd=repo)
+    # Use -uall so newly created books/<edition>/audio/ dirs list their files.
+    # Pathspecs like books/*/audio are not expanded by git when passed literally
+    # (no shell glob), so scope to books/ and filter for /audio/ paths.
+    proc = _run(
+        ["git", "status", "--porcelain", "-uall", "--", "books"],
+        cwd=repo,
+    )
     if proc.returncode != 0:
         raise RuntimeError(proc.stderr or "git status failed")
     paths: list[str] = []
@@ -40,7 +46,8 @@ def _changed_audio_paths(repo: Path) -> list[str]:
         path = line[3:].strip()
         if " -> " in path:
             path = path.split(" -> ", 1)[1].strip()
-        if "/audio/" in path or path.endswith("/audio"):
+        normalized = path.rstrip("/")
+        if "/audio/" in path or normalized.endswith("/audio"):
             paths.append(path)
     return sorted(set(paths))
 
