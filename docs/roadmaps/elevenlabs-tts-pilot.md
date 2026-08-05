@@ -1,12 +1,12 @@
 # Provider-neutral chapter TTS pilot for the native reader
 
-**Status:** Active specialized plan (pilot not yet implemented)  
+**Status:** Active specialized plan — **Phases 0–6 shipped**; Phase 8 expansion in progress; Phase 7 (OpenAI eval) optional  
 **Created:** 2026-08-03  
-**Revised:** 2026-08-03 (provider-neutral architecture; ElevenLabs as first adapter)  
+**Revised:** 2026-08-05 (live OP + WOLTY v1; Flash estimate calibrated 0.25 credit/char; CBC intro + Ch.1 enablement)  
 **Location:** `docs/roadmaps/elevenlabs-tts-pilot.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog should remain linked from that master roadmap (`AUDIO-*`).
 
-**Document role:** Executable implementation roadmap for selectively generated chapter narration in the After Certainty native reader. The architecture is **provider-neutral**. ElevenLabs is the likely first pilot adapter; OpenAI TTS is a later evaluation candidate that must not require redesigning semantic metadata, receipts, manifests, CI orchestration, or the reader.
+**Document role:** Executable implementation roadmap for selectively generated chapter narration in the After Certainty native reader. The architecture is **provider-neutral**. ElevenLabs is the first pilot adapter; OpenAI TTS is a later evaluation candidate that must not require redesigning semantic metadata, receipts, manifests, CI orchestration, or the reader.
 
 > **Evidence rule:** Live code, schemas, workflows, and tests override planning-time snapshots in this document.
 
@@ -694,44 +694,59 @@ Do not combine phases into one implementation PR.
 | AUDIO-P0-04 | **Done** | Root [`.gitattributes`](../../.gitattributes) tracks `books/*/audio/*.mp3` with Git LFS; receipts/alignment remain ordinary Git. |
 | AUDIO-P0-01 | **Done (Kevin, 2026-08-05)** | Starter plan confirms commercial/public-site use; Listen live for OP intro + Part I. AI disclosure remains in the reader. |
 | AUDIO-P0-03 | **Done** | `reflective-narrator` → ElevenLabs voice `sb2VZCPgS2OECd1UfmTX`. |
-| **Public / production Listen** | **Live (OP subset → expanding)** | Available-unit gate. Intro + Part I shipped; remaining OP units enabled for full-book generate (~10.5k credits est.). |
-| **Pilot book** | **Observer Patterns** | All **29** exported units audio-enabled; six already generated/current. |
+| **Public / production Listen** | **Live** | Available-unit gate (no site env flag). OP full book + WOLTY v1 full book generated and merged; CBC intro + Ch.1 enabled next. |
+| **Pilot / expansion books** | **OP + WOLTY v1 (+ CBC wave)** | Observer Patterns **29/29** available; When Others Look to You v1 **25/25** available; Curiosity Before Certainty intro + Ch.1 enabled (~1.98k Flash credits est. @ 0.25/char). |
+| **Flash credit estimate** | **Calibrated 0.25 credit/char** | Starter dashboard burn after OP + full WOLTY (149,337 spoken chars → 37,335 used) matches **0.25**; marketing docs often quote 0.5. |
 
-**API key:** Still **not** required for Phase 1–2. When ready for a real free-plan generate (Phase 3+): copy `.env.example` → `.env.local`, set `ELEVENLABS_API_KEY`, run `make generate-chapter-audio` on a trusted laptop, then install/run the site locally to exercise reader features. Optional later: the same key as a GitHub Actions secret. Never commit `.env.local`; never put the key in Cursor cloud agents or Vercel. Production Listen waits for Kevin’s go-ahead.
-
+**API key:** Generate via Actions secret `ELEVENLABS_API_KEY` (`chapter-audio-generate` workflow) or laptop `.env.local`. Never commit `.env.local`; never put the key in Cursor cloud agents or Vercel.
 #### Phase 1 progress (2026-08-04)
 
 | ID | Status | Notes |
 |----|--------|-------|
-| AUDIO-P1-01–P1-04 | **Done (pilot book: Observer Patterns)** | Schemas, voice catalog stub, `make list-chapter-audio`, Observer Patterns `narration.defaults` + all 29 exported units `audio.enabled: true`. Status is `enabled-unconfigured` until Kevin replaces `PLACEHOLDER_ELEVENLABS_VOICE_ID`. Public Listen remains gated. After Certainty audio opt-in was reverted. |
+| AUDIO-P1-01–P1-04 | **Done (pilot book: Observer Patterns)** | Schemas, voice catalog, `make list-chapter-audio`, Observer Patterns `narration.defaults` + all 29 exported units `audio.enabled: true`. Voice id live (`sb2VZCPgS2OECd1UfmTX`). |
 
 #### Phase 2 progress (2026-08-04)
 
 | ID | Status | Notes |
 |----|--------|-------|
-| AUDIO-P2-01–P2-03 | **Done** | Deterministic extractor (OP poetry tables → left-then-right), generation hashing (provider change invalidates), offline estimates, `make plan-chapter-audio`. Intro spoken length confirmed **211** chars. Still secret-free; units remain `enabled-unconfigured` until a real voice id is set. |
+| AUDIO-P2-01–P2-03 | **Done** | Deterministic extractor (OP poetry tables → left-then-right), generation hashing, offline estimates (Flash **0.25** credit/char), `make plan-chapter-audio`. |
 
 #### Phase 3 progress (2026-08-04)
 
 | ID | Status | Notes |
 |----|--------|-------|
-| AUDIO-P3-01–P3-03 | **Done** | `TtsProvider` Protocol, ElevenLabs adapter (stdlib HTTP) + `MockElevenLabsProvider`, `make generate-chapter-audio` with dry-run default / `--mock` / `--real`, budgets, atomic artifact trio, `.env.local` key loading. CI uses mocks only. Real generate still blocked on `PLACEHOLDER_ELEVENLABS_VOICE_ID` + Kevin’s key on laptop. |
+| AUDIO-P3-01–P3-03 | **Done** | `TtsProvider` Protocol, ElevenLabs adapter + mock, `make generate-chapter-audio` (dry-run / `--mock` / `--real`), budgets, atomic artifact trio, `.env.local` key loading. |
 
 #### Phase 4 progress (2026-08-05)
 
 | ID | Status | Notes |
 |----|--------|-------|
-| AUDIO-P4-01 | **Done** | `.github/workflows/chapter-audio-generate.yml` — `workflow_dispatch`, dry-run default, multi-unit smoke list (OP intro + Part I poems), mounts `ELEVENLABS_API_KEY` only on real generate, LFS checkout, artifact upload, review PR via `tools/run_chapter_audio_ci.py`. |
+| AUDIO-P4-01 | **Done** | `.github/workflows/chapter-audio-generate.yml` — `workflow_dispatch`, dry-run default, auto-discover missing/stale enabled units, mounts `ELEVENLABS_API_KEY` only on real generate, LFS checkout, artifact upload, review PR via `tools/run_chapter_audio_ci.py`. |
 | AUDIO-P4-02 | **Done** | `make validate-chapter-audio` / `make verify-chapter-audio` (secret-free); wired into `python-tests.yml`. |
 | AUDIO-P4-03 | **Done** | `docs/security/github-settings-checklist.md` documents `ELEVENLABS_API_KEY` + LFS ops. |
 
-**Phase 4 enablement scope:** Observer Patterns — all exported units may be `audio.enabled: true`. The `chapter-audio-generate` workflow **auto-discovers** enabled units that need generation (missing/stale/invalid) from book narration + chapter enrichment; optional `units` / `edition` inputs narrow the set. Already-current artifacts are skipped unless `force=true`.
+**Phase 4 enablement scope:** Workflow **auto-discovers** enabled units that need generation (missing/stale/invalid); optional `units` / `edition` inputs narrow the set. Already-current artifacts are skipped unless `force=true`. Nested edition dirs use `book_relpath` (e.g. `books/when-others-look-to-you/v1/`).
+
+#### Phase 5 progress (2026-08-05)
+
+| ID | Status | Notes |
+|----|--------|-------|
+| AUDIO-P5-01–P5-03 | **Done** | Install into `public/generated/audio/` + SSR alignments in `data/chapter-audio/`; available-only manifest; Listen player + AI disclosure; MP3s excluded from Vercel serverless file tracing (#507). |
+
+#### Phase 6 progress (2026-08-05)
+
+| ID | Status | Notes |
+|----|--------|-------|
+| AUDIO-P6-01–P6-03 | **Done** | Segment fixtures, rehype markers, sentence highlight with reduced-motion; capability-gated on `alignmentGranularity`. |
 
 #### Phase 8 progress (2026-08-05)
 
 | ID | Status | Notes |
 |----|--------|-------|
-| AUDIO-P8-01 (OP full book) | **In progress** | Licensing + Starter plan go-ahead recorded. Remaining units (~10.5k credits est.) via enablement + reconcile workflow (`dry_run=false`). |
+| AUDIO-P8-01 (OP full book) | **Done** | All 29 Observer Patterns units generated and available. |
+| AUDIO-P8-02 (WOLTY v1 full book) | **Done** | All 25 When Others Look to You v1 units generated (#505 + #508). |
+| AUDIO-P8-03 (CBC intro + Ch.1) | **Enabled — generate next** | Curiosity Before Certainty introduction + Chapter 1 (~1,976 Flash credits @ 0.25); ~2.1k Starter credits remaining after WOLTY. Rest of CBC (~5.9k more) waits for next credit cycle. |
+| AUDIO-P7-01 (OpenAI eval) | **Optional / not started** | Second-provider evaluation only if quality/cost/ops justify an adapter. |
 
 ### Phase 1 — Semantic enablement and schemas
 
