@@ -77,16 +77,25 @@ export function parseChapterAudioAlignment(raw: unknown): ChapterAudioAlignment 
   };
 }
 
-/** Active segment for a playback position in milliseconds. */
+/**
+ * Active segment for a playback position in milliseconds.
+ *
+ * Prefer the half-open interval [startMs, endMs). If time falls in a gap
+ * between segments, keep the previous segment so highlights do not flicker
+ * off between short spans. The last segment includes its endMs boundary.
+ */
 export function findActiveAlignmentSegment(
   segments: readonly ChapterAudioAlignmentSegment[],
   timeMs: number,
 ): ChapterAudioAlignmentSegment | null {
   if (!segments.length || timeMs < 0) return null;
+  let previous: ChapterAudioAlignmentSegment | null = null;
   for (const seg of segments) {
     if (timeMs >= seg.startMs && timeMs < seg.endMs) return seg;
+    if (timeMs < seg.startMs) return previous;
+    previous = seg;
   }
   const last = segments[segments.length - 1];
-  if (timeMs >= last.startMs && timeMs <= last.endMs) return last;
+  if (timeMs <= last.endMs) return last;
   return null;
 }

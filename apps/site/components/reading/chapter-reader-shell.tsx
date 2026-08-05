@@ -19,6 +19,7 @@ import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
 import { chapterPublicPath, chapterSlugFromRouteKey } from "@/lib/graph/chapters";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import type { ChapterAudioUnit } from "@/lib/reading/chapter-audio";
+import type { ChapterAudioAlignment } from "@/lib/reading/chapter-audio-alignment";
 import type { ChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 import type { Book, ManifestChapter } from "@/types/semanticGraph";
 
@@ -29,6 +30,8 @@ export type ChapterReaderShellProps = {
   navigation?: ChapterReadingNavigation | null;
   /** Available chapter TTS when installed into the site audio manifest. */
   chapterAudio?: ChapterAudioUnit | null;
+  /** SSR alignment for Listen highlighting when available. */
+  chapterAudioAlignment?: ChapterAudioAlignment | null;
   /** Manuscript body — empty until READ-003. */
   children?: ReactNode;
 };
@@ -42,6 +45,7 @@ export function ChapterReaderShell({
   chapter,
   navigation,
   chapterAudio = null,
+  chapterAudioAlignment = null,
   children,
 }: ChapterReaderShellProps) {
   const kindLabel = chapterKindLabel(chapter.kind);
@@ -56,13 +60,19 @@ export function ChapterReaderShell({
     ? navigation.chapters.findIndex((entry) => entry.id === navigation.current.id) + 1
     : undefined;
   const chapterCount = navigation?.chapters.length;
+  const hasAudio = Boolean(chapterAudio);
 
   return (
     <ReadingPreferencesRoot
       key={chapter.id}
       aria-labelledby="chapter-title"
       data-chapter-reader=""
-      className="relative mx-auto px-4 pb-10 pt-0 md:pb-16"
+      data-chapter-audio={hasAudio ? "dock" : undefined}
+      className={
+        hasAudio
+          ? "relative mx-auto px-4 pb-[calc(7.5rem+env(safe-area-inset-bottom,0px))] pt-0 md:pb-[calc(8rem+env(safe-area-inset-bottom,0px))]"
+          : "relative mx-auto px-4 pb-10 pt-0 md:pb-16"
+      }
     >
       <ResetSpokenContent chapterId={chapter.id} chapterTitle={chapter.title} />
       <HardNavManuscriptLinks />
@@ -105,8 +115,6 @@ export function ChapterReaderShell({
         <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-muted">
           <CopySectionLinkControl chapterPath={chapterPath} />
         </div>
-
-        {chapterAudio ? <ChapterAudioPlayer audio={chapterAudio} /> : null}
 
         {centralQuestion ? (
           <p className="text-base leading-relaxed text-fg/90 md:text-lg">
@@ -160,6 +168,10 @@ export function ChapterReaderShell({
           </ButtonLink>
         </div>
       </footer>
+
+      {chapterAudio ? (
+        <ChapterAudioPlayer audio={chapterAudio} alignment={chapterAudioAlignment} />
+      ) : null}
     </ReadingPreferencesRoot>
   );
 }
