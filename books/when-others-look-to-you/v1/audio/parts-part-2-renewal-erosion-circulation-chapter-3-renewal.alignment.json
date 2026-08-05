@@ -1,0 +1,912 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-2-renewal-erosion-circulation-chapter-3-renewal",
+  "generationHash": "sha256:752d92a484c9a6e589ff12fd491ffab734e8dbfeed9cc18bd68a03d57e4d81e5",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 3 — Renewal",
+      "startMs": 0.0,
+      "endMs": 1730.0,
+      "charStart": 0,
+      "charEnd": 19
+    },
+    {
+      "id": "s0002",
+      "text": "What Vitality Opens",
+      "startMs": 2136.0,
+      "endMs": 3692.0,
+      "charStart": 21,
+      "charEnd": 40
+    },
+    {
+      "id": "s0003",
+      "text": "In a weekly review, an analyst notices a sharp drop in completion rates hidden in the latest dashboard rollup.",
+      "startMs": 4075.0,
+      "endMs": 10809.0,
+      "charStart": 42,
+      "charEnd": 152
+    },
+    {
+      "id": "s0004",
+      "text": "She interrupts before the agenda moves on and asks everyone to hold at that slide.",
+      "startMs": 10809.0,
+      "endMs": 16335.0,
+      "charStart": 152,
+      "charEnd": 234
+    },
+    {
+      "id": "s0005",
+      "text": "The room goes quiet for a beat, then the lead asks her to walk through the breakout by region.",
+      "startMs": 17264.0,
+      "endMs": 23081.0,
+      "charStart": 237,
+      "charEnd": 331
+    },
+    {
+      "id": "s0006",
+      "text": "The schedule slips ten minutes, but no one treats the interruption as disloyal.",
+      "startMs": 23081.0,
+      "endMs": 27911.0,
+      "charStart": 331,
+      "charEnd": 410
+    },
+    {
+      "id": "s0007",
+      "text": "The problem is now in the open while it can still be worked.",
+      "startMs": 27911.0,
+      "endMs": 31777.0,
+      "charStart": 410,
+      "charEnd": 470
+    },
+    {
+      "id": "s0008",
+      "text": "That is the opening signal in groups where vitality holds.",
+      "startMs": 32462.0,
+      "endMs": 36467.0,
+      "charStart": 474,
+      "charEnd": 532
+    },
+    {
+      "id": "s0009",
+      "text": "Early warnings are part of the work, not betrayal.",
+      "startMs": 36467.0,
+      "endMs": 40287.0,
+      "charStart": 532,
+      "charEnd": 582
+    },
+    {
+      "id": "s0010",
+      "text": "Mistakes surface before they harden into identity fights.",
+      "startMs": 40287.0,
+      "endMs": 44223.0,
+      "charStart": 582,
+      "charEnd": 639
+    },
+    {
+      "id": "s0011",
+      "text": "In that climate, Examples Accumulate.",
+      "startMs": 45186.0,
+      "endMs": 48182.0,
+      "charStart": 642,
+      "charEnd": 679
+    },
+    {
+      "id": "s0012",
+      "text": "Hard news stays speakable—not hidden.",
+      "startMs": 48182.0,
+      "endMs": 51538.0,
+      "charStart": 679,
+      "charEnd": 716
+    },
+    {
+      "id": "s0013",
+      "text": "People do not dodge failure.",
+      "startMs": 52524.0,
+      "endMs": 54231.0,
+      "charStart": 719,
+      "charEnd": 747
+    },
+    {
+      "id": "s0014",
+      "text": "They shorten the gap between a warning and a response.",
+      "startMs": 54231.0,
+      "endMs": 58039.0,
+      "charStart": 747,
+      "charEnd": 801
+    },
+    {
+      "id": "s0015",
+      "text": "They fix earlier, at lower cost, with less drama.",
+      "startMs": 58039.0,
+      "endMs": 61603.0,
+      "charStart": 801,
+      "charEnd": 850
+    },
+    {
+      "id": "s0016",
+      "text": "Authority does not vanish; it gets clearer.",
+      "startMs": 62439.0,
+      "endMs": 65539.0,
+      "charStart": 854,
+      "charEnd": 897
+    },
+    {
+      "id": "s0017",
+      "text": "People know who must decide, how to escalate, and how to repair.",
+      "startMs": 65539.0,
+      "endMs": 70577.0,
+      "charStart": 897,
+      "charEnd": 961
+    },
+    {
+      "id": "s0018",
+      "text": "They also know how to push back when the decision looks wrong.",
+      "startMs": 70577.0,
+      "endMs": 74177.0,
+      "charStart": 961,
+      "charEnd": 1023
+    },
+    {
+      "id": "s0019",
+      "text": "Vitality feels slow at first because it includes friction.",
+      "startMs": 75268.0,
+      "endMs": 79018.0,
+      "charStart": 1027,
+      "charEnd": 1085
+    },
+    {
+      "id": "s0020",
+      "text": "Questions, clarifications, and dissent take time.",
+      "startMs": 79018.0,
+      "endMs": 83441.0,
+      "charStart": 1085,
+      "charEnd": 1134
+    },
+    {
+      "id": "s0021",
+      "text": "That friction keeps small trouble from turning into a full break later.",
+      "startMs": 83441.0,
+      "endMs": 87945.0,
+      "charStart": 1134,
+      "charEnd": 1205
+    },
+    {
+      "id": "s0022",
+      "text": "The three Adjusting dynamics below follow one chain.",
+      "startMs": 88503.0,
+      "endMs": 92473.0,
+      "charStart": 1209,
+      "charEnd": 1261
+    },
+    {
+      "id": "s0023",
+      "text": "Dissent reaches decision-makers.",
+      "startMs": 92473.0,
+      "endMs": 94946.0,
+      "charStart": 1261,
+      "charEnd": 1293
+    },
+    {
+      "id": "s0024",
+      "text": "Feedback changes plans while they can still move.",
+      "startMs": 95341.0,
+      "endMs": 98615.0,
+      "charStart": 1295,
+      "charEnd": 1344
+    },
+    {
+      "id": "s0025",
+      "text": "The people who decide stay in view when costs land.",
+      "startMs": 98615.0,
+      "endMs": 102644.0,
+      "charStart": 1344,
+      "charEnd": 1395
+    },
+    {
+      "id": "s0026",
+      "text": "The same chain appears again under visible failure.",
+      "startMs": 102644.0,
+      "endMs": 105987.0,
+      "charStart": 1395,
+      "charEnd": 1446
+    },
+    {
+      "id": "s0027",
+      "text": "Dissent is Welcomed",
+      "startMs": 106626.0,
+      "endMs": 108007.0,
+      "charStart": 1450,
+      "charEnd": 1469
+    },
+    {
+      "id": "s0028",
+      "text": "In groups where vitality holds, the first person who sees trouble can still get it to the people who decide before the moment passes.",
+      "startMs": 108448.0,
+      "endMs": 116448.0,
+      "charStart": 1471,
+      "charEnd": 1604
+    },
+    {
+      "id": "s0029",
+      "text": "If that path breaks, nothing else in the chain matters.",
+      "startMs": 116448.0,
+      "endMs": 120290.0,
+      "charStart": 1604,
+      "charEnd": 1659
+    },
+    {
+      "id": "s0030",
+      "text": "Dissent is Welcomed means risk signals still reach the center in time.",
+      "startMs": 120906.0,
+      "endMs": 124993.0,
+      "charStart": 1662,
+      "charEnd": 1732
+    },
+    {
+      "id": "s0031",
+      "text": "Raising them does not cost you your place in the room.",
+      "startMs": 125434.0,
+      "endMs": 128383.0,
+      "charStart": 1733,
+      "charEnd": 1787
+    },
+    {
+      "id": "s0032",
+      "text": "If a frontline warning dies in a side thread, the rest of the chain never starts.",
+      "startMs": 128383.0,
+      "endMs": 133468.0,
+      "charStart": 1787,
+      "charEnd": 1868
+    },
+    {
+      "id": "s0033",
+      "text": "Pattern: Dissent is Welcomed",
+      "startMs": 134792.0,
+      "endMs": 137288.0,
+      "charStart": 1871,
+      "charEnd": 1899
+    },
+    {
+      "id": "s0034",
+      "text": "Dissent and risk signals can reach decision-makers in time.",
+      "startMs": 138240.0,
+      "endMs": 141909.0,
+      "charStart": 1901,
+      "charEnd": 1960
+    },
+    {
+      "id": "s0035",
+      "text": "Warnings can still change what gets decided—without punishment.",
+      "startMs": 141909.0,
+      "endMs": 145880.0,
+      "charStart": 1960,
+      "charEnd": 2023
+    },
+    {
+      "id": "s0036",
+      "text": "A Correction in Public",
+      "startMs": 147006.0,
+      "endMs": 148480.0,
+      "charStart": 2026,
+      "charEnd": 2048
+    },
+    {
+      "id": "s0037",
+      "text": "A team lead has just summarized status for the executive check-in: the milestone is green, the risk register is quiet.",
+      "startMs": 149432.0,
+      "endMs": 157130.0,
+      "charStart": 2050,
+      "charEnd": 2168
+    },
+    {
+      "id": "s0038",
+      "text": "In the hallway afterward, an engineer stops her.",
+      "startMs": 158082.0,
+      "endMs": 160752.0,
+      "charStart": 2169,
+      "charEnd": 2217
+    },
+    {
+      "id": "s0039",
+      "text": "The release the report depends on is not actually through QA; the dashboard is counting a stub.",
+      "startMs": 161077.0,
+      "endMs": 166453.0,
+      "charStart": 2218,
+      "charEnd": 2313
+    },
+    {
+      "id": "s0040",
+      "text": "She could smooth it privately or let the story ride until Monday.",
+      "startMs": 166836.0,
+      "endMs": 170597.0,
+      "charStart": 2314,
+      "charEnd": 2379
+    },
+    {
+      "id": "s0041",
+      "text": "She walks back to her desk, sends a one-line correction to the thread everyone saw, names the gap in plain language, and takes the awkward reply-all silence.",
+      "startMs": 170980.0,
+      "endMs": 180373.0,
+      "charStart": 2381,
+      "charEnd": 2538
+    },
+    {
+      "id": "s0042",
+      "text": "By afternoon the plan has shifted.",
+      "startMs": 180884.0,
+      "endMs": 182927.0,
+      "charStart": 2539,
+      "charEnd": 2573
+    },
+    {
+      "id": "s0043",
+      "text": "Nobody gives a speech about courage.",
+      "startMs": 183438.0,
+      "endMs": 185528.0,
+      "charStart": 2574,
+      "charEnd": 2610
+    },
+    {
+      "id": "s0044",
+      "text": "They do notice that bad news still moved fast enough to matter.",
+      "startMs": 185772.0,
+      "endMs": 189440.0,
+      "charStart": 2611,
+      "charEnd": 2674
+    },
+    {
+      "id": "s0045",
+      "text": "What matters is whether a straight correction can happen in public.",
+      "startMs": 189823.0,
+      "endMs": 193225.0,
+      "charStart": 2676,
+      "charEnd": 2743
+    },
+    {
+      "id": "s0046",
+      "text": "Can the room take inconvenient truth without making the speaker the problem?",
+      "startMs": 193225.0,
+      "endMs": 197370.0,
+      "charStart": 2743,
+      "charEnd": 2819
+    },
+    {
+      "id": "s0047",
+      "text": "That is Dissent is Welcomed in miniature: the signal moved, and the person who raised it stayed in the room.",
+      "startMs": 197370.0,
+      "endMs": 206611.0,
+      "charStart": 2819,
+      "charEnd": 2927
+    },
+    {
+      "id": "s0048",
+      "text": "Feedback Drives Change",
+      "startMs": 207633.0,
+      "endMs": 209467.0,
+      "charStart": 2931,
+      "charEnd": 2953
+    },
+    {
+      "id": "s0049",
+      "text": "Once dissent can travel, the next question is simple: when Friday's field read",
+      "startMs": 210768.0,
+      "endMs": 215864.0,
+      "charStart": 2955,
+      "charEnd": 3033
+    },
+    {
+      "id": "s0050",
+      "text": "contradicts Monday's slide deck, does the plan move?",
+      "startMs": 215934.0,
+      "endMs": 219394.0,
+      "charStart": 3034,
+      "charEnd": 3086
+    },
+    {
+      "id": "s0051",
+      "text": "Feedback Drives Change means revision is normal—not a verdict on the first",
+      "startMs": 220090.0,
+      "endMs": 224653.0,
+      "charStart": 3088,
+      "charEnd": 3162
+    },
+    {
+      "id": "s0052",
+      "text": "plan, and not proof someone failed by not getting it right the first time.",
+      "startMs": 224700.0,
+      "endMs": 228624.0,
+      "charStart": 3163,
+      "charEnd": 3237
+    },
+    {
+      "id": "s0053",
+      "text": "Pattern: Feedback Drives Change",
+      "startMs": 229437.0,
+      "endMs": 233651.0,
+      "charStart": 3239,
+      "charEnd": 3270
+    },
+    {
+      "id": "s0054",
+      "text": "New information can still steer the work.",
+      "startMs": 234464.0,
+      "endMs": 236867.0,
+      "charStart": 3272,
+      "charEnd": 3313
+    },
+    {
+      "id": "s0055",
+      "text": "Plans can still change while reality is pushing back.",
+      "startMs": 236867.0,
+      "endMs": 240733.0,
+      "charStart": 3313,
+      "charEnd": 3366
+    },
+    {
+      "id": "s0056",
+      "text": "The Budget Line That Moved",
+      "startMs": 241673.0,
+      "endMs": 243276.0,
+      "charStart": 3369,
+      "charEnd": 3395
+    },
+    {
+      "id": "s0057",
+      "text": "A small nonprofit runs on a thin annual budget built in November.",
+      "startMs": 244088.0,
+      "endMs": 247990.0,
+      "charStart": 3397,
+      "charEnd": 3462
+    },
+    {
+      "id": "s0058",
+      "text": "By March, a program lead notices a grant reporting rule the team misread: two categories were merged the wrong way, and the spring outreach spend will trip an audit if the line stays where it is.",
+      "startMs": 248315.0,
+      "endMs": 260319.0,
+      "charStart": 3463,
+      "charEnd": 3658
+    },
+    {
+      "id": "s0059",
+      "text": "She puts it on Friday’s standing committee agenda—facts, options, no accusation.",
+      "startMs": 260644.0,
+      "endMs": 265950.0,
+      "charStart": 3660,
+      "charEnd": 3740
+    },
+    {
+      "id": "s0060",
+      "text": "The room is tired; everyone wanted the November plan to be finished.",
+      "startMs": 266554.0,
+      "endMs": 270118.0,
+      "charStart": 3741,
+      "charEnd": 3809
+    },
+    {
+      "id": "s0061",
+      "text": "Someone still says the quiet part: if they move money now, the summer campaign shrinks.",
+      "startMs": 270444.0,
+      "endMs": 275854.0,
+      "charStart": 3810,
+      "charEnd": 3897
+    },
+    {
+      "id": "s0062",
+      "text": "They vote to reallocate anyway.",
+      "startMs": 276179.0,
+      "endMs": 277921.0,
+      "charStart": 3898,
+      "charEnd": 3929
+    },
+    {
+      "id": "s0063",
+      "text": "The chair thanks her for bringing it before the deposits went out.",
+      "startMs": 278246.0,
+      "endMs": 281172.0,
+      "charStart": 3930,
+      "charEnd": 3996
+    },
+    {
+      "id": "s0064",
+      "text": "Monday’s calendar still has outreach on it; only the price tag changed.",
+      "startMs": 281381.0,
+      "endMs": 285374.0,
+      "charStart": 3997,
+      "charEnd": 4068
+    },
+    {
+      "id": "s0065",
+      "text": "Nobody frames the change as a scandal.",
+      "startMs": 285885.0,
+      "endMs": 288103.0,
+      "charStart": 4070,
+      "charEnd": 4108
+    },
+    {
+      "id": "s0066",
+      "text": "It is what they do when the work still has to be true.",
+      "startMs": 288347.0,
+      "endMs": 291052.0,
+      "charStart": 4109,
+      "charEnd": 4163
+    },
+    {
+      "id": "s0067",
+      "text": "The plan moves because the read from the ground reached people who could still change it.",
+      "startMs": 291295.0,
+      "endMs": 295870.0,
+      "charStart": 4165,
+      "charEnd": 4254
+    },
+    {
+      "id": "s0068",
+      "text": "The group treated the fix as good work, not disloyalty to the old spreadsheet.",
+      "startMs": 295870.0,
+      "endMs": 300897.0,
+      "charStart": 4254,
+      "charEnd": 4332
+    },
+    {
+      "id": "s0069",
+      "text": "Leaders Feel the Consequences",
+      "startMs": 302221.0,
+      "endMs": 304113.0,
+      "charStart": 4335,
+      "charEnd": 4364
+    },
+    {
+      "id": "s0070",
+      "text": "A group can welcome hard news and still offload the bill.",
+      "startMs": 305228.0,
+      "endMs": 308490.0,
+      "charStart": 4366,
+      "charEnd": 4423
+    },
+    {
+      "id": "s0071",
+      "text": "A director can call for candor on Tuesday, then send managers to absorb the fallout on Thursday.",
+      "startMs": 308490.0,
+      "endMs": 314040.0,
+      "charStart": 4423,
+      "charEnd": 4519
+    },
+    {
+      "id": "s0072",
+      "text": "Leaders Feel the Consequences keeps authority tied to accountability.",
+      "startMs": 314725.0,
+      "endMs": 318638.0,
+      "charStart": 4522,
+      "charEnd": 4591
+    },
+    {
+      "id": "s0073",
+      "text": "When a choice hurts, the person who held formal say stays in the room where that cost gets discussed.",
+      "startMs": 318638.0,
+      "endMs": 324338.0,
+      "charStart": 4591,
+      "charEnd": 4692
+    },
+    {
+      "id": "s0074",
+      "text": "Pattern: Leaders Feel the Consequences",
+      "startMs": 325812.0,
+      "endMs": 328842.0,
+      "charStart": 4695,
+      "charEnd": 4733
+    },
+    {
+      "id": "s0075",
+      "text": "Decision-makers stay visible when costs land.",
+      "startMs": 330143.0,
+      "endMs": 333185.0,
+      "charStart": 4735,
+      "charEnd": 4780
+    },
+    {
+      "id": "s0076",
+      "text": "Accountability stays tied to authority.",
+      "startMs": 333626.0,
+      "endMs": 336168.0,
+      "charStart": 4781,
+      "charEnd": 4820
+    },
+    {
+      "id": "s0077",
+      "text": "The Variance on the Ledger",
+      "startMs": 337469.0,
+      "endMs": 339175.0,
+      "charStart": 4822,
+      "charEnd": 4848
+    },
+    {
+      "id": "s0078",
+      "text": "A family business runs a small retail chain.",
+      "startMs": 340476.0,
+      "endMs": 343274.0,
+      "charStart": 4850,
+      "charEnd": 4894
+    },
+    {
+      "id": "s0079",
+      "text": "The owner’s adult son pushes a supplier switch that saves margin on paper.",
+      "startMs": 343877.0,
+      "endMs": 348126.0,
+      "charStart": 4895,
+      "charEnd": 4969
+    },
+    {
+      "id": "s0080",
+      "text": "Six months later, the back room is full of returns: the new vendor’s lots are inconsistent, and the floor staff are spending nights repackaging stock.",
+      "startMs": 348823.0,
+      "endMs": 357751.0,
+      "charStart": 4970,
+      "charEnd": 5120
+    },
+    {
+      "id": "s0081",
+      "text": "At the quarterly review, the numbers are clear.",
+      "startMs": 358262.0,
+      "endMs": 360816.0,
+      "charStart": 5122,
+      "charEnd": 5169
+    },
+    {
+      "id": "s0082",
+      "text": "The son does not send the store managers to explain it to his parents.",
+      "startMs": 361094.0,
+      "endMs": 364589.0,
+      "charStart": 5170,
+      "charEnd": 5240
+    },
+    {
+      "id": "s0083",
+      "text": "He sits at the same table where he argued for the change, listens to the accounts of wasted hours, and signs off on reverting the contract.",
+      "startMs": 364833.0,
+      "endMs": 372948.0,
+      "charStart": 5241,
+      "charEnd": 5380
+    },
+    {
+      "id": "s0084",
+      "text": "His mother does not rescue him with a joke.",
+      "startMs": 373273.0,
+      "endMs": 375607.0,
+      "charStart": 5381,
+      "charEnd": 5424
+    },
+    {
+      "id": "s0085",
+      "text": "His father does not reframe it as a lesson for the staff.",
+      "startMs": 375816.0,
+      "endMs": 379020.0,
+      "charStart": 5425,
+      "charEnd": 5482
+    },
+    {
+      "id": "s0086",
+      "text": "The cost has his name on the decision that produced it.",
+      "startMs": 379264.0,
+      "endMs": 382236.0,
+      "charStart": 5483,
+      "charEnd": 5538
+    },
+    {
+      "id": "s0087",
+      "text": "The next supplier vote is slower.",
+      "startMs": 382480.0,
+      "endMs": 384628.0,
+      "charStart": 5540,
+      "charEnd": 5573
+    },
+    {
+      "id": "s0088",
+      "text": "Nobody has to call that a moral victory.",
+      "startMs": 384907.0,
+      "endMs": 387275.0,
+      "charStart": 5574,
+      "charEnd": 5614
+    },
+    {
+      "id": "s0089",
+      "text": "It is simply visible who stayed in the room when the bill arrived.",
+      "startMs": 387449.0,
+      "endMs": 390839.0,
+      "charStart": 5615,
+      "charEnd": 5681
+    },
+    {
+      "id": "s0090",
+      "text": "This is not heroics.",
+      "startMs": 391013.0,
+      "endMs": 392418.0,
+      "charStart": 5683,
+      "charEnd": 5703
+    },
+    {
+      "id": "s0091",
+      "text": "It is structure.",
+      "startMs": 392662.0,
+      "endMs": 393695.0,
+      "charStart": 5704,
+      "charEnd": 5720
+    },
+    {
+      "id": "s0092",
+      "text": "The decision-maker does not put on remorse for the group.",
+      "startMs": 393695.0,
+      "endMs": 397224.0,
+      "charStart": 5720,
+      "charEnd": 5777
+    },
+    {
+      "id": "s0093",
+      "text": "They stay present and named while the group sorts the fallout—so accountability and authority still point to the same person.",
+      "startMs": 397224.0,
+      "endMs": 404562.0,
+      "charStart": 5777,
+      "charEnd": 5902
+    },
+    {
+      "id": "s0094",
+      "text": "When Failure Strengthens Vitality",
+      "startMs": 405375.0,
+      "endMs": 407465.0,
+      "charStart": 5906,
+      "charEnd": 5939
+    },
+    {
+      "id": "s0095",
+      "text": "Sometimes the miss is public, expensive, and impossible to spin away: a launch fails, clients leave, or a safety incident brings everything into view.",
+      "startMs": 408161.0,
+      "endMs": 419876.0,
+      "charStart": 5941,
+      "charEnd": 6091
+    },
+    {
+      "id": "s0096",
+      "text": "That does not always signal structural erosion.",
+      "startMs": 419876.0,
+      "endMs": 423057.0,
+      "charStart": 6091,
+      "charEnd": 6138
+    },
+    {
+      "id": "s0097",
+      "text": "What matters is what happens next.",
+      "startMs": 423591.0,
+      "endMs": 425773.0,
+      "charStart": 6141,
+      "charEnd": 6175
+    },
+    {
+      "id": "s0098",
+      "text": "Some failures force honest review, clarify limits, and reopen correction.",
+      "startMs": 425773.0,
+      "endMs": 431253.0,
+      "charStart": 6175,
+      "charEnd": 6248
+    },
+    {
+      "id": "s0099",
+      "text": "Groups that can learn publicly from failure grow more reliable than groups that",
+      "startMs": 431973.0,
+      "endMs": 436338.0,
+      "charStart": 6251,
+      "charEnd": 6330
+    },
+    {
+      "id": "s0100",
+      "text": "avoid visible failure at all costs.",
+      "startMs": 436373.0,
+      "endMs": 438811.0,
+      "charStart": 6331,
+      "charEnd": 6366
+    },
+    {
+      "id": "s0101",
+      "text": "The question is whether learning follows—whether new information and visible risk can still steer direction once failure is in the room.",
+      "startMs": 439508.0,
+      "endMs": 447252.0,
+      "charStart": 6368,
+      "charEnd": 6504
+    },
+    {
+      "id": "s0102",
+      "text": "When that learning channel closes, renewal tilts toward erosion.",
+      "startMs": 447461.0,
+      "endMs": 452233.0,
+      "charStart": 6505,
+      "charEnd": 6569
+    },
+    {
+      "id": "s0103",
+      "text": "What Keeps the Chain Intact",
+      "startMs": 453347.0,
+      "endMs": 455182.0,
+      "charStart": 6571,
+      "charEnd": 6598
+    },
+    {
+      "id": "s0104",
+      "text": "When warning signals still move and decisions still adjust, groups absorb pressure without sealing off.",
+      "startMs": 456296.0,
+      "endMs": 462392.0,
+      "charStart": 6600,
+      "charEnd": 6703
+    },
+    {
+      "id": "s0105",
+      "text": "A lead can revise a call after hearing from the floor.",
+      "startMs": 462392.0,
+      "endMs": 465747.0,
+      "charStart": 6703,
+      "charEnd": 6757
+    },
+    {
+      "id": "s0106",
+      "text": "People outside formal rank can still shape the next decision.",
+      "startMs": 466177.0,
+      "endMs": 470019.0,
+      "charStart": 6759,
+      "charEnd": 6820
+    },
+    {
+      "id": "s0107",
+      "text": "Correction names whether warnings can still change decisions.",
+      "startMs": 470716.0,
+      "endMs": 474617.0,
+      "charStart": 6822,
+      "charEnd": 6883
+    },
+    {
+      "id": "s0108",
+      "text": "Circulation names whether the center can move when the work demands it—not only outward from formal roles.",
+      "startMs": 474617.0,
+      "endMs": 481328.0,
+      "charStart": 6883,
+      "charEnd": 6989
+    },
+    {
+      "id": "s0109",
+      "text": "That movement lets leadership scale and reproduce itself.",
+      "startMs": 482106.0,
+      "endMs": 485658.0,
+      "charStart": 6991,
+      "charEnd": 7048
+    },
+    {
+      "id": "s0110",
+      "text": "When Vitality Holds",
+      "startMs": 486262.0,
+      "endMs": 487690.0,
+      "charStart": 7050,
+      "charEnd": 7069
+    },
+    {
+      "id": "s0111",
+      "text": "When vitality holds, Dissent is Welcomed, Feedback Drives Change, and Leaders Feel the Consequences show up together—not as slogans, but as what the group can still do when the work gets hard.",
+      "startMs": 488294.0,
+      "endMs": 500252.0,
+      "charStart": 7071,
+      "charEnd": 7263
+    },
+    {
+      "id": "s0112",
+      "text": "Honest review after visible failure can restore the same chain when gentler signals did not.",
+      "startMs": 500252.0,
+      "endMs": 506091.0,
+      "charStart": 7263,
+      "charEnd": 7355
+    },
+    {
+      "id": "s0113",
+      "text": "Renewal means bad news can still change the plan before damage sets.",
+      "startMs": 506591.0,
+      "endMs": 510793.0,
+      "charStart": 7358,
+      "charEnd": 7426
+    }
+  ]
+}

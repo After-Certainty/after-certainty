@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-2-renewal-erosion-circulation-chapter-3-renewal",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-2-renewal-erosion-circulation-chapter-3-renewal",
+  "sourcePath": "parts/part-2-renewal-erosion-circulation/chapter-3-renewal.md",
+  "sourceHash": "sha256:3a6b1b37adfcdcd082252cf1ca38f9145dcd7eb388c8122d58f5c1bee3b67156",
+  "spokenTextHash": "sha256:743343537912503cfc64fe9a13b954eec821540b0905ed12e3944bbd668db946",
+  "generationHash": "sha256:752d92a484c9a6e589ff12fd491ffab734e8dbfeed9cc18bd68a03d57e4d81e5",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 7426,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 3713.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 3713.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-2-renewal-erosion-circulation-chapter-3-renewal.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-2-renewal-erosion-circulation-chapter-3-renewal.mp3",
+  "audioSha256": "sha256:4749078093ce6b9e1698c9e0279808ef33e885c86c93023fe6914d89108db8b2",
+  "generatedAt": "2026-08-05T06:05:56Z"
+}

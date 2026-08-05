@@ -1,0 +1,976 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-2-renewal-erosion-circulation-chapter-4-erosion",
+  "generationHash": "sha256:d602aaa0f8d43e76e343d1186ee14df95758e95d71ae08544dd250ab936f69e1",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 4 — Erosion",
+      "startMs": 0.0,
+      "endMs": 1962.0,
+      "charStart": 0,
+      "charEnd": 19
+    },
+    {
+      "id": "s0002",
+      "text": "What Decay Looks Like",
+      "startMs": 2322.0,
+      "endMs": 3623.0,
+      "charStart": 21,
+      "charEnd": 42
+    },
+    {
+      "id": "s0003",
+      "text": "A foreman closes the tailgate talk with the chart everyone wants: schedule ahead, incidents zero, no holds.",
+      "startMs": 4006.0,
+      "endMs": 11657.0,
+      "charStart": 44,
+      "charEnd": 151
+    },
+    {
+      "id": "s0004",
+      "text": "Off to the side, a carpenter sees the pour date on the sheet and what actually showed up on the rebar truck this week.",
+      "startMs": 11657.0,
+      "endMs": 18843.0,
+      "charStart": 151,
+      "charEnd": 269
+    },
+    {
+      "id": "s0005",
+      "text": "He could flag it.",
+      "startMs": 19343.0,
+      "endMs": 20550.0,
+      "charStart": 272,
+      "charEnd": 289
+    },
+    {
+      "id": "s0006",
+      "text": "He remembers the apprentice who questioned a sequence last job: praised in front of the crew, then kept off the lead list.",
+      "startMs": 20550.0,
+      "endMs": 28561.0,
+      "charStart": 289,
+      "charEnd": 411
+    },
+    {
+      "id": "s0007",
+      "text": "Nobody called it punishment.",
+      "startMs": 28561.0,
+      "endMs": 30685.0,
+      "charStart": 411,
+      "charEnd": 439
+    },
+    {
+      "id": "s0008",
+      "text": "Everyone knew why.",
+      "startMs": 31277.0,
+      "endMs": 32462.0,
+      "charStart": 442,
+      "charEnd": 460
+    },
+    {
+      "id": "s0009",
+      "text": "When the superintendent asks for problems, nobody raises a hand.",
+      "startMs": 33158.0,
+      "endMs": 37210.0,
+      "charStart": 462,
+      "charEnd": 526
+    },
+    {
+      "id": "s0010",
+      "text": "The chart holds.",
+      "startMs": 37210.0,
+      "endMs": 39068.0,
+      "charStart": 526,
+      "charEnd": 542
+    },
+    {
+      "id": "s0011",
+      "text": "The mismatch does not leave the parking lot.",
+      "startMs": 39880.0,
+      "endMs": 42353.0,
+      "charStart": 544,
+      "charEnd": 588
+    },
+    {
+      "id": "s0012",
+      "text": "That is the opening signal.",
+      "startMs": 42678.0,
+      "endMs": 44466.0,
+      "charStart": 590,
+      "charEnd": 617
+    },
+    {
+      "id": "s0013",
+      "text": "In groups where decay deepens, challenge is still imaginable, but it starts to feel costly before anyone speaks.",
+      "startMs": 44466.0,
+      "endMs": 51792.0,
+      "charStart": 617,
+      "charEnd": 729
+    },
+    {
+      "id": "s0014",
+      "text": "The room keeps its image of stability while reality goes unvoiced.",
+      "startMs": 51792.0,
+      "endMs": 56552.0,
+      "charStart": 729,
+      "charEnd": 795
+    },
+    {
+      "id": "s0015",
+      "text": "Erosion shows when adaptability shrinks: influence stops changing direction when reality pushes back.",
+      "startMs": 57075.0,
+      "endMs": 63808.0,
+      "charStart": 799,
+      "charEnd": 900
+    },
+    {
+      "id": "s0016",
+      "text": "Scalability then tells whether the group remains coordinated while that rigidity sets in or whether coordination is fraying too.",
+      "startMs": 63808.0,
+      "endMs": 72168.0,
+      "charStart": 900,
+      "charEnd": 1028
+    },
+    {
+      "id": "s0017",
+      "text": "Decay is what tends to show when low adaptability keeps repeating.",
+      "startMs": 73050.0,
+      "endMs": 76893.0,
+      "charStart": 1031,
+      "charEnd": 1097
+    },
+    {
+      "id": "s0018",
+      "text": "People stop raising inconvenient information.",
+      "startMs": 77404.0,
+      "endMs": 80225.0,
+      "charStart": 1099,
+      "charEnd": 1144
+    },
+    {
+      "id": "s0019",
+      "text": "Errors get reframed as exceptions.",
+      "startMs": 80225.0,
+      "endMs": 82779.0,
+      "charStart": 1144,
+      "charEnd": 1178
+    },
+    {
+      "id": "s0020",
+      "text": "Harm gets buried in vague wording and pushed away from decision-makers.",
+      "startMs": 82779.0,
+      "endMs": 87400.0,
+      "charStart": 1178,
+      "charEnd": 1249
+    },
+    {
+      "id": "s0021",
+      "text": "The group protects its image by shutting down contradiction.",
+      "startMs": 88248.0,
+      "endMs": 91440.0,
+      "charStart": 1252,
+      "charEnd": 1312
+    },
+    {
+      "id": "s0022",
+      "text": "Erosion rarely announces itself.",
+      "startMs": 92137.0,
+      "endMs": 94285.0,
+      "charStart": 1314,
+      "charEnd": 1346
+    },
+    {
+      "id": "s0023",
+      "text": "It builds from ordinary choices: who gets interrupted, who gets promoted, which measures count, which stories get repeated, which failures are forgiven, and which are hidden.",
+      "startMs": 94285.0,
+      "endMs": 105778.0,
+      "charStart": 1346,
+      "charEnd": 1520
+    },
+    {
+      "id": "s0024",
+      "text": "Over time, one decision route becomes the default and everyone waits for the same gate.",
+      "startMs": 105778.0,
+      "endMs": 111235.0,
+      "charStart": 1520,
+      "charEnd": 1607
+    },
+    {
+      "id": "s0025",
+      "text": "That is Leadership Coalesces.",
+      "startMs": 111781.0,
+      "endMs": 114114.0,
+      "charStart": 1610,
+      "charEnd": 1639
+    },
+    {
+      "id": "s0026",
+      "text": "Some groups deep in decay still scale for a long time.",
+      "startMs": 114498.0,
+      "endMs": 117934.0,
+      "charStart": 1641,
+      "charEnd": 1695
+    },
+    {
+      "id": "s0027",
+      "text": "What goes first is room to change plans once they are already moving.",
+      "startMs": 117934.0,
+      "endMs": 122392.0,
+      "charStart": 1695,
+      "charEnd": 1764
+    },
+    {
+      "id": "s0028",
+      "text": "Over time, the group learns a dangerous lesson: protecting the image matters more than correction.",
+      "startMs": 123263.0,
+      "endMs": 128638.0,
+      "charStart": 1767,
+      "charEnd": 1865
+    },
+    {
+      "id": "s0029",
+      "text": "Inconvenient facts are easier to let slide.",
+      "startMs": 129079.0,
+      "endMs": 131947.0,
+      "charStart": 1866,
+      "charEnd": 1909
+    },
+    {
+      "id": "s0030",
+      "text": "What gets buried does not vanish—it shows up later as cost.",
+      "startMs": 131947.0,
+      "endMs": 135860.0,
+      "charStart": 1909,
+      "charEnd": 1968
+    },
+    {
+      "id": "s0031",
+      "text": "Once that lesson lands, bad outcomes can rise while confidence inside the group rises too.",
+      "startMs": 135860.0,
+      "endMs": 142013.0,
+      "charStart": 1968,
+      "charEnd": 2058
+    },
+    {
+      "id": "s0032",
+      "text": "That is why erosion can look like stability from the inside.",
+      "startMs": 142663.0,
+      "endMs": 146076.0,
+      "charStart": 2062,
+      "charEnd": 2122
+    },
+    {
+      "id": "s0033",
+      "text": "The same people stay in place.",
+      "startMs": 146076.0,
+      "endMs": 148224.0,
+      "charStart": 2122,
+      "charEnd": 2152
+    },
+    {
+      "id": "s0034",
+      "text": "Meetings run on time.",
+      "startMs": 148549.0,
+      "endMs": 149931.0,
+      "charStart": 2154,
+      "charEnd": 2175
+    },
+    {
+      "id": "s0035",
+      "text": "Plans look coherent.",
+      "startMs": 150082.0,
+      "endMs": 151429.0,
+      "charStart": 2176,
+      "charEnd": 2196
+    },
+    {
+      "id": "s0036",
+      "text": "Language gets smoother.",
+      "startMs": 151429.0,
+      "endMs": 152775.0,
+      "charStart": 2196,
+      "charEnd": 2219
+    },
+    {
+      "id": "s0037",
+      "text": "Fewer channels stay open for bad news.",
+      "startMs": 153054.0,
+      "endMs": 155457.0,
+      "charStart": 2221,
+      "charEnd": 2259
+    },
+    {
+      "id": "s0038",
+      "text": "Telling the truth costs more.",
+      "startMs": 155457.0,
+      "endMs": 157536.0,
+      "charStart": 2259,
+      "charEnd": 2288
+    },
+    {
+      "id": "s0039",
+      "text": "The three Eroding dynamics below follow one chain.",
+      "startMs": 157907.0,
+      "endMs": 161053.0,
+      "charStart": 2291,
+      "charEnd": 2341
+    },
+    {
+      "id": "s0040",
+      "text": "Challenge gets recoded.",
+      "startMs": 161297.0,
+      "endMs": 162946.0,
+      "charStart": 2342,
+      "charEnd": 2365
+    },
+    {
+      "id": "s0041",
+      "text": "What people on the ground know stops steering decisions in time.",
+      "startMs": 163224.0,
+      "endMs": 166731.0,
+      "charStart": 2366,
+      "charEnd": 2430
+    },
+    {
+      "id": "s0042",
+      "text": "Temporary fixes outlast the emergencies they were meant for.",
+      "startMs": 166731.0,
+      "endMs": 170063.0,
+      "charStart": 2430,
+      "charEnd": 2490
+    },
+    {
+      "id": "s0043",
+      "text": "Disagreement is Suppressed",
+      "startMs": 170295.0,
+      "endMs": 172455.0,
+      "charStart": 2493,
+      "charEnd": 2519
+    },
+    {
+      "id": "s0044",
+      "text": "Disagreement is Suppressed is not always a loud crackdown.",
+      "startMs": 173151.0,
+      "endMs": 176727.0,
+      "charStart": 2521,
+      "charEnd": 2579
+    },
+    {
+      "id": "s0045",
+      "text": "Sometimes the room has already taught what happens to people who name the problem—so the next person does the math instead of raising the objection.",
+      "startMs": 176727.0,
+      "endMs": 184354.0,
+      "charStart": 2579,
+      "charEnd": 2727
+    },
+    {
+      "id": "s0046",
+      "text": "If that objection dies before it reaches decision-makers, the rest of the chain",
+      "startMs": 185132.0,
+      "endMs": 189544.0,
+      "charStart": 2730,
+      "charEnd": 2809
+    },
+    {
+      "id": "s0047",
+      "text": "starts to fail.",
+      "startMs": 189614.0,
+      "endMs": 190647.0,
+      "charStart": 2810,
+      "charEnd": 2825
+    },
+    {
+      "id": "s0048",
+      "text": "Pattern: Disagreement is Suppressed",
+      "startMs": 191460.0,
+      "endMs": 194188.0,
+      "charStart": 2827,
+      "charEnd": 2862
+    },
+    {
+      "id": "s0049",
+      "text": "Challenge starts to sound like disloyalty.",
+      "startMs": 195001.0,
+      "endMs": 197706.0,
+      "charStart": 2864,
+      "charEnd": 2906
+    },
+    {
+      "id": "s0050",
+      "text": "Open disagreement shrinks to performances that protect whoever holds the center.",
+      "startMs": 197706.0,
+      "endMs": 202524.0,
+      "charStart": 2906,
+      "charEnd": 2986
+    },
+    {
+      "id": "s0051",
+      "text": "The Question That Was Not Asked",
+      "startMs": 203813.0,
+      "endMs": 205671.0,
+      "charStart": 2989,
+      "charEnd": 3020
+    },
+    {
+      "id": "s0052",
+      "text": "A regional association has had three strong years: membership up, press good,",
+      "startMs": 206785.0,
+      "endMs": 212068.0,
+      "charStart": 3022,
+      "charEnd": 3099
+    },
+    {
+      "id": "s0053",
+      "text": "the director's annual letter full of wins.",
+      "startMs": 212219.0,
+      "endMs": 214750.0,
+      "charStart": 3100,
+      "charEnd": 3142
+    },
+    {
+      "id": "s0054",
+      "text": "In the March planning meeting, the agenda includes a fast rollout for a new digital tool.",
+      "startMs": 215353.0,
+      "endMs": 220496.0,
+      "charStart": 3144,
+      "charEnd": 3233
+    },
+    {
+      "id": "s0055",
+      "text": "Midway through the demo, a program manager notices a mismatch between the vendor's timeline and field staff capacity, something she saw last quarter in another rollout.",
+      "startMs": 220496.0,
+      "endMs": 231084.0,
+      "charStart": 3233,
+      "charEnd": 3401
+    },
+    {
+      "id": "s0056",
+      "text": "She draws breath to name it.",
+      "startMs": 231618.0,
+      "endMs": 233255.0,
+      "charStart": 3404,
+      "charEnd": 3432
+    },
+    {
+      "id": "s0057",
+      "text": "She also remembers the last person who raised a timing problem in this room: thanked in public, reassigned in spring.",
+      "startMs": 233255.0,
+      "endMs": 240140.0,
+      "charStart": 3432,
+      "charEnd": 3549
+    },
+    {
+      "id": "s0058",
+      "text": "Nobody called it retaliation.",
+      "startMs": 240140.0,
+      "endMs": 241940.0,
+      "charStart": 3549,
+      "charEnd": 3578
+    },
+    {
+      "id": "s0059",
+      "text": "Everyone learned what \"team player\" meant.",
+      "startMs": 242439.0,
+      "endMs": 245167.0,
+      "charStart": 3581,
+      "charEnd": 3623
+    },
+    {
+      "id": "s0060",
+      "text": "The director asks if there are questions.",
+      "startMs": 245864.0,
+      "endMs": 248105.0,
+      "charStart": 3625,
+      "charEnd": 3666
+    },
+    {
+      "id": "s0061",
+      "text": "Three people glance at the same blank line on their pads.",
+      "startMs": 248105.0,
+      "endMs": 251181.0,
+      "charStart": 3666,
+      "charEnd": 3723
+    },
+    {
+      "id": "s0062",
+      "text": "The program manager says nothing.",
+      "startMs": 251715.0,
+      "endMs": 253712.0,
+      "charStart": 3725,
+      "charEnd": 3758
+    },
+    {
+      "id": "s0063",
+      "text": "Afterward, two colleagues tell her quietly in the hallway that they had the",
+      "startMs": 254037.0,
+      "endMs": 257880.0,
+      "charStart": 3760,
+      "charEnd": 3835
+    },
+    {
+      "id": "s0064",
+      "text": "same worry.",
+      "startMs": 257927.0,
+      "endMs": 258763.0,
+      "charStart": 3836,
+      "charEnd": 3847
+    },
+    {
+      "id": "s0065",
+      "text": "The tool ships on schedule.",
+      "startMs": 259088.0,
+      "endMs": 260922.0,
+      "charStart": 3849,
+      "charEnd": 3876
+    },
+    {
+      "id": "s0066",
+      "text": "The quiet work starts six weeks later.",
+      "startMs": 261166.0,
+      "endMs": 263592.0,
+      "charStart": 3877,
+      "charEnd": 3915
+    },
+    {
+      "id": "s0067",
+      "text": "What matters is not villainy in the scene.",
+      "startMs": 263917.0,
+      "endMs": 266193.0,
+      "charStart": 3917,
+      "charEnd": 3959
+    },
+    {
+      "id": "s0068",
+      "text": "It is a shared sense of what speaking costs—so disagreement dies before it becomes a real debate.",
+      "startMs": 266193.0,
+      "endMs": 272834.0,
+      "charStart": 3959,
+      "charEnd": 4056
+    },
+    {
+      "id": "s0069",
+      "text": "When enough people do that math, the next failure is structural: the signal path from the ground to the center starts to break.",
+      "startMs": 272834.0,
+      "endMs": 280253.0,
+      "charStart": 4056,
+      "charEnd": 4183
+    },
+    {
+      "id": "s0070",
+      "text": "Learning Collapses",
+      "startMs": 281820.0,
+      "endMs": 282958.0,
+      "charStart": 4187,
+      "charEnd": 4205
+    },
+    {
+      "id": "s0071",
+      "text": "Learning Collapses does not mean knowledge vanishes.",
+      "startMs": 284258.0,
+      "endMs": 287253.0,
+      "charStart": 4207,
+      "charEnd": 4259
+    },
+    {
+      "id": "s0072",
+      "text": "It means knowledge has no reliable path up.",
+      "startMs": 287253.0,
+      "endMs": 289877.0,
+      "charStart": 4259,
+      "charEnd": 4302
+    },
+    {
+      "id": "s0073",
+      "text": "The gap between what people on the ground know and what decision-makers act on is what you can see.",
+      "startMs": 289877.0,
+      "endMs": 296135.0,
+      "charStart": 4302,
+      "charEnd": 4401
+    },
+    {
+      "id": "s0074",
+      "text": "Pattern: Learning Collapses",
+      "startMs": 297795.0,
+      "endMs": 300013.0,
+      "charStart": 4405,
+      "charEnd": 4432
+    },
+    {
+      "id": "s0075",
+      "text": "What people on the ground know stops reaching decision-makers in time.",
+      "startMs": 301128.0,
+      "endMs": 305493.0,
+      "charStart": 4434,
+      "charEnd": 4504
+    },
+    {
+      "id": "s0076",
+      "text": "Negative feedback weakens.",
+      "startMs": 305772.0,
+      "endMs": 307594.0,
+      "charStart": 4505,
+      "charEnd": 4531
+    },
+    {
+      "id": "s0077",
+      "text": "The same avoidable errors keep repeating behind strong stories.",
+      "startMs": 307594.0,
+      "endMs": 311995.0,
+      "charStart": 4531,
+      "charEnd": 4594
+    },
+    {
+      "id": "s0078",
+      "text": "The Placement Queue",
+      "startMs": 313318.0,
+      "endMs": 314827.0,
+      "charStart": 4597,
+      "charEnd": 4616
+    },
+    {
+      "id": "s0079",
+      "text": "A community college rolls out a new internship-placement approval portal across",
+      "startMs": 315942.0,
+      "endMs": 320540.0,
+      "charStart": 4618,
+      "charEnd": 4697
+    },
+    {
+      "id": "s0080",
+      "text": "nine satellite centers.",
+      "startMs": 320621.0,
+      "endMs": 322200.0,
+      "charStart": 4698,
+      "charEnd": 4721
+    },
+    {
+      "id": "s0081",
+      "text": "In the first week, two site coordinators notice the same flaw: a routing rule sends certain placement packets to a queue that nobody at the help desk checks daily.",
+      "startMs": 322444.0,
+      "endMs": 332417.0,
+      "charStart": 4723,
+      "charEnd": 4886
+    },
+    {
+      "id": "s0082",
+      "text": "They log it in their center notes.",
+      "startMs": 332626.0,
+      "endMs": 334332.0,
+      "charStart": 4887,
+      "charEnd": 4921
+    },
+    {
+      "id": "s0083",
+      "text": "Their dean adds it to the weekly digest.",
+      "startMs": 334332.0,
+      "endMs": 336724.0,
+      "charStart": 4921,
+      "charEnd": 4961
+    },
+    {
+      "id": "s0084",
+      "text": "Central IT marks it as a \"training follow-up\" because adoption numbers are on target.",
+      "startMs": 336724.0,
+      "endMs": 341995.0,
+      "charStart": 4961,
+      "charEnd": 5046
+    },
+    {
+      "id": "s0085",
+      "text": "In the president's briefings to the board, compliance rates look strong.",
+      "startMs": 342529.0,
+      "endMs": 346476.0,
+      "charStart": 5050,
+      "charEnd": 5122
+    },
+    {
+      "id": "s0086",
+      "text": "They do not show the shadow spreadsheet coordinators keep so placements do not stall.",
+      "startMs": 346476.0,
+      "endMs": 351283.0,
+      "charStart": 5122,
+      "charEnd": 5207
+    },
+    {
+      "id": "s0087",
+      "text": "Everyone assumes someone closer to the vendor has opened a ticket.",
+      "startMs": 351840.0,
+      "endMs": 355405.0,
+      "charStart": 5209,
+      "charEnd": 5275
+    },
+    {
+      "id": "s0088",
+      "text": "Six weeks later, a cohort shows up out of sequence; the story is small but visible.",
+      "startMs": 355846.0,
+      "endMs": 361732.0,
+      "charStart": 5277,
+      "charEnd": 5360
+    },
+    {
+      "id": "s0089",
+      "text": "Central asks why nobody flagged the portal earlier.",
+      "startMs": 362173.0,
+      "endMs": 365041.0,
+      "charStart": 5361,
+      "charEnd": 5412
+    },
+    {
+      "id": "s0090",
+      "text": "The flag lived in every weekly digest.",
+      "startMs": 365041.0,
+      "endMs": 367723.0,
+      "charStart": 5412,
+      "charEnd": 5450
+    },
+    {
+      "id": "s0091",
+      "text": "It never turned into a decision that could change the rule, only into local workarounds that kept employers from walking away.",
+      "startMs": 367723.0,
+      "endMs": 374434.0,
+      "charStart": 5450,
+      "charEnd": 5576
+    },
+    {
+      "id": "s0092",
+      "text": "Nobody blocked the message on purpose.",
+      "startMs": 375165.0,
+      "endMs": 377359.0,
+      "charStart": 5580,
+      "charEnd": 5618
+    },
+    {
+      "id": "s0093",
+      "text": "The structure simply stopped carrying it to the people who could still change the template.",
+      "startMs": 377684.0,
+      "endMs": 382189.0,
+      "charStart": 5619,
+      "charEnd": 5710
+    },
+    {
+      "id": "s0094",
+      "text": "The channel failed, not the facts on the ground.",
+      "startMs": 382700.0,
+      "endMs": 385487.0,
+      "charStart": 5712,
+      "charEnd": 5760
+    },
+    {
+      "id": "s0095",
+      "text": "When that channel keeps failing, groups lean harder on workarounds and urgent bypasses.",
+      "startMs": 385487.0,
+      "endMs": 391338.0,
+      "charStart": 5760,
+      "charEnd": 5847
+    },
+    {
+      "id": "s0096",
+      "text": "What starts as temporary starts to harden.",
+      "startMs": 391837.0,
+      "endMs": 394833.0,
+      "charStart": 5849,
+      "charEnd": 5891
+    },
+    {
+      "id": "s0097",
+      "text": "Exceptions are Forever",
+      "startMs": 395437.0,
+      "endMs": 397979.0,
+      "charStart": 5893,
+      "charEnd": 5915
+    },
+    {
+      "id": "s0098",
+      "text": "Exceptions are Forever is about what happens to temporary permissions.",
+      "startMs": 398792.0,
+      "endMs": 404284.0,
+      "charStart": 5917,
+      "charEnd": 5987
+    },
+    {
+      "id": "s0099",
+      "text": "Under pressure, a group often needs a fast bypass.",
+      "startMs": 404794.0,
+      "endMs": 407871.0,
+      "charStart": 5988,
+      "charEnd": 6038
+    },
+    {
+      "id": "s0100",
+      "text": "The erosion question is what happens when the emergency ends—whether the shortcut stays because it worked once.",
+      "startMs": 407871.0,
+      "endMs": 414570.0,
+      "charStart": 6038,
+      "charEnd": 6149
+    },
+    {
+      "id": "s0101",
+      "text": "Pattern: Exceptions are Forever",
+      "startMs": 415336.0,
+      "endMs": 418575.0,
+      "charStart": 6152,
+      "charEnd": 6183
+    },
+    {
+      "id": "s0102",
+      "text": "Exceptions introduced under urgency tend to stick.",
+      "startMs": 419272.0,
+      "endMs": 422720.0,
+      "charStart": 6185,
+      "charEnd": 6235
+    },
+    {
+      "id": "s0103",
+      "text": "Temporary permissions harden into the new operating baseline.",
+      "startMs": 423231.0,
+      "endMs": 426760.0,
+      "charStart": 6236,
+      "charEnd": 6297
+    },
+    {
+      "id": "s0104",
+      "text": "The Vote After the Flood",
+      "startMs": 427457.0,
+      "endMs": 429187.0,
+      "charStart": 6299,
+      "charEnd": 6323
+    },
+    {
+      "id": "s0105",
+      "text": "A neighborhood mutual aid group spends a winter weekend moving supplies while the river is still rising.",
+      "startMs": 429883.0,
+      "endMs": 435735.0,
+      "charStart": 6325,
+      "charEnd": 6429
+    },
+    {
+      "id": "s0106",
+      "text": "The steering committee cannot reach quorum under the bylaws.",
+      "startMs": 435735.0,
+      "endMs": 439473.0,
+      "charStart": 6429,
+      "charEnd": 6489
+    },
+    {
+      "id": "s0107",
+      "text": "Two members authorize a large card purchase so trucks can roll Monday morning.",
+      "startMs": 439473.0,
+      "endMs": 444488.0,
+      "charStart": 6489,
+      "charEnd": 6567
+    },
+    {
+      "id": "s0108",
+      "text": "The decision is defensible: delay would have cost more than the paperwork.",
+      "startMs": 444488.0,
+      "endMs": 449167.0,
+      "charStart": 6567,
+      "charEnd": 6641
+    },
+    {
+      "id": "s0109",
+      "text": "Three years later, the same two names appear on every fast spend.",
+      "startMs": 449968.0,
+      "endMs": 454937.0,
+      "charStart": 6646,
+      "charEnd": 6711
+    },
+    {
+      "id": "s0110",
+      "text": "When someone asks for the committee, the answer is always some version of \"after the flood we learned we can't wait.\" The flood is gone.",
+      "startMs": 454937.0,
+      "endMs": 463947.0,
+      "charStart": 6711,
+      "charEnd": 6847
+    },
+    {
+      "id": "s0111",
+      "text": "The exception never left.",
+      "startMs": 464284.0,
+      "endMs": 465875.0,
+      "charStart": 6849,
+      "charEnd": 6874
+    },
+    {
+      "id": "s0112",
+      "text": "No single choice in that chain required bad faith.",
+      "startMs": 466200.0,
+      "endMs": 469555.0,
+      "charStart": 6876,
+      "charEnd": 6926
+    },
+    {
+      "id": "s0113",
+      "text": "Each reuse sounded reasonable.",
+      "startMs": 469555.0,
+      "endMs": 471889.0,
+      "charStart": 6926,
+      "charEnd": 6956
+    },
+    {
+      "id": "s0114",
+      "text": "Together they taught the group that normal rules are optional whenever someone shouts \"emergency\" loud enough.",
+      "startMs": 471889.0,
+      "endMs": 478576.0,
+      "charStart": 6956,
+      "charEnd": 7066
+    },
+    {
+      "id": "s0115",
+      "text": "When Decay Deepens",
+      "startMs": 479841.0,
+      "endMs": 481142.0,
+      "charStart": 7070,
+      "charEnd": 7088
+    },
+    {
+      "id": "s0116",
+      "text": "When decay deepens, Disagreement is Suppressed, Learning Collapses, and Exceptions are Forever show up together—not as slogans, but as what the group can no longer do when pressure rises.",
+      "startMs": 482094.0,
+      "endMs": 493901.0,
+      "charStart": 7090,
+      "charEnd": 7277
+    },
+    {
+      "id": "s0117",
+      "text": "Temporary fixes outlast the emergency that justified them.",
+      "startMs": 493901.0,
+      "endMs": 498139.0,
+      "charStart": 7277,
+      "charEnd": 7335
+    },
+    {
+      "id": "s0118",
+      "text": "The question is whether correction can reopen once these patterns are in motion.",
+      "startMs": 498696.0,
+      "endMs": 502771.0,
+      "charStart": 7338,
+      "charEnd": 7418
+    },
+    {
+      "id": "s0119",
+      "text": "When that channel stays closed, erosion stops being a phase.",
+      "startMs": 502771.0,
+      "endMs": 507113.0,
+      "charStart": 7418,
+      "charEnd": 7478
+    },
+    {
+      "id": "s0120",
+      "text": "It becomes the structure.",
+      "startMs": 507310.0,
+      "endMs": 508599.0,
+      "charStart": 7480,
+      "charEnd": 7505
+    },
+    {
+      "id": "s0121",
+      "text": "Erosion starts when correction carries a price.",
+      "startMs": 508924.0,
+      "endMs": 512094.0,
+      "charStart": 7507,
+      "charEnd": 7554
+    }
+  ]
+}

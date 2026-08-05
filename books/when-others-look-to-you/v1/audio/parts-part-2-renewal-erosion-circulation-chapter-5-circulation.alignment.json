@@ -1,0 +1,1112 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-2-renewal-erosion-circulation-chapter-5-circulation",
+  "generationHash": "sha256:399175ea0713b84f299b9be6f433048d3f67ccb7cd015de0befa4be9dadc04ab",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 5 — Circulation",
+      "startMs": 0.0,
+      "endMs": 2136.0,
+      "charStart": 0,
+      "charEnd": 23
+    },
+    {
+      "id": "s0002",
+      "text": "The Swap Goes Out",
+      "startMs": 2252.0,
+      "endMs": 3366.0,
+      "charStart": 25,
+      "charEnd": 42
+    },
+    {
+      "id": "s0003",
+      "text": "The head chef is across town tasting a new supplier's samples when the expediter's phone lights up: the event coordinator for a forty-person buyout needs a yes or no on swapping the main because a guest just disclosed a serious shellfish allergy.",
+      "startMs": 4318.0,
+      "endMs": 19191.0,
+      "charStart": 44,
+      "charEnd": 290
+    },
+    {
+      "id": "s0004",
+      "text": "The sous chef on the line has plated this menu ten times; she tells the coordinator which substitution keeps timing, which station will absorb it, and when the ticket will fire.",
+      "startMs": 19574.0,
+      "endMs": 29594.0,
+      "charStart": 291,
+      "charEnd": 468
+    },
+    {
+      "id": "s0005",
+      "text": "She texts the chef a one-line heads-up—not to ask permission, but so no one is surprised later.",
+      "startMs": 30290.0,
+      "endMs": 35863.0,
+      "charStart": 469,
+      "charEnd": 564
+    },
+    {
+      "id": "s0006",
+      "text": "The swap goes out on schedule.",
+      "startMs": 36188.0,
+      "endMs": 37790.0,
+      "charStart": 565,
+      "charEnd": 595
+    },
+    {
+      "id": "s0007",
+      "text": "At the pre-service huddle the chef names her for the save.",
+      "startMs": 38173.0,
+      "endMs": 41273.0,
+      "charStart": 597,
+      "charEnd": 655
+    },
+    {
+      "id": "s0008",
+      "text": "When he steps away the next weekend, she is the one people look to when the same kind of call comes in again.",
+      "startMs": 41598.0,
+      "endMs": 47113.0,
+      "charStart": 656,
+      "charEnd": 765
+    },
+    {
+      "id": "s0009",
+      "text": "Nobody handed her a second title.",
+      "startMs": 47554.0,
+      "endMs": 49632.0,
+      "charStart": 767,
+      "charEnd": 800
+    },
+    {
+      "id": "s0010",
+      "text": "The room had already taught her that holding the decision point for a stretch was part of the job—not a coup.",
+      "startMs": 49958.0,
+      "endMs": 55577.0,
+      "charStart": 801,
+      "charEnd": 910
+    },
+    {
+      "id": "s0011",
+      "text": "In that moment, nobody waits for the chef.",
+      "startMs": 56181.0,
+      "endMs": 58781.0,
+      "charStart": 912,
+      "charEnd": 954
+    },
+    {
+      "id": "s0012",
+      "text": "The person closest to the problem makes the call and keeps things moving.",
+      "startMs": 59164.0,
+      "endMs": 62763.0,
+      "charStart": 955,
+      "charEnd": 1028
+    },
+    {
+      "id": "s0013",
+      "text": "That is what circulation can look like when people are trusted to act.",
+      "startMs": 63042.0,
+      "endMs": 66548.0,
+      "charStart": 1029,
+      "charEnd": 1099
+    },
+    {
+      "id": "s0014",
+      "text": "Often it is not like that.",
+      "startMs": 66722.0,
+      "endMs": 68429.0,
+      "charStart": 1101,
+      "charEnd": 1127
+    },
+    {
+      "id": "s0015",
+      "text": "Same trade, same phone—different lesson stored in the room.",
+      "startMs": 68638.0,
+      "endMs": 72086.0,
+      "charStart": 1128,
+      "charEnd": 1187
+    },
+    {
+      "id": "s0016",
+      "text": "Hold for the Chef",
+      "startMs": 72469.0,
+      "endMs": 73514.0,
+      "charStart": 1189,
+      "charEnd": 1206
+    },
+    {
+      "id": "s0017",
+      "text": "Elsewhere in the same trade—or the same phone on a night when the room stores a different memory—the head chef is across town when the expediter lights up with the same pressure: allergy, buyout, swap the main.",
+      "startMs": 74814.0,
+      "endMs": 86540.0,
+      "charStart": 1208,
+      "charEnd": 1418
+    },
+    {
+      "id": "s0018",
+      "text": "The sous on the line knows which substitution keeps timing and which station can absorb it.",
+      "startMs": 86923.0,
+      "endMs": 92275.0,
+      "charStart": 1419,
+      "charEnd": 1510
+    },
+    {
+      "id": "s0019",
+      "text": "Steam rises off the rail; tickets crowd the clip.",
+      "startMs": 92786.0,
+      "endMs": 96199.0,
+      "charStart": 1511,
+      "charEnd": 1560
+    },
+    {
+      "id": "s0020",
+      "text": "She could answer in one sentence and clear the board.",
+      "startMs": 96710.0,
+      "endMs": 99427.0,
+      "charStart": 1561,
+      "charEnd": 1614
+    },
+    {
+      "id": "s0021",
+      "text": "She also remembers last month's buyout, when someone else committed the kitchen without the chef in the loop: thanked in the pre-service huddle in a way that made clear whose name was allowed to speak for the menu.",
+      "startMs": 99938.0,
+      "endMs": 111072.0,
+      "charStart": 1615,
+      "charEnd": 1829
+    },
+    {
+      "id": "s0022",
+      "text": "Her thumb hesitates over the callback before she tells the coordinator she has to confirm with the chef.",
+      "startMs": 111583.0,
+      "endMs": 116842.0,
+      "charStart": 1830,
+      "charEnd": 1934
+    },
+    {
+      "id": "s0023",
+      "text": "The coordinator waits on hold while the window where the kitchen could have fired the swap narrows.",
+      "startMs": 117539.0,
+      "endMs": 122566.0,
+      "charStart": 1935,
+      "charEnd": 2034
+    },
+    {
+      "id": "s0024",
+      "text": "Nobody wrote that rule down.",
+      "startMs": 123007.0,
+      "endMs": 124690.0,
+      "charStart": 2036,
+      "charEnd": 2064
+    },
+    {
+      "id": "s0025",
+      "text": "The rule was already there.",
+      "startMs": 125015.0,
+      "endMs": 126583.0,
+      "charStart": 2065,
+      "charEnd": 2092
+    },
+    {
+      "id": "s0026",
+      "text": "That hesitation is not random.",
+      "startMs": 127024.0,
+      "endMs": 129183.0,
+      "charStart": 2094,
+      "charEnd": 2124
+    },
+    {
+      "id": "s0027",
+      "text": "That is the opening signal that something is different.",
+      "startMs": 129462.0,
+      "endMs": 132284.0,
+      "charStart": 2125,
+      "charEnd": 2180
+    },
+    {
+      "id": "s0028",
+      "text": "In groups where circulation runs narrow, nobody announced a policy.",
+      "startMs": 132562.0,
+      "endMs": 136777.0,
+      "charStart": 2182,
+      "charEnd": 2249
+    },
+    {
+      "id": "s0029",
+      "text": "The room had already taught what answering without the named lead would cost.",
+      "startMs": 136777.0,
+      "endMs": 141177.0,
+      "charStart": 2249,
+      "charEnd": 2326
+    },
+    {
+      "id": "s0030",
+      "text": "The buyout waits because the decision can't stay, even briefly, with the person who has the facts.",
+      "startMs": 141177.0,
+      "endMs": 147005.0,
+      "charStart": 2326,
+      "charEnd": 2424
+    },
+    {
+      "id": "s0031",
+      "text": "What Circulation Is — and What It Isn't",
+      "startMs": 147574.0,
+      "endMs": 150140.0,
+      "charStart": 2428,
+      "charEnd": 2467
+    },
+    {
+      "id": "s0032",
+      "text": "Circulation is not a calendar for who sits in which chair next.",
+      "startMs": 151092.0,
+      "endMs": 154900.0,
+      "charStart": 2469,
+      "charEnd": 2532
+    },
+    {
+      "id": "s0033",
+      "text": "Delegation hands off a task; succession names an heir; rotation swaps names on a roster.",
+      "startMs": 155144.0,
+      "endMs": 161401.0,
+      "charStart": 2533,
+      "charEnd": 2621
+    },
+    {
+      "id": "s0034",
+      "text": "Those can be orderly without ever letting influence move through people in the middle of the work.",
+      "startMs": 161552.0,
+      "endMs": 166278.0,
+      "charStart": 2622,
+      "charEnd": 2720
+    },
+    {
+      "id": "s0035",
+      "text": "What those mechanisms often miss, even when they run smoothly, is permission: whether anyone besides the usual holder may actually lead when it counts.",
+      "startMs": 166719.0,
+      "endMs": 176344.0,
+      "charStart": 2722,
+      "charEnd": 2873
+    },
+    {
+      "id": "s0036",
+      "text": "That means more than carrying a task.",
+      "startMs": 176785.0,
+      "endMs": 178899.0,
+      "charStart": 2874,
+      "charEnd": 2911
+    },
+    {
+      "id": "s0037",
+      "text": "It means being able to make the call when it matters.",
+      "startMs": 179282.0,
+      "endMs": 182022.0,
+      "charStart": 2912,
+      "charEnd": 2965
+    },
+    {
+      "id": "s0038",
+      "text": "Circulation names whether the permission structure allows someone to lead temporarily, share the lead, and hand it off when the problem demands it—without treating every step as a challenge to formal authority.",
+      "startMs": 182405.0,
+      "endMs": 194596.0,
+      "charStart": 2967,
+      "charEnd": 3177
+    },
+    {
+      "id": "s0039",
+      "text": "Only then does coordinated action stay revisable as reach grows.",
+      "startMs": 194979.0,
+      "endMs": 199542.0,
+      "charStart": 3178,
+      "charEnd": 3242
+    },
+    {
+      "id": "s0040",
+      "text": "Guest leadership—stepping up for a stretch, then stepping back—depends on that permission.",
+      "startMs": 199983.0,
+      "endMs": 205683.0,
+      "charStart": 3244,
+      "charEnd": 3334
+    },
+    {
+      "id": "s0041",
+      "text": "In collaborative work it tends to show up as a role that passes with the problem, not a permanent claim on every decision.",
+      "startMs": 206066.0,
+      "endMs": 212730.0,
+      "charStart": 3335,
+      "charEnd": 3457
+    },
+    {
+      "id": "s0042",
+      "text": "What makes it possible is still the group's answer: whether stepping back is as safe as stepping up was welcome.",
+      "startMs": 213171.0,
+      "endMs": 219684.0,
+      "charStart": 3458,
+      "charEnd": 3570
+    },
+    {
+      "id": "s0043",
+      "text": "Where circulation is narrow, the org chart can look healthy while",
+      "startMs": 220010.0,
+      "endMs": 223620.0,
+      "charStart": 3572,
+      "charEnd": 3637
+    },
+    {
+      "id": "s0044",
+      "text": "every real decision still waits for the same gate.",
+      "startMs": 223667.0,
+      "endMs": 226557.0,
+      "charStart": 3638,
+      "charEnd": 3688
+    },
+    {
+      "id": "s0045",
+      "text": "The Permission Question",
+      "startMs": 226999.0,
+      "endMs": 228148.0,
+      "charStart": 3690,
+      "charEnd": 3713
+    },
+    {
+      "id": "s0046",
+      "text": "People rarely wait for a memo to learn whether stepping in is safe.",
+      "startMs": 228589.0,
+      "endMs": 232490.0,
+      "charStart": 3715,
+      "charEnd": 3782
+    },
+    {
+      "id": "s0047",
+      "text": "They watch what happened after the last person held the center for a stretch: whether they were credited, whether they stayed welcome in the same conversations, whether the afterward story sounded like useful work or like damage control.",
+      "startMs": 232873.0,
+      "endMs": 246213.0,
+      "charStart": 3783,
+      "charEnd": 4020
+    },
+    {
+      "id": "s0048",
+      "text": "By the time a moment arrives that calls for someone to step in, the permission question has usually already been answered.",
+      "startMs": 247026.0,
+      "endMs": 253435.0,
+      "charStart": 4022,
+      "charEnd": 4144
+    },
+    {
+      "id": "s0049",
+      "text": "It rarely comes from a formal declaration.",
+      "startMs": 253644.0,
+      "endMs": 256186.0,
+      "charStart": 4145,
+      "charEnd": 4187
+    },
+    {
+      "id": "s0050",
+      "text": "It comes from what the group has been teaching about the cost of leading without being asked.",
+      "startMs": 256395.0,
+      "endMs": 261504.0,
+      "charStart": 4188,
+      "charEnd": 4281
+    },
+    {
+      "id": "s0051",
+      "text": "Permission can be open on paper and closed in practice.",
+      "startMs": 261782.0,
+      "endMs": 265149.0,
+      "charStart": 4283,
+      "charEnd": 4338
+    },
+    {
+      "id": "s0052",
+      "text": "A formal deputizing structure, a clear chain of command, an explicit invitation to lead in someone's absence—none of these guarantee that the permission is real.",
+      "startMs": 265358.0,
+      "endMs": 275517.0,
+      "charStart": 4339,
+      "charEnd": 4500
+    },
+    {
+      "id": "s0053",
+      "text": "What matters is what happens after, not what was said before.",
+      "startMs": 275795.0,
+      "endMs": 279720.0,
+      "charStart": 4501,
+      "charEnd": 4562
+    },
+    {
+      "id": "s0054",
+      "text": "Why Correction Alone Isn't Enough",
+      "startMs": 280532.0,
+      "endMs": 282610.0,
+      "charStart": 4564,
+      "charEnd": 4597
+    },
+    {
+      "id": "s0055",
+      "text": "People can raise problems.",
+      "startMs": 283911.0,
+      "endMs": 285734.0,
+      "charStart": 4599,
+      "charEnd": 4625
+    },
+    {
+      "id": "s0056",
+      "text": "The formal leader can still change course.",
+      "startMs": 285943.0,
+      "endMs": 288230.0,
+      "charStart": 4626,
+      "charEnd": 4668
+    },
+    {
+      "id": "s0057",
+      "text": "Yet every decision that matters may still wait on that same leader.",
+      "startMs": 288473.0,
+      "endMs": 292479.0,
+      "charStart": 4669,
+      "charEnd": 4736
+    },
+    {
+      "id": "s0058",
+      "text": "No one else may hold the steer while the problem is still taking shape.",
+      "startMs": 292804.0,
+      "endMs": 296368.0,
+      "charStart": 4737,
+      "charEnd": 4808
+    },
+    {
+      "id": "s0059",
+      "text": "That is the difference between correction and circulation.",
+      "startMs": 296647.0,
+      "endMs": 299666.0,
+      "charStart": 4810,
+      "charEnd": 4868
+    },
+    {
+      "id": "s0060",
+      "text": "Correction keeps the center honest: warnings and dissent can still change what the person with formal power decides.",
+      "startMs": 299666.0,
+      "endMs": 306748.0,
+      "charStart": 4868,
+      "charEnd": 4984
+    },
+    {
+      "id": "s0061",
+      "text": "Circulation lets decision authority move—whether anyone else may make the call for a stretch, step back when the moment passes, and not pay later for having stepped in.",
+      "startMs": 306748.0,
+      "endMs": 316268.0,
+      "charStart": 4984,
+      "charEnd": 5152
+    },
+    {
+      "id": "s0062",
+      "text": "The failure mode is not \"they didn't hear you.\" It is \"only one name is permitted to steer.\"",
+      "startMs": 317290.0,
+      "endMs": 323664.0,
+      "charStart": 5156,
+      "charEnd": 5248
+    },
+    {
+      "id": "s0063",
+      "text": "Over time, that narrow gate hollows out what the group could otherwise practice at the edges: judgment under pressure, early warning, and a bench that has held the center before.",
+      "startMs": 324360.0,
+      "endMs": 334914.0,
+      "charStart": 5250,
+      "charEnd": 5428
+    },
+    {
+      "id": "s0064",
+      "text": "Who Gets Credit",
+      "startMs": 335866.0,
+      "endMs": 336911.0,
+      "charStart": 5430,
+      "charEnd": 5445
+    },
+    {
+      "id": "s0065",
+      "text": "The director is out during tech week.",
+      "startMs": 338026.0,
+      "endMs": 340185.0,
+      "charStart": 5447,
+      "charEnd": 5484
+    },
+    {
+      "id": "s0066",
+      "text": "A veteran stage manager runs the room: calls cues, keeps the cast on time, settles a props dispute that could have stopped rehearsal.",
+      "startMs": 340626.0,
+      "endMs": 348393.0,
+      "charStart": 5485,
+      "charEnd": 5618
+    },
+    {
+      "id": "s0067",
+      "text": "Bad news still reaches the director by phone—she listens, adjusts the call, and the plan changes.",
+      "startMs": 348834.0,
+      "endMs": 354860.0,
+      "charStart": 5619,
+      "charEnd": 5716
+    },
+    {
+      "id": "s0068",
+      "text": "In the newsletter, the board thanks \"the team.\" Her name is not in it.",
+      "startMs": 355243.0,
+      "endMs": 359701.0,
+      "charStart": 5717,
+      "charEnd": 5787
+    },
+    {
+      "id": "s0069",
+      "text": "Within a few weeks, she is still welcome to raise risks, but she is off the short list invited into scheduling fights.",
+      "startMs": 360026.0,
+      "endMs": 366098.0,
+      "charStart": 5788,
+      "charEnd": 5906
+    },
+    {
+      "id": "s0070",
+      "text": "Nobody accuses her of overreaching.",
+      "startMs": 366423.0,
+      "endMs": 368548.0,
+      "charStart": 5907,
+      "charEnd": 5942
+    },
+    {
+      "id": "s0071",
+      "text": "Everyone learns a mixed lesson: correction can stay open while circulation narrows to people already close to the center.",
+      "startMs": 369361.0,
+      "endMs": 376489.0,
+      "charStart": 5943,
+      "charEnd": 6064
+    },
+    {
+      "id": "s0072",
+      "text": "Elsewhere, the same kind of gap: someone runs the room when the director is away, makes the call on a safety issue, keeps the show moving.",
+      "startMs": 377302.0,
+      "endMs": 385893.0,
+      "charStart": 6066,
+      "charEnd": 6204
+    },
+    {
+      "id": "s0073",
+      "text": "When the director returns, the rehearsal report names her choice in plain language.",
+      "startMs": 386404.0,
+      "endMs": 391257.0,
+      "charStart": 6205,
+      "charEnd": 6288
+    },
+    {
+      "id": "s0074",
+      "text": "The director's first note is about pacing, not erasing who held the floor.",
+      "startMs": 391860.0,
+      "endMs": 396283.0,
+      "charStart": 6289,
+      "charEnd": 6363
+    },
+    {
+      "id": "s0075",
+      "text": "The next time someone is sick before opening, more people believe they can hold the floor for a night without paying for it later—including people who are not already in the inner ring.",
+      "startMs": 396794.0,
+      "endMs": 406500.0,
+      "charStart": 6364,
+      "charEnd": 6549
+    },
+    {
+      "id": "s0076",
+      "text": "Same competence can read as threat or as gift, depending on whether circulation is open or captured.",
+      "startMs": 406883.0,
+      "endMs": 412607.0,
+      "charStart": 6551,
+      "charEnd": 6651
+    },
+    {
+      "id": "s0077",
+      "text": "The difference shows up first in credit, absence, and who still gets invited back into the decision ring.",
+      "startMs": 413118.0,
+      "endMs": 419492.0,
+      "charStart": 6652,
+      "charEnd": 6757
+    },
+    {
+      "id": "s0078",
+      "text": "A room can still hear warnings and still teach that only certain names may hold the floor.",
+      "startMs": 419933.0,
+      "endMs": 425018.0,
+      "charStart": 6758,
+      "charEnd": 6848
+    },
+    {
+      "id": "s0079",
+      "text": "Three Shapes: Correction and Circulation",
+      "startMs": 425529.0,
+      "endMs": 428443.0,
+      "charStart": 6850,
+      "charEnd": 6890
+    },
+    {
+      "id": "s0080",
+      "text": "You can usually see this in three common patterns:",
+      "startMs": 429140.0,
+      "endMs": 432135.0,
+      "charStart": 6892,
+      "charEnd": 6942
+    },
+    {
+      "id": "s0081",
+      "text": "- One-way authority: influence moves outward only; input is collected, but the center still decides—like the narrow buyout kitchen, where only one name may speak for the menu, so the allergy call waits on hold even though the line already knows the answer. - Voice-only correction: concerns can travel upward and sometimes adjust plans, but leadership still stays fixed at the top—you can move the boss's mind and still never hold the floor yourself. - Shared circulation (guest leadership): influence moves both ways.",
+      "startMs": 432158.0,
+      "endMs": 468567.0,
+      "charStart": 6944,
+      "charEnd": 7462
+    },
+    {
+      "id": "s0082",
+      "text": "People closest to the issue can temporarily step in to lead a response, then return to their usual role—what the opening buyout scene showed on the line, and what the theater vignette shows when the rehearsal report names who held the floor.",
+      "startMs": 469171.0,
+      "endMs": 483149.0,
+      "charStart": 7463,
+      "charEnd": 7704
+    },
+    {
+      "id": "s0083",
+      "text": "Shared circulation keeps authority connected to what people closest to the work can see, without a permanent reshuffle of formal roles.",
+      "startMs": 483753.0,
+      "endMs": 491996.0,
+      "charStart": 7706,
+      "charEnd": 7841
+    },
+    {
+      "id": "s0084",
+      "text": "Permission still shows up in what happens after a step-in, not only in what the org chart says about temporary leadership.",
+      "startMs": 492379.0,
+      "endMs": 499566.0,
+      "charStart": 7842,
+      "charEnd": 7964
+    },
+    {
+      "id": "s0085",
+      "text": "When guest leadership is trusted, more people use it openly.",
+      "startMs": 499891.0,
+      "endMs": 503629.0,
+      "charStart": 7966,
+      "charEnd": 8026
+    },
+    {
+      "id": "s0086",
+      "text": "When guest leadership is punished, people retreat.",
+      "startMs": 503838.0,
+      "endMs": 506810.0,
+      "charStart": 8028,
+      "charEnd": 8078
+    },
+    {
+      "id": "s0087",
+      "text": "Retreat shows up as silence or workaround behavior.",
+      "startMs": 507054.0,
+      "endMs": 510224.0,
+      "charStart": 8080,
+      "charEnd": 8131
+    },
+    {
+      "id": "s0088",
+      "text": "Offers to step in get shorter and more guarded.",
+      "startMs": 510224.0,
+      "endMs": 513683.0,
+      "charStart": 8131,
+      "charEnd": 8178
+    },
+    {
+      "id": "s0089",
+      "text": "Influence routes through formal channels only.",
+      "startMs": 513683.0,
+      "endMs": 516981.0,
+      "charStart": 8178,
+      "charEnd": 8224
+    },
+    {
+      "id": "s0090",
+      "text": "Help stays inside official boxes and rarely moves beyond them.",
+      "startMs": 517491.0,
+      "endMs": 521311.0,
+      "charStart": 8227,
+      "charEnd": 8289
+    },
+    {
+      "id": "s0091",
+      "text": "Punishment can mean being treated as stepping out of line, embarrassing the role-holder, or making defense too costly.",
+      "startMs": 521311.0,
+      "endMs": 528742.0,
+      "charStart": 8289,
+      "charEnd": 8407
+    },
+    {
+      "id": "s0092",
+      "text": "What Atrophies Without Circulation",
+      "startMs": 529462.0,
+      "endMs": 531552.0,
+      "charStart": 8410,
+      "charEnd": 8444
+    },
+    {
+      "id": "s0093",
+      "text": "Capture doesn't look like failure from inside the group.",
+      "startMs": 532062.0,
+      "endMs": 535336.0,
+      "charStart": 8446,
+      "charEnd": 8502
+    },
+    {
+      "id": "s0094",
+      "text": "The work still moves.",
+      "startMs": 535615.0,
+      "endMs": 537020.0,
+      "charStart": 8503,
+      "charEnd": 8524
+    },
+    {
+      "id": "s0095",
+      "text": "Decisions still get made.",
+      "startMs": 537345.0,
+      "endMs": 538854.0,
+      "charStart": 8525,
+      "charEnd": 8550
+    },
+    {
+      "id": "s0096",
+      "text": "The center still holds.",
+      "startMs": 539179.0,
+      "endMs": 540781.0,
+      "charStart": 8551,
+      "charEnd": 8574
+    },
+    {
+      "id": "s0097",
+      "text": "What disappears is easy to miss: judgment at the edges goes unpracticed, early warnings lose their route, and no one builds the habit of holding the center for a stretch.",
+      "startMs": 541025.0,
+      "endMs": 551369.0,
+      "charStart": 8576,
+      "charEnd": 8746
+    },
+    {
+      "id": "s0098",
+      "text": "Skill is not the issue; opportunity is.",
+      "startMs": 551811.0,
+      "endMs": 554725.0,
+      "charStart": 8747,
+      "charEnd": 8786
+    },
+    {
+      "id": "s0099",
+      "text": "Watching someone else lead does not build that habit.",
+      "startMs": 555050.0,
+      "endMs": 557894.0,
+      "charStart": 8787,
+      "charEnd": 8840
+    },
+    {
+      "id": "s0100",
+      "text": "Circulation is partly how groups grow people who can spot trouble from inside the work.",
+      "startMs": 558277.0,
+      "endMs": 563594.0,
+      "charStart": 8842,
+      "charEnd": 8929
+    },
+    {
+      "id": "s0101",
+      "text": "When only one path for leading exists, the warning may still exist—but it has no route that lets the nearest person act.",
+      "startMs": 563920.0,
+      "endMs": 571083.0,
+      "charStart": 8930,
+      "charEnd": 9050
+    },
+    {
+      "id": "s0102",
+      "text": "A group that has never circulated leadership has no practiced bench.",
+      "startMs": 571408.0,
+      "endMs": 575274.0,
+      "charStart": 9052,
+      "charEnd": 9120
+    },
+    {
+      "id": "s0103",
+      "text": "When pressure arrives and the center needs support, or when the center fails, there is no one who has held the role before and knows what it requires.",
+      "startMs": 575553.0,
+      "endMs": 583204.0,
+      "charStart": 9121,
+      "charEnd": 9271
+    },
+    {
+      "id": "s0104",
+      "text": "The group discovers this at exactly the moment when the cost of discovering it is highest.",
+      "startMs": 583483.0,
+      "endMs": 588359.0,
+      "charStart": 9272,
+      "charEnd": 9362
+    },
+    {
+      "id": "s0105",
+      "text": "Where Circulation Lands",
+      "startMs": 589055.0,
+      "endMs": 590507.0,
+      "charStart": 9364,
+      "charEnd": 9387
+    },
+    {
+      "id": "s0106",
+      "text": "Aftermath still teaches faster than policy: credit, absence, and the story told afterward shape legitimacy beneath effectiveness inside circulation.",
+      "startMs": 590623.0,
+      "endMs": 601281.0,
+      "charStart": 9389,
+      "charEnd": 9537
+    },
+    {
+      "id": "s0107",
+      "text": "The full framework for legitimacy comes later.",
+      "startMs": 601792.0,
+      "endMs": 604984.0,
+      "charStart": 9538,
+      "charEnd": 9584
+    },
+    {
+      "id": "s0108",
+      "text": "When circulation holds alongside renewal, temporary leadership reads as legitimate work: the lead passes to whoever is closest to the shifting facts; coverage does not erase who stepped in.",
+      "startMs": 605228.0,
+      "endMs": 617906.0,
+      "charStart": 9586,
+      "charEnd": 9775
+    },
+    {
+      "id": "s0109",
+      "text": "Renewal at the center and circulation through the bench reinforce each other—though a group can still keep correction open while offering temporary turns only to insiders.",
+      "startMs": 618150.0,
+      "endMs": 628042.0,
+      "charStart": 9776,
+      "charEnd": 9947
+    },
+    {
+      "id": "s0110",
+      "text": "Decay tightens rather than removes circulation.",
+      "startMs": 628738.0,
+      "endMs": 632221.0,
+      "charStart": 9949,
+      "charEnd": 9996
+    },
+    {
+      "id": "s0111",
+      "text": "Influence routes through channels the center already trusts; temporary authority rewards deference instead of local judgment.",
+      "startMs": 632546.0,
+      "endMs": 639617.0,
+      "charStart": 9997,
+      "charEnd": 10122
+    },
+    {
+      "id": "s0112",
+      "text": "The group can look busy developing leaders while rehearsing the same blind spots.",
+      "startMs": 639942.0,
+      "endMs": 644156.0,
+      "charStart": 10123,
+      "charEnd": 10204
+    },
+    {
+      "id": "s0113",
+      "text": "Under acute pressure, that pattern often reads as discipline.",
+      "startMs": 644400.0,
+      "endMs": 647837.0,
+      "charStart": 10206,
+      "charEnd": 10267
+    },
+    {
+      "id": "s0114",
+      "text": "Coordination outside the official chain gets treated as bypass, not as backup.",
+      "startMs": 648115.0,
+      "endMs": 653073.0,
+      "charStart": 10268,
+      "charEnd": 10346
+    },
+    {
+      "id": "s0115",
+      "text": "Then circulation captures: the legitimate story narrows to the chart, temporary leadership never earns room to form, and exceptions harden into habit.",
+      "startMs": 653316.0,
+      "endMs": 663115.0,
+      "charStart": 10347,
+      "charEnd": 10497
+    },
+    {
+      "id": "s0116",
+      "text": "Erosion does not need a villain.",
+      "startMs": 663394.0,
+      "endMs": 665321.0,
+      "charStart": 10499,
+      "charEnd": 10531
+    },
+    {
+      "id": "s0117",
+      "text": "It only needs the next people in line to learn—before anyone's name is on the door—whether stepping into the gap when something breaks is safe.",
+      "startMs": 665495.0,
+      "endMs": 673924.0,
+      "charStart": 10532,
+      "charEnd": 10675
+    },
+    {
+      "id": "s0118",
+      "text": "Leadership Reproduces Itself — The Circulation Version",
+      "startMs": 674203.0,
+      "endMs": 678231.0,
+      "charStart": 10677,
+      "charEnd": 10731
+    },
+    {
+      "id": "s0119",
+      "text": "These dynamics do not stay in one room.",
+      "startMs": 678510.0,
+      "endMs": 681087.0,
+      "charStart": 10733,
+      "charEnd": 10772
+    },
+    {
+      "id": "s0120",
+      "text": "They also copy forward—Leadership Reproduces Itself.",
+      "startMs": 681261.0,
+      "endMs": 685000.0,
+      "charStart": 10773,
+      "charEnd": 10825
+    },
+    {
+      "id": "s0121",
+      "text": "If stepping in was treated as out of line, the next person to hold formal authority often defends the same boundary—sincerely, because that is what leading here was shown to mean.",
+      "startMs": 685383.0,
+      "endMs": 695808.0,
+      "charStart": 10827,
+      "charEnd": 11006
+    },
+    {
+      "id": "s0122",
+      "text": "If temporary lead was welcomed and credited, the next person tends to inherit that habit too.",
+      "startMs": 696087.0,
+      "endMs": 701428.0,
+      "charStart": 11007,
+      "charEnd": 11100
+    },
+    {
+      "id": "s0123",
+      "text": "It is not only mimicry of mannerisms.",
+      "startMs": 701637.0,
+      "endMs": 704017.0,
+      "charStart": 11101,
+      "charEnd": 11138
+    },
+    {
+      "id": "s0124",
+      "text": "It copies permission.",
+      "startMs": 704133.0,
+      "endMs": 705642.0,
+      "charStart": 11139,
+      "charEnd": 11160
+    },
+    {
+      "id": "s0125",
+      "text": "Pattern: Leadership Reproduces Itself",
+      "startMs": 706594.0,
+      "endMs": 709729.0,
+      "charStart": 11162,
+      "charEnd": 11199
+    },
+    {
+      "id": "s0126",
+      "text": "What gets rewarded or punished locally becomes a template; people imitate it when they step into leadership next.",
+      "startMs": 710681.0,
+      "endMs": 717449.0,
+      "charStart": 11201,
+      "charEnd": 11314
+    },
+    {
+      "id": "s0127",
+      "text": "By the time someone is promoted, the lesson about whether stepping in is safe—and whether the muscle ever got built—has usually already landed.",
+      "startMs": 717774.0,
+      "endMs": 726029.0,
+      "charStart": 11316,
+      "charEnd": 11459
+    },
+    {
+      "id": "s0128",
+      "text": "Reading Circulation",
+      "startMs": 726470.0,
+      "endMs": 727735.0,
+      "charStart": 11461,
+      "charEnd": 11480
+    },
+    {
+      "id": "s0129",
+      "text": "Start with what the last step-in cost or earned—a long hold while the allergy window closes versus a plate on time and a name in the huddle; a name left off the newsletter versus one in the report—and you can read the group without the formal chart in front of you.",
+      "startMs": 728176.0,
+      "endMs": 743466.0,
+      "charStart": 11482,
+      "charEnd": 11747
+    },
+    {
+      "id": "s0130",
+      "text": "Watch treatment and aftermath: whether the room reads the step-in as",
+      "startMs": 743907.0,
+      "endMs": 748389.0,
+      "charStart": 11749,
+      "charEnd": 11817
+    },
+    {
+      "id": "s0131",
+      "text": "useful work or as a problem to manage; whether work still moves when the",
+      "startMs": 748482.0,
+      "endMs": 753474.0,
+      "charStart": 11818,
+      "charEnd": 11890
+    },
+    {
+      "id": "s0132",
+      "text": "formal lead is away; who gets offered temporary turns—only people",
+      "startMs": 753520.0,
+      "endMs": 757979.0,
+      "charStart": 11891,
+      "charEnd": 11956
+    },
+    {
+      "id": "s0133",
+      "text": "already close to the center, or people who might disagree and still be",
+      "startMs": 758013.0,
+      "endMs": 761798.0,
+      "charStart": 11957,
+      "charEnd": 12027
+    },
+    {
+      "id": "s0134",
+      "text": "trusted.",
+      "startMs": 761833.0,
+      "endMs": 762495.0,
+      "charStart": 12028,
+      "charEnd": 12036
+    },
+    {
+      "id": "s0135",
+      "text": "Watch, too, what the title carries when it passes: open paths for correction, or the quiet habit that only certain names may steer.",
+      "startMs": 763191.0,
+      "endMs": 772038.0,
+      "charStart": 12038,
+      "charEnd": 12169
+    },
+    {
+      "id": "s0136",
+      "text": "When that read skews narrow, circulation is likely captured even when correction still works on paper.",
+      "startMs": 772735.0,
+      "endMs": 778691.0,
+      "charStart": 12171,
+      "charEnd": 12273
+    },
+    {
+      "id": "s0137",
+      "text": "What reproduces is whatever this room has been teaching about who may lead, for how long, and at what price—often before anyone names it out loud.",
+      "startMs": 779132.0,
+      "endMs": 788594.0,
+      "charStart": 12274,
+      "charEnd": 12420
+    },
+    {
+      "id": "s0138",
+      "text": "Circulation copies permission before it ever copies a title.",
+      "startMs": 789035.0,
+      "endMs": 792541.0,
+      "charStart": 12422,
+      "charEnd": 12482
+    }
+  ]
+}

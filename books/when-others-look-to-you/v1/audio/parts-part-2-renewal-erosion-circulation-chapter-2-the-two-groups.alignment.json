@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-2-renewal-erosion-circulation-chapter-2-the-two-groups",
+  "generationHash": "sha256:f051d2b5f63e9aee270f96df0f7b493dceb2935ddd4249645ed01d01a72d51df",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 2 — Two Directions",
+      "startMs": 0.0,
+      "endMs": 2276.0,
+      "charStart": 0,
+      "charEnd": 26
+    },
+    {
+      "id": "s0002",
+      "text": "When Reality Pushes Back",
+      "startMs": 2334.0,
+      "endMs": 3936.0,
+      "charStart": 28,
+      "charEnd": 52
+    },
+    {
+      "id": "s0003",
+      "text": "A hospital sets a new triage protocol in the main site on Monday.",
+      "startMs": 4261.0,
+      "endMs": 8371.0,
+      "charStart": 54,
+      "charEnd": 119
+    },
+    {
+      "id": "s0004",
+      "text": "By Friday, three satellite clinics are using the same thresholds and hitting the same response-time target.",
+      "startMs": 8371.0,
+      "endMs": 15082.0,
+      "charStart": 119,
+      "charEnd": 226
+    },
+    {
+      "id": "s0005",
+      "text": "Reach looks clean on the weekly sheet.",
+      "startMs": 15581.0,
+      "endMs": 17531.0,
+      "charStart": 228,
+      "charEnd": 266
+    },
+    {
+      "id": "s0006",
+      "text": "Midweek, nurses flag a dosage risk in a standing order attached to the new protocol.",
+      "startMs": 17856.0,
+      "endMs": 22999.0,
+      "charStart": 268,
+      "charEnd": 352
+    },
+    {
+      "id": "s0007",
+      "text": "Two clinics update practice within days.",
+      "startMs": 23440.0,
+      "endMs": 25995.0,
+      "charStart": 353,
+      "charEnd": 393
+    },
+    {
+      "id": "s0008",
+      "text": "The third keeps the old order posted at the station and waits for the monthly review.",
+      "startMs": 25995.0,
+      "endMs": 30406.0,
+      "charStart": 393,
+      "charEnd": 478
+    },
+    {
+      "id": "s0009",
+      "text": "The sheet at the center still reads coordinated.",
+      "startMs": 30406.0,
+      "endMs": 33321.0,
+      "charStart": 478,
+      "charEnd": 526
+    },
+    {
+      "id": "s0010",
+      "text": "At the third clinic, the protocol that traveled so fast has not moved when the facts did.",
+      "startMs": 33321.0,
+      "endMs": 38615.0,
+      "charStart": 526,
+      "charEnd": 615
+    },
+    {
+      "id": "s0011",
+      "text": "People take cues from the same few voices.",
+      "startMs": 39601.0,
+      "endMs": 42330.0,
+      "charStart": 620,
+      "charEnd": 662
+    },
+    {
+      "id": "s0012",
+      "text": "What separates the networks is what happens when reality pushes back against a plan that has already spread.",
+      "startMs": 42330.0,
+      "endMs": 49121.0,
+      "charStart": 662,
+      "charEnd": 770
+    },
+    {
+      "id": "s0013",
+      "text": "That is the pivot.",
+      "startMs": 49737.0,
+      "endMs": 51037.0,
+      "charStart": 773,
+      "charEnd": 791
+    },
+    {
+      "id": "s0014",
+      "text": "Once Attention Finds a Focus, influence keeps producing one of two directions.",
+      "startMs": 51037.0,
+      "endMs": 56714.0,
+      "charStart": 791,
+      "charEnd": 869
+    },
+    {
+      "id": "s0015",
+      "text": "The group can still correct course while coordinated action grows in reach, or insulation sets in and correction weakens as reach gets harder to coordinate.",
+      "startMs": 56714.0,
+      "endMs": 67465.0,
+      "charStart": 869,
+      "charEnd": 1025
+    },
+    {
+      "id": "s0016",
+      "text": "These are directions—structural tendencies under pressure—not fixed types of people or organizations.",
+      "startMs": 68220.0,
+      "endMs": 74977.0,
+      "charStart": 1029,
+      "charEnd": 1130
+    },
+    {
+      "id": "s0017",
+      "text": "The same group can renew in one domain and erode in another, shift over time, or look stable while the capacities underneath change.",
+      "startMs": 74977.0,
+      "endMs": 84079.0,
+      "charStart": 1130,
+      "charEnd": 1262
+    },
+    {
+      "id": "s0018",
+      "text": "The framework is diagnostic: it helps you read movement, not sort teams into moral categories.",
+      "startMs": 84079.0,
+      "endMs": 90662.0,
+      "charStart": 1262,
+      "charEnd": 1356
+    },
+    {
+      "id": "s0019",
+      "text": "The first direction is renewal.",
+      "startMs": 92113.0,
+      "endMs": 94249.0,
+      "charStart": 1360,
+      "charEnd": 1391
+    },
+    {
+      "id": "s0020",
+      "text": "Renewal names which way influence is moving.",
+      "startMs": 94249.0,
+      "endMs": 97605.0,
+      "charStart": 1391,
+      "charEnd": 1435
+    },
+    {
+      "id": "s0021",
+      "text": "Vitality names how things tend to feel when that movement holds.",
+      "startMs": 97605.0,
+      "endMs": 102644.0,
+      "charStart": 1435,
+      "charEnd": 1499
+    },
+    {
+      "id": "s0022",
+      "text": "The second direction is erosion.",
+      "startMs": 103572.0,
+      "endMs": 105767.0,
+      "charStart": 1503,
+      "charEnd": 1535
+    },
+    {
+      "id": "s0023",
+      "text": "Erosion names which way influence is moving when insulation builds and correction weakens.",
+      "startMs": 105767.0,
+      "endMs": 112001.0,
+      "charStart": 1535,
+      "charEnd": 1625
+    },
+    {
+      "id": "s0024",
+      "text": "Decay names how things tend to feel when that movement holds.",
+      "startMs": 112756.0,
+      "endMs": 116308.0,
+      "charStart": 1627,
+      "charEnd": 1688
+    },
+    {
+      "id": "s0025",
+      "text": "Those are different questions.",
+      "startMs": 116691.0,
+      "endMs": 118375.0,
+      "charStart": 1690,
+      "charEnd": 1720
+    },
+    {
+      "id": "s0026",
+      "text": "This is not a report card on character.",
+      "startMs": 118758.0,
+      "endMs": 121115.0,
+      "charStart": 1721,
+      "charEnd": 1760
+    },
+    {
+      "id": "s0027",
+      "text": "Good intentions can still yield erosion, and flawed people can still sustain renewal.",
+      "startMs": 121115.0,
+      "endMs": 126827.0,
+      "charStart": 1760,
+      "charEnd": 1845
+    },
+    {
+      "id": "s0028",
+      "text": "What matters is structure under pressure, not purity.",
+      "startMs": 127152.0,
+      "endMs": 131285.0,
+      "charStart": 1847,
+      "charEnd": 1900
+    },
+    {
+      "id": "s0029",
+      "text": "Two Capacities",
+      "startMs": 132400.0,
+      "endMs": 133619.0,
+      "charStart": 1902,
+      "charEnd": 1916
+    },
+    {
+      "id": "s0030",
+      "text": "Most of the story comes down to two capacities.",
+      "startMs": 134733.0,
+      "endMs": 137787.0,
+      "charStart": 1918,
+      "charEnd": 1965
+    },
+    {
+      "id": "s0031",
+      "text": "In the hospital scene, all three clinics took up the protocol—scalability looked strong.",
+      "startMs": 138391.0,
+      "endMs": 144463.0,
+      "charStart": 1967,
+      "charEnd": 2055
+    },
+    {
+      "id": "s0032",
+      "text": "The dosage risk showed where adaptability did not move together.",
+      "startMs": 144463.0,
+      "endMs": 148457.0,
+      "charStart": 2055,
+      "charEnd": 2119
+    },
+    {
+      "id": "s0033",
+      "text": "Reach held.",
+      "startMs": 149362.0,
+      "endMs": 150314.0,
+      "charStart": 2121,
+      "charEnd": 2132
+    },
+    {
+      "id": "s0034",
+      "text": "Local course change did not.",
+      "startMs": 150639.0,
+      "endMs": 152624.0,
+      "charStart": 2133,
+      "charEnd": 2161
+    },
+    {
+      "id": "s0035",
+      "text": "In another network, each clinic already interprets the protocol differently, so priority decisions drift by location.",
+      "startMs": 153228.0,
+      "endMs": 160206.0,
+      "charStart": 2163,
+      "charEnd": 2280
+    },
+    {
+      "id": "s0036",
+      "text": "The dosage warning is passed up, but leadership delays changes until the next monthly review.",
+      "startMs": 160206.0,
+      "endMs": 165895.0,
+      "charStart": 2280,
+      "charEnd": 2373
+    },
+    {
+      "id": "s0037",
+      "text": "Here both capacities are under strain, and the strain shows first where the work is farthest from the center.",
+      "startMs": 165895.0,
+      "endMs": 172338.0,
+      "charStart": 2373,
+      "charEnd": 2482
+    },
+    {
+      "id": "s0038",
+      "text": "Scalability asks whether coordinated action can grow in reach—whether",
+      "startMs": 172930.0,
+      "endMs": 177377.0,
+      "charStart": 2486,
+      "charEnd": 2555
+    },
+    {
+      "id": "s0039",
+      "text": "more people, sites, or layers can stay coordinated without the center",
+      "startMs": 177424.0,
+      "endMs": 182021.0,
+      "charStart": 2556,
+      "charEnd": 2625
+    },
+    {
+      "id": "s0040",
+      "text": "holding every thread by hand.",
+      "startMs": 182067.0,
+      "endMs": 183995.0,
+      "charStart": 2626,
+      "charEnd": 2655
+    },
+    {
+      "id": "s0041",
+      "text": "Adaptability asks whether the work can still change direction when reality",
+      "startMs": 184320.0,
+      "endMs": 189022.0,
+      "charStart": 2657,
+      "charEnd": 2731
+    },
+    {
+      "id": "s0042",
+      "text": "pushes back—whether plans stay open to revision after they are in motion.",
+      "startMs": 189092.0,
+      "endMs": 193654.0,
+      "charStart": 2732,
+      "charEnd": 2805
+    },
+    {
+      "id": "s0043",
+      "text": "The four states show how the capacities combine.",
+      "startMs": 193933.0,
+      "endMs": 196870.0,
+      "charStart": 2807,
+      "charEnd": 2855
+    },
+    {
+      "id": "s0044",
+      "text": "The decisive signal for erosion is whether adaptability shrinks—whether the group can still change course when reality pushes back.",
+      "startMs": 196870.0,
+      "endMs": 205415.0,
+      "charStart": 2855,
+      "charEnd": 2986
+    },
+    {
+      "id": "s0045",
+      "text": "Scalability then tells whether that weakening remains coordinated or whether coordination is fraying too.",
+      "startMs": 205415.0,
+      "endMs": 212358.0,
+      "charStart": 2986,
+      "charEnd": 3091
+    },
+    {
+      "id": "s0046",
+      "text": "Reduced scalability alone does not mean erosion: a group may still renew while struggling to coordinate at scale, just as it may stay highly coordinated while losing the ability to change course.",
+      "startMs": 212358.0,
+      "endMs": 225071.0,
+      "charStart": 3091,
+      "charEnd": 3286
+    },
+    {
+      "id": "s0047",
+      "text": "That is why one organization can look renewing on paper while a site or function is already eroding.",
+      "startMs": 225071.0,
+      "endMs": 231909.0,
+      "charStart": 3286,
+      "charEnd": 3386
+    },
+    {
+      "id": "s0048",
+      "text": "At the third clinic, the old dosage order can still be on the wall when the monthly review finally opens.",
+      "startMs": 232547.0,
+      "endMs": 238770.0,
+      "charStart": 3392,
+      "charEnd": 3497
+    },
+    {
+      "id": "s0049",
+      "text": "The protocol traveled.",
+      "startMs": 238979.0,
+      "endMs": 240384.0,
+      "charStart": 3498,
+      "charEnd": 3520
+    },
+    {
+      "id": "s0050",
+      "text": "The revision did not.",
+      "startMs": 240500.0,
+      "endMs": 241940.0,
+      "charStart": 3521,
+      "charEnd": 3542
+    },
+    {
+      "id": "s0051",
+      "text": "The Vibrant Group and the Decaying Group",
+      "startMs": 242114.0,
+      "endMs": 244494.0,
+      "charStart": 3544,
+      "charEnd": 3584
+    },
+    {
+      "id": "s0052",
+      "text": "In one school district, new campuses open and still run the same attendance intervention protocol.",
+      "startMs": 245609.0,
+      "endMs": 251773.0,
+      "charStart": 3586,
+      "charEnd": 3684
+    },
+    {
+      "id": "s0053",
+      "text": "When weekly absence data shifts, most principals adjust quickly and the change spreads—until one campus, under a different enrollment pressure, keeps the old thresholds to protect its reported numbers.",
+      "startMs": 251773.0,
+      "endMs": 263058.0,
+      "charStart": 3684,
+      "charEnd": 3885
+    },
+    {
+      "id": "s0054",
+      "text": "The district still looks coordinated from the center.",
+      "startMs": 263058.0,
+      "endMs": 266159.0,
+      "charStart": 3885,
+      "charEnd": 3938
+    },
+    {
+      "id": "s0055",
+      "text": "Locally, renewal and erosion are already sharing the same map.",
+      "startMs": 266159.0,
+      "endMs": 270524.0,
+      "charStart": 3938,
+      "charEnd": 4000
+    },
+    {
+      "id": "s0056",
+      "text": "In another district, the picture splits more openly.",
+      "startMs": 271081.0,
+      "endMs": 274042.0,
+      "charStart": 4005,
+      "charEnd": 4057
+    },
+    {
+      "id": "s0057",
+      "text": "Some campuses still look coordinated, but local teams stop changing course when warning signs surface.",
+      "startMs": 274042.0,
+      "endMs": 280462.0,
+      "charStart": 4057,
+      "charEnd": 4159
+    },
+    {
+      "id": "s0058",
+      "text": "In other campuses, coordination itself frays as each team improvises around unresolved gaps.",
+      "startMs": 280462.0,
+      "endMs": 286243.0,
+      "charStart": 4159,
+      "charEnd": 4251
+    },
+    {
+      "id": "s0059",
+      "text": "Those are the patterns.",
+      "startMs": 286778.0,
+      "endMs": 287962.0,
+      "charStart": 4255,
+      "charEnd": 4278
+    },
+    {
+      "id": "s0060",
+      "text": "Together scalability and adaptability produce four combinations worth naming once for the diagram: regenerative (reach holds and plans still adapt), adaptive (adjustment holds while reach is still narrower), entrenched (reach holds but change gets hard), and stalled (coordination and course change both weaken).",
+      "startMs": 287962.0,
+      "endMs": 310346.0,
+      "charStart": 4278,
+      "charEnd": 4590
+    },
+    {
+      "id": "s0061",
+      "text": "You do not need to keep the four labels in working memory.",
+      "startMs": 310346.0,
+      "endMs": 314119.0,
+      "charStart": 4590,
+      "charEnd": 4648
+    },
+    {
+      "id": "s0062",
+      "text": "The useful read is simpler: are we still able to change course as reach grows?",
+      "startMs": 314119.0,
+      "endMs": 319251.0,
+      "charStart": 4648,
+      "charEnd": 4726
+    },
+    {
+      "id": "s0063",
+      "text": "These are not personality types.",
+      "startMs": 320446.0,
+      "endMs": 322281.0,
+      "charStart": 4730,
+      "charEnd": 4762
+    },
+    {
+      "id": "s0064",
+      "text": "They describe how the work is set up when pressure hits.",
+      "startMs": 322281.0,
+      "endMs": 325299.0,
+      "charStart": 4762,
+      "charEnd": 4818
+    },
+    {
+      "id": "s0065",
+      "text": "The setup can differ by domain, site, or season.",
+      "startMs": 325752.0,
+      "endMs": 329386.0,
+      "charStart": 4820,
+      "charEnd": 4868
+    },
+    {
+      "id": "s0066",
+      "text": "The decisive split is whether adaptability stays high or falls low.",
+      "startMs": 329897.0,
+      "endMs": 334669.0,
+      "charStart": 4870,
+      "charEnd": 4937
+    },
+    {
+      "id": "s0067",
+      "text": "The vibrant group is the renewal side: regenerative and adaptive.",
+      "startMs": 335365.0,
+      "endMs": 339406.0,
+      "charStart": 4939,
+      "charEnd": 5004
+    },
+    {
+      "id": "s0068",
+      "text": "Taken together they cover high or low scalability as long as adaptability stays high.",
+      "startMs": 339406.0,
+      "endMs": 345199.0,
+      "charStart": 5004,
+      "charEnd": 5089
+    },
+    {
+      "id": "s0069",
+      "text": "The group can still change course when reality pushes back, whether reach is broad or still thin.",
+      "startMs": 345199.0,
+      "endMs": 352269.0,
+      "charStart": 5089,
+      "charEnd": 5186
+    },
+    {
+      "id": "s0070",
+      "text": "The decaying group is the erosion side: entrenched and stalled.",
+      "startMs": 352943.0,
+      "endMs": 357424.0,
+      "charStart": 5190,
+      "charEnd": 5253
+    },
+    {
+      "id": "s0071",
+      "text": "Taken together they cover high or low scalability when adaptability is low.",
+      "startMs": 357424.0,
+      "endMs": 363043.0,
+      "charStart": 5253,
+      "charEnd": 5328
+    },
+    {
+      "id": "s0072",
+      "text": "Changing course gets hard or disappears.",
+      "startMs": 363821.0,
+      "endMs": 366898.0,
+      "charStart": 5330,
+      "charEnd": 5370
+    },
+    {
+      "id": "s0073",
+      "text": "The group may still look coordinated for a long time, or coordination itself may be coming apart.",
+      "startMs": 366898.0,
+      "endMs": 372901.0,
+      "charStart": 5370,
+      "charEnd": 5467
+    },
+    {
+      "id": "s0074",
+      "text": "A single organization can hold both tendencies at once.",
+      "startMs": 373586.0,
+      "endMs": 377254.0,
+      "charStart": 5469,
+      "charEnd": 5524
+    },
+    {
+      "id": "s0075",
+      "text": "Direction and day-to-day feeling are not the same thing.",
+      "startMs": 377579.0,
+      "endMs": 380853.0,
+      "charStart": 5526,
+      "charEnd": 5582
+    }
+  ]
+}

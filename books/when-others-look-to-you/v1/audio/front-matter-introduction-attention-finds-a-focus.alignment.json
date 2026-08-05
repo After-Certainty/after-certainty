@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-front-matter-introduction-attention-finds-a-focus",
+  "generationHash": "sha256:0b738dfe73dc8ce949c129b0c384befdf24ea2c369f210e6d58a279451ae184b",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Introduction — Attention Finds a Focus",
+      "startMs": 0.0,
+      "endMs": 3054.0,
+      "charStart": 0,
+      "charEnd": 38
+    },
+    {
+      "id": "s0002",
+      "text": "> A leader is someone others look to when deciding what to do next.",
+      "startMs": 3228.0,
+      "endMs": 8139.0,
+      "charStart": 40,
+      "charEnd": 107
+    },
+    {
+      "id": "s0003",
+      "text": "The First Shift",
+      "startMs": 8952.0,
+      "endMs": 10113.0,
+      "charStart": 109,
+      "charEnd": 124
+    },
+    {
+      "id": "s0004",
+      "text": "Leadership starts wherever attention concentrates.",
+      "startMs": 10925.0,
+      "endMs": 14072.0,
+      "charStart": 126,
+      "charEnd": 176
+    },
+    {
+      "id": "s0005",
+      "text": "It does not require a title, rank, or intention.",
+      "startMs": 14072.0,
+      "endMs": 17369.0,
+      "charStart": 176,
+      "charEnd": 224
+    },
+    {
+      "id": "s0006",
+      "text": "The moment others look to someone for direction under uncertainty, influence multiplies.",
+      "startMs": 17369.0,
+      "endMs": 23046.0,
+      "charStart": 224,
+      "charEnd": 312
+    },
+    {
+      "id": "s0007",
+      "text": "That shift can happen quietly: a room pauses, one person speaks first, others take their cues, and direction begins.",
+      "startMs": 23754.0,
+      "endMs": 32067.0,
+      "charStart": 316,
+      "charEnd": 432
+    },
+    {
+      "id": "s0008",
+      "text": "Most leadership language starts later, after outcomes.",
+      "startMs": 32067.0,
+      "endMs": 36131.0,
+      "charStart": 432,
+      "charEnd": 486
+    },
+    {
+      "id": "s0009",
+      "text": "This book starts earlier, at formation.",
+      "startMs": 36781.0,
+      "endMs": 39672.0,
+      "charStart": 488,
+      "charEnd": 527
+    },
+    {
+      "id": "s0010",
+      "text": "What Changes When Attention Finds a Focus",
+      "startMs": 40786.0,
+      "endMs": 43538.0,
+      "charStart": 529,
+      "charEnd": 570
+    },
+    {
+      "id": "s0011",
+      "text": "When others look to you, your behavior is no longer private.",
+      "startMs": 44652.0,
+      "endMs": 48240.0,
+      "charStart": 572,
+      "charEnd": 632
+    },
+    {
+      "id": "s0012",
+      "text": "It may still feel private to you, but others read it as instruction.",
+      "startMs": 48240.0,
+      "endMs": 52559.0,
+      "charStart": 632,
+      "charEnd": 700
+    },
+    {
+      "id": "s0013",
+      "text": "Your pace teaches pace, your tolerance teaches tolerance, your silence",
+      "startMs": 53151.0,
+      "endMs": 58271.0,
+      "charStart": 703,
+      "charEnd": 773
+    },
+    {
+      "id": "s0014",
+      "text": "teaches limits, and your corrections teach what can still be revised.",
+      "startMs": 58317.0,
+      "endMs": 63193.0,
+      "charStart": 774,
+      "charEnd": 843
+    },
+    {
+      "id": "s0015",
+      "text": "Leadership cannot be reduced to intention.",
+      "startMs": 63576.0,
+      "endMs": 66328.0,
+      "charStart": 845,
+      "charEnd": 887
+    },
+    {
+      "id": "s0016",
+      "text": "Intention matters, but structure matters more.",
+      "startMs": 66328.0,
+      "endMs": 69985.0,
+      "charStart": 887,
+      "charEnd": 933
+    },
+    {
+      "id": "s0017",
+      "text": "The Central Structural Risk",
+      "startMs": 70484.0,
+      "endMs": 72319.0,
+      "charStart": 936,
+      "charEnd": 963
+    },
+    {
+      "id": "s0018",
+      "text": "When others continue to look to someone, authority forms.",
+      "startMs": 73619.0,
+      "endMs": 77334.0,
+      "charStart": 965,
+      "charEnd": 1022
+    },
+    {
+      "id": "s0019",
+      "text": "Over time, that authority can strengthen, or it can erode.",
+      "startMs": 77776.0,
+      "endMs": 81955.0,
+      "charStart": 1023,
+      "charEnd": 1081
+    },
+    {
+      "id": "s0020",
+      "text": "Either path can look stable for a while.",
+      "startMs": 82338.0,
+      "endMs": 84776.0,
+      "charStart": 1083,
+      "charEnd": 1123
+    },
+    {
+      "id": "s0021",
+      "text": "In the long run, authority lasts longer when correction still works.",
+      "startMs": 84776.0,
+      "endMs": 89141.0,
+      "charStart": 1123,
+      "charEnd": 1191
+    },
+    {
+      "id": "s0022",
+      "text": "How the Dynamics Stack",
+      "startMs": 90616.0,
+      "endMs": 92067.0,
+      "charStart": 1194,
+      "charEnd": 1216
+    },
+    {
+      "id": "s0023",
+      "text": "On first read, treat the names below as a preview.",
+      "startMs": 93019.0,
+      "endMs": 96479.0,
+      "charStart": 1218,
+      "charEnd": 1268
+    },
+    {
+      "id": "s0024",
+      "text": "Each one earns its place when the argument needs it.",
+      "startMs": 96920.0,
+      "endMs": 100113.0,
+      "charStart": 1269,
+      "charEnd": 1321
+    },
+    {
+      "id": "s0025",
+      "text": "Early on, Attention Finds a Focus: under uncertainty, people start looking to one person for direction.",
+      "startMs": 100809.0,
+      "endMs": 108391.0,
+      "charStart": 1323,
+      "charEnd": 1426
+    },
+    {
+      "id": "s0026",
+      "text": "Examples Accumulate from what that person rewards, punishes, or ignores.",
+      "startMs": 108391.0,
+      "endMs": 113963.0,
+      "charStart": 1426,
+      "charEnd": 1498
+    },
+    {
+      "id": "s0027",
+      "text": "That moves faster than anything on paper.",
+      "startMs": 114579.0,
+      "endMs": 117388.0,
+      "charStart": 1500,
+      "charEnd": 1541
+    },
+    {
+      "id": "s0028",
+      "text": "Over time, Leadership Coalesces: one path for decisions becomes the path everyone knows.",
+      "startMs": 117388.0,
+      "endMs": 125956.0,
+      "charStart": 1541,
+      "charEnd": 1629
+    },
+    {
+      "id": "s0029",
+      "text": "When the group can still correct course, Dissent is Welcomed early enough to",
+      "startMs": 126514.0,
+      "endMs": 130972.0,
+      "charStart": 1632,
+      "charEnd": 1708
+    },
+    {
+      "id": "s0030",
+      "text": "matter, new facts can still steer the work, and Leaders Feel the Consequences",
+      "startMs": 131042.0,
+      "endMs": 135964.0,
+      "charStart": 1709,
+      "charEnd": 1786
+    },
+    {
+      "id": "s0031",
+      "text": "of their choices where others can see it.",
+      "startMs": 135999.0,
+      "endMs": 138449.0,
+      "charStart": 1787,
+      "charEnd": 1828
+    },
+    {
+      "id": "s0032",
+      "text": "When that breaks down, Disagreement is Suppressed and challenge starts to sound like disloyalty.",
+      "startMs": 139053.0,
+      "endMs": 144788.0,
+      "charStart": 1830,
+      "charEnd": 1926
+    },
+    {
+      "id": "s0033",
+      "text": "Learning Collapse follows when people on the ground can no longer get their knowledge to those who decide.",
+      "startMs": 144788.0,
+      "endMs": 151162.0,
+      "charStart": 1926,
+      "charEnd": 2032
+    },
+    {
+      "id": "s0034",
+      "text": "Exceptions are Forever when what was meant to be temporary becomes the everyday rule.",
+      "startMs": 151162.0,
+      "endMs": 159184.0,
+      "charStart": 2032,
+      "charEnd": 2117
+    },
+    {
+      "id": "s0035",
+      "text": "It does not stay in one room.",
+      "startMs": 159730.0,
+      "endMs": 161599.0,
+      "charStart": 2121,
+      "charEnd": 2150
+    },
+    {
+      "id": "s0036",
+      "text": "Leadership Reproduces Itself as people copy what gets rewarded.",
+      "startMs": 161599.0,
+      "endMs": 166313.0,
+      "charStart": 2150,
+      "charEnd": 2213
+    },
+    {
+      "id": "s0037",
+      "text": "The people who come after learn what kind of leadership this place treats as normal.",
+      "startMs": 166313.0,
+      "endMs": 171236.0,
+      "charStart": 2213,
+      "charEnd": 2297
+    },
+    {
+      "id": "s0038",
+      "text": "How the Book Proceeds",
+      "startMs": 172130.0,
+      "endMs": 173546.0,
+      "charStart": 2301,
+      "charEnd": 2322
+    },
+    {
+      "id": "s0039",
+      "text": "The chapters follow one structural throughline: Attention → Influence →",
+      "startMs": 174150.0,
+      "endMs": 179920.0,
+      "charStart": 2324,
+      "charEnd": 2395
+    },
+    {
+      "id": "s0040",
+      "text": "Structure → Renewal or Erosion → Circulation.",
+      "startMs": 180361.0,
+      "endMs": 184912.0,
+      "charStart": 2396,
+      "charEnd": 2441
+    },
+    {
+      "id": "s0041",
+      "text": "Part I establishes that chain.",
+      "startMs": 185516.0,
+      "endMs": 187756.0,
+      "charStart": 2443,
+      "charEnd": 2473
+    },
+    {
+      "id": "s0042",
+      "text": "Part II first maps the fork—two capacities, how combinations sort into vibrant and decaying groups on the grid, and how vitality and decay feel—then takes renewal and erosion apart pattern by pattern, and ends with circulation: what it looks like when influence opens, narrows, or moves through people.",
+      "startMs": 187756.0,
+      "endMs": 208852.0,
+      "charStart": 2473,
+      "charEnd": 2775
+    },
+    {
+      "id": "s0043",
+      "text": "Part III uses harm, effectiveness, and legitimacy as lenses on what influence is producing.",
+      "startMs": 209513.0,
+      "endMs": 216096.0,
+      "charStart": 2778,
+      "charEnd": 2869
+    },
+    {
+      "id": "s0044",
+      "text": "Circulation and correction run through those chapters.",
+      "startMs": 216096.0,
+      "endMs": 219474.0,
+      "charStart": 2869,
+      "charEnd": 2923
+    },
+    {
+      "id": "s0045",
+      "text": "They ask whether influence can move through temporary leadership so the work can scale.",
+      "startMs": 219474.0,
+      "endMs": 224409.0,
+      "charStart": 2923,
+      "charEnd": 3010
+    },
+    {
+      "id": "s0046",
+      "text": "They ask whether warnings and dissent can still change direction.",
+      "startMs": 224409.0,
+      "endMs": 227984.0,
+      "charStart": 3010,
+      "charEnd": 3075
+    },
+    {
+      "id": "s0047",
+      "text": "Part IV takes up scale, tradeoffs under pressure, and why observers misjudge leaders when signals travel far and late.",
+      "startMs": 228623.0,
+      "endMs": 236135.0,
+      "charStart": 3080,
+      "charEnd": 3198
+    },
+    {
+      "id": "s0048",
+      "text": "Part V takes up what is still possible when warning signals arrive too late, feedback routes close, and judgment fails anyway.",
+      "startMs": 236135.0,
+      "endMs": 245667.0,
+      "charStart": 3198,
+      "charEnd": 3324
+    },
+    {
+      "id": "s0049",
+      "text": "The named patterns also gather, for reference, into four shapes—Forming, Adjusting, Eroding, and Circulating.",
+      "startMs": 246479.0,
+      "endMs": 254792.0,
+      "charStart": 3327,
+      "charEnd": 3436
+    },
+    {
+      "id": "s0050",
+      "text": "They return later as a way of organizing what the book has already made visible.",
+      "startMs": 254792.0,
+      "endMs": 259703.0,
+      "charStart": 3436,
+      "charEnd": 3516
+    },
+    {
+      "id": "s0051",
+      "text": "The throughline is simpler: attention concentrates, examples teach, correction holds or thins, and circulation determines whether influence can move through people as well as from the center.",
+      "startMs": 259703.0,
+      "endMs": 272115.0,
+      "charStart": 3516,
+      "charEnd": 3707
+    },
+    {
+      "id": "s0052",
+      "text": "Crisis runs as a recurring thread through the book, with its strongest",
+      "startMs": 272881.0,
+      "endMs": 277061.0,
+      "charStart": 3711,
+      "charEnd": 3781
+    },
+    {
+      "id": "s0053",
+      "text": "integration where scale and pressure enter—late in the arc.",
+      "startMs": 277130.0,
+      "endMs": 281217.0,
+      "charStart": 3782,
+      "charEnd": 3841
+    },
+    {
+      "id": "s0054",
+      "text": "The aim is not to condemn people.",
+      "startMs": 281542.0,
+      "endMs": 283539.0,
+      "charStart": 3843,
+      "charEnd": 3876
+    },
+    {
+      "id": "s0055",
+      "text": "It is to clarify dynamics.",
+      "startMs": 283690.0,
+      "endMs": 285675.0,
+      "charStart": 3877,
+      "charEnd": 3903
+    },
+    {
+      "id": "s0056",
+      "text": "Reading Stance",
+      "startMs": 286186.0,
+      "endMs": 287347.0,
+      "charStart": 3905,
+      "charEnd": 3919
+    },
+    {
+      "id": "s0057",
+      "text": "Read this book as a set of lenses, not slogans.",
+      "startMs": 287672.0,
+      "endMs": 290818.0,
+      "charStart": 3921,
+      "charEnd": 3968
+    },
+    {
+      "id": "s0058",
+      "text": "Use it on teams, communities, and workplaces you know—including your own choices.",
+      "startMs": 290818.0,
+      "endMs": 296832.0,
+      "charStart": 3968,
+      "charEnd": 4049
+    },
+    {
+      "id": "s0059",
+      "text": "Whether leadership exists is rarely the puzzle.",
+      "startMs": 297993.0,
+      "endMs": 300687.0,
+      "charStart": 4052,
+      "charEnd": 4099
+    },
+    {
+      "id": "s0060",
+      "text": "The question is what it is becoming while others watch—and what you can still see in the meantime.",
+      "startMs": 300687.0,
+      "endMs": 305795.0,
+      "charStart": 4099,
+      "charEnd": 4197
+    }
+  ]
+}
