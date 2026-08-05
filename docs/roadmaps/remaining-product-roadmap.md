@@ -93,8 +93,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 
 ### Specialized cross-layer plans (tracked outside day-to-day Now/Next)
 
-- **AUDIO-001** — Provider-neutral selective chapter narration for the native reader is an **active specialized plan** (Phases 0–8). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). ElevenLabs is the first pilot adapter; OpenAI is a later evaluation candidate. **Pilot book: Observer Patterns (poetry)** — Phases 0–6 landed; Starter licensing confirmed (2026-08-05); Listen live for intro + Part I; full-book enablement / remaining generate in progress. Git LFS for MP3s; enabled ≠ available; no provider API keys in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan.
-
+- **AUDIO-001** — Provider-neutral selective chapter narration for the native reader is an **active specialized plan** (Phases 0–8). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). ElevenLabs first adapter; OpenAI = optional Phase 7 eval. **Shipped:** Phases 0–6; OP full book + WOLTY v1 full book Listen; Flash estimate calibrated **0.25 credit/char** (2026-08-05). **Next:** Curiosity Before Certainty intro + Ch.1 generate (~2k credits); further books / OpenAI only after credit refresh or explicit eval. Git LFS for MP3s; enabled ≠ available; no provider API keys in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan.
 ### Later / revisit when triggered
 
 | Item | Trigger |

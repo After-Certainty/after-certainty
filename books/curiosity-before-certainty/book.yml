@@ -110,3 +110,14 @@ github:
   - docx
   - epub
   - pdf
+narration:
+  defaults:
+    enabled: false
+    provider: elevenlabs
+    voice: reflective-narrator
+    model: eleven_flash_v2_5
+    output_format: mp3_44100_128
+    language: en
+    include_title: true
+    include_footnotes: false
+    max_estimated_usd: 1.0
