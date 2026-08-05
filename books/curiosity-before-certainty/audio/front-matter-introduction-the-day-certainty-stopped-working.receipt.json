@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-front-matter-introduction-the-day-certainty-stopped-working",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "front-matter-introduction-the-day-certainty-stopped-working",
+  "sourcePath": "front-matter/introduction-the-day-certainty-stopped-working.md",
+  "sourceHash": "sha256:e0d4511982e28ec23eba6552b81f511070dbded63eace1a3730bf949722920c6",
+  "spokenTextHash": "sha256:a78166ddaaca81b3da6fcda1772eacbbb691608a79e024a9e7e23adf64d9799a",
+  "generationHash": "sha256:793803c6b42521121eea2544b6e94c3b6c59500afc7dead6748b6f7b967389e5",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 5613,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1403.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1403.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/front-matter-introduction-the-day-certainty-stopped-working.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/front-matter-introduction-the-day-certainty-stopped-working.mp3",
+  "audioSha256": "sha256:fd408589b7269b3bf323851bf0d3e74a48a089e4e8a52d066df8b14c5fde7401",
+  "generatedAt": "2026-08-05T13:34:26Z"
+}

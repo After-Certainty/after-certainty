@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-1-learning-to-notice-chapter-1-why-being-wrong-is-useful",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-1-learning-to-notice-chapter-1-why-being-wrong-is-useful",
+  "sourcePath": "parts/part-1-learning-to-notice/chapter-1-why-being-wrong-is-useful.md",
+  "sourceHash": "sha256:054b75141125db0aac726b2667d0464f11ae271c362856ff787af8d6624cb1d8",
+  "spokenTextHash": "sha256:ff31382abfeea5c6ddd2a7be1cdb1742158348da5b4c9f7946922aa0ceadf72c",
+  "generationHash": "sha256:099a03533fff81068c1bcf90e08cddd2d74ec89d8784913d5f9a09148ee04750",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2291,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 572.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 572.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-1-learning-to-notice-chapter-1-why-being-wrong-is-useful.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-1-learning-to-notice-chapter-1-why-being-wrong-is-useful.mp3",
+  "audioSha256": "sha256:736b273b16d5ea603626f7a41ddfa960402dd5d5abd77eae84c02f979b3e5436",
+  "generatedAt": "2026-08-05T13:34:34Z"
+}
