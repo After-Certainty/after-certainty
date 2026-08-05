@@ -8,12 +8,14 @@ import sys
 from pathlib import Path
 
 import jsonschema
+import pytest
 
 REPO = Path(__file__).resolve().parents[1]
 TOOLS = REPO / "tools"
 if str(TOOLS) not in sys.path:
     sys.path.insert(0, str(TOOLS))
 
+from chapter_audio.receipts import is_lfs_pointer  # noqa: E402
 from chapter_audio.validate import (  # noqa: E402
     validate_artifact_tree,
     validate_chapter_audio,
@@ -21,13 +23,33 @@ from chapter_audio.validate import (  # noqa: E402
 )
 
 
+def _repo_has_unsmudged_lfs_audio(repo: Path) -> bool:
+    """True when books/*/audio contains Git LFS pointer stubs (checkout without smudge)."""
+    for audio_dir in repo.glob("books/*/audio"):
+        if not audio_dir.is_dir():
+            continue
+        for path in audio_dir.glob("*.mp3"):
+            if is_lfs_pointer(path):
+                return True
+    return False
+
+
+def _skip_if_lfs_pointers_not_smudged() -> None:
+    if _repo_has_unsmudged_lfs_audio(REPO):
+        pytest.skip(
+            "books/*/audio MP3s are Git LFS pointers; fetch with git lfs pull "
+            "(CI pytest job uses actions/checkout lfs: true)"
+        )
+
+
 def test_validate_voice_catalog_ok() -> None:
     issues = validate_voice_catalog(REPO)
     assert issues == []
 
 
-def test_validate_chapter_audio_cli_passes_without_artifacts() -> None:
-    # Present local OP audio is fine; validate must not require secrets or network.
+def test_validate_chapter_audio_cli_passes() -> None:
+    # Present OP audio (smudged LFS) is fine; validate must not require secrets or network.
+    _skip_if_lfs_pointers_not_smudged()
     r = subprocess.run(
         [sys.executable, str(REPO / "tools/validate_chapter_audio.py"), "--repo", str(REPO)],
         capture_output=True,
@@ -39,6 +61,7 @@ def test_validate_chapter_audio_cli_passes_without_artifacts() -> None:
 
 
 def test_verify_chapter_audio_writes_manifest(tmp_path: Path) -> None:
+    _skip_if_lfs_pointers_not_smudged()
     out = tmp_path / "chapter-audio-manifest.json"
     r = subprocess.run(
         [
@@ -137,7 +160,22 @@ def test_run_chapter_audio_ci_dry_run_no_changes() -> None:
     assert "No books/*/audio changes" in r.stderr or "dry-run:" in r.stdout + r.stderr
 
 
+def test_changed_audio_paths_finds_untracked_audio_tree(tmp_path: Path) -> None:
+    """Regression: literal books/*/audio pathspec misses untracked audio files."""
+    subprocess.run(["git", "init"], cwd=tmp_path, check=True, capture_output=True)
+    audio = tmp_path / "books" / "observer-patterns" / "audio"
+    audio.mkdir(parents=True)
+    (audio / "front-matter-introduction.mp3").write_bytes(b"ID3fake")
+    (audio / "front-matter-introduction.receipt.json").write_text("{}", encoding="utf-8")
+    from run_chapter_audio_ci import _changed_audio_paths
+
+    paths = _changed_audio_paths(tmp_path)
+    assert "books/observer-patterns/audio/front-matter-introduction.mp3" in paths
+    assert "books/observer-patterns/audio/front-matter-introduction.receipt.json" in paths
+
+
 def test_validate_chapter_audio_module_collects_issues() -> None:
+    _skip_if_lfs_pointers_not_smudged()
     issues = validate_chapter_audio(REPO)
     assert all(i.level in {"error", "warning"} for i in issues)
     assert not any(i.level == "error" for i in issues)

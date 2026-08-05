@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-i-what-begins-what-love-teaches",
+  "generationHash": "sha256:f109fec9cbbb99236c6fc182981318090f5edae92ea3a08cd9e45d2ba79fe65b",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "What Love Teaches",
+      "startMs": 0.0,
+      "endMs": 1184.0,
+      "charStart": 0,
+      "charEnd": 17
+    },
+    {
+      "id": "s0002",
+      "text": "Love is chosen.",
+      "startMs": 2299.0,
+      "endMs": 3390.0,
+      "charStart": 19,
+      "charEnd": 34
+    },
+    {
+      "id": "s0003",
+      "text": "Small acts compound.",
+      "startMs": 3541.0,
+      "endMs": 5004.0,
+      "charStart": 36,
+      "charEnd": 56
+    },
+    {
+      "id": "s0004",
+      "text": "Choice is tested.",
+      "startMs": 5120.0,
+      "endMs": 6200.0,
+      "charStart": 58,
+      "charEnd": 75
+    },
+    {
+      "id": "s0005",
+      "text": "Presence grows.",
+      "startMs": 6316.0,
+      "endMs": 7524.0,
+      "charStart": 77,
+      "charEnd": 92
+    },
+    {
+      "id": "s0006",
+      "text": "Love deepens.",
+      "startMs": 7732.0,
+      "endMs": 8975.0,
+      "charStart": 94,
+      "charEnd": 107
+    },
+    {
+      "id": "s0007",
+      "text": "Obligation replaces choice.",
+      "startMs": 9091.0,
+      "endMs": 10925.0,
+      "charStart": 108,
+      "charEnd": 135
+    },
+    {
+      "id": "s0008",
+      "text": "Love endures.",
+      "startMs": 11076.0,
+      "endMs": 12156.0,
+      "charStart": 136,
+      "charEnd": 149
+    },
+    {
+      "id": "s0009",
+      "text": "Love fades.",
+      "startMs": 12249.0,
+      "endMs": 13143.0,
+      "charStart": 150,
+      "charEnd": 161
+    },
+    {
+      "id": "s0010",
+      "text": "Growth requires loss.",
+      "startMs": 13294.0,
+      "endMs": 14849.0,
+      "charStart": 162,
+      "charEnd": 183
+    },
+    {
+      "id": "s0011",
+      "text": "Growth stops.",
+      "startMs": 15000.0,
+      "endMs": 16312.0,
+      "charStart": 184,
+      "charEnd": 197
+    },
+    {
+      "id": "s0012",
+      "text": "Love is learned.",
+      "startMs": 16556.0,
+      "endMs": 17740.0,
+      "charStart": 199,
+      "charEnd": 215
+    }
+  ]
+}

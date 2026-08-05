@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-i-what-begins-why-diversity-matters",
+  "editionSlug": "observer-patterns",
+  "chapterSlug": "parts-part-i-what-begins-why-diversity-matters",
+  "sourcePath": "parts/part-i-what-begins/why-diversity-matters.md",
+  "sourceHash": "sha256:359399810a36f4d638aa076016ec54130426d25a5c68e995d68cb58d25b3479e",
+  "spokenTextHash": "sha256:4a2bedbaacbb9a585ddc65a9ee8c3b8f573ee8943e37c9123abd909f8c5e7a7e",
+  "generationHash": "sha256:e11104c407a53046f93567b0d9271ad38d39b6983d52f4cfd8e00d925b47d4d6",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 327,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 327.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 327.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/observer-patterns/audio/parts-part-i-what-begins-why-diversity-matters.alignment.json"
+  },
+  "audioPath": "books/observer-patterns/audio/parts-part-i-what-begins-why-diversity-matters.mp3",
+  "audioSha256": "sha256:75b69191411290359dd90b17fbb6d95ac0f8714ff6e9d76a0a2f3244ae50340d",
+  "generatedAt": "2026-08-05T03:46:46Z"
+}

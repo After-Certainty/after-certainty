@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-i-what-begins-when-trust-builds",
+  "generationHash": "sha256:918853680363e90686cd63e36184a2e5f84b75a2ea7d07289cfb319d121755b8",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "When Trust Builds",
+      "startMs": 0.0,
+      "endMs": 987.0,
+      "charStart": 0,
+      "charEnd": 17
+    },
+    {
+      "id": "s0002",
+      "text": "Trust is offered.",
+      "startMs": 1045.0,
+      "endMs": 2183.0,
+      "charStart": 19,
+      "charEnd": 36
+    },
+    {
+      "id": "s0003",
+      "text": "Small risks compound.",
+      "startMs": 2357.0,
+      "endMs": 3994.0,
+      "charStart": 38,
+      "charEnd": 59
+    },
+    {
+      "id": "s0004",
+      "text": "Vulnerability is tested.",
+      "startMs": 4273.0,
+      "endMs": 5944.0,
+      "charStart": 61,
+      "charEnd": 85
+    },
+    {
+      "id": "s0005",
+      "text": "Reliability forms.",
+      "startMs": 6061.0,
+      "endMs": 7466.0,
+      "charStart": 87,
+      "charEnd": 105
+    },
+    {
+      "id": "s0006",
+      "text": "Trust holds.",
+      "startMs": 7675.0,
+      "endMs": 8650.0,
+      "charStart": 107,
+      "charEnd": 119
+    },
+    {
+      "id": "s0007",
+      "text": "Trust shatters.",
+      "startMs": 8859.0,
+      "endMs": 10008.0,
+      "charStart": 120,
+      "charEnd": 135
+    },
+    {
+      "id": "s0008",
+      "text": "Repair begins.",
+      "startMs": 10089.0,
+      "endMs": 11239.0,
+      "charStart": 136,
+      "charEnd": 150
+    },
+    {
+      "id": "s0009",
+      "text": "Exposure retreats.",
+      "startMs": 11413.0,
+      "endMs": 12853.0,
+      "charStart": 151,
+      "charEnd": 169
+    },
+    {
+      "id": "s0010",
+      "text": "Trust demands openness.",
+      "startMs": 13004.0,
+      "endMs": 14815.0,
+      "charStart": 170,
+      "charEnd": 193
+    },
+    {
+      "id": "s0011",
+      "text": "Trust withdraws.",
+      "startMs": 14931.0,
+      "endMs": 16127.0,
+      "charStart": 194,
+      "charEnd": 210
+    },
+    {
+      "id": "s0012",
+      "text": "Trust is built.",
+      "startMs": 16301.0,
+      "endMs": 17648.0,
+      "charStart": 212,
+      "charEnd": 227
+    }
+  ]
+}

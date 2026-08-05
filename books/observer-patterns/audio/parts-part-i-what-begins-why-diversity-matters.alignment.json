@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-observer-patterns-parts-part-i-what-begins-why-diversity-matters",
+  "generationHash": "sha256:e11104c407a53046f93567b0d9271ad38d39b6983d52f4cfd8e00d925b47d4d6",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Why Diversity Matters",
+      "startMs": 0.0,
+      "endMs": 1486.0,
+      "charStart": 0,
+      "charEnd": 21
+    },
+    {
+      "id": "s0002",
+      "text": "Difference is encountered.",
+      "startMs": 1928.0,
+      "endMs": 3448.0,
+      "charStart": 23,
+      "charEnd": 49
+    },
+    {
+      "id": "s0003",
+      "text": "Variation accumulates.",
+      "startMs": 3890.0,
+      "endMs": 5585.0,
+      "charStart": 51,
+      "charEnd": 73
+    },
+    {
+      "id": "s0004",
+      "text": "Assumptions are tested.",
+      "startMs": 5863.0,
+      "endMs": 7315.0,
+      "charStart": 75,
+      "charEnd": 98
+    },
+    {
+      "id": "s0005",
+      "text": "Perspective expands.",
+      "startMs": 7698.0,
+      "endMs": 9312.0,
+      "charStart": 100,
+      "charEnd": 120
+    },
+    {
+      "id": "s0006",
+      "text": "Understanding deepens.",
+      "startMs": 9590.0,
+      "endMs": 11250.0,
+      "charStart": 122,
+      "charEnd": 144
+    },
+    {
+      "id": "s0007",
+      "text": "Understanding fragments.",
+      "startMs": 11576.0,
+      "endMs": 13259.0,
+      "charStart": 145,
+      "charEnd": 169
+    },
+    {
+      "id": "s0008",
+      "text": "Common ground forms.",
+      "startMs": 13503.0,
+      "endMs": 14919.0,
+      "charStart": 170,
+      "charEnd": 190
+    },
+    {
+      "id": "s0009",
+      "text": "Division forms.",
+      "startMs": 15070.0,
+      "endMs": 16382.0,
+      "charStart": 191,
+      "charEnd": 206
+    },
+    {
+      "id": "s0010",
+      "text": "Learning accelerates.",
+      "startMs": 16661.0,
+      "endMs": 18066.0,
+      "charStart": 207,
+      "charEnd": 228
+    },
+    {
+      "id": "s0011",
+      "text": "Learning stalls.",
+      "startMs": 18309.0,
+      "endMs": 19563.0,
+      "charStart": 229,
+      "charEnd": 245
+    },
+    {
+      "id": "s0012",
+      "text": "Resilience grows.",
+      "startMs": 19772.0,
+      "endMs": 21223.0,
+      "charStart": 246,
+      "charEnd": 263
+    },
+    {
+      "id": "s0013",
+      "text": "Fragility increases.",
+      "startMs": 21398.0,
+      "endMs": 23186.0,
+      "charStart": 264,
+      "charEnd": 284
+    },
+    {
+      "id": "s0014",
+      "text": "What persists reflects what was included.",
+      "startMs": 23394.0,
+      "endMs": 26425.0,
+      "charStart": 286,
+      "charEnd": 327
+    }
+  ]
+}
