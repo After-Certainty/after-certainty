@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-front-matter-introduction-the-day-certainty-stopped-working",
+  "generationHash": "sha256:793803c6b42521121eea2544b6e94c3b6c59500afc7dead6748b6f7b967389e5",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Introduction",
+      "startMs": 0.0,
+      "endMs": 813.0,
+      "charStart": 0,
+      "charEnd": 12
+    },
+    {
+      "id": "s0002",
+      "text": "The Day Certainty Stopped Working",
+      "startMs": 1510.0,
+      "endMs": 4377.0,
+      "charStart": 14,
+      "charEnd": 47
+    },
+    {
+      "id": "s0003",
+      "text": "For most of my childhood, I believed that being smart meant you could",
+      "startMs": 5074.0,
+      "endMs": 8383.0,
+      "charStart": 49,
+      "charEnd": 118
+    },
+    {
+      "id": "s0004",
+      "text": "figure anything out.",
+      "startMs": 8417.0,
+      "endMs": 9625.0,
+      "charStart": 119,
+      "charEnd": 139
+    },
+    {
+      "id": "s0005",
+      "text": "That belief worked beautifully for a while.",
+      "startMs": 9950.0,
+      "endMs": 12179.0,
+      "charStart": 141,
+      "charEnd": 184
+    },
+    {
+      "id": "s0006",
+      "text": "And then the world stopped behaving like a puzzle.",
+      "startMs": 12330.0,
+      "endMs": 14675.0,
+      "charStart": 186,
+      "charEnd": 236
+    },
+    {
+      "id": "s0007",
+      "text": "When I was young, computers made sense to me.",
+      "startMs": 15116.0,
+      "endMs": 17763.0,
+      "charStart": 238,
+      "charEnd": 283
+    },
+    {
+      "id": "s0008",
+      "text": "Video games did too.",
+      "startMs": 18089.0,
+      "endMs": 19505.0,
+      "charStart": 284,
+      "charEnd": 304
+    },
+    {
+      "id": "s0009",
+      "text": "If something didn’t work, there was usually a reason.",
+      "startMs": 19505.0,
+      "endMs": 22094.0,
+      "charStart": 304,
+      "charEnd": 357
+    },
+    {
+      "id": "s0010",
+      "text": "You could take things apart, follow the logic step by step, and eventually understand what had happened.",
+      "startMs": 22094.0,
+      "endMs": 27667.0,
+      "charStart": 357,
+      "charEnd": 461
+    },
+    {
+      "id": "s0011",
+      "text": "I loved the moment when confusion suddenly gave way to clarity.",
+      "startMs": 27667.0,
+      "endMs": 31928.0,
+      "charStart": 461,
+      "charEnd": 524
+    },
+    {
+      "id": "s0012",
+      "text": "It felt like discovering the hidden rules behind the world.",
+      "startMs": 32787.0,
+      "endMs": 35933.0,
+      "charStart": 528,
+      "charEnd": 587
+    },
+    {
+      "id": "s0013",
+      "text": "After a while I began to assume something without really noticing that I had done so.",
+      "startMs": 36258.0,
+      "endMs": 40821.0,
+      "charStart": 589,
+      "charEnd": 674
+    },
+    {
+      "id": "s0014",
+      "text": "If you were smart enough, you could eventually figure anything out.",
+      "startMs": 40821.0,
+      "endMs": 44199.0,
+      "charStart": 674,
+      "charEnd": 741
+    },
+    {
+      "id": "s0015",
+      "text": "Problems were simply puzzles waiting for someone patient enough to solve them.",
+      "startMs": 44199.0,
+      "endMs": 48344.0,
+      "charStart": 741,
+      "charEnd": 819
+    },
+    {
+      "id": "s0016",
+      "text": "With enough thought and effort, everything would eventually make sense.",
+      "startMs": 48344.0,
+      "endMs": 52001.0,
+      "charStart": 819,
+      "charEnd": 890
+    },
+    {
+      "id": "s0017",
+      "text": "I assumed the rest of life worked that way too.",
+      "startMs": 52814.0,
+      "endMs": 55124.0,
+      "charStart": 895,
+      "charEnd": 942
+    },
+    {
+      "id": "s0018",
+      "text": "Sports would make sense if I practiced enough.",
+      "startMs": 55124.0,
+      "endMs": 57365.0,
+      "charStart": 942,
+      "charEnd": 988
+    },
+    {
+      "id": "s0019",
+      "text": "Friendships would make sense if I analyzed them carefully enough.",
+      "startMs": 57365.0,
+      "endMs": 60639.0,
+      "charStart": 988,
+      "charEnd": 1053
+    },
+    {
+      "id": "s0020",
+      "text": "Everything, I believed, could be understood if you just thought hard enough about it.",
+      "startMs": 60639.0,
+      "endMs": 65039.0,
+      "charStart": 1053,
+      "charEnd": 1138
+    },
+    {
+      "id": "s0021",
+      "text": "But sports didn’t work that way.",
+      "startMs": 65585.0,
+      "endMs": 67361.0,
+      "charStart": 1143,
+      "charEnd": 1175
+    },
+    {
+      "id": "s0022",
+      "text": "Friendships didn’t work that way either.",
+      "startMs": 67535.0,
+      "endMs": 69497.0,
+      "charStart": 1177,
+      "charEnd": 1217
+    },
+    {
+      "id": "s0023",
+      "text": "No matter how carefully I tried to analyze them, they refused to behave like puzzles.",
+      "startMs": 69614.0,
+      "endMs": 74467.0,
+      "charStart": 1219,
+      "charEnd": 1304
+    },
+    {
+      "id": "s0024",
+      "text": "Sometimes things worked out and sometimes they didn’t, and often I had no idea why.",
+      "startMs": 74467.0,
+      "endMs": 79761.0,
+      "charStart": 1304,
+      "charEnd": 1387
+    },
+    {
+      "id": "s0025",
+      "text": "The same action that worked one day might fail the next.",
+      "startMs": 79761.0,
+      "endMs": 83418.0,
+      "charStart": 1387,
+      "charEnd": 1443
+    },
+    {
+      "id": "s0026",
+      "text": "The patterns that seemed obvious would suddenly disappear.",
+      "startMs": 84068.0,
+      "endMs": 87029.0,
+      "charStart": 1446,
+      "charEnd": 1504
+    },
+    {
+      "id": "s0027",
+      "text": "As I became a teenager, another realization slowly began to unfold.",
+      "startMs": 87725.0,
+      "endMs": 91951.0,
+      "charStart": 1506,
+      "charEnd": 1573
+    },
+    {
+      "id": "s0028",
+      "text": "Some of the things I had been taught earlier in life didn’t hold up the way I expected.",
+      "startMs": 91951.0,
+      "endMs": 96746.0,
+      "charStart": 1573,
+      "charEnd": 1660
+    },
+    {
+      "id": "s0029",
+      "text": "Ideas that once seemed solid began to look uncertain.",
+      "startMs": 97245.0,
+      "endMs": 100473.0,
+      "charStart": 1662,
+      "charEnd": 1715
+    },
+    {
+      "id": "s0030",
+      "text": "Things I had accepted as obvious turned out to be more complicated than they first appeared.",
+      "startMs": 100473.0,
+      "endMs": 105790.0,
+      "charStart": 1715,
+      "charEnd": 1807
+    },
+    {
+      "id": "s0031",
+      "text": "That realization was unsettling.",
+      "startMs": 106324.0,
+      "endMs": 108565.0,
+      "charStart": 1810,
+      "charEnd": 1842
+    },
+    {
+      "id": "s0032",
+      "text": "If some of the things I had believed were wrong, what did that say about how smart I really was?",
+      "startMs": 108565.0,
+      "endMs": 114138.0,
+      "charStart": 1842,
+      "charEnd": 1938
+    },
+    {
+      "id": "s0033",
+      "text": "For a while uncertainty made me pull back.",
+      "startMs": 114138.0,
+      "endMs": 117145.0,
+      "charStart": 1938,
+      "charEnd": 1980
+    },
+    {
+      "id": "s0034",
+      "text": "If the world was this confusing, maybe it wasn’t something you could figure out at all.",
+      "startMs": 117145.0,
+      "endMs": 121812.0,
+      "charStart": 1980,
+      "charEnd": 2067
+    },
+    {
+      "id": "s0035",
+      "text": "Maybe the safest thing to do was stop trying.",
+      "startMs": 121812.0,
+      "endMs": 124598.0,
+      "charStart": 2067,
+      "charEnd": 2112
+    },
+    {
+      "id": "s0036",
+      "text": "But uncertainty had another effect as well.",
+      "startMs": 125249.0,
+      "endMs": 127826.0,
+      "charStart": 2118,
+      "charEnd": 2161
+    },
+    {
+      "id": "s0037",
+      "text": "Because I wasn’t as certain anymore, I began trying things I would never have dared to try before.",
+      "startMs": 127826.0,
+      "endMs": 133190.0,
+      "charStart": 2161,
+      "charEnd": 2259
+    },
+    {
+      "id": "s0038",
+      "text": "I experimented more freely.",
+      "startMs": 133190.0,
+      "endMs": 135117.0,
+      "charStart": 2259,
+      "charEnd": 2286
+    },
+    {
+      "id": "s0039",
+      "text": "I took chances that my younger self would have avoided.",
+      "startMs": 135117.0,
+      "endMs": 137996.0,
+      "charStart": 2286,
+      "charEnd": 2341
+    },
+    {
+      "id": "s0040",
+      "text": "Sometimes those experiments worked out well.",
+      "startMs": 138762.0,
+      "endMs": 141119.0,
+      "charStart": 2345,
+      "charEnd": 2389
+    },
+    {
+      "id": "s0041",
+      "text": "Sometimes they didn’t.",
+      "startMs": 141119.0,
+      "endMs": 142443.0,
+      "charStart": 2389,
+      "charEnd": 2411
+    },
+    {
+      "id": "s0042",
+      "text": "I learned some hard lessons during those years, but I also began to learn something much more important.",
+      "startMs": 142443.0,
+      "endMs": 148561.0,
+      "charStart": 2411,
+      "charEnd": 2515
+    },
+    {
+      "id": "s0043",
+      "text": "Eventually I found a place where the curiosity I had loved as a kid made sense again: software development.",
+      "startMs": 149362.0,
+      "endMs": 156049.0,
+      "charStart": 2519,
+      "charEnd": 2626
+    },
+    {
+      "id": "s0044",
+      "text": "Writing code felt like the puzzles I used to enjoy.",
+      "startMs": 156049.0,
+      "endMs": 159381.0,
+      "charStart": 2626,
+      "charEnd": 2677
+    },
+    {
+      "id": "s0045",
+      "text": "When something broke, there was usually a reason.",
+      "startMs": 159881.0,
+      "endMs": 162446.0,
+      "charStart": 2679,
+      "charEnd": 2728
+    },
+    {
+      "id": "s0046",
+      "text": "If you looked carefully enough, you could trace the path of the problem and slowly uncover what had gone wrong.",
+      "startMs": 162446.0,
+      "endMs": 167973.0,
+      "charStart": 2728,
+      "charEnd": 2839
+    },
+    {
+      "id": "s0047",
+      "text": "The habit that helped most wasn’t certainty.",
+      "startMs": 168565.0,
+      "endMs": 171154.0,
+      "charStart": 2842,
+      "charEnd": 2886
+    },
+    {
+      "id": "s0048",
+      "text": "It was curiosity.",
+      "startMs": 171270.0,
+      "endMs": 172675.0,
+      "charStart": 2887,
+      "charEnd": 2904
+    },
+    {
+      "id": "s0049",
+      "text": "When something didn’t make sense, you noticed it.",
+      "startMs": 172919.0,
+      "endMs": 175438.0,
+      "charStart": 2906,
+      "charEnd": 2955
+    },
+    {
+      "id": "s0050",
+      "text": "You asked why.",
+      "startMs": 175647.0,
+      "endMs": 176599.0,
+      "charStart": 2956,
+      "charEnd": 2970
+    },
+    {
+      "id": "s0051",
+      "text": "You tested a guess.",
+      "startMs": 176599.0,
+      "endMs": 177795.0,
+      "charStart": 2970,
+      "charEnd": 2989
+    },
+    {
+      "id": "s0052",
+      "text": "Then you learned from what happened.",
+      "startMs": 178143.0,
+      "endMs": 180000.0,
+      "charStart": 2991,
+      "charEnd": 3027
+    },
+    {
+      "id": "s0053",
+      "text": "At first I assumed that this skill might allow me to avoid the parts of life that had always been harder for me, especially relating to other people.",
+      "startMs": 180326.0,
+      "endMs": 188557.0,
+      "charStart": 3029,
+      "charEnd": 3178
+    },
+    {
+      "id": "s0054",
+      "text": "Computers behave logically most of the time.",
+      "startMs": 188801.0,
+      "endMs": 191413.0,
+      "charStart": 3179,
+      "charEnd": 3223
+    },
+    {
+      "id": "s0055",
+      "text": "People don’t.",
+      "startMs": 191541.0,
+      "endMs": 192447.0,
+      "charStart": 3224,
+      "charEnd": 3237
+    },
+    {
+      "id": "s0056",
+      "text": "Or at least that’s what I thought.",
+      "startMs": 192447.0,
+      "endMs": 194084.0,
+      "charStart": 3237,
+      "charEnd": 3271
+    },
+    {
+      "id": "s0057",
+      "text": "But something interesting began to happen as I gained experience.",
+      "startMs": 194641.0,
+      "endMs": 198402.0,
+      "charStart": 3274,
+      "charEnd": 3339
+    },
+    {
+      "id": "s0058",
+      "text": "The same habits that helped me debug software began helping me understand people too.",
+      "startMs": 198402.0,
+      "endMs": 203639.0,
+      "charStart": 3339,
+      "charEnd": 3424
+    },
+    {
+      "id": "s0059",
+      "text": "Not perfectly—human systems are far more complicated than computer systems—but the basic approach still worked.",
+      "startMs": 203639.0,
+      "endMs": 211394.0,
+      "charStart": 3424,
+      "charEnd": 3535
+    },
+    {
+      "id": "s0060",
+      "text": "Paying attention to what didn’t make sense, asking questions, and testing assumptions gradually revealed patterns that I hadn’t noticed before.",
+      "startMs": 211394.0,
+      "endMs": 220705.0,
+      "charStart": 3535,
+      "charEnd": 3678
+    },
+    {
+      "id": "s0061",
+      "text": "As a kid I had found I could make friends by leaning into my quirky behavior.",
+      "startMs": 221402.0,
+      "endMs": 226185.0,
+      "charStart": 3683,
+      "charEnd": 3760
+    },
+    {
+      "id": "s0062",
+      "text": "Sometimes that made social situations awkward.",
+      "startMs": 226696.0,
+      "endMs": 229378.0,
+      "charStart": 3761,
+      "charEnd": 3807
+    },
+    {
+      "id": "s0063",
+      "text": "But as I paid closer attention, I started noticing something else.",
+      "startMs": 229378.0,
+      "endMs": 233546.0,
+      "charStart": 3807,
+      "charEnd": 3873
+    },
+    {
+      "id": "s0064",
+      "text": "Sometimes those same traits made people laugh.",
+      "startMs": 233546.0,
+      "endMs": 236402.0,
+      "charStart": 3873,
+      "charEnd": 3919
+    },
+    {
+      "id": "s0065",
+      "text": "Sometimes they made conversations easier.",
+      "startMs": 237168.0,
+      "endMs": 239258.0,
+      "charStart": 3922,
+      "charEnd": 3963
+    },
+    {
+      "id": "s0066",
+      "text": "Sometimes they helped people relax.",
+      "startMs": 239467.0,
+      "endMs": 241452.0,
+      "charStart": 3964,
+      "charEnd": 3999
+    },
+    {
+      "id": "s0067",
+      "text": "And sometimes they didn’t work at all.",
+      "startMs": 241452.0,
+      "endMs": 243333.0,
+      "charStart": 3999,
+      "charEnd": 4037
+    },
+    {
+      "id": "s0068",
+      "text": "The more I observed and experimented, the more I began to realize",
+      "startMs": 243867.0,
+      "endMs": 247768.0,
+      "charStart": 4040,
+      "charEnd": 4105
+    },
+    {
+      "id": "s0069",
+      "text": "something I had never noticed when I was younger.",
+      "startMs": 247815.0,
+      "endMs": 250450.0,
+      "charStart": 4106,
+      "charEnd": 4155
+    },
+    {
+      "id": "s0070",
+      "text": "Human interactions have patterns too.",
+      "startMs": 250833.0,
+      "endMs": 253132.0,
+      "charStart": 4157,
+      "charEnd": 4194
+    },
+    {
+      "id": "s0071",
+      "text": "They aren’t puzzles you solve once and move on from.",
+      "startMs": 253573.0,
+      "endMs": 256359.0,
+      "charStart": 4196,
+      "charEnd": 4248
+    },
+    {
+      "id": "s0072",
+      "text": "But they are systems you can explore.",
+      "startMs": 256359.0,
+      "endMs": 258751.0,
+      "charStart": 4248,
+      "charEnd": 4285
+    },
+    {
+      "id": "s0073",
+      "text": "Over time I realized something that changed how I think about learning.",
+      "startMs": 259796.0,
+      "endMs": 263453.0,
+      "charStart": 4288,
+      "charEnd": 4359
+    },
+    {
+      "id": "s0074",
+      "text": "Understanding the world isn’t really about having the right answers.",
+      "startMs": 264057.0,
+      "endMs": 267493.0,
+      "charStart": 4360,
+      "charEnd": 4428
+    },
+    {
+      "id": "s0075",
+      "text": "It is about staying curious long enough to learn.",
+      "startMs": 267737.0,
+      "endMs": 270651.0,
+      "charStart": 4429,
+      "charEnd": 4478
+    },
+    {
+      "id": "s0076",
+      "text": "Curiosity often begins in a very simple moment.",
+      "startMs": 271464.0,
+      "endMs": 274877.0,
+      "charStart": 4480,
+      "charEnd": 4527
+    },
+    {
+      "id": "s0077",
+      "text": "Something doesn’t quite make sense.",
+      "startMs": 274877.0,
+      "endMs": 276828.0,
+      "charStart": 4527,
+      "charEnd": 4562
+    },
+    {
+      "id": "s0078",
+      "text": "You notice it.",
+      "startMs": 277095.0,
+      "endMs": 278093.0,
+      "charStart": 4564,
+      "charEnd": 4578
+    },
+    {
+      "id": "s0079",
+      "text": "You wonder why.",
+      "startMs": 278267.0,
+      "endMs": 279301.0,
+      "charStart": 4579,
+      "charEnd": 4594
+    },
+    {
+      "id": "s0080",
+      "text": "You test a guess and see what happens next.",
+      "startMs": 279301.0,
+      "endMs": 282087.0,
+      "charStart": 4594,
+      "charEnd": 4637
+    },
+    {
+      "id": "s0081",
+      "text": "This simple habit has helped detectives solve mysteries, scientists understand nature, software engineers debug complex systems, and ordinary people navigate complicated situations.",
+      "startMs": 282563.0,
+      "endMs": 294556.0,
+      "charStart": 4640,
+      "charEnd": 4821
+    },
+    {
+      "id": "s0082",
+      "text": "In this book we’ll explore how that habit works—not in laboratories or research papers, but in everyday life.",
+      "startMs": 294556.0,
+      "endMs": 302393.0,
+      "charStart": 4821,
+      "charEnd": 4930
+    },
+    {
+      "id": "s0083",
+      "text": "Understanding complex things, it turns out, is less like solving a puzzle and more like exploring a landscape.",
+      "startMs": 303461.0,
+      "endMs": 310776.0,
+      "charStart": 4933,
+      "charEnd": 5043
+    },
+    {
+      "id": "s0084",
+      "text": "You start somewhere.",
+      "startMs": 310985.0,
+      "endMs": 312146.0,
+      "charStart": 5044,
+      "charEnd": 5064
+    },
+    {
+      "id": "s0085",
+      "text": "You notice what’s around you.",
+      "startMs": 312146.0,
+      "endMs": 313736.0,
+      "charStart": 5064,
+      "charEnd": 5093
+    },
+    {
+      "id": "s0086",
+      "text": "You move toward what seems interesting.",
+      "startMs": 314189.0,
+      "endMs": 316453.0,
+      "charStart": 5095,
+      "charEnd": 5134
+    },
+    {
+      "id": "s0087",
+      "text": "You adjust when the terrain changes.",
+      "startMs": 316453.0,
+      "endMs": 318799.0,
+      "charStart": 5134,
+      "charEnd": 5170
+    },
+    {
+      "id": "s0088",
+      "text": "Slowly, the landscape begins to reveal itself.",
+      "startMs": 318799.0,
+      "endMs": 321829.0,
+      "charStart": 5170,
+      "charEnd": 5216
+    },
+    {
+      "id": "s0089",
+      "text": "This book is about that way of exploring.",
+      "startMs": 322932.0,
+      "endMs": 325254.0,
+      "charStart": 5220,
+      "charEnd": 5261
+    },
+    {
+      "id": "s0090",
+      "text": "Not the habit of having answers.",
+      "startMs": 325637.0,
+      "endMs": 327494.0,
+      "charStart": 5263,
+      "charEnd": 5295
+    },
+    {
+      "id": "s0091",
+      "text": "The habit of asking better questions.",
+      "startMs": 327703.0,
+      "endMs": 329944.0,
+      "charStart": 5297,
+      "charEnd": 5334
+    },
+    {
+      "id": "s0092",
+      "text": "Because curiosity, in the end, turns out to be far more powerful than",
+      "startMs": 330269.0,
+      "endMs": 334541.0,
+      "charStart": 5336,
+      "charEnd": 5405
+    },
+    {
+      "id": "s0093",
+      "text": "certainty—especially when the world is more complicated than it first",
+      "startMs": 334611.0,
+      "endMs": 338384.0,
+      "charStart": 5406,
+      "charEnd": 5475
+    },
+    {
+      "id": "s0094",
+      "text": "appears.",
+      "startMs": 338419.0,
+      "endMs": 339162.0,
+      "charStart": 5476,
+      "charEnd": 5484
+    },
+    {
+      "id": "s0095",
+      "text": "The first chapter starts with a simple place where this shift begins for",
+      "startMs": 339673.0,
+      "endMs": 343330.0,
+      "charStart": 5486,
+      "charEnd": 5558
+    },
+    {
+      "id": "s0096",
+      "text": "almost everyone: being wrong about something ordinary.",
+      "startMs": 343388.0,
+      "endMs": 347092.0,
+      "charStart": 5559,
+      "charEnd": 5613
+    }
+  ]
+}

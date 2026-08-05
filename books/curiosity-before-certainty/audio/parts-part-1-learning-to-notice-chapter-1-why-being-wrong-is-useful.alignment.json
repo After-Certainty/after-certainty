@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-1-learning-to-notice-chapter-1-why-being-wrong-is-useful",
+  "generationHash": "sha256:099a03533fff81068c1bcf90e08cddd2d74ec89d8784913d5f9a09148ee04750",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 1 — Why Being Wrong Is Useful",
+      "startMs": 0.0,
+      "endMs": 4041.0,
+      "charStart": 0,
+      "charEnd": 37
+    },
+    {
+      "id": "s0002",
+      "text": "For years I treated being wrong like a small personal failure.",
+      "startMs": 5155.0,
+      "endMs": 8743.0,
+      "charStart": 39,
+      "charEnd": 101
+    },
+    {
+      "id": "s0003",
+      "text": "If I guessed the drive would take twenty minutes and it took forty, I felt annoyed at traffic and quietly annoyed at myself.",
+      "startMs": 8743.0,
+      "endMs": 15186.0,
+      "charStart": 101,
+      "charEnd": 225
+    },
+    {
+      "id": "s0004",
+      "text": "I thought the goal was to predict better so I could avoid that feeling.",
+      "startMs": 15186.0,
+      "endMs": 18797.0,
+      "charStart": 225,
+      "charEnd": 296
+    },
+    {
+      "id": "s0005",
+      "text": "Then I started noticing something strange.",
+      "startMs": 19343.0,
+      "endMs": 21316.0,
+      "charStart": 300,
+      "charEnd": 342
+    },
+    {
+      "id": "s0006",
+      "text": "The days when my guess failed were often the days I learned the most.",
+      "startMs": 21316.0,
+      "endMs": 25078.0,
+      "charStart": 342,
+      "charEnd": 411
+    },
+    {
+      "id": "s0007",
+      "text": "A missed estimate showed me something new about the system I was moving through.",
+      "startMs": 25078.0,
+      "endMs": 29362.0,
+      "charStart": 411,
+      "charEnd": 491
+    },
+    {
+      "id": "s0008",
+      "text": "It was like the map in my head had a blank spot, and being wrong drew a circle around it.",
+      "startMs": 29362.0,
+      "endMs": 34354.0,
+      "charStart": 491,
+      "charEnd": 580
+    },
+    {
+      "id": "s0009",
+      "text": "A familiar example is the morning commute.",
+      "startMs": 34946.0,
+      "endMs": 37524.0,
+      "charStart": 585,
+      "charEnd": 627
+    },
+    {
+      "id": "s0010",
+      "text": "Most of us form a quick mental model: leave at this time, take this route, arrive roughly on schedule.",
+      "startMs": 37524.0,
+      "endMs": 43723.0,
+      "charStart": 627,
+      "charEnd": 729
+    },
+    {
+      "id": "s0011",
+      "text": "It feels stable because it usually works.",
+      "startMs": 44222.0,
+      "endMs": 46544.0,
+      "charStart": 731,
+      "charEnd": 772
+    },
+    {
+      "id": "s0012",
+      "text": "But small shifts - a school holiday, light rain, one stalled car in the wrong lane - can change the whole shape of the trip.",
+      "startMs": 46544.0,
+      "endMs": 53812.0,
+      "charStart": 772,
+      "charEnd": 896
+    },
+    {
+      "id": "s0013",
+      "text": "My first explanation was simple: bad luck.",
+      "startMs": 54427.0,
+      "endMs": 57249.0,
+      "charStart": 899,
+      "charEnd": 941
+    },
+    {
+      "id": "s0014",
+      "text": "Some mornings are just bad.",
+      "startMs": 57690.0,
+      "endMs": 59129.0,
+      "charStart": 942,
+      "charEnd": 969
+    },
+    {
+      "id": "s0015",
+      "text": "That explanation felt comforting because it asked nothing from me.",
+      "startMs": 59512.0,
+      "endMs": 63216.0,
+      "charStart": 970,
+      "charEnd": 1036
+    },
+    {
+      "id": "s0016",
+      "text": "Unfortunately, it also taught me nothing.",
+      "startMs": 63541.0,
+      "endMs": 66072.0,
+      "charStart": 1037,
+      "charEnd": 1078
+    },
+    {
+      "id": "s0017",
+      "text": "If every surprise is random, there is nothing to notice and nothing to improve.",
+      "startMs": 66072.0,
+      "endMs": 70484.0,
+      "charStart": 1078,
+      "charEnd": 1157
+    },
+    {
+      "id": "s0018",
+      "text": "Curiosity led to a different response.",
+      "startMs": 70739.0,
+      "endMs": 72910.0,
+      "charStart": 1160,
+      "charEnd": 1198
+    },
+    {
+      "id": "s0019",
+      "text": "Instead of only asking, \"Why was today worse?\" I started asking, \"What pattern might I be missing?\" I kept small notes.",
+      "startMs": 72910.0,
+      "endMs": 81130.0,
+      "charStart": 1198,
+      "charEnd": 1317
+    },
+    {
+      "id": "s0020",
+      "text": "I watched how timing changed flow by five- or ten-minute increments.",
+      "startMs": 81130.0,
+      "endMs": 85089.0,
+      "charStart": 1317,
+      "charEnd": 1385
+    },
+    {
+      "id": "s0021",
+      "text": "I tested alternate routes without expecting a perfect answer.",
+      "startMs": 85507.0,
+      "endMs": 88770.0,
+      "charStart": 1388,
+      "charEnd": 1449
+    },
+    {
+      "id": "s0022",
+      "text": "Over time, a pattern emerged.",
+      "startMs": 89466.0,
+      "endMs": 91405.0,
+      "charStart": 1451,
+      "charEnd": 1480
+    },
+    {
+      "id": "s0023",
+      "text": "The system was not random.",
+      "startMs": 91684.0,
+      "endMs": 93286.0,
+      "charStart": 1481,
+      "charEnd": 1507
+    },
+    {
+      "id": "s0024",
+      "text": "It was sensitive.",
+      "startMs": 93286.0,
+      "endMs": 94435.0,
+      "charStart": 1507,
+      "charEnd": 1524
+    },
+    {
+      "id": "s0025",
+      "text": "Small conditions pushed it into different states, and each state had its own rhythm.",
+      "startMs": 94435.0,
+      "endMs": 98580.0,
+      "charStart": 1524,
+      "charEnd": 1608
+    },
+    {
+      "id": "s0026",
+      "text": "My wrong guesses were evidence that my previous model was too simple.",
+      "startMs": 98580.0,
+      "endMs": 102562.0,
+      "charStart": 1608,
+      "charEnd": 1677
+    },
+    {
+      "id": "s0027",
+      "text": "That shift matters beyond traffic.",
+      "startMs": 103236.0,
+      "endMs": 105279.0,
+      "charStart": 1682,
+      "charEnd": 1716
+    },
+    {
+      "id": "s0028",
+      "text": "We often assume skill means getting the answer right early.",
+      "startMs": 105279.0,
+      "endMs": 108669.0,
+      "charStart": 1716,
+      "charEnd": 1775
+    },
+    {
+      "id": "s0029",
+      "text": "In messy situations, skill often means updating fast when new evidence appears.",
+      "startMs": 108669.0,
+      "endMs": 113871.0,
+      "charStart": 1775,
+      "charEnd": 1854
+    },
+    {
+      "id": "s0030",
+      "text": "A wrong guess can start better understanding if we treat it as signal instead of embarrassment.",
+      "startMs": 113871.0,
+      "endMs": 118932.0,
+      "charStart": 1854,
+      "charEnd": 1949
+    },
+    {
+      "id": "s0031",
+      "text": "The goal is to learn from being wrong.",
+      "startMs": 119815.0,
+      "endMs": 122346.0,
+      "charStart": 1954,
+      "charEnd": 1992
+    },
+    {
+      "id": "s0032",
+      "text": "Once you begin seeing wrong guesses as information, you start looking at everyday surprises differently - and that is where curiosity begins to compound.",
+      "startMs": 122346.0,
+      "endMs": 131436.0,
+      "charStart": 1992,
+      "charEnd": 2145
+    },
+    {
+      "id": "s0033",
+      "text": "With that in mind, we apply the same move to a mundane frustration that",
+      "startMs": 131994.0,
+      "endMs": 135894.0,
+      "charStart": 2148,
+      "charEnd": 2219
+    },
+    {
+      "id": "s0034",
+      "text": "turns out to be an excellent systems lesson: the grocery checkout line.",
+      "startMs": 135929.0,
+      "endMs": 140155.0,
+      "charStart": 2220,
+      "charEnd": 2291
+    }
+  ]
+}
