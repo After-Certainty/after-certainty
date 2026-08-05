@@ -12,17 +12,40 @@ on:
     inputs:
       units:
         description: >-
-          Unit id(s), comma or newline separated. Pilot smoke set is Observer Patterns
-          intro + Part I poems.
+          Unit id(s), comma or newline separated. Default is the full Observer Patterns
+          exported set (29 units). Already-current units are skipped unless force=true.
         required: true
         type: string
         default: |
           chapter-observer-patterns-front-matter-introduction
+          chapter-observer-patterns-parts-part-i-what-begins-bridge
           chapter-observer-patterns-parts-part-i-what-begins-what-love-teaches
           chapter-observer-patterns-parts-part-i-what-begins-when-trust-builds
           chapter-observer-patterns-parts-part-i-what-begins-how-belief-forms
           chapter-observer-patterns-parts-part-i-what-begins-why-diversity-matters
           chapter-observer-patterns-parts-part-i-what-begins-why-collaboration-is-hard
+          chapter-observer-patterns-parts-part-ii-what-forms-together-bridge
+          chapter-observer-patterns-parts-part-ii-what-forms-together-what-love-teaches-when-trust-builds-how-belief-forms
+          chapter-observer-patterns-parts-part-ii-what-forms-together-why-collaboration-is-hard-when-trust-builds-and-why-diversity-matters
+          chapter-observer-patterns-parts-part-iii-what-takes-shape-bridge
+          chapter-observer-patterns-parts-part-iii-what-takes-shape-when-others-look-to-you
+          chapter-observer-patterns-parts-part-iii-what-takes-shape-how-meaning-moves
+          chapter-observer-patterns-parts-part-iv-what-moves-together-bridge
+          chapter-observer-patterns-parts-part-iv-what-moves-together-how-meaning-moves-when-others-look-to-you
+          chapter-observer-patterns-parts-part-iv-what-moves-together-why-diversity-matters-in-how-meaning-moves
+          chapter-observer-patterns-parts-part-iv-what-moves-together-why-diversity-matters-when-others-look-to-you
+          chapter-observer-patterns-parts-part-v-where-they-meet-bridge
+          chapter-observer-patterns-parts-part-v-where-they-meet-what-love-teaches-when-others-look-to-you
+          chapter-observer-patterns-parts-part-v-where-they-meet-how-trust-builds-when-others-look-to-you
+          chapter-observer-patterns-parts-part-v-where-they-meet-how-belief-forms-when-others-look-to-you
+          chapter-observer-patterns-parts-part-v-where-they-meet-why-collaboration-is-hard-when-others-look-to-you
+          chapter-observer-patterns-parts-part-vi-what-holds-bridge
+          chapter-observer-patterns-parts-part-vi-what-holds-when-trust-builds-how-meaning-moves-and-belief-forms
+          chapter-observer-patterns-parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves
+          chapter-observer-patterns-parts-part-vi-what-holds-why-diversity-matters-when-trust-builds-and-others-look-to-you
+          chapter-observer-patterns-parts-part-vi-what-holds-why-collaboration-is-hard-when-trust-builds-how-meaning-moves-when-others-look-to-you
+          chapter-observer-patterns-parts-part-vii-what-remains-bridge
+          chapter-observer-patterns-parts-part-vii-what-remains-closing
       dry_run:
         description: "Plan + budgets only (no API call, no writes). Keep true until ready."
         required: false

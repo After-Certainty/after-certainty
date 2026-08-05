@@ -93,7 +93,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 
 ### Specialized cross-layer plans (tracked outside day-to-day Now/Next)
 
-- **AUDIO-001** — Provider-neutral selective chapter narration for the native reader is an **active specialized plan** (Phases 0–8). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). ElevenLabs is the first pilot adapter; OpenAI is a later evaluation candidate. **Pilot book: Observer Patterns (poetry)** — all exported units enabled for tracking; first generate = introduction; free-plan GitHub artifact first; public Listen gated until paid-plan upgrade. Git LFS for MP3s; enabled ≠ available; no provider API keys in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan.
+- **AUDIO-001** — Provider-neutral selective chapter narration for the native reader is an **active specialized plan** (Phases 0–8). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). ElevenLabs is the first pilot adapter; OpenAI is a later evaluation candidate. **Pilot book: Observer Patterns (poetry)** — Phases 0–6 landed; Starter licensing confirmed (2026-08-05); Listen live for intro + Part I; full-book enablement / remaining generate in progress. Git LFS for MP3s; enabled ≠ available; no provider API keys in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan.
 
 ### Later / revisit when triggered
 
@@ -125,7 +125,7 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 | Whether relationship provenance deserves public UI | Kevin | PROVENANCE-008 |
 | GitHub org/repo settings checklist | Kevin | OPS-003 |
 | GA4 Admin key events for reader funnel (`chapter_open`, `next_chapter`, `file_download`) | Kevin / analytics Admin | ANALYTICS-001 (events shipped; Admin marking remains) |
-| Provider TTS public-use licensing, disclosure, and stock/logical voice for chapter narration pilot | Kevin | AUDIO-001 ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
+| Provider TTS public-use licensing, disclosure, and stock/logical voice for chapter narration pilot | **Done (Kevin, 2026-08-05)** — Starter plan + voice catalog | AUDIO-001 ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
 
 ---
 

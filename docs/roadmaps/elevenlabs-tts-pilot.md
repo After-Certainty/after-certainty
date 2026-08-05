@@ -692,10 +692,10 @@ Do not combine phases into one implementation PR.
 |----|--------|-------|
 | AUDIO-P0-02 | **Done** | Provisional strip originally measured After Certainty intro (~8.3k). **Pilot book switched to Observer Patterns** (2026-08-04): introduction ~**211** characters; full exported book ~**13.6k** rough characters across 29 units. |
 | AUDIO-P0-04 | **Done** | Root [`.gitattributes`](../../.gitattributes) tracks `books/*/audio/*.mp3` with Git LFS; receipts/alignment remain ordinary Git. |
-| AUDIO-P0-01 | **Blocked on Kevin** | Confirm ElevenLabs commercial/public-site licensing + AI disclosure wording before **Phase 5** public Listen. Free-plan generation + GitHub artifact review may proceed earlier. No API key required for the licensing decision itself. |
-| AUDIO-P0-03 | **Blocked on Kevin** | Pick stock voice and map it to alias `reflective-narrator` in the voice catalog (Phase 1 can ship a placeholder; generation needs a real id). No API key required until generation. |
-| **Public / production Listen** | **Gated by availability** | Listen only when a unit is **available** in the installed site audio manifest. Local E2E: generate + install locally. Production stays dark until Kevin’s go-ahead by not shipping available audio live (target ~$6/mo + licensing). No `NEXT_PUBLIC_*` enable flag. |
-| **Pilot book** | **Observer Patterns** | Poetry collection; all 29 exported units audio-enabled for tracking; first generate = introduction. |
+| AUDIO-P0-01 | **Done (Kevin, 2026-08-05)** | Starter plan confirms commercial/public-site use; Listen live for OP intro + Part I. AI disclosure remains in the reader. |
+| AUDIO-P0-03 | **Done** | `reflective-narrator` → ElevenLabs voice `sb2VZCPgS2OECd1UfmTX`. |
+| **Public / production Listen** | **Live (OP subset → expanding)** | Available-unit gate. Intro + Part I shipped; remaining OP units enabled for full-book generate (~10.5k credits est.). |
+| **Pilot book** | **Observer Patterns** | All **29** exported units audio-enabled; six already generated/current. |
 
 **API key:** Still **not** required for Phase 1–2. When ready for a real free-plan generate (Phase 3+): copy `.env.example` → `.env.local`, set `ELEVENLABS_API_KEY`, run `make generate-chapter-audio` on a trusted laptop, then install/run the site locally to exercise reader features. Optional later: the same key as a GitHub Actions secret. Never commit `.env.local`; never put the key in Cursor cloud agents or Vercel. Production Listen waits for Kevin’s go-ahead.
 
@@ -725,7 +725,13 @@ Do not combine phases into one implementation PR.
 | AUDIO-P4-02 | **Done** | `make validate-chapter-audio` / `make verify-chapter-audio` (secret-free); wired into `python-tests.yml`. |
 | AUDIO-P4-03 | **Done** | `docs/security/github-settings-checklist.md` documents `ELEVENLABS_API_KEY` + LFS ops. |
 
-**Phase 4 enablement scope:** Observer Patterns `audio.enabled: true` only for the introduction and five Part I poems (bridge and later parts disabled). Workflow default `units` input matches that set.
+**Phase 4 enablement scope:** Observer Patterns — all **29** exported units `audio.enabled: true` (full book). Workflow default `units` input matches that set; already-current artifacts are skipped unless `force=true`.
+
+#### Phase 8 progress (2026-08-05)
+
+| ID | Status | Notes |
+|----|--------|-------|
+| AUDIO-P8-01 (OP full book) | **In progress** | Licensing + Starter plan go-ahead recorded. Remaining ~23 units (~10.5k credits est.) queued via enablement + `chapter-audio-generate` workflow (`dry_run=false`). |
 
 ### Phase 1 — Semantic enablement and schemas
 
@@ -944,7 +950,7 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Initial alignment granularity | **Sentence / `segment-only`** |
 | OpenAI alignment if added | May be **`none`** until a separate strategy exists |
 | Commercial-use / disclosure by provider | Confirm before **production** Listen; free-plan generate + local reader QA (+ optional GitHub artifact) OK beforehand; show AI narration disclosure when Listen ships |
-| Production Listen before go-ahead | **Blocked** until Kevin’s go-ahead (upgrade ~$6/mo + licensing). Gate by not shipping available audio into the live install—not by a site env flag. Local generate + local install is enough for E2E QA |
+| Production Listen before go-ahead | **Unblocked (2026-08-05)** — Kevin confirmed Starter licensing; OP intro + Part I live. Full-book OP generate in progress via pipeline |
 | Site Listen enable flag | **None.** Capability-based only: available units in the installed audio manifest. Avoids a forgotten `NEXT_PUBLIC_*` toggle |
 | Multiple provider variants coexist? | **No** during pilot — one active current set per unit |
 | Switching provider | **Replace** active current; orphans cleaned later |
