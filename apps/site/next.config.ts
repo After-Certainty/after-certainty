@@ -17,8 +17,23 @@ const nextConfig: NextConfig = {
   outputFileTracingRoot: monorepoRoot,
   outputFileTracingIncludes: {
     // Installed manuscripts live inside the Next project after install-local-manifest.
-    "/explore/books/[slug]/chapters/[chapterSlug]": ["./data/manuscripts/**/*"],
-    "/explore/books/*/chapters/*": ["./data/manuscripts/**/*", "../../books/**/*.md"],
+    // Alignment JSON for Listen highlighting (not MP3s — those stay CDN-only under public/).
+    "/explore/books/[slug]/chapters/[chapterSlug]": [
+      "./data/manuscripts/**/*",
+      "./data/chapter-audio/**/*.alignment.json",
+      "./data/local-chapter-audio-manifest.json",
+    ],
+    "/explore/books/*/chapters/*": [
+      "./data/manuscripts/**/*",
+      "./data/chapter-audio/**/*.alignment.json",
+      "./data/local-chapter-audio-manifest.json",
+      "../../books/**/*.md",
+    ],
+  },
+  outputFileTracingExcludes: {
+    // MP3s are served from public/ via the CDN. Server code must not pull them into
+    // the chapter serverless function (250MB limit; WOLTY audio alone is tens of MB).
+    "*": ["./public/generated/audio/**/*.mp3", "../../books/**/audio/**/*.mp3"],
   },
   async headers() {
     return [

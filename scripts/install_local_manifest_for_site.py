@@ -389,6 +389,13 @@ def _install_chapter_audio(
         shutil.rmtree(audio_root)
     audio_root.mkdir(parents=True, exist_ok=True)
 
+    # SSR alignment tree (JSON only). Kept out of public/ so Next file tracing
+    # does not pull sibling MP3s into the chapter serverless function.
+    align_data_root = site_data / "chapter-audio"
+    if align_data_root.exists():
+        shutil.rmtree(align_data_root)
+    align_data_root.mkdir(parents=True, exist_ok=True)
+
     installed = 0
     for unit in units:
         if not isinstance(unit, dict):
@@ -453,7 +460,11 @@ def _install_chapter_audio(
                     file=sys.stderr,
                 )
                 return 1
+            # CDN copy for client fetch(alignmentUrl); data/ copy for SSR highlight.
             shutil.copy2(src_align, dest_dir / f"{chapter}.alignment.json")
+            data_align_dir = align_data_root / edition
+            data_align_dir.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(src_align, data_align_dir / f"{chapter}.alignment.json")
         installed += 1
 
     build_manifest_out.parent.mkdir(parents=True, exist_ok=True)
@@ -467,12 +478,15 @@ def _install_chapter_audio(
     readme.write_text(
         "# Installed chapter audio\n\n"
         "Produced by `make install-local-manifest-for-site` from available "
-        "`books/**/audio/` artifacts. Do not edit or commit; regenerate from the corpus.\n",
+        "`books/**/audio/` artifacts. MP3s are CDN static assets only; "
+        "SSR alignment JSON is also copied to `apps/site/data/chapter-audio/`. "
+        "Do not edit or commit; regenerate from the corpus.\n",
         encoding="utf-8",
     )
 
     print(
-        f"Installed chapter audio → {audio_root} ({installed} unit(s)); manifest → {site_manifest}"
+        f"Installed chapter audio → {audio_root} ({installed} unit(s)); "
+        f"SSR alignments → {align_data_root}; manifest → {site_manifest}"
     )
     return 0
 
