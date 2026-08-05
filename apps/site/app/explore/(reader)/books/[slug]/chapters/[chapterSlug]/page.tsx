@@ -9,6 +9,8 @@ import { buildChapterRouteKey } from "@/lib/graph/chapters";
 import { createPageMetadata } from "@/lib/metadata";
 import { bookOpenGraphImageFields } from "@/lib/books/book-open-graph-metadata";
 import { getChapterAudioForChapter } from "@/lib/reading/chapter-audio";
+import { canHighlightAlignment } from "@/lib/reading/chapter-audio-alignment";
+import { loadChapterAudioAlignment } from "@/lib/reading/load-chapter-audio-alignment";
 import { buildChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 import { loadChapterManuscript } from "@/lib/reading/load-chapter-manuscript";
 import { resolvePublicChapter } from "@/lib/reading/resolve-public-chapter";
@@ -67,19 +69,26 @@ export default async function ExploreBookChapterPage({ params }: PageProps) {
     notFound();
   }
 
+  const chapterAudio = getChapterAudioForChapter({
+    editionSlug: resolved.editionSlug,
+    chapterSlug,
+    chapterId: resolved.chapter.id,
+  });
+  const alignment =
+    chapterAudio && canHighlightAlignment(chapterAudio.alignmentGranularity)
+      ? loadChapterAudioAlignment(chapterAudio)
+      : null;
+  const audioSegments = alignment?.segments.map((s) => ({ id: s.id, text: s.text }));
+
   const manuscript = await loadChapterManuscript({
     book: resolved.book,
     chapter: resolved.chapter,
     graph,
+    audioSegments,
   });
   const navigation = buildChapterReadingNavigation({
     graph,
     book: resolved.book,
-    chapterId: resolved.chapter.id,
-  });
-  const chapterAudio = getChapterAudioForChapter({
-    editionSlug: resolved.editionSlug,
-    chapterSlug,
     chapterId: resolved.chapter.id,
   });
 

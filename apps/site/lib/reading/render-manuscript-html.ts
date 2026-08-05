@@ -11,6 +11,10 @@ import {
   rewriteManuscriptAssetUrls,
 } from "@/lib/reading/preprocess-manuscript";
 import {
+  rehypeAudioSegments,
+  type AudioSegmentMarker,
+} from "@/lib/reading/rehype-audio-segments";
+import {
   rewriteManuscriptChapterLinks,
   type ManuscriptChapterLinkTarget,
 } from "@/lib/reading/rewrite-manuscript-chapter-links";
@@ -38,6 +42,7 @@ const manuscriptSanitizeSchema = {
       "decoding",
     ],
     a: [...(defaultSchema.attributes?.a ?? []), "title"],
+    span: [...(defaultSchema.attributes?.span ?? []), "dataAudioSegment"],
   },
 };
 
@@ -51,6 +56,8 @@ export type RenderManuscriptHtmlInput = {
   sourcePath?: string;
   /** Public chapters in this edition for Contents / cross-chapter link rewrite. */
   chapterLinkTargets?: readonly ManuscriptChapterLinkTarget[];
+  /** Optional spoken segments to wrap for chapter-TTS highlighting. */
+  audioSegments?: readonly AudioSegmentMarker[];
 };
 
 /**
@@ -73,11 +80,18 @@ export async function renderManuscriptHtml(input: RenderManuscriptHtmlInput): Pr
     githubRepoUrl: input.githubRepoUrl,
   });
 
-  const file = await unified()
+  const segments = input.audioSegments ?? [];
+  const processor = unified()
     .use(remarkParse)
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: false })
-    .use(rehypeSlug)
+    .use(rehypeSlug);
+
+  if (segments.length) {
+    processor.use(rehypeAudioSegments, { segments });
+  }
+
+  const file = await processor
     .use(rehypeSanitize, manuscriptSanitizeSchema)
     .use(rehypeStringify)
     .process(markdown);

@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 
 import { publicChaptersForEdition } from "@/lib/graph/chapters";
+import type { AudioSegmentMarker } from "@/lib/reading/rehype-audio-segments";
 import { renderManuscriptHtml } from "@/lib/reading/render-manuscript-html";
 import { manuscriptChapterLinkTargets } from "@/lib/reading/rewrite-manuscript-chapter-links";
 import { resolveManuscriptPath } from "@/lib/reading/resolve-manuscript-path";
@@ -29,6 +30,8 @@ export async function loadChapterManuscript(input: {
   /** When provided, in-manuscript TOC / `.md` links rewrite to chapter routes. */
   graph?: SemanticGraph;
   repoRoot?: string;
+  /** Optional spoken segments for chapter-TTS sentence markers. */
+  audioSegments?: readonly AudioSegmentMarker[];
 }): Promise<ChapterManuscriptResult> {
   const sourcePath = input.chapter.sourcePath?.trim();
   if (!sourcePath) {
@@ -68,6 +71,7 @@ export async function loadChapterManuscript(input: {
       githubRepoUrl: siteConfig.githubUrl,
       sourcePath,
       chapterLinkTargets,
+      audioSegments: input.audioSegments,
     });
     return {
       status: "ok",

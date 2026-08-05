@@ -280,9 +280,21 @@
     max-width: 100%;
   }
 
+  .chapter-manuscript [data-audio-segment].is-audio-active {
+    background: color-mix(in oklab, var(--accent) 22%, transparent);
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    border-radius: 0.15em;
+    transition: background-color 120ms ease;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .chapter-manuscript {
       scroll-behavior: auto;
+    }
+
+    .chapter-manuscript [data-audio-segment].is-audio-active {
+      transition: none;
     }
   }
 }
