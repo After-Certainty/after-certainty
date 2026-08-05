@@ -1,0 +1,776 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to",
+  "generationHash": "sha256:38ad74e933e0573cd5ad1fac2a8a6ce53f2239667e4ef68e4e6c0a850ea6ef83",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 1",
+      "startMs": 0.0,
+      "endMs": 697.0,
+      "charStart": 0,
+      "charEnd": 9
+    },
+    {
+      "id": "s0002",
+      "text": "The Weight of Being Looked To",
+      "startMs": 1394.0,
+      "endMs": 3298.0,
+      "charStart": 11,
+      "charEnd": 40
+    },
+    {
+      "id": "s0003",
+      "text": "Attention Becomes Influence",
+      "startMs": 3367.0,
+      "endMs": 5434.0,
+      "charStart": 42,
+      "charEnd": 69
+    },
+    {
+      "id": "s0004",
+      "text": "A leader is someone others look to when deciding what to do next.",
+      "startMs": 6247.0,
+      "endMs": 9916.0,
+      "charStart": 71,
+      "charEnd": 136
+    },
+    {
+      "id": "s0005",
+      "text": "This happens more often than we notice.",
+      "startMs": 10125.0,
+      "endMs": 12098.0,
+      "charStart": 138,
+      "charEnd": 177
+    },
+    {
+      "id": "s0006",
+      "text": "A child hesitates before crossing a street and glances at a parent.",
+      "startMs": 12098.0,
+      "endMs": 16104.0,
+      "charStart": 177,
+      "charEnd": 244
+    },
+    {
+      "id": "s0007",
+      "text": "A team pauses in a meeting as uncertainty rises and people look toward someone who has spoken before.",
+      "startMs": 16104.0,
+      "endMs": 21978.0,
+      "charStart": 244,
+      "charEnd": 345
+    },
+    {
+      "id": "s0008",
+      "text": "A congregation listens for tone before interpreting a difficult moment.",
+      "startMs": 21978.0,
+      "endMs": 26088.0,
+      "charStart": 345,
+      "charEnd": 416
+    },
+    {
+      "id": "s0009",
+      "text": "A company waits for direction when performance falters.",
+      "startMs": 26088.0,
+      "endMs": 29281.0,
+      "charStart": 416,
+      "charEnd": 471
+    },
+    {
+      "id": "s0010",
+      "text": "Attention Finds a Focus.",
+      "startMs": 30128.0,
+      "endMs": 31986.0,
+      "charStart": 477,
+      "charEnd": 501
+    },
+    {
+      "id": "s0011",
+      "text": "Leadership begins there.",
+      "startMs": 32264.0,
+      "endMs": 33762.0,
+      "charStart": 502,
+      "charEnd": 526
+    },
+    {
+      "id": "s0012",
+      "text": "It does not require a title, charisma, or intention.",
+      "startMs": 34087.0,
+      "endMs": 37431.0,
+      "charStart": 527,
+      "charEnd": 579
+    },
+    {
+      "id": "s0013",
+      "text": "It requires that people take their cues from you.",
+      "startMs": 37431.0,
+      "endMs": 40461.0,
+      "charStart": 579,
+      "charEnd": 628
+    },
+    {
+      "id": "s0014",
+      "text": "When they keep doing that, your influence multiplies.",
+      "startMs": 40879.0,
+      "endMs": 44002.0,
+      "charStart": 630,
+      "charEnd": 683
+    },
+    {
+      "id": "s0015",
+      "text": "What people can see draws attention quickly.",
+      "startMs": 44281.0,
+      "endMs": 47125.0,
+      "charStart": 685,
+      "charEnd": 729
+    },
+    {
+      "id": "s0016",
+      "text": "Keeping it is harder—it depends on whether behavior continues to earn the permission people give.",
+      "startMs": 47566.0,
+      "endMs": 53302.0,
+      "charStart": 730,
+      "charEnd": 827
+    },
+    {
+      "id": "s0017",
+      "text": "Pattern: Attention Finds a Focus",
+      "startMs": 53743.0,
+      "endMs": 56320.0,
+      "charStart": 829,
+      "charEnd": 861
+    },
+    {
+      "id": "s0018",
+      "text": "When people are uncertain, attention gathers fast.",
+      "startMs": 56761.0,
+      "endMs": 60326.0,
+      "charStart": 863,
+      "charEnd": 913
+    },
+    {
+      "id": "s0019",
+      "text": "Influence forms before anyone names formal authority.",
+      "startMs": 60326.0,
+      "endMs": 64064.0,
+      "charStart": 913,
+      "charEnd": 966
+    },
+    {
+      "id": "s0020",
+      "text": "When no one is looking, your decisions affect only you.",
+      "startMs": 64552.0,
+      "endMs": 67826.0,
+      "charStart": 969,
+      "charEnd": 1024
+    },
+    {
+      "id": "s0021",
+      "text": "When others are looking, your decisions ripple.",
+      "startMs": 67826.0,
+      "endMs": 70670.0,
+      "charStart": 1024,
+      "charEnd": 1071
+    },
+    {
+      "id": "s0022",
+      "text": "Your behavior stops being private in the ways that shape the group.",
+      "startMs": 70670.0,
+      "endMs": 74420.0,
+      "charStart": 1071,
+      "charEnd": 1138
+    },
+    {
+      "id": "s0023",
+      "text": "Your pace becomes their pace.",
+      "startMs": 74861.0,
+      "endMs": 76614.0,
+      "charStart": 1141,
+      "charEnd": 1170
+    },
+    {
+      "id": "s0024",
+      "text": "Your tolerance becomes their tolerance.",
+      "startMs": 76614.0,
+      "endMs": 79099.0,
+      "charStart": 1170,
+      "charEnd": 1209
+    },
+    {
+      "id": "s0025",
+      "text": "Your silence becomes a signal.",
+      "startMs": 79343.0,
+      "endMs": 81247.0,
+      "charStart": 1211,
+      "charEnd": 1241
+    },
+    {
+      "id": "s0026",
+      "text": "Your reaction becomes instruction.",
+      "startMs": 81247.0,
+      "endMs": 83384.0,
+      "charStart": 1241,
+      "charEnd": 1275
+    },
+    {
+      "id": "s0027",
+      "text": "The effect is rarely announced.",
+      "startMs": 83685.0,
+      "endMs": 85450.0,
+      "charStart": 1278,
+      "charEnd": 1309
+    },
+    {
+      "id": "s0028",
+      "text": "It accumulates.",
+      "startMs": 85566.0,
+      "endMs": 86750.0,
+      "charStart": 1310,
+      "charEnd": 1325
+    },
+    {
+      "id": "s0029",
+      "text": "People read what you appear to allow, resist, or reward.",
+      "startMs": 86750.0,
+      "endMs": 90779.0,
+      "charStart": 1325,
+      "charEnd": 1381
+    },
+    {
+      "id": "s0030",
+      "text": "If you dismiss harm, others dismiss it more easily.",
+      "startMs": 90779.0,
+      "endMs": 94018.0,
+      "charStart": 1381,
+      "charEnd": 1432
+    },
+    {
+      "id": "s0031",
+      "text": "If you absorb cost, others learn what restraint looks like.",
+      "startMs": 94018.0,
+      "endMs": 97838.0,
+      "charStart": 1432,
+      "charEnd": 1491
+    },
+    {
+      "id": "s0032",
+      "text": "If you avoid correction, others learn that stability matters more than truth.",
+      "startMs": 97838.0,
+      "endMs": 102030.0,
+      "charStart": 1491,
+      "charEnd": 1568
+    },
+    {
+      "id": "s0033",
+      "text": "Leadership does not amplify intention.",
+      "startMs": 102657.0,
+      "endMs": 104921.0,
+      "charStart": 1573,
+      "charEnd": 1611
+    },
+    {
+      "id": "s0034",
+      "text": "It amplifies what you showed, not what you meant.",
+      "startMs": 104921.0,
+      "endMs": 107986.0,
+      "charStart": 1611,
+      "charEnd": 1660
+    },
+    {
+      "id": "s0035",
+      "text": "Not all leadership is active.",
+      "startMs": 108671.0,
+      "endMs": 110539.0,
+      "charStart": 1663,
+      "charEnd": 1692
+    },
+    {
+      "id": "s0036",
+      "text": "Sometimes what shapes direction most is what is left unaddressed.",
+      "startMs": 110539.0,
+      "endMs": 114278.0,
+      "charStart": 1692,
+      "charEnd": 1757
+    },
+    {
+      "id": "s0037",
+      "text": "A harmful pattern emerges and no one intervenes.",
+      "startMs": 114278.0,
+      "endMs": 117296.0,
+      "charStart": 1757,
+      "charEnd": 1805
+    },
+    {
+      "id": "s0038",
+      "text": "Those watching learn what is tolerated.",
+      "startMs": 117772.0,
+      "endMs": 119990.0,
+      "charStart": 1808,
+      "charEnd": 1847
+    },
+    {
+      "id": "s0039",
+      "text": "A mistake is made and no acknowledgment follows.",
+      "startMs": 119990.0,
+      "endMs": 122939.0,
+      "charStart": 1847,
+      "charEnd": 1895
+    },
+    {
+      "id": "s0040",
+      "text": "Those watching learn what accountability means.",
+      "startMs": 122939.0,
+      "endMs": 125574.0,
+      "charStart": 1895,
+      "charEnd": 1942
+    },
+    {
+      "id": "s0041",
+      "text": "In small settings, these lessons are immediate.",
+      "startMs": 125992.0,
+      "endMs": 128720.0,
+      "charStart": 1946,
+      "charEnd": 1993
+    },
+    {
+      "id": "s0042",
+      "text": "In large settings, they accumulate quietly.",
+      "startMs": 128720.0,
+      "endMs": 131495.0,
+      "charStart": 1993,
+      "charEnd": 2036
+    },
+    {
+      "id": "s0043",
+      "text": "Either way, the signal travels.",
+      "startMs": 131878.0,
+      "endMs": 133922.0,
+      "charStart": 2038,
+      "charEnd": 2069
+    },
+    {
+      "id": "s0044",
+      "text": "People rarely wait for formal instruction.",
+      "startMs": 133922.0,
+      "endMs": 136255.0,
+      "charStart": 2069,
+      "charEnd": 2111
+    },
+    {
+      "id": "s0045",
+      "text": "They read patterns.",
+      "startMs": 136580.0,
+      "endMs": 137869.0,
+      "charStart": 2113,
+      "charEnd": 2132
+    },
+    {
+      "id": "s0046",
+      "text": "Pattern: Examples Accumulate",
+      "startMs": 138252.0,
+      "endMs": 140504.0,
+      "charStart": 2134,
+      "charEnd": 2162
+    },
+    {
+      "id": "s0047",
+      "text": "What a leader rewards, punishes, or ignores teaches others what is acceptable faster than policy does.",
+      "startMs": 140888.0,
+      "endMs": 147296.0,
+      "charStart": 2164,
+      "charEnd": 2266
+    },
+    {
+      "id": "s0048",
+      "text": "Under pressure, those signals get louder—silence too.",
+      "startMs": 147737.0,
+      "endMs": 151685.0,
+      "charStart": 2267,
+      "charEnd": 2320
+    },
+    {
+      "id": "s0049",
+      "text": "People read them to see what is safe to raise and what is safer not to raise.",
+      "startMs": 152010.0,
+      "endMs": 156189.0,
+      "charStart": 2321,
+      "charEnd": 2398
+    },
+    {
+      "id": "s0050",
+      "text": "Belief and Repetition",
+      "startMs": 157002.0,
+      "endMs": 158558.0,
+      "charStart": 2400,
+      "charEnd": 2421
+    },
+    {
+      "id": "s0051",
+      "text": "When others look to someone repeatedly, something else forms: belief.",
+      "startMs": 159510.0,
+      "endMs": 163863.0,
+      "charStart": 2423,
+      "charEnd": 2492
+    },
+    {
+      "id": "s0052",
+      "text": "Not belief in ideology, but belief in direction.",
+      "startMs": 164305.0,
+      "endMs": 167393.0,
+      "charStart": 2493,
+      "charEnd": 2541
+    },
+    {
+      "id": "s0053",
+      "text": "Belief that this person knows what to do next.",
+      "startMs": 167393.0,
+      "endMs": 170202.0,
+      "charStart": 2541,
+      "charEnd": 2587
+    },
+    {
+      "id": "s0054",
+      "text": "Belief that this approach is stable.",
+      "startMs": 170655.0,
+      "endMs": 172664.0,
+      "charStart": 2589,
+      "charEnd": 2625
+    },
+    {
+      "id": "s0055",
+      "text": "Belief that this is how decisions are made here.",
+      "startMs": 172664.0,
+      "endMs": 175427.0,
+      "charStart": 2625,
+      "charEnd": 2673
+    },
+    {
+      "id": "s0056",
+      "text": "Belief does not require perfection.",
+      "startMs": 175787.0,
+      "endMs": 177912.0,
+      "charStart": 2676,
+      "charEnd": 2711
+    },
+    {
+      "id": "s0057",
+      "text": "It requires predictability.",
+      "startMs": 178121.0,
+      "endMs": 179978.0,
+      "charStart": 2712,
+      "charEnd": 2739
+    },
+    {
+      "id": "s0058",
+      "text": "Over time, attention and belief reinforce each other.",
+      "startMs": 179978.0,
+      "endMs": 183566.0,
+      "charStart": 2739,
+      "charEnd": 2792
+    },
+    {
+      "id": "s0059",
+      "text": "The more people look, the more influence consolidates.",
+      "startMs": 183566.0,
+      "endMs": 187049.0,
+      "charStart": 2792,
+      "charEnd": 2846
+    },
+    {
+      "id": "s0060",
+      "text": "The more influence consolidates, the more people look.",
+      "startMs": 187049.0,
+      "endMs": 190427.0,
+      "charStart": 2846,
+      "charEnd": 2900
+    },
+    {
+      "id": "s0061",
+      "text": "That is how someone with no title can end up running the room.",
+      "startMs": 190427.0,
+      "endMs": 194339.0,
+      "charStart": 2900,
+      "charEnd": 2962
+    },
+    {
+      "id": "s0062",
+      "text": "Pattern: Leadership Coalesces",
+      "startMs": 195431.0,
+      "endMs": 198089.0,
+      "charStart": 2968,
+      "charEnd": 2997
+    },
+    {
+      "id": "s0063",
+      "text": "When others keep looking to the same person, that repetition settles into habit.",
+      "startMs": 198786.0,
+      "endMs": 203627.0,
+      "charStart": 2999,
+      "charEnd": 3079
+    },
+    {
+      "id": "s0064",
+      "text": "One person becomes the default decision point, even without new formal authority.",
+      "startMs": 203627.0,
+      "endMs": 209130.0,
+      "charStart": 3079,
+      "charEnd": 3160
+    },
+    {
+      "id": "s0065",
+      "text": "Most leaders believe they are acting for good.",
+      "startMs": 209781.0,
+      "endMs": 211998.0,
+      "charStart": 3163,
+      "charEnd": 3209
+    },
+    {
+      "id": "s0066",
+      "text": "What matters is what happens in practice once others start taking their cues from them—including what others see when dissent surfaces, when the news is bad, or when cost hits.",
+      "startMs": 211998.0,
+      "endMs": 221994.0,
+      "charStart": 3209,
+      "charEnd": 3385
+    },
+    {
+      "id": "s0067",
+      "text": "Those responses shape what others will try next.",
+      "startMs": 222610.0,
+      "endMs": 225489.0,
+      "charStart": 3387,
+      "charEnd": 3435
+    },
+    {
+      "id": "s0068",
+      "text": "Attention Is Not Obedience",
+      "startMs": 225814.0,
+      "endMs": 227904.0,
+      "charStart": 3437,
+      "charEnd": 3463
+    },
+    {
+      "id": "s0069",
+      "text": "Being looked to does not mean being obeyed.",
+      "startMs": 228601.0,
+      "endMs": 231225.0,
+      "charStart": 3465,
+      "charEnd": 3508
+    },
+    {
+      "id": "s0070",
+      "text": "People go along selectively.",
+      "startMs": 231468.0,
+      "endMs": 233187.0,
+      "charStart": 3510,
+      "charEnd": 3538
+    },
+    {
+      "id": "s0071",
+      "text": "They accept direction in one domain and withhold it in another.",
+      "startMs": 233187.0,
+      "endMs": 237053.0,
+      "charStart": 3538,
+      "charEnd": 3601
+    },
+    {
+      "id": "s0072",
+      "text": "They nod in the meeting and adjust what they do once the room empties.",
+      "startMs": 237053.0,
+      "endMs": 241047.0,
+      "charStart": 3601,
+      "charEnd": 3671
+    },
+    {
+      "id": "s0073",
+      "text": "They respect a leader’s intent while quietly resisting a specific",
+      "startMs": 241720.0,
+      "endMs": 245273.0,
+      "charStart": 3675,
+      "charEnd": 3740
+    },
+    {
+      "id": "s0074",
+      "text": "instruction that feels unsafe, ungrounded, or illegitimate.",
+      "startMs": 245331.0,
+      "endMs": 249232.0,
+      "charStart": 3741,
+      "charEnd": 3800
+    },
+    {
+      "id": "s0075",
+      "text": "Sometimes the response is stronger.",
+      "startMs": 249743.0,
+      "endMs": 251751.0,
+      "charStart": 3802,
+      "charEnd": 3837
+    },
+    {
+      "id": "s0076",
+      "text": "Under pressure, people may move into reflexive opposition, doing the opposite of what they are told as a way to protect agency.",
+      "startMs": 251751.0,
+      "endMs": 259182.0,
+      "charStart": 3837,
+      "charEnd": 3964
+    },
+    {
+      "id": "s0077",
+      "text": "That matters: influence can stay strong even when people only partly go along.",
+      "startMs": 259739.0,
+      "endMs": 265115.0,
+      "charStart": 3967,
+      "charEnd": 4045
+    },
+    {
+      "id": "s0078",
+      "text": "Attention Finds a Focus first.",
+      "startMs": 266229.0,
+      "endMs": 269457.0,
+      "charStart": 4046,
+      "charEnd": 4076
+    },
+    {
+      "id": "s0079",
+      "text": "Interpretation comes next.",
+      "startMs": 269840.0,
+      "endMs": 271709.0,
+      "charStart": 4077,
+      "charEnd": 4103
+    },
+    {
+      "id": "s0080",
+      "text": "Nothing Is Neutral",
+      "startMs": 271988.0,
+      "endMs": 273334.0,
+      "charStart": 4105,
+      "charEnd": 4123
+    },
+    {
+      "id": "s0081",
+      "text": "Leadership shifts how harm is distributed, how correction is handled, how disagreement survives, how success is interpreted, and how setbacks are absorbed.",
+      "startMs": 274449.0,
+      "endMs": 284317.0,
+      "charStart": 4125,
+      "charEnd": 4280
+    },
+    {
+      "id": "s0082",
+      "text": "None of that requires dramatic moments.",
+      "startMs": 284317.0,
+      "endMs": 287243.0,
+      "charStart": 4280,
+      "charEnd": 4319
+    },
+    {
+      "id": "s0083",
+      "text": "It accumulates through ordinary decisions—a tone in a meeting, a hiring choice, a promotion, a tolerated shortcut, an unchallenged story.",
+      "startMs": 287243.0,
+      "endMs": 297262.0,
+      "charStart": 4319,
+      "charEnd": 4456
+    },
+    {
+      "id": "s0084",
+      "text": "When others are looking, very little is neutral.",
+      "startMs": 298167.0,
+      "endMs": 300942.0,
+      "charStart": 4460,
+      "charEnd": 4508
+    },
+    {
+      "id": "s0085",
+      "text": "The Core Question",
+      "startMs": 301755.0,
+      "endMs": 302788.0,
+      "charStart": 4510,
+      "charEnd": 4527
+    },
+    {
+      "id": "s0086",
+      "text": "Others are already looking.",
+      "startMs": 303601.0,
+      "endMs": 305064.0,
+      "charStart": 4529,
+      "charEnd": 4556
+    },
+    {
+      "id": "s0087",
+      "text": "The question is what happens next.",
+      "startMs": 305668.0,
+      "endMs": 307966.0,
+      "charStart": 4557,
+      "charEnd": 4591
+    },
+    {
+      "id": "s0088",
+      "text": "Does influence stay open to correction?",
+      "startMs": 308291.0,
+      "endMs": 310497.0,
+      "charStart": 4593,
+      "charEnd": 4632
+    },
+    {
+      "id": "s0089",
+      "text": "Does belief renew through example?",
+      "startMs": 310776.0,
+      "endMs": 312854.0,
+      "charStart": 4633,
+      "charEnd": 4667
+    },
+    {
+      "id": "s0090",
+      "text": "Does authority stay tied to consequence?",
+      "startMs": 313237.0,
+      "endMs": 315547.0,
+      "charStart": 4668,
+      "charEnd": 4708
+    },
+    {
+      "id": "s0091",
+      "text": "Can people still challenge decisions in time?",
+      "startMs": 315930.0,
+      "endMs": 318543.0,
+      "charStart": 4709,
+      "charEnd": 4754
+    },
+    {
+      "id": "s0092",
+      "text": "Leadership begins when Attention Finds a Focus.",
+      "startMs": 319239.0,
+      "endMs": 322165.0,
+      "charStart": 4756,
+      "charEnd": 4803
+    },
+    {
+      "id": "s0093",
+      "text": "From there, watch whether influence tilts toward renewal or erosion.",
+      "startMs": 322165.0,
+      "endMs": 327006.0,
+      "charStart": 4803,
+      "charEnd": 4871
+    },
+    {
+      "id": "s0094",
+      "text": "Watch whether circulation holds—whether influence moves through others or stays trapped with the same few people.",
+      "startMs": 327006.0,
+      "endMs": 334262.0,
+      "charStart": 4871,
+      "charEnd": 4984
+    },
+    {
+      "id": "s0095",
+      "text": "Those patterns show up in ordinary choices long before the outcome is clear.",
+      "startMs": 334262.0,
+      "endMs": 338999.0,
+      "charStart": 4984,
+      "charEnd": 5060
+    },
+    {
+      "id": "s0096",
+      "text": "Once people are watching, your behavior teaches what counts as normal.",
+      "startMs": 339673.0,
+      "endMs": 343655.0,
+      "charStart": 5065,
+      "charEnd": 5135
+    }
+  ]
+}

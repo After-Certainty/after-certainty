@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-1-how-influence-forms-bridge",
+  "generationHash": "sha256:8ffda709d91e466f8c5648d824842c840e94963a82b76994e7cf54ba354b6e8c",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Bridge — From Attention to Pattern",
+      "startMs": 0.0,
+      "endMs": 2682.0,
+      "charStart": 0,
+      "charEnd": 34
+    },
+    {
+      "id": "s0002",
+      "text": "Attention is not yet a habit.",
+      "startMs": 2960.0,
+      "endMs": 5050.0,
+      "charStart": 36,
+      "charEnd": 65
+    },
+    {
+      "id": "s0003",
+      "text": "It is a moment.",
+      "startMs": 5329.0,
+      "endMs": 6478.0,
+      "charStart": 66,
+      "charEnd": 81
+    },
+    {
+      "id": "s0004",
+      "text": "People look to someone else to decide what to do next.",
+      "startMs": 6757.0,
+      "endMs": 9915.0,
+      "charStart": 83,
+      "charEnd": 137
+    },
+    {
+      "id": "s0005",
+      "text": "The moment can be small.",
+      "startMs": 9915.0,
+      "endMs": 11680.0,
+      "charStart": 137,
+      "charEnd": 161
+    },
+    {
+      "id": "s0006",
+      "text": "It can pass without words.",
+      "startMs": 12098.0,
+      "endMs": 13990.0,
+      "charStart": 163,
+      "charEnd": 189
+    },
+    {
+      "id": "s0007",
+      "text": "If it keeps happening, it leaves a pattern.",
+      "startMs": 14315.0,
+      "endMs": 16776.0,
+      "charStart": 190,
+      "charEnd": 233
+    },
+    {
+      "id": "s0008",
+      "text": "It starts with a glance.",
+      "startMs": 17020.0,
+      "endMs": 18495.0,
+      "charStart": 235,
+      "charEnd": 259
+    },
+    {
+      "id": "s0009",
+      "text": "Over time, it can settle into a habit.",
+      "startMs": 18936.0,
+      "endMs": 21641.0,
+      "charStart": 260,
+      "charEnd": 298
+    },
+    {
+      "id": "s0010",
+      "text": "Leadership begins when Attention Finds a Focus around someone and direction takes shape there.",
+      "startMs": 22245.0,
+      "endMs": 27678.0,
+      "charStart": 300,
+      "charEnd": 394
+    },
+    {
+      "id": "s0011",
+      "text": "Repeated signals turn into expectations, then habits.",
+      "startMs": 28281.0,
+      "endMs": 32008.0,
+      "charStart": 395,
+      "charEnd": 448
+    },
+    {
+      "id": "s0012",
+      "text": "What gets rewarded, ignored, or corrected starts teaching everyone how decisions are made here.",
+      "startMs": 32008.0,
+      "endMs": 37836.0,
+      "charStart": 448,
+      "charEnd": 543
+    },
+    {
+      "id": "s0013",
+      "text": "This bridge stays with formation: how attention becomes habit, how belief",
+      "startMs": 38429.0,
+      "endMs": 43537.0,
+      "charStart": 546,
+      "charEnd": 619
+    },
+    {
+      "id": "s0014",
+      "text": "firms up, and how early responses to risk and dissent show others what to try",
+      "startMs": 43618.0,
+      "endMs": 48471.0,
+      "charStart": 620,
+      "charEnd": 697
+    },
+    {
+      "id": "s0015",
+      "text": "next.",
+      "startMs": 48553.0,
+      "endMs": 49214.0,
+      "charStart": 698,
+      "charEnd": 703
+    },
+    {
+      "id": "s0016",
+      "text": "The point is to see what is forming before it sets.",
+      "startMs": 49818.0,
+      "endMs": 52802.0,
+      "charStart": 705,
+      "charEnd": 756
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-front-matter-introduction-attention-finds-a-focus",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "front-matter-introduction-attention-finds-a-focus",
+  "sourcePath": "front-matter/introduction-attention-finds-a-focus.md",
+  "sourceHash": "sha256:95caae3b15859b739b420a0a339b7327112578567866452e605655e1bae7e18d",
+  "spokenTextHash": "sha256:2b1baf6d48d16cdff324ce979ba8f9dfece7fcf745e6d7129418d229b7bfb1ff",
+  "generationHash": "sha256:0b738dfe73dc8ce949c129b0c384befdf24ea2c369f210e6d58a279451ae184b",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 4198,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2099.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2099.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/front-matter-introduction-attention-finds-a-focus.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/front-matter-introduction-attention-finds-a-focus.mp3",
+  "audioSha256": "sha256:ceb37b76adca3197ce26ea7f094b848c62fe7285b523530e9aa583e1c7487dba",
+  "generatedAt": "2026-08-05T06:05:02Z"
+}

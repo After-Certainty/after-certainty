@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-1-how-influence-forms-bridge",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-1-how-influence-forms-bridge",
+  "sourcePath": "parts/part-1-how-influence-forms/bridge.md",
+  "sourceHash": "sha256:3588a2cdf921b490f263ec86a8b17faac62a7f496faf668851968580302e413e",
+  "spokenTextHash": "sha256:6ac9b1393292228946a5ca6aa08479687a1e898f4d6748e54a5cd5e35c30bef8",
+  "generationHash": "sha256:8ffda709d91e466f8c5648d824842c840e94963a82b76994e7cf54ba354b6e8c",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 756,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 378.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 378.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-1-how-influence-forms-bridge.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-1-how-influence-forms-bridge.mp3",
+  "audioSha256": "sha256:5ce43fb1b0eb9aff5b0d9c0c4f003ba24466dba38afc15f48d9d9cf600a18ce2",
+  "generatedAt": "2026-08-05T06:05:09Z"
+}

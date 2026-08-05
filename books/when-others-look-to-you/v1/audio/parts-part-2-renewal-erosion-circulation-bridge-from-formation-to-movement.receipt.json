@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v1-parts-part-2-renewal-erosion-circulation-bridge-from-formation-to-movement",
+  "editionSlug": "when-others-look-to-you-v1",
+  "chapterSlug": "parts-part-2-renewal-erosion-circulation-bridge-from-formation-to-movement",
+  "sourcePath": "parts/part-2-renewal-erosion-circulation/bridge-from-formation-to-movement.md",
+  "sourceHash": "sha256:85dadb955b7613015db56ef420ac093ddbb59cd04e9883e4c9472e65a3e64d60",
+  "spokenTextHash": "sha256:2c8a4dbc1de33d0cabef1faf1dfaca480e0d2a0c604aa251b2f5ab5446cb3865",
+  "generationHash": "sha256:1942d0c2c478eaac62b1e1791f6466be850ba262b3aaf43a7ba2fddba64342dc",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 850,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 425.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 425.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v1/audio/parts-part-2-renewal-erosion-circulation-bridge-from-formation-to-movement.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v1/audio/parts-part-2-renewal-erosion-circulation-bridge-from-formation-to-movement.mp3",
+  "audioSha256": "sha256:39264b86434f37a101b52d71f5dbb8047ae148a248d722a0ee3024f2a579bcca",
+  "generatedAt": "2026-08-05T06:05:28Z"
+}
