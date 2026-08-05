@@ -35,34 +35,44 @@ fi
 git lfs version
 git lfs install --local
 
-# Vercel clones often leave an empty LFS endpoint ("Failed to fetch … from ''").
-# Point LFS at GitHub explicitly and ensure origin is an https remote.
 echo "ensure_git_lfs_audio: remotes before fix:"
 git remote -v || true
-if git remote get-url origin >/dev/null 2>&1; then
-  git remote set-url origin "https://github.com/${GITHUB_REPOSITORY}.git"
-else
-  git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
-fi
+
+ORIG_URL="$(git remote get-url origin 2>/dev/null || true)"
+TOKEN="${GITHUB_TOKEN:-${GH_TOKEN:-}}"
+
+# Always set an explicit LFS endpoint — Vercel often leaves this empty ("from ''").
 git config lfs.url "${LFS_ENDPOINT}"
 
-# Private-repo LFS needs a token on Vercel (clone credentials are not reused for LFS).
-TOKEN="${GITHUB_TOKEN:-${GH_TOKEN:-}}"
+# Prefer an authenticated HTTPS origin for private LFS. Keep tokenized remotes;
+# otherwise inject GITHUB_TOKEN/GH_TOKEN when available.
+if [[ "$ORIG_URL" == https://*:*@github.com/* ]]; then
+  echo "ensure_git_lfs_audio: keeping authenticated origin URL"
+elif [[ -n "$TOKEN" ]]; then
+  git remote remove origin 2>/dev/null || true
+  git remote add origin "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+  echo "ensure_git_lfs_audio: origin set with GITHUB_TOKEN/GH_TOKEN"
+elif git remote get-url origin >/dev/null 2>&1; then
+  git remote set-url origin "https://github.com/${GITHUB_REPOSITORY}.git"
+  echo "ensure_git_lfs_audio: origin set to https (no token env — private LFS may fail)" >&2
+else
+  git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+  echo "ensure_git_lfs_audio: origin added as https (no token env — private LFS may fail)" >&2
+fi
+
 if [[ -n "$TOKEN" ]]; then
   AUTH="$(printf 'x-access-token:%s' "$TOKEN" | base64 | tr -d '\n')"
   git config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ${AUTH}"
-  echo "ensure_git_lfs_audio: using GITHUB_TOKEN/GH_TOKEN for LFS auth"
-else
-  echo "ensure_git_lfs_audio: no GITHUB_TOKEN/GH_TOKEN — LFS pull may fail on private repos" >&2
 fi
 
 echo "ensure_git_lfs_audio: lfs.url=$(git config --get lfs.url)"
-echo "ensure_git_lfs_audio: origin=$(git remote get-url origin)"
+# Redact credentials if present in the printed URL.
+safe_origin="$(git remote get-url origin | sed -E 's#://[^/@]+@#://***@#')"
+echo "ensure_git_lfs_audio: origin=${safe_origin}"
 
-# Only pull chapter MP3s (receipts/alignment stay in ordinary Git).
 if ! git lfs pull --include="books/*/audio/*.mp3" --exclude=""; then
-  echo "error: git lfs pull failed (empty endpoint or auth)." >&2
-  echo "On Vercel, set env GITHUB_TOKEN (repo Contents: Read) so LFS objects can be fetched." >&2
+  echo "error: git lfs pull failed." >&2
+  echo "On Vercel, set env GITHUB_TOKEN (Contents: Read) for this project." >&2
   exit 2
 fi
 
