@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import type { ChapterAudioUnit } from "@/lib/reading/chapter-audio";
 import {
@@ -13,9 +13,18 @@ import { registerChapterAudioElement } from "@/lib/reading/navigate-chapter";
 
 export type ChapterAudioPlayerProps = {
   audio: ChapterAudioUnit;
+  /** SSR-loaded alignment when available; client fetch is the fallback. */
+  alignment?: ChapterAudioAlignment | null;
 };
 
 const ACTIVE_CLASS = "is-audio-active";
+
+function prefersReducedMotion(): boolean {
+  return (
+    typeof window !== "undefined" &&
+    Boolean(window.matchMedia?.("(prefers-reduced-motion: reduce)").matches)
+  );
+}
 
 function clearActiveSegments(root: ParentNode | null): void {
   if (!root) return;
@@ -24,49 +33,51 @@ function clearActiveSegments(root: ParentNode | null): void {
   });
 }
 
-function setActiveSegment(root: ParentNode | null, segmentId: string | null): void {
+function setActiveSegment(
+  root: ParentNode | null,
+  segmentId: string | null,
+  options: { followScroll: boolean },
+): void {
   if (!root) return;
   clearActiveSegments(root);
   if (!segmentId) return;
   const nodes = root.querySelectorAll(`[data-audio-segment="${CSS.escape(segmentId)}"]`);
   nodes.forEach((el) => el.classList.add(ACTIVE_CLASS));
+  if (!options.followScroll) return;
   const first = nodes[0];
-  if (first instanceof HTMLElement) {
-    const reduceMotion =
-      typeof window !== "undefined" &&
-      window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
-    first.scrollIntoView({
-      block: "nearest",
-      behavior: reduceMotion ? "auto" : "smooth",
-    });
-  }
+  if (!(first instanceof HTMLElement)) return;
+  first.scrollIntoView({
+    block: "center",
+    behavior: prefersReducedMotion() ? "auto" : "smooth",
+  });
 }
 
 /**
- * Native-reader Listen control. Renders only when a parent passes an available
- * audio unit (no site feature-flag env).
+ * Always-visible bottom dock for available chapter TTS (no expand CTA).
+ * Follow-scrolls the active manuscript segment while playing.
  */
-export function ChapterAudioPlayer({ audio }: ChapterAudioPlayerProps) {
-  const disclosureId = useId();
+export function ChapterAudioPlayer({
+  audio,
+  alignment: alignmentProp = null,
+}: ChapterAudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const [expanded, setExpanded] = useState(false);
   const [fetchedAlignment, setFetchedAlignment] = useState<ChapterAudioAlignment | null>(null);
   const activeIdRef = useRef<string | null>(null);
+  const followPausedRef = useRef(false);
+  const rafRef = useRef<number | null>(null);
 
-  const highlightEnabled =
-    expanded &&
-    canHighlightAlignment(audio.alignmentGranularity) &&
-    Boolean(audio.alignmentUrl);
-  const alignment = highlightEnabled ? fetchedAlignment : null;
+  const highlightCapable =
+    canHighlightAlignment(audio.alignmentGranularity) && Boolean(audio.alignmentUrl);
+  const alignment = alignmentProp ?? (highlightCapable ? fetchedAlignment : null);
 
   useEffect(() => {
     const el = audioRef.current;
     if (!el) return;
     return registerChapterAudioElement(el);
-  }, [audio.audioUrl, expanded]);
+  }, [audio.audioUrl]);
 
   useEffect(() => {
-    if (!highlightEnabled || !audio.alignmentUrl) return;
+    if (alignmentProp || !highlightCapable || !audio.alignmentUrl) return;
     let cancelled = false;
     void fetch(audio.alignmentUrl)
       .then((res) => (res.ok ? res.json() : null))
@@ -85,11 +96,11 @@ export function ChapterAudioPlayer({ audio }: ChapterAudioPlayerProps) {
     return () => {
       cancelled = true;
     };
-  }, [highlightEnabled, audio.alignmentUrl, audio.generationHash]);
+  }, [alignmentProp, highlightCapable, audio.alignmentUrl, audio.generationHash]);
 
   useEffect(() => {
     const el = audioRef.current;
-    if (!el || !expanded) return;
+    if (!el) return;
 
     const chapterRoot = document.getElementById("chapter-content");
 
@@ -105,70 +116,104 @@ export function ChapterAudioPlayer({ audio }: ChapterAudioPlayerProps) {
       const nextId = seg?.id ?? null;
       if (nextId === activeIdRef.current) return;
       activeIdRef.current = nextId;
-      setActiveSegment(chapterRoot, nextId);
+      setActiveSegment(chapterRoot, nextId, { followScroll: !followPausedRef.current });
+    };
+
+    const stopRaf = () => {
+      if (rafRef.current != null) {
+        window.cancelAnimationFrame(rafRef.current);
+        rafRef.current = null;
+      }
+    };
+
+    const tick = () => {
+      sync();
+      if (!el.paused && !el.ended) {
+        rafRef.current = window.requestAnimationFrame(tick);
+      } else {
+        rafRef.current = null;
+      }
+    };
+
+    const onPlay = () => {
+      followPausedRef.current = false;
+      stopRaf();
+      rafRef.current = window.requestAnimationFrame(tick);
+      sync();
+    };
+
+    const onPause = () => {
+      stopRaf();
+    };
+
+    const onSeeked = () => {
+      followPausedRef.current = false;
+      sync();
     };
 
     const onEnded = () => {
+      stopRaf();
       clearActiveSegments(chapterRoot);
       activeIdRef.current = null;
+      followPausedRef.current = false;
+    };
+
+    const onUserScrollIntent = () => {
+      if (!el.paused && !el.ended) {
+        followPausedRef.current = true;
+      }
     };
 
     el.addEventListener("timeupdate", sync);
-    el.addEventListener("seeked", sync);
-    el.addEventListener("play", sync);
+    el.addEventListener("seeked", onSeeked);
+    el.addEventListener("play", onPlay);
+    el.addEventListener("pause", onPause);
     el.addEventListener("ended", onEnded);
+    window.addEventListener("wheel", onUserScrollIntent, { passive: true });
+    window.addEventListener("touchmove", onUserScrollIntent, { passive: true });
 
     return () => {
+      stopRaf();
       el.removeEventListener("timeupdate", sync);
-      el.removeEventListener("seeked", sync);
-      el.removeEventListener("play", sync);
+      el.removeEventListener("seeked", onSeeked);
+      el.removeEventListener("play", onPlay);
+      el.removeEventListener("pause", onPause);
       el.removeEventListener("ended", onEnded);
+      window.removeEventListener("wheel", onUserScrollIntent);
+      window.removeEventListener("touchmove", onUserScrollIntent);
       clearActiveSegments(chapterRoot);
       activeIdRef.current = null;
+      followPausedRef.current = false;
     };
-  }, [alignment, expanded, audio.audioUrl]);
+  }, [alignment, audio.audioUrl]);
 
   return (
     <div
-      className="rounded-sm border border-border/40 bg-bg-elevated/30 px-4 py-3"
+      role="region"
+      aria-label="Chapter audio"
+      className="chapter-audio-dock fixed inset-x-0 bottom-0 z-40 border-t border-border/40 bg-bg/95 backdrop-blur-md"
+      style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
       data-testid="chapter-audio-player"
       data-unit-id={audio.unitId}
     >
-      <div className="flex flex-wrap items-center gap-3">
-        <button
-          type="button"
-          className="inline-flex min-h-[44px] items-center justify-center border border-accent/45 bg-accent-soft px-4 py-2 text-xs uppercase tracking-[0.22em] text-accent transition-colors hover:bg-accent/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-          aria-expanded={expanded}
-          aria-controls={expanded ? disclosureId : undefined}
-          data-testid="chapter-audio-listen"
-          onClick={() => setExpanded((v) => !v)}
+      <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 py-3">
+        <p className="text-xs leading-relaxed text-muted">{audio.disclosure}</p>
+        <audio
+          ref={audioRef}
+          controls
+          preload="metadata"
+          className="h-10 w-full opacity-95 [&::-webkit-media-controls-panel]:bg-bg-elevated/90"
+          src={audio.audioUrl}
+          data-testid="chapter-audio-element"
         >
-          {expanded ? "Hide player" : "Listen"}
-        </button>
-        <p className="text-xs leading-relaxed text-muted" id={`${disclosureId}-summary`}>
-          {audio.disclosure}
-        </p>
+          Your browser does not support audio playback.
+        </audio>
+        {typeof audio.durationSeconds === "number" ? (
+          <p className="text-[11px] tabular-nums text-muted/80">
+            About {Math.max(1, Math.round(audio.durationSeconds))}s
+          </p>
+        ) : null}
       </div>
-
-      {expanded ? (
-        <div id={disclosureId} className="mt-3 space-y-2">
-          <audio
-            ref={audioRef}
-            controls
-            preload="metadata"
-            className="h-10 w-full max-w-xl opacity-95 [&::-webkit-media-controls-panel]:bg-bg-elevated/90"
-            src={audio.audioUrl}
-            data-testid="chapter-audio-element"
-          >
-            Your browser does not support audio playback.
-          </audio>
-          {typeof audio.durationSeconds === "number" ? (
-            <p className="text-[11px] tabular-nums text-muted/80">
-              About {Math.max(1, Math.round(audio.durationSeconds))}s
-            </p>
-          ) : null}
-        </div>
-      ) : null}
     </div>
   );
 }

@@ -133,4 +133,37 @@ describe("ChapterReaderShell", () => {
     expect(screen.getByText("Manuscript body")).toBeInTheDocument();
     expect(screen.queryByRole("status")).not.toBeInTheDocument();
   });
+
+  it("docks available chapter audio at the bottom without a Listen CTA", () => {
+    const book = enriched.books.find((candidate) => candidate.slug === "after-certainty")!;
+    const chapter = (enriched.chapters ?? []).find(
+      (candidate) => candidate.id === "chapter-after-certainty-front-matter-introduction",
+    )!;
+
+    render(
+      <ChapterReaderShell
+        book={book}
+        chapter={chapter}
+        chapterAudio={{
+          unitId: chapter.id,
+          editionSlug: "after-certainty",
+          chapterSlug: "front-matter-introduction",
+          routeKey: chapter.routeKey,
+          audioUrl: "/generated/audio/after-certainty/front-matter-introduction.mp3",
+          durationSeconds: 10,
+          alignmentUrl: null,
+          alignmentGranularity: "none",
+          generationHash: `sha256:${"e".repeat(64)}`,
+          disclosure: "AI-generated narration",
+        }}
+      />,
+    );
+
+    const dock = screen.getByTestId("chapter-audio-player");
+    expect(dock).toHaveAttribute("data-unit-id", chapter.id);
+    expect(screen.getByRole("region", { name: "Chapter audio" })).toBeInTheDocument();
+    expect(screen.getByTestId("chapter-audio-element")).toBeInTheDocument();
+    expect(screen.queryByTestId("chapter-audio-listen")).not.toBeInTheDocument();
+    expect(document.querySelector("[data-chapter-audio='dock']")).toBeTruthy();
+  });
 });

@@ -98,6 +98,7 @@ export default async function ExploreBookChapterPage({ params }: PageProps) {
       chapter={resolved.chapter}
       navigation={navigation}
       chapterAudio={chapterAudio}
+      chapterAudioAlignment={alignment}
     >
       <ChapterManuscriptBody result={manuscript} />
     </ChapterReaderShell>

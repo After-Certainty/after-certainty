@@ -288,6 +288,12 @@
     transition: background-color 120ms ease;
   }
 
+  /* Keep follow-scroll center clear of the fixed bottom audio dock. */
+  .chapter-manuscript [data-audio-segment] {
+    scroll-margin-bottom: calc(7.5rem + env(safe-area-inset-bottom, 0px));
+    scroll-margin-top: calc(4.5rem + env(safe-area-inset-top, 0px));
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .chapter-manuscript {
       scroll-behavior: auto;
