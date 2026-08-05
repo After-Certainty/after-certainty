@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 
 import { ChapterAdjacentNav } from "@/components/reading/chapter-adjacent-nav";
+import { ChapterAudioPlayer } from "@/components/reading/chapter-audio-player";
 import {
   CopySectionLinkControl,
   ManuscriptHeadingCopyLinks,
@@ -17,6 +18,7 @@ import { ButtonLink } from "@/components/ui/button-link";
 import { chapterKindLabel } from "@/lib/books/book-chapter-view-model";
 import { chapterPublicPath, chapterSlugFromRouteKey } from "@/lib/graph/chapters";
 import { explorePaths } from "@/lib/graph/explorePaths";
+import type { ChapterAudioUnit } from "@/lib/reading/chapter-audio";
 import type { ChapterReadingNavigation } from "@/lib/reading/chapter-navigation";
 import type { Book, ManifestChapter } from "@/types/semanticGraph";
 
@@ -25,6 +27,8 @@ export type ChapterReaderShellProps = {
   chapter: ManifestChapter;
   /** Prev/next + TOC from READ-004; omit for single-chapter edge cases. */
   navigation?: ChapterReadingNavigation | null;
+  /** Available chapter TTS when installed into the site audio manifest. */
+  chapterAudio?: ChapterAudioUnit | null;
   /** Manuscript body — empty until READ-003. */
   children?: ReactNode;
 };
@@ -37,6 +41,7 @@ export function ChapterReaderShell({
   book,
   chapter,
   navigation,
+  chapterAudio = null,
   children,
 }: ChapterReaderShellProps) {
   const kindLabel = chapterKindLabel(chapter.kind);
@@ -100,6 +105,8 @@ export function ChapterReaderShell({
         <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm text-muted">
           <CopySectionLinkControl chapterPath={chapterPath} />
         </div>
+
+        {chapterAudio ? <ChapterAudioPlayer audio={chapterAudio} /> : null}
 
         {centralQuestion ? (
           <p className="text-base leading-relaxed text-fg/90 md:text-lg">

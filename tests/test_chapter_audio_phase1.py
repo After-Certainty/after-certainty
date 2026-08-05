@@ -109,7 +109,7 @@ def test_placeholder_voice_is_unconfigured() -> None:
     assert "PLACEHOLDER" in reason
 
 
-def test_resolve_pilot_introduction_unconfigured_until_voice(repo_root: Path) -> None:
+def test_resolve_pilot_introduction_configured_after_voice(repo_root: Path) -> None:
     unit = resolve_unit_audio(
         repo=repo_root,
         edition_slug="observer-patterns",
@@ -131,9 +131,11 @@ def test_resolve_pilot_introduction_unconfigured_until_voice(repo_root: Path) ->
         unit_audio={"enabled": True, "max_credits": 2000},
     )
     assert unit.enabled is True
-    assert unit.status == "enabled-unconfigured"
+    assert unit.status == "enabled-missing"
     assert unit.provider == "elevenlabs"
     assert unit.voice_alias == "reflective-narrator"
+    assert unit.provider_voice_id
+    assert not str(unit.provider_voice_id).startswith("PLACEHOLDER")
     assert "max_credits" in unit.overridden_fields
 
 
@@ -159,7 +161,7 @@ def test_list_chapter_audio_enabled_filter_observer_patterns(repo_root: Path) ->
     units = payload["units"]
     assert len(units) == 29
     assert all(u["editionSlug"] == "observer-patterns" for u in units)
-    assert all(u["status"] == "enabled-unconfigured" for u in units)
+    assert all(u["status"] == "enabled-missing" for u in units)
     ids = {u["unitId"] for u in units}
     assert PILOT_INTRO in ids
     assert any(u["kind"] == "poem" for u in units)

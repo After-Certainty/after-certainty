@@ -221,7 +221,7 @@ def test_elevenlabs_adapter_uses_injected_transport() -> None:
     assert result.raw_alignment is not None
 
 
-def test_cli_defaults_to_dry_run_for_unconfigured_pilot() -> None:
+def test_cli_defaults_to_dry_run_for_configured_pilot() -> None:
     proc = subprocess.run(
         [
             sys.executable,
@@ -238,12 +238,12 @@ def test_cli_defaults_to_dry_run_for_unconfigured_pilot() -> None:
         text=True,
         check=False,
     )
-    # Placeholder voice → refuse before dry-run generate path completes successfully.
-    assert proc.returncode != 0
-    assert (
-        "PLACEHOLDER" in (proc.stderr + proc.stdout)
-        or "unconfigured" in (proc.stderr + proc.stdout).lower()
-    )
+    assert proc.returncode == 0, proc.stderr
+    assert "dry-run" in (proc.stderr + proc.stdout).lower()
+    payload = json.loads(proc.stdout)
+    assert payload["action"] == "dry-run"
+    assert payload["unit_id"] == PILOT_INTRO
+    assert payload["estimated_credits"] == 211.0
 
 
 def test_make_generate_requires_unit() -> None:

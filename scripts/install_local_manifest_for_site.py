@@ -22,6 +22,10 @@ Also installs manuscript images/diagrams into
 apps/site/public/manuscript-assets/ (mirroring bookDir) so Native Reader
 <img> tags resolve on Vercel without raw.githubusercontent.com.
 
+Also installs available chapter-TTS audio (MP3 + optional alignment JSON) into
+apps/site/public/generated/audio/ and writes
+apps/site/data/local-chapter-audio-manifest.json (available units only).
+
 Public release artifacts remain published; Stage D disables runtime remote fetch
 via env on the deployment.
 """
@@ -34,6 +38,15 @@ import shutil
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
+
+_TOOLS = Path(__file__).resolve().parent.parent / "tools"
+if str(_TOOLS) not in sys.path:
+    sys.path.insert(0, str(_TOOLS))
+
+from chapter_audio.site_manifest import (  # noqa: E402
+    build_chapter_audio_manifest,
+    is_lfs_pointer,
+)
 
 # Media referenced from chapter markdown (covers, figures, diagrams).
 _MANUSCRIPT_MEDIA_SUFFIXES = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".avif"}
@@ -352,6 +365,107 @@ def _install_manuscript_assets(
     return 0
 
 
+def _install_chapter_audio(
+    *,
+    repo: Path,
+    site_data: Path,
+    site_public: Path,
+    build_manifest_out: Path,
+) -> int:
+    """Install available chapter audio + site-facing audio manifest."""
+    try:
+        manifest = build_chapter_audio_manifest(repo)
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        print(f"error: failed to build chapter-audio manifest: {exc}", file=sys.stderr)
+        return 1
+
+    units = manifest.get("units")
+    if not isinstance(units, list):
+        print("error: chapter-audio manifest missing units array", file=sys.stderr)
+        return 1
+
+    audio_root = site_public / "generated" / "audio"
+    if audio_root.exists():
+        shutil.rmtree(audio_root)
+    audio_root.mkdir(parents=True, exist_ok=True)
+
+    installed = 0
+    for unit in units:
+        if not isinstance(unit, dict):
+            print("error: chapter-audio unit entry must be an object", file=sys.stderr)
+            return 1
+        edition = unit.get("editionSlug")
+        chapter = unit.get("chapterSlug")
+        if (
+            not isinstance(edition, str)
+            or not edition
+            or "/" in edition
+            or ".." in edition
+            or not isinstance(chapter, str)
+            or not chapter
+            or "/" in chapter
+            or ".." in chapter
+        ):
+            print(
+                f"error: unsafe chapter-audio unit paths: {edition!r}/{chapter!r}", file=sys.stderr
+            )
+            return 1
+
+        src_mp3 = repo / "books" / edition / "audio" / f"{chapter}.mp3"
+        if not src_mp3.is_file():
+            print(f"error: missing audio artifact for available unit: {src_mp3}", file=sys.stderr)
+            return 1
+        if is_lfs_pointer(src_mp3):
+            print(
+                f"error: refusing Git LFS pointer stub (fetch real object): {src_mp3}",
+                file=sys.stderr,
+            )
+            return 1
+
+        dest_dir = audio_root / edition
+        dest_dir.mkdir(parents=True, exist_ok=True)
+        dest_mp3 = dest_dir / f"{chapter}.mp3"
+        shutil.copy2(src_mp3, dest_mp3)
+        if not dest_mp3.is_file() or dest_mp3.stat().st_size <= 0:
+            print(f"error: failed to install audio: {dest_mp3}", file=sys.stderr)
+            return 1
+
+        alignment_url = unit.get("alignmentUrl")
+        if isinstance(alignment_url, str) and alignment_url.strip():
+            src_align = repo / "books" / edition / "audio" / f"{chapter}.alignment.json"
+            if not src_align.is_file():
+                print(f"error: missing alignment for available unit: {src_align}", file=sys.stderr)
+                return 1
+            if is_lfs_pointer(src_align):
+                print(
+                    f"error: refusing Git LFS pointer stub: {src_align}",
+                    file=sys.stderr,
+                )
+                return 1
+            shutil.copy2(src_align, dest_dir / f"{chapter}.alignment.json")
+        installed += 1
+
+    build_manifest_out.parent.mkdir(parents=True, exist_ok=True)
+    build_manifest_out.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+
+    site_data.mkdir(parents=True, exist_ok=True)
+    site_manifest = site_data / "local-chapter-audio-manifest.json"
+    site_manifest.write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")
+
+    readme = audio_root / "README.md"
+    readme.write_text(
+        "# Installed chapter audio\n\n"
+        "Produced by `make install-local-manifest-for-site` from available "
+        "`books/*/audio/` artifacts. Do not edit or commit; regenerate from the corpus.\n",
+        encoding="utf-8",
+    )
+
+    print(
+        f"Installed chapter audio → {audio_root} ({installed} unit(s)); manifest → {site_manifest}"
+    )
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -415,6 +529,11 @@ def main(argv: list[str] | None = None) -> int:
         "--skip-manuscript-assets",
         action="store_true",
         help="Skip copying manuscript images into apps/site/public/manuscript-assets.",
+    )
+    parser.add_argument(
+        "--skip-audio",
+        action="store_true",
+        help="Skip installing chapter TTS audio into public/generated/audio.",
     )
     parser.add_argument(
         "--require-deploy-sha",
@@ -502,6 +621,16 @@ def main(argv: list[str] | None = None) -> int:
 
     if not args.skip_manuscript_assets:
         code = _install_manuscript_assets(repo=repo, manifest=manifest, site_public=site_public)
+        if code != 0:
+            return code
+
+    if not args.skip_audio:
+        code = _install_chapter_audio(
+            repo=repo,
+            site_data=site_data,
+            site_public=site_public,
+            build_manifest_out=repo / "build" / "chapter-audio-manifest.json",
+        )
         if code != 0:
             return code
 

@@ -1,11 +1,10 @@
 # Logical chapter-TTS voice aliases → provider-native voice settings.
 # Authored units reference `voice: <alias>` (not raw provider IDs).
-# Replace PLACEHOLDER_* before a real generate run (AUDIO-P0-03).
 
 voices:
   reflective-narrator:
     elevenlabs:
-      voice_id: PLACEHOLDER_ELEVENLABS_VOICE_ID
+      voice_id: sb2VZCPgS2OECd1UfmTX
     openai:
       voice: cedar
       instructions: >

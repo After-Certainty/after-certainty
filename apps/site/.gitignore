@@ -54,6 +54,7 @@ next-env.d.ts
 # Phase 4 preview: same-checkout manifest (do not commit)
 /data/local-semantic-manifest.json
 /data/local-intended-manifest-release.json
+/data/local-chapter-audio-manifest.json
 
 # Native Reader manuscripts installed for SSR (READ-003; do not commit)
 /data/manuscripts/
@@ -64,3 +65,4 @@ next-env.d.ts
 # Generated book-cover WebP derivatives (installed from build/site-assets)
 /public/generated/book-covers/
 /public/generated/open-graph/
+/public/generated/audio/
