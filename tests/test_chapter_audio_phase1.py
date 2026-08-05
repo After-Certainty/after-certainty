@@ -169,7 +169,6 @@ def test_list_chapter_audio_enabled_filter_observer_patterns(repo_root: Path) ->
     assert sum(1 for u in units if u["kind"] == "poem") == 5
 
 
-
 def test_observer_patterns_book_spec_still_validates(repo_root: Path) -> None:
     r = subprocess.run(
         [
