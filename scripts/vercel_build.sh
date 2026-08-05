@@ -11,6 +11,9 @@ export GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-ksteffe/after-certainty}"
 export SEMANTIC_MANIFEST_USE_LOCAL=1
 export SEMANTIC_MANIFEST_OFFLINE=1
 
+# Chapter MP3s are Git LFS; Vercel clones leave pointer stubs unless we pull.
+bash scripts/ensure_git_lfs_audio.sh
+
 make generate-semantic-manifest
 
 install_args=(--repo .)

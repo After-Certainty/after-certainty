@@ -25,6 +25,7 @@ should_build() {
     tools/pattern_yaml.py|tools/validate_book_specs.py|tools/verify_semantic_yaml.py) return 0 ;;
     scripts/install_local_manifest_for_site.py) return 0 ;;
     scripts/vercel_install.sh|scripts/vercel_build.sh|scripts/vercel_ignore_build.sh) return 0 ;;
+    scripts/ensure_git_lfs_audio.sh) return 0 ;;
     scripts/watch_local_manifest.mjs|scripts/dev_site_with_manifest_watch.sh) return 0 ;;
     scripts/ci_uv_sync.sh) return 0 ;;
     package.json|package-lock.json|turbo.json|.npmrc|Makefile|pyproject.toml|uv.lock) return 0 ;;

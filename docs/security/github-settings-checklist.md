@@ -52,6 +52,9 @@ Chapter audio Git LFS ops (Phase 4):
 - The generate workflow checks out with `lfs: true` and pushes LFS objects on the
   review PR branch. Confirm the repo has Git LFS enabled and that Vercel/CI fetch
   LFS objects before install (install refuses pointer stubs).
+- Vercel builds run `scripts/ensure_git_lfs_audio.sh` from `vercel_build.sh` to
+  `git lfs pull` chapter MP3s before `install_local_manifest_for_site` (otherwise
+  Listen installs 0 units from pointer stubs).
 - Review PRs under `chapter-audio/generate-*` before merge — merging available
   audio makes Listen appear for those units on the live site (no env flag).
 
