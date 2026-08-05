@@ -166,14 +166,14 @@ class ElevenLabsProvider:
                 raise RuntimeError("ElevenLabs response missing audio_base64")
             audio = base64.b64decode(audio_b64)
             alignment = data.get("alignment") or data.get("normalized_alignment")
-            chars = len(request.spoken_text)
+            usage = self.estimate(request)
             return ProviderGenerationResult(
                 audio_bytes=audio,
                 provider_generation_id=str(data.get("request_id") or "") or None,
                 duration_seconds=None,
-                usage_unit="credits",
-                usage_amount=float(chars),
-                usage_usd=None,
+                usage_unit=usage.unit,
+                usage_amount=usage.amount,
+                usage_usd=usage.usd,
                 raw_alignment=alignment,
                 warnings=(),
                 audit={"endpoint": "with-timestamps", "httpStatus": status},
@@ -188,14 +188,14 @@ class ElevenLabsProvider:
         status, raw, _hdrs = self._transport(url, body, headers)
         if status >= 400:
             raise RuntimeError(f"ElevenLabs TTS failed: HTTP {status}")
-        chars = len(request.spoken_text)
+        usage = self.estimate(request)
         return ProviderGenerationResult(
             audio_bytes=raw,
             provider_generation_id=None,
             duration_seconds=None,
-            usage_unit="credits",
-            usage_amount=float(chars),
-            usage_usd=None,
+            usage_unit=usage.unit,
+            usage_amount=usage.amount,
+            usage_usd=usage.usd,
             raw_alignment=None,
             warnings=("timestamps endpoint disabled; alignment may be synthetic",),
             audit={"endpoint": "text-to-speech", "httpStatus": status},
@@ -293,13 +293,14 @@ class MockElevenLabsProvider:
         # Stable pseudo-audio: prefix + padded length marker (not a real MP3 decode).
         pad = abs(hash(request.spoken_text)) % 997
         audio = _MOCK_MP3_PREFIX + f":{chars}:{pad}".encode("ascii") + b"\x00" * 32
+        usage = self.estimate(request)
         return ProviderGenerationResult(
             audio_bytes=audio,
             provider_generation_id="mock-generation",
             duration_seconds=round(duration, 3),
-            usage_unit="credits",
-            usage_amount=float(chars),
-            usage_usd=None,
+            usage_unit=usage.unit,
+            usage_amount=usage.amount,
+            usage_usd=usage.usd,
             raw_alignment=None,
             warnings=("mock provider; not real ElevenLabs audio",),
             audit={"mock": True, "approxDurationSeconds": round(duration, 3)},
