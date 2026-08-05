@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Ensure Git LFS is available and smudge books/*/audio/*.mp3 for site install.
+# Ensure Git LFS is available and smudge books/**/audio/*.mp3 for site install.
 # Vercel clones leave LFS pointer stubs unless we pull objects explicitly.
 set -euo pipefail
 
@@ -73,7 +73,8 @@ safe_origin="$(git remote get-url origin | sed -E 's#://[^/@]+@#://***@#')"
 echo "ensure_git_lfs_audio: origin=${safe_origin}"
 echo "ensure_git_lfs_audio: token_present=$([ -n "$TOKEN" ] && echo yes || echo no)"
 
-if ! git lfs pull --include="books/*/audio/*.mp3" --exclude=""; then
+# Nested edition dirs (books/<work>/v1/audio) need **.
+if ! git lfs pull --include="books/**/audio/*.mp3" --exclude=""; then
   echo "error: git lfs pull failed." >&2
   echo "On Vercel, set CHAPTER_AUDIO_GITHUB_TOKEN or GITHUB_TOKEN (Contents: Read)." >&2
   exit 2
@@ -100,4 +101,4 @@ if [[ "$pointer_count" -gt 0 ]]; then
   exit 1
 fi
 
-echo "ensure_git_lfs_audio: smudged ${mp3_count} books/*/audio/*.mp3 ($(git-lfs version | head -n 1))"
+echo "ensure_git_lfs_audio: smudged ${mp3_count} books/**/audio/*.mp3 ($(git-lfs version | head -n 1))"

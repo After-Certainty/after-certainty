@@ -47,7 +47,8 @@ _MERGE_KEYS = (
 @dataclass(frozen=True)
 class ResolvedUnitAudio:
     unit_id: str
-    edition_slug: str
+    edition_slug: str  # public id for routes / site URLs
+    book_relpath: str  # repo-relative book dir (may be nested, e.g. books/.../v1)
     title: str
     source_path: str
     kind: str
@@ -224,6 +225,7 @@ def resolve_unit_audio(
     book_defaults: dict[str, Any] | None,
     unit_audio: dict[str, Any] | None,
     voice_catalog: dict[str, Any] | None = None,
+    book_relpath: str | None = None,
 ) -> ResolvedUnitAudio:
     catalog = voice_catalog if voice_catalog is not None else load_voice_catalog(repo)
     merged, inherited, overridden = merge_audio_settings(book_defaults, unit_audio)
@@ -246,9 +248,11 @@ def resolve_unit_audio(
     chapter_slug = str(chapter.get("chapterSlug") or "").strip()
     if not chapter_slug and route_key:
         chapter_slug = route_key.rstrip("/").split("/")[-1]
+    relpath = (book_relpath or f"books/{edition_slug}").replace("\\", "/").strip("/")
     return ResolvedUnitAudio(
         unit_id=str(chapter.get("id") or "").strip(),
         edition_slug=edition_slug,
+        book_relpath=relpath,
         title=str(chapter.get("title") or "").strip(),
         source_path=source_path,
         kind=str(chapter.get("kind") or "").strip(),
@@ -321,6 +325,10 @@ def iter_resolved_units(repo: Path) -> list[ResolvedUnitAudio]:
             )
         except (OSError, ValueError, FileNotFoundError):
             continue
+        try:
+            book_relpath = str(book_dir.resolve().relative_to(repo)).replace("\\", "/")
+        except ValueError:
+            book_relpath = f"books/{slug}"
         for chapter in chapters:
             source = str(chapter.get("sourcePath") or "").strip()
             unit_id = str(chapter.get("id") or "").strip()
@@ -332,6 +340,7 @@ def iter_resolved_units(repo: Path) -> list[ResolvedUnitAudio]:
                 resolve_unit_audio(
                     repo=repo,
                     edition_slug=slug,
+                    book_relpath=book_relpath,
                     chapter=chapter,
                     book_defaults=defaults,
                     unit_audio=unit_audio,

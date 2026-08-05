@@ -61,11 +61,14 @@ def validate_voice_catalog(repo: Path) -> list[ValidationIssue]:
 
 
 def validate_artifact_tree(repo: Path) -> list[ValidationIssue]:
-    """Validate present receipt/alignment/audio files under books/*/audio/."""
+    """Validate present receipt/alignment/audio files under books/**/audio/."""
     issues: list[ValidationIssue] = []
     receipt_schema = _schema(repo, "chapter-audio-receipt.schema.json")
     alignment_schema = _schema(repo, "chapter-audio-alignment.schema.json")
-    audio_roots = sorted((repo / "books").glob("*/audio"))
+    books_root = repo / "books"
+    audio_roots = sorted(
+        {p for p in books_root.rglob("audio") if p.is_dir()} if books_root.is_dir() else []
+    )
     for audio_dir in audio_roots:
         for receipt_path in sorted(audio_dir.glob("*.receipt.json")):
             rel = str(receipt_path.relative_to(repo))
@@ -120,7 +123,7 @@ def validate_stale_enabled_artifacts(repo: Path) -> list[ValidationIssue]:
             issues.append(
                 ValidationIssue(
                     "warning",
-                    f"books/{plan.edition_slug}/audio/{plan.chapter_slug}.receipt.json",
+                    f"{plan.book_relpath}/audio/{plan.chapter_slug}.receipt.json",
                     f"{plan.unit_id}: {plan.status_reason or 'stale artifacts'}",
                 )
             )
@@ -128,7 +131,7 @@ def validate_stale_enabled_artifacts(repo: Path) -> list[ValidationIssue]:
             issues.append(
                 ValidationIssue(
                     "error",
-                    f"books/{plan.edition_slug}/audio/{plan.chapter_slug}",
+                    f"{plan.book_relpath}/audio/{plan.chapter_slug}",
                     f"{plan.unit_id}: {plan.status_reason or 'invalid artifacts'}",
                 )
             )

@@ -18,6 +18,8 @@ export type ChapterAudioAlignmentGranularity =
 export type ChapterAudioUnit = {
   unitId: string;
   editionSlug: string;
+  /** Repo-relative book directory; present on newly built manifests. */
+  bookRelpath?: string;
   chapterSlug: string;
   routeKey: string;
   audioUrl: string;

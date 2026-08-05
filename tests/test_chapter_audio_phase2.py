@@ -131,7 +131,7 @@ def test_plan_enabled_units_include_pilot_intro(repo_root: Path) -> None:
     if intro.status == "enabled-missing":
         assert intro.regenerate_required is True
     assert all(p.enabled for p in plans)
-    assert all(p.edition_slug == "observer-patterns" for p in plans)
+    assert any(p.edition_slug == "observer-patterns" for p in plans)
 
 
 def test_plan_chapter_audio_cli_json(repo_root: Path) -> None:

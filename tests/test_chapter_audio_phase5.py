@@ -49,6 +49,7 @@ def test_build_manifest_includes_observer_intro_when_available() -> None:
     )
     assert intro is not None
     assert intro["editionSlug"] == "observer-patterns"
+    assert intro["bookRelpath"] == "books/observer-patterns"
     assert intro["chapterSlug"] == "front-matter-introduction"
     assert intro["audioUrl"] == "/generated/audio/observer-patterns/front-matter-introduction.mp3"
     assert intro["alignmentUrl"] == (

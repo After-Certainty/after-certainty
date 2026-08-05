@@ -15,7 +15,7 @@ from chapter_audio.hashing import (
     generation_hash,
     sha256_digest,
 )
-from chapter_audio.receipts import classify_artifacts
+from chapter_audio.receipts import classify_artifacts, load_receipt, receipt_path_for
 from chapter_audio.resolve import ResolvedUnitAudio, classify_status, iter_resolved_units
 
 ALIGNMENT_STRATEGY = "segment-only"
@@ -31,6 +31,7 @@ def _adapter_version(provider: str | None) -> str:
 class UnitAudioPlan:
     unit_id: str
     edition_slug: str
+    book_relpath: str
     title: str
     source_path: str
     kind: str
@@ -72,7 +73,7 @@ def plan_unit(
     manuscript_text: str | None = None,
 ) -> UnitAudioPlan:
     repo = repo.resolve()
-    book_dir = repo / "books" / unit.edition_slug
+    book_dir = repo / unit.book_relpath
     source_file = book_dir / unit.source_path
     source_bytes = b""
     if manuscript_text is None:
@@ -90,6 +91,7 @@ def plan_unit(
         return UnitAudioPlan(
             unit_id=unit.unit_id,
             edition_slug=unit.edition_slug,
+            book_relpath=unit.book_relpath,
             title=unit.title,
             source_path=unit.source_path,
             kind=unit.kind,
@@ -151,6 +153,7 @@ def plan_unit(
         return UnitAudioPlan(
             unit_id=unit.unit_id,
             edition_slug=unit.edition_slug,
+            book_relpath=unit.book_relpath,
             title=unit.title,
             source_path=unit.source_path,
             kind=unit.kind,
@@ -199,7 +202,7 @@ def plan_unit(
     gen_hash = generation_hash(payload)
     has_art, hash_ok, invalid, art_reason = classify_artifacts(
         repo=repo,
-        edition_slug=unit.edition_slug,
+        book_relpath=unit.book_relpath,
         chapter_slug=unit.chapter_slug,
         expected_generation_hash=gen_hash,
     )
@@ -221,16 +224,14 @@ def plan_unit(
         spoken_characters=chars,
         provider_options=unit.provider_options,
     )
-    receipt = None
-    from chapter_audio.receipts import load_receipt, receipt_path_for
-
-    receipt = load_receipt(receipt_path_for(repo, unit.edition_slug, unit.chapter_slug))
+    receipt = load_receipt(receipt_path_for(repo, unit.book_relpath, unit.chapter_slug))
     receipt_hash = str(receipt.get("generationHash") or "").strip() or None if receipt else None
     regen = status in {"enabled-missing", "enabled-stale", "enabled-invalid"}
     regen_reason = reason if regen else "current; regeneration not required"
     return UnitAudioPlan(
         unit_id=unit.unit_id,
         edition_slug=unit.edition_slug,
+        book_relpath=unit.book_relpath,
         title=unit.title,
         source_path=unit.source_path,
         kind=unit.kind,

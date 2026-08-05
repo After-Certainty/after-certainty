@@ -396,6 +396,7 @@ def _install_chapter_audio(
             return 1
         edition = unit.get("editionSlug")
         chapter = unit.get("chapterSlug")
+        book_rel = unit.get("bookRelpath")
         if (
             not isinstance(edition, str)
             or not edition
@@ -410,8 +411,18 @@ def _install_chapter_audio(
                 f"error: unsafe chapter-audio unit paths: {edition!r}/{chapter!r}", file=sys.stderr
             )
             return 1
+        if not isinstance(book_rel, str) or not book_rel.strip():
+            book_rel = f"books/{edition}"
+        book_rel = book_rel.replace("\\", "/").strip("/")
+        if (
+            not book_rel.startswith("books/")
+            or ".." in book_rel.split("/")
+            or book_rel.startswith("/")
+        ):
+            print(f"error: unsafe chapter-audio bookRelpath: {book_rel!r}", file=sys.stderr)
+            return 1
 
-        src_mp3 = repo / "books" / edition / "audio" / f"{chapter}.mp3"
+        src_mp3 = repo / book_rel / "audio" / f"{chapter}.mp3"
         if not src_mp3.is_file():
             print(f"error: missing audio artifact for available unit: {src_mp3}", file=sys.stderr)
             return 1
@@ -432,7 +443,7 @@ def _install_chapter_audio(
 
         alignment_url = unit.get("alignmentUrl")
         if isinstance(alignment_url, str) and alignment_url.strip():
-            src_align = repo / "books" / edition / "audio" / f"{chapter}.alignment.json"
+            src_align = repo / book_rel / "audio" / f"{chapter}.alignment.json"
             if not src_align.is_file():
                 print(f"error: missing alignment for available unit: {src_align}", file=sys.stderr)
                 return 1
@@ -456,7 +467,7 @@ def _install_chapter_audio(
     readme.write_text(
         "# Installed chapter audio\n\n"
         "Produced by `make install-local-manifest-for-site` from available "
-        "`books/*/audio/` artifacts. Do not edit or commit; regenerate from the corpus.\n",
+        "`books/**/audio/` artifacts. Do not edit or commit; regenerate from the corpus.\n",
         encoding="utf-8",
     )
 
