@@ -12,15 +12,13 @@ We remember what the person has accomplished. We notice the lines they have refu
 
 This is necessary work. It is also work we perform badly.
 
-We confuse success with goodness. We mistake the absence of wrongdoing for evidence of restraint, even when no real temptation was present. We allow one dramatic choice to define an entire life. Or, fearing unfair judgment, we retreat to the opposite claim: that no one can know another person well enough to make any judgment at all.
+We confuse success with goodness. We allow one dramatic choice to define an entire life. Or, fearing unfair judgment, we retreat to the opposite claim: that no one can know another person well enough to make any judgment at all.
 
 Ordinary life permits neither certainty nor paralysis.
 
 We must decide whom to trust before we possess complete knowledge. At the same time, another person is always larger than the evidence available to us. Their motives remain partly hidden. Their conduct changes across relationships and circumstances. They may grow, deteriorate, fail unexpectedly, or reveal a capacity no earlier situation had tested.
 
-Character therefore does not appear to us as an object we can inspect directly. It becomes visible through conduct.
-
-One act gives us a trace. A costly choice gives the trace more weight. Repetition allows separate traces to begin forming a pattern. From that pattern, we infer something about the person's likely orientation toward truth, responsibility, care, restraint, courage, or advantage.
+Character therefore does not appear to us as an object we can inspect directly. It becomes visible through conduct: traces that gain weight under cost, and patterns that form when those traces recur.
 
 The inference may be warranted. It is never the same as possessing the person.
 

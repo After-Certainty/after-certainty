@@ -80,15 +80,9 @@ Maya's contribution was partly technical, partly positional, and partly moral. S
 
 Character did not replace competence or procedure. It affected how both were used.
 
-This is why competence and character are often confused in leaders. A person who repeatedly solves difficult problems may be trusted not only to solve the next one but to use their ability responsibly. Success supplies evidence of capacity. It can also produce a halo around motive, restraint, and judgment that the success itself did not prove.
+This is why competence and character are often confused in leaders. Success supplies evidence of capacity. It can also produce a halo around motive, restraint, and judgment that the success itself did not prove. The group looks because the person can move events. Character concerns how that movement is directed and constrained.
 
-A brilliant engineer may become the person everyone follows during an incident while humiliating anyone who questions the diagnosis. A founder may understand the product and conceal financial risk. A community organizer may sacrifice visibly for the cause while treating dissent as betrayal. The group looks because the person can move events. Character concerns how that movement is directed and constrained.
-
-The distinction becomes more important as power grows.
-
-Before others look, a person's impatience may damage one conversation. After others look, impatience teaches the group which questions are dangerous. Private vanity may become a preference for flattering reports. A habit of repair may create a room where mistakes are disclosed earlier. A refusal to retaliate may allow knowledge to move from the least powerful person toward the decision before the damage becomes irreversible.
-
-The same pattern can therefore have larger consequences without becoming a different virtue or vice.
+The distinction becomes more important as power grows. Before others look, a person's impatience may damage one conversation. After others look, impatience teaches the group which questions are dangerous. A habit of repair may create a room where mistakes are disclosed earlier. A refusal to retaliate may allow knowledge to move from the least powerful person toward the decision before the damage becomes irreversible.
 
 Leadership amplifies.
 
@@ -143,8 +137,6 @@ She thanked the employee who noticed the indicator. She explained the contractua
 That choice became another part of the pattern.
 
 People looked to Maya because of what they had seen before. What they saw now would affect where they looked next time, what they believed they were allowed to say, and whether the organization became more dependent on Maya or more capable around her.
-
-A leader is someone others look to when deciding what to do next.
 
 Character helps determine what they see when they look—and what becomes possible after they do.
 

@@ -44,9 +44,7 @@ The first truthful admission may feel almost physically difficult. The person re
 
 This is one way discipline forms character. Discipline is not the absence of desire. It is the growing capacity to place desire among other claims rather than allowing it to rule alone.
 
-The distinction matters because many cultures praise cost before asking what the cost serves.
-
-A workplace celebrates the employee who answers messages at midnight but does not ask whether the urgency was real, whether poor planning created it, or who absorbed the employee's absence elsewhere. A family praises the child who never asks for help and mistakes invisibility for maturity. A community admires the person who gives until they collapse, then treats the collapse as proof that the giving was sincere.[^c5-duckworth-grit]
+The distinction matters because many cultures praise cost before asking what the cost serves. A workplace celebrates midnight replies without asking whether the urgency was real. A family praises the child who never asks for help. A community admires the person who gives until they collapse, then treats the collapse as proof that the giving was sincere.[^c5-duckworth-grit]
 
 The sacrifice may be real. So may the damage.
 
@@ -64,13 +62,7 @@ A manager who works all night to rescue a project may appear sacrificial while r
 
 Before admiring sacrifice, we should ask who benefits, who pays, and whether the cost was connected to something worth protecting.
 
-Those questions complicate the alarm clock.
-
-Getting up early may express a chosen commitment. It may also continue a pattern of treating the body as an obstacle. The person studying before work could be building a capacity that will widen their life. They could also be chasing a standard inherited from someone else, afraid that rest will expose them as ordinary.
-
-The sound of the alarm cannot decide between those stories.
-
-Even the decision to remain in bed may carry different meanings. It can be avoidance. It can also be judgment. A person who has slept four hours for several nights may need to abandon the study plan, admit that the schedule is unsustainable, and ask for help. Turning off the alarm can be an act of irresponsibility or a refusal to keep calling damage discipline.
+Those questions complicate the alarm clock. Getting up early may express a chosen commitment or continue a pattern of treating the body as an obstacle. Remaining in bed may be avoidance—or judgment that the schedule has become unsustainable and needs revision.
 
 Character does not remove the need to interpret the claim being made.
 

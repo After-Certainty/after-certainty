@@ -90,17 +90,9 @@ The pattern had entered the system through language that sounded competent.[^c14
 
 This is how character becomes constraint as well as permission.
 
-A leader who prizes decisiveness may create needed movement. Repeated without humility, the same orientation can narrow what the group is able to notice. A leader who values loyalty may sustain people through difficulty. Repeated without answerability, loyalty can become a demand that accurate information remain subordinate to belonging. Care can become rescue. Restraint can become avoidance. Courage can become permanent confrontation.
+A leader who prizes decisiveness may create needed movement—or narrow what the group is able to notice. Loyalty may sustain people through difficulty, or demand that accurate information remain subordinate to belonging. Care can become rescue. Restraint can become avoidance. Courage can become permanent confrontation.
 
-The social consequence does not always reveal whether the original disposition was good or bad. Values interact with scale, power, and repetition.
-
-A patient person may tolerate ambiguity long enough for better judgment to emerge. They may also allow harmful conduct to continue because intervention feels too forceful. A candid leader may make truth easier to speak. They may also use honesty as permission for contempt. A generous leader may provide resources others need while making gratitude the price of independence.
-
-Character enters the system through form as well as content.
-
-How is truth told? Who bears the inconvenience of care? Does restraint protect another person's agency or merely avoid responsibility? Does courage expose the leader to cost or transfer the cost to followers?
-
-The group learns these distinctions through experience.
+The social consequence does not always reveal whether the original disposition was good or bad. Values interact with scale, power, and repetition. The group learns the distinctions through experience: how truth is told, who bears inconvenience, whether restraint protects agency or merely avoids responsibility.
 
 When Marcus said, "We do not know this yet," he modeled epistemic restraint. What happened next would determine whether the sentence became trustworthy. If the test showed no problem and he later mocked the caution, the permission would contract. If the launch failed and he claimed he had always demanded delay, the record would teach people not to trust his repair. If he preserved the sequence accurately regardless of outcome, the group might learn that judgment could remain answerable to evidence without turning every uncertainty into paralysis.
 
@@ -174,25 +166,15 @@ Marcus could not promise that every objection would delay a launch. He could pro
 
 The promise would become credible only through repetition.
 
-Months later, another employee raised a concern that turned out to be mistaken. Marcus asked for the evidence, allowed a short investigation, and then proceeded. He did not treat the false alarm as proof that the permission had been abused. The next quarter, he rejected a late objection whose owner could not explain what new information had appeared. He documented why.
-
-Permission did not mean that every claim controlled the group.
-
-It meant that claims could enter judgment without the claimant first surrendering safety, dignity, or belonging.
+Permission did not mean that every claim controlled the group. It meant that claims could enter judgment without the claimant first surrendering safety, dignity, or belonging.
 
 That distinction is one form of character entering the system well.
 
 The leader's pattern creates neither universal comfort nor automatic agreement. It creates conditions in which responsibility can circulate instead of collecting only around fear, flattery, or rescue.
 
-Over time, people may stop describing the pattern as Marcus's. They may say, "We do not turn uncertainty green to make the slide look better," or "A closed issue can be reopened when the evidence changes." The personal conduct has become a group expectation.
-
-The character attributed to the person begins attaching itself to the role.
+Over time, people may stop describing the pattern as Marcus's. They may say, "We do not turn uncertainty green to make the slide look better," or "A closed issue can be reopened when the evidence changes." The personal conduct has become a group expectation. The character attributed to the person begins attaching itself to the role.
 
 A new employee entering the meeting room sees the open door, the yellow items, and the director asking the quietest person whether anything has been missed. They do not know the history. They encounter a practice carrying traces of it.
-
-Character begins as a pattern within a person. Leadership allows the pattern to enter the system.
-
-Once inside, the pattern may become permission, expectation, constraint, story, ritual, and symbol.
 
 Near the reception desk hangs a framed portrait of the organization's founder.
 
