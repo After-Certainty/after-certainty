@@ -78,4 +78,5 @@ Google Docs imported, manuscript tree assembled under `upcoming/when-the-key-cha
 ## Rough scale
 
 - Manuscript words (parts + front/back matter, excl. bibliography/docs): ~38–40k
-- Last assessed: assembly + citation pass (August 2026)
+- Cover: `book-cover.png` + house `open-graph.png` (Drive import Aug 2026)
+- Last assessed: assembly + citation pass + cover/OG (August 2026)
