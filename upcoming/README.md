@@ -32,6 +32,6 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 No active nonfiction scaffolds under `upcoming/` at present.
 
-**Recently promoted:** **Reality Pushes Back** — [`books/reality-pushes-back/`](../books/reality-pushes-back/) (pattern-language narrative; exports enabled).
+**Recently promoted:** **When the Key Changes Hands** — [`books/when-the-key-changes-hands/`](../books/when-the-key-changes-hands/) (character → trust → succession; exports enabled). **Reality Pushes Back** — [`books/reality-pushes-back/`](../books/reality-pushes-back/) (pattern-language narrative; exports enabled).
 
 Scaffold additional titles from [`docs/_templates/`](docs/_templates/).

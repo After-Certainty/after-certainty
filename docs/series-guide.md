@@ -46,6 +46,14 @@ Once influence gathers around a person, what kind of leader leaves behind more l
 
 **Pair with:** *When Others Look To You* (formation and accumulation) → this book (circulation and legacy). Each stands alone.
 
+### [When the Key Changes Hands](../books/when-the-key-changes-hands/index.md)
+
+Character becomes visible through recurring costly choices; those patterns become evidence for trust; leadership makes character socially consequential and eventually symbolic; succession transfers authority without transferring the character that made trust reasonable.
+
+**Question:** What makes us believe someone will use freedom responsibly when no rule fully describes what comes next?
+
+**Pair with:** *Everyone Knows Love* (care as practice) → *How Trust Forms* (trust under uncertainty) → *When Others Look To You* / *When Others Become Leaders* (looking-to and circulation). Character is the human input those books presuppose; this book owns the path to succession mismatch.
+
 ---
 
 ## Stabilization
@@ -162,14 +170,15 @@ For readers building the full argument (conceptual, not prescriptive):
 2. **[How Meaning Moves](../books/how-meaning-moves/index.md)** — Formation  
 3. **[When Others Look To You](../books/when-others-look-to-you/v2/index.md)** — Formation  
 4. **[When Others Become Leaders](../books/when-others-become-leaders/index.md)** — Formation (circulation and legacy; pair with WOLTY)  
-5. **[When Authority Is Misread](../books/when-authority-is-misread/index.md)** — Stabilization  
-6. **[When Accountability No Longer Expires](../books/when-accountability-no-longer-expires/index.md)** — Stabilization  
-7. **[When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md)** — Tension  
-8. **[When Incentives Become the Moral Language](../books/when-incentives-become-the-moral-language/index.md)** — Tension  
-9. **[After Certainty](../books/after-certainty/index.md)** — Practice (capstone)
-10. **[Learning to See](../books/learning-to-see/index.md)** — Practice (comparative practices)
-11. **[The World We Make Together](../books/the-world-we-make-together/index.md)** — Practice (collective action)
-12. **[No Time to Think](../books/no-time-to-think/index.md)** — Practice (judgment under acceleration)
+5. **[When the Key Changes Hands](../books/when-the-key-changes-hands/index.md)** — Formation (character → trust → succession)  
+6. **[When Authority Is Misread](../books/when-authority-is-misread/index.md)** — Stabilization  
+7. **[When Accountability No Longer Expires](../books/when-accountability-no-longer-expires/index.md)** — Stabilization  
+8. **[When Interpretation No Longer Matters](../books/when-interpretation-no-longer-matters/index.md)** — Tension  
+9. **[When Incentives Become the Moral Language](../books/when-incentives-become-the-moral-language/index.md)** — Tension  
+10. **[After Certainty](../books/after-certainty/index.md)** — Practice (capstone)
+11. **[Learning to See](../books/learning-to-see/index.md)** — Practice (comparative practices)
+12. **[The World We Make Together](../books/the-world-we-make-together/index.md)** — Practice (collective action)
+13. **[No Time to Think](../books/no-time-to-think/index.md)** — Practice (judgment under acceleration)
 
 Several of these are **essay-length** concentrated arguments (~8–13k words), not full-length volumes.
 
@@ -275,6 +284,14 @@ These published titles extend adjacent questions. They are not required for the 
 
 Read WOLTY for **formation and accumulation**; read WOBL for **circulation and legacy**. Either order works; WOBL includes [`reading-with-the-series.md`](../books/when-others-become-leaders/front-matter/reading-with-the-series.md) for vocabulary handoff.
 
+### When the Key Changes Hands vs When Others Look To You / Become Leaders
+
+**When the Key Changes Hands** asks how **character becomes visible** enough for trust, and what happens when authority and expectation transfer without the disposition that made them reasonable.
+
+**When Others Look To You** asks how **looking-to** forms; **When Others Become Leaders** asks whether influence **circulates** after the person. Those books presuppose character as an input; this book develops the character → trust → succession spine before leadership is the whole subject.
+
+Read Key Changes Hands for **evidence and succession**; read WOLTY/WOBL for **leadership formation and legacy**.
+
 ### When Accountability No Longer Expires vs When Authority Outlives Accountability
 
 **When Authority Outlives Accountability** is a **leadership lens**: how authority can persist after accountability erodes, and what moral leadership requires to restore integrity in that gap—evaluation at human scale.
@@ -352,6 +369,7 @@ Read them as companions; do not collapse either into a general AI or culture-war
 | When Others Become Leaders | [books/when-others-become-leaders/index.md](../books/when-others-become-leaders/index.md) |
 | When Others Look to You (v1) | [books/when-others-look-to-you/v1/index.md](../books/when-others-look-to-you/v1/index.md) |
 | When Others Look to You (v2) | [books/when-others-look-to-you/v2/index.md](../books/when-others-look-to-you/v2/index.md) |
+| When the Key Changes Hands | [books/when-the-key-changes-hands/index.md](../books/when-the-key-changes-hands/index.md) |
 | Why Collaboration Is So Hard | [books/why-collaboration-is-so-hard/index.md](../books/why-collaboration-is-so-hard/index.md) |
 
 ---

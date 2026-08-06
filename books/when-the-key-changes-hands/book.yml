@@ -1,0 +1,148 @@
+version: 1
+publishing:
+  enabled: true
+book:
+  id: when-the-key-changes-hands
+  title: When the Key Changes Hands
+  subtitle: Character, Trust, and What We Cannot Predict
+  description: >
+    Character becomes visible through recurring costly choices; those patterns
+    become evidence for trust; leadership makes character socially consequential
+    and eventually symbolic; succession transfers authority without transferring
+    the character that made trust reasonable.
+  author:
+    name: Kevin Steffensen
+    website: https://after-certainty.com
+  language: en
+  copyright_year: 2026
+  keywords: "character; trust; costly choice; succession; leadership; permission; symbols; responsibility"
+  title_page_cover: book-cover.png
+  open_graph_image: open-graph.png
+  content_type: nonfiction
+  literary_form: monograph
+  overview:
+    centralQuestion: >
+      What makes us believe someone will use freedom responsibly when no rule
+      fully describes what comes next?
+    whyItExists: >
+      The corpus already owns love, trust formation, and leadership formation/
+      circulation. This book owns the spine from costly choice to visible
+      character, from character to warranted trust, and from trusted character
+      to the mismatch exposed when authority changes hands.
+    audience: >
+      Readers of leadership, trust, and moral psychology who care how character
+      becomes visible enough for judgment—and what happens when the key changes
+      hands.
+    nonGoals:
+    - It is not a survey of virtue ethics, personality psychology, or leadership technique.
+    - It does not rewrite When Others Look to You, When Others Become Leaders, or the trust trilogy.
+    - It is not a partisan scorecard for public figures.
+    selectedConcepts:
+    - trust
+    - authority
+    - responsibility
+    - permission
+    - care
+    - inheritance
+    selectedPatterns:
+    - authority-follows-attention
+    - leadership-coalesces
+    - leadership-reproduces-itself
+    - scrutiny-preserves-trust
+    selectedConceptRoles:
+    - conceptId: trust
+      roleInWork: >
+        Character is one category of evidence for warranted reliance when the
+        future cannot be fully specified.
+    - conceptId: authority
+      roleInWork: >
+        Authority can transfer with a role or key while the disposition that
+        made trust reasonable does not.
+    - conceptId: responsibility
+      roleInWork: >
+        Costly choices under pressure reveal what a person will answer for when
+        advantage and duty diverge.
+    - conceptId: permission
+      roleInWork: >
+        When others look to someone, trusted character becomes social permission
+        for what the group will tolerate.
+    - conceptId: care
+      roleInWork: >
+        Love as voluntary inconvenience is an ordinary training ground where
+        character forms through repeated costly attention.
+    - conceptId: inheritance
+      roleInWork: >
+        Succession inherits expectations and symbols attached to a person without
+        inheriting the character that created them.
+    selectedPatternRoles:
+    - patternId: authority-follows-attention
+      roleInWork: >
+        Looking-to concentrates authority; character shapes what that attention
+        licenses when pressure rises.
+    - patternId: leadership-coalesces
+      roleInWork: >
+        Leadership appears where people need cues; character is part of what
+        makes those cues feel trustworthy.
+    - patternId: leadership-reproduces-itself
+      roleInWork: >
+        Roles and symbols can reproduce looking-to after the person leaves—
+        without reproducing the disposition.
+    - patternId: scrutiny-preserves-trust
+      roleInWork: >
+        Trust that cannot revise after failure becomes dangerous; character
+        evidence includes repair and return.
+    readBefore:
+    - everyone-knows-love
+    - how-trust-forms
+    - when-others-look-to-you-v1
+    readNext:
+    - when-others-become-leaders
+    - when-authority-is-misread
+    - after-certainty
+    relatedWorks:
+    - workId: everyone-knows-love
+      relationship: companion_to
+      reason: Love as voluntary inconvenience is a training ground where character forms; this book asks what repeated costly care leaves behind.
+    - workId: how-trust-forms
+      relationship: companion_to
+      reason: Trust reduces complexity under uncertainty; this book treats character as one category of evidence for warranted reliance.
+    - workId: when-others-look-to-you
+      relationship: companion_to
+      reason: Leadership as looking-to arrives late; character is the human input that shapes how looking-to becomes permission.
+    - workId: when-others-become-leaders
+      relationship: prepares_for
+      reason: Circulation and legacy after the leader leave; this book explains the succession mismatch when character does not transfer with the key.
+    - workId: when-authority-is-misread
+      relationship: deepens
+      reason: Restraint under pressure can compress into inherited expectation; this book generalizes that into succession without transferred character.
+paths:
+  manuscript: ./index.md
+  output: .
+frontmatter:
+  generate:
+    enabled: true
+    title_page:
+      repo_template: templates/title_page.md.j2
+      output: front-matter/title-page.md
+    copyright:
+      repo_template: templates/copyright.md.j2
+      output: front-matter/copyright.md
+    about_the_series:
+      repo_template: templates/about_the_series.md.j2
+      output: front-matter/about-the-series.md
+build:
+  formats:
+    docx:
+      enabled: true
+      interior_finish: true
+    epub:
+      enabled: true
+    pdf:
+      enabled: true
+github:
+  release: true
+  release_tag: latest
+  artifacts:
+  - docx
+  - epub
+  - pdf

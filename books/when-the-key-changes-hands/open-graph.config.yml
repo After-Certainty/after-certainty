@@ -1,0 +1,23 @@
+# Tuning for tools/generate_open_graph.py — When the Key Changes Hands
+# Cover: forest foliage over warm desk (keys, notebook, compass, photo)
+bg_crop: [0, 720, 1024, 1380]
+tint: [22, 28, 18, 145]
+accent_color: [218, 178, 72]
+title_lines:
+  - text: When
+    color: white
+  - text: the Key
+    color: accent
+  - text: Changes
+    color: white
+  - text: Hands
+    color: accent
+subtitle_lines:
+  - CHARACTER, TRUST, AND WHAT
+  - WE CANNOT PREDICT
+subtitle_color: accent
+font_title: 44
+font_sub: 16
+title_start_y: 70
+title_line_gap: 50
+rule_width: 360

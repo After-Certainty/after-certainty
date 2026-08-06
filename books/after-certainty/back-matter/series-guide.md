@@ -36,6 +36,14 @@ Once influence gathers around a person, what kind of leader leaves behind more l
 
 **Pair with:** *When Others Look To You* (formation and accumulation) → this book (circulation and legacy). Each stands alone.
 
+### **When the Key Changes Hands**
+
+Character becomes visible through recurring costly choices; those patterns become evidence for trust; leadership makes character socially consequential and eventually symbolic; succession transfers authority without transferring the character that made trust reasonable.
+
+**Question:** What makes us believe someone will use freedom responsibly when no rule fully describes what comes next?
+
+**Pair with:** *Everyone Knows Love* (care as practice) → *How Trust Forms* (trust under uncertainty) → *When Others Look To You* / *When Others Become Leaders* (looking-to and circulation).
+
 ---
 
 ## **Stabilization**
