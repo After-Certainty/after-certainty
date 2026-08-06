@@ -1,1 +1,3 @@
 plans/
+debug-*.log
+vercel-build-usage*.json
