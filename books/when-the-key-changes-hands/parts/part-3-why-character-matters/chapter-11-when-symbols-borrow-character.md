@@ -48,13 +48,7 @@ Symbols carry expectations farther than direct observation can travel.[^c11-berg
 
 Most people who trusted the foundation's process had never attended every board meeting. They heard stories, watched outcomes, and encountered staff who had adjusted their own behavior around the chair. The attributed character moved through reputation, ritual, and the ordinary sentence: that is how decisions are handled here.
 
-The symbol was not merely an image. It altered conduct.
-
-People prepared differently for a meeting they expected to be fair. They brought evidence instead of allies. They admitted uncertainty. They were more willing to accept losing a vote because losing did not automatically mean being dismissed.
-
-A different attributed character would have created a different room.
-
-If the chair were known for retaliation, members would rehearse safer language, build coalitions before speaking, and preserve records outside the official process. If the chair were known for rescue, staff might wait for crises to be absorbed rather than developing their own capacity. If the chair were known for certainty, ambiguity might disappear from reports before it reached the table.
+The symbol was not merely an image. It altered conduct. People prepared differently for a meeting they expected to be fair. They brought evidence instead of allies. They admitted uncertainty. They were more willing to accept losing a vote because losing did not automatically mean being dismissed.
 
 Character begins within a person, but its social consequences do not remain there.
 
@@ -128,13 +122,7 @@ That persistence makes symbols useful. It also makes them dangerous.
 
 A role can carry trust no new holder has earned. It can carry suspicion created by someone else. It can preserve a standard worth continuing or a myth that prevents the institution from seeing what its practices actually require.
 
-Those consequences will matter later, when the person and the role begin pulling apart more visibly. For now, the empty chair reveals the movement we need to see.
-
-The actual person acted. Others observed a recurring pattern. They attributed character to it. The role began carrying the attribution.
-
-The chair had not become fair.
-
-It had become a place where people expected fairness to appear.
+The chair had not become fair. It had become a place where people expected fairness to appear.
 
 That expectation made reliance possible. It also made safeguards easier to neglect.
 

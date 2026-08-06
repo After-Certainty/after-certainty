@@ -14,17 +14,15 @@ The glance lasted only a moment.
 
 It changed the situation.
 
-Until now, this book has followed character through private choices and practical trust. We watched conduct become pattern, pattern become attributed character, and attributed character become a basis for reliance. We asked what someone might do with access when no rule fully described the future. We also asked what systems could preserve when the prediction failed.
+Until now, this book has followed character through private choices and practical trust. But reliance does not remain private when other people begin using one person's expected conduct to decide what they should do.
 
-But reliance does not remain private when other people begin using one person's expected conduct to decide what they should do.
-
-A person who has repeatedly noticed what others missed becomes someone the room waits for. A person who has told the truth when truth was costly becomes someone others consult before accepting the easier account. A person who has absorbed every crisis becomes the figure toward whom unfinished work travels. Fear can produce the same movement. People may look toward the person whose anger determines which facts can safely be named.
+A person who has repeatedly noticed what others missed becomes someone the room waits for. A person who has told the truth when truth was costly becomes someone others consult. Fear can produce the same movement: people look toward the person whose anger determines which facts can safely be named.
 
 The pattern has entered the decisions of others.
 
 This is where leadership appears.
 
-Leadership is not introduced here as a title, rank, personality, or moral achievement. It begins in the ordinary moment when someone looks to another person while deciding what to do next. The person being watched may hold formal authority or none at all. They may have invited the attention, inherited it, earned it slowly, or discovered it only after everyone else fell silent.
+Leadership is not introduced here as a title, rank, personality, or moral achievement. It begins in the ordinary moment when someone looks to another person while deciding what to do next. The person being watched may hold formal authority or none at all.
 
 The attention matters because uncertainty remains.
 
@@ -40,25 +38,13 @@ Others imitate what seems rewarded. They hide what appears dangerous. They learn
 
 This does not mean a leader controls everything that follows. Groups interpret, resist, misunderstand, and carry patterns in directions the original person did not intend. Institutions preserve incentives and habits that exceed any individual. A leader can make truth safer without making everyone truthful. They can model restraint while others admire only the appearance of certainty. They can attempt repair and still leave damage another person must carry.
 
-The distinction between person, pattern, attributed character, and symbolic role remains essential.
-
-The actual person acts from motives and conditions no observer fully possesses. Others see a recurring public pattern. They attribute character to it. As more people rely on that attribution, the role from which the person acts begins carrying expectations of its own.
-
-The role may come to mean steadiness, rescue, fairness, force, warmth, resistance, certainty, or fear.
-
-Then the meaning starts traveling.
-
-New people enter the group already knowing whom others look toward. Stories explain what the person is like before direct experience can. Ambiguous conduct is interpreted through the character already attributed. The person becomes easier to remember as a symbol than as a changing human being. Eventually, the role may preserve the expectation after the person leaves.
+The distinction between person, pattern, attributed character, and symbolic role remains essential. As more people rely on an attributed character, the role from which the person acts begins carrying expectations of its own. Eventually, the role may preserve the expectation after the person leaves.
 
 That is where succession becomes difficult.
 
 Authority can be reassigned in an afternoon. A nameplate can be replaced. Access can be granted, a title announced, and a key placed in a new hand. But the expectations attached to the role were formed through conduct that cannot be transferred with the office.
 
-Before reaching that problem, we need to follow the social movement in order.
-
-First, someone looks up.
-
-Then repeated conduct teaches the group what is permitted. The person becomes entangled with a symbol others use to interpret events. Finally, a successor enters a role already carrying expectations shaped by someone else's attributed character.
+Before reaching that problem, we need to follow the social movement in order: someone looks up; repeated conduct teaches the group what is permitted; the person becomes entangled with a symbol; a successor enters a role already carrying someone else's attributed character.
 
 Leadership arrives late in this book because it depends on everything that came before it. The question is not whether leaders should possess a list of virtues. It is how recurring patterns of choice become relevant to what other people do, what groups come to expect, and what institutions believe can be inherited.
 

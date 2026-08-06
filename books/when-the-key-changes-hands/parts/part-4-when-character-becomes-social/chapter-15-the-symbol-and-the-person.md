@@ -64,11 +64,7 @@ Mara's portrait did not stand only for Mara. It stood for the organization's dif
 
 The symbolic role acquired moral shelter from the belonging gathered around it.
 
-People defend symbols because symbols hold pieces of themselves.
-
-The founder who gave language to a group's purpose becomes evidence that the purpose is good. The parent associated with family sacrifice becomes difficult to challenge without appearing ungrateful. The public figure who represents resistance becomes protected from scrutiny because criticism seems to aid the forces the group resists. The leader associated with safety can receive powers that would look dangerous in someone else's hands.
-
-The judgment may begin in real conduct. Attachment changes the cost of revising it.
+People defend symbols because symbols hold pieces of themselves. The founder who gave language to a group's purpose becomes evidence that the purpose is good. The public figure who represents resistance becomes protected from scrutiny because criticism seems to aid the forces the group resists. The judgment may begin in real conduct. Attachment changes the cost of revising it.
 
 This explains why disagreement about character often survives agreement about facts.
 
@@ -108,21 +104,11 @@ The symbol that once carried evidence can begin demanding conduct designed to pr
 
 This is one reason power can change character without creating an entirely new person. Attention alters the cost of choice. The person now chooses beneath expectations amplified by followers, opponents, institutions, and history. The temptation is not only money or control. It may be the desire to remain recognizable as the person everyone believes they need.
 
-Mara began trying to change during her final years.
+Mara began trying to change during her final years. She created a rotating emergency schedule, asked department leads to decide without waiting for her, and documented donor history so every major relationship had more than one contact. When someone brought her a problem, she sometimes asked, "What part of this actually belongs to me?"
 
-She created a rotating emergency schedule. She asked department leads to make decisions without waiting for her approval. She documented donor history and required that every major relationship have more than one contact. When someone brought her a problem, she sometimes asked, "What part of this actually belongs to me?"
+Some employees welcomed the change. Others experienced it as abandonment. They had trusted Mara's rescue, not an abstract principle of distributed responsibility. The earlier pattern shaped the interpretation of the later correction.
 
-Some employees welcomed the change. Others experienced it as abandonment.
-
-They had trusted Mara's rescue, not an abstract principle of distributed responsibility. When she declined to solve a problem she once would have absorbed, they did not see a leader building capacity. They saw the symbol failing to appear.
-
-The earlier pattern shaped the interpretation of the later correction.
-
-This does not mean Mara should have continued rescuing. It means a leader cannot revise a symbolic role by explanation alone. The group has to encounter a different pattern long enough for new expectations to become reasonable.
-
-Mara did not have enough time to complete that work.
-
-Her retirement arrived before the new practices felt ordinary. The emergency schedule existed, but people still called her. Department leads had authority, but many decisions returned to the director's office. The board praised sustainability while privately hoping the next director would possess Mara's instinct for saving the day.
+A leader cannot revise a symbolic role by explanation alone. The group has to encounter a different pattern long enough for new expectations to become reasonable. Mara did not have enough time. The board praised sustainability while privately hoping the next director would possess Mara's instinct for saving the day.
 
 The symbol survived the person's attempt to change it.
 

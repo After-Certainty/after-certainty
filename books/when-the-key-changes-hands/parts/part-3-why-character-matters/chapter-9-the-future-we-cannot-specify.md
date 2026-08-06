@@ -22,13 +22,9 @@ The contract could require notice of hidden conditions. It could define how addi
 
 The contract governed the future it could name. Character mattered in the remainder.[^c9-simon-behavioral-model]
 
-Every serious agreement contains such a remainder.
+Every serious agreement contains such a remainder. A wedding vow cannot list every illness and change two people may encounter. A job description cannot specify every conflict between speed, accuracy, and loyalty. A medical consent form cannot anticipate each judgment care will require after the patient can no longer participate.
 
-A wedding vow cannot list every illness, resentment, opportunity, dependency, and change that two people may encounter. A job description cannot specify every conflict between speed, accuracy, loyalty, and public responsibility. A medical consent form cannot anticipate each judgment that care will require after the patient can no longer participate. A friendship has no appendix describing what to do when one person's need becomes larger than the other person's capacity.
-
-We write rules because memory fails, interests diverge, and clarity matters. We make promises because some commitments should remain present after feeling changes. We create procedures because important decisions should not depend entirely on mood, status, or private interpretation.
-
-Still, no document can contain the life that follows it.[^c9-hayek-use-of-knowledge]
+We write rules because memory fails, interests diverge, and clarity matters. We make promises because some commitments should remain present after feeling changes. Still, no document can contain the life that follows it.[^c9-hayek-use-of-knowledge]
 
 The future produces combinations the writers did not imagine. Facts arrive late. Obligations compete. A rule written to prevent one kind of harm can create another when applied without judgment. Sometimes the letter of an agreement becomes a shield against the responsibility that gave rise to it.
 
@@ -54,9 +50,7 @@ Past conduct does not write the next choice. It gives the next choice a history.
 
 That history matters because we cannot start every relationship from zero whenever something changes. We cannot supervise every act, verify every sentence, or renegotiate every obligation at the moment it becomes inconvenient. Life moves too quickly, and much of what matters happens before review is possible.
 
-Parents choose caregivers before knowing which emergency will occur. Organizations assign access before knowing which records will become sensitive. Patients appoint surrogates before knowing what treatment decision will be required. Citizens grant officials powers whose most consequential use may arise in a crisis no campaign discussed.
-
-In each case, someone receives room to act.
+Parents choose caregivers before knowing which emergency will occur. Organizations assign access before knowing which records will become sensitive. Patients appoint surrogates before knowing what treatment decision will be required. In each case, someone receives room to act.
 
 Competence matters within that room. The contractor needs to understand moisture, materials, and the limits of the repair. A surgeon needs technical skill. An executor needs financial knowledge. Good intentions without capacity can create harm that sincerity cannot prevent.
 
@@ -115,10 +109,6 @@ Nothing about the decision was spectacular.
 The hidden damage had created a situation the agreement did not fully specify. The response made visible what earlier patterns had given others reason to expect.
 
 The blank line remained empty when the revised change order was attached. It no longer looked like an omission. It looked like an honest admission that no page could finish the future in advance.
-
-Character makes another person's future choices less unknowable.
-
-That is enough to matter. It is not enough to remove risk.
 
 The contract was folded and placed in a drawer. Work would resume after the inspection.
 

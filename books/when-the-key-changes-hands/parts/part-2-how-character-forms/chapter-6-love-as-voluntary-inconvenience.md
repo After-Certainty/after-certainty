@@ -64,19 +64,13 @@ Love can ask for sacrifice. It cannot make every sacrifice wise.
 
 The question is not whether the giver paid a cost, but whether the relationship being practiced allows both people to remain real.
 
-This changes the meaning of patience. Patience is not endless tolerance of harm. It is the willingness to remain present while another person develops at a pace we cannot command. Sometimes patience waits. Sometimes it repeats an explanation. Sometimes it stops protecting someone from the consequences required for change.
-
-Honesty changes too. A person may imagine that love means preserving comfort, but affection without truth can become collusion. Telling someone what they do not want to hear may risk approval. Receiving the same truth in return may cost pride. Love gives honesty a reason beyond the pleasure of being correct.
-
-Courage enters when care exposes us to uncertainty. We cannot guarantee that the casserole will help, that the conversation will be received, or that a person we protect will use freedom well. To love is to accept forms of vulnerability that control tries to remove.
+Honesty changes too. Affection without truth can become collusion. Telling someone what they do not want to hear may risk approval; receiving the same truth may cost pride. Love gives honesty a reason beyond the pleasure of being correct.
 
 Responsibility enters when feeling is absent.[^c6-frankfurt-reasons-of-love]
 
-No relationship remains emotionally vivid at every hour. A child still needs breakfast when the parent is distracted. A friend's grief repeats stories we have already heard. A partnership includes chores whose moral significance disappears into routine. Love is not disproved by the absence of warm feeling in those moments. It may become visible in the decision to remain answerable after the feeling that made answerability easy has passed.
+No relationship remains emotionally vivid at every hour. A child still needs breakfast when the parent is distracted. A partnership includes chores whose moral significance disappears into routine. Love is not disproved by the absence of warm feeling in those moments. It may become visible in the decision to remain answerable after the feeling that made answerability easy has passed.
 
-The repeated decision leaves a mark.
-
-A person becomes more practiced at setting down the phone, asking another question, waiting through silence, admitting the sharper sentence was unfair, or changing plans without treating the change as theft. Their first movement of attention begins to widen. Another person's good appears earlier in the decision.
+The repeated decision leaves a mark. A person becomes more practiced at setting down the phone, asking another question, admitting the sharper sentence was unfair, or changing plans without treating the change as theft.
 
 This is formation, not perfection.
 
@@ -98,17 +92,15 @@ The person who crossed the driveway may carry the dish again months later in the
 
 But repetition does more than reproduce the gesture. It can change the chooser's relationship to inconvenience.
 
-Time spent for another person stops feeling like an inexplicable loss. Attention becomes less captive to the self. Pride learns that an apology can be survived. Restraint learns that care is not possession. Courage learns to remain present without controlling the outcome.
+Time spent for another person stops feeling like an inexplicable loss. Attention becomes less captive to the self. Restraint learns that care is not possession.
 
 Love gives character somewhere ordinary to practice.[^c6-hooks-all-about-love]
 
-The practice is never finished because the people involved keep changing. Yesterday's useful help may be today's intrusion. A boundary may need to move. A child becomes an adult. A friend recovers. A caregiver becomes the one who needs care. Love must recognize the changed reality rather than preserve the role in which it once knew what to do.
+The practice is never finished because the people involved keep changing. Yesterday's useful help may be today's intrusion. A caregiver becomes the one who needs care. Love must recognize the changed reality rather than preserve the role in which it once knew what to do.
 
 The casserole dish eventually comes back washed, the strip of masking tape peeled from the lid. The evening that produced it is over. No trophy records the hours spent or the plans rearranged.
 
-What remains may be less visible.
-
-The person notices sooner the next time. They ask before assuming. They tolerate the inconvenience of another person's difference. They become more capable of giving without owning and receiving without shame.
+What remains may be less visible: the person notices sooner, asks before assuming, and becomes more capable of giving without owning.
 
 One act may express care. Repeated care begins to form a dependable orientation.
 
