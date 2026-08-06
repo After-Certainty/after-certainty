@@ -82,19 +82,13 @@ It must become visible through repeated choices: where the successor remains pre
 
 Authority can be transferred. Expectations can be inherited. Character must be encountered.
 
-The worn path, the alarm, the casserole dish, the pill organizer, the repaired bowl, the blank contract line, the spare key, the chair, the guardrail, the open door, the portrait, and the nameplate have each shown a different part of the movement.
-
-None contains character.
-
-They preserve the places where character becomes visible.
-
-A page records an outcome but not the choices that produced it. A form waits for a signature. Footprints reveal a route without revealing the whole walker. A habit carries yesterday's judgment into today's distraction. A visible seam shows that repair can return something to use without making it unbroken. A portrait allows a group to remember and makes forgetting easier at the same time.
+The worn path, the spare key, the chair, the guardrail, the portrait, and the nameplate have each shown a different part of the movement. None contains character. They preserve the places where character becomes visible.
 
 The key is simpler than all of them.
 
 It opens the door.
 
-The person holding it may enter a familiar situation or one no previous instruction described. They may use the freedom narrowly, generously, fearfully, wisely, or destructively. The next choice will join the pattern, interrupt it, or begin a different one.
+The person holding it may enter a familiar situation or one no previous instruction described. The next choice will join the pattern, interrupt it, or begin a different one.
 
 Character is revealed through recurring patterns of choice, especially when those choices are costly.
 
@@ -106,19 +100,9 @@ Character does not prove that a person is good in every domain. It does not elim
 
 It gives us evidence for a warranted expectation.
 
-That is not everything.
+That is not everything. It is also how much of human life becomes possible. Trust moves through these expectations—and so does fear.
 
-It is also how much of human life becomes possible.
-
-A friend speaks because a confidence has been kept before. A colleague names a mistake because correction has not brought retaliation. A child asks for help because care has survived inconvenience. A board grants authority because restraint has remained visible when advantage was available. A successor is given time because new conduct has begun to form a pattern of its own.
-
-Trust moves through these expectations.
-
-So does fear.
-
-When no one else is watching, recurring choices shape a life. They train attention, appetite, courage, avoidance, honesty, care, and the routes by which a person returns after failure.
-
-When others begin looking, the same patterns shape what happens next. They influence what can be said, which risks become visible, what a role comes to mean, and what a group believes it may safely place in someone's hands.
+When no one else is watching, recurring choices shape a life. When others begin looking, the same patterns shape what happens next.
 
 The building is quiet after the side door closes.
 

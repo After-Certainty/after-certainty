@@ -74,27 +74,15 @@ Different observers may also see different parts of the path.
 
 The coworker who experiences someone's careful preparation may describe them as dependable. A spouse who repeatedly absorbs the consequences of their forgotten promises may not. A public audience may see composure during a crisis while employees see the fear and retaliation that follow in private. Neither perspective automatically contains the whole truth. Each is situated inside a different set of encounters.
 
-Power shapes visibility too. People often reveal more of their character to those who cannot reward or punish them. A senior executive may seem gracious to peers and contemptuous to assistants. A respected volunteer may be generous toward strangers and controlling at home. The people with the least authority sometimes possess the most relevant evidence, precisely because the person being judged had less incentive to perform for them.
+Power shapes visibility too. People often reveal more of their character to those who cannot reward or punish them. The people with the least authority sometimes possess the most relevant evidence, precisely because the person being judged had less incentive to perform for them. Character judgment is partly a problem of whose observations count.
 
-This makes character judgment partly a problem of whose observations count.
+A polished reputation may rest on a narrow sample gathered from favorable conditions. A damaged reputation may spread from one vivid accusation that later evidence complicates. The answer is not to average every account as though all evidence deserves equal weight. It is to ask what each observer could see, what the situation demanded, what incentives were present, and whether the account fits other traces.
 
-A polished reputation may rest on a narrow sample gathered from favorable conditions. A damaged reputation may spread from one vivid accusation that later evidence complicates. Groups preserve some stories and forget others. We hear about dramatic rescues more readily than years of quiet reliability, and a spectacular failure can erase from public memory the conduct that came before it.
-
-The answer is not to average every account as though all evidence deserves equal weight. It is to ask what each observer could see, what the situation demanded, what incentives were present, and whether the account fits other traces.
-
-Even then, disagreement will remain.
-
-One person may interpret a blunt correction as honesty; another may experience it as contempt. Refusal to bend may look like integrity from one angle and vanity from another. Calm can be steadiness, indifference, discipline, or fear held tightly in place. Conduct does not arrive with its meaning attached.
-
-But interpretation is not arbitrary. Context can support one explanation more strongly than another. Later conduct can confirm or weaken an earlier reading. The person's response to correction can become new evidence. A judgment can be provisional without being empty.[^c4-murdoch-sovereignty-of-good]
+Even then, disagreement will remain. Conduct does not arrive with its meaning attached. But interpretation is not arbitrary. Context can support one explanation more strongly than another. Later conduct can confirm or weaken an earlier reading. The person's response to correction can become new evidence. A judgment can be provisional without being empty.[^c4-murdoch-sovereignty-of-good]
 
 Provisional means capable of revision, not incapable of action.
 
-This matters especially when character labels begin to harden. Once someone is called honest, selfish, courageous, unstable, kind, or cruel, new events are often pulled toward the established description. The honest person's lie becomes an exception. The distrusted person's generous act becomes manipulation. We stop asking what the conduct might teach us and begin using the conduct to defend what we already believe.
-
-A character judgment that cannot be revised has stopped functioning as an inference.
-
-It has become an identity assigned by the observer.
+This matters especially when character labels begin to harden. Once someone is called honest or selfish, kind or cruel, new events are often pulled toward the established description. We stop asking what the conduct might teach us and begin using the conduct to defend what we already believe. A character judgment that cannot be revised has stopped functioning as an inference. It has become an identity assigned by the observer.
 
 The phrase patterns, not souls is meant to resist that closure. It does not claim that people lack inner lives or enduring dispositions. It marks the limit of our access. We encounter enough of another person to recognize patterns, make decisions, and form expectations. We do not encounter enough to speak as though nothing in them exceeds what we have seen.
 
@@ -130,33 +118,19 @@ Mercy is not the suspension of boundaries.
 
 It is the refusal to confuse a necessary boundary with complete knowledge of another human being.
 
-The same discipline applies to favorable judgments. Admiration can overreach as easily as condemnation. Someone may have earned confidence within a particular domain without earning authority everywhere. Competence can be mistaken for wisdom. Reliability can be mistaken for goodness. A pattern of public sacrifice can obscure the private costs imposed on others.
-
-Positive character judgments also need edges.[^c4-wolf-moral-saints]
+The same discipline applies to favorable judgments. Admiration can overreach as easily as condemnation. Someone may have earned confidence within a particular domain without earning authority everywhere. Positive character judgments also need edges.[^c4-wolf-moral-saints]
 
 We can say what the evidence gives us reason to expect, where that expectation applies, and what could cause us to reconsider. That is enough to make real decisions. It is also honest about what remains unknown.
 
-The footprints behind the building eventually disappeared when the weather warmed. The route remained. Grass along the diagonal lay flatter than the grass around it, and after rain the soil held a faint line from the sidewalk to the door.
-
-Repetition had left something more durable than any single print.
-
-A person approaching the building for the first time might follow the worn line without knowing who had made it. What began as one person's repeated choice had become part of the environment, making the same route easier for whoever came next.
-
-The worn path introduces another question: not only what repeated conduct reveals, but what repetition leaves behind in the chooser.
+The footprints behind the building eventually disappeared when the weather warmed. The route remained. Grass along the diagonal lay flatter than the grass around it, and after rain the soil held a faint line from the sidewalk to the door. Repetition had left something more durable than any single print. A person approaching the building for the first time might follow the worn line without knowing who had made it.
 
 For now, the footprints have taken us as far as evidence can go.
 
 Character becomes visible through recurring patterns of choice, especially when those patterns survive temptation, inconvenience, and cost. We can observe the choices, infer a disposition, and decide what forms of reliance or responsibility the evidence can support. We should not pretend that the inference reveals the whole person.
 
-Before placing a key in someone's hand, we look for traces of how they have used freedom before. We notice what they protect, what they conceal, what they do when advantage points elsewhere, and whether correction remains possible.
+Before placing a key in someone's hand, we look for traces of how they have used freedom before. We never receive certainty. We receive a pattern, interpreted as carefully as we know how, and make the next decision from there.
 
-We never receive certainty.
-
-We receive a pattern, interpreted as carefully as we know how, and make the next decision from there.
-
-The footprints tell us where someone has repeatedly gone.
-
-The worn path raises a different question: what has repeated choosing made easier to do again?
+The footprints tell us where someone has repeatedly gone. The worn path raises a different question: what has repeated choosing made easier to do again?
 
 [^c4-ross-nisbett-person-situation]: Lee Ross and Richard E. Nisbett, *The Person and the Situation* (New York: McGraw-Hill, 1991).
 

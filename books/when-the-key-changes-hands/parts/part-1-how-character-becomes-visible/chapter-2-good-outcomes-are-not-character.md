@@ -68,11 +68,9 @@ Sometimes it did.
 
 Sometimes the number was purchased with resources the report never names.
 
-The same problem appears wherever visible measures become substitutes for the work behind them. Fundraising can rise while staff and partnerships are depleted. Test scores can improve while education narrows or struggling students disappear from the measurement. A result may look successful at the point where we count it while weakening what made the result possible.[^c2-merton-unanticipated-consequences]
+The same problem appears wherever visible measures become substitutes for the work behind them. A result may look successful at the point where we count it while weakening what made the result possible—what someone was willing to spend, conceal, or ignore in producing the outcome.[^c2-merton-unanticipated-consequences]
 
-That damage matters here because of what someone was willing to spend, conceal, or ignore in producing the outcome.
-
-This does not mean every accomplishment hides a moral compromise. Suspicion can become lazy too. It is easy to stand outside someone else's work and invent secret costs for anything that goes well. The point is not to distrust success. It is to ask what the visible result leaves out before turning it into a judgment about character.
+This does not mean every accomplishment hides a moral compromise. Suspicion can become lazy too. The point is not to distrust success. It is to ask what the visible result leaves out before turning it into a judgment about character.
 
 Luck is one of the things it leaves out.
 
@@ -104,27 +102,13 @@ Repeated accomplishments tell us more, though even then we have to be careful ab
 
 Competence expands what a person can do. Character becomes visible in how that capacity is directed and constrained.
 
-This distinction matters because admiration moves quickly. We often grant moral authority to people who have demonstrated some other kind of success. A gifted athlete is asked for political wisdom. A wealthy founder is treated as an expert on human flourishing. A leader who wins an election is assumed to understand every problem that follows. Achievement in one domain spills into judgments the achievement cannot support.
+This distinction matters because admiration moves quickly. We often grant moral authority to people who have demonstrated some other kind of success. Achievement in one domain spills into judgments the achievement cannot support. The trophy begins to glow beyond its little patch of shelf. It may prove that someone trained hard, competed well, and won on that day. It cannot prove that they are honest, kind, wise, or safe to follow.
 
-The trophy begins to glow beyond its little patch of shelf.
+None of this makes outcomes morally secondary. People experience consequences, not just motives and principles. Outcomes push back against the stories we tell about ourselves—when our preferred method does not work, when our certainty creates harm, or when someone with less elegant motives has solved a problem we only discussed.
 
-It may prove that someone trained hard, competed well, and won on that day. It cannot prove that they are honest, kind, wise, or safe to follow. Those conclusions require different evidence.
+A serious account of character must leave room for that correction. It must also leave room for the fact that a good result can be accidental, temporary, narrowly measured, or produced by a system that cannot survive its own success.
 
-None of this makes outcomes morally secondary. People experience consequences, not just motives and principles. A policy that fails to feed people has failed in an important way, even if its authors meant well. A leader who repeatedly chooses noble gestures over workable help may be protecting their self-image more than the people they claim to serve.
-
-Outcomes push back against the stories we tell about ourselves.
-
-They force us to notice when our preferred method does not work, when our help is unwanted, when our certainty creates harm, or when someone with less elegant motives has solved a problem we only discussed.
-
-A serious account of character must leave room for that correction.
-
-But it must also leave room for the fact that a good result can be accidental, temporary, narrowly measured, or produced by a system that cannot survive its own success. The people helped still matter. So do the people used up along the way.
-
-The trophy on the shelf remains honest about one thing.
-
-Someone won.
-
-It cannot tell us whether the win can be repeated, whether it was deserved, what it cost, or what the winner would have done if winning had required crossing a line they believed should hold.
+The trophy on the shelf remains honest about one thing: someone won. It cannot tell us whether the win can be repeated, whether it was deserved, what it cost, or what the winner would have done if winning had required crossing a line they believed should hold.
 
 For that, we have to look behind the result.
 

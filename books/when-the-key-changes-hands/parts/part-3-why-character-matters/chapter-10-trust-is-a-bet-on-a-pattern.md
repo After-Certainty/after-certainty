@@ -30,29 +30,11 @@ The word bet can sound more reckless than the act usually is. It does not mean t
 
 The wager is not only that the neighbor will enter the house. It is that they will use entry for the purpose that justified it, notice what the responsibility requires, and remain answerable if something goes wrong.
 
-Different parts of the pattern support different parts of the reliance.
+Different parts of the pattern support different parts of the reliance: competence (can they do what is needed?), reliability (will they show up?), honesty (will their account remain answerable to reality?), restraint (what will they refuse to do with access?), care (whose well-being will enter the decision?), judgment (what happens when the instructions no longer fit?), and repair (what follows the mistake?).
 
-Competence asks whether the person can do what is needed. Can they operate the alarm, recognize that the cat is ill, shut off the water, or reach help? A willing neighbor who cannot perform the task may still be the wrong person to receive the key.
+No single trait carries the whole trust. A person can be honest about being unreliable, reliable and intrusive, caring with poor judgment, or technically capable while using every ambiguity for advantage. Trust becomes more accurate when we identify the kind of evidence the vulnerability actually requires.
 
-Reliability asks whether they will show up. Good judgment on the one day they remember does not feed the cat on the day they forget.
-
-Honesty asks whether their account will remain answerable to reality. If they miss a visit, will they say so, or arrange the evidence to make the failure invisible?
-
-Restraint asks what they will refuse to do with access. The house contains more than the objects named in the instructions. Authorization to enter does not become permission to explore.
-
-Care asks whose well-being will enter the decision. Will the neighbor notice that the cat is hiding, or complete the listed task while ignoring the life the task was meant to protect?
-
-Judgment asks what happens when the instructions no longer fit. A leaking pipe requires something different from a delayed package. The person must distinguish inconvenience from emergency and action from interference.
-
-Repair asks what follows the mistake. If the key is lost, the door is left unlocked, or the cat escapes, will the problem become visible soon enough for correction to remain possible?
-
-No single trait carries the whole trust.
-
-A person can be honest about being unreliable. They can be reliable and intrusive. They can care deeply and exercise poor judgment. They can be technically capable while using every ambiguity for advantage. Trust becomes more accurate when we identify the kind of evidence the vulnerability actually requires.
-
-This is why "I trust them" is often too large a sentence.
-
-A person may be trusted with a confidence but not with a deadline. They may be trusted to perform a procedure but not to disclose uncertainty without prompting. Someone can be safe with a house key and unsafe with financial authority. Intimacy can provide evidence of care while providing none of competence. Shared values can create a sense of familiarity without showing how the person behaves when loyalty becomes costly.
+This is why "I trust them" is often too large a sentence. A person may be trusted with a confidence but not with a deadline, safe with a house key and unsafe with financial authority. Intimacy can provide evidence of care while providing none of competence.
 
 Trust needs an object.[^c10-jones-trust-affective]
 
@@ -102,31 +84,9 @@ The neighbor may call the veterinarian when the homeowner hoped the problem woul
 
 It is the expectation that their freedom will remain oriented toward the responsibility we have reason to believe they recognize.
 
-Even warranted trust can be betrayed.
+Even warranted trust can be betrayed. A careful judgment does not guarantee the outcome. When trust fails, the failure does not always prove the original judgment was foolish. There is a difference between a bad outcome and an unwarranted bet. Outcomes matter, but they do not explain whether the earlier reliance was reasonable.
 
-A careful judgment does not guarantee the outcome. A person with years of honest conduct can conceal something when fear becomes large enough. New power can expose an appetite previous roles never tested. Illness, addiction, coercion, desperation, or opportunity can change what the earlier pattern predicted.
-
-When trust fails, the failure does not always prove the original judgment was foolish.
-
-There is a difference between a bad outcome and an unwarranted bet. A person may rely on strong evidence and still be harmed by an unexpected break in the pattern. Another may rely on charisma, wishful thinking, or shared identity and escape harm only through luck. Outcomes matter, but they do not explain whether the earlier reliance was reasonable.
-
-This protects trust from two distortions.
-
-One says that betrayal proves the trusting person should have known. It reviews every earlier ambiguity as an obvious warning and places responsibility for another person's deception on the person who believed them. The other says that good intentions made any reliance reasonable, even when repeated evidence had already shown concealment, coercion, or disregard.
-
-Trust deserves neither blame without evidence nor innocence without judgment.
-
-We ask what the person could observe, what pattern was available, which alternatives existed, and whether the vulnerability matched the evidence.
-
-Distrust can also be proportionate.
-
-A person who has concealed financial information may not receive access to the accounts while repair is still beginning. Someone who repeatedly exposes confidences may remain loved without receiving another one. A former manager who corrected the record after blaming an analyst may show real answerability while the analyst continues to preserve written evidence and decline private dependence.
-
-Withholding trust is not necessarily a verdict on the whole person.
-
-It can be a decision about which risk another person should not be asked to bear.
-
-Repair may change that decision over time, but repair does not demand it. The person who caused harm can become more trustworthy without regaining every former form of access. Trust belongs partly to the one who would become vulnerable. Their judgment cannot be purchased by apology, patience, or moral improvement.
+Distrust can also be proportionate. Withholding trust is not necessarily a verdict on the whole person. It can be a decision about which risk another person should not be asked to bear. Repair may change that decision over time, but repair does not demand it. The person who caused harm can become more trustworthy without regaining every former form of access.
 
 The key must be given, not claimed.
 

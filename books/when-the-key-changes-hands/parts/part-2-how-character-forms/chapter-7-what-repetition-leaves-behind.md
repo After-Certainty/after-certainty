@@ -18,7 +18,7 @@ Repetition leaves behind more than evidence for someone watching. It can leave b
 
 The movement is not mechanical, but it has a recognizable shape:
 
-Choice becomes practice. Practice becomes habit. Habit can deepen into disposition. Disposition becomes character as it is experienced by others.
+Choice becomes practice. Practice becomes habit. Habit can deepen into disposition. Dispositions become part of the character others encounter.
 
 Each step needs qualification.
 
