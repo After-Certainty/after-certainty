@@ -97,6 +97,7 @@ Unless otherwise noted, original content in this repository is licensed under [*
 | **No Time to Think** — *How Acceleration Relocates Judgment—and Why Institutions Must Protect It* | [`books/no-time-to-think/index.md`](books/no-time-to-think/index.md) | What happens when production accelerates faster than capacity to verify, integrate, and stop—responsible speed and protected judgment. |
 | **The Case That Does Not Fit** — *How Rules Protect Us—and What Institutions Must Do When They Misread Us* | [`books/the-case-that-does-not-fit/index.md`](books/the-case-that-does-not-fit/index.md) | What happens when a rule’s compression mistook the case—architecture for reconsideration without abandoning fairness. |
 | **Reality Pushes Back** — *What Happens When Our Models Meet the World* | [`books/reality-pushes-back/index.md`](books/reality-pushes-back/index.md) | Narrative home of the After Certainty Pattern Language—twelve patterns through ordinary town life and material resistance. |
+| **When the Key Changes Hands** — *Character, Trust, and What We Cannot Predict* | [`books/when-the-key-changes-hands/index.md`](books/when-the-key-changes-hands/index.md) | How character becomes visible through costly choices, warrants trust, and fails to transfer when the key changes hands. |
 
 Together these manuscripts are part of the broader **After Certainty** thread: thinking clearly when simple answers stop working.
 

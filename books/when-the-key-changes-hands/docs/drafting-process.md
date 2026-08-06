@@ -70,13 +70,15 @@ After all units are at least `draft`:
 - Glossary and back matter completeness
 - Final linkage check
 
-### Phase 5 — Promote to `books/`
+### Phase 5 — Promote to `books/` ✓
 
 When the manuscript is ready for the publishing pipeline:
 
 - Move or copy into `books/when-the-key-changes-hands/`
 - Enable exports in `book.yml`
-- Update [upcoming/docs/portfolio-status.md](../../docs/portfolio-status.md)
+- Update [upcoming/docs/portfolio-status.md](../../../upcoming/docs/portfolio-status.md)
+
+**Completed August 2026** — see [`phase-5-promotion.md`](phase-5-promotion.md).
 
 ## Commit discipline
 
@@ -86,4 +88,4 @@ When the manuscript is ready for the publishing pipeline:
 
 ## Current starting phase
 
-See `docs/status.md` — **Phase 1 (assembled draft + citation pass)**.
+See `docs/status.md` — **Phase 5 (promoted)**.

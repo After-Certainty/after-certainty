@@ -6,6 +6,9 @@
 
 ## Front Matter
 
+- [Title Page](front-matter/title-page.md)
+- [Copyright](front-matter/copyright.md)
+- [About the Series](front-matter/about-the-series.md)
 - [Introduction — The Key](front-matter/introduction-the-key.md)
 
 ## Part I — How Character Becomes Visible
@@ -44,3 +47,13 @@
 
 - [Epilogue — The Lock Does Not Know](back-matter/epilogue-the-lock-does-not-know.md)
 - [Bibliography](back-matter/bibliography.md)
+
+## Related books
+
+See the [series guide](../../docs/series-guide.md) for reading order and title pairs.
+
+- [*Everyone Knows Love*](../everyone-knows-love/index.md) — care as voluntary inconvenience
+- [*How Trust Forms*](../how-trust-forms/index.md) — trust under uncertainty
+- [*When Others Look to You*](../when-others-look-to-you/v2/index.md) — leadership as looking-to
+- [*When Others Become Leaders*](../when-others-become-leaders/index.md) — circulation after the leader
+- [*When Authority Is Misread*](../when-authority-is-misread/index.md) — restraint compressed into inherited expectation

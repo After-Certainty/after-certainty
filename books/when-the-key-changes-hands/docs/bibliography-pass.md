@@ -3,9 +3,9 @@
 Use this pass after substantive edits to any chapter, and during part-level
 cleanup before approval.
 
-House standard: [books/how-meaning-moves/docs/bibliography-pass.md](../../../books/how-meaning-moves/docs/bibliography-pass.md)
+House standard: [books/how-meaning-moves/docs/bibliography-pass.md](../../how-meaning-moves/docs/bibliography-pass.md)
 
-Upcoming conventions: [upcoming/docs/bibliography-pass.md](../../docs/bibliography-pass.md)
+Upcoming conventions: [upcoming/docs/bibliography-pass.md](../../../upcoming/docs/bibliography-pass.md)
 
 Working research map: [anticipated-bibliography.md](anticipated-bibliography.md)
 
