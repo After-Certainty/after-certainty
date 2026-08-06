@@ -44,15 +44,17 @@ A tested choice gives us evidence. A repeated tested choice begins to reveal cha
 
 This book begins there—not by claiming to settle what character ultimately is, but by asking how it becomes visible enough for human judgment. What allows us to move responsibly from conduct to pattern, from pattern to an attributed character, and from that attribution to decisions about trust?
 
-The question appears wherever ordinary people depend on one another: a parent wondering whether a child is ready for more freedom, a friend deciding whether an apology can be believed, a team choosing who may act without close supervision, a family learning whether someone who has caused harm can remain close without repeating it.
+The question appears wherever ordinary people depend on one another. A parent wonders whether a child is ready for more freedom. A friend decides whether an apology can be believed. A team chooses who may act without close supervision. A family learns whether someone who has caused harm can remain close without repeating it. An institution decides whether a person's competence is accompanied by the restraint required to use it safely.
 
-These are not verdicts about souls. They are practical judgments made under incomplete knowledge—and they carry consequences. To trust too easily may expose people to avoidable harm. To refuse trust forever may make repair impossible. To confuse a good result with good character can reward damaging methods. To treat one failure as complete knowledge can reduce a person to the worst thing they have done.
+These are not verdicts about souls. They are practical judgments made under incomplete knowledge—and they carry consequences. To trust too easily may expose people to avoidable harm. To refuse trust forever may make repair, cooperation, and growth impossible. To confuse a good result with good character can reward damaging methods. To treat one failure as complete knowledge can reduce a person to the worst thing they have done.
 
 We need a way to take patterns seriously without pretending they remove uncertainty. We also need to ask how those patterns form.
 
 Pressure exposes the habits we already possess. It also trains us. Everyday life offers repeated opportunities to become a little more honest or a little more evasive, more attentive or more self-protective. Most of these choices do not feel historic. They happen through alarm clocks, messages we would rather ignore, dishes left in sinks, promises that have become inconvenient, and conversations in which pride competes with repair.
 
-Love belongs here, not as sentiment but as practice: allowing another person's reality to enter our choices. Failure belongs here too. Character cannot mean moral purity unless we are prepared to conclude that almost no one has it. A more useful account must include what a person does after crossing a line—whether the harm can be named, whether responsibility is accepted, whether correction remains possible, and whether the later pattern changes. Repair does not erase consequence. It reveals answerability.
+Love belongs here, not as sentiment but as practice: allowing another person's reality to enter our choices. A single casserole carried across a driveway may be kindness. Years of showing up—without turning care into control—leave something behind in the person who keeps choosing it.
+
+Failure belongs here too. Character cannot mean moral purity unless we are prepared to conclude that almost no one has it. A more useful account must include what a person does after crossing a line—whether the harm can be named, whether responsibility is accepted, whether correction remains possible, and whether the later pattern changes. Repair does not erase consequence. It reveals answerability.
 
 All of this leads to a second question: why do people care so much about character?
 
@@ -62,13 +64,17 @@ At some point, someone will hold the key when no one else is there to say exactl
 
 Character becomes one source of evidence for what they may do next.
 
-Not certainty. Not destiny. People change. Context matters. Strong patterns can break, and weak ones can strengthen. Any prediction worth calling responsible must remain revisable.
+Not certainty. Not destiny. People change. Context matters. Strong patterns can break, and weak ones can strengthen. A person can be trustworthy in one part of life and dangerous in another. Any prediction worth calling responsible must remain revisable.
 
 Still, human beings cannot wait for complete knowledge before acting. We have to decide whom to trust with access, vulnerability, discretion, and responsibility.
 
 Character makes another person's future choices less unknowable.
 
-That is the path this book will follow: how character becomes visible through tested choice and recurring pattern; how those patterns form through restraint, responsibility, love, failure, and repair; why they matter under uncertainty; and only near the end, how a person's recurring choices become social signals when others look to them—and what happens when the key changes hands.
+That is the path this book will follow: how character becomes visible through tested choice and recurring pattern; how those patterns form through restraint, responsibility, love, failure, and repair; why they matter under uncertainty; and only near the end, how a person's recurring choices become social signals when others look to them.
+
+Then the key changes hands.
+
+The title may transfer. Access and formal authority may move in an afternoon. Expectations move too, often without being named. Character does not. It must become visible again through conduct.
 
 For now, the key has not yet crossed the table. It rests in someone's palm, warm from being carried, its edges shaped by years of use.
 
