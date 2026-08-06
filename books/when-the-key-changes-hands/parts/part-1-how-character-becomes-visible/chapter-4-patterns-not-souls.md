@@ -1,4 +1,8 @@
-# Chapter 4 — Patterns, Not Souls
+\newpage
+
+# **Chapter 4**
+
+## **Patterns, Not Souls**
 
 The first footprints appeared after a night of wet snow.
 

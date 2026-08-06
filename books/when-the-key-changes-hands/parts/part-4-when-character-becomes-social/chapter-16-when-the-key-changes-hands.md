@@ -1,4 +1,8 @@
-# Chapter 16 — When the Key Changes Hands
+\newpage
+
+# **Chapter 16**
+
+## **When the Key Changes Hands**
 
 Mara's nameplate came away with two small screws.
 

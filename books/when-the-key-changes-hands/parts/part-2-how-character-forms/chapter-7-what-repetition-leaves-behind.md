@@ -1,4 +1,8 @@
-# Chapter 7 — What Repetition Leaves Behind
+\newpage
+
+# **Chapter 7**
+
+## **What Repetition Leaves Behind**
 
 Seven small lids opened with seven small clicks.
 
@@ -140,7 +144,7 @@ The missed compartment does not erase the months that came before it. It does in
 
 What happens when the pattern fails?
 
-[^c7-james-habit]: William James, "Habit," in *The Principles of Psychology* (1890).
+[^c7-james-habit]: William James, "Habit," in *The Principles of Psychology* (New York: Henry Holt and Company, 1890).
 
 [^c7-wood-good-habits]: Wendy Wood, *Good Habits, Bad Habits* (New York: Farrar, Straus and Giroux, 2019).
 

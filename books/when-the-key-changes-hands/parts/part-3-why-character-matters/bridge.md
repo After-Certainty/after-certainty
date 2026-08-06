@@ -1,4 +1,8 @@
-# Part III — Why Character Matters
+\newpage
+
+# **Part III**
+
+## **Why Character Matters**
 
 The repaired bowl sat near the door, holding the keys.
 

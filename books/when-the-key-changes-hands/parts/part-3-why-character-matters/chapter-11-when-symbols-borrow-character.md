@@ -1,4 +1,8 @@
-# Chapter 11 — When Symbols Borrow Character
+\newpage
+
+# **Chapter 11**
+
+## **When Symbols Borrow Character**
 
 The chair at the head of the table was not different from the others.
 

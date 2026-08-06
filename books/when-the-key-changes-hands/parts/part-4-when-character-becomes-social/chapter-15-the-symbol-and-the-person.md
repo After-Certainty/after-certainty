@@ -1,4 +1,8 @@
-# Chapter 15 — The Symbol and the Person
+\newpage
+
+# **Chapter 15**
+
+## **The Symbol and the Person**
 
 The portrait hung behind the director's desk.
 

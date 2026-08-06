@@ -1,4 +1,8 @@
-# Chapter 13 — When Others Look to You
+\newpage
+
+# **Chapter 13**
+
+## **When Others Look to You**
 
 The instruction sheet had stopped helping.
 

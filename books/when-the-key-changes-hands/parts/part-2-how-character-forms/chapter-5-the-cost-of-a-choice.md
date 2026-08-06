@@ -1,4 +1,8 @@
-# Chapter 5 — The Cost of a Choice
+\newpage
+
+# **Chapter 5**
+
+## **The Cost of a Choice**
 
 The alarm began at 5:10.
 

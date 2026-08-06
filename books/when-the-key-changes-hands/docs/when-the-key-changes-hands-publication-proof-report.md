@@ -200,3 +200,40 @@ Aristotle book-reference abbreviations (`Book II` vs `bk. II` vs `bks. II–III`
 7. Re-verify 81/81, outline order, Ch16 length, governing lines.
 
 No general tightening. No architecture changes. Aristotle and Kant remain edition-neutral and listed as unresolved.
+
+---
+
+## Post-edit validation (completed)
+
+| Check | Result |
+|-------|--------|
+| Footnote markers / definitions | 81 / 81 |
+| Bibliography entries / unique cited works | 64 / 64 |
+| Uncited bib / missing cites | 0 / 0 |
+| Chapter order vs `index.md` | Unchanged |
+| Part bridges under Part headings | Yes (4) |
+| `\newpage` + split openers | Intro, Parts I–IV, Chs 1–16, Epilogue, Bibliography |
+| Interior finish openers | 23 body openers; 24 Word sections |
+| Chapter 16 word count | ~2,596 |
+| Body prose word count (excl. bibliography) | ~36,550 |
+| Governing formulations | All protected lines present |
+| Prose rewrites this pass | None |
+| DOCX artifact | `/opt/cursor/artifacts/when-the-key-changes-hands-publication-proof.docx` |
+| Exact page count | Not stored in DOCX app properties until opened in Word/LibreOffice (environment lacks LibreOffice) |
+
+### Edits actually made
+
+1. James bibliography entry and `[^c7-james-habit]` — added New York: Henry Holt and Company.
+2. Intro + Ch12 Doris notes — `John Doris` → `John M. Doris`.
+3. Leading `\newpage` and split H1/H2 on intro, four bridges, sixteen chapters, epilogue, bibliography.
+4. `book.yml`: `title_page_newpage_after: true`; author website → `https://www.after-certainty.com`.
+5. `tools/docx_interior_finish.py`: recognize `Epilogue` as body opener; test added.
+6. `docs/status.md` updated for this pass.
+
+### Unresolved (unchanged)
+
+- Aristotle preferred modern edition/translator.
+- Kant preferred modern edition/translator.
+- Soft: Nagel / Geertz essay page ranges.
+- Cover notebook positioning phrase (flag only).
+

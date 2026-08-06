@@ -4,7 +4,7 @@ Applies book-design conventions Pandoc does not express well:
 
 - Clear running heads and page numbers on cover / front matter
 - Arabic page numbering restarting at the Introduction
-- Suppress running heads on part/chapter/conclusion/appendix/bibliography
+- Suppress running heads on part/chapter/epilogue/conclusion/appendix/bibliography
   openers (page numbers remain in the footer)
 - Remove a Contents / TOC page when present (publication builds ship without a TOC)
 
@@ -25,7 +25,7 @@ from docx.shared import Pt
 from docx.text.paragraph import Paragraph
 
 _BODY_OPENER_RE = re.compile(
-    r"^(Introduction|Part\s+[IVXLCDM]+(?:\s+[—–-]\s+.+)?|Chapter\s+\d+|Conclusion|Appendix|"
+    r"^(Introduction|Part\s+[IVXLCDM]+(?:\s+[—–-]\s+.+)?|Chapter\s+\d+|Epilogue|Conclusion|Appendix|"
     r"About the Series|Bibliography)$"
 )
 

@@ -1,4 +1,8 @@
-# Introduction — The Key
+\newpage
+
+# **Introduction**
+
+## **The Key**
 
 The key was ordinary enough.
 
@@ -84,6 +88,6 @@ The harder question is why anyone believes they know what will happen next.
 
 [^intro-baier-trust-antitrust]: Annette Baier, "Trust and Antitrust," *Ethics* 96, no. 2 (1986): 231–260.
 
-[^intro-doris-lack-of-character]: John Doris, *Lack of Character: Personality and Moral Behavior* (Cambridge: Cambridge University Press, 2002).
+[^intro-doris-lack-of-character]: John M. Doris, *Lack of Character: Personality and Moral Behavior* (Cambridge: Cambridge University Press, 2002).
 
 [^intro-aristotle-nicomachean-ethics]: Aristotle, *Nicomachean Ethics*, esp. Book II.
