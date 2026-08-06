@@ -62,13 +62,9 @@ The repaired bowl cannot demand to hold boiling water because someone took the t
 
 That image has limits. People are not objects, and a person who fails is not reducible to damage. But the visible seam preserves an important truth: returning to use is not the same as returning to the condition that existed before the break.
 
-A serious apology keeps several realities in view.
+A serious apology keeps several realities in view: naming what happened without shrinking it, accepting responsibility without making shame the center of everyone else's attention, remaining open to correction, attempting repair when forgiveness is uncertain, and changing the later pattern enough that the apology becomes more than an accurate description of regret.
 
-The person must name what happened without shrinking it into a misunderstanding. They must accept responsibility without making their own shame the center of everyone else's attention. Correction from outside must remain possible. Repair must be attempted even when forgiveness is uncertain and consequences remain. The later pattern must change enough that the apology becomes more than an accurate description of regret.
-
-These are demanding movements because each removes a common escape.
-
-Denial says the event did not happen as others experienced it. Excuse admits the event while transferring its cause somewhere safer. Concealment protects reputation by limiting who can know. Retaliation punishes the person whose account threatens the preferred story. Repetition reveals that the apology changed language without changing conduct. Abandonment leaves others to carry the damage once the wrongdoer's discomfort becomes too great.
+These are demanding movements because each removes a common escape—denial, excuse, concealment, retaliation, repetition without change, or abandonment once discomfort grows too great.
 
 Repair moves differently. It acknowledges, assumes the appropriate share of responsibility, discloses what must be corrected, receives unwelcome information, changes practice, and remains present for work that may not restore the relationship.
 
@@ -139,10 +135,6 @@ The bowl remained on the counter for a full day while the epoxy cured. No one te
 It was useful. It was familiar. It was no longer assumed to be unchanged.
 
 That is sometimes what repair gives us: not innocence restored, but reality made visible enough for a relationship, responsibility, or ordinary object to find an honest form of return.
-
-Character is formed through repeated encounters with desire, responsibility, love, failure, and repair.
-
-The pattern includes the alarm answered or reconsidered, the inconvenience accepted for another person, the practice repeated until it alters attention, and the response after the practice breaks.
 
 Before handing someone a key, we do not need evidence that they have never failed. We need reason to believe that failure can become visible and correction can remain possible.
 

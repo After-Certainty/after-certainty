@@ -8,7 +8,7 @@ Assembled from Google Docs, Chicago/Pandoc citation pass complete, cover + OG as
 
 ## Active branch
 
-`cursor/when-the-key-changes-hands-eb03`
+`cursor/key-hands-editorial-pass-750e` (editorial rhythm/compression pass; prior assemble branch `cursor/when-the-key-changes-hands-eb03`)
 
 ## Manuscript hub
 
@@ -26,6 +26,7 @@ Assembled from Google Docs, Chicago/Pandoc citation pass complete, cover + OG as
 - [`book-outline.md`](book-outline.md)
 - [`anticipated-bibliography.md`](anticipated-bibliography.md)
 - [`bibliography-pass.md`](bibliography-pass.md)
+- [`editorial-rhythm-compression-report.md`](editorial-rhythm-compression-report.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../../upcoming/docs/portfolio-status.md)
 
 ## Unit progress
@@ -46,9 +47,20 @@ Assembled from Google Docs, Chicago/Pandoc citation pass complete, cover + OG as
 3. **Bibliography:** 64 alphabetical Chicago entries in `back-matter/bibliography.md`.
 4. **Unresolved metadata TODOs:** Aristotle and Kant entries lack a preferred modern edition/translator in the export bibliography (notes cite the work generically).
 
+## Editorial rhythm / compression pass (2026-08-06)
+
+Report: [`editorial-rhythm-compression-report.md`](editorial-rhythm-compression-report.md)
+
+- Three coordinated passes: rhetorical-pattern variation, chapter compression, Chapter 16 reduction (~743 words).
+- Prose word count (excl. bibliography): ~40,863 → ~36,528 (−4,335).
+- Introduction reduced ~24% (within 15–25% target); Chapter 16 remains longest climax chapter (~2,595).
+- Citation parity rechecked: 81 markers / 81 defs; bibliography 64 entries.
+- Governing formulations preserved (Part I close; trust bet; heroism/compliance/design; succession triad).
+- Ch7 disposition line refined: dispositions become part of the character others encounter.
+
 ## Next actions
 
-1. Author review of assembled prose vs Google Docs source (echo / boundary checks against companion titles).
+1. Author review of compressed prose vs prior assemble (diff against `main`).
 2. Part coherence gates (I → IV) per `docs/drafting-process.md`.
 3. Optional semantic source ingest after bibliography stabilizes.
 4. Export smoke via CI on merge (`publishing.enabled: true`).
@@ -60,6 +72,6 @@ Assembled from Google Docs, Chicago/Pandoc citation pass complete, cover + OG as
 
 ## Rough scale
 
-- Manuscript words (parts + front/back matter, excl. bibliography/docs): ~38–40k
+- Manuscript words (parts + front/back matter, excl. bibliography/docs): ~36.5k after editorial pass (was ~38–41k)
 - Cover: `book-cover.png` + house `open-graph.png`
-- Last assessed: Phase 5 promote (August 2026)
+- Last assessed: editorial rhythm/compression pass (August 2026)

@@ -28,15 +28,11 @@ I came to this question while trying to judge the character of public figures wi
 
 I did not expect the exercise to give me a satisfying answer. I suspected from the beginning that it could not. But sometimes a basic question, approached from first principles, helps me find the parts I do not yet understand. A simple question rarely finishes the work. It gives the work somewhere to begin.
 
-I asked two language models to challenge each other. One would make a claim. The other would point out what it missed. Then the first would revise the claim, and the second would find the next problem.
-
-Each round made the answer harder to object to—and harder to use.
+I asked two language models to challenge each other. Each round made the answer harder to object to—and harder to use.
 
 Good outcomes mattered, but they did not tell us why someone acted. Intentions mattered, but we could not see them clearly. Rules mattered, but rules could not cover every situation. Patterns mattered, but even patterns could be shaped by a stable environment rather than a stable person.[^c1-doris-lack-of-character] Context mattered, but too much context could become an excuse for almost anything.
 
-Soon I had a framework that could survive an argument and still leave me unsure what to do.
-
-That was useful. It showed me that a model could keep adding caveats forever. People cannot. At some point, we still have to decide whether to trust someone with a child, a secret, a vote, a job, or a key.
+Soon I had a framework that could survive an argument and still leave me unsure what to do. A model could keep adding caveats forever. People cannot. At some point, we still have to decide whether to trust someone with a child, a secret, a vote, a job, or a key.
 
 So I removed the politics and asked actual people a simpler question.
 
@@ -130,31 +126,17 @@ That, too, is character evidence.
 
 By this point, the two columns on the page had stopped behaving like a balance sheet.
 
-The good someone accomplishes still matters. Outcomes enter the lives of real people. Moral seriousness cannot become indifference to whether anyone is helped. But outcomes do not carry their own explanation. They may reveal competence, persistence, cooperation, luck, or an alignment between personal ambition and public benefit. They become character evidence only when we understand something about the choices that produced and sustained them.
+The good someone accomplishes still matters. Outcomes enter the lives of real people. But outcomes do not carry their own explanation. The lines someone refuses to cross still matter. But an untested boundary tells us less than we may think. The columns had named two forms of evidence without explaining how evidence becomes judgment.
 
-The lines someone refuses to cross still matter. Boundaries protect people from appetites, incentives, and pressures that can turn capability into danger. But an untested boundary tells us less than we may think. Its evidentiary strength changes when temptation becomes real, advantage becomes available, and refusal becomes costly.
+The people who answered kept dragging the question back toward real life: who was responsible, who might be harmed, what the person knew, whether the choice had happened before, and what they did afterward. We do not encounter character as a framework. We notice who tells the truth when it becomes expensive, who stays after making a mistake, who keeps showing up, and who changes when repair is required.
 
-The columns had named something real, just not enough of it.
-
-They named two forms of evidence without explaining how evidence becomes judgment.
-
-The people who answered did not agree on everything, and that was useful. They kept dragging the question back toward real life: who was responsible, who might be harmed, what the person knew, whether the choice had happened before, and what they did afterward. The question was no longer only how to label an act. It was what that act, together with the rest of the pattern, gave us reason to expect.
-
-That return to ordinary life is where the argument began to make sense. We do not encounter character as a framework. We notice who tells the truth when it becomes expensive, who stays after making a mistake, who keeps showing up, and who changes when repair is required. However careful the theory becomes, it eventually has to answer to what people actually do.
-
-That is why character matters before leadership, politics, institutions, or public office enter the picture.
-
-We make these judgments at kitchen tables and hospital beds. We make them when lending money, sharing a confidence, leaving a child in someone's care, choosing a business partner, accepting an apology, or handing over the spare key. We rarely possess certainty. We cannot wait for complete knowledge.
-
-We study what someone has done because we have to decide what to trust them with next.
+We make these judgments at kitchen tables and hospital beds—when lending money, sharing a confidence, leaving a child in someone's care, or handing over the spare key. We study what someone has done because we have to decide what to trust them with next.
 
 The question that would not stay simple had therefore opened into two:
 
 How does character become visible?
 
 And why do we care so much when it does?
-
-The first asks what we can reasonably learn from someone's conduct. The second leads toward trust, because sooner or later we place some part of our safety, work, love, or future in another person's hands.
 
 For now, the page remains on the table.
 

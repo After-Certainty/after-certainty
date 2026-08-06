@@ -62,13 +62,9 @@ Cost changes the weight of a choice. It does not sanctify it.
 
 This is why the test must include more than pain. We need to ask what was at stake, who carried the risk, what alternatives existed, and whether the boundary served something worth protecting. We also need to know what the person understood at the time. A refusal based on misinformation may be sincere and still be badly judged.
 
-The safety form offers an unusually clean example because accuracy in a safety record is easy to defend. Real life is often less cooperative.
+The safety form offers an unusually clean example because accuracy in a safety record is easy to defend. Real life is often less cooperative. A friend refuses to repeat a confidence. An employee declines credit that is not theirs. Someone reports an error that benefits them before anyone notices. In each case, the choice becomes more revealing when the easier path is available and likely to remain hidden.
 
-A friend refuses to repeat a confidence even when sharing it would make them more interesting to the group. An employee refuses to take credit for work no one else knows was shared. A parent refuses to use a child's embarrassment as a shortcut to obedience. Someone finds an error that benefits them and reports it before anyone notices.
-
-In each case, the choice becomes more revealing when the easier path is available and likely to remain hidden.
-
-Yet even these examples resist simple scoring. The person who guards one secret may expose another. The employee who shares credit publicly may quietly undermine a colleague. The patient parent may be dishonest with a spouse. Human beings do not present one unified trait under every condition.[^c3-mischel-personality-assessment]
+Yet even these examples resist simple scoring. Human beings do not present one unified trait under every condition.[^c3-mischel-personality-assessment]
 
 One tested choice can reveal a capacity. It cannot reveal the whole person.[^c3-doris-lack-of-character]
 
@@ -130,15 +126,9 @@ The form could be approved, rejected, amended, or escalated. What it could not h
 
 By the end of the evening, the blank line may still have been blank. Someone else may have signed. The shipment may have left or remained on the floor. Those outcomes would matter, but they would not erase the choice made at the desk.
 
-The engineer encountered a moment when accuracy became inconvenient and loyalty became complicated. They refused one available advantage. That tells us something.
+The engineer encountered a moment when accuracy became inconvenient and loyalty became complicated. They refused one available advantage. That tells us something. It does not tell us everything.
 
-It does not tell us everything.
-
-The form cannot hold a whole person any more than the trophy could. It can preserve one decision in a particular set of conditions. We learn more when we see whether the same relationship to truth, responsibility, and cost appears again.
-
-A tested choice gives us evidence.
-
-A repeated tested choice begins to reveal a pattern.
+A tested choice gives us evidence. A repeated tested choice begins to reveal a pattern.
 
 [^c3-frankfurt-importance]: Harry G. Frankfurt, *The Importance of What We Care About* (Cambridge: Cambridge University Press, 1988).
 

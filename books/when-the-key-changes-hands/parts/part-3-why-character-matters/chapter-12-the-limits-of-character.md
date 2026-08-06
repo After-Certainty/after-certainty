@@ -78,51 +78,25 @@ They do not ask to be trusted beyond the evidence.
 
 Character can motivate the creation of systems that make character easier to verify and less dangerous to overestimate.
 
-Yet systems have limits of their own.
-
-A procedure cannot guarantee that the information entering it is true. Two signatures can become two people clicking without reading. An audit can reward tidy records while missing harm that was never categorized. A rule intended to protect dissent can be administered by someone who quietly punishes the dissenter in other ways.
+Yet systems have limits of their own. A procedure cannot guarantee that the information entering it is true. Two signatures can become two people clicking without reading. An audit can reward tidy records while missing harm that was never categorized.
 
 Compliance can imitate answerability.
 
-The form is complete. The meeting occurred. The reviewer approved. The required words were said. None of those facts alone tells us whether someone noticed what the process was meant to protect.
+The form is complete. The meeting occurred. The reviewer approved. None of those facts alone tells us whether someone noticed what the process was meant to protect.
 
-Every system eventually reaches a person.
-
-Someone decides whether a concern belongs in the record. Someone interprets an ambiguous rule. Someone notices that the official category does not fit the case. Someone must choose whether to report a friend, challenge a supervisor, slow a profitable process, or admit that the safeguard itself is creating harm.
-
-Rules cannot apply themselves.
+Every system eventually reaches a person who decides whether a concern belongs in the record, interprets an ambiguous rule, or chooses whether to report a friend, challenge a supervisor, or admit that the safeguard itself is creating harm. Rules cannot apply themselves.
 
 This is where character returns. A system can make responsible conduct more possible, visible, and expected. It cannot remove the need for people willing to use the system's protections for their intended purpose.
 
-A guardrail does not help if those responsible for the road hide the damage, ignore repeated collisions, or certify metal they know cannot hold.
+Character and systems are not competing explanations for trustworthy conduct. Character concerns the recurring orientation a person brings to the discretion that remains. Systems shape the discretion, distribute power, preserve information, and limit the consequences when the orientation fails.
 
-Character and systems are not competing explanations for trustworthy conduct.
-
-Character concerns the recurring orientation a person brings to the discretion that remains. Systems shape the discretion, distribute power, preserve information, and limit the consequences when the orientation fails.
-
-A strong system can help an ordinary person act better than private will would allow. A clear checklist catches what memory misses. A required pause gives fear time to settle before action. Independent review makes it easier to disclose uncertainty because no one person must bear the entire consequence of slowing the work.
-
-A corrupt system can make good conduct more costly. It can reward concealment, isolate dissenters, normalize transferred harm, and force responsible people to choose between compliance and the purpose the rule was supposed to serve.
-
-Character still matters inside both systems.
-
-The person in the good system must not treat the safeguard as a substitute for attention. The person in the bad system may need to resist, document, organize, leave, or expose what the official process has made invisible.
+A strong system can help an ordinary person act better than private will would allow. A corrupt system can make good conduct more costly. Character still matters inside both.
 
 No design can make human judgment unnecessary. No appeal to human goodness can make design unnecessary.
 
-The balance is difficult because safeguards carry costs.
+The balance is difficult because safeguards carry costs. The answer is not maximum control. It is proportionate structure around meaningful risk.
 
-Review takes time. Divided authority can blur responsibility. Excessive documentation can replace work with proof that work occurred. A process built around every imaginable failure can become so rigid that people hide new problems rather than navigate it. Guardrails can narrow a road until movement becomes impossible.
-
-The answer is not maximum control.
-
-It is proportionate structure around meaningful risk.
-
-The organization did not need board approval for every box of pens. It did need separation between authorizing large payments and reconciling the accounts. It did not need to preserve every casual conversation. It did need shared access to contracts, documented grant restrictions, and a way for staff to raise concerns outside the founder's chain of command.
-
-The purpose of a safeguard should remain visible.
-
-When people understand what a rule protects, they can distinguish a necessary exception from a convenient bypass. They can revise a process that has become harmful without treating all limits as obstacles. They can ask whether the system still keeps confidence connected to evidence.
+The organization did not need board approval for every box of pens. It did need separation between authorizing large payments and reconciling the accounts, shared access to contracts, and a way for staff to raise concerns outside the founder's chain of command. When people understand what a rule protects, they can distinguish a necessary exception from a convenient bypass.
 
 This is especially important after a person earns a strong reputation.
 
