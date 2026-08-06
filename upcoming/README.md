@@ -30,7 +30,7 @@ Do not recreate Pass 4 promote stub folders under `upcoming/` (e.g. `upcoming/af
 
 ## Current upcoming titles
 
-No active nonfiction scaffolds under `upcoming/` at present.
+- **When the Key Changes Hands** — [`upcoming/when-the-key-changes-hands/`](when-the-key-changes-hands/) (character → trust → succession; assembled draft + citation pass).
 
 **Recently promoted:** **Reality Pushes Back** — [`books/reality-pushes-back/`](../books/reality-pushes-back/) (pattern-language narrative; exports enabled).
 

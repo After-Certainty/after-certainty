@@ -1,0 +1,30 @@
+version: 1
+upcoming:
+  status: in_progress
+book:
+  id: when-the-key-changes-hands
+  title: When the Key Changes Hands
+  subtitle: Character, Trust, and What We Cannot Predict
+  description: >
+    Character becomes visible through recurring costly choices; those patterns
+    become evidence for trust; leadership makes character socially consequential
+    and eventually symbolic; succession transfers authority without transferring
+    the character that made trust reasonable.
+  author:
+    name: Kevin Steffensen
+    website: https://after-certainty.com
+  language: en
+  copyright_year: 2026
+  content_type: nonfiction
+  literary_form: monograph
+paths:
+  manuscript: ./index.md
+  output: .
+build:
+  formats:
+    docx:
+      enabled: false
+    epub:
+      enabled: false
+    pdf:
+      enabled: false
