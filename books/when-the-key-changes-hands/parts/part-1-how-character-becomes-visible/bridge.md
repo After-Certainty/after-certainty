@@ -1,4 +1,8 @@
-# Part I — How Character Becomes Visible
+\newpage
+
+# **Part I**
+
+## **How Character Becomes Visible**
 
 A key can be handed over in a moment.
 

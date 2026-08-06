@@ -1,4 +1,8 @@
-# Part II — How Character Forms
+\newpage
+
+# **Part II**
+
+## **How Character Forms**
 
 The footprints behind the building had done more than record where someone walked.
 

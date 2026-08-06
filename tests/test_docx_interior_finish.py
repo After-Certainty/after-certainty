@@ -192,3 +192,30 @@ def test_finish_interior_skips_front_matter_about_the_series(tmp_path: Path) -> 
     texts = [(p.text or "").strip() for p in finished.paragraphs]
     assert "About the Series" in texts
     assert "Introduction" in texts
+
+
+def test_finish_interior_recognizes_epilogue_opener(tmp_path: Path) -> None:
+    """Epilogue H1 is a body opener (Key Changes Hands and similar titles)."""
+    doc = Document()
+    doc.add_heading("Title", level=1)
+    _add_page_break(doc)
+    doc.add_heading("Introduction", level=1)
+    doc.add_paragraph("Intro body.")
+    _add_page_break(doc)
+    doc.add_heading("Epilogue", level=1)
+    doc.add_heading("The Lock Does Not Know", level=2)
+    doc.add_paragraph("Epilogue body.")
+    _add_page_break(doc)
+    doc.add_heading("Bibliography", level=1)
+    doc.add_paragraph("Cited works.")
+    path = tmp_path / "with-epilogue.docx"
+    doc.save(str(path))
+
+    status = finish_interior_docx(path, running_title="When the Key Changes Hands")
+    assert status["body_openers"] == 3  # Introduction, Epilogue, Bibliography
+    assert status["sections"] == 4
+
+    finished = Document(str(path))
+    texts = [(p.text or "").strip() for p in finished.paragraphs]
+    assert "Epilogue" in texts
+    assert "The Lock Does Not Know" in texts

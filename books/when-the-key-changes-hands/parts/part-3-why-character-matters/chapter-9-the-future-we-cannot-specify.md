@@ -1,4 +1,8 @@
-# Chapter 9 — The Future We Cannot Specify
+\newpage
+
+# **Chapter 9**
+
+## **The Future We Cannot Specify**
 
 The contract was complete except for one blank line.
 

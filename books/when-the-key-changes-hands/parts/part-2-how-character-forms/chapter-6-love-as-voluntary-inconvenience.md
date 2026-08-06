@@ -1,4 +1,8 @@
-# Chapter 6 — Love as Voluntary Inconvenience
+\newpage
+
+# **Chapter 6**
+
+## **Love as Voluntary Inconvenience**
 
 The casserole dish was heavier than it looked.
 

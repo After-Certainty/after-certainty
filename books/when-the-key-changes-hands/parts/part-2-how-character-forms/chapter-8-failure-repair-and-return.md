@@ -1,4 +1,8 @@
-# Chapter 8 — Failure, Repair, and Return
+\newpage
+
+# **Chapter 8**
+
+## **Failure, Repair, and Return**
 
 The bowl broke in the sink.
 

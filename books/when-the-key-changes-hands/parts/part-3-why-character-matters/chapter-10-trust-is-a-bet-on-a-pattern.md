@@ -1,4 +1,8 @@
-# Chapter 10 — Trust Is a Bet on a Pattern
+\newpage
+
+# **Chapter 10**
+
+## **Trust Is a Bet on a Pattern**
 
 The spare key still had sharp edges from the cutting machine.
 

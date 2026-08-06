@@ -1,4 +1,8 @@
-# Chapter 3 — A Line Must Be Tested
+\newpage
+
+# **Chapter 3**
+
+## **A Line Must Be Tested**
 
 The form was complete except for the signature.
 

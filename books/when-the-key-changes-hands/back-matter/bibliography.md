@@ -1,3 +1,5 @@
+\newpage
+
 # **Bibliography**
 
 Sources cited in the text and notes.
@@ -85,7 +87,8 @@ Sources cited in the text and notes.
 
 - hooks, bell. *All About Love: New Visions*. New York: William Morrow, 2000.
 
-- James, William. "Habit." In *The Principles of Psychology*. 1890.
+- James, William. "Habit." In *The Principles of Psychology*. New York: Henry
+  Holt and Company, 1890.
 
 - Jones, Karen. "Trust as an Affective Attitude." *Ethics* 107, no. 1 (1996):
   4–25.

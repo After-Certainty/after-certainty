@@ -1,4 +1,8 @@
-# Part IV — When Character Becomes Social
+\newpage
+
+# **Part IV**
+
+## **When Character Becomes Social**
 
 The access log recorded the time the side door opened.
 

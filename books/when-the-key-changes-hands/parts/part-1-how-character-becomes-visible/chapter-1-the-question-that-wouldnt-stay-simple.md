@@ -1,4 +1,8 @@
-# Chapter 1 — The Question That Wouldn't Stay Simple
+\newpage
+
+# **Chapter 1**
+
+## **The Question That Wouldn't Stay Simple**
 
 On a blank sheet of paper, I drew two columns.
 

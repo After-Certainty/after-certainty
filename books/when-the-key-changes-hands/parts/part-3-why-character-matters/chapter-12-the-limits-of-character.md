@@ -1,4 +1,8 @@
-# Chapter 12 — The Limits of Character
+\newpage
+
+# **Chapter 12**
+
+## **The Limits of Character**
 
 The guardrail followed the outside edge of the road.
 
@@ -158,7 +162,7 @@ None should be asked to leave everyone else defenseless if they do not.
 
 [^c12-madison-federalist-51]: James Madison, Federalist No. 51, in *The Federalist Papers*, ed. Clinton Rossiter (New York: Mentor, 1961).
 
-[^c12-doris-lack-of-character]: John Doris, *Lack of Character: Personality and Moral Behavior* (Cambridge: Cambridge University Press, 2002).
+[^c12-doris-lack-of-character]: John M. Doris, *Lack of Character: Personality and Moral Behavior* (Cambridge: Cambridge University Press, 2002).
 
 [^c12-popper-open-society]: Karl Popper, *The Open Society and Its Enemies*, vol. 1 (London: Routledge, 1945).
 

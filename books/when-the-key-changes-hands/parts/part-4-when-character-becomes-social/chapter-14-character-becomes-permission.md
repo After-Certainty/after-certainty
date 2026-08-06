@@ -1,4 +1,8 @@
-# Chapter 14 — Character Becomes Permission
+\newpage
+
+# **Chapter 14**
+
+## **Character Becomes Permission**
 
 The meeting-room door had been left open.
 

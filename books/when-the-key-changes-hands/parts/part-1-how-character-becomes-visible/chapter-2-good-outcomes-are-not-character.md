@@ -1,4 +1,8 @@
-# Chapter 2 — Good Outcomes Are Not Character
+\newpage
+
+# **Chapter 2**
+
+## **Good Outcomes Are Not Character**
 
 The trophy had spent more years gathering dust than it ever spent being admired.
 

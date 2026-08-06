@@ -8,7 +8,7 @@ Assembled from Google Docs, Chicago/Pandoc citation pass complete, cover + OG as
 
 ## Active branch
 
-`cursor/key-hands-editorial-pass-750e` (editorial rhythm/compression pass; prior assemble branch `cursor/when-the-key-changes-hands-eb03`)
+`cursor/key-hands-publication-proof-750e` (publication proof; prior: editorial pass #515, assemble `cursor/when-the-key-changes-hands-eb03`)
 
 ## Manuscript hub
 
@@ -27,6 +27,7 @@ Assembled from Google Docs, Chicago/Pandoc citation pass complete, cover + OG as
 - [`anticipated-bibliography.md`](anticipated-bibliography.md)
 - [`bibliography-pass.md`](bibliography-pass.md)
 - [`editorial-rhythm-compression-report.md`](editorial-rhythm-compression-report.md)
+- [`when-the-key-changes-hands-publication-proof-report.md`](when-the-key-changes-hands-publication-proof-report.md)
 - Portfolio rollup: [`upcoming/docs/portfolio-status.md`](../../../upcoming/docs/portfolio-status.md)
 
 ## Unit progress
@@ -58,10 +59,22 @@ Report: [`editorial-rhythm-compression-report.md`](editorial-rhythm-compression-
 - Governing formulations preserved (Part I close; trust bet; heroism/compliance/design; succession triad).
 - Ch7 disposition line refined: dispositions become part of the character others encounter.
 
+## Publication-proof pass (2026-08-06)
+
+Report: [`when-the-key-changes-hands-publication-proof-report.md`](when-the-key-changes-hands-publication-proof-report.md)
+
+- James bib/note completed (New York: Henry Holt and Company, 1890).
+- Aristotle / Kant remain edition-neutral (unresolved preferred editions).
+- Doris notes normalized to John M. Doris (matches bibliography).
+- Citation parity: 81 markers / 81 defs; 64 bibliography entries; all cited.
+- Print convention: `\newpage` + split H1/H2 openers; `title_page_newpage_after: true`; Epilogue recognized by `docx_interior_finish`.
+- Export: 23 body openers / 24 Word sections; artifact `when-the-key-changes-hands-publication-proof.docx`.
+- Body prose word count (excl. bibliography): ~36,550; Chapter 16 ~2,596.
+
 ## Next actions
 
-1. Author review of compressed prose vs prior assemble (diff against `main`).
-2. Part coherence gates (I → IV) per `docs/drafting-process.md`.
+1. Author review of publication-proof DOCX (page breaks, running heads, footnotes).
+2. Optional: choose preferred modern editions for Aristotle and Kant.
 3. Optional semantic source ingest after bibliography stabilizes.
 4. Export smoke via CI on merge (`publishing.enabled: true`).
 
@@ -69,9 +82,10 @@ Report: [`editorial-rhythm-compression-report.md`](editorial-rhythm-compression-
 
 - Series-guide Formation placement beside WOLTY / WOBL (with trust and love companions).
 - Optional shelf membership deferred.
+- Aristotle / Kant preferred edition/translator still open.
 
 ## Rough scale
 
-- Manuscript words (parts + front/back matter, excl. bibliography/docs): ~36.5k after editorial pass (was ~38–41k)
+- Manuscript words (parts + front/back matter, excl. bibliography/docs): ~36.5k
 - Cover: `book-cover.png` + house `open-graph.png`
-- Last assessed: editorial rhythm/compression pass (August 2026)
+- Last assessed: publication-proof pass (August 2026)
