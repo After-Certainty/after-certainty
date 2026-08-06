@@ -65,3 +65,6 @@ semantic/_drafts/enrichment/
 .env
 .env.*
 !.env.example
+
+# Vercel CLI link metadata (project lives under apps/site; root link is local-only)
+.vercel/
