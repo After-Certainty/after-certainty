@@ -43,6 +43,8 @@
     "corpus:sync-semantic": "uv sync --frozen --only-group semantic"
   },
   "devDependencies": {
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
     "turbo": "^2.10.7"
   },
   "dependencies": {
@@ -54,6 +56,8 @@
     "react": "$react",
     "react-dom": "$react-dom",
     "next": "$next",
+    "@types/react": "$@types/react",
+    "@types/react-dom": "$@types/react-dom",
     "postcss": ">=8.5.18",
     "sharp": "^0.35.3",
     "brace-expansion": "5.0.9"
