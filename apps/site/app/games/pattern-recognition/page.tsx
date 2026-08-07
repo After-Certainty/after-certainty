@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
+import { LobbyProgress } from "@/components/games/pattern-recognition/lobby-progress";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { getEnrichedPublishedChallenges } from "@/lib/games/pattern-recognition/enrich";
@@ -27,7 +28,12 @@ export default async function PatternRecognitionLobbyPage() {
           what is strongest — without treating every other reading as failure.
         </p>
 
-        <h2 className="mt-10 font-display text-2xl text-fg">Try a challenge</h2>
+        <LobbyProgress publishedCount={challenges.length} />
+
+        <h2 className="mt-12 font-display text-2xl text-fg">Browse challenges</h2>
+        <p className="mt-2 max-w-2xl text-sm text-muted">
+          Single scenarios stay shareable. Daily and Practice run five at a time.
+        </p>
         <ul className="mt-5 flex flex-col gap-3">
           {challenges.map((challenge) => (
             <li key={challenge.id}>

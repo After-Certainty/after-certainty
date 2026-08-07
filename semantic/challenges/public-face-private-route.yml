@@ -1,0 +1,33 @@
+slug: public-face-private-route
+title: The official channel nobody uses
+mode: recognition
+status: published
+difficulty: intermediate
+context: government
+scenario: >
+  Citizens are told to submit requests through a public portal. Staff advise
+  friends to email a particular inbox instead, “or it will sit for months.” The
+  portal metrics look quiet. The side channel is where anything urgent actually
+  moves.
+dominantPattern: structures-outlive-reasons
+secondaryPatterns:
+  - disagreement-is-suppressed
+  - learning-collapses
+distractorPatterns:
+  - scrutiny-preserves-trust
+  - participation-creates-legitimacy
+explanation: >
+  Official structure and lived structure diverge. The strongest pattern is
+  Structures Outlive Reasons: the portal remains the public face long after the
+  real work relocated to an informal route.
+choiceFeedback:
+  learning-collapses: >
+    You noticed Learning Collapses — newcomers only learn the side channel by
+    word of mouth — and that is present, but Structures Outlive Reasons names
+    the durable mismatch between the official path and the working path.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - living-in-sediment

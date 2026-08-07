@@ -1,0 +1,34 @@
+slug: story-outruns-the-chart
+title: The slide that settled the room
+mode: recognition
+status: published
+difficulty: introductory
+context: leadership
+scenario: >
+  In a strategy meeting, one crisp narrative slide explains last quarter’s miss
+  before anyone opens the underlying data. By the time the spreadsheet arrives,
+  people are already defending the story. A few numbers that do not fit get
+  treated as noise.
+dominantPattern: meaning-forms-early
+secondaryPatterns:
+  - gaps-invite-completion
+  - results-conceal-the-game
+distractorPatterns:
+  - feedback-drives-change
+  - leaders-feel-the-consequences
+explanation: >
+  A clean story can settle meaning before evidence has a chance. The strongest
+  pattern is Meaning Forms Early: the room coordinated around the first coherent
+  account, then treated later detail as optional.
+choiceFeedback:
+  gaps-invite-completion: >
+    You noticed Gaps Invite Completion — people filled uncertainty quickly —
+    and that is present, but Meaning Forms Early names why the first fill became
+    sticky against the spreadsheet.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - how-meaning-moves
+relatedSituation: meaning-forms-before-anyone-checks-it

@@ -1,0 +1,33 @@
+slug: trusted-person-is-the-system
+title: The person who became the process
+mode: recognition
+status: published
+difficulty: intermediate
+context: institutions
+scenario: >
+  Approvals are supposed to go through a documented workflow. In practice,
+  everyone asks Maya, who “just knows how things really get done.” When she
+  takes leave, work stalls — not because the policy is unclear on paper, but
+  because the real route lived in one person.
+dominantPattern: responsibility-follows-leverage
+secondaryPatterns:
+  - structures-outlive-reasons
+  - learning-collapses
+distractorPatterns:
+  - dissent-is-welcomed
+  - revisability-preserves-judgment
+explanation: >
+  Informal leverage becomes the real architecture. The strongest pattern is
+  Responsibility Follows Leverage: accountability and throughput concentrated in
+  the person others learned to route through.
+choiceFeedback:
+  learning-collapses: >
+    You noticed Learning Collapses — newcomers never learn the written path —
+    but Responsibility Follows Leverage is stronger: Maya became the system.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - boundary-conditions
+relatedSituation: reliable-person-becomes-the-route

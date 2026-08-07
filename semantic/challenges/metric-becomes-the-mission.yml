@@ -1,0 +1,33 @@
+slug: metric-becomes-the-mission
+title: When the number replaces the work
+mode: recognition
+status: published
+difficulty: intermediate
+context: business
+scenario: >
+  A support team is measured on tickets closed per day. Agents start closing
+  tickets that still need follow-up, and complex cases get fragmented into
+  smaller tickets. The dashboard looks healthier every week while customers
+  wait longer for real resolution.
+dominantPattern: results-conceal-the-game
+secondaryPatterns:
+  - feedback-drives-change
+  - learning-collapses
+distractorPatterns:
+  - dissent-is-welcomed
+  - care-preserves-particulars
+explanation: >
+  When a scoreboard becomes the work, people optimize the scoreboard. The
+  strongest pattern is Results Conceal the Game: visible metrics improve while
+  the underlying service quietly degrades.
+choiceFeedback:
+  feedback-drives-change: >
+    You noticed Feedback Drives Change — the metric is shaping behavior — but
+    Results Conceal the Game is stronger: the dashboard hides the real game
+    being played.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - when-incentives-become-the-moral-language

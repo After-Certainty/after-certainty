@@ -1,0 +1,33 @@
+slug: correction-never-returns
+title: The loop that stopped looping
+mode: recognition
+status: published
+difficulty: intermediate
+context: software
+scenario: >
+  The team still holds retrospectives. Action items are written down, then
+  quietly drop off the board when the next sprint starts. After a year, people
+  can recite the same three problems — and the same three postponed fixes.
+dominantPattern: learning-collapses
+secondaryPatterns:
+  - feedback-drives-change
+  - disagreement-is-suppressed
+distractorPatterns:
+  - examples-accumulate
+  - participation-creates-legitimacy
+explanation: >
+  Ritual without return is not learning. The strongest pattern is Learning
+  Collapses: feedback is collected, but it no longer changes the next cycle of
+  work.
+choiceFeedback:
+  feedback-drives-change: >
+    Feedback Drives Change would look like the action items altering the next
+    sprint. Here the strongest pattern is Learning Collapses: the loop is
+    ceremonial.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - how-serious-systems-learn
+relatedSituation: feedback-stops-changing-decisions
