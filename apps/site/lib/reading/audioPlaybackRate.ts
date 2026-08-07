@@ -17,6 +17,7 @@ export const DEFAULT_AUDIO_PLAYBACK_RATE: AudioPlaybackRate = 1;
 
 const STORAGE_KEY = "ac_audio_playback_rate";
 const STORAGE_VERSION = 1;
+const CHANGE_EVENT = "ac-audio-playback-rate-changed";
 
 export function isAudioPlaybackRate(value: unknown): value is AudioPlaybackRate {
   return typeof value === "number" && (AUDIO_PLAYBACK_RATES as readonly number[]).includes(value);
@@ -32,6 +33,11 @@ export function formatAudioPlaybackRateLabel(rate: AudioPlaybackRate): string {
   return `${rate}×`;
 }
 
+function notifyChanged(): void {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new Event(CHANGE_EVENT));
+}
+
 export function getAudioPlaybackRate(): AudioPlaybackRate {
   if (!canUseLocalStorage()) return DEFAULT_AUDIO_PLAYBACK_RATE;
   const stored = readVersionedLocalState<unknown>(STORAGE_KEY, STORAGE_VERSION);
@@ -43,12 +49,26 @@ export function setAudioPlaybackRate(rate: AudioPlaybackRate): AudioPlaybackRate
   const next = normalizeAudioPlaybackRate(rate);
   if (!canUseLocalStorage()) return next;
   writeVersionedLocalState(STORAGE_KEY, STORAGE_VERSION, next);
+  notifyChanged();
   return next;
 }
 
 export function clearAudioPlaybackRate(): void {
   removeLocalStorageKey(STORAGE_KEY);
+  notifyChanged();
+}
+
+export function subscribeAudioPlaybackRate(onStoreChange: () => void): () => void {
+  if (typeof window === "undefined") return () => {};
+  const handler = () => onStoreChange();
+  window.addEventListener(CHANGE_EVENT, handler);
+  window.addEventListener("storage", handler);
+  return () => {
+    window.removeEventListener(CHANGE_EVENT, handler);
+    window.removeEventListener("storage", handler);
+  };
 }
 
 export const AUDIO_PLAYBACK_RATE_STORAGE_KEY = STORAGE_KEY;
 export const AUDIO_PLAYBACK_RATE_STORAGE_VERSION = STORAGE_VERSION;
+export const AUDIO_PLAYBACK_RATE_CHANGE_EVENT = CHANGE_EVENT;

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 
 import {
   AUDIO_PLAYBACK_RATES,
@@ -9,7 +9,7 @@ import {
   getAudioPlaybackRate,
   isAudioPlaybackRate,
   setAudioPlaybackRate,
-  type AudioPlaybackRate,
+  subscribeAudioPlaybackRate,
 } from "@/lib/reading/audioPlaybackRate";
 import type { ChapterAudioUnit } from "@/lib/reading/chapter-audio";
 import {
@@ -71,7 +71,11 @@ export function ChapterAudioPlayer({
 }: ChapterAudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [fetchedAlignment, setFetchedAlignment] = useState<ChapterAudioAlignment | null>(null);
-  const [playbackRate, setPlaybackRate] = useState<AudioPlaybackRate>(DEFAULT_AUDIO_PLAYBACK_RATE);
+  const playbackRate = useSyncExternalStore(
+    subscribeAudioPlaybackRate,
+    getAudioPlaybackRate,
+    () => DEFAULT_AUDIO_PLAYBACK_RATE,
+  );
   const activeIdRef = useRef<string | null>(null);
   const followPausedRef = useRef(false);
   const rafRef = useRef<number | null>(null);
@@ -79,10 +83,6 @@ export function ChapterAudioPlayer({
   const highlightCapable =
     canHighlightAlignment(audio.alignmentGranularity) && Boolean(audio.alignmentUrl);
   const alignment = alignmentProp ?? (highlightCapable ? fetchedAlignment : null);
-
-  useEffect(() => {
-    setPlaybackRate(getAudioPlaybackRate());
-  }, []);
 
   useEffect(() => {
     const el = audioRef.current;
@@ -211,7 +211,7 @@ export function ChapterAudioPlayer({
   const onSpeedChange = (value: string) => {
     const parsed = Number(value);
     if (!isAudioPlaybackRate(parsed)) return;
-    setPlaybackRate(setAudioPlaybackRate(parsed));
+    setAudioPlaybackRate(parsed);
   };
 
   return (
