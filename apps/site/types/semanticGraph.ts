@@ -479,6 +479,36 @@ export interface ManifestTrail {
   reviewNotes?: string;
 }
 
+export interface ChallengeInsightXp {
+  dominant?: number;
+  secondary?: number;
+  distractor?: number;
+}
+
+/** schemaVersion 2.5 — Pattern Recognition Challenge authored content. */
+export interface ManifestChallenge {
+  id: string;
+  slug: string;
+  title: string;
+  mode: "recognition";
+  status: "draft" | "published" | "archived";
+  difficulty: "introductory" | "intermediate" | "ambiguous";
+  context: string;
+  scenario: string;
+  dominantPattern: string;
+  secondaryPatterns: string[];
+  distractorPatterns: string[];
+  explanation: string;
+  choiceFeedback?: Record<string, string>;
+  insightXp?: ChallengeInsightXp;
+  relatedBooks?: string[];
+  relatedChapterIds?: string[];
+  relatedPodcastEpisodeId?: string | null;
+  relatedSituation?: string;
+  tags?: string[];
+  provenance?: string | null;
+}
+
 export type ShelfRule =
   | { type: "status"; values: string[] }
   | { type: "contentType"; values: string[] }
@@ -609,6 +639,8 @@ export interface SemanticGraph {
   editions?: Edition[];
   questions?: ManifestQuestion[];
   trails?: ManifestTrail[];
+  /** schemaVersion 2.5 — Pattern Recognition Challenge content. */
+  challenges?: ManifestChallenge[];
   shelves?: ManifestShelf[];
   changeEvents?: ChangeEvent[];
   searchAliases?: SearchAlias[];
@@ -617,7 +649,7 @@ export interface SemanticGraph {
   chapters?: ManifestChapter[];
   /** Manifest metadata (optional, from semantic-manifest.json) */
   manifestVersion?: 1 | 2;
-  /** Additive discovery contract version (e.g. "2.4"). */
+  /** Additive discovery contract version (e.g. "2.5"). */
   schemaVersion?: string;
   generatedAt?: string;
   repository?: string;

@@ -1,0 +1,34 @@
+slug: policy-outlives-crisis
+title: The emergency rule that stayed
+mode: recognition
+status: published
+difficulty: intermediate
+context: government
+scenario: >
+  During a public-health emergency, a temporary reporting rule is added “until
+  things stabilize.” Two years later the emergency has faded from headlines, but
+  the rule still structures every weekly briefing. New staff learn the emergency
+  process as if it were the original design.
+dominantPattern: exceptions-are-forever
+secondaryPatterns:
+  - structures-outlive-reasons
+  - speed-relocates-judgment
+distractorPatterns:
+  - scrutiny-preserves-trust
+  - participation-creates-legitimacy
+explanation: >
+  Crisis measures often remain after the crisis story ends. The strongest pattern
+  is Exceptions Are Forever: a temporary rule became the operating path, and
+  rollback never competed with the new normal.
+choiceFeedback:
+  structures-outlive-reasons: >
+    You noticed Structures Outlive Reasons — the briefing machinery persisted —
+    but Exceptions Are Forever is stronger here because the measure was framed as
+    temporary and never retired.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - living-in-sediment
+relatedSituation: temporary-fixes-become-permanent

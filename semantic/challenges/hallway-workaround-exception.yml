@@ -1,0 +1,41 @@
+slug: hallway-workaround-exception
+title: The temporary fix that never left
+mode: recognition
+status: published
+difficulty: introductory
+context: software
+scenario: >
+  A software team introduces a temporary workaround after a production outage.
+  Every sprint someone proposes cleaning it up, but new priorities always win.
+  Three years later, every new engineer has to learn the workaround before they
+  can contribute.
+dominantPattern: exceptions-are-forever
+secondaryPatterns:
+  - structures-outlive-reasons
+  - learning-collapses
+distractorPatterns:
+  - dissent-is-welcomed
+  - feedback-drives-change
+explanation: >
+  Temporary exceptions create new dependencies. As people adapt around them,
+  removing the exception becomes increasingly expensive, allowing the exception
+  itself to become part of the system.
+choiceFeedback:
+  structures-outlive-reasons: >
+    You noticed Structures Outlive Reasons — that is present here, but the
+    strongest pattern is Exceptions Are Forever because the temporary measure
+    itself became the durable dependency.
+  learning-collapses: >
+    You noticed Learning Collapses — onboarding now teaches the workaround, but
+    the strongest pattern is Exceptions Are Forever: the emergency path never
+    rolled back.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - when-others-look-to-you-v1
+relatedSituation: temporary-fixes-become-permanent
+tags:
+  - workaround
+  - exception

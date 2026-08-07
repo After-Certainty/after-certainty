@@ -13,7 +13,7 @@ if str(SCRIPTS) not in sys.path:
 import install_local_manifest_for_site as install  # noqa: E402
 
 
-def _minimal_manifest(*, schema: str = "2.4") -> dict:
+def _minimal_manifest(*, schema: str = "2.5") -> dict:
     return {
         "schemaVersion": schema,
         "generatedAt": "2026-07-24T00:00:00+00:00",
@@ -48,12 +48,12 @@ def test_install_writes_gitignored_local_artifacts(tmp_path: Path) -> None:
     assert intended.is_file()
 
     loaded = json.loads(dest.read_text(encoding="utf-8"))
-    assert loaded["schemaVersion"] == "2.4"
+    assert loaded["schemaVersion"] == "2.5"
     assert loaded["sourceCommit"] == "deadbeef"
     assert len(loaded["books"]) == 1
 
     pin = json.loads(intended.read_text(encoding="utf-8"))
-    assert pin["schemaVersion"] == "2.4"
+    assert pin["schemaVersion"] == "2.5"
     assert pin["sourceCommit"] == "deadbeef"
     assert pin["generatedAt"] == "2026-07-24T00:00:00+00:00"
     assert pin["contentVersion"] == "cv-1"
@@ -122,7 +122,7 @@ def test_install_copies_manuscripts_under_book_dir(tmp_path: Path) -> None:
     source.write_text(
         json.dumps(
             {
-                "schemaVersion": "2.4",
+                "schemaVersion": "2.5",
                 "generatedAt": "2026-07-24T00:00:00+00:00",
                 "sourceCommit": "abc",
                 "books": [{"slug": "demo-book", "bookDir": "books/demo-book"}],
@@ -167,7 +167,7 @@ def test_install_copies_open_graph_and_rewrites_manifest_url(tmp_path: Path) -> 
     source.write_text(
         json.dumps(
             {
-                "schemaVersion": "2.4",
+                "schemaVersion": "2.5",
                 "generatedAt": "2026-07-24T00:00:00+00:00",
                 "sourceCommit": "abc",
                 "books": [

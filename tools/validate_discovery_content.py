@@ -38,6 +38,7 @@ DIR_SCHEMA = {
     "trails": "trail-entry.schema.json",
     "shelves": "shelf-entry.schema.json",
     "change-events": "change-event-entry.schema.json",
+    "challenges": "challenge-entry.schema.json",
 }
 
 
@@ -419,6 +420,9 @@ def validate_discovery_resources(repo: Path, errors: list[str], warnings: list[s
     trail_ids: set[str] = set()
     shelf_ids: set[str] = set()
     event_ids: set[str] = set()
+    challenge_ids: set[str] = set()
+    pattern_slugs = {pid.removeprefix("pattern-") for pid in ids["pattern"]}
+    situation_slugs = {sid.removeprefix("situation-") for sid in ids["situation"]}
 
     for subdir, schema_name in DIR_SCHEMA.items():
         schema = json.loads((repo / SCHEMA_DIR / schema_name).read_text(encoding="utf-8"))
@@ -434,7 +438,7 @@ def validate_discovery_resources(repo: Path, errors: list[str], warnings: list[s
             for err in sorted(validator.iter_errors(doc), key=lambda e: list(e.path)):
                 errors.append(f"{path}: {err.message}")
             slug = str(doc.get("slug") or path.stem).strip()
-            if subdir in {"questions", "trails", "shelves"} and slug != path.stem:
+            if subdir in {"questions", "trails", "shelves", "challenges"} and slug != path.stem:
                 errors.append(f"{path}: slug {slug!r} must match filename stem {path.stem!r}")
             rid = str(doc.get("id") or "").strip()
             if subdir == "questions":
@@ -501,6 +505,57 @@ def validate_discovery_resources(repo: Path, errors: list[str], warnings: list[s
                     and not str(doc.get("summary") or "").strip()
                 ):
                     errors.append(f"{path}: public event requires summary")
+            elif subdir == "challenges":
+                if slug in challenge_ids:
+                    errors.append(f"{path}: duplicate challenge slug {slug!r}")
+                challenge_ids.add(slug)
+                dominant = str(doc.get("dominantPattern") or "").strip()
+                secondary = [
+                    str(x).strip() for x in (doc.get("secondaryPatterns") or []) if str(x).strip()
+                ]
+                distractors = [
+                    str(x).strip() for x in (doc.get("distractorPatterns") or []) if str(x).strip()
+                ]
+                if dominant and dominant not in pattern_slugs:
+                    errors.append(f"{path}: unknown dominantPattern {dominant!r}")
+                for p in secondary:
+                    if p not in pattern_slugs:
+                        errors.append(f"{path}: unknown secondaryPatterns {p!r}")
+                for p in distractors:
+                    if p not in pattern_slugs:
+                        errors.append(f"{path}: unknown distractorPatterns {p!r}")
+                overlap = set(secondary) & set(distractors)
+                if dominant and dominant in secondary:
+                    errors.append(f"{path}: dominantPattern also listed in secondaryPatterns")
+                if dominant and dominant in distractors:
+                    errors.append(f"{path}: dominantPattern also listed in distractorPatterns")
+                if overlap:
+                    errors.append(
+                        f"{path}: patterns appear in both secondary and distractor: "
+                        f"{sorted(overlap)!r}"
+                    )
+                choice_count = (1 if dominant else 0) + len(secondary) + len(distractors)
+                if str(doc.get("status") or "") == "published" and choice_count < 4:
+                    errors.append(
+                        f"{path}: published recognition challenges need at least 4 pattern "
+                        f"choices (dominant + secondary + distractor); found {choice_count}"
+                    )
+                for book_slug in doc.get("relatedBooks") or []:
+                    b = str(book_slug).strip()
+                    if b and b not in ids["book_slugs"]:
+                        errors.append(f"{path}: unknown relatedBooks {b!r}")
+                situation = str(doc.get("relatedSituation") or "").strip()
+                if situation and situation not in situation_slugs:
+                    errors.append(f"{path}: unknown relatedSituation {situation!r}")
+                feedback = doc.get("choiceFeedback") or {}
+                if isinstance(feedback, dict):
+                    known = {dominant, *secondary, *distractors}
+                    for key in feedback:
+                        k = str(key).strip()
+                        if k and k not in known:
+                            errors.append(
+                                f"{path}: choiceFeedback key {k!r} is not a listed pattern choice"
+                            )
 
     # related question/trail refs
     for path in (
