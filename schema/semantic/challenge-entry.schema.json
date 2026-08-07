@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/challenge-entry.schema.json",
+  "title": "Semantic pattern recognition challenge entry YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "title",
+    "mode",
+    "status",
+    "difficulty",
+    "context",
+    "scenario",
+    "dominantPattern",
+    "secondaryPatterns",
+    "distractorPatterns",
+    "explanation"
+  ],
+  "properties": {
+    "slug": {
+      "$ref": "common.json#/$defs/slug"
+    },
+    "title": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["recognition"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "published", "archived"]
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["introductory", "intermediate", "ambiguous"]
+    },
+    "context": {
+      "type": "string",
+      "enum": [
+        "everyday",
+        "software",
+        "organizations",
+        "leadership",
+        "business",
+        "government",
+        "history",
+        "science",
+        "medicine",
+        "relationships",
+        "parenting",
+        "institutions",
+        "politics",
+        "family",
+        "ai_systems"
+      ]
+    },
+    "scenario": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "dominantPattern": {
+      "$ref": "common.json#/$defs/slug"
+    },
+    "secondaryPatterns": {
+      "$ref": "common.json#/$defs/patternSlugList"
+    },
+    "distractorPatterns": {
+      "$ref": "common.json#/$defs/patternSlugList"
+    },
+    "explanation": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "choiceFeedback": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "common.json#/$defs/nonEmptyString"
+      }
+    },
+    "insightXp": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dominant": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "secondary": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "distractor": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "relatedBooks": {
+      "$ref": "common.json#/$defs/bookSlugList"
+    },
+    "relatedChapterIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^chapter-[a-zA-Z0-9._-]+$"
+      }
+    },
+    "relatedPodcastEpisodeId": {
+      "type": ["string", "null"],
+      "pattern": "^podcast:[a-zA-Z0-9._-]+$"
+    },
+    "relatedSituation": {
+      "$ref": "common.json#/$defs/slug"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/nonEmptyString"
+      }
+    },
+    "provenance": {
+      "type": ["string", "null"]
+    }
+  }
+}

@@ -449,6 +449,35 @@ const manifestTrailSchema = z.object({
   reviewNotes: z.string().optional(),
 });
 
+const challengeInsightXpSchema = z.object({
+  dominant: z.number().int().nonnegative().optional(),
+  secondary: z.number().int().nonnegative().optional(),
+  distractor: z.number().int().nonnegative().optional(),
+});
+
+const manifestChallengeSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  mode: z.enum(["recognition"]),
+  status: z.enum(["draft", "published", "archived"]),
+  difficulty: z.enum(["introductory", "intermediate", "ambiguous"]),
+  context: z.string().min(1),
+  scenario: z.string().min(1),
+  dominantPattern: z.string().min(1),
+  secondaryPatterns: z.array(z.string().min(1)).default([]),
+  distractorPatterns: z.array(z.string().min(1)).default([]),
+  explanation: z.string().min(1),
+  choiceFeedback: z.record(z.string(), z.string().min(1)).optional(),
+  insightXp: challengeInsightXpSchema.optional(),
+  relatedBooks: z.array(z.string().min(1)).optional(),
+  relatedChapterIds: z.array(z.string().min(1)).optional(),
+  relatedPodcastEpisodeId: z.string().min(1).nullable().optional(),
+  relatedSituation: z.string().min(1).optional(),
+  tags: z.array(z.string().min(1)).optional(),
+  provenance: z.string().min(1).nullable().optional(),
+});
+
 const shelfRuleSchema = z.union([
   z.object({ type: z.literal("status"), values: z.array(z.string().min(1)) }),
   z.object({ type: z.literal("contentType"), values: z.array(z.string().min(1)) }),
@@ -587,8 +616,8 @@ const manifestChapterSchema = z.object({
 /**
  * Root manifest schema. Unknown top-level keys are stripped from the typed result;
  * schemaVersion 2.1+ discovery collections, 2.2 literaryForm / chapters / parts,
- * 2.3 roles / grounding / poetry kinds, and 2.4 forces / pattern-language fields
- * are retained when present.
+ * 2.3 roles / grounding / poetry kinds, 2.4 forces / pattern-language fields,
+ * and 2.5 challenges are retained when present.
  */
 export const semanticGraphSchema = z.object({
   books: z.array(bookSchema).default([]),
@@ -604,6 +633,7 @@ export const semanticGraphSchema = z.object({
   editions: z.array(editionSchema).optional(),
   questions: z.array(manifestQuestionSchema).optional(),
   trails: z.array(manifestTrailSchema).optional(),
+  challenges: z.array(manifestChallengeSchema).optional(),
   shelves: z.array(manifestShelfSchema).optional(),
   changeEvents: z.array(changeEventSchema).optional(),
   searchAliases: z.array(searchAliasSchema).optional(),
@@ -638,6 +668,7 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     editions: data.editions,
     questions: data.questions,
     trails: data.trails,
+    challenges: data.challenges,
     shelves: data.shelves,
     changeEvents: data.changeEvents,
     searchAliases: data.searchAliases,

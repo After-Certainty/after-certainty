@@ -1,4 +1,4 @@
-# Semantic manifest contract (v2.4)
+# Semantic manifest contract (v2.5)
 
 **Status:** Living contract — rules implementations must preserve (not a roadmap).  
 **Remaining product work:** [`docs/roadmaps/remaining-product-roadmap.md`](roadmaps/remaining-product-roadmap.md).
@@ -11,7 +11,7 @@
 2. **No flag-day site break** — consumers that ignore unknown fields continue to work.
 3. **Do not repurpose fields** — new meanings get new optional fields or collections.
 4. **Integer `manifestVersion`** — remains `1` or `2` (thinkers present → `2`). This is not bumped for additive discovery fields.
-5. **String `schemaVersion`** — currently `"2.4"` adds organizing forces and pattern-language hierarchy fields. `"2.3"` adds selected concept/pattern roles, grounding provenance, richer chapter transitions, poetry kinds, and thinker identity classes. `"2.2"` documented parts/chapters, literaryForm, and overview `relatedWorks`. `"2.1"` introduced works/editions and discovery collections.
+5. **String `schemaVersion`** — currently `"2.5"` adds `challenges[]` for Pattern Recognition Challenge content. `"2.4"` adds organizing forces and pattern-language hierarchy fields. `"2.3"` adds selected concept/pattern roles, grounding provenance, richer chapter transitions, poetry kinds, and thinker identity classes. `"2.2"` documented parts/chapters, literaryForm, and overview `relatedWorks`. `"2.1"` introduced works/editions and discovery collections.
 6. **Provenance** — `generatedAt`, `repository`, `ref`, `releaseTag`, and `sourceCommit` (git SHA when available).
 
 ## Existing collections (stable)
@@ -58,6 +58,12 @@ See [semantic-chapter-identity.md](semantic-chapter-identity.md).
 | `relationships[]` | may reference force endpoints via authored `sourceKind` / `targetKind` `force`; vocabulary adds `organizes` and `expresses` |
 
 See [`docs/after-certainty-pattern-language.md`](after-certainty-pattern-language.md).
+
+## Additive collections (schemaVersion 2.5)
+
+| Collection | Role |
+|------------|------|
+| `challenges[]` | Authored Pattern Recognition Challenge scenarios (`challenge-{slug}`); pattern refs are bare slugs; see [`docs/roadmaps/pattern-recognition-challenge.md`](roadmaps/pattern-recognition-challenge.md) |
 
 ## Additive book fields
 

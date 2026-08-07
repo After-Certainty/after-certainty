@@ -1,7 +1,8 @@
 # Pattern Recognition Challenge — Implementation Roadmap
 
-**Status:** Active specialized plan — Phases 0–9 not started (planning complete)  
+**Status:** Active specialized plan — Phase 0 complete; `GAME-001a` vertical slice in progress (schema + seed + single-challenge loop)  
 **Created:** 2026-08-07  
+**Revised:** 2026-08-07  
 **Location:** `docs/roadmaps/pattern-recognition-challenge.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog stay linked from that master roadmap (`GAME-001`).
 

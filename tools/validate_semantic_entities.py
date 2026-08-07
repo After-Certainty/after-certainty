@@ -53,6 +53,7 @@ SLUG_PARENTS = frozenset(
         "questions",
         "trails",
         "shelves",
+        "challenges",
     }
 )
 
@@ -75,6 +76,7 @@ DIR_SCHEMA = {
     "trails": "trail-entry.schema.json",
     "shelves": "shelf-entry.schema.json",
     "change-events": "change-event-entry.schema.json",
+    "challenges": "challenge-entry.schema.json",
 }
 
 
@@ -211,6 +213,8 @@ def _check_refs_in_doc(
         ("relatedSources", sources, "source"),
         ("works", sources, "source"),
         ("activePatterns", patterns, "pattern"),
+        ("secondaryPatterns", patterns, "pattern"),
+        ("distractorPatterns", patterns, "pattern"),
         ("relatedBooks", books, "book"),
     )
     for key, allowed, kind in ref_fields:
@@ -221,6 +225,12 @@ def _check_refs_in_doc(
             s = _normalize_ref_slug(raw, kind)
             if s and s not in allowed:
                 errors.append(f"{path}: {key} references unknown slug {s!r}")
+
+    dominant = doc.get("dominantPattern")
+    if isinstance(dominant, str) and dominant.strip():
+        s = _normalize_ref_slug(dominant, "pattern")
+        if s and s not in patterns:
+            errors.append(f"{path}: dominantPattern references unknown slug {s!r}")
 
 
 def _check_relationships_file(

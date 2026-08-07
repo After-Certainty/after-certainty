@@ -1,0 +1,33 @@
+slug: face-for-the-failure
+title: Someone to point at
+mode: recognition
+status: published
+difficulty: introductory
+context: leadership
+scenario: >
+  After a product miss, leaders spend the first hour naming who dropped the ball.
+  The conversation never reaches the incentive structure, the missing rehearsal,
+  or the ambiguous handoff. By evening, one person has become the explanation.
+dominantPattern: blame-compresses-complexity
+secondaryPatterns:
+  - distance-conceals-consequence
+  - meaning-forms-early
+distractorPatterns:
+  - leaders-feel-the-consequences
+  - bad-news-reaches-power
+explanation: >
+  Blame offers a quick face for a systemic miss. The strongest pattern is Blame
+  Compresses Complexity: a person becomes the story, and the conditions that made
+  the miss likely stay unexamined.
+choiceFeedback:
+  meaning-forms-early: >
+    You noticed Meaning Forms Early — the first narrative settled fast — and that
+    is present, but Blame Compresses Complexity names what the narrative did:
+    it collapsed a system into a person.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - when-others-look-to-you-v1
+relatedSituation: blame-locates-harm-in-a-face

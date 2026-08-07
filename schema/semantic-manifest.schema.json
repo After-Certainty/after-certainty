@@ -130,6 +130,12 @@
         "$ref": "#/$defs/trailEntry"
       }
     },
+    "challenges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/challengeEntry"
+      }
+    },
     "shelves": {
       "type": "array",
       "items": {
@@ -1782,6 +1788,125 @@
           "type": "string"
         },
         "carryForwardQuestion": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "challengeEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "mode",
+        "status",
+        "difficulty",
+        "context",
+        "scenario",
+        "dominantPattern",
+        "secondaryPatterns",
+        "distractorPatterns",
+        "explanation"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string"
+        },
+        "mode": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "difficulty": {
+          "type": "string"
+        },
+        "context": {
+          "type": "string"
+        },
+        "scenario": {
+          "type": "string"
+        },
+        "dominantPattern": {
+          "type": "string",
+          "minLength": 1
+        },
+        "secondaryPatterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "distractorPatterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "choiceFeedback": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "insightXp": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "dominant": {
+              "type": "integer"
+            },
+            "secondary": {
+              "type": "integer"
+            },
+            "distractor": {
+              "type": "integer"
+            }
+          }
+        },
+        "relatedBooks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedChapterIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedPodcastEpisodeId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "relatedSituation": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "provenance": {
           "type": [
             "string",
             "null"

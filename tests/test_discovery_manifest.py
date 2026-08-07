@@ -37,7 +37,7 @@ def test_manifest_compatibility_keys_and_schema_version(semantic_manifest: dict)
         "ontology",
     ):
         assert key in data
-    assert data["schemaVersion"] == "2.4"
+    assert data["schemaVersion"] == "2.5"
     assert "sourceCommit" in data
     assert isinstance(data["books"], list) and data["books"]
     book = data["books"][0]
@@ -66,12 +66,16 @@ def test_discovery_collections_present(semantic_manifest: dict) -> None:
     data = semantic_manifest
     assert len(data["questions"]) >= 1
     assert len(data["trails"]) >= 1
+    assert len(data["challenges"]) >= 1
     assert len(data["shelves"]) >= 1
     assert len(data["changeEvents"]) >= 1
     assert len(data["searchAliases"]) >= 1
     q = data["questions"][0]
     assert q["pathStops"]
     assert "title" in q["pathStops"][0] or q["pathStops"][0].get("entityId")
+    challenge = data["challenges"][0]
+    assert challenge["dominantPattern"]
+    assert challenge["id"].startswith("challenge-")
     fiction = next(s for s in data["shelves"] if s["slug"] == "fiction")
     assert fiction["selection"]["mode"] == "rule"
     assert any(b.startswith("book-") for b in fiction["resolvedBookIds"])
@@ -95,6 +99,7 @@ def test_deterministic_discovery_ordering(semantic_manifest: dict) -> None:
         "editions": lambda r: str(r["id"]),
         "questions": lambda r: str(r["id"]),
         "trails": lambda r: str(r["id"]),
+        "challenges": lambda r: str(r["id"]),
         "shelves": lambda r: (int(r["displayOrder"]), str(r["id"])),
         "changeEvents": lambda r: (str(r["date"]), str(r["id"])),
         "searchAliases": lambda r: (str(r["kind"]), ",".join(r["terms"])),

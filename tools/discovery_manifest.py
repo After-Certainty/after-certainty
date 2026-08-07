@@ -24,7 +24,7 @@ from book_specs import (
 )
 
 SEMANTIC = Path("semantic")
-SCHEMA_VERSION = "2.4"
+SCHEMA_VERSION = "2.5"
 CONTENT_TYPES = frozenset({"nonfiction", "fiction", "handbook", "essay_collection", "poetry"})
 LITERARY_FORMS = frozenset(
     {
@@ -368,6 +368,69 @@ def _enrich_path_stops(
     return out
 
 
+def build_challenges(repo: Path) -> list[dict]:
+    """Published pattern-recognition challenges (schemaVersion 2.5+)."""
+    rows: list[dict] = []
+    for path in _iter_dir_yml(repo, "challenges"):
+        doc = load_yaml(path)
+        if not isinstance(doc, dict):
+            continue
+        status = str(doc.get("status") or "").strip()
+        if status != "published":
+            continue
+        slug = str(doc.get("slug") or path.stem).strip()
+        entry: dict = {
+            "id": f"challenge-{slug}",
+            "slug": slug,
+            "title": str(doc.get("title") or slug).strip(),
+            "mode": str(doc.get("mode") or "recognition").strip(),
+            "status": status,
+            "difficulty": str(doc.get("difficulty") or "introductory").strip(),
+            "context": str(doc.get("context") or "everyday").strip(),
+            "scenario": str(doc.get("scenario") or "").strip(),
+            "dominantPattern": str(doc.get("dominantPattern") or "").strip(),
+            "secondaryPatterns": _optional_str_list(doc.get("secondaryPatterns")),
+            "distractorPatterns": _optional_str_list(doc.get("distractorPatterns")),
+            "explanation": str(doc.get("explanation") or "").strip(),
+        }
+        feedback = doc.get("choiceFeedback")
+        if isinstance(feedback, dict) and feedback:
+            entry["choiceFeedback"] = {
+                str(k).strip(): str(v).strip()
+                for k, v in feedback.items()
+                if str(k).strip() and str(v).strip()
+            }
+        xp = doc.get("insightXp")
+        if isinstance(xp, dict):
+            cleaned: dict[str, int] = {}
+            for key in ("dominant", "secondary", "distractor"):
+                if key in xp and xp[key] is not None:
+                    cleaned[key] = int(xp[key])
+            if cleaned:
+                entry["insightXp"] = cleaned
+        books = _optional_str_list(doc.get("relatedBooks"))
+        if books:
+            entry["relatedBooks"] = books
+        chapters = _optional_str_list(doc.get("relatedChapterIds"))
+        if chapters:
+            entry["relatedChapterIds"] = chapters
+        podcast = doc.get("relatedPodcastEpisodeId")
+        if podcast is not None and str(podcast).strip():
+            entry["relatedPodcastEpisodeId"] = str(podcast).strip()
+        situation = str(doc.get("relatedSituation") or "").strip()
+        if situation:
+            entry["relatedSituation"] = situation
+        tags = _optional_str_list(doc.get("tags"))
+        if tags:
+            entry["tags"] = tags
+        provenance = doc.get("provenance")
+        if provenance is not None and str(provenance).strip():
+            entry["provenance"] = str(provenance).strip()
+        rows.append(entry)
+    rows.sort(key=lambda r: str(r["id"]))
+    return rows
+
+
 def build_questions(
     repo: Path,
     title_index: dict[str, tuple[str | None, str | None]],
@@ -601,6 +664,7 @@ def attach_discovery_collections(
     title_index = _entity_title_index(books, glossary, patterns, situations, sources, thinkers)
     payload["questions"] = build_questions(repo, title_index)
     payload["trails"] = build_trails(repo, title_index)
+    payload["challenges"] = build_challenges(repo)
     payload["shelves"] = build_shelves(repo, books)
     payload["changeEvents"] = build_change_events(repo, books)
     payload["searchAliases"] = build_search_aliases(repo)

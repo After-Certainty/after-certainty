@@ -1,0 +1,37 @@
+slug: meeting-then-hallway
+title: Where the real objection went
+mode: recognition
+status: published
+difficulty: intermediate
+context: organizations
+scenario: >
+  In the standing meeting, everyone nods when the plan is approved. Twenty
+  minutes later in the hallway, two people replay the objection they did not
+  raise. By next week the official decision still stands, and the hallway
+  conversation has become the place where judgment actually happens.
+dominantPattern: disagreement-is-suppressed
+secondaryPatterns:
+  - learning-collapses
+  - dissent-is-welcomed
+distractorPatterns:
+  - feedback-drives-change
+  - examples-accumulate
+explanation: >
+  When disagreement cannot survive the formal room, it relocates. The strongest
+  pattern is Disagreement is Suppressed: the organization still appears aligned
+  while the real corrective signal moves out of view.
+choiceFeedback:
+  learning-collapses: >
+    You noticed Learning Collapses — the hallway talk never updates the plan,
+    but the strongest pattern is Disagreement is Suppressed: the objection was
+    never allowed into the room that decides.
+  dissent-is-welcomed: >
+    Dissent is Welcomed would look like the objection being spoken and held in
+    the meeting. Here the strongest pattern is Disagreement is Suppressed.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - when-others-look-to-you-v1
+relatedSituation: dissent-narrows-to-workaround

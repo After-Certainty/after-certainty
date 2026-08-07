@@ -1,0 +1,37 @@
+slug: first-story-sticks
+title: The first explanation wins
+mode: recognition
+status: published
+difficulty: introductory
+context: everyday
+scenario: >
+  A delayed package arrives with no clear reason. The first person to speak says
+  the courier is careless. That story spreads through the group chat before anyone
+  checks the tracking history. Later evidence shows a weather hold — but people
+  still talk about the “careless courier.”
+dominantPattern: meaning-forms-early
+secondaryPatterns:
+  - blame-compresses-complexity
+  - gaps-invite-completion
+distractorPatterns:
+  - feedback-drives-change
+  - revisability-preserves-judgment
+explanation: >
+  Early meaning settles before evidence arrives. The strongest pattern is Meaning
+  Forms Early: the first coherent story becomes the shared reference, and later
+  facts have to fight uphill against it.
+choiceFeedback:
+  blame-compresses-complexity: >
+    You noticed Blame Compresses Complexity — the courier became a face for the
+    delay — but the strongest pattern is Meaning Forms Early: that story locked
+    in before anyone checked.
+  gaps-invite-completion: >
+    You noticed Gaps Invite Completion — people filled silence with a story —
+    and that is present, but Meaning Forms Early names why the first fill became
+    sticky.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - how-meaning-moves
