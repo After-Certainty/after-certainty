@@ -6,6 +6,7 @@ import { useSyncExternalStore } from "react";
 import { gamePaths } from "@/lib/games/paths";
 import { DAILY_SESSION_SIZE, getGameDateKey } from "@/lib/games/pattern-recognition/daily";
 import {
+  getPatternRecognitionServerSnapshot,
   getPatternRecognitionState,
   resetPatternRecognitionProgress,
   subscribePatternRecognition,
@@ -20,7 +21,7 @@ export function LobbyProgress({ publishedCount }: LobbyProgressProps) {
   const state = useSyncExternalStore(
     subscribePatternRecognition,
     getPatternRecognitionState,
-    getPatternRecognitionState,
+    getPatternRecognitionServerSnapshot,
   );
   const today = getGameDateKey();
   const dailyDone = Boolean(state.dailyCompletions[today]);

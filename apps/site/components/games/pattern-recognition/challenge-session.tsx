@@ -12,6 +12,7 @@ import {
 import { gamePaths } from "@/lib/games/paths";
 import {
   completeDailySession,
+  getPatternRecognitionServerSnapshot,
   getPatternRecognitionState,
   subscribePatternRecognition,
 } from "@/lib/games/pattern-recognition/storage";
@@ -59,7 +60,7 @@ export function ChallengeSession({
   const state = useSyncExternalStore(
     subscribePatternRecognition,
     getPatternRecognitionState,
-    getPatternRecognitionState,
+    getPatternRecognitionServerSnapshot,
   );
 
   const total = challenges.length;

@@ -25,12 +25,18 @@ function notifyChanged(): void {
 
 export function subscribePatternRecognition(onStoreChange: () => void): () => void {
   if (typeof window === "undefined") return () => {};
-  const handler = () => onStoreChange();
-  window.addEventListener(CHANGE_EVENT, handler);
-  window.addEventListener("storage", handler);
+  const onLocalChange = () => onStoreChange();
+  const onStorage = (event: StorageEvent) => {
+    if (event.key != null && event.key !== PATTERN_RECOGNITION_STORAGE_KEY) return;
+    hasLoadedFromStorage = false;
+    loadStateFromStorage();
+    onStoreChange();
+  };
+  window.addEventListener(CHANGE_EVENT, onLocalChange);
+  window.addEventListener("storage", onStorage);
   return () => {
-    window.removeEventListener(CHANGE_EVENT, handler);
-    window.removeEventListener("storage", handler);
+    window.removeEventListener(CHANGE_EVENT, onLocalChange);
+    window.removeEventListener("storage", onStorage);
   };
 }
 
@@ -95,6 +101,24 @@ function emptyState(now = new Date().toISOString()): PatternRecognitionStateV2 {
     patternMemory: {},
   };
 }
+
+/** Stable SSR / pre-hydration snapshot for useSyncExternalStore. */
+const SERVER_SNAPSHOT: PatternRecognitionStateV2 = {
+  anonymousPlayerId: "",
+  createdAt: "",
+  updatedAt: "",
+  totalInsightXp: 0,
+  currentStreak: 0,
+  longestStreak: 0,
+  lastPlayedDate: null,
+  lastDailyCompletionDate: null,
+  dailyCompletions: {},
+  attemptEvents: [],
+  patternMemory: {},
+};
+
+let cachedSnapshot: PatternRecognitionStateV2 = SERVER_SNAPSHOT;
+let hasLoadedFromStorage = false;
 
 function isAttemptEvent(value: unknown): value is PatternRecognitionAttemptEvent {
   if (!value || typeof value !== "object") return false;
@@ -166,18 +190,34 @@ function migrateState(raw: unknown): PatternRecognitionStateV2 | null {
   };
 }
 
-function readState(): PatternRecognitionStateV2 {
-  if (!canUseLocalStorage()) return emptyState();
-  return (
+function loadStateFromStorage(): PatternRecognitionStateV2 {
+  if (!canUseLocalStorage()) {
+    if (cachedSnapshot === SERVER_SNAPSHOT) {
+      cachedSnapshot = emptyState();
+    }
+    return cachedSnapshot;
+  }
+  const loaded =
     readVersionedLocalStateWithMigration<PatternRecognitionStateV2>(
       PATTERN_RECOGNITION_STORAGE_KEY,
       PATTERN_RECOGNITION_STORAGE_VERSION,
       migrateState,
-    ) ?? emptyState()
-  );
+    ) ?? emptyState();
+  cachedSnapshot = loaded;
+  hasLoadedFromStorage = true;
+  return cachedSnapshot;
+}
+
+function readState(): PatternRecognitionStateV2 {
+  if (!hasLoadedFromStorage) {
+    return loadStateFromStorage();
+  }
+  return cachedSnapshot;
 }
 
 function writeState(state: PatternRecognitionStateV2): boolean {
+  cachedSnapshot = state;
+  hasLoadedFromStorage = true;
   const ok = writeVersionedLocalState(
     PATTERN_RECOGNITION_STORAGE_KEY,
     PATTERN_RECOGNITION_STORAGE_VERSION,
@@ -191,8 +231,17 @@ export function getPatternRecognitionState(): PatternRecognitionStateV2 {
   return readState();
 }
 
+/** Stable getServerSnapshot for useSyncExternalStore subscribers. */
+export function getPatternRecognitionServerSnapshot(): PatternRecognitionStateV2 {
+  return SERVER_SNAPSHOT;
+}
+
 export function getTotalInsightXp(): number {
   return readState().totalInsightXp;
+}
+
+export function getTotalInsightXpServerSnapshot(): number {
+  return 0;
 }
 
 export function getPatternMemoryEntry(patternId: string): PatternMemoryEntry | null {

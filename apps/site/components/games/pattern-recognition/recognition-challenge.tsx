@@ -10,6 +10,7 @@ import { buildFeedback } from "@/lib/games/pattern-recognition/scoring";
 import {
   getPatternMemoryEntry,
   getTotalInsightXp,
+  getTotalInsightXpServerSnapshot,
   recordChallengeAttempt,
   subscribePatternRecognition,
 } from "@/lib/games/pattern-recognition/storage";
@@ -82,7 +83,7 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
   const totalXp = useSyncExternalStore(
     subscribePatternRecognition,
     getTotalInsightXp,
-    () => 0,
+    getTotalInsightXpServerSnapshot,
   );
 
   useEffect(() => {

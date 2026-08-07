@@ -13,6 +13,8 @@ import {
 describe("pattern recognition storage", () => {
   beforeEach(() => {
     window.localStorage.clear();
+    // Clears the in-memory snapshot used by useSyncExternalStore getSnapshot.
+    resetPatternRecognitionProgress();
   });
 
   it("records attempts, accumulates Insight XP, and updates Pattern Memory", () => {
