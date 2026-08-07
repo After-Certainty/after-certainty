@@ -1,6 +1,6 @@
 # Roadmaps and planning documents
 
-**Last audited:** 2026-08-03 (provider-neutral TTS roadmap revision; explore discovery mobile redesign complete, Phases 0–6)
+**Last audited:** 2026-08-07 (Pattern Recognition Challenge specialized plan added; prior: provider-neutral TTS revision; explore discovery mobile redesign complete)
 
 This index orients agents and maintainers. It is **not** a backlog.
 
@@ -31,7 +31,8 @@ This index orients agents and maintainers. It is **not** a backlog.
 
 | Path | Topic | Classification |
 |------|-------|----------------|
-| [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) | Provider-neutral chapter TTS for native reader (ElevenLabs first adapter; credit/usage-bounded pilot) | **active-specialized-plan** (Phases 0–8 not started) |
+| [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) | Provider-neutral chapter TTS for native reader (ElevenLabs first adapter; credit/usage-bounded pilot) | **active-specialized-plan** (Phases 0–8; see plan status header) |
+| [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md) | Local-first Pattern Recognition Challenge game (corpus challenges + site play; Supabase sync later) | **active-specialized-plan** (Phases 0–9 not started; `GAME-001`) |
 
 ### Complete specialized site plans
 
