@@ -1,8 +1,9 @@
 # Pattern Recognition Challenge — Implementation Roadmap
 
-**Status:** Active specialized plan — Phase 0 complete; `GAME-001a` vertical slice in progress (schema + seed + single-challenge loop)  
+**Status:** Active specialized plan — `GAME-001a` shipped; `GAME-001b` in progress (Daily + Practice + streaks + Pattern Memory + 15 seeds)  
 **Created:** 2026-08-07  
 **Revised:** 2026-08-07  
+ 
 **Location:** `docs/roadmaps/pattern-recognition-challenge.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog stay linked from that master roadmap (`GAME-001`).
 
@@ -908,6 +909,23 @@ When adding a challenge:
 
 **Exit criterion:** An editor can play one challenge on a phone, refresh, and still see their Insight XP total.
 
+### Next vertical slice
+
+**Slice name:** `GAME-001b` — Daily + Practice + Pattern Memory  
+
+**Includes:**
+
+- Expand published seeds to ~15 across contexts/patterns
+- Deterministic Daily selection (5) + Practice packs (5)
+- Storage v2: streaks, `dailyCompletions`, Pattern Memory
+- `/games/pattern-recognition/daily` and `/practice` session loops
+- Lobby CTAs, streak / XP display, reset progress
+- Focused chrome on play routes
+
+**Excludes:** Analytics, Playwright e2e, Supabase, advanced modes, corpus-link polish beyond existing pattern/book links.
+
+**Exit criterion:** Same calendar day yields the same Daily five; completing Daily once awards streak + completion bonus; Practice never breaks streak; Pattern Memory updates on reveal.
+
 ---
 
 ## 13. Completion checklist (plan hygiene)
@@ -915,7 +933,8 @@ When adding a challenge:
 - [x] Specialized cross-layer plan authored
 - [x] Indexed in `docs/roadmaps/README.md`
 - [x] `GAME-001` pointer in `remaining-product-roadmap.md`
-- [ ] Implementation PRs link back here per phase
+- [x] `GAME-001a` implementation PR linked via merge
+- [ ] Implementation PRs link back here per phase (`GAME-001b`+)
 - [ ] Update this status header as phases ship
 
 ---

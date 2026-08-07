@@ -5,15 +5,17 @@ import { useEffect, useId, useRef, useState, useSyncExternalStore } from "react"
 
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { gamePaths } from "@/lib/games/paths";
+import { formatContextLabel } from "@/lib/games/pattern-recognition/memory";
 import { buildFeedback } from "@/lib/games/pattern-recognition/scoring";
 import {
+  getPatternMemoryEntry,
   getTotalInsightXp,
   recordChallengeAttempt,
   subscribePatternRecognition,
 } from "@/lib/games/pattern-recognition/storage";
 import type { ChallengeFeedback, PatternChoice } from "@/types/challenges";
 
-export type RecognitionChallengeProps = {
+export type RecognitionChallengeViewModel = {
   challengeId: string;
   slug: string;
   title: string;
@@ -32,6 +34,19 @@ export type RecognitionChallengeProps = {
   relatedBookTitle?: string;
 };
 
+export type RecognitionChallengeProps = RecognitionChallengeViewModel & {
+  mode?: "daily" | "practice" | "single";
+  eyebrow?: string;
+  questionIndex?: number;
+  questionCount?: number;
+  sessionId?: string;
+  dailyDate?: string;
+  showExit?: boolean;
+  onAnswered?: (feedback: ChallengeFeedback) => void;
+  onContinue?: () => void;
+  continueLabel?: string;
+};
+
 export function RecognitionChallenge(props: RecognitionChallengeProps) {
   const {
     scenario,
@@ -40,12 +55,24 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
     dominantPatternHref,
     relatedBookHref,
     relatedBookTitle,
+    mode = "single",
+    eyebrow = "Pattern Recognition Challenge",
+    questionIndex,
+    questionCount,
+    sessionId,
+    dailyDate,
+    showExit = true,
+    onAnswered,
+    onContinue,
+    continueLabel = "Next question",
   } = props;
 
   const feedbackId = useId();
   const feedbackRef = useRef<HTMLDivElement | null>(null);
   const [selectedPatternId, setSelectedPatternId] = useState<string | null>(null);
   const [feedback, setFeedback] = useState<ChallengeFeedback | null>(null);
+  const [memoryContexts, setMemoryContexts] = useState<string[]>([]);
+  const [memoryCount, setMemoryCount] = useState(0);
   const recordedRef = useRef(false);
   const isClient = useSyncExternalStore(
     () => () => {},
@@ -60,7 +87,13 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
 
   useEffect(() => {
     if (!feedback || !feedbackRef.current) return;
-    feedbackRef.current.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    const reduce =
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    feedbackRef.current.scrollIntoView({
+      behavior: reduce ? "auto" : "smooth",
+      block: "nearest",
+    });
   }, [feedback]);
 
   function onSelect(patternId: string) {
@@ -89,44 +122,64 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
     setFeedback(next);
     if (!recordedRef.current) {
       recordedRef.current = true;
-      recordChallengeAttempt({
+      const state = recordChallengeAttempt({
         challengeId: props.challengeId,
         selectedPatternId: patternId,
         outcome: next.outcome,
         context: props.context,
         xpAwarded: next.xpAwarded,
-        mode: "single",
+        mode,
+        sessionId,
+        dailyDate,
+        dominantPatternId: props.dominantPattern,
+        secondaryPatternIds: props.secondaryPatterns,
       });
+      const memory = state.patternMemory[props.dominantPattern];
+      setMemoryCount(memory?.contexts.length ?? 0);
+      setMemoryContexts(memory?.contexts ?? []);
+      onAnswered?.(next);
+    } else {
+      const memory = getPatternMemoryEntry(props.dominantPattern);
+      setMemoryCount(memory?.contexts.length ?? 0);
+      setMemoryContexts(memory?.contexts ?? []);
     }
   }
+
+  const progressLabel =
+    questionIndex != null && questionCount != null
+      ? `Question ${questionIndex} of ${questionCount}`
+      : null;
 
   return (
     <div className="mx-auto flex w-full max-w-lg flex-col gap-6 px-4 pb-16 pt-4 sm:px-6">
       <header className="flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <p className="font-sans text-xs uppercase tracking-[0.18em] text-muted">
-            Pattern Recognition Challenge
-          </p>
+          <p className="font-sans text-xs uppercase tracking-[0.18em] text-muted">{eyebrow}</p>
           <h1 className="mt-2 font-display text-2xl text-fg sm:text-3xl">
             What pattern do you see?
           </h1>
         </div>
-        <Link
-          href={gamePaths.patternRecognition}
-          className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-border text-fg transition-colors hover:border-accent/50 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-          aria-label="Exit challenge"
-        >
-          <span aria-hidden="true" className="text-lg leading-none">
-            ×
-          </span>
-        </Link>
+        {showExit ? (
+          <Link
+            href={gamePaths.patternRecognition}
+            className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-border text-fg transition-colors hover:border-accent/50 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+            aria-label="Exit challenge"
+          >
+            <span aria-hidden="true" className="text-lg leading-none">
+              ×
+            </span>
+          </Link>
+        ) : null}
       </header>
 
-      {isClient ? (
-        <p className="text-sm text-muted" data-testid="insight-xp-total">
-          Insight XP: {totalXp}
-        </p>
-      ) : null}
+      <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-muted">
+        {isClient ? (
+          <p data-testid="insight-xp-total">Insight XP: {totalXp}</p>
+        ) : (
+          <span />
+        )}
+        {progressLabel ? <p data-testid="question-progress">{progressLabel}</p> : null}
+      </div>
 
       <section
         aria-label="Scenario"
@@ -220,6 +273,39 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
                 ))}
               </ul>
             </div>
+          ) : null}
+
+          {memoryCount > 0 ? (
+            <div
+              className="mt-5 rounded-md border border-border/70 bg-bg/40 p-4"
+              data-testid="pattern-memory"
+            >
+              <p className="text-xs uppercase tracking-[0.18em] text-muted">Pattern Memory</p>
+              <p className="mt-2 font-sans text-sm leading-relaxed text-fg">
+                You&apos;ve recognized{" "}
+                <span className="font-medium">
+                  {titleByPatternId[props.dominantPattern] ?? props.dominantPattern}
+                </span>{" "}
+                across {memoryCount} {memoryCount === 1 ? "context" : "contexts"}
+                {memoryContexts.length > 0 ? ":" : "."}
+              </p>
+              {memoryContexts.length > 0 ? (
+                <p className="mt-2 text-sm text-muted">
+                  {memoryContexts.map(formatContextLabel).join(" · ")}
+                </p>
+              ) : null}
+            </div>
+          ) : null}
+
+          {onContinue ? (
+            <button
+              type="button"
+              onClick={onContinue}
+              className="mt-6 inline-flex min-h-11 w-full items-center justify-center rounded-md border border-accent/60 bg-accent-soft px-4 py-3 font-sans text-sm uppercase tracking-[0.16em] text-accent transition-colors hover:bg-accent/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+              data-testid="continue-session"
+            >
+              {continueLabel}
+            </button>
           ) : null}
         </div>
       ) : null}

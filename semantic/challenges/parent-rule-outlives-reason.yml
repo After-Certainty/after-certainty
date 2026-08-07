@@ -1,0 +1,34 @@
+slug: parent-rule-outlives-reason
+title: The household exception that stayed
+mode: recognition
+status: published
+difficulty: introductory
+context: parenting
+scenario: >
+  During a hard month, a family adds a temporary screen-time exception “just
+  until things calm down.” Months later the crisis is over, but the exception is
+  how evenings run. Children treat it as the original rule; adults still call it
+  temporary.
+dominantPattern: exceptions-are-forever
+secondaryPatterns:
+  - structures-outlive-reasons
+  - meaning-drifts-over-time
+distractorPatterns:
+  - care-preserves-particulars
+  - commitment-leaves-room
+explanation: >
+  Temporary household measures become the new normal when no one retires them.
+  The strongest pattern is Exceptions Are Forever: the emergency path outlived
+  the emergency story.
+choiceFeedback:
+  structures-outlive-reasons: >
+    You noticed Structures Outlive Reasons — the evening routine persisted —
+    but Exceptions Are Forever is stronger because it was explicitly framed as
+    temporary and never rolled back.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - living-in-sediment
+relatedSituation: temporary-fixes-become-permanent

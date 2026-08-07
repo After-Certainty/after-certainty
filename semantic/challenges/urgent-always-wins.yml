@@ -1,0 +1,33 @@
+slug: urgent-always-wins
+title: The calendar that never has room
+mode: recognition
+status: published
+difficulty: introductory
+context: organizations
+scenario: >
+  Every week the team postpones the architecture review “until after this
+  launch.” Launches arrive back-to-back. Six months later, the review still has
+  not happened, and the shortcuts taken under deadline have become the default
+  path for new work.
+dominantPattern: speed-relocates-judgment
+secondaryPatterns:
+  - exceptions-are-forever
+  - structures-outlive-reasons
+distractorPatterns:
+  - scrutiny-preserves-trust
+  - understanding-circulates
+explanation: >
+  Urgency does not erase judgment — it moves it. The strongest pattern is Speed
+  Relocates Judgment: decisions that needed careful attention were deferred until
+  the temporary path became permanent practice.
+choiceFeedback:
+  exceptions-are-forever: >
+    You noticed Exceptions Are Forever — the shortcuts stayed — and that is
+    present, but Speed Relocates Judgment names why careful review never got a
+    turn: urgency kept relocating who decides and when.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - no-time-to-think

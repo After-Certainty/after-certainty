@@ -1,0 +1,33 @@
+slug: friend-group-closes-ranks
+title: The joke that ended the question
+mode: recognition
+status: published
+difficulty: introductory
+context: relationships
+scenario: >
+  At dinner, one person raises a concern about how the group treats a missing
+  friend. Someone else turns it into a joke. Laughter lands, the topic dies, and
+  later two people admit in private that the concern was real — but not worth
+  “making it weird.”
+dominantPattern: disagreement-is-suppressed
+secondaryPatterns:
+  - admiration-becomes-insulation
+  - speech-escalates-faster-than-meaning
+distractorPatterns:
+  - dissent-is-welcomed
+  - understanding-circulates
+explanation: >
+  Social ease can become a suppression mechanism. The strongest pattern is
+  Disagreement is Suppressed: the group preserved tone by relocating the real
+  concern out of the shared room.
+choiceFeedback:
+  admiration-becomes-insulation: >
+    You noticed Admiration Becomes Insulation — loyalty softened critique —
+    and that may be present, but Disagreement is Suppressed names the move that
+    ended the question in public.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - trust-beyond-similarity

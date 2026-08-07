@@ -1,0 +1,33 @@
+slug: diagnosis-before-the-exam
+title: Named before it was checked
+mode: recognition
+status: published
+difficulty: intermediate
+context: medicine
+scenario: >
+  In a busy clinic, a senior clinician names a likely diagnosis in the hallway
+  before lab results return. The team organizes around that name. When mixed
+  results arrive, they are read as compatible with the first call rather than as
+  reasons to reopen the question.
+dominantPattern: meaning-forms-early
+secondaryPatterns:
+  - authority-follows-attention
+  - gaps-invite-completion
+distractorPatterns:
+  - care-preserves-particulars
+  - revisability-preserves-judgment
+explanation: >
+  Early naming coordinates a team — and can close inquiry too soon. The strongest
+  pattern is Meaning Forms Early: the first diagnosis became the shared frame
+  against which later evidence was interpreted.
+choiceFeedback:
+  authority-follows-attention: >
+    You noticed Authority Follows Attention — the senior voice focused the room —
+    and that helped the early meaning stick, but Meaning Forms Early is the
+    strongest pattern in what happened next.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - how-meaning-moves

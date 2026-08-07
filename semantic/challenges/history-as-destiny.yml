@@ -1,0 +1,34 @@
+slug: history-as-destiny
+title: Because we have always done it this way
+mode: recognition
+status: published
+difficulty: intermediate
+context: history
+scenario: >
+  A city keeps a permitting sequence designed for an older industrial pattern.
+  Staff can explain each step’s origin story, but not why those constraints still
+  fit. When a reformer asks which steps could retire, the answer is that changing
+  anything would “break continuity.”
+dominantPattern: structures-outlive-reasons
+secondaryPatterns:
+  - exceptions-are-forever
+  - meaning-drifts-over-time
+distractorPatterns:
+  - reality-answers-back
+  - participation-creates-legitimacy
+explanation: >
+  Continuity can become an argument against examination. The strongest pattern is
+  Structures Outlive Reasons: the process remains after the conditions that
+  justified it have changed.
+choiceFeedback:
+  meaning-drifts-over-time: >
+    You noticed Meaning Drifts Over Time — the original reasons faded — and that
+    is present, but Structures Outlive Reasons is stronger: the apparatus still
+    runs without those reasons.
+insightXp:
+  dominant: 25
+  secondary: 15
+  distractor: 5
+relatedBooks:
+  - living-in-sediment
+relatedSituation: inherited-rule-outlives-constraint
