@@ -8,6 +8,25 @@ import type { ChallengeOutcome } from "@/types/challenges";
 
 export const PATTERN_RECOGNITION_STORAGE_KEY = "ac_pattern_recognition";
 export const PATTERN_RECOGNITION_STORAGE_VERSION = 1;
+const CHANGE_EVENT = "ac-pattern-recognition-changed";
+
+function notifyChanged(): void {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new Event(CHANGE_EVENT));
+}
+
+export function subscribePatternRecognition(
+  onStoreChange: () => void,
+): () => void {
+  if (typeof window === "undefined") return () => {};
+  const handler = () => onStoreChange();
+  window.addEventListener(CHANGE_EVENT, handler);
+  window.addEventListener("storage", handler);
+  return () => {
+    window.removeEventListener(CHANGE_EVENT, handler);
+    window.removeEventListener("storage", handler);
+  };
+}
 
 export type PatternRecognitionAttemptEvent = {
   id: string;
@@ -95,11 +114,13 @@ function readState(): PatternRecognitionStateV1 {
 }
 
 function writeState(state: PatternRecognitionStateV1): boolean {
-  return writeVersionedLocalState(
+  const ok = writeVersionedLocalState(
     PATTERN_RECOGNITION_STORAGE_KEY,
     PATTERN_RECOGNITION_STORAGE_VERSION,
     state,
   );
+  notifyChanged();
+  return ok;
 }
 
 export function getPatternRecognitionState(): PatternRecognitionStateV1 {

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useId, useRef, useState } from "react";
+import { useEffect, useId, useRef, useState, useSyncExternalStore } from "react";
 
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { gamePaths } from "@/lib/games/paths";
@@ -9,6 +9,7 @@ import { buildFeedback } from "@/lib/games/pattern-recognition/scoring";
 import {
   getTotalInsightXp,
   recordChallengeAttempt,
+  subscribePatternRecognition,
 } from "@/lib/games/pattern-recognition/storage";
 import type { ChallengeFeedback, PatternChoice } from "@/types/challenges";
 
@@ -45,12 +46,17 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
   const feedbackRef = useRef<HTMLDivElement | null>(null);
   const [selectedPatternId, setSelectedPatternId] = useState<string | null>(null);
   const [feedback, setFeedback] = useState<ChallengeFeedback | null>(null);
-  const [totalXp, setTotalXp] = useState<number | null>(null);
   const recordedRef = useRef(false);
-
-  useEffect(() => {
-    setTotalXp(getTotalInsightXp());
-  }, []);
+  const isClient = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
+  const totalXp = useSyncExternalStore(
+    subscribePatternRecognition,
+    getTotalInsightXp,
+    () => 0,
+  );
 
   useEffect(() => {
     if (!feedback || !feedbackRef.current) return;
@@ -83,7 +89,7 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
     setFeedback(next);
     if (!recordedRef.current) {
       recordedRef.current = true;
-      const state = recordChallengeAttempt({
+      recordChallengeAttempt({
         challengeId: props.challengeId,
         selectedPatternId: patternId,
         outcome: next.outcome,
@@ -91,7 +97,6 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
         xpAwarded: next.xpAwarded,
         mode: "single",
       });
-      setTotalXp(state.totalInsightXp);
     }
   }
 
@@ -117,7 +122,7 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
         </Link>
       </header>
 
-      {totalXp != null ? (
+      {isClient ? (
         <p className="text-sm text-muted" data-testid="insight-xp-total">
           Insight XP: {totalXp}
         </p>
