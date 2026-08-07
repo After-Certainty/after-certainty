@@ -1,7 +1,16 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 
+import {
+  AUDIO_PLAYBACK_RATES,
+  DEFAULT_AUDIO_PLAYBACK_RATE,
+  formatAudioPlaybackRateLabel,
+  getAudioPlaybackRate,
+  isAudioPlaybackRate,
+  setAudioPlaybackRate,
+  subscribeAudioPlaybackRate,
+} from "@/lib/reading/audioPlaybackRate";
 import type { ChapterAudioUnit } from "@/lib/reading/chapter-audio";
 import {
   canHighlightAlignment,
@@ -62,6 +71,11 @@ export function ChapterAudioPlayer({
 }: ChapterAudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [fetchedAlignment, setFetchedAlignment] = useState<ChapterAudioAlignment | null>(null);
+  const playbackRate = useSyncExternalStore(
+    subscribeAudioPlaybackRate,
+    getAudioPlaybackRate,
+    () => DEFAULT_AUDIO_PLAYBACK_RATE,
+  );
   const activeIdRef = useRef<string | null>(null);
   const followPausedRef = useRef(false);
   const rafRef = useRef<number | null>(null);
@@ -75,6 +89,13 @@ export function ChapterAudioPlayer({
     if (!el) return;
     return registerChapterAudioElement(el);
   }, [audio.audioUrl]);
+
+  // Browsers reset playbackRate when the media source changes; re-apply after src updates.
+  useEffect(() => {
+    const el = audioRef.current;
+    if (!el) return;
+    el.playbackRate = playbackRate;
+  }, [playbackRate, audio.audioUrl]);
 
   useEffect(() => {
     if (alignmentProp || !highlightCapable || !audio.alignmentUrl) return;
@@ -187,6 +208,12 @@ export function ChapterAudioPlayer({
     };
   }, [alignment, audio.audioUrl]);
 
+  const onSpeedChange = (value: string) => {
+    const parsed = Number(value);
+    if (!isAudioPlaybackRate(parsed)) return;
+    setAudioPlaybackRate(parsed);
+  };
+
   return (
     <div
       role="region"
@@ -197,7 +224,25 @@ export function ChapterAudioPlayer({
       data-unit-id={audio.unitId}
     >
       <div className="mx-auto flex max-w-3xl flex-col gap-2 px-4 py-3">
-        <p className="text-xs leading-relaxed text-muted">{audio.disclosure}</p>
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <p className="text-xs leading-relaxed text-muted">{audio.disclosure}</p>
+          <label className="inline-flex items-center gap-2 text-[11px] uppercase tracking-[0.18em] text-muted">
+            Speed
+            <select
+              className="h-8 min-w-[4.5rem] rounded-sm border border-border/60 bg-bg-elevated/30 px-2 text-xs normal-case tracking-normal text-fg/85 transition-colors hover:border-accent/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+              aria-label="Playback speed"
+              value={String(playbackRate)}
+              onChange={(event) => onSpeedChange(event.target.value)}
+              data-testid="chapter-audio-speed"
+            >
+              {AUDIO_PLAYBACK_RATES.map((rate) => (
+                <option key={rate} value={String(rate)}>
+                  {formatAudioPlaybackRateLabel(rate)}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
         <audio
           ref={audioRef}
           controls
