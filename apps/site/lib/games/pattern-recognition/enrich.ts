@@ -1,8 +1,15 @@
-import { explorePaths } from "@/lib/graph/explorePaths";
+import { getPodcastEpisodes } from "@/lib/content-data";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
-import { getPublishedChallengeBySlug, getPublishedChallenges } from "@/lib/games/pattern-recognition/load";
+import { buildGraphIndex } from "@/lib/graph/graph";
+import {
+  getPublishedChallengeBySlug,
+  getPublishedChallenges,
+} from "@/lib/games/pattern-recognition/load";
+import { resolveChallengeRelatedContent } from "@/lib/games/pattern-recognition/related-content";
 import { buildChoices } from "@/lib/games/pattern-recognition/scoring";
 import type { ChallengeDefinition, PatternChoice } from "@/types/challenges";
+import type { PodcastEpisode } from "@/types/content";
+import type { SemanticGraph } from "@/types/semanticGraph";
 
 export type EnrichedChallenge = ChallengeDefinition & {
   choices: PatternChoice[];
@@ -10,6 +17,13 @@ export type EnrichedChallenge = ChallengeDefinition & {
   dominantPatternHref: string;
   relatedBookHref?: string;
   relatedBookTitle?: string;
+  relatedChapterHref?: string;
+  relatedChapterTitle?: string;
+  relatedPodcastHref?: string;
+  relatedPodcastTitle?: string;
+  relatedPodcastExternal?: boolean;
+  relatedSituationHref?: string;
+  relatedSituationTitle?: string;
 };
 
 function patternTitleMap(
@@ -22,42 +36,52 @@ function patternTitleMap(
   return map;
 }
 
-export async function getEnrichedPublishedChallenges(): Promise<EnrichedChallenge[]> {
-  const { graph } = await getExploreSemanticGraph();
-  const titles = patternTitleMap(graph.patterns);
-  const booksBySlug = new Map(graph.books.map((book) => [book.slug, book]));
-
-  return getPublishedChallenges(graph).map((challenge) => {
-    const relatedBookSlug = challenge.relatedBooks?.[0];
-    const relatedBook = relatedBookSlug ? booksBySlug.get(relatedBookSlug) : undefined;
-    return {
-      ...challenge,
-      choices: buildChoices(challenge, titles),
-      titleByPatternId: titles,
-      dominantPatternHref: `${explorePaths.patterns}/${challenge.dominantPattern}`,
-      relatedBookHref: relatedBook ? `${explorePaths.books}/${relatedBook.slug}` : undefined,
-      relatedBookTitle: relatedBook?.title,
-    };
+function enrichChallenge(
+  challenge: ChallengeDefinition,
+  graph: SemanticGraph,
+  index: ReturnType<typeof buildGraphIndex>,
+  titles: Record<string, string>,
+  podcastEpisodes: readonly PodcastEpisode[],
+): EnrichedChallenge {
+  const related = resolveChallengeRelatedContent(challenge, {
+    graph,
+    index,
+    podcastEpisodes,
   });
+  return {
+    ...challenge,
+    choices: buildChoices(challenge, titles),
+    titleByPatternId: titles,
+    ...related,
+  };
+}
+
+export async function getEnrichedPublishedChallenges(): Promise<EnrichedChallenge[]> {
+  const [{ graph }, podcastEpisodes] = await Promise.all([
+    getExploreSemanticGraph(),
+    getPodcastEpisodes(),
+  ]);
+  const titles = patternTitleMap(graph.patterns);
+  const index = buildGraphIndex(graph);
+  return getPublishedChallenges(graph).map((challenge) =>
+    enrichChallenge(challenge, graph, index, titles, podcastEpisodes),
+  );
 }
 
 export async function getEnrichedChallengeBySlug(
   slug: string,
 ): Promise<EnrichedChallenge | undefined> {
-  const { graph } = await getExploreSemanticGraph();
+  const [{ graph }, podcastEpisodes] = await Promise.all([
+    getExploreSemanticGraph(),
+    getPodcastEpisodes(),
+  ]);
   const challenge = getPublishedChallengeBySlug(slug, graph);
   if (!challenge) return undefined;
-  const titles = patternTitleMap(graph.patterns);
-  const relatedBookSlug = challenge.relatedBooks?.[0];
-  const relatedBook = relatedBookSlug
-    ? graph.books.find((book) => book.slug === relatedBookSlug)
-    : undefined;
-  return {
-    ...challenge,
-    choices: buildChoices(challenge, titles),
-    titleByPatternId: titles,
-    dominantPatternHref: `${explorePaths.patterns}/${challenge.dominantPattern}`,
-    relatedBookHref: relatedBook ? `${explorePaths.books}/${relatedBook.slug}` : undefined,
-    relatedBookTitle: relatedBook?.title,
-  };
+  return enrichChallenge(
+    challenge,
+    graph,
+    buildGraphIndex(graph),
+    patternTitleMap(graph.patterns),
+    podcastEpisodes,
+  );
 }

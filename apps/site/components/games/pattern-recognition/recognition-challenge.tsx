@@ -33,6 +33,13 @@ export type RecognitionChallengeViewModel = {
   dominantPatternHref: string;
   relatedBookHref?: string;
   relatedBookTitle?: string;
+  relatedChapterHref?: string;
+  relatedChapterTitle?: string;
+  relatedPodcastHref?: string;
+  relatedPodcastTitle?: string;
+  relatedPodcastExternal?: boolean;
+  relatedSituationHref?: string;
+  relatedSituationTitle?: string;
 };
 
 export type RecognitionChallengeProps = RecognitionChallengeViewModel & {
@@ -56,6 +63,13 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
     dominantPatternHref,
     relatedBookHref,
     relatedBookTitle,
+    relatedChapterHref,
+    relatedChapterTitle,
+    relatedPodcastHref,
+    relatedPodcastTitle,
+    relatedPodcastExternal,
+    relatedSituationHref,
+    relatedSituationTitle,
     mode = "single",
     eyebrow = "Pattern Recognition Challenge",
     questionIndex,
@@ -252,9 +266,49 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
               <Link
                 href={relatedBookHref}
                 className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                data-testid="related-book"
               >
                 Related Book: {relatedBookTitle}
               </Link>
+            ) : null}
+            {relatedChapterHref && relatedChapterTitle ? (
+              <Link
+                href={relatedChapterHref}
+                className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                data-testid="related-chapter"
+              >
+                Related Chapter: {relatedChapterTitle}
+              </Link>
+            ) : null}
+            {relatedSituationHref && relatedSituationTitle ? (
+              <Link
+                href={relatedSituationHref}
+                className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                data-testid="related-situation"
+              >
+                Related Situation: {relatedSituationTitle}
+              </Link>
+            ) : null}
+            {relatedPodcastHref && relatedPodcastTitle ? (
+              relatedPodcastExternal ? (
+                <a
+                  href={relatedPodcastHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                  data-testid="related-podcast"
+                >
+                  Related Podcast: {relatedPodcastTitle}
+                </a>
+              ) : (
+                <Link
+                  href={relatedPodcastHref}
+                  className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                  data-testid="related-podcast"
+                >
+                  Related Podcast: {relatedPodcastTitle}
+                </Link>
+              )
             ) : null}
           </div>
 

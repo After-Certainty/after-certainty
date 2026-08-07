@@ -1,10 +1,10 @@
 # Pattern Recognition Challenge — Implementation Roadmap
 
-**Status:** Active specialized plan — `GAME-001a` shipped; `GAME-001b` in progress (Daily + Practice + streaks + Pattern Memory + 15 seeds)  
+**Status:** Active specialized plan — `GAME-001a`/`GAME-001b` shipped; `GAME-001c` in progress (corpus related-content links)  
 **Created:** 2026-08-07  
 **Revised:** 2026-08-07  
- 
 **Location:** `docs/roadmaps/pattern-recognition-challenge.md`  
+ 
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog stay linked from that master roadmap (`GAME-001`).
 
 **Document role:** Executable implementation roadmap for a local-first Pattern Recognition Challenge game that teaches players to notice recurring patterns in human systems. Authored challenge content lives in the corpus; player progress starts in browser localStorage and may later sync via optional Supabase identity framed as “Save my progress.”
@@ -909,22 +909,25 @@ When adding a challenge:
 
 **Exit criterion:** An editor can play one challenge on a phone, refresh, and still see their Insight XP total.
 
+### Shipped vertical slice
+
+**Slice name:** `GAME-001b` — Daily + Practice + Pattern Memory (shipped)
+
 ### Next vertical slice
 
-**Slice name:** `GAME-001b` — Daily + Practice + Pattern Memory  
+**Slice name:** `GAME-001c` — Corpus related-content links  
+ 
 
 **Includes:**
 
-- Expand published seeds to ~15 across contexts/patterns
-- Deterministic Daily selection (5) + Practice packs (5)
-- Storage v2: streaks, `dailyCompletions`, Pattern Memory
-- `/games/pattern-recognition/daily` and `/practice` session loops
-- Lobby CTAs, streak / XP display, reset progress
-- Focused chrome on play routes
+- `related-content.ts` resolver: pattern (required), book override/fallback, optional chapter, authored podcast only, optional situation
+- Wire enrich + reveal UI; client never invents slugs
+- Unit + local-manifest asserts that published seeds resolve unbroken doorway links
+- Light seed authoring where needed (podcast / chapter examples)
 
-**Excludes:** Analytics, Playwright e2e, Supabase, advanced modes, corpus-link polish beyond existing pattern/book links.
+**Excludes:** Analytics event suite, Playwright e2e, sitemap/SEO polish (Phase 7), Supabase, advanced modes.
 
-**Exit criterion:** Same calendar day yields the same Daily five; completing Daily once awards streak + completion bonus; Practice never breaks streak; Pattern Memory updates on reveal.
+**Exit criterion:** Every published seed has a working dominant-pattern link; related book resolves (override or pattern fallback); podcast/chapter/situation links appear only when resolvable.
 
 ---
 
@@ -933,8 +936,8 @@ When adding a challenge:
 - [x] Specialized cross-layer plan authored
 - [x] Indexed in `docs/roadmaps/README.md`
 - [x] `GAME-001` pointer in `remaining-product-roadmap.md`
-- [x] `GAME-001a` implementation PR linked via merge
-- [ ] Implementation PRs link back here per phase (`GAME-001b`+)
+- [x] `GAME-001a` / `GAME-001b` implementation PRs linked via merge
+- [ ] Implementation PRs link back here per phase (`GAME-001c`+)
 - [ ] Update this status header as phases ship
 
 ---
