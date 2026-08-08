@@ -21,12 +21,12 @@ export function PatternRecognitionFeature() {
     >
       <Container>
         <div className="overflow-hidden border border-border/50 bg-bg-elevated/35 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] md:grid md:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] md:items-stretch">
-          <div className="relative aspect-[4/5] max-h-[280px] w-full bg-bg-elevated/60 md:aspect-auto md:max-h-none md:min-h-[280px]">
+          <div className="relative aspect-[5/4] max-h-[240px] w-full bg-bg-elevated/60 md:aspect-auto md:max-h-none md:min-h-[280px]">
             <Image
               src={patternRecognitionSrc}
               alt="Constellation of connected situations suggesting pattern recognition"
               fill
-              className="object-cover object-[center_28%]"
+              className="object-cover object-[center_18%]"
               sizes="(max-width: 768px) 100vw, 420px"
             />
           </div>

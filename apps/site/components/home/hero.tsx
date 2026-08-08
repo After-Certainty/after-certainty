@@ -48,13 +48,15 @@ export function Hero() {
           >
             Listen to the Podcast
           </Link>
-          <ButtonLink
-            className="hero-home__ghost-cta hidden md:inline-flex light:border-border light:bg-bg/90 light:text-fg light:shadow-[0_2px_22px_rgb(0_0_0/0.2)] light:backdrop-blur-[2px] light:hover:border-accent/55 light:hover:bg-bg light:hover:text-accent"
-            href="/podcast"
-            variant="ghost"
-          >
-            Listen to the Podcast
-          </ButtonLink>
+          <span className="hidden md:inline-flex">
+            <ButtonLink
+              className="hero-home__ghost-cta light:border-border light:bg-bg/90 light:text-fg light:shadow-[0_2px_22px_rgb(0_0_0/0.2)] light:backdrop-blur-[2px] light:hover:border-accent/55 light:hover:bg-bg light:hover:text-accent"
+              href="/podcast"
+              variant="ghost"
+            >
+              Listen to the Podcast
+            </ButtonLink>
+          </span>
         </div>
       </Container>
     </section>
