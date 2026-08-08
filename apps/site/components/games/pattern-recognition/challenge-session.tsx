@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 
-import type { EnrichedChallenge } from "@/lib/games/pattern-recognition/enrich";
+import { gamePaths } from "@/lib/games/paths";
 import {
   trackGameStarted,
   trackSessionCompleted,
@@ -13,7 +13,8 @@ import {
   getGameDateKey,
   type SessionMode,
 } from "@/lib/games/pattern-recognition/daily";
-import { gamePaths } from "@/lib/games/paths";
+import { sessionPatternIds } from "@/lib/games/pattern-recognition/delight";
+import type { EnrichedChallenge } from "@/lib/games/pattern-recognition/enrich";
 import {
   completeDailySession,
   getPatternRecognitionServerSnapshot,
@@ -24,6 +25,7 @@ import { visibleCurrentStreak } from "@/lib/games/pattern-recognition/streaks";
 import type { ChallengeFeedback } from "@/types/challenges";
 
 import { RecognitionChallenge } from "./recognition-challenge";
+import { SessionCompleteDelight } from "./session-complete-delight";
 
 type ChallengeSessionProps = {
   mode: SessionMode;
@@ -125,41 +127,45 @@ export function ChallengeSession({
   }, [alreadyCompletedToday, challenges, dailyDate, index, mode, sessionId, total]);
 
   if (finished) {
+    const patternIds = sessionPatternIds(challenges);
     return (
-      <div className="mx-auto max-w-xl space-y-6 px-4 py-10 sm:px-6">
-        <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">
-          {mode === "daily" ? "Daily complete" : "Practice complete"}
-        </p>
-        <h1 className="font-display text-3xl font-semibold tracking-tight text-fg">
-          {mode === "daily" ? "Five recognitions logged." : "Session finished."}
-        </h1>
-        {mode === "daily" ? (
-          <p className="text-sm leading-relaxed text-muted">
-            {claimedBonusThisRun
-              ? `+${DAILY_COMPLETION_BONUS_XP} Insight XP for finishing the daily set.`
-              : "You already claimed today's completion bonus earlier."}{" "}
-            Current streak: {streak} day{streak === 1 ? "" : "s"}.
+      <div className="relative mx-auto max-w-xl space-y-6 px-4 py-10 sm:px-6">
+        <SessionCompleteDelight mode={mode} patternIds={patternIds} />
+        <div className="relative z-20 space-y-6 pt-16 sm:pt-20">
+          <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">
+            {mode === "daily" ? "Daily complete" : "Practice complete"}
           </p>
-        ) : (
-          <p className="text-sm leading-relaxed text-muted">
-            Practice does not affect your daily streak. Your Pattern Memory still updated.
-          </p>
-        )}
-        <div className="flex flex-wrap gap-3">
-          <Link
-            href={gamePaths.patternRecognition}
-            className="inline-flex min-h-11 items-center justify-center rounded-md bg-fg px-5 text-sm font-medium text-bg"
-          >
-            Back to lobby
-          </Link>
-          {mode === "practice" ? (
+          <h1 className="font-display text-3xl font-semibold tracking-tight text-fg">
+            {mode === "daily" ? "Five recognitions logged." : "Session finished."}
+          </h1>
+          {mode === "daily" ? (
+            <p className="text-sm leading-relaxed text-muted">
+              {claimedBonusThisRun
+                ? `+${DAILY_COMPLETION_BONUS_XP} Insight XP for finishing the daily set.`
+                : "You already claimed today's completion bonus earlier."}{" "}
+              Current streak: {streak} day{streak === 1 ? "" : "s"}.
+            </p>
+          ) : (
+            <p className="text-sm leading-relaxed text-muted">
+              Practice does not affect your daily streak. Your Pattern Memory still updated.
+            </p>
+          )}
+          <div className="flex flex-wrap gap-3">
             <Link
-              href={gamePaths.practice}
-              className="inline-flex min-h-11 items-center justify-center rounded-md border border-border px-5 text-sm font-medium text-fg"
+              href={gamePaths.patternRecognition}
+              className="inline-flex min-h-11 items-center justify-center rounded-md bg-fg px-5 text-sm font-medium text-bg"
             >
-              Another practice set
+              Back to lobby
             </Link>
-          ) : null}
+            {mode === "practice" ? (
+              <Link
+                href={gamePaths.practice}
+                className="inline-flex min-h-11 items-center justify-center rounded-md border border-border px-5 text-sm font-medium text-fg"
+              >
+                Another practice set
+              </Link>
+            ) : null}
+          </div>
         </div>
       </div>
     );

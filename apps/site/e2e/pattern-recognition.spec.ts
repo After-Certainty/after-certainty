@@ -74,12 +74,43 @@ test.describe("Pattern Recognition Challenge", () => {
     }
 
     await expect(page.getByRole("heading", { name: "Five recognitions logged." })).toBeVisible();
+    const delight = page.getByTestId("session-complete-delight");
+    await expect(delight).toBeVisible();
+    await expect(delight).toHaveAttribute("aria-hidden", "true");
+    await expect(delight).toHaveAttribute("data-variant", "pattern-constellation");
+    // Results CTAs must stay usable while the decorative wink plays.
     await Promise.all([
       page.waitForURL(/\/games\/pattern-recognition\/?$/, { timeout: 30_000 }),
       page.getByRole("link", { name: "Back to lobby" }).click(),
     ]);
     await expect(page.getByTestId("daily-completed-note")).toBeVisible();
     await expect(page.getByTestId("lobby-streak")).toContainText("1 day");
+  });
+
+  test("daily results with reduced motion stay immediately usable", async ({ page }) => {
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    await page.setViewportSize({ width: 390, height: 844 });
+
+    await page.goto(lobbyPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    await Promise.all([
+      page.waitForURL(/\/games\/pattern-recognition\/daily\/?$/, { timeout: 30_000 }),
+      page.getByTestId("start-daily").click(),
+    ]);
+
+    for (let question = 1; question <= 5; question += 1) {
+      await page.getByRole("group", { name: "Pattern choices" }).getByRole("button").first().click();
+      await expect(page.getByTestId("challenge-feedback")).toBeVisible();
+      await page.getByTestId("continue-session").click();
+    }
+
+    await expect(page.getByRole("heading", { name: "Five recognitions logged." })).toBeVisible();
+    const delight = page.getByTestId("session-complete-delight");
+    await expect(delight).toHaveAttribute("data-reduced-motion", "true");
+    await expect(page.getByRole("link", { name: "Back to lobby" })).toBeEnabled();
+    await Promise.all([
+      page.waitForURL(/\/games\/pattern-recognition\/?$/, { timeout: 30_000 }),
+      page.getByRole("link", { name: "Back to lobby" }).click(),
+    ]);
   });
 
   test("play shell exposes live feedback region without site chrome", async ({ page }) => {
