@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ExploreIndexGroup } from "@/components/explore/explore-index-group";
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
+import { ExplorePatternsGameCallout } from "@/components/explore/explore-patterns-game-callout";
 import { ExplorePatternsPlaylistCallout } from "@/components/explore/explore-patterns-playlist-callout";
 import { PatternCard } from "@/components/explore/pattern-card";
 import { PatternIndexAccordion } from "@/components/explore/pattern-index-accordion";
@@ -73,6 +74,7 @@ export default async function ExplorePatternsIndexPage({ searchParams }: PagePro
         lede="Directional, recurring forms — each pattern links back into concepts and volumes as living language."
       />
       <Section atmosphere="transition" className="border-t border-border/25 py-6 md:py-16">
+        <ExplorePatternsGameCallout />
         <ExplorePatternsPlaylistCallout books={graph.books} />
 
         {master ? (
