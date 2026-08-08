@@ -14,7 +14,7 @@ export type DelightVariantId =
 export const V1_DELIGHT_VARIANT: DelightVariantId = "pattern-constellation";
 
 /** Wall-clock ms for the full constellation play, then cleanup. */
-export const DELIGHT_DURATION_MS = 1600;
+export const DELIGHT_DURATION_MS = 1800;
 
 /** Reduced-motion: brief opacity presence only. */
 export const DELIGHT_REDUCED_MOTION_MS = 150;

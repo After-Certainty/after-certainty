@@ -15,16 +15,25 @@ vi.mock("framer-motion", async () => {
     return rest;
   }
 
+  function passthrough(tag: string) {
+    function MotionPassthrough({
+      children,
+      ...props
+    }: React.PropsWithChildren<Record<string, unknown>>) {
+      return React.createElement(tag, stripMotionProps(props), children);
+    }
+    MotionPassthrough.displayName = `motion.${tag}`;
+    return MotionPassthrough;
+  }
+
   return {
     motion: {
-      div: ({ children, ...props }: React.PropsWithChildren<Record<string, unknown>>) =>
-        React.createElement("div", stripMotionProps(props), children),
-      svg: ({ children, ...props }: React.PropsWithChildren<Record<string, unknown>>) =>
-        React.createElement("svg", stripMotionProps(props), children),
-      circle: (props: Record<string, unknown>) =>
-        React.createElement("circle", stripMotionProps(props)),
-      path: (props: Record<string, unknown>) =>
-        React.createElement("path", stripMotionProps(props)),
+      div: passthrough("div"),
+      svg: passthrough("svg"),
+      g: passthrough("g"),
+      ellipse: passthrough("ellipse"),
+      circle: passthrough("circle"),
+      path: passthrough("path"),
     },
     useReducedMotion: () => useReducedMotion(),
   };
@@ -80,7 +89,7 @@ describe("SessionCompleteDelight", () => {
     );
     expect(queryByTestId("session-complete-delight")).toBeTruthy();
     act(() => {
-      vi.advanceTimersByTime(1600);
+      vi.advanceTimersByTime(1800);
     });
     expect(queryByTestId("session-complete-delight")).toBeNull();
   });
