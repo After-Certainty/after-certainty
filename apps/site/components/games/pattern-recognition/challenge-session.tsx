@@ -129,9 +129,9 @@ export function ChallengeSession({
   if (finished) {
     const patternIds = sessionPatternIds(challenges);
     return (
-      <div className="relative mx-auto max-w-xl space-y-6 px-4 py-10 sm:px-6">
+      <div className="relative mx-auto max-w-xl space-y-6 overflow-x-clip px-4 py-10 sm:px-6">
         <SessionCompleteDelight mode={mode} patternIds={patternIds} />
-        <div className="relative z-20 space-y-6 pt-24 sm:pt-28">
+        <div className="relative z-20 space-y-6 pt-[min(52vw,20rem)] sm:pt-80">
           <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">
             {mode === "daily" ? "Daily complete" : "Practice complete"}
           </p>

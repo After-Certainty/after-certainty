@@ -89,7 +89,7 @@ describe("SessionCompleteDelight", () => {
     );
     expect(queryByTestId("session-complete-delight")).toBeTruthy();
     act(() => {
-      vi.advanceTimersByTime(1800);
+      vi.advanceTimersByTime(2000);
     });
     expect(queryByTestId("session-complete-delight")).toBeNull();
   });

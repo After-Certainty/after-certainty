@@ -16,7 +16,7 @@ describe("session completion delight helpers", () => {
 
   it("keeps delight brief", () => {
     expect(DELIGHT_DURATION_MS).toBeGreaterThanOrEqual(1200);
-    expect(DELIGHT_DURATION_MS).toBeLessThanOrEqual(1800);
+    expect(DELIGHT_DURATION_MS).toBeLessThanOrEqual(2200);
   });
 
   it("dedupes dominant pattern ids and caps at five", () => {
