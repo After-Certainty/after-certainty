@@ -18,6 +18,12 @@ const socialIconClass =
 const footerNavLinkClass =
   "flex min-h-11 max-w-full items-center gap-1.5 text-left text-sm leading-snug text-fg transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:min-h-0";
 
+const mobileNavLinkClass =
+  "inline-flex min-h-11 items-center text-sm text-fg transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent";
+
+const metaLinkClass =
+  "text-muted underline-offset-4 transition-colors hover:text-accent hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent";
+
 export async function SiteFooter() {
   const semanticGraph = await getSemanticGraph();
   const podcastRssHref = resolvePodcastRssUrl();
@@ -28,7 +34,8 @@ export async function SiteFooter() {
         day: "numeric",
       })
     : null;
-  const footerLinks = [
+
+  const desktopFooterLinks = [
     { label: "GitHub", href: siteConfig.githubUrl },
     { label: "RSS / Podcast feed", href: podcastRssHref },
     { label: "Start with a Question", href: "/questions" },
@@ -42,23 +49,117 @@ export async function SiteFooter() {
     { label: "Privacy & cookies", href: "/privacy" },
   ];
 
+  const mobilePrimaryLinks = [
+    { label: "Explore", href: "/explore/books" },
+    { label: "About", href: "/about" },
+    { label: "What’s New", href: "/whats-new" },
+    { label: "Search", href: "/search" },
+  ];
+
   const social = resolveSiteSocialLinks();
 
   return (
     <footer className="atm-footer border-t border-border/60 bg-bg-elevated/40">
       <span className="atm-footer-grain" aria-hidden />
-      <Container className="atm-footer__inner py-6 md:py-16">
-        <div className="grid gap-6 md:grid-cols-[2fr_1fr] md:gap-12">
+      <Container className="atm-footer__inner py-5 md:py-16">
+        <div className="grid gap-4 md:grid-cols-[2fr_1fr] md:gap-12">
           <div>
             <SiteLockup variant="footer" />
-            <p className="mt-4 max-w-xl text-sm leading-relaxed text-muted md:mt-6">
+            <p className="mt-2.5 max-w-xl text-sm leading-snug text-muted md:mt-6 md:leading-relaxed">
               {siteConfig.description}
             </p>
+
+            <nav
+              aria-label="Footer"
+              className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-0 md:hidden"
+              data-footer-nav="mobile"
+            >
+              {mobilePrimaryLinks.map((link, index) => (
+                <span key={link.href} className="inline-flex items-center gap-3">
+                  {index > 0 ? (
+                    <span className="text-muted/50" aria-hidden>
+                      ·
+                    </span>
+                  ) : null}
+                  <Link className={mobileNavLinkClass} href={link.href}>
+                    {link.label}
+                  </Link>
+                </span>
+              ))}
+            </nav>
+
+            <div
+              className="mt-2 flex flex-wrap items-center gap-0.5 md:hidden"
+              aria-label="Social profiles"
+              data-footer-social="mobile"
+            >
+              <TrackedLink
+                href={social.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="After Certainty on GitHub"
+                className={socialIconClass}
+                analytics={outboundLinkAnalytics(
+                  social.github,
+                  "GitHub",
+                  "footer_social",
+                  "github",
+                )}
+              >
+                <GitHubSymbol className="h-5 w-5" />
+              </TrackedLink>
+              <TrackedLink
+                href={social.medium}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Kevin Steffensen on Medium"
+                className={socialIconClass}
+                analytics={outboundLinkAnalytics(
+                  social.medium,
+                  "Medium",
+                  "footer_social",
+                  "medium",
+                )}
+              >
+                <MediumSymbol className="h-5 w-auto" />
+              </TrackedLink>
+              <TrackedLink
+                href={social.linkedIn}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Kevin Steffensen on LinkedIn"
+                className={socialIconClass}
+                analytics={outboundLinkAnalytics(
+                  social.linkedIn,
+                  "LinkedIn",
+                  "footer_social",
+                  "linkedin",
+                )}
+              >
+                <LinkedInSymbol className="h-5 w-5" />
+              </TrackedLink>
+              <TrackedLink
+                href={social.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="@kstefftube on YouTube"
+                className={socialIconClass}
+                analytics={outboundLinkAnalytics(
+                  social.youtube,
+                  "YouTube",
+                  "footer_social",
+                  "youtube",
+                )}
+              >
+                <YouTubeSymbol className="h-5 w-5" />
+              </TrackedLink>
+            </div>
           </div>
-          <div>
+
+          <div className="hidden md:block" data-footer-nav="desktop">
             <p className="text-[10px] uppercase tracking-[0.25em] text-muted md:text-xs">Together</p>
-            <ul className="mt-2 grid grid-cols-2 gap-x-3 gap-y-0 md:mt-4 md:block md:space-y-3">
-              {footerLinks.map((link) => (
+            <ul className="mt-4 space-y-3">
+              {desktopFooterLinks.map((link) => (
                 <li key={link.href} className="min-w-0">
                   <Link className={footerNavLinkClass} href={link.href}>
                     {link.href === podcastRssHref ? (
@@ -69,10 +170,10 @@ export async function SiteFooter() {
                 </li>
               ))}
             </ul>
-            <p className="mt-5 text-[10px] uppercase tracking-[0.25em] text-muted md:mt-8 md:text-xs">
+            <p className="mt-8 text-[10px] uppercase tracking-[0.25em] text-muted md:text-xs">
               Elsewhere
             </p>
-            <div className="mt-1 flex flex-wrap items-center gap-0.5 md:mt-3" aria-label="Social profiles">
+            <div className="mt-3 flex flex-wrap items-center gap-0.5" aria-label="Social profiles">
               <TrackedLink
                 href={social.github}
                 target="_blank"
@@ -136,23 +237,48 @@ export async function SiteFooter() {
             </div>
           </div>
         </div>
-        <div className="mt-6 space-y-2 border-t border-border/30 pt-4 text-xs text-muted md:mt-12 md:space-y-3 md:border-0 md:pt-0">
+
+        <div className="mt-4 space-y-1.5 border-t border-border/30 pt-3 text-[11px] leading-snug text-muted/80 md:mt-12 md:space-y-3 md:border-0 md:pt-0 md:text-xs md:leading-relaxed md:text-muted">
           <p>
-            After Certainty is an open corpus of books, concepts, patterns, questions, and reading
-            paths. This site is built directly from that shared corpus.
-          </p>
-          <p className="uppercase tracking-[0.25em]">
-            Content licensed{" "}
+            Open corpus · Content licensed{" "}
             <a
               className="text-accent underline-offset-4 hover:underline"
               href={siteConfig.license.url}
             >
               {siteConfig.license.name}
             </a>
-            . Attribution appreciated; remix thoughtfully.
+            .
+          </p>
+          <p className="flex flex-wrap items-center gap-x-2.5 gap-y-0.5">
+            <Link className={metaLinkClass} href="/privacy">
+              Privacy
+            </Link>
+            <span aria-hidden className="text-muted/50">
+              ·
+            </span>
+            <a
+              className={metaLinkClass}
+              href={siteConfig.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <span aria-hidden className="text-muted/50">
+              ·
+            </span>
+            <a className={`inline-flex items-center gap-1.5 ${metaLinkClass}`} href={podcastRssHref}>
+              <SiteIcon icon={RssIcon} size="sm" className="shrink-0" />
+              RSS
+            </a>
+          </p>
+          <p className="hidden text-xs leading-relaxed text-muted md:block">
+            After Certainty is an open corpus of books, concepts, patterns, questions, and reading
+            paths. This site is built directly from that shared corpus. Attribution appreciated;
+            remix thoughtfully.
           </p>
           {manifestDate ? (
-            <p className="text-[11px] normal-case tracking-normal text-muted/70">
+            <p className="normal-case tracking-normal text-muted/65">
               Semantic data: {manifestDate}
             </p>
           ) : null}

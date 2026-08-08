@@ -24,43 +24,66 @@ import { SiteFooter } from "./site-footer";
 import { resolveSiteSocialLinks } from "@/lib/site-config";
 
 describe("SiteFooter", () => {
-  it("renders Elsewhere social links pointing at resolved profile URLs", async () => {
+  it("renders social links pointing at resolved profile URLs", async () => {
     const social = resolveSiteSocialLinks();
-    render(await SiteFooter());
+    const { container } = render(await SiteFooter());
 
-    const socialRegion = screen.getByLabelText("Social profiles");
+    const socialRegion =
+      container.querySelector('[data-footer-social="mobile"]') ??
+      screen.getAllByLabelText("Social profiles")[0];
+    expect(socialRegion).toBeTruthy();
 
-    expect(within(socialRegion).getByLabelText("After Certainty on GitHub")).toHaveAttribute(
+    expect(within(socialRegion as HTMLElement).getByLabelText("After Certainty on GitHub")).toHaveAttribute(
       "href",
       social.github,
     );
-    expect(within(socialRegion).getByLabelText("Kevin Steffensen on Medium")).toHaveAttribute(
+    expect(within(socialRegion as HTMLElement).getByLabelText("Kevin Steffensen on Medium")).toHaveAttribute(
       "href",
       social.medium,
     );
-    expect(within(socialRegion).getByLabelText("Kevin Steffensen on LinkedIn")).toHaveAttribute(
+    expect(within(socialRegion as HTMLElement).getByLabelText("Kevin Steffensen on LinkedIn")).toHaveAttribute(
       "href",
       social.linkedIn,
     );
-    expect(within(socialRegion).getByLabelText(/kstefftube on YouTube/i)).toHaveAttribute(
+    expect(within(socialRegion as HTMLElement).getByLabelText(/kstefftube on YouTube/i)).toHaveAttribute(
       "href",
       social.youtube,
     );
 
-    for (const link of within(socialRegion).getAllByRole("link")) {
+    for (const link of within(socialRegion as HTMLElement).getAllByRole("link")) {
       expect(link).toHaveAttribute("target", "_blank");
       expect(link).toHaveAttribute("rel", "noopener noreferrer");
     }
   });
 
-  it("lists Together footer links including GitHub, Search, and RSS", async () => {
-    render(await SiteFooter());
-    expect(screen.getByRole("link", { name: /^GitHub$/i })).toHaveAttribute(
+  it("exposes compact mobile nav and fuller desktop Together links", async () => {
+    const { container } = render(await SiteFooter());
+
+    const mobileNav = container.querySelector('[data-footer-nav="mobile"]');
+    expect(mobileNav).toBeTruthy();
+    expect(within(mobileNav as HTMLElement).getByRole("link", { name: /^Explore$/i })).toHaveAttribute(
       "href",
-      expect.stringContaining("github.com"),
+      "/explore/books",
     );
-    expect(screen.getByRole("link", { name: /^Search$/i })).toHaveAttribute("href", "/search");
-    expect(screen.getByRole("link", { name: /RSS \/ Podcast feed/i })).toBeInTheDocument();
+    expect(within(mobileNav as HTMLElement).getByRole("link", { name: /^About$/i })).toHaveAttribute(
+      "href",
+      "/about",
+    );
+    expect(within(mobileNav as HTMLElement).getByRole("link", { name: /^Search$/i })).toHaveAttribute(
+      "href",
+      "/search",
+    );
+
+    const desktopNav = container.querySelector('[data-footer-nav="desktop"]');
+    expect(desktopNav).toBeTruthy();
+    expect(within(desktopNav as HTMLElement).getByRole("link", { name: /^Search$/i })).toHaveAttribute(
+      "href",
+      "/search",
+    );
+    expect(
+      within(desktopNav as HTMLElement).getByRole("link", { name: /RSS \/ Podcast feed/i }),
+    ).toBeInTheDocument();
+    expect(screen.getAllByRole("link", { name: /^GitHub$/i }).length).toBeGreaterThanOrEqual(1);
   });
 
   it("describes the monorepo corpus without sibling-repository language", async () => {
@@ -74,7 +97,7 @@ describe("SiteFooter", () => {
     expect(text).not.toMatch(/aggregates manifests/i);
     expect(text).not.toContain("after-certainty-site");
 
-    expect(screen.getByRole("link", { name: /^GitHub$/i })).toHaveAttribute(
+    expect(screen.getAllByRole("link", { name: /^GitHub$/i })[0]).toHaveAttribute(
       "href",
       social.github,
     );
@@ -87,20 +110,22 @@ describe("SiteFooter", () => {
     expect(screen.getByRole("link", { name: /CC BY-SA 4\.0/i })).toBeInTheDocument();
   });
 
-  it("keeps essential Together destinations in a single link list", async () => {
-    render(await SiteFooter());
-    expect(screen.getByRole("link", { name: /Explore patterns/i })).toHaveAttribute(
+  it("keeps essential Together destinations in the desktop link list", async () => {
+    const { container } = render(await SiteFooter());
+    const desktopNav = container.querySelector('[data-footer-nav="desktop"]') as HTMLElement;
+
+    expect(within(desktopNav).getByRole("link", { name: /Explore patterns/i })).toHaveAttribute(
       "href",
       "/explore/patterns",
     );
-    expect(screen.getByRole("link", { name: /Reading Trails/i })).toHaveAttribute(
+    expect(within(desktopNav).getByRole("link", { name: /Reading Trails/i })).toHaveAttribute(
       "href",
       "/trails",
     );
-    expect(screen.getByRole("link", { name: /Privacy & cookies/i })).toHaveAttribute(
+    expect(within(desktopNav).getByRole("link", { name: /Privacy & cookies/i })).toHaveAttribute(
       "href",
       "/privacy",
     );
-    expect(screen.getByRole("link", { name: /Collaborators/i })).toBeInTheDocument();
+    expect(within(desktopNav).getByRole("link", { name: /Collaborators/i })).toBeInTheDocument();
   });
 });

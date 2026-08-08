@@ -1,9 +1,8 @@
 import Link from "next/link";
 
-import { TrailCard } from "@/components/trails/trail-card";
+import { HomeTrailCard } from "@/components/trails/home-trail-card";
 import { TrailSectionAnalytics } from "@/components/trails/trail-section-analytics";
 import { Container } from "@/components/ui/container";
-import { Section } from "@/components/ui/section";
 import { getEnrichedFeaturedTrails } from "@/lib/trails/getEnrichedTrails";
 
 export async function FeaturedTrailsSection() {
@@ -12,43 +11,38 @@ export async function FeaturedTrailsSection() {
   if (trails.length === 0) return null;
 
   return (
-    <Section
-      atmosphere="none"
-      className="border-b border-border/35 bg-bg-elevated/[0.06] py-12 md:py-14"
-    >
+    <section className="border-b border-border/35 bg-bg-elevated/[0.06] py-6 md:py-14">
       <TrailSectionAnalytics location="home" />
       <Container>
         <div className="max-w-2xl">
-          <h2 className="font-display text-3xl font-medium tracking-tight text-fg md:text-4xl">
+          <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-4xl">
             Follow a reading trail
           </h2>
-          <p className="mt-4 text-muted">
-            Curated sequences through the commons—each stop explained, each transition intentional.
-            Reusable paths you can share or return to without starting from a question.
+          <p className="mt-2 text-sm text-muted md:mt-4 md:text-base">
+            Curated paths through the commons—short, intentional, and shareable.
           </p>
         </div>
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+
+        <div
+          className="-mx-6 mt-5 flex snap-x snap-mandatory gap-3 overflow-x-auto px-6 pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:mx-0 md:mt-10 md:grid md:grid-cols-3 md:gap-4 md:overflow-visible md:px-0 md:pb-0"
+          data-home-trails-scroller
+        >
           {trails.map((trail) => (
-            <TrailCard
-              key={trail.id}
-              trail={trail}
-              location="home"
-              analytics={{
-                event: "trail_select",
-                params: { trail_id: trail.id, location: "home" },
-              }}
-            />
+            <div key={trail.id} className="snap-start md:min-w-0">
+              <HomeTrailCard trail={trail} />
+            </div>
           ))}
         </div>
-        <p className="mt-10">
+
+        <p className="mt-5 md:mt-10">
           <Link
             href="/trails"
-            className="text-sm uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+            className="text-xs uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:text-sm"
           >
             Browse all reading trails →
           </Link>
         </p>
       </Container>
-    </Section>
+    </section>
   );
 }

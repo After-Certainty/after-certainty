@@ -21,13 +21,16 @@ export function HeaderSearchButton({
 
   const baseClass =
     className ??
-    "inline-flex min-h-9 items-center gap-2 rounded-sm border border-border/60 px-2.5 text-fg transition-colors hover:border-accent/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent";
+    (label
+      ? "inline-flex min-h-9 items-center gap-2 rounded-sm border border-border/60 px-2.5 text-fg transition-colors hover:border-accent/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+      : "inline-flex h-9 w-9 items-center justify-center rounded-sm border border-border/60 text-fg transition-colors hover:border-accent/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:h-9 md:w-auto md:gap-2 md:px-2.5");
 
   return (
     <button
       ref={method === "header" ? triggerRef : undefined}
       type="button"
       className={baseClass}
+      aria-label={label ? undefined : "Search"}
       aria-haspopup="dialog"
       aria-expanded={open}
       onClick={() => openSearch(method)}
@@ -36,7 +39,9 @@ export function HeaderSearchButton({
       {label ? (
         <span>{label}</span>
       ) : (
-        <span className="text-xs uppercase tracking-[0.18em] md:sr-only">Search</span>
+        <span className="sr-only md:not-sr-only md:text-xs md:uppercase md:tracking-[0.18em]">
+          Search
+        </span>
       )}
       {method === "header" ? (
         <kbd
