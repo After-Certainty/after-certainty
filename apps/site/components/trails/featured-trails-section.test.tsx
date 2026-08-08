@@ -1,6 +1,13 @@
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it, vi } from "vitest";
 
+vi.mock("next/image", () => ({
+  default: function MockImage({ alt }: { alt?: string }) {
+    // eslint-disable-next-line @next/next/no-img-element -- test double
+    return <img alt={alt ?? ""} />;
+  },
+}));
+
 vi.mock("@/components/trails/trail-section-analytics", () => ({
   TrailSectionAnalytics: () => null,
 }));
@@ -37,5 +44,8 @@ describe("FeaturedTrailsSection", () => {
       "href",
       "/trails",
     );
+    expect(document.querySelector("[data-home-trails-scroller]")).toBeTruthy();
+    expect(document.querySelector("[data-home-trail-card]")).toBeTruthy();
   });
 });
+

@@ -29,7 +29,7 @@ export function SiteHeader() {
             <MobileNav items={siteConfig.navigation} />
             <Link
               href="/start"
-              className="hidden rounded-sm border border-border/70 px-3 py-2 text-xs uppercase tracking-[0.2em] text-fg transition-colors hover:border-accent/50 sm:inline-flex"
+              className="hidden rounded-sm border border-border/70 px-3 py-2 text-xs uppercase tracking-[0.2em] text-fg transition-colors hover:border-accent/50 md:inline-flex"
             >
               Start
             </Link>

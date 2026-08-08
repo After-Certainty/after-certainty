@@ -33,20 +33,20 @@ function IconPatterns(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-function IconStart(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
-      <circle cx={12} cy={12} r={9} />
-      <path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-  );
-}
-
 function IconConcepts(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
       <circle cx={12} cy={12} r={3} />
       <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+function IconSearch(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
+      <circle cx={11} cy={11} r={7} />
+      <path d="M20 20l-3.5-3.5" strokeLinecap="round" />
     </svg>
   );
 }
@@ -57,6 +57,12 @@ const pathways = [
     title: "Books",
     description: "Long-form works and serialized texts from the open After Certainty corpus.",
     Icon: IconBooks,
+  },
+  {
+    href: "/explore/patterns",
+    title: "Patterns",
+    description: "Reusable ideas—named, documented, and open to remix under commons terms.",
+    Icon: IconPatterns,
   },
   {
     href: "/explore/concepts",
@@ -71,34 +77,38 @@ const pathways = [
     Icon: IconPodcast,
   },
   {
-    href: "/explore/patterns",
-    title: "Patterns",
-    description: "Reusable ideas—named, documented, and open to remix under commons terms.",
-    Icon: IconPatterns,
-  },
-  {
-    href: "/start",
-    title: "Start Here",
-    description: "How to read this project, where ideas live, and how to contribute responsibly.",
-    Icon: IconStart,
+    href: "/search",
+    title: "Search",
+    description: "Find books, concepts, patterns, and paths across the open corpus.",
+    Icon: IconSearch,
   },
 ] as const;
 
 export function PathwayGrid() {
   return (
-    <section className="border-b border-border/40 bg-bg-elevated/22 py-12 md:py-14">
+    <section
+      className="border-b border-border/40 bg-bg-elevated/22 py-8 md:py-14"
+      aria-label="Explore the commons"
+    >
       <Container>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5 lg:gap-3">
+        <p className="mb-4 text-[10px] uppercase tracking-[0.28em] text-accent md:mb-6 md:text-xs">
+          Explore the commons
+        </p>
+        <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-5 lg:gap-3">
           {pathways.map(({ href, title, description, Icon }) => (
             <Link
               key={href}
               href={href}
-              className="group flex h-full flex-col border border-border/50 bg-bg-elevated/40 p-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+              className="group flex min-h-11 flex-col border border-border/50 bg-bg-elevated/40 p-3.5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:h-full md:p-5"
             >
-              <Icon className="mb-4 h-8 w-8 shrink-0 text-accent" />
-              <h3 className="text-xs font-medium uppercase tracking-[0.22em] text-accent">{title}</h3>
-              <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">{description}</p>
-              <span className="mt-6 text-xs uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg">
+              <Icon className="mb-2.5 h-6 w-6 shrink-0 text-accent md:mb-4 md:h-8 md:w-8" />
+              <h3 className="text-[10px] font-medium uppercase tracking-[0.22em] text-accent md:text-xs">
+                {title}
+              </h3>
+              <p className="mt-2 hidden flex-1 text-sm leading-relaxed text-muted md:mt-3 md:block">
+                {description}
+              </p>
+              <span className="mt-2 text-[10px] uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg md:mt-6 md:text-xs">
                 Explore →
               </span>
             </Link>
