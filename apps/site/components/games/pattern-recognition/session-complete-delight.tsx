@@ -83,7 +83,7 @@ export function SessionCompleteDelight({
       </motion.p>
 
       <div
-        className="pointer-events-none relative mx-auto mt-6 h-[280px] w-full max-w-lg sm:mt-8 sm:h-[320px]"
+        className="pointer-events-none relative mx-auto mt-6 h-[300px] w-full max-w-lg sm:mt-8 sm:h-[340px]"
         aria-hidden="true"
         role="presentation"
       >

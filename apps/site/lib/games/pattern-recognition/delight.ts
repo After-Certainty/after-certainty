@@ -17,7 +17,7 @@ export const V1_DELIGHT_VARIANT: DelightVariantId = "pattern-constellation";
 export const DELIGHT_DURATION_MS = 2100;
 
 /** Shared SVG coordinate space for Pattern Constellation (labels need height). */
-export const CONSTELLATION_VIEWBOX = { width: 360, height: 300 } as const;
+export const CONSTELLATION_VIEWBOX = { width: 360, height: 320 } as const;
 
 export type DelightVariantMeta = {
   id: DelightVariantId;
@@ -83,10 +83,10 @@ export function selectDelightVariant(): DelightVariantId {
   return V1_DELIGHT_VARIANT;
 }
 
-const LABEL_GAP = 13;
+const LABEL_GAP = 16;
 const LABEL_LINE_HEIGHT = 12;
 const LABEL_PAD = 10;
-const LABEL_MAX_LINE_CHARS = 15;
+const LABEL_MAX_LINE_CHARS = 17;
 
 /**
  * Prefer full title → two-line wrap at a word boundary → ellipsis only as last resort.
@@ -114,9 +114,11 @@ export function wrapPatternLabel(
     const a = words.slice(0, split).join(" ");
     const b = words.slice(split).join(" ");
     if (a.length > maxCharsPerLine + 2) continue;
-    const overflow = Math.max(0, a.length - maxCharsPerLine) + Math.max(0, b.length - maxCharsPerLine);
+    const overflow =
+      Math.max(0, a.length - maxCharsPerLine) + Math.max(0, b.length - maxCharsPerLine);
     const balance = Math.abs(a.length - b.length);
-    const score = overflow * 20 + balance;
+    // Prefer balanced lines; break ties toward a fuller first line that still fits.
+    const score = overflow * 20 + balance - (a.length <= maxCharsPerLine ? split * 0.01 : 0);
     if (score < bestScore) {
       bestScore = score;
       best = split;
@@ -147,6 +149,7 @@ export function resolveLabelPlacement(input: {
   r: number;
   position: LabelPosition;
   lines: readonly string[];
+  nudge?: { x?: number; y?: number };
   viewWidth?: number;
   viewHeight?: number;
 }): ConstellationNode["label"] {
@@ -156,6 +159,7 @@ export function resolveLabelPlacement(input: {
     r,
     position,
     lines,
+    nudge,
     viewWidth = CONSTELLATION_VIEWBOX.width,
     viewHeight = CONSTELLATION_VIEWBOX.height,
   } = input;
@@ -170,56 +174,60 @@ export function resolveLabelPlacement(input: {
 
   switch (position) {
     case "right":
+      // Sit slightly above the node so horizontal spokes stay readable.
       x = nodeX + reach;
-      y = nodeY - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.35 : 0);
+      y = nodeY - 10 - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.4 : 0);
       anchor = "start";
       baseline = "middle";
       break;
     case "left":
       x = nodeX - reach;
-      y = nodeY - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.35 : 0);
+      y = nodeY - 10 - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.4 : 0);
       anchor = "end";
       baseline = "middle";
       break;
     case "below":
       x = nodeX;
-      y = nodeY + reach;
+      y = nodeY + reach + 2;
       anchor = "middle";
       baseline = "hanging";
       break;
     case "above":
       x = nodeX;
-      y = nodeY - reach - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
+      y = nodeY - reach - 2 - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
       anchor = "middle";
       baseline = "auto";
       break;
     case "below-right":
-      x = nodeX + r * 0.35 + 8;
-      y = nodeY + reach;
+      x = nodeX + r + 6;
+      y = nodeY + reach + 2;
       anchor = "start";
       baseline = "hanging";
       break;
     case "below-left":
-      x = nodeX - r * 0.35 - 8;
-      y = nodeY + reach;
+      x = nodeX - r - 6;
+      y = nodeY + reach + 2;
       anchor = "end";
       baseline = "hanging";
       break;
     case "above-right":
-      x = nodeX + r * 0.35 + 8;
-      y = nodeY - reach - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
+      x = nodeX + r + 6;
+      y = nodeY - reach - 2 - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
       anchor = "start";
       baseline = "auto";
       break;
     case "above-left":
-      x = nodeX - r * 0.35 - 8;
-      y = nodeY - reach - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
+      x = nodeX - r - 6;
+      y = nodeY - reach - 2 - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
       anchor = "end";
       baseline = "auto";
       break;
     default:
       break;
   }
+
+  if (nudge?.x) x += nudge.x;
+  if (nudge?.y) y += nudge.y;
 
   // Keep text inside the SVG — prefer inward clamp over clipping.
   const maxLineLen = Math.max(...lines.map((line) => line.length), 1);
@@ -307,8 +315,10 @@ export function sessionPatternIds(
 type Slot = {
   x: number;
   y: number;
-  /** Intentional annotation direction — edge nodes face inward. */
+  /** Intentional annotation direction — edge nodes face clear space. */
   labelPosition: LabelPosition;
+  /** Fine nudge in viewBox units after directional placement. */
+  labelNudge?: { x?: number; y?: number };
 };
 
 /**
@@ -334,28 +344,33 @@ const SLOTS_BY_COUNT: Record<number, readonly Slot[]> = {
     { x: 295, y: 130, labelPosition: "left" },
   ],
   5: [
-    { x: 175, y: 145, labelPosition: "below" },
-    { x: 55, y: 150, labelPosition: "right" },
-    { x: 115, y: 65, labelPosition: "below-right" },
-    { x: 265, y: 55, labelPosition: "below-left" },
-    { x: 300, y: 160, labelPosition: "left" },
+    { x: 175, y: 145, labelPosition: "below", labelNudge: { y: 4 } },
+    { x: 55, y: 150, labelPosition: "right", labelNudge: { y: -12 } },
+    { x: 115, y: 65, labelPosition: "above", labelNudge: { x: -6 } },
+    { x: 265, y: 55, labelPosition: "above", labelNudge: { x: 6 } },
+    { x: 300, y: 160, labelPosition: "left", labelNudge: { y: -12 } },
   ],
   6: [
-    { x: 175, y: 145, labelPosition: "below" },
-    { x: 52, y: 148, labelPosition: "right" },
-    { x: 110, y: 62, labelPosition: "below-right" },
-    { x: 260, y: 52, labelPosition: "below-left" },
-    { x: 305, y: 155, labelPosition: "left" },
-    { x: 240, y: 235, labelPosition: "above-left" },
+    { x: 175, y: 145, labelPosition: "below", labelNudge: { y: 4 } },
+    { x: 52, y: 148, labelPosition: "right", labelNudge: { y: -12 } },
+    { x: 110, y: 62, labelPosition: "above", labelNudge: { x: -6 } },
+    { x: 260, y: 52, labelPosition: "above", labelNudge: { x: 6 } },
+    { x: 305, y: 155, labelPosition: "left", labelNudge: { y: -12 } },
+    { x: 240, y: 235, labelPosition: "below", labelNudge: { x: 8 } },
   ],
   7: [
-    { x: 175, y: 140, labelPosition: "below" },
-    { x: 48, y: 145, labelPosition: "right" },
-    { x: 105, y: 58, labelPosition: "below-right" },
-    { x: 255, y: 48, labelPosition: "below-left" },
-    { x: 312, y: 150, labelPosition: "left" },
-    { x: 245, y: 238, labelPosition: "above-left" },
-    { x: 95, y: 230, labelPosition: "above-right" },
+    // Hub label drops into the lower pocket between the bottom nodes.
+    { x: 175, y: 140, labelPosition: "below", labelNudge: { y: 20 } },
+    // Side nodes: nestle into the upper inward wedge (above the hub spoke).
+    { x: 48, y: 145, labelPosition: "above-right", labelNudge: { x: -2, y: 6 } },
+    // Top nodes annotate outside the constellation (above), flared outward.
+    { x: 105, y: 58, labelPosition: "above", labelNudge: { x: -12, y: -2 } },
+    { x: 255, y: 48, labelPosition: "above", labelNudge: { x: 12, y: -2 } },
+    // Sit under the hub spoke so the label stays off the upper diagonals.
+    { x: 312, y: 150, labelPosition: "below-left", labelNudge: { x: 4, y: -2 } },
+    // Bottom nodes annotate outside (below), flared outward.
+    { x: 245, y: 238, labelPosition: "below", labelNudge: { x: 16, y: 2 } },
+    { x: 95, y: 230, labelPosition: "below", labelNudge: { x: -16, y: 2 } },
   ],
 };
 
@@ -452,6 +467,7 @@ export function layoutConstellation(patterns: readonly SessionPatternInput[]): {
         r,
         position: slot.labelPosition,
         lines,
+        nudge: slot.labelNudge,
       }),
     };
   });

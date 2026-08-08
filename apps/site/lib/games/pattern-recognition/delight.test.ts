@@ -75,27 +75,27 @@ describe("session completion delight helpers", () => {
     const bottom = byY[byY.length - 1]!;
     const center = nodes[0]!;
 
-    // Left edge → label to the right (inward)
-    expect(left.label.position).toBe("right");
+    // Left edge → label inward (right / above-right)
+    expect(left.label.position).toMatch(/right/);
     expect(left.label.x).toBeGreaterThan(left.x);
     expect(left.label.anchor).toBe("start");
 
-    // Right edge → label to the left (inward)
-    expect(right.label.position).toBe("left");
+    // Right edge → label inward (left / above-left)
+    expect(right.label.position).toMatch(/left/);
     expect(right.label.x).toBeLessThan(right.x);
     expect(right.label.anchor).toBe("end");
 
-    // Top → below / diagonal inward
-    expect(top.label.position).toMatch(/^below/);
-    expect(top.label.y).toBeGreaterThan(top.y);
+    // Top → outside above
+    expect(top.label.position).toBe("above");
+    expect(top.label.y).toBeLessThan(top.y);
 
-    // Bottom → above / diagonal inward
-    expect(bottom.label.position).toMatch(/^above/);
-    expect(bottom.label.y).toBeLessThan(bottom.y);
+    // Bottom → outside below
+    expect(bottom.label.position).toBe("below");
+    expect(bottom.label.y).toBeGreaterThan(bottom.y);
 
-    // Center slot → below, nearby
-    expect(center.label.position).toBe("below");
-    expect(center.label.y - center.y).toBeLessThan(40);
+    // Center slot → below / below-right of hub, nearby
+    expect(center.label.position).toMatch(/^below/);
+    expect(center.label.y - center.y).toBeLessThan(56);
 
     for (const node of nodes) {
       expect(node.label.x).toBeGreaterThanOrEqual(8);
@@ -111,10 +111,13 @@ describe("session completion delight helpers", () => {
 
   it("wraps long labels onto two lines before ellipsis", () => {
     expect(wrapPatternLabel("Legibility")).toEqual(["Legibility"]);
-    const wrapped = wrapPatternLabel("Disagreement is Suppression");
+    const wrapped = wrapPatternLabel("Disagreement is Suppressed");
     expect(wrapped.length).toBe(2);
     expect(wrapped.join(" ")).not.toMatch(/…/);
-    expect(wrapped.every((line) => line.length <= 16)).toBe(true);
+    expect(wrapped.every((line) => line.length <= 18)).toBe(true);
+
+    const authority = wrapPatternLabel("Authority Follows Attention");
+    expect(authority).toEqual(["Authority Follows", "Attention"]);
 
     const veryLong = wrapPatternLabel("Responsibility Persists Beyond Control");
     expect(veryLong.length).toBe(2);
