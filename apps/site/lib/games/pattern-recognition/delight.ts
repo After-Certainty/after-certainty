@@ -83,10 +83,15 @@ export function selectDelightVariant(): DelightVariantId {
   return V1_DELIGHT_VARIANT;
 }
 
-const LABEL_GAP = 16;
+/** Distance from node rim to label (~10–18px in viewBox units). */
+const LABEL_GAP = 12;
 const LABEL_LINE_HEIGHT = 12;
 const LABEL_PAD = 10;
 const LABEL_MAX_LINE_CHARS = 17;
+/** Soft cap — one extra character is preferred over ellipsis when a word fits. */
+const LABEL_SOFT_LINE_CHARS = 18;
+/** Approximate SVG user-unit width per character at label font size. */
+const LABEL_CHAR_WIDTH = 4.6;
 
 /**
  * Prefer full title → two-line wrap at a word boundary → ellipsis only as last resort.
@@ -108,17 +113,20 @@ export function wrapPatternLabel(
     return [first, `${rest.slice(0, maxCharsPerLine - 1)}…`];
   }
 
+  const soft = Math.max(maxCharsPerLine, LABEL_SOFT_LINE_CHARS);
   let best = 1;
   let bestScore = Number.POSITIVE_INFINITY;
   for (let split = 1; split < words.length; split += 1) {
     const a = words.slice(0, split).join(" ");
     const b = words.slice(split).join(" ");
-    if (a.length > maxCharsPerLine + 2) continue;
-    const overflow =
+    if (a.length > soft) continue;
+    const hardOverflow =
       Math.max(0, a.length - maxCharsPerLine) + Math.max(0, b.length - maxCharsPerLine);
+    // Ellipsis on line 2 is a last resort — prefer a slightly long full line.
+    const needsEllipsis = b.length > soft ? 200 : b.length > maxCharsPerLine ? 40 : 0;
     const balance = Math.abs(a.length - b.length);
-    // Prefer balanced lines; break ties toward a fuller first line that still fits.
-    const score = overflow * 20 + balance - (a.length <= maxCharsPerLine ? split * 0.01 : 0);
+    const score =
+      hardOverflow * 12 + needsEllipsis + balance - (a.length <= maxCharsPerLine ? split * 0.01 : 0);
     if (score < bestScore) {
       bestScore = score;
       best = split;
@@ -127,7 +135,7 @@ export function wrapPatternLabel(
 
   const line1 = words.slice(0, best).join(" ");
   let line2 = words.slice(best).join(" ");
-  if (line2.length > maxCharsPerLine) {
+  if (line2.length > soft) {
     line2 = `${line2.slice(0, maxCharsPerLine - 1).trimEnd()}…`;
   }
   return [line1, line2];
@@ -172,53 +180,56 @@ export function resolveLabelPlacement(input: {
   let anchor: "start" | "middle" | "end" = "middle";
   let baseline: "auto" | "middle" | "hanging" = "middle";
 
+  // Multi-line blocks: keep the line nearest the node at `reach`, stack away from it.
+  const aboveStack = lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0;
+
   switch (position) {
     case "right":
-      // Sit slightly above the node so horizontal spokes stay readable.
+      // Nestle just above the horizontal spoke so the association stays obvious.
       x = nodeX + reach;
-      y = nodeY - 10 - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.4 : 0);
+      y = nodeY - 8 - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.55 : 0);
       anchor = "start";
       baseline = "middle";
       break;
     case "left":
       x = nodeX - reach;
-      y = nodeY - 10 - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.4 : 0);
+      y = nodeY - 8 - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.55 : 0);
       anchor = "end";
       baseline = "middle";
       break;
     case "below":
       x = nodeX;
-      y = nodeY + reach + 2;
+      y = nodeY + reach;
       anchor = "middle";
       baseline = "hanging";
       break;
     case "above":
       x = nodeX;
-      y = nodeY - reach - 2 - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
+      y = nodeY - reach - aboveStack;
       anchor = "middle";
       baseline = "auto";
       break;
     case "below-right":
-      x = nodeX + r + 6;
-      y = nodeY + reach + 2;
+      x = nodeX + r + 5;
+      y = nodeY + reach;
       anchor = "start";
       baseline = "hanging";
       break;
     case "below-left":
-      x = nodeX - r - 6;
-      y = nodeY + reach + 2;
+      x = nodeX - r - 5;
+      y = nodeY + reach;
       anchor = "end";
       baseline = "hanging";
       break;
     case "above-right":
-      x = nodeX + r + 6;
-      y = nodeY - reach - 2 - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
+      x = nodeX + r + 5;
+      y = nodeY - reach - aboveStack;
       anchor = "start";
       baseline = "auto";
       break;
     case "above-left":
-      x = nodeX - r - 6;
-      y = nodeY - reach - 2 - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
+      x = nodeX - r - 5;
+      y = nodeY - reach - aboveStack;
       anchor = "end";
       baseline = "auto";
       break;
@@ -229,14 +240,15 @@ export function resolveLabelPlacement(input: {
   if (nudge?.x) x += nudge.x;
   if (nudge?.y) y += nudge.y;
 
-  // Keep text inside the SVG — prefer inward clamp over clipping.
+  // Keep full label glyphs inside the SVG — prefer inward clamp over clipping.
   const maxLineLen = Math.max(...lines.map((line) => line.length), 1);
-  const approxHalfWidth = maxLineLen * 3.1;
+  const approxWidth = maxLineLen * LABEL_CHAR_WIDTH;
+  const approxHalfWidth = approxWidth / 2;
   if (anchor === "start") {
-    x = Math.min(x, viewWidth - LABEL_PAD - 4);
+    x = Math.min(x, viewWidth - LABEL_PAD - approxWidth);
     x = Math.max(x, LABEL_PAD);
   } else if (anchor === "end") {
-    x = Math.max(x, LABEL_PAD + 4);
+    x = Math.max(x, LABEL_PAD + approxWidth);
     x = Math.min(x, viewWidth - LABEL_PAD);
   } else {
     x = Math.min(Math.max(x, LABEL_PAD + approxHalfWidth), viewWidth - LABEL_PAD - approxHalfWidth);
@@ -344,33 +356,33 @@ const SLOTS_BY_COUNT: Record<number, readonly Slot[]> = {
     { x: 295, y: 130, labelPosition: "left" },
   ],
   5: [
-    { x: 175, y: 145, labelPosition: "below", labelNudge: { y: 4 } },
-    { x: 55, y: 150, labelPosition: "right", labelNudge: { y: -12 } },
+    { x: 175, y: 145, labelPosition: "below", labelNudge: { y: 2 } },
+    { x: 55, y: 150, labelPosition: "right" },
     { x: 115, y: 65, labelPosition: "above", labelNudge: { x: -6 } },
     { x: 265, y: 55, labelPosition: "above", labelNudge: { x: 6 } },
-    { x: 300, y: 160, labelPosition: "left", labelNudge: { y: -12 } },
+    { x: 300, y: 160, labelPosition: "left" },
   ],
   6: [
-    { x: 175, y: 145, labelPosition: "below", labelNudge: { y: 4 } },
-    { x: 52, y: 148, labelPosition: "right", labelNudge: { y: -12 } },
+    { x: 175, y: 145, labelPosition: "below", labelNudge: { y: 2 } },
+    { x: 52, y: 148, labelPosition: "right" },
     { x: 110, y: 62, labelPosition: "above", labelNudge: { x: -6 } },
     { x: 260, y: 52, labelPosition: "above", labelNudge: { x: 6 } },
-    { x: 305, y: 155, labelPosition: "left", labelNudge: { y: -12 } },
-    { x: 240, y: 235, labelPosition: "below", labelNudge: { x: 8 } },
+    { x: 305, y: 155, labelPosition: "left" },
+    { x: 240, y: 235, labelPosition: "above", labelNudge: { x: 10 } },
   ],
   7: [
-    // Hub label drops into the lower pocket between the bottom nodes.
-    { x: 175, y: 140, labelPosition: "below", labelNudge: { y: 20 } },
-    // Side nodes: nestle into the upper inward wedge (above the hub spoke).
-    { x: 48, y: 145, labelPosition: "above-right", labelNudge: { x: -2, y: 6 } },
-    // Top nodes annotate outside the constellation (above), flared outward.
-    { x: 105, y: 58, labelPosition: "above", labelNudge: { x: -12, y: -2 } },
-    { x: 255, y: 48, labelPosition: "above", labelNudge: { x: 12, y: -2 } },
-    // Sit under the hub spoke so the label stays off the upper diagonals.
-    { x: 312, y: 150, labelPosition: "below-left", labelNudge: { x: 4, y: -2 } },
-    // Bottom nodes annotate outside (below), flared outward.
-    { x: 245, y: 238, labelPosition: "below", labelNudge: { x: 16, y: 2 } },
-    { x: 95, y: 230, labelPosition: "below", labelNudge: { x: -16, y: 2 } },
+    // Hub: close below, in the open pocket (no spoke to lower-left).
+    { x: 175, y: 140, labelPosition: "below", labelNudge: { y: 2 } },
+    // Far-left: inward/right, lifted above the hub spoke.
+    { x: 48, y: 145, labelPosition: "right", labelNudge: { x: 1, y: -2 } },
+    // Top: outside above, slight outward flare so two-line blocks clear nodes.
+    { x: 105, y: 58, labelPosition: "above", labelNudge: { x: -10, y: -1 } },
+    { x: 255, y: 48, labelPosition: "above", labelNudge: { x: 10, y: -1 } },
+    // Far-right: inward/left, lifted above the hub spoke.
+    { x: 312, y: 150, labelPosition: "left", labelNudge: { x: -1, y: -2 } },
+    // Bottom: upward / inward — BR flares right of the hub→BR spoke.
+    { x: 245, y: 238, labelPosition: "above", labelNudge: { x: 22, y: -1 } },
+    { x: 95, y: 230, labelPosition: "above-right", labelNudge: { x: 4, y: -1 } },
   ],
 };
 

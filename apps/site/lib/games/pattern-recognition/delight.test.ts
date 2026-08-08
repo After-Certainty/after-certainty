@@ -80,7 +80,7 @@ describe("session completion delight helpers", () => {
     expect(left.label.x).toBeGreaterThan(left.x);
     expect(left.label.anchor).toBe("start");
 
-    // Right edge → label inward (left / above-left)
+    // Right edge → label inward (left / above-left / below-left)
     expect(right.label.position).toMatch(/left/);
     expect(right.label.x).toBeLessThan(right.x);
     expect(right.label.anchor).toBe("end");
@@ -89,13 +89,13 @@ describe("session completion delight helpers", () => {
     expect(top.label.position).toBe("above");
     expect(top.label.y).toBeLessThan(top.y);
 
-    // Bottom → outside below
-    expect(bottom.label.position).toBe("below");
-    expect(bottom.label.y).toBeGreaterThan(bottom.y);
+    // Bottom → upward / inward (above or diagonal above)
+    expect(bottom.label.position).toMatch(/^above/);
+    expect(bottom.label.y).toBeLessThan(bottom.y);
 
-    // Center slot → below / below-right of hub, nearby
+    // Center slot → below the hub, nearby
     expect(center.label.position).toMatch(/^below/);
-    expect(center.label.y - center.y).toBeLessThan(56);
+    expect(center.label.y - center.y).toBeLessThan(40);
 
     for (const node of nodes) {
       expect(node.label.x).toBeGreaterThanOrEqual(8);
@@ -105,7 +105,7 @@ describe("session completion delight helpers", () => {
       // Labels stay near their node (not free-floating across the canvas).
       const dx = Math.abs(node.label.x - node.x);
       const dy = Math.abs(node.label.y - node.y);
-      expect(Math.hypot(dx, dy)).toBeLessThan(56);
+      expect(Math.hypot(dx, dy)).toBeLessThan(48);
     }
   });
 
@@ -118,6 +118,7 @@ describe("session completion delight helpers", () => {
 
     const authority = wrapPatternLabel("Authority Follows Attention");
     expect(authority).toEqual(["Authority Follows", "Attention"]);
+    expect(authority.join(" ")).not.toMatch(/…/);
 
     const veryLong = wrapPatternLabel("Responsibility Persists Beyond Control");
     expect(veryLong.length).toBe(2);
