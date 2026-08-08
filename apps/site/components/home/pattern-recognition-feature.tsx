@@ -24,7 +24,7 @@ export function PatternRecognitionFeature() {
       <Container>
         <TrackedLink
           href={href}
-          className="group grid grid-cols-1 items-center gap-4 border border-border/50 bg-bg-elevated/40 px-4 py-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent min-[360px]:grid-cols-[minmax(0,0.34fr)_minmax(0,0.66fr)] min-[360px]:gap-5 md:gap-8 md:px-6 md:py-6"
+          className="group grid grid-cols-1 items-center gap-3 border border-border/50 bg-bg-elevated/40 px-4 py-5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent min-[360px]:grid-cols-[minmax(0,0.3fr)_minmax(0,0.7fr)] min-[360px]:gap-4 md:gap-6 md:px-6 md:py-5"
           data-testid="home-pattern-recognition-cta"
           aria-labelledby="home-pattern-recognition-heading"
           analytics={{
@@ -36,32 +36,32 @@ export function PatternRecognitionFeature() {
             },
           }}
         >
-          <div className="relative mx-auto aspect-[3/2] w-full max-w-[9.5rem] min-[360px]:mx-0 min-[360px]:max-w-none md:max-w-[11rem]">
+          <div className="relative mx-auto flex w-[5.75rem] shrink-0 items-center justify-center min-[360px]:mx-0 min-[360px]:w-full min-[360px]:max-w-[6.5rem] md:max-w-[7rem]">
             <Image
               src={constellationSrc}
               alt=""
               width={900}
               height={600}
-              className="h-full w-full object-contain object-center"
-              sizes="(max-width: 359px) 152px, (max-width: 768px) 34vw, 176px"
+              className="h-auto w-full object-contain object-center"
+              sizes="(max-width: 359px) 92px, (max-width: 768px) 104px, 112px"
             />
           </div>
           <div className="min-w-0 text-left">
             <p className="text-[10px] uppercase tracking-[0.28em] text-accent">See what you notice</p>
             <h2
               id="home-pattern-recognition-heading"
-              className="mt-1.5 font-display text-xl font-medium leading-snug tracking-tight text-fg transition-colors group-hover:text-accent md:text-2xl"
+              className="mt-2 font-display text-xl font-medium leading-[1.2] tracking-tight text-fg transition-colors group-hover:text-accent md:text-2xl md:leading-snug"
             >
               Can you recognize the pattern?
             </h2>
-            <p className="mt-2 text-sm leading-relaxed text-muted">
+            <p className="mt-2.5 text-sm leading-[1.45] text-muted">
               Five situations. No trivia. Look beneath what happened and identify the structure at
               work.
             </p>
-            <span className="mt-3 inline-flex min-h-11 items-center text-xs uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg">
+            <span className="mt-3.5 inline-flex min-h-9 items-center text-[11px] uppercase tracking-[0.16em] text-accent transition-colors group-hover:text-fg min-[375px]:whitespace-nowrap md:text-xs md:tracking-[0.2em]">
               {linkText} →
             </span>
-            <p className="mt-1 text-xs text-muted">~3 minutes</p>
+            <p className="mt-1.5 text-xs text-muted">~3 minutes</p>
           </div>
         </TrackedLink>
       </Container>
