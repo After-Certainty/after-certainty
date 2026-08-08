@@ -61,17 +61,17 @@ export async function SiteFooter() {
   return (
     <footer className="atm-footer border-t border-border/60 bg-bg-elevated/40">
       <span className="atm-footer-grain" aria-hidden />
-      <Container className="atm-footer__inner py-6 md:py-16">
-        <div className="grid gap-5 md:grid-cols-[2fr_1fr] md:gap-12">
+      <Container className="atm-footer__inner py-5 md:py-16">
+        <div className="grid gap-4 md:grid-cols-[2fr_1fr] md:gap-12">
           <div>
             <SiteLockup variant="footer" />
-            <p className="mt-3 max-w-xl text-sm leading-relaxed text-muted md:mt-6">
+            <p className="mt-2.5 max-w-xl text-sm leading-snug text-muted md:mt-6 md:leading-relaxed">
               {siteConfig.description}
             </p>
 
             <nav
               aria-label="Footer"
-              className="mt-4 flex flex-wrap items-center gap-x-3 gap-y-0 md:hidden"
+              className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-0 md:hidden"
               data-footer-nav="mobile"
             >
               {mobilePrimaryLinks.map((link, index) => (
@@ -89,7 +89,7 @@ export async function SiteFooter() {
             </nav>
 
             <div
-              className="mt-3 flex flex-wrap items-center gap-0.5 md:hidden"
+              className="mt-2 flex flex-wrap items-center gap-0.5 md:hidden"
               aria-label="Social profiles"
               data-footer-social="mobile"
             >
@@ -238,8 +238,8 @@ export async function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-5 space-y-2 border-t border-border/30 pt-4 text-xs text-muted md:mt-12 md:space-y-3 md:border-0 md:pt-0">
-          <p className="leading-relaxed">
+        <div className="mt-4 space-y-1.5 border-t border-border/30 pt-3 text-[11px] leading-snug text-muted/80 md:mt-12 md:space-y-3 md:border-0 md:pt-0 md:text-xs md:leading-relaxed md:text-muted">
+          <p>
             Open corpus · Content licensed{" "}
             <a
               className="text-accent underline-offset-4 hover:underline"
@@ -249,7 +249,7 @@ export async function SiteFooter() {
             </a>
             .
           </p>
-          <p className="flex flex-wrap items-center gap-x-3 gap-y-1">
+          <p className="flex flex-wrap items-center gap-x-2.5 gap-y-0.5">
             <Link className={metaLinkClass} href="/privacy">
               Privacy
             </Link>
@@ -278,7 +278,7 @@ export async function SiteFooter() {
             remix thoughtfully.
           </p>
           {manifestDate ? (
-            <p className="text-[11px] normal-case tracking-normal text-muted/70">
+            <p className="normal-case tracking-normal text-muted/65">
               Semantic data: {manifestDate}
             </p>
           ) : null}

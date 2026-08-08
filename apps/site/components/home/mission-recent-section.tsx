@@ -16,14 +16,14 @@ export async function MissionRecentSection() {
   return (
     <section className="border-b border-border/40 bg-bg py-6 md:py-20">
       <Container>
-        <div className="grid gap-8 lg:grid-cols-2 lg:gap-0">
-          <div className="lg:border-r lg:border-border/35 lg:pr-12 xl:pr-16">
+        <div className="grid gap-12 lg:grid-cols-2 lg:gap-0">
+          <div className="min-w-0 lg:border-r lg:border-border/35 lg:pr-12 xl:pr-16">
             <WhatsNewHomePreview />
           </div>
 
-          <div className="lg:pl-12 xl:pl-16">
+          <div className="min-w-0 lg:pl-12 xl:pl-16">
             {book ? (
-              <div className="flex gap-4 md:gap-5">
+              <div className="flex gap-4 md:gap-5" data-featured-book>
                 <BookCoverThumbnail src={resolveBookCoverSrc(book, "thumbnail")} />
                 <div className="min-w-0 flex-1">
                   <p className="text-[10px] uppercase tracking-[0.28em] text-accent">

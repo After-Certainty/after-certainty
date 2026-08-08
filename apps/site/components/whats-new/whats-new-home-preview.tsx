@@ -16,41 +16,46 @@ function FeaturedWhatsNewCard({ event }: { event: WhatsNewEvent }) {
 
   return (
     <article className="border-b border-border/30 pb-5">
-      <div className="flex gap-4">
-        {event.image ? (
-          <div className="relative aspect-[2/3] w-[72px] shrink-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/50 sm:w-[96px]">
-            <Image src={event.image} alt="" fill className="object-contain" sizes="96px" />
-          </div>
-        ) : null}
-        <div className="min-w-0 flex-1">
-          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-            <span className="text-[10px] uppercase tracking-[0.28em] text-accent">{typeLabel}</span>
-            <time
-              dateTime={event.date}
-              className="text-[10px] uppercase tracking-[0.16em] text-muted"
-            >
-              {formatWhatsNewEventDate(event.date)}
-            </time>
-          </div>
-          <h3 className="mt-2 font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
-            <TrackedLink
-              href={event.href}
-              className="transition-colors hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-              analytics={{
-                event: AnalyticsEvents.whatsNewSelect,
-                params: {
-                  event_id: event.id,
-                  event_type: event.type,
-                  location: "home_featured",
-                },
-              }}
-            >
+      <TrackedLink
+        href={event.href}
+        className="group block focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        analytics={{
+          event: AnalyticsEvents.whatsNewSelect,
+          params: {
+            event_id: event.id,
+            event_type: event.type,
+            location: "home_featured",
+          },
+        }}
+      >
+        <div className="flex gap-4">
+          {event.image ? (
+            <div className="relative aspect-[2/3] w-[64px] shrink-0 overflow-hidden rounded-md border border-border/40 bg-bg-elevated/50 sm:w-[80px]">
+              <Image src={event.image} alt="" fill className="object-contain" sizes="80px" />
+            </div>
+          ) : null}
+          <div className="min-w-0 flex-1">
+            <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
+              <span className="text-[10px] uppercase tracking-[0.28em] text-accent">{typeLabel}</span>
+              <time
+                dateTime={event.date}
+                className="text-[10px] uppercase tracking-[0.16em] text-muted"
+              >
+                {formatWhatsNewEventDate(event.date)}
+              </time>
+            </div>
+            <h3 className="mt-3 font-display text-xl font-medium tracking-tight text-fg transition-colors group-hover:text-accent md:text-2xl">
               {event.title}
-            </TrackedLink>
-          </h3>
-          <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">{event.summary}</p>
+            </h3>
+            <p className="mt-3 line-clamp-3 text-sm leading-snug text-muted md:leading-relaxed">
+              {event.summary}
+            </p>
+            <span className="mt-3 inline-flex min-h-9 items-center text-xs uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg">
+              Explore →
+            </span>
+          </div>
         </div>
-      </div>
+      </TrackedLink>
     </article>
   );
 }
@@ -62,7 +67,7 @@ function CompactWhatsNewRow({ event }: { event: WhatsNewEvent }) {
     <li className="border-b border-border/30 last:border-b-0">
       <TrackedLink
         href={event.href}
-        className="group flex min-h-11 items-baseline justify-between gap-3 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        className="group flex min-h-11 items-start justify-between gap-3 py-3 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         analytics={{
           event: AnalyticsEvents.whatsNewSelect,
           params: {
@@ -72,17 +77,22 @@ function CompactWhatsNewRow({ event }: { event: WhatsNewEvent }) {
           },
         }}
       >
-        <span className="min-w-0">
+        <span className="min-w-0 flex-1">
           <span className="block text-[10px] uppercase tracking-[0.22em] text-accent">
             {typeLabel}
           </span>
-          <span className="mt-0.5 block font-display text-base font-medium tracking-tight text-fg transition-colors group-hover:text-accent">
+          <span className="mt-1 block font-display text-base font-medium tracking-tight text-fg transition-colors group-hover:text-accent">
             {event.title}
           </span>
+          {event.summary ? (
+            <span className="mt-1 block min-w-0 truncate text-xs leading-snug text-muted">
+              {event.summary}
+            </span>
+          ) : null}
         </span>
         <time
           dateTime={event.date}
-          className="shrink-0 text-[10px] uppercase tracking-[0.14em] text-muted"
+          className="shrink-0 pt-0.5 text-[10px] uppercase tracking-[0.14em] text-muted"
         >
           {formatWhatsNewEventDate(event.date)}
         </time>
@@ -108,10 +118,10 @@ export async function WhatsNewHomePreview() {
   return (
     <div data-whats-new-home-preview>
       <p className="text-xs uppercase tracking-[0.28em] text-accent">What’s new</p>
-      <div className="mt-4">
+      <div className="mt-5">
         {featured ? <FeaturedWhatsNewCard event={featured} /> : null}
         {secondary.length > 0 ? (
-          <ul className="mt-1 list-none p-0">
+          <ul className="mt-0 list-none p-0">
             {secondary.map((event) => (
               <CompactWhatsNewRow key={event.id} event={event} />
             ))}
@@ -120,7 +130,7 @@ export async function WhatsNewHomePreview() {
       </div>
       <TrackedLink
         href="/whats-new"
-        className="mt-5 inline-block text-xs uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+        className="mt-7 inline-block text-xs uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
         analytics={{
           event: AnalyticsEvents.whatsNewHomeSelect,
           params: { location: "home_preview_more" },
