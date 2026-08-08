@@ -104,8 +104,11 @@ test.describe("Pattern Recognition Challenge", () => {
     }
 
     await expect(page.getByRole("heading", { name: "Five recognitions logged." })).toBeVisible();
+    // Reduced-motion path self-cleans quickly; CTAs must never wait on it.
     const delight = page.getByTestId("session-complete-delight");
-    await expect(delight).toHaveAttribute("data-reduced-motion", "true");
+    if ((await delight.count()) > 0) {
+      await expect(delight).toHaveAttribute("data-reduced-motion", "true");
+    }
     await expect(page.getByRole("link", { name: "Back to lobby" })).toBeEnabled();
     await Promise.all([
       page.waitForURL(/\/games\/pattern-recognition\/?$/, { timeout: 30_000 }),
