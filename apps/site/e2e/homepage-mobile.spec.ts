@@ -45,6 +45,10 @@ test.describe("homepage mobile redesign", () => {
 
     const explore = page.getByRole("region", { name: /Explore the commons/i });
     await expect(explore.getByRole("link", { name: /^Books/i })).toBeVisible();
+    await expect(explore.getByRole("link", { name: /^Start Here/i })).toHaveAttribute(
+      "href",
+      "/start",
+    );
     await expect(explore.getByRole("link", { name: /^Search/i })).toHaveAttribute(
       "href",
       "/search",
@@ -52,6 +56,15 @@ test.describe("homepage mobile redesign", () => {
 
     await expect(page.getByRole("heading", { name: "Follow a reading trail" })).toBeVisible();
     await expect(page.locator("[data-home-trail-card]").first()).toBeVisible();
+    await expect(
+      page.locator('[data-trail-image="judgment-before-certainty"] img'),
+    ).toHaveAttribute("src", /judgment-before-certainty/);
+    await expect(
+      page.locator('[data-trail-image="leadership-after-the-person"] img'),
+    ).toHaveAttribute("src", /leadership-after-the-person/);
+    await expect(
+      page.locator('[data-trail-image="meaning-under-pressure"] img'),
+    ).toHaveAttribute("src", /meaning-under-pressure/);
 
     await expect(page.getByTestId("home-pattern-recognition-cta")).toBeVisible();
     await page.getByTestId("home-pattern-recognition-cta").click();

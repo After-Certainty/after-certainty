@@ -17,7 +17,7 @@ export function PatternRecognitionFeature() {
 
   return (
     <section
-      className="border-b border-border/40 bg-bg py-8 md:py-14"
+      className="border-b border-border/40 bg-bg py-6 md:py-14"
       aria-labelledby="home-pattern-recognition-heading"
       data-home-feature="pattern-recognition"
     >

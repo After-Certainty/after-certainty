@@ -42,6 +42,15 @@ function IconConcepts(props: SVGProps<SVGSVGElement>) {
   );
 }
 
+function IconStart(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
+      <circle cx={12} cy={12} r={9} />
+      <path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 function IconSearch(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
@@ -77,6 +86,12 @@ const pathways = [
     Icon: IconPodcast,
   },
   {
+    href: "/start",
+    title: "Start Here",
+    description: "How to read this project, where ideas live, and how to contribute responsibly.",
+    Icon: IconStart,
+  },
+  {
     href: "/search",
     title: "Search",
     description: "Find books, concepts, patterns, and paths across the open corpus.",
@@ -87,14 +102,14 @@ const pathways = [
 export function PathwayGrid() {
   return (
     <section
-      className="border-b border-border/40 bg-bg-elevated/22 py-8 md:py-14"
+      className="border-b border-border/40 bg-bg-elevated/22 py-6 md:py-14"
       aria-label="Explore the commons"
     >
       <Container>
         <p className="mb-4 text-[10px] uppercase tracking-[0.28em] text-accent md:mb-6 md:text-xs">
           Explore the commons
         </p>
-        <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-5 lg:gap-3">
+        <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-3 lg:gap-3">
           {pathways.map(({ href, title, description, Icon }) => (
             <Link
               key={href}

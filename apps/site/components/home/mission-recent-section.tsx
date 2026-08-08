@@ -14,9 +14,9 @@ export async function MissionRecentSection() {
   const book = await getFeaturedBook();
 
   return (
-    <section className="border-b border-border/40 bg-bg py-10 md:py-20">
+    <section className="border-b border-border/40 bg-bg py-6 md:py-20">
       <Container>
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-0">
+        <div className="grid gap-8 lg:grid-cols-2 lg:gap-0">
           <div className="lg:border-r lg:border-border/35 lg:pr-12 xl:pr-16">
             <WhatsNewHomePreview />
           </div>

@@ -8,7 +8,7 @@ import { Container } from "@/components/ui/container";
 export function WhyProjectExistsSection() {
   return (
     <section
-      className="border-b border-border/40 bg-bg-elevated/18 py-8 md:py-12"
+      className="border-b border-border/40 bg-bg-elevated/18 py-6 md:py-12"
       aria-labelledby="why-project-exists-heading"
     >
       <Container>

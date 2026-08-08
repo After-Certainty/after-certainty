@@ -10,7 +10,7 @@ export async function FeaturedQuestionsSection() {
   if (questions.length === 0) return null;
 
   return (
-    <section className="atm-section atm-section--transition border-b border-border/40 bg-bg-elevated/22 py-8 md:py-14">
+    <section className="atm-section atm-section--transition border-b border-border/40 bg-bg-elevated/22 py-6 md:py-14">
       <QuestionSectionAnalytics location="home" />
       <Container>
         <div className="max-w-2xl">
