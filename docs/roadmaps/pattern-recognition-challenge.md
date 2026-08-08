@@ -1,6 +1,6 @@
 # Pattern Recognition Challenge — Implementation Roadmap
 
-**Status:** Active specialized plan — `GAME-001a`–`GAME-001c` shipped; `GAME-001d` in progress (a11y, e2e, analytics, SEO)  
+**Status:** Active specialized plan — `GAME-001a`–`GAME-001d` shipped; next **MVP polish** Session Completion Delight (`GAME-001e` / Phase 7b); enjoyability pause before Phase 8–9  
 **Created:** 2026-08-07  
 **Revised:** 2026-08-08  
 **Location:** `docs/roadmaps/pattern-recognition-challenge.md`  
@@ -34,6 +34,7 @@
 | **Daily Challenge** | Deterministic five-question set for a calendar day (no backend cron) |
 | **Practice** | Unlimited play after or instead of Daily |
 | **Session** | One playthrough of N challenges (MVP Daily/Practice = 5) |
+| **Session Completion Delight** | Brief, non-blocking visual wink after a full Daily/Practice pack finishes — not per-question, not scoring |
 | **Player state** | Anonymous local progress; never required for play |
 
 ---
@@ -67,8 +68,9 @@ After Certainty already separates **authored meaning** (`semantic/`, `books/`) f
 - Soft multi-pattern feedback
 - Links into pattern / book / optional podcast / optional chapter
 - 15–25 seed challenges across patterns and contexts
+- Optional **Session Completion Delight** (one lightweight variant) as MVP polish after Phase 7 quality bar — never a playability gate
 
-**Explicitly deferred:** Ranking / Find the Evidence / Expert modes; Supabase sync; login walls; achievement economies; competitive pressure; new npm dependencies for V1.
+**Explicitly deferred:** Ranking / Find the Evidence / Expert modes; Supabase sync; login walls; achievement economies; competitive pressure; arcade celebration UX; new npm dependencies for V1 (reuse existing `framer-motion` if motion is needed).
 
 **Largest risks:**
 
@@ -76,7 +78,7 @@ After Certainty already separates **authored meaning** (`semantic/`, `books/`) f
 2. **Tone drift** — Loud trivia UX would fight the literary commons identity; keep gold accent, display/body fonts, restrained chrome.
 3. **Manifest contract care** — New `challenges[]` must be additive; bump `schemaVersion` string carefully; keep consumers that ignore unknown fields working.
 4. **SSR / hydration** — Progress is client-only; challenge prose must SSR for SEO/share while progress hydrates after mount.
-5. **Over-gamification** — Prefer Pattern Memory over level grind; streaks must not punish life.
+5. **Over-gamification** — Prefer Pattern Memory over level grind; streaks must not punish life. Session Completion Delight must stay a knowing wink, not “YOU WON!” spectacle.
 
 ---
 
@@ -199,6 +201,7 @@ Path helpers should live in something like `apps/site/lib/games/paths.ts` (mirro
 | Engine | Scoring, daily pick, session, XP pure functions | `apps/site/lib/games/pattern-recognition/` |
 | Persistence | Versioned local store | `apps/site/lib/games/pattern-recognition/storage.ts` |
 | UI | Lobby + play island states | `apps/site/components/games/pattern-recognition/` |
+| Session Completion Delight | Non-blocking end-of-pack visual variant(s); reduced-motion safe | `apps/site/components/games/pattern-recognition/session-complete-delight.tsx` (+ optional `lib/games/pattern-recognition/delight.ts` for variant registry/selection) |
 | Routes | App Router pages | `apps/site/app/games/...` |
 | Analytics | Typed events | `lib/analytics/events.ts`, `track.ts` |
 | Tests | Unit + e2e | co-located `*.test.ts(x)`, `e2e/pattern-recognition*.spec.ts` |
@@ -421,6 +424,8 @@ dailySet = order.slice(0, 5)
 | Single / shareable | 1 | No | `/challenge/[slug]` |
 
 “Question 1 of 5” matches Daily/Practice packs. Progress indicator updates per answer; choices remain visible after reveal (per mockup selected-answer state); scroll feedback into view after selection (`scrollIntoView`, `motion-reduce` safe).
+
+**Session Completion Delight (MVP polish):** After a full Daily/Practice pack reaches the results state (not after each question; not on single-challenge routes by default), optionally play a brief decorative animation layered over/near the already-usable results UI. Pointer-events must not block results CTAs. See Phase 7b.
 
 ---
 
@@ -706,6 +711,124 @@ Each phase is independently reviewable. Mark **MVP** vs **Future**.
 **Tests:** listed above  
 **Risks:** Analytics scope creep — keep optional.
 
+**Polish note:** Session Completion Delight is **not** required to close Phase 7’s quality bar. Ship Phase 7 a11y/e2e/analytics/SEO first; then treat delight as **Phase 7b / MVP polish** (`GAME-001e`) if inexpensive.
+
+---
+
+### Phase 7b — Session Completion Delight (MVP polish)
+
+**Objective:** After a full Daily/Practice session, offer a brief, playful, intelligent visual wink — never arcade spectacle.  
+**Classification:** **MVP polish** (include in the first polished release if inexpensive); **not** a prerequisite for core playability.  
+**Dependencies:** Phase 5 session results UI; preferably after Phase 7 a11y baseline.  
+**Slice name (when built):** `GAME-001e`
+
+#### Repository animation findings (verified)
+
+| Question | Finding |
+|----------|---------|
+| Motion library already present? | **Yes** — `framer-motion` `^12.43.0` in `apps/site` (`optimizePackageImports` in Next config). Used in Observatory (`useReducedMotion`, `AnimatePresence`, `motion.*`). |
+| CSS / reduced-motion patterns? | **Yes** — `globals.css` (`animate-start-reveal`, `motion-reduce`), `atmosphere.css`, observatory CSS keyframes; game already checks `prefers-reduced-motion` for `scrollIntoView`. |
+| Canvas / particle libs? | **No** — no `canvas-confetti`, tsParticles, Lottie, GSAP. |
+| Can V1 ship without a new dependency? | **Yes** — prefer **Framer Motion + SVG/CSS** reuse. Do **not** add confetti/particle packages for this feature. |
+
+#### UX rules (locked)
+
+1. Trigger only after a **full session** completes (Daily/Practice packs of 5) — **not** after every question.
+2. Single-challenge `/challenge/[slug]` routes: **no** delight by default (shareable one-offs stay calm).
+3. Autoplay; **no** dismissal modal; **no** required interaction.
+4. Results screen remains fully usable **during and after** the effect (`pointer-events: none` on decorative layer).
+5. Never delay navigation, XP copy, streak copy, or lobby CTAs.
+6. Brief (~1.2–1.8s wall time); mobile-first; desktop acceptable.
+7. Respect `prefers-reduced-motion: reduce` (skip motion or minimal opacity fade only).
+8. Graceful no-op if animation APIs unavailable.
+9. **No audio by default.**
+10. Avoid generic full-screen confetti, emoji rain, and high particle counts (esp. mobile Safari).
+11. Decorative only — conveys **no** information required to understand results.
+
+#### Tone / copy
+
+Avoid celebration slogans (“GREAT JOB!”, “YOU WON!”, “LEVEL UP!!!”). Prefer a knowing wink aligned with After Certainty voice. Supporting lines, if any, should be short and optional — candidates for editorial review (not hard-locked): “Reality remains complicated.” / “Another pattern noticed.” / “Patterns travel.” / “Five situations. Several patterns. No final certainty.” Prefer reusing or lightly adapting existing session-complete headlines (“Five recognitions logged.”) over new hype copy.
+
+#### Architecture shape
+
+Keep scoring/XP/session state out of the animation.
+
+Conceptual surface (names may follow repo conventions when implemented):
+
+- **`SessionCompleteDelight`** client component — mounts when the session results state appears; selects/renders one variant; self-cleans after timeout/unmount.
+- **`delight.ts` (optional)** — variant registry, eligibility (`enabled`, `reducedMotion`), V1 selection (deterministic single variant), later weighted pick + optional “don’t repeat last” memory.
+- **Trigger:** `ChallengeSession` (or equivalent) when transitioning to the finished/results state for `mode === "daily" | "practice"`. Engine signals completion; delight reacts.
+- **Layering:** absolute/fixed decorative overlay with `aria-hidden`, `pointer-events-none`; results content stays focusable underneath/alongside.
+- **Inputs (display-only):** e.g. session mode, optional list of pattern IDs/titles already shown in-session (for constellation nodes). No writes to scoring stores.
+
+Variant registry should make adding later concepts cheap without rewriting the results page:
+
+| Variant id | Concept | Notes |
+|------------|---------|-------|
+| `pattern-constellation` | Session patterns as nodes that briefly connect, then settle/fade | **Recommended V1** |
+| `certainty-shatters` | Small “certainty” form cracks; optional restrained line | Later |
+| `reality-pushes-back` | Neat geometry refuses to stay orderly | Later |
+| `book-burst` | Small book / pages / pattern cards emerge briefly | Later |
+| `rare-surprise` | Whimsical low-frequency variant | Later; weight `rare` |
+
+**V1 selection:** ship **one deterministic** variant (`pattern-constellation`). Do **not** randomize in V1. Later: optional weights (`common` / `uncommon` / `rare`); rarity must not affect scoring; client-only `Math.random` is fine; optional sessionStorage “last variant” to reduce immediate repeats — not required for V1.
+
+#### Local storage
+
+Do **not** add substantial persistence for delight alone. Cosmetic only — **out of scope** for localStorage → Supabase sync. Optional later (only if it improves feel): last variant id / session-complete count in a tiny key or existing store envelope field — never block play if missing.
+
+#### Accessibility acceptance criteria
+
+- [ ] `prefers-reduced-motion: reduce` → no decorative motion (or ≤150ms opacity fade)
+- [ ] Animation never required to understand XP, streak, or CTAs
+- [ ] Decorative SVG/canvas/`motion` trees: `aria-hidden="true"` (and `role="presentation"` where appropriate)
+- [ ] Screen readers do not announce the effect
+- [ ] Focus remains on results content; effect never traps keyboard/focus
+- [ ] Any visible text in the effect meets contrast; prefer reusing results copy over inventing a second announcement
+- [ ] No audio unless a future explicit, opt-in decision
+
+#### Performance acceptance criteria
+
+- [ ] Mount → play → unmount/cleanup; no continuous loops after finish
+- [ ] Low element count (e.g. ≤5–8 nodes / few paths); avoid large bitmaps
+- [ ] No layout thrashing; prefer transform/opacity
+- [ ] Spot-check mobile Safari (390px): jank-free during + after effect; CTAs immediately tappable
+- [ ] No new runtime dependency beyond existing `framer-motion`
+
+#### Analytics (optional, non-blocking)
+
+If game analytics from Phase 7 exist, optional `session_delight_shown` with `variant_id` (+ maybe `mode`) — IDs only. Not required for MVP polish. Never send copy strings or pattern titles as payloads.
+
+#### Tasks
+
+1. Add `SessionCompleteDelight` (+ optional variant registry) under `components/games/pattern-recognition/`.
+2. Wire trigger from Daily/Practice results state only; keep results CTAs live.
+3. Implement **Pattern Constellation** as the sole V1 variant (Motion + SVG/CSS).
+4. Reduced-motion path + a11y attributes.
+5. Vitest: reduced-motion skips motion; variant registry returns V1 id; overlay is non-interactive.
+6. Playwright: after Daily complete, results CTAs clickable immediately; with reduced-motion, no long-running animation nodes required.
+7. Manual mobile Safari spot-check.
+
+#### Acceptance criteria
+
+- Full Daily/Practice completion can show the delight; single-challenge does not (default).
+- Results remain usable with zero required wait.
+- Reduced-motion users get a calm path.
+- No new npm dependency.
+- Tone stays reflective (no “YOU WON!” language).
+
+#### Explicitly later
+
+- Weighted/random multi-variant rotation and rare surprises
+- Certainty Shatters / Reality Pushes Back / Book Burst implementations
+- Audio
+- Full-screen confetti / heavy canvas particles
+- Supabase sync of delight prefs
+- Delight on single-challenge routes
+- Achievements tied to variants
+
+**Risks:** Tone drift into arcade; Motion overuse on low-end phones — keep the graph tiny and short-lived.
+
 ---
 
 ### Phase 8 — Future Supabase / account sync
@@ -788,6 +911,7 @@ Extend [`apps/site/lib/analytics/events.ts`](../../apps/site/lib/analytics/event
 | `challenge_completed` | `challenge_id`, `outcome` |
 | `related_content_opened` | `challenge_id`, `content_type`, `item_id` |
 | `session_completed` | `mode`, `question_count_bucket`, `dominant_count_bucket` |
+| `session_delight_shown` (optional, Phase 7b) | `variant_id`, `mode` |
 
 No scenario text, no raw feedback strings, no user email.
 
@@ -803,6 +927,7 @@ No scenario text, no raw feedback strings, no user email.
 | UI state transitions | Vitest + Testing Library | 3 |
 | Mobile play smoke | Playwright 390×844 | 3, 7 |
 | a11y reader-like checks | Playwright | 7 |
+| Session Completion Delight (reduced-motion + non-blocking CTAs) | Vitest + Playwright + mobile Safari spot-check | 7b |
 | Related corpus navigation | Playwright / unit resolver | 6 |
 | Local→Supabase merge | Vitest fixtures | 8 (future) |
 
@@ -858,13 +983,13 @@ When adding a challenge:
     Daily and Practice are packs of five Recognition challenges; shareable single-challenge routes are one question.
 
 11. **Which features belong in MVP?**  
-    Recognition, Daily + Practice, local persistence, Insight XP, humane streaks, Pattern Memory, soft feedback, corpus links, 15–25 seeds, a11y/tests, optional analytics.
+    Recognition, Daily + Practice, local persistence, Insight XP, humane streaks, Pattern Memory, soft feedback, corpus links, 15–25 seeds, a11y/tests, optional analytics. **MVP polish (Phase 7b):** one Session Completion Delight variant after full Daily/Practice packs — not a playability gate.
 
 12. **Which features should explicitly wait?**  
-    Ranking / Find the Evidence / Expert modes; Supabase/auth sync; achievements economies; adaptive difficulty; competitive features; streak freezes; CMS/cron daily schedules.
+    Ranking / Find the Evidence / Expert modes; Supabase/auth sync; achievements economies; adaptive difficulty; competitive features; streak freezes; CMS/cron daily schedules; multi-variant/rare delight rotation; audio celebrations; confetti/particle libraries; delight-state sync to Supabase.
 
 13. **What existing site components/layouts can be reused?**  
-    Focused pathname-gate shell (reader precedent), `SiteShell` for lobby, design tokens/typography, `Container`/`ButtonLink`, Phosphor allowlist icons, `TrackedLink`, related-content resolvers, `safe-local-storage`, analytics `trackEvent`, `createPageMetadata`.
+    Focused pathname-gate shell (reader precedent), `SiteShell` for lobby, design tokens/typography, `Container`/`ButtonLink`, Phosphor allowlist icons, `TrackedLink`, related-content resolvers, `safe-local-storage`, analytics `trackEvent`, `createPageMetadata`, and — for Session Completion Delight — existing **`framer-motion`** (`useReducedMotion`) plus site CSS reduced-motion patterns. Do not add canvas-confetti/tsParticles for V1.
 
 14. **What will eventually move into Supabase?**  
     Player-owned attempts, XP awards, Pattern Memory aggregates, daily completions, optional achievements — not challenge authoring.
@@ -876,10 +1001,13 @@ When adding a challenge:
     “Save my progress” uploads idempotent event IDs; insert-ignore duplicates; recompute aggregates as union/max; keep anonymous play working offline.
 
 17. **Does the game require any new dependencies for V1?**  
-    **No.** Reuse Zod, Vitest, Playwright, existing UI/storage/analytics. Supabase client and auth SDKs only in Phase 8.
+    **No.** Reuse Zod, Vitest, Playwright, existing UI/storage/analytics, and existing **`framer-motion`** for Session Completion Delight if motion is used. Do not add confetti/particle packages. Supabase client and auth SDKs only in Phase 8.
 
 18. **What is the smallest implementation that would let us determine whether this game is actually enjoyable?**  
     One published challenge → shareable challenge page → Recognition client island (scenario, four choices, soft reveal, pattern link) → persist one attempt + Insight XP in versioned localStorage. If that loop feels reflective and sticky, proceed to Daily packs and Pattern Memory.
+
+19. **How should Session Completion Delight work?**  
+    After Daily/Practice pack completion only; non-blocking overlay; V1 = one deterministic **Pattern Constellation** via Framer Motion + SVG/CSS; respect reduced motion; no audio; no new dependencies; variant registry for later concepts; cosmetic state must not complicate Supabase sync. See Phase 7b.
 
 ---
 
@@ -891,7 +1019,8 @@ When adding a challenge:
 4. Phase 5 Daily + Practice.  
 5. Phase 6 corpus links polish.  
 6. Phase 7 a11y, e2e, analytics, SEO.  
-7. Pause for enjoyability review before Phase 8–9.
+7. Phase 7b Session Completion Delight (`GAME-001e`) — one lightweight variant if still inexpensive.  
+8. Pause for enjoyability review before Phase 8–9.
 
 ### First small vertical slice (build next)
 
@@ -908,28 +1037,53 @@ When adding a challenge:
 
 **Exit criterion:** An editor can play one challenge on a phone, refresh, and still see their Insight XP total.
 
-### Shipped vertical slice
+### Shipped vertical slices
 
-**Slice name:** `GAME-001b` — Daily + Practice + Pattern Memory (shipped)
+- `GAME-001a` — Single Recognition challenge loop  
+- `GAME-001b` — Daily + Practice + Pattern Memory  
+- `GAME-001c` — Corpus related-content links  
+- `GAME-001d` — A11y, e2e, analytics, SEO  
 
-### Shipped vertical slice
+### Next vertical slices
 
-**Slice name:** `GAME-001c` — Corpus related-content links (shipped)
+1. **`GAME-001e`** — Phase 7b Session Completion Delight (MVP polish; one Pattern Constellation variant).  
 
-### Next vertical slice
+**`GAME-001e` includes:**
 
-**Slice name:** `GAME-001d` — A11y, e2e, analytics, SEO
+- `SessionCompleteDelight` abstraction + variant registry hook  
+- Deterministic V1 **Pattern Constellation** (Framer Motion + SVG/CSS; no new deps)  
+- Trigger on Daily/Practice results only; non-blocking; reduced-motion path  
+- Lightweight tests + mobile Safari spot-check  
 
-**Includes:**
+**`GAME-001e` excludes:** Multi-variant rarity rotation, audio, confetti libraries, Supabase sync of cosmetic state, single-challenge delight.
 
-- Consent-gated game analytics (IDs/buckets only)
-- Sitemap entries for `/games`, lobby, and published challenge slugs (`noindex` sessions already)
-- Playwright smoke: single challenge + Daily completion + focused-shell a11y checks
-- Feedback live region / focus polish; smoke URLs for games routes
+**Exit criterion:** Completing a five-question session can show a brief decorative wink without delaying results CTAs; reduced-motion users get a calm path.
 
-**Excludes:** Supabase, advanced modes, enjoyability redesign, new analytics vendors.
+### First implementation recommendation (Phase 7b)
 
-**Exit criterion:** Targeted e2e passes; sitemap lists indexable game routes only; analytics payloads contain no scenario/feedback prose.
+**Ship first: Pattern Constellation.**
+
+| Criterion | Why Constellation wins |
+|-----------|------------------------|
+| After Certainty fit | Echoes “patterns relate” without arcade victory; adjacent to Observatory graph metaphors already on-site |
+| Cost | Small SVG node/edge set (session’s ≤5 patterns) + short Motion timeline |
+| Mobile perf | Few elements; transform/opacity; no particles |
+| A11y | Easy `aria-hidden` + reduced-motion skip |
+| Distinctiveness | Not confetti; on-brand vs Asana unicorn clone |
+| Dependencies | Reuses installed `framer-motion` |
+
+**Reality Pushes Back** is a strong *second* variant (later). **Certainty Shatters** needs careful tone editing so it doesn’t feel cute-literal. **Book Burst** risks emoji-adjacent clutter. Generic confetti is rejected.
+
+#### Decision answers (delight)
+
+1. **Can V1 be done without a new dependency?** Yes — CSS/SVG alone is possible; **prefer existing Framer Motion** for reduced-motion helpers and short timelines.  
+2. **If not, which library?** N/A for V1. Do **not** add `canvas-confetti` / tsParticles.  
+3. **Where should the component live?** `apps/site/components/games/pattern-recognition/session-complete-delight.tsx` (+ optional `lib/games/pattern-recognition/delight.ts`).  
+4. **What triggers it?** Daily/Practice session → results/finished state (e.g. `ChallengeSession` when `finished` becomes true).  
+5. **How long?** About **1.2–1.8s**, then idle/unmount; never gate CTAs.  
+6. **Reduced motion?** Skip decorative motion (or a single brief opacity fade); results copy unchanged.  
+7. **Randomized in V1?** **No** — one deterministic constellation. Weighted/rare variants later.  
+8. **Wait until later?** Other variant concepts, rarity weights, audio, particle libs, cross-device sync, per-question celebrations, single-challenge delight.
 
 ---
 
@@ -939,7 +1093,8 @@ When adding a challenge:
 - [x] Indexed in `docs/roadmaps/README.md`
 - [x] `GAME-001` pointer in `remaining-product-roadmap.md`
 - [x] `GAME-001a`–`GAME-001c` implementation PRs linked via merge
-- [ ] Implementation PRs link back here per phase (`GAME-001d`+)
+- [x] `GAME-001d` implementation PR linked via merge  
+- [ ] Implementation PRs link back here per phase (`GAME-001e`+)
 - [ ] Update this status header as phases ship
 
 ---
@@ -951,5 +1106,7 @@ When adding a challenge:
 - Turning `semantic/questions` into quizzes (editorial contract forbids)
 - Embedding challenges into `semantic/patterns/*.yml`
 - Manipulative retention loops, loot, leaderboards
+- Arcade “YOU WON!” completion spectacle, audio fanfares, or confetti-first UX
 - Pixel-perfect reproduction of Drive mockups
 - New design system or component library for the game
+- New animation/particle dependencies solely for Session Completion Delight
