@@ -3,6 +3,8 @@ import { bookIsPublic } from "@/lib/books/book-metadata";
 import { getActiveShelves } from "@/lib/books/shelves";
 import { getBooks } from "@/lib/content-data";
 import { listChapterSitemapPaths } from "@/lib/corpus/public-registry";
+import { gamePaths } from "@/lib/games/paths";
+import { getPublishedChallenges } from "@/lib/games/pattern-recognition/load";
 import { getQuestionSitemapSlugs } from "@/lib/questions/loadQuestions";
 import { getTrailSitemapSlugs } from "@/lib/trails/loadTrails";
 import { getSemanticGraph } from "@/lib/graph/manifest";
@@ -29,6 +31,8 @@ const TOP_LEVEL_PATHS = [
   "/collaborators",
   "/about",
   "/privacy",
+  gamePaths.home,
+  gamePaths.patternRecognition,
 ] as const;
 
 /**
@@ -84,6 +88,10 @@ export async function getSitemapPaths(): Promise<string[]> {
 
   for (const slug of getTrailSitemapSlugs(graph)) {
     paths.push(`/trails/${slug}`);
+  }
+
+  for (const challenge of getPublishedChallenges(graph)) {
+    paths.push(gamePaths.challenge(challenge.slug));
   }
 
   paths.push(...listChapterSitemapPaths(graph));

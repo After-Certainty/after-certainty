@@ -53,6 +53,7 @@ export default async function PatternRecognitionChallengePage({ params }: PagePr
         relatedPodcastHref={challenge.relatedPodcastHref}
         relatedPodcastTitle={challenge.relatedPodcastTitle}
         relatedPodcastExternal={challenge.relatedPodcastExternal}
+        relatedPodcastEpisodeId={challenge.relatedPodcastEpisodeId}
         relatedSituationHref={challenge.relatedSituationHref}
         relatedSituationTitle={challenge.relatedSituationTitle}
       />

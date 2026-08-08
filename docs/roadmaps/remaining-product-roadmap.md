@@ -94,14 +94,14 @@ Valuable work that depends on Now items, Kevin’s decisions, or editorial evide
 ### Specialized cross-layer plans (tracked outside day-to-day Now/Next)
 
 - **AUDIO-001** — Provider-neutral selective chapter narration for the native reader is an **active specialized plan** (Phases 0–8). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). ElevenLabs first adapter; OpenAI = optional Phase 7 eval. **Shipped:** Phases 0–6; OP full book + WOLTY v1 full book Listen; Flash estimate calibrated **0.25 credit/char** (2026-08-05). **Next:** Curiosity Before Certainty intro + Ch.1 generate (~2k credits); further books / OpenAI only after credit refresh or explicit eval. Git LFS for MP3s; enabled ≠ available; no provider API keys in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan.
-- **GAME-001** — Pattern Recognition Challenge is an **active specialized plan** (Phases 0–9). See [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md). Local-first Recognition game with authored `semantic/challenges/` content, Daily + Practice sessions, Insight XP / Pattern Memory in browser storage; no auth required; Supabase sync explicitly later. **Shipped:** `GAME-001a` single-challenge loop; `GAME-001b` Daily + Practice + Pattern Memory. **Next slice:** `GAME-001c` corpus related-content links. Promote unfinished follow-ups here only when they outgrow the specialized plan.
+- **GAME-001** — Pattern Recognition Challenge is an **active specialized plan** (Phases 0–9). See [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md). Local-first Recognition game with authored `semantic/challenges/` content, Daily + Practice sessions, Insight XP / Pattern Memory in browser storage; no auth required; Supabase sync explicitly later. **Shipped:** `GAME-001a`–`GAME-001c` (single challenge, Daily/Practice/Memory, corpus links). **Next slice:** `GAME-001d` a11y / e2e / analytics / SEO. Promote unfinished follow-ups here only when they outgrow the specialized plan.
 
 ### Later / revisit when triggered
 
 | Item | Trigger |
 |------|---------|
 | **AUDIO-001** expand beyond pilot / second provider | Phase 7–8 evaluation accepts more units/books or an additional adapter after quality, cost, licensing, and ops review ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
-| **GAME-001** enjoyability review / later modes | After `GAME-001c` corpus links (and optional Phase 7 a11y/e2e/analytics), pause for enjoyability before Supabase and advanced modes ([`pattern-recognition-challenge.md`](pattern-recognition-challenge.md)) |
+| **GAME-001** enjoyability review / later modes | After `GAME-001d` a11y/e2e/analytics/SEO, pause for enjoyability before Supabase and advanced modes ([`pattern-recognition-challenge.md`](pattern-recognition-challenge.md)) |
 | **TOGETHER-001** product brief | Kevin explicitly chooses a Think Together pilot and needs a mechanism that Substack, GitHub issues, email, or existing channels do not already provide |
 | **TOGETHER-002 / TOGETHER-003** | Only after TOGETHER-001 accepts a distinct mechanism (or fold simple feedback into OPS/CONTRIBUTING) |
 | **PROVENANCE-008** relationship provenance UI | Kevin decides public provenance beats a debug dump |

@@ -39,9 +39,20 @@ describe("sitemap", () => {
       "/whats-new",
       "/collaborators",
       "/about",
+      "/games",
+      "/games/pattern-recognition",
     ] as const) {
       expect(urls).toContain(`https://example.com${path}`);
     }
+  });
+
+  it("includes published challenge pages but not ephemeral session routes", async () => {
+    const paths = await getSitemapPaths();
+    expect(paths).toContain(
+      "/games/pattern-recognition/challenge/hallway-workaround-exception",
+    );
+    expect(paths).not.toContain("/games/pattern-recognition/daily");
+    expect(paths).not.toContain("/games/pattern-recognition/practice");
   });
 
   it("does not include legacy /books URLs", async () => {

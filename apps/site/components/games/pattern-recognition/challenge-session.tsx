@@ -1,9 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useMemo, useState, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 
 import type { EnrichedChallenge } from "@/lib/games/pattern-recognition/enrich";
+import {
+  trackGameStarted,
+  trackSessionCompleted,
+} from "@/lib/games/pattern-recognition/analytics";
 import {
   DAILY_COMPLETION_BONUS_XP,
   getGameDateKey,
@@ -17,6 +21,7 @@ import {
   subscribePatternRecognition,
 } from "@/lib/games/pattern-recognition/storage";
 import { visibleCurrentStreak } from "@/lib/games/pattern-recognition/streaks";
+import type { ChallengeFeedback } from "@/types/challenges";
 
 import { RecognitionChallenge } from "./recognition-challenge";
 
@@ -50,6 +55,7 @@ function toViewModel(challenge: EnrichedChallenge) {
     relatedPodcastHref: challenge.relatedPodcastHref,
     relatedPodcastTitle: challenge.relatedPodcastTitle,
     relatedPodcastExternal: challenge.relatedPodcastExternal,
+    relatedPodcastEpisodeId: challenge.relatedPodcastEpisodeId,
     relatedSituationHref: challenge.relatedSituationHref,
     relatedSituationTitle: challenge.relatedSituationTitle,
   };
@@ -64,6 +70,8 @@ export function ChallengeSession({
   const [index, setIndex] = useState(0);
   const [finished, setFinished] = useState(false);
   const [claimedBonusThisRun, setClaimedBonusThisRun] = useState(false);
+  const startedRef = useRef(false);
+  const dominantCountRef = useRef(0);
   const state = useSyncExternalStore(
     subscribePatternRecognition,
     getPatternRecognitionState,
@@ -83,6 +91,18 @@ export function ChallengeSession({
     todayDateKey: dailyDate ?? getGameDateKey(),
   });
 
+  useEffect(() => {
+    if (startedRef.current) return;
+    startedRef.current = true;
+    trackGameStarted({ mode });
+  }, [mode]);
+
+  const onAnswered = useCallback((feedback: ChallengeFeedback) => {
+    if (feedback.outcome === "dominant") {
+      dominantCountRef.current += 1;
+    }
+  }, []);
+
   const onContinue = useCallback(() => {
     if (index + 1 < total) {
       setIndex((i) => i + 1);
@@ -96,6 +116,11 @@ export function ChallengeSession({
       });
       setClaimedBonusThisRun(true);
     }
+    trackSessionCompleted({
+      mode,
+      questionCount: total,
+      dominantCount: dominantCountRef.current,
+    });
     setFinished(true);
   }, [alreadyCompletedToday, challenges, dailyDate, index, mode, sessionId, total]);
 
@@ -160,6 +185,7 @@ export function ChallengeSession({
       questionCount={total}
       dailyDate={dailyDate}
       sessionId={sessionId}
+      onAnswered={onAnswered}
       onContinue={onContinue}
       continueLabel={isLast ? "See results" : "Next question"}
     />
