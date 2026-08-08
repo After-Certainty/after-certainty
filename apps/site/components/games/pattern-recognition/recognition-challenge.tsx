@@ -3,8 +3,17 @@
 import Link from "next/link";
 import { useEffect, useId, useRef, useState, useSyncExternalStore } from "react";
 
+import { TrackedLink } from "@/components/analytics/tracked-link";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { gamePaths } from "@/lib/games/paths";
+import {
+  itemIdFromPath,
+  relatedContentAnalytics,
+  trackChallengeAnswered,
+  trackChallengeCompleted,
+  trackGameStarted,
+  trackRelatedContentOpened,
+} from "@/lib/games/pattern-recognition/analytics";
 import { formatContextLabel } from "@/lib/games/pattern-recognition/memory";
 import { buildFeedback } from "@/lib/games/pattern-recognition/scoring";
 import {
@@ -38,6 +47,7 @@ export type RecognitionChallengeViewModel = {
   relatedPodcastHref?: string;
   relatedPodcastTitle?: string;
   relatedPodcastExternal?: boolean;
+  relatedPodcastEpisodeId?: string | null;
   relatedSituationHref?: string;
   relatedSituationTitle?: string;
 };
@@ -55,6 +65,9 @@ export type RecognitionChallengeProps = RecognitionChallengeViewModel & {
   continueLabel?: string;
 };
 
+const relatedLinkClassName =
+  "inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent";
+
 export function RecognitionChallenge(props: RecognitionChallengeProps) {
   const {
     scenario,
@@ -68,6 +81,7 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
     relatedPodcastHref,
     relatedPodcastTitle,
     relatedPodcastExternal,
+    relatedPodcastEpisodeId,
     relatedSituationHref,
     relatedSituationTitle,
     mode = "single",
@@ -84,6 +98,7 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
 
   const feedbackId = useId();
   const feedbackRef = useRef<HTMLDivElement | null>(null);
+  const startedRef = useRef(false);
   const [selectedPatternId, setSelectedPatternId] = useState<string | null>(null);
   const [feedback, setFeedback] = useState<ChallengeFeedback | null>(null);
   const [memoryContexts, setMemoryContexts] = useState<string[]>([]);
@@ -101,6 +116,13 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
   );
 
   useEffect(() => {
+    // Session modes fire game_started from ChallengeSession once per pack.
+    if (mode !== "single" || startedRef.current) return;
+    startedRef.current = true;
+    trackGameStarted({ mode });
+  }, [mode]);
+
+  useEffect(() => {
     if (!feedback || !feedbackRef.current) return;
     const reduce =
       typeof window !== "undefined" &&
@@ -109,6 +131,7 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
       behavior: reduce ? "auto" : "smooth",
       block: "nearest",
     });
+    feedbackRef.current.focus({ preventScroll: true });
   }, [feedback]);
 
   function onSelect(patternId: string) {
@@ -152,6 +175,15 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
       const memory = state.patternMemory[props.dominantPattern];
       setMemoryCount(memory?.contexts.length ?? 0);
       setMemoryContexts(memory?.contexts ?? []);
+      trackChallengeAnswered({
+        challengeId: props.challengeId,
+        outcome: next.outcome,
+        mode,
+      });
+      trackChallengeCompleted({
+        challengeId: props.challengeId,
+        outcome: next.outcome,
+      });
       onAnswered?.(next);
     } else {
       const memory = getPatternMemoryEntry(props.dominantPattern);
@@ -164,6 +196,10 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
     questionIndex != null && questionCount != null
       ? `Question ${questionIndex} of ${questionCount}`
       : null;
+
+  const podcastItemId = relatedPodcastEpisodeId?.startsWith("podcast:")
+    ? relatedPodcastEpisodeId.slice("podcast:".length)
+    : (relatedPodcastEpisodeId ?? undefined);
 
   return (
     <div className="mx-auto flex w-full max-w-lg flex-col gap-6 px-4 pb-16 pt-4 sm:px-6">
@@ -179,6 +215,7 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
             href={gamePaths.patternRecognition}
             className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-border text-fg transition-colors hover:border-accent/50 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
             aria-label="Exit challenge"
+            data-testid="exit-challenge"
           >
             <span aria-hidden="true" className="text-lg leading-none">
               ×
@@ -189,11 +226,17 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
 
       <div className="flex flex-wrap items-center justify-between gap-2 text-sm text-muted">
         {isClient ? (
-          <p data-testid="insight-xp-total">Insight XP: {totalXp}</p>
+          <p data-testid="insight-xp-total" aria-live="polite">
+            Insight XP: {totalXp}
+          </p>
         ) : (
           <span />
         )}
-        {progressLabel ? <p data-testid="question-progress">{progressLabel}</p> : null}
+        {progressLabel ? (
+          <p data-testid="question-progress" aria-live="polite">
+            {progressLabel}
+          </p>
+        ) : null}
       </div>
 
       <section
@@ -242,10 +285,14 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
           id={feedbackId}
           role="status"
           aria-live="polite"
-          className="rounded-md border border-border bg-bg-elevated/50 p-5"
+          tabIndex={-1}
+          className="rounded-md border border-border bg-bg-elevated/50 p-5 outline-none focus-visible:ring-2 focus-visible:ring-accent"
           data-testid="challenge-feedback"
         >
-          <p className="font-sans text-base font-medium text-fg">✓ {feedback.headline}</p>
+          <p className="font-sans text-base font-medium text-fg">
+            <span aria-hidden="true">✓ </span>
+            {feedback.headline}
+          </p>
           <p className="mt-3 font-sans text-base leading-relaxed text-fg">{feedback.body}</p>
           <p className="mt-3 font-sans text-sm leading-relaxed text-muted">
             {feedback.explanation}
@@ -254,40 +301,60 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
             +{feedback.xpAwarded} Insight XP
           </p>
 
-          <div className="mt-5 flex flex-col gap-2">
-            <Link
+          <div className="mt-5 flex flex-col gap-2" aria-label="Related corpus links">
+            <TrackedLink
               href={dominantPatternHref}
               className="inline-flex min-h-11 items-center font-sans text-sm text-accent underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
               data-testid="read-the-pattern"
+              analytics={relatedContentAnalytics(
+                props.challengeId,
+                "pattern",
+                props.dominantPattern,
+              )}
             >
               Read the Pattern →
-            </Link>
+            </TrackedLink>
             {relatedBookHref && relatedBookTitle ? (
-              <Link
+              <TrackedLink
                 href={relatedBookHref}
-                className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                className={relatedLinkClassName}
                 data-testid="related-book"
+                analytics={relatedContentAnalytics(
+                  props.challengeId,
+                  "book",
+                  itemIdFromPath(relatedBookHref),
+                )}
               >
                 Related Book: {relatedBookTitle}
-              </Link>
+              </TrackedLink>
             ) : null}
             {relatedChapterHref && relatedChapterTitle ? (
-              <Link
+              <TrackedLink
                 href={relatedChapterHref}
-                className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                className={relatedLinkClassName}
                 data-testid="related-chapter"
+                analytics={relatedContentAnalytics(
+                  props.challengeId,
+                  "chapter",
+                  itemIdFromPath(relatedChapterHref),
+                )}
               >
                 Related Chapter: {relatedChapterTitle}
-              </Link>
+              </TrackedLink>
             ) : null}
             {relatedSituationHref && relatedSituationTitle ? (
-              <Link
+              <TrackedLink
                 href={relatedSituationHref}
-                className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                className={relatedLinkClassName}
                 data-testid="related-situation"
+                analytics={relatedContentAnalytics(
+                  props.challengeId,
+                  "situation",
+                  itemIdFromPath(relatedSituationHref),
+                )}
               >
                 Related Situation: {relatedSituationTitle}
-              </Link>
+              </TrackedLink>
             ) : null}
             {relatedPodcastHref && relatedPodcastTitle ? (
               relatedPodcastExternal ? (
@@ -295,19 +362,32 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
                   href={relatedPodcastHref}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                  className={relatedLinkClassName}
                   data-testid="related-podcast"
+                  onClick={() => {
+                    if (!podcastItemId) return;
+                    trackRelatedContentOpened({
+                      challengeId: props.challengeId,
+                      contentType: "podcast",
+                      itemId: podcastItemId,
+                    });
+                  }}
                 >
                   Related Podcast: {relatedPodcastTitle}
                 </a>
               ) : (
-                <Link
+                <TrackedLink
                   href={relatedPodcastHref}
-                  className="inline-flex min-h-11 items-center rounded-md border border-border/80 px-3 py-2 font-sans text-sm text-fg transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                  className={relatedLinkClassName}
                   data-testid="related-podcast"
+                  analytics={
+                    podcastItemId
+                      ? relatedContentAnalytics(props.challengeId, "podcast", podcastItemId)
+                      : undefined
+                  }
                 >
                   Related Podcast: {relatedPodcastTitle}
-                </Link>
+                </TrackedLink>
               )
             ) : null}
           </div>
@@ -315,15 +395,20 @@ export function RecognitionChallenge(props: RecognitionChallengeProps) {
           {feedback.secondaryPatternIds.length > 0 ? (
             <div className="mt-5 border-t border-border/70 pt-4">
               <p className="text-xs uppercase tracking-[0.18em] text-muted">Also visible</p>
-              <ul className="mt-2 flex flex-wrap gap-2">
+              <ul className="mt-2 flex flex-wrap gap-2" aria-label="Secondary patterns">
                 {feedback.secondaryPatternIds.map((patternId) => (
                   <li key={patternId}>
-                    <Link
+                    <TrackedLink
                       href={`${explorePaths.patterns}/${patternId}`}
                       className="inline-flex min-h-9 items-center rounded-full border border-border/80 px-3 py-1.5 text-sm text-fg hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                      analytics={relatedContentAnalytics(
+                        props.challengeId,
+                        "pattern",
+                        patternId,
+                      )}
                     >
                       {titleByPatternId[patternId] ?? patternId}
-                    </Link>
+                    </TrackedLink>
                   </li>
                 ))}
               </ul>

@@ -1,10 +1,9 @@
 # Pattern Recognition Challenge — Implementation Roadmap
 
-**Status:** Active specialized plan — `GAME-001a`/`GAME-001b` shipped; `GAME-001c` in progress (corpus related-content links)  
+**Status:** Active specialized plan — `GAME-001a`–`GAME-001c` shipped; `GAME-001d` in progress (a11y, e2e, analytics, SEO)  
 **Created:** 2026-08-07  
-**Revised:** 2026-08-07  
+**Revised:** 2026-08-08  
 **Location:** `docs/roadmaps/pattern-recognition-challenge.md`  
- 
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog stay linked from that master roadmap (`GAME-001`).
 
 **Document role:** Executable implementation roadmap for a local-first Pattern Recognition Challenge game that teaches players to notice recurring patterns in human systems. Authored challenge content lives in the corpus; player progress starts in browser localStorage and may later sync via optional Supabase identity framed as “Save my progress.”
@@ -913,21 +912,24 @@ When adding a challenge:
 
 **Slice name:** `GAME-001b` — Daily + Practice + Pattern Memory (shipped)
 
+### Shipped vertical slice
+
+**Slice name:** `GAME-001c` — Corpus related-content links (shipped)
+
 ### Next vertical slice
 
-**Slice name:** `GAME-001c` — Corpus related-content links  
- 
+**Slice name:** `GAME-001d` — A11y, e2e, analytics, SEO
 
 **Includes:**
 
-- `related-content.ts` resolver: pattern (required), book override/fallback, optional chapter, authored podcast only, optional situation
-- Wire enrich + reveal UI; client never invents slugs
-- Unit + local-manifest asserts that published seeds resolve unbroken doorway links
-- Light seed authoring where needed (podcast / chapter examples)
+- Consent-gated game analytics (IDs/buckets only)
+- Sitemap entries for `/games`, lobby, and published challenge slugs (`noindex` sessions already)
+- Playwright smoke: single challenge + Daily completion + focused-shell a11y checks
+- Feedback live region / focus polish; smoke URLs for games routes
 
-**Excludes:** Analytics event suite, Playwright e2e, sitemap/SEO polish (Phase 7), Supabase, advanced modes.
+**Excludes:** Supabase, advanced modes, enjoyability redesign, new analytics vendors.
 
-**Exit criterion:** Every published seed has a working dominant-pattern link; related book resolves (override or pattern fallback); podcast/chapter/situation links appear only when resolvable.
+**Exit criterion:** Targeted e2e passes; sitemap lists indexable game routes only; analytics payloads contain no scenario/feedback prose.
 
 ---
 
@@ -936,8 +938,8 @@ When adding a challenge:
 - [x] Specialized cross-layer plan authored
 - [x] Indexed in `docs/roadmaps/README.md`
 - [x] `GAME-001` pointer in `remaining-product-roadmap.md`
-- [x] `GAME-001a` / `GAME-001b` implementation PRs linked via merge
-- [ ] Implementation PRs link back here per phase (`GAME-001c`+)
+- [x] `GAME-001a`–`GAME-001c` implementation PRs linked via merge
+- [ ] Implementation PRs link back here per phase (`GAME-001d`+)
 - [ ] Update this status header as phases ship
 
 ---

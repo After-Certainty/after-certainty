@@ -30,6 +30,8 @@ export const topLevelSmokeUrls: SmokeUrl[] = [
   { path: "/whats-new", label: "What’s New" },
   { path: "/collaborators", label: "Collaborators" },
   { path: "/about", label: "About" },
+  { path: "/games", label: "Games index" },
+  { path: "/games/pattern-recognition", label: "Pattern Recognition lobby" },
 ];
 
 /** Sample entity detail pages — stable slugs from bundled manifests. */
@@ -47,6 +49,11 @@ export const contentSmokeUrls: SmokeUrl[] = [
     path: "/explore/situations/temporary-fixes-become-permanent",
     label: "Situation: Temporary fixes becoming permanent",
   },
+  {
+    path: "/games/pattern-recognition/challenge/hallway-workaround-exception",
+    label: "Game challenge: hallway workaround",
+  },
+
   {
     path: "/explore/sources/agamben-giorgio-state-of-exception",
     label: "Source: Agamben — State of Exception",

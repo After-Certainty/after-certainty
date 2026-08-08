@@ -241,6 +241,34 @@ export type BookOverviewEditionHistoryOpenParams = {
   book_id: string;
 };
 
+export type GameStartedParams = {
+  game_id: string;
+  mode: string;
+};
+
+export type ChallengeAnsweredParams = {
+  challenge_id: string;
+  outcome: string;
+  mode: string;
+};
+
+export type ChallengeCompletedParams = {
+  challenge_id: string;
+  outcome: string;
+};
+
+export type RelatedContentOpenedParams = {
+  challenge_id: string;
+  content_type: string;
+  item_id: string;
+};
+
+export type SessionCompletedParams = {
+  mode: string;
+  question_count_bucket: string;
+  dominant_count_bucket: string;
+};
+
 export const AnalyticsEvents = {
   selectContent: "select_content",
   fileDownload: "file_download",
@@ -291,6 +319,11 @@ export const AnalyticsEvents = {
   bookOverviewEditionHistoryOpen: "book_overview_edition_history_open",
   chapterOpen: "chapter_open",
   nextChapter: "next_chapter",
+  gameStarted: "game_started",
+  challengeAnswered: "challenge_answered",
+  challengeCompleted: "challenge_completed",
+  relatedContentOpened: "related_content_opened",
+  sessionCompleted: "session_completed",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];
