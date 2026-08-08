@@ -1042,7 +1042,6 @@ When adding a challenge:
 - `GAME-001a` — Single Recognition challenge loop  
 - `GAME-001b` — Daily + Practice + Pattern Memory  
 - `GAME-001c` — Corpus related-content links  
-
 - `GAME-001d` — A11y, e2e, analytics, SEO  
 
 ### Next vertical slices
