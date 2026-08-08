@@ -13,7 +13,7 @@ import {
   getGameDateKey,
   type SessionMode,
 } from "@/lib/games/pattern-recognition/daily";
-import { sessionPatternIds } from "@/lib/games/pattern-recognition/delight";
+import { buildSessionPatterns } from "@/lib/games/pattern-recognition/delight";
 import type { EnrichedChallenge } from "@/lib/games/pattern-recognition/enrich";
 import {
   completeDailySession,
@@ -72,8 +72,11 @@ export function ChallengeSession({
   const [index, setIndex] = useState(0);
   const [finished, setFinished] = useState(false);
   const [claimedBonusThisRun, setClaimedBonusThisRun] = useState(false);
+  const [sessionXp, setSessionXp] = useState(0);
+  const [dominantCount, setDominantCount] = useState(0);
   const startedRef = useRef(false);
   const dominantCountRef = useRef(0);
+  const sessionXpRef = useRef(0);
   const state = useSyncExternalStore(
     subscribePatternRecognition,
     getPatternRecognitionState,
@@ -93,6 +96,8 @@ export function ChallengeSession({
     todayDateKey: dailyDate ?? getGameDateKey(),
   });
 
+  const sessionPatterns = useMemo(() => buildSessionPatterns(challenges), [challenges]);
+
   useEffect(() => {
     if (startedRef.current) return;
     startedRef.current = true;
@@ -100,6 +105,7 @@ export function ChallengeSession({
   }, [mode]);
 
   const onAnswered = useCallback((feedback: ChallengeFeedback) => {
+    sessionXpRef.current += feedback.xpAwarded;
     if (feedback.outcome === "dominant") {
       dominantCountRef.current += 1;
     }
@@ -110,6 +116,7 @@ export function ChallengeSession({
       setIndex((i) => i + 1);
       return;
     }
+    let bonus = 0;
     if (mode === "daily" && dailyDate && !alreadyCompletedToday) {
       completeDailySession({
         dateKey: dailyDate,
@@ -117,57 +124,57 @@ export function ChallengeSession({
         challengeIds: challenges.map((challenge) => challenge.id),
       });
       setClaimedBonusThisRun(true);
+      bonus = DAILY_COMPLETION_BONUS_XP;
     }
     trackSessionCompleted({
       mode,
       questionCount: total,
       dominantCount: dominantCountRef.current,
     });
+    setSessionXp(sessionXpRef.current + bonus);
+    setDominantCount(dominantCountRef.current);
     setFinished(true);
   }, [alreadyCompletedToday, challenges, dailyDate, index, mode, sessionId, total]);
 
   if (finished) {
-    const patternIds = sessionPatternIds(challenges);
+    const footnote =
+      mode === "daily" ? (
+        <>
+          {claimedBonusThisRun
+            ? `Includes +${DAILY_COMPLETION_BONUS_XP} Insight XP for finishing the daily set.`
+            : "You already claimed today's completion bonus earlier."}{" "}
+          Current streak: {streak} day{streak === 1 ? "" : "s"}.
+        </>
+      ) : (
+        <>Practice does not affect your daily streak. Your Pattern Memory still updated.</>
+      );
+
     return (
-      <div className="relative mx-auto max-w-xl space-y-6 overflow-x-clip px-4 py-10 sm:px-6">
-        <SessionCompleteDelight mode={mode} patternIds={patternIds} />
-        <div className="relative z-20 space-y-6 pt-[min(52vw,20rem)] sm:pt-80">
-          <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted">
-            {mode === "daily" ? "Daily complete" : "Practice complete"}
-          </p>
-          <h1 className="font-display text-3xl font-semibold tracking-tight text-fg">
-            {mode === "daily" ? "Five recognitions logged." : "Session finished."}
-          </h1>
-          {mode === "daily" ? (
-            <p className="text-sm leading-relaxed text-muted">
-              {claimedBonusThisRun
-                ? `+${DAILY_COMPLETION_BONUS_XP} Insight XP for finishing the daily set.`
-                : "You already claimed today's completion bonus earlier."}{" "}
-              Current streak: {streak} day{streak === 1 ? "" : "s"}.
-            </p>
-          ) : (
-            <p className="text-sm leading-relaxed text-muted">
-              Practice does not affect your daily streak. Your Pattern Memory still updated.
-            </p>
-          )}
-          <div className="flex flex-wrap gap-3">
+      <SessionCompleteDelight
+        mode={mode}
+        patterns={sessionPatterns}
+        insightXp={sessionXp}
+        challengeCount={total}
+        dominantCount={dominantCount}
+        footnote={footnote}
+      >
+        <div className="flex flex-wrap gap-3">
+          <Link
+            href={gamePaths.patternRecognition}
+            className="inline-flex min-h-11 items-center justify-center rounded-md bg-fg px-5 text-sm font-medium text-bg"
+          >
+            Back to lobby
+          </Link>
+          {mode === "practice" ? (
             <Link
-              href={gamePaths.patternRecognition}
-              className="inline-flex min-h-11 items-center justify-center rounded-md bg-fg px-5 text-sm font-medium text-bg"
+              href={gamePaths.practice}
+              className="inline-flex min-h-11 items-center justify-center rounded-md border border-border px-5 text-sm font-medium text-fg"
             >
-              Back to lobby
+              Another practice set
             </Link>
-            {mode === "practice" ? (
-              <Link
-                href={gamePaths.practice}
-                className="inline-flex min-h-11 items-center justify-center rounded-md border border-border px-5 text-sm font-medium text-fg"
-              >
-                Another practice set
-              </Link>
-            ) : null}
-          </div>
+          ) : null}
         </div>
-      </div>
+      </SessionCompleteDelight>
     );
   }
 

@@ -1,11 +1,14 @@
 import { describe, expect, it } from "vitest";
 
 import {
+  CONSTELLATION_VIEWBOX,
   DELIGHT_DURATION_MS,
   V1_DELIGHT_VARIANT,
+  buildSessionPatterns,
   layoutConstellation,
+  resolveLabelPlacement,
   selectDelightVariant,
-  sessionPatternIds,
+  wrapPatternLabel,
 } from "./delight";
 
 describe("session completion delight helpers", () => {
@@ -14,35 +17,129 @@ describe("session completion delight helpers", () => {
     expect(selectDelightVariant()).toBe(V1_DELIGHT_VARIANT);
   });
 
-  it("keeps delight brief", () => {
-    expect(DELIGHT_DURATION_MS).toBeGreaterThanOrEqual(1200);
+  it("settles within roughly two seconds", () => {
+    expect(DELIGHT_DURATION_MS).toBeGreaterThanOrEqual(1800);
     expect(DELIGHT_DURATION_MS).toBeLessThanOrEqual(2200);
   });
 
-  it("dedupes dominant pattern ids and caps at five", () => {
-    const ids = sessionPatternIds([
-      { dominantPattern: "a" },
-      { dominantPattern: "b" },
-      { dominantPattern: "a" },
-      { dominantPattern: "c" },
-      { dominantPattern: "d" },
-      { dominantPattern: "e" },
-      { dominantPattern: "f" },
+  it("builds unique session patterns from dominants and secondaries", () => {
+    const patterns = buildSessionPatterns([
+      {
+        dominantPattern: "exceptions-are-forever",
+        secondaryPatterns: ["invisible-work"],
+        titleByPatternId: {
+          "exceptions-are-forever": "Exceptions Are Forever",
+          "invisible-work": "Invisible Work",
+        },
+      },
+      {
+        dominantPattern: "exceptions-are-forever",
+        secondaryPatterns: ["legibility"],
+        titleByPatternId: {
+          "exceptions-are-forever": "Exceptions Are Forever",
+          legibility: "Legibility",
+        },
+      },
+      {
+        dominantPattern: "boundary-conditions",
+        secondaryPatterns: [],
+        titleByPatternId: { "boundary-conditions": "Boundary Conditions" },
+      },
     ]);
-    expect(ids).toEqual(["a", "b", "c", "d", "e"]);
+
+    expect(patterns[0]?.id).toBe("exceptions-are-forever");
+    expect(patterns.map((p) => p.id)).toContain("invisible-work");
+    expect(patterns.map((p) => p.id)).toContain("legibility");
+    expect(patterns.map((p) => p.id)).toContain("boundary-conditions");
+    expect(patterns.length).toBeLessThanOrEqual(7);
   });
 
-  it("layouts a connected constellation for session patterns", () => {
-    const { nodes, edges } = layoutConstellation(["p1", "p2", "p3", "p4"]);
-    expect(nodes).toHaveLength(4);
-    expect(edges.length).toBeGreaterThanOrEqual(3);
-    for (const edge of edges) {
-      expect(nodes[edge.from]).toBeDefined();
-      expect(nodes[edge.to]).toBeDefined();
+  it("places edge labels inward and close to their nodes", () => {
+    const patterns = [
+      { id: "center", title: "Reality Answers Back", score: 9, isDominant: true },
+      { id: "left", title: "Invisible Work", score: 4, isDominant: true },
+      { id: "ul", title: "Legibility", score: 3, isDominant: false },
+      { id: "ur", title: "Boundary Conditions", score: 3, isDominant: false },
+      { id: "right", title: "Exceptions Are Forever", score: 3, isDominant: true },
+      { id: "lr", title: "Feedback Delay", score: 2, isDominant: false },
+      { id: "ll", title: "Disagreement is Suppression", score: 2, isDominant: false },
+    ];
+    const { nodes } = layoutConstellation(patterns);
+    expect(nodes).toHaveLength(7);
+
+    const byX = [...nodes].sort((a, b) => a.x - b.x);
+    const byY = [...nodes].sort((a, b) => a.y - b.y);
+    const left = byX[0]!;
+    const right = byX[byX.length - 1]!;
+    const top = byY[0]!;
+    const bottom = byY[byY.length - 1]!;
+    const center = nodes[0]!;
+
+    // Left edge → label inward (right / above-right)
+    expect(left.label.position).toMatch(/right/);
+    expect(left.label.x).toBeGreaterThan(left.x);
+    expect(left.label.anchor).toBe("start");
+
+    // Right edge → label inward (left / above-left / below-left)
+    expect(right.label.position).toMatch(/left/);
+    expect(right.label.x).toBeLessThan(right.x);
+    expect(right.label.anchor).toBe("end");
+
+    // Top → outside above
+    expect(top.label.position).toBe("above");
+    expect(top.label.y).toBeLessThan(top.y);
+
+    // Bottom labels stay near their nodes (below / beside / above depending on spokes).
+    const bottomLeft = nodes.find((n) => n.x < 120 && n.y > 200)!;
+    const bottomRight = nodes.find((n) => n.x > 200 && n.y > 200)!;
+    expect(bottomLeft.label.y).toBeGreaterThan(bottomLeft.y);
+    expect(bottomRight.label.position).toMatch(/right|above/);
+    expect(Math.hypot(bottom.label.x - bottom.x, bottom.label.y - bottom.y)).toBeLessThan(48);
+
+    // Center slot → below / below-left of hub, nearby
+    expect(center.label.position).toMatch(/^below/);
+    expect(center.label.y - center.y).toBeLessThan(44);
+
+    for (const node of nodes) {
+      expect(node.label.x).toBeGreaterThanOrEqual(8);
+      expect(node.label.x).toBeLessThanOrEqual(CONSTELLATION_VIEWBOX.width - 8);
+      expect(node.label.y).toBeGreaterThanOrEqual(8);
+      expect(node.label.y).toBeLessThanOrEqual(CONSTELLATION_VIEWBOX.height - 8);
+      // Labels stay near their node (not free-floating across the canvas).
+      const dx = Math.abs(node.label.x - node.x);
+      const dy = Math.abs(node.label.y - node.y);
+      expect(Math.hypot(dx, dy)).toBeLessThan(48);
     }
   });
 
-  it("falls back to a tiny default graph when empty", () => {
+  it("wraps long labels onto two lines before ellipsis", () => {
+    expect(wrapPatternLabel("Legibility")).toEqual(["Legibility"]);
+    const wrapped = wrapPatternLabel("Disagreement is Suppressed");
+    expect(wrapped.length).toBe(2);
+    expect(wrapped.join(" ")).not.toMatch(/…/);
+    expect(wrapped.every((line) => line.length <= 18)).toBe(true);
+
+    const authority = wrapPatternLabel("Authority Follows Attention");
+    expect(authority).toEqual(["Authority Follows", "Attention"]);
+    expect(authority.join(" ")).not.toMatch(/…/);
+
+    const veryLong = wrapPatternLabel("Responsibility Persists Beyond Control");
+    expect(veryLong.length).toBe(2);
+  });
+
+  it("resolveLabelPlacement clamps into the viewBox", () => {
+    const label = resolveLabelPlacement({
+      nodeX: 10,
+      nodeY: 150,
+      r: 6,
+      position: "left",
+      lines: ["Too Far Left"],
+    });
+    expect(label.x).toBeGreaterThanOrEqual(10);
+    expect(label.anchor).toBe("end");
+  });
+
+  it("falls back to a small default graph when empty", () => {
     const { nodes, edges } = layoutConstellation([]);
     expect(nodes.length).toBeGreaterThanOrEqual(3);
     expect(edges.length).toBeGreaterThanOrEqual(2);

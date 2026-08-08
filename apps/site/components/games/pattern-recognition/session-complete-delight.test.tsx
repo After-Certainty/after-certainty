@@ -1,5 +1,5 @@
-import { act, render, screen } from "@testing-library/react";
-import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { render, screen } from "@testing-library/react";
+import { beforeEach, describe, expect, it, vi } from "vitest";
 
 const useReducedMotion = vi.fn(() => false);
 
@@ -29,11 +29,13 @@ vi.mock("framer-motion", async () => {
   return {
     motion: {
       div: passthrough("div"),
+      p: passthrough("p"),
+      dl: passthrough("dl"),
       svg: passthrough("svg"),
       g: passthrough("g"),
-      ellipse: passthrough("ellipse"),
       circle: passthrough("circle"),
       path: passthrough("path"),
+      text: passthrough("text"),
     },
     useReducedMotion: () => useReducedMotion(),
   };
@@ -47,50 +49,76 @@ import { trackSessionDelightShown } from "@/lib/games/pattern-recognition/analyt
 
 import { SessionCompleteDelight } from "./session-complete-delight";
 
+const samplePatterns = [
+  { id: "exceptions-are-forever", title: "Exceptions Are Forever", score: 6, isDominant: true },
+  { id: "invisible-work", title: "Invisible Work", score: 2, isDominant: false },
+  { id: "legibility", title: "Legibility", score: 2, isDominant: false },
+  { id: "boundary-conditions", title: "Boundary Conditions", score: 3, isDominant: true },
+  { id: "feedback-delay", title: "Feedback Delay", score: 1, isDominant: false },
+];
+
 describe("SessionCompleteDelight", () => {
   beforeEach(() => {
     useReducedMotion.mockReturnValue(false);
     vi.mocked(trackSessionDelightShown).mockClear();
-    vi.useFakeTimers();
   });
 
-  afterEach(() => {
-    vi.useRealTimers();
-  });
-
-  it("renders a non-interactive decorative constellation overlay", () => {
+  it("renders sequenced results with a non-blocking constellation and CTAs", () => {
     render(
-      <SessionCompleteDelight mode="daily" patternIds={["alpha", "beta", "gamma"]} />,
+      <SessionCompleteDelight
+        mode="daily"
+        patterns={samplePatterns}
+        insightXp={125}
+        challengeCount={5}
+        dominantCount={4}
+      >
+        <a href="/games/pattern-recognition">Back to lobby</a>
+      </SessionCompleteDelight>,
     );
 
-    const overlay = screen.getByTestId("session-complete-delight");
-    expect(overlay).toHaveAttribute("aria-hidden", "true");
-    expect(overlay).toHaveAttribute("role", "presentation");
-    expect(overlay).toHaveAttribute("data-variant", "pattern-constellation");
-    expect(overlay.className).toContain("pointer-events-none");
+    const root = screen.getByTestId("session-complete-delight");
+    expect(root).toHaveAttribute("data-variant", "pattern-constellation");
+    expect(screen.getByText("Session complete")).toBeInTheDocument();
+    expect(screen.getByTestId("session-insight-xp")).toHaveTextContent("+125 Insight XP");
+    expect(screen.getByText("Patterns travel.")).toBeInTheDocument();
+    expect(screen.getByTestId("session-complete-stats")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "Back to lobby" })).toBeInTheDocument();
+    expect(root.querySelector("[aria-hidden='true']")?.className).toContain("pointer-events-none");
     expect(trackSessionDelightShown).toHaveBeenCalledWith({
       variantId: "pattern-constellation",
       mode: "daily",
     });
   });
 
-  it("uses a reduced-motion path without long-lived motion markup requirements", () => {
+  it("renders a stable constellation under reduced motion", () => {
     useReducedMotion.mockReturnValue(true);
-    render(<SessionCompleteDelight mode="practice" patternIds={["alpha"]} />);
+    render(
+      <SessionCompleteDelight
+        mode="practice"
+        patterns={samplePatterns}
+        insightXp={40}
+        challengeCount={5}
+        dominantCount={2}
+      />,
+    );
 
-    const overlay = screen.getByTestId("session-complete-delight");
-    expect(overlay).toHaveAttribute("data-reduced-motion", "true");
-    expect(overlay.querySelectorAll("circle").length).toBeGreaterThan(0);
+    const root = screen.getByTestId("session-complete-delight");
+    expect(root).toHaveAttribute("data-reduced-motion", "true");
+    expect(root.querySelectorAll("circle").length).toBeGreaterThan(0);
+    expect(screen.getByText("Patterns travel.")).toBeInTheDocument();
   });
 
-  it("self-cleans after the delight duration", () => {
-    const { queryByTestId } = render(
-      <SessionCompleteDelight mode="daily" patternIds={["alpha", "beta"]} />,
+  it("keeps the constellation mounted after the sequence settles", () => {
+    render(
+      <SessionCompleteDelight
+        mode="daily"
+        patterns={samplePatterns}
+        insightXp={80}
+        challengeCount={5}
+        dominantCount={3}
+      />,
     );
-    expect(queryByTestId("session-complete-delight")).toBeTruthy();
-    act(() => {
-      vi.advanceTimersByTime(2000);
-    });
-    expect(queryByTestId("session-complete-delight")).toBeNull();
+    expect(screen.getByTestId("session-complete-delight")).toBeInTheDocument();
+    expect(screen.getByText("Patterns travel.")).toBeInTheDocument();
   });
 });
