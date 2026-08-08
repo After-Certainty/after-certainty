@@ -185,15 +185,15 @@ export function resolveLabelPlacement(input: {
 
   switch (position) {
     case "right":
-      // Stack above the hub spoke: last line ~8px above node center.
+      // Stack above the hub spoke: last line ~12px above node center.
       x = nodeX + reach;
-      y = nodeY - 8 - (lines.length > 1 ? (lines.length - 1) * LABEL_LINE_HEIGHT : 0);
+      y = nodeY - 12 - (lines.length > 1 ? (lines.length - 1) * LABEL_LINE_HEIGHT : 0);
       anchor = "start";
       baseline = "auto";
       break;
     case "left":
       x = nodeX - reach;
-      y = nodeY - 8 - (lines.length > 1 ? (lines.length - 1) * LABEL_LINE_HEIGHT : 0);
+      y = nodeY - 12 - (lines.length > 1 ? (lines.length - 1) * LABEL_LINE_HEIGHT : 0);
       anchor = "end";
       baseline = "auto";
       break;
@@ -372,18 +372,19 @@ const SLOTS_BY_COUNT: Record<number, readonly Slot[]> = {
     { x: 240, y: 235, labelPosition: "above", labelNudge: { x: 10 } },
   ],
   7: [
-    // Hub: close below, in the open pocket (no spoke to lower-left).
-    { x: 175, y: 140, labelPosition: "below", labelNudge: { y: 2 } },
-    // Far-left: inward/right, lifted above the hub spoke.
-    { x: 48, y: 145, labelPosition: "right", labelNudge: { x: 1, y: -2 } },
+    // Hub: drop into the open lower-left pocket (no spoke toward bottom-left).
+    { x: 175, y: 140, labelPosition: "below-left", labelNudge: { x: -6, y: 4 } },
+    // Far-left: inward/right, stacked above the hub spoke.
+    { x: 48, y: 145, labelPosition: "right", labelNudge: { x: 2, y: -4 } },
     // Top: outside above, slight outward flare so two-line blocks clear nodes.
     { x: 105, y: 58, labelPosition: "above", labelNudge: { x: -10, y: -1 } },
     { x: 255, y: 48, labelPosition: "above", labelNudge: { x: 10, y: -1 } },
-    // Far-right: inward/left, lifted above the hub spoke.
-    { x: 312, y: 150, labelPosition: "left", labelNudge: { x: -1, y: -2 } },
-    // Bottom: upward / inward — BR flares right of the hub→BR spoke.
-    { x: 245, y: 238, labelPosition: "above", labelNudge: { x: 22, y: -1 } },
-    { x: 95, y: 230, labelPosition: "above-right", labelNudge: { x: 4, y: -1 } },
+    // Far-right: inward/left, stacked above the hub spoke (extra lift).
+    { x: 312, y: 150, labelPosition: "left", labelNudge: { x: -2, y: -6 } },
+    // Bottom-right: spokes above fan through the upper pocket — sit beside the node.
+    { x: 245, y: 238, labelPosition: "right", labelNudge: { x: 2, y: 14 } },
+    // Bottom-left: upward into the open wedge (no hub spoke).
+    { x: 95, y: 230, labelPosition: "above-right", labelNudge: { x: 6, y: -2 } },
   ],
 };
 

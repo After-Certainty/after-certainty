@@ -89,13 +89,15 @@ describe("session completion delight helpers", () => {
     expect(top.label.position).toBe("above");
     expect(top.label.y).toBeLessThan(top.y);
 
-    // Bottom → upward / inward (above or diagonal above)
-    expect(bottom.label.position).toMatch(/^above/);
-    expect(bottom.label.y).toBeLessThan(bottom.y);
+    // Bottom-left annotates upward; bottom-right may sit beside when spokes fill the upper pocket.
+    const bottomLeft = byX[0]!.y > 200 ? byX[0]! : nodes.find((n) => n.x < 120 && n.y > 200)!;
+    expect(bottomLeft.label.position).toMatch(/^above/);
+    expect(bottomLeft.label.y).toBeLessThan(bottomLeft.y);
+    expect(bottom.label.y).toBeGreaterThan(bottom.y - 48);
 
-    // Center slot → below the hub, nearby
+    // Center slot → below / below-left of hub, nearby
     expect(center.label.position).toMatch(/^below/);
-    expect(center.label.y - center.y).toBeLessThan(40);
+    expect(center.label.y - center.y).toBeLessThan(44);
 
     for (const node of nodes) {
       expect(node.label.x).toBeGreaterThanOrEqual(8);
