@@ -45,6 +45,13 @@ function toViewModel(challenge: EnrichedChallenge) {
     dominantPatternHref: challenge.dominantPatternHref,
     relatedBookHref: challenge.relatedBookHref,
     relatedBookTitle: challenge.relatedBookTitle,
+    relatedChapterHref: challenge.relatedChapterHref,
+    relatedChapterTitle: challenge.relatedChapterTitle,
+    relatedPodcastHref: challenge.relatedPodcastHref,
+    relatedPodcastTitle: challenge.relatedPodcastTitle,
+    relatedPodcastExternal: challenge.relatedPodcastExternal,
+    relatedSituationHref: challenge.relatedSituationHref,
+    relatedSituationTitle: challenge.relatedSituationTitle,
   };
 }
 
