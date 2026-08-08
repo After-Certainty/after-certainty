@@ -1,6 +1,6 @@
 # Pattern Recognition Challenge — Implementation Roadmap
 
-**Status:** Active specialized plan — `GAME-001a`–`GAME-001d` shipped; next **MVP polish** Session Completion Delight (`GAME-001e` / Phase 7b); enjoyability pause before Phase 8–9  
+**Status:** Active specialized plan — `GAME-001a`–`GAME-001d` shipped; `GAME-001e` Session Completion Delight in progress; enjoyability pause before Phase 8–9  
 **Created:** 2026-08-07  
 **Revised:** 2026-08-08  
 **Location:** `docs/roadmaps/pattern-recognition-challenge.md`  
@@ -1046,7 +1046,7 @@ When adding a challenge:
 
 ### Next vertical slices
 
-1. **`GAME-001e`** — Phase 7b Session Completion Delight (MVP polish; one Pattern Constellation variant).  
+1. **`GAME-001e`** — Phase 7b Session Completion Delight (MVP polish; one Pattern Constellation variant) — **in progress**.  
 
 **`GAME-001e` includes:**
 

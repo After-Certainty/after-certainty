@@ -1,5 +1,6 @@
 import { AnalyticsEvents } from "@/lib/analytics/events";
 import { trackEvent } from "@/lib/analytics/track";
+import type { DelightVariantId } from "@/lib/games/pattern-recognition/delight";
 
 export const PATTERN_RECOGNITION_GAME_ID = "pattern_recognition";
 
@@ -69,6 +70,18 @@ export function trackSessionCompleted(input: {
     mode: input.mode,
     question_count_bucket: countBucket(input.questionCount),
     dominant_count_bucket: countBucket(input.dominantCount),
+  });
+}
+
+/** Optional cosmetic event — IDs only, never pattern titles. */
+export function trackSessionDelightShown(input: {
+  variantId: DelightVariantId;
+  mode: Exclude<GameMode, "single">;
+}): void {
+  trackEvent(AnalyticsEvents.sessionDelightShown, {
+    game_id: PATTERN_RECOGNITION_GAME_ID,
+    variant_id: input.variantId,
+    mode: input.mode,
   });
 }
 

@@ -324,6 +324,7 @@ export const AnalyticsEvents = {
   challengeCompleted: "challenge_completed",
   relatedContentOpened: "related_content_opened",
   sessionCompleted: "session_completed",
+  sessionDelightShown: "session_delight_shown",
 } as const;
 
 export type AnalyticsEventName = (typeof AnalyticsEvents)[keyof typeof AnalyticsEvents];

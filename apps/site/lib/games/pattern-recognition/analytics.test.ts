@@ -16,6 +16,7 @@ import {
   trackGameStarted,
   trackRelatedContentOpened,
   trackSessionCompleted,
+  trackSessionDelightShown,
 } from "./analytics";
 
 describe("pattern recognition analytics", () => {
@@ -52,6 +53,7 @@ describe("pattern recognition analytics", () => {
       itemId: "exceptions-are-forever",
     });
     trackSessionCompleted({ mode: "daily", questionCount: 5, dominantCount: 2 });
+    trackSessionDelightShown({ variantId: "pattern-constellation", mode: "daily" });
 
     expect(sendGAEvent).toHaveBeenCalledWith("event", "game_started", {
       game_id: PATTERN_RECOGNITION_GAME_ID,
@@ -71,6 +73,11 @@ describe("pattern recognition analytics", () => {
       mode: "daily",
       question_count_bucket: "5",
       dominant_count_bucket: "2",
+    });
+    expect(sendGAEvent).toHaveBeenCalledWith("event", "session_delight_shown", {
+      game_id: PATTERN_RECOGNITION_GAME_ID,
+      variant_id: "pattern-constellation",
+      mode: "daily",
     });
 
     const payloads = vi.mocked(sendGAEvent).mock.calls.map((call) => call[2] as Record<string, unknown>);
