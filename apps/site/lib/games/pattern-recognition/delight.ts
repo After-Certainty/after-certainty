@@ -42,6 +42,16 @@ export type SessionPatternInput = {
   isDominant: boolean;
 };
 
+export type LabelPosition =
+  | "above"
+  | "below"
+  | "left"
+  | "right"
+  | "above-left"
+  | "above-right"
+  | "below-left"
+  | "below-right";
+
 export type ConstellationNode = {
   id: string;
   title: string;
@@ -50,13 +60,16 @@ export type ConstellationNode = {
   /** Circle radius in viewBox units. */
   r: number;
   isDominant: boolean;
-  /** Label placement relative to the node. */
+  /** Resolved label placement (close to the node, inward at edges). */
   label: {
+    position: LabelPosition;
     x: number;
     y: number;
     anchor: "start" | "middle" | "end";
-    /** Hide on the narrowest viewports when crowded. */
-    optional?: boolean;
+    /** SVG dominant-baseline. */
+    baseline: "auto" | "middle" | "hanging";
+    /** One or two display lines. */
+    lines: string[];
   };
 };
 
@@ -70,11 +83,175 @@ export function selectDelightVariant(): DelightVariantId {
   return V1_DELIGHT_VARIANT;
 }
 
-/** Truncate pattern titles for SVG labels on mobile. */
+const LABEL_GAP = 13;
+const LABEL_LINE_HEIGHT = 12;
+const LABEL_PAD = 10;
+const LABEL_MAX_LINE_CHARS = 15;
+
+/**
+ * Prefer full title → two-line wrap at a word boundary → ellipsis only as last resort.
+ */
+export function wrapPatternLabel(
+  title: string,
+  maxCharsPerLine = LABEL_MAX_LINE_CHARS,
+): string[] {
+  const trimmed = title.trim().replace(/\s+/g, " ");
+  if (!trimmed) return [""];
+  if (trimmed.length <= maxCharsPerLine) return [trimmed];
+
+  const words = trimmed.split(" ");
+  if (words.length === 1) {
+    // Single long token — soft split, ellipsis only if still too long for two lines.
+    const first = trimmed.slice(0, maxCharsPerLine);
+    const rest = trimmed.slice(maxCharsPerLine);
+    if (rest.length <= maxCharsPerLine) return [first, rest];
+    return [first, `${rest.slice(0, maxCharsPerLine - 1)}…`];
+  }
+
+  let best = 1;
+  let bestScore = Number.POSITIVE_INFINITY;
+  for (let split = 1; split < words.length; split += 1) {
+    const a = words.slice(0, split).join(" ");
+    const b = words.slice(split).join(" ");
+    if (a.length > maxCharsPerLine + 2) continue;
+    const overflow = Math.max(0, a.length - maxCharsPerLine) + Math.max(0, b.length - maxCharsPerLine);
+    const balance = Math.abs(a.length - b.length);
+    const score = overflow * 20 + balance;
+    if (score < bestScore) {
+      bestScore = score;
+      best = split;
+    }
+  }
+
+  const line1 = words.slice(0, best).join(" ");
+  let line2 = words.slice(best).join(" ");
+  if (line2.length > maxCharsPerLine) {
+    line2 = `${line2.slice(0, maxCharsPerLine - 1).trimEnd()}…`;
+  }
+  return [line1, line2];
+}
+
+/** @deprecated Prefer {@link wrapPatternLabel}. */
 export function shortenPatternLabel(title: string, maxChars = 22): string {
-  const trimmed = title.trim();
-  if (trimmed.length <= maxChars) return trimmed;
-  return `${trimmed.slice(0, Math.max(1, maxChars - 1)).trimEnd()}…`;
+  const lines = wrapPatternLabel(title, Math.min(maxChars, LABEL_MAX_LINE_CHARS));
+  return lines.join(" ");
+}
+
+/**
+ * Place a label close to its node (~10–18px gap), with anchors suited to direction.
+ * Clamps into the viewBox so mobile edges never clip.
+ */
+export function resolveLabelPlacement(input: {
+  nodeX: number;
+  nodeY: number;
+  r: number;
+  position: LabelPosition;
+  lines: readonly string[];
+  viewWidth?: number;
+  viewHeight?: number;
+}): ConstellationNode["label"] {
+  const {
+    nodeX,
+    nodeY,
+    r,
+    position,
+    lines,
+    viewWidth = CONSTELLATION_VIEWBOX.width,
+    viewHeight = CONSTELLATION_VIEWBOX.height,
+  } = input;
+  const gap = LABEL_GAP;
+  const blockHeight = Math.max(1, lines.length) * LABEL_LINE_HEIGHT;
+  const reach = r + gap;
+
+  let x = nodeX;
+  let y = nodeY;
+  let anchor: "start" | "middle" | "end" = "middle";
+  let baseline: "auto" | "middle" | "hanging" = "middle";
+
+  switch (position) {
+    case "right":
+      x = nodeX + reach;
+      y = nodeY - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.35 : 0);
+      anchor = "start";
+      baseline = "middle";
+      break;
+    case "left":
+      x = nodeX - reach;
+      y = nodeY - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.35 : 0);
+      anchor = "end";
+      baseline = "middle";
+      break;
+    case "below":
+      x = nodeX;
+      y = nodeY + reach;
+      anchor = "middle";
+      baseline = "hanging";
+      break;
+    case "above":
+      x = nodeX;
+      y = nodeY - reach - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
+      anchor = "middle";
+      baseline = "auto";
+      break;
+    case "below-right":
+      x = nodeX + r * 0.35 + 8;
+      y = nodeY + reach;
+      anchor = "start";
+      baseline = "hanging";
+      break;
+    case "below-left":
+      x = nodeX - r * 0.35 - 8;
+      y = nodeY + reach;
+      anchor = "end";
+      baseline = "hanging";
+      break;
+    case "above-right":
+      x = nodeX + r * 0.35 + 8;
+      y = nodeY - reach - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
+      anchor = "start";
+      baseline = "auto";
+      break;
+    case "above-left":
+      x = nodeX - r * 0.35 - 8;
+      y = nodeY - reach - (lines.length > 1 ? blockHeight - LABEL_LINE_HEIGHT : 0);
+      anchor = "end";
+      baseline = "auto";
+      break;
+    default:
+      break;
+  }
+
+  // Keep text inside the SVG — prefer inward clamp over clipping.
+  const maxLineLen = Math.max(...lines.map((line) => line.length), 1);
+  const approxHalfWidth = maxLineLen * 3.1;
+  if (anchor === "start") {
+    x = Math.min(x, viewWidth - LABEL_PAD - 4);
+    x = Math.max(x, LABEL_PAD);
+  } else if (anchor === "end") {
+    x = Math.max(x, LABEL_PAD + 4);
+    x = Math.min(x, viewWidth - LABEL_PAD);
+  } else {
+    x = Math.min(Math.max(x, LABEL_PAD + approxHalfWidth), viewWidth - LABEL_PAD - approxHalfWidth);
+  }
+
+  const minY =
+    baseline === "hanging" ? LABEL_PAD : baseline === "middle" ? LABEL_PAD + 6 : LABEL_PAD + 10;
+  const maxY =
+    baseline === "hanging"
+      ? viewHeight - LABEL_PAD - blockHeight
+      : baseline === "middle"
+        ? viewHeight - LABEL_PAD - blockHeight * 0.5
+        : viewHeight - LABEL_PAD;
+  y = Math.min(Math.max(y, minY), maxY);
+
+  return {
+    position,
+    x,
+    y,
+    anchor,
+    baseline,
+    lines: [...lines],
+  };
 }
 
 /**
@@ -130,53 +307,55 @@ export function sessionPatternIds(
 type Slot = {
   x: number;
   y: number;
-  label: ConstellationNode["label"];
+  /** Intentional annotation direction — edge nodes face inward. */
+  labelPosition: LabelPosition;
 };
 
 /**
  * Deliberate constellation slots — irregular night-sky composition, not a grid.
  * Index 0 is reserved for the visually dominant / highest-score pattern (center).
+ * Node coordinates are unchanged; only label directions are assigned here.
  */
 const SLOTS_BY_COUNT: Record<number, readonly Slot[]> = {
-  1: [{ x: 180, y: 150, label: { x: 180, y: 178, anchor: "middle" } }],
+  1: [{ x: 180, y: 150, labelPosition: "below" }],
   2: [
-    { x: 180, y: 130, label: { x: 180, y: 158, anchor: "middle" } },
-    { x: 250, y: 190, label: { x: 268, y: 198, anchor: "start" } },
+    { x: 180, y: 130, labelPosition: "below" },
+    { x: 250, y: 190, labelPosition: "above-left" },
   ],
   3: [
-    { x: 180, y: 140, label: { x: 180, y: 168, anchor: "middle" } },
-    { x: 70, y: 150, label: { x: 54, y: 156, anchor: "end" } },
-    { x: 290, y: 120, label: { x: 306, y: 126, anchor: "start" } },
+    { x: 180, y: 140, labelPosition: "below" },
+    { x: 70, y: 150, labelPosition: "right" },
+    { x: 290, y: 120, labelPosition: "left" },
   ],
   4: [
-    { x: 175, y: 145, label: { x: 175, y: 172, anchor: "middle" } },
-    { x: 60, y: 155, label: { x: 44, y: 160, anchor: "end" } },
-    { x: 120, y: 70, label: { x: 120, y: 52, anchor: "middle" } },
-    { x: 295, y: 130, label: { x: 312, y: 136, anchor: "start" } },
+    { x: 175, y: 145, labelPosition: "below" },
+    { x: 60, y: 155, labelPosition: "right" },
+    { x: 120, y: 70, labelPosition: "below-right" },
+    { x: 295, y: 130, labelPosition: "left" },
   ],
   5: [
-    { x: 175, y: 145, label: { x: 175, y: 172, anchor: "middle" } },
-    { x: 55, y: 150, label: { x: 40, y: 156, anchor: "end" } },
-    { x: 115, y: 65, label: { x: 115, y: 48, anchor: "middle" } },
-    { x: 265, y: 55, label: { x: 280, y: 48, anchor: "start" } },
-    { x: 300, y: 160, label: { x: 316, y: 166, anchor: "start" } },
+    { x: 175, y: 145, labelPosition: "below" },
+    { x: 55, y: 150, labelPosition: "right" },
+    { x: 115, y: 65, labelPosition: "below-right" },
+    { x: 265, y: 55, labelPosition: "below-left" },
+    { x: 300, y: 160, labelPosition: "left" },
   ],
   6: [
-    { x: 175, y: 145, label: { x: 175, y: 172, anchor: "middle" } },
-    { x: 52, y: 148, label: { x: 38, y: 154, anchor: "end" } },
-    { x: 110, y: 62, label: { x: 110, y: 46, anchor: "middle" } },
-    { x: 260, y: 52, label: { x: 278, y: 46, anchor: "start" } },
-    { x: 305, y: 155, label: { x: 320, y: 160, anchor: "start" } },
-    { x: 240, y: 235, label: { x: 255, y: 252, anchor: "start", optional: true } },
+    { x: 175, y: 145, labelPosition: "below" },
+    { x: 52, y: 148, labelPosition: "right" },
+    { x: 110, y: 62, labelPosition: "below-right" },
+    { x: 260, y: 52, labelPosition: "below-left" },
+    { x: 305, y: 155, labelPosition: "left" },
+    { x: 240, y: 235, labelPosition: "above-left" },
   ],
   7: [
-    { x: 175, y: 140, label: { x: 175, y: 166, anchor: "middle" } },
-    { x: 48, y: 145, label: { x: 34, y: 150, anchor: "end" } },
-    { x: 105, y: 58, label: { x: 105, y: 42, anchor: "middle" } },
-    { x: 255, y: 48, label: { x: 272, y: 42, anchor: "start" } },
-    { x: 312, y: 150, label: { x: 328, y: 156, anchor: "start" } },
-    { x: 245, y: 238, label: { x: 260, y: 255, anchor: "start", optional: true } },
-    { x: 95, y: 230, label: { x: 80, y: 248, anchor: "end", optional: true } },
+    { x: 175, y: 140, labelPosition: "below" },
+    { x: 48, y: 145, labelPosition: "right" },
+    { x: 105, y: 58, labelPosition: "below-right" },
+    { x: 255, y: 48, labelPosition: "below-left" },
+    { x: 312, y: 150, labelPosition: "left" },
+    { x: 245, y: 238, labelPosition: "above-left" },
+    { x: 95, y: 230, labelPosition: "above-right" },
   ],
 };
 
@@ -258,14 +437,22 @@ export function layoutConstellation(patterns: readonly SessionPatternInput[]): {
 
   const nodes: ConstellationNode[] = sorted.slice(0, count).map((pattern, i) => {
     const slot = slots[i] ?? slots[0]!;
+    const r = nodeRadius(pattern, i === 0);
+    const lines = wrapPatternLabel(pattern.title);
     return {
       id: pattern.id,
       title: pattern.title,
       x: slot.x,
       y: slot.y,
-      r: nodeRadius(pattern, i === 0),
+      r,
       isDominant: pattern.isDominant || i === 0,
-      label: slot.label,
+      label: resolveLabelPlacement({
+        nodeX: slot.x,
+        nodeY: slot.y,
+        r,
+        position: slot.labelPosition,
+        lines,
+      }),
     };
   });
 

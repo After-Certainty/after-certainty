@@ -1,12 +1,14 @@
 import { describe, expect, it } from "vitest";
 
 import {
+  CONSTELLATION_VIEWBOX,
   DELIGHT_DURATION_MS,
   V1_DELIGHT_VARIANT,
   buildSessionPatterns,
   layoutConstellation,
+  resolveLabelPlacement,
   selectDelightVariant,
-  shortenPatternLabel,
+  wrapPatternLabel,
 } from "./delight";
 
 describe("session completion delight helpers", () => {
@@ -52,49 +54,87 @@ describe("session completion delight helpers", () => {
     expect(patterns.length).toBeLessThanOrEqual(7);
   });
 
-  it("layouts a deliberate sparse constellation with labels", () => {
-    const patterns = buildSessionPatterns([
-      {
-        dominantPattern: "a",
-        secondaryPatterns: ["b", "c"],
-        titleByPatternId: { a: "A", b: "B", c: "C" },
-      },
-      {
-        dominantPattern: "d",
-        secondaryPatterns: ["e"],
-        titleByPatternId: { d: "D", e: "E" },
-      },
-      {
-        dominantPattern: "f",
-        secondaryPatterns: [],
-        titleByPatternId: { f: "F" },
-      },
-    ]);
-    const { nodes, edges } = layoutConstellation(patterns);
-    expect(nodes.length).toBeGreaterThanOrEqual(5);
-    expect(nodes.length).toBeLessThanOrEqual(7);
-    expect(edges.length).toBeGreaterThanOrEqual(4);
-    expect(edges.length).toBeLessThanOrEqual(9);
-    // Central / highest-score node is first slot and larger.
-    expect(nodes[0]!.r).toBeGreaterThanOrEqual(7);
+  it("places edge labels inward and close to their nodes", () => {
+    const patterns = [
+      { id: "center", title: "Reality Answers Back", score: 9, isDominant: true },
+      { id: "left", title: "Invisible Work", score: 4, isDominant: true },
+      { id: "ul", title: "Legibility", score: 3, isDominant: false },
+      { id: "ur", title: "Boundary Conditions", score: 3, isDominant: false },
+      { id: "right", title: "Exceptions Are Forever", score: 3, isDominant: true },
+      { id: "lr", title: "Feedback Delay", score: 2, isDominant: false },
+      { id: "ll", title: "Disagreement is Suppression", score: 2, isDominant: false },
+    ];
+    const { nodes } = layoutConstellation(patterns);
+    expect(nodes).toHaveLength(7);
+
+    const byX = [...nodes].sort((a, b) => a.x - b.x);
+    const byY = [...nodes].sort((a, b) => a.y - b.y);
+    const left = byX[0]!;
+    const right = byX[byX.length - 1]!;
+    const top = byY[0]!;
+    const bottom = byY[byY.length - 1]!;
+    const center = nodes[0]!;
+
+    // Left edge → label to the right (inward)
+    expect(left.label.position).toBe("right");
+    expect(left.label.x).toBeGreaterThan(left.x);
+    expect(left.label.anchor).toBe("start");
+
+    // Right edge → label to the left (inward)
+    expect(right.label.position).toBe("left");
+    expect(right.label.x).toBeLessThan(right.x);
+    expect(right.label.anchor).toBe("end");
+
+    // Top → below / diagonal inward
+    expect(top.label.position).toMatch(/^below/);
+    expect(top.label.y).toBeGreaterThan(top.y);
+
+    // Bottom → above / diagonal inward
+    expect(bottom.label.position).toMatch(/^above/);
+    expect(bottom.label.y).toBeLessThan(bottom.y);
+
+    // Center slot → below, nearby
+    expect(center.label.position).toBe("below");
+    expect(center.label.y - center.y).toBeLessThan(40);
+
     for (const node of nodes) {
-      expect(node.label).toBeDefined();
-      expect(node.title.length).toBeGreaterThan(0);
+      expect(node.label.x).toBeGreaterThanOrEqual(8);
+      expect(node.label.x).toBeLessThanOrEqual(CONSTELLATION_VIEWBOX.width - 8);
+      expect(node.label.y).toBeGreaterThanOrEqual(8);
+      expect(node.label.y).toBeLessThanOrEqual(CONSTELLATION_VIEWBOX.height - 8);
+      // Labels stay near their node (not free-floating across the canvas).
+      const dx = Math.abs(node.label.x - node.x);
+      const dy = Math.abs(node.label.y - node.y);
+      expect(Math.hypot(dx, dy)).toBeLessThan(56);
     }
-    for (const edge of edges) {
-      expect(nodes[edge.from]).toBeDefined();
-      expect(nodes[edge.to]).toBeDefined();
-    }
+  });
+
+  it("wraps long labels onto two lines before ellipsis", () => {
+    expect(wrapPatternLabel("Legibility")).toEqual(["Legibility"]);
+    const wrapped = wrapPatternLabel("Disagreement is Suppression");
+    expect(wrapped.length).toBe(2);
+    expect(wrapped.join(" ")).not.toMatch(/…/);
+    expect(wrapped.every((line) => line.length <= 16)).toBe(true);
+
+    const veryLong = wrapPatternLabel("Responsibility Persists Beyond Control");
+    expect(veryLong.length).toBe(2);
+  });
+
+  it("resolveLabelPlacement clamps into the viewBox", () => {
+    const label = resolveLabelPlacement({
+      nodeX: 10,
+      nodeY: 150,
+      r: 6,
+      position: "left",
+      lines: ["Too Far Left"],
+    });
+    expect(label.x).toBeGreaterThanOrEqual(10);
+    expect(label.anchor).toBe("end");
   });
 
   it("falls back to a small default graph when empty", () => {
     const { nodes, edges } = layoutConstellation([]);
     expect(nodes.length).toBeGreaterThanOrEqual(3);
     expect(edges.length).toBeGreaterThanOrEqual(2);
-  });
-
-  it("shortens long labels for mobile SVG text", () => {
-    expect(shortenPatternLabel("Short")).toBe("Short");
-    expect(shortenPatternLabel("A Very Long Pattern Title Indeed").endsWith("…")).toBe(true);
   });
 });

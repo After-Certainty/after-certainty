@@ -9,9 +9,10 @@ import {
   CONSTELLATION_VIEWBOX,
   layoutConstellation,
   selectDelightVariant,
-  shortenPatternLabel,
   type SessionPatternInput,
 } from "@/lib/games/pattern-recognition/delight";
+
+const LABEL_LINE_HEIGHT = 12;
 
 type SessionCompleteDelightProps = {
   mode: SessionMode;
@@ -226,32 +227,71 @@ function PatternConstellation({
         />
       ))}
 
-      {nodes.map((node, i) => {
-        return (
-          <motion.text
-            key={`label-${node.id}`}
-            x={node.label.x}
-            y={node.label.y}
-            textAnchor={node.label.anchor}
-            className={
-              node.label.optional
-                ? "max-sm:hidden fill-current text-[11px]"
-                : "fill-current text-[11px]"
-            }
-            style={{ fill: "var(--muted)" }}
-            initial={{ opacity: 0, y: node.label.y + 4 }}
-            animate={{ opacity: 0.85, y: node.label.y }}
-            transition={{
-              duration: 0.4,
-              delay: 1.18 + i * 0.04,
-              ease: easeOut,
-            }}
-          >
-            {shortenPatternLabel(node.title)}
-          </motion.text>
-        );
-      })}
+      {nodes.map((node, i) => (
+        <ConstellationLabel
+          key={`label-${node.id}`}
+          node={node}
+          animate
+          delay={1.18 + i * 0.04}
+        />
+      ))}
     </svg>
+  );
+}
+
+function ConstellationLabel({
+  node,
+  animate,
+  delay = 0,
+}: {
+  node: ReturnType<typeof layoutConstellation>["nodes"][number];
+  animate?: boolean;
+  delay?: number;
+}) {
+  const { label } = node;
+  const textProps = {
+    x: label.x,
+    textAnchor: label.anchor,
+    className: "fill-current text-[11px]",
+    style: {
+      fill: "var(--muted)",
+      dominantBaseline: label.baseline,
+    } as const,
+  };
+
+  if (!animate) {
+    return (
+      <text {...textProps} y={label.y} opacity={0.85}>
+        {label.lines.map((line, lineIndex) => (
+          <tspan
+            key={`${node.id}-line-${lineIndex}`}
+            x={label.x}
+            dy={lineIndex === 0 ? 0 : LABEL_LINE_HEIGHT}
+          >
+            {line}
+          </tspan>
+        ))}
+      </text>
+    );
+  }
+
+  return (
+    <motion.text
+      {...textProps}
+      initial={{ opacity: 0, y: label.y + 4 }}
+      animate={{ opacity: 0.85, y: label.y }}
+      transition={{ duration: 0.4, delay, ease: easeOut }}
+    >
+      {label.lines.map((line, lineIndex) => (
+        <tspan
+          key={`${node.id}-line-${lineIndex}`}
+          x={label.x}
+          dy={lineIndex === 0 ? 0 : LABEL_LINE_HEIGHT}
+        >
+          {line}
+        </tspan>
+      ))}
+    </motion.text>
   );
 }
 
@@ -296,20 +336,7 @@ function ConstellationStatic({
       ))}
       {showLabels
         ? nodes.map((node) => (
-            <text
-              key={`label-${node.id}`}
-              x={node.label.x}
-              y={node.label.y}
-              textAnchor={node.label.anchor}
-              className={
-                node.label.optional
-                  ? "max-sm:hidden fill-current text-[11px]"
-                  : "fill-current text-[11px]"
-              }
-              style={{ fill: "var(--muted)" }}
-            >
-              {shortenPatternLabel(node.title)}
-            </text>
+            <ConstellationLabel key={`label-${node.id}`} node={node} />
           ))
         : null}
     </>
