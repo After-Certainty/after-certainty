@@ -185,17 +185,17 @@ export function resolveLabelPlacement(input: {
 
   switch (position) {
     case "right":
-      // Nestle just above the horizontal spoke so the association stays obvious.
+      // Stack above the hub spoke: last line ~8px above node center.
       x = nodeX + reach;
-      y = nodeY - 8 - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.55 : 0);
+      y = nodeY - 8 - (lines.length > 1 ? (lines.length - 1) * LABEL_LINE_HEIGHT : 0);
       anchor = "start";
-      baseline = "middle";
+      baseline = "auto";
       break;
     case "left":
       x = nodeX - reach;
-      y = nodeY - 8 - (lines.length > 1 ? LABEL_LINE_HEIGHT * 0.55 : 0);
+      y = nodeY - 8 - (lines.length > 1 ? (lines.length - 1) * LABEL_LINE_HEIGHT : 0);
       anchor = "end";
-      baseline = "middle";
+      baseline = "auto";
       break;
     case "below":
       x = nodeX;
@@ -256,12 +256,13 @@ export function resolveLabelPlacement(input: {
 
   const minY =
     baseline === "hanging" ? LABEL_PAD : baseline === "middle" ? LABEL_PAD + 6 : LABEL_PAD + 10;
+  // `auto`/`middle` y marks the first line; keep the full block inside the viewBox.
   const maxY =
     baseline === "hanging"
       ? viewHeight - LABEL_PAD - blockHeight
       : baseline === "middle"
         ? viewHeight - LABEL_PAD - blockHeight * 0.5
-        : viewHeight - LABEL_PAD;
+        : viewHeight - LABEL_PAD - Math.max(0, blockHeight - LABEL_LINE_HEIGHT);
   y = Math.min(Math.max(y, minY), maxY);
 
   return {
