@@ -73,12 +73,13 @@ test.describe("Pattern Recognition Challenge", () => {
       await page.getByTestId("continue-session").click();
     }
 
-    await expect(page.getByRole("heading", { name: "Five recognitions logged." })).toBeVisible();
     const delight = page.getByTestId("session-complete-delight");
     await expect(delight).toBeVisible();
-    await expect(delight).toHaveAttribute("aria-hidden", "true");
     await expect(delight).toHaveAttribute("data-variant", "pattern-constellation");
-    // Results CTAs must stay usable while the decorative wink plays.
+    await expect(page.getByText("Session complete")).toBeVisible();
+    await expect(page.getByText("Patterns travel.")).toBeVisible();
+    await expect(page.getByTestId("session-complete-stats")).toBeVisible();
+    // Results CTAs must stay usable while the constellation assembles.
     await Promise.all([
       page.waitForURL(/\/games\/pattern-recognition\/?$/, { timeout: 30_000 }),
       page.getByRole("link", { name: "Back to lobby" }).click(),
@@ -103,12 +104,9 @@ test.describe("Pattern Recognition Challenge", () => {
       await page.getByTestId("continue-session").click();
     }
 
-    await expect(page.getByRole("heading", { name: "Five recognitions logged." })).toBeVisible();
-    // Reduced-motion path self-cleans quickly; CTAs must never wait on it.
     const delight = page.getByTestId("session-complete-delight");
-    if ((await delight.count()) > 0) {
-      await expect(delight).toHaveAttribute("data-reduced-motion", "true");
-    }
+    await expect(delight).toHaveAttribute("data-reduced-motion", "true");
+    await expect(page.getByText("Patterns travel.")).toBeVisible();
     await expect(page.getByRole("link", { name: "Back to lobby" })).toBeEnabled();
     await Promise.all([
       page.waitForURL(/\/games\/pattern-recognition\/?$/, { timeout: 30_000 }),
