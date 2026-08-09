@@ -1,5 +1,5 @@
 # Tuning for tools/generate_open_graph.py — When the Key Changes Hands
-# Cover: forest foliage over warm desk (keys, notebook, compass, photo)
+# Cover: dark green leaf-wall over warm desk (keys, notebook, compass, framed photo)
 bg_crop: [0, 720, 1024, 1380]
 tint: [22, 28, 18, 145]
 accent_color: [218, 178, 72]
