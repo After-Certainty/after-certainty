@@ -19,8 +19,6 @@ import {
   entityIntroTeaser,
   shouldUseEntityIntroDisclosure,
 } from "@/lib/explore/entity-intro-teaser";
-import { exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
-import { buildQuestionSearchHandoffUrl } from "@/lib/questions/enrichQuestions";
 import {
   getEnrichedQuestionBySlug,
   getEnrichedPublishedQuestions,
@@ -29,6 +27,9 @@ import { createPageMetadata } from "@/lib/metadata";
 import { buildQuestionDetailJsonLd } from "@/lib/seo/json-ld";
 
 type PageProps = { params: Promise<{ slug: string }> };
+
+const keepExploringLinkClassName =
+  "inline-flex min-h-11 items-center text-sm uppercase tracking-[0.18em] text-accent underline-offset-4 transition-colors hover:text-fg hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent";
 
 function questionCountLabel(count: number): string {
   return `${count} ${count === 1 ? "question" : "questions"}`;
@@ -60,10 +61,6 @@ export default async function QuestionDetailPage({ params }: PageProps) {
     .filter((q): q is NonNullable<typeof q> => Boolean(q))
     .slice(0, 3);
 
-  const primaryBookNodeSlug = question.primaryBookHref.split("/").pop() ?? "";
-  const observatoryHref = exploreObservatoryFocusHref("book", primaryBookNodeSlug);
-  const searchHref = buildQuestionSearchHandoffUrl(question);
-
   const orientation = question.orientation?.trim() ?? "";
   const orientationTeaser = entityIntroTeaser(orientation);
   const useOrientationDisclosure = shouldUseEntityIntroDisclosure(orientation, orientationTeaser);
@@ -80,7 +77,7 @@ export default async function QuestionDetailPage({ params }: PageProps) {
         })}
       />
 
-      <Section atmosphere="transition" className="border-b border-border/40 !py-8 md:!py-20">
+      <Section atmosphere="transition" className="border-b border-border/40 !py-6 md:!py-20">
         <Container>
           <BreadcrumbTrail
             items={[
@@ -89,8 +86,10 @@ export default async function QuestionDetailPage({ params }: PageProps) {
               { label: question.question },
             ]}
           />
-          <p className="text-xs uppercase tracking-[0.35em] text-accent">{question.families[0]}</p>
-          <h1 className="mt-3 max-w-3xl font-display text-4xl font-medium leading-tight tracking-tight text-fg md:mt-6 md:text-5xl">
+          <p className="text-[11px] uppercase tracking-[0.3em] text-accent md:text-xs md:tracking-[0.35em]">
+            {question.families[0]}
+          </p>
+          <h1 className="mt-2 max-w-3xl font-display text-[1.85rem] font-medium leading-[1.15] tracking-tight text-fg sm:text-4xl md:mt-6 md:text-5xl md:leading-tight">
             {question.question}
           </h1>
           {orientation ? (
@@ -100,12 +99,14 @@ export default async function QuestionDetailPage({ params }: PageProps) {
                 regionLabel="Full question orientation"
                 teaser={orientationTeaser}
                 expandLabel="Read full orientation"
-                className="!mt-4 md:!mt-6"
+                className="!mt-3 md:!mt-6"
               >
-                <p className="text-lg leading-relaxed text-muted">{orientation}</p>
+                <p className="text-base leading-snug text-muted md:text-lg md:leading-relaxed">
+                  {orientation}
+                </p>
               </EntityIntroDisclosure>
             ) : (
-              <p className="mt-4 max-w-2xl text-lg leading-relaxed text-muted md:mt-6">
+              <p className="mt-3 max-w-2xl text-base leading-snug text-muted md:mt-6 md:text-lg md:leading-relaxed">
                 {orientation}
               </p>
             )
@@ -113,12 +114,12 @@ export default async function QuestionDetailPage({ params }: PageProps) {
         </Container>
       </Section>
 
-      <Section atmosphere="none" className="border-b border-border/35 !py-8 md:!py-16">
+      <Section atmosphere="none" className="border-b border-border/35 !py-6 md:!py-16">
         <Container>
-          <h2 className="font-display text-2xl font-medium tracking-tight text-fg">
+          <h2 className="font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
             What this question is not asking
           </h2>
-          <ul className="mt-4 max-w-2xl list-disc space-y-3 pl-5 text-muted md:mt-6">
+          <ul className="mt-3 max-w-2xl list-disc space-y-1.5 pl-4 text-sm leading-snug text-muted md:mt-6 md:space-y-3 md:pl-5 md:text-base md:leading-relaxed">
             {question.whatThisIsNot.map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -126,10 +127,12 @@ export default async function QuestionDetailPage({ params }: PageProps) {
         </Container>
       </Section>
 
-      <Section atmosphere="transition" className="border-b border-border/35 !py-8 md:!py-16">
+      <Section atmosphere="transition" className="border-b border-border/35 !py-6 md:!py-16">
         <Container>
-          <h2 className="font-display text-2xl font-medium tracking-tight text-fg">The path</h2>
-          <p className="mt-3 max-w-2xl text-muted md:mt-4">
+          <h2 className="font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
+            The path
+          </h2>
+          <p className="mt-2 max-w-2xl text-sm text-muted md:mt-4 md:text-base">
             {question.pathStopsEnriched.length} stops · ~{question.totalEstimatedMinutes} min ·
             primary book:{" "}
             <Link href={question.primaryBookHref} className="text-accent hover:underline">
@@ -140,64 +143,59 @@ export default async function QuestionDetailPage({ params }: PageProps) {
         </Container>
       </Section>
 
-      <Section atmosphere="none" className="border-b border-border/35 !py-8 md:!py-16">
+      <Section atmosphere="none" className="border-b border-border/35 !py-7 md:!py-16">
         <Container>
-          <h2 className="font-display text-2xl font-medium tracking-tight text-fg">
+          <h2 className="font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
             What may feel different—and what remains open
           </h2>
-          <p className="mt-4 max-w-2xl leading-relaxed text-muted md:mt-6">
+          <p className="mt-3 max-w-2xl text-base leading-relaxed text-muted md:mt-6">
             {question.closingReflection}
           </p>
           {question.carryForwardQuestion ? (
-            <p className="mt-6 max-w-2xl font-display text-xl text-fg/90 md:mt-8">
+            <p className="mt-5 max-w-2xl font-display text-lg text-fg/90 md:mt-8 md:text-xl">
               Carry forward: {question.carryForwardQuestion}
             </p>
           ) : null}
         </Container>
       </Section>
 
-      {related.length > 0 ? (
-        <Section
-          atmosphere="none"
-          className="border-b border-border/35 !py-8 md:!py-16"
-          data-path-related-section
-        >
-          <Container>
-            <RelatedSectionDisclosure
-              id="related-questions"
-              title="Related questions"
-              countLabel={questionCountLabel(related.length)}
-            >
-              <div className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
-                {related.map((relatedQuestion) => (
-                  <QuestionCard
-                    key={relatedQuestion.id}
-                    question={relatedQuestion}
-                    location="related"
-                    analytics={{
-                      event: "question_related_select",
-                      params: { from_id: question.id, to_id: relatedQuestion.id },
-                    }}
-                  />
-                ))}
-              </div>
-            </RelatedSectionDisclosure>
-          </Container>
-        </Section>
-      ) : null}
-
-      <QuestionRelatedTrailsSection question={question} />
-
-      <Section atmosphere="none" className="!py-8 md:!py-20">
+      <Section atmosphere="none" className="!py-7 md:!py-20" data-path-keep-exploring>
         <Container>
-          <h2 className="font-display text-2xl font-medium tracking-tight text-fg">
-            Continue exploring
+          <h2 className="font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
+            Keep exploring
           </h2>
-          <ul className="mt-6 flex flex-col gap-4 text-sm md:mt-8">
+
+          {related.length > 0 ? (
+            <div className="mt-4 border-b border-border/35 pb-4 md:mt-8 md:pb-8" data-path-related-section>
+              <RelatedSectionDisclosure
+                id="related-questions"
+                title="Related questions"
+                countLabel={questionCountLabel(related.length)}
+              >
+                <div className="grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
+                  {related.map((relatedQuestion) => (
+                    <QuestionCard
+                      key={relatedQuestion.id}
+                      question={relatedQuestion}
+                      location="related"
+                      analytics={{
+                        event: "question_related_select",
+                        params: { from_id: question.id, to_id: relatedQuestion.id },
+                      }}
+                    />
+                  ))}
+                </div>
+              </RelatedSectionDisclosure>
+            </div>
+          ) : null}
+
+          <QuestionRelatedTrailsSection question={question} />
+
+          <ul className="mt-5 flex flex-col gap-1 md:mt-8 md:gap-2">
             <li>
               <TrackedLink
                 href={question.primaryBookHref}
-                className="text-accent underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+                className={keepExploringLinkClassName}
                 analytics={{
                   event: "question_continue_book",
                   params: {
@@ -206,43 +204,22 @@ export default async function QuestionDetailPage({ params }: PageProps) {
                   },
                 }}
               >
-                Read {question.primaryBookTitle} in full
+                Read {question.primaryBookTitle} →
               </TrackedLink>
             </li>
             <li>
               <ExplorePathwayLink
                 kind="question"
                 slug={question.slug}
+                label="Explore in the Observatory →"
                 analyticsEvent={AnalyticsEvents.questionObservatoryPathway}
                 analyticsId={question.id}
+                className={keepExploringLinkClassName}
               />
             </li>
             <li>
-              <Link
-                href={observatoryHref}
-                className="text-accent underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-              >
-                Open this book in the Observatory
-              </Link>
-            </li>
-            <li>
-              <TrackedLink
-                href={searchHref}
-                className="text-accent underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-                analytics={{
-                  event: "question_search_handoff",
-                  params: { question_id: question.id },
-                }}
-              >
-                Search this idea across the commons
-              </TrackedLink>
-            </li>
-            <li>
-              <Link
-                href="/questions"
-                className="text-accent underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-              >
-                Browse all questions
+              <Link href="/questions" className={keepExploringLinkClassName}>
+                Browse all questions →
               </Link>
             </li>
           </ul>

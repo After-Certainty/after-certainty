@@ -38,7 +38,7 @@ describe("QuestionRelatedTrailsSection", () => {
     render(await QuestionRelatedTrailsSection({ question: mockQuestion }));
 
     expect(screen.getAllByText("1 trail").length).toBeGreaterThan(0);
-    const toggle = screen.getByRole("button", { name: /continue with a reading trail/i });
+    const toggle = screen.getByRole("button", { name: /related reading trail/i });
     expect(toggle).toHaveAttribute("aria-expanded", "false");
     expect(screen.getByRole("link", { name: /Judgment Before Certainty/i })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /Browse all reading trails/i })).toHaveAttribute(

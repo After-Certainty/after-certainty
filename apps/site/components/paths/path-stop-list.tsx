@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 import { PathStopCard, type PathStopCardAnalytics } from "@/components/paths/path-stop-card";
 import {
@@ -44,9 +44,9 @@ export function PathStopList({
       : null;
 
   return (
-    <div className="mt-6 md:mt-10">
+    <div className="mt-4 md:mt-10">
       {lastStopPosition != null ? (
-        <div className="mb-4 flex flex-wrap items-center gap-4 rounded-sm border border-border/50 bg-bg-elevated/30 px-4 py-3 text-sm text-muted md:mb-6">
+        <div className="mb-3 flex flex-wrap items-center gap-3 rounded-sm border border-border/50 bg-bg-elevated/30 px-3.5 py-2.5 text-sm text-muted md:mb-6 md:gap-4 md:px-4 md:py-3">
           <p>
             {completed
               ? "You previously finished this path."
@@ -73,7 +73,7 @@ export function PathStopList({
           </button>
         </div>
       ) : null}
-      <ol className="list-none space-y-4 p-0 md:space-y-5">
+      <ol className="list-none space-y-3 p-0 md:space-y-5">
         {sortedStops.map((stop, index) => {
           const stopIndex = index + 1;
           const visited = lastStopPosition != null && stop.position <= lastStopPosition;

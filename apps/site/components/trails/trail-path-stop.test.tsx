@@ -51,7 +51,8 @@ describe("TrailPathStop", () => {
 
     expect(screen.getByText("Optional")).toBeInTheDocument();
     expect(screen.getByText("A fiction doorway — story, not proof")).toBeInTheDocument();
-    expect(screen.getByText(/Why this follows:/i)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Why this follows/i })).toBeInTheDocument();
+    expect(screen.getByText("Story holds tension argument cannot.")).toBeInTheDocument();
   });
 
   it("shows upcoming status for non-published books", () => {

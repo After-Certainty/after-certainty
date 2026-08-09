@@ -58,9 +58,8 @@ test.describe("Start with a Question", () => {
 
   test("question page surfaces related reading trails", async ({ page }) => {
     await page.goto("/questions/act-before-certainty-arrives");
-    await expect(
-      page.getByRole("heading", { name: "Continue with a reading trail" }),
-    ).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Keep exploring" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Related reading trail" })).toBeVisible();
     await expect(page.getByRole("link", { name: /Judgment Before Certainty/i })).toBeVisible();
   });
 
@@ -75,7 +74,7 @@ test.describe("Start with a Question", () => {
       }),
     ).toBeVisible();
     await expect(page.locator('[data-path-stop-density="compact"]').first()).toBeVisible();
-    const relatedToggle = page.getByRole("button", { name: /Continue with a reading trail/i });
+    const relatedToggle = page.getByRole("button", { name: /Related reading trail/i });
     await expect(relatedToggle).toBeVisible();
     await expect(relatedToggle).toHaveAttribute("aria-expanded", "false");
     await relatedToggle.click();
@@ -86,7 +85,32 @@ test.describe("Start with a Question", () => {
   test("question page links to observatory pathway", async ({ page }) => {
     await page.goto("/questions/act-before-certainty-arrives");
     await expect(
-      page.getByRole("link", { name: /Walk this path in the Observatory/i }),
+      page.getByRole("link", { name: /Explore in the Observatory/i }),
     ).toHaveAttribute("href", /pathwayKind=question/);
+  });
+
+  test("question detail keeps why-this-follows collapsed on mobile", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/questions/trust-survives-disagreement");
+
+    const whyToggle = page.getByRole("button", { name: /Why this follows/i }).first();
+    await expect(whyToggle).toBeVisible();
+    await expect(whyToggle).toHaveAttribute("aria-expanded", "false");
+    await whyToggle.click();
+    await expect(whyToggle).toHaveAttribute("aria-expanded", "true");
+  });
+
+  test("question detail keep exploring is compact on mobile", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/questions/trust-survives-disagreement");
+
+    await expect(page.getByRole("heading", { name: "Keep exploring" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Read Trust Beyond Similarity/i })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Explore in the Observatory/i })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Browse all questions/i })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Search this idea/i })).toHaveCount(0);
+    await expect(page.getByRole("link", { name: /Open this book in the Observatory/i })).toHaveCount(
+      0,
+    );
   });
 });
