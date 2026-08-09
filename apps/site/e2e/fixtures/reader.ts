@@ -1,5 +1,7 @@
 import { expect, type Locator, type Page } from "@playwright/test";
 
+import { expectCookieBannerHidden } from "./consent";
+
 /**
  * Live chapter reader shell inside `#main`.
  *
@@ -17,9 +19,10 @@ export function liveReader(page: Page): Locator {
 export async function waitForStableReaderChrome(page: Page): Promise<Locator> {
   const reader = liveReader(page);
   await expect(reader).toHaveCount(1, { timeout: 15_000 });
-  await expect(reader.getByTestId("reading-progress-chrome")).toHaveCount(1, {
-    timeout: 15_000,
-  });
+  const chrome = reader.getByTestId("reading-progress-chrome");
+  await expect(chrome).toHaveCount(1, { timeout: 15_000 });
+  await expect(chrome).toHaveAttribute("data-chrome-ready", "true", { timeout: 15_000 });
   await expect(reader).toBeVisible();
+  await expectCookieBannerHidden(page);
   return reader;
 }
