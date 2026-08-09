@@ -154,9 +154,8 @@ test.describe("Explore discovery mobile redesign", () => {
 
     await page.goto(QUESTION_DETAIL);
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
-    await expect(
-      page.getByRole("heading", { name: "Continue with a reading trail" }),
-    ).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Keep exploring" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: /Related reading trail/i })).toBeVisible();
 
     await page.goto(TRAIL_DETAIL);
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();

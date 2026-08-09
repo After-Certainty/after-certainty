@@ -73,7 +73,7 @@ export function PathStopList({
           </button>
         </div>
       ) : null}
-      <ol className="list-none space-y-3 p-0 md:space-y-5">
+      <ol className="list-none space-y-2.5 p-0 md:space-y-5">
         {sortedStops.map((stop, index) => {
           const stopIndex = index + 1;
           const visited = lastStopPosition != null && stop.position <= lastStopPosition;

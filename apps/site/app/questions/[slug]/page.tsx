@@ -77,7 +77,7 @@ export default async function QuestionDetailPage({ params }: PageProps) {
         })}
       />
 
-      <Section atmosphere="transition" className="border-b border-border/40 !py-6 md:!py-20">
+      <Section atmosphere="transition" className="border-b border-border/40 !py-5 md:!py-20">
         <Container>
           <BreadcrumbTrail
             items={[
@@ -114,12 +114,12 @@ export default async function QuestionDetailPage({ params }: PageProps) {
         </Container>
       </Section>
 
-      <Section atmosphere="none" className="border-b border-border/35 !py-6 md:!py-16">
+      <Section atmosphere="none" className="border-b border-border/35 !py-5 md:!py-16">
         <Container>
           <h2 className="font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
             What this question is not asking
           </h2>
-          <ul className="mt-3 max-w-2xl list-disc space-y-1.5 pl-4 text-sm leading-snug text-muted md:mt-6 md:space-y-3 md:pl-5 md:text-base md:leading-relaxed">
+          <ul className="mt-2.5 max-w-2xl list-disc space-y-1 pl-4 text-sm leading-snug text-muted md:mt-6 md:space-y-3 md:pl-5 md:text-base md:leading-relaxed">
             {question.whatThisIsNot.map((item) => (
               <li key={item}>{item}</li>
             ))}
@@ -127,7 +127,7 @@ export default async function QuestionDetailPage({ params }: PageProps) {
         </Container>
       </Section>
 
-      <Section atmosphere="transition" className="border-b border-border/35 !py-6 md:!py-16">
+      <Section atmosphere="transition" className="border-b border-border/35 !py-5 md:!py-16">
         <Container>
           <h2 className="font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
             The path
@@ -143,7 +143,7 @@ export default async function QuestionDetailPage({ params }: PageProps) {
         </Container>
       </Section>
 
-      <Section atmosphere="none" className="border-b border-border/35 !py-7 md:!py-16">
+      <Section atmosphere="none" className="border-b border-border/35 !py-6 md:!py-16">
         <Container>
           <h2 className="font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
             What may feel different—and what remains open
@@ -159,7 +159,7 @@ export default async function QuestionDetailPage({ params }: PageProps) {
         </Container>
       </Section>
 
-      <Section atmosphere="none" className="!py-7 md:!py-20" data-path-keep-exploring>
+      <Section atmosphere="none" className="!py-6 md:!py-20" data-path-keep-exploring>
         <Container>
           <h2 className="font-display text-xl font-medium tracking-tight text-fg md:text-2xl">
             Keep exploring
