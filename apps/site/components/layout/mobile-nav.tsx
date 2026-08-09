@@ -10,10 +10,20 @@ import { useSearchPalette } from "@/components/search/search-palette-provider";
 
 type NavItem = { readonly href: string; readonly label: string };
 
-export function MobileNav({ items }: { items: readonly NavItem[] }) {
+type MobileNavProps = {
+  items: readonly NavItem[];
+  /** Notifies sticky chrome when the drawer is open so it stays visible. */
+  onOpenChange?: (open: boolean) => void;
+};
+
+export function MobileNav({ items, onOpenChange }: MobileNavProps) {
   const [open, setOpen] = useState(false);
   const panelId = useId();
   const { openSearch } = useSearchPalette();
+
+  useEffect(() => {
+    onOpenChange?.(open);
+  }, [open, onOpenChange]);
 
   useEffect(() => {
     if (!open) return;
