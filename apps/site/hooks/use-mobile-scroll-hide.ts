@@ -14,12 +14,18 @@ type UseMobileScrollHideOptions = {
 };
 
 function subscribeReducedMotion(onStoreChange: () => void): () => void {
+  if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
+    return () => {};
+  }
   const media = window.matchMedia("(prefers-reduced-motion: reduce)");
   media.addEventListener("change", onStoreChange);
   return () => media.removeEventListener("change", onStoreChange);
 }
 
 function getReducedMotionSnapshot(): boolean {
+  if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
+    return false;
+  }
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
 
