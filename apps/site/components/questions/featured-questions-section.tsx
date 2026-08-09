@@ -33,10 +33,10 @@ export async function FeaturedQuestionsSection() {
         </div>
         <p className="mt-6 md:mt-10">
           <Link
-            href="/questions"
+            href="/start"
             className="text-xs uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:text-sm"
           >
-            Browse all questions →
+            Find your way in →
           </Link>
         </p>
       </Container>

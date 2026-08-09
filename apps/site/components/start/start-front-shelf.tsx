@@ -11,13 +11,13 @@ export async function StartFrontShelf() {
   const booksBySlug = new Map(graph.books.map((book) => [book.slug, book]));
 
   return (
-    <section className="border-b border-border/35 bg-bg-elevated/[0.06] py-6 md:py-28">
+    <section className="border-b border-border/35 bg-bg-elevated/[0.06] py-6 md:py-14">
       <Container>
         <h2 className="max-w-xl font-display text-2xl font-medium tracking-tight text-fg md:text-4xl">
-          Front Shelf
+          Or start with a book
         </h2>
-        <p className="mt-2 max-w-2xl text-sm text-muted md:mt-5 md:text-base">{FRONT_SHELF_INTRO}</p>
-        <ul className="mt-6 grid list-none gap-3 p-0 sm:grid-cols-2 md:mt-14 md:gap-5 lg:grid-cols-4 lg:gap-4">
+        <p className="mt-2 max-w-2xl text-sm text-muted md:mt-4 md:text-base">{FRONT_SHELF_INTRO}</p>
+        <ul className="mt-6 grid list-none gap-3 p-0 sm:grid-cols-2 md:mt-10 md:gap-5 lg:grid-cols-4 lg:gap-4">
           {FRONT_SHELF_ENTRIES.map((entry) => {
             const book = booksBySlug.get(entry.slug);
             const title = book?.title ?? entry.slug;

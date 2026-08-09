@@ -19,8 +19,7 @@ export async function StartTrailsSection() {
             Follow a reading trail
           </h2>
           <p className="mt-2 text-sm text-muted md:mt-4 md:text-base">
-            Curated trails offer a reusable sequence through the commons—without the question framing
-            of Start with a Question, and without the open-ended retrieval of search.
+            Curated journeys through several books and ideas, designed to be followed in sequence.
           </p>
         </div>
 

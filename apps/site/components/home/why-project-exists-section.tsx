@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Container } from "@/components/ui/container";
 
 /**
- * Compressed homepage mission — reflective beat after interactive Pattern Recognition.
+ * Compressed homepage mission — reflective beat after Explore / What’s New activity.
  */
 export function WhyProjectExistsSection() {
   return (
