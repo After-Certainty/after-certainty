@@ -1,13 +1,14 @@
 import { expect, test } from "@playwright/test";
 
 import { dismissCookieBanner } from "./fixtures/consent";
+import { liveReader, waitForStableReaderChrome } from "./fixtures/reader";
 
 const introPath = "/explore/books/after-certainty/chapters/front-matter-introduction";
 const nextPath = "/explore/books/after-certainty/chapters/parts-part-1-letting-go-bridge";
 
-/** Chapter chrome title — wait until soft-nav overlap has resolved to a single h1. */
+/** Chapter chrome title — scoped to the live in-main reader shell. */
 async function expectUniqueChapterTitle(page: import("@playwright/test").Page) {
-  const title = page.locator("article[data-chapter-reader] #chapter-title");
+  const title = liveReader(page).locator("#chapter-title");
   await expect(title).toHaveCount(1, { timeout: 15_000 });
   await expect(title).toBeVisible();
   return title;
@@ -26,13 +27,14 @@ test.describe("reader smoke (READ-009)", () => {
     expect(response?.status()).toBe(200);
 
     await expectUniqueChapterTitle(page);
-    await expect(page.locator("#chapter-content .chapter-manuscript")).toBeVisible();
-    await expect(page.getByTestId("reading-progress-chrome")).toBeVisible();
+    const reader = await waitForStableReaderChrome(page);
+    await expect(reader.locator("#chapter-content .chapter-manuscript")).toBeVisible();
+    await expect(reader.getByTestId("reading-progress-chrome")).toBeVisible();
     await expect(page.getByRole("progressbar", { name: "Chapter scroll progress" })).toBeVisible();
-    await expect(page.getByTestId("reader-exit")).toBeVisible();
+    await expect(reader.getByTestId("reader-exit")).toBeVisible();
 
     await expect(page.getByRole("banner")).toHaveCount(0);
-    await expect(page.getByTestId("reader-controls-open")).toBeVisible();
+    await expect(reader.getByTestId("reader-controls-open")).toBeVisible();
 
     const next = page
       .getByRole("navigation", { name: "Previous and next chapter" })
@@ -43,10 +45,11 @@ test.describe("reader smoke (READ-009)", () => {
       next.click(),
     ]);
     await expectUniqueChapterTitle(page);
+    const nextReader = await waitForStableReaderChrome(page);
 
     await Promise.all([
       page.waitForURL(/\/explore\/books\/after-certainty$/, { timeout: 30_000 }),
-      page.getByTestId("reader-exit").click(),
+      nextReader.getByTestId("reader-exit").click(),
     ]);
     await expect(page.getByRole("heading", { name: "After Certainty", level: 1 })).toBeVisible();
     await expect(page.getByRole("banner")).toBeVisible();

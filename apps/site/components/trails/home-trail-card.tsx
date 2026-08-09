@@ -6,13 +6,15 @@ import type { EnrichedTrail } from "@/types/trails";
 
 type HomeTrailCardProps = {
   trail: EnrichedTrail;
+  /** Analytics / data attribute location (homepage or Start Here). */
+  location?: "home" | "start";
 };
 
 /**
- * Compact image-led trail card for the homepage (mobile scroller + desktop grid).
+ * Compact image-led trail card for homepage / Start Here (mobile scroller + desktop grid).
  * Uses dedicated landscape art per trail — never composite mockup screenshots.
  */
-export function HomeTrailCard({ trail }: HomeTrailCardProps) {
+export function HomeTrailCard({ trail, location = "home" }: HomeTrailCardProps) {
   const stopCount = trail.pathStopsEnriched.length;
   const minutes = trail.totalEstimatedMinutes;
   const href = `/trails/${trail.slug}`;
@@ -24,13 +26,13 @@ export function HomeTrailCard({ trail }: HomeTrailCardProps) {
       href={href}
       className="group flex h-full w-[min(76vw,18.5rem)] shrink-0 flex-col overflow-hidden border border-border/50 bg-bg-elevated/40 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:w-auto md:min-w-0"
       data-trail-id={trail.id}
-      data-trail-location="home"
+      data-trail-location={location}
       data-trail-status={trail.status}
       data-home-trail-card
       data-trail-image={trail.slug}
       analytics={{
         event: "trail_select",
-        params: { trail_id: trail.id, location: "home" },
+        params: { trail_id: trail.id, location },
       }}
     >
       <div className="relative aspect-[16/9] w-full bg-bg-elevated/60">
