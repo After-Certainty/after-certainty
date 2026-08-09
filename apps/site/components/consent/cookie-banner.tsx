@@ -11,6 +11,7 @@ export function CookieBanner() {
   // stored choice never flashes a dialog that steals pointer events.
   const [ready, setReady] = useState(false);
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- mount gate after consent layout hydration
     setReady(true);
   }, []);
 
