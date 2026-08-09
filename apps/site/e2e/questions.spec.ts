@@ -7,7 +7,10 @@ test.describe("Start with a Question", () => {
       page.getByRole("heading", { name: "What question brought you here?" }),
     ).toBeVisible();
     await expect(page.locator("[data-question-location='home']").first()).toBeVisible();
-    await expect(page.getByRole("link", { name: /Browse all questions/i })).toBeVisible();
+    await expect(page.getByRole("link", { name: /Find your way in/i })).toHaveAttribute(
+      "href",
+      "/start",
+    );
   });
 
   test("visitor can follow a question path to a book", async ({ page }) => {

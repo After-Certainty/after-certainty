@@ -4,8 +4,7 @@ export type FrontShelfEntry = {
   description: string;
 };
 
-export const FRONT_SHELF_INTRO =
-  "Not everyone needs to begin in the same place. These books offer different doors into the same terrain: curiosity, systems, trust, perspective, story, love, and the practice of judgment after certainty fails.";
+export const FRONT_SHELF_INTRO = "Different doors into the same terrain.";
 
 export const FRONT_SHELF_ENTRIES: FrontShelfEntry[] = [
   {

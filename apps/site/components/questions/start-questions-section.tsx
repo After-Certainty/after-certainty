@@ -15,12 +15,11 @@ export async function StartQuestionsSection() {
       <Container>
         <div className="max-w-2xl">
           <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-4xl">
-            What question brought you here?
+            Start with a question
           </h2>
           <p className="mt-2 text-sm text-muted md:mt-4 md:text-base">
-            If you arrive with a tension rather than a book in mind, these curated paths offer a
-            different doorway into the same commons—without pretending any question has one final
-            answer.
+            If you arrive with a tension rather than a book in mind, begin here—without pretending
+            any question has one final answer.
           </p>
         </div>
         <div className="mt-6 flex flex-col gap-2 md:mt-10 md:grid md:grid-cols-3 md:gap-4">

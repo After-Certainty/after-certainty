@@ -97,6 +97,10 @@ test.describe("Curated Reading Trails", () => {
     await page.goto("/start");
     await expect(page.getByRole("heading", { name: "Follow a reading trail" })).toBeVisible();
     await expect(page.getByRole("link", { name: /Browse all reading trails/i })).toBeVisible();
+    await expect(page.locator("[data-home-trail-card]").first()).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Start with a question" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Or start with a book" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Explore the project" })).toHaveCount(0);
   });
 
   test("mobile viewport renders trail detail", async ({ page }) => {
@@ -112,12 +116,6 @@ test.describe("Curated Reading Trails", () => {
     await page.goto("/search?q=reading+trail+judgment");
     await expect(page.getByRole("heading", { name: "Curated reading trails" })).toBeVisible();
     await expect(page.getByRole("link", { name: /Judgment Before Certainty/i })).toBeVisible();
-  });
-
-  test("homepage surfaces featured trails section", async ({ page }) => {
-    await page.goto("/");
-    await expect(page.getByRole("heading", { name: "Follow a reading trail" })).toBeVisible();
-    await expect(page.getByRole("link", { name: /Browse all reading trails/i })).toBeVisible();
   });
 
   test("book page shows related reading trails", async ({ page }) => {
