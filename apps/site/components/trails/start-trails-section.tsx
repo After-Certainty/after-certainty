@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { TrailCard } from "@/components/trails/trail-card";
+
+import { HomeTrailCard } from "@/components/trails/home-trail-card";
 import { TrailSectionAnalytics } from "@/components/trails/trail-section-analytics";
 import { Container } from "@/components/ui/container";
-import { Section } from "@/components/ui/section";
 import { getEnrichedFeaturedTrails } from "@/lib/trails/getEnrichedTrails";
 
 export async function StartTrailsSection() {
@@ -11,42 +11,39 @@ export async function StartTrailsSection() {
   if (trails.length === 0) return null;
 
   return (
-    <Section
-      atmosphere="none"
-      className="border-b border-border/35 bg-bg-elevated/[0.06] py-24 md:py-32"
-    >
+    <section className="border-b border-border/35 bg-bg-elevated/[0.06] py-6 md:py-14">
       <TrailSectionAnalytics location="start" />
       <Container>
-        <h2 className="max-w-xl font-display text-3xl font-medium tracking-tight text-fg md:text-4xl">
-          Follow a reading trail
-        </h2>
-        <p className="mt-5 max-w-2xl text-muted">
-          Curated trails offer a reusable sequence through the commons—without the question framing
-          of Start with a Question, and without the open-ended retrieval of search. Each trail
-          explains why its stops belong and how the path progresses.
-        </p>
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="max-w-2xl">
+          <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-4xl">
+            Follow a reading trail
+          </h2>
+          <p className="mt-2 text-sm text-muted md:mt-4 md:text-base">
+            Curated trails offer a reusable sequence through the commons—without the question framing
+            of Start with a Question, and without the open-ended retrieval of search.
+          </p>
+        </div>
+
+        <div
+          className="-mx-6 mt-5 flex snap-x snap-mandatory gap-3 overflow-x-auto px-6 pb-1 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden md:mx-0 md:mt-10 md:grid md:grid-cols-3 md:gap-4 md:overflow-visible md:px-0 md:pb-0"
+          data-start-trails-scroller
+        >
           {trails.map((trail) => (
-            <TrailCard
-              key={trail.id}
-              trail={trail}
-              location="start"
-              analytics={{
-                event: "trail_select",
-                params: { trail_id: trail.id, location: "start" },
-              }}
-            />
+            <div key={trail.id} className="snap-start md:min-w-0">
+              <HomeTrailCard trail={trail} location="start" />
+            </div>
           ))}
         </div>
-        <p className="mt-12">
+
+        <p className="mt-5 md:mt-10">
           <Link
             href="/trails"
-            className="text-[11px] uppercase tracking-[0.22em] text-accent transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+            className="text-xs uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:text-sm"
           >
             Browse all reading trails →
           </Link>
         </p>
       </Container>
-    </Section>
+    </section>
   );
 }

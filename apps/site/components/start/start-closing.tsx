@@ -1,18 +1,20 @@
 import { ButtonLink } from "@/components/ui/button-link";
 import { Container } from "@/components/ui/container";
-import { Section } from "@/components/ui/section";
 import { outboundLinkAnalytics } from "@/lib/analytics/track";
 import { siteConfig } from "@/lib/site-config";
 
 export function StartClosing() {
   return (
-    <Section atmosphere="transition" className="relative bg-bg py-28 md:py-36">
+    <section className="atm-section atm-section--transition relative bg-bg py-12 md:py-36">
       <Container className="relative z-10 mx-auto max-w-2xl text-center">
-        <div className="mx-auto mb-14 h-px max-w-sm bg-gradient-to-r from-transparent via-border/80 to-transparent" aria-hidden />
-        <p className="font-display text-2xl leading-snug text-fg md:text-3xl md:leading-snug">
+        <div
+          className="mx-auto mb-6 h-px max-w-sm bg-gradient-to-r from-transparent via-border/80 to-transparent md:mb-14"
+          aria-hidden
+        />
+        <p className="font-display text-xl leading-snug text-fg md:text-3xl md:leading-snug">
           Conversations continue through participation.
         </p>
-        <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
+        <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-6 md:mt-12 md:gap-6">
           <ButtonLink href="/" variant="primary">
             Explore the project
           </ButtonLink>
@@ -32,6 +34,6 @@ export function StartClosing() {
           </ButtonLink>
         </div>
       </Container>
-    </Section>
+    </section>
   );
 }

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import type { SVGProps } from "react";
 import { Container } from "@/components/ui/container";
-import { Section } from "@/components/ui/section";
 
 function IconBooks(props: SVGProps<SVGSVGElement>) {
   return (
@@ -71,31 +70,35 @@ const pathways = [
 
 export function StartExplore() {
   return (
-    <Section atmosphere="transition" className="border-b border-border/35 bg-bg-elevated/[0.08] py-24 md:py-32">
+    <section className="atm-section atm-section--transition border-b border-border/35 bg-bg-elevated/[0.08] py-6 md:py-28">
       <Container>
-        <h2 className="max-w-xl font-display text-3xl font-medium tracking-tight text-fg md:text-4xl">
+        <h2 className="max-w-xl font-display text-2xl font-medium tracking-tight text-fg md:text-4xl">
           Explore the project
         </h2>
-        <p className="mt-5 max-w-2xl text-muted">
+        <p className="mt-2 max-w-2xl text-sm text-muted md:mt-5 md:text-base">
           Choose a thread — each surface opens onto the same evolving commons.
         </p>
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-4">
+        <div className="mt-6 grid grid-cols-2 gap-3 md:mt-14 md:gap-5 lg:grid-cols-4 lg:gap-4">
           {pathways.map(({ href, title, description, Icon }) => (
             <Link
               key={href}
               href={href}
-              className="group flex h-full flex-col border border-border/55 bg-bg-elevated/25 p-6 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.03)] transition-colors duration-300 hover:border-accent/35 hover:bg-bg-elevated/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+              className="group flex h-full flex-col border border-border/55 bg-bg-elevated/25 p-3.5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.03)] transition-colors duration-300 hover:border-accent/35 hover:bg-bg-elevated/40 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:p-6"
             >
-              <Icon className="mb-5 h-7 w-7 text-accent transition-colors group-hover:text-fg" />
-              <h3 className="font-display text-xl font-medium tracking-tight text-fg">{title}</h3>
-              <p className="mt-3 flex-1 text-sm leading-relaxed text-muted">{description}</p>
-              <span className="mt-8 text-[11px] uppercase tracking-[0.22em] text-accent/90 transition-colors group-hover:text-accent">
+              <Icon className="mb-3 h-6 w-6 text-accent transition-colors group-hover:text-fg md:mb-5 md:h-7 md:w-7" />
+              <h3 className="font-display text-lg font-medium tracking-tight text-fg md:text-xl">
+                {title}
+              </h3>
+              <p className="mt-2 flex-1 text-xs leading-snug text-muted md:mt-3 md:text-sm md:leading-relaxed">
+                {description}
+              </p>
+              <span className="mt-4 text-[10px] uppercase tracking-[0.22em] text-accent/90 transition-colors group-hover:text-accent md:mt-8 md:text-[11px]">
                 Enter →
               </span>
             </Link>
           ))}
         </div>
       </Container>
-    </Section>
+    </section>
   );
 }

@@ -109,18 +109,18 @@ export function ContinueReadingStartSection({ catalog }: ContinueReadingStartSec
 
   return (
     <section
-      className="border-b border-border/35 bg-bg-elevated/[0.08] py-10 md:py-12"
+      className="border-b border-border/35 bg-bg-elevated/[0.08] py-6 md:py-12"
       aria-labelledby="continue-reading-heading"
       data-testid="continue-reading-start"
     >
       <Container>
         <h2
           id="continue-reading-heading"
-          className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl"
+          className="font-display text-xl font-medium tracking-tight text-fg md:text-3xl"
         >
           Continue reading
         </h2>
-        <ul className="mt-8 space-y-4">
+        <ul className="mt-4 space-y-3 md:mt-8 md:space-y-4">
           {targets.map((target) => (
             <li
               key={target.editionId}
