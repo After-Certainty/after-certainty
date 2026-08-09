@@ -1,6 +1,7 @@
 import { expect, test } from "@playwright/test";
 
 import { dismissCookieBanner } from "./fixtures/consent";
+import { waitForStableReaderChrome } from "./fixtures/reader";
 
 const chapterPath = "/explore/books/after-certainty/chapters/front-matter-introduction";
 
@@ -21,48 +22,49 @@ test.describe("reader accessibility baseline (READ-008)", () => {
     await expect(page.getByRole("banner")).toHaveCount(0);
     await expect(page.getByRole("contentinfo")).toHaveCount(0);
 
-    const article = page.getByRole("article");
-    await expect(article).toBeVisible();
+    const reader = await waitForStableReaderChrome(page);
 
-    const title = page.locator("article[data-chapter-reader] #chapter-title");
+    const title = reader.locator("#chapter-title");
     await expect(title).toHaveCount(1);
     await expect(title).toBeVisible();
     await expect(title).toHaveAttribute("id", "chapter-title");
 
-    const labelledBy = await article.getAttribute("aria-labelledby");
+    const labelledBy = await reader.getAttribute("aria-labelledby");
     expect(labelledBy).toBe("chapter-title");
 
     await expect(
       page.getByRole("navigation", { name: "Previous and next chapter", exact: true }),
     ).toBeVisible();
     await expect(page.getByRole("progressbar", { name: "Chapter scroll progress" })).toBeVisible();
-    await expect(page.getByTestId("reader-exit")).toBeVisible();
+    await expect(reader.getByTestId("reader-exit")).toBeVisible();
 
-    await page.getByTestId("reader-controls-open").click();
+    await reader.getByTestId("reader-controls-open").click();
     await expect(page.getByTestId("reader-controls-drawer")).toBeVisible();
     await page.getByTestId("reader-tab-contents").click();
     await expect(page.getByRole("navigation", { name: "Table of contents" })).toBeVisible();
 
-    const content = page.locator("#chapter-content");
+    const content = reader.locator("#chapter-content");
     await expect(content).toBeVisible();
     await expect(content).toHaveAttribute("tabindex", "-1");
   });
 
   test("in-reader skip link moves focus to chapter content", async ({ page }) => {
     await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    const reader = await waitForStableReaderChrome(page);
 
-    const skip = page.getByRole("link", { name: "Skip to chapter text" });
+    const skip = reader.getByRole("link", { name: "Skip to chapter text" });
     await skip.focus();
     await expect(skip).toBeFocused();
     await page.keyboard.press("Enter");
 
-    await expect(page.locator("#chapter-content")).toBeFocused();
+    await expect(reader.locator("#chapter-content")).toBeFocused();
   });
 
   test("footnote refs and backrefs resolve to existing ids", async ({ page }) => {
     await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    const reader = await waitForStableReaderChrome(page);
 
-    const manuscript = page.locator("#chapter-content .chapter-manuscript").first();
+    const manuscript = reader.locator("#chapter-content .chapter-manuscript").first();
     await expect(manuscript).toBeVisible();
 
     const refs = manuscript.locator("a[data-footnote-ref]");
@@ -101,7 +103,8 @@ test.describe("reader accessibility baseline (READ-008)", () => {
 
   test("in-book search Escape restores focus to the trigger", async ({ page }) => {
     await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
-    await page.getByTestId("reader-overflow-open").click();
+    const reader = await waitForStableReaderChrome(page);
+    await reader.getByTestId("reader-overflow-open").click();
     await expect(page.getByTestId("reader-controls-drawer")).toBeVisible();
     await page.getByTestId("reader-tab-settings").click();
     const trigger = page.getByTestId("in-book-search-open");
@@ -117,8 +120,9 @@ test.describe("reader accessibility baseline (READ-008)", () => {
 
   test("exiting reader restores standard site chrome on book detail", async ({ page }) => {
     await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    const reader = await waitForStableReaderChrome(page);
     await expect(page.getByRole("banner")).toHaveCount(0);
-    await page.getByTestId("reader-exit").click();
+    await reader.getByTestId("reader-exit").click();
     await expect(page).toHaveURL(/\/explore\/books\/after-certainty$/);
     await expect(page.getByRole("banner")).toBeVisible();
     await expect(page.getByRole("contentinfo")).toBeVisible();
