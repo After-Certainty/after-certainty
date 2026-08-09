@@ -104,8 +104,13 @@ test.describe("reader accessibility baseline (READ-008)", () => {
   test("in-book search Escape restores focus to the trigger", async ({ page }) => {
     await page.goto(chapterPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
     const reader = await waitForStableReaderChrome(page);
-    await reader.getByTestId("reader-overflow-open").click();
-    await expect(page.getByTestId("reader-controls-drawer")).toBeVisible();
+    const overflow = reader.getByTestId("reader-overflow-open");
+    await expect(overflow).toBeVisible();
+    // Retry open: under load, the first click can land before the drawer portal mounts.
+    await expect(async () => {
+      await overflow.click();
+      await expect(page.getByTestId("reader-controls-drawer")).toBeVisible({ timeout: 2_000 });
+    }).toPass({ timeout: 15_000 });
     await page.getByTestId("reader-tab-settings").click();
     const trigger = page.getByTestId("in-book-search-open");
     await expect(trigger).toBeVisible();

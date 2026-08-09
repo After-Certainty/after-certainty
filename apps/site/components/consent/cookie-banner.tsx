@@ -1,13 +1,21 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 import { useConsent } from "@/components/consent/consent-provider";
 
 export function CookieBanner() {
   const { consent, acceptAnalytics, rejectAnalytics } = useConsent();
+  // Defer paint until after ConsentProvider hydrates from the cookie so a
+  // stored choice never flashes a dialog that steals pointer events.
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- mount gate after consent layout hydration
+    setReady(true);
+  }, []);
 
-  if (consent !== "unknown") return null;
+  if (!ready || consent !== "unknown") return null;
 
   return (
     <div

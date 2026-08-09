@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 
 import { ChapterBookmarkControl } from "@/components/reading/reading-bookmarks-panel";
 import { computeScrollProgress, formatScrollPercent } from "@/lib/reading/scroll-progress";
@@ -36,6 +36,12 @@ export function ReaderToolbar({
   onOpenControls,
 }: ReaderToolbarProps) {
   const [percent, setPercent] = useState(0);
+  // Client marker so e2e waits until toolbar handlers are attached (SSR HTML is inert).
+  const isClient = useSyncExternalStore(
+    () => () => {},
+    () => true,
+    () => false,
+  );
 
   useEffect(() => {
     let frame = 0;
@@ -81,6 +87,7 @@ export function ReaderToolbar({
   return (
     <div
       data-testid="reading-progress-chrome"
+      data-chrome-ready={isClient ? "true" : "false"}
       className="reader-toolbar sticky top-0 z-40 border-b border-border/40 bg-bg/95 backdrop-blur-md"
       style={{ paddingTop: "env(safe-area-inset-top, 0px)" }}
     >

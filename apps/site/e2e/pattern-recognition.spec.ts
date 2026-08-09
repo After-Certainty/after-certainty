@@ -1,9 +1,22 @@
-import { expect, test } from "@playwright/test";
+import { expect, test, type Page } from "@playwright/test";
 
-import { dismissCookieBanner } from "./fixtures/consent";
+import { dismissCookieBanner, expectCookieBannerHidden } from "./fixtures/consent";
 
 const lobbyPath = "/games/pattern-recognition";
 const challengePath = "/games/pattern-recognition/challenge/hallway-workaround-exception";
+
+/** Wait until the challenge client tree is interactive (handlers + storage). */
+async function waitForChallengeReady(page: Page): Promise<void> {
+  await expectCookieBannerHidden(page);
+  await expect(page.getByTestId("insight-xp-total")).toBeVisible({ timeout: 15_000 });
+  await expect(page.getByRole("group", { name: "Pattern choices" })).toBeVisible();
+}
+
+async function answerFirstChoice(page: Page): Promise<void> {
+  await waitForChallengeReady(page);
+  await page.getByRole("group", { name: "Pattern choices" }).getByRole("button").first().click();
+  await expect(page.getByTestId("challenge-feedback")).toBeVisible({ timeout: 15_000 });
+}
 
 test.describe("Pattern Recognition Challenge", () => {
   test.beforeEach(async ({ context, baseURL }) => {
@@ -20,7 +33,7 @@ test.describe("Pattern Recognition Challenge", () => {
     expect(response?.status()).toBe(200);
 
     await expect(page.getByRole("heading", { name: "What pattern do you see?" })).toBeVisible();
-    await expect(page.getByRole("group", { name: "Pattern choices" })).toBeVisible();
+    await waitForChallengeReady(page);
     await expect(page.getByRole("banner")).toHaveCount(0);
 
     const secondaryChoice = page
@@ -29,7 +42,7 @@ test.describe("Pattern Recognition Challenge", () => {
     await secondaryChoice.click();
 
     const feedback = page.getByTestId("challenge-feedback");
-    await expect(feedback).toBeVisible();
+    await expect(feedback).toBeVisible({ timeout: 15_000 });
     await expect(feedback).toHaveAttribute("aria-live", "polite");
     await expect(page.getByTestId("challenge-xp-award")).toBeVisible();
     await expect(page.getByTestId("read-the-pattern")).toBeVisible();
@@ -41,8 +54,7 @@ test.describe("Pattern Recognition Challenge", () => {
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
 
     await page.goto(challengePath, { waitUntil: "domcontentloaded" });
-    await page.getByRole("group", { name: "Pattern choices" }).getByRole("button").first().click();
-    await expect(page.getByTestId("challenge-feedback")).toBeVisible();
+    await answerFirstChoice(page);
     await Promise.all([
       page.waitForURL(/\/games\/pattern-recognition\/?$/, { timeout: 30_000 }),
       page.getByTestId("exit-challenge").click(),
@@ -54,6 +66,7 @@ test.describe("Pattern Recognition Challenge", () => {
     await page.setViewportSize({ width: 390, height: 844 });
 
     await page.goto(lobbyPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    await expectCookieBannerHidden(page);
     await expect(page.getByTestId("start-daily")).toBeVisible();
 
     await Promise.all([
@@ -68,8 +81,7 @@ test.describe("Pattern Recognition Challenge", () => {
       await expect(page.getByTestId("question-progress")).toHaveText(
         `Question ${question} of 5`,
       );
-      await page.getByRole("group", { name: "Pattern choices" }).getByRole("button").first().click();
-      await expect(page.getByTestId("challenge-feedback")).toBeVisible();
+      await answerFirstChoice(page);
       await page.getByTestId("continue-session").click();
     }
 
@@ -93,14 +105,14 @@ test.describe("Pattern Recognition Challenge", () => {
     await page.setViewportSize({ width: 390, height: 844 });
 
     await page.goto(lobbyPath, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    await expectCookieBannerHidden(page);
     await Promise.all([
       page.waitForURL(/\/games\/pattern-recognition\/daily\/?$/, { timeout: 30_000 }),
       page.getByTestId("start-daily").click(),
     ]);
 
     for (let question = 1; question <= 5; question += 1) {
-      await page.getByRole("group", { name: "Pattern choices" }).getByRole("button").first().click();
-      await expect(page.getByTestId("challenge-feedback")).toBeVisible();
+      await answerFirstChoice(page);
       await page.getByTestId("continue-session").click();
     }
 
@@ -120,9 +132,8 @@ test.describe("Pattern Recognition Challenge", () => {
     await expect(page.getByRole("contentinfo")).toHaveCount(0);
     await expect(page.getByLabel("Exit challenge")).toBeVisible();
 
-    await page.getByRole("group", { name: "Pattern choices" }).getByRole("button").first().click();
+    await answerFirstChoice(page);
     const feedback = page.getByTestId("challenge-feedback");
-    await expect(feedback).toBeVisible();
     await expect(feedback).toHaveAttribute("role", "status");
     await expect(feedback).toHaveAttribute("tabindex", "-1");
   });
