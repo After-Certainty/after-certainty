@@ -236,7 +236,9 @@ Vane opened the side gate before she reached it, paler than before. "You can't g
 
 "Then I need another way."
 
-The older clerk with the silver loop stepped up beside him. "Talla," Vane said, half a warning. She ignored it, looking at Lena, then at Jun, then at the room pretending not to listen. "There's an old stair," she said. "Behind Records, down two levels. Comes out near the gantry — if the lower latch still opens. It sticks."
+The older clerk with the silver loop stepped up beside him. "Talla," Vane said, half a warning.
+
+She ignored it, looking at Lena, then at Jun, then at the room pretending not to listen. "There's an old stair," she said. "Behind Records, down two levels. Comes out near the gantry — if the lower latch still opens. It sticks."
 
 "How badly?"
 
@@ -248,9 +250,19 @@ The older clerk with the silver loop stepped up beside him. "Talla," Vane said, 
 
 "Variations. The 11:11 line, the returned crates, the Tarn board, the dead sub-hub — all of it was moving before the public bulletin. If we find the supervisor, he may know one of them. If he doesn't, what he doesn't know matters too."
 
-She didn't want him to be right, which was becoming an unhelpful category. The woman with the infant said, "Take him. He made everyone admit what they didn't know." Jun looked pleased. "Don't," Lena told him, and he rearranged his face into something less pleased.
+She didn't want him to be right, which was becoming an unhelpful category.
 
-Vane passed her a ring of access tabs through the slot, his fingers unsteady. "These won't open the gantry. They'll get you to Records." She asked what the supervisor looked like. "Tall. Grey beard. Purple ink on his hands. Bad knee." He looked down. "He's my uncle."
+The woman with the infant said, "Take him. He made everyone admit what they didn't know."
+
+Jun looked pleased.
+
+"Don't," Lena told him, and he rearranged his face into something less pleased.
+
+Vane passed her a ring of access tabs through the slot, his fingers unsteady. "These won't open the gantry. They'll get you to Records."
+
+She asked what the supervisor looked like.
+
+"Tall. Grey beard. Purple ink on his hands. Bad knee." He looked down. "He's my uncle."
 
 That changed the shape of him. She took the tabs more carefully. "What do you call him?"
 
@@ -298,7 +310,11 @@ Edrin's eyes moved to him. "Who are you?"
 
 "Since 11:12," Jun said, and Edrin closed his eyes.
 
-"That explains my leg." The cable wasn't unlabeled, he added when she asked. It was labeled **Auxiliary Return / Legacy / Do Not Remove.** "Helpful," said Jun. "Very," said Edrin. "We have whole rooms full of helpful." No one knew where the other end went. Records might.
+"That explains my leg." The cable wasn't unlabeled, he added when she asked. It was labeled **Auxiliary Return / Legacy / Do Not Remove.**
+
+"Helpful," said Jun.
+
+"Very," said Edrin. "We have whole rooms full of helpful." No one knew where the other end went. Records might.
 
 "Here's what I know," he said. "The review flag was valid. The seal checked. The system obeyed it. Then the gate dropped, the relay failed, and the auxiliary return started behaving like it had been cut loose from a place that shouldn't move."
 
