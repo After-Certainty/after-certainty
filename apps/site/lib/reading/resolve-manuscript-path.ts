@@ -24,7 +24,9 @@ function normalizeBookDirRel(book: Pick<Book, "slug" | "bookDir">): string | nul
  * (`apps/site/data/manuscripts/books/...`) — preferred on Vercel.
  */
 export function installedManuscriptRoots(startDir: string = process.cwd()): string[] {
-  const cwd = path.resolve(startDir);
+  // Dynamic root discovery (cwd / monorepo layouts). Manuscripts are also listed in
+  // next.config outputFileTracingIncludes — suppress Turbopack whole-project tracing.
+  const cwd = path.resolve(/*turbopackIgnore: true*/ startDir);
   const candidates = [
     path.join(cwd, "data", "manuscripts"),
     path.join(cwd, "apps", "site", "data", "manuscripts"),
@@ -38,10 +40,10 @@ export function installedManuscriptRoots(startDir: string = process.cwd()): stri
   const seen = new Set<string>();
   const out: string[] = [];
   for (const candidate of candidates) {
-    const resolved = path.resolve(candidate);
+    const resolved = path.resolve(/*turbopackIgnore: true*/ candidate);
     if (seen.has(resolved)) continue;
     seen.add(resolved);
-    if (fs.existsSync(resolved)) out.push(resolved);
+    if (fs.existsSync(/*turbopackIgnore: true*/ resolved)) out.push(resolved);
   }
   return out;
 }
@@ -52,9 +54,9 @@ function tryResolveUnderRoot(input: {
   sourcePath: string;
   requireBooksContainment: boolean;
 }): ManuscriptPathResult | null {
-  const bookRoot = path.resolve(input.root, input.bookDirRel);
+  const bookRoot = path.resolve(/*turbopackIgnore: true*/ input.root, input.bookDirRel);
   if (input.requireBooksContainment) {
-    const booksRoot = path.resolve(input.root, "books");
+    const booksRoot = path.resolve(/*turbopackIgnore: true*/ input.root, "books");
     if (!bookRoot.startsWith(booksRoot + path.sep) && bookRoot !== booksRoot) {
       return {
         ok: false,
@@ -64,7 +66,7 @@ function tryResolveUnderRoot(input: {
     }
   } else {
     // Installed tree: manuscripts/books/...
-    const booksRoot = path.resolve(input.root, "books");
+    const booksRoot = path.resolve(/*turbopackIgnore: true*/ input.root, "books");
     if (!bookRoot.startsWith(booksRoot + path.sep) && bookRoot !== booksRoot) {
       return {
         ok: false,
@@ -74,7 +76,7 @@ function tryResolveUnderRoot(input: {
     }
   }
 
-  const absolutePath = path.resolve(bookRoot, input.sourcePath);
+  const absolutePath = path.resolve(/*turbopackIgnore: true*/ bookRoot, input.sourcePath);
   if (!absolutePath.startsWith(bookRoot + path.sep) && absolutePath !== bookRoot) {
     return {
       ok: false,
@@ -82,8 +84,8 @@ function tryResolveUnderRoot(input: {
       detail: `sourcePath escapes book root: ${input.sourcePath}`,
     };
   }
-  if (!fs.existsSync(absolutePath)) return null;
-  if (!fs.statSync(absolutePath).isFile()) {
+  if (!fs.existsSync(/*turbopackIgnore: true*/ absolutePath)) return null;
+  if (!fs.statSync(/*turbopackIgnore: true*/ absolutePath).isFile()) {
     return {
       ok: false,
       reason: "not_file",

@@ -31,5 +31,18 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    // Next 16.3+ typechecks via `tsc` and includes every file matched by this
+    // config. Vitest/Playwright sources are not part of the production graph;
+    // keep them out of `next build` (prior Next versions filtered these).
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "e2e",
+    "vitest.config.ts",
+    "vitest.setup.ts",
+    "playwright.config.ts"
+  ]
 }
