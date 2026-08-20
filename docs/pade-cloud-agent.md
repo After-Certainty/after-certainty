@@ -60,6 +60,17 @@ Expect:
 - `pade capabilities` → both capabilities `provider: broker`, configured
 - Property meta + minimal GA report succeed
 
+### Full ga-trends report pack
+
+End-to-end test of the [`ga-trends`](../apps/site/.cursor/skills/ga-trends/SKILL.md) skill via PADE broker (prints markdown brief to stdout):
+
+```bash
+make ga-trends-test
+# or: bash scripts/ga-trends-test.sh
+```
+
+Reports run sequentially with brief pauses (`PADE_PAUSE=0.75` default) to avoid broker identity-mint contention. Override: `PADE_PAUSE=1.5 make ga-trends-test`.
+
 ## Environment builds
 
 After changing [`.cursor/environment.json`](../.cursor/environment.json) or [`.cursor/install-pade.sh`](../.cursor/install-pade.sh), trigger an **environment build** or start a **new** Cloud Agent for the install to take effect.
