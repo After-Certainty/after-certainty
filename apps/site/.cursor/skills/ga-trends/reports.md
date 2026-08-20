@@ -88,7 +88,7 @@ Format `YYYYMMDD` dates as `YYYY-MM-DD` in the output table.
     { "name": "activeUsers" }
   ],
   "orderBys": [{ "metric": { "metricName": "screenPageViews" }, "desc": true }],
-  "limit": 15
+  "limit": 30
 }
 ```
 
@@ -216,6 +216,113 @@ Optional top screens:
 }
 ```
 
+### 12. Site custom events
+
+`eventName` inList of shipped `AnalyticsEvents`. GA4 allows at most 50 `inListFilter` values, so the body uses `orGroup` of two lists. **Canonical payload** (keep in sync with `SITE_CUSTOM_EVENTS`):
+
+```bash
+python3 tools/ga_trends_brief.py --report-body 12
+```
+
+Shape:
+
+```json
+{
+  "dateRanges": [{ "startDate": "7daysAgo", "endDate": "today", "name": "Last7Days" }],
+  "dimensions": [{ "name": "eventName" }],
+  "metrics": [{ "name": "eventCount" }, { "name": "activeUsers" }],
+  "dimensionFilter": {
+    "orGroup": {
+      "expressions": [
+        {
+          "filter": {
+            "fieldName": "eventName",
+            "inListFilter": { "values": ["select_content", "file_download", "click"], "caseSensitive": true }
+          }
+        }
+      ]
+    }
+  },
+  "orderBys": [{ "metric": { "metricName": "eventCount" }, "desc": true }],
+  "limit": 50
+}
+```
+
+(`values` in the generated body is the full catalog, split across two expressions.)
+
+### 13. Landing pages
+
+If this 400s, retry with `--report-body 13b` (`landingPagePlusQueryString`).
+
+```json
+{
+  "dateRanges": [{ "startDate": "7daysAgo", "endDate": "today", "name": "Last7Days" }],
+  "dimensions": [{ "name": "landingPage" }],
+  "metrics": [{ "name": "sessions" }, { "name": "activeUsers" }],
+  "orderBys": [{ "metric": { "metricName": "sessions" }, "desc": true }],
+  "limit": 15
+}
+```
+
+Fallback (`13b`):
+
+```json
+{
+  "dateRanges": [{ "startDate": "7daysAgo", "endDate": "today", "name": "Last7Days" }],
+  "dimensions": [{ "name": "landingPagePlusQueryString" }],
+  "metrics": [{ "name": "sessions" }, { "name": "activeUsers" }],
+  "orderBys": [{ "metric": { "metricName": "sessions" }, "desc": true }],
+  "limit": 15
+}
+```
+
+### 14. Observatory `select_content` (registered custom dimensions)
+
+Skip if the property 400s (dimension not registered). Canonical: `python3 tools/ga_trends_brief.py --report-body 14`.
+
+```json
+{
+  "dateRanges": [{ "startDate": "7daysAgo", "endDate": "today", "name": "Last7Days" }],
+  "dimensions": [
+    { "name": "customEvent:content_type" },
+    { "name": "customEvent:item_id" },
+    { "name": "customEvent:method" }
+  ],
+  "metrics": [{ "name": "eventCount" }, { "name": "activeUsers" }],
+  "dimensionFilter": {
+    "filter": {
+      "fieldName": "eventName",
+      "stringFilter": { "matchType": "EXACT", "value": "select_content", "caseSensitive": true }
+    }
+  },
+  "orderBys": [{ "metric": { "metricName": "eventCount" }, "desc": true }],
+  "limit": 15
+}
+```
+
+### 15. Outbound `click` by location / platform
+
+Skip if 400. Canonical: `python3 tools/ga_trends_brief.py --report-body 15`.
+
+```json
+{
+  "dateRanges": [{ "startDate": "7daysAgo", "endDate": "today", "name": "Last7Days" }],
+  "dimensions": [
+    { "name": "customEvent:location" },
+    { "name": "customEvent:platform" }
+  ],
+  "metrics": [{ "name": "eventCount" }, { "name": "activeUsers" }],
+  "dimensionFilter": {
+    "filter": {
+      "fieldName": "eventName",
+      "stringFilter": { "matchType": "EXACT", "value": "click", "caseSensitive": true }
+    }
+  },
+  "orderBys": [{ "metric": { "metricName": "eventCount" }, "desc": true }],
+  "limit": 15
+}
+```
+
 ### Optional: 28-day rollup
 
 ```json
@@ -336,7 +443,7 @@ Format `YYYYMMDD` dates as `YYYY-MM-DD` in the output table.
     "dimensions": ["pagePath"],
     "metrics": ["screenPageViews", "activeUsers"],
     "order_bys": [{ "metric": { "metric_name": "screenPageViews" }, "desc": true }],
-    "limit": 15
+    "limit": 30
   }
 }
 ```
@@ -465,6 +572,103 @@ Optional top screens:
     "dimensions": ["sessionSourceMedium"],
     "metrics": ["sessions", "activeUsers"],
     "order_bys": [{ "metric": { "metric_name": "sessions" }, "desc": true }],
+    "limit": 15
+  }
+}
+```
+
+### 12. Site custom events
+
+Canonical filter from `python3 tools/ga_trends_brief.py --report-body 12` (convert keys to MCP snake_case) or use `mcp_event_name_filter()` in `tools/ga_trends_brief.py`.
+
+```json
+{
+  "toolName": "run_report",
+  "arguments": {
+    "property_id": "properties/430022966",
+    "date_ranges": [{ "start_date": "7daysAgo", "end_date": "today", "name": "Last7Days" }],
+    "dimensions": ["eventName"],
+    "metrics": ["eventCount", "activeUsers"],
+    "dimension_filter": {
+      "or_group": {
+        "expressions": [
+          {
+            "filter": {
+              "field_name": "eventName",
+              "in_list_filter": {
+                "values": ["select_content", "file_download", "click"],
+                "case_sensitive": true
+              }
+            }
+          }
+        ]
+      }
+    },
+    "order_bys": [{ "metric": { "metric_name": "eventCount" }, "desc": true }],
+    "limit": 50
+  }
+}
+```
+
+Replace `values` with the full `SITE_CUSTOM_EVENTS` catalog (split across two `in_list_filter` expressions; max 50 values each).
+
+### 13. Landing pages
+
+If `landingPage` 400s, retry with `landingPagePlusQueryString`.
+
+```json
+{
+  "toolName": "run_report",
+  "arguments": {
+    "property_id": "properties/430022966",
+    "date_ranges": [{ "start_date": "7daysAgo", "end_date": "today", "name": "Last7Days" }],
+    "dimensions": ["landingPage"],
+    "metrics": ["sessions", "activeUsers"],
+    "order_bys": [{ "metric": { "metric_name": "sessions" }, "desc": true }],
+    "limit": 15
+  }
+}
+```
+
+### 14. Observatory `select_content`
+
+```json
+{
+  "toolName": "run_report",
+  "arguments": {
+    "property_id": "properties/430022966",
+    "date_ranges": [{ "start_date": "7daysAgo", "end_date": "today", "name": "Last7Days" }],
+    "dimensions": ["customEvent:content_type", "customEvent:item_id", "customEvent:method"],
+    "metrics": ["eventCount", "activeUsers"],
+    "dimension_filter": {
+      "filter": {
+        "field_name": "eventName",
+        "string_filter": { "match_type": 2, "value": "select_content", "case_sensitive": true }
+      }
+    },
+    "order_bys": [{ "metric": { "metric_name": "eventCount" }, "desc": true }],
+    "limit": 15
+  }
+}
+```
+
+### 15. Outbound `click` by location / platform
+
+```json
+{
+  "toolName": "run_report",
+  "arguments": {
+    "property_id": "properties/430022966",
+    "date_ranges": [{ "start_date": "7daysAgo", "end_date": "today", "name": "Last7Days" }],
+    "dimensions": ["customEvent:location", "customEvent:platform"],
+    "metrics": ["eventCount", "activeUsers"],
+    "dimension_filter": {
+      "filter": {
+        "field_name": "eventName",
+        "string_filter": { "match_type": 2, "value": "click", "case_sensitive": true }
+      }
+    },
+    "order_bys": [{ "metric": { "metric_name": "eventCount" }, "desc": true }],
     "limit": 15
   }
 }

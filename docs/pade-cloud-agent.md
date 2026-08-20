@@ -69,7 +69,7 @@ make ga-trends-test
 # or: bash scripts/ga-trends-test.sh
 ```
 
-Reports run sequentially with brief pauses (`PADE_PAUSE=0.75` default) to avoid broker identity-mint contention. Override: `PADE_PAUSE=1.5 make ga-trends-test`.
+The pack is **13 core reports** plus realtime screens (8b) and optional custom-dimension breakdowns (14–15). Brief rendering lives in [`tools/ga_trends_brief.py`](../tools/ga_trends_brief.py). Reports run sequentially with brief pauses (`PADE_PAUSE=0.75` default) to avoid broker identity-mint contention. Override: `PADE_PAUSE=1.5 make ga-trends-test`.
 
 ## Environment builds
 
