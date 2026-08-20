@@ -78,23 +78,31 @@ Use `CallMcpTool` with `server: "user-analytics-mcp"`. Exact MCP JSON: [reports.
 
 ## Standard report pack
 
-Run these every time unless the user narrows scope:
+Run these every time unless the user narrows scope. Cloud Agent path: `make ga-trends-test` (13 core reports + realtime screens + optional custom-dimension breakdowns 14–15). Brief renderer: [`tools/ga_trends_brief.py`](../../../../tools/ga_trends_brief.py).
 
 | # | Report | Tool | Purpose |
 |---|--------|------|---------|
-| 1 | Overview + WoW | `run_report` | sessions, users, page views, engagement |
+| 1 | Overview + WoW | `run_report` | sessions, users, page views, engagement, duration |
 | 2 | Daily trend | `run_report` | `date` dimension |
 | 3 | Channels | `run_report` | `sessionDefaultChannelGroup` |
-| 4 | Top pages | `run_report` | `pagePath`, limit 15 |
-| 5 | Events | `run_report` | `eventName`, limit 25 |
+| 4 | Top pages | `run_report` | `pagePath`, limit 30 (path-area + slug bucketing) |
+| 5 | Events | `run_report` | `eventName`, limit 25 (all events, including automatic) |
 | 6 | Devices | `run_report` | `deviceCategory` |
 | 7 | Geography | `run_report` | `country`, limit 10 |
 | 8 | Realtime pulse | `run_realtime_report` | active users + top screens |
 | 9 | Device OS | `run_report` | `deviceCategory` + `operatingSystem` (you vs not you) |
 | 10 | Mobile models | `run_report` | `mobileDeviceBranding` + `mobileDeviceModel` (mobile only) |
 | 11 | Session source | `run_report` | `sessionSourceMedium` (Facebook, Vercel, Tag Assistant) |
+| 12 | Site custom events | `run_report` | `eventName` inList of shipped `AnalyticsEvents`, limit 50 |
+| 13 | Landing pages | `run_report` | `landingPage` (fallback `landingPagePlusQueryString`), limit 15 |
+| 14 | Observatory breakdown | `run_report` | `select_content` × `customEvent:content_type` / `item_id` / `method` (skip on 400) |
+| 15 | Outbound click breakdown | `run_report` | `click` × `customEvent:location` / `platform` (skip on 400) |
 
-Exact JSON arguments: [reports.md](reports.md)
+Exact JSON arguments: [reports.md](reports.md). Report 12 body can be emitted with `python3 tools/ga_trends_brief.py --report-body 12` so the inList stays in sync with the catalog.
+
+**Include in the brief (already in report 1/6/7 JSON):** `newUsers`, `engagementRate`, `averageSessionDuration`, device category, country.
+
+**Landing page 400:** retry report 13 with `landingPagePlusQueryString` (`--report-body 13b`). Do not fail the pack.
 
 ## Estimated you vs not you
 
@@ -109,7 +117,7 @@ Run reports **9–11** every time. Compute from **sessions** (not users). This i
 | `total` | Sessions from overview (Last7Days) |
 | `definite_not_you` | Sum sessions where `operatingSystem` is **Android**, **Linux**, or **Windows** (report 9) |
 | `mac_ios_pool` | Sum sessions where OS is **Macintosh** or **iOS** (report 9) |
-| `social_referral` | Sum sessions where `sessionSourceMedium` contains `facebook.com` or `m.facebook.com` (report 11) |
+| `social_referral` | Sum sessions where report 11 source host is `facebook.com` or a `*.facebook.com` subdomain (split `sessionSourceMedium` on ` / `; not a URL substring) |
 | `tooling_you` | Sum sessions where source is `vercel.com` or `tagassistant.google.com` (report 11) |
 | `iphone13_you` | Sessions with `mobileDeviceModel` = `iPhone 13` (report 10) |
 | `macintosh_sessions` | Sessions with `operatingSystem` = `Macintosh` (report 9) |
@@ -132,18 +140,43 @@ Always state that **GA does not label “you”** without internal traffic; reco
 
 Call out in the block: generic **iPhone** (no model) may still be the owner; **Nexus 5X** / **Linux** are usually bots or cloud, not readers.
 
-## Custom events to highlight
+## Site custom events (source of truth)
 
-After consent, the site sends (see `lib/analytics/events.ts`):
+After consent, the site sends the names in `AnalyticsEvents` (`apps/site/lib/analytics/events.ts`). Group report 12 into product-activity tables. Omit empty surfaces. `question_path_complete` is defined but **not currently fired**.
 
-| Event | Meaning |
-|-------|---------|
-| `select_content` | Observatory focus / entity engagement (`content_type`, `item_id`, `method`) |
-| `file_download` | Book EPUB/PDF/DOCX |
-| `click` | Outbound CTA (`outbound: true`, `location`, `platform`) |
-| `generate_lead` | Newsletter (future) |
+| Surface | Events |
+|---------|--------|
+| **Reader funnel (ANALYTICS-001)** | `chapter_open` → `next_chapter` → `file_download` |
+| **Search** | `search_open`, `search_query`, `search_select`, `search_refine`, `search_no_results`, `search_expand` |
+| **Questions** | `question_section_view`, `question_select`, `question_path_start`, `question_stop_open`, `question_related_select`, `question_continue_book`, `question_search_handoff`, `question_observatory_pathway` |
+| **Trails** | `trail_index_view`, `trail_select`, `trail_path_start`, `trail_stop_open`, `trail_related_select`, `trail_continue_book`, `trail_search_handoff`, `trail_observatory_pathway` |
+| **Books catalog** | `books_catalog_view`, `books_shelf_select`, `books_filter_*`, `books_sort_change`, `books_search`, `books_card_select`, `books_no_match`, `books_start_here_select` |
+| **Book overview** | `book_overview_primary_action`, `book_overview_concept_select`, `book_overview_related_select`, `book_overview_edition_history_open`, `edition_*` |
+| **Observatory** | `select_content` (`content_type`, `item_id`, `method`) |
+| **What's new** | `whats_new_view`, `whats_new_select`, `whats_new_filter`, `whats_new_home_select` |
+| **Games** | `game_started`, `challenge_answered`, `challenge_completed`, `related_content_opened`, `session_completed`, `session_delight_shown` |
+| **Outbound / recommended** | `click` (outbound CTA), `file_download`, `generate_lead` (newsletter — **future**, not in `AnalyticsEvents` yet) |
 
-In the events report, call out whether these appear. Absence usually means low traffic, consent denied, or non-production.
+Call out whether `select_content`, `file_download`, and `click` appear. Absence usually means low traffic, consent denied, or non-production. Enhanced Measurement may also emit `click` / `file_download`; do not treat those as a session funnel.
+
+**Path-area buckets** (from report 4 `pagePath`, not event params): `/` home, `/start`, `/explore/books/…/chapters/` reader, other `/explore/books/` catalog/overview, other `/explore/`, `/questions/`, `/trails/`, `/search`, `/games/`, `/whats-new`, `/podcast`, other. Parse book/question/trail/chapter **slugs** from those paths.
+
+### Custom dimensions (probed 2026-08-20)
+
+**Registered** (`customEvent:`): `content_type`, `item_id`, `location`, `method`, `platform`, `file_extension`, `file_name`, `link_url`, `link_text`.
+
+**Not registered:** `book_id`, `question_id`, `trail_id`, `surface`, `action_kind`. Those views stay on `pagePath` slugs until Admin registration.
+
+Probe:
+
+```bash
+pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
+  --capability google-analytics.read --quiet -- \
+  apps/site/scripts/ga4-get-metadata.sh \
+  | python3 -c "import json,sys; d=json.load(sys.stdin); print('\n'.join(sorted(x['apiName'] for x in d.get('dimensions',[]) if x.get('apiName','').startswith('customEvent:'))))"
+```
+
+Reports 14–15 use the registered dims. **Do not fail the pack** if a custom-dimension report 400s.
 
 ## Optional deep dives (user must ask or say "full")
 
@@ -154,7 +187,7 @@ In the events report, call out whether these appear. Absence usually means low t
 
 ## Output template
 
-Deliver a single markdown brief:
+Prefer `python3 tools/ga_trends_brief.py <report-json-dir>` (what `make ga-trends-test` prints). Deliver a single markdown brief:
 
 ```markdown
 # GA trends — After Certainty
@@ -164,14 +197,36 @@ Deliver a single markdown brief:
 [1–2 sentences: up/down/flat vs prior week, caveats if all traffic is one day]
 
 ## Overview
-| Metric | This period | Prior period (if any) |
-|--------|------------:|----------------------:|
+| Metric | This period | Prior period |
+|--------|------------:|-------------:|
+sessions, activeUsers, newUsers, screenPageViews, engagedSessions, engagementRate, averageSessionDuration, eventCount
 
-## Daily
-| Date | Sessions | Users | Page views |
-
-## Channels / Pages / Events
+## Daily / Channels / Devices / Geography
 [tables]
+
+## Where they land
+| Landing page | Sessions | Users |
+
+## What they view (path areas)
+| Area | Page views |
+
+## Top pages
+[table, first 15 of report 4]
+
+## Top content (from URLs)
+Books / questions / trails / chapters — slugs from pagePath
+
+## Events
+Top automatic + custom (⭐ = site custom)
+
+## What they did (product activity)
+Per-surface tables from report 12; omit empty groups
+
+## Reader funnel
+chapter_open / next_chapter / file_download counts and ratios (not a true session funnel)
+
+## Search health
+search_query vs search_no_results vs search_select (omit rates if search_query is 0)
 
 ## Estimated you vs not you
 Heuristic only (owner devices: Mac + iPhone). Configure internal traffic in GA4 for a definitive split.
@@ -194,6 +249,7 @@ Active users now: N
 
 ## Notes
 - Consent / custom events / data quality caveats
+- Custom dimensions still unregistered → pagePath slugs only
 - Suggested follow-ups (1–3 bullets)
 ```
 
@@ -204,6 +260,9 @@ Active users now: N
 - **Unassigned** channel often means missing UTM / direct app traffic — note, don't panic.
 - **Engagement rate** near 0 with few sessions is noisy.
 - **You vs not you:** never present the middle estimate as exact; show the range and recommend internal-traffic IP filters. iPhone model is often `(not set)` or generic `iPhone` even for the owner's device.
+- **Reader funnel / search rates:** event counts are not session-scoped; `next_chapter / chapter_open` can exceed 1.0 with repeat readers.
+- **`click` / `file_download`:** may mix Enhanced Measurement with site `trackEvent`.
+- **`question_path_complete`:** defined in TypeScript, not fired yet — do not treat absence as a product bug.
 
 ## Security guardrails
 
