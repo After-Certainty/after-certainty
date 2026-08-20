@@ -14,12 +14,14 @@ from ga_trends_brief import (
     event_counts,
     event_name_filter,
     funnel_stats,
+    is_facebook_session_source,
     mcp_event_name_filter,
     path_area,
     question_slug_from_path,
     render_brief,
     report_body,
     search_health,
+    session_source_host,
     trail_slug_from_path,
 )
 
@@ -81,6 +83,17 @@ def test_slug_parsers_skip_indexes() -> None:
         chapter_key_from_path("/explore/books/how-meaning-moves/chapters/front-matter-introduction")
         == "how-meaning-moves/front-matter-introduction"
     )
+
+
+def test_facebook_session_source_is_host_not_substring() -> None:
+    assert session_source_host("m.facebook.com / referral") == "m.facebook.com"
+    assert is_facebook_session_source("facebook.com / referral")
+    assert is_facebook_session_source("m.facebook.com / referral")
+    assert is_facebook_session_source("l.facebook.com / referral")
+    assert not is_facebook_session_source("notfacebook.com / referral")
+    assert not is_facebook_session_source("evil.com / referral")
+    assert not is_facebook_session_source("google / organic")
+    assert not is_facebook_session_source("")
 
 
 def test_funnel_and_search_ratios() -> None:

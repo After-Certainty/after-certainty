@@ -117,7 +117,7 @@ Run reports **9–11** every time. Compute from **sessions** (not users). This i
 | `total` | Sessions from overview (Last7Days) |
 | `definite_not_you` | Sum sessions where `operatingSystem` is **Android**, **Linux**, or **Windows** (report 9) |
 | `mac_ios_pool` | Sum sessions where OS is **Macintosh** or **iOS** (report 9) |
-| `social_referral` | Sum sessions where `sessionSourceMedium` contains `facebook.com` or `m.facebook.com` (report 11) |
+| `social_referral` | Sum sessions where report 11 source host is `facebook.com` or a `*.facebook.com` subdomain (split `sessionSourceMedium` on ` / `; not a URL substring) |
 | `tooling_you` | Sum sessions where source is `vercel.com` or `tagassistant.google.com` (report 11) |
 | `iphone13_you` | Sessions with `mobileDeviceModel` = `iPhone 13` (report 10) |
 | `macintosh_sessions` | Sessions with `operatingSystem` = `Macintosh` (report 9) |

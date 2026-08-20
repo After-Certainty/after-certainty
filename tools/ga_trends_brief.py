@@ -333,6 +333,17 @@ def chapter_key_from_path(page_path: str) -> str | None:
     return f"{match.group(1)}/{match.group(2)}"
 
 
+def session_source_host(source_medium: str) -> str:
+    """Return the GA4 source host from ``source / medium`` (never a URL substring)."""
+    return source_medium.split(" / ", 1)[0].strip().lower()
+
+
+def is_facebook_session_source(source_medium: str) -> bool:
+    """True when the session source host is facebook.com or a subdomain."""
+    host = session_source_host(source_medium)
+    return host == "facebook.com" or host.endswith(".facebook.com")
+
+
 def event_counts(event_rows: list[dict[str, str]]) -> dict[str, float]:
     counts: dict[str, float] = {}
     for row in event_rows:
@@ -582,7 +593,7 @@ def render_brief(out_dir: Path, *, pulled: str | None = None) -> str:
     social_referral = sum(
         num(r.get("sessions"))
         for r in src_rows
-        if "facebook.com" in r.get("sessionSourceMedium", "")
+        if is_facebook_session_source(r.get("sessionSourceMedium", ""))
     )
 
     you_signals = tooling_you + iphone13_you + round(macintosh_sessions * 0.65)
