@@ -1,29 +1,80 @@
 ---
 name: ga-trends
 description: >-
-  Pulls Google Analytics 4 trend reports for After Certainty via the analytics
-  MCP (user-analytics-mcp). Use when the user asks for GA trends, traffic
-  updates, analytics reports, weekly metrics, or to run a regular analytics
-  check.
+  Pulls Google Analytics 4 trend reports for After Certainty. Primary path:
+  PADE v0.1.0 broker on Cursor Cloud Agents. Fallback: analytics MCP on local
+  laptop. Use when the user asks for GA trends, traffic updates, analytics
+  reports, weekly metrics, or a regular analytics check.
 ---
 
 # GA4 trends (After Certainty)
 
+## Auth paths
+
+| Priority | Path | When |
+|----------|------|------|
+| **Primary** | PADE broker + `pade exec --capability google-analytics.read` | Cursor Cloud Agent (this repo) |
+| **Fallback** | MCP `user-analytics-mcp` + `gcloud auth application-default login` | Local laptop / MCP already configured |
+
 ## Prerequisites
+
+### Cloud Agent (primary — PADE broker)
+
+- Released **PADE v0.1.0** on `PATH` (from [`.cursor/install-pade.sh`](../../../../.cursor/install-pade.sh) via [`.cursor/environment.json`](../../../../.cursor/environment.json))
+- [`pade.yaml`](../../../../pade.yaml) and [`.pade/agent-bindings.yaml`](../../../../.pade/agent-bindings.yaml) at repo root
+- Cursor Cloud Agent VM (identity socket for OIDC)
+- **Do not** require `gcloud auth application-default login` on Cloud Agents
+- **Do not** mount GA service-account JSON, GitHub App keys, or `KSM_CONFIG` on the agent VM
+
+### Local laptop (fallback — MCP)
 
 - MCP server: `user-analytics-mcp` (Google `analytics-mcp`)
 - Read tool schemas under `mcps/user-analytics-mcp/tools/` before calling
-- **Property ID for reports:** `properties/497528828` (not measurement ID `G-H7FSEF4WLW`)
-- Timezone in reports: America/Denver
+- **Property ID for MCP reports:** `properties/430022966` (not measurement ID `G-H7FSEF4WLW`) — verify against broker if unsure
+- If MCP auth fails, tell the user to run `gcloud auth application-default login` (ADC expires after ~7 days in testing mode)
 
-If MCP auth fails, tell the user to run `gcloud auth application-default login` (ADC expires after ~7 days in testing mode).
+### Property ID
+
+- **PADE path:** use `$GA_PROPERTY_ID` injected by the broker into `pade exec` children. Run property-meta once per session if unknown:
+
+```bash
+pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
+  --capability google-analytics.read --quiet -- \
+  apps/site/scripts/ga4-property-meta.sh
+```
+
+- **Do not hardcode** a property ID in PADE report calls — the broker sets `GA_PROPERTY_ID`.
+- **MCP fallback:** default to `properties/430022966` unless property-meta or Admin confirms otherwise.
+
+Timezone in reports: America/Denver
 
 ## When the user runs this skill
 
-1. **Batch all `run_report` / `run_realtime_report` calls in one parallel tool batch** (do not serialize).
-2. Use date range **`7daysAgo` → `today`** for weekly trends unless the user asks otherwise.
-3. For week-over-week comparison, add a second range **`14daysAgo` → `8daysAgo`** with empty `dimensions` (GA returns a `dateRange` column automatically).
-4. If a report returns **zero rows**, retry the same query with `end_date: "today"` (excluding today often yields empty data on low-traffic properties).
+1. **Choose auth path:** Cloud Agent → PADE; local desktop with MCP configured → MCP fallback.
+2. **Batch report calls** (do not serialize unnecessarily):
+   - **MCP fallback:** run all reports in one parallel batch.
+   - **PADE path:** run **≤3 concurrent** `pade exec` calls, or sequential with ~1s pauses — parallel `pade exec` can hit broker identity-mint contention.
+3. Use date range **`7daysAgo` → `today`** for weekly trends unless the user asks otherwise.
+4. For week-over-week comparison, add a second range **`14daysAgo` → `8daysAgo`** with empty dimensions (GA returns a `dateRange` column automatically).
+5. If a report returns **zero rows**, retry the same query with `endDate: "today"` (excluding today often yields empty data on low-traffic properties).
+
+### PADE execution
+
+Run each report via `pade exec` and the repo scripts. Property ID comes from `$GA_PROPERTY_ID` (URL in script), not the JSON body.
+
+```bash
+pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
+  --capability google-analytics.read --quiet -- \
+  apps/site/scripts/ga4-run-report.sh '<json-body>'
+```
+
+Realtime reports use `ga4-run-realtime-report.sh` instead.
+
+Exact REST JSON bodies: [reports.md](reports.md) (PADE path section).
+
+### MCP execution
+
+Use `CallMcpTool` with `server: "user-analytics-mcp"`. Exact MCP JSON: [reports.md](reports.md) (MCP fallback section).
 
 ## Standard report pack
 
@@ -98,8 +149,8 @@ In the events report, call out whether these appear. Absence usually means low t
 
 - **28-day totals:** `28daysAgo` → `today`, no dimensions
 - **Explore/Observatory:** filter `pagePath` contains `/explore` or events `select_content`
-- **Funnel:** `run_funnel_report` — home → explore → select_content (see reports.md)
-- **Conversions:** `run_conversions_report` if key events are marked in GA4 Admin
+- **Funnel:** `run_funnel_report` — home → explore → select_content (MCP only; see reports.md)
+- **Conversions:** `run_conversions_report` if key events are marked in GA4 Admin (MCP only)
 
 ## Output template
 
@@ -107,7 +158,7 @@ Deliver a single markdown brief:
 
 ```markdown
 # GA trends — After Certainty
-**Property:** properties/497528828 · **Range:** [dates] · **Pulled:** [today]
+**Property:** [resolved GA_PROPERTY_ID] · **Range:** [dates] · **Pulled:** [today]
 
 ## Headline
 [1–2 sentences: up/down/flat vs prior week, caveats if all traffic is one day]
@@ -154,6 +205,18 @@ Active users now: N
 - **Engagement rate** near 0 with few sessions is noisy.
 - **You vs not you:** never present the middle estimate as exact; show the range and recommend internal-traffic IP filters. iPhone model is often `(not set)` or generic `iPhone` even for the owner's device.
 
+## Security guardrails
+
+- **Never echo `$GA_ACCESS_TOKEN`** or paste tokens into chat, commits, or PR descriptions.
+- If `pade exec` fails with **401/403**, check broker policy subject and Cloud Agent identity:
+
+```bash
+pade identity --audience "https://pade-broker-754719312452.us-central1.run.app"
+```
+
+Expected allowed subject: `user:253367178`. MCP path remains documented for local dev without broker.
+
 ## Property discovery
 
-Only run `get_account_summaries` if property ID is unknown or user asks about accounts. Default to `properties/497528828`.
+- **PADE:** run `ga4-property-meta.sh` once if `$GA_PROPERTY_ID` / display name is unknown.
+- **MCP:** only run `get_account_summaries` if property ID is unknown or user asks about accounts. Default to `properties/430022966`.

@@ -1,0 +1,12 @@
+version: "0.1"
+capabilities:
+  github.repo.read:
+    provider: broker
+    broker:
+      endpoint: "https://pade-broker-754719312452.us-central1.run.app"
+      audience: "https://pade-broker-754719312452.us-central1.run.app"
+  google-analytics.read:
+    provider: broker
+    broker:
+      endpoint: "https://pade-broker-754719312452.us-central1.run.app"
+      audience: "https://pade-broker-754719312452.us-central1.run.app"

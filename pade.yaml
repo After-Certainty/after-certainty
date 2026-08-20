@@ -1,0 +1,10 @@
+apiVersion: pade.local/v1alpha1
+kind: DevelopmentSession
+metadata:
+  name: after-certainty
+spec:
+  capabilities:
+    github.repo.read:
+      access: use
+    google-analytics.read:
+      access: read
