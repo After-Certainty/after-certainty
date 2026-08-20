@@ -725,22 +725,22 @@ def render_brief(out_dir: Path, *, pulled: str | None = None) -> str:
     if books:
         add("**Books**")
         for slug, views in books:
-            add(f"- `{slug}`: {views:.0f} views")
+            add(f"- `{slug}`: {views:.0f} {'view' if views == 1 else 'views'}")
         add("")
     if questions:
         add("**Questions**")
         for slug, views in questions:
-            add(f"- `{slug}`: {views:.0f} views")
+            add(f"- `{slug}`: {views:.0f} {'view' if views == 1 else 'views'}")
         add("")
     if trails:
         add("**Trails**")
         for slug, views in trails:
-            add(f"- `{slug}`: {views:.0f} views")
+            add(f"- `{slug}`: {views:.0f} {'view' if views == 1 else 'views'}")
         add("")
     if chapters:
         add("**Chapters**")
         for slug, views in chapters:
-            add(f"- `{slug}`: {views:.0f} views")
+            add(f"- `{slug}`: {views:.0f} {'view' if views == 1 else 'views'}")
         add("")
     if not (books or questions or trails or chapters):
         add("No book, question, trail, or chapter paths in the top pages report.")
