@@ -51,7 +51,9 @@ Timezone in reports: America/Denver
 ## When the user runs this skill
 
 1. **Choose auth path:** Cloud Agent → PADE; local desktop with MCP configured → MCP fallback.
-2. **Batch all report calls in one parallel batch** (do not serialize).
+2. **Batch report calls** (do not serialize unnecessarily):
+   - **MCP fallback:** run all reports in one parallel batch.
+   - **PADE path:** run **≤3 concurrent** `pade exec` calls, or sequential with ~1s pauses — parallel `pade exec` can hit broker identity-mint contention.
 3. Use date range **`7daysAgo` → `today`** for weekly trends unless the user asks otherwise.
 4. For week-over-week comparison, add a second range **`14daysAgo` → `8daysAgo`** with empty dimensions (GA returns a `dateRange` column automatically).
 5. If a report returns **zero rows**, retry the same query with `endDate: "today"` (excluding today often yields empty data on low-traffic properties).
