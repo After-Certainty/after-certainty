@@ -222,7 +222,10 @@ jobs:
           rm -rf .vercel
           mkdir -p .vercel
           printf '%s\n' "{\"projectId\":\"${VERCEL_PROJECT_ID}\",\"orgId\":\"${VERCEL_ORG_ID}\"}" > .vercel/project.json
-          vercel whoami --token="${VERCEL_TOKEN}"
+          if ! vercel whoami --token="${VERCEL_TOKEN}"; then
+            echo "::error::VERCEL_TOKEN is invalid or not tied to a Vercel user (CLI: User not found). Recreate the token under the team that owns this project and update the GitHub Actions secret."
+            exit 1
+          fi
 
       - name: Pull Vercel environment (preview)
         if: steps.vercel_creds.outputs.configured == 'true' && github.event_name == 'pull_request'
