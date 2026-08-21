@@ -2,17 +2,44 @@
  * Canonical origin for metadata (`metadataBase`), RSS, and sitemaps.
  * Without `NEXT_PUBLIC_SITE_URL`, local dev defaults to localhost so `<link rel="icon">`
  * URLs resolve on your machine instead of pointing at production.
+ *
+ * Rejects non-http(s) / unparseable / non-site values (e.g. mistaken secrets pulled
+ * into CI via `vercel pull`) and falls back to `VERCEL_URL` or localhost.
  */
 export function resolveDeploymentUrl(): string {
+  const candidates: string[] = [];
   const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-  if (explicit) {
-    return explicit.replace(/\/$/, "");
-  }
+  if (explicit) candidates.push(explicit);
   const vercel = process.env.VERCEL_URL?.trim();
   if (vercel) {
-    return `https://${vercel}`;
+    candidates.push(vercel.startsWith("http://") || vercel.startsWith("https://") ? vercel : `https://${vercel}`);
+  }
+  candidates.push("http://localhost:3000");
+
+  for (const raw of candidates) {
+    const normalized = raw.replace(/\/$/, "");
+    try {
+      const withScheme =
+        normalized.startsWith("http://") || normalized.startsWith("https://")
+          ? normalized
+          : `https://${normalized}`;
+      const parsed = new URL(withScheme);
+      if (!isUsableSiteOrigin(parsed)) continue;
+      return parsed.origin;
+    } catch {
+      // try next candidate
+    }
   }
   return "http://localhost:3000";
+}
+
+function isUsableSiteOrigin(parsed: URL): boolean {
+  if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return false;
+  const host = parsed.hostname;
+  if (!host) return false;
+  if (host === "localhost" || host === "127.0.0.1") return true;
+  // Real site hosts are dotted (example.com, *.vercel.app); reject bare tokens.
+  return host.includes(".");
 }
 
 /** Default Anchor RSS — override with `PODCAST_RSS_URL` on the server */

@@ -235,12 +235,36 @@ jobs:
         if: steps.vercel_creds.outputs.configured == 'true' && github.event_name == 'push'
         run: vercel pull --yes --environment=production --token="${VERCEL_TOKEN}"
 
+      # vercel build loads .vercel/.env.*.local from pull; a missing/invalid
+      # NEXT_PUBLIC_SITE_URL there breaks next metadataBase (Invalid URL).
+      - name: Ensure NEXT_PUBLIC_SITE_URL in pulled Vercel env
+        if: steps.vercel_creds.outputs.configured == 'true'
+        env:
+          SITE_URL: https://www.after-certainty.com
+        run: |
+          set -euo pipefail
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            env_file=".vercel/.env.preview.local"
+          else
+            env_file=".vercel/.env.production.local"
+          fi
+          mkdir -p .vercel
+          if [[ -f "${env_file}" ]]; then
+            grep -v '^NEXT_PUBLIC_SITE_URL=' "${env_file}" > "${env_file}.tmp" || true
+            mv "${env_file}.tmp" "${env_file}"
+          fi
+          printf 'NEXT_PUBLIC_SITE_URL=%s\n' "${SITE_URL}" >> "${env_file}"
+
       - name: Build project artifacts (preview)
         if: steps.vercel_creds.outputs.configured == 'true' && github.event_name == 'pull_request'
+        env:
+          NEXT_PUBLIC_SITE_URL: https://www.after-certainty.com
         run: vercel build --token="${VERCEL_TOKEN}"
 
       - name: Build project artifacts (production)
         if: steps.vercel_creds.outputs.configured == 'true' && github.event_name == 'push'
+        env:
+          NEXT_PUBLIC_SITE_URL: https://www.after-certainty.com
         run: vercel build --prod --token="${VERCEL_TOKEN}"
 
       - name: Deploy prebuilt (preview)
