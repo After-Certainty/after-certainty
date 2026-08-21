@@ -49,6 +49,9 @@ dev = [
 
 [tool.uv]
 package = false
+override-dependencies = [
+  "pip>=26.2",
+]
 
 [tool.ruff]
 target-version = "py311"
