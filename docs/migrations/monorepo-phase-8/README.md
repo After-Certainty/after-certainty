@@ -16,7 +16,7 @@ DX and build-graph polish only — **no production behavior change**. Wire a cle
 | Root [`package.json`](../../../package.json) | `site:dev:local`, `site:dev:watch`, `site:build:local`, `corpus:watch-manifest`, `corpus:sync-semantic`, filtered turbo build/lint/test |
 | [`scripts/watch_local_manifest.mjs`](../../../scripts/watch_local_manifest.mjs) | Debounced regenerate+install on corpus path changes |
 | [`scripts/dev_site_with_manifest_watch.sh`](../../../scripts/dev_site_with_manifest_watch.sh) | Watcher + `site:dev` together |
-| [`scripts/vercel_ignore_build.sh`](../../../scripts/vercel_ignore_build.sh) | Skip `docs/**` and `semantic/_drafts/**` |
+| Vercel ignore rules (historical) | `scripts/vercel_ignore_build.sh` refined skip rules; **removed** when Site CI owns deploys — see [`docs/site-deploy.md`](../../site-deploy.md) |
 | `make sync-semantic` / `npm run corpus:sync-semantic` | `uv sync --frozen --only-group semantic` |
 
 ## Local DX
@@ -47,9 +47,9 @@ Site production/preview installs still use [`scripts/vercel_build.sh`](../../../
 
 | Mechanism | Role |
 |-----------|------|
-| `scripts/vercel_ignore_build.sh` | Vercel Ignored Build Step — corpus + site paths; skips docs and semantic drafts |
+| Site CI path filters | Decide whether GitHub Actions builds/deploys ([`docs/site-deploy.md`](../../site-deploy.md)) |
 | `npm run site:turbo-ignore` | Optional `turbo-ignore after-certainty-site` for package-graph skips |
-| Site CI path filters | Unchanged; still generate+install before lint/test/build |
+| ~~`scripts/vercel_ignore_build.sh`~~ | Removed — Vercel Git auto-builds disabled |
 
 ## uv groups (polish)
 
@@ -71,7 +71,7 @@ Site production/preview installs still use [`scripts/vercel_build.sh`](../../../
 
 ```bash
 make lint
-python3 -m pytest tests/test_vercel_ignore_build.py -q
+python3 -m pytest tests/test_install_local_manifest_for_site.py -q
 npm run corpus:sync-semantic
 GITHUB_REPOSITORY=ksteffe/after-certainty npm run site:build:local
 ```

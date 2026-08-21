@@ -73,11 +73,20 @@ After merging the Dependabot config, confirm those Code security toggles are on 
 
 Optional: once **Dependency graph** is enabled in the same settings page, you can add GitHub’s [Dependency Review Action](https://github.com/actions/dependency-review-action) to fail PRs that introduce high+ severity vulnerable packages. It cannot run until that setting is on.
 
-## Deployment (Vercel)
+## Deployment (Vercel via GitHub Actions)
 
-1. Connect [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty); Root Directory `apps/site` (see `vercel.json`).
-2. Set **NEXT_PUBLIC_SITE_URL** to `https://www.after-certainty.com`, plus `SEMANTIC_MANIFEST_USE_LOCAL=1` and `SEMANTIC_MANIFEST_OFFLINE=1`.
-3. Install/build generate a same-checkout semantic manifest before `next build` — see [`docs/migrations/monorepo-phase-6/`](../../docs/migrations/monorepo-phase-6/).
+Builds and deploys are driven by GitHub Actions, not Vercel’s automatic Git builds.
+See the maintainer guide: [`docs/site-deploy.md`](../../docs/site-deploy.md).
+
+1. Vercel project Root Directory: `apps/site` ([`vercel.json`](./vercel.json) —
+   `installCommand` / `buildCommand`; `git.deploymentEnabled` is `false`).
+2. Set **NEXT_PUBLIC_SITE_URL** to `https://www.after-certainty.com`, plus
+   `SEMANTIC_MANIFEST_USE_LOCAL=1` and `SEMANTIC_MANIFEST_OFFLINE=1` on the Vercel
+   project (runtime).
+3. GitHub Actions secret `VERCEL_TOKEN` and variables `VERCEL_ORG_ID` /
+   `VERCEL_PROJECT_ID` (see [`docs/site-deploy.md`](../../docs/site-deploy.md)).
+4. Install/build generate a same-checkout semantic manifest before `next build` —
+   see [`docs/migrations/monorepo-phase-6/`](../../docs/migrations/monorepo-phase-6/).
 
 The podcast RSS URL is `siteConfig.podcastRssUrl` (Anchor). The site **fetches that feed on the server** (`lib/podcast/rss.ts`, cached + **revalidated every hour** via `fetch`); episode lists and the home “latest episode” block use that data. If the feed is unreachable (offline dev, CI, etc.), lists fall back to `data/podcast-episodes.json`. `/feed.xml` still redirects to Anchor for podcast apps.
 

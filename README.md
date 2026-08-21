@@ -24,7 +24,7 @@ make generate-semantic-manifest   # local corpus artifact under build/
 
 Phase notes: [`docs/migrations/monorepo-phase-0/`](docs/migrations/monorepo-phase-0/) · [`docs/migrations/monorepo-phase-1/`](docs/migrations/monorepo-phase-1/) · [`docs/migrations/monorepo-phase-2/`](docs/migrations/monorepo-phase-2/) · [`docs/migrations/monorepo-phase-3/`](docs/migrations/monorepo-phase-3/) · [`docs/migrations/monorepo-phase-4/`](docs/migrations/monorepo-phase-4/) · [`docs/migrations/monorepo-phase-5/`](docs/migrations/monorepo-phase-5/) · [`docs/migrations/monorepo-phase-6/`](docs/migrations/monorepo-phase-6/) · [`docs/migrations/monorepo-phase-7/`](docs/migrations/monorepo-phase-7/) · [`docs/migrations/monorepo-phase-8/`](docs/migrations/monorepo-phase-8/).
 
-Site CI runs from [`.github/workflows/site-ci.yml`](.github/workflows/site-ci.yml) (path-filtered). Local DX: `npm run site:dev:local` / `npm run site:dev:watch` / `npm run site:build:local` (Turbo: manifest → install → Next). Production/preview: [`apps/site/vercel.json`](apps/site/vercel.json). The former standalone site repository is [archived](https://github.com/ksteffe/after-certainty-site).
+Site CI runs from [`.github/workflows/site-ci.yml`](.github/workflows/site-ci.yml) (path-filtered). Local DX: `npm run site:dev:local` / `npm run site:dev:watch` / `npm run site:build:local` (Turbo: manifest → install → Next). Production/preview deploys: GitHub Actions `vercel build` + `vercel deploy --prebuilt` ([`docs/site-deploy.md`](docs/site-deploy.md); [`apps/site/vercel.json`](apps/site/vercel.json)). The former standalone site repository is [archived](https://github.com/ksteffe/after-certainty-site).
 
 ## Books and publishing
 
