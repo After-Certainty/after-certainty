@@ -165,9 +165,9 @@ jobs:
       )
     runs-on: ubuntu-latest
     timeout-minutes: 35
-    defaults:
-      run:
-        working-directory: apps/site
+    # Run Vercel CLI from the repo root. The project Root Directory is already
+    # `apps/site`; setting working-directory to apps/site doubles that path
+    # (…/apps/site/apps/site) and breaks `vercel deploy --prebuilt`.
     env:
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
@@ -180,7 +180,6 @@ jobs:
     steps:
       - name: Check Vercel credentials
         id: vercel_creds
-        working-directory: .
         run: |
           set -euo pipefail
           if [[ -z "${VERCEL_TOKEN}" || -z "${VERCEL_ORG_ID}" || -z "${VERCEL_PROJECT_ID}" ]]; then
@@ -206,8 +205,6 @@ jobs:
 
       - name: Install Vercel CLI (pinned)
         if: steps.vercel_creds.outputs.configured == 'true'
-        # Install at repo root so working-directory does not matter for global bin.
-        working-directory: .
         run: |
           set -euo pipefail
           npm install --global "vercel@${VERCEL_CLI_VERSION}"
@@ -215,6 +212,7 @@ jobs:
 
       # Env VERCEL_ORG_ID / VERCEL_PROJECT_ID alone can leave the CLI unable to load
       # project settings; write the link file explicitly (same shape as `vercel link`).
+      # Link at repo root so Root Directory `apps/site` resolves once.
       - name: Link Vercel project
         if: steps.vercel_creds.outputs.configured == 'true'
         run: |
