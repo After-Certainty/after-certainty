@@ -12,12 +12,15 @@
 
 | Change | Notes |
 |--------|--------|
-| [`apps/site/vercel.json`](../../../apps/site/vercel.json) | Install/build/ignore commands for Root Directory `apps/site` |
+| [`apps/site/vercel.json`](../../../apps/site/vercel.json) | Install/build commands for Root Directory `apps/site` |
 | [`scripts/vercel_install.sh`](../../../scripts/vercel_install.sh) | `npm ci` + `uv sync --frozen --only-group semantic` |
 | [`scripts/vercel_build.sh`](../../../scripts/vercel_build.sh) | Generate → install local → `next build` with `USE_LOCAL=1` + `OFFLINE=1`; assert `sourceCommit == VERCEL_GIT_COMMIT_SHA` |
-| [`scripts/vercel_ignore_build.sh`](../../../scripts/vercel_ignore_build.sh) | Skip builds when no site/corpus-affecting paths changed |
 | [`apps/site/lib/site-config.ts`](../../../apps/site/lib/site-config.ts) | `SEMANTIC_MANIFEST_USE_LOCAL=1` implies offline (remote fetch disabled) |
 | npm | `site:build:production` / `site:vercel:*` wrappers |
+
+> **Later change:** Vercel Ignored Build Step / `scripts/vercel_ignore_build.sh` were
+> removed when Site CI took over deploys (`vercel build` + `vercel deploy --prebuilt`).
+> See [`docs/site-deploy.md`](../../site-deploy.md).
 
 ## Env contract (after cutover)
 
@@ -40,7 +43,7 @@
 | Framework | Next.js (from `vercel.json`) |
 | Install Command | from `vercel.json` → `scripts/vercel_install.sh` |
 | Build Command | from `vercel.json` → `scripts/vercel_build.sh` |
-| Ignored Build Step | from `vercel.json` → `scripts/vercel_ignore_build.sh` |
+| Git automatic deployments | Disabled later (`git.deploymentEnabled: false`); see [`docs/site-deploy.md`](../../site-deploy.md) |
 | Node | 20.x |
 | Python | 3.12 available at build (used via uv) |
 
@@ -66,7 +69,7 @@ Do **not** move DNS until a monorepo production deployment is validated.
 
 ```bash
 make lint
-python3 -m pytest tests/test_install_local_manifest_for_site.py tests/test_vercel_ignore_build.py -q
+python3 -m pytest tests/test_install_local_manifest_for_site.py -q
 npm run site:test -- --run lib/site-config.test.ts lib/graph/manifest.test.ts lib/graph/offline-manifest.test.ts
 # Optional full production-shaped build (needs uv semantic group + generate):
 # npm run site:build:production

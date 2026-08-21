@@ -50,15 +50,16 @@ Chapter audio Git LFS ops (Phase 4):
 - Root `.gitattributes` tracks `books/*/audio/*.mp3` with Git LFS; receipts and
   alignment JSON stay in ordinary Git.
 - The generate workflow checks out with `lfs: true` and pushes LFS objects on the
-  review PR branch. Confirm the repo has Git LFS enabled and that Vercel/CI fetch
+  review PR branch. Confirm the repo has Git LFS enabled and that CI fetch
   LFS objects before install (install refuses pointer stubs).
-- Vercel builds run `scripts/ensure_git_lfs_audio.sh` from `vercel_build.sh` to
-  `git lfs pull` chapter MP3s before `install_local_manifest_for_site` (otherwise
-  Listen installs 0 units from pointer stubs).
-- Vercel env: set `CHAPTER_AUDIO_GITHUB_TOKEN` or `GITHUB_TOKEN` (fine-grained or
-  classic) with **Contents: Read** on this repo so private Git LFS objects can be
-  fetched. Without it, LFS pull fails and the deploy errors. Prefer the
-  `CHAPTER_AUDIO_GITHUB_TOKEN` name on Vercel to avoid collisions.
+- Site CI / `vercel build` runs `scripts/ensure_git_lfs_audio.sh` from
+  `vercel_build.sh` to `git lfs pull` chapter MP3s before
+  `install_local_manifest_for_site` (otherwise Listen installs 0 units from
+  pointer stubs). See [`docs/site-deploy.md`](../site-deploy.md).
+- If anything still builds on Vercel’s infrastructure, set
+  `CHAPTER_AUDIO_GITHUB_TOKEN` or `GITHUB_TOKEN` (Contents: Read) on the Vercel
+  project. Prefer `CHAPTER_AUDIO_GITHUB_TOKEN` to avoid collisions. Actions
+  uses the workflow `GITHUB_TOKEN` for the same pull.
 - Review PRs under `chapter-audio/generate-*` before merge — merging available
   audio makes Listen appear for those units on the live site (no env flag).
 
