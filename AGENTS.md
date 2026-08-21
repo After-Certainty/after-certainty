@@ -1,0 +1,38 @@
+# AGENTS.md
+
+Repository overview, toolchains, and standard commands live in [`README.md`](README.md)
+(corpus/publishing via Python + `uv` + Make; the website in [`apps/site`](apps/site) via
+npm workspaces + Turborepo + Next.js). Site-specific rules are in
+[`apps/site/AGENTS.md`](apps/site/AGENTS.md).
+
+## Cursor Cloud specific instructions
+
+The startup update script (`.cursor/install.sh`, wired via `.cursor/environment.json`)
+only refreshes dependencies: `uv sync --frozen` (full dev group) + `npm ci`, plus the
+optional PADE analytics CLI. Everything below is non-obvious runtime context.
+
+- **PATH after startup.** `uv`, the Python venv, and installed tools are not on `PATH`
+  in fresh shells. Before running Python/corpus or manifest commands, export:
+  `export PATH="$HOME/.local/bin:$PWD/.venv/bin:$PATH"`. This makes `python3` resolve the
+  `.venv` interpreter (with `pyyaml`/`jsonschema`) and puts `uv`, `ruff`, and `pytest` on
+  `PATH`. (PADE sets its own PATH via `/etc/profile.d/cursor-pade.sh`.)
+- **The site needs the local semantic manifest before it renders.** This is a
+  build/generate step and is intentionally kept out of the update script. Run it once
+  after startup (and again after editing `books/` or `semantic/`):
+  `make generate-semantic-manifest && make install-local-manifest-for-site`. Then start
+  the dev server with `npm run site:dev:local` (sets `SEMANTIC_MANIFEST_USE_LOCAL=1` +
+  `SEMANTIC_MANIFEST_OFFLINE=1`) — plain `npm run site:dev` tries to fetch a remote
+  manifest. Server serves on `http://localhost:3000`.
+- **Reader URLs.** `/books` 308-redirects to `/explore/books`. The chapter reader lives
+  at `/explore/books/<book-slug>/chapters/<chapter-slug>` (the `(reader)` route group
+  does not appear in the URL).
+- **`apps/site/AGENTS.md` self-modifies.** `next dev` rewrites its `nextjs-agent-rules`
+  block on every run, so it shows as an uncommitted change after starting the site. This
+  is expected; ignore it or commit it with your work.
+- **pandoc is only for book export.** `make build-book DIR=books/<name>` and the
+  `export-*` targets require pandoc, which is a system package not in the update script.
+  Install it on demand: `sudo apt-get install -y pandoc`. Typst and epubcheck are
+  optional extras (`scripts/install_typst.sh`, `scripts/install_epubcheck.sh`).
+- **Node engine warnings are benign.** The base image ships Node v22.14; some transitive
+  deps emit `EBADENGINE` warnings (they want a newer 22.x) but lint/test/build/run all
+  work.
