@@ -4,10 +4,50 @@ import {
   DEFAULT_GA_MEASUREMENT_ID,
   isSemanticManifestOffline,
   isSemanticManifestUseLocal,
+  resolveDeploymentUrl,
   resolveGaMeasurementId,
   resolveSiteSocialLinks,
   shouldLoadGoogleAnalytics,
 } from "@/lib/site-config";
+
+describe("resolveDeploymentUrl", () => {
+  const keys = ["NEXT_PUBLIC_SITE_URL", "VERCEL_URL"] as const;
+  const saved: Record<string, string | undefined> = {};
+
+  afterEach(() => {
+    for (const k of keys) {
+      const v = saved[k];
+      if (v === undefined) delete process.env[k];
+      else process.env[k] = v;
+    }
+  });
+
+  function stash() {
+    for (const k of keys) {
+      saved[k] = process.env[k];
+      delete process.env[k];
+    }
+  }
+
+  it("uses a valid NEXT_PUBLIC_SITE_URL", () => {
+    stash();
+    process.env.NEXT_PUBLIC_SITE_URL = "https://www.after-certainty.com/";
+    expect(resolveDeploymentUrl()).toBe("https://www.after-certainty.com");
+  });
+
+  it("skips invalid NEXT_PUBLIC_SITE_URL and falls back to localhost", () => {
+    stash();
+    process.env.NEXT_PUBLIC_SITE_URL = "not-a-url";
+    expect(resolveDeploymentUrl()).toBe("http://localhost:3000");
+  });
+
+  it("uses VERCEL_URL when explicit site URL is invalid", () => {
+    stash();
+    process.env.NEXT_PUBLIC_SITE_URL = ":::";
+    process.env.VERCEL_URL = "my-app.vercel.app";
+    expect(resolveDeploymentUrl()).toBe("https://my-app.vercel.app");
+  });
+});
 
 describe("semantic manifest env flags", () => {
   const keys = ["SEMANTIC_MANIFEST_OFFLINE", "SEMANTIC_MANIFEST_USE_LOCAL"] as const;

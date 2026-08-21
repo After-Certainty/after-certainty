@@ -76,7 +76,7 @@ test.describe("Explore discovery mobile redesign", () => {
     await expect(page.getByRole("heading", { name: "Thinkers", level: 1 })).toBeVisible();
     await expect(page.locator('[data-density="editorial"]')).toBeVisible();
 
-    const filterSummary = page.getByText("Filter & sort");
+    const filterSummary = page.locator("#main").getByText("Filter & sort");
     await expect(filterSummary).toBeVisible();
     await filterSummary.click();
 
@@ -92,7 +92,7 @@ test.describe("Explore discovery mobile redesign", () => {
     await expect(page.getByRole("heading", { name: "Sources", level: 1 })).toBeVisible();
     await expect(page.locator('[data-density="editorial"]')).toBeVisible();
 
-    await page.getByText("Filter & sort").click();
+    await page.locator("#main").getByText("Filter & sort").click();
     await expect(page.getByRole("button", { name: "article", pressed: true })).toBeVisible();
     await expect(page.getByRole("button", { name: "Title A–Z", pressed: true })).toBeVisible();
     await assertNoHorizontalOverflow(page);
