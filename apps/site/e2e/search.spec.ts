@@ -46,10 +46,16 @@ test.describe("global search", () => {
     await page.goto("/search?q=trust", { waitUntil: "domcontentloaded" });
     await expect(page.getByRole("heading", { level: 1, name: "Search" })).toBeVisible();
 
+    // Filter buttons render on SSR; wait until the client handler can update the URL.
     const bookFilter = page.getByRole("button", { name: "Book", exact: true });
     await expect(bookFilter).toBeVisible({ timeout: 15_000 });
-    await bookFilter.click();
-    await expect(page).toHaveURL(/type=book/);
+    await expect(async () => {
+      if ((await bookFilter.getAttribute("aria-pressed")) !== "true") {
+        await bookFilter.click();
+      }
+      await expect(bookFilter).toHaveAttribute("aria-pressed", "true", { timeout: 2_000 });
+      await expect(page).toHaveURL(/[?&]type=book\b/, { timeout: 2_000 });
+    }).toPass({ timeout: 15_000 });
   });
 
   test("header quick search opens with Control+K and navigates to a result", async ({ page }) => {
