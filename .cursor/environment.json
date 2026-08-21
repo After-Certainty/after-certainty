@@ -1,4 +1,4 @@
 {
   "name": "after-certainty",
-  "install": "bash .cursor/install-pade.sh"
+  "install": "bash .cursor/install.sh"
 }
