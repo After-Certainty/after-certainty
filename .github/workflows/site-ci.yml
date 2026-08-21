@@ -201,9 +201,20 @@ jobs:
         if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'push'
         run: vercel pull --yes --environment=production --token="${VERCEL_TOKEN}"
 
+      # Smudge chapter audio with the Actions token before `vercel pull`. Production
+      # Vercel env has been observed to inject a stale GITHUB_TOKEN that makes
+      # `git lfs pull` fail with "Maximum number of login attempts exceeded".
+      - name: Pull Git LFS chapter audio (Actions token)
+        if: steps.vercel_path.outputs.use_vercel == 'true'
+        env:
+          CHAPTER_AUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash scripts/ensure_git_lfs_audio.sh
+
       # vercel build loads .vercel/.env.*.local from pull; a missing/invalid
       # NEXT_PUBLIC_SITE_URL there breaks next metadataBase (Invalid URL).
-      - name: Ensure NEXT_PUBLIC_SITE_URL in pulled Vercel env
+      # Also strip GitHub auth vars so a bad Vercel-project token cannot override
+      # Actions credentials during scripts/vercel_build.sh → ensure_git_lfs_audio.
+      - name: Sanitize pulled Vercel env for Actions build
         if: steps.vercel_path.outputs.use_vercel == 'true'
         env:
           SITE_URL: https://www.after-certainty.com
@@ -216,7 +227,8 @@ jobs:
           fi
           mkdir -p .vercel
           if [[ -f "${env_file}" ]]; then
-            grep -v '^NEXT_PUBLIC_SITE_URL=' "${env_file}" > "${env_file}.tmp" || true
+            grep -Ev '^(NEXT_PUBLIC_SITE_URL|GITHUB_TOKEN|GH_TOKEN|CHAPTER_AUDIO_GITHUB_TOKEN)=' \
+              "${env_file}" > "${env_file}.tmp" || true
             mv "${env_file}.tmp" "${env_file}"
           fi
           printf 'NEXT_PUBLIC_SITE_URL=%s\n' "${SITE_URL}" >> "${env_file}"
@@ -225,12 +237,14 @@ jobs:
         if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'pull_request'
         env:
           NEXT_PUBLIC_SITE_URL: https://www.after-certainty.com
+          CHAPTER_AUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: vercel build --token="${VERCEL_TOKEN}"
 
       - name: Vercel build (production)
         if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'push'
         env:
           NEXT_PUBLIC_SITE_URL: https://www.after-certainty.com
+          CHAPTER_AUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: vercel build --prod --token="${VERCEL_TOKEN}"
 
       - name: Build (fork / no Vercel credentials)

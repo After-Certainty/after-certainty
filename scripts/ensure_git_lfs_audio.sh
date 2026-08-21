@@ -73,6 +73,30 @@ safe_origin="$(git remote get-url origin | sed -E 's#://[^/@]+@#://***@#')"
 echo "ensure_git_lfs_audio: origin=${safe_origin}"
 echo "ensure_git_lfs_audio: token_present=$([ -n "$TOKEN" ] && echo yes || echo no)"
 
+# Avoid bash process substitution (< <(...)) — Vercel builds fail with /dev/fd/63.
+count_audio_pointers() {
+  local list pointer_count=0 mp3_count=0
+  list="$(mktemp)"
+  find books -type f -path '*/audio/*.mp3' >"$list" 2>/dev/null || true
+  while IFS= read -r mp3; do
+    [[ -z "$mp3" ]] && continue
+    mp3_count=$((mp3_count + 1))
+    # Binary MP3s contain NULs; head via command substitution warns — use od/dd.
+    head="$(dd if="$mp3" bs=120 count=1 2>/dev/null | tr -d '\0' || true)"
+    if [[ "$head" == version\ https://git-lfs.github.com/spec/v1* ]]; then
+      pointer_count=$((pointer_count + 1))
+    fi
+  done <"$list"
+  rm -f "$list"
+  printf '%s %s' "$mp3_count" "$pointer_count"
+}
+
+read -r MP3_COUNT POINTER_COUNT <<<"$(count_audio_pointers)"
+if [[ "${POINTER_COUNT}" -eq 0 && "${MP3_COUNT}" -gt 0 ]]; then
+  echo "ensure_git_lfs_audio: ${MP3_COUNT} books/**/audio/*.mp3 already smudged; skipping lfs pull"
+  exit 0
+fi
+
 # Nested edition dirs (books/<work>/v1/audio) need **.
 if ! git lfs pull --include="books/**/audio/*.mp3" --exclude=""; then
   echo "error: git lfs pull failed." >&2
@@ -80,25 +104,10 @@ if ! git lfs pull --include="books/**/audio/*.mp3" --exclude=""; then
   exit 2
 fi
 
-# Avoid bash process substitution (< <(...)) — Vercel builds fail with /dev/fd/63.
-mp3_list="$(mktemp)"
-find books -type f -path '*/audio/*.mp3' >"$mp3_list" 2>/dev/null || true
-pointer_count=0
-mp3_count=0
-while IFS= read -r mp3; do
-  [[ -z "$mp3" ]] && continue
-  mp3_count=$((mp3_count + 1))
-  head="$(head -c 120 "$mp3" 2>/dev/null || true)"
-  if [[ "$head" == version\ https://git-lfs.github.com/spec/v1* ]]; then
-    echo "error: still an LFS pointer after pull: $mp3" >&2
-    pointer_count=$((pointer_count + 1))
-  fi
-done <"$mp3_list"
-rm -f "$mp3_list"
-
-if [[ "$pointer_count" -gt 0 ]]; then
-  echo "error: ${pointer_count} chapter-audio MP3(s) remain Git LFS pointers" >&2
+read -r MP3_COUNT POINTER_COUNT <<<"$(count_audio_pointers)"
+if [[ "$POINTER_COUNT" -gt 0 ]]; then
+  echo "error: ${POINTER_COUNT} chapter-audio MP3(s) remain Git LFS pointers" >&2
   exit 1
 fi
 
-echo "ensure_git_lfs_audio: smudged ${mp3_count} books/**/audio/*.mp3 ($(git-lfs version | head -n 1))"
+echo "ensure_git_lfs_audio: smudged ${MP3_COUNT} books/**/audio/*.mp3 ($(git-lfs version | head -n 1))"
