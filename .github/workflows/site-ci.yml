@@ -3,7 +3,7 @@
 # PR:
 #   preview  → vercel build + deploy --prebuilt (starts immediately; not a merge gate)
 #   quality  → lint, unit tests, corpus validates, npm audit (parallel with preview)
-#   e2e      → Playwright against the deployed preview URL
+#   e2e      → `npm run site:build` + Playwright via local webServer (parallel)
 #   site-ci  → aggregate merge gate (quality + e2e)
 #
 # main:
@@ -11,12 +11,9 @@
 #   site-ci → aggregate gate
 #
 # Requires repository secret VERCEL_TOKEN and variables VERCEL_ORG_ID /
-# VERCEL_PROJECT_ID. Fork PRs never receive the token: preview skips deploy and
-# e2e falls back to `npm run site:build` + local webServer.
+# VERCEL_PROJECT_ID. Fork PRs never receive the token: preview skips deploy;
+# e2e always uses the local build + webServer path.
 # Job-level `if` cannot reference `secrets` (Actions context rules).
-#
-# Optional secret VERCEL_AUTOMATION_BYPASS_SECRET: Deployment Protection bypass
-# for Playwright against protected previews (x-vercel-protection-bypass).
 
 name: Site CI
 
@@ -106,7 +103,6 @@ jobs:
     timeout-minutes: 30
     outputs:
       url: ${{ steps.deploy.outputs.url }}
-      use_vercel: ${{ steps.vercel_path.outputs.use_vercel }}
     env:
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
@@ -278,7 +274,6 @@ jobs:
   e2e:
     name: E2E
     if: github.event_name == 'pull_request'
-    needs: [preview]
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -288,12 +283,10 @@ jobs:
           persist-credentials: false
 
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
-        if: needs.preview.outputs.use_vercel != 'true'
         with:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install Python dependencies (frozen lock)
-        if: needs.preview.outputs.use_vercel != 'true'
         run: |
           set -euo pipefail
           bash scripts/ci_uv_sync.sh
@@ -309,36 +302,18 @@ jobs:
         run: npm ci
 
       - name: Generate + install local semantic manifest
-        if: needs.preview.outputs.use_vercel != 'true'
         run: |
           set -euo pipefail
           make generate-semantic-manifest
           make install-local-manifest-for-site
 
-      - name: Build (fork / no Vercel credentials)
-        if: needs.preview.outputs.use_vercel != 'true'
+      - name: Build
         run: npm run site:build
 
       - name: Install Playwright browsers
         run: npm exec -w after-certainty-site -- playwright install --with-deps chromium
 
-      - name: E2E against deployed preview
-        if: needs.preview.outputs.use_vercel == 'true'
-        env:
-          CI: true
-          PLAYWRIGHT_BASE_URL: ${{ needs.preview.outputs.url }}
-          VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
-        run: |
-          set -euo pipefail
-          if [[ -z "${PLAYWRIGHT_BASE_URL}" || "${PLAYWRIGHT_BASE_URL}" != https://* ]]; then
-            echo "::error::Preview job did not provide a usable deployment URL"
-            exit 1
-          fi
-          echo "PLAYWRIGHT_BASE_URL=${PLAYWRIGHT_BASE_URL}"
-          npm run site:test:e2e
-
       - name: E2E against local server
-        if: needs.preview.outputs.use_vercel != 'true'
         run: npm run site:test:e2e
         env:
           CI: true

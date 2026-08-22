@@ -36,8 +36,8 @@ const config: PlaywrightTestConfig = {
   ],
 };
 
-// Remote CI (deployed preview): do not start a local Next server.
-// Local / fork fallback: keep the existing webServer developer experience.
+// Optional remote target (PLAYWRIGHT_BASE_URL): skip local webServer.
+// Default: start npm run start on http://127.0.0.1:3000 (CI and local DX).
 if (!externalBaseUrl) {
   config.webServer = {
     command: "npm run start",

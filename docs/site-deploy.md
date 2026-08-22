@@ -10,8 +10,8 @@ Git-triggered build for the same push.
 PR
 ├── Preview deployment     ← starts immediately (inspectable artifact)
 ├── Code quality           ← lint + unit tests + validates + npm audit
-└── E2E                    ← waits for preview URL, then Playwright remotely
-    └── site-ci            ← merge gate (quality + e2e; preview is NOT the gate)
+├── E2E                    ← local build + Playwright webServer (parallel)
+└── site-ci                ← merge gate (quality + e2e; preview is NOT the gate)
 
 main
 ├── Code quality
@@ -24,7 +24,7 @@ main
 | Preview deploy | GitHub Actions → `vercel build` + `vercel deploy --prebuilt` | Same-repo PRs; **does not wait** for lint/tests |
 | Preview URL on PR | Sticky GitHub PR comment + job summary | Posted as soon as preview deploy succeeds |
 | Lint, unit tests, corpus validates, `npm audit` | `Code quality` job | Parallel with preview on PRs |
-| Playwright e2e (PR) | `E2E` job against deployed preview URL | `PLAYWRIGHT_BASE_URL`; no local `webServer` |
+| Playwright e2e (PR) | `E2E` job | `npm run site:build` + local `webServer` on `http://127.0.0.1:3000` |
 | Playwright e2e (main) | Inside `Production deployment` | Against the production-shaped build via `npm run start` |
 | Production deploy | `vercel deploy --prebuilt --prod` | Only after quality **and** local e2e succeed |
 | Aggregate gate | Job name **`site-ci`** | Prefer this as the required status check |
@@ -65,15 +65,7 @@ the incremental cache is cached — not deployable `.next` output.
 | `VERCEL_TOKEN` | Repository **secret** | Vercel API token for CLI pull/build/deploy |
 | `VERCEL_ORG_ID` | Repository **variable** | Team/org id from `apps/site/.vercel/project.json` after `vercel link` |
 | `VERCEL_PROJECT_ID` | Repository **variable** | Project id from the same file |
-| `VERCEL_AUTOMATION_BYPASS_SECRET` | Repository **secret** (optional) | Deployment Protection bypass for Playwright against protected previews |
-
 Create the token under Vercel → Account/Team → Tokens. Never commit token values.
-
-If preview Deployment Protection blocks automated browsers, create a bypass
-secret in the Vercel project (Deployment Protection → Protection Bypass for
-Automation) and store the same value as `VERCEL_AUTOMATION_BYPASS_SECRET`.
-Do **not** disable protection globally. Playwright sends
-`x-vercel-protection-bypass` only when that secret is present.
 
 Site CI also needs workflow permission `pull-requests: write` (set in
 [`site-ci.yml`](../.github/workflows/site-ci.yml)) so the sticky preview-URL
@@ -103,15 +95,15 @@ repository files.
 
 - Site CI still runs when paths match.
 - Fork workflows do **not** receive `VERCEL_TOKEN`.
-- Preview skips Vercel deploy (`use_vercel=false`); E2E falls back to
-  `npm run site:build` and the local Playwright `webServer`.
+- Preview skips Vercel deploy (`use_vercel=false`).
+- E2E still runs locally (`npm run site:build` + Playwright `webServer`).
 - Do **not** use `pull_request_target` to work around this.
 
 ## Local Playwright
 
-Without `PLAYWRIGHT_BASE_URL`, Playwright keeps the previous local behavior
-(`npm run start` on `http://127.0.0.1:3000`). Set `PLAYWRIGHT_BASE_URL` only
-when targeting a remote deployment (CI does this for PR previews).
+Playwright starts `npm run start` on `http://127.0.0.1:3000` via `webServer`
+unless `PLAYWRIGHT_BASE_URL` is set (optional for manual runs against a remote
+deployment). Site CI always uses the local path.
 
 ## SHA / provenance check
 
@@ -138,9 +130,10 @@ to `vercel@latest` in CI.
 
 ## Manual troubleshooting
 
-1. **Preview deploy skipped / fallback e2e**  
+1. **Preview deploy skipped**  
    Confirm `VERCEL_TOKEN`, `VERCEL_ORG_ID`, and `VERCEL_PROJECT_ID` exist and that
-   the PR is from this repository (not a fork).
+   the PR is from this repository (not a fork). E2E is unaffected — it always
+   builds and tests locally.
 
 2. **`vercel pull` / `deploy` auth errors**  
    Rotate or recreate `VERCEL_TOKEN`; confirm org/project IDs match the linked
@@ -157,16 +150,11 @@ to `vercel@latest` in CI.
    In Actions, `GITHUB_TOKEN` is provided. Residual Vercel-side builds (if any)
    still need `CHAPTER_AUDIO_GITHUB_TOKEN` on the Vercel project.
 
-5. **E2E 401/403 against preview**  
-   Set `VERCEL_AUTOMATION_BYPASS_SECRET` to the Vercel Protection Bypass for
-   Automation value, or adjust Deployment Protection Trusted Sources for GitHub
-   Actions — without disabling protection globally.
-
-6. **Unexpected second Vercel build on push**  
+5. **Unexpected second Vercel build on push**  
    Confirm `apps/site/vercel.json` has `"git": { "deploymentEnabled": false }`
    and that the Vercel project Root Directory is `apps/site`.
 
-7. **Inspect a failed prebuilt deploy**  
+6. **Inspect a failed prebuilt deploy**  
    Open the Site CI run → Preview/Production job summary (deployment URL when
    successful) and the `vercel build` / `vercel deploy --prebuilt` step logs.
    The prebuilt output lives under `apps/site/.vercel/output` on the runner
