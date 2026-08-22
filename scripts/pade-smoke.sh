@@ -10,6 +10,9 @@ BROKER="https://pade-broker-754719312452.us-central1.run.app"
 echo "==> pade --version"
 pade --version
 
+echo "==> vercel --version"
+vercel --version
+
 echo "==> pade identity --audience ${BROKER}"
 pade identity --audience "$BROKER"
 
@@ -29,5 +32,10 @@ pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
   --capability google-analytics.read --quiet -- \
   apps/site/scripts/ga4-run-report.sh \
   '{"dateRanges":[{"startDate":"7daysAgo","endDate":"today"}],"metrics":[{"name":"activeUsers"}]}'
+
+echo "==> pade exec vercel whoami (vercel.diagnostics)"
+pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
+  --capability vercel.diagnostics --quiet -- \
+  vercel whoami
 
 echo "pade-smoke: OK"
