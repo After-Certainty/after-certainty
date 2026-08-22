@@ -8,3 +8,5 @@ spec:
       access: use
     google-analytics.read:
       access: read
+    vercel.diagnostics:
+      access: read
