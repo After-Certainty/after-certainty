@@ -34,6 +34,8 @@ pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
   '{"dateRanges":[{"startDate":"7daysAgo","endDate":"today"}],"metrics":[{"name":"activeUsers"}]}'
 
 echo "==> pade exec vercel whoami (vercel.diagnostics)"
+# Telemetry notes on stderr can interleave with the username; keep whoami output clean.
+export VERCEL_TELEMETRY_DISABLED=1
 pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml \
   --capability vercel.diagnostics --quiet -- \
   vercel whoami
