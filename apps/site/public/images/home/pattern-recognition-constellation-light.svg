@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 343" fill="none" role="img" aria-hidden="true">
+  <defs>
+    <radialGradient id="coreGlow" cx="50%" cy="48%" r="42%">
+      <stop offset="0%" stop-color="#8a6f2d" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#2a2418" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2a2418" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c9a962" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#8a6f2d" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8a6f2d" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+  </defs>
+
+  <!-- Soft ink core (no rectangular plate) -->
+  <ellipse cx="210" cy="168" rx="118" ry="96" fill="url(#coreGlow)"/>
+  <path d="M168 150c12-28 38-46 62-44 28 2 48 22 54 48 4 18-2 38-18 52-22 20-54 22-78 8-20-12-30-36-20-64z"
+        fill="#1c1812" fill-opacity="0.55" filter="url(#softBlur)"/>
+  <circle cx="214" cy="162" r="10" fill="#f0e2b8"/>
+  <circle cx="214" cy="162" r="22" fill="url(#nodeGlow)"/>
+
+  <!-- Network edges: warm charcoal -->
+  <g stroke="#2c261c" stroke-width="1.15" stroke-linecap="round" opacity="0.88">
+    <line x1="96" y1="92" x2="168" y2="128"/>
+    <line x1="168" y1="128" x2="214" y2="162"/>
+    <line x1="214" y1="162" x2="286" y2="118"/>
+    <line x1="286" y1="118" x2="338" y2="86"/>
+    <line x1="214" y1="162" x2="268" y2="210"/>
+    <line x1="268" y1="210" x2="318" y2="248"/>
+    <line x1="214" y1="162" x2="152" y2="220"/>
+    <line x1="152" y1="220" x2="108" y2="268"/>
+    <line x1="168" y1="128" x2="152" y2="220"/>
+    <line x1="286" y1="118" x2="268" y2="210"/>
+    <line x1="96" y1="92" x2="152" y2="220"/>
+    <line x1="338" y1="86" x2="268" y2="210"/>
+    <line x1="72" y1="178" x2="152" y2="220"/>
+    <line x1="72" y1="178" x2="168" y2="128"/>
+    <line x1="348" y1="188" x2="268" y2="210"/>
+    <line x1="348" y1="188" x2="286" y2="118"/>
+  </g>
+
+  <!-- Gold nodes -->
+  <g>
+    <circle cx="96" cy="92" r="7" fill="#8a6f2d"/>
+    <circle cx="96" cy="92" r="14" fill="url(#nodeGlow)" opacity="0.7"/>
+    <circle cx="168" cy="128" r="5.5" fill="#a3843a"/>
+    <circle cx="286" cy="118" r="6" fill="#8a6f2d"/>
+    <circle cx="286" cy="118" r="12" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="338" cy="86" r="5" fill="#a3843a"/>
+    <circle cx="268" cy="210" r="6.5" fill="#8a6f2d"/>
+    <circle cx="268" cy="210" r="13" fill="url(#nodeGlow)" opacity="0.7"/>
+    <circle cx="318" cy="248" r="4.5" fill="#a3843a"/>
+    <circle cx="152" cy="220" r="6" fill="#8a6f2d"/>
+    <circle cx="152" cy="220" r="12" fill="url(#nodeGlow)" opacity="0.65"/>
+    <circle cx="108" cy="268" r="4.5" fill="#a3843a"/>
+    <circle cx="72" cy="178" r="5" fill="#8a6f2d"/>
+    <circle cx="348" cy="188" r="5" fill="#8a6f2d"/>
+  </g>
+
+  <!-- Fine dust -->
+  <g fill="#8a6f2d" opacity="0.45">
+    <circle cx="130" cy="70" r="1.2"/>
+    <circle cx="250" cy="64" r="1"/>
+    <circle cx="300" cy="160" r="1.1"/>
+    <circle cx="190" cy="250" r="1"/>
+    <circle cx="60" cy="120" r="0.9"/>
+    <circle cx="360" cy="140" r="1"/>
+    <circle cx="220" cy="100" r="0.8"/>
+  </g>
+</svg>

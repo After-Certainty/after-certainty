@@ -26,9 +26,9 @@ describe("PatternRecognitionFeature", () => {
     ).toBeInTheDocument();
     const card = screen.getByTestId("home-pattern-recognition-cta");
     expect(card).toHaveAttribute("href", gamePaths.patternRecognition);
-    expect(card.querySelector("img")).toHaveAttribute(
-      "src",
-      "/images/home/pattern-recognition-constellation.webp",
-    );
+    const images = card.querySelectorAll("img");
+    const srcs = [...images].map((img) => img.getAttribute("src"));
+    expect(srcs).toContain("/images/home/pattern-recognition-constellation.webp");
+    expect(srcs).toContain("/images/home/pattern-recognition-constellation-light.svg");
   });
 });

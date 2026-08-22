@@ -98,16 +98,18 @@ test.describe("Patterns mobile redesign", () => {
     await expect(mobileNav.getByRole("link", { name: /^Explore$/i })).toBeVisible();
     await expect(mobileNav.getByRole("link", { name: /^Search$/i })).toBeVisible();
     await expect(footer.locator('[data-footer-social="mobile"]')).toBeVisible();
-    // Full Together directory (e.g. Explore patterns) is desktop-only after footer compression.
+    // Full Explore directory (e.g. Explore patterns) is desktop-only after footer compression.
     await expect(footer.getByRole("link", { name: /Explore patterns/i })).toBeHidden();
     await assertNoHorizontalOverflow(page);
 
     await page.setViewportSize({ width: 1280, height: 800 });
     await page.goto("/explore/patterns");
-    const desktopNav = footer.locator('[data-footer-nav="desktop"]');
+    const togetherNav = footer.locator('[data-footer-nav="desktop"]');
+    const exploreNav = footer.locator('[data-footer-nav="desktop-explore"]');
     await expect(footer.getByText("Together")).toBeVisible();
-    await expect(desktopNav.getByRole("link", { name: /Explore patterns/i })).toBeVisible();
-    await expect(desktopNav.getByRole("link", { name: /Privacy & cookies/i })).toBeVisible();
+    await expect(togetherNav.getByRole("link", { name: /Reading Trails/i })).toBeVisible();
+    await expect(exploreNav.getByRole("link", { name: /Explore patterns/i })).toBeVisible();
+    await expect(exploreNav.getByRole("link", { name: /Privacy & cookies/i })).toBeVisible();
     await assertNoHorizontalOverflow(page);
   });
 });

@@ -267,20 +267,32 @@ html.light {
  * Homepage hero — light theme: scrim + photo lift only. Hero copy uses Tailwind `light:*`
  * utilities (see globals `@custom-variant light`) so colors win over `text-fg` / `text-muted`.
  */
+/*
+ * Light hero: mockup-like crisp pale field so near-black type stays readable.
+ * Lift + sharpen the photo, then a left paper wash + bottom page fade (not a flat white overlay).
+ */
 html.light .hero-home__media img {
-  filter: brightness(1.06) saturate(0.94);
+  filter: brightness(1.34) contrast(1.08) saturate(0.86);
 }
 
 html.light .hero-home__scrim {
-  background: linear-gradient(
-    to bottom,
-    transparent 0%,
-    transparent 18%,
-    color-mix(in srgb, var(--bg) 38%, transparent) 36%,
-    color-mix(in srgb, var(--bg) 82%, transparent) 56%,
-    color-mix(in srgb, var(--bg) 94%, transparent) 72%,
-    var(--bg) 88%
-  );
+  background:
+    linear-gradient(
+      105deg,
+      color-mix(in srgb, var(--bg) 82%, transparent) 0%,
+      color-mix(in srgb, var(--bg) 58%, transparent) 22%,
+      color-mix(in srgb, var(--bg) 22%, transparent) 42%,
+      transparent 58%
+    ),
+    linear-gradient(
+      to bottom,
+      color-mix(in srgb, var(--bg) 12%, transparent) 0%,
+      transparent 18%,
+      transparent 36%,
+      color-mix(in srgb, var(--bg) 24%, transparent) 58%,
+      color-mix(in srgb, var(--bg) 68%, transparent) 78%,
+      var(--bg) 94%
+    );
 }
 
 html.light .start-page__media img {

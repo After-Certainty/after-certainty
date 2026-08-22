@@ -10,18 +10,18 @@ export async function FeaturedQuestionsSection() {
   if (questions.length === 0) return null;
 
   return (
-    <section className="atm-section atm-section--transition border-b border-border/40 bg-bg-elevated/22 py-6 md:py-14">
+    <section className="atm-section atm-section--transition border-b border-border/40 bg-bg-elevated/22 py-6 md:py-12 lg:py-14">
       <QuestionSectionAnalytics location="home" />
       <Container>
-        <div className="max-w-2xl">
+        <div className="max-w-2xl md:max-w-3xl">
           <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-4xl">
             What question brought you here?
           </h2>
-          <p className="mt-2 text-sm text-muted md:mt-4 md:text-base">
+          <p className="mt-2 text-sm text-muted md:mt-3 md:text-base">
             Start with a recognizable tension—not a book title or content type.
           </p>
         </div>
-        <div className="mt-6 flex flex-col gap-2 md:mt-10 md:grid md:grid-cols-3 md:gap-4">
+        <div className="mt-6 flex flex-col gap-2 md:mt-8 md:grid md:grid-cols-3 md:items-stretch md:gap-4">
           {questions.map((question) => (
             <QuestionCard
               key={question.id}
@@ -31,7 +31,7 @@ export async function FeaturedQuestionsSection() {
             />
           ))}
         </div>
-        <p className="mt-6 md:mt-10">
+        <p className="mt-6 md:mt-8">
           <Link
             href="/start"
             className="text-xs uppercase tracking-[0.2em] text-accent transition-colors hover:text-fg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:text-sm"
