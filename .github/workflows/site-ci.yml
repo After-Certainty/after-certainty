@@ -1,14 +1,22 @@
-# Site lint/test/build/e2e + Vercel prebuilt deploy for apps/site.
+# Site CI for apps/site — fast PR previews, parallel quality, strict merge/production.
 #
-# Generates a same-checkout semantic manifest, installs it into
-# apps/site/data/local-*.json, validates, then builds with `vercel build`
-# (install/build via apps/site/vercel.json → scripts/vercel_*.sh) so the
-# artifact under test is the one deployed with `vercel deploy --prebuilt`.
+# PR:
+#   preview  → vercel build + deploy --prebuilt (starts immediately; not a merge gate)
+#   quality  → lint, unit tests, corpus validates, npm audit (parallel with preview)
+#   e2e      → Playwright against the deployed preview URL
+#   site-ci  → aggregate merge gate (quality + e2e)
+#
+# main:
+#   quality → production (vercel build --prod, local e2e, deploy --prebuilt --prod)
+#   site-ci → aggregate gate
 #
 # Requires repository secret VERCEL_TOKEN and variables VERCEL_ORG_ID /
-# VERCEL_PROJECT_ID for Vercel build + deploy. Fork PRs never receive the
-# token: they fall back to `npm run site:build` and skip deploy.
+# VERCEL_PROJECT_ID. Fork PRs never receive the token: preview skips deploy and
+# e2e falls back to `npm run site:build` + local webServer.
 # Job-level `if` cannot reference `secrets` (Actions context rules).
+#
+# Optional secret VERCEL_AUTOMATION_BYPASS_SECRET: Deployment Protection bypass
+# for Playwright against protected previews (x-vercel-protection-bypass).
 
 name: Site CI
 
@@ -31,6 +39,7 @@ on:
       - "scripts/install_local_manifest_for_site.py"
       - "scripts/vercel_install.sh"
       - "scripts/vercel_build.sh"
+      - "scripts/ci_vercel_prepare.sh"
       - "packages/corpus-tasks/**"
       - "package.json"
       - "package-lock.json"
@@ -60,6 +69,7 @@ on:
       - "scripts/install_local_manifest_for_site.py"
       - "scripts/vercel_install.sh"
       - "scripts/vercel_build.sh"
+      - "scripts/ci_vercel_prepare.sh"
       - "packages/corpus-tasks/**"
       - "package.json"
       - "package-lock.json"
@@ -86,22 +96,142 @@ env:
   SEMANTIC_MANIFEST_OFFLINE: "1"
   SEMANTIC_MANIFEST_USE_LOCAL: "1"
   VERCEL_CLI_VERSION: "59.3.0"
+  SITE_URL: https://www.after-certainty.com
 
 jobs:
-  build-and-deploy:
-    name: Lint, test, vercel build, e2e, deploy
+  preview:
+    name: Preview deployment
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
-    timeout-minutes: 45
-    # Trusted same-repo PRs and main pushes may deploy; forks always run CI
-    # but never take the Vercel credential path (token empty + not same-repo).
+    timeout-minutes: 30
+    outputs:
+      url: ${{ steps.deploy.outputs.url }}
+      use_vercel: ${{ steps.vercel_path.outputs.use_vercel }}
     env:
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
       VERCEL_GIT_COMMIT_SHA: ${{ github.sha }}
-      # Used by scripts/ensure_git_lfs_audio.sh during vercel_build.sh
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
 
+      - name: Setup Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Decide Vercel build/deploy path
+        id: vercel_path
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          PR_HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name || '' }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          same_repo=false
+          if [[ "${EVENT_NAME}" == "push" ]]; then
+            same_repo=true
+          elif [[ -n "${PR_HEAD_REPO}" && "${PR_HEAD_REPO}" == "${REPO}" ]]; then
+            same_repo=true
+          fi
+          if [[ "${same_repo}" == "true" && -n "${VERCEL_TOKEN}" && -n "${VERCEL_ORG_ID}" && -n "${VERCEL_PROJECT_ID}" ]]; then
+            echo "use_vercel=true" >> "${GITHUB_OUTPUT}"
+            echo "Using vercel build + deploy --prebuilt"
+          else
+            echo "use_vercel=false" >> "${GITHUB_OUTPUT}"
+            echo "Skipping Vercel preview deploy: same_repo=${same_repo} token_set=$([ -n "${VERCEL_TOKEN}" ] && echo yes || echo no)"
+          fi
+
+      - name: Install Vercel CLI (pinned)
+        if: steps.vercel_path.outputs.use_vercel == 'true'
+        run: |
+          set -euo pipefail
+          npm install --global "vercel@${VERCEL_CLI_VERSION}"
+          vercel --version
+
+      # npm ci / uv / manifest generate+install are owned by vercel build via
+      # apps/site/vercel.json → scripts/vercel_install.sh + vercel_build.sh.
+      - name: Prepare Vercel project (preview)
+        if: steps.vercel_path.outputs.use_vercel == 'true'
+        env:
+          CHAPTER_AUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SITE_URL: ${{ env.SITE_URL }}
+        run: bash scripts/ci_vercel_prepare.sh preview
+
+      - name: Restore Next.js build cache
+        if: steps.vercel_path.outputs.use_vercel == 'true'
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4.2.4
+        with:
+          path: apps/site/.next/cache
+          key: nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.ref_name }}-
+            nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-
+            nextjs-${{ runner.os }}-
+
+      - name: Vercel build (preview)
+        if: steps.vercel_path.outputs.use_vercel == 'true'
+        env:
+          NEXT_PUBLIC_SITE_URL: ${{ env.SITE_URL }}
+          CHAPTER_AUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: vercel build --token="${VERCEL_TOKEN}"
+
+      - name: Deploy prebuilt (preview)
+        id: deploy
+        if: steps.vercel_path.outputs.use_vercel == 'true'
+        run: |
+          set -euo pipefail
+          deploy_log="$(mktemp)"
+          if ! vercel deploy --prebuilt --token="${VERCEL_TOKEN}" >"${deploy_log}" 2>&1; then
+            echo "::error::vercel deploy --prebuilt failed"
+            cat "${deploy_log}" >&2
+            exit 1
+          fi
+          cat "${deploy_log}"
+          url="$(grep -Eo 'https://[^[:space:]]+' "${deploy_log}" | tail -n 1 || true)"
+          if [[ -z "${url}" || "${url}" != https://* ]]; then
+            echo "::error::vercel deploy succeeded but no https:// URL was found in CLI output"
+            exit 1
+          fi
+          {
+            echo "url=${url}"
+            echo "deployed_at=$(date -u +'%Y-%m-%d %H:%M')"
+          } >> "${GITHUB_OUTPUT}"
+          {
+            echo "## Vercel preview deployment"
+            echo ""
+            echo "- URL: ${url}"
+            echo "- Commit: \`${VERCEL_GIT_COMMIT_SHA}\`"
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Comment preview URL on PR
+        if: >
+          steps.vercel_path.outputs.use_vercel == 'true'
+          && steps.deploy.outputs.url != ''
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3.0.5
+        with:
+          header: vercel-preview-url
+          message: |
+            ## Vercel Preview Deployment
+
+            | Name | Status | Preview | Updated (UTC) |
+            | :--- | :----- | :------ | :------------ |
+            | **after-certainty site** | ✅ Ready ([Inspect](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})) | [Visit Preview](${{ steps.deploy.outputs.url }}) | ${{ steps.deploy.outputs.deployed_at }} |
+
+            <sub>Commit `${{ github.sha }}` · Deployed by [Site CI](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})</sub>
+
+            Preview is an inspectable development artifact — required checks (`site-ci`) still gate merge.
+
+  quality:
+    name: Code quality
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -136,11 +266,8 @@ jobs:
       - name: Audit dependencies
         run: npm audit --audit-level=high
 
-      - name: Lint
-        run: npm run site:lint
-
-      - name: Test
-        run: npm run site:test
+      - name: Lint + unit tests (parallel)
+        run: npx turbo run lint test --filter=after-certainty-site --concurrency=2
 
       - name: Validate offline/local manifest
         run: npm run site:validate:fallback
@@ -148,26 +275,110 @@ jobs:
       - name: Validate public corpus integrity
         run: npm run site:validate:public-corpus
 
-      - name: Decide Vercel build/deploy path
-        id: vercel_path
-        env:
-          EVENT_NAME: ${{ github.event_name }}
-          PR_HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name || '' }}
-          REPO: ${{ github.repository }}
+  e2e:
+    name: E2E
+    if: github.event_name == 'pull_request'
+    needs: [preview]
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        if: needs.preview.outputs.use_vercel != 'true'
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python dependencies (frozen lock)
+        if: needs.preview.outputs.use_vercel != 'true'
         run: |
           set -euo pipefail
-          same_repo=false
-          if [[ "${EVENT_NAME}" == "push" ]]; then
-            same_repo=true
-          elif [[ -n "${PR_HEAD_REPO}" && "${PR_HEAD_REPO}" == "${REPO}" ]]; then
-            same_repo=true
+          bash scripts/ci_uv_sync.sh
+
+      - name: Setup Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      - name: Generate + install local semantic manifest
+        if: needs.preview.outputs.use_vercel != 'true'
+        run: |
+          set -euo pipefail
+          make generate-semantic-manifest
+          make install-local-manifest-for-site
+
+      - name: Build (fork / no Vercel credentials)
+        if: needs.preview.outputs.use_vercel != 'true'
+        run: npm run site:build
+
+      - name: Install Playwright browsers
+        run: npm exec -w after-certainty-site -- playwright install --with-deps chromium
+
+      - name: E2E against deployed preview
+        if: needs.preview.outputs.use_vercel == 'true'
+        env:
+          CI: true
+          PLAYWRIGHT_BASE_URL: ${{ needs.preview.outputs.url }}
+          VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+        run: |
+          set -euo pipefail
+          if [[ -z "${PLAYWRIGHT_BASE_URL}" || "${PLAYWRIGHT_BASE_URL}" != https://* ]]; then
+            echo "::error::Preview job did not provide a usable deployment URL"
+            exit 1
           fi
-          if [[ "${same_repo}" == "true" && -n "${VERCEL_TOKEN}" && -n "${VERCEL_ORG_ID}" && -n "${VERCEL_PROJECT_ID}" ]]; then
+          echo "PLAYWRIGHT_BASE_URL=${PLAYWRIGHT_BASE_URL}"
+          npm run site:test:e2e
+
+      - name: E2E against local server
+        if: needs.preview.outputs.use_vercel != 'true'
+        run: npm run site:test:e2e
+        env:
+          CI: true
+          NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3000
+
+  production:
+    name: Production deployment
+    if: github.event_name == 'push'
+    needs: [quality]
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_ORG_ID: ${{ vars.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ vars.VERCEL_PROJECT_ID }}
+      VERCEL_GIT_COMMIT_SHA: ${{ github.sha }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Decide Vercel build/deploy path
+        id: vercel_path
+        run: |
+          set -euo pipefail
+          if [[ -n "${VERCEL_TOKEN}" && -n "${VERCEL_ORG_ID}" && -n "${VERCEL_PROJECT_ID}" ]]; then
             echo "use_vercel=true" >> "${GITHUB_OUTPUT}"
-            echo "Using vercel build + deploy --prebuilt"
+            echo "Using vercel build --prod + deploy --prebuilt --prod"
           else
             echo "use_vercel=false" >> "${GITHUB_OUTPUT}"
-            echo "Falling back to npm run site:build (no deploy): same_repo=${same_repo} token_set=$([ -n "${VERCEL_TOKEN}" ] && echo yes || echo no)"
+            echo "Falling back to npm run site:build (no deploy)"
           fi
 
       - name: Install Vercel CLI (pinned)
@@ -177,130 +388,127 @@ jobs:
           npm install --global "vercel@${VERCEL_CLI_VERSION}"
           vercel --version
 
-      # Run Vercel CLI from the repo root. The project Root Directory is already
-      # `apps/site`; working-directory apps/site doubles that path and breaks
-      # `vercel deploy --prebuilt` (…/apps/site/apps/site).
-      # Env VERCEL_ORG_ID / VERCEL_PROJECT_ID alone can leave the CLI unable to load
-      # project settings; write the link file explicitly (same shape as `vercel link`).
-      - name: Link Vercel project
-        if: steps.vercel_path.outputs.use_vercel == 'true'
-        run: |
-          set -euo pipefail
-          rm -rf .vercel
-          mkdir -p .vercel
-          printf '%s\n' "{\"projectId\":\"${VERCEL_PROJECT_ID}\",\"orgId\":\"${VERCEL_ORG_ID}\"}" > .vercel/project.json
-          if ! vercel whoami --token="${VERCEL_TOKEN}"; then
-            echo "::error::VERCEL_TOKEN is invalid or not tied to a Vercel user (CLI: User not found). Recreate the token under the team that owns this project and update the GitHub Actions secret."
-            exit 1
-          fi
-
-      - name: Pull Vercel environment (preview)
-        if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'pull_request'
-        run: vercel pull --yes --environment=preview --token="${VERCEL_TOKEN}"
-
-      - name: Pull Vercel environment (production)
-        if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'push'
-        run: vercel pull --yes --environment=production --token="${VERCEL_TOKEN}"
-
-      # Smudge chapter audio with the Actions token before `vercel pull`. Production
-      # Vercel env has been observed to inject a stale GITHUB_TOKEN that makes
-      # `git lfs pull` fail with "Maximum number of login attempts exceeded".
-      - name: Pull Git LFS chapter audio (Actions token)
+      - name: Prepare Vercel project (production)
         if: steps.vercel_path.outputs.use_vercel == 'true'
         env:
           CHAPTER_AUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: bash scripts/ensure_git_lfs_audio.sh
+          SITE_URL: ${{ env.SITE_URL }}
+        run: bash scripts/ci_vercel_prepare.sh production
 
-      # vercel build loads .vercel/.env.*.local from pull; a missing/invalid
-      # NEXT_PUBLIC_SITE_URL there breaks next metadataBase (Invalid URL).
-      # Also strip GitHub auth vars so a bad Vercel-project token cannot override
-      # Actions credentials during scripts/vercel_build.sh → ensure_git_lfs_audio.
-      - name: Sanitize pulled Vercel env for Actions build
+      - name: Restore Next.js build cache
         if: steps.vercel_path.outputs.use_vercel == 'true'
-        env:
-          SITE_URL: https://www.after-certainty.com
-        run: |
-          set -euo pipefail
-          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
-            env_file=".vercel/.env.preview.local"
-          else
-            env_file=".vercel/.env.production.local"
-          fi
-          mkdir -p .vercel
-          if [[ -f "${env_file}" ]]; then
-            grep -Ev '^(NEXT_PUBLIC_SITE_URL|GITHUB_TOKEN|GH_TOKEN|CHAPTER_AUDIO_GITHUB_TOKEN)=' \
-              "${env_file}" > "${env_file}.tmp" || true
-            mv "${env_file}.tmp" "${env_file}"
-          fi
-          printf 'NEXT_PUBLIC_SITE_URL=%s\n' "${SITE_URL}" >> "${env_file}"
-
-      - name: Vercel build (preview)
-        if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'pull_request'
-        env:
-          NEXT_PUBLIC_SITE_URL: https://www.after-certainty.com
-          CHAPTER_AUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: vercel build --token="${VERCEL_TOKEN}"
+        uses: actions/cache@0400d5f644dc74513175e3cd8d07132dd4860809 # v4.2.4
+        with:
+          path: apps/site/.next/cache
+          key: nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-${{ github.ref_name }}-
+            nextjs-${{ runner.os }}-${{ hashFiles('package-lock.json') }}-
+            nextjs-${{ runner.os }}-
 
       - name: Vercel build (production)
-        if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'push'
+        if: steps.vercel_path.outputs.use_vercel == 'true'
         env:
-          NEXT_PUBLIC_SITE_URL: https://www.after-certainty.com
+          NEXT_PUBLIC_SITE_URL: ${{ env.SITE_URL }}
           CHAPTER_AUDIO_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: vercel build --prod --token="${VERCEL_TOKEN}"
 
-      - name: Build (fork / no Vercel credentials)
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        if: steps.vercel_path.outputs.use_vercel != 'true'
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install Python dependencies (frozen lock)
+        if: steps.vercel_path.outputs.use_vercel != 'true'
+        run: |
+          set -euo pipefail
+          bash scripts/ci_uv_sync.sh
+
+      - name: Install npm dependencies (fallback)
+        if: steps.vercel_path.outputs.use_vercel != 'true'
+        run: npm ci
+
+      - name: Generate + install local semantic manifest (fallback)
+        if: steps.vercel_path.outputs.use_vercel != 'true'
+        run: |
+          set -euo pipefail
+          make generate-semantic-manifest
+          make install-local-manifest-for-site
+
+      - name: Build (no Vercel credentials)
         if: steps.vercel_path.outputs.use_vercel != 'true'
         run: npm run site:build
+
+      # vercel build → vercel_install.sh already ran npm ci into node_modules.
+      - name: Ensure npm dependencies for Playwright
+        if: steps.vercel_path.outputs.use_vercel == 'true'
+        run: |
+          set -euo pipefail
+          if [[ ! -d node_modules/@playwright/test ]]; then
+            npm ci
+          fi
 
       - name: Install Playwright browsers
         run: npm exec -w after-certainty-site -- playwright install --with-deps chromium
 
-      - name: E2E tests
+      - name: E2E against production build (local server)
         run: npm run site:test:e2e
         env:
           CI: true
           NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3000
 
-      - name: Deploy prebuilt (preview)
-        id: deploy_preview
-        if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'pull_request'
-        run: |
-          set -euo pipefail
-          url="$(vercel deploy --prebuilt --token="${VERCEL_TOKEN}")"
-          echo "url=${url}" >> "${GITHUB_OUTPUT}"
-          echo "deployed_at=$(date -u +'%Y-%m-%d %H:%M')" >> "${GITHUB_OUTPUT}"
-          {
-            echo "## Vercel preview deployment"
-            echo ""
-            echo "- URL: ${url}"
-            echo "- Commit: \`${VERCEL_GIT_COMMIT_SHA}\`"
-          } >> "${GITHUB_STEP_SUMMARY}"
-
-      - name: Comment preview URL on PR
-        if: >
-          steps.vercel_path.outputs.use_vercel == 'true'
-          && github.event_name == 'pull_request'
-          && steps.deploy_preview.outputs.url != ''
-        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3.0.5
-        with:
-          header: vercel-preview-url
-          message: |
-            ## Vercel Preview Deployment
-
-            | Name | Status | Preview | Updated (UTC) |
-            | :--- | :----- | :------ | :------------ |
-            | **after-certainty site** | ✅ Ready ([Inspect](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})) | [Visit Preview](${{ steps.deploy_preview.outputs.url }}) | ${{ steps.deploy_preview.outputs.deployed_at }} |
-
-            <sub>Commit `${{ github.sha }}` · Deployed by [Site CI](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})</sub>
-
       - name: Deploy prebuilt (production)
-        if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'push'
+        if: steps.vercel_path.outputs.use_vercel == 'true'
         run: |
           set -euo pipefail
-          url="$(vercel deploy --prebuilt --prod --token="${VERCEL_TOKEN}")"
+          deploy_log="$(mktemp)"
+          if ! vercel deploy --prebuilt --prod --token="${VERCEL_TOKEN}" >"${deploy_log}" 2>&1; then
+            echo "::error::vercel deploy --prebuilt --prod failed"
+            cat "${deploy_log}" >&2
+            exit 1
+          fi
+          cat "${deploy_log}"
+          url="$(grep -Eo 'https://[^[:space:]]+' "${deploy_log}" | tail -n 1 || true)"
+          if [[ -z "${url}" || "${url}" != https://* ]]; then
+            echo "::error::vercel deploy succeeded but no https:// URL was found in CLI output"
+            exit 1
+          fi
           {
             echo "## Vercel production deployment"
             echo ""
             echo "- URL: ${url}"
             echo "- Commit: \`${VERCEL_GIT_COMMIT_SHA}\`"
           } >> "${GITHUB_STEP_SUMMARY}"
+
+  site-ci:
+    name: site-ci
+    needs: [quality, e2e, production]
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Require quality + (PR e2e | main production)
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          QUALITY: ${{ needs.quality.result }}
+          E2E: ${{ needs.e2e.result }}
+          PRODUCTION: ${{ needs.production.result }}
+        run: |
+          set -euo pipefail
+          echo "event=${EVENT_NAME} quality=${QUALITY} e2e=${E2E} production=${PRODUCTION}"
+          if [[ "${QUALITY}" != "success" ]]; then
+            echo "::error::Code quality did not succeed (result=${QUALITY})"
+            exit 1
+          fi
+          if [[ "${EVENT_NAME}" == "pull_request" ]]; then
+            if [[ "${E2E}" != "success" ]]; then
+              echo "::error::E2E did not succeed (result=${E2E})"
+              exit 1
+            fi
+          else
+            if [[ "${PRODUCTION}" != "success" ]]; then
+              echo "::error::Production deployment did not succeed (result=${PRODUCTION})"
+              exit 1
+            fi
+          fi
+          echo "All required Site CI checks passed."
