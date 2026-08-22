@@ -76,6 +76,7 @@ concurrency:
 
 permissions:
   contents: read
+  pull-requests: write
 
 env:
   PYTHON_VERSION: "3.12.3"
@@ -261,16 +262,36 @@ jobs:
           NEXT_PUBLIC_SITE_URL: http://127.0.0.1:3000
 
       - name: Deploy prebuilt (preview)
+        id: deploy_preview
         if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'pull_request'
         run: |
           set -euo pipefail
           url="$(vercel deploy --prebuilt --token="${VERCEL_TOKEN}")"
+          echo "url=${url}" >> "${GITHUB_OUTPUT}"
+          echo "deployed_at=$(date -u +'%Y-%m-%d %H:%M')" >> "${GITHUB_OUTPUT}"
           {
             echo "## Vercel preview deployment"
             echo ""
             echo "- URL: ${url}"
             echo "- Commit: \`${VERCEL_GIT_COMMIT_SHA}\`"
           } >> "${GITHUB_STEP_SUMMARY}"
+
+      - name: Comment preview URL on PR
+        if: >
+          steps.vercel_path.outputs.use_vercel == 'true'
+          && github.event_name == 'pull_request'
+          && steps.deploy_preview.outputs.url != ''
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3.0.5
+        with:
+          header: vercel-preview-url
+          message: |
+            ## Vercel Preview Deployment
+
+            | Name | Status | Preview | Updated (UTC) |
+            | :--- | :----- | :------ | :------------ |
+            | **after-certainty site** | ✅ Ready ([Inspect](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})) | [Visit Preview](${{ steps.deploy_preview.outputs.url }}) | ${{ steps.deploy_preview.outputs.deployed_at }} |
+
+            <sub>Commit `${{ github.sha }}` · Deployed by [Site CI](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})</sub>
 
       - name: Deploy prebuilt (production)
         if: steps.vercel_path.outputs.use_vercel == 'true' && github.event_name == 'push'

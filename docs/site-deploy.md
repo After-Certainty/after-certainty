@@ -12,6 +12,7 @@ Git-triggered build for the same push.
 | Install + production-shaped Next build | GitHub Actions via `vercel build` | Runs [`vercel_install.sh`](../scripts/vercel_install.sh) + [`vercel_build.sh`](../scripts/vercel_build.sh) from [`apps/site/vercel.json`](../apps/site/vercel.json) |
 | Playwright e2e | GitHub Actions | Against the `.next` from that build (`npm run start`) |
 | Preview deploy | GitHub Actions → `vercel deploy --prebuilt` | Same-repo PRs after CI |
+| Preview URL on PR | Sticky GitHub PR comment | Same-repo PRs after a successful preview deploy (updates in place on later pushes) |
 | Production deploy | GitHub Actions → `vercel deploy --prebuilt --prod` | Pushes to `main` after CI |
 
 Path filters on Site CI decide **whether** the workflow runs. Automatic Vercel Git
@@ -29,6 +30,11 @@ decide builds.
 
 Create the token under Vercel → Account/Team → Tokens. Never commit token values.
 
+Site CI also needs workflow permission `pull-requests: write` (set in
+[`site-ci.yml`](../.github/workflows/site-ci.yml)) so the sticky preview-URL
+comment can be created or updated. No extra secrets are required beyond the
+default `GITHUB_TOKEN`.
+
 Vercel project **runtime** env (still set in the Vercel dashboard) includes
 `SEMANTIC_MANIFEST_USE_LOCAL=1`, `SEMANTIC_MANIFEST_OFFLINE=1`,
 `NEXT_PUBLIC_SITE_URL`, podcast/GA settings, and `CACHE_REVALIDATE_SECRET`.
@@ -39,7 +45,8 @@ Vercel project **runtime** env (still set in the Vercel dashboard) includes
 - Site CI still runs when paths match (lint/test/build/e2e).
 - Fork workflows do **not** receive `VERCEL_TOKEN`.
 - Without credentials (or when the PR head is not this repository), CI falls back
-  to `npm run site:build` and **skips** `vercel deploy`.
+  to `npm run site:build` and **skips** `vercel deploy` (and the sticky preview
+  comment).
 - Do **not** use `pull_request_target` to work around this.
 
 ## SHA / provenance check
