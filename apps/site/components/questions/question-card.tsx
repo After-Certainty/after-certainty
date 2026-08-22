@@ -28,12 +28,12 @@ export function QuestionCard({
 
   const inner = compact ? (
     <>
-      <div className="min-w-0 flex-1">
+      <div className="flex min-h-0 min-w-0 flex-1 flex-col">
         <p className="text-[10px] uppercase tracking-[0.22em] text-accent">{family}</p>
         <h3 className="mt-1 font-display text-lg font-medium leading-snug tracking-tight text-fg md:text-xl">
           {question.shortLabel ?? question.question}
         </h3>
-        <p className="mt-1.5 text-xs text-muted">
+        <p className="mt-auto pt-1.5 text-xs text-muted">
           {stopCount} stops · ~{minutes} min
         </p>
       </div>
@@ -61,8 +61,8 @@ export function QuestionCard({
   );
 
   const className = compact
-    ? "group flex min-h-11 items-start gap-2 border border-border/50 bg-bg-elevated/40 px-4 py-3.5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:px-5 md:py-4"
-    : "group flex h-full flex-col border border-border/50 bg-bg-elevated/40 p-4 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:p-5";
+    ? "group flex min-h-11 items-start gap-2 border border-border/50 bg-bg-elevated/40 px-4 py-3.5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:h-full md:border-t-2 md:border-t-accent/45 md:px-5 md:py-5 light:bg-bg-elevated light:shadow-none light:hover:border-accent/50 light:hover:bg-bg-elevated"
+    : "group flex h-full flex-col border border-border/50 bg-bg-elevated/40 p-4 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:p-5 light:bg-bg-elevated light:shadow-none";
 
   if (analytics) {
     return (

@@ -110,22 +110,26 @@ describe("SiteFooter", () => {
     expect(screen.getByRole("link", { name: /CC BY-SA 4\.0/i })).toBeInTheDocument();
   });
 
-  it("keeps essential Together destinations in the desktop link list", async () => {
+  it("keeps essential Together and Explore destinations in the desktop columns", async () => {
     const { container } = render(await SiteFooter());
-    const desktopNav = container.querySelector('[data-footer-nav="desktop"]') as HTMLElement;
+    const togetherNav = container.querySelector('[data-footer-nav="desktop"]') as HTMLElement;
+    const exploreNav = container.querySelector(
+      '[data-footer-nav="desktop-explore"]',
+    ) as HTMLElement;
 
-    expect(within(desktopNav).getByRole("link", { name: /Explore patterns/i })).toHaveAttribute(
-      "href",
-      "/explore/patterns",
-    );
-    expect(within(desktopNav).getByRole("link", { name: /Reading Trails/i })).toHaveAttribute(
+    expect(within(togetherNav).getByRole("link", { name: /Reading Trails/i })).toHaveAttribute(
       "href",
       "/trails",
     );
-    expect(within(desktopNav).getByRole("link", { name: /Privacy & cookies/i })).toHaveAttribute(
+    expect(within(togetherNav).getByRole("link", { name: /Collaborators/i })).toBeInTheDocument();
+
+    expect(within(exploreNav).getByRole("link", { name: /Explore patterns/i })).toHaveAttribute(
+      "href",
+      "/explore/patterns",
+    );
+    expect(within(exploreNav).getByRole("link", { name: /Privacy & cookies/i })).toHaveAttribute(
       "href",
       "/privacy",
     );
-    expect(within(desktopNav).getByRole("link", { name: /Collaborators/i })).toBeInTheDocument();
   });
 });

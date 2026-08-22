@@ -7,7 +7,7 @@ const heroBackdropSrc = "/images/hero/hero-backdrop.png";
 
 export function Hero() {
   return (
-    <section className="hero-home relative overflow-hidden border-b border-border/50 md:min-h-[min(88vh,920px)]">
+    <section className="hero-home relative overflow-hidden border-b border-border/50 md:min-h-[min(78vh,820px)]">
       <div className="hero-home__media pointer-events-none absolute inset-0 z-0">
         <Image
           src={heroBackdropSrc}
@@ -25,31 +25,31 @@ export function Hero() {
         aria-hidden
       />
       {/* Mobile: content-sized hero (no tall min-height) so the opening viewport isn’t mostly empty image.
-          Desktop keeps the tall cinematic frame with bottom-aligned type. */}
-      <Container className="relative z-10 py-8 md:flex md:min-h-[inherit] md:flex-col md:justify-end md:py-36 lg:py-44">
-        <p className="hero-home__eyebrow text-[10px] uppercase tracking-[0.32em] md:text-xs md:tracking-[0.45em] dark:text-muted dark:drop-shadow-sm light:text-[rgb(255_252_248/0.85)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.55),0_0_18px_rgb(0_0_0/0.35)]">
+          Desktop keeps a cinematic frame with bottom-aligned type — slightly shorter than before. */}
+      <Container className="relative z-10 py-8 md:flex md:min-h-[inherit] md:flex-col md:justify-end md:py-28 lg:py-36">
+        <p className="hero-home__eyebrow text-[10px] uppercase tracking-[0.32em] md:text-xs md:tracking-[0.45em] dark:text-muted dark:drop-shadow-sm light:text-fg/70 light:[text-shadow:none]">
           Intellectual commons · Publishing · Podcast
         </p>
-        <h1 className="hero-home__title mt-3 max-w-4xl font-display text-4xl font-medium leading-[1.02] tracking-[0.08em] text-balance sm:text-5xl md:mt-8 md:text-7xl md:leading-[1.05] lg:text-8xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.55)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_32px_rgb(0_0_0/0.5),0_1px_3px_rgb(0_0_0/0.45)]">
+        <h1 className="hero-home__title mt-3 max-w-4xl font-display text-4xl font-medium leading-[1.02] tracking-[0.08em] text-balance sm:text-5xl md:mt-6 md:text-7xl md:leading-[1.05] lg:text-8xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.55)] light:text-fg light:[text-shadow:none]">
           AFTER
           <span className="block">CERTAINTY</span>
         </h1>
-        <p className="hero-home__lede mt-3 max-w-2xl text-base leading-relaxed md:mt-8 md:text-xl dark:text-fg/90 dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.92),0_0_22px_rgba(0,0,0,0.65),0_3px_36px_rgba(0,0,0,0.55)] light:text-[rgb(255_252_248/0.94)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.65),0_0_26px_rgb(0_0_0/0.48),0_3px_36px_rgb(0_0_0/0.4)]">
+        <p className="hero-home__lede mt-3 max-w-2xl text-base leading-relaxed md:mt-6 md:max-w-xl md:text-xl dark:text-fg/90 dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.92),0_0_22px_rgba(0,0,0,0.65),0_3px_36px_rgba(0,0,0,0.55)] light:text-fg/80 light:[text-shadow:none]">
           Exploring meaning, trust, leadership, and human systems in a world beyond certainty.
         </p>
-        <div className="hero-home__actions mt-5 flex flex-col items-start gap-2 sm:flex-row sm:items-center md:mt-12 md:gap-4">
+        <div className="hero-home__actions mt-5 flex flex-col items-start gap-2 sm:flex-row sm:items-center md:mt-10 md:gap-4">
           <ButtonLink href="/start" variant="primary">
             Start Here
           </ButtonLink>
           <Link
             href="/podcast"
-            className="inline-flex min-h-10 items-center text-xs uppercase tracking-[0.2em] text-fg/90 underline-offset-4 transition-colors hover:text-accent hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:hidden dark:drop-shadow-sm light:text-[rgb(255_252_248/0.94)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.55)]"
+            className="inline-flex min-h-10 items-center text-xs uppercase tracking-[0.2em] text-fg/90 underline-offset-4 transition-colors hover:text-accent hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:hidden dark:drop-shadow-sm light:text-fg/80 light:[text-shadow:none]"
           >
             Listen to the Podcast
           </Link>
           <span className="hidden md:inline-flex">
             <ButtonLink
-              className="hero-home__ghost-cta light:border-border light:bg-bg/90 light:text-fg light:shadow-[0_2px_22px_rgb(0_0_0/0.2)] light:backdrop-blur-[2px] light:hover:border-accent/55 light:hover:bg-bg light:hover:text-accent"
+              className="hero-home__ghost-cta light:border-border light:bg-bg/85 light:text-fg light:shadow-[0_1px_0_0_rgba(20,18,16,0.06)] light:backdrop-blur-[2px] light:hover:border-accent/55 light:hover:bg-bg light:hover:text-accent"
               href="/podcast"
               variant="ghost"
             >

@@ -39,14 +39,15 @@
 
 .light {
   color-scheme: light;
-  --bg: #f6f3ec;
-  --bg-elevated: #ffffff;
+  /* Warm paper page; elevated surfaces stay slightly warm (not sterile white). */
+  --bg: #f4f0e6;
+  --bg-elevated: #faf7f0;
   --fg: #141210;
   --muted: #4a4844;
-  --border: rgba(20, 18, 16, 0.12);
+  --border: rgba(20, 18, 16, 0.14);
   --accent: #8a6f2d;
-  --accent-soft: rgba(138, 111, 45, 0.12);
-  --glow: rgba(138, 111, 45, 0.06);
+  --accent-soft: rgba(138, 111, 45, 0.14);
+  --glow: rgba(138, 111, 45, 0.08);
 
   /* Books density tokens inherit from :root unless overridden for light. */
 }

@@ -267,19 +267,23 @@ html.light {
  * Homepage hero — light theme: scrim + photo lift only. Hero copy uses Tailwind `light:*`
  * utilities (see globals `@custom-variant light`) so colors win over `text-fg` / `text-muted`.
  */
+/*
+ * Light hero: warm the photo and keep landscape structure readable.
+ * Avoid an early opaque cream wash — copy uses dark type on the left.
+ */
 html.light .hero-home__media img {
-  filter: brightness(1.06) saturate(0.94);
+  filter: brightness(1.12) saturate(0.92) sepia(0.08) contrast(0.98);
 }
 
 html.light .hero-home__scrim {
   background: linear-gradient(
     to bottom,
     transparent 0%,
-    transparent 18%,
-    color-mix(in srgb, var(--bg) 38%, transparent) 36%,
-    color-mix(in srgb, var(--bg) 82%, transparent) 56%,
-    color-mix(in srgb, var(--bg) 94%, transparent) 72%,
-    var(--bg) 88%
+    transparent 32%,
+    color-mix(in srgb, var(--bg) 18%, transparent) 52%,
+    color-mix(in srgb, var(--bg) 55%, transparent) 72%,
+    color-mix(in srgb, var(--bg) 88%, transparent) 88%,
+    var(--bg) 100%
   );
 }
 

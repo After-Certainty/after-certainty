@@ -35,7 +35,7 @@ export async function SiteFooter() {
       })
     : null;
 
-  const desktopFooterLinks = [
+  const togetherLinks = [
     { label: "GitHub", href: siteConfig.githubUrl },
     { label: "RSS / Podcast feed", href: podcastRssHref },
     { label: "Start with a Question", href: "/questions" },
@@ -43,6 +43,9 @@ export async function SiteFooter() {
     { label: "What’s New", href: "/whats-new" },
     { label: "Search", href: "/search" },
     { label: "Collaborators", href: "/collaborators" },
+  ];
+
+  const exploreLinks = [
     { label: "Explore patterns", href: "/explore/patterns" },
     { label: "Explore situations", href: "/explore/situations" },
     { label: "Explore books", href: "/explore/books" },
@@ -61,8 +64,8 @@ export async function SiteFooter() {
   return (
     <footer className="atm-footer border-t border-border/60 bg-bg-elevated/40">
       <span className="atm-footer-grain" aria-hidden />
-      <Container className="atm-footer__inner py-5 md:py-16">
-        <div className="grid gap-4 md:grid-cols-[2fr_1fr] md:gap-12">
+      <Container className="atm-footer__inner py-5 md:py-10 lg:py-12">
+        <div className="grid gap-4 md:grid-cols-[1.4fr_1fr_1fr] md:gap-8 lg:gap-10">
           <div>
             <SiteLockup variant="footer" />
             <p className="mt-2.5 max-w-xl text-sm leading-snug text-muted md:mt-6 md:leading-relaxed">
@@ -158,8 +161,8 @@ export async function SiteFooter() {
 
           <div className="hidden md:block" data-footer-nav="desktop">
             <p className="text-[10px] uppercase tracking-[0.25em] text-muted md:text-xs">Together</p>
-            <ul className="mt-4 space-y-3">
-              {desktopFooterLinks.map((link) => (
+            <ul className="mt-3 space-y-2">
+              {togetherLinks.map((link) => (
                 <li key={link.href} className="min-w-0">
                   <Link className={footerNavLinkClass} href={link.href}>
                     {link.href === podcastRssHref ? (
@@ -170,10 +173,23 @@ export async function SiteFooter() {
                 </li>
               ))}
             </ul>
-            <p className="mt-8 text-[10px] uppercase tracking-[0.25em] text-muted md:text-xs">
+          </div>
+
+          <div className="hidden md:block" data-footer-nav="desktop-explore">
+            <p className="text-[10px] uppercase tracking-[0.25em] text-muted md:text-xs">Explore</p>
+            <ul className="mt-3 space-y-2">
+              {exploreLinks.map((link) => (
+                <li key={link.href} className="min-w-0">
+                  <Link className={footerNavLinkClass} href={link.href}>
+                    <span className="min-w-0 break-words [overflow-wrap:anywhere]">{link.label}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-6 text-[10px] uppercase tracking-[0.25em] text-muted md:text-xs">
               Elsewhere
             </p>
-            <div className="mt-3 flex flex-wrap items-center gap-0.5" aria-label="Social profiles">
+            <div className="mt-2.5 flex flex-wrap items-center gap-0.5" aria-label="Social profiles">
               <TrackedLink
                 href={social.github}
                 target="_blank"
@@ -238,7 +254,7 @@ export async function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-4 space-y-1.5 border-t border-border/30 pt-3 text-[11px] leading-snug text-muted/80 md:mt-12 md:space-y-3 md:border-0 md:pt-0 md:text-xs md:leading-relaxed md:text-muted">
+        <div className="mt-4 space-y-1.5 border-t border-border/30 pt-3 text-[11px] leading-snug text-muted/80 md:mt-8 md:space-y-2 md:border-0 md:pt-0 md:text-xs md:leading-relaxed md:text-muted">
           <p>
             Open corpus · Content licensed{" "}
             <a

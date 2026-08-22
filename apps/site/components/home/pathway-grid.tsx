@@ -37,7 +37,10 @@ function IconConcepts(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
       <circle cx={12} cy={12} r={3} />
-      <path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1" strokeLinecap="round" />
+      <path
+        d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"
+        strokeLinecap="round"
+      />
     </svg>
   );
 }
@@ -102,28 +105,29 @@ const pathways = [
 export function PathwayGrid() {
   return (
     <section
-      className="border-b border-border/40 bg-bg-elevated/22 py-6 md:py-14"
+      className="border-b border-border/40 bg-bg-elevated/22 py-6 md:py-12 lg:py-14"
       aria-label="Explore the commons"
     >
       <Container>
-        <p className="mb-4 text-[10px] uppercase tracking-[0.28em] text-accent md:mb-6 md:text-xs">
+        <p className="mb-4 text-[10px] uppercase tracking-[0.28em] text-accent md:mb-5 md:text-xs">
           Explore the commons
         </p>
-        <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-3 lg:gap-3">
+        {/* Mobile/tablet: compact 2-col tiles. lg+: single horizontal navigation band. */}
+        <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-6 lg:gap-0 lg:overflow-hidden lg:border lg:border-border/50 lg:bg-bg-elevated/35 light:lg:bg-bg-elevated">
           {pathways.map(({ href, title, description, Icon }) => (
             <Link
               key={href}
               href={href}
-              className="group flex min-h-11 flex-col border border-border/50 bg-bg-elevated/40 p-3.5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:h-full md:p-5"
+              className="group flex min-h-11 flex-col border border-border/50 bg-bg-elevated/40 p-3.5 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/40 hover:bg-bg-elevated/55 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent md:p-5 lg:min-h-0 lg:border-0 lg:border-r lg:border-border/40 lg:bg-transparent lg:p-4 lg:shadow-none lg:last:border-r-0 lg:hover:bg-bg-elevated/40 light:bg-bg-elevated light:shadow-none light:hover:bg-bg-elevated light:lg:bg-transparent light:lg:hover:bg-bg/60"
             >
-              <Icon className="mb-2.5 h-6 w-6 shrink-0 text-accent md:mb-4 md:h-8 md:w-8" />
-              <h3 className="text-[10px] font-medium uppercase tracking-[0.22em] text-accent md:text-xs">
+              <Icon className="mb-2.5 h-6 w-6 shrink-0 text-accent md:mb-3 md:h-7 md:w-7 lg:mb-2.5 lg:h-5 lg:w-5" />
+              <h3 className="text-[10px] font-medium uppercase tracking-[0.22em] text-accent md:text-xs lg:text-[10px] lg:tracking-[0.18em]">
                 {title}
               </h3>
-              <p className="mt-2 hidden flex-1 text-sm leading-relaxed text-muted md:mt-3 md:block">
+              <p className="mt-2 hidden flex-1 text-sm leading-relaxed text-muted md:mt-2.5 md:block lg:mt-2 lg:text-xs lg:leading-snug">
                 {description}
               </p>
-              <span className="mt-2 text-[10px] uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg md:mt-6 md:text-xs">
+              <span className="mt-2 text-[10px] uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg md:mt-4 md:text-xs lg:mt-3 lg:text-[10px]">
                 Explore →
               </span>
             </Link>
