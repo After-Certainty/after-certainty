@@ -87,24 +87,6 @@ function logSemanticGraphError(message: string, err?: unknown): void {
   }
 }
 
-function logManifestLoadOnce(result: SemanticGraphLoadResult): void {
-  const { source, diagnostics } = result;
-  const payload = {
-    kind: source.kind,
-    schemaVersion: source.schemaVersion,
-    sourceCommit: source.sourceCommit,
-    generatedAt: source.generatedAt,
-    contentVersion: source.contentVersion,
-    cacheIdentity: source.cacheIdentity,
-    stale: source.stale,
-    ageDays: source.ageDays,
-    reason: source.reason,
-    diagnosticCount: diagnostics.length,
-    categories: diagnostics.map((d) => d.category),
-  };
-  console.error("[semantic-graph] Manifest load", payload);
-}
-
 /** Persist a small build lock once per Node process (build / long-lived server). */
 let buildLockWritten = false;
 
@@ -346,7 +328,6 @@ export async function fetchSemanticGraphLoadResultUncached(): Promise<SemanticGr
     throw new Error(detail);
   }
 
-  logManifestLoadOnce(result);
   return result;
 }
 
