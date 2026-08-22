@@ -11,6 +11,10 @@ cd "$ROOT"
 # hiccup never blocks the critical dependency install below.
 bash .cursor/install-pade.sh || echo "install: PADE bootstrap skipped (non-fatal)"
 
+# Pinned Vercel CLI (used by vercel.diagnostics via pade exec). Non-fatal so an
+# npm registry hiccup never blocks uv/npm ci. No VERCEL_TOKEN on the VM.
+bash .cursor/install-vercel.sh || echo "install: Vercel CLI bootstrap skipped (non-fatal)"
+
 # Python corpus toolchain: installs a checksum-verified uv into ~/.local/bin
 # when missing, then `uv sync --frozen` (full dev group: semantic + test + publishing).
 bash scripts/ci_uv_sync.sh

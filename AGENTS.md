@@ -9,13 +9,20 @@ npm workspaces + Turborepo + Next.js). Site-specific rules are in
 
 The startup update script (`.cursor/install.sh`, wired via `.cursor/environment.json`)
 only refreshes dependencies: `uv sync --frozen` (full dev group) + `npm ci`, plus the
-optional PADE analytics CLI. Everything below is non-obvious runtime context.
+optional PADE analytics CLI and pinned Vercel CLI. Everything below is non-obvious
+runtime context.
 
 - **PATH after startup.** `uv`, the Python venv, and installed tools are not on `PATH`
   in fresh shells. Before running Python/corpus or manifest commands, export:
   `export PATH="$HOME/.local/bin:$PWD/.venv/bin:$PATH"`. This makes `python3` resolve the
   `.venv` interpreter (with `pyyaml`/`jsonschema`) and puts `uv`, `ruff`, and `pytest` on
-  `PATH`. (PADE sets its own PATH via `/etc/profile.d/cursor-pade.sh`.)
+  `PATH`. (PADE sets its own PATH via `/etc/profile.d/cursor-pade.sh`. The Vercel CLI
+  is on PATH via `/etc/profile.d/cursor-vercel.sh`.)
+- **Vercel diagnostics on Cloud Agents.** Do not use Vercel MCP, `vercel login`,
+  `--token`, or a session `VERCEL_TOKEN`. Wrap ordinary CLI diagnostics in PADE:
+  `pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml --capability vercel.diagnostics --quiet -- vercel whoami`
+  (see [`apps/site/.cursor/skills/vercel-diagnostics/SKILL.md`](apps/site/.cursor/skills/vercel-diagnostics/SKILL.md)).
+  Allowed: `whoami`, `ls`, `inspect`, `logs`. Forbidden: `deploy`, `env pull`, `env add`.
 - **The site needs the local semantic manifest before it renders.** This is a
   build/generate step and is intentionally kept out of the update script. Run it once
   after startup (and again after editing `books/` or `semantic/`):

@@ -76,3 +76,19 @@ Google Analytics trend reports on **Cursor Cloud Agents** use [PADE v0.1.0](http
 - Report workflow: [`apps/site/.cursor/skills/ga-trends/`](../apps/site/.cursor/skills/ga-trends/SKILL.md)
 
 **Local laptop only:** MCP `user-analytics-mcp` + `gcloud auth application-default login` remains the fallback when broker mode is unavailable.
+
+## Vercel diagnostics via PADE broker (Cloud Agents)
+
+Vercel CLI diagnostics on **Cursor Cloud Agents** use the same PADE broker. The VM
+installs a pinned `vercel` binary with **no** token. `pade exec --capability vercel.diagnostics`
+injects process-scoped `VERCEL_TOKEN` Material into the child only.
+
+- Broker URL and bindings: [`.pade/agent-bindings.yaml`](../.pade/agent-bindings.yaml)
+- Setup and smoke test: [`docs/pade-cloud-agent.md`](../pade-cloud-agent.md)
+- Diagnostic workflow: [`apps/site/.cursor/skills/vercel-diagnostics/`](../apps/site/.cursor/skills/vercel-diagnostics/SKILL.md)
+
+Do **not** export `VERCEL_TOKEN` into the agent session, pass `--token`, run
+`vercel login` / `vercel env pull`, or use Vercel MCP on Cloud Agents.
+
+**Local laptop only:** a logged-in `vercel` CLI remains the fallback when broker
+mode is unavailable.
