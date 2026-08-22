@@ -11,7 +11,7 @@
 .DS_Store
 .obsidian/workspace.json
 
-# Cloud Agent bootstrap (PADE CLI from .cursor/install-pade.sh)
+# Cloud Agent bootstrap (PADE CLI + Vercel CLI from .cursor/install-*.sh)
 .tools/
 
 # Python
