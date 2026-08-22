@@ -1,6 +1,7 @@
-import { defineConfig, devices } from "@playwright/test";
+import { defineConfig, devices, type PlaywrightTestConfig } from "@playwright/test";
 
-const baseURL = "http://127.0.0.1:3000";
+const externalBaseUrl = process.env.PLAYWRIGHT_BASE_URL?.trim();
+const baseURL = externalBaseUrl || "http://127.0.0.1:3000";
 
 const offlineServerEnv = {
   SEMANTIC_MANIFEST_OFFLINE: "1",
@@ -8,7 +9,15 @@ const offlineServerEnv = {
   NEXT_PUBLIC_SITE_URL: baseURL,
 };
 
-export default defineConfig({
+const bypassSecret = process.env.VERCEL_AUTOMATION_BYPASS_SECRET?.trim();
+const extraHTTPHeaders = bypassSecret
+  ? {
+      "x-vercel-protection-bypass": bypassSecret,
+      "x-vercel-set-bypass-cookie": "true",
+    }
+  : undefined;
+
+const config: PlaywrightTestConfig = {
   testDir: "e2e",
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
@@ -17,6 +26,7 @@ export default defineConfig({
   use: {
     baseURL,
     trace: "on-first-retry",
+    ...(extraHTTPHeaders ? { extraHTTPHeaders } : {}),
   },
   projects: [
     {
@@ -24,11 +34,18 @@ export default defineConfig({
       use: { ...devices["Desktop Chrome"] },
     },
   ],
-  webServer: {
+};
+
+// Optional remote target (PLAYWRIGHT_BASE_URL): skip local webServer.
+// Default: start npm run start on http://127.0.0.1:3000 (CI and local DX).
+if (!externalBaseUrl) {
+  config.webServer = {
     command: "npm run start",
     url: baseURL,
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
     env: offlineServerEnv,
-  },
-});
+  };
+}
+
+export default defineConfig(config);
