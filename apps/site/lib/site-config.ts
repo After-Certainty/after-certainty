@@ -81,6 +81,7 @@ export type PodcastPlatformLinks = {
 /** Outbound profile / repo links for the site footer (same defaults as the former WoLTY microsite footer). */
 export type SiteSocialLinks = {
   github: string;
+  substack: string;
   medium: string;
   linkedIn: string;
   youtube: string;
@@ -90,6 +91,8 @@ export function resolveSiteSocialLinks(): SiteSocialLinks {
   const gh = "https://github.com/ksteffe/after-certainty";
   return {
     github: process.env.NEXT_PUBLIC_SOCIAL_GITHUB_URL?.trim() || gh,
+    substack:
+      process.env.NEXT_PUBLIC_SOCIAL_SUBSTACK_URL?.trim() || "https://ksteff801.substack.com/",
     medium:
       process.env.NEXT_PUBLIC_SOCIAL_MEDIUM_URL?.trim() || "https://medium.com/@steffensen.kevin",
     linkedIn:

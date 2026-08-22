@@ -37,6 +37,10 @@ describe("SiteFooter", () => {
       "href",
       social.github,
     );
+    expect(within(socialRegion as HTMLElement).getByLabelText("Kevin Steffensen on Substack")).toHaveAttribute(
+      "href",
+      social.substack,
+    );
     expect(within(socialRegion as HTMLElement).getByLabelText("Kevin Steffensen on Medium")).toHaveAttribute(
       "href",
       social.medium,
