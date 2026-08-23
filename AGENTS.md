@@ -42,6 +42,7 @@ runtime context.
   `export-*` targets require pandoc, which is a system package not in the update script.
   Install it on demand: `sudo apt-get install -y pandoc`. Typst and epubcheck are
   optional extras (`scripts/install_typst.sh`, `scripts/install_epubcheck.sh`).
-- **Node engine warnings are benign.** The base image ships Node v22.14; some transitive
-  deps emit `EBADENGINE` warnings (they want a newer 22.x) but lint/test/build/run all
-  work.
+- **Node engine.** CI and `package.json` engines require Node **22.22.2+** (LTS).
+  The Cloud Agent base image may ship a slightly older 22.x (e.g. v22.14); some
+  transitive deps (jsdom) still emit `EBADENGINE` until the image catches up, but
+  lint/test/build/run all work. Prefer Node 22 LTS locally and in GitHub Actions.
