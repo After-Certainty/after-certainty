@@ -9,7 +9,11 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from ingramspark.pdf_inspect import PdfInspection, inspect_pdf, media_box_matches_trim
+from after_certainty.ingramspark.pdf_inspect import (
+    PdfInspection,
+    inspect_pdf,
+    media_box_matches_trim,
+)
 
 _REPO_ROOT = Path(__file__).resolve().parents[2]
 _FIXTURE_DIR = Path(__file__).resolve().parent / "fixtures" / "pdfx"

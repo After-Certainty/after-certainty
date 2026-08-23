@@ -8,8 +8,8 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from ingramspark.paths import ebook_isbn, ebook_output_dir
-from ingramspark.profile import load_profile
+from after_certainty.ingramspark.paths import ebook_isbn, ebook_output_dir
+from after_certainty.ingramspark.profile import load_profile
 
 
 @dataclass(frozen=True)

@@ -7,23 +7,27 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path
 from typing import Any, Literal
 
-from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
-from ingramspark.cover_validate import validate_print_cover
-from ingramspark.ebook_preflight import (
+from after_certainty.ingramspark.cover_validate import validate_print_cover
+from after_certainty.ingramspark.ebook_preflight import (
     EbookPreflightReport,
     PreflightIssue,
     run_ebook_preflight,
     write_ebook_preflight_reports,
 )
-from ingramspark.paths import (
+from after_certainty.ingramspark.paths import (
     ebook_output_dir,
     ingramspark_build_dir,
     print_interior_pdf_path,
     print_isbn,
     print_output_dir,
 )
-from ingramspark.print_export import print_color_mode, print_trim_inches, validate_print_interior
-from ingramspark.profile import load_profile
+from after_certainty.ingramspark.print_export import (
+    print_color_mode,
+    print_trim_inches,
+    validate_print_interior,
+)
+from after_certainty.ingramspark.profile import load_profile
+from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 
 Mode = Literal["ebook", "print"]
 

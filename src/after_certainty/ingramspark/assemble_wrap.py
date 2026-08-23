@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from ingramspark.template_meta import ComponentPixels, NormalizedTemplateMeta
+from after_certainty.ingramspark.template_meta import ComponentPixels, NormalizedTemplateMeta
 
 
 class AssembleWrapError(ValueError):

@@ -8,10 +8,10 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from after_certainty.ingramspark.ebook_cover import export_epub_internal_cover_image
+from after_certainty.ingramspark.paths import ebook_isbn, ebook_output_dir
 from book_export_assets import epub_css
 from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
-from ingramspark.ebook_cover import export_epub_internal_cover_image
-from ingramspark.paths import ebook_isbn, ebook_output_dir
 
 _REPO_ROOT = Path(__file__).resolve().parents[2]
 _TOOLS = _REPO_ROOT / "tools"

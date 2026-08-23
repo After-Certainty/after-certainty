@@ -10,15 +10,14 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Literal
 
-from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
-from ingramspark.assemble_wrap import (
+from after_certainty.ingramspark.assemble_wrap import (
     PANEL_ORDER,
     AssembleWrapError,
     assemble_rgb_wrap,
     panel_dimension_mismatch_message,
     require_components,
 )
-from ingramspark.paths import (
+from after_certainty.ingramspark.paths import (
     print_cover_basename,
     print_cover_pdf_path,
     print_cover_work_dir,
@@ -27,9 +26,9 @@ from ingramspark.paths import (
     print_page_count_path,
     sanitize_report_paths,
 )
-from ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
-from ingramspark.profile import load_profile
-from ingramspark.template_meta import (
+from after_certainty.ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
+from after_certainty.ingramspark.profile import load_profile
+from after_certainty.ingramspark.template_meta import (
     NormalizedTemplateMeta,
     TemplateMetaError,
     effective_ppi,
@@ -37,6 +36,7 @@ from ingramspark.template_meta import (
     normalize_template_meta,
     validate_barcode_reserve_geometry,
 )
+from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 
 CheckStatus = Literal["passed", "failed", "warning", "manual-review"]
 

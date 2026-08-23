@@ -12,22 +12,18 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Literal
 
-from book_specs import (
-    ingramspark_artifact_name,
-    ingramspark_preview_artifact_name,
-    load_spec_for_book_dir,
-    spec_ingramspark_enabled,
-    spec_ingramspark_target,
+from after_certainty.ingramspark.cover_page_sync import (
+    CoverPageSyncError,
+    sync_assembled_cover_to_page_count,
 )
-from ingramspark.cover_page_sync import CoverPageSyncError, sync_assembled_cover_to_page_count
-from ingramspark.cover_validate import (
+from after_certainty.ingramspark.cover_validate import (
     CoverValidateError,
     validate_print_cover,
     validate_print_cover_or_raise,
 )
-from ingramspark.ebook_cover import EbookCoverError, export_ebook_cover_jpg
-from ingramspark.ebook_export import EbookExportError, export_ingramspark_epub
-from ingramspark.paths import (
+from after_certainty.ingramspark.ebook_cover import EbookCoverError, export_ebook_cover_jpg
+from after_certainty.ingramspark.ebook_export import EbookExportError, export_ingramspark_epub
+from after_certainty.ingramspark.paths import (
     book_id,
     ebook_isbn,
     ebook_output_dir,
@@ -45,7 +41,7 @@ from ingramspark.paths import (
     print_page_count_path,
     sanitize_report_paths,
 )
-from ingramspark.preflight import (
+from after_certainty.ingramspark.preflight import (
     PreflightError,
     PreflightIssue,
     UnifiedPreflightReport,
@@ -53,8 +49,18 @@ from ingramspark.preflight import (
     select_modes,
     write_unified_preflight_reports,
 )
-from ingramspark.print_export import PrintExportError, export_ingramspark_print_interior
-from ingramspark.profile import load_profile
+from after_certainty.ingramspark.print_export import (
+    PrintExportError,
+    export_ingramspark_print_interior,
+)
+from after_certainty.ingramspark.profile import load_profile
+from book_specs import (
+    ingramspark_artifact_name,
+    ingramspark_preview_artifact_name,
+    load_spec_for_book_dir,
+    spec_ingramspark_enabled,
+    spec_ingramspark_target,
+)
 
 Mode = Literal["ebook", "print", "print-cover-preview"]
 

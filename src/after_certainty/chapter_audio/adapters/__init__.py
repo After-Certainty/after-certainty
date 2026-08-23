@@ -2,10 +2,10 @@
 
 from __future__ import annotations
 
-from chapter_audio.adapters.elevenlabs import (
+from after_certainty.chapter_audio.adapters.elevenlabs import (
     ADAPTER_VERSION as ELEVENLABS_ADAPTER_VERSION,
 )
-from chapter_audio.adapters.elevenlabs import (
+from after_certainty.chapter_audio.adapters.elevenlabs import (
     ElevenLabsProvider,
     MockElevenLabsProvider,
 )

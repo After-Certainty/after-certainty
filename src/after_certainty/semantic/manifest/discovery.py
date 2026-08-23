@@ -654,7 +654,7 @@ def attach_discovery_collections(
     specs_by_slug: dict[str, dict] | None = None,
 ) -> None:
     """Add schemaVersion, sourceCommit, works/editions, and discovery arrays."""
-    from manuscript_structure import build_all_structures
+    from after_certainty.manuscript.structure import build_all_structures
 
     payload["schemaVersion"] = SCHEMA_VERSION
     payload["sourceCommit"] = resolve_source_commit(repo)

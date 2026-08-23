@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from chapter_audio.plan import UnitAudioPlan, plan_units
+from after_certainty.chapter_audio.plan import UnitAudioPlan, plan_units
 
 # Enabled but not safely available for Listen / install.
 NEED_GENERATE_STATUSES = frozenset(

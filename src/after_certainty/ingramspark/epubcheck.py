@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
-from ingramspark.profile import load_profile
+from after_certainty.ingramspark.profile import load_profile
 
 _REPO_ROOT = Path(__file__).resolve().parents[2]
 _VENDOR_ROOT = _REPO_ROOT / "tools" / "vendor"

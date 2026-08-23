@@ -8,19 +8,19 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
-from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
-from ingramspark.paths import (
+from after_certainty.ingramspark.paths import (
     print_cover_pdf_path,
     print_output_dir,
     print_page_count_path,
 )
-from ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
-from ingramspark.template_meta import (
+from after_certainty.ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
+from after_certainty.ingramspark.template_meta import (
     TemplateMetaError,
     load_raw_template_meta,
     load_template_meta_schema,
     normalize_template_meta,
 )
+from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 
 DEFAULT_TEMPLATE_META_REL = "assets/ingramspark/template-meta.yml"
 TRIM_TOLERANCE_INCHES = 0.02
@@ -333,7 +333,7 @@ def _validate_raster_wrap(
     stage: bool,
     result: CoverValidateResult,
 ) -> CoverValidateResult:
-    from ingramspark.raster_wrap import RasterWrapError, convert_raster_wrap
+    from after_certainty.ingramspark.raster_wrap import RasterWrapError, convert_raster_wrap
 
     meta_rel = template_meta_relative
     if not meta_rel:
@@ -465,7 +465,7 @@ def validate_print_cover_or_raise(
 
 def isbn_for_cover(spec: dict[str, Any]) -> str | None:
     """Print ISBN when set; None in planning cover-preview mode (no isbn)."""
-    from ingramspark.paths import print_isbn_optional
+    from after_certainty.ingramspark.paths import print_isbn_optional
 
     return print_isbn_optional(spec)
 

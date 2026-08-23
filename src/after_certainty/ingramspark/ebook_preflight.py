@@ -11,10 +11,14 @@ from pathlib import Path
 from typing import Any
 from xml.etree import ElementTree as ET
 
+from after_certainty.ingramspark.epubcheck import (
+    EpubcheckError,
+    format_epubcheck_failure,
+    run_epubcheck,
+)
+from after_certainty.ingramspark.paths import ebook_isbn, ebook_output_dir
+from after_certainty.ingramspark.profile import load_profile
 from book_specs import spec_ingramspark_target
-from ingramspark.epubcheck import EpubcheckError, format_epubcheck_failure, run_epubcheck
-from ingramspark.paths import ebook_isbn, ebook_output_dir
-from ingramspark.profile import load_profile
 
 _PAGE_REF_RE = re.compile(r"\bpage\s+\d+\b", re.I)
 

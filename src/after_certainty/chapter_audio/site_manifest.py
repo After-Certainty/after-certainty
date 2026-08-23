@@ -7,8 +7,12 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from chapter_audio.plan import UnitAudioPlan, plan_units
-from chapter_audio.receipts import alignment_path_for, load_receipt, receipt_path_for
+from after_certainty.chapter_audio.plan import UnitAudioPlan, plan_units
+from after_certainty.chapter_audio.receipts import (
+    alignment_path_for,
+    load_receipt,
+    receipt_path_for,
+)
 
 DEFAULT_DISCLOSURE = "AI-generated narration"
 _LFS_POINTER_PREFIX = "version https://git-lfs.github.com/spec/v1"

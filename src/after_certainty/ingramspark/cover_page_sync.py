@@ -10,12 +10,12 @@ from typing import Any
 import yaml
 from PIL import Image
 
-from book_specs import spec_ingramspark_target
-from ingramspark.template_meta import (
+from after_certainty.ingramspark.template_meta import (
     load_raw_template_meta,
     normalize_template_meta,
     pixels_from_inches,
 )
+from book_specs import spec_ingramspark_target
 
 # Inches of spine bulk per page (common cream/white paperback rules of thumb).
 _PAPER_BULK_INCHES_PER_PAGE = {

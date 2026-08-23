@@ -7,25 +7,31 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-from chapter_audio.adapters.elevenlabs import ADAPTER_VERSION as ELEVENLABS_ADAPTER_VERSION
-from chapter_audio.artifacts import write_artifact_trio
-from chapter_audio.estimate import estimate_usage
-from chapter_audio.extract import EXTRACTOR_VERSION, extract_spoken_document
-from chapter_audio.hashing import (
+from after_certainty.chapter_audio.adapters.elevenlabs import (
+    ADAPTER_VERSION as ELEVENLABS_ADAPTER_VERSION,
+)
+from after_certainty.chapter_audio.artifacts import write_artifact_trio
+from after_certainty.chapter_audio.estimate import estimate_usage
+from after_certainty.chapter_audio.extract import EXTRACTOR_VERSION, extract_spoken_document
+from after_certainty.chapter_audio.hashing import (
     PIPELINE_VERSION,
     build_generation_hash_payload,
     generation_hash,
     sha256_digest,
 )
-from chapter_audio.plan import ALIGNMENT_STRATEGY
-from chapter_audio.provider import GenerationRequest, NormalizedAlignment, TtsProvider
-from chapter_audio.receipts import (
+from after_certainty.chapter_audio.plan import ALIGNMENT_STRATEGY
+from after_certainty.chapter_audio.provider import (
+    GenerationRequest,
+    NormalizedAlignment,
+    TtsProvider,
+)
+from after_certainty.chapter_audio.receipts import (
     alignment_path_for,
     audio_path_for,
     classify_artifacts,
     receipt_path_for,
 )
-from chapter_audio.resolve import ResolvedUnitAudio, iter_resolved_units
+from after_certainty.chapter_audio.resolve import ResolvedUnitAudio, iter_resolved_units
 
 
 class GenerateError(RuntimeError):

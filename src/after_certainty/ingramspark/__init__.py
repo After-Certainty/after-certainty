@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from ingramspark.profile import (  # noqa: F401
+from after_certainty.ingramspark.profile import (  # noqa: F401
     PROFILE_DIR,
     discover_profile_ids,
     load_profile,

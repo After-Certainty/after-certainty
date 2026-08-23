@@ -11,8 +11,8 @@ import urllib.request
 from collections.abc import Callable
 from typing import Any
 
-from chapter_audio.estimate import estimate_usage
-from chapter_audio.provider import (
+from after_certainty.chapter_audio.estimate import estimate_usage
+from after_certainty.chapter_audio.provider import (
     AlignmentSegment,
     GenerationEstimate,
     GenerationRequest,

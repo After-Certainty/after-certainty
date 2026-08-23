@@ -11,20 +11,20 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from after_certainty.ingramspark.paths import (
+    print_interior_pdf_path,
+    print_isbn,
+    print_output_dir,
+    print_page_count_path,
+)
+from after_certainty.ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
+from after_certainty.ingramspark.profile import load_profile
 from book_specs import (
     spec_ingramspark_enabled,
     spec_ingramspark_target,
     spec_pdf_engine,
     spec_typst_config,
 )
-from ingramspark.paths import (
-    print_interior_pdf_path,
-    print_isbn,
-    print_output_dir,
-    print_page_count_path,
-)
-from ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
-from ingramspark.profile import load_profile
 
 _REPO_ROOT = Path(__file__).resolve().parents[2]
 _TOOLS = _REPO_ROOT / "tools"
@@ -472,7 +472,7 @@ def export_ingramspark_print_interior(
             )
         if color_mode == "black-and-white":
             if apply_pdfx_proof_construction:
-                from ingramspark.pdfx_proof import (  # noqa: PLC0415
+                from after_certainty.ingramspark.pdfx_proof import (  # noqa: PLC0415
                     find_ghostscript,
                     find_sgray_icc,
                 )

@@ -9,8 +9,8 @@ from typing import Any
 
 import jsonschema
 
-from chapter_audio.plan import plan_units
-from chapter_audio.receipts import is_lfs_pointer
+from after_certainty.chapter_audio.plan import plan_units
+from after_certainty.chapter_audio.receipts import is_lfs_pointer
 
 
 @dataclass(frozen=True)
