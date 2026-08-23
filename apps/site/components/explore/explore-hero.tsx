@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/container";
+import { HERO_SCRIM_EXPLORE_CLASS } from "@/lib/ui/hero-scrim";
 
 const backdropSrc = "/images/hero/hero-backdrop.png";
 
@@ -107,10 +108,7 @@ export function ExploreIndexHero({
         className="atm-vignette-soft pointer-events-none absolute inset-0 z-[2] opacity-[0.55] md:opacity-[0.68]"
         aria-hidden
       />
-      <div
-        className="explore-page__scrim pointer-events-none absolute inset-0 z-[3] bg-[linear-gradient(to_bottom,transparent_0%,transparent_40%,color-mix(in_srgb,var(--bg)_44%,transparent)_68%,color-mix(in_srgb,var(--bg)_76%,transparent)_100%)]"
-        aria-hidden
-      />
+      <div className={HERO_SCRIM_EXPLORE_CLASS} aria-hidden />
 
       <Container className={containerClass}>
         <div className="animate-start-reveal">

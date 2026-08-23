@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { resolveThinkersForBook } from "@/lib/graph/bookThinkers";
+import { resolveThinkersForBook } from "@/lib/graph/query/bookThinkers";
 import type { Book, SemanticGraph, Source } from "@/types/semanticGraph";
 
 const legacySource: Source = {

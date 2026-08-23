@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import {
   buildManifestLockFromLoadResult,
   releaseIdentityKey,
-} from "@/lib/graph/build-manifest-lock";
+} from "@/lib/graph/manifest/build-lock";
 import { buildManifestCacheIdentity, type SemanticGraphLoadResult } from "@/lib/graph/manifest";
 
 describe("build manifest lock", () => {

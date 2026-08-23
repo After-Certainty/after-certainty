@@ -1,4 +1,4 @@
-import { semanticGraphSchema, toSemanticGraph } from "@/lib/graph/schemas";
+import { semanticGraphSchema, toSemanticGraph } from "@/lib/graph/manifest/schemas";
 import type { SemanticGraph } from "@/types/semanticGraph";
 import type { ZodError } from "zod";
 

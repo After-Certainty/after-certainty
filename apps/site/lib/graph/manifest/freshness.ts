@@ -4,15 +4,15 @@ import {
   isCompatibleSchemaVersion,
   isInstalledManifestStale,
 } from "@/lib/graph/manifest";
-import { INTENDED_SCHEMA_VERSION, isIntendedSchemaVersion } from "@/lib/graph/schema-version";
-import { validateSemanticGraph } from "@/lib/graph/validate";
+import { INTENDED_SCHEMA_VERSION, isIntendedSchemaVersion } from "@/lib/graph/manifest/schema-version";
+import { validateSemanticGraph } from "@/lib/graph/manifest/validate";
 import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
 import {
   LOCAL_INTENDED_RELEASE_RELATIVE,
   isSemanticManifestUseLocal,
   loadInstalledManifestJson,
   readJsonFileIfPresent,
-} from "@/lib/graph/installed-manifest-io";
+} from "@/lib/graph/manifest/installed-io";
 import { join } from "node:path";
 
 export type InstalledManifestFreshnessSeverity = "error" | "warning";

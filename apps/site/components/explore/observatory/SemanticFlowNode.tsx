@@ -5,10 +5,10 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { Handle, Position, type Node, type NodeProps } from "@xyflow/react";
 
-import { visualProfileForGraphNode } from "@/lib/graph/nodeVisuals";
+import { visualProfileForGraphNode } from "@/lib/graph/presentation/nodeVisuals";
 import { graphNodeTitle, type GraphNode } from "@/lib/graph/graph";
 import type { NodeSemanticTier } from "@/lib/observatory/types";
-import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
 
 export type SemanticFlowNodeData = {
   graphNode: GraphNode;

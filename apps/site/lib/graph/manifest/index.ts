@@ -1,15 +1,15 @@
 import { cache } from "react";
 import { isSemanticManifestOffline } from "@/lib/site-config";
 import type { Book, SemanticGraph } from "@/types/semanticGraph";
-import { validateSemanticGraph } from "@/lib/graph/validate";
-import { isCompatibleSchemaVersion } from "@/lib/graph/schema-version";
+import { validateSemanticGraph } from "@/lib/graph/manifest/validate";
+import { isCompatibleSchemaVersion } from "@/lib/graph/manifest/schema-version";
 import {
   buildManifestLockFromLoadResult,
   writeManifestBuildLock,
-} from "@/lib/graph/build-manifest-lock";
-import { loadInstalledManifestJson } from "@/lib/graph/installed-manifest-io";
+} from "@/lib/graph/manifest/build-lock";
+import { loadInstalledManifestJson } from "@/lib/graph/manifest/installed-io";
 
-export { validateSemanticGraph, type ValidateSemanticGraphResult } from "@/lib/graph/validate";
+export { validateSemanticGraph, type ValidateSemanticGraphResult } from "@/lib/graph/manifest/validate";
 export {
   INTENDED_SCHEMA_VERSION,
   SUPPORTED_SCHEMA_MAJOR,
@@ -19,14 +19,14 @@ export {
   isIntendedSchemaVersion,
   isSchemaAtLeast,
   parseSchemaVersion,
-} from "@/lib/graph/schema-version";
+} from "@/lib/graph/manifest/schema-version";
 export {
   buildManifestLockFromLoadResult,
   writeManifestBuildLock,
   releaseIdentityKey,
   type ManifestBuildLock,
   MANIFEST_BUILD_LOCK_RELATIVE_PATH,
-} from "@/lib/graph/build-manifest-lock";
+} from "@/lib/graph/manifest/build-lock";
 
 /** Default installed-manifest staleness threshold (days). Override with SEMANTIC_MANIFEST_INSTALLED_STALE_DAYS or SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS. */
 export const DEFAULT_INSTALLED_MANIFEST_STALE_DAYS = 30;

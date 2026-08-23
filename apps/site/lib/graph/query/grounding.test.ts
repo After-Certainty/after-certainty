@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { buildPublicGroundingViewModel } from "@/lib/graph/grounding";
+import { buildPublicGroundingViewModel } from "@/lib/graph/query/grounding";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 const emptyGraph = (): SemanticGraph => ({

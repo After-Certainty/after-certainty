@@ -5,10 +5,10 @@ import Link from "next/link";
 import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { exploreHrefForNode, exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
 import { masterTermForConceptId, structuralPressureForConceptId } from "@/lib/graph/ontology";
-import { isSymmetricRelationship } from "@/lib/graph/relationshipTaxonomy";
+import { isSymmetricRelationship } from "@/lib/graph/presentation/relationshipTaxonomy";
 import { mergeRelatedTerrain } from "@/lib/observatory/relatedTerrainMerge";
 import type { RelationshipSelection } from "@/lib/observatory/types";
-import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
+import { formatRelationshipLabelForDisplay } from "@/lib/graph/presentation/relationshipVisuals";
 
 function labelForNode(index: GraphIndex, id: string): string {
   const n = index.getNodeByCanonicalId(id);

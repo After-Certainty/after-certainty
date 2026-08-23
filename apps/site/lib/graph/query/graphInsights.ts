@@ -6,7 +6,7 @@
 
 import type { Relationship } from "@/types/semanticGraph";
 import type { GraphIndex } from "@/lib/graph/graph";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
 
 export type InsightEdge = {
   sourceId: string;

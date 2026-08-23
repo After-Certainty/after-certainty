@@ -1,6 +1,6 @@
 import type { GraphIndex } from "@/lib/graph/graph";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
-import { isSymmetricRelationship } from "@/lib/graph/relationshipTaxonomy";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
+import { isSymmetricRelationship } from "@/lib/graph/presentation/relationshipTaxonomy";
 import type { EdgeSemanticTier, NodeSemanticTier, SemanticWeights } from "@/lib/observatory/types";
 
 export type FocusEngineInput = {

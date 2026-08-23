@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
-import { validateSemanticGraph } from "@/lib/graph/validate";
+import { validateSemanticGraph } from "@/lib/graph/manifest/validate";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 export type ManifestFixtureName =

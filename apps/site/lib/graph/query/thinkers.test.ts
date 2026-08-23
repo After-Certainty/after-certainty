@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { deriveThinkersFromSources, resolveThinkers } from "@/lib/graph/thinkers";
+import { deriveThinkersFromSources, resolveThinkers } from "@/lib/graph/query/thinkers";
 import type { SemanticGraph, Source, Thinker } from "@/types/semanticGraph";
 
 const legacySource: Source = {

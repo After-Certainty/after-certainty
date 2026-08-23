@@ -4,7 +4,7 @@ import {
   formatRelationshipLabelForDisplay,
   normalizePredicateKey,
   styleForRelationshipPredicate,
-} from "@/lib/graph/relationshipVisuals";
+} from "@/lib/graph/presentation/relationshipVisuals";
 
 describe("relationshipVisuals", () => {
   it("normalizes predicate keys", () => {

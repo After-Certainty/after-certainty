@@ -10,7 +10,7 @@ import {
   distinctRelationshipPredicates,
   passesNodeFilters,
   vizEdgeDedupKey,
-} from "@/lib/graph/graphVizModel";
+} from "@/lib/graph/presentation/graphVizModel";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 const rich: SemanticGraph = {

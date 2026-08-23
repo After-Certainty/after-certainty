@@ -8,12 +8,12 @@ import type {
   Thinker,
 } from "@/types/semanticGraph";
 import type { GraphIndex } from "@/lib/graph/graph";
-import { resolveThinkers } from "@/lib/graph/thinkers";
+import { resolveThinkers } from "@/lib/graph/query/thinkers";
 import {
   getIncomingRelationships,
   getOutgoingRelationships,
   relationshipEndpointsResolved,
-} from "@/lib/graph/graphTraversal";
+} from "@/lib/graph/query/graphTraversal";
 
 export function getConceptBySlug(index: GraphIndex, slug: string): GlossaryConcept | undefined {
   return index.conceptBySlug.get(slug);

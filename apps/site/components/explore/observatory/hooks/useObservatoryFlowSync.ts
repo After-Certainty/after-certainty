@@ -5,8 +5,8 @@ import type { Edge, Node } from "@xyflow/react";
 
 import type { GraphIndex } from "@/lib/graph/graph";
 import { exploreHrefForCanonicalId } from "@/lib/graph/explorePaths";
-import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
-import type { VizEdge } from "@/lib/graph/graphVizModel";
+import { vizEdgeDedupKey } from "@/lib/graph/presentation/graphVizModel";
+import type { VizEdge } from "@/lib/graph/presentation/graphVizModel";
 import { computeSemanticWeights, shouldShowEdgeLabel } from "@/lib/observatory/focusEngine";
 import type { RelationshipSelection } from "@/lib/observatory/types";
 import { mergeNodePositions, spreadNodePositions, type XY } from "@/lib/explore/observatoryLayout";

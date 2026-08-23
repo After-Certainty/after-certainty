@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getBookBySlug } from "@/lib/graph/graphQueries";
+import { getBookBySlug } from "@/lib/graph/query/graphQueries";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { buildBookPageJsonLd } from "@/lib/seo/json-ld";
 import { explorePaths } from "@/lib/graph/explorePaths";

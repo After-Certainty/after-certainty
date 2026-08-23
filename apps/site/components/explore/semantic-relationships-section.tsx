@@ -1,5 +1,5 @@
 import type { GraphIndex } from "@/lib/graph/graph";
-import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
+import { relationshipsForConcept } from "@/lib/graph/presentation/relationshipTaxonomy";
 import type { GraphEntityKind } from "@/types/semanticGraph";
 import { RelationshipList } from "@/components/explore/relationship-list";
 import { TensionRelationshipList } from "@/components/explore/tension-relationship-list";

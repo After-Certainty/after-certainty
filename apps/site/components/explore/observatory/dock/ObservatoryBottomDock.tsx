@@ -1,7 +1,7 @@
 "use client";
 
 import type { GraphIndex } from "@/lib/graph/graph";
-import type { InsightEdge } from "@/lib/graph/graphInsights";
+import type { InsightEdge } from "@/lib/graph/query/graphInsights";
 import type { NeighborhoodSignals } from "@/lib/observatory/neighborhoodSignals";
 import type { Pathway } from "@/types/observatory";
 

@@ -1,6 +1,6 @@
-import { loadInstalledManifestJson } from "@/lib/graph/installed-manifest-io";
-import { isCompatibleSchemaVersion } from "@/lib/graph/schema-version";
-import { validateSemanticGraph } from "@/lib/graph/validate";
+import { loadInstalledManifestJson } from "@/lib/graph/manifest/installed-io";
+import { isCompatibleSchemaVersion } from "@/lib/graph/manifest/schema-version";
+import { validateSemanticGraph } from "@/lib/graph/manifest/validate";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 let cached: SemanticGraph | undefined;

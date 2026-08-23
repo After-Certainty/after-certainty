@@ -1,6 +1,6 @@
 import { explorePaths } from "@/lib/graph/explorePaths";
-import { getThinkerBySlug } from "@/lib/graph/graphQueries";
-import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
+import { getThinkerBySlug } from "@/lib/graph/query/graphQueries";
+import { formatRelationshipLabelForDisplay } from "@/lib/graph/presentation/relationshipVisuals";
 import type { SemanticGraph, Source, Thinker } from "@/types/semanticGraph";
 
 /** Strip Chicago-style ``*italic*`` markers (mirrors tools/source_metadata.strip_markdown_italics). */

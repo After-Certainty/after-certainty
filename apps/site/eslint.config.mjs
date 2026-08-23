@@ -51,6 +51,61 @@ const eslintConfig = defineConfig([
       ],
     },
   },
+  {
+    files: ["lib/graph/manifest/**/*.{ts,tsx}"],
+    ignores: ["**/*.{test,spec}.{ts,tsx}"],
+    rules: {
+      "no-restricted-imports": [
+        "error",
+        {
+          patterns: [
+            {
+              group: ["@/lib/graph/presentation/*", "@/lib/graph/presentation/**"],
+              message: "manifest/ must not import presentation/ — use model/ or query/ instead.",
+            },
+            {
+              group: ["@/lib/graph/query/*", "@/lib/graph/query/**"],
+              message: "manifest/ must not import query/ — keep manifest loading separate from graph queries.",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    files: ["lib/graph/model/**/*.{ts,tsx}"],
+    ignores: ["**/*.{test,spec}.{ts,tsx}"],
+    rules: {
+      "no-restricted-imports": [
+        "error",
+        {
+          patterns: [
+            {
+              group: ["@/lib/graph/presentation/*", "@/lib/graph/presentation/**"],
+              message: "model/ must not import presentation/ — shared types and normalization only.",
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
+    files: ["lib/graph/query/**/*.{ts,tsx}"],
+    ignores: ["**/*.{test,spec}.{ts,tsx}"],
+    rules: {
+      "no-restricted-imports": [
+        "error",
+        {
+          patterns: [
+            {
+              group: ["@/lib/graph/presentation/*", "@/lib/graph/presentation/**"],
+              message: "query/ must not import presentation/ — visualization belongs in presentation/.",
+            },
+          ],
+        },
+      ],
+    },
+  },
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:

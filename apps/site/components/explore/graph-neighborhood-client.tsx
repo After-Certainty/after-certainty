@@ -4,7 +4,7 @@ import { useMemo } from "react";
 
 import { GraphNeighborhoodCards } from "@/components/explore/graph-neighborhood-cards";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getConnectedGraphNeighborhood } from "@/lib/graph/graphTraversal";
+import { getConnectedGraphNeighborhood } from "@/lib/graph/query/graphTraversal";
 import type { GraphFocalNode, SemanticGraph } from "@/types/semanticGraph";
 
 type GraphNeighborhoodClientProps = {

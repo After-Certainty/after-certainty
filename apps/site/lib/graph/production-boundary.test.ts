@@ -2,8 +2,8 @@ import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 
-import { loadInstalledManifestJson } from "@/lib/graph/installed-manifest-io";
-import { validateSemanticGraph } from "@/lib/graph/validate";
+import { loadInstalledManifestJson } from "@/lib/graph/manifest/installed-io";
+import { validateSemanticGraph } from "@/lib/graph/manifest/validate";
 import { loadManifestFixture, loadManifestFixtureJson } from "@/test/helpers/load-manifest-fixture";
 import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 

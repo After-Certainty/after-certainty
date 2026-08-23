@@ -1,5 +1,5 @@
 import type { GraphIndex, GraphNode } from "@/lib/graph/graph";
-import { relatedRefsForThinker, thinkerIdsForConcept } from "@/lib/graph/conceptThinkers";
+import { relatedRefsForThinker, thinkerIdsForConcept } from "@/lib/graph/query/conceptThinkers";
 import type { GraphFocalNode, Relationship } from "@/types/semanticGraph";
 
 /** Resolved endpoints for a relationship; `null` if either side does not map to a known entity. */

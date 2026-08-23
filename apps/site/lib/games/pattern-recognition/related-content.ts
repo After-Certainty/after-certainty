@@ -1,10 +1,10 @@
 import { bookIsPublic, findBookBySlug } from "@/lib/books/book-metadata";
-import { publicChaptersForPattern } from "@/lib/graph/chapter-associations";
+import { publicChaptersForPattern } from "@/lib/graph/query/chapter-associations";
 import { chapterPublicPath, chaptersFromGraph } from "@/lib/graph/chapters";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import type { GraphIndex } from "@/lib/graph/graph";
-import { getPatternBySlug, getSituationBySlug } from "@/lib/graph/graphQueries";
-import { relatedContentForPattern } from "@/lib/graph/relatedContent";
+import { getPatternBySlug, getSituationBySlug } from "@/lib/graph/query/graphQueries";
+import { relatedContentForPattern } from "@/lib/graph/query/relatedContent";
 import { isChapterSearchEligible } from "@/lib/corpus/chapter-eligibility";
 import type { ChallengeDefinition } from "@/types/challenges";
 import type { PodcastEpisode } from "@/types/content";

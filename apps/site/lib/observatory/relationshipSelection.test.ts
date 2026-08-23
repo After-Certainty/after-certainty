@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
+import { vizEdgeDedupKey } from "@/lib/graph/presentation/graphVizModel";
 import {
   relationshipForEdgeKey,
   relationshipSelectionFromRelationship,

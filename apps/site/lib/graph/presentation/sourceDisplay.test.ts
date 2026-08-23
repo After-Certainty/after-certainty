@@ -5,7 +5,7 @@ import {
   sourceDisplayBody,
   sourceDisplayLabel,
   sourceDisplayTitle,
-} from "@/lib/graph/sourceDisplay";
+} from "@/lib/graph/presentation/sourceDisplay";
 import type { SemanticGraph, Source } from "@/types/semanticGraph";
 
 const legacySource: Source = {

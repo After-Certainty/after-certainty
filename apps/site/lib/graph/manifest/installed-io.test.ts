@@ -6,7 +6,7 @@ import { tmpdir } from "node:os";
 import {
   loadInstalledManifestJson,
   LOCAL_SEMANTIC_MANIFEST_RELATIVE,
-} from "@/lib/graph/installed-manifest-io";
+} from "@/lib/graph/manifest/installed-io";
 import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
 describe("loadOfflineManifestJson", () => {

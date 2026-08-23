@@ -4,7 +4,7 @@ import { buildGraphIndex } from "@/lib/graph/graph";
 import {
   getConnectedGraphNeighborhood,
   relationshipEndpointsResolved,
-} from "@/lib/graph/graphTraversal";
+} from "@/lib/graph/query/graphTraversal";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 const sampleGraph: SemanticGraph = {

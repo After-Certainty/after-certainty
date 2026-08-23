@@ -1,5 +1,5 @@
 import type { GraphIndex } from "@/lib/graph/graph";
-import { resolveThinkers } from "@/lib/graph/thinkers";
+import { resolveThinkers } from "@/lib/graph/query/thinkers";
 import type { GlossaryConcept, Thinker } from "@/types/semanticGraph";
 
 function sourcesForConceptId(index: GraphIndex, conceptId: string) {

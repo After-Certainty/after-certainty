@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { assertInstalledManifestFresh } from "@/lib/graph/installed-manifest-freshness";
+import { assertInstalledManifestFresh } from "@/lib/graph/manifest/freshness";
 import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
 describe.skipIf(!tryLoadLocalSemanticManifest())("validate:installed-manifest CLI gate", () => {

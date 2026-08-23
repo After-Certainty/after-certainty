@@ -29,7 +29,7 @@ import { formatPublicationMonthYear, publicStatusLabel } from "@/lib/books/publi
 import type { OrderedBookActions } from "@/lib/books/semantic-book-action-links";
 import type { ShelfAdjacentBooks, ShelfDefinition } from "@/lib/books/shelves";
 import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
-import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import type { GraphIndex } from "@/lib/graph/graph";
 import type { ContinueReadingCatalog } from "@/lib/reading/continueReading";

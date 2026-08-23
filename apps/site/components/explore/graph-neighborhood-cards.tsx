@@ -4,7 +4,7 @@ import { RelatedSectionDisclosure } from "@/components/explore/related-section-d
 import type { GraphNode } from "@/lib/graph/graph";
 import { graphNodeTitle } from "@/lib/graph/graph";
 import { exploreHrefForNode } from "@/lib/graph/explorePaths";
-import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
 
 export type GraphNeighborhoodCardsProps = {
   nodes: GraphNode[];

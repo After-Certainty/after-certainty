@@ -22,8 +22,8 @@ const result = spawnSync(
   [
     "vitest",
     "run",
-    "lib/graph/installed-manifest-freshness.test.ts",
-    "lib/graph/installed-manifest-cli.test.ts",
+    "lib/graph/manifest/freshness.test.ts",
+    "lib/graph/manifest/installed-cli.test.ts",
   ],
   { cwd: root, stdio: "inherit", env },
 );

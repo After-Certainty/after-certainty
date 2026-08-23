@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import {
   assertInstalledManifestFresh,
   collectInstalledManifestFreshnessIssues,
-} from "@/lib/graph/installed-manifest-freshness";
+} from "@/lib/graph/manifest/freshness";
 import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
 const localGraph = tryLoadLocalSemanticManifest();

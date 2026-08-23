@@ -9,7 +9,7 @@ import {
   relationshipFamily,
   relationshipsForConcept,
   tensionPredicateKeys,
-} from "@/lib/graph/relationshipTaxonomy";
+} from "@/lib/graph/presentation/relationshipTaxonomy";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 const miniGraph: SemanticGraph = {

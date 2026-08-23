@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import {
   publicChaptersForConcept,
   publicChaptersForPattern,
-} from "@/lib/graph/chapter-associations";
+} from "@/lib/graph/query/chapter-associations";
 import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
 const graph = tryLoadLocalSemanticManifest();

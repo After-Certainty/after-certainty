@@ -3,7 +3,8 @@ import Link from "next/link";
 import { BookCoverThumbnail } from "@/components/books/book-cover-thumbnail";
 import { WhatsNewHomePreview } from "@/components/whats-new/whats-new-home-preview";
 import { Container } from "@/components/ui/container";
-import { getBookDetailHref, getFeaturedBook } from "@/lib/content-data";
+import { getBookDetailHref } from "@/lib/books/book-routing";
+import { getFeaturedBook } from "@/lib/books/featured-book";
 import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 
 /**

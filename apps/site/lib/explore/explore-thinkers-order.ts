@@ -1,4 +1,4 @@
-import { resolveThinkers } from "@/lib/graph/thinkers";
+import { resolveThinkers } from "@/lib/graph/query/thinkers";
 import type { SemanticGraph, Thinker } from "@/types/semanticGraph";
 
 /** Same order as `/explore/thinkers` (`name`, `localeCompare`). */

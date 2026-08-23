@@ -1,5 +1,5 @@
 import type { GraphIndex } from "@/lib/graph/graph";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
 import type { OntologyMasterTerm, OntologyStructuralPressure, SemanticGraph } from "@/types/semanticGraph";
 
 export type OntologyRole = "master" | "pressure";

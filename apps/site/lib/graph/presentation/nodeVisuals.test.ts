@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { visualProfileForGraphNode } from "@/lib/graph/nodeVisuals";
+import { visualProfileForGraphNode } from "@/lib/graph/presentation/nodeVisuals";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 const graph: SemanticGraph = {

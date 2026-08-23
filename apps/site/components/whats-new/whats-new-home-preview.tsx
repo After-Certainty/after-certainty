@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import { AnalyticsEvents } from "@/lib/analytics/events";
-import { getPodcastEpisodes } from "@/lib/content-data";
+import { getPodcastEpisodesFromRss } from "@/lib/podcast/rss";
 import { getSemanticGraph } from "@/lib/graph/manifest";
 import { formatWhatsNewEventDate } from "@/lib/whats-new/groupByMonth";
 import { buildPublicWhatsNewEvents } from "@/lib/whats-new/publicEvents";
@@ -105,7 +105,7 @@ function CompactWhatsNewRow({ event }: { event: WhatsNewEvent }) {
  * Homepage “What’s New” — one featured update plus compact secondary rows.
  */
 export async function WhatsNewHomePreview() {
-  const [podcastEpisodes, graph] = await Promise.all([getPodcastEpisodes(), getSemanticGraph()]);
+  const [podcastEpisodes, graph] = await Promise.all([getPodcastEpisodesFromRss(), getSemanticGraph()]);
   const events = buildPublicWhatsNewEvents({
     podcastEpisodes,
     changeEvents: graph.changeEvents,

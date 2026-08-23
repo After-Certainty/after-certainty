@@ -6,12 +6,12 @@ import {
   resolveWorkEdition,
   type EditionGroupMeta,
 } from "@/lib/books/resolve-work-edition";
-import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex, graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
-import { sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
-import { resolveThinkers } from "@/lib/graph/thinkers";
+import { sourceDisplayTitle } from "@/lib/graph/presentation/sourceDisplay";
+import { resolveThinkers } from "@/lib/graph/query/thinkers";
 import { chaptersFromGraph, chapterSlugFromRouteKey } from "@/lib/graph/chapters";
 import { isChapterSearchEligible } from "@/lib/corpus/chapter-eligibility";
 import { aliasTermsByTargetId, relatedTermsByTargetId } from "@/lib/search/aliases";

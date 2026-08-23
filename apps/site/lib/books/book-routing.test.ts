@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 
-import { getBookDetailHref, getBookBySlug } from "@/lib/content-data";
+import { getBookBySlugFromGraph } from "@/lib/books/book-by-slug";
+import { getBookDetailHref } from "@/lib/books/book-routing";
 import { WOLTY_V1_SLUG } from "@/lib/books/book-slugs";
 
 describe("getBookDetailHref", () => {
@@ -13,14 +14,14 @@ describe("getBookDetailHref", () => {
   });
 });
 
-describe("getBookBySlug", () => {
+describe("getBookBySlugFromGraph", () => {
   it("returns a book for WoLTY legacy alias slug when present in semantic manifest", async () => {
-    const book = await getBookBySlug(WOLTY_V1_SLUG);
+    const book = await getBookBySlugFromGraph(WOLTY_V1_SLUG);
     expect(book?.slug).toBe(WOLTY_V1_SLUG);
     expect(book?.title.length).toBeGreaterThan(0);
   });
 
   it("returns undefined for unknown slug", async () => {
-    expect(await getBookBySlug("no-such-book-slug")).toBeUndefined();
+    expect(await getBookBySlugFromGraph("no-such-book-slug")).toBeUndefined();
   });
 });

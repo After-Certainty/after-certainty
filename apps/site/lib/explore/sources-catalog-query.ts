@@ -8,7 +8,7 @@ import type {
   SourcesCatalogSort,
   SourcesCatalogUrlState,
 } from "@/lib/explore/sources-catalog-url-state";
-import { sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
+import { sourceDisplayTitle } from "@/lib/graph/presentation/sourceDisplay";
 import type { Source, SourceKind } from "@/types/semanticGraph";
 
 export type SourcesCatalogFilterOptions = {

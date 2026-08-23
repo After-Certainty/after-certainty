@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getPatternBySlug } from "@/lib/graph/graphQueries";
+import { getPatternBySlug } from "@/lib/graph/query/graphQueries";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { buildPatternPageJsonLd, relatedConceptUrls } from "@/lib/seo/json-ld";
 import { explorePaths } from "@/lib/graph/explorePaths";

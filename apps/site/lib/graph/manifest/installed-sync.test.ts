@@ -6,10 +6,10 @@ import { tmpdir } from "node:os";
 import {
   loadInstalledSemanticGraphSync,
   resetInstalledSemanticGraphCacheForTests,
-} from "@/lib/graph/installed-manifest";
+} from "@/lib/graph/manifest/installed-sync";
 import { fetchSemanticGraphLoadResultUncached } from "@/lib/graph/manifest";
-import { LOCAL_SEMANTIC_MANIFEST_RELATIVE } from "@/lib/graph/installed-manifest-io";
-import * as installedManifestIo from "@/lib/graph/installed-manifest-io";
+import { LOCAL_SEMANTIC_MANIFEST_RELATIVE } from "@/lib/graph/manifest/installed-io";
+import * as installedManifestIo from "@/lib/graph/manifest/installed-io";
 import { loadManifestFixtureJson } from "@/test/helpers/load-manifest-fixture";
 
 const MINIMAL_VALID = loadManifestFixtureJson("minimal-valid");

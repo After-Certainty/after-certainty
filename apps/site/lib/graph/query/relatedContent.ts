@@ -1,4 +1,4 @@
-import { resolveThinkersForConcept } from "@/lib/graph/conceptThinkers";
+import { resolveThinkersForConcept } from "@/lib/graph/query/conceptThinkers";
 import type { GraphIndex } from "@/lib/graph/graph";
 import type {
   Book,
@@ -14,7 +14,7 @@ import {
   getRelatedConcepts,
   getRelatedPatterns,
   getRelatedSources,
-} from "@/lib/graph/graphQueries";
+} from "@/lib/graph/query/graphQueries";
 
 /** Resolved related entities for explore grids (keeps page components thin). */
 export type RelatedContentBundle = {

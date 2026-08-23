@@ -1,5 +1,5 @@
 import { publicationRegistryFromGraph } from "@/lib/graph/discovery";
-import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/manifest/installed-sync";
 import type {
   PublicationEdition,
   PublicationRegistry,

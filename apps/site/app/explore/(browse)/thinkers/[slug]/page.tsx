@@ -8,6 +8,7 @@ import { RelatedBooksSection } from "@/components/explore/related-books-section"
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
+import { EXPLORE_ENTITY_DETAIL_SECTION_CLASS } from "@/lib/explore/entity-detail-layout";
 import {
   exploreThinkerAdjacentInIndexOrder,
   thinkersSortedForExploreIndex,
@@ -15,8 +16,8 @@ import {
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getThinkerBySlug } from "@/lib/graph/graphQueries";
-import { relatedContentForThinker } from "@/lib/graph/relatedContent";
+import { getThinkerBySlug } from "@/lib/graph/query/graphQueries";
+import { relatedContentForThinker } from "@/lib/graph/query/relatedContent";
 import { createPageMetadata } from "@/lib/metadata";
 import { buildThinkerPageJsonLd } from "@/lib/seo/json-ld";
 import { thinkerTypeLabel } from "@/lib/explore/thinker-taxonomy";
@@ -82,7 +83,7 @@ export default async function ExploreThinkerDetailPage({ params }: PageProps) {
           breadcrumbs: thinkerBreadcrumbs,
         })}
       />
-      <Section atmosphere="none" className="pt-6 md:pt-14 !pb-6 md:!pb-12">
+      <Section atmosphere="none" className={EXPLORE_ENTITY_DETAIL_SECTION_CLASS}>
         <BreadcrumbTrail items={thinkerBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">
           {thinkerTypeLabel(thinker.type)}

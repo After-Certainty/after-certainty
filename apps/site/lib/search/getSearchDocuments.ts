@@ -1,6 +1,6 @@
 import { cache } from "react";
 
-import { getPodcastEpisodes } from "@/lib/content-data";
+import { getPodcastEpisodesFromRss } from "@/lib/podcast/rss";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
 import { buildSearchDocuments } from "@/lib/search/buildSearchDocuments";
@@ -14,7 +14,7 @@ import type { SearchDocument } from "@/lib/search/types";
 export const getSearchDocuments = cache(async (): Promise<SearchDocument[]> => {
   const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
-    getPodcastEpisodes(),
+    getPodcastEpisodesFromRss(),
   ]);
 
   return buildSearchDocuments({

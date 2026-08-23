@@ -8,7 +8,7 @@ import {
   isIntendedSchemaVersion,
   isSchemaAtLeast,
   parseSchemaVersion,
-} from "@/lib/graph/schema-version";
+} from "@/lib/graph/manifest/schema-version";
 
 describe("schema-version", () => {
   it("parses major.minor without string comparison pitfalls", () => {

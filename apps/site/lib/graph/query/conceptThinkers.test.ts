@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { resolveThinkersForConcept } from "@/lib/graph/conceptThinkers";
-import { buildGraphVizModel } from "@/lib/graph/graphVizModel";
-import { getConnectedGraphNeighborhood } from "@/lib/graph/graphTraversal";
+import { resolveThinkersForConcept } from "@/lib/graph/query/conceptThinkers";
+import { buildGraphVizModel } from "@/lib/graph/presentation/graphVizModel";
+import { getConnectedGraphNeighborhood } from "@/lib/graph/query/graphTraversal";
 import { exploreHrefForNode, exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
 import type { SemanticGraph } from "@/types/semanticGraph";
 

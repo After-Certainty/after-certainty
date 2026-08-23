@@ -60,7 +60,7 @@ vi.mock("@/lib/books/resolve-book-cover", () => ({
   resolveBookCover: () => ({ src: "/covers/test.webp", kind: "generated" }),
 }));
 
-vi.mock("@/lib/graph/graphTraversal", () => ({
+vi.mock("@/lib/graph/query/graphTraversal", () => ({
   relationshipEndpointsResolved: () => ({
     sourceId: "pattern:p",
     targetId: "concept:x",
@@ -76,7 +76,7 @@ vi.mock("@/lib/graph/explorePaths", async (importOriginal) => {
   };
 });
 
-vi.mock("@/lib/graph/graphVizModel", () => ({
+vi.mock("@/lib/graph/presentation/graphVizModel", () => ({
   vizEdgeDedupKey: () => "edge",
 }));
 

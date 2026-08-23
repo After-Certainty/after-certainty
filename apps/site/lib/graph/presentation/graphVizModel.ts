@@ -4,10 +4,10 @@
  */
 
 import type { GraphIndex } from "@/lib/graph/graph";
-import { relatedRefsForThinker, thinkerIdsForConcept } from "@/lib/graph/conceptThinkers";
+import { relatedRefsForThinker, thinkerIdsForConcept } from "@/lib/graph/query/conceptThinkers";
 import type { GraphEntityKind, Relationship } from "@/types/semanticGraph";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
-import { normalizePredicateKey } from "@/lib/graph/relationshipVisuals";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
+import { normalizePredicateKey } from "@/lib/graph/model/predicate";
 
 export type GraphVizBuildOptions = {
   focusCanonicalId: string | null;

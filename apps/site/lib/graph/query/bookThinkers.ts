@@ -1,6 +1,6 @@
 import type { GraphIndex } from "@/lib/graph/graph";
-import { getRelatedSources } from "@/lib/graph/graphQueries";
-import { resolveThinkers } from "@/lib/graph/thinkers";
+import { getRelatedSources } from "@/lib/graph/query/graphQueries";
+import { resolveThinkers } from "@/lib/graph/query/thinkers";
 import type { Book, SemanticGraph, Source, Thinker } from "@/types/semanticGraph";
 
 export type BookThinkerContent = {

@@ -3,6 +3,8 @@
  * Extension: weight-based stroke width, temporal styling, multi-label edges.
  */
 
+export { normalizePredicateKey } from "@/lib/graph/model/predicate";
+
 export type RelationshipVisualStyle = {
   stroke: string;
   strokeWidth: number;
@@ -116,10 +118,6 @@ const RULES: { test: (p: string) => boolean; style: RelationshipVisualStyle }[] 
     style: { stroke: "#6aa89b", strokeWidth: 1.4 },
   },
 ];
-
-export function normalizePredicateKey(predicate: string): string {
-  return predicate.trim().toLowerCase();
-}
 
 /** Readable label for UI only. Matching keys still use {@link normalizePredicateKey}. */
 export function formatRelationshipLabelForDisplay(predicate: string): string {

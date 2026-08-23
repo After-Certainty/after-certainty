@@ -57,7 +57,7 @@ vi.mock("@/lib/graph/explorePaths", async (importOriginal) => {
   };
 });
 
-vi.mock("@/lib/graph/conceptFormatting", () => ({
+vi.mock("@/lib/graph/presentation/conceptFormatting", () => ({
   getConceptDisplayDefinition: () => "A definition.",
 }));
 
