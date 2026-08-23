@@ -71,9 +71,10 @@ src = ["src", "tools", "scripts", "tests"]
 [tool.ruff.lint]
 # Pyflakes + pycodestyle (errors) + pyupgrade + import sorting + common bugbear rules.
 select = ["E4", "E7", "E9", "F", "I", "UP", "B"]
-ignore = [
-  "E402",  # many tools insert tools/ on sys.path before local imports; noqa where needed
-]
+
+[tool.ruff.lint.per-file-ignores]
+"tools/**" = ["E402"]
+"scripts/**" = ["E402"]
 
 [tool.ruff.format]
 quote-style = "preserve"

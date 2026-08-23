@@ -5,13 +5,19 @@ from __future__ import annotations
 import json
 import shutil
 import subprocess
-import sys
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 from after_certainty.core.repo_root import repo_root
+from after_certainty.export.assets import (
+    pdf_header_tex,
+    prepare_bridge_markdown_for_pdf,
+    prepare_closing_markdown_for_pdf,
+    strip_inline_title_page_cover,
+    title_page_cover_basename,
+)
 from after_certainty.ingramspark.paths import (
     print_interior_pdf_path,
     print_isbn,
@@ -20,6 +26,8 @@ from after_certainty.ingramspark.paths import (
 )
 from after_certainty.ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
 from after_certainty.ingramspark.profile import load_profile
+from after_certainty.manuscript.assemble import assemble_markdown_units
+from after_certainty.manuscript.publication_markdown import stage_publication_units
 from book_specs import (
     spec_ingramspark_enabled,
     spec_ingramspark_target,
@@ -28,8 +36,6 @@ from book_specs import (
 )
 
 _REPO_ROOT = repo_root(Path(__file__))
-_TOOLS = _REPO_ROOT / "tools"
-_SCRIPTS = _REPO_ROOT / "scripts"
 
 
 class PrintExportError(ValueError):
@@ -112,26 +118,16 @@ def _typst_pdf(
     typst_bin: str = "typst",
 ) -> None:
     """Compile the book's Typst print entry (no jacket art on the title page)."""
-    if str(_TOOLS) not in sys.path:
-        sys.path.insert(0, str(_TOOLS))
-    if str(_SCRIPTS) not in sys.path:
-        sys.path.insert(0, str(_SCRIPTS))
-    from export_typst_pdf import (  # noqa: PLC0415
-        ensure_typst_version,
-        typst_binary,
-    )
-    from generate_typst_manifest import write_typst_manifest  # noqa: PLC0415
+    from after_certainty.export.typst import ensure_typst_version, typst_binary
+    from after_certainty.export.typst_manifest import write_typst_manifest
+    from after_certainty.specs.book_specs import load_spec_for_book_dir
 
-    # Prefer a dedicated print entry that omits cover-image; fall back to main.typ.
     print_entry = book_dir / "typst" / "main-print.typ"
     entry_path = print_entry if print_entry.is_file() else book_dir / "typst" / "main.typ"
     if not entry_path.is_file():
         raise PrintExportError(
             f"Typst entry not found for print export (tried {print_entry.name} and main.typ)"
         )
-
-    # Load min version from book.yml when available via sibling import path.
-    from book_specs import load_spec_for_book_dir  # noqa: PLC0415
 
     try:
         spec = load_spec_for_book_dir(book_dir)
@@ -172,18 +168,6 @@ def _pandoc_pdf(
     pandoc: str,
     pdf_engine: str,
 ) -> None:
-    if str(_SCRIPTS) not in sys.path:
-        sys.path.insert(0, str(_SCRIPTS))
-    from assemble import assemble_markdown_units  # noqa: PLC0415
-    from book_export_assets import (  # noqa: PLC0415
-        pdf_header_tex,
-        prepare_bridge_markdown_for_pdf,
-        prepare_closing_markdown_for_pdf,
-        strip_inline_title_page_cover,
-        title_page_cover_basename,
-    )
-    from publication_markdown import stage_publication_units  # noqa: PLC0415
-
     units = assemble_markdown_units(book_dir)
     if not units:
         raise PrintExportError(f"No markdown units found from {book_dir / 'index.md'}")

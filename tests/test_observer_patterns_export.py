@@ -9,23 +9,19 @@ from unittest.mock import patch
 
 import pytest
 
-_REPO = Path(__file__).resolve().parents[1]
-if str(_REPO / "tools") not in sys.path:
-    sys.path.insert(0, str(_REPO / "tools"))
-if str(_REPO / "scripts") not in sys.path:
-    sys.path.insert(0, str(_REPO / "scripts"))
-
-from book_specs import (  # noqa: E402
+from after_certainty.export.typst_manifest import (
+    manifest_lines_for_units,
+    parse_index_markdown_links,
+)
+from after_certainty.specs.book_specs import (
     load_book_spec,
     resolve_spec_path,
     spec_formats,
     spec_pdf_engine,
     validate_book_spec,
 )
-from generate_typst_manifest import (  # noqa: E402
-    manifest_lines_for_units,
-    parse_index_markdown_links,
-)
+
+_REPO = Path(__file__).resolve().parents[1]
 
 
 def test_resolve_spec_path_finds_book_yml(repo_root: Path) -> None:
@@ -100,37 +96,45 @@ def test_manifest_lines_for_bridge_and_poem() -> None:
 
 def test_build_routes_typst_pdf_without_pandoc(repo_root: Path, tmp_path: Path) -> None:
     out_dir = tmp_path / "out"
-    calls: list[list[str]] = []
+    typst_calls: list[tuple] = []
+    pdf_calls: list[tuple] = []
 
-    def fake_run(cmd: list[str], **kwargs: object) -> None:
-        calls.append(cmd)
+    def fake_typst(**kwargs: object) -> Path:
+        typst_calls.append(kwargs)
+        out = kwargs["book_dir"] / f"{kwargs['book_stem']}.pdf"
+        out.write_bytes(b"%PDF-1.4 test")
+        return out
 
-    with patch("build.run", side_effect=fake_run):
-        with patch("build.generate_frontmatter_for_book", return_value=[]):
+    def fake_pdf(**kwargs: object) -> Path:
+        pdf_calls.append(kwargs)
+        out = kwargs["book_dir"] / f"{kwargs['book_stem']}.pdf"
+        out.write_bytes(b"%PDF-1.4 test")
+        return out
+
+    with patch("after_certainty.export.build.export_typst_pdf", side_effect=fake_typst):
+        with patch("after_certainty.export.build.export_pdf", side_effect=fake_pdf):
             with patch(
-                "sys.argv",
-                [
-                    "build.py",
-                    "--repo",
-                    str(repo_root),
-                    "--book-dir",
-                    "books/observer-patterns",
-                    "--out-dir",
-                    str(out_dir),
-                    "--format",
-                    "pdf",
-                ],
+                "after_certainty.export.build.generate_frontmatter_for_book", return_value=[]
             ):
-                import build
+                with patch(
+                    "after_certainty.export.build.validate_book_for_publication",
+                    return_value=[],
+                ):
+                    with patch(
+                        "after_certainty.export.build.write_book_manifest",
+                        return_value=out_dir / "observer-patterns.manifest.json",
+                    ):
+                        from after_certainty.export.build import build_book
 
-                (repo_root / "books" / "observer-patterns" / "observer-patterns.pdf").write_bytes(
-                    b"%PDF-1.4 test"
-                )
-                build.main()
+                        build_book(
+                            repo=repo_root,
+                            book_rel="books/observer-patterns",
+                            out_dir=out_dir,
+                            formats=["pdf"],
+                        )
 
-    invoked = [part for cmd in calls for part in cmd if part.endswith(".py")]
-    assert any("export_typst_pdf.py" in part for part in invoked)
-    assert not any("export_pdf.py" in part for part in invoked)
+    assert typst_calls
+    assert not pdf_calls
 
 
 def test_build_rejects_epub_for_poetry(repo_root: Path, tmp_path: Path) -> None:

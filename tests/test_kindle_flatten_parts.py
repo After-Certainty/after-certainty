@@ -2,19 +2,13 @@
 
 from __future__ import annotations
 
-import importlib.util
-import sys
 from pathlib import Path
 
-_REPO = Path(__file__).resolve().parents[1]
-_TOOLS = _REPO / "tools"
-if str(_TOOLS) not in sys.path:
-    sys.path.insert(0, str(_TOOLS))
+from after_certainty.export import kindle_flatten
+from after_certainty.manuscript.assemble import resolve_book_markdown
+from after_certainty.manuscript.publication_markdown import prepare_manuscript_unit_for_export
 
-_SPEC = importlib.util.spec_from_file_location("kindle_flatten", _TOOLS / "kindle-flatten.py")
-assert _SPEC is not None and _SPEC.loader is not None
-kindle_flatten = importlib.util.module_from_spec(_SPEC)
-_SPEC.loader.exec_module(kindle_flatten)
+_REPO = Path(__file__).resolve().parents[1]
 
 
 def test_strip_inline_cover_removes_image_and_following_newpage() -> None:
@@ -61,8 +55,6 @@ def test_ekl_flatten_has_single_part_heading_and_title(tmp_path: Path) -> None:
     indexed = kindle_flatten.parse_index_links_with_part_markers(
         (book_dir / "index.md").read_text(encoding="utf-8")
     )
-    from assemble import resolve_book_markdown
-    from publication_markdown import prepare_manuscript_unit_for_export
 
     chunks: list[str] = []
     seen: set[Path] = set()

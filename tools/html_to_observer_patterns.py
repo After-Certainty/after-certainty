@@ -12,11 +12,7 @@ from dataclasses import dataclass, field
 from html.parser import HTMLParser
 from pathlib import Path
 
-_TOOLS_DIR = Path(__file__).resolve().parent
-if str(_TOOLS_DIR) not in sys.path:
-    sys.path.insert(0, str(_TOOLS_DIR))
-
-from generate_typst_manifest import write_typst_manifest  # noqa: E402
+from after_certainty.export.typst_manifest import write_typst_manifest
 
 ROMAN_PART_RE = re.compile(r"^Part\s+([IVXLC]+)\s*[—–-]\s*(.+)$", re.I)
 IMG_DATA_RE = re.compile(

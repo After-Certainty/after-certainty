@@ -18,3 +18,10 @@ def test_import_specs_book_specs() -> None:
     from after_certainty.specs.book_specs import discover_book_spec_paths
 
     assert callable(discover_book_spec_paths)
+
+
+def test_import_export_docx() -> None:
+    from after_certainty.export.docx import export_docx, stage_docx_units
+
+    assert callable(export_docx)
+    assert callable(stage_docx_units)
