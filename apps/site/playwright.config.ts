@@ -20,6 +20,13 @@ const extraHTTPHeaders = bypassSecret
 const config: PlaywrightTestConfig = {
   testDir: "e2e",
   fullyParallel: true,
+  // Hosted GHA runners report 2 CPUs; keep explicit so worker experiments are measurable.
+  // Override with PLAYWRIGHT_WORKERS=4 for a controlled CI benchmark only.
+  workers: process.env.PLAYWRIGHT_WORKERS
+    ? Number.parseInt(process.env.PLAYWRIGHT_WORKERS, 10)
+    : process.env.CI
+      ? 2
+      : undefined,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 1 : 0,
   reporter: process.env.CI ? "github" : "list",
