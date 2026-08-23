@@ -1,4 +1,5 @@
 import { loadOfflineManifestJson } from "@/lib/graph/offline-manifest";
+import { isCompatibleSchemaVersion } from "@/lib/graph/schema-version";
 import { validateSemanticGraph } from "@/lib/graph/validate";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
@@ -16,6 +17,12 @@ export function loadInstalledSemanticGraphSync(rootDir?: string): SemanticGraph 
   if (!validated.success) {
     throw new Error(
       "Installed local-semantic-manifest.json failed validation. " +
+        "Regenerate with: npm run corpus:build-manifest && npm run site:install-local-manifest",
+    );
+  }
+  if (!isCompatibleSchemaVersion(validated.data.schemaVersion)) {
+    throw new Error(
+      `Installed local-semantic-manifest.json has incompatible schemaVersion ${validated.data.schemaVersion}. ` +
         "Regenerate with: npm run corpus:build-manifest && npm run site:install-local-manifest",
     );
   }
