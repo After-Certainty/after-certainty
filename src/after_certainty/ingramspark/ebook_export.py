@@ -12,7 +12,7 @@ from after_certainty.core.repo_root import repo_root
 from after_certainty.export.assets import epub_css
 from after_certainty.ingramspark.ebook_cover import export_epub_internal_cover_image
 from after_certainty.ingramspark.paths import ebook_isbn, ebook_output_dir
-from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
+from after_certainty.specs.book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 
 _REPO_ROOT = repo_root(Path(__file__))
 _TOOLS = _REPO_ROOT / "tools"

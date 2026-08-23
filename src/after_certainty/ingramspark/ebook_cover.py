@@ -25,7 +25,7 @@ class EbookCoverError(ValueError):
 
 
 def _ebook_cfg(spec: dict[str, Any]) -> dict[str, Any]:
-    from book_specs import spec_ingramspark_target
+    from after_certainty.specs.book_specs import spec_ingramspark_target
 
     target = spec_ingramspark_target(spec)
     ebook = target.get("ebook")
@@ -109,7 +109,7 @@ def export_ebook_cover_jpg(
     Default policy: fail if the source is below profile minimum pixels (do not invent
     detail via naive upscaling). Set ``allow_upscale=True`` only for tests/fixtures.
     """
-    from book_specs import spec_ingramspark_target
+    from after_certainty.specs.book_specs import spec_ingramspark_target
 
     target = spec_ingramspark_target(spec)
     pid = profile_id or str(target.get("specification_profile") or "").strip()
@@ -158,7 +158,7 @@ def export_epub_internal_cover_image(
     profile default. Those constraints cannot be satisfied by one bitmap, so the
     internal cover is a resized RGB JPEG under the interior pixel cap.
     """
-    from book_specs import spec_ingramspark_target
+    from after_certainty.specs.book_specs import spec_ingramspark_target
 
     target = spec_ingramspark_target(spec)
     pid = profile_id or str(target.get("specification_profile") or "").strip()
