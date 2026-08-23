@@ -1,15 +1,15 @@
 {
   "name": "@after-certainty/corpus-tasks",
   "private": true,
-  "description": "Thin npm/Turbo wrappers around Make corpus tasks (Python stays authoritative).",
+  "description": "Turbo-visible corpus tasks: Node cover pipeline + Python manifest CLIs.",
   "type": "module",
   "scripts": {
-    "build-manifest": "make -C ../.. generate-semantic-manifest",
+    "build-manifest": "node ./scripts/build-manifest.mjs",
     "build-web-covers": "node ./scripts/generate-book-cover-assets.mjs",
     "validate-web-covers": "node ./scripts/validate-book-cover-assets.mjs",
-    "validate-manifest": "make -C ../.. validate-semantic-manifest",
-    "parity": "make -C ../.. compare-manifest-parity",
-    "install-for-site": "make -C ../.. install-local-manifest-for-site",
+    "validate-manifest": "node ./scripts/validate-manifest.mjs",
+    "parity": "node ./scripts/parity.mjs",
+    "install-for-site": "node ./scripts/install-for-site.mjs",
     "test": "node --test ./scripts/generate-book-cover-assets.test.mjs ./scripts/validate-book-cover-assets.test.mjs"
   },
   "dependencies": {

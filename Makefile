@@ -257,14 +257,13 @@ compare-site-discovery:
 
 # Stage B: local generated manifest vs public release (production still remote).
 compare-manifest-parity:
-	python3 tools/compare_manifest_parity.py \
-		--local "$(SEMANTIC_MANIFEST_OUT)" \
-		--json-out reports/manifest-parity.json \
-		--md-out reports/manifest-parity.md
+	@echo "make compare-manifest-parity is deprecated; use: npm run corpus:parity" >&2
+	npm run parity -w @after-certainty/corpus-tasks
 
 # Stage C: install same-checkout manifest for site preview builds (gitignored local-*.json).
 install-local-manifest-for-site:
-	python3 scripts/install_local_manifest_for_site.py --repo .
+	@echo "make install-local-manifest-for-site is deprecated; use: npm run site:install-local-manifest" >&2
+	npm run install-for-site -w @after-certainty/corpus-tasks
 
 generate-book-cover-assets:
 	node packages/corpus-tasks/scripts/generate-book-cover-assets.mjs --repo . --out "$(BOOK_COVER_ASSETS_OUT)" $(if $(ALLOW_MISSING_WEB_COVERS),--allow-missing-sharp,)
@@ -308,18 +307,15 @@ normalize-semantic-metadata:
 align-creator-slugs:
 	python3 tools/align_creator_slugs.py --repo . --apply
 
-generate-semantic-manifest: validate-book-specs verify-semantic-yaml generate-book-cover-assets
-	@repo="$${GITHUB_REPOSITORY:-$$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\.git$$##')}"; \
-	python3 tools/generate_semantic_manifest.py \
-		--repo . \
-		--out "$(SEMANTIC_MANIFEST_OUT)" \
-		--github-repository "$$repo" \
-		--github-ref "$(MANIFEST_REF)" \
-		--release-tag "$(MANIFEST_RELEASE_TAG)"
+SEMANTIC_MANIFEST_COVER_DEPS := $(if $(SKIP_WEB_COVERS),,generate-book-cover-assets)
+
+generate-semantic-manifest: validate-book-specs verify-semantic-yaml $(SEMANTIC_MANIFEST_COVER_DEPS)
+	@echo "make generate-semantic-manifest is deprecated; use: npm run corpus:build-manifest" >&2
+	npm run build-manifest -w @after-certainty/corpus-tasks
 
 validate-semantic-manifest:
-	@manifest="$${SEMANTIC_MANIFEST:-$(SEMANTIC_MANIFEST_OUT)}"; \
-	python3 tools/validate_semantic_manifest.py --repo . --manifest "$$manifest"
+	@echo "make validate-semantic-manifest is deprecated; use: npm run corpus:validate-manifest" >&2
+	npm run validate-manifest -w @after-certainty/corpus-tasks
 
 verify-semantic-manifest: generate-semantic-manifest validate-semantic-manifest
 
