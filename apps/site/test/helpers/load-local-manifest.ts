@@ -1,7 +1,7 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
-import { LOCAL_SEMANTIC_MANIFEST_RELATIVE } from "@/lib/graph/offline-manifest";
+import { LOCAL_SEMANTIC_MANIFEST_RELATIVE } from "@/lib/graph/installed-manifest-io";
 import { validateSemanticGraph } from "@/lib/graph/validate";
 import type { SemanticGraph } from "@/types/semanticGraph";
 

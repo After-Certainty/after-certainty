@@ -1,6 +1,6 @@
 # Stage B: generate semantic-manifest from this checkout and compare to the
-# public GitHub release asset. Production site still consumes the remote
-# artifact; this job fails on schema mismatch or public count regressions.
+# public GitHub release asset. The site runtime consumes the installed same-checkout
+# manifest; this job validates local generator parity with the published release.
 
 name: Manifest parity
 

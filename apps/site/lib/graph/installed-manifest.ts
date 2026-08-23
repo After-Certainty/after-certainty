@@ -1,4 +1,4 @@
-import { loadOfflineManifestJson } from "@/lib/graph/offline-manifest";
+import { loadInstalledManifestJson } from "@/lib/graph/installed-manifest-io";
 import { isCompatibleSchemaVersion } from "@/lib/graph/schema-version";
 import { validateSemanticGraph } from "@/lib/graph/validate";
 import type { SemanticGraph } from "@/types/semanticGraph";
@@ -12,7 +12,7 @@ let cached: SemanticGraph | undefined;
  */
 export function loadInstalledSemanticGraphSync(rootDir?: string): SemanticGraph {
   if (cached && rootDir === undefined) return cached;
-  const raw = loadOfflineManifestJson(rootDir);
+  const raw = loadInstalledManifestJson(rootDir);
   const validated = validateSemanticGraph(raw);
   if (!validated.success) {
     throw new Error(

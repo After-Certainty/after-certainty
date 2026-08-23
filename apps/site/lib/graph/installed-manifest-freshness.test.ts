@@ -1,26 +1,34 @@
 import { describe, expect, it } from "vitest";
 
 import {
-  assertFallbackFresh,
-  collectFallbackFreshnessIssues,
-} from "@/lib/graph/fallback-freshness";
+  assertInstalledManifestFresh,
+  collectInstalledManifestFreshnessIssues,
+} from "@/lib/graph/installed-manifest-freshness";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
-describe("fallback freshness", () => {
-  it("accepts the installed local manifest with required fixture content types", () => {
-    const report = collectFallbackFreshnessIssues(undefined, { intended: null });
+const localGraph = tryLoadLocalSemanticManifest();
+
+describe("installed manifest freshness", () => {
+  it.skipIf(!localGraph)(
+    "accepts the installed local manifest with required fixture content types",
+    () => {
+    const report = collectInstalledManifestFreshnessIssues(undefined, { intended: null });
     const errors = report.issues.filter((i) => i.severity === "error");
     expect(errors).toEqual([]);
     expect(["2.3", "2.4", "2.5"]).toContain(report.schemaVersion);
     expect(report.generatedAt).toBeTruthy();
     expect(report.sourceCommit).toBeTruthy();
+    },
+  );
+
+  it.skipIf(!localGraph)("assertInstalledManifestFresh passes for the installed local manifest", () => {
+    expect(() => assertInstalledManifestFresh({ intended: null })).not.toThrow();
   });
 
-  it("assertFallbackFresh passes for the installed local manifest", () => {
-    expect(() => assertFallbackFresh({ intended: null })).not.toThrow();
-  });
-
-  it("fails release validation when fallback identity diverges from intended", () => {
-    const report = collectFallbackFreshnessIssues(undefined, {
+  it.skipIf(!localGraph)(
+    "fails release validation when installed identity diverges from intended",
+    () => {
+    const report = collectInstalledManifestFreshnessIssues(undefined, {
       intended: {
         schemaVersion: "2.3",
         sourceCommit: "not-the-real-commit",
@@ -28,8 +36,9 @@ describe("fallback freshness", () => {
       },
     });
     expect(report.matchesIntendedRelease).toBe(false);
-    expect(report.issues.some((i) => i.code === "fallback_release_mismatch")).toBe(true);
-  });
+    expect(report.issues.some((i) => i.code === "installed_release_mismatch")).toBe(true);
+    },
+  );
 
   it("reports stale as warning by default and error when strict", () => {
     const stalePayload = {
@@ -74,16 +83,14 @@ describe("fallback freshness", () => {
       sourceCommit: "abc",
     };
 
-    const warn = collectFallbackFreshnessIssues(stalePayload, {
+    const warn = collectInstalledManifestFreshnessIssues(stalePayload, {
       nowMs: Date.parse("2026-07-23T00:00:00.000Z"),
       intended: null,
     });
     expect(warn.stale).toBe(true);
-    expect(warn.issues.some((i) => i.code === "stale_fallback" && i.severity === "warning")).toBe(
-      true,
-    );
+    expect(warn.issues.some((i) => i.code === "stale" && i.severity === "warning")).toBe(true);
 
-    const strict = collectFallbackFreshnessIssues(stalePayload, {
+    const strict = collectInstalledManifestFreshnessIssues(stalePayload, {
       nowMs: Date.parse("2026-07-23T00:00:00.000Z"),
       strictStale: true,
       intended: {
@@ -92,8 +99,6 @@ describe("fallback freshness", () => {
         generatedAt: "2020-01-01T00:00:00.000Z",
       },
     });
-    expect(strict.issues.some((i) => i.code === "stale_fallback" && i.severity === "error")).toBe(
-      true,
-    );
+    expect(strict.issues.some((i) => i.code === "stale" && i.severity === "error")).toBe(true);
   });
 });

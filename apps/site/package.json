@@ -14,7 +14,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "generate:og": "node scripts/generate-og.mjs",
-    "validate:fallback": "node scripts/validate-fallback.mjs",
+    "validate:installed-manifest": "node scripts/validate-installed-manifest.mjs",
     "validate:public-corpus": "node scripts/validate-public-corpus.mjs",
     "prepare": "node -e \"process.exit(0)\""
   },

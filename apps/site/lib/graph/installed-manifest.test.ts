@@ -8,10 +8,8 @@ import {
   resetInstalledSemanticGraphCacheForTests,
 } from "@/lib/graph/installed-manifest";
 import { fetchSemanticGraphLoadResultUncached } from "@/lib/graph/manifest";
-import {
-  LOCAL_SEMANTIC_MANIFEST_RELATIVE,
-} from "@/lib/graph/offline-manifest";
-import * as offlineManifest from "@/lib/graph/offline-manifest";
+import { LOCAL_SEMANTIC_MANIFEST_RELATIVE } from "@/lib/graph/installed-manifest-io";
+import * as installedManifestIo from "@/lib/graph/installed-manifest-io";
 import { loadManifestFixtureJson } from "@/test/helpers/load-manifest-fixture";
 
 const MINIMAL_VALID = loadManifestFixtureJson("minimal-valid");
@@ -83,32 +81,28 @@ describe("async/sync loader agreement", () => {
     delete process.env.NEXT_PHASE;
 
     const invalid = loadManifestFixtureJson("invalid/missing-required-book-fields");
-    vi.spyOn(offlineManifest, "loadOfflineManifestJson").mockReturnValue(invalid);
+    vi.spyOn(installedManifestIo, "loadInstalledManifestJson").mockReturnValue(invalid);
 
     tempRoot = mkdtempSync(join(tmpdir(), "installed-parity-zod-"));
     writeManifest(tempRoot, invalid);
     expect(() => loadInstalledSemanticGraphSync(tempRoot)).toThrow(/failed validation/);
 
-    const result = await fetchSemanticGraphLoadResultUncached();
-    expect(result.source.reason).toBe("invalid_fallback");
-    expect(result.graph.books).toEqual([]);
+    await expect(fetchSemanticGraphLoadResultUncached()).rejects.toThrow(/failed validation/);
   });
 
   it("both reject incompatible schemaVersion (major 3)", async () => {
     const incompatible = { ...MINIMAL_VALID, schemaVersion: "3.0" };
-    vi.spyOn(offlineManifest, "loadOfflineManifestJson").mockReturnValue(incompatible);
+    vi.spyOn(installedManifestIo, "loadInstalledManifestJson").mockReturnValue(incompatible);
 
     tempRoot = mkdtempSync(join(tmpdir(), "installed-parity-schema-"));
     writeManifest(tempRoot, incompatible);
     expect(() => loadInstalledSemanticGraphSync(tempRoot)).toThrow(/incompatible schemaVersion/);
 
-    const result = await fetchSemanticGraphLoadResultUncached();
-    expect(result.source.reason).toBe("incompatible_fallback");
-    expect(result.graph.books).toEqual([]);
+    await expect(fetchSemanticGraphLoadResultUncached()).rejects.toThrow(/incompatible/);
   });
 
   it("both accept the same minimal-valid fixture", async () => {
-    vi.spyOn(offlineManifest, "loadOfflineManifestJson").mockReturnValue(MINIMAL_VALID);
+    vi.spyOn(installedManifestIo, "loadInstalledManifestJson").mockReturnValue(MINIMAL_VALID);
 
     tempRoot = mkdtempSync(join(tmpdir(), "installed-parity-valid-"));
     writeManifest(tempRoot, MINIMAL_VALID);
@@ -117,7 +111,7 @@ describe("async/sync loader agreement", () => {
     const result = await fetchSemanticGraphLoadResultUncached();
     expect(result.graph.books).toEqual(syncGraph.books);
     expect(result.graph.glossary).toEqual(syncGraph.glossary);
-    expect(result.source.reason).toBe("offline");
+    expect(result.source.reason).toBe("installed");
   });
 });
 
@@ -150,7 +144,7 @@ describe("fetchSemanticGraphLoadResultUncached hard-fail policy", () => {
   });
 
   function mockMissingManifest(): void {
-    vi.spyOn(offlineManifest, "loadOfflineManifestJson").mockImplementation(() => {
+    vi.spyOn(installedManifestIo, "loadInstalledManifestJson").mockImplementation(() => {
       throw new Error("data/local-semantic-manifest.json is missing.");
     });
   }
@@ -177,7 +171,7 @@ describe("fetchSemanticGraphLoadResultUncached hard-fail policy", () => {
     await expectHardFail({ NEXT_PHASE: "phase-production-build" });
   });
 
-  it("returns empty graph without throwing when hard-fail is off (pre-MR-5 soft-fail)", async () => {
+  it("throws when hard-fail env is off and manifest is missing", async () => {
     captureEnv();
     delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
     delete process.env.VERCEL;
@@ -185,15 +179,8 @@ describe("fetchSemanticGraphLoadResultUncached hard-fail policy", () => {
     delete process.env.SEMANTIC_MANIFEST_OFFLINE;
     mockMissingManifest();
 
-    const result = await fetchSemanticGraphLoadResultUncached();
-    expect(result.graph).toEqual({
-      books: [],
-      glossary: [],
-      patterns: [],
-      situations: [],
-      sources: [],
-      relationships: [],
-    });
-    expect(result.source.reason).toBe("invalid_fallback");
+    await expect(fetchSemanticGraphLoadResultUncached()).rejects.toThrow(
+      /local-semantic-manifest\.json is missing/,
+    );
   });
 });

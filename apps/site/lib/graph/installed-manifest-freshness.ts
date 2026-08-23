@@ -1,8 +1,8 @@
 import {
-  DEFAULT_FALLBACK_STALE_DAYS,
-  fallbackStaleDaysThreshold,
+  DEFAULT_INSTALLED_MANIFEST_STALE_DAYS,
+  installedManifestStaleDaysThreshold,
   isCompatibleSchemaVersion,
-  isFallbackStale,
+  isInstalledManifestStale,
 } from "@/lib/graph/manifest";
 import { INTENDED_SCHEMA_VERSION, isIntendedSchemaVersion } from "@/lib/graph/schema-version";
 import { validateSemanticGraph } from "@/lib/graph/validate";
@@ -10,20 +10,20 @@ import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
 import {
   LOCAL_INTENDED_RELEASE_RELATIVE,
   isSemanticManifestUseLocal,
-  loadOfflineManifestJson,
+  loadInstalledManifestJson,
   readJsonFileIfPresent,
-} from "@/lib/graph/offline-manifest";
+} from "@/lib/graph/installed-manifest-io";
 import { join } from "node:path";
 
-export type FallbackFreshnessSeverity = "error" | "warning";
+export type InstalledManifestFreshnessSeverity = "error" | "warning";
 
-export type FallbackFreshnessIssue = {
-  severity: FallbackFreshnessSeverity;
+export type InstalledManifestFreshnessIssue = {
+  severity: InstalledManifestFreshnessSeverity;
   code: string;
   detail: string;
 };
 
-export type FallbackFreshnessReport = {
+export type InstalledManifestFreshnessReport = {
   schemaVersion?: string;
   generatedAt?: string;
   sourceCommit?: string;
@@ -32,8 +32,17 @@ export type FallbackFreshnessReport = {
   ageDays?: number;
   thresholdDays: number;
   matchesIntendedRelease: boolean;
-  issues: FallbackFreshnessIssue[];
+  issues: InstalledManifestFreshnessIssue[];
 };
+
+/** @deprecated Use InstalledManifestFreshnessSeverity */
+export type FallbackFreshnessSeverity = InstalledManifestFreshnessSeverity;
+
+/** @deprecated Use InstalledManifestFreshnessIssue */
+export type FallbackFreshnessIssue = InstalledManifestFreshnessIssue;
+
+/** @deprecated Use InstalledManifestFreshnessReport */
+export type FallbackFreshnessReport = InstalledManifestFreshnessReport;
 
 const REQUIRED_FIXTURE_TYPES: { slug: string; contentType: string }[] = [
   { slug: "boundary-conditions", contentType: "fiction" },
@@ -67,11 +76,9 @@ export function readIntendedManifestRelease(
 /**
  * Validate the installed local semantic manifest for schema, provenance,
  * required content-type fixtures, intended-release parity, and staleness.
- * Invalid/incompatible / release mismatch → errors.
- * Stale → warning (error when strict).
  */
-export function collectFallbackFreshnessIssues(
-  data: unknown = loadOfflineManifestJson(),
+export function collectInstalledManifestFreshnessIssues(
+  data: unknown = loadInstalledManifestJson(),
   options?: {
     nowMs?: number;
     strictStale?: boolean;
@@ -79,9 +86,9 @@ export function collectFallbackFreshnessIssues(
     intended?: IntendedManifestRelease | null;
     requireIntendedSchema?: boolean;
   },
-): FallbackFreshnessReport {
-  const thresholdDays = options?.thresholdDays ?? fallbackStaleDaysThreshold();
-  const issues: FallbackFreshnessIssue[] = [];
+): InstalledManifestFreshnessReport {
+  const thresholdDays = options?.thresholdDays ?? installedManifestStaleDaysThreshold();
+  const issues: InstalledManifestFreshnessIssue[] = [];
   const requireIntendedSchema = options?.requireIntendedSchema ?? Boolean(options?.strictStale);
   const intended =
     options?.intended === undefined ? readIntendedManifestRelease() : options.intended;
@@ -97,7 +104,7 @@ export function collectFallbackFreshnessIssues(
       issues: [
         {
           severity: "error",
-          code: "invalid_fallback",
+          code: "invalid",
           detail: "Installed local-semantic-manifest.json failed Zod validation.",
         },
       ],
@@ -113,7 +120,7 @@ export function collectFallbackFreshnessIssues(
   if (!isCompatibleSchemaVersion(schemaVersion)) {
     issues.push({
       severity: "error",
-      code: "incompatible_schema",
+      code: "incompatible",
       detail: `Unsupported schemaVersion "${schemaVersion}".`,
     });
   } else if (requireIntendedSchema && !isIntendedSchemaVersion(schemaVersion)) {
@@ -193,20 +200,20 @@ export function collectFallbackFreshnessIssues(
   if (intended) {
     const mismatches: string[] = [];
     if (intended.schemaVersion !== schemaVersion) {
-      mismatches.push(`schemaVersion fallback=${schemaVersion} intended=${intended.schemaVersion}`);
+      mismatches.push(`schemaVersion installed=${schemaVersion} intended=${intended.schemaVersion}`);
     }
     if (intended.sourceCommit !== sourceCommit) {
-      mismatches.push(`sourceCommit fallback=${sourceCommit} intended=${intended.sourceCommit}`);
+      mismatches.push(`sourceCommit installed=${sourceCommit} intended=${intended.sourceCommit}`);
     }
     if (intended.generatedAt !== generatedAt) {
-      mismatches.push(`generatedAt fallback=${generatedAt} intended=${intended.generatedAt}`);
+      mismatches.push(`generatedAt installed=${generatedAt} intended=${intended.generatedAt}`);
     }
     if (mismatches.length > 0) {
       matchesIntendedRelease = false;
       issues.push({
         severity: "error",
-        code: "fallback_release_mismatch",
-        detail: `Offline semantic manifest does not match intended local release (${mismatches.join("; ")}). Run npm run site:install-local-manifest after rebuilding the manifest.`,
+        code: "installed_release_mismatch",
+        detail: `Installed semantic manifest does not match intended local release (${mismatches.join("; ")}). Run npm run site:install-local-manifest after rebuilding the manifest.`,
       });
     }
   } else if (requireIntendedRelease) {
@@ -218,7 +225,7 @@ export function collectFallbackFreshnessIssues(
     });
   }
 
-  const { stale, ageDays } = isFallbackStale(generatedAt, {
+  const { stale, ageDays } = isInstalledManifestStale(generatedAt, {
     nowMs: options?.nowMs,
     thresholdDays,
   });
@@ -226,8 +233,8 @@ export function collectFallbackFreshnessIssues(
   if (stale) {
     issues.push({
       severity: options?.strictStale ? "error" : "warning",
-      code: "stale_fallback",
-      detail: `Bundled fallback is stale (ageDays=${ageDays ?? "unknown"}, threshold=${thresholdDays}, default=${DEFAULT_FALLBACK_STALE_DAYS}).`,
+      code: "stale",
+      detail: `Installed manifest is stale (ageDays=${ageDays ?? "unknown"}, threshold=${thresholdDays}, default=${DEFAULT_INSTALLED_MANIFEST_STALE_DAYS}).`,
     });
   }
 
@@ -244,19 +251,25 @@ export function collectFallbackFreshnessIssues(
   };
 }
 
-export function assertFallbackFresh(options?: {
+export function assertInstalledManifestFresh(options?: {
   nowMs?: number;
   strictStale?: boolean;
   thresholdDays?: number;
   intended?: IntendedManifestRelease | null;
   requireIntendedSchema?: boolean;
-}): FallbackFreshnessReport {
-  const data = loadOfflineManifestJson();
-  const report = collectFallbackFreshnessIssues(data, options);
+}): InstalledManifestFreshnessReport {
+  const data = loadInstalledManifestJson();
+  const report = collectInstalledManifestFreshnessIssues(data, options);
   const errors = report.issues.filter((i) => i.severity === "error");
   if (errors.length > 0) {
     const message = errors.map((e) => `[${e.code}] ${e.detail}`).join("\n");
-    throw new Error(`Fallback freshness validation failed:\n${message}`);
+    throw new Error(`Installed manifest freshness validation failed:\n${message}`);
   }
   return report;
 }
+
+/** @deprecated Use collectInstalledManifestFreshnessIssues */
+export const collectFallbackFreshnessIssues = collectInstalledManifestFreshnessIssues;
+
+/** @deprecated Use assertInstalledManifestFresh */
+export const assertFallbackFresh = assertInstalledManifestFresh;

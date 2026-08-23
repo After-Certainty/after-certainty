@@ -95,7 +95,7 @@ Installed-local age is measured from `generatedAt`.
 - Invalid / incompatible installed manifest -> **error** (hard fail under `USE_LOCAL` / production)
 - Local intended release identity comes from
   `data/local-intended-manifest-release.json`
-- Strict validation: `npm run validate:fallback -- --strict` or
+- Strict validation: `npm run validate:installed-manifest -- --strict` or
   `VALIDATE_FALLBACK_STRICT=1`
 
 Visitors are not shown commit hashes or operational banners.
@@ -110,8 +110,8 @@ Full-corpus contract tests load the CI-generated
 ## Validate
 
 ```bash
-npm run validate:fallback
-npm run validate:fallback -- --strict
+npm run validate:installed-manifest
+npm run validate:installed-manifest -- --strict
 npm run validate:public-corpus
 ```
 

@@ -6,7 +6,7 @@ import {
   fetchSemanticGraphUncached,
   fetchSemanticGraphLoadResultUncached,
   isCompatibleSchemaVersion,
-  isFallbackStale,
+  isInstalledManifestStale,
   validateSemanticGraph,
 } from "@/lib/graph/manifest";
 import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
@@ -600,10 +600,10 @@ describe("schema and staleness helpers", () => {
   });
 
   it("marks missing generatedAt as stale and computes age", () => {
-    expect(isFallbackStale(undefined).stale).toBe(true);
-    const fresh = isFallbackStale(new Date().toISOString(), { thresholdDays: 30 });
+    expect(isInstalledManifestStale(undefined).stale).toBe(true);
+    const fresh = isInstalledManifestStale(new Date().toISOString(), { thresholdDays: 30 });
     expect(fresh.stale).toBe(false);
-    const old = isFallbackStale("2020-01-01T00:00:00.000Z", {
+    const old = isInstalledManifestStale("2020-01-01T00:00:00.000Z", {
       nowMs: Date.parse("2026-07-23T00:00:00.000Z"),
       thresholdDays: 30,
     });
@@ -644,7 +644,7 @@ describe.skipIf(!localGraph)("fetchSemanticGraphUncached (installed local)", () 
     process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
     const result = await fetchSemanticGraphLoadResultUncached();
     expect(fetchSpy).not.toHaveBeenCalled();
-    expect(result.source.kind).toBe("fallback");
+    expect(result.source.kind).toBe("installed");
     expect(result.diagnostics.some((d) => /USE_LOCAL/.test(d.message))).toBe(true);
   });
 
@@ -655,7 +655,7 @@ describe.skipIf(!localGraph)("fetchSemanticGraphUncached (installed local)", () 
     const result = await fetchSemanticGraphLoadResultUncached();
 
     expect(fetchSpy).not.toHaveBeenCalled();
-    expect(result.source.kind).toBe("fallback");
+    expect(result.source.kind).toBe("installed");
     expect(result.source.cacheIdentity).toContain("local:checkout");
     expect(result.graph.books.length).toBeGreaterThan(0);
   });
@@ -663,9 +663,9 @@ describe.skipIf(!localGraph)("fetchSemanticGraphUncached (installed local)", () 
   it("records offline provenance on the load result", async () => {
     process.env.SEMANTIC_MANIFEST_OFFLINE = "1";
     const result = await fetchSemanticGraphLoadResultUncached();
-    expect(result.source.kind).toBe("fallback");
-    if (result.source.kind === "fallback") {
-      expect(result.source.reason).toBe("offline");
+    expect(result.source.kind).toBe("installed");
+    if (result.source.kind === "installed") {
+      expect(result.source.reason).toBe("installed");
       expect(typeof result.source.stale).toBe("boolean");
     }
   });

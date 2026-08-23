@@ -24,6 +24,11 @@
       "cache": false,
       "persistent": true
     },
+    "validate:installed-manifest": {
+      "dependsOn": ["@after-certainty/corpus-tasks#install-for-site"],
+      "outputs": [],
+      "env": ["SEMANTIC_MANIFEST_USE_LOCAL", "SEMANTIC_MANIFEST_OFFLINE"]
+    },
     "validate:fallback": {
       "dependsOn": ["@after-certainty/corpus-tasks#install-for-site"],
       "outputs": [],

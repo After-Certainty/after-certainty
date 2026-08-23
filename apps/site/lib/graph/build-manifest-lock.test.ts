@@ -39,19 +39,19 @@ describe("build manifest lock", () => {
         generatedAt: "2026-07-23T00:00:00.000Z",
       },
       source: {
-        kind: "fallback",
+        kind: "installed",
         schemaVersion: "2.3",
         sourceCommit: "abc",
         generatedAt: "2026-07-23T00:00:00.000Z",
         stale: false,
-        cacheIdentity: "fallback|test|2.3|abc|no-content-version|2026-07-23T00:00:00.000Z",
-        reason: "offline",
+        cacheIdentity: "installed|test|2.3|abc|no-content-version|2026-07-23T00:00:00.000Z",
+        reason: "installed",
       },
       diagnostics: [],
     } satisfies SemanticGraphLoadResult;
 
     const lock = buildManifestLockFromLoadResult(result, "2026-07-23T12:00:00.000Z");
-    expect(lock.manifestSource).toBe("fallback");
+    expect(lock.manifestSource).toBe("installed");
     expect(releaseIdentityKey(lock)).toBe("2.3|abc|2026-07-23T00:00:00.000Z");
   });
 });

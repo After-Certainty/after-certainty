@@ -7,7 +7,7 @@ import {
   buildManifestLockFromLoadResult,
   writeManifestBuildLock,
 } from "@/lib/graph/build-manifest-lock";
-import { loadOfflineManifestJson } from "@/lib/graph/offline-manifest";
+import { loadInstalledManifestJson } from "@/lib/graph/installed-manifest-io";
 
 export { validateSemanticGraph, type ValidateSemanticGraphResult } from "@/lib/graph/validate";
 export {
@@ -28,15 +28,18 @@ export {
   MANIFEST_BUILD_LOCK_RELATIVE_PATH,
 } from "@/lib/graph/build-manifest-lock";
 
-/** Default fallback staleness threshold (days). Override with SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS. */
-export const DEFAULT_FALLBACK_STALE_DAYS = 30;
+/** Default installed-manifest staleness threshold (days). Override with SEMANTIC_MANIFEST_INSTALLED_STALE_DAYS or SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS. */
+export const DEFAULT_INSTALLED_MANIFEST_STALE_DAYS = 30;
 
-export type ManifestFailureCategory =
-  | "offline"
-  | "validation"
-  | "incompatible_schema"
-  | "invalid_fallback"
-  | "incompatible_fallback";
+/** Load outcome for the installed same-checkout semantic manifest. */
+export type InstalledManifestLoadReason =
+  | "installed"
+  | "missing"
+  | "invalid"
+  | "incompatible"
+  | "stale";
+
+export type ManifestFailureCategory = InstalledManifestLoadReason;
 
 export type ManifestReleaseIdentity = {
   schemaVersion?: string;
@@ -45,8 +48,10 @@ export type ManifestReleaseIdentity = {
   contentVersion?: string;
 };
 
+export type ManifestSourceKind = "installed";
+
 export type ManifestSource = {
-  kind: "fallback";
+  kind: ManifestSourceKind;
   schemaVersion?: string;
   sourceCommit?: string;
   generatedAt?: string;
@@ -113,11 +118,13 @@ function maybeWriteBuildLock(result: SemanticGraphLoadResult): void {
   }
 }
 
-export function fallbackStaleDaysThreshold(): number {
-  const raw = process.env.SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS?.trim();
-  if (!raw) return DEFAULT_FALLBACK_STALE_DAYS;
+export function installedManifestStaleDaysThreshold(): number {
+  const raw =
+    process.env.SEMANTIC_MANIFEST_INSTALLED_STALE_DAYS?.trim() ??
+    process.env.SEMANTIC_MANIFEST_FALLBACK_STALE_DAYS?.trim();
+  if (!raw) return DEFAULT_INSTALLED_MANIFEST_STALE_DAYS;
   const n = Number.parseInt(raw, 10);
-  return Number.isFinite(n) && n > 0 ? n : DEFAULT_FALLBACK_STALE_DAYS;
+  return Number.isFinite(n) && n > 0 ? n : DEFAULT_INSTALLED_MANIFEST_STALE_DAYS;
 }
 
 export function parseGeneratedAtMs(generatedAt: string | undefined): number | undefined {
@@ -126,7 +133,7 @@ export function parseGeneratedAtMs(generatedAt: string | undefined): number | un
   return Number.isFinite(parsed) ? parsed : undefined;
 }
 
-export function fallbackAgeDays(
+export function installedManifestAgeDays(
   generatedAt: string | undefined,
   nowMs: number = Date.now(),
 ): number | undefined {
@@ -136,12 +143,13 @@ export function fallbackAgeDays(
   return Math.floor(ageMs / (24 * 60 * 60 * 1000));
 }
 
-export function isFallbackStale(
+
+export function isInstalledManifestStale(
   generatedAt: string | undefined,
   options?: { nowMs?: number; thresholdDays?: number },
 ): { stale: boolean; ageDays?: number } {
-  const ageDays = fallbackAgeDays(generatedAt, options?.nowMs);
-  const threshold = options?.thresholdDays ?? fallbackStaleDaysThreshold();
+  const ageDays = installedManifestAgeDays(generatedAt, options?.nowMs);
+  const threshold = options?.thresholdDays ?? installedManifestStaleDaysThreshold();
   if (ageDays === undefined) {
     return { stale: true, ageDays: undefined };
   }
@@ -153,7 +161,7 @@ export function isFallbackStale(
  */
 export function buildManifestCacheIdentity(identity: ManifestReleaseIdentity): string {
   const parts = [
-    "fallback",
+    "installed",
     "local:checkout",
     identity.schemaVersion ?? "unknown-schema",
     identity.sourceCommit ?? "unknown-commit",
@@ -176,14 +184,14 @@ function provenanceFromGraph(graph: SemanticGraph): ManifestReleaseIdentity {
   return releaseIdentityFromGraph(graph);
 }
 
-function buildFallbackSource(
+function buildInstalledSource(
   graph: SemanticGraph,
   reason: ManifestFailureCategory,
 ): ManifestSource {
   const provenance = provenanceFromGraph(graph);
-  const { stale, ageDays } = isFallbackStale(provenance.generatedAt);
+  const { stale, ageDays } = isInstalledManifestStale(provenance.generatedAt);
   return {
-    kind: "fallback",
+    kind: "installed",
     ...provenance,
     stale,
     ageDays,
@@ -227,14 +235,15 @@ type InstalledLoad =
 function loadInstalledLocalGraph(): InstalledLoad {
   let raw: unknown;
   try {
-    raw = loadOfflineManifestJson();
+    raw = loadInstalledManifestJson();
   } catch (err) {
     const message = err instanceof Error ? err.message : "Failed to load installed local manifest.";
     logSemanticGraphError(message, err);
+    const category: ManifestFailureCategory = /missing/i.test(message) ? "missing" : "invalid";
     return {
       ok: false,
       graph: EMPTY_GRAPH,
-      category: "invalid_fallback",
+      category,
       message,
     };
   }
@@ -248,7 +257,7 @@ function loadInstalledLocalGraph(): InstalledLoad {
     return {
       ok: false,
       graph: EMPTY_GRAPH,
-      category: "invalid_fallback",
+      category: "invalid",
       message: "Installed local semantic manifest failed validation.",
     };
   }
@@ -260,7 +269,7 @@ function loadInstalledLocalGraph(): InstalledLoad {
     return {
       ok: false,
       graph: EMPTY_GRAPH,
-      category: "incompatible_fallback",
+      category: "incompatible",
       message: `Installed local schemaVersion ${validated.data.schemaVersion} is incompatible.`,
     };
   }
@@ -278,15 +287,15 @@ function installedManifestResult(
 
   if (!installed.ok) {
     diagnostics.push({ category: installed.category, message: installed.message });
-    const source = buildFallbackSource(installed.graph, installed.category);
+    const source = buildInstalledSource(installed.graph, installed.category);
     return { graph: installed.graph, source, diagnostics };
   }
 
-  const source = buildFallbackSource(installed.graph, reason);
+  const source = buildInstalledSource(installed.graph, reason);
   if (source.stale) {
     diagnostics.push({
-      category: reason,
-      message: `Installed local manifest is stale (ageDays=${source.ageDays ?? "unknown"}, threshold=${fallbackStaleDaysThreshold()}).`,
+      category: "stale",
+      message: `Installed local manifest is stale (ageDays=${source.ageDays ?? "unknown"}, threshold=${installedManifestStaleDaysThreshold()}).`,
       details: { ageDays: source.ageDays, stale: true },
     });
   }
@@ -294,23 +303,15 @@ function installedManifestResult(
   return { graph: installed.graph, source, diagnostics };
 }
 
-function shouldFailHardOnMissingManifest(): boolean {
-  return (
-    process.env.SEMANTIC_MANIFEST_USE_LOCAL?.trim() === "1" ||
-    process.env.NEXT_PHASE === "phase-production-build" ||
-    process.env.VERCEL === "1"
-  );
-}
-
 /**
  * Load semantic graph from the installed same-checkout local manifest.
  * Returns graph + provenance. Prefer {@link getSemanticGraphLoadResult} in new code.
- * Missing or invalid local manifest fails hard in production / USE_LOCAL builds.
+ * Missing or invalid local manifest always fails hard.
  */
 export async function fetchSemanticGraphLoadResultUncached(): Promise<SemanticGraphLoadResult> {
   const useLocal = process.env.SEMANTIC_MANIFEST_USE_LOCAL?.trim() === "1";
   const result = installedManifestResult(
-    "offline",
+    "installed",
     useLocal
       ? "SEMANTIC_MANIFEST_USE_LOCAL=1; using installed local checkout manifest."
       : isSemanticManifestOffline()
@@ -319,9 +320,10 @@ export async function fetchSemanticGraphLoadResultUncached(): Promise<SemanticGr
   );
 
   const loadFailed =
-    result.source.reason === "invalid_fallback" ||
-    result.source.reason === "incompatible_fallback";
-  if (loadFailed && shouldFailHardOnMissingManifest()) {
+    result.source.reason === "missing" ||
+    result.source.reason === "invalid" ||
+    result.source.reason === "incompatible";
+  if (loadFailed) {
     const detail =
       result.diagnostics.map((d) => d.message).join(" ") ||
       "Installed local semantic manifest is missing or invalid.";

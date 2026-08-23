@@ -1,5 +1,5 @@
 /**
- * Same-checkout semantic manifest loading.
+ * Same-checkout semantic manifest filesystem I/O.
  *
  * Production, preview, CI, and local development all consume the gitignored
  * installed artifact at data/local-semantic-manifest.json (copied from
@@ -30,10 +30,10 @@ const MISSING_LOCAL_HINT =
   "Run: npm run site:dev:watch  (or: npm run corpus:build-manifest && npm run site:install-local-manifest)";
 
 /**
- * JSON used for site builds and offline loaders.
- * Always requires the installed local manifest — never a committed fixture.
+ * Read the installed same-checkout semantic manifest JSON from disk.
+ * Always requires data/local-semantic-manifest.json — never a committed fixture.
  */
-export function loadOfflineManifestJson(rootDir: string = process.cwd()): unknown {
+export function loadInstalledManifestJson(rootDir: string = process.cwd()): unknown {
   const localPath = join(rootDir, LOCAL_SEMANTIC_MANIFEST_RELATIVE);
   const local = readJsonFileIfPresent(localPath);
   if (local === undefined) {

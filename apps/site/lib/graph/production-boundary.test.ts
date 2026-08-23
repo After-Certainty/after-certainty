@@ -2,7 +2,7 @@ import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 
-import { loadOfflineManifestJson } from "@/lib/graph/offline-manifest";
+import { loadInstalledManifestJson } from "@/lib/graph/installed-manifest-io";
 import { validateSemanticGraph } from "@/lib/graph/validate";
 import { loadManifestFixture, loadManifestFixtureJson } from "@/test/helpers/load-manifest-fixture";
 import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
@@ -65,7 +65,7 @@ describe("manifest production boundary", () => {
   });
 
   it("throws when the installed local manifest is missing", () => {
-    expect(() => loadOfflineManifestJson(join(SITE_ROOT, "does-not-exist-root"))).toThrow(
+    expect(() => loadInstalledManifestJson(join(SITE_ROOT, "does-not-exist-root"))).toThrow(
       /local-semantic-manifest\.json/,
     );
   });
@@ -100,7 +100,7 @@ describe("semantic-manifest fixtures", () => {
 
 describe.skipIf(!tryLoadLocalSemanticManifest())("installed local manifest contract", () => {
   it("loads the generated local manifest through the production offline loader", () => {
-    const raw = loadOfflineManifestJson();
+    const raw = loadInstalledManifestJson();
     const validated = validateSemanticGraph(raw);
     expect(validated.success).toBe(true);
     if (!validated.success) return;

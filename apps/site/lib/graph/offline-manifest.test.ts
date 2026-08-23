@@ -4,9 +4,9 @@ import { join } from "node:path";
 import { tmpdir } from "node:os";
 
 import {
-  loadOfflineManifestJson,
+  loadInstalledManifestJson,
   LOCAL_SEMANTIC_MANIFEST_RELATIVE,
-} from "@/lib/graph/offline-manifest";
+} from "@/lib/graph/installed-manifest-io";
 import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
 
 describe("loadOfflineManifestJson", () => {
@@ -36,7 +36,7 @@ describe("loadOfflineManifestJson", () => {
     captureEnv();
     process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
     tempRoot = mkdtempSync(join(tmpdir(), "offline-manifest-missing-"));
-    expect(() => loadOfflineManifestJson(tempRoot)).toThrow(/local-semantic-manifest\.json/);
+    expect(() => loadInstalledManifestJson(tempRoot)).toThrow(/local-semantic-manifest\.json/);
   });
 
   it("loads local-semantic-manifest.json when present", () => {
@@ -54,7 +54,7 @@ describe("loadOfflineManifestJson", () => {
       JSON.stringify(local),
       "utf8",
     );
-    expect(loadOfflineManifestJson(tempRoot)).toEqual(local);
+    expect(loadInstalledManifestJson(tempRoot)).toEqual(local);
   });
 
   it.skipIf(!tryLoadLocalSemanticManifest())(
@@ -62,7 +62,7 @@ describe("loadOfflineManifestJson", () => {
     () => {
       captureEnv();
       process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
-      const data = loadOfflineManifestJson();
+      const data = loadInstalledManifestJson();
       expect(data).toBeTruthy();
       expect(typeof data).toBe("object");
     },
