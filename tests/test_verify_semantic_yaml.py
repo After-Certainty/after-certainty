@@ -33,16 +33,17 @@ def test_verify_invalid_yaml_fails(tmp_path: Path) -> None:
     assert vs.verify(repo, include_drafts=False, strict_prose=False) == 1
 
 
-def test_verify_semantic_yaml_cli_matches(repo_root: Path) -> None:
+def test_verify_semantic_yaml_cli_help(repo_root: Path) -> None:
+    """CLI wiring smoke test — full-repo verify is covered by test_verify_real_repo_passes."""
     r = subprocess.run(
         [
             sys.executable,
             str(repo_root / "tools/verify_semantic_yaml.py"),
-            "--repo",
-            str(repo_root),
+            "--help",
         ],
         capture_output=True,
         text=True,
-        timeout=120,
+        timeout=30,
     )
     assert r.returncode == 0, r.stderr
+    assert "--repo" in r.stdout
