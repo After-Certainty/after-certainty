@@ -450,7 +450,7 @@ def ci_export_books(repo: Path) -> list[Path]:
 
 def upcoming_export_stems(repo: Path) -> set[str]:
     """Output basenames for upcoming books that CI may build but must not attach to ``latest``."""
-    from book_output_stem import stem_for_book_dir
+    from after_certainty.core.book_output_stem import stem_for_book_dir
 
     stems: set[str] = set()
     for spec_path in discover_upcoming_spec_paths(repo):

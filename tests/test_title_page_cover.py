@@ -6,19 +6,17 @@ import sys
 from pathlib import Path
 
 SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
-TOOLS = Path(__file__).resolve().parent.parent / "tools"
-for path in (SCRIPTS, TOOLS):
-    if str(path) not in sys.path:
-        sys.path.insert(0, str(path))
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
 
-from book_export_assets import (  # noqa: E402
+from after_certainty.export.assets import (  # noqa: E402
     prepare_bridge_markdown_for_pdf,
     prepare_title_page_for_docx,
     prepare_title_page_for_pdf,
     strip_inline_title_page_cover,
     title_page_cover_alt,
 )
-from export_docx import stage_docx_units  # noqa: E402
+from after_certainty.export.docx import stage_docx_units  # noqa: E402
 from export_pdf import stage_pdf_units  # noqa: E402
 
 TITLE_PAGE = '![Book cover](BookCover.png){ width=100% }\n\n\\newpage\n\n# **Title**\n'
