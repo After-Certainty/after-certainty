@@ -1,6 +1,6 @@
 # Audit data artifacts
 
-Local snapshots for [portfolio audit #99](https://github.com/ksteffe/after-certainty/issues/99). These JSON files are **gitignored**—regenerate them when needed; do not commit.
+Local snapshots for [portfolio audit #99](https://github.com/After-Certainty/after-certainty/issues/99). These JSON files are **gitignored**—regenerate them when needed; do not commit.
 
 | File | Command |
 |------|---------|

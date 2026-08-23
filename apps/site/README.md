@@ -2,7 +2,7 @@
 
 Intellectual commons surface for **After Certainty** — books metadata, podcast hub, patterns library, and collaboration entry points. Corpus YAML lives in the monorepo root (`books/`, `semantic/`); this app builds from a same-checkout `semantic-manifest.json` (see [`docs/migrations/monorepo-phase-6/`](../../docs/migrations/monorepo-phase-6/) and [`phase-7`](../../docs/migrations/monorepo-phase-7/)).
 
-> **Monorepo note:** This tree is the site source of truth at `apps/site/` inside [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty). Prefer installing from the repository root (`npm ci`). Vercel Root Directory should be `apps/site` ([`vercel.json`](./vercel.json)). The former standalone [`after-certainty-site`](https://github.com/ksteffe/after-certainty-site) repository is archived (read-only pointer).
+> **Monorepo note:** This tree is the site source of truth at `apps/site/` inside [`After-Certainty/after-certainty`](https://github.com/After-Certainty/after-certainty). Prefer installing from the repository root (`npm ci`). Vercel Root Directory should be `apps/site` ([`vercel.json`](./vercel.json)). The former standalone [`after-certainty-site`](https://github.com/After-Certainty/after-certainty-site) repository is archived (read-only pointer).
 
 ## Stack
 
@@ -100,7 +100,7 @@ loading, content-type normalization, and `validate:fallback` /
 The cache revalidate endpoint is podcast-only.
 
 1. Set **`CACHE_REVALIDATE_SECRET`** in Vercel (production) — a long random string.
-2. Add the same value as repository secret **`CACHE_REVALIDATE_SECRET`** on `ksteffe/after-certainty` (used by the book export workflow).
+2. Add the same value as repository secret **`CACHE_REVALIDATE_SECRET`** on `After-Certainty/after-certainty` (used by the book export workflow).
 3. Optional: set repository variable **`SITE_REVALIDATE_URL`** (default `https://www.after-certainty.com/api/cache/revalidate`).
 
 Example manual refresh:

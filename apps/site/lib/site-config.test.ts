@@ -176,7 +176,7 @@ describe("resolveSiteSocialLinks", () => {
       delete process.env[k];
     }
     const s = resolveSiteSocialLinks();
-    expect(s.github).toBe("https://github.com/ksteffe/after-certainty");
+    expect(s.github).toBe("https://github.com/After-Certainty/after-certainty");
     expect(s.substack).toBe("https://ksteff801.substack.com/");
     expect(s.medium).toContain("medium.com");
     expect(s.linkedIn).toContain("linkedin.com");

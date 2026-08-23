@@ -10,7 +10,7 @@ GIT_LFS_VERSION="${GIT_LFS_VERSION:-3.7.1}"
 GIT_LFS_ARCHIVE="git-lfs-linux-amd64-v${GIT_LFS_VERSION}.tar.gz"
 GIT_LFS_SHA256="${GIT_LFS_SHA256:-1c0b6ee5200ca708c5cebebb18fdeb0e1c98f1af5c1a9cba205a4c0ab5a5ec08}"
 GIT_LFS_URL="https://github.com/git-lfs/git-lfs/releases/download/v${GIT_LFS_VERSION}/${GIT_LFS_ARCHIVE}"
-GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-ksteffe/after-certainty}"
+GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-After-Certainty/after-certainty}"
 LFS_ENDPOINT="https://github.com/${GITHUB_REPOSITORY}.git/info/lfs"
 
 export PATH="${HOME}/.local/bin:${PATH:-}"

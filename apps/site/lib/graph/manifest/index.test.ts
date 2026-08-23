@@ -489,7 +489,7 @@ describe("validateSemanticGraph", () => {
 
   it("accepts null subtitle and PDF-only exports (poetry books)", () => {
     const pdfUrl =
-      "https://github.com/ksteffe/after-certainty/releases/download/latest/observer-patterns.pdf";
+      "https://github.com/After-Certainty/after-certainty/releases/download/latest/observer-patterns.pdf";
     const result = validateSemanticGraph({
       books: [
         {

@@ -31,7 +31,7 @@ def _minimal_manifest(
         "schemaVersion": schema,
         "generatedAt": "2026-07-24T00:00:00+00:00",
         "sourceCommit": "localsha",
-        "repository": "ksteffe/after-certainty",
+        "repository": "After-Certainty/after-certainty",
         "ref": "main",
         "releaseTag": "latest",
         "books": book_rows[: max(books, len(book_rows))],

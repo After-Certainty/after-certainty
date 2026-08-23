@@ -21,9 +21,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
-DEFAULT_REMOTE_URL = (
-    "https://github.com/ksteffe/after-certainty/releases/download/latest/semantic-manifest.json"
-)
+DEFAULT_REMOTE_URL = "https://github.com/After-Certainty/after-certainty/releases/download/latest/semantic-manifest.json"
 
 COLLECTIONS = (
     "books",

@@ -105,7 +105,7 @@ describe("SiteFooter", () => {
       "href",
       social.github,
     );
-    expect(social.github).toBe("https://github.com/ksteffe/after-certainty");
+    expect(social.github).toBe("https://github.com/After-Certainty/after-certainty");
   });
 
   it("shows semantic data date and license in the compact meta row", async () => {

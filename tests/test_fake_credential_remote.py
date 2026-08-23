@@ -20,7 +20,9 @@ from scan_generated_secrets import scan_path
 # Unmistakably synthetic — must never resemble a live token closely enough to
 # trigger external revocation systems.
 FAKE_CREDENTIAL = "TESTONLY_NOT_A_SECRET_00000000"
-FAKE_REMOTE = f"https://x-access-token:{FAKE_CREDENTIAL}@github.com/ksteffe/after-certainty.git"
+FAKE_REMOTE = (
+    f"https://x-access-token:{FAKE_CREDENTIAL}@github.com/After-Certainty/after-certainty.git"
+)
 
 
 def _git(repo: Path, *args: str) -> subprocess.CompletedProcess[str]:
@@ -116,7 +118,7 @@ def test_manifest_generation_strips_fake_authenticated_remote(
     _assert_no_credential_leak(log_text, label="generation log")
 
     books = json.loads(books_out.read_text(encoding="utf-8"))
-    assert books.get("repository") == "ksteffe/after-certainty"
+    assert books.get("repository") == "After-Certainty/after-certainty"
     books_text = books_out.read_text(encoding="utf-8")
     _assert_no_credential_leak(books_text, label="books-manifest.json")
 
@@ -125,7 +127,7 @@ def test_manifest_generation_strips_fake_authenticated_remote(
     # semantic manifest may or may not embed repository; if present, must be clean
     semantic = json.loads(semantic_text)
     if "repository" in semantic:
-        assert semantic["repository"] == "ksteffe/after-certainty"
+        assert semantic["repository"] == "After-Certainty/after-certainty"
 
     for path in (books_out, semantic_out, log_path):
         findings = scan_path(path, extra_forbidden=[FAKE_CREDENTIAL])

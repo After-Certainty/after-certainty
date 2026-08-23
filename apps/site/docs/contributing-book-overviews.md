@@ -56,7 +56,7 @@ upstream backfill, add a documented exception in
 
 Do not use exceptions to hide broken public routes or unknown ids.
 
-Upstream authoring: [after-certainty `docs/authoring-discovery-metadata.md`](https://github.com/ksteffe/after-certainty/blob/main/docs/authoring-discovery-metadata.md).
+Upstream authoring: [after-certainty `docs/authoring-discovery-metadata.md`](https://github.com/After-Certainty/after-certainty/blob/main/docs/authoring-discovery-metadata.md).
 
 ## After upstream changes
 

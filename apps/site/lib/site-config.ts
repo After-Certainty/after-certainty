@@ -88,7 +88,7 @@ export type SiteSocialLinks = {
 };
 
 export function resolveSiteSocialLinks(): SiteSocialLinks {
-  const gh = "https://github.com/ksteffe/after-certainty";
+  const gh = "https://github.com/After-Certainty/after-certainty";
   return {
     github: process.env.NEXT_PUBLIC_SOCIAL_GITHUB_URL?.trim() || gh,
     substack:
@@ -103,7 +103,7 @@ export function resolveSiteSocialLinks(): SiteSocialLinks {
 }
 
 export function resolvePodcastPlatformLinks(): PodcastPlatformLinks {
-  const gh = "https://github.com/ksteffe/after-certainty";
+  const gh = "https://github.com/After-Certainty/after-certainty";
   return {
     spotify:
       process.env.NEXT_PUBLIC_PODCAST_SPOTIFY_URL?.trim() ||
@@ -153,7 +153,7 @@ export const siteConfig = {
   description:
     "An intellectual commons exploring meaning, trust, leadership, authority, communication, and human systems—beyond false certainty.",
   url: resolveDeploymentUrl(),
-  githubUrl: "https://github.com/ksteffe/after-certainty",
+  githubUrl: "https://github.com/After-Certainty/after-certainty",
   /** Default RSS URL (Anchor). Server code should call `resolvePodcastRssUrl()` for env override. */
   podcastRssUrl: DEFAULT_PODCAST_RSS_URL,
   license: {

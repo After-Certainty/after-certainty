@@ -2,7 +2,7 @@
 
 **Status:** Stale / weak source of truth — May 2026 snapshot  
 **Date:** 2026-05-21  
-**Source:** Portfolio promotion readiness audit ([#99](https://github.com/ksteffe/after-certainty/issues/99))
+**Source:** Portfolio promotion readiness audit ([#99](https://github.com/After-Certainty/after-certainty/issues/99))
 
 **Do not treat this document as the active backlog.** Prefer:
 

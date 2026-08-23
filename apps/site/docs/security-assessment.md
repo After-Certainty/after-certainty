@@ -1,6 +1,6 @@
 # Defensive security assessment
 
-**Repository:** `apps/site/` in `ksteffe/after-certainty` (former standalone `after-certainty-site`)  
+**Repository:** `apps/site/` in `After-Certainty/after-certainty` (former standalone `after-certainty-site`)  
 **Original assessment date:** 2026-07-17  
 **Follow-up:** Beehiiv `/api/subscribe` removed; outstanding remediations completed on a later branch.
 

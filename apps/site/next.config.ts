@@ -60,6 +60,11 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "raw.githubusercontent.com",
+        pathname: "/After-Certainty/after-certainty/**",
+      },
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
         pathname: "/ksteffe/after-certainty/**",
       },
     ],

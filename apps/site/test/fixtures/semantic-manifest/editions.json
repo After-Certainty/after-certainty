@@ -3,7 +3,7 @@
   "manifestVersion": 2,
   "generatedAt": "2026-07-01T00:00:00.000000+00:00",
   "sourceCommit": "fixture-test-commit",
-  "repository": "ksteffe/after-certainty",
+  "repository": "After-Certainty/after-certainty",
   "ref": "refs/heads/main",
   "ontology": {
     "masterTerms": [
@@ -161,8 +161,8 @@
         "pattern-scrutiny-preserves-trust",
         "pattern-speech-escalates-faster-than-meaning"
       ],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/after-certainty/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/after-certainty/open-graph.png",
       "overview": {
         "centralQuestion": "How do we live and judge when understanding is not enough?",
         "whyItExists": "After Certainty is the project\u2019s namesake orientation: judgment, responsibility, and participation once explanation reaches its limits and replacement frameworks will not save us.",
@@ -298,8 +298,8 @@
         "concept-uncertainty"
       ],
       "patterns": [],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/before-certainty-arrives/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/before-certainty-arrives/open-graph.png",
       "overview": {
         "centralQuestion": "How does certainty form, harden, and outlive the conditions that made it necessary?",
         "whyItExists": "Certainty can be an adaptive response to instability. The book reads history so readers can recognize why inherited moral order feels obvious\u2014before it feels excessive\u2014without reducing traditions to machinery.",
@@ -418,8 +418,8 @@
       ],
       "concepts": [],
       "patterns": [],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/boundary-conditions/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/boundary-conditions/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/boundary-conditions/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/boundary-conditions/open-graph.png",
       "overview": {
         "centralQuestion": "What happens when the reliable person becomes part of the system\u2019s architecture?",
         "whyItExists": "Organizational fiction about invisible coordination work, authorization boundaries, and the cost of becoming indispensable\u2014when helping slowly becomes absorbing, and informal routing of work turns one person into infrastructure.",
@@ -520,8 +520,8 @@
       ],
       "concepts": [],
       "patterns": [],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/observer-patterns/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/observer-patterns/open-graph.png",
       "overview": {
         "centralQuestion": "What takes shape when looking, deciding, and following become decisive?",
         "whyItExists": "A poetry book of observer patterns\u2014attention becoming decisive\u2014readable alone or together within the wider corpus, without instructions or argument.",
@@ -663,8 +663,8 @@
         "pattern-leadership-reproduces-itself",
         "pattern-learning-collapses"
       ],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/BookCover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v1/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/when-others-look-to-you/v1/BookCover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/when-others-look-to-you/v1/open-graph.png",
       "overview": {
         "centralQuestion": "How does leadership influence form, renew, and erode when others look to you?",
         "whyItExists": "When Others Look to You is a field guide to renewal and erosion in leadership \u2014 how trust is practiced, how responsibility drifts, and how influence stays answerable.",
@@ -778,8 +778,8 @@
         "concept-uncertainty"
       ],
       "patterns": [],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/BookCover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-others-look-to-you/v2/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/when-others-look-to-you/v2/BookCover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/when-others-look-to-you/v2/open-graph.png",
       "overview": {
         "centralQuestion": "How do forming, renewing, eroding, and repeating dynamics stack when leadership is read as a cycle of patterns rather than a single arc?",
         "whyItExists": "The companion edition reorganizes the leadership field around named patterns\u2014one chapter each\u2014so readers can move through Forming, Renewing, Eroding, and Repeating without treating the primary volume as obsolete.",

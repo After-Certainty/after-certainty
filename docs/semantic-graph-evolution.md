@@ -1,6 +1,6 @@
 # Semantic graph evolution
 
-Architecture and workflow for [issue #116](https://github.com/ksteffe/after-certainty/issues/116): evolving the semantic graph from static adjacency toward situational recognition and systemic dynamics.
+Architecture and workflow for [issue #116](https://github.com/After-Certainty/after-certainty/issues/116): evolving the semantic graph from static adjacency toward situational recognition and systemic dynamics.
 
 ## Principles
 

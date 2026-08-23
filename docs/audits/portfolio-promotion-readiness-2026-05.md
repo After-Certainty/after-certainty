@@ -3,7 +3,7 @@
 **Date:** 2026-05-21  
 **Scope:** Published manuscripts (`books/`), upcoming nonfiction (`upcoming/`), shared metadata and semantic layer, reader onboarding paths  
 **Coordination hub:** [`upcoming/docs/portfolio-status.md`](../../upcoming/docs/portfolio-status.md)  
-**Issue:** [#99 — Portfolio promotion readiness audit](https://github.com/ksteffe/after-certainty/issues/99)
+**Issue:** [#99 — Portfolio promotion readiness audit](https://github.com/After-Certainty/after-certainty/issues/99)
 
 This audit evaluates discoverability, conceptual clarity, differentiation, onboarding, metadata consistency, and promotion readiness. It does **not** recommend broad manuscript rewrites. Cross-book coherence is treated as a primary constraint.
 

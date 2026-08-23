@@ -1,6 +1,6 @@
 # Portfolio promotion readiness audit
 
-**GitHub issue:** [#99 — Portfolio promotion readiness audit](https://github.com/ksteffe/after-certainty/issues/99)  
+**GitHub issue:** [#99 — Portfolio promotion readiness audit](https://github.com/After-Certainty/after-certainty/issues/99)  
 **Audit date:** May 2026  
 **Branch:** `issue-99-portfolio-audit`
 

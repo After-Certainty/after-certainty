@@ -2,7 +2,7 @@
 
 Backward-compatible evolution of the semantic graph so **works** (books, articles, reports, standards, datasets, case sources) stay in `sources[]` while **thinkers** (people and institutions) can be modeled explicitly and aggregated on the site.
 
-Related consumer work historically tracked against [after-certainty-site issues](https://github.com/ksteffe/after-certainty-site/issues); new work belongs on [`after-certainty`](https://github.com/ksteffe/after-certainty) / `apps/site/` (see rollout section below). The standalone site repository is archived in Phase 7.
+Related consumer work historically tracked against [after-certainty-site issues](https://github.com/ksteffe/after-certainty-site/issues); new work belongs on [`After-Certainty/after-certainty`](https://github.com/After-Certainty/after-certainty) / `apps/site/` (see rollout section below). The standalone site repository is archived in Phase 7.
 
 ## Principles
 

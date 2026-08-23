@@ -51,6 +51,6 @@ export function githubRepositoryFromEnv() {
       .replace(/^https:\/\/github.com\//, "")
       .replace(/\.git$/, "");
   } catch {
-    return "ksteffe/after-certainty";
+    return "After-Certainty/after-certainty";
   }
 }
