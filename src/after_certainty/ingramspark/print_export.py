@@ -11,6 +11,7 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
+from after_certainty.core.repo_root import repo_root
 from after_certainty.ingramspark.paths import (
     print_interior_pdf_path,
     print_isbn,
@@ -26,7 +27,7 @@ from book_specs import (
     spec_typst_config,
 )
 
-_REPO_ROOT = Path(__file__).resolve().parents[2]
+_REPO_ROOT = repo_root(Path(__file__))
 _TOOLS = _REPO_ROOT / "tools"
 _SCRIPTS = _REPO_ROOT / "scripts"
 
@@ -483,7 +484,7 @@ def export_ingramspark_print_interior(
                 work = Path(tmp) / "pdfx-work"
                 work.mkdir()
                 template = (
-                    _TOOLS / "ingramspark" / "fixtures" / "pdfx" / "PDFX_def.ps.template"
+                    Path(__file__).resolve().parent / "fixtures" / "pdfx" / "PDFX_def.ps.template"
                 ).read_text(encoding="utf-8")
                 pdfx_def = work / "PDFX_def.ps"
                 pdfx_def.write_text(

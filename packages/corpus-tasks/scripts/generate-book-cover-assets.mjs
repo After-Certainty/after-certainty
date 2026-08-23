@@ -115,7 +115,7 @@ function listBookCovers(repo) {
       encoding: "utf8",
       env: {
         ...process.env,
-        PYTHONPATH: [path.join(repo, "tools"), process.env.PYTHONPATH]
+        PYTHONPATH: [path.join(repo, "src"), path.join(repo, "tools"), process.env.PYTHONPATH]
           .filter(Boolean)
           .join(path.delimiter),
       },

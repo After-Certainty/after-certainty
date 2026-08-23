@@ -22,7 +22,9 @@ except ModuleNotFoundError as exc:  # pragma: no cover
         "Install with: python3 -m pip install jsonschema"
     ) from exc
 
-_REPO_ROOT = Path(__file__).resolve().parents[2]
+from after_certainty.core.repo_root import repo_root
+
+_REPO_ROOT = repo_root(Path(__file__))
 TEMPLATE_META_SCHEMA_PATH = (
     _REPO_ROOT / "schema" / "profiles" / "ingramspark" / "template-meta.schema.json"
 )

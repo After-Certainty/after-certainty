@@ -35,3 +35,7 @@ def test_sanitize_github_repo_slug_strips_embedded_token() -> None:
 
 def test_sanitize_github_repo_slug_strips_userinfo_before_host() -> None:
     assert sanitize_github_repo_slug("https://user:pass@github.com/o/r") == "o/r"
+
+
+def test_sanitize_github_repo_slug_rejects_spoof_host() -> None:
+    assert sanitize_github_repo_slug("https://evilgithub.com/o/r") == "evilgithub.com/o/r"

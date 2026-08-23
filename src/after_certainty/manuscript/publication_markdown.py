@@ -8,7 +8,7 @@ from pathlib import Path
 NOTES_HEADING_RE = re.compile(r"^## (?:End )?Notes\s*$")
 FOOTNOTE_DEF_RE = re.compile(r"^\[\^[^\]]+\]:")
 EMPTY_NOTES_HEADING_BLOCK_RE = re.compile(
-    r"^## (?:End )?Notes\s*\n(?:\s*\n)*(?=\[\^)",
+    r"^## (?:End )?Notes\s*\n+(?=\[\^)",
     re.MULTILINE,
 )
 

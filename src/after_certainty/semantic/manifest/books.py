@@ -34,7 +34,7 @@ def sanitize_github_repo_slug(raw: str) -> str:
         parsed = urlparse(value)
         host = parsed.netloc.rsplit("@", 1)[-1]
         path = parsed.path.lstrip("/")
-        if host.endswith("github.com") and path:
+        if (host == "github.com" or host.endswith(".github.com")) and path:
             value = path
         elif path:
             value = f"{host}/{path}" if host else path
