@@ -1,0 +1,35 @@
+%!
+% IngramSpark INGRAM-004 candidate PDF/X-3 prefix (grayscale).
+% {{ICC_PROFILE_PATH}} is substituted at build time (absolute path).
+systemdict /ColorConversionStrategy known {
+  systemdict /ColorConversionStrategy get cvn dup /Gray ne exch /CMYK ne and
+} {
+  (\nERROR: ColorConversionStrategy not set.)=
+  true
+} ifelse
+{ (ERROR: ColorConversionStrategy must be /DeviceGray or /DeviceCMYK.)=
+  /ColorConversionStrategy cvx /rangecheck signalerror
+} if
+
+[ /GTS_PDFXVersion (PDF/X-3:2002)
+  /Title (IngramSpark grayscale PDF/X proof)
+  /Trapped /False
+/DOCINFO pdfmark
+
+/ICCProfile ({{ICC_PROFILE_PATH}}) def
+
+[/_objdef {icc_PDFX} /type /stream /OBJ pdfmark
+[{icc_PDFX} << /N 1 >> /PUT pdfmark
+[{icc_PDFX} ICCProfile (r) file /PUT pdfmark
+
+[/_objdef {OutputIntent_PDFX} /type /dict /OBJ pdfmark
+[{OutputIntent_PDFX} <<
+  /Type /OutputIntent
+  /S /GTS_PDFX
+  /OutputCondition (Grayscale POD interior proof)
+  /Info (Ghostscript sgray.icc as DestOutputProfile)
+  /OutputConditionIdentifier (Custom)
+  /RegistryName (http://www.color.org)
+  /DestOutputProfile {icc_PDFX}
+>> /PUT pdfmark
+[{Catalog} <</OutputIntents [ {OutputIntent_PDFX} ]>> /PUT pdfmark

@@ -144,12 +144,12 @@ test:
 check: lint test
 
 lint:
-	python3 -m ruff check tools scripts tests
-	python3 -m ruff format --check tools scripts tests
+	python3 -m ruff check tools scripts tests src
+	python3 -m ruff format --check tools scripts tests src
 
 lint-fix:
-	python3 -m ruff check --fix tools scripts tests
-	python3 -m ruff format tools scripts tests
+	python3 -m ruff check --fix tools scripts tests src
+	python3 -m ruff format tools scripts tests src
 
 validate-book-specs:
 	@python3 tools/validate_book_specs.py --repo .
