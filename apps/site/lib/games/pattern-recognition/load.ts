@@ -1,4 +1,4 @@
-import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/manifest/installed-sync";
 import type { ChallengeDefinition } from "@/types/challenges";
 import type { ManifestChallenge, SemanticGraph } from "@/types/semanticGraph";
 

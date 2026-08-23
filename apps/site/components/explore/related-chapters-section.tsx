@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import type { RelatedChapterLink } from "@/lib/graph/chapter-associations";
+import type { RelatedChapterLink } from "@/lib/graph/query/chapter-associations";
 
 const DEFAULT_LIMIT = 8;
 

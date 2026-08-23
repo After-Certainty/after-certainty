@@ -7,7 +7,7 @@ import { CollaboratorsHero } from "@/components/collaborators/collaborators-hero
 import { CollaboratorsParticipate } from "@/components/collaborators/collaborators-participate";
 import { CollaboratorsPhilosophy } from "@/components/collaborators/collaborators-philosophy";
 import { CollaboratorsQuote } from "@/components/collaborators/collaborators-quote";
-import { getContributors } from "@/lib/content-data";
+import { getContributors } from "@/lib/collaborators";
 import { createPageMetadata } from "@/lib/metadata";
 
 export const metadata: Metadata = createPageMetadata({

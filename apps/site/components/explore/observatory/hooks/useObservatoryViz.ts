@@ -10,7 +10,7 @@ import {
   buildProgressiveGraphVizModel,
   defaultFocusCanonicalId,
   type GraphVizBuildOptions,
-} from "@/lib/graph/graphVizModel";
+} from "@/lib/graph/presentation/graphVizModel";
 import { ontologyLensAllowedConceptIds, type OntologyLens } from "@/lib/graph/ontology";
 import type { GraphEntityKind } from "@/types/semanticGraph";
 

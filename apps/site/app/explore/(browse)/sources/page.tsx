@@ -22,7 +22,7 @@ import {
   sourceDisplayBody,
   sourceDisplayLabel,
   sourceDisplayTitle,
-} from "@/lib/graph/sourceDisplay";
+} from "@/lib/graph/presentation/sourceDisplay";
 import { createPageMetadata } from "@/lib/metadata";
 import type { Source } from "@/types/semanticGraph";
 

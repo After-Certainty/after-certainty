@@ -15,10 +15,10 @@ import type {
   Source,
   Thinker,
 } from "@/types/semanticGraph";
-import { getConceptFullDefinition } from "@/lib/graph/conceptFormatting";
-import { sourceDisplayBody, sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
-import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { getConceptFullDefinition } from "@/lib/graph/presentation/conceptFormatting";
+import { sourceDisplayBody, sourceDisplayTitle } from "@/lib/graph/presentation/sourceDisplay";
+import { relationshipsForConcept } from "@/lib/graph/presentation/relationshipTaxonomy";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
 import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 
 export const SCHEMA_ORG_CONTEXT = "https://schema.org";

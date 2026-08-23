@@ -24,6 +24,11 @@
       "cache": false,
       "persistent": true
     },
+    "validate:installed-manifest": {
+      "dependsOn": ["@after-certainty/corpus-tasks#install-for-site"],
+      "outputs": [],
+      "env": ["SEMANTIC_MANIFEST_USE_LOCAL", "SEMANTIC_MANIFEST_OFFLINE"]
+    },
     "validate:fallback": {
       "dependsOn": ["@after-certainty/corpus-tasks#install-for-site"],
       "outputs": [],
@@ -65,16 +70,7 @@
         "$TURBO_ROOT$/schema/**",
         "$TURBO_ROOT$/upcoming/**",
         "$TURBO_ROOT$/build/site-assets/book-covers/**",
-        "$TURBO_ROOT$/tools/generate_semantic_manifest.py",
-        "$TURBO_ROOT$/tools/discovery_manifest.py",
-        "$TURBO_ROOT$/tools/manifest_books.py",
-        "$TURBO_ROOT$/tools/cover_assets_manifest.py",
-        "$TURBO_ROOT$/tools/manifest_markdown.py",
-        "$TURBO_ROOT$/tools/book_specs.py",
-        "$TURBO_ROOT$/tools/manuscript_structure.py",
-        "$TURBO_ROOT$/tools/pattern_yaml.py",
-        "$TURBO_ROOT$/tools/validate_book_specs.py",
-        "$TURBO_ROOT$/tools/verify_semantic_yaml.py",
+        "$TURBO_ROOT$/src/after_certainty/**",
         "$TURBO_ROOT$/Makefile",
         "$TURBO_ROOT$/pyproject.toml",
         "$TURBO_ROOT$/uv.lock"

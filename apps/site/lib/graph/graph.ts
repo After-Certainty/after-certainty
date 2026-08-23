@@ -1,4 +1,4 @@
-import { resolveThinkers } from "@/lib/graph/thinkers";
+import { resolveThinkers } from "@/lib/graph/query/thinkers";
 import type {
   Book,
   GlossaryConcept,

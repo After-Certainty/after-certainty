@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getConceptBySlug } from "@/lib/graph/graphQueries";
+import { getConceptBySlug } from "@/lib/graph/query/graphQueries";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import {
   buildConceptPageJsonLd,

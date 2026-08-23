@@ -14,7 +14,7 @@ import {
 } from "@/lib/explore/explore-index-browse";
 import { conceptsSortedForExploreIndex } from "@/lib/explore/explore-concepts-order";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
-import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { createPageMetadata } from "@/lib/metadata";
 import type { GlossaryConcept } from "@/types/semanticGraph";

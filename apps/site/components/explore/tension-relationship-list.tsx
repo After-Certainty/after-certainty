@@ -1,8 +1,8 @@
 import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import type { GraphEntityKind } from "@/types/semanticGraph";
 import { exploreObservatoryRelationshipHref } from "@/lib/graph/explorePaths";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
-import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
+import { vizEdgeDedupKey } from "@/lib/graph/presentation/graphVizModel";
 import type { Relationship } from "@/types/semanticGraph";
 import Link from "next/link";
 

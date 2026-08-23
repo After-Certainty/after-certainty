@@ -1,17 +1,3 @@
-"""Chapter-audio provider adapters."""
+"""Compatibility shim."""
 
-from __future__ import annotations
-
-from chapter_audio.adapters.elevenlabs import (
-    ADAPTER_VERSION as ELEVENLABS_ADAPTER_VERSION,
-)
-from chapter_audio.adapters.elevenlabs import (
-    ElevenLabsProvider,
-    MockElevenLabsProvider,
-)
-
-__all__ = [
-    "ELEVENLABS_ADAPTER_VERSION",
-    "ElevenLabsProvider",
-    "MockElevenLabsProvider",
-]
+from after_certainty.chapter_audio.adapters.__init__ import *  # noqa: F403

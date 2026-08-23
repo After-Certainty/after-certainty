@@ -8,7 +8,7 @@ import {
   dynamicsDirectionIcons,
   observatoryIcon,
 } from "@/components/icons/semantic";
-import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
+import { formatRelationshipLabelForDisplay } from "@/lib/graph/presentation/relationshipVisuals";
 import type { Relationship } from "@/types/semanticGraph";
 
 type RelationshipCardProps = {

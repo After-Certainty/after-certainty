@@ -8,7 +8,7 @@ import {
   sourceDisplayBody,
   sourceDisplayLabel,
   sourceDisplayTitle,
-} from "@/lib/graph/sourceDisplay";
+} from "@/lib/graph/presentation/sourceDisplay";
 
 type SourceCardProps = {
   source: Source;

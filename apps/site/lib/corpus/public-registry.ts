@@ -17,7 +17,7 @@ import {
 } from "@/lib/graph/chapters";
 import { exploreBooksShelfHref, explorePaths } from "@/lib/graph/explorePaths";
 import { contentTypeInfoFromBook } from "@/lib/graph/content-type";
-import { resolveThinkers } from "@/lib/graph/thinkers";
+import { resolveThinkers } from "@/lib/graph/query/thinkers";
 import { getPublishedQuestions } from "@/lib/questions/loadQuestions";
 import { getPublishedTrails } from "@/lib/trails/loadTrails";
 import { buildSearchDocuments } from "@/lib/search/buildSearchDocuments";

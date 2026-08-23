@@ -14,15 +14,15 @@ import {
   relatedContentForSituation,
   relatedContentForSource,
   relatedContentForThinker,
-} from "@/lib/graph/relatedContent";
+} from "@/lib/graph/query/relatedContent";
 import {
   getIncomingRelationships,
   getOutgoingRelationships,
   relationshipEndpointsResolved,
-} from "@/lib/graph/graphTraversal";
-import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
+} from "@/lib/graph/query/graphTraversal";
+import { vizEdgeDedupKey } from "@/lib/graph/presentation/graphVizModel";
 import type { Relationship } from "@/types/semanticGraph";
-import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
 import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 
 type ObservatoryEntityPanelProps = {

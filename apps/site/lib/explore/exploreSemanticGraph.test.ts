@@ -29,11 +29,11 @@ describe("getExploreSemanticGraph", () => {
         ],
       },
       source: {
-        kind: "fallback",
+        kind: "installed",
         stale: false,
-        reason: "offline",
+        reason: "installed",
         schemaVersion: "2.3",
-        cacheIdentity: "fallback|test|2.3|commit|no-content-version|generated",
+        cacheIdentity: "installed|test|2.3|commit|no-content-version|generated",
       },
       diagnostics: [],
     });
@@ -41,6 +41,6 @@ describe("getExploreSemanticGraph", () => {
     const { graph, source } = await getExploreSemanticGraph();
 
     expect(graph.books.map((b) => b.slug)).toEqual(["in-manifest"]);
-    expect(source.kind).toBe("fallback");
+    expect(source.kind).toBe("installed");
   });
 });

@@ -11,19 +11,20 @@ import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { RelatedChaptersSection } from "@/components/explore/related-chapters-section";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
-import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
+import { entityHasSemanticRelationships } from "@/lib/graph/presentation/relationshipTaxonomy";
 import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
+import { EXPLORE_ENTITY_DETAIL_SECTION_CLASS } from "@/lib/explore/entity-detail-layout";
 import {
   conceptsSortedForExploreIndex,
   exploreConceptAdjacentInIndexOrder,
 } from "@/lib/explore/explore-concepts-order";
-import { publicChaptersForConcept } from "@/lib/graph/chapter-associations";
+import { publicChaptersForConcept } from "@/lib/graph/query/chapter-associations";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getAdjacentSourcesFromRelationships, getConceptBySlug } from "@/lib/graph/graphQueries";
-import { getConnectedGraphNeighborhood } from "@/lib/graph/graphTraversal";
-import { relatedContentForConcept } from "@/lib/graph/relatedContent";
+import { getAdjacentSourcesFromRelationships, getConceptBySlug } from "@/lib/graph/query/graphQueries";
+import { getConnectedGraphNeighborhood } from "@/lib/graph/query/graphTraversal";
+import { relatedContentForConcept } from "@/lib/graph/query/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 import {
@@ -32,8 +33,8 @@ import {
   relatedBookUrls,
   relatedPatternUrls,
 } from "@/lib/seo/json-ld";
-import { getConceptFullDefinition, getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
-import { buildPublicGroundingViewModel } from "@/lib/graph/grounding";
+import { getConceptFullDefinition, getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
+import { buildPublicGroundingViewModel } from "@/lib/graph/query/grounding";
 import { SemanticGroundingDisclosure } from "@/components/explore/semantic-grounding-disclosure";
 import { EntityIntroDisclosure } from "@/components/explore/entity-intro-disclosure";
 import {
@@ -141,7 +142,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
           relatedUrls,
         })}
       />
-      <Section atmosphere="none" className="pt-6 md:pt-14 !pb-6 md:!pb-12">
+      <Section atmosphere="none" className={EXPLORE_ENTITY_DETAIL_SECTION_CLASS}>
         <BreadcrumbTrail items={conceptBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Concept</p>
         <h1 className="mt-3 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:mt-4 md:text-5xl">

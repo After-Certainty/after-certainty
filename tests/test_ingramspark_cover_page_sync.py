@@ -92,7 +92,7 @@ def test_build_exports_returns_reloaded_spec_after_sync(
     """Regression: preflight must see synced template_page_count, not the stale in-memory spec."""
     from dataclasses import dataclass
 
-    from ingramspark import package as pkg
+    from after_certainty.ingramspark import package as pkg
 
     src_book = _REPO / "books" / "everyone-knows-love"
     repo = tmp_path / "repo"

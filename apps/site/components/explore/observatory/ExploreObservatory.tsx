@@ -37,7 +37,7 @@ import {
   defaultFocusCanonicalId,
   distinctRelationshipPredicates,
   vizEdgeDedupKey,
-} from "@/lib/graph/graphVizModel";
+} from "@/lib/graph/presentation/graphVizModel";
 import { buildUndirectedAdjacency, shortestPathUndirected } from "@/lib/graph/graphPaths";
 import {
   EXPLORE_VIEW_OBSERVATORY,
@@ -58,7 +58,7 @@ import {
   isSymmetricRelationship,
   STRUCTURAL_TENSION_PREDICATE,
   tensionPredicateKeys,
-} from "@/lib/graph/relationshipTaxonomy";
+} from "@/lib/graph/presentation/relationshipTaxonomy";
 import type { OntologyLens } from "@/lib/graph/ontology";
 import { isAtFreshFocusEntry } from "@/lib/observatory/focusEntry";
 import {
@@ -76,13 +76,13 @@ import {
 import {
   normalizePredicateKey,
   formatRelationshipLabelForDisplay,
-} from "@/lib/graph/relationshipVisuals";
+} from "@/lib/graph/presentation/relationshipVisuals";
 import type { GraphEntityKind, Relationship, SemanticGraph } from "@/types/semanticGraph";
 import type { Pathway } from "@/types/observatory";
 import type { SemanticFlowEdgeData } from "@/components/explore/observatory/SemanticFlowEdge";
 import type { SemanticFlowNodeData } from "@/components/explore/observatory/SemanticFlowNode";
 import type { FocusCameraTarget } from "@/components/explore/observatory/hooks/useFocusCamera";
-import type { InsightEdge } from "@/lib/graph/graphInsights";
+import type { InsightEdge } from "@/lib/graph/query/graphInsights";
 import { trackSelectContent } from "@/lib/analytics/track";
 
 const ALL_KINDS: GraphEntityKind[] = [

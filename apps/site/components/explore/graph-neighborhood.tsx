@@ -1,7 +1,7 @@
 import type { GraphIndex } from "@/lib/graph/graph";
 import { GraphNeighborhoodCards } from "@/components/explore/graph-neighborhood-cards";
 import type { GraphFocalNode } from "@/types/semanticGraph";
-import { getConnectedGraphNeighborhood } from "@/lib/graph/graphTraversal";
+import { getConnectedGraphNeighborhood } from "@/lib/graph/query/graphTraversal";
 
 type GraphNeighborhoodProps = {
   index: GraphIndex;

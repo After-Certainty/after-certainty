@@ -14,17 +14,19 @@ export SEMANTIC_MANIFEST_OFFLINE=1
 # Chapter MP3s are Git LFS; Vercel clones leave pointer stubs unless we pull.
 bash scripts/ensure_git_lfs_audio.sh
 
-make generate-semantic-manifest
+# Same logical chain as Turbo: covers → manifest (skip duplicate covers) → install.
+npm run corpus:build-web-covers
+SKIP_WEB_COVERS=1 npm run corpus:build-manifest
 
 install_args=(--repo .)
 if [[ -n "${VERCEL_GIT_COMMIT_SHA:-}" ]]; then
   # Stage D success criterion: deploy SHA matches manifest provenance.
   install_args+=(--require-deploy-sha "${VERCEL_GIT_COMMIT_SHA}")
 fi
-python3 scripts/install_local_manifest_for_site.py "${install_args[@]}"
+node packages/corpus-tasks/scripts/install-for-site.mjs "${install_args[@]}"
 
 # Fail the deploy if generated covers and manifest diverge from installed public assets.
-REQUIRE_INSTALLED=1 REQUIRE_SEMANTIC=1 make validate-book-cover-assets
+REQUIRE_INSTALLED=1 REQUIRE_SEMANTIC=1 npm run corpus:validate-web-covers
 
 npm run site:build
 

@@ -55,8 +55,8 @@ export function isSemanticManifestUseLocal(): boolean {
 }
 
 /**
- * Compatibility flag for offline/local manifest loading. Stage E always loads
- * semantic data from local/offline JSON; this flag remains for scripts/tests.
+ * Observability-only compatibility flag. Does not change manifest source selection;
+ * USE_LOCAL=1 implies this flag. Stage E always loads from installed local JSON.
  */
 export function isSemanticManifestOffline(): boolean {
   return (

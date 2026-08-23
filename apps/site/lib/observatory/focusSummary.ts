@@ -1,6 +1,6 @@
 import { graphNodeTitle, type GraphIndex, type GraphNode } from "@/lib/graph/graph";
-import { isSymmetricRelationship } from "@/lib/graph/relationshipTaxonomy";
-import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
+import { isSymmetricRelationship } from "@/lib/graph/presentation/relationshipTaxonomy";
+import { formatRelationshipLabelForDisplay } from "@/lib/graph/presentation/relationshipVisuals";
 import type { RelationshipSelection } from "@/lib/observatory/types";
 
 export function nodeLabel(index: GraphIndex, canonicalId: string): string {

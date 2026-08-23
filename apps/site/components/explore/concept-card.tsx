@@ -4,7 +4,7 @@ import {
   type ExploreCatalogCardLayout,
 } from "@/components/explore/explore-catalog-card";
 import { explorePaths } from "@/lib/graph/explorePaths";
-import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
 
 type ConceptCardProps = {
   concept: GlossaryConcept;

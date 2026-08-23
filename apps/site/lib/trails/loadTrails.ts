@@ -1,6 +1,6 @@
 import pathSearchBridgesJson from "@/data/path-search-bridges.json";
 import { trailsFromGraph } from "@/lib/graph/discovery";
-import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/manifest/installed-sync";
 import type { ParsedTrailsManifest } from "@/lib/trails/schema";
 import type { TrailDefinition, TrailSearchBridge } from "@/types/trails";
 import type { SemanticGraph } from "@/types/semanticGraph";

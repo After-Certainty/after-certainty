@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ButtonLink } from "@/components/ui/button-link";
 import { Container } from "@/components/ui/container";
+import { HERO_SCRIM_HOME_CLASS } from "@/lib/ui/hero-scrim";
 
 const heroBackdropSrc = "/images/hero/hero-backdrop.png";
 
@@ -21,10 +22,7 @@ export function Hero() {
       {/* Single scrim: transparent across most of the frame; darkens only the lower band for type.
           (Separate bloom/grain layers were stacking soft-light blends and hid the photo.)
           Light theme overrides this in atmosphere.css with a pale left wash for dark type. */}
-      <div
-        className="hero-home__scrim pointer-events-none absolute inset-0 z-[1] bg-[linear-gradient(to_bottom,transparent_0%,transparent_28%,color-mix(in_srgb,var(--bg)_40%,transparent)_58%,color-mix(in_srgb,var(--bg)_86%,transparent)_100%)] md:bg-[linear-gradient(to_bottom,transparent_0%,transparent_42%,color-mix(in_srgb,var(--bg)_45%,transparent)_68%,color-mix(in_srgb,var(--bg)_82%,transparent)_100%)]"
-        aria-hidden
-      />
+      <div className={HERO_SCRIM_HOME_CLASS} aria-hidden />
       {/* Mobile: content-sized hero (no tall min-height) so the opening viewport isn’t mostly empty image.
           Desktop keeps a cinematic frame with bottom-aligned type — slightly shorter than before. */}
       <Container className="relative z-10 py-8 md:flex md:min-h-[inherit] md:flex-col md:justify-end md:py-28 lg:py-36">

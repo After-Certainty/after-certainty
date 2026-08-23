@@ -1,5 +1,5 @@
 import type { GraphEntityKind } from "@/types/semanticGraph";
-import type { GraphVizBuildOptions } from "@/lib/graph/graphVizModel";
+import type { GraphVizBuildOptions } from "@/lib/graph/presentation/graphVizModel";
 
 /** UI panel mode for the interpretation console. */
 export type PanelMode = "empty" | "entity" | "relationship";

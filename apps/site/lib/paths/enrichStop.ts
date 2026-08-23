@@ -4,7 +4,7 @@ import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 import { chapterPublicPath } from "@/lib/graph/chapters";
 import { exploreHrefForCanonicalId, explorePaths } from "@/lib/graph/explorePaths";
 import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
-import { sourceDisplayTitle } from "@/lib/graph/sourceDisplay";
+import { sourceDisplayTitle } from "@/lib/graph/presentation/sourceDisplay";
 import {
   entityTypeLabel,
   normalizeBookEntityId,
