@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 import { execSync } from "node:child_process";
-import { githubRepositoryFromEnv, repoRoot } from "./repo-root.mjs";
+import { execRepoPython, githubRepositoryFromEnv, pythonEnv, repoRoot } from "./repo-root.mjs";
 
 const root = repoRoot();
 process.chdir(root);
 
-execSync("python3 tools/validate_book_specs.py --repo .", { stdio: "inherit" });
-execSync("python3 tools/verify_semantic_yaml.py --repo . --strict-prose", { stdio: "inherit" });
+execRepoPython(root, ["tools/validate_book_specs.py", "--repo", "."]);
+execRepoPython(root, ["tools/verify_semantic_yaml.py", "--repo", ".", "--strict-prose"]);
 
 if (!process.env.SKIP_WEB_COVERS) {
   const out =
@@ -32,5 +32,5 @@ execSync(
     `--github-ref "${manifestRef}"`,
     `--release-tag "${releaseTag}"`,
   ].join(" "),
-  { stdio: "inherit" },
+  { stdio: "inherit", env: pythonEnv(root) },
 );
