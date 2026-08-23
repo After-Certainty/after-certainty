@@ -11,7 +11,7 @@ This repository is the **corpus and publishing** home for After Certainty. It al
 | Area | Tooling | Common commands |
 |------|---------|-----------------|
 | Corpus / semantic / publishing | Python 3.12+, [uv](https://github.com/astral-sh/uv), Make | `uv sync --frozen` · `make check` · `make generate-semantic-manifest` |
-| Website (`apps/site`) | Node 20+, npm workspaces, thin [Turborepo](https://turbo.build) | `npm ci` · `npm run site:dev` · `npm run site:test` · `npm run site:lint` |
+| Website (`apps/site`) | Node 22+, npm workspaces, thin [Turborepo](https://turbo.build) | `npm ci` · `npm run site:dev` · `npm run site:test` · `npm run site:lint` |
 
 From the repo root after both installs:
 
