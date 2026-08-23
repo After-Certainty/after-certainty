@@ -69,7 +69,7 @@ scripts with write tokens). Local machines should not need those secrets.
 
 ## Analytics via PADE broker (Cloud Agents)
 
-Google Analytics trend reports on **Cursor Cloud Agents** use [PADE v0.1.0](https://github.com/ksteffe/pade/releases/tag/v0.1.0) and a private broker — not MCP or `gcloud` ADC on the agent VM.
+Google Analytics trend reports on **Cursor Cloud Agents** use [PADE v0.2.0](https://github.com/After-Certainty/pade/releases/tag/v0.2.0) and a private broker — not MCP or `gcloud` ADC on the agent VM.
 
 - Broker URL and bindings: [`.pade/agent-bindings.yaml`](../.pade/agent-bindings.yaml)
 - Setup and smoke test: [`docs/pade-cloud-agent.md`](../pade-cloud-agent.md)

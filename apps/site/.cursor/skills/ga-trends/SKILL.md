@@ -2,7 +2,7 @@
 name: ga-trends
 description: >-
   Pulls Google Analytics 4 trend reports for After Certainty. Primary path:
-  PADE v0.1.0 broker on Cursor Cloud Agents. Fallback: analytics MCP on local
+  PADE v0.2.0 broker on Cursor Cloud Agents. Fallback: analytics MCP on local
   laptop. Use when the user asks for GA trends, traffic updates, analytics
   reports, weekly metrics, or a regular analytics check.
 ---
@@ -20,7 +20,7 @@ description: >-
 
 ### Cloud Agent (primary — PADE broker)
 
-- Released **PADE v0.1.0** on `PATH` (from [`.cursor/install-pade.sh`](../../../../.cursor/install-pade.sh) via [`.cursor/environment.json`](../../../../.cursor/environment.json))
+- Released **PADE v0.2.0** on `PATH` (from [`.cursor/install-pade.sh`](../../../../.cursor/install-pade.sh) via [`.cursor/environment.json`](../../../../.cursor/environment.json))
 - [`pade.yaml`](../../../../pade.yaml) and [`.pade/agent-bindings.yaml`](../../../../.pade/agent-bindings.yaml) at repo root
 - Cursor Cloud Agent VM (identity socket for OIDC)
 - **Do not** require `gcloud auth application-default login` on Cloud Agents

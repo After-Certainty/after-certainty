@@ -1,7 +1,7 @@
 ---
 name: vercel-diagnostics
 description: >-
-  Runs Vercel CLI diagnostics for After Certainty via PADE v0.1.0 broker on
+  Runs Vercel CLI diagnostics for After Certainty via PADE v0.2.0 broker on
   Cursor Cloud Agents (process-scoped VERCEL_TOKEN). Fallback: logged-in vercel
   CLI on a local laptop. Use when the user asks to check Vercel deployments,
   inspect a preview or production URL, read Vercel logs, vercel whoami, or
@@ -24,7 +24,7 @@ On Cloud Agents, **do not** use Vercel MCP, `vercel login`, `--token`, or a sess
 
 ### Cloud Agent (primary — PADE broker)
 
-- Released **PADE v0.1.0** on `PATH` (from [`.cursor/install-pade.sh`](../../../../.cursor/install-pade.sh))
+- Released **PADE v0.2.0** on `PATH` (from [`.cursor/install-pade.sh`](../../../../.cursor/install-pade.sh))
 - Pinned **Vercel CLI 59.3.0** on `PATH` (from [`.cursor/install-vercel.sh`](../../../../.cursor/install-vercel.sh); binary only, no token)
 - [`pade.yaml`](../../../../pade.yaml) and [`.pade/agent-bindings.yaml`](../../../../.pade/agent-bindings.yaml) at repo root
 - Cursor Cloud Agent VM (identity socket for OIDC)
