@@ -83,12 +83,21 @@
       "inputs": [
         "$TURBO_ROOT$/build/semantic-manifest.json",
         "$TURBO_ROOT$/build/site-assets/book-covers/**",
-        "$TURBO_ROOT$/scripts/install_local_manifest_for_site.py"
+        "$TURBO_ROOT$/books/**",
+        "$TURBO_ROOT$/upcoming/**",
+        "$TURBO_ROOT$/scripts/install_local_manifest_for_site.py",
+        "$TURBO_ROOT$/packages/corpus-tasks/scripts/install-for-site.mjs"
       ],
       "outputs": [
         "$TURBO_ROOT$/apps/site/data/local-semantic-manifest.json",
         "$TURBO_ROOT$/apps/site/data/local-intended-manifest-release.json",
-        "$TURBO_ROOT$/apps/site/public/generated/book-covers/**"
+        "$TURBO_ROOT$/apps/site/data/local-chapter-audio-manifest.json",
+        "$TURBO_ROOT$/apps/site/data/manuscripts/**",
+        "$TURBO_ROOT$/apps/site/data/chapter-audio/**",
+        "$TURBO_ROOT$/apps/site/public/generated/book-covers/**",
+        "$TURBO_ROOT$/apps/site/public/generated/open-graph/**",
+        "$TURBO_ROOT$/apps/site/public/generated/audio/**",
+        "$TURBO_ROOT$/apps/site/public/manuscript-assets/**"
       ]
     },
     "parity": {

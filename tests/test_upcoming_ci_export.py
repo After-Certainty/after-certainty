@@ -7,6 +7,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+import pytest
 from tools.book_specs import (
     ci_export_books,
     load_book_spec,
@@ -17,138 +18,143 @@ from tools.book_specs import (
 )
 
 
-def test_published_everyone_knows_love_in_ci_matrix(repo_root: Path) -> None:
+@pytest.fixture(scope="session")
+def ci_export_rels(repo_root: Path) -> set[str]:
+    return {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
+
+
+@pytest.fixture(scope="session")
+def upcoming_stems(repo_root: Path) -> set[str]:
+    return upcoming_export_stems(repo_root)
+
+
+@pytest.fixture(scope="session")
+def ci_docx_matrix_payload(repo_root: Path) -> dict:
+    """Build the --all/--format=docx matrix once (avoids ~8s subprocess per book)."""
+    tools = str(repo_root / "tools")
+    if tools not in sys.path:
+        sys.path.insert(0, tools)
+    import ci_affected_books as cab
+
+    all_books = cab.find_book_dirs(repo_root)
+    books = [
+        b
+        for b in all_books
+        if {"docx"}
+        & set(
+            cab.spec_formats(cab.load_spec_for_rel(repo_root, b.relative_to(repo_root).as_posix()))
+        )
+    ]
+    return {
+        "include": cab.matrix_entries(repo_root, books),
+        "empty": len(books) == 0,
+        "count": len(books),
+    }
+
+
+def test_published_everyone_knows_love_in_ci_matrix(
+    repo_root: Path, ci_export_rels: set[str]
+) -> None:
     spec_path = resolve_spec_path(repo_root / "books" / "everyone-knows-love")
     assert spec_path is not None
     spec = load_book_spec(spec_path)
     assert spec_formats(spec) == ["docx", "epub", "pdf"]
     assert spec_in_latest_release(spec) is True
-
-    rels = {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
-    assert "books/everyone-knows-love" in rels
+    assert "books/everyone-knows-love" in ci_export_rels
 
 
-def test_upcoming_without_exports_excluded_from_ci_matrix(repo_root: Path) -> None:
-    rels = {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
+def test_upcoming_without_exports_excluded_from_ci_matrix(ci_export_rels: set[str]) -> None:
     # What We Cannot See has been promoted to books/
-    assert "upcoming/what-we-cannot-see" not in rels
+    assert "upcoming/what-we-cannot-see" not in ci_export_rels
 
 
-def test_published_the_world_we_make_together_in_ci_matrix(repo_root: Path) -> None:
+def test_published_the_world_we_make_together_in_ci_matrix(
+    repo_root: Path,
+    ci_docx_matrix_payload: dict,
+    ci_export_rels: set[str],
+    upcoming_stems: set[str],
+) -> None:
     spec_path = resolve_spec_path(repo_root / "books" / "the-world-we-make-together")
     assert spec_path is not None
     spec = load_book_spec(spec_path)
     assert spec_formats(spec) == ["docx", "epub", "pdf"]
     assert spec_in_latest_release(spec) is True
 
-    rels = {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
-    assert "books/the-world-we-make-together" in rels
-    assert "upcoming/the-world-we-make-together" not in rels
-    assert "the-world-we-make-together" not in upcoming_export_stems(repo_root)
+    assert "books/the-world-we-make-together" in ci_export_rels
+    assert "upcoming/the-world-we-make-together" not in ci_export_rels
+    assert "the-world-we-make-together" not in upcoming_stems
 
-    matrix = subprocess.run(
-        [
-            sys.executable,
-            str(repo_root / "tools/ci_affected_books.py"),
-            "--repo",
-            str(repo_root),
-            "--all",
-            "--format",
-            "docx",
-        ],
-        capture_output=True,
-        text=True,
-        timeout=120,
+    row = next(
+        e
+        for e in ci_docx_matrix_payload["include"]
+        if e["dir"] == "books/the-world-we-make-together"
     )
-    assert matrix.returncode == 0, matrix.stderr
-    payload = json.loads(matrix.stdout)
-    row = next(e for e in payload["include"] if e["dir"] == "books/the-world-we-make-together")
     assert row["has_docx"] == "true"
     assert row["has_epub"] == "true"
     assert row["has_pdf"] == "true"
 
 
-def test_published_no_time_to_think_in_ci_matrix(repo_root: Path) -> None:
+def test_published_no_time_to_think_in_ci_matrix(
+    repo_root: Path,
+    ci_docx_matrix_payload: dict,
+    ci_export_rels: set[str],
+    upcoming_stems: set[str],
+) -> None:
     spec_path = resolve_spec_path(repo_root / "books" / "no-time-to-think")
     assert spec_path is not None
     spec = load_book_spec(spec_path)
     assert spec_formats(spec) == ["docx", "epub", "pdf"]
     assert spec_in_latest_release(spec) is True
 
-    rels = {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
-    assert "books/no-time-to-think" in rels
-    assert "upcoming/no-time-to-think" not in rels
-    assert "no-time-to-think" not in upcoming_export_stems(repo_root)
+    assert "books/no-time-to-think" in ci_export_rels
+    assert "upcoming/no-time-to-think" not in ci_export_rels
+    assert "no-time-to-think" not in upcoming_stems
 
-    matrix = subprocess.run(
-        [
-            sys.executable,
-            str(repo_root / "tools/ci_affected_books.py"),
-            "--repo",
-            str(repo_root),
-            "--all",
-            "--format",
-            "docx",
-        ],
-        capture_output=True,
-        text=True,
-        timeout=120,
-    )
-    assert matrix.returncode == 0, matrix.stderr
-    payload = json.loads(matrix.stdout)
-    row = next(e for e in payload["include"] if e["dir"] == "books/no-time-to-think")
+    row = next(e for e in ci_docx_matrix_payload["include"] if e["dir"] == "books/no-time-to-think")
     assert row["has_docx"] == "true"
     assert row["has_epub"] == "true"
     assert row["has_pdf"] == "true"
 
 
-def test_published_the_case_that_does_not_fit_in_ci_matrix(repo_root: Path) -> None:
+def test_published_the_case_that_does_not_fit_in_ci_matrix(
+    repo_root: Path,
+    ci_docx_matrix_payload: dict,
+    ci_export_rels: set[str],
+    upcoming_stems: set[str],
+) -> None:
     spec_path = resolve_spec_path(repo_root / "books" / "the-case-that-does-not-fit")
     assert spec_path is not None
     spec = load_book_spec(spec_path)
     assert spec_formats(spec) == ["docx", "epub", "pdf"]
     assert spec_in_latest_release(spec) is True
 
-    rels = {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
-    assert "books/the-case-that-does-not-fit" in rels
-    assert "upcoming/the-case-that-does-not-fit" not in rels
-    assert "the-case-that-does-not-fit" not in upcoming_export_stems(repo_root)
+    assert "books/the-case-that-does-not-fit" in ci_export_rels
+    assert "upcoming/the-case-that-does-not-fit" not in ci_export_rels
+    assert "the-case-that-does-not-fit" not in upcoming_stems
 
-    matrix = subprocess.run(
-        [
-            sys.executable,
-            str(repo_root / "tools/ci_affected_books.py"),
-            "--repo",
-            str(repo_root),
-            "--all",
-            "--format",
-            "docx",
-        ],
-        capture_output=True,
-        text=True,
-        timeout=120,
+    row = next(
+        e
+        for e in ci_docx_matrix_payload["include"]
+        if e["dir"] == "books/the-case-that-does-not-fit"
     )
-    assert matrix.returncode == 0, matrix.stderr
-    payload = json.loads(matrix.stdout)
-    row = next(e for e in payload["include"] if e["dir"] == "books/the-case-that-does-not-fit")
     assert row["has_docx"] == "true"
     assert row["has_epub"] == "true"
     assert row["has_pdf"] == "true"
 
 
-def test_what_we_cannot_see_docx_enabled_in_ci_matrix(repo_root: Path) -> None:
+def test_what_we_cannot_see_docx_enabled_in_ci_matrix(
+    repo_root: Path, ci_export_rels: set[str]
+) -> None:
     spec_path = resolve_spec_path(repo_root / "books" / "what-we-cannot-see")
     assert spec_path is not None
     spec = load_book_spec(spec_path)
     assert spec_formats(spec) == ["docx", "epub", "pdf"]
     assert spec_in_latest_release(spec) is True
-
-    rels = {p.relative_to(repo_root).as_posix() for p in ci_export_books(repo_root)}
-    assert "books/what-we-cannot-see" in rels
+    assert "books/what-we-cannot-see" in ci_export_rels
 
 
-def test_everyone_knows_love_not_in_upcoming_release_stems(repo_root: Path) -> None:
-    assert "everyone-knows-love" not in upcoming_export_stems(repo_root)
+def test_everyone_knows_love_not_in_upcoming_release_stems(upcoming_stems: set[str]) -> None:
+    assert "everyone-knows-love" not in upcoming_stems
 
 
 def test_published_manifest_has_release_urls(repo_root: Path, tmp_path: Path) -> None:
@@ -177,7 +183,9 @@ def test_published_manifest_has_release_urls(repo_root: Path, tmp_path: Path) ->
     assert row["docx"]["url"] is not None
 
 
-def test_merge_release_assets_excludes_upcoming_stems(tmp_path: Path, repo_root: Path) -> None:
+def test_merge_release_assets_excludes_upcoming_stems(
+    tmp_path: Path, repo_root: Path, upcoming_stems: set[str]
+) -> None:
     """Upcoming export stems stay off latest even when built on main."""
     prior = tmp_path / "prior"
     built = tmp_path / "built"
@@ -185,9 +193,8 @@ def test_merge_release_assets_excludes_upcoming_stems(tmp_path: Path, repo_root:
     prior.mkdir()
     built.mkdir()
     (prior / "after-certainty.docx").write_text("published", encoding="utf-8")
-    stems = upcoming_export_stems(repo_root)
-    if stems:
-        sample = sorted(stems)[0]
+    if upcoming_stems:
+        sample = sorted(upcoming_stems)[0]
         (prior / f"{sample}.docx").write_text("stale upcoming", encoding="utf-8")
         (built / f"{sample}.epub").write_text("new upcoming", encoding="utf-8")
     (built / "everyone-knows-love.pdf").write_text("published new", encoding="utf-8")
@@ -212,6 +219,6 @@ def test_merge_release_assets_excludes_upcoming_stems(tmp_path: Path, repo_root:
     assert merge.returncode == 0, merge.stderr
     names = {p.name for p in out.iterdir()}
     assert "everyone-knows-love.pdf" in names
-    for stem in stems:
+    for stem in upcoming_stems:
         assert f"{stem}.docx" not in names
         assert f"{stem}.epub" not in names

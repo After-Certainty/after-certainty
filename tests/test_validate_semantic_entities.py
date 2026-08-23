@@ -57,21 +57,21 @@ def test_validate_unknown_concept_ref_fails(tmp_path: Path, repo_root: Path) -> 
     )
 
 
-def test_validate_semantic_entities_cli(repo_root: Path) -> None:
+def test_validate_semantic_entities_cli_help(repo_root: Path) -> None:
+    """CLI wiring smoke test — full-repo validation is covered by test_validate_real_repo_passes."""
     r = subprocess.run(
         [
             sys.executable,
             str(repo_root / "tools" / "validate_semantic_entities.py"),
-            "--repo",
-            str(repo_root),
-            "--strict-refs",
-            "--skip-manifest-round-trip",
+            "--help",
         ],
         capture_output=True,
         text=True,
-        timeout=120,
+        timeout=30,
     )
     assert r.returncode == 0, r.stderr
+    assert "--skip-manifest-round-trip" in r.stdout
+    assert "--strict-refs" in r.stdout
 
 
 def test_validate_creator_slug_mismatch_warns(tmp_path: Path, repo_root: Path) -> None:
