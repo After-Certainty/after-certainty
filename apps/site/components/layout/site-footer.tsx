@@ -7,6 +7,7 @@ import { SiteIcon } from "@/components/icons/site-icon";
 import { GitHubSymbol } from "@/components/icons/social/GitHubSymbol";
 import { LinkedInSymbol } from "@/components/icons/social/LinkedInSymbol";
 import { MediumSymbol } from "@/components/icons/social/MediumSymbol";
+import { SubstackSymbol } from "@/components/icons/social/SubstackSymbol";
 import { YouTubeSymbol } from "@/components/icons/social/YouTubeSymbol";
 import { resolvePodcastRssUrl, resolveSiteSocialLinks, siteConfig } from "@/lib/site-config";
 import { Container } from "@/components/ui/container";
@@ -112,6 +113,21 @@ export async function SiteFooter() {
                 <GitHubSymbol className="h-5 w-5" />
               </TrackedLink>
               <TrackedLink
+                href={social.substack}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Kevin Steffensen on Substack"
+                className={socialIconClass}
+                analytics={outboundLinkAnalytics(
+                  social.substack,
+                  "Substack",
+                  "footer_social",
+                  "substack",
+                )}
+              >
+                <SubstackSymbol className="h-5 w-5" />
+              </TrackedLink>
+              <TrackedLink
                 href={social.medium}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -204,6 +220,21 @@ export async function SiteFooter() {
                 )}
               >
                 <GitHubSymbol className="h-5 w-5" />
+              </TrackedLink>
+              <TrackedLink
+                href={social.substack}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Kevin Steffensen on Substack"
+                className={socialIconClass}
+                analytics={outboundLinkAnalytics(
+                  social.substack,
+                  "Substack",
+                  "footer_social",
+                  "substack",
+                )}
+              >
+                <SubstackSymbol className="h-5 w-5" />
               </TrackedLink>
               <TrackedLink
                 href={social.medium}

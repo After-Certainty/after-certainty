@@ -11,7 +11,7 @@ Phosphor (`@phosphor-icons/react`) is the general-purpose icon library for Books
 - **Icon-only controls:** require `aria-label`, `min-h-11` touch targets, visible focus rings.
 - **Motion:** caret rotation uses `motion-reduce:transition-none`.
 - **Imports:** prefer `@phosphor-icons/react/ssr` through [`approved.ts`](./approved.ts) so RSC and client share one path.
-- **Brand / social:** keep custom SVGs under [`social/`](./social/) (GitHub, Medium, LinkedIn, YouTube).
+- **Brand / social:** keep custom SVGs under [`social/`](./social/) (GitHub, Substack, Medium, LinkedIn, YouTube).
 
 ## Shared modules
 

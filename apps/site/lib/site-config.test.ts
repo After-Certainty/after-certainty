@@ -155,6 +155,7 @@ describe("shouldLoadGoogleAnalytics", () => {
 describe("resolveSiteSocialLinks", () => {
   const keys = [
     "NEXT_PUBLIC_SOCIAL_GITHUB_URL",
+    "NEXT_PUBLIC_SOCIAL_SUBSTACK_URL",
     "NEXT_PUBLIC_SOCIAL_MEDIUM_URL",
     "NEXT_PUBLIC_SOCIAL_LINKEDIN_URL",
     "NEXT_PUBLIC_SOCIAL_YOUTUBE_URL",
@@ -176,6 +177,7 @@ describe("resolveSiteSocialLinks", () => {
     }
     const s = resolveSiteSocialLinks();
     expect(s.github).toBe("https://github.com/ksteffe/after-certainty");
+    expect(s.substack).toBe("https://ksteff801.substack.com/");
     expect(s.medium).toContain("medium.com");
     expect(s.linkedIn).toContain("linkedin.com");
     expect(s.youtube).toContain("youtube.com");

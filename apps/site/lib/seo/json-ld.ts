@@ -420,7 +420,9 @@ export function buildOrganizationJsonLd(): JsonLdNode {
 
 function resolveSiteSocialLinksForJsonLd(): string[] {
   const links = resolveSiteSocialLinks();
-  return [links.github, links.medium, links.linkedIn, links.youtube].filter(Boolean);
+  return [links.github, links.substack, links.medium, links.linkedIn, links.youtube].filter(
+    Boolean,
+  );
 }
 
 export function buildAboutPageJsonLd(): JsonLdNode[] {
