@@ -13,24 +13,25 @@ import { RelatedConceptsSection } from "@/components/explore/related-concepts-se
 import { RelatedChaptersSection } from "@/components/explore/related-chapters-section";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
-import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
+import { entityHasSemanticRelationships } from "@/lib/graph/presentation/relationshipTaxonomy";
 import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
+import { EXPLORE_ENTITY_DETAIL_SECTION_CLASS } from "@/lib/explore/entity-detail-layout";
 import {
   explorePatternAdjacentInIndexOrder,
   patternsSortedForExploreIndex,
 } from "@/lib/explore/explore-patterns-order";
 import { patternAtAGlance, patternDetailTeaser } from "@/lib/explore/pattern-at-a-glance";
 import { patternIndexEyebrow } from "@/lib/explore/pattern-preview";
-import { publicChaptersForPattern } from "@/lib/graph/chapter-associations";
+import { publicChaptersForPattern } from "@/lib/graph/query/chapter-associations";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getPatternBySlug } from "@/lib/graph/graphQueries";
-import { relatedContentForPattern } from "@/lib/graph/relatedContent";
+import { getPatternBySlug } from "@/lib/graph/query/graphQueries";
+import { relatedContentForPattern } from "@/lib/graph/query/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 import { buildPatternPageJsonLd, relatedConceptUrls } from "@/lib/seo/json-ld";
-import { buildPublicGroundingViewModel } from "@/lib/graph/grounding";
+import { buildPublicGroundingViewModel } from "@/lib/graph/query/grounding";
 import { SemanticGroundingDisclosure } from "@/components/explore/semantic-grounding-disclosure";
 import { ExploreEnrichmentSections, hasSemanticEnrichment } from "@/components/explore/explore-enrichment-sections";
 import { PatternLanguageContext } from "@/components/explore/pattern-language-context";
@@ -86,7 +87,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           relatedConceptUrls: relatedConceptUrls(index, pattern.relatedConcepts),
         })}
       />
-      <Section atmosphere="none" className="pt-6 md:pt-14 !pb-6 md:!pb-12">
+      <Section atmosphere="none" className={EXPLORE_ENTITY_DETAIL_SECTION_CLASS}>
         <BreadcrumbTrail items={patternBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">
           {patternIndexEyebrow(pattern)}

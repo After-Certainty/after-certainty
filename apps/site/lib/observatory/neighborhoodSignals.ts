@@ -1,11 +1,11 @@
 import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
-import { computeGraphInsights, type InsightEdge } from "@/lib/graph/graphInsights";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { computeGraphInsights, type InsightEdge } from "@/lib/graph/query/graphInsights";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
 import {
   isSymmetricRelationship,
   STRUCTURAL_TENSION_PREDICATE,
-} from "@/lib/graph/relationshipTaxonomy";
-import { normalizePredicateKey } from "@/lib/graph/relationshipVisuals";
+} from "@/lib/graph/presentation/relationshipTaxonomy";
+import { normalizePredicateKey } from "@/lib/graph/presentation/relationshipVisuals";
 import type { Relationship } from "@/types/semanticGraph";
 
 export type ConnectivityBand = "isolated" | "thread" | "woven";

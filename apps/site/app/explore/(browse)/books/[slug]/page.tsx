@@ -24,10 +24,10 @@ import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { firstPublicChapterHref, publicChaptersForEdition } from "@/lib/graph/chapters";
 import { exploreBooksShelfHref, explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/graphQueries";
-import { relatedContentForBook } from "@/lib/graph/relatedContent";
-import { resolveThinkersForBook } from "@/lib/graph/bookThinkers";
-import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
+import { getBookBySlug as getGraphBookBySlug } from "@/lib/graph/query/graphQueries";
+import { relatedContentForBook } from "@/lib/graph/query/relatedContent";
+import { resolveThinkersForBook } from "@/lib/graph/query/bookThinkers";
+import { entityHasSemanticRelationships } from "@/lib/graph/presentation/relationshipTaxonomy";
 import {
   buildContinueReadingCatalog,
   continueReadingCatalogForEdition,

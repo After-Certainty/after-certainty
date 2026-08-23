@@ -1,0 +1,45 @@
+import { explorePaths } from "@/lib/graph/explorePaths";
+import { getThinkerBySlug } from "@/lib/graph/query/graphQueries";
+import { formatRelationshipLabelForDisplay } from "@/lib/graph/presentation/relationshipVisuals";
+import type { SemanticGraph, Source, Thinker } from "@/types/semanticGraph";
+
+/** Strip Chicago-style ``*italic*`` markers (mirrors tools/source_metadata.strip_markdown_italics). */
+export function stripMarkdownItalics(text: string): string {
+  return text.replace(/\*([^*]+)\*/g, "$1").trim();
+}
+
+export function sourceDisplayTitle(source: Source): string {
+  const raw = source.title?.trim() || source.name;
+  return stripMarkdownItalics(raw);
+}
+
+export function sourceDisplayLabel(source: Source): string {
+  const raw = source.sourceKind?.trim() || source.type;
+  return formatRelationshipLabelForDisplay(raw);
+}
+
+export function sourceDisplayBody(source: Source): string | undefined {
+  const raw = source.citation?.trim() || source.summary?.trim() || undefined;
+  return raw ? stripMarkdownItalics(raw) : undefined;
+}
+
+export function sourceCreatorThinkerLinks(graph: SemanticGraph, source: Source): Thinker[] {
+  const slugs = source.creatorSlugs ?? [];
+  const thinkers: Thinker[] = [];
+  const seen = new Set<string>();
+
+  for (const slug of slugs) {
+    const trimmed = slug.trim();
+    if (!trimmed || seen.has(trimmed)) continue;
+    const thinker = getThinkerBySlug(graph, trimmed);
+    if (!thinker) continue;
+    seen.add(trimmed);
+    thinkers.push(thinker);
+  }
+
+  return thinkers;
+}
+
+export function thinkerHref(slug: string): string {
+  return `${explorePaths.thinkers}/${slug}`;
+}

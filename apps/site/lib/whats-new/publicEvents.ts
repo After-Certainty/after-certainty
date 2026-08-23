@@ -1,5 +1,5 @@
 import { changeEventsToWhatsNewEvents } from "@/lib/graph/discovery";
-import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/manifest/installed-sync";
 import { buildPodcastWhatsNewCandidates } from "@/lib/whats-new/candidates";
 import { getSiteWhatsNewManifest } from "@/lib/whats-new/loadWhatsNew";
 import type { WhatsNewEvent } from "@/lib/whats-new/schema";

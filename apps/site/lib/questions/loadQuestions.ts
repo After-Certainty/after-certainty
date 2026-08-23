@@ -1,6 +1,6 @@
 import pathSearchBridgesJson from "@/data/path-search-bridges.json";
 import { questionsFromGraph } from "@/lib/graph/discovery";
-import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/manifest/installed-sync";
 import type { ParsedQuestionsManifest } from "@/lib/questions/schema";
 import type { QuestionDefinition, QuestionSearchBridge } from "@/types/questions";
 import type { SemanticGraph } from "@/types/semanticGraph";

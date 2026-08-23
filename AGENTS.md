@@ -28,8 +28,10 @@ runtime context.
   after startup (and again after editing `books/` or `semantic/`):
   `make generate-semantic-manifest && make install-local-manifest-for-site`. Then start
   the dev server with `npm run site:dev:local` (sets `SEMANTIC_MANIFEST_USE_LOCAL=1` +
-  `SEMANTIC_MANIFEST_OFFLINE=1`) — plain `npm run site:dev` tries to fetch a remote
-  manifest. Server serves on `http://localhost:3000`.
+  `SEMANTIC_MANIFEST_OFFLINE=1`) — or run `npm run site:dev:watch` to auto-regenerate
+  the manifest on corpus changes. Plain `npm run site:dev` also requires the installed
+  local manifest (generate + install first); runtime remote fetch was removed. Server
+  serves on `http://localhost:3000`.
 - **Reader URLs.** `/books` 308-redirects to `/explore/books`. The chapter reader lives
   at `/explore/books/<book-slug>/chapters/<chapter-slug>` (the `(reader)` route group
   does not appear in the URL).

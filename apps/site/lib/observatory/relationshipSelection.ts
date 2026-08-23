@@ -1,6 +1,6 @@
 import type { GraphIndex } from "@/lib/graph/graph";
-import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
+import { vizEdgeDedupKey } from "@/lib/graph/presentation/graphVizModel";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
 import type { Relationship } from "@/types/semanticGraph";
 import type { RelationshipSelection } from "@/lib/observatory/types";
 

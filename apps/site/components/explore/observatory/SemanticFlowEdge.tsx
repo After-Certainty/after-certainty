@@ -5,7 +5,7 @@ import { BaseEdge, getBezierPath, type EdgeProps } from "@xyflow/react";
 
 import { RelationshipEdgeLabel } from "@/components/explore/observatory/graph/RelationshipEdgeLabel";
 import type { EdgeSemanticTier } from "@/lib/observatory/types";
-import { styleForRelationshipPredicate } from "@/lib/graph/relationshipVisuals";
+import { styleForRelationshipPredicate } from "@/lib/graph/presentation/relationshipVisuals";
 
 export type SemanticFlowEdgeData = {
   edgeKey: string;

@@ -8,24 +8,25 @@ import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { RelatedBooksSection } from "@/components/explore/related-books-section";
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
-import { entityHasSemanticRelationships } from "@/lib/graph/relationshipTaxonomy";
+import { entityHasSemanticRelationships } from "@/lib/graph/presentation/relationshipTaxonomy";
 import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
+import { EXPLORE_ENTITY_DETAIL_SECTION_CLASS } from "@/lib/explore/entity-detail-layout";
 import {
   exploreSourceAdjacentInIndexOrder,
   sourcesSortedForExploreIndex,
 } from "@/lib/explore/explore-sources-order";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getSourceBySlug } from "@/lib/graph/graphQueries";
-import { relatedContentForSource } from "@/lib/graph/relatedContent";
+import { getSourceBySlug } from "@/lib/graph/query/graphQueries";
+import { relatedContentForSource } from "@/lib/graph/query/relatedContent";
 import {
   sourceCreatorThinkerLinks,
   sourceDisplayBody,
   sourceDisplayLabel,
   sourceDisplayTitle,
   thinkerHref,
-} from "@/lib/graph/sourceDisplay";
+} from "@/lib/graph/presentation/sourceDisplay";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 import { buildSourcePageJsonLd } from "@/lib/seo/json-ld";
@@ -92,7 +93,7 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
           breadcrumbs: sourceBreadcrumbs,
         })}
       />
-      <Section atmosphere="none" className="pt-6 md:pt-14 !pb-6 md:!pb-12">
+      <Section atmosphere="none" className={EXPLORE_ENTITY_DETAIL_SECTION_CLASS}>
         <BreadcrumbTrail items={sourceBreadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">{displayLabel}</p>
         <h1 className="mt-3 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:mt-4 md:text-5xl">

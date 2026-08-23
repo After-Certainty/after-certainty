@@ -1,0 +1,672 @@
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+
+import { getSemanticBookActionLinkItems } from "@/lib/books/semantic-book-action-links";
+import {
+  dedupeSemanticGraphBooks,
+  fetchSemanticGraphUncached,
+  fetchSemanticGraphLoadResultUncached,
+  isCompatibleSchemaVersion,
+  isInstalledManifestStale,
+  validateSemanticGraph,
+} from "@/lib/graph/manifest";
+import { tryLoadLocalSemanticManifest } from "@/test/helpers/load-local-manifest";
+import type { Book } from "@/types/semanticGraph";
+
+const localGraph = tryLoadLocalSemanticManifest();
+
+describe("validateSemanticGraph", () => {
+  it.skipIf(!localGraph)(
+    "accepts schemaVersion 2.5 enrichment from the installed local manifest",
+    () => {
+      const result = validateSemanticGraph(localGraph!);
+      expect(result.success).toBe(true);
+      if (!result.success) return;
+      expect(result.data.schemaVersion).toBe("2.5");
+      expect(result.data.sourceCommit).toBeTruthy();
+      expect(result.data.works?.length).toBeGreaterThan(0);
+      expect(result.data.editions?.length).toBeGreaterThan(0);
+      expect(result.data.questions?.length).toBeGreaterThan(0);
+      expect(result.data.trails?.length).toBeGreaterThan(0);
+      expect(result.data.challenges?.length).toBeGreaterThan(0);
+      expect(result.data.shelves?.length).toBeGreaterThan(0);
+      expect(result.data.changeEvents?.length).toBeGreaterThan(0);
+      expect(result.data.searchAliases?.length).toBeGreaterThan(0);
+      expect(result.data.parts?.length).toBeGreaterThan(0);
+      expect(result.data.chapters?.length).toBeGreaterThan(0);
+      const sampleChapter = result.data.chapters?.[0];
+      expect(sampleChapter?.routeKey).toMatch(/^\/explore\/books\//);
+      expect(sampleChapter?.editionId).toBeTruthy();
+      const withOverview = result.data.books.filter((b) => b.overview);
+      expect(withOverview.length).toBeGreaterThan(0);
+      expect(result.data.books.some((b) => b.contentType === "fiction")).toBe(true);
+      expect(result.data.books.some((b) => b.contentType === "poetry")).toBe(true);
+      const boundary = result.data.books.find((b) => b.slug === "boundary-conditions");
+      expect(boundary?.contentType).toBe("fiction");
+      expect(boundary?.literaryForm).toBe("novel");
+      const observer = result.data.books.find((b) => b.slug === "observer-patterns");
+      expect(observer?.contentType).toBe("poetry");
+      expect(observer?.literaryForm).toBe("poetry_collection");
+      const afterCertainty = result.data.books.find((b) => b.slug === "after-certainty");
+      expect(afterCertainty?.overview?.selectedConceptRoles?.length).toBeGreaterThan(0);
+      expect(afterCertainty?.overview?.selectedPatternRoles?.length).toBeGreaterThan(0);
+      expect(result.data.patterns.some((p) => p.grounding?.type === "original_synthesis")).toBe(
+        true,
+      );
+      expect(result.data.chapters?.some((c) => c.kind === "poem")).toBe(true);
+      expect(result.data.chapters?.some((c) => Boolean(c.summary))).toBe(true);
+    },
+  );
+
+  it("accepts minimal valid graph", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.books).toEqual([]);
+    }
+  });
+
+  it.skipIf(!localGraph)(
+    "accepts pattern and book media fields from the installed local manifest",
+    () => {
+      const result = validateSemanticGraph(localGraph!);
+      expect(result.success).toBe(true);
+      if (!result.success) return;
+      const afterCertainty = result.data.books.find((b) => b.slug === "after-certainty");
+      expect(afterCertainty?.openGraphImage).toMatch(
+        /after-certainty\/open-graph\.png|\/generated\/open-graph\/after-certainty\.png/,
+      );
+      const wolty = result.data.books.find((b) => b.slug === "when-others-look-to-you-v1");
+      expect(wolty?.media?.intro?.youtubeVideoId).toBeTruthy();
+      expect(wolty?.purchaseLinks?.[0]?.retailer).toBe("amazon");
+      expect(wolty?.epub?.url).toContain("when-others-look-to-you-v1.epub");
+      const attention = result.data.patterns.find((p) => p.slug === "attention-finds-a-focus");
+      expect(attention?.youtubeVideoId).toBeTruthy();
+      expect(attention?.infographic?.url).toContain("raw.githubusercontent.com");
+    },
+  );
+
+  it("accepts pattern narrative fields for structured JSON-LD", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [
+        {
+          id: "pattern-gaps",
+          slug: "gaps-invite-completion",
+          title: "Gaps Invite Completion",
+          summary: "People fill ambiguity with their own meaning.",
+          setup: "An exchange contains ambiguity or missing context.",
+          problem: "Open meaning is hard to sustain without active facilitation.",
+          forces: ["Cognitive efficiency drives quick closure", "Social norms favor certainty"],
+          observation: "Teams tend to rush toward consensus.",
+          example: "A manager sends a terse email; team members interpret urgency.",
+          relatedConcepts: [],
+          relatedBooks: [],
+        },
+      ],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const pattern = result.data.patterns[0];
+      expect(pattern?.setup).toBe("An exchange contains ambiguity or missing context.");
+      expect(pattern?.problem).toBe("Open meaning is hard to sustain without active facilitation.");
+      expect(pattern?.forces).toEqual([
+        "Cognitive efficiency drives quick closure",
+        "Social norms favor certainty",
+      ]);
+      expect(pattern?.observation).toBe("Teams tend to rush toward consensus.");
+      expect(pattern?.example).toBe(
+        "A manager sends a terse email; team members interpret urgency.",
+      );
+    }
+  });
+
+  it("accepts patterns without narrative fields for backward compatibility", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [
+        {
+          id: "pattern-simple",
+          slug: "simple-pattern",
+          title: "Simple Pattern",
+          summary: "A pattern without narrative fields.",
+          relatedConcepts: [],
+          relatedBooks: [],
+        },
+      ],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const pattern = result.data.patterns[0];
+      expect(pattern?.setup).toBeUndefined();
+      expect(pattern?.problem).toBeUndefined();
+      expect(pattern?.forces).toBeUndefined();
+      expect(pattern?.observation).toBeUndefined();
+      expect(pattern?.example).toBeUndefined();
+    }
+  });
+
+  it("accepts enrichment fields and ontology block", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [
+        {
+          id: "concept-bureaucracy",
+          slug: "bureaucracy",
+          title: "Bureaucracy",
+          shortDefinition: "s",
+          recognitionSignals: ["signal one"],
+          questions: ["question one"],
+          counterbalances: ["balance one"],
+          trajectory: { earlySignals: ["early"] },
+          manifestations: { family: ["example"] },
+        },
+      ],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+      ontology: {
+        masterTerms: [
+          {
+            id: "concept-circulation",
+            slug: "circulation",
+            title: "Circulation",
+            preserves: "continuity",
+          },
+        ],
+        structuralPressures: [
+          { id: "concept-scale", slug: "scale", title: "Scale", effect: "weakens proximity" },
+        ],
+      },
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.glossary[0]?.recognitionSignals?.[0]).toBe("signal one");
+      expect(result.data.ontology?.masterTerms).toHaveLength(1);
+    }
+  });
+
+  it("retains typed situations with activePatterns and enrichment", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [],
+      situations: [
+        {
+          id: "situation-temporary-fixes-become-permanent",
+          slug: "temporary-fixes-become-permanent",
+          title: "Temporary fixes becoming permanent",
+          summary: "Emergency workarounds become the normal way work gets done.",
+          activePatterns: ["pattern-exceptions-are-forever"],
+          relatedConcepts: ["concept-correction"],
+          relatedBooks: ["book-coupling"],
+          recognitionSignals: ["workarounds outlive the crisis"],
+        },
+      ],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.situations).toHaveLength(1);
+      expect(result.data.situations?.[0]?.activePatterns).toEqual([
+        "pattern-exceptions-are-forever",
+      ]);
+      expect(result.data.situations?.[0]?.recognitionSignals?.[0]).toBe(
+        "workarounds outlive the crisis",
+      );
+    }
+  });
+
+  it("accepts glossary longDefinition for concept detail pages", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [
+        {
+          id: "concept-accountability",
+          slug: "accountability",
+          title: "Accountability",
+          shortDefinition: "Short accountability definition.",
+          longDefinition: "Long accountability definition with fuller context.",
+          definition: "Legacy definition field.",
+        },
+      ],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.glossary[0]?.longDefinition).toBe(
+        "Long accountability definition with fuller context.",
+      );
+    }
+  });
+
+  it("accepts glossary layer, semanticTone, and relationship weight", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [
+        {
+          id: "c1",
+          slug: "c",
+          title: "C",
+          shortDefinition: "s",
+          layer: "Primitives",
+          semanticTone: "pressure",
+          relatedConcepts: [],
+          relatedPatterns: [],
+          relatedBooks: [],
+        },
+      ],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [{ source: "c1", target: "c1", relationship: "rel", weight: 2.5 }],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.glossary[0]?.layer).toBe("Primitives");
+      expect(result.data.glossary[0]?.semanticTone).toBe("pressure");
+      expect(result.data.relationships[0]?.weight).toBe(2.5);
+    }
+  });
+
+  it("accepts legacy sources without v1.5 enrichment fields", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [
+        {
+          id: "source-legacy",
+          slug: "legacy-source",
+          name: "Author — Title",
+          type: "book",
+          summary: "Citation line.",
+          concepts: [],
+          patterns: [],
+          relatedBooks: [],
+        },
+      ],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const source = result.data.sources[0];
+      expect(source?.name).toBe("Author — Title");
+      expect(source?.sourceKind).toBeUndefined();
+      expect(source?.creatorSlugs).toBeUndefined();
+    }
+  });
+
+  it("accepts sources with full v1.5 enrichment fields", () => {
+    const result = validateSemanticGraph({
+      books: [],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [
+        {
+          id: "source-arendt-hannah-between-past-and-future",
+          slug: "arendt-hannah-between-past-and-future",
+          name: "Hannah Arendt — Between Past and Future",
+          type: "book",
+          sourceKind: "book",
+          creatorNames: ["Hannah Arendt"],
+          creatorSlugs: ["hannah-arendt"],
+          title: "Between Past and Future",
+          citation: "Arendt, Hannah. *Between Past and Future*. New York: Penguin Books, 2006.",
+          year: 2006,
+          publisher: "Penguin Books",
+          summary: "Arendt, Hannah. *Between Past and Future*. New York: Penguin Books, 2006.",
+          whyThisMatters: "Arendt helps distinguish authority from force.",
+          url: "https://example.com/arendt",
+          concepts: ["concept-authority"],
+          patterns: [],
+          relatedBooks: ["book-living-in-sediment"],
+        },
+      ],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const source = result.data.sources[0];
+      expect(source?.sourceKind).toBe("book");
+      expect(source?.creatorSlugs).toEqual(["hannah-arendt"]);
+      expect(source?.title).toBe("Between Past and Future");
+      expect(source?.citation).toContain("Between Past and Future");
+      expect(source?.year).toBe(2006);
+      expect(source?.whyThisMatters).toContain("authority");
+    }
+  });
+
+  it("accepts manifest version 1 without thinkers key", () => {
+    const result = validateSemanticGraph({
+      manifestVersion: 1,
+      books: [],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.manifestVersion).toBe(1);
+      expect(result.data.thinkers).toBeUndefined();
+    }
+  });
+
+  it("accepts manifest version 2 with top-level thinkers array", () => {
+    const result = validateSemanticGraph({
+      manifestVersion: 2,
+      books: [],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+      thinkers: [
+        {
+          id: "thinker-hannah-arendt",
+          slug: "hannah-arendt",
+          name: "Hannah Arendt",
+          type: "person",
+          summary: "Political theorist.",
+          works: ["source-arendt-between-past-and-future"],
+          concepts: ["concept-authority"],
+          patterns: [],
+          relatedBooks: ["book-after-certainty"],
+          whyThisMatters: "Arendt on authority and judgment.",
+        },
+      ],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.manifestVersion).toBe(2);
+      expect(result.data.thinkers).toHaveLength(1);
+      expect(result.data.thinkers?.[0]?.slug).toBe("hannah-arendt");
+      expect(result.data.thinkers?.[0]?.works).toEqual(["source-arendt-between-past-and-future"]);
+    }
+  });
+
+  it("accepts empty thinkers array for v2 manifests", () => {
+    const result = validateSemanticGraph({
+      manifestVersion: 2,
+      books: [],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+      thinkers: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.thinkers).toEqual([]);
+    }
+  });
+
+  it("rejects invalid entity field types", () => {
+    const result = validateSemanticGraph({
+      books: [{ id: "b1", slug: "b", title: 123 }],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(false);
+  });
+
+  it("accepts null book coverImage and openGraphImage from the release manifest", () => {
+    const result = validateSemanticGraph({
+      books: [
+        {
+          id: "book-example",
+          slug: "example",
+          title: "Example",
+          coverImage: null,
+          openGraphImage: null,
+          concepts: [],
+          patterns: [],
+          sources: [],
+        },
+      ],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.books[0]?.coverImage).toBeUndefined();
+      expect(result.data.books[0]?.openGraphImage).toBeUndefined();
+    }
+  });
+
+  it("accepts first-party installed openGraphImage paths", () => {
+    const result = validateSemanticGraph({
+      books: [
+        {
+          id: "book-example",
+          slug: "example",
+          title: "Example",
+          openGraphImage: "/generated/open-graph/example.png",
+          concepts: [],
+          patterns: [],
+          sources: [],
+        },
+      ],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      expect(result.data.books[0]?.openGraphImage).toBe("/generated/open-graph/example.png");
+    }
+  });
+
+  it("accepts null subtitle and PDF-only exports (poetry books)", () => {
+    const pdfUrl =
+      "https://github.com/ksteffe/after-certainty/releases/download/latest/observer-patterns.pdf";
+    const result = validateSemanticGraph({
+      books: [
+        {
+          id: "book-observer-patterns",
+          slug: "observer-patterns",
+          title: "Observer Patterns",
+          subtitle: null,
+          summary: "A book of patterns.",
+          contentType: "poetry",
+          concepts: [],
+          patterns: [],
+          sources: [],
+          docx: { enabled: false, file: "observer-patterns.docx", url: null },
+          epub: { enabled: false, file: "observer-patterns.epub", url: null },
+          pdf: { enabled: true, file: "observer-patterns.pdf", url: pdfUrl },
+        },
+      ],
+      works: [
+        {
+          id: "work-observer-patterns",
+          slug: "observer-patterns",
+          title: "Observer Patterns",
+          currentEditionId: "book-observer-patterns",
+          contentType: "poetry",
+          editionIds: ["book-observer-patterns"],
+        },
+      ],
+      glossary: [],
+      patterns: [],
+      situations: [],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(true);
+    if (result.success) {
+      const book = result.data.books[0];
+      expect(book?.contentType).toBe("poetry");
+      expect(result.data.works?.[0]?.contentType).toBe("poetry");
+      expect(book?.subtitle).toBeUndefined();
+      expect(book?.pdf?.url).toBe(pdfUrl);
+      expect(book?.epub?.enabled).toBe(false);
+      expect(book?.docx?.enabled).toBe(false);
+      expect(getSemanticBookActionLinkItems(book!)).toEqual([
+        { label: "Download PDF", href: pdfUrl, kind: "download" },
+      ]);
+    }
+  });
+
+  it("rejects javascript: URLs in purchase and media fields", () => {
+    const result = validateSemanticGraph({
+      books: [
+        {
+          id: "book-x",
+          slug: "x",
+          title: "X",
+          concepts: [],
+          patterns: [],
+          sources: [],
+          purchaseLinks: [{ retailer: "other", url: "javascript:alert(1)" }],
+        },
+      ],
+      glossary: [],
+      patterns: [
+        {
+          id: "pattern-x",
+          slug: "x",
+          title: "X",
+          summary: "s",
+          relatedConcepts: [],
+          relatedBooks: [],
+          mediumArticleUrl: "javascript:alert(1)",
+          youtubeVideoId: "not-valid",
+        },
+      ],
+      sources: [],
+      relationships: [],
+    });
+    expect(result.success).toBe(false);
+  });
+});
+
+describe("dedupeSemanticGraphBooks", () => {
+  it("keeps the row with export URLs when duplicate slugs share an id", () => {
+    const published: Book = {
+      id: "book-after-certainty",
+      slug: "after-certainty",
+      title: "After Certainty",
+      docx: { enabled: true, file: "a.docx", url: "https://example.com/a.docx" },
+    };
+    const upcoming: Book = {
+      id: "book-after-certainty",
+      slug: "after-certainty",
+      title: "After Certainty",
+      summary: "Upcoming stub",
+      docx: { enabled: false, file: "a.docx", url: null },
+    };
+    const out = dedupeSemanticGraphBooks([upcoming, published]);
+    expect(out).toHaveLength(1);
+    expect(out[0].docx?.url).toBe(published.docx?.url);
+  });
+});
+
+describe("schema and staleness helpers", () => {
+  it("accepts schema major 2 and rejects major 3", () => {
+    expect(isCompatibleSchemaVersion(undefined)).toBe(true);
+    expect(isCompatibleSchemaVersion("2.2")).toBe(true);
+    expect(isCompatibleSchemaVersion("3.0")).toBe(false);
+  });
+
+  it("marks missing generatedAt as stale and computes age", () => {
+    expect(isInstalledManifestStale(undefined).stale).toBe(true);
+    const fresh = isInstalledManifestStale(new Date().toISOString(), { thresholdDays: 30 });
+    expect(fresh.stale).toBe(false);
+    const old = isInstalledManifestStale("2020-01-01T00:00:00.000Z", {
+      nowMs: Date.parse("2026-07-23T00:00:00.000Z"),
+      thresholdDays: 30,
+    });
+    expect(old.stale).toBe(true);
+    expect(old.ageDays).toBeGreaterThan(30);
+  });
+});
+
+describe.skipIf(!localGraph)("fetchSemanticGraphUncached (installed local)", () => {
+  let prevOffline: string | undefined;
+  let prevUseLocal: string | undefined;
+  let fetchSpy: ReturnType<typeof vi.spyOn>;
+
+  beforeEach(() => {
+    prevOffline = process.env.SEMANTIC_MANIFEST_OFFLINE;
+    prevUseLocal = process.env.SEMANTIC_MANIFEST_USE_LOCAL;
+    delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
+    fetchSpy = vi.spyOn(globalThis, "fetch");
+  });
+
+  afterEach(() => {
+    if (prevOffline === undefined) delete process.env.SEMANTIC_MANIFEST_OFFLINE;
+    else process.env.SEMANTIC_MANIFEST_OFFLINE = prevOffline;
+    if (prevUseLocal === undefined) delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
+    else process.env.SEMANTIC_MANIFEST_USE_LOCAL = prevUseLocal;
+    fetchSpy.mockRestore();
+  });
+
+  it("returns installed local graph when offline", async () => {
+    process.env.SEMANTIC_MANIFEST_OFFLINE = "1";
+    const graph = await fetchSemanticGraphUncached();
+    expect(fetchSpy).not.toHaveBeenCalled();
+    expect(graph.glossary).toEqual(localGraph!.glossary);
+  });
+
+  it("disables remote fetch when USE_LOCAL=1 even if OFFLINE unset", async () => {
+    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
+    process.env.SEMANTIC_MANIFEST_USE_LOCAL = "1";
+    const result = await fetchSemanticGraphLoadResultUncached();
+    expect(fetchSpy).not.toHaveBeenCalled();
+    expect(result.source.kind).toBe("installed");
+    expect(result.diagnostics.some((d) => /USE_LOCAL/.test(d.message))).toBe(true);
+  });
+
+  it("does not fetch remotely when online flags are unset", async () => {
+    delete process.env.SEMANTIC_MANIFEST_OFFLINE;
+    delete process.env.SEMANTIC_MANIFEST_USE_LOCAL;
+
+    const result = await fetchSemanticGraphLoadResultUncached();
+
+    expect(fetchSpy).not.toHaveBeenCalled();
+    expect(result.source.kind).toBe("installed");
+    expect(result.source.cacheIdentity).toContain("local:checkout");
+    expect(result.graph.books.length).toBeGreaterThan(0);
+  });
+
+  it("records offline provenance on the load result", async () => {
+    process.env.SEMANTIC_MANIFEST_OFFLINE = "1";
+    const result = await fetchSemanticGraphLoadResultUncached();
+    expect(result.source.kind).toBe("installed");
+    if (result.source.kind === "installed") {
+      expect(result.source.reason).toBe("installed");
+      expect(typeof result.source.stale).toBe("boolean");
+    }
+  });
+});

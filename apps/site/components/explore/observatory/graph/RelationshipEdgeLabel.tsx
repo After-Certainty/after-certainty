@@ -4,7 +4,7 @@ import { memo, useLayoutEffect, useRef } from "react";
 import { useTheme } from "next-themes";
 import { EdgeLabelRenderer, getBezierPath, type Position } from "@xyflow/react";
 
-import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
+import { formatRelationshipLabelForDisplay } from "@/lib/graph/presentation/relationshipVisuals";
 
 /** Same opaque surfaces as {@link SemanticFlowNode}. */
 const LABEL_SURFACE_DARK = "#070708";

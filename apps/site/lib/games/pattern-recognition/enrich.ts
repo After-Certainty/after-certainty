@@ -1,4 +1,4 @@
-import { getPodcastEpisodes } from "@/lib/content-data";
+import { getPodcastEpisodesFromRss } from "@/lib/podcast/rss";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { buildGraphIndex } from "@/lib/graph/graph";
 import {
@@ -59,7 +59,7 @@ function enrichChallenge(
 export async function getEnrichedPublishedChallenges(): Promise<EnrichedChallenge[]> {
   const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
-    getPodcastEpisodes(),
+    getPodcastEpisodesFromRss(),
   ]);
   const titles = patternTitleMap(graph.patterns);
   const index = buildGraphIndex(graph);
@@ -73,7 +73,7 @@ export async function getEnrichedChallengeBySlug(
 ): Promise<EnrichedChallenge | undefined> {
   const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
-    getPodcastEpisodes(),
+    getPodcastEpisodesFromRss(),
   ]);
   const challenge = getPublishedChallengeBySlug(slug, graph);
   if (!challenge) return undefined;

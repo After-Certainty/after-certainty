@@ -18,12 +18,12 @@ import {
   relatedContentForForce,
   relatedContentForSource,
   relatedContentForThinker,
-} from "@/lib/graph/relatedContent";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
-import { relationshipsForConcept } from "@/lib/graph/relationshipTaxonomy";
-import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
+} from "@/lib/graph/query/relatedContent";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
+import { relationshipsForConcept } from "@/lib/graph/presentation/relationshipTaxonomy";
+import { vizEdgeDedupKey } from "@/lib/graph/presentation/graphVizModel";
 import type { Relationship } from "@/types/semanticGraph";
-import { getConceptDisplayDefinition } from "@/lib/graph/conceptFormatting";
+import { getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
 import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 
 function labelForId(index: GraphIndex, id: string): string {

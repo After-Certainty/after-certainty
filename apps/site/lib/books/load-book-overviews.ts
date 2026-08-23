@@ -3,7 +3,7 @@ import {
   bookOverviewFromBook,
   bookOverviewPrioritySlugs,
 } from "@/lib/graph/discovery";
-import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/manifest/installed-sync";
 import type { BookOverview, BookOverviewsManifest } from "@/lib/books/book-overview-schema";
 import type { Book, SemanticGraph } from "@/types/semanticGraph";
 

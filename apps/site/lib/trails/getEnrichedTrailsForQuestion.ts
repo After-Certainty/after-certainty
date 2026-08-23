@@ -1,4 +1,4 @@
-import { getPodcastEpisodes } from "@/lib/content-data";
+import { getPodcastEpisodesFromRss } from "@/lib/podcast/rss";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { chaptersFromGraph } from "@/lib/graph/chapters";
 import { buildGraphIndex } from "@/lib/graph/graph";
@@ -14,7 +14,7 @@ export async function getEnrichedTrailsForQuestion(input: {
 }): Promise<EnrichedTrail[]> {
   const [{ graph }, podcastEpisodes] = await Promise.all([
     getExploreSemanticGraph(),
-    getPodcastEpisodes(),
+    getPodcastEpisodesFromRss(),
   ]);
   const index = buildGraphIndex(graph);
   const trails = findPublishedTrailsForQuestion({

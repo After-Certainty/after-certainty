@@ -266,7 +266,7 @@ jobs:
         run: npx turbo run lint test --filter=after-certainty-site --concurrency=2
 
       - name: Validate offline/local manifest
-        run: npm run site:validate:fallback
+        run: npm run site:validate:installed-manifest
 
       - name: Validate public corpus integrity
         run: npm run site:validate:public-corpus

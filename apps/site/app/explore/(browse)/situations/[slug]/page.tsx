@@ -9,10 +9,11 @@ import { RelatedBooksSection } from "@/components/explore/related-books-section"
 import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { LinkifiedText } from "@/components/ui/linkified-text";
 import { Section } from "@/components/ui/section";
+import { EXPLORE_ENTITY_DETAIL_SECTION_CLASS } from "@/lib/explore/entity-detail-layout";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getSituationBySlug } from "@/lib/graph/graphQueries";
-import { relatedContentForSituation } from "@/lib/graph/relatedContent";
+import { getSituationBySlug } from "@/lib/graph/query/graphQueries";
+import { relatedContentForSituation } from "@/lib/graph/query/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
 import { buildSituationPageJsonLd, relatedConceptUrls } from "@/lib/seo/json-ld";
@@ -90,7 +91,7 @@ export default async function ExploreSituationDetailPage({ params }: PageProps) 
           relatedConceptUrls: relatedConceptUrls(index, situation.relatedConcepts),
         })}
       />
-      <Section atmosphere="none" className="pt-6 md:pt-14 !pb-6 md:!pb-12">
+      <Section atmosphere="none" className={EXPLORE_ENTITY_DETAIL_SECTION_CLASS}>
         <BreadcrumbTrail items={breadcrumbs} />
         <p className="text-[11px] uppercase tracking-[0.28em] text-accent">Situation</p>
         <h1 className="mt-3 font-display text-4xl font-medium leading-[1.08] tracking-tight text-fg md:mt-4 md:text-5xl">

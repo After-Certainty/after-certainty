@@ -4,6 +4,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useMemo } from "react";
 
 import { BooksCatalogResults } from "@/components/books/books-catalog-results";
+import { FilterToggle } from "@/components/catalog/filter-toggle";
 import { CaretDownIcon, FunnelSimpleIcon, XIcon } from "@/components/icons/approved";
 import { SiteIcon } from "@/components/icons/site-icon";
 import { CONTENT_TYPE_LABELS, type ContentType } from "@/lib/books/catalog-taxonomy";
@@ -343,27 +344,6 @@ function FilterFieldsets({
         </div>
       </fieldset>
     </>
-  );
-}
-
-function FilterToggle({
-  pressed,
-  label,
-  onClick,
-}: {
-  pressed: boolean;
-  label: string;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      aria-pressed={pressed}
-      onClick={onClick}
-      className="min-h-11 rounded-sm border border-border/50 px-4 py-2 text-xs uppercase tracking-[0.14em] text-muted transition-colors hover:border-accent/40 hover:text-accent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent aria-pressed:border-accent/50 aria-pressed:text-accent"
-    >
-      {label}
-    </button>
   );
 }
 

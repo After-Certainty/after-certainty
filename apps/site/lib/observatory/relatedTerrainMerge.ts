@@ -8,7 +8,7 @@ import {
   relatedContentForSource,
   relatedContentForThinker,
   type RelatedContentBundle,
-} from "@/lib/graph/relatedContent";
+} from "@/lib/graph/query/relatedContent";
 
 function bundleForNode(index: GraphIndex, node: GraphNode): RelatedContentBundle {
   switch (node.kind) {

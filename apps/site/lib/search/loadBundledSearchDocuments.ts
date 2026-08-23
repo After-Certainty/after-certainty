@@ -1,5 +1,5 @@
 import podcastFallback from "@/data/podcast-episodes.json";
-import { loadInstalledSemanticGraphSync } from "@/lib/graph/installed-manifest";
+import { loadInstalledSemanticGraphSync } from "@/lib/graph/manifest/installed-sync";
 import { getSearchAliasConfigFromGraph } from "@/lib/search/aliases";
 import { buildSearchDocuments } from "@/lib/search/buildSearchDocuments";
 import type { SearchDocument } from "@/lib/search/types";

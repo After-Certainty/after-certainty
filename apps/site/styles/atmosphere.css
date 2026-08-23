@@ -331,6 +331,59 @@ html.light .explore-page__media img {
   filter: brightness(1.06) saturate(0.94);
 }
 
+/* Hero scrims — shared CSS hooks (gradient values unchanged per page). */
+.hero-scrim--home {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 28%,
+    color-mix(in srgb, var(--bg) 40%, transparent) 58%,
+    color-mix(in srgb, var(--bg) 86%, transparent) 100%
+  );
+}
+
+@media (min-width: 768px) {
+  .hero-scrim--home {
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      transparent 42%,
+      color-mix(in srgb, var(--bg) 45%, transparent) 68%,
+      color-mix(in srgb, var(--bg) 82%, transparent) 100%
+    );
+  }
+}
+
+.hero-scrim--explore {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 40%,
+    color-mix(in srgb, var(--bg) 44%, transparent) 68%,
+    color-mix(in srgb, var(--bg) 76%, transparent) 100%
+  );
+}
+
+.hero-scrim--about {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 44%,
+    color-mix(in srgb, var(--bg) 50%, transparent) 74%,
+    var(--bg) 100%
+  );
+}
+
+.hero-scrim--collaborators {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 42%,
+    color-mix(in srgb, var(--bg) 48%, transparent) 72%,
+    var(--bg) 100%
+  );
+}
+
 html.light .explore-page__scrim {
   background: linear-gradient(
     to bottom,

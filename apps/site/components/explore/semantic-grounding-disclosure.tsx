@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import type { PublicGroundingViewModel } from "@/lib/graph/grounding";
+import type { PublicGroundingViewModel } from "@/lib/graph/query/grounding";
 
 type SemanticGroundingDisclosureProps = {
   grounding: PublicGroundingViewModel;

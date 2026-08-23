@@ -1,14 +1,13 @@
 import type { MetadataRoute } from "next";
 import { bookIsPublic } from "@/lib/books/book-metadata";
 import { getActiveShelves } from "@/lib/books/shelves";
-import { getBooks } from "@/lib/content-data";
+import { getSemanticGraph } from "@/lib/graph/manifest";
 import { listChapterSitemapPaths } from "@/lib/corpus/public-registry";
 import { gamePaths } from "@/lib/games/paths";
 import { getPublishedChallenges } from "@/lib/games/pattern-recognition/load";
 import { getQuestionSitemapSlugs } from "@/lib/questions/loadQuestions";
 import { getTrailSitemapSlugs } from "@/lib/trails/loadTrails";
-import { getSemanticGraph } from "@/lib/graph/manifest";
-import { resolveThinkers } from "@/lib/graph/thinkers";
+import { resolveThinkers } from "@/lib/graph/query/thinkers";
 import { exploreBooksShelfHref, explorePaths } from "@/lib/graph/explorePaths";
 import { resolveDeploymentUrl } from "@/lib/site-config";
 
@@ -56,13 +55,12 @@ export async function getSitemapPaths(): Promise<string[]> {
 
   paths.push(...TOP_LEVEL_PATHS);
 
-  const books = await getBooks();
-  for (const book of books) {
+  const graph = await getSemanticGraph();
+  for (const book of graph.books) {
     if (!bookIsPublic(book)) continue;
     paths.push(`${explorePaths.books}/${book.slug}`);
   }
 
-  const graph = await getSemanticGraph();
   for (const shelf of getActiveShelves(graph)) {
     paths.push(exploreBooksShelfHref(shelf.slug));
   }

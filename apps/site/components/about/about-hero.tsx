@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Container } from "@/components/ui/container";
 import { CTAButton } from "@/components/collaborators/cta-button";
+import { HERO_SCRIM_ABOUT_CLASS } from "@/lib/ui/hero-scrim";
 
 const backdropSrc = "/images/hero/hero-backdrop.png";
 
@@ -31,10 +32,7 @@ export function AboutHero() {
         aria-hidden
       />
       <div className="atm-vignette-soft pointer-events-none absolute inset-0 z-[2] opacity-[0.42] md:opacity-[0.52]" aria-hidden />
-      <div
-        className="pointer-events-none absolute inset-0 z-[3] bg-[linear-gradient(to_bottom,transparent_0%,transparent_44%,color-mix(in_srgb,var(--bg)_50%,transparent)_74%,var(--bg)_100%)]"
-        aria-hidden
-      />
+      <div className={HERO_SCRIM_ABOUT_CLASS} aria-hidden />
 
       <Container className="relative z-10 mx-auto max-w-4xl px-6 py-24 md:py-32">
         <div className="animate-start-reveal md:text-left">

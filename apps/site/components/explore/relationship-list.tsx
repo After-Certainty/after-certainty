@@ -3,8 +3,8 @@ import {
   exploreHrefForCanonicalId,
   exploreObservatoryRelationshipHref,
 } from "@/lib/graph/explorePaths";
-import { relationshipEndpointsResolved } from "@/lib/graph/graphTraversal";
-import { vizEdgeDedupKey } from "@/lib/graph/graphVizModel";
+import { relationshipEndpointsResolved } from "@/lib/graph/query/graphTraversal";
+import { vizEdgeDedupKey } from "@/lib/graph/presentation/graphVizModel";
 import type { GraphEntityKind, Relationship } from "@/types/semanticGraph";
 import { RelationshipCard } from "@/components/explore/relationship-card";
 import { RelatedSectionDisclosure } from "@/components/explore/related-section-disclosure";

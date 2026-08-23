@@ -1,5 +1,5 @@
 import type { SourceKind } from "@/types/semanticGraph";
-import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
+import { formatRelationshipLabelForDisplay } from "@/lib/graph/presentation/relationshipVisuals";
 
 /** Canonical sourceKind values used as filter facets. */
 export const SOURCE_KIND_FACET_ORDER: readonly SourceKind[] = [

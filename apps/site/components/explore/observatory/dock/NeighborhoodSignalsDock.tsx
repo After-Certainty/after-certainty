@@ -2,8 +2,8 @@
 
 import { graphNodeTitle, type GraphIndex } from "@/lib/graph/graph";
 import type { NeighborhoodSignals } from "@/lib/observatory/neighborhoodSignals";
-import { formatRelationshipLabelForDisplay } from "@/lib/graph/relationshipVisuals";
-import type { InsightEdge } from "@/lib/graph/graphInsights";
+import { formatRelationshipLabelForDisplay } from "@/lib/graph/presentation/relationshipVisuals";
+import type { InsightEdge } from "@/lib/graph/query/graphInsights";
 
 function labelFor(id: string, index: GraphIndex): string {
   const n = index.getNodeByCanonicalId(id);

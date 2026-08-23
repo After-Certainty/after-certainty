@@ -5,8 +5,8 @@ import {
   thinkersSortedForExploreIndex,
 } from "@/lib/explore/explore-thinkers-order";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getThinkerBySlug } from "@/lib/graph/graphQueries";
-import { relatedContentForThinker } from "@/lib/graph/relatedContent";
+import { getThinkerBySlug } from "@/lib/graph/query/graphQueries";
+import { relatedContentForThinker } from "@/lib/graph/query/relatedContent";
 import type { SemanticGraph } from "@/types/semanticGraph";
 
 const enrichedGraph: SemanticGraph = {
