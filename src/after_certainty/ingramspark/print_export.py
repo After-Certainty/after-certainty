@@ -5,13 +5,19 @@ from __future__ import annotations
 import json
 import shutil
 import subprocess
-import sys
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 from after_certainty.core.repo_root import repo_root
+from after_certainty.export.assets import (
+    pdf_header_tex,
+    prepare_bridge_markdown_for_pdf,
+    prepare_closing_markdown_for_pdf,
+    strip_inline_title_page_cover,
+    title_page_cover_basename,
+)
 from after_certainty.ingramspark.paths import (
     print_interior_pdf_path,
     print_isbn,
@@ -20,6 +26,8 @@ from after_certainty.ingramspark.paths import (
 )
 from after_certainty.ingramspark.pdf_inspect import inspect_pdf, media_box_matches_trim
 from after_certainty.ingramspark.profile import load_profile
+from after_certainty.manuscript.assemble import assemble_markdown_units
+from after_certainty.manuscript.publication_markdown import stage_publication_units
 from book_specs import (
     spec_ingramspark_enabled,
     spec_ingramspark_target,
@@ -28,8 +36,6 @@ from book_specs import (
 )
 
 _REPO_ROOT = repo_root(Path(__file__))
-_TOOLS = _REPO_ROOT / "tools"
-_SCRIPTS = _REPO_ROOT / "scripts"
 
 
 class PrintExportError(ValueError):
@@ -162,18 +168,6 @@ def _pandoc_pdf(
     pandoc: str,
     pdf_engine: str,
 ) -> None:
-    if str(_SCRIPTS) not in sys.path:
-        sys.path.insert(0, str(_SCRIPTS))
-    from assemble import assemble_markdown_units  # noqa: PLC0415
-    from book_export_assets import (  # noqa: PLC0415
-        pdf_header_tex,
-        prepare_bridge_markdown_for_pdf,
-        prepare_closing_markdown_for_pdf,
-        strip_inline_title_page_cover,
-        title_page_cover_basename,
-    )
-    from publication_markdown import stage_publication_units  # noqa: PLC0415
-
     units = assemble_markdown_units(book_dir)
     if not units:
         raise PrintExportError(f"No markdown units found from {book_dir / 'index.md'}")

@@ -8,7 +8,7 @@ from docx import Document
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
-from docx_interior_finish import finish_interior_docx
+from after_certainty.export.docx_finish import finish_interior_docx
 
 
 def _add_page_break(doc: Document) -> None:

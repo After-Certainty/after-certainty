@@ -9,23 +9,19 @@ from unittest.mock import patch
 
 import pytest
 
-_REPO = Path(__file__).resolve().parents[1]
-if str(_REPO / "tools") not in sys.path:
-    sys.path.insert(0, str(_REPO / "tools"))
-if str(_REPO / "scripts") not in sys.path:
-    sys.path.insert(0, str(_REPO / "scripts"))
-
 from after_certainty.export.typst_manifest import (
     manifest_lines_for_units,
     parse_index_markdown_links,
 )
-from book_specs import (  # noqa: E402
+from after_certainty.specs.book_specs import (
     load_book_spec,
     resolve_spec_path,
     spec_formats,
     spec_pdf_engine,
     validate_book_spec,
 )
+
+_REPO = Path(__file__).resolve().parents[1]
 
 
 def test_resolve_spec_path_finds_book_yml(repo_root: Path) -> None:

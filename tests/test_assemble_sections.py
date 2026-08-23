@@ -2,16 +2,11 @@
 
 from __future__ import annotations
 
-import sys
 from pathlib import Path
 
 import pytest
 
-SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
-if str(SCRIPTS) not in sys.path:
-    sys.path.insert(0, str(SCRIPTS))
-
-from assemble import (  # noqa: E402
+from after_certainty.manuscript.assemble import (
     assemble_index_sections,
     assemble_markdown_units,
     assemble_part_sections,
