@@ -108,7 +108,8 @@ jobs:
       - name: Run pytest
         run: |
           set -euo pipefail
-          pytest tests/ -q --tb=short
+          # --durations surfaces slow tests for CI speed work (plan MR-1).
+          pytest tests/ -q --tb=short --durations=25 --durations-min=2.0
 
       - name: Validate chapter audio (secret-free)
         run: |

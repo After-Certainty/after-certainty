@@ -141,6 +141,10 @@ check-pandoc:
 test:
 	python3 -m pytest tests/ -q
 
+# Report tests slower than 2s (matches CI --durations flags).
+test-slow-report:
+	python3 -m pytest tests/ -q --tb=short --durations=25 --durations-min=2.0
+
 check: lint test
 
 lint:
