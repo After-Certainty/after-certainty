@@ -6,11 +6,11 @@ from tools.run_semantic_enrichment_ci import _manual_pr_url
 
 
 def test_manual_pr_url_from_env(monkeypatch) -> None:
-    monkeypatch.setenv("GITHUB_REPOSITORY", "ksteffe/after-certainty")
+    monkeypatch.setenv("GITHUB_REPOSITORY", "After-Certainty/after-certainty")
     monkeypatch.setenv("GITHUB_SERVER_URL", "https://github.com")
     url = _manual_pr_url(base_branch="main", branch="semantic-agent/questions-after-certainty-99")
     assert url == (
-        "https://github.com/ksteffe/after-certainty/compare/"
+        "https://github.com/After-Certainty/after-certainty/compare/"
         "main...semantic-agent/questions-after-certainty-99?expand=1"
     )
 

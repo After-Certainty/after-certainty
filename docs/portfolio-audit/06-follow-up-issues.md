@@ -1,6 +1,6 @@
 # 6. Proposed follow-up GitHub issues
 
-Backlog derived from [issue #99](https://github.com/ksteffe/after-certainty/issues/99). **Not auto-created**—triage and open selectively.
+Backlog derived from [issue #99](https://github.com/After-Certainty/after-certainty/issues/99). **Not auto-created**—triage and open selectively.
 
 ---
 

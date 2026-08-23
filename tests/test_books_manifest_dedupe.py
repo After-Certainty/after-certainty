@@ -40,7 +40,7 @@ def test_upcoming_rows_omitted_when_books_slug_exists(repo_root: Path, tmp_path:
             "--out",
             str(out),
             "--github-repository",
-            "ksteffe/after-certainty",
+            "After-Certainty/after-certainty",
         ],
         capture_output=True,
         text=True,

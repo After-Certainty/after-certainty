@@ -9,7 +9,7 @@ from pathlib import Path
 from scan_generated_secrets import scan_path, scan_text, scan_tree
 
 FAKE_TOKEN = "TESTONLY_NOT_A_SECRET_00000000"
-FAKE_URL = f"https://x-access-token:{FAKE_TOKEN}@github.com/ksteffe/after-certainty"
+FAKE_URL = f"https://x-access-token:{FAKE_TOKEN}@github.com/After-Certainty/after-certainty"
 
 
 def test_rejects_url_with_userinfo() -> None:
@@ -60,7 +60,7 @@ def test_rejects_injected_forbid_value(tmp_path: Path) -> None:
 def test_clean_manifest_passes(tmp_path: Path) -> None:
     path = tmp_path / "books-manifest.json"
     path.write_text(
-        '{"repository":"ksteffe/after-certainty","books":[]}\n',
+        '{"repository":"After-Certainty/after-certainty","books":[]}\n',
         encoding="utf-8",
     )
     assert scan_path(path) == []

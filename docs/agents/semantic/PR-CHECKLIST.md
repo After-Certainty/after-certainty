@@ -9,4 +9,4 @@ Use for PRs from `semantic-agent/*` or human `issue-116/semantic-pilot-enrich-*`
 - [ ] `make verify-semantic-manifest` passes.
 - [ ] Draft sidecars include `targetSlug`, `entityType`, `field`, `proposedBy`, `bookId`, and non-empty `items` before promote.
 - [ ] Enrichment is **book-scoped** (`relatedBooks` respected); no orphan slugs.
-- [ ] PR title/body links [issue #116](https://github.com/ksteffe/after-certainty/issues/116).
+- [ ] PR title/body links [issue #116](https://github.com/After-Certainty/after-certainty/issues/116).

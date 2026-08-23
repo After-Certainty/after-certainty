@@ -3,7 +3,7 @@
   "manifestVersion": 2,
   "generatedAt": "2026-07-01T00:00:00.000000+00:00",
   "sourceCommit": "fixture-test-commit",
-  "repository": "ksteffe/after-certainty",
+  "repository": "After-Certainty/after-certainty",
   "ref": "refs/heads/main",
   "ontology": {
     "masterTerms": [
@@ -161,8 +161,8 @@
         "pattern-scrutiny-preserves-trust",
         "pattern-speech-escalates-faster-than-meaning"
       ],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/after-certainty/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/after-certainty/open-graph.png",
       "overview": {
         "centralQuestion": "How do we live and judge when understanding is not enough?",
         "whyItExists": "After Certainty is the project\u2019s namesake orientation: judgment, responsibility, and participation once explanation reaches its limits and replacement frameworks will not save us.",
@@ -298,8 +298,8 @@
         "concept-uncertainty"
       ],
       "patterns": [],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/before-certainty-arrives/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/before-certainty-arrives/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/before-certainty-arrives/open-graph.png",
       "overview": {
         "centralQuestion": "How does certainty form, harden, and outlive the conditions that made it necessary?",
         "whyItExists": "Certainty can be an adaptive response to instability. The book reads history so readers can recognize why inherited moral order feels obvious\u2014before it feels excessive\u2014without reducing traditions to machinery.",
@@ -439,8 +439,8 @@
         "concept-vitality"
       ],
       "patterns": [],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/living-in-sediment/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/living-in-sediment/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/living-in-sediment/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/living-in-sediment/open-graph.png",
       "overview": {
         "centralQuestion": "Why do structures outlive the reasons that created them?",
         "whyItExists": "To teach historical perception of present infrastructure fossils\u2014language, time, policy, metrics, algorithms\u2014across four movements: fossils we do not notice, fossils shaping power, fossils forming now, and living among sediment.",
@@ -546,8 +546,8 @@
       ],
       "concepts": [],
       "patterns": [],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/observer-patterns/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/observer-patterns/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/observer-patterns/open-graph.png",
       "overview": {
         "centralQuestion": "What takes shape when looking, deciding, and following become decisive?",
         "whyItExists": "A poetry book of observer patterns\u2014attention becoming decisive\u2014readable alone or together within the wider corpus, without instructions or argument.",
@@ -661,8 +661,8 @@
         "concept-uncertainty"
       ],
       "patterns": [],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-accountability-no-longer-expires/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/when-accountability-no-longer-expires/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/when-accountability-no-longer-expires/open-graph.png",
       "overview": {
         "centralQuestion": "What happens when legitimate authority learns to survive harm\u2014and accountability no longer expires?",
         "whyItExists": "Institutions often respond to scandal with adaptation that preserves core authority. This book names endurance after harm as a pattern of legitimacy without renewal, not merely failure or corruption.",
@@ -775,8 +775,8 @@
         "concept-witness"
       ],
       "patterns": [],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/when-interpretation-no-longer-matters/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/when-interpretation-no-longer-matters/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/when-interpretation-no-longer-matters/open-graph.png",
       "overview": {
         "centralQuestion": "What kind of authority exists when understanding no longer has the power to matter?",
         "whyItExists": "Earlier books stay where interpretation is strained but still operative. This one begins at the boundary \u2014 hearing, restatement, even private assent without revised legitimacy \u2014 and diagnoses authority after shared evaluation loses consequence.",

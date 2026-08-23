@@ -7,7 +7,7 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
 export PATH="${ROOT}/.venv/bin:${HOME}/.local/bin:${PATH:-}"
-export GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-ksteffe/after-certainty}"
+export GITHUB_REPOSITORY="${GITHUB_REPOSITORY:-After-Certainty/after-certainty}"
 export SEMANTIC_MANIFEST_USE_LOCAL=1
 export SEMANTIC_MANIFEST_OFFLINE=1
 

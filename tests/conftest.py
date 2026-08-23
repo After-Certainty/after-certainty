@@ -27,7 +27,7 @@ def semantic_manifest_path(repo_root: Path, tmp_path_factory: pytest.TempPathFac
             "--out",
             str(out),
             "--github-repository",
-            "ksteffe/after-certainty",
+            "After-Certainty/after-certainty",
             "--github-ref",
             "main",
             "--release-tag",

@@ -3,7 +3,7 @@
   "manifestVersion": 2,
   "generatedAt": "2026-07-01T00:00:00.000000+00:00",
   "sourceCommit": "fixture-test-commit",
-  "repository": "ksteffe/after-certainty",
+  "repository": "After-Certainty/after-certainty",
   "ref": "refs/heads/main",
   "ontology": {
     "masterTerms": [
@@ -162,8 +162,8 @@
         "pattern-scrutiny-preserves-trust",
         "pattern-speech-escalates-faster-than-meaning"
       ],
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png",
-      "openGraphImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/open-graph.png",
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/after-certainty/book-cover.png",
+      "openGraphImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/after-certainty/open-graph.png",
       "overview": {
         "centralQuestion": "How do we live and judge when understanding is not enough?",
         "whyItExists": "After Certainty is the project\u2019s namesake orientation: judgment, responsibility, and participation once explanation reaches its limits and replacement frameworks will not save us.",
@@ -442,7 +442,7 @@
       "featured": true,
       "significance": "major",
       "canonicalRoute": "/explore/books/after-certainty",
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/after-certainty/book-cover.png"
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/after-certainty/book-cover.png"
     },
     {
       "id": "event-book-curiosity-before-certainty-published",
@@ -457,7 +457,7 @@
       "featured": false,
       "significance": "standard",
       "canonicalRoute": "/explore/books/curiosity-before-certainty",
-      "coverImage": "https://raw.githubusercontent.com/ksteffe/after-certainty/main/books/curiosity-before-certainty/book-cover.png"
+      "coverImage": "https://raw.githubusercontent.com/After-Certainty/after-certainty/main/books/curiosity-before-certainty/book-cover.png"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 **Edition:** Concentrated essay (~14.5k) in the judgment / compression cluster.
 
-**Agent gates complete:** Part III and Part IV coherence passes (Phase 3), Part III/IV echo gates (07), and manuscript echo gate (08). This checklist is the human sign-off scoped in [#106](https://github.com/ksteffe/after-certainty/issues/106).
+**Agent gates complete:** Part III and Part IV coherence passes (Phase 3), Part III/IV echo gates (07), and manuscript echo gate (08). This checklist is the human sign-off scoped in [#106](https://github.com/After-Certainty/after-certainty/issues/106).
 
 ## Part III — Cases Beyond Interpretation (Ch 7–10)
 

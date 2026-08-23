@@ -131,7 +131,7 @@ def pr_body(
     return (
         f"## Summary\n\n"
         f"Semantic agent **`{agent_type}`** for book **`{book_id}`** "
-        f"(`{book_dir}`). Part of [#116](https://github.com/ksteffe/after-certainty/issues/116).\n\n"
+        f"(`{book_dir}`). Part of [#116](https://github.com/After-Certainty/after-certainty/issues/116).\n\n"
         f"**Do not auto-merge.** Canonical `semantic/` is unchanged until promote + review.\n\n"
         f"## Files ({len(files)})\n\n"
         + "\n".join(rel_files)

@@ -3,7 +3,7 @@
   "manifestVersion": 2,
   "generatedAt": "2026-07-01T00:00:00.000000+00:00",
   "sourceCommit": "fixture-test-commit",
-  "repository": "ksteffe/after-certainty",
+  "repository": "After-Certainty/after-certainty",
   "ref": "refs/heads/main",
   "ontology": {
     "masterTerms": [
