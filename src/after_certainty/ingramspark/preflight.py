@@ -27,7 +27,7 @@ from after_certainty.ingramspark.print_export import (
     validate_print_interior,
 )
 from after_certainty.ingramspark.profile import load_profile
-from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
+from after_certainty.specs.book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 
 Mode = Literal["ebook", "print"]
 

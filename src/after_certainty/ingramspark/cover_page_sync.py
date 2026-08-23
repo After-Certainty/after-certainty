@@ -15,7 +15,7 @@ from after_certainty.ingramspark.template_meta import (
     normalize_template_meta,
     pixels_from_inches,
 )
-from book_specs import spec_ingramspark_target
+from after_certainty.specs.book_specs import spec_ingramspark_target
 
 # Inches of spine bulk per page (common cream/white paperback rules of thumb).
 _PAPER_BULK_INCHES_PER_PAGE = {

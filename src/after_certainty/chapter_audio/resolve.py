@@ -10,7 +10,7 @@ from typing import Any
 import yaml
 
 from after_certainty.manuscript.structure import build_structure_for_book, load_chapter_enrichment
-from book_specs import discover_book_spec_paths, load_book_spec
+from after_certainty.specs.book_specs import discover_book_spec_paths, load_book_spec
 
 PLACEHOLDER_VOICE_PREFIX = "PLACEHOLDER"
 

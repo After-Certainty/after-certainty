@@ -54,7 +54,7 @@ from after_certainty.ingramspark.print_export import (
     export_ingramspark_print_interior,
 )
 from after_certainty.ingramspark.profile import load_profile
-from book_specs import (
+from after_certainty.specs.book_specs import (
     ingramspark_artifact_name,
     ingramspark_preview_artifact_name,
     load_spec_for_book_dir,
