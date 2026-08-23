@@ -11,7 +11,7 @@ GitHub, Vercel, Beehiiv, SSH, or other production credentials.
    only if your agent/SSH setup is intentional and isolated.
 2. Prefer explicit env for manifests:
    ```bash
-   GITHUB_REPOSITORY=ksteffe/after-certainty make generate-books-manifest
+   GITHUB_REPOSITORY=After-Certainty/after-certainty make generate-books-manifest
    ```
 3. Install Python deps with a lockfile:
    ```bash

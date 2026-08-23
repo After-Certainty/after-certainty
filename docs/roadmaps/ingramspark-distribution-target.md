@@ -3,7 +3,8 @@
 **Status:** Complete (2026-07) — historical design + delivery record  
 **Created:** 2026-07-25  
 **Completed:** 2026-07-26  
-**Repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)
+**Repository (current):** [`After-Certainty/after-certainty`](https://github.com/After-Certainty/after-certainty)  
+**Repository (at completion):** `ksteffe/after-certainty` (same project; later moved to the After-Certainty organization)
 
 **Document role:** Retained for the original requirements audit, major design decisions, and completion evidence. It is **not** an active backlog. Day-to-day packaging and upload steps live in [`docs/publishing/ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md). Cross-layer remaining work: [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Index: [`docs/roadmaps/README.md`](README.md).
 
