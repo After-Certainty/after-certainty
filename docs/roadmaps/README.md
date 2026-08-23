@@ -1,6 +1,6 @@
 # Roadmaps and planning documents
 
-**Last audited:** 2026-08-07 (Pattern Recognition Challenge specialized plan added; prior: provider-neutral TTS revision; explore discovery mobile redesign complete)
+**Last audited:** 2026-08-22 (evidence-before-expansion prune; GAME-001e and CORPUS-003/004 complete; Observe section on master roadmap; audio platform marked complete)
 
 This index orients agents and maintainers. It is **not** a backlog.
 
@@ -18,6 +18,9 @@ This index orients agents and maintainers. It is **not** a backlog.
 2. **Do not create a second master roadmap.** New product/platform work belongs in the remaining-product roadmap (or as a specialized plan that links there for unfinished follow-ups).
 3. **Per-book editorial, rewrite, and vignette plans stay outside the product roadmap** unless they create a shared capability or cross-book operational requirement.
 4. **Generated reports are evidence**, not automatic commitments. Warnings do not become tasks by default.
+5. **Evidence before expansion.** Once a surface is shipped, further investment should normally follow observed use, reader friction, editorial intent, or operational need — not completeness alone.
+
+**Canonical repository:** [`After-Certainty/after-certainty`](https://github.com/After-Certainty/after-certainty)
 
 ## Document inventory (concise)
 
@@ -25,14 +28,14 @@ This index orients agents and maintainers. It is **not** a backlog.
 
 | Path | Topic | Classification |
 |------|-------|----------------|
-| [`remaining-product-roadmap.md`](remaining-product-roadmap.md) | Remaining cross-layer product, corpus, ops work | **active-authoritative-roadmap** |
+| [`remaining-product-roadmap.md`](remaining-product-roadmap.md) | Remaining cross-layer product, corpus, ops work (Now / Observe / Ongoing / Triggered only) | **active-authoritative-roadmap** |
 
-### Active specialized plans
+### Specialized plans (shipped core; follow-ups gated)
 
 | Path | Topic | Classification |
 |------|-------|----------------|
-| [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) | Provider-neutral chapter TTS for native reader (ElevenLabs first adapter; credit/usage-bounded pilot) | **active-specialized-plan** (Phases 0–8; see plan status header) |
-| [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md) | Local-first Pattern Recognition Challenge game (corpus challenges + site play; Supabase sync later) | **active-specialized-plan** (Phases 0–9 not started; `GAME-001`) |
+| [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) | Provider-neutral chapter TTS for native reader (ElevenLabs first adapter; credit/usage-bounded) | **specialized-plan — platform complete** (Phases 0–6 shipped; Phase 8 = ongoing selective narration ops; Phase 7 OpenAI = triggered only) |
+| [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md) | Local-first Pattern Recognition Challenge game (corpus challenges + site play) | **specialized-plan — through GAME-001e complete** (enjoyability Observe gate; Phases 8–9 Supabase/advanced modes = triggered only) |
 
 ### Complete specialized site plans
 
@@ -77,8 +80,8 @@ This index orients agents and maintainers. It is **not** a backlog.
 
 | Path | Topic | Classification |
 |------|-------|----------------|
-| [`apps/site/docs/roadmaps/search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md) | When to add embeddings | deferred-evaluation-or-spike |
-| [`apps/site/docs/offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md) | Offline/PWA — defer (no-ship) | deferred-evaluation-or-spike |
+| [`apps/site/docs/roadmaps/search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md) | When to add embeddings | deferred-evaluation-or-spike (triggered only) |
+| [`apps/site/docs/offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md) | Offline/PWA — defer (no-ship) | deferred-evaluation-or-spike (triggered only) |
 
 ### Reports and audits (evidence)
 

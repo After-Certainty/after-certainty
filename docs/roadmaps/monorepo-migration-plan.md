@@ -3,7 +3,7 @@
 **Status:** Complete — historical migration record (Phases 0–8 done).  
 **Date:** 2026-07-24  
 **Completed:** 2026-07 (Phases 0–8)  
-**Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
+**Surviving repository (at migration):** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty) — **current:** [`After-Certainty/after-certainty`](https://github.com/After-Certainty/after-certainty)  
 **Former site repository (archived / read-only):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
 **Document role:** Retained for migration rationale, sequencing, and lessons. It is **not** an active backlog. Remaining product work lives in [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Orientation: [`docs/roadmaps/README.md`](README.md).

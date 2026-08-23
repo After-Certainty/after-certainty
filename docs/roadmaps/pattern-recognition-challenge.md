@@ -1,10 +1,10 @@
 # Pattern Recognition Challenge — Implementation Roadmap
 
-**Status:** Active specialized plan — `GAME-001a`–`GAME-001d` shipped; `GAME-001e` Session Completion Delight in progress; enjoyability pause before Phase 8–9  
+**Status:** Specialized plan — `GAME-001a`–`GAME-001e` **complete**; **Observe** enjoyability/usage before any further game investment; Phases 8–9 **triggered only**  
 **Created:** 2026-08-07  
-**Revised:** 2026-08-08  
+**Revised:** 2026-08-22 (GAME-001e marked complete; enjoyability Observe gate; Phases 8–9 triggered only per master roadmap prune)  
 **Location:** `docs/roadmaps/pattern-recognition-challenge.md`  
-**Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups that become cross-layer backlog stay linked from that master roadmap (`GAME-001`).
+**Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Follow-ups that outgrow this plan link from that master roadmap (`GAME-001`). Phase history below is retained as evidence; do not treat Phases 8–9 as open backlog.
 
 **Document role:** Executable implementation roadmap for a local-first Pattern Recognition Challenge game that teaches players to notice recurring patterns in human systems. Authored challenge content lives in the corpus; player progress starts in browser localStorage and may later sync via optional Supabase identity framed as “Save my progress.”
 
@@ -831,11 +831,12 @@ If game analytics from Phase 7 exist, optional `session_delight_shown` with `var
 
 ---
 
-### Phase 8 — Future Supabase / account sync
+### Phase 8 — Supabase / account sync (triggered only)
 
 **Objective:** Design + eventual implementation of optional cross-device progress.  
-**MVP:** No — Future  
-**Dependencies:** Stable V1 event model (Phases 4–5)
+**MVP:** No — **Triggered only** (see master roadmap Observe → Triggered). Do not start because this phase exists on paper.  
+**Trigger:** Meaningful repeat anonymous engagement **and** local-only progress is a visible limitation.  
+**Dependencies:** Stable V1 event model (Phases 4–5); enjoyability Observe gate passed
 
 **Tasks (when triggered):**
 
@@ -857,10 +858,11 @@ If game analytics from Phase 7 exist, optional `session_delight_shown` with `var
 
 ---
 
-### Phase 9 — Future advanced game modes
+### Phase 9 — Advanced game modes (triggered only)
 
 **Objective:** Deeper modes once Recognition MVP proves enjoyable.  
-**MVP:** No — Future
+**MVP:** No — **Triggered only**.  
+**Trigger:** Enjoyability/usage evidence after the Observe gate justifies more game surface.
 
 | Mode | Idea | Notes |
 |------|------|-------|
@@ -1046,9 +1048,11 @@ When adding a challenge:
 
 ### Next vertical slices
 
-1. **`GAME-001e`** — Phase 7b Session Completion Delight (MVP polish; one Pattern Constellation variant) — **in progress**.  
+1. **`GAME-001e`** — Phase 7b Session Completion Delight (MVP polish; one Pattern Constellation variant) — **complete** (merged implementation + tests).  
+2. **Observe enjoyability/usage** — starts, completions, repeat play; stop unless evidence pulls more work.  
+3. **Phases 8–9** — Supabase/accounts and advanced modes remain **triggered only** (see master roadmap). Do not start from completeness alone.
 
-**`GAME-001e` includes:**
+**`GAME-001e` included:**
 
 - `SessionCompleteDelight` abstraction + variant registry hook  
 - Deterministic V1 **Pattern Constellation** (Framer Motion + SVG/CSS; no new deps)  

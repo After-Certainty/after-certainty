@@ -7,7 +7,7 @@ Do **not** rely exclusively on a single GitHub account for recovery.
 ### 1. Mirror clone
 
 ```bash
-git clone --mirror https://github.com/ksteffe/after-certainty.git after-certainty.mirror
+git clone --mirror https://github.com/After-Certainty/after-certainty.git after-certainty.mirror
 ```
 
 Store the mirror on a second machine or storage provider you control.

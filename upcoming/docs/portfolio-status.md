@@ -4,7 +4,9 @@ Dashboard for nonfiction manuscripts under `upcoming/`. Fiction titles use a sep
 
 **Refresh rule:** When a book's `docs/status.md` changes phase or next actions materially, update the relevant table in the same PR (nonfiction rows here; fiction rows in **Upcoming fiction**).
 
-**Portfolio audit (May 2026):** [docs/portfolio-audit/](../../docs/portfolio-audit/) — promotion readiness, differentiation, and follow-up backlog ([#99](https://github.com/ksteffe/after-certainty/issues/99)).
+**Portfolio audit (May 2026):** [docs/portfolio-audit/](../../docs/portfolio-audit/) — promotion readiness, differentiation, and follow-up backlog ([#99](https://github.com/After-Certainty/after-certainty/issues/99)).
+
+**Product roadmap note:** Possible manuscript expansions (including toward full ~50–90k bands) are **author-intent editorial decisions**, not automatic product backlog. See [`docs/roadmaps/remaining-product-roadmap.md`](../../docs/roadmaps/remaining-product-roadmap.md) (Ongoing / editorial gates). Generated gap reports do not create expansion commitments.
 
 **Series guide:** [docs/series-guide.md](../../docs/series-guide.md) — reading order, clusters, and title-pair boundaries.
 
@@ -64,11 +66,11 @@ Promoted to `books/` (essay editions):
 
 *Note:* interpretation and incentives share the “judgment / alignment / compression” cluster with after-certainty and economy; echo checks logged in interpretation Part III–IV pass docs.
 
-**Completed:** Pass 6 depth + Phase 2 (Part I) — collaboration (~10.8k), economy (~7.4k), discipline (~7.5k). **Gate:** author Part I read-through before next large expansion toward book-rules bands.
+**Completed:** Pass 6 depth + Phase 2 (Part I) — collaboration (~10.8k), economy (~7.4k), discipline (~7.5k). **Gate:** author Part I read-through before any large expansion toward book-rules bands. Full-band expansion is author intent, not product-roadmap debt.
 
 ### Pass 6 — Pass 3 follow-through (depth + Phase 2) ✓
 
-Incremental depth pass delivered; full ~50–90k bands remain future work after author Part I approval.
+Incremental depth pass delivered; full ~50–90k bands remain **optional future work after author Part I approval** — not a product-roadmap completeness target.
 
 *Cross-book echo:* flagship cases (pandemic forecasts, ED discharge, tech layoffs) avoided or reframed in new Part I material.
 

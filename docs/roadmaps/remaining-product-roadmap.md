@@ -2,479 +2,283 @@
 
 **Status:** Active — authoritative for *remaining* cross-layer work  
 **Created:** 2026-07-24  
-**Last audited:** 2026-08-07 (Pattern Recognition Challenge plan / `GAME-001`; prior: provider-neutral TTS revision; explore discovery mobile redesign complete)  
-**Surviving repository:** [`ksteffe/after-certainty`](https://github.com/ksteffe/after-certainty)  
+**Last audited:** 2026-08-22 (evidence-before-expansion prune; GAME-001e and CORPUS-003/004 marked complete; Observe section added)  
+**Surviving repository:** [`After-Certainty/after-certainty`](https://github.com/After-Certainty/after-certainty)  
 **Former site repository (archived):** [`ksteffe/after-certainty-site`](https://github.com/ksteffe/after-certainty-site)
 
 **Authority:** This is the sole master backlog for remaining product, corpus, and ops work. Specialized historical plans retain design rationale; living procedures and contracts answer “how” and “what rules,” not “what next.” Index: [`docs/roadmaps/README.md`](README.md).
 
-**Evidence rule:** Code, tests, workflows, and current reports override planning-time snapshots in older documents.
+**Evidence rule:** Code, tests, workflows, and current reports override planning-time snapshots in older documents. Generated reports and empty metadata fields are **evidence**, not automatic commitments.
+
+---
+
+## Operating principles
+
+1. **Evidence before expansion.** Once a surface is shipped, further investment should normally be triggered by observed use, identified reader friction, a concrete editorial objective, or an operational problem — not by completeness alone.
+2. **Generated reports are evidence, not commitments.** Saturation targets and gap enumerations do not become roadmap work by default.
+3. **Unknown metadata is acceptable.** Prefer honest unknown over invented precision (dates, ASINs, `dateModified`, authority links).
+4. **Semantic enrichment is just-in-time.** Grounding, provenance, summaries, and related works are added when actively editing, promoting, or responding to reader/editorial need — not because an audit lists an empty field.
+5. **Prefer existing channels before building infrastructure.** Substack, GitHub, email, and local-first surfaces come before accounts, sync, or community platforms.
+6. **This roadmap answers “what should we consider next?”** — not “what ideas have we ever recorded?” Historical detail lives in git history and specialized plans.
 
 ---
 
 ## 1. Project position today
 
-Discovery, catalog orientation, native chapter reading, monorepo same-checkout builds, and IngramSpark submission kits are **shipped**. The remaining work is editorial metadata depth, targeted semantic UX, repository contribution hygiene, reader analytics, and a small set of Kevin- or externally gated decisions—not rebuilding the reader or rediscovering search.
+Discovery, catalog orientation, native chapter reading, monorepo same-checkout builds, IngramSpark submission kits, chapter Listen (provider-neutral TTS), and the Pattern Recognition Challenge (through Session Completion Delight) are **shipped**. The useful remaining work is small: contribution hygiene, org/repo settings verification, targeted thinker discoverability, and human GA4 Admin configuration — then **observe** how readers use what already exists.
 
 | Area | Status | Evidence |
 |------|--------|----------|
 | Monorepo + same-checkout site build | Complete | [`monorepo-migration-plan.md`](monorepo-migration-plan.md); `apps/site/`; `scripts/vercel_build.sh` |
 | Discovery (search, questions, trails, Start Here, What’s New, overviews) | Shipped | Live routes under `apps/site/app/`; E2E; contributing guides |
-| Native chapter reader (routes, HTML, footnotes, TOC, prev/next, progress, continue, bookmarks, text size, copy-link, in-book search) | Shipped | `apps/site/app/explore/(browse)/books/[slug]/chapters/`; `lib/reading/*`; reader e2e |
+| Native chapter reader | Shipped | `apps/site/app/explore/(browse)/books/[slug]/chapters/`; `lib/reading/*`; reader e2e |
 | Offline / PWA | Deferred (no-ship) | [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md) (READ-017) |
 | Corpus contract (manifest 2.3) | Established | [`semantic-manifest-contract.md`](../semantic-manifest-contract.md) |
-| IngramSpark packaging | Shipped | `tools/ingramspark/`; pilots `production-approved`; [`ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md) |
-| Site analytics (discovery/search) | Present | `apps/site/lib/analytics/events.ts`; GA4 + Vercel Analytics |
+| IngramSpark packaging | Shipped | `tools/ingramspark/`; pilots production-approved; operating procedure |
+| Site analytics (discovery/search/reader/game) | Present | `apps/site/lib/analytics/`; GA4 + Vercel Analytics; `tools/ga_trends_brief.py` |
 | Reader funnel events | Shipped | `chapter_open` / `next_chapter` / `file_download` (`location=reader`); consent-gated; GA4 Admin key-event marking remains Kevin |
+| Chapter Listen (TTS platform) | Platform complete | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) Phases 0–6; OP + WOLTY v1 full books; CBC intro + Ch.1 artifacts present |
+| Pattern Recognition Challenge | Through GAME-001e complete | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md); enjoyability Observe gate before further game investment |
 | Root CONTRIBUTING + issue templates | Missing | Site-only `apps/site/docs/contributing-*.md` |
 | Think Together | Marketing only | Quotes on site; no product surface |
 
 ---
 
-## 2. What is complete
+## 2. Now
 
-Do not reopen these as active product phases.
+Small set of work currently worth doing.
+
+### Roadmap reconciliation / maintenance
+
+This document and the roadmap index are internally consistent as of **2026-08-22**. Further edits should keep Now small and evidence-driven.
+
+### Repository URL hygiene
+
+Operational and current documentation should cite:
+
+`https://github.com/After-Certainty/after-certainty`
+
+Historical migration narratives may retain former `ksteffe/…` names where the history depends on them.
+
+### OPS-001 — Root CONTRIBUTING.md
+
+| Field | Value |
+|-------|-------|
+| **Problem** | Contributors and agents lack a single root entry for corpus vs site paths, validation commands, and review expectations. |
+| **Benefit** | Fewer incorrect PRs; clearer agent routing. |
+| **Evidence** | No root `CONTRIBUTING.md`; only `apps/site/docs/contributing-*.md` |
+| **Acceptance** | Concise map: corpus/content changes, site changes, validation expectations, key commands. Links schemas, `make check`, site contributing guides. Not a large governance project. |
+| **Also** | Briefly note corpus vs site issue routing; optional tiny follow-up **OPS-001b** if `.github/ISSUE_TEMPLATE/` remains empty. |
+
+### OPS-001b — Issue templates (lightweight)
+
+| Field | Value |
+|-------|-------|
+| **Problem** | No GitHub issue templates separating manuscript/semantic vs `apps/site`. |
+| **Acceptance** | Minimal templates distinguishing corpus vs site; do not expand into process bureaucracy. |
+
+### OPS-003 — GitHub organization/repository settings check
+
+| Field | Value |
+|-------|-------|
+| **Problem** | After the move to the After-Certainty organization, branch protection, required checks, permissions, and related settings need a one-time human verification. |
+| **Evidence** | [`github-settings-checklist.md`](../security/github-settings-checklist.md) open checkboxes |
+| **Acceptance** | Items checked or waived with notes. **Done once verified** — not recurring roadmap work. |
+
+### PROVENANCE-002 + PROVENANCE-003 — Thinker concepts (paired)
+
+| Field | Value |
+|-------|-------|
+| **PROVENANCE-002** | Expose linked concepts usefully on thinker pages: coverage panel with honest empty state when linked works have concepts but thinker-level links are thin ([`thinker-concept-site-issues.md`](../audits/thinker-concept-site-issues.md)). Related-concepts lists from `thinker.concepts` alone are not enough. |
+| **PROVENANCE-003** | Emit JSON-LD `knowsAbout` only where genuine concept relationships exist. |
+| **Why now** | Visible reader navigation plus honest machine-readable structure from data already authored. |
+| **Acceptance** | Panel + empty state; `knowsAbout` only when real links exist. |
+
+### GA4 configuration cleanup (human ops)
+
+Application events for the reader funnel are **shipped**. Remaining work is GA4 Admin **key event** marking for `chapter_open`, `next_chapter`, and `file_download`. Do not treat analytics instrumentation as incomplete merely because every event is not marked as a conversion/key event.
+
+---
+
+## 3. Observe
+
+Signals that may create future work. No arbitrary KPI targets. Use existing GA4 / reporting tooling (`apps/site/lib/analytics/`, `tools/ga_trends_brief.py`, site GA scripts, PADE broker) to decide where investment is justified.
+
+| Signal area | What to watch | Notes |
+|-------------|---------------|--------|
+| **Acquisition / discovery** | Landing pages, search-engine traffic, high-performing book/thinker/pattern pages, referral traffic | |
+| **Reader funnel** | Book page → chapter open; chapter continuation (`next_chapter`); reader exits; reading depth where available | Events shipped; Admin key-event marking is Now (ops) |
+| **Search** | Search usage; successful result selection; no-result / weak-result queries if available | |
+| **Audio / Listen** | Whether chapters are played; which books get Listen use; whether usage justifies more narration cost/storage | Player shipped; **Listen play/complete events are weak or absent** — add minimal instrumentation only if audio investment decisions require it |
+| **Game** | Starts, completions, repeat use; whether people return voluntarily | **Enjoyability gate:** after GAME-001e, observe before any further game phases |
+| **Outbound / purchase** | Book purchase links; external source clicks; other meaningful outbound actions | |
+
+**Game sequence:** finish was GAME-001e (complete) → **observe** enjoyability/usage → **stop** unless evidence pulls more work. Do not automatically promote Supabase or advanced modes.
+
+---
+
+## 4. Ongoing editorial and operations
+
+Repeatable work that is not a product initiative. Do it when editing, publishing, or operating — not because a report lists gaps.
+
+### Audio
+
+The audio **platform** is complete ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) Phases 0–6). Ongoing work may include:
+
+- Narrating selected books/chapters (credit-bounded)
+- Monitoring ElevenLabs cost and Git LFS/storage/bandwidth
+- Evaluating actual Listen usage (see Observe)
+- Revisiting storage/provider choices only for a real operational reason
+
+A second TTS provider (OpenAI adapter) is **Triggered only** — not active work merely because the architecture supports one.
+
+### Publication metadata (former CORPUS-001 / CORPUS-002 / CORPUS-009)
+
+Keep the ability to add credible publication dates, ASIN/publication identifiers, and historical What’s New entries when evidence exists. **Unknown remains acceptable.** Do not mandate backfilling every historical title. Prefer opportunistic updates where metadata enables honest history or sorting.
+
+### Semantic metadata (former PROVENANCE-005–007 and broad CORPUS chapter/poem fill)
+
+Just-in-time rule: add grounding, provenance, thinker links, concept links, summaries, related works, or other enrichment when actively working on content that matters — not simply because an audit reports an empty field.
+
+Titles that previously appeared as CORPUS-005–008 (`the-economy-we-dont-experience`, `boundary-conditions`, `observer-patterns`, thin `relatedWorks` / situations) receive deeper metadata when being edited, promoted, shown by analytics to matter, enabling a concrete feature, or serving an editorial objective — not as mass-completeness work.
+
+### Purchase metadata
+
+ISBN / purchase links remain useful where books are genuinely for sale. Ordinary publishing maintenance (aligned with issue #109 disposition), not a major product initiative.
+
+### Manuscripts
+
+Do not systematically expand every book toward a target word count. Deepen individual books because the author wants to. [`upcoming/docs/portfolio-status.md`](../../upcoming/docs/portfolio-status.md) may identify possibilities but must not automatically create product work.
+
+### Creator-name cleanup (former PROVENANCE-006)
+
+Normalize multi-author `creatorNames` mismatches opportunistically when touching affected sources or when audit noise blocks trust — not as a standalone saturation project.
+
+---
+
+## 5. Triggered only
+
+Speculative capabilities. Document the **trigger**, not an implementation plan.
+
+| Item | Reconsider when |
+|------|-----------------|
+| **GAME Phase 8** — Supabase / game accounts / cross-device progress | Anonymous game usage shows meaningful repeat engagement **and** local-only progress is a visible limitation |
+| **GAME Phase 9** — Advanced modes, adaptive difficulty, larger achievement/economy systems | Enjoyability/usage evidence after the Observe gate justifies more game surface |
+| **OpenAI TTS adapter** (AUDIO Phase 7) | ElevenLabs creates a concrete cost, quality, reliability, licensing, or alignment/timing problem |
+| **Alternative audio storage** | Real LFS/bandwidth/ops problem with current Git LFS approach |
+| **PROVENANCE-004** — Explore thinkers-by-concept filter | Concept relationship graph is rich enough **and** analytics or editorial demand justifies the filter |
+| **PROVENANCE-008** — Relationship provenance UI | Kevin decides public provenance beats a debug dump |
+| **TOGETHER-001–003** — Think Together / community infrastructure | Readers demonstrate a collaboration need that Substack, GitHub, email, or existing channels cannot satisfy |
+| **Embeddings / vector search** | Real search behavior shows a retrieval problem current indexing cannot solve ([`search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md)) |
+| **PWA / offline** (READ-017) | Spike reopen criteria in [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md) |
+| **Cloud-synced reading state** | Multi-device sync is an explicit product goal |
+| **Broad semantic/provenance saturation** | Specific high-traffic gaps harm discoverability (not graph-completion for its own sake) |
+| **Mass concept sameAs / Wikidata / SEP mapping** | Targeted mappings for important concepts are fine; mass ontology maintenance needs a concrete consumer |
+| **Schema.org / SKOS predicate mapping** | Demonstrated machine-readable or SEO/LLM consumer need |
+| **`dateModified` from git churn** | A trustworthy semantic meaning for the date exists — do not emit false precision |
+| **Per-book language / license fields** | First real non-English content or materially different licenses |
+| **Structured bibliographic source normalization** | A concrete consumer needs parseable fields beyond citation strings |
+| **Generalized publishing** — hardcover, color interiors, PDF/X hardening, `immutable_release` ISBN archives, structured cover-warning IDs | Real print, printer rejection, or archival requirement |
+
+---
+
+## 6. Completed / superseded
+
+Do not reopen these as active product phases. Specialized plans keep implementation history.
 
 | Outcome | Evidence |
 |---------|----------|
 | Find Your Way (search, questions, trails, Start Here, explore) | Routes + E2E + contributing guides |
 | Unify corpus contract (manifest 2.3) | Contract + schemas + generators |
-| Monorepo migration Phases 0–8 | Migration plan + phase records |
+| Monorepo migration Phases 0–8 | [`monorepo-migration-plan.md`](monorepo-migration-plan.md) |
 | Cover derivative pipeline | [`book-cover-assets.md`](../book-cover-assets.md) |
-| Canonical editions / What’s New / book overviews | Site plan Phases A–H landed |
-| Native Reader V1 + deepen-reading chrome | READ-001–016 implemented; READ-017 defer |
-| Priority chapter enrichment books 1–5 | [`reports/semantic-enrichment-remaining-gaps.md`](../../reports/semantic-enrichment-remaining-gaps.md) |
-| Content-type / literary-form corrections | [`enrichment-content-type-corrections.md`](../migrations/enrichment-content-type-corrections.md) |
+| Canonical editions / What’s New / book overviews | Site plan Phases A–H |
+| Native Reader V1 + deepen-reading chrome | READ-001–016; READ-017 defer |
+| Priority chapter enrichment books 1–5 | Enrichment gaps / coverage reports |
+| CORPUS-003 `before-certainty-arrives` chapter enrichment | Coverage audit 2026-08-01: **15/15** |
+| CORPUS-004 `living-in-sediment` chapter enrichment | Coverage audit: **21/21** |
+| Content-type / literary-form corrections | Migrations note |
 | IngramSpark initial packaging (INGRAM-001–011) | [`ingramspark-distribution-target.md`](ingramspark-distribution-target.md) |
-| Concept definition display helper | `apps/site/lib/graph/conceptFormatting.ts` (PROVENANCE-001) |
-| Public roadmap pointer from README | Root README → this document (OPS-002) |
-
----
-
-## 3. What genuinely remains
-
-| Track | Remaining outcome |
-|-------|-------------------|
-| **Repository transparency** | Root `CONTRIBUTING.md`; corpus vs site issue templates; GitHub settings checklist (Kevin) |
-| **Editorial / historical metadata** | Publication-date evidence workflow; ASIN confirmations; remaining chapter/poem enrichment; historical What’s New where dates are real |
-| **Semantic traceability (targeted)** | Thinker concept panel, JSON-LD `knowsAbout`, optional thinkers-by-concept filter; selective grounding—not graph saturation |
-| **Think Together** | Product brief only when Kevin chooses a pilot; no social platform build now |
-
----
-
-## 4. Now / Next / Later
-
-### Now
-
-Highest-value, actionable, clear current benefit.
-
-1. **OPS-001** — Root `CONTRIBUTING.md` + semantic contribution guidelines  
-2. **OPS-001b** — Issue templates distinguishing corpus vs `apps/site`
-
-### Next
-
-Valuable work that depends on Now items, Kevin’s decisions, or editorial evidence.
-
-1. **PROVENANCE-002** — Thinker concept coverage panel  
-2. **PROVENANCE-003** — JSON-LD `knowsAbout` for thinkers  
-3. **CORPUS-001** — Publication-date evidence file + backfill workflow (Kevin)  
-4. **CORPUS-002** — Confirm Amazon ASINs for two authority titles (Kevin / external)  
-5. **CORPUS-003–008** — Remaining priority chapter/poem enrichment (editorial)  
-6. **CORPUS-009** — Historical What’s New backfill where dates are confirmed  
-7. **PROVENANCE-004** — Explore thinkers-by-concept filter (after more concept links exist)  
-8. **PROVENANCE-005–007** — Targeted grounding / metadata cleanup (quality over quantity)  
-9. **OPS-003** — Complete GitHub settings checklist (Kevin / external)
-
-### Specialized site UX (tracked outside this master backlog)
-
-- Books index / curated shelves / book detail / native reader redesign is a **completed specialized site plan** (Phases A–G). See [`apps/site/docs/roadmaps/books-reader-redesign.md`](../../apps/site/docs/roadmaps/books-reader-redesign.md). Remaining deferrals (highlights/notes, visual-regression suite, Mobile Safari manual checks) promote here only if they outgrow site-only UX work.
-- Patterns index / Pattern detail mobile redesign is a **completed specialized site plan** (Phases 1–6). See [`apps/site/docs/roadmaps/patterns-mobile-redesign.md`](../../apps/site/docs/roadmaps/patterns-mobile-redesign.md).
-- Concepts, thinkers, sources, situations, questions, and reader trails mobile redesign is a **completed specialized site plan** (Phases 0–6). See [`apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md`](../../apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md). Type/kind catalog controls shipped in Phase 1b; **PROVENANCE-004** remains the separate thinkers-by-**concept** filter. Promote unfinished follow-ups here only if they outgrow site-only UX work.
-
-### Specialized cross-layer plans (tracked outside day-to-day Now/Next)
-
-- **AUDIO-001** — Provider-neutral selective chapter narration for the native reader is an **active specialized plan** (Phases 0–8). See [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md). ElevenLabs first adapter; OpenAI = optional Phase 7 eval. **Shipped:** Phases 0–6; OP full book + WOLTY v1 full book Listen; Flash estimate calibrated **0.25 credit/char** (2026-08-05). **Next:** Curiosity Before Certainty intro + Ch.1 generate (~2k credits); further books / OpenAI only after credit refresh or explicit eval. Git LFS for MP3s; enabled ≠ available; no provider API keys in ordinary CI or Cursor. Promote unfinished follow-ups here only when they outgrow the specialized plan.
-- **GAME-001** — Pattern Recognition Challenge is an **active specialized plan** (Phases 0–9). See [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md). Local-first Recognition game with authored `semantic/challenges/` content, Daily + Practice sessions, Insight XP / Pattern Memory in browser storage; no auth required; Supabase sync explicitly later. **Shipped:** `GAME-001a`–`001d` (single + Daily/Practice + related content + a11y/e2e/analytics/SEO). **In progress:** `GAME-001e` Session Completion Delight (Phase 7b — Pattern Constellation). Promote unfinished follow-ups here only when they outgrow the specialized plan.
-
-### Later / revisit when triggered
-
-| Item | Trigger |
-|------|---------|
-| **AUDIO-001** expand beyond pilot / second provider | Phase 7–8 evaluation accepts more units/books or an additional adapter after quality, cost, licensing, and ops review ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
-| **GAME-001** enjoyability review / later modes | After optional Phase 7b Session Completion Delight (`GAME-001e`), pause for enjoyability before Supabase and advanced modes ([`pattern-recognition-challenge.md`](pattern-recognition-challenge.md) § Phase 7b) |
-| **TOGETHER-001** product brief | Kevin explicitly chooses a Think Together pilot and needs a mechanism that Substack, GitHub issues, email, or existing channels do not already provide |
-| **TOGETHER-002 / TOGETHER-003** | Only after TOGETHER-001 accepts a distinct mechanism (or fold simple feedback into OPS/CONTRIBUTING) |
-| **PROVENANCE-008** relationship provenance UI | Kevin decides public provenance beats a debug dump |
-| Offline / PWA (READ-017) | Criteria in [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md) |
-| Embeddings search | [`search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md) decision criteria flip |
-| Interior PDF/X hardening | Ingram rejects DeviceGray interiors, or another printer requires PDF/X |
-| Hardcover / non-house trims / color interiors | A real hardcover or color book is planned |
-| Structured cover-warning IDs | Packaging automation needs machine-readable preview-safe vs submission-block distinction beyond current error IDs |
-| `immutable_release` ISBN-tagged archives | Rolling `latest` kits stop meeting the actual archival need |
-
----
-
-## 5. Editorial and external dependencies
-
-| Need | Who | Related IDs |
-|------|-----|-------------|
-| Historical publication dates and evidence ranking | Kevin | CORPUS-001, CORPUS-002, CORPUS-009 |
-| Amazon/retailer ASIN confirmation | Kevin / external | CORPUS-002 |
-| Fiction/poem summary voice and spoiler bounds | Kevin | CORPUS-006, CORPUS-007 |
-| Chapter summaries for thin/zero-coverage titles | Editorial (Kevin judgment) | CORPUS-003–005 |
-| Priority thinkers for concept grounding | Kevin | PROVENANCE-005 |
-| Think Together moderation / public responses | Kevin | TOGETHER-001 |
-| Whether relationship provenance deserves public UI | Kevin | PROVENANCE-008 |
-| GitHub org/repo settings checklist | Kevin | OPS-003 |
-| GA4 Admin key events for reader funnel (`chapter_open`, `next_chapter`, `file_download`) | Kevin / analytics Admin | ANALYTICS-001 (events shipped; Admin marking remains) |
-| Provider TTS public-use licensing, disclosure, and stock/logical voice for chapter narration pilot | **Done (Kevin, 2026-08-05)** — Starter plan + voice catalog | AUDIO-001 ([`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md)) |
-
----
-
-## 6. Deferred ideas
-
-Intentionally postponed so they do not re-enter near-term planning:
-
-- User accounts / auth; cloud-synced annotations or reading progress  
-- Personal “Add to Reading Trail” / collaborative trails (curated trails remain browseable)  
-- Social feed or unmoderated public annotation walls  
-- AI-generated chapter or book summaries  
-- Runtime database or full CMS; native mobile app  
-- Complex recommendation engine  
-- Embeddings-backed search (until the evaluation doc says otherwise)  
-- Full offline PWA reading (READ-017)  
-- Optional Turbo remote cache enablement (ops DX, not product)  
-- Mass-filling all empty thinker concepts in one pass  
-
----
-
-## 7. Not currently worth doing
-
-Protects future agents from re-proposing these without a new trigger.
-
-| Idea | Why not now | Reopen when |
-|------|-------------|-------------|
-| Generalized hardcover / multi-edition manufacturing | No hardcover in flight; house paperback path works | A hardcover edition is planned |
-| Full color-interior pipeline | No color book planned; DeviceGray pilots accepted | A color interior is prepared |
-| Interior PDF/X rework as active work | Account uploads succeeded on DeviceGray; PDF/X is opt-in candidate | Ingram rejection or new printer policy |
-| Structured cover-warning IDs as product work | Blocking errors already have check IDs; warnings are opportunistic | CI/automation cannot distinguish preview-safe vs block without parsing English |
-| Page-count sync “product phase” | Sync exists; residual dirty-tree risk is owned by the operating procedure (commit CI-measured counts) | Packaging unexpectedly mutates sources without a review boundary that procedure cannot cover |
-| Cloud accounts / synced reading progress | Local progress meets current need | Multi-device sync is a stated product goal |
-| Social feeds / public annotation walls | No moderation capacity; conflicts with lightweight stance | Explicit Think Together pilot requires it |
-| Embeddings before search evaluation | Lexical search + aliases still primary | Evaluation criteria flip |
-| Offline/PWA after defer spike | Downloads already provide offline reading | Spike reopen criteria met |
-| Filling every semantic graph warning / empty thinker | Low reader value; high editorial cost | Specific high-traffic thinker/concept gaps harm discoverability |
-| `immutable_release` machinery | Rolling kits meet pilot need | ISBN-tagged archives required |
-| Duplicate “roadmap cleanup” task | This consolidation resolves it | — |
-
----
-
-## 8. Active task catalog
-
-Only genuinely remaining outcomes. Each entry must pass the value test (problem, benefit, who, evidence, consequence).
-
-### OPS-001 — Root CONTRIBUTING + semantic contribution guidelines
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Now |
-| **Problem** | Contributors and agents lack a single root entry for corpus vs site paths, validation commands, and review expectations. |
-| **Benefit** | Fewer incorrect PRs (wrong tree, skipped `make check`, semantic edits without schema awareness). |
-| **Who** | Kevin, future contributors, Cursor agents |
-| **Evidence** | No root `CONTRIBUTING.md`; only `apps/site/docs/contributing-*.md` |
-| **Consequence if skipped** | Repeated agent/contributor mistakes; slower reviews |
-| **Why now** | Unblocks clearer issue routing (with OPS-001b) after reader/discovery are stable |
-| **Acceptance** | File exists; links schemas, `make check`, site contributing guides |
-| **Changes** | author/editor workflow; contribution/community capability |
-
-### OPS-001b — Issue templates for corpus vs site
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Now |
-| **Problem** | GitHub issues have no templates separating manuscript/semantic vs `apps/site` bugs. |
-| **Benefit** | Cleaner triage; agents file in the right lane. |
-| **Who** | Kevin, contributors |
-| **Evidence** | No `.github/ISSUE_TEMPLATE/` |
-| **Consequence if skipped** | Misfiled issues; slower triage |
-| **Acceptance** | Templates distinguish corpus vs site; parallel with OPS-001 |
-| **Changes** | contribution/community capability |
-
-### PROVENANCE-002 — Thinker concept coverage panel
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Thinker pages do not clearly show concept coverage vs empty state when linked works have concepts. |
-| **Benefit** | Readers understand what a thinker is “about” on-site without hunting works. |
-| **Who** | Readers; Kevin evaluating graph usefulness |
-| **Evidence** | [`thinker-concept-site-issues.md`](../audits/thinker-concept-site-issues.md); many thinkers still thin in audit reports |
-| **Acceptance** | Panel on thinker detail; honest empty state |
-| **Changes** | reader experience; discoverability |
-
-### PROVENANCE-003 — JSON-LD `knowsAbout` for thinkers
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Thinker pages miss structured data for concept associations when `concepts` exist. |
-| **Benefit** | Better machine-readable discoverability for thinkers that already have concept links. |
-| **Who** | Readers via search engines; site SEO |
-| **Evidence** | Thinker routes exist; concept links exist for some thinkers; `knowsAbout` not emitted |
-| **Acceptance** | JSON-LD only when real concept links exist |
-| **Changes** | discoverability |
-
-### PROVENANCE-004 — Explore thinkers by concept filter
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next (after more concept links) |
-| **Problem** | `/explore/thinkers` cannot filter by concept. |
-| **Benefit** | Readers find interlocutors for a theme without scanning cards. |
-| **Who** | Readers |
-| **Evidence** | Thinkers index exists; concept facet absent; data richness still uneven. Type/kind filter+sort is tracked separately in [`explore-discovery-mobile-redesign.md`](../../apps/site/docs/roadmaps/explore-discovery-mobile-redesign.md) Phase 1b and does not replace this item. |
-| **Why later** | Filter value rises after PROVENANCE-005 adds links |
-| **Acceptance** | URL-shareable filter; empty states |
-| **Changes** | reader experience; discoverability |
-
-### PROVENANCE-005 — Targeted thinker↔work concept grounding
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next (editorial) |
-| **Problem** | Many public thinkers have empty concept lists; mass-fill would create noise. |
-| **Benefit** | Priority thinkers become useful navigation hubs for readers. |
-| **Who** | Readers; Kevin (priority list) |
-| **Evidence** | [`reports/thinker-concept-audit.md`](../../reports/thinker-concept-audit.md) |
-| **Acceptance** | Documented selection criteria; audit shows reduction for selected set; no spam links |
-| **Kevin** | Required for priority list |
-| **Changes** | data trustworthiness; discoverability |
-
-### PROVENANCE-006 — Normalize multi-author `creatorNames` mismatches
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | ~11 metadata-quality warnings for multi-author display/punctuation. |
-| **Benefit** | Cleaner source/thinker attribution on site and in audits; fewer false “data broken” signals for agents. |
-| **Who** | Readers (attribution); Kevin/agents (trust in reports) |
-| **Evidence** | [`reports/semantic-metadata-quality-audit.md`](../../reports/semantic-metadata-quality-audit.md); enrichment gaps report |
-| **Acceptance** | Regenerated audit shows 0 of those warnings |
-| **Changes** | data trustworthiness |
-
-### PROVENANCE-007 — Concept grounding + pattern provenance batch
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next (editorial, bounded) |
-| **Problem** | Grounding/provenance exists for a representative sample; further coverage is selective. |
-| **Benefit** | High-value patterns/concepts show why they appear in the graph—readers can trust the claim. |
-| **Who** | Readers; Kevin |
-| **Evidence** | Enrichment gaps report (20 patterns / 15 relationships as representative) |
-| **Acceptance** | Agreed batch size; coverage gain without quantity spam |
-| **Changes** | data trustworthiness |
-
-### CORPUS-001 — Publication-date evidence file + backfill workflow
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Most books lack authored publication dates; agents must not invent them from Git. |
-| **Benefit** | What’s New history and newest sorting become trustworthy where evidence exists. |
-| **Who** | Readers; Kevin |
-| **Evidence** | [`reports/publication-date-audit.md`](../../reports/publication-date-audit.md) (six dated; most unknown) |
-| **Acceptance** | Workflow documented; template + one example; unknown remains allowed |
-| **Kevin** | Required for evidence rows |
-| **Changes** | discoverability; author/editor workflow |
-
-### CORPUS-002 — Confirm Amazon ASINs for two authority titles
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Two ASINs need human confirmation before dates/change events can be authored. |
-| **Benefit** | Authority titles gain accurate history on What’s New and catalog sorting. |
-| **Who** | Kevin / external retailer check |
-| **Evidence** | Publication-date audit; enrichment gaps (`B0DWZ2ZFXG`, `B0GJ3QZQ1V`) |
-| **Acceptance** | Dates with evidence notes; change events; audit regen |
-| **Changes** | discoverability |
-
-### CORPUS-003 — Chapter enrichment: before-certainty-arrives
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Priority title lacks full chapter summaries used by in-book search and orientation. |
-| **Benefit** | Readers find chapters by theme; overviews and search improve. |
-| **Who** | Readers; Kevin (editorial judgment) |
-| **Evidence** | Enrichment gaps report — deferred priority books 6–9 |
-| **Acceptance** | Completeness present==total for the book; manifest regenerates clean |
-| **Changes** | reader experience; discoverability |
-
-### CORPUS-004 — Expand living-in-sediment beyond sample
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Only a sample of chapters has summaries (report: 1/21-class thinness). |
-| **Benefit** | Same as CORPUS-003 for this title. |
-| **Who** | Readers; Kevin |
-| **Evidence** | Enrichment gaps report |
-| **Acceptance** | Full coverage for reading units |
-| **Changes** | reader experience; discoverability |
-
-### CORPUS-005 — Chapter enrichment: the-economy-we-dont-experience
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Priority title lacks full chapter enrichment. |
-| **Benefit** | In-book search and orientation for economic themes. |
-| **Who** | Readers; Kevin |
-| **Evidence** | Enrichment gaps report |
-| **Acceptance** | Full chapter enrichment; clean manifest |
-| **Changes** | reader experience; discoverability |
-
-### CORPUS-006 — Fiction summaries: boundary-conditions
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Fiction needs anti-proof, low-spoiler summaries—not essay-style claims. |
-| **Benefit** | Readers can browse fiction chapters without spoiled plots or wrong genre tone. |
-| **Who** | Readers; Kevin (voice/spoiler judgment) |
-| **Evidence** | Enrichment gaps; literary form fiction |
-| **Acceptance** | Fiction-safe summaries authored |
-| **Changes** | reader experience |
-
-### CORPUS-007 — Poem summaries: observer-patterns
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | Poem kinds export without poem-level summaries. |
-| **Benefit** | In-book/search orientation for poetry without forcing prose essay tone. |
-| **Who** | Readers; Kevin (poetry voice) |
-| **Evidence** | Enrichment gaps (20 poems; summaries not authored) |
-| **Acceptance** | Poem-level summaries for exported poem kinds |
-| **Changes** | reader experience; discoverability |
-
-### CORPUS-008 — relatedWorks + situations for thin titles
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | `trust-beyond-similarity` and `what-we-cannot-see` still miss typed relatedWorks / situationCoverage. |
-| **Benefit** | Cross-book discovery and situation browsing improve for thin titles. |
-| **Who** | Readers |
-| **Evidence** | Enrichment gaps “Thin / partial remaining” |
-| **Acceptance** | Typed links present; completeness improves |
-| **Changes** | discoverability |
-
-### CORPUS-009 — Historical What’s New backfill
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next |
-| **Problem** | What’s New is sparse where real publication dates exist but events were never authored. |
-| **Benefit** | Readers see honest project history; newest sorting gains signal. |
-| **Who** | Readers; Kevin |
-| **Evidence** | Publication-date audit; change-event sparsity |
-| **Dependencies** | CORPUS-001/002 where applicable |
-| **Acceptance** | Events validate; `/whats-new` shows historical entries; no fabricated dates |
-| **Changes** | discoverability |
-
-### OPS-003 — Complete GitHub settings checklist
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Next (external) |
-| **Problem** | Manual GitHub protections remain unchecked in-repo. |
-| **Benefit** | Branch protection and related settings reduce accidental force-pushes and unsafe merges. |
-| **Who** | Kevin (org/repo UI) |
-| **Evidence** | [`github-settings-checklist.md`](../security/github-settings-checklist.md) open checkboxes |
-| **Acceptance** | Items checked or waived with notes |
-| **Changes** | repository reliability |
-
-### Later — TOGETHER-001 (trigger-gated)
-
-| Field | Value |
-|-------|-------|
-| **Horizon** | Later |
-| **Problem** | Site marketing says “think together” but no participation product exists. |
-| **Benefit** | Only worth building if a mechanism offers something Substack, GitHub issues, email, or existing discussion channels do not—e.g. chapter-tied reflection with editorial curation and no accounts. |
-| **Who** | Kevin (policy); readers if piloted |
-| **Evidence** | Marketing quotes only; no routes/schema |
-| **Trigger** | Kevin chooses a Think Together pilot |
-| **Acceptance** | Written brief with in/out of scope; feeds or declines TOGETHER-002/003 |
-| **Changes** | contribution/community capability (if accepted) |
-
----
-
-## 9. Completion ledger (retired task IDs)
-
-Preserved for commits, issues, and docs. Do not renumber survivors. Do not reopen under a new ID unless the remaining outcome is materially different.
+| PROVENANCE-001 concept definition helper | `apps/site/lib/graph/conceptFormatting.ts` |
+| ANALYTICS-001 reader funnel events | Shipped; Admin key-event marking remains Now (ops) |
+| OPS-002 public roadmap pointer from README | Root README → this document |
+| AUDIO-001 platform Phases 0–6 + CBC intro/Ch.1 generate slice | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md); further narration = Ongoing ops |
+| GAME-001a–001e Pattern Recognition Challenge through Session Completion Delight | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md); further game work = Observe then Triggered only |
+| Explore / patterns / books-reader mobile redesigns | Completed specialized site plans under `apps/site/docs/roadmaps/` |
+
+### Completion ledger (retired task IDs)
+
+Preserved for commits, issues, and docs. Do not renumber survivors.
 
 | ID | Status | Note |
 |----|--------|------|
-| READ-001 | Complete | Chapter URL / identity contract |
-| READ-002 | Complete | SSR chapter routes |
-| READ-003 | Complete | Manuscript HTML pipeline |
-| READ-004 | Complete | TOC + prev/next |
-| READ-005 | Complete | Search eligibility for live chapters |
-| READ-006 | Complete | Overview → chapter links |
-| READ-007 | Complete | Footnotes / anchors |
-| READ-008 | Complete | Reader a11y baseline |
-| READ-009 | Complete | Sitemap + E2E smoke |
-| READ-010 | Complete | Cohort = all published catalog editions |
-| READ-011 | Complete | Local reading progress |
-| READ-012 | Complete | Continue-reading entry points |
-| READ-013 | Complete | Local bookmarks |
-| READ-014 | Complete | Text size / reading preferences |
-| READ-015 | Complete | TOC drawer + copy section link |
-| READ-016 | Complete | In-book search (titles/summaries) |
-| READ-017 | Complete — defer (no-ship) | Offline spike; reopen per spike doc |
-| PROVENANCE-001 | Complete | `getConceptDisplayDefinition` shipped and wired |
-| ANALYTICS-001 | Complete | Reader funnel: `chapter_open`, `next_chapter`, `file_download` (`location=reader`); consent-gated; GA4 Admin key-event marking remains Kevin |
-| OPS-002 | Complete | README points at this roadmap |
-| INGRAM-001–011 | Complete | See IngramSpark historical roadmap |
-| TOGETHER-002 | Deferred (gated) | After TOGETHER-001 only |
-| TOGETHER-003 | Deferred (gated) | After TOGETHER-001, or fold into OPS feedback path |
-| PROVENANCE-008 | Deferred (Kevin) | Ship or permanently defer after product decision |
+| READ-001–016 | Complete | Native reader |
+| READ-017 | Complete — defer (no-ship) | Offline spike |
+| PROVENANCE-001 | Complete | Concept display helper |
+| ANALYTICS-001 | Complete | Reader funnel events (Admin marking = ops Now) |
+| OPS-002 | Complete | README → roadmap |
+| INGRAM-001–011 | Complete | IngramSpark historical roadmap |
+| CORPUS-003 | Complete | `before-certainty-arrives` 15/15 |
+| CORPUS-004 | Complete | `living-in-sediment` 21/21 |
+| GAME-001a–001e | Complete | Through Session Completion Delight; Observe enjoyability next |
+| AUDIO Phases 0–6 | Complete | Platform; selective narration ongoing |
+| TOGETHER-002–003 | Triggered only | After TOGETHER-001 |
+| PROVENANCE-008 | Triggered only | Kevin product decision |
 
-**Active open IDs:** OPS-001, OPS-001b, OPS-003, PROVENANCE-002–007, CORPUS-001–009, TOGETHER-001 (Later), GAME-001 (specialized plan; not day-to-day Now).
+**Active Now IDs:** OPS-001, OPS-001b, OPS-003, PROVENANCE-002, PROVENANCE-003, GA4 Admin key-event ops.
+
+**Demoted from active backlog (not deleted as ideas):** CORPUS-001/002/005–009 → Ongoing; PROVENANCE-004 → Triggered; PROVENANCE-005–007 → Ongoing JIT; GAME Phase 8–9 → Triggered; AUDIO Phase 7 → Triggered; TOGETHER-001 → Triggered.
 
 ---
 
-## 10. Definition of done (current horizon)
+## 7. Editorial gates (human; not engineering backlog)
 
-The current roadmap horizon is complete when:
+From [`upcoming/docs/portfolio-status.md`](../../upcoming/docs/portfolio-status.md):
 
-1. Root contribution docs and issue templates exist (OPS-001 / OPS-001b).  
-2. Reader funnel events shipped privacy-safely (ANALYTICS-001); GA4 Admin key-event marking is Kevin follow-up.  
-3. Publication-date workflow exists and known ASIN confirmations are resolved or documented unknown (CORPUS-001/002).  
-4. Remaining priority enrichment books/poems in CORPUS-003–008 are done or explicitly deprioritized with reason.  
-5. At least PROVENANCE-002/003 land for thinker discoverability; further grounding stays targeted.  
-6. Think Together remains brief-gated until Kevin triggers it.  
-7. No completed reader/discovery/monorepo/IngramSpark/analytics work is listed as active backlog.
+- **When Interpretation No Longer Matters** — author sign-off Parts III–IV; export smoke
+- **Why Diversity Matters** — author intro + chapter drafts (early)
+- **Velorum** — beta readers; export smoke
+- Author Part I read-through before any large expansion toward book-rules word bands
+- Echo checks before promotion/cross-link in judgment / alignment / compression cluster
+
+Do **not** treat “expand essay editions to 50–90k words” as product roadmap work. Expansion is author intent.
 
 ---
 
-## 11. Links
+## 8. GitHub issue reconciliation (2026-08-22)
+
+Roadmap-adjacent open issues reconciled so the tracker does not shadow this backlog:
+
+| Issue | Disposition | Close note (maintainer action — agent lacked `issues: write`) |
+|------|-------------|------------------|
+| [#108](https://github.com/After-Certainty/after-certainty/issues/108) readingOrder / relatedSlugs | Triggered only / parked — reopen when a concrete site consumer needs the fields | Close as not planned |
+| [#109](https://github.com/After-Certainty/after-certainty/issues/109) purchase_links / ISBNs | Ongoing publishing maintenance | Close as not planned (ops practice, not product tracker) |
+| [#110](https://github.com/After-Certainty/after-certainty/issues/110) interpretation pull quotes | Editorial polish — not product infrastructure | Close as not planned |
+| [#231](https://github.com/After-Certainty/after-certainty/issues/231) structured bibliographic sources | Triggered only — no broad normalization without a consumer | Close as not planned |
+| [#232](https://github.com/After-Certainty/after-certainty/issues/232) concept sameAs authorities | Triggered only — targeted mappings OK; not mass ontology work | Close as not planned |
+| [#233](https://github.com/After-Certainty/after-certainty/issues/233) predicate → schema.org/SKOS | Triggered only research | Close as not planned |
+| [#234](https://github.com/After-Certainty/after-certainty/issues/234) entity dateModified | Reject false precision unless trustworthy semantic date exists | Close as not planned |
+| [#235](https://github.com/After-Certainty/after-certainty/issues/235) per-book license + language | Triggered only — first real non-English or license variance | Close as not planned |
+
+This environment’s GitHub token could not comment on or close issues (`Resource not accessible by integration`). A maintainer should apply the close actions above so the issue tracker matches this roadmap.
+
+---
+
+## 9. Links
 
 | Kind | Paths |
 |------|-------|
 | Index | [`docs/roadmaps/README.md`](README.md) |
-| Historical plans | [`monorepo-migration-plan.md`](monorepo-migration-plan.md); [`ingramspark-distribution-target.md`](ingramspark-distribution-target.md); site plans under `apps/site/docs/roadmaps/` |
-| Procedures | [`ingramspark-operating-procedure.md`](../publishing/ingramspark-operating-procedure.md); [`search-quality-workflow.md`](../../apps/site/docs/roadmaps/search-quality-workflow.md) |
-| Contracts | [`semantic-manifest-contract.md`](../semantic-manifest-contract.md); [`semantic-chapter-identity.md`](../semantic-chapter-identity.md); [`book-cover-assets.md`](../book-cover-assets.md) |
+| Specialized (active pointers) | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md); [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) |
+| Historical | [`monorepo-migration-plan.md`](monorepo-migration-plan.md); [`ingramspark-distribution-target.md`](ingramspark-distribution-target.md); site plans under `apps/site/docs/roadmaps/` |
+| Procedures | IngramSpark operating procedure; [`search-quality-workflow.md`](../../apps/site/docs/roadmaps/search-quality-workflow.md) |
 | Reports | [`reports/`](../../reports/) (regenerate for truth; do not hand-edit values) |
 | Editorial SoT | [`upcoming/docs/portfolio-status.md`](../../upcoming/docs/portfolio-status.md) |
 | Security ops | [`github-settings-checklist.md`](../security/github-settings-checklist.md) |
-| Deferred spikes | [`offline-reading-spike.md`](../../apps/site/docs/offline-reading-spike.md); [`search-embeddings-evaluation.md`](../../apps/site/docs/roadmaps/search-embeddings-evaluation.md) |
+| Deferred spikes | Offline reading spike; search embeddings evaluation |
 
 ---
 
 ## Document maintenance
 
-When a task completes: move its ID to the completion ledger, remove it from §8 and from Now/Next, and update §1 if project position changed. Do not leave phases marked Active with no remaining work.
+When a Now item completes: move its ID to the completion ledger and remove it from §2. Prefer shrinking this document over preserving historical ID catalogs. Specialized plans keep phase history; this master roadmap stays scannable.
