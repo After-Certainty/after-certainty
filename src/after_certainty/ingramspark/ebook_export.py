@@ -9,9 +9,9 @@ from pathlib import Path
 from typing import Any
 
 from after_certainty.core.repo_root import repo_root
+from after_certainty.export.assets import epub_css
 from after_certainty.ingramspark.ebook_cover import export_epub_internal_cover_image
 from after_certainty.ingramspark.paths import ebook_isbn, ebook_output_dir
-from book_export_assets import epub_css
 from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 
 _REPO_ROOT = repo_root(Path(__file__))

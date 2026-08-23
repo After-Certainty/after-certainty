@@ -15,16 +15,16 @@ if str(_REPO / "tools") not in sys.path:
 if str(_REPO / "scripts") not in sys.path:
     sys.path.insert(0, str(_REPO / "scripts"))
 
+from after_certainty.export.typst_manifest import (
+    manifest_lines_for_units,
+    parse_index_markdown_links,
+)
 from book_specs import (  # noqa: E402
     load_book_spec,
     resolve_spec_path,
     spec_formats,
     spec_pdf_engine,
     validate_book_spec,
-)
-from generate_typst_manifest import (  # noqa: E402
-    manifest_lines_for_units,
-    parse_index_markdown_links,
 )
 
 

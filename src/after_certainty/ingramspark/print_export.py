@@ -112,26 +112,16 @@ def _typst_pdf(
     typst_bin: str = "typst",
 ) -> None:
     """Compile the book's Typst print entry (no jacket art on the title page)."""
-    if str(_TOOLS) not in sys.path:
-        sys.path.insert(0, str(_TOOLS))
-    if str(_SCRIPTS) not in sys.path:
-        sys.path.insert(0, str(_SCRIPTS))
-    from export_typst_pdf import (  # noqa: PLC0415
-        ensure_typst_version,
-        typst_binary,
-    )
-    from generate_typst_manifest import write_typst_manifest  # noqa: PLC0415
+    from after_certainty.export.typst import ensure_typst_version, typst_binary
+    from after_certainty.export.typst_manifest import write_typst_manifest
+    from after_certainty.specs.book_specs import load_spec_for_book_dir
 
-    # Prefer a dedicated print entry that omits cover-image; fall back to main.typ.
     print_entry = book_dir / "typst" / "main-print.typ"
     entry_path = print_entry if print_entry.is_file() else book_dir / "typst" / "main.typ"
     if not entry_path.is_file():
         raise PrintExportError(
             f"Typst entry not found for print export (tried {print_entry.name} and main.typ)"
         )
-
-    # Load min version from book.yml when available via sibling import path.
-    from book_specs import load_spec_for_book_dir  # noqa: PLC0415
 
     try:
         spec = load_spec_for_book_dir(book_dir)

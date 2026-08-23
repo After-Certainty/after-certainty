@@ -2,14 +2,9 @@
 
 from __future__ import annotations
 
-import sys
 from pathlib import Path
 
-SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
-if str(SCRIPTS) not in sys.path:
-    sys.path.insert(0, str(SCRIPTS))
-
-from export_pdf import stage_pdf_units  # noqa: E402
+from after_certainty.export.pdf import stage_pdf_units
 
 
 def test_stage_pdf_units_keeps_distinct_bridge_files(tmp_path: Path) -> None:

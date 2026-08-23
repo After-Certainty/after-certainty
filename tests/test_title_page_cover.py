@@ -2,22 +2,17 @@
 
 from __future__ import annotations
 
-import sys
 from pathlib import Path
 
-SCRIPTS = Path(__file__).resolve().parent.parent / "scripts"
-if str(SCRIPTS) not in sys.path:
-    sys.path.insert(0, str(SCRIPTS))
-
-from after_certainty.export.assets import (  # noqa: E402
+from after_certainty.export.assets import (
     prepare_bridge_markdown_for_pdf,
     prepare_title_page_for_docx,
     prepare_title_page_for_pdf,
     strip_inline_title_page_cover,
     title_page_cover_alt,
 )
-from after_certainty.export.docx import stage_docx_units  # noqa: E402
-from export_pdf import stage_pdf_units  # noqa: E402
+from after_certainty.export.docx import stage_docx_units
+from after_certainty.export.pdf import stage_pdf_units
 
 TITLE_PAGE = '![Book cover](BookCover.png){ width=100% }\n\n\\newpage\n\n# **Title**\n'
 
