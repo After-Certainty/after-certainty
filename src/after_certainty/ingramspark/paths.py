@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from book_specs import (
+from after_certainty.specs.book_specs import (
     ingramspark_artifact_name,
     ingramspark_preview_artifact_name,
     spec_ingramspark_target,

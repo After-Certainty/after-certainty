@@ -36,7 +36,7 @@ from after_certainty.ingramspark.template_meta import (
     normalize_template_meta,
     validate_barcode_reserve_geometry,
 )
-from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
+from after_certainty.specs.book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 
 CheckStatus = Literal["passed", "failed", "warning", "manual-review"]
 

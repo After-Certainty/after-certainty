@@ -20,7 +20,7 @@ from after_certainty.ingramspark.template_meta import (
     load_template_meta_schema,
     normalize_template_meta,
 )
-from book_specs import spec_ingramspark_enabled, spec_ingramspark_target
+from after_certainty.specs.book_specs import spec_ingramspark_enabled, spec_ingramspark_target
 
 DEFAULT_TEMPLATE_META_REL = "assets/ingramspark/template-meta.yml"
 TRIM_TOLERANCE_INCHES = 0.02

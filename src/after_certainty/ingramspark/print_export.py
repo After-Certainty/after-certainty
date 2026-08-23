@@ -28,7 +28,7 @@ from after_certainty.ingramspark.pdf_inspect import inspect_pdf, media_box_match
 from after_certainty.ingramspark.profile import load_profile
 from after_certainty.manuscript.assemble import assemble_markdown_units
 from after_certainty.manuscript.publication_markdown import stage_publication_units
-from book_specs import (
+from after_certainty.specs.book_specs import (
     spec_ingramspark_enabled,
     spec_ingramspark_target,
     spec_pdf_engine,

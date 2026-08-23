@@ -18,7 +18,7 @@ from after_certainty.ingramspark.epubcheck import (
 )
 from after_certainty.ingramspark.paths import ebook_isbn, ebook_output_dir
 from after_certainty.ingramspark.profile import load_profile
-from book_specs import spec_ingramspark_target
+from after_certainty.specs.book_specs import spec_ingramspark_target
 
 _PAGE_REF_RE = re.compile(r"\bpage\s+\d+\b", re.I)
 
