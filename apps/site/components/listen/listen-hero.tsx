@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
-import { exploreSecondaryButtonClass } from "@/components/explore/explore-action-buttons";
 import { Container } from "@/components/ui/container";
 import { explorePaths } from "@/lib/graph/explorePaths";
 
@@ -9,6 +8,10 @@ type ListenHeroProps = {
   countLabel?: string;
 };
 
+/**
+ * Listen page intro. Mobile Explore songs CTA lives with the library (above
+ * search) so it does not float in an empty band between hero and section.
+ */
 export function ListenHero({ countLabel }: ListenHeroProps) {
   return (
     <div className="relative">
@@ -21,9 +24,8 @@ export function ListenHero({ countLabel }: ListenHeroProps) {
         countLabel={countLabel}
         lede="The same questions, carried in another register. Listen to songs that move through uncertainty, trust, meaning, love, systems, perception, and the spaces between them."
       />
-      <Container className="relative z-10 -mt-1 max-w-4xl pb-3 md:-mt-4 md:pb-8">
-        {/* Desktop: keep the fuller semantic-map context. Mobile: one clear path. */}
-        <p className="hidden text-sm text-muted md:block">
+      <Container className="relative z-10 hidden max-w-4xl -mt-4 pb-8 md:block">
+        <p className="text-sm text-muted">
           Prefer the semantic map?{" "}
           <Link
             href={explorePaths.songs}
@@ -34,11 +36,6 @@ export function ListenHero({ countLabel }: ListenHeroProps) {
           {" — "}
           how each composition connects to concepts, patterns, and books.
         </p>
-        <div className="md:hidden">
-          <Link href={explorePaths.songs} className={exploreSecondaryButtonClass}>
-            Explore songs →
-          </Link>
-        </div>
       </Container>
     </div>
   );

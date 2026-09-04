@@ -53,6 +53,18 @@ describe("ListenLibrary", () => {
     expect(embeds[0]).toHaveAttribute("data-title", "After Nothing Happens");
   });
 
+  it("places Explore songs above search for mobile listening-first flow", () => {
+    render(<ListenLibrary items={items} />);
+
+    const explore = screen.getByRole("link", { name: "Explore songs →" });
+    expect(explore).toHaveAttribute("href", "/explore/songs");
+
+    const search = screen.getByRole("searchbox", { name: /search songs/i });
+    expect(
+      explore.compareDocumentPosition(search) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+  });
+
   it("filters by title and short description", async () => {
     const user = userEvent.setup();
     render(<ListenLibrary items={items} />);

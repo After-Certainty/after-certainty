@@ -47,7 +47,7 @@ export function ExploreIndexHero({
 
   const sectionClass = editorial
     ? tightMobile
-      ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(22vh,196px)] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
+      ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
       : "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(28vh,240px)] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
     : compact
       ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(34vh,280px)] overflow-hidden border-b border-border/45 md:min-h-[min(48vh,520px)]"

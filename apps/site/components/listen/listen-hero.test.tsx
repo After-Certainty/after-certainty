@@ -25,12 +25,9 @@ describe("ListenHero", () => {
     render(<ListenHero countLabel="32 songs" />);
 
     const exploreLinks = screen.getAllByRole("link", { name: /explore songs/i });
-    expect(exploreLinks.length).toBeGreaterThanOrEqual(1);
-    for (const link of exploreLinks) {
-      expect(link).toHaveAttribute("href", "/explore/songs");
-    }
-
-    expect(screen.getByRole("link", { name: "Explore songs →" })).toBeInTheDocument();
+    expect(exploreLinks).toHaveLength(1);
+    expect(exploreLinks[0]).toHaveAttribute("href", "/explore/songs");
     expect(screen.getByText(/prefer the semantic map/i)).toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: "Explore songs →" })).not.toBeInTheDocument();
   });
 });
