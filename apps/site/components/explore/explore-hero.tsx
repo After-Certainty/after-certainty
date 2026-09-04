@@ -19,6 +19,11 @@ export type ExploreIndexHeroProps = {
    *   unless opted in.
    */
   density?: ExploreIndexHeroDensity;
+  /**
+   * Opt-in mobile-only tighter padding/min-height for listening-first pages.
+   * Desktop (`md:`) classes stay aligned with the chosen density.
+   */
+  mobileTighten?: boolean;
   /** Optional meta line under the lede (e.g. pattern count). */
   countLabel?: string;
 };
@@ -33,37 +38,49 @@ export function ExploreIndexHero({
   lede,
   headingId,
   density = "default",
+  mobileTighten = false,
   countLabel,
 }: ExploreIndexHeroProps) {
   const compact = density === "compact";
   const editorial = density === "editorial";
+  const tightMobile = mobileTighten && editorial;
 
   const sectionClass = editorial
-    ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(28vh,240px)] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
+    ? tightMobile
+      ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(22vh,196px)] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
+      : "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(28vh,240px)] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
     : compact
       ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(34vh,280px)] overflow-hidden border-b border-border/45 md:min-h-[min(48vh,520px)]"
       : "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(52vh,600px)] overflow-hidden border-b border-border/45 md:min-h-[min(56vh,640px)]";
 
   const containerClass = editorial
-    ? "relative z-10 mx-auto max-w-4xl px-6 py-8 text-left md:py-16 lg:py-20"
+    ? tightMobile
+      ? "relative z-10 mx-auto max-w-4xl px-6 py-5 text-left md:py-16 lg:py-20"
+      : "relative z-10 mx-auto max-w-4xl px-6 py-8 text-left md:py-16 lg:py-20"
     : compact
       ? "relative z-10 mx-auto max-w-4xl px-6 py-10 text-center md:py-20 md:text-left lg:py-24"
       : "relative z-10 mx-auto max-w-4xl px-6 py-20 text-center md:py-28 md:text-left lg:py-32";
 
   const titleClass = editorial
-    ? "mt-2 font-display text-4xl font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-6 md:text-6xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
+    ? tightMobile
+      ? "mt-1.5 font-display text-[2rem] font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-6 md:text-6xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
+      : "mt-2 font-display text-4xl font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-6 md:text-6xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
     : compact
       ? "mt-4 font-display text-4xl font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-8 md:text-7xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
       : "mt-8 font-display text-5xl font-medium leading-[1.05] tracking-[0.06em] text-balance md:text-7xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]";
 
   const ledeClass = editorial
-    ? "mt-3 max-w-2xl text-sm leading-relaxed text-fg/88 md:mt-6 md:text-lg dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
+    ? tightMobile
+      ? "mt-2 max-w-2xl text-sm leading-snug text-fg/88 md:mt-6 md:text-lg md:leading-relaxed dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
+      : "mt-3 max-w-2xl text-sm leading-relaxed text-fg/88 md:mt-6 md:text-lg dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
     : compact
       ? "mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-fg/88 md:mx-0 md:mt-10 md:text-lg dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
       : "mx-auto mt-10 max-w-2xl text-base leading-relaxed text-fg/88 md:mx-0 md:text-lg dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]";
 
   const ruleClass = editorial
-    ? "mt-4 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mt-10"
+    ? tightMobile
+      ? "mt-3 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mt-10"
+      : "mt-4 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mt-10"
     : compact
       ? "mx-auto mt-6 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mx-0 md:mt-14"
       : "mx-auto mt-14 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mx-0";
@@ -73,11 +90,18 @@ export function ExploreIndexHero({
     : "text-xs uppercase tracking-[0.42em] text-muted dark:drop-shadow-sm light:text-[rgb(255_252_248/0.82)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]";
 
   const countClass = editorial
-    ? "mt-2 text-xs uppercase tracking-[0.22em] text-fg/75 dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.85)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.4)]"
+    ? tightMobile
+      ? "mt-1.5 text-xs uppercase tracking-[0.22em] text-fg/75 dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.85)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.4)]"
+      : "mt-2 text-xs uppercase tracking-[0.22em] text-fg/75 dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.85)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.4)]"
     : "mx-auto mt-3 text-xs uppercase tracking-[0.22em] text-muted md:mx-0";
 
   return (
-    <section className={sectionClass} aria-labelledby={headingId} data-density={density}>
+    <section
+      className={sectionClass}
+      aria-labelledby={headingId}
+      data-density={density}
+      {...(mobileTighten ? { "data-mobile-tighten": "true" } : {})}
+    >
       <div className="explore-page__media pointer-events-none absolute inset-0 z-0">
         <Image
           src={backdropSrc}

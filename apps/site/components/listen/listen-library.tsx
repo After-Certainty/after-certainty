@@ -40,8 +40,8 @@ export function ListenLibrary({ items }: ListenLibraryProps) {
   const empty = filtered.length === 0;
 
   return (
-    <div className="space-y-8 md:space-y-10">
-      <div className="max-w-md">
+    <div className="space-y-5 md:space-y-10">
+      <div className="w-full max-w-md">
         <label htmlFor={inputId} className="sr-only">
           Search songs
         </label>
@@ -73,7 +73,7 @@ export function ListenLibrary({ items }: ListenLibraryProps) {
             : "No playable songs are published in the manifest yet."}
         </p>
       ) : (
-        <div className="grid grid-cols-1 gap-x-10 gap-y-2 md:grid-cols-2 md:gap-y-4">
+        <div className="grid grid-cols-1 gap-x-10 gap-y-0 md:grid-cols-2 md:gap-y-4">
           {filtered.map((item) => (
             <ListenSongCard key={item.slug} {...item} />
           ))}

@@ -17,11 +17,13 @@ export function ListenHero({ countLabel }: ListenHeroProps) {
         title="Songs from After Certainty"
         headingId="listen-hero-heading"
         density="editorial"
+        mobileTighten
         countLabel={countLabel}
         lede="The same questions, carried in another register. Listen to songs that move through uncertainty, trust, meaning, love, systems, perception, and the spaces between them."
       />
-      <Container className="relative z-10 -mt-2 max-w-4xl pb-6 md:-mt-4 md:pb-8">
-        <p className="text-sm text-muted">
+      <Container className="relative z-10 -mt-1 max-w-4xl pb-3 md:-mt-4 md:pb-8">
+        {/* Desktop: keep the fuller semantic-map context. Mobile: one clear path. */}
+        <p className="hidden text-sm text-muted md:block">
           Prefer the semantic map?{" "}
           <Link
             href={explorePaths.songs}
@@ -32,7 +34,7 @@ export function ListenHero({ countLabel }: ListenHeroProps) {
           {" — "}
           how each composition connects to concepts, patterns, and books.
         </p>
-        <div className="mt-4 md:hidden">
+        <div className="md:hidden">
           <Link href={explorePaths.songs} className={exploreSecondaryButtonClass}>
             Explore songs →
           </Link>
