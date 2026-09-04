@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { exploreIndexCatalogGridClassName } from "@/components/explore/explore-catalog-card";
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
 import { SongCard } from "@/components/explore/song-card";
+import { exploreSecondaryButtonClass } from "@/components/explore/explore-action-buttons";
 import { Section } from "@/components/ui/section";
 import { exploreIndexCountLabel } from "@/lib/explore/explore-index-browse";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
@@ -30,6 +32,22 @@ export default async function ExploreSongsIndexPage() {
         lede="Compositions that carry the same questions in a different register — recordings and the patterns they keep in play."
       />
       <Section atmosphere="transition" className="border-t border-border/25 py-6 md:py-16">
+        <p className="mb-8 text-sm text-muted md:mb-10">
+          Want to hear them?{" "}
+          <Link
+            href="/listen"
+            className="text-accent underline-offset-4 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          >
+            Open the listening library
+          </Link>
+          {" — "}
+          play primary recordings on After Certainty.
+        </p>
+        <div className="mb-8 md:hidden">
+          <Link href="/listen" className={exploreSecondaryButtonClass}>
+            Listen →
+          </Link>
+        </div>
         {songs.length === 0 ? (
           <p className="text-muted">No songs are published in the manifest yet.</p>
         ) : (

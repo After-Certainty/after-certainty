@@ -62,4 +62,13 @@ describe("SECURITY_HEADERS", () => {
     expect(csp).not.toContain("doubleclick");
     expect(csp).not.toContain("googlesyndication");
   });
+
+  it("allows YouTube and Suno embeds only in frame-src", () => {
+    const csp = SECURITY_HEADERS.find((h) => h.key === "Content-Security-Policy")?.value ?? "";
+    const frameSrc = csp.split(";").map((d) => d.trim()).find((d) => d.startsWith("frame-src"));
+    expect(frameSrc).toContain("https://www.youtube.com");
+    expect(frameSrc).toContain("https://www.youtube-nocookie.com");
+    expect(frameSrc).toContain("https://suno.com");
+    expect(frameSrc).not.toMatch(/frame-src[^;]*\s\*(?:\s|;|$)/);
+  });
 });

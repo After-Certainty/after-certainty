@@ -22,7 +22,8 @@ import { getSongBySlug } from "@/lib/graph/query/graphQueries";
 import { relatedContentForSong } from "@/lib/graph/query/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
-import type { ManifestSong, SongRecording } from "@/types/semanticGraph";
+import { primaryRecording, sunoSongUrl } from "@/lib/songs/recordings";
+import type { ManifestSong } from "@/types/semanticGraph";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -42,14 +43,6 @@ function adjacentSong(
     prev: index > 0 ? ordered[index - 1] : undefined,
     next: index < ordered.length - 1 ? ordered[index + 1] : undefined,
   };
-}
-
-function primaryRecording(song: ManifestSong): SongRecording | undefined {
-  return song.recordings.find((r) => r.primary) ?? song.recordings[0];
-}
-
-function sunoSongUrl(externalId: string): string {
-  return `https://suno.com/song/${externalId}`;
 }
 
 function youtubeUrl(externalId: string): string {
@@ -157,11 +150,11 @@ export default async function ExploreSongDetailPage({ params }: PageProps) {
           ) : null}
         </dl>
 
-        {primary ? (
+        {primary && sunoSongUrl(primary.externalId) ? (
           <section className="mt-6 md:mt-10" aria-label="Listen">
             <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
               <a
-                href={sunoSongUrl(primary.externalId)}
+                href={sunoSongUrl(primary.externalId)!}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={explorePrimaryButtonClass}
@@ -188,20 +181,25 @@ export default async function ExploreSongDetailPage({ params }: PageProps) {
         <ul className="mt-4 space-y-4 md:mt-6">
           {song.recordings.map((recording) => {
             const duration = formatDuration(recording.durationSeconds);
+            const href = sunoSongUrl(recording.externalId);
             return (
               <li
                 key={recording.externalId}
                 className="border-b border-border/20 pb-4 last:border-b-0 last:pb-0"
               >
                 <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <a
-                    href={sunoSongUrl(recording.externalId)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-medium text-fg underline-offset-4 hover:text-accent hover:underline"
-                  >
-                    {recording.recordingTitle}
-                  </a>
+                  {href ? (
+                    <a
+                      href={href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-fg underline-offset-4 hover:text-accent hover:underline"
+                    >
+                      {recording.recordingTitle}
+                    </a>
+                  ) : (
+                    <span className="font-medium text-fg">{recording.recordingTitle}</span>
+                  )}
                   {recording.primary ? (
                     <span className="text-[11px] uppercase tracking-[0.18em] text-accent">
                       Primary
