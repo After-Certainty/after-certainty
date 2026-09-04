@@ -1,0 +1,69 @@
+slug: nog
+title: Nóg
+shortDescription: 'Glacial Icelandic post-rock: a fragile voice chants Nóg—enough—to see, answer, and
+  keep hands open without demanding peace, proof, or a final complete picture.'
+longDescription: Long drones, bowed guitar, and late cavernous drums make sufficiency feel earned rather
+  than glib. Verses reject endless why-chains that never reach the wound, then redefine enough as attention,
+  responsibility, and restraint—not certainty, answers, or solution. After Certainty and The Discipline
+  of Uncertainty verify living and judging when understanding is incomplete. Commitment-leaves-room and
+  revisability-preserves-judgment match open hands and the right to be wrong. The world does not resolve;
+  the singer remains for now, which is the disciplined ending the ontology asks for.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/nog.md
+lyricLanguages:
+- is
+relatedConcepts:
+- uncertainty
+- provisional-commitment
+- judgment
+- humility
+- attention
+relatedPatterns:
+- commitment-leaves-room
+- revisability-preserves-judgment
+- finality-compensates-for-uncertainty
+relatedBooks:
+- the-discipline-of-uncertainty
+- after-certainty
+- curiosity-before-certainty
+recordings:
+- platform: suno
+  externalId: 5ed9e869-1225-4e4f-b202-535988b8958c
+  primary: true
+  recordingTitle: Nóg
+  createdAt: '2026-08-31T01:01:22.015Z'
+  durationSeconds: 457.0
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: cover
+  isRemix: true
+  styleTags: Ambient experimental Icelandic post-rock with a glacial, spacious atmosphere, now centered
+    on a fragile high female lead vocal. Very slow tempo, minimal structure, long instrumental passages,
+    bowed electric guitar, shimmering reverb-heavy guitar swells, low piano, deep drones, soft strings,
+    and distant synth textures growing into enormous distorted crescendos. The female voice is intimate
+    and breathy at first, gradually rising into aching sustained notes that blend with layered wordless
+    choir harmonies. Sparse percussion early, then huge cavernous live drums entering late in the song,
+    with lots of silence, decay, feedback, and natural room ambience. Melancholic, luminous, mysterious,
+    emotionally overwhelming but reserved, avoiding conventional pop structure, obvious hooks, glossy
+    production, or busy arrangements, with the “Nóg” mantra recurring and ending almost completely alone.
+    Shortened overall length by removing one full verse-sized lyrical passage while preserving the overarching
+  remixInstruction: Let’s shorten the song by cutting out a verse and change it to a female voice
+generation:
+  authoredPrompt: Ambient experimental Icelandic post-rock with a glacial, spacious atmosphere, centered
+    on a fragile high female lead vocal singing in Icelandic. Very slow tempo, minimal structure, long
+    instrumental passages, bowed electric guitar, shimmering reverb-heavy guitar swells, low piano, deep
+    drones, soft strings, and distant synth textures growing into enormous distorted crescendos. The female
+    voice is intimate and breathy at first, gradually rising into aching sustained notes that blend with
+    layered wordless choir harmonies. Sparse percussion early, then huge cavernous live drums entering
+    late in the song, with lots of silence, decay, feedback, and natural room ambience. Melancholic, luminous,
+    mysterious, emotionally overwhelming but reserved. Avoid conventional pop structure, obvious hooks,
+    glossy production, or busy arrangements. Keep the shortened overall structure, with one full verse-sized
+    lyrical passage removed, while preserving the song’s arc. Let “Nóg” become a slow recurring mantra
+    and end almost completely alone.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

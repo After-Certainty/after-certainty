@@ -90,7 +90,7 @@
     "schemaVersion": {
       "type": "string",
       "pattern": "^2\\.\\d+$",
-      "description": "Additive contract version. 2.1 introduces works/editions and discovery collections. 2.2 adds parts/chapters, literaryForm, overview.relatedWorks. 2.3 adds selected concept/pattern roles, grounding provenance, richer chapter transitions, and thinker identity classes. 2.4 adds organizing forces and pattern-language hierarchy fields (patternRole, organizingForce, realityDynamic)."
+      "description": "Additive contract version. 2.1 introduces works/editions and discovery collections. 2.2 adds parts/chapters, literaryForm, overview.relatedWorks. 2.3 adds selected concept/pattern roles, grounding provenance, richer chapter transitions, and thinker identity classes. 2.4 adds organizing forces and pattern-language hierarchy fields (patternRole, organizingForce, realityDynamic). 2.5 adds challenges[]. 2.6 adds songs[] and playlists[]."
     },
     "forces": {
       "type": "array",
@@ -164,6 +164,20 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/chapterEntry"
+      }
+    },
+    "songs": {
+      "type": "array",
+      "description": "Song compositions with recording provenance (schemaVersion 2.6).",
+      "items": {
+        "$ref": "#/$defs/songEntry"
+      }
+    },
+    "playlists": {
+      "type": "array",
+      "description": "Curated playlists of song recordings (schemaVersion 2.6).",
+      "items": {
+        "$ref": "#/$defs/playlistEntry"
       }
     }
   },
@@ -547,6 +561,14 @@
             "other",
             null
           ]
+        },
+        "songs": {
+          "type": "array",
+          "description": "Song ids that list this book in relatedBooks (schemaVersion 2.6).",
+          "items": {
+            "type": "string",
+            "pattern": "^song-[a-zA-Z0-9._-]+$"
+          }
         }
       }
     },
@@ -786,6 +808,14 @@
         },
         "grounding": {
           "$ref": "#/$defs/groundingBlock"
+        },
+        "relatedSongs": {
+          "type": "array",
+          "description": "Song slugs that list this entity (schemaVersion 2.6).",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       }
     },
@@ -897,7 +927,10 @@
         },
         "patternRole": {
           "type": "string",
-          "enum": ["master", "supporting"]
+          "enum": [
+            "master",
+            "supporting"
+          ]
         },
         "organizingForce": {
           "type": "string",
@@ -906,11 +939,24 @@
         },
         "realityDynamic": {
           "type": "string",
-          "enum": ["obscuring", "corrective"]
+          "enum": [
+            "obscuring",
+            "corrective"
+          ]
         },
         "editorialStatus": {
           "type": "string",
-          "enum": ["provisional"]
+          "enum": [
+            "provisional"
+          ]
+        },
+        "relatedSongs": {
+          "type": "array",
+          "description": "Song slugs that list this entity (schemaVersion 2.6).",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       }
     },
@@ -1263,7 +1309,9 @@
     "groundingBlock": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["type"],
+      "required": [
+        "type"
+      ],
       "properties": {
         "type": {
           "type": "string",
@@ -1282,29 +1330,53 @@
             "type": "object",
             "additionalProperties": false,
             "properties": {
-              "work": { "type": "string", "minLength": 1 },
-              "source": { "type": "string", "minLength": 1 },
-              "concept": { "type": "string", "minLength": 1 },
-              "pattern": { "type": "string", "minLength": 1 }
+              "work": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "concept": {
+                "type": "string",
+                "minLength": 1
+              },
+              "pattern": {
+                "type": "string",
+                "minLength": 1
+              }
             },
             "minProperties": 1
           }
         },
-        "note": { "type": "string" }
+        "note": {
+          "type": "string"
+        }
       }
     },
     "relationshipProvenanceBlock": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["origin"],
+      "required": [
+        "origin"
+      ],
       "properties": {
         "origin": {
           "type": "string",
-          "enum": ["authored", "extracted", "inferred", "source_grounded"]
+          "enum": [
+            "authored",
+            "extracted",
+            "inferred",
+            "source_grounded"
+          ]
         },
         "evidence": {
           "type": "array",
-          "items": { "type": "string", "minLength": 1 }
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       }
     },
@@ -1426,7 +1498,10 @@
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["conceptId", "roleInWork"],
+            "required": [
+              "conceptId",
+              "roleInWork"
+            ],
             "properties": {
               "conceptId": {
                 "type": "string",
@@ -1444,7 +1519,10 @@
           "items": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["patternId", "roleInWork"],
+            "required": [
+              "patternId",
+              "roleInWork"
+            ],
             "properties": {
               "patternId": {
                 "type": "string",
@@ -2357,8 +2435,291 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
-            "fromPrevious": { "type": "string" },
-            "toNext": { "type": "string" }
+            "fromPrevious": {
+              "type": "string"
+            },
+            "toNext": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "songRecording": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "platform",
+        "externalId",
+        "primary",
+        "recordingTitle"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string",
+          "enum": [
+            "suno"
+          ]
+        },
+        "externalId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary": {
+          "type": "boolean"
+        },
+        "recordingTitle": {
+          "type": "string"
+        },
+        "versionTitle": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string"
+        },
+        "durationSeconds": {
+          "type": "number"
+        },
+        "modelName": {
+          "type": "string"
+        },
+        "modelVersion": {
+          "type": "string"
+        },
+        "task": {
+          "type": "string"
+        },
+        "isRemix": {
+          "type": "boolean"
+        },
+        "coverClipId": {
+          "type": "string"
+        },
+        "editedClipId": {
+          "type": "string"
+        },
+        "styleTags": {
+          "type": "string"
+        },
+        "remixInstruction": {
+          "type": "string"
+        },
+        "lineageNote": {
+          "type": "string"
+        },
+        "supersededBy": {
+          "type": "string"
+        }
+      }
+    },
+    "songRelatedMedia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "externalId"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "youtube"
+          ]
+        },
+        "externalId": {
+          "type": "string",
+          "minLength": 6
+        },
+        "title": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        }
+      }
+    },
+    "songGeneration": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "authoredPrompt": {
+          "type": "string"
+        },
+        "authoredPromptSource": {
+          "type": "string"
+        },
+        "authoredPromptRetrievedAt": {
+          "type": "string"
+        }
+      }
+    },
+    "songEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "shortDescription",
+        "longDescription",
+        "creatorNames",
+        "lyricsPath",
+        "lyricLanguages",
+        "relatedConcepts",
+        "relatedPatterns",
+        "relatedBooks",
+        "recordings"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^song-[a-zA-Z0-9._-]+$"
+        },
+        "slug": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string"
+        },
+        "shortDescription": {
+          "type": "string"
+        },
+        "longDescription": {
+          "type": "string"
+        },
+        "creatorNames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lyricsPath": {
+          "type": "string"
+        },
+        "lyricLanguages": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedConcepts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedPatterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedBooks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "relatedSources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recordings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/songRecording"
+          }
+        },
+        "relatedMedia": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/songRelatedMedia"
+          }
+        },
+        "generation": {
+          "$ref": "#/$defs/songGeneration"
+        },
+        "grounding": {
+          "$ref": "#/$defs/groundingBlock"
+        },
+        "editorialStatus": {
+          "type": "string"
+        },
+        "searchAliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "playlistTrack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "position",
+        "songSlug",
+        "recordingExternalId"
+      ],
+      "properties": {
+        "position": {
+          "type": "integer"
+        },
+        "songSlug": {
+          "type": "string"
+        },
+        "songId": {
+          "type": "string"
+        },
+        "recordingExternalId": {
+          "type": "string"
+        }
+      }
+    },
+    "playlistEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "slug",
+        "title",
+        "platform",
+        "externalId",
+        "tracks"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^playlist-[a-zA-Z0-9._-]+$"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "platform": {
+          "type": "string"
+        },
+        "externalId": {
+          "type": "string"
+        },
+        "shareId": {
+          "type": "string"
+        },
+        "snapshotDate": {
+          "type": "string"
+        },
+        "tracks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/playlistTrack"
           }
         }
       }

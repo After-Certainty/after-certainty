@@ -28,7 +28,7 @@ import type { GraphIndex } from "@/lib/graph/graph";
 import type { ContinueReadingCatalog } from "@/lib/reading/continueReading";
 import { buildBookPageJsonLd } from "@/lib/seo/json-ld";
 import type { WhatsNewEvent } from "@/lib/whats-new/schema";
-import type { Book, GlossaryConcept, Pattern, Source, Thinker } from "@/types/semanticGraph";
+import type { Book, GlossaryConcept, ManifestSong, Pattern, Source, Thinker } from "@/types/semanticGraph";
 
 export type BookDetailLegacyLayoutProps = {
   book: Book;
@@ -50,6 +50,7 @@ export type BookDetailLegacyLayoutProps = {
     patterns: Pattern[];
     thinkers: Thinker[];
     researchSources: Source[];
+    songs?: ManifestSong[];
     useLegacyThinkersSection: boolean;
   };
   hasRelationships: boolean;
@@ -96,7 +97,8 @@ export function BookDetailLegacyLayout({
     inventory.concepts.length +
       inventory.patterns.length +
       inventory.thinkers.length +
-      inventory.researchSources.length >
+      inventory.researchSources.length +
+      (inventory.songs?.length ?? 0) >
     0;
   const typeInfo = contentTypeInfoFromBook(book);
   const typeEyebrow = typeInfo.isKnown ? typeInfo.label : "Book";
@@ -241,6 +243,7 @@ export function BookDetailLegacyLayout({
           <div className="flex flex-col gap-14">
             <RelatedContentGrid heading="Major concepts" concepts={inventory.concepts} />
             <RelatedContentGrid heading="Major patterns" patterns={inventory.patterns} />
+            <RelatedContentGrid heading="Related songs" songs={inventory.songs ?? []} />
             {inventory.useLegacyThinkersSection ? (
               <RelatedContentGrid heading="Major thinkers" sources={inventory.researchSources} />
             ) : (

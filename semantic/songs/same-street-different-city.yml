@@ -1,0 +1,61 @@
+slug: same-street-different-city
+title: Same Street, Different City
+shortDescription: 'Lo-fi bossa nova duet in Portuguese and English: one shared street becomes two weathers
+  of meaning, with a soft plea to stay long enough to look again.'
+longDescription: Nylon guitar and bilingual call-and-response embody finite perspective without debate-club
+  framing. Same rain falls as different sky; one watches night arrive while the other sees evening come
+  alive; arrival can look like leaving from the other angle. Trust Beyond Similarity and What We Cannot
+  See fit the verified claims—do not need to see everything, just stay and look again. Patterns contact-keeps-the-read-open
+  and understanding-circulates match the bridge’s ethic of partial coherence on one street that briefly
+  feels like two cities, then softens when each almost sees through the other’s eyes.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/same-street-different-city.md
+lyricLanguages:
+- pt
+- en
+relatedConcepts:
+- finite-perspective
+- interpretation
+- contact
+- partial-coherence
+relatedPatterns:
+- contact-keeps-the-read-open
+- understanding-circulates
+- attention-restores-contact
+relatedBooks:
+- what-we-cannot-see
+- trust-beyond-similarity
+- why-diversity-matters
+recordings:
+- platform: suno
+  externalId: 09f83469-236a-4fae-9195-f524d42f010a
+  primary: true
+  recordingTitle: Same Street, Different City
+  createdAt: '2026-08-29T01:49:34.311Z'
+  durationSeconds: 333.24
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: 1960s Brazilian bossa nova duet with a warm lo-fi twist. Intimate male vocalist singing softly
+    in Portuguese and airy female vocalist singing in English, trading lines conversationally before joining
+    in close harmony. Gentle nylon-string guitar, upright bass, brushed drums, light samba percussion,
+    subtle piano and vibraphone. Relaxed syncopated groove, romantic but understated, slightly wistful
+    and playful. Vintage tape warmth, soft vinyl crackle, muted room ambience, lightly filtered percussion,
+    and a faint dusty lo-fi beat underneath the acoustic rhythm. Effortless, elegant, late-night café
+    atmosphere—never glossy, dramatic, or over-sung.
+generation:
+  authoredPrompt: 1960s Brazilian bossa nova duet with a warm lo-fi twist. Intimate male vocalist singing
+    softly in Portuguese and airy female vocalist singing in English, trading lines conversationally before
+    joining in close harmony. Gentle nylon-string guitar, upright bass, brushed drums, light samba percussion,
+    subtle piano and vibraphone. Relaxed syncopated groove, romantic but understated, slightly wistful
+    and playful. Vintage tape warmth, soft vinyl crackle, muted room ambience, lightly filtered percussion,
+    and a faint dusty lo-fi beat underneath the acoustic rhythm. Effortless, elegant, late-night café
+    atmosphere—never glossy, dramatic, or over-sung.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

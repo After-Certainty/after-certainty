@@ -5,7 +5,7 @@ import Link from "next/link";
 import { RelationshipCard } from "@/components/explore/relationship-card";
 import { LinkifiedText } from "@/components/ui/linkified-text";
 import { graphNodeTitle, type GraphIndex, type GraphNode } from "@/lib/graph/graph";
-import { exploreHrefForNode, exploreObservatoryFocusHref } from "@/lib/graph/explorePaths";
+import { exploreHrefForNode, exploreObservatoryFocusHref, explorePaths } from "@/lib/graph/explorePaths";
 import {
   relatedContentForBook,
   relatedContentForConcept,
@@ -87,7 +87,8 @@ export function ObservatoryEntityPanel({
     bundle.patterns.length > 0 ||
     bundle.books.length > 0 ||
     bundle.sources.length > 0 ||
-    bundle.thinkers.length > 0;
+    bundle.thinkers.length > 0 ||
+    bundle.songs.length > 0;
 
   const cover =
     node.kind === "book"
@@ -266,6 +267,17 @@ export function ObservatoryEntityPanel({
                   onClick={() => onRelatedTerrainLinkNavigate?.()}
                 >
                   {t.name}
+                </Link>
+              </li>
+            ))}
+            {bundle.songs.slice(0, 6).map((song) => (
+              <li key={song.id}>
+                <Link
+                  href={`${explorePaths.songs}/${song.slug}`}
+                  className="block text-left hover:text-accent"
+                  onClick={() => onRelatedTerrainLinkNavigate?.()}
+                >
+                  {song.title}
                 </Link>
               </li>
             ))}

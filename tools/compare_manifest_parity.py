@@ -92,7 +92,7 @@ def _collection_count(manifest: dict[str, Any], key: str) -> int:
     return sum(1 for row in rows if not _is_author_facing_chapter(row))
 
 
-REQUIRED_LOCAL_SCHEMA_VERSION = "2.5"
+REQUIRED_LOCAL_SCHEMA_VERSION = "2.6"
 
 
 def _parse_schema_version(value: Any) -> tuple[int, int] | None:

@@ -181,6 +181,7 @@ const bookSchema = z.object({
   concepts: stringList,
   patterns: stringList,
   sources: stringList,
+  songs: stringList,
   media: bookMediaSchema.optional(),
   isbns: z.array(z.string().min(1)).optional(),
   purchaseLinks: z.array(bookPurchaseLinkSchema).optional(),
@@ -246,6 +247,7 @@ const glossaryConceptSchema = z.object({
   relatedConcepts: stringList,
   relatedPatterns: stringList,
   relatedBooks: stringList,
+  relatedSongs: stringList,
   grounding: semanticGroundingSchema.optional(),
   ...enrichmentFields,
 });
@@ -263,6 +265,7 @@ const patternSchema = z.object({
   relatedConcepts: stringList,
   relatedPatterns: stringList,
   relatedBooks: stringList,
+  relatedSongs: stringList,
   youtubeVideoId: youtubeVideoIdSchema.optional(),
   mediumArticleUrl: httpUrlSchema.optional(),
   infographic: mediaInfographicSchema.optional(),
@@ -291,6 +294,79 @@ const situationSchema = z.object({
   relatedConcepts: stringList,
   relatedBooks: stringList,
   ...enrichmentFields,
+});
+
+const songRecordingSchema = z.object({
+  platform: z.literal("suno"),
+  externalId: z.string().min(1),
+  primary: z.boolean(),
+  recordingTitle: z.string().min(1),
+  versionTitle: optionalManifestString,
+  createdAt: optionalManifestString,
+  durationSeconds: z.number().nonnegative().optional(),
+  modelName: optionalManifestString,
+  modelVersion: optionalManifestString,
+  task: optionalManifestString,
+  isRemix: z.boolean().optional(),
+  coverClipId: optionalManifestString,
+  editedClipId: optionalManifestString,
+  styleTags: optionalManifestString,
+  remixInstruction: optionalManifestString,
+  lineageNote: optionalManifestString,
+  supersededBy: optionalManifestString,
+});
+
+const songRelatedMediaSchema = z.object({
+  kind: z.literal("youtube"),
+  externalId: z.string().min(1),
+  title: optionalManifestString,
+  role: z.string().min(1).optional(),
+});
+
+const songGenerationSchema = z.object({
+  authoredPrompt: z.string().min(1),
+  authoredPromptSource: optionalManifestString,
+  authoredPromptRetrievedAt: optionalManifestString,
+});
+
+const manifestSongSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  shortDescription: z.string().min(1),
+  longDescription: z.string().min(1),
+  creatorNames: z.array(z.string().min(1)).min(1),
+  lyricsPath: z.string().min(1),
+  lyricLanguages: z.array(z.string().min(1)).min(1),
+  relatedConcepts: stringList,
+  relatedPatterns: stringList,
+  relatedBooks: stringList,
+  relatedSources: stringList,
+  recordings: z.array(songRecordingSchema).min(1),
+  relatedMedia: z.array(songRelatedMediaSchema).optional(),
+  generation: songGenerationSchema.optional(),
+  grounding: semanticGroundingSchema.optional(),
+  editorialStatus: z.enum(["provisional"]).optional(),
+  searchAliases: z.array(z.string().min(1)).optional(),
+});
+
+const playlistTrackSchema = z.object({
+  position: z.number().int().positive(),
+  songSlug: z.string().min(1),
+  songId: z.string().min(1).optional(),
+  recordingExternalId: z.string().min(1),
+});
+
+const manifestPlaylistSchema = z.object({
+  id: z.string().min(1),
+  slug: z.string().min(1),
+  title: z.string().min(1),
+  description: optionalManifestString,
+  platform: z.literal("suno"),
+  externalId: z.string().min(1),
+  shareId: optionalManifestString,
+  snapshotDate: optionalManifestString,
+  tracks: z.array(playlistTrackSchema).min(1),
 });
 
 const sourceKindSchema = z.enum([
@@ -617,7 +693,7 @@ const manifestChapterSchema = z.object({
  * Root manifest schema. Unknown top-level keys are stripped from the typed result;
  * schemaVersion 2.1+ discovery collections, 2.2 literaryForm / chapters / parts,
  * 2.3 roles / grounding / poetry kinds, 2.4 forces / pattern-language fields,
- * and 2.5 challenges are retained when present.
+ * 2.5 challenges, and 2.6 songs / playlists are retained when present.
  */
 export const semanticGraphSchema = z.object({
   books: z.array(bookSchema).default([]),
@@ -634,6 +710,8 @@ export const semanticGraphSchema = z.object({
   questions: z.array(manifestQuestionSchema).optional(),
   trails: z.array(manifestTrailSchema).optional(),
   challenges: z.array(manifestChallengeSchema).optional(),
+  songs: z.array(manifestSongSchema).optional(),
+  playlists: z.array(manifestPlaylistSchema).optional(),
   shelves: z.array(manifestShelfSchema).optional(),
   changeEvents: z.array(changeEventSchema).optional(),
   searchAliases: z.array(searchAliasSchema).optional(),
@@ -669,6 +747,8 @@ export function toSemanticGraph(data: SemanticGraphZod): SemanticGraph {
     questions: data.questions,
     trails: data.trails,
     challenges: data.challenges,
+    songs: data.songs,
+    playlists: data.playlists,
     shelves: data.shelves,
     changeEvents: data.changeEvents,
     searchAliases: data.searchAliases,

@@ -31,6 +31,7 @@ import type {
   Book as SemanticBook,
   GlossaryConcept,
   ManifestChapter,
+  ManifestSong,
   Pattern,
   SemanticGraph,
   Situation,
@@ -328,6 +329,65 @@ function buildSituationDocument(
   };
 }
 
+function buildSongDocument(
+  song: ManifestSong,
+  index: GraphIndex,
+  graph: SemanticGraph,
+  aliasTerms: string[],
+  relatedBridgeTerms: string[],
+): SearchDocument {
+  const relatedTitles = uniqueStrings([
+    ...resolveRelatedTitles(index, song.relatedPatterns),
+    ...resolveRelatedTitles(index, song.relatedConcepts),
+    ...resolveRelatedTitles(index, song.relatedBooks),
+    ...resolveRelatedTitles(index, song.relatedSources),
+  ]);
+  const recordingTitles = song.recordings.map((r) => r.recordingTitle);
+  const authoredAliases = song.searchAliases ?? [];
+
+  const searchText = joinSearchText([
+    song.title,
+    song.slug,
+    song.shortDescription,
+    song.longDescription,
+    ...song.creatorNames,
+    ...song.lyricLanguages,
+    ...recordingTitles,
+    ...authoredAliases,
+    ...aliasTerms,
+    ...relatedTitles,
+    ...relatedBridgeTerms,
+  ]);
+
+  return {
+    id: song.id,
+    entityType: "song",
+    slug: song.slug,
+    title: song.title,
+    description: song.shortDescription,
+    resultLabel: SEARCH_RESULT_LABELS.song,
+    canonicalUrl: `${explorePaths.songs}/${song.slug}`,
+    visibility: "listed",
+    searchText,
+    aliases: uniqueStrings([...aliasTerms, ...authoredAliases]),
+    relatedTitles: relatedTitles.length ? relatedTitles : undefined,
+    creatorNames: song.creatorNames.length ? [...song.creatorNames] : undefined,
+    conceptIds: song.relatedConcepts?.length ? [...song.relatedConcepts] : undefined,
+    patternIds: song.relatedPatterns?.length ? [...song.relatedPatterns] : undefined,
+    bookIds: song.relatedBooks?.length ? [...song.relatedBooks] : undefined,
+    boostWeight: computeSearchBoostWeight({ entityType: "song" }),
+    relationshipDensity: relationshipDensityForId(
+      graph,
+      song.id,
+      (song.relatedPatterns?.length ?? 0) +
+        (song.relatedConcepts?.length ?? 0) +
+        (song.relatedBooks?.length ?? 0) +
+        (song.relatedSources?.length ?? 0),
+    ),
+    sourceArtifact: "semantic",
+  };
+}
+
 function buildThinkerDocument(
   thinker: Thinker,
   index: GraphIndex,
@@ -599,6 +659,18 @@ export function buildSearchDocuments(input: BuildSearchDocumentsInput): SearchDo
         graph,
         aliasMap.get(situation.id) ?? [],
         relatedMap.get(situation.id) ?? [],
+      ),
+    );
+  }
+
+  for (const song of graph.songs ?? []) {
+    push(
+      buildSongDocument(
+        song,
+        index,
+        graph,
+        aliasMap.get(song.id) ?? [],
+        relatedMap.get(song.id) ?? [],
       ),
     );
   }

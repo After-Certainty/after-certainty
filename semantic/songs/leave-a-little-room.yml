@@ -1,0 +1,65 @@
+slug: leave-a-little-room
+title: Leave a Little Room
+shortDescription: 'Smoky nineteen-fifties jazz torch ballad: a low contralto asks for silence, maybe,
+  and unfinished meaning before anyone seals the night as simply true.'
+longDescription: 'Sparse hollow-body guitar and hush enact the lyric’s ethic. Lovers hear sighs and shadows
+  and place a story too quickly; old goodbyes dress tonight’s words; half-remembered hurt makes a whisper
+  sound right. The plea is restraint while meaning still moves and sometimes arrives only after speech
+  is spent. How Meaning Moves is the verified book spine—meaning-outruns-the-words, meaning-forms-early,
+  gaps-invite-completion—with contact-keeps-the-read-open as practice. Everyone Knows Love is a secondary
+  intimacy link: care that refuses a premature verdict on what the other meant before the eyes can learn
+  to see.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/leave-a-little-room.md
+lyricLanguages:
+- en
+relatedConcepts:
+- interpretation
+- meaning
+- contact
+- certainty
+relatedPatterns:
+- meaning-outruns-the-words
+- meaning-forms-early
+- gaps-invite-completion
+- contact-keeps-the-read-open
+relatedBooks:
+- how-meaning-moves
+- everyone-knows-love
+recordings:
+- platform: suno
+  externalId: b9dfaa4e-3c9d-44af-97b3-ff2191abcc0c
+  primary: true
+  recordingTitle: Leave a Little Room
+  createdAt: '2026-08-27T03:44:42.097Z'
+  durationSeconds: 307.96
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: 1950s late-night intimate jazz torch ballad, very slow and spacious, smoky low female contralto
+    vocal with restrained phrasing and almost conversational delivery. Sparse hollow-body jazz guitar
+    as the main accompaniment, playing warm chord voicings, subtle melodic fills, and short responses
+    between vocal lines. Upright bass used sparingly, delicate brushed drums entering only when needed.
+    Small after-hours club atmosphere, close-miked and intimate, lots of silence and breathing room. Sophisticated
+    jazz harmony, understated melancholy, romantic but emotionally ambiguous rather than sentimental.
+    The singer sounds composed on the surface while quietly carrying regret, tenderness, and uncertainty
+    underneath. Avoid big-band arrangements, dramatic crescendos, modern pop production, vocal runs, or
+    theatrical belting.
+generation:
+  authoredPrompt: 1950s late-night intimate jazz torch ballad, very slow and spacious, smoky low female
+    contralto vocal with restrained phrasing and almost conversational delivery. Sparse hollow-body jazz
+    guitar as the main accompaniment, playing warm chord voicings, subtle melodic fills, and short responses
+    between vocal lines. Upright bass used sparingly, delicate brushed drums entering only when needed.
+    Small after-hours club atmosphere, close-miked and intimate, lots of silence and breathing room. Sophisticated
+    jazz harmony, understated melancholy, romantic but emotionally ambiguous rather than sentimental.
+    The singer sounds composed on the surface while quietly carrying regret, tenderness, and uncertainty
+    underneath. Avoid big-band arrangements, dramatic crescendos, modern pop production, vocal runs, or
+    theatrical belting.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

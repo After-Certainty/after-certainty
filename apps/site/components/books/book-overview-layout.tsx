@@ -36,13 +36,14 @@ import type { ContinueReadingCatalog } from "@/lib/reading/continueReading";
 import { buildBookPageJsonLd } from "@/lib/seo/json-ld";
 import type { QuestionDefinition } from "@/types/questions";
 import type { WhatsNewEvent } from "@/lib/whats-new/schema";
-import type { Book, GlossaryConcept, Pattern, Source, Thinker } from "@/types/semanticGraph";
+import type { Book, GlossaryConcept, ManifestSong, Pattern, Source, Thinker } from "@/types/semanticGraph";
 
 export type BookOverviewRelatedInventory = {
   concepts: GlossaryConcept[];
   patterns: Pattern[];
   thinkers: Thinker[];
   researchSources: Source[];
+  songs?: ManifestSong[];
   useLegacyThinkersSection: boolean;
 };
 
@@ -133,7 +134,8 @@ export function BookOverviewLayout({
     inventory.concepts.length +
     inventory.patterns.length +
     inventory.thinkers.length +
-    inventory.researchSources.length;
+    inventory.researchSources.length +
+    (inventory.songs?.length ?? 0);
 
   const continueBook = readNext[0];
   const continueQuestion = relatedQuestions[0];
@@ -614,6 +616,7 @@ export function BookOverviewLayout({
             <div className="mt-10 flex flex-col gap-14">
               <RelatedContentGrid heading="Major concepts" concepts={inventory.concepts} />
               <RelatedContentGrid heading="Major patterns" patterns={inventory.patterns} />
+              <RelatedContentGrid heading="Related songs" songs={inventory.songs ?? []} />
               {inventory.useLegacyThinkersSection ? (
                 <RelatedContentGrid heading="Major thinkers" sources={inventory.researchSources} />
               ) : (

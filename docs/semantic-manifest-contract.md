@@ -1,4 +1,4 @@
-# Semantic manifest contract (v2.5)
+# Semantic manifest contract (v2.6)
 
 **Status:** Living contract — rules implementations must preserve (not a roadmap).  
 **Remaining product work:** [`docs/roadmaps/remaining-product-roadmap.md`](roadmaps/remaining-product-roadmap.md).
@@ -11,7 +11,7 @@
 2. **No flag-day site break** — consumers that ignore unknown fields continue to work.
 3. **Do not repurpose fields** — new meanings get new optional fields or collections.
 4. **Integer `manifestVersion`** — remains `1` or `2` (thinkers present → `2`). This is not bumped for additive discovery fields.
-5. **String `schemaVersion`** — currently `"2.5"` adds `challenges[]` for Pattern Recognition Challenge content. `"2.4"` adds organizing forces and pattern-language hierarchy fields. `"2.3"` adds selected concept/pattern roles, grounding provenance, richer chapter transitions, poetry kinds, and thinker identity classes. `"2.2"` documented parts/chapters, literaryForm, and overview `relatedWorks`. `"2.1"` introduced works/editions and discovery collections.
+5. **String `schemaVersion`** — currently `"2.6"` adds `songs[]` and `playlists[]` for song compositions and recording provenance. `"2.5"` adds `challenges[]` for Pattern Recognition Challenge content. `"2.4"` adds organizing forces and pattern-language hierarchy fields. `"2.3"` adds selected concept/pattern roles, grounding provenance, richer chapter transitions, poetry kinds, and thinker identity classes. `"2.2"` documented parts/chapters, literaryForm, and overview `relatedWorks`. `"2.1"` introduced works/editions and discovery collections.
 6. **Provenance** — `generatedAt`, `repository`, `ref`, `releaseTag`, and `sourceCommit` (git SHA when available).
 
 ## Existing collections (stable)
@@ -64,6 +64,15 @@ See [`docs/after-certainty-pattern-language.md`](after-certainty-pattern-languag
 | Collection | Role |
 |------------|------|
 | `challenges[]` | Authored Pattern Recognition Challenge scenarios (`challenge-{slug}`); pattern refs are bare slugs; see [`docs/roadmaps/pattern-recognition-challenge.md`](roadmaps/pattern-recognition-challenge.md) |
+
+## Additive collections (schemaVersion 2.6)
+
+| Collection | Role |
+|------------|------|
+| `songs[]` | Song compositions (`song-{slug}`) with lyrics path, descriptions, related books/concepts/patterns, and nested Suno recordings |
+| `playlists[]` | Playlist membership/order (`playlist-{slug}`); snapshot position is not song identity |
+
+Reverse links: `books[].songs` (song ids), `glossary[].relatedSongs` / `patterns[].relatedSongs` (song slugs) are generator-derived. Canonical lyrics live under `corpus/songs/<slug>.md` (not inlined in the manifest).
 
 ## Additive book fields
 

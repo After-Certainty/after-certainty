@@ -1,0 +1,66 @@
+slug: the-truth-got-a-side-door
+title: The Truth Got a Side Door
+shortDescription: 'Early-seventies psychedelic soul-funk: truth slips in barefoot through the side door
+  while your polished speech and shining shoes wait on the front steps.'
+longDescription: Wah guitar, clavinet, and call-and-response groove a philosophy of revisable sight. Front-door
+  certainty measures every window, then one detail rearranges the plot; the corner know-it-all looks too
+  far off to see persons. Curiosity Before Certainty and What We Cannot See verify trading what you noticed
+  for what I missed. Contact-keeps-the-read-open and reality-answers-back match leave the door unlocked
+  and truth that does not always knock. Prefer these over stretching sports or romance books—the lyric
+  already teaches humility without needing a scoreboard metaphor.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/the-truth-got-a-side-door.md
+lyricLanguages:
+- en
+relatedConcepts:
+- uncertainty
+- finite-perspective
+- humility
+- correction
+- certainty
+relatedPatterns:
+- gaps-invite-completion
+- contact-keeps-the-read-open
+- reality-answers-back
+- revisability-preserves-judgment
+relatedBooks:
+- curiosity-before-certainty
+- what-we-cannot-see
+- reality-pushes-back
+recordings:
+- platform: suno
+  externalId: 84c5ec6d-da90-4213-a114-27a4bd1fa556
+  primary: true
+  recordingTitle: The Truth Got a Side Door
+  createdAt: '2026-09-03T02:37:30.380Z'
+  durationSeconds: 338.16
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Early-1970s psychedelic soul and funk with a warm, slightly gritty analog sound. Deep melodic
+    bass, dry pocket drums, wah-wah electric guitar, clavinet, Rhodes electric piano, subtle organ, hand
+    percussion, and occasional lush strings or horn accents. Relaxed mid-tempo groove with lots of space,
+    syncopation, and live-band looseness. Soulful male lead vocal, conversational and slightly raspy,
+    moving between low intimate verses and light falsetto touches. Playful call-and-response backing vocals
+    in the breakdown. The chorus should feel instantly memorable but understated, built around “The truth
+    got a side door.” Philosophical, sly, earthy, and human rather than preachy. Vintage tape warmth,
+    small imperfections, extended instrumental fills, and a gently psychedelic atmosphere. Avoid disco
+    gloss, modern pop production, aggressive funk, or oversized vocal theatrics.
+generation:
+  authoredPrompt: Early-1970s psychedelic soul and funk with a warm, slightly gritty analog sound. Deep
+    melodic bass, dry pocket drums, wah-wah electric guitar, clavinet, Rhodes electric piano, subtle organ,
+    hand percussion, and occasional lush strings or horn accents. Relaxed mid-tempo groove with lots of
+    space, syncopation, and live-band looseness. Soulful male lead vocal, conversational and slightly
+    raspy, moving between low intimate verses and light falsetto touches. Playful call-and-response backing
+    vocals in the breakdown. The chorus should feel instantly memorable but understated, built around
+    “The truth got a side door.” Philosophical, sly, earthy, and human rather than preachy. Vintage tape
+    warmth, small imperfections, extended instrumental fills, and a gently psychedelic atmosphere. Avoid
+    disco gloss, modern pop production, aggressive funk, or oversized vocal theatrics.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

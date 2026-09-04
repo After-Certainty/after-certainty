@@ -47,7 +47,11 @@ export const SEARCH_RANKING_FIXTURES: SearchRankingFixture[] = [
   {
     id: "pattern-exceptions",
     query: "Exceptions Are Forever",
-    acceptableTopIds: ["pattern-exceptions-are-forever"],
+    acceptableTopIds: ["pattern-exceptions-are-forever", "song-exceptions-are-forever"],
+    mustIncludeInTop: {
+      n: 3,
+      ids: ["pattern-exceptions-are-forever"],
+    },
   },
   {
     id: "person-rebecca-solnit",

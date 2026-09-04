@@ -1,0 +1,64 @@
+slug: dont-let-the-score-fool-you
+title: Don’t Let the Score Fool You
+shortDescription: 'Warm nineteen-seventies soul: big bright numbers on a darkened wall tell a true ending
+  while erasing the thousand hands that actually carried the game.'
+longDescription: 'Intimate pocket, electric piano, and layered backups deliver The Game We Think We Saw
+  almost by name. The chorus separates truthful metrics from moral closure—scoreboard-remainder, winning-as-excuse,
+  star-as-explanation—while the whistle’s operational finality ends play without settling meaning. Pattern
+  results-conceal-the-game is a near-direct match: run it back slow and you still have to name the game
+  the board cannot show. Prefer this tight, high-confidence book link over weaker secondary titles; the
+  lyric already carries the portfolio’s sports epistemology without stretching into business metaphors
+  the song never invites.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/dont-let-the-score-fool-you.md
+lyricLanguages:
+- en
+relatedConcepts:
+- scoreboard-remainder
+- winning-as-excuse
+- star-as-explanation
+- operational-finality
+- compression
+relatedPatterns:
+- results-conceal-the-game
+- blame-compresses-complexity
+- finality-compensates-for-uncertainty
+relatedBooks:
+- the-game-we-think-we-saw
+recordings:
+- platform: suno
+  externalId: fdf8353b-6440-4f2d-a2cf-515a8418cb45
+  primary: true
+  recordingTitle: Don’t Let the Score Fool You
+  createdAt: '2026-08-28T03:10:02.233Z'
+  durationSeconds: 304.8
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Warm early-1970s socially conscious soul, intimate and reflective, with a relaxed pocket,
+    melodic bass, soft electric piano, understated guitar, gentle hand percussion, subtle orchestral strings,
+    and lush layered male backing vocals. Lead vocal is tender, conversational, slightly weary, and emotionally
+    searching rather than showy. The groove should feel elegant and human, gradually building in intensity
+    while staying restrained and soulful. Philosophical lyrics delivered like a personal observation rather
+    than a sermon.
+- platform: suno
+  externalId: 8bd9fa6a-e922-4fcc-bced-a00de23beb6d
+  primary: false
+  recordingTitle: Don’t Let the Score Fool You
+  lineageNote: Historical playlist recording superseded by the 2026-09-04 primary clip.
+  supersededBy: fdf8353b-6440-4f2d-a2cf-515a8418cb45
+generation:
+  authoredPrompt: Warm early-1970s socially conscious soul, intimate and reflective, with a relaxed pocket,
+    melodic bass, soft electric piano, understated guitar, gentle hand percussion, subtle orchestral strings,
+    and lush layered male backing vocals. Lead vocal is tender, conversational, slightly weary, and emotionally
+    searching rather than showy. The groove should feel elegant and human, gradually building in intensity
+    while staying restrained and soulful. Philosophical lyrics delivered like a personal observation rather
+    than a sermon.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

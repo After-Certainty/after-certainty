@@ -1,0 +1,67 @@
+slug: different-evidence
+title: Different Evidence
+shortDescription: 'Moody British alt-hop spoken word: comfort among similar voices dresses up as truth,
+  then awkward difference arrives as free additional data worth leaving room for.'
+longDescription: Dusty breaks carry a weary, witty lecture that nearly abstracts Trust Beyond Similarity.
+  Similarity makes trust easy; difference makes it useful. Shared words like safety and fair split underneath;
+  hard rooms stop mid-sentence when someone says you missed a bit. Why Diversity Matters reinforces the
+  outsider who notices what the easy room cannot see. Patterns dissent-is-welcomed and contact-keeps-the-read-open
+  match the hook’s leave-a-little-room ethic and the outro’s claim that no one sees everything, which
+  is why we need each other without surrendering judgment.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/different-evidence.md
+lyricLanguages:
+- en
+relatedConcepts:
+- trust
+- contestability
+- correction
+- feedback
+- bias
+relatedPatterns:
+- dissent-is-welcomed
+- contact-keeps-the-read-open
+- scrutiny-preserves-trust
+relatedBooks:
+- trust-beyond-similarity
+- why-diversity-matters
+- what-we-cannot-see
+recordings:
+- platform: suno
+  externalId: 5e9225e0-0d2a-4cb3-bbf1-7e08f70caa91
+  primary: true
+  recordingTitle: Different Evidence
+  createdAt: '2026-08-27T01:08:04.970Z'
+  durationSeconds: 339.52
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Moody British alternative hip-hop with a conversational spoken-word male vocal, dry understated
+    delivery, intelligent lyrical phrasing, and a slightly weary sense of humor. Mid-tempo beat with deep
+    warm bass, crisp UK garage-influenced drums, dusty breakbeats, subtle vinyl texture, sparse Rhodes
+    or piano, atmospheric guitar swells, and distant ambient synths. Verses should feel intimate, observational,
+    and almost like someone thinking out loud over the beat. Natural UK cadence, occasional half-spoken
+    phrasing, everyday language, understated wit, no exaggerated accent. The chorus should open up melodically
+    with layered backing vocals but remain restrained, melancholic, and reflective rather than anthemic.
+    Alternative Brit-hop meets downtempo trip-hop and atmospheric British indie rock, with a nocturnal,
+    cinematic feel and a gradual emotional build. Avoid trap hi-hats, glossy pop production, aggressive
+    grime delivery, obvious boom-bap nostalgia, or upbeat funkiness.
+generation:
+  authoredPrompt: Moody British alternative hip-hop with a conversational spoken-word male vocal, dry
+    understated delivery, intelligent lyrical phrasing, and a slightly weary sense of humor. Mid-tempo
+    beat with deep warm bass, crisp UK garage-influenced drums, dusty breakbeats, subtle vinyl texture,
+    sparse Rhodes or piano, atmospheric guitar swells, and distant ambient synths. Verses should feel
+    intimate, observational, and almost like someone thinking out loud over the beat. Natural UK cadence,
+    occasional half-spoken phrasing, everyday language, understated wit, no exaggerated accent. The chorus
+    should open up melodically with layered backing vocals but remain restrained, melancholic, and reflective
+    rather than anthemic. Alternative Brit-hop meets downtempo trip-hop and atmospheric British indie
+    rock, with a nocturnal, cinematic feel and a gradual emotional build. Avoid trap hi-hats, glossy pop
+    production, aggressive grime delivery, obvious boom-bap nostalgia, or upbeat funkiness.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

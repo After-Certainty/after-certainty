@@ -1,0 +1,77 @@
+slug: after-nothing-happens
+title: After Nothing Happens
+shortDescription: 'Nocturnal British indie: microwave blue light, a cracked cup, and love that keeps going
+  after nothing dramatic happens—just checking, half-asleep, that you are still there.'
+longDescription: 'Shimmering delayed guitars hold domestic micro-events as the entire plot: one sock,
+  radiator kicks, water left warm beside the bed, shoes moved from a doorway. Everyone Knows Love is the
+  verified book—care as lived mystery, repair without forced lessons, contact without announcement of
+  healed. Patterns care-preserves-particulars and attention-restores-contact match coming back enough
+  to be seen, keeping pieces nearby, and a foot finding another under the sheet. Not forever and not ceremonial
+  forgiveness: Tuesday becomes Wednesday, and presence for now is the whole claim.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/after-nothing-happens.md
+lyricLanguages:
+- en
+relatedConcepts:
+- care
+- contact
+- repair
+- connection
+- reciprocity
+relatedPatterns:
+- care-preserves-particulars
+- attention-restores-contact
+- contact-keeps-the-read-open
+relatedBooks:
+- everyone-knows-love
+- how-trust-forms
+recordings:
+- platform: suno
+  externalId: 82ca255e-4a41-4a3f-9392-0cc46287f7ba
+  primary: true
+  recordingTitle: After Nothing Happens (Shorter Version)
+  createdAt: '2026-08-26T20:54:13.236Z'
+  durationSeconds: 310.12
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: cover
+  isRemix: true
+  versionTitle: Shorter Version
+  styleTags: Atmospheric early-2000s British indie rock, nocturnal and cinematic, midtempo, minor-key,
+    spacious and emotionally restrained. Layers of shimmering electric guitar with long reverb and delay,
+    low warm bass, steady hypnotic drums, subtle organ and ambient textures. Intimate male vocal, slightly
+    weary and distant, conversational rather than theatrical. Verses feel close, sparse, and suspended
+    in space with small guitar details drifting around the vocal, gradually building density without becoming
+    bombastic. The refrain opens outward emotionally with wider guitars, deeper drums, and ghostly backing
+    vocals, controlled and melancholy rather than an obvious anthem. The bridge slips into a brief, dreamlike
+    blur before returning to a final section that feels expansive but unresolved, as if the song continues
+    beyond the ending.
+  remixInstruction: Can we keep trimming it but keep the same style?  Perhaps remove a verse?
+generation:
+  authoredPrompt: |-
+    Atmospheric early-2000s British indie rock, nocturnal and cinematic, midtempo, minor-key, spacious and emotionally restrained. Layers of shimmering electric guitar with long reverb and delay, low warm bass, steady hypnotic drums, subtle organ and ambient textures. Intimate male vocal, slightly weary and distant, conversational rather than theatrical.
+
+
+    Verses should feel close, sparse, and almost suspended in space. Let small sounds and guitar textures drift around the vocal. Gradually build density without becoming bombastic.
+
+
+    The refrain “After nothing happens” should open outward emotionally: wider guitars, deeper drums, ghostly backing vocals, but still controlled and melancholy rather than an obvious anthem.
+
+
+    The bridge should feel disorienting and dreamlike, with instruments blurring together and the rhythm briefly feeling less certain before returning.
+
+
+    Final section should feel expansive but unresolved, as though the song keeps moving after the lyric ends.
+
+
+    Mood: intimate, nocturnal, melancholic, tender, slightly alienated, quietly hopeful without becoming uplifting.
+
+
+    Avoid: country or Americana phrasing, acoustic strumming as the main texture, blues-rock guitar, folk-pop, glossy pop production, dramatic vocal belting, obvious power-ballad crescendos, cheerful major-key resolution.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

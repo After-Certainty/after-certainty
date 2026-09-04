@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://after-certainty.com/schema/semantic/song-entry.schema.json",
+  "title": "Semantic song entry YAML",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "slug",
+    "title",
+    "shortDescription",
+    "longDescription",
+    "creatorNames",
+    "lyricsPath",
+    "lyricLanguages",
+    "relatedConcepts",
+    "relatedPatterns",
+    "relatedBooks",
+    "recordings"
+  ],
+  "properties": {
+    "slug": {
+      "$ref": "common.json#/$defs/slug"
+    },
+    "title": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "shortDescription": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "longDescription": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "creatorNames": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/nonEmptyString"
+      },
+      "minItems": 1
+    },
+    "lyricsPath": {
+      "$ref": "common.json#/$defs/nonEmptyString"
+    },
+    "lyricLanguages": {
+      "$ref": "common.json#/$defs/languageCodeList"
+    },
+    "relatedConcepts": {
+      "$ref": "common.json#/$defs/conceptSlugList"
+    },
+    "relatedPatterns": {
+      "$ref": "common.json#/$defs/patternSlugList"
+    },
+    "relatedBooks": {
+      "$ref": "common.json#/$defs/bookSlugList"
+    },
+    "relatedSources": {
+      "$ref": "common.json#/$defs/sourceSlugList"
+    },
+    "recordings": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/songRecording"
+      },
+      "minItems": 1
+    },
+    "relatedMedia": {
+      "type": "array",
+      "items": {
+        "$ref": "common.json#/$defs/songRelatedMedia"
+      }
+    },
+    "generation": {
+      "$ref": "common.json#/$defs/songGeneration"
+    },
+    "grounding": {
+      "$ref": "common.json#/$defs/grounding"
+    },
+    "editorialStatus": {
+      "type": "string",
+      "enum": [
+        "provisional"
+      ]
+    },
+    "searchAliases": {
+      "$ref": "common.json#/$defs/stringList"
+    }
+  }
+}

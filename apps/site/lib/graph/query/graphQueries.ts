@@ -1,6 +1,7 @@
 import type {
   Book,
   GlossaryConcept,
+  ManifestSong,
   Pattern,
   SemanticGraph,
   Situation,
@@ -25,6 +26,11 @@ export function getPatternBySlug(index: GraphIndex, slug: string): Pattern | und
 
 export function getSituationBySlug(index: GraphIndex, slug: string): Situation | undefined {
   return index.situationBySlug.get(slug);
+}
+
+/** Look up a song by slug (songs are not GraphEntityKind nodes yet). */
+export function getSongBySlug(index: GraphIndex, slug: string): ManifestSong | undefined {
+  return (index.graph.songs ?? []).find((song) => song.slug === slug);
 }
 
 export function getBookBySlug(index: GraphIndex, slug: string): Book | undefined {
@@ -77,6 +83,16 @@ export function getRelatedBooks(index: GraphIndex, refs: string[] | undefined): 
   return compactById(refs, (ref) => {
     const n = index.resolveNode(ref);
     return n?.kind === "book" ? n.entity : undefined;
+  });
+}
+
+/** Resolve song refs that may be ids (`song-{slug}`) or slugs. */
+export function getRelatedSongs(index: GraphIndex, refs: string[] | undefined): ManifestSong[] {
+  const songs = index.graph.songs ?? [];
+  return compactById(refs, (ref) => {
+    const byId = songs.find((song) => song.id === ref);
+    if (byId) return byId;
+    return songs.find((song) => song.slug === ref);
   });
 }
 

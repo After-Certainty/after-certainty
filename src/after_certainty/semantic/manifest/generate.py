@@ -50,6 +50,10 @@ SEMANTIC_ROOT = Path("semantic")
 ONTOLOGY = SEMANTIC_ROOT / "ontology"
 
 
+def song_id(slug: str) -> str:
+    return f"song-{slug}"
+
+
 def _load_yaml(path: Path) -> dict:
     if not path.is_file():
         return {}

@@ -1,0 +1,62 @@
+slug: what-i-thought-you-meant
+title: What I Thought You Meant
+shortDescription: 'Late-night alternative R&B: desire tangled with projection, begging to hear what you
+  meant instead of the finished story invented from a shiver or a silence.'
+longDescription: 'Warm electric piano, negative space, and breathy vocal make misreading sensual rather
+  than merely cognitive. Eyes, breath, and body soft-talk get completed into promises; old goodbyes hide
+  inside a spoken name; certainty understands so fast it forgets to let the other in. How Meaning Moves
+  verifies intent-gets-assigned, meaning-outruns-the-words, and gaps-invite-completion in a romantic key.
+  Contact-keeps-the-read-open is the ethic: come closer, say it again, learn the difference between the
+  person and the fiction. Everyone Knows Love remains a softer secondary book for care under ambiguity.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/what-i-thought-you-meant.md
+lyricLanguages:
+- en
+relatedConcepts:
+- interpretation
+- meaning
+- contact
+- certainty
+relatedPatterns:
+- intent-gets-assigned
+- meaning-outruns-the-words
+- gaps-invite-completion
+- contact-keeps-the-read-open
+relatedBooks:
+- how-meaning-moves
+- everyone-knows-love
+recordings:
+- platform: suno
+  externalId: dc43b18d-2e95-4db2-bd1c-ccd081b68c65
+  primary: true
+  recordingTitle: What I Thought You Meant
+  createdAt: '2026-09-03T00:20:48.076Z'
+  durationSeconds: 231.08
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Modern sensual alternative R&B, 86–90 BPM, intimate late-night atmosphere. Warm electric
+    piano, deep smooth sub bass, soft atmospheric synth pads, muted electric guitar, tight modern R&B
+    drums, crisp understated hi-hats, subtle vocal chops, and lots of negative space. Breathy close-miked
+    lead vocal with controlled emotion, soft falsetto touches, layered chorus harmonies, and tasteful
+    restrained runs. Slow-burning, seductive, vulnerable, and emotionally uncertain rather than explicit.
+    Minimal intro → sparse verse → rising pre-chorus → lush melodic chorus → stronger second verse → atmospheric
+    bridge → fuller final chorus → intimate stripped outro. Warm analog character, wide stereo image,
+    deep low end, clean polished mix, memorable effortless chorus.
+generation:
+  authoredPrompt: Modern sensual alternative R&B, 86–90 BPM, intimate late-night atmosphere. Warm electric
+    piano, deep smooth sub bass, soft atmospheric synth pads, muted electric guitar, tight modern R&B
+    drums, crisp understated hi-hats, subtle vocal chops, and lots of negative space. Breathy close-miked
+    lead vocal with controlled emotion, soft falsetto touches, layered chorus harmonies, and tasteful
+    restrained runs. Slow-burning, seductive, vulnerable, and emotionally uncertain rather than explicit.
+    Minimal intro → sparse verse → rising pre-chorus → lush melodic chorus → stronger second verse → atmospheric
+    bridge → fuller final chorus → intimate stripped outro. Warm analog character, wide stereo image,
+    deep low end, clean polished mix, memorable effortless chorus.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

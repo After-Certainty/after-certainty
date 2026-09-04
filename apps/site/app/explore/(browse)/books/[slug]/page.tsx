@@ -80,6 +80,7 @@ export default async function ExploreBookDetailPage({ params }: PageProps) {
     patterns: related.patterns,
     thinkers: bookThinkerContent.thinkers,
     researchSources: bookThinkerContent.researchSources,
+    songs: related.songs,
     useLegacyThinkersSection: bookThinkerContent.useLegacyThinkersSection,
   };
   const hasRelationships = entityHasSemanticRelationships(index, book.id);

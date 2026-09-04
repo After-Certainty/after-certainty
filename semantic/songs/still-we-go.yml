@@ -1,0 +1,65 @@
+slug: still-we-go
+title: Still We Go
+shortDescription: 'Sunlit Swahili choral anthem: we do not know everything and do not see everything—INATOSHA—and
+  still we go together with open hands and open eyes.'
+longDescription: Call-and-response choir turns epistemic humility into celebration rather than resignation.
+  BADO TUNAENDA and INATOSHA pair movement with sufficiency—After Certainty’s core without despair. The
+  Discipline of Uncertainty verifies saying sijui while still choosing; Curiosity Before Certainty fits
+  tomorrow we will learn again. Patterns commitment-leaves-room and revisability-preserves-judgment match
+  loving and acting without total answers, while understanding-circulates appears when the choir answers
+  partial sight with together we see more. Joy is the method of going on together, not a denial of real
+  limits.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/still-we-go.md
+lyricLanguages:
+- sw
+relatedConcepts:
+- uncertainty
+- provisional-commitment
+- judgment
+- humility
+relatedPatterns:
+- commitment-leaves-room
+- revisability-preserves-judgment
+- understanding-circulates
+relatedBooks:
+- after-certainty
+- the-discipline-of-uncertainty
+- curiosity-before-certainty
+recordings:
+- platform: suno
+  externalId: 7383b724-e964-4269-b8f2-de3089cf1674
+  primary: true
+  recordingTitle: Still We Go
+  createdAt: '2026-08-31T01:23:16.873Z'
+  durationSeconds: 344.76
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Bright, joyful African choral anthem with a large mixed choir, powerful call-and-response
+    vocals, layered harmonies, handclaps, stomps, ululation, and energetic traditional percussion. Sung
+    primarily in Swahili, with expressive solo voices answered by the full ensemble. Fast, buoyant rhythm
+    with warm hand drums, shakers, bells, marimba-like melodic percussion, subtle bass, and occasional
+    brass or flute accents. Cinematic and theatrical but organic, communal, playful, and deeply uplifting.
+    Build from a simple solo opening into increasingly huge choir sections, with a lively percussion dance
+    break and an explosive final chorus around “BADO TUNAENDA!” and “INATOSHA!” Keep the melodies simple,
+    memorable, and easy for a crowd to sing. Avoid electronic dance production, pop-rock guitars, or solemn
+    gospel; this should feel sunlit, rhythmic, celebratory, and alive.
+generation:
+  authoredPrompt: Bright, joyful African choral anthem with a large mixed choir, powerful call-and-response
+    vocals, layered harmonies, handclaps, stomps, ululation, and energetic traditional percussion. Sung
+    primarily in Swahili, with expressive solo voices answered by the full ensemble. Fast, buoyant rhythm
+    with warm hand drums, shakers, bells, marimba-like melodic percussion, subtle bass, and occasional
+    brass or flute accents. Cinematic and theatrical but organic, communal, playful, and deeply uplifting.
+    Build from a simple solo opening into increasingly huge choir sections, with a lively percussion dance
+    break and an explosive final chorus around “BADO TUNAENDA!” and “INATOSHA!” Keep the melodies simple,
+    memorable, and easy for a crowd to sing. Avoid electronic dance production, pop-rock guitars, or solemn
+    gospel; this should feel sunlit, rhythmic, celebratory, and alive
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

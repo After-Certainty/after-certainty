@@ -7,6 +7,7 @@ export const SEARCH_TYPE_BASE_BOOST: Record<SearchEntityType, number> = {
   concept: 1.2,
   pattern: 1.1,
   situation: 1.15,
+  song: 1.05,
   thinker: 1.0,
   podcast_episode: 0.9,
   source: 0.85,

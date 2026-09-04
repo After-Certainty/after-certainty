@@ -1,0 +1,64 @@
+slug: applause-is-an-alibi
+title: Applause Is an Alibi
+shortDescription: 'Dark cabaret art rock: halo and monster enter on cue while applause and booing pretend
+  to be evidence, until the lighting itself is finally distrusted.'
+longDescription: 'Piano, muted brass, and sly theatrical vocal satirize moral stagecraft. Crowd love becomes
+  an alibi; booing becomes a verdict before evidence; once a monster is cast, kindness gets explained
+  away and the person fades. The Game We Think We Saw and When Authority Outlives Accountability carry
+  the book load via winning-as-excuse, star-as-explanation, and admiration-becomes-insulation. Blame-compresses-complexity
+  fits the costume shortcut. The bridge’s love-without-exemption and judge-without-erasure is After Certainty
+  judgment: condemn what needs condemning, leave the cardboard horns on the floor, and distrust the lighting.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/applause-is-an-alibi.md
+lyricLanguages:
+- en
+relatedConcepts:
+- winning-as-excuse
+- star-as-explanation
+- legitimacy
+- judgment
+relatedPatterns:
+- admiration-becomes-insulation
+- blame-compresses-complexity
+- scrutiny-preserves-trust
+relatedBooks:
+- the-game-we-think-we-saw
+- when-authority-outlives-accountability
+- when-authority-is-misread
+recordings:
+- platform: suno
+  externalId: 18f0ea74-640a-4ae5-b07e-ae8f1cb6f70e
+  primary: true
+  recordingTitle: Applause Is an Alibi
+  createdAt: '2026-09-01T03:39:17.767Z'
+  durationSeconds: 165.12
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: 'Dark cabaret / theatrical art rock with a sly, sinister stage-show feel. Mid-tempo piano,
+    upright bass, brushed drums, occasional accordion and muted brass, with dramatic stops and slightly
+    off-kilter vaudeville energy. Expressive lead vocal: wry, intimate, theatrical, and increasingly unsettling
+    without becoming cartoonish. Verses should feel like scenes presented to an audience; choruses widen
+    slightly without turning into pop-rock. Add sparse claps, whispered backing vocals, and brief call-and-response
+    on “halo,” “monster,” “hero,” and “fraud.” Strip down for the spoken cabaret break, then make the
+    bridge more vulnerable. End with nearly bare piano and the dry spoken line: “You may now distrust
+    the lighting.” Elegant, darkly funny, morally ambiguous, and slightly menacing. Avoid Broadway bombast,
+    novelty-cabaret cheese, and glossy pop production.'
+generation:
+  authoredPrompt: 'Dark cabaret / theatrical art rock with a sly, sinister stage-show feel. Mid-tempo
+    piano, upright bass, brushed drums, occasional accordion and muted brass, with dramatic stops and
+    slightly off-kilter vaudeville energy. Expressive lead vocal: wry, intimate, theatrical, and increasingly
+    unsettling without becoming cartoonish. Verses should feel like scenes presented to an audience; choruses
+    widen slightly without turning into pop-rock. Add sparse claps, whispered backing vocals, and brief
+    call-and-response on “halo,” “monster,” “hero,” and “fraud.” Strip down for the spoken cabaret break,
+    then make the bridge more vulnerable. End with nearly bare piano and the dry spoken line: “You may
+    now distrust the lighting.” Elegant, darkly funny, morally ambiguous, and slightly menacing. Avoid
+    Broadway bombast, novelty-cabaret cheese, and glossy pop production.'
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

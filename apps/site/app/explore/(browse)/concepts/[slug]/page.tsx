@@ -88,6 +88,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
       related.patterns.length +
       related.books.length +
       related.thinkers.length +
+      related.songs.length +
       mergedSources.length >
     0;
   const hasRelationships = entityHasSemanticRelationships(index, concept.id);
@@ -215,6 +216,11 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
               collapsible
             />
             <RelatedBooksSection books={related.books} collapsible />
+            <RelatedContentGrid
+              heading="Related songs"
+              songs={related.songs}
+              collapsible
+            />
             <RelatedContentGrid
               heading="Thinkers & sources"
               thinkers={related.thinkers}

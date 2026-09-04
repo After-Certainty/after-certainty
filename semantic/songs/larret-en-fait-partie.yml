@@ -1,0 +1,65 @@
+slug: larret-en-fait-partie
+title: L’Arrêt en Fait Partie
+shortDescription: 'Experimental French math rock: clipped mantras, shifting meters, and sudden silences
+  insist the stop is part of the groove, and that the small error knows something.'
+longDescription: 'Angular loops, polyrhythms, and dead stops enact the thesis—l’arrêt en fait partie—so
+  interruption is design rather than failure. Designed-friction and friction are the cleanest concept
+  links; The Discipline of Uncertainty fits restraint built into motion. Acceleration’s plus vite, c’est
+  facile gets interrupted into judgment, while leaving the petite erreur honors correction that smooth
+  speed would erase. Patterns are medium by necessity: this is formal epistemology, not narrative allegory,
+  so prefer fewer high-confidence concept ties and flag abstract book mappings for human review rather
+  than inventing story correspondences.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/larret-en-fait-partie.md
+lyricLanguages:
+- fr
+relatedConcepts:
+- friction
+- designed-friction
+- acceleration
+- correction
+relatedPatterns:
+- speed-relocates-judgment
+- reality-answers-back
+- revisability-preserves-judgment
+relatedBooks:
+- the-discipline-of-uncertainty
+- no-time-to-think
+- curiosity-before-certainty
+recordings:
+- platform: suno
+  externalId: bb08a9ad-71d6-4561-85b7-bbd993a021c8
+  primary: true
+  recordingTitle: L’Arrêt en Fait Partie
+  createdAt: '2026-09-02T00:59:16.450Z'
+  durationSeconds: 211.32
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: 'Experimental microtonal math rock with hypnotic repetition, angular guitar and bass loops,
+    muscular live drums, polyrhythms, metric modulation, and shifting meters like 7/8, 5/4, and displaced
+    4/4. Funky, physical, slightly jazzy beneath the complexity. French vocals: sparse, clipped, dry,
+    rhythmic, half-spoken and occasionally shouted, functioning almost like another percussion instrument.
+    Repeat phrases such as “L’arrêt en fait partie,” numbers, and single words as mantras. Build through
+    looping, layering, and subtle mutation rather than conventional verse/chorus dynamics. Sudden complete
+    stops should feel essential, with riffs returning displaced or altered. Gradually accelerate and destabilize,
+    then stop dead. Weird, playful, cerebral, absurdist, danceable, and slightly alien. Avoid metalcore,
+    emo, pop-punk, or flashy prog noodling.'
+generation:
+  authoredPrompt: 'Experimental microtonal math rock with hypnotic repetition, angular guitar and bass
+    loops, muscular live drums, polyrhythms, metric modulation, and shifting meters like 7/8, 5/4, and
+    displaced 4/4. Funky, physical, slightly jazzy beneath the complexity. French vocals: sparse, clipped,
+    dry, rhythmic, half-spoken and occasionally shouted, functioning almost like another percussion instrument.
+    Repeat phrases such as “L’arrêt en fait partie,” numbers, and single words as mantras. Build through
+    looping, layering, and subtle mutation rather than conventional verse/chorus dynamics. Sudden complete
+    stops should feel essential, with riffs returning displaced or altered. Gradually accelerate and destabilize,
+    then stop dead. Weird, playful, cerebral, absurdist, danceable, and slightly alien. Avoid metalcore,
+    emo, pop-punk, or flashy prog noodling.'
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

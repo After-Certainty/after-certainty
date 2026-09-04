@@ -10,6 +10,7 @@ import { PatternAtAGlance } from "@/components/explore/pattern-at-a-glance";
 import { PatternIntroDisclosure } from "@/components/explore/pattern-intro-disclosure";
 import { RelatedBooksSection } from "@/components/explore/related-books-section";
 import { RelatedConceptsSection } from "@/components/explore/related-concepts-section";
+import { RelatedContentGrid } from "@/components/explore/related-content-grid";
 import { RelatedChaptersSection } from "@/components/explore/related-chapters-section";
 import { RelatedTrailsSection } from "@/components/trails/related-trails-section";
 import { SemanticRelationshipsSection } from "@/components/explore/semantic-relationships-section";
@@ -66,7 +67,8 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
     pattern.slug,
   );
 
-  const hasRelated = related.concepts.length + related.books.length > 0;
+  const hasRelated =
+    related.concepts.length + related.books.length + related.songs.length > 0;
   const hasRelationships = entityHasSemanticRelationships(index, pattern.id);
   const grounding = buildPublicGroundingViewModel(pattern.grounding, graph);
   const teaser = patternDetailTeaser(pattern);
@@ -145,6 +147,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           <div className="flex flex-col gap-8 md:gap-14">
             <RelatedConceptsSection concepts={related.concepts} />
             <RelatedBooksSection books={related.books} />
+            <RelatedContentGrid heading="Related songs" songs={related.songs} />
           </div>
         </Section>
       ) : null}

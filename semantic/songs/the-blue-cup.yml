@@ -1,0 +1,60 @@
+slug: the-blue-cup
+title: The Blue Cup
+shortDescription: 'Whimsical seventies confessional folk: an atrocious roadside blue rooster cup becomes
+  the quiet archive of a long love’s real remembered kindnesses and bargains.'
+longDescription: Fingerpicked storytelling elevates the ugly cup to a minor deity beside the window. The
+  chorus denies roses, speeches, and grand photography for scraps that keep two fools side by side—half
+  a sandwich, a coat offered in cold, a hand across a sliding dashboard. Everyone Knows Love and care-preserves-particulars
+  sit at high confidence. The bridge’s unmapped hallway after a strange small sentence nods to ongoing
+  learning inside intimacy; How Meaning Moves remains only a medium companion when meaning still moves
+  the walls of a house you thought you had memorized.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/the-blue-cup.md
+lyricLanguages:
+- en
+relatedConcepts:
+- care
+- connection
+- contact
+- attention
+relatedPatterns:
+- care-preserves-particulars
+- attention-restores-contact
+relatedBooks:
+- everyone-knows-love
+- how-meaning-moves
+recordings:
+- platform: suno
+  externalId: 0448b257-1736-4156-949d-5ee6e52cea1d
+  primary: true
+  recordingTitle: The Blue Cup
+  createdAt: '2026-08-28T02:30:48.551Z'
+  durationSeconds: 288.64
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Warm, whimsical 1970s confessional folk singer-songwriter. Intimate female vocal with conversational,
+    playful phrasing and occasional bittersweet turns. Intricate fingerpicked acoustic guitar, light piano,
+    melodic bass, restrained brushed percussion, and subtle organic flourishes like dulcimer, woodwinds,
+    or soft strings. Sophisticated, slightly unexpected chord changes and a loose, human rhythm. Storytelling-first
+    arrangement that moves between humor, tenderness, and melancholy without becoming sentimental. Verses
+    should feel curious and wandering, with melodies that follow the words naturally rather than a rigid
+    pop structure. Organic vintage studio sound, literate and eccentric, emotionally warm but never overly
+    polished.
+generation:
+  authoredPrompt: Warm, whimsical 1970s confessional folk singer-songwriter. Intimate female vocal with
+    conversational, playful phrasing and occasional bittersweet turns. Intricate fingerpicked acoustic
+    guitar, light piano, melodic bass, restrained brushed percussion, and subtle organic flourishes like
+    dulcimer, woodwinds, or soft strings. Sophisticated, slightly unexpected chord changes and a loose,
+    human rhythm. Storytelling-first arrangement that moves between humor, tenderness, and melancholy
+    without becoming sentimental. Verses should feel curious and wandering, with melodies that follow
+    the words naturally rather than a rigid pop structure. Organic vintage studio sound, literate and
+    eccentric, emotionally warm but never overly polished.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

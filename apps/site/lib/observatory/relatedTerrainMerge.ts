@@ -54,5 +54,6 @@ export function mergeRelatedTerrain(
     books: mergeUnique(a.books, b.books),
     sources: mergeUnique(a.sources, b.sources),
     thinkers: mergeUnique(a.thinkers, b.thinkers),
+    songs: mergeUnique(a.songs, b.songs),
   };
 }

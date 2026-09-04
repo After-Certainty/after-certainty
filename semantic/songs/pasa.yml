@@ -1,0 +1,64 @@
+slug: pasa
+title: PASA
+shortDescription: 'Nocturnal Latin electronic with Spanish vocals and trumpet: PASA chants laughs, fears,
+  and mother-phrases traveling hand to hand, refusing to return unchanged.'
+longDescription: Nylon guitar and dusty breaks inside club drops make transmission sensual and slightly
+  ominous. Sibling to Moves Through You, with a sharper inheritance ethic—not everything that arrives
+  deserves another life after you. How Meaning Moves and The World We Make Together verify unsigned movement
+  through many fingerprints; circulation and understanding-circulates carry the hook. Agency appears when
+  the bridge asks whether fear, hate, wound, or love get passed. The whispered outro—cuida lo que sigue—names
+  responsibility inside circulation without pretending anyone owns the current.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/pasa.md
+lyricLanguages:
+- es
+relatedConcepts:
+- circulation
+- inheritance
+- meaning
+- agency
+relatedPatterns:
+- understanding-circulates
+- examples-accumulate
+- meaning-drifts-over-time
+relatedBooks:
+- how-meaning-moves
+- the-world-we-make-together
+- living-in-sediment
+recordings:
+- platform: suno
+  externalId: 5d9238cb-8a36-475c-9253-4f3f608d4556
+  primary: true
+  recordingTitle: PASA
+  createdAt: '2026-08-30T03:13:44.360Z'
+  durationSeconds: 294.08
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Modern Latin electronic dance track fused with dark trip-hop and hip-hop. Mostly Spanish
+    female vocals with a sensual, intimate delivery, alternating with restrained rhythmic rap verses.
+    Dusty breakbeats, deep sub-bass, atmospheric synth haze, and moody downtempo verses that suddenly
+    open into powerful four-on-the-floor club choruses. Prominent nylon-string Spanish guitar, expressive
+    trumpet phrases and sharp brass stabs, hand percussion, congas, and syncopated Latin rhythms. Layered
+    female chants repeating “PASA” as a hypnotic hook. Organic Latin instrumentation should remain clearly
+    audible inside the electronic production. No glossy reggaeton or generic EDM; keep it nocturnal, sophisticated,
+    slightly mysterious, seductive, cinematic, and rhythmically addictive, with a huge final dance-floor
+    build.
+generation:
+  authoredPrompt: Modern Latin electronic dance track fused with dark trip-hop and hip-hop. Mostly Spanish
+    female vocals with a sensual, intimate delivery, alternating with restrained rhythmic rap verses.
+    Dusty breakbeats, deep sub-bass, atmospheric synth haze, and moody downtempo verses that suddenly
+    open into powerful four-on-the-floor club choruses. Prominent nylon-string Spanish guitar, expressive
+    trumpet phrases and sharp brass stabs, hand percussion, congas, and syncopated Latin rhythms. Layered
+    female chants repeating “PASA” as a hypnotic hook. Organic Latin instrumentation should remain clearly
+    audible inside the electronic production. No glossy reggaeton or generic EDM; keep it nocturnal, sophisticated,
+    slightly mysterious, seductive, cinematic, and rhythmically addictive, with a huge final dance-floor
+    build.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

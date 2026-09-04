@@ -6,6 +6,7 @@ export const explorePaths = {
   concepts: "/explore/concepts",
   patterns: "/explore/patterns",
   situations: "/explore/situations",
+  songs: "/explore/songs",
   books: "/explore/books",
   sources: "/explore/sources",
   thinkers: "/explore/thinkers",

@@ -1,0 +1,62 @@
+slug: almost-completely-true
+title: Almost Completely True
+shortDescription: 'Uneasy late-nineties art rock: badges, rating faces, and captchas accept an almost-you,
+  while something that would not fit the question surfaces for a second and vanishes.'
+longDescription: Brittle clean guitars, glitches, and ironic falsetto on Almost completely true stage
+  legibility’s quiet violence. A badge flickers red then green within tolerance; lunchtime feedback has
+  no face for I do not know, so fine wins; consent checkboxes proceed until something goes wrong. When
+  Incentives Become the Moral Language and When Interpretation No Longer Matters verify metric and procedure
+  theater. Compression-loses-the-person, stale-representation, and machine-perspective match the camera
+  that wants expression removed. The remainder that almost fit inside the question is the After Certainty
+  signal the system cannot record.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/almost-completely-true.md
+lyricLanguages:
+- en
+relatedConcepts:
+- legibility
+- compression
+- stale-representation
+- machine-perspective
+- certainty
+relatedPatterns:
+- compression-loses-the-person
+- results-conceal-the-game
+- finality-compensates-for-uncertainty
+relatedBooks:
+- when-incentives-become-the-moral-language
+- when-interpretation-no-longer-matters
+- reality-pushes-back
+recordings:
+- platform: suno
+  externalId: 3612c0f5-eea3-431d-95c0-902e1f37e42d
+  primary: true
+  recordingTitle: Almost Completely True
+  createdAt: '2026-09-04T04:05:44.996Z'
+  durationSeconds: 292.8
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: true
+  styleTags: |-
+    Late-1990s experimental art rock with an uneasy futuristic atmosphere. Mid-tempo, tense and spacious, with brittle clean electric guitars, restrained distortion, analog synth drones, subtle glitches, deep bass, and dry mechanical drums.
+
+    Male lead vocal should be a light, fragile tenor with intimate, detached phrasing and occasional airy falsetto. Use falsetto prominently on “Almost completely true” for a beautiful, ironic contrast with the clinical lyrics. Avoid grit, shouting, metal vocals, post-hardcore intensity, or dramatic rock belting.
+
+    Verses are conversational and emotionally distant. Choruses widen with layered falsetto harmonies, strange guitar voicings, and soft electronics rather than becoming huge. Use abrupt dropouts, digital interference, and uncomfortable silence. Beautiful, eerie, restrained, slightly absurd, and quietly anxious.
+generation:
+  authoredPrompt: |-
+    Late-1990s experimental art rock with an uneasy futuristic atmosphere. Mid-tempo, tense and spacious, with brittle clean electric guitars, restrained distortion, analog synth drones, subtle glitches, deep bass, and dry mechanical drums.
+
+
+    Male lead vocal should be a light, fragile tenor with intimate, detached phrasing and occasional airy falsetto. Use falsetto prominently on “Almost completely true” for a beautiful, ironic contrast with the clinical lyrics. Avoid grit, shouting, metal vocals, post-hardcore intensity, or dramatic rock belting.
+
+
+    Verses are conversational and emotionally distant. Choruses widen with layered falsetto harmonies, strange guitar voicings, and soft electronics rather than becoming huge. Use abrupt dropouts, digital interference, and uncomfortable silence. Beautiful, eerie, restrained, slightly absurd, and quietly anxious.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

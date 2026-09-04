@@ -1,0 +1,64 @@
+slug: dead-reasons
+title: Dead Reasons
+shortDescription: 'Thick nineties grunge: inherited rooms, yearly paint over spreading cracks, and a raw
+  shout that dead reasons still hold the walls long after anyone recalls why they were built.'
+longDescription: 'Quiet-loud guitars embody institutional exhaustion—habit-fed machines, inward-opening
+  doors nobody remembers justifying, and the chant that it worked before. Lyrics track sediment mistaken
+  for necessity: roots gone, feeding continues; locks that were once answers now refuse to move. Living
+  in Sediment and Before Certainty Arrives verify the inheritance-and-drift reading, while structures-outlive-reasons
+  is a near-direct pattern match. Dead Reasons is the emotional twin of Exceptions Are Forever: less “just
+  this once,” more the corpse of justification still propping the building while everyone calls the poison
+  order.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/dead-reasons.md
+lyricLanguages:
+- en
+relatedConcepts:
+- inheritance
+- structure
+- drift
+- residue
+- normalization
+relatedPatterns:
+- structures-outlive-reasons
+- exceptions-are-forever
+- meaning-drifts-over-time
+relatedBooks:
+- living-in-sediment
+- before-certainty-arrives
+- when-trust-stops-tracking-reality
+recordings:
+- platform: suno
+  externalId: eaac5b32-d96a-41cb-b687-3ac9beeee9ce
+  primary: true
+  recordingTitle: Dead Reasons
+  createdAt: '2026-08-29T02:40:31.063Z'
+  durationSeconds: 338.36
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: '1990s grunge with a dark, heavy, worn-down sound. Slow-to-mid tempo, thick distorted guitars,
+    prominent bass, live-sounding drums, and a tense quiet-loud dynamic. Verses should feel restrained,
+    claustrophobic, and slightly dirty; choruses should explode into huge fuzzy guitars and raw emotional
+    vocals. Male vocalist with a rough, weary baritone that can crack into a strained shout without sounding
+    polished or theatrical. Melodies should be simple, bleak, and memorable. Production should feel analog,
+    imperfect, and physical, with feedback, room noise, and a sense of a band playing together rather
+    than modern studio precision. Mood: alienation, inherited damage, frustration, exhaustion, and buried
+    anger.'
+generation:
+  authoredPrompt: '1990s grunge with a dark, heavy, worn-down sound. Slow-to-mid tempo, thick distorted
+    guitars, prominent bass, live-sounding drums, and a tense quiet-loud dynamic. Verses should feel restrained,
+    claustrophobic, and slightly dirty; choruses should explode into huge fuzzy guitars and raw emotional
+    vocals. Male vocalist with a rough, weary baritone that can crack into a strained shout without sounding
+    polished or theatrical. Melodies should be simple, bleak, and memorable. Production should feel analog,
+    imperfect, and physical, with feedback, room noise, and a sense of a band playing together rather
+    than modern studio precision. Mood: alienation, inherited damage, frustration, exhaustion, and buried
+    anger.'
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

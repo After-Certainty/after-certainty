@@ -1,0 +1,62 @@
+slug: not-yet
+title: NOT YET!
+shortDescription: 'Neon techno J-pop at club tempo: three voices chant NOT YET while Japanese verses catch
+  the mind writing a finished story from one glance, and English hooks keep every answer playfully provisional.'
+longDescription: 'Bright arpeggios, chopped vocals, and call-and-response turn epistemic caution into
+  dance fuel rather than a lecture. Japanese verses show how a face, a night, or a half-heard phrase becomes
+  “きっとこう” in a second; the chorus and Maybe tags block that premature seal. After Certainty hears revisability
+  under uncertainty—look again, leave blanks unfilled, update without shame. Strong verified ties run
+  to The Discipline of Uncertainty and Curiosity Before Certainty, with patterns revisability-preserves-judgment
+  and finality-compensates-for-uncertainty grounding the refusal to close the future after one incomplete
+  signal. The song’s joy is the method: not-knowing stays danceable.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/not-yet.md
+lyricLanguages:
+- ja
+- en
+relatedConcepts:
+- uncertainty
+- revisability
+- certainty
+- judgment
+relatedPatterns:
+- revisability-preserves-judgment
+- finality-compensates-for-uncertainty
+- gaps-invite-completion
+relatedBooks:
+- the-discipline-of-uncertainty
+- curiosity-before-certainty
+- learning-to-see
+recordings:
+- platform: suno
+  externalId: 70b0ed63-cd05-4fe9-8c51-337a1fa1fdac
+  primary: true
+  recordingTitle: NOT YET!
+  createdAt: '2026-08-28T04:10:59.305Z'
+  durationSeconds: 258.2
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: High-energy techno J-pop with a bright, futuristic neon-club sound, fast tempo around 160
+    BPM, punchy four-on-the-floor drums, sparkling synth arpeggios, glitchy electronic fills, huge sugary
+    hooks, and explosive dance-pop choruses. Three energetic Japanese female vocalists trading rapid lines,
+    harmonizing, chanting, and overlapping playfully. Mostly Japanese lyrics with memorable English phrases
+    like “NOT YET!”, “Maybe!”, “Update!”, and “One more time!” used as rhythmic hooks. Cute, frantic,
+    euphoric, slightly robotic, and relentlessly catchy, with call-and-response vocals, sudden beat drops,
+    chopped vocal samples, and a massive final chorus.
+generation:
+  authoredPrompt: High-energy techno J-pop with a bright, futuristic neon-club sound, fast tempo around
+    160 BPM, punchy four-on-the-floor drums, sparkling synth arpeggios, glitchy electronic fills, huge
+    sugary hooks, and explosive dance-pop choruses. Three energetic Japanese female vocalists trading
+    rapid lines, harmonizing, chanting, and overlapping playfully. Mostly Japanese lyrics with memorable
+    English phrases like “NOT YET!”, “Maybe!”, “Update!”, and “One more time!” used as rhythmic hooks.
+    Cute, frantic, euphoric, slightly robotic, and relentlessly catchy, with call-and-response vocals,
+    sudden beat drops, chopped vocal samples, and a massive final chorus.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

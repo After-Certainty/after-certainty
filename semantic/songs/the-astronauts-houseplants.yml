@@ -1,0 +1,64 @@
+slug: the-astronauts-houseplants
+title: The Astronaut’s Houseplants
+shortDescription: 'Early-2000s psychedelic indie: an astronaut who can see every ocean and border still
+  needs someone on Earth to check whether the fern is still alive.'
+longDescription: Fuzzy guitars and glowing choruses stage scale’s tradeoff with wry tenderness. Mission
+  control tracks centimeters of drift while the singer worries about yellowing leaves and a spider plant
+  cloning into empty air. What We Cannot See and When Moral Seriousness Scales verify whole-world sight
+  that loses particulars; care-preserves-particulars is the pattern spine of the plea. Distance conceals
+  the upstairs window even as Earth looks beautiful in silence. The punchline—plants are fine—is love’s
+  report from the only altitude that can still water anything that needs water.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/the-astronauts-houseplants.md
+lyricLanguages:
+- en
+relatedConcepts:
+- scale
+- distance
+- care
+- finite-perspective
+- attention
+relatedPatterns:
+- care-preserves-particulars
+- distance-conceals-consequence
+relatedBooks:
+- what-we-cannot-see
+- when-moral-seriousness-scales
+- everyone-knows-love
+recordings:
+- platform: suno
+  externalId: e4f870c7-684a-4957-aae0-018e52c16094
+  primary: true
+  recordingTitle: The Astronaut’s Houseplants
+  createdAt: '2026-09-03T01:01:42.898Z'
+  durationSeconds: 286.24
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Early-2000s psychedelic indie rock with a warm, slightly lo-fi homemade sound. Midtempo,
+    dreamy and gently strange, with fuzzy electric guitars, softly strummed acoustic guitar, analog synths,
+    Mellotron-like textures, vintage keyboards, melodic bass, loose natural drums, and occasional electronic
+    bleeps and spacey effects. Intimate male vocal with a fragile, conversational delivery—earnest but
+    slightly detached, with understated humor. Verses should feel small, quirky and observational; choruses
+    should suddenly widen into lush, emotional psychedelic melodies with layered harmonies and glowing
+    synths. Cosmic imagery contrasted with mundane domestic details. Bittersweet, whimsical, lonely and
+    quietly hopeful. Avoid glossy modern indie-pop, heavy rock, theatrical vocals, or overly polished
+    production.
+generation:
+  authoredPrompt: Early-2000s psychedelic indie rock with a warm, slightly lo-fi homemade sound. Midtempo,
+    dreamy and gently strange, with fuzzy electric guitars, softly strummed acoustic guitar, analog synths,
+    Mellotron-like textures, vintage keyboards, melodic bass, loose natural drums, and occasional electronic
+    bleeps and spacey effects. Intimate male vocal with a fragile, conversational delivery—earnest but
+    slightly detached, with understated humor. Verses should feel small, quirky and observational; choruses
+    should suddenly widen into lush, emotional psychedelic melodies with layered harmonies and glowing
+    synths. Cosmic imagery contrasted with mundane domestic details. Bittersweet, whimsical, lonely and
+    quietly hopeful. Avoid glossy modern indie-pop, heavy rock, theatrical vocals, or overly polished
+    production.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

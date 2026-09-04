@@ -1,0 +1,63 @@
+slug: the-grain-remains
+title: The Grain Remains
+shortDescription: 'Hypnotic seventies space rock: white paint, sleeping levels, and a sparse refrain that
+  the grain remains under every closed line, filled hole, and measured wall.'
+longDescription: Analog sequences stay geometric while guitar grows organic—form mirroring lyric. Cases
+  are closed, numbers agree, and paint dries in unused rooms, yet wood still moves with heat and winter
+  finds what summer trusted. Living in Sediment and structures-outlive-reasons are the strongest verified
+  links; residue and inheritance name what persists after the matter is declared finished. Reality-answers-back
+  fits the crack that ignores the painted edge. The unresolved outro—for now—keeps sediment temporal rather
+  than eternal, matching the book’s habit of seeing fossils without mistaking them for destiny.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/the-grain-remains.md
+lyricLanguages:
+- en
+relatedConcepts:
+- residue
+- inheritance
+- structure
+- drift
+relatedPatterns:
+- structures-outlive-reasons
+- meaning-drifts-over-time
+- reality-answers-back
+relatedBooks:
+- living-in-sediment
+- reality-pushes-back
+recordings:
+- platform: suno
+  externalId: 7987b077-d05c-454e-810a-039bfdbcc417
+  primary: true
+  recordingTitle: The Grain Remains
+  createdAt: '2026-09-02T02:10:00.910Z'
+  durationSeconds: 452.44
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: |-
+    1970s progressive space rock fused with modern cinematic electronic production. Dark, spacious and hypnotic, with warm analog synth sequences, vintage organ and electric piano, deep melodic bass, roomy live drums, tape ambience and expressive sustained electric guitar. Add contemporary cinematic textures: huge low sub-bass swells, distant processed strings and brass, granular synth atmospheres, deep drones, reversed textures, massive reverberant impacts and slowly evolving sound-design transitions.
+
+    Begin restrained, geometric and almost mechanical. Let repeating analog keyboard patterns establish order while the guitar gradually becomes more emotional, fluid and unpredictable. Build toward a large widescreen instrumental section where vintage space rock collides with modern film-score scale, then strip back suddenly for the final verse. Restrained male vocal, cryptic and detached. Dark, elegant, ominous and immersive rather than bombastic. Haunting unresolved ending.
+- platform: suno
+  externalId: bd113641-fc08-4da2-9b0f-870a61182f90
+  primary: false
+  recordingTitle: The Grain Remains
+  lineageNote: Historical playlist recording superseded by the 2026-09-04 primary clip.
+  supersededBy: 7987b077-d05c-454e-810a-039bfdbcc417
+generation:
+  authoredPrompt: 1970s progressive space rock with a dark, spacious, hypnotic feel. Slow-to-mid tempo,
+    warm analog synth sequences, eerie electric piano and organ, deep melodic bass, roomy natural drums,
+    tape-like ambience, and long instrumental passages. Restrained male vocals, calm and slightly detached
+    rather than theatrical. Expressive sustained electric guitar with bluesy bends and long atmospheric
+    solos, gradually becoming more emotional and less orderly as the song develops. Begin controlled and
+    geometric, then let the organic guitar increasingly push against the repeating keyboard patterns.
+    Cryptic, image-driven lyrics with lots of negative space. Slow dynamic build, extended instrumental
+    middle, and a haunting unresolved outro.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

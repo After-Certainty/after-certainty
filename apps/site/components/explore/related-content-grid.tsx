@@ -1,8 +1,16 @@
-import type { Book, GlossaryConcept, Pattern, Source, Thinker } from "@/types/semanticGraph";
+import type {
+  Book,
+  GlossaryConcept,
+  ManifestSong,
+  Pattern,
+  Source,
+  Thinker,
+} from "@/types/semanticGraph";
 import { BookCard } from "@/components/explore/book-card";
 import { ConceptCard } from "@/components/explore/concept-card";
 import { PatternCard } from "@/components/explore/pattern-card";
 import { RelatedSectionDisclosure } from "@/components/explore/related-section-disclosure";
+import { SongCard } from "@/components/explore/song-card";
 import { SourceCard } from "@/components/explore/source-card";
 import { ThinkerCard } from "@/components/explore/thinker-card";
 
@@ -13,6 +21,7 @@ type RelatedContentGridProps = {
   books?: Book[];
   sources?: Source[];
   thinkers?: Thinker[];
+  songs?: ManifestSong[];
   className?: string;
   /**
    * Collapse behind RelatedSectionDisclosure on mobile (open from `md`).
@@ -35,18 +44,25 @@ function relatedGridCountLabel(parts: {
   books: number;
   sources: number;
   thinkers: number;
+  songs: number;
 }): string {
   const phrases = [
     parts.concepts > 0 ? countPhrase(parts.concepts, "concept", "concepts") : null,
     parts.patterns > 0 ? countPhrase(parts.patterns, "pattern", "patterns") : null,
     parts.books > 0 ? countPhrase(parts.books, "book", "books") : null,
+    parts.songs > 0 ? countPhrase(parts.songs, "song", "songs") : null,
     parts.thinkers > 0 ? countPhrase(parts.thinkers, "thinker", "thinkers") : null,
     parts.sources > 0 ? countPhrase(parts.sources, "source", "sources") : null,
   ].filter((p): p is string => Boolean(p));
 
   if (phrases.length === 1) return phrases[0];
   const total =
-    parts.concepts + parts.patterns + parts.books + parts.sources + parts.thinkers;
+    parts.concepts +
+    parts.patterns +
+    parts.books +
+    parts.sources +
+    parts.thinkers +
+    parts.songs;
   return countPhrase(total, "related", "related");
 }
 
@@ -65,11 +81,18 @@ export function RelatedContentGrid({
   books = [],
   sources = [],
   thinkers = [],
+  songs = [],
   className = "",
   collapsible = false,
   disclosureId,
 }: RelatedContentGridProps) {
-  const total = concepts.length + patterns.length + books.length + sources.length + thinkers.length;
+  const total =
+    concepts.length +
+    patterns.length +
+    books.length +
+    sources.length +
+    thinkers.length +
+    songs.length;
   if (total === 0) return null;
 
   const cardLayout = collapsible ? "compact" : "responsive";
@@ -83,6 +106,9 @@ export function RelatedContentGrid({
       ))}
       {books.map((b) => (
         <BookCard key={b.id} book={b} />
+      ))}
+      {songs.map((song) => (
+        <SongCard key={song.id} song={song} layout={cardLayout} />
       ))}
       {sources.map((s) => (
         <SourceCard key={s.id} source={s} layout={cardLayout} />
@@ -99,6 +125,7 @@ export function RelatedContentGrid({
     books: books.length,
     sources: sources.length,
     thinkers: thinkers.length,
+    songs: songs.length,
   });
 
   if (collapsible && heading) {
