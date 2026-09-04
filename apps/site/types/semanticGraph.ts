@@ -144,6 +144,8 @@ export interface Book {
   concepts?: string[];
   patterns?: string[];
   sources?: string[];
+  /** schemaVersion 2.6 — related song ids (`song-{slug}`), generator-derived. */
+  songs?: string[];
   media?: BookMedia;
   isbns?: string[];
   purchaseLinks?: BookPurchaseLink[];
@@ -225,6 +227,8 @@ export interface GlossaryConcept extends SemanticEnrichment {
   relatedConcepts?: string[];
   relatedPatterns?: string[];
   relatedBooks?: string[];
+  /** schemaVersion 2.6 — related song slugs, generator-derived. */
+  relatedSongs?: string[];
   /** schemaVersion 2.3 — optional public grounding / provenance. */
   grounding?: SemanticGrounding;
 }
@@ -246,6 +250,8 @@ export interface Pattern extends SemanticEnrichment {
   relatedConcepts?: string[];
   relatedBooks?: string[];
   relatedPatterns?: string[];
+  /** schemaVersion 2.6 — related song slugs, generator-derived. */
+  relatedSongs?: string[];
   youtubeVideoId?: string;
   mediumArticleUrl?: string;
   infographic?: MediaInfographic;
@@ -283,6 +289,88 @@ export interface Situation extends SemanticEnrichment {
   activePatterns?: string[];
   relatedConcepts?: string[];
   relatedBooks?: string[];
+}
+
+/** Suno recording nested on a song (schemaVersion 2.6). */
+export interface SongRecording {
+  platform: "suno";
+  externalId: string;
+  primary: boolean;
+  recordingTitle: string;
+  versionTitle?: string;
+  createdAt?: string;
+  durationSeconds?: number;
+  modelName?: string;
+  modelVersion?: string;
+  task?: string;
+  isRemix?: boolean;
+  coverClipId?: string;
+  editedClipId?: string;
+  styleTags?: string;
+  remixInstruction?: string;
+  lineageNote?: string;
+  supersededBy?: string;
+}
+
+/** External media linked from a song (schemaVersion 2.6). */
+export interface SongRelatedMedia {
+  kind: "youtube";
+  externalId: string;
+  title?: string;
+  role?: "music_video" | "performance" | "documentary" | "other" | string;
+}
+
+/** Authored generation provenance for a song (schemaVersion 2.6). */
+export interface SongGeneration {
+  authoredPrompt: string;
+  authoredPromptSource?: string;
+  authoredPromptRetrievedAt?: string;
+}
+
+/**
+ * Song composition with lyrics path and recording provenance.
+ * Authored as `songs[]` (schemaVersion 2.6). Observatory graph nodes deferred.
+ */
+export interface ManifestSong {
+  id: string;
+  slug: string;
+  title: string;
+  shortDescription: string;
+  longDescription: string;
+  creatorNames: string[];
+  lyricsPath: string;
+  lyricLanguages: string[];
+  relatedConcepts: string[];
+  relatedPatterns: string[];
+  relatedBooks: string[];
+  relatedSources?: string[];
+  recordings: SongRecording[];
+  relatedMedia?: SongRelatedMedia[];
+  generation?: SongGeneration;
+  grounding?: SemanticGrounding;
+  editorialStatus?: PatternEditorialStatus;
+  searchAliases?: string[];
+}
+
+/** Ordered playlist membership of song recordings (schemaVersion 2.6). */
+export interface PlaylistTrack {
+  position: number;
+  songSlug: string;
+  /** Present on generated manifests (`song-{slug}`). */
+  songId?: string;
+  recordingExternalId: string;
+}
+
+export interface ManifestPlaylist {
+  id: string;
+  slug: string;
+  title: string;
+  description?: string;
+  platform: "suno";
+  externalId: string;
+  shareId?: string;
+  snapshotDate?: string;
+  tracks: PlaylistTrack[];
 }
 
 export type SourceKind =
@@ -641,6 +729,10 @@ export interface SemanticGraph {
   trails?: ManifestTrail[];
   /** schemaVersion 2.5 — Pattern Recognition Challenge content. */
   challenges?: ManifestChallenge[];
+  /** schemaVersion 2.6 — song compositions with recording provenance. */
+  songs?: ManifestSong[];
+  /** schemaVersion 2.6 — curated playlists of song recordings. */
+  playlists?: ManifestPlaylist[];
   shelves?: ManifestShelf[];
   changeEvents?: ChangeEvent[];
   searchAliases?: SearchAlias[];
@@ -649,7 +741,7 @@ export interface SemanticGraph {
   chapters?: ManifestChapter[];
   /** Manifest metadata (optional, from semantic-manifest.json) */
   manifestVersion?: 1 | 2;
-  /** Additive discovery contract version (e.g. "2.5"). */
+  /** Additive discovery contract version (e.g. "2.6"). */
   schemaVersion?: string;
   generatedAt?: string;
   repository?: string;

@@ -49,6 +49,7 @@ export async function SiteFooter() {
   const exploreLinks = [
     { label: "Explore patterns", href: "/explore/patterns" },
     { label: "Explore situations", href: "/explore/situations" },
+    { label: "Explore songs", href: "/explore/songs" },
     { label: "Explore books", href: "/explore/books" },
     { label: "Privacy & cookies", href: "/privacy" },
   ];

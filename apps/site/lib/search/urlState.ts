@@ -9,6 +9,7 @@ export const SEARCH_ENTITY_TYPES: readonly SearchEntityType[] = [
   "concept",
   "pattern",
   "situation",
+  "song",
   "thinker",
   "podcast_episode",
 ] as const;

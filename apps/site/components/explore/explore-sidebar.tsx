@@ -10,6 +10,7 @@ const links = [
   { href: explorePaths.concepts, label: "Concepts", match: "prefix" as const },
   { href: explorePaths.patterns, label: "Patterns", match: "prefix" as const },
   { href: explorePaths.situations, label: "Situations", match: "prefix" as const },
+  { href: explorePaths.songs, label: "Songs", match: "prefix" as const },
   { href: explorePaths.books, label: "Books", match: "prefix" as const },
   { href: explorePaths.thinkers, label: "Thinkers", match: "prefix" as const },
   { href: explorePaths.sources, label: "Sources", match: "prefix" as const },

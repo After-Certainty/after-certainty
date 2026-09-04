@@ -21,6 +21,7 @@ const TOP_LEVEL_PATHS = [
   "/explore/concepts",
   "/explore/patterns",
   "/explore/situations",
+  "/explore/songs",
   "/explore/books",
   "/explore/thinkers",
   "/explore/sources",
@@ -72,6 +73,9 @@ export async function getSitemapPaths(): Promise<string[]> {
   }
   for (const situation of graph.situations ?? []) {
     paths.push(`${explorePaths.situations}/${situation.slug}`);
+  }
+  for (const song of graph.songs ?? []) {
+    paths.push(`${explorePaths.songs}/${song.slug}`);
   }
   for (const source of graph.sources) {
     paths.push(`${explorePaths.sources}/${source.slug}`);

@@ -9,6 +9,7 @@ import {
   exploreHrefForNode,
   exploreObservatoryFocusHref,
   exploreObservatoryRelationshipHref,
+  explorePaths,
 } from "@/lib/graph/explorePaths";
 import {
   relatedContentForBook,
@@ -80,7 +81,8 @@ export function EntityDetailView({
     bundle.patterns.length > 0 ||
     bundle.books.length > 0 ||
     bundle.sources.length > 0 ||
-    bundle.thinkers.length > 0;
+    bundle.thinkers.length > 0 ||
+    bundle.songs.length > 0;
 
   const cover =
     node.kind === "book"
@@ -299,6 +301,17 @@ export function EntityDetailView({
                   onClick={() => onRelatedTerrainLinkNavigate?.()}
                 >
                   {t.name}
+                </Link>
+              </li>
+            ))}
+            {bundle.songs.slice(0, 6).map((song) => (
+              <li key={song.id}>
+                <Link
+                  href={`${explorePaths.songs}/${song.slug}`}
+                  className="block text-left hover:text-accent"
+                  onClick={() => onRelatedTerrainLinkNavigate?.()}
+                >
+                  {song.title}
                 </Link>
               </li>
             ))}

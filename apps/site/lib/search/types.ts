@@ -11,6 +11,7 @@ export type SearchEntityType =
   | "concept"
   | "pattern"
   | "situation"
+  | "song"
   | "thinker"
   | "source"
   | "podcast_episode"
@@ -89,6 +90,7 @@ export const SEARCH_RESULT_LABELS: Record<SearchEntityType, string> = {
   concept: "Concept",
   pattern: "Pattern",
   situation: "Situation",
+  song: "Song",
   thinker: "Thinker",
   source: "Source",
   podcast_episode: "Podcast",

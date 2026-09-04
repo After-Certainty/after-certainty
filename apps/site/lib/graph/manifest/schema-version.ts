@@ -10,7 +10,7 @@ export type ParsedSchemaVersion = {
 };
 
 /** Fully supported production contract. */
-export const INTENDED_SCHEMA_VERSION = "2.5";
+export const INTENDED_SCHEMA_VERSION = "2.6";
 
 /** Schema majors the site can consume. Major 3+ is refused. */
 export const SUPPORTED_SCHEMA_MAJOR = 2;
@@ -42,7 +42,7 @@ export function isSchemaAtLeast(schemaVersion: string | undefined, minimum: stri
 }
 
 /**
- * Supported: missing (legacy), major 2 with any minor (2.2+ compat, 2.5 intended).
+ * Supported: missing (legacy), major 2 with any minor (2.2+ compat, 2.6 intended).
  * Refused: major >= 3 or unparseable non-empty strings.
  */
 export function isCompatibleSchemaVersion(schemaVersion: string | undefined): boolean {
@@ -52,12 +52,12 @@ export function isCompatibleSchemaVersion(schemaVersion: string | undefined): bo
   return parsed.major <= SUPPORTED_SCHEMA_MAJOR;
 }
 
-/** True when the version is the intended production contract (2.5+ within major 2). */
+/** True when the version is the intended production contract (2.6+ within major 2). */
 export function isIntendedSchemaVersion(schemaVersion: string | undefined): boolean {
   return isSchemaAtLeast(schemaVersion, INTENDED_SCHEMA_VERSION);
 }
 
-/** True when 2.2–2.4-compatible but not yet at intended 2.5. */
+/** True when 2.2–2.5-compatible but not yet at intended 2.6. */
 export function isCompatibilitySchemaVersion(schemaVersion: string | undefined): boolean {
   const parsed = parseSchemaVersion(schemaVersion);
   if (!parsed) return false;
