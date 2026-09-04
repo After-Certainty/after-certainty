@@ -9,7 +9,7 @@ from compare_manifest_parity import compare
 
 
 def _minimal_manifest(
-    *, schema: str = "2.5", books: int = 2, extra_book: dict | None = None
+    *, schema: str = "2.6", books: int = 2, extra_book: dict | None = None
 ) -> dict:
     book_rows = [
         {"slug": "after-certainty", "contentType": "nonfiction"},
@@ -82,12 +82,12 @@ def test_compare_rejects_schema_regression_and_count_regression() -> None:
 def test_compare_allows_additive_local_schema_ahead_of_remote() -> None:
     """PRs may bump schemaVersion before the published release asset catches up."""
     remote = _minimal_manifest(schema="2.4", books=4)
-    local = _minimal_manifest(schema="2.5", books=4)
+    local = _minimal_manifest(schema="2.6", books=4)
     local["patterns"].append({"id": "p-extra", "slug": "p-extra"})
     report, errors = compare(local, remote)
     assert not errors, errors
     assert report["compatible"] is True
-    assert report["local"]["schemaVersion"] == "2.5"
+    assert report["local"]["schemaVersion"] == "2.6"
     assert report["remote"]["schemaVersion"] == "2.4"
 
 

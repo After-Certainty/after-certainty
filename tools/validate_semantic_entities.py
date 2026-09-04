@@ -54,6 +54,8 @@ SLUG_PARENTS = frozenset(
         "trails",
         "shelves",
         "challenges",
+        "songs",
+        "playlists",
     }
 )
 
@@ -77,6 +79,8 @@ DIR_SCHEMA = {
     "shelves": "shelf-entry.schema.json",
     "change-events": "change-event-entry.schema.json",
     "challenges": "challenge-entry.schema.json",
+    "songs": "song-entry.schema.json",
+    "playlists": "playlist-entry.schema.json",
 }
 
 
@@ -231,6 +235,66 @@ def _check_refs_in_doc(
         s = _normalize_ref_slug(dominant, "pattern")
         if s and s not in patterns:
             errors.append(f"{path}: dominantPattern references unknown slug {s!r}")
+
+
+def _check_song_doc(
+    repo: Path,
+    doc: dict,
+    *,
+    path: Path,
+    errors: list[str],
+) -> None:
+    lyrics_path = str(doc.get("lyricsPath") or "").strip()
+    if lyrics_path:
+        full = repo / lyrics_path
+        if not full.is_file():
+            errors.append(f"{path}: lyricsPath does not exist: {lyrics_path!r}")
+    recordings = doc.get("recordings")
+    if not isinstance(recordings, list):
+        return
+    primary_count = 0
+    seen_ids: set[str] = set()
+    for i, rec in enumerate(recordings):
+        if not isinstance(rec, dict):
+            continue
+        if rec.get("primary") is True:
+            primary_count += 1
+        external_id = str(rec.get("externalId") or "").strip()
+        if not external_id:
+            errors.append(f"{path}: recordings[{i}].externalId is empty")
+            continue
+        if external_id in seen_ids:
+            errors.append(f"{path}: duplicate recording externalId {external_id!r}")
+        seen_ids.add(external_id)
+    if primary_count != 1:
+        errors.append(f"{path}: expected exactly one primary recording, found {primary_count}")
+
+
+def _check_playlist_doc(
+    doc: dict,
+    *,
+    song_slugs: set[str],
+    path: Path,
+    errors: list[str],
+) -> None:
+    tracks = doc.get("tracks")
+    if not isinstance(tracks, list):
+        return
+    seen_positions: set[int] = set()
+    for i, track in enumerate(tracks):
+        if not isinstance(track, dict):
+            continue
+        song_slug = str(track.get("songSlug") or "").strip()
+        if song_slug and song_slug not in song_slugs:
+            errors.append(f"{path}: tracks[{i}].songSlug unknown song {song_slug!r}")
+        position = track.get("position")
+        if isinstance(position, int):
+            if position in seen_positions:
+                errors.append(f"{path}: duplicate track position {position}")
+            seen_positions.add(position)
+        recording_id = str(track.get("recordingExternalId") or "").strip()
+        if not recording_id:
+            errors.append(f"{path}: tracks[{i}].recordingExternalId is empty")
 
 
 def _check_relationships_file(
@@ -412,6 +476,18 @@ def validate(
                         f"{rel_repo}: organizingForce is only valid when patternRole is supporting"
                     )
 
+            if rel_sem.parts and rel_sem.parts[0] == "songs":
+                _check_song_doc(repo, data, path=rel_repo, errors=ref_errors)
+
+            if rel_sem.parts and rel_sem.parts[0] == "playlists":
+                song_slugs = _collect_dir_slugs(repo, "songs")
+                _check_playlist_doc(
+                    data,
+                    song_slugs=song_slugs,
+                    path=rel_repo,
+                    errors=ref_errors,
+                )
+
         if path.name == "relationships.yml":
             _check_relationships_file(
                 repo,
@@ -437,6 +513,27 @@ def validate(
                         path=rel_repo,
                         errors=ref_errors,
                     )
+
+    # Cross-song unique Suno clip IDs
+    recording_owners: dict[str, Path] = {}
+    for path in sorted((repo / SEMANTIC / "songs").glob("*.yml")):
+        doc = _load_yaml(path)
+        if not isinstance(doc, dict):
+            continue
+        for rec in doc.get("recordings") or []:
+            if not isinstance(rec, dict):
+                continue
+            external_id = str(rec.get("externalId") or "").strip()
+            if not external_id:
+                continue
+            prev = recording_owners.get(external_id)
+            if prev is not None and prev != path:
+                ref_errors.append(
+                    f"{path.relative_to(repo)}: recording externalId {external_id!r} "
+                    f"also used in {prev.relative_to(repo)}"
+                )
+            else:
+                recording_owners[external_id] = path
 
     rc = 0
     if schema_errors:

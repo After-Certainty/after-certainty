@@ -11,7 +11,7 @@ from manuscript_structure import CHAPTER_KINDS, build_structure_for_book, infer_
 
 
 def test_schema_version_is_23() -> None:
-    assert SCHEMA_VERSION == "2.5"
+    assert SCHEMA_VERSION == "2.6"
 
 
 def test_overview_roles_preserve_legacy_id_arrays() -> None:

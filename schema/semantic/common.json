@@ -14,60 +14,102 @@
     },
     "stringList": {
       "type": "array",
-      "items": { "$ref": "#/$defs/nonEmptyString" },
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      },
       "minItems": 1
     },
     "conceptSlugList": {
       "type": "array",
-      "items": { "$ref": "#/$defs/slug" }
+      "items": {
+        "$ref": "#/$defs/slug"
+      }
     },
     "patternSlugList": {
       "type": "array",
-      "items": { "$ref": "#/$defs/slug" }
+      "items": {
+        "$ref": "#/$defs/slug"
+      }
     },
     "sourceSlugList": {
       "type": "array",
-      "items": { "$ref": "#/$defs/slug" }
+      "items": {
+        "$ref": "#/$defs/slug"
+      }
     },
     "bookSlugList": {
       "type": "array",
-      "items": { "$ref": "#/$defs/slug" }
+      "items": {
+        "$ref": "#/$defs/slug"
+      }
     },
     "trajectory": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "earlySignals": { "$ref": "#/$defs/stringList" },
-        "intensificationSignals": { "$ref": "#/$defs/stringList" },
-        "failureModes": { "$ref": "#/$defs/stringList" },
-        "restorationPaths": { "$ref": "#/$defs/stringList" }
+        "earlySignals": {
+          "$ref": "#/$defs/stringList"
+        },
+        "intensificationSignals": {
+          "$ref": "#/$defs/stringList"
+        },
+        "failureModes": {
+          "$ref": "#/$defs/stringList"
+        },
+        "restorationPaths": {
+          "$ref": "#/$defs/stringList"
+        }
       }
     },
     "manifestations": {
       "type": "object",
       "additionalProperties": {
         "type": "array",
-        "items": { "$ref": "#/$defs/nonEmptyString" },
+        "items": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
         "minItems": 1
       },
       "properties": {
-        "software": { "$ref": "#/$defs/stringList" },
-        "politics": { "$ref": "#/$defs/stringList" },
-        "leadership": { "$ref": "#/$defs/stringList" },
-        "family": { "$ref": "#/$defs/stringList" },
-        "ai_systems": { "$ref": "#/$defs/stringList" },
-        "organizations": { "$ref": "#/$defs/stringList" }
+        "software": {
+          "$ref": "#/$defs/stringList"
+        },
+        "politics": {
+          "$ref": "#/$defs/stringList"
+        },
+        "leadership": {
+          "$ref": "#/$defs/stringList"
+        },
+        "family": {
+          "$ref": "#/$defs/stringList"
+        },
+        "ai_systems": {
+          "$ref": "#/$defs/stringList"
+        },
+        "organizations": {
+          "$ref": "#/$defs/stringList"
+        }
       }
     },
     "dynamicEnrichment": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "recognitionSignals": { "$ref": "#/$defs/stringList" },
-        "questions": { "$ref": "#/$defs/stringList" },
-        "counterbalances": { "$ref": "#/$defs/stringList" },
-        "manifestations": { "$ref": "#/$defs/manifestations" },
-        "trajectory": { "$ref": "#/$defs/trajectory" }
+        "recognitionSignals": {
+          "$ref": "#/$defs/stringList"
+        },
+        "questions": {
+          "$ref": "#/$defs/stringList"
+        },
+        "counterbalances": {
+          "$ref": "#/$defs/stringList"
+        },
+        "manifestations": {
+          "$ref": "#/$defs/manifestations"
+        },
+        "trajectory": {
+          "$ref": "#/$defs/trajectory"
+        }
       }
     },
     "groundingType": {
@@ -85,38 +127,64 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "work": { "$ref": "#/$defs/slug" },
-        "source": { "$ref": "#/$defs/slug" },
-        "concept": { "$ref": "#/$defs/slug" },
-        "pattern": { "$ref": "#/$defs/slug" }
+        "work": {
+          "$ref": "#/$defs/slug"
+        },
+        "source": {
+          "$ref": "#/$defs/slug"
+        },
+        "concept": {
+          "$ref": "#/$defs/slug"
+        },
+        "pattern": {
+          "$ref": "#/$defs/slug"
+        }
       },
       "minProperties": 1
     },
     "grounding": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["type"],
+      "required": [
+        "type"
+      ],
       "properties": {
-        "type": { "$ref": "#/$defs/groundingType" },
+        "type": {
+          "$ref": "#/$defs/groundingType"
+        },
         "developedFrom": {
           "type": "array",
-          "items": { "$ref": "#/$defs/groundingDevelopedFromItem" }
+          "items": {
+            "$ref": "#/$defs/groundingDevelopedFromItem"
+          }
         },
-        "note": { "type": "string" }
+        "note": {
+          "type": "string"
+        }
       }
     },
     "relationshipProvenance": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["origin"],
+      "required": [
+        "origin"
+      ],
       "properties": {
         "origin": {
           "type": "string",
-          "enum": ["authored", "extracted", "inferred", "source_grounded"]
+          "enum": [
+            "authored",
+            "extracted",
+            "inferred",
+            "source_grounded"
+          ]
         },
         "evidence": {
           "type": "array",
-          "items": { "type": "string", "minLength": 1 }
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       }
     },
@@ -135,13 +203,164 @@
         "infographic": {
           "type": "object",
           "additionalProperties": false,
-          "required": ["path", "width", "height"],
+          "required": [
+            "path",
+            "width",
+            "height"
+          ],
           "properties": {
-            "path": { "$ref": "#/$defs/nonEmptyString" },
-            "width": { "type": "integer", "minimum": 1 },
-            "height": { "type": "integer", "minimum": 1 },
-            "alt": { "type": "string" }
+            "path": {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            "width": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "height": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "alt": {
+              "type": "string"
+            }
           }
+        }
+      }
+    },
+    "songSlugList": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/slug"
+      }
+    },
+    "languageCode": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 16,
+      "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)*$"
+    },
+    "languageCodeList": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/languageCode"
+      },
+      "minItems": 1
+    },
+    "songRecording": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "platform",
+        "externalId",
+        "primary",
+        "recordingTitle"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string",
+          "enum": [
+            "suno"
+          ]
+        },
+        "externalId": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "primary": {
+          "type": "boolean"
+        },
+        "recordingTitle": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "versionTitle": {
+          "type": "string"
+        },
+        "createdAt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "durationSeconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "modelName": {
+          "type": "string"
+        },
+        "modelVersion": {
+          "type": "string"
+        },
+        "task": {
+          "type": "string"
+        },
+        "isRemix": {
+          "type": "boolean"
+        },
+        "coverClipId": {
+          "type": "string"
+        },
+        "editedClipId": {
+          "type": "string"
+        },
+        "styleTags": {
+          "type": "string"
+        },
+        "remixInstruction": {
+          "type": "string"
+        },
+        "lineageNote": {
+          "type": "string"
+        },
+        "supersededBy": {
+          "type": "string"
+        }
+      }
+    },
+    "songRelatedMedia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "externalId"
+      ],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "youtube"
+          ]
+        },
+        "externalId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]{6,}$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "music_video",
+            "performance",
+            "documentary",
+            "other"
+          ]
+        }
+      }
+    },
+    "songGeneration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "authoredPrompt"
+      ],
+      "properties": {
+        "authoredPrompt": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "authoredPromptSource": {
+          "type": "string"
+        },
+        "authoredPromptRetrievedAt": {
+          "type": "string"
         }
       }
     }

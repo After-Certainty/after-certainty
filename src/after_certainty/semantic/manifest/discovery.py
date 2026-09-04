@@ -24,7 +24,7 @@ from after_certainty.specs.book_specs import (
 )
 
 SEMANTIC = Path("semantic")
-SCHEMA_VERSION = "2.5"
+SCHEMA_VERSION = "2.6"
 CONTENT_TYPES = frozenset({"nonfiction", "fiction", "handbook", "essay_collection", "poetry"})
 LITERARY_FORMS = frozenset(
     {
@@ -431,6 +431,211 @@ def build_challenges(repo: Path) -> list[dict]:
     return rows
 
 
+def _project_song_recording(raw: object) -> dict | None:
+    if not isinstance(raw, dict):
+        return None
+    platform = str(raw.get("platform") or "").strip()
+    external_id = str(raw.get("externalId") or "").strip()
+    recording_title = str(raw.get("recordingTitle") or "").strip()
+    if not platform or not external_id or not recording_title:
+        return None
+    out: dict = {
+        "platform": platform,
+        "externalId": external_id,
+        "primary": bool(raw.get("primary")),
+        "recordingTitle": recording_title,
+    }
+    for key in (
+        "versionTitle",
+        "createdAt",
+        "modelName",
+        "modelVersion",
+        "task",
+        "coverClipId",
+        "editedClipId",
+        "styleTags",
+        "remixInstruction",
+        "lineageNote",
+        "supersededBy",
+    ):
+        val = raw.get(key)
+        if val is None:
+            continue
+        text = str(val).strip()
+        if text:
+            out[key] = text
+    if "isRemix" in raw:
+        out["isRemix"] = bool(raw.get("isRemix"))
+    duration = raw.get("durationSeconds")
+    if isinstance(duration, (int, float)):
+        out["durationSeconds"] = float(duration)
+    return out
+
+
+def _project_song_media(raw: object) -> dict | None:
+    if not isinstance(raw, dict):
+        return None
+    kind = str(raw.get("kind") or "").strip()
+    external_id = str(raw.get("externalId") or "").strip()
+    if not kind or not external_id:
+        return None
+    out: dict = {"kind": kind, "externalId": external_id}
+    for key in ("title", "role"):
+        val = str(raw.get(key) or "").strip()
+        if val:
+            out[key] = val
+    return out
+
+
+def _project_song_generation(raw: object) -> dict | None:
+    if not isinstance(raw, dict):
+        return None
+    prompt = str(raw.get("authoredPrompt") or "").strip()
+    if not prompt:
+        return None
+    out: dict = {"authoredPrompt": prompt}
+    for key in ("authoredPromptSource", "authoredPromptRetrievedAt"):
+        val = str(raw.get(key) or "").strip()
+        if val:
+            out[key] = val
+    return out
+
+
+def _project_song_grounding(raw: object) -> dict | None:
+    if not isinstance(raw, dict):
+        return None
+    gtype = str(raw.get("type") or "").strip()
+    if not gtype:
+        return None
+    out: dict = {"type": gtype}
+    note = str(raw.get("note") or "").strip()
+    if note:
+        out["note"] = note
+    developed = raw.get("developedFrom")
+    if isinstance(developed, list) and developed:
+        items: list[dict] = []
+        for row in developed:
+            if not isinstance(row, dict):
+                continue
+            item = {
+                k: str(row[k]).strip()
+                for k in ("work", "source", "concept", "pattern")
+                if str(row.get(k) or "").strip()
+            }
+            if item:
+                items.append(item)
+        if items:
+            out["developedFrom"] = items
+    return out
+
+
+def build_songs(repo: Path) -> list[dict]:
+    """Song compositions with recording provenance (schemaVersion 2.6+)."""
+    rows: list[dict] = []
+    for path in _iter_dir_yml(repo, "songs"):
+        doc = load_yaml(path)
+        if not isinstance(doc, dict):
+            continue
+        slug = str(doc.get("slug") or path.stem).strip()
+        recordings_raw = doc.get("recordings")
+        recordings: list[dict] = []
+        if isinstance(recordings_raw, list):
+            for item in recordings_raw:
+                projected = _project_song_recording(item)
+                if projected:
+                    recordings.append(projected)
+        if not recordings:
+            continue
+        entry: dict = {
+            "id": f"song-{slug}",
+            "slug": slug,
+            "title": str(doc.get("title") or slug).strip(),
+            "shortDescription": str(doc.get("shortDescription") or "").strip(),
+            "longDescription": str(doc.get("longDescription") or "").strip(),
+            "creatorNames": _optional_str_list(doc.get("creatorNames")),
+            "lyricsPath": str(doc.get("lyricsPath") or "").strip(),
+            "lyricLanguages": _optional_str_list(doc.get("lyricLanguages")),
+            "relatedConcepts": _optional_str_list(doc.get("relatedConcepts")),
+            "relatedPatterns": _optional_str_list(doc.get("relatedPatterns")),
+            "relatedBooks": _optional_str_list(doc.get("relatedBooks")),
+            "recordings": recordings,
+        }
+        sources = _optional_str_list(doc.get("relatedSources"))
+        if sources:
+            entry["relatedSources"] = sources
+        media_raw = doc.get("relatedMedia")
+        if isinstance(media_raw, list):
+            media = [m for m in (_project_song_media(x) for x in media_raw) if m]
+            if media:
+                entry["relatedMedia"] = media
+        generation = _project_song_generation(doc.get("generation"))
+        if generation:
+            entry["generation"] = generation
+        grounding = _project_song_grounding(doc.get("grounding"))
+        if grounding:
+            entry["grounding"] = grounding
+        editorial = str(doc.get("editorialStatus") or "").strip()
+        if editorial:
+            entry["editorialStatus"] = editorial
+        aliases = _optional_str_list(doc.get("searchAliases"))
+        if aliases:
+            entry["searchAliases"] = aliases
+        rows.append(entry)
+    rows.sort(key=lambda r: str(r["id"]))
+    return rows
+
+
+def build_playlists(repo: Path) -> list[dict]:
+    """Curated playlists of song recordings (schemaVersion 2.6+)."""
+    rows: list[dict] = []
+    for path in _iter_dir_yml(repo, "playlists"):
+        doc = load_yaml(path)
+        if not isinstance(doc, dict):
+            continue
+        slug = str(doc.get("slug") or path.stem).strip()
+        tracks_raw = doc.get("tracks")
+        tracks: list[dict] = []
+        if isinstance(tracks_raw, list):
+            for item in tracks_raw:
+                if not isinstance(item, dict):
+                    continue
+                song_slug = str(item.get("songSlug") or "").strip()
+                recording_id = str(item.get("recordingExternalId") or "").strip()
+                position = item.get("position")
+                if not song_slug or not recording_id or not isinstance(position, int):
+                    continue
+                track: dict = {
+                    "position": position,
+                    "songSlug": song_slug,
+                    "songId": f"song-{song_slug}",
+                    "recordingExternalId": recording_id,
+                }
+                tracks.append(track)
+        if not tracks:
+            continue
+        tracks.sort(key=lambda t: int(t["position"]))
+        entry: dict = {
+            "id": f"playlist-{slug}",
+            "slug": slug,
+            "title": str(doc.get("title") or slug).strip(),
+            "platform": str(doc.get("platform") or "").strip(),
+            "externalId": str(doc.get("externalId") or "").strip(),
+            "tracks": tracks,
+        }
+        description = str(doc.get("description") or "").strip()
+        if description:
+            entry["description"] = description
+        share_id = str(doc.get("shareId") or "").strip()
+        if share_id:
+            entry["shareId"] = share_id
+        snapshot = str(doc.get("snapshotDate") or "").strip()
+        if snapshot:
+            entry["snapshotDate"] = snapshot
+        rows.append(entry)
+    rows.sort(key=lambda r: str(r["id"]))
+    return rows
+
+
 def build_questions(
     repo: Path,
     title_index: dict[str, tuple[str | None, str | None]],
@@ -641,6 +846,61 @@ def build_search_aliases(repo: Path) -> list[dict]:
     return rows
 
 
+def _apply_song_reverse_links(payload: dict) -> None:
+    """Attach reverse song refs onto books, glossary, and patterns (schemaVersion 2.6)."""
+    songs = payload.get("songs") or []
+    if not isinstance(songs, list) or not songs:
+        return
+
+    book_songs: dict[str, set[str]] = defaultdict(set)
+    concept_songs: dict[str, set[str]] = defaultdict(set)
+    pattern_songs: dict[str, set[str]] = defaultdict(set)
+
+    for song in songs:
+        if not isinstance(song, dict):
+            continue
+        song_id = str(song.get("id") or "").strip()
+        song_slug = str(song.get("slug") or "").strip()
+        if not song_id or not song_slug:
+            continue
+        for bid in song.get("relatedBooks") or []:
+            book_slug = str(bid).removeprefix("book-").strip()
+            if book_slug:
+                book_songs[book_slug].add(song_id)
+        for cid in song.get("relatedConcepts") or []:
+            concept_slug = str(cid).removeprefix("concept-").strip()
+            if concept_slug:
+                concept_songs[concept_slug].add(song_slug)
+        for pid in song.get("relatedPatterns") or []:
+            pattern_slug = str(pid).removeprefix("pattern-").strip()
+            if pattern_slug:
+                pattern_songs[pattern_slug].add(song_slug)
+
+    for book in payload.get("books") or []:
+        if not isinstance(book, dict):
+            continue
+        slug = str(book.get("slug") or "").strip()
+        linked = book_songs.get(slug)
+        if linked:
+            book["songs"] = sorted(linked)
+
+    for concept in payload.get("glossary") or []:
+        if not isinstance(concept, dict):
+            continue
+        slug = str(concept.get("slug") or "").strip()
+        linked = concept_songs.get(slug)
+        if linked:
+            concept["relatedSongs"] = sorted(linked)
+
+    for pattern in payload.get("patterns") or []:
+        if not isinstance(pattern, dict):
+            continue
+        slug = str(pattern.get("slug") or "").strip()
+        linked = pattern_songs.get(slug)
+        if linked:
+            pattern["relatedSongs"] = sorted(linked)
+
+
 def attach_discovery_collections(
     payload: dict,
     *,
@@ -665,6 +925,9 @@ def attach_discovery_collections(
     payload["questions"] = build_questions(repo, title_index)
     payload["trails"] = build_trails(repo, title_index)
     payload["challenges"] = build_challenges(repo)
+    payload["songs"] = build_songs(repo)
+    payload["playlists"] = build_playlists(repo)
+    _apply_song_reverse_links(payload)
     payload["shelves"] = build_shelves(repo, books)
     payload["changeEvents"] = build_change_events(repo, books)
     payload["searchAliases"] = build_search_aliases(repo)

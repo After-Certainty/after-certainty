@@ -30,7 +30,7 @@ def test_phase0_baseline_files_exist() -> None:
 
 def test_phase0_schema_and_core_collections(semantic_manifest: dict) -> None:
     manifest = semantic_manifest
-    assert manifest["schemaVersion"] == "2.5"
+    assert manifest["schemaVersion"] == "2.6"
     assert manifest["manifestVersion"] == 2
     assert manifest.get("sourceCommit")
     for key in (
@@ -46,6 +46,8 @@ def test_phase0_schema_and_core_collections(semantic_manifest: dict) -> None:
         "questions",
         "trails",
         "challenges",
+        "songs",
+        "playlists",
         "shelves",
         "changeEvents",
         "searchAliases",
@@ -169,9 +171,11 @@ def test_phase0_smoke_route_entities_exist_in_manifest(semantic_manifest: dict) 
 
 
 def test_phase0_release_baseline_schema_matches_generator(semantic_manifest: dict) -> None:
+    """Generator may be additively ahead of the frozen release baseline schemaVersion."""
     manifest = semantic_manifest
     release = json.loads((BASELINES / "release-manifest-identity.json").read_text(encoding="utf-8"))
-    assert release["schemaVersion"] == manifest["schemaVersion"] == "2.5"
+    assert manifest["schemaVersion"] == "2.6"
+    assert release["schemaVersion"] in {"2.5", "2.6"}
     # Counts may grow; generator must not shrink below the frozen release floor without
     # an intentional baseline refresh.
     for key, floor in release["counts"].items():
