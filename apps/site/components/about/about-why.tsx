@@ -28,7 +28,7 @@ export function AboutWhy() {
         they are the ordinary condition of deciding.
       </p>
       <p>
-        After Certainty explores how to hold those truths together: seeing through perspectives other
+        After Certainty explores how to hold those truths together: seeing from perspectives other
         than our own, being honest about what we don’t know, respecting what others may be seeing,
         and still making the best decisions we can—while remembering that reality is always larger
         than the answer that helped us decide.

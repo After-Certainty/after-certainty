@@ -2,9 +2,7 @@ import type { ReactNode } from "react";
 import { FeatureCard } from "@/components/about/feature-card";
 import {
   IconBooks,
-  IconCollaboration,
   IconEssays,
-  IconInfrastructure,
   IconPatterns,
   IconPodcast,
 } from "@/components/about/about-feature-icons";
@@ -43,20 +41,6 @@ const items: {
     icon: <IconPatterns className="h-5 w-5" />,
     href: "/explore/patterns",
   },
-  {
-    title: "Open Collaboration",
-    description:
-      "A GitHub-first publishing ecosystem designed for evolving participation, critique, and extension.",
-    icon: <IconCollaboration className="h-5 w-5" />,
-    href: "/collaborators",
-  },
-  {
-    title: "Publishing Infrastructure",
-    description:
-      "The repository, metadata, and pipelines that keep the work legible, revisable, and publicly accessible.",
-    icon: <IconInfrastructure className="h-5 w-5" />,
-    href: "/collaborators",
-  },
 ];
 
 export function AboutStructure() {
@@ -68,11 +52,11 @@ export function AboutStructure() {
             What After Certainty Is
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-[15px] leading-relaxed text-muted md:mx-0">
-            Around that idea, the project gathers several formats—each with its own pace, none
-            pretending to be exhaustive on its own.
+            Around that idea, the project explores through several formats—each with its own pace,
+            none pretending to be exhaustive on its own.
           </p>
         </div>
-        <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:gap-6">
           {items.map((item) => (
             <FeatureCard
               key={item.title}
