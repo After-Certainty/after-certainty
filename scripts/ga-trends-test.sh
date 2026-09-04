@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Run the ga-trends standard report pack via PADE broker and print the markdown brief.
 #
-# Requires: pade v0.2.0 on PATH, pade.yaml, .pade/agent-bindings.yaml, Cloud Agent identity.
+# Requires: pade v0.2.1 on PATH, pade.yaml, .pade/agent-bindings.yaml, Cloud Agent identity.
 # Reports run sequentially with brief pauses to avoid broker identity-mint contention.
 set -euo pipefail
 
