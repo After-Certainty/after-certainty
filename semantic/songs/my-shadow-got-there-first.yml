@@ -1,0 +1,66 @@
+slug: my-shadow-got-there-first
+title: My Shadow Got There First
+shortDescription: 'Mississippi Delta blues haunted by lo-fi chiptune: a predictive shadow sits in your
+  chair, knows your trail and purchases, and still never learned your walk.'
+longDescription: 'Resonator slide answered by intrusive eight-bit phrases literalizes stale representation—the
+  profile that arrives first and wears your name. What We Cannot See and compression-loses-the-person
+  are strongest: a man is not only the footsteps somebody gathered in. Machine-perspective fits the digital
+  double without forcing a sci-fi novel link; bias appears in “I know your kind” from the trail alone.
+  Save one chair for the stranger you have not calculated for. Keep weaker tech-allegory book ties flagged
+  for human review rather than inflated into primary mappings.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/my-shadow-got-there-first.md
+lyricLanguages:
+- en
+relatedConcepts:
+- machine-perspective
+- stale-representation
+- compression
+- bias
+relatedPatterns:
+- compression-loses-the-person
+- results-conceal-the-game
+- intent-gets-assigned
+relatedBooks:
+- what-we-cannot-see
+- when-the-key-changes-hands
+recordings:
+- platform: suno
+  externalId: 9d40a54e-6d77-4beb-b41c-73cea6a4a6c0
+  primary: true
+  recordingTitle: My Shadow Got There First (Short 8-Bit Edit)
+  createdAt: '2026-08-31T00:33:24.610Z'
+  durationSeconds: 469.76
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: cover
+  isRemix: true
+  versionTitle: Short 8-Bit Edit
+  styleTags: Mississippi Delta blues fused with more prominent lo-fi 8-bit chiptune textures. Raw, weathered
+    male vocal over a slow, swampy groove with resonator slide guitar, acoustic guitar, foot-stomp percussion,
+    upright bass, and heavy tape hiss, vinyl crackle, and room ambience. Thread multiple detuned square-wave
+    and triangle-wave melodies through the arrangement as an insistent digital shadow, with bit-crushed
+    arpeggios, simple counter-lines, and glitchy call-and-response figures that gradually grow more present
+    and intrusive. The electronic phrases anticipate, double, and interrupt the slide guitar and vocal,
+    adding eerie, mechanized tension while keeping the overall palette dusty, minimal, hypnotic, and darkly
+    surreal. Structured as a tightened short edit with one fewer verse and more concentrated interplay
+    between human blues phrasing and rigid 8-bit motifs.
+  remixInstruction: Let’s trim a verse and make a short edit of this song.  Also add more electronic 8-bit
+    chiptune sounds.
+generation:
+  authoredPrompt: Mississippi Delta blues fused with more prominent lo-fi 8-bit chiptune textures. Raw,
+    weathered male vocal over a slow, swampy groove with resonator slide guitar, acoustic guitar, foot-stomp
+    percussion, upright bass, and heavy tape hiss, vinyl crackle, and room ambience. Thread multiple detuned
+    square-wave and triangle-wave melodies through the arrangement as an insistent digital shadow, with
+    bit-crushed arpeggios, simple counter-lines, and glitchy call-and-response figures that gradually
+    grow more present and intrusive. The electronic phrases anticipate, double, and interrupt the slide
+    guitar and vocal, adding eerie, mechanized tension while keeping the overall palette dusty, minimal,
+    hypnotic, and darkly surreal. Structured as a tightened short edit with one fewer verse and more concentrated
+    interplay between human blues phrasing and rigid 8-bit motifs.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

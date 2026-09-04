@@ -1,0 +1,56 @@
+slug: somebody-feels-it
+title: Somebody Feels It
+shortDescription: 'Deep roots dub reggae: delayed vocals insist that every cost pushed downstream still
+  lands—somebody, somewhere, carries the rest of the night.'
+longDescription: Huge sub-bass, one-drop drums, and spring-reverb echoes make consequence linger as sound
+  design. Words leave one mouth light and arrive heavy elsewhere; a number changes far away and somebody
+  pays; nothing disappears because we refuse to bear it. When Moral Seriousness Scales and Coupling verify
+  distance from felt cost and consequence architecture. Patterns distance-conceals-consequence and responsibility-persists-beyond-control
+  match weight that continues after hands let go. Knowing the reason does not lift what someone else must
+  still breathe through until the morning comes.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/somebody-feels-it.md
+lyricLanguages:
+- en
+relatedConcepts:
+- distance
+- consequence
+- harm
+- asymmetry
+- accountability
+relatedPatterns:
+- distance-conceals-consequence
+- responsibility-persists-beyond-control
+- compression-loses-the-person
+relatedBooks:
+- when-moral-seriousness-scales
+- coupling
+- when-authority-outlives-accountability
+recordings:
+- platform: suno
+  externalId: d41fdeca-e505-458e-9949-02197e782818
+  primary: true
+  recordingTitle: Somebody Feels It
+  createdAt: '2026-09-01T03:20:46.674Z'
+  durationSeconds: 262.84
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: |-
+    Roots dub reggae with a deep, spacious, hypnotic groove. Slow-to-mid tempo, huge warm sub-bass, one-drop drums, skanking guitar, sparse organ bubbles, hand percussion, and lots of tape delay, spring reverb, echo, dropouts, and negative space. Intimate male lead vocal with calm, restrained, slightly weary phrasing rather than a bright reggae-pop delivery. Let key phrases like “Somebody feels it,” “Nothing personal,” and “The cost goes somewhere” repeat and dissolve into long dub echoes.
+
+    Keep the arrangement minimal and physical. Verses should feel close and conversational; choruses should widen through layered echoes rather than getting louder or more anthemic. During the dub break, fragment the vocals into drifting call-and-response phrases while bass and percussion carry the track. Dark, thoughtful, nocturnal, human, and slightly ominous. Avoid glossy pop-reggae, ska energy, cheerful island clichés, or overly busy production.
+generation:
+  authoredPrompt: |-
+    Roots dub reggae with a deep, spacious, hypnotic groove. Slow-to-mid tempo, huge warm sub-bass, one-drop drums, skanking guitar, sparse organ bubbles, hand percussion, and lots of tape delay, spring reverb, echo, dropouts, and negative space. Intimate male lead vocal with calm, restrained, slightly weary phrasing rather than a bright reggae-pop delivery. Let key phrases like “Somebody feels it,” “Nothing personal,” and “The cost goes somewhere” repeat and dissolve into long dub echoes.
+
+
+    Keep the arrangement minimal and physical. Verses should feel close and conversational; choruses should widen through layered echoes rather than getting louder or more anthemic. During the dub break, fragment the vocals into drifting call-and-response phrases while bass and percussion carry the track. Dark, thoughtful, nocturnal, human, and slightly ominous. Avoid glossy pop-reggae, ska energy, cheerful island clichés, or overly busy production.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

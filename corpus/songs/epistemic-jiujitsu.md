@@ -1,0 +1,287 @@
+---
+title: "Epistemic Jiujitsu"
+slug: epistemic-jiujitsu
+languages: ["en"]
+---
+
+[Intro]
+
+
+WORKING
+AS DESIGNED
+
+
+WORKING
+AS DESIGNED
+
+
+WHO DESIGNED IT?
+
+
+...
+
+
+WHO?
+
+
+[Beat enters]
+
+
+ONE MACHINE
+MANY MEETINGS
+
+
+EVERYTHING CONNECTS
+NOTHING TALKS
+
+
+THE NUMBERS ALIGN
+THE PEOPLE DO NOT
+
+
+[Refrain]
+
+
+THE PATTERN IS REAL
+THE PLAN IS OPTIONAL
+
+
+SAME RESULT
+DIFFERENT REASON
+
+
+THE PATTERN IS REAL
+THE PLAN IS OPTIONAL
+
+
+[Synth build]
+
+
+NO MASTER PLAN
+ONLY DEADLINES
+
+
+WHO OWNS THE LEVER?
+
+
+...
+
+
+OPEN A TICKET
+
+
+[Electronic pulse]
+
+
+YOUR ROBOT HAS ANSWERS
+
+
+MY ROBOT HAS QUESTIONS
+
+
+YOUR ROBOT REVIEWS
+
+
+MY ROBOT REPLIES
+
+
+YOUR ROBOT APPROVES
+
+
+WE CALL THIS
+
+
+ALIGNMENT
+
+
+[Drop]
+
+
+SPECIFIC
+
+
+IDENTICAL
+
+
+SIMULTANEOUS
+
+
+COORDINATED
+
+
+...
+
+
+DEFINE
+
+
+COORDINATED
+
+
+[Beat slams back]
+
+
+THE PATTERN PROVES DESIGN
+
+
+THE DESIGN PROVES THE PATTERN
+
+
+THE EVIDENCE IS THE PATTERN
+
+
+THE PATTERN IS THE EVIDENCE
+
+
+[Sudden silence]
+
+
+WE FOUND THE FINGERPRINT
+
+
+ON OUR OWN HAND
+
+
+[Impact]
+
+
+FIND THE HAND
+
+
+BEHIND THE HAND
+
+
+BEHIND THE—
+
+
+...
+
+
+NO HAND
+
+
+ONLY GLOVE
+
+
+[Slow, deadpan]
+
+
+THE CONTROL ROOM
+IS EMPTY
+
+
+WE FOUND THE CHAIR
+
+
+WE PROMOTED THE CHAIR
+
+
+THE MACHINE HAS NO OPERATOR
+
+
+THE OPERATORS HAVE NO MACHINE
+
+
+[Full stop]
+
+
+EPISTEMIC
+
+
+...
+
+
+JIU
+
+
+JITSU
+
+
+[Single pulse]
+
+
+DO NOT PUSH
+
+
+DO NOT PULL
+
+
+ASK THE QUESTION
+
+
+LET IT FALL
+
+
+[Breakdown — dry dialogue]
+
+
+MASTER
+
+
+WHAT IS THE SECRET?
+
+
+...
+
+
+DO NOT ARGUE
+WITH STUPID PEOPLE
+
+
+...
+
+
+I DO NOT THINK
+THAT IS CORRECT
+
+
+...
+
+
+YOU ARE CORRECT
+
+
+[Long pause]
+
+
+DISCUSSION
+
+
+COMPLETE
+
+
+[Outro]
+
+
+WORKING
+AS DESIGNED
+
+
+WHO DESIGNED IT?
+
+
+...
+
+
+THE PATTERN IS REAL
+
+
+THE PLAN IS OPTIONAL
+
+
+...
+
+
+WHO?
+
+
+...
+
+
+YOU ARE CORRECT
+
+
+...
+
+
+TUESDAY.

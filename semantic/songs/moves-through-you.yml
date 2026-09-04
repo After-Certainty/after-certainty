@@ -1,0 +1,67 @@
+slug: moves-through-you
+title: Moves Through You
+shortDescription: 'Euphoric-then-dark synth-pop: three voices pass kindness, fear, custom, and power through
+  each other until inheritance becomes a conscious choice about what keeps moving.'
+longDescription: 'A communal club pulse makes contagion danceable—love and fear travel the same pipeline.
+  The chain-reaction verse from kindness to permission to custom to “we’ve always known” is How Meaning
+  Moves meeting The World We Make Together. Circulation, permission, inheritance, and understanding-circulates
+  are high-confidence links; examples-accumulate fits the dozen tiny signals teaching a room its unwritten
+  rules. The bridge’s keep-courage and lose-cruelty adds agency inside inheritance, so the final claim
+  is not fatalism: what leaves you passes through you first, and you can change what continues.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/moves-through-you.md
+lyricLanguages:
+- en
+relatedConcepts:
+- circulation
+- permission
+- inheritance
+- meaning
+- agency
+relatedPatterns:
+- understanding-circulates
+- examples-accumulate
+- meaning-drifts-over-time
+relatedBooks:
+- how-meaning-moves
+- the-world-we-make-together
+- when-others-become-leaders
+recordings:
+- platform: suno
+  externalId: a1884b23-4bb5-4399-bf8b-d2a82cf76af7
+  primary: true
+  recordingTitle: Moves Through You
+  createdAt: '2026-08-30T03:30:37.065Z'
+  durationSeconds: 342.28
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: cover
+  isRemix: true
+  coverClipId: abe0ca62-a08f-4daf-9a4d-af119cbd6c98
+  styleTags: |-
+    High-energy nocturnal synth-pop and electronic dance-pop with glossy analog synths, deep pulsing bass, bright arpeggios, crisp four-on-the-floor drums, and huge melodic choruses. Three distinct vocalists trade lines, finish each other’s phrases, overlap, harmonize, and gradually merge into a collective voice.
+
+    Begin bright, euphoric, theatrical, and infectious, then subtly darken the same musical language with colder bass, distorted synth motifs, chopped vocal echoes, and ominous harmonies. Keep “It moves through me / It moves through you” as the massive central hook. The “A kindness becomes permission…” section should build like a rhythmic chain reaction, with each singer passing the next line to another voice.
+
+    Strip down for the intimate bridge, then rebuild into an enormous layered final chorus. Seductive, sophisticated, cinematic, slightly dangerous, and intensely danceable. Let the darkness emerge from underneath the euphoria rather than replacing it.
+  remixInstruction: Can we cut out a verse and shorten the song?
+  lineageNote: Cover/shortened edit of parent clip outside the current playlist.
+generation:
+  authoredPrompt: |-
+    High-energy nocturnal synth-pop and electronic dance-pop with a huge euphoric club pulse, glossy analog synths, deep pulsing bass, bright arpeggios, crisp four-on-the-floor drums, dramatic electronic builds, and explosive melodic choruses. Three distinct vocalists trading lines, finishing each other’s phrases, overlapping, harmonizing, and gradually merging into a collective voice. Vocals should feel charismatic, sensual, theatrical, playful, and emotionally charged rather than generic EDM.
+
+
+    Begin bright, infectious, and almost celebratory, with an irresistible dance groove and a chorus that feels communal and uplifting. As the song progresses, subtly darken the same musical language: detune or distort recurring synth motifs, add colder bass textures, chopped vocal echoes, ominous harmonies, and increasingly hypnotic repetition. The repeating chorus should return several times with nearly identical melody and structure while the lyrics and production shift from connection and renewal toward erosion, contagion, and inherited behavior, then finally toward conscious transformation.
+
+
+    Make “It moves through me / It moves through you” the central massive pop hook. The rapid alternating “A kindness becomes permission / Permission becomes a door…” section should build rhythmically like a chain reaction, with each singer passing the next line to another voice. Strip the production down sharply for the intimate bridge, then rebuild into an enormous final chorus with layered vocals and counter-melodies: love, fear, mercy, anger, courage, and power all circulating simultaneously.
+
+
+    Energetic, sophisticated, seductive, slightly dangerous, cinematic, and intensely danceable. The darkness should emerge from underneath the euphoria rather than replacing it. End with the music falling away until the final line, “What leaves me / passes through me first,” lands quietly and intimately.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

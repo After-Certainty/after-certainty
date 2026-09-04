@@ -1,0 +1,66 @@
+slug: i-believe-you-tonight
+title: I Believe You Tonight
+shortDescription: 'Dark eighties and nineties synth-pop: a restrained baritone grants provisional trust—I
+  believe you tonight—without forever, contract, proof, or the power-fantasy of certainty.'
+longDescription: 'Pulsing sequencers and minor-key pads make vulnerability sleek and private. Belief is
+  timed: not because you are proven right, not because the light arrived, but because a hand is on the
+  table and tomorrow can stay open. How Trust Forms and Everyone Knows Love verify participation under
+  incomplete understanding; provisional-commitment and commitment-leaves-room are the conceptual core.
+  Certainty mistaken for power is refused. Contact-keeps-the-read-open fits silence that holds without
+  cross-examination. Flag scrutiny-preserves-trust as low tension—the song temporarily suspends interrogation,
+  which is the point of an hour-long trust.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/i-believe-you-tonight.md
+lyricLanguages:
+- en
+relatedConcepts:
+- trust
+- provisional-commitment
+- certainty
+- contact
+- care
+relatedPatterns:
+- commitment-leaves-room
+- contact-keeps-the-read-open
+relatedBooks:
+- how-trust-forms
+- everyone-knows-love
+- trust-beyond-similarity
+recordings:
+- platform: suno
+  externalId: 1ac3774f-ee39-4801-a708-c971e3a2b304
+  primary: true
+  recordingTitle: I Believe You Tonight
+  createdAt: '2026-09-04T00:10:09.240Z'
+  durationSeconds: 285.36
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: cover
+  isRemix: true
+  styleTags: 'Dark nocturnal synth-pop with a restrained, understated delivery and a distinctly British
+    accent. Mid-tempo around 110 BPM, deep analog bass, pulsing sequencers, warm minor-key synth pads,
+    metallic percussion, sparse industrial textures, and crisp electronic drums with minimal reverb for
+    a dry, intimate sound. Vocals sit close to the mic in a calm, solemn baritone, gently inflected with
+    British vowels and clipped consonants, favoring steady, conversational phrasing over swelling emotion
+    or dramatic emphasis. The verses feel tense and inward, the hook "I believe you tonight" delivered
+    as a quiet, hypnotic reassurance rather than a climactic statement. The bridge strips back to bass,
+    pulse, and voice, keeping the tone measured and composed while the arrangement gradually rebuilds
+    with subtle textural layers instead of big dynamic shifts. Mood: sensual, vulnerable, nocturnal, ambiguous,
+    elegant, and quietly controlled, with emotion expressed through nuance rather than power or theatricali'
+  remixInstruction: Make the vocals less dramatic and keep the dry solemn tone with a British accent
+generation:
+  authoredPrompt: |-
+    Dark nocturnal synth-pop with a sleek late-80s/early-90s electronic feel. Mid-tempo around 110 BPM, deep analog bass, pulsing sequencers, warm minor-key synth pads, metallic percussion, sparse industrial textures, crisp electronic drums, and occasional atmospheric guitar swells. Intimate male baritone vocal, controlled and emotionally restrained, almost whispered in the verses, opening slightly in the chorus without becoming theatrical.
+
+
+    The verses should feel tense, private, and close-miked. Let “I believe you tonight” become a simple, hypnotic melodic hook. The bridge should strip back to bass, pulse, and voice around “Maybe trust can have an hour,” then rebuild gradually.
+
+
+    Mood: sensual, vulnerable, nocturnal, ambiguous, elegant, quietly dangerous. Avoid bright pop, EDM drops, arena-rock guitars, or overly dramatic vocals.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

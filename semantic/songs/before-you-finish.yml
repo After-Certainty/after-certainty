@@ -1,0 +1,56 @@
+slug: before-you-finish
+title: Before You Finish
+shortDescription: 'Atmospheric jungle and drum-and-bass: a cool voice begs before you finish as chopped
+  replies, reposts, and reactions outrun meaning, ending dryly on Can I finish?'
+longDescription: 'Airy pads spiral into frantic chopped breaks—form as thesis. Lyrics catch interpretation
+  cut for playback while the speaker is still making meaning, then accelerate into signal without contact.
+  How Meaning Moves and No Time to Think are dual anchors: speech-escalates-faster-than-meaning and speed-relocates-judgment.
+  Acceleration and context-collapse name the medium; the near-silent breakdown clarifies that the ask
+  was to be heard, not to win agreement. The hard cut leaves the plea unanswered, embodying what happens
+  when pace relocates judgment before a sentence can land.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/before-you-finish.md
+lyricLanguages:
+- en
+relatedConcepts:
+- acceleration
+- meaning
+- context-collapse
+- interpretation
+relatedPatterns:
+- speech-escalates-faster-than-meaning
+- speed-relocates-judgment
+- meaning-outruns-the-words
+relatedBooks:
+- how-meaning-moves
+- no-time-to-think
+recordings:
+- platform: suno
+  externalId: bcfe3ad4-8be3-4699-abe8-8c4b51c16877
+  primary: true
+  recordingTitle: Before You Finish
+  createdAt: '2026-09-01T00:48:47.267Z'
+  durationSeconds: 255.88
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: 'Atmospheric jungle / drum & bass, starting sparse and spacious, then building into increasingly
+    frantic 165–175 BPM chopped breakbeats and deep sub-bass. Intimate female lead vocal, cool and conversational
+    rather than belted. Begin with airy pads, distant vocal fragments, and lots of space. Gradually layer
+    chopped/stuttered phrases, overlapping voices, call-and-response samples, and glitch edits until the
+    track feels like communication spiraling out of control. Huge energetic jungle drops with classic
+    breakbeat feel, but keep the sound modern and cinematic rather than retro parody. Brief near-silent
+    breakdown before the final chaotic build. End abruptly on a dry, isolated vocal: “Can I finish?” Dark,
+    intelligent, restless, hypnotic, emotionally tense.'
+generation:
+  authoredPrompt: |-
+    Atmospheric jungle / drum & bass, starting sparse and spacious, then building into increasingly frantic 165–175 BPM chopped breakbeats and deep sub-bass. Intimate female lead vocal, cool and conversational rather than belted. Begin with airy pads, distant vocal fragments, and lots of space. Gradually layer chopped/stuttered phrases, overlapping voices, call-and-response samples, and glitch edits until the track feels like communication spiraling out of control. Huge energetic jungle drops with classic breakbeat feel, but keep the sound modern and cinematic rather than retro parody. Brief near-silent breakdown before the final chaotic build. End abruptly on a dry, isolated vocal: “Can I finish?” Dark, intelligent, restless, hypnotic, emotionally tense.
+    .
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

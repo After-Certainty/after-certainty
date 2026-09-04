@@ -1,0 +1,61 @@
+slug: miss-maybe-mister-sure
+title: Miss Maybe & Mister Sure
+shortDescription: 'Speakeasy swing duet: sly Miss Maybe and pompous Mister Sure trade brass-stab jokes
+  about overreading winks, silence, and “fine,” until comic certainty briefly cracks into not-sure.'
+longDescription: 'Banjo, clarinet, and brass make epistemology flirtatious and slightly dangerous. Mister
+  Sure treats every cue as settled fact—moon, wink, hesitation, kiss behind the band—while Miss Maybe
+  keeps door and ending ajar with maybe. The comic engine is How Meaning Moves territory: intent assigned
+  too soon, meaning formed early, gaps eagerly completed into romance or disdain. Curiosity Before Certainty
+  fits their sparring, and the finale’s near-admission of uncertainty lands the After Certainty point
+  without sermon. The world keeps spinning; what it means stays maybe, and the brass sting refuses a tidy
+  moral bow.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/miss-maybe-mister-sure.md
+lyricLanguages:
+- en
+relatedConcepts:
+- certainty
+- interpretation
+- meaning
+- contact
+relatedPatterns:
+- intent-gets-assigned
+- meaning-forms-early
+- gaps-invite-completion
+relatedBooks:
+- how-meaning-moves
+- curiosity-before-certainty
+- the-discipline-of-uncertainty
+recordings:
+- platform: suno
+  externalId: dd1efa5f-d990-4737-b13d-fc71691b705e
+  primary: true
+  recordingTitle: Miss Maybe & Mister Sure
+  createdAt: '2026-08-29T02:23:49.344Z'
+  durationSeconds: 250.4
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: |-
+    Old-time Southern hot jazz and swing revival with a mischievous vaudeville feel. Bouncy banjo, upright bass, snappy brushed drums, clarinet, trumpet, trombone, muted brass, and occasional piano fills. Playful stop-start arrangements, horn stabs, brief instrumental breaks, and loose live-band energy.
+
+    A theatrical male/female duet: the female vocalist is sly, smoky, bright, and flapper-like with teasing cabaret phrasing; the male vocalist is a warm, charming, slightly pompous vintage crooner. Lots of call-and-response, spoken interjections, overlapping lines, comic timing, and flirtatious argument.
+
+    Fast, swinging, witty, slightly dangerous, and a little absurd, like a 1920s speakeasy floor show going charmingly off the rails. Minor-key touches underneath the humor, with a big brass-heavy final chorus and a sharp vaudeville ending sting.
+generation:
+  authoredPrompt: |-
+    Old-time Southern hot jazz and swing revival with a mischievous vaudeville feel. Bouncy banjo, upright bass, snappy brushed drums, clarinet, trumpet, trombone, muted brass, and occasional piano fills. Playful stop-start arrangements, horn stabs, brief instrumental breaks, and loose live-band energy.
+
+
+    A theatrical male/female duet: the female vocalist is sly, smoky, bright, and flapper-like with teasing cabaret phrasing; the male vocalist is a warm, charming, slightly pompous vintage crooner. Lots of call-and-response, spoken interjections, overlapping lines, comic timing, and flirtatious argument.
+
+
+    Fast, swinging, witty, slightly dangerous, and a little absurd, like a 1920s speakeasy floor show going charmingly off the rails. Minor-key touches underneath the humor, with a big brass-heavy final chorus and a sharp vaudeville ending sting.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

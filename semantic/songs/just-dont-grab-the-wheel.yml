@@ -1,0 +1,54 @@
+slug: just-dont-grab-the-wheel
+title: Just Don’t Grab the Wheel
+shortDescription: 'Rootsy country-folk porch wisdom: welcome the backseat lecture from here to Chapel
+  Hill, but keep your hands on your own wheel and leave room for what you have not learned.'
+longDescription: 'Pedal steel and plainspoken verses skewer men who speak in thunder from unread maps.
+  The chorus carefully separates useful counsel from coercive certainty—talk all you want, just do not
+  grab the wheel—and the bridge names the cost of handing keys to someone else’s car. After Certainty
+  hears judgment, agency, and humility: leave room for unlearned terrain, and remember who pays when mistakes
+  become scars. Commitment-leaves-room and responsibility-follows-leverage fit the lyric’s distinction
+  between opinion and leverage. The Discipline of Uncertainty is the clearest book spine for expensive
+  certainty when the certain man is wrong.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/just-dont-grab-the-wheel.md
+lyricLanguages:
+- en
+relatedConcepts:
+- judgment
+- agency
+- humility
+- accountability
+relatedPatterns:
+- commitment-leaves-room
+- responsibility-follows-leverage
+- revisability-preserves-judgment
+relatedBooks:
+- the-discipline-of-uncertainty
+- when-authority-is-misread
+- curiosity-before-certainty
+recordings:
+- platform: suno
+  externalId: 4f07263d-fd25-4942-87cb-6d14dec1c213
+  primary: true
+  recordingTitle: Just Don’t Grab the Wheel
+  createdAt: '2026-08-26T16:38:40.812Z'
+  durationSeconds: 254.04
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: country music as if it were sung by Country, Bluegrass, Folk, Pop
+generation:
+  authoredPrompt: 'Warm, rootsy country-folk with a dry, conversational male lead vocal, acoustic guitar,
+    pedal steel, understated drums and bass, and lightly twangy electric fills. Mid-tempo and memorable
+    without sounding glossy or arena-country. The verses should feel like porch-wisdom storytelling: wry,
+    reflective, plainspoken, and slightly weathered. Let the chorus open up melodically around “Backseat
+    drive all you want / Just don’t grab the wheel,” with an organic, human performance and a little humor
+    underneath the seriousness.'
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

@@ -1,0 +1,62 @@
+slug: epistemic-jiujitsu
+title: Epistemic Jiujitsu
+shortDescription: 'Cinematic Krautrock industrial: deadpan commands about patterns proving plans, empty
+  control rooms, and “alignment” that is only robots approving other robots.'
+longDescription: Motorik pulse and towering synth drops parody institutional epistemology. Lyrics loop
+  WORKING AS DESIGNED into WHO DESIGNED IT, then seal a circle where pattern proves design proves pattern
+  and evidence is only the pattern again. After Certainty reads false closure and operatorless structure—Reality
+  Pushes Back meeting Living in Sediment—plus meaning-reinforces-itself when theory and proof are the
+  same chant. Alignment and machine-perspective name the ticket theater; learning-collapses fits the deadpan
+  dialogue that ends DISCUSSION COMPLETE. The jiujitsu is to ask and let the question fall, not push the
+  empty promoted chair harder.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/epistemic-jiujitsu.md
+lyricLanguages:
+- en
+relatedConcepts:
+- alignment
+- machine-perspective
+- certainty
+- structure
+relatedPatterns:
+- meaning-reinforces-itself
+- learning-collapses
+- structures-outlive-reasons
+relatedBooks:
+- reality-pushes-back
+- living-in-sediment
+- when-interpretation-no-longer-matters
+recordings:
+- platform: suno
+  externalId: c14f074a-191d-4491-88cf-48e6c4f2971f
+  primary: true
+  recordingTitle: Epistemic Jiujitsu
+  createdAt: '2026-09-02T00:06:45.165Z'
+  durationSeconds: 292.08
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: true
+  styleTags: |-
+    Relentless motorik Krautrock fused with massive modern cinematic electronic and industrial synth production. Steady hypnotic 4/4 pulse, deep sequenced bass, huge distorted analog synths, arpeggiators, metallic percussion, sub-bass impacts, ominous drones, glitch textures and towering electronic crescendos. Dark neon sci-fi atmosphere: sleek, futuristic, threatening and expensive-sounding, like a high-budget cybernetic film score rather than vintage retro rock. Strong dynamic contrasts—long tension builds, sudden silence, enormous synth drops, widening stereo layers and mechanical rhythmic repetition. Deadpan male spoken English with a pronounced German accent, delivering clipped phrases like commands from a malfunctioning machine. Cold, cerebral, absurdist and darkly funny. Sparse vocals; let long instrumental sections and evolving synth motifs carry the track.
+
+    Do not make it sparse lo-fi or conventional rock; make the electronic production huge, immersive and cinematic.
+- platform: suno
+  externalId: 5bc5fb71-f4fa-4b35-a825-4fbf29ed0af5
+  primary: false
+  recordingTitle: Epistemic Jiujitsu
+  lineageNote: Historical playlist recording superseded by the 2026-09-04 remix primary clip.
+  supersededBy: c14f074a-191d-4491-88cf-48e6c4f2971f
+generation:
+  authoredPrompt: |-
+    Relentless motorik Krautrock fused with massive modern cinematic electronic and industrial synth production. Steady hypnotic 4/4 pulse, deep sequenced bass, huge distorted analog synths, arpeggiators, metallic percussion, sub-bass impacts, ominous drones, glitch textures and towering electronic crescendos. Dark neon sci-fi atmosphere: sleek, futuristic, threatening and expensive-sounding, like a high-budget cybernetic film score rather than vintage retro rock. Strong dynamic contrasts—long tension builds, sudden silence, enormous synth drops, widening stereo layers and mechanical rhythmic repetition. Deadpan male spoken English with a pronounced German accent, delivering clipped phrases like commands from a malfunctioning machine. Cold, cerebral, absurdist and darkly funny. Sparse vocals; let long instrumental sections and evolving synth motifs carry the track.
+
+
+    Do not make it sparse lo-fi or conventional rock; make the electronic production huge, immersive and cinematic.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

@@ -1,0 +1,57 @@
+slug: learning-to-see
+title: Learning to See
+shortDescription: 'Ethereal Celtic new-age hymn: a soft vow to keep learning to see, stay, and leave wonder
+  inside beliefs, claiming no final window and no final view.'
+longDescription: 'Pads, harp, whistle, and choir-like stacks make perception practice feel luminous rather
+  than didactic. The title and chorus are a direct book match to Learning to See: attention that notices
+  what was turned away, humility that chooses less certainty and more freedom, uncertainty that lets some
+  truths take the time of silence. Patterns attention-finds-a-focus and revisability-preserves-judgment
+  verify look-again and begin-again. Prefer this tight triad over spreading weak extra books; the lyric
+  already states the project’s anti-closure ethic in plain, singable lines.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/learning-to-see.md
+lyricLanguages:
+- en
+relatedConcepts:
+- attention
+- humility
+- uncertainty
+- formation
+- judgment
+relatedPatterns:
+- attention-finds-a-focus
+- revisability-preserves-judgment
+- contact-keeps-the-read-open
+relatedBooks:
+- learning-to-see
+recordings:
+- platform: suno
+  externalId: f80b23a7-c974-4d5c-be23-62ca1204a626
+  primary: true
+  recordingTitle: Learning to See
+  createdAt: '2026-08-28T02:39:56.214Z'
+  durationSeconds: 295.44
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Ethereal Celtic new-age with a soft female lead vocal, layered choir-like harmonies, shimmering
+    synth pads, gentle piano, airy strings, subtle harp, low percussion, and occasional Celtic flute or
+    whistle. Slow, spacious, meditative, and luminous, with a mystical but grounded atmosphere. Vocals
+    should feel intimate and floating, with long reverb tails and simple melodic phrases that gradually
+    build into a lush, enveloping chorus. Organic and cinematic, peaceful rather than dramatic, with lots
+    of silence and breathing room.
+generation:
+  authoredPrompt: Ethereal Celtic new-age with a soft female lead vocal, layered choir-like harmonies,
+    shimmering synth pads, gentle piano, airy strings, subtle harp, low percussion, and occasional Celtic
+    flute or whistle. Slow, spacious, meditative, and luminous, with a mystical but grounded atmosphere.
+    Vocals should feel intimate and floating, with long reverb tails and simple melodic phrases that gradually
+    build into a lush, enveloping chorus. Organic and cinematic, peaceful rather than dramatic, with lots
+    of silence and breathing room.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

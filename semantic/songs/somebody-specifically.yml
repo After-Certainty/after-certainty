@@ -1,0 +1,61 @@
+slug: somebody-specifically
+title: Somebody, Specifically
+shortDescription: 'Minimal chamber pop with piano and strings: a glowing city from the hill resolves into
+  one late window—somebody specifically, not a symbol or a shade.'
+longDescription: 'Repeating piano figures suggest orderly scale while pauses and soft imperfections keep
+  the arrangement human. Distance makes crowds simple; closeness restores the person awake behind one
+  light, missing or holding someone through the night. When Moral Seriousness Scales verifies the hill-to-window
+  move; compression-loses-the-person and care-preserves-particulars match the refusal of example and symbol
+  language. Everyone Knows Love is a medium companion for particular lives against abstraction. The ethic
+  is proximity: come closer, because from far away we blur, and that blur is already a moral mistake.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/somebody-specifically.md
+lyricLanguages:
+- en
+relatedConcepts:
+- distance
+- scale
+- care
+- compression
+relatedPatterns:
+- compression-loses-the-person
+- care-preserves-particulars
+- distance-conceals-consequence
+relatedBooks:
+- when-moral-seriousness-scales
+- everyone-knows-love
+recordings:
+- platform: suno
+  externalId: e51ba928-2b78-4b18-80e9-e164bbb5041f
+  primary: true
+  recordingTitle: Somebody, Specifically
+  createdAt: '2026-09-01T03:56:34.871Z'
+  durationSeconds: 192.84
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: Minimalist chamber pop / neo-classical with intimate piano, warm strings, subtle upright
+    bass, and restrained percussion. Begin sparse and close, then slowly widen as the song moves from
+    distance toward individual human detail. Lead vocal should be gentle, clear, reflective, and emotionally
+    restrained rather than theatrical. Use repeating piano and string figures to suggest order and scale,
+    while small imperfections, pauses, and acoustic textures keep the arrangement human. Let the chorus
+    bloom slightly without becoming an anthem. The bridge should nearly stop on “Distance makes us simple
+    / Come closer / We’re not,” then return with a warmer final chorus. Quiet, spacious, melancholy, humane,
+    cinematic, and tender. Avoid glossy pop, huge orchestral swells, or sentimental melodrama.
+generation:
+  authoredPrompt: Minimalist chamber pop / neo-classical with intimate piano, warm strings, subtle upright
+    bass, and restrained percussion. Begin sparse and close, then slowly widen as the song moves from
+    distance toward individual human detail. Lead vocal should be gentle, clear, reflective, and emotionally
+    restrained rather than theatrical. Use repeating piano and string figures to suggest order and scale,
+    while small imperfections, pauses, and acoustic textures keep the arrangement human. Let the chorus
+    bloom slightly without becoming an anthem. The bridge should nearly stop on “Distance makes us simple
+    / Come closer / We’re not,” then return with a warmer final chorus. Quiet, spacious, melancholy, humane,
+    cinematic, and tender. Avoid glossy pop, huge orchestral swells, or sentimental melodrama.
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.

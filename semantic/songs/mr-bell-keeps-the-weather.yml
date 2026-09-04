@@ -1,0 +1,64 @@
+slug: mr-bell-keeps-the-weather
+title: Mr. Bell Keeps the Weather
+shortDescription: 'Noir theatrical piano blues: an ex-weatherman hoards broken barometers and storms that
+  never came, warning not to confuse odds with what happens after all.'
+longDescription: Gravel baritone, dissonant low-register piano, and room noise make forecasting feel like
+  a crooked moral craft. Channel Nine wanted when, not the shape of wind; Bell keeps Weather That Did
+  Not Occur because somebody ought to remember almosts. Reality Pushes Back and The Discipline of Uncertainty
+  verify the wall note and could-go-either-way stance. Counterfactual-success and uncertainty name the
+  notebook’s honesty; reality-answers-back fits disagreeing barometers before dawn. The sky does not owe
+  certainty, and confusing probability with aftermath is the institutional error the song refuses to bless.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/mr-bell-keeps-the-weather.md
+lyricLanguages:
+- en
+relatedConcepts:
+- uncertainty
+- judgment
+- certainty
+- counterfactual-success
+- humility
+relatedPatterns:
+- reality-answers-back
+- finality-compensates-for-uncertainty
+relatedBooks:
+- reality-pushes-back
+- the-discipline-of-uncertainty
+- curiosity-before-certainty
+recordings:
+- platform: suno
+  externalId: 0e7cea27-60da-497f-9dc3-a178dfefec78
+  primary: true
+  recordingTitle: Mr. Bell Keeps the Weather
+  createdAt: '2026-09-03T02:16:32.410Z'
+  durationSeconds: 317.0
+  modelName: chirp-auk
+  modelVersion: v4.5-all
+  task: gen
+  isRemix: false
+  styleTags: 'Dark theatrical piano blues with a crooked late-night cabaret feel. Deep, gravelly male
+    baritone with a raspy, weathered voice, delivered half-sung and half-spoken with dramatic pauses,
+    dry humor, and vivid character storytelling. Piano should dominate the arrangement: heavy low-register
+    chords, dissonant flourishes, sudden pounding crescendos, and long expressive instrumental passages.
+    Add bowed upright bass, sparse brushed drums, creaking percussion, distant metallic clanks, room noise,
+    and subtle organ or accordion textures. Slow-to-mid tempo, minor-key, noir, surreal, intimate, and
+    slightly menacing. Let the arrangement grow from lonely upright piano into a huge, almost cinematic
+    final section, then collapse back to one unresolved piano chord. Avoid polished pop production, bright
+    guitars, clean vocals, or conventional blues clichés.'
+generation:
+  authoredPrompt: 'Dark theatrical piano blues with a crooked late-night cabaret feel. Deep, gravelly
+    male baritone with a raspy, weathered voice, delivered half-sung and half-spoken with dramatic pauses,
+    dry humor, and vivid character storytelling. Piano should dominate the arrangement: heavy low-register
+    chords, dissonant flourishes, sudden pounding crescendos, and long expressive instrumental passages.
+    Add bowed upright bass, sparse brushed drums, creaking percussion, distant metallic clanks, room noise,
+    and subtle organ or accordion textures. Slow-to-mid tempo, minor-key, noir, surreal, intimate, and
+    slightly menacing. Let the arrangement grow from lonely upright piano into a huge, almost cinematic
+    final section, then collapse back to one unresolved piano chord. Avoid polished pop production, bright
+    guitars, clean vocals, or conventional blues clichés.'
+  authoredPromptSource: master-doc
+  authoredPromptRetrievedAt: '2026-09-04'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and authored Suno prompt from the master song document.
