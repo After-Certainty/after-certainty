@@ -1,12 +1,12 @@
 # PADE + Cloud Agent (After Certainty)
 
-After Certainty Cloud Agents use [PADE](https://github.com/After-Certainty/pade) **v0.2.0** with a **private broker** for scoped capabilities. The agent VM carries **no** Google Analytics service-account JSON, GitHub App keys, Vercel tokens, or `KSM_CONFIG`.
+After Certainty Cloud Agents use [PADE](https://github.com/After-Certainty/pade) **v0.2.1** with a **private broker** for scoped capabilities. The agent VM carries **no** Google Analytics service-account JSON, GitHub App keys, Vercel tokens, or `KSM_CONFIG`.
 
 ## What lives in this repo
 
 | File | Purpose |
 |------|---------|
-| [`.cursor/environment.json`](../.cursor/environment.json) | Installs released `pade` v0.2.0 and pinned Vercel CLI on Cloud Agent bootstrap |
+| [`.cursor/environment.json`](../.cursor/environment.json) | Installs released `pade` v0.2.1 and pinned Vercel CLI on Cloud Agent bootstrap |
 | [`.cursor/install-pade.sh`](../.cursor/install-pade.sh) | Downloads released `pade` into `.tools/pade` and puts it on `PATH` |
 | [`.cursor/install-vercel.sh`](../.cursor/install-vercel.sh) | Installs pinned `vercel@59.3.0` into `.tools/vercel` (binary only; no token) |
 | [`pade.yaml`](../pade.yaml) | Portable DevelopmentSession (secret-free Intent) |
@@ -73,7 +73,7 @@ make pade-smoke
 
 Expect:
 
-- `pade --version` → `v0.2.0`
+- `pade --version` → `v0.2.1`
 - `vercel --version` → `59.3.0`
 - `pade capabilities` → `github.repo.read`, `google-analytics.read`, and `vercel.diagnostics` all `provider: broker`, configured
 - Property meta + minimal GA report succeed

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Smoke-test PADE v0.2.0 + live broker from a Cursor Cloud Agent VM.
+# Smoke-test PADE v0.2.1 + live broker from a Cursor Cloud Agent VM.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
