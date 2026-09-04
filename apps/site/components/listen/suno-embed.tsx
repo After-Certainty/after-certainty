@@ -26,10 +26,8 @@ export function SunoEmbed({ externalId, title }: SunoEmbedProps) {
   useEffect(() => {
     if (shouldMount || !embedSrc) return;
     const node = containerRef.current;
-    if (!node) return;
-
-    if (typeof IntersectionObserver === "undefined") {
-      setShouldMount(true);
+    if (!node || typeof IntersectionObserver === "undefined") {
+      // Without IntersectionObserver, keep the placeholder until "Load player".
       return;
     }
 
