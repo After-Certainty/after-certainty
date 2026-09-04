@@ -18,7 +18,9 @@ export async function FeaturedQuestionsSection() {
             What question brought you here?
           </h2>
           <p className="mt-2 text-sm text-muted md:mt-3 md:text-base">
-            Start with a recognizable tension—not a book title or content type.
+            Most of us already feel the tension—trust under disagreement, meaning that shifts as it
+            travels, exceptions that quietly become the rule. Start with a familiar problem, not a
+            content category.
           </p>
         </div>
         <div className="mt-6 flex flex-col gap-2 md:mt-8 md:grid md:grid-cols-3 md:items-stretch md:gap-4">

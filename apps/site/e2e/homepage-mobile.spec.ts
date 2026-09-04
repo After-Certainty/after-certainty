@@ -20,7 +20,7 @@ test.describe("homepage mobile redesign", () => {
     });
   }
 
-  test("surfaces compact questions, pattern recognition, and explore tiles", async ({ page }) => {
+  test("surfaces compact questions, pattern recognition, and invitation links", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/", { waitUntil: "domcontentloaded" });
 
@@ -28,6 +28,12 @@ test.describe("homepage mobile redesign", () => {
       page.getByRole("heading", { name: "What question brought you here?" }),
     ).toBeVisible();
     await expect(page.locator("[data-question-density='compact']").first()).toBeVisible();
+
+    await expect(page.getByText("Why this project exists")).toBeVisible();
+    await expect(page.getByRole("link", { name: /Read more about the idea/i })).toHaveAttribute(
+      "href",
+      "/about",
+    );
 
     await expect(
       page.getByRole("heading", { name: /Can you recognize the pattern/i }),
@@ -37,21 +43,19 @@ test.describe("homepage mobile redesign", () => {
       "/games/pattern-recognition",
     );
 
-    await expect(page.getByText("Why this project exists")).toBeVisible();
-    await expect(page.getByRole("link", { name: /About the project/i })).toHaveAttribute(
-      "href",
-      "/about",
-    );
-
-    const explore = page.getByRole("region", { name: /Explore the commons/i });
-    await expect(explore.getByRole("link", { name: /^Books/i })).toBeVisible();
-    await expect(explore.getByRole("link", { name: /^Start Here/i })).toHaveAttribute(
+    const invitations = page.getByRole("region", { name: /Where to begin/i });
+    await expect(invitations.getByRole("link", { name: /^Start Here/i })).toHaveAttribute(
       "href",
       "/start",
     );
-    await expect(explore.getByRole("link", { name: /^Search/i })).toHaveAttribute(
+    await expect(invitations.getByRole("link", { name: /^Books/i })).toBeVisible();
+    await expect(invitations.getByRole("link", { name: /^Podcast/i })).toHaveAttribute(
       "href",
-      "/search",
+      "/podcast",
+    );
+    await expect(invitations.getByRole("link", { name: /^About/i })).toHaveAttribute(
+      "href",
+      "/about",
     );
 
     await expect(page.getByRole("link", { name: /Find your way in/i })).toHaveAttribute(

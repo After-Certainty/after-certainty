@@ -145,13 +145,13 @@ export function shouldLoadGoogleAnalytics(): boolean {
 }
 
 /** Open Graph / Twitter card title (~50–60 chars for link preview tools). */
-export const OG_SHARE_TITLE = "After Certainty — An Intellectual Commons for Human Systems";
+export const OG_SHARE_TITLE = "After Certainty — Seeing What Our Answers Leave Out";
 
 export const siteConfig = {
   name: "After Certainty",
   ogShareTitle: OG_SHARE_TITLE,
   description:
-    "An intellectual commons exploring meaning, trust, leadership, authority, communication, and human systems—beyond false certainty.",
+    "The world is more complicated than the answers we use to navigate it. After Certainty explores how to see what those answers leave out—and still act.",
   url: resolveDeploymentUrl(),
   githubUrl: "https://github.com/After-Certainty/after-certainty",
   /** Default RSS URL (Anchor). Server code should call `resolvePodcastRssUrl()` for env override. */

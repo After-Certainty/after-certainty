@@ -41,8 +41,9 @@ export function AboutHero() {
             About After Certainty
           </h1>
           <p className="mx-auto mt-10 max-w-2xl text-base leading-relaxed text-fg/88 md:mx-0 md:text-lg">
-            After Certainty is an open publishing and conversation project exploring meaning, leadership, communication,
-            trust, authority, interpretation, and human systems in a world where certainty increasingly struggles to hold.
+            The answers we use to get through the day are useful—and incomplete. After Certainty
+            explores how to see more of what those answers leave out, without freezing in place when
+            we still have to decide.
           </p>
           <div className="mx-auto mt-12 flex max-w-2xl flex-col gap-4 sm:flex-row sm:flex-wrap md:mx-0">
             <CTAButton href="/start" variant="primary">
