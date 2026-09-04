@@ -62,7 +62,7 @@ const invitations = [
   {
     href: "/about",
     title: "About",
-    description: "Why this project exists, and how the work is published and shared.",
+    description: "The idea behind the project, and how the work is published and shared.",
     Icon: IconAbout,
   },
 ] as const;

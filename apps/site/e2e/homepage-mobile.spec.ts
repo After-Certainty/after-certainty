@@ -29,7 +29,9 @@ test.describe("homepage mobile redesign", () => {
     ).toBeVisible();
     await expect(page.locator("[data-question-density='compact']").first()).toBeVisible();
 
-    await expect(page.getByText("Why this project exists")).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: "Why this project exists" }),
+    ).toBeVisible();
     await expect(page.getByRole("link", { name: /Read more about the idea/i })).toHaveAttribute(
       "href",
       "/about",
