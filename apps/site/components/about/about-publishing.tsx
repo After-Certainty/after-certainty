@@ -12,16 +12,16 @@ export function AboutPublishing() {
           <h2 className="font-display text-3xl tracking-tight text-fg md:text-4xl">Open Publishing</h2>
           <div className="mt-10 space-y-6 text-[17px] leading-[1.75] text-muted md:text-lg">
             <p>
-              The project intentionally treats books and essays less as finished products and more as durable conversation
-              spaces.
+              Books and essays here are treated less as finished products and more as durable places
+              for conversation—work that can be read, extended, and revised over time.
             </p>
             <p>
-              Works are published openly using{" "}
+              Works are published openly under{" "}
               <a className="text-accent underline-offset-4 hover:underline" href={siteConfig.license.url}>
                 Creative Commons ({siteConfig.license.name})
               </a>{" "}
-              licensing and GitHub-based workflows to encourage extension, reinterpretation, critique, and collaboration over
-              time.
+              licensing, with GitHub-based workflows that invite extension, reinterpretation,
+              critique, and collaboration.
             </p>
           </div>
           <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
@@ -39,8 +39,8 @@ export function AboutPublishing() {
             </CTAButton>
           </div>
           <p className="mt-8 text-sm leading-relaxed text-muted/90">
-            The repository remains public; revision history carries part of the argument. Nothing here needs to read as
-            performance—only as process made visible.
+            The repository remains public; revision history carries part of the argument. Nothing
+            here needs to read as performance—only as process made visible.
           </p>
         </div>
       </Container>

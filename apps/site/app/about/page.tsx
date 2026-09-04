@@ -13,7 +13,7 @@ import { buildAboutPageJsonLd } from "@/lib/seo/json-ld";
 
 export const metadata: Metadata = createPageMetadata({
   title: "About",
-  description: `${siteConfig.name}—why the project exists, how it is published, and the orientation behind the work. A reflective introduction, not a pitch.`,
+  description: `${siteConfig.name}—why the project exists, what it gathers, and how it is published. Start with the human problem; then the books, conversations, and open publishing around it.`,
 });
 
 export default function AboutPage() {

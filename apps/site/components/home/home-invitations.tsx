@@ -2,6 +2,15 @@ import Link from "next/link";
 import type { SVGProps } from "react";
 import { Container } from "@/components/ui/container";
 
+function IconStart(props: SVGProps<SVGSVGElement>) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
+      <circle cx={12} cy={12} r={9} />
+      <path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 function IconBooks(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
@@ -22,99 +31,58 @@ function IconPodcast(props: SVGProps<SVGSVGElement>) {
   );
 }
 
-function IconPatterns(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
-      <circle cx={8} cy={8} r={3} />
-      <circle cx={16} cy={8} r={3} />
-      <circle cx={12} cy={16} r={3} />
-      <path d="M10.5 9.5l1 1M13.5 9.5l-1 1M11 12.5v2" opacity={0.5} />
-    </svg>
-  );
-}
-
-function IconConcepts(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
-      <circle cx={12} cy={12} r={3} />
-      <path
-        d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"
-        strokeLinecap="round"
-      />
-    </svg>
-  );
-}
-
-function IconStart(props: SVGProps<SVGSVGElement>) {
+function IconAbout(props: SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
       <circle cx={12} cy={12} r={9} />
-      <path d="M12 7v5l3 2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M12 11v5M12 8h.01" strokeLinecap="round" />
     </svg>
   );
 }
 
-function IconSearch(props: SVGProps<SVGSVGElement>) {
-  return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} aria-hidden {...props}>
-      <circle cx={11} cy={11} r={7} />
-      <path d="M20 20l-3.5-3.5" strokeLinecap="round" />
-    </svg>
-  );
-}
-
-const pathways = [
+const invitations = [
+  {
+    href: "/start",
+    title: "Start Here",
+    description: "Find a doorway that matches what brought you here—a question, a trail, or a book.",
+    Icon: IconStart,
+  },
   {
     href: "/explore/books",
     title: "Books",
-    description: "Long-form works and serialized texts from the open After Certainty corpus.",
+    description: "Long-form explorations you can read at your own pace.",
     Icon: IconBooks,
-  },
-  {
-    href: "/explore/patterns",
-    title: "Patterns",
-    description: "Reusable ideas—named, documented, and open to remix under commons terms.",
-    Icon: IconPatterns,
-  },
-  {
-    href: "/explore/concepts",
-    title: "Concepts",
-    description: "Named ideas in the semantic graph—definitions, recognition signals, and related works.",
-    Icon: IconConcepts,
   },
   {
     href: "/podcast",
     title: "Podcast",
-    description: "Conversations on uncertainty, institutions, and the texture of leadership.",
+    description: "Conversations that carry the themes into dialogue and reflection.",
     Icon: IconPodcast,
   },
   {
-    href: "/start",
-    title: "Start Here",
-    description: "How to read this project, where ideas live, and how to contribute responsibly.",
-    Icon: IconStart,
-  },
-  {
-    href: "/search",
-    title: "Search",
-    description: "Find books, concepts, patterns, and paths across the open corpus.",
-    Icon: IconSearch,
+    href: "/about",
+    title: "About",
+    description: "The idea behind the project, and how the work is published and shared.",
+    Icon: IconAbout,
   },
 ] as const;
 
-export function PathwayGrid() {
+/**
+ * Compact invitation band — four clear ways in, not a full content catalog.
+ * Patterns, concepts, and search remain reachable from header / Explore.
+ */
+export function HomeInvitations() {
   return (
     <section
       className="border-b border-border/40 bg-bg-elevated/22 py-6 md:py-12 lg:py-14"
-      aria-label="Explore the commons"
+      aria-label="Where to begin"
     >
       <Container>
         <p className="mb-4 text-[10px] uppercase tracking-[0.28em] text-accent md:mb-5 md:text-xs">
-          Explore the commons
+          Where to begin
         </p>
-        {/* Mobile/tablet: compact 2-col tiles. lg+: single horizontal navigation band. */}
-        <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-6 lg:gap-0 lg:overflow-hidden lg:border lg:border-border/50 lg:bg-bg-elevated/35 light:lg:bg-bg-elevated">
-          {pathways.map(({ href, title, description, Icon }) => (
+        <div className="grid grid-cols-2 gap-2 sm:gap-3 lg:grid-cols-4 lg:gap-0 lg:overflow-hidden lg:border lg:border-border/50 lg:bg-bg-elevated/35 light:lg:bg-bg-elevated">
+          {invitations.map(({ href, title, description, Icon }) => (
             <Link
               key={href}
               href={href}
@@ -128,7 +96,7 @@ export function PathwayGrid() {
                 {description}
               </p>
               <span className="mt-2 text-[10px] uppercase tracking-[0.2em] text-accent transition-colors group-hover:text-fg md:mt-4 md:text-xs lg:mt-3 lg:text-[10px]">
-                Explore →
+                Continue →
               </span>
             </Link>
           ))}

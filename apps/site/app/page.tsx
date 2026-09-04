@@ -2,7 +2,7 @@ import { Hero } from "@/components/home/hero";
 import { FeaturedQuestionsSection } from "@/components/questions/featured-questions-section";
 import { PatternRecognitionFeature } from "@/components/home/pattern-recognition-feature";
 import { WhyProjectExistsSection } from "@/components/home/why-project-exists-section";
-import { PathwayGrid } from "@/components/home/pathway-grid";
+import { HomeInvitations } from "@/components/home/home-invitations";
 import { MissionRecentSection } from "@/components/home/mission-recent-section";
 import { JsonLd } from "@/components/seo/json-ld";
 import { buildHomePageJsonLd } from "@/lib/seo/json-ld";
@@ -13,10 +13,10 @@ export default function HomePage() {
       <JsonLd data={buildHomePageJsonLd()} />
       <Hero />
       <FeaturedQuestionsSection />
-      <PatternRecognitionFeature />
-      <PathwayGrid />
-      <MissionRecentSection />
       <WhyProjectExistsSection />
+      <PatternRecognitionFeature />
+      <HomeInvitations />
+      <MissionRecentSection />
     </>
   );
 }

@@ -9,7 +9,7 @@ import { resolveBookCoverSrc } from "@/lib/books/resolve-book-cover";
 
 /**
  * Lower homepage block: editorial What’s New + Featured Book.
- * Mission copy lives in `WhyProjectExistsSection` later on the page.
+ * Idea / mission copy lives earlier in `WhyProjectExistsSection`.
  */
 export async function MissionRecentSection() {
   const book = await getFeaturedBook();

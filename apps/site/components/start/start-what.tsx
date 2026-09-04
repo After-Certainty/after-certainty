@@ -13,10 +13,9 @@ export function StartWhat() {
           About After Certainty
         </h2>
         <p className="mt-3 text-sm leading-relaxed text-muted md:mt-4 md:text-base">
-          After Certainty is a collaborative publishing and conversation project exploring meaning,
-          trust, leadership, communication, and human coordination under uncertainty. It includes
-          books, essays, podcasts, patterns, and open collaboration—intentionally open-ended and
-          evolving.
+          The world is more complicated than the answers we use to navigate it. After Certainty
+          explores how to see what those answers leave out—and still act when we can’t know
+          everything. It includes books, essays, conversations, patterns, and open collaboration.
         </p>
         <Link
           href="/about"

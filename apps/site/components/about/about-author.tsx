@@ -17,14 +17,19 @@ export function AboutAuthor() {
           <h2 className="font-display text-3xl tracking-tight text-fg md:text-4xl">About the Author</h2>
           <div className="mt-12">
             <AuthorProfile name="Kevin Steffensen" links={[...AUTHOR_LINKS]}>
-              <p>Kevin Steffensen writes about leadership, meaning, communication, trust, authority, systems, and interpretation.</p>
               <p>
-                His work focuses on recurring structures that emerge across organizations, institutions, relationships,
-                technology, and collective human coordination.
+                Kevin Steffensen writes about leadership, meaning, communication, trust, and the
+                everyday structures that shape how people decide together.
               </p>
               <p>
-                The project grew from an interest in how people continue building shared understanding under conditions of
-                complexity, disagreement, uncertainty, and scale.
+                His work pays attention to patterns that keep showing up across organizations,
+                institutions, relationships, and technology—especially when confident answers start
+                to feel thinner than the situations they are meant to cover.
+              </p>
+              <p>
+                After Certainty grew from a practical question: how do we keep thinking carefully
+                with one another when complexity, disagreement, and speed make certainty hard to
+                trust—and inaction still isn’t an option?
               </p>
             </AuthorProfile>
           </div>
