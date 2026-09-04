@@ -35,7 +35,7 @@ export function WhyProjectExistsSection() {
               around the explanations that already fit.
             </p>
             <p className="mt-4 text-sm leading-relaxed text-muted md:text-base">
-              After Certainty is about learning to see through perspectives other than our own,
+              After Certainty is about learning to see from perspectives other than our own,
               staying honest about what we don’t know, and still making decisions with finite time.
             </p>
             <Link
