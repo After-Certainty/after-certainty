@@ -5,7 +5,15 @@ import { useEffect, useRef, useState } from "react";
 import { sunoEmbedUrl } from "@/lib/songs/recordings";
 
 const EMBED_HEIGHT_PX = 140;
-const ROOT_MARGIN = "200px 0px";
+
+/** Mount when the card is within this distance of the viewport. */
+export const SUNO_EMBED_ENTER_ROOT_MARGIN = "200px 0px";
+
+/**
+ * Unmount only after leaving this larger band. The gap between enter and exit
+ * margins is intentional hysteresis so iframes do not flap at the boundary.
+ */
+export const SUNO_EMBED_EXIT_ROOT_MARGIN = "1000px 0px";
 
 type SunoEmbedProps = {
   externalId: string;
@@ -14,9 +22,11 @@ type SunoEmbedProps = {
 };
 
 /**
- * Deferred Suno iframe: mounts only when near the viewport or when the user
- * explicitly loads the player. Avoids initializing dozens of third-party
- * players on first paint. Never autoplays.
+ * Deferred Suno iframe with enter/exit hysteresis.
+ *
+ * Mounts near the viewport (or via "Load player"), then unmounts again once
+ * the card is sufficiently far away so scrolling never accumulates dozens of
+ * live third-party players. Never autoplays.
  */
 export function SunoEmbed({ externalId, title }: SunoEmbedProps) {
   const embedSrc = sunoEmbedUrl(externalId);
@@ -24,25 +34,39 @@ export function SunoEmbed({ externalId, title }: SunoEmbedProps) {
   const [shouldMount, setShouldMount] = useState(false);
 
   useEffect(() => {
-    if (shouldMount || !embedSrc) return;
+    if (!embedSrc) return;
     const node = containerRef.current;
     if (!node || typeof IntersectionObserver === "undefined") {
       // Without IntersectionObserver, keep the placeholder until "Load player".
       return;
     }
 
-    const observer = new IntersectionObserver(
+    const enterObserver = new IntersectionObserver(
       (entries) => {
         if (entries.some((e) => e.isIntersecting)) {
           setShouldMount(true);
-          observer.disconnect();
         }
       },
-      { root: null, rootMargin: ROOT_MARGIN, threshold: 0 },
+      { root: null, rootMargin: SUNO_EMBED_ENTER_ROOT_MARGIN, threshold: 0 },
     );
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, [shouldMount, embedSrc]);
+
+    const exitObserver = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => !e.isIntersecting)) {
+          setShouldMount(false);
+        }
+      },
+      { root: null, rootMargin: SUNO_EMBED_EXIT_ROOT_MARGIN, threshold: 0 },
+    );
+
+    enterObserver.observe(node);
+    exitObserver.observe(node);
+
+    return () => {
+      enterObserver.disconnect();
+      exitObserver.disconnect();
+    };
+  }, [embedSrc]);
 
   if (!embedSrc) {
     return (
@@ -59,6 +83,7 @@ export function SunoEmbed({ externalId, title }: SunoEmbedProps) {
       ref={containerRef}
       className="relative w-full overflow-hidden rounded-lg border border-border/40 bg-bg-elevated/50"
       style={{ minHeight: EMBED_HEIGHT_PX }}
+      data-suno-embed={shouldMount ? "mounted" : "deferred"}
     >
       {shouldMount ? (
         <iframe
