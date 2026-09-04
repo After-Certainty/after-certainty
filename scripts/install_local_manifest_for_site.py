@@ -599,8 +599,8 @@ def main(argv: list[str] | None = None) -> int:
         return 1
 
     schema = manifest.get("schemaVersion")
-    if schema != "2.5":
-        print(f"error: expected schemaVersion '2.5', got {schema!r}", file=sys.stderr)
+    if schema != "2.6":
+        print(f"error: expected schemaVersion '2.6', got {schema!r}", file=sys.stderr)
         return 1
 
     if args.require_deploy_sha:
