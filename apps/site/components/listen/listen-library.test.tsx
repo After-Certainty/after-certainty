@@ -27,7 +27,7 @@ const items = [
 ];
 
 describe("ListenLibrary", () => {
-  it("renders composition titles and about / suno links", () => {
+  it("renders composition titles and about / suno links with clear hierarchy", () => {
     render(<ListenLibrary items={items} />);
 
     expect(screen.getByRole("heading", { name: "After Nothing Happens" })).toBeInTheDocument();
@@ -42,6 +42,8 @@ describe("ListenLibrary", () => {
       "href",
       "https://suno.com/song/82ca255e-4a41-4a3f-9392-0cc46287f7ba",
     );
+    expect(suno[0]).toHaveTextContent("Listen on Suno ↗");
+    expect(suno[0].className).not.toMatch(/border-border/);
 
     const embeds = screen.getAllByTestId("suno-embed");
     expect(embeds[0]).toHaveAttribute(
@@ -49,6 +51,18 @@ describe("ListenLibrary", () => {
       "82ca255e-4a41-4a3f-9392-0cc46287f7ba",
     );
     expect(embeds[0]).toHaveAttribute("data-title", "After Nothing Happens");
+  });
+
+  it("places Explore songs above search for mobile listening-first flow", () => {
+    render(<ListenLibrary items={items} />);
+
+    const explore = screen.getByRole("link", { name: "Explore songs →" });
+    expect(explore).toHaveAttribute("href", "/explore/songs");
+
+    const search = screen.getByRole("searchbox", { name: /search songs/i });
+    expect(
+      explore.compareDocumentPosition(search) & Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
   });
 
   it("filters by title and short description", async () => {

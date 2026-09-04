@@ -49,10 +49,28 @@ describe("ExploreIndexHero", () => {
       />,
     );
     expect(container.querySelector('[data-density="editorial"]')).toBeInTheDocument();
+    expect(container.querySelector("[data-mobile-tighten]")).not.toBeInTheDocument();
     expect(container.querySelector(".explore-page__media")).toBeInTheDocument();
     expect(container.querySelector(".explore-page__media")?.className).not.toMatch(/\bhidden\b/);
     expect(screen.getByText("43 patterns")).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Patterns", level: 1 })).toBeInTheDocument();
+  });
+
+  it("marks mobileTighten only when opted in on editorial heroes", () => {
+    const { container } = render(
+      <ExploreIndexHero
+        eyebrow="Listen"
+        title="Songs from After Certainty"
+        lede="Another register."
+        headingId="listen-heading"
+        density="editorial"
+        mobileTighten
+        countLabel="32 songs"
+      />,
+    );
+    expect(container.querySelector('[data-density="editorial"]')).toBeInTheDocument();
+    expect(container.querySelector('[data-mobile-tighten="true"]')).toBeInTheDocument();
+    expect(screen.getByText("32 songs")).toBeInTheDocument();
   });
 });
 
