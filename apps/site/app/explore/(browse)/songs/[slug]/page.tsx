@@ -22,7 +22,6 @@ import { getSongBySlug } from "@/lib/graph/query/graphQueries";
 import { relatedContentForSong } from "@/lib/graph/query/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
 import { createPageMetadata } from "@/lib/metadata";
-import { loadSongLyrics } from "@/lib/songs/load-song-lyrics";
 import type { ManifestSong, SongRecording } from "@/types/semanticGraph";
 
 type PageProps = { params: Promise<{ slug: string }> };
@@ -93,7 +92,6 @@ export default async function ExploreSongDetailPage({ params }: PageProps) {
   const ordered = songsSorted(graph.songs ?? []);
   const { prev, next } = adjacentSong(ordered, song.slug);
   const primary = primaryRecording(song);
-  const lyrics = await loadSongLyrics(song.lyricsPath);
 
   const hasRelated =
     related.concepts.length +
@@ -245,29 +243,6 @@ export default async function ExploreSongDetailPage({ params }: PageProps) {
             </ul>
           </div>
         ) : null}
-      </Section>
-
-      <Section
-        atmosphere="none"
-        className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
-      >
-        <h2 className="text-[11px] uppercase tracking-[0.24em] text-muted">Lyrics</h2>
-        {lyrics ? (
-          <pre className="mt-4 max-w-2xl whitespace-pre-wrap font-sans text-base leading-relaxed text-fg md:mt-6 md:text-lg">
-            {lyrics}
-          </pre>
-        ) : (
-          <p className="mt-4 text-sm text-muted md:mt-6">
-            Lyrics file not available locally
-            {song.lyricsPath ? (
-              <>
-                {" "}
-                (<code className="text-fg/80">{song.lyricsPath}</code>)
-              </>
-            ) : null}
-            .
-          </p>
-        )}
       </Section>
 
       {hasRelated ? (

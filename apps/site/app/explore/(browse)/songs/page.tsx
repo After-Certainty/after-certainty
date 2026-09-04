@@ -27,7 +27,7 @@ export default async function ExploreSongsIndexPage() {
         headingId="explore-songs-heading"
         density="editorial"
         countLabel={exploreIndexCountLabel(songs.length, "song")}
-        lede="Compositions that carry the same questions in a different register — lyrics, recordings, and the patterns they keep in play."
+        lede="Compositions that carry the same questions in a different register — recordings and the patterns they keep in play."
       />
       <Section atmosphere="transition" className="border-t border-border/25 py-6 md:py-16">
         {songs.length === 0 ? (
