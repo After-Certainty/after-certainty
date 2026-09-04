@@ -50,6 +50,7 @@ export async function SiteFooter() {
     { label: "Explore patterns", href: "/explore/patterns" },
     { label: "Explore situations", href: "/explore/situations" },
     { label: "Explore songs", href: "/explore/songs" },
+    { label: "Listen", href: "/listen" },
     { label: "Explore books", href: "/explore/books" },
     { label: "Privacy & cookies", href: "/privacy" },
   ];

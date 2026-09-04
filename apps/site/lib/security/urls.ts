@@ -35,3 +35,14 @@ export const YOUTUBE_VIDEO_ID_RE = /^[\w-]{11}$/;
 export function isYouTubeVideoId(id: string): boolean {
   return YOUTUBE_VIDEO_ID_RE.test(id);
 }
+
+/**
+ * Suno recording / clip ids are UUIDs (canonical 8-4-4-4-12 hex form).
+ * Rejects path segments and other non-id strings before building embed/song URLs.
+ */
+export const SUNO_RECORDING_ID_RE =
+  /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+export function isSunoRecordingId(id: string): boolean {
+  return SUNO_RECORDING_ID_RE.test(id.trim());
+}

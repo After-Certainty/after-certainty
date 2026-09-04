@@ -30,7 +30,7 @@ export const SECURITY_HEADERS: { key: string; value: string }[] = [
       // googletagmanager.com required in connect-src for GA4 gtag transport (script-src alone is insufficient).
       // www.google.com is GA4's fallback collect endpoint when google-analytics.com is unreachable.
       "connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://www.google.com https://vitals.vercel-insights.com https://va.vercel-scripts.com",
-      "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com",
+      "frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://suno.com",
       "media-src 'self' https: data:",
     ].join("; "),
   },

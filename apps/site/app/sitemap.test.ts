@@ -36,6 +36,7 @@ describe("sitemap", () => {
       "/explore/sources",
       "/search",
       "/podcast",
+      "/listen",
       "/whats-new",
       "/collaborators",
       "/about",

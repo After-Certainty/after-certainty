@@ -27,6 +27,7 @@ const TOP_LEVEL_PATHS = [
   "/explore/sources",
   "/search",
   "/podcast",
+  "/listen",
   "/whats-new",
   "/collaborators",
   "/about",

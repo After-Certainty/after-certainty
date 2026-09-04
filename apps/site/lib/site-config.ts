@@ -165,6 +165,7 @@ export const siteConfig = {
     { href: "/trails", label: "Trails" },
     { href: "/explore", label: "Explore" },
     { href: "/podcast", label: "Podcast" },
+    { href: "/listen", label: "Listen" },
     { href: "/collaborators", label: "Collaborators" },
     { href: "/about", label: "About" },
   ],
