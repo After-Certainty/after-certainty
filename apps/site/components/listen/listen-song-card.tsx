@@ -32,10 +32,10 @@ export function ListenSongCard({
 
   return (
     <article
-      className="flex flex-col gap-4 border-b border-border/25 pb-10 last:border-b-0 last:pb-0 md:gap-5 md:pb-12"
+      className="flex flex-col gap-3 border-b border-border/25 pb-6 last:border-b-0 last:pb-0 md:gap-5 md:pb-12"
       aria-labelledby={headingId}
     >
-      <div className="space-y-3">
+      <div className="space-y-2 md:space-y-3">
         <h2 id={headingId} className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl">
           {title}
         </h2>
@@ -53,7 +53,7 @@ export function ListenSongCard({
         <SunoEmbed externalId={recordingExternalId} title={title} />
       </div>
 
-      <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+      <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3">
         <Link href={aboutHref} className={explorePrimaryButtonClass}>
           About this song →
         </Link>
