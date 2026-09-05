@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-4-hidden-structures-of-human-systems-chapter-11-the-structure-of-communication",
+  "generationHash": "sha256:1bfa0c265fc74c0623edd2bb9e6f30760fccea6276372587c280412c3f52fdad",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 11 — The Structure of Communication",
+      "startMs": 0.0,
+      "endMs": 3193.0,
+      "charStart": 0,
+      "charEnd": 43
+    },
+    {
+      "id": "s0002",
+      "text": "It is easy to assume communication is about what was said.",
+      "startMs": 3576.0,
+      "endMs": 7024.0,
+      "charStart": 45,
+      "charEnd": 103
+    },
+    {
+      "id": "s0003",
+      "text": "In practice, it is often about what was heard, what was implied, and what was left unsaid.",
+      "startMs": 7024.0,
+      "endMs": 13085.0,
+      "charStart": 103,
+      "charEnd": 193
+    },
+    {
+      "id": "s0004",
+      "text": "Meaning travels through words, but also through timing, tone, context, and relationship.",
+      "startMs": 13085.0,
+      "endMs": 19505.0,
+      "charStart": 193,
+      "charEnd": 281
+    },
+    {
+      "id": "s0005",
+      "text": "You can see this in a simple team update.",
+      "startMs": 20236.0,
+      "endMs": 22640.0,
+      "charStart": 285,
+      "charEnd": 326
+    },
+    {
+      "id": "s0006",
+      "text": "Two people present the same facts.",
+      "startMs": 22640.0,
+      "endMs": 25136.0,
+      "charStart": 326,
+      "charEnd": 360
+    },
+    {
+      "id": "s0007",
+      "text": "One creates clarity; the other creates anxiety.",
+      "startMs": 25461.0,
+      "endMs": 29246.0,
+      "charStart": 362,
+      "charEnd": 409
+    },
+    {
+      "id": "s0008",
+      "text": "The difference is more than vocabulary.",
+      "startMs": 29246.0,
+      "endMs": 31870.0,
+      "charStart": 409,
+      "charEnd": 448
+    },
+    {
+      "id": "s0009",
+      "text": "It is signal quality in practice: what is emphasized, what is uncertain, what is named early, and what is hidden until late.",
+      "startMs": 31870.0,
+      "endMs": 39892.0,
+      "charStart": 448,
+      "charEnd": 572
+    },
+    {
+      "id": "s0010",
+      "text": "My first explanation for miscommunication used to be \"people are not paying attention.\" Sometimes that is true.",
+      "startMs": 40473.0,
+      "endMs": 48019.0,
+      "charStart": 576,
+      "charEnd": 687
+    },
+    {
+      "id": "s0011",
+      "text": "More often, the issue is that complex ideas get compressed too hard.",
+      "startMs": 48019.0,
+      "endMs": 52547.0,
+      "charStart": 687,
+      "charEnd": 755
+    },
+    {
+      "id": "s0012",
+      "text": "We shrink context to save time, then everyone fills in missing pieces differently.",
+      "startMs": 52547.0,
+      "endMs": 57957.0,
+      "charStart": 755,
+      "charEnd": 837
+    },
+    {
+      "id": "s0013",
+      "text": "Compression is useful and unavoidable.",
+      "startMs": 58665.0,
+      "endMs": 61243.0,
+      "charStart": 841,
+      "charEnd": 879
+    },
+    {
+      "id": "s0014",
+      "text": "We cannot explain everything every time.",
+      "startMs": 61243.0,
+      "endMs": 63878.0,
+      "charStart": 879,
+      "charEnd": 919
+    },
+    {
+      "id": "s0015",
+      "text": "The challenge is matching compression to stakes.",
+      "startMs": 64250.0,
+      "endMs": 67314.0,
+      "charStart": 921,
+      "charEnd": 969
+    },
+    {
+      "id": "s0016",
+      "text": "Low-stakes updates can be brief.",
+      "startMs": 67314.0,
+      "endMs": 70043.0,
+      "charStart": 969,
+      "charEnd": 1001
+    },
+    {
+      "id": "s0017",
+      "text": "High-stakes transitions usually need fuller context, including assumptions and tradeoffs.",
+      "startMs": 70043.0,
+      "endMs": 76428.0,
+      "charStart": 1001,
+      "charEnd": 1090
+    },
+    {
+      "id": "s0018",
+      "text": "Restraint matters too.",
+      "startMs": 77322.0,
+      "endMs": 78843.0,
+      "charStart": 1094,
+      "charEnd": 1116
+    },
+    {
+      "id": "s0019",
+      "text": "Good communicators avoid reacting to every signal at full volume.",
+      "startMs": 78843.0,
+      "endMs": 83522.0,
+      "charStart": 1116,
+      "charEnd": 1181
+    },
+    {
+      "id": "s0020",
+      "text": "They leave room for clarification before escalation.",
+      "startMs": 83893.0,
+      "endMs": 87168.0,
+      "charStart": 1183,
+      "charEnd": 1235
+    },
+    {
+      "id": "s0021",
+      "text": "They ask one more question before making one more accusation.",
+      "startMs": 87168.0,
+      "endMs": 91823.0,
+      "charStart": 1235,
+      "charEnd": 1296
+    },
+    {
+      "id": "s0022",
+      "text": "That pause often prevents unnecessary conflict.",
+      "startMs": 91823.0,
+      "endMs": 95701.0,
+      "charStart": 1296,
+      "charEnd": 1343
+    },
+    {
+      "id": "s0023",
+      "text": "Connection is the final layer.",
+      "startMs": 96328.0,
+      "endMs": 98406.0,
+      "charStart": 1347,
+      "charEnd": 1377
+    },
+    {
+      "id": "s0024",
+      "text": "People interpret messages through trust.",
+      "startMs": 99103.0,
+      "endMs": 101727.0,
+      "charStart": 1378,
+      "charEnd": 1418
+    },
+    {
+      "id": "s0025",
+      "text": "If they expect respect, ambiguity is often resolved generously.",
+      "startMs": 101727.0,
+      "endMs": 106777.0,
+      "charStart": 1418,
+      "charEnd": 1481
+    },
+    {
+      "id": "s0026",
+      "text": "If they expect threat, the same ambiguity is resolved defensively.",
+      "startMs": 106777.0,
+      "endMs": 111757.0,
+      "charStart": 1481,
+      "charEnd": 1547
+    },
+    {
+      "id": "s0027",
+      "text": "Communication quality, then, is partly a relationship outcome.",
+      "startMs": 111757.0,
+      "endMs": 116320.0,
+      "charStart": 1547,
+      "charEnd": 1609
+    },
+    {
+      "id": "s0028",
+      "text": "Curiosity helps across all of this.",
+      "startMs": 117028.0,
+      "endMs": 119420.0,
+      "charStart": 1614,
+      "charEnd": 1649
+    },
+    {
+      "id": "s0029",
+      "text": "It asks, \"What did they likely hear?\" \"What context am I assuming?\" \"What signal am I sending unintentionally?\" These questions reduce blame and make communication more precise.",
+      "startMs": 119420.0,
+      "endMs": 134455.0,
+      "charStart": 1649,
+      "charEnd": 1826
+    },
+    {
+      "id": "s0030",
+      "text": "When communication becomes more observable, groups become easier to navigate.",
+      "startMs": 135000.0,
+      "endMs": 139633.0,
+      "charStart": 1829,
+      "charEnd": 1906
+    },
+    {
+      "id": "s0031",
+      "text": "You see fewer conversations as fixed battles and more as systems that can be tuned.",
+      "startMs": 139633.0,
+      "endMs": 145833.0,
+      "charStart": 1906,
+      "charEnd": 1989
+    },
+    {
+      "id": "s0032",
+      "text": "That shift prepares us for the final step: living with curiosity in a world that stays uncertain.",
+      "startMs": 145833.0,
+      "endMs": 152996.0,
+      "charStart": 1989,
+      "charEnd": 2086
+    }
+  ]
+}

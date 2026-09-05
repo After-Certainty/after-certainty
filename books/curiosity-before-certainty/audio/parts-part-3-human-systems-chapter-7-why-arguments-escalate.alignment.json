@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-3-human-systems-chapter-7-why-arguments-escalate",
+  "generationHash": "sha256:2122e6ab2b43a73b8ddb2e2a12a70ac7c7f7e9df2e7c621a656fdb6ac47a6c1e",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 7 — Why Arguments Escalate",
+      "startMs": 0.0,
+      "endMs": 3471.0,
+      "charStart": 0,
+      "charEnd": 34
+    },
+    {
+      "id": "s0002",
+      "text": "Many arguments look, at first glance, like one person refusing to be reasonable.",
+      "startMs": 4771.0,
+      "endMs": 9288.0,
+      "charStart": 36,
+      "charEnd": 116
+    },
+    {
+      "id": "s0003",
+      "text": "That explanation can feel clean and emotionally satisfying, especially when you are sure you are the reasonable one.",
+      "startMs": 9288.0,
+      "endMs": 15813.0,
+      "charStart": 116,
+      "charEnd": 232
+    },
+    {
+      "id": "s0004",
+      "text": "Then I noticed something that clashed with that view.",
+      "startMs": 16301.0,
+      "endMs": 18820.0,
+      "charStart": 235,
+      "charEnd": 288
+    },
+    {
+      "id": "s0005",
+      "text": "Some conversations exploded even when both people were trying to help.",
+      "startMs": 18820.0,
+      "endMs": 22849.0,
+      "charStart": 288,
+      "charEnd": 358
+    },
+    {
+      "id": "s0006",
+      "text": "Nobody entered the discussion wanting conflict, yet tension still rose quickly.",
+      "startMs": 22849.0,
+      "endMs": 28352.0,
+      "charStart": 358,
+      "charEnd": 437
+    },
+    {
+      "id": "s0007",
+      "text": "A familiar pattern goes like this: one person makes a comment, the other hears criticism, the first hears defensiveness, and within minutes both are reacting to tone rather than content.",
+      "startMs": 29084.0,
+      "endMs": 40752.0,
+      "charStart": 441,
+      "charEnd": 627
+    },
+    {
+      "id": "s0008",
+      "text": "The original topic is still in the room, but it is no longer leading.",
+      "startMs": 40752.0,
+      "endMs": 45186.0,
+      "charStart": 627,
+      "charEnd": 696
+    },
+    {
+      "id": "s0009",
+      "text": "Our first explanation usually blames personality.",
+      "startMs": 45848.0,
+      "endMs": 49157.0,
+      "charStart": 699,
+      "charEnd": 748
+    },
+    {
+      "id": "s0010",
+      "text": "\"They are stubborn.\" \"They are overreacting.\" Sometimes that is partly true.",
+      "startMs": 49157.0,
+      "endMs": 54335.0,
+      "charStart": 748,
+      "charEnd": 824
+    },
+    {
+      "id": "s0011",
+      "text": "Often it misses the deeper dynamic: people are operating with different assumptions about what the conversation is for.",
+      "startMs": 54335.0,
+      "endMs": 60431.0,
+      "charStart": 824,
+      "charEnd": 943
+    },
+    {
+      "id": "s0012",
+      "text": "One person may think, \"We are solving a problem.\" Another may think, \"We are deciding who is at fault.\" One may hear directness as efficiency; another may hear it as disrespect.",
+      "startMs": 61208.0,
+      "endMs": 72644.0,
+      "charStart": 947,
+      "charEnd": 1124
+    },
+    {
+      "id": "s0013",
+      "text": "If those assumptions stay hidden, each reply amplifies misunderstanding.",
+      "startMs": 72644.0,
+      "endMs": 77161.0,
+      "charStart": 1124,
+      "charEnd": 1196
+    },
+    {
+      "id": "s0014",
+      "text": "Curiosity changes the move.",
+      "startMs": 77637.0,
+      "endMs": 79878.0,
+      "charStart": 1199,
+      "charEnd": 1226
+    },
+    {
+      "id": "s0015",
+      "text": "Instead of trying to win the next sentence, you ask diagnostic questions.",
+      "startMs": 79878.0,
+      "endMs": 83953.0,
+      "charStart": 1226,
+      "charEnd": 1299
+    },
+    {
+      "id": "s0016",
+      "text": "\"What are you most worried about right now?\" \"What did you hear me say?\" \"What outcome are you protecting?\" These questions do not erase disagreement, but they expose the structure beneath the heat.",
+      "startMs": 83953.0,
+      "endMs": 96155.0,
+      "charStart": 1299,
+      "charEnd": 1497
+    },
+    {
+      "id": "s0017",
+      "text": "I have seen this in work settings, family discussions, and even short text-message exchanges.",
+      "startMs": 97038.0,
+      "endMs": 102611.0,
+      "charStart": 1501,
+      "charEnd": 1594
+    },
+    {
+      "id": "s0018",
+      "text": "The turning point is usually the same: someone stops arguing long enough to investigate.",
+      "startMs": 102611.0,
+      "endMs": 108091.0,
+      "charStart": 1594,
+      "charEnd": 1682
+    },
+    {
+      "id": "s0019",
+      "text": "That pause creates enough space for a better map of the conversation.",
+      "startMs": 108091.0,
+      "endMs": 112177.0,
+      "charStart": 1682,
+      "charEnd": 1751
+    },
+    {
+      "id": "s0020",
+      "text": "The gentle principle here is simple.",
+      "startMs": 113350.0,
+      "endMs": 115335.0,
+      "charStart": 1755,
+      "charEnd": 1791
+    },
+    {
+      "id": "s0021",
+      "text": "Escalation is often a system effect more than a moral verdict.",
+      "startMs": 115335.0,
+      "endMs": 119376.0,
+      "charStart": 1791,
+      "charEnd": 1853
+    },
+    {
+      "id": "s0022",
+      "text": "When assumptions stay invisible, conflict grows.",
+      "startMs": 119968.0,
+      "endMs": 122998.0,
+      "charStart": 1855,
+      "charEnd": 1903
+    },
+    {
+      "id": "s0023",
+      "text": "When assumptions become visible, curiosity has room to work.",
+      "startMs": 123381.0,
+      "endMs": 127293.0,
+      "charStart": 1904,
+      "charEnd": 1964
+    },
+    {
+      "id": "s0024",
+      "text": "Next we look at a newer conversational system that makes these habits easy",
+      "startMs": 127990.0,
+      "endMs": 131670.0,
+      "charStart": 1966,
+      "charEnd": 2040
+    },
+    {
+      "id": "s0025",
+      "text": "to see: everyday interaction with AI tools.",
+      "startMs": 131728.0,
+      "endMs": 135281.0,
+      "charStart": 2041,
+      "charEnd": 2084
+    }
+  ]
+}

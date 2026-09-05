@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-1-learning-to-notice-chapter-3-the-hidden-patterns-around-us",
+  "generationHash": "sha256:93914fed080fb1c60975347a42fb6eff939db793de3c31d13d3c8e4cdbb940d3",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 3 — The Hidden Patterns Around Us",
+      "startMs": 0.0,
+      "endMs": 3251.0,
+      "charStart": 0,
+      "charEnd": 41
+    },
+    {
+      "id": "s0002",
+      "text": "One of the most useful moments in learning is surprisingly quiet.",
+      "startMs": 3762.0,
+      "endMs": 7581.0,
+      "charStart": 43,
+      "charEnd": 108
+    },
+    {
+      "id": "s0003",
+      "text": "It is the moment you realize that what looked chaotic might actually have structure: not rigid rules, but repeatable patterns hiding in plain sight.",
+      "startMs": 7581.0,
+      "endMs": 17008.0,
+      "charStart": 108,
+      "charEnd": 256
+    },
+    {
+      "id": "s0004",
+      "text": "You can see this in traffic waves.",
+      "startMs": 17623.0,
+      "endMs": 19632.0,
+      "charStart": 259,
+      "charEnd": 293
+    },
+    {
+      "id": "s0005",
+      "text": "You are on a highway, everything slows to a crawl, and you expect to find a crash.",
+      "startMs": 19632.0,
+      "endMs": 25159.0,
+      "charStart": 293,
+      "charEnd": 375
+    },
+    {
+      "id": "s0006",
+      "text": "Then traffic clears and there is nothing there.",
+      "startMs": 25159.0,
+      "endMs": 28049.0,
+      "charStart": 375,
+      "charEnd": 422
+    },
+    {
+      "id": "s0007",
+      "text": "No accident.",
+      "startMs": 28572.0,
+      "endMs": 29431.0,
+      "charStart": 425,
+      "charEnd": 437
+    },
+    {
+      "id": "s0008",
+      "text": "No construction.",
+      "startMs": 29547.0,
+      "endMs": 30627.0,
+      "charStart": 438,
+      "charEnd": 454
+    },
+    {
+      "id": "s0009",
+      "text": "Just a temporary wave moving backward through the system because a few people braked at nearly the same time.",
+      "startMs": 30627.0,
+      "endMs": 36478.0,
+      "charStart": 454,
+      "charEnd": 563
+    },
+    {
+      "id": "s0010",
+      "text": "You can see it in crowds too.",
+      "startMs": 37082.0,
+      "endMs": 38928.0,
+      "charStart": 566,
+      "charEnd": 595
+    },
+    {
+      "id": "s0011",
+      "text": "At first, crowd movement can look messy.",
+      "startMs": 39253.0,
+      "endMs": 41680.0,
+      "charStart": 596,
+      "charEnd": 636
+    },
+    {
+      "id": "s0012",
+      "text": "People stop, weave, and adjust constantly.",
+      "startMs": 41958.0,
+      "endMs": 44872.0,
+      "charStart": 637,
+      "charEnd": 679
+    },
+    {
+      "id": "s0013",
+      "text": "But stand still for a few minutes and patterns appear: lanes form naturally, flow speeds up when spacing is respected, and confusion spikes at narrow transitions like doorways.",
+      "startMs": 44872.0,
+      "endMs": 57191.0,
+      "charStart": 679,
+      "charEnd": 855
+    },
+    {
+      "id": "s0014",
+      "text": "Weather teaches the same lesson.",
+      "startMs": 58352.0,
+      "endMs": 60430.0,
+      "charStart": 858,
+      "charEnd": 890
+    },
+    {
+      "id": "s0015",
+      "text": "We still cannot predict every local change with precision, but we can observe recurring signals: pressure drops, wind shifts, cloud textures, humidity changes.",
+      "startMs": 60430.0,
+      "endMs": 70879.0,
+      "charStart": 890,
+      "charEnd": 1049
+    },
+    {
+      "id": "s0016",
+      "text": "The system is complex, yet still patterned.",
+      "startMs": 70879.0,
+      "endMs": 73747.0,
+      "charStart": 1049,
+      "charEnd": 1092
+    },
+    {
+      "id": "s0017",
+      "text": "Our first explanation for these cases is often \"randomness.\" That word is sometimes correct, but we also use it when we have not looked long enough.",
+      "startMs": 74362.0,
+      "endMs": 83210.0,
+      "charStart": 1096,
+      "charEnd": 1244
+    },
+    {
+      "id": "s0018",
+      "text": "In those moments, \"random\" can really mean \"I do not yet see the pattern.\"",
+      "startMs": 83593.0,
+      "endMs": 88457.0,
+      "charStart": 1245,
+      "charEnd": 1319
+    },
+    {
+      "id": "s0019",
+      "text": "Curiosity asks us to linger one step longer.",
+      "startMs": 89061.0,
+      "endMs": 92300.0,
+      "charStart": 1321,
+      "charEnd": 1365
+    },
+    {
+      "id": "s0020",
+      "text": "Notice what repeats.",
+      "startMs": 92683.0,
+      "endMs": 94088.0,
+      "charStart": 1366,
+      "charEnd": 1386
+    },
+    {
+      "id": "s0021",
+      "text": "Compare days that feel similar.",
+      "startMs": 94088.0,
+      "endMs": 96062.0,
+      "charStart": 1386,
+      "charEnd": 1417
+    },
+    {
+      "id": "s0022",
+      "text": "Pay attention to transitions, not just outcomes.",
+      "startMs": 96619.0,
+      "endMs": 99637.0,
+      "charStart": 1419,
+      "charEnd": 1467
+    },
+    {
+      "id": "s0023",
+      "text": "Try small predictions and see where they fail.",
+      "startMs": 99916.0,
+      "endMs": 102447.0,
+      "charStart": 1468,
+      "charEnd": 1514
+    },
+    {
+      "id": "s0024",
+      "text": "Every mismatch sharpens the next observation.",
+      "startMs": 102447.0,
+      "endMs": 105361.0,
+      "charStart": 1514,
+      "charEnd": 1559
+    },
+    {
+      "id": "s0025",
+      "text": "This is the point where many readers start feeling a shift in how they approach problems.",
+      "startMs": 105918.0,
+      "endMs": 110469.0,
+      "charStart": 1562,
+      "charEnd": 1651
+    },
+    {
+      "id": "s0026",
+      "text": "You stop waiting for certainty before you engage.",
+      "startMs": 110911.0,
+      "endMs": 113778.0,
+      "charStart": 1652,
+      "charEnd": 1701
+    },
+    {
+      "id": "s0027",
+      "text": "You engage first, and let clearer understanding emerge through contact with the system.",
+      "startMs": 113778.0,
+      "endMs": 118631.0,
+      "charStart": 1701,
+      "charEnd": 1788
+    },
+    {
+      "id": "s0028",
+      "text": "The world starts to feel less like a locked box and more like a landscape with paths you can learn to read.",
+      "startMs": 118631.0,
+      "endMs": 124738.0,
+      "charStart": 1788,
+      "charEnd": 1895
+    },
+    {
+      "id": "s0029",
+      "text": "Once hidden patterns become visible in ordinary scenes, curiosity begins to feel practical.",
+      "startMs": 125295.0,
+      "endMs": 130937.0,
+      "charStart": 1899,
+      "charEnd": 1990
+    },
+    {
+      "id": "s0030",
+      "text": "It is no longer a personality trait.",
+      "startMs": 131146.0,
+      "endMs": 133306.0,
+      "charStart": 1991,
+      "charEnd": 2027
+    },
+    {
+      "id": "s0031",
+      "text": "It is a method you can use anywhere.",
+      "startMs": 133306.0,
+      "endMs": 135535.0,
+      "charStart": 2027,
+      "charEnd": 2063
+    },
+    {
+      "id": "s0032",
+      "text": "Part II begins by showing how investigators make this method explicit:",
+      "startMs": 136951.0,
+      "endMs": 141131.0,
+      "charStart": 2066,
+      "charEnd": 2136
+    },
+    {
+      "id": "s0033",
+      "text": "they do not guess once and defend it; they test explanations until only",
+      "startMs": 141456.0,
+      "endMs": 146112.0,
+      "charStart": 2137,
+      "charEnd": 2208
+    },
+    {
+      "id": "s0034",
+      "text": "the strongest remain.",
+      "startMs": 146159.0,
+      "endMs": 147447.0,
+      "charStart": 2209,
+      "charEnd": 2230
+    }
+  ]
+}

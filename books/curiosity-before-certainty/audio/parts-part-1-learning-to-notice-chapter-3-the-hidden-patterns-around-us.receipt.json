@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-1-learning-to-notice-chapter-3-the-hidden-patterns-around-us",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-1-learning-to-notice-chapter-3-the-hidden-patterns-around-us",
+  "sourcePath": "parts/part-1-learning-to-notice/chapter-3-the-hidden-patterns-around-us.md",
+  "sourceHash": "sha256:cf934ad3e9d171f5752996d5ef184a8ba573cf80d4b45009388a11ad301d8f84",
+  "spokenTextHash": "sha256:28d96b04c8d30ecb419e086892f63b288d5d0e316bd8c54cd6ed436738777fc8",
+  "generationHash": "sha256:93914fed080fb1c60975347a42fb6eff939db793de3c31d13d3c8e4cdbb940d3",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2230,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 557.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 557.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-1-learning-to-notice-chapter-3-the-hidden-patterns-around-us.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-1-learning-to-notice-chapter-3-the-hidden-patterns-around-us.mp3",
+  "audioSha256": "sha256:223ed46c0f4ece6630d5b2b44f3d95b990613ee2aed6647ef97cfcaaff1186a2",
+  "generatedAt": "2026-09-05T05:12:40Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-2-exploring-systems-chapter-5-debugging-the-world",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-2-exploring-systems-chapter-5-debugging-the-world",
+  "sourcePath": "parts/part-2-exploring-systems/chapter-5-debugging-the-world.md",
+  "sourceHash": "sha256:bb6889d9126de3e58192edb1ac1f5ffe5a602849ce924aa172e5b2855a15957a",
+  "spokenTextHash": "sha256:a9b9e42c7c1e9f07c31cdc03c8b3b8a925090ee9a9bd9191a6c349a5e0e831f3",
+  "generationHash": "sha256:efef6622b30c710b819915fddcf955f2010a945a56c085581ff6e79785e25bc4",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2115,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 528.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 528.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-2-exploring-systems-chapter-5-debugging-the-world.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-2-exploring-systems-chapter-5-debugging-the-world.mp3",
+  "audioSha256": "sha256:c77c3a87eab32276dc1629ae97680dd62341db2d7f52574b28110168d506ad3a",
+  "generatedAt": "2026-09-05T05:12:55Z"
+}

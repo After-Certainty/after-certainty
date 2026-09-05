@@ -1,0 +1,312 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-3-human-systems-chapter-8-what-ai-reveals-about-our-thinking",
+  "generationHash": "sha256:2dc6a62270f6829316a9bf01e4ce31e4574045773503ba764b78caaa7e3aeb79",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 8 — What AI Reveals About Our Thinking",
+      "startMs": 0.0,
+      "endMs": 3854.0,
+      "charStart": 0,
+      "charEnd": 46
+    },
+    {
+      "id": "s0002",
+      "text": "When people talk about AI, the focus is usually on what the system can do.",
+      "startMs": 4365.0,
+      "endMs": 8661.0,
+      "charStart": 48,
+      "charEnd": 122
+    },
+    {
+      "id": "s0003",
+      "text": "Can it write?",
+      "startMs": 8986.0,
+      "endMs": 9903.0,
+      "charStart": 123,
+      "charEnd": 136
+    },
+    {
+      "id": "s0004",
+      "text": "Can it code?",
+      "startMs": 10054.0,
+      "endMs": 10971.0,
+      "charStart": 137,
+      "charEnd": 149
+    },
+    {
+      "id": "s0005",
+      "text": "Can it summarize?",
+      "startMs": 11122.0,
+      "endMs": 12306.0,
+      "charStart": 150,
+      "charEnd": 167
+    },
+    {
+      "id": "s0006",
+      "text": "Those are useful questions, but they leave out another one that has become increasingly important to me: what does our use of AI reveal about us?",
+      "startMs": 12306.0,
+      "endMs": 21142.0,
+      "charStart": 167,
+      "charEnd": 312
+    },
+    {
+      "id": "s0007",
+      "text": "I started noticing this in ordinary interactions.",
+      "startMs": 21861.0,
+      "endMs": 25019.0,
+      "charStart": 315,
+      "charEnd": 364
+    },
+    {
+      "id": "s0008",
+      "text": "Two people can use the same model with very different outcomes.",
+      "startMs": 25019.0,
+      "endMs": 28595.0,
+      "charStart": 364,
+      "charEnd": 427
+    },
+    {
+      "id": "s0009",
+      "text": "One asks for confirmation of what they already believe and treats the response like a verdict.",
+      "startMs": 28595.0,
+      "endMs": 33843.0,
+      "charStart": 427,
+      "charEnd": 521
+    },
+    {
+      "id": "s0010",
+      "text": "Another uses the model as a thinking partner, pushing, testing, and revising as new information appears.",
+      "startMs": 33843.0,
+      "endMs": 40647.0,
+      "charStart": 521,
+      "charEnd": 625
+    },
+    {
+      "id": "s0011",
+      "text": "At first I thought the difference was mainly technical skill.",
+      "startMs": 41366.0,
+      "endMs": 44489.0,
+      "charStart": 630,
+      "charEnd": 691
+    },
+    {
+      "id": "s0012",
+      "text": "Better prompts, better results.",
+      "startMs": 44489.0,
+      "endMs": 46567.0,
+      "charStart": 691,
+      "charEnd": 722
+    },
+    {
+      "id": "s0013",
+      "text": "That matters, but it is only part of the story.",
+      "startMs": 47066.0,
+      "endMs": 50073.0,
+      "charStart": 724,
+      "charEnd": 771
+    },
+    {
+      "id": "s0014",
+      "text": "The deeper difference is mindset: certainty-seeking versus curiosity-seeking.",
+      "startMs": 50073.0,
+      "endMs": 55762.0,
+      "charStart": 771,
+      "charEnd": 848
+    },
+    {
+      "id": "s0015",
+      "text": "Certainty-seeking prompts often sound like, \"Prove this point,\" \"Show why",
+      "startMs": 56296.0,
+      "endMs": 61114.0,
+      "charStart": 851,
+      "charEnd": 924
+    },
+    {
+      "id": "s0016",
+      "text": "I am right,\" or \"Give me the best argument against them.\" Curiosity-seeking",
+      "startMs": 61231.0,
+      "endMs": 67152.0,
+      "charStart": 925,
+      "charEnd": 1000
+    },
+    {
+      "id": "s0017",
+      "text": "prompts often sound like, \"What am I missing?\" \"What assumptions am I",
+      "startMs": 67245.0,
+      "endMs": 71691.0,
+      "charStart": 1001,
+      "charEnd": 1070
+    },
+    {
+      "id": "s0018",
+      "text": "making?\" \"How else could this be interpreted?\"",
+      "startMs": 71761.0,
+      "endMs": 74652.0,
+      "charStart": 1071,
+      "charEnd": 1117
+    },
+    {
+      "id": "s0019",
+      "text": "When I use AI well, I notice a pattern.",
+      "startMs": 75256.0,
+      "endMs": 77647.0,
+      "charStart": 1119,
+      "charEnd": 1158
+    },
+    {
+      "id": "s0020",
+      "text": "I start with a rough idea.",
+      "startMs": 78089.0,
+      "endMs": 79726.0,
+      "charStart": 1159,
+      "charEnd": 1185
+    },
+    {
+      "id": "s0021",
+      "text": "The model gives me an answer that is partly useful and partly flawed.",
+      "startMs": 79726.0,
+      "endMs": 83940.0,
+      "charStart": 1185,
+      "charEnd": 1254
+    },
+    {
+      "id": "s0022",
+      "text": "I test the weak spots, ask follow-up questions, and compare alternatives.",
+      "startMs": 83940.0,
+      "endMs": 88943.0,
+      "charStart": 1254,
+      "charEnd": 1327
+    },
+    {
+      "id": "s0023",
+      "text": "The value comes less from any single output and more from the iterative loop.",
+      "startMs": 88943.0,
+      "endMs": 93587.0,
+      "charStart": 1327,
+      "charEnd": 1404
+    },
+    {
+      "id": "s0024",
+      "text": "This is why AI can be such a clear mirror.",
+      "startMs": 94458.0,
+      "endMs": 97174.0,
+      "charStart": 1409,
+      "charEnd": 1451
+    },
+    {
+      "id": "s0025",
+      "text": "It amplifies our cognitive habits.",
+      "startMs": 97174.0,
+      "endMs": 99787.0,
+      "charStart": 1451,
+      "charEnd": 1485
+    },
+    {
+      "id": "s0026",
+      "text": "If we want quick certainty, it can help us feel certain faster.",
+      "startMs": 100692.0,
+      "endMs": 104756.0,
+      "charStart": 1487,
+      "charEnd": 1550
+    },
+    {
+      "id": "s0027",
+      "text": "If we want better understanding, it can help us explore more angles with less friction.",
+      "startMs": 104756.0,
+      "endMs": 109980.0,
+      "charStart": 1550,
+      "charEnd": 1637
+    },
+    {
+      "id": "s0028",
+      "text": "The tool is the same; our thinking posture changes the result.",
+      "startMs": 110596.0,
+      "endMs": 114659.0,
+      "charStart": 1639,
+      "charEnd": 1701
+    },
+    {
+      "id": "s0029",
+      "text": "None of this means AI replaces human judgment.",
+      "startMs": 115262.0,
+      "endMs": 118339.0,
+      "charStart": 1703,
+      "charEnd": 1749
+    },
+    {
+      "id": "s0030",
+      "text": "It does not.",
+      "startMs": 118664.0,
+      "endMs": 119616.0,
+      "charStart": 1750,
+      "charEnd": 1762
+    },
+    {
+      "id": "s0031",
+      "text": "But it can make our thinking habits visible in real time.",
+      "startMs": 119616.0,
+      "endMs": 123691.0,
+      "charStart": 1762,
+      "charEnd": 1819
+    },
+    {
+      "id": "s0032",
+      "text": "That visibility is useful.",
+      "startMs": 124260.0,
+      "endMs": 126222.0,
+      "charStart": 1821,
+      "charEnd": 1847
+    },
+    {
+      "id": "s0033",
+      "text": "It gives us a chance to choose curiosity deliberately instead of drifting into confirmation by default.",
+      "startMs": 126222.0,
+      "endMs": 132677.0,
+      "charStart": 1847,
+      "charEnd": 1950
+    },
+    {
+      "id": "s0034",
+      "text": "As these tools become normal in daily life, the core skill goes beyond prompting.",
+      "startMs": 133432.0,
+      "endMs": 138784.0,
+      "charStart": 1953,
+      "charEnd": 2034
+    },
+    {
+      "id": "s0035",
+      "text": "It is staying willing to revise.",
+      "startMs": 139167.0,
+      "endMs": 141257.0,
+      "charStart": 2035,
+      "charEnd": 2067
+    },
+    {
+      "id": "s0036",
+      "text": "In that sense, AI invites us to practice navigating uncertainty.",
+      "startMs": 141257.0,
+      "endMs": 146191.0,
+      "charStart": 2067,
+      "charEnd": 2131
+    },
+    {
+      "id": "s0037",
+      "text": "That practice depends on one sentence many of us resist saying out loud:",
+      "startMs": 146749.0,
+      "endMs": 151474.0,
+      "charStart": 2134,
+      "charEnd": 2206
+    },
+    {
+      "id": "s0038",
+      "text": "\"I might be wrong.\" Next we look at why that sentence matters.",
+      "startMs": 151590.0,
+      "endMs": 155897.0,
+      "charStart": 2207,
+      "charEnd": 2269
+    }
+  ]
+}

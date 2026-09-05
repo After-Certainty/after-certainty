@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-2-exploring-systems-chapter-5-debugging-the-world",
+  "generationHash": "sha256:efef6622b30c710b819915fddcf955f2010a945a56c085581ff6e79785e25bc4",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 5 — Debugging the World",
+      "startMs": 0.0,
+      "endMs": 3042.0,
+      "charStart": 0,
+      "charEnd": 31
+    },
+    {
+      "id": "s0002",
+      "text": "When people imagine software development, they often picture writing clean, elegant code.",
+      "startMs": 3854.0,
+      "endMs": 9404.0,
+      "charStart": 33,
+      "charEnd": 122
+    },
+    {
+      "id": "s0003",
+      "text": "In practice, a lot of the craft is debugging.",
+      "startMs": 10100.0,
+      "endMs": 13177.0,
+      "charStart": 123,
+      "charEnd": 168
+    },
+    {
+      "id": "s0004",
+      "text": "Things break, often for reasons that are hard to spot at first, and the work is to trace the break back to its source.",
+      "startMs": 13177.0,
+      "endMs": 20085.0,
+      "charStart": 168,
+      "charEnd": 286
+    },
+    {
+      "id": "s0005",
+      "text": "I used to hate debugging because it felt like proof that I had made a mistake.",
+      "startMs": 20874.0,
+      "endMs": 25135.0,
+      "charStart": 289,
+      "charEnd": 367
+    },
+    {
+      "id": "s0006",
+      "text": "Over time, I came to value it for the opposite reason.",
+      "startMs": 25646.0,
+      "endMs": 28955.0,
+      "charStart": 368,
+      "charEnd": 422
+    },
+    {
+      "id": "s0007",
+      "text": "Debugging is one of the fastest ways to understand a system deeply.",
+      "startMs": 28955.0,
+      "endMs": 33111.0,
+      "charStart": 422,
+      "charEnd": 489
+    },
+    {
+      "id": "s0008",
+      "text": "Failure exposes connections that success can hide.",
+      "startMs": 33111.0,
+      "endMs": 36676.0,
+      "charStart": 489,
+      "charEnd": 539
+    },
+    {
+      "id": "s0009",
+      "text": "A feature that works often tells you little about architecture.",
+      "startMs": 37128.0,
+      "endMs": 40530.0,
+      "charStart": 543,
+      "charEnd": 606
+    },
+    {
+      "id": "s0010",
+      "text": "A feature that fails under load, fails only on one browser, or fails only with one kind of user data forces you to ask better questions.",
+      "startMs": 40530.0,
+      "endMs": 48750.0,
+      "charStart": 606,
+      "charEnd": 742
+    },
+    {
+      "id": "s0011",
+      "text": "Where does state live?",
+      "startMs": 48750.0,
+      "endMs": 50225.0,
+      "charStart": 742,
+      "charEnd": 764
+    },
+    {
+      "id": "s0012",
+      "text": "What assumptions are implicit?",
+      "startMs": 50712.0,
+      "endMs": 52396.0,
+      "charStart": 767,
+      "charEnd": 797
+    },
+    {
+      "id": "s0013",
+      "text": "Which components depend on timing?",
+      "startMs": 52570.0,
+      "endMs": 54648.0,
+      "charStart": 798,
+      "charEnd": 832
+    },
+    {
+      "id": "s0014",
+      "text": "The first explanation is usually too simple.",
+      "startMs": 55345.0,
+      "endMs": 58212.0,
+      "charStart": 834,
+      "charEnd": 878
+    },
+    {
+      "id": "s0015",
+      "text": "\"The API is down.\" \"The frontend is broken.\" \"The user did something wrong.\" These guesses are rarely fully false, but they are rarely complete.",
+      "startMs": 58212.0,
+      "endMs": 68163.0,
+      "charStart": 878,
+      "charEnd": 1022
+    },
+    {
+      "id": "s0016",
+      "text": "Complex failures often span several layers at once.",
+      "startMs": 68163.0,
+      "endMs": 71483.0,
+      "charStart": 1022,
+      "charEnd": 1073
+    },
+    {
+      "id": "s0017",
+      "text": "Good debugging starts with small, testable steps.",
+      "startMs": 72052.0,
+      "endMs": 75500.0,
+      "charStart": 1077,
+      "charEnd": 1126
+    },
+    {
+      "id": "s0018",
+      "text": "Reproduce the issue.",
+      "startMs": 75709.0,
+      "endMs": 77033.0,
+      "charStart": 1127,
+      "charEnd": 1147
+    },
+    {
+      "id": "s0019",
+      "text": "Change one variable.",
+      "startMs": 77207.0,
+      "endMs": 78670.0,
+      "charStart": 1148,
+      "charEnd": 1168
+    },
+    {
+      "id": "s0020",
+      "text": "Observe the result.",
+      "startMs": 78995.0,
+      "endMs": 80260.0,
+      "charStart": 1169,
+      "charEnd": 1188
+    },
+    {
+      "id": "s0021",
+      "text": "Add instrumentation.",
+      "startMs": 80469.0,
+      "endMs": 82048.0,
+      "charStart": 1189,
+      "charEnd": 1209
+    },
+    {
+      "id": "s0022",
+      "text": "Narrow the surface area.",
+      "startMs": 82048.0,
+      "endMs": 83894.0,
+      "charStart": 1209,
+      "charEnd": 1233
+    },
+    {
+      "id": "s0023",
+      "text": "Compare a failing case to a working one.",
+      "startMs": 84230.0,
+      "endMs": 86750.0,
+      "charStart": 1235,
+      "charEnd": 1275
+    },
+    {
+      "id": "s0024",
+      "text": "Each step turns confusion into evidence.",
+      "startMs": 86750.0,
+      "endMs": 89791.0,
+      "charStart": 1275,
+      "charEnd": 1315
+    },
+    {
+      "id": "s0025",
+      "text": "This approach travels well beyond software.",
+      "startMs": 90105.0,
+      "endMs": 92880.0,
+      "charStart": 1318,
+      "charEnd": 1361
+    },
+    {
+      "id": "s0026",
+      "text": "In organizations, recurring miscommunication is a bug worth tracing.",
+      "startMs": 92880.0,
+      "endMs": 97431.0,
+      "charStart": 1361,
+      "charEnd": 1429
+    },
+    {
+      "id": "s0027",
+      "text": "In personal routines, repeated friction is a bug worth tracing.",
+      "startMs": 97431.0,
+      "endMs": 102203.0,
+      "charStart": 1429,
+      "charEnd": 1492
+    },
+    {
+      "id": "s0028",
+      "text": "In policy and process, predictable failure points are bugs worth tracing.",
+      "startMs": 102203.0,
+      "endMs": 107508.0,
+      "charStart": 1492,
+      "charEnd": 1565
+    },
+    {
+      "id": "s0029",
+      "text": "The specifics change, but the curiosity posture is the same.",
+      "startMs": 107508.0,
+      "endMs": 111920.0,
+      "charStart": 1565,
+      "charEnd": 1625
+    },
+    {
+      "id": "s0030",
+      "text": "The practical lesson is simple: breakdown is more than inconvenience.",
+      "startMs": 112814.0,
+      "endMs": 117609.0,
+      "charStart": 1631,
+      "charEnd": 1700
+    },
+    {
+      "id": "s0031",
+      "text": "It is information.",
+      "startMs": 117609.0,
+      "endMs": 119118.0,
+      "charStart": 1700,
+      "charEnd": 1718
+    },
+    {
+      "id": "s0032",
+      "text": "When a system fails, it reveals where its structure is brittle, where assumptions are outdated, and where small repairs can create disproportionate gains.",
+      "startMs": 119118.0,
+      "endMs": 128104.0,
+      "charStart": 1718,
+      "charEnd": 1872
+    },
+    {
+      "id": "s0033",
+      "text": "Curiosity treats failure as useful data.",
+      "startMs": 128871.0,
+      "endMs": 131936.0,
+      "charStart": 1876,
+      "charEnd": 1916
+    },
+    {
+      "id": "s0034",
+      "text": "Once you learn to debug one kind of system, you begin seeing the method everywhere.",
+      "startMs": 131936.0,
+      "endMs": 136893.0,
+      "charStart": 1916,
+      "charEnd": 1999
+    },
+    {
+      "id": "s0035",
+      "text": "From here, we turn that insight into low-risk action: small experiments",
+      "startMs": 137288.0,
+      "endMs": 141886.0,
+      "charStart": 2002,
+      "charEnd": 2073
+    },
+    {
+      "id": "s0036",
+      "text": "that trade certainty for faster learning.",
+      "startMs": 141944.0,
+      "endMs": 144475.0,
+      "charStart": 2074,
+      "charEnd": 2115
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-1-learning-to-notice-chapter-2-the-slow-grocery-line",
+  "generationHash": "sha256:deeca4abb4841d53209cbc3a7a02f3efb64a3611141933aec64b0fe4f2de9160",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 2 — The Slow Grocery Line",
+      "startMs": 0.0,
+      "endMs": 3344.0,
+      "charStart": 0,
+      "charEnd": 33
+    },
+    {
+      "id": "s0002",
+      "text": "At the grocery store, I once relied on a clear rule: pick the shortest line and you will get out fastest.",
+      "startMs": 3727.0,
+      "endMs": 11122.0,
+      "charStart": 35,
+      "charEnd": 140
+    },
+    {
+      "id": "s0003",
+      "text": "It sounds obvious.",
+      "startMs": 11331.0,
+      "endMs": 12678.0,
+      "charStart": 141,
+      "charEnd": 159
+    },
+    {
+      "id": "s0004",
+      "text": "Most of us have played that tiny game in our heads while balancing a basket and watching the registers.",
+      "startMs": 12678.0,
+      "endMs": 18181.0,
+      "charStart": 159,
+      "charEnd": 262
+    },
+    {
+      "id": "s0005",
+      "text": "Yet I kept ending up in the wrong line.",
+      "startMs": 18541.0,
+      "endMs": 21211.0,
+      "charStart": 265,
+      "charEnd": 304
+    },
+    {
+      "id": "s0006",
+      "text": "Not once in a while.",
+      "startMs": 21490.0,
+      "endMs": 23011.0,
+      "charStart": 306,
+      "charEnd": 326
+    },
+    {
+      "id": "s0007",
+      "text": "Repeatedly.",
+      "startMs": 23220.0,
+      "endMs": 24137.0,
+      "charStart": 327,
+      "charEnd": 338
+    },
+    {
+      "id": "s0008",
+      "text": "I would choose a line with two people and somehow wait longer than the line with six.",
+      "startMs": 24137.0,
+      "endMs": 29663.0,
+      "charStart": 338,
+      "charEnd": 423
+    },
+    {
+      "id": "s0009",
+      "text": "It felt unfair at first, almost personal, as if the checkout universe had decided to mock my confidence.",
+      "startMs": 29663.0,
+      "endMs": 36826.0,
+      "charStart": 423,
+      "charEnd": 527
+    },
+    {
+      "id": "s0010",
+      "text": "My earliest explanation was easy: I am unlucky.",
+      "startMs": 37326.0,
+      "endMs": 40797.0,
+      "charStart": 531,
+      "charEnd": 578
+    },
+    {
+      "id": "s0011",
+      "text": "The second was also easy: cashiers vary, and that is just life.",
+      "startMs": 40797.0,
+      "endMs": 46010.0,
+      "charStart": 578,
+      "charEnd": 641
+    },
+    {
+      "id": "s0012",
+      "text": "Both explanations contain a little truth, but neither explains why the same weird outcome keeps happening in similar conditions.",
+      "startMs": 46010.0,
+      "endMs": 53963.0,
+      "charStart": 641,
+      "charEnd": 769
+    },
+    {
+      "id": "s0013",
+      "text": "When I paid closer attention, the situation looked different.",
+      "startMs": 54787.0,
+      "endMs": 58572.0,
+      "charStart": 773,
+      "charEnd": 834
+    },
+    {
+      "id": "s0014",
+      "text": "A line is more than a count of people.",
+      "startMs": 58572.0,
+      "endMs": 61161.0,
+      "charStart": 834,
+      "charEnd": 872
+    },
+    {
+      "id": "s0015",
+      "text": "It is a mix of hidden factors: full carts versus baskets, price checks, payment issues, produce without stickers, loyalty apps that do not load, children helping bag groceries, and the cadence of the cashier.",
+      "startMs": 61161.0,
+      "endMs": 75987.0,
+      "charStart": 872,
+      "charEnd": 1080
+    },
+    {
+      "id": "s0016",
+      "text": "I started testing small guesses.",
+      "startMs": 76974.0,
+      "endMs": 79052.0,
+      "charStart": 1084,
+      "charEnd": 1116
+    },
+    {
+      "id": "s0017",
+      "text": "Sometimes I chose based on basket size instead of headcount.",
+      "startMs": 79052.0,
+      "endMs": 82942.0,
+      "charStart": 1116,
+      "charEnd": 1176
+    },
+    {
+      "id": "s0018",
+      "text": "Sometimes I chose the line with visibly organized items.",
+      "startMs": 82942.0,
+      "endMs": 86529.0,
+      "charStart": 1176,
+      "charEnd": 1232
+    },
+    {
+      "id": "s0019",
+      "text": "Sometimes I chose the cashier with the smoothest rhythm rather than the fewest customers.",
+      "startMs": 86529.0,
+      "endMs": 91986.0,
+      "charStart": 1232,
+      "charEnd": 1321
+    },
+    {
+      "id": "s0020",
+      "text": "None of these worked perfectly.",
+      "startMs": 92729.0,
+      "endMs": 94482.0,
+      "charStart": 1325,
+      "charEnd": 1356
+    },
+    {
+      "id": "s0021",
+      "text": "Together, they worked much better.",
+      "startMs": 94482.0,
+      "endMs": 96711.0,
+      "charStart": 1356,
+      "charEnd": 1390
+    },
+    {
+      "id": "s0022",
+      "text": "That was my first practical encounter with system behavior in daily life.",
+      "startMs": 97361.0,
+      "endMs": 101645.0,
+      "charStart": 1393,
+      "charEnd": 1466
+    },
+    {
+      "id": "s0023",
+      "text": "Complex systems rarely reward one-variable thinking.",
+      "startMs": 101970.0,
+      "endMs": 105685.0,
+      "charStart": 1467,
+      "charEnd": 1519
+    },
+    {
+      "id": "s0024",
+      "text": "They respond to interactions, bottlenecks, and timing.",
+      "startMs": 105685.0,
+      "endMs": 109551.0,
+      "charStart": 1519,
+      "charEnd": 1573
+    },
+    {
+      "id": "s0025",
+      "text": "The surface view can look simple while the underlying process is anything but.",
+      "startMs": 109551.0,
+      "endMs": 114172.0,
+      "charStart": 1573,
+      "charEnd": 1651
+    },
+    {
+      "id": "s0026",
+      "text": "Once you see that, grocery lines become less irritating and more instructive.",
+      "startMs": 114880.0,
+      "endMs": 119791.0,
+      "charStart": 1655,
+      "charEnd": 1732
+    },
+    {
+      "id": "s0027",
+      "text": "You are no longer trying to \"beat\" randomness.",
+      "startMs": 120488.0,
+      "endMs": 123448.0,
+      "charStart": 1733,
+      "charEnd": 1779
+    },
+    {
+      "id": "s0028",
+      "text": "You are learning to read a living system in real time.",
+      "startMs": 123448.0,
+      "endMs": 127326.0,
+      "charStart": 1779,
+      "charEnd": 1833
+    },
+    {
+      "id": "s0029",
+      "text": "The same move will show up again in larger settings, where the cost of simplistic assumptions is higher.",
+      "startMs": 127326.0,
+      "endMs": 133840.0,
+      "charStart": 1833,
+      "charEnd": 1937
+    },
+    {
+      "id": "s0030",
+      "text": "From checkout counters, we widen the lens to patterns we encounter every",
+      "startMs": 134583.0,
+      "endMs": 138646.0,
+      "charStart": 1941,
+      "charEnd": 2013
+    },
+    {
+      "id": "s0031",
+      "text": "day in traffic, crowds, and weather.",
+      "startMs": 138704.0,
+      "endMs": 141270.0,
+      "charStart": 2014,
+      "charEnd": 2050
+    }
+  ]
+}

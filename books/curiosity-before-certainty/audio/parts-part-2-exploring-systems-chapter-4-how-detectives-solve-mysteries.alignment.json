@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-2-exploring-systems-chapter-4-how-detectives-solve-mysteries",
+  "generationHash": "sha256:5fc576402418ff19d0be5daae1aac97ffc1706149ce721007bd9835904776423",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 4 — How Detectives Solve Mysteries",
+      "startMs": 0.0,
+      "endMs": 3948.0,
+      "charStart": 0,
+      "charEnd": 42
+    },
+    {
+      "id": "s0002",
+      "text": "Most mystery stories make it look like detectives solve cases through sudden brilliance.",
+      "startMs": 5248.0,
+      "endMs": 10635.0,
+      "charStart": 44,
+      "charEnd": 132
+    },
+    {
+      "id": "s0003",
+      "text": "One person stares at a wall, notices a tiny clue, and the entire truth appears.",
+      "startMs": 10635.0,
+      "endMs": 16940.0,
+      "charStart": 132,
+      "charEnd": 211
+    },
+    {
+      "id": "s0004",
+      "text": "It is dramatic, but real investigation usually works differently.",
+      "startMs": 16940.0,
+      "endMs": 21549.0,
+      "charStart": 211,
+      "charEnd": 276
+    },
+    {
+      "id": "s0005",
+      "text": "Real investigation is often slower and less glamorous.",
+      "startMs": 22420.0,
+      "endMs": 25833.0,
+      "charStart": 280,
+      "charEnd": 334
+    },
+    {
+      "id": "s0006",
+      "text": "A detective starts with possibilities and open questions.",
+      "startMs": 25833.0,
+      "endMs": 29769.0,
+      "charStart": 334,
+      "charEnd": 391
+    },
+    {
+      "id": "s0007",
+      "text": "Then each interview, timeline check, and physical detail narrows the field.",
+      "startMs": 29769.0,
+      "endMs": 35469.0,
+      "charStart": 391,
+      "charEnd": 466
+    },
+    {
+      "id": "s0008",
+      "text": "The process is less \"aha\" and more \"rule out.\"",
+      "startMs": 35469.0,
+      "endMs": 39405.0,
+      "charStart": 466,
+      "charEnd": 512
+    },
+    {
+      "id": "s0009",
+      "text": "That pattern appears in ordinary life too.",
+      "startMs": 40102.0,
+      "endMs": 42795.0,
+      "charStart": 517,
+      "charEnd": 559
+    },
+    {
+      "id": "s0010",
+      "text": "When something breaks at work or home, we often jump to the first story that comes to mind.",
+      "startMs": 42795.0,
+      "endMs": 48403.0,
+      "charStart": 559,
+      "charEnd": 650
+    },
+    {
+      "id": "s0011",
+      "text": "We decide too early why it happened, then search for details that confirm our first guess.",
+      "startMs": 48403.0,
+      "endMs": 54057.0,
+      "charStart": 650,
+      "charEnd": 740
+    },
+    {
+      "id": "s0012",
+      "text": "That feels efficient, but it can lock us into the wrong trail.",
+      "startMs": 54800.0,
+      "endMs": 58515.0,
+      "charStart": 743,
+      "charEnd": 805
+    },
+    {
+      "id": "s0013",
+      "text": "A detective mindset does the opposite.",
+      "startMs": 59467.0,
+      "endMs": 61766.0,
+      "charStart": 807,
+      "charEnd": 845
+    },
+    {
+      "id": "s0014",
+      "text": "Instead of asking, \"What is the answer?\" it asks, \"Which explanations still survive contact with the facts?\" That small shift changes everything.",
+      "startMs": 61766.0,
+      "endMs": 72598.0,
+      "charStart": 845,
+      "charEnd": 990
+    },
+    {
+      "id": "s0015",
+      "text": "It lowers ego pressure and increases learning speed.",
+      "startMs": 72598.0,
+      "endMs": 76441.0,
+      "charStart": 990,
+      "charEnd": 1042
+    },
+    {
+      "id": "s0016",
+      "text": "In software, this can look like testing whether a bug is data-dependent, environment-dependent, or timing-dependent before touching production code.",
+      "startMs": 77150.0,
+      "endMs": 86136.0,
+      "charStart": 1046,
+      "charEnd": 1194
+    },
+    {
+      "id": "s0017",
+      "text": "In teams, it can look like checking whether a missed deadline came from unclear scope, hidden dependencies, or overloaded people before assigning blame.",
+      "startMs": 86136.0,
+      "endMs": 96016.0,
+      "charStart": 1194,
+      "charEnd": 1346
+    },
+    {
+      "id": "s0018",
+      "text": "The first explanation is often emotionally satisfying.",
+      "startMs": 96794.0,
+      "endMs": 100219.0,
+      "charStart": 1349,
+      "charEnd": 1403
+    },
+    {
+      "id": "s0019",
+      "text": "Investigation is usually less satisfying in the short term because it keeps uncertainty alive.",
+      "startMs": 100219.0,
+      "endMs": 106535.0,
+      "charStart": 1403,
+      "charEnd": 1497
+    },
+    {
+      "id": "s0020",
+      "text": "But that discomfort is useful.",
+      "startMs": 106639.0,
+      "endMs": 108833.0,
+      "charStart": 1499,
+      "charEnd": 1529
+    },
+    {
+      "id": "s0021",
+      "text": "It keeps your thinking flexible until the evidence becomes strong enough to support a conclusion.",
+      "startMs": 108833.0,
+      "endMs": 114406.0,
+      "charStart": 1529,
+      "charEnd": 1626
+    },
+    {
+      "id": "s0022",
+      "text": "Over time, curiosity turns investigation into a habit.",
+      "startMs": 114882.0,
+      "endMs": 118957.0,
+      "charStart": 1629,
+      "charEnd": 1683
+    },
+    {
+      "id": "s0023",
+      "text": "You notice what does not fit, ask better questions, and run small tests that eliminate bad theories.",
+      "startMs": 118957.0,
+      "endMs": 125760.0,
+      "charStart": 1683,
+      "charEnd": 1783
+    },
+    {
+      "id": "s0024",
+      "text": "What remains is rarely perfect certainty, but it is usually far closer to reality than the first story your mind offered.",
+      "startMs": 125760.0,
+      "endMs": 133458.0,
+      "charStart": 1783,
+      "charEnd": 1904
+    },
+    {
+      "id": "s0025",
+      "text": "Once you start working this way, mystery no longer feels like a barrier.",
+      "startMs": 134155.0,
+      "endMs": 138183.0,
+      "charStart": 1908,
+      "charEnd": 1980
+    },
+    {
+      "id": "s0026",
+      "text": "It becomes a terrain you can navigate - one observation at a time.",
+      "startMs": 138392.0,
+      "endMs": 142641.0,
+      "charStart": 1981,
+      "charEnd": 2047
+    },
+    {
+      "id": "s0027",
+      "text": "From detective work, we carry this same investigative posture into",
+      "startMs": 142885.0,
+      "endMs": 146867.0,
+      "charStart": 2049,
+      "charEnd": 2115
+    },
+    {
+      "id": "s0028",
+      "text": "software, where failure often reveals structure faster than success does.",
+      "startMs": 146937.0,
+      "endMs": 151860.0,
+      "charStart": 2116,
+      "charEnd": 2189
+    }
+  ]
+}
