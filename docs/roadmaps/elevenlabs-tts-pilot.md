@@ -1,8 +1,8 @@
 # Provider-neutral chapter TTS pilot for the native reader
 
-**Status:** Specialized plan — **platform complete (Phases 0–6)**; CBC intro + Ch.1 generate slice **done**; Phase 8 = ongoing selective narration ops; Phase 7 (OpenAI) = **triggered only**  
+**Status:** Specialized plan — **platform complete (Phases 0–6)**; CBC full-book enablement **authored** (intro + Ch.1 artifacts present; remaining units pending generate); Phase 8 = ongoing selective narration ops; Phase 7 (OpenAI) = **triggered only**  
 **Created:** 2026-08-03  
-**Revised:** 2026-08-22 (platform marked complete; CBC intro/Ch.1 artifacts present; OpenAI triggered only per master roadmap prune)  
+**Revised:** 2026-09-05 (CBC full-book audio enablement; OpenAI triggered only per master roadmap prune)  
 **Location:** `docs/roadmaps/elevenlabs-tts-pilot.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Selective narration, credits, and LFS ops are Ongoing on the master roadmap — not open platform engineering. Phase 7 stays triggered only.
 
@@ -694,8 +694,8 @@ Do not combine phases into one implementation PR.
 | AUDIO-P0-04 | **Done** | Root [`.gitattributes`](../../.gitattributes) tracks `books/*/audio/*.mp3` with Git LFS; receipts/alignment remain ordinary Git. |
 | AUDIO-P0-01 | **Done (Kevin, 2026-08-05)** | Starter plan confirms commercial/public-site use; Listen live for OP intro + Part I. AI disclosure remains in the reader. |
 | AUDIO-P0-03 | **Done** | `reflective-narrator` → ElevenLabs voice `sb2VZCPgS2OECd1UfmTX`. |
-| **Public / production Listen** | **Live** | Available-unit gate (no site env flag). OP full book + WOLTY v1 full book generated and merged; CBC intro + Ch.1 artifacts present. |
-| **Pilot / expansion books** | **OP + WOLTY v1 + CBC intro/Ch.1** | Observer Patterns **29/29** available; When Others Look to You v1 **25/25** available; Curiosity Before Certainty intro + Ch.1 **generated** (artifacts in repo). Further CBC/other books = credit-bounded Ongoing ops. |
+| **Public / production Listen** | **Live** | Available-unit gate (no site env flag). OP full book + WOLTY v1 full book generated and merged; CBC intro + Ch.1 artifacts present; remaining CBC units enabled (pending generate). |
+| **Pilot / expansion books** | **OP + WOLTY v1 + CBC full book (enabled)** | Observer Patterns **29/29** available; When Others Look to You v1 **25/25** available; Curiosity Before Certainty **14/14** audio-enabled (intro + Ch.1 generated; Ch.2–12 + closing pending generate). Further books = credit-bounded Ongoing ops. |
 | **Flash credit estimate** | **Calibrated 0.25 credit/char** | Starter dashboard burn after OP + full WOLTY (149,337 spoken chars → 37,335 used) matches **0.25**; marketing docs often quote 0.5. |
 
 **API key:** Generate via Actions secret `ELEVENLABS_API_KEY` (`chapter-audio-generate` workflow) or laptop `.env.local`. Never commit `.env.local`; never put the key in Cursor cloud agents or Vercel.
@@ -745,7 +745,7 @@ Do not combine phases into one implementation PR.
 |----|--------|-------|
 | AUDIO-P8-01 (OP full book) | **Done** | All 29 Observer Patterns units generated and available. |
 | AUDIO-P8-02 (WOLTY v1 full book) | **Done** | All 25 When Others Look to You v1 units generated (#505 + #508). |
-| AUDIO-P8-03 (CBC intro + Ch.1) | **Done** | Curiosity Before Certainty introduction + Chapter 1 artifacts present (`mp3` + receipt + alignment). Further CBC chapters = Ongoing ops when credits and editorial priority justify. |
+| AUDIO-P8-03 (CBC full book) | **Enablement done; generate in progress** | Curiosity Before Certainty **all 14** exported units `audio.enabled: true`. Intro + Chapter 1 artifacts present; Chapters 2–12 + closing reflection pending **Chapter audio generate**. |
 | AUDIO-P7-01 (OpenAI eval) | **Triggered only / not started** | Second-provider evaluation only if ElevenLabs creates a concrete cost, quality, reliability, licensing, or alignment/timing problem. |
 
 ### Phase 1 — Semantic enablement and schemas
@@ -967,7 +967,7 @@ Phase 0 implementation note (2026-08-03): **AUDIO-P0-02** and **AUDIO-P0-04** co
 | Initial alignment granularity | **Sentence / `segment-only`** |
 | OpenAI alignment if added | May be **`none`** until a separate strategy exists |
 | Commercial-use / disclosure by provider | Confirm before **production** Listen; free-plan generate + local reader QA (+ optional GitHub artifact) OK beforehand; show AI narration disclosure when Listen ships |
-| Production Listen before go-ahead | **Unblocked (2026-08-05)** — Kevin confirmed Starter licensing; OP + WOLTY v1 full books + CBC intro/Ch.1 live/artifacted. Further narration is Ongoing ops. |
+| Production Listen before go-ahead | **Unblocked (2026-08-05)** — Kevin confirmed Starter licensing; OP + WOLTY v1 full books live; CBC full book audio-enabled (intro + Ch.1 artifacted; remaining units pending generate). Further narration is Ongoing ops. |
 | Site Listen enable flag | **None.** Capability-based only: available units in the installed audio manifest. Avoids a forgotten `NEXT_PUBLIC_*` toggle |
 | Multiple provider variants coexist? | **No** during pilot — one active current set per unit |
 | Switching provider | **Replace** active current; orphans cleaned later |
