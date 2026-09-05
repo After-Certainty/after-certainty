@@ -1,0 +1,90 @@
+# When Moral Seriousness Scales — chapter enrichment (audio).
+# Full-book narration: all exported units audio-enabled
+# (~10774 Flash credits @ 0.25/char; Starter budget wave with WOLTY Companion).
+version: 1
+chapters:
+- sourcePath: front-matter/preface.md
+  kind: other
+  audio:
+    enabled: true
+    max_credits: 1000
+- sourcePath: front-matter/introduction.md
+  kind: introduction
+  audio:
+    enabled: true
+    max_credits: 900
+- sourcePath: parts/part-1-the-human-scale-model/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 500
+- sourcePath: parts/part-1-the-human-scale-model/chapter-1-moral-density.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1300
+- sourcePath: parts/part-1-the-human-scale-model/chapter-2-reciprocal-constraint.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1200
+- sourcePath: parts/part-1-the-human-scale-model/chapter-3-contestability.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1200
+- sourcePath: parts/part-2-what-scale-changes/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 500
+- sourcePath: parts/part-2-what-scale-changes/chapter-4-distance.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1100
+- sourcePath: parts/part-2-what-scale-changes/chapter-5-asymmetry.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1000
+- sourcePath: parts/part-2-what-scale-changes/chapter-6-the-incentive-gradient.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1000
+- sourcePath: parts/part-3-the-pressure-point/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 500
+- sourcePath: parts/part-3-the-pressure-point/chapter-7-the-acceleration-threshold.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 800
+- sourcePath: parts/part-3-the-pressure-point/chapter-8-judgment-under-pressure.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 900
+- sourcePath: parts/part-4-what-remains-possible/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 500
+- sourcePath: parts/part-4-what-remains-possible/chapter-9-rebuilding-density.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 900
+- sourcePath: parts/part-4-what-remains-possible/chapter-10-limited-but-real.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 800
+- sourcePath: back-matter/conclusion.md
+  kind: conclusion
+  audio:
+    enabled: true
+    max_credits: 900
