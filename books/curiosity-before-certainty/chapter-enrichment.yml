@@ -1,6 +1,6 @@
 # Curiosity Before Certainty — chapter enrichment (audio).
-# Wave: introduction + Chapter 1 only (~1,976 Flash credits @ 0.25/char).
-# Remaining units stay disabled until the next credit cycle (~7.9k full book).
+# Full-book narration: all exported CBC units audio-enabled
+# (introduction, chapters 1–12, closing reflection).
 version: 1
 chapters:
 - sourcePath: front-matter/introduction-the-day-certainty-stopped-working.md
@@ -16,60 +16,60 @@ chapters:
 - sourcePath: parts/part-1-learning-to-notice/chapter-2-the-slow-grocery-line.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-1-learning-to-notice/chapter-3-the-hidden-patterns-around-us.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-2-exploring-systems/chapter-4-how-detectives-solve-mysteries.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-2-exploring-systems/chapter-5-debugging-the-world.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-2-exploring-systems/chapter-6-small-experiments.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-3-human-systems/chapter-7-why-arguments-escalate.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-3-human-systems/chapter-8-what-ai-reveals-about-our-thinking.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-3-human-systems/chapter-9-the-courage-to-say-i-might-be-wrong.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-4-hidden-structures-of-human-systems/chapter-10-the-structure-of-leadership.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-4-hidden-structures-of-human-systems/chapter-11-the-structure-of-communication.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: parts/part-5-living-with-curiosity/chapter-12-curiosity-in-an-uncertain-world.md
   kind: chapter
   audio:
-    enabled: false
+    enabled: true
     max_credits: 1000
 - sourcePath: back-matter/closing-reflection.md
   kind: other
   audio:
-    enabled: false
+    enabled: true
     max_credits: 500

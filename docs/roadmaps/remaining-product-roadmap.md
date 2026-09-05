@@ -37,7 +37,7 @@ Discovery, catalog orientation, native chapter reading, monorepo same-checkout b
 | IngramSpark packaging | Shipped | `tools/ingramspark/`; pilots production-approved; operating procedure |
 | Site analytics (discovery/search/reader/game) | Present | `apps/site/lib/analytics/`; GA4 + Vercel Analytics; `tools/ga_trends_brief.py` |
 | Reader funnel events | Shipped | `chapter_open` / `next_chapter` / `file_download` (`location=reader`); consent-gated; GA4 Admin key-event marking remains Kevin |
-| Chapter Listen (TTS platform) | Platform complete | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) Phases 0–6; OP + WOLTY v1 full books; CBC intro + Ch.1 artifacts present |
+| Chapter Listen (TTS platform) | Platform complete | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) Phases 0–6; OP + WOLTY v1 full books; CBC full book audio-enabled (intro + Ch.1 artifacts; rest pending generate) |
 | Pattern Recognition Challenge | Through GAME-001e complete | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md); enjoyability Observe gate before further game investment |
 | Root CONTRIBUTING + issue templates | Missing | Site-only `apps/site/docs/contributing-*.md` |
 | Think Together | Marketing only | Quotes on site; no product surface |
@@ -202,7 +202,7 @@ Do not reopen these as active product phases. Specialized plans keep implementat
 | PROVENANCE-001 concept definition helper | `apps/site/lib/graph/conceptFormatting.ts` |
 | ANALYTICS-001 reader funnel events | Shipped; Admin key-event marking remains Now (ops) |
 | OPS-002 public roadmap pointer from README | Root README → this document |
-| AUDIO-001 platform Phases 0–6 + CBC intro/Ch.1 generate slice | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md); further narration = Ongoing ops |
+| AUDIO-001 platform Phases 0–6 + CBC full-book enablement | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md); CBC remaining generate + further narration = Ongoing ops |
 | GAME-001a–001e Pattern Recognition Challenge through Session Completion Delight | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md); further game work = Observe then Triggered only |
 | Explore / patterns / books-reader mobile redesigns | Completed specialized site plans under `apps/site/docs/roadmaps/` |
 
