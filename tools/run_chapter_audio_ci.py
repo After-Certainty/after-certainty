@@ -31,10 +31,7 @@ def _manual_pr_url(*, base_branch: str, branch: str) -> str | None:
 
 def _pr_create_blocked(err: str) -> bool:
     """True when Actions is denied createPullRequest (expected under default security)."""
-    return (
-        "createPullRequest" in err
-        or "not permitted to create or approve pull requests" in err
-    )
+    return "createPullRequest" in err or "not permitted to create or approve pull requests" in err
 
 
 def _changed_audio_paths(repo: Path) -> list[str]:
