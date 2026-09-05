@@ -1,9 +1,23 @@
 {
   "manifestVersion": 1,
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-09-04",
   "launchFrom": "2026-01-01",
   "notes": "Site-owned What\u2019s New rows (site features and podcast). Book published/revised events come from after-certainty changeEvents.",
   "events": [
+    {
+      "id": "event-site-songs-from-after-certainty",
+      "type": "site_feature",
+      "title": "Songs from After Certainty",
+      "summary": "Ideas from the project now live as music you can play on the site — jazz, folk, soul, electronic, psychedelia, and more. Start on Listen, or explore how each song connects to books, concepts, and patterns.",
+      "date": "2026-09-04",
+      "entityType": "site",
+      "href": "/listen",
+      "featured": true,
+      "significance": "major",
+      "visibility": "public",
+      "source": "authored",
+      "published": true
+    },
     {
       "id": "event-podcast-how-meaning-moves",
       "type": "podcast_episode",
