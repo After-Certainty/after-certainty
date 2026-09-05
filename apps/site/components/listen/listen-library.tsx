@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { useCallback, useId, useMemo, useState } from "react";
 
 import { exploreSecondaryButtonClass } from "@/components/explore/explore-action-buttons";
@@ -45,12 +45,14 @@ function resolveInitialSlug(
  *
  * Playback selection (`currentSlug`) is independent of search filtering so the
  * current player keeps working when its song is temporarily filtered out.
+ *
+ * Song URL updates use `history.replaceState` (not `router.replace`) so the
+ * Suspense/`useSearchParams` boundary does not remount and reset selection.
  */
 export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
   const inputId = useId();
   const statusId = useId();
   const listHeadingId = useId();
-  const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
@@ -76,9 +78,12 @@ export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
         params.delete("song");
       }
       const qs = params.toString();
-      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+      const href = qs ? `${pathname}?${qs}` : pathname;
+      // Avoid Next soft-navigation remounting this Suspense child (which would
+      // re-run useState init and snap selection back to the first track).
+      window.history.replaceState(window.history.state, "", href);
     },
-    [pathname, router, searchParams],
+    [pathname, searchParams],
   );
 
   const selectSong = useCallback(
@@ -113,26 +118,24 @@ export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
   }
 
   const player = (
-    <div className="sticky top-16 z-30 lg:top-20">
-      <PersistentSunoPlayer
-        song={{
-          slug: currentItem.slug,
-          title: currentItem.title,
-          recordingExternalId: currentItem.recordingExternalId,
-          ...(currentItem.versionTitle ? { versionTitle: currentItem.versionTitle } : {}),
-        }}
-        hasPrevious={hasPrevious}
-        hasNext={hasNext}
-        onPrevious={() => {
-          if (!hasPrevious) return;
-          selectSong(items[currentIndex - 1]!.slug);
-        }}
-        onNext={() => {
-          if (!hasNext) return;
-          selectSong(items[currentIndex + 1]!.slug);
-        }}
-      />
-    </div>
+    <PersistentSunoPlayer
+      song={{
+        slug: currentItem.slug,
+        title: currentItem.title,
+        recordingExternalId: currentItem.recordingExternalId,
+        ...(currentItem.versionTitle ? { versionTitle: currentItem.versionTitle } : {}),
+      }}
+      hasPrevious={hasPrevious}
+      hasNext={hasNext}
+      onPrevious={() => {
+        if (!hasPrevious) return;
+        selectSong(items[currentIndex - 1]!.slug);
+      }}
+      onNext={() => {
+        if (!hasNext) return;
+        selectSong(items[currentIndex + 1]!.slug);
+      }}
+    />
   );
 
   const songList = (
@@ -200,10 +203,12 @@ export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
         </div>
       </div>
 
-      {/* Mobile: sticky player above list. Desktop: two-column with sticky player. */}
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(20rem,24rem)] lg:items-start lg:gap-10">
-        <div className="order-2 space-y-4 lg:order-1">{songList}</div>
-        <div className="order-1 lg:order-2">{player}</div>
+      {/* Mobile: player above list in one column (sticky works). Desktop: list | sticky player. */}
+      <div className="flex flex-col gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(20rem,24rem)] lg:gap-10">
+        <div className="sticky top-16 z-30 order-first lg:order-none lg:col-start-2 lg:row-start-1 lg:self-start lg:top-20">
+          {player}
+        </div>
+        <div className="lg:col-start-1 lg:row-start-1">{songList}</div>
       </div>
     </div>
   );

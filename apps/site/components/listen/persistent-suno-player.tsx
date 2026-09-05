@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";

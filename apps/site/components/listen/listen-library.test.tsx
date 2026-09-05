@@ -1,12 +1,11 @@
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { beforeEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
-const replace = vi.fn();
 let mockParams = new URLSearchParams();
+const replaceState = vi.fn();
 
 vi.mock("next/navigation", () => ({
-  useRouter: () => ({ replace, push: vi.fn() }),
   usePathname: () => "/listen",
   useSearchParams: () => mockParams,
 }));
@@ -48,17 +47,32 @@ const items = [
 
 describe("ListenLibrary", () => {
   beforeEach(() => {
-    replace.mockReset();
+    replaceState.mockReset();
     mockParams = new URLSearchParams();
+    vi.stubGlobal("history", {
+      ...window.history,
+      replaceState,
+      state: {},
+    });
+  });
+
+  afterEach(() => {
+    vi.unstubAllGlobals();
   });
 
   it("renders all playable songs and exactly one Suno iframe", () => {
     render(<ListenLibrary items={items} />);
 
     // Player (h2) and list row (h3) share the current title — scope list by level.
-    expect(screen.getByRole("heading", { level: 2, name: "The Truth Got a Side Door" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { level: 3, name: "The Truth Got a Side Door" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { level: 3, name: "Don't Let the Score Fool You" })).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 2, name: "The Truth Got a Side Door" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 3, name: "The Truth Got a Side Door" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 3, name: "Don't Let the Score Fool You" }),
+    ).toBeInTheDocument();
     expect(screen.getByRole("heading", { level: 3, name: "After Nothing Happens" })).toBeInTheDocument();
 
     const iframes = screen.getAllByTestId("suno-iframe");
@@ -90,9 +104,11 @@ describe("ListenLibrary", () => {
       "fdf8353b-6440-4f2d-a2cf-515a8418cb45",
     );
     expect(screen.getByText("Now playing")).toBeInTheDocument();
-    expect(replace).toHaveBeenCalledWith("/listen?song=dont-let-the-score-fool-you", {
-      scroll: false,
-    });
+    expect(replaceState).toHaveBeenCalledWith(
+      expect.anything(),
+      "",
+      "/listen?song=dont-let-the-score-fool-you",
+    );
   });
 
   it("Next and Previous move through playlist order and disable at ends", async () => {

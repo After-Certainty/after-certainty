@@ -45,19 +45,12 @@ test.describe("Listen mobile persistent player", () => {
     await expect(iframe).toHaveCount(1);
     const initialSrc = await iframe.first().getAttribute("src");
 
-    const playButtons = page.getByRole("button", { name: /^Play / });
-    await expect(playButtons.first()).toBeVisible();
-    const count = await playButtons.count();
-    if (count > 1) {
-      await playButtons.nth(1).click();
-    } else {
-      await page.getByRole("button", { name: "Next song" }).click();
-    }
+    const next = page.getByRole("button", { name: "Next song" });
+    await expect(next).toBeEnabled();
+    await next.click();
 
     await expect(iframe).toHaveCount(1);
-    const nextSrc = await iframe.first().getAttribute("src");
-    expect(nextSrc).toBeTruthy();
-    expect(nextSrc).not.toBe(initialSrc);
+    await expect.poll(async () => iframe.first().getAttribute("src")).not.toBe(initialSrc);
   });
 
   test("sticky player stays below header and does not cover footer nav @ 390", async ({ page }) => {
@@ -67,8 +60,8 @@ test.describe("Listen mobile persistent player", () => {
     const player = page.locator("[data-listen-player]");
     await expect(player).toBeVisible();
 
-    await page.evaluate(() => window.scrollTo(0, 600));
-    await page.waitForTimeout(200);
+    await page.evaluate(() => window.scrollTo(0, 400));
+    await page.waitForTimeout(250);
 
     const playerBox = await player.boundingBox();
     const header = page.locator("header").first();
@@ -77,10 +70,11 @@ test.describe("Listen mobile persistent player", () => {
     expect(headerBox).toBeTruthy();
     if (playerBox && headerBox) {
       expect(playerBox.y).toBeGreaterThanOrEqual(headerBox.y + headerBox.height - 2);
+      expect(playerBox.y).toBeLessThan(200);
     }
 
     await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
-    await page.waitForTimeout(200);
+    await page.waitForTimeout(250);
 
     const footerNav = page.locator('[data-footer-nav="mobile"]');
     await expect(footerNav).toBeVisible();
