@@ -24,7 +24,8 @@ These protections cannot be fully enforced by repository files alone.
 
 - [ ] Default `GITHUB_TOKEN` permissions set to **read-only**
 - [ ] Workflows **not** allowed to create and approve pull requests unless deliberately required
-  - Prefer: human opens PR from compare URL after `semantic-agent/*` push
+  - Prefer: human opens PR from compare URL after `semantic-agent/*` or `chapter-audio/generate-*` push
+  - Chapter audio generate pushes the branch + uploads artifacts even when PR create is denied; open the review PR manually (or via a Cursor agent) from the compare URL / run notice
   - If Actions may create PRs, still require human approval/merge (never auto-approve)
 - [ ] Release and tag protection where available
 

@@ -160,6 +160,16 @@ def test_run_chapter_audio_ci_dry_run_no_changes() -> None:
     assert "No books/*/audio changes" in r.stderr or "dry-run:" in r.stdout + r.stderr
 
 
+def test_pr_create_blocked_detects_actions_permission_denial() -> None:
+    from run_chapter_audio_ci import _pr_create_blocked
+
+    assert _pr_create_blocked(
+        "GraphQL: GitHub Actions is not permitted to create or approve pull requests (createPullRequest)"
+    )
+    assert _pr_create_blocked("createPullRequest was denied")
+    assert not _pr_create_blocked("API rate limit exceeded")
+
+
 def test_changed_audio_paths_finds_untracked_audio_tree(tmp_path: Path) -> None:
     """Regression: literal books/*/audio pathspec misses untracked audio files."""
     subprocess.run(["git", "init"], cwd=tmp_path, check=True, capture_output=True)

@@ -29,6 +29,11 @@ def _manual_pr_url(*, base_branch: str, branch: str) -> str | None:
     return f"{server}/{repo}/compare/{base_branch}...{branch}?expand=1"
 
 
+def _pr_create_blocked(err: str) -> bool:
+    """True when Actions is denied createPullRequest (expected under default security)."""
+    return "createPullRequest" in err or "not permitted to create or approve pull requests" in err
+
+
 def _changed_audio_paths(repo: Path) -> list[str]:
     # Use -uall so newly created books/<edition>/audio/ dirs list their files.
     # Pathspecs like books/*/audio are not expanded by git when passed literally
@@ -145,10 +150,24 @@ def publish(
         env=env,
     )
     if pr.returncode != 0:
-        print(pr.stderr, file=sys.stderr)
+        err = ((pr.stdout or "") + (pr.stderr or "")).strip()
+        print(err, file=sys.stderr)
         manual = _manual_pr_url(base_branch=base_branch, branch=branch)
+        if _pr_create_blocked(err):
+            print(
+                "Note: automatic PR creation may be disabled (repo setting "
+                '"Allow GitHub Actions to create and approve pull requests"). '
+                "Audio was pushed; open a review PR manually from the compare "
+                "URL. Prefer keeping that setting off unless Actions must open "
+                "PRs (approval/merge stay human-only).",
+                file=sys.stderr,
+            )
         if manual:
-            print(f"gh pr create failed; open manually: {manual}", file=sys.stderr)
+            print(f"Branch pushed. Open a PR manually: {manual}")
+            print(f"::notice title=Open PR manually::{manual}")
+            # Push succeeded; treat PR-create denial/failure as non-fatal so
+            # generated LFS audio is not marked as a failed run.
+            return 0
         return pr.returncode
     print(pr.stdout.strip())
     return 0
