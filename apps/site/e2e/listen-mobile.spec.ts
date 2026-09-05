@@ -3,67 +3,87 @@ import { expect, test } from "@playwright/test";
 import { dismissCookieBanner } from "./fixtures/consent";
 
 /**
- * Mobile stability for /listen: Suno iframes must mount near the viewport and
- * unmount when far away so Safari does not accumulate ~32 live embeds.
+ * Mobile stability for /listen: exactly one Suno iframe for the persistent player,
+ * regardless of scroll position or library length.
  */
-test.describe("Listen mobile iframe lifecycle", () => {
+test.describe("Listen mobile persistent player", () => {
   test.beforeEach(async ({ context, baseURL }) => {
     await dismissCookieBanner(context, baseURL ?? "http://127.0.0.1:3000");
   });
 
-  test("keeps mounted Suno iframes bounded while scrolling @ 390", async ({ page }) => {
+  test("keeps exactly one Suno iframe while scrolling @ 390", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/listen", { waitUntil: "domcontentloaded" });
 
     await expect(page.getByRole("heading", { name: "Songs from After Certainty" })).toBeVisible();
+    await expect(page.locator("[data-listen-player]")).toBeVisible();
 
-    // Before meaningful scroll, deferred mounts should keep iframe count low.
-    await page.waitForTimeout(300);
-    const initialIframes = await page.locator('iframe[title$="— Suno player"]').count();
-    expect(initialIframes).toBeLessThan(10);
+    const iframe = page.locator('iframe[title$="— Suno player"]');
+    await expect(iframe).toHaveCount(1);
 
     const scrollHeight = await page.evaluate(() => document.documentElement.scrollHeight);
     const viewHeight = await page.evaluate(() => window.innerHeight);
 
-    // Mid-page: some players mount, but far ones remain deferred.
     await page.evaluate((y) => window.scrollTo(0, y), Math.floor(scrollHeight * 0.35));
-    await page.waitForTimeout(500);
-    const midIframes = await page.locator('iframe[title$="— Suno player"]').count();
-    expect(midIframes).toBeLessThan(10);
-    expect(midIframes).toBeGreaterThan(0);
+    await page.waitForTimeout(300);
+    await expect(iframe).toHaveCount(1);
 
-    // Near bottom: still bounded — must not equal all 32 songs.
     await page.evaluate((y) => window.scrollTo(0, y), Math.max(0, scrollHeight - viewHeight - 40));
-    await page.waitForTimeout(500);
-    const bottomIframes = await page.locator('iframe[title$="— Suno player"]').count();
-    expect(bottomIframes).toBeLessThan(10);
+    await page.waitForTimeout(300);
+    await expect(iframe).toHaveCount(1);
 
-    const deferredPlaceholders = await page.locator('[data-suno-embed="deferred"]').count();
-    expect(deferredPlaceholders).toBeGreaterThan(0);
-
-    // Scroll back toward the top: previously far cards can remount; still bounded.
     await page.evaluate(() => window.scrollTo(0, 0));
-    await page.waitForTimeout(500);
-    const topIframes = await page.locator('iframe[title$="— Suno player"]').count();
-    expect(topIframes).toBeLessThan(10);
+    await page.waitForTimeout(300);
+    await expect(iframe).toHaveCount(1);
   });
 
-  test("manual Load player mounts an iframe @ 390", async ({ page }) => {
+  test("selecting a song updates the single iframe src @ 390", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/listen", { waitUntil: "domcontentloaded" });
 
-    // Jump past the first few so the near band may not auto-mount everything we click.
-    await page.evaluate(() => window.scrollTo(0, 0));
+    const iframe = page.locator('iframe[title$="— Suno player"]');
+    await expect(iframe).toHaveCount(1);
+    const initialSrc = await iframe.first().getAttribute("src");
 
-    const loadButtons = page.getByRole("button", { name: /load player/i });
-    // Prefer a deferred card if any remain; otherwise the first button.
-    const deferred = page.locator('[data-suno-embed="deferred"]');
-    if ((await deferred.count()) > 0) {
-      await deferred.first().getByRole("button", { name: /load player/i }).click();
-    } else {
-      await loadButtons.first().click();
+    const next = page.getByRole("button", { name: "Next song" });
+    await expect(next).toBeEnabled();
+    await next.click();
+
+    await expect(iframe).toHaveCount(1);
+    await expect.poll(async () => iframe.first().getAttribute("src")).not.toBe(initialSrc);
+  });
+
+  test("sticky player stays below header and does not cover footer nav @ 390", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/listen", { waitUntil: "domcontentloaded" });
+
+    const player = page.locator("[data-listen-player]");
+    await expect(player).toBeVisible();
+
+    await page.evaluate(() => window.scrollTo(0, 400));
+    await page.waitForTimeout(250);
+
+    const playerBox = await player.boundingBox();
+    const header = page.locator("header").first();
+    const headerBox = await header.boundingBox();
+    expect(playerBox).toBeTruthy();
+    expect(headerBox).toBeTruthy();
+    if (playerBox && headerBox) {
+      expect(playerBox.y).toBeGreaterThanOrEqual(headerBox.y + headerBox.height - 2);
+      expect(playerBox.y).toBeLessThan(200);
     }
 
-    await expect(page.locator('iframe[title$="— Suno player"]').first()).toBeVisible();
+    await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+    await page.waitForTimeout(250);
+
+    const footerNav = page.locator('[data-footer-nav="mobile"]');
+    await expect(footerNav).toBeVisible();
+    const footerBox = await footerNav.boundingBox();
+    const playerAtBottom = await player.boundingBox();
+    expect(footerBox).toBeTruthy();
+    if (playerAtBottom && footerBox && playerAtBottom.y + playerAtBottom.height > footerBox.y) {
+      const footerCenterY = footerBox.y + footerBox.height / 2;
+      expect(playerAtBottom.y + playerAtBottom.height).toBeLessThan(footerCenterY);
+    }
   });
 });

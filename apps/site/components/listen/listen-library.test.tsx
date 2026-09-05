@@ -1,16 +1,41 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
-import { ListenLibrary } from "@/components/listen/listen-library";
+let mockParams = new URLSearchParams();
+const replaceState = vi.fn();
+
+vi.mock("next/navigation", () => ({
+  usePathname: () => "/listen",
+  useSearchParams: () => mockParams,
+}));
 
 vi.mock("@/components/listen/suno-embed", () => ({
   SunoEmbed: ({ externalId, title }: { externalId: string; title: string }) => (
-    <div data-testid="suno-embed" data-external-id={externalId} data-title={title} />
+    <iframe
+      title={`${title} — Suno player`}
+      src={`https://suno.com/embed/${externalId}`}
+      data-testid="suno-iframe"
+      data-external-id={externalId}
+    />
   ),
 }));
 
+import { ListenLibrary } from "@/components/listen/listen-library";
+
 const items = [
+  {
+    slug: "the-truth-got-a-side-door",
+    title: "The Truth Got a Side Door",
+    shortDescription: "Early-seventies psychedelic soul-funk about revisable sight.",
+    recordingExternalId: "84c5ec6d-da90-4213-a114-27a4bd1fa556",
+  },
+  {
+    slug: "dont-let-the-score-fool-you",
+    title: "Don't Let the Score Fool You",
+    shortDescription: "A groove about metrics that mislead.",
+    recordingExternalId: "fdf8353b-6440-4f2d-a2cf-515a8418cb45",
+  },
   {
     slug: "after-nothing-happens",
     title: "After Nothing Happens",
@@ -18,39 +43,150 @@ const items = [
     recordingExternalId: "82ca255e-4a41-4a3f-9392-0cc46287f7ba",
     versionTitle: "Shorter Version",
   },
-  {
-    slug: "the-truth-got-a-side-door",
-    title: "The Truth Got a Side Door",
-    shortDescription: "Early-seventies psychedelic soul-funk about revisable sight.",
-    recordingExternalId: "84c5ec6d-da90-4213-a114-27a4bd1fa556",
-  },
 ];
 
 describe("ListenLibrary", () => {
-  it("renders composition titles and about / suno links with clear hierarchy", () => {
+  beforeEach(() => {
+    replaceState.mockReset();
+    mockParams = new URLSearchParams();
+    vi.stubGlobal("history", {
+      ...window.history,
+      replaceState,
+      state: {},
+    });
+  });
+
+  afterEach(() => {
+    vi.unstubAllGlobals();
+  });
+
+  it("renders all playable songs and exactly one Suno iframe", () => {
     render(<ListenLibrary items={items} />);
 
-    expect(screen.getByRole("heading", { name: "After Nothing Happens" })).toBeInTheDocument();
-    expect(screen.getByText("Shorter Version")).toBeInTheDocument();
-    expect(screen.queryByText("After Nothing Happens (Shorter Version)")).not.toBeInTheDocument();
+    // Player (h2) and list row (h3) share the current title — scope list by level.
+    expect(
+      screen.getByRole("heading", { level: 2, name: "The Truth Got a Side Door" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 3, name: "The Truth Got a Side Door" }),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 3, name: "Don't Let the Score Fool You" }),
+    ).toBeInTheDocument();
+    expect(screen.getByRole("heading", { level: 3, name: "After Nothing Happens" })).toBeInTheDocument();
 
-    const about = screen.getAllByRole("link", { name: /about this song/i });
-    expect(about[0]).toHaveAttribute("href", "/explore/songs/after-nothing-happens");
-
-    const suno = screen.getAllByRole("link", { name: /listen on suno/i });
-    expect(suno[0]).toHaveAttribute(
-      "href",
-      "https://suno.com/song/82ca255e-4a41-4a3f-9392-0cc46287f7ba",
+    const iframes = screen.getAllByTestId("suno-iframe");
+    expect(iframes).toHaveLength(1);
+    expect(iframes[0]).toHaveAttribute(
+      "data-external-id",
+      "84c5ec6d-da90-4213-a114-27a4bd1fa556",
     );
-    expect(suno[0]).toHaveTextContent("Listen on Suno ↗");
-    expect(suno[0].className).not.toMatch(/border-border/);
+  });
 
-    const embeds = screen.getAllByTestId("suno-embed");
-    expect(embeds[0]).toHaveAttribute(
+  it("starts on the first playlist song and disables Previous", () => {
+    render(<ListenLibrary items={items} />);
+
+    const player = screen.getByTestId("suno-iframe").closest("[data-listen-player]")!;
+    expect(within(player as HTMLElement).getByRole("button", { name: "Previous song" })).toBeDisabled();
+    expect(within(player as HTMLElement).getByRole("button", { name: "Next song" })).toBeEnabled();
+  });
+
+  it("selecting another song changes iframe source without adding a second iframe", async () => {
+    const user = userEvent.setup();
+    render(<ListenLibrary items={items} />);
+
+    await user.click(screen.getByRole("button", { name: "Play Don't Let the Score Fool You" }));
+
+    const iframes = screen.getAllByTestId("suno-iframe");
+    expect(iframes).toHaveLength(1);
+    expect(iframes[0]).toHaveAttribute(
+      "data-external-id",
+      "fdf8353b-6440-4f2d-a2cf-515a8418cb45",
+    );
+    expect(screen.getByText("Now playing")).toBeInTheDocument();
+    expect(replaceState).toHaveBeenCalledWith(
+      expect.anything(),
+      "",
+      "/listen?song=dont-let-the-score-fool-you",
+    );
+  });
+
+  it("Next and Previous move through playlist order and disable at ends", async () => {
+    const user = userEvent.setup();
+    render(<ListenLibrary items={items} />);
+
+    await user.click(screen.getByRole("button", { name: "Next song" }));
+    expect(screen.getByTestId("suno-iframe")).toHaveAttribute(
+      "data-external-id",
+      "fdf8353b-6440-4f2d-a2cf-515a8418cb45",
+    );
+
+    await user.click(screen.getByRole("button", { name: "Next song" }));
+    expect(screen.getByTestId("suno-iframe")).toHaveAttribute(
       "data-external-id",
       "82ca255e-4a41-4a3f-9392-0cc46287f7ba",
     );
-    expect(embeds[0]).toHaveAttribute("data-title", "After Nothing Happens");
+    expect(screen.getByRole("button", { name: "Next song" })).toBeDisabled();
+
+    await user.click(screen.getByRole("button", { name: "Previous song" }));
+    expect(screen.getByTestId("suno-iframe")).toHaveAttribute(
+      "data-external-id",
+      "fdf8353b-6440-4f2d-a2cf-515a8418cb45",
+    );
+  });
+
+  it("keeps canonical composition title and correct About / Suno links on the player", () => {
+    render(<ListenLibrary items={items} initialSongSlug="after-nothing-happens" />);
+
+    const player = document.querySelector("[data-listen-player]")!;
+    expect(
+      within(player as HTMLElement).getByRole("heading", { name: "After Nothing Happens" }),
+    ).toBeInTheDocument();
+    expect(within(player as HTMLElement).getByText("Shorter Version")).toBeInTheDocument();
+    expect(screen.queryByText("After Nothing Happens (Shorter Version)")).not.toBeInTheDocument();
+
+    expect(within(player as HTMLElement).getByRole("link", { name: /about this song/i })).toHaveAttribute(
+      "href",
+      "/explore/songs/after-nothing-happens",
+    );
+    expect(within(player as HTMLElement).getByRole("link", { name: /listen on suno/i })).toHaveAttribute(
+      "href",
+      "https://suno.com/song/82ca255e-4a41-4a3f-9392-0cc46287f7ba",
+    );
+  });
+
+  it("search filters the list without clearing the current player", async () => {
+    const user = userEvent.setup();
+    render(<ListenLibrary items={items} />);
+
+    await user.type(screen.getByRole("searchbox", { name: /search songs/i }), "aftermath");
+
+    expect(
+      screen.queryByRole("heading", { name: "The Truth Got a Side Door", level: 3 }),
+    ).not.toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "After Nothing Happens", level: 3 })).toBeInTheDocument();
+
+    expect(screen.getByTestId("suno-iframe")).toHaveAttribute(
+      "data-external-id",
+      "84c5ec6d-da90-4213-a114-27a4bd1fa556",
+    );
+    const player = document.querySelector("[data-listen-player]")!;
+    expect(
+      within(player as HTMLElement).getByRole("heading", { name: "The Truth Got a Side Door" }),
+    ).toBeInTheDocument();
+  });
+
+  it("selecting a visible filtered song updates the player", async () => {
+    const user = userEvent.setup();
+    render(<ListenLibrary items={items} />);
+
+    await user.type(screen.getByRole("searchbox", { name: /search songs/i }), "aftermath");
+    await user.click(screen.getByRole("button", { name: "Play After Nothing Happens" }));
+
+    expect(screen.getByTestId("suno-iframe")).toHaveAttribute(
+      "data-external-id",
+      "82ca255e-4a41-4a3f-9392-0cc46287f7ba",
+    );
   });
 
   it("places Explore songs above search for mobile listening-first flow", () => {
@@ -65,23 +201,13 @@ describe("ListenLibrary", () => {
     ).toBeTruthy();
   });
 
-  it("filters by title and short description", async () => {
-    const user = userEvent.setup();
-    render(<ListenLibrary items={items} />);
-
-    const input = screen.getByRole("searchbox", { name: /search songs/i });
-    await user.type(input, "psychedelic");
-
-    expect(screen.getByRole("heading", { name: "The Truth Got a Side Door" })).toBeInTheDocument();
-    expect(screen.queryByRole("heading", { name: "After Nothing Happens" })).not.toBeInTheDocument();
-  });
-
-  it("announces empty search results", async () => {
+  it("announces empty search results without clearing the player", async () => {
     const user = userEvent.setup();
     render(<ListenLibrary items={items} />);
 
     await user.type(screen.getByRole("searchbox", { name: /search songs/i }), "zzzz-no-match");
 
     expect(screen.getByText(/try another title or phrase/i)).toBeInTheDocument();
+    expect(screen.getByTestId("suno-iframe")).toBeInTheDocument();
   });
 });

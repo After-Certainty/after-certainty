@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 
 import { ListenHero } from "@/components/listen/listen-hero";
 import { ListenLibrary, type ListenLibraryItem } from "@/components/listen/listen-library";
@@ -16,9 +17,20 @@ export const metadata: Metadata = createPageMetadata({
   alternates: { canonical: "/listen" },
 });
 
-export default async function ListenPage() {
+type ListenPageProps = {
+  searchParams?: Promise<{ song?: string | string[] }>;
+};
+
+function firstParam(value: string | string[] | undefined): string | undefined {
+  if (Array.isArray(value)) return value[0];
+  return value;
+}
+
+export default async function ListenPage({ searchParams }: ListenPageProps) {
   const { graph } = await getExploreSemanticGraph();
   const ordered = orderListenSongs(graph);
+  const sp = searchParams ? await searchParams : {};
+  const songParam = firstParam(sp.song)?.trim();
 
   const items: ListenLibraryItem[] = ordered.map((entry) => ({
     slug: entry.song.slug,
@@ -27,6 +39,9 @@ export default async function ListenPage() {
     recordingExternalId: entry.recordingExternalId,
     ...(entry.versionTitle ? { versionTitle: entry.versionTitle } : {}),
   }));
+
+  const initialSongSlug =
+    songParam && items.some((item) => item.slug === songParam) ? songParam : undefined;
 
   return (
     <article>
@@ -37,7 +52,15 @@ export default async function ListenPage() {
           {items.length === 0 ? (
             <p className="text-muted">No playable songs are published in the manifest yet.</p>
           ) : (
-            <ListenLibrary items={items} />
+            <Suspense
+              fallback={
+                <p className="text-muted" role="status">
+                  Loading songs…
+                </p>
+              }
+            >
+              <ListenLibrary items={items} initialSongSlug={initialSongSlug} />
+            </Suspense>
           )}
         </Container>
       </Section>

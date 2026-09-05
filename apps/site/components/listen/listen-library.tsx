@@ -1,19 +1,23 @@
 "use client";
 
 import Link from "next/link";
-import { useId, useMemo, useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
+import { useCallback, useId, useMemo, useState } from "react";
 
 import { exploreSecondaryButtonClass } from "@/components/explore/explore-action-buttons";
 import {
   ListenSongCard,
   type ListenSongCardProps,
 } from "@/components/listen/listen-song-card";
+import { PersistentSunoPlayer } from "@/components/listen/persistent-suno-player";
 import { explorePaths } from "@/lib/graph/explorePaths";
 
 export type ListenLibraryItem = ListenSongCardProps;
 
 type ListenLibraryProps = {
   items: readonly ListenLibraryItem[];
+  /** Optional initial slug from `?song=` (validated against playable items). */
+  initialSongSlug?: string;
 };
 
 function matchesQuery(item: ListenLibraryItem, query: string): boolean {
@@ -25,14 +29,79 @@ function matchesQuery(item: ListenLibraryItem, query: string): boolean {
   );
 }
 
+function resolveInitialSlug(
+  items: readonly ListenLibraryItem[],
+  preferred?: string,
+): string {
+  if (items.length === 0) return "";
+  if (preferred && items.some((item) => item.slug === preferred)) {
+    return preferred;
+  }
+  return items[0]!.slug;
+}
+
 /**
- * Client search over the listening library (title + short description).
- * Keeps filtering local — no faceted genre system.
+ * Client listening library: one persistent Suno player + selectable song rows.
+ *
+ * Playback selection (`currentSlug`) is independent of search filtering so the
+ * current player keeps working when its song is temporarily filtered out.
+ *
+ * Song URL updates use `history.replaceState` (not `router.replace`) so the
+ * Suspense/`useSearchParams` boundary does not remount and reset selection.
  */
-export function ListenLibrary({ items }: ListenLibraryProps) {
+export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
   const inputId = useId();
   const statusId = useId();
+  const listHeadingId = useId();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const urlSong = searchParams.get("song") ?? undefined;
   const [query, setQuery] = useState("");
+  const [currentSlug, setCurrentSlug] = useState(() =>
+    resolveInitialSlug(items, initialSongSlug ?? urlSong),
+  );
+
+  // Derive a valid selection if the item list changes (e.g. HMR) — avoid setState in effects.
+  const activeSlug = useMemo(() => {
+    if (items.length === 0) return "";
+    if (items.some((item) => item.slug === currentSlug)) return currentSlug;
+    return items[0]!.slug;
+  }, [items, currentSlug]);
+
+  const syncSongParam = useCallback(
+    (slug: string) => {
+      const params = new URLSearchParams(searchParams.toString());
+      if (slug) {
+        params.set("song", slug);
+      } else {
+        params.delete("song");
+      }
+      const qs = params.toString();
+      const href = qs ? `${pathname}?${qs}` : pathname;
+      // Avoid Next soft-navigation remounting this Suspense child (which would
+      // re-run useState init and snap selection back to the first track).
+      window.history.replaceState(window.history.state, "", href);
+    },
+    [pathname, searchParams],
+  );
+
+  const selectSong = useCallback(
+    (slug: string) => {
+      if (!items.some((item) => item.slug === slug)) return;
+      setCurrentSlug(slug);
+      syncSongParam(slug);
+    },
+    [items, syncSongParam],
+  );
+
+  const currentIndex = useMemo(
+    () => items.findIndex((item) => item.slug === activeSlug),
+    [items, activeSlug],
+  );
+  const currentItem = currentIndex >= 0 ? items[currentIndex] : items[0];
+  const hasPrevious = currentIndex > 0;
+  const hasNext = currentIndex >= 0 && currentIndex < items.length - 1;
 
   const filtered = useMemo(
     () => items.filter((item) => matchesQuery(item, query)),
@@ -42,8 +111,74 @@ export function ListenLibrary({ items }: ListenLibraryProps) {
   const trimmed = query.trim();
   const empty = filtered.length === 0;
 
+  if (!currentItem) {
+    return (
+      <p className="text-muted">No playable songs are published in the manifest yet.</p>
+    );
+  }
+
+  const player = (
+    <PersistentSunoPlayer
+      song={{
+        slug: currentItem.slug,
+        title: currentItem.title,
+        recordingExternalId: currentItem.recordingExternalId,
+        ...(currentItem.versionTitle ? { versionTitle: currentItem.versionTitle } : {}),
+      }}
+      hasPrevious={hasPrevious}
+      hasNext={hasNext}
+      onPrevious={() => {
+        if (!hasPrevious) return;
+        selectSong(items[currentIndex - 1]!.slug);
+      }}
+      onNext={() => {
+        if (!hasNext) return;
+        selectSong(items[currentIndex + 1]!.slug);
+      }}
+    />
+  );
+
+  const songList = (
+    <div className="space-y-3 md:space-y-4">
+      <h2
+        id={listHeadingId}
+        className="font-display text-lg font-medium tracking-tight text-fg md:text-xl"
+      >
+        Songs
+      </h2>
+
+      <p id={statusId} className="sr-only" role="status" aria-live="polite">
+        {empty
+          ? trimmed
+            ? `No songs match “${trimmed}”.`
+            : "No songs available."
+          : `${filtered.length} song${filtered.length === 1 ? "" : "s"} shown.`}
+      </p>
+
+      {empty ? (
+        <p className="text-muted" role="status">
+          {trimmed
+            ? `No songs match “${trimmed}”. Try another title or phrase.`
+            : "No playable songs are published in the manifest yet."}
+        </p>
+      ) : (
+        <div className="flex flex-col gap-0" role="list" aria-labelledby={listHeadingId}>
+          {filtered.map((item) => (
+            <div key={item.slug} role="listitem">
+              <ListenSongCard
+                {...item}
+                selected={item.slug === activeSlug}
+                onSelect={() => selectSong(item.slug)}
+              />
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+
   return (
-    <div className="space-y-4 md:space-y-10">
+    <div className="space-y-4 md:space-y-8">
       <div className="space-y-3 md:space-y-0">
         <div className="md:hidden">
           <Link href={explorePaths.songs} className={exploreSecondaryButtonClass}>
@@ -68,27 +203,13 @@ export function ListenLibrary({ items }: ListenLibraryProps) {
         </div>
       </div>
 
-      <p id={statusId} className="sr-only" role="status" aria-live="polite">
-        {empty
-          ? trimmed
-            ? `No songs match “${trimmed}”.`
-            : "No songs available."
-          : `${filtered.length} song${filtered.length === 1 ? "" : "s"} shown.`}
-      </p>
-
-      {empty ? (
-        <p className="text-muted" role="status">
-          {trimmed
-            ? `No songs match “${trimmed}”. Try another title or phrase.`
-            : "No playable songs are published in the manifest yet."}
-        </p>
-      ) : (
-        <div className="grid grid-cols-1 gap-x-10 gap-y-0 md:grid-cols-2 md:gap-y-4">
-          {filtered.map((item) => (
-            <ListenSongCard key={item.slug} {...item} />
-          ))}
+      {/* Mobile: player above list in one column (sticky works). Desktop: list | sticky player. */}
+      <div className="flex flex-col gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(20rem,24rem)] lg:gap-10">
+        <div className="sticky top-16 z-30 order-first lg:order-none lg:col-start-2 lg:row-start-1 lg:self-start lg:top-20">
+          {player}
         </div>
-      )}
+        <div className="lg:col-start-1 lg:row-start-1">{songList}</div>
+      </div>
     </div>
   );
 }
