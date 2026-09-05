@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-5-living-with-curiosity-chapter-12-curiosity-in-an-uncertain-world",
+  "generationHash": "sha256:f69fa2ea944d381c3177a51cdde2cdf1e1fc773e6895e14766c1be0acc66f29f",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 12 — Curiosity in an Uncertain World",
+      "startMs": 0.0,
+      "endMs": 4540.0,
+      "charStart": 0,
+      "charEnd": 44
+    },
+    {
+      "id": "s0002",
+      "text": "We live in a time of abundant information and uneven understanding.",
+      "startMs": 5236.0,
+      "endMs": 9416.0,
+      "charStart": 46,
+      "charEnd": 113
+    },
+    {
+      "id": "s0003",
+      "text": "News arrives constantly.",
+      "startMs": 9416.0,
+      "endMs": 11448.0,
+      "charStart": 113,
+      "charEnd": 137
+    },
+    {
+      "id": "s0004",
+      "text": "Opinions arrive faster.",
+      "startMs": 11680.0,
+      "endMs": 13398.0,
+      "charStart": 139,
+      "charEnd": 162
+    },
+    {
+      "id": "s0005",
+      "text": "Explanations compete for attention before evidence has time to settle.",
+      "startMs": 13398.0,
+      "endMs": 17706.0,
+      "charStart": 162,
+      "charEnd": 232
+    },
+    {
+      "id": "s0006",
+      "text": "In that environment, certainty can feel comforting even when it is premature.",
+      "startMs": 17706.0,
+      "endMs": 22721.0,
+      "charStart": 232,
+      "charEnd": 309
+    },
+    {
+      "id": "s0007",
+      "text": "A fragmented media landscape makes this harder.",
+      "startMs": 23267.0,
+      "endMs": 26344.0,
+      "charStart": 313,
+      "charEnd": 360
+    },
+    {
+      "id": "s0008",
+      "text": "We do not all see the same facts in the same order.",
+      "startMs": 26344.0,
+      "endMs": 29235.0,
+      "charStart": 360,
+      "charEnd": 411
+    },
+    {
+      "id": "s0009",
+      "text": "Different feeds create different versions of the same moment.",
+      "startMs": 29235.0,
+      "endMs": 32729.0,
+      "charStart": 411,
+      "charEnd": 472
+    },
+    {
+      "id": "s0010",
+      "text": "If we are not careful, we begin treating unfamiliar perspectives as irrational instead of partial.",
+      "startMs": 32729.0,
+      "endMs": 39277.0,
+      "charStart": 472,
+      "charEnd": 570
+    },
+    {
+      "id": "s0011",
+      "text": "Complex organizations add another layer.",
+      "startMs": 40125.0,
+      "endMs": 42842.0,
+      "charStart": 575,
+      "charEnd": 615
+    },
+    {
+      "id": "s0012",
+      "text": "Decisions are distributed across teams, tools, and incentives that few people can see all at once.",
+      "startMs": 42842.0,
+      "endMs": 49030.0,
+      "charStart": 615,
+      "charEnd": 713
+    },
+    {
+      "id": "s0013",
+      "text": "Local optimization can look successful while hidden costs build elsewhere.",
+      "startMs": 49030.0,
+      "endMs": 54371.0,
+      "charStart": 713,
+      "charEnd": 787
+    },
+    {
+      "id": "s0014",
+      "text": "Curiosity helps reconnect those levels.",
+      "startMs": 55021.0,
+      "endMs": 57900.0,
+      "charStart": 790,
+      "charEnd": 829
+    },
+    {
+      "id": "s0015",
+      "text": "AI-assisted reasoning now sits inside this mix.",
+      "startMs": 58504.0,
+      "endMs": 62242.0,
+      "charStart": 831,
+      "charEnd": 878
+    },
+    {
+      "id": "s0016",
+      "text": "These tools can accelerate learning, but they can also accelerate confident error.",
+      "startMs": 62242.0,
+      "endMs": 67432.0,
+      "charStart": 878,
+      "charEnd": 960
+    },
+    {
+      "id": "s0017",
+      "text": "They increase the speed of synthesis, which means our habits of questioning matter more, not less.",
+      "startMs": 67432.0,
+      "endMs": 73725.0,
+      "charStart": 960,
+      "charEnd": 1058
+    },
+    {
+      "id": "s0018",
+      "text": "Fast answers are useful only when paired with careful revision.",
+      "startMs": 74631.0,
+      "endMs": 78392.0,
+      "charStart": 1061,
+      "charEnd": 1124
+    },
+    {
+      "id": "s0019",
+      "text": "In this world, curiosity is not a luxury trait.",
+      "startMs": 78717.0,
+      "endMs": 82270.0,
+      "charStart": 1126,
+      "charEnd": 1173
+    },
+    {
+      "id": "s0020",
+      "text": "It is a civic skill.",
+      "startMs": 82595.0,
+      "endMs": 83965.0,
+      "charStart": 1174,
+      "charEnd": 1194
+    },
+    {
+      "id": "s0021",
+      "text": "It helps citizens evaluate claims without collapsing into cynicism.",
+      "startMs": 83965.0,
+      "endMs": 88156.0,
+      "charStart": 1194,
+      "charEnd": 1261
+    },
+    {
+      "id": "s0022",
+      "text": "It helps teams disagree productively.",
+      "startMs": 88156.0,
+      "endMs": 90768.0,
+      "charStart": 1261,
+      "charEnd": 1298
+    },
+    {
+      "id": "s0023",
+      "text": "It helps leaders act decisively while staying open to correction.",
+      "startMs": 90768.0,
+      "endMs": 95076.0,
+      "charStart": 1298,
+      "charEnd": 1363
+    },
+    {
+      "id": "s0024",
+      "text": "It helps individuals resist the pressure to pretend certainty at all times.",
+      "startMs": 95076.0,
+      "endMs": 99662.0,
+      "charStart": 1363,
+      "charEnd": 1438
+    },
+    {
+      "id": "s0025",
+      "text": "The practice can stay simple.",
+      "startMs": 100359.0,
+      "endMs": 102065.0,
+      "charStart": 1444,
+      "charEnd": 1473
+    },
+    {
+      "id": "s0026",
+      "text": "Notice what does not fit.",
+      "startMs": 102390.0,
+      "endMs": 104097.0,
+      "charStart": 1474,
+      "charEnd": 1499
+    },
+    {
+      "id": "s0027",
+      "text": "Ask better questions.",
+      "startMs": 104097.0,
+      "endMs": 105815.0,
+      "charStart": 1499,
+      "charEnd": 1520
+    },
+    {
+      "id": "s0028",
+      "text": "Run small tests where possible.",
+      "startMs": 106268.0,
+      "endMs": 108428.0,
+      "charStart": 1522,
+      "charEnd": 1553
+    },
+    {
+      "id": "s0029",
+      "text": "Update your map when evidence changes.",
+      "startMs": 108428.0,
+      "endMs": 111272.0,
+      "charStart": 1553,
+      "charEnd": 1591
+    },
+    {
+      "id": "s0030",
+      "text": "Repeat.",
+      "startMs": 111841.0,
+      "endMs": 112549.0,
+      "charStart": 1593,
+      "charEnd": 1600
+    },
+    {
+      "id": "s0031",
+      "text": "Over time, this creates a steadier kind of confidence: confidence that you can keep learning.",
+      "startMs": 112549.0,
+      "endMs": 119039.0,
+      "charStart": 1600,
+      "charEnd": 1693
+    },
+    {
+      "id": "s0032",
+      "text": "Curiosity does not remove uncertainty from the landscape.",
+      "startMs": 120026.0,
+      "endMs": 123486.0,
+      "charStart": 1696,
+      "charEnd": 1753
+    },
+    {
+      "id": "s0033",
+      "text": "It teaches us how to move through uncertainty with less fear and more skill.",
+      "startMs": 123486.0,
+      "endMs": 128548.0,
+      "charStart": 1753,
+      "charEnd": 1829
+    },
+    {
+      "id": "s0034",
+      "text": "That may be the most practical form of wisdom available in complex times.",
+      "startMs": 128548.0,
+      "endMs": 132983.0,
+      "charStart": 1829,
+      "charEnd": 1902
+    },
+    {
+      "id": "s0035",
+      "text": "The closing reflection returns to this simple orientation and leaves the",
+      "startMs": 133691.0,
+      "endMs": 137580.0,
+      "charStart": 1906,
+      "charEnd": 1978
+    },
+    {
+      "id": "s0036",
+      "text": "reader with a practice to carry forward.",
+      "startMs": 137650.0,
+      "endMs": 139832.0,
+      "charStart": 1979,
+      "charEnd": 2019
+    }
+  ]
+}

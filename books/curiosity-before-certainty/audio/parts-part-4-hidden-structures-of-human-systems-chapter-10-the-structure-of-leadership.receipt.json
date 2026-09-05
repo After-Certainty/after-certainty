@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-4-hidden-structures-of-human-systems-chapter-10-the-structure-of-leadership",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-4-hidden-structures-of-human-systems-chapter-10-the-structure-of-leadership",
+  "sourcePath": "parts/part-4-hidden-structures-of-human-systems/chapter-10-the-structure-of-leadership.md",
+  "sourceHash": "sha256:1a4655aadb76b990d1a9c0f060d024a243289ae598adf3900cd6b556305ea725",
+  "spokenTextHash": "sha256:efe014135d628a4a487c00e40d1657cc88e9649f5cca4651b5936f082ad24c19",
+  "generationHash": "sha256:720a4617228dc40b781a025f8fe2fd36a47378eb72e57937abbe175c2ddfd72f",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2230,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 557.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 557.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-4-hidden-structures-of-human-systems-chapter-10-the-structure-of-leadership.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-4-hidden-structures-of-human-systems-chapter-10-the-structure-of-leadership.mp3",
+  "audioSha256": "sha256:9c74cc428b860f905b06ac2034e7d562d66fb685bf82a38d28bc3083010722a8",
+  "generatedAt": "2026-09-05T05:13:33Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-2-exploring-systems-chapter-4-how-detectives-solve-mysteries",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-2-exploring-systems-chapter-4-how-detectives-solve-mysteries",
+  "sourcePath": "parts/part-2-exploring-systems/chapter-4-how-detectives-solve-mysteries.md",
+  "sourceHash": "sha256:dc20c98d03f4fc37a6e70ecfd9e5cfce97e030c0cb3e185928a2a49e7180b32b",
+  "spokenTextHash": "sha256:a176c3c693ea57365dd95dbaa36f9f48513a57925308d5e607a87abff0460c82",
+  "generationHash": "sha256:5fc576402418ff19d0be5daae1aac97ffc1706149ce721007bd9835904776423",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2189,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 547.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 547.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-2-exploring-systems-chapter-4-how-detectives-solve-mysteries.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-2-exploring-systems-chapter-4-how-detectives-solve-mysteries.mp3",
+  "audioSha256": "sha256:71461fe4b3edb2a782ae662a739373e5469fe639014a26442c1bcb70eaf1e18f",
+  "generatedAt": "2026-09-05T05:12:47Z"
+}

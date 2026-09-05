@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-1-learning-to-notice-chapter-2-the-slow-grocery-line",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-1-learning-to-notice-chapter-2-the-slow-grocery-line",
+  "sourcePath": "parts/part-1-learning-to-notice/chapter-2-the-slow-grocery-line.md",
+  "sourceHash": "sha256:c2381761434737c362f5b0d31803e20dc391950e0fe36238ba84a9a80a188df5",
+  "spokenTextHash": "sha256:bddf6d8a8cb94ec3a540dcaca41a3b7c0ba306c8e52964ea00bbddb4cbe62a09",
+  "generationHash": "sha256:deeca4abb4841d53209cbc3a7a02f3efb64a3611141933aec64b0fe4f2de9160",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2050,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 512.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 512.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-1-learning-to-notice-chapter-2-the-slow-grocery-line.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-1-learning-to-notice-chapter-2-the-slow-grocery-line.mp3",
+  "audioSha256": "sha256:546d7f951d4f4e0f4e961a9bd0f05a35079f83e0510f4904cae7af06542594e8",
+  "generatedAt": "2026-09-05T05:12:32Z"
+}

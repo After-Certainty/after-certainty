@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-4-hidden-structures-of-human-systems-chapter-10-the-structure-of-leadership",
+  "generationHash": "sha256:720a4617228dc40b781a025f8fe2fd36a47378eb72e57937abbe175c2ddfd72f",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 10 — The Structure of Leadership",
+      "startMs": 0.0,
+      "endMs": 3564.0,
+      "charStart": 0,
+      "charEnd": 40
+    },
+    {
+      "id": "s0002",
+      "text": "Leadership is often described as personality.",
+      "startMs": 4168.0,
+      "endMs": 7384.0,
+      "charStart": 42,
+      "charEnd": 87
+    },
+    {
+      "id": "s0003",
+      "text": "We ask who is charismatic, who is decisive, who can command attention.",
+      "startMs": 7384.0,
+      "endMs": 12689.0,
+      "charStart": 87,
+      "charEnd": 157
+    },
+    {
+      "id": "s0004",
+      "text": "Those qualities can matter, but they tell only part of the story.",
+      "startMs": 12689.0,
+      "endMs": 17357.0,
+      "charStart": 157,
+      "charEnd": 222
+    },
+    {
+      "id": "s0005",
+      "text": "Over time, I have found it more useful to watch structure: how influence and responsibility actually move through a group.",
+      "startMs": 17357.0,
+      "endMs": 25727.0,
+      "charStart": 222,
+      "charEnd": 344
+    },
+    {
+      "id": "s0006",
+      "text": "A team can have a visible leader and still rely on distributed judgment.",
+      "startMs": 26633.0,
+      "endMs": 31277.0,
+      "charStart": 349,
+      "charEnd": 421
+    },
+    {
+      "id": "s0007",
+      "text": "Another team can have friendly language and still concentrate decisions so tightly that nobody close to the work can shape direction.",
+      "startMs": 31277.0,
+      "endMs": 39346.0,
+      "charStart": 421,
+      "charEnd": 554
+    },
+    {
+      "id": "s0008",
+      "text": "The label looks similar from outside.",
+      "startMs": 39346.0,
+      "endMs": 41865.0,
+      "charStart": 554,
+      "charEnd": 591
+    },
+    {
+      "id": "s0009",
+      "text": "The internal dynamics are very different.",
+      "startMs": 42422.0,
+      "endMs": 45360.0,
+      "charStart": 594,
+      "charEnd": 635
+    },
+    {
+      "id": "s0010",
+      "text": "One structural signal is how a group responds when harm appears.",
+      "startMs": 45685.0,
+      "endMs": 50085.0,
+      "charStart": 637,
+      "charEnd": 701
+    },
+    {
+      "id": "s0011",
+      "text": "Do people near decision-making absorb some visible cost, or does cost get pushed downward to those with least power?",
+      "startMs": 50085.0,
+      "endMs": 57550.0,
+      "charStart": 701,
+      "charEnd": 817
+    },
+    {
+      "id": "s0012",
+      "text": "When this happens repeatedly, teams usually drift, even when short-term outcomes look successful.",
+      "startMs": 57550.0,
+      "endMs": 63819.0,
+      "charStart": 817,
+      "charEnd": 914
+    },
+    {
+      "id": "s0013",
+      "text": "Another signal is effectiveness over time.",
+      "startMs": 64528.0,
+      "endMs": 67302.0,
+      "charStart": 918,
+      "charEnd": 960
+    },
+    {
+      "id": "s0014",
+      "text": "Some leaders can generate quick movement through pressure, but the group becomes brittle and dependent.",
+      "startMs": 67302.0,
+      "endMs": 73351.0,
+      "charStart": 960,
+      "charEnd": 1063
+    },
+    {
+      "id": "s0015",
+      "text": "Others create conditions where more people can act with clarity.",
+      "startMs": 73769.0,
+      "endMs": 77531.0,
+      "charStart": 1065,
+      "charEnd": 1129
+    },
+    {
+      "id": "s0016",
+      "text": "The first style can look strong in the moment.",
+      "startMs": 77531.0,
+      "endMs": 80294.0,
+      "charStart": 1129,
+      "charEnd": 1175
+    },
+    {
+      "id": "s0017",
+      "text": "The second is usually stronger across longer horizons.",
+      "startMs": 80294.0,
+      "endMs": 84276.0,
+      "charStart": 1175,
+      "charEnd": 1229
+    },
+    {
+      "id": "s0018",
+      "text": "Trust is another moving part.",
+      "startMs": 85019.0,
+      "endMs": 87005.0,
+      "charStart": 1233,
+      "charEnd": 1262
+    },
+    {
+      "id": "s0019",
+      "text": "Trust is practical as well as emotional.",
+      "startMs": 87388.0,
+      "endMs": 90105.0,
+      "charStart": 1263,
+      "charEnd": 1303
+    },
+    {
+      "id": "s0020",
+      "text": "It shows up in who shares concerns early, who withholds bad news, who believes correction is possible, and who assumes feedback is risky.",
+      "startMs": 90105.0,
+      "endMs": 99404.0,
+      "charStart": 1303,
+      "charEnd": 1440
+    },
+    {
+      "id": "s0021",
+      "text": "When trust narrows, information narrows with it.",
+      "startMs": 100425.0,
+      "endMs": 103885.0,
+      "charStart": 1442,
+      "charEnd": 1490
+    },
+    {
+      "id": "s0022",
+      "text": "I have also seen leadership shift temporarily in healthy systems.",
+      "startMs": 104698.0,
+      "endMs": 108912.0,
+      "charStart": 1492,
+      "charEnd": 1557
+    },
+    {
+      "id": "s0023",
+      "text": "The person with formal authority can step back at times.",
+      "startMs": 108912.0,
+      "endMs": 112442.0,
+      "charStart": 1557,
+      "charEnd": 1613
+    },
+    {
+      "id": "s0024",
+      "text": "In specific situations, influence can move to the person with closest contact to the problem, then return when the moment passes.",
+      "startMs": 112442.0,
+      "endMs": 120917.0,
+      "charStart": 1613,
+      "charEnd": 1742
+    },
+    {
+      "id": "s0025",
+      "text": "That flexibility often improves both learning and outcomes.",
+      "startMs": 120917.0,
+      "endMs": 125376.0,
+      "charStart": 1742,
+      "charEnd": 1801
+    },
+    {
+      "id": "s0026",
+      "text": "You can spot these patterns without formal theory language.",
+      "startMs": 126246.0,
+      "endMs": 129567.0,
+      "charStart": 1806,
+      "charEnd": 1865
+    },
+    {
+      "id": "s0027",
+      "text": "You can observe them directly in meetings, project handoffs, incident reviews, and everyday decisions.",
+      "startMs": 129567.0,
+      "endMs": 136335.0,
+      "charStart": 1865,
+      "charEnd": 1967
+    },
+    {
+      "id": "s0028",
+      "text": "Curiosity helps by asking structural questions instead of personality questions alone.",
+      "startMs": 136335.0,
+      "endMs": 142732.0,
+      "charStart": 1967,
+      "charEnd": 2053
+    },
+    {
+      "id": "s0029",
+      "text": "Once you start seeing leadership this way, you notice another layer: the system around leadership is shaped by communication.",
+      "startMs": 143870.0,
+      "endMs": 151684.0,
+      "charStart": 2057,
+      "charEnd": 2182
+    },
+    {
+      "id": "s0030",
+      "text": "The chapter that follows turns to that terrain.",
+      "startMs": 151684.0,
+      "endMs": 155248.0,
+      "charStart": 2182,
+      "charEnd": 2229
+    }
+  ]
+}

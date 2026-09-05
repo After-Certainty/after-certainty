@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-3-human-systems-chapter-8-what-ai-reveals-about-our-thinking",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-3-human-systems-chapter-8-what-ai-reveals-about-our-thinking",
+  "sourcePath": "parts/part-3-human-systems/chapter-8-what-ai-reveals-about-our-thinking.md",
+  "sourceHash": "sha256:337ca42563002f89cfdccaa94c6c557a524af5df4615f2fcc2feb10b3dc19914",
+  "spokenTextHash": "sha256:3cae69a83cd1ea8ceb021801f98b9760387fff04f1005a0b94f0eafbdd4fe3fe",
+  "generationHash": "sha256:2dc6a62270f6829316a9bf01e4ce31e4574045773503ba764b78caaa7e3aeb79",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2269,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 567.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 567.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-3-human-systems-chapter-8-what-ai-reveals-about-our-thinking.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-3-human-systems-chapter-8-what-ai-reveals-about-our-thinking.mp3",
+  "audioSha256": "sha256:747895d1e364ffeb60359280a04be498a1a5e34147fe4db59e06d404410057b5",
+  "generatedAt": "2026-09-05T05:13:17Z"
+}

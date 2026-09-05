@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-3-human-systems-chapter-9-the-courage-to-say-i-might-be-wrong",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-3-human-systems-chapter-9-the-courage-to-say-i-might-be-wrong",
+  "sourcePath": "parts/part-3-human-systems/chapter-9-the-courage-to-say-i-might-be-wrong.md",
+  "sourceHash": "sha256:68b5789d8c328c11bb089f49cfd83f195610a2e0af91ec2780e912aa2a16e6b2",
+  "spokenTextHash": "sha256:15e4521fe95761ecc176bd9c9cded606279529e145c3560e88b57da62eb959e9",
+  "generationHash": "sha256:6a45d80fa2ed79c7ed11abbe9d9c31bef4b699b2b104a8c9264248953c70bfdf",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1973,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 493.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 493.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-3-human-systems-chapter-9-the-courage-to-say-i-might-be-wrong.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-3-human-systems-chapter-9-the-courage-to-say-i-might-be-wrong.mp3",
+  "audioSha256": "sha256:de20a261b0d5b2fe9d309e95ab80e6ea977fac031ef1dcce02033334ce15f18f",
+  "generatedAt": "2026-09-05T05:13:25Z"
+}

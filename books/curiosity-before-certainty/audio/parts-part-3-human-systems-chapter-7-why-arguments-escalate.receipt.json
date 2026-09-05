@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-3-human-systems-chapter-7-why-arguments-escalate",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-3-human-systems-chapter-7-why-arguments-escalate",
+  "sourcePath": "parts/part-3-human-systems/chapter-7-why-arguments-escalate.md",
+  "sourceHash": "sha256:daa90bbb56269db7534116ac4f3866c8ab2b97df0d3ba473e2d9285ec6e59b7f",
+  "spokenTextHash": "sha256:9b3a6fae1c3dade295a5c0c842b2a2f1155af211530ff94be30bda27bcebc99c",
+  "generationHash": "sha256:2122e6ab2b43a73b8ddb2e2a12a70ac7c7f7e9df2e7c621a656fdb6ac47a6c1e",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2084,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 521.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 521.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-3-human-systems-chapter-7-why-arguments-escalate.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-3-human-systems-chapter-7-why-arguments-escalate.mp3",
+  "audioSha256": "sha256:205243b38704c24509ba8c048aa44764392c57d43cac4e0eb4bfc7e689a42b9d",
+  "generatedAt": "2026-09-05T05:13:10Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-2-exploring-systems-chapter-6-small-experiments",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-2-exploring-systems-chapter-6-small-experiments",
+  "sourcePath": "parts/part-2-exploring-systems/chapter-6-small-experiments.md",
+  "sourceHash": "sha256:4b0f170d7794b3b222166cf0c850d24015c4cb3c9cd23fe125f228192dc20cb9",
+  "spokenTextHash": "sha256:7f4205379395e8fe8504e2adc4ce67da697825e1379b80e150408ca81216c0a2",
+  "generationHash": "sha256:04a482d961a447d94d7b8030287672a78fb4153aabd1cbd92af89c3e980f05be",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1886,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 471.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 471.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-2-exploring-systems-chapter-6-small-experiments.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-2-exploring-systems-chapter-6-small-experiments.mp3",
+  "audioSha256": "sha256:7365f38f819a0ffa9b0489128486a52864420ec93d56c517e394354ab19889c3",
+  "generatedAt": "2026-09-05T05:13:02Z"
+}
