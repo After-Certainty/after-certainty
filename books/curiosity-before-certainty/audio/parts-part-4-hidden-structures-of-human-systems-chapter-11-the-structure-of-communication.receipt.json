@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-4-hidden-structures-of-human-systems-chapter-11-the-structure-of-communication",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-4-hidden-structures-of-human-systems-chapter-11-the-structure-of-communication",
+  "sourcePath": "parts/part-4-hidden-structures-of-human-systems/chapter-11-the-structure-of-communication.md",
+  "sourceHash": "sha256:e111b6300f54c410f5066cc0b65641b23fb7ad2a98bad9a209a8ed4f8dc08cd8",
+  "spokenTextHash": "sha256:066e473ccfe23dde94462b0cf652b324bb2877f048bd1083fd73032a0d89c19a",
+  "generationHash": "sha256:1bfa0c265fc74c0623edd2bb9e6f30760fccea6276372587c280412c3f52fdad",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2088,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 522.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 522.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-4-hidden-structures-of-human-systems-chapter-11-the-structure-of-communication.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-4-hidden-structures-of-human-systems-chapter-11-the-structure-of-communication.mp3",
+  "audioSha256": "sha256:8521765c79fab8a5634b6f3c4b23921b6f9e4fdd9ca170b31ef7308466ccc004",
+  "generatedAt": "2026-09-05T05:13:41Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-back-matter-closing-reflection",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "back-matter-closing-reflection",
+  "sourcePath": "back-matter/closing-reflection.md",
+  "sourceHash": "sha256:7311c8db7173e561de20eb4ffdcb0a360605bf66e9cf03935904d3dbeea45182",
+  "spokenTextHash": "sha256:bf6d033c6b55f361163e66c03f8acb6891dde09e9c3ce983806b9faba18a5ad2",
+  "generationHash": "sha256:399b95cb0a6c415171213c1e7eb5cb7b0ca21a9c07159db57e4cdbd31871618e",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 660,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 165.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 165.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/back-matter-closing-reflection.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/back-matter-closing-reflection.mp3",
+  "audioSha256": "sha256:630518d5edc170d0251a444113735551c071bdf159748e0009125d78792cbd4f",
+  "generatedAt": "2026-09-05T05:13:54Z"
+}

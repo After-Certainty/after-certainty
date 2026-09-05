@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-2-exploring-systems-chapter-6-small-experiments",
+  "generationHash": "sha256:04a482d961a447d94d7b8030287672a78fb4153aabd1cbd92af89c3e980f05be",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 6 — Small Experiments",
+      "startMs": 0.0,
+      "endMs": 2519.0,
+      "charStart": 0,
+      "charEnd": 29
+    },
+    {
+      "id": "s0002",
+      "text": "One of the most common traps in complex situations is waiting for a grand plan.",
+      "startMs": 3332.0,
+      "endMs": 8115.0,
+      "charStart": 31,
+      "charEnd": 110
+    },
+    {
+      "id": "s0003",
+      "text": "We tell ourselves we need complete clarity before we move.",
+      "startMs": 8394.0,
+      "endMs": 11749.0,
+      "charStart": 111,
+      "charEnd": 169
+    },
+    {
+      "id": "s0004",
+      "text": "In many real systems, that delay costs more than a small imperfect step would.",
+      "startMs": 11749.0,
+      "endMs": 16451.0,
+      "charStart": 169,
+      "charEnd": 247
+    },
+    {
+      "id": "s0005",
+      "text": "Small experiments are how curiosity moves forward without pretending to know everything.",
+      "startMs": 16985.0,
+      "endMs": 22198.0,
+      "charStart": 250,
+      "charEnd": 338
+    },
+    {
+      "id": "s0006",
+      "text": "They are low-risk tests designed to learn quickly.",
+      "startMs": 22372.0,
+      "endMs": 25798.0,
+      "charStart": 339,
+      "charEnd": 389
+    },
+    {
+      "id": "s0007",
+      "text": "Not big declarations.",
+      "startMs": 25798.0,
+      "endMs": 27667.0,
+      "charStart": 389,
+      "charEnd": 410
+    },
+    {
+      "id": "s0008",
+      "text": "Not major commitments.",
+      "startMs": 27992.0,
+      "endMs": 29397.0,
+      "charStart": 412,
+      "charEnd": 434
+    },
+    {
+      "id": "s0009",
+      "text": "Just deliberate probes.",
+      "startMs": 29722.0,
+      "endMs": 31521.0,
+      "charStart": 435,
+      "charEnd": 458
+    },
+    {
+      "id": "s0010",
+      "text": "If your commute is unreliable, a small experiment might be leaving ten minutes earlier for one week and comparing stress, not just arrival time.",
+      "startMs": 31905.0,
+      "endMs": 41018.0,
+      "charStart": 460,
+      "charEnd": 604
+    },
+    {
+      "id": "s0011",
+      "text": "If team meetings feel unproductive, a small experiment might be testing a different agenda format for three sessions and checking whether decisions improve.",
+      "startMs": 41018.0,
+      "endMs": 50318.0,
+      "charStart": 604,
+      "charEnd": 760
+    },
+    {
+      "id": "s0012",
+      "text": "The first explanation for persistent problems is often \"This is just how it is.\" Small experiments challenge that resignation.",
+      "startMs": 50805.0,
+      "endMs": 59559.0,
+      "charStart": 763,
+      "charEnd": 889
+    },
+    {
+      "id": "s0013",
+      "text": "They create fresh evidence where assumptions had gone stale.",
+      "startMs": 59559.0,
+      "endMs": 63553.0,
+      "charStart": 889,
+      "charEnd": 949
+    },
+    {
+      "id": "s0014",
+      "text": "A useful experiment has a few qualities.",
+      "startMs": 64203.0,
+      "endMs": 66792.0,
+      "charStart": 952,
+      "charEnd": 992
+    },
+    {
+      "id": "s0015",
+      "text": "It is specific.",
+      "startMs": 66966.0,
+      "endMs": 68058.0,
+      "charStart": 993,
+      "charEnd": 1008
+    },
+    {
+      "id": "s0016",
+      "text": "It is reversible.",
+      "startMs": 68267.0,
+      "endMs": 69370.0,
+      "charStart": 1009,
+      "charEnd": 1026
+    },
+    {
+      "id": "s0017",
+      "text": "It has a short feedback cycle.",
+      "startMs": 69648.0,
+      "endMs": 71645.0,
+      "charStart": 1027,
+      "charEnd": 1057
+    },
+    {
+      "id": "s0018",
+      "text": "And it asks a clear question: \"If we change this one variable, what happens?\" You are testing a practical question and gathering better evidence.",
+      "startMs": 71645.0,
+      "endMs": 81328.0,
+      "charStart": 1057,
+      "charEnd": 1202
+    },
+    {
+      "id": "s0019",
+      "text": "Many people resist this approach because it feels too modest.",
+      "startMs": 81735.0,
+      "endMs": 85206.0,
+      "charStart": 1205,
+      "charEnd": 1266
+    },
+    {
+      "id": "s0020",
+      "text": "We are drawn to large transformations.",
+      "startMs": 85206.0,
+      "endMs": 87807.0,
+      "charStart": 1266,
+      "charEnd": 1304
+    },
+    {
+      "id": "s0021",
+      "text": "But in complex environments, durable change often arrives through accumulated small wins.",
+      "startMs": 87807.0,
+      "endMs": 93461.0,
+      "charStart": 1304,
+      "charEnd": 1393
+    },
+    {
+      "id": "s0022",
+      "text": "Each experiment updates your map.",
+      "startMs": 94111.0,
+      "endMs": 96154.0,
+      "charStart": 1396,
+      "charEnd": 1429
+    },
+    {
+      "id": "s0023",
+      "text": "Each update improves the next move.",
+      "startMs": 96398.0,
+      "endMs": 98720.0,
+      "charStart": 1430,
+      "charEnd": 1465
+    },
+    {
+      "id": "s0024",
+      "text": "This is how exploration works in unfamiliar terrain.",
+      "startMs": 99103.0,
+      "endMs": 102435.0,
+      "charStart": 1467,
+      "charEnd": 1519
+    },
+    {
+      "id": "s0025",
+      "text": "You move in measured steps, test footing, adjust direction, and keep moving with attention.",
+      "startMs": 102435.0,
+      "endMs": 108751.0,
+      "charStart": 1519,
+      "charEnd": 1610
+    },
+    {
+      "id": "s0026",
+      "text": "Curiosity makes progress through contact and feedback.",
+      "startMs": 109529.0,
+      "endMs": 113128.0,
+      "charStart": 1612,
+      "charEnd": 1666
+    },
+    {
+      "id": "s0027",
+      "text": "By now we have a practical loop: notice friction, ask a clearer question, test a bounded change, learn from the result.",
+      "startMs": 113569.0,
+      "endMs": 122044.0,
+      "charStart": 1668,
+      "charEnd": 1787
+    },
+    {
+      "id": "s0028",
+      "text": "In the next part, we bring that same loop into the most complex systems we navigate: other people.",
+      "startMs": 122044.0,
+      "endMs": 128871.0,
+      "charStart": 1787,
+      "charEnd": 1885
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-3-human-systems-chapter-9-the-courage-to-say-i-might-be-wrong",
+  "generationHash": "sha256:6a45d80fa2ed79c7ed11abbe9d9c31bef4b699b2b104a8c9264248953c70bfdf",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 9 — The Courage to Say \"I Might Be Wrong\"",
+      "startMs": 0.0,
+      "endMs": 3553.0,
+      "charStart": 0,
+      "charEnd": 49
+    },
+    {
+      "id": "s0002",
+      "text": "There is a sentence that sounds small but can feel surprisingly hard to",
+      "startMs": 4505.0,
+      "endMs": 8197.0,
+      "charStart": 51,
+      "charEnd": 122
+    },
+    {
+      "id": "s0003",
+      "text": "say: \"I might be wrong.\"",
+      "startMs": 8255.0,
+      "endMs": 10009.0,
+      "charStart": 123,
+      "charEnd": 147
+    },
+    {
+      "id": "s0004",
+      "text": "For a long time, that sentence sounded like weakness to me, as if uncertainty meant low confidence or poor preparation.",
+      "startMs": 10705.0,
+      "endMs": 18112.0,
+      "charStart": 149,
+      "charEnd": 268
+    },
+    {
+      "id": "s0005",
+      "text": "Later I started seeing the opposite.",
+      "startMs": 18112.0,
+      "endMs": 20585.0,
+      "charStart": 268,
+      "charEnd": 304
+    },
+    {
+      "id": "s0006",
+      "text": "In complex situations, admitting uncertainty is often a sign that someone is paying attention to reality rather than to image.",
+      "startMs": 20585.0,
+      "endMs": 28271.0,
+      "charStart": 304,
+      "charEnd": 430
+    },
+    {
+      "id": "s0007",
+      "text": "Most of us have felt the pull of certainty in public.",
+      "startMs": 29212.0,
+      "endMs": 32033.0,
+      "charStart": 434,
+      "charEnd": 487
+    },
+    {
+      "id": "s0008",
+      "text": "In meetings, conversations, and online spaces, confidence is rewarded quickly.",
+      "startMs": 32033.0,
+      "endMs": 37443.0,
+      "charStart": 487,
+      "charEnd": 565
+    },
+    {
+      "id": "s0009",
+      "text": "Revisions are rarely celebrated with the same energy.",
+      "startMs": 38000.0,
+      "endMs": 41019.0,
+      "charStart": 567,
+      "charEnd": 620
+    },
+    {
+      "id": "s0010",
+      "text": "So we protect our positions even when new evidence suggests they need updating.",
+      "startMs": 41019.0,
+      "endMs": 45640.0,
+      "charStart": 620,
+      "charEnd": 699
+    },
+    {
+      "id": "s0011",
+      "text": "The first explanation for this behavior is ego, and ego is part of it.",
+      "startMs": 46511.0,
+      "endMs": 51434.0,
+      "charStart": 702,
+      "charEnd": 772
+    },
+    {
+      "id": "s0012",
+      "text": "But there is another layer: social risk.",
+      "startMs": 51759.0,
+      "endMs": 54487.0,
+      "charStart": 773,
+      "charEnd": 813
+    },
+    {
+      "id": "s0013",
+      "text": "Changing your mind can feel like losing status, betraying a group, or exposing incompetence.",
+      "startMs": 54487.0,
+      "endMs": 60513.0,
+      "charStart": 813,
+      "charEnd": 905
+    },
+    {
+      "id": "s0014",
+      "text": "That fear can freeze curiosity before it has a chance to work.",
+      "startMs": 60513.0,
+      "endMs": 64610.0,
+      "charStart": 905,
+      "charEnd": 967
+    },
+    {
+      "id": "s0015",
+      "text": "A more helpful approach is to treat beliefs as working models, not identity badges.",
+      "startMs": 65702.0,
+      "endMs": 70961.0,
+      "charStart": 971,
+      "charEnd": 1054
+    },
+    {
+      "id": "s0016",
+      "text": "A working model should earn trust by predicting well and improving with evidence.",
+      "startMs": 70961.0,
+      "endMs": 76278.0,
+      "charStart": 1054,
+      "charEnd": 1135
+    },
+    {
+      "id": "s0017",
+      "text": "When it fails, updating it is maintenance.",
+      "startMs": 76778.0,
+      "endMs": 79854.0,
+      "charStart": 1137,
+      "charEnd": 1179
+    },
+    {
+      "id": "s0018",
+      "text": "In practical terms, humility can be specific.",
+      "startMs": 80365.0,
+      "endMs": 83500.0,
+      "charStart": 1181,
+      "charEnd": 1226
+    },
+    {
+      "id": "s0019",
+      "text": "You can say, \"My current view is X, but I would change it if Y happened.\" You can ask, \"What would count as evidence that I am wrong?\" You can invite challenge from people who see the situation from different positions.",
+      "startMs": 83500.0,
+      "endMs": 96421.0,
+      "charStart": 1226,
+      "charEnd": 1445
+    },
+    {
+      "id": "s0020",
+      "text": "You can stay decisive and still revise.",
+      "startMs": 96862.0,
+      "endMs": 99463.0,
+      "charStart": 1448,
+      "charEnd": 1487
+    },
+    {
+      "id": "s0021",
+      "text": "You make the best decision available with current information, then hold it loosely enough to update as evidence improves.",
+      "startMs": 99463.0,
+      "endMs": 106394.0,
+      "charStart": 1487,
+      "charEnd": 1609
+    },
+    {
+      "id": "s0022",
+      "text": "Curiosity needs that kind of room.",
+      "startMs": 106789.0,
+      "endMs": 109134.0,
+      "charStart": 1612,
+      "charEnd": 1646
+    },
+    {
+      "id": "s0023",
+      "text": "If every belief must be defended at all costs, learning slows down.",
+      "startMs": 109134.0,
+      "endMs": 113465.0,
+      "charStart": 1646,
+      "charEnd": 1713
+    },
+    {
+      "id": "s0024",
+      "text": "If beliefs can be refined without shame, learning speeds up.",
+      "startMs": 113465.0,
+      "endMs": 117401.0,
+      "charStart": 1713,
+      "charEnd": 1773
+    },
+    {
+      "id": "s0025",
+      "text": "\"I might be wrong\" often marks the start of clearer thinking.",
+      "startMs": 117401.0,
+      "endMs": 121128.0,
+      "charStart": 1773,
+      "charEnd": 1834
+    },
+    {
+      "id": "s0026",
+      "text": "In Part IV, we widen this from individual mindset to group structure and",
+      "startMs": 122405.0,
+      "endMs": 126863.0,
+      "charStart": 1839,
+      "charEnd": 1911
+    },
+    {
+      "id": "s0027",
+      "text": "ask what curiosity looks like inside real leadership systems.",
+      "startMs": 126921.0,
+      "endMs": 130218.0,
+      "charStart": 1912,
+      "charEnd": 1973
+    }
+  ]
+}

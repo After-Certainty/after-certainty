@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-back-matter-closing-reflection",
+  "generationHash": "sha256:399b95cb0a6c415171213c1e7eb5cb7b0ca21a9c07159db57e4cdbd31871618e",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Closing Reflection",
+      "startMs": 0.0,
+      "endMs": 1382.0,
+      "charStart": 0,
+      "charEnd": 18
+    },
+    {
+      "id": "s0002",
+      "text": "We began with a simple shift: certainty is not the only way to move",
+      "startMs": 1823.0,
+      "endMs": 6258.0,
+      "charStart": 20,
+      "charEnd": 87
+    },
+    {
+      "id": "s0003",
+      "text": "through complexity.",
+      "startMs": 6281.0,
+      "endMs": 7454.0,
+      "charStart": 88,
+      "charEnd": 107
+    },
+    {
+      "id": "s0004",
+      "text": "Along the way, we looked at ordinary settings - commutes, grocery lines, conversations, debugging sessions - and saw the same pattern repeat.",
+      "startMs": 7837.0,
+      "endMs": 18228.0,
+      "charStart": 109,
+      "charEnd": 250
+    },
+    {
+      "id": "s0005",
+      "text": "What first looked like noise became easier to read once we stayed with the question a little longer.",
+      "startMs": 18228.0,
+      "endMs": 24578.0,
+      "charStart": 250,
+      "charEnd": 350
+    },
+    {
+      "id": "s0006",
+      "text": "The world is not a puzzle you solve once.",
+      "startMs": 25228.0,
+      "endMs": 27887.0,
+      "charStart": 353,
+      "charEnd": 394
+    },
+    {
+      "id": "s0007",
+      "text": "It is a landscape you keep learning.",
+      "startMs": 27887.0,
+      "endMs": 30046.0,
+      "charStart": 394,
+      "charEnd": 430
+    },
+    {
+      "id": "s0008",
+      "text": "You will not see everything at once.",
+      "startMs": 30290.0,
+      "endMs": 32368.0,
+      "charStart": 433,
+      "charEnd": 469
+    },
+    {
+      "id": "s0009",
+      "text": "No one does.",
+      "startMs": 32612.0,
+      "endMs": 33634.0,
+      "charStart": 470,
+      "charEnd": 482
+    },
+    {
+      "id": "s0010",
+      "text": "But you can keep moving with attention.",
+      "startMs": 33634.0,
+      "endMs": 35967.0,
+      "charStart": 482,
+      "charEnd": 521
+    },
+    {
+      "id": "s0011",
+      "text": "When something does not fit, notice it.",
+      "startMs": 36351.0,
+      "endMs": 39009.0,
+      "charStart": 524,
+      "charEnd": 563
+    },
+    {
+      "id": "s0012",
+      "text": "Ask why.",
+      "startMs": 39253.0,
+      "endMs": 40321.0,
+      "charStart": 565,
+      "charEnd": 573
+    },
+    {
+      "id": "s0013",
+      "text": "Test a guess.",
+      "startMs": 40646.0,
+      "endMs": 41784.0,
+      "charStart": 575,
+      "charEnd": 588
+    },
+    {
+      "id": "s0014",
+      "text": "Learn from what happens.",
+      "startMs": 42109.0,
+      "endMs": 43642.0,
+      "charStart": 590,
+      "charEnd": 614
+    },
+    {
+      "id": "s0015",
+      "text": "That is enough to keep finding better paths.",
+      "startMs": 43920.0,
+      "endMs": 46718.0,
+      "charStart": 616,
+      "charEnd": 660
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-curiosity-before-certainty-parts-part-5-living-with-curiosity-chapter-12-curiosity-in-an-uncertain-world",
+  "editionSlug": "curiosity-before-certainty",
+  "chapterSlug": "parts-part-5-living-with-curiosity-chapter-12-curiosity-in-an-uncertain-world",
+  "sourcePath": "parts/part-5-living-with-curiosity/chapter-12-curiosity-in-an-uncertain-world.md",
+  "sourceHash": "sha256:9ffbd54d066ceed55deef5d0dcba0333a8e74216d93d299be5a55f526b6fd3c1",
+  "spokenTextHash": "sha256:cdf281019cb7ffa2fa523039ae5ef4e69439d8b65a9199613cc6508d78346cb7",
+  "generationHash": "sha256:f69fa2ea944d381c3177a51cdde2cdf1e1fc773e6895e14766c1be0acc66f29f",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2019,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 504.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 504.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/curiosity-before-certainty/audio/parts-part-5-living-with-curiosity-chapter-12-curiosity-in-an-uncertain-world.alignment.json"
+  },
+  "audioPath": "books/curiosity-before-certainty/audio/parts-part-5-living-with-curiosity-chapter-12-curiosity-in-an-uncertain-world.mp3",
+  "audioSha256": "sha256:e9b997e14639cbfdfd5e852032bb3f6de1db776abbb5f57305ce5dabf458323e",
+  "generatedAt": "2026-09-05T05:13:48Z"
+}
