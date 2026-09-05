@@ -1,0 +1,376 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-3-the-pressure-point-chapter-8-judgment-under-pressure",
+  "generationHash": "sha256:aec13c6b185512027273067e5530a2843be665b0d52af5677efe761a660488ed",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 8: Judgment Under Pressure",
+      "startMs": 0.0,
+      "endMs": 3147.0,
+      "charStart": 0,
+      "charEnd": 34
+    },
+    {
+      "id": "s0002",
+      "text": "Judgment Under Pressure",
+      "startMs": 3843.0,
+      "endMs": 5585.0,
+      "charStart": 35,
+      "charEnd": 58
+    },
+    {
+      "id": "s0003",
+      "text": "The acceleration threshold clarifies something important: pressure alters incentives, but it does not erase agency.",
+      "startMs": 6281.0,
+      "endMs": 15360.0,
+      "charStart": 60,
+      "charEnd": 175
+    },
+    {
+      "id": "s0004",
+      "text": "Structural disadvantage is real.",
+      "startMs": 15360.0,
+      "endMs": 18356.0,
+      "charStart": 175,
+      "charEnd": 207
+    },
+    {
+      "id": "s0005",
+      "text": "Asymmetry is real.",
+      "startMs": 18855.0,
+      "endMs": 20434.0,
+      "charStart": 209,
+      "charEnd": 227
+    },
+    {
+      "id": "s0006",
+      "text": "Distance and speed change the texture of responsibility.",
+      "startMs": 20434.0,
+      "endMs": 24509.0,
+      "charStart": 227,
+      "charEnd": 283
+    },
+    {
+      "id": "s0007",
+      "text": "But none of these forces make judgment obsolete.",
+      "startMs": 25496.0,
+      "endMs": 28688.0,
+      "charStart": 285,
+      "charEnd": 333
+    },
+    {
+      "id": "s0008",
+      "text": "This is the Arendtian pivot.",
+      "startMs": 29072.0,
+      "endMs": 30882.0,
+      "charStart": 335,
+      "charEnd": 363
+    },
+    {
+      "id": "s0009",
+      "text": "Hannah Arendt argued that the most dangerous political and institutional failures do not arise from monstrous intent alone, but from the suspension of thinking under pressure.",
+      "startMs": 31695.0,
+      "endMs": 42666.0,
+      "charStart": 365,
+      "charEnd": 540
+    },
+    {
+      "id": "s0010",
+      "text": "When speed becomes default, actors begin to treat momentum as necessity.",
+      "startMs": 42666.0,
+      "endMs": 48135.0,
+      "charStart": 540,
+      "charEnd": 612
+    },
+    {
+      "id": "s0011",
+      "text": "What is merely advantageous begins to feel inevitable.",
+      "startMs": 48135.0,
+      "endMs": 52512.0,
+      "charStart": 612,
+      "charEnd": 666
+    },
+    {
+      "id": "s0012",
+      "text": "Structural pressure increases the cost of judgment.",
+      "startMs": 53301.0,
+      "endMs": 56773.0,
+      "charStart": 670,
+      "charEnd": 721
+    },
+    {
+      "id": "s0013",
+      "text": "It does not eliminate it.",
+      "startMs": 56773.0,
+      "endMs": 58712.0,
+      "charStart": 721,
+      "charEnd": 746
+    },
+    {
+      "id": "s0014",
+      "text": "Under acceleration, thinking appears inefficient.",
+      "startMs": 59524.0,
+      "endMs": 63228.0,
+      "charStart": 749,
+      "charEnd": 798
+    },
+    {
+      "id": "s0015",
+      "text": "Deliberation feels like exposure.",
+      "startMs": 63228.0,
+      "endMs": 66235.0,
+      "charStart": 798,
+      "charEnd": 831
+    },
+    {
+      "id": "s0016",
+      "text": "To hesitate is to risk falling behind.",
+      "startMs": 67082.0,
+      "endMs": 70403.0,
+      "charStart": 833,
+      "charEnd": 871
+    },
+    {
+      "id": "s0017",
+      "text": "In such conditions, actors are tempted to treat speed as proof of seriousness and friction as weakness.",
+      "startMs": 70403.0,
+      "endMs": 77961.0,
+      "charStart": 871,
+      "charEnd": 974
+    },
+    {
+      "id": "s0018",
+      "text": "The question shifts from “Should this be done?” to “Can we afford not to?”",
+      "startMs": 77961.0,
+      "endMs": 84149.0,
+      "charStart": 974,
+      "charEnd": 1048
+    },
+    {
+      "id": "s0019",
+      "text": "Judgment interrupts that shift.",
+      "startMs": 84845.0,
+      "endMs": 86819.0,
+      "charStart": 1052,
+      "charEnd": 1083
+    },
+    {
+      "id": "s0020",
+      "text": "Judgment does not guarantee success.",
+      "startMs": 87330.0,
+      "endMs": 89710.0,
+      "charStart": 1085,
+      "charEnd": 1121
+    },
+    {
+      "id": "s0021",
+      "text": "It does not reverse asymmetry or eliminate distance.",
+      "startMs": 89710.0,
+      "endMs": 93634.0,
+      "charStart": 1121,
+      "charEnd": 1173
+    },
+    {
+      "id": "s0022",
+      "text": "What it does is slow automatic escalation.",
+      "startMs": 93994.0,
+      "endMs": 97291.0,
+      "charStart": 1175,
+      "charEnd": 1217
+    },
+    {
+      "id": "s0023",
+      "text": "It reintroduces reflection where reflex has begun to dominate.",
+      "startMs": 97291.0,
+      "endMs": 101691.0,
+      "charStart": 1217,
+      "charEnd": 1279
+    },
+    {
+      "id": "s0024",
+      "text": "It asks not only what works, but what is being normalized.",
+      "startMs": 101691.0,
+      "endMs": 105755.0,
+      "charStart": 1279,
+      "charEnd": 1337
+    },
+    {
+      "id": "s0025",
+      "text": "This distinction matters.",
+      "startMs": 106184.0,
+      "endMs": 108216.0,
+      "charStart": 1341,
+      "charEnd": 1366
+    },
+    {
+      "id": "s0026",
+      "text": "When actors match acceleration automatically, they teach others that limits are optional.",
+      "startMs": 108541.0,
+      "endMs": 114090.0,
+      "charStart": 1368,
+      "charEnd": 1457
+    },
+    {
+      "id": "s0027",
+      "text": "When they pause to examine what is being authorized, they preserve the possibility of constraint.",
+      "startMs": 114090.0,
+      "endMs": 119489.0,
+      "charStart": 1457,
+      "charEnd": 1554
+    },
+    {
+      "id": "s0028",
+      "text": "Judgment functions as friction—not to prevent all movement, but to prevent movement from becoming unexamined momentum.",
+      "startMs": 119489.0,
+      "endMs": 127918.0,
+      "charStart": 1554,
+      "charEnd": 1672
+    },
+    {
+      "id": "s0029",
+      "text": "Importantly, judgment under pressure is not heroic.",
+      "startMs": 128266.0,
+      "endMs": 131888.0,
+      "charStart": 1676,
+      "charEnd": 1727
+    },
+    {
+      "id": "s0030",
+      "text": "It does not require moral purity.",
+      "startMs": 131888.0,
+      "endMs": 134373.0,
+      "charStart": 1727,
+      "charEnd": 1760
+    },
+    {
+      "id": "s0031",
+      "text": "It requires refusal to outsource thinking to circumstance.",
+      "startMs": 134907.0,
+      "endMs": 138796.0,
+      "charStart": 1762,
+      "charEnd": 1820
+    },
+    {
+      "id": "s0032",
+      "text": "Arendt described this as the activity of judging without guaranteed foundations—thinking in the absence of certainty.",
+      "startMs": 138796.0,
+      "endMs": 146761.0,
+      "charStart": 1820,
+      "charEnd": 1937
+    },
+    {
+      "id": "s0033",
+      "text": "In systems where shared assumptions have thinned, judgment becomes more exposed, but also more necessary.",
+      "startMs": 146761.0,
+      "endMs": 153274.0,
+      "charStart": 1937,
+      "charEnd": 2042
+    },
+    {
+      "id": "s0034",
+      "text": "Structural disadvantage does not equal destiny.",
+      "startMs": 153924.0,
+      "endMs": 156955.0,
+      "charStart": 2046,
+      "charEnd": 2093
+    },
+    {
+      "id": "s0035",
+      "text": "History shows that escalation patterns are often interrupted not by force, but by actors who refuse to treat structural pressure as moral permission.",
+      "startMs": 157233.0,
+      "endMs": 166440.0,
+      "charStart": 2095,
+      "charEnd": 2244
+    },
+    {
+      "id": "s0036",
+      "text": "Such interruption is fragile.",
+      "startMs": 166950.0,
+      "endMs": 168901.0,
+      "charStart": 2245,
+      "charEnd": 2274
+    },
+    {
+      "id": "s0037",
+      "text": "It may be costly.",
+      "startMs": 169075.0,
+      "endMs": 170190.0,
+      "charStart": 2275,
+      "charEnd": 2292
+    },
+    {
+      "id": "s0038",
+      "text": "It may not prevail.",
+      "startMs": 170190.0,
+      "endMs": 171304.0,
+      "charStart": 2292,
+      "charEnd": 2311
+    },
+    {
+      "id": "s0039",
+      "text": "But its existence demonstrates that structure does not determine outcome alone.",
+      "startMs": 171304.0,
+      "endMs": 176088.0,
+      "charStart": 2311,
+      "charEnd": 2390
+    },
+    {
+      "id": "s0040",
+      "text": "Judgment cannot eliminate pressure.",
+      "startMs": 176703.0,
+      "endMs": 178665.0,
+      "charStart": 2394,
+      "charEnd": 2429
+    },
+    {
+      "id": "s0041",
+      "text": "It can prevent pressure from becoming justification.",
+      "startMs": 178665.0,
+      "endMs": 181765.0,
+      "charStart": 2429,
+      "charEnd": 2481
+    },
+    {
+      "id": "s0042",
+      "text": "When actors continue to think under acceleration—when they ask what is being normalized, what is being inherited, and who will bear the cost—they preserve the space in which restraint remains possible.",
+      "startMs": 182124.0,
+      "endMs": 193549.0,
+      "charStart": 2484,
+      "charEnd": 2685
+    },
+    {
+      "id": "s0043",
+      "text": "They do not guarantee stability.",
+      "startMs": 193549.0,
+      "endMs": 195743.0,
+      "charStart": 2685,
+      "charEnd": 2717
+    },
+    {
+      "id": "s0044",
+      "text": "They prevent inevitability.",
+      "startMs": 196150.0,
+      "endMs": 198088.0,
+      "charStart": 2719,
+      "charEnd": 2746
+    },
+    {
+      "id": "s0045",
+      "text": "“Structural pressure raises the cost of judgment.",
+      "startMs": 198205.0,
+      "endMs": 201119.0,
+      "charStart": 2748,
+      "charEnd": 2797
+    },
+    {
+      "id": "s0046",
+      "text": "It does not erase it.”",
+      "startMs": 201397.0,
+      "endMs": 202895.0,
+      "charStart": 2798,
+      "charEnd": 2820
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-4-what-remains-possible-bridge",
+  "generationHash": "sha256:56ae21b56c746b0b0a9e03054d18ff0ca21fca117500816af204b5612dfbc80c",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part IV — What Remains Possible",
+      "startMs": 0.0,
+      "endMs": 2705.0,
+      "charStart": 0,
+      "charEnd": 31
+    },
+    {
+      "id": "s0002",
+      "text": "If scale thins reciprocity and pressure accelerates escalation, the temptation is fatalism.",
+      "startMs": 3146.0,
+      "endMs": 9380.0,
+      "charStart": 33,
+      "charEnd": 124
+    },
+    {
+      "id": "s0003",
+      "text": "One might conclude that moral seriousness cannot function beyond human proximity—that asymmetry and distance inevitably reward acceleration.",
+      "startMs": 9380.0,
+      "endMs": 19098.0,
+      "charStart": 124,
+      "charEnd": 264
+    },
+    {
+      "id": "s0004",
+      "text": "That conclusion would mistake pressure for destiny.",
+      "startMs": 19574.0,
+      "endMs": 22651.0,
+      "charStart": 267,
+      "charEnd": 318
+    },
+    {
+      "id": "s0005",
+      "text": "The human-scale model does not disappear at scale.",
+      "startMs": 23162.0,
+      "endMs": 26285.0,
+      "charStart": 320,
+      "charEnd": 370
+    },
+    {
+      "id": "s0006",
+      "text": "It becomes harder to sustain.",
+      "startMs": 26285.0,
+      "endMs": 28200.0,
+      "charStart": 370,
+      "charEnd": 399
+    },
+    {
+      "id": "s0007",
+      "text": "Its reinforcing conditions must be rebuilt deliberately rather than assumed.",
+      "startMs": 28200.0,
+      "endMs": 33343.0,
+      "charStart": 399,
+      "charEnd": 475
+    },
+    {
+      "id": "s0008",
+      "text": "What once emerged organically—reciprocity, contestability, visible consequence—must now be designed, protected, and renewed.",
+      "startMs": 33343.0,
+      "endMs": 43409.0,
+      "charStart": 475,
+      "charEnd": 599
+    },
+    {
+      "id": "s0009",
+      "text": "Part IV asks a narrower, more pragmatic question: not whether moral",
+      "startMs": 44535.0,
+      "endMs": 49446.0,
+      "charStart": 604,
+      "charEnd": 671
+    },
+    {
+      "id": "s0010",
+      "text": "seriousness can dominate large systems, but whether it can remain",
+      "startMs": 49539.0,
+      "endMs": 53022.0,
+      "charStart": 672,
+      "charEnd": 737
+    },
+    {
+      "id": "s0011",
+      "text": "possible within them.",
+      "startMs": 53103.0,
+      "endMs": 54334.0,
+      "charStart": 738,
+      "charEnd": 759
+    },
+    {
+      "id": "s0012",
+      "text": "The answer is not triumphalist.",
+      "startMs": 54845.0,
+      "endMs": 56853.0,
+      "charStart": 761,
+      "charEnd": 792
+    },
+    {
+      "id": "s0013",
+      "text": "It is conditional.",
+      "startMs": 57062.0,
+      "endMs": 58223.0,
+      "charStart": 793,
+      "charEnd": 811
+    },
+    {
+      "id": "s0014",
+      "text": "Scale cannot be reversed.",
+      "startMs": 58432.0,
+      "endMs": 60197.0,
+      "charStart": 813,
+      "charEnd": 838
+    },
+    {
+      "id": "s0015",
+      "text": "Asymmetry cannot be eliminated.",
+      "startMs": 60441.0,
+      "endMs": 62589.0,
+      "charStart": 839,
+      "charEnd": 870
+    },
+    {
+      "id": "s0016",
+      "text": "Acceleration cannot be fully stopped.",
+      "startMs": 62589.0,
+      "endMs": 65166.0,
+      "charStart": 870,
+      "charEnd": 907
+    },
+    {
+      "id": "s0017",
+      "text": "But density can be reintroduced.",
+      "startMs": 65584.0,
+      "endMs": 67882.0,
+      "charStart": 909,
+      "charEnd": 941
+    },
+    {
+      "id": "s0018",
+      "text": "Friction can be designed.",
+      "startMs": 67882.0,
+      "endMs": 69856.0,
+      "charStart": 941,
+      "charEnd": 966
+    },
+    {
+      "id": "s0019",
+      "text": "Authority can be bounded.",
+      "startMs": 70158.0,
+      "endMs": 72073.0,
+      "charStart": 968,
+      "charEnd": 993
+    },
+    {
+      "id": "s0020",
+      "text": "Contestability can be preserved.",
+      "startMs": 72190.0,
+      "endMs": 74674.0,
+      "charStart": 994,
+      "charEnd": 1026
+    },
+    {
+      "id": "s0021",
+      "text": "These interventions do not guarantee virtue.",
+      "startMs": 74918.0,
+      "endMs": 77809.0,
+      "charStart": 1028,
+      "charEnd": 1072
+    },
+    {
+      "id": "s0022",
+      "text": "They prevent inevitability.",
+      "startMs": 77983.0,
+      "endMs": 80049.0,
+      "charStart": 1073,
+      "charEnd": 1100
+    },
+    {
+      "id": "s0023",
+      "text": "What remains possible, even under thinning conditions, is the preservation of spaces where harm does not become automatic and where judgment still interrupts momentum.",
+      "startMs": 80433.0,
+      "endMs": 91137.0,
+      "charStart": 1102,
+      "charEnd": 1269
+    },
+    {
+      "id": "s0024",
+      "text": "That may be less than moral certainty once promised.",
+      "startMs": 91137.0,
+      "endMs": 94678.0,
+      "charStart": 1269,
+      "charEnd": 1321
+    },
+    {
+      "id": "s0025",
+      "text": "It is not collapse.",
+      "startMs": 95339.0,
+      "endMs": 96675.0,
+      "charStart": 1323,
+      "charEnd": 1342
+    },
+    {
+      "id": "s0026",
+      "text": "It is constraint.",
+      "startMs": 97058.0,
+      "endMs": 98451.0,
+      "charStart": 1343,
+      "charEnd": 1360
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-1-forming-chapter-3-leadership-coalesces",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-1-forming-chapter-3-leadership-coalesces",
+  "sourcePath": "parts/part-1-forming/chapter-3-leadership-coalesces.md",
+  "sourceHash": "sha256:5b551f054d6e18071758ca12a0dd7c49fbd015a917aad1e431beb24202a72fce",
+  "spokenTextHash": "sha256:34174900b55a1fd319a68de27f866bfaf456ca455e949853bdc96d1668794eff",
+  "generationHash": "sha256:48e19af7a63b2a2c9e40bd9c48d9f3a01c6d9057d1fb5d20d8eff4884d9d7db2",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3598,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 899.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 899.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-1-forming-chapter-3-leadership-coalesces.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-1-forming-chapter-3-leadership-coalesces.mp3",
+  "audioSha256": "sha256:81f76f665f23073b71d8c636628c5a5a840e8b1ad738e9a4961a596de7ac4e3c",
+  "generatedAt": "2026-09-05T15:13:34Z"
+}

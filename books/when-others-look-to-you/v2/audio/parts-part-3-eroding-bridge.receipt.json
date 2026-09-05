@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-3-eroding-bridge",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-3-eroding-bridge",
+  "sourcePath": "parts/part-3-eroding/bridge.md",
+  "sourceHash": "sha256:dc79e6870094dade7172ccf9af1ae6322fb99eb01b7ed85b644bc445c2aa23ad",
+  "spokenTextHash": "sha256:bfcabfb5bdeae5fe532d3c09d2867b37e685d1ba1a8e3d684d1b32d173352f88",
+  "generationHash": "sha256:b885080b9326b81e7d729be17af23589e62fb3e85247d3c64c5c51b4e501155f",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 431,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 107.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 107.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-3-eroding-bridge.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-3-eroding-bridge.mp3",
+  "audioSha256": "sha256:e5f95af43cece1c679e16021ff4b3ec178f3eca83e5c39eb0a7d4178f782e2fb",
+  "generatedAt": "2026-09-05T15:14:15Z"
+}

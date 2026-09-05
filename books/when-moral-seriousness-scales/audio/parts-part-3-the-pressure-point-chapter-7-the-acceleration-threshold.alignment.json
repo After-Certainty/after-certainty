@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-3-the-pressure-point-chapter-7-the-acceleration-threshold",
+  "generationHash": "sha256:001ee9f5eb2cb2e04543cd819262da1961da8750cfc8e77ec773b5a60de8d863",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 7: The Acceleration Threshold",
+      "startMs": 0.0,
+      "endMs": 2705.0,
+      "charStart": 0,
+      "charEnd": 37
+    },
+    {
+      "id": "s0002",
+      "text": "The Acceleration Threshold",
+      "startMs": 3309.0,
+      "endMs": 4934.0,
+      "charStart": 38,
+      "charEnd": 64
+    },
+    {
+      "id": "s0003",
+      "text": "As systems thin, restraint does not vanish immediately.",
+      "startMs": 5538.0,
+      "endMs": 9311.0,
+      "charStart": 66,
+      "charEnd": 121
+    },
+    {
+      "id": "s0004",
+      "text": "It becomes uneven.",
+      "startMs": 9311.0,
+      "endMs": 10600.0,
+      "charStart": 121,
+      "charEnd": 139
+    },
+    {
+      "id": "s0005",
+      "text": "For a time, actors continue to absorb cost, maintain contestability, and deliberate carefully.",
+      "startMs": 10600.0,
+      "endMs": 17183.0,
+      "charStart": 139,
+      "charEnd": 233
+    },
+    {
+      "id": "s0006",
+      "text": "The difference is not moral collapse but perceived disadvantage.",
+      "startMs": 17183.0,
+      "endMs": 21583.0,
+      "charStart": 233,
+      "charEnd": 297
+    },
+    {
+      "id": "s0007",
+      "text": "The acceleration threshold emerges when restraint begins to feel",
+      "startMs": 22036.0,
+      "endMs": 25948.0,
+      "charStart": 302,
+      "charEnd": 366
+    },
+    {
+      "id": "s0008",
+      "text": "selectively costly.",
+      "startMs": 26065.0,
+      "endMs": 27829.0,
+      "charStart": 367,
+      "charEnd": 386
+    },
+    {
+      "id": "s0009",
+      "text": "At this point, one actor absorbs friction while another moves quickly.",
+      "startMs": 28212.0,
+      "endMs": 33181.0,
+      "charStart": 388,
+      "charEnd": 458
+    },
+    {
+      "id": "s0010",
+      "text": "One side preserves contestability while another narrows it.",
+      "startMs": 33507.0,
+      "endMs": 37524.0,
+      "charStart": 459,
+      "charEnd": 518
+    },
+    {
+      "id": "s0011",
+      "text": "The asymmetry may be modest, but it is visible.",
+      "startMs": 37524.0,
+      "endMs": 40914.0,
+      "charStart": 518,
+      "charEnd": 565
+    },
+    {
+      "id": "s0012",
+      "text": "The experience is not outrage.",
+      "startMs": 40914.0,
+      "endMs": 43642.0,
+      "charStart": 565,
+      "charEnd": 595
+    },
+    {
+      "id": "s0013",
+      "text": "It is exposure.",
+      "startMs": 44141.0,
+      "endMs": 45430.0,
+      "charStart": 598,
+      "charEnd": 613
+    },
+    {
+      "id": "s0014",
+      "text": "Under these conditions, the temptation is rarely domination.",
+      "startMs": 45755.0,
+      "endMs": 49586.0,
+      "charStart": 615,
+      "charEnd": 675
+    },
+    {
+      "id": "s0015",
+      "text": "It is defense.",
+      "startMs": 49586.0,
+      "endMs": 51119.0,
+      "charStart": 675,
+      "charEnd": 689
+    },
+    {
+      "id": "s0016",
+      "text": "Research on competitive escalation shows that actors frequently mirror hardening behaviors not out of aggression but out of fear of unilateral vulnerability.",
+      "startMs": 51491.0,
+      "endMs": 61777.0,
+      "charStart": 692,
+      "charEnd": 849
+    },
+    {
+      "id": "s0017",
+      "text": "When reciprocity weakens, defensive imitation becomes rational.",
+      "startMs": 61777.0,
+      "endMs": 66456.0,
+      "charStart": 849,
+      "charEnd": 912
+    },
+    {
+      "id": "s0018",
+      "text": "What begins as self-protection can gradually resemble the very acceleration it sought to guard against.",
+      "startMs": 66456.0,
+      "endMs": 73991.0,
+      "charStart": 912,
+      "charEnd": 1015
+    },
+    {
+      "id": "s0019",
+      "text": "Hardening follows predictable patterns.",
+      "startMs": 74606.0,
+      "endMs": 77126.0,
+      "charStart": 1019,
+      "charEnd": 1058
+    },
+    {
+      "id": "s0020",
+      "text": "Discretion narrows.",
+      "startMs": 77451.0,
+      "endMs": 78902.0,
+      "charStart": 1059,
+      "charEnd": 1078
+    },
+    {
+      "id": "s0021",
+      "text": "Flexibility declines.",
+      "startMs": 78902.0,
+      "endMs": 80852.0,
+      "charStart": 1078,
+      "charEnd": 1099
+    },
+    {
+      "id": "s0022",
+      "text": "Trust is replaced by verification.",
+      "startMs": 81235.0,
+      "endMs": 83952.0,
+      "charStart": 1101,
+      "charEnd": 1135
+    },
+    {
+      "id": "s0023",
+      "text": "Processes become less forgiving.",
+      "startMs": 83952.0,
+      "endMs": 86506.0,
+      "charStart": 1135,
+      "charEnd": 1167
+    },
+    {
+      "id": "s0024",
+      "text": "These shifts are often justified as prudence.",
+      "startMs": 87122.0,
+      "endMs": 90605.0,
+      "charStart": 1169,
+      "charEnd": 1214
+    },
+    {
+      "id": "s0025",
+      "text": "Each decision appears reasonable in isolation.",
+      "startMs": 90605.0,
+      "endMs": 94100.0,
+      "charStart": 1214,
+      "charEnd": 1260
+    },
+    {
+      "id": "s0026",
+      "text": "Escalation rarely announces itself as a moral turn.",
+      "startMs": 94100.0,
+      "endMs": 97919.0,
+      "charStart": 1260,
+      "charEnd": 1311
+    },
+    {
+      "id": "s0027",
+      "text": "It presents as necessary adaptation.",
+      "startMs": 98361.0,
+      "endMs": 101193.0,
+      "charStart": 1314,
+      "charEnd": 1350
+    },
+    {
+      "id": "s0028",
+      "text": "Importantly, structural pressure increases the cost of restraint; it does not eliminate agency.",
+      "startMs": 101704.0,
+      "endMs": 108565.0,
+      "charStart": 1352,
+      "charEnd": 1447
+    },
+    {
+      "id": "s0029",
+      "text": "Actors still choose whether to imitate acceleration or absorb its disadvantage.",
+      "startMs": 108565.0,
+      "endMs": 114556.0,
+      "charStart": 1447,
+      "charEnd": 1526
+    },
+    {
+      "id": "s0030",
+      "text": "The threshold marks a change in incentives, not a removal of judgment.",
+      "startMs": 114556.0,
+      "endMs": 119734.0,
+      "charStart": 1526,
+      "charEnd": 1596
+    },
+    {
+      "id": "s0031",
+      "text": "The danger lies in normalization.",
+      "startMs": 120315.0,
+      "endMs": 122834.0,
+      "charStart": 1600,
+      "charEnd": 1633
+    },
+    {
+      "id": "s0032",
+      "text": "When defensive acceleration becomes habitual, it ceases to feel defensive at all.",
+      "startMs": 122834.0,
+      "endMs": 128662.0,
+      "charStart": 1633,
+      "charEnd": 1714
+    },
+    {
+      "id": "s0033",
+      "text": "It becomes baseline.",
+      "startMs": 129115.0,
+      "endMs": 130485.0,
+      "charStart": 1716,
+      "charEnd": 1736
+    },
+    {
+      "id": "s0034",
+      "text": "What was once an exception hardens into expectation.",
+      "startMs": 130485.0,
+      "endMs": 134966.0,
+      "charStart": 1736,
+      "charEnd": 1788
+    },
+    {
+      "id": "s0035",
+      "text": "At that point, escalation proceeds automatically.",
+      "startMs": 134966.0,
+      "endMs": 138682.0,
+      "charStart": 1788,
+      "charEnd": 1837
+    },
+    {
+      "id": "s0036",
+      "text": "The acceleration threshold is therefore the last clearly visible moment",
+      "startMs": 139332.0,
+      "endMs": 143523.0,
+      "charStart": 1841,
+      "charEnd": 1912
+    },
+    {
+      "id": "s0037",
+      "text": "of choice.",
+      "startMs": 143581.0,
+      "endMs": 144313.0,
+      "charStart": 1913,
+      "charEnd": 1923
+    },
+    {
+      "id": "s0038",
+      "text": "Before reflex sets in, actors can still recognize what is happening.",
+      "startMs": 144823.0,
+      "endMs": 149386.0,
+      "charStart": 1925,
+      "charEnd": 1993
+    },
+    {
+      "id": "s0039",
+      "text": "They can ask whether matching speed preserves stability or erodes it further.",
+      "startMs": 149386.0,
+      "endMs": 154425.0,
+      "charStart": 1993,
+      "charEnd": 2070
+    },
+    {
+      "id": "s0040",
+      "text": "They can decide whether disadvantage is intolerable—or whether preserving restraint has value beyond immediate symmetry.",
+      "startMs": 154425.0,
+      "endMs": 162413.0,
+      "charStart": 2070,
+      "charEnd": 2190
+    },
+    {
+      "id": "s0041",
+      "text": "Escalation is not inevitable.",
+      "startMs": 162982.0,
+      "endMs": 165025.0,
+      "charStart": 2194,
+      "charEnd": 2223
+    },
+    {
+      "id": "s0042",
+      "text": "It is incremental.",
+      "startMs": 165199.0,
+      "endMs": 166534.0,
+      "charStart": 2224,
+      "charEnd": 2242
+    },
+    {
+      "id": "s0043",
+      "text": "“There is a point where restraint feels selectively costly.",
+      "startMs": 167231.0,
+      "endMs": 170679.0,
+      "charStart": 2244,
+      "charEnd": 2303
+    },
+    {
+      "id": "s0044",
+      "text": "That point is dangerous—not because escalation is forced, but because it begins to feel rational.”",
+      "startMs": 170679.0,
+      "endMs": 176937.0,
+      "charStart": 2303,
+      "charEnd": 2401
+    }
+  ]
+}

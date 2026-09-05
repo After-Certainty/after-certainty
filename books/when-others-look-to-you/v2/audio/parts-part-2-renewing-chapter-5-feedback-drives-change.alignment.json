@@ -1,0 +1,592 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-2-renewing-chapter-5-feedback-drives-change",
+  "generationHash": "sha256:1fe3561406ff755266410c47298d8793334ab96d521eb59f0b73d876fcec41fe",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 5 — Feedback Drives Change",
+      "startMs": 0.0,
+      "endMs": 3784.0,
+      "charStart": 0,
+      "charEnd": 34
+    },
+    {
+      "id": "s0002",
+      "text": "The wind shifts again.",
+      "startMs": 4388.0,
+      "endMs": 6025.0,
+      "charStart": 36,
+      "charEnd": 58
+    },
+    {
+      "id": "s0003",
+      "text": "This time, it’s more noticeable.",
+      "startMs": 6629.0,
+      "endMs": 8707.0,
+      "charStart": 59,
+      "charEnd": 91
+    },
+    {
+      "id": "s0004",
+      "text": "The sail pulls unevenly.",
+      "startMs": 8707.0,
+      "endMs": 10960.0,
+      "charStart": 91,
+      "charEnd": 115
+    },
+    {
+      "id": "s0005",
+      "text": "The boat begins to drift off its previous line—not enough to alarm anyone, but enough that the change is clear.",
+      "startMs": 10960.0,
+      "endMs": 17961.0,
+      "charStart": 115,
+      "charEnd": 226
+    },
+    {
+      "id": "s0006",
+      "text": "Someone sees it.",
+      "startMs": 19110.0,
+      "endMs": 20341.0,
+      "charStart": 230,
+      "charEnd": 246
+    },
+    {
+      "id": "s0007",
+      "text": "They don’t need full certainty.",
+      "startMs": 20851.0,
+      "endMs": 22941.0,
+      "charStart": 247,
+      "charEnd": 278
+    },
+    {
+      "id": "s0008",
+      "text": "They don’t need a complete explanation.",
+      "startMs": 22941.0,
+      "endMs": 25507.0,
+      "charStart": 278,
+      "charEnd": 317
+    },
+    {
+      "id": "s0009",
+      "text": "They only need to recognize that what was true a moment ago is no longer true now.",
+      "startMs": 25507.0,
+      "endMs": 30975.0,
+      "charStart": 317,
+      "charEnd": 399
+    },
+    {
+      "id": "s0010",
+      "text": "They say it.",
+      "startMs": 31776.0,
+      "endMs": 32763.0,
+      "charStart": 403,
+      "charEnd": 415
+    },
+    {
+      "id": "s0011",
+      "text": "“We’re off.”",
+      "startMs": 33576.0,
+      "endMs": 34632.0,
+      "charStart": 417,
+      "charEnd": 429
+    },
+    {
+      "id": "s0012",
+      "text": "The boat is already moving.",
+      "startMs": 35933.0,
+      "endMs": 37570.0,
+      "charStart": 431,
+      "charEnd": 458
+    },
+    {
+      "id": "s0013",
+      "text": "Momentum carries it forward.",
+      "startMs": 37744.0,
+      "endMs": 39520.0,
+      "charStart": 459,
+      "charEnd": 487
+    },
+    {
+      "id": "s0014",
+      "text": "The previous course still has weight.",
+      "startMs": 39520.0,
+      "endMs": 41947.0,
+      "charStart": 487,
+      "charEnd": 524
+    },
+    {
+      "id": "s0015",
+      "text": "It would be easier to hold the line and adjust later.",
+      "startMs": 41947.0,
+      "endMs": 45070.0,
+      "charStart": 524,
+      "charEnd": 577
+    },
+    {
+      "id": "s0016",
+      "text": "But later makes the correction larger.",
+      "startMs": 45720.0,
+      "endMs": 48286.0,
+      "charStart": 581,
+      "charEnd": 619
+    },
+    {
+      "id": "s0017",
+      "text": "The question is not whether the plan was right.",
+      "startMs": 48286.0,
+      "endMs": 51107.0,
+      "charStart": 619,
+      "charEnd": 666
+    },
+    {
+      "id": "s0018",
+      "text": "The question is whether it still fits.",
+      "startMs": 51606.0,
+      "endMs": 54103.0,
+      "charStart": 668,
+      "charEnd": 706
+    },
+    {
+      "id": "s0019",
+      "text": "If the signal has arrived early enough, something simple is still",
+      "startMs": 54428.0,
+      "endMs": 58038.0,
+      "charStart": 708,
+      "charEnd": 773
+    },
+    {
+      "id": "s0020",
+      "text": "possible.",
+      "startMs": 58108.0,
+      "endMs": 58851.0,
+      "charStart": 774,
+      "charEnd": 783
+    },
+    {
+      "id": "s0021",
+      "text": "Feedback Drives Change.",
+      "startMs": 59966.0,
+      "endMs": 62032.0,
+      "charStart": 785,
+      "charEnd": 808
+    },
+    {
+      "id": "s0022",
+      "text": "The adjustment is not dramatic.",
+      "startMs": 63147.0,
+      "endMs": 65074.0,
+      "charStart": 810,
+      "charEnd": 841
+    },
+    {
+      "id": "s0023",
+      "text": "A shift in the sail.",
+      "startMs": 65318.0,
+      "endMs": 66676.0,
+      "charStart": 842,
+      "charEnd": 862
+    },
+    {
+      "id": "s0024",
+      "text": "A small turn of the wheel.",
+      "startMs": 66676.0,
+      "endMs": 68244.0,
+      "charStart": 862,
+      "charEnd": 888
+    },
+    {
+      "id": "s0025",
+      "text": "A new line taken, based on what is actually happening now.",
+      "startMs": 68778.0,
+      "endMs": 72295.0,
+      "charStart": 890,
+      "charEnd": 948
+    },
+    {
+      "id": "s0026",
+      "text": "Nothing is discarded.",
+      "startMs": 72806.0,
+      "endMs": 74176.0,
+      "charStart": 950,
+      "charEnd": 971
+    },
+    {
+      "id": "s0027",
+      "text": "What was decided before still mattered.",
+      "startMs": 74501.0,
+      "endMs": 76916.0,
+      "charStart": 972,
+      "charEnd": 1011
+    },
+    {
+      "id": "s0028",
+      "text": "But it does not need to be defended.",
+      "startMs": 76916.0,
+      "endMs": 79168.0,
+      "charStart": 1011,
+      "charEnd": 1047
+    },
+    {
+      "id": "s0029",
+      "text": "The group is not trying to preserve the plan.",
+      "startMs": 79888.0,
+      "endMs": 82430.0,
+      "charStart": 1050,
+      "charEnd": 1095
+    },
+    {
+      "id": "s0030",
+      "text": "It is trying to stay aligned with reality.",
+      "startMs": 82430.0,
+      "endMs": 85240.0,
+      "charStart": 1095,
+      "charEnd": 1137
+    },
+    {
+      "id": "s0031",
+      "text": "This is what makes change possible.",
+      "startMs": 86181.0,
+      "endMs": 88270.0,
+      "charStart": 1139,
+      "charEnd": 1174
+    },
+    {
+      "id": "s0032",
+      "text": "When Feedback Drives Change, decisions do not harden too early.",
+      "startMs": 88967.0,
+      "endMs": 93135.0,
+      "charStart": 1176,
+      "charEnd": 1239
+    },
+    {
+      "id": "s0033",
+      "text": "They remain open long enough to respond.",
+      "startMs": 93135.0,
+      "endMs": 95863.0,
+      "charStart": 1239,
+      "charEnd": 1279
+    },
+    {
+      "id": "s0034",
+      "text": "This requires something subtle: the plan is not treated as final, changing direction is not seen as failure, and new information is still allowed to matter.",
+      "startMs": 95863.0,
+      "endMs": 105557.0,
+      "charStart": 1279,
+      "charEnd": 1435
+    },
+    {
+      "id": "s0035",
+      "text": "Without that room, something else begins to happen.",
+      "startMs": 106010.0,
+      "endMs": 108703.0,
+      "charStart": 1439,
+      "charEnd": 1490
+    },
+    {
+      "id": "s0036",
+      "text": "Signals are heard, but not acted on.",
+      "startMs": 108703.0,
+      "endMs": 111107.0,
+      "charStart": 1490,
+      "charEnd": 1526
+    },
+    {
+      "id": "s0037",
+      "text": "Concerns are raised, but not followed.",
+      "startMs": 111455.0,
+      "endMs": 113649.0,
+      "charStart": 1528,
+      "charEnd": 1566
+    },
+    {
+      "id": "s0038",
+      "text": "Adjustments are delayed.",
+      "startMs": 113649.0,
+      "endMs": 115275.0,
+      "charStart": 1566,
+      "charEnd": 1590
+    },
+    {
+      "id": "s0039",
+      "text": "The plan continues.",
+      "startMs": 115669.0,
+      "endMs": 117109.0,
+      "charStart": 1593,
+      "charEnd": 1612
+    },
+    {
+      "id": "s0040",
+      "text": "At first, this still works.",
+      "startMs": 117492.0,
+      "endMs": 119512.0,
+      "charStart": 1614,
+      "charEnd": 1641
+    },
+    {
+      "id": "s0041",
+      "text": "The difference is small.",
+      "startMs": 119663.0,
+      "endMs": 120998.0,
+      "charStart": 1642,
+      "charEnd": 1666
+    },
+    {
+      "id": "s0042",
+      "text": "The drift is gradual.",
+      "startMs": 120998.0,
+      "endMs": 122310.0,
+      "charStart": 1666,
+      "charEnd": 1687
+    },
+    {
+      "id": "s0043",
+      "text": "But the distance grows.",
+      "startMs": 122577.0,
+      "endMs": 124052.0,
+      "charStart": 1689,
+      "charEnd": 1712
+    },
+    {
+      "id": "s0044",
+      "text": "The longer a plan continues after it no longer fits, the harder it becomes to change.",
+      "startMs": 124261.0,
+      "endMs": 129276.0,
+      "charStart": 1714,
+      "charEnd": 1799
+    },
+    {
+      "id": "s0045",
+      "text": "Not because change is impossible.",
+      "startMs": 129450.0,
+      "endMs": 131180.0,
+      "charStart": 1800,
+      "charEnd": 1833
+    },
+    {
+      "id": "s0046",
+      "text": "Because it becomes more costly.",
+      "startMs": 131180.0,
+      "endMs": 132864.0,
+      "charStart": 1833,
+      "charEnd": 1864
+    },
+    {
+      "id": "s0047",
+      "text": "More visible.",
+      "startMs": 133142.0,
+      "endMs": 133990.0,
+      "charStart": 1866,
+      "charEnd": 1879
+    },
+    {
+      "id": "s0048",
+      "text": "More disruptive.",
+      "startMs": 134141.0,
+      "endMs": 135186.0,
+      "charStart": 1880,
+      "charEnd": 1896
+    },
+    {
+      "id": "s0049",
+      "text": "More difficult to explain.",
+      "startMs": 135337.0,
+      "endMs": 136811.0,
+      "charStart": 1897,
+      "charEnd": 1923
+    },
+    {
+      "id": "s0050",
+      "text": "So the plan continues.",
+      "startMs": 136962.0,
+      "endMs": 138483.0,
+      "charStart": 1925,
+      "charEnd": 1947
+    },
+    {
+      "id": "s0051",
+      "text": "And the gap between expectation and reality widens.",
+      "startMs": 138692.0,
+      "endMs": 143301.0,
+      "charStart": 1949,
+      "charEnd": 2000
+    },
+    {
+      "id": "s0052",
+      "text": "When **Feedback Drives Change**, adjustment is normal.",
+      "startMs": 143301.0,
+      "endMs": 149768.0,
+      "charStart": 2000,
+      "charEnd": 2054
+    },
+    {
+      "id": "s0053",
+      "text": "When it cannot, adjustment becomes a problem.",
+      "startMs": 149768.0,
+      "endMs": 153170.0,
+      "charStart": 2054,
+      "charEnd": 2099
+    },
+    {
+      "id": "s0054",
+      "text": "This is not about making perfect decisions.",
+      "startMs": 154238.0,
+      "endMs": 156908.0,
+      "charStart": 2102,
+      "charEnd": 2145
+    },
+    {
+      "id": "s0055",
+      "text": "It is about allowing decisions to be revised.",
+      "startMs": 156908.0,
+      "endMs": 159810.0,
+      "charStart": 2145,
+      "charEnd": 2190
+    },
+    {
+      "id": "s0056",
+      "text": "The earlier the change, the smaller it is.",
+      "startMs": 160472.0,
+      "endMs": 163317.0,
+      "charStart": 2193,
+      "charEnd": 2235
+    },
+    {
+      "id": "s0057",
+      "text": "A small shift keeps things aligned.",
+      "startMs": 163317.0,
+      "endMs": 166057.0,
+      "charStart": 2235,
+      "charEnd": 2270
+    },
+    {
+      "id": "s0058",
+      "text": "A delayed shift requires recovery.",
+      "startMs": 166533.0,
+      "endMs": 169238.0,
+      "charStart": 2272,
+      "charEnd": 2306
+    },
+    {
+      "id": "s0059",
+      "text": "This is why **Dissent is Welcomed** still matters for what follows.",
+      "startMs": 169238.0,
+      "endMs": 175739.0,
+      "charStart": 2306,
+      "charEnd": 2373
+    },
+    {
+      "id": "s0060",
+      "text": "Dissent is Welcomed so that Feedback Drives Change.",
+      "startMs": 176529.0,
+      "endMs": 180163.0,
+      "charStart": 2376,
+      "charEnd": 2427
+    },
+    {
+      "id": "s0061",
+      "text": "And when Feedback Drives Change, something important is preserved.",
+      "startMs": 180860.0,
+      "endMs": 184273.0,
+      "charStart": 2429,
+      "charEnd": 2495
+    },
+    {
+      "id": "s0062",
+      "text": "Decisions remain close to what happens next.",
+      "startMs": 184598.0,
+      "endMs": 187338.0,
+      "charStart": 2496,
+      "charEnd": 2540
+    },
+    {
+      "id": "s0063",
+      "text": "The boat stays aligned with the wind.",
+      "startMs": 187663.0,
+      "endMs": 189672.0,
+      "charStart": 2542,
+      "charEnd": 2579
+    },
+    {
+      "id": "s0064",
+      "text": "> A plan holds only while it still fits what is happening now.",
+      "startMs": 190484.0,
+      "endMs": 194792.0,
+      "charStart": 2581,
+      "charEnd": 2643
+    },
+    {
+      "id": "s0065",
+      "text": "From here, the loop completes—or begins to break.",
+      "startMs": 195233.0,
+      "endMs": 198007.0,
+      "charStart": 2645,
+      "charEnd": 2694
+    },
+    {
+      "id": "s0066",
+      "text": "If change is possible, the group stays aligned.",
+      "startMs": 198007.0,
+      "endMs": 200689.0,
+      "charStart": 2694,
+      "charEnd": 2741
+    },
+    {
+      "id": "s0067",
+      "text": "If it doesn’t, distance begins to grow.",
+      "startMs": 201072.0,
+      "endMs": 203557.0,
+      "charStart": 2743,
+      "charEnd": 2782
+    },
+    {
+      "id": "s0068",
+      "text": "When that distance becomes visible, the next question is whether the",
+      "startMs": 203882.0,
+      "endMs": 207400.0,
+      "charStart": 2784,
+      "charEnd": 2852
+    },
+    {
+      "id": "s0069",
+      "text": "people deciding still feel what their choices do.",
+      "startMs": 207458.0,
+      "endMs": 210500.0,
+      "charStart": 2853,
+      "charEnd": 2902
+    },
+    {
+      "id": "s0070",
+      "text": "(Reading, MA: Addison-Wesley, 1979); Karl E.",
+      "startMs": 210883.0,
+      "endMs": 215642.0,
+      "charStart": 2904,
+      "charEnd": 2948
+    },
+    {
+      "id": "s0071",
+      "text": "Weick, Kathleen M.",
+      "startMs": 215677.0,
+      "endMs": 217001.0,
+      "charStart": 2949,
+      "charEnd": 2967
+    },
+    {
+      "id": "s0072",
+      "text": "Sutcliffe, and David Obstfeld, \"Organizing and the Process of Sensemaking,\" *Organization Science* 16, no.",
+      "startMs": 217001.0,
+      "endMs": 224814.0,
+      "charStart": 2967,
+      "charEnd": 3073
+    },
+    {
+      "id": "s0073",
+      "text": "4 (2005): 409–421.",
+      "startMs": 225081.0,
+      "endMs": 229226.0,
+      "charStart": 3075,
+      "charEnd": 3093
+    }
+  ]
+}

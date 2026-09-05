@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-back-matter-conclusion",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "back-matter-conclusion",
+  "sourcePath": "back-matter/conclusion.md",
+  "sourceHash": "sha256:87c72bb53923118ae7bafb2630d7404379d043ce01507f109d71958bb1baddc0",
+  "spokenTextHash": "sha256:8713ada5556215f2441f914f5b2f04ffbad7fcd368754d600c6db6877de58e33",
+  "generationHash": "sha256:2ae3e99e8b25c59ea0a434fe1a04c43c5dd2e005b01c1d781be9e48f24218efb",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2744,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 686.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 686.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/back-matter-conclusion.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/back-matter-conclusion.mp3",
+  "audioSha256": "sha256:fc1952ed8e47531f5da2d15617655789dca191fb464b3d09b2cbe5cb6bf26325",
+  "generatedAt": "2026-09-05T15:12:36Z"
+}

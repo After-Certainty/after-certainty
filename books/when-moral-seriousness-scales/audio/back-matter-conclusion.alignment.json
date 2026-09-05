@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-back-matter-conclusion",
+  "generationHash": "sha256:2ae3e99e8b25c59ea0a434fe1a04c43c5dd2e005b01c1d781be9e48f24218efb",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Conclusion",
+      "startMs": 0.0,
+      "endMs": 766.0,
+      "charStart": 0,
+      "charEnd": 10
+    },
+    {
+      "id": "s0002",
+      "text": "After Certainty, Before Collapse",
+      "startMs": 1718.0,
+      "endMs": 4168.0,
+      "charStart": 12,
+      "charEnd": 44
+    },
+    {
+      "id": "s0003",
+      "text": "For a long time, shared certainty stabilized moral life.",
+      "startMs": 5468.0,
+      "endMs": 9543.0,
+      "charStart": 46,
+      "charEnd": 102
+    },
+    {
+      "id": "s0004",
+      "text": "Norms did not need to be defended constantly because they were broadly assumed.",
+      "startMs": 9543.0,
+      "endMs": 14222.0,
+      "charStart": 102,
+      "charEnd": 181
+    },
+    {
+      "id": "s0005",
+      "text": "Authority did not need to justify itself repeatedly because its limits were culturally understood.",
+      "startMs": 14222.0,
+      "endMs": 19691.0,
+      "charStart": 181,
+      "charEnd": 279
+    },
+    {
+      "id": "s0006",
+      "text": "Restraint was reinforced by expectation.",
+      "startMs": 20283.0,
+      "endMs": 22756.0,
+      "charStart": 282,
+      "charEnd": 322
+    },
+    {
+      "id": "s0007",
+      "text": "Contestability was supported by habit.",
+      "startMs": 22930.0,
+      "endMs": 25321.0,
+      "charStart": 323,
+      "charEnd": 361
+    },
+    {
+      "id": "s0008",
+      "text": "That stabilization has weakened.",
+      "startMs": 25565.0,
+      "endMs": 27527.0,
+      "charStart": 363,
+      "charEnd": 395
+    },
+    {
+      "id": "s0009",
+      "text": "Shared assumptions fracture more quickly.",
+      "startMs": 27852.0,
+      "endMs": 30023.0,
+      "charStart": 397,
+      "charEnd": 438
+    },
+    {
+      "id": "s0010",
+      "text": "Reciprocity thins under scale.",
+      "startMs": 30302.0,
+      "endMs": 32322.0,
+      "charStart": 439,
+      "charEnd": 469
+    },
+    {
+      "id": "s0011",
+      "text": "Acceleration rewards speed over deliberation.",
+      "startMs": 32531.0,
+      "endMs": 35527.0,
+      "charStart": 470,
+      "charEnd": 515
+    },
+    {
+      "id": "s0012",
+      "text": "Structural pressure is not imagined; it is real.",
+      "startMs": 35527.0,
+      "endMs": 39195.0,
+      "charStart": 515,
+      "charEnd": 563
+    },
+    {
+      "id": "s0013",
+      "text": "Distance, asymmetry, and incentive gradients alter the operating environment of leadership in durable ways.",
+      "startMs": 39195.0,
+      "endMs": 45616.0,
+      "charStart": 563,
+      "charEnd": 670
+    },
+    {
+      "id": "s0014",
+      "text": "It would be easy to read this thinning as collapse.",
+      "startMs": 46266.0,
+      "endMs": 48901.0,
+      "charStart": 674,
+      "charEnd": 725
+    },
+    {
+      "id": "s0015",
+      "text": "But thinning is not the same as inevitability.",
+      "startMs": 49110.0,
+      "endMs": 51420.0,
+      "charStart": 727,
+      "charEnd": 773
+    },
+    {
+      "id": "s0016",
+      "text": "After certainty, moral seriousness cannot rely on ambient reinforcement.",
+      "startMs": 51594.0,
+      "endMs": 56482.0,
+      "charStart": 775,
+      "charEnd": 847
+    },
+    {
+      "id": "s0017",
+      "text": "It must operate deliberately under altered conditions.",
+      "startMs": 56633.0,
+      "endMs": 59884.0,
+      "charStart": 848,
+      "charEnd": 902
+    },
+    {
+      "id": "s0018",
+      "text": "Where reciprocity once stabilized restraint automatically, judgment must now sustain it consciously.",
+      "startMs": 59884.0,
+      "endMs": 65631.0,
+      "charStart": 902,
+      "charEnd": 1002
+    },
+    {
+      "id": "s0019",
+      "text": "Where norms once constrained power invisibly, limits must be designed and renewed.",
+      "startMs": 65631.0,
+      "endMs": 71041.0,
+      "charStart": 1002,
+      "charEnd": 1084
+    },
+    {
+      "id": "s0020",
+      "text": "Scale increases pressure.",
+      "startMs": 71436.0,
+      "endMs": 72980.0,
+      "charStart": 1088,
+      "charEnd": 1113
+    },
+    {
+      "id": "s0021",
+      "text": "Asymmetry increases speed.",
+      "startMs": 73259.0,
+      "endMs": 75081.0,
+      "charStart": 1114,
+      "charEnd": 1140
+    },
+    {
+      "id": "s0022",
+      "text": "Acceleration narrows the space in which thinking feels affordable.",
+      "startMs": 75081.0,
+      "endMs": 78843.0,
+      "charStart": 1140,
+      "charEnd": 1206
+    },
+    {
+      "id": "s0023",
+      "text": "But none of these forces eliminate judgment.",
+      "startMs": 78843.0,
+      "endMs": 81316.0,
+      "charStart": 1206,
+      "charEnd": 1250
+    },
+    {
+      "id": "s0024",
+      "text": "They raise its cost.",
+      "startMs": 81862.0,
+      "endMs": 83278.0,
+      "charStart": 1253,
+      "charEnd": 1273
+    },
+    {
+      "id": "s0025",
+      "text": "The danger of this moment is not that structure determines everything.",
+      "startMs": 83662.0,
+      "endMs": 87354.0,
+      "charStart": 1275,
+      "charEnd": 1345
+    },
+    {
+      "id": "s0026",
+      "text": "It is that actors begin to treat structure as destiny.",
+      "startMs": 87528.0,
+      "endMs": 90860.0,
+      "charStart": 1346,
+      "charEnd": 1400
+    },
+    {
+      "id": "s0027",
+      "text": "Once pressure is mistaken for inevitability, acceleration becomes self-justifying.",
+      "startMs": 90860.0,
+      "endMs": 95968.0,
+      "charStart": 1400,
+      "charEnd": 1482
+    },
+    {
+      "id": "s0028",
+      "text": "What is merely advantageous begins to feel unavoidable.",
+      "startMs": 95968.0,
+      "endMs": 99916.0,
+      "charStart": 1482,
+      "charEnd": 1537
+    },
+    {
+      "id": "s0029",
+      "text": "This book has argued something narrower and more demanding.",
+      "startMs": 100809.0,
+      "endMs": 104072.0,
+      "charStart": 1541,
+      "charEnd": 1600
+    },
+    {
+      "id": "s0030",
+      "text": "Moral seriousness does not guarantee success.",
+      "startMs": 104583.0,
+      "endMs": 107590.0,
+      "charStart": 1602,
+      "charEnd": 1647
+    },
+    {
+      "id": "s0031",
+      "text": "It does not ensure dominance.",
+      "startMs": 107590.0,
+      "endMs": 109633.0,
+      "charStart": 1647,
+      "charEnd": 1676
+    },
+    {
+      "id": "s0032",
+      "text": "It does not reverse asymmetry.",
+      "startMs": 110063.0,
+      "endMs": 112048.0,
+      "charStart": 1678,
+      "charEnd": 1708
+    },
+    {
+      "id": "s0033",
+      "text": "What it can do—if chosen deliberately—is preserve contestability, slow harm, and prevent authority from becoming automatic.",
+      "startMs": 112048.0,
+      "endMs": 120627.0,
+      "charStart": 1708,
+      "charEnd": 1831
+    },
+    {
+      "id": "s0034",
+      "text": "It can keep judgment alive inside systems that reward speed.",
+      "startMs": 120627.0,
+      "endMs": 124761.0,
+      "charStart": 1831,
+      "charEnd": 1891
+    },
+    {
+      "id": "s0035",
+      "text": "Nothing here is inevitable.",
+      "startMs": 125469.0,
+      "endMs": 127082.0,
+      "charStart": 1895,
+      "charEnd": 1922
+    },
+    {
+      "id": "s0036",
+      "text": "Escalation is incremental.",
+      "startMs": 127466.0,
+      "endMs": 129451.0,
+      "charStart": 1924,
+      "charEnd": 1950
+    },
+    {
+      "id": "s0037",
+      "text": "Legitimacy transfer is contingent.",
+      "startMs": 129730.0,
+      "endMs": 131831.0,
+      "charStart": 1951,
+      "charEnd": 1985
+    },
+    {
+      "id": "s0038",
+      "text": "Incentive gradients can be countered with friction.",
+      "startMs": 131831.0,
+      "endMs": 134652.0,
+      "charStart": 1985,
+      "charEnd": 2036
+    },
+    {
+      "id": "s0039",
+      "text": "Structural pressure shapes choices; it does not remove them.",
+      "startMs": 134652.0,
+      "endMs": 138356.0,
+      "charStart": 2036,
+      "charEnd": 2096
+    },
+    {
+      "id": "s0040",
+      "text": "The absence of certainty does not absolve responsibility.",
+      "startMs": 138356.0,
+      "endMs": 141734.0,
+      "charStart": 2096,
+      "charEnd": 2153
+    },
+    {
+      "id": "s0041",
+      "text": "It increases it.",
+      "startMs": 142268.0,
+      "endMs": 143360.0,
+      "charStart": 2157,
+      "charEnd": 2173
+    },
+    {
+      "id": "s0042",
+      "text": "We stand, then, not after collapse, but after certainty.",
+      "startMs": 143639.0,
+      "endMs": 146820.0,
+      "charStart": 2175,
+      "charEnd": 2231
+    },
+    {
+      "id": "s0043",
+      "text": "In such a moment, the question is not whether structure will press.",
+      "startMs": 146994.0,
+      "endMs": 150732.0,
+      "charStart": 2233,
+      "charEnd": 2300
+    },
+    {
+      "id": "s0044",
+      "text": "It will.",
+      "startMs": 150732.0,
+      "endMs": 151533.0,
+      "charStart": 2300,
+      "charEnd": 2308
+    },
+    {
+      "id": "s0045",
+      "text": "The question is whether thinking people continue to interrupt momentum where it matters—whether they refuse to convert speed into necessity and inheritance into permission.",
+      "startMs": 151533.0,
+      "endMs": 160891.0,
+      "charStart": 2308,
+      "charEnd": 2480
+    },
+    {
+      "id": "s0046",
+      "text": "After certainty, judgment becomes less comfortable and more essential.",
+      "startMs": 161912.0,
+      "endMs": 166057.0,
+      "charStart": 2484,
+      "charEnd": 2554
+    },
+    {
+      "id": "s0047",
+      "text": "The future is not secured by shared assumptions.",
+      "startMs": 166568.0,
+      "endMs": 169331.0,
+      "charStart": 2556,
+      "charEnd": 2604
+    },
+    {
+      "id": "s0048",
+      "text": "It is shaped by whether judgment persists under thinning conditions.",
+      "startMs": 169331.0,
+      "endMs": 173244.0,
+      "charStart": 2604,
+      "charEnd": 2672
+    },
+    {
+      "id": "s0049",
+      "text": "“After certainty, responsibility does not diminish.",
+      "startMs": 173778.0,
+      "endMs": 176506.0,
+      "charStart": 2675,
+      "charEnd": 2726
+    },
+    {
+      "id": "s0050",
+      "text": "It concentrates.”",
+      "startMs": 176680.0,
+      "endMs": 177958.0,
+      "charStart": 2727,
+      "charEnd": 2744
+    }
+  ]
+}

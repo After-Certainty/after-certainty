@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-4-what-remains-possible-chapter-10-limited-but-real",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-4-what-remains-possible-chapter-10-limited-but-real",
+  "sourcePath": "parts/part-4-what-remains-possible/chapter-10-limited-but-real.md",
+  "sourceHash": "sha256:0b4bb80356eff7e8f94b8896da53a7d28f95cc83fb0da95a06bed7ba5415fb71",
+  "spokenTextHash": "sha256:bdfea6a5ca58da378d724474735c57051441cd39c285df983251fe6da2d98d01",
+  "generationHash": "sha256:7ed2b39d144d464ed170de90492c4d1144de98feea462602acc2dc36f23174bd",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2322,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 580.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 580.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-4-what-remains-possible-chapter-10-limited-but-real.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-4-what-remains-possible-chapter-10-limited-but-real.mp3",
+  "audioSha256": "sha256:b5f026fb203fb43f8de6d8977dc53caef336bb359ad9900320ba78a67663269e",
+  "generatedAt": "2026-09-05T15:12:27Z"
+}

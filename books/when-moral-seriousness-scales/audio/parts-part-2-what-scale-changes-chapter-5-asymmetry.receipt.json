@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-2-what-scale-changes-chapter-5-asymmetry",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-2-what-scale-changes-chapter-5-asymmetry",
+  "sourcePath": "parts/part-2-what-scale-changes/chapter-5-asymmetry.md",
+  "sourceHash": "sha256:682fbbeb007abefa19cce720d51cc2e82a346f78d7b3063befb29df913598085",
+  "spokenTextHash": "sha256:3f078d19bfb0c9e5c7b9f6bf785114b30866bd1ec03f6c6fc4053ba94e0dbe9d",
+  "generationHash": "sha256:4705b400803133c0ce3ef42a2c7471b436364e0bd46a697f88ecb0018a32d157",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2945,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 736.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 736.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-2-what-scale-changes-chapter-5-asymmetry.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-2-what-scale-changes-chapter-5-asymmetry.mp3",
+  "audioSha256": "sha256:144de0afbcde5766800d776c5dcbd3327f5added696e980a4ca3f97dcf6a019b",
+  "generatedAt": "2026-09-05T15:11:25Z"
+}

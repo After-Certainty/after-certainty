@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-2-what-scale-changes-bridge",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-2-what-scale-changes-bridge",
+  "sourcePath": "parts/part-2-what-scale-changes/bridge.md",
+  "sourceHash": "sha256:2ba24df311595011d273e1b5c61e4faee04b7b20cf428918dbdfdf4418cd5b1d",
+  "spokenTextHash": "sha256:3c294bc22d830f6fe5448f25932ab488a79f0095064a020848b9c87249bf0e19",
+  "generationHash": "sha256:4ae262bd6b5e19fea69ace7d81137f94fb340f695044104fc3d58063b3ece379",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 851,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 212.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 212.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-2-what-scale-changes-bridge.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-2-what-scale-changes-bridge.mp3",
+  "audioSha256": "sha256:23dbf0bd2b6bb5c397b85495076e697addd5bcfad3776a48b53ab6e68386fd58",
+  "generatedAt": "2026-09-05T15:11:05Z"
+}

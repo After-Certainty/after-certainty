@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-1-the-human-scale-model-bridge",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-1-the-human-scale-model-bridge",
+  "sourcePath": "parts/part-1-the-human-scale-model/bridge.md",
+  "sourceHash": "sha256:2cf940260821e8bfb705315c08fa0b85bff48d0b1ff60dbcada6cf074286be9f",
+  "spokenTextHash": "sha256:1036c571ca9244e5dde184a489df58f2f3a3c07575742defd6495410cc3be1a1",
+  "generationHash": "sha256:ae44ac3ca200929ba48534c005ee2f01eb06ac4813a06768c7c1c1d391c22c65",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 684,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 171.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 171.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-1-the-human-scale-model-bridge.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-1-the-human-scale-model-bridge.mp3",
+  "audioSha256": "sha256:d1c55deaa37179a0ccc268d84c773ac190ffd648182b9604e5a59630973dabc5",
+  "generatedAt": "2026-09-05T15:10:26Z"
+}

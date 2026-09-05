@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-front-matter-preface",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "front-matter-preface",
+  "sourcePath": "front-matter/preface.md",
+  "sourceHash": "sha256:c94a0f97296668c9a6a3dd72b9a002191c5535b3c68766cd866b3abad6124e7e",
+  "spokenTextHash": "sha256:8043615476f3f19124ae2608b4f0f14ab081ea301c8ae920b2ffff90414c73a6",
+  "generationHash": "sha256:2696ad0b6359e77d0b81277b3c87e74fe037b5338c3c4400505bc2081a654016",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3131,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 782.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 782.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/front-matter-preface.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/front-matter-preface.mp3",
+  "audioSha256": "sha256:5e1adc50a352630cdcc55ee61fb8c75bd17c7cc53ddabe23c47ea5588b69f49e",
+  "generatedAt": "2026-09-05T15:10:10Z"
+}

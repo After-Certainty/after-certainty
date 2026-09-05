@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-3-the-pressure-point-chapter-7-the-acceleration-threshold",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-3-the-pressure-point-chapter-7-the-acceleration-threshold",
+  "sourcePath": "parts/part-3-the-pressure-point/chapter-7-the-acceleration-threshold.md",
+  "sourceHash": "sha256:8fa6902bbadb6b908e133af3116fb6b6a4a7c8acbed404ca73396d77ef37a63e",
+  "spokenTextHash": "sha256:57f7d3a0ae65726d905ebb519cf3412707540483e8b0ddecd505ddf7fa365859",
+  "generationHash": "sha256:001ee9f5eb2cb2e04543cd819262da1961da8750cfc8e77ec773b5a60de8d863",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2402,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 600.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 600.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-3-the-pressure-point-chapter-7-the-acceleration-threshold.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-3-the-pressure-point-chapter-7-the-acceleration-threshold.mp3",
+  "audioSha256": "sha256:9e5f7142a213fe5a093160706a801ee73c58873f525c7434571aba65f61d6533",
+  "generatedAt": "2026-09-05T15:11:51Z"
+}

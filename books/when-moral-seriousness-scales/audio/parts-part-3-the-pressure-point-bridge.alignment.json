@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-3-the-pressure-point-bridge",
+  "generationHash": "sha256:87f2a045dd50ba379b5e3b88ca2f6197d6d76970d667f89d7be2a5b6212b6665",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part III — The Pressure Point",
+      "startMs": 0.0,
+      "endMs": 2403.0,
+      "charStart": 0,
+      "charEnd": 29
+    },
+    {
+      "id": "s0002",
+      "text": "Distance stretches consequence.",
+      "startMs": 3216.0,
+      "endMs": 5225.0,
+      "charStart": 31,
+      "charEnd": 62
+    },
+    {
+      "id": "s0003",
+      "text": "Asymmetry redistributes exposure.",
+      "startMs": 5666.0,
+      "endMs": 8290.0,
+      "charStart": 63,
+      "charEnd": 96
+    },
+    {
+      "id": "s0004",
+      "text": "Incentives begin to favor movement over deliberation.",
+      "startMs": 8731.0,
+      "endMs": 12226.0,
+      "charStart": 97,
+      "charEnd": 150
+    },
+    {
+      "id": "s0005",
+      "text": "Over time, these shifts become perceptible.",
+      "startMs": 12226.0,
+      "endMs": 15453.0,
+      "charStart": 150,
+      "charEnd": 193
+    },
+    {
+      "id": "s0006",
+      "text": "Actors notice when restraint feels selectively costly.",
+      "startMs": 15871.0,
+      "endMs": 19331.0,
+      "charStart": 196,
+      "charEnd": 250
+    },
+    {
+      "id": "s0007",
+      "text": "They notice when speed accumulates advantage.",
+      "startMs": 19331.0,
+      "endMs": 22489.0,
+      "charStart": 250,
+      "charEnd": 295
+    },
+    {
+      "id": "s0008",
+      "text": "They notice when reciprocity no longer stabilizes behavior automatically.",
+      "startMs": 22489.0,
+      "endMs": 27504.0,
+      "charStart": 295,
+      "charEnd": 368
+    },
+    {
+      "id": "s0009",
+      "text": "This is the pressure point.",
+      "startMs": 28038.0,
+      "endMs": 29710.0,
+      "charStart": 372,
+      "charEnd": 399
+    },
+    {
+      "id": "s0010",
+      "text": "It is not collapse.",
+      "startMs": 30035.0,
+      "endMs": 31661.0,
+      "charStart": 401,
+      "charEnd": 420
+    },
+    {
+      "id": "s0011",
+      "text": "It is not destiny.",
+      "startMs": 31870.0,
+      "endMs": 33437.0,
+      "charStart": 421,
+      "charEnd": 439
+    },
+    {
+      "id": "s0012",
+      "text": "It is the moment when structural thinning becomes visible enough to influence choice.",
+      "startMs": 33437.0,
+      "endMs": 38650.0,
+      "charStart": 439,
+      "charEnd": 524
+    },
+    {
+      "id": "s0013",
+      "text": "The system does not force escalation.",
+      "startMs": 38650.0,
+      "endMs": 41355.0,
+      "charStart": 524,
+      "charEnd": 561
+    },
+    {
+      "id": "s0014",
+      "text": "It alters the field in which judgment must operate.",
+      "startMs": 41750.0,
+      "endMs": 45070.0,
+      "charStart": 564,
+      "charEnd": 615
+    },
+    {
+      "id": "s0015",
+      "text": "Part III examines that field—where acceleration begins to feel rational, where restraint begins to require intention, and where the possibility of drift emerges.",
+      "startMs": 46022.0,
+      "endMs": 57087.0,
+      "charStart": 617,
+      "charEnd": 778
+    },
+    {
+      "id": "s0016",
+      "text": "The question is not whether pressure exists.",
+      "startMs": 57412.0,
+      "endMs": 59827.0,
+      "charStart": 779,
+      "charEnd": 823
+    },
+    {
+      "id": "s0017",
+      "text": "It is how actors respond to it.",
+      "startMs": 59827.0,
+      "endMs": 61928.0,
+      "charStart": 823,
+      "charEnd": 854
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-1-forming-chapter-1-attention-finds-a-focus",
+  "generationHash": "sha256:47329fef0f07de82481258fc5adedef7ce69bf49d582a1f64a31ca8a3146d32d",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 1 — Attention Finds a Focus",
+      "startMs": 0.0,
+      "endMs": 3681.0,
+      "charStart": 0,
+      "charEnd": 35
+    },
+    {
+      "id": "s0002",
+      "text": "A group of musicians is playing together.",
+      "startMs": 4377.0,
+      "endMs": 6746.0,
+      "charStart": 37,
+      "charEnd": 78
+    },
+    {
+      "id": "s0003",
+      "text": "No one announces what will happen next.",
+      "startMs": 6746.0,
+      "endMs": 9196.0,
+      "charStart": 78,
+      "charEnd": 117
+    },
+    {
+      "id": "s0004",
+      "text": "There is no signal, no handoff, no instruction.",
+      "startMs": 9579.0,
+      "endMs": 12876.0,
+      "charStart": 119,
+      "charEnd": 166
+    },
+    {
+      "id": "s0005",
+      "text": "One of them starts a phrase.",
+      "startMs": 12876.0,
+      "endMs": 14977.0,
+      "charStart": 166,
+      "charEnd": 194
+    },
+    {
+      "id": "s0006",
+      "text": "It’s small at first.",
+      "startMs": 15117.0,
+      "endMs": 16603.0,
+      "charStart": 196,
+      "charEnd": 216
+    },
+    {
+      "id": "s0007",
+      "text": "Almost tentative.",
+      "startMs": 16754.0,
+      "endMs": 17926.0,
+      "charStart": 217,
+      "charEnd": 234
+    },
+    {
+      "id": "s0008",
+      "text": "A few notes that don’t interrupt the rhythm, but don’t quite sit inside it either.",
+      "startMs": 17926.0,
+      "endMs": 22442.0,
+      "charStart": 234,
+      "charEnd": 316
+    },
+    {
+      "id": "s0009",
+      "text": "The others don’t stop.",
+      "startMs": 22442.0,
+      "endMs": 23859.0,
+      "charStart": 316,
+      "charEnd": 338
+    },
+    {
+      "id": "s0010",
+      "text": "But they adjust.",
+      "startMs": 24335.0,
+      "endMs": 25426.0,
+      "charStart": 341,
+      "charEnd": 357
+    },
+    {
+      "id": "s0011",
+      "text": "The drummer softens.",
+      "startMs": 25751.0,
+      "endMs": 27168.0,
+      "charStart": 358,
+      "charEnd": 378
+    },
+    {
+      "id": "s0012",
+      "text": "The bass holds steady.",
+      "startMs": 27168.0,
+      "endMs": 28677.0,
+      "charStart": 378,
+      "charEnd": 400
+    },
+    {
+      "id": "s0013",
+      "text": "The piano leaves space where it didn’t before.",
+      "startMs": 28979.0,
+      "endMs": 31510.0,
+      "charStart": 402,
+      "charEnd": 448
+    },
+    {
+      "id": "s0014",
+      "text": "Nothing has been said.",
+      "startMs": 31510.0,
+      "endMs": 32938.0,
+      "charStart": 448,
+      "charEnd": 470
+    },
+    {
+      "id": "s0015",
+      "text": "No role has been assigned.",
+      "startMs": 33298.0,
+      "endMs": 34935.0,
+      "charStart": 472,
+      "charEnd": 498
+    },
+    {
+      "id": "s0016",
+      "text": "But something has changed.",
+      "startMs": 35086.0,
+      "endMs": 36827.0,
+      "charStart": 499,
+      "charEnd": 525
+    },
+    {
+      "id": "s0017",
+      "text": "The music begins to organize itself around that one line.",
+      "startMs": 36827.0,
+      "endMs": 40670.0,
+      "charStart": 525,
+      "charEnd": 582
+    },
+    {
+      "id": "s0018",
+      "text": "No one assigns the solo.",
+      "startMs": 40925.0,
+      "endMs": 42574.0,
+      "charStart": 585,
+      "charEnd": 609
+    },
+    {
+      "id": "s0019",
+      "text": "Attention Finds a Focus, and everything else follows.",
+      "startMs": 42574.0,
+      "endMs": 47032.0,
+      "charStart": 609,
+      "charEnd": 662
+    },
+    {
+      "id": "s0020",
+      "text": "There is a moment before anything has been decided.",
+      "startMs": 47380.0,
+      "endMs": 50446.0,
+      "charStart": 665,
+      "charEnd": 716
+    },
+    {
+      "id": "s0021",
+      "text": "A question is raised.",
+      "startMs": 50446.0,
+      "endMs": 52164.0,
+      "charStart": 716,
+      "charEnd": 737
+    },
+    {
+      "id": "s0022",
+      "text": "Something doesn’t go as expected.",
+      "startMs": 52396.0,
+      "endMs": 54416.0,
+      "charStart": 739,
+      "charEnd": 772
+    },
+    {
+      "id": "s0023",
+      "text": "The plan no longer fits what is happening.",
+      "startMs": 54416.0,
+      "endMs": 56971.0,
+      "charStart": 772,
+      "charEnd": 814
+    },
+    {
+      "id": "s0024",
+      "text": "The room slows.",
+      "startMs": 57470.0,
+      "endMs": 58759.0,
+      "charStart": 816,
+      "charEnd": 831
+    },
+    {
+      "id": "s0025",
+      "text": "Not completely.",
+      "startMs": 58967.0,
+      "endMs": 60047.0,
+      "charStart": 832,
+      "charEnd": 847
+    },
+    {
+      "id": "s0026",
+      "text": "People are still present.",
+      "startMs": 60372.0,
+      "endMs": 61777.0,
+      "charStart": 848,
+      "charEnd": 873
+    },
+    {
+      "id": "s0027",
+      "text": "Someone shifts in their chair.",
+      "startMs": 62021.0,
+      "endMs": 63704.0,
+      "charStart": 874,
+      "charEnd": 904
+    },
+    {
+      "id": "s0028",
+      "text": "Another looks down at their notes.",
+      "startMs": 63913.0,
+      "endMs": 65771.0,
+      "charStart": 905,
+      "charEnd": 939
+    },
+    {
+      "id": "s0029",
+      "text": "A third starts to speak, then stops.",
+      "startMs": 65771.0,
+      "endMs": 68128.0,
+      "charStart": 939,
+      "charEnd": 975
+    },
+    {
+      "id": "s0030",
+      "text": "The conversation doesn’t move forward.",
+      "startMs": 68128.0,
+      "endMs": 70381.0,
+      "charStart": 975,
+      "charEnd": 1013
+    },
+    {
+      "id": "s0031",
+      "text": "It waits.",
+      "startMs": 70729.0,
+      "endMs": 71530.0,
+      "charStart": 1016,
+      "charEnd": 1025
+    },
+    {
+      "id": "s0032",
+      "text": "And then, without announcement, something changes.",
+      "startMs": 71681.0,
+      "endMs": 74758.0,
+      "charStart": 1027,
+      "charEnd": 1077
+    },
+    {
+      "id": "s0033",
+      "text": "People begin to look in the same direction.",
+      "startMs": 74758.0,
+      "endMs": 77149.0,
+      "charStart": 1077,
+      "charEnd": 1120
+    },
+    {
+      "id": "s0034",
+      "text": "It is subtle.",
+      "startMs": 77590.0,
+      "endMs": 78426.0,
+      "charStart": 1123,
+      "charEnd": 1136
+    },
+    {
+      "id": "s0035",
+      "text": "One person turns slightly.",
+      "startMs": 78867.0,
+      "endMs": 80551.0,
+      "charStart": 1137,
+      "charEnd": 1163
+    },
+    {
+      "id": "s0036",
+      "text": "Another follows.",
+      "startMs": 80667.0,
+      "endMs": 81735.0,
+      "charStart": 1164,
+      "charEnd": 1180
+    },
+    {
+      "id": "s0037",
+      "text": "A few more wait instead of speaking.",
+      "startMs": 81735.0,
+      "endMs": 83778.0,
+      "charStart": 1180,
+      "charEnd": 1216
+    },
+    {
+      "id": "s0038",
+      "text": "No one calls it out.",
+      "startMs": 84312.0,
+      "endMs": 85496.0,
+      "charStart": 1218,
+      "charEnd": 1238
+    },
+    {
+      "id": "s0039",
+      "text": "No one names it.",
+      "startMs": 85647.0,
+      "endMs": 86692.0,
+      "charStart": 1239,
+      "charEnd": 1255
+    },
+    {
+      "id": "s0040",
+      "text": "But it is felt.",
+      "startMs": 86692.0,
+      "endMs": 87958.0,
+      "charStart": 1255,
+      "charEnd": 1270
+    },
+    {
+      "id": "s0041",
+      "text": "Attention Finds a Focus.",
+      "startMs": 88678.0,
+      "endMs": 90663.0,
+      "charStart": 1273,
+      "charEnd": 1297
+    },
+    {
+      "id": "s0042",
+      "text": "Nothing formal has changed.",
+      "startMs": 91046.0,
+      "endMs": 92729.0,
+      "charStart": 1299,
+      "charEnd": 1326
+    },
+    {
+      "id": "s0043",
+      "text": "No role has been assigned.",
+      "startMs": 92938.0,
+      "endMs": 94494.0,
+      "charStart": 1327,
+      "charEnd": 1353
+    },
+    {
+      "id": "s0044",
+      "text": "No authority has been declared.",
+      "startMs": 94494.0,
+      "endMs": 96375.0,
+      "charStart": 1353,
+      "charEnd": 1384
+    },
+    {
+      "id": "s0045",
+      "text": "No decision has been made.",
+      "startMs": 96712.0,
+      "endMs": 98267.0,
+      "charStart": 1386,
+      "charEnd": 1412
+    },
+    {
+      "id": "s0046",
+      "text": "But something has already begun.",
+      "startMs": 98267.0,
+      "endMs": 100136.0,
+      "charStart": 1412,
+      "charEnd": 1444
+    },
+    {
+      "id": "s0047",
+      "text": "Someone is now being looked to.",
+      "startMs": 100589.0,
+      "endMs": 102331.0,
+      "charStart": 1447,
+      "charEnd": 1478
+    },
+    {
+      "id": "s0048",
+      "text": "This is where leadership starts.",
+      "startMs": 102574.0,
+      "endMs": 104328.0,
+      "charStart": 1480,
+      "charEnd": 1512
+    },
+    {
+      "id": "s0049",
+      "text": "Not with a title.",
+      "startMs": 104536.0,
+      "endMs": 105651.0,
+      "charStart": 1513,
+      "charEnd": 1530
+    },
+    {
+      "id": "s0050",
+      "text": "Not with control.",
+      "startMs": 105895.0,
+      "endMs": 107079.0,
+      "charStart": 1531,
+      "charEnd": 1548
+    },
+    {
+      "id": "s0051",
+      "text": "Not with responsibility.",
+      "startMs": 107079.0,
+      "endMs": 108716.0,
+      "charStart": 1548,
+      "charEnd": 1572
+    },
+    {
+      "id": "s0052",
+      "text": "Leadership begins when others look to you when deciding what to do next.",
+      "startMs": 108716.0,
+      "endMs": 112907.0,
+      "charStart": 1572,
+      "charEnd": 1644
+    },
+    {
+      "id": "s0053",
+      "text": "The moment doesn’t require intention.",
+      "startMs": 113557.0,
+      "endMs": 115612.0,
+      "charStart": 1648,
+      "charEnd": 1685
+    },
+    {
+      "id": "s0054",
+      "text": "The person being looked to may not notice.",
+      "startMs": 115612.0,
+      "endMs": 117899.0,
+      "charStart": 1685,
+      "charEnd": 1727
+    },
+    {
+      "id": "s0055",
+      "text": "Or they may feel it immediately.",
+      "startMs": 118062.0,
+      "endMs": 119780.0,
+      "charStart": 1729,
+      "charEnd": 1761
+    },
+    {
+      "id": "s0056",
+      "text": "A pause that lasts slightly longer.",
+      "startMs": 119780.0,
+      "endMs": 122009.0,
+      "charStart": 1761,
+      "charEnd": 1796
+    },
+    {
+      "id": "s0057",
+      "text": "A question that lands differently.",
+      "startMs": 122311.0,
+      "endMs": 124157.0,
+      "charStart": 1798,
+      "charEnd": 1832
+    },
+    {
+      "id": "s0058",
+      "text": "A sense that the room is waiting.",
+      "startMs": 124157.0,
+      "endMs": 126282.0,
+      "charStart": 1832,
+      "charEnd": 1865
+    },
+    {
+      "id": "s0059",
+      "text": "What happens next will not stay contained.",
+      "startMs": 126549.0,
+      "endMs": 129126.0,
+      "charStart": 1868,
+      "charEnd": 1910
+    },
+    {
+      "id": "s0060",
+      "text": "A response moves the conversation.",
+      "startMs": 129335.0,
+      "endMs": 131355.0,
+      "charStart": 1912,
+      "charEnd": 1946
+    },
+    {
+      "id": "s0061",
+      "text": "A reaction shapes what feels possible.",
+      "startMs": 131355.0,
+      "endMs": 133735.0,
+      "charStart": 1946,
+      "charEnd": 1984
+    },
+    {
+      "id": "s0062",
+      "text": "A choice begins to set direction.",
+      "startMs": 134025.0,
+      "endMs": 136080.0,
+      "charStart": 1986,
+      "charEnd": 2019
+    },
+    {
+      "id": "s0063",
+      "text": "People are not only listening for what is said.",
+      "startMs": 136521.0,
+      "endMs": 138890.0,
+      "charStart": 2021,
+      "charEnd": 2068
+    },
+    {
+      "id": "s0064",
+      "text": "They are watching for what it means: what is safe, what is expected, and what happens when something goes wrong.",
+      "startMs": 138890.0,
+      "endMs": 145496.0,
+      "charStart": 2068,
+      "charEnd": 2180
+    },
+    {
+      "id": "s0065",
+      "text": "And they adjust.",
+      "startMs": 146053.0,
+      "endMs": 147156.0,
+      "charStart": 2183,
+      "charEnd": 2199
+    },
+    {
+      "id": "s0066",
+      "text": "This adjustment is rarely conscious.",
+      "startMs": 147667.0,
+      "endMs": 149745.0,
+      "charStart": 2201,
+      "charEnd": 2237
+    },
+    {
+      "id": "s0067",
+      "text": "No one says, “We are learning how to behave.” But that is what is happening.",
+      "startMs": 149745.0,
+      "endMs": 154517.0,
+      "charStart": 2237,
+      "charEnd": 2313
+    },
+    {
+      "id": "s0068",
+      "text": "The moment extends.",
+      "startMs": 154993.0,
+      "endMs": 156549.0,
+      "charStart": 2316,
+      "charEnd": 2335
+    },
+    {
+      "id": "s0069",
+      "text": "A response is seen.",
+      "startMs": 156874.0,
+      "endMs": 158325.0,
+      "charStart": 2336,
+      "charEnd": 2355
+    },
+    {
+      "id": "s0070",
+      "text": "What is seen is repeated.",
+      "startMs": 158650.0,
+      "endMs": 160345.0,
+      "charStart": 2356,
+      "charEnd": 2381
+    },
+    {
+      "id": "s0071",
+      "text": "What begins as a single moment starts to carry forward.",
+      "startMs": 160345.0,
+      "endMs": 163782.0,
+      "charStart": 2381,
+      "charEnd": 2436
+    },
+    {
+      "id": "s0072",
+      "text": "When Attention Finds a Focus, influence follows.",
+      "startMs": 164908.0,
+      "endMs": 168136.0,
+      "charStart": 2439,
+      "charEnd": 2487
+    },
+    {
+      "id": "s0073",
+      "text": "Not because it was claimed.",
+      "startMs": 168136.0,
+      "endMs": 169552.0,
+      "charStart": 2487,
+      "charEnd": 2514
+    },
+    {
+      "id": "s0074",
+      "text": "Because it was given.",
+      "startMs": 170052.0,
+      "endMs": 171364.0,
+      "charStart": 2516,
+      "charEnd": 2537
+    },
+    {
+      "id": "s0075",
+      "text": "And once it is given, it does not remain neutral.",
+      "startMs": 171364.0,
+      "endMs": 174847.0,
+      "charStart": 2537,
+      "charEnd": 2586
+    },
+    {
+      "id": "s0076",
+      "text": "> Influence begins as permission others give, not as authority someone posts.",
+      "startMs": 175717.0,
+      "endMs": 181174.0,
+      "charStart": 2589,
+      "charEnd": 2666
+    },
+    {
+      "id": "s0077",
+      "text": "This moment is easy to miss.",
+      "startMs": 181557.0,
+      "endMs": 183310.0,
+      "charStart": 2668,
+      "charEnd": 2696
+    },
+    {
+      "id": "s0078",
+      "text": "There is no clear boundary where it begins.",
+      "startMs": 183484.0,
+      "endMs": 185806.0,
+      "charStart": 2697,
+      "charEnd": 2740
+    },
+    {
+      "id": "s0079",
+      "text": "No signal that marks the transition.",
+      "startMs": 186050.0,
+      "endMs": 188244.0,
+      "charStart": 2741,
+      "charEnd": 2777
+    },
+    {
+      "id": "s0080",
+      "text": "But it can be noticed.",
+      "startMs": 188453.0,
+      "endMs": 189939.0,
+      "charStart": 2778,
+      "charEnd": 2800
+    },
+    {
+      "id": "s0081",
+      "text": "You can see it when the room begins to wait.",
+      "startMs": 189939.0,
+      "endMs": 192401.0,
+      "charStart": 2800,
+      "charEnd": 2844
+    },
+    {
+      "id": "s0082",
+      "text": "You can feel it when one voice carries more weight than others.",
+      "startMs": 192401.0,
+      "endMs": 195791.0,
+      "charStart": 2844,
+      "charEnd": 2907
+    },
+    {
+      "id": "s0083",
+      "text": "You can hear it when conversation starts to converge.",
+      "startMs": 195791.0,
+      "endMs": 198681.0,
+      "charStart": 2907,
+      "charEnd": 2960
+    },
+    {
+      "id": "s0084",
+      "text": "You can also see when it does not happen.",
+      "startMs": 199238.0,
+      "endMs": 201340.0,
+      "charStart": 2965,
+      "charEnd": 3006
+    },
+    {
+      "id": "s0085",
+      "text": "When attention does not find a focus, conversations drift.",
+      "startMs": 201340.0,
+      "endMs": 205090.0,
+      "charStart": 3006,
+      "charEnd": 3064
+    },
+    {
+      "id": "s0086",
+      "text": "Decisions stall.",
+      "startMs": 205380.0,
+      "endMs": 206518.0,
+      "charStart": 3066,
+      "charEnd": 3082
+    },
+    {
+      "id": "s0087",
+      "text": "Energy disperses.",
+      "startMs": 206692.0,
+      "endMs": 208074.0,
+      "charStart": 3083,
+      "charEnd": 3100
+    },
+    {
+      "id": "s0088",
+      "text": "Nothing pulls the group together.",
+      "startMs": 208352.0,
+      "endMs": 209989.0,
+      "charStart": 3101,
+      "charEnd": 3134
+    },
+    {
+      "id": "s0089",
+      "text": "Leadership does not require certainty.",
+      "startMs": 210233.0,
+      "endMs": 212276.0,
+      "charStart": 3136,
+      "charEnd": 3174
+    },
+    {
+      "id": "s0090",
+      "text": "It begins in uncertainty.",
+      "startMs": 212427.0,
+      "endMs": 214215.0,
+      "charStart": 3175,
+      "charEnd": 3200
+    },
+    {
+      "id": "s0091",
+      "text": "Once Attention Finds a Focus, everything that follows builds from it.",
+      "startMs": 214540.0,
+      "endMs": 218674.0,
+      "charStart": 3201,
+      "charEnd": 3270
+    },
+    {
+      "id": "s0092",
+      "text": "Promoting Guest Leadership for Successful Collaboration,\" *Cutter IT",
+      "startMs": 218952.0,
+      "endMs": 223422.0,
+      "charStart": 3272,
+      "charEnd": 3340
+    },
+    {
+      "id": "s0093",
+      "text": "Journal*,",
+      "startMs": 223538.0,
+      "endMs": 224362.0,
+      "charStart": 3341,
+      "charEnd": 3350
+    },
+    {
+      "id": "s0094",
+      "text": "https://www.cutter.com/article/how-step-stepping-promoting-guest-leadership-successful-collaboration-494516.",
+      "startMs": 224571.0,
+      "endMs": 236553.0,
+      "charStart": 3351,
+      "charEnd": 3459
+    },
+    {
+      "id": "s0095",
+      "text": "Cliffs, NJ: Prentice Hall, 1977).",
+      "startMs": 236878.0,
+      "endMs": 239723.0,
+      "charStart": 3461,
+      "charEnd": 3494
+    }
+  ]
+}

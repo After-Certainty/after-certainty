@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-2-renewing-bridge",
+  "generationHash": "sha256:7404de938c90efb20a39a2197921e67ea4ad8c62e1d9017aa6e6bb7c8f208873",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Bridge — From Forming to Renewing",
+      "startMs": 0.0,
+      "endMs": 2821.0,
+      "charStart": 0,
+      "charEnd": 33
+    },
+    {
+      "id": "s0002",
+      "text": "Once attention has a steady address, information and adjustment begin to matter.",
+      "startMs": 3936.0,
+      "endMs": 8975.0,
+      "charStart": 35,
+      "charEnd": 115
+    },
+    {
+      "id": "s0003",
+      "text": "Part II—Renewing—follows the loop that keeps a group tied to what is actually happening—not only to what was decided last time.",
+      "startMs": 8975.0,
+      "endMs": 18170.0,
+      "charStart": 115,
+      "charEnd": 242
+    },
+    {
+      "id": "s0004",
+      "text": "Dissent is Welcomed.",
+      "startMs": 18669.0,
+      "endMs": 20318.0,
+      "charStart": 245,
+      "charEnd": 265
+    },
+    {
+      "id": "s0005",
+      "text": "Feedback Drives Change. **Leaders Feel the Consequences.** When these three hold together, the group can still correct course while the cost of change is small.",
+      "startMs": 20318.0,
+      "endMs": 31719.0,
+      "charStart": 265,
+      "charEnd": 425
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-1-the-human-scale-model-chapter-2-reciprocal-constraint",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-1-the-human-scale-model-chapter-2-reciprocal-constraint",
+  "sourcePath": "parts/part-1-the-human-scale-model/chapter-2-reciprocal-constraint.md",
+  "sourceHash": "sha256:1da903535ab156f6db89f75838262b1ec8a4d5c3fd13526ed1aa90e9a7520189",
+  "spokenTextHash": "sha256:2aaa274ba04ee75f279f7db8e0224fef525236583324b3743c48589ee74515fa",
+  "generationHash": "sha256:fe1a9f00709cecc82dbc6869904a5355a8121b746acfe7878bcbff6b9d164985",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3601,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 900.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 900.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-1-the-human-scale-model-chapter-2-reciprocal-constraint.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-1-the-human-scale-model-chapter-2-reciprocal-constraint.mp3",
+  "audioSha256": "sha256:ae1c7b45f8f7538084a7493f428cf5310caaea0f3b20ae1b267c1fedd0a4ef63",
+  "generatedAt": "2026-09-05T15:10:48Z"
+}

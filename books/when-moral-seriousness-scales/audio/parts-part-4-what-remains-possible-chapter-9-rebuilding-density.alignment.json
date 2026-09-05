@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-4-what-remains-possible-chapter-9-rebuilding-density",
+  "generationHash": "sha256:51fffafb0ca1dae583c0e67a460c186c93473cdf5054ab0d9921c58a58481a8e",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 9: Rebuilding Density",
+      "startMs": 0.0,
+      "endMs": 2298.0,
+      "charStart": 0,
+      "charEnd": 29
+    },
+    {
+      "id": "s0002",
+      "text": "Rebuilding Density",
+      "startMs": 2902.0,
+      "endMs": 4075.0,
+      "charStart": 30,
+      "charEnd": 48
+    },
+    {
+      "id": "s0003",
+      "text": "Scale thins reciprocity, but it does not eliminate the possibility of rebuilding it.",
+      "startMs": 4133.0,
+      "endMs": 9415.0,
+      "charStart": 50,
+      "charEnd": 134
+    },
+    {
+      "id": "s0004",
+      "text": "What disappears at scale is not morality itself, but moral density—the concentration of visible consequence, reciprocal constraint, and corrigibility that stabilizes leadership at human scale.",
+      "startMs": 9415.0,
+      "endMs": 22639.0,
+      "charStart": 134,
+      "charEnd": 326
+    },
+    {
+      "id": "s0005",
+      "text": "The task, then, is not to romanticize smallness or deny scale.",
+      "startMs": 23208.0,
+      "endMs": 27886.0,
+      "charStart": 328,
+      "charEnd": 390
+    },
+    {
+      "id": "s0006",
+      "text": "It is to reintroduce density deliberately inside larger systems.",
+      "startMs": 28130.0,
+      "endMs": 32472.0,
+      "charStart": 391,
+      "charEnd": 455
+    },
+    {
+      "id": "s0007",
+      "text": "Scale cannot be reversed.",
+      "startMs": 32646.0,
+      "endMs": 34376.0,
+      "charStart": 457,
+      "charEnd": 482
+    },
+    {
+      "id": "s0008",
+      "text": "Density can be designed.",
+      "startMs": 34550.0,
+      "endMs": 36431.0,
+      "charStart": 483,
+      "charEnd": 507
+    },
+    {
+      "id": "s0009",
+      "text": "The first mechanism is local reciprocity within large systems.",
+      "startMs": 36710.0,
+      "endMs": 40878.0,
+      "charStart": 509,
+      "charEnd": 571
+    },
+    {
+      "id": "s0010",
+      "text": "Even in complex institutions, work occurs in bounded units—teams, committees, divisions, communities of practice.",
+      "startMs": 40878.0,
+      "endMs": 48865.0,
+      "charStart": 571,
+      "charEnd": 684
+    },
+    {
+      "id": "s0011",
+      "text": "Where consequences remain visible within these units, restraint becomes reciprocal again.",
+      "startMs": 48865.0,
+      "endMs": 53962.0,
+      "charStart": 684,
+      "charEnd": 773
+    },
+    {
+      "id": "s0012",
+      "text": "Actors encounter the human cost of decisions.",
+      "startMs": 53962.0,
+      "endMs": 56899.0,
+      "charStart": 773,
+      "charEnd": 818
+    },
+    {
+      "id": "s0013",
+      "text": "Feedback is shorter.",
+      "startMs": 57491.0,
+      "endMs": 58792.0,
+      "charStart": 822,
+      "charEnd": 842
+    },
+    {
+      "id": "s0014",
+      "text": "Correction is faster.",
+      "startMs": 58966.0,
+      "endMs": 60487.0,
+      "charStart": 843,
+      "charEnd": 864
+    },
+    {
+      "id": "s0015",
+      "text": "Large systems that preserve meaningful sub-units retain pockets of moral density where contestability can survive.",
+      "startMs": 60487.0,
+      "endMs": 68230.0,
+      "charStart": 864,
+      "charEnd": 978
+    },
+    {
+      "id": "s0016",
+      "text": "The second mechanism is distributed authority.",
+      "startMs": 68602.0,
+      "endMs": 71330.0,
+      "charStart": 981,
+      "charEnd": 1027
+    },
+    {
+      "id": "s0017",
+      "text": "Concentrated authority accelerates action but magnifies asymmetry.",
+      "startMs": 71330.0,
+      "endMs": 75719.0,
+      "charStart": 1027,
+      "charEnd": 1093
+    },
+    {
+      "id": "s0018",
+      "text": "Distributed authority slows coordination while increasing exposure to dissent.",
+      "startMs": 75719.0,
+      "endMs": 80804.0,
+      "charStart": 1093,
+      "charEnd": 1171
+    },
+    {
+      "id": "s0019",
+      "text": "When decision-making is shared across roles rather than centralized in office, legitimacy becomes less dependent on individual restraint and more dependent on process.",
+      "startMs": 80804.0,
+      "endMs": 90904.0,
+      "charStart": 1171,
+      "charEnd": 1338
+    },
+    {
+      "id": "s0020",
+      "text": "Distributed authority does not eliminate conflict.",
+      "startMs": 90904.0,
+      "endMs": 94236.0,
+      "charStart": 1338,
+      "charEnd": 1388
+    },
+    {
+      "id": "s0021",
+      "text": "It prevents unilateral normalization.",
+      "startMs": 94898.0,
+      "endMs": 97557.0,
+      "charStart": 1393,
+      "charEnd": 1430
+    },
+    {
+      "id": "s0022",
+      "text": "The third mechanism is designed friction.",
+      "startMs": 97882.0,
+      "endMs": 100866.0,
+      "charStart": 1432,
+      "charEnd": 1473
+    },
+    {
+      "id": "s0023",
+      "text": "Friction is often treated as inefficiency.",
+      "startMs": 100866.0,
+      "endMs": 103582.0,
+      "charStart": 1473,
+      "charEnd": 1515
+    },
+    {
+      "id": "s0024",
+      "text": "In moral systems, friction can be protective.",
+      "startMs": 103931.0,
+      "endMs": 106694.0,
+      "charStart": 1517,
+      "charEnd": 1562
+    },
+    {
+      "id": "s0025",
+      "text": "Mandatory review, sunset clauses, transparent reporting requirements, and procedural delays are forms of intentional resistance to automatic escalation.",
+      "startMs": 106694.0,
+      "endMs": 116865.0,
+      "charStart": 1562,
+      "charEnd": 1714
+    },
+    {
+      "id": "s0026",
+      "text": "They do not assume actors will choose restraint.",
+      "startMs": 117224.0,
+      "endMs": 119883.0,
+      "charStart": 1716,
+      "charEnd": 1764
+    },
+    {
+      "id": "s0027",
+      "text": "They require reconsideration before authority expands.",
+      "startMs": 119883.0,
+      "endMs": 123529.0,
+      "charStart": 1764,
+      "charEnd": 1818
+    },
+    {
+      "id": "s0028",
+      "text": "Finally, institutional limits preserve constraint across time.",
+      "startMs": 123970.0,
+      "endMs": 127975.0,
+      "charStart": 1821,
+      "charEnd": 1883
+    },
+    {
+      "id": "s0029",
+      "text": "Authority that expires must be renewed.",
+      "startMs": 128300.0,
+      "endMs": 131319.0,
+      "charStart": 1884,
+      "charEnd": 1923
+    },
+    {
+      "id": "s0030",
+      "text": "Roles that rotate prevent identity fusion.",
+      "startMs": 131319.0,
+      "endMs": 134338.0,
+      "charStart": 1923,
+      "charEnd": 1965
+    },
+    {
+      "id": "s0031",
+      "text": "Decisions that require periodic reauthorization prevent precedent from hardening silently into permission.",
+      "startMs": 134338.0,
+      "endMs": 141060.0,
+      "charStart": 1965,
+      "charEnd": 2071
+    },
+    {
+      "id": "s0032",
+      "text": "Where legitimacy must be re-earned rather than inherited indefinitely, harm cannot proceed without renewed justification.",
+      "startMs": 141060.0,
+      "endMs": 149187.0,
+      "charStart": 2071,
+      "charEnd": 2192
+    },
+    {
+      "id": "s0033",
+      "text": "None of these mechanisms guarantee moral seriousness.",
+      "startMs": 150069.0,
+      "endMs": 153355.0,
+      "charStart": 2197,
+      "charEnd": 2250
+    },
+    {
+      "id": "s0034",
+      "text": "They do not create virtue.",
+      "startMs": 153482.0,
+      "endMs": 155085.0,
+      "charStart": 2252,
+      "charEnd": 2278
+    },
+    {
+      "id": "s0035",
+      "text": "They create conditions in which virtue remains possible.",
+      "startMs": 155085.0,
+      "endMs": 158266.0,
+      "charStart": 2278,
+      "charEnd": 2334
+    },
+    {
+      "id": "s0036",
+      "text": "They reduce the distance between authority and consequence.",
+      "startMs": 158266.0,
+      "endMs": 161807.0,
+      "charStart": 2334,
+      "charEnd": 2393
+    },
+    {
+      "id": "s0037",
+      "text": "They make contestability durable rather than symbolic.",
+      "startMs": 162225.0,
+      "endMs": 165777.0,
+      "charStart": 2396,
+      "charEnd": 2450
+    },
+    {
+      "id": "s0038",
+      "text": "They interrupt momentum before it becomes default.",
+      "startMs": 165777.0,
+      "endMs": 168854.0,
+      "charStart": 2450,
+      "charEnd": 2500
+    },
+    {
+      "id": "s0039",
+      "text": "Rebuilding density is not an argument for paralysis.",
+      "startMs": 169446.0,
+      "endMs": 172627.0,
+      "charStart": 2503,
+      "charEnd": 2555
+    },
+    {
+      "id": "s0040",
+      "text": "It is an argument for bounded acceleration.",
+      "startMs": 172627.0,
+      "endMs": 175413.0,
+      "charStart": 2555,
+      "charEnd": 2598
+    },
+    {
+      "id": "s0041",
+      "text": "Systems that incorporate expiration, distribution, and friction move more slowly.",
+      "startMs": 175413.0,
+      "endMs": 181787.0,
+      "charStart": 2598,
+      "charEnd": 2679
+    },
+    {
+      "id": "s0042",
+      "text": "They also accumulate fewer automatic harms.",
+      "startMs": 181787.0,
+      "endMs": 184446.0,
+      "charStart": 2679,
+      "charEnd": 2722
+    },
+    {
+      "id": "s0043",
+      "text": "“Scale cannot be undone.",
+      "startMs": 184910.0,
+      "endMs": 186454.0,
+      "charStart": 2727,
+      "charEnd": 2751
+    },
+    {
+      "id": "s0044",
+      "text": "But constraint can be redesigned.”",
+      "startMs": 186605.0,
+      "endMs": 188544.0,
+      "charStart": 2752,
+      "charEnd": 2786
+    }
+  ]
+}

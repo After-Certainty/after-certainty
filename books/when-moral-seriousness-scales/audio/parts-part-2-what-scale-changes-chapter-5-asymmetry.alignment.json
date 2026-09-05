@@ -1,0 +1,512 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-2-what-scale-changes-chapter-5-asymmetry",
+  "generationHash": "sha256:4705b400803133c0ce3ef42a2c7471b436364e0bd46a697f88ecb0018a32d157",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 5: Asymmetry",
+      "startMs": 0.0,
+      "endMs": 2403.0,
+      "charStart": 0,
+      "charEnd": 20
+    },
+    {
+      "id": "s0002",
+      "text": "Asymmetry",
+      "startMs": 3529.0,
+      "endMs": 4435.0,
+      "charStart": 21,
+      "charEnd": 30
+    },
+    {
+      "id": "s0003",
+      "text": "Distance stretches consequence.",
+      "startMs": 5549.0,
+      "endMs": 7755.0,
+      "charStart": 32,
+      "charEnd": 63
+    },
+    {
+      "id": "s0004",
+      "text": "Asymmetry distributes it unevenly.",
+      "startMs": 8138.0,
+      "endMs": 10727.0,
+      "charStart": 64,
+      "charEnd": 98
+    },
+    {
+      "id": "s0005",
+      "text": "When exposure to harm is no longer shared, reciprocal constraint weakens.",
+      "startMs": 11331.0,
+      "endMs": 16311.0,
+      "charStart": 100,
+      "charEnd": 173
+    },
+    {
+      "id": "s0006",
+      "text": "Some actors absorb cost directly.",
+      "startMs": 16555.0,
+      "endMs": 19017.0,
+      "charStart": 174,
+      "charEnd": 207
+    },
+    {
+      "id": "s0007",
+      "text": "Others experience it only indirectly—or not at all.",
+      "startMs": 19017.0,
+      "endMs": 22894.0,
+      "charStart": 207,
+      "charEnd": 258
+    },
+    {
+      "id": "s0008",
+      "text": "Constraint becomes selective.",
+      "startMs": 23219.0,
+      "endMs": 25054.0,
+      "charStart": 260,
+      "charEnd": 289
+    },
+    {
+      "id": "s0009",
+      "text": "When constraint becomes uneven, reciprocity thins.",
+      "startMs": 25205.0,
+      "endMs": 28781.0,
+      "charStart": 291,
+      "charEnd": 341
+    },
+    {
+      "id": "s0010",
+      "text": "Some actors absorb cost; others externalize it.",
+      "startMs": 28781.0,
+      "endMs": 32333.0,
+      "charStart": 341,
+      "charEnd": 388
+    },
+    {
+      "id": "s0011",
+      "text": "Moral seriousness becomes voluntary rather than reciprocal.",
+      "startMs": 32333.0,
+      "endMs": 36083.0,
+      "charStart": 388,
+      "charEnd": 447
+    },
+    {
+      "id": "s0012",
+      "text": "The system does not forbid restraint.",
+      "startMs": 36536.0,
+      "endMs": 38556.0,
+      "charStart": 450,
+      "charEnd": 487
+    },
+    {
+      "id": "s0013",
+      "text": "It stops requiring it.",
+      "startMs": 38556.0,
+      "endMs": 40274.0,
+      "charStart": 487,
+      "charEnd": 509
+    },
+    {
+      "id": "s0014",
+      "text": "Uneven Exposure to Consequence",
+      "startMs": 40692.0,
+      "endMs": 42863.0,
+      "charStart": 512,
+      "charEnd": 542
+    },
+    {
+      "id": "s0015",
+      "text": "In dense systems, consequence is widely felt.",
+      "startMs": 43107.0,
+      "endMs": 46265.0,
+      "charStart": 544,
+      "charEnd": 589
+    },
+    {
+      "id": "s0016",
+      "text": "Overreach produces friction for all participants.",
+      "startMs": 46265.0,
+      "endMs": 49388.0,
+      "charStart": 589,
+      "charEnd": 638
+    },
+    {
+      "id": "s0017",
+      "text": "Under scale, however, insulation becomes possible.",
+      "startMs": 49388.0,
+      "endMs": 52639.0,
+      "charStart": 638,
+      "charEnd": 688
+    },
+    {
+      "id": "s0018",
+      "text": "Leaders may be buffered by hierarchy.",
+      "startMs": 53080.0,
+      "endMs": 55367.0,
+      "charStart": 692,
+      "charEnd": 729
+    },
+    {
+      "id": "s0019",
+      "text": "Institutions may be shielded by procedure.",
+      "startMs": 55367.0,
+      "endMs": 58270.0,
+      "charStart": 729,
+      "charEnd": 771
+    },
+    {
+      "id": "s0020",
+      "text": "Decisions that impose cost on distant parties may not return proportionate friction to those who made them.",
+      "startMs": 58270.0,
+      "endMs": 64400.0,
+      "charStart": 771,
+      "charEnd": 878
+    },
+    {
+      "id": "s0021",
+      "text": "Uneven exposure alters behavior.",
+      "startMs": 64806.0,
+      "endMs": 67314.0,
+      "charStart": 882,
+      "charEnd": 914
+    },
+    {
+      "id": "s0022",
+      "text": "When harm does not reliably return to its source, restraint loses one of its structural reinforcements.",
+      "startMs": 67314.0,
+      "endMs": 73583.0,
+      "charStart": 914,
+      "charEnd": 1017
+    },
+    {
+      "id": "s0023",
+      "text": "This does not require malice.",
+      "startMs": 74059.0,
+      "endMs": 75673.0,
+      "charStart": 1020,
+      "charEnd": 1049
+    },
+    {
+      "id": "s0024",
+      "text": "It requires insulation.",
+      "startMs": 75789.0,
+      "endMs": 77345.0,
+      "charStart": 1050,
+      "charEnd": 1073
+    },
+    {
+      "id": "s0025",
+      "text": "Selective Constraint",
+      "startMs": 78297.0,
+      "endMs": 79609.0,
+      "charStart": 1075,
+      "charEnd": 1095
+    },
+    {
+      "id": "s0026",
+      "text": "Asymmetry emerges when some actors remain highly constrained while",
+      "startMs": 80561.0,
+      "endMs": 84137.0,
+      "charStart": 1097,
+      "charEnd": 1163
+    },
+    {
+      "id": "s0027",
+      "text": "others experience reduced friction.",
+      "startMs": 84171.0,
+      "endMs": 86029.0,
+      "charStart": 1164,
+      "charEnd": 1199
+    },
+    {
+      "id": "s0028",
+      "text": "Frontline participants may face immediate consequence.",
+      "startMs": 86633.0,
+      "endMs": 89628.0,
+      "charStart": 1201,
+      "charEnd": 1255
+    },
+    {
+      "id": "s0029",
+      "text": "Decision-makers may encounter delayed or diluted feedback.",
+      "startMs": 89628.0,
+      "endMs": 92914.0,
+      "charStart": 1255,
+      "charEnd": 1313
+    },
+    {
+      "id": "s0030",
+      "text": "Certain groups may bear the weight of error.",
+      "startMs": 92914.0,
+      "endMs": 95352.0,
+      "charStart": 1313,
+      "charEnd": 1357
+    },
+    {
+      "id": "s0031",
+      "text": "Others may distribute it.",
+      "startMs": 95746.0,
+      "endMs": 97256.0,
+      "charStart": 1360,
+      "charEnd": 1385
+    },
+    {
+      "id": "s0032",
+      "text": "Constraint becomes unevenly applied.",
+      "startMs": 97534.0,
+      "endMs": 99717.0,
+      "charStart": 1387,
+      "charEnd": 1423
+    },
+    {
+      "id": "s0033",
+      "text": "Where symmetry once reinforced restraint, insulation now introduces choice.",
+      "startMs": 99717.0,
+      "endMs": 104918.0,
+      "charStart": 1423,
+      "charEnd": 1498
+    },
+    {
+      "id": "s0034",
+      "text": "Under selective constraint, restraint must be chosen rather than",
+      "startMs": 105255.0,
+      "endMs": 109005.0,
+      "charStart": 1501,
+      "charEnd": 1565
+    },
+    {
+      "id": "s0035",
+      "text": "structurally reinforced.",
+      "startMs": 109063.0,
+      "endMs": 110816.0,
+      "charStart": 1566,
+      "charEnd": 1590
+    },
+    {
+      "id": "s0036",
+      "text": "Friction and Movement",
+      "startMs": 111199.0,
+      "endMs": 112441.0,
+      "charStart": 1592,
+      "charEnd": 1613
+    },
+    {
+      "id": "s0037",
+      "text": "In reciprocal environments, friction slows escalation.",
+      "startMs": 112824.0,
+      "endMs": 116365.0,
+      "charStart": 1615,
+      "charEnd": 1669
+    },
+    {
+      "id": "s0038",
+      "text": "Under asymmetry, some actors move more freely than others.",
+      "startMs": 116365.0,
+      "endMs": 120034.0,
+      "charStart": 1669,
+      "charEnd": 1727
+    },
+    {
+      "id": "s0039",
+      "text": "Those with less exposure to consequence can act more quickly.",
+      "startMs": 120278.0,
+      "endMs": 123587.0,
+      "charStart": 1730,
+      "charEnd": 1791
+    },
+    {
+      "id": "s0040",
+      "text": "Those with higher exposure must deliberate carefully.",
+      "startMs": 123587.0,
+      "endMs": 126745.0,
+      "charStart": 1791,
+      "charEnd": 1844
+    },
+    {
+      "id": "s0041",
+      "text": "The speed differential begins to matter.",
+      "startMs": 126745.0,
+      "endMs": 129090.0,
+      "charStart": 1844,
+      "charEnd": 1884
+    },
+    {
+      "id": "s0042",
+      "text": "Friction does not disappear.",
+      "startMs": 129369.0,
+      "endMs": 130948.0,
+      "charStart": 1888,
+      "charEnd": 1916
+    },
+    {
+      "id": "s0043",
+      "text": "It redistributes.",
+      "startMs": 131064.0,
+      "endMs": 132248.0,
+      "charStart": 1917,
+      "charEnd": 1934
+    },
+    {
+      "id": "s0044",
+      "text": "This redistribution alters strategic behavior.",
+      "startMs": 132398.0,
+      "endMs": 136079.0,
+      "charStart": 1936,
+      "charEnd": 1982
+    },
+    {
+      "id": "s0045",
+      "text": "Actors who tolerate displacement may accumulate advantage relative to those who absorb cost.",
+      "startMs": 136079.0,
+      "endMs": 141872.0,
+      "charStart": 1982,
+      "charEnd": 2074
+    },
+    {
+      "id": "s0046",
+      "text": "The shift is gradual.",
+      "startMs": 142197.0,
+      "endMs": 143602.0,
+      "charStart": 2077,
+      "charEnd": 2098
+    },
+    {
+      "id": "s0047",
+      "text": "It often appears pragmatic rather than aggressive.",
+      "startMs": 143602.0,
+      "endMs": 146899.0,
+      "charStart": 2098,
+      "charEnd": 2148
+    },
+    {
+      "id": "s0048",
+      "text": "The Weakening of Reciprocity",
+      "startMs": 147143.0,
+      "endMs": 148803.0,
+      "charStart": 2151,
+      "charEnd": 2179
+    },
+    {
+      "id": "s0049",
+      "text": "Reciprocity depends on roughly shared vulnerability.",
+      "startMs": 149314.0,
+      "endMs": 153134.0,
+      "charStart": 2181,
+      "charEnd": 2233
+    },
+    {
+      "id": "s0050",
+      "text": "When vulnerability becomes uneven, mutual discipline thins.",
+      "startMs": 153134.0,
+      "endMs": 157487.0,
+      "charStart": 2233,
+      "charEnd": 2292
+    },
+    {
+      "id": "s0051",
+      "text": "Those who continue to practice restraint may find it less reciprocated.",
+      "startMs": 157882.0,
+      "endMs": 162201.0,
+      "charStart": 2295,
+      "charEnd": 2366
+    },
+    {
+      "id": "s0052",
+      "text": "Those who decline restraint may not immediately bear proportionate cost.",
+      "startMs": 162480.0,
+      "endMs": 166694.0,
+      "charStart": 2367,
+      "charEnd": 2439
+    },
+    {
+      "id": "s0053",
+      "text": "Over time, this imbalance alters expectations.",
+      "startMs": 167390.0,
+      "endMs": 171396.0,
+      "charStart": 2440,
+      "charEnd": 2486
+    },
+    {
+      "id": "s0054",
+      "text": "Moral seriousness remains possible under asymmetry.",
+      "startMs": 171837.0,
+      "endMs": 175273.0,
+      "charStart": 2488,
+      "charEnd": 2539
+    },
+    {
+      "id": "s0055",
+      "text": "It becomes less equilibrium and more commitment.",
+      "startMs": 175273.0,
+      "endMs": 178397.0,
+      "charStart": 2539,
+      "charEnd": 2587
+    },
+    {
+      "id": "s0056",
+      "text": "The system does not prohibit restraint.",
+      "startMs": 178989.0,
+      "endMs": 181229.0,
+      "charStart": 2590,
+      "charEnd": 2629
+    },
+    {
+      "id": "s0057",
+      "text": "It ceases to reinforce it.",
+      "startMs": 181508.0,
+      "endMs": 183296.0,
+      "charStart": 2630,
+      "charEnd": 2656
+    },
+    {
+      "id": "s0058",
+      "text": "Asymmetry, then, marks the second thinning of moral density.",
+      "startMs": 183737.0,
+      "endMs": 187870.0,
+      "charStart": 2658,
+      "charEnd": 2718
+    },
+    {
+      "id": "s0059",
+      "text": "Proximity has stretched.",
+      "startMs": 187870.0,
+      "endMs": 189925.0,
+      "charStart": 2718,
+      "charEnd": 2742
+    },
+    {
+      "id": "s0060",
+      "text": "Now exposure has become uneven.",
+      "startMs": 190308.0,
+      "endMs": 192456.0,
+      "charStart": 2744,
+      "charEnd": 2775
+    },
+    {
+      "id": "s0061",
+      "text": "Responsibility disperses not only through distance, but through insulation.",
+      "startMs": 192456.0,
+      "endMs": 197402.0,
+      "charStart": 2775,
+      "charEnd": 2850
+    },
+    {
+      "id": "s0062",
+      "text": "The question that follows is what happens when uneven constraint begins",
+      "startMs": 198424.0,
+      "endMs": 202545.0,
+      "charStart": 2853,
+      "charEnd": 2924
+    },
+    {
+      "id": "s0063",
+      "text": "to alter incentives.",
+      "startMs": 202603.0,
+      "endMs": 204287.0,
+      "charStart": 2925,
+      "charEnd": 2945
+    }
+  ]
+}

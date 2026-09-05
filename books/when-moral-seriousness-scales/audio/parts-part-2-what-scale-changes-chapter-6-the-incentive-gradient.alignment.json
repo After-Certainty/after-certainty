@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-2-what-scale-changes-chapter-6-the-incentive-gradient",
+  "generationHash": "sha256:5bdb3cbbeec937fb0ec7dfa3c1db9640a1caaa184ac7956b85a55a8a59162930",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 6: The Incentive Gradient",
+      "startMs": 0.0,
+      "endMs": 3228.0,
+      "charStart": 0,
+      "charEnd": 33
+    },
+    {
+      "id": "s0002",
+      "text": "The Incentive Gradient",
+      "startMs": 4342.0,
+      "endMs": 5747.0,
+      "charStart": 34,
+      "charEnd": 56
+    },
+    {
+      "id": "s0003",
+      "text": "Distance stretches consequence.",
+      "startMs": 5817.0,
+      "endMs": 8220.0,
+      "charStart": 58,
+      "charEnd": 89
+    },
+    {
+      "id": "s0004",
+      "text": "Asymmetry distributes it unevenly.",
+      "startMs": 8429.0,
+      "endMs": 11285.0,
+      "charStart": 90,
+      "charEnd": 124
+    },
+    {
+      "id": "s0005",
+      "text": "Over time, these shifts begin to alter incentives.",
+      "startMs": 11285.0,
+      "endMs": 15534.0,
+      "charStart": 124,
+      "charEnd": 174
+    },
+    {
+      "id": "s0006",
+      "text": "Under thinned reciprocity, actions that tolerate displacement move faster.",
+      "startMs": 16254.0,
+      "endMs": 21455.0,
+      "charStart": 177,
+      "charEnd": 251
+    },
+    {
+      "id": "s0007",
+      "text": "An incentive gradient emerges: speed accumulates advantage over deliberation.",
+      "startMs": 21455.0,
+      "endMs": 28073.0,
+      "charStart": 251,
+      "charEnd": 328
+    },
+    {
+      "id": "s0008",
+      "text": "Moral seriousness does not become irrational.",
+      "startMs": 28920.0,
+      "endMs": 31718.0,
+      "charStart": 330,
+      "charEnd": 375
+    },
+    {
+      "id": "s0009",
+      "text": "It becomes slower.",
+      "startMs": 31718.0,
+      "endMs": 33053.0,
+      "charStart": 375,
+      "charEnd": 393
+    },
+    {
+      "id": "s0010",
+      "text": "The gradient is not ideological.",
+      "startMs": 33344.0,
+      "endMs": 35735.0,
+      "charStart": 396,
+      "charEnd": 428
+    },
+    {
+      "id": "s0011",
+      "text": "It is structural.",
+      "startMs": 35805.0,
+      "endMs": 36943.0,
+      "charStart": 429,
+      "charEnd": 446
+    },
+    {
+      "id": "s0012",
+      "text": "Speed Under Low Constraint",
+      "startMs": 37326.0,
+      "endMs": 39102.0,
+      "charStart": 448,
+      "charEnd": 474
+    },
+    {
+      "id": "s0013",
+      "text": "When exposure to consequence is uneven, some actors experience less friction.",
+      "startMs": 39706.0,
+      "endMs": 44779.0,
+      "charStart": 476,
+      "charEnd": 553
+    },
+    {
+      "id": "s0014",
+      "text": "Decisions can be made with reduced relational cost.",
+      "startMs": 45058.0,
+      "endMs": 48065.0,
+      "charStart": 554,
+      "charEnd": 605
+    },
+    {
+      "id": "s0015",
+      "text": "Feedback arrives later.",
+      "startMs": 48065.0,
+      "endMs": 49563.0,
+      "charStart": 605,
+      "charEnd": 628
+    },
+    {
+      "id": "s0016",
+      "text": "Correction requires more coordination.",
+      "startMs": 49946.0,
+      "endMs": 52326.0,
+      "charStart": 630,
+      "charEnd": 668
+    },
+    {
+      "id": "s0017",
+      "text": "Low constraint permits speed.",
+      "startMs": 52570.0,
+      "endMs": 54508.0,
+      "charStart": 670,
+      "charEnd": 699
+    },
+    {
+      "id": "s0018",
+      "text": "Speed compounds.",
+      "startMs": 54682.0,
+      "endMs": 56041.0,
+      "charStart": 701,
+      "charEnd": 717
+    },
+    {
+      "id": "s0019",
+      "text": "Early action shapes context.",
+      "startMs": 56250.0,
+      "endMs": 58328.0,
+      "charStart": 718,
+      "charEnd": 746
+    },
+    {
+      "id": "s0020",
+      "text": "Context shapes options.",
+      "startMs": 58653.0,
+      "endMs": 60638.0,
+      "charStart": 747,
+      "charEnd": 770
+    },
+    {
+      "id": "s0021",
+      "text": "Options narrow for those who respond more slowly.",
+      "startMs": 61021.0,
+      "endMs": 64098.0,
+      "charStart": 771,
+      "charEnd": 820
+    },
+    {
+      "id": "s0022",
+      "text": "Acceleration does not require aggression.",
+      "startMs": 64307.0,
+      "endMs": 66722.0,
+      "charStart": 822,
+      "charEnd": 863
+    },
+    {
+      "id": "s0023",
+      "text": "It requires insulation.",
+      "startMs": 66931.0,
+      "endMs": 68661.0,
+      "charStart": 864,
+      "charEnd": 887
+    },
+    {
+      "id": "s0024",
+      "text": "In systems where some actors can move without immediate correction,",
+      "startMs": 68939.0,
+      "endMs": 72399.0,
+      "charStart": 889,
+      "charEnd": 956
+    },
+    {
+      "id": "s0025",
+      "text": "velocity itself becomes influence.",
+      "startMs": 72573.0,
+      "endMs": 74883.0,
+      "charStart": 957,
+      "charEnd": 991
+    },
+    {
+      "id": "s0026",
+      "text": "Deliberation Under High Constraint",
+      "startMs": 75266.0,
+      "endMs": 78029.0,
+      "charStart": 993,
+      "charEnd": 1027
+    },
+    {
+      "id": "s0027",
+      "text": "Restraint operates differently.",
+      "startMs": 78273.0,
+      "endMs": 80166.0,
+      "charStart": 1029,
+      "charEnd": 1060
+    },
+    {
+      "id": "s0028",
+      "text": "It absorbs cost rather than displacing it.",
+      "startMs": 80166.0,
+      "endMs": 83022.0,
+      "charStart": 1060,
+      "charEnd": 1102
+    },
+    {
+      "id": "s0029",
+      "text": "It slows decision in order to account for consequence.",
+      "startMs": 83498.0,
+      "endMs": 86377.0,
+      "charStart": 1104,
+      "charEnd": 1158
+    },
+    {
+      "id": "s0030",
+      "text": "It requires consultation, revision, and often self-limitation.",
+      "startMs": 86377.0,
+      "endMs": 90429.0,
+      "charStart": 1158,
+      "charEnd": 1220
+    },
+    {
+      "id": "s0031",
+      "text": "High constraint encourages deliberation.",
+      "startMs": 91114.0,
+      "endMs": 93807.0,
+      "charStart": 1223,
+      "charEnd": 1263
+    },
+    {
+      "id": "s0032",
+      "text": "Deliberation is not weakness.",
+      "startMs": 94190.0,
+      "endMs": 96199.0,
+      "charStart": 1265,
+      "charEnd": 1294
+    },
+    {
+      "id": "s0033",
+      "text": "It is structural attentiveness.",
+      "startMs": 96327.0,
+      "endMs": 98208.0,
+      "charStart": 1295,
+      "charEnd": 1326
+    },
+    {
+      "id": "s0034",
+      "text": "But in environments where speed shapes outcomes, deliberation appears comparatively slow.",
+      "startMs": 98208.0,
+      "endMs": 103850.0,
+      "charStart": 1326,
+      "charEnd": 1415
+    },
+    {
+      "id": "s0035",
+      "text": "When constraint is uneven, deliberation bears more friction than",
+      "startMs": 104419.0,
+      "endMs": 108169.0,
+      "charStart": 1418,
+      "charEnd": 1482
+    },
+    {
+      "id": "s0036",
+      "text": "acceleration.",
+      "startMs": 108215.0,
+      "endMs": 109167.0,
+      "charStart": 1483,
+      "charEnd": 1496
+    },
+    {
+      "id": "s0037",
+      "text": "The asymmetry becomes visible in tempo rather than intent.",
+      "startMs": 109341.0,
+      "endMs": 113672.0,
+      "charStart": 1498,
+      "charEnd": 1556
+    },
+    {
+      "id": "s0038",
+      "text": "Alignment Scales Faster Than Persuasion",
+      "startMs": 114113.0,
+      "endMs": 116981.0,
+      "charStart": 1558,
+      "charEnd": 1597
+    },
+    {
+      "id": "s0039",
+      "text": "In large systems, coordination requires simplification.",
+      "startMs": 117677.0,
+      "endMs": 121799.0,
+      "charStart": 1599,
+      "charEnd": 1654
+    },
+    {
+      "id": "s0040",
+      "text": "Alignment scales more easily than persuasion.",
+      "startMs": 121799.0,
+      "endMs": 124701.0,
+      "charStart": 1654,
+      "charEnd": 1699
+    },
+    {
+      "id": "s0041",
+      "text": "Directives travel faster than dialogue.",
+      "startMs": 125061.0,
+      "endMs": 127452.0,
+      "charStart": 1701,
+      "charEnd": 1740
+    },
+    {
+      "id": "s0042",
+      "text": "Compliance requires less time than consensus.",
+      "startMs": 127626.0,
+      "endMs": 130924.0,
+      "charStart": 1741,
+      "charEnd": 1786
+    },
+    {
+      "id": "s0043",
+      "text": "Persuasion demands encounter.",
+      "startMs": 131075.0,
+      "endMs": 132979.0,
+      "charStart": 1788,
+      "charEnd": 1817
+    },
+    {
+      "id": "s0044",
+      "text": "Alignment demands instruction.",
+      "startMs": 133153.0,
+      "endMs": 135138.0,
+      "charStart": 1818,
+      "charEnd": 1848
+    },
+    {
+      "id": "s0045",
+      "text": "As scale increases, structures favor mechanisms that reduce complexity quickly.",
+      "startMs": 135254.0,
+      "endMs": 140142.0,
+      "charStart": 1850,
+      "charEnd": 1929
+    },
+    {
+      "id": "s0046",
+      "text": "These mechanisms are not inherently coercive.",
+      "startMs": 140293.0,
+      "endMs": 143057.0,
+      "charStart": 1930,
+      "charEnd": 1975
+    },
+    {
+      "id": "s0047",
+      "text": "They are efficient.",
+      "startMs": 143057.0,
+      "endMs": 144241.0,
+      "charStart": 1975,
+      "charEnd": 1994
+    },
+    {
+      "id": "s0048",
+      "text": "But efficiency reshapes incentive.",
+      "startMs": 144682.0,
+      "endMs": 147561.0,
+      "charStart": 1997,
+      "charEnd": 2031
+    },
+    {
+      "id": "s0049",
+      "text": "Actors who rely on alignment can coordinate at speed.",
+      "startMs": 147770.0,
+      "endMs": 150905.0,
+      "charStart": 2033,
+      "charEnd": 2086
+    },
+    {
+      "id": "s0050",
+      "text": "Actors who rely on persuasion must move through conversation, dissent, and correction.",
+      "startMs": 150905.0,
+      "endMs": 156338.0,
+      "charStart": 2086,
+      "charEnd": 2172
+    },
+    {
+      "id": "s0051",
+      "text": "The gradient widens.",
+      "startMs": 156814.0,
+      "endMs": 158393.0,
+      "charStart": 2175,
+      "charEnd": 2195
+    },
+    {
+      "id": "s0052",
+      "text": "Restraint Relative to Acceleration",
+      "startMs": 158835.0,
+      "endMs": 161319.0,
+      "charStart": 2197,
+      "charEnd": 2231
+    },
+    {
+      "id": "s0053",
+      "text": "The incentive gradient does not eliminate moral seriousness.",
+      "startMs": 161760.0,
+      "endMs": 165359.0,
+      "charStart": 2233,
+      "charEnd": 2293
+    },
+    {
+      "id": "s0054",
+      "text": "It changes its comparative advantage.",
+      "startMs": 165359.0,
+      "endMs": 167879.0,
+      "charStart": 2293,
+      "charEnd": 2330
+    },
+    {
+      "id": "s0055",
+      "text": "Restraint, under uneven constraint, becomes relatively slower.",
+      "startMs": 168262.0,
+      "endMs": 172407.0,
+      "charStart": 2333,
+      "charEnd": 2395
+    },
+    {
+      "id": "s0056",
+      "text": "Its benefits remain long-term and relational.",
+      "startMs": 172407.0,
+      "endMs": 175181.0,
+      "charStart": 2395,
+      "charEnd": 2440
+    },
+    {
+      "id": "s0057",
+      "text": "Its costs become immediate and visible.",
+      "startMs": 175181.0,
+      "endMs": 177747.0,
+      "charStart": 2440,
+      "charEnd": 2479
+    },
+    {
+      "id": "s0058",
+      "text": "Acceleration, by contrast, produces immediate gain with deferred cost.",
+      "startMs": 177747.0,
+      "endMs": 182554.0,
+      "charStart": 2479,
+      "charEnd": 2549
+    },
+    {
+      "id": "s0059",
+      "text": "Over time, systems may begin to reward movement over reflection.",
+      "startMs": 183273.0,
+      "endMs": 187221.0,
+      "charStart": 2554,
+      "charEnd": 2618
+    },
+    {
+      "id": "s0060",
+      "text": "Not because reflection is irrational, but because the structure favors velocity.",
+      "startMs": 187221.0,
+      "endMs": 192015.0,
+      "charStart": 2618,
+      "charEnd": 2698
+    },
+    {
+      "id": "s0061",
+      "text": "The gradient does not determine outcomes.",
+      "startMs": 192538.0,
+      "endMs": 195022.0,
+      "charStart": 2701,
+      "charEnd": 2742
+    },
+    {
+      "id": "s0062",
+      "text": "It introduces pressure.",
+      "startMs": 195150.0,
+      "endMs": 196787.0,
+      "charStart": 2743,
+      "charEnd": 2766
+    },
+    {
+      "id": "s0063",
+      "text": "Where moral seriousness once operated within reinforcing density, it now",
+      "startMs": 197298.0,
+      "endMs": 201640.0,
+      "charStart": 2768,
+      "charEnd": 2840
+    },
+    {
+      "id": "s0064",
+      "text": "operates within comparative disadvantage.",
+      "startMs": 201721.0,
+      "endMs": 204159.0,
+      "charStart": 2841,
+      "charEnd": 2882
+    },
+    {
+      "id": "s0065",
+      "text": "This does not mean restraint disappears.",
+      "startMs": 204287.0,
+      "endMs": 206504.0,
+      "charStart": 2884,
+      "charEnd": 2924
+    },
+    {
+      "id": "s0066",
+      "text": "It means it must be sustained against drift.",
+      "startMs": 206504.0,
+      "endMs": 208768.0,
+      "charStart": 2924,
+      "charEnd": 2968
+    },
+    {
+      "id": "s0067",
+      "text": "The next question is what happens when that drift becomes perceptible.",
+      "startMs": 209209.0,
+      "endMs": 213435.0,
+      "charStart": 2971,
+      "charEnd": 3041
+    }
+  ]
+}

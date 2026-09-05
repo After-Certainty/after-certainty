@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-3-eroding-chapter-7-disagreement-is-suppressed",
+  "generationHash": "sha256:a23879b2b4ee48721df9ebe6316471fa7fc82e98105229c00109538d03d20966",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 7 — Disagreement is Suppressed",
+      "startMs": 0.0,
+      "endMs": 3495.0,
+      "charStart": 0,
+      "charEnd": 38
+    },
+    {
+      "id": "s0002",
+      "text": "A crack appears in a wall.",
+      "startMs": 4610.0,
+      "endMs": 6374.0,
+      "charStart": 40,
+      "charEnd": 66
+    },
+    {
+      "id": "s0003",
+      "text": "It’s small.",
+      "startMs": 6885.0,
+      "endMs": 7733.0,
+      "charStart": 67,
+      "charEnd": 78
+    },
+    {
+      "id": "s0004",
+      "text": "Easy to miss unless you’re looking for it.",
+      "startMs": 7733.0,
+      "endMs": 10206.0,
+      "charStart": 78,
+      "charEnd": 120
+    },
+    {
+      "id": "s0005",
+      "text": "A thin line running along the surface, barely interrupting the structure around it.",
+      "startMs": 10206.0,
+      "endMs": 14966.0,
+      "charStart": 120,
+      "charEnd": 203
+    },
+    {
+      "id": "s0006",
+      "text": "Someone notices.",
+      "startMs": 15535.0,
+      "endMs": 16626.0,
+      "charStart": 207,
+      "charEnd": 223
+    },
+    {
+      "id": "s0007",
+      "text": "They pause for a moment.",
+      "startMs": 16951.0,
+      "endMs": 18252.0,
+      "charStart": 224,
+      "charEnd": 248
+    },
+    {
+      "id": "s0008",
+      "text": "Then they move on.",
+      "startMs": 18577.0,
+      "endMs": 19529.0,
+      "charStart": 249,
+      "charEnd": 267
+    },
+    {
+      "id": "s0009",
+      "text": "The building still stands.",
+      "startMs": 20225.0,
+      "endMs": 21746.0,
+      "charStart": 269,
+      "charEnd": 295
+    },
+    {
+      "id": "s0010",
+      "text": "Nothing shifts.",
+      "startMs": 21920.0,
+      "endMs": 22872.0,
+      "charStart": 296,
+      "charEnd": 311
+    },
+    {
+      "id": "s0011",
+      "text": "Nothing fails.",
+      "startMs": 23081.0,
+      "endMs": 24184.0,
+      "charStart": 312,
+      "charEnd": 326
+    },
+    {
+      "id": "s0012",
+      "text": "Everything continues as expected.",
+      "startMs": 24184.0,
+      "endMs": 26553.0,
+      "charStart": 326,
+      "charEnd": 359
+    },
+    {
+      "id": "s0013",
+      "text": "Later, the crack is still there.",
+      "startMs": 27145.0,
+      "endMs": 29153.0,
+      "charStart": 362,
+      "charEnd": 394
+    },
+    {
+      "id": "s0014",
+      "text": "Slightly longer now.",
+      "startMs": 29397.0,
+      "endMs": 30697.0,
+      "charStart": 395,
+      "charEnd": 415
+    },
+    {
+      "id": "s0015",
+      "text": "Slightly more visible.",
+      "startMs": 30697.0,
+      "endMs": 32253.0,
+      "charStart": 415,
+      "charEnd": 437
+    },
+    {
+      "id": "s0016",
+      "text": "It could be addressed.",
+      "startMs": 32439.0,
+      "endMs": 33495.0,
+      "charStart": 440,
+      "charEnd": 462
+    },
+    {
+      "id": "s0017",
+      "text": "It would not take much.",
+      "startMs": 33704.0,
+      "endMs": 34819.0,
+      "charStart": 463,
+      "charEnd": 486
+    },
+    {
+      "id": "s0018",
+      "text": "But it isn’t.",
+      "startMs": 35028.0,
+      "endMs": 35852.0,
+      "charStart": 488,
+      "charEnd": 501
+    },
+    {
+      "id": "s0019",
+      "text": "The building does not collapse when the first crack appears.",
+      "startMs": 36131.0,
+      "endMs": 39010.0,
+      "charStart": 503,
+      "charEnd": 563
+    },
+    {
+      "id": "s0020",
+      "text": "It changes when the crack is ignored.",
+      "startMs": 39010.0,
+      "endMs": 41111.0,
+      "charStart": 563,
+      "charEnd": 600
+    },
+    {
+      "id": "s0021",
+      "text": "The same thing happens in groups.",
+      "startMs": 41390.0,
+      "endMs": 43097.0,
+      "charStart": 603,
+      "charEnd": 636
+    },
+    {
+      "id": "s0022",
+      "text": "A decision is made.",
+      "startMs": 43306.0,
+      "endMs": 44467.0,
+      "charStart": 637,
+      "charEnd": 656
+    },
+    {
+      "id": "s0023",
+      "text": "Something feels off.",
+      "startMs": 44467.0,
+      "endMs": 45906.0,
+      "charStart": 656,
+      "charEnd": 676
+    },
+    {
+      "id": "s0024",
+      "text": "Someone notices.",
+      "startMs": 46394.0,
+      "endMs": 47636.0,
+      "charStart": 678,
+      "charEnd": 694
+    },
+    {
+      "id": "s0025",
+      "text": "They hesitate.",
+      "startMs": 47961.0,
+      "endMs": 48937.0,
+      "charStart": 695,
+      "charEnd": 709
+    },
+    {
+      "id": "s0026",
+      "text": "Maybe it’s not worth raising.",
+      "startMs": 49262.0,
+      "endMs": 50771.0,
+      "charStart": 710,
+      "charEnd": 739
+    },
+    {
+      "id": "s0027",
+      "text": "Maybe it’s already been decided.",
+      "startMs": 50771.0,
+      "endMs": 52629.0,
+      "charStart": 739,
+      "charEnd": 771
+    },
+    {
+      "id": "s0028",
+      "text": "Maybe it will resolve on its own.",
+      "startMs": 53081.0,
+      "endMs": 54811.0,
+      "charStart": 773,
+      "charEnd": 806
+    },
+    {
+      "id": "s0029",
+      "text": "Nothing is said.",
+      "startMs": 55136.0,
+      "endMs": 56216.0,
+      "charStart": 808,
+      "charEnd": 824
+    },
+    {
+      "id": "s0030",
+      "text": "The decision moves forward.",
+      "startMs": 56541.0,
+      "endMs": 58097.0,
+      "charStart": 825,
+      "charEnd": 852
+    },
+    {
+      "id": "s0031",
+      "text": "At first, this feels like alignment.",
+      "startMs": 58097.0,
+      "endMs": 60326.0,
+      "charStart": 852,
+      "charEnd": 888
+    },
+    {
+      "id": "s0032",
+      "text": "The group is moving quickly.",
+      "startMs": 60616.0,
+      "endMs": 62149.0,
+      "charStart": 890,
+      "charEnd": 918
+    },
+    {
+      "id": "s0033",
+      "text": "There is no friction.",
+      "startMs": 62300.0,
+      "endMs": 63530.0,
+      "charStart": 919,
+      "charEnd": 940
+    },
+    {
+      "id": "s0034",
+      "text": "Nothing slows things down.",
+      "startMs": 63530.0,
+      "endMs": 65098.0,
+      "charStart": 940,
+      "charEnd": 966
+    },
+    {
+      "id": "s0035",
+      "text": "But something else has changed.",
+      "startMs": 65725.0,
+      "endMs": 67455.0,
+      "charStart": 968,
+      "charEnd": 999
+    },
+    {
+      "id": "s0036",
+      "text": "Disagreement is Suppressed.",
+      "startMs": 67838.0,
+      "endMs": 69568.0,
+      "charStart": 1001,
+      "charEnd": 1028
+    },
+    {
+      "id": "s0037",
+      "text": "The absence is subtle.",
+      "startMs": 69811.0,
+      "endMs": 71239.0,
+      "charStart": 1030,
+      "charEnd": 1052
+    },
+    {
+      "id": "s0038",
+      "text": "There is no visible conflict.",
+      "startMs": 71390.0,
+      "endMs": 73225.0,
+      "charStart": 1053,
+      "charEnd": 1082
+    },
+    {
+      "id": "s0039",
+      "text": "No disagreement.",
+      "startMs": 73434.0,
+      "endMs": 74502.0,
+      "charStart": 1083,
+      "charEnd": 1099
+    },
+    {
+      "id": "s0040",
+      "text": "No interruption.",
+      "startMs": 74502.0,
+      "endMs": 75616.0,
+      "charStart": 1099,
+      "charEnd": 1115
+    },
+    {
+      "id": "s0041",
+      "text": "And that is the signal.",
+      "startMs": 76046.0,
+      "endMs": 77845.0,
+      "charStart": 1117,
+      "charEnd": 1140
+    },
+    {
+      "id": "s0042",
+      "text": "Before, concerns would surface.",
+      "startMs": 78171.0,
+      "endMs": 80458.0,
+      "charStart": 1142,
+      "charEnd": 1173
+    },
+    {
+      "id": "s0043",
+      "text": "Questions would be raised.",
+      "startMs": 80667.0,
+      "endMs": 82141.0,
+      "charStart": 1174,
+      "charEnd": 1200
+    },
+    {
+      "id": "s0044",
+      "text": "Alternatives would appear.",
+      "startMs": 82141.0,
+      "endMs": 83511.0,
+      "charStart": 1200,
+      "charEnd": 1226
+    },
+    {
+      "id": "s0045",
+      "text": "Now, they don’t.",
+      "startMs": 83894.0,
+      "endMs": 85241.0,
+      "charStart": 1228,
+      "charEnd": 1244
+    },
+    {
+      "id": "s0046",
+      "text": "Not because nothing is wrong.",
+      "startMs": 85566.0,
+      "endMs": 87133.0,
+      "charStart": 1245,
+      "charEnd": 1274
+    },
+    {
+      "id": "s0047",
+      "text": "Because it is no longer being said.",
+      "startMs": 87133.0,
+      "endMs": 89060.0,
+      "charStart": 1274,
+      "charEnd": 1309
+    },
+    {
+      "id": "s0048",
+      "text": "The group is still observing.",
+      "startMs": 89931.0,
+      "endMs": 91394.0,
+      "charStart": 1312,
+      "charEnd": 1341
+    },
+    {
+      "id": "s0049",
+      "text": "People still notice what doesn’t fit.",
+      "startMs": 91522.0,
+      "endMs": 93519.0,
+      "charStart": 1342,
+      "charEnd": 1379
+    },
+    {
+      "id": "s0050",
+      "text": "They still see what might go wrong.",
+      "startMs": 93519.0,
+      "endMs": 95330.0,
+      "charStart": 1379,
+      "charEnd": 1414
+    },
+    {
+      "id": "s0051",
+      "text": "But the response changes.",
+      "startMs": 95713.0,
+      "endMs": 97478.0,
+      "charStart": 1417,
+      "charEnd": 1442
+    },
+    {
+      "id": "s0052",
+      "text": "They hold it.",
+      "startMs": 97605.0,
+      "endMs": 98558.0,
+      "charStart": 1443,
+      "charEnd": 1456
+    },
+    {
+      "id": "s0053",
+      "text": "They soften it.",
+      "startMs": 98709.0,
+      "endMs": 99719.0,
+      "charStart": 1457,
+      "charEnd": 1472
+    },
+    {
+      "id": "s0054",
+      "text": "They let it pass.",
+      "startMs": 99719.0,
+      "endMs": 100926.0,
+      "charStart": 1472,
+      "charEnd": 1489
+    },
+    {
+      "id": "s0055",
+      "text": "The moment moves on.",
+      "startMs": 101576.0,
+      "endMs": 102981.0,
+      "charStart": 1491,
+      "charEnd": 1511
+    },
+    {
+      "id": "s0056",
+      "text": "And like the crack, it remains.",
+      "startMs": 103306.0,
+      "endMs": 105663.0,
+      "charStart": 1512,
+      "charEnd": 1543
+    },
+    {
+      "id": "s0057",
+      "text": "> The warning is usually silence, not a fight.",
+      "startMs": 106360.0,
+      "endMs": 109065.0,
+      "charStart": 1545,
+      "charEnd": 1591
+    },
+    {
+      "id": "s0058",
+      "text": "This is how erosion begins.",
+      "startMs": 109668.0,
+      "endMs": 111433.0,
+      "charStart": 1593,
+      "charEnd": 1620
+    },
+    {
+      "id": "s0059",
+      "text": "Not with failure.",
+      "startMs": 111816.0,
+      "endMs": 112838.0,
+      "charStart": 1621,
+      "charEnd": 1638
+    },
+    {
+      "id": "s0060",
+      "text": "With silence.",
+      "startMs": 113117.0,
+      "endMs": 114161.0,
+      "charStart": 1639,
+      "charEnd": 1652
+    },
+    {
+      "id": "s0061",
+      "text": "Decisions and Fiascoes*, 2nd ed.",
+      "startMs": 114545.0,
+      "endMs": 117087.0,
+      "charStart": 1654,
+      "charEnd": 1686
+    },
+    {
+      "id": "s0062",
+      "text": "(Boston: Houghton Mifflin, 1982).",
+      "startMs": 117238.0,
+      "endMs": 120419.0,
+      "charStart": 1687,
+      "charEnd": 1720
+    }
+  ]
+}

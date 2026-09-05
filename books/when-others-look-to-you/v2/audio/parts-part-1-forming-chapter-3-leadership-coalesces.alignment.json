@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-1-forming-chapter-3-leadership-coalesces",
+  "generationHash": "sha256:48e19af7a63b2a2c9e40bd9c48d9f3a01c6d9057d1fb5d20d8eff4884d9d7db2",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 3 — Leadership Coalesces",
+      "startMs": 0.0,
+      "endMs": 3193.0,
+      "charStart": 0,
+      "charEnd": 32
+    },
+    {
+      "id": "s0002",
+      "text": "The moment has happened more than once.",
+      "startMs": 4307.0,
+      "endMs": 6502.0,
+      "charStart": 34,
+      "charEnd": 73
+    },
+    {
+      "id": "s0003",
+      "text": "A question comes up.",
+      "startMs": 6711.0,
+      "endMs": 7953.0,
+      "charStart": 74,
+      "charEnd": 94
+    },
+    {
+      "id": "s0004",
+      "text": "The room slows.",
+      "startMs": 7953.0,
+      "endMs": 9381.0,
+      "charStart": 94,
+      "charEnd": 109
+    },
+    {
+      "id": "s0005",
+      "text": "Attention Finds a Focus.",
+      "startMs": 9915.0,
+      "endMs": 11993.0,
+      "charStart": 111,
+      "charEnd": 135
+    },
+    {
+      "id": "s0006",
+      "text": "And it does not scatter the way it used to.",
+      "startMs": 11993.0,
+      "endMs": 14548.0,
+      "charStart": 135,
+      "charEnd": 178
+    },
+    {
+      "id": "s0007",
+      "text": "It returns to the same place.",
+      "startMs": 15047.0,
+      "endMs": 16823.0,
+      "charStart": 180,
+      "charEnd": 209
+    },
+    {
+      "id": "s0008",
+      "text": "At first, this is easy to miss.",
+      "startMs": 17427.0,
+      "endMs": 19551.0,
+      "charStart": 211,
+      "charEnd": 242
+    },
+    {
+      "id": "s0009",
+      "text": "It feels natural.",
+      "startMs": 19702.0,
+      "endMs": 20840.0,
+      "charStart": 243,
+      "charEnd": 260
+    },
+    {
+      "id": "s0010",
+      "text": "Someone asks a question and turns slightly.",
+      "startMs": 20840.0,
+      "endMs": 23464.0,
+      "charStart": 260,
+      "charEnd": 303
+    },
+    {
+      "id": "s0011",
+      "text": "Another follows without thinking.",
+      "startMs": 23812.0,
+      "endMs": 25542.0,
+      "charStart": 305,
+      "charEnd": 338
+    },
+    {
+      "id": "s0012",
+      "text": "A third pauses instead of speaking.",
+      "startMs": 25542.0,
+      "endMs": 28073.0,
+      "charStart": 338,
+      "charEnd": 373
+    },
+    {
+      "id": "s0013",
+      "text": "No one says, “Let’s go to them.” No agreement is made.",
+      "startMs": 28073.0,
+      "endMs": 32694.0,
+      "charStart": 373,
+      "charEnd": 427
+    },
+    {
+      "id": "s0014",
+      "text": "But the pattern repeats.",
+      "startMs": 33495.0,
+      "endMs": 34958.0,
+      "charStart": 430,
+      "charEnd": 454
+    },
+    {
+      "id": "s0015",
+      "text": "In a group of musicians, no one assigns the solo.",
+      "startMs": 35399.0,
+      "endMs": 38743.0,
+      "charStart": 456,
+      "charEnd": 505
+    },
+    {
+      "id": "s0016",
+      "text": "At first, anyone might step forward.",
+      "startMs": 39347.0,
+      "endMs": 41762.0,
+      "charStart": 507,
+      "charEnd": 543
+    },
+    {
+      "id": "s0017",
+      "text": "A phrase begins, and the others adjust.",
+      "startMs": 41762.0,
+      "endMs": 44606.0,
+      "charStart": 543,
+      "charEnd": 582
+    },
+    {
+      "id": "s0018",
+      "text": "But over time, something changes.",
+      "startMs": 45419.0,
+      "endMs": 47915.0,
+      "charStart": 584,
+      "charEnd": 617
+    },
+    {
+      "id": "s0019",
+      "text": "The group begins to expect it from the same person.",
+      "startMs": 47915.0,
+      "endMs": 51166.0,
+      "charStart": 617,
+      "charEnd": 668
+    },
+    {
+      "id": "s0020",
+      "text": "Space opens for them without being asked.",
+      "startMs": 51851.0,
+      "endMs": 54254.0,
+      "charStart": 670,
+      "charEnd": 711
+    },
+    {
+      "id": "s0021",
+      "text": "Something similar is happening here.",
+      "startMs": 54765.0,
+      "endMs": 56680.0,
+      "charStart": 713,
+      "charEnd": 749
+    },
+    {
+      "id": "s0022",
+      "text": "And repetition changes what the moment means.",
+      "startMs": 56680.0,
+      "endMs": 59467.0,
+      "charStart": 749,
+      "charEnd": 794
+    },
+    {
+      "id": "s0023",
+      "text": "What was once a possibility becomes an expectation.",
+      "startMs": 60024.0,
+      "endMs": 63542.0,
+      "charStart": 796,
+      "charEnd": 847
+    },
+    {
+      "id": "s0024",
+      "text": "Not always.",
+      "startMs": 63542.0,
+      "endMs": 64517.0,
+      "charStart": 847,
+      "charEnd": 858
+    },
+    {
+      "id": "s0025",
+      "text": "Not immediately.",
+      "startMs": 64877.0,
+      "endMs": 65899.0,
+      "charStart": 860,
+      "charEnd": 876
+    },
+    {
+      "id": "s0026",
+      "text": "But often enough that it begins to feel familiar.",
+      "startMs": 65899.0,
+      "endMs": 68499.0,
+      "charStart": 876,
+      "charEnd": 925
+    },
+    {
+      "id": "s0027",
+      "text": "When uncertainty appears, the group does not look around as much.",
+      "startMs": 69184.0,
+      "endMs": 72946.0,
+      "charStart": 928,
+      "charEnd": 993
+    },
+    {
+      "id": "s0028",
+      "text": "It looks in a direction it has looked before.",
+      "startMs": 72946.0,
+      "endMs": 75512.0,
+      "charStart": 993,
+      "charEnd": 1038
+    },
+    {
+      "id": "s0029",
+      "text": "Leadership Coalesces.",
+      "startMs": 76185.0,
+      "endMs": 77787.0,
+      "charStart": 1041,
+      "charEnd": 1062
+    },
+    {
+      "id": "s0030",
+      "text": "This does not require authority.",
+      "startMs": 78170.0,
+      "endMs": 80214.0,
+      "charStart": 1064,
+      "charEnd": 1096
+    },
+    {
+      "id": "s0031",
+      "text": "It does not require a title or a role.",
+      "startMs": 80539.0,
+      "endMs": 83012.0,
+      "charStart": 1097,
+      "charEnd": 1135
+    },
+    {
+      "id": "s0032",
+      "text": "It only requires that Attention Finds a Focus in that place, repeated often enough, before the rest follows.",
+      "startMs": 83012.0,
+      "endMs": 89884.0,
+      "charStart": 1135,
+      "charEnd": 1243
+    },
+    {
+      "id": "s0033",
+      "text": "The same person is looked to.",
+      "startMs": 90384.0,
+      "endMs": 92114.0,
+      "charStart": 1246,
+      "charEnd": 1275
+    },
+    {
+      "id": "s0034",
+      "text": "The same person responds.",
+      "startMs": 92195.0,
+      "endMs": 93960.0,
+      "charStart": 1276,
+      "charEnd": 1301
+    },
+    {
+      "id": "s0035",
+      "text": "Others adjust.",
+      "startMs": 94285.0,
+      "endMs": 95434.0,
+      "charStart": 1302,
+      "charEnd": 1316
+    },
+    {
+      "id": "s0036",
+      "text": "Over time, this becomes easier.",
+      "startMs": 95759.0,
+      "endMs": 97640.0,
+      "charStart": 1318,
+      "charEnd": 1349
+    },
+    {
+      "id": "s0037",
+      "text": "Faster.",
+      "startMs": 97919.0,
+      "endMs": 98627.0,
+      "charStart": 1350,
+      "charEnd": 1357
+    },
+    {
+      "id": "s0038",
+      "text": "More automatic.",
+      "startMs": 98905.0,
+      "endMs": 100055.0,
+      "charStart": 1358,
+      "charEnd": 1373
+    },
+    {
+      "id": "s0039",
+      "text": "There are reasons for this.",
+      "startMs": 100380.0,
+      "endMs": 101727.0,
+      "charStart": 1375,
+      "charEnd": 1402
+    },
+    {
+      "id": "s0040",
+      "text": "Familiarity reduces hesitation.",
+      "startMs": 102052.0,
+      "endMs": 104524.0,
+      "charStart": 1403,
+      "charEnd": 1434
+    },
+    {
+      "id": "s0041",
+      "text": "Past responses create confidence.",
+      "startMs": 104524.0,
+      "endMs": 107043.0,
+      "charStart": 1434,
+      "charEnd": 1467
+    },
+    {
+      "id": "s0042",
+      "text": "Uncertainty creates pressure to move.",
+      "startMs": 107287.0,
+      "endMs": 109725.0,
+      "charStart": 1469,
+      "charEnd": 1506
+    },
+    {
+      "id": "s0043",
+      "text": "Looking to one person feels efficient.",
+      "startMs": 109900.0,
+      "endMs": 112140.0,
+      "charStart": 1508,
+      "charEnd": 1546
+    },
+    {
+      "id": "s0044",
+      "text": "It feels like progress.",
+      "startMs": 112349.0,
+      "endMs": 113859.0,
+      "charStart": 1547,
+      "charEnd": 1570
+    },
+    {
+      "id": "s0045",
+      "text": "And often, it works.",
+      "startMs": 113859.0,
+      "endMs": 115252.0,
+      "charStart": 1570,
+      "charEnd": 1590
+    },
+    {
+      "id": "s0046",
+      "text": "But something else is happening at the same time.",
+      "startMs": 115612.0,
+      "endMs": 118050.0,
+      "charStart": 1593,
+      "charEnd": 1642
+    },
+    {
+      "id": "s0047",
+      "text": "The range of responses begins to narrow.",
+      "startMs": 118050.0,
+      "endMs": 120744.0,
+      "charStart": 1642,
+      "charEnd": 1682
+    },
+    {
+      "id": "s0048",
+      "text": "Not because alternatives are unavailable.",
+      "startMs": 121196.0,
+      "endMs": 123565.0,
+      "charStart": 1684,
+      "charEnd": 1725
+    },
+    {
+      "id": "s0049",
+      "text": "Because they are less likely to be offered.",
+      "startMs": 123565.0,
+      "endMs": 125782.0,
+      "charStart": 1725,
+      "charEnd": 1768
+    },
+    {
+      "id": "s0050",
+      "text": "People begin to anticipate.",
+      "startMs": 126119.0,
+      "endMs": 128162.0,
+      "charStart": 1771,
+      "charEnd": 1798
+    },
+    {
+      "id": "s0051",
+      "text": "What will be said.",
+      "startMs": 128441.0,
+      "endMs": 129486.0,
+      "charStart": 1799,
+      "charEnd": 1817
+    },
+    {
+      "id": "s0052",
+      "text": "How it will be said.",
+      "startMs": 129660.0,
+      "endMs": 130728.0,
+      "charStart": 1818,
+      "charEnd": 1838
+    },
+    {
+      "id": "s0053",
+      "text": "Where the conversation will go.",
+      "startMs": 130902.0,
+      "endMs": 132621.0,
+      "charStart": 1839,
+      "charEnd": 1870
+    },
+    {
+      "id": "s0054",
+      "text": "Some speak less.",
+      "startMs": 132864.0,
+      "endMs": 133898.0,
+      "charStart": 1872,
+      "charEnd": 1888
+    },
+    {
+      "id": "s0055",
+      "text": "Some wait longer.",
+      "startMs": 134072.0,
+      "endMs": 135140.0,
+      "charStart": 1889,
+      "charEnd": 1906
+    },
+    {
+      "id": "s0056",
+      "text": "Some stop offering altogether.",
+      "startMs": 135349.0,
+      "endMs": 137415.0,
+      "charStart": 1907,
+      "charEnd": 1937
+    },
+    {
+      "id": "s0057",
+      "text": "Not out of resistance.",
+      "startMs": 137415.0,
+      "endMs": 138948.0,
+      "charStart": 1937,
+      "charEnd": 1959
+    },
+    {
+      "id": "s0058",
+      "text": "Out of adjustment.",
+      "startMs": 139029.0,
+      "endMs": 140167.0,
+      "charStart": 1961,
+      "charEnd": 1979
+    },
+    {
+      "id": "s0059",
+      "text": "The moment has changed.",
+      "startMs": 140411.0,
+      "endMs": 141746.0,
+      "charStart": 1980,
+      "charEnd": 2003
+    },
+    {
+      "id": "s0060",
+      "text": "Before, attention moved.",
+      "startMs": 141746.0,
+      "endMs": 143313.0,
+      "charStart": 2003,
+      "charEnd": 2027
+    },
+    {
+      "id": "s0061",
+      "text": "Now, it returns.",
+      "startMs": 143638.0,
+      "endMs": 145194.0,
+      "charStart": 2029,
+      "charEnd": 2045
+    },
+    {
+      "id": "s0062",
+      "text": "The person being looked to experiences a different shift.",
+      "startMs": 145403.0,
+      "endMs": 148224.0,
+      "charStart": 2047,
+      "charEnd": 2104
+    },
+    {
+      "id": "s0063",
+      "text": "At first, it may feel like trust.",
+      "startMs": 148224.0,
+      "endMs": 150372.0,
+      "charStart": 2104,
+      "charEnd": 2137
+    },
+    {
+      "id": "s0064",
+      "text": "People are listening.",
+      "startMs": 150639.0,
+      "endMs": 151614.0,
+      "charStart": 2139,
+      "charEnd": 2160
+    },
+    {
+      "id": "s0065",
+      "text": "Decisions move forward.",
+      "startMs": 151788.0,
+      "endMs": 153158.0,
+      "charStart": 2161,
+      "charEnd": 2184
+    },
+    {
+      "id": "s0066",
+      "text": "The group aligns more quickly.",
+      "startMs": 153158.0,
+      "endMs": 155062.0,
+      "charStart": 2184,
+      "charEnd": 2214
+    },
+    {
+      "id": "s0067",
+      "text": "But over time, something else becomes visible.",
+      "startMs": 155538.0,
+      "endMs": 158243.0,
+      "charStart": 2217,
+      "charEnd": 2263
+    },
+    {
+      "id": "s0068",
+      "text": "The pause becomes directed.",
+      "startMs": 158243.0,
+      "endMs": 160322.0,
+      "charStart": 2263,
+      "charEnd": 2290
+    },
+    {
+      "id": "s0069",
+      "text": "The expectation becomes consistent.",
+      "startMs": 160763.0,
+      "endMs": 163038.0,
+      "charStart": 2292,
+      "charEnd": 2327
+    },
+    {
+      "id": "s0070",
+      "text": "The room begins to wait.",
+      "startMs": 163479.0,
+      "endMs": 164896.0,
+      "charStart": 2328,
+      "charEnd": 2352
+    },
+    {
+      "id": "s0071",
+      "text": "Not for an answer.",
+      "startMs": 165221.0,
+      "endMs": 166301.0,
+      "charStart": 2354,
+      "charEnd": 2372
+    },
+    {
+      "id": "s0072",
+      "text": "For them.",
+      "startMs": 166579.0,
+      "endMs": 167253.0,
+      "charStart": 2373,
+      "charEnd": 2382
+    },
+    {
+      "id": "s0073",
+      "text": "This is not assigned.",
+      "startMs": 167636.0,
+      "endMs": 168901.0,
+      "charStart": 2384,
+      "charEnd": 2405
+    },
+    {
+      "id": "s0074",
+      "text": "It is not declared.",
+      "startMs": 169226.0,
+      "endMs": 170422.0,
+      "charStart": 2406,
+      "charEnd": 2425
+    },
+    {
+      "id": "s0075",
+      "text": "It is learned.",
+      "startMs": 170701.0,
+      "endMs": 171630.0,
+      "charStart": 2426,
+      "charEnd": 2440
+    },
+    {
+      "id": "s0076",
+      "text": "People are not told where to look.",
+      "startMs": 171630.0,
+      "endMs": 173406.0,
+      "charStart": 2440,
+      "charEnd": 2474
+    },
+    {
+      "id": "s0077",
+      "text": "They discover it by experience.",
+      "startMs": 173650.0,
+      "endMs": 175519.0,
+      "charStart": 2476,
+      "charEnd": 2507
+    },
+    {
+      "id": "s0078",
+      "text": "Where Attention Finds a Focus repeatedly, it is more likely to return to the same place.",
+      "startMs": 175693.0,
+      "endMs": 180813.0,
+      "charStart": 2509,
+      "charEnd": 2597
+    },
+    {
+      "id": "s0079",
+      "text": "This is how the pattern stabilizes. **Leadership Coalesces.**",
+      "startMs": 180813.0,
+      "endMs": 186920.0,
+      "charStart": 2597,
+      "charEnd": 2658
+    },
+    {
+      "id": "s0080",
+      "text": "This does not determine what will happen next.",
+      "startMs": 187106.0,
+      "endMs": 189579.0,
+      "charStart": 2661,
+      "charEnd": 2707
+    },
+    {
+      "id": "s0081",
+      "text": "It determines where it will start.",
+      "startMs": 189579.0,
+      "endMs": 191587.0,
+      "charStart": 2707,
+      "charEnd": 2741
+    },
+    {
+      "id": "s0082",
+      "text": "If attention continues to return to the same place, what happens there begins to matter more.",
+      "startMs": 192156.0,
+      "endMs": 197555.0,
+      "charStart": 2744,
+      "charEnd": 2837
+    },
+    {
+      "id": "s0083",
+      "text": "That includes what is brought forward, what is allowed to be said, what is responded to, and how.",
+      "startMs": 197555.0,
+      "endMs": 203661.0,
+      "charStart": 2837,
+      "charEnd": 2934
+    },
+    {
+      "id": "s0084",
+      "text": "If problems can reach that point, they can be addressed.",
+      "startMs": 204311.0,
+      "endMs": 207051.0,
+      "charStart": 2937,
+      "charEnd": 2993
+    },
+    {
+      "id": "s0085",
+      "text": "If they cannot, they remain unseen.",
+      "startMs": 207051.0,
+      "endMs": 209547.0,
+      "charStart": 2993,
+      "charEnd": 3028
+    },
+    {
+      "id": "s0086",
+      "text": "The structure does not need to change for this to happen.",
+      "startMs": 210232.0,
+      "endMs": 212798.0,
+      "charStart": 3031,
+      "charEnd": 3088
+    },
+    {
+      "id": "s0087",
+      "text": "The same people.",
+      "startMs": 212798.0,
+      "endMs": 214110.0,
+      "charStart": 3088,
+      "charEnd": 3104
+    },
+    {
+      "id": "s0088",
+      "text": "The same setting.",
+      "startMs": 214424.0,
+      "endMs": 215445.0,
+      "charStart": 3106,
+      "charEnd": 3123
+    },
+    {
+      "id": "s0089",
+      "text": "The same work.",
+      "startMs": 215654.0,
+      "endMs": 216606.0,
+      "charStart": 3124,
+      "charEnd": 3138
+    },
+    {
+      "id": "s0090",
+      "text": "Only attention has shifted.",
+      "startMs": 217047.0,
+      "endMs": 218859.0,
+      "charStart": 3139,
+      "charEnd": 3166
+    },
+    {
+      "id": "s0091",
+      "text": "And that is enough.",
+      "startMs": 218859.0,
+      "endMs": 220148.0,
+      "charStart": 3166,
+      "charEnd": 3185
+    },
+    {
+      "id": "s0092",
+      "text": "> Repetition makes one person the default path before the org chart moves.",
+      "startMs": 221169.0,
+      "endMs": 228275.0,
+      "charStart": 3188,
+      "charEnd": 3262
+    },
+    {
+      "id": "s0093",
+      "text": "From here, something else becomes possible.",
+      "startMs": 228878.0,
+      "endMs": 231560.0,
+      "charStart": 3264,
+      "charEnd": 3307
+    },
+    {
+      "id": "s0094",
+      "text": "Information begins to move—or it doesn’t.",
+      "startMs": 231560.0,
+      "endMs": 235148.0,
+      "charStart": 3307,
+      "charEnd": 3348
+    },
+    {
+      "id": "s0095",
+      "text": "Problems surface early—or they are delayed.",
+      "startMs": 235833.0,
+      "endMs": 238550.0,
+      "charStart": 3350,
+      "charEnd": 3393
+    },
+    {
+      "id": "s0096",
+      "text": "The next difference is not in who is being looked to.",
+      "startMs": 238550.0,
+      "endMs": 241835.0,
+      "charStart": 3393,
+      "charEnd": 3446
+    },
+    {
+      "id": "s0097",
+      "text": "It is in what reaches them.",
+      "startMs": 242172.0,
+      "endMs": 243669.0,
+      "charStart": 3448,
+      "charEnd": 3475
+    },
+    {
+      "id": "s0098",
+      "text": "Outline of Interpretive Sociology*, ed.",
+      "startMs": 244621.0,
+      "endMs": 247396.0,
+      "charStart": 3477,
+      "charEnd": 3516
+    },
+    {
+      "id": "s0099",
+      "text": "Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978).",
+      "startMs": 247396.0,
+      "endMs": 253491.0,
+      "charStart": 3516,
+      "charEnd": 3597
+    }
+  ]
+}

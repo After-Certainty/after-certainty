@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-front-matter-introduction-when-others-look-to-you",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "front-matter-introduction-when-others-look-to-you",
+  "sourcePath": "front-matter/introduction-when-others-look-to-you.md",
+  "sourceHash": "sha256:a25cfd73380ba1f84c50f3599b5ac51d66a2abb3bd8cd49af64ad0cb397f7cd4",
+  "spokenTextHash": "sha256:294d1e761953a0a8ca1159c283e4a5306d00ac4f99984e61833999dfab9090de",
+  "generationHash": "sha256:fe02d5823eddbfb73f813489609bde6479a73aa42166c889c8deb18c079a9924",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3045,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 761.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 761.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/front-matter-introduction-when-others-look-to-you.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/front-matter-introduction-when-others-look-to-you.mp3",
+  "audioSha256": "sha256:963068d3962348652d152ab0ebc78c14fc3b62c4a7086b145c791be16036a5e2",
+  "generatedAt": "2026-09-05T15:12:55Z"
+}

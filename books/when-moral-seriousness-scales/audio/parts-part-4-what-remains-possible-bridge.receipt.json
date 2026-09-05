@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-4-what-remains-possible-bridge",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-4-what-remains-possible-bridge",
+  "sourcePath": "parts/part-4-what-remains-possible/bridge.md",
+  "sourceHash": "sha256:6d7da1362302641d2a5e2798e18eb93561af42e772ff99b1f6fca40364e72882",
+  "spokenTextHash": "sha256:bfc83349d8358a7385bd248fdc704663b11a82043f7eab43e8ac68fb26a61e4c",
+  "generationHash": "sha256:56ae21b56c746b0b0a9e03054d18ff0ca21fca117500816af204b5612dfbc80c",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1360,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 340.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 340.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-4-what-remains-possible-bridge.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-4-what-remains-possible-bridge.mp3",
+  "audioSha256": "sha256:c44e507f58a15ef09a19ee5f753aa4bf89f17648be4b26a4511353a3d914d269",
+  "generatedAt": "2026-09-05T15:12:09Z"
+}

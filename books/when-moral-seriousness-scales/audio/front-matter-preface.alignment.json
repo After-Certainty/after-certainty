@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-front-matter-preface",
+  "generationHash": "sha256:2696ad0b6359e77d0b81277b3c87e74fe037b5338c3c4400505bc2081a654016",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Preface",
+      "startMs": 0.0,
+      "endMs": 801.0,
+      "charStart": 0,
+      "charEnd": 7
+    },
+    {
+      "id": "s0002",
+      "text": "Why This Book Exists",
+      "startMs": 1916.0,
+      "endMs": 3506.0,
+      "charStart": 9,
+      "charEnd": 29
+    },
+    {
+      "id": "s0003",
+      "text": "I began writing about leadership as a form of self-therapy—an attempt to clarify how I wanted to act when I had uneven responsibility over others.",
+      "startMs": 4621.0,
+      "endMs": 13270.0,
+      "charStart": 31,
+      "charEnd": 177
+    },
+    {
+      "id": "s0004",
+      "text": "I was not trying to build a theory.",
+      "startMs": 14082.0,
+      "endMs": 15905.0,
+      "charStart": 178,
+      "charEnd": 213
+    },
+    {
+      "id": "s0005",
+      "text": "I was trying to answer a practical question: What kind of authority can I live with?",
+      "startMs": 15905.0,
+      "endMs": 20793.0,
+      "charStart": 213,
+      "charEnd": 297
+    },
+    {
+      "id": "s0006",
+      "text": "At human scale, the principles felt coherent.",
+      "startMs": 21571.0,
+      "endMs": 24810.0,
+      "charStart": 300,
+      "charEnd": 345
+    },
+    {
+      "id": "s0007",
+      "text": "Absorb harm where possible.",
+      "startMs": 24810.0,
+      "endMs": 27468.0,
+      "charStart": 345,
+      "charEnd": 372
+    },
+    {
+      "id": "s0008",
+      "text": "Limit authority deliberately.",
+      "startMs": 28351.0,
+      "endMs": 30011.0,
+      "charStart": 374,
+      "charEnd": 403
+    },
+    {
+      "id": "s0009",
+      "text": "Preserve contestability.",
+      "startMs": 30522.0,
+      "endMs": 32135.0,
+      "charStart": 404,
+      "charEnd": 428
+    },
+    {
+      "id": "s0010",
+      "text": "Keep decision and consequence close.",
+      "startMs": 32135.0,
+      "endMs": 34887.0,
+      "charStart": 428,
+      "charEnd": 464
+    },
+    {
+      "id": "s0011",
+      "text": "Do not hide behind structure when judgment is required.",
+      "startMs": 34887.0,
+      "endMs": 38324.0,
+      "charStart": 464,
+      "charEnd": 519
+    },
+    {
+      "id": "s0012",
+      "text": "These commitments did not remove difficulty, but they made it navigable.",
+      "startMs": 38324.0,
+      "endMs": 42770.0,
+      "charStart": 519,
+      "charEnd": 591
+    },
+    {
+      "id": "s0013",
+      "text": "They offered a moral orientation I could practice.",
+      "startMs": 42770.0,
+      "endMs": 46602.0,
+      "charStart": 591,
+      "charEnd": 641
+    },
+    {
+      "id": "s0014",
+      "text": "Over time, I began applying that same orientation to larger systems—organizations, institutions, public discourse, political leadership.",
+      "startMs": 47983.0,
+      "endMs": 57178.0,
+      "charStart": 647,
+      "charEnd": 783
+    },
+    {
+      "id": "s0015",
+      "text": "That is where friction emerged.",
+      "startMs": 57561.0,
+      "endMs": 59511.0,
+      "charStart": 784,
+      "charEnd": 815
+    },
+    {
+      "id": "s0016",
+      "text": "The human-scale model did not collapse, but it no longer explained everything I was seeing.",
+      "startMs": 59511.0,
+      "endMs": 64887.0,
+      "charStart": 815,
+      "charEnd": 906
+    },
+    {
+      "id": "s0017",
+      "text": "Sometimes restraint built trust.",
+      "startMs": 65502.0,
+      "endMs": 67499.0,
+      "charStart": 908,
+      "charEnd": 940
+    },
+    {
+      "id": "s0018",
+      "text": "Sometimes it seemed to lose ground to actors moving faster under fewer constraints.",
+      "startMs": 67499.0,
+      "endMs": 72270.0,
+      "charStart": 940,
+      "charEnd": 1023
+    },
+    {
+      "id": "s0019",
+      "text": "Sometimes moral seriousness stabilized a system.",
+      "startMs": 72270.0,
+      "endMs": 75498.0,
+      "charStart": 1023,
+      "charEnd": 1071
+    },
+    {
+      "id": "s0020",
+      "text": "Sometimes it appeared structurally disadvantaged.",
+      "startMs": 75498.0,
+      "endMs": 78331.0,
+      "charStart": 1071,
+      "charEnd": 1120
+    },
+    {
+      "id": "s0021",
+      "text": "My dissatisfaction was not with moral seriousness itself.",
+      "startMs": 79004.0,
+      "endMs": 82499.0,
+      "charStart": 1125,
+      "charEnd": 1182
+    },
+    {
+      "id": "s0022",
+      "text": "It was with the assumption that its stabilizing effects would extend predictably across scale.",
+      "startMs": 82499.0,
+      "endMs": 88060.0,
+      "charStart": 1182,
+      "charEnd": 1276
+    },
+    {
+      "id": "s0023",
+      "text": "This book is an attempt to understand that tension.",
+      "startMs": 88478.0,
+      "endMs": 91566.0,
+      "charStart": 1279,
+      "charEnd": 1330
+    },
+    {
+      "id": "s0024",
+      "text": "It does not argue that moral seriousness fails.",
+      "startMs": 91891.0,
+      "endMs": 94759.0,
+      "charStart": 1332,
+      "charEnd": 1379
+    },
+    {
+      "id": "s0025",
+      "text": "It does not claim that escalation is inevitable.",
+      "startMs": 94759.0,
+      "endMs": 97673.0,
+      "charStart": 1379,
+      "charEnd": 1427
+    },
+    {
+      "id": "s0026",
+      "text": "It does not suggest that restraint is naive or that dominance is necessary.",
+      "startMs": 97673.0,
+      "endMs": 102015.0,
+      "charStart": 1427,
+      "charEnd": 1502
+    },
+    {
+      "id": "s0027",
+      "text": "It asks a narrower question: Under what structural conditions does moral seriousness retain force, and under what conditions does it encounter pressure?",
+      "startMs": 102015.0,
+      "endMs": 111129.0,
+      "charStart": 1502,
+      "charEnd": 1654
+    },
+    {
+      "id": "s0028",
+      "text": "At small scale, proximity and reciprocity do much of the work.",
+      "startMs": 111605.0,
+      "endMs": 115715.0,
+      "charStart": 1659,
+      "charEnd": 1721
+    },
+    {
+      "id": "s0029",
+      "text": "Harm is visible.",
+      "startMs": 115715.0,
+      "endMs": 117259.0,
+      "charStart": 1721,
+      "charEnd": 1737
+    },
+    {
+      "id": "s0030",
+      "text": "Authority remains contestable.",
+      "startMs": 117630.0,
+      "endMs": 119581.0,
+      "charStart": 1739,
+      "charEnd": 1769
+    },
+    {
+      "id": "s0031",
+      "text": "Feedback arrives quickly enough to correct excess before it hardens.",
+      "startMs": 119581.0,
+      "endMs": 123528.0,
+      "charStart": 1769,
+      "charEnd": 1837
+    },
+    {
+      "id": "s0032",
+      "text": "At larger scale, distance intervenes.",
+      "startMs": 123528.0,
+      "endMs": 126210.0,
+      "charStart": 1837,
+      "charEnd": 1874
+    },
+    {
+      "id": "s0033",
+      "text": "Consequence becomes abstract.",
+      "startMs": 126617.0,
+      "endMs": 128614.0,
+      "charStart": 1877,
+      "charEnd": 1906
+    },
+    {
+      "id": "s0034",
+      "text": "Reciprocity thins.",
+      "startMs": 128939.0,
+      "endMs": 130553.0,
+      "charStart": 1907,
+      "charEnd": 1925
+    },
+    {
+      "id": "s0035",
+      "text": "Incentives shift.",
+      "startMs": 130553.0,
+      "endMs": 132097.0,
+      "charStart": 1925,
+      "charEnd": 1942
+    },
+    {
+      "id": "s0036",
+      "text": "None of this eliminates judgment.",
+      "startMs": 132503.0,
+      "endMs": 134256.0,
+      "charStart": 1944,
+      "charEnd": 1977
+    },
+    {
+      "id": "s0037",
+      "text": "It changes the environment in which judgment operates.",
+      "startMs": 134256.0,
+      "endMs": 137194.0,
+      "charStart": 1977,
+      "charEnd": 2031
+    },
+    {
+      "id": "s0038",
+      "text": "Public conversation about leadership often oscillates between two poles.",
+      "startMs": 137751.0,
+      "endMs": 141571.0,
+      "charStart": 2034,
+      "charEnd": 2106
+    },
+    {
+      "id": "s0039",
+      "text": "One assumes that good intentions and restraint will naturally stabilize systems.",
+      "startMs": 141571.0,
+      "endMs": 146087.0,
+      "charStart": 2106,
+      "charEnd": 2186
+    },
+    {
+      "id": "s0040",
+      "text": "The other assumes that power inevitably corrodes and escalation is unavoidable.",
+      "startMs": 146087.0,
+      "endMs": 151521.0,
+      "charStart": 2186,
+      "charEnd": 2265
+    },
+    {
+      "id": "s0041",
+      "text": "Both feel incomplete.",
+      "startMs": 152159.0,
+      "endMs": 153738.0,
+      "charStart": 2268,
+      "charEnd": 2289
+    },
+    {
+      "id": "s0042",
+      "text": "Both flatten structural complexity into moral certainty.",
+      "startMs": 153738.0,
+      "endMs": 157395.0,
+      "charStart": 2289,
+      "charEnd": 2345
+    },
+    {
+      "id": "s0043",
+      "text": "This book grows out of that dissatisfaction.",
+      "startMs": 157987.0,
+      "endMs": 160890.0,
+      "charStart": 2348,
+      "charEnd": 2392
+    },
+    {
+      "id": "s0044",
+      "text": "It is not written to resolve debates about power.",
+      "startMs": 161273.0,
+      "endMs": 164164.0,
+      "charStart": 2394,
+      "charEnd": 2443
+    },
+    {
+      "id": "s0045",
+      "text": "It is written to deepen my understanding of why human-scale solutions do not always translate cleanly into larger environments.",
+      "startMs": 164164.0,
+      "endMs": 171652.0,
+      "charStart": 2443,
+      "charEnd": 2570
+    },
+    {
+      "id": "s0046",
+      "text": "It is written in defense of judgment—not as a technique or formula, but as a practice that becomes more costly, and perhaps more necessary, as systems grow.",
+      "startMs": 171652.0,
+      "endMs": 182148.0,
+      "charStart": 2570,
+      "charEnd": 2726
+    },
+    {
+      "id": "s0047",
+      "text": "Structural pressure is real.",
+      "startMs": 182949.0,
+      "endMs": 184772.0,
+      "charStart": 2730,
+      "charEnd": 2758
+    },
+    {
+      "id": "s0048",
+      "text": "Asymmetry is real.",
+      "startMs": 184923.0,
+      "endMs": 186421.0,
+      "charStart": 2759,
+      "charEnd": 2777
+    },
+    {
+      "id": "s0049",
+      "text": "Acceleration is real.",
+      "startMs": 186514.0,
+      "endMs": 188209.0,
+      "charStart": 2778,
+      "charEnd": 2799
+    },
+    {
+      "id": "s0050",
+      "text": "But inevitability is a different claim, and one I do not accept.",
+      "startMs": 188301.0,
+      "endMs": 192191.0,
+      "charStart": 2800,
+      "charEnd": 2864
+    },
+    {
+      "id": "s0051",
+      "text": "Human systems remain contingent on the judgments of the people within them.",
+      "startMs": 192191.0,
+      "endMs": 196301.0,
+      "charStart": 2864,
+      "charEnd": 2939
+    },
+    {
+      "id": "s0052",
+      "text": "The question is not whether scale determines our actions, but whether we understand the conditions under which we act.",
+      "startMs": 196301.0,
+      "endMs": 202884.0,
+      "charStart": 2939,
+      "charEnd": 3057
+    },
+    {
+      "id": "s0053",
+      "text": "This book is my attempt to think more clearly within those conditions.",
+      "startMs": 203592.0,
+      "endMs": 207400.0,
+      "charStart": 3061,
+      "charEnd": 3131
+    }
+  ]
+}

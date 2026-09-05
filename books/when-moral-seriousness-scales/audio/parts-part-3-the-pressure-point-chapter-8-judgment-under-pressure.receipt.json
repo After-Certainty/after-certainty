@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-3-the-pressure-point-chapter-8-judgment-under-pressure",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-3-the-pressure-point-chapter-8-judgment-under-pressure",
+  "sourcePath": "parts/part-3-the-pressure-point/chapter-8-judgment-under-pressure.md",
+  "sourceHash": "sha256:d42e68e355c7863850cc7a8208540dd1d947fc2b922b733cdf165c96a8e40bee",
+  "spokenTextHash": "sha256:3f5b0e262982d452ff8b30e8c67d65bac3cce88c75c0ac28b5f4ae3a34515e19",
+  "generationHash": "sha256:aec13c6b185512027273067e5530a2843be665b0d52af5677efe761a660488ed",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2820,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 705.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 705.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-3-the-pressure-point-chapter-8-judgment-under-pressure.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-3-the-pressure-point-chapter-8-judgment-under-pressure.mp3",
+  "audioSha256": "sha256:802fc97242f672cfd5cf8077faf4e69496bccddd1ac7d7fe69f3c78fab3271e9",
+  "generatedAt": "2026-09-05T15:12:01Z"
+}

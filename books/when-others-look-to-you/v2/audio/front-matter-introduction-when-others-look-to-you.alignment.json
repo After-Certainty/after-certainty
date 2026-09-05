@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-front-matter-introduction-when-others-look-to-you",
+  "generationHash": "sha256:fe02d5823eddbfb73f813489609bde6479a73aa42166c889c8deb18c079a9924",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Introduction — When Others Look To You",
+      "startMs": 0.0,
+      "endMs": 2868.0,
+      "charStart": 0,
+      "charEnd": 38
+    },
+    {
+      "id": "s0002",
+      "text": "A leader is someone others look to when deciding what to do next.",
+      "startMs": 3378.0,
+      "endMs": 7802.0,
+      "charStart": 40,
+      "charEnd": 105
+    },
+    {
+      "id": "s0003",
+      "text": "That’s where leadership begins.",
+      "startMs": 8313.0,
+      "endMs": 10310.0,
+      "charStart": 107,
+      "charEnd": 138
+    },
+    {
+      "id": "s0004",
+      "text": "Not with a title.",
+      "startMs": 10693.0,
+      "endMs": 11877.0,
+      "charStart": 139,
+      "charEnd": 156
+    },
+    {
+      "id": "s0005",
+      "text": "Not with authority.",
+      "startMs": 12086.0,
+      "endMs": 13468.0,
+      "charStart": 157,
+      "charEnd": 176
+    },
+    {
+      "id": "s0006",
+      "text": "Not with responsibility.",
+      "startMs": 13711.0,
+      "endMs": 15465.0,
+      "charStart": 177,
+      "charEnd": 201
+    },
+    {
+      "id": "s0007",
+      "text": "Leadership begins when **Attention Finds a Focus**.",
+      "startMs": 15465.0,
+      "endMs": 22883.0,
+      "charStart": 201,
+      "charEnd": 252
+    },
+    {
+      "id": "s0008",
+      "text": "A question comes up, and the room slows until **Attention Finds a Focus** on one person.",
+      "startMs": 23266.0,
+      "endMs": 33274.0,
+      "charStart": 255,
+      "charEnd": 343
+    },
+    {
+      "id": "s0009",
+      "text": "What they do next matters more than it seems, because Examples Accumulate.",
+      "startMs": 33274.0,
+      "endMs": 40356.0,
+      "charStart": 343,
+      "charEnd": 417
+    },
+    {
+      "id": "s0010",
+      "text": "Others begin to adjust around it.",
+      "startMs": 41900.0,
+      "endMs": 43967.0,
+      "charStart": 419,
+      "charEnd": 452
+    },
+    {
+      "id": "s0011",
+      "text": "Over time, without anyone deciding it explicitly, **Leadership Coalesces**.",
+      "startMs": 43967.0,
+      "endMs": 52163.0,
+      "charStart": 452,
+      "charEnd": 527
+    },
+    {
+      "id": "s0012",
+      "text": "The group starts to rely on that more often.",
+      "startMs": 52976.0,
+      "endMs": 55542.0,
+      "charStart": 529,
+      "charEnd": 573
+    },
+    {
+      "id": "s0013",
+      "text": "If things are working well, Dissent is Welcomed, and problems show up while they can still be handled.",
+      "startMs": 55983.0,
+      "endMs": 62496.0,
+      "charStart": 575,
+      "charEnd": 677
+    },
+    {
+      "id": "s0014",
+      "text": "When that happens, **Feedback Drives Change**.",
+      "startMs": 62496.0,
+      "endMs": 69253.0,
+      "charStart": 677,
+      "charEnd": 723
+    },
+    {
+      "id": "s0015",
+      "text": "The group adjusts instead of just continuing.",
+      "startMs": 69764.0,
+      "endMs": 73084.0,
+      "charStart": 725,
+      "charEnd": 770
+    },
+    {
+      "id": "s0016",
+      "text": "Things stay grounded when Leaders Feel the Consequences.",
+      "startMs": 73084.0,
+      "endMs": 77252.0,
+      "charStart": 770,
+      "charEnd": 826
+    },
+    {
+      "id": "s0017",
+      "text": "The people deciding remain close to what actually happens next.",
+      "startMs": 77252.0,
+      "endMs": 81595.0,
+      "charStart": 826,
+      "charEnd": 889
+    },
+    {
+      "id": "s0018",
+      "text": "But this can shift.",
+      "startMs": 82349.0,
+      "endMs": 83731.0,
+      "charStart": 893,
+      "charEnd": 912
+    },
+    {
+      "id": "s0019",
+      "text": "At some point, Disagreement is Suppressed.",
+      "startMs": 84056.0,
+      "endMs": 87179.0,
+      "charStart": 913,
+      "charEnd": 955
+    },
+    {
+      "id": "s0020",
+      "text": "Decisions move forward without being tested.",
+      "startMs": 87388.0,
+      "endMs": 90360.0,
+      "charStart": 956,
+      "charEnd": 1000
+    },
+    {
+      "id": "s0021",
+      "text": "As that continues, Learning Collapse takes hold.",
+      "startMs": 90360.0,
+      "endMs": 94319.0,
+      "charStart": 1000,
+      "charEnd": 1048
+    },
+    {
+      "id": "s0022",
+      "text": "What is really happening no longer reaches the people making decisions.",
+      "startMs": 94319.0,
+      "endMs": 98696.0,
+      "charStart": 1048,
+      "charEnd": 1119
+    },
+    {
+      "id": "s0023",
+      "text": "Small workarounds start to stick.",
+      "startMs": 99172.0,
+      "endMs": 101424.0,
+      "charStart": 1122,
+      "charEnd": 1155
+    },
+    {
+      "id": "s0024",
+      "text": "What was meant to be temporary doesn’t get undone.",
+      "startMs": 101424.0,
+      "endMs": 105023.0,
+      "charStart": 1155,
+      "charEnd": 1205
+    },
+    {
+      "id": "s0025",
+      "text": "Before long, **Exceptions are Forever**.",
+      "startMs": 105023.0,
+      "endMs": 111908.0,
+      "charStart": 1205,
+      "charEnd": 1245
+    },
+    {
+      "id": "s0026",
+      "text": "People notice all of this.",
+      "startMs": 115426.0,
+      "endMs": 117144.0,
+      "charStart": 1249,
+      "charEnd": 1275
+    },
+    {
+      "id": "s0027",
+      "text": "They see what moves things forward and what persists.",
+      "startMs": 117144.0,
+      "endMs": 120929.0,
+      "charStart": 1275,
+      "charEnd": 1328
+    },
+    {
+      "id": "s0028",
+      "text": "Eventually Leadership Reproduces Itself, carrying it into the next moment when Attention Finds a Focus again.",
+      "startMs": 120929.0,
+      "endMs": 129729.0,
+      "charStart": 1328,
+      "charEnd": 1437
+    },
+    {
+      "id": "s0029",
+      "text": "How the dynamics stack",
+      "startMs": 131006.0,
+      "endMs": 132492.0,
+      "charStart": 1441,
+      "charEnd": 1463
+    },
+    {
+      "id": "s0030",
+      "text": "Those same dynamics also gather into four groups.",
+      "startMs": 133444.0,
+      "endMs": 136950.0,
+      "charStart": 1465,
+      "charEnd": 1514
+    },
+    {
+      "id": "s0031",
+      "text": "Appendix A summarizes the full catalog under Forming, Renewing, Eroding, and Repeating.",
+      "startMs": 136950.0,
+      "endMs": 143939.0,
+      "charStart": 1514,
+      "charEnd": 1601
+    },
+    {
+      "id": "s0032",
+      "text": "The diagram legend uses Adjusting instead of Renewing for the second group; the Renewing part follows that territory.",
+      "startMs": 143939.0,
+      "endMs": 152646.0,
+      "charStart": 1601,
+      "charEnd": 1718
+    },
+    {
+      "id": "s0033",
+      "text": "That is the loop that keeps decisions tied to reality.",
+      "startMs": 152646.0,
+      "endMs": 156431.0,
+      "charStart": 1718,
+      "charEnd": 1772
+    },
+    {
+      "id": "s0034",
+      "text": "This happens everywhere—in meetings, in conversations, in families, in",
+      "startMs": 157418.0,
+      "endMs": 162840.0,
+      "charStart": 1777,
+      "charEnd": 1847
+    },
+    {
+      "id": "s0035",
+      "text": "teams—whether anyone intends it or not.",
+      "startMs": 162910.0,
+      "endMs": 165801.0,
+      "charStart": 1848,
+      "charEnd": 1887
+    },
+    {
+      "id": "s0036",
+      "text": "Leadership is not something you step into once.",
+      "startMs": 166404.0,
+      "endMs": 169272.0,
+      "charStart": 1889,
+      "charEnd": 1936
+    },
+    {
+      "id": "s0037",
+      "text": "It happens in moments.",
+      "startMs": 169655.0,
+      "endMs": 171130.0,
+      "charStart": 1937,
+      "charEnd": 1959
+    },
+    {
+      "id": "s0038",
+      "text": "A pause.",
+      "startMs": 171130.0,
+      "endMs": 172279.0,
+      "charStart": 1959,
+      "charEnd": 1967
+    },
+    {
+      "id": "s0039",
+      "text": "A glance.",
+      "startMs": 172662.0,
+      "endMs": 173521.0,
+      "charStart": 1969,
+      "charEnd": 1978
+    },
+    {
+      "id": "s0040",
+      "text": "A question that needs an answer.",
+      "startMs": 173765.0,
+      "endMs": 175681.0,
+      "charStart": 1979,
+      "charEnd": 2011
+    },
+    {
+      "id": "s0041",
+      "text": "And in that moment, what you do does not stay contained.",
+      "startMs": 175681.0,
+      "endMs": 179547.0,
+      "charStart": 2011,
+      "charEnd": 2067
+    },
+    {
+      "id": "s0042",
+      "text": "It is seen.",
+      "startMs": 180325.0,
+      "endMs": 181370.0,
+      "charStart": 2069,
+      "charEnd": 2080
+    },
+    {
+      "id": "s0043",
+      "text": "It is interpreted.",
+      "startMs": 181648.0,
+      "endMs": 182960.0,
+      "charStart": 2081,
+      "charEnd": 2099
+    },
+    {
+      "id": "s0044",
+      "text": "It is repeated.",
+      "startMs": 182960.0,
+      "endMs": 184319.0,
+      "charStart": 2099,
+      "charEnd": 2114
+    },
+    {
+      "id": "s0045",
+      "text": "This book is about those moments.",
+      "startMs": 185131.0,
+      "endMs": 187210.0,
+      "charStart": 2117,
+      "charEnd": 2150
+    },
+    {
+      "id": "s0046",
+      "text": "It shows how leadership forms when Attention Finds a Focus.",
+      "startMs": 187210.0,
+      "endMs": 191482.0,
+      "charStart": 2150,
+      "charEnd": 2209
+    },
+    {
+      "id": "s0047",
+      "text": "It shows how leadership stays connected to reality—or drifts away from it.",
+      "startMs": 191482.0,
+      "endMs": 196637.0,
+      "charStart": 2209,
+      "charEnd": 2283
+    },
+    {
+      "id": "s0048",
+      "text": "It shows how what gets copied shapes what comes next.",
+      "startMs": 196637.0,
+      "endMs": 200340.0,
+      "charStart": 2283,
+      "charEnd": 2336
+    },
+    {
+      "id": "s0049",
+      "text": "These dynamics are not prescriptions.",
+      "startMs": 201269.0,
+      "endMs": 203568.0,
+      "charStart": 2341,
+      "charEnd": 2378
+    },
+    {
+      "id": "s0050",
+      "text": "They are not steps to follow.",
+      "startMs": 203742.0,
+      "endMs": 205483.0,
+      "charStart": 2379,
+      "charEnd": 2408
+    },
+    {
+      "id": "s0051",
+      "text": "They are observable conditions that appear again and again, from small groups to large institutions.",
+      "startMs": 205483.0,
+      "endMs": 212426.0,
+      "charStart": 2408,
+      "charEnd": 2508
+    },
+    {
+      "id": "s0052",
+      "text": "You do not need to become a leader for them to apply.",
+      "startMs": 213088.0,
+      "endMs": 216141.0,
+      "charStart": 2511,
+      "charEnd": 2564
+    },
+    {
+      "id": "s0053",
+      "text": "You only need to notice when others look to you.",
+      "startMs": 216141.0,
+      "endMs": 219357.0,
+      "charStart": 2564,
+      "charEnd": 2612
+    },
+    {
+      "id": "s0054",
+      "text": "Because when they do, something has already started.",
+      "startMs": 219891.0,
+      "endMs": 222991.0,
+      "charStart": 2615,
+      "charEnd": 2667
+    },
+    {
+      "id": "s0055",
+      "text": "What happens next will not stay there.",
+      "startMs": 222991.0,
+      "endMs": 225395.0,
+      "charStart": 2667,
+      "charEnd": 2705
+    },
+    {
+      "id": "s0056",
+      "text": "It will be learned.",
+      "startMs": 225696.0,
+      "endMs": 226776.0,
+      "charStart": 2707,
+      "charEnd": 2726
+    },
+    {
+      "id": "s0057",
+      "text": "It will be repeated.",
+      "startMs": 226857.0,
+      "endMs": 228297.0,
+      "charStart": 2727,
+      "charEnd": 2747
+    },
+    {
+      "id": "s0058",
+      "text": "and how attention gathers around direction: Max Weber, *Economy and Society: An Outline of Interpretive Sociology*, ed.",
+      "startMs": 228541.0,
+      "endMs": 237608.0,
+      "charStart": 2749,
+      "charEnd": 2868
+    },
+    {
+      "id": "s0059",
+      "text": "Guenther Roth and Claus Wittich (Berkeley: University of California Press, 1978); Hannah Arendt, \"What Is Authority?\" in Between Past and Future (New York: Viking Press, 1961).",
+      "startMs": 237608.0,
+      "endMs": 252481.0,
+      "charStart": 2868,
+      "charEnd": 3044
+    }
+  ]
+}

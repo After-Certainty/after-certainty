@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-4-repeating-bridge",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-4-repeating-bridge",
+  "sourcePath": "parts/part-4-repeating/bridge.md",
+  "sourceHash": "sha256:ba9e04941c1c8b55e56a669295fbca343e8e8631f1dec1a4efdf0349bc77edd3",
+  "spokenTextHash": "sha256:4e7d4763a4bbcc53e846fa7ef3c6a22997242b41be83f0b2bd0111ba015d1bf7",
+  "generationHash": "sha256:f11c7df3a4694ec3fe9228670c918bfdbb2b6aa55547d568007c9a198dc5effe",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 390,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 97.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 97.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-4-repeating-bridge.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-4-repeating-bridge.mp3",
+  "audioSha256": "sha256:511bf110416dbc2234bb3d6d4de7860d375c53dfa1600833769abdf4796e74fa",
+  "generatedAt": "2026-09-05T15:14:48Z"
+}

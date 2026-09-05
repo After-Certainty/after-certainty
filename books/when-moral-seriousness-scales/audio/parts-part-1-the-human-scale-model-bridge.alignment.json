@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-1-the-human-scale-model-bridge",
+  "generationHash": "sha256:ae44ac3ca200929ba48534c005ee2f01eb06ac4813a06768c7c1c1d391c22c65",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part I — The Human-Scale Model",
+      "startMs": 0.0,
+      "endMs": 3076.0,
+      "charStart": 0,
+      "charEnd": 30
+    },
+    {
+      "id": "s0002",
+      "text": "Before turning to the complications introduced by scale, it helps to return to the setting where these ideas first felt clear.",
+      "startMs": 4191.0,
+      "endMs": 11645.0,
+      "charStart": 32,
+      "charEnd": 158
+    },
+    {
+      "id": "s0003",
+      "text": "The framework developed in When Authority Outlives Accountability did not emerge from abstraction.",
+      "startMs": 11645.0,
+      "endMs": 18436.0,
+      "charStart": 158,
+      "charEnd": 256
+    },
+    {
+      "id": "s0004",
+      "text": "It grew out of small, lived contexts—families, teams, relationships—where responsibility is uneven but proximity remains intact.",
+      "startMs": 18436.0,
+      "endMs": 28792.0,
+      "charStart": 256,
+      "charEnd": 384
+    },
+    {
+      "id": "s0005",
+      "text": "In those settings, absorbing harm, limiting authority, and preserving contestability felt not only principled, but workable.",
+      "startMs": 28792.0,
+      "endMs": 37407.0,
+      "charStart": 384,
+      "charEnd": 508
+    },
+    {
+      "id": "s0006",
+      "text": "This section revisits that human-scale model, not to idealize it, but to understand why it functions as it does.",
+      "startMs": 37407.0,
+      "endMs": 44849.0,
+      "charStart": 508,
+      "charEnd": 620
+    },
+    {
+      "id": "s0007",
+      "text": "Only then can we see what changes when distance intervenes.",
+      "startMs": 44849.0,
+      "endMs": 49052.0,
+      "charStart": 620,
+      "charEnd": 679
+    }
+  ]
+}
