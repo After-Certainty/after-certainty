@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-1-the-human-scale-model-chapter-3-contestability",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-1-the-human-scale-model-chapter-3-contestability",
+  "sourcePath": "parts/part-1-the-human-scale-model/chapter-3-contestability.md",
+  "sourceHash": "sha256:000925b20fb8e9b4dceeea11fb2911ac52c422f58f9d4f02cf02728df99362b6",
+  "spokenTextHash": "sha256:0d21761fe1405353cdbd003348bb19ce86ec95899b813f3767f8b857adef0a52",
+  "generationHash": "sha256:7583b599fdaaa07760dae3c70f5976f6fdf207f2de1e652ee5409ee61182244a",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3673,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 918.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 918.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-1-the-human-scale-model-chapter-3-contestability.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-1-the-human-scale-model-chapter-3-contestability.mp3",
+  "audioSha256": "sha256:7eaf3472b3f62b36732af9de50c81bcba64e2d86fa8bfed44cf9e96b1c7127e6",
+  "generatedAt": "2026-09-05T15:10:58Z"
+}

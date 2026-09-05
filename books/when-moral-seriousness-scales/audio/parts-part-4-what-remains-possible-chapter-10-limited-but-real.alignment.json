@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-4-what-remains-possible-chapter-10-limited-but-real",
+  "generationHash": "sha256:7ed2b39d144d464ed170de90492c4d1144de98feea462602acc2dc36f23174bd",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 10: Limited but Real",
+      "startMs": 0.0,
+      "endMs": 2473.0,
+      "charStart": 0,
+      "charEnd": 28
+    },
+    {
+      "id": "s0002",
+      "text": "Limited but Real",
+      "startMs": 3588.0,
+      "endMs": 4621.0,
+      "charStart": 29,
+      "charEnd": 45
+    },
+    {
+      "id": "s0003",
+      "text": "By this point, the temptation is to measure moral seriousness by dominance.",
+      "startMs": 5736.0,
+      "endMs": 10566.0,
+      "charStart": 47,
+      "charEnd": 122
+    },
+    {
+      "id": "s0004",
+      "text": "If restraint does not prevail, if asymmetry persists, if acceleration continues, it is easy to conclude that moral seriousness has failed.",
+      "startMs": 10566.0,
+      "endMs": 20109.0,
+      "charStart": 122,
+      "charEnd": 260
+    },
+    {
+      "id": "s0005",
+      "text": "That conclusion confuses victory with value.",
+      "startMs": 20469.0,
+      "endMs": 23476.0,
+      "charStart": 263,
+      "charEnd": 307
+    },
+    {
+      "id": "s0006",
+      "text": "Moral seriousness may not dominate at scale.",
+      "startMs": 23720.0,
+      "endMs": 26854.0,
+      "charStart": 309,
+      "charEnd": 353
+    },
+    {
+      "id": "s0007",
+      "text": "It may not eliminate distance.",
+      "startMs": 26854.0,
+      "endMs": 28840.0,
+      "charStart": 353,
+      "charEnd": 383
+    },
+    {
+      "id": "s0008",
+      "text": "It may not dissolve asymmetry or neutralize incentive gradients.",
+      "startMs": 28840.0,
+      "endMs": 33298.0,
+      "charStart": 383,
+      "charEnd": 447
+    },
+    {
+      "id": "s0009",
+      "text": "Structural pressure is real.",
+      "startMs": 33867.0,
+      "endMs": 35852.0,
+      "charStart": 450,
+      "charEnd": 478
+    },
+    {
+      "id": "s0010",
+      "text": "Systems reward speed unevenly.",
+      "startMs": 36235.0,
+      "endMs": 38906.0,
+      "charStart": 479,
+      "charEnd": 509
+    },
+    {
+      "id": "s0011",
+      "text": "Actors who absorb cost may still lose influence.",
+      "startMs": 39231.0,
+      "endMs": 42760.0,
+      "charStart": 510,
+      "charEnd": 558
+    },
+    {
+      "id": "s0012",
+      "text": "But dominance was never the only measure.",
+      "startMs": 43143.0,
+      "endMs": 45744.0,
+      "charStart": 560,
+      "charEnd": 601
+    },
+    {
+      "id": "s0013",
+      "text": "The more modest—and more defensible—claim is that moral seriousness can preserve contestability.",
+      "startMs": 46348.0,
+      "endMs": 53175.0,
+      "charStart": 603,
+      "charEnd": 699
+    },
+    {
+      "id": "s0014",
+      "text": "It can prevent authority from becoming unquestionable.",
+      "startMs": 53175.0,
+      "endMs": 56832.0,
+      "charStart": 699,
+      "charEnd": 753
+    },
+    {
+      "id": "s0015",
+      "text": "It can resist the conversion of precedent into automatic permission.",
+      "startMs": 56832.0,
+      "endMs": 61278.0,
+      "charStart": 753,
+      "charEnd": 821
+    },
+    {
+      "id": "s0016",
+      "text": "Even when it does not control outcomes, it can keep disagreement visible and dissent survivable.",
+      "startMs": 61278.0,
+      "endMs": 67850.0,
+      "charStart": 821,
+      "charEnd": 917
+    },
+    {
+      "id": "s0017",
+      "text": "It can also slow harm.",
+      "startMs": 68628.0,
+      "endMs": 70346.0,
+      "charStart": 922,
+      "charEnd": 944
+    },
+    {
+      "id": "s0018",
+      "text": "Slowing harm is not dramatic.",
+      "startMs": 70949.0,
+      "endMs": 72854.0,
+      "charStart": 946,
+      "charEnd": 975
+    },
+    {
+      "id": "s0019",
+      "text": "It rarely generates headlines.",
+      "startMs": 73028.0,
+      "endMs": 74862.0,
+      "charStart": 976,
+      "charEnd": 1006
+    },
+    {
+      "id": "s0020",
+      "text": "It does not satisfy those who want decisive transformation.",
+      "startMs": 74862.0,
+      "endMs": 78368.0,
+      "charStart": 1006,
+      "charEnd": 1065
+    },
+    {
+      "id": "s0021",
+      "text": "Yet slowing harm prevents normalization.",
+      "startMs": 78368.0,
+      "endMs": 81724.0,
+      "charStart": 1065,
+      "charEnd": 1105
+    },
+    {
+      "id": "s0022",
+      "text": "It prevents escalation from becoming reflex.",
+      "startMs": 82374.0,
+      "endMs": 85148.0,
+      "charStart": 1108,
+      "charEnd": 1152
+    },
+    {
+      "id": "s0023",
+      "text": "It forces reconsideration where momentum would otherwise proceed unexamined.",
+      "startMs": 85148.0,
+      "endMs": 89967.0,
+      "charStart": 1152,
+      "charEnd": 1228
+    },
+    {
+      "id": "s0024",
+      "text": "In this sense, moral seriousness functions less as conquest and more as",
+      "startMs": 90814.0,
+      "endMs": 95749.0,
+      "charStart": 1231,
+      "charEnd": 1302
+    },
+    {
+      "id": "s0025",
+      "text": "constraint.",
+      "startMs": 95818.0,
+      "endMs": 96689.0,
+      "charStart": 1303,
+      "charEnd": 1314
+    },
+    {
+      "id": "s0026",
+      "text": "Constraint does not eliminate conflict.",
+      "startMs": 97072.0,
+      "endMs": 99568.0,
+      "charStart": 1316,
+      "charEnd": 1355
+    },
+    {
+      "id": "s0027",
+      "text": "It does not produce moral certainty.",
+      "startMs": 99568.0,
+      "endMs": 101855.0,
+      "charStart": 1355,
+      "charEnd": 1391
+    },
+    {
+      "id": "s0028",
+      "text": "It does something quieter: it preserves the conditions under which future judgment remains possible.",
+      "startMs": 101855.0,
+      "endMs": 108311.0,
+      "charStart": 1391,
+      "charEnd": 1491
+    },
+    {
+      "id": "s0029",
+      "text": "When harm cannot proceed automatically—when authority must be renewed, when dissent must be heard, when friction interrupts acceleration—the system remains corrigible.",
+      "startMs": 108311.0,
+      "endMs": 120176.0,
+      "charStart": 1491,
+      "charEnd": 1658
+    },
+    {
+      "id": "s0030",
+      "text": "Corrigibility is not collapse.",
+      "startMs": 120838.0,
+      "endMs": 123090.0,
+      "charStart": 1663,
+      "charEnd": 1693
+    },
+    {
+      "id": "s0031",
+      "text": "Survival is not failure.",
+      "startMs": 123299.0,
+      "endMs": 125157.0,
+      "charStart": 1695,
+      "charEnd": 1719
+    },
+    {
+      "id": "s0032",
+      "text": "In periods of thinning reciprocity and heightened asymmetry, the survival of judgment may be the most realistic achievement available.",
+      "startMs": 125598.0,
+      "endMs": 134143.0,
+      "charStart": 1721,
+      "charEnd": 1855
+    },
+    {
+      "id": "s0033",
+      "text": "To prevent harm from becoming automatic, to preserve spaces where agency still interrupts momentum, to refuse the equation of speed with necessity—these are limited outcomes.",
+      "startMs": 134143.0,
+      "endMs": 146299.0,
+      "charStart": 1855,
+      "charEnd": 2029
+    },
+    {
+      "id": "s0034",
+      "text": "They are also real.",
+      "startMs": 147239.0,
+      "endMs": 148621.0,
+      "charStart": 2031,
+      "charEnd": 2050
+    },
+    {
+      "id": "s0035",
+      "text": "Moral seriousness may not prevail.",
+      "startMs": 149573.0,
+      "endMs": 152127.0,
+      "charStart": 2052,
+      "charEnd": 2086
+    },
+    {
+      "id": "s0036",
+      "text": "It may persist.",
+      "startMs": 152731.0,
+      "endMs": 153996.0,
+      "charStart": 2087,
+      "charEnd": 2102
+    },
+    {
+      "id": "s0037",
+      "text": "That persistence is not trivial.",
+      "startMs": 154600.0,
+      "endMs": 156492.0,
+      "charStart": 2104,
+      "charEnd": 2136
+    },
+    {
+      "id": "s0038",
+      "text": "It is the difference between a system that accelerates without reflection and one that still remembers how to think.",
+      "startMs": 156492.0,
+      "endMs": 162971.0,
+      "charStart": 2136,
+      "charEnd": 2252
+    },
+    {
+      "id": "s0039",
+      "text": "“Constraint is not triumph.",
+      "startMs": 163586.0,
+      "endMs": 165734.0,
+      "charStart": 2255,
+      "charEnd": 2282
+    },
+    {
+      "id": "s0040",
+      "text": "It is the preservation of possibility.”",
+      "startMs": 165908.0,
+      "endMs": 168393.0,
+      "charStart": 2283,
+      "charEnd": 2322
+    }
+  ]
+}

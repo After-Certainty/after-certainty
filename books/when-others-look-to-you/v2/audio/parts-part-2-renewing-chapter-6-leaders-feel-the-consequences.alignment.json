@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-2-renewing-chapter-6-leaders-feel-the-consequences",
+  "generationHash": "sha256:7665c6b5c9658d7dfc2560eccb760d1a8c7fec64d858c5aca097f2f519e48a0a",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 6 — Leaders Feel the Consequences",
+      "startMs": 0.0,
+      "endMs": 3565.0,
+      "charStart": 0,
+      "charEnd": 41
+    },
+    {
+      "id": "s0002",
+      "text": "The adjustment has been made.",
+      "startMs": 4168.0,
+      "endMs": 5863.0,
+      "charStart": 43,
+      "charEnd": 72
+    },
+    {
+      "id": "s0003",
+      "text": "The sail has shifted.",
+      "startMs": 6188.0,
+      "endMs": 7616.0,
+      "charStart": 73,
+      "charEnd": 94
+    },
+    {
+      "id": "s0004",
+      "text": "The course has changed.",
+      "startMs": 7616.0,
+      "endMs": 9067.0,
+      "charStart": 94,
+      "charEnd": 117
+    },
+    {
+      "id": "s0005",
+      "text": "The boat continues forward.",
+      "startMs": 9427.0,
+      "endMs": 11018.0,
+      "charStart": 119,
+      "charEnd": 146
+    },
+    {
+      "id": "s0006",
+      "text": "What matters now is not the decision itself.",
+      "startMs": 11296.0,
+      "endMs": 13978.0,
+      "charStart": 148,
+      "charEnd": 192
+    },
+    {
+      "id": "s0007",
+      "text": "It is what happens next.",
+      "startMs": 14153.0,
+      "endMs": 15604.0,
+      "charStart": 193,
+      "charEnd": 217
+    },
+    {
+      "id": "s0008",
+      "text": "The wind pushes differently.",
+      "startMs": 15778.0,
+      "endMs": 17322.0,
+      "charStart": 219,
+      "charEnd": 247
+    },
+    {
+      "id": "s0009",
+      "text": "The boat responds.",
+      "startMs": 17531.0,
+      "endMs": 18634.0,
+      "charStart": 248,
+      "charEnd": 266
+    },
+    {
+      "id": "s0010",
+      "text": "The line holds—or it doesn’t.",
+      "startMs": 18634.0,
+      "endMs": 20654.0,
+      "charStart": 266,
+      "charEnd": 295
+    },
+    {
+      "id": "s0011",
+      "text": "Someone notices.",
+      "startMs": 21153.0,
+      "endMs": 22326.0,
+      "charStart": 298,
+      "charEnd": 314
+    },
+    {
+      "id": "s0012",
+      "text": "Not from a distance.",
+      "startMs": 22477.0,
+      "endMs": 23580.0,
+      "charStart": 316,
+      "charEnd": 336
+    },
+    {
+      "id": "s0013",
+      "text": "From where they are.",
+      "startMs": 23696.0,
+      "endMs": 24741.0,
+      "charStart": 337,
+      "charEnd": 357
+    },
+    {
+      "id": "s0014",
+      "text": "They can feel it in the tension of the rope.",
+      "startMs": 24741.0,
+      "endMs": 27237.0,
+      "charStart": 357,
+      "charEnd": 401
+    },
+    {
+      "id": "s0015",
+      "text": "They can see it in the angle of the sail.",
+      "startMs": 27411.0,
+      "endMs": 29385.0,
+      "charStart": 403,
+      "charEnd": 444
+    },
+    {
+      "id": "s0016",
+      "text": "They can tell whether the change worked.",
+      "startMs": 29385.0,
+      "endMs": 31382.0,
+      "charStart": 444,
+      "charEnd": 484
+    },
+    {
+      "id": "s0017",
+      "text": "If it didn’t, they adjust again.",
+      "startMs": 31741.0,
+      "endMs": 33692.0,
+      "charStart": 487,
+      "charEnd": 519
+    },
+    {
+      "id": "s0018",
+      "text": "The loop is short.",
+      "startMs": 33901.0,
+      "endMs": 35178.0,
+      "charStart": 520,
+      "charEnd": 538
+    },
+    {
+      "id": "s0019",
+      "text": "Decision.",
+      "startMs": 35457.0,
+      "endMs": 36211.0,
+      "charStart": 539,
+      "charEnd": 548
+    },
+    {
+      "id": "s0020",
+      "text": "Result.",
+      "startMs": 36455.0,
+      "endMs": 37186.0,
+      "charStart": 549,
+      "charEnd": 556
+    },
+    {
+      "id": "s0021",
+      "text": "Adjustment.",
+      "startMs": 37361.0,
+      "endMs": 38220.0,
+      "charStart": 557,
+      "charEnd": 568
+    },
+    {
+      "id": "s0022",
+      "text": "Nothing is separated.",
+      "startMs": 38545.0,
+      "endMs": 40147.0,
+      "charStart": 570,
+      "charEnd": 591
+    },
+    {
+      "id": "s0023",
+      "text": "This is what keeps the boat aligned.",
+      "startMs": 40356.0,
+      "endMs": 42330.0,
+      "charStart": 592,
+      "charEnd": 628
+    },
+    {
+      "id": "s0024",
+      "text": "The same thing happens in groups.",
+      "startMs": 42504.0,
+      "endMs": 44315.0,
+      "charStart": 630,
+      "charEnd": 663
+    },
+    {
+      "id": "s0025",
+      "text": "A decision is made.",
+      "startMs": 44524.0,
+      "endMs": 45778.0,
+      "charStart": 665,
+      "charEnd": 684
+    },
+    {
+      "id": "s0026",
+      "text": "Something changes.",
+      "startMs": 45952.0,
+      "endMs": 47299.0,
+      "charStart": 685,
+      "charEnd": 703
+    },
+    {
+      "id": "s0027",
+      "text": "Work moves forward.",
+      "startMs": 47543.0,
+      "endMs": 49029.0,
+      "charStart": 704,
+      "charEnd": 723
+    },
+    {
+      "id": "s0028",
+      "text": "A plan is executed.",
+      "startMs": 49029.0,
+      "endMs": 50747.0,
+      "charStart": 723,
+      "charEnd": 742
+    },
+    {
+      "id": "s0029",
+      "text": "A path is taken.",
+      "startMs": 50875.0,
+      "endMs": 52187.0,
+      "charStart": 744,
+      "charEnd": 760
+    },
+    {
+      "id": "s0030",
+      "text": "What matters next is whether the people who made the decision remain",
+      "startMs": 52361.0,
+      "endMs": 56332.0,
+      "charStart": 762,
+      "charEnd": 830
+    },
+    {
+      "id": "s0031",
+      "text": "close to what happens.",
+      "startMs": 56401.0,
+      "endMs": 57806.0,
+      "charStart": 831,
+      "charEnd": 853
+    },
+    {
+      "id": "s0032",
+      "text": "Do they see the result?",
+      "startMs": 57980.0,
+      "endMs": 59269.0,
+      "charStart": 855,
+      "charEnd": 878
+    },
+    {
+      "id": "s0033",
+      "text": "Do they feel the impact?",
+      "startMs": 59350.0,
+      "endMs": 60836.0,
+      "charStart": 879,
+      "charEnd": 903
+    },
+    {
+      "id": "s0034",
+      "text": "Do they hear what changed?",
+      "startMs": 60836.0,
+      "endMs": 62392.0,
+      "charStart": 903,
+      "charEnd": 929
+    },
+    {
+      "id": "s0035",
+      "text": "If they do, something stays intact.",
+      "startMs": 62648.0,
+      "endMs": 65353.0,
+      "charStart": 931,
+      "charEnd": 966
+    },
+    {
+      "id": "s0036",
+      "text": "Leaders Feel the Consequences.",
+      "startMs": 65736.0,
+      "endMs": 67663.0,
+      "charStart": 968,
+      "charEnd": 998
+    },
+    {
+      "id": "s0037",
+      "text": "The loop remains short.",
+      "startMs": 67837.0,
+      "endMs": 69381.0,
+      "charStart": 1000,
+      "charEnd": 1023
+    },
+    {
+      "id": "s0038",
+      "text": "A choice leads to a result.",
+      "startMs": 69590.0,
+      "endMs": 71494.0,
+      "charStart": 1024,
+      "charEnd": 1051
+    },
+    {
+      "id": "s0039",
+      "text": "The result is visible.",
+      "startMs": 71494.0,
+      "endMs": 73015.0,
+      "charStart": 1051,
+      "charEnd": 1073
+    },
+    {
+      "id": "s0040",
+      "text": "The next choice reflects it.",
+      "startMs": 73364.0,
+      "endMs": 75210.0,
+      "charStart": 1075,
+      "charEnd": 1103
+    },
+    {
+      "id": "s0041",
+      "text": "Nothing drifts far from reality.",
+      "startMs": 75535.0,
+      "endMs": 77741.0,
+      "charStart": 1105,
+      "charEnd": 1137
+    },
+    {
+      "id": "s0042",
+      "text": "The people deciding are not relying only on reports.",
+      "startMs": 77984.0,
+      "endMs": 81015.0,
+      "charStart": 1139,
+      "charEnd": 1191
+    },
+    {
+      "id": "s0043",
+      "text": "They are not separated by layers.",
+      "startMs": 81015.0,
+      "endMs": 83070.0,
+      "charStart": 1191,
+      "charEnd": 1224
+    },
+    {
+      "id": "s0044",
+      "text": "They are not shielded from what happens next.",
+      "startMs": 83279.0,
+      "endMs": 85694.0,
+      "charStart": 1226,
+      "charEnd": 1271
+    },
+    {
+      "id": "s0045",
+      "text": "They remain close enough to adjust.",
+      "startMs": 85844.0,
+      "endMs": 87946.0,
+      "charStart": 1273,
+      "charEnd": 1308
+    },
+    {
+      "id": "s0046",
+      "text": "This does not require perfect information.",
+      "startMs": 87946.0,
+      "endMs": 90767.0,
+      "charStart": 1308,
+      "charEnd": 1350
+    },
+    {
+      "id": "s0047",
+      "text": "It requires proximity.",
+      "startMs": 91057.0,
+      "endMs": 92671.0,
+      "charStart": 1352,
+      "charEnd": 1374
+    },
+    {
+      "id": "s0048",
+      "text": "Seeing what worked.",
+      "startMs": 92845.0,
+      "endMs": 94099.0,
+      "charStart": 1375,
+      "charEnd": 1394
+    },
+    {
+      "id": "s0049",
+      "text": "Noticing what didn’t.",
+      "startMs": 94099.0,
+      "endMs": 95469.0,
+      "charStart": 1394,
+      "charEnd": 1415
+    },
+    {
+      "id": "s0050",
+      "text": "Recognizing what changed.",
+      "startMs": 95864.0,
+      "endMs": 97594.0,
+      "charStart": 1417,
+      "charEnd": 1442
+    },
+    {
+      "id": "s0051",
+      "text": "The connection does not need to be complete.",
+      "startMs": 97838.0,
+      "endMs": 99986.0,
+      "charStart": 1444,
+      "charEnd": 1488
+    },
+    {
+      "id": "s0052",
+      "text": "It only needs to be present.",
+      "startMs": 99986.0,
+      "endMs": 101611.0,
+      "charStart": 1488,
+      "charEnd": 1516
+    },
+    {
+      "id": "s0053",
+      "text": "Without it, something else begins to happen.",
+      "startMs": 102273.0,
+      "endMs": 104815.0,
+      "charStart": 1518,
+      "charEnd": 1562
+    },
+    {
+      "id": "s0054",
+      "text": "The decision moves forward.",
+      "startMs": 105198.0,
+      "endMs": 106847.0,
+      "charStart": 1564,
+      "charEnd": 1591
+    },
+    {
+      "id": "s0055",
+      "text": "But the result does not come back clearly.",
+      "startMs": 107091.0,
+      "endMs": 109239.0,
+      "charStart": 1592,
+      "charEnd": 1634
+    },
+    {
+      "id": "s0056",
+      "text": "It is filtered.",
+      "startMs": 109448.0,
+      "endMs": 110400.0,
+      "charStart": 1635,
+      "charEnd": 1650
+    },
+    {
+      "id": "s0057",
+      "text": "Delayed.",
+      "startMs": 110609.0,
+      "endMs": 111282.0,
+      "charStart": 1651,
+      "charEnd": 1659
+    },
+    {
+      "id": "s0058",
+      "text": "Softened.",
+      "startMs": 111526.0,
+      "endMs": 112246.0,
+      "charStart": 1660,
+      "charEnd": 1669
+    },
+    {
+      "id": "s0059",
+      "text": "The signal weakens.",
+      "startMs": 112571.0,
+      "endMs": 114022.0,
+      "charStart": 1671,
+      "charEnd": 1690
+    },
+    {
+      "id": "s0060",
+      "text": "At first, this is difficult to notice.",
+      "startMs": 114347.0,
+      "endMs": 116495.0,
+      "charStart": 1692,
+      "charEnd": 1730
+    },
+    {
+      "id": "s0061",
+      "text": "The decision still appears to work.",
+      "startMs": 116495.0,
+      "endMs": 118387.0,
+      "charStart": 1730,
+      "charEnd": 1765
+    },
+    {
+      "id": "s0062",
+      "text": "Progress continues.",
+      "startMs": 118840.0,
+      "endMs": 120175.0,
+      "charStart": 1767,
+      "charEnd": 1786
+    },
+    {
+      "id": "s0063",
+      "text": "Nothing fails immediately.",
+      "startMs": 120384.0,
+      "endMs": 121998.0,
+      "charStart": 1787,
+      "charEnd": 1813
+    },
+    {
+      "id": "s0064",
+      "text": "But the loop has changed.",
+      "startMs": 122276.0,
+      "endMs": 123832.0,
+      "charStart": 1815,
+      "charEnd": 1840
+    },
+    {
+      "id": "s0065",
+      "text": "Decision.",
+      "startMs": 124111.0,
+      "endMs": 124830.0,
+      "charStart": 1841,
+      "charEnd": 1850
+    },
+    {
+      "id": "s0066",
+      "text": "Delay.",
+      "startMs": 125074.0,
+      "endMs": 125771.0,
+      "charStart": 1851,
+      "charEnd": 1857
+    },
+    {
+      "id": "s0067",
+      "text": "Partial signal.",
+      "startMs": 126096.0,
+      "endMs": 127164.0,
+      "charStart": 1858,
+      "charEnd": 1873
+    },
+    {
+      "id": "s0068",
+      "text": "Something is missing.",
+      "startMs": 127164.0,
+      "endMs": 128743.0,
+      "charStart": 1873,
+      "charEnd": 1894
+    },
+    {
+      "id": "s0069",
+      "text": "The next decision is made without fully seeing the last.",
+      "startMs": 129219.0,
+      "endMs": 132435.0,
+      "charStart": 1896,
+      "charEnd": 1952
+    },
+    {
+      "id": "s0070",
+      "text": "This is where distance begins.",
+      "startMs": 132946.0,
+      "endMs": 134803.0,
+      "charStart": 1954,
+      "charEnd": 1984
+    },
+    {
+      "id": "s0071",
+      "text": "Not in space.",
+      "startMs": 135047.0,
+      "endMs": 136080.0,
+      "charStart": 1985,
+      "charEnd": 1998
+    },
+    {
+      "id": "s0072",
+      "text": "In feedback.",
+      "startMs": 136197.0,
+      "endMs": 137299.0,
+      "charStart": 1999,
+      "charEnd": 2011
+    },
+    {
+      "id": "s0073",
+      "text": "When Leaders Feel the Consequences, correction is continuous.",
+      "startMs": 137741.0,
+      "endMs": 141955.0,
+      "charStart": 2013,
+      "charEnd": 2074
+    },
+    {
+      "id": "s0074",
+      "text": "When they don’t, correction becomes delayed.",
+      "startMs": 142280.0,
+      "endMs": 145009.0,
+      "charStart": 2075,
+      "charEnd": 2119
+    },
+    {
+      "id": "s0075",
+      "text": "The difference is small at first.",
+      "startMs": 145009.0,
+      "endMs": 147156.0,
+      "charStart": 2119,
+      "charEnd": 2152
+    },
+    {
+      "id": "s0076",
+      "text": "But it compounds.",
+      "startMs": 147516.0,
+      "endMs": 148805.0,
+      "charStart": 2154,
+      "charEnd": 2171
+    },
+    {
+      "id": "s0077",
+      "text": "A small gap becomes a larger one.",
+      "startMs": 149130.0,
+      "endMs": 151371.0,
+      "charStart": 2172,
+      "charEnd": 2205
+    },
+    {
+      "id": "s0078",
+      "text": "A delayed signal becomes a missed one.",
+      "startMs": 151371.0,
+      "endMs": 153913.0,
+      "charStart": 2205,
+      "charEnd": 2243
+    },
+    {
+      "id": "s0079",
+      "text": "Then a missed signal becomes a repeated mistake.",
+      "startMs": 153913.0,
+      "endMs": 156816.0,
+      "charStart": 2243,
+      "charEnd": 2291
+    },
+    {
+      "id": "s0080",
+      "text": "The boat still moves.",
+      "startMs": 157257.0,
+      "endMs": 158650.0,
+      "charStart": 2295,
+      "charEnd": 2316
+    },
+    {
+      "id": "s0081",
+      "text": "But it is no longer clear whether it is aligned.",
+      "startMs": 158766.0,
+      "endMs": 161437.0,
+      "charStart": 2317,
+      "charEnd": 2365
+    },
+    {
+      "id": "s0082",
+      "text": "> When decision and consequence stay in the same loop, drift cannot hide for long.",
+      "startMs": 162249.0,
+      "endMs": 170016.0,
+      "charStart": 2367,
+      "charEnd": 2449
+    },
+    {
+      "id": "s0083",
+      "text": "This is what completes the loop.",
+      "startMs": 170167.0,
+      "endMs": 171885.0,
+      "charStart": 2451,
+      "charEnd": 2483
+    },
+    {
+      "id": "s0084",
+      "text": "Dissent is Welcomed.",
+      "startMs": 172094.0,
+      "endMs": 173522.0,
+      "charStart": 2485,
+      "charEnd": 2505
+    },
+    {
+      "id": "s0085",
+      "text": "Feedback Drives Change.",
+      "startMs": 173731.0,
+      "endMs": 175554.0,
+      "charStart": 2507,
+      "charEnd": 2530
+    },
+    {
+      "id": "s0086",
+      "text": "Leaders Feel the Consequences.",
+      "startMs": 175798.0,
+      "endMs": 177760.0,
+      "charStart": 2532,
+      "charEnd": 2562
+    },
+    {
+      "id": "s0087",
+      "text": "Signal.",
+      "startMs": 178039.0,
+      "endMs": 178689.0,
+      "charStart": 2564,
+      "charEnd": 2571
+    },
+    {
+      "id": "s0088",
+      "text": "Adjustment.",
+      "startMs": 178863.0,
+      "endMs": 179827.0,
+      "charStart": 2572,
+      "charEnd": 2583
+    },
+    {
+      "id": "s0089",
+      "text": "Result.",
+      "startMs": 179978.0,
+      "endMs": 180709.0,
+      "charStart": 2584,
+      "charEnd": 2591
+    },
+    {
+      "id": "s0090",
+      "text": "When all three hold, the group remains responsive.",
+      "startMs": 180988.0,
+      "endMs": 184297.0,
+      "charStart": 2593,
+      "charEnd": 2643
+    },
+    {
+      "id": "s0091",
+      "text": "When this one weakens, something else begins to happen.",
+      "startMs": 184297.0,
+      "endMs": 187583.0,
+      "charStart": 2643,
+      "charEnd": 2698
+    },
+    {
+      "id": "s0092",
+      "text": "The signal fades.",
+      "startMs": 188001.0,
+      "endMs": 189243.0,
+      "charStart": 2700,
+      "charEnd": 2717
+    },
+    {
+      "id": "s0093",
+      "text": "The gap grows.",
+      "startMs": 189243.0,
+      "endMs": 190532.0,
+      "charStart": 2717,
+      "charEnd": 2731
+    },
+    {
+      "id": "s0094",
+      "text": "The first thing you notice is not failure.",
+      "startMs": 190880.0,
+      "endMs": 193155.0,
+      "charStart": 2733,
+      "charEnd": 2775
+    },
+    {
+      "id": "s0095",
+      "text": "It’s that nothing is said.",
+      "startMs": 193155.0,
+      "endMs": 194734.0,
+      "charStart": 2775,
+      "charEnd": 2801
+    },
+    {
+      "id": "s0096",
+      "text": "That quiet is often where Disagreement is Suppressed begins.",
+      "startMs": 195210.0,
+      "endMs": 199320.0,
+      "charStart": 2804,
+      "charEnd": 2864
+    },
+    {
+      "id": "s0097",
+      "text": "Unexpected: Sustained Performance in a Complex World* (San Francisco:",
+      "startMs": 199703.0,
+      "endMs": 204940.0,
+      "charStart": 2866,
+      "charEnd": 2935
+    },
+    {
+      "id": "s0098",
+      "text": "Jossey-Bass, 2001), on staying close to operations and weak signals rather than",
+      "startMs": 205114.0,
+      "endMs": 210002.0,
+      "charStart": 2936,
+      "charEnd": 3015
+    },
+    {
+      "id": "s0099",
+      "text": "managing only from abstracted reports.",
+      "startMs": 210048.0,
+      "endMs": 212185.0,
+      "charStart": 3016,
+      "charEnd": 3054
+    }
+  ]
+}

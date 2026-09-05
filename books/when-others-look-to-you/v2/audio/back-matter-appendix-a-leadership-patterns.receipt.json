@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-back-matter-appendix-a-leadership-patterns",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "back-matter-appendix-a-leadership-patterns",
+  "sourcePath": "back-matter/appendix-a-leadership-patterns.md",
+  "sourceHash": "sha256:8d1b80a49f0f91e0d3c2dfdf3d56f660d3d71297dac06f1a65bbc606850b1b79",
+  "spokenTextHash": "sha256:1ce04727e992429cf9c19d56288f01372f7a8b3ab74c0aa9f9c6b94676317fa7",
+  "generationHash": "sha256:97f55149ab4c77fb4a292dfa12fc3129ebd0324a49b3f81d97bc6d784c014297",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 9319,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2329.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2329.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/back-matter-appendix-a-leadership-patterns.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/back-matter-appendix-a-leadership-patterns.mp3",
+  "audioSha256": "sha256:bed167fbd1052e97627473abc7048ccec0dde42bf183bd726833fb464cd2468a",
+  "generatedAt": "2026-09-05T15:15:27Z"
+}

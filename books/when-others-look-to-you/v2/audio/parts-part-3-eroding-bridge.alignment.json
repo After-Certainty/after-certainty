@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-3-eroding-bridge",
+  "generationHash": "sha256:b885080b9326b81e7d729be17af23589e62fb3e85247d3c64c5c51b4e501155f",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Bridge — From Renewing to Eroding",
+      "startMs": 0.0,
+      "endMs": 2844.0,
+      "charStart": 0,
+      "charEnd": 33
+    },
+    {
+      "id": "s0002",
+      "text": "When the loop weakens, the problems show up first as silence—not as catastrophe.",
+      "startMs": 4144.0,
+      "endMs": 10309.0,
+      "charStart": 35,
+      "charEnd": 115
+    },
+    {
+      "id": "s0003",
+      "text": "Part III—Eroding—follows what happens when pushback fades, signals arrive incomplete, and temporary exceptions harden into structure.",
+      "startMs": 10309.0,
+      "endMs": 21478.0,
+      "charStart": 115,
+      "charEnd": 248
+    },
+    {
+      "id": "s0004",
+      "text": "Disagreement is Suppressed.",
+      "startMs": 22268.0,
+      "endMs": 24172.0,
+      "charStart": 251,
+      "charEnd": 278
+    },
+    {
+      "id": "s0005",
+      "text": "Learning Collapse—the ground story stops reaching the room in time.",
+      "startMs": 24172.0,
+      "endMs": 28955.0,
+      "charStart": 278,
+      "charEnd": 345
+    },
+    {
+      "id": "s0006",
+      "text": "Exceptions are Forever—not because anyone decides, but because nothing removes them.",
+      "startMs": 28955.0,
+      "endMs": 34702.0,
+      "charStart": 345,
+      "charEnd": 429
+    }
+  ]
+}

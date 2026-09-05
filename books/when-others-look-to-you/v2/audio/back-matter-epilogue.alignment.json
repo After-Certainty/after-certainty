@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-back-matter-epilogue",
+  "generationHash": "sha256:abb2d64d7ea8db34f3d8f9f72748b6cf0b7ff3e1ad684ad6fdf8dc4e8251e1dc",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Epilogue",
+      "startMs": 0.0,
+      "endMs": 673.0,
+      "charStart": 0,
+      "charEnd": 8
+    },
+    {
+      "id": "s0002",
+      "text": "This book opened with a simple claim: a leader is someone others look to",
+      "startMs": 1184.0,
+      "endMs": 6072.0,
+      "charStart": 10,
+      "charEnd": 82
+    },
+    {
+      "id": "s0003",
+      "text": "when deciding what to do next.",
+      "startMs": 6281.0,
+      "endMs": 8301.0,
+      "charStart": 83,
+      "charEnd": 113
+    },
+    {
+      "id": "s0004",
+      "text": "By the end, that definition should feel less like a label and more like a pressure.",
+      "startMs": 8812.0,
+      "endMs": 14327.0,
+      "charStart": 115,
+      "charEnd": 198
+    },
+    {
+      "id": "s0005",
+      "text": "Moments arrive whether or not anyone planned them.",
+      "startMs": 15023.0,
+      "endMs": 18100.0,
+      "charStart": 199,
+      "charEnd": 249
+    },
+    {
+      "id": "s0006",
+      "text": "The room slows.",
+      "startMs": 18100.0,
+      "endMs": 19656.0,
+      "charStart": 249,
+      "charEnd": 264
+    },
+    {
+      "id": "s0007",
+      "text": "People look in the same direction.",
+      "startMs": 20074.0,
+      "endMs": 21989.0,
+      "charStart": 266,
+      "charEnd": 300
+    },
+    {
+      "id": "s0008",
+      "text": "Something is already forming.",
+      "startMs": 22372.0,
+      "endMs": 24311.0,
+      "charStart": 301,
+      "charEnd": 330
+    },
+    {
+      "id": "s0009",
+      "text": "You have walked the arc the chapters name: how Examples Accumulate, how",
+      "startMs": 24694.0,
+      "endMs": 29989.0,
+      "charStart": 332,
+      "charEnd": 403
+    },
+    {
+      "id": "s0010",
+      "text": "Leadership Coalesces, how dissent and feedback and consequence keep a",
+      "startMs": 30082.0,
+      "endMs": 35515.0,
+      "charStart": 404,
+      "charEnd": 473
+    },
+    {
+      "id": "s0011",
+      "text": "group close to what is real—or how, when those threads thin, disagreement",
+      "startMs": 35573.0,
+      "endMs": 40670.0,
+      "charStart": 474,
+      "charEnd": 547
+    },
+    {
+      "id": "s0012",
+      "text": "quiets, the ground story arrives late, and workarounds harden until",
+      "startMs": 40739.0,
+      "endMs": 46231.0,
+      "charStart": 548,
+      "charEnd": 615
+    },
+    {
+      "id": "s0013",
+      "text": "Exceptions are Forever no longer feel temporary.",
+      "startMs": 46289.0,
+      "endMs": 49819.0,
+      "charStart": 616,
+      "charEnd": 664
+    },
+    {
+      "id": "s0014",
+      "text": "You have seen how Leadership Reproduces Itself closes the circle.",
+      "startMs": 50515.0,
+      "endMs": 54799.0,
+      "charStart": 666,
+      "charEnd": 731
+    },
+    {
+      "id": "s0015",
+      "text": "None of that required a title.",
+      "startMs": 55182.0,
+      "endMs": 57167.0,
+      "charStart": 733,
+      "charEnd": 763
+    },
+    {
+      "id": "s0016",
+      "text": "It required attention.",
+      "startMs": 57376.0,
+      "endMs": 58944.0,
+      "charStart": 764,
+      "charEnd": 786
+    },
+    {
+      "id": "s0017",
+      "text": "If you take something practical from these pages, let it be this: the dynamics show up before they feel decisive.",
+      "startMs": 59327.0,
+      "endMs": 66885.0,
+      "charStart": 788,
+      "charEnd": 901
+    },
+    {
+      "id": "s0018",
+      "text": "Silence can arrive before catastrophe.",
+      "startMs": 66885.0,
+      "endMs": 69869.0,
+      "charStart": 901,
+      "charEnd": 939
+    },
+    {
+      "id": "s0019",
+      "text": "A shortcut can arrive before a policy.",
+      "startMs": 70263.0,
+      "endMs": 72829.0,
+      "charStart": 941,
+      "charEnd": 979
+    },
+    {
+      "id": "s0020",
+      "text": "What gets repeated is what people are learning.",
+      "startMs": 72829.0,
+      "endMs": 75673.0,
+      "charStart": 979,
+      "charEnd": 1026
+    },
+    {
+      "id": "s0021",
+      "text": "That is not a program.",
+      "startMs": 75963.0,
+      "endMs": 77763.0,
+      "charStart": 1029,
+      "charEnd": 1051
+    },
+    {
+      "id": "s0022",
+      "text": "It is a way of watching.",
+      "startMs": 77809.0,
+      "endMs": 79493.0,
+      "charStart": 1052,
+      "charEnd": 1076
+    },
+    {
+      "id": "s0023",
+      "text": "Seeing the loop does not guarantee a clean fix.",
+      "startMs": 79737.0,
+      "endMs": 82500.0,
+      "charStart": 1078,
+      "charEnd": 1125
+    },
+    {
+      "id": "s0024",
+      "text": "Sometimes the honest work is repair.",
+      "startMs": 82500.0,
+      "endMs": 84961.0,
+      "charStart": 1125,
+      "charEnd": 1161
+    },
+    {
+      "id": "s0025",
+      "text": "Sometimes it is restraint.",
+      "startMs": 85310.0,
+      "endMs": 87086.0,
+      "charStart": 1163,
+      "charEnd": 1189
+    },
+    {
+      "id": "s0026",
+      "text": "Sometimes it is naming what everyone has learned to walk around.",
+      "startMs": 87086.0,
+      "endMs": 90836.0,
+      "charStart": 1189,
+      "charEnd": 1253
+    },
+    {
+      "id": "s0027",
+      "text": "This book did not promise reversal.",
+      "startMs": 91277.0,
+      "endMs": 93379.0,
+      "charStart": 1255,
+      "charEnd": 1290
+    },
+    {
+      "id": "s0028",
+      "text": "It offered language for what spreads.",
+      "startMs": 93379.0,
+      "endMs": 95701.0,
+      "charStart": 1290,
+      "charEnd": 1327
+    },
+    {
+      "id": "s0029",
+      "text": "At human scale, consequences are harder to fake. **Leaders Feel the Consequences** is not only an ideal.",
+      "startMs": 96084.0,
+      "endMs": 104977.0,
+      "charStart": 1330,
+      "charEnd": 1434
+    },
+    {
+      "id": "s0030",
+      "text": "It is what happens when decisions and outcomes still touch.",
+      "startMs": 104977.0,
+      "endMs": 108959.0,
+      "charStart": 1434,
+      "charEnd": 1493
+    },
+    {
+      "id": "s0031",
+      "text": "What you reward, what you soften, what you let stand—all of it teaches.",
+      "startMs": 109575.0,
+      "endMs": 115194.0,
+      "charStart": 1496,
+      "charEnd": 1567
+    },
+    {
+      "id": "s0032",
+      "text": "The next moment will borrow from this one.",
+      "startMs": 115438.0,
+      "endMs": 117783.0,
+      "charStart": 1568,
+      "charEnd": 1610
+    },
+    {
+      "id": "s0033",
+      "text": "So the question returns, as it always does.",
+      "startMs": 118108.0,
+      "endMs": 121347.0,
+      "charStart": 1612,
+      "charEnd": 1655
+    },
+    {
+      "id": "s0034",
+      "text": "A new problem surfaces.",
+      "startMs": 121951.0,
+      "endMs": 123855.0,
+      "charStart": 1656,
+      "charEnd": 1679
+    },
+    {
+      "id": "s0035",
+      "text": "The conversation waits.",
+      "startMs": 123855.0,
+      "endMs": 125585.0,
+      "charStart": 1679,
+      "charEnd": 1702
+    },
+    {
+      "id": "s0036",
+      "text": "Attention Finds a Focus again.",
+      "startMs": 126432.0,
+      "endMs": 128801.0,
+      "charStart": 1705,
+      "charEnd": 1735
+    },
+    {
+      "id": "s0037",
+      "text": "What you do next will not stay contained.",
+      "startMs": 129311.0,
+      "endMs": 131970.0,
+      "charStart": 1737,
+      "charEnd": 1778
+    },
+    {
+      "id": "s0038",
+      "text": "It will be seen.",
+      "startMs": 132295.0,
+      "endMs": 133549.0,
+      "charStart": 1779,
+      "charEnd": 1795
+    },
+    {
+      "id": "s0039",
+      "text": "It will be interpreted.",
+      "startMs": 133549.0,
+      "endMs": 135174.0,
+      "charStart": 1795,
+      "charEnd": 1818
+    },
+    {
+      "id": "s0040",
+      "text": "It will be repeated.",
+      "startMs": 135650.0,
+      "endMs": 137009.0,
+      "charStart": 1820,
+      "charEnd": 1840
+    },
+    {
+      "id": "s0041",
+      "text": "That is still where leadership begins.",
+      "startMs": 137613.0,
+      "endMs": 139772.0,
+      "charStart": 1842,
+      "charEnd": 1880
+    },
+    {
+      "id": "s0042",
+      "text": "Organizational Learning II: Theory, Method, and Practice (Reading, MA:",
+      "startMs": 141072.0,
+      "endMs": 147609.0,
+      "charStart": 1882,
+      "charEnd": 1952
+    },
+    {
+      "id": "s0043",
+      "text": "Addison-Wesley, 1996); Chris Argyris, Overcoming Organizational Defenses",
+      "startMs": 147934.0,
+      "endMs": 154227.0,
+      "charStart": 1953,
+      "charEnd": 2025
+    },
+    {
+      "id": "s0044",
+      "text": "(Boston: Allyn and Bacon, 1990).",
+      "startMs": 154552.0,
+      "endMs": 158174.0,
+      "charStart": 2026,
+      "charEnd": 2058
+    }
+  ]
+}

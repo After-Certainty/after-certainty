@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-4-repeating-chapter-10-leadership-reproduces-itself",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-4-repeating-chapter-10-leadership-reproduces-itself",
+  "sourcePath": "parts/part-4-repeating/chapter-10-leadership-reproduces-itself.md",
+  "sourceHash": "sha256:089921454a6765b8968c34d0631acfa771f35fc0a73c165cd4439a18246b2216",
+  "spokenTextHash": "sha256:d5583f308d3e653a042d0bb430e6852a3554ac88f5d2f1c2539e22418b2916d5",
+  "generationHash": "sha256:44583115c1e77700942be20fc30537fccdcf04d5fe4dc2ded7d922d63ea02cc8",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2754,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 688.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 688.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-4-repeating-chapter-10-leadership-reproduces-itself.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-4-repeating-chapter-10-leadership-reproduces-itself.mp3",
+  "audioSha256": "sha256:4068201b99252690bc24f967e89c03d84cd0a0f37a97742ab3994cb5d971c1ab",
+  "generatedAt": "2026-09-05T15:14:58Z"
+}

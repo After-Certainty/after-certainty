@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-1-forming-chapter-2-examples-accumulate",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-1-forming-chapter-2-examples-accumulate",
+  "sourcePath": "parts/part-1-forming/chapter-2-examples-accumulate.md",
+  "sourceHash": "sha256:7844c4554566448bbc214607bd527a790979445a2d4cdc58a2fdad66f41bcd03",
+  "spokenTextHash": "sha256:3510598bc9490dca8d85b8fc379a59f9a448f7c387fb4027ae9fb99474ff91ae",
+  "generationHash": "sha256:da44bfce64f24ebbb0a413fe56844b3daaab0919776344d783e7b443096b8132",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3915,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 978.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 978.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-1-forming-chapter-2-examples-accumulate.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-1-forming-chapter-2-examples-accumulate.mp3",
+  "audioSha256": "sha256:a7449ac9deb42cec88ed43d14496aa6f8b4c4e7ab7e9352687e1f30942a454e2",
+  "generatedAt": "2026-09-05T15:13:23Z"
+}

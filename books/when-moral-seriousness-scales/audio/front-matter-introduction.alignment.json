@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-front-matter-introduction",
+  "generationHash": "sha256:bdb26018fbcf469a672eeffe494efb70e1045ee63a2eea0fc9b9ea4d0e8cac3c",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Introduction",
+      "startMs": 0.0,
+      "endMs": 743.0,
+      "charStart": 0,
+      "charEnd": 12
+    },
+    {
+      "id": "s0002",
+      "text": "The Scaling Question",
+      "startMs": 1254.0,
+      "endMs": 2461.0,
+      "charStart": 14,
+      "charEnd": 34
+    },
+    {
+      "id": "s0003",
+      "text": "Moral seriousness does not disappear when systems grow.",
+      "startMs": 3274.0,
+      "endMs": 6734.0,
+      "charStart": 36,
+      "charEnd": 91
+    },
+    {
+      "id": "s0004",
+      "text": "But the conditions that support it change.",
+      "startMs": 6734.0,
+      "endMs": 9288.0,
+      "charStart": 91,
+      "charEnd": 133
+    },
+    {
+      "id": "s0005",
+      "text": "At small scale, restraint tends to be visible and reciprocated.",
+      "startMs": 9462.0,
+      "endMs": 13688.0,
+      "charStart": 136,
+      "charEnd": 199
+    },
+    {
+      "id": "s0006",
+      "text": "Harm lands somewhere specific.",
+      "startMs": 13688.0,
+      "endMs": 15755.0,
+      "charStart": 199,
+      "charEnd": 229
+    },
+    {
+      "id": "s0007",
+      "text": "Authority can be challenged without threatening the survival of the system itself.",
+      "startMs": 15755.0,
+      "endMs": 20283.0,
+      "charStart": 229,
+      "charEnd": 311
+    },
+    {
+      "id": "s0008",
+      "text": "Decisions and consequences remain close enough to one another that feedback corrects excess before it hardens.",
+      "startMs": 20283.0,
+      "endMs": 26947.0,
+      "charStart": 311,
+      "charEnd": 421
+    },
+    {
+      "id": "s0009",
+      "text": "Under these conditions, moral seriousness functions with relative stability.",
+      "startMs": 26947.0,
+      "endMs": 31812.0,
+      "charStart": 421,
+      "charEnd": 497
+    },
+    {
+      "id": "s0010",
+      "text": "Scale alters those conditions.",
+      "startMs": 32706.0,
+      "endMs": 34958.0,
+      "charStart": 503,
+      "charEnd": 533
+    },
+    {
+      "id": "s0011",
+      "text": "As systems expand, proximity diminishes.",
+      "startMs": 35341.0,
+      "endMs": 38313.0,
+      "charStart": 535,
+      "charEnd": 575
+    },
+    {
+      "id": "s0012",
+      "text": "Leaders make decisions that affect people they will never meet.",
+      "startMs": 38313.0,
+      "endMs": 41599.0,
+      "charStart": 575,
+      "charEnd": 638
+    },
+    {
+      "id": "s0013",
+      "text": "Consequences travel through layers of process before returning as data rather than experience.",
+      "startMs": 41599.0,
+      "endMs": 47462.0,
+      "charStart": 638,
+      "charEnd": 732
+    },
+    {
+      "id": "s0014",
+      "text": "Reciprocity becomes uneven.",
+      "startMs": 47462.0,
+      "endMs": 50457.0,
+      "charStart": 732,
+      "charEnd": 759
+    },
+    {
+      "id": "s0015",
+      "text": "Some actors remain exposed to consequence; others become insulated from it.",
+      "startMs": 50457.0,
+      "endMs": 55798.0,
+      "charStart": 759,
+      "charEnd": 834
+    },
+    {
+      "id": "s0016",
+      "text": "What once felt relational becomes administrative.",
+      "startMs": 56970.0,
+      "endMs": 59908.0,
+      "charStart": 839,
+      "charEnd": 888
+    },
+    {
+      "id": "s0017",
+      "text": "Distance does not eliminate responsibility.",
+      "startMs": 60349.0,
+      "endMs": 62880.0,
+      "charStart": 890,
+      "charEnd": 933
+    },
+    {
+      "id": "s0018",
+      "text": "It alters incentives.",
+      "startMs": 63158.0,
+      "endMs": 64714.0,
+      "charStart": 934,
+      "charEnd": 955
+    },
+    {
+      "id": "s0019",
+      "text": "When consequence becomes abstract, it can be displaced more easily.",
+      "startMs": 64958.0,
+      "endMs": 68998.0,
+      "charStart": 957,
+      "charEnd": 1024
+    },
+    {
+      "id": "s0020",
+      "text": "When reciprocity weakens, restraint becomes less self-reinforcing.",
+      "startMs": 68998.0,
+      "endMs": 73457.0,
+      "charStart": 1024,
+      "charEnd": 1090
+    },
+    {
+      "id": "s0021",
+      "text": "Actions that tolerate externalized cost often move faster than those that absorb it.",
+      "startMs": 73457.0,
+      "endMs": 78774.0,
+      "charStart": 1090,
+      "charEnd": 1174
+    },
+    {
+      "id": "s0022",
+      "text": "Under these conditions, moral seriousness may continue to guide individuals, but it no longer operates within the same structural equilibrium.",
+      "startMs": 78774.0,
+      "endMs": 87319.0,
+      "charStart": 1174,
+      "charEnd": 1316
+    },
+    {
+      "id": "s0023",
+      "text": "This book asks how moral seriousness functions under those altered",
+      "startMs": 88236.0,
+      "endMs": 91974.0,
+      "charStart": 1321,
+      "charEnd": 1387
+    },
+    {
+      "id": "s0024",
+      "text": "conditions.",
+      "startMs": 92009.0,
+      "endMs": 92752.0,
+      "charStart": 1388,
+      "charEnd": 1399
+    },
+    {
+      "id": "s0025",
+      "text": "It does not assume that scale corrupts.",
+      "startMs": 93356.0,
+      "endMs": 95469.0,
+      "charStart": 1401,
+      "charEnd": 1440
+    },
+    {
+      "id": "s0026",
+      "text": "It does not argue that escalation is inevitable.",
+      "startMs": 95469.0,
+      "endMs": 98430.0,
+      "charStart": 1440,
+      "charEnd": 1488
+    },
+    {
+      "id": "s0027",
+      "text": "It does not suggest that restraint is futile.",
+      "startMs": 98697.0,
+      "endMs": 101216.0,
+      "charStart": 1490,
+      "charEnd": 1535
+    },
+    {
+      "id": "s0028",
+      "text": "It examines how proximity, reciprocity, and visible consequence create moral density—and how that density thins as systems grow.",
+      "startMs": 101216.0,
+      "endMs": 110028.0,
+      "charStart": 1535,
+      "charEnd": 1663
+    },
+    {
+      "id": "s0029",
+      "text": "At small scale, authority remains contestable because dissent does not threaten systemic collapse.",
+      "startMs": 110423.0,
+      "endMs": 116170.0,
+      "charStart": 1666,
+      "charEnd": 1764
+    },
+    {
+      "id": "s0030",
+      "text": "At larger scale, contestation can feel destabilizing.",
+      "startMs": 116170.0,
+      "endMs": 119595.0,
+      "charStart": 1764,
+      "charEnd": 1817
+    },
+    {
+      "id": "s0031",
+      "text": "Pressure to consolidate, accelerate, or harden authority increases.",
+      "startMs": 119595.0,
+      "endMs": 123624.0,
+      "charStart": 1817,
+      "charEnd": 1884
+    },
+    {
+      "id": "s0032",
+      "text": "These pressures are not proof of moral failure.",
+      "startMs": 124309.0,
+      "endMs": 126723.0,
+      "charStart": 1887,
+      "charEnd": 1934
+    },
+    {
+      "id": "s0033",
+      "text": "They are structural responses to complexity and distance.",
+      "startMs": 126723.0,
+      "endMs": 130322.0,
+      "charStart": 1934,
+      "charEnd": 1991
+    },
+    {
+      "id": "s0034",
+      "text": "The question, then, is not whether moral seriousness is valid.",
+      "startMs": 130566.0,
+      "endMs": 133933.0,
+      "charStart": 1994,
+      "charEnd": 2056
+    },
+    {
+      "id": "s0035",
+      "text": "It is how it operates when proximity fades, asymmetry increases, and incentives shift.",
+      "startMs": 133933.0,
+      "endMs": 139471.0,
+      "charStart": 2056,
+      "charEnd": 2142
+    },
+    {
+      "id": "s0036",
+      "text": "Judgment does not become obsolete under scale.",
+      "startMs": 139970.0,
+      "endMs": 142408.0,
+      "charStart": 2145,
+      "charEnd": 2191
+    },
+    {
+      "id": "s0037",
+      "text": "It becomes more costly.",
+      "startMs": 142582.0,
+      "endMs": 143952.0,
+      "charStart": 2192,
+      "charEnd": 2215
+    },
+    {
+      "id": "s0038",
+      "text": "It becomes more difficult to absorb harm when harm can be hidden.",
+      "startMs": 144277.0,
+      "endMs": 147969.0,
+      "charStart": 2217,
+      "charEnd": 2282
+    },
+    {
+      "id": "s0039",
+      "text": "It becomes more difficult to preserve contestability when dissent threatens stability.",
+      "startMs": 147969.0,
+      "endMs": 152822.0,
+      "charStart": 2282,
+      "charEnd": 2368
+    },
+    {
+      "id": "s0040",
+      "text": "It becomes more difficult to move slowly when others move quickly under reduced constraint.",
+      "startMs": 152822.0,
+      "endMs": 157548.0,
+      "charStart": 2368,
+      "charEnd": 2459
+    },
+    {
+      "id": "s0041",
+      "text": "These pressures do not determine outcomes.",
+      "startMs": 158163.0,
+      "endMs": 160625.0,
+      "charStart": 2463,
+      "charEnd": 2505
+    },
+    {
+      "id": "s0042",
+      "text": "But they shape the terrain on which decisions are made.",
+      "startMs": 160625.0,
+      "endMs": 163457.0,
+      "charStart": 2505,
+      "charEnd": 2560
+    },
+    {
+      "id": "s0043",
+      "text": "Understanding that terrain is the purpose of this book.",
+      "startMs": 163724.0,
+      "endMs": 166813.0,
+      "charStart": 2563,
+      "charEnd": 2618
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-1-the-human-scale-model-chapter-3-contestability",
+  "generationHash": "sha256:7583b599fdaaa07760dae3c70f5976f6fdf207f2de1e652ee5409ee61182244a",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 3: Contestability",
+      "startMs": 0.0,
+      "endMs": 2113.0,
+      "charStart": 0,
+      "charEnd": 25
+    },
+    {
+      "id": "s0002",
+      "text": "Contestability",
+      "startMs": 2554.0,
+      "endMs": 3518.0,
+      "charStart": 26,
+      "charEnd": 40
+    },
+    {
+      "id": "s0003",
+      "text": "Moral density and reciprocal constraint stabilize leadership only when",
+      "startMs": 3901.0,
+      "endMs": 8452.0,
+      "charStart": 42,
+      "charEnd": 112
+    },
+    {
+      "id": "s0004",
+      "text": "authority remains challengeable.",
+      "startMs": 8498.0,
+      "endMs": 10390.0,
+      "charStart": 113,
+      "charEnd": 145
+    },
+    {
+      "id": "s0005",
+      "text": "Human-scale leadership functions because authority can be corrected without collapse.",
+      "startMs": 10994.0,
+      "endMs": 15708.0,
+      "charStart": 147,
+      "charEnd": 232
+    },
+    {
+      "id": "s0006",
+      "text": "When disagreement does not threaten the survival of the system, judgment survives.",
+      "startMs": 15708.0,
+      "endMs": 20561.0,
+      "charStart": 232,
+      "charEnd": 314
+    },
+    {
+      "id": "s0007",
+      "text": "Contestability describes the condition in which power can be questioned,",
+      "startMs": 21223.0,
+      "endMs": 25089.0,
+      "charStart": 317,
+      "charEnd": 389
+    },
+    {
+      "id": "s0008",
+      "text": "revised, or limited without destroying the structure that contains it.",
+      "startMs": 25205.0,
+      "endMs": 29013.0,
+      "charStart": 390,
+      "charEnd": 460
+    },
+    {
+      "id": "s0009",
+      "text": "Where contestability exists, authority remains bounded.",
+      "startMs": 29338.0,
+      "endMs": 32937.0,
+      "charStart": 462,
+      "charEnd": 517
+    },
+    {
+      "id": "s0010",
+      "text": "Authority Remains Challengeable",
+      "startMs": 33262.0,
+      "endMs": 35166.0,
+      "charStart": 519,
+      "charEnd": 550
+    },
+    {
+      "id": "s0011",
+      "text": "In dense systems, authority is exposed not only to consequence but to critique.",
+      "startMs": 35445.0,
+      "endMs": 40472.0,
+      "charStart": 552,
+      "charEnd": 631
+    },
+    {
+      "id": "s0012",
+      "text": "Decisions can be questioned directly.",
+      "startMs": 40681.0,
+      "endMs": 42910.0,
+      "charStart": 632,
+      "charEnd": 669
+    },
+    {
+      "id": "s0013",
+      "text": "Leaders can be asked to justify their actions without that inquiry being treated as rebellion.",
+      "startMs": 42910.0,
+      "endMs": 48239.0,
+      "charStart": 669,
+      "charEnd": 763
+    },
+    {
+      "id": "s0014",
+      "text": "Challenge does not automatically produce fracture.",
+      "startMs": 48831.0,
+      "endMs": 51652.0,
+      "charStart": 766,
+      "charEnd": 816
+    },
+    {
+      "id": "s0015",
+      "text": "It produces adjustment.",
+      "startMs": 51652.0,
+      "endMs": 53393.0,
+      "charStart": 816,
+      "charEnd": 839
+    },
+    {
+      "id": "s0016",
+      "text": "When authority remains challengeable, overreach can be corrected before it calcifies into doctrine or routine.",
+      "startMs": 53695.0,
+      "endMs": 60069.0,
+      "charStart": 842,
+      "charEnd": 952
+    },
+    {
+      "id": "s0017",
+      "text": "Leaders are constrained not only by their own judgment but by the judgment of others.",
+      "startMs": 60069.0,
+      "endMs": 65282.0,
+      "charStart": 952,
+      "charEnd": 1037
+    },
+    {
+      "id": "s0018",
+      "text": "Challenge, in this sense, is not hostility.",
+      "startMs": 66188.0,
+      "endMs": 68974.0,
+      "charStart": 1040,
+      "charEnd": 1083
+    },
+    {
+      "id": "s0019",
+      "text": "It is structural friction.",
+      "startMs": 69253.0,
+      "endMs": 70901.0,
+      "charStart": 1084,
+      "charEnd": 1110
+    },
+    {
+      "id": "s0020",
+      "text": "Dissent Does Not Threaten Survival",
+      "startMs": 71714.0,
+      "endMs": 73792.0,
+      "charStart": 1112,
+      "charEnd": 1146
+    },
+    {
+      "id": "s0021",
+      "text": "Contestability depends on a crucial condition: disagreement must not",
+      "startMs": 74744.0,
+      "endMs": 79598.0,
+      "charStart": 1148,
+      "charEnd": 1216
+    },
+    {
+      "id": "s0022",
+      "text": "endanger the existence of the system itself.",
+      "startMs": 79656.0,
+      "endMs": 82303.0,
+      "charStart": 1217,
+      "charEnd": 1261
+    },
+    {
+      "id": "s0023",
+      "text": "In human-scale contexts, dissent rarely triggers existential crisis.",
+      "startMs": 82581.0,
+      "endMs": 87632.0,
+      "charStart": 1263,
+      "charEnd": 1331
+    },
+    {
+      "id": "s0024",
+      "text": "A family disagreement does not dissolve the family.",
+      "startMs": 87632.0,
+      "endMs": 90569.0,
+      "charStart": 1331,
+      "charEnd": 1382
+    },
+    {
+      "id": "s0025",
+      "text": "A team dispute does not collapse the organization.",
+      "startMs": 90569.0,
+      "endMs": 93680.0,
+      "charStart": 1382,
+      "charEnd": 1432
+    },
+    {
+      "id": "s0026",
+      "text": "Because the structure can absorb disagreement, it can tolerate it.",
+      "startMs": 93680.0,
+      "endMs": 97860.0,
+      "charStart": 1432,
+      "charEnd": 1498
+    },
+    {
+      "id": "s0027",
+      "text": "This tolerance protects judgment.",
+      "startMs": 98533.0,
+      "endMs": 100542.0,
+      "charStart": 1503,
+      "charEnd": 1536
+    },
+    {
+      "id": "s0028",
+      "text": "When dissent is survivable, it remains visible rather than suppressed.",
+      "startMs": 100542.0,
+      "endMs": 105104.0,
+      "charStart": 1536,
+      "charEnd": 1606
+    },
+    {
+      "id": "s0029",
+      "text": "When dissent becomes existential, however, authority tends to harden.",
+      "startMs": 105546.0,
+      "endMs": 109911.0,
+      "charStart": 1609,
+      "charEnd": 1678
+    },
+    {
+      "id": "s0030",
+      "text": "Under perceived threat, critique is reframed as destabilization.",
+      "startMs": 110515.0,
+      "endMs": 115066.0,
+      "charStart": 1679,
+      "charEnd": 1743
+    },
+    {
+      "id": "s0031",
+      "text": "Contestability narrows.",
+      "startMs": 115507.0,
+      "endMs": 117167.0,
+      "charStart": 1744,
+      "charEnd": 1767
+    },
+    {
+      "id": "s0032",
+      "text": "Human-scale systems are often resilient precisely because disagreement",
+      "startMs": 117446.0,
+      "endMs": 121324.0,
+      "charStart": 1769,
+      "charEnd": 1839
+    },
+    {
+      "id": "s0033",
+      "text": "is not immediately catastrophic.",
+      "startMs": 121382.0,
+      "endMs": 123309.0,
+      "charStart": 1840,
+      "charEnd": 1872
+    },
+    {
+      "id": "s0034",
+      "text": "Legitimacy Renewed Daily",
+      "startMs": 124122.0,
+      "endMs": 126629.0,
+      "charStart": 1874,
+      "charEnd": 1898
+    },
+    {
+      "id": "s0035",
+      "text": "In bounded systems, legitimacy is not assumed permanently.",
+      "startMs": 127233.0,
+      "endMs": 131308.0,
+      "charStart": 1900,
+      "charEnd": 1958
+    },
+    {
+      "id": "s0036",
+      "text": "It is renewed through repeated interaction.",
+      "startMs": 131308.0,
+      "endMs": 134187.0,
+      "charStart": 1958,
+      "charEnd": 2001
+    },
+    {
+      "id": "s0037",
+      "text": "Leaders retain authority because others continue to recognize it as appropriate, not merely because it was once granted.",
+      "startMs": 134187.0,
+      "endMs": 141176.0,
+      "charStart": 2001,
+      "charEnd": 2121
+    },
+    {
+      "id": "s0038",
+      "text": "This renewal is informal but powerful.",
+      "startMs": 141769.0,
+      "endMs": 144485.0,
+      "charStart": 2125,
+      "charEnd": 2163
+    },
+    {
+      "id": "s0039",
+      "text": "A leader who repeatedly ignores feedback loses standing quickly.",
+      "startMs": 144485.0,
+      "endMs": 148792.0,
+      "charStart": 2163,
+      "charEnd": 2227
+    },
+    {
+      "id": "s0040",
+      "text": "A leader who responds thoughtfully strengthens relational legitimacy.",
+      "startMs": 148792.0,
+      "endMs": 153390.0,
+      "charStart": 2227,
+      "charEnd": 2296
+    },
+    {
+      "id": "s0041",
+      "text": "Because legitimacy must be renewed, authority remains provisional rather",
+      "startMs": 154179.0,
+      "endMs": 158765.0,
+      "charStart": 2300,
+      "charEnd": 2372
+    },
+    {
+      "id": "s0042",
+      "text": "than absolute.",
+      "startMs": 158812.0,
+      "endMs": 159799.0,
+      "charStart": 2373,
+      "charEnd": 2387
+    },
+    {
+      "id": "s0043",
+      "text": "This provisional quality stabilizes restraint.",
+      "startMs": 160495.0,
+      "endMs": 163653.0,
+      "charStart": 2389,
+      "charEnd": 2435
+    },
+    {
+      "id": "s0044",
+      "text": "Leaders know their standing depends on continued recognition.",
+      "startMs": 163653.0,
+      "endMs": 167891.0,
+      "charStart": 2435,
+      "charEnd": 2496
+    },
+    {
+      "id": "s0045",
+      "text": "Followers know their recognition carries weight.",
+      "startMs": 167891.0,
+      "endMs": 170700.0,
+      "charStart": 2496,
+      "charEnd": 2544
+    },
+    {
+      "id": "s0046",
+      "text": "Repair Is Possible",
+      "startMs": 171699.0,
+      "endMs": 173080.0,
+      "charStart": 2548,
+      "charEnd": 2566
+    },
+    {
+      "id": "s0047",
+      "text": "Contestable systems allow repair.",
+      "startMs": 174195.0,
+      "endMs": 176436.0,
+      "charStart": 2568,
+      "charEnd": 2601
+    },
+    {
+      "id": "s0048",
+      "text": "Mistakes can be acknowledged without collapse.",
+      "startMs": 176436.0,
+      "endMs": 179164.0,
+      "charStart": 2601,
+      "charEnd": 2647
+    },
+    {
+      "id": "s0049",
+      "text": "Authority can be limited without being abolished.",
+      "startMs": 179431.0,
+      "endMs": 182148.0,
+      "charStart": 2649,
+      "charEnd": 2698
+    },
+    {
+      "id": "s0050",
+      "text": "Trust can weaken and then be rebuilt.",
+      "startMs": 182148.0,
+      "endMs": 185399.0,
+      "charStart": 2698,
+      "charEnd": 2735
+    },
+    {
+      "id": "s0051",
+      "text": "Repair is not guaranteed.",
+      "startMs": 185886.0,
+      "endMs": 187546.0,
+      "charStart": 2738,
+      "charEnd": 2763
+    },
+    {
+      "id": "s0052",
+      "text": "But the possibility of repair reduces escalation.",
+      "startMs": 187546.0,
+      "endMs": 190832.0,
+      "charStart": 2763,
+      "charEnd": 2812
+    },
+    {
+      "id": "s0053",
+      "text": "When actors believe correction is possible, they are less likely to abandon judgment in favor of domination or withdrawal.",
+      "startMs": 190832.0,
+      "endMs": 198042.0,
+      "charStart": 2812,
+      "charEnd": 2934
+    },
+    {
+      "id": "s0054",
+      "text": "Repair depends on bounded scale.",
+      "startMs": 198750.0,
+      "endMs": 201072.0,
+      "charStart": 2938,
+      "charEnd": 2970
+    },
+    {
+      "id": "s0055",
+      "text": "In small systems, errors are containable.",
+      "startMs": 201072.0,
+      "endMs": 204056.0,
+      "charStart": 2970,
+      "charEnd": 3011
+    },
+    {
+      "id": "s0056",
+      "text": "In large systems, errors can threaten legitimacy more broadly, increasing the temptation to deny rather than correct.",
+      "startMs": 204056.0,
+      "endMs": 211428.0,
+      "charStart": 3011,
+      "charEnd": 3128
+    },
+    {
+      "id": "s0057",
+      "text": "Contestability, then, describes the structural condition in which",
+      "startMs": 212055.0,
+      "endMs": 215678.0,
+      "charStart": 3132,
+      "charEnd": 3197
+    },
+    {
+      "id": "s0058",
+      "text": "authority remains challengeable, dissent is survivable, legitimacy is",
+      "startMs": 215736.0,
+      "endMs": 220543.0,
+      "charStart": 3198,
+      "charEnd": 3267
+    },
+    {
+      "id": "s0059",
+      "text": "continually renewed, and repair remains possible.",
+      "startMs": 220612.0,
+      "endMs": 223805.0,
+      "charStart": 3268,
+      "charEnd": 3317
+    },
+    {
+      "id": "s0060",
+      "text": "Where these conditions hold, moral seriousness operates with reinforcement.",
+      "startMs": 223956.0,
+      "endMs": 228600.0,
+      "charStart": 3319,
+      "charEnd": 3394
+    },
+    {
+      "id": "s0061",
+      "text": "Judgment can intervene before harm becomes normalized.",
+      "startMs": 228809.0,
+      "endMs": 232176.0,
+      "charStart": 3395,
+      "charEnd": 3449
+    },
+    {
+      "id": "s0062",
+      "text": "The stability of human-scale leadership depends not on harmony, but on",
+      "startMs": 232559.0,
+      "endMs": 236669.0,
+      "charStart": 3451,
+      "charEnd": 3521
+    },
+    {
+      "id": "s0063",
+      "text": "the continued possibility of correction.",
+      "startMs": 236704.0,
+      "endMs": 239003.0,
+      "charStart": 3522,
+      "charEnd": 3562
+    },
+    {
+      "id": "s0064",
+      "text": "The next question is what happens when correction becomes harder to",
+      "startMs": 239386.0,
+      "endMs": 242730.0,
+      "charStart": 3564,
+      "charEnd": 3631
+    },
+    {
+      "id": "s0065",
+      "text": "exercise without destabilizing the whole.",
+      "startMs": 242811.0,
+      "endMs": 245667.0,
+      "charStart": 3632,
+      "charEnd": 3673
+    }
+  ]
+}

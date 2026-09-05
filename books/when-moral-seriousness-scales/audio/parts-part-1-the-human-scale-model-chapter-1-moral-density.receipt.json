@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-1-the-human-scale-model-chapter-1-moral-density",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-1-the-human-scale-model-chapter-1-moral-density",
+  "sourcePath": "parts/part-1-the-human-scale-model/chapter-1-moral-density.md",
+  "sourceHash": "sha256:49ad09118cc2386cb0d23ed5e32d703dc08e8a8bf6264960ecb6165619ebe1c7",
+  "spokenTextHash": "sha256:2d6cffc0d285dbea4c05154cdeebbc7f2018ab1160f08d3b18b6183b3024fa24",
+  "generationHash": "sha256:47ffc8c370c0093c23865f614aa019dccf93f56dda69b4e62dba2e2e1642e6e3",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3845,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 961.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 961.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-1-the-human-scale-model-chapter-1-moral-density.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-1-the-human-scale-model-chapter-1-moral-density.mp3",
+  "audioSha256": "sha256:5119576fa9e069c8213da0735b950094829da5261e662af1f8e7970439d2e898",
+  "generatedAt": "2026-09-05T15:10:37Z"
+}

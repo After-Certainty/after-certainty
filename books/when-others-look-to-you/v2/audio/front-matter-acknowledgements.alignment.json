@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-front-matter-acknowledgements",
+  "generationHash": "sha256:0e479f39bc539e93ce089659c9913d461b3911ce0fdd0829ffe2a30aaa483f0b",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Acknowledgements",
+      "startMs": 0.0,
+      "endMs": 906.0,
+      "charStart": 0,
+      "charEnd": 16
+    },
+    {
+      "id": "s0002",
+      "text": "This book did not come from a single moment.",
+      "startMs": 2021.0,
+      "endMs": 4784.0,
+      "charStart": 18,
+      "charEnd": 62
+    },
+    {
+      "id": "s0003",
+      "text": "It came from many small ones, repeated over time.",
+      "startMs": 4784.0,
+      "endMs": 8150.0,
+      "charStart": 62,
+      "charEnd": 111
+    },
+    {
+      "id": "s0004",
+      "text": "To my wife, Brittany—",
+      "startMs": 8452.0,
+      "endMs": 10170.0,
+      "charStart": 114,
+      "charEnd": 135
+    },
+    {
+      "id": "s0005",
+      "text": "Thank you for your constant encouragement and belief.",
+      "startMs": 10612.0,
+      "endMs": 13235.0,
+      "charStart": 137,
+      "charEnd": 190
+    },
+    {
+      "id": "s0006",
+      "text": "You have not only supported this work, you have lived it.",
+      "startMs": 13235.0,
+      "endMs": 16660.0,
+      "charStart": 190,
+      "charEnd": 247
+    },
+    {
+      "id": "s0007",
+      "text": "You’ve taught me these dynamics in ways I could not have learned on my own, and you’ve given me the space to try, fail, and try again.",
+      "startMs": 16660.0,
+      "endMs": 24346.0,
+      "charStart": 247,
+      "charEnd": 381
+    },
+    {
+      "id": "s0008",
+      "text": "To my children—",
+      "startMs": 25031.0,
+      "endMs": 26134.0,
+      "charStart": 385,
+      "charEnd": 400
+    },
+    {
+      "id": "s0009",
+      "text": "You’ve helped me see what Leaders Feel the Consequences can mean in a family.",
+      "startMs": 27434.0,
+      "endMs": 31312.0,
+      "charStart": 402,
+      "charEnd": 479
+    },
+    {
+      "id": "s0010",
+      "text": "You respond to what I do far more than what I say, and through you I’ve learned that Examples Accumulate whether I intend it or not.",
+      "startMs": 31312.0,
+      "endMs": 39021.0,
+      "charStart": 479,
+      "charEnd": 611
+    },
+    {
+      "id": "s0011",
+      "text": "To my parents—",
+      "startMs": 39706.0,
+      "endMs": 40844.0,
+      "charStart": 614,
+      "charEnd": 628
+    },
+    {
+      "id": "s0012",
+      "text": "You’ve shown me, over time, that Feedback Drives Change and that Leadership Reproduces Itself, not through instruction, but through how you’ve lived.",
+      "startMs": 41958.0,
+      "endMs": 50469.0,
+      "charStart": 630,
+      "charEnd": 779
+    },
+    {
+      "id": "s0013",
+      "text": "Those lessons have stayed with me longer than anything that could have been said directly.",
+      "startMs": 50469.0,
+      "endMs": 54765.0,
+      "charStart": 779,
+      "charEnd": 869
+    },
+    {
+      "id": "s0014",
+      "text": "To Alistair Cockburn—",
+      "startMs": 55635.0,
+      "endMs": 57017.0,
+      "charStart": 872,
+      "charEnd": 893
+    },
+    {
+      "id": "s0015",
+      "text": "Thank you for teaching me how to see and speak in patterns.",
+      "startMs": 57714.0,
+      "endMs": 60848.0,
+      "charStart": 895,
+      "charEnd": 954
+    },
+    {
+      "id": "s0016",
+      "text": "Your influence is present throughout this book, not just in what is written, but in how it is shaped.",
+      "startMs": 60848.0,
+      "endMs": 65968.0,
+      "charStart": 954,
+      "charEnd": 1055
+    },
+    {
+      "id": "s0017",
+      "text": "To Anderson Shen, Herb Collins, Jeremy Smith, Dee Gray, Daniel Bean,",
+      "startMs": 66444.0,
+      "endMs": 71796.0,
+      "charStart": 1058,
+      "charEnd": 1126
+    },
+    {
+      "id": "s0018",
+      "text": "Tyler Chapman, and Justin Kenlon—",
+      "startMs": 71947.0,
+      "endMs": 74292.0,
+      "charStart": 1127,
+      "charEnd": 1160
+    },
+    {
+      "id": "s0019",
+      "text": "Your examples make this real.",
+      "startMs": 75105.0,
+      "endMs": 76893.0,
+      "charStart": 1162,
+      "charEnd": 1191
+    },
+    {
+      "id": "s0020",
+      "text": "The ideas in this book are not abstract to me because I’ve seen them lived out through you.",
+      "startMs": 76893.0,
+      "endMs": 80968.0,
+      "charStart": 1191,
+      "charEnd": 1282
+    },
+    {
+      "id": "s0021",
+      "text": "And to the many moments—small and easy to miss—where **Attention Finds a",
+      "startMs": 81653.0,
+      "endMs": 86726.0,
+      "charStart": 1285,
+      "charEnd": 1357
+    },
+    {
+      "id": "s0022",
+      "text": "Focus**, something happened, and someone learned from it.",
+      "startMs": 86796.0,
+      "endMs": 90569.0,
+      "charStart": 1358,
+      "charEnd": 1415
+    },
+    {
+      "id": "s0023",
+      "text": "This book is an attempt to notice those moments more clearly.",
+      "startMs": 90894.0,
+      "endMs": 94319.0,
+      "charStart": 1417,
+      "charEnd": 1478
+    }
+  ]
+}

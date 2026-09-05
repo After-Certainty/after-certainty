@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-1-the-human-scale-model-chapter-2-reciprocal-constraint",
+  "generationHash": "sha256:fe1a9f00709cecc82dbc6869904a5355a8121b746acfe7878bcbff6b9d164985",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 2: Reciprocal Constraint",
+      "startMs": 0.0,
+      "endMs": 3088.0,
+      "charStart": 0,
+      "charEnd": 32
+    },
+    {
+      "id": "s0002",
+      "text": "Reciprocal Constraint",
+      "startMs": 4040.0,
+      "endMs": 5468.0,
+      "charStart": 33,
+      "charEnd": 54
+    },
+    {
+      "id": "s0003",
+      "text": "Moral density alone does not stabilize leadership.",
+      "startMs": 6582.0,
+      "endMs": 10135.0,
+      "charStart": 56,
+      "charEnd": 106
+    },
+    {
+      "id": "s0004",
+      "text": "Proximity makes harm visible, but visibility does not guarantee reciprocity.",
+      "startMs": 10135.0,
+      "endMs": 15731.0,
+      "charStart": 106,
+      "charEnd": 182
+    },
+    {
+      "id": "s0005",
+      "text": "What reinforces moral seriousness at human scale is **reciprocal",
+      "startMs": 16346.0,
+      "endMs": 21060.0,
+      "charStart": 185,
+      "charEnd": 249
+    },
+    {
+      "id": "s0006",
+      "text": "constraint** — the condition in which vulnerability is shared and",
+      "startMs": 21130.0,
+      "endMs": 26110.0,
+      "charStart": 250,
+      "charEnd": 315
+    },
+    {
+      "id": "s0007",
+      "text": "authority remains mutually exposed.",
+      "startMs": 26157.0,
+      "endMs": 28549.0,
+      "charStart": 316,
+      "charEnd": 351
+    },
+    {
+      "id": "s0008",
+      "text": "Where vulnerability is shared, restraint is reinforced.",
+      "startMs": 29245.0,
+      "endMs": 33111.0,
+      "charStart": 353,
+      "charEnd": 408
+    },
+    {
+      "id": "s0009",
+      "text": "Leaders who displace harm face relational cost.",
+      "startMs": 33111.0,
+      "endMs": 36861.0,
+      "charStart": 408,
+      "charEnd": 455
+    },
+    {
+      "id": "s0010",
+      "text": "Followers who refuse reciprocity destabilize the group.",
+      "startMs": 36861.0,
+      "endMs": 41088.0,
+      "charStart": 455,
+      "charEnd": 510
+    },
+    {
+      "id": "s0011",
+      "text": "Moral seriousness becomes equilibrium rather than sacrifice.",
+      "startMs": 41088.0,
+      "endMs": 46208.0,
+      "charStart": 510,
+      "charEnd": 570
+    },
+    {
+      "id": "s0012",
+      "text": "Reciprocal constraint is not moral agreement.",
+      "startMs": 46997.0,
+      "endMs": 50468.0,
+      "charStart": 575,
+      "charEnd": 620
+    },
+    {
+      "id": "s0013",
+      "text": "It is structural symmetry.",
+      "startMs": 50793.0,
+      "endMs": 52698.0,
+      "charStart": 621,
+      "charEnd": 647
+    },
+    {
+      "id": "s0014",
+      "text": "Shared Vulnerability",
+      "startMs": 53394.0,
+      "endMs": 54787.0,
+      "charStart": 649,
+      "charEnd": 669
+    },
+    {
+      "id": "s0015",
+      "text": "In bounded systems, members depend on one another in ways that are difficult to evade.",
+      "startMs": 55484.0,
+      "endMs": 60987.0,
+      "charStart": 671,
+      "charEnd": 757
+    },
+    {
+      "id": "s0016",
+      "text": "Leaders require cooperation.",
+      "startMs": 61312.0,
+      "endMs": 63378.0,
+      "charStart": 758,
+      "charEnd": 786
+    },
+    {
+      "id": "s0017",
+      "text": "Followers require coordination.",
+      "startMs": 63378.0,
+      "endMs": 65863.0,
+      "charStart": 786,
+      "charEnd": 817
+    },
+    {
+      "id": "s0018",
+      "text": "Authority remains exposed to those it governs.",
+      "startMs": 66316.0,
+      "endMs": 69462.0,
+      "charStart": 819,
+      "charEnd": 865
+    },
+    {
+      "id": "s0019",
+      "text": "Shared vulnerability means no actor is fully insulated from consequence.",
+      "startMs": 69973.0,
+      "endMs": 74768.0,
+      "charStart": 867,
+      "charEnd": 939
+    },
+    {
+      "id": "s0020",
+      "text": "When harm is displaced, it eventually returns through diminished trust, reduced cooperation, or open resistance.",
+      "startMs": 74768.0,
+      "endMs": 83220.0,
+      "charStart": 939,
+      "charEnd": 1051
+    },
+    {
+      "id": "s0021",
+      "text": "This exposure creates discipline.",
+      "startMs": 83754.0,
+      "endMs": 86123.0,
+      "charStart": 1054,
+      "charEnd": 1087
+    },
+    {
+      "id": "s0022",
+      "text": "Leaders know they must continue to operate within the same relational field tomorrow.",
+      "startMs": 86123.0,
+      "endMs": 91811.0,
+      "charStart": 1087,
+      "charEnd": 1172
+    },
+    {
+      "id": "s0023",
+      "text": "Followers know that destabilizing the group carries cost for themselves as well.",
+      "startMs": 91811.0,
+      "endMs": 97674.0,
+      "charStart": 1172,
+      "charEnd": 1252
+    },
+    {
+      "id": "s0024",
+      "text": "Under shared vulnerability, power is constrained not only by rules but",
+      "startMs": 98440.0,
+      "endMs": 103735.0,
+      "charStart": 1256,
+      "charEnd": 1326
+    },
+    {
+      "id": "s0025",
+      "text": "by mutual dependence.",
+      "startMs": 103781.0,
+      "endMs": 105534.0,
+      "charStart": 1327,
+      "charEnd": 1348
+    },
+    {
+      "id": "s0026",
+      "text": "Mutual Dependence",
+      "startMs": 106347.0,
+      "endMs": 107961.0,
+      "charStart": 1350,
+      "charEnd": 1367
+    },
+    {
+      "id": "s0027",
+      "text": "Reciprocal systems rely on ongoing interaction.",
+      "startMs": 109075.0,
+      "endMs": 112930.0,
+      "charStart": 1369,
+      "charEnd": 1416
+    },
+    {
+      "id": "s0028",
+      "text": "Authority is exercised within a network of continuing relationships rather than through one-time transactions.",
+      "startMs": 112930.0,
+      "endMs": 120859.0,
+      "charStart": 1416,
+      "charEnd": 1526
+    },
+    {
+      "id": "s0029",
+      "text": "Legitimacy depends on sustained cooperation rather than unilateral enforcement.",
+      "startMs": 120859.0,
+      "endMs": 127431.0,
+      "charStart": 1526,
+      "charEnd": 1605
+    },
+    {
+      "id": "s0030",
+      "text": "Because relationships endure, overreach produces immediate strain.",
+      "startMs": 128267.0,
+      "endMs": 133317.0,
+      "charStart": 1609,
+      "charEnd": 1675
+    },
+    {
+      "id": "s0031",
+      "text": "Underreach produces confusion.",
+      "startMs": 133828.0,
+      "endMs": 136324.0,
+      "charStart": 1676,
+      "charEnd": 1706
+    },
+    {
+      "id": "s0032",
+      "text": "The system corrects through friction before imbalance becomes entrenched.",
+      "startMs": 136324.0,
+      "endMs": 141850.0,
+      "charStart": 1706,
+      "charEnd": 1779
+    },
+    {
+      "id": "s0033",
+      "text": "Mutual dependence does not eliminate conflict.",
+      "startMs": 142756.0,
+      "endMs": 145902.0,
+      "charStart": 1782,
+      "charEnd": 1828
+    },
+    {
+      "id": "s0034",
+      "text": "It narrows its range.",
+      "startMs": 146076.0,
+      "endMs": 147794.0,
+      "charStart": 1829,
+      "charEnd": 1850
+    },
+    {
+      "id": "s0035",
+      "text": "It makes escalation costly for all parties.",
+      "startMs": 147794.0,
+      "endMs": 151417.0,
+      "charStart": 1850,
+      "charEnd": 1893
+    },
+    {
+      "id": "s0036",
+      "text": "Norm Reinforcement Through Symmetry",
+      "startMs": 152392.0,
+      "endMs": 154888.0,
+      "charStart": 1896,
+      "charEnd": 1931
+    },
+    {
+      "id": "s0037",
+      "text": "In symmetric environments, norms are reinforced through reciprocity rather than coercion.",
+      "startMs": 155585.0,
+      "endMs": 162179.0,
+      "charStart": 1933,
+      "charEnd": 2022
+    },
+    {
+      "id": "s0038",
+      "text": "Leaders who absorb harm strengthen trust.",
+      "startMs": 162504.0,
+      "endMs": 165627.0,
+      "charStart": 2023,
+      "charEnd": 2064
+    },
+    {
+      "id": "s0039",
+      "text": "Followers who respond in kind stabilize authority.",
+      "startMs": 165836.0,
+      "endMs": 169598.0,
+      "charStart": 2065,
+      "charEnd": 2115
+    },
+    {
+      "id": "s0040",
+      "text": "Norms persist not because they are codified, but because deviation produces visible cost.",
+      "startMs": 169807.0,
+      "endMs": 176100.0,
+      "charStart": 2117,
+      "charEnd": 2206
+    },
+    {
+      "id": "s0041",
+      "text": "A leader who exploits asymmetry is noticed.",
+      "startMs": 176425.0,
+      "endMs": 179780.0,
+      "charStart": 2207,
+      "charEnd": 2250
+    },
+    {
+      "id": "s0042",
+      "text": "A participant who refuses shared burden weakens cohesion.",
+      "startMs": 179780.0,
+      "endMs": 184227.0,
+      "charStart": 2250,
+      "charEnd": 2307
+    },
+    {
+      "id": "s0043",
+      "text": "Symmetry does not require equality of role.",
+      "startMs": 184819.0,
+      "endMs": 187768.0,
+      "charStart": 2310,
+      "charEnd": 2353
+    },
+    {
+      "id": "s0044",
+      "text": "It requires equality of exposure.",
+      "startMs": 187768.0,
+      "endMs": 190798.0,
+      "charStart": 2353,
+      "charEnd": 2386
+    },
+    {
+      "id": "s0045",
+      "text": "When exposure is balanced, moral seriousness does not depend on heroism.",
+      "startMs": 191344.0,
+      "endMs": 196592.0,
+      "charStart": 2389,
+      "charEnd": 2461
+    },
+    {
+      "id": "s0046",
+      "text": "It depends on alignment.",
+      "startMs": 197288.0,
+      "endMs": 199204.0,
+      "charStart": 2462,
+      "charEnd": 2486
+    },
+    {
+      "id": "s0047",
+      "text": "Why Restraint Does Not Require Heroism",
+      "startMs": 199901.0,
+      "endMs": 202908.0,
+      "charStart": 2488,
+      "charEnd": 2526
+    },
+    {
+      "id": "s0048",
+      "text": "In reciprocal systems, restraint is reinforced by structure.",
+      "startMs": 203604.0,
+      "endMs": 207702.0,
+      "charStart": 2528,
+      "charEnd": 2588
+    },
+    {
+      "id": "s0049",
+      "text": "The cost of overreach is immediate.",
+      "startMs": 207702.0,
+      "endMs": 210663.0,
+      "charStart": 2588,
+      "charEnd": 2623
+    },
+    {
+      "id": "s0050",
+      "text": "The benefit of fairness is visible.",
+      "startMs": 210930.0,
+      "endMs": 213136.0,
+      "charStart": 2625,
+      "charEnd": 2660
+    },
+    {
+      "id": "s0051",
+      "text": "Leaders do not need extraordinary virtue to behave responsibly; they need awareness of the relational field in which they operate.",
+      "startMs": 213136.0,
+      "endMs": 222355.0,
+      "charStart": 2660,
+      "charEnd": 2790
+    },
+    {
+      "id": "s0052",
+      "text": "This is why human-scale moral seriousness often appears sustainable.",
+      "startMs": 222912.0,
+      "endMs": 227370.0,
+      "charStart": 2793,
+      "charEnd": 2861
+    },
+    {
+      "id": "s0053",
+      "text": "It is supported by feedback, symmetry, and mutual dependence.",
+      "startMs": 227370.0,
+      "endMs": 232026.0,
+      "charStart": 2861,
+      "charEnd": 2922
+    },
+    {
+      "id": "s0054",
+      "text": "The environment disciplines behavior before it escalates.",
+      "startMs": 232026.0,
+      "endMs": 236193.0,
+      "charStart": 2922,
+      "charEnd": 2979
+    },
+    {
+      "id": "s0055",
+      "text": "Restraint becomes ordinary.",
+      "startMs": 237122.0,
+      "endMs": 239212.0,
+      "charStart": 2983,
+      "charEnd": 3010
+    },
+    {
+      "id": "s0056",
+      "text": "But this stability depends on shared vulnerability.",
+      "startMs": 239537.0,
+      "endMs": 243333.0,
+      "charStart": 3012,
+      "charEnd": 3063
+    },
+    {
+      "id": "s0057",
+      "text": "When some actors become insulated from consequence, reciprocity weakens.",
+      "startMs": 243333.0,
+      "endMs": 249011.0,
+      "charStart": 3063,
+      "charEnd": 3135
+    },
+    {
+      "id": "s0058",
+      "text": "When symmetry thins, restraint becomes voluntary rather than reinforced.",
+      "startMs": 249011.0,
+      "endMs": 254642.0,
+      "charStart": 3135,
+      "charEnd": 3207
+    },
+    {
+      "id": "s0059",
+      "text": "At that point, moral seriousness may still exist — but it requires greater intentionality.",
+      "startMs": 255478.0,
+      "endMs": 262560.0,
+      "charStart": 3211,
+      "charEnd": 3301
+    },
+    {
+      "id": "s0060",
+      "text": "The system no longer guarantees its reinforcement.",
+      "startMs": 262560.0,
+      "endMs": 266124.0,
+      "charStart": 3301,
+      "charEnd": 3351
+    },
+    {
+      "id": "s0061",
+      "text": "Reciprocal constraint, then, describes the structural condition in which",
+      "startMs": 266786.0,
+      "endMs": 270977.0,
+      "charStart": 3354,
+      "charEnd": 3426
+    },
+    {
+      "id": "s0062",
+      "text": "vulnerability is shared, exposure is mutual, and restraint stabilizes",
+      "startMs": 271035.0,
+      "endMs": 276782.0,
+      "charStart": 3427,
+      "charEnd": 3496
+    },
+    {
+      "id": "s0063",
+      "text": "through symmetry rather than sacrifice.",
+      "startMs": 276829.0,
+      "endMs": 279371.0,
+      "charStart": 3497,
+      "charEnd": 3536
+    },
+    {
+      "id": "s0064",
+      "text": "The question that follows is what happens when symmetry erodes.",
+      "startMs": 279882.0,
+      "endMs": 284120.0,
+      "charStart": 3538,
+      "charEnd": 3601
+    }
+  ]
+}

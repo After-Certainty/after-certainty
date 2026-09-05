@@ -1,0 +1,656 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-2-renewing-chapter-4-dissent-is-welcomed",
+  "generationHash": "sha256:631aa1f173625b829947c0301e55aaf42bd0e9ff107a6e086b3373d7c338bb8a",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 4 — Dissent is Welcomed",
+      "startMs": 0.0,
+      "endMs": 2787.0,
+      "charStart": 0,
+      "charEnd": 31
+    },
+    {
+      "id": "s0002",
+      "text": "A boat is already in motion.",
+      "startMs": 3483.0,
+      "endMs": 5248.0,
+      "charStart": 33,
+      "charEnd": 61
+    },
+    {
+      "id": "s0003",
+      "text": "The wind shifts.",
+      "startMs": 5422.0,
+      "endMs": 6699.0,
+      "charStart": 62,
+      "charEnd": 78
+    },
+    {
+      "id": "s0004",
+      "text": "Not dramatically.",
+      "startMs": 6769.0,
+      "endMs": 7756.0,
+      "charStart": 79,
+      "charEnd": 96
+    },
+    {
+      "id": "s0005",
+      "text": "Not enough to force a reaction.",
+      "startMs": 7756.0,
+      "endMs": 9509.0,
+      "charStart": 96,
+      "charEnd": 127
+    },
+    {
+      "id": "s0006",
+      "text": "Just enough that the sail no longer sits the same way it did before.",
+      "startMs": 9509.0,
+      "endMs": 13944.0,
+      "charStart": 127,
+      "charEnd": 195
+    },
+    {
+      "id": "s0007",
+      "text": "At first, nothing happens.",
+      "startMs": 14931.0,
+      "endMs": 16765.0,
+      "charStart": 198,
+      "charEnd": 224
+    },
+    {
+      "id": "s0008",
+      "text": "The boat keeps moving.",
+      "startMs": 16974.0,
+      "endMs": 18263.0,
+      "charStart": 226,
+      "charEnd": 248
+    },
+    {
+      "id": "s0009",
+      "text": "The course looks unchanged.",
+      "startMs": 18414.0,
+      "endMs": 19981.0,
+      "charStart": 249,
+      "charEnd": 276
+    },
+    {
+      "id": "s0010",
+      "text": "The difference is small enough to ignore.",
+      "startMs": 19981.0,
+      "endMs": 22245.0,
+      "charStart": 276,
+      "charEnd": 317
+    },
+    {
+      "id": "s0011",
+      "text": "But the wind has changed.",
+      "startMs": 22802.0,
+      "endMs": 24288.0,
+      "charStart": 319,
+      "charEnd": 344
+    },
+    {
+      "id": "s0012",
+      "text": "Someone notices.",
+      "startMs": 24532.0,
+      "endMs": 25693.0,
+      "charStart": 346,
+      "charEnd": 362
+    },
+    {
+      "id": "s0013",
+      "text": "A slight tension in the line.",
+      "startMs": 25937.0,
+      "endMs": 27469.0,
+      "charStart": 363,
+      "charEnd": 392
+    },
+    {
+      "id": "s0014",
+      "text": "A change in pressure against the sail.",
+      "startMs": 27469.0,
+      "endMs": 29594.0,
+      "charStart": 392,
+      "charEnd": 430
+    },
+    {
+      "id": "s0015",
+      "text": "A feeling that something is just a little off.",
+      "startMs": 30047.0,
+      "endMs": 32415.0,
+      "charStart": 432,
+      "charEnd": 478
+    },
+    {
+      "id": "s0016",
+      "text": "They speak up.",
+      "startMs": 32415.0,
+      "endMs": 33553.0,
+      "charStart": 478,
+      "charEnd": 492
+    },
+    {
+      "id": "s0017",
+      "text": "“Wind’s shifted.”",
+      "startMs": 34331.0,
+      "endMs": 35724.0,
+      "charStart": 495,
+      "charEnd": 512
+    },
+    {
+      "id": "s0018",
+      "text": "It’s a small thing to say.",
+      "startMs": 36107.0,
+      "endMs": 37442.0,
+      "charStart": 514,
+      "charEnd": 540
+    },
+    {
+      "id": "s0019",
+      "text": "It doesn’t stop the boat.",
+      "startMs": 37767.0,
+      "endMs": 39056.0,
+      "charStart": 541,
+      "charEnd": 566
+    },
+    {
+      "id": "s0020",
+      "text": "It doesn’t demand a decision.",
+      "startMs": 39056.0,
+      "endMs": 40658.0,
+      "charStart": 566,
+      "charEnd": 595
+    },
+    {
+      "id": "s0021",
+      "text": "But it brings the change into view.",
+      "startMs": 41111.0,
+      "endMs": 42876.0,
+      "charStart": 597,
+      "charEnd": 632
+    },
+    {
+      "id": "s0022",
+      "text": "The sail is adjusted.",
+      "startMs": 43317.0,
+      "endMs": 44687.0,
+      "charStart": 634,
+      "charEnd": 655
+    },
+    {
+      "id": "s0023",
+      "text": "The course corrects.",
+      "startMs": 45070.0,
+      "endMs": 46324.0,
+      "charStart": 656,
+      "charEnd": 676
+    },
+    {
+      "id": "s0024",
+      "text": "The boat continues.",
+      "startMs": 46440.0,
+      "endMs": 47670.0,
+      "charStart": 677,
+      "charEnd": 696
+    },
+    {
+      "id": "s0025",
+      "text": "Nothing dramatic happens.",
+      "startMs": 47670.0,
+      "endMs": 49272.0,
+      "charStart": 696,
+      "charEnd": 721
+    },
+    {
+      "id": "s0026",
+      "text": "Because the change was noticed early.",
+      "startMs": 49725.0,
+      "endMs": 51664.0,
+      "charStart": 723,
+      "charEnd": 760
+    },
+    {
+      "id": "s0027",
+      "text": "You don’t argue with the wind.",
+      "startMs": 51664.0,
+      "endMs": 53289.0,
+      "charStart": 760,
+      "charEnd": 790
+    },
+    {
+      "id": "s0028",
+      "text": "You either adjust, or you drift.",
+      "startMs": 53487.0,
+      "endMs": 55646.0,
+      "charStart": 792,
+      "charEnd": 824
+    },
+    {
+      "id": "s0029",
+      "text": "The same thing happens in groups.",
+      "startMs": 55925.0,
+      "endMs": 57539.0,
+      "charStart": 826,
+      "charEnd": 859
+    },
+    {
+      "id": "s0030",
+      "text": "A problem appears.",
+      "startMs": 57690.0,
+      "endMs": 58909.0,
+      "charStart": 860,
+      "charEnd": 878
+    },
+    {
+      "id": "s0031",
+      "text": "Not fully formed.",
+      "startMs": 59187.0,
+      "endMs": 60290.0,
+      "charStart": 879,
+      "charEnd": 896
+    },
+    {
+      "id": "s0032",
+      "text": "Not yet visible to everyone.",
+      "startMs": 60499.0,
+      "endMs": 62136.0,
+      "charStart": 897,
+      "charEnd": 925
+    },
+    {
+      "id": "s0033",
+      "text": "Just a signal that something isn’t working the way it should.",
+      "startMs": 62136.0,
+      "endMs": 65039.0,
+      "charStart": 925,
+      "charEnd": 986
+    },
+    {
+      "id": "s0034",
+      "text": "A delay.",
+      "startMs": 65271.0,
+      "endMs": 66049.0,
+      "charStart": 988,
+      "charEnd": 996
+    },
+    {
+      "id": "s0035",
+      "text": "A mismatch.",
+      "startMs": 66095.0,
+      "endMs": 67071.0,
+      "charStart": 997,
+      "charEnd": 1008
+    },
+    {
+      "id": "s0036",
+      "text": "A quiet concern.",
+      "startMs": 67140.0,
+      "endMs": 68429.0,
+      "charStart": 1009,
+      "charEnd": 1025
+    },
+    {
+      "id": "s0037",
+      "text": "At first, it’s easy to ignore.",
+      "startMs": 68754.0,
+      "endMs": 70391.0,
+      "charStart": 1027,
+      "charEnd": 1057
+    },
+    {
+      "id": "s0038",
+      "text": "The work continues.",
+      "startMs": 70565.0,
+      "endMs": 71773.0,
+      "charStart": 1058,
+      "charEnd": 1077
+    },
+    {
+      "id": "s0039",
+      "text": "The plan still holds—at least on the surface.",
+      "startMs": 71773.0,
+      "endMs": 74443.0,
+      "charStart": 1077,
+      "charEnd": 1122
+    },
+    {
+      "id": "s0040",
+      "text": "But something has changed.",
+      "startMs": 74791.0,
+      "endMs": 76185.0,
+      "charStart": 1125,
+      "charEnd": 1151
+    },
+    {
+      "id": "s0041",
+      "text": "If the signal moves early, it can still shape what happens next.",
+      "startMs": 76510.0,
+      "endMs": 80132.0,
+      "charStart": 1153,
+      "charEnd": 1217
+    },
+    {
+      "id": "s0042",
+      "text": "Someone says it.",
+      "startMs": 80132.0,
+      "endMs": 81560.0,
+      "charStart": 1217,
+      "charEnd": 1233
+    },
+    {
+      "id": "s0043",
+      "text": "“This isn’t lining up.”",
+      "startMs": 82013.0,
+      "endMs": 83510.0,
+      "charStart": 1236,
+      "charEnd": 1259
+    },
+    {
+      "id": "s0044",
+      "text": "“This might be off.”",
+      "startMs": 83952.0,
+      "endMs": 85264.0,
+      "charStart": 1261,
+      "charEnd": 1281
+    },
+    {
+      "id": "s0045",
+      "text": "“We should take another look.”",
+      "startMs": 85647.0,
+      "endMs": 87330.0,
+      "charStart": 1283,
+      "charEnd": 1313
+    },
+    {
+      "id": "s0046",
+      "text": "It doesn’t need to be complete.",
+      "startMs": 88027.0,
+      "endMs": 89571.0,
+      "charStart": 1315,
+      "charEnd": 1346
+    },
+    {
+      "id": "s0047",
+      "text": "It doesn’t need to be certain.",
+      "startMs": 89954.0,
+      "endMs": 91440.0,
+      "charStart": 1347,
+      "charEnd": 1377
+    },
+    {
+      "id": "s0048",
+      "text": "It only needs to be early.",
+      "startMs": 91440.0,
+      "endMs": 93402.0,
+      "charStart": 1377,
+      "charEnd": 1403
+    },
+    {
+      "id": "s0049",
+      "text": "Dissent is Welcomed.",
+      "startMs": 94250.0,
+      "endMs": 96049.0,
+      "charStart": 1406,
+      "charEnd": 1426
+    },
+    {
+      "id": "s0050",
+      "text": "When it is, the group stays close to reality.",
+      "startMs": 96653.0,
+      "endMs": 99613.0,
+      "charStart": 1428,
+      "charEnd": 1473
+    },
+    {
+      "id": "s0051",
+      "text": "The signal reaches the point where Attention Finds a Focus.",
+      "startMs": 99613.0,
+      "endMs": 102922.0,
+      "charStart": 1473,
+      "charEnd": 1532
+    },
+    {
+      "id": "s0052",
+      "text": "It is heard before decisions are locked in.",
+      "startMs": 102922.0,
+      "endMs": 105314.0,
+      "charStart": 1532,
+      "charEnd": 1575
+    },
+    {
+      "id": "s0053",
+      "text": "It arrives while change is still possible.",
+      "startMs": 105848.0,
+      "endMs": 108147.0,
+      "charStart": 1578,
+      "charEnd": 1620
+    },
+    {
+      "id": "s0054",
+      "text": "This is what allows adjustment.",
+      "startMs": 108530.0,
+      "endMs": 110271.0,
+      "charStart": 1622,
+      "charEnd": 1653
+    },
+    {
+      "id": "s0055",
+      "text": "If something no longer fits, **Feedback Drives Change**.",
+      "startMs": 110271.0,
+      "endMs": 115101.0,
+      "charStart": 1653,
+      "charEnd": 1709
+    },
+    {
+      "id": "s0056",
+      "text": "The group doesn’t need to defend what was already decided.",
+      "startMs": 115414.0,
+      "endMs": 118688.0,
+      "charStart": 1711,
+      "charEnd": 1769
+    },
+    {
+      "id": "s0057",
+      "text": "It doesn’t need to protect the plan.",
+      "startMs": 118688.0,
+      "endMs": 120569.0,
+      "charStart": 1769,
+      "charEnd": 1805
+    },
+    {
+      "id": "s0058",
+      "text": "It can respond to what is actually happening.",
+      "startMs": 120569.0,
+      "endMs": 122833.0,
+      "charStart": 1805,
+      "charEnd": 1850
+    },
+    {
+      "id": "s0059",
+      "text": "The earlier the signal, the smaller the adjustment.",
+      "startMs": 123379.0,
+      "endMs": 126177.0,
+      "charStart": 1854,
+      "charEnd": 1905
+    },
+    {
+      "id": "s0060",
+      "text": "A small shift now prevents a larger correction later.",
+      "startMs": 126177.0,
+      "endMs": 129637.0,
+      "charStart": 1905,
+      "charEnd": 1958
+    },
+    {
+      "id": "s0061",
+      "text": "When dissent still moves early, something important remains intact.",
+      "startMs": 130032.0,
+      "endMs": 133921.0,
+      "charStart": 1961,
+      "charEnd": 2028
+    },
+    {
+      "id": "s0062",
+      "text": "Leaders Feel the Consequences.",
+      "startMs": 134304.0,
+      "endMs": 136255.0,
+      "charStart": 2030,
+      "charEnd": 2060
+    },
+    {
+      "id": "s0063",
+      "text": "The people deciding are still close to what happens next.",
+      "startMs": 136638.0,
+      "endMs": 139482.0,
+      "charStart": 2062,
+      "charEnd": 2119
+    },
+    {
+      "id": "s0064",
+      "text": "They see the effect of their choices.",
+      "startMs": 139482.0,
+      "endMs": 141340.0,
+      "charStart": 2119,
+      "charEnd": 2156
+    },
+    {
+      "id": "s0065",
+      "text": "They feel the impact.",
+      "startMs": 141549.0,
+      "endMs": 142791.0,
+      "charStart": 2158,
+      "charEnd": 2179
+    },
+    {
+      "id": "s0066",
+      "text": "They adjust in response.",
+      "startMs": 143000.0,
+      "endMs": 144347.0,
+      "charStart": 2180,
+      "charEnd": 2204
+    },
+    {
+      "id": "s0067",
+      "text": "The loop remains tight.",
+      "startMs": 144463.0,
+      "endMs": 145903.0,
+      "charStart": 2206,
+      "charEnd": 2229
+    },
+    {
+      "id": "s0068",
+      "text": "Signal.",
+      "startMs": 146112.0,
+      "endMs": 146646.0,
+      "charStart": 2230,
+      "charEnd": 2237
+    },
+    {
+      "id": "s0069",
+      "text": "Adjustment.",
+      "startMs": 146681.0,
+      "endMs": 147459.0,
+      "charStart": 2238,
+      "charEnd": 2249
+    },
+    {
+      "id": "s0070",
+      "text": "Result.",
+      "startMs": 147668.0,
+      "endMs": 148306.0,
+      "charStart": 2250,
+      "charEnd": 2257
+    },
+    {
+      "id": "s0071",
+      "text": "Nothing drifts far from reality.",
+      "startMs": 148306.0,
+      "endMs": 150489.0,
+      "charStart": 2257,
+      "charEnd": 2289
+    },
+    {
+      "id": "s0072",
+      "text": "But this depends on something simple.",
+      "startMs": 150837.0,
+      "endMs": 152753.0,
+      "charStart": 2291,
+      "charEnd": 2328
+    },
+    {
+      "id": "s0073",
+      "text": "The signal has to move.",
+      "startMs": 152753.0,
+      "endMs": 154390.0,
+      "charStart": 2328,
+      "charEnd": 2351
+    },
+    {
+      "id": "s0074",
+      "text": "Someone has to notice, speak, and carry it to the place where decisions are made.",
+      "startMs": 154390.0,
+      "endMs": 158627.0,
+      "charStart": 2351,
+      "charEnd": 2432
+    },
+    {
+      "id": "s0075",
+      "text": "Without that, the boat still moves.",
+      "startMs": 159010.0,
+      "endMs": 160949.0,
+      "charStart": 2436,
+      "charEnd": 2471
+    },
+    {
+      "id": "s0076",
+      "text": "But not where it thinks it is going.",
+      "startMs": 161158.0,
+      "endMs": 162981.0,
+      "charStart": 2472,
+      "charEnd": 2508
+    },
+    {
+      "id": "s0077",
+      "text": "> Early signals stay cheap; late signals stay expensive.",
+      "startMs": 163585.0,
+      "endMs": 167358.0,
+      "charStart": 2510,
+      "charEnd": 2566
+    },
+    {
+      "id": "s0078",
+      "text": "From here, the difference is not whether the signal appears.",
+      "startMs": 167683.0,
+      "endMs": 170492.0,
+      "charStart": 2568,
+      "charEnd": 2628
+    },
+    {
+      "id": "s0079",
+      "text": "It is what happens once it does.",
+      "startMs": 170492.0,
+      "endMs": 172524.0,
+      "charStart": 2628,
+      "charEnd": 2660
+    },
+    {
+      "id": "s0080",
+      "text": "Creating Psychological Safety in the Workplace for Learning, Innovation, and",
+      "startMs": 173337.0,
+      "endMs": 177122.0,
+      "charStart": 2663,
+      "charEnd": 2739
+    },
+    {
+      "id": "s0081",
+      "text": "Growth* (Hoboken, NJ: Wiley, 2018).",
+      "startMs": 177180.0,
+      "endMs": 180419.0,
+      "charStart": 2740,
+      "charEnd": 2775
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-4-repeating-bridge",
+  "generationHash": "sha256:f11c7df3a4694ec3fe9228670c918bfdbb2b6aa55547d568007c9a198dc5effe",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Bridge — From Eroding to Repeating",
+      "startMs": 0.0,
+      "endMs": 3530.0,
+      "charStart": 0,
+      "charEnd": 34
+    },
+    {
+      "id": "s0002",
+      "text": "What has formed does not stay in one room.",
+      "startMs": 4830.0,
+      "endMs": 7756.0,
+      "charStart": 36,
+      "charEnd": 78
+    },
+    {
+      "id": "s0003",
+      "text": "Part IV—Repeating—has a single chapter.",
+      "startMs": 7756.0,
+      "endMs": 11692.0,
+      "charStart": 78,
+      "charEnd": 117
+    },
+    {
+      "id": "s0004",
+      "text": "It names how behavior spreads: Leadership Reproduces Itself, and what is copied becomes what happens next.",
+      "startMs": 11692.0,
+      "endMs": 19517.0,
+      "charStart": 117,
+      "charEnd": 223
+    },
+    {
+      "id": "s0005",
+      "text": "That brings the arc back to the beginning.",
+      "startMs": 20109.0,
+      "endMs": 22570.0,
+      "charStart": 227,
+      "charEnd": 269
+    },
+    {
+      "id": "s0006",
+      "text": "When a new question appears, Attention Finds a Focus again—and what people have learned determines what they do with it.",
+      "startMs": 22570.0,
+      "endMs": 29989.0,
+      "charStart": 269,
+      "charEnd": 389
+    }
+  ]
+}

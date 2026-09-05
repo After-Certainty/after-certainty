@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-2-what-scale-changes-chapter-6-the-incentive-gradient",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-2-what-scale-changes-chapter-6-the-incentive-gradient",
+  "sourcePath": "parts/part-2-what-scale-changes/chapter-6-the-incentive-gradient.md",
+  "sourceHash": "sha256:7f2dae3dc6ae396fc2bc01ee3acb5e4eec4bfc474a7ed942a00d67032d227cff",
+  "spokenTextHash": "sha256:500cd67544aeb55456ce59aec5643f21dca198f309b4eb5377791944df22d562",
+  "generationHash": "sha256:5bdb3cbbeec937fb0ec7dfa3c1db9640a1caaa184ac7956b85a55a8a59162930",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3041,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 760.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 760.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-2-what-scale-changes-chapter-6-the-incentive-gradient.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-2-what-scale-changes-chapter-6-the-incentive-gradient.mp3",
+  "audioSha256": "sha256:aeed409a0a11a5b6aa94f721de4b252601bc7e0c9961873c0db221f180c8f325",
+  "generatedAt": "2026-09-05T15:11:35Z"
+}

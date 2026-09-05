@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-3-eroding-chapter-9-exceptions-are-forever",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-3-eroding-chapter-9-exceptions-are-forever",
+  "sourcePath": "parts/part-3-eroding/chapter-9-exceptions-are-forever.md",
+  "sourceHash": "sha256:e4d093dacee0bda953ceec14c7b8560ef9e22c14ca844f3d1e5189bc49487b54",
+  "spokenTextHash": "sha256:87fec86899c4508115ab2c991517dd306c081ce262cd71c7d8e9b1d1126f91df",
+  "generationHash": "sha256:f4e3fdfd84b49dd32ac16c6e604678bb98e77ca6cac7cdfb12565cf5336dc8ed",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2391,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 597.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 597.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-3-eroding-chapter-9-exceptions-are-forever.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-3-eroding-chapter-9-exceptions-are-forever.mp3",
+  "audioSha256": "sha256:0ddcd99c454941f742e4752dce9a5e7f1af54a41567badd7e1b843cc0c5c6104",
+  "generatedAt": "2026-09-05T15:14:42Z"
+}

@@ -1,0 +1,600 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-2-what-scale-changes-chapter-4-distance",
+  "generationHash": "sha256:2f3348bfe532472f5f1351cdd0ec46a1536a2bc719baabfb1dd7a66dabda136b",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 4: Distance",
+      "startMs": 0.0,
+      "endMs": 1846.0,
+      "charStart": 0,
+      "charEnd": 19
+    },
+    {
+      "id": "s0002",
+      "text": "Distance",
+      "startMs": 1928.0,
+      "endMs": 2647.0,
+      "charStart": 20,
+      "charEnd": 28
+    },
+    {
+      "id": "s0003",
+      "text": "As systems scale, consequence becomes abstract.",
+      "startMs": 3762.0,
+      "endMs": 7210.0,
+      "charStart": 30,
+      "charEnd": 77
+    },
+    {
+      "id": "s0004",
+      "text": "Decisions affect people who are never encountered.",
+      "startMs": 7454.0,
+      "endMs": 10321.0,
+      "charStart": 79,
+      "charEnd": 129
+    },
+    {
+      "id": "s0005",
+      "text": "Effects are aggregated into metrics rather than experienced directly.",
+      "startMs": 10321.0,
+      "endMs": 15186.0,
+      "charStart": 129,
+      "charEnd": 198
+    },
+    {
+      "id": "s0006",
+      "text": "Feedback arrives late, filtered, or diluted.",
+      "startMs": 15186.0,
+      "endMs": 18739.0,
+      "charStart": 198,
+      "charEnd": 242
+    },
+    {
+      "id": "s0007",
+      "text": "Distance does not remove responsibility.",
+      "startMs": 18739.0,
+      "endMs": 21688.0,
+      "charStart": 242,
+      "charEnd": 282
+    },
+    {
+      "id": "s0008",
+      "text": "It changes its texture.",
+      "startMs": 22373.0,
+      "endMs": 23986.0,
+      "charStart": 286,
+      "charEnd": 309
+    },
+    {
+      "id": "s0009",
+      "text": "Distance stretches the space between action and consequence.",
+      "startMs": 24370.0,
+      "endMs": 28155.0,
+      "charStart": 311,
+      "charEnd": 371
+    },
+    {
+      "id": "s0010",
+      "text": "That stretch alters how judgment functions.",
+      "startMs": 28155.0,
+      "endMs": 31162.0,
+      "charStart": 371,
+      "charEnd": 414
+    },
+    {
+      "id": "s0011",
+      "text": "Statistical Harm",
+      "startMs": 31557.0,
+      "endMs": 32729.0,
+      "charStart": 417,
+      "charEnd": 433
+    },
+    {
+      "id": "s0012",
+      "text": "At small scale, harm is concrete.",
+      "startMs": 33170.0,
+      "endMs": 35701.0,
+      "charStart": 435,
+      "charEnd": 468
+    },
+    {
+      "id": "s0013",
+      "text": "It appears in expressions, tone, friction, or withdrawal.",
+      "startMs": 35701.0,
+      "endMs": 39358.0,
+      "charStart": 468,
+      "charEnd": 525
+    },
+    {
+      "id": "s0014",
+      "text": "At larger scale, harm becomes statistical.",
+      "startMs": 39811.0,
+      "endMs": 42574.0,
+      "charStart": 527,
+      "charEnd": 569
+    },
+    {
+      "id": "s0015",
+      "text": "It is measured rather than felt.",
+      "startMs": 42574.0,
+      "endMs": 44560.0,
+      "charStart": 569,
+      "charEnd": 601
+    },
+    {
+      "id": "s0016",
+      "text": "Loss is reported as variance.",
+      "startMs": 45059.0,
+      "endMs": 47114.0,
+      "charStart": 604,
+      "charEnd": 633
+    },
+    {
+      "id": "s0017",
+      "text": "Discontent appears as survey data.",
+      "startMs": 47358.0,
+      "endMs": 49889.0,
+      "charStart": 634,
+      "charEnd": 668
+    },
+    {
+      "id": "s0018",
+      "text": "Displacement is registered in trends rather than conversations.",
+      "startMs": 50167.0,
+      "endMs": 53999.0,
+      "charStart": 669,
+      "charEnd": 732
+    },
+    {
+      "id": "s0019",
+      "text": "Statistical representation does not make harm unreal.",
+      "startMs": 54510.0,
+      "endMs": 58051.0,
+      "charStart": 734,
+      "charEnd": 787
+    },
+    {
+      "id": "s0020",
+      "text": "It changes its immediacy.",
+      "startMs": 58051.0,
+      "endMs": 60025.0,
+      "charStart": 787,
+      "charEnd": 812
+    },
+    {
+      "id": "s0021",
+      "text": "When consequence is mediated through aggregation, it competes with other abstractions for attention.",
+      "startMs": 60025.0,
+      "endMs": 66631.0,
+      "charStart": 812,
+      "charEnd": 912
+    },
+    {
+      "id": "s0022",
+      "text": "The moral signal weakens not because it disappears, but because it",
+      "startMs": 67432.0,
+      "endMs": 71542.0,
+      "charStart": 916,
+      "charEnd": 982
+    },
+    {
+      "id": "s0023",
+      "text": "arrives encoded.",
+      "startMs": 71588.0,
+      "endMs": 72993.0,
+      "charStart": 983,
+      "charEnd": 999
+    },
+    {
+      "id": "s0024",
+      "text": "Bureaucratic Mediation",
+      "startMs": 74293.0,
+      "endMs": 75965.0,
+      "charStart": 1001,
+      "charEnd": 1023
+    },
+    {
+      "id": "s0025",
+      "text": "As scale increases, decisions travel through procedure.",
+      "startMs": 77266.0,
+      "endMs": 80853.0,
+      "charStart": 1025,
+      "charEnd": 1080
+    },
+    {
+      "id": "s0026",
+      "text": "Authority operates through layers—departments, protocols, compliance frameworks, reporting structures.",
+      "startMs": 80853.0,
+      "endMs": 88202.0,
+      "charStart": 1080,
+      "charEnd": 1182
+    },
+    {
+      "id": "s0027",
+      "text": "Each layer introduces translation.",
+      "startMs": 88817.0,
+      "endMs": 91151.0,
+      "charStart": 1184,
+      "charEnd": 1218
+    },
+    {
+      "id": "s0028",
+      "text": "Translation is necessary for coordination.",
+      "startMs": 91534.0,
+      "endMs": 94227.0,
+      "charStart": 1220,
+      "charEnd": 1262
+    },
+    {
+      "id": "s0029",
+      "text": "But it also diffuses exposure.",
+      "startMs": 94227.0,
+      "endMs": 96631.0,
+      "charStart": 1262,
+      "charEnd": 1292
+    },
+    {
+      "id": "s0030",
+      "text": "In bureaucratic environments, responsibility becomes distributed.",
+      "startMs": 97037.0,
+      "endMs": 101228.0,
+      "charStart": 1295,
+      "charEnd": 1360
+    },
+    {
+      "id": "s0031",
+      "text": "Harm may result from process rather than direct intention.",
+      "startMs": 101228.0,
+      "endMs": 105466.0,
+      "charStart": 1360,
+      "charEnd": 1418
+    },
+    {
+      "id": "s0032",
+      "text": "This distribution can protect stability.",
+      "startMs": 105466.0,
+      "endMs": 108334.0,
+      "charStart": 1418,
+      "charEnd": 1458
+    },
+    {
+      "id": "s0033",
+      "text": "It can also obscure accountability.",
+      "startMs": 109158.0,
+      "endMs": 111608.0,
+      "charStart": 1461,
+      "charEnd": 1496
+    },
+    {
+      "id": "s0034",
+      "text": "No single actor encounters the full weight of consequence.",
+      "startMs": 112049.0,
+      "endMs": 115741.0,
+      "charStart": 1498,
+      "charEnd": 1556
+    },
+    {
+      "id": "s0035",
+      "text": "Responsibility becomes shared, and therefore less concentrated.",
+      "startMs": 116252.0,
+      "endMs": 120652.0,
+      "charStart": 1557,
+      "charEnd": 1620
+    },
+    {
+      "id": "s0036",
+      "text": "Delayed Feedback",
+      "startMs": 121348.0,
+      "endMs": 122614.0,
+      "charStart": 1622,
+      "charEnd": 1638
+    },
+    {
+      "id": "s0037",
+      "text": "Dense systems correct quickly.",
+      "startMs": 123566.0,
+      "endMs": 125865.0,
+      "charStart": 1640,
+      "charEnd": 1670
+    },
+    {
+      "id": "s0038",
+      "text": "Scaled systems correct slowly.",
+      "startMs": 126469.0,
+      "endMs": 128884.0,
+      "charStart": 1671,
+      "charEnd": 1701
+    },
+    {
+      "id": "s0039",
+      "text": "When feedback loops lengthen, correction becomes harder to coordinate.",
+      "startMs": 129325.0,
+      "endMs": 133574.0,
+      "charStart": 1703,
+      "charEnd": 1773
+    },
+    {
+      "id": "s0040",
+      "text": "By the time consequences surface, they may be embedded in policy or routine.",
+      "startMs": 133574.0,
+      "endMs": 138857.0,
+      "charStart": 1773,
+      "charEnd": 1849
+    },
+    {
+      "id": "s0041",
+      "text": "Revision requires more actors, more negotiation, more institutional movement.",
+      "startMs": 138857.0,
+      "endMs": 144789.0,
+      "charStart": 1849,
+      "charEnd": 1926
+    },
+    {
+      "id": "s0042",
+      "text": "Delay alters judgment.",
+      "startMs": 145497.0,
+      "endMs": 147216.0,
+      "charStart": 1930,
+      "charEnd": 1952
+    },
+    {
+      "id": "s0043",
+      "text": "Decisions are made without immediate confirmation of effect.",
+      "startMs": 147216.0,
+      "endMs": 150989.0,
+      "charStart": 1952,
+      "charEnd": 2012
+    },
+    {
+      "id": "s0044",
+      "text": "Adjustment requires projection rather than encounter.",
+      "startMs": 151430.0,
+      "endMs": 154646.0,
+      "charStart": 2014,
+      "charEnd": 2067
+    },
+    {
+      "id": "s0045",
+      "text": "This does not eliminate accountability.",
+      "startMs": 155029.0,
+      "endMs": 157235.0,
+      "charStart": 2069,
+      "charEnd": 2108
+    },
+    {
+      "id": "s0046",
+      "text": "It makes it slower and more complex.",
+      "startMs": 157235.0,
+      "endMs": 159673.0,
+      "charStart": 2108,
+      "charEnd": 2144
+    },
+    {
+      "id": "s0047",
+      "text": "Abstraction of Consequence",
+      "startMs": 160695.0,
+      "endMs": 162379.0,
+      "charStart": 2147,
+      "charEnd": 2173
+    },
+    {
+      "id": "s0048",
+      "text": "Distance encourages abstraction.",
+      "startMs": 162495.0,
+      "endMs": 165026.0,
+      "charStart": 2175,
+      "charEnd": 2207
+    },
+    {
+      "id": "s0049",
+      "text": "Language shifts from personal to procedural.",
+      "startMs": 165026.0,
+      "endMs": 168219.0,
+      "charStart": 2207,
+      "charEnd": 2251
+    },
+    {
+      "id": "s0050",
+      "text": "Outcomes are framed in terms of efficiency, compliance, optimization, or stability.",
+      "startMs": 168219.0,
+      "endMs": 174047.0,
+      "charStart": 2251,
+      "charEnd": 2334
+    },
+    {
+      "id": "s0051",
+      "text": "Abstraction is not deception.",
+      "startMs": 174674.0,
+      "endMs": 177007.0,
+      "charStart": 2338,
+      "charEnd": 2367
+    },
+    {
+      "id": "s0052",
+      "text": "It is functional.",
+      "startMs": 177182.0,
+      "endMs": 178470.0,
+      "charStart": 2368,
+      "charEnd": 2385
+    },
+    {
+      "id": "s0053",
+      "text": "Large systems cannot operate entirely through personal encounter.",
+      "startMs": 178470.0,
+      "endMs": 182952.0,
+      "charStart": 2385,
+      "charEnd": 2450
+    },
+    {
+      "id": "s0054",
+      "text": "But abstraction alters moral perception.",
+      "startMs": 182952.0,
+      "endMs": 186063.0,
+      "charStart": 2450,
+      "charEnd": 2490
+    },
+    {
+      "id": "s0055",
+      "text": "When consequence is abstracted, it becomes easier to justify tradeoffs.",
+      "startMs": 186597.0,
+      "endMs": 191299.0,
+      "charStart": 2494,
+      "charEnd": 2565
+    },
+    {
+      "id": "s0056",
+      "text": "Harm can be reframed as cost.",
+      "startMs": 191508.0,
+      "endMs": 193784.0,
+      "charStart": 2566,
+      "charEnd": 2595
+    },
+    {
+      "id": "s0057",
+      "text": "Displacement can be described as necessity.",
+      "startMs": 193784.0,
+      "endMs": 196570.0,
+      "charStart": 2595,
+      "charEnd": 2638
+    },
+    {
+      "id": "s0058",
+      "text": "Judgment remains possible under abstraction.",
+      "startMs": 196988.0,
+      "endMs": 199670.0,
+      "charStart": 2641,
+      "charEnd": 2685
+    },
+    {
+      "id": "s0059",
+      "text": "It requires more effort.",
+      "startMs": 199786.0,
+      "endMs": 201632.0,
+      "charStart": 2686,
+      "charEnd": 2710
+    },
+    {
+      "id": "s0060",
+      "text": "It must reconstruct the human dimension that proximity once supplied automatically.",
+      "startMs": 201632.0,
+      "endMs": 206787.0,
+      "charStart": 2710,
+      "charEnd": 2793
+    },
+    {
+      "id": "s0061",
+      "text": "Distance, then, is the first thinning of moral density.",
+      "startMs": 207205.0,
+      "endMs": 210722.0,
+      "charStart": 2796,
+      "charEnd": 2851
+    },
+    {
+      "id": "s0062",
+      "text": "Proximity stretches.",
+      "startMs": 210722.0,
+      "endMs": 212278.0,
+      "charStart": 2851,
+      "charEnd": 2871
+    },
+    {
+      "id": "s0063",
+      "text": "Feedback lengthens.",
+      "startMs": 212568.0,
+      "endMs": 213985.0,
+      "charStart": 2873,
+      "charEnd": 2892
+    },
+    {
+      "id": "s0064",
+      "text": "Responsibility disperses.",
+      "startMs": 214136.0,
+      "endMs": 216156.0,
+      "charStart": 2893,
+      "charEnd": 2918
+    },
+    {
+      "id": "s0065",
+      "text": "Harm becomes statistical.",
+      "startMs": 216156.0,
+      "endMs": 218142.0,
+      "charStart": 2918,
+      "charEnd": 2943
+    },
+    {
+      "id": "s0066",
+      "text": "None of this renders moral seriousness obsolete.",
+      "startMs": 218641.0,
+      "endMs": 221717.0,
+      "charStart": 2946,
+      "charEnd": 2994
+    },
+    {
+      "id": "s0067",
+      "text": "It alters its operating conditions.",
+      "startMs": 221717.0,
+      "endMs": 224039.0,
+      "charStart": 2994,
+      "charEnd": 3029
+    },
+    {
+      "id": "s0068",
+      "text": "Leaders must act without full encounter.",
+      "startMs": 224364.0,
+      "endMs": 226919.0,
+      "charStart": 3031,
+      "charEnd": 3071
+    },
+    {
+      "id": "s0069",
+      "text": "Institutions must coordinate without constant relational exposure.",
+      "startMs": 226919.0,
+      "endMs": 231632.0,
+      "charStart": 3071,
+      "charEnd": 3137
+    },
+    {
+      "id": "s0070",
+      "text": "The question is not whether distance can be eliminated.",
+      "startMs": 231876.0,
+      "endMs": 234976.0,
+      "charStart": 3140,
+      "charEnd": 3195
+    },
+    {
+      "id": "s0071",
+      "text": "It cannot.",
+      "startMs": 235359.0,
+      "endMs": 236369.0,
+      "charStart": 3196,
+      "charEnd": 3206
+    },
+    {
+      "id": "s0072",
+      "text": "The question is how moral seriousness functions when the human face of consequence is no longer immediate.",
+      "startMs": 236369.0,
+      "endMs": 243428.0,
+      "charStart": 3206,
+      "charEnd": 3312
+    },
+    {
+      "id": "s0073",
+      "text": "Distance does not corrupt by itself.",
+      "startMs": 243811.0,
+      "endMs": 246145.0,
+      "charStart": 3315,
+      "charEnd": 3351
+    },
+    {
+      "id": "s0074",
+      "text": "It creates the space in which other structural shifts can emerge.",
+      "startMs": 246145.0,
+      "endMs": 250197.0,
+      "charStart": 3351,
+      "charEnd": 3416
+    }
+  ]
+}

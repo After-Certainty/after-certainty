@@ -1,0 +1,584 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-3-eroding-chapter-9-exceptions-are-forever",
+  "generationHash": "sha256:f4e3fdfd84b49dd32ac16c6e604678bb98e77ca6cac7cdfb12565cf5336dc8ed",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 9 — Exceptions are Forever",
+      "startMs": 0.0,
+      "endMs": 2880.0,
+      "charStart": 0,
+      "charEnd": 34
+    },
+    {
+      "id": "s0002",
+      "text": "Over time, the crack stops looking like damage.",
+      "startMs": 3263.0,
+      "endMs": 6792.0,
+      "charStart": 36,
+      "charEnd": 83
+    },
+    {
+      "id": "s0003",
+      "text": "It becomes part of the building.",
+      "startMs": 6792.0,
+      "endMs": 8731.0,
+      "charStart": 83,
+      "charEnd": 115
+    },
+    {
+      "id": "s0004",
+      "text": "A line that was once out of place begins to feel familiar.",
+      "startMs": 9323.0,
+      "endMs": 12725.0,
+      "charStart": 118,
+      "charEnd": 176
+    },
+    {
+      "id": "s0005",
+      "text": "People work around it.",
+      "startMs": 12725.0,
+      "endMs": 14466.0,
+      "charStart": 176,
+      "charEnd": 198
+    },
+    {
+      "id": "s0006",
+      "text": "Adjust to it.",
+      "startMs": 14884.0,
+      "endMs": 16022.0,
+      "charStart": 200,
+      "charEnd": 213
+    },
+    {
+      "id": "s0007",
+      "text": "Stop noticing it altogether.",
+      "startMs": 16347.0,
+      "endMs": 18321.0,
+      "charStart": 214,
+      "charEnd": 242
+    },
+    {
+      "id": "s0008",
+      "text": "The structure still stands.",
+      "startMs": 18565.0,
+      "endMs": 20527.0,
+      "charStart": 244,
+      "charEnd": 271
+    },
+    {
+      "id": "s0009",
+      "text": "But it is no longer what it was.",
+      "startMs": 20910.0,
+      "endMs": 22953.0,
+      "charStart": 272,
+      "charEnd": 304
+    },
+    {
+      "id": "s0010",
+      "text": "The same thing happens in groups.",
+      "startMs": 23232.0,
+      "endMs": 25252.0,
+      "charStart": 306,
+      "charEnd": 339
+    },
+    {
+      "id": "s0011",
+      "text": "A workaround is introduced.",
+      "startMs": 25531.0,
+      "endMs": 27423.0,
+      "charStart": 340,
+      "charEnd": 367
+    },
+    {
+      "id": "s0012",
+      "text": "It makes things easier in the moment.",
+      "startMs": 27423.0,
+      "endMs": 29745.0,
+      "charStart": 367,
+      "charEnd": 404
+    },
+    {
+      "id": "s0013",
+      "text": "A step is skipped.",
+      "startMs": 29989.0,
+      "endMs": 31243.0,
+      "charStart": 406,
+      "charEnd": 424
+    },
+    {
+      "id": "s0014",
+      "text": "A rule is bent.",
+      "startMs": 31417.0,
+      "endMs": 32799.0,
+      "charStart": 425,
+      "charEnd": 440
+    },
+    {
+      "id": "s0015",
+      "text": "A shortcut is taken to keep things moving.",
+      "startMs": 32799.0,
+      "endMs": 35527.0,
+      "charStart": 440,
+      "charEnd": 482
+    },
+    {
+      "id": "s0016",
+      "text": "It works.",
+      "startMs": 35829.0,
+      "endMs": 36804.0,
+      "charStart": 485,
+      "charEnd": 494
+    },
+    {
+      "id": "s0017",
+      "text": "The problem is resolved quickly.",
+      "startMs": 36932.0,
+      "endMs": 38848.0,
+      "charStart": 496,
+      "charEnd": 528
+    },
+    {
+      "id": "s0018",
+      "text": "The pressure is reduced.",
+      "startMs": 38964.0,
+      "endMs": 40508.0,
+      "charStart": 529,
+      "charEnd": 553
+    },
+    {
+      "id": "s0019",
+      "text": "Progress continues.",
+      "startMs": 40508.0,
+      "endMs": 42087.0,
+      "charStart": 553,
+      "charEnd": 572
+    },
+    {
+      "id": "s0020",
+      "text": "Nothing breaks.",
+      "startMs": 42377.0,
+      "endMs": 43399.0,
+      "charStart": 575,
+      "charEnd": 590
+    },
+    {
+      "id": "s0021",
+      "text": "So it happens again.",
+      "startMs": 43573.0,
+      "endMs": 44862.0,
+      "charStart": 591,
+      "charEnd": 611
+    },
+    {
+      "id": "s0022",
+      "text": "The same situation comes up.",
+      "startMs": 45036.0,
+      "endMs": 47091.0,
+      "charStart": 612,
+      "charEnd": 640
+    },
+    {
+      "id": "s0023",
+      "text": "The same shortcut is used.",
+      "startMs": 47091.0,
+      "endMs": 48995.0,
+      "charStart": 640,
+      "charEnd": 666
+    },
+    {
+      "id": "s0024",
+      "text": "No one questions it.",
+      "startMs": 49239.0,
+      "endMs": 50574.0,
+      "charStart": 668,
+      "charEnd": 688
+    },
+    {
+      "id": "s0025",
+      "text": "It worked before.",
+      "startMs": 50957.0,
+      "endMs": 52083.0,
+      "charStart": 689,
+      "charEnd": 706
+    },
+    {
+      "id": "s0026",
+      "text": "Over time, something changes.",
+      "startMs": 52083.0,
+      "endMs": 53952.0,
+      "charStart": 706,
+      "charEnd": 735
+    },
+    {
+      "id": "s0027",
+      "text": "What was temporary becomes expected.",
+      "startMs": 54289.0,
+      "endMs": 56657.0,
+      "charStart": 737,
+      "charEnd": 773
+    },
+    {
+      "id": "s0028",
+      "text": "The workaround is no longer seen as an exception.",
+      "startMs": 56657.0,
+      "endMs": 59629.0,
+      "charStart": 773,
+      "charEnd": 822
+    },
+    {
+      "id": "s0029",
+      "text": "It becomes part of how things are done.",
+      "startMs": 59629.0,
+      "endMs": 61754.0,
+      "charStart": 822,
+      "charEnd": 861
+    },
+    {
+      "id": "s0030",
+      "text": "Exceptions are Forever.",
+      "startMs": 62207.0,
+      "endMs": 64459.0,
+      "charStart": 865,
+      "charEnd": 888
+    },
+    {
+      "id": "s0031",
+      "text": "No decision is made to make it permanent.",
+      "startMs": 64900.0,
+      "endMs": 67246.0,
+      "charStart": 890,
+      "charEnd": 931
+    },
+    {
+      "id": "s0032",
+      "text": "It just isn’t removed.",
+      "startMs": 67396.0,
+      "endMs": 68801.0,
+      "charStart": 932,
+      "charEnd": 954
+    },
+    {
+      "id": "s0033",
+      "text": "This is how exceptions persist.",
+      "startMs": 68801.0,
+      "endMs": 70984.0,
+      "charStart": 954,
+      "charEnd": 985
+    },
+    {
+      "id": "s0034",
+      "text": "Not through intention.",
+      "startMs": 71367.0,
+      "endMs": 72702.0,
+      "charStart": 987,
+      "charEnd": 1009
+    },
+    {
+      "id": "s0035",
+      "text": "Through repetition.",
+      "startMs": 72783.0,
+      "endMs": 74072.0,
+      "charStart": 1010,
+      "charEnd": 1029
+    },
+    {
+      "id": "s0036",
+      "text": "And through the absence of correction.",
+      "startMs": 74072.0,
+      "endMs": 76394.0,
+      "charStart": 1029,
+      "charEnd": 1067
+    },
+    {
+      "id": "s0037",
+      "text": "Once established, they are difficult to undo.",
+      "startMs": 77416.0,
+      "endMs": 80249.0,
+      "charStart": 1070,
+      "charEnd": 1115
+    },
+    {
+      "id": "s0038",
+      "text": "Not because they are necessary.",
+      "startMs": 80249.0,
+      "endMs": 82153.0,
+      "charStart": 1115,
+      "charEnd": 1146
+    },
+    {
+      "id": "s0039",
+      "text": "Because they are familiar.",
+      "startMs": 82605.0,
+      "endMs": 84091.0,
+      "charStart": 1148,
+      "charEnd": 1174
+    },
+    {
+      "id": "s0040",
+      "text": "People build around them.",
+      "startMs": 84417.0,
+      "endMs": 85926.0,
+      "charStart": 1175,
+      "charEnd": 1200
+    },
+    {
+      "id": "s0041",
+      "text": "Processes adjust.",
+      "startMs": 86170.0,
+      "endMs": 87865.0,
+      "charStart": 1201,
+      "charEnd": 1218
+    },
+    {
+      "id": "s0042",
+      "text": "Expectations shift.",
+      "startMs": 88108.0,
+      "endMs": 89711.0,
+      "charStart": 1219,
+      "charEnd": 1238
+    },
+    {
+      "id": "s0043",
+      "text": "New work assumes their existence.",
+      "startMs": 90036.0,
+      "endMs": 92323.0,
+      "charStart": 1239,
+      "charEnd": 1272
+    },
+    {
+      "id": "s0044",
+      "text": "Removing them now creates friction.",
+      "startMs": 92648.0,
+      "endMs": 95005.0,
+      "charStart": 1274,
+      "charEnd": 1309
+    },
+    {
+      "id": "s0045",
+      "text": "It slows things down.",
+      "startMs": 95214.0,
+      "endMs": 96816.0,
+      "charStart": 1310,
+      "charEnd": 1331
+    },
+    {
+      "id": "s0046",
+      "text": "It disrupts what has formed around them.",
+      "startMs": 96816.0,
+      "endMs": 98999.0,
+      "charStart": 1331,
+      "charEnd": 1371
+    },
+    {
+      "id": "s0047",
+      "text": "It requires coordination that no longer feels urgent.",
+      "startMs": 98999.0,
+      "endMs": 102482.0,
+      "charStart": 1371,
+      "charEnd": 1424
+    },
+    {
+      "id": "s0048",
+      "text": "So they remain.",
+      "startMs": 102981.0,
+      "endMs": 104037.0,
+      "charStart": 1427,
+      "charEnd": 1442
+    },
+    {
+      "id": "s0049",
+      "text": "Like a crack that has been painted over, the structure adapts.",
+      "startMs": 104037.0,
+      "endMs": 108205.0,
+      "charStart": 1442,
+      "charEnd": 1504
+    },
+    {
+      "id": "s0050",
+      "text": "What began as a break becomes something the group quietly reorganizes around.",
+      "startMs": 108763.0,
+      "endMs": 113674.0,
+      "charStart": 1507,
+      "charEnd": 1584
+    },
+    {
+      "id": "s0051",
+      "text": "Nothing collapses.",
+      "startMs": 114057.0,
+      "endMs": 115403.0,
+      "charStart": 1585,
+      "charEnd": 1603
+    },
+    {
+      "id": "s0052",
+      "text": "But something has changed.",
+      "startMs": 115729.0,
+      "endMs": 117424.0,
+      "charStart": 1604,
+      "charEnd": 1630
+    },
+    {
+      "id": "s0053",
+      "text": "The constraints that once held things in place are weaker.",
+      "startMs": 117424.0,
+      "endMs": 120977.0,
+      "charStart": 1630,
+      "charEnd": 1688
+    },
+    {
+      "id": "s0054",
+      "text": "The boundaries are less clear.",
+      "startMs": 121406.0,
+      "endMs": 123299.0,
+      "charStart": 1690,
+      "charEnd": 1720
+    },
+    {
+      "id": "s0055",
+      "text": "The structure is more difficult to reason about.",
+      "startMs": 123299.0,
+      "endMs": 126317.0,
+      "charStart": 1720,
+      "charEnd": 1768
+    },
+    {
+      "id": "s0056",
+      "text": "And this change accumulates.",
+      "startMs": 126677.0,
+      "endMs": 128755.0,
+      "charStart": 1771,
+      "charEnd": 1799
+    },
+    {
+      "id": "s0057",
+      "text": "One exception becomes many.",
+      "startMs": 129196.0,
+      "endMs": 131170.0,
+      "charStart": 1800,
+      "charEnd": 1827
+    },
+    {
+      "id": "s0058",
+      "text": "Each one small.",
+      "startMs": 131495.0,
+      "endMs": 132668.0,
+      "charStart": 1828,
+      "charEnd": 1843
+    },
+    {
+      "id": "s0059",
+      "text": "Each one justified.",
+      "startMs": 132842.0,
+      "endMs": 134258.0,
+      "charStart": 1844,
+      "charEnd": 1863
+    },
+    {
+      "id": "s0060",
+      "text": "Together, they reshape how things operate.",
+      "startMs": 134584.0,
+      "endMs": 137637.0,
+      "charStart": 1864,
+      "charEnd": 1906
+    },
+    {
+      "id": "s0061",
+      "text": "> What was meant to be temporary outlasts its emergency when nothing removes it.",
+      "startMs": 138334.0,
+      "endMs": 145694.0,
+      "charStart": 1908,
+      "charEnd": 1988
+    },
+    {
+      "id": "s0062",
+      "text": "This is the final stage of erosion.",
+      "startMs": 146298.0,
+      "endMs": 148539.0,
+      "charStart": 1990,
+      "charEnd": 2025
+    },
+    {
+      "id": "s0063",
+      "text": "Not failure.",
+      "startMs": 148783.0,
+      "endMs": 149770.0,
+      "charStart": 2026,
+      "charEnd": 2038
+    },
+    {
+      "id": "s0064",
+      "text": "Not collapse.",
+      "startMs": 149920.0,
+      "endMs": 150989.0,
+      "charStart": 2039,
+      "charEnd": 2052
+    },
+    {
+      "id": "s0065",
+      "text": "Normalization.",
+      "startMs": 151198.0,
+      "endMs": 152451.0,
+      "charStart": 2053,
+      "charEnd": 2067
+    },
+    {
+      "id": "s0066",
+      "text": "The group continues to function.",
+      "startMs": 152893.0,
+      "endMs": 154901.0,
+      "charStart": 2068,
+      "charEnd": 2100
+    },
+    {
+      "id": "s0067",
+      "text": "But it is no longer operating within the same boundaries.",
+      "startMs": 154901.0,
+      "endMs": 158709.0,
+      "charStart": 2100,
+      "charEnd": 2157
+    },
+    {
+      "id": "s0068",
+      "text": "What happens next will build on this.",
+      "startMs": 158709.0,
+      "endMs": 161264.0,
+      "charStart": 2157,
+      "charEnd": 2194
+    },
+    {
+      "id": "s0069",
+      "text": "People are watching.",
+      "startMs": 162227.0,
+      "endMs": 163365.0,
+      "charStart": 2197,
+      "charEnd": 2217
+    },
+    {
+      "id": "s0070",
+      "text": "What they see will be repeated.",
+      "startMs": 163690.0,
+      "endMs": 166128.0,
+      "charStart": 2218,
+      "charEnd": 2249
+    },
+    {
+      "id": "s0071",
+      "text": "trans.",
+      "startMs": 166732.0,
+      "endMs": 167394.0,
+      "charStart": 2251,
+      "charEnd": 2257
+    },
+    {
+      "id": "s0072",
+      "text": "Kevin Attell (Chicago: University of Chicago Press, 2005), on how emergency and exception logic can normalize into standing practice.",
+      "startMs": 167394.0,
+      "endMs": 178388.0,
+      "charStart": 2257,
+      "charEnd": 2390
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-1-forming-bridge",
+  "generationHash": "sha256:ab30d7a7fa87046ca544576a0c277c9dd2d8605de096ae4f1f497dd8ee6d5adc",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Bridge — From the Introduction to Forming",
+      "startMs": 0.0,
+      "endMs": 2822.0,
+      "charStart": 0,
+      "charEnd": 41
+    },
+    {
+      "id": "s0002",
+      "text": "The introduction already walked the full arc—from Attention Finds a Focus through Leadership Reproduces Itself and back.",
+      "startMs": 3774.0,
+      "endMs": 11726.0,
+      "charStart": 43,
+      "charEnd": 163
+    },
+    {
+      "id": "s0003",
+      "text": "Part I stays with the first movement only—Forming.",
+      "startMs": 11726.0,
+      "endMs": 16278.0,
+      "charStart": 163,
+      "charEnd": 213
+    },
+    {
+      "id": "s0004",
+      "text": "These three chapters follow what happens when others begin to look to you.",
+      "startMs": 17055.0,
+      "endMs": 21026.0,
+      "charStart": 216,
+      "charEnd": 290
+    },
+    {
+      "id": "s0005",
+      "text": "They move through Attention Finds a Focus, then Examples Accumulate, then Leadership Coalesces.",
+      "startMs": 21026.0,
+      "endMs": 27133.0,
+      "charStart": 290,
+      "charEnd": 385
+    },
+    {
+      "id": "s0006",
+      "text": "Each chapter builds on the last.",
+      "startMs": 27528.0,
+      "endMs": 29536.0,
+      "charStart": 388,
+      "charEnd": 420
+    }
+  ]
+}

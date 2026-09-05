@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-3-eroding-chapter-8-learning-collapses",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-3-eroding-chapter-8-learning-collapses",
+  "sourcePath": "parts/part-3-eroding/chapter-8-learning-collapses.md",
+  "sourceHash": "sha256:4e5a5d591a3d56ee39e594dd627806e921f46976a80f33e3900a73030ef6151a",
+  "spokenTextHash": "sha256:88ea988163ba68330968082935dfdbda016c89d746d5276656df59fc2fe7cc77",
+  "generationHash": "sha256:72e7614008130e9ce992e4e2a37efd9608281bfa31c4ddcc1b26d199b59b7da2",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2996,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 749.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 749.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-3-eroding-chapter-8-learning-collapses.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-3-eroding-chapter-8-learning-collapses.mp3",
+  "audioSha256": "sha256:7a0b013ce0e06a34f235cbde844fe1748b991e298d3e283996bddfdba2c5a2fd",
+  "generatedAt": "2026-09-05T15:14:33Z"
+}

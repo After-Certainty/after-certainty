@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-2-renewing-chapter-4-dissent-is-welcomed",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-2-renewing-chapter-4-dissent-is-welcomed",
+  "sourcePath": "parts/part-2-renewing/chapter-4-dissent-is-welcomed.md",
+  "sourceHash": "sha256:2b87a46ee3bbf2a2de968680ccb86d65db17b4e1d16ee52d41fa5ea5f148c918",
+  "spokenTextHash": "sha256:26b13f7e51962c06183be2f82618909b3a282bab94cc468d68c817bc1989387a",
+  "generationHash": "sha256:631aa1f173625b829947c0301e55aaf42bd0e9ff107a6e086b3373d7c338bb8a",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2775,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 693.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 693.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-2-renewing-chapter-4-dissent-is-welcomed.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-2-renewing-chapter-4-dissent-is-welcomed.mp3",
+  "audioSha256": "sha256:19b84e96f4264980876a85f4c852afed59894da8d4cd38c04eb3337e884d6f9a",
+  "generatedAt": "2026-09-05T15:13:49Z"
+}

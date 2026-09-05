@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-1-forming-chapter-1-attention-finds-a-focus",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-1-forming-chapter-1-attention-finds-a-focus",
+  "sourcePath": "parts/part-1-forming/chapter-1-attention-finds-a-focus.md",
+  "sourceHash": "sha256:f46bb3f01b24d7397b871c99a4238a0f0b6b571de3887b0723f2c0a1fca550a5",
+  "spokenTextHash": "sha256:1be0258758278244aad1f2f44e4f9902feeb504f5ef00caa610a8850cbacd9f2",
+  "generationHash": "sha256:47329fef0f07de82481258fc5adedef7ce69bf49d582a1f64a31ca8a3146d32d",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3494,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 873.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 873.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-1-forming-chapter-1-attention-finds-a-focus.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-1-forming-chapter-1-attention-finds-a-focus.mp3",
+  "audioSha256": "sha256:44e3dd6b4ec39447fc98c85b66a5321a67ea8069906c6822914b36229668c085",
+  "generatedAt": "2026-09-05T15:13:12Z"
+}

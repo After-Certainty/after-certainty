@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-2-what-scale-changes-chapter-4-distance",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-2-what-scale-changes-chapter-4-distance",
+  "sourcePath": "parts/part-2-what-scale-changes/chapter-4-distance.md",
+  "sourceHash": "sha256:328745a470dc8243bc1c4ec1b7005d96fccc334349fd7f2a182c2d1710f44265",
+  "spokenTextHash": "sha256:a950d162e3c27027478c09f1e16bf88d0603a554061846fb39123dc62e8a051d",
+  "generationHash": "sha256:2f3348bfe532472f5f1351cdd0ec46a1536a2bc719baabfb1dd7a66dabda136b",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3417,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 854.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 854.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-2-what-scale-changes-chapter-4-distance.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-2-what-scale-changes-chapter-4-distance.mp3",
+  "audioSha256": "sha256:8a5aa330f42bc00507d31fa50525baf4a3450cf01510562652c98a179d542548",
+  "generatedAt": "2026-09-05T15:11:16Z"
+}

@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-1-the-human-scale-model-chapter-1-moral-density",
+  "generationHash": "sha256:47ffc8c370c0093c23865f614aa019dccf93f56dda69b4e62dba2e2e1642e6e3",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 1: Moral Density",
+      "startMs": 0.0,
+      "endMs": 2322.0,
+      "charStart": 0,
+      "charEnd": 24
+    },
+    {
+      "id": "s0002",
+      "text": "Moral Density",
+      "startMs": 2764.0,
+      "endMs": 3855.0,
+      "charStart": 25,
+      "charEnd": 38
+    },
+    {
+      "id": "s0003",
+      "text": "At human scale, harm lands somewhere specific.",
+      "startMs": 4459.0,
+      "endMs": 8058.0,
+      "charStart": 40,
+      "charEnd": 86
+    },
+    {
+      "id": "s0004",
+      "text": "A decision disappoints someone you will see tomorrow.",
+      "startMs": 8662.0,
+      "endMs": 11611.0,
+      "charStart": 88,
+      "charEnd": 141
+    },
+    {
+      "id": "s0005",
+      "text": "A policy strains a team whose faces you know.",
+      "startMs": 11611.0,
+      "endMs": 15070.0,
+      "charStart": 141,
+      "charEnd": 186
+    },
+    {
+      "id": "s0006",
+      "text": "A failure of judgment produces tension within a relationship that must continue.",
+      "startMs": 15070.0,
+      "endMs": 19981.0,
+      "charStart": 186,
+      "charEnd": 266
+    },
+    {
+      "id": "s0007",
+      "text": "Authority operates in proximity.",
+      "startMs": 20550.0,
+      "endMs": 22791.0,
+      "charStart": 269,
+      "charEnd": 301
+    },
+    {
+      "id": "s0008",
+      "text": "Because consequence remains close, it cannot easily be abstracted or deferred.",
+      "startMs": 22791.0,
+      "endMs": 27505.0,
+      "charStart": 301,
+      "charEnd": 379
+    },
+    {
+      "id": "s0009",
+      "text": "This concentration of proximity, visible consequence, and reciprocal",
+      "startMs": 28016.0,
+      "endMs": 32950.0,
+      "charStart": 382,
+      "charEnd": 450
+    },
+    {
+      "id": "s0010",
+      "text": "constraint creates what I will call moral density.",
+      "startMs": 33031.0,
+      "endMs": 36468.0,
+      "charStart": 451,
+      "charEnd": 501
+    },
+    {
+      "id": "s0011",
+      "text": "Moral density is not virtue or sincerity.",
+      "startMs": 36909.0,
+      "endMs": 39730.0,
+      "charStart": 503,
+      "charEnd": 544
+    },
+    {
+      "id": "s0012",
+      "text": "It is structural.",
+      "startMs": 40009.0,
+      "endMs": 41112.0,
+      "charStart": 545,
+      "charEnd": 562
+    },
+    {
+      "id": "s0013",
+      "text": "It describes the environment in which authority remains close enough to consequence that displacement becomes difficult.",
+      "startMs": 41112.0,
+      "endMs": 47648.0,
+      "charStart": 562,
+      "charEnd": 682
+    },
+    {
+      "id": "s0014",
+      "text": "In dense environments, harm cannot be processed purely as data; it must be encountered.",
+      "startMs": 47648.0,
+      "endMs": 54359.0,
+      "charStart": 682,
+      "charEnd": 769
+    },
+    {
+      "id": "s0015",
+      "text": "Proximity",
+      "startMs": 55044.0,
+      "endMs": 55857.0,
+      "charStart": 773,
+      "charEnd": 782
+    },
+    {
+      "id": "s0016",
+      "text": "Proximity keeps decision and consequence within relational range.",
+      "startMs": 56298.0,
+      "endMs": 60501.0,
+      "charStart": 784,
+      "charEnd": 849
+    },
+    {
+      "id": "s0017",
+      "text": "When leaders remain near those affected by their choices, feedback loops tighten.",
+      "startMs": 60501.0,
+      "endMs": 65551.0,
+      "charStart": 849,
+      "charEnd": 930
+    },
+    {
+      "id": "s0018",
+      "text": "They encounter the human effects of decisions directly rather than through summaries or filtered reports.",
+      "startMs": 65551.0,
+      "endMs": 72076.0,
+      "charStart": 930,
+      "charEnd": 1035
+    },
+    {
+      "id": "s0019",
+      "text": "Proximity does not guarantee moral action.",
+      "startMs": 73039.0,
+      "endMs": 75733.0,
+      "charStart": 1039,
+      "charEnd": 1081
+    },
+    {
+      "id": "s0020",
+      "text": "Leaders can still justify harm.",
+      "startMs": 75733.0,
+      "endMs": 78148.0,
+      "charStart": 1081,
+      "charEnd": 1112
+    },
+    {
+      "id": "s0021",
+      "text": "But it narrows the space in which harm can be disguised as necessity or efficiency.",
+      "startMs": 78148.0,
+      "endMs": 83384.0,
+      "charStart": 1112,
+      "charEnd": 1195
+    },
+    {
+      "id": "s0022",
+      "text": "Presence exposes the cost of action before it calcifies into routine.",
+      "startMs": 83384.0,
+      "endMs": 88133.0,
+      "charStart": 1195,
+      "charEnd": 1264
+    },
+    {
+      "id": "s0023",
+      "text": "Visible Consequence",
+      "startMs": 89642.0,
+      "endMs": 91035.0,
+      "charStart": 1269,
+      "charEnd": 1288
+    },
+    {
+      "id": "s0024",
+      "text": "Moral density depends on consequence that is visible enough to matter.",
+      "startMs": 91987.0,
+      "endMs": 95934.0,
+      "charStart": 1290,
+      "charEnd": 1360
+    },
+    {
+      "id": "s0025",
+      "text": "In small systems, effects are often immediate and legible.",
+      "startMs": 96318.0,
+      "endMs": 99661.0,
+      "charStart": 1361,
+      "charEnd": 1419
+    },
+    {
+      "id": "s0026",
+      "text": "If a decision erodes trust, that erosion appears quickly.",
+      "startMs": 99661.0,
+      "endMs": 103435.0,
+      "charStart": 1419,
+      "charEnd": 1476
+    },
+    {
+      "id": "s0027",
+      "text": "If authority overreaches, resistance surfaces in ways that cannot be ignored.",
+      "startMs": 103435.0,
+      "endMs": 108543.0,
+      "charStart": 1476,
+      "charEnd": 1553
+    },
+    {
+      "id": "s0028",
+      "text": "Visibility does not eliminate harm.",
+      "startMs": 108915.0,
+      "endMs": 111063.0,
+      "charStart": 1557,
+      "charEnd": 1592
+    },
+    {
+      "id": "s0029",
+      "text": "It constrains denial.",
+      "startMs": 111190.0,
+      "endMs": 112595.0,
+      "charStart": 1593,
+      "charEnd": 1614
+    },
+    {
+      "id": "s0030",
+      "text": "Where consequence remains visible, moral language retains its testability.",
+      "startMs": 112711.0,
+      "endMs": 117042.0,
+      "charStart": 1616,
+      "charEnd": 1690
+    },
+    {
+      "id": "s0031",
+      "text": "Claims of fairness, care, or responsibility can be evaluated against lived experience rather than deferred to procedure.",
+      "startMs": 117042.0,
+      "endMs": 124878.0,
+      "charStart": 1690,
+      "charEnd": 1810
+    },
+    {
+      "id": "s0032",
+      "text": "Immediate Correction",
+      "startMs": 125436.0,
+      "endMs": 126573.0,
+      "charStart": 1813,
+      "charEnd": 1833
+    },
+    {
+      "id": "s0033",
+      "text": "Dense systems tend to have shorter feedback loops.",
+      "startMs": 127084.0,
+      "endMs": 129847.0,
+      "charStart": 1835,
+      "charEnd": 1885
+    },
+    {
+      "id": "s0034",
+      "text": "Excess can be challenged before it embeds itself in structure.",
+      "startMs": 129847.0,
+      "endMs": 133319.0,
+      "charStart": 1885,
+      "charEnd": 1947
+    },
+    {
+      "id": "s0035",
+      "text": "Repair, when it occurs, can be direct.",
+      "startMs": 133319.0,
+      "endMs": 136221.0,
+      "charStart": 1947,
+      "charEnd": 1985
+    },
+    {
+      "id": "s0036",
+      "text": "Authority can retract, revise, or apologize without threatening systemic collapse.",
+      "startMs": 136221.0,
+      "endMs": 142154.0,
+      "charStart": 1985,
+      "charEnd": 2067
+    },
+    {
+      "id": "s0037",
+      "text": "Corrigibility is not weakness.",
+      "startMs": 142839.0,
+      "endMs": 144882.0,
+      "charStart": 2072,
+      "charEnd": 2102
+    },
+    {
+      "id": "s0038",
+      "text": "It is the structural condition that allows moral seriousness to operate without requiring infallibility.",
+      "startMs": 144882.0,
+      "endMs": 150420.0,
+      "charStart": 2102,
+      "charEnd": 2206
+    },
+    {
+      "id": "s0039",
+      "text": "In such environments, judgment is exercised repeatedly and adjusted quickly.",
+      "startMs": 150943.0,
+      "endMs": 155947.0,
+      "charStart": 2209,
+      "charEnd": 2285
+    },
+    {
+      "id": "s0040",
+      "text": "Mistakes are contained before they scale.",
+      "startMs": 156190.0,
+      "endMs": 158617.0,
+      "charStart": 2286,
+      "charEnd": 2327
+    },
+    {
+      "id": "s0041",
+      "text": "Relational Legitimacy",
+      "startMs": 159128.0,
+      "endMs": 160463.0,
+      "charStart": 2329,
+      "charEnd": 2350
+    },
+    {
+      "id": "s0042",
+      "text": "At human scale, legitimacy is relational rather than positional.",
+      "startMs": 160846.0,
+      "endMs": 165002.0,
+      "charStart": 2352,
+      "charEnd": 2416
+    },
+    {
+      "id": "s0043",
+      "text": "Authority rests not only on role, but on trust built through repeated interaction.",
+      "startMs": 165002.0,
+      "endMs": 170447.0,
+      "charStart": 2416,
+      "charEnd": 2498
+    },
+    {
+      "id": "s0044",
+      "text": "That trust can erode quickly when harm is displaced or justification rings hollow.",
+      "startMs": 170447.0,
+      "endMs": 176055.0,
+      "charStart": 2498,
+      "charEnd": 2580
+    },
+    {
+      "id": "s0045",
+      "text": "Because legitimacy is relational, it must be renewed.",
+      "startMs": 176647.0,
+      "endMs": 179944.0,
+      "charStart": 2584,
+      "charEnd": 2637
+    },
+    {
+      "id": "s0046",
+      "text": "It cannot rely indefinitely on title or precedent.",
+      "startMs": 179944.0,
+      "endMs": 183264.0,
+      "charStart": 2637,
+      "charEnd": 2687
+    },
+    {
+      "id": "s0047",
+      "text": "When authority oversteps, it risks immediate loss of standing.",
+      "startMs": 183264.0,
+      "endMs": 187247.0,
+      "charStart": 2687,
+      "charEnd": 2749
+    },
+    {
+      "id": "s0048",
+      "text": "This vulnerability acts as a stabilizer.",
+      "startMs": 187641.0,
+      "endMs": 190277.0,
+      "charStart": 2752,
+      "charEnd": 2792
+    },
+    {
+      "id": "s0049",
+      "text": "Leaders are constrained not only by rules, but by the possibility of relational rupture.",
+      "startMs": 190277.0,
+      "endMs": 195269.0,
+      "charStart": 2792,
+      "charEnd": 2880
+    },
+    {
+      "id": "s0050",
+      "text": "Why Restraint Stabilizes",
+      "startMs": 195710.0,
+      "endMs": 197475.0,
+      "charStart": 2883,
+      "charEnd": 2907
+    },
+    {
+      "id": "s0051",
+      "text": "Within dense systems, restraint often stabilizes because it is reciprocated.",
+      "startMs": 198427.0,
+      "endMs": 203036.0,
+      "charStart": 2909,
+      "charEnd": 2985
+    },
+    {
+      "id": "s0052",
+      "text": "When leaders absorb harm rather than displace it, the choice is visible.",
+      "startMs": 203036.0,
+      "endMs": 207785.0,
+      "charStart": 2985,
+      "charEnd": 3057
+    },
+    {
+      "id": "s0053",
+      "text": "When authority limits itself, fear decreases and trust consolidates.",
+      "startMs": 207785.0,
+      "endMs": 212301.0,
+      "charStart": 3057,
+      "charEnd": 3125
+    },
+    {
+      "id": "s0054",
+      "text": "Restraint in dense systems is not merely moral aspiration.",
+      "startMs": 212870.0,
+      "endMs": 216713.0,
+      "charStart": 3129,
+      "charEnd": 3187
+    },
+    {
+      "id": "s0055",
+      "text": "It is structurally reinforced.",
+      "startMs": 216713.0,
+      "endMs": 218768.0,
+      "charStart": 3187,
+      "charEnd": 3217
+    },
+    {
+      "id": "s0056",
+      "text": "The costs of overreach are immediate.",
+      "startMs": 219093.0,
+      "endMs": 221299.0,
+      "charStart": 3219,
+      "charEnd": 3256
+    },
+    {
+      "id": "s0057",
+      "text": "The benefits of fairness are tangible.",
+      "startMs": 221299.0,
+      "endMs": 223737.0,
+      "charStart": 3256,
+      "charEnd": 3294
+    },
+    {
+      "id": "s0058",
+      "text": "Reciprocity sustains discipline.",
+      "startMs": 224086.0,
+      "endMs": 226152.0,
+      "charStart": 3296,
+      "charEnd": 3328
+    },
+    {
+      "id": "s0059",
+      "text": "Human-scale systems are not inherently just.",
+      "startMs": 226326.0,
+      "endMs": 229066.0,
+      "charStart": 3330,
+      "charEnd": 3374
+    },
+    {
+      "id": "s0060",
+      "text": "They can be biased, insular, or exclusionary.",
+      "startMs": 229066.0,
+      "endMs": 232108.0,
+      "charStart": 3374,
+      "charEnd": 3419
+    },
+    {
+      "id": "s0061",
+      "text": "But their density makes authority harder to detach from consequence.",
+      "startMs": 232108.0,
+      "endMs": 236694.0,
+      "charStart": 3419,
+      "charEnd": 3487
+    },
+    {
+      "id": "s0062",
+      "text": "Leadership remains exposed.",
+      "startMs": 237367.0,
+      "endMs": 239074.0,
+      "charStart": 3490,
+      "charEnd": 3517
+    },
+    {
+      "id": "s0063",
+      "text": "Moral density describes the conditions under which moral seriousness is most likely to stabilize rather than erode.",
+      "startMs": 239318.0,
+      "endMs": 246446.0,
+      "charStart": 3519,
+      "charEnd": 3634
+    },
+    {
+      "id": "s0064",
+      "text": "It is the concentration of proximity, visible consequence, reciprocal constraint, and relational legitimacy within a bounded system.",
+      "startMs": 246446.0,
+      "endMs": 256465.0,
+      "charStart": 3634,
+      "charEnd": 3766
+    },
+    {
+      "id": "s0065",
+      "text": "The question that follows is what happens to that density as systems",
+      "startMs": 257429.0,
+      "endMs": 261307.0,
+      "charStart": 3769,
+      "charEnd": 3837
+    },
+    {
+      "id": "s0066",
+      "text": "expand.",
+      "startMs": 261376.0,
+      "endMs": 262386.0,
+      "charStart": 3838,
+      "charEnd": 3845
+    }
+  ]
+}

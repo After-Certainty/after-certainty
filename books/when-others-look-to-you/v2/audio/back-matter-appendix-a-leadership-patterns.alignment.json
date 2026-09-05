@@ -1,0 +1,1880 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-back-matter-appendix-a-leadership-patterns",
+  "generationHash": "sha256:97f55149ab4c77fb4a292dfa12fc3129ebd0324a49b3f81d97bc6d784c014297",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Appendix A — Leadership Patterns",
+      "startMs": 0.0,
+      "endMs": 3053.0,
+      "charStart": 0,
+      "charEnd": 32
+    },
+    {
+      "id": "s0002",
+      "text": "This appendix summarizes recurring patterns from the book: how leadership forms, renews, erodes, and spreads.",
+      "startMs": 3750.0,
+      "endMs": 11134.0,
+      "charStart": 34,
+      "charEnd": 143
+    },
+    {
+      "id": "s0003",
+      "text": "They fall under four labels—Forming, Renewing, Eroding, and Repeating—the same groupings the chapters use.",
+      "startMs": 11134.0,
+      "endMs": 19609.0,
+      "charStart": 143,
+      "charEnd": 249
+    },
+    {
+      "id": "s0004",
+      "text": "Each entry is a short snapshot: when it appears, what is happening, and what tends to follow.",
+      "startMs": 19609.0,
+      "endMs": 26110.0,
+      "charStart": 249,
+      "charEnd": 342
+    },
+    {
+      "id": "s0005",
+      "text": "These patterns are not prescriptions.",
+      "startMs": 27039.0,
+      "endMs": 29338.0,
+      "charStart": 346,
+      "charEnd": 383
+    },
+    {
+      "id": "s0006",
+      "text": "They are conditions you can observe again and again, from small groups to large institutions.",
+      "startMs": 29338.0,
+      "endMs": 35166.0,
+      "charStart": 383,
+      "charEnd": 476
+    },
+    {
+      "id": "s0007",
+      "text": "Forming",
+      "startMs": 35851.0,
+      "endMs": 36211.0,
+      "charStart": 479,
+      "charEnd": 486
+    },
+    {
+      "id": "s0008",
+      "text": "_Patterns where attention, example, and habit pull leadership into focus",
+      "startMs": 36246.0,
+      "endMs": 41029.0,
+      "charStart": 488,
+      "charEnd": 560
+    },
+    {
+      "id": "s0009",
+      "text": "while direction is still taking shape._",
+      "startMs": 41203.0,
+      "endMs": 45058.0,
+      "charStart": 561,
+      "charEnd": 600
+    },
+    {
+      "id": "s0010",
+      "text": "Attention Finds a Focus",
+      "startMs": 45174.0,
+      "endMs": 46579.0,
+      "charStart": 602,
+      "charEnd": 625
+    },
+    {
+      "id": "s0011",
+      "text": "Context:",
+      "startMs": 46637.0,
+      "endMs": 47472.0,
+      "charStart": 627,
+      "charEnd": 635
+    },
+    {
+      "id": "s0012",
+      "text": "A group hits uncertainty, ambiguity, or a moment that needs direction.",
+      "startMs": 47856.0,
+      "endMs": 53220.0,
+      "charStart": 637,
+      "charEnd": 707
+    },
+    {
+      "id": "s0013",
+      "text": "Problem:",
+      "startMs": 53916.0,
+      "endMs": 54694.0,
+      "charStart": 709,
+      "charEnd": 717
+    },
+    {
+      "id": "s0014",
+      "text": "Coordination is needed, but no clear process has named who will lead.",
+      "startMs": 55298.0,
+      "endMs": 60453.0,
+      "charStart": 719,
+      "charEnd": 788
+    },
+    {
+      "id": "s0015",
+      "text": "Forces:",
+      "startMs": 61753.0,
+      "endMs": 62624.0,
+      "charStart": 790,
+      "charEnd": 797
+    },
+    {
+      "id": "s0016",
+      "text": "- People seek orientation under uncertainty",
+      "startMs": 62694.0,
+      "endMs": 66177.0,
+      "charStart": 799,
+      "charEnd": 842
+    },
+    {
+      "id": "s0017",
+      "text": "- Silence creates pressure for someone to act",
+      "startMs": 66386.0,
+      "endMs": 70101.0,
+      "charStart": 843,
+      "charEnd": 888
+    },
+    {
+      "id": "s0018",
+      "text": "- Early signals carry extra weight",
+      "startMs": 70310.0,
+      "endMs": 73352.0,
+      "charStart": 889,
+      "charEnd": 923
+    },
+    {
+      "id": "s0019",
+      "text": "- Leadership can emerge without intention",
+      "startMs": 73561.0,
+      "endMs": 77067.0,
+      "charStart": 924,
+      "charEnd": 965
+    },
+    {
+      "id": "s0020",
+      "text": "Observation:",
+      "startMs": 78182.0,
+      "endMs": 79238.0,
+      "charStart": 967,
+      "charEnd": 979
+    },
+    {
+      "id": "s0021",
+      "text": "Attention settles on one person.",
+      "startMs": 80051.0,
+      "endMs": 82129.0,
+      "charStart": 981,
+      "charEnd": 1013
+    },
+    {
+      "id": "s0022",
+      "text": "Others start lining up their behavior with that person’s actions, tone, or timing.",
+      "startMs": 82129.0,
+      "endMs": 87713.0,
+      "charStart": 1013,
+      "charEnd": 1095
+    },
+    {
+      "id": "s0023",
+      "text": "> Influence begins as permission others give, not as authority someone posts.",
+      "startMs": 88561.0,
+      "endMs": 94389.0,
+      "charStart": 1098,
+      "charEnd": 1175
+    },
+    {
+      "id": "s0024",
+      "text": "Effect:",
+      "startMs": 95086.0,
+      "endMs": 95852.0,
+      "charStart": 1177,
+      "charEnd": 1184
+    },
+    {
+      "id": "s0025",
+      "text": "Influence multiplies immediately.",
+      "startMs": 96549.0,
+      "endMs": 98801.0,
+      "charStart": 1186,
+      "charEnd": 1219
+    },
+    {
+      "id": "s0026",
+      "text": "The person being looked to becomes hard to ignore in the life of the group, whether or not they claim authority.",
+      "startMs": 98801.0,
+      "endMs": 105082.0,
+      "charStart": 1219,
+      "charEnd": 1331
+    },
+    {
+      "id": "s0027",
+      "text": "Resulting Context:",
+      "startMs": 105674.0,
+      "endMs": 107230.0,
+      "charStart": 1334,
+      "charEnd": 1352
+    },
+    {
+      "id": "s0028",
+      "text": "A loop forms: attention feeds influence, influence feeds attention, and",
+      "startMs": 107404.0,
+      "endMs": 112953.0,
+      "charStart": 1354,
+      "charEnd": 1425
+    },
+    {
+      "id": "s0029",
+      "text": "authority starts to lock in.",
+      "startMs": 113012.0,
+      "endMs": 115032.0,
+      "charStart": 1426,
+      "charEnd": 1454
+    },
+    {
+      "id": "s0030",
+      "text": "Related Patterns:",
+      "startMs": 115728.0,
+      "endMs": 117168.0,
+      "charStart": 1456,
+      "charEnd": 1473
+    },
+    {
+      "id": "s0031",
+      "text": "Examples Accumulate; Leadership Coalesces",
+      "startMs": 117447.0,
+      "endMs": 120860.0,
+      "charStart": 1475,
+      "charEnd": 1516
+    },
+    {
+      "id": "s0032",
+      "text": "Examples Accumulate",
+      "startMs": 121673.0,
+      "endMs": 123310.0,
+      "charStart": 1518,
+      "charEnd": 1537
+    },
+    {
+      "id": "s0033",
+      "text": "Context:",
+      "startMs": 124262.0,
+      "endMs": 125225.0,
+      "charStart": 1539,
+      "charEnd": 1547
+    },
+    {
+      "id": "s0034",
+      "text": "A leader reacts to a mistake, tension, or ambiguity in a shared setting.",
+      "startMs": 125666.0,
+      "endMs": 130508.0,
+      "charStart": 1549,
+      "charEnd": 1621
+    },
+    {
+      "id": "s0035",
+      "text": "Problem:",
+      "startMs": 131204.0,
+      "endMs": 131831.0,
+      "charStart": 1623,
+      "charEnd": 1631
+    },
+    {
+      "id": "s0036",
+      "text": "Group members need to read what is acceptable, but clear rules are",
+      "startMs": 132214.0,
+      "endMs": 136197.0,
+      "charStart": 1633,
+      "charEnd": 1699
+    },
+    {
+      "id": "s0037",
+      "text": "missing or thin.",
+      "startMs": 136244.0,
+      "endMs": 137486.0,
+      "charStart": 1700,
+      "charEnd": 1716
+    },
+    {
+      "id": "s0038",
+      "text": "Forces:",
+      "startMs": 138182.0,
+      "endMs": 139134.0,
+      "charStart": 1718,
+      "charEnd": 1725
+    },
+    {
+      "id": "s0039",
+      "text": "- People look for social cues under uncertainty",
+      "startMs": 139181.0,
+      "endMs": 142420.0,
+      "charStart": 1727,
+      "charEnd": 1774
+    },
+    {
+      "id": "s0040",
+      "text": "- Observable behavior is faster and more influential than formal policy",
+      "startMs": 142699.0,
+      "endMs": 147528.0,
+      "charStart": 1775,
+      "charEnd": 1846
+    },
+    {
+      "id": "s0041",
+      "text": "- Early reactions shape perceived boundaries",
+      "startMs": 147772.0,
+      "endMs": 150965.0,
+      "charStart": 1847,
+      "charEnd": 1891
+    },
+    {
+      "id": "s0042",
+      "text": "- Silence and emphasis both carry meaning",
+      "startMs": 151209.0,
+      "endMs": 154390.0,
+      "charStart": 1892,
+      "charEnd": 1933
+    },
+    {
+      "id": "s0043",
+      "text": "Observation:",
+      "startMs": 155086.0,
+      "endMs": 156085.0,
+      "charStart": 1935,
+      "charEnd": 1947
+    },
+    {
+      "id": "s0044",
+      "text": "What the leader does—especially under pressure—quickly defines what",
+      "startMs": 156596.0,
+      "endMs": 161274.0,
+      "charStart": 1949,
+      "charEnd": 2016
+    },
+    {
+      "id": "s0045",
+      "text": "others believe is acceptable.",
+      "startMs": 161344.0,
+      "endMs": 163236.0,
+      "charStart": 2017,
+      "charEnd": 2046
+    },
+    {
+      "id": "s0046",
+      "text": "> Under pressure, people learn from what they watch—not from what was announced.",
+      "startMs": 163933.0,
+      "endMs": 169018.0,
+      "charStart": 2048,
+      "charEnd": 2128
+    },
+    {
+      "id": "s0047",
+      "text": "Effect:",
+      "startMs": 169622.0,
+      "endMs": 170423.0,
+      "charStart": 2130,
+      "charEnd": 2137
+    },
+    {
+      "id": "s0048",
+      "text": "Norms form fast with no formal vote, shaping how truth, error, and risk",
+      "startMs": 170748.0,
+      "endMs": 176994.0,
+      "charStart": 2139,
+      "charEnd": 2210
+    },
+    {
+      "id": "s0049",
+      "text": "are handled.",
+      "startMs": 177087.0,
+      "endMs": 178062.0,
+      "charStart": 2211,
+      "charEnd": 2223
+    },
+    {
+      "id": "s0050",
+      "text": "Resulting Context:",
+      "startMs": 179177.0,
+      "endMs": 180593.0,
+      "charStart": 2225,
+      "charEnd": 2243
+    },
+    {
+      "id": "s0051",
+      "text": "Behavior settles into habit.",
+      "startMs": 181197.0,
+      "endMs": 183101.0,
+      "charStart": 2245,
+      "charEnd": 2273
+    },
+    {
+      "id": "s0052",
+      "text": "People read the next situation through the example already set.",
+      "startMs": 183101.0,
+      "endMs": 187153.0,
+      "charStart": 2273,
+      "charEnd": 2336
+    },
+    {
+      "id": "s0053",
+      "text": "Related Patterns:",
+      "startMs": 188476.0,
+      "endMs": 189823.0,
+      "charStart": 2339,
+      "charEnd": 2356
+    },
+    {
+      "id": "s0054",
+      "text": "Attention Finds a Focus; Dissent is Welcomed",
+      "startMs": 190334.0,
+      "endMs": 193666.0,
+      "charStart": 2358,
+      "charEnd": 2402
+    },
+    {
+      "id": "s0055",
+      "text": "Leadership Coalesces",
+      "startMs": 194363.0,
+      "endMs": 195698.0,
+      "charStart": 2404,
+      "charEnd": 2424
+    },
+    {
+      "id": "s0056",
+      "text": "Context:",
+      "startMs": 196812.0,
+      "endMs": 197718.0,
+      "charStart": 2426,
+      "charEnd": 2434
+    },
+    {
+      "id": "s0057",
+      "text": "A group repeatedly turns to the same person when decisions are unclear.",
+      "startMs": 198229.0,
+      "endMs": 202559.0,
+      "charStart": 2436,
+      "charEnd": 2507
+    },
+    {
+      "id": "s0058",
+      "text": "Problem:",
+      "startMs": 202884.0,
+      "endMs": 203522.0,
+      "charStart": 2509,
+      "charEnd": 2517
+    },
+    {
+      "id": "s0059",
+      "text": "Decision responsibility is unclear on paper—or it is assigned, but the",
+      "startMs": 203801.0,
+      "endMs": 208584.0,
+      "charStart": 2519,
+      "charEnd": 2589
+    },
+    {
+      "id": "s0060",
+      "text": "work still slides to the same person.",
+      "startMs": 208642.0,
+      "endMs": 211011.0,
+      "charStart": 2590,
+      "charEnd": 2627
+    },
+    {
+      "id": "s0061",
+      "text": "Forces:",
+      "startMs": 211522.0,
+      "endMs": 212427.0,
+      "charStart": 2629,
+      "charEnd": 2636
+    },
+    {
+      "id": "s0062",
+      "text": "- Repetition creates familiarity and trust",
+      "startMs": 212451.0,
+      "endMs": 215945.0,
+      "charStart": 2638,
+      "charEnd": 2680
+    },
+    {
+      "id": "s0063",
+      "text": "- Speed favors known decision paths",
+      "startMs": 216154.0,
+      "endMs": 218848.0,
+      "charStart": 2681,
+      "charEnd": 2716
+    },
+    {
+      "id": "s0064",
+      "text": "- Avoidance of ambiguity reinforces habit",
+      "startMs": 219022.0,
+      "endMs": 222296.0,
+      "charStart": 2717,
+      "charEnd": 2758
+    },
+    {
+      "id": "s0065",
+      "text": "- Unofficial authority can be easier than formal delegation",
+      "startMs": 222447.0,
+      "endMs": 226174.0,
+      "charStart": 2759,
+      "charEnd": 2818
+    },
+    {
+      "id": "s0066",
+      "text": "Observation:",
+      "startMs": 227474.0,
+      "endMs": 228473.0,
+      "charStart": 2820,
+      "charEnd": 2832
+    },
+    {
+      "id": "s0067",
+      "text": "The group defaults to the same person automatically, even in situations",
+      "startMs": 228856.0,
+      "endMs": 233372.0,
+      "charStart": 2834,
+      "charEnd": 2905
+    },
+    {
+      "id": "s0068",
+      "text": "where no formal authority exists.",
+      "startMs": 233407.0,
+      "endMs": 235694.0,
+      "charStart": 2906,
+      "charEnd": 2939
+    },
+    {
+      "id": "s0069",
+      "text": "> Repetition makes one person the default path before the org chart moves.",
+      "startMs": 236391.0,
+      "endMs": 243809.0,
+      "charStart": 2941,
+      "charEnd": 3015
+    },
+    {
+      "id": "s0070",
+      "text": "Effect:",
+      "startMs": 244053.0,
+      "endMs": 244761.0,
+      "charStart": 3017,
+      "charEnd": 3024
+    },
+    {
+      "id": "s0071",
+      "text": "Authority forms through repetition and becomes hard to share or hand off.",
+      "startMs": 245040.0,
+      "endMs": 249510.0,
+      "charStart": 3026,
+      "charEnd": 3099
+    },
+    {
+      "id": "s0072",
+      "text": "Resulting Context:",
+      "startMs": 250021.0,
+      "endMs": 251333.0,
+      "charStart": 3101,
+      "charEnd": 3119
+    },
+    {
+      "id": "s0073",
+      "text": "The person becomes the default decision-maker.",
+      "startMs": 251449.0,
+      "endMs": 254049.0,
+      "charStart": 3121,
+      "charEnd": 3167
+    },
+    {
+      "id": "s0074",
+      "text": "Other paths for leading grow weaker.",
+      "startMs": 254049.0,
+      "endMs": 256232.0,
+      "charStart": 3167,
+      "charEnd": 3203
+    },
+    {
+      "id": "s0075",
+      "text": "Related Patterns:",
+      "startMs": 257137.0,
+      "endMs": 258403.0,
+      "charStart": 3206,
+      "charEnd": 3223
+    },
+    {
+      "id": "s0076",
+      "text": "Attention Finds a Focus; Disagreement is Suppressed",
+      "startMs": 258612.0,
+      "endMs": 262478.0,
+      "charStart": 3225,
+      "charEnd": 3276
+    },
+    {
+      "id": "s0077",
+      "text": "Renewing",
+      "startMs": 262919.0,
+      "endMs": 263476.0,
+      "charStart": 3278,
+      "charEnd": 3286
+    },
+    {
+      "id": "s0078",
+      "text": "_Patterns that keep decisions tied to reality, correction, and",
+      "startMs": 263627.0,
+      "endMs": 269305.0,
+      "charStart": 3288,
+      "charEnd": 3350
+    },
+    {
+      "id": "s0079",
+      "text": "accountability._",
+      "startMs": 269339.0,
+      "endMs": 270489.0,
+      "charStart": 3351,
+      "charEnd": 3367
+    },
+    {
+      "id": "s0080",
+      "text": "Dissent is Welcomed",
+      "startMs": 271301.0,
+      "endMs": 272346.0,
+      "charStart": 3369,
+      "charEnd": 3388
+    },
+    {
+      "id": "s0081",
+      "text": "Context:",
+      "startMs": 272404.0,
+      "endMs": 273264.0,
+      "charStart": 3390,
+      "charEnd": 3398
+    },
+    {
+      "id": "s0082",
+      "text": "Problems, risks, or failures emerge within a group or setting.",
+      "startMs": 273589.0,
+      "endMs": 277640.0,
+      "charStart": 3400,
+      "charEnd": 3462
+    },
+    {
+      "id": "s0083",
+      "text": "Problem:",
+      "startMs": 278082.0,
+      "endMs": 278743.0,
+      "charStart": 3464,
+      "charEnd": 3472
+    },
+    {
+      "id": "s0084",
+      "text": "Correction in time depends on whether bad news can reach decision-makers.",
+      "startMs": 278952.0,
+      "endMs": 283167.0,
+      "charStart": 3474,
+      "charEnd": 3547
+    },
+    {
+      "id": "s0085",
+      "text": "Forces:",
+      "startMs": 283771.0,
+      "endMs": 284653.0,
+      "charStart": 3549,
+      "charEnd": 3556
+    },
+    {
+      "id": "s0086",
+      "text": "- Social and professional risk discourages speaking up",
+      "startMs": 284676.0,
+      "endMs": 288206.0,
+      "charStart": 3558,
+      "charEnd": 3612
+    },
+    {
+      "id": "s0087",
+      "text": "- Hierarchies filter or delay information",
+      "startMs": 288414.0,
+      "endMs": 291143.0,
+      "charStart": 3613,
+      "charEnd": 3654
+    },
+    {
+      "id": "s0088",
+      "text": "- Positive signals are easier to share than negative ones",
+      "startMs": 291387.0,
+      "endMs": 294800.0,
+      "charStart": 3655,
+      "charEnd": 3712
+    },
+    {
+      "id": "s0089",
+      "text": "- People adapt to what is safe to say",
+      "startMs": 295009.0,
+      "endMs": 297796.0,
+      "charStart": 3713,
+      "charEnd": 3750
+    },
+    {
+      "id": "s0090",
+      "text": "Observation:",
+      "startMs": 299096.0,
+      "endMs": 300083.0,
+      "charStart": 3752,
+      "charEnd": 3764
+    },
+    {
+      "id": "s0091",
+      "text": "Problems surface early so reality can reach decision-makers in time.",
+      "startMs": 300292.0,
+      "endMs": 304715.0,
+      "charStart": 3766,
+      "charEnd": 3834
+    },
+    {
+      "id": "s0092",
+      "text": "> Early signals stay cheap; late signals stay expensive.",
+      "startMs": 305156.0,
+      "endMs": 309092.0,
+      "charStart": 3836,
+      "charEnd": 3892
+    },
+    {
+      "id": "s0093",
+      "text": "Effect:",
+      "startMs": 309603.0,
+      "endMs": 310346.0,
+      "charStart": 3894,
+      "charEnd": 3901
+    },
+    {
+      "id": "s0094",
+      "text": "Early correction remains possible.",
+      "startMs": 310671.0,
+      "endMs": 312738.0,
+      "charStart": 3903,
+      "charEnd": 3937
+    },
+    {
+      "id": "s0095",
+      "text": "Failure stays smaller and cheaper.",
+      "startMs": 313016.0,
+      "endMs": 315443.0,
+      "charStart": 3938,
+      "charEnd": 3972
+    },
+    {
+      "id": "s0096",
+      "text": "Resulting Context:",
+      "startMs": 316046.0,
+      "endMs": 317591.0,
+      "charStart": 3974,
+      "charEnd": 3992
+    },
+    {
+      "id": "s0097",
+      "text": "When this pattern weakens, signals are delayed or suppressed, and",
+      "startMs": 317765.0,
+      "endMs": 321666.0,
+      "charStart": 3994,
+      "charEnd": 4059
+    },
+    {
+      "id": "s0098",
+      "text": "problems grow before they are addressed.",
+      "startMs": 321724.0,
+      "endMs": 324069.0,
+      "charStart": 4060,
+      "charEnd": 4100
+    },
+    {
+      "id": "s0099",
+      "text": "Related Patterns:",
+      "startMs": 324766.0,
+      "endMs": 326205.0,
+      "charStart": 4102,
+      "charEnd": 4119
+    },
+    {
+      "id": "s0100",
+      "text": "Examples Accumulate; Learning Collapses",
+      "startMs": 326379.0,
+      "endMs": 329375.0,
+      "charStart": 4121,
+      "charEnd": 4160
+    },
+    {
+      "id": "s0101",
+      "text": "Feedback Drives Change",
+      "startMs": 330071.0,
+      "endMs": 332045.0,
+      "charStart": 4162,
+      "charEnd": 4184
+    },
+    {
+      "id": "s0102",
+      "text": "Context:",
+      "startMs": 332742.0,
+      "endMs": 333705.0,
+      "charStart": 4186,
+      "charEnd": 4194
+    },
+    {
+      "id": "s0103",
+      "text": "New facts, visible risk, or bad assumptions show up after direction is",
+      "startMs": 333949.0,
+      "endMs": 339011.0,
+      "charStart": 4196,
+      "charEnd": 4266
+    },
+    {
+      "id": "s0104",
+      "text": "already set.",
+      "startMs": 339069.0,
+      "endMs": 340068.0,
+      "charStart": 4267,
+      "charEnd": 4279
+    },
+    {
+      "id": "s0105",
+      "text": "Problem:",
+      "startMs": 341020.0,
+      "endMs": 341670.0,
+      "charStart": 4281,
+      "charEnd": 4289
+    },
+    {
+      "id": "s0106",
+      "text": "The group must decide whether to adjust or to protect the public story and",
+      "startMs": 341995.0,
+      "endMs": 346511.0,
+      "charStart": 4291,
+      "charEnd": 4365
+    },
+    {
+      "id": "s0107",
+      "text": "ongoing commitment.",
+      "startMs": 346604.0,
+      "endMs": 348009.0,
+      "charStart": 4366,
+      "charEnd": 4385
+    },
+    {
+      "id": "s0108",
+      "text": "Forces:",
+      "startMs": 348961.0,
+      "endMs": 349774.0,
+      "charStart": 4387,
+      "charEnd": 4394
+    },
+    {
+      "id": "s0109",
+      "text": "- Public commitment makes reversal costly",
+      "startMs": 349809.0,
+      "endMs": 353187.0,
+      "charStart": 4396,
+      "charEnd": 4437
+    },
+    {
+      "id": "s0110",
+      "text": "- Momentum favors staying the course",
+      "startMs": 353396.0,
+      "endMs": 355974.0,
+      "charStart": 4438,
+      "charEnd": 4474
+    },
+    {
+      "id": "s0111",
+      "text": "- Admitting error threatens legitimacy",
+      "startMs": 356090.0,
+      "endMs": 358702.0,
+      "charStart": 4475,
+      "charEnd": 4513
+    },
+    {
+      "id": "s0112",
+      "text": "- Small updates are easier than full reversals",
+      "startMs": 358911.0,
+      "endMs": 362022.0,
+      "charStart": 4514,
+      "charEnd": 4560
+    },
+    {
+      "id": "s0113",
+      "text": "Observation:",
+      "startMs": 362626.0,
+      "endMs": 363659.0,
+      "charStart": 4562,
+      "charEnd": 4574
+    },
+    {
+      "id": "s0114",
+      "text": "The group shifts direction based on new facts or new risk.",
+      "startMs": 363984.0,
+      "endMs": 368048.0,
+      "charStart": 4576,
+      "charEnd": 4634
+    },
+    {
+      "id": "s0115",
+      "text": "> A plan holds only while it still fits what is happening now.",
+      "startMs": 368327.0,
+      "endMs": 372228.0,
+      "charStart": 4636,
+      "charEnd": 4698
+    },
+    {
+      "id": "s0116",
+      "text": "Effect:",
+      "startMs": 372553.0,
+      "endMs": 373284.0,
+      "charStart": 4700,
+      "charEnd": 4707
+    },
+    {
+      "id": "s0117",
+      "text": "Plans stay tied to reality instead of to an outdated story.",
+      "startMs": 373563.0,
+      "endMs": 377882.0,
+      "charStart": 4709,
+      "charEnd": 4768
+    },
+    {
+      "id": "s0118",
+      "text": "Resulting Context:",
+      "startMs": 378393.0,
+      "endMs": 379751.0,
+      "charStart": 4770,
+      "charEnd": 4788
+    },
+    {
+      "id": "s0119",
+      "text": "Correction keeps its legitimacy; the group still has room to revise when facts",
+      "startMs": 379995.0,
+      "endMs": 384929.0,
+      "charStart": 4790,
+      "charEnd": 4868
+    },
+    {
+      "id": "s0120",
+      "text": "change.",
+      "startMs": 384999.0,
+      "endMs": 385730.0,
+      "charStart": 4869,
+      "charEnd": 4876
+    },
+    {
+      "id": "s0121",
+      "text": "Related Patterns:",
+      "startMs": 386114.0,
+      "endMs": 387286.0,
+      "charStart": 4878,
+      "charEnd": 4895
+    },
+    {
+      "id": "s0122",
+      "text": "Dissent is Welcomed; Leaders Feel the Consequences",
+      "startMs": 387565.0,
+      "endMs": 391036.0,
+      "charStart": 4897,
+      "charEnd": 4947
+    },
+    {
+      "id": "s0123",
+      "text": "Leaders Feel the Consequences",
+      "startMs": 391547.0,
+      "endMs": 393265.0,
+      "charStart": 4949,
+      "charEnd": 4978
+    },
+    {
+      "id": "s0124",
+      "text": "Context:",
+      "startMs": 393962.0,
+      "endMs": 395007.0,
+      "charStart": 4980,
+      "charEnd": 4988
+    },
+    {
+      "id": "s0125",
+      "text": "A decision creates cost, risk, or benefit for people in a group.",
+      "startMs": 395390.0,
+      "endMs": 399360.0,
+      "charStart": 4990,
+      "charEnd": 5054
+    },
+    {
+      "id": "s0126",
+      "text": "Problem:",
+      "startMs": 400057.0,
+      "endMs": 400684.0,
+      "charStart": 5056,
+      "charEnd": 5064
+    },
+    {
+      "id": "s0127",
+      "text": "Where decisions are made and where costs land can drift apart.",
+      "startMs": 401195.0,
+      "endMs": 404840.0,
+      "charStart": 5066,
+      "charEnd": 5128
+    },
+    {
+      "id": "s0128",
+      "text": "Forces:",
+      "startMs": 405537.0,
+      "endMs": 406350.0,
+      "charStart": 5130,
+      "charEnd": 5137
+    },
+    {
+      "id": "s0129",
+      "text": "- Incentives favor visible success over visible cost",
+      "startMs": 406373.0,
+      "endMs": 410750.0,
+      "charStart": 5139,
+      "charEnd": 5191
+    },
+    {
+      "id": "s0130",
+      "text": "- In large settings, impact lands unevenly",
+      "startMs": 410959.0,
+      "endMs": 414407.0,
+      "charStart": 5192,
+      "charEnd": 5234
+    },
+    {
+      "id": "s0131",
+      "text": "- Distance makes harm easier to overlook",
+      "startMs": 414650.0,
+      "endMs": 417483.0,
+      "charStart": 5235,
+      "charEnd": 5275
+    },
+    {
+      "id": "s0132",
+      "text": "- Pushing responsibility downhill is often easier",
+      "startMs": 417692.0,
+      "endMs": 421117.0,
+      "charStart": 5276,
+      "charEnd": 5325
+    },
+    {
+      "id": "s0133",
+      "text": "Observation:",
+      "startMs": 421930.0,
+      "endMs": 422998.0,
+      "charStart": 5327,
+      "charEnd": 5339
+    },
+    {
+      "id": "s0134",
+      "text": "The people who decide stay tied to what their decisions do to others.",
+      "startMs": 423277.0,
+      "endMs": 427665.0,
+      "charStart": 5341,
+      "charEnd": 5410
+    },
+    {
+      "id": "s0135",
+      "text": "> When decision and consequence stay in the same loop, drift cannot hide for long.",
+      "startMs": 428780.0,
+      "endMs": 437209.0,
+      "charStart": 5412,
+      "charEnd": 5494
+    },
+    {
+      "id": "s0136",
+      "text": "Effect:",
+      "startMs": 437383.0,
+      "endMs": 438195.0,
+      "charStart": 5496,
+      "charEnd": 5503
+    },
+    {
+      "id": "s0137",
+      "text": "Accountability stays in view.",
+      "startMs": 438277.0,
+      "endMs": 440541.0,
+      "charStart": 5505,
+      "charEnd": 5534
+    },
+    {
+      "id": "s0138",
+      "text": "Harm is harder to shrug off or repeat without owning it.",
+      "startMs": 440541.0,
+      "endMs": 444070.0,
+      "charStart": 5534,
+      "charEnd": 5590
+    },
+    {
+      "id": "s0139",
+      "text": "Resulting Context:",
+      "startMs": 445092.0,
+      "endMs": 446578.0,
+      "charStart": 5593,
+      "charEnd": 5611
+    },
+    {
+      "id": "s0140",
+      "text": "Costs do not quietly slide onto someone else.",
+      "startMs": 446787.0,
+      "endMs": 450072.0,
+      "charStart": 5613,
+      "charEnd": 5658
+    },
+    {
+      "id": "s0141",
+      "text": "Trust that correction will work can hold.",
+      "startMs": 450072.0,
+      "endMs": 453056.0,
+      "charStart": 5658,
+      "charEnd": 5699
+    },
+    {
+      "id": "s0142",
+      "text": "Related Patterns:",
+      "startMs": 453625.0,
+      "endMs": 454995.0,
+      "charStart": 5702,
+      "charEnd": 5719
+    },
+    {
+      "id": "s0143",
+      "text": "Dissent is Welcomed; Learning Collapses",
+      "startMs": 455111.0,
+      "endMs": 457921.0,
+      "charStart": 5721,
+      "charEnd": 5760
+    },
+    {
+      "id": "s0144",
+      "text": "Eroding",
+      "startMs": 458164.0,
+      "endMs": 458733.0,
+      "charStart": 5762,
+      "charEnd": 5769
+    },
+    {
+      "id": "s0145",
+      "text": "Patterns where feedback, dissent, and boundaries weaken over time.",
+      "startMs": 458803.0,
+      "endMs": 462924.0,
+      "charStart": 5771,
+      "charEnd": 5837
+    },
+    {
+      "id": "s0146",
+      "text": "Disagreement is Suppressed",
+      "startMs": 463528.0,
+      "endMs": 465142.0,
+      "charStart": 5839,
+      "charEnd": 5865
+    },
+    {
+      "id": "s0147",
+      "text": "Context:",
+      "startMs": 465746.0,
+      "endMs": 466744.0,
+      "charStart": 5867,
+      "charEnd": 5875
+    },
+    {
+      "id": "s0148",
+      "text": "A leader or leadership structure gains stability, success, or repeated",
+      "startMs": 467255.0,
+      "endMs": 471783.0,
+      "charStart": 5877,
+      "charEnd": 5947
+    },
+    {
+      "id": "s0149",
+      "text": "validation.",
+      "startMs": 471829.0,
+      "endMs": 472747.0,
+      "charStart": 5948,
+      "charEnd": 5959
+    },
+    {
+      "id": "s0150",
+      "text": "Problem:",
+      "startMs": 473072.0,
+      "endMs": 473850.0,
+      "charStart": 5961,
+      "charEnd": 5969
+    },
+    {
+      "id": "s0151",
+      "text": "Protecting the leader starts to rival protecting accuracy.",
+      "startMs": 474024.0,
+      "endMs": 477855.0,
+      "charStart": 5971,
+      "charEnd": 6029
+    },
+    {
+      "id": "s0152",
+      "text": "Forces:",
+      "startMs": 478459.0,
+      "endMs": 479295.0,
+      "charStart": 6031,
+      "charEnd": 6038
+    },
+    {
+      "id": "s0153",
+      "text": "- Success builds confidence and lowers the felt need for challenge",
+      "startMs": 479318.0,
+      "endMs": 483567.0,
+      "charStart": 6040,
+      "charEnd": 6106
+    },
+    {
+      "id": "s0154",
+      "text": "- Social cost of dissent rises",
+      "startMs": 483660.0,
+      "endMs": 485994.0,
+      "charStart": 6107,
+      "charEnd": 6137
+    },
+    {
+      "id": "s0155",
+      "text": "- Loyalty signals are rewarded over correction signals",
+      "startMs": 486168.0,
+      "endMs": 489802.0,
+      "charStart": 6138,
+      "charEnd": 6192
+    },
+    {
+      "id": "s0156",
+      "text": "- Stories about who we are harden around the leader",
+      "startMs": 489976.0,
+      "endMs": 493447.0,
+      "charStart": 6193,
+      "charEnd": 6244
+    },
+    {
+      "id": "s0157",
+      "text": "Observation:",
+      "startMs": 494399.0,
+      "endMs": 495270.0,
+      "charStart": 6246,
+      "charEnd": 6258
+    },
+    {
+      "id": "s0158",
+      "text": "Dissent fades or softens until it no longer really challenges decisions.",
+      "startMs": 495595.0,
+      "endMs": 500158.0,
+      "charStart": 6260,
+      "charEnd": 6332
+    },
+    {
+      "id": "s0159",
+      "text": "> The warning is usually silence, not a fight.",
+      "startMs": 500332.0,
+      "endMs": 503838.0,
+      "charStart": 6334,
+      "charEnd": 6380
+    },
+    {
+      "id": "s0160",
+      "text": "Effect:",
+      "startMs": 504349.0,
+      "endMs": 505069.0,
+      "charStart": 6382,
+      "charEnd": 6389
+    },
+    {
+      "id": "s0161",
+      "text": "Paths for correction narrow.",
+      "startMs": 505452.0,
+      "endMs": 507519.0,
+      "charStart": 6391,
+      "charEnd": 6419
+    },
+    {
+      "id": "s0162",
+      "text": "Hidden errors and late failure grow more likely.",
+      "startMs": 507519.0,
+      "endMs": 510932.0,
+      "charStart": 6419,
+      "charEnd": 6467
+    },
+    {
+      "id": "s0163",
+      "text": "Resulting Context:",
+      "startMs": 512291.0,
+      "endMs": 513754.0,
+      "charStart": 6470,
+      "charEnd": 6488
+    },
+    {
+      "id": "s0164",
+      "text": "Authority pulls away from feedback, and drift speeds up.",
+      "startMs": 514079.0,
+      "endMs": 517805.0,
+      "charStart": 6490,
+      "charEnd": 6546
+    },
+    {
+      "id": "s0165",
+      "text": "Related Patterns:",
+      "startMs": 518618.0,
+      "endMs": 519942.0,
+      "charStart": 6548,
+      "charEnd": 6565
+    },
+    {
+      "id": "s0166",
+      "text": "Leadership Coalesces; Learning Collapses",
+      "startMs": 520267.0,
+      "endMs": 523192.0,
+      "charStart": 6567,
+      "charEnd": 6607
+    },
+    {
+      "id": "s0167",
+      "text": "Learning Collapses",
+      "startMs": 524307.0,
+      "endMs": 525387.0,
+      "charStart": 6609,
+      "charEnd": 6627
+    },
+    {
+      "id": "s0168",
+      "text": "Context:",
+      "startMs": 526339.0,
+      "endMs": 527244.0,
+      "charStart": 6629,
+      "charEnd": 6637
+    },
+    {
+      "id": "s0169",
+      "text": "Decision-makers sit far from where effects actually show up.",
+      "startMs": 527453.0,
+      "endMs": 531168.0,
+      "charStart": 6639,
+      "charEnd": 6699
+    },
+    {
+      "id": "s0170",
+      "text": "Problem:",
+      "startMs": 532283.0,
+      "endMs": 532968.0,
+      "charStart": 6701,
+      "charEnd": 6709
+    },
+    {
+      "id": "s0171",
+      "text": "Word from the ground does not reliably reach decision-makers in time.",
+      "startMs": 533781.0,
+      "endMs": 537728.0,
+      "charStart": 6711,
+      "charEnd": 6780
+    },
+    {
+      "id": "s0172",
+      "text": "Forces:",
+      "startMs": 539028.0,
+      "endMs": 539876.0,
+      "charStart": 6782,
+      "charEnd": 6789
+    },
+    {
+      "id": "s0173",
+      "text": "- Size increases distance from impact",
+      "startMs": 540027.0,
+      "endMs": 543626.0,
+      "charStart": 6791,
+      "charEnd": 6828
+    },
+    {
+      "id": "s0174",
+      "text": "- Formal reporting filters or delays signals",
+      "startMs": 543800.0,
+      "endMs": 547771.0,
+      "charStart": 6829,
+      "charEnd": 6873
+    },
+    {
+      "id": "s0175",
+      "text": "- Negative outcomes are costly to surface",
+      "startMs": 547980.0,
+      "endMs": 550708.0,
+      "charStart": 6874,
+      "charEnd": 6915
+    },
+    {
+      "id": "s0176",
+      "text": "- Success signals travel more easily than failure signals",
+      "startMs": 550836.0,
+      "endMs": 555294.0,
+      "charStart": 6916,
+      "charEnd": 6973
+    },
+    {
+      "id": "s0177",
+      "text": "Observation:",
+      "startMs": 556106.0,
+      "endMs": 557209.0,
+      "charStart": 6975,
+      "charEnd": 6987
+    },
+    {
+      "id": "s0178",
+      "text": "Decision-makers do not get a timely, accurate read on what their choices",
+      "startMs": 557488.0,
+      "endMs": 561203.0,
+      "charStart": 6989,
+      "charEnd": 7061
+    },
+    {
+      "id": "s0179",
+      "text": "are doing.",
+      "startMs": 561238.0,
+      "endMs": 561877.0,
+      "charStart": 7062,
+      "charEnd": 7072
+    },
+    {
+      "id": "s0180",
+      "text": "> The story at the center and the story on the ground can diverge while both still sound fine.",
+      "startMs": 562318.0,
+      "endMs": 568181.0,
+      "charStart": 7074,
+      "charEnd": 7168
+    },
+    {
+      "id": "s0181",
+      "text": "Effect:",
+      "startMs": 568564.0,
+      "endMs": 569307.0,
+      "charStart": 7170,
+      "charEnd": 7177
+    },
+    {
+      "id": "s0182",
+      "text": "Feedback loops weaken.",
+      "startMs": 569551.0,
+      "endMs": 571280.0,
+      "charStart": 7179,
+      "charEnd": 7201
+    },
+    {
+      "id": "s0183",
+      "text": "Decisions drift away from what is actually happening while the surface still looks steady.",
+      "startMs": 571280.0,
+      "endMs": 575797.0,
+      "charStart": 7201,
+      "charEnd": 7291
+    },
+    {
+      "id": "s0184",
+      "text": "Resulting Context:",
+      "startMs": 576551.0,
+      "endMs": 577898.0,
+      "charStart": 7294,
+      "charEnd": 7312
+    },
+    {
+      "id": "s0185",
+      "text": "Errors repeat, harm piles up, and correction arrives late and costs more.",
+      "startMs": 578014.0,
+      "endMs": 582832.0,
+      "charStart": 7314,
+      "charEnd": 7387
+    },
+    {
+      "id": "s0186",
+      "text": "Related Patterns:",
+      "startMs": 583529.0,
+      "endMs": 584841.0,
+      "charStart": 7389,
+      "charEnd": 7406
+    },
+    {
+      "id": "s0187",
+      "text": "Leaders Feel the Consequences; Dissent is Welcomed",
+      "startMs": 585166.0,
+      "endMs": 588487.0,
+      "charStart": 7408,
+      "charEnd": 7458
+    },
+    {
+      "id": "s0188",
+      "text": "Exceptions are Forever",
+      "startMs": 588765.0,
+      "endMs": 590240.0,
+      "charStart": 7460,
+      "charEnd": 7482
+    },
+    {
+      "id": "s0189",
+      "text": "Context:",
+      "startMs": 590309.0,
+      "endMs": 591099.0,
+      "charStart": 7484,
+      "charEnd": 7492
+    },
+    {
+      "id": "s0190",
+      "text": "A group adopts emergency measures or exceptions during a crisis or",
+      "startMs": 591702.0,
+      "endMs": 595336.0,
+      "charStart": 7494,
+      "charEnd": 7560
+    },
+    {
+      "id": "s0191",
+      "text": "period of urgency.",
+      "startMs": 595406.0,
+      "endMs": 596625.0,
+      "charStart": 7561,
+      "charEnd": 7579
+    },
+    {
+      "id": "s0192",
+      "text": "Problem:",
+      "startMs": 597438.0,
+      "endMs": 598065.0,
+      "charStart": 7581,
+      "charEnd": 7589
+    },
+    {
+      "id": "s0193",
+      "text": "Actions taken for speed or survival are not automatically reversed when",
+      "startMs": 598576.0,
+      "endMs": 602686.0,
+      "charStart": 7591,
+      "charEnd": 7662
+    },
+    {
+      "id": "s0194",
+      "text": "conditions stabilize.",
+      "startMs": 602744.0,
+      "endMs": 604183.0,
+      "charStart": 7663,
+      "charEnd": 7684
+    },
+    {
+      "id": "s0195",
+      "text": "Forces:",
+      "startMs": 605135.0,
+      "endMs": 605936.0,
+      "charStart": 7686,
+      "charEnd": 7693
+    },
+    {
+      "id": "s0196",
+      "text": "- Urgency justifies bypassing constraints",
+      "startMs": 605959.0,
+      "endMs": 609256.0,
+      "charStart": 7695,
+      "charEnd": 7736
+    },
+    {
+      "id": "s0197",
+      "text": "- Short-term success reinforces the exception",
+      "startMs": 609465.0,
+      "endMs": 612263.0,
+      "charStart": 7737,
+      "charEnd": 7782
+    },
+    {
+      "id": "s0198",
+      "text": "- Reversal requires effort and coordination",
+      "startMs": 612438.0,
+      "endMs": 615108.0,
+      "charStart": 7783,
+      "charEnd": 7826
+    },
+    {
+      "id": "s0199",
+      "text": "- New practices quickly turn into habit",
+      "startMs": 615352.0,
+      "endMs": 617976.0,
+      "charStart": 7827,
+      "charEnd": 7866
+    },
+    {
+      "id": "s0200",
+      "text": "Observation:",
+      "startMs": 618928.0,
+      "endMs": 619833.0,
+      "charStart": 7868,
+      "charEnd": 7880
+    },
+    {
+      "id": "s0201",
+      "text": "Workarounds and shortcuts turn into how the group works day to day.",
+      "startMs": 620077.0,
+      "endMs": 623943.0,
+      "charStart": 7882,
+      "charEnd": 7949
+    },
+    {
+      "id": "s0202",
+      "text": "> What was meant to be temporary outlasts its emergency when nothing removes it.",
+      "startMs": 624117.0,
+      "endMs": 629492.0,
+      "charStart": 7951,
+      "charEnd": 8031
+    },
+    {
+      "id": "s0203",
+      "text": "Effect:",
+      "startMs": 629875.0,
+      "endMs": 630734.0,
+      "charStart": 8033,
+      "charEnd": 8040
+    },
+    {
+      "id": "s0204",
+      "text": "Temporary decisions turn into permanent habit without a deliberate review.",
+      "startMs": 631060.0,
+      "endMs": 635622.0,
+      "charStart": 8042,
+      "charEnd": 8116
+    },
+    {
+      "id": "s0205",
+      "text": "Resulting Context:",
+      "startMs": 636063.0,
+      "endMs": 637491.0,
+      "charStart": 8118,
+      "charEnd": 8136
+    },
+    {
+      "id": "s0206",
+      "text": "Authority expands, constraints weaken, and drift builds over time.",
+      "startMs": 637933.0,
+      "endMs": 643111.0,
+      "charStart": 8138,
+      "charEnd": 8204
+    },
+    {
+      "id": "s0207",
+      "text": "Related Patterns:",
+      "startMs": 643552.0,
+      "endMs": 644876.0,
+      "charStart": 8206,
+      "charEnd": 8223
+    },
+    {
+      "id": "s0208",
+      "text": "Disagreement is Suppressed; Learning Collapses",
+      "startMs": 645688.0,
+      "endMs": 648951.0,
+      "charStart": 8225,
+      "charEnd": 8271
+    },
+    {
+      "id": "s0209",
+      "text": "Repeating",
+      "startMs": 649554.0,
+      "endMs": 650065.0,
+      "charStart": 8273,
+      "charEnd": 8282
+    },
+    {
+      "id": "s0210",
+      "text": "Patterns where leadership norms spread beyond the original setting.",
+      "startMs": 650123.0,
+      "endMs": 653804.0,
+      "charStart": 8284,
+      "charEnd": 8351
+    },
+    {
+      "id": "s0211",
+      "text": "Leadership Reproduces Itself",
+      "startMs": 654616.0,
+      "endMs": 656753.0,
+      "charStart": 8353,
+      "charEnd": 8381
+    },
+    {
+      "id": "s0212",
+      "text": "Context:",
+      "startMs": 657565.0,
+      "endMs": 658424.0,
+      "charStart": 8383,
+      "charEnd": 8391
+    },
+    {
+      "id": "s0213",
+      "text": "A group has stabilized around visible leadership behaviors—what gets",
+      "startMs": 658703.0,
+      "endMs": 662778.0,
+      "charStart": 8393,
+      "charEnd": 8461
+    },
+    {
+      "id": "s0214",
+      "text": "rewarded, what gets punished, what gets ignored.",
+      "startMs": 662836.0,
+      "endMs": 666156.0,
+      "charStart": 8462,
+      "charEnd": 8510
+    },
+    {
+      "id": "s0215",
+      "text": "Problem:",
+      "startMs": 666435.0,
+      "endMs": 667097.0,
+      "charStart": 8512,
+      "charEnd": 8520
+    },
+    {
+      "id": "s0216",
+      "text": "People read those behaviors as personal style and as the local model for",
+      "startMs": 667375.0,
+      "endMs": 671683.0,
+      "charStart": 8522,
+      "charEnd": 8594
+    },
+    {
+      "id": "s0217",
+      "text": "“how things work here”—and the model travels.",
+      "startMs": 671892.0,
+      "endMs": 674968.0,
+      "charStart": 8595,
+      "charEnd": 8640
+    },
+    {
+      "id": "s0218",
+      "text": "Forces:",
+      "startMs": 675479.0,
+      "endMs": 676396.0,
+      "charStart": 8642,
+      "charEnd": 8649
+    },
+    {
+      "id": "s0219",
+      "text": "- Copying is faster than being taught step by step",
+      "startMs": 676431.0,
+      "endMs": 679694.0,
+      "charStart": 8651,
+      "charEnd": 8701
+    },
+    {
+      "id": "s0220",
+      "text": "- People credit what they can see, not hidden setup",
+      "startMs": 679903.0,
+      "endMs": 683223.0,
+      "charStart": 8702,
+      "charEnd": 8753
+    },
+    {
+      "id": "s0221",
+      "text": "- New members learn from example before they learn from rules",
+      "startMs": 683432.0,
+      "endMs": 687078.0,
+      "charStart": 8754,
+      "charEnd": 8815
+    },
+    {
+      "id": "s0222",
+      "text": "- What survives selection is what gets copied",
+      "startMs": 687287.0,
+      "endMs": 690305.0,
+      "charStart": 8816,
+      "charEnd": 8861
+    },
+    {
+      "id": "s0223",
+      "text": "Observation:",
+      "startMs": 691002.0,
+      "endMs": 691919.0,
+      "charStart": 8863,
+      "charEnd": 8875
+    },
+    {
+      "id": "s0224",
+      "text": "People copy leadership habits and norms.",
+      "startMs": 692198.0,
+      "endMs": 694775.0,
+      "charStart": 8877,
+      "charEnd": 8917
+    },
+    {
+      "id": "s0225",
+      "text": "That shapes how the next round of leadership forms.",
+      "startMs": 694775.0,
+      "endMs": 697840.0,
+      "charStart": 8917,
+      "charEnd": 8968
+    },
+    {
+      "id": "s0226",
+      "text": "> People copy what got rewarded, not what got written down.",
+      "startMs": 698966.0,
+      "endMs": 703145.0,
+      "charStart": 8971,
+      "charEnd": 9030
+    },
+    {
+      "id": "s0227",
+      "text": "Effect:",
+      "startMs": 703470.0,
+      "endMs": 704295.0,
+      "charStart": 9032,
+      "charEnd": 9039
+    },
+    {
+      "id": "s0228",
+      "text": "Local habits become templates.",
+      "startMs": 704736.0,
+      "endMs": 706837.0,
+      "charStart": 9041,
+      "charEnd": 9071
+    },
+    {
+      "id": "s0229",
+      "text": "Strengths and pathologies both replicate.",
+      "startMs": 707278.0,
+      "endMs": 710169.0,
+      "charStart": 9072,
+      "charEnd": 9113
+    },
+    {
+      "id": "s0230",
+      "text": "Resulting Context:",
+      "startMs": 710982.0,
+      "endMs": 712340.0,
+      "charStart": 9115,
+      "charEnd": 9133
+    },
+    {
+      "id": "s0231",
+      "text": "Other places start to look like this one.",
+      "startMs": 712944.0,
+      "endMs": 715371.0,
+      "charStart": 9135,
+      "charEnd": 9176
+    },
+    {
+      "id": "s0232",
+      "text": "Forming and Eroding dynamics can spread with no one meaning to write a playbook.",
+      "startMs": 715371.0,
+      "endMs": 720664.0,
+      "charStart": 9176,
+      "charEnd": 9256
+    },
+    {
+      "id": "s0233",
+      "text": "Related Patterns:",
+      "startMs": 721106.0,
+      "endMs": 722313.0,
+      "charStart": 9259,
+      "charEnd": 9276
+    },
+    {
+      "id": "s0234",
+      "text": "Examples Accumulate; Leadership Coalesces",
+      "startMs": 722441.0,
+      "endMs": 725715.0,
+      "charStart": 9278,
+      "charEnd": 9319
+    }
+  ]
+}

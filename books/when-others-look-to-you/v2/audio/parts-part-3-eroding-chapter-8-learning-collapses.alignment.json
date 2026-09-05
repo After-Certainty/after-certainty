@@ -1,0 +1,640 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-3-eroding-chapter-8-learning-collapses",
+  "generationHash": "sha256:72e7614008130e9ce992e4e2a37efd9608281bfa31c4ddcc1b26d199b59b7da2",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 8 — Learning Collapses",
+      "startMs": 0.0,
+      "endMs": 2937.0,
+      "charStart": 0,
+      "charEnd": 30
+    },
+    {
+      "id": "s0002",
+      "text": "A crack that isn’t repaired doesn’t stay the same.",
+      "startMs": 3378.0,
+      "endMs": 6106.0,
+      "charStart": 32,
+      "charEnd": 82
+    },
+    {
+      "id": "s0003",
+      "text": "It spreads.",
+      "startMs": 6432.0,
+      "endMs": 7476.0,
+      "charStart": 83,
+      "charEnd": 94
+    },
+    {
+      "id": "s0004",
+      "text": "Not always in a straight line.",
+      "startMs": 7650.0,
+      "endMs": 9195.0,
+      "charStart": 96,
+      "charEnd": 126
+    },
+    {
+      "id": "s0005",
+      "text": "Not always in a way that’s easy to follow.",
+      "startMs": 9195.0,
+      "endMs": 11563.0,
+      "charStart": 126,
+      "charEnd": 168
+    },
+    {
+      "id": "s0006",
+      "text": "It moves beneath the surface, branching in places that aren’t immediately visible.",
+      "startMs": 11563.0,
+      "endMs": 16056.0,
+      "charStart": 168,
+      "charEnd": 250
+    },
+    {
+      "id": "s0007",
+      "text": "At some point, you can’t tell where it began.",
+      "startMs": 16486.0,
+      "endMs": 18599.0,
+      "charStart": 254,
+      "charEnd": 299
+    },
+    {
+      "id": "s0008",
+      "text": "Only that something is no longer aligned.",
+      "startMs": 18599.0,
+      "endMs": 21234.0,
+      "charStart": 299,
+      "charEnd": 340
+    },
+    {
+      "id": "s0009",
+      "text": "The same thing happens in groups.",
+      "startMs": 21559.0,
+      "endMs": 23359.0,
+      "charStart": 343,
+      "charEnd": 376
+    },
+    {
+      "id": "s0010",
+      "text": "A decision is made.",
+      "startMs": 23428.0,
+      "endMs": 24601.0,
+      "charStart": 378,
+      "charEnd": 397
+    },
+    {
+      "id": "s0011",
+      "text": "Work moves forward.",
+      "startMs": 24845.0,
+      "endMs": 26285.0,
+      "charStart": 398,
+      "charEnd": 417
+    },
+    {
+      "id": "s0012",
+      "text": "The plan is executed.",
+      "startMs": 26459.0,
+      "endMs": 27922.0,
+      "charStart": 418,
+      "charEnd": 439
+    },
+    {
+      "id": "s0013",
+      "text": "Things continue.",
+      "startMs": 27922.0,
+      "endMs": 29129.0,
+      "charStart": 439,
+      "charEnd": 455
+    },
+    {
+      "id": "s0014",
+      "text": "On the surface, everything looks fine.",
+      "startMs": 29617.0,
+      "endMs": 31718.0,
+      "charStart": 458,
+      "charEnd": 496
+    },
+    {
+      "id": "s0015",
+      "text": "Progress is visible.",
+      "startMs": 31869.0,
+      "endMs": 33146.0,
+      "charStart": 497,
+      "charEnd": 517
+    },
+    {
+      "id": "s0016",
+      "text": "Updates are shared.",
+      "startMs": 33146.0,
+      "endMs": 34319.0,
+      "charStart": 517,
+      "charEnd": 536
+    },
+    {
+      "id": "s0017",
+      "text": "Nothing appears to be failing.",
+      "startMs": 34528.0,
+      "endMs": 36141.0,
+      "charStart": 538,
+      "charEnd": 568
+    },
+    {
+      "id": "s0018",
+      "text": "But something has changed.",
+      "startMs": 36316.0,
+      "endMs": 37976.0,
+      "charStart": 570,
+      "charEnd": 596
+    },
+    {
+      "id": "s0019",
+      "text": "The signal is no longer clear.",
+      "startMs": 38150.0,
+      "endMs": 39868.0,
+      "charStart": 597,
+      "charEnd": 627
+    },
+    {
+      "id": "s0020",
+      "text": "What’s actually happening does not move cleanly back to the people making decisions.",
+      "startMs": 39868.0,
+      "endMs": 45116.0,
+      "charStart": 627,
+      "charEnd": 711
+    },
+    {
+      "id": "s0021",
+      "text": "It is delayed.",
+      "startMs": 45406.0,
+      "endMs": 46405.0,
+      "charStart": 714,
+      "charEnd": 728
+    },
+    {
+      "id": "s0022",
+      "text": "It is filtered.",
+      "startMs": 46532.0,
+      "endMs": 47473.0,
+      "charStart": 729,
+      "charEnd": 744
+    },
+    {
+      "id": "s0023",
+      "text": "It is softened.",
+      "startMs": 47647.0,
+      "endMs": 48750.0,
+      "charStart": 745,
+      "charEnd": 760
+    },
+    {
+      "id": "s0024",
+      "text": "Small issues are described as manageable.",
+      "startMs": 49075.0,
+      "endMs": 51374.0,
+      "charStart": 762,
+      "charEnd": 803
+    },
+    {
+      "id": "s0025",
+      "text": "Delays are explained as temporary.",
+      "startMs": 51374.0,
+      "endMs": 53382.0,
+      "charStart": 803,
+      "charEnd": 837
+    },
+    {
+      "id": "s0026",
+      "text": "Risks are mentioned, but not fully explored.",
+      "startMs": 53800.0,
+      "endMs": 56203.0,
+      "charStart": 839,
+      "charEnd": 883
+    },
+    {
+      "id": "s0027",
+      "text": "No one is lying.",
+      "startMs": 56447.0,
+      "endMs": 57457.0,
+      "charStart": 885,
+      "charEnd": 901
+    },
+    {
+      "id": "s0028",
+      "text": "But no one is saying everything either.",
+      "startMs": 57782.0,
+      "endMs": 60313.0,
+      "charStart": 902,
+      "charEnd": 941
+    },
+    {
+      "id": "s0029",
+      "text": "The signal weakens as it moves.",
+      "startMs": 60313.0,
+      "endMs": 62426.0,
+      "charStart": 941,
+      "charEnd": 972
+    },
+    {
+      "id": "s0030",
+      "text": "This is the shift.",
+      "startMs": 62786.0,
+      "endMs": 63773.0,
+      "charStart": 975,
+      "charEnd": 993
+    },
+    {
+      "id": "s0031",
+      "text": "Before, problems surfaced early.",
+      "startMs": 63831.0,
+      "endMs": 65979.0,
+      "charStart": 995,
+      "charEnd": 1027
+    },
+    {
+      "id": "s0032",
+      "text": "Now, they arrive later—if they arrive at all.",
+      "startMs": 65979.0,
+      "endMs": 68951.0,
+      "charStart": 1027,
+      "charEnd": 1072
+    },
+    {
+      "id": "s0033",
+      "text": "Before, the signal was direct.",
+      "startMs": 69520.0,
+      "endMs": 71238.0,
+      "charStart": 1074,
+      "charEnd": 1104
+    },
+    {
+      "id": "s0034",
+      "text": "Now, it passes through layers.",
+      "startMs": 71517.0,
+      "endMs": 73212.0,
+      "charStart": 1105,
+      "charEnd": 1135
+    },
+    {
+      "id": "s0035",
+      "text": "Each layer adjusts it slightly.",
+      "startMs": 73328.0,
+      "endMs": 75290.0,
+      "charStart": 1137,
+      "charEnd": 1168
+    },
+    {
+      "id": "s0036",
+      "text": "To keep things moving.",
+      "startMs": 75464.0,
+      "endMs": 76753.0,
+      "charStart": 1169,
+      "charEnd": 1191
+    },
+    {
+      "id": "s0037",
+      "text": "To avoid unnecessary concern.",
+      "startMs": 76753.0,
+      "endMs": 78784.0,
+      "charStart": 1191,
+      "charEnd": 1220
+    },
+    {
+      "id": "s0038",
+      "text": "To present progress.",
+      "startMs": 79052.0,
+      "endMs": 80294.0,
+      "charStart": 1222,
+      "charEnd": 1242
+    },
+    {
+      "id": "s0039",
+      "text": "By the time it reaches the center, it no longer reflects what is actually happening.",
+      "startMs": 80294.0,
+      "endMs": 84798.0,
+      "charStart": 1242,
+      "charEnd": 1326
+    },
+    {
+      "id": "s0040",
+      "text": "Learning Collapse.",
+      "startMs": 85611.0,
+      "endMs": 86807.0,
+      "charStart": 1329,
+      "charEnd": 1347
+    },
+    {
+      "id": "s0041",
+      "text": "The people making decisions are still receiving information.",
+      "startMs": 87190.0,
+      "endMs": 90116.0,
+      "charStart": 1349,
+      "charEnd": 1409
+    },
+    {
+      "id": "s0042",
+      "text": "But it is not the same information.",
+      "startMs": 90116.0,
+      "endMs": 92066.0,
+      "charStart": 1409,
+      "charEnd": 1444
+    },
+    {
+      "id": "s0043",
+      "text": "It no longer carries the full weight of reality.",
+      "startMs": 92356.0,
+      "endMs": 94899.0,
+      "charStart": 1447,
+      "charEnd": 1495
+    },
+    {
+      "id": "s0044",
+      "text": "At first, this is hard to notice.",
+      "startMs": 94899.0,
+      "endMs": 97232.0,
+      "charStart": 1495,
+      "charEnd": 1528
+    },
+    {
+      "id": "s0045",
+      "text": "Decisions still appear to work.",
+      "startMs": 97581.0,
+      "endMs": 99287.0,
+      "charStart": 1530,
+      "charEnd": 1561
+    },
+    {
+      "id": "s0046",
+      "text": "Nothing fails immediately.",
+      "startMs": 99461.0,
+      "endMs": 101006.0,
+      "charStart": 1562,
+      "charEnd": 1588
+    },
+    {
+      "id": "s0047",
+      "text": "The plan still holds together.",
+      "startMs": 101180.0,
+      "endMs": 102852.0,
+      "charStart": 1589,
+      "charEnd": 1619
+    },
+    {
+      "id": "s0048",
+      "text": "But the loop has changed.",
+      "startMs": 103061.0,
+      "endMs": 104442.0,
+      "charStart": 1621,
+      "charEnd": 1646
+    },
+    {
+      "id": "s0049",
+      "text": "Decision.",
+      "startMs": 104616.0,
+      "endMs": 105324.0,
+      "charStart": 1648,
+      "charEnd": 1657
+    },
+    {
+      "id": "s0050",
+      "text": "Delay.",
+      "startMs": 105499.0,
+      "endMs": 106160.0,
+      "charStart": 1658,
+      "charEnd": 1664
+    },
+    {
+      "id": "s0051",
+      "text": "Partial signal.",
+      "startMs": 106404.0,
+      "endMs": 107496.0,
+      "charStart": 1665,
+      "charEnd": 1680
+    },
+    {
+      "id": "s0052",
+      "text": "The connection is still there.",
+      "startMs": 107821.0,
+      "endMs": 109364.0,
+      "charStart": 1682,
+      "charEnd": 1712
+    },
+    {
+      "id": "s0053",
+      "text": "But it is weaker.",
+      "startMs": 109539.0,
+      "endMs": 110607.0,
+      "charStart": 1713,
+      "charEnd": 1730
+    },
+    {
+      "id": "s0054",
+      "text": "Like a crack that runs beneath the surface, the signal hasn’t disappeared—it’s just harder to trace.",
+      "startMs": 110932.0,
+      "endMs": 116377.0,
+      "charStart": 1732,
+      "charEnd": 1832
+    },
+    {
+      "id": "s0055",
+      "text": "The next decision is made without fully seeing the last.",
+      "startMs": 116377.0,
+      "endMs": 119477.0,
+      "charStart": 1832,
+      "charEnd": 1888
+    },
+    {
+      "id": "s0056",
+      "text": "That is not because the group is careless.",
+      "startMs": 119837.0,
+      "endMs": 121984.0,
+      "charStart": 1890,
+      "charEnd": 1932
+    },
+    {
+      "id": "s0057",
+      "text": "It is because the signal is incomplete.",
+      "startMs": 121984.0,
+      "endMs": 124283.0,
+      "charStart": 1932,
+      "charEnd": 1971
+    },
+    {
+      "id": "s0058",
+      "text": "This is where drift begins.",
+      "startMs": 124759.0,
+      "endMs": 126420.0,
+      "charStart": 1974,
+      "charEnd": 2001
+    },
+    {
+      "id": "s0059",
+      "text": "Not in a single moment.",
+      "startMs": 126698.0,
+      "endMs": 128196.0,
+      "charStart": 2002,
+      "charEnd": 2025
+    },
+    {
+      "id": "s0060",
+      "text": "Across many small ones.",
+      "startMs": 128196.0,
+      "endMs": 129694.0,
+      "charStart": 2025,
+      "charEnd": 2048
+    },
+    {
+      "id": "s0061",
+      "text": "Each decision is slightly less informed than the one before.",
+      "startMs": 130193.0,
+      "endMs": 133386.0,
+      "charStart": 2051,
+      "charEnd": 2111
+    },
+    {
+      "id": "s0062",
+      "text": "Each adjustment is slightly delayed.",
+      "startMs": 133386.0,
+      "endMs": 135580.0,
+      "charStart": 2111,
+      "charEnd": 2147
+    },
+    {
+      "id": "s0063",
+      "text": "Each signal arrives slightly altered.",
+      "startMs": 136056.0,
+      "endMs": 138355.0,
+      "charStart": 2149,
+      "charEnd": 2186
+    },
+    {
+      "id": "s0064",
+      "text": "Individually, none of this is enough to cause failure.",
+      "startMs": 138634.0,
+      "endMs": 141618.0,
+      "charStart": 2188,
+      "charEnd": 2242
+    },
+    {
+      "id": "s0065",
+      "text": "Together, it changes direction.",
+      "startMs": 141618.0,
+      "endMs": 143963.0,
+      "charStart": 2242,
+      "charEnd": 2273
+    },
+    {
+      "id": "s0066",
+      "text": "The group continues to move.",
+      "startMs": 144775.0,
+      "endMs": 146412.0,
+      "charStart": 2275,
+      "charEnd": 2303
+    },
+    {
+      "id": "s0067",
+      "text": "It is no longer clear how closely it is aligned with what is actually happening.",
+      "startMs": 146412.0,
+      "endMs": 150511.0,
+      "charStart": 2303,
+      "charEnd": 2383
+    },
+    {
+      "id": "s0068",
+      "text": "> The story at the center and the story on the ground can diverge while both still sound fine.",
+      "startMs": 151289.0,
+      "endMs": 159973.0,
+      "charStart": 2386,
+      "charEnd": 2480
+    },
+    {
+      "id": "s0069",
+      "text": "The structure still stands.",
+      "startMs": 160147.0,
+      "endMs": 161772.0,
+      "charStart": 2482,
+      "charEnd": 2509
+    },
+    {
+      "id": "s0070",
+      "text": "Work continues.",
+      "startMs": 161923.0,
+      "endMs": 163258.0,
+      "charStart": 2510,
+      "charEnd": 2525
+    },
+    {
+      "id": "s0071",
+      "text": "Progress is reported.",
+      "startMs": 163432.0,
+      "endMs": 164791.0,
+      "charStart": 2526,
+      "charEnd": 2547
+    },
+    {
+      "id": "s0072",
+      "text": "But something important has been lost—clarity.",
+      "startMs": 164791.0,
+      "endMs": 167647.0,
+      "charStart": 2547,
+      "charEnd": 2593
+    },
+    {
+      "id": "s0073",
+      "text": "Without clarity, correction slows.",
+      "startMs": 167647.0,
+      "endMs": 170004.0,
+      "charStart": 2593,
+      "charEnd": 2627
+    },
+    {
+      "id": "s0074",
+      "text": "From here, something else begins to take hold.",
+      "startMs": 170712.0,
+      "endMs": 173533.0,
+      "charStart": 2630,
+      "charEnd": 2676
+    },
+    {
+      "id": "s0075",
+      "text": "What was meant to be temporary starts to remain.",
+      "startMs": 173812.0,
+      "endMs": 176389.0,
+      "charStart": 2678,
+      "charEnd": 2726
+    },
+    {
+      "id": "s0076",
+      "text": "High-Risk Technologies (New York: Basic Books, 1984); Diane Vaughan, The",
+      "startMs": 177086.0,
+      "endMs": 183205.0,
+      "charStart": 2728,
+      "charEnd": 2800
+    },
+    {
+      "id": "s0077",
+      "text": "Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA*",
+      "startMs": 183263.0,
+      "endMs": 188522.0,
+      "charStart": 2801,
+      "charEnd": 2877
+    },
+    {
+      "id": "s0078",
+      "text": "(Chicago: University of Chicago Press, 1996); James Reason, Human Error",
+      "startMs": 188766.0,
+      "endMs": 195639.0,
+      "charStart": 2878,
+      "charEnd": 2949
+    },
+    {
+      "id": "s0079",
+      "text": "(Cambridge: Cambridge University Press, 1990).",
+      "startMs": 195918.0,
+      "endMs": 199041.0,
+      "charStart": 2950,
+      "charEnd": 2996
+    }
+  ]
+}

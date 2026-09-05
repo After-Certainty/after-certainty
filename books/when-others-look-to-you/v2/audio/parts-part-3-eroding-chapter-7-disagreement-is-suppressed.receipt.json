@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-3-eroding-chapter-7-disagreement-is-suppressed",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-3-eroding-chapter-7-disagreement-is-suppressed",
+  "sourcePath": "parts/part-3-eroding/chapter-7-disagreement-is-suppressed.md",
+  "sourceHash": "sha256:d8a3fcff7213586b51d2f67617b21ad31a0055658efec25fd27823c993af37a0",
+  "spokenTextHash": "sha256:36a5d35a1772e9d48730dc511c61152399a219c23ea8358dbc2207ba7a03452a",
+  "generationHash": "sha256:a23879b2b4ee48721df9ebe6316471fa7fc82e98105229c00109538d03d20966",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1720,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 430.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 430.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-3-eroding-chapter-7-disagreement-is-suppressed.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-3-eroding-chapter-7-disagreement-is-suppressed.mp3",
+  "audioSha256": "sha256:e4d0f3ee583812cc2564132c2dc883bf9eb55351f01cd034ce060f21aed921bd",
+  "generatedAt": "2026-09-05T15:14:23Z"
+}

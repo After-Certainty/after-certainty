@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-2-what-scale-changes-bridge",
+  "generationHash": "sha256:4ae262bd6b5e19fea69ace7d81137f94fb340f695044104fc3d58063b3ece379",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part II — What Scale Changes",
+      "startMs": 0.0,
+      "endMs": 3205.0,
+      "charStart": 0,
+      "charEnd": 28
+    },
+    {
+      "id": "s0002",
+      "text": "The human-scale model does not disappear as systems grow.",
+      "startMs": 4157.0,
+      "endMs": 8232.0,
+      "charStart": 30,
+      "charEnd": 87
+    },
+    {
+      "id": "s0003",
+      "text": "The commitments of proximity, reciprocity, and contestability remain intelligible.",
+      "startMs": 8232.0,
+      "endMs": 14084.0,
+      "charStart": 87,
+      "charEnd": 169
+    },
+    {
+      "id": "s0004",
+      "text": "But the conditions that once reinforced them begin to thin.",
+      "startMs": 14084.0,
+      "endMs": 17950.0,
+      "charStart": 169,
+      "charEnd": 228
+    },
+    {
+      "id": "s0005",
+      "text": "Proximity stretches.",
+      "startMs": 18937.0,
+      "endMs": 20574.0,
+      "charStart": 232,
+      "charEnd": 252
+    },
+    {
+      "id": "s0006",
+      "text": "Decisions reach people who are never encountered.",
+      "startMs": 21177.0,
+      "endMs": 23975.0,
+      "charStart": 253,
+      "charEnd": 302
+    },
+    {
+      "id": "s0007",
+      "text": "Reciprocity becomes uneven as some actors gain insulation from consequence.",
+      "startMs": 23975.0,
+      "endMs": 29966.0,
+      "charStart": 302,
+      "charEnd": 377
+    },
+    {
+      "id": "s0008",
+      "text": "Contestability requires greater coordination to exercise, and disagreement becomes more complex to absorb.",
+      "startMs": 29966.0,
+      "endMs": 37896.0,
+      "charStart": 377,
+      "charEnd": 483
+    },
+    {
+      "id": "s0009",
+      "text": "These shifts do not immediately destabilize moral seriousness.",
+      "startMs": 38766.0,
+      "endMs": 43283.0,
+      "charStart": 487,
+      "charEnd": 549
+    },
+    {
+      "id": "s0010",
+      "text": "They do not invalidate restraint.",
+      "startMs": 43283.0,
+      "endMs": 45512.0,
+      "charStart": 549,
+      "charEnd": 582
+    },
+    {
+      "id": "s0011",
+      "text": "They alter its operating environment.",
+      "startMs": 45941.0,
+      "endMs": 48484.0,
+      "charStart": 584,
+      "charEnd": 621
+    },
+    {
+      "id": "s0012",
+      "text": "To understand how moral seriousness functions under scale, we must examine what distance introduces, how asymmetry emerges, and why certain behaviors begin to move faster than others.",
+      "startMs": 48925.0,
+      "endMs": 61034.0,
+      "charStart": 623,
+      "charEnd": 806
+    },
+    {
+      "id": "s0013",
+      "text": "The change is gradual, but it is structural.",
+      "startMs": 61034.0,
+      "endMs": 64425.0,
+      "charStart": 806,
+      "charEnd": 850
+    }
+  ]
+}

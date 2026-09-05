@@ -1,0 +1,872 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-1-forming-chapter-2-examples-accumulate",
+  "generationHash": "sha256:da44bfce64f24ebbb0a413fe56844b3daaab0919776344d783e7b443096b8132",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 2 — Examples Accumulate",
+      "startMs": 0.0,
+      "endMs": 3065.0,
+      "charStart": 0,
+      "charEnd": 31
+    },
+    {
+      "id": "s0002",
+      "text": "Attention Finds a Focus.",
+      "startMs": 3099.0,
+      "endMs": 5340.0,
+      "charStart": 33,
+      "charEnd": 57
+    },
+    {
+      "id": "s0003",
+      "text": "The room has oriented.",
+      "startMs": 5851.0,
+      "endMs": 7175.0,
+      "charStart": 58,
+      "charEnd": 80
+    },
+    {
+      "id": "s0004",
+      "text": "People are watching, even if no one says so directly.",
+      "startMs": 7175.0,
+      "endMs": 10379.0,
+      "charStart": 80,
+      "charEnd": 133
+    },
+    {
+      "id": "s0005",
+      "text": "What happens next is small.",
+      "startMs": 11737.0,
+      "endMs": 13630.0,
+      "charStart": 135,
+      "charEnd": 162
+    },
+    {
+      "id": "s0006",
+      "text": "A response.",
+      "startMs": 13630.0,
+      "endMs": 15278.0,
+      "charStart": 162,
+      "charEnd": 173
+    },
+    {
+      "id": "s0007",
+      "text": "A reaction.",
+      "startMs": 15464.0,
+      "endMs": 16521.0,
+      "charStart": 175,
+      "charEnd": 186
+    },
+    {
+      "id": "s0008",
+      "text": "A choice made in a few seconds.",
+      "startMs": 16846.0,
+      "endMs": 18947.0,
+      "charStart": 187,
+      "charEnd": 218
+    },
+    {
+      "id": "s0009",
+      "text": "It does not feel like a defining moment.",
+      "startMs": 18947.0,
+      "endMs": 21559.0,
+      "charStart": 218,
+      "charEnd": 258
+    },
+    {
+      "id": "s0010",
+      "text": "It rarely does.",
+      "startMs": 22175.0,
+      "endMs": 23359.0,
+      "charStart": 260,
+      "charEnd": 275
+    },
+    {
+      "id": "s0011",
+      "text": "But it is.",
+      "startMs": 24311.0,
+      "endMs": 25193.0,
+      "charStart": 277,
+      "charEnd": 287
+    },
+    {
+      "id": "s0012",
+      "text": "When Attention Finds a Focus, behavior is no longer private.",
+      "startMs": 26308.0,
+      "endMs": 30464.0,
+      "charStart": 289,
+      "charEnd": 349
+    },
+    {
+      "id": "s0013",
+      "text": "Before that moment, actions are just actions.",
+      "startMs": 30975.0,
+      "endMs": 34470.0,
+      "charStart": 350,
+      "charEnd": 395
+    },
+    {
+      "id": "s0014",
+      "text": "They belong to the person taking them.",
+      "startMs": 34470.0,
+      "endMs": 36490.0,
+      "charStart": 395,
+      "charEnd": 433
+    },
+    {
+      "id": "s0015",
+      "text": "They can be interpreted in different ways, or not at all.",
+      "startMs": 36943.0,
+      "endMs": 40275.0,
+      "charStart": 435,
+      "charEnd": 492
+    },
+    {
+      "id": "s0016",
+      "text": "After that moment, actions are signals.",
+      "startMs": 40600.0,
+      "endMs": 43235.0,
+      "charStart": 494,
+      "charEnd": 533
+    },
+    {
+      "id": "s0017",
+      "text": "They are seen, interpreted, and repeated.",
+      "startMs": 43235.0,
+      "endMs": 46057.0,
+      "charStart": 533,
+      "charEnd": 574
+    },
+    {
+      "id": "s0018",
+      "text": "A deadline is missed.",
+      "startMs": 46509.0,
+      "endMs": 47821.0,
+      "charStart": 577,
+      "charEnd": 598
+    },
+    {
+      "id": "s0019",
+      "text": "Someone explains why.",
+      "startMs": 48065.0,
+      "endMs": 49435.0,
+      "charStart": 599,
+      "charEnd": 620
+    },
+    {
+      "id": "s0020",
+      "text": "The explanation is partial.",
+      "startMs": 49760.0,
+      "endMs": 51502.0,
+      "charStart": 621,
+      "charEnd": 648
+    },
+    {
+      "id": "s0021",
+      "text": "It leaves things out.",
+      "startMs": 51618.0,
+      "endMs": 52756.0,
+      "charStart": 649,
+      "charEnd": 670
+    },
+    {
+      "id": "s0022",
+      "text": "It softens what actually happened.",
+      "startMs": 52907.0,
+      "endMs": 54765.0,
+      "charStart": 671,
+      "charEnd": 705
+    },
+    {
+      "id": "s0023",
+      "text": "You respond quickly.",
+      "startMs": 54765.0,
+      "endMs": 56274.0,
+      "charStart": 705,
+      "charEnd": 725
+    },
+    {
+      "id": "s0024",
+      "text": "“That’s fine—let’s just move forward.” The conversation continues.",
+      "startMs": 56274.0,
+      "endMs": 62044.0,
+      "charStart": 725,
+      "charEnd": 791
+    },
+    {
+      "id": "s0025",
+      "text": "The meeting stays on track.",
+      "startMs": 62357.0,
+      "endMs": 63902.0,
+      "charStart": 794,
+      "charEnd": 821
+    },
+    {
+      "id": "s0026",
+      "text": "Nothing escalates.",
+      "startMs": 64227.0,
+      "endMs": 65469.0,
+      "charStart": 822,
+      "charEnd": 840
+    },
+    {
+      "id": "s0027",
+      "text": "It feels like a small decision.",
+      "startMs": 65713.0,
+      "endMs": 67268.0,
+      "charStart": 842,
+      "charEnd": 873
+    },
+    {
+      "id": "s0028",
+      "text": "A practical one.",
+      "startMs": 67594.0,
+      "endMs": 68604.0,
+      "charStart": 874,
+      "charEnd": 890
+    },
+    {
+      "id": "s0029",
+      "text": "But something else has happened.",
+      "startMs": 68604.0,
+      "endMs": 70682.0,
+      "charStart": 890,
+      "charEnd": 922
+    },
+    {
+      "id": "s0030",
+      "text": "The group has learned what happens when something goes wrong.",
+      "startMs": 71181.0,
+      "endMs": 74095.0,
+      "charStart": 925,
+      "charEnd": 986
+    },
+    {
+      "id": "s0031",
+      "text": "They have learned that incomplete explanations are acceptable.",
+      "startMs": 74095.0,
+      "endMs": 77984.0,
+      "charStart": 986,
+      "charEnd": 1048
+    },
+    {
+      "id": "s0032",
+      "text": "They have learned that accuracy can be traded for speed.",
+      "startMs": 77984.0,
+      "endMs": 81491.0,
+      "charStart": 1048,
+      "charEnd": 1104
+    },
+    {
+      "id": "s0033",
+      "text": "They have learned that moving forward matters more than understanding.",
+      "startMs": 81491.0,
+      "endMs": 85426.0,
+      "charStart": 1104,
+      "charEnd": 1174
+    },
+    {
+      "id": "s0034",
+      "text": "No one writes this down.",
+      "startMs": 86123.0,
+      "endMs": 87609.0,
+      "charStart": 1179,
+      "charEnd": 1203
+    },
+    {
+      "id": "s0035",
+      "text": "No one discusses it.",
+      "startMs": 87852.0,
+      "endMs": 89246.0,
+      "charStart": 1204,
+      "charEnd": 1224
+    },
+    {
+      "id": "s0036",
+      "text": "But it is understood.",
+      "startMs": 89849.0,
+      "endMs": 91092.0,
+      "charStart": 1225,
+      "charEnd": 1246
+    },
+    {
+      "id": "s0037",
+      "text": "Examples Accumulate.",
+      "startMs": 91788.0,
+      "endMs": 93681.0,
+      "charStart": 1248,
+      "charEnd": 1268
+    },
+    {
+      "id": "s0038",
+      "text": "The rule is not formed through instruction.",
+      "startMs": 94795.0,
+      "endMs": 97280.0,
+      "charStart": 1270,
+      "charEnd": 1313
+    },
+    {
+      "id": "s0039",
+      "text": "It is formed through observation.",
+      "startMs": 97280.0,
+      "endMs": 99439.0,
+      "charStart": 1313,
+      "charEnd": 1346
+    },
+    {
+      "id": "s0040",
+      "text": "People are constantly asking, without saying it out loud:",
+      "startMs": 100345.0,
+      "endMs": 103526.0,
+      "charStart": 1349,
+      "charEnd": 1406
+    },
+    {
+      "id": "s0041",
+      "text": "- What is safe here?",
+      "startMs": 103549.0,
+      "endMs": 105221.0,
+      "charStart": 1408,
+      "charEnd": 1428
+    },
+    {
+      "id": "s0042",
+      "text": "- What matters here?",
+      "startMs": 105302.0,
+      "endMs": 106835.0,
+      "charStart": 1430,
+      "charEnd": 1450
+    },
+    {
+      "id": "s0043",
+      "text": "- What happens if something goes wrong?",
+      "startMs": 106951.0,
+      "endMs": 109691.0,
+      "charStart": 1452,
+      "charEnd": 1491
+    },
+    {
+      "id": "s0044",
+      "text": "They do not wait for policies to answer these questions.",
+      "startMs": 110016.0,
+      "endMs": 113185.0,
+      "charStart": 1493,
+      "charEnd": 1549
+    },
+    {
+      "id": "s0045",
+      "text": "They watch how you respond.",
+      "startMs": 113185.0,
+      "endMs": 114845.0,
+      "charStart": 1549,
+      "charEnd": 1576
+    },
+    {
+      "id": "s0046",
+      "text": "A sharp correction signals that mistakes matter.",
+      "startMs": 115693.0,
+      "endMs": 118386.0,
+      "charStart": 1579,
+      "charEnd": 1627
+    },
+    {
+      "id": "s0047",
+      "text": "A calm question signals that understanding matters.",
+      "startMs": 118386.0,
+      "endMs": 121684.0,
+      "charStart": 1627,
+      "charEnd": 1678
+    },
+    {
+      "id": "s0048",
+      "text": "A quick dismissal signals that speed matters more than either.",
+      "startMs": 121684.0,
+      "endMs": 125538.0,
+      "charStart": 1678,
+      "charEnd": 1740
+    },
+    {
+      "id": "s0049",
+      "text": "None of this is announced.",
+      "startMs": 126270.0,
+      "endMs": 127640.0,
+      "charStart": 1744,
+      "charEnd": 1770
+    },
+    {
+      "id": "s0050",
+      "text": "All of it is learned.",
+      "startMs": 127965.0,
+      "endMs": 129138.0,
+      "charStart": 1771,
+      "charEnd": 1792
+    },
+    {
+      "id": "s0051",
+      "text": "This is why behavior moves faster than policy.",
+      "startMs": 129648.0,
+      "endMs": 132621.0,
+      "charStart": 1794,
+      "charEnd": 1840
+    },
+    {
+      "id": "s0052",
+      "text": "Policy can be written.",
+      "startMs": 132795.0,
+      "endMs": 134141.0,
+      "charStart": 1841,
+      "charEnd": 1863
+    },
+    {
+      "id": "s0053",
+      "text": "It can be discussed.",
+      "startMs": 134141.0,
+      "endMs": 135500.0,
+      "charStart": 1863,
+      "charEnd": 1883
+    },
+    {
+      "id": "s0054",
+      "text": "It can be enforced.",
+      "startMs": 135709.0,
+      "endMs": 137032.0,
+      "charStart": 1885,
+      "charEnd": 1904
+    },
+    {
+      "id": "s0055",
+      "text": "But behavior is immediate.",
+      "startMs": 137357.0,
+      "endMs": 139239.0,
+      "charStart": 1906,
+      "charEnd": 1932
+    },
+    {
+      "id": "s0056",
+      "text": "A reaction in a moment carries more weight than a rule written later.",
+      "startMs": 139239.0,
+      "endMs": 143453.0,
+      "charStart": 1932,
+      "charEnd": 2001
+    },
+    {
+      "id": "s0057",
+      "text": "And when they conflict, behavior wins.",
+      "startMs": 144359.0,
+      "endMs": 147180.0,
+      "charStart": 2003,
+      "charEnd": 2041
+    },
+    {
+      "id": "s0058",
+      "text": "The effect compounds quickly.",
+      "startMs": 147505.0,
+      "endMs": 149676.0,
+      "charStart": 2043,
+      "charEnd": 2072
+    },
+    {
+      "id": "s0059",
+      "text": "One moment becomes a pattern.",
+      "startMs": 150280.0,
+      "endMs": 152056.0,
+      "charStart": 2073,
+      "charEnd": 2102
+    },
+    {
+      "id": "s0060",
+      "text": "The pattern becomes an expectation.",
+      "startMs": 152056.0,
+      "endMs": 154262.0,
+      "charStart": 2102,
+      "charEnd": 2137
+    },
+    {
+      "id": "s0061",
+      "text": "The expectation becomes a boundary.",
+      "startMs": 154912.0,
+      "endMs": 157223.0,
+      "charStart": 2139,
+      "charEnd": 2174
+    },
+    {
+      "id": "s0062",
+      "text": "Soon, people stop testing the edges.",
+      "startMs": 157664.0,
+      "endMs": 160265.0,
+      "charStart": 2176,
+      "charEnd": 2212
+    },
+    {
+      "id": "s0063",
+      "text": "They stay within what has already been shown.",
+      "startMs": 160265.0,
+      "endMs": 162796.0,
+      "charStart": 2212,
+      "charEnd": 2257
+    },
+    {
+      "id": "s0064",
+      "text": "They bring the kind of information that has been received well before.",
+      "startMs": 162796.0,
+      "endMs": 166604.0,
+      "charStart": 2257,
+      "charEnd": 2327
+    },
+    {
+      "id": "s0065",
+      "text": "They avoid the kind that has not.",
+      "startMs": 167022.0,
+      "endMs": 169019.0,
+      "charStart": 2330,
+      "charEnd": 2363
+    },
+    {
+      "id": "s0066",
+      "text": "They match the pace that has been set.",
+      "startMs": 169019.0,
+      "endMs": 171259.0,
+      "charStart": 2363,
+      "charEnd": 2401
+    },
+    {
+      "id": "s0067",
+      "text": "Not because they were told to.",
+      "startMs": 171689.0,
+      "endMs": 173372.0,
+      "charStart": 2404,
+      "charEnd": 2434
+    },
+    {
+      "id": "s0068",
+      "text": "Because they learned.",
+      "startMs": 173581.0,
+      "endMs": 174835.0,
+      "charStart": 2435,
+      "charEnd": 2456
+    },
+    {
+      "id": "s0069",
+      "text": "The person being looked to does not need to intend this.",
+      "startMs": 174986.0,
+      "endMs": 178388.0,
+      "charStart": 2458,
+      "charEnd": 2514
+    },
+    {
+      "id": "s0070",
+      "text": "In many cases, they don’t.",
+      "startMs": 178388.0,
+      "endMs": 180303.0,
+      "charStart": 2514,
+      "charEnd": 2540
+    },
+    {
+      "id": "s0071",
+      "text": "They are trying to keep things moving.",
+      "startMs": 180559.0,
+      "endMs": 182683.0,
+      "charStart": 2543,
+      "charEnd": 2581
+    },
+    {
+      "id": "s0072",
+      "text": "Avoid unnecessary friction.",
+      "startMs": 182799.0,
+      "endMs": 184645.0,
+      "charStart": 2582,
+      "charEnd": 2609
+    },
+    {
+      "id": "s0073",
+      "text": "Maintain focus.",
+      "startMs": 184820.0,
+      "endMs": 186108.0,
+      "charStart": 2610,
+      "charEnd": 2625
+    },
+    {
+      "id": "s0074",
+      "text": "Each of these makes sense in the moment.",
+      "startMs": 186282.0,
+      "endMs": 188465.0,
+      "charStart": 2627,
+      "charEnd": 2667
+    },
+    {
+      "id": "s0075",
+      "text": "But the group is not interpreting the intent.",
+      "startMs": 188465.0,
+      "endMs": 191252.0,
+      "charStart": 2667,
+      "charEnd": 2712
+    },
+    {
+      "id": "s0076",
+      "text": "It is interpreting the example.",
+      "startMs": 191693.0,
+      "endMs": 193794.0,
+      "charStart": 2714,
+      "charEnd": 2745
+    },
+    {
+      "id": "s0077",
+      "text": "And the example does not stay isolated.",
+      "startMs": 194073.0,
+      "endMs": 196465.0,
+      "charStart": 2747,
+      "charEnd": 2786
+    },
+    {
+      "id": "s0078",
+      "text": "It repeats.",
+      "startMs": 196743.0,
+      "endMs": 197707.0,
+      "charStart": 2787,
+      "charEnd": 2798
+    },
+    {
+      "id": "s0079",
+      "text": "There is no neutral response.",
+      "startMs": 197707.0,
+      "endMs": 199599.0,
+      "charStart": 2798,
+      "charEnd": 2827
+    },
+    {
+      "id": "s0080",
+      "text": "Silence signals something.",
+      "startMs": 199971.0,
+      "endMs": 201445.0,
+      "charStart": 2829,
+      "charEnd": 2855
+    },
+    {
+      "id": "s0081",
+      "text": "Speed signals something.",
+      "startMs": 201620.0,
+      "endMs": 202978.0,
+      "charStart": 2856,
+      "charEnd": 2880
+    },
+    {
+      "id": "s0082",
+      "text": "Curiosity signals something.",
+      "startMs": 202978.0,
+      "endMs": 204801.0,
+      "charStart": 2880,
+      "charEnd": 2908
+    },
+    {
+      "id": "s0083",
+      "text": "Certainty signals something.",
+      "startMs": 205068.0,
+      "endMs": 206786.0,
+      "charStart": 2910,
+      "charEnd": 2938
+    },
+    {
+      "id": "s0084",
+      "text": "Even the absence of reaction is interpreted.",
+      "startMs": 207111.0,
+      "endMs": 209967.0,
+      "charStart": 2940,
+      "charEnd": 2984
+    },
+    {
+      "id": "s0085",
+      "text": "People are not waiting for clarity.",
+      "startMs": 209967.0,
+      "endMs": 212359.0,
+      "charStart": 2984,
+      "charEnd": 3019
+    },
+    {
+      "id": "s0086",
+      "text": "They are constructing it.",
+      "startMs": 212777.0,
+      "endMs": 214239.0,
+      "charStart": 3021,
+      "charEnd": 3046
+    },
+    {
+      "id": "s0087",
+      "text": "This is how leadership begins to take shape.",
+      "startMs": 214414.0,
+      "endMs": 216944.0,
+      "charStart": 3048,
+      "charEnd": 3092
+    },
+    {
+      "id": "s0088",
+      "text": "Not through decisions alone.",
+      "startMs": 216944.0,
+      "endMs": 218721.0,
+      "charStart": 3092,
+      "charEnd": 3120
+    },
+    {
+      "id": "s0089",
+      "text": "Through patterns of response.",
+      "startMs": 218837.0,
+      "endMs": 220660.0,
+      "charStart": 3122,
+      "charEnd": 3151
+    },
+    {
+      "id": "s0090",
+      "text": "The group is learning how to behave, not from what is said, but from",
+      "startMs": 220869.0,
+      "endMs": 225129.0,
+      "charStart": 3153,
+      "charEnd": 3221
+    },
+    {
+      "id": "s0091",
+      "text": "what is shown.",
+      "startMs": 225210.0,
+      "endMs": 226232.0,
+      "charStart": 3222,
+      "charEnd": 3236
+    },
+    {
+      "id": "s0092",
+      "text": "And once learned, these habits are difficult to undo.",
+      "startMs": 226511.0,
+      "endMs": 229587.0,
+      "charStart": 3238,
+      "charEnd": 3291
+    },
+    {
+      "id": "s0093",
+      "text": "Because they are no longer external.",
+      "startMs": 229587.0,
+      "endMs": 232142.0,
+      "charStart": 3291,
+      "charEnd": 3327
+    },
+    {
+      "id": "s0094",
+      "text": "They are internal.",
+      "startMs": 232385.0,
+      "endMs": 233697.0,
+      "charStart": 3329,
+      "charEnd": 3347
+    },
+    {
+      "id": "s0095",
+      "text": "The next time something goes wrong, the group does not wait to see what will happen.",
+      "startMs": 234022.0,
+      "endMs": 238283.0,
+      "charStart": 3349,
+      "charEnd": 3433
+    },
+    {
+      "id": "s0096",
+      "text": "They already have a sense.",
+      "startMs": 238492.0,
+      "endMs": 240362.0,
+      "charStart": 3434,
+      "charEnd": 3460
+    },
+    {
+      "id": "s0097",
+      "text": "They have seen it before.",
+      "startMs": 240536.0,
+      "endMs": 241987.0,
+      "charStart": 3461,
+      "charEnd": 3486
+    },
+    {
+      "id": "s0098",
+      "text": "> Under pressure, people learn from what they watch—not from what was announced.",
+      "startMs": 242800.0,
+      "endMs": 248012.0,
+      "charStart": 3488,
+      "charEnd": 3568
+    },
+    {
+      "id": "s0099",
+      "text": "From here, something else begins to happen.",
+      "startMs": 248396.0,
+      "endMs": 250834.0,
+      "charStart": 3570,
+      "charEnd": 3613
+    },
+    {
+      "id": "s0100",
+      "text": "The same person is looked to again.",
+      "startMs": 250834.0,
+      "endMs": 252935.0,
+      "charStart": 3613,
+      "charEnd": 3648
+    },
+    {
+      "id": "s0101",
+      "text": "The same responses are reinforced again.",
+      "startMs": 253260.0,
+      "endMs": 255605.0,
+      "charStart": 3650,
+      "charEnd": 3690
+    },
+    {
+      "id": "s0102",
+      "text": "And over time, the moment stabilizes.",
+      "startMs": 255930.0,
+      "endMs": 258763.0,
+      "charStart": 3692,
+      "charEnd": 3729
+    },
+    {
+      "id": "s0103",
+      "text": "Not formally.",
+      "startMs": 259088.0,
+      "endMs": 259970.0,
+      "charStart": 3730,
+      "charEnd": 3743
+    },
+    {
+      "id": "s0104",
+      "text": "Not intentionally.",
+      "startMs": 260354.0,
+      "endMs": 261491.0,
+      "charStart": 3744,
+      "charEnd": 3762
+    },
+    {
+      "id": "s0105",
+      "text": "But reliably.",
+      "startMs": 261816.0,
+      "endMs": 262850.0,
+      "charStart": 3763,
+      "charEnd": 3776
+    },
+    {
+      "id": "s0106",
+      "text": "Leadership Coalesces.",
+      "startMs": 263802.0,
+      "endMs": 265265.0,
+      "charStart": 3778,
+      "charEnd": 3799
+    },
+    {
+      "id": "s0107",
+      "text": "\"A Focus Theory of Normative Conduct,\" *Journal of Personality and Social Psychology* 58, no.",
+      "startMs": 265775.0,
+      "endMs": 273020.0,
+      "charStart": 3801,
+      "charEnd": 3894
+    },
+    {
+      "id": "s0108",
+      "text": "6 (1990): 1015–1026.",
+      "startMs": 273194.0,
+      "endMs": 278221.0,
+      "charStart": 3895,
+      "charEnd": 3915
+    }
+  ]
+}

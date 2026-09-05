@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-4-what-remains-possible-chapter-9-rebuilding-density",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-4-what-remains-possible-chapter-9-rebuilding-density",
+  "sourcePath": "parts/part-4-what-remains-possible/chapter-9-rebuilding-density.md",
+  "sourceHash": "sha256:9d44a0c923fc456529569b511c52b70dbff8a4c4ab6a169b1e5becc2fc8bf654",
+  "spokenTextHash": "sha256:f8c3141c4ffdbd72f35448dc11997e8a35ee7cde6c28a89e05e6c1731001098f",
+  "generationHash": "sha256:51fffafb0ca1dae583c0e67a460c186c93473cdf5054ab0d9921c58a58481a8e",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2786,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 696.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 696.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-4-what-remains-possible-chapter-9-rebuilding-density.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-4-what-remains-possible-chapter-9-rebuilding-density.mp3",
+  "audioSha256": "sha256:db818c5bf25a982fbf2c57423aa6c8ff8e281661933de9210b8bdd3483f0bbdc",
+  "generatedAt": "2026-09-05T15:12:18Z"
+}

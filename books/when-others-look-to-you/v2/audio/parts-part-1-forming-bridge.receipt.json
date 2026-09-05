@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-1-forming-bridge",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-1-forming-bridge",
+  "sourcePath": "parts/part-1-forming/bridge.md",
+  "sourceHash": "sha256:2b691c8ff80061d1b61361011cfaf07724aa02d0ba196fa6cdc92d06f58f6342",
+  "spokenTextHash": "sha256:085f7ecd46f483d734748bd25c879d2bcd7e75ad6f719195a31be4b09d14baaa",
+  "generationHash": "sha256:ab30d7a7fa87046ca544576a0c277c9dd2d8605de096ae4f1f497dd8ee6d5adc",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 420,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 105.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 105.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-1-forming-bridge.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-1-forming-bridge.mp3",
+  "audioSha256": "sha256:d19a21d4d906aa3c7427083d23a014056689f3e858b2817a64a70c1426f38abc",
+  "generatedAt": "2026-09-05T15:13:01Z"
+}

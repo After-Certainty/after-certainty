@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-2-renewing-chapter-6-leaders-feel-the-consequences",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-2-renewing-chapter-6-leaders-feel-the-consequences",
+  "sourcePath": "parts/part-2-renewing/chapter-6-leaders-feel-the-consequences.md",
+  "sourceHash": "sha256:b4d6b027ed5089069c5870e3b36032a352131b5f7066a9f0c7d3836fcd83fb01",
+  "spokenTextHash": "sha256:2dfc3cf24c9bea8c97b99bb12e45dd799dfca00bd8b8f446e34831baf54b1ff7",
+  "generationHash": "sha256:7665c6b5c9658d7dfc2560eccb760d1a8c7fec64d858c5aca097f2f519e48a0a",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3054,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 763.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 763.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-2-renewing-chapter-6-leaders-feel-the-consequences.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-2-renewing-chapter-6-leaders-feel-the-consequences.mp3",
+  "audioSha256": "sha256:3874c770545ddd0d620dcf16bba204731fafdcd6b8bdff987da7eeb1ee2fbfe9",
+  "generatedAt": "2026-09-05T15:14:09Z"
+}

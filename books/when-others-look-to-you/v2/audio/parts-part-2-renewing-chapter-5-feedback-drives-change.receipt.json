@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-2-renewing-chapter-5-feedback-drives-change",
+  "editionSlug": "when-others-look-to-you-v2",
+  "chapterSlug": "parts-part-2-renewing-chapter-5-feedback-drives-change",
+  "sourcePath": "parts/part-2-renewing/chapter-5-feedback-drives-change.md",
+  "sourceHash": "sha256:4a18f200a68e4b4895e350841abd259d400f9d4da02fed9d757392b219a359d6",
+  "spokenTextHash": "sha256:27e0a6b0a3039d2051262be1e6b4c8883c28c33d44eb387837ed98be2dfb7d26",
+  "generationHash": "sha256:1fe3561406ff755266410c47298d8793334ab96d521eb59f0b73d876fcec41fe",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3093,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 773.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 773.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-others-look-to-you/v2/audio/parts-part-2-renewing-chapter-5-feedback-drives-change.alignment.json"
+  },
+  "audioPath": "books/when-others-look-to-you/v2/audio/parts-part-2-renewing-chapter-5-feedback-drives-change.mp3",
+  "audioSha256": "sha256:b3eb18ed6cfa48ce18041a0efb143f4a337b98cf575f3250d2e2494aa0fe94c7",
+  "generatedAt": "2026-09-05T15:13:59Z"
+}

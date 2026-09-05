@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-moral-seriousness-scales-parts-part-3-the-pressure-point-bridge",
+  "editionSlug": "when-moral-seriousness-scales",
+  "chapterSlug": "parts-part-3-the-pressure-point-bridge",
+  "sourcePath": "parts/part-3-the-pressure-point/bridge.md",
+  "sourceHash": "sha256:0fdee455ec26f0526bf1a63ee18e5848b13abad41b52faf3b286c854f73ad973",
+  "spokenTextHash": "sha256:0df33915be660bee5c9ff77c1a091d1f813d90e31a8c9927cfcd204f11b86983",
+  "generationHash": "sha256:87f2a045dd50ba379b5e3b88ca2f6197d6d76970d667f89d7be2a5b6212b6665",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 855,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 213.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 213.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-moral-seriousness-scales/audio/parts-part-3-the-pressure-point-bridge.alignment.json"
+  },
+  "audioPath": "books/when-moral-seriousness-scales/audio/parts-part-3-the-pressure-point-bridge.mp3",
+  "audioSha256": "sha256:107ee6c04325ab6b4564232a53c5e5bbdd1e388d4286f51478e43e5903313bac",
+  "generatedAt": "2026-09-05T15:11:42Z"
+}

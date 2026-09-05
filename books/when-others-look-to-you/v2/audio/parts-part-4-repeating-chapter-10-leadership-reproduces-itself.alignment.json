@@ -1,0 +1,648 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-others-look-to-you-v2-parts-part-4-repeating-chapter-10-leadership-reproduces-itself",
+  "generationHash": "sha256:44583115c1e77700942be20fc30537fccdcf04d5fe4dc2ded7d922d63ea02cc8",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Chapter 10 — Leadership Reproduces Itself",
+      "startMs": 0.0,
+      "endMs": 3784.0,
+      "charStart": 0,
+      "charEnd": 41
+    },
+    {
+      "id": "s0002",
+      "text": "Nothing in the group stays isolated.",
+      "startMs": 4899.0,
+      "endMs": 7209.0,
+      "charStart": 43,
+      "charEnd": 79
+    },
+    {
+      "id": "s0003",
+      "text": "Not the decisions.",
+      "startMs": 7488.0,
+      "endMs": 8579.0,
+      "charStart": 80,
+      "charEnd": 98
+    },
+    {
+      "id": "s0004",
+      "text": "Not the responses.",
+      "startMs": 8579.0,
+      "endMs": 9775.0,
+      "charStart": 98,
+      "charEnd": 116
+    },
+    {
+      "id": "s0005",
+      "text": "Not the patterns that formed along the way.",
+      "startMs": 10065.0,
+      "endMs": 12317.0,
+      "charStart": 118,
+      "charEnd": 161
+    },
+    {
+      "id": "s0006",
+      "text": "People are watching.",
+      "startMs": 12701.0,
+      "endMs": 14094.0,
+      "charStart": 163,
+      "charEnd": 183
+    },
+    {
+      "id": "s0007",
+      "text": "Not all the time.",
+      "startMs": 14338.0,
+      "endMs": 15429.0,
+      "charStart": 184,
+      "charEnd": 201
+    },
+    {
+      "id": "s0008",
+      "text": "Not deliberately.",
+      "startMs": 15603.0,
+      "endMs": 16601.0,
+      "charStart": 202,
+      "charEnd": 219
+    },
+    {
+      "id": "s0009",
+      "text": "But enough.",
+      "startMs": 16683.0,
+      "endMs": 17495.0,
+      "charStart": 220,
+      "charEnd": 231
+    },
+    {
+      "id": "s0010",
+      "text": "They notice what moves things forward.",
+      "startMs": 17704.0,
+      "endMs": 19678.0,
+      "charStart": 232,
+      "charEnd": 270
+    },
+    {
+      "id": "s0011",
+      "text": "They notice what gets accepted.",
+      "startMs": 19887.0,
+      "endMs": 21710.0,
+      "charStart": 271,
+      "charEnd": 302
+    },
+    {
+      "id": "s0012",
+      "text": "They notice what persists.",
+      "startMs": 21826.0,
+      "endMs": 23486.0,
+      "charStart": 303,
+      "charEnd": 329
+    },
+    {
+      "id": "s0013",
+      "text": "They adjust.",
+      "startMs": 23602.0,
+      "endMs": 24554.0,
+      "charStart": 330,
+      "charEnd": 342
+    },
+    {
+      "id": "s0014",
+      "text": "Not by following instructions.",
+      "startMs": 24763.0,
+      "endMs": 26633.0,
+      "charStart": 343,
+      "charEnd": 373
+    },
+    {
+      "id": "s0015",
+      "text": "Leadership Reproduces Itself.",
+      "startMs": 27144.0,
+      "endMs": 29350.0,
+      "charStart": 375,
+      "charEnd": 404
+    },
+    {
+      "id": "s0016",
+      "text": "A moment happens.",
+      "startMs": 29675.0,
+      "endMs": 31045.0,
+      "charStart": 406,
+      "charEnd": 423
+    },
+    {
+      "id": "s0017",
+      "text": "A problem is raised.",
+      "startMs": 31254.0,
+      "endMs": 32566.0,
+      "charStart": 424,
+      "charEnd": 444
+    },
+    {
+      "id": "s0018",
+      "text": "Someone responds.",
+      "startMs": 32949.0,
+      "endMs": 34237.0,
+      "charStart": 445,
+      "charEnd": 462
+    },
+    {
+      "id": "s0019",
+      "text": "The group moves forward.",
+      "startMs": 34237.0,
+      "endMs": 35816.0,
+      "charStart": 462,
+      "charEnd": 486
+    },
+    {
+      "id": "s0020",
+      "text": "It works.",
+      "startMs": 36501.0,
+      "endMs": 37395.0,
+      "charStart": 489,
+      "charEnd": 498
+    },
+    {
+      "id": "s0021",
+      "text": "The next time something similar happens, the same approach appears again.",
+      "startMs": 37720.0,
+      "endMs": 41726.0,
+      "charStart": 500,
+      "charEnd": 573
+    },
+    {
+      "id": "s0022",
+      "text": "Not because it was chosen.",
+      "startMs": 42330.0,
+      "endMs": 43758.0,
+      "charStart": 574,
+      "charEnd": 600
+    },
+    {
+      "id": "s0023",
+      "text": "Because it was remembered.",
+      "startMs": 43885.0,
+      "endMs": 45220.0,
+      "charStart": 601,
+      "charEnd": 627
+    },
+    {
+      "id": "s0024",
+      "text": "This is how behavior spreads.",
+      "startMs": 45220.0,
+      "endMs": 47333.0,
+      "charStart": 627,
+      "charEnd": 656
+    },
+    {
+      "id": "s0025",
+      "text": "Not through agreement.",
+      "startMs": 47821.0,
+      "endMs": 49087.0,
+      "charStart": 658,
+      "charEnd": 680
+    },
+    {
+      "id": "s0026",
+      "text": "Through repetition.",
+      "startMs": 49261.0,
+      "endMs": 50515.0,
+      "charStart": 681,
+      "charEnd": 700
+    },
+    {
+      "id": "s0027",
+      "text": "What is seen becomes familiar.",
+      "startMs": 51212.0,
+      "endMs": 53232.0,
+      "charStart": 702,
+      "charEnd": 732
+    },
+    {
+      "id": "s0028",
+      "text": "What is familiar becomes natural.",
+      "startMs": 53557.0,
+      "endMs": 55682.0,
+      "charStart": 733,
+      "charEnd": 766
+    },
+    {
+      "id": "s0029",
+      "text": "What feels natural is repeated.",
+      "startMs": 55682.0,
+      "endMs": 58178.0,
+      "charStart": 766,
+      "charEnd": 797
+    },
+    {
+      "id": "s0030",
+      "text": "No one needs to say, “This is how we do things.” It is already understood.",
+      "startMs": 59199.0,
+      "endMs": 64401.0,
+      "charStart": 800,
+      "charEnd": 874
+    },
+    {
+      "id": "s0031",
+      "text": "The group has learned.",
+      "startMs": 64784.0,
+      "endMs": 66130.0,
+      "charStart": 875,
+      "charEnd": 897
+    },
+    {
+      "id": "s0032",
+      "text": "If Dissent is Welcomed, people bring it.",
+      "startMs": 66456.0,
+      "endMs": 69091.0,
+      "charStart": 899,
+      "charEnd": 939
+    },
+    {
+      "id": "s0033",
+      "text": "If Feedback Drives Change, people adjust.",
+      "startMs": 69416.0,
+      "endMs": 72272.0,
+      "charStart": 941,
+      "charEnd": 982
+    },
+    {
+      "id": "s0034",
+      "text": "If Leaders Feel the Consequences, people stay close to what",
+      "startMs": 72655.0,
+      "endMs": 75883.0,
+      "charStart": 984,
+      "charEnd": 1043
+    },
+    {
+      "id": "s0035",
+      "text": "happens next.",
+      "startMs": 75929.0,
+      "endMs": 76904.0,
+      "charStart": 1044,
+      "charEnd": 1057
+    },
+    {
+      "id": "s0036",
+      "text": "If Disagreement is Suppressed, people stop raising concerns.",
+      "startMs": 77113.0,
+      "endMs": 80945.0,
+      "charStart": 1059,
+      "charEnd": 1119
+    },
+    {
+      "id": "s0037",
+      "text": "When Learning Collapse takes hold, people rely on incomplete signals.",
+      "startMs": 81223.0,
+      "endMs": 85542.0,
+      "charStart": 1121,
+      "charEnd": 1190
+    },
+    {
+      "id": "s0038",
+      "text": "If Exceptions are Forever, people build around them.",
+      "startMs": 85821.0,
+      "endMs": 88642.0,
+      "charStart": 1192,
+      "charEnd": 1244
+    },
+    {
+      "id": "s0039",
+      "text": "Nothing here needs to be enforced as a rule.",
+      "startMs": 88967.0,
+      "endMs": 91196.0,
+      "charStart": 1246,
+      "charEnd": 1290
+    },
+    {
+      "id": "s0040",
+      "text": "It only needs to work.",
+      "startMs": 91405.0,
+      "endMs": 92705.0,
+      "charStart": 1291,
+      "charEnd": 1313
+    },
+    {
+      "id": "s0041",
+      "text": "This is what keeps that stability in place.",
+      "startMs": 92705.0,
+      "endMs": 95097.0,
+      "charStart": 1313,
+      "charEnd": 1356
+    },
+    {
+      "id": "s0042",
+      "text": "Not structure.",
+      "startMs": 95294.0,
+      "endMs": 96154.0,
+      "charStart": 1359,
+      "charEnd": 1373
+    },
+    {
+      "id": "s0043",
+      "text": "Not policy.",
+      "startMs": 96362.0,
+      "endMs": 97256.0,
+      "charStart": 1374,
+      "charEnd": 1385
+    },
+    {
+      "id": "s0044",
+      "text": "Repetition.",
+      "startMs": 97465.0,
+      "endMs": 98267.0,
+      "charStart": 1386,
+      "charEnd": 1397
+    },
+    {
+      "id": "s0045",
+      "text": "What works is not always what is intended.",
+      "startMs": 98545.0,
+      "endMs": 100890.0,
+      "charStart": 1399,
+      "charEnd": 1441
+    },
+    {
+      "id": "s0046",
+      "text": "A shortcut that saves time is repeated.",
+      "startMs": 100890.0,
+      "endMs": 103549.0,
+      "charStart": 1441,
+      "charEnd": 1480
+    },
+    {
+      "id": "s0047",
+      "text": "A softened message that avoids conflict is repeated.",
+      "startMs": 103967.0,
+      "endMs": 107322.0,
+      "charStart": 1482,
+      "charEnd": 1534
+    },
+    {
+      "id": "s0048",
+      "text": "A decision that moves things forward quickly is repeated.",
+      "startMs": 107322.0,
+      "endMs": 110422.0,
+      "charStart": 1534,
+      "charEnd": 1591
+    },
+    {
+      "id": "s0049",
+      "text": "Each one makes sense in the moment.",
+      "startMs": 110782.0,
+      "endMs": 112790.0,
+      "charStart": 1594,
+      "charEnd": 1629
+    },
+    {
+      "id": "s0050",
+      "text": "Together, they form something larger.",
+      "startMs": 113069.0,
+      "endMs": 115066.0,
+      "charStart": 1630,
+      "charEnd": 1667
+    },
+    {
+      "id": "s0051",
+      "text": "The group begins to reflect what has been reinforced.",
+      "startMs": 115670.0,
+      "endMs": 118572.0,
+      "charStart": 1668,
+      "charEnd": 1721
+    },
+    {
+      "id": "s0052",
+      "text": "Not what was designed.",
+      "startMs": 118955.0,
+      "endMs": 120244.0,
+      "charStart": 1723,
+      "charEnd": 1745
+    },
+    {
+      "id": "s0053",
+      "text": "What was repeated.",
+      "startMs": 120395.0,
+      "endMs": 121626.0,
+      "charStart": 1746,
+      "charEnd": 1764
+    },
+    {
+      "id": "s0054",
+      "text": "This is why small moments matter.",
+      "startMs": 122136.0,
+      "endMs": 124180.0,
+      "charStart": 1766,
+      "charEnd": 1799
+    },
+    {
+      "id": "s0055",
+      "text": "Not because they are important on their own.",
+      "startMs": 124180.0,
+      "endMs": 126397.0,
+      "charStart": 1799,
+      "charEnd": 1843
+    },
+    {
+      "id": "s0056",
+      "text": "Because they are copied.",
+      "startMs": 126885.0,
+      "endMs": 128255.0,
+      "charStart": 1845,
+      "charEnd": 1869
+    },
+    {
+      "id": "s0057",
+      "text": "A single response becomes a pattern.",
+      "startMs": 128951.0,
+      "endMs": 131169.0,
+      "charStart": 1871,
+      "charEnd": 1907
+    },
+    {
+      "id": "s0058",
+      "text": "A pattern becomes a norm.",
+      "startMs": 131552.0,
+      "endMs": 133108.0,
+      "charStart": 1908,
+      "charEnd": 1933
+    },
+    {
+      "id": "s0059",
+      "text": "A norm becomes something others carry forward.",
+      "startMs": 133108.0,
+      "endMs": 135755.0,
+      "charStart": 1933,
+      "charEnd": 1979
+    },
+    {
+      "id": "s0060",
+      "text": "And when new moments arise, those patterns are already there.",
+      "startMs": 136127.0,
+      "endMs": 139540.0,
+      "charStart": 1982,
+      "charEnd": 2043
+    },
+    {
+      "id": "s0061",
+      "text": "Ready to be used again.",
+      "startMs": 139540.0,
+      "endMs": 141049.0,
+      "charStart": 2043,
+      "charEnd": 2066
+    },
+    {
+      "id": "s0062",
+      "text": "This is how leadership continues.",
+      "startMs": 141664.0,
+      "endMs": 143603.0,
+      "charStart": 2069,
+      "charEnd": 2102
+    },
+    {
+      "id": "s0063",
+      "text": "Not through a single person.",
+      "startMs": 143812.0,
+      "endMs": 145380.0,
+      "charStart": 2104,
+      "charEnd": 2132
+    },
+    {
+      "id": "s0064",
+      "text": "Through many people repeating what they have seen.",
+      "startMs": 145380.0,
+      "endMs": 147853.0,
+      "charStart": 2132,
+      "charEnd": 2182
+    },
+    {
+      "id": "s0065",
+      "text": "What began as Attention Finds a Focus becomes something shared.",
+      "startMs": 148387.0,
+      "endMs": 152114.0,
+      "charStart": 2185,
+      "charEnd": 2248
+    },
+    {
+      "id": "s0066",
+      "text": "People know where to look.",
+      "startMs": 152439.0,
+      "endMs": 153867.0,
+      "charStart": 2250,
+      "charEnd": 2276
+    },
+    {
+      "id": "s0067",
+      "text": "They know what to do.",
+      "startMs": 153983.0,
+      "endMs": 155156.0,
+      "charStart": 2277,
+      "charEnd": 2298
+    },
+    {
+      "id": "s0068",
+      "text": "They know what works.",
+      "startMs": 155272.0,
+      "endMs": 156479.0,
+      "charStart": 2299,
+      "charEnd": 2320
+    },
+    {
+      "id": "s0069",
+      "text": "And they act on it.",
+      "startMs": 156514.0,
+      "endMs": 157768.0,
+      "charStart": 2321,
+      "charEnd": 2340
+    },
+    {
+      "id": "s0070",
+      "text": "> People copy what got rewarded, not what got written down.",
+      "startMs": 158372.0,
+      "endMs": 162145.0,
+      "charStart": 2342,
+      "charEnd": 2401
+    },
+    {
+      "id": "s0071",
+      "text": "The cycle does not end.",
+      "startMs": 162319.0,
+      "endMs": 163968.0,
+      "charStart": 2403,
+      "charEnd": 2426
+    },
+    {
+      "id": "s0072",
+      "text": "A new question appears.",
+      "startMs": 164212.0,
+      "endMs": 165732.0,
+      "charStart": 2427,
+      "charEnd": 2450
+    },
+    {
+      "id": "s0073",
+      "text": "The room slows.",
+      "startMs": 165941.0,
+      "endMs": 167114.0,
+      "charStart": 2451,
+      "charEnd": 2466
+    },
+    {
+      "id": "s0074",
+      "text": "Attention Finds a Focus.",
+      "startMs": 167497.0,
+      "endMs": 169204.0,
+      "charStart": 2468,
+      "charEnd": 2492
+    },
+    {
+      "id": "s0075",
+      "text": "What happens next will feel familiar.",
+      "startMs": 169529.0,
+      "endMs": 171723.0,
+      "charStart": 2494,
+      "charEnd": 2531
+    },
+    {
+      "id": "s0076",
+      "text": "Because it has happened before.",
+      "startMs": 171932.0,
+      "endMs": 173465.0,
+      "charStart": 2532,
+      "charEnd": 2563
+    },
+    {
+      "id": "s0077",
+      "text": "And what happens now will be carried forward again.",
+      "startMs": 173790.0,
+      "endMs": 176495.0,
+      "charStart": 2565,
+      "charEnd": 2616
+    },
+    {
+      "id": "s0078",
+      "text": "(Englewood Cliffs, NJ: Prentice Hall, 1977); Edgar H.",
+      "startMs": 177099.0,
+      "endMs": 182776.0,
+      "charStart": 2618,
+      "charEnd": 2671
+    },
+    {
+      "id": "s0079",
+      "text": "Schein, Organizational Culture and Leadership, 5th ed.",
+      "startMs": 182776.0,
+      "endMs": 185876.0,
+      "charStart": 2671,
+      "charEnd": 2725
+    },
+    {
+      "id": "s0080",
+      "text": "(Hoboken, NJ: Wiley, 2017).",
+      "startMs": 186119.0,
+      "endMs": 188871.0,
+      "charStart": 2727,
+      "charEnd": 2754
+    }
+  ]
+}
