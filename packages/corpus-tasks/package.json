@@ -13,6 +13,6 @@
     "test": "node --test ./scripts/generate-book-cover-assets.test.mjs ./scripts/validate-book-cover-assets.test.mjs"
   },
   "dependencies": {
-    "sharp": "^0.35.3"
+    "sharp": "^0.35.4"
   }
 }
