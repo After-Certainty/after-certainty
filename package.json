@@ -46,7 +46,9 @@
   "devDependencies": {
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
-    "turbo": "2.10.11"
+    "jsdom": "30.0.1",
+    "turbo": "2.10.11",
+    "vitest": "4.1.11"
   },
   "dependencies": {
     "next": "16.3.4",
