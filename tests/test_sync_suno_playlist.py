@@ -174,9 +174,7 @@ def test_sync_blocks_unmatched_clip(tmp_path: Path) -> None:
         title="Known Song",
         clip_id="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
     )
-    _write_playlist(
-        playlist_path, slug="known", clip_id="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"
-    )
+    _write_playlist(playlist_path, slug="known", clip_id="aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa")
     payload = {
         "playlist": {
             "playlist_clips": [

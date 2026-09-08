@@ -59,9 +59,7 @@ def _plan(
         key = lib.norm_title(clip["title"])
         song = songs.get(key)
         if not song:
-            errors.append(
-                f"UNMATCHED CLIP #{clip['position']}: {clip['title']} ({clip['id']})"
-            )
+            errors.append(f"UNMATCHED CLIP #{clip['position']}: {clip['title']} ({clip['id']})")
             continue
         matched.add(key)
         doc = song["doc"]
@@ -72,13 +70,9 @@ def _plan(
         primary_id = str((primary or {}).get("externalId") or "")
         if clip["id"] not in ids:
             updates.append({"slug": slug, "path": song["path"], "clip": clip, "kind": "new"})
-            ok_lines.append(
-                f"NEW RECORDING for {slug}: {primary_id or '(none)'} → {clip['id']}"
-            )
+            ok_lines.append(f"NEW RECORDING for {slug}: {primary_id or '(none)'} → {clip['id']}")
         elif clip["id"] != primary_id:
-            updates.append(
-                {"slug": slug, "path": song["path"], "clip": clip, "kind": "promote"}
-            )
+            updates.append({"slug": slug, "path": song["path"], "clip": clip, "kind": "promote"})
             ok_lines.append(
                 f"PRIMARY DIFFERS for {slug}: playlist={clip['id']} yaml_primary={primary_id}"
             )
@@ -176,8 +170,7 @@ def main(argv: list[str] | None = None) -> int:
         print()
         print(f"blocking issues: {len(errors)} (no YAML writes)")
         print(
-            "Note: unmatched clips require editorial new-song ingest; "
-            "see suno-playlist-sync skill."
+            "Note: unmatched clips require editorial new-song ingest; see suno-playlist-sync skill."
         )
         return 1
 
@@ -190,9 +183,7 @@ def main(argv: list[str] | None = None) -> int:
 
     for item in updates:
         song_doc = yaml.safe_load(item["path"].read_text(encoding="utf-8"))
-        updated, action = lib.apply_clip_to_song(
-            song_doc, item["clip"], snapshot_day=snapshot_day
-        )
+        updated, action = lib.apply_clip_to_song(song_doc, item["clip"], snapshot_day=snapshot_day)
         lib.dump_yaml(updated, item["path"])
         print(f"wrote {item['path']} ({action})")
         songs[lib.norm_title(str(updated["title"]))] = {
