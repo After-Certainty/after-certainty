@@ -6,90 +6,31 @@ Dev-only tool. Does not write semantic files. Never contacts Suno unless
 
 Usage:
   python3 tools/songs/reconcile_suno_playlist.py
-  python3 tools/songs/reconcile_suno_playlist.py --fixture tools/songs/fixtures/suno-playlist-2026-09-06.json
+  python3 tools/songs/reconcile_suno_playlist.py --fixture tools/songs/fixtures/suno-playlist-2026-09-08.json
 """
 
 from __future__ import annotations
 
 import argparse
-import json
-import re
 import sys
-import urllib.request
 from pathlib import Path
 
-try:
-    import yaml
-except ModuleNotFoundError as exc:  # pragma: no cover
-    raise SystemExit("PyYAML is required") from exc
+_SONGS_DIR = Path(__file__).resolve().parent
+if str(_SONGS_DIR) not in sys.path:
+    sys.path.insert(0, str(_SONGS_DIR))
 
-REPO = Path(__file__).resolve().parents[2]
-DEFAULT_FIXTURE = REPO / "tools" / "songs" / "fixtures" / "suno-playlist-2026-09-06.json"
-PLAYLIST_API = (
-    "https://studio-api.prod.suno.com/api/playlist/ac533aa1-6688-4901-833a-ec792bb21e87/?page=1"
-)
-NULL_UUID = "00000000-0000-0000-0000-000000000000"
-FETCH_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/128.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json",
-    "Referer": "https://suno.com/",
-    "Origin": "https://suno.com",
-}
+import suno_playlist_lib as lib  # noqa: E402
 
 
-def _norm_title(title: str) -> str:
-    t = title.replace("’", "'").replace("‘", "'")
-    t = re.sub(r"\s*\([^)]*\)\s*$", "", t)
-    t = re.sub(r"[^a-z0-9]+", " ", t.lower()).strip()
-    return t
-
-
-def _load_snapshot(path: Path | None, *, fetch: bool) -> dict:
-    if fetch:
-        req = urllib.request.Request(PLAYLIST_API, headers=FETCH_HEADERS)
-        with urllib.request.urlopen(req, timeout=60) as resp:  # noqa: S310
-            data = json.loads(resp.read().decode("utf-8"))
-        return {"playlist": data, "source": PLAYLIST_API}
-    fixture_path = path or DEFAULT_FIXTURE
-    raw = json.loads(fixture_path.read_text(encoding="utf-8"))
-    if "playlist" in raw and isinstance(raw["playlist"], dict):
-        return raw
-    return {"playlist": raw, "source": str(fixture_path)}
-
-
-def _iter_clips(snapshot: dict) -> list[dict]:
-    playlist = snapshot.get("playlist") or snapshot
-    clips = playlist.get("playlist_clips") or []
-    out = []
-    for item in clips:
-        clip = item.get("clip") if isinstance(item, dict) else None
-        if not isinstance(clip, dict):
-            continue
-        out.append(
-            {
-                "position": int(item.get("relative_index") or 0),
-                "id": str(clip.get("id") or ""),
-                "title": str(clip.get("title") or ""),
-                "created_at": clip.get("created_at"),
-                "metadata": clip.get("metadata") or {},
-            }
-        )
-    return out
-
-
-def _load_songs() -> dict[str, dict]:
-    by_norm: dict[str, dict] = {}
-    for path in sorted((REPO / "semantic" / "songs").glob("*.yml")):
-        doc = yaml.safe_load(path.read_text(encoding="utf-8"))
-        if not isinstance(doc, dict):
-            continue
-        title = str(doc.get("title") or "")
-        by_norm[_norm_title(title)] = {"path": path, "doc": doc}
-    return by_norm
+def _resolve_fixture(path: Path | None) -> Path:
+    if path is not None:
+        return path
+    if lib.DEFAULT_FIXTURE.is_file():
+        return lib.DEFAULT_FIXTURE
+    prev = lib.FIXTURES_DIR / "suno-playlist-2026-09-06.json"
+    if prev.is_file():
+        return prev
+    return lib.DEFAULT_FIXTURE
 
 
 def main() -> int:
@@ -102,11 +43,12 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    snapshot = _load_snapshot(args.fixture, fetch=args.fetch)
-    clips = _iter_clips(snapshot)
-    songs = _load_songs()
+    fixture = None if args.fetch else _resolve_fixture(args.fixture)
+    snapshot = lib.load_snapshot(fixture, fetch=args.fetch)
+    clips = lib.iter_clips(snapshot)
+    songs = lib.load_songs()
 
-    print(f"source: {snapshot.get('source') or args.fixture or DEFAULT_FIXTURE}")
+    print(f"source: {snapshot.get('source') or fixture or lib.DEFAULT_FIXTURE}")
     print(f"playlist clips: {len(clips)}")
     print(f"semantic songs: {len(songs)}")
     print()
@@ -114,7 +56,7 @@ def main() -> int:
     matched: set[str] = set()
     issues = 0
     for clip in clips:
-        key = _norm_title(clip["title"])
+        key = lib.norm_title(clip["title"])
         song = songs.get(key)
         if not song:
             print(f"UNMATCHED CLIP #{clip['position']}: {clip['title']} ({clip['id']})")

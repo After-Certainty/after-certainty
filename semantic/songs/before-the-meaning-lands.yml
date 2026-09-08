@@ -1,9 +1,7 @@
 slug: before-the-meaning-lands
 title: Before the Meaning Lands
-shortDescription: |-
-  Hindi–English trip-hop: ठहरो ज़रा—wait before naming silence, before the first story closes into certainty.
-longDescription: |-
-  Tanpura drone, sarod, and heavy breaks hold space between signal and story. Bilingual refrains (thehro zara, abhi nahin) make delay audible: what you said and what I heard are not the same, and the mind fills empty spaces and calls the filling evidence. How Meaning Moves and Everyone Knows Love fit intent-gets-assigned and gaps-invite-completion; The Discipline of Uncertainty fits leaving meaning open in your hands. A cover/edit shortens runtime without changing the ask to look again.
+shortDescription: 'Hindi–English trip-hop: ठहरो ज़रा—wait before naming silence, before the first story closes into certainty.'
+longDescription: 'Tanpura drone, sarod, and heavy breaks hold space between signal and story. Bilingual refrains (thehro zara, abhi nahin) make delay audible: what you said and what I heard are not the same, and the mind fills empty spaces and calls the filling evidence. How Meaning Moves and Everyone Knows Love fit intent-gets-assigned and gaps-invite-completion; The Discipline of Uncertainty fits leaving meaning open in your hands. A cover/edit shortens runtime without changing the ask to look again.'
 creatorNames:
 - Kevin Steffensen
 lyricsPath: corpus/songs/before-the-meaning-lands.md
@@ -26,8 +24,19 @@ relatedBooks:
 - the-discipline-of-uncertainty
 recordings:
 - platform: suno
-  externalId: b1b37f81-3e3b-4970-a4ce-62128cfcff7d
+  externalId: ad7341c8-3087-48ea-be1c-fdfa7d9dea90
   primary: true
+  recordingTitle: Before the Meaning Lands
+  createdAt: '2026-09-08T21:10:58.227Z'
+  durationSeconds: 321.44
+  modelName: chirp-fenix
+  modelVersion: v5.5
+  task: gen
+  isRemix: false
+  styleTags: Dark, hypnotic trip-hop fused with traditional Indian instrumentation. Slow heavy breakbeat, deep sub-bass, dusty drums, vinyl texture, sparse atmospheric electronics, and lots of negative space. Prominent tanpura drone, sitar, sarod, tabla, bansuri, and subtle harmonium. Keep the Indian instruments organic and central, not cinematic or Bollywood-pop. Intimate male English vocal with restrained conversational phrasing; expressive female Hindi vocal for short mantra-like refrains and melodic responses. Voices gradually overlap. Keep instrumental sections brief and focused, with concise sitar or sarod phrases rather than extended solos. No huge pop chorus. Cyclical, nocturnal, meditative, slightly uneasy, and groove-driven. Maintain the trip-hop beat throughout. Concise arrangement, target 4–5 minutes.
+- platform: suno
+  externalId: b1b37f81-3e3b-4970-a4ce-62128cfcff7d
+  primary: false
   recordingTitle: Before the Meaning Lands
   createdAt: '2026-09-06T01:03:43.605Z'
   durationSeconds: 450.0
@@ -35,14 +44,15 @@ recordings:
   modelVersion: v4.5-all
   task: cover
   isRemix: true
-  styleTags: 'trip-hop, Indian fusion'
+  styleTags: trip-hop, Indian fusion
   remixInstruction: Let’s cut a verse to shorten the song in under 7 minutes
+  lineageNote: Historical playlist recording superseded by the 2026-09-08 primary clip.
+  supersededBy: ad7341c8-3087-48ea-be1c-fdfa7d9dea90
 generation:
-  authoredPrompt: 'trip-hop, Indian fusion'
+  authoredPrompt: trip-hop, Indian fusion
   authoredPromptSource: suno-playlist
   authoredPromptRetrievedAt: '2026-09-06'
 editorialStatus: provisional
 grounding:
   type: original_synthesis
-  note: |-
-    After Certainty song composition; lyrics and style prompt ingested from the Suno playlist snapshot without rewriting existing song entries.
+  note: After Certainty song composition; lyrics and style prompt ingested from the Suno playlist snapshot without rewriting existing song entries.
