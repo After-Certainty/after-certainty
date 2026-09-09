@@ -1,14 +1,7 @@
 slug: the-moon-is-probably-fine
 title: The Moon Is Probably Fine
-shortDescription: 'Woozy Mellotron psychedelia: a three a.m. moon scare softens into probably fine—enough
-  uncertain reassurance to leave the curtains open and let the night continue.'
-longDescription: 'Tape flutter, warped organ, and choir layers make reassurance slightly unstable, which
-  fits a chorus built on probably. The singer nearly intervenes in stocking feet, then practices restraint:
-  moons turn without consulting anyone, and not every crooked sky needs a catastrophe narrative tonight.
-  The Discipline of Uncertainty verifies provisional-commitment and humility; commitment-leaves-room matches
-  fine enough for now. Curiosity Before Certainty fits the bridge’s maybes collapsing when the moon simply
-  comes back. The joke stays cosmic and kitchen-scale at once, which is how ordinary judgment survives
-  unfinished nights.'
+shortDescription: 'Woozy Mellotron psychedelia: a three a.m. moon scare softens into probably fine—enough uncertain reassurance to leave the curtains open and let the night continue.'
+longDescription: 'Tape flutter, warped organ, and choir layers make reassurance slightly unstable, which fits a chorus built on probably. The singer nearly intervenes in stocking feet, then practices restraint: moons turn without consulting anyone, and not every crooked sky needs a catastrophe narrative tonight. The Discipline of Uncertainty verifies provisional-commitment and humility; commitment-leaves-room matches fine enough for now. Curiosity Before Certainty fits the bridge’s maybes collapsing when the moon simply comes back. The joke stays cosmic and kitchen-scale at once, which is how ordinary judgment survives unfinished nights.'
 creatorNames:
 - Kevin Steffensen
 lyricsPath: corpus/songs/the-moon-is-probably-fine.md
@@ -29,8 +22,20 @@ relatedBooks:
 - after-certainty
 recordings:
 - platform: suno
-  externalId: 0893f815-4e2e-4100-b162-5ce03b096786
+  externalId: 40a8ef63-7951-46d3-b53d-fc4682f6d993
   primary: true
+  recordingTitle: The Moon Is Probably Fine (Remastered)
+  createdAt: '2026-09-06T15:02:58.024Z'
+  durationSeconds: 403.96
+  modelName: chirp-flounder
+  modelVersion: v5.5
+  task: upsample
+  isRemix: true
+  styleTags: psychedelic indie rock, experimental
+  editedClipId: 00000000-0000-0000-0000-000000000000
+- platform: suno
+  externalId: 0893f815-4e2e-4100-b162-5ce03b096786
+  primary: false
   recordingTitle: The Moon Is Probably Fine
   createdAt: '2026-09-03T01:22:05.492Z'
   durationSeconds: 403.96
@@ -38,25 +43,11 @@ recordings:
   modelVersion: v4.5-all
   task: gen
   isRemix: false
-  styleTags: Psychedelic indie rock with a lush, surreal, early-2000s experimental feel. No acoustic guitar.
-    Heavy use of Mellotron choir and strings, warped vintage keyboards, analog synths, tape flutter, reverse
-    effects, phasing, organ swells, fuzzy electric guitar textures, melodic bass, and loose live drums.
-    Dreamy but slightly unstable, with drifting stereo movement, strange electronic details, and occasional
-    bursts of distorted color. Intimate male vocal, soft and conversational with dry humor and a fragile
-    emotional edge. Verses should feel woozy and nocturnal; choruses should bloom into huge cosmic Mellotron
-    layers and glowing psychedelic harmonies. Make the instrumental break especially immersive and hallucinatory.
-    Warm, strange, melancholy, playful, and reassuring without becoming sentimental. Avoid folk, acoustic
-    strumming, glossy indie-pop, or conventional modern rock production.
+  styleTags: Psychedelic indie rock with a lush, surreal, early-2000s experimental feel. No acoustic guitar. Heavy use of Mellotron choir and strings, warped vintage keyboards, analog synths, tape flutter, reverse effects, phasing, organ swells, fuzzy electric guitar textures, melodic bass, and loose live drums. Dreamy but slightly unstable, with drifting stereo movement, strange electronic details, and occasional bursts of distorted color. Intimate male vocal, soft and conversational with dry humor and a fragile emotional edge. Verses should feel woozy and nocturnal; choruses should bloom into huge cosmic Mellotron layers and glowing psychedelic harmonies. Make the instrumental break especially immersive and hallucinatory. Warm, strange, melancholy, playful, and reassuring without becoming sentimental. Avoid folk, acoustic strumming, glossy indie-pop, or conventional modern rock production.
+  lineageNote: Historical playlist recording superseded by the 2026-09-09 primary clip.
+  supersededBy: 40a8ef63-7951-46d3-b53d-fc4682f6d993
 generation:
-  authoredPrompt: Psychedelic indie rock with a lush, surreal, early-2000s experimental feel. No acoustic
-    guitar. Heavy use of Mellotron choir and strings, warped vintage keyboards, analog synths, tape flutter,
-    reverse effects, phasing, organ swells, fuzzy electric guitar textures, melodic bass, and loose live
-    drums. Dreamy but slightly unstable, with drifting stereo movement, strange electronic details, and
-    occasional bursts of distorted color. Intimate male vocal, soft and conversational with dry humor
-    and a fragile emotional edge. Verses should feel woozy and nocturnal; choruses should bloom into huge
-    cosmic Mellotron layers and glowing psychedelic harmonies. Make the instrumental break especially
-    immersive and hallucinatory. Warm, strange, melancholy, playful, and reassuring without becoming sentimental.
-    Avoid folk, acoustic strumming, glossy indie-pop, or conventional modern rock production.
+  authoredPrompt: Psychedelic indie rock with a lush, surreal, early-2000s experimental feel. No acoustic guitar. Heavy use of Mellotron choir and strings, warped vintage keyboards, analog synths, tape flutter, reverse effects, phasing, organ swells, fuzzy electric guitar textures, melodic bass, and loose live drums. Dreamy but slightly unstable, with drifting stereo movement, strange electronic details, and occasional bursts of distorted color. Intimate male vocal, soft and conversational with dry humor and a fragile emotional edge. Verses should feel woozy and nocturnal; choruses should bloom into huge cosmic Mellotron layers and glowing psychedelic harmonies. Make the instrumental break especially immersive and hallucinatory. Warm, strange, melancholy, playful, and reassuring without becoming sentimental. Avoid folk, acoustic strumming, glossy indie-pop, or conventional modern rock production.
   authoredPromptSource: master-doc
   authoredPromptRetrievedAt: '2026-09-04'
 editorialStatus: provisional

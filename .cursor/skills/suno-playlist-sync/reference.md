@@ -19,18 +19,18 @@ export PATH="$HOME/.local/bin:$PWD/.venv/bin:$PATH"
 # Read-only reconcile (default fixture or FIXTURE=…; FETCH=1 for live)
 make reconcile-suno-playlist
 make reconcile-suno-playlist FETCH=1
-make reconcile-suno-playlist FIXTURE=tools/songs/fixtures/suno-playlist-2026-09-08.json
+make reconcile-suno-playlist FIXTURE=tools/songs/fixtures/suno-playlist-2026-09-09.json
 
 # Dry-run sync plan (+ optional fixture save)
-make sync-suno-playlist FETCH=1 SAVE_FIXTURE=1 SNAPSHOT_DATE=2026-09-08
+make sync-suno-playlist FETCH=1 SAVE_FIXTURE=1 SNAPSHOT_DATE=2026-09-09
 
 # Apply clip ID / order updates
-make sync-suno-playlist-apply FETCH=1 SAVE_FIXTURE=1 SNAPSHOT_DATE=2026-09-08
-make sync-suno-playlist-apply FIXTURE=tools/songs/fixtures/suno-playlist-2026-09-08.json SNAPSHOT_DATE=2026-09-08
+make sync-suno-playlist-apply FETCH=1 SAVE_FIXTURE=1 SNAPSHOT_DATE=2026-09-09
+make sync-suno-playlist-apply FIXTURE=tools/songs/fixtures/suno-playlist-2026-09-09.json SNAPSHOT_DATE=2026-09-09
 
 # Direct Python
 python3 tools/songs/reconcile_suno_playlist.py --fetch
-python3 tools/songs/sync_suno_playlist.py --fetch --save-fixture --apply --snapshot-date 2026-09-08
+python3 tools/songs/sync_suno_playlist.py --fetch --save-fixture --apply --snapshot-date 2026-09-09
 ```
 
 ## Fixtures

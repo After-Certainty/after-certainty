@@ -1,0 +1,49 @@
+slug: a-perfectly-reasonable-disaster
+title: A Perfectly Reasonable Disaster
+shortDescription: |-
+  Psychedelic art-pop parable: Gerald moves a road sign six feet, everyone follows reasonably, and the world forgets its name.
+longDescription: |-
+  Three-part British psychedelic suite where a local, sensible correction cascades into surreal disorder—clocks at seventeen, a mayor upside down, fishes in the treetops—while every choice still feels sincere. The punchline is not a villain but a sideways sign: coupling of small acts to large meaning-loss, then a quiet turn of the post again. Fits The Discipline of Uncertainty and Curiosity Before Certainty on revisability after confidence; Coupling on how one moved marker rearranges the whole route. Patterns meaning-gets-distorted and contact-keeps-the-read-open match the road that leaves you nowhere near.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/a-perfectly-reasonable-disaster.md
+lyricLanguages:
+- en
+relatedConcepts:
+- coupling
+- certainty
+- judgment
+- meaning
+relatedPatterns:
+- meaning-gets-distorted
+- contact-keeps-the-read-open
+- revisability-preserves-judgment
+relatedBooks:
+- the-discipline-of-uncertainty
+- curiosity-before-certainty
+- coupling
+- after-certainty
+recordings:
+- platform: suno
+  externalId: 8cfa206f-b4be-49f9-a842-06c8eba1723b
+  primary: true
+  recordingTitle: A Perfectly Reasonable Disaster
+  createdAt: '2026-09-09T04:43:45.924Z'
+  durationSeconds: 309.68
+  modelName: chirp-fenix
+  modelVersion: v5.5
+  task: cover
+  isRemix: true
+  styleTags: |-
+    Early-1970s British psychedelic art-pop pushed further into kaleidoscopic experimentation, still in three distinct connected sections with contrasting tunes, rhythms and chord progressions, joined by trippy instrumental bridges. Warm, roomy live drums with splashing cymbals, highly melodic, wandering bass lines, chiming acoustic guitar, fuzz-drenched electric guitar, and dry, close-mic’d piano that drops in as a surreal accent. Expanded psychedelic textures: tape-saturated delays, reverse swells, varispeed moments, gentle phasing and flanging on guitars and backing vocals, and occasional warped room ambience. Strings, oboe, English horn and French horn appear as unexpected, echo-like colors and drifting countermelodies, treated with mild tape wow and pitch bends so they feel otherworldly rather than orchestral. Part I stays intimate, pastoral and slightly uncanny; Part II dissolves into a dreamier, more lysergic soundscape with swirling vocal harmonies and hazy, reverb-washed bridges;
+  remixInstruction: Let’s increase the psychedelic sounds
+generation:
+  authoredPrompt: |-
+    Early-1970s British psychedelic art-pop pushed further into kaleidoscopic experimentation, still in three distinct connected sections with contrasting tunes, rhythms and chord progressions, joined by trippy instrumental bridges. Warm, roomy live drums with splashing cymbals, highly melodic, wandering bass lines, chiming acoustic guitar, fuzz-drenched electric guitar, and dry, close-mic’d piano that drops in as a surreal accent. Expanded psychedelic textures: tape-saturated delays, reverse swells, varispeed moments, gentle phasing and flanging on guitars and backing vocals, and occasional warped room ambience. Strings, oboe, English horn and French horn appear as unexpected, echo-like colors and drifting countermelodies, treated with mild tape wow and pitch bends so they feel otherworldly rather than orchestral. Part I stays intimate, pastoral and slightly uncanny; Part II dissolves into a dreamier, more lysergic soundscape with swirling vocal harmonies and hazy, reverb-washed bridges;
+  authoredPromptSource: suno-playlist
+  authoredPromptRetrievedAt: '2026-09-09'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: |-
+    After Certainty song composition; lyrics and style prompt ingested from the Suno playlist snapshot without rewriting existing song entries.

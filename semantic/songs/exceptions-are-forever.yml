@@ -1,14 +1,7 @@
 slug: exceptions-are-forever
 title: Exceptions Are Forever
-shortDescription: 'Claustrophobic emo and post-hardcore: temporary emergency measures hum in the walls
-  forever, and ABSURDITY IS DIVINE lands like a bitter prayer to inherited fear.'
-longDescription: 'Jagged dynamics match trapped honesty—exceptions outlive their originating fright; cages
-  sometimes keep worse outside; tearing every wall can drop the ceiling. The hook and pattern slug exceptions-are-forever
-  are the same thesis, backed by structures-outlive-reasons and Living in Sediment. Inheritance without
-  reason, fingerprints on fingerprints, and “just this once” as standing architecture are recognition
-  signals from the ontology. The breakdown’s reform, tolerate, mock triad is institutional ethics after
-  certainty: faithfulness to absurd residue we still call necessary, knowing someone later will find our
-  temporary and ask why.'
+shortDescription: 'Claustrophobic emo and post-hardcore: temporary emergency measures hum in the walls forever, and ABSURDITY IS DIVINE lands like a bitter prayer to inherited fear.'
+longDescription: 'Jagged dynamics match trapped honesty—exceptions outlive their originating fright; cages sometimes keep worse outside; tearing every wall can drop the ceiling. The hook and pattern slug exceptions-are-forever are the same thesis, backed by structures-outlive-reasons and Living in Sediment. Inheritance without reason, fingerprints on fingerprints, and “just this once” as standing architecture are recognition signals from the ontology. The breakdown’s reform, tolerate, mock triad is institutional ethics after certainty: faithfulness to absurd residue we still call necessary, knowing someone later will find our temporary and ask why.'
 creatorNames:
 - Kevin Steffensen
 lyricsPath: corpus/songs/exceptions-are-forever.md
@@ -29,8 +22,19 @@ relatedBooks:
 - when-accountability-no-longer-expires
 recordings:
 - platform: suno
-  externalId: 1396150b-ffbb-421f-8016-c375e8286a4f
+  externalId: c0f2a290-4d53-4dfb-9507-3cf8893558fb
   primary: true
+  recordingTitle: Exceptions are Forever
+  createdAt: '2026-09-09T05:31:03.299Z'
+  durationSeconds: 315.48
+  modelName: chirp-fenix
+  modelVersion: v5.5
+  task: gen
+  isRemix: true
+  styleTags: 'Dark emo/post-hardcore fused with industrial techno and electronic noise. Female lead vocalist: intimate, exhausted and haunted in the verses, cracked melodic singing building into raw screamo and desperate screams on “EXCEPTIONS ARE FOREVER” and “ABSURDITY IS DIVINE.” Jagged distorted guitars, massive bass, live drums layered with pounding electronic kicks, metallic percussion, machine-like rhythms, distorted synths, glitch bursts, feedback, static, chopped vocals and digital interference. Abrupt dropouts, sudden silence, stuttering edits and violent transitions. Verses feel claustrophobic and unstable; choruses explode into dense walls of guitar and electronics. Breakdown becomes almost mechanical and ritualistic. Dark, furious, alienated, emotionally wounded and slightly absurd. Avoid polished pop-punk, clean EDM drops or theatrical vocals.'
+- platform: suno
+  externalId: 1396150b-ffbb-421f-8016-c375e8286a4f
+  primary: false
   recordingTitle: Exceptions are Forever
   createdAt: '2026-08-26T17:32:11.626Z'
   durationSeconds: 339.4
@@ -39,14 +43,10 @@ recordings:
   task: gen
   isRemix: false
   styleTags: Emo punk dark with a lady singing screamo
+  lineageNote: Historical playlist recording superseded by the 2026-09-09 primary clip.
+  supersededBy: c0f2a290-4d53-4dfb-9507-3cf8893558fb
 generation:
-  authoredPrompt: Dark early-2000s emo/post-hardcore with a claustrophobic, minor-key atmosphere. Male
-    lead vocal should move between exhausted near-spoken intimacy, cracked melodic singing, and desperate
-    shouted release. Use distorted guitars, tense bass, live drums, abrupt dynamic drops, and explosive
-    crescendos. Keep the phrasing jagged and emotionally raw rather than neat or sing-song; absolutely
-    avoid country, folk, or polished pop-punk cadence. Let the verses feel like someone thinking out loud
-    while unraveling, then make “EXCEPTIONS ARE FOREVER” hit as a huge anguished hook and “ABSURDITY IS
-    DIVINE” feel almost like a bitter prayer. Bleak, human, unresolved, and darkly absurd.
+  authoredPrompt: Dark early-2000s emo/post-hardcore with a claustrophobic, minor-key atmosphere. Male lead vocal should move between exhausted near-spoken intimacy, cracked melodic singing, and desperate shouted release. Use distorted guitars, tense bass, live drums, abrupt dynamic drops, and explosive crescendos. Keep the phrasing jagged and emotionally raw rather than neat or sing-song; absolutely avoid country, folk, or polished pop-punk cadence. Let the verses feel like someone thinking out loud while unraveling, then make “EXCEPTIONS ARE FOREVER” hit as a huge anguished hook and “ABSURDITY IS DIVINE” feel almost like a bitter prayer. Bleak, human, unresolved, and darkly absurd.
   authoredPromptSource: master-doc
   authoredPromptRetrievedAt: '2026-09-04'
 editorialStatus: provisional

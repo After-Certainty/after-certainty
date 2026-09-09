@@ -4,7 +4,7 @@ description: Songs about uncertainty, perspective, trust, meaning, absurdity and
 platform: suno
 externalId: ac533aa1-6688-4901-833a-ec792bb21e87
 shareId: Nt5n9hMopnROAY8P
-snapshotDate: '2026-09-08'
+snapshotDate: '2026-09-09'
 tracks:
 - position: 1
   songSlug: again-differently
@@ -16,101 +16,104 @@ tracks:
   songSlug: before-the-meaning-lands
   recordingExternalId: ad7341c8-3087-48ea-be1c-fdfa7d9dea90
 - position: 4
+  songSlug: a-perfectly-reasonable-disaster
+  recordingExternalId: 8cfa206f-b4be-49f9-a842-06c8eba1723b
+- position: 5
   songSlug: the-truth-got-a-side-door
   recordingExternalId: 84c5ec6d-da90-4213-a114-27a4bd1fa556
-- position: 5
+- position: 6
   songSlug: dont-let-the-score-fool-you
   recordingExternalId: fdf8353b-6440-4f2d-a2cf-515a8418cb45
-- position: 6
-  songSlug: same-street-different-city
-  recordingExternalId: 09f83469-236a-4fae-9195-f524d42f010a
 - position: 7
+  songSlug: same-street-different-city
+  recordingExternalId: 0b95d776-34d6-47ac-aa8f-b193cad82858
+- position: 8
   songSlug: leave-a-little-room
   recordingExternalId: b9dfaa4e-3c9d-44af-97b3-ff2191abcc0c
-- position: 8
+- position: 9
   songSlug: what-i-thought-you-meant
   recordingExternalId: dc43b18d-2e95-4db2-bd1c-ccd081b68c65
-- position: 9
+- position: 10
   songSlug: different-evidence
   recordingExternalId: 5e9225e0-0d2a-4cb3-bbf1-7e08f70caa91
-- position: 10
-  songSlug: the-third-thing
-  recordingExternalId: 7d0dbe74-b53e-4f2e-8f08-7d6508eeb452
 - position: 11
+  songSlug: the-third-thing
+  recordingExternalId: 2566a758-9bfe-4d98-89a8-6ec97fc5e435
+- position: 12
   songSlug: pasa
   recordingExternalId: 5d9238cb-8a36-475c-9253-4f3f608d4556
-- position: 12
+- position: 13
   songSlug: moves-through-you
   recordingExternalId: a1884b23-4bb5-4399-bf8b-d2a82cf76af7
-- position: 13
+- position: 14
   songSlug: not-yet
   recordingExternalId: 70b0ed63-cd05-4fe9-8c51-337a1fa1fdac
-- position: 14
+- position: 15
   songSlug: before-you-finish
   recordingExternalId: bcfe3ad4-8be3-4699-abe8-8c4b51c16877
-- position: 15
-  songSlug: epistemic-jiujitsu
-  recordingExternalId: c14f074a-191d-4491-88cf-48e6c4f2971f
 - position: 16
+  songSlug: epistemic-jiujitsu
+  recordingExternalId: bc8f36ef-72c7-4caa-b875-64badf488339
+- position: 17
   songSlug: larret-en-fait-partie
   recordingExternalId: bb08a9ad-71d6-4561-85b7-bbd993a021c8
-- position: 17
+- position: 18
   songSlug: dead-reasons
   recordingExternalId: eaac5b32-d96a-41cb-b687-3ac9beeee9ce
-- position: 18
-  songSlug: exceptions-are-forever
-  recordingExternalId: 1396150b-ffbb-421f-8016-c375e8286a4f
 - position: 19
+  songSlug: exceptions-are-forever
+  recordingExternalId: c0f2a290-4d53-4dfb-9507-3cf8893558fb
+- position: 20
   songSlug: almost-completely-true
   recordingExternalId: 3612c0f5-eea3-431d-95c0-902e1f37e42d
-- position: 20
+- position: 21
   songSlug: after-nothing-happens
   recordingExternalId: 82ca255e-4a41-4a3f-9392-0cc46287f7ba
-- position: 21
+- position: 22
   songSlug: the-astronauts-houseplants
   recordingExternalId: e4f870c7-684a-4957-aae0-018e52c16094
-- position: 22
-  songSlug: the-moon-is-probably-fine
-  recordingExternalId: 0893f815-4e2e-4100-b162-5ce03b096786
 - position: 23
+  songSlug: the-moon-is-probably-fine
+  recordingExternalId: 40a8ef63-7951-46d3-b53d-fc4682f6d993
+- position: 24
   songSlug: the-grain-remains
   recordingExternalId: 7987b077-d05c-454e-810a-039bfdbcc417
-- position: 24
+- position: 25
   songSlug: i-believe-you-tonight
   recordingExternalId: 1ac3774f-ee39-4801-a708-c971e3a2b304
-- position: 25
+- position: 26
   songSlug: nog
   recordingExternalId: 5ed9e869-1225-4e4f-b202-535988b8958c
-- position: 26
+- position: 27
   songSlug: learning-to-see
   recordingExternalId: f80b23a7-c974-4d5c-be23-62ca1204a626
-- position: 27
+- position: 28
   songSlug: somebody-specifically
   recordingExternalId: e51ba928-2b78-4b18-80e9-e164bbb5041f
-- position: 28
-  songSlug: the-blue-cup
-  recordingExternalId: 0448b257-1736-4156-949d-5ee6e52cea1d
 - position: 29
-  songSlug: just-dont-grab-the-wheel
-  recordingExternalId: 4f07263d-fd25-4942-87cb-6d14dec1c213
+  songSlug: the-blue-cup
+  recordingExternalId: 107af5fb-3062-409b-838b-62f308d1e16d
 - position: 30
   songSlug: my-shadow-got-there-first
-  recordingExternalId: 9d40a54e-6d77-4beb-b41c-73cea6a4a6c0
+  recordingExternalId: 246f7d9f-e87e-4d12-9f8e-054af5b65e2f
 - position: 31
+  songSlug: just-dont-grab-the-wheel
+  recordingExternalId: 6fc35280-2533-4de8-96a4-c665816a8ccb
+- position: 32
   songSlug: somebody-feels-it
   recordingExternalId: d41fdeca-e505-458e-9949-02197e782818
-- position: 32
+- position: 33
   songSlug: mr-bell-keeps-the-weather
   recordingExternalId: 0e7cea27-60da-497f-9dc3-a178dfefec78
-- position: 33
+- position: 34
   songSlug: miss-maybe-mister-sure
   recordingExternalId: dd1efa5f-d990-4737-b13d-fc71691b705e
-- position: 34
+- position: 35
   songSlug: obviously-baby
   recordingExternalId: 0fb0dec5-1a14-4aad-a0a9-d41fc92acc44
-- position: 35
+- position: 36
   songSlug: applause-is-an-alibi
   recordingExternalId: 18f0ea74-640a-4ae5-b07e-ae8f1cb6f70e
-- position: 36
+- position: 37
   songSlug: still-we-go
   recordingExternalId: 7383b724-e964-4269-b8f2-de3089cf1674
