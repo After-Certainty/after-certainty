@@ -16,7 +16,7 @@ except ModuleNotFoundError as exc:  # pragma: no cover
 
 REPO = Path(__file__).resolve().parents[2]
 FIXTURES_DIR = REPO / "tools" / "songs" / "fixtures"
-DEFAULT_FIXTURE = FIXTURES_DIR / "suno-playlist-2026-09-09.json"
+DEFAULT_FIXTURE = FIXTURES_DIR / "suno-playlist-2026-09-10.json"
 PLAYLIST_YAML = REPO / "semantic" / "playlists" / "after-certainty.yml"
 SONGS_DIR = REPO / "semantic" / "songs"
 PLAYLIST_API = (
