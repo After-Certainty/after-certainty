@@ -1,0 +1,48 @@
+slug: wait-what
+title: Wait, What?
+shortDescription: |-
+  Theatrical space-rap battle: Certainty vs Question, with mission-control swagger interrupted every time confidence outruns the evidence.
+longDescription: |-
+  Two male voices duel over a futuristic electro-funk beat—Certainty booming and declarative, Question nimble and amused—while mission-control samples keep announcing a negligible chance of error. Every leap from maybe to must earns the same interrupt: Wait, what? Fits The Discipline of Uncertainty and Curiosity Before Certainty on checking assumptions before certainty drops; After Certainty for leaving room for what was forgotten. Patterns revisability-preserves-judgment and finality-compensates-for-uncertainty match the urge to end inquiry too soon, while contact-keeps-the-read-open keeps the question alive.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/wait-what.md
+lyricLanguages:
+- en
+relatedConcepts:
+- certainty
+- uncertainty
+- humility
+- revisability
+- judgment
+relatedPatterns:
+- revisability-preserves-judgment
+- finality-compensates-for-uncertainty
+- contact-keeps-the-read-open
+relatedBooks:
+- the-discipline-of-uncertainty
+- curiosity-before-certainty
+- after-certainty
+recordings:
+- platform: suno
+  externalId: 99d5a516-89b2-4dde-b12a-ae2e09aab64d
+  primary: true
+  recordingTitle: WAIT, WHAT?
+  createdAt: '2026-09-09T19:24:25.330Z'
+  durationSeconds: 196.2
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: gen
+  isRemix: false
+  styleTags: |-
+    3–4 minute theatrical space rap battle between two distinct male voices: “Certainty” is confident, booming, fast, declarative; “Question” is nimble, amused, conversational, and rhythmically unpredictable. Old-school hip-hop battle energy fused with futuristic electro, space-funk, glitch, vocoder, analog synths, deep bass, crisp drums, and mission-control samples. Hard beat cuts every time someone says “Wait, what?” Use call-and-response, interruptions, overlapping bars, short spoken exchanges, and a hook that keeps checking assumptions before certainty drops.
+generation:
+  authoredPrompt: |-
+    3–4 minute theatrical space rap battle between two distinct male voices: “Certainty” is confident, booming, fast, declarative; “Question” is nimble, amused, conversational, and rhythmically unpredictable. Old-school hip-hop battle energy fused with futuristic electro, space-funk, glitch, vocoder, analog synths, deep bass, crisp drums, and mission-control samples. Hard beat cuts every time someone says “Wait, what?” Use call-and-response, interruptions, overlapping bars, short spoken exchanges, and a hook that keeps checking assumptions before certainty drops.
+  authoredPromptSource: suno-playlist
+  authoredPromptRetrievedAt: '2026-09-10'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: |-
+    After Certainty song composition; lyrics and style prompt ingested from the Suno playlist snapshot without rewriting existing song entries.
