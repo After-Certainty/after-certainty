@@ -5,7 +5,10 @@ from __future__ import annotations
 from pathlib import Path
 
 from after_certainty.export.assets import (
+    prepare_about_the_series_for_print_pdf,
     prepare_bridge_markdown_for_pdf,
+    prepare_copyright_for_print_pdf,
+    prepare_print_title_page_display,
     prepare_title_page_for_docx,
     prepare_title_page_for_pdf,
     strip_inline_title_page_cover,
@@ -110,10 +113,42 @@ def test_prepare_bridge_markdown_for_pdf_bottom_aligns() -> None:
     out = prepare_bridge_markdown_for_pdf(text)
     assert "{=latex}" in out
     assert "\\vspace*{\\fill}" in out
+    assert "\\thispagestyle{empty}" in out
     assert "# Part II — How Love Moves" in out
     assert "Love does not sit still." in out
     assert out.strip().startswith("```{=latex}")
     assert out.count("\\clearpage") >= 2
+
+
+def test_prepare_print_title_page_display_centers_hierarchy() -> None:
+    text = (
+        "# **Everyone Knows Love**\n\n"
+        "## **Why Is It So Hard to Explain?**\n\n"
+        "**Kevin Steffensen**\n"
+    )
+    out = prepare_print_title_page_display(text)
+    assert "\\thispagestyle{empty}" in out
+    assert "\\vspace*{0.28\\textheight}" in out
+    assert "\\LARGE\\bfseries Everyone Knows Love" in out
+    assert "\\large Why Is It So Hard to Explain?" in out
+    assert "Kevin Steffensen" in out
+    assert "# **Everyone Knows Love**" not in out
+
+
+def test_prepare_copyright_for_print_pdf_suppresses_folio() -> None:
+    text = "\\newpage\n\n# Copyright\n\nCopyright © 2026.\n"
+    out = prepare_copyright_for_print_pdf(text)
+    assert "\\thispagestyle{empty}" in out
+    assert "# Copyright" in out
+    assert "\\newpage" not in out
+
+
+def test_prepare_about_the_series_for_print_pdf_keeps_url_together() -> None:
+    text = "visit [www.after-certainty.com](https://www.after-certainty.com).\n"
+    out = prepare_about_the_series_for_print_pdf(text)
+    assert r"\mbox{www.after-certainty.com}" in out
+    assert "[www.after-certainty.com]" not in out
+    assert "https://www.after-certainty.com" in out
 
 
 def test_stage_pdf_units_bottom_aligns_bridge(tmp_path: Path) -> None:

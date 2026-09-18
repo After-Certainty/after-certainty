@@ -201,6 +201,100 @@ def prepare_closing_markdown_for_pdf(text: str) -> str:
 
 _LEADING_NEWPAGE_RE = re.compile(r"^(?:\\newpage[ \t]*\n+)+")
 
+_MD_BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
+_TITLE_H1_RE = re.compile(r"(?m)^#\s+(.+)$")
+_TITLE_H2_RE = re.compile(r"(?m)^##\s+(.+)$")
+_AUTHOR_BOLD_LINE_RE = re.compile(r"(?m)^\*\*(.+?)\*\*\s*$")
+_SERIES_SITE_LINK_RE = re.compile(
+    r"\[www\.after-certainty\.com\]\(https://www\.after-certainty\.com/?\)"
+)
+
+
+def _strip_md_bold(text: str) -> str:
+    return _MD_BOLD_RE.sub(r"\1", text).strip()
+
+
+def _latex_escape(text: str) -> str:
+    """Escape LaTeX specials in plain display-page strings."""
+    replacements = {
+        "\\": r"\textbackslash{}",
+        "{": r"\{",
+        "}": r"\}",
+        "$": r"\$",
+        "&": r"\&",
+        "#": r"\#",
+        "_": r"\_",
+        "%": r"\%",
+        "~": r"\textasciitilde{}",
+        "^": r"\textasciicircum{}",
+    }
+    return "".join(replacements.get(ch, ch) for ch in text)
+
+
+def prepare_print_title_page_display(text: str) -> str:
+    """Centered typographic title block for IngramSpark print interiors.
+
+    Suppresses the folio and places title / subtitle / author with deliberate
+    vertical hierarchy instead of ordinary top-left markdown headings.
+    """
+    body = text.strip()
+    if not body:
+        return text
+    body = _LEADING_NEWPAGE_RE.sub("", body).strip()
+    if not body:
+        return text
+
+    title_match = _TITLE_H1_RE.search(body)
+    subtitle_match = _TITLE_H2_RE.search(body)
+    author_match = _AUTHOR_BOLD_LINE_RE.search(body)
+    if title_match is None:
+        return text
+
+    title = _latex_escape(_strip_md_bold(title_match.group(1)))
+    lines = [
+        "```{=latex}",
+        "\\thispagestyle{empty}",
+        "\\vspace*{0.28\\textheight}",
+        "\\begin{center}",
+        f"{{\\LARGE\\bfseries {title}}}\\\\[1.25em]",
+    ]
+    if subtitle_match is not None:
+        subtitle = _latex_escape(_strip_md_bold(subtitle_match.group(1)))
+        lines.append(f"{{\\large {subtitle}}}\\\\[2.25em]")
+    if author_match is not None:
+        author = _latex_escape(_strip_md_bold(author_match.group(1)))
+        lines.append(f"{author}")
+    lines.extend(
+        [
+            "\\end{center}",
+            "\\vspace*{\\fill}",
+            "\\clearpage",
+            "```",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def prepare_copyright_for_print_pdf(text: str) -> str:
+    """Suppress the folio on the copyright display page for print interiors."""
+    body = text.strip()
+    if not body:
+        return text
+    body = _LEADING_NEWPAGE_RE.sub("", body).strip()
+    if not body:
+        return text
+    return f"```{{=latex}}\n\\clearpage\n\\thispagestyle{{empty}}\n```\n\n{body}\n"
+
+
+def prepare_about_the_series_for_print_pdf(text: str) -> str:
+    """Keep www.after-certainty.com on one line in print PDF output."""
+    replacement = (
+        r"`\href{https://www.after-certainty.com}"
+        r"{\mbox{www.after-certainty.com}}`{=latex}"
+    )
+    return _SERIES_SITE_LINK_RE.sub(lambda _m: replacement, text)
+
 
 def prepare_bridge_markdown_for_pdf(text: str) -> str:
     """Bottom-align a short part-bridge opener on its own PDF/print page.
@@ -208,7 +302,7 @@ def prepare_bridge_markdown_for_pdf(text: str) -> str:
     Part bridges are usually a heading plus a few paragraphs; top alignment leaves
     a large empty lower half. Leading ``\\newpage`` markers are replaced by an
     explicit ``\\clearpage`` plus ``\\vspace*{\\fill}`` so the markdown heading
-    still converts normally.
+    still converts normally. Folios are suppressed on the part opener page.
     """
     body = text.strip()
     if not body:
@@ -219,6 +313,7 @@ def prepare_bridge_markdown_for_pdf(text: str) -> str:
     return (
         "```{=latex}\n"
         "\\clearpage\n"
+        "\\thispagestyle{empty}\n"
         "\\vspace*{\\fill}\n"
         "```\n\n"
         f"{body}\n\n"
