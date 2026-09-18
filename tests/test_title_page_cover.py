@@ -149,7 +149,6 @@ def test_prepare_about_the_series_for_print_pdf_keeps_url_together() -> None:
     assert r"\mbox{www.after-certainty.com}" in out
     assert r"\newline\href{https://www.after-certainty.com}" in out
     assert "[www.after-certainty.com]" not in out
-    assert "https://www.after-certainty.com" in out
     assert out.index(r"\newline") < out.index(r"\mbox{www.after-certainty.com}")
 
 
