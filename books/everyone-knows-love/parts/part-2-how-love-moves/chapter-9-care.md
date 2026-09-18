@@ -1,5 +1,3 @@
-\newpage
-
 # Care
 
 The question is why.

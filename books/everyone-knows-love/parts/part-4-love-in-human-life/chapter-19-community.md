@@ -1,5 +1,3 @@
-\newpage
-
 # Community
 
 Last winter a neighbor lost her husband.

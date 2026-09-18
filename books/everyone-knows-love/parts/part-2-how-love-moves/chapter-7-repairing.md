@@ -1,5 +1,3 @@
-\newpage
-
 # Repairing
 
 A couple had one of those fights that are not about what they appear to be about.

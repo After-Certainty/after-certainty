@@ -12,13 +12,16 @@ from typing import Any
 
 from after_certainty.core.repo_root import repo_root
 from after_certainty.export.assets import (
+    is_chapter_markdown_unit,
     pdf_header_tex,
     prepare_about_the_series_for_print_pdf,
     prepare_bridge_markdown_for_pdf,
     prepare_closing_markdown_for_pdf,
     prepare_copyright_for_print_pdf,
+    prepare_front_matter_display_for_pdf,
     prepare_print_title_page_display,
     strip_inline_title_page_cover,
+    strip_leading_newpage,
     title_page_cover_basename,
 )
 from after_certainty.ingramspark.paths import (
@@ -217,6 +220,11 @@ def _pandoc_pdf(
                 text = prepare_copyright_for_print_pdf(text)
             elif unit.name == "about-the-series.md":
                 text = prepare_about_the_series_for_print_pdf(text)
+            elif unit.name == "preface.md":
+                text = prepare_front_matter_display_for_pdf(text)
+            elif is_chapter_markdown_unit(unit.name):
+                # Part openers own the page break; chapters flow after the bridge.
+                text = strip_leading_newpage(text)
             unit.write_text(text, encoding="utf-8")
             staged.append(unit)
 

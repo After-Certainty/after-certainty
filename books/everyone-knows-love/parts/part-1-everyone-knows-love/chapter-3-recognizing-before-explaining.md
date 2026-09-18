@@ -1,5 +1,3 @@
-\newpage
-
 # Recognizing Before Explaining
 
 A grandmother could often tell when rain was coming.

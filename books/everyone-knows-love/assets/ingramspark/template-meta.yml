@@ -8,11 +8,11 @@ manufacturing:
   binding: perfect-bound
   paper: cream
   interior_color_mode: black-and-white
-  page_count: 84
+  page_count: 78
 geometry:
-  media_box_width_points: 897.36
+  media_box_width_points: 896.16
   media_box_height_points: 666.0
-  spine_width_points: 15.12
+  spine_width_points: 13.92
   outside_bleed_points: 9.0
   top_bleed_points: 9.0
   bottom_bleed_points: 9.0
@@ -20,14 +20,14 @@ geometry:
 raster:
   required_ppi: 300
   full_wrap:
-    expected_width_pixels: 3739
+    expected_width_pixels: 3734
     expected_height_pixels: 2775
   components:
     back:
       expected_width_pixels: 1838
       expected_height_pixels: 2775
     spine:
-      expected_width_pixels: 63
+      expected_width_pixels: 58
       expected_height_pixels: 2775
     front:
       expected_width_pixels: 1838
@@ -41,7 +41,7 @@ barcode_reserve:
   height_pixels: 300
 barcode_supplied: false
 spine_text: true
-notes: "Panels sourced as production RGB PNGs (back/spine/front). Spine width 15.12\
-  \ pt (63 px @ 300 ppi) matches cream bulk for 84 pages; media box 897.36\xD7666.0\
-  \ pt matches the 3739\xD72775 assembled wrap. Auto-synced to measured interior page\
+notes: "Panels sourced as production RGB PNGs (back/spine/front). Spine width 13.92\
+  \ pt (58 px @ 300 ppi) matches cream bulk for 78 pages; media box 896.16\xD7666.0\
+  \ pt matches the 3734\xD72775 assembled wrap. Auto-synced to measured interior page\
   \ count at package time."

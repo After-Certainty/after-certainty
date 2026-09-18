@@ -201,6 +201,9 @@ def prepare_closing_markdown_for_pdf(text: str) -> str:
 
 _LEADING_NEWPAGE_RE = re.compile(r"^(?:\\newpage[ \t]*\n+)+")
 
+# Extra top offset for print display openers (part bridges, front matter except title).
+PRINT_DISPLAY_TOP_MARGIN_INCHES = 3.0
+
 _MD_BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
 _TITLE_H1_RE = re.compile(r"(?m)^#\s+(.+)$")
 _TITLE_H2_RE = re.compile(r"(?m)^##\s+(.+)$")
@@ -208,6 +211,10 @@ _AUTHOR_BOLD_LINE_RE = re.compile(r"(?m)^\*\*(.+?)\*\*\s*$")
 _SERIES_SITE_LINK_RE = re.compile(
     r"\[www\.after-certainty\.com\]\(https://www\.after-certainty\.com/?\)"
 )
+_SERIES_VISIT_LINK_RE = re.compile(
+    r"visit \[www\.after-certainty\.com\]\(https://www\.after-certainty\.com/?\)\."
+)
+_CHAPTER_UNIT_RE = re.compile(r"^chapter-.+\.md$", re.I)
 
 
 def _strip_md_bold(text: str) -> str:
@@ -277,37 +284,52 @@ def prepare_print_title_page_display(text: str) -> str:
 
 
 def prepare_copyright_for_print_pdf(text: str) -> str:
-    """Suppress the folio on the copyright display page for print interiors."""
-    body = text.strip()
-    if not body:
-        return text
-    body = _LEADING_NEWPAGE_RE.sub("", body).strip()
-    if not body:
-        return text
-    return f"```{{=latex}}\n\\clearpage\n\\thispagestyle{{empty}}\n```\n\n{body}\n"
+    """Copyright display page: new page, empty folio, 3in top offset."""
+    return prepare_top_margin_display_for_pdf(text, empty_folio=True)
 
 
 def prepare_about_the_series_for_print_pdf(text: str) -> str:
-    """Keep www.after-certainty.com on one line without overflowing the text block.
+    """Keep www.after-certainty.com unbroken and within the text block.
 
-    An ``\\mbox`` prevents mid-domain hyphenation, but the unbreakable box can
-    protrude past ``\\textwidth`` when it shares a line with preceding words.
-    Insert a raw LaTeX ``\\newline`` before the URL so the domain sits alone.
+    Tie ``visit`` to the domain with a non-breaking space and ``\\mbox`` so the
+    URL neither hyphenates mid-domain nor orphans alone on the next page.
     """
     replacement = (
-        r"`\newline\href{https://www.after-certainty.com}"
-        r"{\mbox{www.after-certainty.com}}`{=latex}"
+        r"`visit~\href{https://www.after-certainty.com}"
+        r"{\mbox{www.after-certainty.com}}.`{=latex}"
     )
-    return _SERIES_SITE_LINK_RE.sub(lambda _m: replacement, text)
+    if _SERIES_VISIT_LINK_RE.search(text):
+        fixed = _SERIES_VISIT_LINK_RE.sub(lambda _m: replacement, text)
+    else:
+        fixed = _SERIES_SITE_LINK_RE.sub(
+            lambda _m: (
+                r"`\href{https://www.after-certainty.com}"
+                r"{\mbox{www.after-certainty.com}}`{=latex}"
+            ),
+            text,
+        )
+    return prepare_top_margin_display_for_pdf(fixed, empty_folio=False)
 
 
-def prepare_bridge_markdown_for_pdf(text: str) -> str:
-    """Bottom-align a short part-bridge opener on its own PDF/print page.
+def prepare_front_matter_display_for_pdf(text: str) -> str:
+    """Top-align non-title front matter with the shared 3in display offset."""
+    return prepare_top_margin_display_for_pdf(text, empty_folio=False)
 
-    Part bridges are usually a heading plus a few paragraphs; top alignment leaves
-    a large empty lower half. Leading ``\\newpage`` markers are replaced by an
-    explicit ``\\clearpage`` plus ``\\vspace*{\\fill}`` so the markdown heading
-    still converts normally. Folios are suppressed on the part opener page.
+
+def prepare_top_margin_display_for_pdf(
+    text: str,
+    *,
+    top_inches: float = PRINT_DISPLAY_TOP_MARGIN_INCHES,
+    empty_folio: bool = False,
+) -> str:
+    """Start a display unit on a new page, top-aligned with extra top margin.
+
+    ``top_inches`` is measured from the page trim edge. Geometry already applies
+    the profile outside/top margin (0.55in); this inserts the remainder and
+    zeroes ``\\topskip`` so Pandoc ``\\section`` before-skip cannot stack on top.
+    The leading ``#`` heading is emitted as raw LaTeX for the same reason.
+    Does not clear after the unit, so following chapters can continue on the
+    same page.
     """
     body = text.strip()
     if not body:
@@ -315,15 +337,55 @@ def prepare_bridge_markdown_for_pdf(text: str) -> str:
     body = _LEADING_NEWPAGE_RE.sub("", body).strip()
     if not body:
         return text
+
+    title_match = _TITLE_H1_RE.match(body)
+    heading_latex = ""
+    rest = body
+    if title_match is not None:
+        heading = _latex_escape(_strip_md_bold(title_match.group(1)))
+        heading_latex = f"\\noindent{{\\Large\\bfseries {heading}\\par}}\n\\vspace{{0.8em}}\n"
+        rest = body[title_match.end() :].lstrip("\n")
+
+    folio = "\\thispagestyle{empty}\n" if empty_folio else ""
+    # Profile outside/top margin is 0.55in; land the heading at top_inches from trim.
+    geometry_top = 0.55
+    vspace_in = max(top_inches - geometry_top, 0.0)
     return (
         "```{=latex}\n"
         "\\clearpage\n"
-        "\\thispagestyle{empty}\n"
-        "\\vspace*{\\fill}\n"
+        f"{folio}"
+        "\\begingroup\n"
+        "\\topskip=0pt\n"
+        f"\\vspace*{{{vspace_in:g}in}}\n"
+        "\\nointerlineskip\n"
+        f"{heading_latex}"
+        "\\endgroup\n"
         "```\n\n"
-        f"{body}\n\n"
-        "```{=latex}\n"
-        "\\vspace*{0.12\\textheight}\n"
-        "\\clearpage\n"
-        "```\n"
+        f"{rest}\n"
     )
+
+
+def strip_leading_newpage(text: str) -> str:
+    """Remove leading ``\\newpage`` markers (e.g. chapter units that should flow)."""
+    body = text.strip()
+    if not body:
+        return text
+    stripped = _LEADING_NEWPAGE_RE.sub("", body).strip()
+    if not stripped:
+        return text
+    return stripped + "\n"
+
+
+def is_chapter_markdown_unit(name: str) -> bool:
+    """True for manuscript chapter filenames (``chapter-*.md``)."""
+    return bool(_CHAPTER_UNIT_RE.match(Path(name).name))
+
+
+def prepare_bridge_markdown_for_pdf(text: str) -> str:
+    """Top-align a part-bridge opener with extra top margin on its own PDF page.
+
+    Leading ``\\newpage`` markers become ``\\clearpage`` plus a fixed top offset.
+    Folios are suppressed. No trailing clear — the first chapter may continue on
+    the same page after the part opener.
+    """
+    return prepare_top_margin_display_for_pdf(text, empty_folio=True)

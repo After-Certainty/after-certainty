@@ -1,5 +1,3 @@
-\newpage
-
 # Family
 
 A grown son called his father on a Tuesday to ask about a tax form.

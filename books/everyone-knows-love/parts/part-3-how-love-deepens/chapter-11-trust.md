@@ -1,5 +1,3 @@
-\newpage
-
 # Trust
 
 A friend borrowed someone's car on a Thursday and brought it back on Sunday with the tank fuller than he found it.
