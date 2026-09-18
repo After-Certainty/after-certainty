@@ -228,7 +228,8 @@ def _pandoc_pdf(
             elif unit.name in {"preface.md", "reading-with-the-series.md"}:
                 text = prepare_front_matter_display_for_pdf(text)
             elif is_chapter_markdown_unit(unit.name):
-                # Part openers own the page break; chapters flow after the bridge.
+                # Part bridges own their display page; strip chapter newpages so
+                # chapters start cleanly after the bridge clear without stacking.
                 text = strip_leading_newpage(text)
             unit.write_text(text, encoding="utf-8")
             staged.append(unit)

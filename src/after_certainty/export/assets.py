@@ -318,8 +318,8 @@ def prepare_about_the_series_for_print_pdf(text: str) -> str:
 
 
 def prepare_front_matter_display_for_pdf(text: str) -> str:
-    """Top-align non-title front matter with the shared 3in display offset."""
-    return prepare_top_margin_display_for_pdf(text, empty_folio=False)
+    """Top-align non-title front matter; keep the unit on its own page."""
+    return prepare_top_margin_display_for_pdf(text, empty_folio=False, clear_after=True)
 
 
 def prepare_top_margin_display_for_pdf(
@@ -327,6 +327,7 @@ def prepare_top_margin_display_for_pdf(
     *,
     top_inches: float = PRINT_DISPLAY_TOP_MARGIN_INCHES,
     empty_folio: bool = False,
+    clear_after: bool = False,
 ) -> str:
     """Start a display unit on a new page, top-aligned with extra top margin.
 
@@ -334,8 +335,9 @@ def prepare_top_margin_display_for_pdf(
     the profile outside/top margin (0.55in); this inserts the remainder and
     zeroes ``\\topskip`` so Pandoc ``\\section`` before-skip cannot stack on top.
     The leading ``#`` heading is emitted as raw LaTeX for the same reason.
-    Does not clear after the unit, so following chapters can continue on the
-    same page.
+    When ``clear_after`` is false (part bridges), following chapters may continue
+    on the same page. Front-matter display pages set ``clear_after`` so the next
+    unit starts on a fresh page.
     """
     body = text.strip()
     if not body:
@@ -356,6 +358,7 @@ def prepare_top_margin_display_for_pdf(
     # Profile outside/top margin is 0.55in; land the heading at top_inches from trim.
     geometry_top = 0.55
     vspace_in = max(top_inches - geometry_top, 0.0)
+    trailing = "\n```{=latex}\n\\clearpage\n```\n" if clear_after else ""
     return (
         "```{=latex}\n"
         "\\clearpage\n"
@@ -368,6 +371,7 @@ def prepare_top_margin_display_for_pdf(
         "\\endgroup\n"
         "```\n\n"
         f"{rest}\n"
+        f"{trailing}"
     )
 
 
@@ -388,10 +392,10 @@ def is_chapter_markdown_unit(name: str) -> bool:
 
 
 def prepare_bridge_markdown_for_pdf(text: str) -> str:
-    """Top-align a part-bridge opener with extra top margin on its own PDF page.
+    """Top-align a part-bridge opener alone on its own PDF page.
 
     Leading ``\\newpage`` markers become ``\\clearpage`` plus a fixed top offset.
-    Folios are suppressed. No trailing clear — the first chapter may continue on
-    the same page after the part opener.
+    Folios are suppressed. Trailing clear keeps the first chapter on the next page
+    so the bridge matches other display openers.
     """
-    return prepare_top_margin_display_for_pdf(text, empty_folio=True)
+    return prepare_top_margin_display_for_pdf(text, empty_folio=True, clear_after=True)

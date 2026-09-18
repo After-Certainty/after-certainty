@@ -122,7 +122,8 @@ def test_prepare_bridge_markdown_for_pdf_top_aligns_with_margin() -> None:
     assert "Love does not sit still." in out
     assert "# Part II — How Love Moves" not in out
     assert out.strip().startswith("```{=latex}")
-    assert out.count("\\clearpage") == 1
+    assert out.count("\\clearpage") == 2
+    assert out.rstrip().endswith("\\clearpage\n```")
 
 
 def test_prepare_print_title_page_display_centers_hierarchy() -> None:
@@ -170,9 +171,17 @@ def test_prepare_front_matter_display_for_pdf_uses_top_margin() -> None:
     assert "# Preface" not in out
     assert "Hello." in out
     assert "\\thispagestyle{empty}" not in out
+    assert out.rstrip().endswith("\\clearpage\n```")
+    assert out.count("\\clearpage") == 2
 
 
-def test_strip_leading_newpage_for_chapters() -> None:
+def test_prepare_bridge_display_clears_after() -> None:
+    text = "\\newpage\n\n# Part I — Test\n\nShort bridge.\n"
+    out = prepare_bridge_markdown_for_pdf(text)
+    assert "\\vspace*{2.45in}" in out
+    assert "\\thispagestyle{empty}" in out
+    assert out.count("\\clearpage") == 2
+    assert out.rstrip().endswith("\\clearpage\n```")
     assert strip_leading_newpage("\\newpage\n\n# Seeing\n\nBody.\n") == "# Seeing\n\nBody.\n"
     assert is_chapter_markdown_unit("chapter-4-seeing.md")
     assert not is_chapter_markdown_unit("bridge.md")

@@ -6,8 +6,8 @@ title uploaded to IngramSpark (2026-07); `book.yml` status is `production-approv
 
 ```
 back.png          # 1838×2775 @ 300 ppi — atmosphere + 3-line back copy + 1.75×1.0 in white barcode reserve
-spine-source.png  # wider labeled master for page-count recrops (title/author centered)
-spine.png         # 96×2775 @ 300 ppi — dark brown spine + cream title/author (128 pages)
+spine-source.png  # 140×2775 @ 300 ppi — labeled master for page-count recrops
+spine.png         # 120×2775 @ 300 ppi — dark brown spine + cream title/author (160 pages)
 front.png         # 1838×2775 @ 300 ppi — upscaled cover fitted into trim+bleed
 ebook-front.png   # 1800×2700 @ 300 ppi — bleed-free 6×9 crop of front.png
 template-meta.yml
@@ -17,7 +17,7 @@ Assembly order: **back → spine → front**.
 
 Print ISBN: `9798256208912` → staged cover `9798256208912_cvr.pdf`.  
 Ebook ISBN: `9798256208929` with cover source `ebook-front.png`.  
-Measured interior: **128** cream pages (local XeLaTeX; CI may differ slightly — package-time sync).
+Measured interior: **160** cream pages (local XeLaTeX; CI may differ slightly — package-time sync).
 Spine uses the EKL title/author layout with inverted colors: dark brown field + cream type.
 
 Back copy (≤3 lines; website question + framing):
@@ -28,7 +28,7 @@ Back copy (≤3 lines; website question + framing):
 
 ```bash
 python3 tools/generate_ingramspark_wrap_from_cover.py \
-  --book-dir books/when-others-become-leaders --page-count 128 \
+  --book-dir books/when-others-become-leaders --page-count 160 \
   --ebook-front --spine-style labeled
 make build-ingramspark-print-cover DIR=books/when-others-become-leaders
 make export-ingramspark-print DIR=books/when-others-become-leaders
