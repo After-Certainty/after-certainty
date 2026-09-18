@@ -81,6 +81,7 @@
         "max_total_ink_coverage_percent",
         "recommended_margin_inches",
         "recommended_inside_margin_inches",
+        "recommended_bottom_margin_inches",
         "bleed_inches"
       ],
       "properties": {
@@ -113,12 +114,17 @@
         "recommended_margin_inches": {
           "type": "number",
           "exclusiveMinimum": 0,
-          "description": "Outside, top, and bottom interior margins (inches)."
+          "description": "Outside and top interior margins (inches)."
         },
         "recommended_inside_margin_inches": {
           "type": "number",
           "exclusiveMinimum": 0,
           "description": "Inside/gutter interior margin for mirrored twoside paperback layouts (inches)."
+        },
+        "recommended_bottom_margin_inches": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Bottom interior margin (inches); sized to keep folios farther from trim than the outside margin."
         },
         "bleed_inches": {
           "type": "number",

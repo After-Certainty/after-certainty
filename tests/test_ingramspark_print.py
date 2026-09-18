@@ -163,10 +163,12 @@ def test_print_margins_use_named_inside_gutter() -> None:
             }
         }
     }
-    outside, inside = _print_margins_inches(spec)
+    outside, inside, bottom = _print_margins_inches(spec)
     assert outside == 0.55
     assert inside == 0.7375
+    assert bottom == 0.75
     assert inside > outside
+    assert bottom > outside
 
 
 @requires_gs
