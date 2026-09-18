@@ -147,8 +147,10 @@ def test_prepare_about_the_series_for_print_pdf_keeps_url_together() -> None:
     text = "visit [www.after-certainty.com](https://www.after-certainty.com).\n"
     out = prepare_about_the_series_for_print_pdf(text)
     assert r"\mbox{www.after-certainty.com}" in out
+    assert r"\newline\href{https://www.after-certainty.com}" in out
     assert "[www.after-certainty.com]" not in out
     assert "https://www.after-certainty.com" in out
+    assert out.index(r"\newline") < out.index(r"\mbox{www.after-certainty.com}")
 
 
 def test_stage_pdf_units_bottom_aligns_bridge(tmp_path: Path) -> None:

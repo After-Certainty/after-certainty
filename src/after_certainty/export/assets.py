@@ -288,9 +288,14 @@ def prepare_copyright_for_print_pdf(text: str) -> str:
 
 
 def prepare_about_the_series_for_print_pdf(text: str) -> str:
-    """Keep www.after-certainty.com on one line in print PDF output."""
+    """Keep www.after-certainty.com on one line without overflowing the text block.
+
+    An ``\\mbox`` prevents mid-domain hyphenation, but the unbreakable box can
+    protrude past ``\\textwidth`` when it shares a line with preceding words.
+    Insert a raw LaTeX ``\\newline`` before the URL so the domain sits alone.
+    """
     replacement = (
-        r"`\href{https://www.after-certainty.com}"
+        r"`\newline\href{https://www.after-certainty.com}"
         r"{\mbox{www.after-certainty.com}}`{=latex}"
     )
     return _SERIES_SITE_LINK_RE.sub(lambda _m: replacement, text)
