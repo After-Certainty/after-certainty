@@ -239,10 +239,10 @@ def _latex_escape(text: str) -> str:
 
 
 def prepare_print_title_page_display(text: str) -> str:
-    """Centered typographic title block for IngramSpark print interiors.
+    """Top-aligned typographic title block for IngramSpark print interiors.
 
-    Suppresses the folio and places title / subtitle / author with deliberate
-    vertical hierarchy instead of ordinary top-left markdown headings.
+    Suppresses the folio and places title / subtitle / author with the same
+    3in-from-trim top offset used by other display pages (not vertically centered).
     """
     body = text.strip()
     if not body:
@@ -258,23 +258,29 @@ def prepare_print_title_page_display(text: str) -> str:
         return text
 
     title = _latex_escape(_strip_md_bold(title_match.group(1)))
+    geometry_top = 0.55
+    vspace_in = max(PRINT_DISPLAY_TOP_MARGIN_INCHES - geometry_top, 0.0)
     lines = [
         "```{=latex}",
+        "\\clearpage",
         "\\thispagestyle{empty}",
-        "\\vspace*{0.28\\textheight}",
-        "\\begin{center}",
-        f"{{\\LARGE\\bfseries {title}}}\\\\[1.25em]",
+        "\\begingroup",
+        "\\topskip=0pt",
+        f"\\vspace*{{{vspace_in:g}in}}",
+        "\\nointerlineskip",
+        f"\\noindent{{\\LARGE\\bfseries {title}\\par}}",
+        "\\vspace{1.0em}",
     ]
     if subtitle_match is not None:
         subtitle = _latex_escape(_strip_md_bold(subtitle_match.group(1)))
-        lines.append(f"{{\\large {subtitle}}}\\\\[2.25em]")
+        lines.append(f"\\noindent{{\\large {subtitle}\\par}}")
+        lines.append("\\vspace{1.5em}")
     if author_match is not None:
         author = _latex_escape(_strip_md_bold(author_match.group(1)))
-        lines.append(f"{author}")
+        lines.append(f"\\noindent{{{author}\\par}}")
     lines.extend(
         [
-            "\\end{center}",
-            "\\vspace*{\\fill}",
+            "\\endgroup",
             "\\clearpage",
             "```",
             "",

@@ -108,31 +108,35 @@ def print_color_mode(spec: dict[str, Any]) -> str:
     return mode
 
 
-def _print_margins_inches(spec: dict[str, Any]) -> tuple[float, float]:
-    """Return (outside_inches, inside_inches) from the book's specification profile.
+def _print_margins_inches(spec: dict[str, Any]) -> tuple[float, float, float]:
+    """Return (outside_inches, inside_inches, bottom_inches) from the profile.
 
-    ``recommended_margin_inches`` is the outside/top/bottom baseline (Ingram type-safety
-    floor). ``recommended_inside_margin_inches`` is the mirrored gutter/inside margin.
-    Falls back to equal margins when the inside field is absent.
+    ``recommended_margin_inches`` is the outside/top baseline (Ingram type-safety
+    floor). ``recommended_inside_margin_inches`` is the mirrored gutter/inside
+    margin. ``recommended_bottom_margin_inches`` keeps folios farther from trim.
+    Falls back to equal margins when optional fields are absent.
     """
     target = spec_ingramspark_target(spec)
     profile_id = str(target.get("specification_profile") or "").strip()
     if not profile_id:
-        return 0.5, 0.5
+        return 0.5, 0.5, 0.5
     profile = load_profile(profile_id)
     print_cfg = _as_dict(profile.get("print"))
     outside = float(print_cfg.get("recommended_margin_inches") or 0.5)
     inside_raw = print_cfg.get("recommended_inside_margin_inches")
     inside = float(inside_raw) if inside_raw is not None else outside
-    if outside <= 0 or inside <= 0:
+    bottom_raw = print_cfg.get("recommended_bottom_margin_inches")
+    bottom = float(bottom_raw) if bottom_raw is not None else outside
+    if outside <= 0 or inside <= 0 or bottom <= 0:
         raise PrintExportError(
-            f"Invalid print margins in profile {profile_id}: outside={outside}, inside={inside}"
+            f"Invalid print margins in profile {profile_id}: "
+            f"outside={outside}, inside={inside}, bottom={bottom}"
         )
-    return outside, inside
+    return outside, inside, bottom
 
 
 def _recommended_margin_inches(spec: dict[str, Any]) -> float:
-    """Outside/top/bottom margin inches (compat wrapper)."""
+    """Outside/top margin inches (compat wrapper)."""
     return _print_margins_inches(spec)[0]
 
 
@@ -191,6 +195,7 @@ def _pandoc_pdf(
     height_in: float,
     outside_margin_in: float,
     inside_margin_in: float,
+    bottom_margin_in: float,
     pandoc: str,
     pdf_engine: str,
 ) -> None:
@@ -220,7 +225,7 @@ def _pandoc_pdf(
                 text = prepare_copyright_for_print_pdf(text)
             elif unit.name == "about-the-series.md":
                 text = prepare_about_the_series_for_print_pdf(text)
-            elif unit.name == "preface.md":
+            elif unit.name in {"preface.md", "reading-with-the-series.md"}:
                 text = prepare_front_matter_display_for_pdf(text)
             elif is_chapter_markdown_unit(unit.name):
                 # Part openers own the page break; chapters flow after the bridge.
@@ -230,14 +235,14 @@ def _pandoc_pdf(
 
         outside = f"{outside_margin_in}in"
         inside = f"{inside_margin_in}in"
+        bottom = f"{bottom_margin_in}in"
         # Mirrored inner/outer margins (twoside) keep the gutter wider than the
-        # outside edge without shrinking the outside margin. includefoot/includehead
-        # keep page numbers and running heads inside the margin box so ink stays
-        # ≥ recommended_margin_inches from trim (IngramSpark interior type safety).
-        # Pass geometry as one option so Pandoc emits a single usepackage line.
+        # outside edge without shrinking the outside margin. Bottom is larger so
+        # folios sit farther from trim. includefoot/includehead keep page numbers
+        # and running heads inside the margin box (IngramSpark type safety).
         geometry = (
             f"paperwidth={width_in}in,paperheight={height_in}in,"
-            f"inner={inside},outer={outside},top={outside},bottom={outside},"
+            f"inner={inside},outer={outside},top={outside},bottom={bottom},"
             "includefoot,includehead"
         )
         cmd = [
@@ -463,7 +468,7 @@ def export_ingramspark_print_interior(
     isbn = print_isbn(spec)
     width, height = print_trim_inches(spec)
     color_mode = print_color_mode(spec)
-    outside_margin, inside_margin = _print_margins_inches(spec)
+    outside_margin, inside_margin, bottom_margin = _print_margins_inches(spec)
 
     out_dir = print_output_dir(repo, spec)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -483,6 +488,7 @@ def export_ingramspark_print_interior(
                 height_in=height,
                 outside_margin_in=outside_margin,
                 inside_margin_in=inside_margin,
+                bottom_margin_in=bottom_margin,
                 pandoc=pandoc,
                 pdf_engine=engine,
             )

@@ -65,7 +65,7 @@ def stage_pdf_units(
             text = prepare_copyright_for_print_pdf(text)
         elif unit.name == "about-the-series.md":
             text = prepare_about_the_series_for_print_pdf(text)
-        elif unit.name == "preface.md":
+        elif unit.name in {"preface.md", "reading-with-the-series.md"}:
             text = prepare_front_matter_display_for_pdf(text)
         elif is_chapter_markdown_unit(unit.name):
             text = strip_leading_newpage(text)

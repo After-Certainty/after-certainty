@@ -133,11 +133,13 @@ def test_prepare_print_title_page_display_centers_hierarchy() -> None:
     )
     out = prepare_print_title_page_display(text)
     assert "\\thispagestyle{empty}" in out
-    assert "\\vspace*{0.28\\textheight}" in out
+    assert "\\vspace*{2.45in}" in out
     assert "\\LARGE\\bfseries Everyone Knows Love" in out
     assert "\\large Why Is It So Hard to Explain?" in out
     assert "Kevin Steffensen" in out
     assert "# **Everyone Knows Love**" not in out
+    assert "\\begin{center}" not in out
+    assert "\\vspace*{\\fill}" not in out
 
 
 def test_prepare_copyright_for_print_pdf_suppresses_folio() -> None:
