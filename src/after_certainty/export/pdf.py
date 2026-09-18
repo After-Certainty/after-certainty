@@ -10,10 +10,15 @@ from pathlib import Path
 
 from after_certainty.core.book_output_stem import stem_for_book_dir
 from after_certainty.export.assets import (
+    is_chapter_markdown_unit,
     pdf_header_tex,
+    prepare_about_the_series_for_print_pdf,
     prepare_bridge_markdown_for_pdf,
     prepare_closing_markdown_for_pdf,
+    prepare_copyright_for_print_pdf,
+    prepare_front_matter_display_for_pdf,
     prepare_title_page_for_pdf,
+    strip_leading_newpage,
     title_page_cover_basename,
     title_page_cover_unnumbered,
 )
@@ -51,25 +56,28 @@ def stage_pdf_units(
 
     staged: list[Path] = []
     for unit in publication_units:
+        text = unit.read_text(encoding="utf-8")
         if unit.name == "closing.md":
-            text = prepare_closing_markdown_for_pdf(unit.read_text(encoding="utf-8"))
-            unit.write_text(text, encoding="utf-8")
-            staged.append(unit)
+            text = prepare_closing_markdown_for_pdf(text)
         elif unit.name == "bridge.md":
-            text = prepare_bridge_markdown_for_pdf(unit.read_text(encoding="utf-8"))
-            unit.write_text(text, encoding="utf-8")
-            staged.append(unit)
+            text = prepare_bridge_markdown_for_pdf(text)
+        elif unit.name == "copyright.md":
+            text = prepare_copyright_for_print_pdf(text)
+        elif unit.name == "about-the-series.md":
+            text = prepare_about_the_series_for_print_pdf(text)
+        elif unit.name == "preface.md":
+            text = prepare_front_matter_display_for_pdf(text)
+        elif is_chapter_markdown_unit(unit.name):
+            text = strip_leading_newpage(text)
         elif unit.name == "title-page.md" and unnumbered_cover and cover_basename:
             cover_src = book_dir / cover_basename
             text = prepare_title_page_for_pdf(
-                unit.read_text(encoding="utf-8"),
+                text,
                 cover_basename,
                 cover_path=cover_src if cover_src.is_file() else None,
             )
-            unit.write_text(text, encoding="utf-8")
-            staged.append(unit)
-        else:
-            staged.append(unit)
+        unit.write_text(text, encoding="utf-8")
+        staged.append(unit)
     return staged
 
 

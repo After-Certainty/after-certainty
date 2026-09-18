@@ -1,5 +1,3 @@
-\newpage
-
 # Freedom
 
 A mother asked whether they could talk every Sunday evening at six.

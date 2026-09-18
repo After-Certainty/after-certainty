@@ -1,8 +1,9 @@
 % Everyone Knows Love — PDF page helpers (Pandoc / LaTeX)
 %
 % Closing quote: vertical offset via prepare_closing_markdown_for_pdf.
-% Part bridges: bottom-aligned via prepare_bridge_markdown_for_pdf
-%   (\vspace*{\fill} before the opener on a short page).
+% Part bridges / front matter (except title): top-aligned via
+% prepare_top_margin_display_for_pdf (heading at 3in from trim; chapters flow
+% without their own newpage after each part opener).
 
 \usepackage{etoolbox}
 

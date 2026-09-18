@@ -80,6 +80,7 @@
         "pdfx_icc_policy",
         "max_total_ink_coverage_percent",
         "recommended_margin_inches",
+        "recommended_inside_margin_inches",
         "bleed_inches"
       ],
       "properties": {
@@ -111,7 +112,13 @@
         },
         "recommended_margin_inches": {
           "type": "number",
-          "exclusiveMinimum": 0
+          "exclusiveMinimum": 0,
+          "description": "Outside, top, and bottom interior margins (inches)."
+        },
+        "recommended_inside_margin_inches": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "description": "Inside/gutter interior margin for mirrored twoside paperback layouts (inches)."
         },
         "bleed_inches": {
           "type": "number",

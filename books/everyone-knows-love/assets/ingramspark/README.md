@@ -5,7 +5,7 @@ Production source assets for `assembled-raster-wrap` (not website/ebook covers).
 ```
 back.png         # 1838×2775 @ 300 ppi — left outside bleed + back trim + vertical bleed
 spine-source.png  # 82×2775 @ 300 ppi — uncropped master for page-count recrops
-spine.png        # 62×2775   @ 300 ppi — center-cropped from spine-source (82 cream pages)
+spine.png        # 58×2775   @ 300 ppi — center-cropped from spine-source (78 cream pages)
 front.png        # 1838×2775 @ 300 ppi — front trim + right outside bleed + vertical bleed
 ebook-front.png  # 1800×2700 @ 300 ppi — bleed-free 6×9 crop of front.png (ebook cover source)
 template-meta.yml

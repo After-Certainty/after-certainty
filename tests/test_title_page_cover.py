@@ -5,10 +5,16 @@ from __future__ import annotations
 from pathlib import Path
 
 from after_certainty.export.assets import (
+    is_chapter_markdown_unit,
+    prepare_about_the_series_for_print_pdf,
     prepare_bridge_markdown_for_pdf,
+    prepare_copyright_for_print_pdf,
+    prepare_front_matter_display_for_pdf,
+    prepare_print_title_page_display,
     prepare_title_page_for_docx,
     prepare_title_page_for_pdf,
     strip_inline_title_page_cover,
+    strip_leading_newpage,
     title_page_cover_alt,
 )
 from after_certainty.export.docx import stage_docx_units
@@ -105,18 +111,72 @@ def test_stage_docx_units_empties_cover_alt_without_unnumbered_flag(tmp_path: Pa
     assert "showing a folder" not in text
 
 
-def test_prepare_bridge_markdown_for_pdf_bottom_aligns() -> None:
+def test_prepare_bridge_markdown_for_pdf_top_aligns_with_margin() -> None:
     text = "\\newpage\n\n# Part II — How Love Moves\n\nLove does not sit still.\n"
     out = prepare_bridge_markdown_for_pdf(text)
     assert "{=latex}" in out
-    assert "\\vspace*{\\fill}" in out
-    assert "# Part II — How Love Moves" in out
+    assert "\\vspace*{2.45in}" in out
+    assert "\\vspace*{\\fill}" not in out
+    assert "\\thispagestyle{empty}" in out
+    assert r"\Large\bfseries Part II — How Love Moves" in out
     assert "Love does not sit still." in out
+    assert "# Part II — How Love Moves" not in out
     assert out.strip().startswith("```{=latex}")
-    assert out.count("\\clearpage") >= 2
+    assert out.count("\\clearpage") == 1
 
 
-def test_stage_pdf_units_bottom_aligns_bridge(tmp_path: Path) -> None:
+def test_prepare_print_title_page_display_centers_hierarchy() -> None:
+    text = (
+        "# **Everyone Knows Love**\n\n"
+        "## **Why Is It So Hard to Explain?**\n\n"
+        "**Kevin Steffensen**\n"
+    )
+    out = prepare_print_title_page_display(text)
+    assert "\\thispagestyle{empty}" in out
+    assert "\\vspace*{0.28\\textheight}" in out
+    assert "\\LARGE\\bfseries Everyone Knows Love" in out
+    assert "\\large Why Is It So Hard to Explain?" in out
+    assert "Kevin Steffensen" in out
+    assert "# **Everyone Knows Love**" not in out
+
+
+def test_prepare_copyright_for_print_pdf_suppresses_folio() -> None:
+    text = "\\newpage\n\n# Copyright\n\nCopyright © 2026.\n"
+    out = prepare_copyright_for_print_pdf(text)
+    assert "\\thispagestyle{empty}" in out
+    assert "\\vspace*{2.45in}" in out
+    assert r"\Large\bfseries Copyright" in out
+    assert "# Copyright" not in out
+    assert "Copyright © 2026." in out
+    assert "\\newpage" not in out
+
+
+def test_prepare_about_the_series_for_print_pdf_keeps_url_together() -> None:
+    text = "For the catalog, visit [www.after-certainty.com](https://www.after-certainty.com).\n"
+    out = prepare_about_the_series_for_print_pdf(text)
+    assert r"\mbox{www.after-certainty.com}" in out
+    assert r"visit~\href{https://www.after-certainty.com}" in out
+    assert "[www.after-certainty.com]" not in out
+    assert "\\vspace*{2.45in}" in out
+
+
+def test_prepare_front_matter_display_for_pdf_uses_top_margin() -> None:
+    text = "\\newpage\n\n# Preface\n\nHello.\n"
+    out = prepare_front_matter_display_for_pdf(text)
+    assert "\\vspace*{2.45in}" in out
+    assert r"\Large\bfseries Preface" in out
+    assert "# Preface" not in out
+    assert "Hello." in out
+    assert "\\thispagestyle{empty}" not in out
+
+
+def test_strip_leading_newpage_for_chapters() -> None:
+    assert strip_leading_newpage("\\newpage\n\n# Seeing\n\nBody.\n") == "# Seeing\n\nBody.\n"
+    assert is_chapter_markdown_unit("chapter-4-seeing.md")
+    assert not is_chapter_markdown_unit("bridge.md")
+
+
+def test_stage_pdf_units_top_aligns_bridge(tmp_path: Path) -> None:
     book_dir = tmp_path / "book"
     bridge = book_dir / "parts" / "part-1" / "bridge.md"
     bridge.parent.mkdir(parents=True)
@@ -127,5 +187,6 @@ def test_stage_pdf_units_bottom_aligns_bridge(tmp_path: Path) -> None:
     staged = stage_pdf_units([bridge], tmp_path / "pdf-tmp", spec={}, book_dir=book_dir)
     assert staged[0].name == "bridge.md"
     text = staged[0].read_text(encoding="utf-8")
-    assert "\\vspace*{\\fill}" in text
-    assert "# Part I — Test" in text
+    assert "\\vspace*{2.45in}" in text
+    assert r"\Large\bfseries Part I — Test" in text
+    assert "\\vspace*{\\fill}" not in text

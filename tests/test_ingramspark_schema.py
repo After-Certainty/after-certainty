@@ -91,6 +91,8 @@ def test_profile_skeleton_loads_and_separates_epub_versions() -> None:
     assert profile["ebook"]["max_interior_image_pixels"] == 3_200_000
     assert profile["ebook"]["cover_min_longest_side_px"] == 2560
     assert profile["print"]["pdfx_icc_policy"] == "account-verification-needed"
+    assert profile["print"]["recommended_margin_inches"] == 0.55
+    assert profile["print"]["recommended_inside_margin_inches"] == 0.7375
     assert validate_all_profiles() == ["ingramspark-2026-07"]
 
 

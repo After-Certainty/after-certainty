@@ -57,7 +57,10 @@ print:
       on export-ingramspark-print to trial the same Ghostscript flags on a book PDF.
   max_total_ink_coverage_percent: 240
   # 0.55" keeps TeX glyph overhang inside Ingram's 0.5" interior type-safety band.
+  # Outside / top / bottom use this baseline; inside is wider for perfect-bound gutters.
   recommended_margin_inches: 0.55
+  # Paperback inside/gutter margin (0.55 + 0.1875). Named for easy post-proof tuning.
+  recommended_inside_margin_inches: 0.7375
   bleed_inches: 0.125
   # Raster full-wrap PNG → print cover PDF.
   cover_raster:

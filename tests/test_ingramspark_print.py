@@ -151,6 +151,24 @@ def test_profile_records_pdfx_construction_candidate() -> None:
     assert profile["print"]["pdfx_icc_policy"] == "account-verification-needed"
 
 
+def test_print_margins_use_named_inside_gutter() -> None:
+    from after_certainty.ingramspark.print_export import _print_margins_inches
+
+    spec = {
+        "publishing": {
+            "targets": {
+                "ingramspark": {
+                    "specification_profile": "ingramspark-2026-07",
+                }
+            }
+        }
+    }
+    outside, inside = _print_margins_inches(spec)
+    assert outside == 0.55
+    assert inside == 0.7375
+    assert inside > outside
+
+
 @requires_gs
 def test_wrong_trim_fails_media_box_helper(tmp_path: Path) -> None:
     out = tmp_path / "proof"

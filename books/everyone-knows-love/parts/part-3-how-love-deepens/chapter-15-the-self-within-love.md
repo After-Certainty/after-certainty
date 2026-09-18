@@ -1,5 +1,3 @@
-\newpage
-
 # The Self Within Love
 
 Someone realized one spring that they could not remember the last time they had done something alone without feeling guilty about it.

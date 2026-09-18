@@ -1,5 +1,3 @@
-\newpage
-
 # Connection
 
 You can stand in a crowded room and feel alone.

@@ -1,5 +1,3 @@
-\newpage
-
 # Seeing
 
 A woman sat across from a friend at a diner.

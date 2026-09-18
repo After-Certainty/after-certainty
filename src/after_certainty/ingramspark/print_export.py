@@ -12,10 +12,16 @@ from typing import Any
 
 from after_certainty.core.repo_root import repo_root
 from after_certainty.export.assets import (
+    is_chapter_markdown_unit,
     pdf_header_tex,
+    prepare_about_the_series_for_print_pdf,
     prepare_bridge_markdown_for_pdf,
     prepare_closing_markdown_for_pdf,
+    prepare_copyright_for_print_pdf,
+    prepare_front_matter_display_for_pdf,
+    prepare_print_title_page_display,
     strip_inline_title_page_cover,
+    strip_leading_newpage,
     title_page_cover_basename,
 )
 from after_certainty.ingramspark.paths import (
@@ -102,13 +108,32 @@ def print_color_mode(spec: dict[str, Any]) -> str:
     return mode
 
 
-def _recommended_margin_inches(spec: dict[str, Any]) -> float:
+def _print_margins_inches(spec: dict[str, Any]) -> tuple[float, float]:
+    """Return (outside_inches, inside_inches) from the book's specification profile.
+
+    ``recommended_margin_inches`` is the outside/top/bottom baseline (Ingram type-safety
+    floor). ``recommended_inside_margin_inches`` is the mirrored gutter/inside margin.
+    Falls back to equal margins when the inside field is absent.
+    """
     target = spec_ingramspark_target(spec)
     profile_id = str(target.get("specification_profile") or "").strip()
     if not profile_id:
-        return 0.5
+        return 0.5, 0.5
     profile = load_profile(profile_id)
-    return float(_as_dict(profile.get("print")).get("recommended_margin_inches") or 0.5)
+    print_cfg = _as_dict(profile.get("print"))
+    outside = float(print_cfg.get("recommended_margin_inches") or 0.5)
+    inside_raw = print_cfg.get("recommended_inside_margin_inches")
+    inside = float(inside_raw) if inside_raw is not None else outside
+    if outside <= 0 or inside <= 0:
+        raise PrintExportError(
+            f"Invalid print margins in profile {profile_id}: outside={outside}, inside={inside}"
+        )
+    return outside, inside
+
+
+def _recommended_margin_inches(spec: dict[str, Any]) -> float:
+    """Outside/top/bottom margin inches (compat wrapper)."""
+    return _print_margins_inches(spec)[0]
 
 
 def _typst_pdf(
@@ -164,7 +189,8 @@ def _pandoc_pdf(
     out_pdf: Path,
     width_in: float,
     height_in: float,
-    margin_in: float,
+    outside_margin_in: float,
+    inside_margin_in: float,
     pandoc: str,
     pdf_engine: str,
 ) -> None:
@@ -180,36 +206,38 @@ def _pandoc_pdf(
         staged: list[Path] = []
         cover_basename = title_page_cover_basename(spec)
         for unit in publication_units:
+            text = unit.read_text(encoding="utf-8")
             if unit.name == "closing.md":
-                unit.write_text(
-                    prepare_closing_markdown_for_pdf(unit.read_text(encoding="utf-8")),
-                    encoding="utf-8",
-                )
+                text = prepare_closing_markdown_for_pdf(text)
             elif unit.name == "bridge.md":
-                unit.write_text(
-                    prepare_bridge_markdown_for_pdf(unit.read_text(encoding="utf-8")),
-                    encoding="utf-8",
-                )
-            elif unit.name == "title-page.md" and cover_basename:
+                text = prepare_bridge_markdown_for_pdf(text)
+            elif unit.name == "title-page.md":
                 # Print cover is a separate IngramSpark upload; do not embed jacket art.
-                unit.write_text(
-                    strip_inline_title_page_cover(
-                        unit.read_text(encoding="utf-8"),
-                        cover_basename,
-                    ),
-                    encoding="utf-8",
-                )
+                if cover_basename:
+                    text = strip_inline_title_page_cover(text, cover_basename)
+                text = prepare_print_title_page_display(text)
+            elif unit.name == "copyright.md":
+                text = prepare_copyright_for_print_pdf(text)
+            elif unit.name == "about-the-series.md":
+                text = prepare_about_the_series_for_print_pdf(text)
+            elif unit.name == "preface.md":
+                text = prepare_front_matter_display_for_pdf(text)
+            elif is_chapter_markdown_unit(unit.name):
+                # Part openers own the page break; chapters flow after the bridge.
+                text = strip_leading_newpage(text)
+            unit.write_text(text, encoding="utf-8")
             staged.append(unit)
 
-        margin = f"{margin_in}in"
-        # includefoot/includehead keep page numbers and running heads inside the
-        # margin box so ink stays ≥ recommended_margin_inches from trim (IngramSpark
-        # interior type safety). Without these, LaTeX places the footer in the
-        # bottom margin and page numbers fall inside the 0.5" safety strip.
+        outside = f"{outside_margin_in}in"
+        inside = f"{inside_margin_in}in"
+        # Mirrored inner/outer margins (twoside) keep the gutter wider than the
+        # outside edge without shrinking the outside margin. includefoot/includehead
+        # keep page numbers and running heads inside the margin box so ink stays
+        # ≥ recommended_margin_inches from trim (IngramSpark interior type safety).
         # Pass geometry as one option so Pandoc emits a single usepackage line.
         geometry = (
             f"paperwidth={width_in}in,paperheight={height_in}in,"
-            f"top={margin},bottom={margin},left={margin},right={margin},"
+            f"inner={inside},outer={outside},top={outside},bottom={outside},"
             "includefoot,includehead"
         )
         cmd = [
@@ -218,6 +246,8 @@ def _pandoc_pdf(
             f"--resource-path={book_dir}",
             f"--pdf-engine={pdf_engine}",
             "--from=markdown+fenced_divs+raw_tex",
+            "-V",
+            "classoption=twoside",
             "-V",
             f"geometry:{geometry}",
             "-o",
@@ -433,7 +463,7 @@ def export_ingramspark_print_interior(
     isbn = print_isbn(spec)
     width, height = print_trim_inches(spec)
     color_mode = print_color_mode(spec)
-    margin = _recommended_margin_inches(spec)
+    outside_margin, inside_margin = _print_margins_inches(spec)
 
     out_dir = print_output_dir(repo, spec)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -451,7 +481,8 @@ def export_ingramspark_print_interior(
                 out_pdf=raw_pdf,
                 width_in=width,
                 height_in=height,
-                margin_in=margin,
+                outside_margin_in=outside_margin,
+                inside_margin_in=inside_margin,
                 pandoc=pandoc,
                 pdf_engine=engine,
             )

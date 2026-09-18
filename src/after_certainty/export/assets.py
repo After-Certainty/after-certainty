@@ -201,14 +201,48 @@ def prepare_closing_markdown_for_pdf(text: str) -> str:
 
 _LEADING_NEWPAGE_RE = re.compile(r"^(?:\\newpage[ \t]*\n+)+")
 
+# Extra top offset for print display openers (part bridges, front matter except title).
+PRINT_DISPLAY_TOP_MARGIN_INCHES = 3.0
 
-def prepare_bridge_markdown_for_pdf(text: str) -> str:
-    """Bottom-align a short part-bridge opener on its own PDF/print page.
+_MD_BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
+_TITLE_H1_RE = re.compile(r"(?m)^#\s+(.+)$")
+_TITLE_H2_RE = re.compile(r"(?m)^##\s+(.+)$")
+_AUTHOR_BOLD_LINE_RE = re.compile(r"(?m)^\*\*(.+?)\*\*\s*$")
+_SERIES_SITE_LINK_RE = re.compile(
+    r"\[www\.after-certainty\.com\]\(https://www\.after-certainty\.com/?\)"
+)
+_SERIES_VISIT_LINK_RE = re.compile(
+    r"visit \[www\.after-certainty\.com\]\(https://www\.after-certainty\.com/?\)\."
+)
+_CHAPTER_UNIT_RE = re.compile(r"^chapter-.+\.md$", re.I)
 
-    Part bridges are usually a heading plus a few paragraphs; top alignment leaves
-    a large empty lower half. Leading ``\\newpage`` markers are replaced by an
-    explicit ``\\clearpage`` plus ``\\vspace*{\\fill}`` so the markdown heading
-    still converts normally.
+
+def _strip_md_bold(text: str) -> str:
+    return _MD_BOLD_RE.sub(r"\1", text).strip()
+
+
+def _latex_escape(text: str) -> str:
+    """Escape LaTeX specials in plain display-page strings."""
+    replacements = {
+        "\\": r"\textbackslash{}",
+        "{": r"\{",
+        "}": r"\}",
+        "$": r"\$",
+        "&": r"\&",
+        "#": r"\#",
+        "_": r"\_",
+        "%": r"\%",
+        "~": r"\textasciitilde{}",
+        "^": r"\textasciicircum{}",
+    }
+    return "".join(replacements.get(ch, ch) for ch in text)
+
+
+def prepare_print_title_page_display(text: str) -> str:
+    """Centered typographic title block for IngramSpark print interiors.
+
+    Suppresses the folio and places title / subtitle / author with deliberate
+    vertical hierarchy instead of ordinary top-left markdown headings.
     """
     body = text.strip()
     if not body:
@@ -216,14 +250,142 @@ def prepare_bridge_markdown_for_pdf(text: str) -> str:
     body = _LEADING_NEWPAGE_RE.sub("", body).strip()
     if not body:
         return text
+
+    title_match = _TITLE_H1_RE.search(body)
+    subtitle_match = _TITLE_H2_RE.search(body)
+    author_match = _AUTHOR_BOLD_LINE_RE.search(body)
+    if title_match is None:
+        return text
+
+    title = _latex_escape(_strip_md_bold(title_match.group(1)))
+    lines = [
+        "```{=latex}",
+        "\\thispagestyle{empty}",
+        "\\vspace*{0.28\\textheight}",
+        "\\begin{center}",
+        f"{{\\LARGE\\bfseries {title}}}\\\\[1.25em]",
+    ]
+    if subtitle_match is not None:
+        subtitle = _latex_escape(_strip_md_bold(subtitle_match.group(1)))
+        lines.append(f"{{\\large {subtitle}}}\\\\[2.25em]")
+    if author_match is not None:
+        author = _latex_escape(_strip_md_bold(author_match.group(1)))
+        lines.append(f"{author}")
+    lines.extend(
+        [
+            "\\end{center}",
+            "\\vspace*{\\fill}",
+            "\\clearpage",
+            "```",
+            "",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def prepare_copyright_for_print_pdf(text: str) -> str:
+    """Copyright display page: new page, empty folio, 3in top offset."""
+    return prepare_top_margin_display_for_pdf(text, empty_folio=True)
+
+
+def prepare_about_the_series_for_print_pdf(text: str) -> str:
+    """Keep www.after-certainty.com unbroken and within the text block.
+
+    Tie ``visit`` to the domain with a non-breaking space and ``\\mbox`` so the
+    URL neither hyphenates mid-domain nor orphans alone on the next page.
+    """
+    replacement = (
+        r"`visit~\href{https://www.after-certainty.com}"
+        r"{\mbox{www.after-certainty.com}}.`{=latex}"
+    )
+    if _SERIES_VISIT_LINK_RE.search(text):
+        fixed = _SERIES_VISIT_LINK_RE.sub(lambda _m: replacement, text)
+    else:
+        fixed = _SERIES_SITE_LINK_RE.sub(
+            lambda _m: (
+                r"`\href{https://www.after-certainty.com}"
+                r"{\mbox{www.after-certainty.com}}`{=latex}"
+            ),
+            text,
+        )
+    return prepare_top_margin_display_for_pdf(fixed, empty_folio=False)
+
+
+def prepare_front_matter_display_for_pdf(text: str) -> str:
+    """Top-align non-title front matter with the shared 3in display offset."""
+    return prepare_top_margin_display_for_pdf(text, empty_folio=False)
+
+
+def prepare_top_margin_display_for_pdf(
+    text: str,
+    *,
+    top_inches: float = PRINT_DISPLAY_TOP_MARGIN_INCHES,
+    empty_folio: bool = False,
+) -> str:
+    """Start a display unit on a new page, top-aligned with extra top margin.
+
+    ``top_inches`` is measured from the page trim edge. Geometry already applies
+    the profile outside/top margin (0.55in); this inserts the remainder and
+    zeroes ``\\topskip`` so Pandoc ``\\section`` before-skip cannot stack on top.
+    The leading ``#`` heading is emitted as raw LaTeX for the same reason.
+    Does not clear after the unit, so following chapters can continue on the
+    same page.
+    """
+    body = text.strip()
+    if not body:
+        return text
+    body = _LEADING_NEWPAGE_RE.sub("", body).strip()
+    if not body:
+        return text
+
+    title_match = _TITLE_H1_RE.match(body)
+    heading_latex = ""
+    rest = body
+    if title_match is not None:
+        heading = _latex_escape(_strip_md_bold(title_match.group(1)))
+        heading_latex = f"\\noindent{{\\Large\\bfseries {heading}\\par}}\n\\vspace{{0.8em}}\n"
+        rest = body[title_match.end() :].lstrip("\n")
+
+    folio = "\\thispagestyle{empty}\n" if empty_folio else ""
+    # Profile outside/top margin is 0.55in; land the heading at top_inches from trim.
+    geometry_top = 0.55
+    vspace_in = max(top_inches - geometry_top, 0.0)
     return (
         "```{=latex}\n"
         "\\clearpage\n"
-        "\\vspace*{\\fill}\n"
+        f"{folio}"
+        "\\begingroup\n"
+        "\\topskip=0pt\n"
+        f"\\vspace*{{{vspace_in:g}in}}\n"
+        "\\nointerlineskip\n"
+        f"{heading_latex}"
+        "\\endgroup\n"
         "```\n\n"
-        f"{body}\n\n"
-        "```{=latex}\n"
-        "\\vspace*{0.12\\textheight}\n"
-        "\\clearpage\n"
-        "```\n"
+        f"{rest}\n"
     )
+
+
+def strip_leading_newpage(text: str) -> str:
+    """Remove leading ``\\newpage`` markers (e.g. chapter units that should flow)."""
+    body = text.strip()
+    if not body:
+        return text
+    stripped = _LEADING_NEWPAGE_RE.sub("", body).strip()
+    if not stripped:
+        return text
+    return stripped + "\n"
+
+
+def is_chapter_markdown_unit(name: str) -> bool:
+    """True for manuscript chapter filenames (``chapter-*.md``)."""
+    return bool(_CHAPTER_UNIT_RE.match(Path(name).name))
+
+
+def prepare_bridge_markdown_for_pdf(text: str) -> str:
+    """Top-align a part-bridge opener with extra top margin on its own PDF page.
+
+    Leading ``\\newpage`` markers become ``\\clearpage`` plus a fixed top offset.
+    Folios are suppressed. No trailing clear — the first chapter may continue on
+    the same page after the part opener.
+    """
+    return prepare_top_margin_display_for_pdf(text, empty_folio=True)

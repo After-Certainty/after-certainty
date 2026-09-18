@@ -1,5 +1,3 @@
-\newpage
-
 # Belonging
 
 A woman came home from work on a Thursday having done nothing heroic.
