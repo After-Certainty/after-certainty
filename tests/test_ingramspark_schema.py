@@ -531,4 +531,4 @@ def test_existing_repo_books_still_validate(repo_root: Path) -> None:
     assert wobl_target["ebook"]["cover_source"] == "assets/ingramspark/ebook-front.png"
     assert wobl_target["print"]["isbn"] == "9798256208912"
     assert wobl_target["print"]["cover"]["strategy"] == "assembled-raster-wrap"
-    assert wobl_target["print"]["cover"]["template_page_count"] == 128
+    assert wobl_target["print"]["cover"]["template_page_count"] == 160
