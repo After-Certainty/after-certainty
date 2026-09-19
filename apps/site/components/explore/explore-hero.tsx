@@ -1,4 +1,6 @@
 import Image from "next/image";
+import type { ReactNode } from "react";
+
 import { Container } from "@/components/ui/container";
 import { HERO_SCRIM_EXPLORE_CLASS } from "@/lib/ui/hero-scrim";
 
@@ -21,11 +23,20 @@ export type ExploreIndexHeroProps = {
   density?: ExploreIndexHeroDensity;
   /**
    * Opt-in mobile-only tighter padding/min-height for listening-first pages.
-   * Desktop (`md:`) classes stay aligned with the chosen density.
+   * Desktop (`md:`) classes stay aligned with the chosen density unless
+   * `desktopTighten` is also set.
    */
   mobileTighten?: boolean;
+  /**
+   * Opt-in desktop tighter padding/min-height/title size for listening-first
+   * pages. Only applies with `density="editorial"`. Aligns hero text to
+   * `max-w-6xl` to match the listen library band.
+   */
+  desktopTighten?: boolean;
   /** Optional meta line under the lede (e.g. pattern count). */
   countLabel?: string;
+  /** Optional control rendered beside `countLabel` (e.g. Explore songs link). */
+  metaAccessory?: ReactNode;
 };
 
 /**
@@ -39,48 +50,73 @@ export function ExploreIndexHero({
   headingId,
   density = "default",
   mobileTighten = false,
+  desktopTighten = false,
   countLabel,
+  metaAccessory,
 }: ExploreIndexHeroProps) {
   const compact = density === "compact";
   const editorial = density === "editorial";
   const tightMobile = mobileTighten && editorial;
+  const tightDesktop = desktopTighten && editorial;
 
   const sectionClass = editorial
     ? tightMobile
-      ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
-      : "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(28vh,240px)] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
+      ? tightDesktop
+        ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] overflow-hidden border-b border-border/45 md:min-h-[min(28vh,320px)]"
+        : "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
+      : tightDesktop
+        ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(28vh,240px)] overflow-hidden border-b border-border/45 md:min-h-[min(28vh,320px)]"
+        : "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(28vh,240px)] overflow-hidden border-b border-border/45 md:min-h-[min(42vh,480px)]"
     : compact
       ? "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(34vh,280px)] overflow-hidden border-b border-border/45 md:min-h-[min(48vh,520px)]"
       : "explore-page-hero relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen max-w-[100vw] min-h-[min(52vh,600px)] overflow-hidden border-b border-border/45 md:min-h-[min(56vh,640px)]";
 
+  const heroMaxWidth = tightDesktop ? "max-w-6xl" : "max-w-4xl";
+
   const containerClass = editorial
     ? tightMobile
-      ? "relative z-10 mx-auto max-w-4xl px-6 py-5 text-left md:py-16 lg:py-20"
-      : "relative z-10 mx-auto max-w-4xl px-6 py-8 text-left md:py-16 lg:py-20"
+      ? tightDesktop
+        ? `relative z-10 mx-auto ${heroMaxWidth} px-6 py-5 text-left md:py-8 lg:py-10`
+        : `relative z-10 mx-auto ${heroMaxWidth} px-6 py-5 text-left md:py-16 lg:py-20`
+      : tightDesktop
+        ? `relative z-10 mx-auto ${heroMaxWidth} px-6 py-8 text-left md:py-8 lg:py-10`
+        : `relative z-10 mx-auto ${heroMaxWidth} px-6 py-8 text-left md:py-16 lg:py-20`
     : compact
       ? "relative z-10 mx-auto max-w-4xl px-6 py-10 text-center md:py-20 md:text-left lg:py-24"
       : "relative z-10 mx-auto max-w-4xl px-6 py-20 text-center md:py-28 md:text-left lg:py-32";
 
   const titleClass = editorial
     ? tightMobile
-      ? "mt-1.5 font-display text-[2rem] font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-6 md:text-6xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
-      : "mt-2 font-display text-4xl font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-6 md:text-6xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
+      ? tightDesktop
+        ? "mt-1.5 font-display text-[2rem] font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-4 md:text-5xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
+        : "mt-1.5 font-display text-[2rem] font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-6 md:text-6xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
+      : tightDesktop
+        ? "mt-2 font-display text-4xl font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-4 md:text-5xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
+        : "mt-2 font-display text-4xl font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-6 md:text-6xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
     : compact
       ? "mt-4 font-display text-4xl font-medium leading-[1.05] tracking-[0.06em] text-balance md:mt-8 md:text-7xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]"
       : "mt-8 font-display text-5xl font-medium leading-[1.05] tracking-[0.06em] text-balance md:text-7xl dark:text-fg dark:drop-shadow-[0_2px_28px_rgba(0,0,0,0.5)] light:text-[rgb(255_250_244/0.98)] light:[text-shadow:0_2px_26px_rgb(0_0_0/0.42)]";
 
   const ledeClass = editorial
     ? tightMobile
-      ? "mt-2 max-w-2xl text-sm leading-snug text-fg/88 md:mt-6 md:text-lg md:leading-relaxed dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
-      : "mt-3 max-w-2xl text-sm leading-relaxed text-fg/88 md:mt-6 md:text-lg dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
+      ? tightDesktop
+        ? "mt-2 max-w-2xl text-sm leading-snug text-fg/88 md:mt-3 md:text-base md:leading-snug dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
+        : "mt-2 max-w-2xl text-sm leading-snug text-fg/88 md:mt-6 md:text-lg md:leading-relaxed dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
+      : tightDesktop
+        ? "mt-3 max-w-2xl text-sm leading-relaxed text-fg/88 md:mt-3 md:text-base md:leading-snug dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
+        : "mt-3 max-w-2xl text-sm leading-relaxed text-fg/88 md:mt-6 md:text-lg dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
     : compact
       ? "mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-fg/88 md:mx-0 md:mt-10 md:text-lg dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]"
       : "mx-auto mt-10 max-w-2xl text-base leading-relaxed text-fg/88 md:mx-0 md:text-lg dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.9)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.45)]";
 
   const ruleClass = editorial
     ? tightMobile
-      ? "mt-3 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mt-10"
-      : "mt-4 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mt-10"
+      ? tightDesktop
+        ? "mt-3 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mt-6"
+        : "mt-3 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mt-10"
+      : tightDesktop
+        ? "mt-4 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mt-6"
+        : "mt-4 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mt-10"
     : compact
       ? "mx-auto mt-6 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mx-0 md:mt-14"
       : "mx-auto mt-14 h-px max-w-md bg-gradient-to-r from-transparent via-border/70 to-transparent md:mx-0";
@@ -91,9 +127,17 @@ export function ExploreIndexHero({
 
   const countClass = editorial
     ? tightMobile
-      ? "mt-1.5 text-xs uppercase tracking-[0.22em] text-fg/75 dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.85)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.4)]"
-      : "mt-2 text-xs uppercase tracking-[0.22em] text-fg/75 dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.85)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.4)]"
-    : "mx-auto mt-3 text-xs uppercase tracking-[0.22em] text-muted md:mx-0";
+      ? "text-xs uppercase tracking-[0.22em] text-fg/75 dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.85)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.4)]"
+      : "text-xs uppercase tracking-[0.22em] text-fg/75 dark:[text-shadow:0_1px_2px_rgba(0,0,0,0.45)] light:text-[rgb(255_252_248/0.85)] light:[text-shadow:0_1px_2px_rgb(0_0_0/0.4)]"
+    : "text-xs uppercase tracking-[0.22em] text-muted";
+
+  const metaRowClass = editorial
+    ? tightMobile
+      ? "mt-1.5 flex flex-wrap items-baseline gap-x-4 gap-y-1"
+      : "mt-2 flex flex-wrap items-baseline gap-x-4 gap-y-1"
+    : "mx-auto mt-3 flex flex-wrap items-baseline justify-center gap-x-4 gap-y-1 md:mx-0 md:justify-start";
+
+  const showMeta = Boolean(countLabel || metaAccessory);
 
   return (
     <section
@@ -101,6 +145,7 @@ export function ExploreIndexHero({
       aria-labelledby={headingId}
       data-density={density}
       {...(mobileTighten ? { "data-mobile-tighten": "true" } : {})}
+      {...(desktopTighten ? { "data-desktop-tighten": "true" } : {})}
     >
       <div className="explore-page__media pointer-events-none absolute inset-0 z-0">
         <Image
@@ -141,7 +186,12 @@ export function ExploreIndexHero({
             {title}
           </h1>
           <p className={ledeClass}>{lede}</p>
-          {countLabel ? <p className={countClass}>{countLabel}</p> : null}
+          {showMeta ? (
+            <div className={metaRowClass}>
+              {countLabel ? <p className={countClass}>{countLabel}</p> : null}
+              {metaAccessory}
+            </div>
+          ) : null}
           <div className={ruleClass} aria-hidden />
         </div>
       </Container>

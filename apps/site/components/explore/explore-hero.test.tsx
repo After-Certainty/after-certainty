@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+import Link from "next/link";
 import { describe, expect, it, vi } from "vitest";
 
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
@@ -70,7 +71,30 @@ describe("ExploreIndexHero", () => {
     );
     expect(container.querySelector('[data-density="editorial"]')).toBeInTheDocument();
     expect(container.querySelector('[data-mobile-tighten="true"]')).toBeInTheDocument();
+    expect(container.querySelector("[data-desktop-tighten]")).not.toBeInTheDocument();
     expect(screen.getByText("32 songs")).toBeInTheDocument();
+  });
+
+  it("marks desktopTighten and renders metaAccessory beside the count", () => {
+    const { container } = render(
+      <ExploreIndexHero
+        eyebrow="Listen"
+        title="Songs from After Certainty"
+        lede="Another register."
+        headingId="listen-heading"
+        density="editorial"
+        mobileTighten
+        desktopTighten
+        countLabel="32 songs"
+        metaAccessory={<Link href="/explore/songs">Explore songs →</Link>}
+      />,
+    );
+    expect(container.querySelector('[data-desktop-tighten="true"]')).toBeInTheDocument();
+    expect(screen.getByText("32 songs")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /explore songs/i })).toHaveAttribute(
+      "href",
+      "/explore/songs",
+    );
   });
 });
 
