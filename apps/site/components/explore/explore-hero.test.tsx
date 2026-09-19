@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+import Link from "next/link";
 import { describe, expect, it, vi } from "vitest";
 
 import { ExploreIndexHero } from "@/components/explore/explore-hero";
@@ -85,7 +86,7 @@ describe("ExploreIndexHero", () => {
         mobileTighten
         desktopTighten
         countLabel="32 songs"
-        metaAccessory={<a href="/explore/songs">Explore songs →</a>}
+        metaAccessory={<Link href="/explore/songs">Explore songs →</Link>}
       />,
     );
     expect(container.querySelector('[data-desktop-tighten="true"]')).toBeInTheDocument();
