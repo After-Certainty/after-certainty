@@ -2,6 +2,10 @@
 # Authoritative locked versions live in uv.lock (see pyproject.toml).
 # Install: `uv sync --frozen` (CI) or `uv sync` / `pip install -r requirements.txt` (dev).
 # Lightweight manifest-only: `uv sync --frozen --only-group semantic` (PyYAML + jsonschema).
+#
+# Floor pin so OpenSSF Scorecard's requirements.txt resolve cannot pick vulnerable
+# transitive filelock (<3.20.3). uv.lock already has a newer fixed version.
+filelock>=3.20.3
 jinja2>=3.1
 jsonschema>=4
 PyYAML>=6
