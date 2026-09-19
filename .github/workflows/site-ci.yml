@@ -18,35 +18,9 @@
 name: Site CI
 
 on:
+  # Required merge checks must report for every PR, including docs-only changes.
   pull_request:
-    paths:
-      - "apps/site/**"
-      - "books/**"
-      - "semantic/**"
-      - "schema/**"
-      - "upcoming/**"
-      - "tools/generate_semantic_manifest.py"
-      - "tools/discovery_manifest.py"
-      - "tools/manifest_*.py"
-      - "tools/book_specs.py"
-      - "tools/manuscript_structure.py"
-      - "tools/pattern_yaml.py"
-      - "tools/validate_book_specs.py"
-      - "tools/verify_semantic_yaml.py"
-      - "scripts/install_local_manifest_for_site.py"
-      - "scripts/vercel_install.sh"
-      - "scripts/vercel_build.sh"
-      - "scripts/ci_vercel_prepare.sh"
-      - "scripts/ci_prepare_site_corpus.sh"
-      - "packages/corpus-tasks/**"
-      - "package.json"
-      - "package-lock.json"
-      - "turbo.json"
-      - ".npmrc"
-      - "Makefile"
-      - "pyproject.toml"
-      - "uv.lock"
-      - ".github/workflows/site-ci.yml"
+    branches: [main]
   push:
     branches:
       - main
