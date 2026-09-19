@@ -47,7 +47,7 @@ export default async function ListenPage({ searchParams }: ListenPageProps) {
     <article>
       <ListenHero countLabel={exploreIndexCountLabel(items.length, "song")} />
       {/* `!py-*` required: Section defaults to py-20 and wins without important. */}
-      <Section atmosphere="transition" className="border-t border-border/25 !py-4 md:!py-16">
+      <Section atmosphere="transition" className="border-t border-border/25 !py-4 md:!py-8">
         <Container className="max-w-6xl">
           {items.length === 0 ? (
             <p className="text-muted">No playable songs are published in the manifest yet.</p>

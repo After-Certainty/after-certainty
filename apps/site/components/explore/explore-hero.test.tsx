@@ -70,7 +70,30 @@ describe("ExploreIndexHero", () => {
     );
     expect(container.querySelector('[data-density="editorial"]')).toBeInTheDocument();
     expect(container.querySelector('[data-mobile-tighten="true"]')).toBeInTheDocument();
+    expect(container.querySelector("[data-desktop-tighten]")).not.toBeInTheDocument();
     expect(screen.getByText("32 songs")).toBeInTheDocument();
+  });
+
+  it("marks desktopTighten and renders metaAccessory beside the count", () => {
+    const { container } = render(
+      <ExploreIndexHero
+        eyebrow="Listen"
+        title="Songs from After Certainty"
+        lede="Another register."
+        headingId="listen-heading"
+        density="editorial"
+        mobileTighten
+        desktopTighten
+        countLabel="32 songs"
+        metaAccessory={<a href="/explore/songs">Explore songs →</a>}
+      />,
+    );
+    expect(container.querySelector('[data-desktop-tighten="true"]')).toBeInTheDocument();
+    expect(screen.getByText("32 songs")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /explore songs/i })).toHaveAttribute(
+      "href",
+      "/explore/songs",
+    );
   });
 });
 

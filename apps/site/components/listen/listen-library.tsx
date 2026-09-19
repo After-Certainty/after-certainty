@@ -138,6 +138,25 @@ export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
     />
   );
 
+  const searchField = (
+    <div className="w-full max-w-md">
+      <label htmlFor={inputId} className="sr-only">
+        Search songs
+      </label>
+      <input
+        id={inputId}
+        type="search"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Search songs…"
+        autoComplete="off"
+        spellCheck={false}
+        aria-controls={statusId}
+        className="min-h-11 w-full rounded-sm border border-border/60 bg-bg-elevated/40 px-4 py-2.5 text-sm text-fg placeholder:text-muted/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+      />
+    </div>
+  );
+
   const songList = (
     <div className="space-y-3 md:space-y-4">
       <h2
@@ -178,37 +197,26 @@ export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
   );
 
   return (
-    <div className="space-y-4 md:space-y-8">
-      <div className="space-y-3 md:space-y-0">
-        <div className="md:hidden">
-          <Link href={explorePaths.songs} className={exploreSecondaryButtonClass}>
-            Explore songs →
-          </Link>
-        </div>
-        <div className="w-full max-w-md">
-          <label htmlFor={inputId} className="sr-only">
-            Search songs
-          </label>
-          <input
-            id={inputId}
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search songs…"
-            autoComplete="off"
-            spellCheck={false}
-            aria-controls={statusId}
-            className="min-h-11 w-full rounded-sm border border-border/60 bg-bg-elevated/40 px-4 py-2.5 text-sm text-fg placeholder:text-muted/70 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
-          />
-        </div>
+    <div className="space-y-4 md:space-y-5">
+      {/* Mobile Explore CTA — desktop Explore link lives in the hero meta row. */}
+      <div className="md:hidden">
+        <Link href={explorePaths.songs} className={exploreSecondaryButtonClass}>
+          Explore songs →
+        </Link>
       </div>
 
-      {/* Mobile: player above list in one column (sticky works). Desktop: list | sticky player. */}
-      <div className="flex flex-col gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(20rem,24rem)] lg:gap-10">
-        <div className="sticky top-16 z-30 order-first lg:order-none lg:col-start-2 lg:row-start-1 lg:self-start lg:top-20">
+      {/*
+        Mobile / tablet: Explore CTA → search → sticky player → list.
+        Desktop (lg+): left = search + list; right = sticky player aligned to first song.
+      */}
+      <div className="flex flex-col gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(22rem,25rem)] lg:gap-6 lg:items-start">
+        <div className="order-2 space-y-4 lg:order-none lg:col-start-1 lg:row-start-1 lg:space-y-5">
+          {searchField}
+          {songList}
+        </div>
+        <div className="sticky top-16 z-30 order-first lg:order-none lg:col-start-2 lg:row-start-1 lg:self-start lg:top-20 lg:max-h-[calc(100vh-5rem)] lg:overflow-y-auto">
           {player}
         </div>
-        <div className="lg:col-start-1 lg:row-start-1">{songList}</div>
       </div>
     </div>
   );

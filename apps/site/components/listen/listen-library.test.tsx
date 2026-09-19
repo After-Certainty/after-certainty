@@ -103,7 +103,12 @@ describe("ListenLibrary", () => {
       "data-external-id",
       "fdf8353b-6440-4f2d-a2cf-515a8418cb45",
     );
-    expect(screen.getByText("Now playing")).toBeInTheDocument();
+    expect(
+      screen.getByRole("button", { name: "Don't Let the Score Fool You, now playing" }),
+    ).toHaveAttribute("aria-pressed", "true");
+    expect(
+      document.querySelector('[data-listen-song="dont-let-the-score-fool-you"]'),
+    ).toHaveAttribute("data-listen-selected", "true");
     expect(replaceState).toHaveBeenCalledWith(
       expect.anything(),
       "",
