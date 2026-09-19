@@ -14,16 +14,9 @@ on:
       - ".npmrc"
       - ".github/workflows/site-ci.yml"
       - ".github/dependabot.yml"
+  # Required merge checks must report even for site-only and Dependabot PRs.
   pull_request:
     branches: [main]
-    paths-ignore:
-      - "apps/site/**"
-      - "package.json"
-      - "package-lock.json"
-      - "turbo.json"
-      - ".npmrc"
-      - ".github/workflows/site-ci.yml"
-      - ".github/dependabot.yml"
 
 concurrency:
   group: python-tests-${{ github.ref }}
