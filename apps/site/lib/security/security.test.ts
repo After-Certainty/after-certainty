@@ -69,6 +69,8 @@ describe("SECURITY_HEADERS", () => {
     expect(frameSrc).toContain("https://www.youtube.com");
     expect(frameSrc).toContain("https://www.youtube-nocookie.com");
     expect(frameSrc).toContain("https://suno.com");
+    expect(frameSrc).toContain("https://auth.suno.com");
     expect(frameSrc).not.toMatch(/frame-src[^;]*\s\*(?:\s|;|$)/);
+    expect(frameSrc).not.toContain("https://*.suno.com");
   });
 });
