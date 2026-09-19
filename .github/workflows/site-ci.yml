@@ -261,7 +261,21 @@ jobs:
           bash scripts/ci_prepare_site_corpus.sh
 
       - name: Audit dependencies
-        run: npm audit --audit-level=high
+        run: |
+          set -euo pipefail
+          # Registry blips (ECONNRESET) fail the audit endpoint even when there
+          # are no high-severity findings — retry a few times before failing CI.
+          attempts=3
+          for i in $(seq 1 "$attempts"); do
+            if npm audit --audit-level=high; then
+              exit 0
+            fi
+            if [[ "$i" -eq "$attempts" ]]; then
+              exit 1
+            fi
+            echo "npm audit failed (attempt ${i}/${attempts}); retrying in $((i * 4))s..."
+            sleep $((i * 4))
+          done
 
       - name: Lint + unit tests (parallel)
         run: npx turbo run lint test --filter=after-certainty-site --concurrency=2
