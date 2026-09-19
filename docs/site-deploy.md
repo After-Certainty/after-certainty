@@ -118,8 +118,9 @@ Site CI sets `VERCEL_GIT_COMMIT_SHA=${{ github.sha }}` so
 
 ## Vercel CLI version
 
-Site CI pins the CLI (see `VERCEL_CLI_VERSION` in `site-ci.yml`). Do not switch
-to `vercel@latest` in CI.
+Site CI and Cursor install the CLI from the locked tree in
+[`tools/vercel-cli`](../tools/vercel-cli/) (`npm ci --prefix tools/vercel-cli`).
+Do not switch to `vercel@latest` or an unlocked `npm install` of the CLI.
 
 ## Future optimizations (not in this change)
 

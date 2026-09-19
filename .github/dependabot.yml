@@ -70,6 +70,19 @@ updates:
         update-types:
           - version-update:semver-major
 
+  # Isolated Vercel CLI lockfile (Site CI + Cursor; not an npm workspace).
+  - package-ecosystem: npm
+    directory: /tools/vercel-cli
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 3
+    labels:
+      - dependencies
+    commit-message:
+      prefix: deps
+      include: scope
+
   # Keep SHA-pinned Actions current (pairs with pinning in workflows).
   - package-ecosystem: github-actions
     directory: /

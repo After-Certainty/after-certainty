@@ -38,6 +38,7 @@ on:
       - "tools/pattern_yaml.py"
       - "tools/validate_book_specs.py"
       - "tools/verify_semantic_yaml.py"
+      - "tools/vercel-cli/**"
       - "scripts/install_local_manifest_for_site.py"
       - "scripts/vercel_install.sh"
       - "scripts/vercel_build.sh"
@@ -68,7 +69,6 @@ env:
   GITHUB_REPOSITORY: After-Certainty/after-certainty
   SEMANTIC_MANIFEST_OFFLINE: "1"
   SEMANTIC_MANIFEST_USE_LOCAL: "1"
-  VERCEL_CLI_VERSION: "59.3.0"
   SITE_URL: https://www.after-certainty.com
 
 jobs:
@@ -96,7 +96,9 @@ jobs:
         with:
           node-version: "22"
           cache: npm
-          cache-dependency-path: package-lock.json
+          cache-dependency-path: |
+            package-lock.json
+            tools/vercel-cli/package-lock.json
 
       - name: Decide Vercel build/deploy path
         id: vercel_path
@@ -120,12 +122,13 @@ jobs:
             echo "Skipping Vercel preview deploy: same_repo=${same_repo} token_set=$([ -n "${VERCEL_TOKEN}" ] && echo yes || echo no)"
           fi
 
-      - name: Install Vercel CLI (pinned)
+      - name: Install Vercel CLI (locked)
         if: steps.vercel_path.outputs.use_vercel == 'true'
         run: |
           set -euo pipefail
-          npm install --global "vercel@${VERCEL_CLI_VERSION}"
-          vercel --version
+          npm ci --prefix tools/vercel-cli --no-fund --no-audit
+          echo "${GITHUB_WORKSPACE}/tools/vercel-cli/node_modules/.bin" >> "${GITHUB_PATH}"
+          "${GITHUB_WORKSPACE}/tools/vercel-cli/node_modules/.bin/vercel" --version
 
       # npm ci / uv / manifest generate+install are owned by vercel build via
       # apps/site/vercel.json → scripts/vercel_install.sh + vercel_build.sh.
@@ -318,7 +321,7 @@ jobs:
             playwright-${{ runner.os }}-
 
       - name: Install Playwright browsers
-        run: npm exec -w after-certainty-site -- playwright install --with-deps chromium
+        run: npm run ci:playwright:install -w after-certainty-site
 
       - name: E2E against local server
         run: npm run site:test:e2e
@@ -349,7 +352,9 @@ jobs:
         with:
           node-version: "22"
           cache: npm
-          cache-dependency-path: package-lock.json
+          cache-dependency-path: |
+            package-lock.json
+            tools/vercel-cli/package-lock.json
 
       - name: Decide Vercel build/deploy path
         id: vercel_path
@@ -363,12 +368,13 @@ jobs:
             echo "Falling back to npm run site:build (no deploy)"
           fi
 
-      - name: Install Vercel CLI (pinned)
+      - name: Install Vercel CLI (locked)
         if: steps.vercel_path.outputs.use_vercel == 'true'
         run: |
           set -euo pipefail
-          npm install --global "vercel@${VERCEL_CLI_VERSION}"
-          vercel --version
+          npm ci --prefix tools/vercel-cli --no-fund --no-audit
+          echo "${GITHUB_WORKSPACE}/tools/vercel-cli/node_modules/.bin" >> "${GITHUB_PATH}"
+          "${GITHUB_WORKSPACE}/tools/vercel-cli/node_modules/.bin/vercel" --version
 
       - name: Prepare Vercel project (production)
         if: steps.vercel_path.outputs.use_vercel == 'true'
@@ -439,7 +445,7 @@ jobs:
             playwright-${{ runner.os }}-
 
       - name: Install Playwright browsers
-        run: npm exec -w after-certainty-site -- playwright install --with-deps chromium
+        run: npm run ci:playwright:install -w after-certainty-site
 
       - name: E2E against production build (local server)
         run: npm run site:test:e2e

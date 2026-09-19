@@ -1,21 +1,24 @@
 #!/usr/bin/env bash
-# Install pinned Vercel CLI for Cloud Agent sessions (idempotent, non-interactive).
-# Version matches VERCEL_CLI_VERSION in .github/workflows/site-ci.yml.
+# Install locked Vercel CLI for Cloud Agent sessions (idempotent, non-interactive).
+# Version and transitive tree come from tools/vercel-cli/{package.json,package-lock.json}.
 # Binary only — no VERCEL_TOKEN. Token Material is injected by `pade exec`.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-TOOLS="$ROOT/.tools/vercel"
-VERSION=59.3.0
-BIN="$TOOLS/node_modules/.bin"
+PKG="$ROOT/tools/vercel-cli"
+BIN="$PKG/node_modules/.bin"
 
 if ! command -v npm >/dev/null 2>&1; then
-  echo "error: npm is required to install vercel@${VERSION}" >&2
+  echo "error: npm is required to install the locked Vercel CLI from tools/vercel-cli" >&2
   exit 1
 fi
 
-mkdir -p "$TOOLS"
-npm install --prefix "$TOOLS" --no-save --no-fund --no-audit "vercel@${VERSION}"
+if [[ ! -f "$PKG/package.json" || ! -f "$PKG/package-lock.json" ]]; then
+  echo "error: missing tools/vercel-cli/package.json or package-lock.json" >&2
+  exit 1
+fi
+
+npm ci --prefix "$PKG" --no-fund --no-audit
 
 # Expose vercel on PATH for agent shells.
 PROFILE="/etc/profile.d/cursor-vercel.sh"
