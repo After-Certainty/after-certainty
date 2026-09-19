@@ -25,7 +25,7 @@ On Cloud Agents, **do not** use Vercel MCP, `vercel login`, `--token`, or a sess
 ### Cloud Agent (primary — PADE broker)
 
 - Released **PADE v0.3.0** on `PATH` (from [`.cursor/install-pade.sh`](../../../../.cursor/install-pade.sh))
-- Pinned **Vercel CLI 59.3.0** on `PATH` (from [`.cursor/install-vercel.sh`](../../../../.cursor/install-vercel.sh); binary only, no token)
+- Locked **Vercel CLI** on `PATH` (from [`.cursor/install-vercel.sh`](../../../../.cursor/install-vercel.sh) → [`tools/vercel-cli`](../../../../tools/vercel-cli/); binary only, no token)
 - [`pade.yaml`](../../../../pade.yaml) and [`.pade/agent-bindings.yaml`](../../../../.pade/agent-bindings.yaml) at repo root
 - Cursor Cloud Agent VM (identity socket for OIDC)
 

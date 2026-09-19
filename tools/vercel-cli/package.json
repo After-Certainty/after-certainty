@@ -1,0 +1,8 @@
+{
+  "name": "@after-certainty/vercel-cli",
+  "private": true,
+  "description": "Isolated locked install of the Vercel CLI for Site CI and Cursor Cloud Agents. Not an npm workspace package.",
+  "dependencies": {
+    "vercel": "59.3.0"
+  }
+}

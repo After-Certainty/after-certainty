@@ -11,6 +11,7 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
+    "ci:playwright:install": "playwright install --with-deps chromium",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "generate:og": "node scripts/generate-og.mjs",

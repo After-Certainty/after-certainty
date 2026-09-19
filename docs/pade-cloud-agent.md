@@ -8,7 +8,7 @@ After Certainty Cloud Agents use [PADE](https://github.com/After-Certainty/pade)
 |------|---------|
 | [`.cursor/environment.json`](../.cursor/environment.json) | Installs released `pade` v0.3.0 and pinned Vercel CLI on Cloud Agent bootstrap |
 | [`.cursor/install-pade.sh`](../.cursor/install-pade.sh) | Downloads released `pade` into `.tools/pade` and puts it on `PATH` |
-| [`.cursor/install-vercel.sh`](../.cursor/install-vercel.sh) | Installs pinned `vercel@59.3.0` into `.tools/vercel` (binary only; no token) |
+| [`.cursor/install-vercel.sh`](../.cursor/install-vercel.sh) | Installs the locked Vercel CLI from [`tools/vercel-cli`](../tools/vercel-cli/) (`npm ci --prefix`; binary only; no token) |
 | [`pade.yaml`](../pade.yaml) | Portable DevelopmentSession (secret-free Intent) |
 | [`.pade/agent-bindings.yaml`](../.pade/agent-bindings.yaml) | Runtime broker endpoint (URL committed by design) |
 | [`apps/site/scripts/ga4-*.sh`](../apps/site/scripts/) | GA4 Admin/Data API helpers invoked via `pade exec` |
@@ -74,7 +74,7 @@ make pade-smoke
 Expect:
 
 - `pade --version` → `v0.3.0`
-- `vercel --version` → `59.3.0`
+- `vercel --version` → matches [`tools/vercel-cli/package.json`](../tools/vercel-cli/package.json)
 - `pade capabilities` → `github.repo.read`, `google-analytics.read`, and `vercel.diagnostics` all `provider: broker`, configured
 - Property meta + minimal GA report succeed
 - `pade exec … vercel whoami` succeeds (never prints `$VERCEL_TOKEN`)
