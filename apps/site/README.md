@@ -1,8 +1,10 @@
 # After Certainty · Site
 
-Intellectual commons surface for **After Certainty** — books metadata, podcast hub, patterns library, and collaboration entry points. Corpus YAML lives in the monorepo root (`books/`, `semantic/`); this app builds from a same-checkout `semantic-manifest.json` (see [`docs/migrations/monorepo-phase-6/`](../../docs/migrations/monorepo-phase-6/) and [`phase-7`](../../docs/migrations/monorepo-phase-7/)).
+Public website for **[After Certainty](https://www.after-certainty.com)** — native book reading, Explore / Observatory, questions and trails, Listen, games, podcast, and related surfaces.
 
-> **Monorepo note:** This tree is the site source of truth at `apps/site/` inside [`After-Certainty/after-certainty`](https://github.com/After-Certainty/after-certainty). Prefer installing from the repository root (`npm ci`). Vercel Root Directory should be `apps/site` ([`vercel.json`](./vercel.json)). The former standalone [`after-certainty-site`](https://github.com/After-Certainty/after-certainty-site) repository is archived (read-only pointer).
+Corpus YAML lives at the monorepo root (`books/`, `semantic/`). This app builds from a same-checkout `semantic-manifest.json`. Repository overview: [`README.md`](../../README.md). Technical docs index: [`docs/README.md`](../../docs/README.md).
+
+> **Monorepo:** Site source of truth is `apps/site/` inside [`After-Certainty/after-certainty`](https://github.com/After-Certainty/after-certainty). Prefer installing from the repository root (`npm ci`). Vercel Root Directory should be `apps/site` ([`vercel.json`](./vercel.json)). The former standalone [`after-certainty-site`](https://github.com/After-Certainty/after-certainty-site) repository is archived. Historical migration notes: [`docs/migrations/`](../../docs/migrations/).
 
 ## Stack
 
@@ -61,13 +63,13 @@ Install the real local manifest with `npm run corpus:build-manifest` followed by
 
 ## Dependency updates & security
 
-Keeping libraries and CI Actions current:
+Keeping libraries and CI Actions current (configured at the **monorepo root**, not under `apps/site/.github/`):
 
 | Mechanism                                | What it does                                                                                                                                                                                                    |
 | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Dependabot version updates**           | Weekly PRs for npm and GitHub Actions (see `.github/dependabot.yml`). Minor/patch bumps are grouped; majors stay separate. TypeScript major upgrades are ignored until the ESLint/Next toolchain supports them. |
+| **Dependabot version updates**           | Weekly PRs for npm and GitHub Actions (see [`.github/dependabot.yml`](../../.github/dependabot.yml)). Minor/patch bumps are grouped; majors stay separate. TypeScript major upgrades are ignored until the ESLint/Next toolchain supports them. |
 | **Dependabot alerts & security updates** | Enable under GitHub → **Settings → Code security** (Dependabot alerts + Dependabot security updates). Security PRs are not controlled by `dependabot.yml`.                                                      |
-| **CI `npm audit`**                       | Fails the build on high+ severity advisories (`.github/workflows/ci.yml`).                                                                                                                                      |
+| **CI `npm audit`**                       | Site CI fails the build on high+ severity advisories ([`.github/workflows/site-ci.yml`](../../.github/workflows/site-ci.yml)).                                                                                  |
 
 After merging the Dependabot config, confirm those Code security toggles are on so alerts and automatic security-fix PRs work.
 

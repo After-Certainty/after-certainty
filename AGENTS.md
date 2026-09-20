@@ -1,8 +1,9 @@
 # AGENTS.md
 
-Repository overview, toolchains, and standard commands live in [`README.md`](README.md)
+Repository overview and choose-your-path links live in [`README.md`](README.md).
+Detailed technical documentation is indexed in [`docs/README.md`](docs/README.md)
 (corpus/publishing via Python + `uv` + Make; the website in [`apps/site`](apps/site) via
-npm workspaces + Turborepo + Next.js). Site-specific rules are in
+npm workspaces + Turborepo + Next.js). Site-specific Next.js agent rules are in
 [`apps/site/AGENTS.md`](apps/site/AGENTS.md).
 
 ## Cursor Cloud specific instructions

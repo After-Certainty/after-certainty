@@ -39,7 +39,7 @@ Discovery, catalog orientation, native chapter reading, monorepo same-checkout b
 | Reader funnel events | Shipped | `chapter_open` / `next_chapter` / `file_download` (`location=reader`); consent-gated; GA4 Admin key-event marking remains Kevin |
 | Chapter Listen (TTS platform) | Platform complete | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) Phases 0–6; OP + WOLTY v1 + CBC available; WMSS + WOLTY Companion audio-enabled (pending generate) |
 | Pattern Recognition Challenge | Through GAME-001e complete | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md); enjoyability Observe gate before further game investment |
-| Root CONTRIBUTING + issue templates | Missing | Site-only `apps/site/docs/contributing-*.md` |
+| Root CONTRIBUTING + issue templates | CONTRIBUTING done; templates open | [`CONTRIBUTING.md`](../../CONTRIBUTING.md); OPS-001b for issue templates |
 | Think Together | Marketing only | Quotes on site; no product surface |
 
 ---
@@ -66,9 +66,10 @@ Historical migration narratives may retain former `ksteffe/…` names where the 
 |-------|-------|
 | **Problem** | Contributors and agents lack a single root entry for corpus vs site paths, validation commands, and review expectations. |
 | **Benefit** | Fewer incorrect PRs; clearer agent routing. |
-| **Evidence** | No root `CONTRIBUTING.md`; only `apps/site/docs/contributing-*.md` |
+| **Evidence** | Addressed by root [`CONTRIBUTING.md`](../../CONTRIBUTING.md) (docs reorganization); site guides remain under `apps/site/docs/contributing-*.md` |
 | **Acceptance** | Concise map: corpus/content changes, site changes, validation expectations, key commands. Links schemas, `make check`, site contributing guides. Not a large governance project. |
 | **Also** | Briefly note corpus vs site issue routing; optional tiny follow-up **OPS-001b** if `.github/ISSUE_TEMPLATE/` remains empty. |
+| **Status** | Done (root CONTRIBUTING present); OPS-001b still open |
 
 ### OPS-001b — Issue templates (lightweight)
 
@@ -217,6 +218,7 @@ Preserved for commits, issues, and docs. Do not renumber survivors.
 | PROVENANCE-001 | Complete | Concept display helper |
 | ANALYTICS-001 | Complete | Reader funnel events (Admin marking = ops Now) |
 | OPS-002 | Complete | README → roadmap |
+| OPS-001 | Complete | Root CONTRIBUTING.md |
 | INGRAM-001–011 | Complete | IngramSpark historical roadmap |
 | CORPUS-003 | Complete | `before-certainty-arrives` 15/15 |
 | CORPUS-004 | Complete | `living-in-sediment` 21/21 |
@@ -225,7 +227,7 @@ Preserved for commits, issues, and docs. Do not renumber survivors.
 | TOGETHER-002–003 | Triggered only | After TOGETHER-001 |
 | PROVENANCE-008 | Triggered only | Kevin product decision |
 
-**Active Now IDs:** OPS-001, OPS-001b, OPS-003, PROVENANCE-002, PROVENANCE-003, GA4 Admin key-event ops.
+**Active Now IDs:** OPS-001b, OPS-003, PROVENANCE-002, PROVENANCE-003, GA4 Admin key-event ops.
 
 **Demoted from active backlog (not deleted as ideas):** CORPUS-001/002/005–009 → Ongoing; PROVENANCE-004 → Triggered; PROVENANCE-005–007 → Ongoing JIT; GAME Phase 8–9 → Triggered; AUDIO Phase 7 → Triggered; TOGETHER-001 → Triggered.
 
