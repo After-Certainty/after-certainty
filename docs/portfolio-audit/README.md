@@ -1,5 +1,7 @@
 # Portfolio promotion readiness audit
 
+**Status:** Historical (May 2026) — evidence for past promotion readiness; not live operating guidance. Prefer [`upcoming/docs/portfolio-status.md`](../../upcoming/docs/portfolio-status.md) and [`docs/roadmaps/remaining-product-roadmap.md`](../roadmaps/remaining-product-roadmap.md) for current status.
+
 **GitHub issue:** [#99 — Portfolio promotion readiness audit](https://github.com/After-Certainty/after-certainty/issues/99)  
 **Audit date:** May 2026  
 **Branch:** `issue-99-portfolio-audit`

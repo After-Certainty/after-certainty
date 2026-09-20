@@ -1,7 +1,10 @@
 # Security Policy
 
-This repository publishes manuscripts, semantic-graph data, and generated book
-artifacts. It is not a production application runtime.
+This repository holds the After Certainty corpus (manuscripts and semantic-graph
+data), publishing tooling, and the source for the public website at
+[www.after-certainty.com](https://www.after-certainty.com). Security focus is
+credentials, supply chain, CI integrity, and the public site—not manuscript
+editorial disputes.
 
 ## Reporting a vulnerability
 

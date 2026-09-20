@@ -2,7 +2,7 @@
 
 **Last audited:** 2026-08-22 (evidence-before-expansion prune; GAME-001e and CORPUS-003/004 complete; Observe section on master roadmap; audio platform marked complete)
 
-This index orients agents and maintainers. It is **not** a backlog.
+For architecture, how-to guides, and repository navigation, start at [`docs/README.md`](../README.md). This index orients agents and maintainers on **planning status**. It is **not** a backlog.
 
 ## Authority hierarchy
 

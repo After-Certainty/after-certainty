@@ -882,5 +882,5 @@ Using **precedes** (1):
    - Verify website still builds
 
 4. Document:
-   - Update concept-graph-relationship-audit.md statistics
+   - Update docs/audits/concept-graph-relationship-audit.md statistics
    - Note the reduction from 60 to 26 contrasts edges
