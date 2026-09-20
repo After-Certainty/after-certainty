@@ -1,0 +1,386 @@
+# Developer toolchain pins + curated task facade.
+# Canonical implementations stay in npm / Python / shell — not in this file.
+# See docs/task-orchestration.md. Make remains for publishing / IngramSpark.
+
+[tools]
+python = "3.12.3"
+node = "22.22.2"
+
+# python-build-standalone 3.12.3 predates GitHub artifact attestations that
+# newer mise releases expect; disable verification for this pin only.
+[settings]
+python.github_attestations = false
+
+# ---------------------------------------------------------------------------
+# Phase 2 — quality, site, manifest, corpus sync
+# ---------------------------------------------------------------------------
+
+[tasks.lint]
+description = "Ruff check + format --check (tools/, scripts/, tests/, src/)"
+run = [
+  "uv run python -m ruff check tools scripts tests src",
+  "uv run python -m ruff format --check tools scripts tests src",
+]
+
+[tasks."lint:fix"]
+description = "Ruff check --fix + format (writes files)"
+run = [
+  "uv run python -m ruff check --fix tools scripts tests src",
+  "uv run python -m ruff format tools scripts tests src",
+]
+
+[tasks.test]
+description = "pytest (corpus / tools smoke tests)"
+run = "uv run python -m pytest tests/ -q"
+
+[tasks.check]
+description = "Corpus quality gate: ruff + pytest (preferred DX; Make check still works)"
+run = [
+  "uv run python -m ruff check tools scripts tests src",
+  "uv run python -m ruff format --check tools scripts tests src",
+  "uv run python -m pytest tests/ -q",
+]
+
+[tasks."site:dev"]
+description = "Next.js site dev server"
+run = "npm run site:dev"
+
+[tasks."site:dev:local"]
+description = "Site dev with local semantic manifest (SEMANTIC_MANIFEST_USE_LOCAL=1)"
+run = "npm run site:dev:local"
+
+[tasks."site:lint"]
+description = "Lint the Next.js site workspace"
+run = "npm run site:lint"
+
+[tasks."site:test"]
+description = "Test the Next.js site workspace"
+run = "npm run site:test"
+
+[tasks."site:build"]
+description = "Build the Next.js site workspace"
+run = "npm run site:build"
+
+[tasks."site:build:local"]
+description = "Turbo site build with local manifest env"
+run = "npm run site:build:local"
+
+[tasks."corpus:sync-semantic"]
+description = "uv sync --frozen --only-group semantic (lightweight site deps)"
+run = "uv sync --frozen --only-group semantic"
+
+[tasks."manifest:build"]
+description = "Build semantic-manifest.json (npm corpus:build-manifest)"
+run = "npm run corpus:build-manifest"
+
+[tasks."manifest:validate"]
+description = "Validate semantic-manifest.json (npm corpus:validate-manifest)"
+run = "npm run corpus:validate-manifest"
+
+[tasks."manifest:install"]
+description = "Install local manifest + covers into apps/site (npm site:install-local-manifest)"
+run = "npm run site:install-local-manifest"
+
+[tasks."manifest:parity"]
+description = "Compare local manifest to public release (npm corpus:parity)"
+run = "npm run corpus:parity"
+
+# ---------------------------------------------------------------------------
+# Phase 3 — audio, books, semantic, suno
+# Extra CLI flags forward when no usage spec (mise run TASK -- --flag).
+# ---------------------------------------------------------------------------
+
+[tasks."audio:list"]
+description = "List chapter-audio unit status (secret-free)"
+usage = '''
+flag "--filter <filter>" help="Status filter" default="all"
+flag "--format <format>" help="table|json" default="table"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+exec uv run python tools/list_chapter_audio.py --repo . \
+  --filter "${usage_filter:-all}" \
+  --format "${usage_format:-table}"
+'''
+
+[tasks."audio:plan"]
+description = "Plan chapter-audio generation"
+usage = '''
+flag "--enabled" help="Only enabled units"
+flag "--unit <unit>" help="Single unit id"
+flag "--format <format>" help="table|json" default="table"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+args=(uv run python tools/plan_chapter_audio.py --repo . --format "${usage_format:-table}")
+[[ "${usage_enabled:-false}" == "true" ]] && args+=(--enabled)
+[[ -n "${usage_unit:-}" ]] && args+=(--unit "$usage_unit")
+exec "${args[@]}"
+'''
+
+[tasks."audio:discover"]
+description = "Discover chapter-audio units"
+usage = '''
+flag "--edition <edition>" help="Edition slug"
+flag "--force" help="Force rediscovery"
+flag "--format <format>" help="ids|table|json" default="table"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+args=(uv run python tools/discover_chapter_audio.py --repo . --format "${usage_format:-table}")
+[[ -n "${usage_edition:-}" ]] && args+=(--edition "$usage_edition")
+[[ "${usage_force:-false}" == "true" ]] && args+=(--force)
+exec "${args[@]}"
+'''
+
+[tasks."audio:generate"]
+description = "Generate chapter audio for one unit"
+usage = '''
+arg "<unit>" help="Semantic unit id"
+flag "--dry-run" help="Plan only (no TTS write)"
+flag "--mock" help="Mock TTS provider"
+flag "--real" help="Real TTS provider"
+flag "--force" help="Force regenerate"
+flag "--format <format>" help="text|json" default="text"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+args=(uv run python tools/generate_chapter_audio.py --repo . --unit "$usage_unit" --format "${usage_format:-text}")
+[[ "${usage_dry_run:-false}" == "true" ]] && args+=(--dry-run)
+[[ "${usage_mock:-false}" == "true" ]] && args+=(--mock)
+[[ "${usage_real:-false}" == "true" ]] && args+=(--real)
+[[ "${usage_force:-false}" == "true" ]] && args+=(--force)
+exec "${args[@]}"
+'''
+
+[tasks."audio:validate"]
+description = "Validate chapter-audio artifacts (secret-free)"
+run = "uv run python tools/validate_chapter_audio.py --repo ."
+
+[tasks."audio:verify"]
+description = "Verify chapter-audio artifacts (secret-free)"
+run = "uv run python tools/verify_chapter_audio.py --repo ."
+
+[tasks."audio:install"]
+description = "Install chapter-audio assets for the site"
+run = "uv run python scripts/install_chapter_audio_for_site.py --repo ."
+
+[tasks."books:validate-specs"]
+description = "Validate all book.yml specs"
+run = "uv run python tools/validate_book_specs.py --repo ."
+
+[tasks."books:manifest"]
+description = "Generate books-manifest.json (env: MANIFEST_OUT, GITHUB_REPOSITORY, …)"
+run = "uv run python tools/generate_books_manifest.py --repo . --out \"${MANIFEST_OUT:-build/books-manifest.json}\" --github-repository \"${GITHUB_REPOSITORY:-$(git remote get-url origin 2>/dev/null | sed -e 's#^git@github.com:##' -e 's#^https://github.com/##' -e 's#\\.git$##')}\" --github-ref \"${MANIFEST_REF:-main}\" --release-tag \"${MANIFEST_RELEASE_TAG:-latest}\""
+
+[tasks."books:verify-manifest"]
+description = "Validate book specs, generate books manifest, validate JSON"
+run = [
+  "uv run python tools/validate_book_specs.py --repo .",
+  "mise run books:manifest",
+  "uv run python tools/validate_books_manifest.py --repo . --manifest \"${MANIFEST:-${MANIFEST_OUT:-build/books-manifest.json}}\"",
+]
+
+[tasks."semantic:verify-yaml"]
+description = "Parse + slug checks + prose audit on semantic/**/*.yml"
+run = "uv run python tools/verify_semantic_yaml.py --repo . --strict-prose"
+
+[tasks."semantic:validate-entities"]
+description = "JSON Schema + reference checks on semantic entities"
+run = "uv run python tools/validate_semantic_entities.py --repo . --strict-refs"
+
+[tasks."semantic:lint"]
+description = "Graph quality lint (pass -- --strict to fail on warnings)"
+run = "uv run python tools/lint_semantic_graph.py --repo ."
+
+[tasks."semantic:validate-discovery"]
+description = "Validate discovery content against corpus rules"
+run = "uv run python tools/validate_discovery_content.py --repo ."
+
+[tasks."semantic:verify-ontology"]
+description = "Full ontology gate: entities, yaml, manifest, discovery, lint"
+run = [
+  "uv run python tools/validate_semantic_entities.py --repo . --strict-refs",
+  "uv run python tools/verify_semantic_yaml.py --repo . --strict-prose",
+  "npm run corpus:build-manifest",
+  "npm run corpus:validate-manifest",
+  "uv run python tools/validate_discovery_content.py --repo .",
+  "uv run python tools/lint_semantic_graph.py --repo .",
+]
+
+[tasks."semantic:audit"]
+description = "Unified semantic graph data-quality audit → reports/"
+run = "uv run python tools/audit_semantic_graph.py --repo . --json-out reports/semantic-graph-audit.json --md-out reports/semantic-graph-audit.md"
+
+[tasks."semantic:audit-metadata"]
+description = "Source/thinker display metadata audit → reports/"
+run = "uv run python tools/audit_semantic_metadata_quality.py --repo . --out reports/semantic-metadata-quality-audit.md"
+
+[tasks."semantic:audit-biblio"]
+description = "Bibliography ↔ sources/thinkers drift audit → reports/"
+run = "uv run python tools/audit_bibliography_semantic_drift.py --repo . --md-out reports/bibliography-semantic-drift.md --json-out reports/bibliography-semantic-drift.json"
+
+[tasks."semantic:enrich-propose"]
+description = "Scaffold enrichment drafts under semantic/_drafts/enrichment/"
+usage = '''
+arg "<book_dir>" help="Book directory (e.g. books/coupling)"
+arg "<agent_type>" help="Agent type (e.g. recognition-signals|all)"
+flag "--overwrite" help="Overwrite existing draft files"
+flag "--all-entities" help="Include all entities"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+args=(uv run python tools/propose_semantic_enrichment.py --repo . --book-dir "$usage_book_dir" --agent-type "$usage_agent_type")
+[[ "${usage_overwrite:-false}" == "true" ]] && args+=(--overwrite)
+[[ "${usage_all_entities:-false}" == "true" ]] && args+=(--all-entities)
+exec "${args[@]}"
+'''
+
+[tasks."semantic:enrich-promote"]
+description = "Promote approved enrichment drafts (pass -- --book-id ID --field FIELD)"
+run = "uv run python tools/promote_semantic_enrichment.py --repo ."
+
+[tasks."suno:reconcile"]
+description = "Read-only Suno playlist reconcile (pass -- --fetch and/or --fixture PATH)"
+run = "uv run python tools/songs/reconcile_suno_playlist.py"
+
+[tasks."suno:sync"]
+description = "Dry-run Suno playlist clip ID sync (pass -- --fetch / --fixture PATH)"
+run = "uv run python tools/songs/sync_suno_playlist.py"
+
+[tasks."suno:sync-apply"]
+description = "Apply Suno playlist sync to song + playlist YAML"
+run = "uv run python tools/songs/sync_suno_playlist.py --apply"
+
+# ---------------------------------------------------------------------------
+# Phase 5 — optional thin publishing / IngramSpark facades
+# Make remains the documented publishing SOP; these call the same scripts.
+# ---------------------------------------------------------------------------
+
+[tasks."publish:docx"]
+description = "Export book DOCX (requires pandoc; Make export-docx also works)"
+usage = '''
+arg "<dir>" help="Book directory"
+flag "--out-stem <stem>" help="Output basename override"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+command -v pandoc >/dev/null 2>&1 || { echo "Error: pandoc not found. Install pandoc first." >&2; exit 1; }
+args=(uv run python scripts/export_docx.py --repo . --book-dir "$usage_dir")
+[[ -n "${usage_out_stem:-}" ]] && args+=(--out-stem "$usage_out_stem")
+exec "${args[@]}"
+'''
+
+[tasks."publish:epub"]
+description = "Export Kindle EPUB (requires pandoc)"
+usage = '''
+arg "<dir>" help="Book directory"
+flag "--out-stem <stem>" help="Output basename override"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+command -v pandoc >/dev/null 2>&1 || { echo "Error: pandoc not found. Install pandoc first." >&2; exit 1; }
+args=(uv run python scripts/export_epub.py --repo . --book-dir "$usage_dir")
+[[ -n "${usage_out_stem:-}" ]] && args+=(--out-stem "$usage_out_stem")
+exec "${args[@]}"
+'''
+
+[tasks."publish:pdf"]
+description = "Export PDF via pandoc pipeline"
+usage = '''
+arg "<dir>" help="Book directory"
+flag "--out-stem <stem>" help="Output basename override"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+command -v pandoc >/dev/null 2>&1 || { echo "Error: pandoc not found. Install pandoc first." >&2; exit 1; }
+args=(uv run python scripts/export_pdf.py --repo . --book-dir "$usage_dir")
+[[ -n "${usage_out_stem:-}" ]] && args+=(--out-stem "$usage_out_stem")
+exec "${args[@]}"
+'''
+
+[tasks."publish:typst"]
+description = "Export Typst PDF (poetry books)"
+usage = '''
+arg "<dir>" help="Book directory"
+flag "--out-stem <stem>" help="Output basename override"
+flag "--typst <bin>" help="Typst binary" default="typst"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+stem="${usage_out_stem:-}"
+if [[ -z "$stem" ]]; then
+  stem="$(uv run python tools/book_output_stem.py "$usage_dir")"
+fi
+exec uv run python scripts/export_typst_pdf.py --repo . --book-dir "$usage_dir" --out-stem "$stem" --typst "${usage_typst:-typst}"
+'''
+
+[tasks."publish:book"]
+description = "Multi-format book build via scripts/build.py"
+usage = '''
+arg "<dir>" help="Book directory"
+flag "--out-dir <dir>" help="Output directory"
+flag "--formats <formats>" help="Space-separated formats" default="docx epub"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+out="${usage_out_dir:-}"
+if [[ -z "$out" ]]; then
+  out="build/$(echo "$usage_dir" | tr '/' '-')"
+fi
+args=(uv run python scripts/build.py --repo . --book-dir "$usage_dir" --out-dir "$out")
+# shellcheck disable=SC2206
+formats=(${usage_formats:-docx epub})
+for f in "${formats[@]}"; do
+  args+=(--format "$f")
+done
+exec "${args[@]}"
+'''
+
+[tasks."ingramspark:preflight"]
+description = "IngramSpark profile preflight (Make preflight-ingramspark also works)"
+usage = '''
+arg "<dir>" help="Book directory"
+flag "--ebook-only" help="Ebook mode only"
+flag "--print-only" help="Print mode only"
+flag "--skip-build" help="Skip build steps"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+command -v pandoc >/dev/null 2>&1 || { echo "Error: pandoc not found. Install pandoc first." >&2; exit 1; }
+EPUBCHECK_VERSION="${EPUBCHECK_VERSION:-5.3.0}" bash scripts/install_epubcheck.sh >/dev/null
+args=(uv run python scripts/preflight_ingramspark.py --repo . --book-dir "$usage_dir")
+[[ "${usage_ebook_only:-false}" == "true" ]] && args+=(--ebook-only)
+[[ "${usage_print_only:-false}" == "true" ]] && args+=(--print-only)
+[[ "${usage_skip_build:-false}" == "true" ]] && args+=(--skip-build)
+exec "${args[@]}"
+'''
+
+[tasks."ingramspark:package"]
+description = "Build IngramSpark submission or cover-preview ZIP"
+usage = '''
+arg "<dir>" help="Book directory"
+flag "--ebook-only" help="Ebook mode only"
+flag "--print-only" help="Print mode only"
+flag "--skip-build" help="Skip build steps"
+'''
+run = '''
+#!/usr/bin/env bash
+set -euo pipefail
+args=(uv run python scripts/package_ingramspark.py --repo . --book-dir "$usage_dir")
+[[ "${usage_ebook_only:-false}" == "true" ]] && args+=(--ebook-only)
+[[ "${usage_print_only:-false}" == "true" ]] && args+=(--print-only)
+[[ "${usage_skip_build:-false}" == "true" ]] && args+=(--skip-build)
+exec "${args[@]}"
+'''
