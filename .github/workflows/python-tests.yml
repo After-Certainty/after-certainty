@@ -1,8 +1,8 @@
 # Ruff (lint + format), pytest, secret scan, dependency audit, and clean-tree check
 # for tools/, scripts/, and tests/.
 #
-# Toolchain pilot: Python + uv come from mise.toml / mise.lock via jdx/mise-action.
-# Other workflows still use setup-python + scripts/ci_uv_sync.sh. Task steps stay
+# Toolchain: Python + uv come from mise.toml / mise.lock via jdx/mise-action.
+# Site CI still uses setup-python + scripts/ci_uv_sync.sh. Task steps stay
 # direct (ruff/pytest/make/pip-audit) — not `mise run`.
 
 name: Python lint & tests

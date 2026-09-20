@@ -7,6 +7,9 @@
 # (missing / stale / invalid artifacts) and generates only those. Optional
 # `units` / `edition` inputs narrow the set. Merging the review PR makes those
 # units available to the site Listen control.
+#
+# Toolchain: Python + uv from mise.toml / mise.lock via jdx/mise-action.
+# Task steps stay direct (python3 / make) — not `mise run`.
 
 name: Chapter audio generate
 
@@ -50,11 +53,6 @@ concurrency:
   group: chapter-audio-${{ github.run_id }}
   cancel-in-progress: false
 
-env:
-  PYTHON_VERSION: "3.12.3"
-  UV_VERSION: "0.11.29"
-  UV_SHA256: "04f8b82f5d47f0512dcd32c67a4a6f16a0ea27c81537c338fd0ad6b23cebe829"
-
 jobs:
   generate:
     name: Generate chapter audio
@@ -74,14 +72,15 @@ jobs:
           git lfs version
           git lfs install --local
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
-      - name: Install dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Discover units to generate
         id: units

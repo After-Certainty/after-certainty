@@ -9,6 +9,10 @@
 # - Publication jobs (contents: write) only download that artifact and run short
 #   audited shell scripts — no general-purpose tools/*.py execution.
 # - Cache revalidation uses a hardcoded allowlisted HTTPS URL only.
+#
+# Toolchain: Python + uv from mise.toml / mise.lock via jdx/mise-action.
+# Node for cover derivatives still uses actions/setup-node. Task steps stay
+# direct (make / python3 / bash) — not `mise run`.
 
 name: Book export (DOCX + EPUB + PDF)
 
@@ -42,11 +46,6 @@ concurrency:
 permissions:
   contents: read
 
-env:
-  PYTHON_VERSION: "3.12.3"
-  UV_VERSION: "0.11.29"
-  UV_SHA256: "04f8b82f5d47f0512dcd32c67a4a6f16a0ea27c81537c338fd0ad6b23cebe829"
-
 jobs:
   semantic-yaml:
     name: Semantic YAML & book specs
@@ -56,14 +55,15 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
-      - name: Install Python dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Validate book.yml specs
         run: |
@@ -88,14 +88,15 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
-      - name: Install Python dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Resolve affected books
         id: set
@@ -135,9 +136,9 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
       - name: Install Pandoc and diagram rasterization
         run: |
@@ -154,13 +155,12 @@ jobs:
               /etc/ImageMagick-7/policy.xml
           fi
 
-      - name: Install Python dependencies (frozen lock)
-        env:
-          # Raster/assembled IngramSpark covers need Pillow from the publishing group.
-          UV_GROUPS: publishing
+      - name: Sync Python deps (frozen + publishing group)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          # Raster/assembled IngramSpark covers need Pillow from the publishing group.
+          uv sync --frozen --group publishing
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Install Typst
         if: matrix.needs_typst == 'true'
@@ -320,9 +320,9 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
       - uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
         with:
@@ -345,10 +345,11 @@ jobs:
             --pattern 'semantic-manifest.json' --pattern 'SHA256SUMS' \
             --dir prior || true
 
-      - name: Install Python dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       # Cover pipeline (PR #350): prepare_release_staging.sh runs
       # generate-book-cover-assets.mjs, which requires sharp via npm workspaces.
@@ -445,9 +446,9 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
       - name: Fetch existing rolling release assets (read-only)
         env:
@@ -463,10 +464,11 @@ jobs:
             --pattern 'semantic-manifest.json' --pattern 'SHA256SUMS' \
             --dir prior || true
 
-      - name: Install Python dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       # Same as prepare-release: semantic-only staging still regenerates covers +
       # packs semantic-cover-assets.tar.gz beside semantic-manifest.json.
