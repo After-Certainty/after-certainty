@@ -250,4 +250,4 @@ Low-use types that may consolidate:
 - [`semantic/relationships.yml`](../../../semantic/relationships.yml) — Current typed relationships
 - [`semantic/ontology/structural-tensions.yml`](../../../semantic/ontology/structural-tensions.yml) — Bidirectional tensions
 - [`semantic/ontology/structural-pressures.yml`](../../../semantic/ontology/structural-pressures.yml) — Force dynamics
-- [`concept-graph-relationship-audit.md`](../../../concept-graph-relationship-audit.md) — Original comprehensive audit
+- [`concept-graph-relationship-audit.md`](../../../docs/audits/concept-graph-relationship-audit.md) — Original comprehensive audit

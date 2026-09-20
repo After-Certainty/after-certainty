@@ -122,8 +122,8 @@ While the plan targeted reducing contrasts to <30%, the final 42% represents a b
 
 1. `semantic/relationships.yml` - Primary changes
 2. `docs/semantic-relationship-types.md` - Added 3 new types, updated counts
-3. `concept-graph-relationship-audit.md` - Updated statistics
-4. `contrasts-audit-working.md` - Detailed audit analysis (working document)
+3. `docs/audits/concept-graph-relationship-audit.md` - Updated statistics
+4. `docs/audits/contrasts-audit-working.md` - Detailed audit analysis (working document)
 
 ## Next Steps
 
