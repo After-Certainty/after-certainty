@@ -20,10 +20,11 @@ Optional: Typst and epubcheck via `scripts/install_typst.sh` and `scripts/instal
 
 ## Local export
 
-From the repository root:
+From the repository root. **Make is the canonical publishing interface**; optional mise aliases call the same scripts (`mise run publish:docx -- books/how-meaning-moves`).
 
 ```bash
 make validate-book-specs
+# or: mise run books:validate-specs
 make export-docx DIR=books/how-meaning-moves
 make export-kindle-epub DIR=books/how-meaning-moves
 make export-pdf DIR=books/how-meaning-moves

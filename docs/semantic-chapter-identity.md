@@ -8,7 +8,7 @@ Additive collections `parts[]` and `chapters[]` (schemaVersion **2.2+**) export 
 ## Generation
 
 ```bash
-make generate-semantic-manifest
+npm run corpus:build-manifest   # or: mise run manifest:build
 ```
 
 Structure is parsed from each published book’s `index.md` (same link resolution as export assembly). Generator: [`tools/manuscript_structure.py`](../tools/manuscript_structure.py).

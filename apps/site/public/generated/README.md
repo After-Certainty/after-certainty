@@ -1,6 +1,7 @@
 # Generated site assets
 
-Files under this directory are produced by `make install-local-manifest-for-site`
+Files under this directory are produced by `npm run site:install-local-manifest`
+(or `mise run manifest:install`)
 from corpus checkout artifacts (`build/site-assets/` for WebP covers; archival
 `books/**/open-graph.png` for social preview images; available `books/*/audio/`
 for chapter narration). Do not edit or commit them.

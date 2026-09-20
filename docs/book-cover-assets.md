@@ -40,8 +40,8 @@ npm run validate:book-cover-assets
 Full site pipeline (covers → semantic manifest → install):
 
 ```bash
-make generate-semantic-manifest
-make install-local-manifest-for-site
+npm run corpus:build-manifest          # or: mise run manifest:build
+npm run site:install-local-manifest    # or: mise run manifest:install
 REQUIRE_INSTALLED=1 REQUIRE_SEMANTIC=1 make validate-book-cover-assets
 ```
 
@@ -78,8 +78,8 @@ Portable release resolution: `path` is relative to the `book-covers/` tree insid
 ## Changing a cover
 
 1. Replace `books/<book>/book-cover.png` (or update `title_page_cover`).
-2. Run `make generate-book-cover-assets` (or `make generate-semantic-manifest`).
-3. Install for local site: `make install-local-manifest-for-site`.
+2. Run `make generate-book-cover-assets` (or `npm run corpus:build-manifest` / `mise run manifest:build`).
+3. Install for local site: `npm run site:install-local-manifest` (or `mise run manifest:install`).
 
 Incremental builds skip unchanged sources (matched by source SHA-256 + generator version + variant config).
 

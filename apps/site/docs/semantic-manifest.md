@@ -24,7 +24,7 @@ There is **no** committed production fallback under `apps/site/data/`.
 
 ```text
 books/ + semantic/ + schema/
-  → make generate-semantic-manifest
+  → npm run corpus:build-manifest   # or: mise run manifest:build
   → build/semantic-manifest.json
   → npm run site:install-local-manifest
   → apps/site/data/local-semantic-manifest.json (gitignored)

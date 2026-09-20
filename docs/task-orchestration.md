@@ -1,17 +1,44 @@
 # Task orchestration
 
-This document maps how corpus and site tasks are invoked across Turbo, npm, Make, and Python.
+This document maps how corpus and site tasks are invoked across **mise**, Turbo, npm, Make, and Python.
 
 ## Responsibility split
 
-| Layer | Owns |
-|-------|------|
-| **Turbo** | Cross-package DAG, remote/local cache keys |
-| **npm scripts** | Human-facing workspace aliases (`corpus:*`, `site:*`) |
-| **`@after-certainty/corpus-tasks`** | Turbo-visible npm tasks; Node/Sharp cover pipeline; manifest CLI wrappers |
-| **Make** | Legacy developer compatibility (deprecated manifest shims); pandoc/export long-tail targets |
-| **`after_certainty` Python package** | Manifest generation, validation, export domain logic |
-| **`ac-manifest` CLI** | Thin entrypoint for semantic manifest generate |
+| Layer | Owns | Preferred? |
+|-------|------|------------|
+| **mise** | Developer-facing facade + pinned Python/Node (`mise.toml`); thin wrappers only | **Everyday DX** (`mise run check`, `site:*`, `manifest:*`, `audio:*`, `semantic:*`, …) |
+| **Turbo** | Cross-package DAG, remote/local cache keys | Site / corpus-tasks graph |
+| **npm scripts** | Workspace aliases (`corpus:*`, `site:*`); canonical for JS and manifest pipeline | **Site + manifest** |
+| **`@after-certainty/corpus-tasks`** | Turbo-visible npm tasks; Node/Sharp cover pipeline; manifest CLI wrappers | Implementation for covers/manifest |
+| **Make** | Publishing / pandoc / Typst / IngramSpark SOP; remaining compatibility wrappers | **Publishing** |
+| **`after_certainty` Python package** | Manifest generation, validation, export domain logic | Implementation |
+| **`ac-manifest` CLI** | Thin entrypoint for semantic manifest generate | Implementation |
+
+### Canonical path rule (no wrapper loops)
+
+```text
+mise  →  npm | python | shell     ✅
+make  →  python | shell | npm     ✅
+npm corpus:check → ruff + pytest  ✅  (direct; does not call Make or mise)
+```
+
+Forbidden: `mise → make → mise`, `mise → npm → make → mise`.
+
+Python mise tasks invoke **`uv run python …`** so package deps stay in the uv-managed `.venv` while mise still pins the interpreter version via `[tools]`.
+
+## Toolchain pins (mise)
+
+Optional but recommended for local/devcontainer consistency:
+
+```bash
+# https://mise.jdx.dev — then from repo root:
+mise install          # Python 3.12.3 + Node 22.22.2
+mise trust            # once per clone if prompted
+```
+
+CI continues to use `actions/setup-python` / `actions/setup-node` (mise is local-first for now).
+
+Discover tasks: `mise tasks` · help for one task: `mise run <task> --help`.
 
 ## Common flows
 
@@ -27,6 +54,8 @@ npm run site:build:local
     → after-certainty-site#build → next build
 ```
 
+Equivalent mise entrypoints: `mise run site:build:local`, `mise run manifest:build`, `mise run manifest:install`.
+
 ### Direct manifest generation (no Turbo)
 
 ```
@@ -36,6 +65,8 @@ npm run corpus:build-manifest
     → generate-book-cover-assets (unless SKIP_WEB_COVERS=1)
     → uv run ac-manifest …
 ```
+
+Or: `mise run manifest:build`.
 
 ### Vercel production build
 
@@ -48,18 +79,21 @@ scripts/vercel_build.sh
   → npm run site:build
 ```
 
-Vercel uses the same manifest+install sequence as Turbo (without Turbo cache). CI site jobs use Make shims (deprecated) or npm aliases for lint/test separately.
+Vercel uses the same manifest+install sequence as Turbo (without Turbo cache).
 
 ### Python quality gate
 
 ```
-make check  →  ruff + pytest
-npm run corpus:check  →  make check (alias)
+mise run check                 →  ruff + pytest          (preferred DX)
+make check                     →  ruff + pytest          (compatibility)
+npm run corpus:check           →  ruff + pytest          (direct; same argv)
 ```
 
 ## Turbo cache inputs (manifest)
 
 `build-manifest` tracks `$TURBO_ROOT$/src/after_certainty/**` instead of individual `tools/*.py` files. Corpus trees (`books/**`, `semantic/**`, `schema/**`, `upcoming/**`) remain explicit inputs.
+
+Do **not** add mise `sources`/`outputs` caching for manifest or covers — Turbo owns that invalidation model.
 
 ## Environment flags
 
@@ -68,12 +102,21 @@ npm run corpus:check  →  make check (alias)
 | `SEMANTIC_MANIFEST_USE_LOCAL=1` | Site loads installed `data/local-semantic-manifest.json` |
 | `SEMANTIC_MANIFEST_OFFLINE=1` | Observability-only; does not change manifest source |
 | `SKIP_WEB_COVERS=1` | Manifest build skips `generate-book-cover-assets` (Turbo already built covers) |
+| `ALLOW_MISSING_WEB_COVERS=1` | Python-only CI: allow missing Sharp when generating covers |
 
-## Deprecated Make targets
+## Removed Make targets
 
-These print a stderr deprecation notice and delegate to `@after-certainty/corpus-tasks`:
+These Make targets **hard-fail** and redirect to npm / mise:
 
-- `make generate-semantic-manifest` → `npm run corpus:build-manifest`
-- `make validate-semantic-manifest` → `npm run corpus:validate-manifest`
-- `make install-local-manifest-for-site` → `npm run site:install-local-manifest`
-- `make compare-manifest-parity` → `npm run corpus:parity`
+| Removed | Use instead |
+|---------|-------------|
+| `make generate-semantic-manifest` | `npm run corpus:build-manifest` · `mise run manifest:build` |
+| `make validate-semantic-manifest` | `npm run corpus:validate-manifest` · `mise run manifest:validate` |
+| `make install-local-manifest-for-site` | `npm run site:install-local-manifest` · `mise run manifest:install` |
+| `make compare-manifest-parity` | `npm run corpus:parity` · `mise run manifest:parity` |
+
+`make verify-semantic-manifest` / `make verify-semantic-ontology` remain as composites and call npm for the manifest steps.
+
+## Publishing
+
+DOCX / EPUB / PDF / Typst / IngramSpark remain **Make-canonical** (see [`publishing/book-export-pipeline.md`](publishing/book-export-pipeline.md)). Optional thin aliases: `mise run publish:docx -- <dir>`, `mise run ingramspark:preflight -- <dir>`, etc. — same underlying scripts.
