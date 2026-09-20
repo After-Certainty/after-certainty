@@ -39,8 +39,7 @@ mise install          # Python 3.12.14 + Node 22.22.2 + uv 0.11.29
 mise install --locked # fail if mise.lock lacks this platform's URLs
 ```
 
-CI continues to use `actions/setup-python` (**3.12.3**) / `actions/setup-node` (mise is local-first).
-mise and CI share the **Python 3.12** line; mise tracks a recent attestation-clean patch.
+CI continues to use `actions/setup-python` / `actions/setup-node` / [`scripts/ci_uv_sync.sh`](../scripts/ci_uv_sync.sh) in most workflows. **Pilot:** [`.github/workflows/python-tests.yml`](../.github/workflows/python-tests.yml) provisions Python **3.12.14** and uv **0.11.29** from `mise.toml` / `mise.lock` via SHA-pinned `jdx/mise-action` (`install_args: "python uv"`; lockfile implies `--locked`). That workflow still runs **direct** commands (`ruff`, `pytest`, `make`, `pip-audit`) — not `mise run`. Other workflows are unchanged.
 
 Discover tasks: `mise tasks` · help for one task: `mise run <task> --help`.
 

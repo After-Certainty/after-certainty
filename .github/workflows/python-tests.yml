@@ -1,5 +1,9 @@
 # Ruff (lint + format), pytest, secret scan, dependency audit, and clean-tree check
 # for tools/, scripts/, and tests/.
+#
+# Toolchain pilot: Python + uv come from mise.toml / mise.lock via jdx/mise-action.
+# Other workflows still use setup-python + scripts/ci_uv_sync.sh. Task steps stay
+# direct (ruff/pytest/make/pip-audit) — not `mise run`.
 
 name: Python lint & tests
 
@@ -26,11 +30,8 @@ permissions:
   contents: read
 
 env:
-  PYTHON_VERSION: "3.12.3"
   GITLEAKS_VERSION: "8.30.0"
   GITLEAKS_SHA256: "79a3ab579b53f71efd634f3aaf7e04a0fa0cf206b7ed434638d1547a2470a66e"
-  UV_VERSION: "0.11.29"
-  UV_SHA256: "04f8b82f5d47f0512dcd32c67a4a6f16a0ea27c81537c338fd0ad6b23cebe829"
 
 jobs:
   lint:
@@ -41,14 +42,22 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          # Install only what this workflow needs; mise.lock → action adds --locked.
+          install_args: "python uv"
 
-      - name: Install dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
+
+      - name: Show toolchain versions
+        run: |
+          set -euo pipefail
+          python --version
+          uv --version
 
       - name: Ruff lint and format check
         run: |
@@ -64,19 +73,20 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
-      - name: Install dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Verify semantic ontology (issue #116 Phase 1)
         run: |
           set -euo pipefail
-          # Python-only job: skip Sharp covers when node_modules are absent.
+          # Skip Sharp covers when node_modules are absent (runner Node still OK for npm).
           ALLOW_MISSING_WEB_COVERS=1 make verify-semantic-ontology
 
   test:
@@ -89,14 +99,15 @@ jobs:
           lfs: true
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
-      - name: Install dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Run pytest
         run: |
@@ -152,14 +163,15 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
-      - name: Install uv and sync frozen
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Audit locked dependencies
         run: |
