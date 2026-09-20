@@ -11,8 +11,8 @@
 # - Cache revalidation uses a hardcoded allowlisted HTTPS URL only.
 #
 # Toolchain: Python + uv from mise.toml / mise.lock via jdx/mise-action.
-# Node for cover derivatives still uses actions/setup-node. Task steps stay
-# direct (make / python3 / bash) — not `mise run`.
+# Node for cover derivatives uses actions/setup-node (npm cache / sharp).
+# Task steps stay direct (make / python3 / bash) — not `mise run`.
 
 name: Book export (DOCX + EPUB + PDF)
 
