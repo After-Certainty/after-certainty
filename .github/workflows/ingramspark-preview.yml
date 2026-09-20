@@ -1,5 +1,8 @@
 # Build planning IngramSpark cover-preview ZIPs and upload them as workflow artifacts
 # for human inspection (not submission kits; no print ISBN required).
+#
+# Toolchain: Python + uv from mise.toml / mise.lock via jdx/mise-action.
+# Pillow lives in the publishing dependency group. Task steps stay direct — not `mise run`.
 
 name: IngramSpark cover preview
 
@@ -15,6 +18,8 @@ on:
       - "scripts/discover_ingramspark_preview_books.py"
       - "schema/book.schema.json"
       - "schema/profiles/ingramspark/**"
+      - "mise.toml"
+      - "mise.lock"
       - ".github/workflows/ingramspark-preview.yml"
   push:
     branches: [main]
@@ -27,6 +32,8 @@ on:
       - "scripts/discover_ingramspark_preview_books.py"
       - "schema/book.schema.json"
       - "schema/profiles/ingramspark/**"
+      - "mise.toml"
+      - "mise.lock"
       - ".github/workflows/ingramspark-preview.yml"
   workflow_dispatch:
 
@@ -36,11 +43,6 @@ concurrency:
 
 permissions:
   contents: read
-
-env:
-  PYTHON_VERSION: "3.12.3"
-  # Pillow (and related) live in the publishing dependency group.
-  UV_GROUPS: publishing
 
 jobs:
   discover:
@@ -54,14 +56,15 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
-      - name: Install dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - id: set
         name: List planning cover-preview books
@@ -114,9 +117,9 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
       - name: Install system tools (ImageMagick + Ghostscript + poppler)
         run: |
@@ -140,10 +143,11 @@ jobs:
           command -v gs
           command -v convert || command -v magick
 
-      - name: Install dependencies (frozen lock + publishing group)
+      - name: Sync Python deps (frozen + publishing group)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen --group publishing
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
           # GITHUB_PATH applies to later steps only; call the venv python here.
           .venv/bin/python3 -c "import PIL; print('Pillow', PIL.__version__)"
 

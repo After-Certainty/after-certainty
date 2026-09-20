@@ -39,7 +39,19 @@ mise install          # Python 3.12.14 + Node 22.22.2 + uv 0.11.29
 mise install --locked # fail if mise.lock lacks this platform's URLs
 ```
 
-CI continues to use `actions/setup-python` / `actions/setup-node` / [`scripts/ci_uv_sync.sh`](../scripts/ci_uv_sync.sh) in most workflows. **Pilot:** [`.github/workflows/python-tests.yml`](../.github/workflows/python-tests.yml) provisions Python **3.12.14** and uv **0.11.29** from `mise.toml` / `mise.lock` via SHA-pinned `jdx/mise-action` (`install_args: "python uv"`; lockfile implies `--locked`). That workflow still runs **direct** commands (`ruff`, `pytest`, `make`, `pip-audit`) — not `mise run`. Other workflows are unchanged.
+CI provisions Python **3.12.14** and uv **0.11.29** from `mise.toml` / `mise.lock`
+via SHA-pinned `jdx/mise-action` (`install_args: "python uv"`; lockfile implies
+`--locked`) in Python-centric workflows: [`python-tests.yml`](../.github/workflows/python-tests.yml),
+[`manifest-parity.yml`](../.github/workflows/manifest-parity.yml),
+[`semantic-enrichment.yml`](../.github/workflows/semantic-enrichment.yml),
+[`chapter-audio-generate.yml`](../.github/workflows/chapter-audio-generate.yml),
+[`ingramspark-preview.yml`](../.github/workflows/ingramspark-preview.yml), and
+[`book-export-release.yml`](../.github/workflows/book-export-release.yml). Those
+workflows still run **direct** commands (`ruff`, `pytest`, `make`, `npm`, …) — not
+`mise run`. Publishing jobs that need Pillow use `uv sync --frozen --group publishing`.
+[`site-ci.yml`](../.github/workflows/site-ci.yml) still uses `actions/setup-python` /
+[`scripts/ci_uv_sync.sh`](../scripts/ci_uv_sync.sh) (and `actions/setup-node` for Node).
+Book-export prepare jobs keep `actions/setup-node` for sharp cover derivatives.
 
 Discover tasks: `mise tasks` · help for one task: `mise run <task> --help`.
 

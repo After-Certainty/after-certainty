@@ -4,6 +4,9 @@
 # Prefer: workflow pushes a semantic-agent/* branch and prints a compare URL for a
 # human to open the PR. Optional: allow Actions to create PRs (not approve them).
 # Do not enable "create and approve pull requests" as a blanket requirement.
+#
+# Toolchain: Python + uv from mise.toml / mise.lock via jdx/mise-action.
+# Task steps stay direct (make / python3) — not `mise run`.
 
 name: Semantic enrichment agent
 
@@ -44,11 +47,6 @@ concurrency:
   group: semantic-enrichment-${{ inputs.book_id }}-${{ inputs.agent_type }}
   cancel-in-progress: false
 
-env:
-  PYTHON_VERSION: "3.12.3"
-  UV_VERSION: "0.11.29"
-  UV_SHA256: "04f8b82f5d47f0512dcd32c67a4a6f16a0ea27c81537c338fd0ad6b23cebe829"
-
 jobs:
   open-enrichment-pr:
     name: Open enrichment PR
@@ -60,14 +58,15 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         # persist-credentials required for git push of semantic-agent/* branch.
 
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          python-version: ${{ env.PYTHON_VERSION }}
+          install_args: "python uv"
 
-      - name: Install dependencies (frozen lock)
+      - name: Sync Python deps (frozen)
         run: |
           set -euo pipefail
-          bash scripts/ci_uv_sync.sh
+          uv sync --frozen
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Verify ontology before agent run
         run: |
