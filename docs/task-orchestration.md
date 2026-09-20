@@ -41,7 +41,9 @@ mise install --locked # fail if mise.lock lacks this platform's URLs
 
 CI provisions Python **3.12.14** and uv **0.11.29** from `mise.toml` / `mise.lock`
 via SHA-pinned `jdx/mise-action` (`install_args: "python uv"`; lockfile implies
-`--locked`) in Python-centric workflows: [`python-tests.yml`](../.github/workflows/python-tests.yml),
+`--locked`) across Python-using workflows, including
+[`python-tests.yml`](../.github/workflows/python-tests.yml),
+[`site-ci.yml`](../.github/workflows/site-ci.yml),
 [`manifest-parity.yml`](../.github/workflows/manifest-parity.yml),
 [`semantic-enrichment.yml`](../.github/workflows/semantic-enrichment.yml),
 [`chapter-audio-generate.yml`](../.github/workflows/chapter-audio-generate.yml),
@@ -49,9 +51,9 @@ via SHA-pinned `jdx/mise-action` (`install_args: "python uv"`; lockfile implies
 [`book-export-release.yml`](../.github/workflows/book-export-release.yml). Those
 workflows still run **direct** commands (`ruff`, `pytest`, `make`, `npm`, …) — not
 `mise run`. Publishing jobs that need Pillow use `uv sync --frozen --group publishing`.
-[`site-ci.yml`](../.github/workflows/site-ci.yml) still uses `actions/setup-python` /
-[`scripts/ci_uv_sync.sh`](../scripts/ci_uv_sync.sh) (and `actions/setup-node` for Node).
-Book-export prepare jobs keep `actions/setup-node` for sharp cover derivatives.
+Site CI and book-export prepare jobs keep `actions/setup-node` for npm cache / sharp.
+[`scripts/ci_uv_sync.sh`](../scripts/ci_uv_sync.sh) remains for Cloud Agent install
+(`.cursor/install.sh`) until that path is switched to mise or plain `uv sync`.
 
 Discover tasks: `mise tasks` · help for one task: `mise run <task> --help`.
 
