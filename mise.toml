@@ -2,14 +2,12 @@
 # Canonical implementations stay in npm / Python / shell — not in this file.
 # See docs/task-orchestration.md. Make remains for publishing / IngramSpark.
 
-[tools]
-python = "3.12.3"
-node = "22.22.2"
+min_version = { hard = "2025.10.0", soft = "2026.9.0" }
 
-# python-build-standalone 3.12.3 predates GitHub artifact attestations that
-# newer mise releases expect; disable verification for this pin only.
-[settings]
-python.github_attestations = false
+[tools]
+python = "3.12.14"
+node = "22.22.2"
+uv = "0.11.29"
 
 # ---------------------------------------------------------------------------
 # Phase 2 — quality, site, manifest, corpus sync
@@ -35,11 +33,7 @@ run = "uv run python -m pytest tests/ -q"
 
 [tasks.check]
 description = "Corpus quality gate: ruff + pytest (preferred DX; Make check still works)"
-run = [
-  "uv run python -m ruff check tools scripts tests src",
-  "uv run python -m ruff format --check tools scripts tests src",
-  "uv run python -m pytest tests/ -q",
-]
+run = ["mise run lint", "mise run test"]
 
 [tasks."site:dev"]
 description = "Next.js site dev server"
@@ -48,6 +42,10 @@ run = "npm run site:dev"
 [tasks."site:dev:local"]
 description = "Site dev with local semantic manifest (SEMANTIC_MANIFEST_USE_LOCAL=1)"
 run = "npm run site:dev:local"
+
+[tasks."site:dev:watch"]
+description = "Site dev with auto-regenerating local semantic manifest"
+run = "npm run site:dev:watch"
 
 [tasks."site:lint"]
 description = "Lint the Next.js site workspace"
@@ -180,7 +178,7 @@ run = "uv run python tools/generate_books_manifest.py --repo . --out \"${MANIFES
 [tasks."books:verify-manifest"]
 description = "Validate book specs, generate books manifest, validate JSON"
 run = [
-  "uv run python tools/validate_book_specs.py --repo .",
+  "mise run books:validate-specs",
   "mise run books:manifest",
   "uv run python tools/validate_books_manifest.py --repo . --manifest \"${MANIFEST:-${MANIFEST_OUT:-build/books-manifest.json}}\"",
 ]
@@ -204,12 +202,12 @@ run = "uv run python tools/validate_discovery_content.py --repo ."
 [tasks."semantic:verify-ontology"]
 description = "Full ontology gate: entities, yaml, manifest, discovery, lint"
 run = [
-  "uv run python tools/validate_semantic_entities.py --repo . --strict-refs",
-  "uv run python tools/verify_semantic_yaml.py --repo . --strict-prose",
+  "mise run semantic:validate-entities",
+  "mise run semantic:verify-yaml",
   "npm run corpus:build-manifest",
   "npm run corpus:validate-manifest",
-  "uv run python tools/validate_discovery_content.py --repo .",
-  "uv run python tools/lint_semantic_graph.py --repo .",
+  "mise run semantic:validate-discovery",
+  "mise run semantic:lint",
 ]
 
 [tasks."semantic:audit"]

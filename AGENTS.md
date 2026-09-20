@@ -20,10 +20,13 @@ runtime context.
   `.venv` interpreter (with `pyyaml`/`jsonschema`) and puts `uv`, `ruff`, and `pytest` on
   `PATH`. (PADE sets its own PATH via `/etc/profile.d/cursor-pade.sh`. The Vercel CLI
   is on PATH via `/etc/profile.d/cursor-vercel.sh`.)
-- **Optional mise.** [`mise.toml`](mise.toml) pins Python **3.12.3** and Node **22.22.2**.
+- **Optional mise.** [`mise.toml`](mise.toml) requires mise **≥ 2025.10.0** and pins
+  Python **3.12.14**, Node **22.22.2**, and uv **0.11.29** (CI remains on Python 3.12.3).
   If mise is installed (`curl https://mise.jdx.dev/install.sh | sh`), run `mise trust` once
-  and `mise install`. Preferred DX: `mise run check`, `mise run manifest:build`,
-  `mise run site:dev:local`, etc. Make and npm remain fully supported without mise.
+  and `mise install` (or `mise install --locked` for reproducible installs against
+  [`mise.lock`](mise.lock)). Preferred DX: `mise run check`, `mise run manifest:build`,
+  `mise run site:dev:local` / `mise run site:dev:watch`, etc. Make and npm remain fully
+  supported without mise.
 - **Vercel diagnostics on Cloud Agents.** Do not use Vercel MCP, `vercel login`,
   `--token`, or a session `VERCEL_TOKEN`. Wrap ordinary CLI diagnostics in PADE:
   `pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml --capability vercel.diagnostics --quiet -- vercel whoami`

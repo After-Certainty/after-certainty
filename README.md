@@ -45,9 +45,9 @@ The best starting point for reading and exploring is the live site:
 
 ## Quick developer setup
 
-Requires **Python 3.12.3** (floor: 3.12+) with [uv](https://github.com/astral-sh/uv), and **Node 22.22.2+**.
+Requires **Python 3.12+** with [uv](https://github.com/astral-sh/uv), and **Node 22.22.2+**. CI uses Python **3.12.3**; local mise pins **3.12.14**.
 
-Optional: install [mise](https://mise.jdx.dev) and run `mise install` from the repo root to pin Python **3.12.3** and Node **22.22.2** (see [`mise.toml`](mise.toml)). Task discovery: `mise tasks`.
+Optional: install [mise](https://mise.jdx.dev) (**≥ 2025.10.0**) and from the repo root run `mise install` (or `mise install --locked` for reproducible/agent setups). That provisions Python **3.12.14**, Node **22.22.2**, and uv **0.11.29** (see [`mise.toml`](mise.toml)). Task discovery: `mise tasks`.
 
 ```bash
 uv sync --frozen
@@ -55,7 +55,7 @@ npm ci
 npm run corpus:build-manifest          # or: mise run manifest:build
 npm run site:install-local-manifest    # or: mise run manifest:install
 npm run site:dev:local                 # http://localhost:3000
-# or: npm run site:dev:watch           # regenerate manifest on corpus changes
+# or: npm run site:dev:watch / mise run site:dev:watch
 ```
 
 Useful checks: `mise run check` (or `make check`) · `npm run site:test` · `npm run site:lint`.

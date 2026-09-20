@@ -7,7 +7,7 @@ name = "after-certainty"
 version = "0.0.0"
 description = "Manuscript monorepo tooling for After Certainty"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 # Default `uv sync --frozen` installs the full corpus toolchain (CI + local).
 # Lightweight subsets live in [dependency-groups] for Vercel / site-oriented builds.
 # Prefer groups over editing default dependencies:
@@ -64,7 +64,7 @@ override-dependencies = [
 packages = ["src/after_certainty"]
 
 [tool.ruff]
-target-version = "py311"
+target-version = "py312"
 line-length = 100
 src = ["src", "tools", "scripts", "tests"]
 

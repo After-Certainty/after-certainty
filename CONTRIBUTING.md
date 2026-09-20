@@ -18,12 +18,13 @@ Project overview and choose-your-path links: [README.md](README.md). Full techni
 ## Local setup (short)
 
 ```bash
-# Optional: mise install   # pins Python 3.12.3 + Node 22.22.2 from mise.toml
+# Optional: mise install              # Python 3.12.14 + Node 22.22.2 + uv 0.11.29
+# Agents/repro: mise install --locked # require committed mise.lock URLs
 uv sync --frozen
 npm ci
 npm run corpus:build-manifest          # or: mise run manifest:build
 npm run site:install-local-manifest    # or: mise run manifest:install
-npm run site:dev:local
+npm run site:dev:local                 # or: mise run site:dev:local / site:dev:watch
 ```
 
 Corpus gate: `mise run check` (or `make check` / `npm run corpus:check`). Site checks: `npm run site:test` · `npm run site:lint`.
