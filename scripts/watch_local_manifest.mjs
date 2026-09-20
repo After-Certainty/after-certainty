@@ -26,6 +26,20 @@ function log(msg) {
   console.log(`[watch-manifest] ${msg}`);
 }
 
+function spawnNpm(args) {
+  // Spawn npm directly (no login shell). A login shell reloads nvm, which
+  // fails when the parent npm/Next process sets npm_config_prefix=/ and then
+  // leaves `npm` missing on PATH (pipeline exit 127).
+  return spawn("npm", args, { cwd: ROOT, stdio: "inherit", env: process.env });
+}
+
+function finishPipeline(code) {
+  running = false;
+  if (code === 0) log("ready — restart or refresh Next if needed");
+  else log(`pipeline exited ${code}`);
+  if (pending) runPipeline();
+}
+
 function runPipeline() {
   if (running) {
     pending = true;
@@ -34,16 +48,16 @@ function runPipeline() {
   running = true;
   pending = false;
   log("regenerating covers + manifest + install…");
-  const child = spawn(
-    "bash",
-    ["-lc", "npm run corpus:build-manifest && npm run site:install-local-manifest"],
-    { cwd: ROOT, stdio: "inherit", env: process.env },
-  );
-  child.on("exit", (code) => {
-    running = false;
-    if (code === 0) log("ready — restart or refresh Next if needed");
-    else log(`pipeline exited ${code}`);
-    if (pending) runPipeline();
+  const build = spawnNpm(["run", "corpus:build-manifest"]);
+  build.on("exit", (buildCode) => {
+    if (buildCode !== 0) {
+      finishPipeline(buildCode ?? 1);
+      return;
+    }
+    const install = spawnNpm(["run", "site:install-local-manifest"]);
+    install.on("exit", (installCode) => {
+      finishPipeline(installCode ?? 1);
+    });
   });
 }
 
