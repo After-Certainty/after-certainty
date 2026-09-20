@@ -6,7 +6,7 @@ This document maps how corpus and site tasks are invoked across **mise**, Turbo,
 
 | Layer | Owns | Preferred? |
 |-------|------|------------|
-| **mise** | Developer-facing facade + pinned Python/Node (`mise.toml`); thin wrappers only | **Everyday DX** (`mise run check`, `site:*`, `manifest:*`, `audio:*`, `semantic:*`, …) |
+| **mise** | Developer-facing facade + pinned Python/Node/uv (`mise.toml`); thin wrappers only | **Everyday DX** (`mise run check`, `site:*`, `manifest:*`, `audio:*`, `semantic:*`, …) |
 | **Turbo** | Cross-package DAG, remote/local cache keys | Site / corpus-tasks graph |
 | **npm scripts** | Workspace aliases (`corpus:*`, `site:*`); canonical for JS and manifest pipeline | **Site + manifest** |
 | **`@after-certainty/corpus-tasks`** | Turbo-visible npm tasks; Node/Sharp cover pipeline; manifest CLI wrappers | Implementation for covers/manifest |
@@ -28,15 +28,19 @@ Python mise tasks invoke **`uv run python …`** so package deps stay in the uv-
 
 ## Toolchain pins (mise)
 
-Optional but recommended for local/devcontainer consistency:
+Optional but recommended for local/devcontainer consistency. Requires mise **≥ 2025.10.0**
+(hard minimum in [`mise.toml`](../mise.toml); soft recommend ≥ 2026.9.0).
 
 ```bash
 # https://mise.jdx.dev — then from repo root:
-mise install          # Python 3.12.3 + Node 22.22.2
 mise trust            # once per clone if prompted
+mise install          # Python 3.12.14 + Node 22.22.2 + uv 0.11.29
+# Agents / reproducible setups:
+mise install --locked # fail if mise.lock lacks this platform's URLs
 ```
 
-CI continues to use `actions/setup-python` / `actions/setup-node` (mise is local-first for now).
+CI continues to use `actions/setup-python` (**3.12.3**) / `actions/setup-node` (mise is local-first).
+mise and CI share the **Python 3.12** line; mise tracks a recent attestation-clean patch.
 
 Discover tasks: `mise tasks` · help for one task: `mise run <task> --help`.
 
@@ -54,7 +58,7 @@ npm run site:build:local
     → after-certainty-site#build → next build
 ```
 
-Equivalent mise entrypoints: `mise run site:build:local`, `mise run manifest:build`, `mise run manifest:install`.
+Equivalent mise entrypoints: `mise run site:build:local`, `mise run site:dev:watch`, `mise run manifest:build`, `mise run manifest:install`.
 
 ### Direct manifest generation (no Turbo)
 
