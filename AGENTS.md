@@ -21,7 +21,8 @@ runtime context.
   `PATH`. (PADE sets its own PATH via `/etc/profile.d/cursor-pade.sh`. The Vercel CLI
   is on PATH via `/etc/profile.d/cursor-vercel.sh`.)
 - **Optional mise.** [`mise.toml`](mise.toml) requires mise **≥ 2025.10.0** and pins
-  Python **3.12.14**, Node **22.22.2**, and uv **0.11.29** (CI remains on Python 3.12.3).
+  Python **3.12.14**, Node **22.22.2**, and uv **0.11.29** (same Python/uv pins as
+  GitHub Actions via `jdx/mise-action`).
   If mise is installed (`curl https://mise.jdx.dev/install.sh | sh`), run `mise trust` once
   and `mise install` (or `mise install --locked` for reproducible installs against
   [`mise.lock`](mise.lock)). Preferred DX: `mise run check`, `mise run manifest:build`,

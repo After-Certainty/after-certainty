@@ -45,7 +45,9 @@ The best starting point for reading and exploring is the live site:
 
 ## Quick developer setup
 
-Requires **Python 3.12+** with [uv](https://github.com/astral-sh/uv), and **Node 22.22.2+**. CI uses Python **3.12.3**; local mise pins **3.12.14**.
+Requires **Python 3.12+** with [uv](https://github.com/astral-sh/uv), and **Node 22.22.2+**.
+GitHub Actions and local mise both pin Python **3.12.14** and uv **0.11.29** (see
+[`mise.toml`](mise.toml)).
 
 Optional: install [mise](https://mise.jdx.dev) (**≥ 2025.10.0**) and from the repo root run `mise install` (or `mise install --locked` for reproducible/agent setups). That provisions Python **3.12.14**, Node **22.22.2**, and uv **0.11.29** (see [`mise.toml`](mise.toml)). Task discovery: `mise tasks`.
 

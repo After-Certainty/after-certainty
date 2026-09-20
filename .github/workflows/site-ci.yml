@@ -16,7 +16,7 @@
 # Job-level `if` cannot reference `secrets` (Actions context rules).
 #
 # Toolchain: Python + uv from mise.toml / mise.lock via jdx/mise-action.
-# Node stays on actions/setup-node (npm cache). Task steps stay direct — not `mise run`.
+# Node uses actions/setup-node (npm cache). Task steps stay direct — not `mise run`.
 
 name: Site CI
 

@@ -26,10 +26,20 @@ Forbidden: `mise → make → mise`, `mise → npm → make → mise`.
 
 Python mise tasks invoke **`uv run python …`** so package deps stay in the uv-managed `.venv` while mise still pins the interpreter version via `[tools]`.
 
-## Toolchain pins (mise)
+## Toolchain
 
-Optional but recommended for local/devcontainer consistency. Requires mise **≥ 2025.10.0**
-(hard minimum in [`mise.toml`](../mise.toml); soft recommend ≥ 2026.9.0).
+Pins live in [`mise.toml`](../mise.toml) / [`mise.lock`](../mise.lock): Python **3.12.14**,
+Node **22.22.2**, uv **0.11.29**. Requires mise **≥ 2025.10.0** (hard minimum in
+`mise.toml`; soft recommend ≥ 2026.9.0).
+
+```text
+Local / agents     mise.toml + mise.lock → Python, Node, uv (optional DX)
+GitHub Actions     mise-action → Python + uv; setup-node → Node + npm cache
+Vercel             scripts/vercel_install.sh → checksum uv + semantic group + npm ci
+uv                 Python dependency ownership (uv.lock)
+npm / Turbo        site + manifest orchestration
+Make               publishing / IngramSpark
+```
 
 ```bash
 # https://mise.jdx.dev — then from repo root:
@@ -39,21 +49,20 @@ mise install          # Python 3.12.14 + Node 22.22.2 + uv 0.11.29
 mise install --locked # fail if mise.lock lacks this platform's URLs
 ```
 
-CI provisions Python **3.12.14** and uv **0.11.29** from `mise.toml` / `mise.lock`
-via SHA-pinned `jdx/mise-action` (`install_args: "python uv"`; lockfile implies
-`--locked`) across Python-using workflows, including
-[`python-tests.yml`](../.github/workflows/python-tests.yml),
-[`site-ci.yml`](../.github/workflows/site-ci.yml),
-[`manifest-parity.yml`](../.github/workflows/manifest-parity.yml),
-[`semantic-enrichment.yml`](../.github/workflows/semantic-enrichment.yml),
-[`chapter-audio-generate.yml`](../.github/workflows/chapter-audio-generate.yml),
-[`ingramspark-preview.yml`](../.github/workflows/ingramspark-preview.yml), and
-[`book-export-release.yml`](../.github/workflows/book-export-release.yml). Those
-workflows still run **direct** commands (`ruff`, `pytest`, `make`, `npm`, …) — not
-`mise run`. Publishing jobs that need Pillow use `uv sync --frozen --group publishing`.
-Site CI and book-export prepare jobs keep `actions/setup-node` for npm cache / sharp.
-[`scripts/ci_uv_sync.sh`](../scripts/ci_uv_sync.sh) remains for Cloud Agent install
-(`.cursor/install.sh`) until that path is switched to mise or plain `uv sync`.
+**GitHub Actions** provisions Python and uv from `mise.toml` / `mise.lock` via
+SHA-pinned `jdx/mise-action` (`install_args: "python uv"`; lockfile implies
+`--locked`). Jobs run **direct** commands (`ruff`, `pytest`, `make`, `npm`, …) —
+not `mise run`. Publishing jobs that need Pillow use
+`uv sync --frozen --group publishing`. Site CI and book-export prepare jobs use
+`actions/setup-node` for npm cache / sharp (`engines.node` is `>=22.22.2`; local
+mise pins the exact patch).
+
+**Cursor Cloud** (`.cursor/install.sh`) assumes `uv` is already on PATH and runs
+`uv sync --frozen` + `npm ci`.
+
+**Vercel** keeps an environment-specific bootstrap in
+[`scripts/vercel_install.sh`](../scripts/vercel_install.sh) (checksum-verified uv,
+then `uv sync --frozen --only-group semantic` + `npm ci`).
 
 Discover tasks: `mise tasks` · help for one task: `mise run <task> --help`.
 
