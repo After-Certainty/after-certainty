@@ -18,10 +18,14 @@ SOURCE_PROMOTE_BOOK_IDS ?=
 SOURCE_PROMOTE_NO_PRUNE ?=
 
 help:
-	@echo "Pandoc conversion helpers"
+	@echo "Make targets (publishing / IngramSpark SOP + compatibility wrappers)"
 	@echo ""
-	@echo "Targets:"
-	@echo "  make sync-semantic  (uv sync --frozen --only-group semantic; Vercel/site lightweight)"
+	@echo "Preferred everyday DX: install mise (https://mise.jdx.dev), then:"
+	@echo "  mise tasks          # discover check, site:*, manifest:*, audio:*, semantic:*, …"
+	@echo "  mise run check      # corpus lint + pytest"
+	@echo "See docs/task-orchestration.md for the mise / npm / Make / Python map."
+	@echo ""
+	@echo "Publishing / pandoc (canonical Make surface):"
 	@echo "  make docx-to-md IN=path/to/input.docx [OUT=path/to/output.md]"
 	@echo "  make md-to-docx IN=path/to/input.md [OUT=path/to/output.docx]"
 	@echo "  make import-docx"
@@ -30,110 +34,42 @@ help:
 	@echo "  make export-docx-by-part DIR=path/to/book-folder [OUT_STEM=basename] [PARTS=act-1-the-choice,act-2-the-gift]"
 	@echo "  make export-kindle-epub DIR=path/to/book-folder [OUT_STEM=basename]"
 	@echo "  make export-pdf DIR=path/to/book-folder [OUT_STEM=basename]"
+	@echo "  make export-typst-pdf DIR=path/to/book-folder [OUT_STEM=basename] [TYPST=typst]"
+	@echo "  make export-all-docx"
+	@echo "  make build-book DIR=path/from/repo/root [OUT_DIR=build/...] [FORMATS=\"docx epub pdf\"]"
+	@echo "  make generate-typst-manifest DIR=path/to/poetry-book-folder"
+	@echo "  make install-typst"
+	@echo "  make install-epubcheck [EPUBCHECK_VERSION=5.3.0]"
+	@echo ""
+	@echo "IngramSpark:"
 	@echo "  make export-ingramspark-epub DIR=path/to/book-folder"
 	@echo "  make export-ingramspark-print DIR=path/to/book-folder"
 	@echo "  make build-ingramspark-pdfx-proof"
 	@echo "  make validate-ingramspark-print-cover DIR=path/to/book-folder"
 	@echo "  make build-ingramspark-print-cover DIR=path/to/book-folder"
 	@echo "  make preflight-ingramspark DIR=path/to/book-folder [EBOOK_ONLY=1|PRINT_ONLY=1]"
-	@echo "  make package-ingramspark DIR=path/to/book-folder [EBOOK_ONLY=1|PRINT_ONLY=1]  (planning cover-preview ZIP when print.isbn omitted)"
-	@echo "  make install-epubcheck [EPUBCHECK_VERSION=5.3.0]"
-	@echo "  make export-all-docx"
-	@echo "  make build-book DIR=path/from/repo/root [OUT_DIR=build/...] [FORMATS=\"docx epub pdf\"]"
-	@echo "  make generate-typst-manifest DIR=path/to/poetry-book-folder"
-	@echo "  make test  (pytest: manifest + semantic YAML pipeline smoke tests)"
-	@echo "  make lint  (ruff check + format --check on tools/, scripts/, tests/)"
-	@echo "  make lint-fix  (ruff check --fix + ruff format; writes files)"
-	@echo "  make check  (lint + pytest; run before commit/push when Python changed)"
-	@echo "  make list-chapter-audio [FILTER=all|enabled|available|disabled|stale|missing|unconfigured|invalid] [FORMAT=table|json]"
-	@echo "  make plan-chapter-audio [ENABLED=1] [UNIT=chapter-id] [FORMAT=table|json]"
-	@echo "  make discover-chapter-audio [EDITION=slug] [FORCE=1] [FORMAT=ids|table|json]"
-	@echo "  make generate-chapter-audio UNIT=chapter-id [DRY_RUN=1] [MOCK=1] [REAL=1] [FORCE=1] [FORMAT=text|json]"
-	@echo "  make generate-chapter-audio-manifest"
-	@echo "  make validate-chapter-audio [STRICT_STALE=1]"
-	@echo "  make verify-chapter-audio [STRICT_STALE=1]"
-	@echo "  make install-chapter-audio-for-site"
-	@echo "  make validate-book-specs"
-	@echo "  make validate-editorial-preservation BOOK_DIR=books/when-others-look-to-you/v1"
-	@echo "  make generate-books-manifest [MANIFEST_OUT=build/books-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
-	@echo "  make validate-books-manifest [MANIFEST=build/books-manifest.json]"
-	@echo "  make verify-books-manifest [MANIFEST_OUT=build/books-manifest.json]"
-	@echo "  make generate-book-cover-assets  (WebP detail/card/thumbnail → build/site-assets/book-covers)"
-	@echo "  make validate-book-cover-assets  (parity of generated covers + optional site install)"
-	@echo "  make generate-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json] [MANIFEST_REF=main] [MANIFEST_RELEASE_TAG=latest] [GITHUB_REPOSITORY=owner/repo]"
-	@echo "  make compare-manifest-parity  (local build/ vs GitHub latest release; Stage B)"
-	@echo "  make install-local-manifest-for-site  (Stage C: copy build/ → apps/site/data/local-*.json + manuscripts + public/generated/book-covers)"
-	@echo "  make verify-semantic-yaml  (parse + slug checks + prose audit; use before manifest)"
-	@echo "  make validate-semantic-entities  (JSON Schema + reference checks on semantic/**/*.yml)"
-	@echo "  make lint-semantic-graph  (graph quality warnings; LINT_STRICT=1 to fail)"
-	@echo "  make validate-semantic-manifest [SEMANTIC_MANIFEST=build/semantic-manifest.json]"
-	@echo "  make verify-semantic-manifest [SEMANTIC_MANIFEST_OUT=build/semantic-manifest.json]"
-	@echo "  make verify-semantic-ontology  (entities + yaml + manifest pipeline)"
-	@echo "  make report-semantic-completeness  (public work enrichment coverage → reports/semantic-completeness.{md,json})"
-	@echo "  make audit-semantic-graph  (unified graph data-quality audit → reports/semantic-graph-audit.{json,md})"
-	@echo "  make audit-semantic-metadata-quality  (source/thinker display metadata → reports/)"
-	@echo "  make audit-thinker-concepts  (thinker↔concept coverage → reports/)"
-	@echo "  make audit-bibliography-semantic-drift  (biblio ↔ sources/thinkers → reports/bibliography-semantic-drift.{md,json})"
-	@echo "  make reconcile-bibliography-semantic-drift  (apply relatedBooks patches + sync thinker works from audit JSON)"
-	@echo "  make reconcile-suno-playlist  (read-only: fixture vs semantic/songs; FETCH=1 for live API)"
-	@echo "  make sync-suno-playlist  (dry-run clip ID sync; FETCH=1 and/or FIXTURE=path; SAVE_FIXTURE=1)"
-	@echo "  make sync-suno-playlist-apply  (write song + playlist YAML from playlist snapshot)"
-	@echo "  make render-semantic-glossary MANIFEST=build/semantic-manifest.json OUT=path/to/glossary.md"
-	@echo "  make extract-semantic-glossary-drafts GLOSSARY_IN=books/.../glossary.md BOOK_ID=book-slug-from-book-yml"
-	@echo "  make scan-book-glossary-usage BOOK_DIR=books/... [GLOSSARY_SCOPE=book|all]"
-	@echo "  make discover-book-glossary-candidates BOOK_DIR=books/... [GLOSSARY_WRITE_DRAFTS=1]"
-	@echo "  make extract-semantic-pattern-drafts PATTERN_IN=books/.../appendix-....md BOOK_ID=book-slug-from-book-yml"
-	@echo "  make extract-semantic-source-drafts BIBLIO_IN=books/.../bibliography.md BOOK_ID=book-slug-from-book-yml"
-	@echo "  make promote-semantic-source-drafts [SOURCE_PROMOTE_BOOK_IDS='id1 id2'] [SOURCE_PROMOTE_NO_PRUNE=1]"
-	@echo "  make backfill-source-metadata [SOURCE_BACKFILL_DRY_RUN=1] [SOURCE_BACKFILL_OVERWRITE=1] [SOURCE_BACKFILL_LIMIT=N]"
-	@echo "  make derive-thinker-drafts [THINKER_DRAFTS_DRY_RUN=1]"
-	@echo "  make promote-thinker-drafts [THINKER_PROMOTE_PILOT_ONLY=1] [THINKER_PROMOTE_OVERRIDES=semantic/thinkers-batch-2-overrides.yml] [THINKER_PROMOTE_DRY_RUN=1]"
-	@echo "  make propose-semantic-enrichment BOOK_DIR=books/... AGENT_TYPE=recognition-signals|all [ENRICH_OVERWRITE=1]"
-	@echo "  make promote-semantic-enrichment [ENRICH_BOOK_ID=coupling] [ENRICH_FIELD=recognitionSignals]"
-	@echo "  make infer-semantic-source-links"
-	@echo "  make clean-import-md"
-	@echo "  make spellcheck [SPELLCHECK_DIR=books/when-others-look-to-you/v1] [CODESPELL=codespell]"
-	@echo "  make typography-check-how-meaning-moves"
+	@echo "  make package-ingramspark DIR=path/to/book-folder [EBOOK_ONLY=1|PRINT_ONLY=1]"
+	@echo ""
+	@echo "Compatibility (also available via mise run …):"
+	@echo "  make check / lint / lint-fix / test"
+	@echo "  make sync-semantic"
+	@echo "  make validate-book-specs / verify-books-manifest / verify-semantic-ontology"
+	@echo "  make list-chapter-audio / plan-chapter-audio / generate-chapter-audio UNIT=…"
+	@echo "  make validate-chapter-audio / verify-chapter-audio"
+	@echo "  Full catalog: mise tasks   |   docs/task-orchestration.md"
+	@echo ""
+	@echo "Removed (use npm / mise instead):"
+	@echo "  generate-semantic-manifest → npm run corpus:build-manifest | mise run manifest:build"
+	@echo "  validate-semantic-manifest → npm run corpus:validate-manifest | mise run manifest:validate"
+	@echo "  install-local-manifest-for-site → npm run site:install-local-manifest | mise run manifest:install"
+	@echo "  compare-manifest-parity → npm run corpus:parity | mise run manifest:parity"
 	@echo ""
 	@echo "Notes:"
-	@echo "  - If OUT is omitted, output is created next to IN."
-	@echo "  - import-docx converts every ./**/import.docx to ./**/import.md."
-	@echo "  - import-docx-dir converts every .docx under DIR to side-by-side .md."
-	@echo "  - import-docx-dir skips existing .md files unless OVERWRITE=1."
+	@echo "  - Publishing targets require pandoc on PATH (except Typst poetry PDF)."
 	@echo "  - export-docx combines DIR/index.md plus linked .md files into DIR/<stem>.docx."
-	@echo "  - export-docx-by-part writes one DOCX per ## Part … / ## Act … section (e.g. the-relay-act-1-the-absence.docx)."
-	@echo "  - export-kindle-epub creates DIR/<stem>.epub (flattened custom blocks, shallow nav TOC)."
-	@echo "  - export-ingramspark-epub / export-ingramspark-print / package-ingramspark write build/ingramspark/<book-id>/ (opt-in target; not a public format)."
-	@echo "  - build-ingramspark-pdfx-proof writes build/ingramspark/_pdfx-proof/ (isolated PDF/X construction gate)."
-	@echo "  - validate-ingramspark-print-cover checks wrap + template-meta.yml and stages {isbn}_cvr.pdf (or {book.id}_cvr.pdf in planning without isbn)."
-	@echo "  - build-ingramspark-print-cover converts raster/assembled PNG panels → *_cvr.pdf (exact pixels; no scaling)."
-	@echo "  - export-pdf creates DIR/<stem>.pdf using scripts/export_pdf.py and book.yml PDF settings."
-	@echo "  - <stem> defaults to DIR relative to repo root with path segments joined by '-' (override with OUT_STEM)."
-	@echo "  - SVG under DIR/docs/diagrams/ rasterize to DIR/export-assets/diagrams/ (rsvg-convert or magick)."
-	@echo "  - export-all-docx runs export-docx for every publish-enabled book.yml that includes docx."
-	@echo "  - build-book runs scripts/build.py for DIR (default FORMATS: docx epub); default OUT_DIR is build/<DIR-with-slashes-as-dashes>. Poetry/Typst PDF builds do not require pandoc."
-	@echo "  - generate-books-manifest aggregates /books and metadata-backed /upcoming entries into MANIFEST_OUT."
-	@echo "  - validate-books-manifest validates MANIFEST JSON against schema/books-manifest.schema.json."
-	@echo "  - verify-books-manifest runs both generation and validation for local CI parity."
-	@echo "  - generate-semantic-manifest builds semantic-manifest.json (books + glossary + patterns + sources + relationships)."
-	@echo "  - validate-semantic-manifest validates against schema/semantic-manifest.schema.json."
-	@echo "  - verify-semantic-yaml checks all semantic/**/*.yml (excludes _drafts); --strict-prose in target below."
-	@echo "  - verify-semantic-manifest runs verify-semantic-yaml, semantic generation, and validation."
-	@echo "  - render-semantic-glossary renders templates/glossary.md.j2 from a semantic manifest JSON."
-	@echo "  - extract-semantic-glossary-drafts / extract-semantic-pattern-drafts / extract-semantic-source-drafts emit reviewable YAML under semantic/_drafts/generated/ (gitignored)."
-	@echo "  - extract-semantic-source-drafts supports list, Pandoc Bibliography divs, and plain Chicago paragraphs (see tools/bibliography_parse.py)."
-	@echo "  - audit-bibliography-semantic-drift compares bibliographies to semantic/sources + thinkers (read-only report)."
-	@echo "  - promote-semantic-source-drafts merges semantic/_drafts/generated/sources/<book-id>/ into semantic/sources/ (Author — Title names + v1.5 metadata). Full promote (no SOURCE_PROMOTE_BOOK_IDS) passes --prune unless SOURCE_PROMOTE_NO_PRUNE=1."
-	@echo "  - backfill-source-metadata adds creatorSlugs, title, citation, sourceKind to existing semantic/sources/*.yml (see .cursor/skills/semantic-sources/)."
-	@echo "  - derive-thinker-drafts aggregates enriched sources into semantic/_drafts/generated/thinkers/ (see .cursor/skills/semantic-thinkers/)."
-	@echo "  - promote-thinker-drafts copies reviewed drafts into semantic/thinkers/ (use THINKER_PROMOTE_PILOT_ONLY=1 with default overrides, or THINKER_PROMOTE_OVERRIDES=path for batch files)."
-	@echo "  - propose-semantic-enrichment scaffolds gitignored drafts under semantic/_drafts/enrichment/<book-id>/<agent-type>/ (see docs/agents/semantic/)."
-	@echo "  - promote-semantic-enrichment merges approved enrichment drafts into semantic/glossary|patterns|situations/."
-	@echo "  - infer-semantic-source-links scans manuscript markdown for co-mentions (sources: concepts/patterns; patterns: relatedSources). Preview with: python3 tools/infer_semantic_source_links.py --repo . --dry-run"
-	@echo "  - spellcheck runs codespell on SPELLCHECK_DIR using that dir's .codespellrc."
-	@echo "  - Requires pandoc installed and available in PATH."
-	@echo "  - spellcheck requires codespell (pip install codespell). If it is not on PATH, set CODESPELL to the full path."
-	@echo "  - book.yml validation and front-matter generation require Python packages: see requirements.txt (jinja2, pyyaml, jsonschema, pytest, ruff)."
+	@echo "  - export-ingramspark-* / package-ingramspark write build/ingramspark/<book-id>/."
+	@echo "  - <stem> defaults to DIR relative to repo root with '/' → '-' (override OUT_STEM)."
+	@echo "  - book.yml validation requires Python deps: uv sync --frozen (or requirements.txt)."
 
 check-pandoc:
 	@command -v "$(PANDOC)" >/dev/null 2>&1 || { \
@@ -262,15 +198,14 @@ compare-site-discovery:
 		--fixtures docs/migrations/fixtures/site-discovery \
 		--out docs/migrations/parity-report.md
 
-# Stage B: local generated manifest vs public release (production still remote).
+# Removed Make shims (use npm / mise). Kept as hard-fail so callers get a clear redirect.
 compare-manifest-parity:
-	@echo "make compare-manifest-parity is deprecated; use: npm run corpus:parity" >&2
-	npm run parity -w @after-certainty/corpus-tasks
+	@echo "Error: make compare-manifest-parity was removed; use: npm run corpus:parity  (or: mise run manifest:parity)" >&2
+	@exit 1
 
-# Stage C: install same-checkout manifest for site preview builds (gitignored local-*.json).
 install-local-manifest-for-site:
-	@echo "make install-local-manifest-for-site is deprecated; use: npm run site:install-local-manifest" >&2
-	npm run install-for-site -w @after-certainty/corpus-tasks
+	@echo "Error: make install-local-manifest-for-site was removed; use: npm run site:install-local-manifest  (or: mise run manifest:install)" >&2
+	@exit 1
 
 generate-book-cover-assets:
 	node packages/corpus-tasks/scripts/generate-book-cover-assets.mjs --repo . --out "$(BOOK_COVER_ASSETS_OUT)" $(if $(ALLOW_MISSING_WEB_COVERS),--allow-missing-sharp,)
@@ -339,17 +274,18 @@ normalize-semantic-metadata:
 align-creator-slugs:
 	python3 tools/align_creator_slugs.py --repo . --apply
 
-SEMANTIC_MANIFEST_COVER_DEPS := $(if $(SKIP_WEB_COVERS),,generate-book-cover-assets)
-
-generate-semantic-manifest: validate-book-specs verify-semantic-yaml $(SEMANTIC_MANIFEST_COVER_DEPS)
-	@echo "make generate-semantic-manifest is deprecated; use: npm run corpus:build-manifest" >&2
-	npm run build-manifest -w @after-certainty/corpus-tasks
+generate-semantic-manifest:
+	@echo "Error: make generate-semantic-manifest was removed; use: npm run corpus:build-manifest  (or: mise run manifest:build)" >&2
+	@exit 1
 
 validate-semantic-manifest:
-	@echo "make validate-semantic-manifest is deprecated; use: npm run corpus:validate-manifest" >&2
-	npm run validate-manifest -w @after-certainty/corpus-tasks
+	@echo "Error: make validate-semantic-manifest was removed; use: npm run corpus:validate-manifest  (or: mise run manifest:validate)" >&2
+	@exit 1
 
-verify-semantic-manifest: generate-semantic-manifest validate-semantic-manifest
+# Composite still used by CI; calls npm (not the removed F shims).
+verify-semantic-manifest:
+	npm run corpus:build-manifest
+	npm run corpus:validate-manifest
 
 verify-semantic-ontology: validate-semantic-entities verify-semantic-yaml verify-semantic-manifest validate-discovery-content lint-semantic-graph
 

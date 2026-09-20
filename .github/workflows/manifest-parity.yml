@@ -84,12 +84,13 @@ jobs:
         run: |
           set -euo pipefail
           # Python-only job: skip Sharp covers when node_modules are absent.
-          ALLOW_MISSING_WEB_COVERS=1 make generate-semantic-manifest
+          ALLOW_MISSING_WEB_COVERS=1 npm run corpus:build-manifest
 
       - name: Compare to public release
         run: |
           set -euo pipefail
-          make compare-manifest-parity
+          # Direct workspace script (same as former Make shim); avoids Turbo re-running build-manifest.
+          npm run parity -w @after-certainty/corpus-tasks
 
       - name: Upload parity report
         if: always()

@@ -143,7 +143,8 @@ def _install_book_covers(
     if not readme.is_file():
         readme.write_text(
             "# Generated site assets\n\n"
-            "This directory is produced by `make install-local-manifest-for-site`.\n"
+            "This directory is produced by `npm run site:install-local-manifest` "
+            "(or `mise run manifest:install`).\n"
             "Do not edit or commit these files; regenerate from the corpus checkout.\n",
             encoding="utf-8",
         )
@@ -294,7 +295,7 @@ def _install_manuscripts(
     marker = dest_root / "README.md"
     marker.write_text(
         "# Installed chapter manuscripts\n\n"
-        "Produced by `make install-local-manifest-for-site` for Native Reader SSR "
+        "Produced by `npm run site:install-local-manifest` for Native Reader SSR "
         "(READ-003). Do not edit or commit; regenerate from the corpus checkout.\n",
         encoding="utf-8",
     )
@@ -357,7 +358,7 @@ def _install_manuscript_assets(
     marker = dest_root / "README.md"
     marker.write_text(
         "# Installed manuscript assets\n\n"
-        "Produced by `make install-local-manifest-for-site` for Native Reader "
+        "Produced by `npm run site:install-local-manifest` for Native Reader "
         "images/diagrams. Do not edit or commit; regenerate from the corpus checkout.\n",
         encoding="utf-8",
     )
@@ -477,7 +478,7 @@ def _install_chapter_audio(
     readme = audio_root / "README.md"
     readme.write_text(
         "# Installed chapter audio\n\n"
-        "Produced by `make install-local-manifest-for-site` from available "
+        "Produced by `npm run site:install-local-manifest` from available "
         "`books/**/audio/` artifacts. MP3s are CDN static assets only; "
         "SSR alignment JSON is also copied to `apps/site/data/chapter-audio/`. "
         "Do not edit or commit; regenerate from the corpus.\n",
@@ -583,7 +584,7 @@ def main(argv: list[str] | None = None) -> int:
     if not source.is_file():
         print(
             f"error: local manifest not found: {source}\n"
-            "Run: make generate-semantic-manifest  (or npm run corpus:build-manifest)",
+            "Run: npm run corpus:build-manifest  (or: mise run manifest:build)",
             file=sys.stderr,
         )
         return 1
