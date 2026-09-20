@@ -45,18 +45,22 @@ The best starting point for reading and exploring is the live site:
 
 ## Quick developer setup
 
-Requires **Python 3.12+** with [uv](https://github.com/astral-sh/uv), and **Node 22+**.
+Requires **Python 3.12.3** (floor: 3.12+) with [uv](https://github.com/astral-sh/uv), and **Node 22.22.2+**.
+
+Optional: install [mise](https://mise.jdx.dev) and run `mise install` from the repo root to pin Python **3.12.3** and Node **22.22.2** (see [`mise.toml`](mise.toml)). Task discovery: `mise tasks`.
 
 ```bash
 uv sync --frozen
 npm ci
-npm run corpus:build-manifest
-npm run site:install-local-manifest
-npm run site:dev:local          # http://localhost:3000
-# or: npm run site:dev:watch    # regenerate manifest on corpus changes
+npm run corpus:build-manifest          # or: mise run manifest:build
+npm run site:install-local-manifest    # or: mise run manifest:install
+npm run site:dev:local                 # http://localhost:3000
+# or: npm run site:dev:watch           # regenerate manifest on corpus changes
 ```
 
-Useful checks: `make check` (corpus lint + tests) · `npm run site:test` · `npm run site:lint`.
+Useful checks: `mise run check` (or `make check`) · `npm run site:test` · `npm run site:lint`.
+
+Orchestration map (mise / npm / Make / Turbo): [`docs/task-orchestration.md`](docs/task-orchestration.md).
 
 Cursor Cloud PATH and runtime notes: [`AGENTS.md`](AGENTS.md). Full site setup: [`apps/site/README.md`](apps/site/README.md).
 

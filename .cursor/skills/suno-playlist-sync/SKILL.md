@@ -105,7 +105,8 @@ make lint   # when tools/ or tests/ Python changed
 Optional site check after manifest install:
 
 ```bash
-make generate-semantic-manifest && make install-local-manifest-for-site
+npm run corpus:build-manifest && npm run site:install-local-manifest
+# or: mise run manifest:build && mise run manifest:install
 npm run site:dev:local
 # /listen and /explore/songs/<slug> should embed the new primary UUIDs
 ```

@@ -50,7 +50,7 @@ Planning status and roadmap authority live in [`roadmaps/README.md`](roadmaps/RE
 
 | Document | Topic |
 |----------|--------|
-| [`task-orchestration.md`](task-orchestration.md) | Turbo / npm / Make / Python map |
+| [`task-orchestration.md`](task-orchestration.md) | mise / Turbo / npm / Make / Python map |
 | [`site-deploy.md`](site-deploy.md) | Site CI/CD |
 | [`../SECURITY.md`](../SECURITY.md) | Security policy |
 | [`security/`](security/) | Threat model, hardening, credential-free Cursor, GitHub checklist |

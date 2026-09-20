@@ -2,9 +2,10 @@
 
 Repository overview and choose-your-path links live in [`README.md`](README.md).
 Detailed technical documentation is indexed in [`docs/README.md`](docs/README.md)
-(corpus/publishing via Python + `uv` + Make; the website in [`apps/site`](apps/site) via
-npm workspaces + Turborepo + Next.js). Site-specific Next.js agent rules are in
-[`apps/site/AGENTS.md`](apps/site/AGENTS.md).
+(corpus/publishing via Python + `uv` + Make; everyday DX via optional [mise](https://mise.jdx.dev);
+the website in [`apps/site`](apps/site) via npm workspaces + Turborepo + Next.js).
+Site-specific Next.js agent rules are in [`apps/site/AGENTS.md`](apps/site/AGENTS.md).
+Task map: [`docs/task-orchestration.md`](docs/task-orchestration.md).
 
 ## Cursor Cloud specific instructions
 
@@ -19,6 +20,10 @@ runtime context.
   `.venv` interpreter (with `pyyaml`/`jsonschema`) and puts `uv`, `ruff`, and `pytest` on
   `PATH`. (PADE sets its own PATH via `/etc/profile.d/cursor-pade.sh`. The Vercel CLI
   is on PATH via `/etc/profile.d/cursor-vercel.sh`.)
+- **Optional mise.** [`mise.toml`](mise.toml) pins Python **3.12.3** and Node **22.22.2**.
+  If mise is installed (`curl https://mise.jdx.dev/install.sh | sh`), run `mise trust` once
+  and `mise install`. Preferred DX: `mise run check`, `mise run manifest:build`,
+  `mise run site:dev:local`, etc. Make and npm remain fully supported without mise.
 - **Vercel diagnostics on Cloud Agents.** Do not use Vercel MCP, `vercel login`,
   `--token`, or a session `VERCEL_TOKEN`. Wrap ordinary CLI diagnostics in PADE:
   `pade exec -f pade.yaml --bindings .pade/agent-bindings.yaml --capability vercel.diagnostics --quiet -- vercel whoami`
@@ -27,7 +32,8 @@ runtime context.
 - **The site needs the local semantic manifest before it renders.** This is a
   build/generate step and is intentionally kept out of the update script. Run it once
   after startup (and again after editing `books/` or `semantic/`):
-  `make generate-semantic-manifest && make install-local-manifest-for-site`. Then start
+  `npm run corpus:build-manifest && npm run site:install-local-manifest`
+  (or `mise run manifest:build && mise run manifest:install`). Then start
   the dev server with `npm run site:dev:local` (sets `SEMANTIC_MANIFEST_USE_LOCAL=1` +
   `SEMANTIC_MANIFEST_OFFLINE=1`) — or run `npm run site:dev:watch` to auto-regenerate
   the manifest on corpus changes. Plain `npm run site:dev` also requires the installed
@@ -43,7 +49,10 @@ runtime context.
   `export-*` targets require pandoc, which is a system package not in the update script.
   Install it on demand: `sudo apt-get install -y pandoc`. Typst and epubcheck are
   optional extras (`scripts/install_typst.sh`, `scripts/install_epubcheck.sh`).
+  Optional mise aliases: `mise run publish:docx -- books/<name>`, etc. Make remains the
+  publishing SOP.
 - **Node engine.** CI and `package.json` engines require Node **22.22.2+** (LTS).
   The Cloud Agent base image may ship a slightly older 22.x (e.g. v22.14); some
   transitive deps (jsdom) still emit `EBADENGINE` until the image catches up, but
-  lint/test/build/run all work. Prefer Node 22 LTS locally and in GitHub Actions.
+  lint/test/build/run all work. Prefer Node 22 LTS locally and in GitHub Actions;
+  `mise install` pins **22.22.2** when mise is available.

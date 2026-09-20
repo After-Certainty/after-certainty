@@ -88,9 +88,9 @@ Legacy `status`, `companionOf`, `companionBooks`, and `slugAliases` are unchange
 
 ```bash
 make generate-book-cover-assets
-make generate-semantic-manifest
-make validate-semantic-manifest
-make verify-semantic-manifest
+npm run corpus:build-manifest          # or: mise run manifest:build
+npm run corpus:validate-manifest       # or: mise run manifest:validate
+make verify-semantic-manifest          # build + validate via npm
 make validate-discovery-content
 make report-semantic-completeness
 ```
@@ -108,7 +108,7 @@ Optional on each `books[]` entry when web derivatives exist:
 
 Legacy `coverImage` / `coverImagePath` remain required (nullable). External consumers may ignore the new fields.
 
-Site install (`make install-local-manifest-for-site`) also copies archival `open-graph.png` to `apps/site/public/generated/open-graph/<slug>.png` and rewrites the **local** installed manifest `openGraphImage` to `/generated/open-graph/<slug>.png`. The published release `semantic-manifest.json` may still use absolute GitHub raw URLs for `openGraphImage`; that rewrite is site-build-only.
+Site install (`npm run site:install-local-manifest` / `mise run manifest:install`) also copies archival `open-graph.png` to `apps/site/public/generated/open-graph/<slug>.png` and rewrites the **local** installed manifest `openGraphImage` to `/generated/open-graph/<slug>.png`. The published release `semantic-manifest.json` may still use absolute GitHub raw URLs for `openGraphImage`; that rewrite is site-build-only.
 
 ## Site consumption (monorepo Stage D)
 

@@ -6,11 +6,11 @@ Thank you for contributing to After Certainty. This map routes you to the right 
 
 | Change type | Primary paths | Validation |
 |-------------|---------------|------------|
-| Manuscript / `book.yml` | `books/<slug>/` | `make validate-book-specs` · export docs in [`docs/publishing/book-export-pipeline.md`](docs/publishing/book-export-pipeline.md) |
+| Manuscript / `book.yml` | `books/<slug>/` | `mise run books:validate-specs` (or `make validate-book-specs`) · export docs in [`docs/publishing/book-export-pipeline.md`](docs/publishing/book-export-pipeline.md) |
 | Semantic graph YAML | `semantic/` | `npm run corpus:build-manifest` · contracts under [`docs/`](docs/README.md) |
 | Website (UI, routes, site JSON) | `apps/site/` | `npm run site:lint` · `npm run site:test` · see [`apps/site/README.md`](apps/site/README.md) |
 | Site content overlays (catalog, trails, What’s New) | `apps/site/` + guides | [`apps/site/docs/contributing-*.md`](apps/site/docs/) |
-| Publishing / export tooling | `scripts/`, `tools/`, `schema/`, `templates/` | `make validate-book-specs` · relevant export targets |
+| Publishing / export tooling | `scripts/`, `tools/`, `schema/`, `templates/` | `make validate-book-specs` · Make export targets (see book-export pipeline) |
 | Docs only | `README.md`, `docs/`, this file | Link-check paths you touch |
 
 Project overview and choose-your-path links: [README.md](README.md). Full technical index: [docs/README.md](docs/README.md).
@@ -18,14 +18,17 @@ Project overview and choose-your-path links: [README.md](README.md). Full techni
 ## Local setup (short)
 
 ```bash
+# Optional: mise install   # pins Python 3.12.3 + Node 22.22.2 from mise.toml
 uv sync --frozen
 npm ci
-npm run corpus:build-manifest
-npm run site:install-local-manifest
+npm run corpus:build-manifest          # or: mise run manifest:build
+npm run site:install-local-manifest    # or: mise run manifest:install
 npm run site:dev:local
 ```
 
-Corpus gate: `make check`. Site checks: `npm run site:test` · `npm run site:lint`.
+Corpus gate: `mise run check` (or `make check` / `npm run corpus:check`). Site checks: `npm run site:test` · `npm run site:lint`.
+
+Task map: [`docs/task-orchestration.md`](docs/task-orchestration.md).
 
 ## Pull requests
 
