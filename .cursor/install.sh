@@ -3,8 +3,9 @@
 # Idempotent and safe to re-run on every VM startup. Keep this minimal:
 # dependency refresh only (no manifest generation, builds, or service startup).
 #
-# Expects uv on PATH (Cloud Agent base image / environment snapshot). Does not
-# install mise or curl|sh bootstrap uv — see docs/task-orchestration.md.
+# Bootstraps a checksum-verified pinned uv into ~/.local/bin when missing or
+# wrong version (Cursor Cloud base images do not reliably provide uv). Does not
+# install mise — see docs/task-orchestration.md.
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -18,11 +19,9 @@ bash .cursor/install-pade.sh || echo "install: PADE bootstrap skipped (non-fatal
 # npm registry hiccup never blocks uv/npm ci. No VERCEL_TOKEN on the VM.
 bash .cursor/install-vercel.sh || echo "install: Vercel CLI bootstrap skipped (non-fatal)"
 
-# Python corpus toolchain (uv.lock). Cloud Agent images must provide `uv`.
-if ! command -v uv >/dev/null 2>&1; then
-  echo "install: uv not found on PATH; Cloud Agent images must provide uv" >&2
-  exit 1
-fi
+# Python corpus toolchain (uv.lock). Ensure pinned uv, then sync full dev group.
+bash scripts/install_pinned_uv.sh
+export PATH="${HOME}/.local/bin:${PATH}"
 uv sync --frozen
 
 # Node workspace dependencies (Next.js site + corpus-tasks).

@@ -35,6 +35,7 @@ Node **22.22.2**, uv **0.11.29**. Requires mise **≥ 2025.10.0** (hard minimum 
 ```text
 Local / agents     mise.toml + mise.lock → Python, Node, uv (optional DX)
 GitHub Actions     mise-action → Python + uv; setup-node → Node + npm cache
+Cursor Cloud       .cursor/install.sh → pinned uv bootstrap when needed + uv sync + npm ci
 Vercel             scripts/vercel_install.sh → checksum uv + semantic group + npm ci
 uv                 Python dependency ownership (uv.lock)
 npm / Turbo        site + manifest orchestration
@@ -57,10 +58,12 @@ not `mise run`. Publishing jobs that need Pillow use
 `actions/setup-node` for npm cache / sharp (`engines.node` is `>=22.22.2`; local
 mise pins the exact patch).
 
-**Cursor Cloud** (`.cursor/install.sh`) assumes `uv` is already on PATH and runs
+**Cursor Cloud** (`.cursor/install.sh`) runs
+[`scripts/install_pinned_uv.sh`](../scripts/install_pinned_uv.sh) (checksum-verified
+uv **0.11.29** into `~/.local/bin` when missing or wrong version), then
 `uv sync --frozen` + `npm ci`.
 
-**Vercel** keeps an environment-specific bootstrap in
+**Vercel** keeps a separate environment-specific bootstrap in
 [`scripts/vercel_install.sh`](../scripts/vercel_install.sh) (checksum-verified uv,
 then `uv sync --frozen --only-group semantic` + `npm ci`).
 

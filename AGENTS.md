@@ -10,9 +10,10 @@ Task map: [`docs/task-orchestration.md`](docs/task-orchestration.md).
 ## Cursor Cloud specific instructions
 
 The startup update script (`.cursor/install.sh`, wired via `.cursor/environment.json`)
-only refreshes dependencies: `uv sync --frozen` (full dev group) + `npm ci`, plus the
-optional PADE analytics CLI and pinned Vercel CLI. Everything below is non-obvious
-runtime context.
+only refreshes dependencies: checksum-verified pinned uv bootstrap when needed
+(`scripts/install_pinned_uv.sh`), then `uv sync --frozen` (full dev group) + `npm ci`,
+plus the optional PADE analytics CLI and pinned Vercel CLI. Everything below is
+non-obvious runtime context.
 
 - **PATH after startup.** `uv`, the Python venv, and installed tools are not on `PATH`
   in fresh shells. Before running Python/corpus or manifest commands, export:
