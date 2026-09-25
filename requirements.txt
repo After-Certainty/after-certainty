@@ -5,7 +5,7 @@
 #
 # Floor pin so OpenSSF Scorecard's requirements.txt resolve cannot pick vulnerable
 # transitive filelock (<3.20.3). uv.lock already has a newer fixed version.
-filelock>=3.20.3
+filelock>=3.32.7
 jinja2>=3.1
 jsonschema>=4
 PyYAML>=6
