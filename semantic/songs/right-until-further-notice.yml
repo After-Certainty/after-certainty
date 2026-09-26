@@ -1,0 +1,72 @@
+slug: right-until-further-notice
+title: Right Until Further Notice
+shortDescription: 'UK garage–zydeco story-song: everyone saw something different, and the tale stays right—until
+  further notice.'
+longDescription: 'Shuffled 2-step and chopped accordion carry a crowded back-door dispute that never settles
+  into one clean account. Witness piles on witness; provisional commitment and revisability keep the story
+  usable without pretending it is finished. The Game We Think We Saw and What We Cannot See fit partial
+  sight; Curiosity Before Certainty fits raising a glass while the next fact arrives. Patterns revisability-preserves-judgment
+  and contact-keeps-the-read-open match the hook''s open clause: right until further notice.'
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/right-until-further-notice.md
+lyricLanguages:
+- en
+relatedConcepts:
+- witness
+- contestability
+- provisional-commitment
+- revisability
+- judgment
+relatedPatterns:
+- revisability-preserves-judgment
+- contact-keeps-the-read-open
+- dissent-is-welcomed
+- commitment-leaves-room
+relatedBooks:
+- the-game-we-think-we-saw
+- what-we-cannot-see
+- curiosity-before-certainty
+recordings:
+- platform: suno
+  externalId: ad634364-6b00-465c-8287-d14101675ae3
+  primary: true
+  recordingTitle: Right Until Further Notice
+  createdAt: '2026-09-17T22:52:20.000Z'
+  durationSeconds: 266.0
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: gen
+  isRemix: true
+  styleTags: 'Modern UK garage / 2-step fused with zydeco. Fast, slippery, danceable groove with shuffled
+    electronic drums, deep sub-bass, syncopated percussion, chopped vocal samples, synth stabs, and spacious
+    club production. Use Louisiana accordion and frottoir as distinctive rhythmic colors, but do not let
+    them dominate continuously: chop, filter, loop, pitch-shift, and drop the accordion in and out like
+    a sampled hook.
+
+
+    Loose male storyteller vocal with dry humor, conversational phrasing, and lively group call-and-response.
+    Verses should feel crowded and increasingly ridiculous; choruses become an infectious repeated “Right
+    until further notice” hook. Alternate organic dance-hall bursts with sparse electronic sections, abrupt
+    drops, bass-heavy breakdowns, and fragmented accordion samples. Playful, sweaty, strange, modern,
+    and slightly chaotic—not traditional zydeco with electronic drums added.'
+generation:
+  authoredPrompt: 'Modern UK garage / 2-step fused with zydeco. Fast, slippery, danceable groove with
+    shuffled electronic drums, deep sub-bass, syncopated percussion, chopped vocal samples, synth stabs,
+    and spacious club production. Use Louisiana accordion and frottoir as distinctive rhythmic colors,
+    but do not let them dominate continuously: chop, filter, loop, pitch-shift, and drop the accordion
+    in and out like a sampled hook.
+
+
+    Loose male storyteller vocal with dry humor, conversational phrasing, and lively group call-and-response.
+    Verses should feel crowded and increasingly ridiculous; choruses become an infectious repeated “Right
+    until further notice” hook. Alternate organic dance-hall bursts with sparse electronic sections, abrupt
+    drops, bass-heavy breakdowns, and fragmented accordion samples. Playful, sweaty, strange, modern,
+    and slightly chaotic—not traditional zydeco with electronic drums added.'
+  authoredPromptSource: suno-playlist
+  authoredPromptRetrievedAt: '2026-09-26'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and style prompt ingested from the Suno playlist snapshot
+    without rewriting existing song entries.
