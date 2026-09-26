@@ -22,8 +22,20 @@ relatedBooks:
 - after-certainty
 recordings:
 - platform: suno
-  externalId: 40a8ef63-7951-46d3-b53d-fc4682f6d993
+  externalId: 8a4ef33f-49d0-480d-b555-755539ebf4ed
   primary: true
+  recordingTitle: The Moon Is Probably Fine
+  createdAt: '2026-09-26T04:59:23.777Z'
+  durationSeconds: 209.6
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: agentic_thinking
+  isRemix: true
+  styleTags: psychedelic indie rock, experimental, radio edit with concise pacing, punchy live-kit groove and warm fuzz bass, chiming electric guitars with warped organ and Mellotron choir accents, intimate conversational lead vocal, clear verse-to-chorus lift, short instrumental turnaround, bridge builds then resolves into an anthemic final chorus, tape-saturated but radio-clear mix
+  remixInstruction: Let’s make a radio edit version that’s between three and four minutes
+- platform: suno
+  externalId: 40a8ef63-7951-46d3-b53d-fc4682f6d993
+  primary: false
   recordingTitle: The Moon Is Probably Fine (Remastered)
   createdAt: '2026-09-06T15:02:58.024Z'
   durationSeconds: 403.96
@@ -33,6 +45,8 @@ recordings:
   isRemix: true
   styleTags: psychedelic indie rock, experimental
   editedClipId: 00000000-0000-0000-0000-000000000000
+  lineageNote: Historical playlist recording superseded by the 2026-09-26 primary clip.
+  supersededBy: 8a4ef33f-49d0-480d-b555-755539ebf4ed
 - platform: suno
   externalId: 0893f815-4e2e-4100-b162-5ce03b096786
   primary: false
