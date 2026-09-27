@@ -41,16 +41,32 @@ test.describe("Listen mobile persistent player", () => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/listen", { waitUntil: "domcontentloaded" });
 
+    // ListenLibrary is a client island; SSR can show an enabled Next control
+    // before onClick is wired, so a single early click is a silent no-op.
+    const player = page.locator("[data-listen-player]");
+    await expect(player).toBeVisible({ timeout: 15_000 });
+
     const iframe = page.locator('iframe[title$="— Suno player"]');
     await expect(iframe).toHaveCount(1);
     const initialSrc = await iframe.first().getAttribute("src");
+    expect(initialSrc).toBeTruthy();
+
+    const nowPlaying = page.locator("#listen-now-playing-heading");
+    const initialTitle = (await nowPlaying.textContent())?.trim() ?? "";
+    expect(initialTitle.length).toBeGreaterThan(0);
 
     const next = page.getByRole("button", { name: "Next song" });
     await expect(next).toBeEnabled();
-    await next.click();
+
+    await expect(async () => {
+      if ((await iframe.first().getAttribute("src")) !== initialSrc) return;
+      await next.click();
+      expect(await iframe.first().getAttribute("src")).not.toBe(initialSrc);
+    }).toPass({ timeout: 15_000 });
 
     await expect(iframe).toHaveCount(1);
-    await expect.poll(async () => iframe.first().getAttribute("src")).not.toBe(initialSrc);
+    await expect(nowPlaying).not.toHaveText(initialTitle);
+    await expect(page).toHaveURL(/\?song=/);
   });
 
   test("sticky player stays below header and does not cover footer nav @ 390", async ({ page }) => {
