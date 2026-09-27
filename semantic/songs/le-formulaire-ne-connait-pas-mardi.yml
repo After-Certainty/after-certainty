@@ -1,0 +1,75 @@
+slug: le-formulaire-ne-connait-pas-mardi
+title: Le Formulaire Ne Connaît Pas Mardi
+shortDescription: 'French retro-futurist art-pop: cheerful bureaucracy meets a door that sticks—Mardi
+  is not a valid value on the form.'
+longDescription: Breezy synths and deadpan French vocals satirize categories that run cleanly while missing
+  the decisive detail. The form knows the building, the priority, the phone number—and not Tuesday. Bureaucracy
+  and compression name the machinery; residue is what Autre cannot hold. The Case That Does Not Fit and
+  How Serious Systems Learn map reconsideration when the ignored detail becomes decisive. Patterns reality-answers-back
+  and revisability-preserves-judgment match a stuck door that will not become a dropdown.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/le-formulaire-ne-connait-pas-mardi.md
+lyricLanguages:
+- fr
+relatedConcepts:
+- bureaucracy
+- compression
+- residue
+- judgment
+- correction
+relatedPatterns:
+- reality-answers-back
+- revisability-preserves-judgment
+- finality-compensates-for-uncertainty
+relatedBooks:
+- the-case-that-does-not-fit
+- how-serious-systems-learn
+- the-discipline-of-uncertainty
+recordings:
+- platform: suno
+  externalId: 57193c69-c1c5-4b00-8cc3-19983e19105c
+  primary: true
+  recordingTitle: Le Formulaire Ne Connaît Pas Mardi
+  createdAt: '2026-09-26T04:34:47.711Z'
+  durationSeconds: 273.6
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: gen
+  isRemix: true
+  styleTags: 'Bright late-1990s retro-futurist art-pop with a warm, sophisticated, slightly melancholic
+    feel. Breezy French female lead vocal: soft, detached, intimate, almost wistful, never theatrical.
+    The music should contrast her mood with colorful, optimistic arrangements: warm analog synths, bubbly
+    electric piano, vintage organ, melodic bass, light crisp drums, vibraphone, soft hand percussion,
+    gentle electronic textures, and playful stereo effects.
+
+
+    Use unusual but beautiful chord changes, looping melodic figures, and layered backing vocals. Keep
+    the groove relaxed, poppy, and subtly funky rather than motorik or rock-driven. Bureaucratic spoken
+    phrases like “Erreur,” “Autre,” and “Veuillez recommencer” should appear as charming deadpan interruptions.
+
+
+    Elegant, dreamy, ironic, whimsical, slightly psychedelic, and quietly absurd: melancholy vocals floating
+    over bright music while the administrative system becomes increasingly ridiculous.'
+generation:
+  authoredPrompt: 'Bright late-1990s retro-futurist art-pop with a warm, sophisticated, slightly melancholic
+    feel. Breezy French female lead vocal: soft, detached, intimate, almost wistful, never theatrical.
+    The music should contrast her mood with colorful, optimistic arrangements: warm analog synths, bubbly
+    electric piano, vintage organ, melodic bass, light crisp drums, vibraphone, soft hand percussion,
+    gentle electronic textures, and playful stereo effects.
+
+
+    Use unusual but beautiful chord changes, looping melodic figures, and layered backing vocals. Keep
+    the groove relaxed, poppy, and subtly funky rather than motorik or rock-driven. Bureaucratic spoken
+    phrases like “Erreur,” “Autre,” and “Veuillez recommencer” should appear as charming deadpan interruptions.
+
+
+    Elegant, dreamy, ironic, whimsical, slightly psychedelic, and quietly absurd: melancholy vocals floating
+    over bright music while the administrative system becomes increasingly ridiculous.'
+  authoredPromptSource: suno-playlist
+  authoredPromptRetrievedAt: '2026-09-26'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and style prompt ingested from the Suno playlist snapshot
+    without rewriting existing song entries.
