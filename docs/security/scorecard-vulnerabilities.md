@@ -10,7 +10,7 @@ stay the source of truth for what the **website** installs.
 | --- | --- | --- |
 | OpenSSF Scorecard **Vulnerabilities** | Distinct OSV/GHSA IDs present in scanned lockfiles | **37** advisory IDs (Scorecard check score 0) |
 | `npm audit --prefix tools/vercel-cli` | npm’s aggregated vulnerability graph nodes | **29** nodes (1 critical / 15 high / 12 moderate / 1 low) — includes parent `@vercel/*` packages that only inherit child advisories |
-| `npm audit --audit-level=high` (repo root) | Website workspace lock only | **0** high+ |
+| `npm audit --audit-level=high` (repo root) | Website workspace lock only | **0** blocking high+ (see temporary `braces` allowlist below) |
 
 The 37 Scorecard IDs are listed under [Remaining Scorecard advisories](#remaining-scorecard-advisories-37).
 npm’s 29 is a different aggregation and must not be treated as “37 fixed” or “37 open” in audit tooling.
@@ -26,7 +26,7 @@ npm’s 29 is a different aggregation and must not be treated as “37 fixed” 
 
 | Surface | Path | Verified |
 | --- | --- | --- |
-| Website runtime / Site CI quality gate | Root `package-lock.json` (workspaces `apps/*`, `packages/*`) | `npm audit --audit-level=high` → 0 high+ (re-run on each triage). Does **not** include `tools/vercel-cli`. |
+| Website runtime / Site CI quality gate | Root `package-lock.json` (workspaces `apps/*`, `packages/*`) | `scripts/ci_npm_audit.sh` → 0 blocking high+ (re-run on each triage). Does **not** include `tools/vercel-cli`. |
 | Vercel CLI (CI deploy tooling + Cloud Agents) | `tools/vercel-cli/{package.json,package-lock.json}` | Isolated; not an npm workspace. Used for `vercel whoami` / `pull` / `build` / `deploy --prebuilt` in [`.github/workflows/site-ci.yml`](../../.github/workflows/site-ci.yml). |
 
 This document does **not** claim the website is free of all transitive risk beyond what root `npm audit --audit-level=high` reports.
@@ -157,8 +157,16 @@ GHSA-vxpw-j846-p89q
 
 Expect Scorecard Vulnerabilities to stay **0** until Vercel publishes CLI builds that unpin patched versions.
 
+## Temporary Site CI allowlist (unpatched upstream)
+
+| GHSA | Package | Why allowed | Revisit |
+| --- | --- | --- | --- |
+| `GHSA-vfj7-8cjw-p6xm` (`CVE-2026-93687`) | `braces` `<=3.0.3` | No patched npm release yet (`first_patched_version` null; latest still `3.0.3`). Transitive via `eslint-config-next` → `fast-glob` → `micromatch` (dev/lint tooling only). | When `braces@>=3.0.4` (or other fixed release) is on npm — remove from `scripts/ci_npm_audit.sh` and re-run root audit. Upstream: [micromatch/braces#70](https://github.com/micromatch/braces/issues/70). |
+
+Root `brace-expansion` is forced to **`5.0.12`** via `package.json` `overrides` (clears `GHSA-q2hr-2g5m-vwhr` / `GHSA-qhr7-859c-m2p7` / `GHSA-6j4f-fj2g-mc7p`).
+
 ## Native audits
 
-- Root / Site CI: `npm audit --audit-level=high` (workspace lock) — merge gate.
-- Python CI: `pip-audit` (locked).
+- Root / Site CI: `bash scripts/ci_npm_audit.sh` (`npm audit --audit-level=high` + allowlist above) — merge gate.
+- Python CI: `pip-audit` (locked). Floor pins: `urllib3>=2.8.0`, `virtualenv>=21.7.13` (also in `uv` `override-dependencies`).
 - `tools/vercel-cli`: not a blocking `npm audit` gate (would fail on the upstream graph above).
