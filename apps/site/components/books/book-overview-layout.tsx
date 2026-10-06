@@ -36,7 +36,14 @@ import type { ContinueReadingCatalog } from "@/lib/reading/continueReading";
 import { buildBookPageJsonLd } from "@/lib/seo/json-ld";
 import type { QuestionDefinition } from "@/types/questions";
 import type { WhatsNewEvent } from "@/lib/whats-new/schema";
-import type { Book, GlossaryConcept, ManifestSong, Pattern, Source, Thinker } from "@/types/semanticGraph";
+import type {
+  Book,
+  GlossaryConcept,
+  ManifestSong,
+  Pattern,
+  Source,
+  Thinker,
+} from "@/types/semanticGraph";
 
 export type BookOverviewRelatedInventory = {
   concepts: GlossaryConcept[];
@@ -614,15 +621,36 @@ export function BookOverviewLayout({
               map.
             </p>
             <div className="mt-10 flex flex-col gap-14">
-              <RelatedContentGrid heading="Major concepts" concepts={inventory.concepts} />
-              <RelatedContentGrid heading="Major patterns" patterns={inventory.patterns} />
-              <RelatedContentGrid heading="Related songs" songs={inventory.songs ?? []} />
+              <RelatedContentGrid
+                fromType="book"
+                heading="Major concepts"
+                concepts={inventory.concepts}
+              />
+              <RelatedContentGrid
+                fromType="book"
+                heading="Major patterns"
+                patterns={inventory.patterns}
+              />
+              <RelatedContentGrid
+                fromType="book"
+                heading="Related songs"
+                songs={inventory.songs ?? []}
+              />
               {inventory.useLegacyThinkersSection ? (
-                <RelatedContentGrid heading="Major thinkers" sources={inventory.researchSources} />
+                <RelatedContentGrid
+                  fromType="book"
+                  heading="Major thinkers"
+                  sources={inventory.researchSources}
+                />
               ) : (
                 <>
-                  <RelatedContentGrid heading="Major thinkers" thinkers={inventory.thinkers} />
                   <RelatedContentGrid
+                    fromType="book"
+                    heading="Major thinkers"
+                    thinkers={inventory.thinkers}
+                  />
+                  <RelatedContentGrid
+                    fromType="book"
                     heading="Research sources"
                     sources={inventory.researchSources}
                   />

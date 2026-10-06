@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
 
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import {
@@ -65,7 +66,9 @@ export function PersistentSunoPlayer({
           {song.title}
         </h2>
         {song.versionTitle ? (
-          <p className="text-[11px] uppercase tracking-[0.2em] text-muted/80">{song.versionTitle}</p>
+          <p className="text-[11px] uppercase tracking-[0.2em] text-muted/80">
+            {song.versionTitle}
+          </p>
         ) : null}
       </div>
 
@@ -92,7 +95,10 @@ export function PersistentSunoPlayer({
         </button>
       </div>
 
-      <div className="flex flex-col items-start gap-1.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4">
+      <CorpusNavigationRegion
+        fromType="listen"
+        className="flex flex-col items-start gap-1.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-4"
+      >
         <Link href={aboutHref} className={explorePrimaryButtonClass}>
           About this song →
         </Link>
@@ -112,7 +118,7 @@ export function PersistentSunoPlayer({
             Listen on Suno ↗
           </TrackedLink>
         ) : null}
-      </div>
+      </CorpusNavigationRegion>
     </section>
   );
 }

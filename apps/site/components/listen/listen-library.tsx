@@ -1,14 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import { trackVercelIntent } from "@/lib/analytics/vercel-intent";
 import { usePathname, useSearchParams } from "next/navigation";
 import { useCallback, useId, useMemo, useState } from "react";
 
 import { exploreSecondaryButtonClass } from "@/components/explore/explore-action-buttons";
-import {
-  ListenSongCard,
-  type ListenSongCardProps,
-} from "@/components/listen/listen-song-card";
+import { ListenSongCard, type ListenSongCardProps } from "@/components/listen/listen-song-card";
 import { PersistentSunoPlayer } from "@/components/listen/persistent-suno-player";
 import { explorePaths } from "@/lib/graph/explorePaths";
 
@@ -23,16 +21,10 @@ type ListenLibraryProps = {
 function matchesQuery(item: ListenLibraryItem, query: string): boolean {
   const q = query.trim().toLowerCase();
   if (!q) return true;
-  return (
-    item.title.toLowerCase().includes(q) ||
-    item.shortDescription.toLowerCase().includes(q)
-  );
+  return item.title.toLowerCase().includes(q) || item.shortDescription.toLowerCase().includes(q);
 }
 
-function resolveInitialSlug(
-  items: readonly ListenLibraryItem[],
-  preferred?: string,
-): string {
+function resolveInitialSlug(items: readonly ListenLibraryItem[], preferred?: string): string {
   if (items.length === 0) return "";
   if (preferred && items.some((item) => item.slug === preferred)) {
     return preferred;
@@ -87,12 +79,18 @@ export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
   );
 
   const selectSong = useCallback(
-    (slug: string) => {
+    (slug: string, method: "row" | "previous" | "next") => {
       if (!items.some((item) => item.slug === slug)) return;
       setCurrentSlug(slug);
       syncSongParam(slug);
+      if (slug !== activeSlug) {
+        trackVercelIntent({
+          name: "listen_item_selected",
+          properties: { location: "listen_library", method },
+        });
+      }
     },
-    [items, syncSongParam],
+    [items, activeSlug, syncSongParam],
   );
 
   const currentIndex = useMemo(
@@ -103,18 +101,13 @@ export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
   const hasPrevious = currentIndex > 0;
   const hasNext = currentIndex >= 0 && currentIndex < items.length - 1;
 
-  const filtered = useMemo(
-    () => items.filter((item) => matchesQuery(item, query)),
-    [items, query],
-  );
+  const filtered = useMemo(() => items.filter((item) => matchesQuery(item, query)), [items, query]);
 
   const trimmed = query.trim();
   const empty = filtered.length === 0;
 
   if (!currentItem) {
-    return (
-      <p className="text-muted">No playable songs are published in the manifest yet.</p>
-    );
+    return <p className="text-muted">No playable songs are published in the manifest yet.</p>;
   }
 
   const player = (
@@ -129,11 +122,11 @@ export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
       hasNext={hasNext}
       onPrevious={() => {
         if (!hasPrevious) return;
-        selectSong(items[currentIndex - 1]!.slug);
+        selectSong(items[currentIndex - 1]!.slug, "previous");
       }}
       onNext={() => {
         if (!hasNext) return;
-        selectSong(items[currentIndex + 1]!.slug);
+        selectSong(items[currentIndex + 1]!.slug, "next");
       }}
     />
   );
@@ -187,7 +180,7 @@ export function ListenLibrary({ items, initialSongSlug }: ListenLibraryProps) {
               <ListenSongCard
                 {...item}
                 selected={item.slug === activeSlug}
-                onSelect={() => selectSong(item.slug)}
+                onSelect={() => selectSong(item.slug, "row")}
               />
             </div>
           ))}

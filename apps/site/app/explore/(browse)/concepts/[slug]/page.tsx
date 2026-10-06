@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
-import { ExploreEnrichmentSections, hasSemanticEnrichment } from "@/components/explore/explore-enrichment-sections";
+import {
+  ExploreEnrichmentSections,
+  hasSemanticEnrichment,
+} from "@/components/explore/explore-enrichment-sections";
 import { ExploreEntityDetailActions } from "@/components/explore/explore-entity-detail-actions";
 import { ExploreAdjacentNav } from "@/components/explore/explore-adjacent-nav";
 import { GraphNeighborhoodCards } from "@/components/explore/graph-neighborhood-cards";
@@ -22,7 +25,10 @@ import {
 import { publicChaptersForConcept } from "@/lib/graph/query/chapter-associations";
 import { explorePaths } from "@/lib/graph/explorePaths";
 import { buildGraphIndex } from "@/lib/graph/graph";
-import { getAdjacentSourcesFromRelationships, getConceptBySlug } from "@/lib/graph/query/graphQueries";
+import {
+  getAdjacentSourcesFromRelationships,
+  getConceptBySlug,
+} from "@/lib/graph/query/graphQueries";
 import { getConnectedGraphNeighborhood } from "@/lib/graph/query/graphTraversal";
 import { relatedContentForConcept } from "@/lib/graph/query/relatedContent";
 import { getExploreSemanticGraph } from "@/lib/explore/exploreSemanticGraph";
@@ -33,7 +39,10 @@ import {
   relatedBookUrls,
   relatedPatternUrls,
 } from "@/lib/seo/json-ld";
-import { getConceptFullDefinition, getConceptDisplayDefinition } from "@/lib/graph/presentation/conceptFormatting";
+import {
+  getConceptFullDefinition,
+  getConceptDisplayDefinition,
+} from "@/lib/graph/presentation/conceptFormatting";
 import { buildPublicGroundingViewModel } from "@/lib/graph/query/grounding";
 import { SemanticGroundingDisclosure } from "@/components/explore/semantic-grounding-disclosure";
 import { EntityIntroDisclosure } from "@/components/explore/entity-intro-disclosure";
@@ -129,10 +138,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
     fullDefinition,
     getConceptDisplayDefinition(concept),
   );
-  const useDefinitionDisclosure = shouldUseEntityIntroDisclosure(
-    fullDefinition,
-    definitionTeaser,
-  );
+  const useDefinitionDisclosure = shouldUseEntityIntroDisclosure(fullDefinition, definitionTeaser);
 
   return (
     <article>
@@ -195,7 +201,7 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
           atmosphere="transition"
           className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
-          <RelatedChaptersSection chapters={relatedChapters} />
+          <RelatedChaptersSection fromType="concept" chapters={relatedChapters} />
         </Section>
       ) : null}
 
@@ -206,22 +212,26 @@ export default async function ExploreConceptDetailPage({ params }: PageProps) {
         >
           <div className="flex flex-col gap-8 md:gap-14">
             <RelatedContentGrid
+              fromType="concept"
               heading="Related concepts"
               concepts={related.concepts}
               collapsible
             />
             <RelatedContentGrid
+              fromType="concept"
               heading="Related patterns"
               patterns={related.patterns}
               collapsible
             />
-            <RelatedBooksSection books={related.books} collapsible />
+            <RelatedBooksSection fromType="concept" books={related.books} collapsible />
             <RelatedContentGrid
+              fromType="concept"
               heading="Related songs"
               songs={related.songs}
               collapsible
             />
             <RelatedContentGrid
+              fromType="concept"
               heading="Thinkers & sources"
               thinkers={related.thinkers}
               sources={mergedSources}

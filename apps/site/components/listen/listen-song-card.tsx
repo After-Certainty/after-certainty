@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
 
 import { exploreSecondaryButtonClass } from "@/components/explore/explore-action-buttons";
 import { LinkifiedText } from "@/components/ui/linkified-text";
@@ -61,7 +62,10 @@ export function ListenSongCard({
           ) : null}
         </div>
 
-        <div className="order-2 flex flex-col items-start gap-1.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 lg:contents">
+        <CorpusNavigationRegion
+          fromType="listen"
+          className="order-2 flex flex-col items-start gap-1.5 sm:flex-row sm:flex-wrap sm:items-center sm:gap-3 lg:contents"
+        >
           <button
             type="button"
             className={`${exploreSecondaryButtonClass} shrink-0 lg:order-1`}
@@ -79,7 +83,7 @@ export function ListenSongCard({
             <span className="lg:hidden">About this song →</span>
             <span className="hidden lg:inline">About →</span>
           </Link>
-        </div>
+        </CorpusNavigationRegion>
       </div>
     </article>
   );

@@ -1,3 +1,5 @@
+import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
+import type { CorpusType } from "@/lib/analytics/vercel-intent";
 import type {
   Book,
   GlossaryConcept,
@@ -15,6 +17,7 @@ import { SourceCard } from "@/components/explore/source-card";
 import { ThinkerCard } from "@/components/explore/thinker-card";
 
 type RelatedContentGridProps = {
+  fromType?: CorpusType;
   heading?: string;
   concepts?: GlossaryConcept[];
   patterns?: Pattern[];
@@ -57,12 +60,7 @@ function relatedGridCountLabel(parts: {
 
   if (phrases.length === 1) return phrases[0];
   const total =
-    parts.concepts +
-    parts.patterns +
-    parts.books +
-    parts.sources +
-    parts.thinkers +
-    parts.songs;
+    parts.concepts + parts.patterns + parts.books + parts.sources + parts.thinkers + parts.songs;
   return countPhrase(total, "related", "related");
 }
 
@@ -75,6 +73,7 @@ function disclosureIdFromHeading(heading: string): string {
 }
 
 export function RelatedContentGrid({
+  fromType,
   heading,
   concepts = [],
   patterns = [],
@@ -97,7 +96,10 @@ export function RelatedContentGrid({
 
   const cardLayout = collapsible ? "compact" : "responsive";
   const grid = (
-    <div className="grid min-w-0 gap-3 sm:grid-cols-2 sm:gap-5 xl:grid-cols-3">
+    <CorpusNavigationRegion
+      fromType={fromType}
+      className="grid min-w-0 gap-3 sm:grid-cols-2 sm:gap-5 xl:grid-cols-3"
+    >
       {concepts.map((c) => (
         <ConceptCard key={c.id} concept={c} layout={cardLayout} />
       ))}
@@ -116,7 +118,7 @@ export function RelatedContentGrid({
       {thinkers.map((thinker) => (
         <ThinkerCard key={thinker.id} thinker={thinker} layout={cardLayout} />
       ))}
-    </div>
+    </CorpusNavigationRegion>
   );
 
   const countLabel = relatedGridCountLabel({

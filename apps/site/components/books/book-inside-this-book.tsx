@@ -1,3 +1,4 @@
+import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
 import Link from "next/link";
 
 import type { BookStructureViewModel } from "@/lib/books/book-chapter-view-model";
@@ -20,7 +21,7 @@ export function BookInsideThisBook({ structure }: BookInsideThisBookProps) {
   const longBook = structure.chapters.length > 24 || structure.parts.length > 4;
 
   return (
-    <div className="space-y-8">
+    <CorpusNavigationRegion fromType="book" relation="read" className="space-y-8">
       {structure.totalEstimatedMinutes ? (
         <p className="text-sm text-muted">
           About {formatMinutes(structure.totalEstimatedMinutes)} of reading across{" "}
@@ -118,6 +119,6 @@ export function BookInsideThisBook({ structure }: BookInsideThisBookProps) {
           );
         })}
       </div>
-    </div>
+    </CorpusNavigationRegion>
   );
 }

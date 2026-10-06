@@ -2,6 +2,9 @@ import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
+const trackMock = vi.hoisted(() => vi.fn());
+vi.mock("@vercel/analytics", () => ({ track: trackMock }));
+
 let mockParams = new URLSearchParams();
 const replaceState = vi.fn();
 
@@ -46,7 +49,39 @@ const items = [
 ];
 
 describe("ListenLibrary", () => {
+  it("tracks deliberate selections with bounded metadata, not initial selection or search", async () => {
+    const user = userEvent.setup();
+    render(<ListenLibrary items={items} initialSongSlug={items[1].slug} />);
+    expect(trackMock).not.toHaveBeenCalled();
+    await user.click(screen.getByRole("button", { name: `${items[1].title}, now playing` }));
+    expect(trackMock).not.toHaveBeenCalled();
+    await user.type(screen.getByRole("searchbox", { name: /search songs/i }), "Truth");
+    expect(trackMock).not.toHaveBeenCalled();
+    await user.click(screen.getByRole("button", { name: "Play The Truth Got a Side Door" }));
+    await user.click(screen.getByRole("button", { name: "Next song" }));
+    await user.click(screen.getByRole("button", { name: "Previous song" }));
+    expect(trackMock.mock.calls).toEqual(
+      ["row", "next", "previous"].map((method) => [
+        "listen_item_selected",
+        { location: "listen_library", method },
+      ]),
+    );
+    expect(screen.getByRole("heading", { level: 2, name: items[0].title })).toBeVisible();
+    expect(screen.getAllByTestId("suno-iframe")).toHaveLength(1);
+  });
+
+  it("still changes the song when analytics fails", async () => {
+    trackMock.mockImplementation(() => {
+      throw new Error("Offline analytics");
+    });
+    render(<ListenLibrary items={items} />);
+    await userEvent.click(screen.getByRole("button", { name: "Next song" }));
+    expect(screen.getByRole("heading", { level: 2, name: items[1].title })).toBeVisible();
+    expect(replaceState).toHaveBeenCalled();
+  });
+
   beforeEach(() => {
+    trackMock.mockReset();
     replaceState.mockReset();
     mockParams = new URLSearchParams();
     vi.stubGlobal("history", {
@@ -73,21 +108,22 @@ describe("ListenLibrary", () => {
     expect(
       screen.getByRole("heading", { level: 3, name: "Don't Let the Score Fool You" }),
     ).toBeInTheDocument();
-    expect(screen.getByRole("heading", { level: 3, name: "After Nothing Happens" })).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { level: 3, name: "After Nothing Happens" }),
+    ).toBeInTheDocument();
 
     const iframes = screen.getAllByTestId("suno-iframe");
     expect(iframes).toHaveLength(1);
-    expect(iframes[0]).toHaveAttribute(
-      "data-external-id",
-      "84c5ec6d-da90-4213-a114-27a4bd1fa556",
-    );
+    expect(iframes[0]).toHaveAttribute("data-external-id", "84c5ec6d-da90-4213-a114-27a4bd1fa556");
   });
 
   it("starts on the first playlist song and disables Previous", () => {
     render(<ListenLibrary items={items} />);
 
     const player = screen.getByTestId("suno-iframe").closest("[data-listen-player]")!;
-    expect(within(player as HTMLElement).getByRole("button", { name: "Previous song" })).toBeDisabled();
+    expect(
+      within(player as HTMLElement).getByRole("button", { name: "Previous song" }),
+    ).toBeDisabled();
     expect(within(player as HTMLElement).getByRole("button", { name: "Next song" })).toBeEnabled();
   });
 
@@ -99,10 +135,7 @@ describe("ListenLibrary", () => {
 
     const iframes = screen.getAllByTestId("suno-iframe");
     expect(iframes).toHaveLength(1);
-    expect(iframes[0]).toHaveAttribute(
-      "data-external-id",
-      "fdf8353b-6440-4f2d-a2cf-515a8418cb45",
-    );
+    expect(iframes[0]).toHaveAttribute("data-external-id", "fdf8353b-6440-4f2d-a2cf-515a8418cb45");
     expect(
       screen.getByRole("button", { name: "Don't Let the Score Fool You, now playing" }),
     ).toHaveAttribute("aria-pressed", "true");
@@ -150,14 +183,12 @@ describe("ListenLibrary", () => {
     expect(within(player as HTMLElement).getByText("Shorter Version")).toBeInTheDocument();
     expect(screen.queryByText("After Nothing Happens (Shorter Version)")).not.toBeInTheDocument();
 
-    expect(within(player as HTMLElement).getByRole("link", { name: /about this song/i })).toHaveAttribute(
-      "href",
-      "/explore/songs/after-nothing-happens",
-    );
-    expect(within(player as HTMLElement).getByRole("link", { name: /listen on suno/i })).toHaveAttribute(
-      "href",
-      "https://suno.com/song/82ca255e-4a41-4a3f-9392-0cc46287f7ba",
-    );
+    expect(
+      within(player as HTMLElement).getByRole("link", { name: /about this song/i }),
+    ).toHaveAttribute("href", "/explore/songs/after-nothing-happens");
+    expect(
+      within(player as HTMLElement).getByRole("link", { name: /listen on suno/i }),
+    ).toHaveAttribute("href", "https://suno.com/song/82ca255e-4a41-4a3f-9392-0cc46287f7ba");
   });
 
   it("search filters the list without clearing the current player", async () => {
@@ -169,7 +200,9 @@ describe("ListenLibrary", () => {
     expect(
       screen.queryByRole("heading", { name: "The Truth Got a Side Door", level: 3 }),
     ).not.toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "After Nothing Happens", level: 3 })).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { name: "After Nothing Happens", level: 3 }),
+    ).toBeInTheDocument();
 
     expect(screen.getByTestId("suno-iframe")).toHaveAttribute(
       "data-external-id",
@@ -201,9 +234,7 @@ describe("ListenLibrary", () => {
     expect(explore).toHaveAttribute("href", "/explore/songs");
 
     const search = screen.getByRole("searchbox", { name: /search songs/i });
-    expect(
-      explore.compareDocumentPosition(search) & Node.DOCUMENT_POSITION_FOLLOWING,
-    ).toBeTruthy();
+    expect(explore.compareDocumentPosition(search) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();
   });
 
   it("announces empty search results without clearing the player", async () => {

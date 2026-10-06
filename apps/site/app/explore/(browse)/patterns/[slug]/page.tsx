@@ -34,7 +34,10 @@ import { createPageMetadata } from "@/lib/metadata";
 import { buildPatternPageJsonLd, relatedConceptUrls } from "@/lib/seo/json-ld";
 import { buildPublicGroundingViewModel } from "@/lib/graph/query/grounding";
 import { SemanticGroundingDisclosure } from "@/components/explore/semantic-grounding-disclosure";
-import { ExploreEnrichmentSections, hasSemanticEnrichment } from "@/components/explore/explore-enrichment-sections";
+import {
+  ExploreEnrichmentSections,
+  hasSemanticEnrichment,
+} from "@/components/explore/explore-enrichment-sections";
 import { PatternLanguageContext } from "@/components/explore/pattern-language-context";
 
 type PageProps = { params: Promise<{ slug: string }> };
@@ -67,8 +70,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
     pattern.slug,
   );
 
-  const hasRelated =
-    related.concepts.length + related.books.length + related.songs.length > 0;
+  const hasRelated = related.concepts.length + related.books.length + related.songs.length > 0;
   const hasRelationships = entityHasSemanticRelationships(index, pattern.id);
   const grounding = buildPublicGroundingViewModel(pattern.grounding, graph);
   const teaser = patternDetailTeaser(pattern);
@@ -135,7 +137,7 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           atmosphere="transition"
           className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
-          <RelatedChaptersSection chapters={relatedChapters} />
+          <RelatedChaptersSection fromType="pattern" chapters={relatedChapters} />
         </Section>
       ) : null}
 
@@ -145,9 +147,9 @@ export default async function ExplorePatternDetailPage({ params }: PageProps) {
           className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
           <div className="flex flex-col gap-8 md:gap-14">
-            <RelatedConceptsSection concepts={related.concepts} />
-            <RelatedBooksSection books={related.books} />
-            <RelatedContentGrid heading="Related songs" songs={related.songs} />
+            <RelatedConceptsSection fromType="pattern" concepts={related.concepts} />
+            <RelatedBooksSection fromType="pattern" books={related.books} />
+            <RelatedContentGrid fromType="pattern" heading="Related songs" songs={related.songs} />
           </div>
         </Section>
       ) : null}

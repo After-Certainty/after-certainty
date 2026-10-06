@@ -1,3 +1,5 @@
+import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
+import type { CorpusType } from "@/lib/analytics/vercel-intent";
 import Link from "next/link";
 
 import type { RelatedChapterLink } from "@/lib/graph/query/chapter-associations";
@@ -5,6 +7,7 @@ import type { RelatedChapterLink } from "@/lib/graph/query/chapter-associations"
 const DEFAULT_LIMIT = 8;
 
 type RelatedChaptersSectionProps = {
+  fromType?: CorpusType;
   heading?: string;
   chapters: RelatedChapterLink[];
   /** Cap listed rows; remaining count is announced when truncated. */
@@ -16,6 +19,7 @@ type RelatedChaptersSectionProps = {
  * Renders nothing when there are no associations.
  */
 export function RelatedChaptersSection({
+  fromType,
   heading = "Appears in chapters",
   chapters,
   limit = DEFAULT_LIMIT,
@@ -26,7 +30,12 @@ export function RelatedChaptersSection({
   const remaining = chapters.length - visible.length;
 
   return (
-    <section aria-label={heading} className="space-y-4">
+    <CorpusNavigationRegion
+      as="section"
+      fromType={fromType}
+      aria-label={heading}
+      className="space-y-4"
+    >
       <h2 className="font-display text-2xl font-medium tracking-tight text-fg md:text-3xl">
         {heading}
       </h2>
@@ -56,6 +65,6 @@ export function RelatedChaptersSection({
           And {remaining} more chapter{remaining === 1 ? "" : "s"} with this association.
         </p>
       ) : null}
-    </section>
+    </CorpusNavigationRegion>
   );
 }

@@ -65,11 +65,11 @@ Install the real local manifest with `npm run corpus:build-manifest` followed by
 
 Keeping libraries and CI Actions current (configured at the **monorepo root**, not under `apps/site/.github/`):
 
-| Mechanism                                | What it does                                                                                                                                                                                                    |
-| ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Mechanism                                | What it does                                                                                                                                                                                                                                    |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Dependabot version updates**           | Weekly PRs for npm and GitHub Actions (see [`.github/dependabot.yml`](../../.github/dependabot.yml)). Minor/patch bumps are grouped; majors stay separate. TypeScript major upgrades are ignored until the ESLint/Next toolchain supports them. |
-| **Dependabot alerts & security updates** | Enable under GitHub → **Settings → Code security** (Dependabot alerts + Dependabot security updates). Security PRs are not controlled by `dependabot.yml`.                                                      |
-| **CI `npm audit`**                       | Site CI fails the build on high+ severity advisories ([`.github/workflows/site-ci.yml`](../../.github/workflows/site-ci.yml)).                                                                                  |
+| **Dependabot alerts & security updates** | Enable under GitHub → **Settings → Code security** (Dependabot alerts + Dependabot security updates). Security PRs are not controlled by `dependabot.yml`.                                                                                      |
+| **CI `npm audit`**                       | Site CI fails the build on high+ severity advisories ([`.github/workflows/site-ci.yml`](../../.github/workflows/site-ci.yml)).                                                                                                                  |
 
 After merging the Dependabot config, confirm those Code security toggles are on so alerts and automatic security-fix PRs work.
 
@@ -113,6 +113,22 @@ curl -sS -X POST "https://www.after-certainty.com/api/cache/revalidate" \
   -H "Content-Type: application/json" \
   -d '{"targets":["podcast"]}'
 ```
+
+## Vercel intent events
+
+The root layout already mounts `Analytics` from `@vercel/analytics/next`. Custom events use `track` from `@vercel/analytics` through the small typed `lib/analytics/vercel-intent.ts` helper. Existing GA4 instrumentation is separate and unchanged; its event payloads are not forwarded to Vercel.
+
+Analytics events should represent meaningful user intent or navigation transitions rather than every available click.
+
+| Event                  | When it fires                                                                                                                                          | Fixed metadata                                                                                                                                                                     | Question                                                                                             |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `corpus_navigation`    | Activation in curated related grids/books/chapter associations; source creator chips; book read actions and chapter contents; Listen song-detail links | `from_type`, `to_type`: `source`, `thinker`, `concept`, `pattern`, `situation`, `book`, `chapter`, `song`, `question`, `trail`, `listen`; `relation`: `related`, `creator`, `read` | After a deep arrival, does the visitor move into another meaningful corpus surface or begin reading? |
+| `listen_item_selected` | A playable song is deliberately selected via a row or Previous/Next on `/listen`                                                                       | `location: "listen_library"`; `method`: `row`, `previous`, `next`                                                                                                                  | Does a Listen visitor choose content beyond the default item?                                        |
+| `listen_started`       | Native chapter audio emits `playing`, once per chapter source in a mounted player                                                                      | `location: "chapter_reader"`; `media_type: "chapter_audio"`                                                                                                                        | Does a reader actually start audio?                                                                  |
+
+Navigation URLs are inspected locally only to classify supported destinations; URLs, slugs/IDs, titles, form text, and search queries are never included in these custom payloads. No new visitor identifiers or storage are added. Analytics exceptions cannot block navigation, song selection, or audio controls. Ordinary menus, breadcrumbs, catalog browsing, disclosure toggles, downloads/outbound links, and player play/pause/seek noise are intentionally excluded. Pageviews already cover page arrivals, so there are no additional book-open or other page-equivalent events.
+
+Suno's cross-origin iframe exposes no reliable playback-start signal to this app: `/listen` selection is **not** reported as `listen_started`. The latter measures native chapter narration only. Events follow the existing unconditional Vercel integration independently of GA4 consent. Use Vercel's page/referrer context with these aggregate transition categories; this is intentionally not a complete, identified clickstream or a guaranteed reconstruction of an individual visitor's journey.
 
 ## Design notes
 
