@@ -1,22 +1,99 @@
+# How Trust Forms — chapter enrichment (audio).
+# Full-book narration: all exported units audio-enabled
+# (~19547 Flash credits @ 0.25/char; Starter budget wave with When Trust Stops Tracking Reality).
 version: 1
 chapters:
-  - sourcePath: parts/part-1-the-architecture-of-trust/chapter-2-beliefs-become-visible.md
-    summary: >
-      Before trust can be warranted, beliefs become visible through ordinary consistency — returned
-      tools, kept patterns, small repairs — so others can infer without needing full explanation.
-    centralQuestion: How do we learn what others believe before trust is fully formed?
-    selectedConcepts:
-      - trust
-      - formation
-      - provisional-commitment
-      - feedback
-    selectedPatterns:
-      - meaning-forms-early
-      - contact-keeps-the-read-open
-    searchAliases:
-      - beliefs become visible
-      - trust begins with seeing
-    situations:
-      - meaning-forms-before-anyone-checks-it
-    readingTransition: >
-      From visible beliefs into outcomes that create evidence — the next step of the trust cycle.
+- sourcePath: front-matter/introduction-how-trust-forms.md
+  kind: introduction
+  audio:
+    enabled: true
+    max_credits: 1000
+- sourcePath: parts/part-1-the-architecture-of-trust/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 500
+- sourcePath: parts/part-1-the-architecture-of-trust/chapter-1-the-first-leap.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1600
+- sourcePath: parts/part-1-the-architecture-of-trust/chapter-2-beliefs-become-visible.md
+  kind: chapter
+  summary: >
+    Before trust can be warranted, beliefs become visible through ordinary consistency — returned tools,
+    kept patterns, small repairs — so others can infer without needing full explanation.
+  centralQuestion: How do we learn what others believe before trust is fully formed?
+  selectedConcepts:
+  - trust
+  - formation
+  - provisional-commitment
+  - feedback
+  selectedPatterns:
+  - meaning-forms-early
+  - contact-keeps-the-read-open
+  searchAliases:
+  - beliefs become visible
+  - trust begins with seeing
+  situations:
+  - meaning-forms-before-anyone-checks-it
+  readingTransition: >
+    From visible beliefs into outcomes that create evidence — the next step of the trust cycle.
+  audio:
+    enabled: true
+    max_credits: 2100
+- sourcePath: parts/part-1-the-architecture-of-trust/chapter-3-outcomes-create-evidence.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1800
+- sourcePath: parts/part-2-the-trust-cycle/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 500
+- sourcePath: parts/part-2-the-trust-cycle/chapter-4-trust-enables-participation.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2200
+- sourcePath: parts/part-2-the-trust-cycle/chapter-5-participation-changes-beliefs.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2700
+- sourcePath: parts/part-2-the-trust-cycle/chapter-6-trust-at-scale.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 3300
+- sourcePath: parts/part-3-what-trust-makes-possible/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 600
+- sourcePath: parts/part-3-what-trust-makes-possible/chapter-7-trust-and-leadership.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2300
+- sourcePath: parts/part-3-what-trust-makes-possible/chapter-8-trust-and-meaning.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2200
+- sourcePath: parts/part-3-what-trust-makes-possible/chapter-9-why-trust-matters.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 2200
+- sourcePath: back-matter/conclusion-the-next-neighbor.md
+  kind: conclusion
+  audio:
+    enabled: true
+    max_credits: 1200
+- sourcePath: back-matter/appendix-core-principles.md
+  kind: appendix
+  audio:
+    enabled: true
+    max_credits: 700

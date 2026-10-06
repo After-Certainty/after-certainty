@@ -1,24 +1,101 @@
+# When Trust Stops Tracking Reality — chapter enrichment (audio).
+# Full-book narration: all exported units audio-enabled
+# (~11695 Flash credits @ 0.25/char; Starter budget wave with How Trust Forms).
 version: 1
 chapters:
-  - sourcePath: parts/part-2-the-first-cracks/chapter-4-warnings-become-easier-to-ignore.md
-    summary: >
-      Warning signs arrive as fragments against a success story — complaints, misfires, small shifts —
-      that trust files as exceptions while patience and dismissal still look alike.
-    centralQuestion: Why do warning signs become harder to see when trust has been earned?
-    selectedConcepts:
-      - trust
-      - drift
-      - feedback
-      - momentum
-      - correction
-    selectedPatterns:
-      - scrutiny-preserves-trust
-      - learning-collapses
-      - admiration-becomes-insulation
-    searchAliases:
-      - warnings become easier to ignore
-      - weak signals against success
-    situations:
-      - feedback-stops-changing-decisions
-    readingTransition: >
-      From ignored fragments into participation that stops updating beliefs — the next crack in the cycle.
+- sourcePath: front-matter/introduction-when-trust-stops-tracking-reality.md
+  kind: introduction
+  audio:
+    enabled: true
+    max_credits: 1300
+- sourcePath: parts/part-1-why-trust-exists/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 400
+- sourcePath: parts/part-1-why-trust-exists/chapter-1-trust-creates-shortcuts.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 800
+- sourcePath: parts/part-1-why-trust-exists/chapter-2-success-creates-momentum.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1100
+- sourcePath: parts/part-1-why-trust-exists/chapter-3-trust-becomes-identity.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1300
+- sourcePath: parts/part-2-the-first-cracks/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 500
+- sourcePath: parts/part-2-the-first-cracks/chapter-4-warnings-become-easier-to-ignore.md
+  kind: chapter
+  summary: >
+    Warning signs arrive as fragments against a success story — complaints, misfires, small shifts — that
+    trust files as exceptions while patience and dismissal still look alike.
+  centralQuestion: Why do warning signs become harder to see when trust has been earned?
+  selectedConcepts:
+  - trust
+  - drift
+  - feedback
+  - momentum
+  - correction
+  selectedPatterns:
+  - scrutiny-preserves-trust
+  - learning-collapses
+  - admiration-becomes-insulation
+  searchAliases:
+  - warnings become easier to ignore
+  - weak signals against success
+  situations:
+  - feedback-stops-changing-decisions
+  readingTransition: >
+    From ignored fragments into participation that stops updating beliefs — the next crack in the cycle.
+  audio:
+    enabled: true
+    max_credits: 1000
+- sourcePath: parts/part-2-the-first-cracks/chapter-5-participation-stops-updating-beliefs.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1100
+- sourcePath: parts/part-2-the-first-cracks/chapter-6-trust-scales-beyond-evidence.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1000
+- sourcePath: parts/part-3-preservation/bridge.md
+  kind: bridge
+  audio:
+    enabled: true
+    max_credits: 400
+- sourcePath: parts/part-3-preservation/chapter-7-trust-protects-authority.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1000
+- sourcePath: parts/part-3-preservation/chapter-8-trust-shapes-interpretation.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1200
+- sourcePath: parts/part-3-preservation/chapter-9-why-trust-needs-revision.md
+  kind: chapter
+  audio:
+    enabled: true
+    max_credits: 1700
+- sourcePath: back-matter/conclusion-the-founder-and-the-mission.md
+  kind: conclusion
+  audio:
+    enabled: true
+    max_credits: 1400
+- sourcePath: back-matter/appendix-core-principles.md
+  kind: appendix
+  audio:
+    enabled: true
+    max_credits: 1400
