@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-3-preservation-chapter-8-trust-shapes-interpretation",
+  "generationHash": "sha256:e011a104b890a7878b89dc7d5f27156f5109be938097b3cad1f3c71fe57287e8",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Trust Shapes Interpretation",
+      "startMs": 0.0,
+      "endMs": 1788.0,
+      "charStart": 0,
+      "charEnd": 27
+    },
+    {
+      "id": "s0002",
+      "text": "> How does trust influence what we notice?",
+      "startMs": 1962.0,
+      "endMs": 5283.0,
+      "charStart": 29,
+      "charEnd": 71
+    },
+    {
+      "id": "s0003",
+      "text": "One afternoon, Walter and Olivia attended the same meeting.",
+      "startMs": 6096.0,
+      "endMs": 9741.0,
+      "charStart": 73,
+      "charEnd": 132
+    },
+    {
+      "id": "s0004",
+      "text": "Several clinics had reported variations in how patient concerns were being handled.",
+      "startMs": 9892.0,
+      "endMs": 14837.0,
+      "charStart": 133,
+      "charEnd": 216
+    },
+    {
+      "id": "s0005",
+      "text": "None of the differences were severe.",
+      "startMs": 14988.0,
+      "endMs": 16742.0,
+      "charStart": 217,
+      "charEnd": 253
+    },
+    {
+      "id": "s0006",
+      "text": "None suggested a crisis.",
+      "startMs": 16858.0,
+      "endMs": 18518.0,
+      "charStart": 254,
+      "charEnd": 278
+    },
+    {
+      "id": "s0007",
+      "text": "Yet the inconsistencies resembled patterns Walter had been noticing for years.",
+      "startMs": 18564.0,
+      "endMs": 23173.0,
+      "charStart": 279,
+      "charEnd": 357
+    },
+    {
+      "id": "s0008",
+      "text": "When the meeting ended, Walter left more concerned.",
+      "startMs": 23556.0,
+      "endMs": 26668.0,
+      "charStart": 359,
+      "charEnd": 410
+    },
+    {
+      "id": "s0009",
+      "text": "Olivia left reassured—and unsettled by how easily reassurance had arrived.",
+      "startMs": 27109.0,
+      "endMs": 32124.0,
+      "charStart": 411,
+      "charEnd": 485
+    },
+    {
+      "id": "s0010",
+      "text": "They had reviewed the same reports, heard the same explanations, and observed the same discussion—yet they seemed to have experienced different meetings.",
+      "startMs": 32635.0,
+      "endMs": 41087.0,
+      "charStart": 487,
+      "charEnd": 640
+    },
+    {
+      "id": "s0011",
+      "text": "People often imagine disagreement begins when individuals reach different conclusions.",
+      "startMs": 41470.0,
+      "endMs": 46405.0,
+      "charStart": 642,
+      "charEnd": 728
+    },
+    {
+      "id": "s0012",
+      "text": "It begins much earlier—with attention.",
+      "startMs": 46521.0,
+      "endMs": 48994.0,
+      "charStart": 729,
+      "charEnd": 767
+    },
+    {
+      "id": "s0013",
+      "text": "Walter focused on the growing number of exceptions.",
+      "startMs": 49691.0,
+      "endMs": 52570.0,
+      "charStart": 769,
+      "charEnd": 820
+    },
+    {
+      "id": "s0014",
+      "text": "Olivia focused on employees actively discussing solutions.",
+      "startMs": 52953.0,
+      "endMs": 56796.0,
+      "charStart": 821,
+      "charEnd": 879
+    },
+    {
+      "id": "s0015",
+      "text": "Neither invented evidence.",
+      "startMs": 57121.0,
+      "endMs": 58770.0,
+      "charStart": 880,
+      "charEnd": 906
+    },
+    {
+      "id": "s0016",
+      "text": "Neither acted in bad faith.",
+      "startMs": 59048.0,
+      "endMs": 60929.0,
+      "charStart": 907,
+      "charEnd": 934
+    },
+    {
+      "id": "s0017",
+      "text": "They noticed different things.",
+      "startMs": 61138.0,
+      "endMs": 62868.0,
+      "charStart": 935,
+      "charEnd": 965
+    },
+    {
+      "id": "s0018",
+      "text": "Trust influences what people notice before it influences what they believe—shaping which details feel important, which explanations plausible, which concerns significant.",
+      "startMs": 63112.0,
+      "endMs": 74234.0,
+      "charStart": 967,
+      "charEnd": 1137
+    },
+    {
+      "id": "s0019",
+      "text": "People rarely experience themselves as filtering reality; they experience themselves as observing it.",
+      "startMs": 74838.0,
+      "endMs": 81165.0,
+      "charStart": 1138,
+      "charEnd": 1239
+    },
+    {
+      "id": "s0020",
+      "text": "Yet every act of attention involves selection, and trust often shapes that selection.",
+      "startMs": 81606.0,
+      "endMs": 87016.0,
+      "charStart": 1240,
+      "charEnd": 1325
+    },
+    {
+      "id": "s0021",
+      "text": "When people trust an institution, they notice evidence that reinforces confidence in it.",
+      "startMs": 87527.0,
+      "endMs": 92728.0,
+      "charStart": 1327,
+      "charEnd": 1415
+    },
+    {
+      "id": "s0022",
+      "text": "When they distrust it, they notice evidence that reinforces skepticism.",
+      "startMs": 93111.0,
+      "endMs": 97604.0,
+      "charStart": 1416,
+      "charEnd": 1487
+    },
+    {
+      "id": "s0023",
+      "text": "Neither response requires dishonesty.",
+      "startMs": 97987.0,
+      "endMs": 100298.0,
+      "charStart": 1488,
+      "charEnd": 1525
+    },
+    {
+      "id": "s0024",
+      "text": "Both emerge from ordinary cognition.",
+      "startMs": 100681.0,
+      "endMs": 103061.0,
+      "charStart": 1526,
+      "charEnd": 1562
+    },
+    {
+      "id": "s0025",
+      "text": "Organizational theorist Karl Weick argued that people make sense of ambiguous situations through narratives they already hold.",
+      "startMs": 103757.0,
+      "endMs": 111153.0,
+      "charStart": 1564,
+      "charEnd": 1690
+    },
+    {
+      "id": "s0026",
+      "text": "Trust determines which story feels most available when the evidence remains incomplete.",
+      "startMs": 111594.0,
+      "endMs": 116958.0,
+      "charStart": 1691,
+      "charEnd": 1778
+    },
+    {
+      "id": "s0027",
+      "text": "Philosopher Miranda Fricker has shown that credibility is not distributed equally.",
+      "startMs": 117283.0,
+      "endMs": 122612.0,
+      "charStart": 1780,
+      "charEnd": 1862
+    },
+    {
+      "id": "s0028",
+      "text": "Some voices struggle to be heard not because they lack evidence, but because existing trust shapes who is taken seriously when warning signs first appear.",
+      "startMs": 122995.0,
+      "endMs": 131865.0,
+      "charStart": 1863,
+      "charEnd": 2017
+    },
+    {
+      "id": "s0029",
+      "text": "The same dynamic appears at larger scale.",
+      "startMs": 132306.0,
+      "endMs": 134837.0,
+      "charStart": 2019,
+      "charEnd": 2060
+    },
+    {
+      "id": "s0030",
+      "text": "During the COVID-19 pandemic, many people reviewed the same events yet focused on different signals, experts, and risks—disagreeing long before they reached final conclusions.",
+      "startMs": 135441.0,
+      "endMs": 146273.0,
+      "charStart": 2061,
+      "charEnd": 2236
+    },
+    {
+      "id": "s0031",
+      "text": "Conspiracy movements often follow a similar path.",
+      "startMs": 146551.0,
+      "endMs": 149663.0,
+      "charStart": 2237,
+      "charEnd": 2286
+    },
+    {
+      "id": "s0032",
+      "text": "Participants gradually learn to notice different evidence, different authorities, and different patterns worth attending to.",
+      "startMs": 149988.0,
+      "endMs": 156641.0,
+      "charStart": 2287,
+      "charEnd": 2411
+    },
+    {
+      "id": "s0033",
+      "text": "At Calder, Walter's concerns no longer felt isolated, and Olivia could see that.",
+      "startMs": 157082.0,
+      "endMs": 162423.0,
+      "charStart": 2413,
+      "charEnd": 2493
+    },
+    {
+      "id": "s0034",
+      "text": "The stories she had inherited no longer explained everything she observed.",
+      "startMs": 162934.0,
+      "endMs": 166997.0,
+      "charStart": 2494,
+      "charEnd": 2568
+    },
+    {
+      "id": "s0035",
+      "text": "Yet she wanted Walter to be wrong—not because the evidence clearly supported that hope, but because accepting his reading would mean the trust she had built her career on, and the belonging that came with it, had been misplaced.",
+      "startMs": 167508.0,
+      "endMs": 180255.0,
+      "charStart": 2569,
+      "charEnd": 2797
+    },
+    {
+      "id": "s0036",
+      "text": "She had recommended Calder to friends.",
+      "startMs": 180859.0,
+      "endMs": 182949.0,
+      "charStart": 2798,
+      "charEnd": 2836
+    },
+    {
+      "id": "s0037",
+      "text": "She had defended it in conversations.",
+      "startMs": 183065.0,
+      "endMs": 185329.0,
+      "charStart": 2837,
+      "charEnd": 2874
+    },
+    {
+      "id": "s0038",
+      "text": "Doubt did not feel neutral.",
+      "startMs": 185608.0,
+      "endMs": 187303.0,
+      "charStart": 2875,
+      "charEnd": 2902
+    },
+    {
+      "id": "s0039",
+      "text": "It felt like losing part of herself.",
+      "startMs": 187349.0,
+      "endMs": 189636.0,
+      "charStart": 2903,
+      "charEnd": 2939
+    },
+    {
+      "id": "s0040",
+      "text": "Olivia was no longer asking whether Calder should be trusted.",
+      "startMs": 190019.0,
+      "endMs": 193363.0,
+      "charStart": 2941,
+      "charEnd": 3002
+    },
+    {
+      "id": "s0041",
+      "text": "She was asking how trust should function—whether it should protect institutions from criticism, make criticism more careful, or make criticism more meaningful.",
+      "startMs": 193641.0,
+      "endMs": 203893.0,
+      "charStart": 3003,
+      "charEnd": 3162
+    },
+    {
+      "id": "s0042",
+      "text": "Walter and Olivia continued observing the same events, yet they still noticed different things.",
+      "startMs": 204334.0,
+      "endMs": 210360.0,
+      "charStart": 3164,
+      "charEnd": 3259
+    },
+    {
+      "id": "s0043",
+      "text": "The disagreement was no longer about evidence alone.",
+      "startMs": 210964.0,
+      "endMs": 214133.0,
+      "charStart": 3260,
+      "charEnd": 3312
+    },
+    {
+      "id": "s0044",
+      "text": "It was about what each had learned to see.",
+      "startMs": 214458.0,
+      "endMs": 216978.0,
+      "charStart": 3313,
+      "charEnd": 3355
+    },
+    {
+      "id": "s0045",
+      "text": "That is often where institutional conflicts become most difficult.",
+      "startMs": 217674.0,
+      "endMs": 221679.0,
+      "charStart": 3357,
+      "charEnd": 3423
+    },
+    {
+      "id": "s0046",
+      "text": "People are arguing about attention—about what deserves to be noticed in the first place.",
+      "startMs": 222283.0,
+      "endMs": 228262.0,
+      "charStart": 3424,
+      "charEnd": 3512
+    },
+    {
+      "id": "s0047",
+      "text": "Core Principle",
+      "startMs": 228866.0,
+      "endMs": 229980.0,
+      "charStart": 3514,
+      "charEnd": 3528
+    },
+    {
+      "id": "s0048",
+      "text": "Trust Influences What We Notice",
+      "startMs": 230155.0,
+      "endMs": 232732.0,
+      "charStart": 3530,
+      "charEnd": 3561
+    },
+    {
+      "id": "s0049",
+      "text": "Trust shapes attention before it shapes conclusions.",
+      "startMs": 233336.0,
+      "endMs": 236935.0,
+      "charStart": 3563,
+      "charEnd": 3615
+    }
+  ]
+}

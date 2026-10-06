@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-back-matter-conclusion-the-next-neighbor",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "back-matter-conclusion-the-next-neighbor",
+  "sourcePath": "back-matter/conclusion-the-next-neighbor.md",
+  "sourceHash": "sha256:ef66a1317ce77a01f32a0875d0e01e39f44b3f81e62e1be9e63456f84248828d",
+  "spokenTextHash": "sha256:5cdb842870b5b90a049794174dea53e91d35de835ee9c8670bf62a6a409ee98a",
+  "generationHash": "sha256:bd19a1b41b713dbf52231f69a42fd8bd05ad4ca412d216159b4343de8ab8c09b",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3693,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 923.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 923.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/back-matter-conclusion-the-next-neighbor.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/back-matter-conclusion-the-next-neighbor.mp3",
+  "audioSha256": "sha256:0967e1e18497b6179d032ce7511789d433297a29fbdfc17e2c97b8a0876e91dc",
+  "generatedAt": "2026-10-06T01:41:28Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-3-what-trust-makes-possible-bridge",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-3-what-trust-makes-possible-bridge",
+  "sourcePath": "parts/part-3-what-trust-makes-possible/bridge.md",
+  "sourceHash": "sha256:a85ee872a3f5769f92a34f938b0d2a1ea394c8b8451e0e01d05bd881d2915b89",
+  "spokenTextHash": "sha256:fdd9eb1a12023f2dbc157176b00eb866ec81fea3a42a5c3cd00ed7413c40fb8a",
+  "generationHash": "sha256:47bf344d508aee5be91199f613804c0689e49e595afe80d2ac0b292c8119e13d",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1787,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 446.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 446.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-3-what-trust-makes-possible-bridge.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-3-what-trust-makes-possible-bridge.mp3",
+  "audioSha256": "sha256:a89246d3e95b0f628955875af93e9873657e13b2fd862235e745cdf905974b94",
+  "generatedAt": "2026-10-06T01:40:41Z"
+}

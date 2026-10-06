@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity",
+  "sourcePath": "parts/part-1-why-trust-exists/chapter-3-trust-becomes-identity.md",
+  "sourceHash": "sha256:fb71144cbe1da63830de70256f2fda70747f2edb2502de32ef6298ef9928035e",
+  "spokenTextHash": "sha256:194d211197cb8b78d18c9874fbdc9088baac7a747d639eb1abfee3fbf4fc5c00",
+  "generationHash": "sha256:04dfefa4b80d23b28044b933e0b1454d9820bcbeb6af11b6a5c4d16494d767ae",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3912,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 978.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 978.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-1-why-trust-exists-chapter-3-trust-becomes-identity.mp3",
+  "audioSha256": "sha256:16a01deca6aba2106a350f9e56254b21cca7c9e4c3559ee156a5f9511ce6029f",
+  "generatedAt": "2026-10-06T01:42:09Z"
+}

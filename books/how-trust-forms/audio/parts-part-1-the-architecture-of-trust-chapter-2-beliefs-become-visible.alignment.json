@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-1-the-architecture-of-trust-chapter-2-beliefs-become-visible",
+  "generationHash": "sha256:fc4c06961d395115e3750c6658aa405d8af0837349f1fe2faac25d2594543919",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Beliefs Become Visible",
+      "startMs": 0.0,
+      "endMs": 1938.0,
+      "charStart": 0,
+      "charEnd": 22
+    },
+    {
+      "id": "s0002",
+      "text": "> How do we learn what others believe?",
+      "startMs": 2031.0,
+      "endMs": 5305.0,
+      "charStart": 24,
+      "charEnd": 62
+    },
+    {
+      "id": "s0003",
+      "text": "Before people can trust one another, they need some way to make beliefs visible.",
+      "startMs": 6002.0,
+      "endMs": 10402.0,
+      "charStart": 64,
+      "charEnd": 144
+    },
+    {
+      "id": "s0004",
+      "text": "This chapter is about that first step—not judgment, not cooperation, not yet whether trust was warranted.",
+      "startMs": 10843.0,
+      "endMs": 18436.0,
+      "charStart": 145,
+      "charEnd": 250
+    },
+    {
+      "id": "s0005",
+      "text": "Just seeing.",
+      "startMs": 18819.0,
+      "endMs": 19666.0,
+      "charStart": 251,
+      "charEnd": 263
+    },
+    {
+      "id": "s0006",
+      "text": "A few weeks later, the neighbors were no longer entirely unknown—not because anyone had sat down and explained their values, not because long conversations had taken place.",
+      "startMs": 20479.0,
+      "endMs": 30998.0,
+      "charStart": 265,
+      "charEnd": 437
+    },
+    {
+      "id": "s0007",
+      "text": "Most of what the street knew about them had been learned indirectly.",
+      "startMs": 31381.0,
+      "endMs": 34632.0,
+      "charStart": 438,
+      "charEnd": 506
+    },
+    {
+      "id": "s0008",
+      "text": "The father returned borrowed tools when he said he would—usually.",
+      "startMs": 34875.0,
+      "endMs": 38811.0,
+      "charStart": 508,
+      "charEnd": 573
+    },
+    {
+      "id": "s0009",
+      "text": "Once, a hedge trimmer stayed in his garage two days longer than promised.",
+      "startMs": 39136.0,
+      "endMs": 43235.0,
+      "charStart": 574,
+      "charEnd": 647
+    },
+    {
+      "id": "s0010",
+      "text": "When he brought it back, he apologized without being asked and explained that a work trip had run long.",
+      "startMs": 43409.0,
+      "endMs": 48505.0,
+      "charStart": 648,
+      "charEnd": 751
+    },
+    {
+      "id": "s0011",
+      "text": "The neighbor who lent it had been mildly annoyed; the apology did not erase the inconvenience, but it gave the street something to work with.",
+      "startMs": 48831.0,
+      "endMs": 56087.0,
+      "charStart": 752,
+      "charEnd": 893
+    },
+    {
+      "id": "s0012",
+      "text": "The apology helped, but the lender still found himself hesitating the next time someone asked to borrow a tool.",
+      "startMs": 56470.0,
+      "endMs": 62449.0,
+      "charStart": 894,
+      "charEnd": 1005
+    },
+    {
+      "id": "s0013",
+      "text": "A kept promise teaches one thing.",
+      "startMs": 63053.0,
+      "endMs": 65282.0,
+      "charStart": 1006,
+      "charEnd": 1039
+    },
+    {
+      "id": "s0014",
+      "text": "A late return followed by explanation teaches another—and repair takes longer than the apology itself.",
+      "startMs": 65665.0,
+      "endMs": 71992.0,
+      "charStart": 1040,
+      "charEnd": 1142
+    },
+    {
+      "id": "s0015",
+      "text": "The children waved when they rode their bikes past the driveway.",
+      "startMs": 72944.0,
+      "endMs": 76381.0,
+      "charStart": 1144,
+      "charEnd": 1208
+    },
+    {
+      "id": "s0016",
+      "text": "Packages rarely sat unattended for long.",
+      "startMs": 76764.0,
+      "endMs": 79272.0,
+      "charStart": 1209,
+      "charEnd": 1249
+    },
+    {
+      "id": "s0017",
+      "text": "Trash cans disappeared from the curb before most people woke up.",
+      "startMs": 79597.0,
+      "endMs": 83207.0,
+      "charStart": 1250,
+      "charEnd": 1314
+    },
+    {
+      "id": "s0018",
+      "text": "During a windstorm, a fallen branch was quietly moved from the sidewalk before anyone asked.",
+      "startMs": 83591.0,
+      "endMs": 88757.0,
+      "charStart": 1315,
+      "charEnd": 1407
+    },
+    {
+      "id": "s0019",
+      "text": "None of these actions seemed important by themselves.",
+      "startMs": 89198.0,
+      "endMs": 92043.0,
+      "charStart": 1409,
+      "charEnd": 1462
+    },
+    {
+      "id": "s0020",
+      "text": "Taken together, they began forming an impression.",
+      "startMs": 92646.0,
+      "endMs": 95572.0,
+      "charStart": 1463,
+      "charEnd": 1512
+    },
+    {
+      "id": "s0021",
+      "text": "People started saying things like: \"They seem thoughtful.\" \"They're dependable.\" \"They take care of things.\" No one was describing a conversation.",
+      "startMs": 95897.0,
+      "endMs": 106033.0,
+      "charStart": 1513,
+      "charEnd": 1659
+    },
+    {
+      "id": "s0022",
+      "text": "They were describing a pattern.",
+      "startMs": 106358.0,
+      "endMs": 107972.0,
+      "charStart": 1660,
+      "charEnd": 1691
+    },
+    {
+      "id": "s0023",
+      "text": "The neighbors had not explained what they believed.",
+      "startMs": 108355.0,
+      "endMs": 110793.0,
+      "charStart": 1693,
+      "charEnd": 1744
+    },
+    {
+      "id": "s0024",
+      "text": "Their actions had begun revealing it.",
+      "startMs": 111037.0,
+      "endMs": 113765.0,
+      "charStart": 1745,
+      "charEnd": 1782
+    },
+    {
+      "id": "s0025",
+      "text": "What Explanation Cannot Carry",
+      "startMs": 114717.0,
+      "endMs": 116993.0,
+      "charStart": 1784,
+      "charEnd": 1813
+    },
+    {
+      "id": "s0026",
+      "text": "Beliefs are often invisible.",
+      "startMs": 117945.0,
+      "endMs": 119756.0,
+      "charStart": 1815,
+      "charEnd": 1843
+    },
+    {
+      "id": "s0027",
+      "text": "People carry convictions, priorities, commitments, loyalties, and values that exist largely inside their own minds, and others cannot access them directly.",
+      "startMs": 119965.0,
+      "endMs": 130704.0,
+      "charStart": 1844,
+      "charEnd": 1999
+    },
+    {
+      "id": "s0028",
+      "text": "This creates a problem: if trust depended entirely on what people claimed to believe, trust would be extremely fragile.",
+      "startMs": 131308.0,
+      "endMs": 139168.0,
+      "charStart": 2000,
+      "charEnd": 2119
+    },
+    {
+      "id": "s0029",
+      "text": "Anyone can make promises.",
+      "startMs": 139551.0,
+      "endMs": 141176.0,
+      "charStart": 2120,
+      "charEnd": 2145
+    },
+    {
+      "id": "s0030",
+      "text": "Anyone can describe their values.",
+      "startMs": 141501.0,
+      "endMs": 143510.0,
+      "charStart": 2146,
+      "charEnd": 2179
+    },
+    {
+      "id": "s0031",
+      "text": "Anyone can explain what kind of person they hope to be.",
+      "startMs": 143719.0,
+      "endMs": 146853.0,
+      "charStart": 2180,
+      "charEnd": 2235
+    },
+    {
+      "id": "s0032",
+      "text": "The difficulty is that beliefs become meaningful to others only when they appear in behavior.",
+      "startMs": 147236.0,
+      "endMs": 152531.0,
+      "charStart": 2237,
+      "charEnd": 2330
+    },
+    {
+      "id": "s0033",
+      "text": "A person who values generosity eventually behaves generously.",
+      "startMs": 152740.0,
+      "endMs": 156826.0,
+      "charStart": 2331,
+      "charEnd": 2392
+    },
+    {
+      "id": "s0034",
+      "text": "A person who values responsibility eventually behaves responsibly.",
+      "startMs": 157000.0,
+      "endMs": 161226.0,
+      "charStart": 2393,
+      "charEnd": 2459
+    },
+    {
+      "id": "s0035",
+      "text": "A person who values honesty eventually behaves honestly.",
+      "startMs": 161505.0,
+      "endMs": 165290.0,
+      "charStart": 2460,
+      "charEnd": 2516
+    },
+    {
+      "id": "s0036",
+      "text": "The relationship is not perfect—human beings are inconsistent, circumstances change, people fail their own standards every day.",
+      "startMs": 165615.0,
+      "endMs": 173649.0,
+      "charStart": 2517,
+      "charEnd": 2644
+    },
+    {
+      "id": "s0037",
+      "text": "Even so, actions remain one of the primary ways beliefs become visible.",
+      "startMs": 173974.0,
+      "endMs": 178653.0,
+      "charStart": 2645,
+      "charEnd": 2716
+    },
+    {
+      "id": "s0038",
+      "text": "Erving Goffman observed that much of social life involves presentation.",
+      "startMs": 179036.0,
+      "endMs": 183471.0,
+      "charStart": 2718,
+      "charEnd": 2789
+    },
+    {
+      "id": "s0039",
+      "text": "People constantly communicate information about themselves through behavior, often without realizing it.",
+      "startMs": 183796.0,
+      "endMs": 189613.0,
+      "charStart": 2790,
+      "charEnd": 2894
+    },
+    {
+      "id": "s0040",
+      "text": "Others interpret those signals and form impressions.",
+      "startMs": 189996.0,
+      "endMs": 193142.0,
+      "charStart": 2895,
+      "charEnd": 2947
+    },
+    {
+      "id": "s0041",
+      "text": "This chapter stops there: what people are doing, and what those actions allow others to infer.",
+      "startMs": 193584.0,
+      "endMs": 199180.0,
+      "charStart": 2948,
+      "charEnd": 3042
+    },
+    {
+      "id": "s0042",
+      "text": "Whether the inference is fair, or whether it should be acted upon, belongs to later chapters.",
+      "startMs": 199690.0,
+      "endMs": 205136.0,
+      "charStart": 3043,
+      "charEnd": 3136
+    },
+    {
+      "id": "s0043",
+      "text": "Ordinary Consistency",
+      "startMs": 206436.0,
+      "endMs": 208061.0,
+      "charStart": 3138,
+      "charEnd": 3158
+    },
+    {
+      "id": "s0044",
+      "text": "Once people begin watching, observation becomes unavoidable.",
+      "startMs": 209362.0,
+      "endMs": 213181.0,
+      "charStart": 3160,
+      "charEnd": 3220
+    },
+    {
+      "id": "s0045",
+      "text": "Every action sends a signal—not necessarily everything, but something.",
+      "startMs": 213785.0,
+      "endMs": 218092.0,
+      "charStart": 3221,
+      "charEnd": 3291
+    },
+    {
+      "id": "s0046",
+      "text": "A returned tool sends one signal; a late return sends another.",
+      "startMs": 218603.0,
+      "endMs": 222423.0,
+      "charStart": 3292,
+      "charEnd": 3354
+    },
+    {
+      "id": "s0047",
+      "text": "A favor offered freely sends one signal; a favor offered only when convenient sends another.",
+      "startMs": 222702.0,
+      "endMs": 228622.0,
+      "charStart": 3355,
+      "charEnd": 3447
+    },
+    {
+      "id": "s0048",
+      "text": "The signals are rarely dramatic.",
+      "startMs": 229575.0,
+      "endMs": 231444.0,
+      "charStart": 3449,
+      "charEnd": 3481
+    },
+    {
+      "id": "s0049",
+      "text": "Most impressions accumulate through repetition rather than revelation.",
+      "startMs": 232047.0,
+      "endMs": 235983.0,
+      "charStart": 3482,
+      "charEnd": 3552
+    },
+    {
+      "id": "s0050",
+      "text": "A single promise matters less than a pattern of promises kept.",
+      "startMs": 236680.0,
+      "endMs": 240221.0,
+      "charStart": 3553,
+      "charEnd": 3615
+    },
+    {
+      "id": "s0051",
+      "text": "A single mistake matters less than a pattern of reliability.",
+      "startMs": 240825.0,
+      "endMs": 244192.0,
+      "charStart": 3616,
+      "charEnd": 3676
+    },
+    {
+      "id": "s0052",
+      "text": "People often imagine character being revealed through major events.",
+      "startMs": 245005.0,
+      "endMs": 248731.0,
+      "charStart": 3678,
+      "charEnd": 3745
+    },
+    {
+      "id": "s0053",
+      "text": "More often it appears through ordinary consistency—the neighbor who remembers, the coworker who follows through, the friend who arrives when they said they would.",
+      "startMs": 249115.0,
+      "endMs": 258263.0,
+      "charStart": 3746,
+      "charEnd": 3908
+    },
+    {
+      "id": "s0054",
+      "text": "The actions themselves are small.",
+      "startMs": 258960.0,
+      "endMs": 261026.0,
+      "charStart": 3909,
+      "charEnd": 3942
+    },
+    {
+      "id": "s0055",
+      "text": "The pattern they form is not.",
+      "startMs": 261409.0,
+      "endMs": 263267.0,
+      "charStart": 3943,
+      "charEnd": 3972
+    },
+    {
+      "id": "s0056",
+      "text": "Visibility Without Transparency",
+      "startMs": 264219.0,
+      "endMs": 267075.0,
+      "charStart": 3974,
+      "charEnd": 4005
+    },
+    {
+      "id": "s0057",
+      "text": "The same process that makes trust possible can also mislead.",
+      "startMs": 268027.0,
+      "endMs": 272091.0,
+      "charStart": 4007,
+      "charEnd": 4067
+    },
+    {
+      "id": "s0058",
+      "text": "Actions reveal beliefs imperfectly.",
+      "startMs": 272694.0,
+      "endMs": 275167.0,
+      "charStart": 4068,
+      "charEnd": 4103
+    },
+    {
+      "id": "s0059",
+      "text": "People perform, signal, manage impressions.",
+      "startMs": 275492.0,
+      "endMs": 278545.0,
+      "charStart": 4104,
+      "charEnd": 4147
+    },
+    {
+      "id": "s0060",
+      "text": "A person can appear trustworthy while concealing important information.",
+      "startMs": 278870.0,
+      "endMs": 282899.0,
+      "charStart": 4148,
+      "charEnd": 4219
+    },
+    {
+      "id": "s0061",
+      "text": "A carefully maintained image can create confidence that reality does not support.",
+      "startMs": 283282.0,
+      "endMs": 287926.0,
+      "charStart": 4220,
+      "charEnd": 4301
+    },
+    {
+      "id": "s0062",
+      "text": "This creates a different danger.",
+      "startMs": 288309.0,
+      "endMs": 290155.0,
+      "charStart": 4303,
+      "charEnd": 4335
+    },
+    {
+      "id": "s0063",
+      "text": "One risk is trusting too quickly; another is assuming visibility equals transparency.",
+      "startMs": 290666.0,
+      "endMs": 296530.0,
+      "charStart": 4336,
+      "charEnd": 4421
+    },
+    {
+      "id": "s0064",
+      "text": "The actions are real.",
+      "startMs": 296913.0,
+      "endMs": 298167.0,
+      "charStart": 4422,
+      "charEnd": 4443
+    },
+    {
+      "id": "s0065",
+      "text": "The interpretation may not be.",
+      "startMs": 298341.0,
+      "endMs": 300512.0,
+      "charStart": 4444,
+      "charEnd": 4474
+    },
+    {
+      "id": "s0066",
+      "text": "A neighbor who returns every borrowed tool may still be carrying struggles no one can see.",
+      "startMs": 300837.0,
+      "endMs": 305899.0,
+      "charStart": 4476,
+      "charEnd": 4566
+    },
+    {
+      "id": "s0067",
+      "text": "A leader who appears confident may be overwhelmed privately.",
+      "startMs": 306224.0,
+      "endMs": 309811.0,
+      "charStart": 4567,
+      "charEnd": 4627
+    },
+    {
+      "id": "s0068",
+      "text": "A coworker who misses deadlines may be caring for a sick parent at home.",
+      "startMs": 310055.0,
+      "endMs": 314304.0,
+      "charStart": 4628,
+      "charEnd": 4700
+    },
+    {
+      "id": "s0069",
+      "text": "Actions reveal beliefs.",
+      "startMs": 314513.0,
+      "endMs": 316406.0,
+      "charStart": 4701,
+      "charEnd": 4724
+    },
+    {
+      "id": "s0070",
+      "text": "They do not reveal everything.",
+      "startMs": 316615.0,
+      "endMs": 318461.0,
+      "charStart": 4725,
+      "charEnd": 4755
+    },
+    {
+      "id": "s0071",
+      "text": "The temptation is to confuse a visible pattern with a complete understanding of the person.",
+      "startMs": 318670.0,
+      "endMs": 324022.0,
+      "charStart": 4756,
+      "charEnd": 4847
+    },
+    {
+      "id": "s0072",
+      "text": "Human beings are usually more complicated than the signals they send.",
+      "startMs": 324347.0,
+      "endMs": 328456.0,
+      "charStart": 4848,
+      "charEnd": 4917
+    },
+    {
+      "id": "s0073",
+      "text": "Contact Without Complete Knowledge",
+      "startMs": 329269.0,
+      "endMs": 331405.0,
+      "charStart": 4919,
+      "charEnd": 4953
+    },
+    {
+      "id": "s0074",
+      "text": "Recognizing this limitation does not eliminate the importance of behavior.",
+      "startMs": 332218.0,
+      "endMs": 336583.0,
+      "charStart": 4955,
+      "charEnd": 5029
+    },
+    {
+      "id": "s0075",
+      "text": "It clarifies its role.",
+      "startMs": 336758.0,
+      "endMs": 338476.0,
+      "charStart": 5030,
+      "charEnd": 5052
+    },
+    {
+      "id": "s0076",
+      "text": "Seeing does not require complete knowledge.",
+      "startMs": 339080.0,
+      "endMs": 341471.0,
+      "charStart": 5053,
+      "charEnd": 5096
+    },
+    {
+      "id": "s0077",
+      "text": "It requires enough visible consistency for others to begin inferring who someone might be.",
+      "startMs": 341750.0,
+      "endMs": 346858.0,
+      "charStart": 5097,
+      "charEnd": 5187
+    },
+    {
+      "id": "s0078",
+      "text": "The goal is not perfect transparency.",
+      "startMs": 347462.0,
+      "endMs": 349900.0,
+      "charStart": 5188,
+      "charEnd": 5225
+    },
+    {
+      "id": "s0079",
+      "text": "The goal is contact—and behavior creates that contact.",
+      "startMs": 350074.0,
+      "endMs": 353604.0,
+      "charStart": 5226,
+      "charEnd": 5280
+    },
+    {
+      "id": "s0080",
+      "text": "Through action, private convictions become public enough to be seen.",
+      "startMs": 353813.0,
+      "endMs": 358132.0,
+      "charStart": 5281,
+      "charEnd": 5349
+    },
+    {
+      "id": "s0081",
+      "text": "The neighbors remained partly mysterious.",
+      "startMs": 358515.0,
+      "endMs": 360779.0,
+      "charStart": 5351,
+      "charEnd": 5392
+    },
+    {
+      "id": "s0082",
+      "text": "They still had histories no one knew, struggles no one could see, and beliefs no one had fully articulated.",
+      "startMs": 361290.0,
+      "endMs": 367930.0,
+      "charStart": 5393,
+      "charEnd": 5500
+    },
+    {
+      "id": "s0083",
+      "text": "Yet something had changed: their actions had made enough of those beliefs visible that the street could begin to see who they might be.",
+      "startMs": 368534.0,
+      "endMs": 376463.0,
+      "charStart": 5501,
+      "charEnd": 5636
+    },
+    {
+      "id": "s0084",
+      "text": "Core Principle",
+      "startMs": 377415.0,
+      "endMs": 378251.0,
+      "charStart": 5638,
+      "charEnd": 5652
+    },
+    {
+      "id": "s0085",
+      "text": "Actions Reveal Beliefs.",
+      "startMs": 378309.0,
+      "endMs": 380585.0,
+      "charStart": 5654,
+      "charEnd": 5677
+    },
+    {
+      "id": "s0086",
+      "text": "People do not learn what others value primarily through explanation.",
+      "startMs": 381537.0,
+      "endMs": 385600.0,
+      "charStart": 5679,
+      "charEnd": 5747
+    },
+    {
+      "id": "s0087",
+      "text": "They learn through repeated patterns of behavior—through signals that make private convictions visible enough to recognize, respond to, and eventually interpret.",
+      "startMs": 385925.0,
+      "endMs": 395770.0,
+      "charStart": 5748,
+      "charEnd": 5909
+    },
+    {
+      "id": "s0088",
+      "text": "Back to the Street",
+      "startMs": 396583.0,
+      "endMs": 397407.0,
+      "charStart": 5911,
+      "charEnd": 5929
+    },
+    {
+      "id": "s0089",
+      "text": "One Saturday morning, a neighbor mentioned that the new family had helped move furniture into another house down the block.",
+      "startMs": 397477.0,
+      "endMs": 404652.0,
+      "charStart": 5931,
+      "charEnd": 6054
+    },
+    {
+      "id": "s0090",
+      "text": "Someone else nodded.",
+      "startMs": 404977.0,
+      "endMs": 406219.0,
+      "charStart": 6055,
+      "charEnd": 6075
+    },
+    {
+      "id": "s0091",
+      "text": "\"That sounds like them.\"",
+      "startMs": 406823.0,
+      "endMs": 408309.0,
+      "charStart": 6076,
+      "charEnd": 6100
+    },
+    {
+      "id": "s0092",
+      "text": "The comment was interesting because no one had ever discussed what kind of people the family was.",
+      "startMs": 409122.0,
+      "endMs": 413789.0,
+      "charStart": 6102,
+      "charEnd": 6199
+    },
+    {
+      "id": "s0093",
+      "text": "The conclusion had emerged anyway—not from declarations, but from accumulated actions.",
+      "startMs": 414231.0,
+      "endMs": 419606.0,
+      "charStart": 6200,
+      "charEnd": 6286
+    },
+    {
+      "id": "s0094",
+      "text": "The neighbors had never announced their values.",
+      "startMs": 420117.0,
+      "endMs": 422334.0,
+      "charStart": 6287,
+      "charEnd": 6334
+    },
+    {
+      "id": "s0095",
+      "text": "Over time, those values had become visible enough that the street could begin recognizing them.",
+      "startMs": 422717.0,
+      "endMs": 427664.0,
+      "charStart": 6335,
+      "charEnd": 6430
+    }
+  ]
+}

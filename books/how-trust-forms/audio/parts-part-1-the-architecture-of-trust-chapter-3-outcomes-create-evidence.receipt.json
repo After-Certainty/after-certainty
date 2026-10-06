@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence",
+  "sourcePath": "parts/part-1-the-architecture-of-trust/chapter-3-outcomes-create-evidence.md",
+  "sourceHash": "sha256:c77b97aa51e250c5e0d2554bf2721031862fe03056f53aab4aef32ccb0c75631",
+  "spokenTextHash": "sha256:9d389ed116460f86ec873ee39cfea51757b712a118a9fc17fdb1b231c8715d7d",
+  "generationHash": "sha256:be6e36c9c59ee3fd42ad2d65fd917213682220a92a2c44b95cf87e6d31c2600e",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 5660,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1415.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1415.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence.mp3",
+  "audioSha256": "sha256:030e2ec7a3a33dbb4bbff9a44a66c5ec6008e20135b30f36eb3879facc1f9273",
+  "generatedAt": "2026-10-06T01:39:47Z"
+}

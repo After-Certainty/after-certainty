@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-1-why-trust-exists-bridge",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-1-why-trust-exists-bridge",
+  "sourcePath": "parts/part-1-why-trust-exists/bridge.md",
+  "sourceHash": "sha256:03864679ba15bb80363004e10e4bb29ab3a30e197182b96baf79efebba7f17da",
+  "spokenTextHash": "sha256:ab90379470002fc015b89971fa6bc52efd0eec3c9a0abc2260213d041c2cb92c",
+  "generationHash": "sha256:6225b052e71cae6d1c3c7839775e38e33384c43d1454e2148297c8c50ccad332",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 827,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 206.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 206.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-1-why-trust-exists-bridge.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-1-why-trust-exists-bridge.mp3",
+  "audioSha256": "sha256:499f3994ffe59c5d621a2e27fa390b699811d8a617566512f980d03841ad4391",
+  "generatedAt": "2026-10-06T01:41:47Z"
+}

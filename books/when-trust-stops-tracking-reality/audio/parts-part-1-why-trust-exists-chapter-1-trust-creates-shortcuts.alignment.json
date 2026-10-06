@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-1-why-trust-exists-chapter-1-trust-creates-shortcuts",
+  "generationHash": "sha256:2bbabdb42ba5cf46c9f9b8209c292f995afcadc2a34a2bf010a81c849fca7eb5",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Trust Creates Shortcuts",
+      "startMs": 0.0,
+      "endMs": 1776.0,
+      "charStart": 0,
+      "charEnd": 23
+    },
+    {
+      "id": "s0002",
+      "text": "> Why do people stop verifying what they trust?",
+      "startMs": 1950.0,
+      "endMs": 5619.0,
+      "charStart": 25,
+      "charEnd": 72
+    },
+    {
+      "id": "s0003",
+      "text": "Calder Family Health began as a small clinic.",
+      "startMs": 5944.0,
+      "endMs": 8603.0,
+      "charStart": 74,
+      "charEnd": 119
+    },
+    {
+      "id": "s0004",
+      "text": "In the early years, David Marsh made most of the important decisions himself.",
+      "startMs": 8754.0,
+      "endMs": 12771.0,
+      "charStart": 121,
+      "charEnd": 198
+    },
+    {
+      "id": "s0005",
+      "text": "He hired employees, reviewed expansion plans, met with patients, and personally approved every new clinic director.",
+      "startMs": 12922.0,
+      "endMs": 20108.0,
+      "charStart": 199,
+      "charEnd": 314
+    },
+    {
+      "id": "s0006",
+      "text": "The organization remained small enough that people could observe his judgment directly.",
+      "startMs": 20224.0,
+      "endMs": 24648.0,
+      "charStart": 315,
+      "charEnd": 402
+    },
+    {
+      "id": "s0007",
+      "text": "Employees watched him solve problems.",
+      "startMs": 25600.0,
+      "endMs": 27748.0,
+      "charStart": 404,
+      "charEnd": 441
+    },
+    {
+      "id": "s0008",
+      "text": "Patients watched him respond to concerns.",
+      "startMs": 28131.0,
+      "endMs": 30592.0,
+      "charStart": 442,
+      "charEnd": 483
+    },
+    {
+      "id": "s0009",
+      "text": "Families watched the clinic grow.",
+      "startMs": 30975.0,
+      "endMs": 32902.0,
+      "charStart": 484,
+      "charEnd": 517
+    },
+    {
+      "id": "s0010",
+      "text": "Over time, people stopped double-checking every decision—not because they became careless, but because they had accumulated evidence.",
+      "startMs": 33599.0,
+      "endMs": 41703.0,
+      "charStart": 518,
+      "charEnd": 651
+    },
+    {
+      "id": "s0011",
+      "text": "Each successful decision made the next decision easier to trust.",
+      "startMs": 42399.0,
+      "endMs": 46358.0,
+      "charStart": 652,
+      "charEnd": 716
+    },
+    {
+      "id": "s0012",
+      "text": "When a patient received a recommendation from a doctor at Calder, they rarely demanded to review every study behind it.",
+      "startMs": 46799.0,
+      "endMs": 53510.0,
+      "charStart": 718,
+      "charEnd": 837
+    },
+    {
+      "id": "s0013",
+      "text": "When an employee received direction from David, they rarely insisted on independently evaluating every detail before acting.",
+      "startMs": 54021.0,
+      "endMs": 61556.0,
+      "charStart": 838,
+      "charEnd": 962
+    },
+    {
+      "id": "s0014",
+      "text": "Trust reduced verification.",
+      "startMs": 61997.0,
+      "endMs": 64319.0,
+      "charStart": 964,
+      "charEnd": 991
+    },
+    {
+      "id": "s0015",
+      "text": "The reduction was not a failure of reasoning.",
+      "startMs": 64597.0,
+      "endMs": 67244.0,
+      "charStart": 993,
+      "charEnd": 1038
+    },
+    {
+      "id": "s0016",
+      "text": "It was the result of reasoning.",
+      "startMs": 67453.0,
+      "endMs": 69369.0,
+      "charStart": 1039,
+      "charEnd": 1070
+    },
+    {
+      "id": "s0017",
+      "text": "People had observed enough successful outcomes that continued verification no longer seemed necessary.",
+      "startMs": 69973.0,
+      "endMs": 75778.0,
+      "charStart": 1071,
+      "charEnd": 1173
+    },
+    {
+      "id": "s0018",
+      "text": "Trust created a shortcut that saved time, reduced uncertainty, and allowed people to focus attention elsewhere.",
+      "startMs": 76103.0,
+      "endMs": 83707.0,
+      "charStart": 1174,
+      "charEnd": 1285
+    },
+    {
+      "id": "s0019",
+      "text": "The clinic became more effective because people could rely on one another without constantly rechecking every decision.",
+      "startMs": 84149.0,
+      "endMs": 91533.0,
+      "charStart": 1286,
+      "charEnd": 1405
+    },
+    {
+      "id": "s0020",
+      "text": "The same pattern appears throughout everyday life.",
+      "startMs": 92043.0,
+      "endMs": 94934.0,
+      "charStart": 1407,
+      "charEnd": 1457
+    },
+    {
+      "id": "s0021",
+      "text": "People rely on expertise, infrastructure, and institutions they cannot personally evaluate—and human societies would struggle to function any other way.",
+      "startMs": 95259.0,
+      "endMs": 104745.0,
+      "charStart": 1458,
+      "charEnd": 1610
+    },
+    {
+      "id": "s0022",
+      "text": "Verification is expensive.",
+      "startMs": 105186.0,
+      "endMs": 106916.0,
+      "charStart": 1612,
+      "charEnd": 1638
+    },
+    {
+      "id": "s0023",
+      "text": "Time is limited.",
+      "startMs": 107043.0,
+      "endMs": 108204.0,
+      "charStart": 1639,
+      "charEnd": 1655
+    },
+    {
+      "id": "s0024",
+      "text": "Knowledge is distributed.",
+      "startMs": 108483.0,
+      "endMs": 110062.0,
+      "charStart": 1656,
+      "charEnd": 1681
+    },
+    {
+      "id": "s0025",
+      "text": "Every person depends on judgments made by other people—and trust solves that problem.",
+      "startMs": 110341.0,
+      "endMs": 115844.0,
+      "charStart": 1682,
+      "charEnd": 1767
+    },
+    {
+      "id": "s0026",
+      "text": "The sociologist Niklas Luhmann described trust as a way of reducing complexity.",
+      "startMs": 116285.0,
+      "endMs": 121753.0,
+      "charStart": 1769,
+      "charEnd": 1848
+    },
+    {
+      "id": "s0027",
+      "text": "Human beings face more information than they can process, more decisions than they can independently evaluate, and more uncertainty than they can eliminate.",
+      "startMs": 122195.0,
+      "endMs": 131529.0,
+      "charStart": 1849,
+      "charEnd": 2005
+    },
+    {
+      "id": "s0028",
+      "text": "Trust allows people to move forward anyway.",
+      "startMs": 132225.0,
+      "endMs": 134849.0,
+      "charStart": 2006,
+      "charEnd": 2049
+    },
+    {
+      "id": "s0029",
+      "text": "For that reason, the existence of trust is not the mystery.",
+      "startMs": 135360.0,
+      "endMs": 139447.0,
+      "charStart": 2051,
+      "charEnd": 2110
+    },
+    {
+      "id": "s0030",
+      "text": "The real mystery is what happens after trust forms.",
+      "startMs": 139888.0,
+      "endMs": 143278.0,
+      "charStart": 2112,
+      "charEnd": 2163
+    },
+    {
+      "id": "s0031",
+      "text": "Core Principle",
+      "startMs": 144579.0,
+      "endMs": 145519.0,
+      "charStart": 2165,
+      "charEnd": 2179
+    },
+    {
+      "id": "s0032",
+      "text": "Trust Reduces Verification",
+      "startMs": 146332.0,
+      "endMs": 148375.0,
+      "charStart": 2181,
+      "charEnd": 2207
+    },
+    {
+      "id": "s0033",
+      "text": "Trust exists because verification is costly.",
+      "startMs": 149676.0,
+      "endMs": 152648.0,
+      "charStart": 2209,
+      "charEnd": 2253
+    }
+  ]
+}

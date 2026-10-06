@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-front-matter-introduction-when-trust-stops-tracking-reality",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "front-matter-introduction-when-trust-stops-tracking-reality",
+  "sourcePath": "front-matter/introduction-when-trust-stops-tracking-reality.md",
+  "sourceHash": "sha256:b8a21bfed89d92bfebff8ab57ca38ee93537818bc5cebc1d44b8a4586d88af21",
+  "spokenTextHash": "sha256:1a6825c3da79dd837bf8f1f5e6a3be97a546c0f5c4e0e2581434a9475fd0cc83",
+  "generationHash": "sha256:d176df81be8206ce4e619788171c37298a8acbb03902864d0e6f575a7716949d",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 4042,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1010.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1010.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/front-matter-introduction-when-trust-stops-tracking-reality.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/front-matter-introduction-when-trust-stops-tracking-reality.mp3",
+  "audioSha256": "sha256:e56f4b53e1ed60645565296fb6d5e0da13f97da46a0859c45f1bad8d44ab70f9",
+  "generatedAt": "2026-10-06T01:41:43Z"
+}

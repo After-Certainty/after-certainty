@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-back-matter-appendix-core-principles",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "back-matter-appendix-core-principles",
+  "sourcePath": "back-matter/appendix-core-principles.md",
+  "sourceHash": "sha256:72d0ecb3ab39933fac5bc2b2561523754a4e195629cfeffd8e9481764665f95d",
+  "spokenTextHash": "sha256:414900e5c003ad49edc9855dd0e4eeaaa4b69603b7b911a1642d8ef8814c7bd7",
+  "generationHash": "sha256:9db8faaa74731a7f54eef7710ebb5206491d50eb708792e22d4e7ff3e8ae271f",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 4306,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1076.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1076.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/back-matter-appendix-core-principles.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/back-matter-appendix-core-principles.mp3",
+  "audioSha256": "sha256:9ccf9b1f75751dd9247e3381dae59babefae737e6de9225597d501acccf19c02",
+  "generatedAt": "2026-10-06T01:43:24Z"
+}

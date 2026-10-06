@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-back-matter-appendix-core-principles",
+  "generationHash": "sha256:4aa96115e90447b092a79fbb0935cbf058689d9257b098f586a387ed9fab011e",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Appendix",
+      "startMs": 0.0,
+      "endMs": 627.0,
+      "charStart": 0,
+      "charEnd": 8
+    },
+    {
+      "id": "s0002",
+      "text": "Core Principles",
+      "startMs": 697.0,
+      "endMs": 1637.0,
+      "charStart": 10,
+      "charEnd": 25
+    },
+    {
+      "id": "s0003",
+      "text": "This book explored a simple question:",
+      "startMs": 2148.0,
+      "endMs": 4226.0,
+      "charStart": 27,
+      "charEnd": 64
+    },
+    {
+      "id": "s0004",
+      "text": "How do people become willing to participate with one another under uncertainty?",
+      "startMs": 4737.0,
+      "endMs": 8836.0,
+      "charStart": 66,
+      "charEnd": 145
+    },
+    {
+      "id": "s0005",
+      "text": "The answer emerged through a series of connected observations about trust.",
+      "startMs": 9346.0,
+      "endMs": 13677.0,
+      "charStart": 147,
+      "charEnd": 221
+    },
+    {
+      "id": "s0006",
+      "text": "1.",
+      "startMs": 14792.0,
+      "endMs": 15314.0,
+      "charStart": 223,
+      "charEnd": 225
+    },
+    {
+      "id": "s0007",
+      "text": "Trust Begins Before Verification",
+      "startMs": 15755.0,
+      "endMs": 18031.0,
+      "charStart": 226,
+      "charEnd": 258
+    },
+    {
+      "id": "s0008",
+      "text": "People cannot verify everything before acting.",
+      "startMs": 19145.0,
+      "endMs": 21978.0,
+      "charStart": 260,
+      "charEnd": 306
+    },
+    {
+      "id": "s0009",
+      "text": "Every relationship, partnership, team, and community begins with some willingness to accept uncertainty.",
+      "startMs": 22361.0,
+      "endMs": 29002.0,
+      "charStart": 307,
+      "charEnd": 411
+    },
+    {
+      "id": "s0010",
+      "text": "2.",
+      "startMs": 29815.0,
+      "endMs": 30302.0,
+      "charStart": 413,
+      "charEnd": 415
+    },
+    {
+      "id": "s0011",
+      "text": "Actions Reveal Beliefs",
+      "startMs": 30581.0,
+      "endMs": 32055.0,
+      "charStart": 416,
+      "charEnd": 438
+    },
+    {
+      "id": "s0012",
+      "text": "People learn about one another less through stated intentions than through observed behavior.",
+      "startMs": 32566.0,
+      "endMs": 37860.0,
+      "charStart": 440,
+      "charEnd": 533
+    },
+    {
+      "id": "s0013",
+      "text": "Actions make beliefs visible.",
+      "startMs": 38186.0,
+      "endMs": 40252.0,
+      "charStart": 534,
+      "charEnd": 563
+    },
+    {
+      "id": "s0014",
+      "text": "3.",
+      "startMs": 41552.0,
+      "endMs": 42110.0,
+      "charStart": 565,
+      "charEnd": 567
+    },
+    {
+      "id": "s0015",
+      "text": "Outcomes Teach Trust",
+      "startMs": 42435.0,
+      "endMs": 44815.0,
+      "charStart": 568,
+      "charEnd": 588
+    },
+    {
+      "id": "s0016",
+      "text": "Outcomes provide feedback.",
+      "startMs": 45140.0,
+      "endMs": 46870.0,
+      "charStart": 590,
+      "charEnd": 616
+    },
+    {
+      "id": "s0017",
+      "text": "They reveal whether trust was justified, misplaced, strengthened, or weakened.",
+      "startMs": 47114.0,
+      "endMs": 51909.0,
+      "charStart": 617,
+      "charEnd": 695
+    },
+    {
+      "id": "s0018",
+      "text": "4.",
+      "startMs": 53209.0,
+      "endMs": 53743.0,
+      "charStart": 697,
+      "charEnd": 699
+    },
+    {
+      "id": "s0019",
+      "text": "Trust Enables Participation",
+      "startMs": 54184.0,
+      "endMs": 56344.0,
+      "charStart": 700,
+      "charEnd": 727
+    },
+    {
+      "id": "s0020",
+      "text": "Trust allows people to cooperate before certainty arrives.",
+      "startMs": 57156.0,
+      "endMs": 60883.0,
+      "charStart": 729,
+      "charEnd": 787
+    },
+    {
+      "id": "s0021",
+      "text": "It lowers the cost of vulnerability and makes collective action possible.",
+      "startMs": 61092.0,
+      "endMs": 65202.0,
+      "charStart": 788,
+      "charEnd": 861
+    },
+    {
+      "id": "s0022",
+      "text": "5.",
+      "startMs": 66502.0,
+      "endMs": 67129.0,
+      "charStart": 863,
+      "charEnd": 865
+    },
+    {
+      "id": "s0023",
+      "text": "Participation Updates Beliefs",
+      "startMs": 67570.0,
+      "endMs": 71111.0,
+      "charStart": 866,
+      "charEnd": 895
+    },
+    {
+      "id": "s0024",
+      "text": "Participation creates experiences that observation alone cannot provide.",
+      "startMs": 71808.0,
+      "endMs": 76603.0,
+      "charStart": 897,
+      "charEnd": 969
+    },
+    {
+      "id": "s0025",
+      "text": "Through participation, people revise their understanding of one another and of the world.",
+      "startMs": 77114.0,
+      "endMs": 81793.0,
+      "charStart": 970,
+      "charEnd": 1059
+    },
+    {
+      "id": "s0026",
+      "text": "6.",
+      "startMs": 82489.0,
+      "endMs": 82977.0,
+      "charStart": 1061,
+      "charEnd": 1063
+    },
+    {
+      "id": "s0027",
+      "text": "Trust Scales Through Abstraction",
+      "startMs": 83151.0,
+      "endMs": 85613.0,
+      "charStart": 1064,
+      "charEnd": 1096
+    },
+    {
+      "id": "s0028",
+      "text": "As societies grow, people cannot rely solely on personal relationships.",
+      "startMs": 86425.0,
+      "endMs": 90942.0,
+      "charStart": 1098,
+      "charEnd": 1169
+    },
+    {
+      "id": "s0029",
+      "text": "Institutions, professions, standards, and processes allow trust to extend beyond direct experience.",
+      "startMs": 91383.0,
+      "endMs": 97687.0,
+      "charStart": 1170,
+      "charEnd": 1269
+    },
+    {
+      "id": "s0030",
+      "text": "7.",
+      "startMs": 98499.0,
+      "endMs": 98952.0,
+      "charStart": 1271,
+      "charEnd": 1273
+    },
+    {
+      "id": "s0031",
+      "text": "Trust Converts Attention Into Legitimacy",
+      "startMs": 99231.0,
+      "endMs": 101785.0,
+      "charStart": 1274,
+      "charEnd": 1314
+    },
+    {
+      "id": "s0032",
+      "text": "Repeated trust encourages people to look to the same individuals for coordination and guidance.",
+      "startMs": 102598.0,
+      "endMs": 107857.0,
+      "charStart": 1316,
+      "charEnd": 1411
+    },
+    {
+      "id": "s0033",
+      "text": "Over time, trust can become legitimacy.",
+      "startMs": 108182.0,
+      "endMs": 111061.0,
+      "charStart": 1412,
+      "charEnd": 1451
+    },
+    {
+      "id": "s0034",
+      "text": "8.",
+      "startMs": 112176.0,
+      "endMs": 112594.0,
+      "charStart": 1453,
+      "charEnd": 1455
+    },
+    {
+      "id": "s0035",
+      "text": "Trust Slows Distortion",
+      "startMs": 112872.0,
+      "endMs": 114626.0,
+      "charStart": 1456,
+      "charEnd": 1478
+    },
+    {
+      "id": "s0036",
+      "text": "Trust cannot eliminate misunderstanding, but it encourages clarification, patience, and revision.",
+      "startMs": 115067.0,
+      "endMs": 121046.0,
+      "charStart": 1480,
+      "charEnd": 1577
+    },
+    {
+      "id": "s0037",
+      "text": "Distrust accelerates distortion.",
+      "startMs": 121371.0,
+      "endMs": 123704.0,
+      "charStart": 1578,
+      "charEnd": 1610
+    },
+    {
+      "id": "s0038",
+      "text": "9.",
+      "startMs": 124517.0,
+      "endMs": 124993.0,
+      "charStart": 1612,
+      "charEnd": 1614
+    },
+    {
+      "id": "s0039",
+      "text": "Trust Makes Cooperation Possible",
+      "startMs": 125144.0,
+      "endMs": 127408.0,
+      "charStart": 1615,
+      "charEnd": 1647
+    },
+    {
+      "id": "s0040",
+      "text": "Trust allows people to continue participating despite uncertainty.",
+      "startMs": 127582.0,
+      "endMs": 131844.0,
+      "charStart": 1649,
+      "charEnd": 1715
+    },
+    {
+      "id": "s0041",
+      "text": "Cooperation emerges not because uncertainty disappears, but because people become willing to act together while it remains.",
+      "startMs": 132540.0,
+      "endMs": 139146.0,
+      "charStart": 1716,
+      "charEnd": 1839
+    },
+    {
+      "id": "s0042",
+      "text": "The Trust Cycle",
+      "startMs": 139959.0,
+      "endMs": 141213.0,
+      "charStart": 1841,
+      "charEnd": 1856
+    },
+    {
+      "id": "s0043",
+      "text": "These principles form a cycle rather than a sequence.",
+      "startMs": 142165.0,
+      "endMs": 145648.0,
+      "charStart": 1858,
+      "charEnd": 1911
+    },
+    {
+      "id": "s0044",
+      "text": "Beliefs influence actions.",
+      "startMs": 146089.0,
+      "endMs": 148039.0,
+      "charStart": 1913,
+      "charEnd": 1939
+    },
+    {
+      "id": "s0045",
+      "text": "Actions produce outcomes.",
+      "startMs": 148318.0,
+      "endMs": 150152.0,
+      "charStart": 1941,
+      "charEnd": 1966
+    },
+    {
+      "id": "s0046",
+      "text": "Outcomes shape trust.",
+      "startMs": 150477.0,
+      "endMs": 151963.0,
+      "charStart": 1968,
+      "charEnd": 1989
+    },
+    {
+      "id": "s0047",
+      "text": "Trust enables participation.",
+      "startMs": 152172.0,
+      "endMs": 154215.0,
+      "charStart": 1991,
+      "charEnd": 2019
+    },
+    {
+      "id": "s0048",
+      "text": "Participation updates beliefs.",
+      "startMs": 154459.0,
+      "endMs": 156398.0,
+      "charStart": 2021,
+      "charEnd": 2051
+    },
+    {
+      "id": "s0049",
+      "text": "The cycle then begins again.",
+      "startMs": 156677.0,
+      "endMs": 158534.0,
+      "charStart": 2053,
+      "charEnd": 2081
+    },
+    {
+      "id": "s0050",
+      "text": "Trust does not emerge from certainty.",
+      "startMs": 158709.0,
+      "endMs": 161147.0,
+      "charStart": 2083,
+      "charEnd": 2120
+    },
+    {
+      "id": "s0051",
+      "text": "Trust emerges when people continue participating long enough for experience to teach them what certainty never could.",
+      "startMs": 161472.0,
+      "endMs": 167927.0,
+      "charStart": 2121,
+      "charEnd": 2238
+    }
+  ]
+}

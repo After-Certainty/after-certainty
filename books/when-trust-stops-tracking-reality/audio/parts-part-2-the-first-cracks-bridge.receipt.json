@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-2-the-first-cracks-bridge",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-2-the-first-cracks-bridge",
+  "sourcePath": "parts/part-2-the-first-cracks/bridge.md",
+  "sourceHash": "sha256:6cbda8ecb633af5fbea823496fbb49d305e15e7514ce9fc5ee3e49e5c05ab762",
+  "spokenTextHash": "sha256:8d1e9f1791eea4a91e3ab704f173e85550674192816e3310dc4ffebe99bee989",
+  "generationHash": "sha256:1e6b6dbf166e60cfffb02acd870557eec893b940eb43f21460d3947580cf9657",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1282,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 320.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 320.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-2-the-first-cracks-bridge.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-2-the-first-cracks-bridge.mp3",
+  "audioSha256": "sha256:22fcc47cf09b72f9ddb29a35b6dfccb75bb01ee2e350caf473f84e0f3ab6069f",
+  "generatedAt": "2026-10-06T01:42:14Z"
+}

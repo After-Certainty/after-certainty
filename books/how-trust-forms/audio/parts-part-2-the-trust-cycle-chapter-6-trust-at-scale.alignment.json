@@ -1,0 +1,1176 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-2-the-trust-cycle-chapter-6-trust-at-scale",
+  "generationHash": "sha256:10a34b75fda9879e4cf13b0f89d83091d19d051a7ff38d2f55c95d0c5ab196bd",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Trust at Scale",
+      "startMs": 0.0,
+      "endMs": 1010.0,
+      "charStart": 0,
+      "charEnd": 14
+    },
+    {
+      "id": "s0002",
+      "text": "> How does trust travel beyond direct experience?",
+      "startMs": 1056.0,
+      "endMs": 4795.0,
+      "charStart": 16,
+      "charEnd": 65
+    },
+    {
+      "id": "s0003",
+      "text": "The neighborhood grew over the next few years.",
+      "startMs": 5491.0,
+      "endMs": 7686.0,
+      "charStart": 67,
+      "charEnd": 113
+    },
+    {
+      "id": "s0004",
+      "text": "New families arrived.",
+      "startMs": 7814.0,
+      "endMs": 9149.0,
+      "charStart": 114,
+      "charEnd": 135
+    },
+    {
+      "id": "s0005",
+      "text": "Others moved away.",
+      "startMs": 9323.0,
+      "endMs": 10519.0,
+      "charStart": 136,
+      "charEnd": 154
+    },
+    {
+      "id": "s0006",
+      "text": "Children grew older.",
+      "startMs": 10693.0,
+      "endMs": 11901.0,
+      "charStart": 155,
+      "charEnd": 175
+    },
+    {
+      "id": "s0007",
+      "text": "People changed jobs.",
+      "startMs": 11982.0,
+      "endMs": 13271.0,
+      "charStart": 176,
+      "charEnd": 196
+    },
+    {
+      "id": "s0008",
+      "text": "Some houses sold twice before anyone learned the names of the people who lived there.",
+      "startMs": 13514.0,
+      "endMs": 17659.0,
+      "charStart": 197,
+      "charEnd": 282
+    },
+    {
+      "id": "s0009",
+      "text": "The neighborhood continued functioning anyway.",
+      "startMs": 17903.0,
+      "endMs": 20109.0,
+      "charStart": 284,
+      "charEnd": 330
+    },
+    {
+      "id": "s0010",
+      "text": "Packages still arrived.",
+      "startMs": 20237.0,
+      "endMs": 21525.0,
+      "charStart": 331,
+      "charEnd": 354
+    },
+    {
+      "id": "s0011",
+      "text": "Roads still got repaired.",
+      "startMs": 21700.0,
+      "endMs": 23186.0,
+      "charStart": 355,
+      "charEnd": 380
+    },
+    {
+      "id": "s0012",
+      "text": "Electricity still worked.",
+      "startMs": 23232.0,
+      "endMs": 24718.0,
+      "charStart": 381,
+      "charEnd": 406
+    },
+    {
+      "id": "s0013",
+      "text": "Water flowed from faucets every morning.",
+      "startMs": 24846.0,
+      "endMs": 27168.0,
+      "charStart": 407,
+      "charEnd": 447
+    },
+    {
+      "id": "s0014",
+      "text": "Most of the people relying on these things had never met the engineers who designed them, the workers who maintained them, or the organizations responsible for keeping them running.",
+      "startMs": 27412.0,
+      "endMs": 35992.0,
+      "charStart": 448,
+      "charEnd": 629
+    },
+    {
+      "id": "s0015",
+      "text": "Yet they relied on them all the same.",
+      "startMs": 36433.0,
+      "endMs": 38430.0,
+      "charStart": 630,
+      "charEnd": 667
+    },
+    {
+      "id": "s0016",
+      "text": "This kind of trust feels different from the trust that grows between neighbors.",
+      "startMs": 38813.0,
+      "endMs": 43015.0,
+      "charStart": 669,
+      "charEnd": 748
+    },
+    {
+      "id": "s0017",
+      "text": "The neighbors next door became familiar through experience.",
+      "startMs": 43399.0,
+      "endMs": 46626.0,
+      "charStart": 749,
+      "charEnd": 808
+    },
+    {
+      "id": "s0018",
+      "text": "Most of the systems surrounding them never could.",
+      "startMs": 46951.0,
+      "endMs": 49447.0,
+      "charStart": 809,
+      "charEnd": 858
+    },
+    {
+      "id": "s0019",
+      "text": "No one can personally know every doctor, teacher, pilot, scientist, engineer, judge, mechanic, or public servant whose work shapes daily life.",
+      "startMs": 49888.0,
+      "endMs": 59792.0,
+      "charStart": 859,
+      "charEnd": 1001
+    },
+    {
+      "id": "s0020",
+      "text": "If trust required direct experience with everyone involved, large societies could not function.",
+      "startMs": 60117.0,
+      "endMs": 66514.0,
+      "charStart": 1002,
+      "charEnd": 1097
+    },
+    {
+      "id": "s0021",
+      "text": "Something else must happen.",
+      "startMs": 66897.0,
+      "endMs": 68279.0,
+      "charStart": 1099,
+      "charEnd": 1126
+    },
+    {
+      "id": "s0022",
+      "text": "People must learn to trust abstractions.",
+      "startMs": 68430.0,
+      "endMs": 71425.0,
+      "charStart": 1127,
+      "charEnd": 1167
+    },
+    {
+      "id": "s0023",
+      "text": "When the Street Depends on Strangers",
+      "startMs": 71750.0,
+      "endMs": 73747.0,
+      "charStart": 1169,
+      "charEnd": 1205
+    },
+    {
+      "id": "s0024",
+      "text": "The shift appeared in ordinary ways.",
+      "startMs": 75048.0,
+      "endMs": 77172.0,
+      "charStart": 1207,
+      "charEnd": 1243
+    },
+    {
+      "id": "s0025",
+      "text": "One spring, the city marked several blocks for water-main work.",
+      "startMs": 77451.0,
+      "endMs": 81050.0,
+      "charStart": 1245,
+      "charEnd": 1308
+    },
+    {
+      "id": "s0026",
+      "text": "Fluorescent signs appeared at intersections.",
+      "startMs": 81329.0,
+      "endMs": 83952.0,
+      "charStart": 1309,
+      "charEnd": 1353
+    },
+    {
+      "id": "s0027",
+      "text": "A notice arrived in the mail describing dates, detours, and temporary shutoffs.",
+      "startMs": 84336.0,
+      "endMs": 89049.0,
+      "charStart": 1354,
+      "charEnd": 1433
+    },
+    {
+      "id": "s0028",
+      "text": "None of the neighbors knew the crew that would dig up the street.",
+      "startMs": 89432.0,
+      "endMs": 92126.0,
+      "charStart": 1434,
+      "charEnd": 1499
+    },
+    {
+      "id": "s0029",
+      "text": "None had met the engineer who decided where the main ran or the administrator who scheduled the repair.",
+      "startMs": 92509.0,
+      "endMs": 97966.0,
+      "charStart": 1500,
+      "charEnd": 1603
+    },
+    {
+      "id": "s0030",
+      "text": "People adjusted anyway.",
+      "startMs": 98349.0,
+      "endMs": 99765.0,
+      "charStart": 1604,
+      "charEnd": 1627
+    },
+    {
+      "id": "s0031",
+      "text": "They filled bathtubs before the shutoff.",
+      "startMs": 100044.0,
+      "endMs": 102319.0,
+      "charStart": 1628,
+      "charEnd": 1668
+    },
+    {
+      "id": "s0032",
+      "text": "They moved cars before the tow window.",
+      "startMs": 102528.0,
+      "endMs": 104641.0,
+      "charStart": 1669,
+      "charEnd": 1707
+    },
+    {
+      "id": "s0033",
+      "text": "They complained about the timing, then complied with the plan.",
+      "startMs": 104792.0,
+      "endMs": 108159.0,
+      "charStart": 1708,
+      "charEnd": 1770
+    },
+    {
+      "id": "s0034",
+      "text": "The same pattern repeated elsewhere.",
+      "startMs": 108275.0,
+      "endMs": 110295.0,
+      "charStart": 1772,
+      "charEnd": 1808
+    },
+    {
+      "id": "s0035",
+      "text": "A school nurse sent home a child with a fever and instructions to follow up with a pediatrician.",
+      "startMs": 110620.0,
+      "endMs": 115868.0,
+      "charStart": 1809,
+      "charEnd": 1905
+    },
+    {
+      "id": "s0036",
+      "text": "A building permit appeared in a window down the block, posted by an inspector no one on the street had ever spoken to.",
+      "startMs": 116077.0,
+      "endMs": 122834.0,
+      "charStart": 1906,
+      "charEnd": 2024
+    },
+    {
+      "id": "s0037",
+      "text": "A bridge on the commute to work carried thousands of cars each day across a river; almost none of the drivers could explain how its weight limits had been calculated.",
+      "startMs": 123345.0,
+      "endMs": 132726.0,
+      "charStart": 2025,
+      "charEnd": 2191
+    },
+    {
+      "id": "s0038",
+      "text": "None of these moments felt dramatic.",
+      "startMs": 133109.0,
+      "endMs": 135257.0,
+      "charStart": 2193,
+      "charEnd": 2229
+    },
+    {
+      "id": "s0039",
+      "text": "That was part of the point.",
+      "startMs": 135501.0,
+      "endMs": 137010.0,
+      "charStart": 2230,
+      "charEnd": 2257
+    },
+    {
+      "id": "s0040",
+      "text": "The trust that began with a package moved beneath a porch roof was now traveling through professions, procedures, and institutions the neighbors would never personally know.",
+      "startMs": 137393.0,
+      "endMs": 147169.0,
+      "charStart": 2258,
+      "charEnd": 2431
+    },
+    {
+      "id": "s0041",
+      "text": "The street still worked.",
+      "startMs": 147610.0,
+      "endMs": 149096.0,
+      "charStart": 2432,
+      "charEnd": 2456
+    },
+    {
+      "id": "s0042",
+      "text": "Life still moved.",
+      "startMs": 149305.0,
+      "endMs": 150652.0,
+      "charStart": 2457,
+      "charEnd": 2474
+    },
+    {
+      "id": "s0043",
+      "text": "But the cooperation no longer depended on familiarity alone.",
+      "startMs": 151035.0,
+      "endMs": 155331.0,
+      "charStart": 2475,
+      "charEnd": 2535
+    },
+    {
+      "id": "s0044",
+      "text": "Beyond Direct Experience",
+      "startMs": 155772.0,
+      "endMs": 158291.0,
+      "charStart": 2537,
+      "charEnd": 2561
+    },
+    {
+      "id": "s0045",
+      "text": "The trust that develops between neighbors grows through repeated interaction.",
+      "startMs": 158732.0,
+      "endMs": 163121.0,
+      "charStart": 2563,
+      "charEnd": 2640
+    },
+    {
+      "id": "s0046",
+      "text": "The trust that supports modern life cannot.",
+      "startMs": 163504.0,
+      "endMs": 166058.0,
+      "charStart": 2641,
+      "charEnd": 2684
+    },
+    {
+      "id": "s0047",
+      "text": "Most people board airplanes without meeting the engineers who designed them.",
+      "startMs": 166337.0,
+      "endMs": 170319.0,
+      "charStart": 2686,
+      "charEnd": 2762
+    },
+    {
+      "id": "s0048",
+      "text": "Patients accept prescriptions from pharmacists they barely know.",
+      "startMs": 170760.0,
+      "endMs": 174731.0,
+      "charStart": 2763,
+      "charEnd": 2827
+    },
+    {
+      "id": "s0049",
+      "text": "Drivers trust traffic signals designed by people they will never meet.",
+      "startMs": 175114.0,
+      "endMs": 179352.0,
+      "charStart": 2828,
+      "charEnd": 2898
+    },
+    {
+      "id": "s0050",
+      "text": "Citizens rely on legal systems whose architects died generations ago.",
+      "startMs": 179793.0,
+      "endMs": 184715.0,
+      "charStart": 2899,
+      "charEnd": 2968
+    },
+    {
+      "id": "s0051",
+      "text": "These forms of trust depend on abstraction: instead of trusting a specific individual, people trust a profession; instead of trusting a single worker, people trust an institution; instead of trusting one decision, people trust a process.",
+      "startMs": 185412.0,
+      "endMs": 202711.0,
+      "charStart": 2969,
+      "charEnd": 3206
+    },
+    {
+      "id": "s0052",
+      "text": "The abstraction stands in for thousands of relationships that would otherwise be impossible to maintain directly.",
+      "startMs": 203222.0,
+      "endMs": 210304.0,
+      "charStart": 3207,
+      "charEnd": 3320
+    },
+    {
+      "id": "s0053",
+      "text": "This expansion allows cooperation to scale far beyond the limits of personal familiarity.",
+      "startMs": 211001.0,
+      "endMs": 217084.0,
+      "charStart": 3321,
+      "charEnd": 3410
+    },
+    {
+      "id": "s0054",
+      "text": "Credentials, Standards, Institutions",
+      "startMs": 217595.0,
+      "endMs": 220451.0,
+      "charStart": 3412,
+      "charEnd": 3448
+    },
+    {
+      "id": "s0055",
+      "text": "Without abstraction, every interaction would require personal verification.",
+      "startMs": 221566.0,
+      "endMs": 226883.0,
+      "charStart": 3450,
+      "charEnd": 3525
+    },
+    {
+      "id": "s0056",
+      "text": "You would need to inspect every bridge before crossing it, personally evaluate every medical study before accepting its conclusions, investigate every product, service, and organization before relying on any of them.",
+      "startMs": 227487.0,
+      "endMs": 241895.0,
+      "charStart": 3526,
+      "charEnd": 3742
+    },
+    {
+      "id": "s0057",
+      "text": "Human beings do not possess enough time for that.",
+      "startMs": 242707.0,
+      "endMs": 245761.0,
+      "charStart": 3743,
+      "charEnd": 3792
+    },
+    {
+      "id": "s0058",
+      "text": "Trust solves the problem at small scales.",
+      "startMs": 246272.0,
+      "endMs": 248977.0,
+      "charStart": 3794,
+      "charEnd": 3835
+    },
+    {
+      "id": "s0059",
+      "text": "Abstraction solves it at large scales.",
+      "startMs": 249186.0,
+      "endMs": 252030.0,
+      "charStart": 3836,
+      "charEnd": 3874
+    },
+    {
+      "id": "s0060",
+      "text": "Consider medicine on an ordinary Tuesday.",
+      "startMs": 252634.0,
+      "endMs": 255374.0,
+      "charStart": 3876,
+      "charEnd": 3917
+    },
+    {
+      "id": "s0061",
+      "text": "A child wakes with a fever.",
+      "startMs": 255884.0,
+      "endMs": 257742.0,
+      "charStart": 3918,
+      "charEnd": 3945
+    },
+    {
+      "id": "s0062",
+      "text": "The parents call a pediatrician they know only slightly, describe symptoms they cannot fully interpret, and receive advice shaped by years of training they did not witness.",
+      "startMs": 258183.0,
+      "endMs": 268516.0,
+      "charStart": 3946,
+      "charEnd": 4118
+    },
+    {
+      "id": "s0063",
+      "text": "At the pharmacy, they hand a prescription to someone behind a counter and trust that the dosage, the label, and the drug itself match what the doctor intended.",
+      "startMs": 269027.0,
+      "endMs": 278930.0,
+      "charStart": 4119,
+      "charEnd": 4278
+    },
+    {
+      "id": "s0064",
+      "text": "They are not trusting a single person end to end.",
+      "startMs": 279534.0,
+      "endMs": 282738.0,
+      "charStart": 4279,
+      "charEnd": 4328
+    },
+    {
+      "id": "s0065",
+      "text": "They are trusting a chain—medical education, licensing, professional standards, regulatory oversight—that makes competent care possible across millions of encounters no one family could verify for themselves.",
+      "startMs": 283121.0,
+      "endMs": 297077.0,
+      "charStart": 4329,
+      "charEnd": 4537
+    },
+    {
+      "id": "s0066",
+      "text": "Law works similarly at human scale.",
+      "startMs": 297518.0,
+      "endMs": 299956.0,
+      "charStart": 4539,
+      "charEnd": 4574
+    },
+    {
+      "id": "s0067",
+      "text": "Two neighbors disagree about where a fence may legally stand.",
+      "startMs": 300397.0,
+      "endMs": 303787.0,
+      "charStart": 4575,
+      "charEnd": 4636
+    },
+    {
+      "id": "s0068",
+      "text": "Neither knows the legislators who wrote the property code.",
+      "startMs": 304170.0,
+      "endMs": 307026.0,
+      "charStart": 4637,
+      "charEnd": 4695
+    },
+    {
+      "id": "s0069",
+      "text": "Neither has read every case that shaped its interpretation.",
+      "startMs": 307351.0,
+      "endMs": 310765.0,
+      "charStart": 4696,
+      "charEnd": 4755
+    },
+    {
+      "id": "s0070",
+      "text": "Yet both accept that a survey, a permit, or a small-claims process can resolve what argument alone cannot.",
+      "startMs": 311148.0,
+      "endMs": 318892.0,
+      "charStart": 4756,
+      "charEnd": 4862
+    },
+    {
+      "id": "s0071",
+      "text": "The rules carry authority because people treat them as shared reference points—not because everyone agrees with every outcome, but because shared rules make cooperation possible among people who do not know one another well.",
+      "startMs": 319217.0,
+      "endMs": 332359.0,
+      "charStart": 4863,
+      "charEnd": 5087
+    },
+    {
+      "id": "s0072",
+      "text": "Science and engineering extend the pattern further.",
+      "startMs": 333056.0,
+      "endMs": 336016.0,
+      "charStart": 5089,
+      "charEnd": 5140
+    },
+    {
+      "id": "s0073",
+      "text": "Drivers cross bridges whose load limits they cannot calculate.",
+      "startMs": 336457.0,
+      "endMs": 340323.0,
+      "charStart": 5141,
+      "charEnd": 5203
+    },
+    {
+      "id": "s0074",
+      "text": "Parents follow vaccination schedules whose trial history they have not read.",
+      "startMs": 340648.0,
+      "endMs": 345060.0,
+      "charStart": 5204,
+      "charEnd": 5280
+    },
+    {
+      "id": "s0075",
+      "text": "Homeowners rely on building codes whose physics they have not tested.",
+      "startMs": 345501.0,
+      "endMs": 349646.0,
+      "charStart": 5281,
+      "charEnd": 5350
+    },
+    {
+      "id": "s0076",
+      "text": "In each case, people participate in knowledge they cannot personally reproduce.",
+      "startMs": 349971.0,
+      "endMs": 355265.0,
+      "charStart": 5351,
+      "charEnd": 5430
+    },
+    {
+      "id": "s0077",
+      "text": "They trust that specialists, institutions, and standards have done work they cannot do alone—and that enough of that work has been tested, reviewed, and corrected over time to make reliance reasonable.",
+      "startMs": 355706.0,
+      "endMs": 368826.0,
+      "charStart": 5431,
+      "charEnd": 5632
+    },
+    {
+      "id": "s0078",
+      "text": "Niklas Luhmann argued that trust helps people manage complexity.",
+      "startMs": 369638.0,
+      "endMs": 373620.0,
+      "charStart": 5634,
+      "charEnd": 5698
+    },
+    {
+      "id": "s0079",
+      "text": "As societies grow, complexity grows with them.",
+      "startMs": 374131.0,
+      "endMs": 377034.0,
+      "charStart": 5699,
+      "charEnd": 5745
+    },
+    {
+      "id": "s0080",
+      "text": "Abstractions allow people to participate in systems far larger than any individual could fully understand—professional credentials, scientific institutions, legal procedures, standards, certifications, brands.",
+      "startMs": 377545.0,
+      "endMs": 391383.0,
+      "charStart": 5746,
+      "charEnd": 5955
+    },
+    {
+      "id": "s0081",
+      "text": "These mechanisms do not eliminate uncertainty.",
+      "startMs": 391987.0,
+      "endMs": 395087.0,
+      "charStart": 5956,
+      "charEnd": 6002
+    },
+    {
+      "id": "s0082",
+      "text": "They make uncertainty manageable.",
+      "startMs": 395470.0,
+      "endMs": 397374.0,
+      "charStart": 6003,
+      "charEnd": 6036
+    },
+    {
+      "id": "s0083",
+      "text": "People participate because abstraction allows trust to travel farther than direct experience.",
+      "startMs": 397815.0,
+      "endMs": 403771.0,
+      "charStart": 6037,
+      "charEnd": 6130
+    },
+    {
+      "id": "s0084",
+      "text": "Onora O'Neill has argued that institutional trust depends on whether professions and organizations remain answerable to the people who rely on them.",
+      "startMs": 404468.0,
+      "endMs": 414104.0,
+      "charStart": 6132,
+      "charEnd": 6280
+    },
+    {
+      "id": "s0085",
+      "text": "That answerability is part of what makes abstraction worth extending in the first place: people accept licenses, labels, and procedures because they expect those who operate within them to remain connected to the outcomes that justify continued reliance.",
+      "startMs": 414708.0,
+      "endMs": 430869.0,
+      "charStart": 6281,
+      "charEnd": 6535
+    },
+    {
+      "id": "s0086",
+      "text": "Professions Carry What Neighbors Cannot",
+      "startMs": 431148.0,
+      "endMs": 434027.0,
+      "charStart": 6537,
+      "charEnd": 6576
+    },
+    {
+      "id": "s0087",
+      "text": "No street contains enough relationships for modern life.",
+      "startMs": 434306.0,
+      "endMs": 437580.0,
+      "charStart": 6578,
+      "charEnd": 6634
+    },
+    {
+      "id": "s0088",
+      "text": "The neighbors could shovel a driveway, lend a tool, watch a child for an hour, or share news about a block party.",
+      "startMs": 437824.0,
+      "endMs": 444174.0,
+      "charStart": 6636,
+      "charEnd": 6749
+    },
+    {
+      "id": "s0089",
+      "text": "They could not personally inspect every medicine, audit every bridge, or review every regulation that shaped daily safety.",
+      "startMs": 444557.0,
+      "endMs": 451732.0,
+      "charStart": 6750,
+      "charEnd": 6872
+    },
+    {
+      "id": "s0090",
+      "text": "As communities grow, as cities connect, as work divides into specialties no generalist can master, personal trust alone stops scaling.",
+      "startMs": 452336.0,
+      "endMs": 461507.0,
+      "charStart": 6873,
+      "charEnd": 7007
+    },
+    {
+      "id": "s0091",
+      "text": "What scales is proxy trust—the willingness to rely on training, standards, and institutions that carry forward the same logic trust always depended upon: actions that produce outcomes people can eventually recognize, participation that remains connected to experience, reliability that makes the next act of cooperation easier than the last.",
+      "startMs": 462018.0,
+      "endMs": 482534.0,
+      "charStart": 7009,
+      "charEnd": 7350
+    },
+    {
+      "id": "s0092",
+      "text": "The neighbor who kept a promise made trust visible.",
+      "startMs": 482859.0,
+      "endMs": 485901.0,
+      "charStart": 7351,
+      "charEnd": 7402
+    },
+    {
+      "id": "s0093",
+      "text": "The profession that maintains standards makes trust portable across strangers.",
+      "startMs": 486226.0,
+      "endMs": 491044.0,
+      "charStart": 7403,
+      "charEnd": 7481
+    },
+    {
+      "id": "s0094",
+      "text": "This is not a replacement for personal trust.",
+      "startMs": 491369.0,
+      "endMs": 494329.0,
+      "charStart": 7483,
+      "charEnd": 7528
+    },
+    {
+      "id": "s0095",
+      "text": "It is what personal trust makes possible once life outgrows the porch.",
+      "startMs": 494654.0,
+      "endMs": 499077.0,
+      "charStart": 7529,
+      "charEnd": 7599
+    },
+    {
+      "id": "s0096",
+      "text": "When Distance Increases",
+      "startMs": 499774.0,
+      "endMs": 501597.0,
+      "charStart": 7601,
+      "charEnd": 7624
+    },
+    {
+      "id": "s0097",
+      "text": "Abstraction creates new possibilities.",
+      "startMs": 502293.0,
+      "endMs": 504859.0,
+      "charStart": 7626,
+      "charEnd": 7664
+    },
+    {
+      "id": "s0098",
+      "text": "It also creates new distance—but the point here is not failure.",
+      "startMs": 505184.0,
+      "endMs": 509433.0,
+      "charStart": 7665,
+      "charEnd": 7728
+    },
+    {
+      "id": "s0099",
+      "text": "It is distance.",
+      "startMs": 509817.0,
+      "endMs": 511036.0,
+      "charStart": 7729,
+      "charEnd": 7744
+    },
+    {
+      "id": "s0100",
+      "text": "The farther trust travels from direct experience, the harder it becomes to evaluate.",
+      "startMs": 511477.0,
+      "endMs": 516829.0,
+      "charStart": 7746,
+      "charEnd": 7830
+    },
+    {
+      "id": "s0101",
+      "text": "A neighbor can observe whether another neighbor keeps a promise.",
+      "startMs": 517154.0,
+      "endMs": 520347.0,
+      "charStart": 7831,
+      "charEnd": 7895
+    },
+    {
+      "id": "s0102",
+      "text": "A patient cannot easily evaluate the quality of an entire medical profession.",
+      "startMs": 520672.0,
+      "endMs": 525200.0,
+      "charStart": 7896,
+      "charEnd": 7973
+    },
+    {
+      "id": "s0103",
+      "text": "A citizen cannot directly observe most governmental decisions.",
+      "startMs": 525479.0,
+      "endMs": 529391.0,
+      "charStart": 7974,
+      "charEnd": 8036
+    },
+    {
+      "id": "s0104",
+      "text": "A customer rarely sees how a product was designed, manufactured, and delivered.",
+      "startMs": 529670.0,
+      "endMs": 534523.0,
+      "charStart": 8037,
+      "charEnd": 8116
+    },
+    {
+      "id": "s0105",
+      "text": "Distance changes the relationship.",
+      "startMs": 535126.0,
+      "endMs": 537448.0,
+      "charStart": 8118,
+      "charEnd": 8152
+    },
+    {
+      "id": "s0106",
+      "text": "Trust becomes less personal.",
+      "startMs": 538052.0,
+      "endMs": 540246.0,
+      "charStart": 8153,
+      "charEnd": 8181
+    },
+    {
+      "id": "s0107",
+      "text": "Evaluation becomes more difficult.",
+      "startMs": 540850.0,
+      "endMs": 543323.0,
+      "charStart": 8182,
+      "charEnd": 8216
+    },
+    {
+      "id": "s0108",
+      "text": "People increasingly rely on signals that stand in for direct knowledge—credentials, reputation, institutional legitimacy, professional norms.",
+      "startMs": 544020.0,
+      "endMs": 554898.0,
+      "charStart": 8217,
+      "charEnd": 8358
+    },
+    {
+      "id": "s0109",
+      "text": "James C.",
+      "startMs": 555594.0,
+      "endMs": 556314.0,
+      "charStart": 8359,
+      "charEnd": 8367
+    },
+    {
+      "id": "s0110",
+      "text": "Scott described how large institutions simplify what they must govern in order to act at scale.",
+      "startMs": 556349.0,
+      "endMs": 563164.0,
+      "charStart": 8368,
+      "charEnd": 8463
+    },
+    {
+      "id": "s0111",
+      "text": "That simplification is part of what makes abstraction possible.",
+      "startMs": 563861.0,
+      "endMs": 567750.0,
+      "charStart": 8464,
+      "charEnd": 8527
+    },
+    {
+      "id": "s0112",
+      "text": "What people trust is often a summary, not the full reality underneath—and for most purposes, the summary is enough for participation to continue.",
+      "startMs": 568261.0,
+      "endMs": 577990.0,
+      "charStart": 8528,
+      "charEnd": 8673
+    },
+    {
+      "id": "s0113",
+      "text": "These signals often work remarkably well.",
+      "startMs": 578687.0,
+      "endMs": 581496.0,
+      "charStart": 8675,
+      "charEnd": 8716
+    },
+    {
+      "id": "s0114",
+      "text": "They also require people to trust things they cannot fully inspect.",
+      "startMs": 582007.0,
+      "endMs": 586012.0,
+      "charStart": 8717,
+      "charEnd": 8784
+    },
+    {
+      "id": "s0115",
+      "text": "What Continues to Matter",
+      "startMs": 586709.0,
+      "endMs": 588009.0,
+      "charStart": 8786,
+      "charEnd": 8810
+    },
+    {
+      "id": "s0116",
+      "text": "The solution is not to abandon abstraction.",
+      "startMs": 588706.0,
+      "endMs": 591353.0,
+      "charStart": 8812,
+      "charEnd": 8855
+    },
+    {
+      "id": "s0117",
+      "text": "Modern life depends on it.",
+      "startMs": 591597.0,
+      "endMs": 593176.0,
+      "charStart": 8856,
+      "charEnd": 8882
+    },
+    {
+      "id": "s0118",
+      "text": "The solution is to remember what abstraction exists to accomplish.",
+      "startMs": 593269.0,
+      "endMs": 597460.0,
+      "charStart": 8883,
+      "charEnd": 8949
+    },
+    {
+      "id": "s0119",
+      "text": "Abstractions do not replace trust.",
+      "startMs": 597785.0,
+      "endMs": 600235.0,
+      "charStart": 8951,
+      "charEnd": 8985
+    },
+    {
+      "id": "s0120",
+      "text": "They carry trust.",
+      "startMs": 600386.0,
+      "endMs": 601802.0,
+      "charStart": 8986,
+      "charEnd": 9003
+    },
+    {
+      "id": "s0121",
+      "text": "Every profession ultimately depends on people performing competently.",
+      "startMs": 602185.0,
+      "endMs": 606040.0,
+      "charStart": 9004,
+      "charEnd": 9073
+    },
+    {
+      "id": "s0122",
+      "text": "Every institution ultimately depends on people acting responsibly.",
+      "startMs": 606736.0,
+      "endMs": 610649.0,
+      "charStart": 9074,
+      "charEnd": 9140
+    },
+    {
+      "id": "s0123",
+      "text": "Every system ultimately depends on outcomes that justify continued participation.",
+      "startMs": 611160.0,
+      "endMs": 616338.0,
+      "charStart": 9141,
+      "charEnd": 9222
+    },
+    {
+      "id": "s0124",
+      "text": "The farther trust travels, the more important it becomes to remember what trust originally rested upon: actions, outcomes, experience.",
+      "startMs": 617034.0,
+      "endMs": 626450.0,
+      "charStart": 9223,
+      "charEnd": 9357
+    },
+    {
+      "id": "s0125",
+      "text": "The foundations do not disappear simply because society grows larger.",
+      "startMs": 626833.0,
+      "endMs": 631198.0,
+      "charStart": 9358,
+      "charEnd": 9427
+    },
+    {
+      "id": "s0126",
+      "text": "They become harder to see.",
+      "startMs": 631442.0,
+      "endMs": 633125.0,
+      "charStart": 9428,
+      "charEnd": 9454
+    },
+    {
+      "id": "s0127",
+      "text": "Core Principle",
+      "startMs": 633822.0,
+      "endMs": 634774.0,
+      "charStart": 9456,
+      "charEnd": 9470
+    },
+    {
+      "id": "s0128",
+      "text": "Trust Scales Through Abstraction.",
+      "startMs": 634820.0,
+      "endMs": 637584.0,
+      "charStart": 9472,
+      "charEnd": 9505
+    },
+    {
+      "id": "s0129",
+      "text": "People cannot personally know everyone whose decisions affect their lives.",
+      "startMs": 638396.0,
+      "endMs": 642436.0,
+      "charStart": 9507,
+      "charEnd": 9581
+    },
+    {
+      "id": "s0130",
+      "text": "Abstractions allow trust to extend beyond direct experience.",
+      "startMs": 643133.0,
+      "endMs": 647626.0,
+      "charStart": 9582,
+      "charEnd": 9642
+    },
+    {
+      "id": "s0131",
+      "text": "Institutions, professions, standards, and processes carry trust across distances that personal relationships cannot bridge.",
+      "startMs": 647951.0,
+      "endMs": 656902.0,
+      "charStart": 9643,
+      "charEnd": 9766
+    },
+    {
+      "id": "s0132",
+      "text": "From Neighbors to Systems",
+      "startMs": 657599.0,
+      "endMs": 659213.0,
+      "charStart": 9768,
+      "charEnd": 9793
+    },
+    {
+      "id": "s0133",
+      "text": "One afternoon, the neighbor's teenage son left for college.",
+      "startMs": 659654.0,
+      "endMs": 663044.0,
+      "charStart": 9795,
+      "charEnd": 9854
+    },
+    {
+      "id": "s0134",
+      "text": "The family loaded boxes into a car and drove away.",
+      "startMs": 663160.0,
+      "endMs": 666457.0,
+      "charStart": 9855,
+      "charEnd": 9905
+    },
+    {
+      "id": "s0135",
+      "text": "A few weeks later, he called home because his car had broken down hundreds of miles away.",
+      "startMs": 666899.0,
+      "endMs": 671810.0,
+      "charStart": 9906,
+      "charEnd": 9995
+    },
+    {
+      "id": "s0136",
+      "text": "The repair shop was unfamiliar.",
+      "startMs": 672135.0,
+      "endMs": 673853.0,
+      "charStart": 9997,
+      "charEnd": 10028
+    },
+    {
+      "id": "s0137",
+      "text": "The mechanic was a stranger.",
+      "startMs": 674062.0,
+      "endMs": 675653.0,
+      "charStart": 10029,
+      "charEnd": 10057
+    },
+    {
+      "id": "s0138",
+      "text": "The town itself was new.",
+      "startMs": 675896.0,
+      "endMs": 677487.0,
+      "charStart": 10058,
+      "charEnd": 10082
+    },
+    {
+      "id": "s0139",
+      "text": "Yet the repair happened.",
+      "startMs": 677812.0,
+      "endMs": 679147.0,
+      "charStart": 10083,
+      "charEnd": 10107
+    },
+    {
+      "id": "s0140",
+      "text": "The mechanic completed the work.",
+      "startMs": 679263.0,
+      "endMs": 681098.0,
+      "charStart": 10108,
+      "charEnd": 10140
+    },
+    {
+      "id": "s0141",
+      "text": "The student paid the bill.",
+      "startMs": 681249.0,
+      "endMs": 682572.0,
+      "charStart": 10141,
+      "charEnd": 10167
+    },
+    {
+      "id": "s0142",
+      "text": "The car carried him safely back to school.",
+      "startMs": 682688.0,
+      "endMs": 685126.0,
+      "charStart": 10168,
+      "charEnd": 10210
+    },
+    {
+      "id": "s0143",
+      "text": "None of the people involved knew one another beforehand.",
+      "startMs": 685509.0,
+      "endMs": 688285.0,
+      "charStart": 10211,
+      "charEnd": 10267
+    },
+    {
+      "id": "s0144",
+      "text": "The transaction depended on trust—not personal trust, but trust carried through professions, standards, expectations, and institutions.",
+      "startMs": 688401.0,
+      "endMs": 697607.0,
+      "charStart": 10269,
+      "charEnd": 10404
+    },
+    {
+      "id": "s0145",
+      "text": "The same force that began with a package moved beneath a porch roof had traveled outward into a world of strangers.",
+      "startMs": 697932.0,
+      "endMs": 704515.0,
+      "charStart": 10405,
+      "charEnd": 10520
+    },
+    {
+      "id": "s0146",
+      "text": "Trust had scaled.",
+      "startMs": 704759.0,
+      "endMs": 706350.0,
+      "charStart": 10522,
+      "charEnd": 10539
+    }
+  ]
+}

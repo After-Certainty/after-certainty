@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-2-the-trust-cycle-chapter-5-participation-changes-beliefs",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-2-the-trust-cycle-chapter-5-participation-changes-beliefs",
+  "sourcePath": "parts/part-2-the-trust-cycle/chapter-5-participation-changes-beliefs.md",
+  "sourceHash": "sha256:0727594d433713ea386958bcf658b14911426741cdf0a9fd569d4e7259e9c547",
+  "spokenTextHash": "sha256:643fe5909d77c5129adf0ca78aef3bf2f420100a4d322c203a8cb8d3094d3b72",
+  "generationHash": "sha256:bd28bbb4f796c22a42033ad87ad15ea64b0427e293d6eea05f6da24e7191d0a3",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 8608,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2152.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2152.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-2-the-trust-cycle-chapter-5-participation-changes-beliefs.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-2-the-trust-cycle-chapter-5-participation-changes-beliefs.mp3",
+  "audioSha256": "sha256:0772725929817f76cad1db3e6f2783b5b8f2ed019d61ce4af2e24a3c73e30e2d",
+  "generatedAt": "2026-10-06T01:40:18Z"
+}

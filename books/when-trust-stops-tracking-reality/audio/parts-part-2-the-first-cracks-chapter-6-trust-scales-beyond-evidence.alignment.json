@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-2-the-first-cracks-chapter-6-trust-scales-beyond-evidence",
+  "generationHash": "sha256:633ec941975dcf17b3134f4ea59b4f695be5dea7bcc28d0f741ac0ca7f4dfa47",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Trust Scales Beyond Evidence",
+      "startMs": 0.0,
+      "endMs": 2194.0,
+      "charStart": 0,
+      "charEnd": 28
+    },
+    {
+      "id": "s0002",
+      "text": "> How can trust survive beyond direct experience?",
+      "startMs": 2252.0,
+      "endMs": 5932.0,
+      "charStart": 30,
+      "charEnd": 79
+    },
+    {
+      "id": "s0003",
+      "text": "At scale, most people trust a story about an institution—not the institution they have personally tested.",
+      "startMs": 6443.0,
+      "endMs": 13154.0,
+      "charStart": 81,
+      "charEnd": 186
+    },
+    {
+      "id": "s0004",
+      "text": "By the time Olivia Tran joined Calder Family Health, the organization had become a regional network.",
+      "startMs": 13758.0,
+      "endMs": 19655.0,
+      "charStart": 188,
+      "charEnd": 288
+    },
+    {
+      "id": "s0005",
+      "text": "Hundreds of employees worked across multiple locations.",
+      "startMs": 20039.0,
+      "endMs": 23510.0,
+      "charStart": 289,
+      "charEnd": 344
+    },
+    {
+      "id": "s0006",
+      "text": "Most had never worked directly with David Marsh.",
+      "startMs": 23893.0,
+      "endMs": 26610.0,
+      "charStart": 345,
+      "charEnd": 393
+    },
+    {
+      "id": "s0007",
+      "text": "Many had never met him.",
+      "startMs": 26854.0,
+      "endMs": 28293.0,
+      "charStart": 394,
+      "charEnd": 417
+    },
+    {
+      "id": "s0008",
+      "text": "Yet they trusted Calder with the confidence of people who had.",
+      "startMs": 28676.0,
+      "endMs": 32229.0,
+      "charStart": 418,
+      "charEnd": 480
+    },
+    {
+      "id": "s0009",
+      "text": "Olivia was one of them.",
+      "startMs": 32670.0,
+      "endMs": 34319.0,
+      "charStart": 482,
+      "charEnd": 505
+    },
+    {
+      "id": "s0010",
+      "text": "She knew David primarily through stories—the culture he had built, the values he represented, the reputation that preceded her at every clinic.",
+      "startMs": 34760.0,
+      "endMs": 44060.0,
+      "charStart": 506,
+      "charEnd": 649
+    },
+    {
+      "id": "s0011",
+      "text": "Everything she learned suggested he deserved the trust people placed in him.",
+      "startMs": 44501.0,
+      "endMs": 49099.0,
+      "charStart": 650,
+      "charEnd": 726
+    },
+    {
+      "id": "s0012",
+      "text": "Nothing she observed directly contradicted that conclusion.",
+      "startMs": 49911.0,
+      "endMs": 53371.0,
+      "charStart": 727,
+      "charEnd": 786
+    },
+    {
+      "id": "s0013",
+      "text": "The trust felt firsthand.",
+      "startMs": 53812.0,
+      "endMs": 55693.0,
+      "charStart": 788,
+      "charEnd": 813
+    },
+    {
+      "id": "s0014",
+      "text": "It was not.",
+      "startMs": 55972.0,
+      "endMs": 56901.0,
+      "charStart": 814,
+      "charEnd": 825
+    },
+    {
+      "id": "s0015",
+      "text": "Olivia had built her career quickly at Calder partly because she believed in what those stories described.",
+      "startMs": 57853.0,
+      "endMs": 64238.0,
+      "charStart": 827,
+      "charEnd": 933
+    },
+    {
+      "id": "s0016",
+      "text": "Questioning them felt like questioning her own place inside the organization.",
+      "startMs": 64749.0,
+      "endMs": 69138.0,
+      "charStart": 934,
+      "charEnd": 1011
+    },
+    {
+      "id": "s0017",
+      "text": "She could see problems at her clinic.",
+      "startMs": 69648.0,
+      "endMs": 71622.0,
+      "charStart": 1012,
+      "charEnd": 1049
+    },
+    {
+      "id": "s0018",
+      "text": "She could not easily see whether they extended beyond it—or whether the culture she admired still matched the culture she had joined.",
+      "startMs": 72063.0,
+      "endMs": 79366.0,
+      "charStart": 1050,
+      "charEnd": 1183
+    },
+    {
+      "id": "s0019",
+      "text": "Trust often begins through direct observation.",
+      "startMs": 80179.0,
+      "endMs": 83685.0,
+      "charStart": 1185,
+      "charEnd": 1231
+    },
+    {
+      "id": "s0020",
+      "text": "People witness competence, integrity, and good judgment.",
+      "startMs": 84068.0,
+      "endMs": 88050.0,
+      "charStart": 1232,
+      "charEnd": 1288
+    },
+    {
+      "id": "s0021",
+      "text": "Over time, trust becomes portable.",
+      "startMs": 88492.0,
+      "endMs": 91057.0,
+      "charStart": 1289,
+      "charEnd": 1323
+    },
+    {
+      "id": "s0022",
+      "text": "Stories carry it.",
+      "startMs": 91499.0,
+      "endMs": 92787.0,
+      "charStart": 1324,
+      "charEnd": 1341
+    },
+    {
+      "id": "s0023",
+      "text": "Reputations carry it.",
+      "startMs": 93112.0,
+      "endMs": 94691.0,
+      "charStart": 1342,
+      "charEnd": 1363
+    },
+    {
+      "id": "s0024",
+      "text": "Procedures and brands carry it.",
+      "startMs": 95132.0,
+      "endMs": 97269.0,
+      "charStart": 1364,
+      "charEnd": 1395
+    },
+    {
+      "id": "s0025",
+      "text": "People inherit trust they did not personally create—and inherited trust can feel as solid as trust earned through experience.",
+      "startMs": 97594.0,
+      "endMs": 106406.0,
+      "charStart": 1396,
+      "charEnd": 1521
+    },
+    {
+      "id": "s0026",
+      "text": "The same shift appears outside institutions.",
+      "startMs": 106731.0,
+      "endMs": 109750.0,
+      "charStart": 1523,
+      "charEnd": 1567
+    },
+    {
+      "id": "s0027",
+      "text": "A family name carries expectations.",
+      "startMs": 110191.0,
+      "endMs": 112884.0,
+      "charStart": 1568,
+      "charEnd": 1603
+    },
+    {
+      "id": "s0028",
+      "text": "A school's reputation precedes any single classroom.",
+      "startMs": 113059.0,
+      "endMs": 116542.0,
+      "charStart": 1604,
+      "charEnd": 1656
+    },
+    {
+      "id": "s0029",
+      "text": "A friend's long-standing loyalty can outlast the behaviors that first earned it.",
+      "startMs": 116751.0,
+      "endMs": 121871.0,
+      "charStart": 1657,
+      "charEnd": 1737
+    },
+    {
+      "id": "s0030",
+      "text": "Large systems depend on this portability.",
+      "startMs": 122254.0,
+      "endMs": 125005.0,
+      "charStart": 1738,
+      "charEnd": 1779
+    },
+    {
+      "id": "s0031",
+      "text": "Without inherited trust, scale becomes impossible.",
+      "startMs": 125214.0,
+      "endMs": 128930.0,
+      "charStart": 1780,
+      "charEnd": 1830
+    },
+    {
+      "id": "s0032",
+      "text": "The difficulty is that inherited trust differs from direct experience.",
+      "startMs": 129208.0,
+      "endMs": 134038.0,
+      "charStart": 1832,
+      "charEnd": 1902
+    },
+    {
+      "id": "s0033",
+      "text": "Direct experience continuously exposes trust to reality.",
+      "startMs": 134282.0,
+      "endMs": 139170.0,
+      "charStart": 1903,
+      "charEnd": 1959
+    },
+    {
+      "id": "s0034",
+      "text": "Inherited trust relies on representations—stories, reputations, policies, traditions—that compress what no one person can verify for themselves.",
+      "startMs": 139773.0,
+      "endMs": 151824.0,
+      "charStart": 1960,
+      "charEnd": 2104
+    },
+    {
+      "id": "s0035",
+      "text": "Abstraction solves a real problem.",
+      "startMs": 152428.0,
+      "endMs": 155145.0,
+      "charStart": 2105,
+      "charEnd": 2139
+    },
+    {
+      "id": "s0036",
+      "text": "It also creates distance—and distance changes what people can see.",
+      "startMs": 155656.0,
+      "endMs": 160347.0,
+      "charStart": 2140,
+      "charEnd": 2206
+    },
+    {
+      "id": "s0037",
+      "text": "The challenge emerges when the representations remain stable while reality changes underneath them.",
+      "startMs": 161043.0,
+      "endMs": 167324.0,
+      "charStart": 2208,
+      "charEnd": 2307
+    },
+    {
+      "id": "s0038",
+      "text": "A reputation can survive longer than the conditions that created it.",
+      "startMs": 167928.0,
+      "endMs": 172107.0,
+      "charStart": 2308,
+      "charEnd": 2376
+    },
+    {
+      "id": "s0039",
+      "text": "A story can survive longer than the reality it once described.",
+      "startMs": 172491.0,
+      "endMs": 176392.0,
+      "charStart": 2377,
+      "charEnd": 2439
+    },
+    {
+      "id": "s0040",
+      "text": "At Calder, Olivia inherited trust built through years of real success—not imaginary trust, not false stories—but trust carried by culture and institutional memory rather than direct evidence.",
+      "startMs": 176775.0,
+      "endMs": 190521.0,
+      "charStart": 2441,
+      "charEnd": 2632
+    },
+    {
+      "id": "s0041",
+      "text": "What she could not easily know was whether the conditions that had originally justified that trust remained unchanged.",
+      "startMs": 191473.0,
+      "endMs": 198787.0,
+      "charStart": 2633,
+      "charEnd": 2751
+    },
+    {
+      "id": "s0042",
+      "text": "That is the central challenge of scale.",
+      "startMs": 199298.0,
+      "endMs": 201597.0,
+      "charStart": 2753,
+      "charEnd": 2792
+    },
+    {
+      "id": "s0043",
+      "text": "The larger a system becomes, the more people trust what they have been told about it.",
+      "startMs": 201922.0,
+      "endMs": 207170.0,
+      "charStart": 2793,
+      "charEnd": 2878
+    },
+    {
+      "id": "s0044",
+      "text": "The more they trust what they have been told, the harder it becomes to notice when the story and the reality begin to diverge.",
+      "startMs": 207495.0,
+      "endMs": 215761.0,
+      "charStart": 2879,
+      "charEnd": 3005
+    },
+    {
+      "id": "s0045",
+      "text": "Core Principle",
+      "startMs": 216713.0,
+      "endMs": 217468.0,
+      "charStart": 3007,
+      "charEnd": 3021
+    },
+    {
+      "id": "s0046",
+      "text": "Abstraction Can Hide Reality",
+      "startMs": 217514.0,
+      "endMs": 220127.0,
+      "charStart": 3023,
+      "charEnd": 3051
+    },
+    {
+      "id": "s0047",
+      "text": "Inherited trust can feel firsthand—and that is when distance becomes hardest to see.",
+      "startMs": 221079.0,
+      "endMs": 227464.0,
+      "charStart": 3053,
+      "charEnd": 3137
+    }
+  ]
+}

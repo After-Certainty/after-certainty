@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-back-matter-conclusion-the-next-neighbor",
+  "generationHash": "sha256:bd19a1b41b713dbf52231f69a42fd8bd05ad4ca412d216159b4343de8ab8c09b",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Conclusion",
+      "startMs": 0.0,
+      "endMs": 755.0,
+      "charStart": 0,
+      "charEnd": 10
+    },
+    {
+      "id": "s0002",
+      "text": "The Next Neighbor",
+      "startMs": 1138.0,
+      "endMs": 2206.0,
+      "charStart": 12,
+      "charEnd": 29
+    },
+    {
+      "id": "s0003",
+      "text": "The new family never arrived with trust.",
+      "startMs": 2903.0,
+      "endMs": 5538.0,
+      "charStart": 31,
+      "charEnd": 71
+    },
+    {
+      "id": "s0004",
+      "text": "They arrived with uncertainty.",
+      "startMs": 5921.0,
+      "endMs": 7860.0,
+      "charStart": 72,
+      "charEnd": 102
+    },
+    {
+      "id": "s0005",
+      "text": "No one knew whether they would become friends, strangers, collaborators, or merely people living nearby.",
+      "startMs": 8557.0,
+      "endMs": 15314.0,
+      "charStart": 104,
+      "charEnd": 208
+    },
+    {
+      "id": "s0006",
+      "text": "No one knew which conversations would matter, which favors would be remembered, or which small interactions would eventually become part of the neighborhood's story.",
+      "startMs": 16010.0,
+      "endMs": 25345.0,
+      "charStart": 209,
+      "charEnd": 374
+    },
+    {
+      "id": "s0007",
+      "text": "Every important relationship begins this way—not with confidence, but with the quiet question of whether participation is worth attempting.",
+      "startMs": 25786.0,
+      "endMs": 33820.0,
+      "charStart": 375,
+      "charEnd": 514
+    },
+    {
+      "id": "s0008",
+      "text": "Trust did not appear all at once.",
+      "startMs": 34261.0,
+      "endMs": 36398.0,
+      "charStart": 516,
+      "charEnd": 549
+    },
+    {
+      "id": "s0009",
+      "text": "A greeting became a conversation.",
+      "startMs": 36723.0,
+      "endMs": 38743.0,
+      "charStart": 550,
+      "charEnd": 583
+    },
+    {
+      "id": "s0010",
+      "text": "A conversation became a favor.",
+      "startMs": 38987.0,
+      "endMs": 40937.0,
+      "charStart": 584,
+      "charEnd": 614
+    },
+    {
+      "id": "s0011",
+      "text": "A favor became an expectation.",
+      "startMs": 41111.0,
+      "endMs": 43317.0,
+      "charStart": 615,
+      "charEnd": 645
+    },
+    {
+      "id": "s0012",
+      "text": "An expectation became participation.",
+      "startMs": 43561.0,
+      "endMs": 46173.0,
+      "charStart": 646,
+      "charEnd": 682
+    },
+    {
+      "id": "s0013",
+      "text": "Participation became experience.",
+      "startMs": 46498.0,
+      "endMs": 49122.0,
+      "charStart": 683,
+      "charEnd": 715
+    },
+    {
+      "id": "s0014",
+      "text": "Experience became trust.",
+      "startMs": 49366.0,
+      "endMs": 51247.0,
+      "charStart": 716,
+      "charEnd": 740
+    },
+    {
+      "id": "s0015",
+      "text": "The process felt ordinary while it was happening.",
+      "startMs": 51572.0,
+      "endMs": 54207.0,
+      "charStart": 742,
+      "charEnd": 791
+    },
+    {
+      "id": "s0016",
+      "text": "Most important things do.",
+      "startMs": 54532.0,
+      "endMs": 56413.0,
+      "charStart": 792,
+      "charEnd": 817
+    },
+    {
+      "id": "s0017",
+      "text": "Looking back, however, it becomes difficult to imagine the neighborhood without it.",
+      "startMs": 56924.0,
+      "endMs": 61196.0,
+      "charStart": 818,
+      "charEnd": 901
+    },
+    {
+      "id": "s0018",
+      "text": "The package under the porch roof, the shoveling after the storm, the block party, the borrowed tools, the rumors corrected over coffee—each moment seemed small on its own.",
+      "startMs": 61475.0,
+      "endMs": 72737.0,
+      "charStart": 902,
+      "charEnd": 1073
+    },
+    {
+      "id": "s0019",
+      "text": "Together they became the texture of a place where cooperation no longer required constant renegotiation.",
+      "startMs": 73120.0,
+      "endMs": 79401.0,
+      "charStart": 1074,
+      "charEnd": 1178
+    },
+    {
+      "id": "s0020",
+      "text": "This is what trust makes possible—not certainty, not guarantees, but participation.",
+      "startMs": 79784.0,
+      "endMs": 85751.0,
+      "charStart": 1180,
+      "charEnd": 1263
+    },
+    {
+      "id": "s0021",
+      "text": "The willingness to act before every question has been answered.",
+      "startMs": 86262.0,
+      "endMs": 89780.0,
+      "charStart": 1264,
+      "charEnd": 1327
+    },
+    {
+      "id": "s0022",
+      "text": "The willingness to contribute before every outcome is known.",
+      "startMs": 90105.0,
+      "endMs": 93426.0,
+      "charStart": 1328,
+      "charEnd": 1388
+    },
+    {
+      "id": "s0023",
+      "text": "The willingness to rely on people who remain partly mysterious.",
+      "startMs": 93809.0,
+      "endMs": 97710.0,
+      "charStart": 1389,
+      "charEnd": 1452
+    },
+    {
+      "id": "s0024",
+      "text": "Human beings spend much of life waiting for certainty.",
+      "startMs": 98035.0,
+      "endMs": 101332.0,
+      "charStart": 1454,
+      "charEnd": 1508
+    },
+    {
+      "id": "s0025",
+      "text": "Trust asks something different.",
+      "startMs": 101506.0,
+      "endMs": 103642.0,
+      "charStart": 1509,
+      "charEnd": 1540
+    },
+    {
+      "id": "s0026",
+      "text": "Trust asks whether participation can begin before certainty arrives.",
+      "startMs": 104026.0,
+      "endMs": 108553.0,
+      "charStart": 1541,
+      "charEnd": 1609
+    },
+    {
+      "id": "s0027",
+      "text": "The answer is not always yes.",
+      "startMs": 108832.0,
+      "endMs": 110887.0,
+      "charStart": 1611,
+      "charEnd": 1640
+    },
+    {
+      "id": "s0028",
+      "text": "Trust can be misplaced.",
+      "startMs": 111212.0,
+      "endMs": 112977.0,
+      "charStart": 1641,
+      "charEnd": 1664
+    },
+    {
+      "id": "s0029",
+      "text": "People disappoint one another.",
+      "startMs": 113220.0,
+      "endMs": 114846.0,
+      "charStart": 1665,
+      "charEnd": 1695
+    },
+    {
+      "id": "s0030",
+      "text": "Communities disagree.",
+      "startMs": 115055.0,
+      "endMs": 116518.0,
+      "charStart": 1696,
+      "charEnd": 1717
+    },
+    {
+      "id": "s0031",
+      "text": "The possibility of disappointment never disappears.",
+      "startMs": 116669.0,
+      "endMs": 119583.0,
+      "charStart": 1718,
+      "charEnd": 1769
+    },
+    {
+      "id": "s0032",
+      "text": "Neither does the need for cooperation.",
+      "startMs": 119757.0,
+      "endMs": 121940.0,
+      "charStart": 1771,
+      "charEnd": 1809
+    },
+    {
+      "id": "s0033",
+      "text": "Families still need to raise children.",
+      "startMs": 122114.0,
+      "endMs": 124203.0,
+      "charStart": 1810,
+      "charEnd": 1848
+    },
+    {
+      "id": "s0034",
+      "text": "Teams still need to coordinate work.",
+      "startMs": 124412.0,
+      "endMs": 126792.0,
+      "charStart": 1849,
+      "charEnd": 1885
+    },
+    {
+      "id": "s0035",
+      "text": "Communities still need to solve shared problems.",
+      "startMs": 126967.0,
+      "endMs": 129950.0,
+      "charStart": 1886,
+      "charEnd": 1934
+    },
+    {
+      "id": "s0036",
+      "text": "Societies still need ways to live together despite uncertainty.",
+      "startMs": 130275.0,
+      "endMs": 134130.0,
+      "charStart": 1935,
+      "charEnd": 1998
+    },
+    {
+      "id": "s0037",
+      "text": "Trust remains necessary because uncertainty remains permanent.",
+      "startMs": 134339.0,
+      "endMs": 138832.0,
+      "charStart": 1999,
+      "charEnd": 2061
+    },
+    {
+      "id": "s0038",
+      "text": "The point is not to eliminate uncertainty.",
+      "startMs": 139110.0,
+      "endMs": 141676.0,
+      "charStart": 2063,
+      "charEnd": 2105
+    },
+    {
+      "id": "s0039",
+      "text": "The point is to learn how to participate within it.",
+      "startMs": 141885.0,
+      "endMs": 145019.0,
+      "charStart": 2106,
+      "charEnd": 2157
+    },
+    {
+      "id": "s0040",
+      "text": "The family that moved in next door eventually became part of the neighborhood.",
+      "startMs": 145461.0,
+      "endMs": 149466.0,
+      "charStart": 2159,
+      "charEnd": 2237
+    },
+    {
+      "id": "s0041",
+      "text": "They remembered what the first weeks had felt like—the unfamiliar driveways, the unanswered questions, the small gamble of saying hello.",
+      "startMs": 149791.0,
+      "endMs": 157732.0,
+      "charStart": 2238,
+      "charEnd": 2374
+    },
+    {
+      "id": "s0042",
+      "text": "One day they helped welcome another family to the street.",
+      "startMs": 158116.0,
+      "endMs": 161448.0,
+      "charStart": 2375,
+      "charEnd": 2432
+    },
+    {
+      "id": "s0043",
+      "text": "They carried a box up the walk and tried to make the new arrivals feel less alone than they had once felt themselves.",
+      "startMs": 161959.0,
+      "endMs": 168274.0,
+      "charStart": 2433,
+      "charEnd": 2550
+    },
+    {
+      "id": "s0044",
+      "text": "The cycle began again.",
+      "startMs": 168658.0,
+      "endMs": 170120.0,
+      "charStart": 2552,
+      "charEnd": 2574
+    },
+    {
+      "id": "s0045",
+      "text": "A wave.",
+      "startMs": 170562.0,
+      "endMs": 171386.0,
+      "charStart": 2576,
+      "charEnd": 2583
+    },
+    {
+      "id": "s0046",
+      "text": "A conversation.",
+      "startMs": 171769.0,
+      "endMs": 172977.0,
+      "charStart": 2584,
+      "charEnd": 2599
+    },
+    {
+      "id": "s0047",
+      "text": "An offer to help.",
+      "startMs": 173302.0,
+      "endMs": 174590.0,
+      "charStart": 2600,
+      "charEnd": 2617
+    },
+    {
+      "id": "s0048",
+      "text": "Trust had not formed.",
+      "startMs": 175031.0,
+      "endMs": 176657.0,
+      "charStart": 2619,
+      "charEnd": 2640
+    },
+    {
+      "id": "s0049",
+      "text": "Participation had.",
+      "startMs": 176901.0,
+      "endMs": 178538.0,
+      "charStart": 2641,
+      "charEnd": 2659
+    },
+    {
+      "id": "s0050",
+      "text": "And as it always does, trust would grow from there.",
+      "startMs": 178863.0,
+      "endMs": 182172.0,
+      "charStart": 2660,
+      "charEnd": 2711
+    },
+    {
+      "id": "s0051",
+      "text": "Not everyone participated in the same way.",
+      "startMs": 182683.0,
+      "endMs": 185365.0,
+      "charStart": 2713,
+      "charEnd": 2755
+    },
+    {
+      "id": "s0052",
+      "text": "Some organized gatherings.",
+      "startMs": 185748.0,
+      "endMs": 187698.0,
+      "charStart": 2756,
+      "charEnd": 2782
+    },
+    {
+      "id": "s0053",
+      "text": "Some showed up occasionally.",
+      "startMs": 188023.0,
+      "endMs": 189800.0,
+      "charStart": 2783,
+      "charEnd": 2811
+    },
+    {
+      "id": "s0054",
+      "text": "Some preferred brief conversations at the mailbox to long evenings around a table.",
+      "startMs": 190125.0,
+      "endMs": 194862.0,
+      "charStart": 2812,
+      "charEnd": 2894
+    },
+    {
+      "id": "s0055",
+      "text": "One household remained mostly at the edges of neighborhood life for years.",
+      "startMs": 195372.0,
+      "endMs": 199587.0,
+      "charStart": 2895,
+      "charEnd": 2969
+    },
+    {
+      "id": "s0056",
+      "text": "The quiet house remained quiet.",
+      "startMs": 200098.0,
+      "endMs": 202246.0,
+      "charStart": 2970,
+      "charEnd": 3001
+    },
+    {
+      "id": "s0057",
+      "text": "They still preferred distance to crowds and conversations to meetings.",
+      "startMs": 202571.0,
+      "endMs": 206669.0,
+      "charStart": 3002,
+      "charEnd": 3072
+    },
+    {
+      "id": "s0058",
+      "text": "Yet when people spoke about the neighborhood, nobody questioned whether they belonged there.",
+      "startMs": 207052.0,
+      "endMs": 211824.0,
+      "charStart": 3073,
+      "charEnd": 3165
+    },
+    {
+      "id": "s0059",
+      "text": "Trust had never required uniformity.",
+      "startMs": 212265.0,
+      "endMs": 214842.0,
+      "charStart": 3166,
+      "charEnd": 3202
+    },
+    {
+      "id": "s0060",
+      "text": "Participation is not conformity.",
+      "startMs": 215283.0,
+      "endMs": 217965.0,
+      "charStart": 3203,
+      "charEnd": 3235
+    },
+    {
+      "id": "s0061",
+      "text": "Belonging does not require identical behavior.",
+      "startMs": 218406.0,
+      "endMs": 221680.0,
+      "charStart": 3236,
+      "charEnd": 3282
+    },
+    {
+      "id": "s0062",
+      "text": "What trust required was enough participation, offered in enough different ways, for cooperation to continue.",
+      "startMs": 222122.0,
+      "endMs": 229343.0,
+      "charStart": 3283,
+      "charEnd": 3391
+    },
+    {
+      "id": "s0063",
+      "text": "Every generation becomes the new neighbor.",
+      "startMs": 230040.0,
+      "endMs": 232408.0,
+      "charStart": 3393,
+      "charEnd": 3435
+    },
+    {
+      "id": "s0064",
+      "text": "Every neighbor becomes part of the story the next person cannot yet see.",
+      "startMs": 232733.0,
+      "endMs": 236681.0,
+      "charStart": 3436,
+      "charEnd": 3508
+    },
+    {
+      "id": "s0065",
+      "text": "That is not a reason for naïveté.",
+      "startMs": 236959.0,
+      "endMs": 239212.0,
+      "charStart": 3509,
+      "charEnd": 3542
+    },
+    {
+      "id": "s0066",
+      "text": "It is a reason for hope grounded in practice: cooperation begins before trust is complete, and trust grows where participation is allowed to continue.",
+      "startMs": 239537.0,
+      "endMs": 248500.0,
+      "charStart": 3543,
+      "charEnd": 3693
+    }
+  ]
+}

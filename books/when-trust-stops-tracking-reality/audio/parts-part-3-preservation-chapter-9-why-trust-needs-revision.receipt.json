@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-3-preservation-chapter-9-why-trust-needs-revision",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-3-preservation-chapter-9-why-trust-needs-revision",
+  "sourcePath": "parts/part-3-preservation/chapter-9-why-trust-needs-revision.md",
+  "sourceHash": "sha256:fcffb217a8a0d0a55a6285fd9505bc9543329914efee8113f76646dc4b7efcf3",
+  "spokenTextHash": "sha256:df82e8ec3e507fc3ea64ca8f6ed19f0cfca31fd6c80bf1c253868185181818e5",
+  "generationHash": "sha256:dbba46893db10e3621ca1ae49d90984bf03e6de4c3ba17b0b522a535ff59ed36",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 5358,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1339.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1339.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-3-preservation-chapter-9-why-trust-needs-revision.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-3-preservation-chapter-9-why-trust-needs-revision.mp3",
+  "audioSha256": "sha256:240032e4801460dafe85b92c1fce8ebed19f61bb99953c92d47724d37494539d",
+  "generatedAt": "2026-10-06T01:43:05Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-1-why-trust-exists-chapter-1-trust-creates-shortcuts",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-1-why-trust-exists-chapter-1-trust-creates-shortcuts",
+  "sourcePath": "parts/part-1-why-trust-exists/chapter-1-trust-creates-shortcuts.md",
+  "sourceHash": "sha256:2fd2a4227fc276a137d957bf8b057c41bf3e6941e972ed2ca8c6faa764f4d8b4",
+  "spokenTextHash": "sha256:e258bdcbbdff68da0338d2b81958c5ae3135eace33d3180612b1d6f9703af074",
+  "generationHash": "sha256:2bbabdb42ba5cf46c9f9b8209c292f995afcadc2a34a2bf010a81c849fca7eb5",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2253,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 563.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 563.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-1-why-trust-exists-chapter-1-trust-creates-shortcuts.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-1-why-trust-exists-chapter-1-trust-creates-shortcuts.mp3",
+  "audioSha256": "sha256:cfcb8dbc4856ee382663ee1dd8795c947155f91a4353ace09108d5bc3edd96c5",
+  "generatedAt": "2026-10-06T01:41:53Z"
+}

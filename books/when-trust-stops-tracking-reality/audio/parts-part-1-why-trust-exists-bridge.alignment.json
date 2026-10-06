@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-1-why-trust-exists-bridge",
+  "generationHash": "sha256:6225b052e71cae6d1c3c7839775e38e33384c43d1454e2148297c8c50ccad332",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part I — Why Trust Exists",
+      "startMs": 0.0,
+      "endMs": 3239.0,
+      "charStart": 0,
+      "charEnd": 25
+    },
+    {
+      "id": "s0002",
+      "text": "Trust solves a real problem.",
+      "startMs": 4539.0,
+      "endMs": 6339.0,
+      "charStart": 27,
+      "charEnd": 55
+    },
+    {
+      "id": "s0003",
+      "text": "No individual can verify everything—and human beings cooperate by relying on knowledge, expertise, and judgment they do not personally possess.",
+      "startMs": 6849.0,
+      "endMs": 15696.0,
+      "charStart": 56,
+      "charEnd": 199
+    },
+    {
+      "id": "s0004",
+      "text": "Trust makes that cooperation possible.",
+      "startMs": 16207.0,
+      "endMs": 18610.0,
+      "charStart": 201,
+      "charEnd": 239
+    },
+    {
+      "id": "s0005",
+      "text": "Without trust, every decision would require endless verification.",
+      "startMs": 18993.0,
+      "endMs": 23358.0,
+      "charStart": 240,
+      "charEnd": 305
+    },
+    {
+      "id": "s0006",
+      "text": "Every interaction would become slower, more expensive, and more uncertain.",
+      "startMs": 23684.0,
+      "endMs": 28525.0,
+      "charStart": 306,
+      "charEnd": 380
+    },
+    {
+      "id": "s0007",
+      "text": "Families, organizations, communities, and institutions depend on trust because verification alone cannot sustain them.",
+      "startMs": 29338.0,
+      "endMs": 37384.0,
+      "charStart": 381,
+      "charEnd": 499
+    },
+    {
+      "id": "s0008",
+      "text": "For that reason, trust should not be understood as a flaw in human reasoning.",
+      "startMs": 38080.0,
+      "endMs": 42817.0,
+      "charStart": 501,
+      "charEnd": 578
+    },
+    {
+      "id": "s0009",
+      "text": "Trust is one of humanity's most important coordination mechanisms.",
+      "startMs": 43258.0,
+      "endMs": 47658.0,
+      "charStart": 579,
+      "charEnd": 645
+    },
+    {
+      "id": "s0010",
+      "text": "The purpose of the next chapters is not to criticize trust.",
+      "startMs": 48169.0,
+      "endMs": 51884.0,
+      "charStart": 647,
+      "charEnd": 706
+    },
+    {
+      "id": "s0011",
+      "text": "It is to understand why trust works.",
+      "startMs": 52209.0,
+      "endMs": 54531.0,
+      "charStart": 707,
+      "charEnd": 743
+    },
+    {
+      "id": "s0012",
+      "text": "Only after understanding how trust forms can we understand how it sometimes drifts.",
+      "startMs": 54740.0,
+      "endMs": 60464.0,
+      "charStart": 744,
+      "charEnd": 827
+    }
+  ]
+}

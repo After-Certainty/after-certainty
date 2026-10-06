@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-2-the-first-cracks-chapter-6-trust-scales-beyond-evidence",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-2-the-first-cracks-chapter-6-trust-scales-beyond-evidence",
+  "sourcePath": "parts/part-2-the-first-cracks/chapter-6-trust-scales-beyond-evidence.md",
+  "sourceHash": "sha256:b1f94998651591a54df3e5bbde3b66c0adf2016ad2c3d833e6770cc88707f617",
+  "spokenTextHash": "sha256:52e729d48ee9eecbb91003079da4ca4707022e588d21617eea1b473fd0e31699",
+  "generationHash": "sha256:633ec941975dcf17b3134f4ea59b4f695be5dea7bcc28d0f741ac0ca7f4dfa47",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3137,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 784.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 784.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-2-the-first-cracks-chapter-6-trust-scales-beyond-evidence.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-2-the-first-cracks-chapter-6-trust-scales-beyond-evidence.mp3",
+  "audioSha256": "sha256:d881c46a255fe8731ad6fbf21ad5f30d93b92eacf6bc06098389f397db850a7f",
+  "generatedAt": "2026-10-06T01:42:36Z"
+}

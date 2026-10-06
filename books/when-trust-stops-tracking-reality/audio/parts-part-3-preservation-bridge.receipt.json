@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-3-preservation-bridge",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-3-preservation-bridge",
+  "sourcePath": "parts/part-3-preservation/bridge.md",
+  "sourceHash": "sha256:42919eefc2423bd159ebca4c647fc81571cba97fe3607cdf58198a1fdd94ecb5",
+  "spokenTextHash": "sha256:b54bba079820c73c71152965cd8e1cc5b186beb0f1fa2314e36a199279316ab4",
+  "generationHash": "sha256:a54581646c422c35573e66fea009bb0ef4229dc0aef3858768ca1e9ceab9a3c9",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1204,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 301.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 301.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-3-preservation-bridge.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-3-preservation-bridge.mp3",
+  "audioSha256": "sha256:8b32e6e6859444ce1bf99915a020f8dd121904eaf881543aa81d96fe8c0eb93b",
+  "generatedAt": "2026-10-06T01:42:40Z"
+}

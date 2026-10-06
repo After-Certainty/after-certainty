@@ -1,0 +1,808 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-1-the-architecture-of-trust-chapter-3-outcomes-create-evidence",
+  "generationHash": "sha256:be6e36c9c59ee3fd42ad2d65fd917213682220a92a2c44b95cf87e6d31c2600e",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Outcomes Create Evidence",
+      "startMs": 0.0,
+      "endMs": 2960.0,
+      "charStart": 0,
+      "charEnd": 24
+    },
+    {
+      "id": "s0002",
+      "text": "> How do we know whether trust was justified?",
+      "startMs": 2995.0,
+      "endMs": 6408.0,
+      "charStart": 26,
+      "charEnd": 71
+    },
+    {
+      "id": "s0003",
+      "text": "Visibility alone is not enough.",
+      "startMs": 7105.0,
+      "endMs": 9543.0,
+      "charStart": 73,
+      "charEnd": 104
+    },
+    {
+      "id": "s0004",
+      "text": "People also need evidence—and evidence comes from what happens after the action, not from the action alone.",
+      "startMs": 9868.0,
+      "endMs": 15777.0,
+      "charStart": 105,
+      "charEnd": 212
+    },
+    {
+      "id": "s0005",
+      "text": "One winter, the neighbors went out of town for a week.",
+      "startMs": 16729.0,
+      "endMs": 19701.0,
+      "charStart": 214,
+      "charEnd": 268
+    },
+    {
+      "id": "s0006",
+      "text": "A storm arrived two days after they left.",
+      "startMs": 20027.0,
+      "endMs": 22430.0,
+      "charStart": 269,
+      "charEnd": 310
+    },
+    {
+      "id": "s0007",
+      "text": "Snow accumulated across the neighborhood.",
+      "startMs": 22813.0,
+      "endMs": 25089.0,
+      "charStart": 312,
+      "charEnd": 353
+    },
+    {
+      "id": "s0008",
+      "text": "Driveways disappeared beneath drifts.",
+      "startMs": 25333.0,
+      "endMs": 27689.0,
+      "charStart": 354,
+      "charEnd": 391
+    },
+    {
+      "id": "s0009",
+      "text": "Cars sat buried along the curb.",
+      "startMs": 27933.0,
+      "endMs": 29919.0,
+      "charStart": 392,
+      "charEnd": 423
+    },
+    {
+      "id": "s0010",
+      "text": "The forecast kept predicting more.",
+      "startMs": 30244.0,
+      "endMs": 32252.0,
+      "charStart": 424,
+      "charEnd": 458
+    },
+    {
+      "id": "s0011",
+      "text": "The house next door remained dark.",
+      "startMs": 32635.0,
+      "endMs": 34655.0,
+      "charStart": 459,
+      "charEnd": 493
+    },
+    {
+      "id": "s0012",
+      "text": "On the third morning, he noticed that someone had cleared the front walk.",
+      "startMs": 35166.0,
+      "endMs": 38835.0,
+      "charStart": 495,
+      "charEnd": 568
+    },
+    {
+      "id": "s0013",
+      "text": "By evening, the driveway had been shoveled too.",
+      "startMs": 39114.0,
+      "endMs": 41842.0,
+      "charStart": 569,
+      "charEnd": 616
+    },
+    {
+      "id": "s0014",
+      "text": "When the family returned several days later, they found the house exactly as they had left it.",
+      "startMs": 42353.0,
+      "endMs": 47299.0,
+      "charStart": 618,
+      "charEnd": 712
+    },
+    {
+      "id": "s0015",
+      "text": "The walk was clear.",
+      "startMs": 47624.0,
+      "endMs": 48657.0,
+      "charStart": 713,
+      "charEnd": 732
+    },
+    {
+      "id": "s0016",
+      "text": "The packages had been collected.",
+      "startMs": 48901.0,
+      "endMs": 50631.0,
+      "charStart": 733,
+      "charEnd": 765
+    },
+    {
+      "id": "s0017",
+      "text": "The storm had come and gone.",
+      "startMs": 50875.0,
+      "endMs": 52454.0,
+      "charStart": 766,
+      "charEnd": 794
+    },
+    {
+      "id": "s0018",
+      "text": "Nothing needed explaining.",
+      "startMs": 52732.0,
+      "endMs": 54195.0,
+      "charStart": 795,
+      "charEnd": 821
+    },
+    {
+      "id": "s0019",
+      "text": "The outcome spoke for itself.",
+      "startMs": 54578.0,
+      "endMs": 56343.0,
+      "charStart": 823,
+      "charEnd": 852
+    },
+    {
+      "id": "s0020",
+      "text": "Intention Versus Evidence",
+      "startMs": 57643.0,
+      "endMs": 59884.0,
+      "charStart": 854,
+      "charEnd": 879
+    },
+    {
+      "id": "s0021",
+      "text": "The question shifts here.",
+      "startMs": 61184.0,
+      "endMs": 62659.0,
+      "charStart": 881,
+      "charEnd": 906
+    },
+    {
+      "id": "s0022",
+      "text": "The last chapter asked what people were doing.",
+      "startMs": 63170.0,
+      "endMs": 65562.0,
+      "charStart": 907,
+      "charEnd": 953
+    },
+    {
+      "id": "s0023",
+      "text": "This chapter asks what happened because they did it.",
+      "startMs": 65805.0,
+      "endMs": 68510.0,
+      "charStart": 954,
+      "charEnd": 1006
+    },
+    {
+      "id": "s0024",
+      "text": "Actions reveal beliefs.",
+      "startMs": 68789.0,
+      "endMs": 70473.0,
+      "charStart": 1008,
+      "charEnd": 1031
+    },
+    {
+      "id": "s0025",
+      "text": "Outcomes reveal whether those beliefs can be relied upon—and that distinction matters.",
+      "startMs": 70716.0,
+      "endMs": 75488.0,
+      "charStart": 1032,
+      "charEnd": 1118
+    },
+    {
+      "id": "s0026",
+      "text": "People often say they value responsibility.",
+      "startMs": 75767.0,
+      "endMs": 78391.0,
+      "charStart": 1120,
+      "charEnd": 1163
+    },
+    {
+      "id": "s0027",
+      "text": "People often intend to be dependable.",
+      "startMs": 78541.0,
+      "endMs": 80596.0,
+      "charStart": 1164,
+      "charEnd": 1201
+    },
+    {
+      "id": "s0028",
+      "text": "People often want to help.",
+      "startMs": 80747.0,
+      "endMs": 82071.0,
+      "charStart": 1202,
+      "charEnd": 1228
+    },
+    {
+      "id": "s0029",
+      "text": "Intentions matter, but evidence learns primarily through consequences.",
+      "startMs": 82094.0,
+      "endMs": 86111.0,
+      "charStart": 1229,
+      "charEnd": 1299
+    },
+    {
+      "id": "s0030",
+      "text": "A person may mean well, act consistently, and appear trustworthy—and still produce a poor outcome.",
+      "startMs": 86320.0,
+      "endMs": 92287.0,
+      "charStart": 1300,
+      "charEnd": 1398
+    },
+    {
+      "id": "s0031",
+      "text": "Or the reverse.",
+      "startMs": 92496.0,
+      "endMs": 93564.0,
+      "charStart": 1399,
+      "charEnd": 1414
+    },
+    {
+      "id": "s0032",
+      "text": "A promise becomes meaningful when it is kept.",
+      "startMs": 93739.0,
+      "endMs": 96409.0,
+      "charStart": 1415,
+      "charEnd": 1460
+    },
+    {
+      "id": "s0033",
+      "text": "A commitment becomes visible when it survives inconvenience.",
+      "startMs": 97106.0,
+      "endMs": 100403.0,
+      "charStart": 1461,
+      "charEnd": 1521
+    },
+    {
+      "id": "s0034",
+      "text": "A value becomes testable when it repeatedly produces outcomes that others can experience directly.",
+      "startMs": 101007.0,
+      "endMs": 107055.0,
+      "charStart": 1522,
+      "charEnd": 1620
+    },
+    {
+      "id": "s0035",
+      "text": "This is how trust learns—not through declarations, not through isolated actions, but through consequences that teach others what relying on you is likely to produce.",
+      "startMs": 107752.0,
+      "endMs": 118979.0,
+      "charStart": 1622,
+      "charEnd": 1787
+    },
+    {
+      "id": "s0036",
+      "text": "A neighbor who says they will collect your mail communicates intention.",
+      "startMs": 119257.0,
+      "endMs": 123298.0,
+      "charStart": 1788,
+      "charEnd": 1859
+    },
+    {
+      "id": "s0037",
+      "text": "A neighbor who actually collects your mail creates evidence.",
+      "startMs": 123507.0,
+      "endMs": 127559.0,
+      "charStart": 1860,
+      "charEnd": 1920
+    },
+    {
+      "id": "s0038",
+      "text": "Learning Through Consequences",
+      "startMs": 127942.0,
+      "endMs": 129626.0,
+      "charStart": 1922,
+      "charEnd": 1951
+    },
+    {
+      "id": "s0039",
+      "text": "Human beings are constantly making predictions.",
+      "startMs": 130926.0,
+      "endMs": 133585.0,
+      "charStart": 1953,
+      "charEnd": 2000
+    },
+    {
+      "id": "s0040",
+      "text": "Can this person be counted on?",
+      "startMs": 133828.0,
+      "endMs": 135616.0,
+      "charStart": 2001,
+      "charEnd": 2031
+    },
+    {
+      "id": "s0041",
+      "text": "Will this team follow through?",
+      "startMs": 135860.0,
+      "endMs": 137590.0,
+      "charStart": 2032,
+      "charEnd": 2062
+    },
+    {
+      "id": "s0042",
+      "text": "Will this institution do what it claims?",
+      "startMs": 137799.0,
+      "endMs": 140400.0,
+      "charStart": 2063,
+      "charEnd": 2103
+    },
+    {
+      "id": "s0043",
+      "text": "Every interaction quietly generates expectations about future interactions, and trust grows when outcomes repeatedly support those expectations.",
+      "startMs": 140725.0,
+      "endMs": 150164.0,
+      "charStart": 2104,
+      "charEnd": 2248
+    },
+    {
+      "id": "s0044",
+      "text": "Russell Hardin describes trust as a relationship connected to trustworthiness.",
+      "startMs": 150977.0,
+      "endMs": 155551.0,
+      "charStart": 2250,
+      "charEnd": 2328
+    },
+    {
+      "id": "s0045",
+      "text": "Trust is not simply confidence.",
+      "startMs": 156155.0,
+      "endMs": 158187.0,
+      "charStart": 2329,
+      "charEnd": 2360
+    },
+    {
+      "id": "s0046",
+      "text": "It emerges when people develop reasons to expect that another person, group, or institution will behave in ways that justify reliance.",
+      "startMs": 158465.0,
+      "endMs": 167126.0,
+      "charStart": 2361,
+      "charEnd": 2495
+    },
+    {
+      "id": "s0047",
+      "text": "Outcomes provide those reasons.",
+      "startMs": 167823.0,
+      "endMs": 170006.0,
+      "charStart": 2496,
+      "charEnd": 2527
+    },
+    {
+      "id": "s0048",
+      "text": "Each successful prediction reinforces participation.",
+      "startMs": 170516.0,
+      "endMs": 173999.0,
+      "charStart": 2528,
+      "charEnd": 2580
+    },
+    {
+      "id": "s0049",
+      "text": "Each broken prediction weakens it.",
+      "startMs": 174325.0,
+      "endMs": 176600.0,
+      "charStart": 2581,
+      "charEnd": 2615
+    },
+    {
+      "id": "s0050",
+      "text": "Over time, trust becomes a kind of accumulated learning—not certainty, but evidence.",
+      "startMs": 177111.0,
+      "endMs": 183415.0,
+      "charStart": 2616,
+      "charEnd": 2700
+    },
+    {
+      "id": "s0051",
+      "text": "John Dewey argued that human beings learn through experience.",
+      "startMs": 184367.0,
+      "endMs": 187688.0,
+      "charStart": 2702,
+      "charEnd": 2763
+    },
+    {
+      "id": "s0052",
+      "text": "We act, observe consequences, adjust expectations, and act again.",
+      "startMs": 188013.0,
+      "endMs": 192831.0,
+      "charStart": 2764,
+      "charEnd": 2829
+    },
+    {
+      "id": "s0053",
+      "text": "Trust follows a similar pattern.",
+      "startMs": 193214.0,
+      "endMs": 195281.0,
+      "charStart": 2830,
+      "charEnd": 2862
+    },
+    {
+      "id": "s0054",
+      "text": "It develops through repeated cycles of action and feedback.",
+      "startMs": 195606.0,
+      "endMs": 199031.0,
+      "charStart": 2863,
+      "charEnd": 2922
+    },
+    {
+      "id": "s0055",
+      "text": "Outcomes are how the world answers the question visibility alone cannot settle: was reliance warranted?",
+      "startMs": 199472.0,
+      "endMs": 206380.0,
+      "charStart": 2923,
+      "charEnd": 3026
+    },
+    {
+      "id": "s0056",
+      "text": "When Evidence Distorts",
+      "startMs": 206821.0,
+      "endMs": 208307.0,
+      "charStart": 3028,
+      "charEnd": 3050
+    },
+    {
+      "id": "s0057",
+      "text": "The relationship between outcomes and trust is not perfect.",
+      "startMs": 208748.0,
+      "endMs": 212568.0,
+      "charStart": 3052,
+      "charEnd": 3111
+    },
+    {
+      "id": "s0058",
+      "text": "Sometimes good outcomes appear for the wrong reasons.",
+      "startMs": 212893.0,
+      "endMs": 215784.0,
+      "charStart": 3112,
+      "charEnd": 3165
+    },
+    {
+      "id": "s0059",
+      "text": "Sometimes bad outcomes appear despite good intentions.",
+      "startMs": 216028.0,
+      "endMs": 219151.0,
+      "charStart": 3166,
+      "charEnd": 3220
+    },
+    {
+      "id": "s0060",
+      "text": "A single successful outcome can create more confidence than the evidence actually supports.",
+      "startMs": 219326.0,
+      "endMs": 224504.0,
+      "charStart": 3221,
+      "charEnd": 3312
+    },
+    {
+      "id": "s0061",
+      "text": "A single failure can destroy trust that deserved more patience.",
+      "startMs": 224829.0,
+      "endMs": 228869.0,
+      "charStart": 3313,
+      "charEnd": 3376
+    },
+    {
+      "id": "s0062",
+      "text": "Human beings are not especially good at evaluating evidence.",
+      "startMs": 229252.0,
+      "endMs": 232526.0,
+      "charStart": 3378,
+      "charEnd": 3438
+    },
+    {
+      "id": "s0063",
+      "text": "We remember dramatic outcomes more than ordinary ones.",
+      "startMs": 232700.0,
+      "endMs": 235893.0,
+      "charStart": 3439,
+      "charEnd": 3493
+    },
+    {
+      "id": "s0064",
+      "text": "We forgive failures from people we already trust.",
+      "startMs": 236137.0,
+      "endMs": 238633.0,
+      "charStart": 3494,
+      "charEnd": 3543
+    },
+    {
+      "id": "s0065",
+      "text": "We magnify failures from people we already doubt.",
+      "startMs": 238807.0,
+      "endMs": 241698.0,
+      "charStart": 3544,
+      "charEnd": 3593
+    },
+    {
+      "id": "s0066",
+      "text": "Trust can become distorted when outcomes are interpreted selectively.",
+      "startMs": 241907.0,
+      "endMs": 245797.0,
+      "charStart": 3594,
+      "charEnd": 3663
+    },
+    {
+      "id": "s0067",
+      "text": "The problem becomes more serious as relationships become more complicated.",
+      "startMs": 246307.0,
+      "endMs": 250255.0,
+      "charStart": 3665,
+      "charEnd": 3739
+    },
+    {
+      "id": "s0068",
+      "text": "A neighbor can usually see whether a driveway was shoveled.",
+      "startMs": 250580.0,
+      "endMs": 253517.0,
+      "charStart": 3740,
+      "charEnd": 3799
+    },
+    {
+      "id": "s0069",
+      "text": "A citizen cannot always see why an institution succeeded or failed.",
+      "startMs": 253761.0,
+      "endMs": 258022.0,
+      "charStart": 3800,
+      "charEnd": 3867
+    },
+    {
+      "id": "s0070",
+      "text": "A customer cannot always see why a company made a decision.",
+      "startMs": 258231.0,
+      "endMs": 261783.0,
+      "charStart": 3868,
+      "charEnd": 3927
+    },
+    {
+      "id": "s0071",
+      "text": "The feedback becomes less direct.",
+      "startMs": 261934.0,
+      "endMs": 263873.0,
+      "charStart": 3928,
+      "charEnd": 3961
+    },
+    {
+      "id": "s0072",
+      "text": "The evidence becomes harder to evaluate.",
+      "startMs": 263989.0,
+      "endMs": 266392.0,
+      "charStart": 3962,
+      "charEnd": 4002
+    },
+    {
+      "id": "s0073",
+      "text": "Trust remains dependent on outcomes, but understanding those outcomes becomes increasingly difficult.",
+      "startMs": 266601.0,
+      "endMs": 272731.0,
+      "charStart": 4003,
+      "charEnd": 4104
+    },
+    {
+      "id": "s0074",
+      "text": "Hardship Makes Reliability Visible",
+      "startMs": 273056.0,
+      "endMs": 276017.0,
+      "charStart": 4106,
+      "charEnd": 4140
+    },
+    {
+      "id": "s0075",
+      "text": "Recognizing these limitations does not eliminate the importance of consequences.",
+      "startMs": 276144.0,
+      "endMs": 280823.0,
+      "charStart": 4142,
+      "charEnd": 4222
+    },
+    {
+      "id": "s0076",
+      "text": "If anything, it clarifies why they matter.",
+      "startMs": 281148.0,
+      "endMs": 283726.0,
+      "charStart": 4223,
+      "charEnd": 4265
+    },
+    {
+      "id": "s0077",
+      "text": "Trust cannot survive on intentions alone.",
+      "startMs": 284051.0,
+      "endMs": 286791.0,
+      "charStart": 4266,
+      "charEnd": 4307
+    },
+    {
+      "id": "s0078",
+      "text": "Participation creates expectations.",
+      "startMs": 287000.0,
+      "endMs": 289856.0,
+      "charStart": 4308,
+      "charEnd": 4343
+    },
+    {
+      "id": "s0079",
+      "text": "Outcomes test them.",
+      "startMs": 290181.0,
+      "endMs": 291586.0,
+      "charStart": 4344,
+      "charEnd": 4363
+    },
+    {
+      "id": "s0080",
+      "text": "The cycle is not mechanical.",
+      "startMs": 292027.0,
+      "endMs": 293826.0,
+      "charStart": 4365,
+      "charEnd": 4393
+    },
+    {
+      "id": "s0081",
+      "text": "Human beings remain imperfect interpreters of what happens around them.",
+      "startMs": 294070.0,
+      "endMs": 298133.0,
+      "charStart": 4394,
+      "charEnd": 4465
+    },
+    {
+      "id": "s0082",
+      "text": "Yet consequences continue teaching whether participation feels justified.",
+      "startMs": 298516.0,
+      "endMs": 303160.0,
+      "charStart": 4466,
+      "charEnd": 4539
+    },
+    {
+      "id": "s0083",
+      "text": "This is why trust often feels stronger after hardship than after comfort.",
+      "startMs": 303439.0,
+      "endMs": 308037.0,
+      "charStart": 4540,
+      "charEnd": 4613
+    },
+    {
+      "id": "s0084",
+      "text": "The storm mattered because it created a situation where reliability could become visible.",
+      "startMs": 308362.0,
+      "endMs": 313702.0,
+      "charStart": 4614,
+      "charEnd": 4703
+    },
+    {
+      "id": "s0085",
+      "text": "The outcome taught something.",
+      "startMs": 314816.0,
+      "endMs": 316546.0,
+      "charStart": 4704,
+      "charEnd": 4733
+    },
+    {
+      "id": "s0086",
+      "text": "The neighbors returned home knowing more than they knew before they left—not because anyone explained anything, but because reality had provided feedback.",
+      "startMs": 317057.0,
+      "endMs": 326310.0,
+      "charStart": 4734,
+      "charEnd": 4888
+    },
+    {
+      "id": "s0087",
+      "text": "Core Principle",
+      "startMs": 327425.0,
+      "endMs": 328284.0,
+      "charStart": 4890,
+      "charEnd": 4904
+    },
+    {
+      "id": "s0088",
+      "text": "Outcomes Teach Trust.",
+      "startMs": 328354.0,
+      "endMs": 330455.0,
+      "charStart": 4906,
+      "charEnd": 4927
+    },
+    {
+      "id": "s0089",
+      "text": "Actions reveal beliefs, but outcomes create evidence.",
+      "startMs": 330896.0,
+      "endMs": 334971.0,
+      "charStart": 4929,
+      "charEnd": 4982
+    },
+    {
+      "id": "s0090",
+      "text": "Trust grows when participation repeatedly produces consequences that justify reliance.",
+      "startMs": 335297.0,
+      "endMs": 341415.0,
+      "charStart": 4983,
+      "charEnd": 5069
+    },
+    {
+      "id": "s0091",
+      "text": "It weakens when those consequences no longer support the expectations people have learned to carry.",
+      "startMs": 341740.0,
+      "endMs": 347591.0,
+      "charStart": 5070,
+      "charEnd": 5169
+    },
+    {
+      "id": "s0092",
+      "text": "Back to the Storm",
+      "startMs": 348288.0,
+      "endMs": 349205.0,
+      "charStart": 5171,
+      "charEnd": 5188
+    },
+    {
+      "id": "s0093",
+      "text": "The neighbors thanked him when they returned.",
+      "startMs": 349901.0,
+      "endMs": 352119.0,
+      "charStart": 5190,
+      "charEnd": 5235
+    },
+    {
+      "id": "s0094",
+      "text": "The conversation lasted less than a minute—a few words, a smile, an offer to help the next time he traveled.",
+      "startMs": 352560.0,
+      "endMs": 359665.0,
+      "charStart": 5236,
+      "charEnd": 5344
+    },
+    {
+      "id": "s0095",
+      "text": "The exchange itself was unremarkable.",
+      "startMs": 360362.0,
+      "endMs": 362893.0,
+      "charStart": 5345,
+      "charEnd": 5382
+    },
+    {
+      "id": "s0096",
+      "text": "What mattered had already happened.",
+      "startMs": 363218.0,
+      "endMs": 365366.0,
+      "charStart": 5383,
+      "charEnd": 5418
+    },
+    {
+      "id": "s0097",
+      "text": "The storm had created uncertainty.",
+      "startMs": 365691.0,
+      "endMs": 368105.0,
+      "charStart": 5420,
+      "charEnd": 5454
+    },
+    {
+      "id": "s0098",
+      "text": "Participation had produced an outcome.",
+      "startMs": 368489.0,
+      "endMs": 370764.0,
+      "charStart": 5455,
+      "charEnd": 5493
+    },
+    {
+      "id": "s0099",
+      "text": "The outcome had become evidence.",
+      "startMs": 371205.0,
+      "endMs": 373330.0,
+      "charStart": 5494,
+      "charEnd": 5526
+    },
+    {
+      "id": "s0100",
+      "text": "Trust had grown—not because anyone intended it to, but because experience had taught something both families could now carry forward.",
+      "startMs": 373609.0,
+      "endMs": 382479.0,
+      "charStart": 5527,
+      "charEnd": 5660
+    }
+  ]
+}

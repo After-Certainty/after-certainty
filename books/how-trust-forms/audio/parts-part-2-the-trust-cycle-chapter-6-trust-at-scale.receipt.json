@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-2-the-trust-cycle-chapter-6-trust-at-scale",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-2-the-trust-cycle-chapter-6-trust-at-scale",
+  "sourcePath": "parts/part-2-the-trust-cycle/chapter-6-trust-at-scale.md",
+  "sourceHash": "sha256:45db2e9056bd092ecaf906f0325132efec7259806113fde520bdcfb0c630bdf6",
+  "spokenTextHash": "sha256:5b5fd7fe9a6fbe8707fa7a24d0222a16a3b9b56532f796ad21a3618fb05b5ffb",
+  "generationHash": "sha256:10a34b75fda9879e4cf13b0f89d83091d19d051a7ff38d2f55c95d0c5ab196bd",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 10539,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 2634.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 2634.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-2-the-trust-cycle-chapter-6-trust-at-scale.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-2-the-trust-cycle-chapter-6-trust-at-scale.mp3",
+  "audioSha256": "sha256:0b8ebccf39e2a36813ac5a11f430ced058179c07ef5323d78ed44d270f96b49d",
+  "generatedAt": "2026-10-06T01:40:36Z"
+}

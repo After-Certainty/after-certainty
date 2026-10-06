@@ -1,0 +1,856 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-3-what-trust-makes-possible-chapter-8-trust-and-meaning",
+  "generationHash": "sha256:ad0322c9b6b33d4274229a0cc0a344e0790dbb0606133b8e887208d853227790",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Trust and Meaning",
+      "startMs": 0.0,
+      "endMs": 1335.0,
+      "charStart": 0,
+      "charEnd": 17
+    },
+    {
+      "id": "s0002",
+      "text": "> How does trust influence interpretation?",
+      "startMs": 1463.0,
+      "endMs": 4737.0,
+      "charStart": 19,
+      "charEnd": 61
+    },
+    {
+      "id": "s0003",
+      "text": "Trust shapes what people hear before they verify what was said.",
+      "startMs": 5550.0,
+      "endMs": 9311.0,
+      "charStart": 63,
+      "charEnd": 126
+    },
+    {
+      "id": "s0004",
+      "text": "Meaning travels through relationships—and relationships carry the weight of prior trust.",
+      "startMs": 9694.0,
+      "endMs": 14918.0,
+      "charStart": 127,
+      "charEnd": 215
+    },
+    {
+      "id": "s0005",
+      "text": "One summer, a rumor spread through the neighborhood.",
+      "startMs": 15731.0,
+      "endMs": 18680.0,
+      "charStart": 217,
+      "charEnd": 269
+    },
+    {
+      "id": "s0006",
+      "text": "Someone had heard that a homeowner planned to cut down several mature trees along the street.",
+      "startMs": 19191.0,
+      "endMs": 23963.0,
+      "charStart": 270,
+      "charEnd": 363
+    },
+    {
+      "id": "s0007",
+      "text": "The story passed from one conversation to another, and each retelling added a little more certainty.",
+      "startMs": 24346.0,
+      "endMs": 30116.0,
+      "charStart": 364,
+      "charEnd": 464
+    },
+    {
+      "id": "s0008",
+      "text": "By midweek, people were repeating it as though they had seen the saw themselves.",
+      "startMs": 30499.0,
+      "endMs": 34899.0,
+      "charStart": 465,
+      "charEnd": 545
+    },
+    {
+      "id": "s0009",
+      "text": "The rumor changed behavior before anyone verified it.",
+      "startMs": 35340.0,
+      "endMs": 38487.0,
+      "charStart": 547,
+      "charEnd": 600
+    },
+    {
+      "id": "s0010",
+      "text": "A neighbor crossed the street to avoid the homeowner's driveway.",
+      "startMs": 39090.0,
+      "endMs": 42295.0,
+      "charStart": 601,
+      "charEnd": 665
+    },
+    {
+      "id": "s0011",
+      "text": "Children told one another the trees were \"going away.\" Someone posted a warning in the group chat—\"Just heard they're cutting down all the old trees on the block\"—and several people reacted before asking whether it was true.",
+      "startMs": 42620.0,
+      "endMs": 54311.0,
+      "charStart": 666,
+      "charEnd": 890
+    },
+    {
+      "id": "s0012",
+      "text": "The trees provided shade.",
+      "startMs": 54555.0,
+      "endMs": 56111.0,
+      "charStart": 891,
+      "charEnd": 916
+    },
+    {
+      "id": "s0013",
+      "text": "Children played beneath them.",
+      "startMs": 56320.0,
+      "endMs": 57818.0,
+      "charStart": 917,
+      "charEnd": 946
+    },
+    {
+      "id": "s0014",
+      "text": "People worried that removing them would change the character of the neighborhood, and the worry began shaping how people treated a family most of them barely knew.",
+      "startMs": 58062.0,
+      "endMs": 66549.0,
+      "charStart": 947,
+      "charEnd": 1110
+    },
+    {
+      "id": "s0015",
+      "text": "Then someone finally spoke to the homeowner.",
+      "startMs": 67245.0,
+      "endMs": 69451.0,
+      "charStart": 1112,
+      "charEnd": 1156
+    },
+    {
+      "id": "s0016",
+      "text": "The story turned out to be wrong.",
+      "startMs": 69776.0,
+      "endMs": 71668.0,
+      "charStart": 1157,
+      "charEnd": 1190
+    },
+    {
+      "id": "s0017",
+      "text": "The city had marked a single diseased tree for removal.",
+      "startMs": 71912.0,
+      "endMs": 75186.0,
+      "charStart": 1191,
+      "charEnd": 1246
+    },
+    {
+      "id": "s0018",
+      "text": "The homeowner had spent months trying to save it.",
+      "startMs": 75569.0,
+      "endMs": 78158.0,
+      "charStart": 1247,
+      "charEnd": 1296
+    },
+    {
+      "id": "s0019",
+      "text": "No one planned to remove the others.",
+      "startMs": 78669.0,
+      "endMs": 80817.0,
+      "charStart": 1297,
+      "charEnd": 1333
+    },
+    {
+      "id": "s0020",
+      "text": "The misunderstanding disappeared almost immediately.",
+      "startMs": 81421.0,
+      "endMs": 84207.0,
+      "charStart": 1335,
+      "charEnd": 1387
+    },
+    {
+      "id": "s0021",
+      "text": "Relief followed—followed by embarrassment.",
+      "startMs": 84416.0,
+      "endMs": 87005.0,
+      "charStart": 1388,
+      "charEnd": 1430
+    },
+    {
+      "id": "s0022",
+      "text": "Neighbors who had avoided the house stopped to apologize.",
+      "startMs": 87446.0,
+      "endMs": 90349.0,
+      "charStart": 1431,
+      "charEnd": 1488
+    },
+    {
+      "id": "s0023",
+      "text": "The group chat thread ended with laughing emoji and a promise to check next time.",
+      "startMs": 90558.0,
+      "endMs": 95434.0,
+      "charStart": 1489,
+      "charEnd": 1570
+    },
+    {
+      "id": "s0024",
+      "text": "Not everyone felt comfortable right away.",
+      "startMs": 95678.0,
+      "endMs": 97872.0,
+      "charStart": 1571,
+      "charEnd": 1612
+    },
+    {
+      "id": "s0025",
+      "text": "One neighbor who had posted the warning in the chat brought cookies over and stayed only long enough to leave them on the porch.",
+      "startMs": 98151.0,
+      "endMs": 104304.0,
+      "charStart": 1613,
+      "charEnd": 1741
+    },
+    {
+      "id": "s0026",
+      "text": "The homeowner thanked her through the screen door.",
+      "startMs": 104815.0,
+      "endMs": 107183.0,
+      "charStart": 1742,
+      "charEnd": 1792
+    },
+    {
+      "id": "s0027",
+      "text": "The interaction was polite, not warm.",
+      "startMs": 107357.0,
+      "endMs": 109819.0,
+      "charStart": 1793,
+      "charEnd": 1830
+    },
+    {
+      "id": "s0028",
+      "text": "Trust had not fully repaired itself in an afternoon.",
+      "startMs": 110144.0,
+      "endMs": 112977.0,
+      "charStart": 1831,
+      "charEnd": 1883
+    },
+    {
+      "id": "s0029",
+      "text": "It had simply become possible again.",
+      "startMs": 113220.0,
+      "endMs": 115264.0,
+      "charStart": 1884,
+      "charEnd": 1920
+    },
+    {
+      "id": "s0030",
+      "text": "For a while afterward, the homeowner found himself wondering what else people might be saying when he was not around.",
+      "startMs": 115775.0,
+      "endMs": 121406.0,
+      "charStart": 1922,
+      "charEnd": 2039
+    },
+    {
+      "id": "s0031",
+      "text": "The trees were still standing.",
+      "startMs": 121731.0,
+      "endMs": 123182.0,
+      "charStart": 2040,
+      "charEnd": 2070
+    },
+    {
+      "id": "s0032",
+      "text": "The facts had replaced the rumor.",
+      "startMs": 123507.0,
+      "endMs": 125249.0,
+      "charStart": 2071,
+      "charEnd": 2104
+    },
+    {
+      "id": "s0033",
+      "text": "But meaning, he had learned, leaves a residue.",
+      "startMs": 125632.0,
+      "endMs": 128418.0,
+      "charStart": 2105,
+      "charEnd": 2151
+    },
+    {
+      "id": "s0034",
+      "text": "What remained was a quieter question: why had so many people believed the rumor in the first place?",
+      "startMs": 128859.0,
+      "endMs": 134292.0,
+      "charStart": 2153,
+      "charEnd": 2252
+    },
+    {
+      "id": "s0035",
+      "text": "The answer had little to do with the trees.",
+      "startMs": 134675.0,
+      "endMs": 136951.0,
+      "charStart": 2254,
+      "charEnd": 2297
+    },
+    {
+      "id": "s0036",
+      "text": "It had everything to do with trust.",
+      "startMs": 137334.0,
+      "endMs": 139540.0,
+      "charStart": 2298,
+      "charEnd": 2333
+    },
+    {
+      "id": "s0037",
+      "text": "Information Through Others",
+      "startMs": 139981.0,
+      "endMs": 141467.0,
+      "charStart": 2335,
+      "charEnd": 2361
+    },
+    {
+      "id": "s0038",
+      "text": "People rarely encounter information directly.",
+      "startMs": 141908.0,
+      "endMs": 144451.0,
+      "charStart": 2363,
+      "charEnd": 2408
+    },
+    {
+      "id": "s0039",
+      "text": "Most information arrives through other people—a friend tells a story, a coworker shares an observation, a neighbor repeats something they heard.",
+      "startMs": 144892.0,
+      "endMs": 153054.0,
+      "charStart": 2409,
+      "charEnd": 2553
+    },
+    {
+      "id": "s0040",
+      "text": "Before people evaluate the information itself, they often evaluate the source.",
+      "startMs": 153228.0,
+      "endMs": 157466.0,
+      "charStart": 2554,
+      "charEnd": 2632
+    },
+    {
+      "id": "s0041",
+      "text": "Do I trust this person?",
+      "startMs": 157675.0,
+      "endMs": 159138.0,
+      "charStart": 2633,
+      "charEnd": 2656
+    },
+    {
+      "id": "s0042",
+      "text": "Have they been reliable before?",
+      "startMs": 159416.0,
+      "endMs": 161123.0,
+      "charStart": 2657,
+      "charEnd": 2688
+    },
+    {
+      "id": "s0043",
+      "text": "Do they usually represent situations fairly?",
+      "startMs": 161506.0,
+      "endMs": 164072.0,
+      "charStart": 2689,
+      "charEnd": 2733
+    },
+    {
+      "id": "s0044",
+      "text": "Trust shapes these judgments long before anyone consciously notices it.",
+      "startMs": 164397.0,
+      "endMs": 168647.0,
+      "charStart": 2735,
+      "charEnd": 2806
+    },
+    {
+      "id": "s0045",
+      "text": "This influence matters because meaning rarely travels unchanged.",
+      "startMs": 169088.0,
+      "endMs": 172803.0,
+      "charStart": 2807,
+      "charEnd": 2871
+    },
+    {
+      "id": "s0046",
+      "text": "Every act of communication involves interpretation.",
+      "startMs": 173128.0,
+      "endMs": 176077.0,
+      "charStart": 2872,
+      "charEnd": 2923
+    },
+    {
+      "id": "s0047",
+      "text": "People compress information, emphasize details, forget context, fill gaps, and reconstruct events from memory.",
+      "startMs": 176286.0,
+      "endMs": 184030.0,
+      "charStart": 2924,
+      "charEnd": 3034
+    },
+    {
+      "id": "s0048",
+      "text": "The process is unavoidable.",
+      "startMs": 184355.0,
+      "endMs": 186201.0,
+      "charStart": 3035,
+      "charEnd": 3062
+    },
+    {
+      "id": "s0049",
+      "text": "Trust helps people navigate this uncertainty.",
+      "startMs": 186480.0,
+      "endMs": 189278.0,
+      "charStart": 3064,
+      "charEnd": 3109
+    },
+    {
+      "id": "s0050",
+      "text": "When trust exists, people become more willing to assume good intentions, seek clarification, and delay judgment until they understand more fully.",
+      "startMs": 189881.0,
+      "endMs": 198763.0,
+      "charStart": 3110,
+      "charEnd": 3255
+    },
+    {
+      "id": "s0051",
+      "text": "Trust does not eliminate misunderstanding.",
+      "startMs": 199367.0,
+      "endMs": 202072.0,
+      "charStart": 3256,
+      "charEnd": 3298
+    },
+    {
+      "id": "s0052",
+      "text": "It slows distortion.",
+      "startMs": 202397.0,
+      "endMs": 203837.0,
+      "charStart": 3299,
+      "charEnd": 3319
+    },
+    {
+      "id": "s0053",
+      "text": "The Same Words, Different Readings",
+      "startMs": 204220.0,
+      "endMs": 206310.0,
+      "charStart": 3321,
+      "charEnd": 3355
+    },
+    {
+      "id": "s0054",
+      "text": "Imagine receiving a text message that feels abrupt.",
+      "startMs": 207424.0,
+      "endMs": 210385.0,
+      "charStart": 3357,
+      "charEnd": 3408
+    },
+    {
+      "id": "s0055",
+      "text": "If the message comes from someone you trust deeply, you may assume they are busy, distracted, or having a difficult day.",
+      "startMs": 210559.0,
+      "endMs": 217618.0,
+      "charStart": 3409,
+      "charEnd": 3529
+    },
+    {
+      "id": "s0056",
+      "text": "If the same message comes from someone you distrust, you may interpret it as dismissive, rude, or hostile.",
+      "startMs": 218001.0,
+      "endMs": 224816.0,
+      "charStart": 3530,
+      "charEnd": 3636
+    },
+    {
+      "id": "s0057",
+      "text": "The words remain identical.",
+      "startMs": 225141.0,
+      "endMs": 226860.0,
+      "charStart": 3637,
+      "charEnd": 3664
+    },
+    {
+      "id": "s0058",
+      "text": "The interpretation changes.",
+      "startMs": 227034.0,
+      "endMs": 228764.0,
+      "charStart": 3665,
+      "charEnd": 3692
+    },
+    {
+      "id": "s0059",
+      "text": "Trust influences meaning because people never interpret information in isolation.",
+      "startMs": 228973.0,
+      "endMs": 233884.0,
+      "charStart": 3694,
+      "charEnd": 3775
+    },
+    {
+      "id": "s0060",
+      "text": "They interpret it through relationships.",
+      "startMs": 234128.0,
+      "endMs": 236275.0,
+      "charStart": 3776,
+      "charEnd": 3816
+    },
+    {
+      "id": "s0061",
+      "text": "Peter Berger and Thomas Luckmann argued that people construct social reality through ongoing interaction.",
+      "startMs": 236659.0,
+      "endMs": 242870.0,
+      "charStart": 3818,
+      "charEnd": 3923
+    },
+    {
+      "id": "s0062",
+      "text": "Miranda Fricker later explored how credibility itself becomes unevenly distributed across relationships and institutions.",
+      "startMs": 243474.0,
+      "endMs": 251183.0,
+      "charStart": 3924,
+      "charEnd": 4045
+    },
+    {
+      "id": "s0063",
+      "text": "Trust plays an important role in both processes.",
+      "startMs": 251624.0,
+      "endMs": 254642.0,
+      "charStart": 4046,
+      "charEnd": 4094
+    },
+    {
+      "id": "s0064",
+      "text": "People grant more credibility to sources they trust.",
+      "startMs": 255026.0,
+      "endMs": 257998.0,
+      "charStart": 4095,
+      "charEnd": 4147
+    },
+    {
+      "id": "s0065",
+      "text": "They question sources they distrust.",
+      "startMs": 258323.0,
+      "endMs": 260680.0,
+      "charStart": 4148,
+      "charEnd": 4184
+    },
+    {
+      "id": "s0066",
+      "text": "They extend patience to some interpretations while rejecting others immediately.",
+      "startMs": 260959.0,
+      "endMs": 265730.0,
+      "charStart": 4185,
+      "charEnd": 4265
+    },
+    {
+      "id": "s0067",
+      "text": "Trust does not determine meaning.",
+      "startMs": 266056.0,
+      "endMs": 268238.0,
+      "charStart": 4267,
+      "charEnd": 4300
+    },
+    {
+      "id": "s0068",
+      "text": "It influences how meaning moves.",
+      "startMs": 268517.0,
+      "endMs": 270967.0,
+      "charStart": 4301,
+      "charEnd": 4333
+    },
+    {
+      "id": "s0069",
+      "text": "When Distrust Accelerates",
+      "startMs": 272081.0,
+      "endMs": 273927.0,
+      "charStart": 4335,
+      "charEnd": 4360
+    },
+    {
+      "id": "s0070",
+      "text": "The same mechanism can cut both ways.",
+      "startMs": 275042.0,
+      "endMs": 277712.0,
+      "charStart": 4362,
+      "charEnd": 4399
+    },
+    {
+      "id": "s0071",
+      "text": "Trust sometimes encourages people to overlook errors or accept claims too quickly.",
+      "startMs": 277990.0,
+      "endMs": 282913.0,
+      "charStart": 4400,
+      "charEnd": 4482
+    },
+    {
+      "id": "s0072",
+      "text": "Distrust creates a different problem on a familiar street: every ambiguity becomes suspicious, every neighbor's silence becomes evidence, and ordinary mistakes acquire weight they do not deserve.",
+      "startMs": 283192.0,
+      "endMs": 294836.0,
+      "charStart": 4483,
+      "charEnd": 4678
+    },
+    {
+      "id": "s0073",
+      "text": "On the tree rumor, the story spread quickly partly because it arrived through people the block already trusted—and partly because the homeowner was newer, quieter, and easier to summarize than to know.",
+      "startMs": 295161.0,
+      "endMs": 306121.0,
+      "charStart": 4679,
+      "charEnd": 4880
+    },
+    {
+      "id": "s0074",
+      "text": "Once interpretation hardens, correction becomes harder than the original mistake.",
+      "startMs": 306725.0,
+      "endMs": 311160.0,
+      "charStart": 4882,
+      "charEnd": 4963
+    },
+    {
+      "id": "s0075",
+      "text": "People stop asking what someone meant and begin assuming they already know.",
+      "startMs": 311404.0,
+      "endMs": 315595.0,
+      "charStart": 4964,
+      "charEnd": 5039
+    },
+    {
+      "id": "s0076",
+      "text": "Keeping Meaning Corrigible",
+      "startMs": 316198.0,
+      "endMs": 318021.0,
+      "charStart": 5041,
+      "charEnd": 5067
+    },
+    {
+      "id": "s0077",
+      "text": "The solution is not universal trust.",
+      "startMs": 318462.0,
+      "endMs": 320784.0,
+      "charStart": 5069,
+      "charEnd": 5105
+    },
+    {
+      "id": "s0078",
+      "text": "People still need judgment, skepticism, and ways to evaluate claims critically.",
+      "startMs": 321063.0,
+      "endMs": 325730.0,
+      "charStart": 5106,
+      "charEnd": 5185
+    },
+    {
+      "id": "s0079",
+      "text": "What remains is a simpler recognition.",
+      "startMs": 326427.0,
+      "endMs": 328795.0,
+      "charStart": 5186,
+      "charEnd": 5224
+    },
+    {
+      "id": "s0080",
+      "text": "Trust creates conditions that help communication remain corrigible.",
+      "startMs": 329306.0,
+      "endMs": 333184.0,
+      "charStart": 5226,
+      "charEnd": 5293
+    },
+    {
+      "id": "s0081",
+      "text": "When trust exists, people ask questions before drawing conclusions.",
+      "startMs": 333787.0,
+      "endMs": 337828.0,
+      "charStart": 5294,
+      "charEnd": 5361
+    },
+    {
+      "id": "s0082",
+      "text": "They allow explanations to matter.",
+      "startMs": 338153.0,
+      "endMs": 340277.0,
+      "charStart": 5362,
+      "charEnd": 5396
+    },
+    {
+      "id": "s0083",
+      "text": "They remain willing to revise interpretations when new information appears.",
+      "startMs": 341090.0,
+      "endMs": 345292.0,
+      "charStart": 5397,
+      "charEnd": 5472
+    },
+    {
+      "id": "s0084",
+      "text": "Trust does not guarantee agreement.",
+      "startMs": 346105.0,
+      "endMs": 348311.0,
+      "charStart": 5473,
+      "charEnd": 5508
+    },
+    {
+      "id": "s0085",
+      "text": "It preserves the possibility of understanding.",
+      "startMs": 348752.0,
+      "endMs": 351248.0,
+      "charStart": 5509,
+      "charEnd": 5555
+    },
+    {
+      "id": "s0086",
+      "text": "That possibility becomes increasingly important as relationships grow more complex and information travels farther.",
+      "startMs": 352061.0,
+      "endMs": 358667.0,
+      "charStart": 5557,
+      "charEnd": 5672
+    },
+    {
+      "id": "s0087",
+      "text": "Core Principle",
+      "startMs": 359178.0,
+      "endMs": 360165.0,
+      "charStart": 5674,
+      "charEnd": 5688
+    },
+    {
+      "id": "s0088",
+      "text": "Trust Slows Distortion.",
+      "startMs": 360258.0,
+      "endMs": 362220.0,
+      "charStart": 5690,
+      "charEnd": 5713
+    },
+    {
+      "id": "s0089",
+      "text": "People interpret information through relationships.",
+      "startMs": 362661.0,
+      "endMs": 365575.0,
+      "charStart": 5715,
+      "charEnd": 5766
+    },
+    {
+      "id": "s0090",
+      "text": "Trust encourages patience, clarification, and revision.",
+      "startMs": 365854.0,
+      "endMs": 369650.0,
+      "charStart": 5767,
+      "charEnd": 5822
+    },
+    {
+      "id": "s0091",
+      "text": "Distrust accelerates suspicion, compression, and misunderstanding.",
+      "startMs": 370091.0,
+      "endMs": 374341.0,
+      "charStart": 5823,
+      "charEnd": 5889
+    },
+    {
+      "id": "s0092",
+      "text": "Trust cannot eliminate distortion, but it can slow it enough for understanding to remain possible.",
+      "startMs": 374666.0,
+      "endMs": 380540.0,
+      "charStart": 5890,
+      "charEnd": 5988
+    },
+    {
+      "id": "s0093",
+      "text": "The Conversation That Never Happened",
+      "startMs": 380865.0,
+      "endMs": 382909.0,
+      "charStart": 5990,
+      "charEnd": 6026
+    },
+    {
+      "id": "s0094",
+      "text": "A few days after the rumor faded, the neighbors laughed about how quickly the story had spread.",
+      "startMs": 383234.0,
+      "endMs": 388261.0,
+      "charStart": 6028,
+      "charEnd": 6123
+    },
+    {
+      "id": "s0095",
+      "text": "Someone asked why nobody had simply spoken to the homeowner first.",
+      "startMs": 388470.0,
+      "endMs": 392069.0,
+      "charStart": 6124,
+      "charEnd": 6190
+    },
+    {
+      "id": "s0096",
+      "text": "No one had a good answer.",
+      "startMs": 392220.0,
+      "endMs": 393590.0,
+      "charStart": 6191,
+      "charEnd": 6216
+    },
+    {
+      "id": "s0097",
+      "text": "The conversation would have taken five minutes.",
+      "startMs": 393764.0,
+      "endMs": 396260.0,
+      "charStart": 6218,
+      "charEnd": 6265
+    },
+    {
+      "id": "s0098",
+      "text": "The misunderstanding had lasted a week.",
+      "startMs": 396435.0,
+      "endMs": 398548.0,
+      "charStart": 6266,
+      "charEnd": 6305
+    },
+    {
+      "id": "s0099",
+      "text": "In the end, the problem was not information.",
+      "startMs": 398757.0,
+      "endMs": 400997.0,
+      "charStart": 6306,
+      "charEnd": 6350
+    },
+    {
+      "id": "s0100",
+      "text": "The information had been available all along.",
+      "startMs": 401171.0,
+      "endMs": 403656.0,
+      "charStart": 6351,
+      "charEnd": 6396
+    },
+    {
+      "id": "s0101",
+      "text": "People simply trusted the rumor more than the relationship—and the rumor had traveled through voices they already relied on, while the homeowner remained someone they had never quite gotten around to knowing.",
+      "startMs": 403981.0,
+      "endMs": 415057.0,
+      "charStart": 6397,
+      "charEnd": 6605
+    },
+    {
+      "id": "s0102",
+      "text": "The moment someone chose conversation instead, the distortion began to unravel.",
+      "startMs": 415568.0,
+      "endMs": 420305.0,
+      "charStart": 6607,
+      "charEnd": 6686
+    },
+    {
+      "id": "s0103",
+      "text": "The trees were still standing.",
+      "startMs": 420548.0,
+      "endMs": 422220.0,
+      "charStart": 6687,
+      "charEnd": 6717
+    },
+    {
+      "id": "s0104",
+      "text": "The street felt ordinary again, though not quite as seamless as before.",
+      "startMs": 422348.0,
+      "endMs": 426353.0,
+      "charStart": 6718,
+      "charEnd": 6789
+    },
+    {
+      "id": "s0105",
+      "text": "What changed was not the facts.",
+      "startMs": 426679.0,
+      "endMs": 428583.0,
+      "charStart": 6790,
+      "charEnd": 6821
+    },
+    {
+      "id": "s0106",
+      "text": "It was the willingness to let the facts replace a story that had already started living on its own—and the slow work of letting a relationship catch up to what the facts had revealed.",
+      "startMs": 428826.0,
+      "endMs": 438904.0,
+      "charStart": 6822,
+      "charEnd": 7005
+    }
+  ]
+}

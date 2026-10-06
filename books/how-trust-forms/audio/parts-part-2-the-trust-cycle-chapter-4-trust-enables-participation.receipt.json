@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-2-the-trust-cycle-chapter-4-trust-enables-participation",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-2-the-trust-cycle-chapter-4-trust-enables-participation",
+  "sourcePath": "parts/part-2-the-trust-cycle/chapter-4-trust-enables-participation.md",
+  "sourceHash": "sha256:0b3565793b34619203542cee372d91d19a6c07f5354667349e5775030addb179",
+  "spokenTextHash": "sha256:18c061963248b1483366a27a27687e20e057b7321e3a684097c5ba6bfbf85a2d",
+  "generationHash": "sha256:66ea601985e0ae923a3f36c817168bb811d3023764195eee8a7bbae3c3852327",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 7019,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1754.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1754.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-2-the-trust-cycle-chapter-4-trust-enables-participation.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-2-the-trust-cycle-chapter-4-trust-enables-participation.mp3",
+  "audioSha256": "sha256:4d0dbb82dd41c4f0c759c2416088f11ccbc9a3411b48b7c1560a795dd7536a16",
+  "generatedAt": "2026-10-06T01:40:04Z"
+}

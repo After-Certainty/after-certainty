@@ -1,0 +1,1024 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-2-the-trust-cycle-chapter-5-participation-changes-beliefs",
+  "generationHash": "sha256:bd28bbb4f796c22a42033ad87ad15ea64b0427e293d6eea05f6da24e7191d0a3",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Participation Changes Beliefs",
+      "startMs": 0.0,
+      "endMs": 2067.0,
+      "charStart": 0,
+      "charEnd": 29
+    },
+    {
+      "id": "s0002",
+      "text": "> How does participation change the people involved?",
+      "startMs": 2276.0,
+      "endMs": 5770.0,
+      "charStart": 31,
+      "charEnd": 83
+    },
+    {
+      "id": "s0003",
+      "text": "Participation does more than enable cooperation.",
+      "startMs": 6281.0,
+      "endMs": 9555.0,
+      "charStart": 85,
+      "charEnd": 133
+    },
+    {
+      "id": "s0004",
+      "text": "It changes the participants themselves.",
+      "startMs": 9834.0,
+      "endMs": 12423.0,
+      "charStart": 134,
+      "charEnd": 173
+    },
+    {
+      "id": "s0005",
+      "text": "That distinction is easy to miss.",
+      "startMs": 12667.0,
+      "endMs": 14664.0,
+      "charStart": 175,
+      "charEnd": 208
+    },
+    {
+      "id": "s0006",
+      "text": "Trust helps people learn about one another.",
+      "startMs": 14908.0,
+      "endMs": 17706.0,
+      "charStart": 209,
+      "charEnd": 252
+    },
+    {
+      "id": "s0007",
+      "text": "Observation informs.",
+      "startMs": 17880.0,
+      "endMs": 19552.0,
+      "charStart": 253,
+      "charEnd": 273
+    },
+    {
+      "id": "s0008",
+      "text": "Participation transforms.",
+      "startMs": 19761.0,
+      "endMs": 21897.0,
+      "charStart": 274,
+      "charEnd": 299
+    },
+    {
+      "id": "s0009",
+      "text": "The earlier chapters asked what others were doing and what happened as a result.",
+      "startMs": 22222.0,
+      "endMs": 26402.0,
+      "charStart": 300,
+      "charEnd": 380
+    },
+    {
+      "id": "s0010",
+      "text": "This chapter asks what changes in the people who take part—not only in what they know about their neighbors, but in who they become through knowing them.",
+      "startMs": 27702.0,
+      "endMs": 36677.0,
+      "charStart": 381,
+      "charEnd": 534
+    },
+    {
+      "id": "s0011",
+      "text": "The neighbors were invited to dinner almost a year after they moved in.",
+      "startMs": 37489.0,
+      "endMs": 41065.0,
+      "charStart": 536,
+      "charEnd": 607
+    },
+    {
+      "id": "s0012",
+      "text": "The invitation had been discussed several times before it happened—\"We should have them over sometime,\" \"We should\"—and then life intervened.",
+      "startMs": 41576.0,
+      "endMs": 50794.0,
+      "charStart": 608,
+      "charEnd": 749
+    },
+    {
+      "id": "s0013",
+      "text": "Schedules filled.",
+      "startMs": 51398.0,
+      "endMs": 52721.0,
+      "charStart": 750,
+      "charEnd": 767
+    },
+    {
+      "id": "s0014",
+      "text": "Weeks passed.",
+      "startMs": 53232.0,
+      "endMs": 54370.0,
+      "charStart": 768,
+      "charEnd": 781
+    },
+    {
+      "id": "s0015",
+      "text": "Eventually a date appeared on the calendar.",
+      "startMs": 54974.0,
+      "endMs": 57087.0,
+      "charStart": 782,
+      "charEnd": 825
+    },
+    {
+      "id": "s0016",
+      "text": "The host had a quiet story about the family already, though she had never quite admitted it to herself.",
+      "startMs": 57412.0,
+      "endMs": 62741.0,
+      "charStart": 827,
+      "charEnd": 930
+    },
+    {
+      "id": "s0017",
+      "text": "They seemed fine.",
+      "startMs": 63124.0,
+      "endMs": 64261.0,
+      "charStart": 931,
+      "charEnd": 948
+    },
+    {
+      "id": "s0018",
+      "text": "They returned tools.",
+      "startMs": 64586.0,
+      "endMs": 65805.0,
+      "charStart": 949,
+      "charEnd": 969
+    },
+    {
+      "id": "s0019",
+      "text": "They waved.",
+      "startMs": 66014.0,
+      "endMs": 66827.0,
+      "charStart": 970,
+      "charEnd": 981
+    },
+    {
+      "id": "s0020",
+      "text": "They helped when asked.",
+      "startMs": 67152.0,
+      "endMs": 68580.0,
+      "charStart": 982,
+      "charEnd": 1005
+    },
+    {
+      "id": "s0021",
+      "text": "But they rarely stayed at the curb long enough for conversation to deepen.",
+      "startMs": 68905.0,
+      "endMs": 72585.0,
+      "charStart": 1006,
+      "charEnd": 1080
+    },
+    {
+      "id": "s0022",
+      "text": "They had missed the second block party—not dramatically, just a polite note about a scheduling conflict—and more than once they had declined invitations to backyard gatherings with the same easy courtesy.",
+      "startMs": 73282.0,
+      "endMs": 84555.0,
+      "charStart": 1081,
+      "charEnd": 1285
+    },
+    {
+      "id": "s0023",
+      "text": "From a distance, the host had begun filing them under a category she did not use out loud: pleasant, but not really joiners.",
+      "startMs": 85159.0,
+      "endMs": 93031.0,
+      "charStart": 1286,
+      "charEnd": 1410
+    },
+    {
+      "id": "s0024",
+      "text": "That was the summary participation had not yet tested.",
+      "startMs": 93356.0,
+      "endMs": 96722.0,
+      "charStart": 1412,
+      "charEnd": 1466
+    },
+    {
+      "id": "s0025",
+      "text": "The evening itself was ordinary on the surface.",
+      "startMs": 96896.0,
+      "endMs": 99868.0,
+      "charStart": 1468,
+      "charEnd": 1515
+    },
+    {
+      "id": "s0026",
+      "text": "They talked about work.",
+      "startMs": 100077.0,
+      "endMs": 101354.0,
+      "charStart": 1516,
+      "charEnd": 1539
+    },
+    {
+      "id": "s0027",
+      "text": "They talked about children.",
+      "startMs": 101471.0,
+      "endMs": 102771.0,
+      "charStart": 1540,
+      "charEnd": 1567
+    },
+    {
+      "id": "s0028",
+      "text": "They compared stories about home repairs and neighborhood quirks.",
+      "startMs": 102980.0,
+      "endMs": 106533.0,
+      "charStart": 1568,
+      "charEnd": 1633
+    },
+    {
+      "id": "s0029",
+      "text": "Then someone asked why the family had moved, and the answer rearranged the room.",
+      "startMs": 106742.0,
+      "endMs": 111269.0,
+      "charStart": 1634,
+      "charEnd": 1714
+    },
+    {
+      "id": "s0030",
+      "text": "The father explained that his mother had been ill for most of the previous year.",
+      "startMs": 111652.0,
+      "endMs": 115983.0,
+      "charStart": 1716,
+      "charEnd": 1796
+    },
+    {
+      "id": "s0031",
+      "text": "They had spent months driving back and forth to another city, juggling childcare, hospital visits, and a house they were still learning to live in.",
+      "startMs": 116366.0,
+      "endMs": 124528.0,
+      "charStart": 1797,
+      "charEnd": 1944
+    },
+    {
+      "id": "s0032",
+      "text": "The missed gatherings were not refusals.",
+      "startMs": 124911.0,
+      "endMs": 127523.0,
+      "charStart": 1945,
+      "charEnd": 1985
+    },
+    {
+      "id": "s0033",
+      "text": "They were exhaustion.",
+      "startMs": 127802.0,
+      "endMs": 128986.0,
+      "charStart": 1986,
+      "charEnd": 2007
+    },
+    {
+      "id": "s0034",
+      "text": "The short conversations at the mailbox were not distance.",
+      "startMs": 129427.0,
+      "endMs": 132805.0,
+      "charStart": 2008,
+      "charEnd": 2065
+    },
+    {
+      "id": "s0035",
+      "text": "They were a family trying to keep standing while too many things happened at once.",
+      "startMs": 133131.0,
+      "endMs": 137856.0,
+      "charStart": 2066,
+      "charEnd": 2148
+    },
+    {
+      "id": "s0036",
+      "text": "The host listened and felt the category she had built begin to collapse.",
+      "startMs": 138297.0,
+      "endMs": 142732.0,
+      "charStart": 2149,
+      "charEnd": 2221
+    },
+    {
+      "id": "s0037",
+      "text": "Not joiners became overwhelmed.",
+      "startMs": 143173.0,
+      "endMs": 145507.0,
+      "charStart": 2222,
+      "charEnd": 2253
+    },
+    {
+      "id": "s0038",
+      "text": "Private became carrying more than the street could see.",
+      "startMs": 145832.0,
+      "endMs": 149198.0,
+      "charStart": 2254,
+      "charEnd": 2309
+    },
+    {
+      "id": "s0039",
+      "text": "One of the other neighbors had spent years living overseas.",
+      "startMs": 149802.0,
+      "endMs": 153250.0,
+      "charStart": 2311,
+      "charEnd": 2370
+    },
+    {
+      "id": "s0040",
+      "text": "Another held political opinions that surprised them.",
+      "startMs": 153575.0,
+      "endMs": 156652.0,
+      "charStart": 2371,
+      "charEnd": 2423
+    },
+    {
+      "id": "s0041",
+      "text": "They argued lightly over schools and local taxes, changed no one's mind, and parted understanding the disagreement more clearly than before—not resolved, just better placed.",
+      "startMs": 157093.0,
+      "endMs": 168947.0,
+      "charStart": 2424,
+      "charEnd": 2597
+    },
+    {
+      "id": "s0042",
+      "text": "A hobby that had seemed strange from a distance suddenly made sense once it was explained by the person who cared about it.",
+      "startMs": 169388.0,
+      "endMs": 176249.0,
+      "charStart": 2598,
+      "charEnd": 2721
+    },
+    {
+      "id": "s0043",
+      "text": "Nothing dramatic happened.",
+      "startMs": 176946.0,
+      "endMs": 178455.0,
+      "charStart": 2723,
+      "charEnd": 2749
+    },
+    {
+      "id": "s0044",
+      "text": "No one changed their worldview over dinner.",
+      "startMs": 178664.0,
+      "endMs": 180963.0,
+      "charStart": 2750,
+      "charEnd": 2793
+    },
+    {
+      "id": "s0045",
+      "text": "Yet something shifted—not only in what the host could see, but in how she understood her own assumptions.",
+      "startMs": 181288.0,
+      "endMs": 187697.0,
+      "charStart": 2794,
+      "charEnd": 2899
+    },
+    {
+      "id": "s0046",
+      "text": "The people across the table had not merely become harder to summarize.",
+      "startMs": 188022.0,
+      "endMs": 192224.0,
+      "charStart": 2900,
+      "charEnd": 2970
+    },
+    {
+      "id": "s0047",
+      "text": "Participation had begun changing the person doing the summarizing.",
+      "startMs": 192549.0,
+      "endMs": 196752.0,
+      "charStart": 2971,
+      "charEnd": 3037
+    },
+    {
+      "id": "s0048",
+      "text": "Observation Informs, Participation Transforms",
+      "startMs": 197263.0,
+      "endMs": 201477.0,
+      "charStart": 3039,
+      "charEnd": 3084
+    },
+    {
+      "id": "s0049",
+      "text": "Chapter 2 described how actions make beliefs visible.",
+      "startMs": 202081.0,
+      "endMs": 206005.0,
+      "charStart": 3086,
+      "charEnd": 3139
+    },
+    {
+      "id": "s0050",
+      "text": "This chapter describes something different: how shared experience changes the people who take part in it.",
+      "startMs": 206609.0,
+      "endMs": 212855.0,
+      "charStart": 3140,
+      "charEnd": 3245
+    },
+    {
+      "id": "s0051",
+      "text": "Trust enables participation.",
+      "startMs": 213366.0,
+      "endMs": 215537.0,
+      "charStart": 3247,
+      "charEnd": 3275
+    },
+    {
+      "id": "s0052",
+      "text": "Participation creates experience.",
+      "startMs": 216141.0,
+      "endMs": 218556.0,
+      "charStart": 3276,
+      "charEnd": 3309
+    },
+    {
+      "id": "s0053",
+      "text": "Experience changes belief—not only beliefs about others, but beliefs held by the participants themselves.",
+      "startMs": 219159.0,
+      "endMs": 226171.0,
+      "charStart": 3310,
+      "charEnd": 3415
+    },
+    {
+      "id": "s0054",
+      "text": "This is one reason the trust cycle matters more than it first appears.",
+      "startMs": 226775.0,
+      "endMs": 230827.0,
+      "charStart": 3416,
+      "charEnd": 3486
+    },
+    {
+      "id": "s0055",
+      "text": "Most people imagine that understanding comes first.",
+      "startMs": 231338.0,
+      "endMs": 234600.0,
+      "charStart": 3488,
+      "charEnd": 3539
+    },
+    {
+      "id": "s0056",
+      "text": "We learn enough about another person, then decide whether to engage with them.",
+      "startMs": 235041.0,
+      "endMs": 239267.0,
+      "charStart": 3540,
+      "charEnd": 3618
+    },
+    {
+      "id": "s0057",
+      "text": "In practice, much of what we know about one another emerges only through participation itself—and much of what we know about ourselves changes in the process.",
+      "startMs": 239651.0,
+      "endMs": 250099.0,
+      "charStart": 3619,
+      "charEnd": 3777
+    },
+    {
+      "id": "s0058",
+      "text": "You learn different things about a coworker by working together than by reading their résumé.",
+      "startMs": 250378.0,
+      "endMs": 255614.0,
+      "charStart": 3778,
+      "charEnd": 3871
+    },
+    {
+      "id": "s0059",
+      "text": "You learn different things about a neighbor by sharing a meal than by waving from a driveway.",
+      "startMs": 255893.0,
+      "endMs": 260989.0,
+      "charStart": 3872,
+      "charEnd": 3965
+    },
+    {
+      "id": "s0060",
+      "text": "You also become a different colleague, a different neighbor, a different participant in the community than you were before.",
+      "startMs": 261431.0,
+      "endMs": 268257.0,
+      "charStart": 3966,
+      "charEnd": 4089
+    },
+    {
+      "id": "s0061",
+      "text": "Participation exposes people to realities that distance conceals.",
+      "startMs": 268954.0,
+      "endMs": 273528.0,
+      "charStart": 4091,
+      "charEnd": 4156
+    },
+    {
+      "id": "s0062",
+      "text": "The result is not certainty.",
+      "startMs": 274225.0,
+      "endMs": 276454.0,
+      "charStart": 4157,
+      "charEnd": 4185
+    },
+    {
+      "id": "s0063",
+      "text": "The result is revision—often of the person doing the participating, not only of the person being observed.",
+      "startMs": 276965.0,
+      "endMs": 284175.0,
+      "charStart": 4186,
+      "charEnd": 4292
+    },
+    {
+      "id": "s0064",
+      "text": "John Dewey argued that human beings learn through experience.",
+      "startMs": 284871.0,
+      "endMs": 288691.0,
+      "charStart": 4294,
+      "charEnd": 4355
+    },
+    {
+      "id": "s0065",
+      "text": "We act, encounter consequences, and adjust our understanding.",
+      "startMs": 289074.0,
+      "endMs": 293521.0,
+      "charStart": 4356,
+      "charEnd": 4417
+    },
+    {
+      "id": "s0066",
+      "text": "Participation creates opportunities for this process to occur at a depth observation alone cannot reach.",
+      "startMs": 294473.0,
+      "endMs": 302043.0,
+      "charStart": 4418,
+      "charEnd": 4522
+    },
+    {
+      "id": "s0067",
+      "text": "It places beliefs in contact with reality—and reshapes the believer in the contact.",
+      "startMs": 302646.0,
+      "endMs": 308196.0,
+      "charStart": 4523,
+      "charEnd": 4606
+    },
+    {
+      "id": "s0068",
+      "text": "What Distance Cannot Teach",
+      "startMs": 309310.0,
+      "endMs": 311005.0,
+      "charStart": 4608,
+      "charEnd": 4634
+    },
+    {
+      "id": "s0069",
+      "text": "Observation has limits.",
+      "startMs": 312120.0,
+      "endMs": 313873.0,
+      "charStart": 4636,
+      "charEnd": 4659
+    },
+    {
+      "id": "s0070",
+      "text": "From a distance, people often appear simpler than they are.",
+      "startMs": 314570.0,
+      "endMs": 318203.0,
+      "charStart": 4660,
+      "charEnd": 4719
+    },
+    {
+      "id": "s0071",
+      "text": "The mind naturally fills gaps in knowledge with assumptions, expectations, and summaries.",
+      "startMs": 318807.0,
+      "endMs": 324786.0,
+      "charStart": 4720,
+      "charEnd": 4809
+    },
+    {
+      "id": "s0072",
+      "text": "That is how human beings navigate complexity.",
+      "startMs": 325297.0,
+      "endMs": 328385.0,
+      "charStart": 4810,
+      "charEnd": 4855
+    },
+    {
+      "id": "s0073",
+      "text": "No one has enough time to know everyone deeply.",
+      "startMs": 328989.0,
+      "endMs": 332019.0,
+      "charStart": 4856,
+      "charEnd": 4903
+    },
+    {
+      "id": "s0074",
+      "text": "The problem is that summaries can only carry so much reality—and the person holding the summary is often the one most in need of revision.",
+      "startMs": 332344.0,
+      "endMs": 341214.0,
+      "charStart": 4904,
+      "charEnd": 5042
+    },
+    {
+      "id": "s0075",
+      "text": "Participation introduces a different kind of friction.",
+      "startMs": 341539.0,
+      "endMs": 344929.0,
+      "charStart": 5044,
+      "charEnd": 5098
+    },
+    {
+      "id": "s0076",
+      "text": "The coworker who seemed difficult becomes understandable after a shared project—and you discover you had been carrying a simpler story about them than the work required.",
+      "startMs": 345173.0,
+      "endMs": 355483.0,
+      "charStart": 5099,
+      "charEnd": 5268
+    },
+    {
+      "id": "s0077",
+      "text": "The neighbor who appeared distant turns out to be tired, grieving, or living a chapter the street had not witnessed—and you discover how quickly you had turned visibility into judgment.",
+      "startMs": 356295.0,
+      "endMs": 367034.0,
+      "charStart": 5269,
+      "charEnd": 5454
+    },
+    {
+      "id": "s0078",
+      "text": "Sometimes participation confirms prior beliefs.",
+      "startMs": 367475.0,
+      "endMs": 370889.0,
+      "charStart": 5455,
+      "charEnd": 5502
+    },
+    {
+      "id": "s0079",
+      "text": "Often it complicates them in the participant, not only in the person observed.",
+      "startMs": 371400.0,
+      "endMs": 375684.0,
+      "charStart": 5503,
+      "charEnd": 5581
+    },
+    {
+      "id": "s0080",
+      "text": "The host at the dinner table had not lacked information entirely.",
+      "startMs": 376009.0,
+      "endMs": 379469.0,
+      "charStart": 5583,
+      "charEnd": 5648
+    },
+    {
+      "id": "s0081",
+      "text": "She had lacked participation.",
+      "startMs": 379678.0,
+      "endMs": 381547.0,
+      "charStart": 5649,
+      "charEnd": 5678
+    },
+    {
+      "id": "s0082",
+      "text": "She had seen enough to form a category.",
+      "startMs": 381698.0,
+      "endMs": 383730.0,
+      "charStart": 5679,
+      "charEnd": 5718
+    },
+    {
+      "id": "s0083",
+      "text": "She had not shared enough experience to be changed by what she saw.",
+      "startMs": 383939.0,
+      "endMs": 387747.0,
+      "charStart": 5719,
+      "charEnd": 5786
+    },
+    {
+      "id": "s0084",
+      "text": "When Participation Stops Teaching",
+      "startMs": 387991.0,
+      "endMs": 390045.0,
+      "charStart": 5788,
+      "charEnd": 5821
+    },
+    {
+      "id": "s0085",
+      "text": "Participation does not guarantee wisdom.",
+      "startMs": 390254.0,
+      "endMs": 392797.0,
+      "charStart": 5823,
+      "charEnd": 5863
+    },
+    {
+      "id": "s0086",
+      "text": "Experience can narrow understanding as easily as expand it.",
+      "startMs": 393076.0,
+      "endMs": 397070.0,
+      "charStart": 5864,
+      "charEnd": 5923
+    },
+    {
+      "id": "s0087",
+      "text": "People sometimes participate only with those who already resemble them.",
+      "startMs": 397395.0,
+      "endMs": 401214.0,
+      "charStart": 5924,
+      "charEnd": 5995
+    },
+    {
+      "id": "s0088",
+      "text": "They select environments that reinforce existing beliefs.",
+      "startMs": 401365.0,
+      "endMs": 404872.0,
+      "charStart": 5996,
+      "charEnd": 6053
+    },
+    {
+      "id": "s0089",
+      "text": "They interpret every new experience through assumptions they never question.",
+      "startMs": 405115.0,
+      "endMs": 409248.0,
+      "charStart": 6054,
+      "charEnd": 6130
+    },
+    {
+      "id": "s0090",
+      "text": "In these situations, participation becomes repetition.",
+      "startMs": 409527.0,
+      "endMs": 413184.0,
+      "charStart": 6132,
+      "charEnd": 6186
+    },
+    {
+      "id": "s0091",
+      "text": "The cycle continues, but transformation slows.",
+      "startMs": 413393.0,
+      "endMs": 416841.0,
+      "charStart": 6187,
+      "charEnd": 6233
+    },
+    {
+      "id": "s0092",
+      "text": "Trust remains confined to familiar boundaries, and the people inside those boundaries change less than they might.",
+      "startMs": 417085.0,
+      "endMs": 423679.0,
+      "charStart": 6234,
+      "charEnd": 6348
+    },
+    {
+      "id": "s0093",
+      "text": "The problem is not participation itself.",
+      "startMs": 423830.0,
+      "endMs": 426175.0,
+      "charStart": 6350,
+      "charEnd": 6390
+    },
+    {
+      "id": "s0094",
+      "text": "The problem is participation that no longer produces meaningful revision.",
+      "startMs": 426349.0,
+      "endMs": 430506.0,
+      "charStart": 6391,
+      "charEnd": 6464
+    },
+    {
+      "id": "s0095",
+      "text": "When experience stops updating belief, participation loses part of its transformative work.",
+      "startMs": 430889.0,
+      "endMs": 436914.0,
+      "charStart": 6465,
+      "charEnd": 6556
+    },
+    {
+      "id": "s0096",
+      "text": "Who We Become Through Contact",
+      "startMs": 437866.0,
+      "endMs": 439619.0,
+      "charStart": 6558,
+      "charEnd": 6587
+    },
+    {
+      "id": "s0097",
+      "text": "The lesson is not that every belief must change, nor that every experience contains hidden wisdom.",
+      "startMs": 440571.0,
+      "endMs": 446608.0,
+      "charStart": 6589,
+      "charEnd": 6687
+    },
+    {
+      "id": "s0098",
+      "text": "What remains is a simpler recognition: participation changes people—not only by teaching them about others, but by placing their own assumptions under pressure.",
+      "startMs": 446887.0,
+      "endMs": 457011.0,
+      "charStart": 6688,
+      "charEnd": 6848
+    },
+    {
+      "id": "s0099",
+      "text": "The neighbor remains different.",
+      "startMs": 457336.0,
+      "endMs": 458962.0,
+      "charStart": 6850,
+      "charEnd": 6881
+    },
+    {
+      "id": "s0100",
+      "text": "The coworker remains imperfect.",
+      "startMs": 459113.0,
+      "endMs": 461446.0,
+      "charStart": 6882,
+      "charEnd": 6913
+    },
+    {
+      "id": "s0101",
+      "text": "The community remains complicated.",
+      "startMs": 461597.0,
+      "endMs": 463733.0,
+      "charStart": 6914,
+      "charEnd": 6948
+    },
+    {
+      "id": "s0102",
+      "text": "Yet the person who participates is no longer quite the same observer they were before.",
+      "startMs": 463907.0,
+      "endMs": 469144.0,
+      "charStart": 6949,
+      "charEnd": 7035
+    },
+    {
+      "id": "s0103",
+      "text": "This does not eliminate disagreement.",
+      "startMs": 469387.0,
+      "endMs": 471547.0,
+      "charStart": 7036,
+      "charEnd": 7073
+    },
+    {
+      "id": "s0104",
+      "text": "It makes disagreement more informed—and often more honest about what the observer brought to it.",
+      "startMs": 471872.0,
+      "endMs": 477886.0,
+      "charStart": 7074,
+      "charEnd": 7170
+    },
+    {
+      "id": "s0105",
+      "text": "Core Principle",
+      "startMs": 478582.0,
+      "endMs": 479441.0,
+      "charStart": 7172,
+      "charEnd": 7186
+    },
+    {
+      "id": "s0106",
+      "text": "Participation Updates Beliefs.",
+      "startMs": 479499.0,
+      "endMs": 483122.0,
+      "charStart": 7188,
+      "charEnd": 7218
+    },
+    {
+      "id": "s0107",
+      "text": "Trust enables participation.",
+      "startMs": 483725.0,
+      "endMs": 486047.0,
+      "charStart": 7220,
+      "charEnd": 7248
+    },
+    {
+      "id": "s0108",
+      "text": "Participation creates experience.",
+      "startMs": 486373.0,
+      "endMs": 488857.0,
+      "charStart": 7249,
+      "charEnd": 7282
+    },
+    {
+      "id": "s0109",
+      "text": "Experience places beliefs in contact with reality—and changes the people who undergo it.",
+      "startMs": 489298.0,
+      "endMs": 495126.0,
+      "charStart": 7283,
+      "charEnd": 7371
+    },
+    {
+      "id": "s0110",
+      "text": "The result is not always agreement.",
+      "startMs": 495567.0,
+      "endMs": 498029.0,
+      "charStart": 7372,
+      "charEnd": 7407
+    },
+    {
+      "id": "s0111",
+      "text": "It is often a different person than the one who began.",
+      "startMs": 498238.0,
+      "endMs": 501779.0,
+      "charStart": 7408,
+      "charEnd": 7462
+    },
+    {
+      "id": "s0112",
+      "text": "From Summaries to Experience",
+      "startMs": 502220.0,
+      "endMs": 504379.0,
+      "charStart": 7464,
+      "charEnd": 7492
+    },
+    {
+      "id": "s0113",
+      "text": "As the evening ended, people lingered in the driveway longer than expected.",
+      "startMs": 504821.0,
+      "endMs": 509139.0,
+      "charStart": 7494,
+      "charEnd": 7569
+    },
+    {
+      "id": "s0114",
+      "text": "The conversation had not resolved every difference.",
+      "startMs": 509465.0,
+      "endMs": 512216.0,
+      "charStart": 7570,
+      "charEnd": 7621
+    },
+    {
+      "id": "s0115",
+      "text": "It had not removed every uncertainty.",
+      "startMs": 512425.0,
+      "endMs": 514887.0,
+      "charStart": 7622,
+      "charEnd": 7659
+    },
+    {
+      "id": "s0116",
+      "text": "The neighbors still carried histories that remained mostly unknown.",
+      "startMs": 515270.0,
+      "endMs": 518915.0,
+      "charStart": 7660,
+      "charEnd": 7727
+    },
+    {
+      "id": "s0117",
+      "text": "They still held opinions that others did not fully share.",
+      "startMs": 519159.0,
+      "endMs": 522306.0,
+      "charStart": 7728,
+      "charEnd": 7785
+    },
+    {
+      "id": "s0118",
+      "text": "The host walked back inside thinking about how close she had come to treating a summary as a person.",
+      "startMs": 522689.0,
+      "endMs": 528180.0,
+      "charStart": 7787,
+      "charEnd": 7887
+    },
+    {
+      "id": "s0119",
+      "text": "She had almost decided what the family was without ever sitting at the same table.",
+      "startMs": 528993.0,
+      "endMs": 533544.0,
+      "charStart": 7888,
+      "charEnd": 7970
+    },
+    {
+      "id": "s0120",
+      "text": "She remembered, with a small jolt of discomfort, several invitations she had stopped extending because she assumed they would not be interested.",
+      "startMs": 534055.0,
+      "endMs": 542345.0,
+      "charStart": 7971,
+      "charEnd": 8115
+    },
+    {
+      "id": "s0121",
+      "text": "She was not the same neighbor she had been when the evening began.",
+      "startMs": 542948.0,
+      "endMs": 546211.0,
+      "charStart": 8116,
+      "charEnd": 8182
+    },
+    {
+      "id": "s0122",
+      "text": "Yet something had changed on both sides of the relationship.",
+      "startMs": 546907.0,
+      "endMs": 550634.0,
+      "charStart": 8184,
+      "charEnd": 8244
+    },
+    {
+      "id": "s0123",
+      "text": "The family next door had become more than a collection of observations.",
+      "startMs": 551238.0,
+      "endMs": 555139.0,
+      "charStart": 8245,
+      "charEnd": 8316
+    },
+    {
+      "id": "s0124",
+      "text": "The host had become more than a person who observed from a distance.",
+      "startMs": 555580.0,
+      "endMs": 559597.0,
+      "charStart": 8317,
+      "charEnd": 8385
+    },
+    {
+      "id": "s0125",
+      "text": "Participation had turned summaries into experiences—and experience had quietly begun reshaping belief.",
+      "startMs": 560108.0,
+      "endMs": 567585.0,
+      "charStart": 8386,
+      "charEnd": 8488
+    },
+    {
+      "id": "s0126",
+      "text": "They still disagreed about some things.",
+      "startMs": 568096.0,
+      "endMs": 570174.0,
+      "charStart": 8489,
+      "charEnd": 8528
+    },
+    {
+      "id": "s0127",
+      "text": "They understood the disagreements, and themselves, better than they had before.",
+      "startMs": 570418.0,
+      "endMs": 574690.0,
+      "charStart": 8529,
+      "charEnd": 8608
+    }
+  ]
+}
