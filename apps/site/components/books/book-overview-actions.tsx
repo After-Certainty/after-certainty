@@ -1,5 +1,7 @@
 "use client";
 
+import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
+
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import {
   explorePrimaryButtonClass,
@@ -101,7 +103,10 @@ export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewA
   const hasPublication = Boolean(primary) || secondary.length > 0;
 
   return (
-    <section
+    <CorpusNavigationRegion
+      as="section"
+      fromType="book"
+      relation="read"
       className="mt-6 space-y-4 md:mt-10"
       aria-label={hasPublication ? "Read or get the book" : "Actions"}
     >
@@ -156,6 +161,6 @@ export function BookOverviewActions({ bookId, bookSlug, actions }: BookOverviewA
         </p>
       ) : null}
       <BookFavoriteControl bookId={bookId} className="pt-1" />
-    </section>
+    </CorpusNavigationRegion>
   );
 }

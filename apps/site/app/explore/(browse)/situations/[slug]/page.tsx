@@ -140,16 +140,18 @@ export default async function ExploreSituationDetailPage({ params }: PageProps) 
         >
           <div className="flex flex-col gap-8 md:gap-14">
             <RelatedContentGrid
+              fromType="situation"
               heading="Active patterns"
               patterns={related.patterns}
               collapsible
             />
             <RelatedContentGrid
+              fromType="situation"
               heading="Related concepts"
               concepts={related.concepts}
               collapsible
             />
-            <RelatedBooksSection books={related.books} collapsible />
+            <RelatedBooksSection fromType="situation" books={related.books} collapsible />
           </div>
         </Section>
       ) : null}

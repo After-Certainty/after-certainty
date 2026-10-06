@@ -11,6 +11,7 @@ import {
   setAudioPlaybackRate,
   subscribeAudioPlaybackRate,
 } from "@/lib/reading/audioPlaybackRate";
+import { trackVercelIntent } from "@/lib/analytics/vercel-intent";
 import type { ChapterAudioUnit } from "@/lib/reading/chapter-audio";
 import {
   canHighlightAlignment,
@@ -70,6 +71,7 @@ export function ChapterAudioPlayer({
   alignment: alignmentProp = null,
 }: ChapterAudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const startedSource = useRef<string | null>(null);
   const [fetchedAlignment, setFetchedAlignment] = useState<ChapterAudioAlignment | null>(null);
   const playbackRate = useSyncExternalStore(
     subscribeAudioPlaybackRate,
@@ -246,6 +248,14 @@ export function ChapterAudioPlayer({
         <audio
           ref={audioRef}
           controls
+          onPlaying={() => {
+            if (startedSource.current === audio.audioUrl) return;
+            startedSource.current = audio.audioUrl;
+            trackVercelIntent({
+              name: "listen_started",
+              properties: { location: "chapter_reader", media_type: "chapter_audio" },
+            });
+          }}
           preload="metadata"
           className="h-10 w-full opacity-95 [&::-webkit-media-controls-panel]:bg-bg-elevated/90"
           src={audio.audioUrl}

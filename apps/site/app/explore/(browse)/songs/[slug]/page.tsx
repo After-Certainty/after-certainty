@@ -113,9 +113,7 @@ export default async function ExploreSongDetailPage({ params }: PageProps) {
           {song.title}
         </h1>
         {song.creatorNames.length > 0 ? (
-          <p className="mt-3 text-sm text-muted md:mt-4">
-            {song.creatorNames.join(", ")}
-          </p>
+          <p className="mt-3 text-sm text-muted md:mt-4">{song.creatorNames.join(", ")}</p>
         ) : null}
         {shortDescription ? (
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted md:mt-10 md:text-xl">
@@ -250,17 +248,20 @@ export default async function ExploreSongDetailPage({ params }: PageProps) {
         >
           <div className="flex flex-col gap-8 md:gap-14">
             <RelatedContentGrid
+              fromType="song"
               heading="Related patterns"
               patterns={related.patterns}
               collapsible
             />
             <RelatedContentGrid
+              fromType="song"
               heading="Related concepts"
               concepts={related.concepts}
               collapsible
             />
-            <RelatedBooksSection books={related.books} collapsible />
+            <RelatedBooksSection fromType="song" books={related.books} collapsible />
             <RelatedContentGrid
+              fromType="song"
               heading="Related sources"
               sources={related.sources}
               collapsible

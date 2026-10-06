@@ -1,8 +1,11 @@
+import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
+import type { CorpusType } from "@/lib/analytics/vercel-intent";
 import { CompactBookRow } from "@/components/explore/compact-book-row";
 import { RelatedSectionDisclosure } from "@/components/explore/related-section-disclosure";
 import type { Book } from "@/types/semanticGraph";
 
 type RelatedBooksSectionProps = {
+  fromType?: CorpusType;
   books: readonly Book[];
   className?: string;
   /**
@@ -20,6 +23,7 @@ function bookCountLabel(count: number): string {
  * Related books as compact thumbnail rows (not near-full-width BookCard covers).
  */
 export function RelatedBooksSection({
+  fromType,
   books,
   className = "",
   collapsible = false,
@@ -27,13 +31,19 @@ export function RelatedBooksSection({
   if (books.length === 0) return null;
 
   const list = (
-    <ul className={collapsible ? "border-t border-border/35 md:mt-0" : "mt-4 border-t border-border/35"}>
+    <CorpusNavigationRegion
+      as="ul"
+      fromType={fromType}
+      className={
+        collapsible ? "border-t border-border/35 md:mt-0" : "mt-4 border-t border-border/35"
+      }
+    >
       {books.map((book) => (
         <li key={book.id}>
           <CompactBookRow book={book} ctaLabel="View book" />
         </li>
       ))}
-    </ul>
+    </CorpusNavigationRegion>
   );
 
   if (collapsible) {

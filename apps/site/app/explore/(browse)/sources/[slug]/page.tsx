@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
 import Link from "next/link";
+import type { Metadata } from "next";
+import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
 import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/seo/json-ld";
 import { BreadcrumbTrail } from "@/components/explore/breadcrumb-trail";
@@ -100,7 +101,11 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
           {displayTitle}
         </h1>
         {creatorThinkers.length > 0 ? (
-          <div className="mt-4 flex flex-wrap gap-2 md:mt-6">
+          <CorpusNavigationRegion
+            fromType="source"
+            relation="creator"
+            className="mt-4 flex flex-wrap gap-2 md:mt-6"
+          >
             {creatorThinkers.map((thinker) => (
               <Link
                 key={thinker.id}
@@ -110,7 +115,7 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
                 {thinker.name}
               </Link>
             ))}
-          </div>
+          </CorpusNavigationRegion>
         ) : null}
         {displayBody ? (
           useBodyDisclosure ? (
@@ -154,16 +159,18 @@ export default async function ExploreSourceDetailPage({ params }: PageProps) {
         >
           <div className="flex flex-col gap-8 md:gap-14">
             <RelatedContentGrid
+              fromType="source"
               heading="Related concepts"
               concepts={related.concepts}
               collapsible
             />
             <RelatedContentGrid
+              fromType="source"
               heading="Related patterns"
               patterns={related.patterns}
               collapsible
             />
-            <RelatedBooksSection books={related.books} collapsible />
+            <RelatedBooksSection fromType="source" books={related.books} collapsible />
           </div>
         </Section>
       ) : null}

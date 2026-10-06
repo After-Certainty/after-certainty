@@ -132,18 +132,25 @@ export default async function ExploreThinkerDetailPage({ params }: PageProps) {
           className="border-t border-border/25 !pt-[var(--explore-section-y)] md:!pt-[var(--explore-section-y-md)] !pb-[var(--explore-section-pb)] md:!pb-[var(--explore-section-pb-md)]"
         >
           <div className="flex flex-col gap-8 md:gap-14">
-            <RelatedContentGrid heading="Works" sources={related.works} collapsible />
             <RelatedContentGrid
+              fromType="thinker"
+              heading="Works"
+              sources={related.works}
+              collapsible
+            />
+            <RelatedContentGrid
+              fromType="thinker"
               heading="Related concepts"
               concepts={related.concepts}
               collapsible
             />
             <RelatedContentGrid
+              fromType="thinker"
               heading="Related patterns"
               patterns={related.patterns}
               collapsible
             />
-            <RelatedBooksSection books={related.books} collapsible />
+            <RelatedBooksSection fromType="thinker" books={related.books} collapsible />
           </div>
         </Section>
       ) : null}

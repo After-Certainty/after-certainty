@@ -1,5 +1,6 @@
 "use client";
 
+import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
 import { TrackedLink } from "@/components/analytics/tracked-link";
 import {
   explorePrimaryButtonClass,
@@ -80,7 +81,13 @@ export function ExploreEntityDetailActions({
   const otherLinks = publicationLinks.filter((item) => item.kind !== "read");
 
   return (
-    <section className="mt-6 md:mt-10" aria-label={label}>
+    <CorpusNavigationRegion
+      as="section"
+      fromType={observatory.kind === "force" ? undefined : observatory.kind}
+      relation="read"
+      className="mt-6 md:mt-10"
+      aria-label={label}
+    >
       <div className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
         {readLinks.map((item) => (
           <TrackedLink
@@ -110,6 +117,6 @@ export function ExploreEntityDetailActions({
           variant="secondary"
         />
       </div>
-    </section>
+    </CorpusNavigationRegion>
   );
 }

@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
@@ -14,6 +14,9 @@ import type { ChapterAudioAlignment } from "@/lib/reading/chapter-audio-alignmen
 vi.mock("@/lib/reading/navigate-chapter", () => ({
   registerChapterAudioElement: () => () => undefined,
 }));
+
+const trackMock = vi.hoisted(() => vi.fn());
+vi.mock("@vercel/analytics", () => ({ track: trackMock }));
 
 const digest = `sha256:${"a".repeat(64)}`;
 
@@ -40,6 +43,7 @@ const alignment: ChapterAudioAlignment = {
 
 describe("ChapterAudioPlayer", () => {
   beforeEach(() => {
+    trackMock.mockReset();
     window.localStorage.clear();
     clearAudioPlaybackRate();
   });
@@ -86,4 +90,31 @@ describe("ChapterAudioPlayer", () => {
     expect(screen.getByRole("combobox", { name: "Playback speed" })).toHaveValue("1.75");
     expect(screen.getByTestId("chapter-audio-element")).toHaveProperty("playbackRate", 1.75);
   });
+});
+
+it("tracks only confirmed playback once per chapter source, preserving controls on analytics failure", () => {
+  trackMock.mockImplementation(() => {
+    throw new Error("Offline analytics");
+  });
+  const { rerender } = render(<ChapterAudioPlayer audio={unit} alignment={alignment} />);
+  const element = screen.getByTestId("chapter-audio-element");
+  expect(trackMock).not.toHaveBeenCalled();
+  fireEvent.play(element);
+  fireEvent.error(element);
+  expect(trackMock).not.toHaveBeenCalled();
+  fireEvent.playing(element);
+  fireEvent.pause(element);
+  fireEvent.playing(element);
+  expect(trackMock.mock.calls).toEqual([
+    ["listen_started", { location: "chapter_reader", media_type: "chapter_audio" }],
+  ]);
+  expect(element).toHaveAttribute("controls");
+  rerender(
+    <ChapterAudioPlayer
+      audio={{ ...unit, audioUrl: "/generated/audio/another.mp3" }}
+      alignment={alignment}
+    />,
+  );
+  fireEvent.playing(element);
+  expect(trackMock).toHaveBeenCalledTimes(2);
 });
