@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-1-why-trust-exists-chapter-2-success-creates-momentum",
+  "generationHash": "sha256:b8fd5168cdde9fbc3c9792a1d5f483894d09b5066adfc0558576aaf5a467bcaa",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Success Creates Momentum",
+      "startMs": 0.0,
+      "endMs": 1729.0,
+      "charStart": 0,
+      "charEnd": 24
+    },
+    {
+      "id": "s0002",
+      "text": "> Why does past success create future trust?",
+      "startMs": 1904.0,
+      "endMs": 5526.0,
+      "charStart": 26,
+      "charEnd": 70
+    },
+    {
+      "id": "s0003",
+      "text": "Calder Family Health did not grow because every new patient independently evaluated the quality of its care.",
+      "startMs": 5851.0,
+      "endMs": 13200.0,
+      "charStart": 72,
+      "charEnd": 180
+    },
+    {
+      "id": "s0004",
+      "text": "Most patients arrived because someone they trusted recommended it—a friend who spoke highly of the clinic, a family member who shared a positive experience, an employee who recommended the organization as a place to work.",
+      "startMs": 13897.0,
+      "endMs": 26412.0,
+      "charStart": 181,
+      "charEnd": 402
+    },
+    {
+      "id": "s0005",
+      "text": "Trust moved through stories long before it moved through evidence.",
+      "startMs": 26923.0,
+      "endMs": 30371.0,
+      "charStart": 403,
+      "charEnd": 469
+    },
+    {
+      "id": "s0006",
+      "text": "As Calder expanded, fewer people interacted directly with David Marsh—yet trust continued growing, carried by reputation as much as by firsthand experience.",
+      "startMs": 30696.0,
+      "endMs": 41122.0,
+      "charStart": 471,
+      "charEnd": 627
+    },
+    {
+      "id": "s0007",
+      "text": "That trust was not irrational—it was built on real success.",
+      "startMs": 41447.0,
+      "endMs": 45580.0,
+      "charStart": 629,
+      "charEnd": 688
+    },
+    {
+      "id": "s0008",
+      "text": "David had made good decisions, the clinic had helped people, employees had positive experiences, and patients received care they valued.",
+      "startMs": 46091.0,
+      "endMs": 54566.0,
+      "charStart": 689,
+      "charEnd": 825
+    },
+    {
+      "id": "s0009",
+      "text": "The reputation reflected reality.",
+      "startMs": 54891.0,
+      "endMs": 57341.0,
+      "charStart": 826,
+      "charEnd": 859
+    },
+    {
+      "id": "s0010",
+      "text": "The challenge was that reputation could travel farther than direct experience.",
+      "startMs": 57620.0,
+      "endMs": 62147.0,
+      "charStart": 861,
+      "charEnd": 939
+    },
+    {
+      "id": "s0011",
+      "text": "A new employee might trust David without ever meeting him.",
+      "startMs": 62356.0,
+      "endMs": 65572.0,
+      "charStart": 940,
+      "charEnd": 998
+    },
+    {
+      "id": "s0012",
+      "text": "A patient might trust Calder without knowing how the organization operated.",
+      "startMs": 65781.0,
+      "endMs": 70030.0,
+      "charStart": 999,
+      "charEnd": 1074
+    },
+    {
+      "id": "s0013",
+      "text": "A community might trust the clinic because thousands of other people already did.",
+      "startMs": 70309.0,
+      "endMs": 74930.0,
+      "charStart": 1075,
+      "charEnd": 1156
+    },
+    {
+      "id": "s0014",
+      "text": "Success created momentum.",
+      "startMs": 75139.0,
+      "endMs": 77090.0,
+      "charStart": 1158,
+      "charEnd": 1183
+    },
+    {
+      "id": "s0015",
+      "text": "The more trust accumulated, the easier additional trust became.",
+      "startMs": 77206.0,
+      "endMs": 80874.0,
+      "charStart": 1184,
+      "charEnd": 1247
+    },
+    {
+      "id": "s0016",
+      "text": "Each positive outcome increased the likelihood that future people would begin with confidence rather than skepticism.",
+      "startMs": 81199.0,
+      "endMs": 88026.0,
+      "charStart": 1248,
+      "charEnd": 1365
+    },
+    {
+      "id": "s0017",
+      "text": "In this way, trust behaves differently than evidence.",
+      "startMs": 88351.0,
+      "endMs": 91439.0,
+      "charStart": 1367,
+      "charEnd": 1420
+    },
+    {
+      "id": "s0018",
+      "text": "Evidence usually requires direct observation.",
+      "startMs": 91718.0,
+      "endMs": 94458.0,
+      "charStart": 1421,
+      "charEnd": 1466
+    },
+    {
+      "id": "s0019",
+      "text": "Trust can travel through reputation.",
+      "startMs": 94783.0,
+      "endMs": 96872.0,
+      "charStart": 1467,
+      "charEnd": 1503
+    },
+    {
+      "id": "s0020",
+      "text": "The same pattern appears throughout society.",
+      "startMs": 97151.0,
+      "endMs": 99647.0,
+      "charStart": 1505,
+      "charEnd": 1549
+    },
+    {
+      "id": "s0021",
+      "text": "Many people purchased products from Apple because years of successful products created confidence in future ones.",
+      "startMs": 100158.0,
+      "endMs": 106207.0,
+      "charStart": 1550,
+      "charEnd": 1663
+    },
+    {
+      "id": "s0022",
+      "text": "Investors entrusted capital to Warren Buffett because decades of successful decisions created credibility that extended into the future.",
+      "startMs": 106648.0,
+      "endMs": 114357.0,
+      "charStart": 1664,
+      "charEnd": 1800
+    },
+    {
+      "id": "s0023",
+      "text": "Customers trusted Toyota because generations of reliable vehicles created expectations about the next one.",
+      "startMs": 114798.0,
+      "endMs": 121184.0,
+      "charStart": 1801,
+      "charEnd": 1907
+    },
+    {
+      "id": "s0024",
+      "text": "Passengers boarded Boeing aircraft because the company had accumulated decades of engineering success and institutional credibility.",
+      "startMs": 121509.0,
+      "endMs": 128916.0,
+      "charStart": 1908,
+      "charEnd": 2040
+    },
+    {
+      "id": "s0025",
+      "text": "In each case, trust was built on something real.",
+      "startMs": 129613.0,
+      "endMs": 132806.0,
+      "charStart": 2042,
+      "charEnd": 2090
+    },
+    {
+      "id": "s0026",
+      "text": "Past success had earned it.",
+      "startMs": 133247.0,
+      "endMs": 135255.0,
+      "charStart": 2091,
+      "charEnd": 2118
+    },
+    {
+      "id": "s0027",
+      "text": "Yet once trust begins moving through reputation, people increasingly rely on inherited confidence rather than personal observation.",
+      "startMs": 135766.0,
+      "endMs": 143800.0,
+      "charStart": 2119,
+      "charEnd": 2250
+    },
+    {
+      "id": "s0028",
+      "text": "Most customers do not inspect factories.",
+      "startMs": 144497.0,
+      "endMs": 147074.0,
+      "charStart": 2251,
+      "charEnd": 2291
+    },
+    {
+      "id": "s0029",
+      "text": "Most investors do not audit every decision.",
+      "startMs": 147399.0,
+      "endMs": 150244.0,
+      "charStart": 2292,
+      "charEnd": 2335
+    },
+    {
+      "id": "s0030",
+      "text": "Most passengers do not evaluate aircraft design.",
+      "startMs": 150627.0,
+      "endMs": 153657.0,
+      "charStart": 2336,
+      "charEnd": 2384
+    },
+    {
+      "id": "s0031",
+      "text": "They rely on trust accumulated by previous successes.",
+      "startMs": 153831.0,
+      "endMs": 157407.0,
+      "charStart": 2385,
+      "charEnd": 2438
+    },
+    {
+      "id": "s0032",
+      "text": "This is one of trust's greatest strengths.",
+      "startMs": 157616.0,
+      "endMs": 159880.0,
+      "charStart": 2440,
+      "charEnd": 2482
+    },
+    {
+      "id": "s0033",
+      "text": "Human beings learn not only from their own experiences, but from the experiences of others.",
+      "startMs": 160089.0,
+      "endMs": 165697.0,
+      "charStart": 2483,
+      "charEnd": 2574
+    },
+    {
+      "id": "s0034",
+      "text": "Reputation allows trust to spread beyond direct observation.",
+      "startMs": 166022.0,
+      "endMs": 169853.0,
+      "charStart": 2575,
+      "charEnd": 2635
+    },
+    {
+      "id": "s0035",
+      "text": "Organizations can coordinate at larger scales because people no longer need to personally verify everything for themselves.",
+      "startMs": 170178.0,
+      "endMs": 177121.0,
+      "charStart": 2636,
+      "charEnd": 2759
+    },
+    {
+      "id": "s0036",
+      "text": "Trust becomes transferable.",
+      "startMs": 177562.0,
+      "endMs": 179467.0,
+      "charStart": 2760,
+      "charEnd": 2787
+    },
+    {
+      "id": "s0037",
+      "text": "The result is powerful: success creates momentum, momentum creates trust, trust attracts participation, and participation creates opportunities for further success.",
+      "startMs": 179850.0,
+      "endMs": 191344.0,
+      "charStart": 2789,
+      "charEnd": 2953
+    },
+    {
+      "id": "s0038",
+      "text": "The cycle can reinforce itself for years.",
+      "startMs": 191471.0,
+      "endMs": 194177.0,
+      "charStart": 2954,
+      "charEnd": 2995
+    },
+    {
+      "id": "s0039",
+      "text": "That is often how healthy organizations grow.",
+      "startMs": 194351.0,
+      "endMs": 197079.0,
+      "charStart": 2996,
+      "charEnd": 3041
+    },
+    {
+      "id": "s0040",
+      "text": "The same process that allows trust to spread, however, also creates the conditions for a different problem.",
+      "startMs": 197253.0,
+      "endMs": 202919.0,
+      "charStart": 3043,
+      "charEnd": 3150
+    },
+    {
+      "id": "s0041",
+      "text": "Trust can continue moving long after the people receiving it have stopped observing the evidence that originally created it.",
+      "startMs": 203070.0,
+      "endMs": 209954.0,
+      "charStart": 3151,
+      "charEnd": 3275
+    },
+    {
+      "id": "s0042",
+      "text": "Core Principle",
+      "startMs": 210767.0,
+      "endMs": 211847.0,
+      "charStart": 3277,
+      "charEnd": 3291
+    },
+    {
+      "id": "s0043",
+      "text": "Past Success Creates Future Trust",
+      "startMs": 211963.0,
+      "endMs": 214772.0,
+      "charStart": 3293,
+      "charEnd": 3326
+    },
+    {
+      "id": "s0044",
+      "text": "Success compounds trust.",
+      "startMs": 215585.0,
+      "endMs": 218081.0,
+      "charStart": 3328,
+      "charEnd": 3352
+    }
+  ]
+}

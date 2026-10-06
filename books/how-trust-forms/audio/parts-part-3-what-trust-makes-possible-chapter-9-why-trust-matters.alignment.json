@@ -1,0 +1,992 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters",
+  "generationHash": "sha256:9a1eecfd3371f04c0e83ae68c4b5d4e7c4c3b1c9bc8520b255729602cf9fa243",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Why Trust Matters",
+      "startMs": 0.0,
+      "endMs": 1149.0,
+      "charStart": 0,
+      "charEnd": 17
+    },
+    {
+      "id": "s0002",
+      "text": "> Why does cooperation depend on trust?",
+      "startMs": 1393.0,
+      "endMs": 5375.0,
+      "charStart": 19,
+      "charEnd": 58
+    },
+    {
+      "id": "s0003",
+      "text": "Individual acts fade from memory.",
+      "startMs": 5817.0,
+      "endMs": 8115.0,
+      "charStart": 60,
+      "charEnd": 93
+    },
+    {
+      "id": "s0004",
+      "text": "Neighborhoods still function when enough people remain willing to rely on one another despite uncertainty.",
+      "startMs": 8556.0,
+      "endMs": 14593.0,
+      "charStart": 94,
+      "charEnd": 200
+    },
+    {
+      "id": "s0005",
+      "text": "This chapter asks what trust makes durable—and what disappears when that willingness thins.",
+      "startMs": 15197.0,
+      "endMs": 21524.0,
+      "charStart": 201,
+      "charEnd": 292
+    },
+    {
+      "id": "s0006",
+      "text": "The neighborhood looked different ten years later.",
+      "startMs": 22128.0,
+      "endMs": 24787.0,
+      "charStart": 294,
+      "charEnd": 344
+    },
+    {
+      "id": "s0007",
+      "text": "Some families had moved away.",
+      "startMs": 25066.0,
+      "endMs": 26691.0,
+      "charStart": 345,
+      "charEnd": 374
+    },
+    {
+      "id": "s0008",
+      "text": "Others had arrived.",
+      "startMs": 26808.0,
+      "endMs": 27934.0,
+      "charStart": 375,
+      "charEnd": 394
+    },
+    {
+      "id": "s0009",
+      "text": "Children who once rode bicycles through the street now drove cars of their own.",
+      "startMs": 28143.0,
+      "endMs": 31962.0,
+      "charStart": 395,
+      "charEnd": 474
+    },
+    {
+      "id": "s0010",
+      "text": "Trees planted near sidewalks had grown tall enough to cast shade across entire yards.",
+      "startMs": 32113.0,
+      "endMs": 37291.0,
+      "charStart": 475,
+      "charEnd": 560
+    },
+    {
+      "id": "s0011",
+      "text": "Many individual moments had faded from memory.",
+      "startMs": 37616.0,
+      "endMs": 40310.0,
+      "charStart": 562,
+      "charEnd": 608
+    },
+    {
+      "id": "s0012",
+      "text": "Few people remembered who organized the first block party.",
+      "startMs": 40519.0,
+      "endMs": 43712.0,
+      "charStart": 609,
+      "charEnd": 667
+    },
+    {
+      "id": "s0013",
+      "text": "Most could not recall exactly who helped during a particular storm.",
+      "startMs": 44095.0,
+      "endMs": 48088.0,
+      "charStart": 668,
+      "charEnd": 735
+    },
+    {
+      "id": "s0014",
+      "text": "The details blurred.",
+      "startMs": 48472.0,
+      "endMs": 49888.0,
+      "charStart": 736,
+      "charEnd": 756
+    },
+    {
+      "id": "s0015",
+      "text": "The neighborhood remained.",
+      "startMs": 50213.0,
+      "endMs": 51583.0,
+      "charStart": 757,
+      "charEnd": 783
+    },
+    {
+      "id": "s0016",
+      "text": "People still borrowed tools, still shared information, still checked on one another during emergencies, still worked together when something needed attention.",
+      "startMs": 51792.0,
+      "endMs": 60860.0,
+      "charStart": 785,
+      "charEnd": 943
+    },
+    {
+      "id": "s0017",
+      "text": "The quiet house down the block remained quiet.",
+      "startMs": 61185.0,
+      "endMs": 64099.0,
+      "charStart": 944,
+      "charEnd": 990
+    },
+    {
+      "id": "s0018",
+      "text": "Its owners still preferred brief conversations at the mailbox to long evenings around a table.",
+      "startMs": 64273.0,
+      "endMs": 69556.0,
+      "charStart": 991,
+      "charEnd": 1085
+    },
+    {
+      "id": "s0019",
+      "text": "They rarely attended gatherings and rarely stayed long when they did.",
+      "startMs": 69799.0,
+      "endMs": 73596.0,
+      "charStart": 1086,
+      "charEnd": 1155
+    },
+    {
+      "id": "s0020",
+      "text": "Yet when people spoke about the neighborhood, nobody questioned whether they belonged there.",
+      "startMs": 73921.0,
+      "endMs": 78577.0,
+      "charStart": 1156,
+      "charEnd": 1248
+    },
+    {
+      "id": "s0021",
+      "text": "Trust had never required everyone to participate the same way.",
+      "startMs": 79018.0,
+      "endMs": 82803.0,
+      "charStart": 1249,
+      "charEnd": 1311
+    },
+    {
+      "id": "s0022",
+      "text": "It required enough people to participate reliably enough, in enough different forms, for cooperation to continue.",
+      "startMs": 83128.0,
+      "endMs": 90465.0,
+      "charStart": 1312,
+      "charEnd": 1425
+    },
+    {
+      "id": "s0023",
+      "text": "No single relationship explained why.",
+      "startMs": 90976.0,
+      "endMs": 93507.0,
+      "charStart": 1426,
+      "charEnd": 1463
+    },
+    {
+      "id": "s0024",
+      "text": "No individual carried the entire burden.",
+      "startMs": 93890.0,
+      "endMs": 96409.0,
+      "charStart": 1464,
+      "charEnd": 1504
+    },
+    {
+      "id": "s0025",
+      "text": "Something larger had emerged from thousands of ordinary acts of participation.",
+      "startMs": 96653.0,
+      "endMs": 101553.0,
+      "charStart": 1505,
+      "charEnd": 1583
+    },
+    {
+      "id": "s0026",
+      "text": "Trust had become cooperation.",
+      "startMs": 101831.0,
+      "endMs": 104223.0,
+      "charStart": 1585,
+      "charEnd": 1614
+    },
+    {
+      "id": "s0027",
+      "text": "Participation Despite Uncertainty",
+      "startMs": 104827.0,
+      "endMs": 108623.0,
+      "charStart": 1616,
+      "charEnd": 1649
+    },
+    {
+      "id": "s0028",
+      "text": "Human beings rarely accomplish important things alone.",
+      "startMs": 109923.0,
+      "endMs": 113569.0,
+      "charStart": 1651,
+      "charEnd": 1705
+    },
+    {
+      "id": "s0029",
+      "text": "Families distribute responsibilities across generations.",
+      "startMs": 113952.0,
+      "endMs": 117308.0,
+      "charStart": 1706,
+      "charEnd": 1762
+    },
+    {
+      "id": "s0030",
+      "text": "Teams coordinate specialized knowledge.",
+      "startMs": 117633.0,
+      "endMs": 120082.0,
+      "charStart": 1763,
+      "charEnd": 1802
+    },
+    {
+      "id": "s0031",
+      "text": "Communities maintain shared spaces.",
+      "startMs": 120361.0,
+      "endMs": 122904.0,
+      "charStart": 1803,
+      "charEnd": 1838
+    },
+    {
+      "id": "s0032",
+      "text": "Organizations solve problems larger than any individual can manage.",
+      "startMs": 123229.0,
+      "endMs": 127780.0,
+      "charStart": 1839,
+      "charEnd": 1906
+    },
+    {
+      "id": "s0033",
+      "text": "Societies build institutions that persist beyond the lives of the people who created them.",
+      "startMs": 128163.0,
+      "endMs": 133388.0,
+      "charStart": 1907,
+      "charEnd": 1997
+    },
+    {
+      "id": "s0034",
+      "text": "All of these activities depend on cooperation, and cooperation creates a difficult challenge.",
+      "startMs": 133991.0,
+      "endMs": 139947.0,
+      "charStart": 1999,
+      "charEnd": 2092
+    },
+    {
+      "id": "s0035",
+      "text": "People must act together despite uncertainty.",
+      "startMs": 140330.0,
+      "endMs": 143407.0,
+      "charStart": 2093,
+      "charEnd": 2138
+    },
+    {
+      "id": "s0036",
+      "text": "They must contribute effort before knowing exactly what others will contribute.",
+      "startMs": 143686.0,
+      "endMs": 148748.0,
+      "charStart": 2139,
+      "charEnd": 2218
+    },
+    {
+      "id": "s0037",
+      "text": "They must accept vulnerability before outcomes become visible.",
+      "startMs": 149131.0,
+      "endMs": 153148.0,
+      "charStart": 2219,
+      "charEnd": 2281
+    },
+    {
+      "id": "s0038",
+      "text": "They must rely on people they do not fully understand.",
+      "startMs": 153322.0,
+      "endMs": 156782.0,
+      "charStart": 2282,
+      "charEnd": 2336
+    },
+    {
+      "id": "s0039",
+      "text": "Trust makes this possible.",
+      "startMs": 157107.0,
+      "endMs": 158883.0,
+      "charStart": 2338,
+      "charEnd": 2364
+    },
+    {
+      "id": "s0040",
+      "text": "Without trust, every interaction becomes a negotiation.",
+      "startMs": 159208.0,
+      "endMs": 163353.0,
+      "charStart": 2365,
+      "charEnd": 2420
+    },
+    {
+      "id": "s0041",
+      "text": "Every commitment requires verification.",
+      "startMs": 163632.0,
+      "endMs": 166499.0,
+      "charStart": 2421,
+      "charEnd": 2460
+    },
+    {
+      "id": "s0042",
+      "text": "Every contribution demands protection against exploitation.",
+      "startMs": 166743.0,
+      "endMs": 170598.0,
+      "charStart": 2461,
+      "charEnd": 2520
+    },
+    {
+      "id": "s0043",
+      "text": "The costs of coordination rise dramatically.",
+      "startMs": 170842.0,
+      "endMs": 173965.0,
+      "charStart": 2521,
+      "charEnd": 2565
+    },
+    {
+      "id": "s0044",
+      "text": "People spend more energy defending themselves than building anything together.",
+      "startMs": 174139.0,
+      "endMs": 178388.0,
+      "charStart": 2566,
+      "charEnd": 2644
+    },
+    {
+      "id": "s0045",
+      "text": "Trust lowers those costs—not by eliminating uncertainty, but by making participation possible despite it.",
+      "startMs": 178632.0,
+      "endMs": 186840.0,
+      "charStart": 2646,
+      "charEnd": 2751
+    },
+    {
+      "id": "s0046",
+      "text": "Elinor Ostrom found this pattern repeatedly while studying communities that managed shared resources successfully.",
+      "startMs": 187444.0,
+      "endMs": 194688.0,
+      "charStart": 2752,
+      "charEnd": 2866
+    },
+    {
+      "id": "s0047",
+      "text": "Cooperation became possible not because participants agreed about everything, but because enough trust existed for them to act together anyway.",
+      "startMs": 195199.0,
+      "endMs": 203431.0,
+      "charStart": 2867,
+      "charEnd": 3010
+    },
+    {
+      "id": "s0048",
+      "text": "Outcomes No One Owns",
+      "startMs": 204731.0,
+      "endMs": 206751.0,
+      "charStart": 3012,
+      "charEnd": 3032
+    },
+    {
+      "id": "s0049",
+      "text": "Many of the most important things in life emerge from cooperation rather than individual achievement.",
+      "startMs": 208051.0,
+      "endMs": 214356.0,
+      "charStart": 3034,
+      "charEnd": 3135
+    },
+    {
+      "id": "s0050",
+      "text": "Parents raise children together.",
+      "startMs": 214797.0,
+      "endMs": 216782.0,
+      "charStart": 3136,
+      "charEnd": 3168
+    },
+    {
+      "id": "s0051",
+      "text": "Neighbors create communities together.",
+      "startMs": 217107.0,
+      "endMs": 219394.0,
+      "charStart": 3169,
+      "charEnd": 3207
+    },
+    {
+      "id": "s0052",
+      "text": "Scientists build knowledge together.",
+      "startMs": 219568.0,
+      "endMs": 221716.0,
+      "charStart": 3208,
+      "charEnd": 3244
+    },
+    {
+      "id": "s0053",
+      "text": "Workers build organizations together.",
+      "startMs": 221890.0,
+      "endMs": 224270.0,
+      "charStart": 3245,
+      "charEnd": 3282
+    },
+    {
+      "id": "s0054",
+      "text": "Citizens maintain institutions together.",
+      "startMs": 224514.0,
+      "endMs": 227219.0,
+      "charStart": 3283,
+      "charEnd": 3323
+    },
+    {
+      "id": "s0055",
+      "text": "Each person contributes only part of the outcome.",
+      "startMs": 227544.0,
+      "endMs": 230691.0,
+      "charStart": 3324,
+      "charEnd": 3373
+    },
+    {
+      "id": "s0056",
+      "text": "No individual controls the whole.",
+      "startMs": 230969.0,
+      "endMs": 233105.0,
+      "charStart": 3374,
+      "charEnd": 3407
+    },
+    {
+      "id": "s0057",
+      "text": "This reality often frustrates people.",
+      "startMs": 233488.0,
+      "endMs": 235880.0,
+      "charStart": 3409,
+      "charEnd": 3446
+    },
+    {
+      "id": "s0058",
+      "text": "Human beings naturally prefer clear ownership.",
+      "startMs": 236321.0,
+      "endMs": 239050.0,
+      "charStart": 3447,
+      "charEnd": 3493
+    },
+    {
+      "id": "s0059",
+      "text": "We want to know who deserves credit, who deserves blame, who caused the success, who caused the failure.",
+      "startMs": 239375.0,
+      "endMs": 245923.0,
+      "charStart": 3494,
+      "charEnd": 3598
+    },
+    {
+      "id": "s0060",
+      "text": "Cooperation resists this simplification.",
+      "startMs": 246364.0,
+      "endMs": 249208.0,
+      "charStart": 3599,
+      "charEnd": 3639
+    },
+    {
+      "id": "s0061",
+      "text": "Many outcomes emerge from countless contributions that no single participant fully understands.",
+      "startMs": 249591.0,
+      "endMs": 255315.0,
+      "charStart": 3640,
+      "charEnd": 3735
+    },
+    {
+      "id": "s0062",
+      "text": "Trust helps people continue participating even when ownership becomes difficult to trace.",
+      "startMs": 256267.0,
+      "endMs": 261573.0,
+      "charStart": 3737,
+      "charEnd": 3826
+    },
+    {
+      "id": "s0063",
+      "text": "The result is not perfection.",
+      "startMs": 262525.0,
+      "endMs": 264476.0,
+      "charStart": 3827,
+      "charEnd": 3856
+    },
+    {
+      "id": "s0064",
+      "text": "The result is collective capacity—a form of life that Hannah Arendt described as fundamentally plural, built from action shared among people who remain distinct from one another.",
+      "startMs": 265172.0,
+      "endMs": 276422.0,
+      "charStart": 3857,
+      "charEnd": 4035
+    },
+    {
+      "id": "s0065",
+      "text": "Robert Putnam observed that communities with stronger patterns of participation and mutual reliance tend to remain healthier over time.",
+      "startMs": 276933.0,
+      "endMs": 285280.0,
+      "charStart": 4037,
+      "charEnd": 4172
+    },
+    {
+      "id": "s0066",
+      "text": "The neighborhood had not survived because any one neighbor had been extraordinary.",
+      "startMs": 285559.0,
+      "endMs": 289901.0,
+      "charStart": 4173,
+      "charEnd": 4255
+    },
+    {
+      "id": "s0067",
+      "text": "It had survived because ordinary participation had accumulated into something durable.",
+      "startMs": 290075.0,
+      "endMs": 295428.0,
+      "charStart": 4256,
+      "charEnd": 4342
+    },
+    {
+      "id": "s0068",
+      "text": "When Trust Collapses",
+      "startMs": 295811.0,
+      "endMs": 297599.0,
+      "charStart": 4344,
+      "charEnd": 4364
+    },
+    {
+      "id": "s0069",
+      "text": "Trust does not guarantee successful cooperation.",
+      "startMs": 297982.0,
+      "endMs": 301268.0,
+      "charStart": 4366,
+      "charEnd": 4414
+    },
+    {
+      "id": "s0070",
+      "text": "Groups still make mistakes.",
+      "startMs": 302220.0,
+      "endMs": 304356.0,
+      "charStart": 4415,
+      "charEnd": 4442
+    },
+    {
+      "id": "s0071",
+      "text": "Communities still experience conflict.",
+      "startMs": 304681.0,
+      "endMs": 307177.0,
+      "charStart": 4443,
+      "charEnd": 4481
+    },
+    {
+      "id": "s0072",
+      "text": "Institutions still fail.",
+      "startMs": 307421.0,
+      "endMs": 309360.0,
+      "charStart": 4482,
+      "charEnd": 4506
+    },
+    {
+      "id": "s0073",
+      "text": "People still disappoint one another.",
+      "startMs": 309604.0,
+      "endMs": 311821.0,
+      "charStart": 4507,
+      "charEnd": 4543
+    },
+    {
+      "id": "s0074",
+      "text": "The presence of trust does not remove these realities.",
+      "startMs": 312262.0,
+      "endMs": 315792.0,
+      "charStart": 4544,
+      "charEnd": 4598
+    },
+    {
+      "id": "s0075",
+      "text": "The absence of trust creates additional difficulties.",
+      "startMs": 316175.0,
+      "endMs": 319751.0,
+      "charStart": 4600,
+      "charEnd": 4653
+    },
+    {
+      "id": "s0076",
+      "text": "People withdraw.",
+      "startMs": 320192.0,
+      "endMs": 321701.0,
+      "charStart": 4654,
+      "charEnd": 4670
+    },
+    {
+      "id": "s0077",
+      "text": "Participation shrinks.",
+      "startMs": 321910.0,
+      "endMs": 323687.0,
+      "charStart": 4671,
+      "charEnd": 4693
+    },
+    {
+      "id": "s0078",
+      "text": "Suspicion replaces collaboration.",
+      "startMs": 323930.0,
+      "endMs": 326334.0,
+      "charStart": 4694,
+      "charEnd": 4727
+    },
+    {
+      "id": "s0079",
+      "text": "Short-term protection begins outweighing long-term contribution.",
+      "startMs": 326659.0,
+      "endMs": 330966.0,
+      "charStart": 4728,
+      "charEnd": 4792
+    },
+    {
+      "id": "s0080",
+      "text": "The challenge is not that trust eliminates failure.",
+      "startMs": 331407.0,
+      "endMs": 334693.0,
+      "charStart": 4793,
+      "charEnd": 4844
+    },
+    {
+      "id": "s0081",
+      "text": "The challenge is that cooperation becomes far more difficult when trust disappears.",
+      "startMs": 335018.0,
+      "endMs": 340916.0,
+      "charStart": 4845,
+      "charEnd": 4928
+    },
+    {
+      "id": "s0082",
+      "text": "A community can survive disagreement.",
+      "startMs": 341612.0,
+      "endMs": 344213.0,
+      "charStart": 4930,
+      "charEnd": 4967
+    },
+    {
+      "id": "s0083",
+      "text": "A community struggles to survive the collapse of trust.",
+      "startMs": 344654.0,
+      "endMs": 348752.0,
+      "charStart": 4968,
+      "charEnd": 5023
+    },
+    {
+      "id": "s0084",
+      "text": "Beginning Before Certainty",
+      "startMs": 349565.0,
+      "endMs": 351388.0,
+      "charStart": 5025,
+      "charEnd": 5051
+    },
+    {
+      "id": "s0085",
+      "text": "This book began with strangers.",
+      "startMs": 352201.0,
+      "endMs": 354511.0,
+      "charStart": 5053,
+      "charEnd": 5084
+    },
+    {
+      "id": "s0086",
+      "text": "A family moved into a neighborhood.",
+      "startMs": 355324.0,
+      "endMs": 357390.0,
+      "charStart": 5085,
+      "charEnd": 5120
+    },
+    {
+      "id": "s0087",
+      "text": "Nobody knew what would happen next.",
+      "startMs": 357994.0,
+      "endMs": 360199.0,
+      "charStart": 5121,
+      "charEnd": 5156
+    },
+    {
+      "id": "s0088",
+      "text": "The uncertainty never completely disappeared.",
+      "startMs": 361012.0,
+      "endMs": 364066.0,
+      "charStart": 5157,
+      "charEnd": 5202
+    },
+    {
+      "id": "s0089",
+      "text": "The neighbors never learned everything about one another.",
+      "startMs": 364576.0,
+      "endMs": 367258.0,
+      "charStart": 5203,
+      "charEnd": 5260
+    },
+    {
+      "id": "s0090",
+      "text": "The community never became free of misunderstanding, disappointment, or disagreement.",
+      "startMs": 367700.0,
+      "endMs": 372982.0,
+      "charStart": 5261,
+      "charEnd": 5346
+    },
+    {
+      "id": "s0091",
+      "text": "Trust did not solve those problems.",
+      "startMs": 373679.0,
+      "endMs": 376569.0,
+      "charStart": 5348,
+      "charEnd": 5383
+    },
+    {
+      "id": "s0092",
+      "text": "Trust allowed people to keep participating despite them.",
+      "startMs": 377010.0,
+      "endMs": 380621.0,
+      "charStart": 5384,
+      "charEnd": 5440
+    },
+    {
+      "id": "s0093",
+      "text": "That distinction matters.",
+      "startMs": 381062.0,
+      "endMs": 382734.0,
+      "charStart": 5441,
+      "charEnd": 5466
+    },
+    {
+      "id": "s0094",
+      "text": "Many people search for certainty before they cooperate.",
+      "startMs": 383117.0,
+      "endMs": 386310.0,
+      "charStart": 5468,
+      "charEnd": 5523
+    },
+    {
+      "id": "s0095",
+      "text": "Life rarely provides it.",
+      "startMs": 386635.0,
+      "endMs": 388435.0,
+      "charStart": 5524,
+      "charEnd": 5548
+    },
+    {
+      "id": "s0096",
+      "text": "Trust offers something different—not certainty, not guarantees, but a willingness to continue building relationships, communities, and institutions while uncertainty remains.",
+      "startMs": 388945.0,
+      "endMs": 400858.0,
+      "charStart": 5549,
+      "charEnd": 5723
+    },
+    {
+      "id": "s0097",
+      "text": "John Dewey argued that collective action depends upon people learning to act together before every question has been settled.",
+      "startMs": 401241.0,
+      "endMs": 408915.0,
+      "charStart": 5724,
+      "charEnd": 5849
+    },
+    {
+      "id": "s0098",
+      "text": "Human beings do not cooperate because they know enough.",
+      "startMs": 409356.0,
+      "endMs": 412758.0,
+      "charStart": 5851,
+      "charEnd": 5906
+    },
+    {
+      "id": "s0099",
+      "text": "They cooperate because trust allows them to begin before they know enough.",
+      "startMs": 413269.0,
+      "endMs": 417959.0,
+      "charStart": 5907,
+      "charEnd": 5981
+    },
+    {
+      "id": "s0100",
+      "text": "Core Principle",
+      "startMs": 418911.0,
+      "endMs": 419805.0,
+      "charStart": 5983,
+      "charEnd": 5997
+    },
+    {
+      "id": "s0101",
+      "text": "Trust Makes Cooperation Possible.",
+      "startMs": 419851.0,
+      "endMs": 422545.0,
+      "charStart": 5999,
+      "charEnd": 6032
+    },
+    {
+      "id": "s0102",
+      "text": "Trust allows people to participate despite uncertainty.",
+      "startMs": 423358.0,
+      "endMs": 427537.0,
+      "charStart": 6034,
+      "charEnd": 6089
+    },
+    {
+      "id": "s0103",
+      "text": "Participation creates experiences.",
+      "startMs": 427862.0,
+      "endMs": 430904.0,
+      "charStart": 6090,
+      "charEnd": 6124
+    },
+    {
+      "id": "s0104",
+      "text": "Experiences build relationships, communities, and institutions.",
+      "startMs": 431229.0,
+      "endMs": 436024.0,
+      "charStart": 6125,
+      "charEnd": 6188
+    },
+    {
+      "id": "s0105",
+      "text": "Cooperation emerges not because uncertainty disappears, but because people become willing to act together while uncertainty remains.",
+      "startMs": 436465.0,
+      "endMs": 445173.0,
+      "charStart": 6189,
+      "charEnd": 6321
+    },
+    {
+      "id": "s0106",
+      "text": "The Street After Ten Years",
+      "startMs": 445684.0,
+      "endMs": 447553.0,
+      "charStart": 6323,
+      "charEnd": 6349
+    },
+    {
+      "id": "s0107",
+      "text": "One evening, a moving truck arrived at the end of the block.",
+      "startMs": 448064.0,
+      "endMs": 451663.0,
+      "charStart": 6351,
+      "charEnd": 6411
+    },
+    {
+      "id": "s0108",
+      "text": "A new family stepped out and began carrying boxes toward the front door.",
+      "startMs": 451779.0,
+      "endMs": 456121.0,
+      "charStart": 6412,
+      "charEnd": 6484
+    },
+    {
+      "id": "s0109",
+      "text": "Children ran across the lawn.",
+      "startMs": 456296.0,
+      "endMs": 458107.0,
+      "charStart": 6485,
+      "charEnd": 6514
+    },
+    {
+      "id": "s0110",
+      "text": "Neighbors glanced over from driveways.",
+      "startMs": 458281.0,
+      "endMs": 460673.0,
+      "charStart": 6515,
+      "charEnd": 6553
+    },
+    {
+      "id": "s0111",
+      "text": "The scene looked familiar.",
+      "startMs": 460951.0,
+      "endMs": 462437.0,
+      "charStart": 6555,
+      "charEnd": 6581
+    },
+    {
+      "id": "s0112",
+      "text": "The neighborhood had seen it before.",
+      "startMs": 462646.0,
+      "endMs": 464527.0,
+      "charStart": 6582,
+      "charEnd": 6618
+    },
+    {
+      "id": "s0113",
+      "text": "The new family did not yet know who lived nearby.",
+      "startMs": 464701.0,
+      "endMs": 468068.0,
+      "charStart": 6619,
+      "charEnd": 6668
+    },
+    {
+      "id": "s0114",
+      "text": "They did not know whom they could rely on.",
+      "startMs": 468242.0,
+      "endMs": 470413.0,
+      "charStart": 6669,
+      "charEnd": 6711
+    },
+    {
+      "id": "s0115",
+      "text": "They did not know which relationships would become important.",
+      "startMs": 470587.0,
+      "endMs": 473850.0,
+      "charStart": 6712,
+      "charEnd": 6773
+    },
+    {
+      "id": "s0116",
+      "text": "Everything remained uncertain.",
+      "startMs": 474175.0,
+      "endMs": 476427.0,
+      "charStart": 6774,
+      "charEnd": 6804
+    },
+    {
+      "id": "s0117",
+      "text": "Yet the process had already begun.",
+      "startMs": 476938.0,
+      "endMs": 479457.0,
+      "charStart": 6806,
+      "charEnd": 6840
+    },
+    {
+      "id": "s0118",
+      "text": "A wave from across the street.",
+      "startMs": 480061.0,
+      "endMs": 481930.0,
+      "charStart": 6841,
+      "charEnd": 6871
+    },
+    {
+      "id": "s0119",
+      "text": "A brief introduction.",
+      "startMs": 482174.0,
+      "endMs": 483660.0,
+      "charStart": 6872,
+      "charEnd": 6893
+    },
+    {
+      "id": "s0120",
+      "text": "An offer to help carry a box.",
+      "startMs": 483869.0,
+      "endMs": 486075.0,
+      "charStart": 6894,
+      "charEnd": 6923
+    },
+    {
+      "id": "s0121",
+      "text": "Trust had not formed.",
+      "startMs": 486319.0,
+      "endMs": 487979.0,
+      "charStart": 6925,
+      "charEnd": 6946
+    },
+    {
+      "id": "s0122",
+      "text": "Participation had.",
+      "startMs": 488188.0,
+      "endMs": 489558.0,
+      "charStart": 6947,
+      "charEnd": 6965
+    },
+    {
+      "id": "s0123",
+      "text": "And as it always does, trust would begin there.",
+      "startMs": 489732.0,
+      "endMs": 492959.0,
+      "charStart": 6966,
+      "charEnd": 7013
+    }
+  ]
+}

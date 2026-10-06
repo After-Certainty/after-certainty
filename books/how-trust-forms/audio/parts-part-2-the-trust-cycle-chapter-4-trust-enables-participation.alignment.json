@@ -1,0 +1,880 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-2-the-trust-cycle-chapter-4-trust-enables-participation",
+  "generationHash": "sha256:66ea601985e0ae923a3f36c817168bb811d3023764195eee8a7bbae3c3852327",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Trust Enables Participation",
+      "startMs": 0.0,
+      "endMs": 1985.0,
+      "charStart": 0,
+      "charEnd": 27
+    },
+    {
+      "id": "s0002",
+      "text": "> What becomes possible when trust exists?",
+      "startMs": 2136.0,
+      "endMs": 5398.0,
+      "charStart": 29,
+      "charEnd": 71
+    },
+    {
+      "id": "s0003",
+      "text": "By spring, the neighborhood was planning a block party.",
+      "startMs": 6095.0,
+      "endMs": 8870.0,
+      "charStart": 73,
+      "charEnd": 128
+    },
+    {
+      "id": "s0004",
+      "text": "Enough evidence had accumulated that the street was ready to attempt something larger.",
+      "startMs": 9311.0,
+      "endMs": 14176.0,
+      "charStart": 129,
+      "charEnd": 215
+    },
+    {
+      "id": "s0005",
+      "text": "The idea had started the way many neighborhood ideas begin—with a conversation at the mailbox, a suggestion offered casually, and a handful of people willing to help.",
+      "startMs": 14779.0,
+      "endMs": 24915.0,
+      "charStart": 216,
+      "charEnd": 382
+    },
+    {
+      "id": "s0006",
+      "text": "Someone volunteered to organize tables.",
+      "startMs": 25159.0,
+      "endMs": 27400.0,
+      "charStart": 384,
+      "charEnd": 423
+    },
+    {
+      "id": "s0007",
+      "text": "Someone else offered a grill.",
+      "startMs": 27574.0,
+      "endMs": 29141.0,
+      "charStart": 424,
+      "charEnd": 453
+    },
+    {
+      "id": "s0008",
+      "text": "The family next door agreed to help set up.",
+      "startMs": 29315.0,
+      "endMs": 31719.0,
+      "charStart": 454,
+      "charEnd": 497
+    },
+    {
+      "id": "s0009",
+      "text": "Not everything went smoothly.",
+      "startMs": 32044.0,
+      "endMs": 33669.0,
+      "charStart": 498,
+      "charEnd": 527
+    },
+    {
+      "id": "s0010",
+      "text": "One neighbor who promised drinks arrived an hour late, juggling a last-minute work call and a store run that took longer than expected.",
+      "startMs": 33948.0,
+      "endMs": 41250.0,
+      "charStart": 528,
+      "charEnd": 663
+    },
+    {
+      "id": "s0011",
+      "text": "The person coordinating food made a joke about it that landed a little sharp.",
+      "startMs": 41494.0,
+      "endMs": 45697.0,
+      "charStart": 664,
+      "charEnd": 741
+    },
+    {
+      "id": "s0012",
+      "text": "Someone else covered the gap.",
+      "startMs": 45871.0,
+      "endMs": 47369.0,
+      "charStart": 742,
+      "charEnd": 771
+    },
+    {
+      "id": "s0013",
+      "text": "The drinks appeared.",
+      "startMs": 47613.0,
+      "endMs": 48658.0,
+      "charStart": 772,
+      "charEnd": 792
+    },
+    {
+      "id": "s0014",
+      "text": "The party continued.",
+      "startMs": 48774.0,
+      "endMs": 50190.0,
+      "charStart": 793,
+      "charEnd": 813
+    },
+    {
+      "id": "s0015",
+      "text": "Later that week, the late neighbor dropped off a six-pack on the porch with a note: Sorry I cut it close—next time I'll plan better.",
+      "startMs": 50399.0,
+      "endMs": 58352.0,
+      "charStart": 814,
+      "charEnd": 946
+    },
+    {
+      "id": "s0016",
+      "text": "Nobody pretended the moment had not happened.",
+      "startMs": 58863.0,
+      "endMs": 61045.0,
+      "charStart": 947,
+      "charEnd": 992
+    },
+    {
+      "id": "s0017",
+      "text": "They also did not treat it as proof the street could not count on one another.",
+      "startMs": 61254.0,
+      "endMs": 64923.0,
+      "charStart": 993,
+      "charEnd": 1071
+    },
+    {
+      "id": "s0018",
+      "text": "A few weeks later, dozens of people were standing in the street eating hamburgers while children rode bicycles between folding chairs.",
+      "startMs": 65527.0,
+      "endMs": 72829.0,
+      "charStart": 1073,
+      "charEnd": 1207
+    },
+    {
+      "id": "s0019",
+      "text": "Most of the neighborhood had turned out.",
+      "startMs": 73340.0,
+      "endMs": 75140.0,
+      "charStart": 1208,
+      "charEnd": 1248
+    },
+    {
+      "id": "s0020",
+      "text": "One neighbor waved from his porch, called out that the food smelled good, and never crossed the lawn.",
+      "startMs": 75581.0,
+      "endMs": 80840.0,
+      "charStart": 1249,
+      "charEnd": 1350
+    },
+    {
+      "id": "s0021",
+      "text": "Nobody treated his distance as a rejection.",
+      "startMs": 81351.0,
+      "endMs": 83777.0,
+      "charStart": 1351,
+      "charEnd": 1394
+    },
+    {
+      "id": "s0022",
+      "text": "He would still prefer the porch to the crowd years later.",
+      "startMs": 84161.0,
+      "endMs": 87202.0,
+      "charStart": 1395,
+      "charEnd": 1452
+    },
+    {
+      "id": "s0023",
+      "text": "Participation, the street was discovering, did not require identical levels of engagement.",
+      "startMs": 87713.0,
+      "endMs": 93135.0,
+      "charStart": 1453,
+      "charEnd": 1543
+    },
+    {
+      "id": "s0024",
+      "text": "The event itself was unremarkable.",
+      "startMs": 93460.0,
+      "endMs": 95538.0,
+      "charStart": 1545,
+      "charEnd": 1579
+    },
+    {
+      "id": "s0025",
+      "text": "Neighborhoods do this sort of thing all the time.",
+      "startMs": 95863.0,
+      "endMs": 98429.0,
+      "charStart": 1580,
+      "charEnd": 1629
+    },
+    {
+      "id": "s0026",
+      "text": "What was remarkable was everything that made it possible.",
+      "startMs": 98754.0,
+      "endMs": 101935.0,
+      "charStart": 1630,
+      "charEnd": 1687
+    },
+    {
+      "id": "s0027",
+      "text": "People contributed time, money, effort, and attention without contracts, guarantees, or formal enforcement.",
+      "startMs": 102144.0,
+      "endMs": 109121.0,
+      "charStart": 1689,
+      "charEnd": 1796
+    },
+    {
+      "id": "s0028",
+      "text": "They coordinated plans with people they barely knew.",
+      "startMs": 109365.0,
+      "endMs": 112244.0,
+      "charStart": 1797,
+      "charEnd": 1849
+    },
+    {
+      "id": "s0029",
+      "text": "They trusted that others would do what they said they would do.",
+      "startMs": 112372.0,
+      "endMs": 115518.0,
+      "charStart": 1850,
+      "charEnd": 1913
+    },
+    {
+      "id": "s0030",
+      "text": "Most of them never stopped to consider how much uncertainty had been accepted in the process.",
+      "startMs": 115844.0,
+      "endMs": 120755.0,
+      "charStart": 1914,
+      "charEnd": 2007
+    },
+    {
+      "id": "s0031",
+      "text": "Participation had begun feeling normal.",
+      "startMs": 121452.0,
+      "endMs": 123762.0,
+      "charStart": 2009,
+      "charEnd": 2048
+    },
+    {
+      "id": "s0032",
+      "text": "That was the change.",
+      "startMs": 124087.0,
+      "endMs": 125236.0,
+      "charStart": 2050,
+      "charEnd": 2070
+    },
+    {
+      "id": "s0033",
+      "text": "The Work Trust Does",
+      "startMs": 125620.0,
+      "endMs": 127558.0,
+      "charStart": 2072,
+      "charEnd": 2091
+    },
+    {
+      "id": "s0034",
+      "text": "Trust is often described as a feeling—confidence, reliance, faith.",
+      "startMs": 127616.0,
+      "endMs": 132609.0,
+      "charStart": 2093,
+      "charEnd": 2159
+    },
+    {
+      "id": "s0035",
+      "text": "These descriptions capture part of the experience.",
+      "startMs": 133050.0,
+      "endMs": 135778.0,
+      "charStart": 2160,
+      "charEnd": 2210
+    },
+    {
+      "id": "s0036",
+      "text": "They miss something important: trust is not merely something people have.",
+      "startMs": 136022.0,
+      "endMs": 140352.0,
+      "charStart": 2211,
+      "charEnd": 2284
+    },
+    {
+      "id": "s0037",
+      "text": "Trust is something people do, and its most visible effect is what it makes people willing to attempt.",
+      "startMs": 140596.0,
+      "endMs": 146680.0,
+      "charStart": 2285,
+      "charEnd": 2386
+    },
+    {
+      "id": "s0038",
+      "text": "Trust is not interesting primarily because it is true.",
+      "startMs": 147283.0,
+      "endMs": 150836.0,
+      "charStart": 2388,
+      "charEnd": 2442
+    },
+    {
+      "id": "s0039",
+      "text": "It is interesting because it changes behavior.",
+      "startMs": 151080.0,
+      "endMs": 153530.0,
+      "charStart": 2443,
+      "charEnd": 2489
+    },
+    {
+      "id": "s0040",
+      "text": "When trust grows, people become willing to cooperate in ways that would otherwise feel too risky.",
+      "startMs": 153913.0,
+      "endMs": 159486.0,
+      "charStart": 2490,
+      "charEnd": 2587
+    },
+    {
+      "id": "s0041",
+      "text": "They lend tools.",
+      "startMs": 159729.0,
+      "endMs": 160960.0,
+      "charStart": 2588,
+      "charEnd": 2604
+    },
+    {
+      "id": "s0042",
+      "text": "They organize events.",
+      "startMs": 161169.0,
+      "endMs": 162469.0,
+      "charStart": 2605,
+      "charEnd": 2626
+    },
+    {
+      "id": "s0043",
+      "text": "They share responsibility.",
+      "startMs": 162539.0,
+      "endMs": 164304.0,
+      "charStart": 2627,
+      "charEnd": 2653
+    },
+    {
+      "id": "s0044",
+      "text": "They join teams, contribute to families, volunteer in communities, and collaborate with coworkers.",
+      "startMs": 164397.0,
+      "endMs": 170771.0,
+      "charStart": 2654,
+      "charEnd": 2752
+    },
+    {
+      "id": "s0045",
+      "text": "The shift can be subtle.",
+      "startMs": 171096.0,
+      "endMs": 172698.0,
+      "charStart": 2753,
+      "charEnd": 2777
+    },
+    {
+      "id": "s0046",
+      "text": "Trust does not eliminate uncertainty.",
+      "startMs": 173023.0,
+      "endMs": 175531.0,
+      "charStart": 2778,
+      "charEnd": 2815
+    },
+    {
+      "id": "s0047",
+      "text": "It changes how much uncertainty people are willing to carry together—and therefore what they will do.",
+      "startMs": 175914.0,
+      "endMs": 181823.0,
+      "charStart": 2816,
+      "charEnd": 2917
+    },
+    {
+      "id": "s0048",
+      "text": "This is why trust matters so much.",
+      "startMs": 182148.0,
+      "endMs": 184609.0,
+      "charStart": 2919,
+      "charEnd": 2953
+    },
+    {
+      "id": "s0049",
+      "text": "The practical consequence of trust is not comfort.",
+      "startMs": 184818.0,
+      "endMs": 187930.0,
+      "charStart": 2954,
+      "charEnd": 3004
+    },
+    {
+      "id": "s0050",
+      "text": "It is cooperation.",
+      "startMs": 188139.0,
+      "endMs": 189927.0,
+      "charStart": 3005,
+      "charEnd": 3023
+    },
+    {
+      "id": "s0051",
+      "text": "The Cost of Constant Verification",
+      "startMs": 190739.0,
+      "endMs": 192957.0,
+      "charStart": 3025,
+      "charEnd": 3058
+    },
+    {
+      "id": "s0052",
+      "text": "Imagine trying to organize the block party without trust.",
+      "startMs": 194257.0,
+      "endMs": 197868.0,
+      "charStart": 3060,
+      "charEnd": 3117
+    },
+    {
+      "id": "s0053",
+      "text": "Every commitment would require verification.",
+      "startMs": 198251.0,
+      "endMs": 200956.0,
+      "charStart": 3118,
+      "charEnd": 3162
+    },
+    {
+      "id": "s0054",
+      "text": "Every contribution would require oversight.",
+      "startMs": 201281.0,
+      "endMs": 204079.0,
+      "charStart": 3163,
+      "charEnd": 3206
+    },
+    {
+      "id": "s0055",
+      "text": "Every volunteer would need monitoring.",
+      "startMs": 204462.0,
+      "endMs": 206599.0,
+      "charStart": 3207,
+      "charEnd": 3245
+    },
+    {
+      "id": "s0056",
+      "text": "People would spend more energy protecting themselves from disappointment than building something together.",
+      "startMs": 206773.0,
+      "endMs": 212020.0,
+      "charStart": 3246,
+      "charEnd": 3352
+    },
+    {
+      "id": "s0057",
+      "text": "The event would still be possible.",
+      "startMs": 212264.0,
+      "endMs": 214238.0,
+      "charStart": 3354,
+      "charEnd": 3388
+    },
+    {
+      "id": "s0058",
+      "text": "It would simply become far more expensive.",
+      "startMs": 214412.0,
+      "endMs": 217013.0,
+      "charStart": 3389,
+      "charEnd": 3431
+    },
+    {
+      "id": "s0059",
+      "text": "Trust lowers those costs.",
+      "startMs": 217396.0,
+      "endMs": 219463.0,
+      "charStart": 3433,
+      "charEnd": 3458
+    },
+    {
+      "id": "s0060",
+      "text": "People begin relying on expectations instead of constant verification.",
+      "startMs": 220066.0,
+      "endMs": 224397.0,
+      "charStart": 3459,
+      "charEnd": 3529
+    },
+    {
+      "id": "s0061",
+      "text": "A neighbor says they will bring drinks, and you believe them.",
+      "startMs": 224722.0,
+      "endMs": 227648.0,
+      "charStart": 3530,
+      "charEnd": 3591
+    },
+    {
+      "id": "s0062",
+      "text": "A coworker says they will finish their part of the project, and you proceed as though they will.",
+      "startMs": 228089.0,
+      "endMs": 232953.0,
+      "charStart": 3592,
+      "charEnd": 3688
+    },
+    {
+      "id": "s0063",
+      "text": "A friend offers help, and you make plans that depend on it.",
+      "startMs": 233197.0,
+      "endMs": 236703.0,
+      "charStart": 3689,
+      "charEnd": 3748
+    },
+    {
+      "id": "s0064",
+      "text": "Trust allows coordination to occur without exhaustive supervision.",
+      "startMs": 237086.0,
+      "endMs": 241324.0,
+      "charStart": 3749,
+      "charEnd": 3815
+    },
+    {
+      "id": "s0065",
+      "text": "Elinor Ostrom found this pattern repeatedly while studying communities that successfully managed shared resources.",
+      "startMs": 241835.0,
+      "endMs": 248720.0,
+      "charStart": 3817,
+      "charEnd": 3931
+    },
+    {
+      "id": "s0066",
+      "text": "Cooperation became possible not because uncertainty disappeared, but because participants developed enough trust to act despite it—and enough structure to keep participation connected to outcomes.",
+      "startMs": 249532.0,
+      "endMs": 261351.0,
+      "charStart": 3932,
+      "charEnd": 4128
+    },
+    {
+      "id": "s0067",
+      "text": "Trust does not remove risk.",
+      "startMs": 262466.0,
+      "endMs": 264335.0,
+      "charStart": 4129,
+      "charEnd": 4156
+    },
+    {
+      "id": "s0068",
+      "text": "It makes collective action worth attempting.",
+      "startMs": 264510.0,
+      "endMs": 266878.0,
+      "charStart": 4157,
+      "charEnd": 4201
+    },
+    {
+      "id": "s0069",
+      "text": "Inertia Disguised as Loyalty",
+      "startMs": 267830.0,
+      "endMs": 270802.0,
+      "charStart": 4203,
+      "charEnd": 4231
+    },
+    {
+      "id": "s0070",
+      "text": "The same trust that enables participation can also outlast the experiences that created it.",
+      "startMs": 271754.0,
+      "endMs": 277536.0,
+      "charStart": 4233,
+      "charEnd": 4324
+    },
+    {
+      "id": "s0071",
+      "text": "People sometimes keep showing up after promises stop being kept, keep contributing after effort flows only one way, keep assuming goodwill after patterns have changed.",
+      "startMs": 277710.0,
+      "endMs": 288089.0,
+      "charStart": 4325,
+      "charEnd": 4492
+    },
+    {
+      "id": "s0072",
+      "text": "Trust that once made coordination easier can begin protecting habit instead.",
+      "startMs": 288530.0,
+      "endMs": 293639.0,
+      "charStart": 4493,
+      "charEnd": 4569
+    },
+    {
+      "id": "s0073",
+      "text": "The challenge is not whether people participate.",
+      "startMs": 294451.0,
+      "endMs": 296924.0,
+      "charStart": 4571,
+      "charEnd": 4619
+    },
+    {
+      "id": "s0074",
+      "text": "The challenge is whether participation remains connected to what actually happens.",
+      "startMs": 297307.0,
+      "endMs": 301661.0,
+      "charStart": 4620,
+      "charEnd": 4702
+    },
+    {
+      "id": "s0075",
+      "text": "When it does, trust keeps earning its place.",
+      "startMs": 302044.0,
+      "endMs": 304993.0,
+      "charStart": 4703,
+      "charEnd": 4747
+    },
+    {
+      "id": "s0076",
+      "text": "When it does not, the question of what trust is for becomes harder to ignore—a question this book returns to later.",
+      "startMs": 305376.0,
+      "endMs": 312551.0,
+      "charStart": 4748,
+      "charEnd": 4863
+    },
+    {
+      "id": "s0077",
+      "text": "For now, the more immediate point is simpler: trust exists to make participation possible in the first place.",
+      "startMs": 313062.0,
+      "endMs": 320028.0,
+      "charStart": 4864,
+      "charEnd": 4973
+    },
+    {
+      "id": "s0078",
+      "text": "Keeping Participation Honest",
+      "startMs": 320841.0,
+      "endMs": 323581.0,
+      "charStart": 4975,
+      "charEnd": 5003
+    },
+    {
+      "id": "s0079",
+      "text": "Recognizing this danger does not weaken the importance of trust.",
+      "startMs": 324393.0,
+      "endMs": 328190.0,
+      "charStart": 5005,
+      "charEnd": 5069
+    },
+    {
+      "id": "s0080",
+      "text": "It clarifies what trust is for.",
+      "startMs": 328515.0,
+      "endMs": 330814.0,
+      "charStart": 5070,
+      "charEnd": 5101
+    },
+    {
+      "id": "s0081",
+      "text": "Trust exists to make participation possible—not blind participation, not permanent participation, but participation that remains responsive to experience.",
+      "startMs": 331417.0,
+      "endMs": 341634.0,
+      "charStart": 5102,
+      "charEnd": 5256
+    },
+    {
+      "id": "s0082",
+      "text": "The neighborhood gathering worked because people trusted one another enough to contribute.",
+      "startMs": 342075.0,
+      "endMs": 346347.0,
+      "charStart": 5258,
+      "charEnd": 5348
+    },
+    {
+      "id": "s0083",
+      "text": "If the event had repeatedly failed, if promises had gone unkept, if effort had consistently flowed in only one direction, participation would eventually have weakened.",
+      "startMs": 346788.0,
+      "endMs": 357052.0,
+      "charStart": 5349,
+      "charEnd": 5516
+    },
+    {
+      "id": "s0084",
+      "text": "Trust survives because participation remains connected to outcomes.",
+      "startMs": 357435.0,
+      "endMs": 362277.0,
+      "charStart": 5517,
+      "charEnd": 5584
+    },
+    {
+      "id": "s0085",
+      "text": "The cycle continues.",
+      "startMs": 362660.0,
+      "endMs": 364459.0,
+      "charStart": 5586,
+      "charEnd": 5606
+    },
+    {
+      "id": "s0086",
+      "text": "Trust enables participation.",
+      "startMs": 364703.0,
+      "endMs": 367060.0,
+      "charStart": 5607,
+      "charEnd": 5635
+    },
+    {
+      "id": "s0087",
+      "text": "Participation creates new experiences.",
+      "startMs": 367501.0,
+      "endMs": 370183.0,
+      "charStart": 5636,
+      "charEnd": 5674
+    },
+    {
+      "id": "s0088",
+      "text": "Those experiences either reinforce trust or challenge it.",
+      "startMs": 370357.0,
+      "endMs": 374165.0,
+      "charStart": 5675,
+      "charEnd": 5732
+    },
+    {
+      "id": "s0089",
+      "text": "The relationship stays alive because feedback remains possible.",
+      "startMs": 374444.0,
+      "endMs": 378345.0,
+      "charStart": 5733,
+      "charEnd": 5796
+    },
+    {
+      "id": "s0090",
+      "text": "Core Principle",
+      "startMs": 379041.0,
+      "endMs": 380144.0,
+      "charStart": 5798,
+      "charEnd": 5812
+    },
+    {
+      "id": "s0091",
+      "text": "Trust Enables Participation.",
+      "startMs": 380527.0,
+      "endMs": 382582.0,
+      "charStart": 5814,
+      "charEnd": 5842
+    },
+    {
+      "id": "s0092",
+      "text": "Trust does not eliminate uncertainty.",
+      "startMs": 382907.0,
+      "endMs": 385113.0,
+      "charStart": 5844,
+      "charEnd": 5881
+    },
+    {
+      "id": "s0093",
+      "text": "It reduces the cost of acting together despite uncertainty.",
+      "startMs": 385287.0,
+      "endMs": 388712.0,
+      "charStart": 5882,
+      "charEnd": 5941
+    },
+    {
+      "id": "s0094",
+      "text": "Cooperation becomes possible because people become willing to rely on one another before every outcome is known.",
+      "startMs": 388863.0,
+      "endMs": 395098.0,
+      "charStart": 5942,
+      "charEnd": 6054
+    },
+    {
+      "id": "s0095",
+      "text": "Back to the Block Party",
+      "startMs": 396212.0,
+      "endMs": 397536.0,
+      "charStart": 6056,
+      "charEnd": 6079
+    },
+    {
+      "id": "s0096",
+      "text": "As the evening ended, folding chairs disappeared back into garages.",
+      "startMs": 398650.0,
+      "endMs": 402726.0,
+      "charStart": 6081,
+      "charEnd": 6148
+    },
+    {
+      "id": "s0097",
+      "text": "Coolers were loaded into trunks.",
+      "startMs": 402842.0,
+      "endMs": 404711.0,
+      "charStart": 6149,
+      "charEnd": 6181
+    },
+    {
+      "id": "s0098",
+      "text": "Children were called home as the sun dropped behind the houses.",
+      "startMs": 404920.0,
+      "endMs": 408380.0,
+      "charStart": 6182,
+      "charEnd": 6245
+    },
+    {
+      "id": "s0099",
+      "text": "The street looked ordinary again.",
+      "startMs": 408508.0,
+      "endMs": 410481.0,
+      "charStart": 6246,
+      "charEnd": 6279
+    },
+    {
+      "id": "s0100",
+      "text": "Nothing permanent had been built.",
+      "startMs": 410725.0,
+      "endMs": 412467.0,
+      "charStart": 6281,
+      "charEnd": 6314
+    },
+    {
+      "id": "s0101",
+      "text": "No major problem had been solved.",
+      "startMs": 412641.0,
+      "endMs": 414765.0,
+      "charStart": 6315,
+      "charEnd": 6348
+    },
+    {
+      "id": "s0102",
+      "text": "Yet something real had happened: dozens of people had coordinated their efforts without contracts, enforcement, or certainty.",
+      "startMs": 414974.0,
+      "endMs": 422068.0,
+      "charStart": 6349,
+      "charEnd": 6474
+    },
+    {
+      "id": "s0103",
+      "text": "They had participated.",
+      "startMs": 422347.0,
+      "endMs": 423728.0,
+      "charStart": 6475,
+      "charEnd": 6497
+    },
+    {
+      "id": "s0104",
+      "text": "Afterward, one neighbor quietly complained that the same people always seemed to volunteer.",
+      "startMs": 424170.0,
+      "endMs": 429081.0,
+      "charStart": 6499,
+      "charEnd": 6590
+    },
+    {
+      "id": "s0105",
+      "text": "She was not wrong.",
+      "startMs": 429324.0,
+      "endMs": 430253.0,
+      "charStart": 6591,
+      "charEnd": 6609
+    },
+    {
+      "id": "s0106",
+      "text": "The complaint did not derail the evening or dissolve the trust the party had depended on.",
+      "startMs": 430694.0,
+      "endMs": 434909.0,
+      "charStart": 6610,
+      "charEnd": 6699
+    },
+    {
+      "id": "s0107",
+      "text": "It simply named something every volunteer organization eventually notices: participation is rarely distributed perfectly, and trust has to carry cooperation anyway.",
+      "startMs": 435350.0,
+      "endMs": 445660.0,
+      "charStart": 6700,
+      "charEnd": 6864
+    },
+    {
+      "id": "s0108",
+      "text": "The block party was not evidence that uncertainty had disappeared.",
+      "startMs": 446101.0,
+      "endMs": 449561.0,
+      "charStart": 6866,
+      "charEnd": 6932
+    },
+    {
+      "id": "s0109",
+      "text": "It was evidence that trust had become strong enough for people to act together anyway.",
+      "startMs": 449886.0,
+      "endMs": 454182.0,
+      "charStart": 6933,
+      "charEnd": 7019
+    }
+  ]
+}

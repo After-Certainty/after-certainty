@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-2-the-first-cracks-bridge",
+  "generationHash": "sha256:1e6b6dbf166e60cfffb02acd870557eec893b940eb43f21460d3947580cf9657",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part II — The First Cracks",
+      "startMs": 0.0,
+      "endMs": 2937.0,
+      "charStart": 0,
+      "charEnd": 26
+    },
+    {
+      "id": "s0002",
+      "text": "Calder Family Health continues to grow.",
+      "startMs": 3448.0,
+      "endMs": 6141.0,
+      "charStart": 28,
+      "charEnd": 67
+    },
+    {
+      "id": "s0003",
+      "text": "Patients still receive care, employees still believe in the mission, communities still trust the organization, and most people still trust David Marsh.",
+      "startMs": 6524.0,
+      "endMs": 15336.0,
+      "charStart": 68,
+      "charEnd": 219
+    },
+    {
+      "id": "s0004",
+      "text": "From the outside, little appears wrong.",
+      "startMs": 15661.0,
+      "endMs": 17913.0,
+      "charStart": 220,
+      "charEnd": 259
+    },
+    {
+      "id": "s0005",
+      "text": "That is often how drift begins.",
+      "startMs": 18030.0,
+      "endMs": 20363.0,
+      "charStart": 261,
+      "charEnd": 292
+    },
+    {
+      "id": "s0006",
+      "text": "Major failures rarely emerge all at once.",
+      "startMs": 20688.0,
+      "endMs": 23498.0,
+      "charStart": 294,
+      "charEnd": 335
+    },
+    {
+      "id": "s0007",
+      "text": "They usually begin as small anomalies, unanswered questions, isolated concerns, or outcomes that seem easy to explain away.",
+      "startMs": 23591.0,
+      "endMs": 32333.0,
+      "charStart": 336,
+      "charEnd": 459
+    },
+    {
+      "id": "s0008",
+      "text": "At first, these signals are weak—and the organization remains successful, the mission still matters, and the trust is still largely deserved.",
+      "startMs": 33030.0,
+      "endMs": 42492.0,
+      "charStart": 460,
+      "charEnd": 601
+    },
+    {
+      "id": "s0009",
+      "text": "Yet conditions begin changing.",
+      "startMs": 43188.0,
+      "endMs": 45452.0,
+      "charStart": 603,
+      "charEnd": 633
+    },
+    {
+      "id": "s0010",
+      "text": "The organization becomes larger, decisions become more distributed, and fewer people experience the original sources of trust directly.",
+      "startMs": 45893.0,
+      "endMs": 54566.0,
+      "charStart": 634,
+      "charEnd": 769
+    },
+    {
+      "id": "s0011",
+      "text": "The stories remain, the reputation remains, and the trust remains—but what changes is the environment around them.",
+      "startMs": 54775.0,
+      "endMs": 62135.0,
+      "charStart": 770,
+      "charEnd": 884
+    },
+    {
+      "id": "s0012",
+      "text": "The next chapters explore what happens when trust encounters signals that challenge it.",
+      "startMs": 62832.0,
+      "endMs": 67964.0,
+      "charStart": 886,
+      "charEnd": 973
+    },
+    {
+      "id": "s0013",
+      "text": "Why do some warnings receive attention while others are ignored?",
+      "startMs": 68289.0,
+      "endMs": 71760.0,
+      "charStart": 974,
+      "charEnd": 1038
+    },
+    {
+      "id": "s0014",
+      "text": "Why do some organizations adapt while others struggle to learn?",
+      "startMs": 72004.0,
+      "endMs": 75801.0,
+      "charStart": 1039,
+      "charEnd": 1102
+    },
+    {
+      "id": "s0015",
+      "text": "And why do good intentions sometimes make correction more difficult rather than less?",
+      "startMs": 75975.0,
+      "endMs": 80805.0,
+      "charStart": 1103,
+      "charEnd": 1188
+    },
+    {
+      "id": "s0016",
+      "text": "The first cracks rarely appear because trust disappears.",
+      "startMs": 81316.0,
+      "endMs": 85263.0,
+      "charStart": 1190,
+      "charEnd": 1246
+    },
+    {
+      "id": "s0017",
+      "text": "They appear because trust remains.",
+      "startMs": 85646.0,
+      "endMs": 88096.0,
+      "charStart": 1248,
+      "charEnd": 1282
+    }
+  ]
+}

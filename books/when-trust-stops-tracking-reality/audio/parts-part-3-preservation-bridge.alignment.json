@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-3-preservation-bridge",
+  "generationHash": "sha256:a54581646c422c35573e66fea009bb0ef4229dc0aef3858768ca1e9ceab9a3c9",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part III — Preservation",
+      "startMs": 0.0,
+      "endMs": 2183.0,
+      "charStart": 0,
+      "charEnd": 23
+    },
+    {
+      "id": "s0002",
+      "text": "Walter fears Calder is becoming unable to learn.",
+      "startMs": 2624.0,
+      "endMs": 5794.0,
+      "charStart": 25,
+      "charEnd": 73
+    },
+    {
+      "id": "s0003",
+      "text": "The concerns he once viewed as isolated exceptions now appear increasingly connected, and the larger the organization becomes, the harder it seems to correct small problems before they become larger ones.",
+      "startMs": 6235.0,
+      "endMs": 18483.0,
+      "charStart": 74,
+      "charEnd": 278
+    },
+    {
+      "id": "s0004",
+      "text": "Renata fears Calder is forgetting what made it valuable.",
+      "startMs": 19087.0,
+      "endMs": 22454.0,
+      "charStart": 280,
+      "charEnd": 336
+    },
+    {
+      "id": "s0005",
+      "text": "She remembers what it cost to build the values people now take for granted, and worries that people are becoming too willing to question the very practices that made Calder successful.",
+      "startMs": 22895.0,
+      "endMs": 33239.0,
+      "charStart": 337,
+      "charEnd": 521
+    },
+    {
+      "id": "s0006",
+      "text": "Olivia can see reasons for both concerns.",
+      "startMs": 34052.0,
+      "endMs": 36862.0,
+      "charStart": 523,
+      "charEnd": 564
+    },
+    {
+      "id": "s0007",
+      "text": "The stories she inherited no longer explain everything she sees, and Walter's warnings no longer feel easy to dismiss.",
+      "startMs": 37465.0,
+      "endMs": 45395.0,
+      "charStart": 565,
+      "charEnd": 683
+    },
+    {
+      "id": "s0008",
+      "text": "Yet not every tradition exists by accident, and not every inherited practice deserves removal simply because its original purpose is no longer obvious.",
+      "startMs": 46208.0,
+      "endMs": 56866.0,
+      "charStart": 684,
+      "charEnd": 835
+    },
+    {
+      "id": "s0009",
+      "text": "Neither concern fully explains what she is seeing.",
+      "startMs": 57377.0,
+      "endMs": 60837.0,
+      "charStart": 836,
+      "charEnd": 886
+    },
+    {
+      "id": "s0010",
+      "text": "If every tradition becomes suspect, what remains worth preserving?",
+      "startMs": 61533.0,
+      "endMs": 66421.0,
+      "charStart": 888,
+      "charEnd": 954
+    },
+    {
+      "id": "s0011",
+      "text": "If every criticism becomes disloyalty, what remains capable of learning?",
+      "startMs": 66805.0,
+      "endMs": 71112.0,
+      "charStart": 956,
+      "charEnd": 1028
+    },
+    {
+      "id": "s0012",
+      "text": "The next chapter explores how organizations navigate that tension, and why legitimacy can sometimes survive long after the conditions that originally created it have changed.",
+      "startMs": 71925.0,
+      "endMs": 82246.0,
+      "charStart": 1030,
+      "charEnd": 1204
+    }
+  ]
+}

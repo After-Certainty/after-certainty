@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-1-the-architecture-of-trust-chapter-2-beliefs-become-visible",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-1-the-architecture-of-trust-chapter-2-beliefs-become-visible",
+  "sourcePath": "parts/part-1-the-architecture-of-trust/chapter-2-beliefs-become-visible.md",
+  "sourceHash": "sha256:56a4b26a6da3682d4d8ba2b7bad690f08bbd354697fd3140c741afac66fa2313",
+  "spokenTextHash": "sha256:145ac39d7caa9507e3efe65c12eaf609f0a313720b74c5a7bc55f990f9206575",
+  "generationHash": "sha256:fc4c06961d395115e3750c6658aa405d8af0837349f1fe2faac25d2594543919",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 6430,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1607.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1607.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-1-the-architecture-of-trust-chapter-2-beliefs-become-visible.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-1-the-architecture-of-trust-chapter-2-beliefs-become-visible.mp3",
+  "audioSha256": "sha256:e1ae1e30a6561e65a7f1ecff28f34b03e7106deb897a9d49c84368beb52a104a",
+  "generatedAt": "2026-10-06T01:39:36Z"
+}

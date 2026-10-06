@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-back-matter-appendix-core-principles",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "back-matter-appendix-core-principles",
+  "sourcePath": "back-matter/appendix-core-principles.md",
+  "sourceHash": "sha256:6144da28b88e92d2ab7b88f59bc3cc01361e2828f7488bbec127f15f2f63799e",
+  "spokenTextHash": "sha256:efe48376fa5b7bef72f47ee1c9db2e6f03487dc6cf6cd8e9a0a07b3898bc7a0c",
+  "generationHash": "sha256:4aa96115e90447b092a79fbb0935cbf058689d9257b098f586a387ed9fab011e",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2238,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 559.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 559.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/back-matter-appendix-core-principles.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/back-matter-appendix-core-principles.mp3",
+  "audioSha256": "sha256:a3995bbf527acb964dcd9007183c0dd2bc216066bbe33e8c54dfff2fa0721f4a",
+  "generatedAt": "2026-10-06T01:41:34Z"
+}

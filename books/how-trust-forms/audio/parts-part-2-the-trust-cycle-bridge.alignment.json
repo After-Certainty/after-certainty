@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-2-the-trust-cycle-bridge",
+  "generationHash": "sha256:abd42f37e970bb408770b4531a49a85232567fa5cdabf0819bc2269c56cf8204",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part II — The Trust Cycle",
+      "startMs": 0.0,
+      "endMs": 3053.0,
+      "charStart": 0,
+      "charEnd": 25
+    },
+    {
+      "id": "s0002",
+      "text": "The neighbors were no longer strangers—not because uncertainty had disappeared, not because every question had been answered.",
+      "startMs": 3657.0,
+      "endMs": 10820.0,
+      "charStart": 27,
+      "charEnd": 152
+    },
+    {
+      "id": "s0003",
+      "text": "The uncertainty remained.",
+      "startMs": 11261.0,
+      "endMs": 12956.0,
+      "charStart": 153,
+      "charEnd": 178
+    },
+    {
+      "id": "s0004",
+      "text": "What had changed was the amount of evidence both families now carried.",
+      "startMs": 13467.0,
+      "endMs": 17449.0,
+      "charStart": 179,
+      "charEnd": 249
+    },
+    {
+      "id": "s0005",
+      "text": "The package had stayed dry.",
+      "startMs": 17960.0,
+      "endMs": 19643.0,
+      "charStart": 251,
+      "charEnd": 278
+    },
+    {
+      "id": "s0006",
+      "text": "The borrowed tools had returned.",
+      "startMs": 19852.0,
+      "endMs": 21617.0,
+      "charStart": 279,
+      "charEnd": 311
+    },
+    {
+      "id": "s0007",
+      "text": "The driveway had been shoveled during the storm.",
+      "startMs": 22000.0,
+      "endMs": 24775.0,
+      "charStart": 312,
+      "charEnd": 360
+    },
+    {
+      "id": "s0008",
+      "text": "Small actions had produced visible outcomes.",
+      "startMs": 25217.0,
+      "endMs": 28108.0,
+      "charStart": 361,
+      "charEnd": 405
+    },
+    {
+      "id": "s0009",
+      "text": "Those outcomes had quietly reshaped expectations.",
+      "startMs": 28491.0,
+      "endMs": 32264.0,
+      "charStart": 406,
+      "charEnd": 455
+    },
+    {
+      "id": "s0010",
+      "text": "Something important had happened: the next interaction no longer began where the first one had.",
+      "startMs": 32589.0,
+      "endMs": 38324.0,
+      "charStart": 456,
+      "charEnd": 551
+    },
+    {
+      "id": "s0011",
+      "text": "This is the point where trust becomes easier to recognize—and more difficult to understand.",
+      "startMs": 39021.0,
+      "endMs": 44803.0,
+      "charStart": 553,
+      "charEnd": 644
+    },
+    {
+      "id": "s0012",
+      "text": "The first part of this book examined how trust gets built: participation before certainty, beliefs visible through action, outcomes that become evidence.",
+      "startMs": 45755.0,
+      "endMs": 56645.0,
+      "charStart": 646,
+      "charEnd": 799
+    },
+    {
+      "id": "s0013",
+      "text": "What follows asks what that accumulation makes possible.",
+      "startMs": 57341.0,
+      "endMs": 61045.0,
+      "charStart": 800,
+      "charEnd": 856
+    },
+    {
+      "id": "s0014",
+      "text": "Trust starts influencing behavior rather than merely responding to it.",
+      "startMs": 61649.0,
+      "endMs": 66107.0,
+      "charStart": 857,
+      "charEnd": 927
+    },
+    {
+      "id": "s0015",
+      "text": "Evidence gradually becomes expectation; participation becomes easier, more frequent, and more ambitious.",
+      "startMs": 66804.0,
+      "endMs": 73898.0,
+      "charStart": 928,
+      "charEnd": 1032
+    },
+    {
+      "id": "s0016",
+      "text": "The result is a cycle.",
+      "startMs": 74014.0,
+      "endMs": 75558.0,
+      "charStart": 1034,
+      "charEnd": 1056
+    },
+    {
+      "id": "s0017",
+      "text": "Beliefs shape actions.",
+      "startMs": 75767.0,
+      "endMs": 77346.0,
+      "charStart": 1057,
+      "charEnd": 1079
+    },
+    {
+      "id": "s0018",
+      "text": "Actions create outcomes.",
+      "startMs": 77474.0,
+      "endMs": 79250.0,
+      "charStart": 1080,
+      "charEnd": 1104
+    },
+    {
+      "id": "s0019",
+      "text": "Outcomes influence trust.",
+      "startMs": 79459.0,
+      "endMs": 81270.0,
+      "charStart": 1105,
+      "charEnd": 1130
+    },
+    {
+      "id": "s0020",
+      "text": "Trust enables participation.",
+      "startMs": 81444.0,
+      "endMs": 83511.0,
+      "charStart": 1131,
+      "charEnd": 1159
+    },
+    {
+      "id": "s0021",
+      "text": "Participation changes beliefs.",
+      "startMs": 83662.0,
+      "endMs": 85833.0,
+      "charStart": 1160,
+      "charEnd": 1190
+    },
+    {
+      "id": "s0022",
+      "text": "The process begins again.",
+      "startMs": 86007.0,
+      "endMs": 87516.0,
+      "charStart": 1191,
+      "charEnd": 1216
+    },
+    {
+      "id": "s0023",
+      "text": "The chapters in this part follow that cycle—from what trust enables, to how participation reshapes belief, to how cooperation scales beyond the porch.",
+      "startMs": 87760.0,
+      "endMs": 97617.0,
+      "charStart": 1218,
+      "charEnd": 1368
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-3-preservation-chapter-7-trust-protects-authority",
+  "generationHash": "sha256:f0a8e97d2204373f664d3746f6c0393da4bfe0be3a86d53415aeba248485017e",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Trust Protects Authority",
+      "startMs": 0.0,
+      "endMs": 2079.0,
+      "charStart": 0,
+      "charEnd": 24
+    },
+    {
+      "id": "s0002",
+      "text": "> Why does authority often outlive performance?",
+      "startMs": 2288.0,
+      "endMs": 6560.0,
+      "charStart": 26,
+      "charEnd": 73
+    },
+    {
+      "id": "s0003",
+      "text": "By the time Walter's concerns became difficult to ignore, questioning David Marsh had begun to feel uncomfortable inside Calder.",
+      "startMs": 7373.0,
+      "endMs": 14560.0,
+      "charStart": 75,
+      "charEnd": 203
+    },
+    {
+      "id": "s0004",
+      "text": "Not because David demanded loyalty, prohibited criticism, or punished dissent.",
+      "startMs": 15001.0,
+      "endMs": 19807.0,
+      "charStart": 205,
+      "charEnd": 283
+    },
+    {
+      "id": "s0005",
+      "text": "Something subtler was happening.",
+      "startMs": 20318.0,
+      "endMs": 21920.0,
+      "charStart": 284,
+      "charEnd": 316
+    },
+    {
+      "id": "s0006",
+      "text": "David's history was beginning to function as evidence—not merely as a record of past performance, but as a reason current questions felt disrespectful.",
+      "startMs": 22362.0,
+      "endMs": 31522.0,
+      "charStart": 317,
+      "charEnd": 468
+    },
+    {
+      "id": "s0007",
+      "text": "When Walter raised concerns about processes or decisions associated with David's leadership, many people heard criticism of the person who had built the organization, of the mission itself, of a story they valued.",
+      "startMs": 32033.0,
+      "endMs": 45268.0,
+      "charStart": 470,
+      "charEnd": 683
+    },
+    {
+      "id": "s0008",
+      "text": "The conversation quietly shifted.",
+      "startMs": 45872.0,
+      "endMs": 48136.0,
+      "charStart": 684,
+      "charEnd": 717
+    },
+    {
+      "id": "s0009",
+      "text": "People no longer asked whether the evidence supported David's current judgment.",
+      "startMs": 48832.0,
+      "endMs": 53581.0,
+      "charStart": 718,
+      "charEnd": 797
+    },
+    {
+      "id": "s0010",
+      "text": "They asked how David could possibly be wrong—given everything he had built.",
+      "startMs": 54022.0,
+      "endMs": 58759.0,
+      "charStart": 798,
+      "charEnd": 873
+    },
+    {
+      "id": "s0011",
+      "text": "Renata often responded this way.",
+      "startMs": 59362.0,
+      "endMs": 61394.0,
+      "charStart": 875,
+      "charEnd": 907
+    },
+    {
+      "id": "s0012",
+      "text": "Not because she believed David incapable of mistakes, but because she worried about what would be lost if people became too willing to question the organization's foundations.",
+      "startMs": 61835.0,
+      "endMs": 71808.0,
+      "charStart": 908,
+      "charEnd": 1083
+    },
+    {
+      "id": "s0013",
+      "text": "Walter worried that avoiding criticism already had.",
+      "startMs": 72760.0,
+      "endMs": 75930.0,
+      "charStart": 1084,
+      "charEnd": 1135
+    },
+    {
+      "id": "s0014",
+      "text": "Authority often begins as a response to demonstrated competence—a reasonable process.",
+      "startMs": 76742.0,
+      "endMs": 82687.0,
+      "charStart": 1137,
+      "charEnd": 1222
+    },
+    {
+      "id": "s0015",
+      "text": "The challenge emerges later.",
+      "startMs": 83639.0,
+      "endMs": 85612.0,
+      "charStart": 1223,
+      "charEnd": 1251
+    },
+    {
+      "id": "s0016",
+      "text": "Authority does not disappear when performance changes.",
+      "startMs": 86123.0,
+      "endMs": 89478.0,
+      "charStart": 1252,
+      "charEnd": 1306
+    },
+    {
+      "id": "s0017",
+      "text": "The history that established legitimacy can make legitimacy difficult to revise—and over time, legitimacy itself can function as evidence, substituting for evaluation of current performance.",
+      "startMs": 89989.0,
+      "endMs": 103108.0,
+      "charStart": 1307,
+      "charEnd": 1497
+    },
+    {
+      "id": "s0018",
+      "text": "Sociologist Max Weber described legitimacy as one foundation of authority.",
+      "startMs": 103921.0,
+      "endMs": 109447.0,
+      "charStart": 1499,
+      "charEnd": 1573
+    },
+    {
+      "id": "s0019",
+      "text": "People obey not merely because power exists, but because they believe the authority is justified.",
+      "startMs": 109772.0,
+      "endMs": 115647.0,
+      "charStart": 1574,
+      "charEnd": 1671
+    },
+    {
+      "id": "s0020",
+      "text": "Legitimacy accumulates faster than it dissolves.",
+      "startMs": 115891.0,
+      "endMs": 119049.0,
+      "charStart": 1672,
+      "charEnd": 1720
+    },
+    {
+      "id": "s0021",
+      "text": "Trust grows through years of successful performance; questions may emerge much later.",
+      "startMs": 119653.0,
+      "endMs": 125434.0,
+      "charStart": 1721,
+      "charEnd": 1806
+    },
+    {
+      "id": "s0022",
+      "text": "The authority remains.",
+      "startMs": 126131.0,
+      "endMs": 127640.0,
+      "charStart": 1807,
+      "charEnd": 1829
+    },
+    {
+      "id": "s0023",
+      "text": "The conditions change.",
+      "startMs": 127884.0,
+      "endMs": 129312.0,
+      "charStart": 1830,
+      "charEnd": 1852
+    },
+    {
+      "id": "s0024",
+      "text": "Organizations such as WeWork showed how quickly confidence in leadership can expand during success, and how difficult it becomes to separate trust in a mission from trust in the people associated with it.",
+      "startMs": 129591.0,
+      "endMs": 142246.0,
+      "charStart": 1854,
+      "charEnd": 2058
+    },
+    {
+      "id": "s0025",
+      "text": "Long-tenured leaders in many institutions experience the same shift: past success becomes the answer to present questions.",
+      "startMs": 142849.0,
+      "endMs": 150976.0,
+      "charStart": 2059,
+      "charEnd": 2181
+    },
+    {
+      "id": "s0026",
+      "text": "Authority solves real coordination problems.",
+      "startMs": 151417.0,
+      "endMs": 154888.0,
+      "charStart": 2183,
+      "charEnd": 2227
+    },
+    {
+      "id": "s0027",
+      "text": "The difficulty is that trust can gradually transform it into something beyond ordinary evaluation—when questions require justification, criticism requires courage, and correction requires permission.",
+      "startMs": 155492.0,
+      "endMs": 168681.0,
+      "charStart": 2228,
+      "charEnd": 2427
+    },
+    {
+      "id": "s0028",
+      "text": "At Calder, David remained widely respected, and much of that respect remained deserved.",
+      "startMs": 169378.0,
+      "endMs": 175949.0,
+      "charStart": 2429,
+      "charEnd": 2516
+    },
+    {
+      "id": "s0029",
+      "text": "Yet Walter noticed that David's past had become the answer to questions about Calder's present.",
+      "startMs": 176460.0,
+      "endMs": 181824.0,
+      "charStart": 2517,
+      "charEnd": 2612
+    },
+    {
+      "id": "s0030",
+      "text": "When concerns emerged, people discussed the trust David had earned rather than the evidence currently available.",
+      "startMs": 182265.0,
+      "endMs": 189010.0,
+      "charStart": 2613,
+      "charEnd": 2725
+    },
+    {
+      "id": "s0031",
+      "text": "Legitimacy was substituting for evaluation.",
+      "startMs": 189706.0,
+      "endMs": 192864.0,
+      "charStart": 2727,
+      "charEnd": 2770
+    },
+    {
+      "id": "s0032",
+      "text": "That is often the moment when authority begins outliving the conditions that originally justified it.",
+      "startMs": 193375.0,
+      "endMs": 199320.0,
+      "charStart": 2772,
+      "charEnd": 2873
+    },
+    {
+      "id": "s0033",
+      "text": "Core Principle",
+      "startMs": 200016.0,
+      "endMs": 201212.0,
+      "charStart": 2875,
+      "charEnd": 2889
+    },
+    {
+      "id": "s0034",
+      "text": "Legitimacy Can Outlive Performance",
+      "startMs": 201363.0,
+      "endMs": 203952.0,
+      "charStart": 2891,
+      "charEnd": 2925
+    },
+    {
+      "id": "s0035",
+      "text": "Past legitimacy can function as evidence—making current performance harder to evaluate fairly.",
+      "startMs": 204393.0,
+      "endMs": 210976.0,
+      "charStart": 2927,
+      "charEnd": 3021
+    }
+  ]
+}

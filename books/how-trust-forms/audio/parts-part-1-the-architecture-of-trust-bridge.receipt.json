@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-1-the-architecture-of-trust-bridge",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-1-the-architecture-of-trust-bridge",
+  "sourcePath": "parts/part-1-the-architecture-of-trust/bridge.md",
+  "sourceHash": "sha256:888cd2ec6a4f2e814b9b952bace8096dd14d26c5e0ebd747af5fe0e80b80c376",
+  "spokenTextHash": "sha256:894ae0d92c3f02842162d37ef290cfe5a691c8362472e2f3ba97bca2e0cb4241",
+  "generationHash": "sha256:68399b0e909903200ae59daded7a875dec65e1b53989147427e682aa6849fcda",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1597,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 399.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 399.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-1-the-architecture-of-trust-bridge.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-1-the-architecture-of-trust-bridge.mp3",
+  "audioSha256": "sha256:f87bdd8c6e633c30ec28c7173efee50bc948dd3cc55dd1fd3589921c0b27d66f",
+  "generatedAt": "2026-10-06T01:39:14Z"
+}

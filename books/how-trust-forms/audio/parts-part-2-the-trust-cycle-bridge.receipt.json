@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-2-the-trust-cycle-bridge",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-2-the-trust-cycle-bridge",
+  "sourcePath": "parts/part-2-the-trust-cycle/bridge.md",
+  "sourceHash": "sha256:7b1d63ae31e5d043d11b926a13c9d9ffb605c5f2ab6342b02c142bcab73a9b18",
+  "spokenTextHash": "sha256:c7572a8fa5f8e137e34a8f68ae0587045904de83455ba98ec667b0c90213b08c",
+  "generationHash": "sha256:abd42f37e970bb408770b4531a49a85232567fa5cdabf0819bc2269c56cf8204",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 1368,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 342.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 342.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-2-the-trust-cycle-bridge.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-2-the-trust-cycle-bridge.mp3",
+  "audioSha256": "sha256:1ae9aa596c189dbb874785be58344da73ba123e1f49a846b6955345d14b4c7b8",
+  "generatedAt": "2026-10-06T01:39:51Z"
+}

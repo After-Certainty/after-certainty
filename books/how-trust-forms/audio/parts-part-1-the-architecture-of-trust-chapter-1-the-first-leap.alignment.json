@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-1-the-architecture-of-trust-chapter-1-the-first-leap",
+  "generationHash": "sha256:acfe09803396499147ea618b05a3545cea3c8bb7186794ebd22ce028a6e64145",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "The First Leap",
+      "startMs": 0.0,
+      "endMs": 1126.0,
+      "charStart": 0,
+      "charEnd": 14
+    },
+    {
+      "id": "s0002",
+      "text": "> How can trust begin before certainty exists?",
+      "startMs": 1300.0,
+      "endMs": 6409.0,
+      "charStart": 16,
+      "charEnd": 62
+    },
+    {
+      "id": "s0003",
+      "text": "The package had been sitting on the porch all afternoon.",
+      "startMs": 7222.0,
+      "endMs": 10136.0,
+      "charStart": 64,
+      "charEnd": 120
+    },
+    {
+      "id": "s0004",
+      "text": "Rain was forecast for the evening, the clouds were already gathering over the neighborhood, and the family next door was not home.",
+      "startMs": 10519.0,
+      "endMs": 17833.0,
+      "charStart": 121,
+      "charEnd": 251
+    },
+    {
+      "id": "s0005",
+      "text": "He noticed the box while pulling into his driveway and, for a moment, considered ignoring it.",
+      "startMs": 18530.0,
+      "endMs": 24567.0,
+      "charStart": 253,
+      "charEnd": 346
+    },
+    {
+      "id": "s0006",
+      "text": "The package was not his responsibility.",
+      "startMs": 25008.0,
+      "endMs": 27632.0,
+      "charStart": 347,
+      "charEnd": 386
+    },
+    {
+      "id": "s0007",
+      "text": "He barely knew the people who lived there—they had exchanged names once while unpacking boxes a few weeks earlier, and beyond that they were mostly strangers.",
+      "startMs": 28143.0,
+      "endMs": 36746.0,
+      "charStart": 387,
+      "charEnd": 545
+    },
+    {
+      "id": "s0008",
+      "text": "He looked at the package again, then walked across the lawn, carried it beneath the covered portion of the porch, and went back inside.",
+      "startMs": 37442.0,
+      "endMs": 45360.0,
+      "charStart": 546,
+      "charEnd": 681
+    },
+    {
+      "id": "s0009",
+      "text": "Nothing about the moment felt important.",
+      "startMs": 46057.0,
+      "endMs": 48414.0,
+      "charStart": 683,
+      "charEnd": 723
+    },
+    {
+      "id": "s0010",
+      "text": "No friendship had formed, no trust had been established, no agreement had been reached.",
+      "startMs": 48657.0,
+      "endMs": 54172.0,
+      "charStart": 724,
+      "charEnd": 811
+    },
+    {
+      "id": "s0011",
+      "text": "If asked why he moved the package, he might have struggled to explain it himself.",
+      "startMs": 54869.0,
+      "endMs": 59803.0,
+      "charStart": 812,
+      "charEnd": 893
+    },
+    {
+      "id": "s0012",
+      "text": "Yet something had happened: a small act of cooperation had occurred before trust fully existed.",
+      "startMs": 60407.0,
+      "endMs": 67326.0,
+      "charStart": 894,
+      "charEnd": 989
+    },
+    {
+      "id": "s0013",
+      "text": "Most people imagine trust as the result of certainty.",
+      "startMs": 68138.0,
+      "endMs": 71192.0,
+      "charStart": 991,
+      "charEnd": 1044
+    },
+    {
+      "id": "s0014",
+      "text": "We learn enough about another person, observe enough behavior, and gather enough evidence until we decide the person is trustworthy—and only then do we become willing to cooperate.",
+      "startMs": 71633.0,
+      "endMs": 83440.0,
+      "charStart": 1045,
+      "charEnd": 1225
+    },
+    {
+      "id": "s0015",
+      "text": "Much of life unfolds in the opposite order.",
+      "startMs": 84253.0,
+      "endMs": 87004.0,
+      "charStart": 1226,
+      "charEnd": 1269
+    },
+    {
+      "id": "s0016",
+      "text": "People participate before certainty arrives.",
+      "startMs": 87330.0,
+      "endMs": 90325.0,
+      "charStart": 1271,
+      "charEnd": 1315
+    },
+    {
+      "id": "s0017",
+      "text": "The first conversation happens before trust exists, the first favor before trust exists, the first act of cooperation before trust exists.",
+      "startMs": 90766.0,
+      "endMs": 100855.0,
+      "charStart": 1316,
+      "charEnd": 1454
+    },
+    {
+      "id": "s0018",
+      "text": "Trust often begins not after verification, but before it.",
+      "startMs": 101366.0,
+      "endMs": 106173.0,
+      "charStart": 1455,
+      "charEnd": 1512
+    },
+    {
+      "id": "s0019",
+      "text": "The Necessity of Acting First",
+      "startMs": 107473.0,
+      "endMs": 109586.0,
+      "charStart": 1514,
+      "charEnd": 1543
+    },
+    {
+      "id": "s0020",
+      "text": "At first this seems irrational.",
+      "startMs": 110886.0,
+      "endMs": 113417.0,
+      "charStart": 1545,
+      "charEnd": 1576
+    },
+    {
+      "id": "s0021",
+      "text": "Why would anyone cooperate with a stranger?",
+      "startMs": 113800.0,
+      "endMs": 116297.0,
+      "charStart": 1577,
+      "charEnd": 1620
+    },
+    {
+      "id": "s0022",
+      "text": "Why risk disappointment, exploitation, embarrassment, or misunderstanding before sufficient evidence exists?",
+      "startMs": 116680.0,
+      "endMs": 124679.0,
+      "charStart": 1621,
+      "charEnd": 1729
+    },
+    {
+      "id": "s0023",
+      "text": "The answer is that waiting for complete verification would make much of human life impossible.",
+      "startMs": 125492.0,
+      "endMs": 131123.0,
+      "charStart": 1731,
+      "charEnd": 1825
+    },
+    {
+      "id": "s0024",
+      "text": "Every meaningful relationship begins under uncertainty.",
+      "startMs": 132075.0,
+      "endMs": 136034.0,
+      "charStart": 1826,
+      "charEnd": 1881
+    },
+    {
+      "id": "s0025",
+      "text": "New employees join teams before anyone knows exactly how they will perform.",
+      "startMs": 136638.0,
+      "endMs": 141711.0,
+      "charStart": 1882,
+      "charEnd": 1957
+    },
+    {
+      "id": "s0026",
+      "text": "New neighbors move into communities before anyone knows whether they will contribute or withdraw.",
+      "startMs": 142036.0,
+      "endMs": 147969.0,
+      "charStart": 1958,
+      "charEnd": 2055
+    },
+    {
+      "id": "s0027",
+      "text": "Friendships begin before either person knows how the story will unfold.",
+      "startMs": 148480.0,
+      "endMs": 152949.0,
+      "charStart": 2056,
+      "charEnd": 2127
+    },
+    {
+      "id": "s0028",
+      "text": "Marriages begin before the future becomes visible.",
+      "startMs": 153274.0,
+      "endMs": 156456.0,
+      "charStart": 2128,
+      "charEnd": 2178
+    },
+    {
+      "id": "s0029",
+      "text": "Human beings regularly act without complete information because complete information rarely arrives.",
+      "startMs": 156700.0,
+      "endMs": 163480.0,
+      "charStart": 2179,
+      "charEnd": 2279
+    },
+    {
+      "id": "s0030",
+      "text": "Trust exists partly because uncertainty cannot be eliminated.",
+      "startMs": 163724.0,
+      "endMs": 168832.0,
+      "charStart": 2280,
+      "charEnd": 2341
+    },
+    {
+      "id": "s0031",
+      "text": "Niklas Luhmann argued that trust reduces social complexity.",
+      "startMs": 169111.0,
+      "endMs": 173569.0,
+      "charStart": 2343,
+      "charEnd": 2402
+    },
+    {
+      "id": "s0032",
+      "text": "Without trust, every decision would require endless verification.",
+      "startMs": 173813.0,
+      "endMs": 178689.0,
+      "charStart": 2403,
+      "charEnd": 2468
+    },
+    {
+      "id": "s0033",
+      "text": "Every interaction would demand exhaustive investigation.",
+      "startMs": 179386.0,
+      "endMs": 183032.0,
+      "charStart": 2469,
+      "charEnd": 2525
+    },
+    {
+      "id": "s0034",
+      "text": "Participation would slow to a crawl beneath the weight of uncertainty.",
+      "startMs": 183728.0,
+      "endMs": 188546.0,
+      "charStart": 2526,
+      "charEnd": 2596
+    },
+    {
+      "id": "s0035",
+      "text": "Trust allows action before certainty becomes available.",
+      "startMs": 189359.0,
+      "endMs": 193248.0,
+      "charStart": 2597,
+      "charEnd": 2652
+    },
+    {
+      "id": "s0036",
+      "text": "This does not eliminate risk; it makes life possible despite risk.",
+      "startMs": 194061.0,
+      "endMs": 199762.0,
+      "charStart": 2653,
+      "charEnd": 2719
+    },
+    {
+      "id": "s0037",
+      "text": "The Risk Hidden in the Leap",
+      "startMs": 200458.0,
+      "endMs": 202525.0,
+      "charStart": 2721,
+      "charEnd": 2748
+    },
+    {
+      "id": "s0038",
+      "text": "The first leap can also become dangerous.",
+      "startMs": 203221.0,
+      "endMs": 205787.0,
+      "charStart": 2750,
+      "charEnd": 2791
+    },
+    {
+      "id": "s0039",
+      "text": "Trusting before verification creates the possibility of cooperation, but it also creates the possibility of betrayal.",
+      "startMs": 206484.0,
+      "endMs": 214796.0,
+      "charStart": 2792,
+      "charEnd": 2909
+    },
+    {
+      "id": "s0040",
+      "text": "The same willingness that allows friendships to form can expose people to manipulation.",
+      "startMs": 215400.0,
+      "endMs": 220834.0,
+      "charStart": 2910,
+      "charEnd": 2997
+    },
+    {
+      "id": "s0041",
+      "text": "The same openness that allows communities to grow can be exploited by those who do not intend reciprocity.",
+      "startMs": 221159.0,
+      "endMs": 228473.0,
+      "charStart": 2998,
+      "charEnd": 3104
+    },
+    {
+      "id": "s0042",
+      "text": "Trust can become naïveté when uncertainty is ignored rather than acknowledged.",
+      "startMs": 228798.0,
+      "endMs": 234406.0,
+      "charStart": 3105,
+      "charEnd": 3183
+    },
+    {
+      "id": "s0043",
+      "text": "Some people respond to this danger by becoming suspicious of trust itself.",
+      "startMs": 235359.0,
+      "endMs": 239828.0,
+      "charStart": 3185,
+      "charEnd": 3259
+    },
+    {
+      "id": "s0044",
+      "text": "The reasoning is understandable: if trust creates vulnerability, perhaps the solution is to trust less, verify more, withhold participation until certainty arrives.",
+      "startMs": 240270.0,
+      "endMs": 252449.0,
+      "charStart": 3260,
+      "charEnd": 3424
+    },
+    {
+      "id": "s0045",
+      "text": "Yet certainty rarely arrives.",
+      "startMs": 252774.0,
+      "endMs": 255096.0,
+      "charStart": 3425,
+      "charEnd": 3454
+    },
+    {
+      "id": "s0046",
+      "text": "A person determined to eliminate all risk eventually discovers that the cost of perfect safety is isolation.",
+      "startMs": 255340.0,
+      "endMs": 262526.0,
+      "charStart": 3455,
+      "charEnd": 3563
+    },
+    {
+      "id": "s0047",
+      "text": "The drift appears at both extremes.",
+      "startMs": 263223.0,
+      "endMs": 265707.0,
+      "charStart": 3565,
+      "charEnd": 3600
+    },
+    {
+      "id": "s0048",
+      "text": "Too much trust ignores uncertainty; too little trust demands certainty that reality cannot provide.",
+      "startMs": 266032.0,
+      "endMs": 273556.0,
+      "charStart": 3601,
+      "charEnd": 3700
+    },
+    {
+      "id": "s0049",
+      "text": "The Insight That Endures",
+      "startMs": 273997.0,
+      "endMs": 275913.0,
+      "charStart": 3702,
+      "charEnd": 3726
+    },
+    {
+      "id": "s0050",
+      "text": "The lesson is not that people should trust indiscriminately, nor that people should refuse trust until every question has been answered.",
+      "startMs": 276354.0,
+      "endMs": 284226.0,
+      "charStart": 3728,
+      "charEnd": 3864
+    },
+    {
+      "id": "s0051",
+      "text": "What remains is a different recognition: trust is not the absence of uncertainty.",
+      "startMs": 284551.0,
+      "endMs": 290112.0,
+      "charStart": 3865,
+      "charEnd": 3946
+    },
+    {
+      "id": "s0052",
+      "text": "Trust is a way of participating while uncertainty remains.",
+      "startMs": 290390.0,
+      "endMs": 293943.0,
+      "charStart": 3947,
+      "charEnd": 4005
+    },
+    {
+      "id": "s0053",
+      "text": "The package was moved before the neighbor had been fully verified.",
+      "startMs": 294547.0,
+      "endMs": 298099.0,
+      "charStart": 4007,
+      "charEnd": 4073
+    },
+    {
+      "id": "s0054",
+      "text": "The risk was small, the uncertainty remained, and participation happened anyway.",
+      "startMs": 298378.0,
+      "endMs": 303765.0,
+      "charStart": 4074,
+      "charEnd": 4154
+    },
+    {
+      "id": "s0055",
+      "text": "This is the first leap—not certainty, not proof, but participation.",
+      "startMs": 304206.0,
+      "endMs": 309337.0,
+      "charStart": 4155,
+      "charEnd": 4222
+    },
+    {
+      "id": "s0056",
+      "text": "Core Principle",
+      "startMs": 309848.0,
+      "endMs": 310661.0,
+      "charStart": 4224,
+      "charEnd": 4238
+    },
+    {
+      "id": "s0057",
+      "text": "Trust Begins Before Verification.",
+      "startMs": 310707.0,
+      "endMs": 313413.0,
+      "charStart": 4240,
+      "charEnd": 4273
+    },
+    {
+      "id": "s0058",
+      "text": "Trust does not emerge after uncertainty disappears.",
+      "startMs": 313923.0,
+      "endMs": 317662.0,
+      "charStart": 4275,
+      "charEnd": 4326
+    },
+    {
+      "id": "s0059",
+      "text": "It emerges because human beings must act before uncertainty disappears.",
+      "startMs": 317906.0,
+      "endMs": 322898.0,
+      "charStart": 4327,
+      "charEnd": 4398
+    },
+    {
+      "id": "s0060",
+      "text": "The first leap is not confidence that nothing will go wrong.",
+      "startMs": 323409.0,
+      "endMs": 326996.0,
+      "charStart": 4399,
+      "charEnd": 4459
+    },
+    {
+      "id": "s0061",
+      "text": "It is willingness to participate before knowing exactly what will happen next.",
+      "startMs": 327438.0,
+      "endMs": 332639.0,
+      "charStart": 4460,
+      "charEnd": 4538
+    },
+    {
+      "id": "s0062",
+      "text": "Back to the Porch",
+      "startMs": 333150.0,
+      "endMs": 334160.0,
+      "charStart": 4540,
+      "charEnd": 4557
+    },
+    {
+      "id": "s0063",
+      "text": "The rain arrived later that evening, and the package stayed dry beneath the porch roof.",
+      "startMs": 334671.0,
+      "endMs": 339721.0,
+      "charStart": 4559,
+      "charEnd": 4646
+    },
+    {
+      "id": "s0064",
+      "text": "The neighbors never knew how close it had come to getting wet; they may never have noticed it had been moved at all.",
+      "startMs": 340232.0,
+      "endMs": 346548.0,
+      "charStart": 4647,
+      "charEnd": 4763
+    },
+    {
+      "id": "s0065",
+      "text": "That was not the point.",
+      "startMs": 346989.0,
+      "endMs": 348579.0,
+      "charStart": 4764,
+      "charEnd": 4787
+    },
+    {
+      "id": "s0066",
+      "text": "The important thing had happened earlier, when a stranger had acted on behalf of another stranger before certainty existed.",
+      "startMs": 348962.0,
+      "endMs": 356184.0,
+      "charStart": 4789,
+      "charEnd": 4912
+    },
+    {
+      "id": "s0067",
+      "text": "Trust had not fully formed—but something necessary for trust had.",
+      "startMs": 356788.0,
+      "endMs": 361165.0,
+      "charStart": 4913,
+      "charEnd": 4978
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters",
+  "sourcePath": "parts/part-3-what-trust-makes-possible/chapter-9-why-trust-matters.md",
+  "sourceHash": "sha256:4bdb18466a6417216885ddceff917e3ab54cb205f03ceca65fe94b81f1b86c89",
+  "spokenTextHash": "sha256:df0734ef0da2ba8577aac229fe64425f7de734a589b172baf561b4d0b255d60b",
+  "generationHash": "sha256:9a1eecfd3371f04c0e83ae68c4b5d4e7c4c3b1c9bc8520b255729602cf9fa243",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 7013,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1753.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1753.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-3-what-trust-makes-possible-chapter-9-why-trust-matters.mp3",
+  "audioSha256": "sha256:cae239c341cb7ab6c2324668cc628d1b98fe162acc36f59f3ee9edf8900a173b",
+  "generatedAt": "2026-10-06T01:41:19Z"
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-1-the-architecture-of-trust-chapter-1-the-first-leap",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-1-the-architecture-of-trust-chapter-1-the-first-leap",
+  "sourcePath": "parts/part-1-the-architecture-of-trust/chapter-1-the-first-leap.md",
+  "sourceHash": "sha256:15831beaf83886324f910d216514d53c82a19fc167a78ff0e7b8dd9f4d74b7c8",
+  "spokenTextHash": "sha256:677a36e403cfd396490cc8b3fc9b777018fd940627f97457b01afde4a0b2b492",
+  "generationHash": "sha256:acfe09803396499147ea618b05a3545cea3c8bb7186794ebd22ce028a6e64145",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 4978,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1244.5,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1244.5,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-1-the-architecture-of-trust-chapter-1-the-first-leap.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-1-the-architecture-of-trust-chapter-1-the-first-leap.mp3",
+  "audioSha256": "sha256:5cd92e0b92cf1ae84cf38586ecd60dd6e188700b63ff3f6145a491cb88c4feef",
+  "generatedAt": "2026-10-06T01:39:24Z"
+}

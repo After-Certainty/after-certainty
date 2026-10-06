@@ -1,0 +1,520 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-back-matter-appendix-core-principles",
+  "generationHash": "sha256:9db8faaa74731a7f54eef7710ebb5206491d50eb708792e22d4e7ff3e8ae271f",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Appendix — Core Principles",
+      "startMs": 0.0,
+      "endMs": 2636.0,
+      "charStart": 0,
+      "charEnd": 26
+    },
+    {
+      "id": "s0002",
+      "text": "The chapters in this book explore a recurring pattern.",
+      "startMs": 3936.0,
+      "endMs": 7384.0,
+      "charStart": 28,
+      "charEnd": 82
+    },
+    {
+      "id": "s0003",
+      "text": "Trust often forms through experience, participation, and successful outcomes—and those same mechanisms can also drift.",
+      "startMs": 7767.0,
+      "endMs": 16533.0,
+      "charStart": 83,
+      "charEnd": 201
+    },
+    {
+      "id": "s0004",
+      "text": "The principles below summarize the patterns explored throughout the book.",
+      "startMs": 16916.0,
+      "endMs": 21281.0,
+      "charStart": 202,
+      "charEnd": 275
+    },
+    {
+      "id": "s0005",
+      "text": "1.",
+      "startMs": 22094.0,
+      "endMs": 22698.0,
+      "charStart": 277,
+      "charEnd": 279
+    },
+    {
+      "id": "s0006",
+      "text": "Trust Reduces Verification",
+      "startMs": 22976.0,
+      "endMs": 25484.0,
+      "charStart": 280,
+      "charEnd": 306
+    },
+    {
+      "id": "s0007",
+      "text": "Trust allows people to act without independently verifying every claim for themselves.",
+      "startMs": 26297.0,
+      "endMs": 32032.0,
+      "charStart": 308,
+      "charEnd": 394
+    },
+    {
+      "id": "s0008",
+      "text": "This reduction in verification makes cooperation possible; without trust, coordination becomes prohibitively expensive.",
+      "startMs": 32636.0,
+      "endMs": 40775.0,
+      "charStart": 395,
+      "charEnd": 514
+    },
+    {
+      "id": "s0009",
+      "text": "The problem is not that trust reduces verification.",
+      "startMs": 41378.0,
+      "endMs": 44583.0,
+      "charStart": 515,
+      "charEnd": 566
+    },
+    {
+      "id": "s0010",
+      "text": "The problem begins when trust continues reducing verification after circumstances have changed.",
+      "startMs": 44908.0,
+      "endMs": 51212.0,
+      "charStart": 567,
+      "charEnd": 662
+    },
+    {
+      "id": "s0011",
+      "text": "2.",
+      "startMs": 52164.0,
+      "endMs": 52617.0,
+      "charStart": 664,
+      "charEnd": 666
+    },
+    {
+      "id": "s0012",
+      "text": "Past Success Creates Future Trust",
+      "startMs": 53000.0,
+      "endMs": 55740.0,
+      "charStart": 667,
+      "charEnd": 700
+    },
+    {
+      "id": "s0013",
+      "text": "Successful outcomes generate credibility.",
+      "startMs": 57041.0,
+      "endMs": 60048.0,
+      "charStart": 702,
+      "charEnd": 743
+    },
+    {
+      "id": "s0014",
+      "text": "Credibility attracts participation, and participation strengthens trust.",
+      "startMs": 60257.0,
+      "endMs": 65284.0,
+      "charStart": 744,
+      "charEnd": 816
+    },
+    {
+      "id": "s0015",
+      "text": "Over time, trust can begin relying more on past success than present evidence, and what once reflected reality can gradually become detached from it.",
+      "startMs": 65667.0,
+      "endMs": 76197.0,
+      "charStart": 817,
+      "charEnd": 966
+    },
+    {
+      "id": "s0016",
+      "text": "3.",
+      "startMs": 77010.0,
+      "endMs": 77579.0,
+      "charStart": 968,
+      "charEnd": 970
+    },
+    {
+      "id": "s0017",
+      "text": "Trust Can Become Part of Who We Are",
+      "startMs": 77904.0,
+      "endMs": 80609.0,
+      "charStart": 971,
+      "charEnd": 1006
+    },
+    {
+      "id": "s0018",
+      "text": "People often attach trust to identity.",
+      "startMs": 81422.0,
+      "endMs": 84197.0,
+      "charStart": 1008,
+      "charEnd": 1046
+    },
+    {
+      "id": "s0019",
+      "text": "Marriages, friendships, families, organizations, and communities can become part of how individuals understand themselves.",
+      "startMs": 84638.0,
+      "endMs": 93415.0,
+      "charStart": 1047,
+      "charEnd": 1169
+    },
+    {
+      "id": "s0020",
+      "text": "When trust becomes identity, criticism can feel personal rather than informative—a question about a habit can sound like a question about the relationship—and revision becomes more difficult.",
+      "startMs": 93798.0,
+      "endMs": 105826.0,
+      "charStart": 1170,
+      "charEnd": 1361
+    },
+    {
+      "id": "s0021",
+      "text": "4.",
+      "startMs": 106940.0,
+      "endMs": 107451.0,
+      "charStart": 1363,
+      "charEnd": 1365
+    },
+    {
+      "id": "s0022",
+      "text": "Trust Can Silence Weak Signals",
+      "startMs": 107579.0,
+      "endMs": 111225.0,
+      "charStart": 1366,
+      "charEnd": 1396
+    },
+    {
+      "id": "s0023",
+      "text": "Large failures rarely begin as large failures.",
+      "startMs": 112339.0,
+      "endMs": 115915.0,
+      "charStart": 1398,
+      "charEnd": 1444
+    },
+    {
+      "id": "s0024",
+      "text": "Most begin as small warnings, anomalies, exceptions, or concerns that do not look like warnings at the time—in a marriage, a friendship, or an institution.",
+      "startMs": 116240.0,
+      "endMs": 126793.0,
+      "charStart": 1445,
+      "charEnd": 1600
+    },
+    {
+      "id": "s0025",
+      "text": "Strong trust often absorbs weak signals before it absorbs strong ones—filing fragments away as exceptions rather than alarms.",
+      "startMs": 127118.0,
+      "endMs": 135559.0,
+      "charStart": 1601,
+      "charEnd": 1726
+    },
+    {
+      "id": "s0026",
+      "text": "5.",
+      "startMs": 136859.0,
+      "endMs": 137358.0,
+      "charStart": 1728,
+      "charEnd": 1730
+    },
+    {
+      "id": "s0027",
+      "text": "Trust Can Interrupt Learning",
+      "startMs": 137602.0,
+      "endMs": 139599.0,
+      "charStart": 1731,
+      "charEnd": 1759
+    },
+    {
+      "id": "s0028",
+      "text": "Participation usually updates beliefs.",
+      "startMs": 140899.0,
+      "endMs": 143477.0,
+      "charStart": 1761,
+      "charEnd": 1799
+    },
+    {
+      "id": "s0029",
+      "text": "Healthy participation exposes people to outcomes that challenge assumptions.",
+      "startMs": 143918.0,
+      "endMs": 148782.0,
+      "charStart": 1800,
+      "charEnd": 1876
+    },
+    {
+      "id": "s0030",
+      "text": "Drift begins when participation itself becomes evidence—when showing up, staying committed, and continuing to contribute feel like proof that trust remains warranted, even when outcomes no longer test that belief.",
+      "startMs": 149293.0,
+      "endMs": 163271.0,
+      "charStart": 1877,
+      "charEnd": 2090
+    },
+    {
+      "id": "s0031",
+      "text": "6.",
+      "startMs": 164386.0,
+      "endMs": 164955.0,
+      "charStart": 2092,
+      "charEnd": 2094
+    },
+    {
+      "id": "s0032",
+      "text": "Abstraction Can Hide Reality",
+      "startMs": 165396.0,
+      "endMs": 167822.0,
+      "charStart": 2095,
+      "charEnd": 2123
+    },
+    {
+      "id": "s0033",
+      "text": "As trust scales, fewer people interact directly with its original source.",
+      "startMs": 168937.0,
+      "endMs": 174046.0,
+      "charStart": 2125,
+      "charEnd": 2198
+    },
+    {
+      "id": "s0034",
+      "text": "Stories, reputations, procedures, and institutions carry trust across distance.",
+      "startMs": 174371.0,
+      "endMs": 180606.0,
+      "charStart": 2199,
+      "charEnd": 2278
+    },
+    {
+      "id": "s0035",
+      "text": "Inherited trust can feel as solid as trust earned through experience—and that is when abstraction makes drift hardest to see.",
+      "startMs": 180884.0,
+      "endMs": 190021.0,
+      "charStart": 2279,
+      "charEnd": 2404
+    },
+    {
+      "id": "s0036",
+      "text": "7.",
+      "startMs": 190973.0,
+      "endMs": 191461.0,
+      "charStart": 2406,
+      "charEnd": 2408
+    },
+    {
+      "id": "s0037",
+      "text": "Legitimacy Can Outlive Performance",
+      "startMs": 191786.0,
+      "endMs": 194863.0,
+      "charStart": 2409,
+      "charEnd": 2443
+    },
+    {
+      "id": "s0038",
+      "text": "Authority often survives the conditions that originally justified it.",
+      "startMs": 195977.0,
+      "endMs": 200366.0,
+      "charStart": 2445,
+      "charEnd": 2514
+    },
+    {
+      "id": "s0039",
+      "text": "People remember past success, the sacrifices made, and the achievements won.",
+      "startMs": 200691.0,
+      "endMs": 206113.0,
+      "charStart": 2515,
+      "charEnd": 2591
+    },
+    {
+      "id": "s0040",
+      "text": "Over time, legitimacy itself can begin functioning as evidence—substituting for evaluation of current performance and making the question shift from whether authority is right to how it could possibly be wrong.",
+      "startMs": 206925.0,
+      "endMs": 220277.0,
+      "charStart": 2592,
+      "charEnd": 2802
+    },
+    {
+      "id": "s0041",
+      "text": "8.",
+      "startMs": 220974.0,
+      "endMs": 221543.0,
+      "charStart": 2804,
+      "charEnd": 2806
+    },
+    {
+      "id": "s0042",
+      "text": "Trust Influences What We Notice",
+      "startMs": 222053.0,
+      "endMs": 224967.0,
+      "charStart": 2807,
+      "charEnd": 2838
+    },
+    {
+      "id": "s0043",
+      "text": "Trust shapes attention before it shapes conclusions.",
+      "startMs": 225664.0,
+      "endMs": 229205.0,
+      "charStart": 2840,
+      "charEnd": 2892
+    },
+    {
+      "id": "s0044",
+      "text": "People often encounter the same evidence but notice different things.",
+      "startMs": 229716.0,
+      "endMs": 233570.0,
+      "charStart": 2893,
+      "charEnd": 2962
+    },
+    {
+      "id": "s0045",
+      "text": "Existing trust shapes which signals feel important, credible, or relevant—and disagreement often begins with attention long before it becomes a dispute about facts.",
+      "startMs": 233849.0,
+      "endMs": 245714.0,
+      "charStart": 2963,
+      "charEnd": 3127
+    },
+    {
+      "id": "s0046",
+      "text": "9.",
+      "startMs": 246829.0,
+      "endMs": 247363.0,
+      "charStart": 3129,
+      "charEnd": 3131
+    },
+    {
+      "id": "s0047",
+      "text": "Healthy Trust Remains Correctable",
+      "startMs": 247967.0,
+      "endMs": 250613.0,
+      "charStart": 3132,
+      "charEnd": 3165
+    },
+    {
+      "id": "s0048",
+      "text": "Healthy trust does not preserve every practice.",
+      "startMs": 251728.0,
+      "endMs": 254874.0,
+      "charStart": 3167,
+      "charEnd": 3214
+    },
+    {
+      "id": "s0049",
+      "text": "Healthy trust does not discard every tradition.",
+      "startMs": 255118.0,
+      "endMs": 258322.0,
+      "charStart": 3215,
+      "charEnd": 3262
+    },
+    {
+      "id": "s0050",
+      "text": "Healthy trust remains capable of learning which is which.",
+      "startMs": 258764.0,
+      "endMs": 262827.0,
+      "charStart": 3263,
+      "charEnd": 3320
+    },
+    {
+      "id": "s0051",
+      "text": "No person, leader, or institution can determine that distinction alone; correction requires continued participation, feedback, and learning.",
+      "startMs": 263210.0,
+      "endMs": 273938.0,
+      "charStart": 3321,
+      "charEnd": 3461
+    },
+    {
+      "id": "s0052",
+      "text": "The Trust Cycle",
+      "startMs": 274890.0,
+      "endMs": 276179.0,
+      "charStart": 3463,
+      "charEnd": 3478
+    },
+    {
+      "id": "s0053",
+      "text": "Trust often develops through a recurring cycle:",
+      "startMs": 277131.0,
+      "endMs": 280173.0,
+      "charStart": 3480,
+      "charEnd": 3527
+    },
+    {
+      "id": "s0054",
+      "text": "Beliefs → Actions → Outcomes → Trust → Participation → Beliefs",
+      "startMs": 280382.0,
+      "endMs": 286953.0,
+      "charStart": 3529,
+      "charEnd": 3591
+    },
+    {
+      "id": "s0055",
+      "text": "Healthy trust remains connected to feedback.",
+      "startMs": 287766.0,
+      "endMs": 290668.0,
+      "charStart": 3593,
+      "charEnd": 3637
+    },
+    {
+      "id": "s0056",
+      "text": "Participation continues testing trust against outcomes, and beliefs remain open to revision.",
+      "startMs": 290947.0,
+      "endMs": 297564.0,
+      "charStart": 3638,
+      "charEnd": 3730
+    },
+    {
+      "id": "s0057",
+      "text": "The cycle helps people learn, cooperate, and adapt.",
+      "startMs": 297889.0,
+      "endMs": 301802.0,
+      "charStart": 3731,
+      "charEnd": 3782
+    },
+    {
+      "id": "s0058",
+      "text": "The same cycle can drift.",
+      "startMs": 301976.0,
+      "endMs": 304043.0,
+      "charStart": 3784,
+      "charEnd": 3809
+    },
+    {
+      "id": "s0059",
+      "text": "When participation stops testing and starts confirming, trust can become identity, identity can shape interpretation, and interpretation can encourage preservation.",
+      "startMs": 304368.0,
+      "endMs": 315502.0,
+      "charStart": 3810,
+      "charEnd": 3974
+    },
+    {
+      "id": "s0060",
+      "text": "The cycle continues—but its relationship to feedback weakens.",
+      "startMs": 315885.0,
+      "endMs": 320087.0,
+      "charStart": 3975,
+      "charEnd": 4036
+    },
+    {
+      "id": "s0061",
+      "text": "Healthy trust recovers when participation, outcomes, and feedback become connected again.",
+      "startMs": 320691.0,
+      "endMs": 326554.0,
+      "charStart": 4038,
+      "charEnd": 4127
+    },
+    {
+      "id": "s0062",
+      "text": "The Central Insight",
+      "startMs": 327158.0,
+      "endMs": 328469.0,
+      "charStart": 4129,
+      "charEnd": 4148
+    },
+    {
+      "id": "s0063",
+      "text": "When participation stops testing trust against outcomes, drift begins.",
+      "startMs": 329073.0,
+      "endMs": 333659.0,
+      "charStart": 4150,
+      "charEnd": 4220
+    },
+    {
+      "id": "s0064",
+      "text": "Healthy trust preserves what matters by remaining willing to discover what does not.",
+      "startMs": 333984.0,
+      "endMs": 339197.0,
+      "charStart": 4222,
+      "charEnd": 4306
+    }
+  ]
+}

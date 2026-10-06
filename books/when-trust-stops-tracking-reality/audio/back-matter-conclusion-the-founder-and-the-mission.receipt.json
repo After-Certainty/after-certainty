@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-back-matter-conclusion-the-founder-and-the-mission",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "back-matter-conclusion-the-founder-and-the-mission",
+  "sourcePath": "back-matter/conclusion-the-founder-and-the-mission.md",
+  "sourceHash": "sha256:4c296fa60eece1cd5d815cf437d05b887460fae14c4788b6e1f446f810d5ca78",
+  "spokenTextHash": "sha256:ac02f98ad8cbbfe34daf17c4c1a876c89605b4c0c5a449b987b7af34d91ca1d2",
+  "generationHash": "sha256:55ee826d798a8d9478b450062fbaf1101ea56814f84cdc33e599468a5bbbee64",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 4207,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1051.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1051.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/back-matter-conclusion-the-founder-and-the-mission.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/back-matter-conclusion-the-founder-and-the-mission.mp3",
+  "audioSha256": "sha256:4104eff4046ead726e79e9e4a484950f4d309c5100d9b9a38fc45d78e753ca82",
+  "generatedAt": "2026-10-06T01:43:14Z"
+}

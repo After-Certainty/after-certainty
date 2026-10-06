@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-front-matter-introduction-when-trust-stops-tracking-reality",
+  "generationHash": "sha256:d176df81be8206ce4e619788171c37298a8acbb03902864d0e6f575a7716949d",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Introduction — The Company Everyone Wanted to Work For",
+      "startMs": 0.0,
+      "endMs": 4958.0,
+      "charStart": 0,
+      "charEnd": 54
+    },
+    {
+      "id": "s0002",
+      "text": "Central Question",
+      "startMs": 5016.0,
+      "endMs": 5933.0,
+      "charStart": 56,
+      "charEnd": 72
+    },
+    {
+      "id": "s0003",
+      "text": "How does trust become detached from reality?",
+      "startMs": 7233.0,
+      "endMs": 10113.0,
+      "charStart": 74,
+      "charEnd": 118
+    },
+    {
+      "id": "s0004",
+      "text": "Calder Family Health began as a single clinic.",
+      "startMs": 10925.0,
+      "endMs": 13851.0,
+      "charStart": 120,
+      "charEnd": 166
+    },
+    {
+      "id": "s0005",
+      "text": "Its founder, David Marsh, built a reputation for competence, care, and good judgment.",
+      "startMs": 14292.0,
+      "endMs": 20422.0,
+      "charStart": 167,
+      "charEnd": 252
+    },
+    {
+      "id": "s0006",
+      "text": "Patients trusted him.",
+      "startMs": 20933.0,
+      "endMs": 22303.0,
+      "charStart": 253,
+      "charEnd": 274
+    },
+    {
+      "id": "s0007",
+      "text": "Employees trusted him.",
+      "startMs": 22744.0,
+      "endMs": 24288.0,
+      "charStart": 275,
+      "charEnd": 297
+    },
+    {
+      "id": "s0008",
+      "text": "Families recommended the clinic to one another.",
+      "startMs": 24892.0,
+      "endMs": 27342.0,
+      "charStart": 298,
+      "charEnd": 345
+    },
+    {
+      "id": "s0009",
+      "text": "The organization grew because people believed it was helping.",
+      "startMs": 27783.0,
+      "endMs": 31313.0,
+      "charStart": 346,
+      "charEnd": 407
+    },
+    {
+      "id": "s0010",
+      "text": "The trust was earned.",
+      "startMs": 31487.0,
+      "endMs": 33147.0,
+      "charStart": 409,
+      "charEnd": 430
+    },
+    {
+      "id": "s0011",
+      "text": "In the early years, David personally approved every new clinic director.",
+      "startMs": 33751.0,
+      "endMs": 38267.0,
+      "charStart": 432,
+      "charEnd": 504
+    },
+    {
+      "id": "s0012",
+      "text": "He met regularly with patients and staff, reviewed expansion plans, and remained involved in decisions that shaped the organization's growth.",
+      "startMs": 38546.0,
+      "endMs": 47241.0,
+      "charStart": 505,
+      "charEnd": 646
+    },
+    {
+      "id": "s0013",
+      "text": "People did not trust him because of a title.",
+      "startMs": 47845.0,
+      "endMs": 50469.0,
+      "charStart": 647,
+      "charEnd": 691
+    },
+    {
+      "id": "s0014",
+      "text": "They trusted him because they repeatedly watched him make good decisions.",
+      "startMs": 50713.0,
+      "endMs": 54672.0,
+      "charStart": 692,
+      "charEnd": 765
+    },
+    {
+      "id": "s0015",
+      "text": "As the years passed, Calder expanded.",
+      "startMs": 55624.0,
+      "endMs": 58317.0,
+      "charStart": 767,
+      "charEnd": 804
+    },
+    {
+      "id": "s0016",
+      "text": "New clinics opened.",
+      "startMs": 58561.0,
+      "endMs": 59838.0,
+      "charStart": 805,
+      "charEnd": 824
+    },
+    {
+      "id": "s0017",
+      "text": "New employees arrived.",
+      "startMs": 60082.0,
+      "endMs": 61568.0,
+      "charStart": 825,
+      "charEnd": 847
+    },
+    {
+      "id": "s0018",
+      "text": "Patients who had never met David still trusted the organization.",
+      "startMs": 61777.0,
+      "endMs": 65341.0,
+      "charStart": 848,
+      "charEnd": 912
+    },
+    {
+      "id": "s0019",
+      "text": "Employees who had never worked alongside him still repeated stories about the sacrifices he had made in the early years.",
+      "startMs": 65667.0,
+      "endMs": 72528.0,
+      "charStart": 913,
+      "charEnd": 1033
+    },
+    {
+      "id": "s0020",
+      "text": "The reputation that trust had created continued moving through the organization long after many people stopped experiencing its original source directly.",
+      "startMs": 72911.0,
+      "endMs": 82095.0,
+      "charStart": 1034,
+      "charEnd": 1187
+    },
+    {
+      "id": "s0021",
+      "text": "The organization became larger than any one person, yet the trust remained.",
+      "startMs": 82792.0,
+      "endMs": 87656.0,
+      "charStart": 1189,
+      "charEnd": 1264
+    },
+    {
+      "id": "s0022",
+      "text": "This book is not about deception, fraud, or villains manipulating innocent people.",
+      "startMs": 88167.0,
+      "endMs": 93426.0,
+      "charStart": 1266,
+      "charEnd": 1348
+    },
+    {
+      "id": "s0023",
+      "text": "It is about something more ordinary.",
+      "startMs": 93751.0,
+      "endMs": 95864.0,
+      "charStart": 1349,
+      "charEnd": 1385
+    },
+    {
+      "id": "s0024",
+      "text": "Trust often continues after the conditions that originally created it begin to change.",
+      "startMs": 96306.0,
+      "endMs": 101820.0,
+      "charStart": 1387,
+      "charEnd": 1473
+    },
+    {
+      "id": "s0025",
+      "text": "Organizations change.",
+      "startMs": 102064.0,
+      "endMs": 103655.0,
+      "charStart": 1474,
+      "charEnd": 1495
+    },
+    {
+      "id": "s0026",
+      "text": "Leaders change.",
+      "startMs": 103864.0,
+      "endMs": 104920.0,
+      "charStart": 1496,
+      "charEnd": 1511
+    },
+    {
+      "id": "s0027",
+      "text": "Institutions change.",
+      "startMs": 105071.0,
+      "endMs": 106662.0,
+      "charStart": 1512,
+      "charEnd": 1532
+    },
+    {
+      "id": "s0028",
+      "text": "Communities change.",
+      "startMs": 106812.0,
+      "endMs": 108124.0,
+      "charStart": 1533,
+      "charEnd": 1552
+    },
+    {
+      "id": "s0029",
+      "text": "Yet trust often persists.",
+      "startMs": 108333.0,
+      "endMs": 110771.0,
+      "charStart": 1553,
+      "charEnd": 1578
+    },
+    {
+      "id": "s0030",
+      "text": "Why?",
+      "startMs": 110946.0,
+      "endMs": 111573.0,
+      "charStart": 1579,
+      "charEnd": 1583
+    },
+    {
+      "id": "s0031",
+      "text": "This book argues that trust becomes dangerous when it stops learning from feedback.",
+      "startMs": 111898.0,
+      "endMs": 116600.0,
+      "charStart": 1585,
+      "charEnd": 1668
+    },
+    {
+      "id": "s0032",
+      "text": "That claim does not mean trust is a problem.",
+      "startMs": 116809.0,
+      "endMs": 119270.0,
+      "charStart": 1669,
+      "charEnd": 1713
+    },
+    {
+      "id": "s0033",
+      "text": "Trust solves a real problem.",
+      "startMs": 119387.0,
+      "endMs": 121442.0,
+      "charStart": 1714,
+      "charEnd": 1742
+    },
+    {
+      "id": "s0034",
+      "text": "Every day we rely on people whose work we cannot independently verify.",
+      "startMs": 121650.0,
+      "endMs": 126109.0,
+      "charStart": 1744,
+      "charEnd": 1814
+    },
+    {
+      "id": "s0035",
+      "text": "Patients trust doctors.",
+      "startMs": 126353.0,
+      "endMs": 127850.0,
+      "charStart": 1815,
+      "charEnd": 1838
+    },
+    {
+      "id": "s0036",
+      "text": "Passengers trust pilots.",
+      "startMs": 127966.0,
+      "endMs": 129603.0,
+      "charStart": 1839,
+      "charEnd": 1863
+    },
+    {
+      "id": "s0037",
+      "text": "Families trust schools.",
+      "startMs": 129777.0,
+      "endMs": 131461.0,
+      "charStart": 1864,
+      "charEnd": 1887
+    },
+    {
+      "id": "s0038",
+      "text": "Citizens trust institutions.",
+      "startMs": 131612.0,
+      "endMs": 133713.0,
+      "charStart": 1888,
+      "charEnd": 1916
+    },
+    {
+      "id": "s0039",
+      "text": "Cooperation would become impossible if every person needed to personally verify every claim before acting.",
+      "startMs": 133922.0,
+      "endMs": 140447.0,
+      "charStart": 1917,
+      "charEnd": 2023
+    },
+    {
+      "id": "s0040",
+      "text": "Trust allows action before complete verification.",
+      "startMs": 141144.0,
+      "endMs": 144685.0,
+      "charStart": 2024,
+      "charEnd": 2073
+    },
+    {
+      "id": "s0041",
+      "text": "Understanding how trust forms is important, and understanding how trust drifts is equally important.",
+      "startMs": 145126.0,
+      "endMs": 151360.0,
+      "charStart": 2074,
+      "charEnd": 2174
+    },
+    {
+      "id": "s0042",
+      "text": "The purpose of this book is to understand both.",
+      "startMs": 151871.0,
+      "endMs": 154855.0,
+      "charStart": 2175,
+      "charEnd": 2222
+    },
+    {
+      "id": "s0043",
+      "text": "A Working Definition of Trust",
+      "startMs": 155297.0,
+      "endMs": 157247.0,
+      "charStart": 2224,
+      "charEnd": 2253
+    },
+    {
+      "id": "s0044",
+      "text": "Trust is the decision to rely on a person, institution, process, or interpretation without independently verifying every claim for ourselves.",
+      "startMs": 157758.0,
+      "endMs": 168265.0,
+      "charStart": 2255,
+      "charEnd": 2396
+    },
+    {
+      "id": "s0045",
+      "text": "Trust does not eliminate uncertainty; it allows people to cooperate despite it.",
+      "startMs": 168776.0,
+      "endMs": 174303.0,
+      "charStart": 2397,
+      "charEnd": 2476
+    },
+    {
+      "id": "s0046",
+      "text": "Most of the time, that tradeoff works remarkably well.",
+      "startMs": 174999.0,
+      "endMs": 178505.0,
+      "charStart": 2477,
+      "charEnd": 2531
+    },
+    {
+      "id": "s0047",
+      "text": "Human societies depend on it.",
+      "startMs": 178714.0,
+      "endMs": 180978.0,
+      "charStart": 2532,
+      "charEnd": 2561
+    },
+    {
+      "id": "s0048",
+      "text": "The Trust Cycle",
+      "startMs": 181582.0,
+      "endMs": 182813.0,
+      "charStart": 2563,
+      "charEnd": 2578
+    },
+    {
+      "id": "s0049",
+      "text": "Trust often develops through a recurring cycle:",
+      "startMs": 183765.0,
+      "endMs": 186795.0,
+      "charStart": 2580,
+      "charEnd": 2627
+    },
+    {
+      "id": "s0050",
+      "text": "Beliefs → Actions → Outcomes → Trust → Participation → Beliefs",
+      "startMs": 187004.0,
+      "endMs": 193773.0,
+      "charStart": 2629,
+      "charEnd": 2691
+    },
+    {
+      "id": "s0051",
+      "text": "People act on what they believe.",
+      "startMs": 195073.0,
+      "endMs": 197163.0,
+      "charStart": 2693,
+      "charEnd": 2725
+    },
+    {
+      "id": "s0052",
+      "text": "Those actions produce outcomes.",
+      "startMs": 197488.0,
+      "endMs": 199717.0,
+      "charStart": 2726,
+      "charEnd": 2757
+    },
+    {
+      "id": "s0053",
+      "text": "Those outcomes influence trust.",
+      "startMs": 200042.0,
+      "endMs": 202329.0,
+      "charStart": 2758,
+      "charEnd": 2789
+    },
+    {
+      "id": "s0054",
+      "text": "Trust enables participation, and participation updates beliefs.",
+      "startMs": 202933.0,
+      "endMs": 207809.0,
+      "charStart": 2790,
+      "charEnd": 2853
+    },
+    {
+      "id": "s0055",
+      "text": "The cycle then repeats.",
+      "startMs": 208134.0,
+      "endMs": 209934.0,
+      "charStart": 2854,
+      "charEnd": 2877
+    },
+    {
+      "id": "s0056",
+      "text": "Most of the time, this cycle helps people learn, cooperate, and adapt.",
+      "startMs": 210538.0,
+      "endMs": 215379.0,
+      "charStart": 2879,
+      "charEnd": 2949
+    },
+    {
+      "id": "s0057",
+      "text": "Yet the same cycle can drift.",
+      "startMs": 215762.0,
+      "endMs": 218003.0,
+      "charStart": 2950,
+      "charEnd": 2979
+    },
+    {
+      "id": "s0058",
+      "text": "When participation continues testing trust against outcomes, trust remains connected to reality.",
+      "startMs": 218386.0,
+      "endMs": 224829.0,
+      "charStart": 2980,
+      "charEnd": 3076
+    },
+    {
+      "id": "s0059",
+      "text": "When participation stops testing and starts confirming, something begins to change: trust can become identity, identity can shape interpretation, and interpretation can encourage preservation.",
+      "startMs": 225271.0,
+      "endMs": 238866.0,
+      "charStart": 3077,
+      "charEnd": 3269
+    },
+    {
+      "id": "s0060",
+      "text": "The cycle continues, but its relationship to feedback weakens.",
+      "startMs": 239377.0,
+      "endMs": 243905.0,
+      "charStart": 3270,
+      "charEnd": 3332
+    },
+    {
+      "id": "s0061",
+      "text": "The chapters that follow explore why participation sometimes stops testing, why trust sometimes stops learning, and how good intentions can gradually become disconnected from reality.",
+      "startMs": 244346.0,
+      "endMs": 256282.0,
+      "charStart": 3334,
+      "charEnd": 3517
+    },
+    {
+      "id": "s0062",
+      "text": "A Note on the Examples",
+      "startMs": 256665.0,
+      "endMs": 258220.0,
+      "charStart": 3519,
+      "charEnd": 3541
+    },
+    {
+      "id": "s0063",
+      "text": "The examples in this book range from everyday relationships to major institutional failures.",
+      "startMs": 258604.0,
+      "endMs": 264780.0,
+      "charStart": 3543,
+      "charEnd": 3635
+    },
+    {
+      "id": "s0064",
+      "text": "The consequences vary dramatically.",
+      "startMs": 265163.0,
+      "endMs": 267497.0,
+      "charStart": 3636,
+      "charEnd": 3671
+    },
+    {
+      "id": "s0065",
+      "text": "The purpose of placing them side by side is not to equate their outcomes, but to examine the underlying patterns they share.",
+      "startMs": 267775.0,
+      "endMs": 275113.0,
+      "charStart": 3672,
+      "charEnd": 3796
+    },
+    {
+      "id": "s0066",
+      "text": "A disagreement within a family is not the same as a corporate scandal, and a struggling organization is not the same as a destructive cult.",
+      "startMs": 275438.0,
+      "endMs": 283170.0,
+      "charStart": 3798,
+      "charEnd": 3937
+    },
+    {
+      "id": "s0067",
+      "text": "Yet similar trust dynamics can appear in each.",
+      "startMs": 283495.0,
+      "endMs": 286154.0,
+      "charStart": 3938,
+      "charEnd": 3984
+    },
+    {
+      "id": "s0068",
+      "text": "Understanding those dynamics is the purpose of this book.",
+      "startMs": 286479.0,
+      "endMs": 289602.0,
+      "charStart": 3985,
+      "charEnd": 4042
+    }
+  ]
+}

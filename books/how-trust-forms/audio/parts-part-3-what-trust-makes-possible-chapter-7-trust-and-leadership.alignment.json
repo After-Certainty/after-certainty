@@ -1,0 +1,936 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-3-what-trust-makes-possible-chapter-7-trust-and-leadership",
+  "generationHash": "sha256:62e2b7ba3bf93b09a6b7fee859aa7ade5f820ccdc5079755d33dc74964377a4f",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Trust and Leadership",
+      "startMs": 0.0,
+      "endMs": 1463.0,
+      "charStart": 0,
+      "charEnd": 20
+    },
+    {
+      "id": "s0002",
+      "text": "> How does trust become legitimacy?",
+      "startMs": 1672.0,
+      "endMs": 4180.0,
+      "charStart": 22,
+      "charEnd": 57
+    },
+    {
+      "id": "s0003",
+      "text": "Reliability earns attention long before it earns a title.",
+      "startMs": 4621.0,
+      "endMs": 8150.0,
+      "charStart": 59,
+      "charEnd": 116
+    },
+    {
+      "id": "s0004",
+      "text": "This chapter follows that path—from repeated trust to the right to coordinate collective action.",
+      "startMs": 8394.0,
+      "endMs": 14454.0,
+      "charStart": 117,
+      "charEnd": 213
+    },
+    {
+      "id": "s0005",
+      "text": "The neighborhood association had never planned to have a leader.",
+      "startMs": 14698.0,
+      "endMs": 18053.0,
+      "charStart": 215,
+      "charEnd": 279
+    },
+    {
+      "id": "s0006",
+      "text": "No election had created one, no title had appointed one, no formal process had selected a representative.",
+      "startMs": 18297.0,
+      "endMs": 25403.0,
+      "charStart": 280,
+      "charEnd": 385
+    },
+    {
+      "id": "s0007",
+      "text": "Yet over time, people began directing questions toward the same person.",
+      "startMs": 25786.0,
+      "endMs": 30349.0,
+      "charStart": 386,
+      "charEnd": 457
+    },
+    {
+      "id": "s0008",
+      "text": "When a tree blocked part of the road after a storm, they called her.",
+      "startMs": 30790.0,
+      "endMs": 34818.0,
+      "charStart": 459,
+      "charEnd": 527
+    },
+    {
+      "id": "s0009",
+      "text": "When a city project affected the neighborhood, they asked her what she knew.",
+      "startMs": 35202.0,
+      "endMs": 39091.0,
+      "charStart": 528,
+      "charEnd": 604
+    },
+    {
+      "id": "s0010",
+      "text": "When someone wanted to organize a cleanup day, they checked with her first.",
+      "startMs": 39532.0,
+      "endMs": 43654.0,
+      "charStart": 605,
+      "charEnd": 680
+    },
+    {
+      "id": "s0011",
+      "text": "None of this happened because she demanded authority.",
+      "startMs": 43979.0,
+      "endMs": 47148.0,
+      "charStart": 681,
+      "charEnd": 734
+    },
+    {
+      "id": "s0012",
+      "text": "People simply kept looking in the same direction.",
+      "startMs": 47531.0,
+      "endMs": 50341.0,
+      "charStart": 735,
+      "charEnd": 784
+    },
+    {
+      "id": "s0013",
+      "text": "Years earlier, she had organized the block party.",
+      "startMs": 50585.0,
+      "endMs": 53278.0,
+      "charStart": 786,
+      "charEnd": 835
+    },
+    {
+      "id": "s0014",
+      "text": "She remembered names.",
+      "startMs": 53603.0,
+      "endMs": 55124.0,
+      "charStart": 836,
+      "charEnd": 857
+    },
+    {
+      "id": "s0015",
+      "text": "She followed through on commitments.",
+      "startMs": 55449.0,
+      "endMs": 57249.0,
+      "charStart": 858,
+      "charEnd": 894
+    },
+    {
+      "id": "s0016",
+      "text": "When problems emerged, she responded.",
+      "startMs": 57493.0,
+      "endMs": 60116.0,
+      "charStart": 895,
+      "charEnd": 932
+    },
+    {
+      "id": "s0017",
+      "text": "When disagreements surfaced, she listened.",
+      "startMs": 60360.0,
+      "endMs": 63054.0,
+      "charStart": 933,
+      "charEnd": 975
+    },
+    {
+      "id": "s0018",
+      "text": "Trust accumulated.",
+      "startMs": 63379.0,
+      "endMs": 65097.0,
+      "charStart": 976,
+      "charEnd": 994
+    },
+    {
+      "id": "s0019",
+      "text": "Attention followed.",
+      "startMs": 65376.0,
+      "endMs": 66780.0,
+      "charStart": 995,
+      "charEnd": 1014
+    },
+    {
+      "id": "s0020",
+      "text": "Eventually something changed.",
+      "startMs": 67477.0,
+      "endMs": 69544.0,
+      "charStart": 1015,
+      "charEnd": 1044
+    },
+    {
+      "id": "s0021",
+      "text": "People no longer sought her help only because she was reliable.",
+      "startMs": 69822.0,
+      "endMs": 73688.0,
+      "charStart": 1046,
+      "charEnd": 1109
+    },
+    {
+      "id": "s0022",
+      "text": "They sought her help because they believed she had earned the right to coordinate collective action.",
+      "startMs": 74071.0,
+      "endMs": 79203.0,
+      "charStart": 1110,
+      "charEnd": 1210
+    },
+    {
+      "id": "s0023",
+      "text": "Trust had become legitimacy.",
+      "startMs": 79899.0,
+      "endMs": 82105.0,
+      "charStart": 1212,
+      "charEnd": 1240
+    },
+    {
+      "id": "s0024",
+      "text": "Attention Before Authority",
+      "startMs": 82802.0,
+      "endMs": 84451.0,
+      "charStart": 1242,
+      "charEnd": 1268
+    },
+    {
+      "id": "s0025",
+      "text": "People often imagine leadership as a role—someone receives a title, gains authority, becomes responsible for making decisions.",
+      "startMs": 85147.0,
+      "endMs": 93471.0,
+      "charStart": 1270,
+      "charEnd": 1396
+    },
+    {
+      "id": "s0026",
+      "text": "Many forms of leadership emerge differently.",
+      "startMs": 94075.0,
+      "endMs": 96455.0,
+      "charStart": 1397,
+      "charEnd": 1441
+    },
+    {
+      "id": "s0027",
+      "text": "Before leadership becomes formal, it usually begins as a pattern of attention.",
+      "startMs": 96896.0,
+      "endMs": 101180.0,
+      "charStart": 1442,
+      "charEnd": 1520
+    },
+    {
+      "id": "s0028",
+      "text": "People repeatedly look toward the same person for guidance, information, coordination, or judgment.",
+      "startMs": 101355.0,
+      "endMs": 108054.0,
+      "charStart": 1521,
+      "charEnd": 1620
+    },
+    {
+      "id": "s0029",
+      "text": "The pattern appears wherever groups face uncertainty together.",
+      "startMs": 108332.0,
+      "endMs": 111942.0,
+      "charStart": 1622,
+      "charEnd": 1684
+    },
+    {
+      "id": "s0030",
+      "text": "In a community, people repeatedly seek out individuals whose actions have proven dependable over time.",
+      "startMs": 112267.0,
+      "endMs": 118165.0,
+      "charStart": 1685,
+      "charEnd": 1787
+    },
+    {
+      "id": "s0031",
+      "text": "Trust creates these patterns.",
+      "startMs": 118444.0,
+      "endMs": 120267.0,
+      "charStart": 1788,
+      "charEnd": 1817
+    },
+    {
+      "id": "s0032",
+      "text": "Without trust, attention remains scattered.",
+      "startMs": 120592.0,
+      "endMs": 123320.0,
+      "charStart": 1818,
+      "charEnd": 1861
+    },
+    {
+      "id": "s0033",
+      "text": "People may notice someone, admire someone, or listen briefly.",
+      "startMs": 123494.0,
+      "endMs": 127848.0,
+      "charStart": 1862,
+      "charEnd": 1923
+    },
+    {
+      "id": "s0034",
+      "text": "Trust encourages them to return.",
+      "startMs": 128057.0,
+      "endMs": 130205.0,
+      "charStart": 1924,
+      "charEnd": 1956
+    },
+    {
+      "id": "s0035",
+      "text": "Repeated trust gradually transforms attention into legitimacy.",
+      "startMs": 130716.0,
+      "endMs": 134918.0,
+      "charStart": 1957,
+      "charEnd": 2019
+    },
+    {
+      "id": "s0036",
+      "text": "Max Weber observed that authority depends upon people recognizing its legitimacy rather than merely complying with force.",
+      "startMs": 135360.0,
+      "endMs": 142987.0,
+      "charStart": 2021,
+      "charEnd": 2142
+    },
+    {
+      "id": "s0037",
+      "text": "Long before formal authority appears, trust often creates the conditions that make legitimacy possible.",
+      "startMs": 143429.0,
+      "endMs": 149686.0,
+      "charStart": 2143,
+      "charEnd": 2246
+    },
+    {
+      "id": "s0038",
+      "text": "People follow because they believe the person deserves to be followed.",
+      "startMs": 150012.0,
+      "endMs": 154075.0,
+      "charStart": 2247,
+      "charEnd": 2317
+    },
+    {
+      "id": "s0039",
+      "text": "The Speed Bumps Nobody Agreed On",
+      "startMs": 154772.0,
+      "endMs": 157918.0,
+      "charStart": 2319,
+      "charEnd": 2351
+    },
+    {
+      "id": "s0040",
+      "text": "The test came one autumn when the city proposed speed-calming measures on the street.",
+      "startMs": 157964.0,
+      "endMs": 163723.0,
+      "charStart": 2353,
+      "charEnd": 2438
+    },
+    {
+      "id": "s0041",
+      "text": "Some neighbors wanted them immediately.",
+      "startMs": 163967.0,
+      "endMs": 165940.0,
+      "charStart": 2440,
+      "charEnd": 2479
+    },
+    {
+      "id": "s0042",
+      "text": "Cars had been cutting through too fast for years, they said.",
+      "startMs": 166114.0,
+      "endMs": 169214.0,
+      "charStart": 2480,
+      "charEnd": 2540
+    },
+    {
+      "id": "s0043",
+      "text": "Others worried about noise, traffic diversion, or property values.",
+      "startMs": 169597.0,
+      "endMs": 173916.0,
+      "charStart": 2541,
+      "charEnd": 2607
+    },
+    {
+      "id": "s0044",
+      "text": "A few thought the city was ignoring bigger problems.",
+      "startMs": 174195.0,
+      "endMs": 177028.0,
+      "charStart": 2608,
+      "charEnd": 2660
+    },
+    {
+      "id": "s0045",
+      "text": "Conversations at mailboxes grew sharper.",
+      "startMs": 177237.0,
+      "endMs": 179930.0,
+      "charStart": 2661,
+      "charEnd": 2701
+    },
+    {
+      "id": "s0046",
+      "text": "Group texts multiplied.",
+      "startMs": 180174.0,
+      "endMs": 181881.0,
+      "charStart": 2702,
+      "charEnd": 2725
+    },
+    {
+      "id": "s0047",
+      "text": "Nobody had voted anyone into office, yet everyone seemed to be waiting for someone to make the next move sensible.",
+      "startMs": 182125.0,
+      "endMs": 188406.0,
+      "charStart": 2726,
+      "charEnd": 2840
+    },
+    {
+      "id": "s0048",
+      "text": "They called the woman who had organized the block party.",
+      "startMs": 188789.0,
+      "endMs": 191749.0,
+      "charStart": 2842,
+      "charEnd": 2898
+    },
+    {
+      "id": "s0049",
+      "text": "She did not announce a decision.",
+      "startMs": 192028.0,
+      "endMs": 193816.0,
+      "charStart": 2900,
+      "charEnd": 2932
+    },
+    {
+      "id": "s0050",
+      "text": "She asked the city for the study behind the proposal, posted the meeting date where people would actually see it, and suggested neighbors attend together so questions could be asked in one room instead of ten separate arguments.",
+      "startMs": 194025.0,
+      "endMs": 207226.0,
+      "charStart": 2933,
+      "charEnd": 3161
+    },
+    {
+      "id": "s0051",
+      "text": "When one resident accused another of not caring about children, she redirected the conversation toward what each person had actually observed.",
+      "startMs": 207400.0,
+      "endMs": 215794.0,
+      "charStart": 3162,
+      "charEnd": 3304
+    },
+    {
+      "id": "s0052",
+      "text": "When someone demanded she \"take a side,\" she said her side was that the street needed a process the neighborhood could live with.",
+      "startMs": 216235.0,
+      "endMs": 223642.0,
+      "charStart": 3305,
+      "charEnd": 3434
+    },
+    {
+      "id": "s0053",
+      "text": "People still disagreed.",
+      "startMs": 223886.0,
+      "endMs": 225267.0,
+      "charStart": 3436,
+      "charEnd": 3459
+    },
+    {
+      "id": "s0054",
+      "text": "They disagreed in the meeting, in the driveway, and over coffee afterward.",
+      "startMs": 225476.0,
+      "endMs": 229122.0,
+      "charStart": 3460,
+      "charEnd": 3534
+    },
+    {
+      "id": "s0055",
+      "text": "But they showed up.",
+      "startMs": 229563.0,
+      "endMs": 230863.0,
+      "charStart": 3535,
+      "charEnd": 3554
+    },
+    {
+      "id": "s0056",
+      "text": "They listened long enough to learn what the city was actually proposing.",
+      "startMs": 231246.0,
+      "endMs": 235205.0,
+      "charStart": 3555,
+      "charEnd": 3627
+    },
+    {
+      "id": "s0057",
+      "text": "They signed a joint letter asking for a design review before installation.",
+      "startMs": 235588.0,
+      "endMs": 239826.0,
+      "charStart": 3628,
+      "charEnd": 3702
+    },
+    {
+      "id": "s0058",
+      "text": "The speed bumps eventually went in—not because one person had won an argument, but because trust had converted scattered attention into coordination people were willing to accept.",
+      "startMs": 240639.0,
+      "endMs": 251076.0,
+      "charStart": 3703,
+      "charEnd": 3882
+    },
+    {
+      "id": "s0059",
+      "text": "A few neighbors still disliked them years later.",
+      "startMs": 251459.0,
+      "endMs": 254141.0,
+      "charStart": 3883,
+      "charEnd": 3931
+    },
+    {
+      "id": "s0060",
+      "text": "Coordination had not required agreement.",
+      "startMs": 254466.0,
+      "endMs": 256661.0,
+      "charStart": 3932,
+      "charEnd": 3972
+    },
+    {
+      "id": "s0061",
+      "text": "It had required enough trust to move together while disagreement remained.",
+      "startMs": 256986.0,
+      "endMs": 260979.0,
+      "charStart": 3973,
+      "charEnd": 4047
+    },
+    {
+      "id": "s0062",
+      "text": "That was the shift leadership required.",
+      "startMs": 261258.0,
+      "endMs": 263534.0,
+      "charStart": 4049,
+      "charEnd": 4088
+    },
+    {
+      "id": "s0063",
+      "text": "Not unanimity.",
+      "startMs": 263708.0,
+      "endMs": 265264.0,
+      "charStart": 4089,
+      "charEnd": 4103
+    },
+    {
+      "id": "s0064",
+      "text": "Not certainty.",
+      "startMs": 265473.0,
+      "endMs": 266738.0,
+      "charStart": 4104,
+      "charEnd": 4118
+    },
+    {
+      "id": "s0065",
+      "text": "Enough confidence in one person's judgment to move together while disagreement remained.",
+      "startMs": 267249.0,
+      "endMs": 272438.0,
+      "charStart": 4119,
+      "charEnd": 4207
+    },
+    {
+      "id": "s0066",
+      "text": "Coordination Under Uncertainty",
+      "startMs": 273390.0,
+      "endMs": 276479.0,
+      "charStart": 4209,
+      "charEnd": 4239
+    },
+    {
+      "id": "s0067",
+      "text": "Leadership solves a coordination problem.",
+      "startMs": 277431.0,
+      "endMs": 279846.0,
+      "charStart": 4241,
+      "charEnd": 4282
+    },
+    {
+      "id": "s0068",
+      "text": "Groups frequently face situations where many people need to act together despite incomplete information.",
+      "startMs": 280287.0,
+      "endMs": 286788.0,
+      "charStart": 4283,
+      "charEnd": 4387
+    },
+    {
+      "id": "s0069",
+      "text": "Someone organizes.",
+      "startMs": 287229.0,
+      "endMs": 288588.0,
+      "charStart": 4388,
+      "charEnd": 4406
+    },
+    {
+      "id": "s0070",
+      "text": "Someone interprets.",
+      "startMs": 288831.0,
+      "endMs": 290120.0,
+      "charStart": 4407,
+      "charEnd": 4426
+    },
+    {
+      "id": "s0071",
+      "text": "Someone helps the group move.",
+      "startMs": 290399.0,
+      "endMs": 292059.0,
+      "charStart": 4427,
+      "charEnd": 4456
+    },
+    {
+      "id": "s0072",
+      "text": "Trust makes this possible.",
+      "startMs": 292175.0,
+      "endMs": 293870.0,
+      "charStart": 4458,
+      "charEnd": 4484
+    },
+    {
+      "id": "s0073",
+      "text": "A group rarely follows someone because that person understands everything.",
+      "startMs": 294114.0,
+      "endMs": 298166.0,
+      "charStart": 4485,
+      "charEnd": 4559
+    },
+    {
+      "id": "s0074",
+      "text": "People follow because they believe the person will act in ways that remain connected to the group's interests, values, or wellbeing.",
+      "startMs": 298444.0,
+      "endMs": 305909.0,
+      "charStart": 4560,
+      "charEnd": 4692
+    },
+    {
+      "id": "s0075",
+      "text": "Trust creates enough confidence for people to accept coordination they could not accomplish alone.",
+      "startMs": 306606.0,
+      "endMs": 312364.0,
+      "charStart": 4693,
+      "charEnd": 4791
+    },
+    {
+      "id": "s0076",
+      "text": "This process explains why leadership often emerges before titles do.",
+      "startMs": 312747.0,
+      "endMs": 318227.0,
+      "charStart": 4793,
+      "charEnd": 4861
+    },
+    {
+      "id": "s0077",
+      "text": "The trust comes first.",
+      "startMs": 318831.0,
+      "endMs": 320782.0,
+      "charStart": 4862,
+      "charEnd": 4884
+    },
+    {
+      "id": "s0078",
+      "text": "The legitimacy follows.",
+      "startMs": 321061.0,
+      "endMs": 322988.0,
+      "charStart": 4885,
+      "charEnd": 4908
+    },
+    {
+      "id": "s0079",
+      "text": "Leadership becomes one of the ways trust expresses itself at scale.",
+      "startMs": 323429.0,
+      "endMs": 327876.0,
+      "charStart": 4909,
+      "charEnd": 4976
+    },
+    {
+      "id": "s0080",
+      "text": "When Legitimacy Outlasts Evidence",
+      "startMs": 328479.0,
+      "endMs": 331231.0,
+      "charStart": 4978,
+      "charEnd": 5011
+    },
+    {
+      "id": "s0081",
+      "text": "The same process that creates healthy leadership can also create a familiar tension: people sometimes keep looking to the same person after the reasons for doing so have faded.",
+      "startMs": 332183.0,
+      "endMs": 344025.0,
+      "charStart": 5013,
+      "charEnd": 5189
+    },
+    {
+      "id": "s0082",
+      "text": "Status can outlast responsiveness.",
+      "startMs": 344722.0,
+      "endMs": 347276.0,
+      "charStart": 5190,
+      "charEnd": 5224
+    },
+    {
+      "id": "s0083",
+      "text": "That is a problem worth naming—but it belongs to a later question about what happens when trust stops tracking reality.",
+      "startMs": 347717.0,
+      "endMs": 355264.0,
+      "charStart": 5225,
+      "charEnd": 5344
+    },
+    {
+      "id": "s0084",
+      "text": "Here, the more important point is how legitimacy forms in the first place: through repeated trust, repeated attention, and repeated evidence that coordination remains connected to the people being coordinated.",
+      "startMs": 355960.0,
+      "endMs": 370287.0,
+      "charStart": 5345,
+      "charEnd": 5554
+    },
+    {
+      "id": "s0085",
+      "text": "Keeping Leadership Honest",
+      "startMs": 371402.0,
+      "endMs": 373039.0,
+      "charStart": 5556,
+      "charEnd": 5581
+    },
+    {
+      "id": "s0086",
+      "text": "Recognizing that tension does not eliminate the need for leadership.",
+      "startMs": 374154.0,
+      "endMs": 378217.0,
+      "charStart": 5583,
+      "charEnd": 5651
+    },
+    {
+      "id": "s0087",
+      "text": "Groups still need coordination.",
+      "startMs": 378658.0,
+      "endMs": 380632.0,
+      "charStart": 5652,
+      "charEnd": 5683
+    },
+    {
+      "id": "s0088",
+      "text": "Communities still need organizers.",
+      "startMs": 380911.0,
+      "endMs": 383233.0,
+      "charStart": 5684,
+      "charEnd": 5718
+    },
+    {
+      "id": "s0089",
+      "text": "Families still need people willing to step forward when uncertainty appears.",
+      "startMs": 383511.0,
+      "endMs": 388144.0,
+      "charStart": 5719,
+      "charEnd": 5795
+    },
+    {
+      "id": "s0090",
+      "text": "What remains is a simpler recognition.",
+      "startMs": 388527.0,
+      "endMs": 391301.0,
+      "charStart": 5797,
+      "charEnd": 5835
+    },
+    {
+      "id": "s0091",
+      "text": "Trust does not eliminate the need for leadership.",
+      "startMs": 392114.0,
+      "endMs": 395447.0,
+      "charStart": 5836,
+      "charEnd": 5885
+    },
+    {
+      "id": "s0092",
+      "text": "Trust creates the conditions under which leadership becomes legitimate.",
+      "startMs": 395772.0,
+      "endMs": 400195.0,
+      "charStart": 5886,
+      "charEnd": 5957
+    },
+    {
+      "id": "s0093",
+      "text": "Healthy leadership remains connected to the experiences that generated trust in the first place.",
+      "startMs": 400636.0,
+      "endMs": 406163.0,
+      "charStart": 5958,
+      "charEnd": 6054
+    },
+    {
+      "id": "s0094",
+      "text": "People continue observing.",
+      "startMs": 406488.0,
+      "endMs": 408345.0,
+      "charStart": 6055,
+      "charEnd": 6081
+    },
+    {
+      "id": "s0095",
+      "text": "People continue evaluating.",
+      "startMs": 408624.0,
+      "endMs": 410737.0,
+      "charStart": 6082,
+      "charEnd": 6109
+    },
+    {
+      "id": "s0096",
+      "text": "Leaders continue earning confidence through action.",
+      "startMs": 411062.0,
+      "endMs": 414046.0,
+      "charStart": 6110,
+      "charEnd": 6161
+    },
+    {
+      "id": "s0097",
+      "text": "Legitimacy remains responsive rather than permanent.",
+      "startMs": 414429.0,
+      "endMs": 417680.0,
+      "charStart": 6162,
+      "charEnd": 6214
+    },
+    {
+      "id": "s0098",
+      "text": "The cycle stays alive.",
+      "startMs": 417854.0,
+      "endMs": 419468.0,
+      "charStart": 6216,
+      "charEnd": 6238
+    },
+    {
+      "id": "s0099",
+      "text": "Core Principle",
+      "startMs": 419642.0,
+      "endMs": 420513.0,
+      "charStart": 6240,
+      "charEnd": 6254
+    },
+    {
+      "id": "s0100",
+      "text": "Trust Converts Attention Into Legitimacy.",
+      "startMs": 420559.0,
+      "endMs": 424193.0,
+      "charStart": 6256,
+      "charEnd": 6297
+    },
+    {
+      "id": "s0101",
+      "text": "People repeatedly direct attention toward those they trust.",
+      "startMs": 424634.0,
+      "endMs": 428419.0,
+      "charStart": 6299,
+      "charEnd": 6358
+    },
+    {
+      "id": "s0102",
+      "text": "Over time, that attention becomes legitimacy.",
+      "startMs": 428744.0,
+      "endMs": 431995.0,
+      "charStart": 6359,
+      "charEnd": 6404
+    },
+    {
+      "id": "s0103",
+      "text": "Leadership emerges when trust becomes durable enough that others accept coordination, guidance, and responsibility from the same person again and again.",
+      "startMs": 432378.0,
+      "endMs": 442084.0,
+      "charStart": 6405,
+      "charEnd": 6557
+    },
+    {
+      "id": "s0104",
+      "text": "The Person Everyone Called",
+      "startMs": 442467.0,
+      "endMs": 444197.0,
+      "charStart": 6559,
+      "charEnd": 6585
+    },
+    {
+      "id": "s0105",
+      "text": "A few years after the first block party, a new family moved into the neighborhood.",
+      "startMs": 444580.0,
+      "endMs": 449108.0,
+      "charStart": 6587,
+      "charEnd": 6669
+    },
+    {
+      "id": "s0106",
+      "text": "They did not know anyone.",
+      "startMs": 449236.0,
+      "endMs": 450606.0,
+      "charStart": 6670,
+      "charEnd": 6695
+    },
+    {
+      "id": "s0107",
+      "text": "They did not know who organized events.",
+      "startMs": 450722.0,
+      "endMs": 452719.0,
+      "charStart": 6696,
+      "charEnd": 6735
+    },
+    {
+      "id": "s0108",
+      "text": "They did not know whom to contact when questions arose.",
+      "startMs": 452812.0,
+      "endMs": 456004.0,
+      "charStart": 6736,
+      "charEnd": 6791
+    },
+    {
+      "id": "s0109",
+      "text": "One evening, they asked a neighbor: \"Who should we talk to about that?\"",
+      "startMs": 456388.0,
+      "endMs": 460439.0,
+      "charStart": 6793,
+      "charEnd": 6864
+    },
+    {
+      "id": "s0110",
+      "text": "The answer came immediately.",
+      "startMs": 460648.0,
+      "endMs": 462239.0,
+      "charStart": 6866,
+      "charEnd": 6894
+    },
+    {
+      "id": "s0111",
+      "text": "Everyone already knew.",
+      "startMs": 462355.0,
+      "endMs": 463667.0,
+      "charStart": 6895,
+      "charEnd": 6917
+    },
+    {
+      "id": "s0112",
+      "text": "No vote had taken place.",
+      "startMs": 463818.0,
+      "endMs": 465269.0,
+      "charStart": 6918,
+      "charEnd": 6942
+    },
+    {
+      "id": "s0113",
+      "text": "No announcement had been made.",
+      "startMs": 465385.0,
+      "endMs": 466825.0,
+      "charStart": 6943,
+      "charEnd": 6973
+    },
+    {
+      "id": "s0114",
+      "text": "Trust had quietly accumulated for years.",
+      "startMs": 466941.0,
+      "endMs": 469379.0,
+      "charStart": 6974,
+      "charEnd": 7014
+    },
+    {
+      "id": "s0115",
+      "text": "Attention had followed.",
+      "startMs": 469588.0,
+      "endMs": 471004.0,
+      "charStart": 7015,
+      "charEnd": 7038
+    },
+    {
+      "id": "s0116",
+      "text": "Leadership had emerged long before anyone bothered to name it.",
+      "startMs": 471155.0,
+      "endMs": 474754.0,
+      "charStart": 7039,
+      "charEnd": 7101
+    }
+  ]
+}

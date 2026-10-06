@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-1-the-architecture-of-trust-bridge",
+  "generationHash": "sha256:68399b0e909903200ae59daded7a875dec65e1b53989147427e682aa6849fcda",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part I — The Architecture of Trust",
+      "startMs": 0.0,
+      "endMs": 2844.0,
+      "charStart": 0,
+      "charEnd": 34
+    },
+    {
+      "id": "s0002",
+      "text": "The family next door did not become trusted all at once.",
+      "startMs": 3448.0,
+      "endMs": 6815.0,
+      "charStart": 36,
+      "charEnd": 92
+    },
+    {
+      "id": "s0003",
+      "text": "No single conversation settled the question.",
+      "startMs": 7198.0,
+      "endMs": 9683.0,
+      "charStart": 93,
+      "charEnd": 137
+    },
+    {
+      "id": "s0004",
+      "text": "No moment of certainty arrived that transformed strangers into neighbors.",
+      "startMs": 10066.0,
+      "endMs": 14664.0,
+      "charStart": 138,
+      "charEnd": 211
+    },
+    {
+      "id": "s0005",
+      "text": "Instead, trust emerged gradually through a series of ordinary interactions that seemed almost too small to matter while they were happening.",
+      "startMs": 15047.0,
+      "endMs": 22964.0,
+      "charStart": 212,
+      "charEnd": 352
+    },
+    {
+      "id": "s0006",
+      "text": "This is one reason trust can be difficult to understand.",
+      "startMs": 23661.0,
+      "endMs": 26981.0,
+      "charStart": 354,
+      "charEnd": 410
+    },
+    {
+      "id": "s0007",
+      "text": "We often notice trust after it exists rather than while it is forming.",
+      "startMs": 27678.0,
+      "endMs": 32392.0,
+      "charStart": 411,
+      "charEnd": 481
+    },
+    {
+      "id": "s0008",
+      "text": "By the time someone feels trustworthy, the process that produced that feeling has largely disappeared from view.",
+      "startMs": 32775.0,
+      "endMs": 39474.0,
+      "charStart": 482,
+      "charEnd": 594
+    },
+    {
+      "id": "s0009",
+      "text": "We remember the confidence.",
+      "startMs": 39915.0,
+      "endMs": 41610.0,
+      "charStart": 595,
+      "charEnd": 622
+    },
+    {
+      "id": "s0010",
+      "text": "We forget the accumulation.",
+      "startMs": 41761.0,
+      "endMs": 43630.0,
+      "charStart": 623,
+      "charEnd": 650
+    },
+    {
+      "id": "s0011",
+      "text": "Yet trust is not magic.",
+      "startMs": 43955.0,
+      "endMs": 45859.0,
+      "charStart": 652,
+      "charEnd": 675
+    },
+    {
+      "id": "s0012",
+      "text": "It does not appear without cause.",
+      "startMs": 46103.0,
+      "endMs": 48007.0,
+      "charStart": 676,
+      "charEnd": 709
+    },
+    {
+      "id": "s0013",
+      "text": "It forms through recognizable patterns.",
+      "startMs": 48286.0,
+      "endMs": 50968.0,
+      "charStart": 710,
+      "charEnd": 749
+    },
+    {
+      "id": "s0014",
+      "text": "People begin with beliefs about one another.",
+      "startMs": 51571.0,
+      "endMs": 54021.0,
+      "charStart": 750,
+      "charEnd": 794
+    },
+    {
+      "id": "s0015",
+      "text": "Those beliefs become visible through action.",
+      "startMs": 54265.0,
+      "endMs": 56865.0,
+      "charStart": 795,
+      "charEnd": 839
+    },
+    {
+      "id": "s0016",
+      "text": "Actions produce outcomes.",
+      "startMs": 57307.0,
+      "endMs": 59327.0,
+      "charStart": 840,
+      "charEnd": 865
+    },
+    {
+      "id": "s0017",
+      "text": "Outcomes create evidence.",
+      "startMs": 59605.0,
+      "endMs": 61556.0,
+      "charStart": 866,
+      "charEnd": 891
+    },
+    {
+      "id": "s0018",
+      "text": "Over time, trust emerges from the relationship between what people expect, what people do, and what actually happens.",
+      "startMs": 61997.0,
+      "endMs": 70438.0,
+      "charStart": 892,
+      "charEnd": 1009
+    },
+    {
+      "id": "s0019",
+      "text": "The first part of this book examines that architecture—not trust at its strongest, but trust at its beginning.",
+      "startMs": 71251.0,
+      "endMs": 78565.0,
+      "charStart": 1011,
+      "charEnd": 1121
+    },
+    {
+      "id": "s0020",
+      "text": "Before institutions, before leadership, before large-scale cooperation, there is a simpler question: how does someone become trustworthy in the first place?",
+      "startMs": 79865.0,
+      "endMs": 90581.0,
+      "charStart": 1122,
+      "charEnd": 1278
+    },
+    {
+      "id": "s0021",
+      "text": "The answer begins earlier than most people expect.",
+      "startMs": 91022.0,
+      "endMs": 93855.0,
+      "charStart": 1280,
+      "charEnd": 1330
+    },
+    {
+      "id": "s0022",
+      "text": "Trust does not wait for complete verification.",
+      "startMs": 94099.0,
+      "endMs": 97071.0,
+      "charStart": 1331,
+      "charEnd": 1377
+    },
+    {
+      "id": "s0023",
+      "text": "If it did, much of human life would never begin.",
+      "startMs": 97245.0,
+      "endMs": 100577.0,
+      "charStart": 1378,
+      "charEnd": 1426
+    },
+    {
+      "id": "s0024",
+      "text": "Instead, trust starts forming while uncertainty remains.",
+      "startMs": 101018.0,
+      "endMs": 105140.0,
+      "charStart": 1427,
+      "charEnd": 1483
+    },
+    {
+      "id": "s0025",
+      "text": "Understanding how that happens is the first step toward understanding everything trust eventually makes possible.",
+      "startMs": 105651.0,
+      "endMs": 111874.0,
+      "charStart": 1484,
+      "charEnd": 1597
+    }
+  ]
+}

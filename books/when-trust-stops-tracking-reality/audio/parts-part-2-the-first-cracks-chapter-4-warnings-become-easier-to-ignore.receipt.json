@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-2-the-first-cracks-chapter-4-warnings-become-easier-to-ignore",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-2-the-first-cracks-chapter-4-warnings-become-easier-to-ignore",
+  "sourcePath": "parts/part-2-the-first-cracks/chapter-4-warnings-become-easier-to-ignore.md",
+  "sourceHash": "sha256:aa2a84f984a28187e61920240945aad5f927944970f70a7c1c81474f201fe837",
+  "spokenTextHash": "sha256:11d2aab608c71fd0c03ee9158d8831829b6a63aac5844cb4148c742d06252425",
+  "generationHash": "sha256:36781330e258475be856d4f206bdae8c0c360485dcf0007c514652acec475d89",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 2949,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 737.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 737.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-2-the-first-cracks-chapter-4-warnings-become-easier-to-ignore.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-2-the-first-cracks-chapter-4-warnings-become-easier-to-ignore.mp3",
+  "audioSha256": "sha256:1fbd30ae263f3981ce486867ff113b7b3f27eeef6903fdd6c4071301c910183c",
+  "generatedAt": "2026-10-06T01:42:21Z"
+}

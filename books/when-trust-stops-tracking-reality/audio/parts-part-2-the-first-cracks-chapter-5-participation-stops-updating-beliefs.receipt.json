@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs",
+  "sourcePath": "parts/part-2-the-first-cracks/chapter-5-participation-stops-updating-beliefs.md",
+  "sourceHash": "sha256:008656388bd7f5f39e9b6852a3acce7b955333b182db68c246fe53eb8e04ad58",
+  "spokenTextHash": "sha256:4d8983adadcc9cb69fe41e7670c0901b09185bd9afd99335644288fa30607d73",
+  "generationHash": "sha256:3ca74812484c7e1843b61ab2d1732ed06766a790c928331ad17ecd92bc073d8c",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3316,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 829.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 829.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-2-the-first-cracks-chapter-5-participation-stops-updating-beliefs.mp3",
+  "audioSha256": "sha256:6b8e68355a9a0bebc8a8a476086fcee0151994e47dc1b9c76dad2875e39922de",
+  "generatedAt": "2026-10-06T01:42:28Z"
+}

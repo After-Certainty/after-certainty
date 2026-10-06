@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-when-trust-stops-tracking-reality-parts-part-1-why-trust-exists-chapter-2-success-creates-momentum",
+  "editionSlug": "when-trust-stops-tracking-reality",
+  "chapterSlug": "parts-part-1-why-trust-exists-chapter-2-success-creates-momentum",
+  "sourcePath": "parts/part-1-why-trust-exists/chapter-2-success-creates-momentum.md",
+  "sourceHash": "sha256:ee4278a0f1969254c33e78466d70df90b6c527e3dc9b692c79fab2c4bd402c4a",
+  "spokenTextHash": "sha256:804e6379b4702068497efe23eb57c3d55d7863e2fa6f22ba1e7ae0db549b32eb",
+  "generationHash": "sha256:b8fd5168cdde9fbc3c9792a1d5f483894d09b5066adfc0558576aaf5a467bcaa",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3352,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 838.0,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 838.0,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/when-trust-stops-tracking-reality/audio/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum.alignment.json"
+  },
+  "audioPath": "books/when-trust-stops-tracking-reality/audio/parts-part-1-why-trust-exists-chapter-2-success-creates-momentum.mp3",
+  "audioSha256": "sha256:4a66847feed50fc459fb1774239f6220956f5f451fb785599aab5d48468a03c1",
+  "generatedAt": "2026-10-06T01:42:01Z"
+}

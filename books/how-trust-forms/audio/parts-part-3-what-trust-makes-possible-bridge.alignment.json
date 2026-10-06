@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-3-what-trust-makes-possible-bridge",
+  "generationHash": "sha256:47bf344d508aee5be91199f613804c0689e49e595afe80d2ac0b292c8119e13d",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Part III — What Trust Makes Possible",
+      "startMs": 0.0,
+      "endMs": 3622.0,
+      "charStart": 0,
+      "charEnd": 36
+    },
+    {
+      "id": "s0002",
+      "text": "The neighbors no longer thought of one another as strangers.",
+      "startMs": 4133.0,
+      "endMs": 7012.0,
+      "charStart": 38,
+      "charEnd": 98
+    },
+    {
+      "id": "s0003",
+      "text": "The change had happened gradually—small interactions became familiar patterns, familiar patterns became expectations, expectations became trust.",
+      "startMs": 7523.0,
+      "endMs": 16846.0,
+      "charStart": 99,
+      "charEnd": 243
+    },
+    {
+      "id": "s0004",
+      "text": "Trust made participation easier.",
+      "startMs": 17171.0,
+      "endMs": 19528.0,
+      "charStart": 244,
+      "charEnd": 276
+    },
+    {
+      "id": "s0005",
+      "text": "Participation created new experiences, and those experiences reshaped belief.",
+      "startMs": 19807.0,
+      "endMs": 25158.0,
+      "charStart": 277,
+      "charEnd": 354
+    },
+    {
+      "id": "s0006",
+      "text": "The cycle continued.",
+      "startMs": 25541.0,
+      "endMs": 27004.0,
+      "charStart": 356,
+      "charEnd": 376
+    },
+    {
+      "id": "s0007",
+      "text": "What began with a package moved beneath a porch roof now touched many parts of neighborhood life.",
+      "startMs": 27248.0,
+      "endMs": 32252.0,
+      "charStart": 378,
+      "charEnd": 475
+    },
+    {
+      "id": "s0008",
+      "text": "People shared information, organized events, helped one another during emergencies, and solved problems together.",
+      "startMs": 32426.0,
+      "endMs": 39241.0,
+      "charStart": 476,
+      "charEnd": 589
+    },
+    {
+      "id": "s0009",
+      "text": "None of these activities required complete agreement.",
+      "startMs": 39415.0,
+      "endMs": 42457.0,
+      "charStart": 590,
+      "charEnd": 643
+    },
+    {
+      "id": "s0010",
+      "text": "None required complete certainty.",
+      "startMs": 42701.0,
+      "endMs": 44942.0,
+      "charStart": 644,
+      "charEnd": 677
+    },
+    {
+      "id": "s0011",
+      "text": "They required enough trust for participation to continue.",
+      "startMs": 45116.0,
+      "endMs": 48436.0,
+      "charStart": 678,
+      "charEnd": 735
+    },
+    {
+      "id": "s0012",
+      "text": "This is why trust matters.",
+      "startMs": 48947.0,
+      "endMs": 50851.0,
+      "charStart": 737,
+      "charEnd": 763
+    },
+    {
+      "id": "s0013",
+      "text": "Trust is often discussed as though it were a personal feeling—something that exists between individuals and remains largely private.",
+      "startMs": 51176.0,
+      "endMs": 58734.0,
+      "charStart": 765,
+      "charEnd": 897
+    },
+    {
+      "id": "s0014",
+      "text": "But trust changes more than relationships.",
+      "startMs": 59338.0,
+      "endMs": 62171.0,
+      "charStart": 898,
+      "charEnd": 940
+    },
+    {
+      "id": "s0015",
+      "text": "It changes what groups become capable of doing together.",
+      "startMs": 62612.0,
+      "endMs": 65770.0,
+      "charStart": 941,
+      "charEnd": 997
+    },
+    {
+      "id": "s0016",
+      "text": "Trust allows attention to become leadership.",
+      "startMs": 66467.0,
+      "endMs": 69067.0,
+      "charStart": 998,
+      "charEnd": 1042
+    },
+    {
+      "id": "s0017",
+      "text": "It allows communication to carry meaning farther and with less distortion.",
+      "startMs": 69346.0,
+      "endMs": 73932.0,
+      "charStart": 1043,
+      "charEnd": 1117
+    },
+    {
+      "id": "s0018",
+      "text": "It allows people with different experiences, interests, and priorities to cooperate toward shared goals.",
+      "startMs": 74373.0,
+      "endMs": 81432.0,
+      "charStart": 1118,
+      "charEnd": 1222
+    },
+    {
+      "id": "s0019",
+      "text": "The effects reach far beyond the original relationship.",
+      "startMs": 81583.0,
+      "endMs": 84613.0,
+      "charStart": 1224,
+      "charEnd": 1279
+    },
+    {
+      "id": "s0020",
+      "text": "A family relies on trust to distribute responsibility.",
+      "startMs": 84706.0,
+      "endMs": 88236.0,
+      "charStart": 1280,
+      "charEnd": 1334
+    },
+    {
+      "id": "s0021",
+      "text": "A team relies on trust to coordinate work.",
+      "startMs": 88305.0,
+      "endMs": 91080.0,
+      "charStart": 1335,
+      "charEnd": 1377
+    },
+    {
+      "id": "s0022",
+      "text": "A community relies on trust to solve problems that no individual can solve alone.",
+      "startMs": 91161.0,
+      "endMs": 96270.0,
+      "charStart": 1378,
+      "charEnd": 1459
+    },
+    {
+      "id": "s0023",
+      "text": "Every form of collective life depends upon people becoming willing to rely on one another despite uncertainty.",
+      "startMs": 96549.0,
+      "endMs": 102388.0,
+      "charStart": 1460,
+      "charEnd": 1570
+    },
+    {
+      "id": "s0024",
+      "text": "The chapters in this part follow trust outward into those larger possibilities—how attention becomes leadership, how trust shapes meaning, and why cooperation depends on trust once people begin carrying it together.",
+      "startMs": 102772.0,
+      "endMs": 115124.0,
+      "charStart": 1572,
+      "charEnd": 1787
+    }
+  ]
+}

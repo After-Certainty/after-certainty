@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-front-matter-introduction-how-trust-forms",
+  "generationHash": "sha256:a9703c2d89576ec467fe3188e5478be91eadd44c8d9ec66976fe55b09889d68d",
+  "granularity": "segment-only",
+  "segments": [
+    {
+      "id": "s0001",
+      "text": "Introduction",
+      "startMs": 0.0,
+      "endMs": 778.0,
+      "charStart": 0,
+      "charEnd": 12
+    },
+    {
+      "id": "s0002",
+      "text": "The New Neighbor",
+      "startMs": 987.0,
+      "endMs": 1835.0,
+      "charStart": 14,
+      "charEnd": 30
+    },
+    {
+      "id": "s0003",
+      "text": "A moving truck pulled into the driveway on a Saturday morning.",
+      "startMs": 2218.0,
+      "endMs": 5376.0,
+      "charStart": 32,
+      "charEnd": 94
+    },
+    {
+      "id": "s0004",
+      "text": "By afternoon, the family had filled the garage with boxes.",
+      "startMs": 5655.0,
+      "endMs": 8859.0,
+      "charStart": 95,
+      "charEnd": 153
+    },
+    {
+      "id": "s0005",
+      "text": "Children carried armfuls of blankets through the front door while two adults struggled to maneuver a couch through a narrow hallway.",
+      "startMs": 9033.0,
+      "endMs": 15628.0,
+      "charStart": 154,
+      "charEnd": 286
+    },
+    {
+      "id": "s0006",
+      "text": "Neighbors glanced over from their yards, slowed their cars as they passed, and quietly took note of the newcomers.",
+      "startMs": 15802.0,
+      "endMs": 21966.0,
+      "charStart": 287,
+      "charEnd": 401
+    },
+    {
+      "id": "s0007",
+      "text": "For the first few days, everyone watched from a distance.",
+      "startMs": 22349.0,
+      "endMs": 25496.0,
+      "charStart": 403,
+      "charEnd": 460
+    },
+    {
+      "id": "s0008",
+      "text": "People exchanged waves from their driveways and introduced themselves in passing, only to forget names a few minutes later.",
+      "startMs": 25670.0,
+      "endMs": 32636.0,
+      "charStart": 461,
+      "charEnd": 584
+    },
+    {
+      "id": "s0009",
+      "text": "Unfamiliar cars came and went at odd hours.",
+      "startMs": 33019.0,
+      "endMs": 35980.0,
+      "charStart": 585,
+      "charEnd": 628
+    },
+    {
+      "id": "s0010",
+      "text": "Packages appeared on the porch.",
+      "startMs": 36223.0,
+      "endMs": 37907.0,
+      "charStart": 629,
+      "charEnd": 660
+    },
+    {
+      "id": "s0011",
+      "text": "Lights glowed in rooms that the previous owners had rarely used.",
+      "startMs": 38151.0,
+      "endMs": 41645.0,
+      "charStart": 661,
+      "charEnd": 725
+    },
+    {
+      "id": "s0012",
+      "text": "The neighborhood knew almost nothing about the family.",
+      "startMs": 41923.0,
+      "endMs": 44721.0,
+      "charStart": 727,
+      "charEnd": 781
+    },
+    {
+      "id": "s0013",
+      "text": "Were they friendly?",
+      "startMs": 44872.0,
+      "endMs": 45824.0,
+      "charStart": 782,
+      "charEnd": 801
+    },
+    {
+      "id": "s0014",
+      "text": "Would they become part of the community or keep to themselves?",
+      "startMs": 46033.0,
+      "endMs": 49354.0,
+      "charStart": 802,
+      "charEnd": 864
+    },
+    {
+      "id": "s0015",
+      "text": "Could anyone count on them?",
+      "startMs": 49598.0,
+      "endMs": 51095.0,
+      "charStart": 865,
+      "charEnd": 892
+    },
+    {
+      "id": "s0016",
+      "text": "Would they become friends, sources of conflict, or simply strangers living a few houses away?",
+      "startMs": 51536.0,
+      "endMs": 57411.0,
+      "charStart": 893,
+      "charEnd": 986
+    },
+    {
+      "id": "s0017",
+      "text": "No one could answer those questions, yet relationships began to form anyway.",
+      "startMs": 58108.0,
+      "endMs": 62694.0,
+      "charStart": 987,
+      "charEnd": 1063
+    },
+    {
+      "id": "s0018",
+      "text": "Someone waved from across the street.",
+      "startMs": 63390.0,
+      "endMs": 65515.0,
+      "charStart": 1065,
+      "charEnd": 1102
+    },
+    {
+      "id": "s0019",
+      "text": "A neighbor stopped to chat while taking out the trash.",
+      "startMs": 65840.0,
+      "endMs": 68626.0,
+      "charStart": 1103,
+      "charEnd": 1157
+    },
+    {
+      "id": "s0020",
+      "text": "Another person moved a package under cover before a storm rolled through.",
+      "startMs": 68951.0,
+      "endMs": 72748.0,
+      "charStart": 1158,
+      "charEnd": 1231
+    },
+    {
+      "id": "s0021",
+      "text": "Someone lent a tool, and the family returned it a few days later.",
+      "startMs": 73259.0,
+      "endMs": 76893.0,
+      "charStart": 1232,
+      "charEnd": 1297
+    },
+    {
+      "id": "s0022",
+      "text": "Most of the street began participating in these small ways.",
+      "startMs": 77334.0,
+      "endMs": 80817.0,
+      "charStart": 1298,
+      "charEnd": 1357
+    },
+    {
+      "id": "s0023",
+      "text": "One house down the block stayed quieter—waves from the driveway, polite exchanges, rarely more.",
+      "startMs": 81421.0,
+      "endMs": 87655.0,
+      "charStart": 1358,
+      "charEnd": 1453
+    },
+    {
+      "id": "s0024",
+      "text": "Not unfriendly.",
+      "startMs": 87899.0,
+      "endMs": 88967.0,
+      "charStart": 1454,
+      "charEnd": 1469
+    },
+    {
+      "id": "s0025",
+      "text": "Not hostile.",
+      "startMs": 89141.0,
+      "endMs": 90082.0,
+      "charStart": 1470,
+      "charEnd": 1482
+    },
+    {
+      "id": "s0026",
+      "text": "Just present at the edges rather than at the center.",
+      "startMs": 90256.0,
+      "endMs": 93263.0,
+      "charStart": 1483,
+      "charEnd": 1535
+    },
+    {
+      "id": "s0027",
+      "text": "The neighborhood was learning to cooperate without requiring everyone to engage at the same depth.",
+      "startMs": 93588.0,
+      "endMs": 99405.0,
+      "charStart": 1536,
+      "charEnd": 1634
+    },
+    {
+      "id": "s0028",
+      "text": "None of these interactions resolved the larger uncertainty.",
+      "startMs": 99730.0,
+      "endMs": 103480.0,
+      "charStart": 1636,
+      "charEnd": 1695
+    },
+    {
+      "id": "s0029",
+      "text": "The neighborhood still knew very little about the people who had moved in.",
+      "startMs": 103724.0,
+      "endMs": 107253.0,
+      "charStart": 1696,
+      "charEnd": 1770
+    },
+    {
+      "id": "s0030",
+      "text": "But those small moments created something that did not exist before.",
+      "startMs": 107578.0,
+      "endMs": 111642.0,
+      "charStart": 1771,
+      "charEnd": 1839
+    },
+    {
+      "id": "s0031",
+      "text": "Months later, the family no longer felt entirely unknown—not because everyone had gathered enough information, not because every question had found an answer.",
+      "startMs": 112245.0,
+      "endMs": 121789.0,
+      "charStart": 1841,
+      "charEnd": 1999
+    },
+    {
+      "id": "s0032",
+      "text": "The uncertainty never disappeared completely.",
+      "startMs": 122300.0,
+      "endMs": 124889.0,
+      "charStart": 2000,
+      "charEnd": 2045
+    },
+    {
+      "id": "s0033",
+      "text": "Instead, something else emerged alongside it.",
+      "startMs": 125400.0,
+      "endMs": 128418.0,
+      "charStart": 2046,
+      "charEnd": 2091
+    },
+    {
+      "id": "s0034",
+      "text": "Trust.",
+      "startMs": 129231.0,
+      "endMs": 130020.0,
+      "charStart": 2093,
+      "charEnd": 2099
+    },
+    {
+      "id": "s0035",
+      "text": "Most people think trust follows knowledge.",
+      "startMs": 130972.0,
+      "endMs": 133724.0,
+      "charStart": 2101,
+      "charEnd": 2143
+    },
+    {
+      "id": "s0036",
+      "text": "We gather information, observe behavior, and accumulate evidence until we feel confident enough to decide that another person deserves our trust.",
+      "startMs": 134165.0,
+      "endMs": 143476.0,
+      "charStart": 2144,
+      "charEnd": 2289
+    },
+    {
+      "id": "s0037",
+      "text": "Much of life does not work that way.",
+      "startMs": 144172.0,
+      "endMs": 146460.0,
+      "charStart": 2290,
+      "charEnd": 2326
+    },
+    {
+      "id": "s0038",
+      "text": "People cooperate long before they achieve certainty.",
+      "startMs": 146785.0,
+      "endMs": 149896.0,
+      "charStart": 2328,
+      "charEnd": 2380
+    },
+    {
+      "id": "s0039",
+      "text": "They join teams before they know everyone involved.",
+      "startMs": 150070.0,
+      "endMs": 153158.0,
+      "charStart": 2381,
+      "charEnd": 2432
+    },
+    {
+      "id": "s0040",
+      "text": "They hire employees before they know exactly how those employees will perform.",
+      "startMs": 153333.0,
+      "endMs": 157953.0,
+      "charStart": 2433,
+      "charEnd": 2511
+    },
+    {
+      "id": "s0041",
+      "text": "They marry without knowing what twenty years together will reveal.",
+      "startMs": 158162.0,
+      "endMs": 161796.0,
+      "charStart": 2512,
+      "charEnd": 2578
+    },
+    {
+      "id": "s0042",
+      "text": "They vote without knowing what leaders will actually do once they take office.",
+      "startMs": 161947.0,
+      "endMs": 166231.0,
+      "charStart": 2579,
+      "charEnd": 2657
+    },
+    {
+      "id": "s0043",
+      "text": "Again and again, people choose to participate before they can fully verify what will happen next.",
+      "startMs": 166614.0,
+      "endMs": 172512.0,
+      "charStart": 2658,
+      "charEnd": 2755
+    },
+    {
+      "id": "s0044",
+      "text": "That creates a puzzle.",
+      "startMs": 172791.0,
+      "endMs": 174126.0,
+      "charStart": 2757,
+      "charEnd": 2779
+    },
+    {
+      "id": "s0045",
+      "text": "If uncertainty remains, why do people participate at all?",
+      "startMs": 174451.0,
+      "endMs": 178340.0,
+      "charStart": 2780,
+      "charEnd": 2837
+    },
+    {
+      "id": "s0046",
+      "text": "How do strangers become neighbors, neighbors become partners, and groups of individuals become families, teams, communities, and institutions capable of acting together?",
+      "startMs": 178944.0,
+      "endMs": 189556.0,
+      "charStart": 2838,
+      "charEnd": 3007
+    },
+    {
+      "id": "s0047",
+      "text": "This book explores that question.",
+      "startMs": 190159.0,
+      "endMs": 191959.0,
+      "charStart": 3008,
+      "charEnd": 3041
+    },
+    {
+      "id": "s0048",
+      "text": "Trust does not eliminate uncertainty.",
+      "startMs": 192284.0,
+      "endMs": 194803.0,
+      "charStart": 3043,
+      "charEnd": 3080
+    },
+    {
+      "id": "s0049",
+      "text": "Instead, trust makes participation possible while uncertainty remains.",
+      "startMs": 195128.0,
+      "endMs": 200341.0,
+      "charStart": 3081,
+      "charEnd": 3151
+    }
+  ]
+}

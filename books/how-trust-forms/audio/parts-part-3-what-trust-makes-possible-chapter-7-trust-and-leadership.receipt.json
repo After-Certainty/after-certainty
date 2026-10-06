@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-parts-part-3-what-trust-makes-possible-chapter-7-trust-and-leadership",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "parts-part-3-what-trust-makes-possible-chapter-7-trust-and-leadership",
+  "sourcePath": "parts/part-3-what-trust-makes-possible/chapter-7-trust-and-leadership.md",
+  "sourceHash": "sha256:8f518041e00c639c79875f35093edcff9ac674b73c6b4d1558ee40a318e669ac",
+  "spokenTextHash": "sha256:0cfc6d03738edd6ff3d3f0c170910ae07754007581d879c41caff38794609427",
+  "generationHash": "sha256:62e2b7ba3bf93b09a6b7fee859aa7ade5f820ccdc5079755d33dc74964377a4f",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 7101,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 1775.25,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 1775.25,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/parts-part-3-what-trust-makes-possible-chapter-7-trust-and-leadership.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/parts-part-3-what-trust-makes-possible-chapter-7-trust-and-leadership.mp3",
+  "audioSha256": "sha256:cc1f7e2039ed85d58f0f473286b2f6ca6b3a9b50012f2b65c01330a38131d710",
+  "generatedAt": "2026-10-06T01:40:54Z"
+}

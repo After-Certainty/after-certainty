@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "unitId": "chapter-how-trust-forms-front-matter-introduction-how-trust-forms",
+  "editionSlug": "how-trust-forms",
+  "chapterSlug": "front-matter-introduction-how-trust-forms",
+  "sourcePath": "front-matter/introduction-how-trust-forms.md",
+  "sourceHash": "sha256:2f4ef367afac67d47ea3d3dc4ef5da788ee4abc46bd6b4b127765dc310d5a38c",
+  "spokenTextHash": "sha256:b1dca38aa4d3b22b398ee7d5fc60d29cd5d2457c065ab9a4ff9de915097f32a4",
+  "generationHash": "sha256:a9703c2d89576ec467fe3188e5478be91eadd44c8d9ec66976fe55b09889d68d",
+  "pipelineVersion": 1,
+  "extractorVersion": 1,
+  "provider": "elevenlabs",
+  "providerAdapterVersion": "1",
+  "model": "eleven_flash_v2_5",
+  "voice": {
+    "alias": "reflective-narrator",
+    "providerVoiceId": "sb2VZCPgS2OECd1UfmTX"
+  },
+  "outputFormat": "mp3_44100_128",
+  "language": "en",
+  "includeTitle": true,
+  "includeFootnotes": false,
+  "spokenCharacters": 3151,
+  "estimatedUsage": {
+    "unit": "credits",
+    "amount": 787.75,
+    "usd": null
+  },
+  "actualUsage": {
+    "unit": "credits",
+    "amount": 787.75,
+    "usd": null
+  },
+  "providerGenerationId": null,
+  "alignment": {
+    "granularity": "segment-only",
+    "path": "books/how-trust-forms/audio/front-matter-introduction-how-trust-forms.alignment.json"
+  },
+  "audioPath": "books/how-trust-forms/audio/front-matter-introduction-how-trust-forms.mp3",
+  "audioSha256": "sha256:25e19a68ec1c405992a89bc6924c85bf1267c58568e207fde72fe71b20503c00",
+  "generatedAt": "2026-10-06T01:39:08Z"
+}
