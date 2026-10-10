@@ -1,12 +1,14 @@
 # PADE + Cloud Agent (After Certainty)
 
-After Certainty Cloud Agents use [PADE](https://github.com/After-Certainty/pade) **v0.3.0** with a **private broker** for scoped capabilities. The agent VM carries **no** Google Analytics service-account JSON, GitHub App keys, Vercel tokens, or `KSM_CONFIG`.
+After Certainty Cloud Agents use [PADE](https://github.com/After-Certainty/pade) **v0.4.0** with a **private broker** for scoped capabilities. The agent VM carries **no** Google Analytics service-account JSON, GitHub App keys, Vercel tokens, or `KSM_CONFIG`.
+
+PADE v0.4.0 preserves optional credential expiration from a v0.4.0 broker and rejects known-expired material before injection. Upgrade the broker separately for end-to-end expiration metadata; older brokers remain compatible but omit it. Credentials are not renewed automatically, and a running child may outlive them.
 
 ## What lives in this repo
 
 | File | Purpose |
 |------|---------|
-| [`.cursor/environment.json`](../.cursor/environment.json) | Installs released `pade` v0.3.0 and pinned Vercel CLI on Cloud Agent bootstrap |
+| [`.cursor/environment.json`](../.cursor/environment.json) | Installs released `pade` v0.4.0 and pinned Vercel CLI on Cloud Agent bootstrap |
 | [`.cursor/install-pade.sh`](../.cursor/install-pade.sh) | Downloads released `pade` into `.tools/pade` and puts it on `PATH` |
 | [`.cursor/install-vercel.sh`](../.cursor/install-vercel.sh) | Installs the locked Vercel CLI from [`tools/vercel-cli`](../tools/vercel-cli/) (`npm ci --prefix`; binary only; no token) |
 | [`pade.yaml`](../pade.yaml) | Portable DevelopmentSession (secret-free Intent) |
@@ -73,7 +75,7 @@ make pade-smoke
 
 Expect:
 
-- `pade --version` → `v0.3.0`
+- `pade --version` → `v0.4.0`
 - `vercel --version` → matches [`tools/vercel-cli/package.json`](../tools/vercel-cli/package.json)
 - `pade capabilities` → `github.repo.read`, `google-analytics.read`, and `vercel.diagnostics` all `provider: broker`, configured
 - Property meta + minimal GA report succeed
