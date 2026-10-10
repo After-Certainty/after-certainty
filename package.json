@@ -46,9 +46,9 @@
   "devDependencies": {
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
-    "jsdom": "30.1.1",
-    "turbo": "2.11.4",
-    "vitest": "5.0.2"
+    "jsdom": "30.1.2",
+    "turbo": "2.11.7",
+    "vitest": "5.0.3"
   },
   "dependencies": {
     "next": "16.3.8",
@@ -65,7 +65,7 @@
     "nanoid": ">=3.3.17",
     "sharp": "^0.35.4",
     "js-yaml": "^4.3.2",
-    "vitest": "5.0.2",
+    "vitest": "5.0.3",
     "@vitest/mocker": "4.1.11",
     "brace-expansion": "5.0.12",
     "source-map-js": ">=1.2.2"
