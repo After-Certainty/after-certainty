@@ -1,0 +1,61 @@
+slug: working-theory
+title: Working Theory
+shortDescription: 'Instrumental-forward alt hip-hop: a relaxed MC treats beliefs as tools with expiry dates—working theory, good enough for now, update when it breaks.'
+longDescription: Chopped guitar hooks and dry breakbeats carry a comic refusal of laminated final answers. The verses catalog motives and boxes until one fact won't normalize, then change the theory instead of the facts. The Discipline of Uncertainty and Curiosity Before Certainty fit holding models lightly; After Certainty hears provisional commitment that still means what it believes. Patterns revisability-preserves-judgment and reality-answers-back match testing edges and letting tomorrow revise Tuesday's draft. Intellectual hygiene, not indecision.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/working-theory.md
+lyricLanguages:
+- en
+relatedConcepts:
+- revisability
+- provisional-commitment
+- certainty
+- uncertainty
+- judgment
+relatedPatterns:
+- revisability-preserves-judgment
+- finality-compensates-for-uncertainty
+- reality-answers-back
+relatedBooks:
+- the-discipline-of-uncertainty
+- curiosity-before-certainty
+- after-certainty
+recordings:
+- platform: suno
+  externalId: 242f55a3-53c2-4271-8ede-47b04d57a4df
+  primary: true
+  recordingTitle: Working Theory
+  createdAt: '2026-09-29T18:33:00.913Z'
+  durationSeconds: 252.0
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: gen
+  isRemix: false
+  styleTags: 'Instrumental-forward alternative hip-hop with huge melodic electric-guitar hooks, chopped guitar loops, crunchy synth bass, analog electronic textures, dry punchy breakbeats, glitches, filter sweeps, and occasional vocoder fragments. Mid-tempo, swaggering, playful, cerebral, and slightly futuristic.
+
+
+    Make the instrumental as important as the rapper: long guitar-led intro, riffs answering vocal lines, frequent gaps, extended instrumental breaks, dramatic dropouts, and a long evolving outro.
+
+
+    Male rapper with relaxed, intelligent, conversational delivery, dry humor, and occasional half-spoken phrasing. Keep vocals relatively dry and embedded in the mix.
+
+
+    Avoid trap hi-hats, boom-bap nostalgia, glossy pop choruses, metal guitar, and dense production. Prioritize memorable repeating guitar melodies, groove, negative space, and dynamic transitions.'
+generation:
+  authoredPrompt: 'Instrumental-forward alternative hip-hop with huge melodic electric-guitar hooks, chopped guitar loops, crunchy synth bass, analog electronic textures, dry punchy breakbeats, glitches, filter sweeps, and occasional vocoder fragments. Mid-tempo, swaggering, playful, cerebral, and slightly futuristic.
+
+
+    Make the instrumental as important as the rapper: long guitar-led intro, riffs answering vocal lines, frequent gaps, extended instrumental breaks, dramatic dropouts, and a long evolving outro.
+
+
+    Male rapper with relaxed, intelligent, conversational delivery, dry humor, and occasional half-spoken phrasing. Keep vocals relatively dry and embedded in the mix.
+
+
+    Avoid trap hi-hats, boom-bap nostalgia, glossy pop choruses, metal guitar, and dense production. Prioritize memorable repeating guitar melodies, groove, negative space, and dynamic transitions.'
+  authoredPromptSource: suno-playlist
+  authoredPromptRetrievedAt: '2026-10-11'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and style prompt ingested from the Suno playlist snapshot without rewriting existing song entries.

@@ -21,8 +21,20 @@ relatedBooks:
 - learning-to-see
 recordings:
 - platform: suno
-  externalId: 98391c62-aa75-48a0-908b-dc66f2e252c7
+  externalId: 9f721364-61a8-4ec5-9622-ad47713e379a
   primary: true
+  recordingTitle: Learning to See
+  createdAt: '2026-09-29T02:35:43.713Z'
+  durationSeconds: 232.8
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: agentic_thinking
+  isRemix: true
+  styleTags: Upbeat alternative hip-hop with a buoyant mid-tempo groove, crisp punchy drums, warm melodic bass, bright piano and clipped guitar accents. Keep the contemplative intimacy, but make the verses nimble and lightly syncopated; open each chorus into an optimistic, wide arrangement with stacked harmonies and a memorable melodic lift. Briefly strip back the bridge, then return with fuller drums and rich harmonies for the final chorus, finishing with a warm, concise outro. Clear forward vocal delivery, polished mix with rounded low end and bright, natural detail.
+  remixInstruction: Give me an upbeat version of the song
+- platform: suno
+  externalId: 98391c62-aa75-48a0-908b-dc66f2e252c7
+  primary: false
   recordingTitle: Learning to See
   createdAt: '2026-09-09T20:51:07.401Z'
   durationSeconds: 231.72
@@ -31,6 +43,8 @@ recordings:
   task: gen
   isRemix: true
   styleTags: Ethereal Celtic new-age with a soft female lead vocal, layered choir-like harmonies, shimmering synth pads, gentle piano, airy strings, subtle harp, low percussion, and occasional Celtic flute or whistle. Slow, spacious, meditative, and luminous, with a mystical but grounded atmosphere. Vocals should feel intimate and floating, with long reverb tails and simple melodic phrases that gradually build into a lush, enveloping chorus. Organic and cinematic, peaceful rather than dramatic, with lots of silence and breathing room.
+  lineageNote: Historical playlist recording superseded by the 2026-10-11 primary clip.
+  supersededBy: 9f721364-61a8-4ec5-9622-ad47713e379a
 - platform: suno
   externalId: f80b23a7-c974-4d5c-be23-62ca1204a626
   primary: false

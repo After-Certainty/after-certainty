@@ -22,8 +22,20 @@ relatedBooks:
 - when-accountability-no-longer-expires
 recordings:
 - platform: suno
-  externalId: c0f2a290-4d53-4dfb-9507-3cf8893558fb
+  externalId: 2d5bad85-2fe1-4d8d-b673-2971f72768a8
   primary: true
+  recordingTitle: Exceptions Are Forever
+  createdAt: '2026-09-29T01:45:10.344Z'
+  durationSeconds: 316.16
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: agentic_thinking
+  isRemix: true
+  styleTags: Emo punk dark with a lady singing screamo, intensified screamo and chaotic post-hardcore, female lead shifting between raw melodic singing and sustained raspy screams, urgent shouted gang vocals on the refrain, blast-beat bursts, pounding hardcore drums, jagged down-tuned guitars, dissonant feedback, abrupt stop-start hits, crushing half-time breakdown, dynamic quiet-to-ferocious arrangement, gritty close vocal against a dense distorted mix
+  remixInstruction: Make a version with even more screamo
+- platform: suno
+  externalId: c0f2a290-4d53-4dfb-9507-3cf8893558fb
+  primary: false
   recordingTitle: Exceptions are Forever
   createdAt: '2026-09-09T05:31:03.299Z'
   durationSeconds: 315.48
@@ -32,6 +44,8 @@ recordings:
   task: gen
   isRemix: true
   styleTags: 'Dark emo/post-hardcore fused with industrial techno and electronic noise. Female lead vocalist: intimate, exhausted and haunted in the verses, cracked melodic singing building into raw screamo and desperate screams on “EXCEPTIONS ARE FOREVER” and “ABSURDITY IS DIVINE.” Jagged distorted guitars, massive bass, live drums layered with pounding electronic kicks, metallic percussion, machine-like rhythms, distorted synths, glitch bursts, feedback, static, chopped vocals and digital interference. Abrupt dropouts, sudden silence, stuttering edits and violent transitions. Verses feel claustrophobic and unstable; choruses explode into dense walls of guitar and electronics. Breakdown becomes almost mechanical and ritualistic. Dark, furious, alienated, emotionally wounded and slightly absurd. Avoid polished pop-punk, clean EDM drops or theatrical vocals.'
+  lineageNote: Historical playlist recording superseded by the 2026-10-11 primary clip.
+  supersededBy: 2d5bad85-2fe1-4d8d-b673-2971f72768a8
 - platform: suno
   externalId: 1396150b-ffbb-421f-8016-c375e8286a4f
   primary: false

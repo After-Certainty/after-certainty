@@ -21,8 +21,22 @@ relatedBooks:
 - the-game-we-think-we-saw
 recordings:
 - platform: suno
-  externalId: 9f2134b9-2f98-4e57-a346-f9ef577b79dd
+  externalId: 0d540318-4ae4-4d8a-a80c-fb45a68937a3
   primary: true
+  recordingTitle: Don’t Let the Score Fool You
+  createdAt: '2026-09-29T04:21:07.043Z'
+  durationSeconds: 243.6
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: gen
+  isRemix: true
+  styleTags: 'Yes — I’d slow it down a touch and explicitly tell Suno to give the words more room.
+
+
+    Bright early-1970s Motown soul-pop with a youthful male lead and energetic group backing vocals. Smooth, steady groove around 104 BPM with melodic electric bass, crisp drums, tambourine, handclaps, funky rhythm guitar, piano, brass accents, and warm strings. Keep the verse melody simple, flowing, and easy to follow, with clear phrasing and space between lines so no words feel rushed. Let important lyric lines land fully before the next phrase begins. The chorus should have a strong, memorable singalong melody with longer held notes on “Don’t let the score fool you” and simple call-and-response backing vocals. Avoid overly busy vocal runs or fast syllable packing. Warm analog production, buoyant and soulful, with a relaxed pocket, catchy hooks, smooth transitions, and a joyful final chorus with stacked harmonies and tasteful ad-libs.'
+- platform: suno
+  externalId: 9f2134b9-2f98-4e57-a346-f9ef577b79dd
+  primary: false
   recordingTitle: Don’t Let the Score Fool You
   createdAt: '2026-09-10T03:25:51.518Z'
   durationSeconds: 284.0
@@ -31,6 +45,8 @@ recordings:
   task: gen
   isRemix: true
   styleTags: Warm early-1970s socially conscious soul, intimate and reflective, with a relaxed pocket, melodic bass, soft electric piano, understated guitar, gentle hand percussion, subtle orchestral strings, and lush layered male backing vocals. Lead vocal is tender, conversational, slightly weary, and emotionally searching rather than showy. The groove should feel elegant and human, gradually building in intensity while staying restrained and soulful. Philosophical lyrics delivered like a personal observation rather than a sermon.
+  lineageNote: Historical playlist recording superseded by the 2026-10-11 primary clip.
+  supersededBy: 0d540318-4ae4-4d8a-a80c-fb45a68937a3
 - platform: suno
   externalId: fdf8353b-6440-4f2d-a2cf-515a8418cb45
   primary: false

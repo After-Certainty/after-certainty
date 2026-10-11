@@ -23,8 +23,20 @@ relatedBooks:
 - when-trust-stops-tracking-reality
 recordings:
 - platform: suno
-  externalId: c7296de2-24da-4488-8e22-884da0ebd87e
+  externalId: f56071fa-0f1c-4f87-bb64-a76e57602beb
   primary: true
+  recordingTitle: Dead Reasons
+  createdAt: '2026-09-29T02:12:03.309Z'
+  durationSeconds: 291.48
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: agentic_thinking
+  isRemix: true
+  styleTags: Chopped-and-screwed hip-hop remix with a slow, lurching half-time groove, deep rounded sub-bass, sparse swung drums, and deliberate vocal chops that stutter and stretch at phrase ends. Keep the attached song’s dark, heavy, worn-down guitar character as a rough distorted texture, with restrained tense verses opening into broader, weighty choruses. Male rough weary baritone, pitched-down and slowed vocal feel, roomy analog grit, imperfect band texture, controlled low-end, spacious mix.
+  remixInstruction: Make it chopped and screwed
+- platform: suno
+  externalId: c7296de2-24da-4488-8e22-884da0ebd87e
+  primary: false
   recordingTitle: Dead Reasons
   createdAt: '2026-09-10T21:51:59.025Z'
   durationSeconds: 275.84
@@ -33,6 +45,8 @@ recordings:
   task: gen
   isRemix: true
   styleTags: '1990s grunge with a dark, heavy, worn-down sound. Slow-to-mid tempo, thick distorted guitars, prominent bass, live-sounding drums, and a tense quiet-loud dynamic. Verses should feel restrained, claustrophobic, and slightly dirty; choruses should explode into huge fuzzy guitars and raw emotional vocals. Male vocalist with a rough, weary baritone that can crack into a strained shout without sounding polished or theatrical. Melodies should be simple, bleak, and memorable. Production should feel analog, imperfect, and physical, with feedback, room noise, and a sense of a band playing together rather than modern studio precision. Mood: alienation, inherited damage, frustration, exhaustion, and buried anger.'
+  lineageNote: Historical playlist recording superseded by the 2026-10-11 primary clip.
+  supersededBy: f56071fa-0f1c-4f87-bb64-a76e57602beb
 - platform: suno
   externalId: eaac5b32-d96a-41cb-b687-3ac9beeee9ce
   primary: false

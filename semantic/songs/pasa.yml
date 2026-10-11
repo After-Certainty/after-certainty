@@ -1,13 +1,7 @@
 slug: pasa
 title: PASA
-shortDescription: 'Nocturnal Latin electronic with Spanish vocals and trumpet: PASA chants laughs, fears,
-  and mother-phrases traveling hand to hand, refusing to return unchanged.'
-longDescription: Nylon guitar and dusty breaks inside club drops make transmission sensual and slightly
-  ominous. Sibling to Moves Through You, with a sharper inheritance ethic—not everything that arrives
-  deserves another life after you. How Meaning Moves and The World We Make Together verify unsigned movement
-  through many fingerprints; circulation and understanding-circulates carry the hook. Agency appears when
-  the bridge asks whether fear, hate, wound, or love get passed. The whispered outro—cuida lo que sigue—names
-  responsibility inside circulation without pretending anyone owns the current.
+shortDescription: 'Nocturnal Latin electronic with Spanish vocals and trumpet: PASA chants laughs, fears, and mother-phrases traveling hand to hand, refusing to return unchanged.'
+longDescription: Nylon guitar and dusty breaks inside club drops make transmission sensual and slightly ominous. Sibling to Moves Through You, with a sharper inheritance ethic—not everything that arrives deserves another life after you. How Meaning Moves and The World We Make Together verify unsigned movement through many fingerprints; circulation and understanding-circulates carry the hook. Agency appears when the bridge asks whether fear, hate, wound, or love get passed. The whispered outro—cuida lo que sigue—names responsibility inside circulation without pretending anyone owns the current.
 creatorNames:
 - Kevin Steffensen
 lyricsPath: corpus/songs/pasa.md
@@ -28,8 +22,20 @@ relatedBooks:
 - living-in-sediment
 recordings:
 - platform: suno
-  externalId: 5d9238cb-8a36-475c-9253-4f3f608d4556
+  externalId: aeb4ea8e-5fb0-4c1f-9f72-e7171ee19a36
   primary: true
+  recordingTitle: PASA
+  createdAt: '2026-09-26T06:24:24.547Z'
+  durationSeconds: 299.2
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: agentic_thinking
+  isRemix: true
+  styleTags: Modern Latin electronic dance fused with dark trip-hop and hip-hop. Sensual, intimate Spanish female lead alternating with restrained rhythmic rap; dusty breakbeats, deep sub-bass, atmospheric synth haze and hand percussion in compact downtempo verses, opening into punchy four-on-the-floor choruses. Keep nylon-string Spanish guitar, expressive trumpet answers and sharp brass stabs clearly audible. Layered female chants drive a hypnotic “PASA” hook. Nocturnal, sophisticated, slightly mysterious and rhythmically addictive; organic Latin instrumentation integrated into a clean, dynamic club mix with a decisive final build and concise radio-edit structure.
+  remixInstruction: Let’s make a radio edit version that’s about three minutes long
+- platform: suno
+  externalId: 5d9238cb-8a36-475c-9253-4f3f608d4556
+  primary: false
   recordingTitle: PASA
   createdAt: '2026-08-30T03:13:44.360Z'
   durationSeconds: 294.08
@@ -37,25 +43,11 @@ recordings:
   modelVersion: v4.5-all
   task: gen
   isRemix: false
-  styleTags: Modern Latin electronic dance track fused with dark trip-hop and hip-hop. Mostly Spanish
-    female vocals with a sensual, intimate delivery, alternating with restrained rhythmic rap verses.
-    Dusty breakbeats, deep sub-bass, atmospheric synth haze, and moody downtempo verses that suddenly
-    open into powerful four-on-the-floor club choruses. Prominent nylon-string Spanish guitar, expressive
-    trumpet phrases and sharp brass stabs, hand percussion, congas, and syncopated Latin rhythms. Layered
-    female chants repeating “PASA” as a hypnotic hook. Organic Latin instrumentation should remain clearly
-    audible inside the electronic production. No glossy reggaeton or generic EDM; keep it nocturnal, sophisticated,
-    slightly mysterious, seductive, cinematic, and rhythmically addictive, with a huge final dance-floor
-    build.
+  styleTags: Modern Latin electronic dance track fused with dark trip-hop and hip-hop. Mostly Spanish female vocals with a sensual, intimate delivery, alternating with restrained rhythmic rap verses. Dusty breakbeats, deep sub-bass, atmospheric synth haze, and moody downtempo verses that suddenly open into powerful four-on-the-floor club choruses. Prominent nylon-string Spanish guitar, expressive trumpet phrases and sharp brass stabs, hand percussion, congas, and syncopated Latin rhythms. Layered female chants repeating “PASA” as a hypnotic hook. Organic Latin instrumentation should remain clearly audible inside the electronic production. No glossy reggaeton or generic EDM; keep it nocturnal, sophisticated, slightly mysterious, seductive, cinematic, and rhythmically addictive, with a huge final dance-floor build.
+  lineageNote: Historical playlist recording superseded by the 2026-10-11 primary clip.
+  supersededBy: aeb4ea8e-5fb0-4c1f-9f72-e7171ee19a36
 generation:
-  authoredPrompt: Modern Latin electronic dance track fused with dark trip-hop and hip-hop. Mostly Spanish
-    female vocals with a sensual, intimate delivery, alternating with restrained rhythmic rap verses.
-    Dusty breakbeats, deep sub-bass, atmospheric synth haze, and moody downtempo verses that suddenly
-    open into powerful four-on-the-floor club choruses. Prominent nylon-string Spanish guitar, expressive
-    trumpet phrases and sharp brass stabs, hand percussion, congas, and syncopated Latin rhythms. Layered
-    female chants repeating “PASA” as a hypnotic hook. Organic Latin instrumentation should remain clearly
-    audible inside the electronic production. No glossy reggaeton or generic EDM; keep it nocturnal, sophisticated,
-    slightly mysterious, seductive, cinematic, and rhythmically addictive, with a huge final dance-floor
-    build.
+  authoredPrompt: Modern Latin electronic dance track fused with dark trip-hop and hip-hop. Mostly Spanish female vocals with a sensual, intimate delivery, alternating with restrained rhythmic rap verses. Dusty breakbeats, deep sub-bass, atmospheric synth haze, and moody downtempo verses that suddenly open into powerful four-on-the-floor club choruses. Prominent nylon-string Spanish guitar, expressive trumpet phrases and sharp brass stabs, hand percussion, congas, and syncopated Latin rhythms. Layered female chants repeating “PASA” as a hypnotic hook. Organic Latin instrumentation should remain clearly audible inside the electronic production. No glossy reggaeton or generic EDM; keep it nocturnal, sophisticated, slightly mysterious, seductive, cinematic, and rhythmically addictive, with a huge final dance-floor build.
   authoredPromptSource: master-doc
   authoredPromptRetrievedAt: '2026-09-04'
 editorialStatus: provisional
