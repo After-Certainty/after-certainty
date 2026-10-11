@@ -12,7 +12,7 @@ REPO = Path(__file__).resolve().parents[1]
 def test_song_yaml_count_and_primary_recording() -> None:
     songs_dir = REPO / "semantic" / "songs"
     paths = sorted(songs_dir.glob("*.yml"))
-    assert len(paths) == 40
+    assert len(paths) == 42
     for path in paths:
         doc = yaml.safe_load(path.read_text(encoding="utf-8"))
         assert doc["slug"] == path.stem
@@ -31,7 +31,7 @@ def test_playlist_resolves_to_songs() -> None:
         (REPO / "semantic" / "playlists" / "after-certainty.yml").read_text(encoding="utf-8")
     )
     assert playlist["slug"] == "after-certainty"
-    assert len(playlist["tracks"]) == 40
+    assert len(playlist["tracks"]) == 42
     song_slugs = {p.stem for p in (REPO / "semantic" / "songs").glob("*.yml")}
     for track in playlist["tracks"]:
         assert track["songSlug"] in song_slugs
@@ -42,10 +42,12 @@ def test_manifest_includes_songs_and_reverse_links(semantic_manifest: dict) -> N
     assert semantic_manifest["schemaVersion"] == "2.6"
     songs = semantic_manifest.get("songs") or []
     playlists = semantic_manifest.get("playlists") or []
-    assert len(songs) == 40
+    assert len(songs) == 42
     assert len(playlists) == 1
     assert playlists[0]["slug"] == "after-certainty"
     by_slug = {s["slug"]: s for s in songs}
+    assert "working-theory" in by_slug
+    assert "sure-about-that" in by_slug
     assert "the-third-thing" in by_slug
     media = by_slug["the-third-thing"].get("relatedMedia") or []
     assert any(m.get("externalId") == "CvgNJ4RoUIc" for m in media)
