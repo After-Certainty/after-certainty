@@ -4,125 +4,131 @@ description: Songs about uncertainty, perspective, trust, meaning, absurdity and
 platform: suno
 externalId: ac533aa1-6688-4901-833a-ec792bb21e87
 shareId: Nt5n9hMopnROAY8P
-snapshotDate: '2026-09-26'
+snapshotDate: '2026-10-11'
 tracks:
 - position: 1
   songSlug: again-differently
   recordingExternalId: b08a8474-94b0-4311-8c57-30ffccd4ed0d
 - position: 2
   songSlug: check-your-angle
-  recordingExternalId: ff3cfac3-c735-400d-956e-f948990445b2
+  recordingExternalId: 8e79ad05-eac8-46e5-ac78-a2f4f2fb3232
 - position: 3
   songSlug: before-the-meaning-lands
   recordingExternalId: ad7341c8-3087-48ea-be1c-fdfa7d9dea90
 - position: 4
   songSlug: a-perfectly-reasonable-disaster
-  recordingExternalId: 8cfa206f-b4be-49f9-a842-06c8eba1723b
+  recordingExternalId: 2a3bd4da-9f9a-477a-a42a-ff579b6b1d05
 - position: 5
   songSlug: wait-what
   recordingExternalId: 99d5a516-89b2-4dde-b12a-ae2e09aab64d
 - position: 6
+  songSlug: working-theory
+  recordingExternalId: 242f55a3-53c2-4271-8ede-47b04d57a4df
+- position: 7
   songSlug: the-truth-got-a-side-door
   recordingExternalId: 3ebfe24b-9c2e-401f-86f2-a8f8afea939e
-- position: 7
-  songSlug: dont-let-the-score-fool-you
-  recordingExternalId: 9f2134b9-2f98-4e57-a346-f9ef577b79dd
 - position: 8
+  songSlug: dont-let-the-score-fool-you
+  recordingExternalId: 0d540318-4ae4-4d8a-a80c-fb45a68937a3
+- position: 9
   songSlug: same-street-different-city
   recordingExternalId: 0b95d776-34d6-47ac-aa8f-b193cad82858
-- position: 9
+- position: 10
   songSlug: leave-a-little-room
   recordingExternalId: b9dfaa4e-3c9d-44af-97b3-ff2191abcc0c
-- position: 10
+- position: 11
   songSlug: what-i-thought-you-meant
   recordingExternalId: dc43b18d-2e95-4db2-bd1c-ccd081b68c65
-- position: 11
+- position: 12
   songSlug: different-evidence
   recordingExternalId: 5e9225e0-0d2a-4cb3-bbf1-7e08f70caa91
-- position: 12
+- position: 13
   songSlug: the-third-thing
   recordingExternalId: 2566a758-9bfe-4d98-89a8-6ec97fc5e435
-- position: 13
-  songSlug: pasa
-  recordingExternalId: 5d9238cb-8a36-475c-9253-4f3f608d4556
 - position: 14
+  songSlug: pasa
+  recordingExternalId: aeb4ea8e-5fb0-4c1f-9f72-e7171ee19a36
+- position: 15
   songSlug: moves-through-you
   recordingExternalId: 5feff4e8-129c-411e-871a-a03bed9c3ba3
-- position: 15
+- position: 16
   songSlug: not-yet
   recordingExternalId: 70b0ed63-cd05-4fe9-8c51-337a1fa1fdac
-- position: 16
+- position: 17
+  songSlug: sure-about-that
+  recordingExternalId: bc6332d1-ec1a-4097-b0a9-7bc0ddcb06dc
+- position: 18
   songSlug: before-you-finish
   recordingExternalId: 82296b2d-efbd-43d7-b245-ba364240608a
-- position: 17
+- position: 19
   songSlug: epistemic-jiujitsu
   recordingExternalId: bc8f36ef-72c7-4caa-b875-64badf488339
-- position: 18
+- position: 20
   songSlug: larret-en-fait-partie
   recordingExternalId: bb08a9ad-71d6-4561-85b7-bbd993a021c8
-- position: 19
-  songSlug: dead-reasons
-  recordingExternalId: c7296de2-24da-4488-8e22-884da0ebd87e
-- position: 20
-  songSlug: exceptions-are-forever
-  recordingExternalId: c0f2a290-4d53-4dfb-9507-3cf8893558fb
 - position: 21
+  songSlug: dead-reasons
+  recordingExternalId: f56071fa-0f1c-4f87-bb64-a76e57602beb
+- position: 22
+  songSlug: exceptions-are-forever
+  recordingExternalId: 2d5bad85-2fe1-4d8d-b673-2971f72768a8
+- position: 23
   songSlug: almost-completely-true
   recordingExternalId: f38f0ee6-0a4d-442c-8467-a69411c258e6
-- position: 22
+- position: 24
   songSlug: le-formulaire-ne-connait-pas-mardi
   recordingExternalId: 57193c69-c1c5-4b00-8cc3-19983e19105c
-- position: 23
+- position: 25
   songSlug: after-nothing-happens
   recordingExternalId: 0e212b2b-a7d4-4d66-9d70-942a7f880a2a
-- position: 24
+- position: 26
   songSlug: the-astronauts-houseplants
   recordingExternalId: bb8f8006-785e-4be5-9c87-cd310e469d6d
-- position: 25
+- position: 27
   songSlug: the-moon-is-probably-fine
   recordingExternalId: 8a4ef33f-49d0-480d-b555-755539ebf4ed
-- position: 26
-  songSlug: the-grain-remains
-  recordingExternalId: 55190be8-76e6-4c6e-a08f-63e77b0976d9
-- position: 27
+- position: 28
+  songSlug: the-blue-cup
+  recordingExternalId: eced1831-99d3-4be1-91d2-dbbacbe67309
+- position: 29
   songSlug: i-believe-you-tonight
   recordingExternalId: 676f7b91-34ab-49c3-9709-6052f779de59
-- position: 28
+- position: 30
   songSlug: nog
   recordingExternalId: 28bfde23-ed40-447d-9d91-560f7a901af2
-- position: 29
+- position: 31
   songSlug: somebody-specifically
   recordingExternalId: f304a46c-8aad-4ced-a296-537c240d3c9c
-- position: 30
-  songSlug: learning-to-see
-  recordingExternalId: 98391c62-aa75-48a0-908b-dc66f2e252c7
-- position: 31
-  songSlug: the-blue-cup
-  recordingExternalId: 7ff1e38f-5a11-4156-903a-5f31398a6a88
 - position: 32
+  songSlug: the-grain-remains
+  recordingExternalId: 55190be8-76e6-4c6e-a08f-63e77b0976d9
+- position: 33
+  songSlug: learning-to-see
+  recordingExternalId: 9f721364-61a8-4ec5-9622-ad47713e379a
+- position: 34
   songSlug: my-shadow-got-there-first
   recordingExternalId: 246f7d9f-e87e-4d12-9f8e-054af5b65e2f
-- position: 33
+- position: 35
   songSlug: just-dont-grab-the-wheel
   recordingExternalId: 6fc35280-2533-4de8-96a4-c665816a8ccb
-- position: 34
+- position: 36
   songSlug: somebody-feels-it
   recordingExternalId: 01351527-410c-4e2a-a043-2179ae041fcb
-- position: 35
+- position: 37
   songSlug: mr-bell-keeps-the-weather
   recordingExternalId: 8c225169-83c8-4a4b-bd94-d4440aff1514
-- position: 36
+- position: 38
   songSlug: miss-maybe-mister-sure
   recordingExternalId: dd1efa5f-d990-4737-b13d-fc71691b705e
-- position: 37
+- position: 39
   songSlug: right-until-further-notice
   recordingExternalId: ad634364-6b00-465c-8287-d14101675ae3
-- position: 38
+- position: 40
   songSlug: obviously-baby
-  recordingExternalId: 0fb0dec5-1a14-4aad-a0a9-d41fc92acc44
-- position: 39
+  recordingExternalId: 632b0446-b58a-4723-af25-9f70ae8ca935
+- position: 41
   songSlug: applause-is-an-alibi
   recordingExternalId: 18f0ea74-640a-4ae5-b07e-ae8f1cb6f70e
-- position: 40
+- position: 42
   songSlug: still-we-go
-  recordingExternalId: 7383b724-e964-4269-b8f2-de3089cf1674
+  recordingExternalId: b0885724-f845-4cba-9cde-9a48ff2b882d

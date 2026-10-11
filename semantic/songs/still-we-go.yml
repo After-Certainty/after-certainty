@@ -1,14 +1,7 @@
 slug: still-we-go
 title: Still We Go
-shortDescription: 'Sunlit Swahili choral anthem: we do not know everything and do not see everything—INATOSHA—and
-  still we go together with open hands and open eyes.'
-longDescription: Call-and-response choir turns epistemic humility into celebration rather than resignation.
-  BADO TUNAENDA and INATOSHA pair movement with sufficiency—After Certainty’s core without despair. The
-  Discipline of Uncertainty verifies saying sijui while still choosing; Curiosity Before Certainty fits
-  tomorrow we will learn again. Patterns commitment-leaves-room and revisability-preserves-judgment match
-  loving and acting without total answers, while understanding-circulates appears when the choir answers
-  partial sight with together we see more. Joy is the method of going on together, not a denial of real
-  limits.
+shortDescription: 'Sunlit Swahili choral anthem: we do not know everything and do not see everything—INATOSHA—and still we go together with open hands and open eyes.'
+longDescription: Call-and-response choir turns epistemic humility into celebration rather than resignation. BADO TUNAENDA and INATOSHA pair movement with sufficiency—After Certainty’s core without despair. The Discipline of Uncertainty verifies saying sijui while still choosing; Curiosity Before Certainty fits tomorrow we will learn again. Patterns commitment-leaves-room and revisability-preserves-judgment match loving and acting without total answers, while understanding-circulates appears when the choir answers partial sight with together we see more. Joy is the method of going on together, not a denial of real limits.
 creatorNames:
 - Kevin Steffensen
 lyricsPath: corpus/songs/still-we-go.md
@@ -29,8 +22,29 @@ relatedBooks:
 - curiosity-before-certainty
 recordings:
 - platform: suno
-  externalId: 7383b724-e964-4269-b8f2-de3089cf1674
+  externalId: b0885724-f845-4cba-9cde-9a48ff2b882d
   primary: true
+  recordingTitle: Still We Go
+  createdAt: '2026-09-29T01:58:55.954Z'
+  durationSeconds: 327.2
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: agentic_thinking
+  isRemix: true
+  styleTags: Organic folktronica and microhouse, African hand percussion woven with a soft shuffled electronic groove; intimate sparse opening with exposed choir, handclaps, shakers, and wooden clicks, then gradually layer rounded bass, warm kick, bell accents, plucked melodic samples, luminous restrained pads, granular and reversed vocal textures, and tiny glitch percussion. Keep the original mixed choir prominent and communal, with rhythmic chopped repetitions of the phrase “BADO TUNAENDA,” echoing fragments, and overlapping call-and-response. Midway drop to choir, claps, and airy field-recording ambience, then rebuild into a joyful, understated final pulse. Human, intricate, playful, warm, hypnotic; organic close-miked percussion against a spacious, detailed electronic mix.
+  remixInstruction: 'Organic folktronica and microhouse remix built around the original African choir. Keep the Swahili vocals prominent but chop selected phrases like “BADO TUNAENDA” into rhythmic loops, echoes, and fragmented vocal textures. Layer warm hand percussion, shakers, bells, wooden clicks, soft kick drums, shuffled electronic beats, deep rounded bass, and tiny glitchy percussion details.
+
+
+    Use luminous synth pads, plucked melodic samples, granular vocal fragments, reversed textures, field-recording ambience, and subtle polyrhythms. Begin sparse and intimate, gradually building into a hypnotic dance groove without becoming aggressive EDM. Let acoustic percussion and electronic rhythm constantly weave around each other.
+
+
+    Midway through, strip back to choir, handclaps, and ambient texture before rebuilding into a joyful final section with overlapping vocal loops, warm bass, sparkling electronics, and a euphoric but understated pulse.
+
+
+    Organic, intricate, playful, warm, human, hypnotic, and quietly ecstatic. Avoid big EDM drops, supersaws, trap drums, glossy pop production, or cinematic orchestral bombast.'
+- platform: suno
+  externalId: 7383b724-e964-4269-b8f2-de3089cf1674
+  primary: false
   recordingTitle: Still We Go
   createdAt: '2026-08-31T01:23:16.873Z'
   durationSeconds: 344.76
@@ -38,25 +52,11 @@ recordings:
   modelVersion: v4.5-all
   task: gen
   isRemix: false
-  styleTags: Bright, joyful African choral anthem with a large mixed choir, powerful call-and-response
-    vocals, layered harmonies, handclaps, stomps, ululation, and energetic traditional percussion. Sung
-    primarily in Swahili, with expressive solo voices answered by the full ensemble. Fast, buoyant rhythm
-    with warm hand drums, shakers, bells, marimba-like melodic percussion, subtle bass, and occasional
-    brass or flute accents. Cinematic and theatrical but organic, communal, playful, and deeply uplifting.
-    Build from a simple solo opening into increasingly huge choir sections, with a lively percussion dance
-    break and an explosive final chorus around “BADO TUNAENDA!” and “INATOSHA!” Keep the melodies simple,
-    memorable, and easy for a crowd to sing. Avoid electronic dance production, pop-rock guitars, or solemn
-    gospel; this should feel sunlit, rhythmic, celebratory, and alive.
+  styleTags: Bright, joyful African choral anthem with a large mixed choir, powerful call-and-response vocals, layered harmonies, handclaps, stomps, ululation, and energetic traditional percussion. Sung primarily in Swahili, with expressive solo voices answered by the full ensemble. Fast, buoyant rhythm with warm hand drums, shakers, bells, marimba-like melodic percussion, subtle bass, and occasional brass or flute accents. Cinematic and theatrical but organic, communal, playful, and deeply uplifting. Build from a simple solo opening into increasingly huge choir sections, with a lively percussion dance break and an explosive final chorus around “BADO TUNAENDA!” and “INATOSHA!” Keep the melodies simple, memorable, and easy for a crowd to sing. Avoid electronic dance production, pop-rock guitars, or solemn gospel; this should feel sunlit, rhythmic, celebratory, and alive.
+  lineageNote: Historical playlist recording superseded by the 2026-10-11 primary clip.
+  supersededBy: b0885724-f845-4cba-9cde-9a48ff2b882d
 generation:
-  authoredPrompt: Bright, joyful African choral anthem with a large mixed choir, powerful call-and-response
-    vocals, layered harmonies, handclaps, stomps, ululation, and energetic traditional percussion. Sung
-    primarily in Swahili, with expressive solo voices answered by the full ensemble. Fast, buoyant rhythm
-    with warm hand drums, shakers, bells, marimba-like melodic percussion, subtle bass, and occasional
-    brass or flute accents. Cinematic and theatrical but organic, communal, playful, and deeply uplifting.
-    Build from a simple solo opening into increasingly huge choir sections, with a lively percussion dance
-    break and an explosive final chorus around “BADO TUNAENDA!” and “INATOSHA!” Keep the melodies simple,
-    memorable, and easy for a crowd to sing. Avoid electronic dance production, pop-rock guitars, or solemn
-    gospel; this should feel sunlit, rhythmic, celebratory, and alive
+  authoredPrompt: Bright, joyful African choral anthem with a large mixed choir, powerful call-and-response vocals, layered harmonies, handclaps, stomps, ululation, and energetic traditional percussion. Sung primarily in Swahili, with expressive solo voices answered by the full ensemble. Fast, buoyant rhythm with warm hand drums, shakers, bells, marimba-like melodic percussion, subtle bass, and occasional brass or flute accents. Cinematic and theatrical but organic, communal, playful, and deeply uplifting. Build from a simple solo opening into increasingly huge choir sections, with a lively percussion dance break and an explosive final chorus around “BADO TUNAENDA!” and “INATOSHA!” Keep the melodies simple, memorable, and easy for a crowd to sing. Avoid electronic dance production, pop-rock guitars, or solemn gospel; this should feel sunlit, rhythmic, celebratory, and alive
   authoredPromptSource: master-doc
   authoredPromptRetrievedAt: '2026-09-04'
 editorialStatus: provisional

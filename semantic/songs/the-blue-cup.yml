@@ -20,8 +20,20 @@ relatedBooks:
 - how-meaning-moves
 recordings:
 - platform: suno
-  externalId: 7ff1e38f-5a11-4156-903a-5f31398a6a88
+  externalId: eced1831-99d3-4be1-91d2-dbbacbe67309
   primary: true
+  recordingTitle: The Blue Cup
+  createdAt: '2026-09-26T06:07:15.468Z'
+  durationSeconds: 298.76
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: agentic_thinking
+  isRemix: true
+  styleTags: raw bedroom demo, sparse acoustic singer-songwriter folk, single acoustic guitar strumming and picking, intimate unpolished close-miked vocals, cassette tape hiss, organic lo-fi room tone, warm natural imperfections, solo performance
+  remixInstruction: Let’s make a raw acoustic version that almost sounds like a demo tape
+- platform: suno
+  externalId: 7ff1e38f-5a11-4156-903a-5f31398a6a88
+  primary: false
   recordingTitle: The Blue Cup
   createdAt: '2026-09-26T05:09:55.114Z'
   durationSeconds: 298.4
@@ -31,6 +43,8 @@ recordings:
   isRemix: true
   styleTags: Piano-led acoustic folk, singer-songwriter, concise radio-edit arrangement, intimate close-miked natural lead vocal, warm upright piano carrying the harmony with gently voiced broken chords and occasional held-note fills, restrained bass and very light brushed percussion, brief piano intro, short instrumental links, prompt movement through verses and choruses, subtle dynamic lift in choruses, gentle resolved ending, organic warm room production. Preserve the original melody, structure, and vocal performance.
   remixInstruction: Let’s make a piano arrangement with the same vocals
+  lineageNote: Historical playlist recording superseded by the 2026-10-11 primary clip.
+  supersededBy: eced1831-99d3-4be1-91d2-dbbacbe67309
 - platform: suno
   externalId: 107af5fb-3062-409b-838b-62f308d1e16d
   primary: false
