@@ -1,0 +1,46 @@
+slug: sure-about-that
+title: Sure About That?
+shortDescription: 'Chopped 2 Tone ska: a raspy lead and gang shouts keep asking the same brake question—are you sure about that?—before any story gets laminated.'
+longDescription: Offbeat guitar, Hammond bubbles, and horn stabs turn certainty-checks into dance cuts. Verses catch finished alibis and meanings assigned from a look; choruses answer with Maybe / NOT YET / NO WAY. The Discipline of Uncertainty and Curiosity Before Certainty fit knowing what you know and what you don't; After Certainty hears enough-to-ask-again as method. Patterns revisability-preserves-judgment, finality-compensates-for-uncertainty, and meaning-forms-early match the urge to seal a simple who-and-why too soon.
+creatorNames:
+- Kevin Steffensen
+lyricsPath: corpus/songs/sure-about-that.md
+lyricLanguages:
+- en
+relatedConcepts:
+- certainty
+- uncertainty
+- humility
+- revisability
+- interpretation
+relatedPatterns:
+- revisability-preserves-judgment
+- finality-compensates-for-uncertainty
+- meaning-forms-early
+relatedBooks:
+- the-discipline-of-uncertainty
+- curiosity-before-certainty
+- after-certainty
+recordings:
+- platform: suno
+  externalId: bc6332d1-ec1a-4097-b0a9-7bc0ddcb06dc
+  primary: true
+  recordingTitle: Sure About That?
+  createdAt: '2026-09-29T17:47:51.703Z'
+  durationSeconds: 177.72
+  modelName: chirp-hawk
+  modelVersion: v6
+  task: agentic_thinking
+  isRemix: true
+  styleTags: 'Late-1970s British 2 Tone ska with crisp offbeat guitar, melodic bass, tight live drums, bright Hammond organ prominent between vocal phrases, and punchy trumpet, trombone, and sax. Moderately paced, bouncy, wiry, and slightly scruffy, with a firm relaxed ska pulse and room for the organ’s bubbling chords. Male lead vocal with a rough British punk-ska character: raspy, gravelly, sneering, raunchy, and conversational, with cracked edges and attitude. Short rhythmic phrasing locked tightly to the groove. Energetic gang vocals answer with “NOT YET!”, “MAYBE!”, “NO WAY!”, and “NO!” Sharp horn stabs, brief instrumental breaks, stop-start dynamics, and full-band dropouts for punchlines. Catchy, cheeky, raw, danceable, live-sounding recording. Make this a deliberately chopped, compact edit: jump-cut between the spoken setup, strongest verse fragments, both big refrain moments, the call-and-response breakdown, and the last chorus; use sharp rhythmic re-entry hits, tight horn punctuation,
+    short stop-start gaps, and no long instrumental ride-out.'
+  remixInstruction: Let’s make a chopped version
+generation:
+  authoredPrompt: 'Late-1970s British 2 Tone ska with crisp offbeat guitar, melodic bass, tight live drums, bright Hammond organ prominent between vocal phrases, and punchy trumpet, trombone, and sax. Moderately paced, bouncy, wiry, and slightly scruffy, with a firm relaxed ska pulse and room for the organ’s bubbling chords. Male lead vocal with a rough British punk-ska character: raspy, gravelly, sneering, raunchy, and conversational, with cracked edges and attitude. Short rhythmic phrasing locked tightly to the groove. Energetic gang vocals answer with “NOT YET!”, “MAYBE!”, “NO WAY!”, and “NO!” Sharp horn stabs, brief instrumental breaks, stop-start dynamics, and full-band dropouts for punchlines. Catchy, cheeky, raw, danceable, live-sounding recording. Make this a deliberately chopped, compact edit: jump-cut between the spoken setup, strongest verse fragments, both big refrain moments, the call-and-response breakdown, and the last chorus; use sharp rhythmic re-entry hits, tight horn punctuation,
+    short stop-start gaps, and no long instrumental ride-out.'
+  authoredPromptSource: suno-playlist
+  authoredPromptRetrievedAt: '2026-10-11'
+editorialStatus: provisional
+grounding:
+  type: original_synthesis
+  note: After Certainty song composition; lyrics and style prompt ingested from the Suno playlist snapshot without rewriting existing song entries.
