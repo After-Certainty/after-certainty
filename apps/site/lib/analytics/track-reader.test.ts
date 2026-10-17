@@ -4,6 +4,11 @@ import { CONSENT_COOKIE_NAME } from "@/lib/consent/constants";
 import { setConsent } from "@/lib/consent/storage";
 import { trackChapterOpen, trackNextChapter } from "@/lib/analytics/track-reader";
 
+const track = vi.fn();
+vi.mock("@vercel/analytics", () => ({
+  track: (...args: unknown[]) => track(...args),
+}));
+
 vi.mock("@next/third-parties/google", () => ({
   sendGAEvent: vi.fn(),
 }));
@@ -14,6 +19,7 @@ describe("track-reader", () => {
   const env = process.env;
 
   beforeEach(() => {
+    track.mockClear();
     vi.mocked(sendGAEvent).mockClear();
     document.cookie = `${CONSENT_COOKIE_NAME}=; Path=/; Max-Age=0`;
   });
@@ -23,15 +29,20 @@ describe("track-reader", () => {
     document.cookie = `${CONSENT_COOKIE_NAME}=; Path=/; Max-Age=0`;
   });
 
-  it("no-ops without analytics consent in production", () => {
+  it("still emits Vercel when consent denied; GA no-ops", () => {
     process.env = { ...env, NODE_ENV: "production", VERCEL_ENV: "production" };
     setConsent("denied");
     trackChapterOpen({ book_id: "book-1", chapter_id: "ch-1" });
     trackNextChapter({ book_id: "book-1", from_chapter_id: "ch-1", to_chapter_id: "ch-2" });
+    expect(track).toHaveBeenCalledWith("chapter_open", { book_id: "book-1", chapter_id: "ch-1" });
+    expect(track).toHaveBeenCalledWith("chapter_advance", {
+      from_chapter_id: "ch-1",
+      to_chapter_id: "ch-2",
+    });
     expect(sendGAEvent).not.toHaveBeenCalled();
   });
 
-  it("sends chapter_open and next_chapter when production and consent granted", () => {
+  it("dual-writes chapter_open and next_chapter / chapter_advance when consent granted", () => {
     process.env = { ...env, NODE_ENV: "production", VERCEL_ENV: "production" };
     setConsent("granted");
 
@@ -40,6 +51,7 @@ describe("track-reader", () => {
       chapter_id: "ch-1",
       edition_id: "edition-1",
     });
+    expect(track).toHaveBeenCalledWith("chapter_open", { book_id: "book-1", chapter_id: "ch-1" });
     expect(sendGAEvent).toHaveBeenCalledWith("event", "chapter_open", {
       book_id: "book-1",
       chapter_id: "ch-1",
@@ -48,6 +60,10 @@ describe("track-reader", () => {
 
     trackNextChapter({
       book_id: "book-1",
+      from_chapter_id: "ch-1",
+      to_chapter_id: "ch-2",
+    });
+    expect(track).toHaveBeenCalledWith("chapter_advance", {
       from_chapter_id: "ch-1",
       to_chapter_id: "ch-2",
     });

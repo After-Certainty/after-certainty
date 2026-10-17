@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-import { trackQuestionPathStart } from "@/lib/analytics/track";
+import { trackReaderEvent } from "@/lib/analytics/reader";
 
 type QuestionPathAnalyticsProps = {
   questionId: string;
@@ -10,7 +10,10 @@ type QuestionPathAnalyticsProps = {
 
 export function QuestionPathAnalytics({ questionId }: QuestionPathAnalyticsProps) {
   useEffect(() => {
-    trackQuestionPathStart({ question_id: questionId });
+    trackReaderEvent({
+      name: "reading_path_started",
+      properties: { path_kind: "question", path_id: questionId },
+    });
   }, [questionId]);
 
   return null;

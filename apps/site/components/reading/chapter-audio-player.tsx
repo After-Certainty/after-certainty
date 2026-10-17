@@ -11,7 +11,7 @@ import {
   setAudioPlaybackRate,
   subscribeAudioPlaybackRate,
 } from "@/lib/reading/audioPlaybackRate";
-import { trackVercelIntent } from "@/lib/analytics/vercel-intent";
+import { trackReaderEvent } from "@/lib/analytics/reader";
 import type { ChapterAudioUnit } from "@/lib/reading/chapter-audio";
 import {
   canHighlightAlignment,
@@ -25,6 +25,10 @@ export type ChapterAudioPlayerProps = {
   audio: ChapterAudioUnit;
   /** SSR-loaded alignment when available; client fetch is the fallback. */
   alignment?: ChapterAudioAlignment | null;
+  /** Semantic book id for reader_audio_started (required for book-level reporting). */
+  bookId: string;
+  /** Semantic chapter id for reader_audio_started. */
+  chapterId: string;
 };
 
 const ACTIVE_CLASS = "is-audio-active";
@@ -69,6 +73,8 @@ function setActiveSegment(
 export function ChapterAudioPlayer({
   audio,
   alignment: alignmentProp = null,
+  bookId,
+  chapterId,
 }: ChapterAudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const startedSource = useRef<string | null>(null);
@@ -251,9 +257,9 @@ export function ChapterAudioPlayer({
           onPlaying={() => {
             if (startedSource.current === audio.audioUrl) return;
             startedSource.current = audio.audioUrl;
-            trackVercelIntent({
-              name: "listen_started",
-              properties: { location: "chapter_reader", media_type: "chapter_audio" },
+            trackReaderEvent({
+              name: "reader_audio_started",
+              properties: { book_id: bookId, chapter_id: chapterId },
             });
           }}
           preload="metadata"

@@ -170,7 +170,12 @@ export function ChapterReaderShell({
       </footer>
 
       {chapterAudio ? (
-        <ChapterAudioPlayer audio={chapterAudio} alignment={chapterAudioAlignment} />
+        <ChapterAudioPlayer
+          audio={chapterAudio}
+          alignment={chapterAudioAlignment}
+          bookId={book.id}
+          chapterId={chapter.id}
+        />
       ) : null}
     </ReadingPreferencesRoot>
   );
