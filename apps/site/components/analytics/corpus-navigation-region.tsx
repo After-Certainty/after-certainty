@@ -3,7 +3,6 @@
 import type { HTMLAttributes } from "react";
 import {
   corpusDestination,
-  corpusTargetIdFromHref,
   shouldAttachCorpusToId,
   trackVercelIntent,
   type CorpusType,
@@ -16,7 +15,11 @@ type Props = HTMLAttributes<HTMLElement> & {
   relation?: CorpusRelation;
 };
 
-/** Replaces an existing container only around curated transitions; children stay server-rendered. */
+/**
+ * Replaces an existing container only around curated transitions; children stay server-rendered.
+ * Attribution `to_id` is taken only from `data-analytics-to-id` (semantic book/chapter ids that
+ * match `chapter_open` / book ids). Path-derived fallbacks are intentionally omitted so aggregates join.
+ */
 export function CorpusNavigationRegion({
   as: Tag = "div",
   fromType,
@@ -39,7 +42,7 @@ export function CorpusNavigationRegion({
         let toId: string | undefined;
         if (shouldAttachCorpusToId(fromType, toType)) {
           const attr = link.getAttribute("data-analytics-to-id")?.trim();
-          toId = attr || corpusTargetIdFromHref(href) || undefined;
+          if (attr) toId = attr;
         }
 
         trackVercelIntent({

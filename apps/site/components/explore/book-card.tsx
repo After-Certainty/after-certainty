@@ -17,7 +17,11 @@ export function BookCard({ book, coverImage: coverImageProp }: BookCardProps) {
 
   return (
     <ExploreCard className="overflow-hidden p-0">
-      <Link href={`${explorePaths.books}/${book.slug}`} className="group block">
+      <Link
+        href={`${explorePaths.books}/${book.slug}`}
+        data-analytics-to-id={book.id}
+        className="group block"
+      >
         <div className="relative aspect-[2/3] w-full overflow-hidden border-b border-border/40 bg-bg-elevated/50">
           {coverSrc ? (
             <Image

@@ -20,6 +20,7 @@ vi.mock("@vercel/analytics", () => ({
 beforeEach(() => {
   trackMock.mockReset();
   sdk.fail = false;
+  delete process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT;
 });
 
 it("attributes only supported curated links and leaves activation uncancelled", () => {
@@ -65,23 +66,36 @@ it("keeps concept→chapter type-only (no to_id) and still omits titles/queries"
   ]);
 });
 
-it("attaches semantic to_id for source→chapter attribution edges", () => {
+it("attaches the same semantic to_id for source→chapter from RelatedChaptersSection and a CTA", () => {
+  const chapterId = "chapter-when-authority-outlives-accountability-parts-part-1-chapter-1";
+  const href = "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-chapter-1";
+
   render(
-    <RelatedChaptersSection
-      fromType="source"
-      chapters={[
-        {
-          id: "chapter-secret",
-          title: "Arbitrary chapter title",
-          href: "/explore/books/a-book/chapters/a-chapter?query=private",
-          position: 1,
-          bookSlug: "a-book",
-          bookTitle: "Arbitrary book title",
-        },
-      ]}
-    />,
+    <>
+      <RelatedChaptersSection
+        fromType="source"
+        chapters={[
+          {
+            id: chapterId,
+            title: "Chapter one",
+            href,
+            position: 1,
+            bookSlug: "when-authority-outlives-accountability",
+            bookTitle: "When Authority Outlives Accountability",
+          },
+        ]}
+      />
+      <CorpusNavigationRegion fromType="source">
+        <Link href={href} data-analytics-to-id={chapterId}>
+          Read the relevant passage
+        </Link>
+      </CorpusNavigationRegion>
+    </>,
   );
-  fireEvent.click(screen.getByRole("link", { name: "Arbitrary chapter title" }), { ctrlKey: true });
+
+  fireEvent.click(screen.getByRole("link", { name: "Chapter one" }), { ctrlKey: true });
+  fireEvent.click(screen.getByRole("link", { name: "Read the relevant passage" }), { ctrlKey: true });
+
   expect(trackMock.mock.calls).toEqual([
     [
       "corpus_navigation",
@@ -89,13 +103,22 @@ it("attaches semantic to_id for source→chapter attribution edges", () => {
         from_type: "source",
         to_type: "chapter",
         relation: "related",
-        to_id: "chapter-secret",
+        to_id: chapterId,
+      },
+    ],
+    [
+      "corpus_navigation",
+      {
+        from_type: "source",
+        to_type: "chapter",
+        relation: "related",
+        to_id: chapterId,
       },
     ],
   ]);
 });
 
-it("falls back to path-derived to_id when data-analytics-to-id is absent", () => {
+it("omits to_id when data-analytics-to-id is absent (type-level only; no path-derived ids)", () => {
   render(
     <CorpusNavigationRegion fromType="thinker">
       <Link href="/explore/books/demo-book/chapters/intro-chapter">Read</Link>
@@ -109,7 +132,6 @@ it("falls back to path-derived to_id when data-analytics-to-id is absent", () =>
         from_type: "thinker",
         to_type: "chapter",
         relation: "related",
-        to_id: "demo-book/intro-chapter",
       },
     ],
   ]);

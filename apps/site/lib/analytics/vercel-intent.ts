@@ -40,9 +40,8 @@ export function corpusDestination(href: string): CorpusType | null {
 }
 
 /**
- * Path-derived stable target id (never a free-form URL). Used when
- * `data-analytics-to-id` is absent on the clicked link.
- * Chapters: `{bookSlug}/{chapterSlug}`; books: `{bookSlug}`.
+ * Path-derived id helper kept for tests/docs only.
+ * Runtime attribution uses semantic `data-analytics-to-id` so `to_id` joins `chapter_open.chapter_id`.
  */
 export function corpusTargetIdFromHref(href: string): string | null {
   if (!href.startsWith("/") || href.startsWith("//")) return null;

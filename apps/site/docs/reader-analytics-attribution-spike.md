@@ -38,15 +38,16 @@ Volume is sparse; conclusions are about **attributability**, not traffic volume.
 
 For **attribution edges only** (`from_type` ∈ {`source`,`thinker`} and `to_type` ∈ {`chapter`,`book`}):
 
-1. Prefer `data-analytics-to-id` on the link (semantic chapter/book id when authored in the DOM).
-2. Else derive a bounded path id: `{bookSlug}/{chapterSlug}` or `{bookSlug}` — inspected locally; never send arbitrary URLs or titles.
-3. Emit optional `to_id` on `corpus_navigation` alongside `from_type`, `to_type`, `relation`.
+1. Require `data-analytics-to-id` on the link with the **same semantic id family** as `chapter_open.chapter_id` / book ids.
+2. Do **not** fall back to path-derived `{bookSlug}/{chapterSlug}` — that id family does not join `chapter_open`.
+3. If the attribute is missing, emit type-level navigation only (no `to_id`).
+4. Emit `to_id` on `corpus_navigation` with `from_type`, `to_type`, `relation` when Plus (8-prop) budget applies.
 
-**Property budget:** 4 properties on these edges. Web Analytics Plus was re-checked on 2026-10-17 (`invoiceItems.analytics` present on Pro). If Plus is later disabled, fall back to `edge` + `to_id` (2 props) in a follow-up — do not silently drop destination identity.
+**Property budget:** Default assumes Plus (≤8). Set `NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT=2` for base Pro; the facade then sends `{edge, to_id}` or `{edge, relation}` so destination identity is not silently truncated.
 
 **Non-attribution edges** (e.g. concept → chapter) remain type-only — no `to_id`.
 
 ## Reporting language
 
-- With `to_id`: may report “source/thinker → specific chapter/book” as **event counts / visitors**, not session journeys.
-- Without `to_id` (legacy rows): **type-level only**.
+- With canonical `to_id`: may report “source/thinker → specific chapter/book” as **event counts / visitors**, not session journeys — after verifying `requestPath` + `eventData/to_id` in production.
+- Without `to_id` (legacy rows or missing attribute): **type-level only**.
