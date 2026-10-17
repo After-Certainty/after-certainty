@@ -2,6 +2,7 @@ import { track } from "@vercel/analytics";
 
 import type { CorpusRelation, CorpusType } from "@/lib/analytics/vercel-intent";
 import { trackEvent } from "@/lib/analytics/track";
+import { vercelAnalyticsCustomPropertyLimit } from "@/lib/site-config";
 
 /**
  * Provider-agnostic reader analytics facade (migration PR 1).
@@ -20,9 +21,28 @@ export type CorpusNavigationProperties = {
   from_type: CorpusType;
   to_type: CorpusType;
   relation: CorpusRelation;
-  /** Stable semantic or path-derived target id — only for attribution edges. */
+  /** Canonical semantic target id (same family as chapter_open / book ids) for attribution edges. */
   to_id?: string;
 };
+
+/** Build Vercel payload respecting the 2- vs 8-property plan budget. */
+export function corpusNavigationVercelProperties(
+  properties: CorpusNavigationProperties,
+): Record<string, string> {
+  const { from_type, to_type, relation, to_id } = properties;
+  const edge = `${from_type}>${to_type}`;
+  if (vercelAnalyticsCustomPropertyLimit() <= 2) {
+    // Prefer destination identity when present; otherwise keep relation.
+    if (to_id) return { edge, to_id };
+    return { edge, relation };
+  }
+  return {
+    from_type,
+    to_type,
+    relation,
+    ...(to_id ? { to_id } : {}),
+  };
+}
 
 export type ChapterOpenProperties = {
   book_id: string;
@@ -87,13 +107,7 @@ function trackVercel(name: string, properties: Record<string, string | number | 
 export function trackReaderEvent(event: ReaderAnalyticsEvent): void {
   switch (event.name) {
     case "corpus_navigation": {
-      const { from_type, to_type, relation, to_id } = event.properties;
-      trackVercel("corpus_navigation", {
-        from_type,
-        to_type,
-        relation,
-        ...(to_id ? { to_id } : {}),
-      });
+      trackVercel("corpus_navigation", corpusNavigationVercelProperties(event.properties));
       // Vercel-only today; no GA corpus_navigation dual-write.
       return;
     }

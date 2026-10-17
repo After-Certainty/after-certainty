@@ -167,8 +167,9 @@ describe("trackReaderEvent", () => {
     expect(sendGAEvent).toHaveBeenCalled();
   });
 
-  it("attaches optional to_id on corpus_navigation without GA dual-write", () => {
+  it("attaches optional to_id on corpus_navigation without GA dual-write (Plus / 8-prop shape)", () => {
     productionEnv();
+    delete process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT;
     setConsent("granted");
     trackReaderEvent({
       name: "corpus_navigation",
@@ -186,5 +187,40 @@ describe("trackReaderEvent", () => {
       to_id: "chapter-secret",
     });
     expect(sendGAEvent).not.toHaveBeenCalled();
+  });
+
+  it("degrades corpus_navigation to edge+to_id when property limit is 2", () => {
+    productionEnv();
+    process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT = "2";
+    trackReaderEvent({
+      name: "corpus_navigation",
+      properties: {
+        from_type: "source",
+        to_type: "chapter",
+        relation: "related",
+        to_id: "chapter-secret",
+      },
+    });
+    expect(track).toHaveBeenCalledWith("corpus_navigation", {
+      edge: "source>chapter",
+      to_id: "chapter-secret",
+    });
+  });
+
+  it("degrades corpus_navigation to edge+relation when limit is 2 and to_id is absent", () => {
+    productionEnv();
+    process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT = "2";
+    trackReaderEvent({
+      name: "corpus_navigation",
+      properties: {
+        from_type: "source",
+        to_type: "thinker",
+        relation: "creator",
+      },
+    });
+    expect(track).toHaveBeenCalledWith("corpus_navigation", {
+      edge: "source>thinker",
+      relation: "creator",
+    });
   });
 });

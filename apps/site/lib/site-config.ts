@@ -144,6 +144,18 @@ export function shouldLoadGoogleAnalytics(): boolean {
   return previewOptIn === "1" || previewOptIn === "true";
 }
 
+/**
+ * Max custom properties per Vercel Web Analytics event.
+ * Base Pro = 2; Web Analytics Plus / Enterprise = 8.
+ * Default 8 (Plus observed on After Certainty). Set `NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT=2`
+ * if Plus is unavailable so corpus_navigation degrades to `{edge,to_id|relation}` instead of silent truncation.
+ */
+export function vercelAnalyticsCustomPropertyLimit(): 2 | 8 {
+  const raw = process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT?.trim();
+  if (raw === "2") return 2;
+  return 8;
+}
+
 /** Open Graph / Twitter card title (~50–60 chars for link preview tools). */
 export const OG_SHARE_TITLE = "After Certainty — Seeing What Our Answers Leave Out";
 
