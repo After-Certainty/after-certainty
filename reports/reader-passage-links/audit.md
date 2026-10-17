@@ -9,24 +9,24 @@ bibliography-only and keyword overlap never count as verified passages.
 ### Sources
 
 - Total sources scanned: **714**
-- With `readerPassagePath`: **3**
-- Structurally valid + fragment-checked paths: **3**
-- Verified link + mechanically tied citation (level A): **3**
-- Mechanical footnote candidates (level B / strong_candidate): **639**
-- Path present but needs editorial review: **0**
+- With `readerPassagePath`: **12**
+- Structurally valid + fragment-checked paths: **12**
+- Verified link + mechanically tied citation (level A): **11**
+- Mechanical footnote candidates (level B / strong_candidate): **630**
+- Path present but needs editorial review: **1**
 - Fragment check skipped (unverified): **0**
 - Invalid passage links: **0**
-- Missing path but footnote-cited: **639**
+- Missing path but footnote-cited: **630**
 - Bibliography only (level D): **54**
-- Tied-citation (level A) coverage: **0.42%**
-- `whyThisMatters` present/substantive: **3**
+- Tied-citation (level A) coverage: **1.54%**
+- `whyThisMatters` present/substantive: **12**
 
 Level A means a public path whose fragment is the matched citation invocation — a *mechanical* condition, not editorial approval of philosophical relevance. All newly proposed connections still need editorial review before YAML enrichment.
 
 Evidence levels:
 
-- A: 3
-- B: 639
+- A: 11
+- B: 631
 - C: 0
 - D: 54
 - E: 18
@@ -34,13 +34,13 @@ Evidence levels:
 ### Thinkers
 
 - Total thinkers scanned: **643**
-- With derivable work passage links: **4**
-- Useful derived path coverage: **0.62%**
+- With derivable work passage links: **12**
+- Useful derived path coverage: **1.87%**
 
 Evidence levels:
 
-- A: 4
-- B: 589
+- A: 12
+- B: 581
 - C: 0
 - D: 50
 - E: 0
@@ -53,8 +53,6 @@ _None._
 
 - **B** `abate-tom-nummi-workers-say-their-final-good-byes` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-close`
 - **B** `addams-jane-twenty-years-at-hull-house` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-become-leaders/chapters/parts-part-3-how-influence-endures-chapter-7-the-house#user-content-fnref-h1`
-- **B** `adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-fremont-close`
-- **B** `agamben-giorgio-state-of-exception` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-look-to-you-v1/chapters/parts-part-4-scale-pressure-misjudgment-chapter-10-tradeoffs-under-pressure#user-content-fnref-c10-crisis-precedent`
 - **B** `albertz-rainer-israel-in-exile-the-history-and-literature-of-the` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/before-certainty-arrives/chapters/parts-part-2-compression-under-scale-chapter-5-shared-conditions-not-shared-revelation#user-content-fnref-c5-babylonian-exile`
 - **B** `alexander-christopher-sara-ishikawa-murray-silverstein-et-al-a-pattern-language` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns`
 - **B** `alexander-christopher-the-timeless-way-of-building` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-2-fossils-that-shape-power-chapter-8-the-building-and-the-gathering#user-content-fnref-c8-alexander-patterns`
@@ -62,21 +60,15 @@ _None._
 - **B** `allspaw-john-and-paul-hammond-10-deploys-per-day-dev-and-ops-cooperation-at-flickr` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-07-devops-restoring-operational-coupling#user-content-fnref-c7-devops-emergence`
 - **B** `ambedkar-b-r-what-congress-and-gandhi-have-done-to-the-untouchables` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-become-leaders/chapters/parts-part-1-how-influence-begins-chapter-2-salt#user-content-fnref-s2-7`
 - **B** `american-college-of-emergency-physicians-boarding` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-incentives-become-the-moral-language/chapters/parts-part-1-the-need-for-translation-chapter-1-the-bed-someone-else-needs#user-content-fnref-c1-boarding`
-- **B** `anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined`
-- **B** `anderson-c-w-rebuilding-the-news-metropolitan-journalism-in-the-digital-age` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-editorial`
 - **B** `andrew-walker-andrew-luck-announces-his-retirement-from-the-nfl` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-3-what-the-result-demands-chapter-6-the-athlete-who-said-no#user-content-fnref-c6-luck`
-- **B** `andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service`
 - **B** `andscape-for-allen-iverson-it-was-never-just-about-practice` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-game-we-think-we-saw/chapters/parts-part-4-what-the-result-becomes-chapter-7-when-a-gesture-becomes-another-message#user-content-fnref-c7-iverson`
-- **B** `arendt-hannah-between-past-and-future` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity`
-- **B** `arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-arendt-eichmann-in-jerusalem`
 - **B** `arendt-hannah-on-revolution` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-moral-seriousness-scales/chapters/parts-part-4-what-remains-possible-chapter-9-rebuilding-density#user-content-fnref-c9-arendt-on-revolution`
-- **B** `arendt-hannah-on-violence` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-arendt-on-violence-distinguishing`
 - **B** `arendt-hannah-responsibility-and-judgment` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/back-matter-epilogue-stay-cohesive-stay-close#user-content-fnref-epi-judgment`
 - **B** `arendt-hannah-the-human-condition` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/how-trust-forms/chapters/parts-part-3-what-trust-makes-possible-bridge#user-content-fnref-p3-arendt`
 - **B** `arendt-hannah-what-is-authority` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-8-legitimacy-over-time#user-content-fnref-c8-arendt`
 - **B** `argyris-chris-and-donald-a-schon-organizational-learning-ii` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-7-effectiveness-and-its-illusions#user-content-fnref-c7-performance-paradox`
 - **B** `argyris-chris-on-organizational-learning` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-accountability-no-longer-expires/chapters/parts-part-3-learning-without-resolution-chapter-6-adaptation-is-not-renewal#user-content-fnref-c6-argyris-reform`
-- **B** `argyris-chris-overcoming-organizational-defenses` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation`
+- **B** `argyris-chris-overcoming-organizational-defenses` — path_valid_shared_or_ambiguous_citation; action `editorial_confirm_passage_relevance`; candidate `/explore/books/when-others-look-to-you-v1/chapters/parts-part-1-how-influence-forms-chapter-1-the-weight-of-being-looked-to#user-content-fnref-c1-correction-and-insulation`
 - **B** `arrington-leonard-j-great-basin-kingdom` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/learning-to-see/chapters/parts-part-1-the-formation-of-a-knower-chapter-1-the-experiment-i-had-never-tried#user-content-fnref-c1-sediment-hypothesis`
 - **B** `arthur-w-brian-competing-technologies-increasing-returns-and-lock-in-by` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-david-qwerty`
 - **B** `arthur-w-brian-increasing-returns-and-path-dependence-in-the-economy` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/parts-part-1-fossils-we-dont-notice-chapter-1-the-gods-in-the-week#user-content-fnref-c1-arthur-lock-in`
@@ -101,17 +93,41 @@ _None._
 - **B** `beard-mary-spqr-a-history-of-ancient-rome` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/living-in-sediment/chapters/back-matter-epilogue-two-months-off#user-content-fnref-epi-future-layers`
 - **B** `bebchuk-lucian-a-and-scott-hirst-index-funds-and-the-future-of-corporate-governance-theory-evide` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-proxy`
 - **B** `beck-kent-mike-beedle-arie-van-bennekum-alistair-cockburn-ward-cunningham-martin-fowler-james-gr` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-bridge#user-content-fnref-p2b-method-history`
-- … and 589 more (see JSON).
+- **B** `beck-ulrich-risk-society-towards-a-new-modernity` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/when-others-look-to-you-v1/chapters/parts-part-3-harm-effectiveness-legitimacy-chapter-6-harm-under-influence#user-content-fnref-c6-risk-distribution`
+- **B** `beer-stafford-brain-of-the-firm` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-1-the-structural-grammar-03-consequence-as-coupling#user-content-fnref-c3-consequence-distance`
+- **B** `bender-emily-m-timnit-gebru-angelina-mcmillan-major-and-shmargaret-shmitchell-on-the-dangers-of` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-12-the-frictionless-illusion#user-content-fnref-c12-cross-domain`
+- **B** `berger-peter-l-and-thomas-luckmann-the-social-construction-of-reality-a-treatise-in-the-sociolog` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/how-serious-systems-learn/chapters/parts-part-4-when-disciplines-fail-chapter-12-when-methods-become-myths#user-content-fnref-c12-source-peter-l-berger`
+- **B** `berle-adolf-a-jr-and-gardiner-c-means-the-modern-corporation-and-private-property` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-17-finance-ownership-without-cohesion#user-content-fnref-c17-opening`
+- **B** `bernanke-ben-s-the-courage-to-act-a-memoir-of-a-crisis-and-its-aftermath` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/the-economy-we-dont-experience/chapters/parts-part-3-leadership-in-a-compressed-world-chapter-6-leadership-in-a-one-sentence-world#user-content-fnref-c6-bernanke`
+- **B** `berwick-donald-m-developing-and-testing-changes-in-delivery-of-care` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-06-agile-increasing-cohesion-of-teams#user-content-fnref-c6-nonengineering-vignette`
+- **B** `berwick-donald-m-era-3-for-medicine-and-health-care` — strong_candidate; action `editorial_review_then_add_path`; candidate `/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-14-guardrails-as-constraint-architecture#user-content-fnref-c14-clinical`
+- … and 581 more (see JSON).
 
 ## Verified link + mechanically tied citation examples (level A)
 
+- `adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc` → `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-research`
+- `agamben-giorgio-state-of-exception` → `/explore/books/when-others-look-to-you-v2/chapters/parts-part-3-eroding-chapter-9-exceptions-are-forever#user-content-fnref-c9-temporary-becomes-permanent`
 - `amershi-saleema-et-al-guidelines-for-human-ai-interaction` → `/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-16-the-new-professional-literacy#user-content-fnref-c16-opening`
+- `anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism` → `/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined`
+- `anderson-c-w-rebuilding-the-news-metropolitan-journalism-in-the-digital-age` → `/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-editorial`
+- `andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service`
+- `arendt-hannah-between-past-and-future` → `/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity`
+- `arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil` → `/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-arendt-eichmann-in-jerusalem`
+- `arendt-hannah-on-violence` → `/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-arendt-on-violence-distinguishing`
 - `goodhart-charles-a-e-problems-of-monetary-management-the-u-k` → `/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-goodhart-monetary-management`
 - `kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree` → `/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-4-who-and-what-we-trust#user-content-fnref-c4-kahneman-klein-intuitive-expertise`
 
 ## Thinkers with derivable passage links
 
+- `benedict-anderson`: `anderson-benedict-imagined-communities-reflections-on-the-origin-and-spread-of-nationalism` → `/explore/books/trust-beyond-similarity/chapters/parts-part-1-the-illusion-of-sufficiency-chapter-2-shared-stories-create-trust#user-content-fnref-c2-anderson-imagined`
+- `c-w-anderson`: `anderson-c-w-rebuilding-the-news-metropolitan-journalism-in-the-digital-age` → `/explore/books/coupling/chapters/parts-part-4-institutions-under-drift-19-media-and-algorithmic-coupling#user-content-fnref-c19-editorial`
 - `charles-a-e-goodhart`: `goodhart-charles-a-e-problems-of-monetary-management-the-u-k` → `/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-goodhart-monetary-management`
 - `daniel-kahneman`: `kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree` → `/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-4-who-and-what-we-trust#user-content-fnref-c4-kahneman-klein-intuitive-expertise`
 - `gary-klein`: `kahneman-daniel-and-gary-klein-conditions-for-intuitive-expertise-a-failure-to-disagree` → `/explore/books/what-we-cannot-see/chapters/parts-part-1-bias-learning-to-see-your-own-mind-chapter-4-who-and-what-we-trust#user-content-fnref-c4-kahneman-klein-intuitive-expertise`
+- `giorgio-agamben`: `agamben-giorgio-state-of-exception` → `/explore/books/when-others-look-to-you-v2/chapters/parts-part-3-eroding-chapter-9-exceptions-are-forever#user-content-fnref-c9-temporary-becomes-permanent`
+- `hannah-arendt`: `arendt-hannah-between-past-and-future` → `/explore/books/when-accountability-no-longer-expires/chapters/front-matter-preface-why-this-book-exists#user-content-fnref-preface-arendt-clarity`, `arendt-hannah-eichmann-in-jerusalem-a-report-on-the-banality-of-evil` → `/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-2-moral-posture-toward-harm#user-content-fnref-c2-arendt-eichmann-in-jerusalem`, `arendt-hannah-on-violence` → `/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-the-three-dimensions-chapter-3-effectiveness#user-content-fnref-c3-arendt-on-violence-distinguishing`
+- `lant-pritchett`: `andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service`
+- `matthew-andrews`: `andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service`
+- `michael-woolcock`: `andrews-matthew-lant-pritchett-and-michael-woolcock-escaping-capability-traps-through-problem-dr` → `/explore/books/coupling/chapters/parts-part-2-software-as-early-laboratory-08-heart-of-agile-returning-to-essentials#user-content-fnref-c8-public-service`
+- `paul-s-adler`: `adler-paul-s-the-learning-bureaucracy-new-united-motor-manufacturing-inc` → `/explore/books/the-world-we-make-together/chapters/parts-part-2-where-power-gathers-chapter-5-the-clipboard#user-content-fnref-c5-nummi-research`
 - `saleema-amershi`: `amershi-saleema-et-al-guidelines-for-human-ai-interaction` → `/explore/books/coupling/chapters/parts-part-3-ai-and-structural-entropy-16-the-new-professional-literacy#user-content-fnref-c16-opening`
