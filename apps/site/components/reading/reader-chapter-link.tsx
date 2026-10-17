@@ -3,7 +3,9 @@
 import type { ComponentPropsWithoutRef, MouseEvent } from "react";
 
 import type { LinkAnalytics } from "@/components/analytics/tracked-link";
+import { AnalyticsEvents } from "@/lib/analytics/events";
 import { trackEvent } from "@/lib/analytics/track";
+import { trackNextChapter } from "@/lib/analytics/track-reader";
 import { navigateToChapter } from "@/lib/reading/navigate-chapter";
 
 type ReaderChapterLinkProps = ComponentPropsWithoutRef<"a"> & {
@@ -42,7 +44,20 @@ export function ReaderChapterLink({
           return;
         }
         if (analytics) {
-          trackEvent(analytics.event, analytics.params);
+          if (
+            analytics.event === AnalyticsEvents.nextChapter &&
+            typeof analytics.params?.book_id === "string" &&
+            typeof analytics.params?.from_chapter_id === "string" &&
+            typeof analytics.params?.to_chapter_id === "string"
+          ) {
+            trackNextChapter({
+              book_id: analytics.params.book_id,
+              from_chapter_id: analytics.params.from_chapter_id,
+              to_chapter_id: analytics.params.to_chapter_id,
+            });
+          } else {
+            trackEvent(analytics.event, analytics.params);
+          }
         }
         onClick?.(event);
         if (event.defaultPrevented) return;

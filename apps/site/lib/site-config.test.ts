@@ -8,6 +8,7 @@ import {
   resolveGaMeasurementId,
   resolveSiteSocialLinks,
   shouldLoadGoogleAnalytics,
+  vercelAnalyticsCustomPropertyLimit,
 } from "@/lib/site-config";
 
 describe("resolveDeploymentUrl", () => {
@@ -149,6 +150,28 @@ describe("shouldLoadGoogleAnalytics", () => {
     process.env.NODE_ENV = "development";
     process.env.VERCEL_ENV = "production";
     expect(shouldLoadGoogleAnalytics()).toBe(false);
+  });
+});
+
+describe("vercelAnalyticsCustomPropertyLimit", () => {
+  const key = "NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT";
+  let saved: string | undefined;
+
+  afterEach(() => {
+    if (saved === undefined) delete process.env[key];
+    else process.env[key] = saved;
+  });
+
+  it("defaults to 8 (Plus)", () => {
+    saved = process.env[key];
+    delete process.env[key];
+    expect(vercelAnalyticsCustomPropertyLimit()).toBe(8);
+  });
+
+  it("returns 2 when explicitly configured for base Pro", () => {
+    saved = process.env[key];
+    process.env[key] = "2";
+    expect(vercelAnalyticsCustomPropertyLimit()).toBe(2);
   });
 });
 

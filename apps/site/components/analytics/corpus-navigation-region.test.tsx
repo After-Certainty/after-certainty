@@ -3,7 +3,11 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { beforeEach, expect, it, vi } from "vitest";
 import { CorpusNavigationRegion } from "@/components/analytics/corpus-navigation-region";
 import { RelatedChaptersSection } from "@/components/explore/related-chapters-section";
-import { corpusDestination } from "@/lib/analytics/vercel-intent";
+import {
+  corpusDestination,
+  corpusTargetIdFromHref,
+  shouldAttachCorpusToId,
+} from "@/lib/analytics/vercel-intent";
 
 const sdk = vi.hoisted(() => ({ calls: vi.fn(), fail: false }));
 const trackMock = sdk.calls;
@@ -16,6 +20,7 @@ vi.mock("@vercel/analytics", () => ({
 beforeEach(() => {
   trackMock.mockReset();
   sdk.fail = false;
+  delete process.env.NEXT_PUBLIC_VERCEL_ANALYTICS_PROPERTY_LIMIT;
 });
 
 it("attributes only supported curated links and leaves activation uncancelled", () => {
@@ -39,7 +44,7 @@ it("attributes only supported curated links and leaves activation uncancelled", 
   ]);
 });
 
-it("classifies chapter destinations without emitting slugs, titles, or queries", () => {
+it("keeps concept→chapter type-only (no to_id) and still omits titles/queries", () => {
   render(
     <RelatedChaptersSection
       fromType="concept"
@@ -61,6 +66,77 @@ it("classifies chapter destinations without emitting slugs, titles, or queries",
   ]);
 });
 
+it("attaches the same semantic to_id for source→chapter from RelatedChaptersSection and a CTA", () => {
+  const chapterId = "chapter-when-authority-outlives-accountability-parts-part-1-chapter-1";
+  const href = "/explore/books/when-authority-outlives-accountability/chapters/parts-part-1-chapter-1";
+
+  render(
+    <>
+      <RelatedChaptersSection
+        fromType="source"
+        chapters={[
+          {
+            id: chapterId,
+            title: "Chapter one",
+            href,
+            position: 1,
+            bookSlug: "when-authority-outlives-accountability",
+            bookTitle: "When Authority Outlives Accountability",
+          },
+        ]}
+      />
+      <CorpusNavigationRegion fromType="source">
+        <Link href={href} data-analytics-to-id={chapterId}>
+          Read the relevant passage
+        </Link>
+      </CorpusNavigationRegion>
+    </>,
+  );
+
+  fireEvent.click(screen.getByRole("link", { name: "Chapter one" }), { ctrlKey: true });
+  fireEvent.click(screen.getByRole("link", { name: "Read the relevant passage" }), { ctrlKey: true });
+
+  expect(trackMock.mock.calls).toEqual([
+    [
+      "corpus_navigation",
+      {
+        from_type: "source",
+        to_type: "chapter",
+        relation: "related",
+        to_id: chapterId,
+      },
+    ],
+    [
+      "corpus_navigation",
+      {
+        from_type: "source",
+        to_type: "chapter",
+        relation: "related",
+        to_id: chapterId,
+      },
+    ],
+  ]);
+});
+
+it("omits to_id when data-analytics-to-id is absent (type-level only; no path-derived ids)", () => {
+  render(
+    <CorpusNavigationRegion fromType="thinker">
+      <Link href="/explore/books/demo-book/chapters/intro-chapter">Read</Link>
+    </CorpusNavigationRegion>,
+  );
+  fireEvent.click(screen.getByRole("link"), { ctrlKey: true });
+  expect(trackMock.mock.calls).toEqual([
+    [
+      "corpus_navigation",
+      {
+        from_type: "thinker",
+        to_type: "chapter",
+        relation: "related",
+      },
+    ],
+  ]);
+});
+
 it("ignores non-node routes, download links, and regions with no source attribution", () => {
   for (const href of [
     "https://example.com/explore/books/a",
@@ -72,6 +148,9 @@ it("ignores non-node routes, download links, and regions with no source attribut
   ]) {
     expect(corpusDestination(href)).toBeNull();
   }
+  expect(corpusTargetIdFromHref("/explore/books/a/chapters/b")).toBe("a/b");
+  expect(shouldAttachCorpusToId("source", "chapter")).toBe(true);
+  expect(shouldAttachCorpusToId("concept", "chapter")).toBe(false);
   render(
     <CorpusNavigationRegion>
       <Link href="/explore/books/a">Unattributed</Link>

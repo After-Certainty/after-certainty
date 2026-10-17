@@ -53,7 +53,14 @@ describe("ChapterAudioPlayer", () => {
   });
 
   it("renders an always-visible dock without a Listen expand CTA", () => {
-    render(<ChapterAudioPlayer audio={unit} alignment={alignment} />);
+    render(
+      <ChapterAudioPlayer
+        audio={unit}
+        alignment={alignment}
+        bookId="book-observer-patterns"
+        chapterId="chapter-observer-patterns-front-matter-introduction"
+      />,
+    );
 
     expect(screen.getByTestId("chapter-audio-player")).toBeInTheDocument();
     expect(screen.getByRole("region", { name: "Chapter audio" })).toBeInTheDocument();
@@ -64,7 +71,14 @@ describe("ChapterAudioPlayer", () => {
   });
 
   it("renders a playback speed control defaulting to 1×", () => {
-    render(<ChapterAudioPlayer audio={unit} alignment={alignment} />);
+    render(
+      <ChapterAudioPlayer
+        audio={unit}
+        alignment={alignment}
+        bookId="book-observer-patterns"
+        chapterId="chapter-observer-patterns-front-matter-introduction"
+      />,
+    );
 
     const speed = screen.getByRole("combobox", { name: "Playback speed" });
     expect(speed).toHaveValue("1");
@@ -73,7 +87,14 @@ describe("ChapterAudioPlayer", () => {
 
   it("applies the selected playback rate to the audio element and persists it", async () => {
     const user = userEvent.setup();
-    render(<ChapterAudioPlayer audio={unit} alignment={alignment} />);
+    render(
+      <ChapterAudioPlayer
+        audio={unit}
+        alignment={alignment}
+        bookId="book-observer-patterns"
+        chapterId="chapter-observer-patterns-front-matter-introduction"
+      />,
+    );
 
     const speed = screen.getByRole("combobox", { name: "Playback speed" });
     await user.selectOptions(speed, "1.5");
@@ -85,7 +106,14 @@ describe("ChapterAudioPlayer", () => {
 
   it("restores a previously stored playback rate on mount", () => {
     setAudioPlaybackRate(1.75);
-    render(<ChapterAudioPlayer audio={unit} alignment={alignment} />);
+    render(
+      <ChapterAudioPlayer
+        audio={unit}
+        alignment={alignment}
+        bookId="book-observer-patterns"
+        chapterId="chapter-observer-patterns-front-matter-introduction"
+      />,
+    );
 
     expect(screen.getByRole("combobox", { name: "Playback speed" })).toHaveValue("1.75");
     expect(screen.getByTestId("chapter-audio-element")).toHaveProperty("playbackRate", 1.75);
@@ -96,7 +124,14 @@ it("tracks only confirmed playback once per chapter source, preserving controls 
   trackMock.mockImplementation(() => {
     throw new Error("Offline analytics");
   });
-  const { rerender } = render(<ChapterAudioPlayer audio={unit} alignment={alignment} />);
+  const { rerender } = render(
+    <ChapterAudioPlayer
+      audio={unit}
+      alignment={alignment}
+      bookId="book-observer-patterns"
+      chapterId="chapter-observer-patterns-front-matter-introduction"
+    />,
+  );
   const element = screen.getByTestId("chapter-audio-element");
   expect(trackMock).not.toHaveBeenCalled();
   fireEvent.play(element);
@@ -106,13 +141,21 @@ it("tracks only confirmed playback once per chapter source, preserving controls 
   fireEvent.pause(element);
   fireEvent.playing(element);
   expect(trackMock.mock.calls).toEqual([
-    ["listen_started", { location: "chapter_reader", media_type: "chapter_audio" }],
+    [
+      "reader_audio_started",
+      {
+        book_id: "book-observer-patterns",
+        chapter_id: "chapter-observer-patterns-front-matter-introduction",
+      },
+    ],
   ]);
   expect(element).toHaveAttribute("controls");
   rerender(
     <ChapterAudioPlayer
       audio={{ ...unit, audioUrl: "/generated/audio/another.mp3" }}
       alignment={alignment}
+      bookId="book-observer-patterns"
+      chapterId="chapter-observer-patterns-front-matter-introduction"
     />,
   );
   fireEvent.playing(element);

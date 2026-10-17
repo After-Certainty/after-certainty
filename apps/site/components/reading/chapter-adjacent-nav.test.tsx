@@ -3,15 +3,22 @@ import { describe, expect, it, vi } from "vitest";
 
 import { ChapterAdjacentNav } from "@/components/reading/chapter-adjacent-nav";
 
-const trackEvent = vi.fn();
+const trackNextChapter = vi.fn();
+const navigateToChapter = vi.fn();
 
-vi.mock("@/lib/analytics/track", () => ({
-  trackEvent: (...args: unknown[]) => trackEvent(...args),
+vi.mock("@/lib/analytics/track-reader", () => ({
+  trackNextChapter: (...args: unknown[]) => trackNextChapter(...args),
+}));
+
+vi.mock("@/lib/reading/navigate-chapter", () => ({
+  cancelSpokenContent: vi.fn(),
+  navigateToChapter: (...args: unknown[]) => navigateToChapter(...args),
 }));
 
 describe("ChapterAdjacentNav", () => {
   it("fires next_chapter analytics when Next is clicked", () => {
-    trackEvent.mockClear();
+    trackNextChapter.mockClear();
+    navigateToChapter.mockClear();
     render(
       <ChapterAdjacentNav
         bookId="book-1"
@@ -30,7 +37,7 @@ describe("ChapterAdjacentNav", () => {
     expect(next).toHaveAttribute("href", "/explore/books/demo/chapters/two");
     expect(next).toHaveAttribute("data-reader-hard-nav", "");
     fireEvent.click(next);
-    expect(trackEvent).toHaveBeenCalledWith("next_chapter", {
+    expect(trackNextChapter).toHaveBeenCalledWith({
       book_id: "book-1",
       from_chapter_id: "ch-1",
       to_chapter_id: "ch-2",
@@ -38,7 +45,7 @@ describe("ChapterAdjacentNav", () => {
   });
 
   it("does not fire analytics for Previous", () => {
-    trackEvent.mockClear();
+    trackNextChapter.mockClear();
     render(
       <ChapterAdjacentNav
         bookId="book-1"
@@ -54,6 +61,6 @@ describe("ChapterAdjacentNav", () => {
     );
 
     fireEvent.click(screen.getByRole("link", { name: "Previous chapter: Chapter One" }));
-    expect(trackEvent).not.toHaveBeenCalled();
+    expect(trackNextChapter).not.toHaveBeenCalled();
   });
 });

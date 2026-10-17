@@ -1,8 +1,8 @@
 # Vercel reader analytics migration
 
-**Status:** Specialized plan — **PR 0 (architecture & migration plan)**  
+**Status:** Specialized plan — **PR 1 in progress** (instrumentation); PR 0 merged  
 **Created:** 2026-10-17  
-**Revised:** 2026-10-17 (PR review clarifications: source→chapter attribution spike, consent-split facade, early privacy-copy fix, property sufficiency)  
+**Revised:** 2026-10-17 (PR 1: facade + dual-write; attribution spike decision; privacy copy)  
 **Location:** `docs/roadmaps/vercel-reader-analytics-migration.md`  
 **Authority:** Specialized cross-layer plan. Does **not** replace [`remaining-product-roadmap.md`](remaining-product-roadmap.md). Unfinished follow-ups after each PR merge belong on the master roadmap Observe / Now sections, not as a second backlog.
 
@@ -256,6 +256,8 @@ During parallel measurement, GA may keep existing names (`next_chapter`, `file_d
    - Privacy-safe `to_id` (stable semantic chapter or book id) on the relevant source/thinker → chapter/book events only — **not** arbitrary URLs, titles, or all-nav tracking.
    - Explicit property-budget tradeoff: adding `to_id` may require dropping one of `from_type` / `to_type` / `relation`, encoding an `edge` string, or confirming Plus (8 props) after billing re-check.
 4. Default reporting language until the spike lands: **type-level only**.
+
+**PR 1 outcome:** Spike complete — see [`apps/site/docs/reader-analytics-attribution-spike.md`](../../apps/site/docs/reader-analytics-attribution-spike.md). Type-only properties cannot prove source X → chapter Y. Instrumentation now attaches privacy-safe `to_id` on source/thinker → book/chapter edges only.
 
 ### 6.6 Reusable instrumentation to keep
 

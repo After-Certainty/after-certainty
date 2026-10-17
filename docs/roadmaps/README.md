@@ -36,7 +36,7 @@ For architecture, how-to guides, and repository navigation, start at [`docs/READ
 |------|-------|----------------|
 | [`elevenlabs-tts-pilot.md`](elevenlabs-tts-pilot.md) | Provider-neutral chapter TTS for native reader (ElevenLabs first adapter; credit/usage-bounded) | **specialized-plan — platform complete** (Phases 0–6 shipped; Phase 8 = ongoing selective narration ops; Phase 7 OpenAI = triggered only) |
 | [`pattern-recognition-challenge.md`](pattern-recognition-challenge.md) | Local-first Pattern Recognition Challenge game (corpus challenges + site play) | **specialized-plan — through GAME-001e complete** (enjoyability Observe gate; Phases 8–9 Supabase/advanced modes = triggered only) |
-| [`vercel-reader-analytics-migration.md`](vercel-reader-analytics-migration.md) | Migrate primary analytics from GA4 to Vercel Web Analytics (parallel measurement; GSC retained) | **specialized-plan — PR 0 planning** (PRs 1–3 sequential; PR 4 retire GA4 only after approval gate) |
+| [`vercel-reader-analytics-migration.md`](vercel-reader-analytics-migration.md) | Migrate primary analytics from GA4 to Vercel Web Analytics (parallel measurement; GSC retained) | **specialized-plan — PR 1 instrumentation** (PR 0 merged; PRs 2–3 sequential; PR 4 retire GA4 only after approval gate) |
 
 ### Complete specialized site plans
 

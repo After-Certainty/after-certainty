@@ -49,6 +49,7 @@ export function CompactBookRow({
     >
       <Link
         href={href}
+        data-analytics-to-id={book.id}
         className="flex min-h-11 items-center gap-3 py-[var(--explore-row-py)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
       >
         <div

@@ -11,6 +11,7 @@ const sharedExclude = ["node_modules", ".next", "out", "build", "e2e", "**/e2e/*
 /** Pure Node tests that still touch DOM APIs (localStorage, document, etc.). */
 const jsdomTsTests = [
   "lib/a11y/focus-trap.test.ts",
+  "lib/analytics/reader.test.ts",
   "lib/analytics/track-reader.test.ts",
   "lib/analytics/track.test.ts",
   "lib/consent/storage.test.ts",
